@@ -222,7 +222,7 @@ Power BI 서비스의 왼쪽 가장자리를 따라 표시되는 컨트롤입니
 
 **Power BI**, **Power BI Desktop (Power BI 서비스)** , **Power BI Desktop**, **Power BI Mobile**, Power BI 제품 일부 *Power BI*는 일반적인 용어입니다. 대개 최초에 *Power BI 서비스* 및 *Power BI Mobile*과 같은 전체 제품 이름을 언급한 후에 Power BI를 사용합니다.
 
-**Power BI Desktop***Desktop*이라고도 합니다. 데이터를 연결, 변환 및 시각화할 수 있도록 로컬 컴퓨터에 설치할 수 있는 Power BI의 무료 Windows 애플리케이션입니다. 보고서 디자이너 및 관리자가 사용합니다. 자세한 내용은 [Power BI란?](../fundamentals/power-bi-overview.md)을 참조하세요.
+**Power BI Desktop** *Desktop*이라고도 합니다. 데이터를 연결, 변환 및 시각화할 수 있도록 로컬 컴퓨터에 설치할 수 있는 Power BI의 무료 Windows 애플리케이션입니다. 보고서 디자이너 및 관리자가 사용합니다. 자세한 내용은 [Power BI란?](../fundamentals/power-bi-overview.md)을 참조하세요.
 
 **Power BI Embedded** 개발자가 자체 앱, 사이트 및 도구에 Power BI 대시보드 및 보고서를 포함하는 데 사용하는 제품입니다.
 
