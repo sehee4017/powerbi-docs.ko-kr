@@ -103,7 +103,7 @@ DirectQuery를 사용하는 대신 데이터 웨어하우스에서 해당 판매
 
 ![여러 테이블이 있는 관계 보기](media/desktop-composite-models/composite-models_13.png)
 
-다음 이미지는 새 데이터 및 생성된 관계를 기반으로 합니다. 왼쪽 아래의 시각적 개체에서는 *판매액* 대 *대상*이 표시되고 편찬 계산에서는 차이가 표시됩니다. **판매액** 및 **대상** 데이터는 서로 다른 두 SQL Server 데이터베이스에서 가져옵니다.
+다음 이미지는 새 데이터 및 생성된 관계를 기반으로 합니다. 왼쪽 아래의 시각적 개체에서는 *판매액* 대 *대상*이 표시되고 편차 계산에서는 차이가 표시됩니다. **판매액** 및 **대상** 데이터는 서로 다른 두 SQL Server 데이터베이스에서 가져옵니다.
 
 ![더 많은 데이터를 보여주는 이미지](media/desktop-composite-models/composite-models_14.png)
 
@@ -115,7 +115,7 @@ DirectQuery를 사용하는 대신 데이터 웨어하우스에서 해당 판매
 
 ![스토리지 모드를 표시하는 도구 설명](media/desktop-composite-models/composite-models_16.png)
 
-DirectQuery의 일부 테이블과 일부 가져오기 테이블을 포함하는 Power BI Desktop 파일( *.pbix* 파일)의 경우 상태 표시줄에 **혼합**이라는 스토리지 모드가 표시됩니다. 상태 표시줄에서 해당 용어를 클릭하여 모든 테이블을 가져오기로 쉽게 전환할 수 있습니다.
+DirectQuery의 일부 테이블과 일부 가져오기 테이블을 포함하는 Power BI Desktop 파일(*.pbix* 파일)의 경우 상태 표시줄에 **혼합**이라는 스토리지 모드가 표시됩니다. 상태 표시줄에서 해당 용어를 클릭하여 모든 테이블을 가져오기로 쉽게 전환할 수 있습니다.
 
 스토리지 모드에 대한 자세한 내용은 [Power BI Desktop의 스토리지 모드 관리](desktop-storage-mode.md)를 참조하세요.  
 

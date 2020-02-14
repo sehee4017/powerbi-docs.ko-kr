@@ -18,7 +18,7 @@ ms.locfileid: "75760023"
 ---
 # <a name="manage-storage-mode-in-power-bi-desktop"></a>Power BI Desktop의 스토리지 모드 관리
 
-Microsoft Power BI Desktop에서는 테이블의 ‘스토리지 모드’를 지정할 수 있습니다.  ‘스토리지 모드’를 사용하면 Power BI Desktop이 보고서에 대한 메모리 내 테이블 데이터를 캐시할지 여부를 제어할 수 있습니다.  
+Microsoft Power BI Desktop에서는 테이블의 ‘스토리지 모드’를 지정할 수 있습니다. ‘스토리지 모드’를 사용하면 Power BI Desktop이 보고서에 대한 메모리 내 테이블 데이터를 캐시할지 여부를 제어할 수 있습니다. 
 
 ![Power BI Desktop의 스토리지 모드](media/desktop-storage-mode/storage-mode-01.png)
 
@@ -38,7 +38,7 @@ Power BI Desktop의 스토리지 모드 설정은 다음 세 가지 관련 기�
 
 * **복합 모델**: 보고서에 DirectQuery 연결 또는 가져오기를 비롯한 두 개 이상의 데이터 연결을 다양한 조합으로 포함할 수 있습니다. 자세한 내용은 [Power BI Desktop의 복합 모델](desktop-composite-models.md)을 참조하세요.
 
-* **다 대 다 관계**: ‘복합 모델’을 사용하면 테이블 간에 ‘다 대 다 관계’를 설정할 수 있습니다.   ‘다 대 다 관계’는 테이블의 고유한 값에 대한 요구 사항을 제거합니다.  또한 관계 설정 목적으로만 새 테이블을 도입하는 것과 같은 이전 해결 방법을 제거합니다. 자세한 내용은 [Power BI Desktop의 다 대 다 관계](desktop-many-to-many-relationships.md)를 참조하세요.
+* **다 대 다 관계**: ‘복합 모델’을 사용하면 테이블 간에 ‘다 대 다 관계’를 설정할 수 있습니다. ‘다 대 다 관계’는 테이블의 고유한 값에 대한 요구 사항을 제거합니다. 또한 관계 설정 목적으로만 새 테이블을 도입하는 것과 같은 이전 해결 방법을 제거합니다. 자세한 내용은 [Power BI Desktop의 다 대 다 관계](desktop-many-to-many-relationships.md)를 참조하세요.
 
 * **스토리지 모드**: 이제 백 엔드 데이터 원본에 대한 쿼리가 필요한 시각적 개체를 지정할 수 있습니다. 쿼리가 필요 없는 시각적 개체는 DirectQuery를 기반으로 하는 경우에도 가져옵니다. 이 기능은 성능을 개선하고 백 엔드 로드를 줄이는 데 도움이 됩니다. 이전에는 슬라이서와 같은 간단한 시각적 개체도 백 엔드 원본으로 전송되는 쿼리를 시작했습니다. 스토리지 모드는 이 문서에서 더 자세히 설명합니다.
 
@@ -63,7 +63,7 @@ Power BI Desktop의 스토리지 모드 설정은 다음 세 가지 관련 기�
 테이블을 **가져오기**로 변경하는 작업은 *실행 취소*할 수 없습니다. 이 속성을 다시 DirectQuery 또는 이중으로 변경할 수는 없습니다.
 
 > [!NOTE]
-> Power BI Desktop 및 Power BI 서비스에서 *듀얼* 스토리지 모드를 사용할 수 있습니다.
+> Power BI Desktop 및 Power BI 서비스에서 *이중* 스토리지 모드를 사용할 수 있습니다.
 
 
 ## <a name="constraints-on-directquery-and-dual-tables"></a>DirectQuery 및 이중 테이블에 대한 제약 조건
@@ -121,7 +121,7 @@ Power BI Desktop의 진단 포트에 **SQL 프로파일러**를 연결하면 다
 
 ![스토리지 모드 진단용 스크립트](media/desktop-storage-mode/storage-mode-06.png)
 
-다음 쿼리는 **DirectQuery** 모드인 *Sales* 테이블의 열만 참조합니다. 따라서 캐시를 적중하지 ‘않아야’ 합니다. 
+다음 쿼리는 **DirectQuery** 모드인 *Sales* 테이블의 열만 참조합니다. 따라서 캐시를 적중하지 ‘않아야’ 합니다.
 
 ![스토리지 모드 진단용 스크립트](media/desktop-storage-mode/storage-mode-07.png)
 
