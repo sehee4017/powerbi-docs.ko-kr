@@ -133,7 +133,7 @@ _참조 무결성 가정_ 속성은 동일한 데이터 원본을 기반으로 �
 - [RELATED](/dax/related-function-dax): "일" 쪽에서 값을 검색합니다.
 - [RELATEDTABLE](/dax/relatedtable-function-dax): "다" 쪽에서 행의 테이블을 검색합니다.
 - [USERELATIONSHIP](/dax/userelationship-function-dax): 특정 비활성 모델 관계를 강제로 사용합니다.
-- [CROSSFILTER](/dax/crossfilter-function): 관계 교차 필터 방향을 수정하거나(one 또 both로), 필터 전파를 사용하지 않도록 설정합니다(none).
+- [CROSSFILTER](/dax/crossfilter-function): 관계 교차 필터 방향을 수정하거나(단방향 또는 양방향), 필터 전파를 사용하지 않도록 설정합니다(없음).
 - [COMBINEVALUES](/dax/combinevalues-function-dax): 둘 이상의 텍스트 문자열을 하나의 텍스트 문자열로 조인합니다. 이 함수는 DirectQuery 모델에서 다중 열 관계를 지원하기 위한 것입니다.
 - [TREATAS](/dax/treatas-function): 관계되지 않은 테이블의 열에 테이블 식의 결과를 필터로 적용합니다.
 - [부모 및 자식 함수](/dax/parent-and-child-functions-dax): 부모-자식 계층을 이식하기 위해 계산 열을 생성하는 데 사용할 수 있는 관계 함수의 패밀리입니다. 그러면 이러한 열을 사용하여 고정된 수준 계층을 만들 수 있습니다.
