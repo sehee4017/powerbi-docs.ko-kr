@@ -1,6 +1,6 @@
 ---
-title: Report Builder 설치 - Power BI Report Server
-description: 이 문서에서는 Power BI Report Server에 대해 Report Builder를 다운로드하고 설치하는 방법을 설명합니다.
+title: 보고서 작성기 설치 - Power BI Report Server
+description: 이 문서에서는 Power BI Report Server에 대해 보고서 작성기를 다운로드하고 설치하는 방법을 설명합니다.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -15,7 +15,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 01/15/2020
 ms.locfileid: "75953925"
 ---
-# <a name="install-report-builder---power-bi-report-server"></a>Report Builder 설치 - Power BI Report Server
+# <a name="install-report-builder---power-bi-report-server"></a>보고서 작성기 설치 - Power BI Report Server
 
 Report Builder는 사용자 또는 관리자가 해당 컴퓨터에 설치하는 독립 실행형 앱입니다. Microsoft 다운로드 센터 또는 Power BI Report Server에서 설치할 수 있습니다.  
 

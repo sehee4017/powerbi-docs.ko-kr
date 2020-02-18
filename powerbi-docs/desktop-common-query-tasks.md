@@ -39,7 +39,7 @@ Power BI Desktop의 Power Query 편집기 창에는 일반적으로 사용되는
 
 ## <a name="connect-to-data"></a>데이터에 연결
 
-Power BI Desktop의 데이터에 연결하려면 **홈**을 선택한 다음 **데이터 가져오기**를 선택합니다. Power BI Desktop에서 가장 일반적인 데이터 소스가 포함된 메뉴를 표시합니다. Power BI Desktop이 연결할 수 있는 데이터 원본의 전체 목록을 보려면 메뉴 맨 아래에 있는 **자세히**를 선택합니다. 자세한 내용은 [Power BI Desktop의 데이터 원본](desktop-data-sources.md)을 참조하세요.
+Power BI Desktop의 데이터에 연결하려면 **홈**을 선택한 다음 **데이터 가져오기**를 선택합니다. Power BI Desktop에서 가장 일반적인 데이터 원본이 포함된 메뉴를 표시합니다. Power BI Desktop이 연결할 수 있는 데이터 원본의 전체 목록을 보려면 메뉴 맨 아래에 있는 **자세히**를 선택합니다. 자세한 내용은 [Power BI Desktop의 데이터 원본](desktop-data-sources.md)을 참조하세요.
 
 ![가장 일반적 데이터 원본 메뉴, 데이터 가져오기 단추, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_getdata.png)
 
@@ -71,7 +71,7 @@ Power Query 편집기로 쉽게 데이터를 셰이핑하고 결합할 수 있�
 
 ![쿼리 창, Power Query 편집기, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_querypaneloaded.png)
 
-데이터 모양을 지정하는 경우 요구 사항에 맞는 형태와 형식으로 데이터 소스를 변환합니다.
+데이터 모양을 지정하는 경우 요구 사항에 맞는 형태와 형식으로 데이터 원본을 변환합니다.
 
 Power Query 편집기에서는 리본 메뉴와 상황에 맞는 메뉴에서 많은 명령을 찾을 수 있습니다. 예를 들어 열을 마우스 오른쪽 단추로 클릭하면 상황에 맞는 메뉴를 사용하여 열을 제거할 수 있습니다. 열을 선택한 다음 리본 메뉴의 **홈** 탭에서 **열 제거** 단추를 선택할 수도 있습니다.
 
