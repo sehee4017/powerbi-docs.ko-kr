@@ -9,12 +9,13 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/18/2019
 ms.author: mihart
-ms.openlocfilehash: 0cbd343203aa0626877e6d4841284eb57869e101
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 59685b4c3ceab4b60cba92ec1d3924b902c1426a
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75758810"
+ms.lasthandoff: 02/10/2020
+ms.locfileid: "77115311"
 ---
 # <a name="interact-with-arcgis-maps-in-power-bi"></a>Power BI에서 ArcGIS 지도와 상호 작용
 이 토픽은 Power BI 서비스, 데스크톱 또는 모바일에서 ArcGIS 지도를 사용하는 사람의 관점에서 작성되었습니다. 디자이너가 ArcGIS map for Power BI 시각적 개체를 공유하면 여러 가지 방법으로 해당 시각적 개체와 상호 작용할 수 있습니다.  ArcGIS 지도를 작성하는 방법에 대한 자세한 내용은 [ArcGIS maps by Esri tutorial](../visuals/power-bi-visualization-arcgis.md)(Esri에서 제공하는 ArcGIS 지도 자습서)을 참조하세요.
