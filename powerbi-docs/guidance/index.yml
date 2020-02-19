@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 16bfba0b4ed83be55604d2a12e5b86edae2d58bc
-  ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+  ms.openlocfilehash: 8d7ddeffd4394d5fea4770ab0739133b68e04a18
+  ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 02/12/2020
-  ms.locfileid: "77154192"
+  ms.lasthandoff: 02/19/2020
+  ms.locfileid: "77465017"
 landingContent:
 - title: Power BI 지침
   linkLists:
@@ -75,7 +75,7 @@ landingContent:
       url: dax-column-measure-references.md
     - text: FILTER를 필터 인수로 사용하지 마세요.
       url: dax-avoid-avoid-filter-as-filter-argument.md
-- title: 보고서 작성
+- title: Power BI 보고서
   linkLists:
   - linkListType: concept
     links:
@@ -83,11 +83,17 @@ landingContent:
       url: report-page-tooltips.md
     - text: 보고서 페이지 드릴스루 사용
       url: report-drillthrough.md
-    - text: Power BI의 페이지를 매긴 보고서가 필요한 경우
+- title: Power BI 페이지를 매긴 보고서
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 보고서 페이지 드릴스루 사용
+      url: report-drillthrough.md
+    - text: 페이지를 매긴 보고서를 사용하는 경우
       url: report-paginated-or-power-bi.md
-    - text: 페이지를 매긴 보고서에서 연계 매개 변수 사용
+    - text: 연계 매개 변수 사용
       url: paginated-report-cascading-parameter.md
-    - text: 페이지를 매긴 보고서를 인쇄할 때 빈 페이지 방지
+    - text: 인쇄할 때 빈 페이지 방지
       url: report-paginated-blank-page.md
     - text: SSRS 보고서를 Power BI로 마이그레이션
       url: migrate-ssrs-reports-to-power-bi.md

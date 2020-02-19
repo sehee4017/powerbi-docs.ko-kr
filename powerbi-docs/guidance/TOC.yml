@@ -52,15 +52,19 @@
               href: dax-column-measure-references.md
             - name: FILTER를 필터 인수로 사용하지 마세요.
               href: dax-avoid-avoid-filter-as-filter-argument.md
+        - name: Power BI 보고서
+          items:
             - name: 보고서 페이지 도구 설명을 사용하여 시각적 개체 확장
               href: report-page-tooltips.md
             - name: 보고서 페이지 드릴스루 사용
               href: report-drillthrough.md
-            - name: Power BI의 페이지를 매긴 보고서가 필요한 경우
+        - name: Power BI 페이지를 매긴 보고서
+          items:
+            - name: 페이지를 매긴 보고서를 사용하는 경우
               href: report-paginated-or-power-bi.md
-            - name: 페이지를 매긴 보고서에서 연계 매개 변수 사용
+            - name: 연계 매개 변수 사용
               href: paginated-report-cascading-parameter.md
-            - name: 페이지를 매긴 보고서를 인쇄할 때 빈 페이지 방지
+            - name: 인쇄할 때 빈 페이지 방지
               href: report-paginated-blank-page.md
             - name: SSRS 보고서를 Power BI로 마이그레이션
               href: migrate-ssrs-reports-to-power-bi.md
