@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 57819765b156baac2a86b8144e86770a0117adfd
-ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
+ms.openlocfilehash: 864854e774defee16d446a513622e1134c77d75c
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/31/2019
-ms.locfileid: "75548594"
+ms.lasthandoff: 02/10/2020
+ms.locfileid: "77115265"
 ---
 # <a name="what-is-power-bi-administration"></a>Power BI 관리란?
 
@@ -80,10 +80,9 @@ Power BI 서비스 관리자 역할은 사용자에게 라이선스를 할당하
 
 이 문서를 통해 Power BI 관리자 작업 및 관련된 특정 역할, 작업 및 도구에 대한 인사이트를 빠르게 파악하기를 바랍니다. 이해도를 높이기 위해 다음 문서 주제를 참조하는 것이 좋습니다.
 
-[Power BI 관리 포털 사용](service-admin-portal.md)
-
-[PowerShell cmdlet 사용](/powershell/power-bi/overview)
-
-[Power BI 관리 FAQ](service-admin-faq.md)
-
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+- [Power BI 관리 포털 사용](service-admin-portal.md)
+- [테넌트 관리자 설정 지침](guidance/admin-tenant-settings.md)
+- [PowerShell cmdlet 사용](/powershell/power-bi/overview)
+- [Power BI 관리 FAQ](service-admin-faq.md)
+- 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+- 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com/)

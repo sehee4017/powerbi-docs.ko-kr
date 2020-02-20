@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 160812521939d505612e0725e678dcf985f0d03a
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 01996f3460b7c7a507796bd3f071f7887a69854e
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75761844"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77154215"
 ---
 # <a name="apply-auto-datetime-in-power-bi-desktop"></a>Power BI Desktop의 자동 날짜/시간 적용
 
@@ -24,6 +24,7 @@ ms.locfileid: "75761844"
 이 옵션을 사용하도록 설정되면 다음 조건에 모두 해당하는 경우 Power BI Desktop에서 각 날짜 열에 대해 숨겨진 자동 날짜/시간 테이블을 만듭니다.
 
 - 테이블 스토리지 모드가 가져오기입니다.
+- 열은 계산된 열이 아닙니다.
 - 열 데이터 형식이 날짜 또는 날짜/시간입니다.
 - 열이 모델 관계의 "다" 쪽이 아닙니다.
 
@@ -44,6 +45,8 @@ Power BI Desktop에서 자동 날짜/시간 테이블의 **Date** 열과 모델 
 
 > [!NOTE]
 > 자동 날짜/시간 테이블은 모델러에서도 영구적으로 숨겨집니다. 이러한 테이블은 **필드** 창 또는 모델 보기 다이어그램에서 볼 수 없으며, 데이터 보기에서 해당 행을 볼 수 없습니다. 또한 DAX 식에서도 테이블과 해당 열을 직접 참조할 수 없습니다.
+>
+> 또한 [Excel에서 분석](service-analyze-in-excel.md)을 사용하거나 Power BI가 아닌 보고서 디자이너를 사용하는 모델에 연결하는 경우에도 사용할 수 없습니다.
 
 이 테이블은 계층 구조를 정의하여 연도, 분기, 월 및 일 수준까지의 드릴다운 경로도 시각적 개체에 제공합니다.
 
@@ -98,3 +101,4 @@ Power BI Desktop에서 _파일 > 옵션 및 설정 > 옵션_을 차례로 선택
 - [Power BI Desktop의 자동 날짜/시간 지침](guidance/auto-date-time.md)
 - [Power BI Desktop에서 날짜 테이블 설정 및 사용](desktop-date-tables.md)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+- 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com/)

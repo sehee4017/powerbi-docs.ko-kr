@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2e4ab92d5d1adce8659cdb971c5061a0f133b38f
-ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
+ms.openlocfilehash: 10f79c8670b42828b4219723bd8e503424e77820
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "76895501"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77154419"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Power BI에서 행렬 시각화 만들기
 
@@ -136,17 +136,32 @@ ms.locfileid: "76895501"
 
 계단형 레이아웃을 사용하지 않는 경우 Power BI에서는 상위 범주 아래에서 들여쓰기하지 않고 다른 열에 하위 범주를 표시합니다.
 
-## <a name="subtotals-with-matrix-visuals"></a>행렬 시각적 개체에서 부분합
+## <a name="subtotals-and-grand-totals-with-matrix-visuals"></a>행렬 시각적 개체에서 소계 및 총계 표시
 
-행과 열 모두의 경우 행렬 시각적 개체에서 부분합을 켜거나 끌 수 있습니다. 다음 이미지에서 행 소계가 **켜기**로 설정된 것을 확인할 수 있습니다.
+행과 열 모두의 경우 행렬 시각적 개체에서 부분합을 켜거나 끌 수 있습니다. 다음 이미지에서 행의 소계가 **켜기**로 설정되고 하단에 표시되도록 지정된 것을 확인할 수 있습니다.
 
-![총계 및 소계를 표시하는 행렬](media/desktop-matrix-visual/matrix-visual_20.png)
+![총계 및 소계를 표시하는 행렬](media/desktop-matrix-visual/power-bi-subtotals.png)
 
-시각화 창의 서식 섹션에서 **소계** 카드를 확장하고 행 소계 슬라이더를 **끄기**로 설정합니다. 이렇게 하면 소계가 표시되지 않습니다.
+**소계**를 켜고 레이블을 추가하면 Power BI도 총계의 값에 행을 추가하고 동일한 레이블을 적용합니다. 총계의 서식을 지정하려면 **총계**의 서식 옵션을 선택합니다. 
 
-![총계가 꺼져 있는 행렬](media/desktop-matrix-visual/matrix-visual_21.png)
+![총계 카드가 표시된 행렬](media/desktop-matrix-visual/power-bi-grand-total.png)
+
+소계와 총계를 사용하지 않으려면 시각화 창의 서식 섹션에서 **소계** 카드를 확장합니다. 행의 소계 슬라이더를 **끄기**로 밉니다. 이렇게 하면 소계가 표시되지 않습니다.
+
+![총계가 꺼져 있는 행렬](media/desktop-matrix-visual/power-bi-no-subtotals.png)
 
 열 부분합에 동일한 프로세스가 적용됩니다.
+
+## <a name="add-conditional-icons"></a>조건부 아이콘 추가
+*조건부 아이콘*이 포함된 테이블 또는 행렬에 시각 신호를 추가합니다. 
+
+시각화 창의 서식 섹션에서 **조건부 서식 지정** 카드를 확장합니다. **아이콘** 슬라이더를 **켜기**로 밀고 **고급 컨트롤**을 선택합니다.
+
+![아이콘 화면이 표시된 행렬](media/desktop-matrix-visual/power-bi-icons.png)
+
+행렬의 조건, 아이콘, 색상을 조정하고 **확인**을 선택합니다. 이 예제에서는 낮은 값에 빨간색 깃발, 높은 값에 보라색 원, 두 값의 사이에 있는 경우 노란색 삼각형을 사용했습니다. 
+
+![아이콘이 표시된 행렬](media/desktop-matrix-visual/power-bi-icons-applied.png)
 
 ## <a name="cross-highlighting-with-matrix-visuals"></a>행렬 시각적 개체를 사용한 상호 강조 표시
 

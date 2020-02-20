@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/04/2019
+ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6d2f1eea22f83d90501581be7d2e9b8230962835
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 014186acf6bf6b8c00686c0b7a29d0b526b0afb7
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74830873"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77154290"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI 보고서 및 대시보드의 테이블
 
@@ -98,22 +98,19 @@ ms.locfileid: "74830873"
 
 ### <a name="conditional-formatting"></a>조건부 서식 지정
 
-‘조건부 서식’은 형식의 한 가지 유형입니다.  Power BI는 **시각화** 창의 **값** 영역에 있는 필드에 조건부 서식을 적용합니다.
+‘조건부 서식’은 형식의 한 가지 유형입니다.  Power BI는 **시각화** 창의 **값** 웰에 추가한 모든 필드에 조건부 서식을 적용할 수 있습니다.
 
-테이블에 대한 조건부 서식 지정을 사용하여 그라데이션 색 사용을 포함하는 셀 값을 기반으로 하는 사용자 지정된 셀 배경색 및 글꼴 색을 지정할 수 있습니다.
+![시각화 창](media/power-bi-visualization-tables/power-bi-table-values.png)
 
-1. **시각화** 창에서 **필드** 아이콘 ![필드 아이콘](media/power-bi-visualization-tables/power-bi-fields-icon.png)을 선택합니다.
+테이블에서 조건부 서식 지정을 사용하여 셀 값을 기반으로 그라데이션 색 사용을 포함해 아이콘, URL, 셀 배경색 및 글꼴 색을 지정할 수 있습니다.
 
-1. 서식을 지정하려는 **값** 영역의 값 옆에 있는 아래쪽 화살표를 선택합니다(또는 필드를 마우스 오른쪽 단추로 클릭).
+1. **서식** 창에서 **조건부 서식 지정** 카드를 엽니다.
 
-    > [!NOTE]
-    > 필드에 대한 조건부 서식은 **필드**의 **값** 영역에서만 관리할 수 있습니다.
+    ![조건부 서식 지정 카드](media/power-bi-visualization-tables/power-bi-conditional.png)
 
-    ![배경색 눈금 경로](media/power-bi-visualization-tables/power-bi-conditional-formatting-background.png)
+1. 서식을 지정할 필드를 선택하고 **배경색** 슬라이더를 켜기로 밉니다. Power BI는 열의 값을 기준으로 그라데이션을 적용합니다. 기본 색을 변경하려면 **고급 컨트롤**을 선택합니다.
 
-1. **배경색**을 선택합니다.
-
-1. 대화 상자가 나타나면 색은 물론 **최소** 값과 **최대** 값을 구성할 수 있습니다. **분기** 옵션을 선택하면 선택적인 **가운데** 값도 구성할 수 있습니다.
+    **분기** 옵션을 선택하면 선택적인 **가운데** 값도 구성할 수 있습니다.
 
     ![배경색 눈금 화면](media/power-bi-visualization-tables/power-bi-conditional-formatting-background2.png)
 
@@ -124,11 +121,11 @@ ms.locfileid: "74830873"
 
     ![맨 오른쪽에 새 필드가 표시됨](media/power-bi-visualization-tables/power-bi-conditional-formatting2.png)
 
-1. **총 판매액 분산** 옆에 있는 아래쪽 화살표를 선택하고 **조건부 서식 > 데이터 막대**를 선택하여 데이터 막대 조건부 서식을 추가합니다.
+1. **데이터 막대** 슬라이더를 켜기로 밀어 데이터 막대 조건부 서식 지정을 추가합니다.  
 
-    ![데이터 막대를 선택하는 경로](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-bars.png)
+    ![데이터 막대가 있는 조건부 서식 지정 카드가 켜기로 설정됨](media/power-bi-visualization-tables/power-bi-data-bar-matrix.png)
 
-1. 표시되는 대화 상자에서 **양수 막대**, **음수 막대**의 색상을 설정하고 **막대만 표시** 옵션을 선택하고 원하는 다른 부분을 변경합니다.
+1. 데이터 막대를 사용자 지정하려면 **고급 컨트롤**을 선택합니다. 표시되는 대화 상자에서 **양수 막대**, **음수 막대**의 색상을 설정하고 **막대만 표시** 옵션을 선택하고 원하는 다른 부분을 변경합니다.
 
     ![막대만 표시하기 확인 표시](media/power-bi-visualization-tables/power-bi-data-bar.png)
 
@@ -138,10 +135,10 @@ ms.locfileid: "74830873"
 
     ![같은 테이블이지만 마지막 열에 막대가 있음](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-bars2.png)
 
-시각화에서 조건부 서식 지정을 제거하려면 필드를 다시 마우스 오른쪽 단추로 클릭하고 **조건부 서식 제거**를 선택합니다.
+1. *조건부 아이콘*이 포함된 테이블에 시각 신호를 추가합니다.  **조건부 서식 지정** 카드의 드롭다운에서 **올해 판매액**을 선택합니다. **아이콘** 슬라이더를 **켜기**로 밉니다.  아이콘을 사용자 지정하려면 **고급 컨트롤**을 선택합니다.
 
-> [!TIP]
-> **서식** 창에서 조건부 서식을 사용할 수도 있습니다. 서식을 지정할 값을 선택한 후 **색 눈금** 또는 **데이터 막대**를 **켜짐**으로 설정하여 기본 설정을 적용하거나 설정을 사용자 지정하고 **고급 컨트롤**을 선택합니다.
+    ![아이콘이 추가된 테이블](media/power-bi-visualization-tables/power-bi-table-icons.png)
+
 
 ## <a name="copy-values-from-power-bi-tables-for-use-in-other-applications"></a>다른 애플리케이션에서 사용하기 위해 Power BI 테이블의 값 복사
 
@@ -175,12 +172,13 @@ ms.locfileid: "74830873"
 
 ![열 크기 조정 비디오 확대 사진](media/power-bi-visualization-tables/resizetable.gif)
 
+
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
 
 열 서식 지정을 적용할 때 다음 중에 하나의 열당 맞춤 옵션을 선택할 수 있습니다. **자동**, **왼쪽**, **가운데**, **오른쪽**. 일반적으로 열은 모두 텍스트 또는 숫자만을 포함하고 섞지 않습니다. 열에 숫자와 텍스트가 모두 포함되어 있는 경우 **자동**은 텍스트의 경우 왼쪽에 정렬하고, 번호의 경우 오른쪽에 정렬합니다. 이 동작은 왼쪽에서 오른쪽으로 읽는 언어를 지원합니다.
 
 ## <a name="next-steps"></a>다음 단계
 
-* [Power BI의 트리맵](power-bi-visualization-treemaps.md)
+* [Power BI의 트리 맵](power-bi-visualization-treemaps.md)
 
 * [Power BI의 시각화 유형](power-bi-visualization-types-for-reports-and-q-and-a.md)

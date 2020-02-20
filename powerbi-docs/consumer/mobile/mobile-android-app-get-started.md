@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/08/2019
+ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: f0ffcdabf1fea090cff769fa35c8346812b37896
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: af3ae969d0aedab3cc49e8d286ce71313da3d6bc
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220229"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259765"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Android 디바이스에서 Power BI 모바일 앱 시작
 Microsoft Power BI용 Android 앱은 Power BI, Power BI Report Server 및 Reporting Services에 대한 모바일 BI 환경을 제공합니다. 어디서나 터치 사용 라이브 모바일 액세스를 사용하여 온-프레미스 및 클라우드에 있는 회사 대시보드를 쉽게 보고 조작할 수 있습니다. 대시보드의 데이터를 살펴보고 메일 또는 문자 메시지로 동료와 공유합니다. 
@@ -52,11 +52,11 @@ Power BI는 Android 5.0 이상 운영 체제를 실행하는 다양한 Android �
 1. Android 디바이스의 시작 화면에서 Android용 Power BI 앱을 엽니다.
    
    ![Power BI 아이콘](./media/mobile-android-app-get-started/power-bi-logo-android.png)
-2. Power BI 대시보드 및 보고서를 보려면 **Power BI**를 누릅니다.  
-   
-   Power BI에서 로그인할 수 없다는 메시지가 표시되는 경우 이 문제를 해결하는 방법에 대한 자세한 내용은 ["회사 SSL 인증서를 신뢰할 수 없기 때문에 인증할 수 없습니다."](mobile-android-app-error-corporate-ssl-account-is-untrusted.md)를 참조하세요.
+2. Power BI에 로그인하려면 **Power BI** 탭을 탭하여 로그인 세부 정보를 입력합니다.
 
-   Power BI Report Server 및 Reporting Services 보고서를 보려면 **Reporting Server**를 누릅니다.
+    Power BI에서 로그인할 수 없다는 메시지가 표시되는 경우 이 문제를 해결하는 방법에 대한 자세한 내용은 ["회사 SSL 인증서를 신뢰할 수 없기 때문에 인증할 수 없습니다."](mobile-android-app-error-corporate-ssl-account-is-untrusted.md)를 참조하세요.
+
+   Reporting Services 모바일 보고서와 KPI에 로그인하려면 **보고서 서버** 탭을 탭하여 로그인 세부 정보를 입력합니다.
    
    ![Power BI에 로그인](./media/mobile-android-app-get-started/power-bi-connect-to-login.png)
 

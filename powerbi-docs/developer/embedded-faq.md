@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/27/2019
-ms.openlocfilehash: 8a3b9389769c92bc52512dbf1215afa405161cd5
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.date: 02/11/2020
+ms.openlocfilehash: 3561d122dde324f1d383d40a152bccc193a2afbe
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539052"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259707"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded에 대한 질문과 대답
 
@@ -55,37 +55,11 @@ PRO 라이선스가 있는 포함 토큰은 개발 테스트용이므로 Power B
 
 ## <a name="technical"></a>기술
 
-### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365"></a>Azure의 A SKU와 Office 365의 EM SKU는 어떤 차이가 있나요?
+### <a name="where-can-i-learn-more-about-capacity-and-skus-in-power-bi-embedded-analytics"></a>어디에서 Power BI 임베디드 분석의 용량 및 SKU에 대해 자세히 알아볼 수 있나요?
 
-PowerBI.com은 소셜 협업, 이메일 구독 및 기타 기능과 같은 다양한 기능을 갖춘 엔터프라이즈 SaaS(Software as a Service) 솔루션입니다. PowerBI.com을 사용하여 ISV는 임베디드 분석 솔루션 콘텐츠 및 테넌트 수준 설정을 관리할 수 있습니다.
+[Power BI 임베디드 분석의 용량 및 SKU](embedded-capacity.md) 문서를 참조하세요.
 
-Power BI Embedded는 개발자가 임베디드 분석 솔루션을 만드는 데 사용할 수 있는 PaaS(Platform as a Service) API 세트입니다.
-
-다음은 기능 차이에 대한 일부 목록입니다.
-
-| 기능 | Power BI Embedded | Power BI Premium 용량 | Power BI Premium 용량 |
-|----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
-|   | A SKU-Azure 용량 | EM SKU-O365 용량 | P SKU-O365 용량 |
-| Power BI 작업 영역의 아티팩트 포함 | 예 | 예 | 예 |
-| 조직용 애플리케이션에서 Power BI 보고서 사용  | 아니요 | 예 | 예 |
-| 고객용 포함된 애플리케이션에서 Power BI 보고서 사용 | 예 | 예 | 예 |
-| SharePoint에서 Power BI 보고서 사용 | 아니요 | 예 | 예 |
-| Dynamics에서 Power BI 보고서 사용 | 아니요 | 예 | 예 |
-| Teams에서 Power BI 보고서 사용(모바일 앱 제외) | 아니요 | 예 | 예 |
-| Powerbi.com 및 Power BI 모바일에서 무료 Power BI 라이선스를 사용하여 콘텐츠 액세스 | 아니요 | 아니요 | 예 |
-| MS Office 앱에 포함된 무료 Power BI 라이선스를 사용하여 콘텐츠에 액세스 | 아니요 | 예 | 예 |
-
-### <a name="power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario"></a>Power BI는 이제 다음 세 가지 SKU를 포함할 수 있습니다. A SKU, EM SKU 및 P SKU. 제 시나리오에는 어떤 용량을 구매해야 하나요?
-
-|  |A SKU(Power BI Embedded)  |EM SKU(Power BI Premium)  |P SKU(Power BI Premium)  |
-|---------|---------|---------|---------|
-|구입  |Azure Portal |Office |Office |
-|사용 사례 | 자체 애플리케이션에 콘텐츠 포함 | <li> 자체 애플리케이션에 콘텐츠 포함 <br><br><br> <li> MS Office 애플리케이션에 콘텐츠 포함: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams(모바일 앱 제외)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> 자체 애플리케이션에 콘텐츠 포함 <br><br><br> <li> MS Office 애플리케이션에 콘텐츠 포함: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams(모바일 앱 제외)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br><br> <li> [Power BI 서비스](https://powerbi.microsoft.com/)를 통해 Power BI 사용자와 콘텐츠 공유  |
-|청구 |시간별 |매월 |매월 |
-|약정  |약정 없음 |매년  |매월/매년 |
-|차별화 |탁월한 탄력성 - Azure Portal에서 또는 API를 통해 리소스를 강화/규모 축소, 일시 중지/다시 시작 가능  |SharePoint Online 및 Microsoft Teams(모바일 앱 제외)에 콘텐츠를 포함하는 데 사용할 수 있습니다. |애플리케이션에 포함 및 Power BI 서비스 사용을 동일한 용량에 결합 |
-
-### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Azure에서 PBIE 용량을 만드는 필수 구성 요소는 무엇입니까?
+### <a name="what-are-the-prerequisites-for-creating-a-pbie-capacity-in-azure"></a>Azure에서 PBIE 용량을 만드는 필수 구성 요소는 무엇인가요?
 
 * 조직 디렉터리에 로그인합니다(Microsoft 계정은 지원되지 않음).
 * Power BI 테넌트가 있어야 합니다. 즉, 디렉터리에 있는 한 명 이상의 사용자가 Power BI에 가입되어 있어야 합니다. 
@@ -154,7 +128,7 @@ Power BI에서는 조직 계정에 등록해야 합니다. Microsoft 계정을 �
 사용 가능한 지역(Power BI와 동일한 16개 지역)
 
 * 미국(6) - 미국 동부, 미국 동부 2, 미국 중북부, 미국 중남부, 미국 서부, 미국 서부 2
-* 유럽(2) - 유럽 북부, 유럽 서부
+* 유럽(2) - 북유럽, 서유럽
 * 아시아 태평양(2) - 동남 아시아, 동아시아
 * 브라질(1) - 브라질 남부
 * 일본(1) - 일본 동부
@@ -323,7 +297,7 @@ Power BI Embedded는 [내셔널 클라우드](embed-sample-for-customers-nationa
 
 ### <a name="in-what-regions-can-i-create-a-pbi-workspace-collection"></a>PBI 작업 영역 컬렉션은 어떤 지역에 만들 수 있나요?
 
-사용 가능한 지역은 오스트레일리아 남동부, 브라질 남부, 캐나다 중부, 미국 동부 2, 일본 동부, 미국 중북부, 북유럽, 미국 중남부, 동남 아시아, 영국 남부, 유럽 서부, 인도 서부 및 미국 서부입니다.
+사용 가능한 지역은 오스트레일리아 남동부, 브라질 남부, 캐나다 중부, 미국 동부 2, 일본 동부, 미국 중북부, 북유럽, 미국 중남부, 동남 아시아, 영국 남부, 서유럽, 인도 서부 및 미국 서부입니다.
 
 ### <a name="why-should-i-migrate-from-pbi-workspace-collection-to-power-bi-embedded"></a>PBI 작업 영역 컬렉션에서 Power BI Embedded로 마이그레이션해야 하는 이유는 무엇인가요?
 

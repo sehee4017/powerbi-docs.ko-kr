@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d30a8012161934ada4ff3cb2ce6852fe62f48892
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 148e5283e1a2e2d5ef61027c24df1a4c3e574822
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73877190"
+ms.lasthandoff: 02/13/2020
+ms.locfileid: "77179223"
 ---
 # <a name="intro-to-datasets-across-workspaces-preview"></a>작업 영역의 데이터 세트 소개(미리 보기)
 
@@ -62,7 +62,7 @@ Power BI에서 데이터 세트 작성자는 [빌드 권한](service-datasets-bu
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 
 - 앱 게시자는 대상 그룹이 작업 영역 외부의 데이터 세트에 액세스할 수 있는지 확인해야 합니다. 그렇지 않으면 사용자가 앱과 상호 작용할 때 문제가 발생할 수 있습니다. 데이터 세트 액세스 권한이 없으면 보고서가 열리지 않으며 대시보드 타일이 잠금 상태로 표시됩니다. 또한 탐색의 첫 번째 항목이 데이터 세트 액세스 권한이 없는 보고서인 경우 사용자가 앱을 열 수 없습니다.
-- 다른 작업 영역에서 데이터 세트 위에 보고서를 빌드하려면 양 끝에 새 작업 영역 환경이 있어야 합니다. 보고서는 새 작업 영역 환경에 있어야 하고 데이터 세트도 새 작업 영역 환경에 있어야 합니다.
+- 다른 작업 영역에서 데이터 세트 위에 보고서를 빌드하려면 양 끝에 새 작업 영역 환경이 있어야 합니다. 보고서는 새 작업 영역 환경에 있어야 하고 데이터 세트도 새 작업 영역 환경에 있어야 합니다. 보고서는 새 작업 영역에서 다른 새 작업 영역으로만 복사할 수 있고, 클래식 작업 영역이나 내 작업 영역으로는 복사할 수 없습니다. 
 - 클래식 작업 영역에서 데이터 세트 검색 환경은 해당 작업 영역의 데이터 세트만 보여줍니다.
 - 의도적으로, 공유 데이터 세트를 기반으로 하는 보고서의 경우 “웹에 게시”가 작동하지 않습니다.
 - 두 사람이 공유 데이터 세트에 액세스하는 작업 영역의 멤버인 경우, 둘 중 한명만 작업 영역에서 관련 데이터 세트를 볼 수 있습니다. 데이터 세트에 대한 읽기 이상의 액세스 권한이 있는 사용자만 공유 데이터 세트를 볼 수 있습니다. 
