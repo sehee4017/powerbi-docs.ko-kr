@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1b90357aa6d8f66612857e8247a8b48dc2c2c369
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 83cf7517fac569f8439f1debcdf621a786835d2c
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539627"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427372"
 ---
 # <a name="implement-row-level-security-in-an-analysis-services-tabular-model"></a>Analysis Services 테이블 형식 모델에서 행 수준 보안 구현
 
@@ -82,7 +82,7 @@ ms.locfileid: "76539627"
 
 1. `LOOKUPVALUE` 함수는 Windows 사용자 이름이 `USERNAME` 함수가 반환하는 사용자 이름과 일치하는 열에 대한 값을 반환합니다. 그런 다음, `LOOKUPVALUE` 반환된 값이 동일한 또는 관련 테이블의 값과 일치하도록 쿼리를 제한할 수 있습니다. **DAX 필터** 열에서 다음 수식을 입력합니다.
 
-    ```sql
+    ```dax
         =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
     ```
 
@@ -95,7 +95,7 @@ ms.locfileid: "76539627"
 
 1. `DimUserSecurity` 테이블의 경우 **DAX 필터** 열에서 다음 수식을 추가합니다.
 
-    ```sql
+    ```dax
         =FALSE()
     ```
 
@@ -175,7 +175,7 @@ Rita가 Power BI 서비스에 로그인하여 Grace가 만든 공유 대시보�
 
 또한 아래에서 DAX 쿼리가 실행되어 보고서 데이터를 채우는 것을 볼 수 있습니다.
    
-   ```sql
+   ```dax
    EVALUATE
      ROW(
        "SumEmployeeKey", CALCULATE(SUM(Employee[EmployeeKey]))

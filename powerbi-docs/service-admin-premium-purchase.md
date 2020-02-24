@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 12/10/2019
+ms.date: 02/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 8a97f30f75b8bf720d735944589e671392c47237
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 1bf7cc85411fef27e626c330cc07207187302bfc
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75224079"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427740"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Power BI 프리미엄 구매 방법
 
 이 문서에서는 조직에 대한 Power BI 프리미엄 용량을 구입하는 방법을 설명합니다. 이 문서에서는 다음 두 가지 시나리오를 설명합니다.
 
-- 일반적인 프로덕션 시나리오에 P SKU 사용. P SKU는 월간 또는 연간 약정이 필요하며 매달 요금이 청구됩니다. P SKU는 [Microsoft 365 관리 센터](https://admmin.microsoft.com)에서 구매합니다.
+- 일반적인 프로덕션 시나리오에 P SKU 사용. P SKU는 월간 또는 연간 약정이 필요하며 매달 요금이 청구됩니다.
 
 - 테스트 시나리오와 P SKU를 구매하는 데 필요한 권한(Microsoft 365 전역 관리자 역할 또는 대금 청구 관리자 역할)이 없는 경우에 A SKU 사용. A SKU는 시간 약정이 필요하지 않으며 시간 단위로 요금이 청구됩니다. A SKU는 [Azure Portal](https://portal.azure.com)에서 구매합니다.
 
