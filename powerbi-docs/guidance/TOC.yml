@@ -62,6 +62,10 @@
           items:
             - name: 페이지를 매긴 보고서를 사용하는 경우
               href: report-paginated-or-power-bi.md
+            - name: 데이터 검색 지침
+              href: report-paginated-data-retrieval.md
+            - name: 이미지 사용 지침
+              href: report-paginated-image.md
             - name: 연계 매개 변수 사용
               href: paginated-report-cascading-parameter.md
             - name: 인쇄할 때 빈 페이지 방지

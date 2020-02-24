@@ -1,0 +1,101 @@
+### YamlMime:Landing
+title: 소비자를 위한 Power BI 설명서
+summary: 소비자는 동료로부터 대시보드 및 보고서를 받습니다. 비즈니스 의사 결정을 위해 Power BI에서 이 콘텐츠를 검토하고 상호 작용합니다.
+metadata:
+  title: 소비자용 Power BI
+  description: Power BI를 시작할까요? Power BI 서비스의 기능을 알아보고 Power BI 소비자 또는 최종 사용자로 이 기능을 통해 할 수 있는 작업을 확인하세요.
+  ms.service: powerbi
+  ms.subservice: powerbi-consumer
+  ms.topic: landing-page
+  author: mihart
+  ms.author: mihart
+  ms.date: 01/10/2020
+  ms.openlocfilehash: d08520a7ee3526323111de91c4dfb67e139a8813
+  ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+  ms.translationtype: HT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 02/20/2020
+  ms.locfileid: "77497796"
+landingContent:
+- title: 소비자용 Power BI 정보
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Power BI 소비자란?
+      url: end-user-consumer.md
+    - text: Power BI 서비스 둘러보기
+      url: end-user-reading-view.md
+    - text: 개념 및 내용 검토
+      url: end-user-basic-concepts.md
+- title: 시작
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: 로그인
+      url: end-user-sign-in.md
+  - linkListType: concept
+    links:
+    - text: 보고서에 대한 자세한 정보
+      url: end-user-reports.md
+    - text: 대시보드에 대한 자세한 정보
+      url: end-user-dashboards.md
+    - text: 앱에 대한 자세한 정보
+      url: end-user-apps.md
+- title: 콘텐츠 보기
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: 보고서 보기
+      url: end-user-report-view.md
+    - text: 콘텐츠를 크게 표시하거나 단독으로 표시
+      url: end-user-focus.md
+    - text: 시각적 개체를 만드는 데 사용된 데이터 표시
+      url: end-user-show-data.md
+    - text: Excel로 데이터 내보내기
+      url: end-user-export.md
+- title: 상호 작용 및 분석
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Power BI 살펴보기
+      url: end-user-experience.md
+    - text: 시각적 개체에서 드릴 다운
+      url: end-user-drill.md
+    - text: 시각적 개체 정렬 방법 변경
+      url: end-user-change-sort.md
+    - text: 보고서 필터 사용
+      url: end-user-report-filter.md
+    - text: 자연어를 사용하여 질문
+      url: end-user-q-and-a.md
+- title: 공동 작업 및 공유
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: 보고서를 PowerPoint로 게시
+      url: end-user-powerpoint.md
+    - text: PDF로 보고서 내보내기
+      url: end-user-pdf.md
+    - text: 콘텐츠 구독
+      url: end-user-subscribe.md
+- title: 고급 항목
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: 책갈피 만들기 및 사용
+      url: end-user-bookmarks.md
+    - text: 자동 인사이트 보기
+      url: end-user-insights.md
+    - text: 페이지를 매긴 보고서 보기
+      url: paginated-reports-view-power-bi-service.md
+- title: 리소스
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: 용어집
+      url: end-user-glossary.md
+    - text: FAQ
+      url: end-user-faq.md
+    - text: 인사이트 유형
+      url: end-user-insight-types.md
+    - text: 시각적 개체 유형
+      url: end-user-visual-type.md

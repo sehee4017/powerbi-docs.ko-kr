@@ -579,6 +579,8 @@
           items:
             - name: 예약된 새로 고침 구성
               href: refresh-scheduled-refresh.md
+            - name: 증분 새로 고침 구성
+              href: service-premium-incremental-refresh.md
             - name: 로컬 Power BI Desktop 파일에서 데이터 세트 새로 고침
               href: refresh-desktop-file-local-drive.md
             - name: 클라우드 Power BI Desktop 파일에서 데이터 세트 새로 고침
@@ -701,6 +703,8 @@
               href: service-url-filters.md
             - name: 직접 및 다른 사용자 구독
               href: service-report-subscribe.md
+            - name: Microsoft Teams에 보고서 포함
+              href: service-embed-report-microsoft-teams.md
             - name: SharePoint Online에 보고서 포함
               href: service-embed-report-spo.md
             - name: 보안 포털 또는 웹 사이트에 보고서 포함
@@ -885,8 +889,6 @@
           href: service-premium-metrics-app.md
         - name: 관리 포털에서 용량 모니터링
           href: service-admin-premium-monitor-portal.md
-        - name: 증분 새로 고침 구성
-          href: service-premium-incremental-refresh.md
         - name: 큰 모델 구성 (미리 보기)
           href: service-premium-large-models.md
         - name: 다중 지역 구성
