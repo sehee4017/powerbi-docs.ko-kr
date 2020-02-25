@@ -46,7 +46,7 @@ Power BI Report Server 웹 포털에서 보고서 작성기를 설치할 수 있
     ![새 보고서 또는 데이터 세트 화면](media/quickstart-create-paginated-report/reportserver-paginated-new-report-screen.png)
  
 
-##  <a name="download"></a> 다운로드 센터에서 Report Builder 설치  
+##  <a name="download"></a> 다운로드 센터에서 보고서 작성기 설치  
   
 1.  [Microsoft 다운로드 센터의 보고서 작성기 페이지](https://go.microsoft.com/fwlink/?LinkID=734968)에서 **다운로드**를 선택합니다.  
   
