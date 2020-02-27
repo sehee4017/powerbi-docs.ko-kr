@@ -7,6 +7,8 @@
       items:
         - name: 개요
           href: overview.md
+        - name: Power BI 최적화 가이드
+          href: power-bi-optimization.md
     - name: 개념
       expanded: true
       items:
@@ -78,6 +80,8 @@
               href: admin-tenant-settings.md
             - name: 온-프레미스 데이터 게이트웨이 크기 조정
               href: gateway-onprem-sizing.md
+            - name: 보고서 성능 모니터링
+              href: monitor-report-performance.md
     - name: 백서
       items:
         - name: 백서 개요
