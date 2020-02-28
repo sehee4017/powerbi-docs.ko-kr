@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 02/14/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 924be90a8598c561a12ed87872bdfbd4681831c8
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: ae05fdcd3a38f10707e991524bac61a305b88794
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76889377"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427717"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>프리미엄 용량에서 워크로드 구성
 
@@ -170,7 +170,7 @@ Power BI 보고서에서는 용량에 대한 각 쿼리에 훨씬 적은 시간 
 | **최대 메모리(%)** | 페이지를 매긴 보고서에서 용량으로 사용할 수 있는 사용 가능한 메모리의 최대 비율입니다. |
 |  |  |
 
-페이지를 매긴 보고서를 사용하면 보고서를 렌더링할 때 사용자 지정 코드를 실행할 수 있습니다. 예를 들어 콘텐츠를 기준으로 텍스트 색을 동적으로 변경하는 경우 추가 메모리를 사용할 수 있습니다. Power BI Premium 용량은 용량 내 포함된 공간에서 페이지를 매긴 보고서를 실행합니다. 
+페이지를 매긴 보고서는 보고서 작성자가 사용자 지정 코드를 추가하는 기능을 포함하여 현재는 SSRS(SQL Server Reporting Services) 보고서와 동일한 기능을 제공합니다.  따라서 작성자는 코드 식을 기반으로 텍스트 색을 변경하는 것과 같이 보고서를 동적으로 변경할 수 있습니다.  적절한 격리를 보장하기 위해 페이지를 매긴 보고서는 용량별로 보호된 샌드박스 내에서 실행됩니다. 동일한 용량으로 실행되는 보고서는 보고서 간에 부작용을 초래할 수 있습니다. SSRS 인스턴스에 콘텐츠를 게시할 수 있는 작성자를 제한하는 것과 같은 방식으로 페이지를 매긴 보고서에서도 비슷한 방법을 따르는 것이 좋습니다. 용량에 콘텐츠를 게시하는 작성자를 조직에서 신뢰하는지 확인합니다. 여러 용량을 프로비저닝하고 각 용량에 다른 작성자를 할당하여 환경을 추가로 보호할 수 있습니다. 
 
 페이지를 매긴 보고서 워크로드를 사용할 수 없는 경우도 있습니다. 이런 경우 워크로드에서 관리 포털에 오류 상태를 표시하고, 사용자에게 보고서 렌더링 시간 초과가 표시됩니다. 이 문제를 완화하려면 워크로드를 사용하지 않도록 설정했다가 다시 사용하도록 설정합니다.
 

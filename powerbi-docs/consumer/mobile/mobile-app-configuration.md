@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: painbar
-ms.openlocfilehash: 58b2f96b069815af448352b3b54875dc4d6b27ee
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: b7a02261e6e00c01befa8ba7716b9e0d132323ea
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538270"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496745"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>MDM(모바일 디바이스 관리) 도구를 사용하여 Power BI 앱을 원격으로 구성
 
@@ -51,7 +51,7 @@ Android용 Power BI 앱은 관리자가 조직의 사용자 그룹 간에 기본
 | 키 | 형식 | 값 | 설명 |
 |---|---|---|---|
 | com.microsoft.powerbi.mobile.ReportTapInteraction | String |  <nobr>한 번 탭</nobr><br><nobr>두 번 탭</nobr> | 시각적 개체를 눌렀을 때 데이터 요소도 선택할지를 구성합니다. |
-| ccom.microsoft.powerbi.mobile.RefreshAction | String |  <nobr>당겨서 새로 고침</nobr><br>선택합니다. | 보고서를 새로 고치기 위한 단추를 표시할지 또는 사용자가 당겨서 새로 고칠지를 구성합니다. |
+| com.microsoft.powerbi.mobile.RefreshAction | String |  <nobr>당겨서 새로 고침</nobr><br>선택합니다. | 보고서를 새로 고치기 위한 단추를 표시할지 또는 사용자가 당겨서 새로 고칠지를 구성합니다. |
 | com.microsoft.powerbi.mobile.FooterAppearance | String |  고정됨<br>동적 | 보고서 바닥글을 보고서 아래쪽에 고정할지 또는 자동으로 숨길지를 구성합니다. |
 
 ## <a name="deploying-app-configuration-settings"></a>앱 구성 설정 배포

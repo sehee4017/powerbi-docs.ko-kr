@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/16/2020
+ms.date: 02/14/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: d8db626300902125cf3536f03ed111ef3e052324
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: b7ff14b4932ba77b47fdb603124d29858c622fc7
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76538746"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427662"
 ---
 # <a name="use-aggregations-in-power-bi-desktop"></a>Power BI Desktop에서 집계 사용
 
@@ -185,6 +185,10 @@ AVERAGE 함수는 집계를 통해 이점을 얻을 수 있습니다. AVERAGE가
 경우에 따라 DISTINCTCOUNT 함수는 집계를 통해 이점을 얻을 수 있습니다. 집계 테이블에서 **CustomerKey**의 고유성을 유지하는 **CustomerKey**에 대한 GroupBy 항목이 있으므로 다음 쿼리는 집계에 적중합니다. 이 기술은 200만~500만 개 이상의 고유 값이 쿼리 성능에 영향을 줄 수 있는 성능 임계값에 여전히 도달할 수 있습니다. 그러나 세부 정보 테이블에 수십억 개의 행이 있지만 열에 200만~500만 개의 고유 값이 있는 시나리오에서 유용할 수 있습니다. 이 경우 메모리에 캐시된 경우에도 수십억 개의 행이 있는 테이블을 검사하는 것보다 DISTINCTCOUNT가 더 빨리 수행될 수 있습니다.
 
 ![DISTINCTCOUNT 집계 쿼리](media/desktop-aggregations/aggregations-code_07.jpg)
+
+DAX 시간 인텔리전스 함수는 집계를 인식합니다. DATESYTD 함수가 **CalendarDay** 값의 테이블을 생성하고 집계 테이블이 **Date** 테이블의 group-by 열에 적용되는 세분성을 가지기 때문에 다음 쿼리는 집계에 도달합니다. 이것은 집계를 사용할 수 있는 CALCULATE 함수에 대한 테이블 반환 필터의 예입니다.
+
+![SUMMARIZECOLUMNS 집계 쿼리](media/desktop-aggregations/aggregations-code-07b.jpg)
 
 ## <a name="aggregation-based-on-groupby-columns"></a>GroupBy 열을 기반으로 하는 집계 
 

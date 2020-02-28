@@ -5,21 +5,23 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/31/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: d5816c4080340b3ff5f29f6000fd203e1a2dedfd
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 5f197f2c2ca85673452a10986f19e26c5802c739
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73852250"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496607"
 ---
 # <a name="what-are-bookmarks"></a>책갈피란?
 
+[!INCLUDE[consumer-appliesto-ynnm](../includes/consumer-appliesto-ynnm.md)]
+
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-책갈피는 보고서 페이지에 대해 현재 구성된 보기를 캡처합니다. 여기에는 필터, 슬라이서, 시각적 개체의 상태가 포함됩니다. 책갈피를 선택하면 해당 보기로 이동하게 됩니다. 책갈피에는 두 가지 유형이 있습니다. 하나는 사용자가 직접 만든 것이고, 다른 하나는 보고서 *디자이너*가 만든 것입니다.
+책갈피는 보고서 페이지에 대해 현재 구성된 보기를 캡처합니다. 여기에는 필터, 슬라이서, 시각적 개체의 상태가 포함됩니다. 책갈피를 선택하면 해당 보기로 이동하게 됩니다. 책갈피에는 두 가지 유형이 있습니다. 하나는 사용자가 직접 만든 것이고, 다른 하나는 보고서 *디자이너*가 만든 것입니다. 모든 Power BI 사용자는 개인 책갈피를 만들 수 있습니다. 그러나 다른 사용자가 만든 책갈피를 사용할 수 있으려면 Power BI Pro 또는 Premium 라이선스가 필요합니다. [사용 중인 라이선스 확인](end-user-license.md)
 
 ## <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>책갈피를 사용하여 Power BI에서 정보 공유 및 스토리 빌드 
 책갈피에는 다양한 용도가 있습니다. 흥미로운 인사이트를 발견하여 보관하고 싶을 경우, 나중에 돌아갈 수 있도록 책갈피를 만들 수 있습니다. 지금 당장 어디를 가야 하는데 이제까지 한 작업을 그대로 유지하고 싶은 경우에도 책갈피를 만들 수 있습니다. 보고서의 기본 보기를 책갈피로 만들어 두면 매번 돌아갈 때마다 보고서 페이지의 해당 보기가 가장 먼저 열립니다. 
@@ -33,6 +35,9 @@ ms.locfileid: "73852250"
 
 ### <a name="report-bookmarks"></a>보고서 책갈피
 보고서 *디자이너*가 보고서 책갈피를 포함해 둔 경우, **보고서 책갈피** 제목 아래에서 찾을 수 있습니다. 이 보고서 페이지에는 B1과 B2라는 두 개의 책갈피가 있습니다. 
+
+> [!NOTE]
+> 공유 보고서를 보려면 Power BI Pro 또는 Premium이 필요합니다. 
 
 ![보고서 책갈피를 표시합니다.](media/end-user-bookmarks/power-bi-report.png)
 

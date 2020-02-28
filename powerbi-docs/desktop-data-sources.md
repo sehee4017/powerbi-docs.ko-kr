@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/09/2020
+ms.date: 02/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0cf9d6acd4fe5f729dafb575a2ab736b9e8db7bb
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: f13c8f34fbbe927ee6929a0b3e717248aedd63d0
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76039793"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427556"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop의 데이터 원본
 
@@ -89,8 +89,8 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Vertica
 * Snowflake
 * Essbase
-* AtScale 큐브(베타)
-* BI 커넥터
+* AtScale 큐브
+* BI Connector Data Virtuality LDW(베타)
 * Denodo
 * Dremio
 * Exasol
@@ -162,7 +162,6 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Adobe Analytics
 * appFigures(베타)
 * Data.World - 데이터 세트 가져오기(베타)
-* Facebook
 * GitHub(베타)
 * LinkedIn Sales Navigator(베타)
 * MailChimp(베타)
@@ -182,6 +181,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Dynamics 365 Customer Insights(베타)
 * Emigo 데이터 원본
 * Entersoft Business Suite(베타)
+* FactSet Analytics(베타)
 * 산업 앱 스토어
 * Intune Data Warehouse(베타)
 * Microsoft Graph 보안(베타)
@@ -210,7 +210,10 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * ODBC
 * OLE DB
 * BI360 - 예산 및 재무 보고(베타)
+* FHIR
 * 정보 표(베타)
+* Jamf Pro(베타)
+* Power BI용 MicroStrategy
 * Paxata
 * QubolePresto(베타)
 * Roamler(베타)
@@ -219,6 +222,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Tenforce(스마트) 목록(베타)
 * Vena(베타)
 * 직원 차원(베타)
+* Zucchetti HR Infinity(베타)
 * 빈 쿼리
 
 다음 그림은 **기타**에 대한 **데이터 가져오기** 창을 보여 줍니다.

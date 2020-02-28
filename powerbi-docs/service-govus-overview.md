@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/13/2020
+ms.date: 02/19/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 26dabde3846ec33e2f5910de75fb8165cce6513a
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.openlocfilehash: 590b00f5eb03b1bd31430866a52faa4748f9b32a
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76160768"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496939"
 ---
 # <a name="power-bi-for-us-government-customers"></a>미국 정부 기관 고객용 Power BI
 이 문서는 Office 365 정부 플랜의 일부로 Power BI를 배포하는 정부 기관 고객을 위한 것입니다. 정부 플랜은 미국 규정 준수 및 보안 표준을 충족해야 하는 조직의 고유한 요구 사항을 위해 설계되었습니다. 미국 정부 기관 고객을 위해 고안된 Power BI 서비스는 상용 Power BI 서비스 버전과 다릅니다. 이러한 기능 차이는 다음 섹션에 설명되어 있습니다.
@@ -37,7 +37,7 @@ Office 365는 다양한 규정 준수 요구 사항을 충족하기 위해 다�
 
 * [Office 365 GCC(정부 커뮤니티 클라우드)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc)는 연방, 주, 지방 정부를 위해 설계되었습니다.
 
-* [Office 365 GCC High(정부 커뮤니티 클라우드-높음)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod)은 연방 기관, 방위 산업, 항공 우주 산업 및 제어되는 미분류 정보를 보유하는 기타 조직을 위해 설계되었습니다. 이 환경은 국가 안보 조직 및 ITAR(국제 무기 거래 규정) 또는 DFARS(국방 연방 획득 규칙 부록) 요구 사항이 있는 회사에 적합합니다.
+* [Office 365 GCC-High(정부 커뮤니티 클라우드-높음)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod)는 연방 기관, 방위 산업, 항공 우주 산업 및 제어되는 미분류 정보를 보유하는 기타 조직을 위해 설계되었습니다. 이 환경은 국가 안보 조직 및 ITAR(국제 무기 거래 규정) 데이터 또는 DFARS(국방 연방 획득 규칙 부록) 요구 사항이 있는 회사에 적합합니다.
 
 * [Office 365 DoD 환경](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod)은 미국 국방부만을 위해 설계되었습니다. 
 
@@ -89,12 +89,12 @@ SQL에서 방화벽을 설정하려면 단계에 따라 [IP 방화벽 규칙을 
 |보고서 작성|대시보드 및 보고서 만들기 및 보기|사용 가능|사용 가능|사용 가능|
 |  |예약된 데이터 새로 고침|사용 가능|사용 가능|사용 가능|
 |  |새로 고칠 수 있는 팀 대시보드|사용 가능|사용 가능|사용 가능|
-|  |페이지를 매긴 보고서|USGov 텍사스 및 USGov 버지니아에서만 사용 가능 |사용 가능|로드맵|
+|  |페이지를 매긴 보고서|사용 가능|사용 가능|로드맵|
 |  |템플릿 앱|사용할 수 없음|사용할 수 없음|사용할 수 없음|
 |데이터에 연결|Excel에서 데이터 및 보고서 가져오기|사용 가능|사용 가능|사용 가능|
 |  |CSV 파일에서 데이터 가져오기|사용 가능|사용 가능|사용 가능|
 |  |Power BI Desktop 파일에서 데이터 가져오기|사용 가능|사용 가능|사용 가능|
-|  |CDS 연결|사용할 수 없음|사용할 수 없음|사용할 수 없음|
+|  |CDS 연결|사용 가능|사용할 수 없음|사용할 수 없음|
 |  |Azure Data Lake Storage Gen2 커넥터|사용할 수 없음|사용할 수 없음|사용할 수 없음|
 |데이터 관리|데이터 관리 게이트웨이|사용 가능|사용 가능|사용 가능|
 |  |Azure SQL에서 데이터 암호화|사용 가능|사용 가능|사용 가능|
@@ -103,7 +103,7 @@ SQL에서 방화벽을 설정하려면 단계에 따라 [IP 방화벽 규칙을 
 |  |Embed 웹 파트를 사용하여 SharePoint Online에 포함|사용 가능|사용 가능|사용 가능|
 |  |데이터 흐름 및 AI 함수|사용할 수 없음|사용할 수 없음|사용할 수 없음|
 |  |데이터 기반 경고를 위한 Power Automate 연결|사용할 수 없음|사용할 수 없음|사용할 수 없음|
-|  |Teams의 Power BI 탭|사용할 수 없음|사용할 수 없음|사용할 수 없음|
+|  |Teams의 Power BI 탭|사용 가능|사용할 수 없음|사용할 수 없음|
 |  |자동화된 Machine Learning|사용할 수 없음|사용할 수 없음|사용할 수 없음|
 |  |Cognitive Services|사용할 수 없음|사용할 수 없음|사용할 수 없음|
 |  |Azure 기계 학습|사용할 수 없음|사용할 수 없음|사용할 수 없음|
@@ -111,7 +111,6 @@ SQL에서 방화벽을 설정하려면 단계에 따라 [IP 방화벽 규칙을 
 ## <a name="next-steps"></a>다음 단계
 
 * [미국 정부 기관용 Power BI 등록](service-govus-signup.md)
+* [Microsoft Power Apps US Government](https://docs.microsoft.com/power-platform/admin/powerapps-us-government)
+* [Power Automate US Government](https://docs.microsoft.com/power-automate/us-govt)
 * <a href="https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government">Power BI 미국 정부 데모</a>
-* [Power BI 서비스 시작](service-get-started.md)
-* [Power BI Desktop이란?](desktop-what-is-desktop.md)
-

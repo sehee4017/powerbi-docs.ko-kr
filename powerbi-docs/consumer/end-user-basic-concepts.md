@@ -8,21 +8,25 @@ ms.service: powerbi
 ms.custom: seodec18
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/16/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 7513479d14b57e47b30d2cd7ac9cc4acfe69d075
-ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
+ms.openlocfilehash: 2c8a8356fe20136d0325efe51934a7db3d4b113e
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "77260109"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496892"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Power BI 서비스 소비자를 위한 기본 개념
+
+[!INCLUDE[consumer-appliesto-ynnm](../includes/consumer-appliesto-ynnm.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 이 문서에서는 독자가 [Power BI 개요](../fundamentals/power-bi-overview.md)를 이미 읽었고 자신을 [Power BI **_소비자_** ](end-user-consumer.md)로 인식하고 있다고 가정합니다. 소비자는 동료로부터 대시보드 및 보고서와 같은 Power BI 콘텐츠를 받습니다. 소비자는 웹 사이트 기반 버전의 Power BI인 Power BI 서비스를 사용합니다.
+
+다른 사용자로부터 콘텐츠를 받으려면 Power BI Pro 사용자 라이선스 또는 Power BI 프리미엄 용량 라이선스가 필요합니다. [라이선스 유형 조회](end-user-license.md)
 
 분명히 “Power BI Desktop” 또는 “Desktop”이라는 용어를 들어 보았을 것입니다. 이는 대시보드와 보고서를 빌드하고 소비자와 공유하는 ‘디자이너’가 사용하는 독립 실행형 도구입니다.  다른 Power BI 도구가 있다는 것을 알고 있어야 합니다. 소비자는 Power BI 서비스만 사용하게 됩니다. 이 문서는 Power BI 서비스에만 적용됩니다.
 
@@ -38,7 +42,7 @@ ms.locfileid: "77260109"
 
 ![Power BI 서비스 시작 화면의 스크린샷](media/end-user-basic-concepts/power-bi-home.png)
 
-Power BI를 사용할 때는 웹 사이트를 열 때마다 표시되는 내용을 개인 설정할 수 있습니다. 예를 들어, Power BI가 **홈**페이지를 여는 것을 선호하는 사람도 있고, 즐겨찾기 대시보드에 먼저 표시되는 것을 선호하는 사람도 있습니다. 이처럼 환경을 개인 설정하는 자세한 방법은 다음 문서에서 확인할 수 있습니다.
+Power BI를 사용할 때는 웹 사이트를 열 때마다 표시되는 내용을 개인 설정할 수 있습니다. 예를 들어 Power BI가 **홈**으로 열리는 것을 선호하는 사람도 있고, 즐겨찾기 대시보드에 먼저 표시되는 것을 선호하는 사람도 있습니다. 이처럼 환경을 개인 설정하는 자세한 방법은 다음 문서에서 확인할 수 있습니다.
 
 - [Power BI 홈 및 전역 검색 소개](https://powerbi.microsoft.com/blog/introducing-power-bi-home-and-global-search)
 
@@ -179,6 +183,9 @@ _______________________________________________________
 ## <a name="apps"></a>앱
 
 이러한 대시보드 및 보고서 컬렉션은 관련 콘텐츠를 단일 패키지로 정리합니다. Power BI *설계자*는 이를 빌드하고 개인, 그룹, 전체 조직 또는 대중과 공유합니다. 소비자는 자신이 동료와 동일한 데이터(단일 버전의 진실한 정보)로 작업하고 있음을 확신할 수 있습니다.
+
+> [!NOTE]
+> 앱을 사용하려면 Power BI Pro 또는 Premium 라이선스가 필요합니다. 
 
 ![Power BI의 왼쪽 창에서 선택된 앱의 스크린샷](media/end-user-basic-concepts/power-bi-apps.png)
 

@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 07/15/2019
+ms.date: 02/21/2020
 ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2665e33d5f268bf8037634406aca819c23f3513c
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 15b3236741eb19d9f08601f9503e0380f54a8d63
+ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698190"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "77558691"
 ---
 # <a name="manage-data-sources"></a>데이터 원본 관리
 
@@ -45,11 +45,24 @@ API를 사용하여 대부분의 데이터 원본 관리 작업을 수행할 수
 
 5. SQL Server의 경우 **Windows** 또는 **기본**(SQL 인증)의 **인증 방법**을 선택합니다. **기본**을 선택하는 경우 데이터 원본에 대한 자격 증명을 입력합니다.
 
-6. **고급 설정**에서 선택적으로 데이터 원본에 대한 [개인 정보 수준](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)을 구성합니다([DirectQuery](desktop-directquery-about.md)에 적용되지 않음).
+6. **고급 설정**에서 데이터 원본에 대해 [SSO(Single Sign-on)](service-gateway-sso-overview.md)를 구성할 수 있습니다. 
+
+    ![고급 설정](media/service-gateway-data-sources/advanced-settings-02.png)
+
+DirectQuery 기반 보고서의 경우 **DirectQuery 쿼리에 Kerberos를 통한 SSO 사용** 또는 **DirectQuery를 위해 Kerberos를 통한 SSO 사용 및 쿼리 가져오기**를 구성하고 새로 고침 기반 보고서의 경우 **DirectQuery를 위해 Kerberos를 통한 SSO 사용 및 쿼리 가져오기**를 구성할 수 있습니다.
+
+**DirectQuery 쿼리에 Kerberos를 통한 SSO 사용**을 사용하고 DirectQuery 기반 보고서에 이 데이터 원본을 사용하는 경우에는 Power BI 서비스에 로그인하는 (Azure) Active Directory 사용자에 매핑된 사용자가 보고서에 사용됩니다. 새로 고침 기반 보고서의 경우 **사용자 이름** 및 **암호** 필드에 입력하는 자격 증명이 사용됩니다.
+
+**DirectQuery를 위해 Kerberos를 통한 SSO 사용 및 쿼리 가져오기**를 사용하는 경우에는 자격 증명을 제공할 필요가 없습니다. DirectQuery 기반 보고서에 이 데이터 원본을 사용하는 경우에는 Power BI 서비스에 로그인하는 (Azure) Active Directory 사용자에 매핑된 사용자가 보고서에 사용됩니다.  새로 고침 기반 보고서의 경우 데이터 세트 소유자의 보안 컨텍스트가 사용됩니다.
+
+> [!NOTE]
+>쿼리 가져오기의 SSO는 [Kerberos 제한 위임](service-gateway-sso-kerberos.md)을 사용하는 SSO 데이터 원본 목록에서만 사용할 수 있습니다.
+
+7. **고급 설정**에서 선택적으로 데이터 원본에 대한 [개인 정보 수준](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)을 구성합니다([DirectQuery](desktop-directquery-about.md)에 적용되지 않음).
 
     ![고급 설정](media/service-gateway-data-sources/advanced-settings.png)
 
-7. **추가**를 선택합니다. 프로세스가 성공하면 ‘연결 성공’이 표시됩니다. 
+8. **추가**를 선택합니다. 프로세스가 성공하면 ‘연결 성공’이 표시됩니다. 
 
     ![연결 성공](media/service-gateway-data-sources/connection-successful.png)
 

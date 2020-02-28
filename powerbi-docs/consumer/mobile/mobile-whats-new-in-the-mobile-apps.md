@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/08/2019
+ms.date: 01/29/2020
 ms.author: painbar
-ms.openlocfilehash: caed3a107b8f7a57d2fb3da92073cb8a5f5331cd
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 7aa31d9c6eadd4c7c9c88c9006a360a6089f28e2
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538408"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259820"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -21,6 +21,12 @@ ms.locfileid: "76538408"
 * [모바일 앱에 대한 Power BI 팀 블로그](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop의 새로운 기능](../../desktop-latest-update.md)  
 * [Power BI 서비스의 새로운 기능](../../service-whats-new.md)  
+
+## <a name="january-2020"></a>2020년 1월
+
+### <a name="share-annotations-created-in-presentation-mode-windows"></a>프레젠테이션 모드에서 만든 주석 공유(Windows)
+
+프레젠테이션 중에 작성하는 주석은 프레젠테이션의 중요한 부분이자 토론의 주요 구성 요소가 됩니다. 이제 프레젠테이션 모드에서 보고서에 주석을 달 때 동료와 보고서 페이지의 스냅샷을 공유할 수 있습니다. [자세히 알아보기](./mobile-windows-10-app-presentation-mode.md#use-presentation-mode)
 
 ## <a name="december-2019"></a>2019년 12월
 

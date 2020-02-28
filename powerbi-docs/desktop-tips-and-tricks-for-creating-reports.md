@@ -7,14 +7,14 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 01/31/2020
 ms.author: davidi
-ms.openlocfilehash: a6d949f95f463cb988958551d825a4eae824fb70
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: d3733b651ac8b9687d3b0547cc2f76c04a0d0823
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73865835"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427257"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Power BI Desktop에서 보고서를 만들기 위한 팁과 힌트
 데이터를 최대한 활용하려면 추가 도움이 필요하기도 합니다. Microsoft Power BI Desktop *및* 파워 피벗 추가 기능이 사용되고 파워 쿼리가 설치 및 사용되는 Microsoft Excel 2016 또는 Excel 2013 Pro-Plus 버전에서 보고서를 만들 때 사용할 수 있는 몇 가지 팁과 힌트를 모아두었습니다. 
@@ -36,7 +36,7 @@ Power BI Desktop에 있는 쿼리 편집기의 탐색기에서 쿼리 중 하나
 
 * 쿼리에 대한 데이터 소스로 파일을 사용하는 경우 파일의 절대 경로가 쿼리에 저장됩니다. Power BI Desktop 파일 또는 Excel  통합 문서를 공유하거나 이동할 때 경로 업데이트 시 경로를 한 번만 업데이트하면 되므로 시간이 절약됩니다.
 
-기본적으로 모든 쿼리는 Excel 워크시트 또는 데이터 모델(또는 둘 다)로 로드됩니다. 일부 쿼리는 중간 단계이며 최종 사용자가 사용하는 용도가 아닙니다. 위에서 언급한 대로 쿼리를 참조할 때가 바로 이러한 경우입니다. 탐색기에서 쿼리를 마우스 오른쪽 단추로 클릭하고 "로드 사용" 옵션을 설정/해제하여 쿼리 로드 동작을 제어할 수 있습니다. *로드 사용* 옆에 확인 표시가 없는 경우 쿼리 탭에서 계속 쿼리를 사용할 수 있으며 해당 쿼리를 다른 쿼리와 함께 사용할 수 있습니다. 이 기능은 특히 병합, 추가 및 참조 변환과 조합할 때 유용합니다. 그러나 쿼리 결과가 데이터 모델에 로드되지 않으므로 쿼리가 보고서 필드 목록 또는 데이터 모델을 복잡하게 만들지 않습니다. 
+기본적으로 모든 쿼리는 데이터 모델로 로드됩니다. 일부 쿼리는 중간 단계이며 최종 사용자가 사용하는 용도가 아닙니다. 위에서 언급한 대로 쿼리를 참조할 때가 바로 이러한 경우입니다. 탐색기에서 쿼리를 마우스 오른쪽 단추로 클릭하고 "로드 사용" 옵션을 설정/해제하여 쿼리 로드 동작을 제어할 수 있습니다. *로드 사용* 옆에 확인 표시가 없는 경우 쿼리 탭에서 계속 쿼리를 사용할 수 있으며 해당 쿼리를 다른 쿼리와 함께 사용할 수 있습니다. 이 기능은 특히 병합, 추가 및 참조 변환과 조합할 때 유용합니다. 그러나 쿼리 결과가 데이터 모델에 로드되지 않으므로 쿼리가 보고서 필드 목록 또는 데이터 모델을 복잡하게 만들지 않습니다. 
 
 ## <a name="scatter-charts-need-a-point-identifier"></a>지점 식별자가 필요한 분산형 차트
 온도와 시간으로 구성된 간단한 테이블을 예로 들고 판독값이 사용되었습니다. 이 테이블을 분산형 차트에서 직접 그리는 경우 Power BI는 모든 값을 단일 요소로 집계합니다. 개별 데이터 요소를 표시하려면 필드 집합의 세부 정보 버킷에 필드를 추가해야 합니다. Power BI Desktop에서 이 작업을 간단하게 수행하려면 쿼리 탭의 “열 추가” 리본에서 “인덱스 열 추가” 옵션을 사용하면 됩니다. 
@@ -116,7 +116,7 @@ Power BI Desktop에서 계산 필드를 사용하여 히스토그램을 정의�
 > 
 > 
 
-특정 CustomerName과 관련된 모든 인시던트 및 작업 항목을 추적하려고 하는 경우 이러한 두 데이터 집합 간의 관계를 간단히 만들 수 없습니다. 일부 작업 항목은 CustomerName과 관련되지 않을 수 있으므로 해당 필드가 비어 있거나 NULL이 됩니다. 지정된 CustomerName에 대한 WorkItems 및 CustomerIncidents에 레코드가 여러 개 있을 수 있습니다. 
+특정 CustomerName과 관련된 모든 인시던트 및 작업 항목을 추적하려고 하는 경우 두 데이터 세트 간의 관계를 간단히 만들 수 없습니다. 일부 작업 항목은 CustomerName과 관련되지 않을 수 있으므로 해당 필드가 비어 있거나 NULL이 됩니다. 지정된 CustomerName에 대한 WorkItems 및 CustomerIncidents에 레코드가 여러 개 있을 수 있습니다. 
 
 ### <a name="creating-relationships-in-power-bi-desktop-when-the-data-has-null-or-blank-values"></a>데이터에 null 또는 빈 값이 있는 경우 Power BI Desktop에서 관계 만들기
 종종 데이터 집합은 null 또는 빈 값이 있는 열을 포함합니다. 이로 인해 관계를 사용하려고 할 때 문제가 발생할 수 있습니다. 기본적으로 이 문제를 해결하는 두 가지 옵션이 있습니다. null 또는 빈 값이 있는 행을 제거할 수 있습니다. 쿼리 탭의 필터 기능을 사용하여 이 작업을 수행하거나, 쿼리를 병합하는 경우 "keep only matching rows(일치하는 행만 유지)" 옵션을 선택할 수 있습니다. 또는 null 또는 빈 값을 관계에서 작동하는 값(일반적으로 "NULL" 및 "(비어 있음)"과 같은 문자열)으로 바꿀 수 있습니다. 여기서 올바른 방법은 없습니다. 쿼리 단계에서 행을 필터링하면 행이 제거되어 요약 통계 및 계산에 영향을 줄 수 있습니다. 후자의 방법을 사용할 경우 해당 데이터 행이 유지되지만 모델에서 관련 없는 행이 관련된 것으로 표시되어 계산이 잘못될 수 있습니다. 후자의 솔루션을 채택하는 경우 보기/차트에서 필터를 사용하여(해당하는 경우) 정확한 결과를 얻도록 합니다. 가장 중요한 것은 유지/제거되는 행을 평가하고 분석에 대한 전반적인 영향을 이해하는 것입니다. 
@@ -132,7 +132,7 @@ Power BI Desktop에서 계산 필드를 사용하여 히스토그램을 정의�
 > 
 > 
 
-특정 CustomerName과 관련된 모든 인시던트 및 작업 항목을 추적하려고 하는 경우 이러한 두 데이터 집합 간의 관계를 간단히 만들 수 없습니다. 일부 작업 항목은 CustomerName과 관련되지 않을 수 있으므로 해당 필드가 비어 있거나 NULL이 됩니다. CustomerNames 테이블에 빈 값 또는 null이 있는 경우 여전히 관계를 만들지 못할 수 있습니다. 데이터에 null 또는 빈 값이 있는 경우 관계 만들기를 참조하세요. 단일 CustomerName에 대해 WorkItems 및 CustomerIncidents가 여러 개 있을 수 있습니다. 
+특정 CustomerName과 관련된 모든 인시던트 및 작업 항목을 추적하려고 하는 경우 두 데이터 세트 간의 관계를 간단히 만들 수 없습니다. 일부 작업 항목은 CustomerName과 관련되지 않을 수 있으므로 해당 필드가 비어 있거나 NULL이 됩니다. CustomerNames 테이블에 빈 값 또는 null이 있는 경우 여전히 관계를 만들지 못할 수 있습니다. 데이터에 null 또는 빈 값이 있는 경우 관계 만들기를 참조하세요. 단일 CustomerName에 대해 WorkItems 및 CustomerIncidents가 여러 개 있을 수 있습니다. 
 
 이 경우 관계를 만들려면 두 데이터 집합의 모든 CustomerNames의 논리 데이터 집합을 만들어야 합니다. 쿼리 탭에서 다음 시퀀스를 사용하여 논리 데이터 집합을 만들 수 있습니다.
 

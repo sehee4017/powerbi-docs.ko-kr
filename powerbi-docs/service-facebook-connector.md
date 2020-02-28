@@ -6,20 +6,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dcfc695d0371cce21a827ddfe71b3b4b05863935
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 882cddf7728a27e78056a35c14fde20f00678e33
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762419"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527705"
 ---
 # <a name="use-the-facebook-connector-for-power-bi-desktop"></a>Power BI Desktop용 Facebook 커넥터 사용
 **Power BI Desktop**의 Facebook 커넥터는 Facebook Graph API를 사용합니다. 이와 같이 기능 및 가용성은 시간에 따라 달라질 수 있습니다.
 
 [Power BI Desktop에 대한 Facebook 커넥터에 대한 자습서](desktop-tutorial-facebook-analytics.md)를 참조할 수 있습니다.
+
+> [!IMPORTANT]
+> **Facebook 데이터 커넥터 알림 사용 중단:** 2020년 4월부터, Excel에서 Facebook의 데이터를 가져오고 새로 고치는 기능은 더 이상 제대로 작동하지 않습니다. 그때까지 Facebook ‘가져오기 및 변환(파워 쿼리)’ 커넥터를 사용할 수 있습니다.  해당 날짜 이후에는 Facebook에 연결할 수 없으며 오류 메시지가 표시됩니다. 예기치 않은 결과를 방지하려면 최대한 빨리 Facebook 커넥터를 사용하는 기존의 ‘가져오기 및 변환(파워 쿼리)’ 쿼리를 수정하거나 제거하는 것이 좋습니다. 
+
 
 2015년 4월 30일에 Facebook의 Graph API v1.0이 만료되었습니다. Power BI는 Facebook 커넥터에 대해 내부적으로 Graph API를 사용하여 데이터에 연결하고 분석할 수 있도록 합니다.
 

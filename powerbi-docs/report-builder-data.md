@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.custom: seodec18
 ms.date: 06/06/2019
-ms.openlocfilehash: 602c6a00f773147072b97ecf8c11588bc981eb05
-ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+ms.openlocfilehash: f8f7d3b43cfc2d5a51b686598c1657ec21b44130
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75954005"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527272"
 ---
 # <a name="report-data-in-power-bi-report-builder"></a>Power BI 보고서 작성기의 보고서 데이터
 
@@ -60,3 +60,4 @@ ms.locfileid: "75954005"
 ## <a name="next-steps"></a>다음 단계
 
 - [Power BI Premium에서 페이지를 매긴 보고서란?](paginated-reports-report-builder-power-bi.md)  
+- [페이지를 매긴 보고서의 데이터 검색 지침](guidance/report-paginated-data-retrieval.md)

@@ -6,22 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/18/2019
+ms.date: 02/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: c6f1a04f7178719eb68bcd54674ea0312c97ef3e
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: 4fc4144b5436fd451280e7189484d9cc01ce69b5
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "77076595"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496679"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Power BI Desktop의 새로운 기능
 
+## <a name="february-2020-update-2785740642"></a>2020년 2월 업데이트(2.78.5740.642)
 
-## <a name="december-2019-update-2765678661"></a>2019년 12월 업데이트(2.76.5678.661)
-
-12월 업데이트는 썰매를 타고 눈에 뒤덮인 언덕을 내려오는 것만큼 재미 있습니다. 
+2월 업데이트를 선보이며 새로운 기능이 하트 모양 초콜릿 상자보다 더 좋을 것이라고 믿습니다. 
 
 [다운로드 센터](https://www.microsoft.com/download/details.aspx?id=58494)에서 최신 버전의 Power BI Desktop을 가져옵니다. Windows 10을 실행하는 경우 [Microsoft Store](https://aka.ms/pbidesktopstore)에서도 Power BI Desktop을 구할 수 있습니다. Power BI Desktop 설치 방법과 관계없이, 월별 버전은 버전 번호가 다르더라도 동일합니다. Power BI Desktop 다운로드 및 설치 방법에 대한 자세한 내용은 [Power BI Desktop 가져오기](desktop-get-the-desktop.md)를 참조하세요. 
 
@@ -40,48 +39,39 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 다음은 이번 달의 Power BI Desktop 업데이트입니다.
 
+### <a name="data-management"></a>데이터 관리
+* 이제 증분 새로 고침이 일반 공급됨 [[비디오]](https://youtu.be/TN61JvbUAxk?t=16)  [[문서]](service-premium-incremental-refresh.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Incremental_refresh) 
 
 ### <a name="reporting"></a>보고
-* 현재 테마 사용자 지정(미리 보기) [[비디오]](https://youtu.be/eCEwgZsVUOs?t=10)  [[문서]](desktop-report-themes.md#create-and-customize-a-theme-in-power-bi-desktop-preview)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customizeTheme) 
-* 현재 테마 내보내기(미리 보기) [[비디오]](https://youtu.be/eCEwgZsVUOs?t=242)  [[문서]](desktop-report-themes.md#export-report-themes-preview)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#exportTheme) 
-* 테이블 열 또는 행렬 값을 사용자 지정 URL로 설정 [[비디오]](https://youtu.be/eCEwgZsVUOs?t=277)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customURL) 
-* KPI 시각적 개체 서식 설정 [[비디오]](https://youtu.be/eCEwgZsVUOs?t=354)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#KPI) 
-* 새 분해 트리 서식 지정 [[비디오]](https://youtu.be/eCEwgZsVUOs?t=442)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#decomp) 
-* 새 리본의 필터 창 토글 단추 [[비디오]](https://youtu.be/eCEwgZsVUOs?t=599)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#filterToggle) 
-* 자동 페이지 새로 고침 쿼리 정보 [[비디오]](https://youtu.be/eCEwgZsVUOs?t=717)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#APR) 
+* 계층 슬라이서(미리 보기) [[비디오]](https://youtu.be/TN61JvbUAxk?t=207) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Hierarchical_slicer) 
+* 새 리본 업데이트(미리 보기) [[비디오]](https://youtu.be/TN61JvbUAxk?t=424) [[문서]](desktop-ribbon.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Ribbon) 
 
 
-### <a name="analytics"></a>분석
-* 분석 인사이트를 위해 더 많이 로드 [[비디오]](https://youtu.be/eCEwgZsVUOs?t=831)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#moreAI) 
-* 새 DAX 함수: 분기 [[비디오]](https://youtu.be/eCEwgZsVUOs?t=855)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#quarter) 
-
+### <a name="modeling"></a>모델링
+* 새로운 DAX 함수: FirstNonBlankValue, LastNonBlankValue [[비디오]](https://youtu.be/TN61JvbUAxk?t=716)  [[문서]](https://docs.microsoft.com/dax/firstnonblankvalue-function-dax)   [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_New_DAX_Functions) 
 
 ### <a name="visuals"></a>시각적 개체
-* 시각적 개체 창 개인 설정(일반 공급) [[비디오]](https://youtu.be/eCEwgZsVUOs?t=865)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#personalizeViz) 
-* 새 사용자 지정 시각적 개체 [[비디오]](https://youtu.be/eCEwgZsVUOs?t=886)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#xViz) 
-
-
-### <a name="data-connectivity"></a>데이터 연결
-* Azure Data Lake Storage Gen2 커넥터(일반 공급) [[비디오]](https://youtu.be/eCEwgZsVUOs?t=2151)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/) 
-* Power Platform 데이터 흐름 커넥터(일반 공급) [[비디오]](https://youtu.be/eCEwgZsVUOs?t=2180)  [[문서]](service-edit-sap-variables.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#ADLS) 
-* 이제 PostgreSQL 커넥터에 Npgsql 공급자가 포함됨 [[비디오]](https://youtu.be/eCEwgZsVUOs?t=2220)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#PostgreSQL) 
-* AtScale 커넥터(일반 공급) [[비디오]](https://youtu.be/eCEwgZsVUOs?t=2245)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#AtScale) 
-* Azure Time Series Insights 커넥터 [[비디오]](https://youtu.be/eCEwgZsVUOs?t=2261)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#ATS) 
-* Data Virtuality 커넥터 [[비디오]](https://youtu.be/eCEwgZsVUOs?t=2294)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#DataVirt) 
-* Zucchetti HR Infinity 커넥터 [[비디오]](https://youtu.be/eCEwgZsVUOs?t=2345)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#Zucchetti) 
-
-
-### <a name="data-preparation"></a>데이터 준비
-* AI 인사이트 함수 업데이트(미리 보기) [[비디오]](https://youtu.be/eCEwgZsVUOs?t=2366)  [[문서]](desktop-ai-insights.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#AIfunc) 
+* 새 사용자 지정 시각적 개체 [[비디오]](https://youtu.be/TN61JvbUAxk?t=835)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Visualizations) 
 
 
 ### <a name="template-apps"></a>템플릿 앱
-* Dynamics 365 옴니채널 인사이트 [[비디오]](https://youtu.be/eCEwgZsVUOs?t=2416)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#Omni) 
-* Dynamics 365 고객 서비스 분석 [[비디오]](https://youtu.be/eCEwgZsVUOs?t=2500)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#CS)
-* 고객 서비스용 Microsoft Forms Pro [[비디오]](https://youtu.be/eCEwgZsVUOs?t=2525)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#Forms) 
+* Microsoft 365 사용량 현황 분석 [[비디오]](https://youtu.be/TN61JvbUAxk?t=910) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Microsoft_365_usage) 
+* P3의 NFL 분석 [[비디오]](https://youtu.be/TN61JvbUAxk?t=928) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_NFL)
+* Quickbooks, Zero 및 WorkflowMax 분석 [[비디오]](https://youtu.be/TN61JvbUAxk?t=932) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Acterys) 
 
 
-각각의 새로운 기능에 대한 자세한 내용은 [Power BI Desktop 2019년 11월 기능 요약](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/)을 참조하세요.
+### <a name="data-preparation"></a>데이터 준비
+* 쿼리 진단 - 관리자가 아닌 사용자에 대한 지원 [[비디오]](https://youtu.be/TN61JvbUAxk?t=938) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_non_admin_support) 
+
+
+### <a name="data-connectivity"></a>데이터 연결
+* MicroStrategy 커넥터(일반 공급) [[비디오]](https://youtu.be/TN61JvbUAxk?t=962)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_MicroStrategy_connector) 
+* FHIR 커넥터(일반 공급) [[비디오]](https://youtu.be/TN61JvbUAxk?t=962) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_FHIR) 
+* 추가 커넥터: Factset, TIBCO, Jamf Pro, Asana [[비디오]](https://youtu.be/TN61JvbUAxk?t=978) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Factset_connector) 
+
+
+
+각각의 새로운 기능에 대한 자세한 내용은 [Power BI Desktop 기능 요약 블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/)을 참조하세요.
 
 [Power BI 서비스의 새로운 기능](service-whats-new.md) 및 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)을 확인합니다.
 
@@ -92,7 +82,8 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 ## <a name="power-bi-desktop-monthly-update-video"></a>Power BI Desktop 월별 업데이트 비디오
 다음 동영상에서는 이러한 업데이트를 각각 설명합니다. 이 비디오는 블로그 게시물에서도 시청할 수 있습니다.
 
-> [!VIDEO https://www.youtube.com/embed/eCEwgZsVUOs]
+> [!VIDEO https://www.youtube.com/embed/TN61JvbUAxk]
+
 
 
 ## <a name="more-videos"></a>비디오 더 보기

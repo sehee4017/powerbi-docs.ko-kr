@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: tebercov
-ms.openlocfilehash: a15a27255f15bdce39ddb14a6cda798d170ba3ad
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4b17ed5458a6245ab5796edcf15f6dee5f885358
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871374"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77497162"
 ---
 # <a name="update-delete-and-extract-template-app"></a>템플릿 앱 업데이트, 삭제 및 추출
 
@@ -36,15 +36,21 @@ Power BI Desktop에서 변경을 수행한 경우 (1)단계에서 시작합니�
 
    이제 두 가지 버전이 있습니다. 프로덕션 중인 또는 테스트 중인 버전입니다.
 
-    ![템플릿 앱의 두 가지 버전](media/service-template-apps-update-extract-delete/power-bi-template-app-update.png)
+    ![템플릿 앱의 두 가지 버전](media/service-template-apps-update-extract-delete/power-bi-template-app-update1.png)
 
-5. 테넌트 외부 테스트에 대한 사전 프로덕션으로 앱을 승격할 준비가 되었으면 [릴리스 관리] 창으로 돌아가서 **테스트** 옆의 **앱 수준 올리기**를 선택합니다.
-6. 링크가 이제 활성화됩니다. [Power BI 앱 제품 업데이트](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer)의 단계를 따라 CPP(Cloud 파트너 포털)에 다시 제출합니다.
-7. Cloud 파트너 포털에서 제품을 다시 **게시**하고 유효성을 다시 검사해야 합니다.
+1. 테넌트 외부 테스트에 대한 사전 프로덕션으로 앱을 승격할 준비가 되었으면 [릴리스 관리] 창으로 돌아가서 **테스트** 옆의 **앱 수준 올리기**를 선택합니다.
 
-   >[!NOTE]
-   >앱이 Cloud 파트너 포털에서 승인되고 앱을 게시한 후에만 프로덕션 단계로 앱 수준을 올립니다.
+   이제 프로덕션 및 사전 프로덕션에 각각 버전이 있습니다.
 
+   ![회색으로 표시된 두 가지 버전의 템플릿 앱 수준 올리기](media/service-template-apps-update-extract-delete/power-bi-template-app-update2.png)
+
+   링크가 이제 활성화됩니다. **사전 프로덕션 단계에서 [앱 수준 올리기] 단추는 회색으로 표시됩니다**. 이는 Cloud 파트너 포털이 새 앱 버전의 유효성을 검사하고 해당 버전을 승인하기 전에 현재 앱 버전의 라이브 프로덕션 링크를 실수로 덮어쓰는 것을 방지하기 위한 것입니다.
+
+1. [Power BI 앱 제품 업데이트](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer)의 단계를 따라 CPP(Cloud 파트너 포털)에 링크를 다시 제출합니다. Cloud 파트너 포털에서 제품을 다시 **게시**한 다음, 유효성을 다시 검사하고 승인해야 합니다.
+
+   제품이 승인되면 [앱 수준 올리기] 단추가 다시 활성화됩니다. 
+1. 프로덕션 단계로 앱 수준을 올립니다.
+   
 ### <a name="update-behavior"></a>업데이트 동작
 
 1. 앱을 업데이트하면 템플릿 앱 설치 프로그램이 연결 구성을 잃지 않고 이미 설치된 작업 영역에서 [템플릿 앱을 업데이트](service-template-apps-install-distribute.md#update-a-template-app)할 수 있습니다.

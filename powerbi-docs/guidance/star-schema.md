@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 241789dc6255dd461ef6cc62425b732788d7c63d
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.openlocfilehash: 85db7414fc476f2a62368d150e068a71c13d41cb
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74410835"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527525"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>별모양 스키마 및 Power BI에서의 중요성 이해
 
@@ -71,9 +71,10 @@ Power BI 모델은 요약을 수행하는 다른 방법을 지원한다는 점�
 
 ![필드 목록의 아이콘 예제](media/star-schema/field-list-example.png)
 
-그러나 간단한 열 수준 요약의 경우에도 측정값을 만들어야 하는 두 가지 중요한 이유가 있습니다.
+그러나 간단한 열 수준 요약의 경우에도 측정값을 만들어야 하는 세 가지 중요한 이유가 있습니다.
 
-- 보고서 작성자가 [MDX(Multidimensional Expressions)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017)를 사용하여 모델을 쿼리할 것을 알고 있다면 모델에 _‘명시적 측정값’_ 을 포함해야 합니다. 명시적 측정값은 DAX를 사용하여 정의됩니다. 이 디자인 방법은 MDX를 사용하여 Power BI 데이터 세트를 쿼리하는 경우와 관련성이 매우 높은데, MDX는 열 값을 요약할 수 없기 때문입니다. 특히 MDX는 [Excel에서 분석](https://docs.microsoft.com/power-bi/service-analyze-in-excel)(피벗 테이블 문제 MDX 쿼리)을 수행할 때 사용됩니다.
+- 보고서 작성자가 [MDX(Multidimensional Expressions)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017)를 사용하여 모델을 쿼리할 것을 알고 있다면 모델에 _명시적 측정값_을 포함해야 합니다. 명시적 측정값은 DAX를 사용하여 정의됩니다. 이 디자인 방법은 MDX를 사용하여 Power BI 데이터 세트를 쿼리하는 경우와 관련성이 매우 높은데, MDX는 열 값을 요약할 수 없기 때문입니다. 특히 MDX는 [Excel에서 분석](https://docs.microsoft.com/power-bi/service-analyze-in-excel)(피벗 테이블 문제 MDX 쿼리)을 수행할 때 사용됩니다.
+- 보고서 작성자가 MDX 쿼리 디자이너를 사용하여 Power BI 페이지를 매긴 보고서를 만들 것임을 알고 있다면 모델에 명시적 측정값을 포함해야 합니다. MDX 쿼리 디자이너만 [서버 집계](/sql/reporting-services/report-design/report-builder-functions-aggregate-function)를 지원합니다. 따라서 보고서 작성자가 페이지를 매긴 보고서 엔진 대신 Power BI를 통해 측정값을 평가해야 하는 경우에는 MDX 쿼리 디자이너를 사용해야 합니다.
 - 보고서 작성자가 특정 방식으로만 열을 요약할 수 있도록 해야 하는 경우입니다. 예를 들어 Reseller Sales의 **Unit Price** 열(단가를 나타냄)은 특정 집계 함수를 사용해서 요약해야 합니다. 즉, 합계는 계산하면 안 되지만 다른 집계 함수(min, max, average 등)를 사용하여 요약할 수 있습니다. 이 경우에는 모델러가 **Unit Price** 열을 숨기고 적절한 모든 집계 함수에 사용할 측정값을 만들 수 있습니다.
 
 이 디자인 방법은 Power BI 서비스에서 작성된 보고서와 질문 및 답변에 적합합니다. 그러나 Power BI Desktop 라이브 연결에서는 보고서 작성자가 **필드** 창에서 숨겨진 필드를 표시할 수 있으므로, 이 디자인 방법을 우회할 수 있습니다.

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 12/03/2019
+ms.date: 02/20/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 889fbce483f839147677789c73d826fa23542731
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: aacab1541f336ed12c36dab8243d0096c9a6ed19
+ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75000115"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "77558637"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>Power BI 서비스에서 온-프레미스 데이터 원본으로 Kerberos 기반 SSO 구성
 
@@ -246,11 +246,17 @@ SAP HANA 및 SAP BW에는 이러한 데이터 원본에 대한 게이트웨이�
 
 ## <a name="run-a-power-bi-report"></a>Power BI 보고서 실행
 
-모든 구성 단계를 완료한 후에는 Power BI의 **게이트웨이 관리** 페이지를 사용하여 SSO에 사용할 데이터 원본을 구성할 수 있습니다. 게이트웨이가 여러 개인 경우 Kerberos SSO에 대해 구성한 게이트웨이를 선택해야 합니다. 그런 다음 데이터 원본에 대한 **고급 설정**에서 **DirectQuery 쿼리에 Kerberos를 통한 SSO 사용**이 선택되어 있는지 확인합니다.
+모든 구성 단계를 완료한 후에는 Power BI의 **게이트웨이 관리** 페이지를 사용하여 SSO에 사용할 데이터 원본을 구성할 수 있습니다. 게이트웨이가 여러 개인 경우 Kerberos SSO에 대해 구성한 게이트웨이를 선택해야 합니다. 그런 다음, 데이터 원본의 **고급 설정**에서 DirectQuery 기반 보고서의 경우 **DirectQuery 쿼리에 Kerberos를 통한 SSO 사용** 또는 **DirectQuery를 위해 Kerberos를 통한 SSO 사용 및 쿼리 가져오기**가 선택되고 새로 고침 기반 보고서의 경우 **DirectQuery를 위해 Kerberos를 통한 SSO 사용 및 쿼리 가져오기**가 선택되어 있는지 확인합니다.
 
-![고급 설정 옵션](media/service-gateway-sso-kerberos/advanced-settings.png)
+![고급 설정 옵션](media/service-gateway-sso-kerberos/advanced-settings-02.png)
 
- Power BI Desktop에서 DirectQuery 기반 보고서를 게시합니다. 이 보고서는 Power BI 서비스에 로그인하는 (Azure) Active Directory 사용자에 매핑된 사용자가 액세스할 수 있는 데이터를 사용해야 합니다. 새로 고침의 작동 방식 때문에 가져오기 대신 DirectQuery를 사용해야 합니다. 게이트웨이는 가져오기 기반 보고서를 새로 고칠 때 데이터 원본 생성 시 **사용자 이름** 및 **암호** 필드에 입력한 자격 증명을 사용합니다. 즉, Kerberos SSO가 사용되지 *않습니다*. 게시할 때 여러 게이트웨이가 있는 경우 SSO에 대해 구성한 게이트웨이를 선택합니다. Power BI 서비스에서 이제 보고서를 새로 고치거나, 게시된 데이터 세트를 토대로 새 보고서를 만들 수 있습니다.
+Power BI Desktop에서 DirectQuery 기반 보고서를 게시하고 **DirectQuery 쿼리에 Kerberos를 통한 SSO 사용** 또는 **DirectQuery를 위해 Kerberos를 통한 SSO 사용 및 쿼리 가져오기**를 선택한 데이터 원본에 매핑한 경우 Power BI 서비스에 로그인하는 (Azure) Active Directory 사용자에 매핑된 사용자가 액세스할 수 있는 데이터를 이 보고서에서 사용합니다.
+
+마찬가지로 Power BI Desktop에서 새로 고침 기반 보고서를 게시하고 **DirectQuery를 위해 Kerberos를 통한 SSO 사용 및 쿼리 가져오기**가 선택된 데이터 원본에 매핑한 경우에는 자격 증명을 제공할 필요가 없습니다. 새로 고침은 데이터 세트 소유자의 Active Directory 컨텍스트에서 실행됩니다.
+
+그러나 **DirectQuery를 위해 Kerberos를 통한 SSO 사용 및 쿼리 가져오기**가 선택되지 않은 데이터 원본에 매핑하는 경우에는 데이터 원본을 만들 때 **사용자 이름** 및 **암호** 필드에 입력한 자격 증명이 새로 고침에 사용됩니다. 즉, Kerberos SSO가 사용되지 *않습니다*. 
+
+ 게시할 때 여러 게이트웨이가 있는 경우 SSO에 대해 구성한 게이트웨이를 선택합니다. 
 
 이 구성은 대부분의 경우에서 작동합니다. 그러나 Kerberos를 사용하는 경우 환경에 따라 서로 다른 구성이 있을 수 있습니다. 보고서가 로드되지 않는 경우, 도메인 관리자에게 자세히 조사하도록 요청해야 합니다. 데이터 원본이 SAP BW인 경우, 선택한 SNC 라이브러리에 따라 [CommonCryptoLib](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md#troubleshooting) 및 [gx64krb5/gsskrb5](service-gateway-sso-kerberos-sap-bw-gx64krb.md#troubleshooting)의 데이터 원본 관련 구성 페이지에서 문제 해결 섹션을 참조하세요.
 

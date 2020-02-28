@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/27/2019
+ms.date: 02/12/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6337c4c5e3098d56e869b8ce71117da2413802e6
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: 976d53a5a74bc077d3d4642ccec336b1225344ae
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75925660"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426567"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Power BI의 새 작업 영역에서 작업 구성
 
@@ -62,26 +62,27 @@ Power BI 관리 포털에서 [작업 영역 목록을 사용할 수 있습니다
 
 다음은 관리자, 구성원, 참가자, 뷰어 등 네 가지 역할의 기능입니다. 보기와 상호 작용을 제외한 모든 기능에는 Power BI Pro 라이선스가 필요합니다.
 
-|기능   | Admin  | 멤버  | 참가자  | 뷰어 |
+|기능   | 관리자  | 멤버  | 참가자  | 뷰어 |
 |---|---|---|---|---|
 | 작업 영역 업데이트 및 삭제  | X  |   |   |   | 
 | 다른 관리자를 비롯한 사람 추가/제거  | X  |   |   |   |
 | 낮은 권한을 가진 구성원 또는 다른 사용자 추가  |  X | X  |   |   |
 | 앱 게시 및 업데이트 |  X | X  |   |   |
-| 항목 공유 또는 앱 공유 |  X | X  |   |   |
-| 다른 사용자가 항목을 다시 공유하도록 허용 |  X | X  |   |   |
+| 항목 공유 또는 앱 공유.<sup>1</sup> |  X | X  |   |   |
+| 다른 사용자가 항목을 다시 공유하도록 허용.<sup>1</sup> |  X | X  |   |   |
 | 작업 영역에서 콘텐츠 만들기, 편집 및 삭제  |  X | X  | X  |   |
 | 작업 영역에 보고서 게시, 콘텐츠 삭제  |  X | X  | X  |   |
 | 이 작업 영역의 데이터 세트를 기반으로 하여 다른 작업 영역에 보고서 만들기.<sup>1</sup> |  X | X  | X  |   |
-| 보고서 복사.<sup>1</sup> | X | X | X |  |
-| 항목 보기 및 상호 작용.<sup>2</sup> |  X | X  | X  | X  |
+| 보고서 복사.<sup>2</sup> | X | X | X |  |
+| 항목 보기 및 상호 작용.<sup>3</sup> |  X | X  | X  | X  |
 
-1. 보고서를 복사하고 이 작업 영역의 데이터 세트를 기반으로 하여 다른 작업 영역에서 보고서를 만들려면 추가 조건을 충족해야 합니다.
+1. 참가자와 시청자는 다시 공유 권한이 있는 경우 작업 영역에서 항목을 공유할 수 있습니다.
+2. 보고서를 복사하고 이 작업 영역의 데이터 세트를 기반으로 하여 다른 작업 영역에서 보고서를 만들려면 추가 조건을 충족해야 합니다.
     - Power BI Pro 라이선스가 있어야 합니다. 자세한 내용은 다음 섹션인 [라이선싱](#licensing)을 참조하세요.
     - 데이터 세트의 빌드 권한이 필요합니다. 이 작업 영역의 데이터 세트에서 관리자, 구성원 및 참가자 역할이 있는 사용자는 작업 영역 역할을 통해 빌드 권한을 보유합니다.
 2. Power BI Pro 라이선스가 없더라도, 항목이 프리미엄 용량의 작업 영역에 있는 경우 Power BI 서비스에서 항목을 보고 상호 작용할 수 있습니다.
 
-## <a name="licensing"></a>라이선스
+## <a name="licensing"></a>라이선싱
 공유된 용량의 작업 영역에 추가하는 모든 사용자는 Power BI Pro 라이선스가 필요합니다. 작업 영역에서 이러한 사용자는 물론, 더 광범위한 대상 그룹이나 조직 전체에 게시할 계획이 있는 대시보드, 보고서에 대해 공동 작업을 수행할 수 있습니다. 
 
 조직 내 다른 사용자에게 콘텐츠를 배포하려는 경우 해당 사용자에게 Power BI Pro 라이선스를 할당하거나 Power BI Premium 용량에 작업 영역을 배치할 수 있습니다.
@@ -116,7 +117,7 @@ Power BI는 작업 영역 액세스 권한을 가지도록 구성된 사용자 �
 
 새 작업 영역 환경의 작업 영역에 대한 다음 작업은 Power BI에서 감사됩니다.
 
-| 친숙한 이름 | 작업 이름 |
+| 식별 이름 | 작업 이름 |
 |---|---|
 | Power BI 폴더 만듦 | CreateFolder |
 | Power BI 폴더 삭제됨 | DeleteFolder |
@@ -166,4 +167,4 @@ Power BI는 작업 영역 액세스 권한을 가지도록 구성된 사용자 �
 * [Power BI에서 새 작업 영역 만들기](service-create-the-new-workspaces.md)
 * [클래식 작업 영역 만들기](service-create-workspaces.md)
 * [Power BI에서 앱 설치 및 사용](service-create-distribute-apps.md)
-* 질문이 있으십니까? [Power BI 커뮤니티에 질문하세요.](https://community.powerbi.com/)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

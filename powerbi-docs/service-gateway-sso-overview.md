@@ -9,16 +9,16 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: bfa4534b625a965226dfced17403a7e2da7a7f84
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: b5ef7e99edbf862891811047ea5f1f961aaea348
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74699202"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527594"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Power BI의 게이트웨이 SSO(Single Sign-On) 개요
 
-온-프레미스 데이터 게이트웨이를 구성하면 원활한 Single Sign-On 연결을 통해 Power BI 보고서 및 대시보드가 온-프레미스 데이터에서 실시간으로 업데이트되도록 할 수 있습니다. [Kerberos](service-gateway-sso-kerberos.md) 제한 위임 또는 [SAML](service-gateway-sso-saml.md)(Security Assertion Markup Language)을 사용하여 게이트웨이를 구성할 수 있습니다. 온-프레미스 데이터 게이트웨이는 온-프레미스 데이터 원본에 연결되는 [DirectQuery](desktop-directquery-about.md)를 사용하여 SSO 연결을 지원합니다.
+온-프레미스 데이터 게이트웨이를 구성하면 원활한 Single Sign-On 연결을 통해 Power BI 보고서 및 대시보드가 온-프레미스 데이터에서 실시간으로 업데이트되도록 할 수 있습니다. [Kerberos](service-gateway-sso-kerberos.md) 제한 위임 또는 [SAML](service-gateway-sso-saml.md)(Security Assertion Markup Language)을 사용하여 게이트웨이를 구성할 수 있습니다. 온-프레미스 데이터 게이트웨이는 온-프레미스 데이터 원본에 연결되는 새로 고침을 위해 또는 [DirectQuery](desktop-directquery-about.md)를 사용하여 SSO를 지원합니다. 
 
 Power BI는 다음과 같은 데이터 원본을 지원합니다.
 
@@ -33,7 +33,9 @@ Power BI는 다음과 같은 데이터 원본을 지원합니다.
 
 현재 [M 확장](https://github.com/microsoft/DataConnectors/blob/master/docs/m-extensions.md)에서는 SSO가 지원되지 않습니다.
 
-사용자가 Power BI 서비스에서 DirectQuery 보고서를 조작하는 경우 각 교차 필터, 조각, 정렬 및 보고서 편집 작업으로 인해 기본 온-프레미스 데이터 원본에서 라이브로 실행되는 쿼리가 생성될 수 있습니다. 데이터 원본에 대해 SSO가 구성된 경우, 웹 환경이나 Power BI 모바일 앱을 통해 Power BI를 조작하는 사용자의 ID로 쿼리가 실행됩니다. 따라서 각 사용자는 기본 데이터 원본에서 정확히 사용 권한이 있는 데이터만 볼 수 있습니다. Single Sign-On을 구성하면 여러 사용자 간에 공유되는 데이터 캐싱이 없습니다.
+사용자가 Power BI 서비스에서 DirectQuery 보고서를 조작하는 경우 각 교차 필터, 조각, 정렬 및 보고서 편집 작업으로 인해 기본 온-프레미스 데이터 원본에서 라이브로 실행되는 쿼리가 생성될 수 있습니다. 데이터 원본에 대해 SSO가 구성된 경우, 웹 환경이나 Power BI 모바일 앱을 통해 Power BI를 조작하는 사용자의 ID로 쿼리가 실행됩니다. 따라서 각 사용자는 기본 데이터 원본에서 정확히 사용 권한이 있는 데이터만 볼 수 있습니다. 
+
+Power BI Service에서 새로 고침을 위해 설정되는 보고서에서 SSO를 사용하도록 구성할 수도 있습니다. 이 데이터 원본에 대해 SSO를 구성하면 Power BI 내에서 데이터 세트 소유자의 ID로 쿼리가 실행됩니다. 따라서 기본 데이터 원본에 대한 데이터 세트 소유자의 권한에 따라 새로 고침이 수행됩니다. 현재 SSO를 사용한 새로 고침은 [Kerberos](service-gateway-sso-kerberos.md) 제한된 위임을 사용하는 데이터 원본에만 사용할 수 있습니다. 
 
 ## <a name="query-steps-when-running-sso"></a>SSO를 실행하는 경우 쿼리 단계
 

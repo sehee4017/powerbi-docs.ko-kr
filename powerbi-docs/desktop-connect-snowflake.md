@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a62d1cf6d21df822265c3c41d4e74e74181b7051
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.openlocfilehash: e7534fd0da2039a2dafaf3ca80ee6957fa8d8754
+ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75885215"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "77464304"
 ---
 # <a name="connect-to-a-snowflake-computing-warehouse-in-power-bi-desktop"></a>Power BI Desktop에서 Snowflake 컴퓨팅 웨어하우스에 연결
 Power BI Desktop에서 **Snowflake** 컴퓨팅 웨어하우스에 연결하고 Power BI Desktop의 다른 데이터 원본처럼 기본 데이터를 사용할 수 있습니다. 
@@ -27,11 +27,11 @@ Power BI Desktop에서 **Snowflake** 컴퓨팅 웨어하우스에 연결하고 P
 ## <a name="connect-to-a-snowflake-computing-warehouse"></a>Snowflake 컴퓨팅 웨어하우스에 연결
 **Snowflake** 컴퓨팅 웨어하우스에 연결하려면 Power BI Desktop의 **홈** 리본에서 **데이터 가져오기**를 선택합니다. 왼쪽에 있는 범주에서 **데이터베이스**를 선택하면 **Snowflake**가 표시됩니다.
 
-![](media/desktop-connect-snowflake/connect_snowflake_2b.png)
+![](media/desktop-connect-snowflake/connect-snowflake-2b.png)
 
-**Snowflake** 창이 나타나면 상자에 Snowflake 컴퓨팅 웨어하우스 이름을 입력하거나 붙여 넣고 **확인**을 선택합니다. Power BI로 데이터를 직접 **가져오거나** **DirectQuery**를 사용할 수 있습니다. [DirectQuery 사용](desktop-use-directquery.md)에 대해 자세히 알아볼 수 있습니다.
+**Snowflake** 창이 나타나면 상자에 Snowflake 컴퓨팅 웨어하우스 이름을 입력하거나 붙여 넣고 **확인**을 선택합니다. Power BI로 데이터를 직접 **가져오거나** **DirectQuery**를 사용할 수 있습니다. [DirectQuery 사용](desktop-use-directquery.md)에 대해 자세히 알아볼 수 있습니다. AAD SSO는 DirectQuery만 지원합니다.
 
-![](media/desktop-connect-snowflake/connect_snowflake_3.png)
+![](media/desktop-connect-snowflake/connect-snowflake-3.png)
 
 메시지가 표시되면 사용자 이름 및 암호를 입력합니다.
 
@@ -42,14 +42,14 @@ Power BI Desktop에서 **Snowflake** 컴퓨팅 웨어하우스에 연결하고 P
 > 
 > 
 
-Microsoft 계정 옵션을 사용하려면 이 기능을 위해 프라이빗 미리 보기에 가입하는 방법을 Snowflake에 문의하도록 Snowflake 관리자에게 요청하세요.
+Microsoft 계정 옵션을 사용하려면 Snowflake 쪽에서 Snowflake AAD 통합을 구성해야 합니다. 이렇게 하려면 [항목에서 Snowflake 설명서](https://docs.snowflake.net/manuals/user-guide/oauth-powerbi.html#power-bi-sso-to-snowflake)의 시작 섹션을 참조하세요.
 
 ![Snowflake 커넥터의 Microsoft 계정 인증 유형](media/desktop-connect-snowflake/connect-snowflake-6.png)
 
 
 성공적으로 연결되면 **탐색기** 창이 나타나고 서버에 사용 가능한 데이터를 표시합니다. 여기서 하나 이상의 요소를 선택하여 **Power BI Desktop**에 가져오고 사용할 수 있습니다.
 
-![ODBC 오류 28000으로 인해 연결에 실패합니다.](media/desktop-connect-snowflake/connect_snowflake_5.png)
+![ODBC 오류 28000으로 인해 연결에 실패합니다.](media/desktop-connect-snowflake/connect-snowflake-5.png)
 
 선택된 테이블을 **로드**하여 전체 테이블을 **Power BI Desktop**에 가져오거나 쿼리를 **편집**하여 **쿼리 편집기**를 열고 사용하려는 데이터의 집합을 필터링하고 재정의한 후 조정된 데이터 집합을 **Power BI Desktop**에 로드할 수 있습니다.
 

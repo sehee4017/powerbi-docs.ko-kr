@@ -1,31 +1,31 @@
 ---
-title: '자습서:  Excel에서 분석 사용'
-description: 이 자습서에서는 Power BI 데이터 세트 페이지를 사용하여 데이터 세트를 Excel로 가져옵니다.
+title: '자습서:  Power BI Excel에서 분석 사용, Excel에서 시작'
+description: 이 자습서에서는 Excel에서 시작하고 Power BI 데이터 세트 페이지에 연결하여 데이터 세트를 Excel로 가져옵니다.
 author: tejaskulkarni
 ms.reviewer: davidiseminger
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
-ms.date: 01/27/2020
+ms.date: 02/13/2020
 ms.author: tekulkar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a68adccec019e64e554d199d23d7dddd782f56a2
-ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
+ms.openlocfilehash: d3795c34e477c593af4afefbe5cc01040026bfa4
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "76921488"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426544"
 ---
-# <a name="tutorial-use-analyze-in-excel"></a>자습서:  Excel에서 분석 사용
+# <a name="tutorial-use-power-bi-analyze-in-excel-starting-in-excel"></a>자습서:  Power BI Excel에서 분석 사용, Excel에서 시작
 
-조직에서 Power BI를 사용하여 데이터에 대한 액세스를 공유합니다. Excel에서 분석 기능을 사용하여 피벗 테이블 및 피벗 차트를 만들어 분석에 추가 컨텍스트를 가져오거나 관련 데이터 세트를 찾고 가져오는 데 걸리는 시간을 줄일 수 있습니다.
+조직에서 Power BI를 사용하여 데이터에 대한 액세스를 공유합니다. Excel에서 Power BI Excel에서 분석 기능을 시작하여 Excel에서 피벗 테이블과 피벗 차트를 만듭니다. 해당 항목은 분석에 추가 컨텍스트를 가져오거나 관련 데이터 세트를 찾고 가져오는 데 걸리는 시간을 줄일 수 있습니다.
 
-데이터 세트 선택을 시작하려면 'Excel에서 분석'을 선택합니다. 데이터를 사용하는 피벗 테이블을 만드는 방법이 안내됩니다.  
+Power BI 데이터 세트를 시작하려면 Excel에서 “Excel에서 분석”을 선택합니다. 데이터를 사용하는 피벗 테이블을 만드는 방법이 안내됩니다.  
 
 데이터 세트 페이지로 돌아가면 조직에서 공유하는 추가 데이터 세트를 찾을 수 있습니다.
 
-어느 지점에서든 문제가 발생하는 경우 아래 흐름의 해당 단계에서 아니요를 선택하고 연결된 양식에 피드백을 제공합니다.  
+어느 지점에서든 문제가 발생하는 경우 아래 흐름의 해당 단계에서 **아니요**를 선택하고 연결된 양식에 피드백을 제공합니다.  
 
 이 자습서에서는 다음 작업을 수행하는 방법을 알아봅니다.
 

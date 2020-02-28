@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/09/2019
+ms.date: 02/20/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 24867d231cca0135c09119f4b885b393cb2b8dd8
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 3dd50d4f57b3146135cde5e91062ed3b2a0eecc1
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699064"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527341"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI 고가용성, 장애 조치(failover) 및 재해 복구 FAQ
 
@@ -53,7 +53,10 @@ Power BI 지원 페이지에 알림이 게시됩니다([https://powerbi.microsof
 
 ## <a name="how-long-does-it-take-power-bi-to-fail-over"></a>Power BI를 장애 조치(failover)하는 데 얼마나 걸리나요?
 
-장애 조치(failover) 결정이 내려지면 장애 조치(failover) 인스턴스를 사용할 수 있기까지 최대 60분이 걸릴 수 있습니다.
+Power BI는 장애 조치가 필요한 것으로 식별된 후 다시 작동하는 데 15분 정도 걸립니다. 장애 조치가 필요한 것으로 식별하는 시간은 문제가 발생한 시나리오에 따라 달라집니다. 
+
+장애 조치를 수행한 후 Power BI는 Azure Storage 지역 복제를 사용하여 장애 조치를 수행합니다. 일반적으로 해당 복제의 반환 시점은 15분이지만, [Azure Storage는 SLA에서 이 시간 범위를 보장하지 않으므로](https://docs.microsoft.com/azure/storage/common/storage-redundancy) Power BI도 시간 범위를 보장할 수 없습니다. 
+
 
 ## <a name="when-does-my-power-bi-instance-return-to-the-original-region"></a>내 Power BI 인스턴스가 원래 영역으로 돌아가는 시기는?
 

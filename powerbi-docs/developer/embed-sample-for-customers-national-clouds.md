@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 53432a0b3e6f09a558a189ef152c9d10645db546
-ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
+ms.openlocfilehash: 9998604bf3f0211490dee87596e2a0692072807c
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "77259687"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427280"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>자습서:  내셔널 클라우드용 애플리케이션에 Power BI 콘텐츠 포함
 
@@ -54,7 +54,7 @@ Power BI는 [내셔널 클라우드](https://docs.microsoft.com/azure/active-dir
 * GCC(정부 커뮤니티 클라우드):
 
     > [!NOTE]
-    > GCC(정부 커뮤니티 클라우드)의 Power BI 콘텐츠를 포함하려면 Office 356 SKU를 사용해야 합니다. 기타 국가 클라우드 고객은 [Office 356 또는 Azure SKU](embedded-capacity.md)를 사용할 수 있습니다.
+    > GCC(정부 커뮤니티 클라우드)의 Power BI 콘텐츠를 포함하려면 Office 365 SKU를 사용해야 합니다. 기타 국가 클라우드 고객은 [Office 365 또는 Azure SKU](embedded-faq.md)를 사용할 수 있습니다.
 
 1. GCCCloud.config 콘텐츠로 Cloud.config 파일을 덮어씁니다.
 

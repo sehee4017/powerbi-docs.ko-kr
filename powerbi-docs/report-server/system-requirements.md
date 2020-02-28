@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/21/2020
-ms.openlocfilehash: 7b8c106f13df381152b6323cf1263747a3064709
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.date: 02/20/2020
+ms.openlocfilehash: 20b41762f7b38bd4ed26add97abb4eec1da0c000
+ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76540570"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "77558572"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Power BI Report Server를 설치하기 위한 하드웨어 및 소프트웨어 요구 사항
 
@@ -23,7 +23,7 @@ ms.locfileid: "76540570"
 
 | 구성 요소 | 요구 사항 |
 | --- | --- |
-| .NET Framework |4.6<br><br>[Windows용 Microsoft .NET Framework 4.6(웹 설치 관리자)](https://support.microsoft.com/kb/3045560)에서 .NET Framework를 수동으로 설치할 수 있습니다.<br/><br/> .NET Framework 4.6에 대한 자세한 정보, 권장 사항 및 지침은 [개발자를 위한 .NET Framework 배포 가이드](https://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx)를 참조하세요.<br/><br/>.NET Framework 4.6을 설치하기 전에 Windows 8.1 및 Windows Server 2012 R2에는 [KB2919355](https://support.microsoft.com/kb/2919355)가 필요합니다. |
+| .NET Framework |4.7<br><br>[Windows용 Microsoft .NET Framework 4.7(웹 설치 관리자)](https://support.microsoft.com/en-us/kb/3186500)에서 .NET Framework를 수동으로 설치할 수 있습니다.<br/><br/> .NET Framework 4.7에 대한 자세한 정보, 권장 사항 및 지침은 [개발자를 위한 .NET Framework 배포 가이드](https://docs.microsoft.com/dotnet/framework/deployment/deployment-guide-for-developers)를 참조하세요.<br/><br/>.NET Framework 4.7을 설치하기 전에 Windows 8.1 및 Windows Server 2012 R2에는 [KB2919355](https://support.microsoft.com/kb/2919355)가 필요합니다. |
 | 하드 디스크 |Power BI Report Server에는 최소 1GB의 하드 디스크 여유 공간이 필요합니다.<br><br>Report Server 데이터베이스를 호스팅하는 데이터베이스 서버에 추가 공간이 필요합니다. |
 | 메모리 |**최소값:** 1GB<br/><br/> **권장:** 최소 4GB |
 | 프로세서 속도 |**최소:** x64 프로세서: 1.4GHz<br/><br/> **권장:** 2.0GHz 이상 |
@@ -38,6 +38,7 @@ ms.locfileid: "76540570"
 
 보고서 서버 데이터베이스를 호스팅하는 데 SQL Server를 사용합니다. SQL Server 데이터베이스 엔진 인스턴스는 로컬 또는 원격 인스턴스일 수 있습니다. 다음은 보고서 서버 데이터베이스를 호스팅하는 데 사용할 수 있는 지원되는 버전의 SQL Server 데이터베이스 엔진입니다.
 
+* Azure SQL Managed Instance(Power BI Report Server 2020년 1월 버전 이상)
 * SQL Server 2019
 * SQL Server 2017
 * SQL Server 2016

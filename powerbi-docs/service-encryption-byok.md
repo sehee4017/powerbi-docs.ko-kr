@@ -1,5 +1,5 @@
 ---
-title: Power BI에 대한 사용자 고유의 암호화 키 가져오기(미리 보기)
+title: Power BI에 대한 사용자 고유의 암호화 키 가져오기
 description: Power BI Premium에서 자신의 암호화 키를 사용하는 방법을 알아봅니다.
 author: davidiseminger
 ms.author: davidi
@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 02/20/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: c4b4d706f56d9ebc91b17194c9b2fa631aeb8497
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 133d807d26ba6571eeb614852f3f651a749a369f
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75762120"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527774"
 ---
-# <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Power BI에 대한 사용자 고유의 암호화 키 가져오기(미리 보기)
+# <a name="bring-your-own-encryption-keys-for-power-bi"></a>Power BI에 대한 사용자 고유의 암호화 키 가져오기
 
 Power BI는 미사용(_at-rest_) 및 처리 중(_in process_)인 데이터를 암호화합니다. 기본적으로 Power BI는 Microsoft 관리형 키를 사용하여 데이터를 암호화합니다. Power BI Premium에서는 데이터 세트로 가져온 미사용 데이터에 대해 자신의 키를 사용할 수도 있습니다. (자세한 내용은 [데이터 원본 및 스토리지 고려 사항](#data-source-and-storage-considerations)을 참조하세요.) 이러한 방식은 BYOK(_bring your own key_)라고 하는 경우가 많습니다.
 
 ## <a name="why-use-byok"></a>BYOK를 사용하는 이유?
 
-BYOK를 사용하면 클라우드 서비스 공급자(이 경우 Microsoft)와의 키 정렬을 지정하는 규정 준수 요구 사항을 더 쉽게 충족할 수 있습니다. BYOK를 사용하면 애플리케이션 수준에서 Power BI 미사용 데이터에 대한 암호화 키를 제공하고 제어할 수 있습니다. 결과적으로, 서비스를 종료하기로 결정한 경우, 조직의 키를 제어하고 철회할 수 있습니다. 키를 취소하면 서버스에서 데이터를 읽을 수 없습니다.
+BYOK를 사용하면 클라우드 서비스 공급자(이 경우 Microsoft)와의 키 정렬을 지정하는 규정 준수 요구 사항을 더 쉽게 충족할 수 있습니다. BYOK를 사용하면 애플리케이션 수준에서 Power BI 미사용 데이터에 대한 암호화 키를 제공하고 제어할 수 있습니다. 결과적으로, 서비스를 종료하기로 결정한 경우, 조직의 키를 제어하고 철회할 수 있습니다. 키를 취소하면 30분 동안 서비스에서 데이터를 읽을 수 없습니다.
 
 ## <a name="data-source-and-storage-considerations"></a>데이터 원본 및 스토리지 고려 사항
 
@@ -34,7 +34,12 @@ BYOK를 사용하려면 Power BI Desktop(PBIX) 파일에서 Power BI 서비스�
 - [스트리밍 데이터 세트](service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
 - [대형 모델](service-premium-large-models.md)
 
-BYOK는 PBIX 파일과 연결된 데이터 세트에만 적용되며 타일 및 시각적 개체에 대한 쿼리 결과 캐시는 적용되지 않습니다.
+BYOK는 데이터 세트에만 적용됩니다. 사용자가 서비스에 업로드할 수 있는 푸시 데이터 세트, Excel 파일 및 CSV 파일은 고유한 키를 사용하여 암호화되지 않습니다. 작업 영역에 저장된 아티팩트를 식별하려면 다음 PowerShell 명령을 사용합니다.
+
+```PS C:\> Get-PowerBIWorkspace -Scope Organization -Include All```
+
+> [!NOTE]
+> 이 cmdlet에 Power BI 관리 모듈 v1.0.840이 필요합니다. Get-InstalledModule -Name MicrosoftPowerBIMgmt를 실행하여 보유한 버전을 확인할 수 있습니다. Install-Module -Name MicrosoftPowerBIMgmt를 실행하여 최신 버전을 설치합니다. [Power BI PowerShell cmdlet 모듈](https://docs.microsoft.com/powershell/power-bi/overview)에서 Power BI cmdlet 및 해당 매개 변수에 대한 자세한 정보를 확인할 수 있습니다.
 
 ## <a name="configure-azure-key-vault"></a>Azure Key Vault 구성
 
@@ -53,14 +58,14 @@ BYOK는 PBIX 파일과 연결된 데이터 세트에만 적용되며 타일 및 
 
 ### <a name="add-the-service-principal"></a>서비스 주체 추가
 
-1. Azure Portal 키 자격 증명 모음의 **액세스 정책**에서 **새로 추가**를 선택합니다.
+1. Azure Portal에 있는 키 자격 증명 모음의 **액세스 정책**에서 **새로 추가**를 선택합니다.
 
 1. **주체 선택**에서 Microsoft.Azure.AnalysisServices를 검색하여 선택합니다.
 
     > [!NOTE]
     > “Microsoft.Azure.AnalysisServices”를 찾을 수 없는 경우 Azure Key Vault와 연결된 Azure 구독에 Power BI 리소스가 연결되지 않았을 수 있습니다. 대신, 다음 문자열을 검색해 보세요. 00000009-0000-0000-c000-000000000000.
 
-1. **키 권한**에서 **키 래핑 해제**와 **키 래핑**을 선택합니다.
+1. **키 권한**에서 **키 래핑 해제** 및 **키 래핑**을 선택합니다.
 
     ![PBIX 파일 구성 요소](media/service-encryption-byok/service-principal.png)
 
@@ -183,3 +188,17 @@ Power BI는 테넌트에서 BYOK를 관리할 수 있는 추가 cmdlet을 제공
     ```powershell
     Switch-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'
     ```
+
+
+
+## <a name="next-steps"></a>다음 단계
+
+* [Power BI PowerShell cmdlet 모듈](https://docs.microsoft.com/powershell/power-bi/overview) 
+
+* [Power BI에서 작업을 공유하는 방법](service-how-to-collaborate-distribute-dashboards-reports.md)
+
+* [URL에 쿼리 문자열 매개 변수를 사용하여 보고서 필터링](service-url-filters.md)
+
+* [SharePoint Online에 보고서 웹 파트 포함](service-embed-report-spo.md)
+
+* [Power BI에서 웹에 게시](service-publish-to-web.md)

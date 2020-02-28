@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/03/2019
-ms.openlocfilehash: 2a95f8afce2762b82e73741563a29fa22b433d36
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 02/13/2020
+ms.openlocfilehash: ee789274f6581423ed7adebc5b662a732dbeaa7a
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874108"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426659"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Report Server에 최적화된 Power BI Desktop 설치
 
@@ -93,11 +93,15 @@ Power BI Report Server 보고서는 Power BI 모바일 앱에서 다음과 같�
 * 현재 위치
 * 지역 필터링 또는 막대 코드
 
+### <a name="custom-security"></a>사용자 지정 보안
+
+Power BI Report Server에 최적화된 Power BI Desktop은 사용자 지정 보안을 지원하지 않습니다. Power BI Report Server가 사용자 지정 보안 확장 프로그램을 사용하여 구성된 경우에는 Power BI Desktop(Power BI Report Server에 최적화됨)에서 Power BI Report Server 인스턴스로 Power BI 보고서를 저장할 수 없습니다. Power BI Desktop에서 .pbix 보고서 파일을 저장하고 Power BI Report Server 포털 사이트에 업로드해야 합니다.
+
 ## <a name="power-bi-desktop-for-earlier-versions-of-power-bi-report-server"></a>이전 버전의 Power BI Report Server에 대한 Power BI Desktop
 
 보고서 서버가 이전 버전이면 해당 버전의 Power BI Desktop이 필요합니다. 다음은 이전 버전을 다운로드하기 위한 링크입니다.
 
-- Microsoft Power BI Desktop([Power BI Report Server에 최적화됨 - 2019년 1월](https://go.microsoft.com/fwlink/?linkid=2055039))
+- Microsoft Power BI Desktop([Power BI Report Server에 최적화됨 - 2019년 9월](https://go.microsoft.com/fwlink/?linkid=2103723))
 
 ## <a name="next-steps"></a>다음 단계
 

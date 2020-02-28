@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/18/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f250d380fc8938f7b5d7723b5b8becb65f27d79d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 64809b2542cbe64951dc2f8fae12b13b8f6bc79e
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73852596"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496283"
 ---
 # <a name="view-a-dashboard"></a>대시보드 보기
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -25,7 +27,7 @@ Power BI *소비자*는 대시보드를 보는 데 많은 시간을 사용합니
 ![대시보드](media/end-user-dashboard-open/power-bi-new-dash-new.png)
 
 
-Power BI Pro는 대시보드를 공유하고 공유한 대시보드를 보는 데 필요합니다.
+Power BI Pro 또는 Premium 라이선스는 대시보드를 공유하고 공유한 대시보드를 보는 데 필요합니다. [사용 중인 라이선스 확인](end-user-license.md). 
 
 ## <a name="open-a-dashboard"></a>대시보드 열기
 
@@ -33,7 +35,7 @@ Power BI Pro는 대시보드를 공유하고 공유한 대시보드를 보는 �
 
 |              |         |
 |------------|--------------------------------|
-|![대시보드 아이콘](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |대시보드는 Power BI 서비스의 여러 위치에서 열 수 있습니다. <br> 이 대시보드 아이콘을 찾아보세요. 대시보드를 식별하면 <br>쉽게 열수 있고, 선택하기만 하면 대시보드가 채워집니다. <br>Power BI 캔버스입니다. |
+|![대시보드 아이콘](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |대시보드는 Power BI 서비스의 여러 위치에서 열 수 있습니다. <br> 이 대시보드 아이콘을 찾아보세요. 대시보드를 식별하면 <br>쉽게 열 수 있고, 선택하기만 하면 대시보드가 Power BI 캔버스를 채웁니다. |
 |                    |          |
 
 
@@ -52,5 +54,5 @@ Power BI Pro는 대시보드를 공유하고 공유한 대시보드를 보는 �
 
 
 ## <a name="next-steps"></a>다음 단계
-* [샘플 대시보드](../sample-tutorial-connect-to-the-samples.md) 중 하나를 둘러보면 대시보드에 금방 익숙해 집니다.
+* [샘플 대시보드](../sample-tutorial-connect-to-the-samples.md) 중 하나를 둘러보면 대시보드에 금방 익숙해 집니다.    
 * [대시보드 타일](end-user-tiles.md)과 선택할 경우 어떻게 되는지 알아보세요.

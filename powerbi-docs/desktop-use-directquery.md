@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 02/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 90721b059958e59cfd74f9ba1d0d25617a7438e6
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: d8432ae10afab6cbf12c017a8f315fd55825212d
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76889285"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427234"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Power BI Desktop에서 DirectQuery 사용
 *Power BI Desktop*을 사용하면 데이터 원본에 연결할 때 항상 데이터의 복사본을 Power BI Desktop으로 가져올 수 있습니다. 일부 데이터 원본의 경우 DirectQuery를 사용하여 데이터 원본에 직접 연결하는 것과 같은 다른 방법을 사용할 수 있습니다.
@@ -46,8 +46,6 @@ DirectQuery를 사용하는 경우 다음과 같은 몇 가지 이점이 있습�
 
 ## <a name="limitations-of-directquery"></a>DirectQuery의 제한 사항
 현재 DirectQuery 사용에는 다음과 같은 몇 가지 제한 사항이 있습니다.
-
-- [복합 모델](desktop-composite-models.md)을 사용하지 않는 한, 모든 테이블은 단일 데이터베이스에서 가져와야 합니다.
 
 - **쿼리 편집기** 쿼리가 너무 복잡하면 오류가 발생합니다. 오류를 수정하려면 **쿼리 편집기**에서 문제가 되는 단계를 삭제하거나 DirectQuery를 사용하지 않고 데이터를 ‘가져옵니다’.  SAP Business Warehouse와 같은 다차원 원본의 경우 **쿼리 편집기**가 없습니다.
 
@@ -94,7 +92,7 @@ DirectQuery를 사용하여 만든 보고서는 Power BI 서비스에 게시할 
 
 4. 자격 증명을 추가합니다. 그렇지 않으면 게시된 보고서를 열거나 DirectQuery 연결을 사용하여 만든 데이터 세트를 탐색할 때 오류가 발생합니다.
 
-DirectQuery를 사용하는 **Azure SQL Database**, **Azure SQL Data Warehouse** 및 **Redshift** 이외의 데이터 원본에 대해 데이터 연결을 설정하려면 **온-프레미스 데이터 게이트웨이**를 설치하고 데이터 원본을 등록합니다. 자세한 내용은 [온-프레미스 데이터 게이트웨이란?](service-gateway-onprem.md)을 참조하세요.
+DirectQuery를 사용하는 **Azure SQL Database**, **Azure SQL Data Warehouse** 및 **Redshift** 또는 **Snowflake Data Warehouse** 이외의 데이터 원본에 대해 데이터 연결을 설정하려면 **온-프레미스 데이터 게이트웨이**를 설치하고 데이터 원본을 등록합니다. 자세한 내용은 [온-프레미스 데이터 게이트웨이란?](service-gateway-onprem.md)을 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 DirectQuery에 대한 자세한 내용은 다음 리소스를 참조하세요.

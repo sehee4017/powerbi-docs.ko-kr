@@ -7,23 +7,28 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/18/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: da941de8b44f3833a5f80bba648f4a185f35b36e
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 59ba4d0e62613ed25569efd0602815e3d98aec4d
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73852027"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496506"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>대시보드 또는 보고서에 댓글 추가
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 개별 댓글을 추가하거나 동료와 대시보드 또는 보고서에 관한 대화를 시작합니다. **댓글** 기능은 *소비자*가 다른 사용자와 공동 작업할 수 있는 방법 중 하나입니다. 
 
 ![댓글 비디오](media/end-user-comment/comment.gif)
+
+> [!NOTE]
+> 공유된 보고서에 주석을 추가하는 것을 포함하여 다른 사용자와 협업하려면 Power BI Pro 또는 Premium 라이선스가 필요합니다. [사용 중인 라이선스 유형 확인](end-user-license.md)
 
 ## <a name="how-to-use-the-comments-feature"></a>의견 기능 사용 방법
 전체 대시보드, 대시보드의 개별 시각적 개체, 보고서 페이지, 페이지를 매긴 보고서 및 보고서 페이지의 개별 시각적 개체에 설명을 추가할 수 있습니다. 일반 댓글이나 특정 동료를 대상으로 하는 댓글을 추가합니다.  
@@ -34,7 +39,7 @@ ms.locfileid: "73852027"
 
 이 기능이 왜 중요할까요? 동료가 팀과 공유하려는 흥미로운 인사이트를 표시하는 필터를 적용했다고 가정한다면, 해당 필터를 선택하지 않을 경우 댓글이 적합하지 않을 수 있습니다.
 
-페이지를 매긴 보고서를 사용하는 경우 보고서에 관한 일반적인 설명만 추가할 수 있습니다.  개별 보고서 시각적 개체에 관한 설명을 추가하는 기능은 지원되지 않습니다.
+페이지를 매긴 보고서를 사용하는 경우 보고서에 관한 일반적인 설명만 추가할 수 있습니다.  개별 페이지를 매긴 보고서 시각적 개체에 관한 설명을 추가하는 기능은 지원되지 않습니다.
 
 ### <a name="add-a-general-comment-to-a-dashboard-or-report"></a>대시보드 또는 보고서에 일반 댓글 추가
 대시보드 또는 보고서에 댓글을 추가하는 프로세스는 비슷합니다.  이 예제에서는 대시보드를 사용합니다. 

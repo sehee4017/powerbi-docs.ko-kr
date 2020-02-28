@@ -3,20 +3,21 @@ title: Power BI "소비자"란?
 description: 소비자용 Power BI 개요(최종 사용자 또는 비즈니스 사용자라고도 함)
 author: mihart
 ms.service: powerbi
-ms.custom: seodec18
 ms.subservice: powerbi-consumer
 ms.topic: overview
-ms.date: 10/31/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: bf5e83005e0bd1782e497cdeec1d3689e5749b12
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 100a9302e260a7c8f34c6fa07cc6b231e7271ce6
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73863799"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496222"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>소비자용 Power BI 서비스
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 우리는 비즈니스 의사 결정이 의견이 아닌 사실을 기준으로 하는 데이터 문화권에 살고 있습니다. 이러한 결정을 내리기 위해서는 데이터가 필요하며 동료들도 도움을 줄 수 있을 것입니다.     
  
@@ -43,6 +44,8 @@ Power BI를 조작하는 방식은 작업 역할에 따라 다릅니다. 최종 
 소비자는 Power BI의 전체 기능에 액세스할 수는 없지만 대시보드 및 보고서를 빌드하지 않으므로 상관이 없습니다. 사용자는 Power BI 서비스를 사용하여 분석, 모니터링, 탐색 및 의사 결정을 수행합니다. 
 
 “Power BI Desktop” 또는 “Desktop”이라는 용어는 분명히 들어보셨을 것입니다. 이는 대시보드와 보고서를 빌드하고 소비자와 함께 공유하는 *설계자*가 사용하는 독립형 도구입니다.  소비자는 Power BI 서비스만 사용하게 되므로 다른 Power BI 도구가 있다는 것만 알아두면 됩니다. 
+
+또한 ‘공유’ 콘텐츠를 사용하고 있으므로 Power BI Pro 또는 Premium 라이선스가 필요합니다.  [사용 중인 라이선스 확인](end-user-license.md)
 
 
 ## <a name="safely-interact-with-content"></a>콘텐츠와 안전하게 상호 작용 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/27/2019
+ms.date: 02/12/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: d81e9e7142a05ac49969e98dbada0e0edf2fe3ba
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ec93e1575ec5429a3ca4c790150973a23224d97b
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875252"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427786"
 ---
 # <a name="supported-browsers-for-power-bi"></a>Power BI에 지원되는 브라우저
 Power BI는 다음 브라우저에서 실행됩니다.
@@ -26,6 +26,9 @@ Power BI는 다음 브라우저에서 실행됩니다.
 - Firefox 데스크톱 최신 버전. Firefox는 Power BI에서 사용되는 글꼴을 변경할 수 있습니다. 
 
 이러한 브라우저는 사용할 수 있는 모든 플랫폼에서 지원됩니다.
+
+> [!NOTE]
+> Power BI는 iOS10 이하 버전의 브라우저에서 실행되지 않습니다.
 
 ### <a name="next-steps"></a>다음 단계
 * [Power BI란?](power-bi-overview.md)

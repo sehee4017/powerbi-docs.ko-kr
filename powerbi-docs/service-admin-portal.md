@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: c59f1c1653e3b1a506f342bffed6fa539dfe58b3
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: d56e329d5331403c0ed0ce4da28bf73aea65d9a6
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819586"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427878"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
@@ -233,14 +233,14 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 
 ### <a name="export-data"></a>데이터 내보내기
 
-조직의 사용자는 타일 또는 시각화에서 데이터를 내보낼 수 있습니다. [자세히 알아보기](visuals/power-bi-visualization-export-data.md)
+조직의 사용자는 타일 또는 시각화에서 데이터를 내보낼 수 있습니다. [타일 또는 시각적 기체에서 데이터를 내보내는](visuals/power-bi-visualization-export-data.md) 방법에 대해 자세히 알아보세요.
 
 다음 이미지는 타일에서 데이터를 내보내는 옵션을 보여 줍니다.
 
 ![타일에서 데이터 내보내기](media/service-admin-portal/powerbi-admin-export-data.png)
 
 > [!NOTE]
-> **데이터 내보내기**를 사용하지 않도록 설정하면 사용자는 Power BI 서비스 라이브 연결과 함께 **Excel에서 분석** 기능을 사용할 수 없습니다.
+> **데이터 내보내기**를 사용하지 않도록 설정하면 사용자는 Power BI 서비스 라이브 연결과 함께 [Excel에서 분석](service-analyze-in-excel.md) 기능을 사용할 수 없습니다.
 
 ### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>PowerPoint 프레젠테이션 또는 PDF 문서로 보고서 내보내기
 

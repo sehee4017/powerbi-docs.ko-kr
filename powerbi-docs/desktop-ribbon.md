@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/11/2019
+ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0f7debd49541679b2ec5d41eaa2307c50bf170ce
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: df8c84b5b7baf55a32e07e3e48cb02317fdf7875
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74016138"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527455"
 ---
 # <a name="use-the-updated-ribbon-in-power-bi-desktop-preview"></a>Power BI Desktop에서 업데이트된 리본 사용(미리 보기)
 
@@ -51,7 +51,18 @@ Power BI의 업데이트된 리본은 미리 보기 기능이며 사용하도록
 
 * **한 줄로 축소하여 공간을 절약할 수 있는 리본 메뉴** - 업데이트된 리본의 또 다른 이점은 리본 메뉴 자체를 한 줄로 축소하여 컨텍스트에 따라 리본 항목을 동적으로 표시하는 기능입니다. 
 
-    ![개선된 테마](media/desktop-ribbon/desktop-ribbon-06.png)
+    ![축소된 리본](media/desktop-ribbon/desktop-ribbon-06.png)
+
+* **단추 탐색 및 선택을 위한 키 설명** - 리본 메뉴를 탐색하는 데 도움되도록 **Alt+Windows 키**를 눌러 키 설명을 활성화할 수 있습니다. 활성화되면 키보드에서 표시된 키를 눌러 탐색할 수 있습니다.
+
+    ![키 설명](media/desktop-ribbon/desktop-ribbon-07.png)
+
+* **사용자 지정 형식 문자열** - *속성* 창에서 사용자 지정 형식 문자열을 설정할 뿐 아니라 리본에서도 설정할 수 있습니다. 사용자 지정하려는 측정값 또는 열을 선택하면 선택 항목에 따라 **측정값 도구** 또는 **열 도구** 상황별 탭이 표시됩니다. 해당 탭의 서식 섹션에서 사용자 지정 형식 문자열을 드롭다운 상자에 직접 입력할 수 있습니다.
+
+    ![사용자 지정 형식 문자열](media/desktop-ribbon/desktop-ribbon-08.png)
+
+* **접근성** - 제목 표시줄, 리본 및 파일 메뉴에 완전히 액세스할 수 있습니다. Ctrl+F6을 눌러 리본 섹션으로 이동합니다. 여기에서 **Tab** 키를 사용하여 위쪽 및 아래쪽 막대 간에 이동하고 화살표 키를 사용하여 요소 간에 이동할 수 있습니다.
+
 
 이러한 가시적인 변경 사항 외에도 업데이트된 리본에서는 향후 다음과 같은 Power BI Desktop 및 리본 업데이트가 가능합니다.
 

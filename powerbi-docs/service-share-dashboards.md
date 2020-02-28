@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e6e66a4459abefbc66ec4e70b882cddc4771facf
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 96f78ff87dc4f955e134815e6237e4fb5a1ca1e7
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565669"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426682"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>동료 및 다른 사용자와 Power BI 대시보드 및 보고서 공유
 다른 사람에게 대시보드 및 보고서에 대한 액세스 권한을 부여하려면 *공유*를 사용하는 것이 좋습니다. Power BI는 [대시보드 및 보고서를 공동 작업하고 배포하는 여러 가지 다른 방법](service-how-to-collaborate-distribute-dashboards-reports.md)도 제공합니다.
@@ -89,6 +89,8 @@ Amanda가 Amanda 회사 내부 및 외부의 동료와 대시보드를 공유하
 직접적인 수신자만 공유 대시보드 또는 보고서를 봅니다. 예를 들어, Vicki@contoso.com에게 메일을 보낸 경우 Vicki만 대시보드를 봅니다. Vicki가 링크를 전달하는 경우에도 다른 사용자는 대시보드를 볼 수 없습니다. Vicki는 동일한 메일 주소를 사용하여 대시보드에 액세스해야 합니다. Vicki가 다른 메일 주소로 로그인하는 경우 대시보드에 액세스할 수 없습니다.
 
 역할 또는 행 수준 보안이 온-프레미스 Analysis Services 테이블 형식 모델에서 구현된 경우 조직 외부 사용자에게는 데이터가 전혀 표시되지 않습니다.
+
+메일 그룹이 아닌 보안 그룹을 사용하여 외부 메일 주소를 가진 사용자를 포함하는 그룹과 공유합니다. 메일 그룹에서 외부 메일을 가진 사용자는 Azure AD(Azure Active Directory) B2B 게스트 사용자가 아닌 경우 공유되는 콘텐츠를 볼 수 없습니다. [Azure AD B2B 게스트 사용자](service-admin-azure-ad-b2b.md)에 대해 자세히 알아보세요.
 
 Power BI 모바일 앱에서 조직 외부의 사용자에게 링크를 보낼 경우, 링크를 클릭하면 Power BI 모바일 앱이 아닌 브라우저에서 대시보드가 열립니다.
 

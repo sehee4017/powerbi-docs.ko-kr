@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 21d663b2f29a8090e6cfb7013d16c739ef0a29b3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7c0c08e8056232fa7c60b20faf48b0137a19bc5f
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851453"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496399"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Power BI에서 시각적 개체 드릴 모드
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -32,6 +34,7 @@ ms.locfileid: "73851453"
 어떤 Power BI 시각적 개체에 계층 구조가 포함되어 있는지 확실치 않나요? 시각적 개체를 마우스로 가리킵니다. 위쪽에 이러한 드릴 컨트롤이 조합되어 표시되면 시각적 개체에 계층 구조가 포함됩니다.
 
 ![드릴 아이콘의 스크린샷.](./media/end-user-drill/power-bi-drill-icons.png)  
+
 
 ## <a name="learn-how-to-drill-down-and-up"></a>드릴다운 및 드릴업하는 방법 알아보기
 
@@ -78,7 +81,7 @@ ms.locfileid: "73851453"
 ### <a name="drill-down-one-field-at-a-time"></a>한 번에 한 필드 드릴다운
 
 
-1. 드릴다운 아이콘을 선택하여 켭니다. ![켜진 드릴다운 켜기/쓰기 아이콘의 스크린샷](./media/end-user-drill/power-bi-drill-icon2.png).
+1. 드릴다운 아이콘을 선택하여 켭니다. ![켜진 드릴다운 켜기/쓰기 아이콘의 스크린샷](./media/end-user-drill/power-bi-drill-icon2.png)을 선택합니다.
 
     이제 시각적 개체 요소를 선택하여 **한 번에 한 필드**를 드릴다운하는 옵션이 표시됩니다. 시각적 요소의 예에는 막대, 거품, 리프가 있습니다.
 
@@ -141,7 +144,9 @@ ms.locfileid: "73851453"
 
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
-기본적으로 드릴은 보고서의 다른 시각적 개체를 필터링하지 않습니다. 그러나 보고서 디자이너는 이 기본 동작을 변경할 수 있습니다. 드릴하는 동안 페이지의 다른 시각적 개체가 교차 필터링되거나 교차 강조 표시되는지 확인합니다.
+- 기본적으로 드릴은 보고서의 다른 시각적 개체를 필터링하지 않습니다. 그러나 보고서 디자이너는 이 기본 동작을 변경할 수 있습니다. 드릴하는 동안 페이지의 다른 시각적 개체가 교차 필터링되거나 교차 강조 표시되는지 확인합니다.
+
+- 공유된 보고서를 보려면 Power BI Pro 또는 Premium 라이선스가 필요합니다. [사용 중인 라이선스 확인](end-user-license.md)
 
 
 ## <a name="next-steps"></a>다음 단계

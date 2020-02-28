@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 01/12/2020
-ms.openlocfilehash: 16e7a317102602ffb4faf04da0ed2cae588a2a4d
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: 58c226fd66c2551565f85ee75bd06469a46c4128
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75925522"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427073"
 ---
 # <a name="power-bi-visual-project-structure"></a>Power BI 시각적 개체 프로젝트 구조
 
@@ -74,7 +74,7 @@ Power BI 시각적 개체 도구는 이 폴더에서 다음 파일을 만듭니�
 * `visual.ts` - 시각적 개체의 기본 소스 코드.
 * `settings.ts` - 시각적 개체의 설정 코드. 파일의 클래스는 [시각적 개체의 속성](./objects-properties.md#properties)을 정의하기 위한 인터페이스를 제공합니다.
 
-### <a name="style"></a>style
+### <a name="style"></a>스타일
 
 이 폴더에는 시각적 개체의 스타일이 보관된 `visual.less` 파일이 포함되어 있습니다.
 
@@ -115,7 +115,7 @@ Power BI 시각적 개체 도구는 이 폴더에서 다음 파일을 만듭니�
 `pbiviz.json` 파일의 다음 코드 캡션에 있는 주석은 메타데이터 항목을 설명합니다.
 
 > [!NOTE]
-> * **pbiciz** 도구 버전 3.x.x부터는 `externalJS`가 지원되지 않습니다.
+> * **pbiciz** 도구의 버전 3.x.x부터 `externalJS`가 지원되지 않습니다.
 > * 지역화 지원을 위해 [시각적 개체에 Power BI 로캘을 추가](./localization.md)합니다.
 
 ```json

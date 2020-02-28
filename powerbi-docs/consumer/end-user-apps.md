@@ -3,21 +3,22 @@ title: Power BI 앱이란?
 description: Power BI에서 앱을 사용하면 관련된 대시보드 및 보고서를 모두 한 곳에 모을 수 있습니다.
 author: mihart
 ms.reviewer: lukaszp
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 02/19/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 784c0ed368a12951220ccf719c70ac7d8d3db040
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: fd11e6fd45a3978eb301adabc15ac8941e7824bf
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851014"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496704"
 ---
 # <a name="apps-in-power-bi"></a>Power BI의 앱
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -29,9 +30,9 @@ ms.locfileid: "73851014"
 ![Power BI의 앱](./media/end-user-apps/power-bi-apps.png)
 
 > [!NOTE]
-> 앱 기능을 사용하려면 Power BI Pro 라이선스가 필요합니다. <!-- add link to how to figure out your license -->
+> 앱 기능을 사용하려면 Power BI Pro 라이선스가 필요합니다. [라이선스 유형 조회](end-user-license.md)
 
-## <a name="app-designers-and-app-consumers"></a>앱 ***디자이너*** 및 앱 ***소비자***
+## <a name="app-designers-and-app-consumers"></a>앱 *디자이너* 및 앱 *소비자*
 사용자 역할에 따라 자신의 용도에 따라 또는 동료와 공유하기 위해 앱(*디자이너*)을 만들려는 사람이 있을 수 있습니다. 또는 다른 사용자가 만든 앱(*소비자*)를 받아 다운로드하는 사람일 수 있습니다. 이 문서는 앱 *소비자*를 위한 것입니다.
 
 ## <a name="advantages-of-apps"></a>앱의 이점
