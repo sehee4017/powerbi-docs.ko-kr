@@ -6,21 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/12/2020
+ms.date: 02/27/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: ec93e1575ec5429a3ca4c790150973a23224d97b
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 927e882e9b0cd7195aec6cffd7305d887d1c306e
+ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427786"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "77782383"
 ---
 # <a name="supported-browsers-for-power-bi"></a>Power BI에 지원되는 브라우저
 Power BI는 다음 브라우저에서 실행됩니다.
 
 - Microsoft Edge
-- Internet Explorer 11. 계보 보기와 같은 일부 고급 기능은 Internet Explorer에서 지원되지 않습니다. 자세한 내용은 [데이터 계보(미리 보기)](service-data-lineage.md)를 참조하세요.
+- Internet Explorer 11. 계보 보기와 같은 일부 고급 기능은 Internet Explorer에서 지원되지 않습니다. 자세한 내용은 [데이터 계보(미리 보기)](designer/service-data-lineage.md)를 참조하세요.
 - Chrome 데스크톱 최신 버전
 - Safari Mac 최신 버전
 - Firefox 데스크톱 최신 버전. Firefox는 Power BI에서 사용되는 글꼴을 변경할 수 있습니다. 

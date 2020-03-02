@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/17/2020
+ms.date: 02/21/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8604ed2c737b7d2a75b3af052878ecb157ffacf1
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: a8bf446174cc16d95842022416352f538dca69ec
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538615"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609856"
 ---
 # <a name="overview-of-accessibility-in-power-bi"></a>Power BI의 접근성 개요
 
@@ -30,7 +30,7 @@ Power BI로 작업할 때 보고서를 조작할 수 있는 다양한 유형의 
 
 ## <a name="accessibility-standards"></a>접근성 표준
 
-Power BI는 다음과 같은 접근성 표준을 준수합니다. 이러한 표준에 따라 최대한 많은 사용자가 Power BI 환경에 액세스할 수 있습니다. Power BI Mobile 앱은 접근성 등급 C를 인증받았습니다. 접근성 있는 보고서 또는 대시보드를 빌드하는 경우 Power BI Mobile을 사용하여 콘텐츠를 보는 모든 사용자가 콘텐츠에 액세스할 수 있습니다.
+Power BI는 다음과 같은 접근성 표준을 준수합니다. 이러한 표준에 따라 최대한 많은 사용자가 Power BI 환경에 액세스할 수 있습니다. 접근성 있는 보고서 또는 대시보드를 빌드하는 경우 Power BI Mobile을 사용하여 콘텐츠를 보는 모든 사용자가 콘텐츠에 액세스할 수 있습니다.
 
 ### <a name="wcag-21"></a>WCAG 2.1
 
