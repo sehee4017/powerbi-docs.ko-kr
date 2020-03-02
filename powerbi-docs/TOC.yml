@@ -757,8 +757,8 @@
               href: admin/service-security-data-protection-overview.md
             - name: 민감도 레이블 적용
               href: designer/service-security-apply-data-sensitivity-labels.md
-        - name: 데이터 계보
-          href: service-data-lineage.md
+        - name: 데이터 계보 보기
+          href: designer/service-data-lineage.md
         - name: 템플릿 앱
           items:
             - name: 템플릿 앱 개요

@@ -94,7 +94,7 @@ Power BI Desktop에서는 URL이 포함된 필드를 하이퍼링크로 서식 �
     > [!NOTE]
     > **웹 URL** 옵션이 표시되지 않으면 하이퍼링크를 포함하는 열이 **데이터 범주** 드롭다운 상자에서 **웹 URL**로 형식이 지정되지 ‘않습니다’. 
 
-5. **웹 URL** 대화 상자에서 **Based on field** 상자의 URL이 포함된 필드를 선택하고 **확인**을 선택합니다.
+5. **웹 URL** 대화 상자에서 **필드 기준** 상자의 URL이 포함된 필드를 선택하고 **확인**을 선택합니다.
 
     ![웹 URL 대화 상자](media/power-bi-hyperlinks-in-tables/power-bi-format-web-url-dialog.png)
 
