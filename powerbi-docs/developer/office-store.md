@@ -5,15 +5,15 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: conceptual
+ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
-ms.date: 12/02/2019
-ms.openlocfilehash: ec1bd8666a9d76b4ccfa7793415488f85a24dfdb
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.date: 02/13/2020
+ms.openlocfilehash: 031e1fd5d5c57e37e0d70541d6662b0af7b91b07
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74999911"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576789"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>파트너 센터에 Power BI 시각적 개체 게시
 
@@ -39,7 +39,7 @@ Power BI 시각적 개체를 제출할 준비가 되면 시각적 개체가 아�
 | 스크린샷 |예 |스크린샷을 하나 이상 제공합니다. 가능한 형식은 png, .jpg, .jpeg 또는 .gif입니다. 크기는 정확히 1366px(너비) x 768px(높이)여야 합니다. 파일 크기는 1024KB를 초과할 수 없습니다.<br>활용도를 높이려면, 각 스크린샷에 표시되는 주요 기능의 가치 제안을 분명히 전달하기 위한 말풍선을 추가합니다. |
 | 다운로드 링크 지원 |예 |고객 지원 URL을 제공합니다. 이 링크는 판매자 대시보드 목록의 일부로 입력되고 AppSource의 시각적 개체 목록에 액세스할 때 사용자에게 표시됩니다. URL 형식은 https:// 또는 https:// 를 포함해야 합니다. |
 | 개인정보처리방침 링크 |예 |시각적 개체의 개인정보 취급방침 링크를 제공합니다. 이 링크는 판매자 대시보드 목록의 일부로 입력되고 AppSource의 시각적 개체 목록에 액세스할 때 사용자에게 표시됩니다. 링크 형식에 https:// 또는 https:// 를 포함해야 합니다. |
-| EULA(최종 사용자 사용권 계약) |예 |EULA 파일을 업로드해야 합니다. 자체 EULA를 사용하거나 Office 스토어 내에 있는 Power BI 시각적 개체에 대한 기본 EULA를 사용할 수 있습니다. 기본 EULA를 사용하려면 판매자 대시보드의 “최종 사용자 사용권 계약” 파일 업로드 대화 상자에 다음 URL을 붙여넣습니다. [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf). |
+| EULA(최종 사용자 사용권 계약) |예 |Power BI 시각적 개체의 EULA 파일을 제공해야 합니다. |
 | 비디오 링크 |아니요 |사용자 지정 시각적 개체에 대한 사용자의 관심을 높이려면 시각적 개체에 대한 비디오 링크를 제공합니다. URL 형식은 https:// 또는 https:// 를 포함해야 합니다. |
 | GitHub 리포지토리 |아니요 |Power BI 시각적 개체 및 샘플 데이터의 소스가 포함된 [GitHub](https://www.github.com) 리포지토리에 대한 공용 링크를 공유합니다. 이렇게 하면 다른 개발자가 피드백을 제공하고 코드 개선 사항을 제안할 수 있습니다. |
 

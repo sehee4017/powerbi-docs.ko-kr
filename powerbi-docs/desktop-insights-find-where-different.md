@@ -36,12 +36,12 @@ ms.locfileid: "75761114"
 > 
 > 
 
-## <a name="using-insights"></a>정보 사용
+## <a name="using-insights"></a>인사이트 사용
 인사이트를 사용하여 차트에 표시된 분포가 다른 경우를 파악하려면 데이터 요소를 마우스 오른쪽 단추로 클릭하고 **분석 > 분포가 다른 경우 찾기**를 선택합니다.
 
 ![마우스 오른쪽 단추로 클릭하여 인사이트 가져오기](media/desktop-insights-find-where-different/find-where-different_03.png)
 
-**Power BI Desktop**이 데이터에 대한 해당 머신 학습 알고리즘을 실행하고 가장 의미 있게 다른 분포를 보여 주는 범주(열)와 해당 열의 값을 설명하는 설명과 시각적 개체로 창을 채웁니다. 인사이트는 다음 이미지에 나와 있는 대로 세로 막대형 차트로 제공됩니다. 
+**Power BI Desktop**이 데이터에 대한 해당 기계 학습 알고리즘을 실행하고 가장 의미 있게 다른 분포를 보여 주는 범주(열)와 해당 열의 값을 설명하는 설명과 시각적 개체로 창을 채웁니다. 인사이트는 다음 이미지에 나와 있는 대로 세로 막대형 차트로 제공됩니다. 
 
 ![세로 막대형 차트](media/desktop-insights-find-where-different/find-where-different_04.png)
 
@@ -124,7 +124,7 @@ ms.locfileid: "75761114"
     Channel = Direct (only Direct listed, if it’s level of impact was much greater than Store)
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
-다음 목록은 **정보**에 현재 지원되지 않는 시나리오의 컬렉션입니다.
+다음 목록은 **인사이트**에 현재 지원되지 않는 시나리오의 컬렉션입니다.
 
 * TopN 필터
 * 측정값 필터
@@ -132,7 +132,7 @@ ms.locfileid: "75761114"
 * “다음과 같이 값 표시” 사용
 * 필터링된 측정값 - 필터링된 측정값은 특정 필터(예: *프랑스의 총 판매액*)가 적용된 시각적 개체 수준의 계산이며 인사이트 기능으로 만든 일부 시각적 개체에서 사용됩니다.
 
-또한 다음 모델 유형 및 데이터 소스는 현재 정보에 지원되지 않습니다.
+또한 다음 모델 유형 및 데이터 원본은 현재 인사이트에 지원되지 않습니다.
 
 * DirectQuery
 * 라이브 연결

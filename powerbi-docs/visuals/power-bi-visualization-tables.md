@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 014186acf6bf6b8c00686c0b7a29d0b526b0afb7
-ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+ms.openlocfilehash: de0328a35922279082c93a9a2d2a4948f1af7dc5
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77154290"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576822"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI 보고서 및 대시보드의 테이블
 
@@ -47,7 +47,7 @@ ms.locfileid: "77154290"
 
 1. **소매점 분석 샘플 PBIX 파일**을 보고서 보기 ![보고서 보기 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
 
-1. 선택 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
+1. 새 페이지를 추가하기 위해 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
 
 
 ## <a name="create-a-table"></a>테이블 만들기
@@ -175,7 +175,10 @@ ms.locfileid: "77154290"
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
 
-열 서식 지정을 적용할 때 다음 중에 하나의 열당 맞춤 옵션을 선택할 수 있습니다. **자동**, **왼쪽**, **가운데**, **오른쪽**. 일반적으로 열은 모두 텍스트 또는 숫자만을 포함하고 섞지 않습니다. 열에 숫자와 텍스트가 모두 포함되어 있는 경우 **자동**은 텍스트의 경우 왼쪽에 정렬하고, 번호의 경우 오른쪽에 정렬합니다. 이 동작은 왼쪽에서 오른쪽으로 읽는 언어를 지원합니다.
+* 열 서식 지정을 적용할 때 다음 중에 하나의 열당 맞춤 옵션을 선택할 수 있습니다. **자동**, **왼쪽**, **가운데**, **오른쪽**. 일반적으로 열은 모두 텍스트 또는 숫자만을 포함하고 섞지 않습니다. 열에 숫자와 텍스트가 모두 포함되어 있는 경우 **자동**은 텍스트의 경우 왼쪽에 정렬하고, 번호의 경우 오른쪽에 정렬합니다. 이 동작은 왼쪽에서 오른쪽으로 읽는 언어를 지원합니다.
+
+* 테이블의 셀 또는 헤더에 있는 텍스트 데이터에 줄 바꿈 문자가 포함된 경우, 요소의 연결된 서식 창 카드에서 '자동 줄 바꿈' 옵션을 설정/해제하지 않는 한 이러한 문자는 무시됩니다. 
+
 
 ## <a name="next-steps"></a>다음 단계
 

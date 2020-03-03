@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/23/2020
-ms.openlocfilehash: d4e233e55731d77d4136c1b6ef1e341a2d043234
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.date: 02/27/2020
+ms.openlocfilehash: 251f89dd031d9a2bda146266308dc528f05eddb2
+ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "77026718"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "77782446"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Report Server의 새로운 기능
 
@@ -165,6 +165,10 @@ Azure Active Directory 애플리케이션 프록시를 사용하면 더 이상 �
 #### <a name="transparent-database-encryption"></a>투명한 데이터베이스 암호화
 
 Power BI Report Server는 이제 Enterprise 및 Standard 버전 Power BI Report Server 카탈로그 데이터베이스에 대해 투명한 데이터베이스 암호화를 지원합니다.
+
+#### <a name="power-bi-visuals-api"></a>Power BI 시각적 개체 API
+
+이 릴리스와 함께 제공되는 API 버전은 2.6입니다.
 
 #### <a name="microsoft-report-builder-update"></a>Microsoft 보고서 작성기 업데이트
 
@@ -446,34 +450,34 @@ IT 관리자인 경우 이제 조직의 MDM 도구를 사용하여 보고서 서
 
 새로운 기능의 전체 목록에서 특별히 이러한 기능에 주목합니다.
 
-#### <a name="rule-based-conditional-formatting-for-table-and-matrixhttpspowerbimicrosoftcomblogpower-bi-desktop-november-2017-feature-summaryconditionalformatting"></a>[테이블 및 행렬에 대한 규칙 기반 조건부 서식 지정](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting)
+#### <a name="rule-based-conditional-formatting-for-table-and-matrix"></a>[테이블 및 행렬에 대한 규칙 기반 조건부 서식 지정](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting)
 
 테이블 또는 행렬의 특정 비즈니스 논리에 따라 열의 배경 또는 글꼴 색을 조건부로 지정하는 규칙을 만듭니다.
 
-#### <a name="show-and-hide-pageshttpspowerbimicrosoftcomblogpower-bi-desktop-january-2018-feature-summaryhidepages"></a>[페이지 표시 및 숨기기](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#hidePages)
+#### <a name="show-and-hide-pages"></a>[페이지 표시 및 숨기기](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#hidePages)
 
 reader에게 보고서에 대한 액세스 권한을 부여하려고 하지만 일부 페이지가 완료되지 않았습니다. 이제 준비될 때까지 숨길 수 있습니다. 또는 일반 탐색에서 페이지를 숨길 수 있고 책갈피 또는 드릴스루를 통해 페이지로 이동할 수 있습니다.
 
-#### <a name="bookmarkinghttpspowerbimicrosoftcomblogpower-bi-desktop-march-2018-feature-summarybookmarking"></a>[책갈피](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking)
+#### <a name="bookmarking"></a>[책갈피](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking)
 
 책갈피의 경우 책갈피를 만들어서 보고서에서 데이터를 사용하여 이야기를 만듭니다.
 
 - [책갈피의 교차 강조 표시](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkCrossHighlighting): 책갈피는 책갈피를 만들 때 보고서 페이지에서 교차 강조 표시한 상태를 유지 관리하고 표시합니다.
 - [책갈피의 추가 유연성](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkFlexibility): 책갈피는 보고서에서 설정한 속성을 반영하고 선택한 시각적 개체에만 영향을 줍니다.
 
-#### <a name="multi-select-data-points-across-multiple-chartshttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summarycrosshighlight"></a>[여러 차트에서 데이터 요소 다중 선택](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight)
+#### <a name="multi-select-data-points-across-multiple-charts"></a>[여러 차트에서 데이터 요소 다중 선택](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight)
 
 여러 차트에서 여러 데이터 요소를 선택하고 교차 필터링을 전체 페이지에 적용했습니다.
 
-#### <a name="sync-slicers-across-multiple-pages-of-your-reporthttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summarysyncslicers"></a>[보고서의 여러 페이지에서 슬라이서 동기화](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers)
+#### <a name="sync-slicers-across-multiple-pages-of-your-report"></a>[보고서의 여러 페이지에서 슬라이서 동기화](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers)
 
 슬라이서는 보고서에서 하나 또는 둘 이상의 페이지에 적용할 수 있습니다.
 
-#### <a name="quick-measureshttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summaryquickmeasures"></a>[빠른 측정](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
+#### <a name="quick-measures"></a>[빠른 측정](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
 
 기존 측정값 및 테이블의 숫자 열에 따라 새 측정값을 만듭니다.
 
-#### <a name="drilling-down-filters-other-visualshttpspowerbimicrosoftcomblogpower-bi-desktop-december-feature-summarydrillfiltersothervisuals"></a>[기타 시각적 개체에서 필터 드릴다운](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
+#### <a name="drilling-down-filters-other-visuals"></a>[기타 시각적 개체에서 필터 드릴다운](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
 
 하나의 시각적 개체의 지정된 범주에서 드릴다운하면 동일한 범주에 따라 페이지에서 모든 시각적 개체를 필터링할 수 있습니다.
 

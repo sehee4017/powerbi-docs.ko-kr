@@ -134,7 +134,7 @@ ms.locfileid: "77026741"
 
    ![닫기 및 적용](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage9.png)
 
-이 쿼리는 Power BI Desktop *보고서* 뷰로 로드되고 **필드** 창에서 볼 수 있습니다.
+이 쿼리는 Power BI Desktop *보고서* 보기로 로드되고 **필드** 창에서 볼 수 있습니다.
 
    ![필드 창](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage11.png)
 

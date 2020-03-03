@@ -7,15 +7,15 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 1/16/2020
+ms.date: 2/21/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4570fea58a19acb4f35a5c24d0a5bfa93beba215
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: afc14e4d1ebd1e68045c2aa38a43e9d7cbc0f1c1
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76537557"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576736"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>보고서를 Power BI에서 PDF로 내보내기
 
@@ -50,8 +50,9 @@ Power BI 서비스에서 보고서를 선택하여 캔버스에 표시합니다.
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
 **PDF로 내보내기** 기능을 사용할 때 유의해야 할 고려 사항과 제한 사항이 있습니다.
 
-* R 시각적 개체는 현재 지원되지 않습니다. PDF에서 이들 시각적 개체는 공백이 되고 오류 메시지를 표시합니다. 
-* 인증된 사용자 지정 시각적 개체는 지원됩니다. 사용자 지정 시각적 개체를 인증하는 방법을 비롯한 인증된 사용자 지정 시각적 개체에 대한 자세한 내용은 [사용자 지정 시각적 개체 인증하기](../developer/power-bi-custom-visuals-certified.md)를 참조하세요. 인증되지 않은 사용자 지정 시각적 개체는 지원되지 않습니다. 인증되지 않은 사용자 지정 시각적 개체는 PDF에서 오류 메시지와 함께 표시됩니다. 
+* R 및 Python 시각적 개체는 현재 지원되지 않습니다. PDF에서 이들 시각적 개체는 공백이 되고 오류 메시지를 표시합니다. 
+* 인증된 사용자 지정 시각적 개체는 지원됩니다. 사용자 지정 시각적 개체를 인증하는 방법을 비롯한 인증된 사용자 지정 시각적 개체에 대한 자세한 내용은 [사용자 지정 시각적 개체 인증하기](../developer/power-bi-custom-visuals-certified.md)를 참조하세요. 인증되지 않은 사용자 지정 시각적 개체는 지원되지 않습니다. 인증되지 않은 사용자 지정 시각적 개체는 PDF에서 오류 메시지와 함께 표시됩니다.
+* ESRI 시각적 개체는 지원되지 않습니다.
 * 30개 이상의 보고서 페이지를 포함하는 보고서는 현재 내보낼 수 없습니다.
 * 보고서를 PDF로 내보내는 과정은 완료하는 데 몇 분 정도 걸릴 수 있으므로 잠시 기다려 주시기 바랍니다. 소요 시간에 영향을 줄 수 있는 요소에는 보고서의 구조, Power BI 서비스의 현재 부하 등이 있습니다.
 * **PDF로 내보내기** 메뉴 항목을 Power BI 서비스에서 사용할 수 없는 경우, 테넌트 관리자가 이 기능을 사용하지 않도록 설정했을 가능성이 큽니다. 자세한 내용은 테넌트 관리자에게 문의하세요.

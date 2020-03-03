@@ -8,13 +8,13 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 01/12/2019
-ms.openlocfilehash: 4ffab3913560498dd57103f0a25c39f7a03a42ec
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.date: 02/17/2020
+ms.openlocfilehash: 52a99380f8e1afc39ddfc59a401418e61fe6ad58
+ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "77026672"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "77782424"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Power BI 시각적 개체 인증받기
 
@@ -43,11 +43,13 @@ Power BI 시각적 개체를 제출할 때 컴파일된 패키지가 제출된 �
 
 GitHub에서 공개적으로 코드를 공유할 필요는 없지만 Power BI 팀이 코드 리포지토리를 검토할 수 있어야 합니다. 이렇게 하는 가장 좋은 방법은 GitHub에서 소스 코드(JavaScript 또는 TypeScript)를 제공하는 것입니다.
 
-리포지토리에는 Power BI 시각적 개체 하나의 코드만 포함되어야 합니다. 여러 Power BI 시각적 개체의 코드나 관계가 없는 코드는 포함할 수 없습니다.
-
-리포지토리에는 **certification**(소문자 필요)이라는 분기가 포함되어야 합니다. 이 분기의 소스 코드는 제출된 패키지와 일치해야 합니다. 이 코드는 Power BI 시각적 개체를 다시 제출하는 경우, 다음 제출 프로세스 중에만 업데이트할 수 있습니다.
+리포지토리에는 다음이 포함되어야 합니다.
+* Power BI 시각적 개체 단 하나의 코드. 여러 Power BI 시각적 개체의 코드나 관계가 없는 코드는 포함할 수 없습니다.
+* **certification**(소문자 필수)이라는 분기. 이 분기의 소스 코드는 제출된 패키지와 일치해야 합니다. 이 코드는 Power BI 시각적 개체를 다시 제출하는 경우, 다음 제출 프로세스 중에만 업데이트할 수 있습니다.
 
 Power BI 시각적 개체가 비공개 npm 패키지 또는 git 하위 모듈을 사용하는 경우, 이 코드가 포함된 추가 리포지토리에 대한 액세스 권한을 제공해야 합니다.
+
+Power BI 시각적 리포지토리가 어떻게 보이는지 이해하려면 [Power BI 시각적 개체 샘플 가로 막대형 차트](https://github.com/microsoft/PowerBI-visuals-sampleBarChartgi)에 대한 GitHub 리포지토리를 검토합니다.
 
 ### <a name="file-requirements"></a>파일 요구 사항
 
@@ -113,6 +115,18 @@ Power BI 인증을 요청하려면
 
 >[!NOTE]
 > Power BI 시각적 개체 제출 프로세스를 진행하는 도중이고 [판매자 대시보드](https://docs.microsoft.com/office/dev/store/use-the-seller-dashboard-to-submit-to-the-office-store)(이전 관리 도구)를 사용해야 하는 경우 [판매자 대시보드 인증 제출 프로세스](seller-dashboard.md#seller-dashboard-certification-submission-process) 지침을 검토하세요.
+
+### <a name="private-repository-submission-process"></a>프라이빗 리포지토리 제출 프로세스
+
+GitHub와 같은 프라이빗 리포지토리를 사용하여 인증을 위한 Power BI 시각적 개체를 제출하는 경우 이 섹션의 지침을 따르세요.
+1. 유효성 검사 팀을 위한 새 계정을 만듭니다.
+2. 계정의 [2단계 인증](https://help.github.com/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa)을 구성합니다.
+3. [새 복구 코드 집합을 생성합니다](https://help.github.com/github/authenticating-to-github/configuring-two-factor-authentication-recovery-methods#generating-a-new-set-of-recovery-codes).
+4. Power BI 시각적 개체를 제출할 때 다음을 제공합니다.
+    * 리포지토리에 대한 링크
+    * 로그인 자격 증명(암호 포함)
+    * 복구 코드
+    * 우리 계정([pbicvsupport](https://github.com/pbicvsupport))에 대한 읽기 전용 권한
 
 ## <a name="certified-power-bi-visuals"></a>인증된 Power BI 시각적 개체
 

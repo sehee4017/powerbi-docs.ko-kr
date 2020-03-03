@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9b21b733dd673c1b672a4590032808a174ecda1f
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.openlocfilehash: c5105d038480bbee3e534574add91203f54e3119
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76161596"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609840"
 ---
 # <a name="create-power-bi-visuals-by-using-python"></a>Python을 사용하여 Power BI 시각적 개체 만들기
 
@@ -170,7 +170,7 @@ plt.show()
 
 Power BI Desktop의 Python 시각적 개체에는 다음과 같은 몇 가지 제한 사항이 있습니다.
 
-- 데이터 크기 제한. Python 시각적 개체가 그리기에 사용하는 데이터는 150,000개 행으로 제한됩니다. 150,000개를 초과하는 행을 선택할 경우 상위 150,000개만 사용되고 이미지에 메시지가 표시됩니다.
+- 데이터 크기 제한. Python 시각적 개체가 그리기에 사용하는 데이터는 150,000개 행으로 제한됩니다. 150,000개를 초과하는 행을 선택할 경우 상위 150,000개만 사용되고 이미지에 메시지가 표시됩니다. 또한 입력 데이터는 250MB로 제한됩니다. 
 - 해상도. 모든 Python 시각적 개체는 72DPI로 표시됩니다.
 - 계산 시간 제한. Python 시각적 개체 계산 시간이 5분을 초과하면 실행 시간이 초과되어 오류가 발생합니다.
 - 관계. 다른 Power BI Desktop 시각적 개체와 마찬가지로 테이블 간의 관계가 정의되지 않은 여러 테이블의 데이터 필드를 선택하면 오류가 발생합니다.

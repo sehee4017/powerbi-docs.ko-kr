@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 10f79c8670b42828b4219723bd8e503424e77820
-ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+ms.openlocfilehash: 6a45dcc195514bc1af71470beeead9f73a798942
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77154419"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576850"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Power BI에서 행렬 시각화 만들기
 
@@ -218,6 +218,10 @@ ms.locfileid: "77154419"
 ‘고급 컨트롤’을 선택하면 조정할 수 있는 대화 상자가 표시됩니다.  이 예는 **데이터 막대**의 대화 상자를 표시합니다.
 
 ![데이터 막대 창](media/desktop-matrix-visual/power-bi-data-bars.png)
+
+## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
+
+* 행렬의 셀 또는 헤더에 있는 텍스트 데이터에 줄 바꿈 문자가 포함된 경우, 요소의 연결된 서식 창 카드에서 '자동 줄 바꿈' 옵션을 설정/해제하지 않는 한 이러한 문자는 무시됩니다. 
 
 ## <a name="next-steps"></a>다음 단계
 

@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: c3e2327131ae82fa025236c9242476466b6d9074
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: a0f4808aaf267e3cdb822e8778005c2eca247cb5
+ms.sourcegitcommit: 82c41f91055da8c1cc5d8cc67927d5246d11247b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73864051"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "78199007"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Power BI Embedded 성능에 대한 모범 사례
 
 이 문서에서는 애플리케이션의 보고서, 대시보드 및 타일을 더 빠르게 렌더링하기 위한 추천 사항을 제공합니다.
 
 > [!Note]
-> 로드 시간은 주로 시각적 개체, 데이터 크기, 쿼리 및 계산된 측정값의 복잡성을 포함하여 보고서 및 데이터 자체와 관련된 요소에 따라 달라집니다. 자세한 내용은 [Power BI 성능 모범 사례](../power-bi-reports-performance.md)를 참조하세요.
+> 로드 시간은 주로 시각적 개체, 데이터 크기, 쿼리 및 계산된 측정값의 복잡성을 포함하여 보고서 및 데이터 자체와 관련된 요소에 따라 달라집니다. 자세한 내용은 [Power BI 최적화 가이드](../guidance/power-bi-optimization.md)를 참조하세요.
 
 ## <a name="update-tools-and-sdk-packages"></a>도구 및 SDK 패키지 업데이트
 
@@ -106,6 +106,6 @@ Power BI Premium 용량 또는 Power BI Embedded 용량을 사용하는 조직�
 
 ## <a name="next-steps"></a>다음 단계
 
-* [Power BI 보고서 성능 모범 사례](../power-bi-reports-performance.md)
+* [Power BI 최적화 가이드](../guidance/power-bi-optimization.md)
 * [Power BI Embedded 문제를 해결 하는 방법](embedded-troubleshoot.md)
 * [Power BI Embedded FAQ](embedded-faq.md)

@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 12/18/2019
+ms.date: 02/25/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 044952c6ce5e3b1550067f9d288f8eab02b868bb
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 4f256d9b0cbecf76ff002cc0214155b8b36014ee
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223720"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609893"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Power BI Premium의 대형 모델(미리 보기)
 
-Power BI 데이터 세트는 최적화된 쿼리 성능을 위해 압축률이 높은 메모리 내 캐시에 데이터를 저장할 수 있습니다. 이를 통해 사용자는 큰 데이터 세트에 대해 빠르게 대화형 작업을 수행할 수 있습니다. 대형 모델 기능을 사용하면 Power BI Premium의 데이터 세트가 10GB를 초과할 수 있습니다. 대신 데이터 세트의 크기가 Power BI Premium 용량 크기로 제한됩니다. 이는 모델 크기 제한에 대한 Azure Analysis Services의 작동 방식과 비슷합니다. Power BI Premium의 용량 크기에 대한 자세한 내용은 용량 노드를 참조하세요. 모든 Premium P SKU와 Embedded A SKU에 대해 대형 모델을 설정할 수 있지만 대형 모델은 [새 작업 영역](service-create-the-new-workspaces.md)에서만 작동합니다.
+Power BI 데이터 세트는 압축률이 높은 메모리 내 캐시에 데이터를 저장하여 쿼리 성능을 최적화하므로 큰 데이터 세트에서 빠른 사용자 대화형 작업이 가능합니다. 대형 모델 기능을 사용하면 Power BI Premium의 데이터 세트가 10GB를 초과할 수 있습니다. 대신 데이터 세트의 크기는 Power BI Premium 용량 크기에 의해 제한되며, 모델 크기 제한 측면에서 Azure Analysis Services의 작동 방식과 비슷합니다. Power BI Premium의 용량 크기에 대한 자세한 내용은 용량 노드를 참조하세요. 모든 Premium P SKU와 Embedded A SKU에 대해 대형 모델을 설정할 수 있지만 대형 모델은 [새 작업 영역](service-create-the-new-workspaces.md)에서만 작동합니다.
 
 대형 모델은 PBIX 업로드 크기에 영향을 주지 않으며 PBIX 업로드 크기는 계속 10GB로 제한됩니다. 대신 새로 고칠 때 데이터 세트 크기가 10GB를 초과합니다. 증분 새로 고침을 사용하여 10GB를 초과하도록 데이터 세트를 구성할 수 있습니다.
 
@@ -30,7 +30,7 @@ Power BI 데이터 세트는 최적화된 쿼리 성능을 위해 압축률이 �
 
 1. Power BI Premium 서비스에 데이터 세트를 게시합니다.
 
-1. 아래 PowerShell cmdlet을 실행하여 대형 모델에 데이터 세트를 사용하도록 설정합니다. 이러한 cmdlet을 실행하면 Azure Premium File에 데이터 세트가 저장되고 10GB 제한이 적용되지 않습니다.
+1. 아래 PowerShell cmdlet을 실행하여 대형 모델에 데이터 세트를 사용하도록 설정합니다. 이러한 cmdlet을 실행하면 Power BI는 Azure Premium Files에 데이터 세트를 저장하고 10GB 제한을 적용하지 않습니다.
 
 1. 새로 고침을 호출하여 증분 새로 고침 정책에 따라 기록 데이터를 로드합니다. 처음 새로 고칠 때 기록을 로드하는 데 시간이 걸릴 수 있습니다. 이후에 새로 고칠 때는 증분하기 때문에 더 빠릅니다.
 
@@ -110,7 +110,7 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
  [DATABASE_NAME] = '<Dataset Name>') //Sum USED_SIZE (bytes)
 ```
 
-## <a name="current-feature-restrictions"></a>현재 기능 제한 사항
+## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
 
 대형 모델 사용 시 다음 제한 사항에 유의하세요.
 
@@ -118,4 +118,46 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 - **다중 지역 지원**: Premium Files에 사용되는 데이터 세트는 [다중 지역](service-admin-premium-multi-geo.md)도 사용되는 용량에서 실패합니다.
 
 - **Power BI Desktop으로 다운로드**: 데이터 세트가 Premium Files에 저장되는 경우 [.pbix 파일로 다운로드](service-export-to-pbix.md)가 실패합니다.
-- **지원되는 지역**: Premium Files Storage를 지원하는 모든 Azure 지역에서 큰 모델이 지원됩니다. 자세한 내용은 [지역별 사용 가능한 제품](https://azure.microsoft.com/global-infrastructure/services/?products=storage)을 참조하세요.
+- **지원되는 Azure 지역**: Premium Files Storage를 지원하는 모든 Azure 지역에서 큰 모델이 지원됩니다. 자세히 알아보려면 [지역별로 사용할 수 있는 제품](https://azure.microsoft.com/global-infrastructure/services/?products=storage)과 다음 섹션의 테이블을 참조하세요.
+
+
+## <a name="availability-in-regions"></a>지역에서의 가용성
+
+Power BI가 제공되는 일부 지역에서 대형 모델을 사용할 수 없습니다. Power BI의 대형 모델은 [Azure Premium Files Storage](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers)를 지원하는 Azure 지역에서만 사용할 수 있습니다.
+
+다음 목록에는 Power BI의 대형 모델을 사용할 수 있는 지역이 나와 있습니다. 다음 목록에 없는 지역에서는 대형 모델이 지원되지 않습니다.
+
+
+|Azure 지역  |Azure 지역 약어  |
+|---------|---------|
+|오스트레일리아 동부     | australiaeast        |
+|오스트레일리아 남동부     | australiasoutheast        |
+|미국 중부     | centralus        |
+|동아시아     | eastasia        |
+|미국 동부     | eastus        |
+|미국 동부 2     | eastus2        |
+|일본 동부     | japaneast        |
+|일본 서부     | japanwest        |
+|한국 중부     | koreacentral        |
+|한국 남부     | koreasouth        |
+|미국 중북부     | northcentralus        |
+|북유럽     | northeurope        |
+|미국 중남부     | southcentralus        |
+|동남 아시아     | southeastasia        |
+|영국 남부     | uksouth        |
+|영국 서부     | ukwest        |
+|서유럽     | westeurope        |
+|미국 서부     | westus        |
+|미국 서부 2     | westus2        |
+
+
+
+## <a name="next-steps"></a>다음 단계
+
+다음 링크는 대형 모델 작업 시 유용할 수 있는 정보를 제공합니다.
+
+* [Azure Premium Files Storage](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers)
+* [Power BI Premium에 대한 다중 지역 지원 구성](service-admin-premium-multi-geo.md)
+* [Power BI의 BYOK(Bring Your Own Encryption Key)](service-encryption-byok.md)
+* [용량 함수 작동 방법](service-premium-what-is.md#how-capacities-function)
+* [증분 새로 고침](service-premium-incremental-refresh.md).

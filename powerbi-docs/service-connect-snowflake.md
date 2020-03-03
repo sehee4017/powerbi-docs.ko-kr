@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/20/2019
 ms.author: gepopell
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 03e6e8efae5cd4a5f61e3d07bc0b3c524b3b0a46
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 5e5519e30be30d6367791d1b6822196b407a21b1
+ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77429352"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77576861"
 ---
 #  <a name="connecting-to-snowflake-in-power-bi-service"></a>Power BI 서비스에서 Snowflake에 연결
 
@@ -49,7 +49,7 @@ Power BI의 작동 방식으로 인해 SSO는 온-프레미스 데이터 게이�
 
 * 데이터 모델에서 Snowflake 원본만 사용하는 경우 온-프레미스 데이터 게이트웨이를 사용하지 않도록 선택하면 SSO를 사용할 수 있습니다.
 * 다른 원본과 함께 Snowflake 원본을 사용하는 경우 온-프레미스 데이터 게이트웨이를 사용하는 원본이 없으면 SSO를 사용할 수 있습니다.
-* 온-프레미스 데이터 게이트웨이를 통해 Snowflake 원본을 사용하는 경우에는 AAD 자격 증명을 사용할 수 있지만 SSO는 사용할 수 없습니다. 이 기능은 전체 Power BI IP 범위가 아닌 게이트웨이가 설치되어 있는 단일 IP에서 VNet에 액세스하려는 경우에 사용될 수 있습니다.
+* 온-프레미스 데이터 게이트웨이를 통해 Snowflake 원본을 사용하는 경우 현재 AAD 자격 증명이 지원되지 않습니다. 이 기능은 전체 Power BI IP 범위가 아닌 게이트웨이가 설치되어 있는 단일 IP에서 VNet에 액세스하려는 경우에 사용될 수 있습니다.
 * 게이트웨이가 필요한 다른 원본과 함께 Snowflake 원본을 사용하는 경우 온-프레미스 데이터 게이트웨이를 통해 Snowflake를 사용해야 하며 SSO를 사용할 수 없습니다.
 
 온-프레미스 데이터 게이트웨이를 사용하는 방법에 대한 자세한 내용은 [온-프레미스 데이터 게이트웨이란?](https://docs.microsoft.com/power-bi/service-gateway-onprem) 문서를 참조하세요.
