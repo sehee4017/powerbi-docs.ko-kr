@@ -39,7 +39,7 @@ Power BI Desktop의 2018년 6월 릴리스 및 2018년 10월 일반 공급부터
 
 ## <a name="installation-of-implementation-20-sap-connector"></a>구현 2.0 SAP 커넥터 설치
 
-SAP 커넥터 구현 2.0에는 SAP .NET Connector 3.0이 필요합니다. 다운로드에 액세스하려면 유효한 S 사용자가 필요합니다. SAP .NET Connector 3.0을 구하려면 SAP Basis 팀에 문의하세요.
+SAP 커넥터 구현 2.0에는 SAP .NET Connector 3.0이 필요합니다. 다운로드에 액세스하려면 유효한 S 사용자가 필요합니다. SAP.NET Connector 3.0을 가져오려는 고객은 SAP Basis 팀에 연락하는 것이 좋습니다.
 
 SAP에서 [SAP .NET Connector 3.0](https://support.sap.com/en/product/connectors/msnet.html)을 다운로드할 수 있습니다.
 

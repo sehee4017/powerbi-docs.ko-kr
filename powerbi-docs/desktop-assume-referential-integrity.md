@@ -57,7 +57,7 @@ ms.locfileid: "75761821"
 데이터에 참조 무결성 문제가 있을 때 **참조 무결성 가정**을 설정하는 경우 오류가 발생하지 않습니다. 그러나 데이터에 명백한 불일치가 발생합니다. 예를 들어 위에서 설명한 **Depots** 테이블에 대한 관계의 경우 다음과 같은 결과가 발생합니다.
 
 * 총 *Order Qty*를 보여 주는 시각적 개체는 40의 값을 표시
-* 총 *Order Qty by Depot City* 를 보여 주는 시각적 개체는 **DepotID** 가 *Null* 인 Order ID 1을 포함하지 않으므로 *30* 의 총 값만을 표시합니다.
+* 총 *Order Qty by Depot City*를 보여 주는 시각적 개체는 **DepotID**가 *Null*인 Order ID 1을 포함하지 않으므로 *30*의 총 값만을 표시합니다.
 
 ## <a name="next-steps"></a>다음 단계
 [DirectQuery](desktop-use-directquery.md)에 대해 자세히 알아보기
