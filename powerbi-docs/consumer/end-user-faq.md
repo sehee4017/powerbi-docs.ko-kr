@@ -43,7 +43,7 @@ Power BI Desktop은 사용자의 컴퓨터에 바로 설치할 수 있는 무료
 
 웹 브라우저와 회사 메일 주소만 있으면 됩니다. *.gov* 및 *.mil* 메일 주소로 가입할 수도 있습니다. 자세한 내용은 [Power BI 서비스에 미국 정부 기관 등록](../service-govus-signup.md)을 참조하세요.
 
-## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>회사 메일을 사용하여 등록해야 하는 이유는 무엇인가요?
+## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>왜 업무용 메일로 가입해야 하나요?
 
 Power BI는 소비자 메일 서비스나 전자 통신 공급자가 제공하는 메일 주소를 지원하지 않습니다. [Power BI 셀프 서비스 등록 프로세스](../service-self-service-signup-for-power-bi.md)에 대해 자세히 알아보세요.
 

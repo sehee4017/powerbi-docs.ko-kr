@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 06/06/2019
-ms.openlocfilehash: 7cfc52557d9dcce03dd2e42818bb04f4754c190d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 03/02/2020
+ms.openlocfilehash: 1d7b355987163ede2c70a4052e98ec02522db751
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75304320"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237894"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Power BI 서비스에서 페이지를 매긴 보고서의 포함된 데이터 원본 만들기
 
@@ -53,9 +53,7 @@ ms.locfileid: "75304320"
   
     -   **연결 문자열** 텍스트 상자에 직접 연결 문자열을 입력합니다. 
   
-    -   식(**fx)** 단추를 선택하여 연결 문자열로 평가되는 식을 만듭니다. **식** 대화 상자의 [식] 창에 식을 입력합니다. **확인**을 선택합니다. 
-  
-    -   **작성**을 선택하여 2단계에서 선택한 데이터 원본의 **연결 속성** 대화 상자를 엽니다.  
+     -   **작성**을 선택하여 2단계에서 선택한 데이터 원본의 **연결 속성** 대화 상자를 엽니다.  
   
         **연결 속성** 대화 상자의 필드를 데이터 원본 형식에 맞게 채웁니다. 연결 속성에는 데이터 원본 형식, 데이터 원본 이름 및 사용할 자격 증명이 포함됩니다. 이 대화 상자에서 값을 지정한 후 **연결 테스트**를 선택하여 데이터 원본이 사용 가능하고 지정한 자격 증명이 올바른지 확인합니다.  
   

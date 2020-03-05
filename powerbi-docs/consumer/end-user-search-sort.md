@@ -26,7 +26,7 @@ ms.locfileid: "76889133"
 Power BI 서비스를 처음 사용하는 경우 몇 개의 콘텐츠(대시보드, 보고서, 앱)만 있습니다. 그러나 동료가 콘텐츠 공유를 시작하고 앱 다운로드를 시작하면 긴 콘텐츠 목록이 표시될 수 있습니다. 그러면 검색 및 정렬이 매우 유용해집니다.
 
 ## <a name="searching-for-content"></a>콘텐츠 검색
- 검색은 Power BI 서비스의 거의 모든 부분에서 사용할 수 있습니다. 검색 상자 또는 검색 아이콘만 찾으면 됩니다. ![돋보기 아이콘](./media/end-user-search-sort/power-bi-search-icon.png)을 탭합니다.
+ 검색은 Power BI 서비스의 거의 모든 부분에서 사용할 수 있습니다. 검색 상자 또는 검색 아이콘만 찾으면 됩니다. ![돋보기 아이콘](./media/end-user-search-sort/power-bi-search-icon.png).
 
  검색 필드에 대시보드, 보고서, 통합 문서, 앱 또는 소유자의 이름을 전부 또는 일부 입력합니다. Power BI가 모든 콘텐츠를 검색합니다. 
 

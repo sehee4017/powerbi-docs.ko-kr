@@ -73,6 +73,8 @@
               href: visuals/high-contrast-support.md
             - name: 슬라이서 동기화 사용
               href: visuals/enable-sync-slicers.md
+            - name: 시각적 개체 디버그
+              href: visuals/visuals-how-to-debug.md
             - name: Power BI 시각적 개체 문제 해결
               href: power-bi-custom-visuals-troubleshoot.md
         - name: 참조
@@ -101,6 +103,8 @@
                   href: visuals/utils-svg.md
                 - name: 형식 유틸리티
                   href: visuals/utils-type.md
+                - name: 도구 설명 유틸리티
+                  href: visuals/utils-tooltip.md
                 - name: 데이터 보기 유틸리티
                   href: visuals/utils-dataview.md
         - name: 리소스
@@ -156,6 +160,8 @@
           items:
             - name: 앱에서 포함
               href: embed-from-apps.md
+            - name: 파일로 보고서 내보내기
+              href: export-to.md
             - name: 앱 자동 설치
               href: embed-auto-install-app.md
             - name: Azure Active Directory 테넌트 만들기
@@ -257,8 +263,6 @@
           items:
             - name: 자격 증명 구성
               href: configure-credentials.md
-            - name: 자격 증명 암호화
-              href: encrypt-credentials.md
         - name: 참조
           items:
             - name: REST API

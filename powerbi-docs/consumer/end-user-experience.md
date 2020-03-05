@@ -36,7 +36,7 @@ ms.locfileid: "76975151"
 
 
 시작하려면 Power BI 서비스(app.powerbi.com)를 열고 **홈**으로 이동합니다. 
-1. 왼쪽 탐색 창이 축소되어 있으면 탐색 창 아이콘 ![3개의 가로줄이 있는 아이콘](./media/end-user-experience/power-bi-burger.png) 을 선택하여 펼칩니다. 
+1. 왼쪽 탐색 창이 축소되어 있으면 탐색 창 아이콘 ![3개의 가로줄이 있는 아이콘](./media/end-user-experience/power-bi-burger.png) 클릭하여 펼칩니다. 
 
 1. 아직 열려 있지 않으면 **홈**을 선택합니다. 
 

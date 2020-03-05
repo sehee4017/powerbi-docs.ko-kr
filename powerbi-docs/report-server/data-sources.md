@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/21/2020
+ms.date: 03/02/2020
 ms.author: maggies
-ms.openlocfilehash: 343c7d7e81d8e8ec53383feab6dc4dcfb17129d6
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 08eca8ecb9aa941c2670a801113bc711bff409b2
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76540593"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237526"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI Report Server에서 Power BI 보고서 데이터 원본
 Power BI 보고서는 여러 데이터 원본에 연결할 수 있습니다. 데이터 사용 방법에 따라 다른 데이터 원본을 사용할 수 있습니다. DirectQuery 또는 SQL Server Analysis Services에 대한 라이브 연결을 사용하여 데이터를 가져오거나 데이터를 직접 쿼리할 수 있습니다.
@@ -41,7 +41,7 @@ Power BI 보고서는 여러 데이터 원본에 연결할 수 있습니다. 데
 | Azure Blob Storage |예 |예 |아니요 |
 | Azure Data Lake Store |예 |아니요 |아니요 |
 | Azure HDInsight(HDFS) |예 |아니요 |아니요 |
-| Azure HDInsight(Spark) |예 |예 |아니요 |
+| Azure HDInsight(Spark) |예 |아니요 |아니요 |
 | Azure Table Storage |예 |예 |아니요 |
 | Dynamics 365(온라인) |예 |아니요 |아니요 |
 | Facebook |예 |아니요 |아니요 |
@@ -128,7 +128,7 @@ Power BI Report Server는 모델 새로 고침을 위한 OAuth 기반 인증을 
 | Azure Blob Storage |예 |예 |아니요 |아니요 |
 | Azure Data Lake Store |아니요 |아니요 |아니요 |아니요 |
 | Azure HDInsight(HDFS) |아니요 |아니요 |아니요 |아니요 |
-| Azure HDInsight(Spark) |예 |예 |아니요 |아니요 |
+| Azure HDInsight(Spark) |아니요 |아니요 |아니요 |아니요 |
 | Azure Table Storage |아니요 |예 |아니요 |아니요 |
 | Dynamics 365(온라인) |아니요 |아니요 |아니요 |아니요 |
 | Facebook |아니요 |아니요 |아니요 |아니요 |
