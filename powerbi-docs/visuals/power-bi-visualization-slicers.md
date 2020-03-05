@@ -241,7 +241,7 @@ Power BI 슬라이서는 다음을 지원하지 않습니다.
 - **테두리**: 슬라이서 둘레에 테두리를 추가하고 색을 설정합니다. 이 슬라이서 테두리는 **일반** 설정과 별개이며 영향을 받지 않습니다. 
 
 ## <a name="next-steps"></a>다음 단계
-자세한 내용은 다음 아티클을 참조하세요.
+자세한 내용은 다음 문서를 참조하세요.
 
 - [Power BI의 시각화 유형](power-bi-visualization-types-for-reports-and-q-and-a.md)
 

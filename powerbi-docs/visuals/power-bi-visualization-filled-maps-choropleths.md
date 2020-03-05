@@ -53,7 +53,7 @@ Bing에 전송되는 데이터에 대한 자세한 내용 및 지오코딩 성�
 
 1. 보고서 뷰 ![보고서 뷰 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)에서 **영업 및 마케팅 샘플 PBIX 파일**을 엽니다.
 
-1. 선택 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
+1. 새 페이지를 추가하기 위해 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
 
 
 ## <a name="create-a-basic-filled-map"></a>기본 등치 지역도 만들기

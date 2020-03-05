@@ -101,7 +101,7 @@ iOS 또는 Android 모바일 앱에서 Power BI를 보는 경우, IT 관리자�
 ## <a name="view-power-bi-reports-and-kpis-in-the-power-bi-app"></a>Power BI 앱에서 Power BI 보고서 및 KPI 보기
 Power BI 보고서, Reporting Services 모바일 보고서 및 KPI는 Reporting Services 웹 포털에서와 동일한 폴더에 표시됩니다. 
 
-* Power BI 보고서 탭 ![Power BI 보고서 아이콘](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-report-icon.png)을 탭합니다. 그러면 가로 모드로 열리고 Power BI 앱에서 상호 작용할 수 있습니다.
+* Power BI 보고서 탭 ![Power BI 보고서 아이콘](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-report-icon.png). 그러면 가로 모드로 열리고 Power BI 앱에서 상호 작용할 수 있습니다.
 
     > [!NOTE]
   > 드릴다운 및 드릴업은 현재 Power BI Report Server의 Power BI 보고서에서 사용되지 않습니다.

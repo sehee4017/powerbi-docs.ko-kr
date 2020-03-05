@@ -43,7 +43,7 @@ export class Visual implements IVisual {
 }
 ```
 
-## <a name="usage"></a>사용
+## <a name="usage"></a>사용량
 
 `host.launchUrl()` API 호출을 사용하고 대상 URL을 문자열 인수로 전달합니다.
 

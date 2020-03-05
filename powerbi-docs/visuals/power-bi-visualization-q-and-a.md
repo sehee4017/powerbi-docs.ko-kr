@@ -43,9 +43,9 @@ ms.locfileid: "75762281"
    
 2. **영업 및 마케팅 샘플 PBIX 파일**의 복사본을 찾습니다.
 
-1. 보고서 뷰에서 파일을 엽니다. ![보고서 뷰 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)을 탭합니다.
+1. 보고서 뷰에서 파일을 엽니다. ![보고서 뷰 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. 선택 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
+1. 새 페이지를 추가하기 위해 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
 
 
 질문 및 답변 시각적 개체를 만들 때 오류가 표시되는 경우 [제한 사항](../natural-language/q-and-a-limitations.md) 섹션을 검사하여 데이터 원본 구성이 지원되는지 확인합니다.

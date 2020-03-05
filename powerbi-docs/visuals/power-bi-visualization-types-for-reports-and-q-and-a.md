@@ -132,7 +132,7 @@ ms.locfileid: "76040484"
 자세한 내용은 [Shape Maps in Power BI](desktop-shape-map.md)(Power BI의 도형 맵)를 참조하세요.
 
 
-### <a name="matrix"></a>행렬
+### <a name="matrix"></a>Matrix
 ![행렬](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
 
 >[!TIP]
@@ -193,7 +193,7 @@ ms.locfileid: "76040484"
 
 자세한 내용은 [Power BI의 고밀도 분산형 차트](desktop-high-density-scatter-charts.md)를 참조하세요.
 
-### <a name="slicers"></a>슬라이서(Slicers)
+### <a name="slicers"></a>슬라이서
 ![slicer](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
 
 자세한 내용은 [Power BI의 슬라이서](power-bi-visualization-slicers.md)를 참조하세요.
@@ -228,7 +228,7 @@ ms.locfileid: "76040484"
 자세한 내용은 [Power BI의 폭포 차트](power-bi-visualization-waterfall-charts.md)를 참조하세요.
 
 ## <a name="tell-qa-which-visualization-to-use"></a>질문 및 답변에 사용할 시각화 알리기
-Power BI 질문 및 답변을 사용하여 자연어 쿼리를 입력할 때 쿼리에서 시각화 유형을 지정할 수 있습니다.  다음은 그 예입니다.
+Power BI 질문 및 답변을 사용하여 자연어 쿼리를 입력할 때 쿼리에서 시각화 유형을 지정할 수 있습니다.  예:
 
 "***sales by state as a treemap***"
 

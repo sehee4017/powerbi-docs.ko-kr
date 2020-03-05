@@ -19,7 +19,7 @@ ms.locfileid: "74834612"
 
 이 문서에서는 Power BI 서비스에 게시된 페이지를 매긴 보고서를 보는 방법을 알아봅니다. 페이지를 매긴 보고서는 보고서 작성기에서 만들어지고 프리미엄 용량의 작업 영역에 업로드된 보고서입니다. 작업 영역 이름 옆의 다이아몬드 아이콘 ![Power BI Premium 용량 다이아몬드 아이콘](media/paginated-reports-view-power-bi-service/premium-diamond.png) 을 찾으세요. 
 
-페이지를 매긴 보고서에는 고유한 아이콘이 있습니다. ![페이지를 매긴 보고서 아이콘](media/paginated-reports-view-power-bi-service/power-bi-paginated-report-icon.png)을 탭합니다.
+페이지를 매긴 보고서에는 고유한 아이콘이 있습니다. ![페이지를 매긴 보고서 아이콘](media/paginated-reports-view-power-bi-service/power-bi-paginated-report-icon.png).
 
 페이지를 매긴 보고서를 다음과 같은 여러 형식으로 내보낼 수도 있습니다. 
 

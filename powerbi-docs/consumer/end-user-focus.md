@@ -60,7 +60,7 @@ Power BI Mobile을 사용하는 경우 [Windows 10 모바일 앱에서 전체 �
 
 전체 화면 모드는 대시보드, 보고서 페이지 및 보고서 시각적 개체에 사용할 수 있습니다. 
 
-- 전체 화면 모드에서 대시보드를 열려면 맨 위 메뉴 모음에서 전체 화면 아이콘 ![전체 화면 아이콘](media/end-user-focus/power-bi-full-screen-icon.png) 을 선택합니다. 
+- 전체 화면 모드에서 대시보드를 열려면 전체 화면 아이콘을 선택합니다. ![전체 화면 아이콘](media/end-user-focus/power-bi-full-screen-icon.png) 을 선택합니다. 
 
 - 전체 화면 모드에서 보고서 페이지를 열려면 **보기** > **전체 화면**을 선택합니다.
 

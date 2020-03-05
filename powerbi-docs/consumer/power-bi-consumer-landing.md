@@ -311,7 +311,7 @@ ms.locfileid: "73876725"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>내게 필요한 옵션</h3>
+                                                    <h3>접근성</h3>
                                                     <p>장애가 있는 사람이 Power BI 보고서를 보다 쉽게 사용하고 상호 작용할 수 있도록 하는 Microsoft의 방법을 알아봅니다. </p>
                                                 </div>
                                             </div>

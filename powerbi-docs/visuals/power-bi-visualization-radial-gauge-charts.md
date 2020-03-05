@@ -60,7 +60,7 @@ Will이 단일 메트릭 시각적 개체: 계기, 카드 및 KPI를 만드는 �
 
 1. **로드**를 클릭합니다.
 
-1. 선택 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
+1. 새 페이지를 추가하기 위해 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
 
 
 

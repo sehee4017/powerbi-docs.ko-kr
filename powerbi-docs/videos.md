@@ -7,14 +7,14 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 03/03/2020
 ms.author: davidi
-ms.openlocfilehash: a33efaf4e0ecd871170873df072f24bf8f824cdc
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 41a0d100817f23d3a395f05cefbe60a0214bfb59
+ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871169"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "78260856"
 ---
 # <a name="power-bi-videos"></a>Power BI 동영상
 Power BI에 대한 YouTube 채널을 제공합니다. Power BI에 익숙하지 않다면 [채널](https://www.youtube.com/user/mspowerbi/videos)을 방문할 수 있으며 [Power BI 재생 목록으로 데이터 분석 및 시각화](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP)부터 시작하는 것이 좋습니다.
@@ -43,7 +43,6 @@ Power BI에 대한 YouTube 채널을 제공합니다. Power BI에 익숙하지 �
 더 많은 비디오는 다음 원본 및 콘텐츠의 컬렉션을 확인하세요.
 
 * [Power BI에 대한 단계별 학습](https://powerbi.microsoft.com/guided-learning/) - 조금씩 Power BI 순차적 학습 둘러보기
-* [큐브 채널의 Guy](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w) - Power BI 기능 및 특성에 대한 최신 비디오
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI란?](fundamentals/power-bi-overview.md)
