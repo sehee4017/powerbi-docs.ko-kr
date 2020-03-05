@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: e65dd42e8ec787d0c6edba534f79cdb06e5ba14c
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: f8b7cc302cd4a26aa099f723f47865723dccb7c9
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77527295"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290639"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>SQL Server Reporting Services 보고서를 Power BI로 마이그레이션
 
@@ -192,7 +192,6 @@ API에 대한 자세한 내용은 다음을 참조하세요.
 
 - [Power BI Premium에서 페이지를 매긴 보고서란?](../paginated-reports-report-builder-power-bi.md)
 - [페이지를 매긴 보고서의 데이터 검색 지침](report-paginated-data-retrieval.md)
-- Guy in a cube 비디오: [Power BI의 페이지를 매긴 보고서 소개](https://www.youtube.com/watch?v=wfqn45XNK3M)
 - [Power BI의 페이지를 매긴 보고서가 필요한 경우](report-paginated-or-power-bi.md)
 - [Power BI의 페이지를 매긴 보고서: FAQ](../paginated-reports-faq.md)
 - [Power BI 프리미엄 FAQ](../service-premium-faq.md)

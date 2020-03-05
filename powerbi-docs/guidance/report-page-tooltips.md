@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 826af7b224b901b6dc9f3926260b1d920836a792
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: f86317b12e3637d6522eebc2f304786c1b39c083
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76040340"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290616"
 ---
 # <a name="extend-visuals-with-report-page-tooltips"></a>보고서 페이지 도구 설명을 사용하여 시각적 개체 확장
 
@@ -88,5 +88,5 @@ ms.locfileid: "76040340"
 - [Power BI Desktop의 보고서 페이지에 기반한 도구 설명 만들기](../desktop-tooltips.md)
 - [Power BI Desktop에서 도구 설명 사용자 지정](../desktop-custom-tooltips.md)
 - [시각적 개체를 사용하여 Power BI 보고서 개선](../desktop-visual-elements-for-reports.md)
-- Guy in a cube 비디오: [Power BI report page tooltip - How to create one in Power BI Desktop](https://www.youtube.com/watch?v=URTA7JZsAtw)(Power BI 보고서 페이지 도구 설명 - Power BI Desktop에서 페이지 도구 설명을 만드는 방법)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+- 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com/)
