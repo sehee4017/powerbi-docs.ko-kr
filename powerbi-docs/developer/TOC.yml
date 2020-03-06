@@ -140,6 +140,8 @@
           items:
             - name: Power BI 임베디드 분석의 용량 및 SKU
               href: embedded-capacity.md
+            - name: 용량 계획
+              href: embedded-capacity-planning.md
             - name: 성능 모범 사례
               href: embedded-performance-best-practices.md
             - name: 서비스 사용자
