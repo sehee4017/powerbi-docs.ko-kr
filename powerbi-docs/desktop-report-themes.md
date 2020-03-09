@@ -314,7 +314,7 @@ Power BI Desktop의 2019년 12월 릴리스부터 현재 적용된 보고서 테
 | **secondLevelElements** <br> **foregroundNeutralSecondary**(사용되지 않음) | “밝은” [보조 텍스트 클래스](#setting-formatted-text-defaults) <br> 레이블 색  <br> 범례 레이블 색 <br> 축 레이블 색 <br> 테이블 및 행렬 머리글 글꼴 색 <br> 계기 대상 및 대상 지시선 색 <br>  KPI 추세 축 색 <br> 슬라이서 슬라이더 색 <br> 슬라이서 항목 글꼴 색 <br> 슬라이서 윤곽선 색 <br> 꺾은선형 차트 가리킨 색 <br> 여러 행 카드 제목 색 <br> 리본 차트 스트로크 색 <br> 도형 맵 테두리 색 <br> 단추 텍스트 글꼴 색 <br> 단추 아이콘 선 색 <br> 단추 윤곽선 색 |
 | **thirdLevelElements** <br >**backgroundLight**(사용되지 않음) | 축 눈금선 색 <br> 테이블 및 행렬 눈금 색 <br> 슬라이서 헤더 배경색(포커스 모드인 경우)  <br> 여러 행 카드 윤곽선 색  <br> 도형 채우기 색 <br> 계기 원호 배경색 <br> 적용된 필터 카드 배경색 <br> |
 | **fourthLevelElements** <br> **foregroundNeutralTertiary**(사용되지 않음) | 범례 흐리게 색 <br> 카드 범주 레이블 색 <br> 여러 행 카드 범주 레이블 색 <br> 여러 행 카드 막대 색 <br> 깔때기형 차트 변환율 스트로크 색
-| **백그라운드** | 레이블 배경색(데이터 요소 내에 있는 경우) <br> 슬라이서 드롭다운 항목 배경색  <br> 도넛형 차트 스트로크 색 <br> 트리맵 스트로크 색 <br> 콤보 차트 배경색 <br> 단추 채우기 색 <br> 필터 창 및 사용 가능한 필터 카드 배경색 |
+| **background** | 레이블 배경색(데이터 요소 내에 있는 경우) <br> 슬라이서 드롭다운 항목 배경색  <br> 도넛형 차트 스트로크 색 <br> 트리맵 스트로크 색 <br> 콤보 차트 배경색 <br> 단추 채우기 색 <br> 필터 창 및 사용 가능한 필터 카드 배경색 |
 | **secondaryBackground** <br> **backgroundNeutral**(사용되지 않음) | 테이블 및 행렬 눈금 윤곽선 색 <br> 도형 맵 기본 색 <br> 리본 차트 리본 채우기 색(일치하는 계열 옵션이 해제된 경우) |
 | **tableAccent** | 있는 경우 테이블 및 행렬 눈금 윤곽선 색을 재정의합니다. |
 
