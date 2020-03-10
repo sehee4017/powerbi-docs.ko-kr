@@ -1,0 +1,87 @@
+### YamlMime:Landing
+title: Power BI Report Server 설명서
+summary: Power BI Report Server 설명서에서는 Power BI 용도와 관계없이 필요에 부합하는 전문가의 정보와 답변을 제공합니다.
+metadata:
+  title: Power BI Report Server 설명서
+  description: Power BI Report Server 설명서에서는 Power BI 용도와 관계없이 필요에 부합하는 전문가의 정보와 답변을 제공합니다.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 03/03/2020
+  ms.openlocfilehash: f727b8832c29c4bfca448a03898620c183eb13a2
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924624"
+landingContent:
+- title: Power BI Report Server 정보
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Power BI Report Server란?
+      url: get-started.md
+  - linkListType: concept
+    links:
+    - text: 보고서 서버 및 서비스 비교
+      url: compare-report-server-service.md
+    - text: Power BI Report Server의 새로운 기능
+      url: whats-new.md
+- title: 시작
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: VM에서 Power BI Report Server 탐색
+      url: tutorial-explore-report-server-web-portal.md
+  - linkListType: concept
+    links:
+    - text: 관리자 개요
+      url: admin-handbook-overview.md
+    - text: 개발자 개요
+      url: developer-handbook-overview.md
+  - linkListType: how-to-guide
+    links:
+    - text: Power BI Desktop 설치
+      url: install-powerbi-desktop.md
+    - text: 보고서 작성기 설치
+      url: install-report-builder.md
+- title: 관리자용 보고서 서버
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 하드웨어 및 소프트웨어 요구 사항
+      url: system-requirements.md
+  - linkListType: how-to-guide
+    links:
+    - text: 보고서 서버 설치
+      url: install-report-server.md
+    - text: 보고서 서버 제품 키 찾기
+      url: find-product-key.md
+    - text: Report Server 설치 마이그레이션
+      url: migrate-report-server.md
+    - text: Kerberos 구성
+      url: configure-kerberos-powerbi-reports.md
+- title: 보고서 작성자를 위한 보고서 서버
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Power BI 보고서 예약된 새로 고침
+      url: scheduled-refresh.md
+    - text: Power BI 보고서 데이터 원본
+      url: data-sources.md
+    - text: 페이지를 매긴 보고서 데이터 원본
+      url: connect-data-sources.md
+  - linkListType: how-to-guide
+    links:
+    - text: Power BI 보고서 만들기
+      url: quickstart-create-powerbi-report.md
+    - text: 웹 포털에서 콘텐츠 관리
+      url: getting-around.md
+    - text: OData 피드로 공유 데이터 세트에 액세스
+      url: access-dataset-odata.md
+    - text: 행 수준 보안
+      url: row-level-security-report-server.md

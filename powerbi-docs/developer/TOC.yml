@@ -93,12 +93,18 @@
               href: visuals/localization.md
             - name: Power BI 시각적 개체 유틸리티
               items:
+                - name: 외부 라이브러리 추가
+                  href: visuals/adding-external-libraries.md
                 - name: 대화형 유틸리티
                   href: visuals/utils-interactivity-selections.md
                 - name: 유틸리티 서식 지정
                   href: visuals/utils-formatting.md
+                - name: 데이터 보기 유틸리티
+                  href: visuals/utils-dataview.md
                 - name: 차트 유틸리티
                   href: visuals/utils-chart.md
+                - name: 색 유틸리티
+                  href: visuals/utils-color.md
                 - name: SVG 유틸리티
                   href: visuals/utils-svg.md
                 - name: 형식 유틸리티

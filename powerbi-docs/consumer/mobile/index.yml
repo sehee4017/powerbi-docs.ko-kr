@@ -1,0 +1,67 @@
+### YamlMime:Landing
+title: Power BI 모바일 앱 설명서
+summary: Power BI 설명서를 통해 Power BI 용도와 관계없이 필요에 부합한 전문가의 정보 및 답변을 얻을 수 있습니다.
+metadata:
+  title: Power BI 모바일 앱 설명서
+  description: Power BI 설명서를 통해 Power BI 용도와 관계없이 필요에 부합한 전문가의 정보 및 답변을 얻을 수 있습니다.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 02/11/2020
+  ms.openlocfilehash: 96881ecb03132579643517679aaab3c87b7a977f
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78923911"
+landingContent:
+- title: Power BI 모바일 앱 정보
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 모바일 앱이란?
+      url: mobile-apps-for-mobile-devices.md
+    - text: 모바일 앱의 새로운 기능
+      url: mobile-whats-new-in-the-mobile-apps.md
+    - text: 모바일 앱 홈페이지
+      url: mobile-apps-home-page.md
+- title: 시작
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Android 시작하기
+      url: mobile-android-app-get-started.md
+    - text: iOS 시작하기
+      url: mobile-iphone-app-get-started.md
+    - text: Windows 10 시작하기
+      url: mobile-windows-10-phone-app-get-started.md
+  - linkListType: quickstart
+    links:
+    - text: 대시보드 및 보고서 살펴보기
+      url: mobile-apps-quickstart-view-dashboard-report.md
+- title: 탐색
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: 데이터와 관련하여 질문하기
+      url: tutorial-mobile-apps-ios-qna.md
+  - linkListType: how-to-guide
+    links:
+    - text: 오프라인으로 데이터 보기
+      url: mobile-apps-offline-data.md
+    - text: 대시보드 또는 보고서 공유
+      url: mobile-share-dashboard-from-the-mobile-apps.md
+    - text: 데이터 경고 설정
+      url: mobile-set-data-alerts-in-the-mobile-apps.md
+- title: 온-프레미스 보고서
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: 온-프레미스 보고서 및 KPI 보기
+      url: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+    - text: OAuth를 사용하여 온-프레미스 보고서에 연결
+      url: mobile-oauth-ssrs.md

@@ -1,0 +1,243 @@
+### YamlMime:Hub
+title: Power BI 설명서
+summary: Power BI는 데이터의 가치와 정보를 배가합니다. Power BI 설명서를 통해 Power BI 용도와 관계없이 필요에 부합한 전문가의 정보 및 답변을 얻을 수 있습니다.
+brand: power-bi
+metadata:
+  title: Power BI 설명서
+  description: Power BI는 데이터의 가치와 정보를 배가합니다. Power BI 용도와 관계없이 여기에서 전문가의 정보와 답변을 찾아보세요.
+  services: service
+  ms.service: powerbi
+  ms.subservice: subservice
+  ms.topic: hub-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 03/03/2020
+  ms.openlocfilehash: ad1e273947744f2d7611f6a4a03940e52f2a64fa
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924302"
+highlightedContent:
+  items:
+  - title: Power BI Desktop 시작
+    itemType: get-started
+    url: desktop-getting-started.md
+  - title: Power BI 서비스에 등록
+    itemType: how-to-guide
+    url: service-self-service-signup-for-power-bi.md
+  - title: 협업 및 공유 방법
+    itemType: concept
+    url: service-how-to-collaborate-distribute-dashboards-reports.md
+conceptualContent:
+  items:
+  - title: Power BI는 다음을 수행합니다. 시작
+    links:
+    - url: power-bi-overview.md
+      itemType: overview
+      text: Power BI란?
+    - url: desktop-what-is-desktop.md
+      itemType: overview
+      text: Power BI Desktop이란?
+    - url: power-bi-service-overview.md
+      itemType: overview
+      text: Power BI 서비스란?
+    footerLink:
+      url: fundamentals/index.yml
+      text: 자세히 보기
+  - title: 소비자용 Power BI
+    links:
+    - url: consumer/end-user-consumer.md
+      itemType: get-started
+      text: 내가 Power BI 소비자인가요?
+    - url: consumer/end-user-experience.md
+      itemType: get-started
+      text: Power BI 서비스 살펴보기
+    - url: consumer/end-user-dashboards.md
+      itemType: concept
+      text: 대시보드란?
+    footerLink:
+      url: consumer/index.yml
+      text: 자세히 보기
+  - title: Power BI 관리
+    links:
+    - url: service-admin-administering-power-bi-in-your-organization.md
+      itemType: overview
+      text: Power BI 관리란?
+    - url: service-admin-licensing-organization.md
+      itemType: concept
+      text: 조직의 라이선싱
+    - url: service-admin-portal.md
+      itemType: concept
+      text: 관리 포털
+    footerLink:
+      url: admin/index.yml
+      text: 자세히 보기
+  - title: Power BI에서 개발
+    links:
+    - url: developer/what-can-you-do.md
+      itemType: overview
+      text: 개발자가 수행할 수 있는 작업
+    - url: power-bi-custom-visuals.md
+      itemType: overview
+      text: 개발자 및 시각적 개체
+    - url: developer/embedding.md
+      itemType: overview
+      text: 임베디드 분석
+    footerLink:
+      url: developer/index.yml
+      text: 자세히 보기
+  - title: 데이터에 연결
+    links:
+    - url: desktop-quickstart-connect-to-data.md
+      itemType: tutorial
+      text: 데이터에 연결
+    - url: service-gateway-onprem.md
+      itemType: concept
+      text: 온-프레미스 데이터 게이트웨이
+    - url: refresh-data.md
+      itemType: concept
+      text: 데이터 새로 고침
+    footerLink:
+      url: connect-data/index.yml
+      text: 자세히 보기
+  - title: 데이터 변환 및 모양 지정
+    links:
+    - url: desktop-analytics-pane.md
+      itemType: how-to-guide
+      text: 분석 창 사용
+    - url: desktop-common-query-tasks.md
+      itemType: concept
+      text: 일반적인 쿼리 작업
+    - url: desktop-shape-and-combine-data.md
+      itemType: tutorial
+      text: 데이터 모양 지정 및 결합
+    footerLink:
+      url: transform-model/index.yml
+      text: 자세히 보기
+  - title: 모델 데이터
+    links:
+    - url: desktop-add-custom-column.md
+      itemType: how-to-guide
+      text: 사용자 지정 열 추가
+    - url: desktop-tutorial-create-calculated-columns.md
+      itemType: tutorial
+      text: 계산 열 만들기
+    - url: desktop-create-and-manage-relationships.md
+      itemType: how-to-guide
+      text: 관계 만들기 및 관리
+    footerLink:
+      url: transform-model/index.yml
+      text: 자세히 보기
+  - title: 보고서 및 대시보드 만들기
+    links:
+    - url: desktop-report-themes.md
+      itemType: concept
+      text: 보고서 테마
+    - url: desktop-conditional-table-formatting.md
+      itemType: concept
+      text: 페이지를 매긴 보고서란?
+    - url: paginated-reports/paginated-reports-report-builder-power-bi.md
+      itemType: how-to-guide
+      text: 대시보드 만들기
+    footerLink:
+      url: create-reports/index.yml
+      text: 자세히 보기
+  - title: 공동 작업 및 공유
+    links:
+    - url: service-share-dashboards.md
+      itemType: concept
+      text: 대시보드 및 보고서 공유
+    - url: service-create-the-new-workspaces.md
+      itemType: how-to-guide
+      text: 새 작업 영역 만들기
+    - url: service-datasets-across-workspaces.md
+      itemType: concept
+      text: 공유 데이터 세트 소개
+    footerLink:
+      url: collaborate-share/index.yml
+      text: 자세히 보기
+  - title: 제품 간 통합
+    links:
+    - url: service-azure-and-power-bi.md
+      itemType: concept
+      text: Azure 및 Power BI
+    - url: service-analyze-in-excel.md
+      itemType: concept
+      text: Excel에서 분석
+    - url: service-embed-report-spo.md
+      itemType: concept
+      text: SharePoint Online에 포함
+    footerLink:
+      url: collaborate-share/index.yml
+      text: 자세히 보기
+  - title: 모바일 앱의 Power BI
+    links:
+    - url: consumer/mobile/mobile-apps-for-mobile-devices.md
+      itemType: get-started
+      text: 모바일 앱이란?
+    - url: consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md
+      itemType: quickstart
+      text: 대시보드 및 보고서 탐색
+    - url: consumer/mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+      itemType: how-to-guide
+      text: 온-프레미스 보고서 보기
+    footerLink:
+      url: consumer/mobile/index.yml
+      text: 자세히 보기
+  - title: 엔터프라이즈
+    links:
+    - url: service-premium-what-is.md
+      itemType: overview
+      text: Power BI Premium이란?
+    - url: service-admin-power-bi-security.md
+      itemType: concept
+      text: 보안
+    - url: admin/service-security-data-protection-overview.md
+      itemType: concept
+      text: 데이터 보호
+    footerLink:
+      url: admin/index.yml
+      text: 자세히 보기
+  - title: 모범 사례 지침
+    links:
+    - url: guidance/overview.md
+      itemType: overview
+      text: 지침 개요
+    - url: guidance/star-schema.md
+      itemType: concept
+      text: 별 모양 스키마
+    - url: guidance/import-modeling-data-reduction.md
+      itemType: concept
+      text: 데이터 모델 크기 줄이기
+    footerLink:
+      url: guidance/index.yml
+      text: 자세히 보기
+  - title: 알아보기
+    links:
+    - url: https://docs.microsoft.com/learn/modules/explore-power-bi-service/
+      itemType: learn
+      text: Power BI로 수행할 수 있는 작업 알아보기
+    - url: https://docs.microsoft.com/learn/modules/analyze-data-power-bi/
+      itemType: learn
+      text: 데이터 분석
+    - url: https://docs.microsoft.com/learn/modules/get-started-with-power-bi/
+      itemType: learn
+      text: 빌드 시작하기
+    footerLink:
+      url: guided-learning/index.yml
+      text: 자세히 보기
+additionalContent:
+  sections:
+  - title: 관련 도구
+  - items:
+    - title: Power BI Report Server
+      summary: Power BI 보고서, 페이지를 매긴 보고서 및 KPI를 표시하고 관리하는 웹 포털이 있는 온-프레미스 보고서 서버인 Power BI Report Server를 살펴봅니다.
+      url: report-server/index.yml
+    - title: Power BI REST API
+      summary: Power BI REST API는 포함, 관리 및 사용자 리소스를 위한 서비스 엔드포인트를 제공합니다.
+      url: https://docs.microsoft.com/rest/api/power-bi/
+    - title: Power Platform 설명서
+      summary: Power BI, Power Apps, Power Automate 및 Power Virtual Agents가 함께 작동하여 서로에게 도움이 되는 방법을 알아봅니다.
+      url: https://docs.microsoft.com/power-platform/

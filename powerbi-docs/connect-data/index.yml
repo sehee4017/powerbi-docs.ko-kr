@@ -1,0 +1,71 @@
+### YamlMime:Landing
+title: Power BI에서 데이터에 연결 - 설명서
+summary: Power BI 설명서를 통해 Power BI 용도와 관계없이 필요에 부합한 전문가의 정보 및 답변을 얻을 수 있습니다.
+metadata:
+  title: Power BI에서 데이터에 연결 - 설명서
+  description: Power BI 설명서를 통해 Power BI 용도와 관계없이 필요에 부합한 전문가의 정보 및 답변을 얻을 수 있습니다.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 02/25/2020
+  ms.openlocfilehash: a46c459c61f85b2f8cb4885f93c1893724485dff
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924141"
+landingContent:
+- title: Power BI에서 데이터에 연결
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 데이터 원본
+      url: ../desktop-data-sources.md
+    - text: Power BI Desktop의 데이터 보기
+      url: ../desktop-data-view.md
+  - linkListType: tutorial
+    links:
+    - text: 웹 페이지에서 데이터 가져오기
+      url: ../desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
+- title: 게이트웨이
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 온-프레미스 데이터 게이트웨이
+      url: ../service-gateway-onprem.md
+  - linkListType: tutorial
+    links:
+    - text: 온-프레미스 SQL Server 데이터에 연결
+      url: ../service-gateway-sql-tutorial.md
+  - linkListType: how-to-guide
+    links:
+    - text: 개인 게이트웨이 사용
+      url: ../service-gateway-personal-mode.md
+- title: 템플릿 앱
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 템플릿 앱이란?
+      url: ../service-template-apps-overview.md
+  - linkListType: concept
+    links:
+    - text: 템플릿 앱 만들기
+      url: ../service-template-apps-create.md
+    - text: 조직에 템플릿 앱 배포
+      url: ../service-template-apps-install-distribute.md
+- title: 데이터 새로 고침
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 데이터 새로 고침
+      url: ../refresh-data.md
+    - text: Power BI Premium의 증분 새로 고침
+      url: ../service-premium-incremental-refresh.md
+  - linkListType: how-to-guide
+    links:
+    - text: 예약된 새로 고침 구성
+      url: ../refresh-scheduled-refresh.md

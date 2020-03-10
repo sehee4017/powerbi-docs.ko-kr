@@ -1,0 +1,67 @@
+### YamlMime:Landing
+title: Power BI 시작하기 설명서
+summary: Power BI 설명서를 통해 Power BI 용도와 관계없이 필요에 부합한 전문가의 정보 및 답변을 얻을 수 있습니다.
+metadata:
+  title: Power BI 시작하기 설명서
+  description: Power BI 설명서를 통해 Power BI 용도와 관계없이 필요에 부합한 전문가의 정보 및 답변을 얻을 수 있습니다.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 03/05/2020
+  ms.openlocfilehash: ec79ce7ca7d7e50f5a3a806ad14de50b786483f5
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924371"
+landingContent:
+- title: Power BI란?
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Power BI란?
+      url: ../power-bi-overview.md
+    - text: Power BI Desktop이란?
+      url: ../desktop-what-is-desktop.md
+    - text: Power BI 서비스란?
+      url: ../power-bi-service-overview.md
+    - text: Power BI Desktop 및 서비스 비교
+      url: ../service-service-vs-desktop.md
+- title: 새로운 기능
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Power BI Desktop의 새로운 기능
+      url: ../desktop-latest-update.md
+    - text: 서비스의 새로운 기능
+      url: ../service-whats-new.md
+- title: 학습 시작하기
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: 분석 보고서 만들기 및 사용
+      url: https://docs.microsoft.com/learn/paths/create-use-analytics-reports-power-bi/
+    - text: Power BI Desktop에서 데이터 가져오기
+      url: https://docs.microsoft.com/power-bi/guided-learning/gettingdata?tutorial-step=1
+- title: 라이선싱
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Power BI에 등록
+      url: ../service-self-service-signup-for-power-bi.md
+    - text: 라이선스 유형별 기능
+      url: ../service-features-license-type.md
+- title: 리소스
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Power BI 동영상
+      url: ../videos.md
+    - text: Power BI Desktop 동영상
+      url: ../desktop-videos.md
+    - text: 웹 세미나
+      url: ../webinars.md

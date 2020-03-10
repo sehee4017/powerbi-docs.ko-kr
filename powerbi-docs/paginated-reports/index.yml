@@ -1,0 +1,81 @@
+### YamlMime:Landing
+title: Power BI 페이지를 매긴 보고서 설명서
+summary: Power BI 페이지를 매긴 보고서 설명서에서는 Power BI 용도와 관계없이 필요에 부합하는 전문가의 정보와 답변을 제공합니다.
+metadata:
+  title: Power BI 페이지를 매긴 보고서 설명서
+  description: Power BI 페이지를 매긴 보고서 설명서에서는 Power BI 용도와 관계없이 필요에 부합하는 전문가의 정보와 답변을 제공합니다.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 02/25/2020
+  ms.openlocfilehash: 47a77e156c6b59440e0de500a3f2ab9dede01c85
+  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.translationtype: HT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 03/07/2020
+  ms.locfileid: "78924601"
+landingContent:
+- title: Power BI 페이지를 매긴 보고서 정보
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Power BI 페이지를 매긴 보고서란?
+      url: paginated-reports-report-builder-power-bi.md
+    - text: Power BI의 보고서 작성기
+      url: report-builder-power-bi.md
+- title: 시작
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: 페이지를 매긴 보고서 만들기 및 업로드
+      url: paginated-reports-quickstart-aw.md
+  - linkListType: concept
+    links:
+    - text: 보고서 디자인 뷰 살펴보기
+      url: paginated-reports-report-design-view.md
+    - text: 페이지를 매긴 보고서 계획
+      url: report-builder-planning-report.md
+- title: 데이터에 연결
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 보고서 작성기의 데이터
+      url: report-builder-data.md
+    - text: 지원되는 데이터 원본
+      url: paginated-reports-data-sources.md
+  - linkListType: how-to-guide
+    links:
+    - text: 포함된 데이터 원본 만들기
+      url: paginated-reports-embedded-data-source.md
+    - text: 포함된 데이터 세트 만들기
+      url: paginated-reports-create-embedded-dataset.md
+- title: 보고서 만들기
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 테이블, 행렬 및 목록
+      url: report-builder-tables-matrices-lists.md
+  - linkListType: how-to-guide
+    links:
+    - text: 공유 데이터 세트에서 보고서 만들기
+      url: report-builder-shared-datasets.md
+    - text: 매개 변수 만들기
+      url: paginated-reports-parameters.md
+- title: 보고서 구체화 및 게시
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 식 예제
+      url: report-builder-expression-examples.md
+    - text: 보고서 페이지 매김
+      url: paginated-reports-pagination.md
+  - linkListType: how-to-guide
+    links:
+    - text: URL에 보고서 매개 변수 전달
+      url: report-builder-url-pass-parameters.md
+    - text: 페이지를 매긴 보고서 게시
+      url: paginated-reports-save-to-power-bi-service.md
