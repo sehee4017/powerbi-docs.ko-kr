@@ -21,7 +21,7 @@ SQL Server 2016 Reporting Services에서 Windows 10용 Power BI 모바일 앱은
 ![Reporting Services 모바일 보고서](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report.png)
 
 ## <a name="first-things-first"></a>먼저 수행할 중요한 작업
-SQL Server 2016 Enterprise Edition 모바일 보고서 게시자를 사용하여 [Reporting Services 모바일 보고서를 만들고](https://msdn.microsoft.com/library/mt652547.aspx) [Reporting Services 웹 포털](https://msdn.microsoft.com/library/mt637133.aspx)에 게시합니다. 웹 포털에 KPI를 만듭니다. 폴더에 정리하고 쉽게 찾을 수 있도록 즐겨찾기를 표시합니다. 
+SQL Server 2016 Enterprise Edition 모바일 보고서 게시자를 사용하여 [Reporting Services 모바일 보고서를 만들고](https://msdn.microsoft.com/library/mt652547.aspx)[Reporting Services 웹 포털](https://msdn.microsoft.com/library/mt637133.aspx)에 게시합니다. 웹 포털에 KPI를 만듭니다. 폴더에 정리하고 쉽게 찾을 수 있도록 즐겨찾기를 표시합니다. 
 
 그런 다음 Windows 10용 Power BI 모바일 앱에서, 폴더에 정리되어 있거나 즐겨찾기에 모아놓은 모바일 보고서와 KPI를 봅니다. 
 

@@ -26,7 +26,7 @@ ms.locfileid: "73871073"
 
 1. 빈 보고서 페이지에서 시작합니다. Power BI 서비스를 사용하는 경우 [편집용 보기](../service-interact-with-a-report-in-editing-view.md)에서 보고서를 엽니다.
 
-2. 필드 창에서 **SalesFact** \> **전체 단위**를 선택하고 **날짜** > **월**을 선택합니다.  Power BI는 보고서 캔버스에 세로 막대형 차트를 만듭니다.
+2. 필드 창에서 **SalesFact** \> **전체 단위**를 선택하고 **날짜**  >  **월**을 선택합니다.  Power BI는 보고서 캔버스에 세로 막대형 차트를 만듭니다.
 
     ![필드 창에서 선택](media/power-bi-line-charts/power-bi-step1.png)
 

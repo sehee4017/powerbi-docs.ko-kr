@@ -27,7 +27,7 @@ Power BI 시각화 창에서 바로 사용할 수 있는 다양한 시각적 개
 
 ![각 시각화 개체 유형의 아이콘이 있는 창](media/power-bi-report-visualizations/power-bi-icons.png)
 
-더 많은 선택 옵션을 보려면 [Microsoft AppSource 커뮤니티 사이트](https://appsource.microsoft.com)를 방문하여 Microsoft와 커뮤니티에서 제공하는 [사용자 지정 시각적 개체](../developer/visuals/custom-visual-develop-tutorial.md)를 찾아서 [다운로드](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)하세요.
+더 많은 선택 옵션을 보려면 [Microsoft AppSource 커뮤니티 사이트](https://appsource.microsoft.com)를 방문하여 Microsoft 및 커뮤니티에서 제공하는 [사용자 지정 시각적 개체](../developer/visuals/custom-visual-develop-tutorial.md)를 찾아 [다운로드](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)하세요.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SYk_gWrtKvM?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 34754f413cd6bb8e520ff8d7f2c9d4a28da73ef5
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 99fd17e8491613affbfe78e7cd9a2f268f588975
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609931"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237986"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI에서 웹에 게시
 
@@ -134,6 +134,7 @@ Power BI의 **웹에 게시** 옵션을 사용하면 모든 디바이스에서 �
 
 - 행 수준 보안을 사용하는 보고서
 - 온-프레미스에 호스트된 Analysis Services 테이블 형식, Analysis Service 다차원 및 Azure Analysis Services를 비롯한 모든 라이브 연결 데이터 원본을 사용하는 보고서
+- 보고서와 다른 작업 영역에 저장된 [공유 데이터 세트](service-datasets-across-workspaces.md)를 사용하는 보고서
 - 사용자에게 직접적으로 또는 조직 콘텐츠 팩을 통해 공유되는 보고서
 - 편집 멤버가 아닌 그룹의 보고서
 - "R" 시각적 개체는 현재 **웹에 게시** 보고서에서 지원되지 않습니다.

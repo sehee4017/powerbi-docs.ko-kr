@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 02/13/2020
-ms.openlocfilehash: 031e1fd5d5c57e37e0d70541d6662b0af7b91b07
-ms.sourcegitcommit: 4d98274aa0b9aa09db99add2dda91a3ba8fed40b
+ms.openlocfilehash: 3f27c32442ecf3c70c3dc3e7d070fcc8bf14d7b1
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "77576789"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237871"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>파트너 센터에 Power BI 시각적 개체 게시
 
@@ -37,8 +37,8 @@ Power BI 시각적 개체를 제출할 준비가 되면 시각적 개체가 아�
 | 샘플 .pbix 보고서 파일 |예 |시각적 개체를 소개하는 경우 사용자가 시각적 개체에 익숙해질 수 있도록 도움을 줘야 합니다. 시각적 개체가 사용자에게 도움이 되는 이유를 강조하고 사용 사례, 서식 지정 옵션 등을 제공합니다. 팁과 요령, 피해야 할 사항을 포함하는 *"힌트"* 페이지를 마지막에 추가할 수도 있습니다.<br>샘플 .pbix 보고서 파일은 어떤 외부 연결도 없이 오프라인에서 작동되어야 합니다. |
 | 아이콘 |예 |스토어 맨 앞에 표시되는 사용자 지정 시각적 개체 로고를 포함해야 합니다. 가능한 형식은 png, .jpg, .jpeg 또는 .gif입니다. 정확히 300px(너비) x 300px(높이)여야 합니다.<BR>**중요** 아이콘을 제출하기 전에 [AppSource 스토어 이미지 가이드](https://docs.microsoft.com/office/dev/store/craft-effective-appsource-store-images)를 자세히 검토하세요. |
 | 스크린샷 |예 |스크린샷을 하나 이상 제공합니다. 가능한 형식은 png, .jpg, .jpeg 또는 .gif입니다. 크기는 정확히 1366px(너비) x 768px(높이)여야 합니다. 파일 크기는 1024KB를 초과할 수 없습니다.<br>활용도를 높이려면, 각 스크린샷에 표시되는 주요 기능의 가치 제안을 분명히 전달하기 위한 말풍선을 추가합니다. |
-| 다운로드 링크 지원 |예 |고객 지원 URL을 제공합니다. 이 링크는 판매자 대시보드 목록의 일부로 입력되고 AppSource의 시각적 개체 목록에 액세스할 때 사용자에게 표시됩니다. URL 형식은 https:// 또는 https:// 를 포함해야 합니다. |
-| 개인정보처리방침 링크 |예 |시각적 개체의 개인정보 취급방침 링크를 제공합니다. 이 링크는 판매자 대시보드 목록의 일부로 입력되고 AppSource의 시각적 개체 목록에 액세스할 때 사용자에게 표시됩니다. 링크 형식에 https:// 또는 https:// 를 포함해야 합니다. |
+| 다운로드 링크 지원 |예 |고객 지원 URL을 제공합니다. 이 링크는 파트너 센터 목록의 일부로 입력되고 AppSource의 시각적 개체 목록에 액세스할 때 사용자에게 표시됩니다. URL 형식은 https:// 또는 https:// 를 포함해야 합니다. |
+| 개인정보처리방침 링크 |예 |시각적 개체의 개인정보 취급방침 링크를 제공합니다. 이 링크는 파트너 센터 목록의 일부로 입력되고 AppSource의 시각적 개체 목록에 액세스할 때 사용자에게 표시됩니다. 링크 형식에 https:// 또는 https:// 를 포함해야 합니다. |
 | EULA(최종 사용자 사용권 계약) |예 |Power BI 시각적 개체의 EULA 파일을 제공해야 합니다. |
 | 비디오 링크 |아니요 |사용자 지정 시각적 개체에 대한 사용자의 관심을 높이려면 시각적 개체에 대한 비디오 링크를 제공합니다. URL 형식은 https:// 또는 https:// 를 포함해야 합니다. |
 | GitHub 리포지토리 |아니요 |Power BI 시각적 개체 및 샘플 데이터의 소스가 포함된 [GitHub](https://www.github.com) 리포지토리에 대한 공용 링크를 공유합니다. 이렇게 하면 다른 개발자가 피드백을 제공하고 코드 개선 사항을 제안할 수 있습니다. |
@@ -74,9 +74,6 @@ Power BI 팀은 파일에서 새 Power BI 시각적 개체 제출, 기존 Power 
 파트너 센터에 Power BI 시각적 개체를 제출하려면 파트너 센터에 등록되어 있어야 합니다. 아직 등록하지 않은 경우 [파트너 센터에서 개발자 계정을 개설](https://docs.microsoft.com/office/dev/store/open-a-developer-account)합니다.
 
 파트너 센터에 Power BI 시각적 개체를 제출하려면 다음 단계를 수행합니다. 제출 프로세스에 대한 자세한 내용은 [파트너 센터를 통해 AppSource에 Office 솔루션 제출](https://docs.microsoft.com/office/dev/store/use-partner-center-to-submit-to-appsource)을 참조하세요.
-
->[!NOTE]
-> Power BI 시각적 개체 제출 프로세스를 진행하는 도중이고 [판매자 대시보드](https://docs.microsoft.com/office/dev/store/use-the-seller-dashboard-to-submit-to-the-office-store)(이전 관리 도구)를 사용해야 하는 경우 [판매자 대시보드를 사용하여 AppSource에 Power BI 시각적 개체 제출](seller-dashboard.md)에 안내된 지침을 검토하세요.
 
 1. **파트너 센터**에 로그인합니다.
 

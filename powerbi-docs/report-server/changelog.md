@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/27/2020
-ms.openlocfilehash: 993d83e15eafa0e40938eee13cbeabec75389f47
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.date: 03/02/2020
+ms.openlocfilehash: 0a8cf16ddf7fe9e091599f1790a37a83b9923240
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819540"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237963"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI Report Server에 대한 변경 로그
 
@@ -24,6 +24,14 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
 
 ## <a name="january-2020"></a>2020년 1월
 - **Power BI Report Server**
+    - *‘버전: 1.6.7364.4075(빌드 15.0.1102.777), 릴리스 날짜: 2020년 3월 2일*
+         - 버그 픽스
+           -  특정 데이터 원본에 대해 업로드하지 못하는 Power BI 보고서를 수정
+           -  포털의 Power BI Report Server Desktop 링크 다운로드 위치를 수정
+           -  Excel 렌더링을 위한 DynamicImageDPI를 수정
+           -  특정 다중 사용자 시나리오에서 잘못된 스레드 문화권을 사용하는 Oracle 연결을 수정
+           -  보고서 포함 오류를 발생시키는 CustomHeaders 기본값을 수정
+           -  특정 경우에 잘못 생성되는 SQL 매개 변수 이름을 수정
     - *‘버전: 1.6.7327.3007(빌드 15.0.1102.759), 릴리스 날짜: 2020년 1월 23일*
          - 기능
             -  Power BI 보고서에서 Excel로 내보내기.

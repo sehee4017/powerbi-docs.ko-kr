@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: b5ef7e99edbf862891811047ea5f1f961aaea348
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: 5eab21418eb1028d94ba2e50ffd6e736e6226018
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77527594"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237917"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Power BI의 게이트웨이 SSO(Single Sign-On) 개요
 
@@ -25,8 +25,8 @@ Power BI는 다음과 같은 데이터 원본을 지원합니다.
 * SQL Server(Kerberos)
 * SAP HANA(Kerberos 및 SAML)
 * SAP BW 애플리케이션 서버(Kerberos)
-* SAP BW 메시지 서버(Kerberos) - 공개 미리 보기
-* Oracle(Kerberos) - 공개 미리 보기
+* SAP BW 메시지 서버(Kerberos) 
+* Oracle(Kerberos) 
 * Teradata(Kerberos)
 * Spark(Kerberos)
 * Impala(Kerberos)

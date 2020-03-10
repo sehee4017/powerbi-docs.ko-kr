@@ -6,15 +6,15 @@ ms.reviewer: lukasz
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/26/2019
+ms.date: 03/02/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d4be5aa246b6e58b9a6234f30754e16a39341abe
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.openlocfilehash: 72694ea771950b4a12427e0a0696e221fbe993bf
+ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76160584"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78237848"
 ---
 # <a name="manage-your-workspace-in-power-bi-and-office-365"></a>Power BI 및 Office 365에서 작업 영역 관리
 
@@ -27,7 +27,7 @@ Office 365 또는 [Power BI의 작업 영역](service-create-distribute-apps.md)
 
 * 작업 영역 구성원을 관리자로 만드는 것을 포함하여 작업 영역 구성원 추가 또는 제거
 * 작업 영역 이름 편집
-* 작업 영역 삭제
+* 작업 영역을 삭제합니다. 그러면 Office 365 그룹도 삭제됩니다.
 
 **Office 365**에서 다음을 수행할 수 있습니다.
 
@@ -86,4 +86,4 @@ Office 365용 Outlook에서 직접 작업 영역의 기능을 편집할 수도 �
 
 * [Power BI에 앱 게시](service-create-distribute-apps.md)
 
-* 추가 질문이 있으신가요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

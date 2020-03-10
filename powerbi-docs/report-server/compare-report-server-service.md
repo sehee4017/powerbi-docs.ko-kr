@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 02/13/2020
-ms.openlocfilehash: c760450319f5ca32856520bce9c9f9b67a8616d6
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.date: 03/04/2020
+ms.openlocfilehash: a48f9c5938c93376cc5dcdbe3491ee2a7e6813c0
+ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427763"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78290662"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Report Server 및 Power BI 서비스 비교
 
@@ -24,11 +24,11 @@ Power BI Report Server 및 Power BI 서비스에는 많은 유사성과 일부 �
 
 | 기능 | Power BI Report Server | Power BI 서비스 | 참고 |
 |---------|---------|---------|---------|
-| 배포 | 온-프레미스 또는 호스트 클라우드 | 클라우드 | Power BI Premium을 통해 라이선스가 부여된 경우 Azure VM(호스트 클라우드)에 Power BI Report Server를 배포할 수 있습니다. |
+| 배포 | 온-프레미스 또는 호스트 클라우드 | 클라우드 | Power BI Premium 또는 SQL Server Enterprise(Software Assurance 포함)를 통해 라이선스를 취득한 경우 Power BI Report Server를 Azure VM(호스팅된 클라우드)에 배포할 수 있습니다.|
 | 원본 데이터 | 클라우드 및/또는 온-프레미스 | 클라우드 및/또는 온-프레미스 |  |
 | 라이선스 | Power BI Premium 또는 SQL Server EE(SA(Software Assurance) 포함) | Power BI Pro 및/또는 Power BI Premium | |  
 | 수명 주기 | 최신 수명 주기 정책 | 완전히 관리되는 서비스 |  |
-| 릴리스 주기 | 1년에 세 번(1월, 5월, 9월) | 1개월에 한 번 | 최신 기능 및 수정은 Power BI 서비스에 대해 먼저 제공됩니다. 대부분의 핵심 기능은 다음 몇 가지 릴리스에서 Power BI Report Server에 대해 제공되고, 일부 기능은 Power BI 서비스에만 적용됩니다. |
+| 릴리스 주기 | 1년에 세 번(1월, 5월, 9월) | 1개월에 한 번 | 최신 기능 및 수정은 Power BI 서비스에 대해 먼저 제공됩니다. 서비스에 대한 Power BI Desktop 릴리스의 기능 롤업은 각 릴리스에서 Power BI Report Server에 제공되고, 대부분의 다른 기능은 Power BI 서비스에만 사용할 수 있습니다. |
 | Power BI Desktop에서 Power BI 보고서 만들기 | 예 | 예 |  |
 | 브라우저에서 Power BI 보고서 만들기 | 아니요 | 예 |  |
 | Power BI 공유 데이터 세트 호스트 및 연결 | 아니요 | 예 | [작업 영역의 데이터 세트 소개](../service-datasets-across-workspaces.md) |

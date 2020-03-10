@@ -8,13 +8,13 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 02/17/2020
-ms.openlocfilehash: 52a99380f8e1afc39ddfc59a401418e61fe6ad58
-ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
+ms.date: 03/01/2020
+ms.openlocfilehash: 8aea9041665de69b2c5be954dc8f13a6402a06e0
+ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "77782424"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "78260764"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Power BI 시각적 개체 인증받기
 
@@ -56,10 +56,14 @@ Power BI 시각적 리포지토리가 어떻게 보이는지 이해하려면 [Po
 최신 버전의 API를 사용하여 Power BI 시각적 개체를 작성합니다.
 
 리포지토리에는 다음 파일이 포함되어야 합니다.
-* **.gitignore** - 이 파일에 `node_modules`를 추가합니다. 코드에는 *node_modules* 폴더가 포함될 수 없습니다.
+* **.gitignore** - 이 파일에 `node_modules`, `.tmp`, `dist`를 추가합니다. 코드에는 *node_modules*, *.tmp* 또는 *dist* 폴더가 포함될 수 없습니다.
 * **capabilities.json** - 이 파일의 속성이 변경된 새 버전의 Power BI 시각적 개체를 제출하는 경우, 기존 사용자의 보고서를 중단하지 않는지 확인합니다.
-* **pbiviz.json**
-* **package.json**
+* **pbiviz.json** 
+* **package.json**. 시각적 개체에는 다음 패키지가 설치되어 있어야 합니다.
+   * ["tslint"](https://www.npmjs.com/package/tslint): "5.18.0" 이상
+   * ["typescript"](https://www.npmjs.com/package/typescript): "3.0.0" 이상
+   * ["tslint-microsoftcontrib"](https://www.npmjs.com/package/tslint-microsoft-contrib): "6.2.0" 이상
+   * 이 파일에는 Linter 실행 명령 "lint": "tslint -c tslint.json -p tsconfig.json"이 포함되어야 합니다.
 * **package-lock.json**
 * **tsconfig.json**
 
@@ -70,7 +74,7 @@ Power BI 시각적 리포지토리가 어떻게 보이는지 이해하려면 [Po
 * `npm install`
 * `pbiviz package`
 * `npm audit` - 높음 또는 보통 수준의 경고를 반환하지 않아야 합니다.
-* 구성 재정의 없는 [Microsoft의 TSlint](https://www.npmjs.com/package/tslint-microsoft-contrib). 이 명령이 lint 오류를 반환하지 않아야 합니다.
+* [필요한 구성](https://github.com/microsoft/PowerBI-visuals-sampleBarChart/blob/master/tslint.json)을 포함하는 [Microsoft의 TSlint](https://www.npmjs.com/package/tslint-microsoft-contrib). 이 명령이 lint 오류를 반환하지 않아야 합니다.
 
 ### <a name="compiling-requirements"></a>컴파일 요구 사항
 
