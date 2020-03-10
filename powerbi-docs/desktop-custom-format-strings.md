@@ -1,5 +1,5 @@
 ---
-title: Power BI Desktop에서 사용자 지정 형식 문자열 사용
+title: Power BI Desktop에서 사용자 지정 서식 문자열 사용
 description: Power BI Desktop에서 형식 문자열을 사용자 지정하는 방법 알아보기
 author: davidiseminger
 ms.reviewer: ''
@@ -16,25 +16,25 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 02/04/2020
 ms.locfileid: "74791585"
 ---
-# <a name="use-custom-format-strings-in-power-bi-desktop"></a>Power BI Desktop에서 사용자 지정 형식 문자열 사용
+# <a name="use-custom-format-strings-in-power-bi-desktop"></a>Power BI Desktop에서 사용자 지정 서식 문자열 사용
 
-**Power BI Desktop**에서 사용자 지정 형식 문자열을 사용하여 시각적 개체에서 필드가 표시되는 방식을 사용자 지정하고 보고서가 원하는 모양으로 표시되도록 할 수 있습니다.
+**Power BI Desktop**에서 사용자 지정 서식 문자열을 사용하여 시각적 개체에서 필드가 표시되는 방식을 사용자 지정하고 보고서가 원하는 모양으로 표시되도록 할 수 있습니다.
 
-![사용자 지정 형식 문자열 사용](media/desktop-custom-format-strings/custom-format-strings-01.png)
+![사용자 지정 서식 문자열 사용](media/desktop-custom-format-strings/custom-format-strings-01.png)
 
 
-## <a name="how-to-use-custom-format-strings"></a>사용자 지정 형식 문자열을 사용하는 방법
+## <a name="how-to-use-custom-format-strings"></a>사용자 지정 서식 문자열을 사용하는 방법
 
-사용자 지정 형식 문자열을 만들려면 **모델링** 보기에서 필드를 선택한 다음, **속성** 창에서 **형식**을 선택합니다.
+사용자 지정 서식 문자열을 만들려면 **모델링** 보기에서 필드를 선택한 다음, **속성** 창에서 **서식**을 선택합니다.
 
 ![형식 드롭다운에서 사용자 지정](media/desktop-custom-format-strings/custom-format-strings-02.png)
 
-**형식** 드롭다운에서 **사용자 지정**을 선택하면 일반적으로 사용되는 형식 문자열 목록 중에서 선택할 수 있습니다. 
+**서식** 드롭다운에서 **사용자 지정**을 선택하면 일반적으로 사용되는 서식 문자열 목록 중에서 선택할 수 있습니다. 
 
-![사용자 지정 형식 문자열 사용](media/desktop-custom-format-strings/custom-format-strings-03.png)
+![사용자 지정 서식 문자열 사용](media/desktop-custom-format-strings/custom-format-strings-03.png)
 
 
-## <a name="supported-custom-format-syntax"></a>지원되는 사용자 지정 형식 구문
+## <a name="supported-custom-format-syntax"></a>지원되는 사용자 지정 서식 구문
 
 사용자 지정 형식 문자열은 Excel 및 기타 Microsoft 제품에 공통적으로 적용되는 VBA 스타일 구문을 따르지만, 다른 제품에서 사용되는 구문을 모두 지원하지는 않습니다. 
 
