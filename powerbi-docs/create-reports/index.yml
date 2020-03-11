@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 02/25/2020
-  ms.openlocfilehash: 592a7bff1f511158de929ce0a225f26558a1997b
-  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.openlocfilehash: 302fc836908754d2410d21fea48d99996ae5cd8a
+  ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 03/07/2020
-  ms.locfileid: "78924187"
+  ms.lasthandoff: 03/10/2020
+  ms.locfileid: "79041404"
 landingContent:
 - title: 시작
   linkLists:
@@ -116,6 +116,6 @@ landingContent:
     - text: 대시보드 만들기
       url: ../service-dashboard-create.md
     - text: 대시보드에 타일 고정
-      url: ../service-share-dashboards.md
+      url: ../service-dashboard-pin-tile-from-report.md
     - text: 대시보드에 이미지 또는 비디오 추가
       url: ../service-dashboard-add-widget.md
