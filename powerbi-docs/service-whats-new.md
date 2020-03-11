@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 06e46413be709ac3eda2102332740d709092187e
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 32f0c03fc0ae586b8b98c7a4c84c9d4c7bbd9078
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74265353"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920955"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 서비스의 새로운 기능
 **Power BI 서비스**의 알려진 문제 및 최근에 릴리스된 기능에 대해서는 이 페이지를 확인하세요. 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -41,11 +41,11 @@ ms.locfileid: "74265353"
 * Power BI Premium의 새 용량 설정
 * 조직의 [사용자 지정 브랜딩](https://powerbi.microsoft.com/blog/announcing-custom-branding-for-your-organization/)
 * 빌드 권한을 사용한 요약된 데이터 내보내기
-* [페이지를 매긴 보고서](paginated-reports-report-builder-power-bi.md)의 URL 매개 변수 지원
+* [페이지를 매긴 보고서](paginated-reports/paginated-reports-report-builder-power-bi.md)의 URL 매개 변수 지원
 * 월별 메일 구독 지원 
 
 ### <a name="july-2019"></a>2019년 7월
-* [페이지를 매긴 보고서](paginated-reports-report-builder-power-bi.md)의 비프리미엄 데이터 세트 지원
+* [페이지를 매긴 보고서](paginated-reports/paginated-reports-report-builder-power-bi.md)의 비프리미엄 데이터 세트 지원
 * Power BI [집계](desktop-aggregations.md) 일반 공급
 * 다른 사람에게 새로 고침 알림 보내기
 * Power BI Premium 용량의 [테스트 도구](https://powerbi.microsoft.com/blog/power-bi-premium-know-what-your-premium-capacity-can-handle/)
@@ -57,7 +57,7 @@ ms.locfileid: "74265353"
 * [공유 및 인증된 데이터 세트](service-datasets-across-workspaces.md) 공개 미리 보기
 * [프리미엄 용량 메트릭 앱](service-admin-premium-monitor-capacity.md)에서 AI 메트릭 사용 가능
 * Power BI [템플릿 앱](service-template-apps-overview.md) 일반 공급
-* Power BI의 [페이지를 매긴 보고서](paginated-reports-report-builder-power-bi.md) 일반 공급
+* Power BI의 [페이지를 매긴 보고서](paginated-reports/paginated-reports-report-builder-power-bi.md) 일반 공급
 * Power BI Premium의 [BYOK](service-encryption-byok.md)(Bring Your Own Key) 공개 미리 보기
 * [새 작업 영역 환경](service-new-workspaces.md)의 뷰어 역할
 
@@ -71,7 +71,7 @@ ms.locfileid: "74265353"
 * 새 작업 영역 환경의 일반 공급입니다.
 * 프랑스 및 대한민국의 새 Power BI 지역.
 * 업데이트된 질문 및 답변 대시보드 환경.
-* [페이지를 매긴 보고서](paginated-reports-report-builder-power-bi.md) 내에서 Azure Analysis Services 지원.
+* [페이지를 매긴 보고서](paginated-reports/paginated-reports-report-builder-power-bi.md) 내에서 Azure Analysis Services 지원.
 * Power BI 앱에서 지원되는 페이지를 매긴 보고서.
 * 페이지를 매긴 보고서용 PDF 첨부 파일이 포함된 [이메일 구독](https://powerbi.microsoft.com/blog/e-mail-subscriptions-for-paginated-reports-is-now-available/).
 * 관리 포털에서 지원되는 Power BI Premium 요약 및 워크로드 메트릭
@@ -108,7 +108,7 @@ ms.locfileid: "74265353"
 
 ### <a name="november-2018"></a>2018년 11월
 * [데이터 흐름](service-dataflows-overview.md) 공개 미리 보기로 사용 가능한 Power BI 데이터 준비.
-* Power BI Premium의 [페이지를 매긴 보고서](paginated-reports-report-builder-power-bi.md) 공개 미리 보기.
+* Power BI Premium의 [페이지를 매긴 보고서](paginated-reports/paginated-reports-report-builder-power-bi.md) 공개 미리 보기.
 * [용량 모니터링 앱](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)의 메모리에 있는 데이터 세트의 데이터 크기 및 수.
 
 ### <a name="october-2018"></a>2018년 10월

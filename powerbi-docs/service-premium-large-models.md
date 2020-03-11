@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/03/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 2c984abaec40028fb01affa8ff7bf0bf87cdd616
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.openlocfilehash: 007ff786fcee5d2a7b7237ad578a202cfcf25b69
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "78260879"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78401943"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Power BI Premium의 대형 모델(미리 보기)
 
@@ -123,7 +123,7 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 
 ## <a name="availability-in-regions"></a>지역에서의 가용성
 
-Power BI의 대형 모델은 [Azure Premium Files Storage](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers)를 지원하는 일부 Azure 지역에서만 사용할 수 있습니다.
+Power BI의 대형 모델은 [Azure Premium Files Storage](https://docs.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers)를 지원하는 일부 Azure 지역에서만 사용할 수 있습니다.
 
 다음 목록에는 Power BI의 대형 모델을 사용할 수 있는 지역이 나와 있습니다. 다음 목록에 없는 지역에서는 대형 모델이 지원되지 않습니다.
 
@@ -156,7 +156,7 @@ Power BI의 대형 모델은 [Azure Premium Files Storage](https://docs.microsof
 
 다음 링크는 대형 모델 작업 시 유용할 수 있는 정보를 제공합니다.
 
-* [Azure Premium Files Storage](https://docs.microsoft.com/azure/storage/files/storage-files-planning#file-share-performance-tiers)
+* [Azure Premium Files Storage](https://docs.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers)
 * [Power BI Premium에 대한 다중 지역 지원 구성](service-admin-premium-multi-geo.md)
 * [Power BI의 BYOK(Bring Your Own Encryption Key)](service-encryption-byok.md)
 * [용량 함수 작동 방법](service-premium-what-is.md#how-capacities-function)

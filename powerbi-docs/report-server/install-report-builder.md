@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/07/2020
-ms.openlocfilehash: 1cf8797939eafb69734ecd0f4be752926d1994a1
-ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+ms.openlocfilehash: a18e0a094c5bc42f7a77a045ac7b552e458e5628
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75953925"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78919838"
 ---
 # <a name="install-report-builder---power-bi-report-server"></a>보고서 작성기 설치 - Power BI Report Server
 
 보고서 작성기는 사용자 또는 관리자가 해당 컴퓨터에 설치하는 독립 실행형 앱입니다. Microsoft 다운로드 센터 또는 Power BI Report Server에서 설치할 수 있습니다.  
 
-Power BI 서비스용 보고서 작성기를 설치하는 데 도움이 필요한가요? [Power BI 보고서 작성기](../report-builder-power-bi.md)를 참조하세요.
+Power BI 서비스용 보고서 작성기를 설치하는 데 도움이 필요한가요? [Power BI 보고서 작성기](../paginated-reports/report-builder-power-bi.md)를 참조하세요.
   
 일반적으로 관리자는 Power BI Report Server를 설치 및 구성하고, 웹 포털에서 보고서 작성기를 다운로드할 권한을 부여하며 보고서 서버에 저장된 보고서 및 공유 데이터 세트에 대한 폴더와 사용 권한을 관리합니다. Power BI Report Server 관리에 대한 자세한 내용은 [관리 개요, Power BI Report Server](admin-handbook-overview.md)를 참조하세요.  
   

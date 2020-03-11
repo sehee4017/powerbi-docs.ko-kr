@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: f4da9179ef140fd254939a4121e91dd032269c98
-ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
+ms.openlocfilehash: 019a3af81cd3661307fd9de6d0577ac58a11ae6a
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "76913597"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78919785"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>보안 포털 또는 웹 사이트에 보고서 포함
 
@@ -119,7 +119,7 @@ report.src = newUrl;
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 
-* 페이지를 매긴 보고서는 보안 포함 시나리오로 지원되며 URL 매개 변수를 사용하여 페이지를 매긴 보고서도 지원됩니다. [페이지를 매긴 보고서의 URL에서 보고서 매개 변수를 전달하는 방법](report-builder-url-pass-parameters.md)에 대해 자세히 알아보세요.
+* 페이지를 매긴 보고서는 보안 포함 시나리오로 지원되며 URL 매개 변수를 사용하여 페이지를 매긴 보고서도 지원됩니다. [페이지를 매긴 보고서의 URL에서 보고서 매개 변수를 전달하는 방법](paginated-reports/report-builder-url-pass-parameters.md)에 대해 자세히 알아보세요.
 
 * Azure B2B(Business to Business)를 사용한 외부 게스트 사용자를 지원하지 않습니다.
 

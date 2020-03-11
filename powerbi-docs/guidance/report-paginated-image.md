@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 09fd2197cca31e083c0242b187d7e242244235eb
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: d2f3f36911c72df1b95ceb5bd90043870559cc62
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77530375"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920721"
 ---
 # <a name="image-use-guidance-for-paginated-reports"></a>페이지를 매긴 보고서의 이미지 사용 지침
 
-이 문서에서는 독자가 Power BI [페이지를 매긴 보고서](../paginated-reports-report-builder-power-bi.md)를 디자인하는 보고서 작성자라고 가정하고, 이미지를 사용할 경우 제안 사항을 제공합니다. 일반적으로 보고서 레이아웃의 이미지는 회사 로고나 그림 같은 그래픽을 표시할 수 있습니다.
+이 문서에서는 독자가 Power BI [페이지를 매긴 보고서](../paginated-reports/paginated-reports-report-builder-power-bi.md)를 디자인하는 보고서 작성자라고 가정하고, 이미지를 사용할 경우 제안 사항을 제공합니다. 일반적으로 보고서 레이아웃의 이미지는 회사 로고나 그림 같은 그래픽을 표시할 수 있습니다.
 
 이미지는 다음 세 위치에 저장할 수 있습니다.
 
@@ -53,6 +53,6 @@ ms.locfileid: "77530375"
 
 이 문서와 관련된 보다 자세한 내용을 알아보려면 다음 리소스를 참조하세요.
 
-- [Power BI Premium에서 페이지를 매긴 보고서란?](../paginated-reports-report-builder-power-bi.md)
+- [Power BI Premium에서 페이지를 매긴 보고서란?](../paginated-reports/paginated-reports-report-builder-power-bi.md)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 - 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com/)

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.openlocfilehash: f9ed7f47c0f36e540d22270048e93acd2d3a8e21
-ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+ms.openlocfilehash: 09471cdacacc8d0b1067598cefac41915b0ef0d7
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75953779"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920919"
 ---
 # <a name="implementing-row-level-security-in-embedded-paginated-reports-preview"></a>포함된 페이지를 매긴 보고서에서 행 수준 보안 구현(미리 보기)
 
@@ -26,13 +26,13 @@ ms.locfileid: "75953779"
 
 ## <a name="configuring-a-parameter-to-filter-the-dataset"></a>매개 변수를 구성하여 데이터 세트 필터링
 
-페이지를 매긴 Power BI 보고서에 행 수준 보안을 적용하는 경우 **UserID** 특성에 [매개 변수](../report-builder-parameters.md)를 할당해야 합니다. 이 매개 변수는 보고서가 포함되기 전에 데이터 세트에서 가져온 데이터를 제한합니다.
+페이지를 매긴 Power BI 보고서에 행 수준 보안을 적용하는 경우 **UserID** 특성에 [매개 변수](../paginated-reports/report-builder-parameters.md)를 할당해야 합니다. 이 매개 변수는 보고서가 포함되기 전에 데이터 세트에서 가져온 데이터를 제한합니다.
 
 **UserID**에 매개 변수를 할당한 후 [보고서 GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup) API를 사용하여 포함 토큰을 가져옵니다.
 
 ## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>보고서 또는 쿼리 수준에서 필터로 UserID 사용
 
-[Power BI 보고서 작성기](../report-builder-power-bi.md)에서 **UserId**를 *필터*로 사용하거나 데이터 원본에 대한 *쿼리*에 사용할 수 있습니다.
+[Power BI 보고서 작성기](../paginated-reports/report-builder-power-bi.md)에서 **UserId**를 *필터*로 사용하거나 데이터 원본에 대한 *쿼리*에 사용할 수 있습니다.
 
 ### <a name="using-the-filter"></a>필터 사용
 

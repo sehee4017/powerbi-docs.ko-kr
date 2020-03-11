@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 1da75b14f628c8c765ea89a34dd2a2665cdf9a4b
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: 1e69c7eefe25da771ecc4d9602d6a21081f2c052
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77530444"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920768"
 ---
 # <a name="data-retrieval-guidance-for-paginated-reports"></a>페이지를 매긴 보고서의 데이터 검색 지침
 
-이 문서에서는 독자가 Power BI [페이지를 매긴 보고서](../paginated-reports-report-builder-power-bi.md)를 디자인하는 보고서 작성자라고 가정하고, 효과적이고 효율적인 데이터 검색을 디자인하는 데 도움이 되는 권장 사항을 제공합니다.
+이 문서에서는 독자가 Power BI [페이지를 매긴 보고서](../paginated-reports/paginated-reports-report-builder-power-bi.md)를 디자인하는 보고서 작성자라고 가정하고, 효과적이고 효율적인 데이터 검색을 디자인하는 데 도움이 되는 권장 사항을 제공합니다.
 
 ## <a name="data-source-types"></a>데이터 원본 유형
 
@@ -101,13 +101,13 @@ MDX 쿼리 디자이너를 사용하려면 모델에 측정값을 포함해야 �
 
 ## <a name="non-native-data-sources"></a>기본이 아닌 데이터 원본
 
-[페이지를 매긴 보고서에서 기본적으로 지원](../paginated-reports-data-sources.md)되지 않는 데이터 원본을 기반으로 페이지를 매긴 보고서를 개발해야 하는 경우에는 먼저 Power BI Desktop 데이터 모델을 개발할 수 있습니다. 이렇게 하면 100개가 넘는 [Power BI 데이터 원본](../power-bi-data-sources.md)에 연결할 수 있습니다. Power BI 서비스에 게시된 후 Power BI 데이터 세트에 연결하는 페이지를 매긴 보고서를 개발할 수 있습니다.
+[페이지를 매긴 보고서에서 기본적으로 지원](../paginated-reports/paginated-reports-data-sources.md)되지 않는 데이터 원본을 기반으로 페이지를 매긴 보고서를 개발해야 하는 경우에는 먼저 Power BI Desktop 데이터 모델을 개발할 수 있습니다. 이렇게 하면 100개가 넘는 [Power BI 데이터 원본](../power-bi-data-sources.md)에 연결할 수 있습니다. Power BI 서비스에 게시된 후 Power BI 데이터 세트에 연결하는 페이지를 매긴 보고서를 개발할 수 있습니다.
 
 ## <a name="data-integration"></a>데이터 통합
 
 여러 데이터 원본의 데이터를 결합해야 하는 경우 다음 두 가지 옵션을 사용할 수 있습니다.
 
-- **보고서 데이터 세트 결합**: 데이터 원본이 [페이지를 매긴 보고서에서 기본적으로 지원](../paginated-reports-data-sources.md)되는 경우 [Lookup](/sql/reporting-services/report-design/report-builder-functions-lookup-function) 또는 [LookupSet](/sql/reporting-services/report-design/report-builder-functions-lookupset-function) 보고서 작성기 함수를 사용하는 계산 필드를 만드는 것이 좋을 수 있습니다.
+- **보고서 데이터 세트 결합**: 데이터 원본이 [페이지를 매긴 보고서에서 기본적으로 지원](../paginated-reports/paginated-reports-data-sources.md)되는 경우 [Lookup](/sql/reporting-services/report-design/report-builder-functions-lookup-function) 또는 [LookupSet](/sql/reporting-services/report-design/report-builder-functions-lookupset-function) 보고서 작성기 함수를 사용하는 계산 필드를 만드는 것이 좋을 수 있습니다.
 - **Power BI Desktop 모델 개발**: 그러나 Power BI Desktop에서 데이터 모델을 개발하는 것이 더 효율적일 수 있습니다. 파워 쿼리를 사용하여 [지원되는 데이터 원본](../power-bi-data-sources.md)을 기반으로 쿼리를 결합할 수 있습니다. Power BI 서비스에 게시된 후 Power BI 데이터 세트에 연결하는 페이지를 매긴 보고서를 개발할 수 있습니다.
 
 ## <a name="sql-server-complex-data-types"></a>SQL Server 복합 데이터 형식
@@ -143,6 +143,6 @@ SQL Server가 온-프레미스 데이터 원본이므로 Power BI는 게이트�
 
 이 문서와 관련된 보다 자세한 내용을 알아보려면 다음 리소스를 참조하세요.
 
-- [Power BI 페이지를 매긴 보고서의 지원되는 데이터 원본](../paginated-reports-data-sources.md)
+- [Power BI 페이지를 매긴 보고서의 지원되는 데이터 원본](../paginated-reports/paginated-reports-data-sources.md)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 - 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com/)

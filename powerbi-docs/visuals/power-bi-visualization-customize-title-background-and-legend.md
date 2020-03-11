@@ -7,15 +7,15 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/04/2019
+ms.date: 03/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1e2465273368c6b76e602e5ffbdf4ec3a1d121a3
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 7ff02eb07d4b052892cc80ab4710223d8d302a9f
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75757834"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78893441"
 ---
 # <a name="customize-visualization-titles-backgrounds-and-legends"></a>시각화 제목, 배경 및 범례 사용자 지정
 
@@ -56,8 +56,8 @@ ms.locfileid: "75757834"
 1. **글꼴 색**을 흰색으로 변경하고 **배경색**을 파란색으로 변경합니다.    
 
     a. 드롭다운을 선택하고 **테마 색**, **최근에 사용한 색**또는 **사용자 지정 색**에서 색을 선택합니다.
-
-        ![Screenshot of the Font color and Background color options.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-color.png)
+    
+    ![글꼴 색 및 배경색 옵션의 스크린샷](media/power-bi-visualization-customize-title-background-and-legend/power-bi-color.png)
 
     b. 색 창을 닫으려면 드롭다운을 선택합니다.
 
@@ -133,7 +133,7 @@ ms.locfileid: "75757834"
 
 다음은 각 항목에 사용할 수 있는 시각화 및 사용자 지정 옵션의 목록입니다.
 
-| 시각화 | 제목 | 배경 | 범례 |
+| 시각화 | title | 배경 | 범례 |
 |:--- |:--- |:--- |:--- |
 | 영역 | 예 | 예 |예 |
 | 막대형 | 예 | 예 |예 |

@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 4b3158cbe26efe05e3d35c1c6c93027738cc817a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 649f4d002c9adbfa882c4ee4320f040f490fd116
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871482"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041726"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Power BI에서 템플릿 앱 만들기
 
@@ -58,7 +58,7 @@ Power BI 테넌트 관리자는 조직에서 템플릿 앱을 만들 수 있는 
 
 일반 Power BI 작업 영역과 마찬가지로, 다음 단계는 작업 영역에 콘텐츠를 만드는 것입니다.  
 
-- 작업 영역에서 [Power BI 콘텐츠를 만듭니다](power-bi-creator-landing.md).
+- 작업 영역에서 [Power BI 콘텐츠를 만듭니다](index.yml).
 
 파워 쿼리에서 매개 변수를 사용하는 경우, 매개 변수가 잘 정의된 형식(예: 텍스트)인지 확인합니다. Any 및 Binary 형식은 지원되지 않습니다.
 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: troubleshooting
-ms.date: 05/08/2019
+ms.date: 03/05/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: bfe0e217edc65c3edb5d78d9399ef2b9b376e286
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 50cb15e95f051dd6860112243514464dd80a8b1e
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "73879554"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78401181"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>Power BI Desktop에서 로그인 문제 해결
 **Power BI Desktop**에 로그인하려고 하는데 오류가 발생하는 경우가 있습니다. 로그인 문제의 두 가지 기본 원인은 다음과 같습니다. **프록시 인증 오류** 및 **HTTPS 이외의 URL 리디렉션 오류**. 

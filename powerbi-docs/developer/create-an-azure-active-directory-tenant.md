@@ -8,20 +8,20 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/28/2019
-ms.openlocfilehash: bdad4a068a5463bd683bc0dbfd20e68873599ace
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: c1944f80616b748d1120d28b1ba91e1f0f2ab6e8
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265127"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041450"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Power BI에서 사용할 Azure Active Directory 테넌트 만들기
 
-[Power BI REST API](rest-api-reference.md)를 호출하는 사용자 지정 애플리케이션에 대한 새 Azure AD(Azure Active Directory) 테넌트를 만드는 방법을 알아봅니다.
+[Power BI REST API](automation/rest-api-reference.md)를 호출하는 사용자 지정 애플리케이션에 대한 새 Azure AD(Azure Active Directory) 테넌트를 만드는 방법을 알아봅니다.
 
 테넌트는 Azure Active Directory에 조직을 표시합니다. 이것은 조직이 Azure, Microsoft Intune 또는 Office 365와 같은 Microsoft 클라우드 서비스에 가입할 때 수신하고 소유하는 전용 Azure AD 서비스 인스턴스입니다. 각 Azure AD 테넌트는 고유하며 다른 Azure AD 테넌트와 별개입니다.
 
-Azure AD 테넌트가 있다면 애플리케이션을 정의하고 [Power BI REST API](rest-api-reference.md)를 호출할 수 있도록 사용 권한을 할당할 수 있습니다.
+Azure AD 테넌트가 있다면 애플리케이션을 정의하고 [Power BI REST API](automation/rest-api-reference.md)를 호출할 수 있도록 사용 권한을 할당할 수 있습니다.
 
 조직에는 애플리케이션에 사용할 수 있는 Azure AD 테넌트가 이미 있을 수 있습니다. 또한 애플리케이션 전용 새 테넌트를 만들 수도 있습니다. 이 문서에서는 새 테넌트를 만드는 방법을 설명합니다.
 

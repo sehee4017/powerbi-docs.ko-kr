@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/16/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4e42a00c516cf9cd24c307c8f953a6cc7f840314
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: f4e7d1aa580f7ad95da103fc2cb1e7e069a80ee6
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539786"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "78946849"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>시각화를 생성하는 데 사용된 데이터 내보내기
 
@@ -166,7 +166,7 @@ Power BI 관리자와 디자이너가 독점 데이터를 보호하기 위해 �
 
 - 데이터 세트 소유자는 RLS(행 수준 보안)를 설정할 수 있습니다. RLS는 읽기 전용 사용자에 대한 액세스를 제한합니다. 그러나 앱 작업 영역을 구성하고 멤버에게 편집 권한을 지정한 경우에는 RLS 역할이 적용되지 않습니다. 자세한 내용은 [행 수준 보안](../service-admin-rls.md)을 참조하세요.
 
-- 보고서 디자이너는 **필드** 목록에 표시되지 않도록 열을 숨길 수 있습니다. 자세한 내용은 [데이터 세트 속성](../developer/api-dataset-properties.md)을 참조하세요.
+- 보고서 디자이너는 **필드** 목록에 표시되지 않도록 열을 숨길 수 있습니다. 자세한 내용은 [데이터 세트 속성](../developer/automation/api-dataset-properties.md)을 참조하세요.
 
 - Power BI 관리자는 대시보드, 보고서, 데이터 세트 및 데이터 흐름에 [민감도 레이블](../admin/service-security-data-protection-overview.md)을 추가할 수 있습니다. 그런 다음 데이터를 내보낼 때 암호화 또는 워터마크와 같은 보호 설정을 적용할 수 있습니다. 
 

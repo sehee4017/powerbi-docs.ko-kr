@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 ms.date: 03/04/2020
-ms.openlocfilehash: a48f9c5938c93376cc5dcdbe3491ee2a7e6813c0
-ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
+ms.openlocfilehash: 4c48b9c2695c7feab5897527c9ff2fbf2a2d0455
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78290662"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78920935"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Report Server 및 Power BI 서비스 비교
 
@@ -41,7 +41,7 @@ Power BI Report Server 및 Power BI 서비스에는 많은 유사성과 일부 �
 | 질문 및 답변 | 아니요 | 예 | [Power BI 서비스 및 Power BI Desktop의 질문 및 답변](../power-bi-tutorial-q-and-a.md) 
 | 신속한 정보 활용 | 아니요 | 예 | [Power BI를 사용하여 데이터 인사이트를 자동으로 생성](../consumer/end-user-insights.md) |
 | Excel에서 분석 | 아니요 | 예 | [Excel에서 분석](../service-analyze-in-excel.md) 
-| 페이지를 매긴 보고서 | 예 | 예 | 프리미엄 용량에서 [Power BI 서비스에서 페이지를 매긴 보고서를 미리 보기로 사용할 수 있음](../paginated-reports-report-builder-power-bi.md) |
+| 페이지를 매긴 보고서 | 예 | 예 | 프리미엄 용량에서 [Power BI 서비스에서 페이지를 매긴 보고서를 미리 보기로 사용할 수 있음](../paginated-reports/paginated-reports-report-builder-power-bi.md) |
 | Power BI 모바일 앱 | 예 | 예 | [Power BI 모바일 앱 개요](../consumer/mobile/mobile-apps-for-mobile-devices.md) |
 | ARC GIS 지도 | 아니요 | 예 | [Power BI 서비스 및 Power BI Desktop에서 Esri로 ArcGIS 지도 만들기](../visuals/power-bi-visualization-arcgis.md) |
 | Power BI 보고서에 대한 메일 구독 | 아니요 | 예 | Power BI 서비스의 보고서 또는 대시보드에 [자신이나 다른 사용자 구독](../service-report-subscribe.md) |
