@@ -31,6 +31,8 @@
               href: ../service-create-distribute-apps.md
             - name: 작업 영역에서 데이터 스토리지 관리
               href: ../service-admin-manage-your-data-storage-in-power-bi.md
+            - name: 데이터 계보
+              href: service-data-lineage.md
             - name: 그룹의 OneDrive의 파일에 연결
               href: ../service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: 클래식 작업 영역에서 공동 작업

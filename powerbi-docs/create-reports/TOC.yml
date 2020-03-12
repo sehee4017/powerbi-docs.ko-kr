@@ -313,8 +313,6 @@
               href: ../desktop-accessibility-consuming-tools.md
             - name: Power BI Desktop의 바로 가기 키
               href: ../desktop-accessibility-keyboard-shortcuts.md
-        - name: 데이터 계보
-          href: ../service-data-lineage.md
         - name: 페이지를 매긴 보고서
           items:
             - name: 페이지를 매긴 보고서에 직접 데이터 입력
