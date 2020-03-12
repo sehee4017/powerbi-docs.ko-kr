@@ -19,7 +19,7 @@
     - name: 개념
       expanded: true
       items:
-        - name: 모델 관계 만들기
+        - name: 모델 관계 이해
           href: ../desktop-relationships-understand.md
         - name: 모델링 보기 작업
           href: ../desktop-modeling-view.md

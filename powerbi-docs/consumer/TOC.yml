@@ -66,6 +66,8 @@
               href: end-user-powerpoint.md
             - name: 보고서에 책갈피 추가
               href: end-user-bookmarks.md
+            - name: 보고서에 추천 추가
+              href: end-user-spotlight.md
             - name: Power BI의 페이지를 매긴 보고서
               items:
                 - name: 페이지를 매긴 보고서
@@ -116,6 +118,8 @@
               href: end-user-notification-center.md
         - name: 데이터 가져오기
           items:
+            - name: Power BI의 작업 영역
+              href: end-user-workspaces.md
             - name: Power BI의 앱
               href: end-user-apps.md
             - name: 앱 설치 및 사용
