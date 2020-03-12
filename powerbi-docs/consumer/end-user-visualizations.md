@@ -9,14 +9,16 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c182639e97bcaf272c656d2ee2e002e7470efc40
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: 1aaacfae3c9af4517f6b028852e46059884dd3d5
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888527"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113851"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>보고서, 대시보드 및 앱에서 시각적 개체 조작
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 가장 기본적으로 ***시각화***(또는 ‘시각적 개체’)는 보고서 및 데이터 세트의 데이터를 사용하여 Power BI ‘디자이너’에 의해 빌드된 차트 유형입니다.   
 

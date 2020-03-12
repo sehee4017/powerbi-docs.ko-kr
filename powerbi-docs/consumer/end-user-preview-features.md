@@ -7,17 +7,20 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/17/2020
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: ad7e2133d531abcbb2165dc2be9846a6a70f4fc0
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 1ce2445e0b2d92551a5554f32dc3b9e2a751e7b6
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537432"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113538"
 ---
 # <a name="opt-in-for-power-bi-service-preview-features"></a>Power BI 서비스 미리 보기 기능에 옵트인
+
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
+
 ## <a name="what-are-preview-features"></a>*미리 보기 기능* 이란?
 Power BI 서비스를 개선하면서 *미리 보기 기능*으로 몇 가지 새로운 기능을 출시할 예정입니다. 이제 미리 보기 기능을 설정하거나 해제할 수 있으므로 이를 시험해 볼 수 있습니다.
 

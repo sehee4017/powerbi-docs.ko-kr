@@ -1,19 +1,19 @@
 ---
 title: Power BI 모바일 앱에서 지원되는 언어
 description: Power BI 모바일 앱에서 지원되는 언어 목록을 참조하세요.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/16/2018
-ms.author: mshenhav
-ms.openlocfilehash: ac3ed868f23ff15441a30dd2425820d2cda0c920
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 4f135a411d69835e925cf97b418bda6ae80adc1a
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879142"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113189"
 ---
 # <a name="supported-languages-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 지원되는 언어
 Power BI 모바일 앱은 현재 다음과 같은 언어를 지원합니다.

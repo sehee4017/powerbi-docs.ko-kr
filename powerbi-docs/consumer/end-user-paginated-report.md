@@ -6,17 +6,20 @@ ms.reviewer: chris finlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/02/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a66189707bc6b688be012eeb59881ce4a8517ea1
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 0ab2ececd4ede03a10094be53a2c08617463cc53
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74830482"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113109"
 ---
 # <a name="paginated-reports-in-the-power-bi-service"></a>Power BI 서비스의 페이지를 매긴 보고서
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 지금까지 [Power BI 보고서](end-user-reports.md)에 대해 알아보았습니다. Power BI 보고서는 사용자가 가장 자주 사용하게 되는 유형의 보고서입니다. 이 외에도 *페이지를 매긴 보고서*라는 유형의 보고서가 있습니다. 보고서 *디자이너*가 프리미엄 용량 작업 영역에서 또는 이 작업 영역에 있는 앱에서 사용자에게 페이지를 매긴 보고서를 공유하는 경우가 있습니다. 
 
 ## <a name="what-is-a-paginated-report"></a>페이지를 매긴 보고서란?

@@ -1,19 +1,19 @@
 ---
 title: 디바이스 네이티브 ID를 사용하여 Power BI 데이터 보호
 description: Power BI 데이터에 액세스하기 전에 추가 식별이 필요하도록 iOS 앱을 구성하는 방법 알아보기
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/07/2019
-ms.author: mshenhav
-ms.openlocfilehash: a4ae7d7d61f4b377fe020fcc5f66f68ae7709ac7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 5b23fa4d238a9ef6128fba3fdab4f473890f94f1
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870151"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114852"
 ---
 # <a name="protect-power-bi-app-with-face-id-touch-id-or-passcode"></a>Face ID, Touch ID 또는 암호로 Power BI 앱 보호 
 
