@@ -129,6 +129,8 @@
               href: ../desktop-insights-find-where-different.md
             - name: 단추 만들기
               href: ../desktop-buttons.md
+            - name: 드릴스루 단추 만들기
+              href: ../desktop-drill-through-buttons.md
             - name: 책갈피를 만들어 인사이트를 저장 및 공유
               href: ../desktop-bookmarks.md
             - name: 보고서 테마 작업
