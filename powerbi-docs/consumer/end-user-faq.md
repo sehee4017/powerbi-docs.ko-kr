@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/03/2019
+ms.date: 02/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 282b10d48efc97c38dae06692964e3ba2a7412b0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9a59f8e230ecd8eec6338e92b7fb01e525831617
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73852524"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79039992"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI에 대한 질문과 대답
+
+[!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
 * 다른 질문이 있는 경우 [Power BI 커뮤니티에 질문합니다](https://community.powerbi.com/).
 * 여전히 문제가 있나요? [Power BI 지원 페이지](https://powerbi.microsoft.com/support/)를 방문하세요.
@@ -25,11 +27,18 @@ ms.locfileid: "73852524"
 
 Power BI 서비스는 모든 사용자가 데이터에 대한 폭넓은 이해를 바탕으로 더욱 신속하고 보다 효율적으로 데이터를 시각화하고 분석할 수 있는 클라우드 기반의 비즈니스 분석 서비스입니다. 또한 사용하기 쉬운 대시보드, 대화형 보고서, 데이터를 흥미롭게 표현하는 매력적인 시각화를 통해 광범위한 클라우드 기반 및 온-프레미스 데이터에 사용자를 연결합니다. [Power BI](../fundamentals/power-bi-overview.md)에 대해 자세히 알아봅니다.
 
+## <a name="what-is-the-microsoft-power-bi-service-for-consumers"></a>*소비자*용 Microsoft Power BI 서비스란?
+
+Power BI를 조작하는 방식은 작업 역할에 따라 다릅니다. 최종 사용자 또는 *소비자*는 동료로부터 콘텐츠(대시보드, 보고서 및 앱)을 받는 사람입니다. Power BI 서비스라고 하는 Power BI의 온라인 또는 모바일 버전에서 이 콘텐츠를 검토하고 상호 작용하면서 비즈니스 의사 결정을 내립니다.  [소비자용 Power BI](index.yml)에 대해 자세히 알아보세요.
+
+
 ## <a name="whats-the-difference-between-power-bi-pro-and-power-bi-premium"></a>Power BI Pro와 Power BI Premium의 차이점은 무엇인가요?
 
-Power BI Pro는 Power BI 서비스의 모든 콘텐츠 및 기능에 액세스할 수 있는 개별 라이선스입니다. 콘텐츠를 공유하고 다른 Pro 사용자와 협업할 수도 있습니다. Pro 사용자만 작업 영역에 콘텐츠를 게시하고, 대시보드를 공유하며, 대시보드 및 보고서를 구독할 수 있습니다.
+Power BI Pro는 Power BI 서비스의 모든 콘텐츠 및 기능에 액세스할 수 있는 개별 사용자 라이선스입니다. 콘텐츠를 공유하고 다른 Pro 사용자와 협업할 수도 있습니다. Pro 사용자만 작업 영역에 콘텐츠를 게시하고, 대시보드를 공유하며, 대시보드 및 보고서를 구독할 수 있습니다. 일반적으로 이 유형의 라이선스는 Power BI 보고서 *디자이너*, 개발자 및 관리자에게 할당됩니다. 
 
-Power BI Premium은 보다 일관된 성능을 제공할 수 있는 전용 용량을 제공합니다. Power BI에서 더 큰 데이터 볼륨도 지원합니다. 개별 사용자의 경우, 프리미엄을 통해 Pro 사용자별 콘텐츠를 광범위하게 배포할 수 있으며 콘텐츠를 보는 수신자에게 사용자별 라이선스를 요구하지 않습니다.
+Power BI Premium은 보다 일관된 성능을 제공할 수 있는 전용 용량을 제공합니다. Power BI에서 더 큰 데이터 볼륨도 지원합니다. 개별 사용자의 경우, Premium을 통해 Pro 사용자 단위 콘텐츠를 광범위하게 배포할 수 있으며 콘텐츠를 보는 수신자에게 Pro 사용자 단위 라이선스를 요구하지 않습니다. 즉, *소비자*는 동료와 공동으로 작업하고 공유된 대시보드, 보고서 및 앱을 보고, 상호 작용할 수 있습니다. 
+
+자세한 내용은 [사용 중인 라이선스 유형](end-user-license.md)을 참조하세요.
 
 ## <a name="what-if-i-have-questions-about-power-bi-premium"></a>Power BI 프리미엄에 대한 질문이 있다면?
 
@@ -37,19 +46,17 @@ Power BI 프리미엄 관련된 질문은 [Power BI 프리미엄 FAQ](../service
 
 ## <a name="what-is-power-bi-desktop"></a>Power BI Desktop이란?
 
-Power BI Desktop은 사용자의 컴퓨터에 바로 설치할 수 있는 무료 애플리케이션입니다. Power BI Desktop은 Power BI 서비스와 긴밀하게 작동합니다.  데이터 과학자, 관리자 및 개발자는 Power BI Desktop을 사용하여 보고서를 생성하고, 여러분과 같은 Power BI 서비스 *소비자*에게 제공합니다. [Power BI Desktop이란?](../desktop-what-is-desktop.md)에 대해 자세히 알아봅니다.
+Power BI Desktop은 사용자의 컴퓨터에 바로 설치할 수 있는 무료 애플리케이션입니다. Power BI Desktop은 Power BI 서비스와 긴밀하게 작동합니다.  데이터 과학자, 보고서 디자이너, 관리자 및 개발자는 Power BI Desktop을 사용하여 보고서를 생성하고, 여러분과 같은 Power BI 서비스 *소비자*에게 제공합니다. [Power BI Desktop이란?](../desktop-what-is-desktop.md)에 대해 자세히 알아봅니다.
 
-## <a name="what-do-i-need-to-use-the-power-bi-service"></a>Power BI 서비스를 사용하려면 무엇이 필요한가요?
+## <a name="what-do-i-need-to-use-the-power-bi-service-as-a-consumer"></a>*소비자* 자격으로 Power BI 서비스를 사용하려면 무엇이 필요한가요?
 
-웹 브라우저와 회사 메일 주소만 있으면 됩니다. *.gov* 및 *.mil* 메일 주소로 가입할 수도 있습니다. 자세한 내용은 [Power BI 서비스에 미국 정부 기관 등록](../service-govus-signup.md)을 참조하세요.
+회사에서 Power BI 라이선스 또는 Premium 용량 계정을 구매한 경우 웹 브라우저 및 자격 증명만 있으면 됩니다. 로그인하려면 회사 메일 주소와 암호(Power BI 관리자가 설정)를 사용합니다.  
+
+Power BI 서비스를 개인으로 등록할 수도 있습니다. [Power BI 셀프 서비스 등록 프로세스](../service-self-service-signup-for-power-bi.md)를 참조하세요.
 
 ## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>왜 업무용 메일로 가입해야 하나요?
 
 Power BI는 소비자 메일 서비스나 전자 통신 공급자가 제공하는 메일 주소를 지원하지 않습니다. [Power BI 셀프 서비스 등록 프로세스](../service-self-service-signup-for-power-bi.md)에 대해 자세히 알아보세요.
-
-## <a name="is-government-academic-and-nonprofit-pricing-available-for-power-bi"></a>정부, 교육 및 비영리 기관용 가격 책정을 Power BI에 적용할 수 있나요?
-
-예, 비영리 기관용 가격 책정은 Microsoft로부터 직접 구입하는 경우 사용할 수 있습니다. [Microsoft 비영리](https://www.microsoft.com/nonprofits/power-bi) 사이트를 통해 자세한 정보를 알아보고 등록할 수 있습니다. Microsoft는 MOSP/Direct, EA 및 Open 라이선싱 프로그램을 통해 정부 및 교육 기관용 가격 책정을 제공합니다. 정부 기관용 가격 책정도 배포에서 사용할 수 있습니다.
 
 ## <a name="does-power-bi-support-mobile-devices"></a>Power BI는 모바일 디바이스를 지원하나요?
 
@@ -76,7 +83,7 @@ Power BI 서비스를 무료로 사용하려면 웹 브라우저와 메일만 �
 * [Power BI 블로그](https://blogs.msdn.com/b/powerbi/)
 * [웹 세미나](../webinars.md)
 * [YouTube 채널](https://www.youtube.com/user/mspowerbi)의 시작하기 비디오
-* [*소비자*](power-bi-consumer-landing.md) 아티클로 Power BI 시작하기
+* [*소비자*](index.yml) 아티클로 Power BI 시작하기
 * [커뮤니티 가입](https://community.powerbi.com/) 및 질문하기
 * 더 많은 제안은 [도움을 받을 수 있는 10가지 팁](../service-tips-for-finding-help.md)을 참조하세요.
 
@@ -87,16 +94,6 @@ Power BI 서비스를 무료로 사용하려면 웹 브라우저와 메일만 �
 ## <a name="what-regions-and-languages-does-power-bi-support"></a>Power BI에서는 어떤 영역 및 언어를 지원하나요?
 
 다음은 [Power BI에서 지원하는 영역 및 언어](../supported-languages-countries-regions.md)의 전체 목록입니다.
-
-## <a name="how-can-i-buy-power-bi-pro-in-my-country"></a>내 국가에서 Power BI Pro를 구입하려면 어떻게 하나요?
-
-Power BI Pro 라이선스를 직접 구입하거나 [www.powerbi.com](https://www.powerbi.com)을 통해 담당자와 채팅할 수 있습니다.
-
-[Microsoft 파트너](https://partner.microsoft.com/)를 찾아 Power BI 구현에 대한 도움을 받을 수도 있습니다.
-
-## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Power BI는 국가, 지역 및 업계별 규정 준수 요구 사항을 충족합니까?
-
-[Microsoft 보안 센터](https://go.microsoft.com/fwlink/?LinkId=785324)에서 Power BI 준수에 대해 자세히 알아보세요.
 
 ## <a name="where-can-i-learn-more-about-security"></a>보안에 대해 자세히 알아보려면 어떻게 해야 하나요?
 

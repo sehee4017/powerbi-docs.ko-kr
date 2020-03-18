@@ -3,19 +3,18 @@ title: 데이터 보호 메트릭 보고서
 description: 데이터 보호 메트릭 보고서에 대한 자세한 정보
 author: paulinbar
 manager: rkarlin
-ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/17/2020
+ms.date: 03/11/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 952f47f60e14932ce4b22dbd01bf60d9d7243c62
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: d2bd3308de21aa6064765b820745201efd8b23ab
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76542154"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79112486"
 ---
 # <a name="data-protection-metrics-report-preview"></a>데이터 보호 메트릭 보고서(미리 보기)
 
@@ -52,6 +51,7 @@ ms.locfileid: "76542154"
 * Cloud App Security 정보에 액세스하려면 조직에 적절한 [Cloud App Security 라이선스](https://docs.microsoft.com/power-bi/admin/service-security-using-microsoft-cloud-app-security-controls#microsoft-cloud-app-security-licensing)가 있어야 합니다.
 * Power BI 관리자가 아닌 사용자로 데이터 보호 메트릭 보고서의 정보를 공유하려는 경우 이 보고서에는 조직에 대한 중요한 정보가 포함되어 있다는 점에 유의해주세요.
 * 데이터 보호 메트릭 보고서는 특별한 종류의 보고서이며 “공유한 항목”, “최근” 및 “즐겨찾기” 목록에 표시되지 않습니다.
+* [외부 사용자(Azure Active Directory B2B 게스트 사용자)](../service-admin-azure-ad-b2b.md)는 데이터 보호 메트릭 보고서를 사용할 수 없습니다.
 ## <a name="next-steps"></a>다음 단계
 * [Power BI의 데이터 보호(미리 보기)](./service-security-data-protection-overview.md)
 * [Power BI에서 Microsoft Cloud App Security 제어 사용(미리 보기)](./service-security-using-microsoft-cloud-app-security-controls.md)

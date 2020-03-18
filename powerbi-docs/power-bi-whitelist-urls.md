@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.custom: seodec18
-ms.openlocfilehash: 48406a8c68237d182960b46de67f91dbd2717922
-ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
+ms.openlocfilehash: 6844d09c04759f0cdb780b3c1805698f1b1b519f
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "76894663"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78401903"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>허용 목록의 Power BI URL
 
@@ -85,13 +85,13 @@ Power BI는 특정 엔드포인트에 따라 대시보드 및 보고서를 지�
 | 1 | **필수:** Excel 통합 | [Office Online 및 일반적인 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online)에 대한 Office 365 설명서 참조 | 해당 없음 |
 | | | |
 
-## <a name="custom-visuals"></a>사용자 지정 시각적 개체
+## <a name="power-bi-visuals"></a>Power BI 시각적 개체
 
-Power BI는 특정 엔드포인트에 따라 사용자 지정 시각적 개체를 보고 액세스합니다. 아래 테이블 및 연결된 사이트에 있는 엔드포인트에 연결해야 합니다.
+Power BI는 특정 엔드포인트에 따라 Power BI 시각적 개체를 보고 액세스합니다. 아래 테이블 및 연결된 사이트에 있는 엔드포인트에 연결해야 합니다.
 
 | 행 | 용도 | 대상 | 포트 |
 | --- | --- | --- | --- |
-| 1 | **필수:** Marketplace 인터페이스 또는 파일에서 사용자 지정 시각적 개체 가져오기 | *.azureedge.net <br> *.blob.core.windows.net <br> store.office.com | TCP 443 |
+| 1 | **필수:** Marketplace 인터페이스 또는 파일에서 사용자 지정 시각적 개체 가져오기 | *.azureedge.net <br> *.blob.core.windows.net <br> *.osi.office.net <br> *.msecnd.net <br> store.office.com <br> web.vortex.data.microsoft.com <br> store-images.s-microsoft.com | TCP 443 |
 | 2 | **선택 사항:** Bing Maps | bing.com <br> platform.bing.com <br> *.virtualearth.net | TCP 443 |
 | 3 | **선택 사항:** PowerApps | PowerApps 시스템 요구 사항 사이트에서 [필수 서비스 섹션](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services)을 참조하세요. | 해당 없음 |
 | 4 | **선택 사항:** Visio | [Office Online 및 일반 URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online)과 [SharePoint Online 및 비즈니스용 OneDrive](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business)에 대한 Office 365 설명서 참조 | 해당 없음 |

@@ -1,5 +1,5 @@
 ---
-title: 콘텐츠 검색 및 찾기
+title: 전체 검색을 사용하여 콘텐츠 검색 및 찾기
 description: Power BI 서비스에서 콘텐츠 검색, 찾기 및 탐색을 위한 설명서
 author: mihart
 ms.reviewer: willt
@@ -7,18 +7,19 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/27/2020
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 64570b23700e125e9040f493630317c0c6350d0e
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: 63c18ae6452b36a72ab72eb6fdf0ce14a73011e9
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76889133"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114133"
 ---
-# <a name="navigation-for-power-bi-consumers-sorting-content"></a>Power BI 소비자를 위한 탐색: 콘텐츠 정렬
+# <a name="navigation-for-power-bi-consumers-global-search"></a>Power BI 소비자를 위한 탐색: 전역 검색
 
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 

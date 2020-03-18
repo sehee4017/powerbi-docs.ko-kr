@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 03/10/2020
 ms.author: kfollis
-ms.openlocfilehash: 261d800dac9b65747e648bc76944a0b8a5077b73
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 1853e710958b5bed0dad011594d9e04ccc99842d
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427096"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041680"
 ---
 # <a name="power-bi-data-sources"></a>Power BI 데이터 원본
 
@@ -43,7 +43,7 @@ ms.locfileid: "77427096"
 | Azure HDInsight(HDFS) | 예 | 예 | 아니요 | 아니요 | 아니요 |
 | Azure HDInsight Spark | 예 | 예 | 예 | 아니요 | 아니요 |
 | Azure SQL Database | 예 | 예 | 예 | 예 <sup>2</sup> | 아니요 |
-| Azure SQL Data Warehouse | 예 | 예 | 예 | 아니요 | 아니요 |
+| Azure SQL Data Warehouse | 예 | 예 | 예 | 예 <sup>2</sup> | 아니요 |
 | Azure Table Storage | 예 | 예 | 아니요 | 예 | 아니요 |
 | BI Connector | 예 | 예 | 예 | 예 | 예 |
 | BI360 - Budgeting &amp; Financial Reporting | 예 | 예 | 아니요 | 아니요 | 아니요 |
@@ -134,7 +134,7 @@ ms.locfileid: "77427096"
 | Twilio | 예 | 예 | 아니요 | 아니요 | 아니요 |
 | tyGraph | 예 | 예 | 아니요 | 아니요 | 아니요 |
 | Vertica | 예 | 예 | 예 | 예 | 예 |
-| 웹 | 예 | 예 | 아니요 | 예 | 예 |
+| 웹 | 예 | 예 | 아니요 | 예 | 예 <sup>6</sup> |
 | Webtrends | 예 | 예 | 아니요 | 아니요 | 아니요 |
 | Workforce Dimensions | 예 | 예 | 아니요 | 예 | 아니요 |
 | XML | 예 | 예 | 아니요 | 예 | 아니요 <sup>4</sup> |
@@ -143,13 +143,15 @@ ms.locfileid: "77427096"
 
 <sup>1</sup> 게이트웨이와 동일한 머신에 설치된 [ACE OLEDB 공급자](https://www.microsoft.com/download/details.aspx?id=54920)에서 지원됩니다.
 
-<sup>2</sup> 온-프레미스 버전과 동일한 M 함수에서 지원됩니다.
+<sup>2</sup> 온-프레미스 버전과 동일한 M 함수로 지원되므로 제한된 인증 옵션(게이트웨이에서 OAuth를 지원하지 않음)이 적용됩니다.
 
 <sup>3</sup> Excel 1997~2003 파일(.xls)에 [ACE OLEDB 공급자](https://www.microsoft.com/download/details.aspx?id=54920)가 필요합니다.
 
 <sup>4</sup> 온-프레미스 버전의 기술에 필요합니다.
 
 <sup>5</sup>[개인 게이트웨이](service-gateway-personal-mode.md)에서만 지원됩니다.
+
+<sup>6</sup> .html, .xls 및 Access 데이터베이스에 필요합니다.
 
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>DirectQuery 원본의 SSO(Single Sign-On)
 

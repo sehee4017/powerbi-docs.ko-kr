@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/24/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 0364fae1648e6155cc5e5a92850861c3bedbabdc
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: aaafaa5b2822e3e17fdc92b43bf7b745330a547b
+ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871896"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "78946838"
 ---
 # <a name="connect-to-datasets-with-client-applications-and-tools-preview"></a>클라이언트 애플리케이션 및 도구를 사용하여 데이터 세트에 연결(미리 보기)
 
@@ -104,17 +104,13 @@ SQL Server Profiler와 같은 일부 도구는 *초기 카탈로그*를 지정�
 
 현재 모델 역할 및 역할 멤버 자격은 검색할 수 없거나 XMLA 엔드포인트를 사용하여 표시되지 않습니다.
 
-## <a name="disable-connectivity"></a>연결 사용 안 함
-
-기본적으로 데이터 세트 워크로드에서 XMLA 엔드포인트 연결이 사용됩니다. [워크로드 설정](service-admin-premium-workloads.md#workload-settings)에서 연결을 사용하지 않도록 설정할 수 있습니다.
-
 ## <a name="audit-logs"></a>감사 로그 
 
 클라이언트 애플리케이션 및 도구가 작업 영역에 연결되면 XMLA 엔드포인트를 통한 액세스는 **GetWorkspaces** 작업 아래의 Power BI 감사 로그에 기록됩니다. 자세한 내용은 [Power BI 감사](service-admin-auditing.md)를 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
 
-[Analysis Services 참조](https://docs.microsoft.com/bi-reference/#pivot=home&panel=home-all)   
+[Analysis Services 참조](https://docs.microsoft.com/bi-reference/?pivot=home&panel=home-all)   
 [SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/sql-server-management-studio-ssms)   
 [SQL Server Analysis Services 표 형식 프로토콜](https://docs.microsoft.com/openspecs/sql_server_protocols/ms-ssas-t/b98ed40e-c27a-4988-ab2d-c9c904fe13cf)   
 [동적 관리 뷰(DMV)](https://docs.microsoft.com/sql/analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services)   

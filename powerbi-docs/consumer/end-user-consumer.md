@@ -5,15 +5,15 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: overview
-ms.date: 02/18/2020
+ms.date: 02/24/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 100a9302e260a7c8f34c6fa07cc6b231e7271ce6
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: fb1209103c88e78148f746321d5ff8d8bd6e1a20
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496222"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79039955"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>소비자용 Power BI 서비스
 
@@ -45,7 +45,7 @@ Power BI를 조작하는 방식은 작업 역할에 따라 다릅니다. 최종 
 
 “Power BI Desktop” 또는 “Desktop”이라는 용어는 분명히 들어보셨을 것입니다. 이는 대시보드와 보고서를 빌드하고 소비자와 함께 공유하는 *설계자*가 사용하는 독립형 도구입니다.  소비자는 Power BI 서비스만 사용하게 되므로 다른 Power BI 도구가 있다는 것만 알아두면 됩니다. 
 
-또한 ‘공유’ 콘텐츠를 사용하고 있으므로 Power BI Pro 또는 Premium 라이선스가 필요합니다.  [사용 중인 라이선스 확인](end-user-license.md)
+*공유* 콘텐츠를 사용하여 작업하고 있으므로 **Premium** 용량을 사용하는 조직에서 작동하는 표준 **무료** 라이선스가 필요합니다. [사용 중인 라이선스 확인](end-user-license.md)
 
 
 ## <a name="safely-interact-with-content"></a>콘텐츠와 안전하게 상호 작용 

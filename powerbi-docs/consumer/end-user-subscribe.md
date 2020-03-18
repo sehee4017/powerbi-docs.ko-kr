@@ -8,16 +8,18 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/30/2020
-rLocalizationGroup: Common tasks
-ms.openlocfilehash: 267a1e8b2f45198059e5acfcdf0233445babbd14
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.date: 03/09/2020
+LocalizationGroup: Common tasks
+ms.openlocfilehash: 869da47cd64e93a930fe6e92071345be093617a7
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888613"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114029"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Power BI 서비스에서 보고서 또는 대시보드 구독 
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -63,7 +65,7 @@ ms.locfileid: "76888613"
 
 3. 모든 항목이 양호하면 **저장 후 닫기**를 선택하여 구독을 저장합니다. 설정한 일정에 따라 대시보드 또는 보고서의 스냅샷과 메일을 받게 됩니다. 빈도가 **데이터 새로 고침 후**로 설정된 모든 구독은 첫 번째 예약된 새로 고침 이후에만 이메일을 보냅니다.
    
-   ![대시보드의 이메일 스냅샷](media/end-user-subscribe/power-bi-subscribe-email.png)
+   ![대시보드의 이메일 스냅샷](media/end-user-subscribe/power-bi-email.png)
    
     보고서 페이지를 새로 고치면 데이터 세트가 새로 고쳐지지 않습니다. 데이터 세트 소유자만 데이터 세트를 수동으로 새로 고칠 수 있습니다. 기본 데이터 세트의 소유자 이름을 검색하려면 맨 위 메뉴 모음에서 드롭다운을 선택하거나 원래 구독 이메일을 찾습니다.
    
@@ -73,11 +75,12 @@ ms.locfileid: "76888613"
 ## <a name="manage-your-subscriptions"></a>구독 관리
 사용자가 만든 구독만 관리할 수 있습니다. 다시 **구독**을 선택하고 왼쪽 아래 모서리에서 **모든 구독 관리**를 선택합니다(위의 스크린샷 참조). 
 
-![내 작업 영역에서 모든 구독 참조](./media/end-user-subscribe/power-bi-manage.png)
+![내 작업 영역에서 모든 구독 참조](./media/end-user-subscribe/power-bi-manage-subscriptions.png)
 
 Pro 라이선스가 만료되거나, 소유자가 대시보드 또는 보고서를 삭제하거나, 구독을 만드는 데 사용된 사용자 계정이 삭제된 경우 구독이 종료됩니다.
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
+* 구독 메일이 스팸 메일 폴더로 이동하지 않게 하려면 연락처에 Power Platform 메일 별칭(PowerPlat-noreply@microsoft.com)을 추가합니다. Microsoft Outlook을 사용하는 경우 별칭을 마우스 오른쪽 단추로 클릭하고 **Outlook 연락처에 추가**를 선택합니다. 
 * 25개가 넘는 고정된 타일 또는 4개의 고정된 라이브 보고서 페이지가 있는 대시보드는 사용자에게 전송된 구독 이메일에 완벽하게 렌더링되지 않을 수 있습니다. 대시보드 디자이너에게 문의하여 이메일을 올바르게 렌더링되도록 하기 위해 고정된 타일을 25개 미만으로 줄이고 라이브 보고서를 4개 미만으로 줄이는 것이 좋습니다.  
 * 대시보드 이메일 구독의 경우 타일에 RLS(행 수준 보안)가 적용되면 해당 타일은 표시되지 않습니다.  보고서 이메일 구독의 경우 데이터 세트가 RLS를 사용하면 구독을 만들 수 없습니다.
 * 메일의 콘텐츠 링크가 더 이상 작동하지 않는 경우 콘텐츠가 삭제된 것일 수 있습니다. 메일의 스크린샷 아래에서 직접 구독했는지, 아니면 다른 사람이 구독했는지를 확인할 수 있습니다. 다른 사람이 구독한 경우, 동료에게 메일을 취소하거나 다시 구독하도록 요청하세요.

@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/05/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 3f6f534b71ba6d8e8798418275c4758a95fc6fb5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 089d1df9a63a30d602ac12f1bf18f32787374654
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851215"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79114234"
 ---
 # <a name="reports-in-power-bi"></a>Power BI의 보고서
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -41,7 +43,7 @@ Power BI는 단일 데이터 세트를 기반으로 보고서를 만듭니다. �
 필터링, 조각화, 구독 및 내보내기 등 콘텐츠를 탐색하고 상호 작용할 때 보고서를 중단할 수 없습니다. 작업은 기본 데이터 세트 또는 공유된 원래 콘텐츠에 영향을 주지 않습니다. 이는 대시보드, 보고서 및 앱에 적용됩니다.
 
 > [!NOTE]
-> 데이터를 손상시킬 수 없음을 기억하세요. Power BI는 중단 없이 탐색하고 실험하기에 좋은 곳입니다.
+> 데이터를 손상시킬 수 없음을 기억하세요. Power BI는 데이터 손상 없이 탐색하고 실험하기에 적합한 환경입니다.
 
 ### <a name="save-your-changes-or-revert-to-the-default-settings"></a>변경 내용을 저장하거나 기본 설정으로 되돌리기
 

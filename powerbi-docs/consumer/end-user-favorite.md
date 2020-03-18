@@ -7,24 +7,25 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/19/2019
+ms.date: 03/09/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 48322b554a7b600bc5cadc7c40fe366c64cd8549
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: bb69d1ecc4e91912b947a2120607e1a0502d8162
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73852647"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79040507"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-the-power-bi-service"></a>Power BI 서비스에서 즐겨 찾는 대시보드, 보고서 및 앱
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 콘텐츠를 *즐겨찾기*로 만들면 **즐겨찾기** 콘텐츠 목록과 Power BI **홈** > **즐겨찾기 및 자주 사용하는 항목**에서 빠르게 액세스할 수 있습니다. 즐겨찾기는 사용자가 가장 자주 이용하는 콘텐츠로, 노란색 별이 표시됩니다.
 
    ![즐겨찾기 아이콘](./media/end-user-favorite/power-bi-favorite-nav.png)
 
    ![즐겨찾기 + 자주 사용하는 항목 아이콘](./media/end-user-favorite/power-bi-home.png)
-
-단일 대시보드를 Power BI 서비스의 [주요 대시보드](end-user-featured.md)로 선택할 수도 있습니다.
 
 ## <a name="add-a-dashboard-or-report-as-a-favorite"></a>대시보드 또는 보고서를 즐겨찾기에 추가
 
@@ -67,7 +68,7 @@ ms.locfileid: "73852647"
 2. 즐겨찾기에서 제거할 콘텐츠 옆의 노란색 별표를 선택합니다.
 
 > [!NOTE]
-> 대시보드, 보고서 또는 앱을 즐겨찾기에서 제거할 수도 있습니다. 해당 항목을 열고 노란색 아이콘의 선택을 취소하면 됩니다. 
+> 대시보드, 보고서 또는 앱을 즐겨찾기에서 제거할 수도 있습니다. 연 후에 노란색 별표를 선택하여 흰색으로 다시 바꿉니다. 
 > 
 > 
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항

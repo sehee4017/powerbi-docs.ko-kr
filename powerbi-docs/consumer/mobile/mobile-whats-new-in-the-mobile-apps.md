@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 03/09/2020
 ms.author: painbar
-ms.openlocfilehash: 7aa31d9c6eadd4c7c9c88c9006a360a6089f28e2
-ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
+ms.openlocfilehash: 97d2a3acba87309b74de1776f1325bb4c4a78910
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "77259820"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041570"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -21,6 +21,29 @@ ms.locfileid: "77259820"
 * [모바일 앱에 대한 Power BI 팀 블로그](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop의 새로운 기능](../../desktop-latest-update.md)  
 * [Power BI 서비스의 새로운 기능](../../service-whats-new.md)  
+
+## <a name="february-2020"></a>2020년 2월
+
+### <a name="multi-select-mode-android-and-ios"></a>다중 선택 모드(Android 및 iOS)
+
+보고서 페이지에서 여러 데이터 요소를 선택하는 기능을 추가했습니다. 다중 선택이 켜지면 탭하는 각 데이터 요소가 선택한 다른 데이터 요소에 추가되고 결합된 결과가 페이지의 모든 시각적 개체에서 자동으로 강조 표시됩니다. 다중 선택 모드를 켜려면 [모바일 앱 설정](./mobile-app-interaction-settings.md) 페이지로 이동합니다.
+
+>[!NOTE]
+>다중 선택 모드는 다음 보고서 서버 릴리스의 Power BI Report Server에서 지원됩니다.
+
+### <a name="report-footer-can-now-always-be-visible-in-the-mobile-app-for-iphones"></a>이제 보고서 바닥글은 iPhone용 모바일 앱에 항상 표시될 수 있습니다.
+
+Android 휴대폰에서와 같이 iPhone에서 보고서 페이지의 아래쪽에 보고서 바닥글을 고정하기로 결정할 수 있습니다. 그러면 보고서 바닥글은 페이지의 작업에 관계없이 항상 표시되고 사용할 수 있습니다. 이 경우 제공되는 모든 옵션을 쉽게 사용할 수 있습니다. 바닥글을 고정하려면 [모바일 앱 설정](./mobile-app-interaction-settings.md) 페이지에서 **고정된 보고서 바닥글**을 전환합니다.
+
+### <a name="support-for-pbirs-reports-preview-windows"></a>PBIRS 보고서 지원(미리 보기)(Windows)
+
+이제 Power BI 앱에서 PBIRS(Power BI Report Server) 보고서를 열 수 있습니다.
+
+### <a name="quickly-access-your-recent-items-windows"></a>최근 항목에 빠르게 액세스(Windows)
+
+Windows 작업 표시줄에서 Power BI 앱 아이콘을 마우스 오른쪽 단추로 클릭하여 최근 본 모든 항목의 목록을 가져옵니다. 목록의 항목을 클릭하여 빠르게 재방문할 수 있습니다.
+
+![작업 표시줄 빠른 액세스 메뉴](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-windows-taskbar-quick-access.png)
 
 ## <a name="january-2020"></a>2020년 1월
 
@@ -38,7 +61,7 @@ Android 사용자로부터 보고서를 사용하는 환경이 최적이 아님�
 
 이전 동작을 선호하는 사용자는 새롭게 확장된 모바일 앱의 [상호 작용 설정](./mobile-app-interaction-settings.md)을 통해 이 동작을 복원할 수 있습니다.
 
-또한 IT 관리자는 앱 구성 파일과 함께 선택한 MDM 도구를 사용하여 사용자를 대신해 [새 기본 설정을 원격으로 재정의](./mobile-app-configuration.md#interaction-settings-android)할 수 있습니다. 이러한 방식으로 조직의 모든 사용자가 동일한 동작을 구성할 수 있습니다.
+또한 IT 관리자는 앱 구성 파일과 함께 선택한 MDM 도구를 사용하여 사용자를 대신해 [새 기본 설정을 원격으로 재정의](./mobile-app-configuration.md#interaction-settings-ios-and-android)할 수 있습니다. 이러한 방식으로 조직의 모든 사용자가 동일한 동작을 구성할 수 있습니다.
 
 > [!NOTE]
 > 새로 고침 단추 및 보고서 바닥글 고정에 대한 상호 작용 설정은 현재 보고서 서버 보고서에 영향을 주지 않습니다. 1월 보고서 서버 릴리스와 함께 변경됩니다.
@@ -673,7 +696,7 @@ Power BI 모바일 앱의 알림 센터에서는 사용자와 공유한 새 데�
 * **QR 코드**는 **보고서에**도 제공됩니다. 관련된 보고서도 직접 이동하려면 탐색 또는 검색이 필요 없이 Power BI 앱을 사용하여 코드를 스캔합니다.
 * SQL Server 2016 Reporting Services에 대한 **데이터 관리 개선**: 디바이스의 로드 시간 및 데이터 사용이 감소되었습니다.
 * **SQL Server 2016 테마가 지정된 모바일 보고서**: 디바이스에서 모바일 보고서에 대한 테마를 확인합니다.
-* **Geofiltering**: 현재 위치에 따라 보고서를 필터링합니다.
+* **지역 필터링**: 현재 위치에 따라 보고서를 필터링합니다.
 
 ### <a name="april-2016"></a>2016년 4월
 자세한 내용은 [4월 Power BI Mobile Apps 블로그](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-april-2016/)를 참조하세요.
@@ -832,4 +855,3 @@ Power BI 모바일 앱의 개선된 점 -- Android, iOS(iPhone 및 iPad) 및 Win
 * 역할 기반 보안을 사용하는 대시보드에 액세스할 때의 사용자 환경을 개선했습니다. 
 * 새로운 기능을 사용하면 다음 타일을 선택하기 위해 대시보드로 돌아갈 필요 없이 인 포커스 모드에서 직접 대시보드 타일을 통해 앞뒤로 탐색할 수 있습니다.
 * 성능을 더 안정화하고 향상시켰습니다. 
-

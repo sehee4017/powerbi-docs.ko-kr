@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/08/2019
+ms.date: 03/05/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a7b00b0cb611dd3e0921885ddaca6547fdb43fd3
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 020b7e0a5fd0c3372e3a83d9973a404978e56b7d
+ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74311023"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "78401255"
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Power BI Desktop에서 드릴스루 사용
 Power BI Desktop에서 *‘드릴스루’* 를 사용하면 보고서에서 공급업체, 고객 또는 제조업체와 같은 특정 엔터티에 초점을 맞춘 페이지를 만들 수 있습니다. 드릴스루를 사용하려면 다른 보고서 페이지에서 데이터 요소를 마우스 오른쪽 단추로 클릭하고 포커스가 있는 페이지로 드릴스루하여 선택한 다음, 해당 컨텍스트로 필터링되는 세부 정보를 가져옵니다.
@@ -33,6 +33,11 @@ Power BI Desktop에서 *‘드릴스루’* 를 사용하면 보고서에서 공
     필드를 **드릴스루 필터**에 추가하면 Power BI Desktop에서 *‘뒤로’* 단추 시각적 개체를 자동으로 만듭니다. 이 시각적 개체는 게시된 보고서의 단추가 됩니다. Power BI 서비스에서 보고서를 사용하는 사용자는 이 단추를 사용하여 출처인 보고서 페이지로 돌아갈 수 있습니다.
 
     ![드릴스루 이미지](media/desktop-drillthrough/drillthrough_03.png)
+
+> [!IMPORTANT]
+> 동일한 보고서에서 페이지에 대한 드릴스루를 구성하고 수행할 수 있지만 다른 보고서의 페이지로 드릴스루할 수는 없습니다.  
+
+
 
 ## <a name="use-your-own-image-for-a-back-button"></a>뒤로 단추에 고유한 이미지 사용    
  뒤로 단추가 이미지이므로 해당 시각적 개체의 이미지를 원하는 이미지로 바꿀 수 있습니다. 이 이미지가 뒤로 단추로 작동하므로 보고서 소비자가 원래 페이지로 돌아올 수 있습니다. 
@@ -54,13 +59,12 @@ Power BI Desktop에서 *‘드릴스루’* 를 사용하면 보고서에서 공
 
 ## <a name="pass-all-filters-in-drillthrough"></a>드릴스루에 모든 필터 전달
 
-Power BI Desktop의 2018년 5월 버전부터 적용된 모든 필터를 드릴스루 창에 전달할 수 있습니다. 예를 들어 특정 범주의 제품 및 해당 범주로 필터링된 시각적 개체만 선택한 다음, 드릴스루를 선택할 수 있습니다. 이러한 모든 필터가 적용된 드릴스루의 모양에 관심을 가질 수 있습니다.
+적용된 모든 필터를 드릴스루 창에 전달할 수 있습니다. 예를 들어 특정 범주의 제품 및 해당 범주로 필터링된 시각적 개체만 선택한 다음, 드릴스루를 선택할 수 있습니다. 이러한 모든 필터가 적용된 드릴스루의 모양에 관심을 가질 수 있습니다.
 
 적용된 모든 필터를 유지하려면 **시각화** 창의 **드릴스루** 섹션에서 **모든 필터 유지**를 **켜기**로 설정합니다. 
 
 ![모든 필터 유지](media/desktop-drillthrough/drillthrough_06.png)
 
-2018년 5월 이전에 릴리스된 Power BI Desktop 버전에서는 이 토글을 **끄기**로 설정하는 것과 같습니다.
 
 그런 다음, 시각적 개체에서 드릴스루하면 원본 시각적 개체에 임시 필터가 적용된 결과로 적용된 필터를 볼 수 있습니다. **시각화** 창의 **드릴스루** 섹션에서 이러한 임시 필터는 기울임꼴로 표시됩니다. 
 

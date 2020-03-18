@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/28/2020
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: dd83388c00b2415c43355bb57c271b430a9abc53
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: 83c834b05846c22577b7987d341c295a1e763b59
+ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888882"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79113309"
 ---
 # <a name="find-your-dashboards-reports-and-apps"></a>대시보드, 보고서 및 앱 찾기
+
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 Power BI에서 *콘텐츠*라는 용어는 앱, 대시보드 및 보고서를 가리킵니다. 콘텐츠는 Power BI *디자이너*가 만들고, 이렇게 만든 콘텐츠는 여러분과 같은 동료들에게 공유됩니다. 콘텐츠는 Power BI 서비스에서 액세스하고 볼 수 있습니다. Power BI에서 작업을 시작하기 가장 좋은 곳은 Power BI **홈**입니다.
 
 ## <a name="explore-power-bi-home"></a>Power BI 홈 살펴보기

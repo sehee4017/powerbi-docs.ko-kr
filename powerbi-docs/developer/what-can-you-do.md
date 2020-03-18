@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 03/15/2019
-ms.openlocfilehash: 9f9383e5cdb4b4690ef75294f7ff8c17fb643d9a
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 4e8ce6d9a892abf3e24ecae6dee1e3ea23504d31
+ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265010"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79041358"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>개발자는 Power BI로 무엇을 할 수 있나요?
 
@@ -53,7 +53,7 @@ Power BI는 대화형 대시보드를 표시하며 다양한 데이터 원본에
 
 ![데이터 푸시 샘플](media/what-can-you-do/powerbi-push-data.png)
 
-Power BI API로 수행할 수 있는 작업을 보려면 [개발자는 Power BI API로 무엇을 할 수 있나요?](overview-of-power-bi-rest-api.md)를 참조하세요.
+Power BI API로 수행할 수 있는 작업을 보려면 [개발자는 Power BI API로 무엇을 할 수 있나요?](automation/overview-of-power-bi-rest-api.md)를 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 
@@ -61,6 +61,6 @@ Power BI API로 수행할 수 있는 작업을 보려면 [개발자는 Power BI 
 
 [Power BI 사용자 지정 시각적 개체 개발](https://microsoft.github.io/PowerBI-visuals/docs/step-by-step-lab/developing-a-power-bi-custom-visual/)
 
-[개발자는 Power BI API로 무엇을 할 수 있나요?](overview-of-power-bi-rest-api.md)
+[개발자는 Power BI API로 무엇을 할 수 있나요?](automation/overview-of-power-bi-rest-api.md)
 
 [Power BI 개발자 센터](https://powerbi.microsoft.com/developers/)
