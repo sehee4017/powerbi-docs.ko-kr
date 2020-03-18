@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 03/07/2020
 ms.author: painbar
-ms.openlocfilehash: b7a02261e6e00c01befa8ba7716b9e0d132323ea
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: 1991381f8b2917fe3bc61a8be22fbdf44e706d71
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496745"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205553"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>MDM(모바일 디바이스 관리) 도구를 사용하여 Power BI 앱을 원격으로 구성
 
@@ -22,8 +22,8 @@ iOS 및 Android용 Power BI Mobile 앱은 MDM(모바일 디바이스 관리) 서
 Power BI 모바일 앱은 다음 구성 시나리오를 지원합니다.
 
 * 보고서 서버 구성(iOS 및 Android)
-* 데이터 보호 설정(iOS 및 Android)
-* 상호 작용 설정(Android)
+* 데이터 보호 설정(iOS)
+* 상호 작용 설정(iOS 및 Android)
 
 ## <a name="report-server-configuration-ios-and-android"></a>보고서 서버 구성(iOS 및 Android)
 
@@ -38,19 +38,23 @@ Power BI 모바일 앱은 다음 구성 시나리오를 지원합니다.
 
 ## <a name="data-protection-settings-ios"></a>데이터 보호 설정(iOS)
 
-iOS 및 Android용 Power BI 앱은 관리자에게 보안 및 개인 정보 설정에 대한 기본 구성을 사용자 지정할 수 있는 기능을 제공합니다. Power BI 앱에 액세스할 때 사용자에게 Face ID, Touch ID 또는 암호를 제공하도록 강제할 수 있습니다.
+iOS용 Power BI iOS 앱은 관리자에게 보안 및 개인 정보 설정에 대한 기본 구성을 사용자 지정할 수 있는 기능을 제공합니다. Power BI 앱에 액세스할 때 사용자에게 Face ID, Touch ID 또는 암호를 제공하도록 강제할 수 있습니다.
 
 | 키 | 형식 | 설명 |
 |---|---|---|
 | com.microsoft.powerbi.mobile.ForceDeviceAuthentication | Boolean | 기본값은 False입니다. <br><br>사용자가 해당 디바이스에 액세스하기 위해서는 TouchID 또는 FaceID 등의 생체 인식이 필요할 수 있습니다. 필요한 경우 인증 외에 생체 인식도 사용됩니다.<br><br>앱 보호 정책을 사용하는 경우 Microsoft는 이중 액세스 프롬프트를 방지하기 위해 이 설정을 사용하지 않도록 설정하는 것을 권장합니다. |
 
-## <a name="interaction-settings-android"></a>상호 작용 설정(Android)
+## <a name="interaction-settings-ios-and-android"></a>상호 작용 설정(iOS 및 Android)
 
-Android용 Power BI 앱은 관리자가 조직의 사용자 그룹 간에 기본 상호 작용 설정을 변경해야 하는 경우 상호 작용 설정을 구성할 수 있는 기능을 제공합니다. 
+iOS 및 Android용 Power BI 앱은 관리자가 조직의 사용자 그룹 간에 기본 상호 작용 설정을 변경해야 하는 경우 상호 작용 설정을 구성할 수 있는 기능을 제공합니다.
+
+>[!NOTE]
+>현재 모든 디바이스에서 모든 상호 작용을 지원하지는 않습니다. 디바이스 간 현재 가용성을 보여주는 차트는 [보고서 상호 작용 설정 구성](mobile-app-interaction-settings.md)을 참조하세요.
 
 | 키 | 형식 | 값 | 설명 |
 |---|---|---|---|
 | com.microsoft.powerbi.mobile.ReportTapInteraction | String |  <nobr>한 번 탭</nobr><br><nobr>두 번 탭</nobr> | 시각적 개체를 눌렀을 때 데이터 요소도 선택할지를 구성합니다. |
+| com.microsoft.powerbi.mobile.EnableMultiSelect | Boolean |  <nobr>True</nobr><br><nobr>False</nobr> | 데이터 요소를 눌렀을 때 현재 선택 영역을 바꿀지 아니면 현재 선택 영역에 추가할지를 구성합니다. |
 | com.microsoft.powerbi.mobile.RefreshAction | String |  <nobr>당겨서 새로 고침</nobr><br>선택합니다. | 보고서를 새로 고치기 위한 단추를 표시할지 또는 사용자가 당겨서 새로 고칠지를 구성합니다. |
 | com.microsoft.powerbi.mobile.FooterAppearance | String |  고정됨<br>동적 | 보고서 바닥글을 보고서 아래쪽에 고정할지 또는 자동으로 숨길지를 구성합니다. |
 

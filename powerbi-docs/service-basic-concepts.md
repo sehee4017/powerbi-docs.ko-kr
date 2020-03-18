@@ -12,11 +12,11 @@ ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: f86b9ae056770240485ff1984be4714faec9dc83
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74128354"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207922"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Power BI 서비스의 디자이너를 위한 기본 개념
 
@@ -185,7 +185,7 @@ Power BI에서는 통합 문서를 편집할 수 없습니다. 하지만 일부 
   ![탐색 창](media/service-basic-concepts/power-bi-navigation.png)
 
 * **데이터 가져오기**를 선택하여 [Power BI에 데이터 세트, 보고서 및 대시보드를 추가](service-get-data.md)합니다.
-* 이 아이콘을 사용하여 탐색 창 확장 및 축소 ![탐색 창 아이콘](media/service-basic-concepts/expand-icon.png)을 탭합니다.
+* 이 아이콘을 사용하여 탐색 창 확장 및 축소 ![탐색 창 아이콘](media/service-basic-concepts/expand-icon.png).
 * **즐겨찾기**를 선택하여 즐겨 찾는 콘텐츠를 열거나 관리합니다.
 * **최근**을 선택하여 가장 최근에 방문한 콘텐츠를 보고 엽니다.
 * **앱**을 선택하여 앱을 보거나, 열거나, 삭제합니다.

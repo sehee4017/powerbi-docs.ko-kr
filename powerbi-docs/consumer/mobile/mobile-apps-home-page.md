@@ -9,11 +9,11 @@ ms.topic: quickstart
 ms.date: 12/16/2019
 ms.author: painbar
 ms.openlocfilehash: 9af7fd95bcdaf0d747d1a3f2313f965d18a888e3
-ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/31/2019
-ms.locfileid: "75548537"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205668"
 ---
 # <a name="a-quick-tour-of-the-mobile-app-home-page"></a>모바일 앱 홈페이지 둘러보기
 이 둘러보기에서는 Power BI 모바일 앱의 홈페이지와 필요한 항목에 빠르게 액세스할 수 있도록 제공되는 탐색 도우미를 살펴봅니다.
@@ -65,11 +65,11 @@ Power BI Mobile 앱을 열면 자주 또는 최근에 방문한 보고서, 대�
 * ![샘플 아이콘](./media/mobile-apps-home-page/powerbi-mobile-app-samples-icon.png) **샘플** - Power BI 기능을 알아보는 데 사용할 수 있는 Power BI 샘플입니다.
 * ![스캐너 아이콘](./media/mobile-apps-home-page/powerbi-mobile-app-scanner-icon.png) **스캐너** - [바코드](../../mobile-apps-scan-barcode-iphone.md) 및 [QR 코드](../../mobile-apps-qr-code.md)를 스캔하는 스캐너로 사용할 수 있는 디바이스 카메라입니다.
 
-## <a name="header"></a>머리글
+## <a name="header"></a>header
 
 페이지 맨 위에 있는 헤더에는 사용 중인 Power BI 페이지, 보고서 또는 대시보드의 이름이 표시됩니다.
 
-![머리글](./media/mobile-apps-home-page/powerbi-mobile-app-header.png)
+![header](./media/mobile-apps-home-page/powerbi-mobile-app-header.png)
 
 헤더는 다음과 같은 탐색 항목을 제공합니다.
 * **프로필 사진 또는 아바타** - [Power BI 서비스 및 Report Server 계정 간에 전환](../../mobile-app-ssrs-kpis-mobile-on-premises-reports.md)하고 Power BI 모바일 앱 설정에 액세스할 수 있는 가로 창을 엽니다.

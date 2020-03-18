@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 02/14/2020
-ms.openlocfilehash: 6f4aa276438d84825c4c7aba6872210b5f3a6564
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.openlocfilehash: 67470ec405806f44fdb483e857d222ad4ff05a45
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "78264223"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379171"
 ---
 # <a name="tooltip-utils"></a>도구 설명 유틸리티
 이 문서는 도구 설명 유틸리티를 설치하고, 가져오고, 사용하는 데 도움이 됩니다. 이 유틸리티는 Power BI 시각적 개체의 도구 설명 사용자 지정에 유용합니다.

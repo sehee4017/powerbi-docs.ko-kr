@@ -8,22 +8,22 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/22/2019
-ms.openlocfilehash: c39c7234ec4bc1b632355f92bdfdec9dc2b21ae4
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 932e458c90b248e01a88d45a849838cff27f6dcb
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079281"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488203"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Power BI 데이터 세트에 데이터 푸시
 
 Power BI API를 사용하면 데이터를 Power BI 데이터 세트에 푸시할 수 있습니다. 이 문서에서는 Product 테이블을 포함하는 Sales Marketing 데이터 세트를 기존 데이터 세트에 푸시하는 방법을 알아봅니다.
 
-시작하기 전에 Azure AD(Azure Active Directory) 및 [Power BI 계정](../create-an-azure-active-directory-tenant.md)이 필요합니다.
+시작하기 전에 Azure AD(Azure Active Directory) 및 [Power BI 계정](../embedded/create-an-azure-active-directory-tenant.md)이 필요합니다.
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>데이터 세트에 데이터를 푸시하는 단계
 
-* 1단계: [Azure AD에 앱 등록](../register-app.md)
+* 1단계: [Azure AD에 앱 등록](../embedded/register-app.md)
 * 2단계: [인증 액세스 토큰 가져오기](walkthrough-push-data-get-token.md)
 * 3단계: [Power BI에서 데이터 세트 만들기](walkthrough-push-data-create-dataset.md)
 * 4단계: [Power BI 테이블에 행을 추가할 데이터 세트 가져오기](walkthrough-push-data-get-datasets.md)
@@ -111,11 +111,11 @@ Power BI 테이블 스키마에는 다음과 같은 데이터 형식을 사용�
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Power BI에 데이터 푸시에 대해 자세히 알아보기
 
-데이터 세트에 데이터 푸시를 시작하려면 왼쪽 탐색 창에서 [1단계: Azure AD에 앱 등록](../register-app.md)을 참조하세요.
+데이터 세트에 데이터 푸시를 시작하려면 왼쪽 탐색 창에서 [1단계: Azure AD에 앱 등록](../embedded/register-app.md)을 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 
-* [Power BI에 등록](../create-an-azure-active-directory-tenant.md)  
+* [Power BI에 등록](../embedded/create-an-azure-active-directory-tenant.md)  
 * [JSON 개요](https://json.org/)  
 * [Power BI REST API 개요](overview-of-power-bi-rest-api.md)  
 

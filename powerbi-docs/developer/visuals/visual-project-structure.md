@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 01/12/2020
-ms.openlocfilehash: 58c226fd66c2551565f85ee75bd06469a46c4128
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 2db9cdcb1238b5f26a34cf652f8f614411c2992b
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427073"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379046"
 ---
 # <a name="power-bi-visual-project-structure"></a>Power BI 시각적 개체 프로젝트 구조
 
@@ -63,8 +63,6 @@ project
 이 폴더에는 `icon.png` 파일이 포함되어 있습니다.
 
 Power BI 시각적 개체 도구는 Power BI 시각화 창에서 이 파일을 새 Power BI 시각적 개체 아이콘으로 사용합니다.
-
-<!--- ![Visualization pane](./media/visualization-pane-analytics-tab.png) --->
 
 ### <a name="src"></a>src
 

@@ -1,19 +1,19 @@
 ---
 title: Power BI 모바일 앱에서 대시보드 및 보고서 보기
 description: Power BI 서비스에서 대시보드 및 보고서를 생성하거나 연결합니다. 그러면 Power BI 모바일 앱에 표시됩니다.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/05/2019
-ms.author: mshenhav
-ms.openlocfilehash: d35d54308f778033f508549bfd52e9d61ef2a949
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 3410d8fa8c2f9300fccbe47683a90cbca8ff8383
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75218376"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205530"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 대시보드 및 보고서 보기
 적용 대상:
@@ -74,7 +74,7 @@ Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
 
 ![대시보드 가로 모드](././media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-landscape.png)
 
-“손가락 모으기” 제스처로 대시보드의 다른 영역을 확대/축소하고 이동하여 탐색할 수 있습니다. 그리고 여전히 [타일을 탭](mobile-tiles-in-the-mobile-apps.md)하여 타일을 포커스 모드로 열고 데이터를 조작할 수 있습니다.
+"손가락 모으기" 제스처로 대시보드의 다른 영역을 확대/축소하고 이동하여 탐색할 수 있습니다. 그리고 여전히 [타일을 탭](mobile-tiles-in-the-mobile-apps.md)하여 타일을 포커스 모드로 열고 데이터를 조작할 수 있습니다.
 
 ## <a name="view-dashboards-on-your-ipad"></a>iPad에서 대시보드 보기
 1. Power BI 앱을 엽니다.
@@ -138,12 +138,12 @@ Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
    ![줄임표 메뉴](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 4. [대시보드에서 모든 타일](mobile-tiles-in-the-mobile-apps.md)을 보려면 위아래로 살짝 밉니다. 
    
-   “손가락 모으기” 제스처로 대시보드의 다른 영역을 확대/축소하고 이동하여 탐색할 수 있습니다. 그리고 여전히 [타일을 탭](mobile-tiles-in-the-mobile-apps.md)하여 타일을 포커스 모드로 열고 데이터를 조작할 수 있습니다.
+   "손가락 모으기" 제스처로 대시보드의 다른 영역을 확대/축소하고 이동하여 탐색할 수 있습니다. 그리고 여전히 [타일을 탭](mobile-tiles-in-the-mobile-apps.md)하여 타일을 포커스 모드로 열고 데이터를 조작할 수 있습니다.
 5. 대시보드 홈 페이지로 돌아가려면 대시보드 이름을 탭하여 이동 경로를 연 다음 **내 작업 영역**을 탭합니다.
    
     ![이동 경로](./media/mobile-apps-view-dashboard/power-bi-android-tablet-breadcrumb.png)
 
-    “손가락 모으기” 제스처로 대시보드의 다른 영역을 확대/축소하고 이동하여 탐색할 수 있습니다. 그리고 여전히 [타일을 탭](mobile-tiles-in-the-mobile-apps.md)하여 타일을 포커스 모드로 열고 데이터를 조작할 수 있습니다.
+    "손가락 모으기" 제스처로 대시보드의 다른 영역을 확대/축소하고 이동하여 탐색할 수 있습니다. 그리고 여전히 [타일을 탭](mobile-tiles-in-the-mobile-apps.md)하여 타일을 포커스 모드로 열고 데이터를 조작할 수 있습니다.
 
 ## <a name="create-a-phone-view-of-a-dashboard-in-the-power-bi-service"></a>Power BI 서비스에서 대시보드 휴대폰 보기 만들기
 대시보드 소유자인 경우 *Power BI 서비스에서* 세로 모드로 휴대폰에 맞게 대시보드 보기를 만들 수 있습니다. 

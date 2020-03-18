@@ -9,12 +9,12 @@ ms.author: willthom
 author: MI77
 layout: LandingPage
 LocalizationGroup: Get started
-ms.openlocfilehash: f5b2de4f7da2ac7af368d969b2f2fef2d9ae7678
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 1452c77fc6386f3f4d4a4f949fd2c74e1919b0c0
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79041703"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488755"
 ---
 # <a name="power-bi-for-microsoft-azure-users"></a>Microsoft Azure 사용자를 위한 Power BI 
 
@@ -114,9 +114,9 @@ Power BI 소비자인가요? 환영합니다. [소비자용 Power BI](consumer/i
                                     <div class="cardText"> 
                                           <h3>고유한 애플리케이션에 Power BI 포함</h3> 
                                           <p></p>
-                                                <a href="developer/embedding.md">Power BI 포함 개요</a><br/>
-                                                <a href="developer/azure-pbie-what-is-power-bi-embedded.md">Power BI Embedded란?</a><br/> 
-                                                <a href="developer/embed-sample-for-customers.md">자습서: Power BI Embedded </a> 
+                                                <a href="developer/embedded/embedding.md">Power BI 포함 개요</a><br/>
+                                                <a href="developer/embedded/azure-pbie-what-is-power-bi-embedded.md">Power BI Embedded란?</a><br/> 
+                                                <a href="developer/embedded/embed-sample-for-customers.md">자습서: Power BI Embedded </a> 
                                     </div> 
                               </div> 
                         </div> 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 11be774515552d10846b51863eda6c155b92b57f
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: b0ed499a272fc3f6fc0590117898c64551fedac1
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75758086"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79436091"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>Power BI의 콤보 차트 만들기 및 사용
 
@@ -41,7 +41,7 @@ Power BI 콤보 차트는 꺾은선형 차트와 세로 막대형 차트를 결�
    
 2. **소매점 분석 샘플 PBIX 파일**을 찾습니다.
 
-1. **소매점 분석 샘플 PBIX 파일**을 보고서 보기 ![보고서 보기 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
+1. **소매점 분석 샘플 PBIX 파일**을 보고서 보기 아이콘 ![보고서 보기 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
 
 1. 새 페이지를 추가하기 위해 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
 
@@ -98,8 +98,7 @@ Will이 판매 및 샘플 마케팅을 사용하여 콤보 차트를 만드는 �
    ![클러스터 콤보 차트 예](media/power-bi-visualization-combo-chart/power-bi-clustered-combo.png)    
 
 ## <a name="add-titles-to-the-axes"></a>축에 제목 추가
-1. 페인트 롤러 아이콘 
-1. ![페인트 롤러 아이콘](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) 서식 창을 열려면.
+1. 페인트 롤러 아이콘 ![페인트 롤러 아이콘](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) 서식 창을 열려면.
 1. 아래쪽 화살표를 선택하여 **Y축** 옵션을 확장합니다.
 1. **Y축(열)** 에 대해 **위치**를 **왼쪽**으로 설정하고, **제목**을 **켬**으로 설정하고, **스타일**을 **제목만 표시**로 설정하고, **표시 단위**를 **백만**으로 설정합니다.
 

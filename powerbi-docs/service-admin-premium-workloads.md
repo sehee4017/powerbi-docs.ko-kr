@@ -9,16 +9,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/14/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: ae05fdcd3a38f10707e991524bac61a305b88794
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: de988442edf4c60841bac757bb67ea5ed5038b25
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427717"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207968"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>프리미엄 용량에서 워크로드 구성
 
-이 문서에서는 Power BI Premium 용량에 대한 워크로드를 사용하도록 설정하고 구성하는 방법을 설명합니다. 기본적으로 용량은 Power BI 쿼리 실행과 관련된 워크로드만 지원합니다. **[AI(Cognitive Services)](service-cognitive-services.md)** , **[데이터 흐름](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)** 및 **[페이지를 매긴 보고서](paginated-reports-save-to-power-bi-service.md)** 에 대해 추가 워크로드를 사용하도록 설정하고 구성할 수도 있습니다.
+이 문서에서는 Power BI Premium 용량에 대한 워크로드를 사용하도록 설정하고 구성하는 방법을 설명합니다. 기본적으로 용량은 Power BI 쿼리 실행과 관련된 워크로드만 지원합니다. **[AI(Cognitive Services)](service-cognitive-services.md)** , **[데이터 흐름](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)** 및 **[페이지를 매긴 보고서](paginated-reports/paginated-reports-save-to-power-bi-service.md)** 에 대해 추가 워크로드를 사용하도록 설정하고 구성할 수도 있습니다.
 
 ## <a name="default-memory-settings"></a>기본 메모리 설정
 
@@ -67,7 +67,7 @@ AI 워크로드를 통해 Power BI에서 인식 서비스 및 자동화된 기�
 | **최대 중간 행 집합 수** | DirectQuery에서 반환되는 중간 행의 최대 수입니다. 기본값은 1000000이며, 허용 범위는 100000~2147483647입니다. |
 | **최대 오프라인 데이터 세트 크기(GB)** | 메모리에 있는 오프라인 데이터 세트의 최대 크기입니다. 디스크의 압축 크기입니다. 기본값은 SKU로 설정되고, 허용 범위는 0.1~10GB입니다. |
 | **최대 결과 행 집합 수** | DAX 쿼리에서 반환되는 행의 최대 수입니다. 기본값은 -1(제한 없음)이며, 허용 범위는 100000~2147483647입니다. |
-| **쿼리 메모리 한도(%)** | MDX 또는 DAX 쿼리를 실행하는 데 사용할 수 있는 워크로드에서 사용 가능한 메모리의 최대 비율입니다. |
+| **쿼리 메모리 한도(%)** | MDX 또는 DAX 쿼리를 실행하는 데 사용할 수 있는 워크로드에서 사용 가능한 메모리의 최대 비율입니다. 기본값은 0이며, 이로 인해 SKU별 자동 쿼리 메모리 제한이 적용됩니다. |
 | **쿼리 제한 시간(초)** | 쿼리 시간이 초과되기 전까지의 최대 시간입니다. 기본값은 3600초(1시간)입니다. 값이 0이면 쿼리가 시간 초과되지 않도록 지정됩니다. |
 | **자동 페이지 새로 고침(미리 보기)** | 프리미엄 작업 영역이 자동 페이지 새로 고침을 사용하여 보고서를 포함할 수 있도록 토글을 설정/해제합니다. |
 | **최소 새로 고침 간격** | 자동 페이지 새로 고침이 설정된 경우 페이지 새로 고침 간격에 허용되는 최소 간격. 기본값은 5분이고 허용되는 최소값은 1초입니다. |
@@ -102,6 +102,14 @@ AI 워크로드를 통해 Power BI에서 인식 서비스 및 자동화된 기�
 이 설정은 Power BI 보고서, Excel에서 분석 보고서, 그리고 XMLA 끝점을 통해 연결할 수 있는 기타 도구에 의해 실행되는 모든 DAX 및 MDX 쿼리에 적용됩니다.
 
 데이터 새로 고침 작업은 데이터 세트의 데이터를 새로 고친 후 대시보드 타일 및 시각적 캐시를 새로 고치는 과정에서 DAX 쿼리를 실행할 수도 있습니다. 이 설정으로 인해 이러한 쿼리가 실패할 수도 있으며, 이 때문에 데이터 세트의 데이터가 성공적으로 업데이트되더라도 이 데이터 새로 고침 작업이 실패 상태로 표시될 수 있습니다.
+
+기본 설정은 0이며, 이로 인해 다음과 같은 SKU별 자동 쿼리 메모리 제한이 적용됩니다.
+
+|                              | EM1 / A1 | EM2 / A2 | EM3 / A3 | P1 / A4 | P2 / A5 | P3 / A6 |   
+|------------------------------|----------|----------|----------|---------|---------|---------|
+| 자동 쿼리 메모리 한도 | 1GB     | 2GB     | 2GB     | 6GB    | 6GB    | 10GB   |
+|                              |          |          |          |         |         |         |
+
 
 #### <a name="query-timeout"></a>쿼리 시간 제한
 
@@ -200,7 +208,7 @@ Power BI 보고서에서는 용량에 대한 각 쿼리에 훨씬 적은 시간 
 
 [Power BI Premium 용량 최적화](service-premium-capacity-optimize.md)     
 [데이터 흐름을 사용한 Power BI의 셀프 서비스 데이터 준비](service-dataflows-overview.md)   
-[Power BI Premium에서 페이지 수를 매긴 보고서란 무엇입니까?](paginated-reports-report-builder-power-bi.md)   
+[Power BI Premium에서 페이지 수를 매긴 보고서란 무엇입니까?](paginated-reports/paginated-reports-report-builder-power-bi.md)   
 [Power BI Desktop에서의 자동 페이지 새로 고침(미리 보기)](desktop-automatic-page-refresh.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 문의](https://community.powerbi.com/)

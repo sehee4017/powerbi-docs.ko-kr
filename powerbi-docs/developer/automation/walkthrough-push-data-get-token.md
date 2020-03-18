@@ -8,22 +8,22 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/29/2019
-ms.openlocfilehash: 4b1c890a69863f3e05dee052efe9529b174f0874
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 7e74b01a6b12302393a3e4bc40b2e9cccfc13d63
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079120"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488272"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>2단계: 인증 액세스 토큰 가져오기
 
 이 문서는 시리즈 [Power BI 데이터 세트에 데이터 푸시](walkthrough-push-data.md)의 두 번째 단계입니다.
 
-1단계에서 [Azure AD에 클라이언트 앱을 등록했습니다](../register-app.md). 이 단계에서는 인증 액세스 토큰을 가져옵니다. Power BI 앱이 Azure Active Directory와 통합되어 앱에 보안 로그인 및 앱에 권한 부여를 제공합니다. 앱은 토큰을 사용하여 Azure AD에 인증하고 Power BI 리소스에 액세스합니다.
+1단계에서 [Azure AD에 클라이언트 앱을 등록했습니다](../embedded/register-app.md). 이 단계에서는 인증 액세스 토큰을 가져옵니다. Power BI 앱이 Azure Active Directory와 통합되어 앱에 보안 로그인 및 앱에 권한 부여를 제공합니다. 앱은 토큰을 사용하여 Azure AD에 인증하고 Power BI 리소스에 액세스합니다.
 
 ## <a name="get-an-authentication-access-token"></a>인증 액세스 토큰 가져오기
 
-시작하기 전에 [Power BI 데이터 세트에 데이터 푸시](walkthrough-push-data.md) 시리즈에서 [이전 단계](../register-app.md)를 완료했는지 확인합니다. 
+시작하기 전에 [Power BI 데이터 세트에 데이터 푸시](walkthrough-push-data.md) 시리즈에서 [이전 단계](../embedded/register-app.md)를 완료했는지 확인합니다. 
 
 이 프로시저를 수행하려면 Visual Studio 2015 이상이 필요합니다.
 
@@ -39,7 +39,7 @@ ms.locfileid: "79079120"
 
 3. 이 단계 다음에 나열된 샘플 코드를 Program.cs에 추가합니다.
 
-4. 앱을 등록할 때 [이전 시리즈 문서](../register-app.md)에서 가져온 **클라이언트 ID**가 있는 "{ClientID}"로 바꿉니다.
+4. 앱을 등록할 때 [이전 시리즈 문서](../embedded/register-app.md)에서 가져온 **클라이언트 ID**가 있는 "{ClientID}"로 바꿉니다.
 
 5. 콘솔 앱을 실행하고 Power BI 계정에 로그인합니다. 
 

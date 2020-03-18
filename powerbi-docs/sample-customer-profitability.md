@@ -10,11 +10,11 @@ ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 160c5736bc2894e629f5bb375dd07e993def1e0c
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74265545"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205300"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI용 고객 수익성 샘플 둘러보기
 
@@ -111,7 +111,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 
     ![Carlos에 대한 결과](media/sample-customer-profitability/power-bi-carlos.png)
 
-4. 계속 탐색하세요. 흥미로운 항목을 찾으면 오른쪽 위에서 **고정** 아이콘 ![고정 아이콘](media/sample-customer-profitability/power-bi-excel-pin.png)을 선택하여 [대시보드에 고정](service-dashboard-pin-tile-from-excel.md)합니다.
+4. 계속 탐색하세요. 흥미로운 항목을 찾으면 오른쪽 위에서 **고정** ![고정 아이콘](media/sample-customer-profitability/power-bi-excel-pin.png)을 선택하여 [대시보드에 고정](service-dashboard-pin-tile-from-excel.md)합니다.
 
 5. 대시보드로 돌아가려면 브라우저의 뒤로 화살표를 사용합니다.
 

@@ -1,19 +1,19 @@
 ---
 title: 혼합 현실용 Power BI 앱(미리 보기)
 description: 가상 환경 또는 사용자 환경 컨텍스트에서 사용하는 동안 혼합 현실용 Power BI 앱(미리 보기)에서 대시보드 및 보고서를 봅니다.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/05/2018
-ms.author: mshenhav
-ms.openlocfilehash: 04a77aa9a5a464baf0ce1c9a88604d84ad0feb53
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 99e9c407a92d126ddc4c6f4822106cfa6458dbac
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879140"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205921"
 ---
 # <a name="power-bi-for-mixed-reality-app-preview"></a>혼합 현실용 Power BI 앱(미리 보기)
 가상 환경을 사용하는 동안 혼합 현실용 Power BI 앱(미리 보기)에서 대시보드 및 보고서를 확인하거나 사용자 환경 컨텍스트의 특정 위치에 배치합니다. 
@@ -60,7 +60,7 @@ Windows 클래식 보기에서 항목을 고정한 후에 **전체 화면** 아�
 
 **"도킹"** 
 
-쉽게 액세스하기 위해 기본 가시 영역의 외부에서 사용자를 따르도록 "도킹" 명령을 사용하여 Power BI 도킹 벨트에 아티팩트를 배치합니다.
+쉽게 액세스하기 위해 기본 가시 영역의 외부에서 사용자를 따르도록 "dock" 명령을 사용하여 Power BI 도킹 벨트에 아티팩트를 배치합니다.
 
 **"여기 배치"**
 
@@ -70,7 +70,7 @@ Windows 클래식 보기에서 항목을 고정한 후에 **전체 화면** 아�
 
 **"홈으로 이동"**
 
-Power BI 클래식 Windows 보기로 돌아가려면 "Go home"이라고 말합니다. 
+Power BI 클래식 Windows 보기로 돌아가려면 "go home"이라고 말합니다. 
 
 **"제거"**
 

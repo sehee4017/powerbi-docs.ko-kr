@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 055878988a197b80a8e4842a6567966f75af2ce5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 88e7e4b83f303f2b366f276b5020194f55f21f25
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880135"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380725"
 ---
 # <a name="sync-slicers-in-power-bi-visuals"></a>Power BI 시각적 개체의 슬라이서 동기화
 
@@ -38,6 +38,6 @@ ms.locfileid: "73880135"
 > [!NOTE]
 > 슬라이서 동기화 기능은 하나의 필드만 지원합니다. 슬라이서에 둘 이상의 필드(**범주** 또는 **측정값**)가 있으면, 이 기능을 사용할 수 없습니다.
 
-![“슬라이서 동기화” 창](./media/sync-slicers-panel.png)
+![“슬라이서 동기화” 창](media/enable-sync-slicers/sync-slicers-panel.png)
 
 **슬라이서 동기화** 창에서 여러 보고서 페이지에 슬라이서 표시 유형과 해당 필터링을 적용할 수 있는 것을 확인할 수 있습니다.
