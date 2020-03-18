@@ -110,3 +110,5 @@
       items:
         - name: 모바일 앱에서 지원되는 언어
           href: mobile-apps-supported-languages.md
+        - name: Windows 10 모바일용 Power BI - Windows Phone 에 대한 지원 종료
+          href: 'https://go.microsoft.com/fwlink/?linkid=2121400'

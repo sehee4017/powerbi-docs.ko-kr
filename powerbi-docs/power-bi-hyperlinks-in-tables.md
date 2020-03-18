@@ -45,7 +45,7 @@ Power BI Desktop에서는 URL이 포함된 필드를 하이퍼링크로 서식 �
 
 ## <a name="create-a-table-or-matrix-with-a-hyperlink"></a>하이퍼링크가 있는 테이블 또는 행렬 만들기
 
-1. [하이퍼링크를 URL로 서식 지정](#format-a-url-as-a-hyperlink-in-power-bi-desktop)한 다음 보고서 뷰로 전환합니다.
+1. [하이퍼링크를 URL로 서식 지정](#format-a-url-as-a-hyperlink-in-power-bi-desktop)한 다음 보고서 보기로 전환합니다.
 2. 웹 URL로 분류한 필드를 사용하여 테이블 또는 행렬을 만듭니다. 하이퍼링크는 밑줄과 함께 파란색으로 표시됩니다.
 
     ![파란색 및 밑줄이 표시된 링크](media/power-bi-hyperlinks-in-tables/power-bi-url-blue-underline.png)

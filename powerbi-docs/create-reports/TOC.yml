@@ -145,7 +145,7 @@
               href: ../desktop-grouping-and-binning.md
             - name: R을 사용하여 Power BI 만들기
               href: ../desktop-r-visuals.md
-            - name: R 지원 사용자 지정 시각적 개체 다운로드 및 사용
+            - name: R 지원 Power BI 시각적 개체 다운로드 및 사용
               href: ../desktop-r-powered-custom-visuals.md
             - name: 눈금선 및 눈금에 맞춤 적용
               href: ../desktop-gridlines-snap-to-grid.md

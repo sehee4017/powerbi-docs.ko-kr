@@ -13,6 +13,9 @@
             - name: 소비자
               tocHref: /power-bi/consumer/
               topicHref: /power-bi/consumer/index
+            - name: 모바일
+              tocHref: /power-bi/consumer/mobile/
+              topicHref: /power-bi/consumer/mobile/index
             - name: 개발자
               tocHref: /power-bi/developer/
               topicHref: /power-bi/developer/index
