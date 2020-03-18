@@ -61,7 +61,7 @@ ms.locfileid: "75762281"
 
     ![보고서 캔버스의 질문 및 답변 시각적 개체](media/power-bi-visualization-q-and-a/power-bi-qna.png)
 
-3. 시각적 개체를 만들려면 제안된 질문 중 하나를 선택하거나 질문 상자에 입력을 시작합니다. 이 예제에서는 **매출 합계별 상위 지역 주**를 선택했습니다. Power BI는 최선을 다해 사용할 시각적 개체 유형을 선택합니다. 이 예제에서는 지도입니다.
+3. 시각적 개체를 만들려면 제안된 질문 중 하나를 선택하거나 질문 상자에 입력을 시작합니다. 이 예제에서는 **top geo states by sum of revenue**를 선택했습니다. Power BI는 최선을 다해 사용할 시각적 개체 유형을 선택합니다. 이 예제에서는 지도입니다.
 
     ![질문 및 답변 시각적 개체 지도](media/power-bi-visualization-q-and-a/power-bi-map.png)
 

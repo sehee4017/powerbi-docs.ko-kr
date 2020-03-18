@@ -114,7 +114,7 @@ vs.
 
 ![분해 트리 교차 필터링](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter1.png)
 
-그러나 가로 막대형 차트에서 **4월**을 선택하면 최대값이 **제품 유형이 첨단 수술**로 바뀝니다. 이 경우 노드가 다시 정렬되었을 뿐만 아니라 완전히 다른 열이 선택되었습니다. 
+그러나 가로 막대형 차트에서 **4월**을 선택하면 최대값이 **Product Type 이 Advanced Surgical**로 바뀝니다. 이 경우 노드가 다시 정렬되었을 뿐만 아니라 완전히 다른 열이 선택되었습니다. 
 
 ![분해 트리 교차 필터링](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter2.png)
 
@@ -139,7 +139,7 @@ AI 수준이 비 AI 수준처럼 동작하게 하려면 전구를 선택하여 �
 
 AI 분할은 다음과 같은 시나리오에서 지원되지 않습니다.  
 -   Azure Analysis Services
--   직접 쿼리
+-   DirectQuery
 -   Power BI Report Server
 -   웹에 게시
 -   복잡한 측정값과 '분석' 내 확장 스키마의 측정값
