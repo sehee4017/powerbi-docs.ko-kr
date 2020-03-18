@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 10/25/2019
-  ms.openlocfilehash: 94800e2b5996b9b9fc6bf60c4c95dd72b0725b81
-  ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+  ms.openlocfilehash: b03678dba371ed26a8965c2ebbcd26453689cea2
+  ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 03/14/2020
-  ms.locfileid: "79378251"
+  ms.lasthandoff: 03/18/2020
+  ms.locfileid: "79487766"
 landingContent:
 - title: 개발자용 Power BI 정보
   linkLists:
@@ -26,9 +26,9 @@ landingContent:
     - text: 개발자가 수행할 수 있는 작업
       url: what-can-you-do.md
     - text: Power BI의 시각적 개체
-      url: power-bi-custom-visuals.md
+      url: visuals/power-bi-custom-visuals.md
     - text: 포함 항목
-      url: embedding.md
+      url: embedded/embedding.md
     - text: Power BI API란?
       url: automation/overview-of-power-bi-rest-api.md
   - linkListType: reference
@@ -52,42 +52,42 @@ landingContent:
   - linkListType: concept
     links:
     - text: 시각적 개체 FAQ
-      url: power-bi-custom-visuals-faq.md
+      url: visuals/power-bi-custom-visuals-faq.md
     - text: 시각적 개체에 대한 지침
-      url: guidelines-powerbi-visuals.md
+      url: visuals/guidelines-powerbi-visuals.md
     - text: 시각적 개체의 고급 편집 모드
       url: visuals/advanced-edit-mode.md
   - linkListType: how-to-guide
     links:
     - text: 시각적 개체 인증받기
-      url: power-bi-custom-visuals-certified.md
+      url: visuals/power-bi-custom-visuals-certified.md
     - text: AppSource에 Power BI 시각적 개체 게시하기
-      url: office-store.md
+      url: visuals/office-store.md
 - title: 임베디드 분석
   linkLists:
   - linkListType: tutorial
     links:
     - text: 고객용 콘텐츠 포함
-      url: embed-sample-for-customers.md
+      url: embedded/embed-sample-for-customers.md
     - text: 조직용 콘텐츠 포함
-      url: embed-sample-for-your-organization.md
+      url: embedded/embed-sample-for-your-organization.md
   - linkListType: concept
     links:
     - text: 행 수준 보안
-      url: embedded-row-level-security.md
+      url: embedded/embedded-row-level-security.md
     - text: 다중 테넌트 관리
-      url: embed-multi-tenancy.md
+      url: embedded/embed-multi-tenancy.md
     - text: 임베디드 FAQ
-      url: embedded-faq.md
+      url: embedded/embedded-faq.md
     - text: 권한
-      url: power-bi-permissions.md
+      url: embedded/power-bi-permissions.md
   - linkListType: how-to-guide
     links:
     - text: 앱에서 포함
-      url: embed-from-apps.md
+      url: embedded/embed-from-apps.md
     - text: Azure Active Directory 테넌트 만들기
-      url: create-an-azure-active-directory-tenant.md
+      url: embedded/create-an-azure-active-directory-tenant.md
     - text: Azure AD 액세스 토큰 가져오기
-      url: get-azuread-access-token.md
+      url: embedded/get-azuread-access-token.md
     - text: Power BI Embedded의 Q&A 기능
-      url: qanda.md
+      url: embedded/qanda.md
