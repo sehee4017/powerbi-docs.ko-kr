@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 538c533a1b951fd2dff1b481adb94e2b1d0cf87b
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 955a14b37d59f554fb12b302c16472387c896e54
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79213606"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488594"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Azure Active Directory B2B를 사용하여 외부 게스트 사용자에게 Power BI 콘텐츠 배포
 
@@ -336,7 +336,7 @@ Azure AD 계정이 외부 협력업체의 Azure AD에서 사용되거나 생성�
 Contoso는 공급자 및 파트너 조직의 게스트 사용자에 게 Power BI 콘텐츠에 대 한 액세스를 허가 하는 세 가지 방법 중 하나를 선택할 수 있습니다.
 
 > [!NOTE]
-> Azure _Ad B2B's 무료 계층은 AZURE AD B2B와 Power BI를 사용 하기에 충분 합니다. 동적 그룹과 같은 일부 고급 Azure AD B2B 기능을 위해서는 추가 라이선스가 필요 합니다. 추가 정보는 Azure AD B2B 설명서를 참조 하세요._ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
+> Azure _Ad B2B's 무료 계층은 AZURE AD B2B와 Power BI를 사용 하기에 충분 합니다. 동적 그룹과 같은 일부 고급 Azure AD B2B 기능을 위해서는 추가 라이선스가 필요 합니다. 추가 정보는 Azure AD B2B 설명서를 참조 하세요._ [ _https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_ ](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
 
 ### <a name="approach-1-contoso-uses-power-bi-premium"></a>방법 1: Contoso에서 Power BI Premium 사용
 
@@ -572,11 +572,11 @@ Azure AD B2B를 사용하면 조직 전체에서 데이터와 보고서를 쉽�
 - Contoso는 사용자 단위 라이선스를 구매하여 이러한 사용자에게 할당해야 합니다. 사용자가 전자 메일을 받거나 Office 응용 프로그램을 사용해야 하는 경우, Power BI에서 콘텐츠를 편집하고 공유하기 위한 Power BI Pro를 포함하여 적절한 라이선스가 필요합니다.
 - Contoso는 내부 사용자와 비교하여 외부 사용자에게 보다 엄격한 권한 부여 및 거버넌스 정책을 적용하려고 할 수 있습니다. 이를 위해 Contoso는 외부 사용자를 위한 사내 명명법을 만들어야 하며 모든 Contoso 사용자는 이 명명법에 대해 교육을 받아야 합니다.
 - 사용자가 조직을 떠날 때 Contoso 관리자가 수동으로 계정을 삭제할 때까지 Contoso의 리소스에 계속 액세스할 수 있습니다.
-- - Contoso 관리자는 생성, 암호 다시 설정 등을 비롯하여 게스트에 대한 ID를 관리해야 합니다.
+- \- Contoso 관리자는 생성, 암호 다시 설정 등을 비롯하여 게스트에 대한 ID를 관리해야 합니다.
 
 ### <a name="alternative-option-2-create-a-custom-power-bi-embedded-application-using-custom-authentication"></a>대체 옵션 2: 사용자 지정 인증을 사용 하 여 사용자 지정 Power BI Embedded 응용 프로그램 만들기
 
-Contoso의 또 다른 옵션은 사용자 지정 인증 ([' 앱 소유 데이터 '](https://docs.microsoft.com/power-bi/developer/embed-sample-for-customers))을 사용 하 여 고유한 사용자 지정 포함 Power BI 응용 프로그램을 빌드하는 것입니다. 많은 조직에는 사용자 지정 응용 프로그램을 만들어 외부 파트너에게 Power BI 콘텐츠를 배포하는 데 필요한 시간 또는 리소스가 없지만, 일부 조직에서는 이 방법이 가장 적합하고 심각하게 고려할 가치가 있습니다.
+Contoso의 또 다른 옵션은 사용자 지정 인증 ([' 앱 소유 데이터 '](https://docs.microsoft.com/power-bi/developer/embedded/embed-sample-for-customers))을 사용 하 여 고유한 사용자 지정 포함 Power BI 응용 프로그램을 빌드하는 것입니다. 많은 조직에는 사용자 지정 응용 프로그램을 만들어 외부 파트너에게 Power BI 콘텐츠를 배포하는 데 필요한 시간 또는 리소스가 없지만, 일부 조직에서는 이 방법이 가장 적합하고 심각하게 고려할 가치가 있습니다.
 
 종종 조직에는 파트너에 대한 모든 조직 리소스에 대한 액세스를 중앙 집중화하고, 내부 조직 리소스에서 격리를 제공하고, 파트너가 많은 파트너와 개별 사용자를 지원할 수 있는 간소화된 환경을 제공하는 기존 파트너 포털이 있습니다.
 
