@@ -7,14 +7,14 @@ ms.reviewer: rkarlin
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 6854dad244636854cc8b77ddf1ffc15342281771
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a631e6f5baf7942b81ce22a238d80f4aea40d022
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76818896"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379704"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>Power BI 시각적 개체 선택 항목별로 시각적 개체에 대화형 작업 추가
 
@@ -179,11 +179,11 @@ export interface ISelectionIdBuilder {
 | Nissan | **수입 승용차** | 5485 |
 | Toyota | **수입 승용차** | 20799 |
 
-![범주 및 계열에 대한 선택 항목이 포함된 시각적 개체](media/visual-selections-sample.png)
+![범주 및 계열에 대한 선택 항목이 포함된 시각적 개체](media/selection-api/visual-selections-sample.png)
 
 시각적 데이터 바구니를 채워야 합니다.
 
-![선택 항목이 포함된 시각적 개체의 데이터 바구니](media/visual-selections-databuckets.png)
+![선택 항목이 포함된 시각적 개체의 데이터 바구니](media/selection-api/visual-selections-databuckets.png)
 
 범주(열)로 `Manufacturer`, 계열(행)로 `Type`, 계열에 대한 `Values`로 `Value`가 있습니다.
 

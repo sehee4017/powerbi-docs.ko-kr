@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 320e8a25206a069c43800295ab64a7ab87afbcf0
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.openlocfilehash: 98af83c726cfd4e5b4e6744cbcfa1f7e5a69f57b
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75885243"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381448"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>시각적 개체 유형별 데이터 요소 제한 및 전략 적용
 
@@ -74,7 +74,7 @@ Power BI에서 시각적 개체를 렌더링할 경우 시각화가 빠르고 �
 ### <a name="combo-chart"></a>콤보 차트
  세로 막대형 차트와 동일한 전략을 사용합니다. **콤보 차트**의 선은 **꺾은선형 차트**에서 사용하는 고밀도 알고리즘을 사용하지 않습니다.
 
-### <a name="custom-visuals"></a>사용자 지정 시각적 개체
+### <a name="power-bi-visuals"></a>Power BI 시각적 개체
 최대 30,000개를 가져올 수 있지만 어떤 전략을 사용할지는 시각적 개체 작성자의 마음입니다. 기본 제한은 1,000개이지만 시각적 개체 생성자가 이를 최대 30,000개까지로 변경할 수 있습니다.
 
 ### <a name="doughnut"></a>도넛형

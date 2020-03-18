@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 1bf7cc85411fef27e626c330cc07207187302bfc
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: aed0d1e4dec6f6efe49dd39cd5b6fc60f8977e44
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427740"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488617"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Power BI 프리미엄 구매 방법
 
@@ -112,7 +112,7 @@ Microsoft 365 관리 센터 내에서 구독을 취소할 수 있습니다. 프�
 
 A SKU는 Azure Power BI Embedded 서비스를 통해 제공됩니다. A SKU는 다음과 같은 방법으로 사용할 수 있습니다.
 
-- 타사 애플리케이션에서 Power BI 포함을 사용하도록 설정합니다. 자세한 내용은 [Power BI Embedded](developer/azure-pbie-what-is-power-bi-embedded.md)를 참조하세요.
+- 타사 애플리케이션에서 Power BI 포함을 사용하도록 설정합니다. 자세한 내용은 [Power BI Embedded](developer/embedded/azure-pbie-what-is-power-bi-embedded.md)를 참조하세요.
 
 - P SKU를 구입하기 전에 Premium 기능을 테스트합니다.
 

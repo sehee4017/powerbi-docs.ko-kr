@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 1b927bcca087e832138e4ac02c555e34915febd9
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 4745935e618f47f6092f6a33d879dd95d59b9963
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079327"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488295"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>데이터 세트에 데이터 푸시 전체 코드 목록
 
@@ -225,7 +225,7 @@ ms.locfileid: "79079327"
 ## <a name="next-steps"></a>다음 단계
 
 * [Power BI 데이터 세트에 데이터 푸시](walkthrough-push-data.md)
-* [Azure AD에 앱 등록](../register-app.md)  
+* [Azure AD에 앱 등록](../embedded/register-app.md)  
 * [인증 액세스 토큰 가져오기](walkthrough-push-data-get-token.md)  
 * [Power BI에서 데이터 세트 만들기](walkthrough-push-data-create-dataset.md)  
 * [Power BI 테이블에 행을 추가할 데이터 세트 가져오기](walkthrough-push-data-get-datasets.md)  

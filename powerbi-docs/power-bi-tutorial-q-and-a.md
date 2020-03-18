@@ -8,18 +8,18 @@ ms.topic: conceptual
 ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 183ce11457069612f84bb834d7060a047cae1866
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 71a727d1d7e39661ed86a4fdf574e3f1fa8fb595
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73875084"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488870"
 ---
 # <a name="use-power-bi-qa-to-explore-your-data-and-create-visuals"></a>Power BI 질문 및 답변을 사용하여 데이터 탐색 및 시각적 개체 만들기
 
 경우에 따라 자연어를 사용하여 질문을 하면 가장 빠르게 사용자 데이터로 답변을 받을 수 있습니다. Power BI의 질문 및 답변 기능을 사용하여 평소 사용하는 표현으로 데이터를 탐색할 수 있습니다.  이 문서의 첫 번째 부분에서는 Power BI 서비스의 대시보드에서 질문 및 답변을 사용하는 방법을 보여 줍니다. 두 번째 부분에서는 Power BI 서비스나 Power BI Desktop에서 보고서를 만들 때 질문 및 답변을 사용하여 수행할 수 있는 작업을 보여 줍니다. 자세한 배경 정보는 [소비자를 위한 질문 및 답변](consumer/end-user-q-and-a.md) 문서를 참조하세요. 
 
-[Power BI 모바일 앱의 질문 및 답변](consumer/mobile/mobile-apps-ios-qna.md) 및 [Power BI Embedded의 질문 및 답변](developer/qanda.md)은 별도의 문서에서 다룹니다. 
+[Power BI 모바일 앱의 질문 및 답변](consumer/mobile/mobile-apps-ios-qna.md) 및 [Power BI Embedded의 질문 및 답변](developer/embedded/qanda.md)은 별도의 문서에서 다룹니다. 
 
 질문 및 답변은 대화형이며 재미도 있습니다. 시각화가 관심 있는 경로를 표시하기 때문에 한 가지 질문이 다른 것들로 이어지는 경우가 많습니다. Amanda가 질문 및 답변을 사용하여 시각화를 만들고, 시각적 개체를 자세히 살펴보고, 대시보드에 고정하는 과정을 시청합니다.
 

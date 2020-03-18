@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f9832948fdd25d1bd807e0ff5d916b08b55aea95
-ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+ms.openlocfilehash: fdd7504823f088ed0e88657a6fcccaeb9a5a36d0
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77155022"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79487812"
 ---
 # <a name="tenant-admin-settings-guidance"></a>테넌트 관리자 설정 지침
 
@@ -128,7 +128,7 @@ ms.locfileid: "77155022"
 
 ### <a name="developer-settings"></a>개발자 설정
 
-[Power BI 콘텐츠 포함](../developer/embedding.md)과 관련된 테넌트 설정에는 두 가지가 있습니다. 아래에 이 계정과 키의 예제가 나와 있습니다.
+[Power BI 콘텐츠 포함](../developer/embedded/embedding.md)과 관련된 테넌트 설정에는 두 가지가 있습니다. 아래에 이 계정과 키의 예제가 나와 있습니다.
 
 - 앱에 콘텐츠 포함(기본적으로 사용하도록 설정됨)
 - 서비스 주체가 Power BI API를 사용하도록 허용(기본적으로 사용할 수 없도록 설정됨)
