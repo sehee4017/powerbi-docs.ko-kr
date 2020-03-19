@@ -12,6 +12,8 @@
     - name: 자습서
       expanded: true
       items:
+        - name: 온라인 과정
+          href: paginated-reports-online-course.md
         - name: '실습 랩: 페이지가 매겨진 보고서 만들기'
           href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
         - name: 페이지를 매긴 보고서 만들기 및 업로드

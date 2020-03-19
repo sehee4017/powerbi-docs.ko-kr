@@ -51,6 +51,8 @@
               href: ../service-url-filters.md
             - name: 직접 및 다른 사용자 구독
               href: ../service-report-subscribe.md
+            - name: 홈의 기능 콘텐츠
+              href: service-featured-content.md
             - name: Microsoft Teams에 보고서 포함
               href: ../service-embed-report-microsoft-teams.md
             - name: SharePoint Online에 보고서 포함

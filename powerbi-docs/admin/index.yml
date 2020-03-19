@@ -11,13 +11,13 @@ metadata:
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 03/03/2020
-  ms.openlocfilehash: b419ba38a28d3f4a05ea7c6db2b595af86df288d
-  ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+  ms.date: 03/17/2020
+  ms.openlocfilehash: 12bd1e2ac706925301ca139bd84cef249c71e18c
+  ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 03/07/2020
-  ms.locfileid: "78919440"
+  ms.lasthandoff: 03/18/2020
+  ms.locfileid: "79488479"
 landingContent:
 - title: 관리자 및 엔터프라이즈를 위한 Power BI
   linkLists:
@@ -25,6 +25,8 @@ landingContent:
     links:
     - text: Power BI 관리란?
       url: ../service-admin-administering-power-bi-in-your-organization.md
+    - text: Power BI Premium이란?
+      url: ../service-premium-what-is.md
   - linkListType: concept
     links:
     - text: Office 365의 관리 역할
@@ -45,22 +47,12 @@ landingContent:
       url: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
     - text: Office 365 파트너와 함께 Power BI 추가
       url: ../service-admin-syndication-partner.md
-- title: 테넌트
+- title: 조직 관리
   linkLists:
-  - linkListType: how-to-guide
+  - linkListType: concept
     links:
-    - text: 내 테넌트는 어디에 있나요?
-      url: ../service-admin-where-is-my-tenant-located.md
-    - text: 로그인한 사용자 찾기
-      url: ../service-admin-access-usage.md
-    - text: Power BI 감사
-      url: ../service-admin-auditing.md
-    - text: 서비스 상태 추적
-      url: ../service-admin-health.md
-    - text: Power BI 계정 닫기
-      url: ../service-admin-closing-your-account.md
-- title: Power BI Premium
-  linkLists:
+    - text: 프리미엄 용량 시나리오
+      url: ../service-premium-capacity-scenarios.md
   - linkListType: how-to-guide
     links:
     - text: 내 테넌트는 어디에 있나요?
