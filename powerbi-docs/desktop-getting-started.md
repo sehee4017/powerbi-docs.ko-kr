@@ -6,22 +6,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/09/2019
+ms.date: 03/13/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b32eee568ba560e95899cf0965a11f3bb037aed6
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 719c07abdcdb42916db8a01a7fab28d3f6c98fba
+ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75222793"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79133332"
 ---
 # <a name="get-started-with-power-bi-desktop"></a>Power BI Desktop 시작
 Power BI Desktop 시작 가이드를 시작합니다. 이 둘러보기에서는 Power BI Desktop의 작동 방식, 수행할 수 있는 작업, 강력한 데이터 모델 및 놀라운 보고서를 작성하여 비즈니스 인텔리전스를 강화하는 방법을 보여 줍니다.
 
 Power BI Desktop의 작동 방식과 사용 방법의 간략한 개요는 이 가이드의 화면을 몇 분만 살펴보면 파악할 수 있습니다. 자세히 알아보려면 각 섹션의 내용을 읽고 단계를 수행한 다음, [Power BI 서비스](https://app.powerbi.com/)에 게시하고 다른 사용자와 공유할 Power BI Desktop 파일을 직접 만들어 보시기 바랍니다.
 
-![Power BI Desktop 보고서](media/desktop-getting-started/hero.png)
+![Power BI Desktop 보고서](media/desktop-getting-started/hero-02.png)
 
 [Power BI Desktop 시작](https://www.youtube.com/watch?v=Qgam9M8I0xA) 동영상를 보고 [재무 샘플](https://go.microsoft.com/fwlink/?LinkID=521962) Excel 통합 문서를 다운로드하여 동영상 내용에 따라 작업을 수행할 수도 있습니다.
 
@@ -337,7 +337,7 @@ Power BI에 로그인하거나 대상을 선택하라는 메시지가 표시될 
 Power BI Desktop 및 Power BI 서비스를 사용하여 여러 매력적인 데이터 관련 매시업 및 시각화를 수행할 수 있습니다. 
 
 ## <a name="next-steps"></a>다음 단계
-Power BI Desktop은 진단 포트에 연결하는 기능을 지원합니다. 다른 도구가 진단 포트에 연결하여 진단을 위해 추적 작업을 수행할 수 있습니다. 진단 포트를 *사용할 때는 모델을 변경할 수 없습니다. 모델을 변경하면 손상 및 데이터 손실로 이어질 수 있습니다.*
+Power BI Desktop은 진단 포트에 연결하는 기능을 지원합니다. 다른 도구가 진단 포트에 연결하여 진단을 위해 추적 작업을 수행할 수 있습니다. 진단 포트를 사용할 때는 모델을 변경할 수 없습니다. 모델을 변경하면 손상 및 데이터 손실로 이어질 수 있습니다.*
 
 Power BI Desktop의 다양한 기능에 대한 자세한 내용은 다음 리소스를 확인하세요.
 

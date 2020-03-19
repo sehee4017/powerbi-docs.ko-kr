@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6a3458de09cece30948ff848859f05ed8127d034
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a2ac2820c7beb3a82650716896ddd36b79c82e07
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75757856"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79436068"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Power BI의 등치 지역도(단계구분도) 만들기 및 사용
 
@@ -63,7 +63,7 @@ Bing에 전송되는 데이터에 대한 자세한 내용 및 지오코딩 성�
    > 
    > 
 
-[비디오 https://www.youtube.com/embed/ajTPGNpthcg]
+> [비디오 https://www.youtube.com/embed/ajTPGNpthcg ]
 
 ### <a name="create-a-filled-map"></a>등치 지역도 만들기
 1. 필드 창에서 **지역** \> **상태** 필드를 선택합니다.    
@@ -130,7 +130,7 @@ Power BI를 사용하면 등치 지역도의 모양을 다양한 방식으로 �
 
 Power BI Desktop의 데이터 세트를 편집할 수 있는 권한이 있는 경우 지도 모호성 해결을 위해 이 비디오를 시청하세요.
 
-[비디오 https://www.youtube.com/embed/Co2z9b-s_yM]
+> [비디오 https://www.youtube.com/embed/Co2z9b-s_yM ]
 
 위도 및 경도 데이터에 액세스할 수 없지만 데이터 세트에 대한 편집 액세스 권한이 있는 경우 [이 지침을 따라 데이터 세트를 업데이트하세요](https://support.office.com/article/Maps-in-Power-View-8A9B2AF3-A055-4131-A327-85CC835271F7).
 
