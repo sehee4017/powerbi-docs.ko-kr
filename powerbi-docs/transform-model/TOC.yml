@@ -75,6 +75,8 @@
               href: ../desktop-measures.md
             - name: KPI 가져오기 및 표시
               href: ../desktop-import-and-display-kpis.md
+            - name: 자동 날짜/시간 적용
+              href: ../desktop-auto-date-time.md
         - name: 셀프 서비스 데이터 준비
           items:
             - name: 데이터 흐름 만들기 및 사용
