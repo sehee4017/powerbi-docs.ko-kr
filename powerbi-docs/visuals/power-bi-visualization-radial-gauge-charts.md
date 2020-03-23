@@ -136,7 +136,7 @@ Will이 단일 메트릭 시각적 개체: 계기, 카드 및 KPI를 만드는 �
 
     ![선택 취소한 COGS 옵션의 스크린샷](media/power-bi-visualization-radial-gauge-charts/pbi-remove-target.png)
 
-1. **대상** 필드가 **게이지 축**아래에 나타나는 경우 값을 입력합니다.
+1. **대상** 필드가 **게이지 축** 아래에 나타나는 경우 값을 입력합니다.
 
      ![대상이 호출된 게이지 축 옵션의 스크린샷](media/power-bi-visualization-radial-gauge-charts/power-bi-gauge-target.png)
 
