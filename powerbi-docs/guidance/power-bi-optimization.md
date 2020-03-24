@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 0f29b70a42375be945d206672116219b7d5a3b48
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: d718c9c7f627d735c083a46c1483815e3744faca
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609998"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378872"
 ---
 # <a name="optimization-guide-for-power-bi"></a>Power BI 최적화 가이드
 
@@ -69,7 +69,7 @@ Power BI 보고서 디자인을 최적화하기 위한 몇 가지 권장 사항�
 
 #### <a name="evaluate-custom-visual-performance"></a>사용자 지정 시각적 개체 성능 평가
 
-높은 성능을 보장하기 위해 각 사용자 지정 시각적 개체의 역량에 대해 알아보아야 합니다. 제대로 최적화되지 않은 사용자 지정 시각적 개체는 전체 보고서의 성능에 부정적인 영향을 미칠 수 있습니다.
+높은 성능을 보장하기 위해 각 사용자 지정 시각적 개체의 역량에 대해 알아보아야 합니다. 제대로 최적화되지 않은 Power BI 시각적 개체는 전체 보고서의 성능에 부정적인 영향을 미칠 수 있습니다.
 
 ### <a name="power-bi-paginated-reports"></a>Power BI 페이지를 매긴 보고서
 

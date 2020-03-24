@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9cc5c40328955f54cb0f37567d7ff91d37a302ce
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 020967948e3f0551de50e4485be0dde450a4f18b
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128239"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378688"
 ---
 # <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>Power BI에서 R 지원 Power BI 시각적 개체 사용
 
 **Power BI Desktop** 및 **Power BI 서비스**에서는 R에 대한 지식이 없고 R 스크립팅을 사용하지 않아도 R 지원 Power BI 시각적 개체를 사용할 수 있습니다. 그러면 직접 R을 학습하거나 프로그래밍하지 않고도 R 시각적 개체 및 R 스크립트의 분석 및 시각적 기능을 활용할 수 있습니다.
 
-R 지원 Power BI 시각적 개체를 사용하려면 먼저 Power BI의 **Power BI 시각적 개체** [**AppSource**](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1) 갤러리에서 사용하려는 R 사용자 지정 시각적 개체를 선택하고 다운로드합니다.
+R 지원 Power BI 시각적 개체를 사용하려면 먼저 Power BI의 **Power BI 시각적 개체**[**AppSource**](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1) 갤러리에서 사용하려는 R 사용자 지정 시각적 개체를 선택하고 다운로드합니다.
 
 ![R 시각적 개체 1a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_1a.png)
 
@@ -129,7 +129,7 @@ Power BI 팀은 사용자에게 도달하기 전에 이러한 문제를 완화�
 
    b.  R 콘솔에서 다음을 실행합니다.
 
-       source(“C:/Users/david/Downloads/ScriptInstallPackagesForForecastWithWorkarounds.R”)
+       source("C:/Users/david/Downloads/ScriptInstallPackagesForForecastWithWorkarounds.R")
 
    일반적인 기본 설치 위치는 다음과 같습니다.
 
@@ -149,7 +149,7 @@ Power BI 팀은 사용자에게 도달하기 전에 이러한 문제를 완화�
 
 Power BI의 R에 대한 자세한 내용은 다음을 참조하세요.
 
-* [Power BI Power BI 시각적 개체 갤러리](https://app.powerbi.com/visuals/)
+* [Power BI 시각적 개체 갤러리](https://app.powerbi.com/visuals/)
 * [Power BI Desktop에서 R 스크립트 실행](desktop-r-scripts.md)
 * [Power BI Desktop에서 R 시각적 개체 만들기](desktop-r-visuals.md)
 * [Power BI로 외부 R IDE 사용](desktop-r-ide.md)

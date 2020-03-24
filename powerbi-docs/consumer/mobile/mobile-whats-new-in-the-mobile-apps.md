@@ -8,19 +8,22 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/09/2020
 ms.author: painbar
-ms.openlocfilehash: 97d2a3acba87309b74de1776f1325bb4c4a78910
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 6885f635f96da3bbea039f445e83cd7cada144ce
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79041570"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435976"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
 
 * [모바일 앱에 대한 Power BI 팀 블로그](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop의 새로운 기능](../../desktop-latest-update.md)  
-* [Power BI 서비스의 새로운 기능](../../service-whats-new.md)  
+* [Power BI 서비스의 새로운 기능](../../service-whats-new.md)
+
+>[!NOTE]
+>**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ## <a name="february-2020"></a>2020년 2월
 
@@ -396,7 +399,7 @@ Power BI 보고서에는 이제 iPad 앱의 새로 고침 단추가 있습니다
 
 #### <a name="improved-hyperlink-support"></a>하이퍼링크 지원 개선
 
-이제 사용자 지정 시각적 개체의 링크를 탭하여 모바일 브라우저에서 열 수 있습니다.
+이제 Power BI 시각적 개체의 링크를 탭하여 모바일 브라우저에서 열 수 있습니다.
 
 #### <a name="intune-integration-android"></a>Intune 통합(Android)
 
@@ -470,7 +473,7 @@ Power BI Desktop에서 휴대폰에 최적화된 페이지가 있는 보고서�
 #### <a name="all-devices"></a>All 디바이스
 **전화 보고서에 대한 배경색** Power BI Desktop에서 보고서에 대한 배경색을 정의하는 경우 전화 보고서는 동일한 배경색을 갖게 됩니다. [전화에 대한 보고서 페이지 최적화](../../desktop-create-phone-report.md)에 대해 자세히 알아봅니다.
 
-**모바일 친화적 사용자 지정 시각적 개체 개발** 모바일 디바이스에 잘 어울리고 제대로 작동하는 사용자 지정 시각적 개체 만들기 팁에 대해 이 [개발자 가이드](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md)를 참조하세요.
+**모바일 친화적인 Power BI 시각적 개체 개발** 모바일 디바이스에 잘 어울리고 제대로 작동하는 Power BI 시각적 개체 만들기에 대한 팁은 이 [개발자 가이드](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md)를 참조하세요.
 
 #### <a name="ios-devices"></a>iOS 디바이스
 **데이터와 통신: 말로 질문** 이제 입력하지 않고 이야기하여 [질문 및 답변으로 데이터에 대해 질문](mobile-apps-ios-qna.md)할 수 있습니다. 

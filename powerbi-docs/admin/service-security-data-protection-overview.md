@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/22/2020
+ms.date: 03/12/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: adfa99a3e973108d65a06361ed967bef2ce37eb3
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: fa373fca782a582ec2ac2ef60cb36322efaff327
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537212"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79205277"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Power BI의 데이터 보호(미리 보기)
 
@@ -105,9 +105,6 @@ Microsoft Cloud App Security를 사용하여 의도하지 않은 유출이나 �
 * [HYOK 보호](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions)는 Power BI에서 적용된 레이블에 대해 지원되지 않습니다.
 * Office 앱에서 레이블을 보고 적용하려면 [라이선스 요구 사항](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps#subscription-and-licensing-requirements-for-sensitivity-labels)을 충족해야 합니다.
 * 민감도 레이블은 글로벌(퍼블릭) 클라우드의 테넌트에만 지원됩니다. 다른 클라우드의 테넌트에서는 민감도 레이블이 지원되지 않습니다.
-* 민감도 레이블은 [외부 사용자(Azure Active Directory B2B 게스트 사용자)](../service-admin-azure-ad-b2b.md)를 지원하지 않습니다. 즉, 외부 사용자는 레이블을 볼 수 없고 데이터를 Excel, PDF 및 PPTX 파일로 내보내지 못하도록 차단됩니다. 외부 사용자가 해당 파일 형식으로 데이터를 내보낼 수 있도록 하려면 [레이블을 제거](../designer/service-security-apply-data-sensitivity-labels.md#removing-sensitivity-labels)하세요.
-
-
 
 ## <a name="next-steps"></a>다음 단계
 

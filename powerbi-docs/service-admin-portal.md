@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/25/2019
+ms.date: 03/16/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: d56e329d5331403c0ed0ce4da28bf73aea65d9a6
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 97aad9a72cba6fe195208902e2a3d986b3225a3d
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427878"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488709"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
@@ -277,6 +277,14 @@ Azure AD B2B 게스트 사용자는 조직의 콘텐츠를 편집하고 관리�
 
 ![메일 구독 사용](media/service-admin-portal/power-bi-manage-email-subscriptions.png)
 
+### <a name="featured-content"></a>주요 콘텐츠
+
+조직의 일부 또는 모든 보고서 작성자가 Power BI 홈의 추천 섹션에서 콘텐츠를 추천하도록 허용합니다. 새 사용자는 Power BI 홈페이지의 맨 위에서 추천 콘텐츠를 볼 수 있습니다. 사용자가 **즐겨찾기**, **자주 사용하는 항목** 및 **최근 항목**을 추가하면 추천 콘텐츠가 홈페이지 아래쪽으로 이동합니다. 
+
+먼저 작은 프로모터 세트로 시작하는 것이 좋습니다. 전체 조직이 홈에서 콘텐츠를 추천하도록 허용하면 모든 승격된 콘텐츠를 추적하기가 어려울 수 있습니다. 
+
+추천 콘텐츠를 사용하도록 설정한 후 관리 포털에서 관리할 수도 있습니다. 도메인에서 추천 콘텐츠를 제어하는 방법에 대한 자세한 내용은 이 문서의 [추천 콘텐츠 관리](#manage-featured-content)를 참조하세요.
+
 ## <a name="content-pack-and-app-settings"></a>콘텐츠 팩 및 앱 설정
 
 ### <a name="publish-content-packs-and-apps-to-the-entire-organization"></a>콘텐츠 팩과 앱을 전체 조직에 게시
@@ -312,17 +320,16 @@ Azure AD B2B 게스트 사용자는 조직의 콘텐츠를 편집하고 관리�
 
 조직의 사용자는 Azure Search에 의존하는 외부 검색 기능을 사용할 수 있습니다.
 
-## <a name="custom-visuals-settings"></a>사용자 지정 시각적 개체 설정
+## <a name="power-bi-visuals-settings"></a>Power BI 시각적 개체 설정
 
-### <a name="add-and-use-custom-visuals"></a>사용자 지정 시각적 개체 추가 및 사용
+### <a name="add-and-use-power-bi-visuals"></a>Power BI 시각적 개체 추가 및 사용
 
-조직의 사용자는 사용자 지정 시각적 개체를 조작하고 공유할 수 있습니다. [자세히 알아보기](developer/power-bi-custom-visuals.md)
+조직의 사용자는 Power BI 시각적 개체를 조작하고 공유할 수 있습니다. [자세히 알아보기](developer/visuals/power-bi-custom-visuals.md)
 
 > [!NOTE]
 > 이 설정은 전체 조직에 적용하거나 특정 그룹으로 제한할 수 있습니다.
 
-
-Power BI Desktop(3월 19일 릴리스부터 시작)은 **그룹 정책**을 사용하여 조직의 배포된 컴퓨터에서 사용자 지정 시각화 개체를 비활성화할 수 있도록 지원합니다.
+Power BI Desktop(3월 19일 릴리스부터 시작)은 **그룹 정책**을 사용하여 조직의 배포된 컴퓨터에서 Power BI 시각화 개체를 사용하지 않도록 설정할 수 있습니다.
 
 <table>
 <tr><th>특성</th><th>값</th>
@@ -335,16 +342,16 @@ Power BI Desktop(3월 19일 릴리스부터 시작)은 **그룹 정책**을 사�
 </tr>
 </table>
 
-1의 값(십진수)을 사용하면 Power BI에서 사용자 지정 시각적 개체를 사용할 수 있습니다(기본값).
+1의 값(십진수)을 사용하면 Power BI에서 Power BI 시각적 개체를 사용할 수 있습니다(기본값).
 
-0의 값(십진수)을 사용하면 Power BI에서 사용자 지정 시각적 개체를 사용할 수 있습니다.
+0의 값(십진수)을 사용하면 Power BI에서 Power BI 시각적 개체를 사용할 수 없습니다.
 
 ### <a name="allow-only-certified-visuals"></a>인증된 시각적 개체만 허용
 
-"사용자 지정 시각적 개체 추가 및 사용" 설정으로 표시된 사용자 지정 시각적 개체를 추가하고 사용할 수 있는 권한이 부여된 조직의 사용자는 [인증된 사용자 지정 시각적 개체](https://go.microsoft.com/fwlink/?linkid=2002010)만 사용할 수 있습니다(인증되지 않은 시각적 개체는 차단되고 사용 시 오류 메시지가 표시됨). 
+“Power BI 시각적 개체 추가 및 사용” 설정으로 표시된 Power BI 시각적 개체를 추가하고 사용할 수 있는 권한이 부여된 조직의 사용자는 [인증된 Power BI 시각적 개체](https://go.microsoft.com/fwlink/?linkid=2002010)만 사용할 수 있습니다(인증되지 않은 시각적 개체는 차단되고 사용 시 오류 메시지가 표시됨). 
 
 
-Power BI Desktop(3월 19일 릴리스부터 시작)은 **그룹 정책**을 사용하여 조직의 배포된 컴퓨터에서 인증되지 않은 사용자 지정 시각화 개체를 비활성화할 수 있도록 지원합니다.
+Power BI Desktop(3월 19일 릴리스부터 시작)은 **그룹 정책**을 사용하여 조직의 배포된 컴퓨터에서 인증되지 않은 Power BI 시각화 개체를 사용하지 않도록 설정할 수 있습니다.
 
 <table>
 <tr><th>특성</th><th>값</th>
@@ -357,9 +364,9 @@ Power BI Desktop(3월 19일 릴리스부터 시작)은 **그룹 정책**을 사�
 </tr>
 </table>
 
-1의 값(십진수)을 사용하면 Power BI에서 인증되지 않은 사용자 지정 시각적 개체를 사용할 수 있습니다(기본값).
+1의 값(십진수)을 사용하면 Power BI에서 인증되지 않은 Power BI 시각적 개체를 사용할 수 있습니다(기본값).
 
-0의 값(십진수)은 Power BI에서 인증되지 않은 사용자 지정 시각적 개체를 비활성화합니다(이 옵션은 [인증된 사용자 지정 시각적 개체](https://go.microsoft.com/fwlink/?linkid=2002010)만 사용할 수 있음).
+0의 값(십진수)은 Power BI에서 인증되지 않은 Power BI 시각적 개체를 비활성화합니다(이 옵션은 [인증된 Power BI 시각적 개체](https://go.microsoft.com/fwlink/?linkid=2002010)만 사용할 수 있음).
 
 ## <a name="r-visuals-settings"></a>R 시각적 개체 설정
 
@@ -404,11 +411,11 @@ Power BI Desktop(3월 19일 릴리스부터 시작)은 **그룹 정책**을 사�
 
 ### <a name="embed-content-in-apps"></a>앱에 콘텐츠 포함
 
-조직 내 사용자는 Power BI 대시보드 및 보고서를 SaaS(Software as a Service) 애플리케이션에 포함할 수 있습니다. 이 설정을 사용하지 않도록 설정하면 사용자는 REST API를 사용하여 Power BI 콘텐츠를 해당 애플리케이션에 포함할 수 없게 됩니다. [자세히 알아보기](developer/embedding.md)
+조직 내 사용자는 Power BI 대시보드 및 보고서를 SaaS(Software as a Service) 애플리케이션에 포함할 수 있습니다. 이 설정을 사용하지 않도록 설정하면 사용자는 REST API를 사용하여 Power BI 콘텐츠를 해당 애플리케이션에 포함할 수 없게 됩니다. [자세히 알아보기](developer/embedded/embedding.md)
 
 ### <a name="allow-service-principals-to-use-power-bi-apis"></a>서비스 주체가 Power BI API를 사용하도록 허용
 
-Azure AD(Azure Active Directory)에 등록된 웹앱은 할당된 서비스 주체를 사용하여 로그인한 사용자 없이 Power BI API에 액세스합니다. 앱이 서비스 주체 인증을 사용하도록 하려면 해당 서비스 주체가 허용된 보안 그룹에 포함되어 있어야 합니다. [자세히 알아보기](developer/embed-service-principal.md)
+Azure AD(Azure Active Directory)에 등록된 웹앱은 할당된 서비스 주체를 사용하여 로그인한 사용자 없이 Power BI API에 액세스합니다. 앱이 서비스 주체 인증을 사용하도록 하려면 해당 서비스 주체가 허용된 보안 그룹에 포함되어 있어야 합니다. [자세히 알아보기](developer/embedded/embed-service-principal.md)
 
 > [!NOTE]
 > 서비스 주체는 해당 보안 그룹의 모든 Power BI 테넌트 설정에 대한 사용 권한을 상속받습니다. 사용 권한을 제한하려면 서비스 주체에 대한 전용 보안 그룹을 만들고, 사용하도록 설정된 해당 Power BI 설정에 대한 '특정 보안 그룹 제외' 목록에 이를 추가합니다.
@@ -456,9 +463,9 @@ Azure AD(Azure Active Directory)에 등록된 웹앱은 할당된 서비스 주�
 
 ### <a name="power-bi-embedded"></a>Power BI Embedded
 
-**Power BI Embedded** 탭에서는 고객용으로 구매한 Power BI Embedded(A SKU) 용량을 확인할 수 있습니다. Azure에서만 A SKU를 구매할 수 있으므로 **Azure Portal**에서 [Azure의 포함된 용량을 관리](developer/azure-pbie-create-capacity.md)할 수 있습니다.
+**Power BI Embedded** 탭에서는 고객용으로 구매한 Power BI Embedded(A SKU) 용량을 확인할 수 있습니다. Azure에서만 A SKU를 구매할 수 있으므로 **Azure Portal**에서 [Azure의 포함된 용량을 관리](developer/embedded/azure-pbie-create-capacity.md)할 수 있습니다.
 
-Power BI Embedded(A SKU) 설정을 관리하는 방법은 [Azure의 Power BI Embedded란?](developer/azure-pbie-what-is-power-bi-embedded.md)을 참조하세요.
+Power BI Embedded(A SKU) 설정을 관리하는 방법은 [Azure의 Power BI Embedded란?](developer/embedded/azure-pbie-what-is-power-bi-embedded.md)을 참조하세요.
 
 ## <a name="embed-codes"></a>embed 태그
 
@@ -466,14 +473,14 @@ Power BI Embedded(A SKU) 설정을 관리하는 방법은 [Azure의 Power BI Emb
 
 ![Power BI 관리 포털 내의 embed 태그](media/service-admin-portal/embed-codes.png)
 
- ## <a name="organizational-visuals">조직의 시각적 개체</a> 
+ ## <a name=""></a><a name="organizational-visuals">조직의 시각적 개체</a> 
 
-**조직 시각적 개체** 탭에서는 조직 내부에서 사용자 지정 시각적 개체를 배포 및 관리할 수 있습니다. 조직 시각적 개체를 사용하면 조직에서 소유 시각적 개체를 쉽게 배포할 수 있으므로 이후 보고서 작성자가 Power BI Desktop에서 이를 검색하고 보고서로 가져올 수 있습니다. [자세히 알아보기](developer/power-bi-custom-visuals-organization.md)
+**조직 시각적 개체** 탭에서는 조직 내부에서 Power BI 시각적 개체를 배포 및 관리할 수 있습니다. 조직 시각적 개체를 사용하면 조직에서 소유 시각적 개체를 쉽게 배포할 수 있으므로 이후 보고서 작성자가 Power BI Desktop에서 이를 검색하고 보고서로 가져올 수 있습니다. [자세히 알아보기](developer/visuals/power-bi-custom-visuals-organization.md)
 
 > [!WARNING]
 > 사용자 지정 시각적 개체에는 보안 또는 개인 정보 관련 위험이 있는 코드가 포함될 수 있습니다. 조직의 리포지토리로 배포하기 전에 사용자 지정 시각적 개체의 작성자와 원본을 신뢰할 수 있는지 확인해야 합니다.
 
-다음 이미지는 조직의 리포지토리에 현재 배포된 모든 사용자 지정 시각적 개체를 보여 줍니다.
+다음 이미지는 조직의 리포지토리에 현재 배포된 모든 Power BI 시각적 개체를 보여 줍니다.
 
 ![조직 관리의 시각적 개체](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
 
@@ -483,11 +490,11 @@ Power BI Embedded(A SKU) 설정을 관리하는 방법은 [Azure의 Power BI Emb
 
 1. 오른쪽 창에서 **사용자 지정 시각적 개체 추가**를 선택합니다.
 
-    ![사용자 지정 시각적 개체 양식](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
+    ![Power BI 시각적 개체 양식](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
 
 1. **사용자 지정 시각적 개체 추가** 양식을 채웁니다.
 
-    * **.pbiviz 파일 선택**(필수): 업로드할 사용자 지정 시각적 개체 파일을 선택합니다. 버전이 있는 API 사용자 지정 시각적 개체만 지원됩니다(여기 참조).
+    * **.pbiviz 파일 선택**(필수): 업로드할 사용자 지정 시각적 개체 파일을 선택합니다. 버전이 지정된 API Power BI 시각적 개체만 지원됩니다(여기 참조).
 
     사용자 지정 시각적 개체를 업로드하기 전에 보안 및 개인 정보에 대해 사용자 지정 시각적 개체를 검토하여 조직의 표준에 적합한지 확인해야 합니다.
 
@@ -524,9 +531,9 @@ Power BI Embedded(A SKU) 설정을 관리하는 방법은 [Azure의 Power BI Emb
 
 시각적 개체 ID가 변경되지 않았는지 확인합니다. 새 파일은 조직 전체의 모든 보고서에 대해 이전 파일을 대체합니다. 그러나 시각적 개체의 새 버전이 시각적 개체의 이전 버전에 대한 사용이나 데이터 구조를 중단하는 경우에는 이전 버전을 바꾸지 마세요. 대신에 시각적 개체의 새 버전에 대한 새 목록을 만들어야 합니다. 예를 들어 새 버전 번호(버전 X.X)를 새 나열된 시각적 개체의 제목에 추가합니다. 이렇게 하면 업데이트된 버전 번호를 가진 동일한 시각적 개체가 되므로 기존 보고서가 해당 기능을 중단하지 않습니다. 다시 한번 시각적 개체 ID가 변경되지 않았는지 확인합니다. 그러면 다음에 사용자가 Power BI Desktop에서 조직의 리포지토리에 들어갈 때 새 버전을 가져올 수 있으며, 보고서에 있는 현재 버전을 바꾸라는 메시지가 표시됩니다.
 
-자세한 내용은 [조직의 사용자 지정 시각적 개체에 대한 질문과 대답](/power-bi/developer/power-bi-custom-visuals-faq#organizational-power-bi-visuals)을 참조하세요.
+자세한 내용은 [조직의 Power BI 시각적 개체에 대한 자주 묻는 질문](developer/visuals/power-bi-custom-visuals-faq.md#organizational-power-bi-visuals)을 참조하세요.
 
-## <a name="dataflowStorage">데이터 흐름 스토리지(미리 보기)</a>
+## <a name=""></a><a name="dataflowStorage">데이터 흐름 스토리지(미리 보기)</a>
 
 기본적으로 Power BI에 사용되는 데이터는 Power BI에서 제공하는 내부 스토리지에 저장됩니다. 데이터 흐름 및 ADLS Gen2(Azure Data Lake Storage Gen2)를 통합하면 조직의 Azure Data Lake Storage Gen2 계정에 데이터 흐름을 저장할 수 있습니다. 자세한 내용은 [데이터 흐름 및 Azure Data Lake 통합(미리 보기)](service-dataflows-azure-data-lake-integration.md)을 참조하세요.
 
@@ -542,7 +549,7 @@ Power BI Embedded(A SKU) 설정을 관리하는 방법은 [Azure의 Power BI Emb
 |---------|---------|
 | 활성 | 일반 작업 영역입니다. 사용량이나 콘텐츠에 대한 정보는 알 수 없으며, 작업 영역 자체가 ‘일반’ 작업 영역이라는 사실만 알 수 있습니다. |
 | 분리됨 | 관리 사용자가 없는 작업 영역입니다. |
-| 삭제됨 | 삭제된 작업 영역입니다. 필요한 경우 작업 영역을 복원할 수 있도록 복원에 필요한 메타데이터가 유지됩니다. |
+| 삭제됨 | 삭제된 작업 영역입니다. 최대 90일 동안, 필요한 경우 작업 영역을 복원하기에 충분한 메타데이터가 유지됩니다. |
 | 제거 중 | 현재 삭제가 진행 중이지만 아직 완전히 삭제되지 않은 작업 영역입니다. 사용자는 ‘제거 중’으로 항목을 이동하고 궁극적으로 ‘삭제됨’으로 이동하여 작업 영역을 삭제할 수 있습니다. |
 
 ## <a name="custom-branding"></a>사용자 지정 브랜딩
@@ -561,6 +568,17 @@ Power BI Embedded(A SKU) 설정을 관리하는 방법은 [Azure의 Power BI Emb
 자세한 내용은 [조직에 대한 사용자 지정 브랜딩](https://aka.ms/orgBranding)을 참조하세요.
 
 ![작업 영역 목록](media/service-admin-portal/workspaces-list.png)
+
+## <a name="manage-featured-content"></a>추천 콘텐츠 관리
+
+테넌트 관리자는 조직 전체에서 Power BI 홈의 추천 섹션으로 승격된 모든 보고서, 대시보드 및 앱을 관리할 수 있습니다.
+
+- 관리 포털에서 **추천 콘텐츠**를 선택합니다.
+
+여기에서 콘텐츠를 추천하는 사용자, 추천된 시간 및 모든 관련 메타데이터의 개요를 볼 수 있습니다. 의심스러운 항목이 있거나 추천 섹션을 정리하려는 경우 필요에 따라 승격된 콘텐츠를 삭제할 수 있습니다.
+
+추천 콘텐츠 사용에 대한 내용은 이 문서에서 [추천 콘텐츠](#featured-content)를 참조하세요.
+
 ## <a name="next-steps"></a>다음 단계
 
 [조직에서 Power BI 관리](service-admin-administering-power-bi-in-your-organization.md)  

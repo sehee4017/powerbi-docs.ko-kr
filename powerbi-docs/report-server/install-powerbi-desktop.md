@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/13/2020
-ms.openlocfilehash: ee789274f6581423ed7adebc5b662a732dbeaa7a
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 74e2c60bfe0d6d494fc1175fb001b4b4b7eb24fa
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77426659"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381126"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Report Server에 최적화된 Power BI Desktop 설치
 
@@ -70,7 +70,7 @@ Power BI Report Server에 최적화된 Power BI Desktop의 경우 앱을 설치�
 
 ### <a name="report-visuals-in-a-browser"></a>브라우저의 보고서 시각적 개체
 
-Power BI Report Server 보고서는 사용자 지정 시각적 개체를 비롯한 대부분의 시각화를 지원합니다. Power BI Report Server 보고서는 다음 항목을 지원하지 않습니다.
+Power BI Report Server 보고서는 Power BI 시각적 개체를 비롯한 대부분의 시각화를 지원합니다. Power BI Report Server 보고서는 다음 항목을 지원하지 않습니다.
 
 * R 시각적 개체
 * ArcGIS 맵
@@ -89,7 +89,7 @@ Power BI Report Server 보고서는 Power BI 모바일 앱에서 다음과 같�
 
 * R 시각적 개체
 * ArcGIS 맵
-* 사용자 지정 시각적 개체
+* Power BI 시각적 개체
 * 현재 위치
 * 지역 필터링 또는 막대 코드
 

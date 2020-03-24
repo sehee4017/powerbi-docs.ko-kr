@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 12/19/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: b7a45309c3bfad27cc3b26990ee148a9e44b8998
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: ae11ec64a0bffbd3e64c0fd677a7225c2b31f521
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75927117"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488686"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Power BI Premium 메트릭 앱
 
@@ -42,7 +42,7 @@ ms.locfileid: "75927117"
 
 ## <a name="the-active-memory-metric"></a>활성 메모리 메트릭
 
-**활성 메모리** 메트릭은 *용량 계획* 범주의 일부로, 사용할 용량의 리소스 사용을 평가하기에 좋은 상태 표시기입니다. 따라서 필요에 따라 용량을 조정하여 용량 규모를 계획할 수 있습니다. 
+**활성 메모리** 메트릭은 ‘용량 계획’ 범주의 일부로, 사용할 용량의 리소스 사용을 평가하기에 좋은 상태 표시기입니다. 따라서 필요에 따라 용량을 조정하여 용량 규모를 계획할 수 있습니다.  
 
 ![활성 메모리 KPI](media/service-premium-metrics-app/premium-metrics-app-02.png)
 
@@ -50,7 +50,7 @@ ms.locfileid: "75927117"
 
 **활성 메모리** KPI는 용량의 활성 메모리가 70% 임계값을 50회 초과한 횟수를 측정합니다(마커는 지난 7일의 30%로 설정되어 있습니다). 이는 용량이 쿼리 성능 문제가 발생할 수 있는 지점에 접근하고 있음을 나타냅니다.
 
-이 섹션에 표시된 계기 시각적 개체는 보고서를 마지막으로 새로 고친 때로부터 지난 7일 동안 용량이 70% 임계값을 네 번 초과한 것을 시간별 버킷으로 분할하여 나타냅니다. 계기의 최대값인 168은 지난 7일을 시간 단위로 나타낸 것입니다.
+이 섹션에 표시된 계기 시각적 개체는 보고서를 마지막으로 새로 고친 때로부터 지난 7일 동안 용량이 70% 임계값을 네 번 초과한 것을 시간별 버킷으로 분할하여 나타냅니다. 계기의 최댓값인 168은 지난 7일을 시간 단위로 나타낸 것입니다.
 
 활성 메모리 KPI의 세부 정보를 알아보려면 **탐색** 단추를 클릭하여 보고서 페이지를 확인합니다. 이 페이지는 페이지 오른쪽 열에 표시되는 문제 해결 가이드와 함께 상세 메트릭의 특정 시각화를 제공합니다. 
 
@@ -262,7 +262,7 @@ ms.locfileid: "75927117"
 
 시나리오 1을 진단하려면 먼저 제한이 메모리 부족으로 인 한 것인지 확인합니다. 이 작업을 수행하는 단계는 다음과 같습니다.
 
-1.  **테이블 A**에서 원하는 데이터 세트를 클릭하여 선택합니다. 
+1.    **테이블 A**에서 원하는 데이터 세트를 클릭하여 선택합니다. 
 
     ![테이블 A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 
@@ -305,7 +305,7 @@ ms.locfileid: "75927117"
 
 시나리오 2를 진단하려면 먼저 제한이 동시 최대 새로 고침으로 인한 것인지 확인합니다. 이 작업을 수행하는 단계는 다음과 같습니다.
 
-1.  **테이블 A**에서 원하는 데이터 세트를 클릭하여 선택합니다. 
+1.    **테이블 A**에서 원하는 데이터 세트를 클릭하여 선택합니다. 
 
     ![테이블 A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 
@@ -336,11 +336,11 @@ ms.locfileid: "75927117"
 
 ## <a name="next-steps"></a>다음 단계
 
-* [Power BI Premium이란?](service-premium-what-is.md)
+* [Power BI 프리미엄이란?](service-premium-what-is.md)
 * [Power BI 프리미엄 릴리스 정보](service-premium-release-notes.md)
 * [Microsoft Power BI 프리미엄 백서](https://aka.ms/pbipremiumwhitepaper)
 * [Power BI 엔터프라이즈 배포 계획 백서](https://aka.ms/pbienterprisedeploy)
 * [Extended Pro 평가판 활성화](service-extended-pro-trial.md)
-* [Power BI Embedded FAQ](developer/embedded-faq.md)
+* [Power BI Embedded FAQ](developer/embedded/embedded-faq.md)
 
-추가 질문이 있으신가요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e86e8c87ca7942e74ff2f16e299304f56f4a2aa3
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 891a9b1a5afee26bdb2d6b363ccd2cee5f2461cb
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79113098"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377287"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Power BI로 대시보드 타일에서 데이터 인사이트 보기
 
@@ -61,7 +61,7 @@ ms.locfileid: "79113098"
 보고서로 돌아가려면 왼쪽 위 모서리에서 **포커스 모드 종료**를 선택합니다.
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
-- **인사이트 보기**는 모든 대시보드 타일 유형에서 작동하지 않습니다. 예를 들면, 사용자 지정 시각적 개체에는 사용할 수 없습니다.<!--[custom visuals](end-user-custom-visuals.md)-->
+- **인사이트 보기**는 모든 대시보드 타일 유형에서 작동하지 않습니다. 예를 들면 Power BI 시각적 개체에는 사용할 수 없습니다.<!--[Power BI visuals](end-user-custom-visuals.md)-->
 
 
 ## <a name="next-steps"></a>다음 단계

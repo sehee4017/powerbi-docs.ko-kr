@@ -7,16 +7,16 @@ manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: ad63a1b97c744e8614e584874c4d896a85598e48
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: bb323737934ade08ed4998bdcf8d441e8951732c
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819126"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379885"
 ---
-# <a name="add-the-locale-in-power-bi-for-custom-visuals"></a>사용자 지정 시각적 개체에 대한 Power BI에 로캘 추가
+# <a name="add-the-locale-in-power-bi-for-power-bi-visuals"></a>Power BI 시각적 개체에 대한 Power BI에 로캘 추가
 
 시각적 개체는 Power BI 로캘을 검색하여 해당 콘텐츠를 관련 언어로 지역화할 수 있습니다.
 
@@ -24,7 +24,7 @@ ms.locfileid: "76819126"
 
 예를 들어 샘플 가로 막대형 차트 시각적 개체의 로캘을 가져옵니다.
 
-![샘플 가로 막대형 차트 시각적 개체의 지역화](media/locale-in-samplebarchart.png)
+![샘플 가로 막대형 차트 시각적 개체의 지역화](media/localization/locale-in-samplebarchart.png)
 
 이 가로 막대형 차트는 각각 다른 로캘(영어, 바스크어 및 힌디어)에서 생성되고 도구 설명으로 표시됩니다.
 
@@ -95,13 +95,13 @@ zh-TW | 中國(중국어-Tranditional)
 > [!NOTE]
 > PowerBI Desktop에서 로캘 속성은 설치된 PowerBI Desktop의 언어를 포함합니다.
 
-## <a name="localizing-the-property-pane-for-custom-visuals"></a>사용자 지정 시각적 개체의 속성 창 지역화
+## <a name="localizing-the-property-pane-for-power-bi-visuals"></a>Power BI 시각적 개체의 속성 창 지역화
 
 속성 창의 필드를 지역화하여 일관된 통합 환경을 제공할 수 있습니다. 이를 통해 사용자 지정 시각적 개체가 다른 Power BI 핵심 시각적 개체처럼 작동합니다.
 
 예를 들어 `pbiviz new` 명령을 사용하여 만든 지역화되지 않은 사용자 지정 시각적 개체는 속성 창에서 다음 필드가 표시됩니다.
 
-![속성 창의 지역화](media/property-pane.png)
+![속성 창의 지역화](media/localization/property-pane.png)
 
 범주 데이터와 측정값 데이터는 모두 `displayName`(으)로 capabilities.json 파일에 정의되어 있습니다.
 
@@ -132,7 +132,7 @@ zh-TW | 中國(중국어-Tranditional)
 
 이 예제에서는 아랍어와 히브리어를 지원하려는 경우를 예로 들겠습니다. 다음과 같은 방법으로 두 개의 JSON 파일을 추가해야 합니다.
 
-![문자열 리소스 폴더의 지역화 문자열](media/stringresources-files.png)
+![문자열 리소스 폴더의 지역화 문자열](media/localization/stringresources-files.png)
 
 모든 JSON 파일은 원하는 표시 이름 키의 문자열 값을 사용하여 단일 로캘(이 파일은 위의 지원되는 목록에 있는 로캘 중 하나여야 함)을 정의합니다. 이 예제에서 히브리어 문자열 리소스 파일은 다음과 같이 표시됩니다.
 
@@ -161,13 +161,13 @@ zh-TW | 中國(중국어-Tranditional)
 
 서비스에서 웹 클라이언트(브라우저)를 사용하는 경우 설정에서 언어를 변경합니다.
 
-![웹 서비스의 지역화](media/webservice-settings.png)
+![웹 서비스의 지역화](media/localization/webservice-settings.png)
 
 ## <a name="resource-file"></a>리소스 파일
 
 stringResources 폴더에서 사용할 로캘로 이름이 지정된 폴더에 resources.resjson 파일을 추가합니다. 이 예제의 경우 en-US 및 ru-RU입니다.
 
-![새 resjson 파일](media/new-resjson.png)
+![새 resjson 파일](media/localization/new-resjson.png)
 
 그런 다음, 이전 단계에서 추가한 resources.resjson 파일에 사용할 모든 지역화 문자열을 추가합니다.
 

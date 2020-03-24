@@ -7,15 +7,15 @@ featuredvideoid: ajTPGNpthcg
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/30/2019
+ms.date: 03/17/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 28d142ae92353f415f3cf29db959b24a8040c50b
-ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
+ms.openlocfilehash: e5c89a8089929b7d87d2a1291ef2c5d3a5b012b7
+ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "77558574"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79525916"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI Map 시각화를 위한 팁과 힌트
 Power BI는 Bing Maps와 통합되어 기본 지도 좌표를 제공(지오코딩이라는 프로세스)하므로 지도를 쉽게 만들 수 있습니다. 이와 함께 알고리즘을 사용하여 올바른 위치를 식별하지만, 경우에 따라 추측하기도 합니다. Power BI가 자체적으로 지도 시각화를 만들 수 없는 경우 Bing Maps의 도움말을 등록합니다. 
@@ -27,7 +27,7 @@ Power BI는 Bing Maps와 통합되어 기본 지도 좌표를 제공(지오코�
 
 올바른 지오코딩의 가능성을 높이기 위해 다음과 같은 팁을 사용합니다. 팁의 첫 번째 세트는 데이터 세트 자체에 액세스할 수 있는 경우 사용할 수 있습니다. 팁의 두 번째 집합은 데이터 세트에 액세스할 수 없는 경우 Power BI에서 수행할 수 있는 것들입니다. 
 
-## <a name="what-is-sent-to-bing-maps"></a>Bing 지도로 무엇이 전송됩니까?
+## <a name="what-is-sent-to-bing-maps"></a>Bing 지도로 무엇이 전송되나요?
 Power BI 서비스 및 Power BI Desktop은 지도 시각화를 만드는 데 필요한 지역 데이터를 Bing에 전송합니다. 여기에는 시각적 개체 필드의 **위치**, **위도** 및 **경도** 버킷에 있는 데이터가 포함될 수 있습니다. 전달되는 내용은 지도 형식에 따라 달라집니다. 자세히 알아보려면 [Bing 지도 개인 정보](https://go.microsoft.com/fwlink/?LinkID=248686)를 참조하세요.
 
 * 지도(거품형, 분산형 및 점 그림 지도)의 경우 위도 및 경도가 제공되면 데이터는 Bing에 전송되지 않습니다. 그렇지 않은 경우 **위치** 버킷의 데이터가 Bing에 전송됩니다.     

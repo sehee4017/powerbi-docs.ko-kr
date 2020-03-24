@@ -10,11 +10,11 @@ ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: d6a36f8ef3ef5d668fe8d6021758b651cdbf7fd5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877814"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79206772"
 ---
 # <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>자습서:  Power BI Desktop에서 데이터 셰이핑 및 결합
 
@@ -251,7 +251,7 @@ Power BI Desktop의 쿼리 편집기에서는 오른쪽 클릭 메뉴와 **변�
 - 다른 쿼리에 추가하려는 열이 하나 이상 있는 경우 쿼리를 *병합*합니다. 
 - 기존 쿼리에 추가하려는 데이터 행이 더 있는 경우 쿼리를 *추가*합니다.
 
-이 예제에서는 쿼리를 병합하려고 합니다. 이 작업을 수행하려면 다음 단계를 따릅니다.
+이 예제에서는 쿼리를 병합하려고 합니다. 이렇게 하려면 다음 단계를 수행하세요.
  
 1. 쿼리 편집기의 왼쪽 창에서 다른 쿼리를 병합하려는 쿼리를 선택합니다.  이 예제에서는 **RetirementStats**입니다. 
 

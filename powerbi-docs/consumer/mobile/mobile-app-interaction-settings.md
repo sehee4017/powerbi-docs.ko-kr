@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/08/2020
 ms.author: painbar
-ms.openlocfilehash: c7280b2b6bb34b070e7ced3785959d61c74cd165
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 58ef9c6760194e3f11374bdb0663552fd11ce285
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79041270"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377378"
 ---
 # <a name="configure-report-interaction-settings"></a>보고서 상호 작용 설정 구성
 
@@ -49,7 +49,7 @@ Power BI 모바일 앱을 다운로드하면 단일 탭 상호 작용이 설정�
 데이터 요소를 선택 취소하려면 다시 탭합니다.
 
 >[!NOTE]
->다중 선택은 사용자 지정 시각적 개체에서 지원되지 않습니다.
+>다중 선택은 Power BI 시각적 개체에서 지원되지 않습니다.
 >
 >다중 선택 모드는 다음 보고서 서버 릴리스의 Power BI Report Server에서 지원됩니다.
 

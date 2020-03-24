@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 864854e774defee16d446a513622e1134c77d75c
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: cfe877d6fac96124badc19f6ab685523077132fc
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2020
-ms.locfileid: "77115265"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381287"
 ---
 # <a name="what-is-power-bi-administration"></a>Power BI 관리란?
 
@@ -59,7 +59,7 @@ Power BI 서비스 관리자 역할은 사용자에게 라이선스를 할당하
 | 프리미엄 용량 관리 |<ul><li>프리미엄 용량 취득 및 사용<br><li>서비스 품질 보장|
 | 포함 용량 관리 |<ul><li>ISV 및 개발자가 Power BI 기능을 사용하는 방식을 간소화하도록 포함 용량 취득</ul>|
 | 내부 정책, 법률 및 규정 준수 확인 | <ul><li>비즈니스 데이터 분류 관리<br><li>콘텐츠 게시 및 공유 정책 적용 지원</ul>|
-| Power BI 리소스 관리 |<ul><li>작업 영역 관리<br><li>사용자 지정 시각적 개체 게시<br><li>다른 애플리케이션에 Power BI를 포함하는 데 사용되는 코드 확인|
+| Power BI 리소스 관리 |<ul><li>작업 영역 관리<br><li>Power BI 시각적 개체 게시<br><li>다른 애플리케이션에 Power BI를 포함하는 데 사용되는 코드 확인|
 | 테넌트 사용자에게 도움말 및 지원 제공 |<ul><li>데이터 액세스 및 기타 문제 해결</ul>|
 | 기타 작업 |<ul><li>Microsoft Endpoint Configuration Manager 등을 사용하여 Power BI Desktop 배포<br><li>Intune에서 Power BI 모바일 앱 배포 관리<br><li>원본 데이터 보안과 같은 데이터 개인 정보 및 보안 관리</ul>|
 
@@ -69,7 +69,7 @@ Power BI 서비스 관리자 역할은 사용자에게 라이선스를 할당하
 
 | **도구** | **일반 작업** |
 | --- | --- |
-| Power BI 관리 포털 |<ul><li>프리미엄 용량 취득 및 사용</li><li>서비스 품질 보장</li><li>비즈니스 데이터 분류 관리</li><li>콘텐츠 게시 및 공유 정책 적용 지원</li><li>작업 영역 관리<br><li>사용자 지정 시각적 개체 게시</li><li>다른 애플리케이션에 Power BI를 포함하는 데 사용되는 코드 확인</li><li>데이터 액세스 및 기타 문제 해결</li></ul>|
+| Power BI 관리 포털 |<ul><li>프리미엄 용량 취득 및 사용</li><li>서비스 품질 보장</li><li>비즈니스 데이터 분류 관리</li><li>콘텐츠 게시 및 공유 정책 적용 지원</li><li>작업 영역 관리<br><li>Power BI 시각적 개체 게시</li><li>다른 애플리케이션에 Power BI를 포함하는 데 사용되는 코드 확인</li><li>데이터 액세스 및 기타 문제 해결</li></ul>|
 | Microsoft 365 관리 센터 |<ul><li>사용자 등록 관리</li><li>Pro 라이선스 구매 및 할당</li><li>사용자가 Power BI에 액세스하지 못하도록 차단</li></ul>|
 | Office 365 보안 및 준수 센터 |<ul><li>이벤트 감사 검토 및 관리</li></ul>|
 | Azure Portal의 AAD(Azure Active Directory) |<ul><li>AAD를 통해 Power BI 리소스에 대한 조건부 액세스 구성</li><li>Power BI Embedded 용량 프로비전</li></ul>|

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 83db194ab670f1726f9598193dc2d3addf2eae72
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: d97ff72c385edd4c59c6eb72ce1eb873656923c9
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114298"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79376825"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Power BI Q&A에서 질문하기 위한 팁
 
@@ -50,10 +50,10 @@ ms.locfileid: "79114298"
 |    |  예: 지난 6일간의 주문 수입니다.  |            |
 |        |         |
 |**같음(범위)**     |   in, equal to, =, after, is more than, in, between, before  |
-|  |예: 예: 주문 해는 2012년 전입니까? 가격은 10과 20 사이와 같습니까? John의 나이는 40보다 큽니까? 200-300의 총 판매액은?              |
+|  |예: 예: 주문 해는 2012년 전인가요? 가격은 10과 20 사이와 같나요? John의 나이는 40보다 큰가요? 200-300의 총 판매액은?              |
 |        |         |
 |**같음(값)**     |   is, equal, equal to, in, of, for, within, is in, is on |
-|   | 예: 어떤 제품이 녹색입니까? 주문 날짜는 2012년과 같습니다. John의 나이는 40입니까? 200과 같지 않은 총 판매액은? 2016년 1월 1일의 주문 날짜입니다. 가격에서 10입니까? 색은 녹색입니까? 가격에서 10입니까?              |
+|   | 예: 어떤 제품이 녹색인가요? 주문 날짜는 2012년과 같습니다. John의 나이는 40인가요? 200과 같지 않은 총 판매액은? 2016년 1월 1일의 주문 날짜입니다. 가격에서 10인가요? 색은 녹색인가요? 가격에서 10인가요?              |
 |        |         |
 |**이름**     |       데이터 세트의 열에 "이름" 구(예: EmployeeName)가 포함되어 있으면 질문 및 답변은 해당 열의 값이 이름임을 이해합니다. 따라서 "robert라는 이름을 가진 직원은 누구인가요"와 같은 질문을 할 수 있습니다.          |
 |        |         |
@@ -67,7 +67,7 @@ ms.locfileid: "79114298"
 |  |  |
 |**상위 N개**     |     (순서, 순위): top, bottom, highest, lowest, first, last, next, earliest, newest, oldest, latest, most recent, next            |
 |        |         |
-|**시각적 개체 유형**     |  모든 시각적 개체 유형은 Power BI 네이티브 유형입니다.  시각화 창에서 옵션인 경우 질문에 포함할 수 있습니다.  이 규칙에 대한 예외는 시각화 창에 수동으로 추가한 [사용자 지정 시각적 개체](../developer/power-bi-custom-visuals.md)입니다.  |
+|**시각적 개체 유형**     |  모든 시각적 개체 유형은 Power BI 네이티브 유형입니다.  시각화 창에서 옵션인 경우 질문에 포함할 수 있습니다.  이 규칙에 대한 예외는 시각화 창에 수동으로 추가한 [Power BI 시각적 개체](../developer/visuals/power-bi-custom-visuals.md)입니다.  |
 |  |  예: 가로 막대형 차트로 월별 및 총 판매액별 구역 보기               |
 |        |         |
 |**Wh(관계, 정규화된)**  | when, where, which, who, whom, how many, how much, how many times, how often, how frequently, amount, number, quantity, how long, what                |

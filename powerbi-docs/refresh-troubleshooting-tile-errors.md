@@ -10,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 04ee1386547ed888531ea139227969d49629863d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 79f18faf56fba8afa85afd808f6faa1bd16811d8
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74699547"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381149"
 ---
 # <a name="troubleshooting-tile-errors"></a>타일 오류 문제 해결
 다음은 설명이 있는 타일에 발생할 수 있는 일반적인 오류입니다.
@@ -35,9 +35,10 @@ ms.locfileid: "74699547"
 
 대시보드 소유자에게 문의하여 데이터 원본 및 모델이 존재하고 해당 계정으로 액세스할 수 있는지 확인하세요.
 
-**사용자 지정 시각적 개체가 관리자에 의해 사용하지 않도록 설정되었습니다.**
+**Power BI 시각적 개체가 관리자에 의해 사용하지 않도록 설정되었습니다.**
 
-Power BI 관리자가 조직 또는 보안 그룹에 대한 사용자 지정 시각적 개체의 사용을 비활성화했습니다. [Microsoft 마켓플레이스](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)에서 사용자 지정 시각화 개체를 사용하거나 파일에서 프라이빗 시각적 개체를 가져옵니다. 사전 압축된 시각적 개체 집합만 사용할 수 있습니다.
+Power BI 관리자가 조직 또는 보안 그룹에 대한 Power BI 시각적 개체를 사용하지 않도록 설정했습니다.
+[Microsoft 마켓플레이스](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals)에서 Power BI 시각적 개체를 사용하거나 파일에서 프라이빗 시각적 개체를 가져올 수 없습니다. 사전 압축된 시각적 개체 집합만 사용할 수 있습니다.
 
 
 **데이터 셰이프에는 하나 이상의 그룹이나 데이터를 출력하는 계산이 포함되어야 합니다. 대시보드 소유자에게 문의하세요.**

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: d37e9530b56d577ae4f4a32780a46ba00ede8107
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 23291659a12bb08becf0d9a4f57a41a93eadbc5e
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114808"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435585"
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 알림 가져오기
 적용 대상:
@@ -21,6 +21,9 @@ ms.locfileid: "79114808"
 | ![iPhone](./media/mobile-apps-notification-center/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-notification-center/ipad-logo-50-px.png) | ![Android 휴대폰](./media/mobile-apps-notification-center/android-phone-logo-50-px.png) | ![Android 태블릿](./media/mobile-apps-notification-center/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-apps-notification-center/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Android 휴대폰 |Android 태블릿 |Windows 10 디바이스 |
+
+>[!NOTE]
+>**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 알림은 Power BI 서비스 또는 모바일 디바이스에서 사용자에게 바로 Power BI 환경에 관련된 정보를 제공합니다. 알림을 열면, 사용자가 [설정해 놓은 경고](mobile-set-data-alerts-in-the-mobile-apps.md)에 대한 연속적인 메시지 피드, 사용자와 공유된 새 대시보드, 그룹 작업 영역에 대한 변경 내용, Power BI 이벤트 및 회의에 대한 정보 등을 볼 수 있습니다.
 

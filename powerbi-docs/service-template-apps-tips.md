@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: 632c1f1a9f0cba3f403cae4a471df6b7e699f481
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.openlocfilehash: dcb7ba5dabbbb0387b92908f7e299d61f2145d44
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "76710145"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79376595"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Power BI에서 템플릿 앱 작성 팁
 
@@ -157,7 +157,7 @@ Power BI의 앱 다운로드 링크로 사용자를 리디렉션하려면 다음
 | 데이터 원본 | 클라우드 예약 데이터 새로 고침에 대해 지원되는 데이터 원본은 허용됩니다. <br>지원되지 않음: <li> DirectQuery</li><li>라이브 연결(Azure AS 제외)</li> <li>온-프레미스 데이터 원본(개인 및 엔터프라이즈 게이트웨이는 지원되지 않음)</li> <li>실시간(푸시 데이터 세트에 대한 지원 없음)</li> <li>복합 모델</li></ul> |
 | 데이터 세트: 작업 영역 간 | 작업 영역 간 데이터 세트는 허용되지 않습니다.  |
 | 쿼리 매개 변수 | 지원되지 않음: 데이터 세트를 위한 "Any" 또는 "Binary" 형식 블록 새로 고침 작업의 매개 변수 |
-| 사용자 지정 시각적 개체 | 공개적으로 사용할 수 있는 사용자 지정 시각적 개체만 지원됩니다. [조직의 사용자 지정 시각적 개체](developer/power-bi-custom-visuals-organization.md)는 지원되지 않습니다. |
+| Power BI 시각적 개체 | 공개적으로 사용할 수 있는 Power BI 시각적 개체만 지원됩니다. [조직 Power BI 시각적 개체](developer/visuals/power-bi-custom-visuals-organization.md)는 지원되지 않습니다. |
 
 ## <a name="next-steps"></a>다음 단계
 

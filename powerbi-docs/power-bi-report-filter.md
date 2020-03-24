@@ -1,20 +1,20 @@
 ---
 title: Power BI 보고서의 새 필터 환경
-description: Power BI의 필터에 새 기능과 새 디자인이 추가됩니다.
+description: Power BI의 필터에 새 기능과 새 디자인이 있습니다.
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/06/2019
+ms.date: 02/26/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: e991b84dede16f35a732c54ff916ec02f5610783
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: f4dbbdd30b403c8ac14db069b826f26af0bce24a
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762534"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79201956"
 ---
 # <a name="work-with-filters-in-power-bi-reports"></a>Power BI 보고서에서 필터 작업
 
@@ -44,7 +44,7 @@ Power BI의 필터에 새 기능과 새 디자인이 있습니다. 새 필터 �
 
 1. 기존 보고서의 Power BI Desktop에서 **파일** > **옵션 및 설정** > **옵션**을 선택합니다.
 2. 탐색 창의 **현재 파일**에서 **보고서 설정**을 선택합니다.
-3. **필터링 환경** 아래 **업데이트된 필터 창을 사용하고 이 보고서의 시각적 개체 머리글에 필터 표시**를 선택합니다.
+3. **필터링 환경**에서 **업데이트된 필터 창을 사용하고 이 보고서의 시각적 개체 머리글에 필터 표시**를 선택합니다.
 
 ### <a name="turn-on-new-filters-for-an-existing-report-in-the-service"></a>서비스에서 기존 보고서에 대해 새 필터 켜기
 
@@ -52,9 +52,12 @@ Power BI의 필터에 새 기능과 새 디자인이 있습니다. 새 필터 �
 
 새 디자인을 설정하지 않은 경우에도 다음 단계에 따라 새 필터 환경을 계속 볼 수 있습니다.
 
-1. Power BI 서비스의 작업 영역 콘텐츠 목록에서 **보고서** 탭을 선택합니다.
-2. 사용하도록 설정하려는 보고서를 찾고 해당 보고서의 **설정** 아이콘 ![보고서 설정 아이콘](media/power-bi-report-filter/power-bi-settings-icon.png)을 선택합니다.
-3. **필터링 환경** 아래 **업데이트된 필터 창을 사용하고 이 보고서의 시각적 개체 머리글에 필터 표시**를 선택합니다.
+1. Power BI 서비스에서 작업 영역의 콘텐츠 목록을 엽니다.
+2. 사용하려는 보고서를 찾고 **추가 옵션(...)** 을 선택한 다음, 해당 보고서의 **설정**을 선택합니다.
+
+    ![보고서 설정](media/power-bi-report-filter/power-bi-filter-options.png)
+
+3. **필터링 환경**에서 **업데이트된 필터 창을 사용하고 이 보고서의 시각적 개체 머리글에 필터 표시**를 선택합니다.
 
     ![업데이트된 필터 창 사용](media/power-bi-report-filter/power-bi-service-filter-enable.png)
 
@@ -82,11 +85,21 @@ Power BI의 필터에 새 기능과 새 디자인이 있습니다. 새 필터 �
 
 1. 기본적으로 보고서 소비자는 필터 창을 볼 수 있습니다. 사용자가 볼 수 없도록 하려면 **필터** 옆의 눈에 보이는 아이콘을 선택합니다.
 
-    ![Power BI 필터 눈 아이콘](media/power-bi-report-filter/power-bi-filter-eye.png)
+    ![Power BI 필터 눈 아이콘](media/power-bi-report-filter/power-bi-filter-eye-icon.png)
 
 2. 새 필터 창 빌드를 시작하려면 관심 있는 필드를 시각적 개체, 페이지 또는 보고서 수준 필터로써 새 필터 창으로 끌어옵니다.
 
 보고서 캔버스에 시각적 개체를 추가할 때 Power BI는 시각적 개체에서 각 필드에 대한 필터를 필터 창에 자동으로 추가합니다. 
+
+## <a name="hide-the-filters-pane-while-editing"></a>편집하는 동안 필터 창 숨기기
+
+Power BI Desktop에는 미리 보기로 제공되는 새 리본이 있습니다. **보기** 탭에서 **필터** 토글 단추를 사용하여 필터 창을 표시하거나 숨길 수 있습니다. 이 기능은 필터 창을 사용하지 않고 화면에 추가 공간이 필요한 경우에 유용합니다. 이 추가 기능은 책갈피 및 선택 창과 같이 열고 닫을 수 있는 다른 창에 맞춰서 필터 창을 정렬합니다. 
+
+![편집하는 동안 필터 창 표시 또는 숨기기](media/power-bi-report-filter/power-bi-filter-hide.png)
+
+이 설정은 Power BI Desktop의 필터 창만 숨깁니다. 최종 사용자에게 필터 창을 숨기려면 대신 **필터** 옆에 있는 **눈 모양** 아이콘을 선택합니다.
+
+![눈 아이콘](media/power-bi-report-filter/power-bi-filter-eye.png) 
 
 ## <a name="lock-or-hide-filters"></a>필터 잠그기 또는 숨기기
 
@@ -132,7 +145,7 @@ Power BI의 필터에 새 기능과 새 디자인이 있습니다. 새 필터 �
   
     ![필터 카드 확장](media/power-bi-report-filter/power-bi-format-filter-cards.png)
 
-## <a name="theming-for-filter-pane"></a>필터 창에 대한 테마 설정
+## <a name="theming-for-filters-pane"></a>필터 창에 대한 테마 설정
 이제 필터 창의 기본 설정을 테마 파일로 수정할 수 있습니다. 시작하는 데 활용할 샘플 테마 코드 조각은 다음과 같습니다.
 
  
@@ -204,7 +217,7 @@ Power BI의 필터에 새 기능과 새 디자인이 있습니다. 새 필터 �
 }] 
 ```
 
-## <a name="sort-the-filter-pane"></a>필터 창 정렬
+## <a name="sort-the-filters-pane"></a>필터 창 정렬
 
 사용자 지정 정렬 기능은 새 필터 창 환경의 일부입니다. 보고서 작성자는 필터를 끌어서 놓아 원하는 순서로 재정렬할 수 있습니다.
 
@@ -223,11 +236,25 @@ Power BI의 필터에 새 기능과 새 디자인이 있습니다. 새 필터 �
 
 ![필터 이름 바꾸기](media/power-bi-report-filter/power-bi-filter-rename.png)
 
+## <a name="filters-pane-search"></a>필터 창 검색
+
+필터 창 검색 기능을 사용하면 제목으로 필터 카드 전체를 검색할 수 있습니다. 이 기능은 필터 창에 다양한 필터 카드가 있고 관심 있는 필터 카드를 찾는 데 도움이 필요한 경우에 유용합니다.
+
+![필터 검색](media/power-bi-report-filter/power-bi-filter-search.png)
+
+필터 창의 다른 요소에 서식을 지정하는 것처럼 검색 상자에 서식을 지정할 수도 있습니다.
+
+![검색 상자 서식 지정](media/power-bi-report-filter/power-bi-filter-format-search.png)
+
+이 필터 창 검색 기능은 기본적으로 켜지지만, 옵션 대화 상자의 보고서 설정에서 **필터 창 검색 사용**을 선택하여 켜거나 끄도록 선택할 수도 있습니다.
+
+![검색 켜기 또는 끄기](media/power-bi-report-filter/power-bi-enable-search-filter.png)
+
 ## <a name="restrict-changes-to-filter-type"></a>변경을 필터 유형으로 제한
 
 보고서 설정의 필터링 환경 섹션에는 사용자가 필터 유형을 변경할 수 있는지 여부를 제어하는 옵션이 있습니다.
 
-![필터 유형 변경 제한](media/power-bi-report-filter/power-bi-filter-restrict-change.png)
+![필터 유형 변경 제한](media/power-bi-report-filter/power-bi-enable-change-filter-type.png)
 
 ## <a name="next-steps"></a>다음 단계
 

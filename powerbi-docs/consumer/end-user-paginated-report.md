@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 0ab2ececd4ede03a10094be53a2c08617463cc53
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: c4c21dc0f02e547cd7319d789a3eb66cce1f4b88
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79113109"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377354"
 ---
 # <a name="paginated-reports-in-the-power-bi-service"></a>Power BI 서비스의 페이지를 매긴 보고서
 
@@ -36,7 +36,7 @@ ms.locfileid: "79113109"
 
 ![1개의 매개 변수가 있는 간단한 보고서](./media/end-user-paginated-report/power-bi-report-simple.png)
 
-페이지를 매신 보고서와 비교해 보면 Power BI 보고서는 훨씬 더 많은 상호 작용이 수반됩니다. Power BI 보고서는 임시 보고를 지원하며, 사용자 지정 시각적 개체를 비롯해 훨씬 더 많은 유형의 시각적 개체를 지원합니다.
+페이지를 매신 보고서와 비교해 보면 Power BI 보고서는 훨씬 더 많은 상호 작용이 수반됩니다. Power BI 보고서는 임시 보고를 지원하며, Power BI 시각적 개체를 비롯해 훨씬 더 많은 유형의 시각적 개체를 지원합니다.
 
 ## <a name="identify-a-paginated-report"></a>페이지를 매긴 보고서 식별하기
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 27e4bbd1437f59b7cf213333d9df27019aaadcd4
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: ad7c0dab0c4390326eea157351735802d12b3795
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698857"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488571"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>Power BI Premium에 대한 다중 지역 지원 구성
 
@@ -33,7 +33,7 @@ ms.locfileid: "74698857"
 
 Power BI Germany, Power BI China(21Vianet에서 운영) 또는 Power BI(미국 정부용)에는 다중 지역을 사용할 수 없습니다.
 
-이제 Power BI Embedded에서도 다중 지역을 사용할 수 있습니다. [Power BI Embedded의 다중 지역 지원](developer/embedded-multi-geo.md)에서 자세히 알아보세요.
+이제 Power BI Embedded에서도 다중 지역을 사용할 수 있습니다. [Power BI Embedded의 다중 지역 지원](developer/embedded/embedded-multi-geo.md)에서 자세히 알아보세요.
 
 ## <a name="enable-and-configure"></a>사용 및 구성
 
@@ -99,6 +99,6 @@ Power BI Germany, Power BI China(21Vianet에서 운영) 또는 Power BI(미국 �
 ## <a name="next-steps"></a>다음 단계
 
 - [Power BI 프리미엄이란?](service-premium-what-is.md)
-- [Power BI Embedded 용량에 대한 다중 지역](developer/embedded-multi-geo.md)
+- [Power BI Embedded 용량에 대한 다중 지역](developer/embedded/embedded-multi-geo.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

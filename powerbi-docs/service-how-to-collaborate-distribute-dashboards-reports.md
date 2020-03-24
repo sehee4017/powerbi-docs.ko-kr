@@ -7,14 +7,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/06/2019
+ms.date: 03/12/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7633f0771a87c01d53261d13135d831e95e80136
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 86992d2e1426616f8d902a9f49d35407fde60ef2
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881335"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79376756"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Power BI에서 작업을 공유하는 방법
 
@@ -23,10 +23,12 @@ ms.locfileid: "73881335"
 * 동료와 협업하여 *작업 영역*에 의미 있는 보고서와 대시보드를 만듭니다.
 * 그러한 대시보드와 보고서를 *앱*에 추가하고 더 큰 규모의 그룹이나 전체 조직에 배포합니다.
 * 동료가 자신의 고유한 작업 영역에서 자신의 보고서에 대한 기준으로 사용할 수 있는 *공유 데이터 세트*를 만듭니다.
-* Microsoft AppSource를 통해 외부 Power BI 사용자에게 배포할 수 있는 *템플릿 앱*을 만듭니다.
 * 서비스 또는 Power BI 모바일 앱에서 사람들과 대시보드 또는 보고서를 공유합니다.
+* Power BI 모바일 앱에서 주석을 달고 공유합니다.
+* Microsoft Teams에 보고서를 포함합니다.
 * 보고서를 인쇄합니다.
 * 보안 포털 또는 공용 웹 사이트에 보고서를 *포함*합니다.
+* Microsoft AppSource를 통해 외부 Power BI 사용자에게 배포할 수 있는 *템플릿 앱*을 만듭니다.
 
 선택하는 옵션에 상관 없이 콘텐츠를 공유하려면 [Power BI Pro 라이선스](service-features-license-type.md)가 필요하거나 콘텐츠가 [프리미엄 용량](service-premium-what-is.md)에 있어야 합니다. 선택한 옵션에 따라 콘텐츠를 보는 동료에 대해 라이선스 요구 사항이 달라집니다. 다음 섹션에 자세한 내용이 나와 있습니다. 
 
@@ -97,6 +99,10 @@ iOS 및 Android 디바이스용 Power BI 모바일 앱에서 타일, 보고서 �
 iOS 및 Android 모바일 앱에서 [타일, 보고서 및 시각적 개체 주석 달기 및 공유](consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)에 대해 자세히 알아보세요.
 
 또한 Windows 10 디바이스용 Power BI 앱에서 [타일의 스냅샷을 공유](consumer/mobile/mobile-windows-10-phone-app-get-started.md)할 수 있습니다.
+
+## <a name="embed-a-report-in-microsoft-teams"></a>Microsoft Teams에 보고서 포함
+
+Power BI 보고서 및 Power BI 페이지를 매긴 보고서를 Microsoft Teams에 포함하여 조직에서 데이터 기반 협업을 늘립니다. 개별 보고서에 대한 별도의 Power BI 탭을 추가하고 각 탭에 보고서 이름 또는 다른 이름을 지정할 수 있습니다. 동료가 Teams의 Power BI 탭에서 보고서를 볼 수 있습니다. 또한 Teams에서 바로 대화 창을 열고 주석을 달 수 있습니다. [Microsoft Teams에 보고서 포함](service-embed-report-microsoft-teams.md)에 대해 자세히 알아보세요.
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>PDF 또는 기타 정적 파일로 저장 또는 인쇄
 

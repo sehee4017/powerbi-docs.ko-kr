@@ -9,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 03/05/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 50cb15e95f051dd6860112243514464dd80a8b1e
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.openlocfilehash: 299329cad78d831a3b77e55107e94a234d6f64b1
+ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "78401181"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79133207"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>Power BI Desktop에서 로그인 문제 해결
 **Power BI Desktop**에 로그인하려고 하는데 오류가 발생하는 경우가 있습니다. 로그인 문제의 두 가지 기본 원인은 다음과 같습니다. **프록시 인증 오류** 및 **HTTPS 이외의 URL 리디렉션 오류**. 
@@ -75,4 +75,37 @@ ms.locfileid: "78401181"
     `C:\Users/<user name>/AppData/Local/Microsoft/Power BI Desktop/Traces`
 
 해당 폴더에 많은 추적 파일이 있을 수 있습니다. 오류를 신속하게 식별할 수 있도록 관리자에게 최근 파일만 보내야 합니다. 
+
+
+## <a name="using-default-system-credentials-for-web-proxy"></a>웹 프록시에 기본 시스템 자격 증명 사용
+
+Power BI Desktop에서 실행된 웹 요청은 웹 프록시 자격 증명을 사용하지 않습니다. 프록시 서버를 사용하는 네트워크에서 Power BI Desktop은 웹 요청을 수행할 수 없습니다. 
+
+2020년 3월 Power BI Desktop 릴리스부터 시스템 또는 네트워크 관리자는 웹 프록시 인증에 기본 시스템 자격 증명을 사용하도록 허용할 수 있습니다. 관리자는 **UseDefaultCredentialsForProxy**라는 레지스트리 항목을 만들고 값을 1로 설정하여 웹 프록시 인증에 기본 시스템 자격 증명을 사용하도록 설정할 수 있습니다.
+
+레지스트리 항목을 다음 위치 중 하나에 배치할 수 있습니다.
+
+`[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Microsoft Power BI Desktop]`
+`[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Power BI Desktop]`
+
+두 위치에 모두 레지스트리 항목을 포함할 필요는 없습니다.
+
+![기본 시스템 자격 증명을 사용하기 위한 레지스트리 키](media/desktop-troubleshooting-sign-in/desktop-tshoot-sign-in-03.png)
+
+레지스트리 항목이 생성되면(다시 부팅해야 할 수 있음) Internet Explorer에 정의된 프록시 설정이 Power BI Desktop 웹 요청을 만들 때 사용됩니다. 
+
+프록시 또는 자격 증명 설정을 변경하는 것과 마찬가지로 이 레지스트리 항목을 만드는 데 보안 문제가 있으므로 관리자는 이 기능을 사용하도록 설정하기 전에 Internet Explorer 프록시가 제대로 구성되었는지 확인해야 합니다.         
+
+### <a name="limitations-and-considerations-for-using-default-system-credentials"></a>기본 시스템 자격 증명 사용을 위한 제한 사항 및 고려 사항
+
+관리자가 이 기능을 사용하도록 설정하기 전에 고려해야 하는 보안 문제 모음이 있습니다. 
+
+클라이언트에 이 기능을 사용하도록 설정할 때마다 다음 권장 사항을 따라야 합니다.
+
+* Active Directory 네트워크에 가입된 프록시 서버만 클라이언트에서 사용되도록 프록시 서버에 대한 인증 체계로 **협상**을 사용합니다. 
+* 이 기능을 사용하는 클라이언트에서는 **NTLM 대체**를 사용할 수 없습니다.
+* 이 기능이 사용하도록 설정되고 이 섹션에서 권장하는 대로 구성된 경우 사용자가 프록시를 사용하여 네트워크에 있지 않으면 프록시 서버에 연결을 시도하고 기본 시스템 자격 증명을 사용하는 프로세스가 사용되지 않습니다.
+
+
+[웹 프록시에 기본 시스템 자격 증명 사용](#using-default-system-credentials-for-web-proxy)
 

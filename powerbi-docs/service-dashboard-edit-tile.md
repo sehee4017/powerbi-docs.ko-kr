@@ -11,16 +11,16 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: bdd2ec136ae741e15e0cb60d141c651cd5fb6749
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877478"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207600"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>대시보드 타일 편집 또는 제거
 
 ## <a name="dashboard-owners-versus-dashboard-consumers"></a>대시보드 *소유자*와 대시보드 *소비자*의 차이점
-대시보드를 만들거나 소유할 때 해당 대시보드에서 타일의 모양과 기본 동작을 변경하는 여러 옵션이 있습니다. 아래의 설정과 전략을 사용하여 동료들을 위한 대시보드 *소비* 경험을 디자인하세요.  타일을 선택하면 기본 보고서, 사용자 지정 URL 또는 다른 대시보드가 열립니까? [비디오 또는 스트리밍 데이터를 표시하는 타일을 추가](service-dashboard-add-widget.md)할 것입니까? [대화형 슬라이서가 있는 타일을 만들려는 경우](service-dashboard-pin-live-tile-from-report.md)도 있을 것입니다. *작성자*에게는 여러 가지 옵션이 있습니다. 
+대시보드를 만들거나 소유할 때 해당 대시보드에서 타일의 모양과 기본 동작을 변경하는 여러 옵션이 있습니다. 아래의 설정과 전략을 사용하여 동료들을 위한 대시보드 *소비* 경험을 디자인하세요.  타일을 선택하면 기본 보고서, 사용자 지정 URL 또는 다른 대시보드가 열리나요? [동영상 또는 스트리밍 데이터를 표시하는 타일을 추가](service-dashboard-add-widget.md)할 수도 있습니다. [대화형 슬라이서가 있는 타일을 만들려는 경우](service-dashboard-pin-live-tile-from-report.md)도 있을 것입니다. *작성자*에게는 여러 가지 옵션이 있습니다. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lJKgWnvl6bQ" frameborder="0" allowfullscreen></iframe>
 
@@ -79,7 +79,7 @@ ms.locfileid: "73877478"
 ## <a name="resize-the-tile"></a>타일 크기 조정
 1x1 타일 단위에서 5x5까지, 타일을 다양한 크기로 만들 수 있습니다. 핸들(오른쪽 하단)을 선택하고 끌어 타일 크기를 조정합니다.
 
-![비디오](media/service-dashboard-edit-tile/pbigif_resizetile4.gif)
+![동영상](media/service-dashboard-edit-tile/pbigif_resizetile4.gif)
 
 - - -
 ## <a name="more-options--menu"></a>**추가 옵션**(...) 메뉴
@@ -135,7 +135,7 @@ ms.locfileid: "73877478"
 <a name="delete"></a>
 
 ### <a name="delete-the-tile"></a>타일 삭제
-1. 대시보드에서 타일을 영구적으로 제거하려면 줄임표 드롭다운 메뉴에서 **타일 삭제** 아이콘 ![삭제 아이콘](media/service-dashboard-edit-tile/power-bi-delete-tile-icon.png)을 선택합니다. 
+1. 대시보드에서 타일을 영구적으로 제거하려면 줄임표 드롭다운 메뉴에서 **타일 삭제** ![삭제 아이콘](media/service-dashboard-edit-tile/power-bi-delete-tile-icon.png)를 선택합니다. 
 
 2. 타일을 삭제해도 기본 시각화는 삭제되지 않습니다. "금액" 타일을 선택하여 기본 보고서를 엽니다. 보고서의 마지막 페이지를 열어서 원래 시각화가 보고서에서 삭제되지 않았는지 확인합니다. 
 

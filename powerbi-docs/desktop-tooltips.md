@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5f6f0db28103b937d2074e6f339c9aaa61bfd688
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2492996c8bbc6ea7a8d359b4b1015de67bb17430
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879631"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378711"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Power BI Desktop의 보고서 페이지에 기반한 도구 설명 만들기
 **Power BI Desktop**에서 만든 보고서 페이지에 기반을 둔 시각적 개체를 가리키면 나타나는 **보고서 도구 설명**을 시각적으로 풍부하게 만들 수 있습니다. 도구 설명으로 사용되는 보고서 페이지를 만들면 사용자 지정 도구 설명에 시각적 개체, 이미지 및 기타 보고서 페이지에서 만든 항목 컬렉션을 포함할 수 있습니다. 
@@ -112,7 +112,7 @@ ms.locfileid: "73879631"
 **도구 설명**에 대해 유념해야 할 몇 가지 제한 사항과 고려 사항이 있습니다.
 
 * **Power BI Desktop**의 2018년 12월 릴리즈부터 단추 시각적 개체에서도 도구 설명을 지원합니다.
-* 사용자 지정 시각적 개체에는 보고서 도구 설명이 지원되지 않습니다. 
+* Power BI 시각적 개체에는 보고서 도구 설명이 지원되지 않습니다. 
 * 클러스터는 현재 보고서 도구 설명에 표시할 수 있는 필드로 지원되지 않습니다. 
 * 보고서 도구 설명에 표시할 필드를 선택할 때 필드와 범주를 사용하는 경우, 해당 필드가 포함된 시각적 개체는 선택한 필드가 포함된 요약이 일치할 때만 지정된 도구 설명을 표시합니다. 
 

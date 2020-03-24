@@ -8,18 +8,18 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 279e6895122f6b82f8e7670d982a8b50c78ec83a
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.openlocfilehash: ba1909c5fc75abdf7338572c646d98fca83595b0
+ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "78260419"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79133258"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>별모양 스키마 및 Power BI에서의 중요성 이해
 
 이 문서는 Power BI Desktop 데이터 모델러를 대상으로 합니다. 별모양 스키마 디자인과 성능 및 유용성에 최적화된 Power BI 데이터 모델 개발과의 관련성을 설명합니다.
 
-이 문서는 별모양 스키마 디자인을 자세히 설명하기 위한 것이 아닙니다. 자세한 내용은 Ralph Kimball et al이 저술한 **The Data Warehouse Toolkit: The Complete Guide to Dimensional Modeling**(데이터 웨어하우스 도구 키트: 차원 모델링 전체 가이드)(2쇄, 2002년)과 같은 게시된 콘텐츠를 직접 참조하세요.
+이 문서는 별모양 스키마 디자인을 자세히 설명하기 위한 것이 아닙니다. 자세한 내용은 Ralph Kimball et al이 저술한 **The Data Warehouse Toolkit: The Complete Guide to Dimensional Modeling**(데이터 웨어하우스 도구 키트: 차원 모델링 전체 가이드)(3쇄, 2013년)과 같은 게시된 콘텐츠를 직접 참조하세요.
 
 ## <a name="star-schema-overview"></a>별모양 스키마 개요
 

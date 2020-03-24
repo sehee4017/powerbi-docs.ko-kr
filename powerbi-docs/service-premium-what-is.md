@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 03/12/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 07fd9a00034a210dfbcc6cae4aa721e3b09bd37a
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 1caa68ac00f9821979f741bf3266514fcb33c36a
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76889400"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381172"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium이란?
 
@@ -88,7 +88,7 @@ Power BI Premium을 사용하면 *전용 용량*을 가져올 수 있습니다. 
 
 ### <a name="capacity-workloads"></a>용량 워크로드
 
-용량 워크로드는 사용자가 사용할 수 있도록 만든 서비스입니다. 기본적으로 프리미엄 및 Azure 용량은 Power BI 쿼리 실행과 관련된 데이터 세트 워크로드만 지원합니다. 데이터 세트 워크로드를 비활성화할 수 없습니다. 추가 워크로드는 [AI(Cognitive Services)](https://powerbi.microsoft.com/blog/easy-access-to-ai-in-power-bi-preview/), [데이터 흐름](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium) 및 [페이지를 매긴 보고서](paginated-reports-save-to-power-bi-service.md)에 대해 활성화할 수 있습니다. 이러한 워크로드는 프리미엄 구독에서만 지원됩니다. 
+용량 워크로드는 사용자가 사용할 수 있도록 만든 서비스입니다. 기본적으로 프리미엄 및 Azure 용량은 Power BI 쿼리 실행과 관련된 데이터 세트 워크로드만 지원합니다. 데이터 세트 워크로드를 비활성화할 수 없습니다. 추가 워크로드는 [AI(Cognitive Services)](https://powerbi.microsoft.com/blog/easy-access-to-ai-in-power-bi-preview/), [데이터 흐름](service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium) 및 [페이지를 매긴 보고서](paginated-reports/paginated-reports-save-to-power-bi-service.md)에 대해 활성화할 수 있습니다. 이러한 워크로드는 프리미엄 구독에서만 지원됩니다. 
 
 각 추가 워크로드는 워크로드에서 사용할 수 있는 최대 메모리(사용 가능한 총 메모리의 백분율)를 구성할 수 있습니다. 최대 메모리의 기본값은 SKU에 의해 결정됩니다. 해당 추가 워크로드만 사용할 수 있도록 설정하여 용량의 사용 가능한 리소스를 최대화할 수 있습니다. 또한 기본 설정이 용량 리소스 요구 사항을 충족하지 않는다고 결정한 경우에만 메모리 설정을 변경합니다. [관리 포털](service-admin-portal.md)에서 **용량 설정**을 사용하거나 [용량 REST API](https://docs.microsoft.com/rest/api/power-bi/capacities)를 사용하여 워크로드를 사용하도록 설정하고 구성할 수 있습니다.  
 
@@ -209,7 +209,7 @@ P1-P3 및 A4_A6 SKU에서 지원되는 페이지를 매긴 보고서는 SQL Serv
 
 Power BI Premium에서 페이지를 매긴 보고서는 관리 포털을 사용하여 용량을 활성화해야 하는 워크로드입니다. 용량 관리자는 용량 전체 메모리 리소스의 백분율로 메모리 양을 활성화한 다음, 지정할 수 있습니다. 다른 유형의 워크로드와 달리 프리미엄은 용량 내 포함된 공간에서 페이지를 매긴 보고서를 실행합니다. 워크로드가 활성 상태인지 여부와 관계없이 이 공간에 지정하는 최대 메모리가 사용됩니다. 기본값은 20%입니다. 
 
-자세한 내용은 [Power BI Premium의 페이지를 매긴 보고서](paginated-reports-report-builder-power-bi.md)를 참조하세요. 페이지를 매긴 보고서 워크로드를 사용하도록 설정하는 방법에 대한 자세한 내용은 [워크로드 구성](service-admin-premium-workloads.md)을 참조하세요.
+자세한 내용은 [Power BI Premium의 페이지를 매긴 보고서](paginated-reports/paginated-reports-report-builder-power-bi.md)를 참조하세요. 페이지를 매긴 보고서 워크로드를 사용하도록 설정하는 방법에 대한 자세한 내용은 [워크로드 구성](service-admin-premium-workloads.md)을 참조하세요.
 
 ## <a name="power-bi-report-server"></a>Power BI Report Server
  
@@ -227,7 +227,7 @@ Power BI Premium과 함께 제공되는 Power BI Report Server는 웹 포털이 
 
 자세한 내용은 [Power BI 라이선스](service-admin-licensing-organization.md)를 참조하세요.
 
-## <a name="tool-connectivity-preview"></a>도구 연결(미리 보기)
+## <a name="analysis-services-in-power-bi-premium-preview"></a>Power BI Premium의 Analysis Services(미리 보기)
 
 내부적으로 엔터프라이즈에서 입증된 Microsoft **Analysis Services Vertipaq 엔진**은 Power BI 데이터 세트를 구동합니다. Analysis Services는 개방형 표준 XMLA 프로토콜을 지원하는 클라이언트 라이브러리 및 API를 통해 프로그래밍 기능과 클라이언트 애플리케이션 및 도구 지원을 제공합니다. 현재 Power BI Premium 데이터 세트는 **XMLA 엔드포인트**를 통해 Microsoft과 타사 클라이언트 애플리케이션 및 도구에서 *읽기 전용* 작업을 지원합니다. 
 

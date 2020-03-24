@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 01/21/2019
-ms.openlocfilehash: 7665f0c8e3c909263f194a0fd54a54ed2a752c8c
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.openlocfilehash: e2cb11ea9be85916e6b5557e7933f6a6b5a7159a
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819103"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380597"
 ---
 # <a name="local-storage-api"></a>로컬 스토리지 API
 
@@ -59,5 +59,5 @@ export class Visual implements IVisual {
 
 ## <a name="known-limitations-and-issues"></a>알려진 제한 사항 및 문제
 
-로컬 스토리지 API는 사용자 지정 시각적 개체에 대해 기본적으로 활성화되지 않습니다. 사용자 지정 시각적 개체에 대해 활성화하려면 Power BI 사용자 지정 시각적 개체 지원(`pbicvsupport@microsoft.com`)에 요청을 보내세요.  
+로컬 스토리지 API는 Power BI 시각적 개체에 대해 기본적으로 활성화되지 않습니다. Power BI 시각적 개체에 대해 활성화하려면 Power BI 시각적 개체 지원(`pbicvsupport@microsoft.com`)에 요청을 보내세요.  
 **시각적 개체는 [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals)에서 사용할 수 있어야 하며 [인증](https://powerbi.microsoft.com/en-us/documentation/powerbi-custom-visuals-certified/)되어야 합니다.**

@@ -9,23 +9,23 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: d9e291ff4f61f69ec84e39767906a79f65c2f30f
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 6bf8ccd9048262ce05aff68819ecdb31a44ddfe2
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114163"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377193"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI의 시각적 개체 유형
 
 [!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
-시각화 개체는 보고서, 대시보드, 질문 및 답변에서 찾을 수 있습니다. 이러한 시각적 개체 유형 중 일부는 Power BI와 함께 패키지로 제공되고, 일부는 ‘사용자 지정 시각적 개체’입니다.  사용자 지정 시각적 개체는 Power BI 외부에서 ‘보고서 디자이너’가 Power BI 보고서 및 대시보드에 추가할 수 있는 방식으로 생성됩니다.  
+시각화 개체는 보고서, 대시보드, 질문 및 답변에서 찾을 수 있습니다. 해당 시각적 개체 유형 중 일부는 Power BI와 함께 패키지로 제공되고, 일부는 ‘Power BI 시각적 개체’입니다.  사용자 지정 시각적 개체는 Power BI 외부에서 ‘보고서 디자이너’가 Power BI 보고서 및 대시보드에 추가할 수 있는 방식으로 생성됩니다.  
 
 이 문서에서는 Power BI 서비스와 함께 패키지로 제공되는 시각적 개체를 간략하게 설명합니다.  자주 사용되는 시각적 개체입니다. 이러한 시각적 개체에 대한 자세한 내용은 [시각적 개체 유형에 대한 Power BI 보고서 ‘디자이너’ 문서](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)를 참조하세요. 
 
 > [!NOTE]
-> 사용자 지정 시각적 개체에 대해 알아보려면 [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)의 **Power BI 시각적 개체** 섹션에서 이를 검색합니다. 각 시각적 개체마다 설명, 작성자 정보, 스크린샷 또는 비디오를 찾을 수 있습니다. 
+> Power BI 시각적 개체에 대해 알아보려면 [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)의 **Power BI 시각적 개체** 섹션에서 이를 검색합니다. 각 시각적 개체마다 설명, 작성자 정보, 스크린샷 또는 동영상을 찾을 수 있습니다. 
 
 ## <a name="list-of-visuals-available-in-power-bi"></a>Power BI에서 사용할 수 있는 시각적 개체 목록
 이러한 모든 시각적 개체는 Power BI 대시보드와 보고서에서 찾을 수 있으며, [질문 및 답변에서 지정](end-user-q-and-a.md)할 수 있습니다. 시각적 개체를 조작하는 방법에 대한 자세한 내용은 [보고서, 대시보드 및 앱에서 시각적 개체 조작](end-user-visualizations.md)을 참조하세요.
@@ -84,7 +84,7 @@ ms.locfileid: "79114163"
 
 방사형 계기 차트는 원호 형태로 목표/KPI에 대한 진행률을 측정하는 단일 값을 표시합니다. 목표 또는 목표값은 선(바늘)으로 표시됩니다. 목표에 대한 진행률은 음영으로 표시됩니다. 진행률은 나타내는 값은 호의 내부에 굵게 표시됩니다. 모든 가능한 값은 최소(맨 왼쪽 값)에서 최대 (맨 오른쪽 값)까지 호를 따라 균등하게 분배됩니다.
 
-위의 예제에서는 월별 판매 팀의 평균 판매량을 추적하는 자동차 소매점입니다. 목표는 140이며 검정색 바늘로 표시됩니다. 가능한 최소 평균 판매량은 0이고 최고 200까지 설정했습니다. 파란색 음영은 이번 달의 현재 평균인 약 120대임을 나타냅니다. 다행히 목표 달성을 위해 아직 몇 주가 남았습니다.
+위의 예제에서는 월별 판매 팀의 평균 판매량을 추적하는 자동차 소매업체입니다. 목표는 140이며 검정색 바늘로 표시됩니다. 가능한 최소 평균 판매량은 0이고 최고 200까지 설정했습니다. 파란색 음영은 이번 달의 현재 평균인 약 120대임을 나타냅니다. 다행히 목표 달성을 위해 아직 몇 주가 남았습니다.
 
 방사형 계기는 다음에 매우 적합합니다.
 - 목표에 대한 진행률 표시
@@ -237,7 +237,7 @@ X축을 따라 숫자 또는 범주 데이터를 그릴 수 있다는 점을 제
 - 1년 동안 회사의 시작 및 종료 인력을 나타내기 위해
 - 매달 벌고 쓰는 금액이 얼마인지 그리고 계좌의 잔고가 얼마인지를 시각화하기 위해
 
-## <a name="qna"></a>질문 및 답변에 사용할 시각적 개체 알리기
+## <a name="tell-qa-which-visual-to-use"></a><a name="qna"></a>질문 및 답변에 사용할 시각적 개체 알리기
 Power BI 질문 및 답변을 사용하여 자연어 쿼리를 입력할 때 쿼리에 시각적 개체 유형을 지정할 수 있습니다.  예:
 
 

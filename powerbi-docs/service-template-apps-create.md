@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 649f4d002c9adbfa882c4ee4320f040f490fd116
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 6b7b472b0c16c47ae2497c5dc8c74cc1c4d778d4
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79041726"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79436022"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Power BI에서 템플릿 앱 만들기
 
@@ -30,7 +30,7 @@ Power BI 테넌트 관리자는 조직에서 템플릿 앱을 만들 수 있는 
 - [Power BI pro 라이선스](service-self-service-signup-for-power-bi.md)
 - [Power BI Desktop 설치](desktop-get-the-desktop.md)(선택 사항)
 - [Power BI의 기본 개념](service-basic-concepts.md) 숙지
-- 템플릿 앱을 공개적으로 공유할 수 있는 권한. 자세한 내용은 Power BI [관리 포털, 템플릿 앱 설정](service-admin-portal.md#template-apps-settings) 을 참조하세요.
+- 템플릿 앱을 공개적으로 공유할 수 있는 권한(자세한 내용은 Power BI [관리 포털, 템플릿 앱 설정 참조](service-admin-portal.md#template-apps-settings)
 
 ## <a name="create-the-template-workspace"></a>템플릿 작업 영역 만들기
 
@@ -87,9 +87,9 @@ Power BI 테넌트 관리자는 조직에서 템플릿 앱을 만들 수 있는 
 
     앱의 탐색 창을 정의할 수 있는 **새 탐색 작성기**를 활성화합니다(자세한 내용은 이 문서의 [탐색 환경 디자인](service-create-distribute-apps.md#design-the-navigation-experience) 참조).
 
-   ![앱 방문 페이지 설정](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
+   ![앱 방문 페이지 설정](media/service-template-apps-create/power-bi-install-app-content.png)
     
-    **앱 방문 페이지:** 탐색 작성기에서 옵트아웃할 경우에는 앱 방문 페이지를 선택할 수 있습니다. 보고서 또는 대시보드를 앱의 방문 페이지로 정의합니다. 올바른 권한을 부여하는 방문 페이지를 사용합니다.
+    **앱 방문 페이지:** 탐색 작성기를 옵트아웃하려고 한 경우에는 앱 방문 페이지를 선택할 수 있습니다. 보고서 또는 대시보드를 앱의 방문 페이지로 정의합니다. 올바른 권한을 부여하는 방문 페이지를 사용합니다.
 
     **컨트롤**
 
@@ -109,7 +109,7 @@ Power BI 테넌트 관리자는 조직에서 템플릿 앱을 만들 수 있는 
     - **필수**: 설치 관리자가 사용자별 매개 변수를 입력하도록 하는 데 사용합니다.
     - **잠금**: 잠금은 설치 관리자가 매개 변수를 업데이트하는 것을 방지합니다.
 
-    **액세스** 테스트 단계에서 앱을 설치하고 테스트할 수 있는 조직의 다른 사용자를 결정합니다. 걱정하지 마세요. 항상 다시 돌아와서 이 설정을 나중에 변경할 수 있습니다(설정은 배포된 템플릿 앱의 액세스에 영향을 미치지 않음).
+    **액세스** 테스트 단계에서 앱을 설치하고 테스트할 수 있는 조직의 다른 사용자를 결정합니다. 걱정하지 마세요, 나중에 언제든지 돌아와서 이러한 설정을 변경할 수 있습니다. 설정은 배포된 템플릿 앱의 액세스에 영향을 미치지 않습니다.
 
 2. **앱 만들기**를 선택합니다.
 

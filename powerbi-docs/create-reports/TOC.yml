@@ -11,8 +11,8 @@
     - name: 자습서
       expanded: true
       items:
-        - name: '실습 랩: 페이지가 매겨진 보고서 만들기'
-          href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
+        - name: '온라인 과정: 페이지를 매긴 보고서'
+          href: ../paginated-reports/paginated-reports-online-course.md
         - name: 페이지를 매긴 보고서 만들기 및 업로드
           href: ../paginated-reports/paginated-reports-quickstart-aw.md
     - name: 샘플
@@ -99,18 +99,6 @@
               href: ../paginated-reports/paginated-reports-faq.md
     - name: 방법 가이드
       items:
-        - name: 데이터 세트 및 보고서 게시
-          href: ../desktop-upload-desktop-files.md
-        - name: Power BI 보고서에 시각적 개체 추가(1부)
-          href: ../visuals/power-bi-report-add-visualizations-i.md
-        - name: Power BI 보고서에 시각적 개체 추가(2부)
-          href: ../visuals/power-bi-report-add-visualizations-ii.md
-        - name: '시각적 개체 제목, 배경 및 범례 사용자 지정'
-          href: ../visuals/power-bi-visualization-customize-title-background-and-legend.md
-        - name: Power BI에서 데이터가 없는 항목 표시
-          href: ../desktop-show-items-no-data.md
-        - name: 자동 날짜/시간 적용
-          href: ../desktop-auto-date-time.md
         - name: Power BI 보고서
           items:
             - name: 자동 페이지 새로 고침 사용(미리 보기)
@@ -211,12 +199,22 @@
               href: ../service-create-qr-code-for-report.md
             - name: Power BI Desktop으로 보고서 내보내기(미리 보기)
               href: ../service-export-to-pbix.md
+            - name: 데이터 세트 및 보고서 게시
+              href: ../desktop-upload-desktop-files.md
         - name: 시각화
           items:
+            - name: Power BI 보고서에 시각적 개체 추가(1부)
+              href: ../visuals/power-bi-report-add-visualizations-i.md
+            - name: Power BI 보고서에 시각적 개체 추가(2부)
+              href: ../visuals/power-bi-report-add-visualizations-ii.md
             - name: Power BI 보고서에 시각적 개체 추가
               href: ../visuals/power-bi-report-visualizations.md
             - name: Power BI 보고서의 시각적 개체 변경
               href: ../visuals/power-bi-report-change-visualization-type.md
+            - name: '시각적 개체 제목, 배경 및 범례 사용자 지정'
+              href: ../visuals/power-bi-visualization-customize-title-background-and-legend.md
+            - name: Power BI에서 데이터가 없는 항목 표시
+              href: ../desktop-show-items-no-data.md
             - name: 시각적 개체 유형별 데이터 요소 제한 및 전략 적용
               href: ../visuals/power-bi-data-points.md
             - name: 시각적 개체의 기본 데이터 표시
@@ -317,6 +315,8 @@
               href: ../desktop-accessibility-keyboard-shortcuts.md
         - name: 페이지를 매긴 보고서
           items:
+            - name: '실습 랩: 페이지가 매겨진 보고서 만들기'
+              href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
             - name: 페이지를 매긴 보고서에 직접 데이터 입력
               href: ../paginated-reports/paginated-reports-enter-data.md
             - name: 포함된 데이터 원본 만들기

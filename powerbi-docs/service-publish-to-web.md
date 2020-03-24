@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 99fd17e8491613affbfe78e7cd9a2f268f588975
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: 0876d5ecd1d58c909242bbc05be213780d3aefdc
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78237986"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488778"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI에서 웹에 게시
 
@@ -30,7 +30,7 @@ Power BI의 **웹에 게시** 옵션을 사용하면 모든 디바이스에서 �
 
 **웹에 게시**는 개인 또는 그룹 작업 영역에서 편집할 수 있는 보고서에 사용할 수 있습니다.  사용자와 공유되는 보고서나 데이터를 보호하기 위해 행 수준 보안에 의존하는 보고서에는 사용할 수 없습니다. **웹에 게시**가 지원되지 않는 경우의 전체 목록은 아래 [**제한**](#limitations) 섹션을 참조하세요. **웹에 게시**를 사용하기 전에 이 문서의 앞부분에 있는 **경고**를 확인해 보세요.
 
-다음의 짧은 비디오는 이 기능의 작동 방식을 보여줍니다. 그런 다음, 아래 단계에 따라 직접 시도해 보세요.
+다음의 짧은 동영상은 이 기능의 작동 방식을 보여줍니다. 그런 다음, 아래 단계에 따라 직접 시도해 보세요.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UF9QtqE7s4Y" frameborder="0" allowfullscreen></iframe>
 
@@ -124,9 +124,9 @@ Power BI의 **웹에 게시** 옵션을 사용하면 모든 디바이스에서 �
 
 데이터 새로 고침은 포함된 보고서 또는 시각적 개체에 자동으로 반영됩니다. embed 태그에서 새로 고친 데이터를 보는 데에는 약 1시간 정도 걸릴 수 있습니다. 자동 새로 고침을 비활성화하려면 보고서에서 사용하는 데이터 세트에 대한 일정에서 **새로 고치지 않음**을 선택합니다.  
 
-## <a name="custom-visuals"></a>사용자 지정 시각적 개체
+## <a name="power-bi-visuals"></a>Power BI 시각적 개체
 
-사용자 지정 시각적 개체는 **웹에 게시**에서 지원됩니다. **웹에 게시**를 사용하면 게시된 시각적 개체를 공유하는 대상 사용자는 보고서를 보기 위해 사용자 지정 시각적 개체를 활성화하지 않아도 됩니다.
+Power BI 시각적 개체는 **웹에 게시**에서 지원됩니다. **웹에 게시**를 사용하면 게시된 시각적 개체를 공유하는 대상 사용자는 보고서를 보기 위해 Power BI 시각적 개체를 사용하도록 설정하지 않아도 됩니다.
 
 ## <a name="limitations"></a>제한 사항
 
@@ -144,7 +144,7 @@ Power BI의 **웹에 게시** 옵션을 사용하면 모든 디바이스에서 �
 - Single Sign-On 데이터 쿼리 모델.
 - 보안 기밀 또는 소유 정보.
 - [공유 및 인증된 데이터 세트](service-datasets-share.md).
-- **포함** 옵션에 제공되는 자동 인증 기능은 Power BI JavaScript API에서 작동하지 않습니다. Power BI JavaScript API의 경우 포함에 대해 [사용자 소유 데이터](developer/embed-sample-for-your-organization.md) 접근 방식을 사용합니다.
+- **포함** 옵션에 제공되는 자동 인증 기능은 Power BI JavaScript API에서 작동하지 않습니다. Power BI JavaScript API의 경우 포함에 대해 [사용자 소유 데이터](developer/embedded/embed-sample-for-your-organization.md) 접근 방식을 사용합니다.
 
 ## <a name="tenant-setting"></a>테넌트 설정
 
@@ -181,7 +181,7 @@ Power BI 관리자는 **웹에 게시** 기능을 사용하거나 사용하지 �
 
 ## <a name="how-to-report-a-concern-with-publish-to-web-content"></a>웹에 게시 콘텐츠로 문제를 보고하는 방법
 
-웹 사이트 또는 블로그에 포함된 **웹에 게시** 콘텐츠와 관련된 문제를 보고하려면 다음 이미지에 표시된 대로 아래쪽 막대에서 **플래그** 아이콘을 사용합니다. Microsoft에 문제를 설명하는 이메일을 보낼 것인지 묻는 메시지가 표시됩니다. Microsoft는 Power BI 서비스 약관에 따라 콘텐츠를 평가하고 적절한 조치를 취합니다.
+웹 사이트 또는 블로그에 포함된 **웹에 게시** 콘텐츠와 관련된 문제를 보고하려면 다음 이미지에 표시된 대로 아래쪽 막대에서 **플래그** 아이콘을 사용합니다. Microsoft에 문제를 설명하는 메일을 보낼 것인지 묻는 메시지가 표시됩니다. Microsoft는 Power BI 서비스 약관에 따라 콘텐츠를 평가하고 적절한 조치를 취합니다.
 
 문제를 보고하려면 보이는 **웹에 게시** 보고서의 아래쪽 막대에서 **플래그** 아이콘을 선택합니다.
 
@@ -194,7 +194,7 @@ Power BI 관리자는 **웹에 게시** 기능을 사용하거나 사용하지 �
 <a name="howitworks"></a>
 ## <a name="how-it-works-technical-details"></a>작동 방법(기술 세부 사항)
 
-**웹에 게시**를 사용하여 embed 태그를 만들면 보고서는 인터넷 사용자에게 표시됩니다. 공개적으로 사용할 수 있으므로 뷰어는 나중에 소셜 미디어를 통해 보고서를 쉽게 공유할 수 있습니다. 사용자가 직접 공용 URL을 열어 보고서를 보거나 웹 페이지 또는 블로그에 포함된 보고서를 보면 Power BI는 보고서 정의 및 보고서를 보는 데 필요한 쿼리 결과를 캐시합니다. 이렇게 하면 수천 명의 동시 사용자가 성능에 영향을 주지 않고 보고서를 볼 수 있습니다.
+**웹에 게시**를 사용하여 embed 태그를 만들면 보고서는 인터넷 사용자에게 표시됩니다. 공개적으로 사용할 수 있으므로 보기 권한자는 나중에 소셜 미디어를 통해 보고서를 쉽게 공유할 수 있습니다. 사용자가 직접 공용 URL을 열어 보고서를 보거나 웹 페이지 또는 블로그에 포함된 보고서를 보면 Power BI는 보고서 정의 및 보고서를 보는 데 필요한 쿼리 결과를 캐시합니다. 이렇게 하면 수천 명의 동시 사용자가 성능에 영향을 주지 않고 보고서를 볼 수 있습니다.
 
 캐시는 수명이 길기 때문에 보고서 정의를 업데이트하거나(예: 보기 모드를 변경하는 경우) 보고서 데이터를 새로 고치는 경우 사용자가 보는 보고서 버전에 변경 사항이 반영되기까지 약 1시간이 걸릴 수 있습니다. 따라서 작업을 미리 준비하고 설정에 만족하는 경우에만 **웹에 게시** embed 태그를 만드는 것이 좋습니다.
 

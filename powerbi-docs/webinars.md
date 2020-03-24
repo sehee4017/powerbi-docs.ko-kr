@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 3063d75123069e93baa8159cddf7c551922aa2b2
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: 83c0020549fd2bad939aa0876b82e58abcc88295
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "77076670"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381333"
 ---
 # <a name="power-bi-webinars"></a>Power BI 웹 세미나
 
@@ -152,7 +152,7 @@ ms.locfileid: "77076670"
 <br>저자: Iman Eftekhari, Agile Analytics의 Julia Paton 및 QBE Insurance의 Shahram Karimi
 <br>[등록 및 지금 보기](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html?Lcid=en-us)
 
-**소비재 상품 제조업체와 판매점의 상생 실현**
+**소비재 상품 제조업체와 소매업체의 상생 실현**
 <br>Thorogood의 작성자 Liz McCreesh
 <br>[등록 및 지금 보기](https://info.microsoft.com/Achieving-a-Win-Win-for-Consumer-Packaged-Goods-Manufacturers-and-Retailers-registration.html)
 
@@ -206,7 +206,7 @@ ms.locfileid: "77076670"
 <br>작성자: Kasper de Jonge
 <br>[지금 보기](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-23-2017-Power-BI-security-deep-dive-by-Kasper-de-Jonge/m-p/161476?Is=Website)
 
-**파트너에게 요청: Power BI에 대한 사용자 지정 시각적 개체 개발**
+**파트너에게 요청: Power BI에 대한 Power BI 시각적 개체 개발**
 <br>작성자: Ted Pattison
 <br>[지금 보기](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website)
 

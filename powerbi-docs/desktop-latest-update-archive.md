@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/12/2020
+ms.date: 03/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a15b309cd2e50eb47242895c808eaa4386c53a4b
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.openlocfilehash: 360461a009187df5fdf2769e7c9a03e7d194b5ad
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "78401309"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378504"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop으로 이전 월별 업데이트
 
@@ -27,11 +27,86 @@ ms.locfileid: "78401309"
 * 기능을 설명할 때 **[동영상]** 발췌 내용이 새 브라우저 탭에서 재생됩니다.
 * 일부 기능에는 세부 정보를 제공하는 **[문서]** 가 있습니다.
 * 대부분의 기능은 월별 업데이트 **[블로그]** 게시물에 설명되어 있습니다.
-* 마지막으로 일부 기능은 자체 설명되며 문서 또는 비디오가 필요하지 않습니다.
+* 마지막으로 일부 기능은 자체 설명되며 문서 또는 동영상이 필요하지 않습니다.
 
-처음부터 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
+처음부터 업데이트 목록 아래에 있는 동영상 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 동영상을 시청할 수도 있습니다.
 
 다음 섹션은 이전 달들의 **Power BI Desktop**에 대한 업데이트를 설명합니다.
+
+
+## <a name="february-2020-update-2785740642"></a>2020년 2월 업데이트(2.78.5740.642)
+
+2월 업데이트에 선보인 새 기능은 매우 만족스러웠습니다. 
+
+> [!IMPORTANT]
+> 2019년 9월 릴리스부터 Power BI Desktop은 지원되는 모든 언어를 포함하는 단일 .exe 파일로만 릴리스 됩니다. .msi 버전은 더 이상 릴리스되지 않습니다.
+
+Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 다음과 같이 해석됩니다.
+
+* [블로그]: Most features are explained in a section in the monthly update blog post.
+* [동영상]: Some features have a video excerpt that discusses the feature, which plays in a new browser tab.
+* [문서]: Some features have an article that provides more detail.
+* 나머지 기능은 설명 없이도 바로 이해할 수 있으며 문서 또는 동영상이 필요하지 않습니다.
+
+이번 달에는 다음과 같은 업데이트가 Power BI Desktop에 새로 제공되었습니다.
+
+
+### <a name="data-management"></a>데이터 관리
+* 이제 증분 새로 고침이 일반 공급됨 [[동영상]](https://youtu.be/TN61JvbUAxk?t=16)  [[문서]](service-premium-incremental-refresh.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Incremental_refresh) 
+
+### <a name="reporting"></a>보고
+* 계층 슬라이서(미리 보기) [[동영상]](https://youtu.be/TN61JvbUAxk?t=207) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Hierarchical_slicer) 
+* 새 리본 업데이트(미리 보기) [[동영상]](https://youtu.be/TN61JvbUAxk?t=424) [[문서]](desktop-ribbon.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Ribbon) 
+
+
+### <a name="modeling"></a>모델링
+* 새로운 DAX 함수: FirstNonBlankValue, LastNonBlankValue [[동영상]](https://youtu.be/TN61JvbUAxk?t=716)  [[문서]](https://docs.microsoft.com/dax/firstnonblankvalue-function-dax)   [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_New_DAX_Functions) 
+
+### <a name="visuals"></a>시각적 개체
+* 새 사용자 지정 시각적 개체 [[동영상]](https://youtu.be/TN61JvbUAxk?t=835)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Visualizations) 
+
+
+### <a name="template-apps"></a>템플릿 앱
+* Microsoft 365 사용량 현황 분석 [[동영상]](https://youtu.be/TN61JvbUAxk?t=910) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Microsoft_365_usage) 
+* P3의 NFL 분석 [[동영상]](https://youtu.be/TN61JvbUAxk?t=928) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_NFL)
+* Quickbooks, Zero 및 WorkflowMax 분석 [[동영상]](https://youtu.be/TN61JvbUAxk?t=932) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Acterys) 
+
+
+### <a name="data-preparation"></a>데이터 준비
+* 쿼리 진단 - 관리자가 아닌 사용자에 대한 지원 [[동영상]](https://youtu.be/TN61JvbUAxk?t=938) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_non_admin_support) 
+
+
+### <a name="data-connectivity"></a>데이터 연결
+* MicroStrategy 커넥터(일반 공급) [[동영상]](https://youtu.be/TN61JvbUAxk?t=962)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_MicroStrategy_connector) 
+* FHIR 커넥터(일반 공급) [[동영상]](https://youtu.be/TN61JvbUAxk?t=962) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_FHIR) 
+* 추가 커넥터: Factset, TIBCO, Jamf Pro, Asana [[동영상]](https://youtu.be/TN61JvbUAxk?t=978) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Factset_connector) 
+
+
+
+각각의 새로운 기능에 대한 자세한 내용은 [Power BI Desktop 기능 요약 블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/)을 참조하세요.
+
+[Power BI 서비스의 새로운 기능](service-whats-new.md) 및 [Power BI용 모바일 앱의 새로운 기능](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)을 확인합니다.
+
+> [!NOTE]
+> [Power BI Desktop에서 사용할 수 있는 데이터 원본](desktop-data-sources.md)을 참조하세요. 목록에 새로운 항목이 계속 추가되고 있으므로 자주 확인하세요.
+
+
+## <a name="power-bi-desktop-monthly-update-video"></a>Power BI Desktop 월별 업데이트 동영상
+다음 동영상에서는 이러한 업데이트를 각각 설명합니다. 이 동영상은 블로그 게시물에서도 시청할 수 있습니다.
+
+> [!VIDEO https://www.youtube.com/embed/TN61JvbUAxk]
+
+조직에 필요한 경우 이전 버전의 Power BI Desktop을 다운로드할 수도 있습니다. 이전 버전보다는 최신 버전의 Power BI Desktop을 사용하는 것이 좋습니다. 모든 이전 버전에는 다음과 같은 제한이 있습니다.
+
+* Power BI Desktop의 이전 릴리스에는 서비스가 제공되지 않으므로 최신 기능 및 업데이트를 사용하려면 항상 최신 릴리스를 사용해야 합니다.
+* Power BI Desktop의 최신 릴리스에서 만들거나 저장한 파일을 이전 버전의 Power BI Desktop에서 열지 못할 수 있습니다. 
+* Power BI Desktop의 최신 릴리스에서 저장한 보고서를 로드할 때 경고가 표시되어 이전 버전에 해당 보고서를 저장하는 경우 새 기능과 관련된 정보가 모두 손실됩니다.
+* Power BI Desktop의 영어 버전만 보관됩니다.
+
+이전 버전을 다운로드하려면 아래 링크를 선택하세요. 
+
+* [Power BI Desktop 2020년 2월 버전 - 32비트](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-02.exe)
+* [Power BI Desktop 2020년 2월 버전 - 64비트](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-02_x64.exe)
 
 
 ## <a name="december-2019-update-2765678661"></a>2019년 12월 업데이트(2.76.5678.661)
@@ -51,43 +126,43 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 이번 달에는 다음과 같은 업데이트가 Power BI Desktop에 새로 제공되었습니다.
 
 ### <a name="reporting"></a>보고
-* 테마 설정 업데이트(미리 보기) [[비디오]](https://youtu.be/eCEwgZsVUOs?t=10)  [[문서]](desktop-report-themes.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customizeTheme) 
-* 현재 테마 내보내기(미리 보기) [[비디오]](https://youtu.be/eCEwgZsVUOs?t=242)  [[문서]](desktop-report-themes.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#exportTheme) 
-* 테이블 열 또는 행렬 값을 사용자 지정 URL로 설정 [[비디오]](https://youtu.be/eCEwgZsVUOs?t=277)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customURL) 
-* KPI 시각적 개체 서식 설정 [[비디오]](https://youtu.be/eCEwgZsVUOs?t=354)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#KPI) 
-* 새 분해 트리 서식 지정 [[비디오]](https://youtu.be/eCEwgZsVUOs?t=442)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#decomp) 
-* 새 리본의 필터 창 토글 단추 [[비디오]](https://youtu.be/eCEwgZsVUOs?t=599)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#filterToggle) 
-* 자동 페이지 새로 고침 쿼리 정보 [[비디오]](https://youtu.be/eCEwgZsVUOs?t=717)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#APR) 
+* 테마 설정 업데이트(미리 보기) [[동영상]](https://youtu.be/eCEwgZsVUOs?t=10)  [[문서]](desktop-report-themes.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customizeTheme) 
+* 현재 테마 내보내기(미리 보기) [[동영상]](https://youtu.be/eCEwgZsVUOs?t=242)  [[문서]](desktop-report-themes.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#exportTheme) 
+* 테이블 열 또는 행렬 값을 사용자 지정 URL로 설정 [[동영상]](https://youtu.be/eCEwgZsVUOs?t=277)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customURL) 
+* KPI 시각적 개체 서식 설정 [[동영상]](https://youtu.be/eCEwgZsVUOs?t=354)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#KPI) 
+* 새 분해 트리 서식 지정 [[동영상]](https://youtu.be/eCEwgZsVUOs?t=442)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#decomp) 
+* 새 리본의 필터 창 토글 단추 [[동영상]](https://youtu.be/eCEwgZsVUOs?t=599)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#filterToggle) 
+* 자동 페이지 새로 고침 쿼리 정보 [[동영상]](https://youtu.be/eCEwgZsVUOs?t=717)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#APR) 
 
 
 ### <a name="analytics"></a>분석
-* 분석 인사이트를 위해 더 많이 로드 [[비디오]](https://youtu.be/eCEwgZsVUOs?t=831)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#moreAI) 
-* 새 DAX 함수: 분기 [[비디오]](https://youtu.be/eCEwgZsVUOs?t=855)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#quarter) 
+* 분석 인사이트를 위해 더 많이 로드 [[동영상]](https://youtu.be/eCEwgZsVUOs?t=831)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#moreAI) 
+* 새 DAX 함수: 분기 [[동영상]](https://youtu.be/eCEwgZsVUOs?t=855)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#quarter) 
 
 
 ### <a name="visuals"></a>시각적 개체
-* 시각적 개체 창 개인 설정(일반 공급) [[비디오]](https://youtu.be/eCEwgZsVUOs?t=865)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#personalizeViz) 
-* 새 사용자 지정 시각적 개체 [[비디오]](https://youtu.be/eCEwgZsVUOs?t=886)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#xViz) 
+* 시각적 개체 창 개인 설정(일반 공급) [[동영상]](https://youtu.be/eCEwgZsVUOs?t=865)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#personalizeViz) 
+* 새 Power BI 시각적 개체 [[동영상]](https://youtu.be/eCEwgZsVUOs?t=886)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#xViz) 
 
 
 ### <a name="data-connectivity"></a>데이터 연결
-* Azure Data Lake Storage Gen2 커넥터(일반 공급) [[비디오]](https://youtu.be/eCEwgZsVUOs?t=2151)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/) 
-* Power Platform 데이터 흐름 커넥터(일반 공급) [[비디오]](https://youtu.be/eCEwgZsVUOs?t=2180)  [[문서]](service-edit-sap-variables.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#ADLS) 
-* 이제 PostgreSQL 커넥터에 Npgsql 공급자가 포함됨 [[비디오]](https://youtu.be/eCEwgZsVUOs?t=2220)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#PostgreSQL) 
-* AtScale 커넥터(일반 공급) [[비디오]](https://youtu.be/eCEwgZsVUOs?t=2245)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#AtScale) 
-* Azure Time Series Insights 커넥터 [[비디오]](https://youtu.be/eCEwgZsVUOs?t=2261)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#ATS) 
-* Data Virtuality 커넥터 [[비디오]](https://youtu.be/eCEwgZsVUOs?t=2294)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#DataVirt) 
-* Zucchetti HR Infinity 커넥터 [[비디오]](https://youtu.be/eCEwgZsVUOs?t=2345)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#Zucchetti) 
+* Azure Data Lake Storage Gen2 커넥터(일반 공급) [[동영상]](https://youtu.be/eCEwgZsVUOs?t=2151)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/) 
+* Power Platform 데이터 흐름 커넥터(일반 공급) [[동영상]](https://youtu.be/eCEwgZsVUOs?t=2180)  [[문서]](service-edit-sap-variables.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#ADLS) 
+* 이제 PostgreSQL 커넥터에 Npgsql 공급자가 포함됨 [[동영상]](https://youtu.be/eCEwgZsVUOs?t=2220)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#PostgreSQL) 
+* AtScale 커넥터(일반 공급) [[동영상]](https://youtu.be/eCEwgZsVUOs?t=2245)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#AtScale) 
+* Azure Time Series Insights 커넥터 [[동영상]](https://youtu.be/eCEwgZsVUOs?t=2261)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#ATS) 
+* Data Virtuality 커넥터 [[동영상]](https://youtu.be/eCEwgZsVUOs?t=2294)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#DataVirt) 
+* Zucchetti HR Infinity 커넥터 [[동영상]](https://youtu.be/eCEwgZsVUOs?t=2345)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#Zucchetti) 
 
 
 ### <a name="data-preparation"></a>데이터 준비
-* AI 인사이트 함수 업데이트(미리 보기) [[비디오]](https://youtu.be/eCEwgZsVUOs?t=2366)  [[문서]](desktop-ai-insights.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#AIfunc) 
+* AI 인사이트 함수 업데이트(미리 보기) [[동영상]](https://youtu.be/eCEwgZsVUOs?t=2366)  [[문서]](desktop-ai-insights.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#AIfunc) 
 
 
 ### <a name="template-apps"></a>템플릿 앱
-* Dynamics 365 옴니채널 인사이트 [[비디오]](https://youtu.be/eCEwgZsVUOs?t=2416)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#Omni) 
-* Dynamics 365 고객 서비스 분석 [[비디오]](https://youtu.be/eCEwgZsVUOs?t=2500)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#CS)
-* 고객 서비스용 Microsoft Forms Pro [[비디오]](https://youtu.be/eCEwgZsVUOs?t=2525)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#Forms) 
+* Dynamics 365 옴니채널 인사이트 [[동영상]](https://youtu.be/eCEwgZsVUOs?t=2416)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#Omni) 
+* Dynamics 365 고객 서비스 분석 [[동영상]](https://youtu.be/eCEwgZsVUOs?t=2500)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#CS)
+* 고객 서비스용 Microsoft Forms Pro [[동영상]](https://youtu.be/eCEwgZsVUOs?t=2525)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#Forms) 
 
 
 각각의 새로운 기능에 대한 자세한 내용은 [Power BI Desktop 2019년 12월 기능 요약](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/)을 참조하세요.
@@ -98,7 +173,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 > [Power BI Desktop에서 사용할 수 있는 데이터 원본](desktop-data-sources.md)을 참조하세요. 목록에 새로운 항목이 계속 추가되고 있으므로 자주 확인하세요.
 
 
-## <a name="power-bi-desktop-monthly-update-video"></a>Power BI Desktop 월별 업데이트 비디오
+## <a name="power-bi-desktop-monthly-update-video"></a>Power BI Desktop 월별 업데이트 동영상
 다음 동영상에서는 이러한 업데이트를 각각 설명합니다. 이 동영상은 블로그 게시물에서도 시청할 수 있습니다.
 
 > [!VIDEO https://www.youtube.com/embed/eCEwgZsVUOs]
@@ -127,7 +202,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 다음과 같이 해석됩니다.
 
 * [블로그]: Most features are explained in a section in the monthly update blog post.
-* [비디오]: Some features have a video excerpt that discusses the feature, which plays in a new browser tab.
+* [동영상]: Some features have a video excerpt that discusses the feature, which plays in a new browser tab.
 * [문서]: Some features have an article that provides more detail.
 * 나머지 기능은 설명 없이도 바로 이해할 수 있으며 문서 또는 동영상이 필요하지 않습니다.
 
@@ -209,9 +284,9 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 * 기능을 설명할 때 **[동영상]** 발췌 내용이 새 브라우저 탭에서 재생됩니다.
 * 일부 기능에는 세부 정보를 제공하는 **[문서]** 가 있습니다.
 * 대부분의 기능은 월별 업데이트 **[블로그]** 게시물에 설명되어 있습니다.
-* 마지막으로 일부 기능은 자체 설명되며 문서 또는 비디오가 필요하지 않습니다.
+* 마지막으로 일부 기능은 자체 설명되며 문서 또는 동영상이 필요하지 않습니다.
 
-처음부터 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
+처음부터 업데이트 목록 아래에 있는 동영상 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 동영상을 시청할 수도 있습니다.
 
 이번 달의 새로운 **Power BI Desktop** 업데이트 기능은 다음과 같습니다.
 
@@ -263,7 +338,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2019-feature-summary/)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
 
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 > [!VIDEO https://www.youtube.com/embed/A8A9baUQsXQ]
 
@@ -300,9 +375,9 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 * 기능을 설명할 때 **[동영상]** 발췌 내용이 새 브라우저 탭에서 재생됩니다.
 * 일부 기능에는 세부 정보를 제공하는 **[문서]** 가 있습니다.
 * 대부분의 기능은 월별 업데이트 **[블로그]** 게시물에 설명되어 있습니다.
-* 마지막으로 일부 기능은 자체 설명되며 문서 또는 비디오가 필요하지 않습니다.
+* 마지막으로 일부 기능은 자체 설명되며 문서 또는 동영상이 필요하지 않습니다.
 
-처음부터 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
+처음부터 업데이트 목록 아래에 있는 동영상 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 동영상을 시청할 수도 있습니다.
 
 이번 달의 새로운 **Power BI Desktop** 업데이트 기능은 다음과 같습니다.
 
@@ -342,7 +417,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2019-feature-summary/)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/neq0THnRJzo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -373,9 +448,9 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 * 기능을 설명할 때 **[동영상]** 발췌 내용이 새 브라우저 탭에서 재생됩니다.
 * 일부 기능에는 세부 정보를 제공하는 **[문서]** 가 있습니다.
 * 대부분의 기능은 월별 업데이트 **[블로그]** 게시물에 설명되어 있습니다.
-* 마지막으로 일부 기능은 자체 설명되며 문서 또는 비디오가 필요하지 않습니다.
+* 마지막으로 일부 기능은 자체 설명되며 문서 또는 동영상이 필요하지 않습니다.
 
-처음부터 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
+처음부터 업데이트 목록 아래에 있는 동영상 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 동영상을 시청할 수도 있습니다.
 
 이번 달에 다음과 같은 업데이트가 **Power BI Desktop**에 새로 제공되었습니다.
 
@@ -391,7 +466,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 
 ### <a name="visuals"></a>시각적 개체
-* 새 사용자 지정 시각적 개체 및 업데이트  [[동영상]](https://youtu.be/sf4n7VXoQHY?t=956)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#xviz) 
+* 새 Power BI 시각적 개체 및 업데이트  [[동영상]](https://youtu.be/sf4n7VXoQHY?t=956)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#xviz) 
 
 
 ### <a name="data-connectivity"></a>데이터 연결
@@ -411,7 +486,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
 
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sf4n7VXoQHY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -436,9 +511,9 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 * 기능을 설명할 때 **[동영상]** 발췌 내용이 새 브라우저 탭에서 재생됩니다.
 * 일부 기능에는 세부 정보를 제공하는 **[문서]** 가 있습니다.
 * 대부분의 기능은 월별 업데이트 **[블로그]** 게시물에 설명되어 있습니다.
-* 마지막으로 일부 기능은 자체 설명되며 문서 또는 비디오가 필요하지 않습니다.
+* 마지막으로 일부 기능은 자체 설명되며 문서 또는 동영상이 필요하지 않습니다.
 
-처음부터 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
+처음부터 업데이트 목록 아래에 있는 동영상 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 동영상을 시청할 수도 있습니다.
 
 이번 달에 다음과 같은 업데이트가 **Power BI Desktop**에 새로 제공되었습니다.
 
@@ -457,7 +532,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 ### <a name="visuals"></a>시각적 개체
 * 이제 PowerApps 시각적 개체가 인증됨  [[동영상]](https://youtu.be/l7OMRUF9UYg?t=894)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#powerapps) 
-* 새 사용자 지정 시각적 개체 3개 및 업데이트  [[동영상]](https://youtu.be/l7OMRUF9UYg?t=932)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#infocard) 
+* 새 Power BI 시각적 개체 3개 및 업데이트  [[동영상]](https://youtu.be/l7OMRUF9UYg?t=932)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#infocard) 
 
 
 ### <a name="data-connectivity"></a>데이터 연결
@@ -475,7 +550,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
 
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/l7OMRUF9UYg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -501,9 +576,9 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 * 기능을 설명할 때 **[동영상]** 발췌 내용이 새 브라우저 탭에서 재생됩니다.
 * 일부 기능에는 세부 정보를 제공하는 **[문서]** 가 있습니다.
 * 대부분의 기능은 월별 업데이트 **[블로그]** 게시물에 설명되어 있습니다.
-* 마지막으로 일부 기능은 자체 설명되며 문서 또는 비디오가 필요하지 않습니다.
+* 마지막으로 일부 기능은 자체 설명되며 문서 또는 동영상이 필요하지 않습니다.
 
-처음부터 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
+처음부터 업데이트 목록 아래에 있는 동영상 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 동영상을 시청할 수도 있습니다.
 
 이번 달에 다음과 같은 업데이트가 **Power BI Desktop**에 새로 제공되었습니다.
 
@@ -531,7 +606,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 ### <a name="visuals"></a>시각적 개체
 * 맞춤형 시각화 창(미리 보기)  [[동영상]](https://youtu.be/7k-nP38uHyQ?t=1349)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#personalizedVizPane) 
-* 새 사용자 지정 시각적 개체 3개 및 업데이트  [[동영상]](https://youtu.be/7k-nP38uHyQ?t=1391)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#synopticVisual) 
+* 새 Power BI 시각적 개체 3개 및 업데이트  [[동영상]](https://youtu.be/7k-nP38uHyQ?t=1391)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#synopticVisual) 
 
 
 ### <a name="data-connectivity"></a>데이터 연결
@@ -552,7 +627,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
 
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7k-nP38uHyQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -572,9 +647,9 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 * 기능을 설명할 때 **[동영상]** 발췌 내용이 새 브라우저 탭에서 재생됩니다.
 * 일부 기능에는 세부 정보를 제공하는 **[문서]** 가 있습니다.
 * 대부분의 기능은 월별 업데이트 **[블로그]** 게시물에 설명되어 있습니다.
-* 마지막으로 일부 기능은 자체 설명되며 문서 또는 비디오가 필요하지 않습니다.
+* 마지막으로 일부 기능은 자체 설명되며 문서 또는 동영상이 필요하지 않습니다.
 
-처음부터 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
+처음부터 업데이트 목록 아래에 있는 동영상 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 동영상을 시청할 수도 있습니다.
 
 이번 달에 다음과 같은 업데이트가 **Power BI Desktop**에 새로 제공되었습니다.
 
@@ -600,7 +675,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 ### <a name="visuals"></a>시각적 개체
 * ArcGIS Maps for Power BI 업데이트  [[동영상]](https://youtu.be/O8GlHDz8xUQ?t=1093)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#esri) 
-* 새 사용자 지정 시각적 개체 6개 및 업데이트    [[동영상]](https://youtu.be/O8GlHDz8xUQ?t=1199)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#mapbox) 
+* 새 Power BI 시각적 개체 6개 및 업데이트    [[동영상]](https://youtu.be/O8GlHDz8xUQ?t=1199)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#mapbox) 
 
 
 ### <a name="data-connectivity"></a>데이터 연결
@@ -619,7 +694,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
 
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/O8GlHDz8xUQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -637,9 +712,9 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 * 기능을 설명할 때 **[동영상]** 발췌 내용이 새 브라우저 탭에서 재생됩니다.
 * 일부 기능에는 세부 정보를 제공하는 **[문서]** 가 있습니다.
 * 대부분의 기능은 월별 업데이트 **[블로그]** 게시물에 설명되어 있습니다.
-* 마지막으로 일부 기능은 자체 설명되며 문서 또는 비디오가 필요하지 않습니다.
+* 마지막으로 일부 기능은 자체 설명되며 문서 또는 동영상이 필요하지 않습니다.
 
-처음부터 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
+처음부터 업데이트 목록 아래에 있는 동영상 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 동영상을 시청할 수도 있습니다.
 
 이번 달에 다음과 같은 업데이트가 **Power BI Desktop**에 새로 제공되었습니다.
 
@@ -659,7 +734,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 ### <a name="modeling"></a>모델링
 * 새 DAX 함수 - ALLCROSSFILTERED [[동영상]](https://youtu.be/vih35kSrEHU?t=970)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#dax) 
 
-### <a name="custom-visuals"></a>사용자 지정 시각적 개체
+### <a name="power-bi-visuals"></a>Power BI 시각적 개체
 * 하나의 새로운 사용자 지정 시각적 개체 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#rainbowGauge) 
 
 
@@ -690,7 +765,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
 
 
-다음 비디오 채널에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상 채널에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vih35kSrEHU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -709,9 +784,9 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 * 기능을 설명할 때 **[동영상]** 발췌 내용이 새 브라우저 탭에서 재생됩니다.
 * 일부 기능에는 세부 정보를 제공하는 **[문서]** 가 있습니다.
 * 대부분의 기능은 월별 업데이트 **[블로그]** 게시물에 설명되어 있습니다.
-* 마지막으로 일부 기능은 자체 설명되며 문서 또는 비디오가 필요하지 않습니다.
+* 마지막으로 일부 기능은 자체 설명되며 문서 또는 동영상이 필요하지 않습니다.
 
-처음부터 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
+처음부터 업데이트 목록 아래에 있는 동영상 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 동영상을 시청할 수도 있습니다.
 
 3월에 업데이트되는 **Power BI Desktop**의 새 기능은 다음과 같습니다.
 
@@ -737,9 +812,9 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 * 새 모델링 보기 출시 [[동영상]](https://youtu.be/rBPGH6eYlT0?t=417)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#modellingView) 
 * 새 DAX 함수 [[동영상]](https://youtu.be/rBPGH6eYlT0?t=560)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#DAX) 
 
-### <a name="custom-visuals"></a>사용자 지정 시각적 개체
-* 관리 포털의 새로 인증된 사용자 지정 시각적 개체 설정  [[동영상]](https://youtu.be/rBPGH6eYlT0?t=624)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#certifiedAdminSetting) 
-* 새 사용자 지정 시각적 개체 2개  [[동영상]](https://youtu.be/rBPGH6eYlT0?t=693)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#customVisuals) 
+### <a name="power-bi-visuals"></a>Power BI 시각적 개체
+* 관리 포털의 새로 인증된 Power BI 시각적 개체 설정  [[동영상]](https://youtu.be/rBPGH6eYlT0?t=624)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#certifiedAdminSetting) 
+* 새 Power BI 시각적 개체 2개  [[동영상]](https://youtu.be/rBPGH6eYlT0?t=693)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#customVisuals) 
 
 
 ### <a name="data-connectivity"></a>데이터 연결
@@ -756,7 +831,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
 
 
-다음 비디오 채널에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상 채널에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rBPGH6eYlT0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -778,9 +853,9 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 * 기능을 설명할 때 **[동영상]** 발췌 내용이 새 브라우저 탭에서 재생됩니다.
 * 일부 기능에는 세부 정보를 제공하는 **[문서]** 가 있습니다.
 * 대부분의 기능은 월별 업데이트 **[블로그]** 게시물에 설명되어 있습니다.
-* 마지막으로 일부 기능은 자체 설명되며 문서 또는 비디오가 필요하지 않습니다.
+* 마지막으로 일부 기능은 자체 설명되며 문서 또는 동영상이 필요하지 않습니다.
 
-처음부터 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
+처음부터 업데이트 목록 아래에 있는 동영상 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 동영상을 시청할 수도 있습니다.
 
 이번 달의 새로운 **Power BI Desktop** 업데이트 기능은 다음과 같습니다.
 
@@ -797,8 +872,8 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 * 질문 및 답변 탐색기의 자동 생성 제안 질문 [[동영상]](https://youtu.be/dMD25wfElLg?t=1121)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#autoSuggestions) 
 * 향상된 Python 및 R 스크립트 편집기 [[동영상]](https://youtu.be/dMD25wfElLg?t=1282)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#scriptEditor) 
 
-### <a name="custom-visuals"></a>사용자 지정 시각적 개체
-* 새 사용자 지정 시각적 개체 10개, 새 사용자 지정 시각적 개체 기능  [[동영상]](https://youtu.be/dMD25wfElLg?t=1324)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#customVisuals) 
+### <a name="power-bi-visuals"></a>Power BI 시각적 개체
+* 새 Power BI 시각적 개체 10개, 새 Power BI 시각적 개체 기능  [[동영상]](https://youtu.be/dMD25wfElLg?t=1324)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>데이터 연결
 
@@ -821,7 +896,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
 
 
-다음 비디오 채널에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상 채널에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dMD25wfElLg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -845,9 +920,9 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 * 기능을 설명할 때 **[동영상]** 발췌 내용이 새 브라우저 탭에서 재생됩니다.
 * 일부 기능에는 세부 정보를 제공하는 **[문서]** 가 있습니다.
 * 대부분의 기능은 월별 업데이트 **[블로그]** 게시물에 설명되어 있습니다.
-* 마지막으로 일부 기능은 자체 설명되며 문서 또는 비디오가 필요하지 않습니다.
+* 마지막으로 일부 기능은 자체 설명되며 문서 또는 동영상이 필요하지 않습니다.
 
-처음부터 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
+처음부터 업데이트 목록 아래에 있는 동영상 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 동영상을 시청할 수도 있습니다.
 
 이번 달의 새로운 **Power BI Desktop** 업데이트 기능은 다음과 같습니다.
 
@@ -873,7 +948,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 * 데이터 뷰 접근성 지원 [[동영상]](https://youtu.be/AHNlkjRFdYI?t=1253)  [[문서]](desktop-composite-models.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#dataView) 
 
 
-### <a name="custom-visuals"></a>사용자 지정 시각적 개체
+### <a name="power-bi-visuals"></a>Power BI 시각적 개체
 
 * 새 사용자 지정 시각적 개체 1개  [[동영상]](https://youtu.be/AHNlkjRFdYI?t=1370)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#customVisuals) 
 
@@ -900,7 +975,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
 
 
-다음 비디오 채널에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상 채널에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AHNlkjRFdYI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -934,9 +1009,9 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 * 모델링 접근성 개선 [[동영상]](https://youtu.be/1xsXXoyTxfk?t=2023)  [[문서]](desktop-accessibility.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23modellingAccessibility) 
 * 새 DAX 함수 [[동영상]](https://youtu.be/1xsXXoyTxfk?t=2066)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23dax) 
 
-### <a name="custom-visuals"></a>사용자 지정 시각적 개체
+### <a name="power-bi-visuals"></a>Power BI 시각적 개체
 
-* 새 사용자 지정 시각적 개체 5개  [[동영상]](https://youtu.be/1xsXXoyTxfk?t=2108)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23customVisuals) 
+* 새 Power BI 시각적 개체 5개  [[동영상]](https://youtu.be/1xsXXoyTxfk?t=2108)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary/%23customVisuals) 
 
 ### <a name="data-connectivity"></a>데이터 연결
 
@@ -951,7 +1026,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2018-feature-summary)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
 
 
-다음 비디오 채널에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상 채널에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1xsXXoyTxfk?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -981,9 +1056,9 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 * Power BI 서비스의 복합 모델 및 집계 지원(미리 보기) [[동영상]](https://youtu.be/8E6UokaDtc0)  [[문서 - 집계]](desktop-aggregations.md) [[문서 - 복합 모델]](desktop-composite-models.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23compositeModels) 
 * 비가산적 측정값의 증가 설명 [[동영상]](https://youtu.be/8E6UokaDtc0?t=107)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23Insights) 
 
-### <a name="custom-visuals"></a>사용자 지정 시각적 개체
+### <a name="power-bi-visuals"></a>Power BI 시각적 개체
 
-* 새 사용자 지정 시각적 개체 5개  [[동영상]](https://youtu.be/ZfJSSG17SEY)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23customVisuals) 
+* 새 Power BI 시각적 개체 5개  [[동영상]](https://youtu.be/ZfJSSG17SEY)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary/%23customVisuals) 
 
 ### <a name="data-connectivity"></a>데이터 연결
 
@@ -1009,7 +1084,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2018-feature-summary)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
 
 
-다음 비디오 채널에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상 채널에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cT3L2VzgBRU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -1036,9 +1111,9 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 * 집계(미리 보기) [[동영상]](https://youtu.be/Rzw2WyI09kY?t=11m37s)  [[문서]](desktop-aggregations.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#aggregations) 
 
-### <a name="custom-visuals"></a>사용자 지정 시각적 개체
+### <a name="power-bi-visuals"></a>Power BI 시각적 개체
 
-* 새 사용자 지정 시각적 개체 5개  [[동영상]](https://youtu.be/Rzw2WyI09kY?t=23m8s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#customVisuals) 
+* 새 Power BI 시각적 개체 5개  [[동영상]](https://youtu.be/Rzw2WyI09kY?t=23m8s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>데이터 연결
 
@@ -1057,7 +1132,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2018-feature-summary)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
 
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Rzw2WyI09kY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -1091,9 +1166,9 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 * Python 통합  [[동영상]](https://youtu.be/dgv5HhHxxe8?t=11m14s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#python) 
 * 질문 및 답변 개선  [[동영상]](https://youtu.be/dgv5HhHxxe8?t=13m1s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#Q&A) 
 
-### <a name="custom-visuals"></a>사용자 지정 시각적 개체
+### <a name="power-bi-visuals"></a>Power BI 시각적 개체
 
-* 새 사용자 지정 시각적 개체 5개  [[동영상]](https://youtu.be/dgv5HhHxxe8?t=19m48s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#customVisuals) 
+* 새 Power BI 시각적 개체 5개  [[동영상]](https://youtu.be/dgv5HhHxxe8?t=19m48s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>데이터 연결
 
@@ -1106,7 +1181,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2018-feature-summary/)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
 
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dgv5HhHxxe8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -1145,11 +1220,11 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 * 분포 요소 인사이트  [[동영상]](https://youtu.be/Mtig3rmIUe0?t=37m)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#distributionFactor) 
 
-### <a name="custom-visuals"></a>사용자 지정 시각적 개체
+### <a name="power-bi-visuals"></a>Power BI 시각적 개체
 
 * Power BI 인증 범주  [[동영상]](https://youtu.be/Mtig3rmIUe0?t=41m13s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#certifiedVisuals) 
 * 특정 조직 시각적 개체 사용 안 함  [[동영상]](https://youtu.be/Mtig3rmIUe0?t=42m32s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#orgCustomVisuals) 
-* 새 사용자 지정 시각적 개체 4개  [[동영상]](https://youtu.be/Mtig3rmIUe0?t=44m)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#visio) 
+* 새 Power BI 시각적 개체 4개  [[동영상]](https://youtu.be/Mtig3rmIUe0?t=44m)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/#visio) 
 
 ### <a name="data-connectivity"></a>데이터 연결
 
@@ -1164,7 +1239,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2018-feature-summary/)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
 
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Mtig3rmIUe0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -1187,9 +1262,9 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 * 콤보 차트의 각 측정값에 대해 별도로 데이터 레이블 서식 지정  [[동영상]](https://youtu.be/4VpGtWSrssE?t=9m29s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#comboLabels) 
 * 긴 휴대폰 보고서  [[동영상]](https://youtu.be/4VpGtWSrssE?t=11m26s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#phoneReports) 
 
-### <a name="custom-visuals"></a>사용자 지정 시각적 개체
+### <a name="power-bi-visuals"></a>Power BI 시각적 개체
 
-* 새 사용자 지정 시각적 개체 2개  [[동영상]](https://youtu.be/4VpGtWSrssE?t=17m42s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#customVisuals) 
+* 새 Power BI 시각적 개체 2개  [[동영상]](https://youtu.be/4VpGtWSrssE?t=17m42s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#customVisuals) 
 
 ### <a name="modeling"></a>모델링
 * 데이터 뷰의 필터링 및 정렬  [[동영상]](https://youtu.be/4VpGtWSrssE?t=13m11s)  [[문서]](desktop-data-view.md#filtering-in-data-view)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#filterAndSort) 
@@ -1212,7 +1287,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4VpGtWSrssE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -1236,15 +1311,15 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 ### <a name="analytics"></a>분석
 
-* 측정값 드릴스루  [[동영상]](https://youtu.be/-_GMCE1TLvQ?t=2m9s)  [[문서]](desktop-drillthrough.md#pass-all-filters-in-drillthrough)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#measureDrillthrough) 
+* 측정값 드릴스루  [[동영상]](https://youtu.be/-_GMCE1TLvQ?t=2m9s)  [[문서]](desktop-drillthrough.md#pass-all-filters-in-drill-through)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#measureDrillthrough) 
 
 ### <a name="power-bi-premium"></a>Power BI Premium
 
 * 증분 새로 고침(미리 보기)  [[동영상]](https://youtu.be/-_GMCE1TLvQ?t=7m42s)  [[문서]](service-premium-incremental-refresh.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#incrementalRefresh) 
 
-### <a name="custom-visuals"></a>사용자 지정 시각적 개체
+### <a name="power-bi-visuals"></a>Power BI 시각적 개체
 
-* 많은 새 사용자 지정 시각적 개체  [[동영상]](https://youtu.be/-_GMCE1TLvQ?t=9m44s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#customVisuals) 
+* 많은 새 Power BI 시각적 개체  [[동영상]](https://youtu.be/-_GMCE1TLvQ?t=9m44s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>데이터 연결
 
@@ -1267,7 +1342,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
 
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-_GMCE1TLvQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -1291,13 +1366,13 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 ### <a name="analytics"></a>분석
 
-* 언어 스키마 업데이트  [[동영상]](https://youtu.be/W_Nb73Od_AI?t=22m)  [[문서]](developer/power-bi-custom-visuals-organization.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#linguisticSchema) 
+* 언어 스키마 업데이트  [[동영상]](https://youtu.be/W_Nb73Od_AI?t=22m)  [[문서]](developer/visuals/power-bi-custom-visuals-organization.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#linguisticSchema) 
 * 새 DAX 함수: COMBINEVALUES()  [[동영상]](https://youtu.be/W_Nb73Od_AI?t=23m37s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#combineValues) 
 
-### <a name="custom-visuals"></a>사용자 지정 시각적 개체
+### <a name="power-bi-visuals"></a>Power BI 시각적 개체
 
-* 조직 시각적 개체 출시  [[동영상]](https://youtu.be/W_Nb73Od_AI?t=26m11s)  [[문서]](developer/power-bi-custom-visuals-organization.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#organizationalVisuals) 
-* 많은 새 사용자 지정 시각적 개체  [[동영상]](https://youtu.be/W_Nb73Od_AI?t=28m8s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#overviewByCloudScope) 
+* 조직 시각적 개체 출시  [[동영상]](https://youtu.be/W_Nb73Od_AI?t=26m11s)  [[문서]](developer/visuals/power-bi-custom-visuals-organization.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#organizationalVisuals) 
+* 많은 새 Power BI 시각적 개체  [[동영상]](https://youtu.be/W_Nb73Od_AI?t=28m8s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#overviewByCloudScope) 
 
 ### <a name="data-connectivity"></a>데이터 연결
 
@@ -1313,7 +1388,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
 
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/W_Nb73Od_AI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -1334,9 +1409,9 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 * 보고서 읽기 모드에서 시각적 개체 헤더 끄기  [[동영상]](https://youtu.be/kuI6MMzDh34?t=12m25s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualHeader) 
 * 향상된 기본 시각적 개체 배치  [[동영상]](https://youtu.be/kuI6MMzDh34?t=14m45s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualPlacement) 
 
-### <a name="custom-visuals"></a>사용자 지정 시각적 개체
+### <a name="power-bi-visuals"></a>Power BI 시각적 개체
 
-* 많은 새 사용자 지정 시각적 개체  [[동영상]](https://youtu.be/kuI6MMzDh34?t=15m43s)  [[문서]](developer/power-bi-custom-visuals-organization.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#customVisuals) 
+* 많은 새 Power BI 시각적 개체  [[동영상]](https://youtu.be/kuI6MMzDh34?t=15m43s)  [[문서]](developer/visuals/power-bi-custom-visuals-organization.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#customVisuals) 
 
 ### <a name="data-connectivity"></a>데이터 연결
 
@@ -1358,7 +1433,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
 
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kuI6MMzDh34" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -1377,9 +1452,9 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 * 기능을 설명할 때 **[동영상]** 발췌 내용이 새 브라우저 탭에서 재생됩니다.
 * 일부 기능에는 세부 정보를 제공하는 **[문서]** 가 있습니다.
 * 대부분의 기능은 월별 업데이트 **[블로그]** 게시물에 설명되어 있습니다.
-* 마지막으로 일부 기능은 자체 설명되며 문서 또는 비디오가 필요하지 않습니다.
+* 마지막으로 일부 기능은 자체 설명되며 문서 또는 동영상이 필요하지 않습니다.
 
-이번 달에는 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 아티클 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
+이번 달에는 업데이트 목록 아래에 있는 동영상 이미지의 **재생** 아이콘을 클릭하여 이 아티클 내의 **최신 업데이트** 동영상을 시청할 수도 있습니다.
 
 다음은 2018년 2월의 새로운 **Power BI Desktop** 업데이트입니다.
 
@@ -1393,9 +1468,9 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 * 서식 및 분석 창 검색  [[동영상]](https://youtu.be/KeVB5RwMzJo?t=14m46s)  [[문서]](desktop-analytics-pane.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#search) 
 
 
-### <a name="custom-visuals"></a>사용자 지정 시각적 개체
+### <a name="power-bi-visuals"></a>Power BI 시각적 개체
 
-* 조직 사용자 지정 시각적 개체(미리 보기)  [[동영상]](https://youtu.be/KeVB5RwMzJo?t=19m23s)  [[문서]](developer/power-bi-custom-visuals-organization.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#organizationalVisuals) 
+* 조직 Power BI 시각적 개체(미리 보기)  [[동영상]](https://youtu.be/KeVB5RwMzJo?t=19m23s)  [[문서]](developer/visuals/power-bi-custom-visuals-organization.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#organizationalVisuals) 
 
 
 ### <a name="analytics"></a>분석
@@ -1422,7 +1497,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
 
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KeVB5RwMzJo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -1440,9 +1515,9 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 * 기능을 설명할 때 **[동영상]** 발췌 내용이 새 브라우저 탭에서 재생됩니다.
 * 일부 기능에는 세부 정보를 제공하는 **[문서]** 가 있습니다.
 * 대부분의 기능은 월별 업데이트 **[블로그]** 게시물에 설명되어 있습니다.
-* 마지막으로 일부 기능은 자체 설명되며 문서 또는 비디오가 필요하지 않습니다.
+* 마지막으로 일부 기능은 자체 설명되며 문서 또는 동영상이 필요하지 않습니다.
 
-이번 달에는 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 아티클 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
+이번 달에는 업데이트 목록 아래에 있는 동영상 이미지의 **재생** 아이콘을 클릭하여 이 아티클 내의 **최신 업데이트** 동영상을 시청할 수도 있습니다.
 
 **Power BI Desktop** 1월 업데이트의 새 기능은 다음과 같습니다.
 
@@ -1455,7 +1530,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 -   날짜를 계층 구조로 표시(미리 보기)  [[동영상]](https://youtu.be/W8Pp5wuCXJw?t=7m41s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#dateHierarchy) 
 -   상대 날짜 슬라이서의 기준 날짜 추가  [[동영상]](https://youtu.be/W8Pp5wuCXJw?t=9m22s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#anchorDate) 
 -   질문 및 답변에서 상위 N개 선택  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#topN) 
--   많은 새 사용자 지정 시각적 개체  [[동영상]](https://youtu.be/W8Pp5wuCXJw?t=11m32s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#customVisuals) 
+-   많은 새 Power BI 시각적 개체  [[동영상]](https://youtu.be/W8Pp5wuCXJw?t=11m32s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#customVisuals) 
 
 ### <a name="analytics"></a>분석
 
@@ -1472,7 +1547,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/W8Pp5wuCXJw" frameborder="0" allowfullscreen></iframe>
 
@@ -1490,9 +1565,9 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 -   기능을 설명할 때 **[동영상]** 발췌 내용이 새 브라우저 탭에서 재생됩니다.
 -   일부 기능에는 세부 정보를 제공하는 **[문서]** 가 있습니다.
 -   대부분의 기능은 월별 업데이트 **[블로그]** 게시물에 설명되어 있습니다.
--   마지막으로 일부 기능은 자체 설명되며 문서 또는 비디오가 필요하지 않습니다.
+-   마지막으로 일부 기능은 자체 설명되며 문서 또는 동영상이 필요하지 않습니다.
 
-처음부터 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
+처음부터 업데이트 목록 아래에 있는 동영상 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 동영상을 시청할 수도 있습니다.
 
 12월에 업데이트되었던 **Power BI Desktop**의 새 기능은 다음과 같습니다.
 
@@ -1505,7 +1580,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 -   x축 및 y축 그룹화를 통한 분산형 시각적 개체  [[동영상]](https://youtu.be/ZPU8B-1BxjI?t=15m12s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#scatterChart) 
 -   위도 및 경도 기반 지도의 고밀도 샘플링  [[동영상]](https://youtu.be/ZPU8B-1BxjI?t=17m3s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#highDensityMaps) 
 -   반응형 슬라이서  [[동영상]](https://youtu.be/sI3yRjdnJ7w?t=20m9s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#responsive) 
--   최근에 릴리스 된 사용자 지정 시각적 개체  [[동영상]](https://youtu.be/ZPU8B-1BxjI?t=18m25s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#customVisuals) 
+-   최근에 릴리스된 Power BI 시각적 개체  [[동영상]](https://youtu.be/ZPU8B-1BxjI?t=18m25s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#customVisuals) 
 
 
 ### <a name="analytics"></a>분석
@@ -1528,7 +1603,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZPU8B-1BxjI" frameborder="0" allowfullscreen></iframe>
 
@@ -1545,9 +1620,9 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 -   기능을 설명할 때 **[동영상]** 발췌 내용이 새 브라우저 탭에서 재생됩니다.
 -   일부 기능에는 세부 정보를 제공하는 **[문서]** 가 있습니다.
 -   대부분의 기능은 월별 업데이트 **[블로그]** 게시물에 설명되어 있습니다.
--   마지막으로 일부 기능은 자체 설명되며 문서 또는 비디오가 필요하지 않습니다.
+-   마지막으로 일부 기능은 자체 설명되며 문서 또는 동영상이 필요하지 않습니다.
 
-처음부터 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
+처음부터 업데이트 목록 아래에 있는 동영상 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 동영상을 시청할 수도 있습니다.
 
 11월 **Power BI Desktop** 업데이트의 새 기능은 다음과 같습니다.
 
@@ -1560,7 +1635,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 -   ArcGIS Maps for Power BI에 Esri Plus 구독 사용 가능 [[동영상]](https://youtu.be/sI3yRjdnJ7w?t=10m31s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#esriPlus) 
 -   느린 데이터 원본의 보고서 옵션  [[동영상]](https://youtu.be/sI3yRjdnJ7w?t=16m11s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#slowDataSource) 
 -   필터링 성능 개선  [[동영상]](https://youtu.be/sI3yRjdnJ7w?t=20m9s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#filtering) 
--   최근에 릴리스 된 사용자 지정 시각적 개체  [[동영상]](https://youtu.be/sI3yRjdnJ7w?t=20m50s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#customVisuals) 
+-   최근에 릴리스된 Power BI 시각적 개체  [[동영상]](https://youtu.be/sI3yRjdnJ7w?t=20m50s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#customVisuals) 
 
 
 ### <a name="analytics"></a>분석
@@ -1584,7 +1659,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sI3yRjdnJ7w" frameborder="0" allowfullscreen></iframe>
 
@@ -1604,9 +1679,9 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 -   기능을 설명할 때 **[동영상]** 발췌 내용이 새 브라우저 탭에서 재생됩니다.
 -   일부 기능에는 세부 정보를 제공하는 **[문서]** 가 있습니다.
 -   대부분의 기능은 월별 업데이트 **[블로그]** 게시물에 설명되어 있습니다.
--   마지막으로 일부 기능은 자체 설명되며 문서 또는 비디오가 필요하지 않습니다.
+-   마지막으로 일부 기능은 자체 설명되며 문서 또는 동영상이 필요하지 않습니다.
 
-처음부터 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
+처음부터 업데이트 목록 아래에 있는 동영상 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 동영상을 시청할 수도 있습니다.
 
 이번 달의 새로운 **Power BI Desktop** 업데이트 기능은 다음과 같습니다.
 
@@ -1642,7 +1717,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-october-2017-feature-summary)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jksjtR8GnBE" frameborder="0" allowfullscreen></iframe>
 
@@ -1665,7 +1740,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
     -   바로 가기 키 도우미 대화 상자  [[동영상]](https://youtu.be/moTQJlnClJw?t=28m50s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#shortcuts) [[문서]](desktop-accessibility.md)
 -   고밀도 분산형 차트 샘플링  [[동영상]](https://youtu.be/moTQJlnClJw?t=30m22s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#highDensityScatter) [[문서]](desktop-high-density-scatter-charts.md)
 -   눈금선 스타일 컨트롤  [[동영상]](https://youtu.be/moTQJlnClJw?t=33m53s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#gridlines) [[문서]](desktop-gridlines-snap-to-grid.md)
--   새 사용자 지정 시각적 개체  [[동영상]](https://youtu.be/moTQJlnClJw?t=36m4s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#communityVisuals)
+-   새 Power BI 시각적 개체 [[동영상]](https://youtu.be/moTQJlnClJw?t=36m4s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#communityVisuals)
     -   Calendar by Tallan  [[동영상]](https://youtu.be/moTQJlnClJw?t=36m26s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#calendarByTallan)
     -   Enlighten Aquarium  [[동영상]](https://youtu.be/moTQJlnClJw?t=38m11s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#enlightenAquarium)
     -   Visio 시각적 개체(미리 보기) [[동영상]](https://youtu.be/moTQJlnClJw?t=40m15s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary/#visio)
@@ -1682,7 +1757,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-september-2017-feature-summary)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/moTQJlnClJw" frameborder="0" allowfullscreen></iframe>
 
@@ -1701,7 +1776,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 -   행렬의 수준별 사용자 지정 부분합 설정  [[동영상]](https://youtu.be/ND8U0yXroaQ?t=4m29s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#customSubtotal)
 -   선 스타일 및 범례 옵션  [[동영상]](https://youtu.be/ND8U0yXroaQ?t=6m54s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#lineStyles)
 -   분산형 차트 성능 개선  [[동영상]](https://youtu.be/ND8U0yXroaQ?t=13m59s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#scatterChartPerformance)
--   새 사용자 지정 시각적 개체  [[동영상]](https://youtu.be/ND8U0yXroaQ?t=14m32s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#customVisuals)
+-   새 Power BI 시각적 개체 [[동영상]](https://youtu.be/ND8U0yXroaQ?t=14m32s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#customVisuals)
     -   MAQ Software를 통한 점 그림  [[동영상]](https://youtu.be/ND8U0yXroaQ?t=14m45s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#dotPlot)
     -   Power KPI  [[동영상]](https://youtu.be/ND8U0yXroaQ?t=19m11s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#powerKPI)
     -   깔때기형 그림  [[동영상]](https://youtu.be/ND8U0yXroaQ?t=21m55s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary/#funnelPlot)
@@ -1727,7 +1802,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2017-feature-summary)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ND8U0yXroaQ" frameborder="0" allowfullscreen></iframe>
 
@@ -1743,7 +1818,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 
 -   새 테이블 및 행렬 시각적 개체 출시 [[동영상]](https://youtu.be/4X96ow7FnSY?t=1m27s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#tableAndMatrix)
 -   시각적 개체의 필드 이름 바꾸기  [[동영상]](https://youtu.be/4X96ow7FnSY?t=6m3s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#rename)
--   사용자 지정 시각적 개체 저장소 통합  [[동영상]](https://youtu.be/4X96ow7FnSY?t=8m7s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#customVisualsStore)
+-   Power BI 시각적 개체 저장소 통합  [[동영상]](https://youtu.be/4X96ow7FnSY?t=8m7s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#customVisualsStore)
 -   상대 날짜 필터  [[동영상]](https://youtu.be/4X96ow7FnSY?t=10m46s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#relativeDateFilter)
 -   시각적 개체의 반응형 레이아웃(미리 보기)  [[동영상]](https://youtu.be/4X96ow7FnSY?t=12m14s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals)
 -   새 폭포 차트 옵션 - 분석  [[동영상]](https://youtu.be/4X96ow7FnSY?t=14m29s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#waterfall)
@@ -1751,7 +1826,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
     -   드릴다운 단계구분도  [[동영상]](https://youtu.be/4X96ow7FnSY?t=18m11s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownChoropleth)
     -   드릴다운 통계 지도  [[동영상]](https://youtu.be/4X96ow7FnSY?t=19m14s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownCartogram)
     -   드릴다운 플레이어  [[동영상]](https://youtu.be/4X96ow7FnSY?t=20m17s)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#drilldownPlayer)
-    -   인증된 사용자 지정 시각적 개체 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#certifiedCustomVisuals)
+    -   인증된 Power BI 시각적 개체  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#certifiedCustomVisuals)
 
 
 ### <a name="analytics--modeling"></a>분석 및 모델링:
@@ -1777,7 +1852,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2)을 살펴보세요(위의 목록과 동일한 블로그 게시물 참조임).
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4X96ow7FnSY" frameborder="0" allowfullscreen></iframe>
 
@@ -1822,7 +1897,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 새로운 기능 각각에 대해 자세한 정보를 얻을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary)(위 목록에서 언급한 것과 동일한 블로그 게시물임)을 살펴보세요.
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YlNVE5dgcSI" frameborder="0" allowfullscreen></iframe>
 
@@ -1869,7 +1944,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 새로운 기능 각각에 대해 자세한 정보를 얻을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-may-feature-summary/)(위 목록에서 언급한 것과 동일한 블로그 게시물임)을 살펴보세요.
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CKISVNHcHVA" frameborder="0" allowfullscreen></iframe>
 
@@ -1914,7 +1989,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 새로운 기능 각각에 대해 자세한 정보를 얻을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-april-feature-summary/)(위 목록에서 언급한 것과 동일한 블로그 게시물임)을 살펴보세요.
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AWMaIaI8G2Y" frameborder="0" allowfullscreen></iframe>
 
@@ -1941,7 +2016,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 
 ### <a name="data-connectivity"></a>데이터 연결:
 
--   새롭거나 향상된 데이터 커넥터 [[비디오]](https://youtu.be/CaRTON3lJqw?t=21m14s):
+-   새롭거나 향상된 데이터 커넥터 [[동영상]](https://youtu.be/CaRTON3lJqw?t=21m14s):
     -   Azure Analysis Services 데이터베이스(베타)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#azureAnalysisServices)
     -   Azure Data Lake Store - 이제 일반적으로 사용 가능[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#azureDataLakeStore)
     -   DB2 커넥터 - 패키지 컬렉션 지정 옵션 [[동영상]](https://youtu.be/CaRTON3lJqw?t=22m) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/#db2)
@@ -1957,7 +2032,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 새로운 기능 각각에 대해 자세한 정보를 얻을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-march-feature-summary/)(위 목록에서 언급한 것과 동일한 블로그 게시물임)을 살펴보세요.
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaRTON3lJqw" frameborder="0" allowfullscreen></iframe>
 
@@ -1983,7 +2058,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 
 ### <a name="data-connectivity"></a>데이터 연결:
 
--   새롭거나 향상된 데이터 커넥터 [[비디오]](https://youtu.be/mn75-LOPxMA?t=9m23s):
+-   새롭거나 향상된 데이터 커넥터 [[동영상]](https://youtu.be/mn75-LOPxMA?t=9m23s):
     -   ODBC 및 OLE DB 커넥터 - ‘관련 테이블 선택’ 지원 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#relatedTables) 
     -   다기능 폴더 커넥터 - 미리 보기 대화 상자에서 이진 조합 지원 [[동영상]](https://youtu.be/mn75-LOPxMA?t=10m1s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#folder)
     -   통합 텍스트 및 CSV 커넥터 [[동영상]](https://youtu.be/mn75-LOPxMA?t=11m9s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/#textConnector)
@@ -2005,7 +2080,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 새로운 기능 각각에 대해 자세한 정보를 얻을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-february-feature-summary/)(위 목록에서 언급한 것과 동일한 블로그 게시물임)을 살펴보세요.
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mn75-LOPxMA" frameborder="0" allowfullscreen></iframe>
 
@@ -2027,7 +2102,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 
 ### <a name="data-connectors"></a>데이터 커넥터:
 
--   새롭거나 향상된 데이터 커넥터 [[비디오]](https://youtu.be/C1-f0T8vZ7M?t=8m47s):
+-   새롭거나 향상된 데이터 커넥터 [[동영상]](https://youtu.be/C1-f0T8vZ7M?t=8m47s):
     -   Visual Studio Team Services 커넥터(베타) [[동영상]](https://youtu.be/C1-f0T8vZ7M?t=8m47s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-feature-summary/#visualStudioTeamServices)
     -   확장 SQL Server 커넥터 - SQL 장애 조치(failover) 옵션 지원 [[동영상]](https://youtu.be/C1-f0T8vZ7M?t=9m28s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-january-feature-summary/#SQLFailover)
 
@@ -2041,7 +2116,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 새로운 기능 각각에 대해 자세한 정보를 얻을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-january-feature-summary/)(위 목록에서 언급한 것과 동일한 블로그 게시물임)을 살펴보세요.
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/C1-f0T8vZ7M" frameborder="0" allowfullscreen></iframe>
 
@@ -2076,7 +2151,7 @@ Power BI Desktop 11월 업데이트의 새 기능은 다음과 같습니다.
 
 ### <a name="data-connectors"></a>데이터 커넥터:
 
--   새 데이터 커넥터 [[비디오]](https://youtu.be/kERJ_WOLuLk?t=14m10s):
+-   새 데이터 커넥터 [[동영상]](https://youtu.be/kERJ_WOLuLk?t=14m10s):
     -   Spark DirectQuery [[동영상]](https://youtu.be/kERJ_WOLuLk?t=14m12s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#spark)
     -   OData 커넥터 개선 [[동영상]](https://youtu.be/kERJ_WOLuLk?t=15m44s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#oData)
     -   향상된 ‘이진 조합’ 환경 [[동영상]](https://youtu.be/kERJ_WOLuLk?t=15m44s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#combineBinaries) 
@@ -2094,7 +2169,7 @@ Power BI Desktop 11월 업데이트의 새 기능은 다음과 같습니다.
 
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 새로운 기능 각각에 대해 자세한 정보를 얻을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/)(위 목록에서 언급한 것과 동일한 블로그 게시물임)을 살펴보세요.
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kERJ_WOLuLk" frameborder="0" allowfullscreen></iframe>
 
@@ -2109,7 +2184,7 @@ Power BI Desktop 11월 업데이트의 새 기능은 다음과 같습니다.
 
 ### <a name="report-view"></a>보고서 보기:
 
--   날짜 축 범위 서식 지정 개선 [[비디오]](https://youtu.be/UXEYSvgvMaQ?t=26s)
+-   날짜 축 범위 서식 지정 개선 [[동영상]](https://youtu.be/UXEYSvgvMaQ?t=26s)
 -   날짜 슬라이서 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#dateSlicer) [[동영상]](https://youtu.be/UXEYSvgvMaQ?t=2m9s)
 -   보고서 눈금선 및 눈금에 맞춤(미리 보기) [[문서]](desktop-analytics-pane.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#snapToGrid) [[동영상]](https://youtu.be/UXEYSvgvMaQ?t=4m3s)
 -   데이터 레이블 개선 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#dateLabels) [[동영상]](https://youtu.be/UXEYSvgvMaQ?t=5m30s)
@@ -2123,12 +2198,12 @@ Power BI Desktop 11월 업데이트의 새 기능은 다음과 같습니다.
 -   범주화 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#binning) [[동영상]](https://youtu.be/UXEYSvgvMaQ?t=12m17s)
 -   상위 N개 필터 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#topN) [[동영상]](https://youtu.be/UXEYSvgvMaQ?t=13m55s)
 -   데이터 요소 포함/제외 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#includeExclude) [[동영상]](https://youtu.be/UXEYSvgvMaQ?t=15m36s)
--   R 지원 사용자 지정 시각적 개체[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#rCustomVisuals)
+-   R 지원 Power BI 시각적 개체[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#rCustomVisuals)
 
 
 ### <a name="data-connectors"></a>데이터 커넥터:
 
--   새 데이터 커넥터 [[비디오]](https://youtu.be/UXEYSvgvMaQ?t=17m30s):
+-   새 데이터 커넥터 [[동영상]](https://youtu.be/UXEYSvgvMaQ?t=17m30s):
     -   재무(베타)용 Microsoft Dynamics 365 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#dynamics365Financials)
     -   OLE DB [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#oledb)
     -   Mixpanel [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/preview/#mixpanel)
@@ -2147,7 +2222,7 @@ Power BI Desktop 11월 업데이트의 새 기능은 다음과 같습니다.
 
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 새로운 기능 각각에 대해 자세한 정보를 얻을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-october-feature-summary/)(위 목록에서 언급한 것과 동일한 블로그 게시물임)을 살펴보세요.
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UXEYSvgvMaQ" frameborder="0" allowfullscreen></iframe>
 
@@ -2205,7 +2280,7 @@ Power BI Desktop 11월 업데이트의 새 기능은 다음과 같습니다.
 
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 새로운 기능 각각에 대해 자세한 정보를 얻을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)(위 목록에서 언급한 것과 동일한 블로그 게시물임)을 살펴보세요.
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pcUr6E8g_KI" frameborder="0" allowfullscreen></iframe>
 
@@ -2221,9 +2296,9 @@ Power BI Desktop 11월 업데이트의 새 기능은 다음과 같습니다.
 -   기능을 설명할 때 **[동영상]** 발췌 내용이 새 브라우저 탭에서 재생됩니다.
 -   일부 기능에는 세부 정보를 제공하는 **[문서]** 가 있습니다.
 -   대부분의 기능은 월별 업데이트 **[블로그]** 게시물에 설명되어 있습니다.
--   마지막으로 일부 기능은 자체 설명되며 문서 또는 비디오가 필요하지 않습니다.
+-   마지막으로 일부 기능은 자체 설명되며 문서 또는 동영상이 필요하지 않습니다.
 
-처음부터 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
+처음부터 업데이트 목록 아래에 있는 동영상 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 동영상을 시청할 수도 있습니다.
 
 다음은 이번 달의 Power BI Desktop 업데이트입니다.
 
@@ -2266,7 +2341,7 @@ Power BI Desktop 11월 업데이트의 새 기능은 다음과 같습니다.
 
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 새로운 기능 각각에 대해 자세한 정보를 얻을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/)(위 목록에서 언급한 것과 동일한 블로그 게시물임)을 살펴보세요.
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0VvG7Eqoke8" frameborder="0" allowfullscreen></iframe>
 
@@ -2309,7 +2384,7 @@ Power BI Desktop 11월 업데이트의 새 기능은 다음과 같습니다.
 
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각 기능에 대해 자세한 정보를 얻을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary/)(위 목록에서 언급한 것과 동일한 블로그 게시물임)을 살펴보세요.
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/g8ccfjffWmw" frameborder="0" allowfullscreen></iframe>
 
@@ -2362,7 +2437,7 @@ Power BI Desktop 11월 업데이트의 새 기능은 다음과 같습니다.
 
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-june-update/)을 살펴보세요.
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sZsL2l6oS4A" frameborder="0" allowfullscreen></iframe>
 
@@ -2418,7 +2493,7 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
 
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)을 살펴보세요.
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KnDs4amt9-c" frameborder="0" allowfullscreen></iframe>
 
@@ -2467,7 +2542,7 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
 
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-april-update-feature-summary/)을 살펴보세요.
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7IFZTYJR3Gk" frameborder="0" allowfullscreen></iframe>
 
@@ -2519,7 +2594,7 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
 
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-march-update-feature-summary/)을 살펴보세요.
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eAayYDF9QzY" frameborder="0" allowfullscreen></iframe>
 
@@ -2577,7 +2652,7 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
 
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-update-lots-of-new-authoring-features-and-a-new-power-bi-desktop-update/)을 살펴보세요.
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/J5gZ65Wexh4" frameborder="0" allowfullscreen></iframe>
 
@@ -2617,7 +2692,7 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
 
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://blogs.msdn.com/b/powerbi/archive/2016/01/28/power-bi-updates-this-week-new-report-authoring-capabilities.aspx)을 살펴보세요.
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ek8dwi33-24" frameborder="0" allowfullscreen></iframe>
@@ -2673,7 +2748,7 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
 
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx)을 살펴보세요.
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="500" height="281" src="https://www.youtube.com/embed/iW5VH8iIyfE" frameborder="0" allowfullscreen></iframe>
 
@@ -2728,7 +2803,7 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
 
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://blogs.msdn.com/b/powerbi/archive/2015/11/20/announcing-the-power-bi-desktop-november-update.aspx)을 살펴보세요.
 
-다음 비디오에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 비디오를 볼 수 있습니다.
+다음 동영상에서는 이러한 각 업데이트를 설명하고 표시합니다. 블로그 게시물에서도 동영상을 볼 수 있습니다.
 
 <iframe width="500" height="281" src="https://www.youtube.com/embed/ErHvpkyQjSg" frameborder="0" allowfullscreen></iframe>
 
@@ -2773,7 +2848,7 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
 -   미리 보기 기능 사용 옵션
 -   제품 내 등급 환경
 
-이러한 모든 업데이트의 비디오를 볼 수 있습니다.
+이러한 모든 업데이트의 동영상을 볼 수 있습니다.
 
 <iframe width="500" height="281" src="https://www.youtube.com/embed/Jbocn1ZNkxM" frameborder="0" allowfullscreen></iframe>
 
@@ -2844,7 +2919,7 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
     - 열 선택 대화 상자: 넓은 테이블을 더 빠르게 처리할 수 있는 사용자 환경
     - 자동 필터 및 확장/집계 팝업: 많은 수의 값/필드를 더 빠르게 처리
 
-다음 비디오에서는 이러한 기능을 자세히 설명합니다.
+다음 동영상에서는 이러한 기능을 자세히 설명합니다.
 
 <iframe width="500" height="281" src="https://www.youtube.com/embed/Jm44dLXdarQ" frameborder="0" allowfullscreen></iframe>
 

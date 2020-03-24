@@ -7,18 +7,18 @@ manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 0253455cfba96c3c467f4cf8882550e22edce8ba
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: dd8510230a66a9897023686aefb72990ac01a5fd
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819241"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380492"
 ---
 # <a name="add-drill-down-support"></a>드릴다운 지원 추가
 
-사용자 지정 시각적 개체는 Power BI의 드릴다운을 사용할 수 있습니다.
+Power BI 시각적 개체는 Power BI의 드릴다운을 사용할 수 있습니다.
 
 Power BI 드릴다운에 대한 자세한 내용은 [여기](./../../consumer/end-user-drill.md)를 참조하세요.
 
@@ -207,36 +207,36 @@ button {
 
 |   H1  |   H2    | H3  |   Values  |
 |-----|-----|------|-------|
-|   A   |   A1  |   A11 |   1   |
-|   A   |   A1  |   A12 |   2   |
-|   A   |   A2  |   A21 |   3   |
-|   A   |   A2  |   A22 |   4   |
-|   A   |   A3  |   A31 |   5   |
-|   A   |   A3  |   A32 |   6   |
-|   B   |   B1  |   B11 |   7   |
-|   B   |   B1  |   B12 |   8   |
-|   B   |   B2  |   B21 |   9   |
-|   B   |   B2  |   B22 |   10  |
-|   B   |   B3  |   B31 |   11  |
-|   B   |   B3  |   B32 |   12  |
+|   A   |    A1  |    A11 |    1   |
+|   A    |    A1    |    A12    |    2    |
+|   A    |    A2    |    A21    |    3    |
+|   A    |    A2    |    A22    |    4    |
+|   A    |    A3    |    A31    |    5    |
+|   A    |    A3    |    A32    |    6    |
+|   B    |    B1    |    B11    |    7    |
+|   B    |    B1    |    B12    |    8    |
+|   B    |    B2    |    B21    |    9    |
+|   B    |    B2    |    B22    |    10    |
+|   B    |    B3    |    B31    |    11    |
+|   B    |    B3    |    B32    |    12    |
 
 Power BI Desktop에서 계층 구조를 만듭니다.
 
-![새 계층 구조 만들기](./media/create-new-hierarchy.png)
+![새 계층 구조 만들기](media/drill-down-support/create-new-hierarchy.png)
 
 새 계층 구조에 모든 범주 열(H1, H2, H3)을 포함합니다.
 
-![새 계층 구조 만들기](./media/new-hierarchy.png)
+![새 계층 구조 만들기](media/drill-down-support/new-hierarchy.png)
 
 이 단계를 수행하면 다음과 같은 시각적 개체가 생성됩니다.
 
-![단추가 포함된 개발자 시각적 개체](./media/dev-visual-drilldown1.png)
+![단추가 포함된 개발자 시각적 개체](media/drill-down-support/dev-visual-drilldown1.png)
 
 ## <a name="add-context-menu-to-visual-elements"></a>시각적 요소에 상황에 맞는 메뉴 추가
 
 이 단계에서는 시각적 개체의 단추에 상황에 맞는 메뉴를 추가합니다.
 
-![시각적 개체의 상황에 맞는 메뉴](./media/dev-visual-drilldown-context-menu.png)
+![시각적 개체의 상황에 맞는 메뉴](media/drill-down-support/dev-visual-drilldown-context-menu.png)
 
 상황에 맞는 메뉴를 만들려면 시각적 개체의 속성에 `host` 개체를 저장하고 선택 관리자 만들기의 `createSelectionManager` 메서드를 호출하여 Power BI 시각적 개체 API로 상황에 맞는 메뉴를 표시합니다.
 
@@ -305,11 +305,11 @@ export class Visual implements IVisual {
 
 데이터를 시각적 개체에 적용합니다.
 
-![데이터가 포함된 시각적 개체](./media/dev-visual-drilldown-data.png)
+![데이터가 포함된 시각적 개체](media/drill-down-support/dev-visual-drilldown-data.png)
 
 최종 단계에서 선택 항목 및 상황에 맞는 메뉴를 사용하여 시각적 개체를 가져와야 합니다.
 
-![드릴다운 지원이 포함된 시각적 개체](./media/dev-visual-drilldown-demo.gif)
+![드릴다운 지원이 포함된 시각적 개체](media/drill-down-support/dev-visual-drilldown-demo.gif)
 
 ## <a name="add-drill-down-support-for-matrix-data-view-mapping"></a>행렬 데이터 뷰 매핑의 드릴다운 지원 추가
 
@@ -389,7 +389,7 @@ export class Visual implements IVisual {
 
 데이터를 시각적 개체에 적용합니다.
 
-![데이터가 포함된 시각적 개체](./media/dev-matrix-visual-drilldown-data.png)
+![데이터가 포함된 시각적 개체](media/drill-down-support/dev-matrix-visual-drilldown-data.png)
 
 행렬 데이터 뷰 매핑을 처리하는 데 필요한 인터페이스를 가져옵니다.
 
@@ -614,7 +614,7 @@ public update(options: VisualUpdateOptions) {
 
 마지막 단계에서는 상황에 맞는 메뉴를 사용하여 시각적 개체를 가져와야 합니다.
 
-![드릴다운 지원이 포함된 시각적 개체](./media/dev-matrix-visual-drilldown-demo.gif)
+![드릴다운 지원이 포함된 시각적 개체](media\drill-down-support\dev-visual-drilldown-demo.gif)
 
 ## <a name="next-steps"></a>다음 단계
 

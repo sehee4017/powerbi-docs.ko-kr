@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 8829cb8af41611fb29cd4fc22da7706e80ef3210
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4379fbfe051b69a2c9502a033ba462c1dded2022
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880352"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79380646"
 ---
 # <a name="tooltips-in-power-bi-visuals"></a>Power BI 시각적 개체의 도구 설명
 
@@ -27,7 +27,7 @@ ms.locfileid: "73880352"
 
 다음 그림은 샘플 가로 막대형 차트의 도구 설명을 보여 줍니다.
 
-![샘플 가로 막대형 차트 도구 설명](./media/tooltips-in-samplebarchart.png)
+![샘플 가로 막대형 차트 도구 설명](media/add-tooltips/tooltips-in-samplebarchart.png)
 
 위의 도구 설명 그림은 단일 막대 범주와 값을 보여 줍니다. 단일 도구 설명을 확장하여 여러 값을 표시할 수 있습니다.
 
@@ -209,7 +209,7 @@ BarChart 클래스는 데이터 요소의 `category`, `value` 및 `color`를 Vis
 
 **서식** 창에서 보고서 페이지 도구 설명을 정의할 수 있습니다.
 
-![보고서 페이지 도구 설명](media/report-page-tooltip.png)
+![보고서 페이지 도구 설명](media/add-tooltips/report-page-tooltips.png)
 
 * `supportedTypes`: 시각적 개체에서 지원되고 필드에도 반영되는 도구 설명 구성입니다. 
    * `default`: 데이터 필드를 통한 “자동” 도구 설명 바인딩이 지원되는지 여부를 지정합니다. 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 01996f3460b7c7a507796bd3f071f7887a69854e
-ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+ms.openlocfilehash: 6ec4e5afe63fbdf754fcb20ec8cd12379740d33d
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77154215"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79201542"
 ---
 # <a name="apply-auto-datetime-in-power-bi-desktop"></a>Power BI Desktop의 자동 날짜/시간 적용
 
@@ -33,7 +33,7 @@ ms.locfileid: "77154215"
 각 자동 날짜/시간 테이블은 실제로 DAX [CALENDAR](/dax/calendar-function-dax) 함수를 사용하여 데이터 행을 생성하는 [계산 테이블](desktop-calculated-tables.md)입니다. 또한 각 테이블에는 **Day**, **MonthNo**, **Month**, **QuarterNo**, **Quarter** 및 **Year**의 6개 계산 열이 포함되어 있습니다.
 
 > [!NOTE]
-> Power BI는 [모델 언어](supported-languages-countries-regions.md#choose-the-language-for-the-model-in-power-bi-desktop)에 따라 열 이름과 값을 변환하고 서식을 지정합니다.
+> Power BI는 [모델 언어](supported-languages-countries-regions.md#choose-the-language-for-the-model-in-power-bi-desktop)에 따라 열 이름과 값을 변환하고 서식을 지정합니다. 예를 들어 영어를 사용하여 모델을 만든 경우 한국어 클라이언트에서 표시되는 경우에도 월 이름이 영어로 표시됩니다.
 
 Power BI Desktop에서 자동 날짜/시간 테이블의 **Date** 열과 모델 날짜 열 사이의 관계를 만듭니다.
 

@@ -6,30 +6,30 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/20/2020
+ms.date: 03/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: df8c84b5b7baf55a32e07e3e48cb02317fdf7875
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: cbaf3244ce8e8aa2755b6b47bf6381c191293306
+ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77527455"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79133237"
 ---
-# <a name="use-the-updated-ribbon-in-power-bi-desktop-preview"></a>Power BI Desktop에서 업데이트된 리본 사용(미리 보기)
+# <a name="use-the-updated-ribbon-in-power-bi-desktop"></a>Power BI Desktop에서 업데이트된 리본 사용
 
-2019년 11월 업데이트부터 Power BI Desktop은 Microsoft Office와 같은 다른 Microsoft 제품의 모양 및 환경과 보다 잘 어울리도록 리본을 수정하고 있습니다.
+2020년 3월 업데이트부터 Power BI Desktop은 Microsoft Office와 같은 다른 Microsoft 제품의 모양 및 환경과 보다 잘 어울리도록 리본을 수정하고 있습니다. 업데이트된 리본은 2019년 11월의 월별 업데이트에서 미리 보기 기능으로 표시되며 2020년 3월 업데이트부터는 새 리본이 기본 환경입니다.
 
 ![Power BI Desktop의 새 리본](media/desktop-ribbon/desktop-ribbon-02.png)
 
-업데이트된 리본은 미리 보기 상태이므로 사용자 및 고객으로부터 피드백을 수집하여 환경이 확실한지 확인할 수 있습니다. 업데이트된 Power BI Desktop 리본이 일반 공급으로 출시하기 전에 몇 개월간 미리 보기, 피드백 수집 및 개선 작업을 진행할 예정입니다. 
-
 ## <a name="how-to-enable-the-updated-ribbon"></a>업데이트된 리본을 사용하도록 설정하는 방법
 
-Power BI의 업데이트된 리본은 미리 보기 기능이며 사용하도록 설정해야 합니다. 사용하도록 설정하려면 **파일 > 옵션 및 설정> 옵션**을 차례로 선택한 다음, 왼쪽 열에서 **미리 보기 기능**을 선택합니다. 오른쪽 창에는 **업데이트된 리본** 선택 항목이 있습니다. **업데이트된 리본** 옆의 확인란을 선택하여 미리 보기 기능을 사용하도록 설정합니다. 미리 보기 기능 변경 내용을 적용하려면 Power BI Desktop을 다시 시작해야 합니다.
+2020년 3월 업데이트부터 업데이트된 리본은 기본적으로 켜집니다. 그 이전 Power BI Desktop 버전(2019년 11월 업데이트부터)의 경우 Power BI의 업데이트된 리본은 미리 보기 기능이며 사용하도록 설정해야 합니다. 해당 이전 업데이트에서 사용하도록 설정하려면 **파일 > 옵션 및 설정> 옵션**을 차례로 선택한 다음, 왼쪽 열에서 **미리 보기 기능**을 선택합니다. 오른쪽 창에는 **업데이트된 리본** 선택 항목이 있습니다. **업데이트된 리본** 옆의 확인란을 선택하여 미리 보기 기능을 사용하도록 설정합니다. 미리 보기 기능 변경 내용을 적용하려면 Power BI Desktop을 다시 시작해야 합니다.
 
 ![Power BI Desktop의 업데이트된 리본 옵션](media/desktop-ribbon/desktop-ribbon-01.png)
 
+> [!NOTE]
+> 2020년 3월부터 제공되는 Power BI Desktop 버전의 경우 업데이트된 리본을 사용하도록 설정하지 않아도 됩니다. 2020년 3월부터 새 리본이 기본 환경입니다.
 
 ## <a name="features-of-the-new-ribbon"></a>새 리본의 기능
 

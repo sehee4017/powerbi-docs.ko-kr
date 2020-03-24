@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 047aa5e19089555538c874702dd50da0f1146ff1
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: ed1100a418259845e6a2656e1c5bab6d80358df0
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/10/2020
-ms.locfileid: "77115288"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381080"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI에서 실시간 스트리밍
 Power BI 실시간 스트리밍을 사용하여 실시간으로 데이터를 스트리밍하고 대시보드를 업데이트할 수 있습니다. Power BI에서 만들 수 있는 시각적 개체 또는 대시보드를 실시간 데이터 및 시각적 개체를 표시하고 업데이트하도록 만들 수도 있습니다. 스트리밍 데이터의 디바이스 및 원본은 공장 센서, 소셜 미디어 원본, 서비스 사용 메트릭 및 시간이 중요한 데이터가 수집되거나 전송되는 모든 것일 수 있습니다.
@@ -33,7 +33,7 @@ Power BI 실시간 스트리밍을 사용하여 실시간으로 데이터를 스
 먼저 이러한 데이터 세트가 서로 어떻게 다른지에 대해 알아본 다음(이 섹션), 이러한 데이터 세트 각각에 데이터를 푸시하는 방법에 대해 살펴봅니다.
 
 ### <a name="push-dataset"></a>푸시 데이터 세트
-**푸시 데이터 세트**에서 데이터는 Power BI 서비스에 푸시됩니다. 데이터 세트가 만들어질 때 Power BI 서비스는 데이터를 저장하는 서비스에서 새 데이터베이스를 자동으로 만듭니다. 계속 데이터를 그대로 저장하는 기본 데이터베이스가 있으므로 보고서를 데이터와 함께 만들 수 있습니다. 이러한 보고서 및 시각적 개체는 모든 다른 보고서 시각적 개체와 똑같습니다. 다시 말해, 모든 Power BI의 보고서 작성 기능을 사용하여 사용자 지정 시각적 개체, 데이터 경고, 고정된 대시보드 타일 등과 같은 시각적 개체를 만들 수 있습니다.
+**푸시 데이터 세트**에서 데이터는 Power BI 서비스에 푸시됩니다. 데이터 세트가 만들어질 때 Power BI 서비스는 데이터를 저장하는 서비스에서 새 데이터베이스를 자동으로 만듭니다. 계속 데이터를 그대로 저장하는 기본 데이터베이스가 있으므로 보고서를 데이터와 함께 만들 수 있습니다. 해당 보고서 및 시각적 개체는 모든 다른 보고서 시각적 개체와 똑같습니다. 다시 말해, 모든 Power BI의 보고서 작성 기능을 사용하여 Power BI 시각적 개체, 데이터 경고, 고정된 대시보드 타일 등과 같은 시각적 개체를 만들 수 있습니다.
 
 푸시 데이터 세트를 사용하여 보고서를 만들고 나면 해당 시각적 개체 중 하나를 대시보드에 고정할 수 있습니다. 대시보드에서 시각적 개체는 데이터가 업데이트될 때마다 실시간으로 업데이트합니다. 서비스 내에서 대시보드는 새 데이터를 수신할 때마다 타일 새로 고침을 트리거합니다.
 
@@ -45,7 +45,7 @@ Power BI 실시간 스트리밍을 사용하여 실시간으로 데이터를 스
 ### <a name="streaming-dataset"></a>스트리밍 데이터 세트
 **스트리밍 데이터 세트**를 사용하면 역시 데이터가 Power BI 서비스에 푸시되는데, 중요한 차이점이 있습니다. Power BI는 단지 데이터를 빠르게 만료되는 임시 캐시에 저장합니다. 임시 캐시는 한 시간의 시간 창이 있는 꺾은선형 차트와 같이 일시적인 이력 감지를 나타내는 시각적 개체를 표시하는 데만 사용됩니다.
 
-**스트리밍 데이터 세트**를 사용하면 기본 데이터베이스가 *없기* 때문에 스트림에서 흐르는 데이터를 사용하여 보고서 시각적 개체를 만들 수 *없습니다*. 이와 같이 필터링, 사용자 지정 시각적 개체 및 다른 보고서 기능과 같은 보고서 기능을 사용할 수 없습니다.
+**스트리밍 데이터 세트**를 사용하면 기본 데이터베이스가 *없기* 때문에 스트림에서 흐르는 데이터를 사용하여 보고서 시각적 개체를 만들 수 *없습니다*. 이와 같이 필터링, Power BI 시각적 개체 및 다른 보고서 기능과 같은 보고서 기능을 사용할 수 없습니다.
 
 스트리밍 데이터 세트를 시각화하는 유일한 방법은 타일을 추가하고 스트리밍 데이터 세트를 **사용자 지정 스트리밍 데이터** 데이터 원본으로 사용하는 것입니다. **스트리밍 데이터 세트**에 기반한 사용자 지정 스트리밍 타일은 실시간 데이터를 빠르게 표시하기 위해 최적화되어 있습니다. 데이터를 데이터베이스에 입력하거나 읽을 필요가 없기 때문에 데이터가 Power BI 서비스에 푸시될 때와 시각적 개체가 업데이트될 때 사이의 대기 시간은 매우 짧습니다.
 
@@ -54,7 +54,7 @@ Power BI 실시간 스트리밍을 사용하여 실시간으로 데이터를 스
 ### <a name="pubnub-streaming-dataset"></a>PubNub 스트리밍 데이터 세트
 **PubNub** 스트리밍 데이터 세트를 사용하면 Power BI 웹 클라이언트는 PubNub SDK를 사용하여 기존 PubNub 데이터 스트림을 읽으며, Power BI 서비스에서 저장하는 데이터가 없습니다.
 
-**스트리밍 데이터 세트**와 마찬가지로, **PubNub 스트리밍 데이터 세트**를 사용하면 Power BI에 기본 데이터베이스가 없으므로 스트림에서 유입되는 데이터를 사용하여 보고서 시각적 개체를 만들 수 없으며 필터링, 사용자 지정 시각적 개체 등과 같은 보고서 기능의 장점을 활용할 수 없습니다. 이와 같이 **PubNub 스트리밍 데이터 세트**는 또한 대시보드에 타일을 추가하고 PubNub 데이터 스트림을 원본으로 구성하는 방법으로만 시각화할 수 있습니다.
+**스트리밍 데이터 세트**와 마찬가지로, **PubNub 스트리밍 데이터 세트**를 사용하면 Power BI에 기본 데이터베이스가 없으므로 스트림에서 유입되는 데이터를 사용하여 보고서 시각적 개체를 만들 수 없으며 필터링, Power BI 시각적 개체 등과 같은 보고서 기능의 장점을 활용할 수 없습니다. 이와 같이 **PubNub 스트리밍 데이터 세트**는 또한 대시보드에 타일을 추가하고 PubNub 데이터 스트림을 원본으로 구성하는 방법으로만 시각화할 수 있습니다.
 
 **PubNub 스트리밍 데이터 세트**에 기반한 타일은 실시간 데이터를 빠르게 표시하기 위해 최적화되어 있습니다. Power BI는 PubNub 데이터 스트림에 직접 연결되어 있기 때문에 데이터가 Power BI 서비스에 푸시될 때와 시각적 개체가 업데이트될 때 사이의 대기 시간은 매우 짧습니다.
 
@@ -64,9 +64,7 @@ Power BI 실시간 스트리밍을 사용하여 실시간으로 데이터를 스
 ![](media/service-real-time-streaming/real-time-streaming_11.png)
 
 > [!NOTE]
-> 얼마나 많은 데이터를 푸시할 수 있는지에 대한 **푸시** 한도 정보는 [이 문서](https://docs.microsoft.com/power-bi/developer/api-rest-api-limitations)를 참조하세요.
-> 
-> 
+> 얼마나 많은 데이터를 푸시할 수 있는지에 대한 **푸시** 한도 정보는 [이 문서](developer/automation/api-rest-api-limitations.md)를 참조하세요.
 
 ## <a name="pushing-data-to-datasets"></a>데이터 세트에 데이터 푸시
 이전 섹션에서는 실시간 스트리밍에서 사용할 수 있는 실시간 데이터 세트의 세 가지 기본 형식과 차이점에 대해 설명하였습니다. 이 섹션에서는 데이터를 만들어서 그러한 데이터 세트로 푸시하는 방법을 설명합니다.
@@ -110,10 +108,10 @@ Power BI 서비스에서는 다음 이미지에 나와 있는 것처럼 **API** 
 ### <a name="using-azure-stream-analytics-to-push-data"></a>Azure Stream Analytics를 사용하여 데이터를 푸시
 Power BI를 **Azure Stream Analytics**(ASA)의 출력으로 추가한 다음, 그러한 데이터 스트림을 실시간으로 Power BI 서비스에서 시각화할 수 있습니다. 이 섹션에서는 그러한 프로세스가 어떻게 일어나는지에 대해 기술적인 세부 정보를 설명합니다.
 
-Azure Stream Analytics는 *defaultMode*를 *pushStreaming*으로 설정한 상태에서(*defaultMode*에 대한 정보는 이 문서의 이전 섹션 참조) Power BI REST API를 사용하여 Power BI에 출력 데이터 스트림을 만듭니다. 그러면 **푸시**와  **스트리밍**의 장점을 모두 이용할 수 있는 데이터 세트를 얻을 수 있습니다. 데이터 세트를 만드는 동안 Azure Stream Analytics는 또한 **retentionPolicy* 플래그를 *basicFIFO*로 설정하는데, 이 설정을 사용하면 데이터베이스는 푸시 데이터 세트가 200,000개 행을 저장하도록 지원하며 이후 한도에 도달하면 행은 선입 선출(FIFO) 방식으로 삭제됩니다.
+Azure Stream Analytics는 *defaultMode*를 *pushStreaming*으로 설정한 상태에서(*defaultMode*에 대한 정보는 이 문서의 이전 섹션 참조) Power BI REST API를 사용하여 Power BI에 출력 데이터 스트림을 만듭니다. 그러면 **푸시**와  **스트리밍**의 장점을 모두 이용할 수 있는 데이터 세트를 얻을 수 있습니다. 데이터 세트를 만드는 동안 Azure Stream Analytics는 또한 **retentionPolicy** 플래그를 *basicFIFO*로 설정하는데, 이 설정을 사용하면 데이터베이스는 푸시 데이터 세트가 200,000개 행을 저장하도록 지원하며 이후 한도에 도달하면 행은 선입 선출(FIFO) 방식으로 삭제됩니다.
 
 > [!CAUTION]
-> Azure Stream Analytics 쿼리가 Power BI에 매우 신속하게 출력되는 경우(예: 초당 한 번 또는 두 번) Azure Stream Analytics는 그러한 출력을 단일 요청으로 일괄 처리할 것입니다. 이로 인해 요청 크기가 스트리밍 타일 한도를 초과할 수도 있습니다. 그러한 경우 이전 섹션에서 설명한 대로 스트리밍 타일은 렌더링에 실패하게 됩니다. 그러한 경우에는 Power BI로 출력되는 데이터 속도를 늦추는 것이 가장 좋습니다. 예를 들어 초당 최대 값 대신 10초 이상 최대값으로 설정합니다.
+> Azure Stream Analytics 쿼리가 Power BI에 매우 신속하게 출력되는 경우(예: 초당 한 번 또는 두 번) Azure Stream Analytics는 그러한 출력을 단일 요청으로 일괄 처리할 것입니다. 이로 인해 요청 크기가 스트리밍 타일 한도를 초과할 수도 있습니다. 그러한 경우 이전 섹션에서 설명한 대로 스트리밍 타일은 렌더링에 실패하게 됩니다. 그러한 경우에는 Power BI로 출력되는 데이터 속도를 늦추는 것이 가장 좋습니다. 예를 들어 초당 최대 값 대신 10초 이상 최댓값으로 설정합니다.
 > 
 > 
 
@@ -205,14 +203,14 @@ Power BI에서 실시간 스트리밍이 작동되는 방법에 대한 간단한
 ## <a name="questions-and-answers"></a>질문 및 답변
 다음은 Power BI의 실시간 스트리밍에 대한 몇 가지 일반적인 질문과 그에 대한 답변입니다.
 
-#### <a name="can-i-use-filters-on-push-dataset-how-about-streaming-dataset"></a>푸시 데이터 세트에 필터를 사용할 수 있나요? 스트리밍 데이터 세트는 어떻습니까?
+#### <a name="can-i-use-filters-on-push-dataset-how-about-streaming-dataset"></a>푸시 데이터 세트에 필터를 사용할 수 있나요? 스트리밍 데이터 세트는 어떻나요?
 아쉽게도 스트리밍 데이터 세트는 필터링을 지원하지 않습니다. 푸시 데이터 세트의 경우 보고서를 만들고, 보고서를 필터링한 다음, 필터링된 시각적 개체를 대시보드에 고정할 수 있습니다. 단, 한 번 대시보드에 고정된 시각적 개체의 필터는 변경할 수 없습니다.
 
 이와 별도로, 라이브 보고서 타일을 대시보드에 고정할 수 있습니다. 이 경우에는 필터를 변경할 수 있습니다. 그러나 라이브 보고서 타일은 데이터가 푸시됨에 따라 실시간으로 업데이트되지는 않습니다. **자세히** 메뉴의 *대시보드 타일 새로 고침* 옵션을 사용하여 시각적 개체를 수동으로 업데이트해야 합니다.
 
 밀리초 자릿수로 *DateTime* 필드를 포함한 데이터 세트를 푸시하는 필터를 적용할 경우 *동등* 연산자는 지원되지 않습니다. 그러나 보다 큼(>) 또는 보다 작음(<)과 같은 연산자는 올바르게 작동합니다.
 
-#### <a name="how-do-i-see-the-latest-value-on-a-push-dataset-how-about-streaming-dataset"></a>푸시 데이터 세트에서 최신 값을 보려면 어떻게 해야 하나요? 스트리밍 데이터 세트는 어떻습니까?
+#### <a name="how-do-i-see-the-latest-value-on-a-push-dataset-how-about-streaming-dataset"></a>푸시 데이터 세트에서 최신 값을 보려면 어떻게 해야 하나요? 스트리밍 데이터 세트는 어떻나요?
 스트리밍 데이터 세트는 최신 데이터를 표시하도록 설계되었습니다. **카드** 스트리밍 시각적 개체를 사용하여 손쉽게 최신 숫자 값을 확인할 수 있습니다. 아쉽게도 카드는 *DateTime* 또는 *텍스트* 형식의 데이터를 지원하지 않습니다.
 푸시 데이터 세트의 경우 스키마에 타임 스탬프를 가지고 있다고 가정하여 마지막 N 필터를 사용하여 보고서 시각적 개체 만들기를 시도할 수 있습니다.
 
@@ -222,18 +220,18 @@ Power BI에서 실시간 스트리밍이 작동되는 방법에 대한 간단한
 #### <a name="given-the-previous-question-how-can-i-do-any-modeling-on-real-time-datasets"></a>이전 질문을 고려해 볼 때, 실시간 데이터 세트에 관한 모델링을 하려면 어떻게 해야 하나요?
 데이터가 영구적으로 저장되지 않으므로 모델링은 스트리밍 데이터 세트에서 불가능합니다. 푸시 데이터 세트의 경우 데이터 세트/테이블 REST API 업데이트를 사용하여 측정값 및 관계를 추가할 수 있습니다. 
 
-#### <a name="how-can-i-clear-all-the-values-on-a-push-dataset-how-about-streaming-dataset"></a>푸시 데이터 세트의 모든 값을 지우려면 어떻게 해야 하나요? 스트리밍 데이터 세트는 어떻습니까?
+#### <a name="how-can-i-clear-all-the-values-on-a-push-dataset-how-about-streaming-dataset"></a>푸시 데이터 세트의 모든 값을 지우려면 어떻게 해야 하나요? 스트리밍 데이터 세트는 어떻나요?
 푸시 데이터 세트에서 행 삭제 REST API 호출을 사용할 수 있습니다. 현재 스트리밍 데이터 세트에서 데이터를 지울 수 있는 방법은 없지만 데이터는 자체적으로 한 시간 후에 삭제됩니다.
 
-#### <a name="i-set-up-an-azure-stream-analytics-output-to-power-bi-but-i-dont-see-it-appearing-in-power-bi--whats-wrong"></a>Power BI에 대해 Azure Stream Analytics 출력을 설정했지만 Power BI에 표시되지 않습니다. 문제가 무엇입니까?
+#### <a name="i-set-up-an-azure-stream-analytics-output-to-power-bi-but-i-dont-see-it-appearing-in-power-bi--whats-wrong"></a>Power BI에 대해 Azure Stream Analytics 출력을 설정했지만 Power BI에 표시되지 않습니다. 문제가 무엇인가요?
 다음은 문제를 해결하는 데 사용할 수 있는 검사 목록입니다.
 
 1. Azure Stream Analytics 작업을 다시 시작합니다. (스트리밍 GA 릴리스 전에 만든 작업은 다시 시작할 필요가 있습니다.)
 2. Azure Stream Analytics에서 Power BI 연결에 대한 권한 부여를 다시 시도합니다.
-3. Azure Stream Analytics 출력에서 지정한 작업 영역은 무엇입니까? Power BI 서비스에서 해당(동일한) 작업 영역을 확인했습니까?
-4. Azure Stream Analytics 쿼리가 명확하게 Power BI 출력으로 출력합니까? (INTO 키워드 사용)
-5. Azure Stream Analytics 작업에서 데이터가 흐르고 있습니까? 데이터 세트는 전송되는 데이터가 있는 경우에만 만들어집니다.
-6. Azure Stream Analytics 로그를 확인하여 경고 또는 오류가 있는지 확인할 수 있습니까?
+3. Azure Stream Analytics 출력에서 지정한 작업 영역은 무엇인가요? Power BI 서비스에서 해당(동일한) 작업 영역을 확인했나요?
+4. Azure Stream Analytics 쿼리가 명확하게 Power BI 출력으로 출력하나요? (INTO 키워드 사용)
+5. Azure Stream Analytics 작업에서 데이터가 흐르고 있나요? 데이터 세트는 전송되는 데이터가 있는 경우에만 만들어집니다.
+6. Azure Stream Analytics 로그를 확인하여 경고 또는 오류가 있는지 확인할 수 있나요?
 
 ## <a name="automatic-page-refresh"></a>자동 페이지 새로 고침
 

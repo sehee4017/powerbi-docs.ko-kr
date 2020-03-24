@@ -8,17 +8,20 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 6abeb9244b4ced7cf0b56d4f01686f570c474989
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 2b77f2e2ce52d83a8eda56472d4a9a5dd1365e1f
+ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114941"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79435746"
 ---
 # <a name="pin-a-dashboard-to-your-windows-10-start-screen-from-the-power-bi-mobile-app"></a>Power BI 모바일 앱에서 대시보드를 Windows 10 시작 화면에 고정
 Windows 10용 Power BI 모바일 앱에서 Power BI 대시보드를 Windows 시작 화면에 고정할 수 있습니다. 고정된 대시보드는 ‘라이브 타일’이 됩니다.  시작 화면에서 타일을 누르면 대시보드가 Windows 10용 Power BI 모바일 앱에서 열립니다.
 
 ![Windows 라이브 타일](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start-screen.png)
+
+>[!NOTE]
+>**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ## <a name="pin-a-dashboard-to-your-start-screen-as-a-live-tile"></a>대시보드를 시작 화면에 라이브 타일로 고정합니다
 1. 대시보드를 엽니다.

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/17/2019
+ms.date: 03/12/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 34b409bc6c319594c6b8e79acd48e5ed0d674ced
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 8bb95da5383eedac57fb705f697a8481e934e379
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698466"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79202025"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>Power BI Premium 용량 다시 시작
 
@@ -30,7 +30,9 @@ Power BI는 프리미엄 용량 사용자를 이러한 문제로부터 보호하
 
 ## <a name="is-the-restart-process-safe-will-i-lose-any-data"></a>다시 시작 프로세스는 안전한가요? 데이터가 손실되나요?
 
-용량에 저장된 모든 데이터, 정의, 보고서 및 대시보드는 다시 시작한 후에도 완전히 그대로 유지됩니다. 용량을 다시 시작하면 진행 중인 모든 예약 및 임시 새로 고침이 중지됩니다. 용량을 사용할 수 있게 되면 서비스가 새로 고침을 다시 시도합니다. 용량과 상호 작용하는 사용자는 저장하지 않은 작업을 잃게 됩니다. 다시 시작이 완료된 후에 브라우저를 새로 고침해야 합니다.
+용량에 저장된 모든 데이터, 정의, 보고서 및 대시보드는 다시 시작한 후에도 완전히 그대로 유지됩니다. 용량을 다시 시작하면 대부분의 경우 진행 중인 예약된 새로 고침과 임시 새로 고침이 일시적으로 중지됩니다. 그런 다음, Power BI에 기본 제공되는 새로 고침 재시도 논리로 인해 다시 시작합니다. 용량을 사용할 수 있게 되면 서비스가 영향을 받는 새로 고침을 다시 시도합니다. 다시 시작 프로세스 중에 사용자 인터페이스에서 새로 고침 상태가 변경되지 않을 수 있습니다. 
+
+용량과 상호 작용하는 사용자는 다시 시작 프로세스 중에 저장되지 않은 작업을 잃게 됩니다. 사용자는 다시 시작이 완료된 후에 브라우저를 새로 고쳐야 합니다.
 
 ## <a name="how-do-i-restart-a-capacity"></a>용량을 다시 시작하는 방법은?
 
@@ -38,7 +40,7 @@ Power BI는 프리미엄 용량 사용자를 이러한 문제로부터 보호하
 
 1. Power BI 관리 포털의 **용량 설정** 탭에서 용량으로 이동합니다. 
 
-1. 용량 URL https://app.powerbi.com/admin-portal/capacities/<YourCapacityId>?capacityRestartButton=true에 **CapacityRestart** *기능 플래그*를 추가합니다.
+1. 용량 URL https://app.powerbi.com/admin-portal/capacities/<YourCapacityId>?capacityRestartButton=true에 **CapacityRestart** ‘기능 플래그’를 추가합니다. 
 
 1. **고급 설정** > **용량 다시 시작**에서 **용량 다시 시작**을 선택합니다.
 

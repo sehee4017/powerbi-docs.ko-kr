@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: f86317b12e3637d6522eebc2f304786c1b39c083
-ms.sourcegitcommit: b59ec11a4a0a3d5be2e4d91548d637d31b3491f8
+ms.openlocfilehash: 5a6b7bda8bf5e8d80ae8b22a71035f8bc362fb89
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78290616"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377745"
 ---
 # <a name="extend-visuals-with-report-page-tooltips"></a>보고서 페이지 도구 설명을 사용하여 시각적 개체 확장
 
@@ -31,7 +31,7 @@ ms.locfileid: "78290616"
 >
 > 페이지 도구 설명에서는 대화형 작업이 지원되지 않습니다. 보고서 사용자가 대화형으로 작업하도록 하려면 대신 [드릴스루 페이지](../desktop-drillthrough.md)를 만드세요.
 >
-> 사용자 지정 시각적 개체는 페이지 도구 설명을 지원하지 않습니다.
+> Power BI 시각적 개체는 페이지 도구 설명을 지원하지 않습니다.
 
 다음은 제안하는 몇 가지 디자인 시나리오입니다.
 

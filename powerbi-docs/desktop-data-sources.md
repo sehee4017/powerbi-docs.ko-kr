@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/13/2020
+ms.date: 03/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f13c8f34fbbe927ee6929a0b3e717248aedd63d0
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: fa0686171ee6f9e171e69d60f804d8e141530103
+ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427556"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79207255"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop의 데이터 원본
 
@@ -90,7 +90,8 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Snowflake
 * Essbase
 * AtScale 큐브
-* BI Connector Data Virtuality LDW(베타)
+* BI Connector 
+* Data Virtuality LDW(베타)
 * Denodo
 * Dremio
 * Exasol
@@ -124,9 +125,10 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 
 **Azure** 범주는 다음과 같은 데이터 연결을 제공합니다.
 
-* Azure SQL 데이터베이스
+* Azure SQL Database
 * Azure SQL Data Warehouse
 * Azure Analysis Services 데이터베이스
+* Azure Database for PostgreSQL
 * Azure Blob Storage
 * Azure Table Storage
 * Azure Cosmos DB
@@ -154,17 +156,16 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Dynamics 365 Business Central
 * Dynamics 365 Business Central(온-프레미스)
 * Microsoft Azure Consumption Insights(베타)
-* Azure DevOps(베타)
-* Azure DevOps Server(베타)
+* Azure DevOps(Boards만)
+* Azure DevOps Server(Boards만)
 * Salesforce 개체
 * Salesforce 보고서
-* Google 애널리틱스
+* Google 웹로그 분석
 * Adobe Analytics
 * appFigures(베타)
 * Data.World - 데이터 세트 가져오기(베타)
 * GitHub(베타)
 * LinkedIn Sales Navigator(베타)
-* MailChimp(베타)
 * Marketo(베타)
 * Mixpanel(베타)
 * Planview Enterprise One - PRM(베타)
@@ -178,15 +179,16 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * tyGraph(베타)
 * Webtrends(베타)
 * Zendesk(베타)
+* Asana(베타)
 * Dynamics 365 Customer Insights(베타)
 * Emigo 데이터 원본
 * Entersoft Business Suite(베타)
 * FactSet Analytics(베타)
-* 산업 앱 스토어
+* Industrial App Store
 * Intune Data Warehouse(베타)
 * Microsoft Graph 보안(베타)
 * Product Insights(베타)
-* 빠른 자료
+* Quick Base
 * TeamDesk(베타)
 * Workplace Analytics(베타)
 
@@ -205,6 +207,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Microsoft Exchange
 * HDFS(Hadoop 파일)
 * Spark
+* Hive LLAP(베타)
 * R 스크립트
 * Python 스크립트
 * ODBC
@@ -220,6 +223,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Siteimprove(베타)
 * SurveyMonkey(베타)
 * Tenforce(스마트) 목록(베타)
+* TIBCO(R) 데이터 가상화(베타)
 * Vena(베타)
 * 직원 차원(베타)
 * Zucchetti HR Infinity(베타)

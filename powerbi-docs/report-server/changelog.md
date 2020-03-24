@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.openlocfilehash: 0a8cf16ddf7fe9e091599f1790a37a83b9923240
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: f27f03a88a39ce046ae64454b9b092e87c07d0a3
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78237963"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381103"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI Report Server에 대한 변경 로그
 
@@ -200,7 +200,7 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
         - 기능
             - SAP HANA SSO 직접 쿼리는 Power BI 보고서에 대해 지금 사용할 수 있는 Kerberos에서 지원됩니다.
             - 릴리스 버전 1.13.0에서 사용자 지정 시각적 개체 API
-            - 사용자 지정 시각적 개체는 현재 버전(있는 경우)의 서버 API와 호환 가능한 이전 버전으로 대체합니다.
+            - Power BI 시각적 개체는 현재 버전(있는 경우)의 서버 API와 호환 가능한 이전 버전으로 대체합니다.
 
 - **Power BI Desktop(Power BI Report Server에 최적화됨)**
     - *‘버전: 2.61.5192.641(2018년 8월), 릴리스 날짜: 2018년 8월 15일’*
@@ -322,7 +322,7 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
             - Power BI 보고서에서 보고서를 실행한 사용자 대신 `{{UserId}}` 태그가 저장된 자격 증명으로 확인됩니다.
             - Power BI Server 보고서에서 일부 이미지가 렌더링되지 않습니다.
             - Power BI 보고서 서버에서 Power BI 보고서의 이름을 변경할 수 없습니다.
-            - Power BI 모바일 애플리케이션에서 사용자 지정 시각적 개체를 로드할 수 없습니다(로컬 캐시 정리를 위해 모바일 앱을 다시 설치해야 함).
+            - Power BI 모바일 애플리케이션에서 Power BI 시각적 개체를 로드할 수 없습니다(로컬 캐시 정리를 위해 모바일 앱을 다시 설치해야 함).
 
     - *‘빌드 14.0.600.271, 릴리스 날짜: 2017년 6월 12일’*
         - Power BI Report Server 초기 릴리스

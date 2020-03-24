@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 2c8a8356fe20136d0325efe51934a7db3d4b113e
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: e303d85083624bb67e73729024875d0f6f44fc42
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496892"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377150"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Power BI 서비스 소비자를 위한 기본 개념
 
@@ -118,7 +118,7 @@ Power BI에서 볼 수 있는 시각화로는 폭포, 리본, 트리맵, 원형,
 
 [Power BI에 포함된 시각화의 전체 목록](../power-bi-visualization-types-for-reports-and-q-and-a.md)을 참조하세요.
 
-‘사용자 지정 시각적 개체’라는 시각화는 커뮤니티에서도 사용할 수 있습니다.  인식할 수 없는 시각적 개체가 포함된 보고서를 받은 경우 사용자 지정 시각적 개체일 가능성이 높습니다. 사용자 지정 시각적 개체를 해석하는 데 도움이 필요하면 보고서 또는 대시보드 ‘디자이너’의 이름을 조회하고 해당 디자이너에게 문의하세요. 
+‘Power BI 시각적 개체’라는 시각화는 커뮤니티에서도 사용할 수 있습니다.  인식할 수 없는 시각적 개체가 포함된 보고서를 받은 경우 사용자 지정 시각적 개체일 가능성이 높습니다. 사용자 지정 시각적 개체를 해석하는 데 도움이 필요하면 보고서 또는 대시보드 ‘디자이너’의 이름을 조회하고 해당 디자이너에게 문의하세요. 
 
 한 보고서의 단일 시각화...
 
@@ -156,7 +156,7 @@ _______________________________________________________
 
 소비자는 대시보드를 편집할 수 없습니다. 하지만 주석을 추가하고, 관련 데이터를 보고, 즐겨찾기로 설정하고, 구독하는 등의 작업은 가능합니다.
 
-대시보드는 어떤 용도로 사용됩니까?  몇 가지만 말하자면 다음과 같습니다.
+대시보드는 어떤 용도로 사용되나요?  몇 가지만 말하자면 다음과 같습니다.
 
 - 의사 결정을 내리는 데 필요한 모든 정보를 한눈에 보기 위해서
 

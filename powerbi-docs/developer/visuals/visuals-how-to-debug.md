@@ -6,19 +6,19 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/14/2020
-ms.openlocfilehash: 4ce61fcd4f322abc0362956453d76ced9b78d887
-ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+ms.openlocfilehash: c87d1af9033044a8b79d6fe00d566d9b46c499fc
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "78264246"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377909"
 ---
 # <a name="how-to-debug-power-bi-visuals"></a>Power BI 시각적 개체를 디버그하는 방법
 
 이 페이지에는 시각적 개체를 빌드하는 동안 디버깅을 위한 몇 가지 팁이 나와 있습니다. 기본 단계를 포함하며 표준 프런트 엔드 애플리케이션과 Power BI 시각적 개체 디버깅의 차이점을 보여 줍니다.
-이 문서를 읽은 후 중단점을 사용하여 사용자 지정 시각적 개체를 디버그하고, 예외를 기록하고, Chrome 및 Edge에서 예외를 catch할 수 있습니다.
+이 문서를 읽은 후 중단점을 사용하여 Power BI 시각적 개체를 디버그하고, 예외를 기록하고, Chrome 및 Edge에서 예외를 catch할 수 있습니다.
 
 ## <a name="using-breakpoints"></a>중단점 사용
 
@@ -35,7 +35,7 @@ public update(options: VisualUpdateOptions) {
 
 ## <a name="showing-exceptions"></a>예외 표시
 
-시각적 개체에서 작업하는 경우 모든 오류가 Power BI 서비스에 의해 '소비됨'으로 표시됩니다. 이는 오동작 시각적 개체 때문에 전체 앱이 불안정해지지 않게 하기 위한 Power BI의 의도적인 기능입니다.
+시각적 개체에서 작업하는 경우 모든 오류가 Power BI 서비스에 의해 ‘소비됨’으로 표시됩니다. 이는 오동작 시각적 개체 때문에 전체 앱이 불안정해지지 않게 하기 위한 Power BI의 의도적인 기능입니다.
 
 이 문제를 해결하려면 예외를 catch하고 기록하는 코드를 추가하거나 catch된 예외에서 중단하도록 디버거를 설정합니다.
 
@@ -80,7 +80,7 @@ Catch된 예외에서 중단하도록 브라우저를 설정할 수도 있습니
 3. **예외에서 중단** 아이콘(일시 중지 기호가 있는 육각형)을 클릭합니다.
 4. **모든 예외에서 중단**을 선택합니다.
 
-![데이터 역할 필드](./media/how-to-debug-edge.png)
+![데이터 역할 필드](media/visuals-how-to-debug/how-to-debug-edge.png)
 
 ## <a name="chrome"></a>Chrome
 
@@ -89,8 +89,8 @@ Catch된 예외에서 중단하도록 브라우저를 설정할 수도 있습니
 3. **예외에서 중단** 아이콘을 클릭합니다(일시 중지 기호가 있는 일단 정지 표지).
 4. **Catch된 예외에서 일시 중지** 확인란을 선택합니다.
 
-![데이터 역할 필드](./media/how-to-debug-chrome.png)
+![데이터 역할 필드](media/visuals-how-to-debug/how-to-debug-chrome.png)
 
 ## <a name="next-steps"></a>다음 단계
-* [Power BI 시각적 개체 문제 해결](../power-bi-custom-visuals-troubleshoot.md)
-* 자세한 내용 및 질문과 대답은 [Power BI 시각적 개체에 대한 질문과 대답](../power-bi-custom-visuals-faq.md#organizational-power-bi-visuals)을 참조하세요.
+* [Power BI 시각적 개체 문제 해결](power-bi-custom-visuals-troubleshoot.md)
+* 자세한 내용 및 질문과 대답은 [Power BI 시각적 개체에 대한 질문과 대답](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals)을 참조하세요.

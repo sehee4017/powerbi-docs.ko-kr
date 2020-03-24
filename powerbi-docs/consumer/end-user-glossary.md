@@ -8,12 +8,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
-ms.openlocfilehash: 4679973cf65ced31a40b3a1bb40c820184e10e2c
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 19a3b1bbf5f2ea3043b92d97a66196ca3e32118c
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79040089"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79377239"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 서비스 관련 용어집
 Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용되고 있습니다. 용어집은 용어를 조회할 수 있는 적절한 위치로, 책갈피를 지정할 수도 있습니다. Power BI 서비스의 구성 요소를 학습하기에 좋은 또 다른 유용한 리소스는 [기본 개념](end-user-basic-concepts.md)입니다. 기본 개념은 Power BI ‘부분’의 간략한 개요와 연결 방식을 설명합니다. 
@@ -178,7 +178,7 @@ Power BI 서비스의 왼쪽 가장자리를 따라 표시되는 컨트롤입니
 
 ## <a name="m"></a>M
 
-**측정값** - 측정값은 계산을 수행하는 데 사용할 수 있는 양적(숫자) 필드입니다. 일반적인 계산은 합계, 평균 및 최소값입니다. 예를 들어 회사에서 스케이트보드를 만들고 판매하는 경우 회사의 측정값은 판매된 스케이트보드의 개수와 연간 평균 수익일 수 있습니다.
+**측정값** - 측정값은 계산을 수행하는 데 사용할 수 있는 양적(숫자) 필드입니다. 일반적인 계산은 합계, 평균 및 최솟값입니다. 예를 들어 회사에서 스케이트보드를 만들고 판매하는 경우 회사의 측정값은 판매된 스케이트보드의 개수와 연간 평균 수익일 수 있습니다.
 
 **Mobile app (모바일 앱)** iOS, Android 및 Windows 디바이스에서 Power BI를 실행할 수 있는 앱입니다.
 
@@ -188,7 +188,7 @@ Power BI 서비스의 왼쪽 가장자리를 따라 표시되는 컨트롤입니
 
 ## <a name="n"></a>N
 
-**native (네이티브)** 제품에 포함되어 있습니다. 예를 들어, Power BI에는 ‘네이티브’ 시각화 요소 집합이 함께 제공됩니다.  그러나 사용자 지정 시각적 개체 등의 다른 유형을 가져올 수도 있습니다.
+**native (네이티브)** 제품에 포함되어 있습니다. 예를 들어, Power BI에는 ‘네이티브’ 시각화 요소 집합이 함께 제공됩니다.  그러나 Power BI 시각적 개체 등의 다른 유형을 가져올 수도 있습니다.
 
 **navigation pane (탐색 창)** 또는 **nav pane (탐색 창)** Power BI 서비스의 왼쪽 가장자리를 따라 표시되는 컨트롤입니다.
 

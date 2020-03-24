@@ -3,19 +3,19 @@ title: Power BI 보고서에 새 Power App 포함
 description: 동일한 데이터 원본을 사용하고 다른 보고서 항목처럼 필터링할 수 있는 앱을 포함합니다
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: tapan maniar
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 02/03/2020
+ms.date: 03/17/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 99869740eb20b14625e66ff50cb48b08e5cb3e15
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.openlocfilehash: 3be5f9efe3a6e18ba46f6990b09952d37b967e16
+ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "77036679"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79525939"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>자습서:  Power BI 보고서에 Power Apps 시각적 개체 포함
 
@@ -106,4 +106,5 @@ Power BI 보고서의 슬라이서에서 **1월**을 선택합니다. 이 경우
 
 
 ## <a name="next-steps"></a>다음 단계
-[질문 및 답변 시각적 개체](power-bi-visualization-types-for-reports-and-q-and-a.md)
+[질문 및 답변 시각적 개체](power-bi-visualization-types-for-reports-and-q-and-a.md)    
+[자습서: Power BI 보고서에 Power Apps 시각적 개체 포함](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visual)

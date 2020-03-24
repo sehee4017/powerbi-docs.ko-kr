@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/27/2020
-ms.openlocfilehash: 251f89dd031d9a2bda146266308dc528f05eddb2
-ms.sourcegitcommit: ec4d2d0f52d737e8e0583f6a7b16e6fd87382510
+ms.openlocfilehash: 6ee1740d536a1bfd248b91d002142470b3894180
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "77782446"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381310"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Report Server의 새로운 기능
 
@@ -317,7 +317,7 @@ Power BI 보고서에서 다음 기능 지원:
 
 **내게 필요한 옵션 기능** 목록에 내게 필요한 옵션 기능이 너무 많습니다(예: [필드 목록 창 내게 필요한 옵션 지원](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)). 필드 목록 창에 완전히 액세스할 수 있습니다. 키보드 및 화면 reader만 사용하여 창 주위를 탐색하고 컨텍스트 메뉴를 사용하여 보고서 페이지에 필드를 추가할 수 있습니다.
 
-#### <a name="custom-visuals"></a>사용자 지정 시각적 개체
+#### <a name="power-bi-visuals"></a>Power BI 시각적 개체
 
 - 이 릴리스에서 제공된 API 버전은 2.3입니다.
 
@@ -381,11 +381,11 @@ Kerberos에서 SAP HANA SSO 직접 쿼리 지원은 Power BI 보고서에 대해
 >[!Note]
 >Power BI Desktop에서 만든 보고서를 사용하여 SAP HANA를 관계형 데이터 원본으로 처리하는 경우에만 이 시나리오가 지원됩니다.  Power BI Desktop에서 이 작업을 수행하려면 옵션의 DirectQuery 메뉴에서 "SAP HANA를 관계형 원본으로 처리"를 선택하고, 확인을 클릭합니다.
 
-#### <a name="custom-visuals"></a>사용자 지정 시각적 개체
+#### <a name="power-bi-visuals"></a>Power BI 시각적 개체
 
 - 이 릴리스에서 제공된 API 버전은 1.13.0입니다.
 
-- 이제 사용자 지정 시각적 개체는 현재 버전(있는 경우)의 서버 API와 호환 가능한 이전 버전으로 대체할 수 있습니다.
+- 이제 Power BI 시각적 개체는 현재 버전(있는 경우)의 서버 API와 호환 가능한 이전 버전으로 대체할 수 있습니다.
 
 ### <a name="reporting"></a>보고 
 
@@ -613,7 +613,7 @@ Power BI Report Server는 이제 새 Power BI 테이블 및 행렬 시각적 개
 
 * 사용 가능한 Power BI Report Server 미리 보기
 * Power BI 보고서 온-프레미스를 게시하는 기능
-  * 사용자 지정 시각적 개체에 대한 지원
+  * Power BI 시각적 개체 지원
   * 앞으로 더 많은 데이터 원본을 사용하여 **Analysis Services 라이브 연결**에 대해 지원합니다.
   * Power BI Report Server에서 호스팅되는 Power BI 보고서를 표시하도록 업데이트된 Power BI 모바일 앱
 * 주석을 사용하여 보고서에서 협업 향상

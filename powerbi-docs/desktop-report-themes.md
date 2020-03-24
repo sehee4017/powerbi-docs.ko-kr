@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/23/2020
+ms.date: 03/12/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5a4ed3ffc833b2405a3c231b80047c71b40a64cc
-ms.sourcegitcommit: 08f65ea314b547b41b51afef6876e56182190266
+ms.openlocfilehash: 2316fcf5d0b5c0a4c63e4786b80b8c7e20c643e3
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2020
-ms.locfileid: "76753700"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79378964"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop에서 보고서 테마 사용
 
@@ -183,7 +183,7 @@ Power BI 서비스에 보고서를 게시하는 경우 보고서 테마 색이 �
 
    ![테마 색](media/desktop-report-themes/report-themes_8.png)
 
-이 예제에서는 세인트 패트릭스 데이 보고서 테마에서 다수의 녹색 및 갈색을 적용한 후 테마 색을 봅니다. 모두 녹색으로 보이십니까? 해당 색이 가져와서 적용한 보고서 테마의 일부이기 때문입니다.
+이 예제에서는 세인트 패트릭스 데이 보고서 테마에서 다수의 녹색 및 갈색을 적용한 후 테마 색을 봅니다. 모두 녹색으로 보이시나요? 해당 색이 가져와서 적용한 보고서 테마의 일부이기 때문입니다.
 
 색상표의 색도 현재 테마를 기준으로 합니다. 예를 들어 데이터 요소에 대해 맨 위 행의 세 번째 색을 선택한다고 가정해보겠습니다. 나중에 다른 테마로 변경하는 경우 Microsoft Office에서 테마를 변경할 때와 마찬가지로 해당 데이터 요소의 색이 자동으로 새 테마에 있는 맨 위 행의 세 번째 색으로 업데이트됩니다.
 
@@ -195,7 +195,7 @@ Power BI 서비스에 보고서를 게시하는 경우 보고서 테마 색이 �
 
 ![기본값으로 되돌리기](media/desktop-report-themes/report-themes_9.png)
 
-많은 사용자 지정 시각적 개체가 보고서 테마에 적용되지 않습니다.
+많은 Power BI 시각적 개체가 보고서 테마에 적용되지 않습니다.
 
 ## <a name="custom-report-theme-files-you-can-use-right-now"></a>지금 바로 사용할 수 있는 사용자 지정 보고서 테마 파일
 
@@ -208,7 +208,7 @@ Power BI 서비스에 보고서를 게시하는 경우 보고서 테마 색이 �
 - [색맹 사용자용 테마](https://community.powerbi.com/t5/Themes-Gallery/Color-Blind-Friendly/m-p/140597).
 시각 장애가 있는 사용자가 더 쉽게 읽을 수 있는 보고서 테마입니다. [ColorblindSafe-Longer.json을 다운로드](https://go.microsoft.com/fwlink/?linkid=843923)합니다.
 
-  ![ColorblindSafe-Longer.json 테마](media/desktop-report-themes/report-themes_11.png)을 탭합니다.
+  ![ColorblindSafe-Longer.json 테마](media/desktop-report-themes/report-themes_11.png).
 
 - 파워 뷰 테마. Apothecary.json이 포함되어 있습니다. [파워 뷰 테마를 zip 파일로 다운로드](https://go.microsoft.com/fwlink/?linkid=843925)합니다.
 
@@ -312,10 +312,10 @@ Power BI Desktop의 2019년 12월 릴리스부터 현재 적용된 보고서 테
 |---------|---------|
 | **firstLevelElements** <br> **foreground**(사용되지 않음) | 레이블 배경색(데이터 요소 외부에 있는 경우) <br> 추세선 색 <br>  텍스트 상자 기본 색 <br> 테이블 및 행렬 값 및 합계 글꼴 색 데이터 막대 축 색 <br> 카드 데이터 레이블 <br> 계기 설명선 값 색 <br> KPI 목표 색 <br>  KPI 텍스트 색 <br> 슬라이서 항목 색(포커스 모드인 경우)  <br> 슬라이서 드롭다운 항목 글꼴 색 <br> 슬라이서 숫자 입력 글꼴 색 <br> 슬라이서 머리글 글꼴 색 <br> 분산형 차트 비율 선 색 <br> 꺾은선형 차트 예측 선 색 <br> 지도 지시선 색 <br> 필터 창 및 카드 텍스트 색|
 | **secondLevelElements** <br> **foregroundNeutralSecondary**(사용되지 않음) | “밝은” [보조 텍스트 클래스](#setting-formatted-text-defaults) <br> 레이블 색  <br> 범례 레이블 색 <br> 축 레이블 색 <br> 테이블 및 행렬 머리글 글꼴 색 <br> 계기 대상 및 대상 지시선 색 <br>  KPI 추세 축 색 <br> 슬라이서 슬라이더 색 <br> 슬라이서 항목 글꼴 색 <br> 슬라이서 윤곽선 색 <br> 꺾은선형 차트 가리킨 색 <br> 여러 행 카드 제목 색 <br> 리본 차트 스트로크 색 <br> 도형 맵 테두리 색 <br> 단추 텍스트 글꼴 색 <br> 단추 아이콘 선 색 <br> 단추 윤곽선 색 |
-| **thirdLevelElements** <br >**backgroundLight**(사용되지 않음) | 축 눈금선 색 <br> 테이블 및 행렬 눈금 색 <br> 슬라이서 헤더 배경색(포커스 모드인 경우)  <br> 여러 행 카드 윤곽선 색  <br> 도형 채우기 색 <br> 계기 원호 배경색 <br> 적용된 필터 카드 배경색 <br> |
-| **fourthLevelElements** <br> **foregroundNeutralTertiary**(사용되지 않음) | 범례 흐리게 색 <br> 카드 범주 레이블 색 <br> 여러 행 카드 범주 레이블 색 <br> 여러 행 카드 막대 색 <br> 깔때기형 차트 변환율 스트로크 색
+| **thirdLevelElements** <br >**backgroundLight**(사용되지 않음) | 축 눈금선 색 <br> 테이블 및 행렬 눈금 색 <br> 슬라이서 헤더 배경색(포커스 모드인 경우)  <br> 여러 행 카드 윤곽선 색  <br> 도형 채우기 색 <br> 계기 원호 배경색 <br> 적용된 필터 카드 배경색 <br> background = FFFFFF인 경우: <br> 사용할 수 없는 단추 채우기 색 <br> 사용할 수 없는 단추 윤곽선 색 <br> |
+| **fourthLevelElements** <br> **foregroundNeutralTertiary**(사용되지 않음) | 범례 흐리게 색 <br> 카드 범주 레이블 색 <br> 여러 행 카드 범주 레이블 색 <br> 여러 행 카드 막대 색 <br> 깔때기형 차트 변환율 스트로크 색 <br> 사용할 수 없는 단추 텍스트 글꼴 색 <br> 사용할 수 없는 단추 아이콘 선 색 <br> |
 | **background** | 레이블 배경색(데이터 요소 내에 있는 경우) <br> 슬라이서 드롭다운 항목 배경색  <br> 도넛형 차트 스트로크 색 <br> 트리맵 스트로크 색 <br> 콤보 차트 배경색 <br> 단추 채우기 색 <br> 필터 창 및 사용 가능한 필터 카드 배경색 |
-| **secondaryBackground** <br> **backgroundNeutral**(사용되지 않음) | 테이블 및 행렬 눈금 윤곽선 색 <br> 도형 맵 기본 색 <br> 리본 차트 리본 채우기 색(일치하는 계열 옵션이 해제된 경우) |
+| **secondaryBackground** <br> **backgroundNeutral**(사용되지 않음) | 테이블 및 행렬 눈금 윤곽선 색 <br> 도형 맵 기본 색 <br> 리본 차트 리본 채우기 색(일치하는 계열 옵션이 해제된 경우) <br> background != FFFFFF인 경우: <br> 사용할 수 없는 단추 채우기 색 <br> 사용할 수 없는 단추 윤곽선 색 <br> |
 | **tableAccent** | 있는 경우 테이블 및 행렬 눈금 윤곽선 색을 재정의합니다. |
 
 색 클래스를 설정하는 샘플 테마는 다음과 같습니다.
@@ -340,7 +340,7 @@ Power BI Desktop의 2019년 12월 릴리스부터 현재 적용된 보고서 테
 
 다음으로, JSON 파일에 텍스트 클래스를 추가할 수 있습니다. 텍스트 클래스는 색 클래스와 유사하지만 보고서에서 텍스트 그룹의 글꼴 크기, 색 및 패밀리를 업데이트할 수 있도록 고안되었습니다.
 
-12개의 텍스트 클래스가 있지만 보고서의 모든 텍스트 서식 지정을 변경하는 데는 ‘기본 클래스’라는 네 개의 클래스만 설정하면 됩니다.   이러한 네 가지 기본 클래스는 “텍스트” 섹션의 [**테마 사용자 지정** 대화 상자](#create-and-customize-a-theme-in-power-bi-desktop-preview)에서 설정할 수 있습니다. “일반”은 **레이블**, “제목”은 **제목**, “카드 및 KPI”는 **콜아웃**, 그리고 “탭 머리글”은 **머리글**에 해당합니다.
+12개의 텍스트 클래스가 있지만 보고서의 모든 텍스트 서식 지정을 변경하는 데는 ‘기본 클래스’라는 네 개의 클래스만 설정하면 됩니다.   이러한 네 가지 기본 클래스는 “텍스트” 섹션의 [**테마 사용자 지정** 대화 상자](#create-and-customize-a-theme-in-power-bi-desktop-preview)에서 설정할 수 있습니다. “일반”은 **레이블**, “제목”은 **제목**, “카드 및 KPI”는 **콜아웃**, 그리고 “탭 헤더”는 **헤더**에 해당합니다.
 
 ‘보조 클래스’로 간주되는 다른 텍스트 클래스는 연결된 기본 클래스에서 해당 속성을 자동으로 파생시킵니다.  보조 클래스는 기본 클래스에 비해 더 밝은 텍스트 색 음영 또는 더 크거나 더 작은 텍스트 크기 비율을 선택하는 경우가 많습니다.
 
@@ -423,7 +423,7 @@ Power BI Desktop의 2019년 12월 릴리스부터 현재 적용된 보고서 테
 
 **visualName** 및 **cardName**의 경우 해당 설정이 특정 속성이 있는 모든 시각적 개체나 카드에 적용되도록 하려면 별표를 따옴표로 묶어서 사용합니다. 시각적 개체 및 카드 이름 둘 다에 별표를 사용하면 효과적으로 모든 시각적 개체의 모든 텍스트에 대해 특정 글꼴 크기나 특정 글꼴 패밀리와 같은 설정을 보고서에서 전역적으로 적용할 수 있습니다.
 
-다음은 시각적 개체 스타일을 통해 몇 가지 속성을 설정하는 예제입니다.
+다음은 시각적 스타일을 통해 몇 가지 속성을 설정하는 예제입니다.
 
 ```json
 {

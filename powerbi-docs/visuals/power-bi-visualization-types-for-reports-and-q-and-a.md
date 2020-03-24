@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8737a0e9b2dd8ba17d28962ed51e24ec0c5cefc4
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 12c2d839c14a4a982505f56b7d605bacc5edc728
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76040484"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381425"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI의 시각화 유형
 ## <a name="power-bi-visualizations"></a>Power BI 시각화
 새로운 시각화를 추가할 예정이니 기대해 주세요.
 
-[Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)를 확인하면 고유한 대시보드 및 보고서에 다운로드하여 사용할 수 있는 [사용자 지정 시각적 개체](../developer/power-bi-custom-visuals.md) 목록이 늘어나는 것을 볼 수 있습니다. 창의성을 발휘하고 싶으신가요? [이 커뮤니티 사이트에 고유한 시각적 개체를 만들고 추가하는 방법을 알아봅니다](../developer/office-store.md).  
+[Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)를 확인하면 고유한 대시보드 및 보고서에 다운로드하여 사용할 수 있는 [Power BI 시각적 개체](../developer/visuals/power-bi-custom-visuals.md) 목록이 늘어나는 것을 볼 수 있습니다. 창의성을 발휘하고 싶으신가요? [이 커뮤니티 사이트에 고유한 시각적 개체를 만들고 추가하는 방법을 알아봅니다](../developer/visuals/office-store.md).  
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Power BI에서 사용할 수 있는 시각화 목록
 이러한 시각화는 모두 Power BI 보고서에 추가하고, 질문 및 답변에서 지정하고, 대시보드에 고정할 수 있습니다.

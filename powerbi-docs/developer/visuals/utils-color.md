@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 02/14/2020
-ms.openlocfilehash: d688e54607283a6bcb67f895a89ca991f68bc01b
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 8de530871739a18c1afc72cee3e0da5fc70ebb16
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78922485"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79379355"
 ---
 # <a name="color-utils"></a>색 유틸리티
 이 문서는 ColorUtils를 설치하고, 가져오고, 사용하는 데 도움이 됩니다. 이 문서에서는 ColorUtils를 사용하여 Power BI 시각적 개체의 시각적 개체 데이터 요소에 테마 및 팔레트를 간단하게 적용하는 방법을 설명합니다.
@@ -40,7 +40,7 @@ InteractivityUtils를 사용하려면 시각적 개체의 소스 코드에 필�
 import { ColorHelper } from "powerbi-visuals-utils-colorutils";
 ```
 
-사용자 지정 시각적 개체에서 ColorUtils를 설치하고 사용하는 방법을 알아봅니다.
+Power BI 시각적 개체에서 ColorUtils를 설치하고 사용하는 방법을 알아봅니다.
 
 * [사용 가이드] 사용 가이드에서는 패키지의 퍼블릭 API에 대해 설명합니다. 패키지의 각 공용 인터페이스에 대한 설명과 몇 가지 예제를 찾을 수 있습니다.
 

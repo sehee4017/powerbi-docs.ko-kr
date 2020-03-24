@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 01/31/2020
-ms.openlocfilehash: fb4846a777dda4787e1ed0be7de869367a616ea5
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.date: 03/12/2020
+ms.openlocfilehash: fe8b5ed0e3cdf0003986ffe6eab18e97e83f3dec
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77530490"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381221"
 ---
 # <a name="embed-report-with-the-power-bi-tab-for-microsoft-teams"></a>Microsoft Teams의 Power BI 탭을 사용하여 보고서 포함
 
@@ -68,6 +68,18 @@ Microsoft Teams에 보고서를 포함해도 보고서를 볼 권한이 사용�
 > Power BI 서비스 내에서 보고서를 볼 수 있는 사람이 누구인지 확인하고 목록에 없는 사람에게 액세스 권한을 부여합니다.
 
 팀의 모든 사용자가 포함된 보고서에 액세스할 수 있도록 하는 한 가지 방법은 Power BI의 단일 작업 영역에 저장하고 작업 영역에 대한 액세스 권한을 팀의 Office 365 그룹에 제공하는 것입니다.
+
+## <a name="start-a-conversation"></a>대화 시작
+
+Teams에 Power BI 보고서 탭을 추가하면 Teams에서는 자동으로 보고서와 함께 탭 대화를 만듭니다. 
+
+- 오른쪽 위 모서리에서 **탭 대화 표시**를 선택합니다.
+
+    ![탭 대화 표시 아이콘](media/service-embed-report-microsoft-teams/power-bi-teams-conversation-icon.png)
+
+    첫 번째 설명은 보고서의 링크입니다. 해당 Teams 채널의 모든 사용자가 대화에서 보고서를 보고 토론할 수 있습니다.
+
+    ![탭 대화](media/service-embed-report-microsoft-teams/power-bi-teams-conversation-tab.png)
 
 ## <a name="known-issues-and-limitations"></a>알려진 문제 및 제한 사항
 

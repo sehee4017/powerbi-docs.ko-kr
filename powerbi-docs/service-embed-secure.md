@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 019a3af81cd3661307fd9de6d0577ac58a11ae6a
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 58f9a56d41bd35987f7c258fafdbff26aedf5df1
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78919785"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488824"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>보안 포털 또는 웹 사이트에 보고서 포함
 
@@ -40,7 +40,7 @@ Power BI 보고서의 새 **포함** 옵션을 사용하여 내부 웹 포털에
 
     ![보고서 포함](media/service-embed-secure/secure-embed-report.png)
 
-5. IFrame을 사용하는 경우 **높이**와 **너비**를 포털의 웹 페이지에 맞게 편집해야 할 수 있습니다.
+5. iFrame을 사용하는 경우 **높이**와 **너비**를 포털의 웹 페이지에 맞게 편집해야 할 수 있습니다.
 
     ![높이 및 너비 설정](media/service-embed-secure/secure-embed-size.png)
 
@@ -104,7 +104,7 @@ newUrl += "&$filter=Industries/Industry eq '" + filterValue + "'";
 
 }
 
-//Assumes there’s an iFrame on the page with id=”iFrame”
+//Assumes there's an iFrame on the page with id="iFrame"
 
 var report = document.getElementById("iFrame")
 
@@ -133,9 +133,9 @@ report.src = newUrl;
 
 * 클래식 SharePoint Server는 버전 11 이전의 Internet Explorer 버전이 필요하거나 호환성 보기 모드를 사용해야 하므로 지원되지 않습니다.
 
-* Single Sign-On 환경을 위해 [SharePoint Online에 포함 옵션](service-embed-report-spo.md)을 사용하거나 [사용자 소유 데이터](developer/embed-sample-for-your-organization.md) 포함 방법을 사용하여 사용자 지정 통합을 빌드합니다. 
+* Single Sign-On 환경을 위해 [SharePoint Online에 포함 옵션](service-embed-report-spo.md)을 사용하거나 [사용자 소유 데이터](developer/embedded/embed-sample-for-your-organization.md) 포함 방법을 사용하여 사용자 지정 통합을 빌드합니다. 
 
-* **포함** 옵션에 제공되는 자동 인증 기능은 Power BI JavaScript API에서 작동하지 않습니다. Power BI JavaScript API의 경우 [사용자 소유 데이터](developer/embed-sample-for-your-organization.md) 포함 방법을 사용합니다. 
+* **포함** 옵션에 제공되는 자동 인증 기능은 Power BI JavaScript API에서 작동하지 않습니다. Power BI JavaScript API의 경우 [사용자 소유 데이터](developer/embedded/embed-sample-for-your-organization.md) 포함 방법을 사용합니다. 
 
 * 인증 토큰 수명은 AAD 설정에 따라 제어됩니다. 인증 토큰이 만료되면 브라우저를 새로 고쳐 업데이트된 인증 토큰을 가져와야 합니다. 기본 수명은 1시간이지만 조직에 따라 더 짧거나 더 길 수 있습니다.
 

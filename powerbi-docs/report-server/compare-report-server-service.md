@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 ms.date: 03/04/2020
-ms.openlocfilehash: 4c48b9c2695c7feab5897527c9ff2fbf2a2d0455
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 7762ace1da913713567b79a9650b3f07aa71146d
+ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78920935"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79381057"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Report Server 및 Power BI 서비스 비교
 
@@ -52,7 +52,7 @@ Power BI Report Server 및 Power BI 서비스에는 많은 유사성과 일부 �
 | 고급 Office 365 협업 | 아니요 | 예 | Office 365를 사용하여 [작업 영역에서 협업](../service-collaborate-power-bi-workspace.md) |
 | R 시각적 개체 | 아니요 | 예 | Power BI Desktop에서[R 시각적 개체를 만들고](../desktop-r-visuals.md) Power BI 서비스에 게시합니다. R 시각적 개체를 포함하는 Power BI 보고서는 Power BI Report Server에 저장할 수 없습니다.  |
 | 미리 보기 기능 | 아니요 | 예 | [Power BI 서비스 미리 보기 기능 옵트인](../consumer/end-user-preview-features.md) |
-| 사용자 지정 시각적 개체 | 예 | 예 | [Power BI의 사용자 지정 시각적 개체](../developer/power-bi-custom-visuals.md) |
+| Power BI 시각적 개체 | 예 | 예 | [Power BI 시각적 개체](../developer/visuals/power-bi-custom-visuals.md) |
 | 복합 모델 | 아니요 | 예 |
 | Power BI Desktop | 보고서 서버에 최적화된 버전으로, 보고서 서버로 다운로드할 수 있음 | Power BI 서비스에 최적화된 버전으로, Windows 스토어에서 사용 가능 | [보고서 서버용 Power BI Desktop](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI 서비스용 Power BI Desktop](https://aka.ms/pbidesktopstore) |
 

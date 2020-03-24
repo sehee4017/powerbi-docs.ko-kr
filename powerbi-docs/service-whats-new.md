@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 32f0c03fc0ae586b8b98c7a4c84c9d4c7bbd9078
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 878e4a2e033d33e8c6bb027f35976c19e8b108c9
+ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78920955"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79488847"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 서비스의 새로운 기능
 **Power BI 서비스**의 알려진 문제 및 최근에 릴리스된 기능에 대해서는 이 페이지를 확인하세요. 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -91,7 +91,7 @@ ms.locfileid: "78920955"
 * PPT 및 PDF에서 필터링된 내보내기
 * 관리 포털에서 [도움말 및 지원 설정](https://powerbi.microsoft.com/blog/tailoring-help-and-support-for-power-bi-users/)
 * [데이터 흐름](service-dataflows-overview.md)에 대한 데이터 계보 환경
-* 관리 포털에서 인증된 사용자 지정 시각적 개체 설정
+* 관리 포털에서 인증된 Power BI 시각적 개체 설정
 
 ### <a name="january-2019"></a>2019년 1월
 * 내부 포털 또는 웹 사이트의 [보안 Power BI 보고서 포함](service-embed-secure.md).
@@ -126,7 +126,7 @@ ms.locfileid: "78920955"
 * Power BI [보고서 URL 필터](service-url-filters.md) 개선 사항
 
 ### <a name="july-2018"></a>2018년 7월
-* [영구 필터](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)에 대한 사용자 지정 시각적 개체 지원
+* [영구 필터](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)에 대한 Power BI 시각적 개체 지원
 * Power BI 관리자용 [API 및 PowerShell Cmdlet](https://powerbi.microsoft.com/blog/announcing-apis-and-powershell-cmdlets-for-power-bi-administrators/)
 * Power BI Premium에 대한 [Multi-Geo 지원](service-admin-premium-multi-geo.md)
 
@@ -153,20 +153,20 @@ ms.locfileid: "78920955"
 ### <a name="february-2018"></a>2018년 2월
 * 최종 사용자에 대해 자동으로 [Power BI 앱](service-create-distribute-apps.md) 설치
 * Power BI Premium의 P4 및 P5 용량
-* [조직의 사용자 지정 시각적 개체](developer/power-bi-custom-visuals-organization.md) 미리 보기
+* [조직 Power BI 시각적 개체](developer/visuals/power-bi-custom-visuals-organization.md)의 미리 보기입니다.
 
 ### <a name="january-2018"></a>2018년 1월
-*   Power BI 보고서 공유 및 즐겨찾기에 추가
-*   Azure SQL Database 및 Data Warehouse에 대해 OAuth2 및 DirectQuery SSO(Single Sign-on) 지원
-*   지역 내 감사: 감사 로그가 이제 테넌트와 동일한 Office 365 지역에 저장됩니다.
-*   SharePoint Online [Power BI 보고서 웹 파트](https://go.microsoft.com/fwlink/p/?LinkId=825698) 출시
-*   테넌트의 모든 사용자에 대해 사용자 지정 시각적 개체 보기를 해제하는 관리자 컨트롤
-*   AAS(Azure Analysis Services)에 대해 예약된 새로 고침 지원
+*    Power BI 보고서 공유 및 즐겨찾기에 추가
+*    Azure SQL Database 및 Data Warehouse에 대해 OAuth2 및 DirectQuery SSO(Single Sign-on) 지원
+*    지역 내 감사: 감사 로그가 이제 테넌트와 동일한 Office 365 지역에 저장됩니다.
+*    SharePoint Online [Power BI 보고서 웹 파트](https://go.microsoft.com/fwlink/p/?LinkId=825698) 출시
+*    테넌트의 모든 사용자에 대해 Power BI 시각적 개체 보기를 끄는 관리자 컨트롤
+*    AAS(Azure Analysis Services)에 대해 예약된 새로 고침 지원
 
 ## <a name="previous-months-2017"></a>이전 달(2017년)
 ### <a name="october-and-november-2017"></a>2017년 10월 및 11월
-*   [Power BI 앱](service-create-distribute-apps.md)을 사용하여 콘텐츠를 선택적으로 게시
-*   [Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/)를 사용하여 외부 사용자 배포
+*    [Power BI 앱](service-create-distribute-apps.md)을 사용하여 콘텐츠를 선택적으로 게시
+*    [Azure Active Directory B2B](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/)를 사용하여 외부 사용자 배포
 * AI 기반 앱 권장 사항
 * 대시보드 타일 위 UI 업데이트
 * 앱에 대한 메일 구독 지원 
@@ -183,8 +183,8 @@ ms.locfileid: "78920955"
 * [사용자별 사용 메트릭](https://powerbi.microsoft.com/blog/introducing-per-user-usage-metrics-know-your-audience-and-amplify-your-impact/)으로 대상을 파악합니다.
 * 온라인 서비스에 대해 [Power BI 서비스](service-connect-to-services.md) 앱을 시작합니다.
 * 가져오기 및 DirectQuery 연결 모드 모두를 통해 온-프레미스 데이터 게이트웨이로 IBM Netezza에 연결합니다.
-* [동적 RLS](developer/embedded-row-level-security.md)는 이제 Power BI Embedded에 대해 지원됩니다.
-* 고급 [필터링 API](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/UsingAdvancedFilterAPI.md)가 이제 사용자 지정 시각적 개체 API의 1.7 릴리스에 대해 추가되었습니다.
+* [동적 RLS](developer/embedded/embedded-row-level-security.md)는 이제 Power BI Embedded에 대해 지원됩니다.
+* 고급 [필터링 API](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/UsingAdvancedFilterAPI.md)가 이제 Power BI 시각적 개체 API의 1.7 릴리스에 대해 추가되었습니다.
 
 ### <a name="july-2017"></a>2017년 7월
 * 대시보드에서 [전자 메일 구독](consumer/end-user-subscribe.md)에 대해 지원합니다.
@@ -197,7 +197,7 @@ ms.locfileid: "78920955"
 * [예약된 새로 고침 자동화](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/), [보고서 복제 및 다시 바인딩](https://github.com/Azure-Samples/powerbi-powershell/blob/master/rebindReport.ps1), [게이트웨이 바인딩 업데이트](https://msdn.microsoft.com/library/mt784650.aspx) 등에 대한 여러 API 개선 사항
 * 대시보드 타일에서 다른 대시보드 및 보고서로 Power BI 앱의 상대적 링크
 * [Impala 커넥터](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#impala)는 일반적으로 Power BI Desktop에서 사용할 수 있습니다.
-* [대화형 R 사용자 지정 시각적 개체](https://powerbi.microsoft.com/blog/interactive-r-custom-visuals-support-is-here/)를 사용하여 Power BI의 시각적 개체 기능을 확장합니다.
+* [대화형 R Power BI 시각적 개체](https://powerbi.microsoft.com/blog/interactive-r-custom-visuals-support-is-here/)를 사용하여 Power BI의 시각적 개체 기능을 확장합니다.
 
 ### <a name="april-and-may-2017"></a>2017년 4월과 5월
 * [대시보드 및 보고서 작성자에 대한 사용 메트릭](service-usage-metrics.md)을 통해 사용자의 영향을 측정 및 확대합니다.
@@ -213,7 +213,7 @@ ms.locfileid: "78920955"
 * 향상된 [DAX 쿼리에 대한 메시지 문제 해결](https://powerbi.microsoft.com/blog/power-bi-service-march-feature-summary/#DAXtroubleshooting)입니다.
 * [사용자 지정 캐시 새로 고침 일정](https://powerbi.microsoft.com/blog/announcing-custom-cache-refresh-schedules-in-the-power-bi-service/)을 통해 데이터 세트를 더 자세히 제어해 보세요.
 * [Amazon Redshift](https://powerbi.microsoft.com/blog/announcing-support-for-amazon-redshift-reports-in-the-power-bi-service/)로 연결합니다.
-* [Office 스토어에서 Power BI 사용자 지정 시각적 개체](https://powerbi.microsoft.com/blog/custom-visuals-now-available-in-the-office-store/)를 찾습니다.
+* [Office 스토어에서 Power BI 시각적 개체](https://powerbi.microsoft.com/blog/custom-visuals-now-available-in-the-office-store/)를 찾아봅니다.
 * 미리 보기: [보고서 페이지를 구독](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/)하여 자신의 데이터에 대해 자세히 알아봅니다.
 * Azure AD 콘텐츠 팩을 사용하여 직원 및 파트너가 어떻게 Azure AD를 사용하는지에 대해 자세히 알아보세요.
 
@@ -225,7 +225,7 @@ ms.locfileid: "78920955"
 ### <a name="january-2017"></a>2017년 1월
 * [Power BI는 관리자 역할](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#pbiadminrole)을 사용하여 Power BI를 관리합니다.
 * Office 365 감사 포털의 [Power BI 감사 로그](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#auditlogs)는 전역적으로 사용할 수 있습니다.
-* [개발자 도구 및 사용자 지정 시각적 개체 API](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/)의 버전 1.4가 릴리스되었습니다.
+* [개발자 도구 및 Power BI 시각적 개체 API](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/)의 버전 1.4가 릴리스되었습니다.
 * [실시간 스트리밍 기능 집합](https://powerbi.microsoft.com/blog/announcing-general-availability-of-power-bi-real-time-streaming-datasets/)이 일반 기능으로 릴리스되었습니다.
 * 코드 줄을 작성하지 않고 [Power Automate를 사용하여 Power BI로 데이터를 푸시](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/)합니다.
 * 미리 보기: [보고서 페이지를 구독](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/)하여 자신의 데이터에 대해 자세히 알아봅니다.
@@ -327,7 +327,7 @@ ms.locfileid: "78920955"
 
 ***대시보드***
 
-* [Vimeo 비디오 타일](service-dashboard-add-widget.md):  대시보드에서 Vimeo 플레이어가 포함된 타일을 추가합니다.
+* [Vimeo 동영상 타일](service-dashboard-add-widget.md):  대시보드에서 Vimeo 플레이어가 포함된 타일을 추가합니다.
 
 ***Excel에서 분석***
 
@@ -474,7 +474,7 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 ## <a name="2015"></a>2015
 **2015년 12월 16일**
 
-이번 주의 많은 업데이트는 대부분 Power BI Desktop에 적용되지만 보고서 작성 및 시각화에 대한 몇 가지 중요 업데이트도 있습니다. [Power BI 팀 블로그](https://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx)에는 업데이트에 대한 자세한 설명뿐 아니라 비디오도 있습니다.   
+이번 주의 많은 업데이트는 대부분 Power BI Desktop에 적용되지만 보고서 작성 및 시각화에 대한 몇 가지 중요 업데이트도 있습니다. [Power BI 팀 블로그](https://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx)에는 업데이트에 대한 자세한 설명뿐 아니라 동영상도 있습니다.   
 
 [Power BI Desktop 다운로드](https://powerbi.microsoft.com/desktop?WT.mc_id=Blog_Desktop_Update)
 
@@ -511,7 +511,7 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
   6. ODBC 커넥터: 사용자/시스템 DSN 선택 지원
   7. CSV 커넥터: 원본 대화 상자에서 열 구분 기호를 지정하는 기능
 
-이러한 많은 업데이트를 보여 주는 비디오를 포함하여 자세한 내용은 [Power BI 블로그](https://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx)를 참조하세요.
+이러한 많은 업데이트를 보여 주는 동영상을 포함하여 자세한 내용은 [Power BI 블로그](https://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx)를 참조하세요.
 
 **2015년 12월 10일**
 
@@ -604,16 +604,16 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 
 **2015년 10월 6일**
 
-* Power BI 질문 및 답변으로 간단하고 직관적인 질문을 사용하여 데이터를 탐색하고 대화형 차트와 그래프의 형태로 답변을 받을 수 있습니다. 이 릴리스에서 데이터에 대해 아무 것도 모르는 경우 Power BI 질문 및 답변을 시작할 수 있도록 하는 기능을 추가했습니다. 시작하려면 [대시보드로 이동하고 질문 및 답변 질문 상자의 주변에 있는 "요청하는 방법" 링크를 클릭합니다](power-bi-tutorial-q-and-a.md). Power BI는 데이터를 기준으로 다양한 제안을 제공합니다.
+* Power BI 질문 및 답변으로 간단하고 직관적인 질문을 사용하여 데이터를 탐색하고 대화형 차트와 그래프의 형태로 답변을 받을 수 있습니다. 이 릴리스에서 데이터에 대해 아무 것도 모르는 경우 Power BI 질문 및 답변을 시작할 수 있도록 하는 기능을 추가했습니다. 시작하려면 [대시보드로 이동하고 질문 및 답변 질문 상자의 주변에 있는 “요청하는 방법” 링크를 클릭합니다](power-bi-tutorial-q-and-a.md). Power BI는 데이터를 기준으로 다양한 제안을 제공합니다.
 * 2주 전에 Power BI Desktop의 보고서 모양을 삽입하는 작업을 지원하도록 도입했습니다. 이번 주에는 Power BI 웹앱에서 보고서를 제작 및/또는 편집 하는 경우 보고서 캔버스에 모양을 추가할 수 있습니다.
-* 대시보드를 공유하는 경우 전자 메일 알림을 해제하는 옵션을 추가했습니다. Power BI 공유 대화 상자에서 "받는 사람에게 전자 메일 알림 보내기" 확인란의 선택을 취소하면 됩니다. URL가 표시되면 이 URL을 복사하고 동료들과 공유하여 대시보드에 대한 액세스를 제공합니다.
+* 대시보드를 공유하는 경우 전자 메일 알림을 해제하는 옵션을 추가했습니다. Power BI 공유 대화 상자에서 “받는 사람에게 메일 알림 보내기” 확인란의 선택을 취소하면 됩니다. URL가 표시되면 이 URL을 복사하고 동료들과 공유하여 대시보드에 대한 액세스를 제공합니다.
 * Microsoft Dynamics NAV는 소기업 중간 규모 조직을 위한 비즈니스 관리 솔루션입니다. 재무 및 비즈니스 프로세스를 통해 제어함으로써 고객에게 비즈니스를 위한 완전 한 솔루션을 제공합니다. Power BI 콘텐츠 팩은 Dynamics NAV 사용자에 대해 판매 및 수익, 기회 파이프라인, 수익성과 같은 기본적인 보고서를 제공합니다. 이러한 메트릭은 완벽하게 사용자 지정될 수 있는 대시보드에서 구성되며 이를 사용하여 쉽게 연결하고 즉시 데이터를 탐색하기 시작할 수 있습니다.
 
 자세한 내용은 [블로그](https://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-service-weekly-update-10-06.aspx) 및 [온라인 설명서](service-get-started.md)를 확인합니다.
 
 **2015년 9월 29일**
 
-* 이번 주 서비스 업데이트에서 새 보고서를 만들 때 이제 여러 페이지 크기 중에서 선택할 수 있을 뿐만 아니라 고유한 페이지 크기를 정의할 수 있습니다. 보고서에서 각 페이지의 크기 및 가로 세로 비율을 제어합니다.
+* 이번 주 서비스 업데이트에서는 새 보고서를 만들 때 이제 여러 페이지 크기 중에서 선택할 수 있을 뿐만 아니라 고유한 페이지 크기를 정의할 수 있습니다. 보고서에서 각 페이지의 크기 및 가로 세로 비율을 제어합니다.
 * 이미지 및 거품형 차트에 대한 추가 시각적 서식 지원을 추가했습니다. 이미지 왜곡을 방지하려면 이미지 크기를 조정하는 동안 측면을 잠글 수 있고 분산형 차트 거품이 채워지거나 채워지지 않게 구성될 수 있습니다.
 * 현재 Power BI는 대체 전자 메일 주소에 초대를 공유하도록 전송합니다. 대시보드를 사용자와 공유하면 원래 전자 메일 주소 및 대체 전자 메일 주소(구성된 경우) 모두에 초대 링크를 공유하도록 전송합니다.
 * Power BI는 다중 테넌트(DonMT) O365 아키텍처 전용에서 해당 프로그램을 포함하여 모든 고객이 사용할 수 있습니다. Power BI를 다중 테넌트 모드에서 공유 서비스로 사용합니다. 대부분의 경우에 [셀프 서비스 등록 프로세스](https://powerbi.microsoft.com/)에 따라 Power BI를 등록할 수 있습니다. – 회사 전자 메일 주소를 입력하고 시작할 이름 및 암호를 입력합니다. 테넌트 관리자인 경우 [여기](https://go.microsoft.com/fwlink/?LinkId=627174)에 있는 지침을 사용하여 사용자에게 라이선스를 할당할 수 있습니다.
@@ -626,7 +626,7 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 * 대시보드를 유연하게 만들어서 1x1에서 5x5의 범위가 지정된 추가 타일 크기를 가진 대시보드를 사용자 지정할 수 있습니다.
 * 고유한 공간에서 수행한 방식으로 [그룹 공간에서 대시보드를 공유(및 공유 해제)](service-collaborate-power-bi-workspace.md)할 수 있습니다. 동료가 공유 초대를 수락하면 공유된 대시보드(및 연관 된 보고서)는 읽기 전용 권한으로 해당하는 고유한 공간에 추가됩니다.
 * Power BI에 다음과 같은 5가지 [업계 관련 샘플](sample-datasets.md)을 추가했습니다. 고객 수익성, 인적 자원, 영업 기회 분석, 조달 분석, 판매 및 마케팅 샘플.
-* Stripe는 온라인 비즈니스에 대한 고급 지불 플랫폼입니다. 창업자부터 Fortune지 선정 500대 기업까지 수천 개의 비즈니스가 Stripe를 사용하여 전 세계의 사용자로부터 130개가 넘는 통화로 지불을 수락하고 있습니다. 기존 Stripe 계정으로 Power BI를 연결하여 [Stripe 작업을 모니터링하고 탐색하며 시각화하는 데 Power BI Stripe 콘텐츠 팩을 사용](service-connect-to-stripe.md)할 수 있습니다.
+* Stripe는 온라인 비즈니스에 대한 고급 지불 플랫폼입니다. 창업자부터 Fortune지 선정 500대 기업까지 수천 개의 비즈니스가 Stripe를 사용하여 전 세계의 사용자로부터 130개가 넘는 통화로 지불을 수락하고 있습니다. 기존 Stripe 계정으로 Power BI를 연결하여 [Stripe 활동을 모니터링하고 검색하며 시각화하는 데 Power BI Stripe 콘텐츠 팩을 사용](service-connect-to-stripe.md)할 수 있습니다.
 
 [블로그에서 자세한 내용을 알아보세요](https://blogs.msdn.com/b/powerbi/archive/2015/09/22/power-bi-weekly-service-update-0922.aspx).
 
@@ -667,7 +667,7 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 
 **2015년 7월 28일**
 
-* Power BI의 이번 주 업데이트가 [SQL Sentry 콘텐츠 팩](https://blogs.msdn.com/b/powerbi/archive/2015/07/28/monitoring-your-sql-sentry-data-with-power-bi.aspx)으로 데이터베이스에 추적 기능을 제공할 수 있게 되었음을 알려드립니다. 이 콘텐츠 팩에는 SQL Sentry 클라우드 사용을 추적하는 SQL Server 배포를 모니터링하는 데 도움이 되는 보고서 및 대시보드가 포함됩니다. 시작 방법에 대한 자세한 내용은 Power BI용 SQL Sentry 콘텐츠 팩 [도움말 페이지](service-connect-to-sql-sentry.md)를 참조하세요.
+* Power BI의 이번 주 업데이트에서는 [SQL Sentry 콘텐츠 팩](https://blogs.msdn.com/b/powerbi/archive/2015/07/28/monitoring-your-sql-sentry-data-with-power-bi.aspx)으로 데이터베이스에 추적 성능을 제공한다는 것을 알려드립니다. 이 콘텐츠 팩에는 SQL Sentry 클라우드 사용을 추적하는 SQL Server 배포를 모니터링하는 데 도움이 되는 보고서 및 대시보드가 포함됩니다. 시작 방법에 대한 자세한 내용은 Power BI용 SQL Sentry 콘텐츠 팩 [도움말 페이지](service-connect-to-sql-sentry.md)를 참조하세요.
 
 **2015년 7월 24일**
 
@@ -678,7 +678,7 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 * [전체 Excel 파일 가져오기](service-excel-workbook-files.md): Excel Online에서 하듯 비즈니스용 OneDrive에 저장된 Excel 통합 문서를 Power BI에 가져와 전체 통합 문서를 볼 수 있습니다.
 * [CSV 파일 가져오기](service-get-data-from-files.md): Excel 또는 Power BI Desktop 파일처럼 쉼표로 구분된 값 텍스트(CSV) 파일은 Power BI 대시보드 및 보고서용 데이터 세트가 될 수도 있습니다.
 * Excel, Power BI Desktop 및 CSV 파일 대체: 업데이트된 버전의 파일을 Power BI에 업로드하여 기존 데이터 세트를 대체할 수 있습니다. 이 데이터 세트에 연결된 모든 보고서 및 대시보드는 이제 자동으로 새 버전을 사용합니다.
-* Power BI의 이번 주 업데이트가 [Visual Studio Online 콘텐츠 팩](https://blogs.msdn.com/b/powerbi/archive/2015/07/22/monitoring-your-visual-studio-online-work-items-with-power-bi.aspx)에서 작업 항목 추적 기능을 제공할 수 있게 되었음을 알려드립니다. 이 업데이트는 초기 버전에 포함된 Git 리포지토리, 끌어오기 요청 및 버전 제어 콘텐츠에 대한 중요한 메트릭 외에도 작업 항목에 대해 알 수 있도록 해주는 새로운 대시보드, 보고서, 업데이트된 데이터 집합을 포함합니다. 시작 방법에 대한 자세한 내용은 [Power BI용 Visual Studio Online 콘텐츠 팩 도움말 페이지](service-connect-to-quickbooks-online.md)를 참조하세요.
+* Power BI의 이번 주 업데이트에서는 [Visual Studio Online 콘텐츠 팩](https://blogs.msdn.com/b/powerbi/archive/2015/07/22/monitoring-your-visual-studio-online-work-items-with-power-bi.aspx)에서 작업 항목 추적 기능을 제공한다는 것을 알려드립니다. 이 업데이트는 초기 버전에 포함된 Git 리포지토리, 끌어오기 요청 및 버전 제어 콘텐츠에 대한 중요한 메트릭 외에도 작업 항목에 대해 알 수 있도록 해주는 새로운 대시보드, 보고서, 업데이트된 데이터 집합을 포함합니다. 시작 방법에 대한 자세한 내용은 [Power BI용 Visual Studio Online 콘텐츠 팩 도움말 페이지](service-connect-to-quickbooks-online.md)를 참조하세요.
 
 **2015년 7월 14일**
 
