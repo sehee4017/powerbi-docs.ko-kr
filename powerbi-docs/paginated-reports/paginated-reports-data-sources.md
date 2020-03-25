@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/30/2020
-ms.openlocfilehash: 1f27d05f2de5cdc8e04b6fabb48b7625fc45ce2a
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: ec299ceb5862be3f1e121e0e7d67eca6447f2da6
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78921910"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113741"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI 페이지를 매긴 보고서의 지원되는 데이터 원본
 
@@ -27,7 +27,7 @@ ms.locfileid: "78921910"
 | --- | --- | --- |
 | Azure SQL Database <br>Azure SQL Data Warehouse | 기본, SSO(Single Sign-On), OAuth2 |   |
 | Azure SQL Managed Instance | 기본 | Azure SQL Database 확장을 사용하여 공용 엔드포인트를 통해  |
-| Azure Analysis Services | SSO, OAuth2 | AAS 방화벽을 사용하지 않도록 설정하거나 모든 IP 범위를 허용하도록 구성해야 함.  별칭은 사용할 수 없음  |
+| Azure Analysis Services | SSO, OAuth2 | AAS 방화벽을 사용하지 않도록 설정하거나 모든 IP 범위를 허용하도록 구성해야 함.|
 | Power BI 데이터 세트 | SSO | 프리미엄 및 비프리미엄 Power BI 데이터 세트 읽기 권한 필요 |
 | Premium Power BI 데이터 세트(XMLA) | SSO |   |
 | 데이터 입력 | 해당 없음 | 데이터가 보고서에 포함됩니다. |

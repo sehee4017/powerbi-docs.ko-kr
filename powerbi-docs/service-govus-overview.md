@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/13/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: b36bc6d23b56b4118f848ad9fa4e8f39dbc65d2d
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 349b4d51c1649b714c67e61ac42ddcc49b2eeb12
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79376727"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114891"
 ---
 # <a name="power-bi-for-us-government-customers"></a>미국 정부 기관 고객용 Power BI
 이 문서는 Office 365 정부 플랜의 일부로 Power BI를 배포하는 정부 기관 고객을 위한 것입니다. 정부 플랜은 미국 규정 준수 및 보안 표준을 충족해야 하는 조직의 고유한 요구 사항을 위해 설계되었습니다. 미국 정부 기관 고객을 위해 고안된 Power BI 서비스는 상용 Power BI 서비스 버전과 다릅니다. 이러한 기능 차이는 다음 섹션에 설명되어 있습니다.
@@ -95,7 +95,7 @@ SQL에서 방화벽을 설정하려면 단계에 따라 [IP 방화벽 규칙을 
 |  |CSV 파일에서 데이터 가져오기|사용 가능|사용 가능|사용 가능|
 |  |Power BI Desktop 파일에서 데이터 가져오기|사용 가능|사용 가능|사용 가능|
 |  |CDS 연결|사용 가능|사용할 수 없음|사용할 수 없음|
-|  |Azure Data Lake Storage Gen2 커넥터|사용할 수 없음|사용할 수 없음|사용할 수 없음|
+|  |Azure Data Lake Storage Gen2 커넥터|사용 가능|사용할 수 없음|사용할 수 없음|
 |데이터 관리|데이터 관리 게이트웨이|사용 가능|사용 가능|사용 가능|
 |  |Azure SQL에서 데이터 암호화|사용 가능|사용 가능|사용 가능|
 |  |Power BI용 Blob Storage에서 데이터 암호화|사용 가능|사용 가능|사용 가능|

@@ -5,14 +5,14 @@ author: KesemSharabi
 ms.author: kesharab
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: how-to
+ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: d4c9013a112cb9e0ae10ebf252921a4ed99359a3
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 20546e0c9251f39ca49f6d713d5db48401937505
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79491390"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114408"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI 작업 영역 컬렉션 콘텐츠를 Power BI Embedded로 마이그레이션하는 방법
 
@@ -44,9 +44,9 @@ Power BI 작업 영역 컬렉션에서 Power BI Embedded로 마이그레이션�
 
     사용할 테넌트 설정을 결정해야 합니다.
 
-   * 기존 회사 Power BI 테넌트를 사용하나요?
-   * 애플리케이션에 대한 별도 테넌트를 사용하나요?
-   * 각 고객에 대한 별도 테넌트를 사용하나요?
+   * 기존 회사 Power BI 테넌트를 사용합니까?
+   * 애플리케이션에 대한 별도 테넌트를 사용합니까?
+   * 각 고객에 대한 별도 테넌트를 사용합니까?
 
      애플리케이션 또는 각 고객에 대해 새 테넌트를 만들도록 결정한 경우 [Azure Active Directory 테넌트 만들기](create-an-azure-active-directory-tenant.md) 또는 [Azure Active Directory 테넌트를 가져오는 방법](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)을 참조하세요.
 2. 애플리케이션 "마스터" 계정으로 작동할 이 새 테넌트 내에서 사용자를 만듭니다. 해당 계정은 Power BI에 등록해야 하며 할당된 Power BI Pro 라이선스가 있어야 합니다.

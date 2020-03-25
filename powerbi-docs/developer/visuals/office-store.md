@@ -5,15 +5,15 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: how-to
+ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 11290053e0e0f19c8caf5fe7b2c3ace5fa3c2abc
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: f357c3ee937c75afcbf2095c6cbd586f9748420e
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79435861"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114201"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>파트너 센터에 Power BI 시각적 개체 게시
 
@@ -40,7 +40,7 @@ Power BI 시각적 개체를 제출할 준비가 되면 시각적 개체가 아�
 | 다운로드 링크 지원 |예 |고객 지원 URL을 제공합니다. 이 링크는 파트너 센터 목록의 일부로 입력되고 AppSource의 시각적 개체 목록에 액세스할 때 사용자에게 표시됩니다. URL 형식은 https:// 또는 https:// 를 포함해야 합니다. |
 | 개인정보처리방침 링크 |예 |시각적 개체의 개인정보 취급방침 링크를 제공합니다. 이 링크는 파트너 센터 목록의 일부로 입력되고 AppSource의 시각적 개체 목록에 액세스할 때 사용자에게 표시됩니다. 링크 형식에 https:// 또는 https:// 를 포함해야 합니다. |
 | EULA(최종 사용자 사용권 계약) |예 |Power BI 시각적 개체의 EULA 파일을 제공해야 합니다. [표준 계약](https://go.microsoft.com/fwlink/?linkid=2041178), [Power BI 시각적 개체 계약](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf) 또는 고유한 EULA를 사용할 수 있습니다. |
-| 동영상 링크 |아니요 |사용자 지정 시각적 개체에 대한 사용자의 관심을 높이려면 시각적 개체에 대한 동영상 링크를 제공합니다. URL 형식은 https:// 또는 https:// 를 포함해야 합니다. |
+| 비디오 링크 |아니요 |사용자 지정 시각적 개체에 대한 사용자의 관심을 높이려면 시각적 개체에 대한 비디오 링크를 제공합니다. URL 형식은 https:// 또는 https:// 를 포함해야 합니다. |
 | GitHub 리포지토리 |아니요 |Power BI 시각적 개체 및 샘플 데이터의 소스가 포함된 [GitHub](https://www.github.com) 리포지토리에 대한 공용 링크를 공유합니다. 이렇게 하면 다른 개발자가 피드백을 제공하고 코드 개선 사항을 제안할 수 있습니다. |
 
 ## <a name="getting-an-app-package-xml"></a>앱 패키지 XML 얻기

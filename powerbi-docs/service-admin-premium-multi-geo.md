@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: ad7c0dab0c4390326eea157351735802d12b3795
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 4b30e2fbf4ec3607b3ee155749a1ddeeb9f76cad
+ms.sourcegitcommit: 075a0ade4134d28f578fda78996595e8cd9f3555
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488571"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "80147357"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>Power BI Premium에 대한 다중 지역 지원 구성
 
@@ -93,7 +93,7 @@ Power BI Germany, Power BI China(21Vianet에서 운영) 또는 Power BI(미국 �
 - 지역 간에 시작한 모든 이동이 데이터 전송 전에 모든 회사 및 정부 준수 요구 사항을 따르는지 확인합니다.
 - 원격 지역에 저장된 캐시된 쿼리는 해당 지역에 남아 있습니다. 그러나 전송 중인 다른 데이터는 여러 지역 간에 이동할 수 있습니다.
 - 다중 지역 환경에서 데이터를 한 지역에서 다른 지역으로 이동하면 원본 데이터는 최대 30일 동안 데이터 이동이 시작된 지역에 남아 있을 수 있습니다. 해당 기간에 최종 사용자는 데이터에 액세스할 수 없습니다. 데이터가 이 지역에서 제거되고 30일 기간 동안 삭제됩니다.
-- 일반적으로 다중 지역을 사용해도 성능이 향상되지 않습니다. 보고서 및 대시보드 로드에는 메타데이터의 홈 지역에 대한 요청이 포함됩니다.
+
 - 현재는 [데이터 흐름](service-dataflows-overview.md) 기능이 다중 지역에서 지원되지 않습니다.
 
 ## <a name="next-steps"></a>다음 단계
