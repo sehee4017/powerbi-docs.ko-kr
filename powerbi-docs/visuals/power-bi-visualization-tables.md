@@ -98,7 +98,7 @@ ms.locfileid: "77576822"
 
 ### <a name="conditional-formatting"></a>조건부 서식 지정
 
-‘조건부 서식’은 형식의 한 가지 유형입니다.  Power BI는 **시각화** 창의 **값** 웰에 추가한 모든 필드에 조건부 서식을 적용할 수 있습니다.
+‘조건부 서식’은 서식의 한 가지 유형입니다.  Power BI는 **시각화** 창의 **값** 웰에 추가한 모든 필드에 조건부 서식을 적용할 수 있습니다.
 
 ![시각화 창](media/power-bi-visualization-tables/power-bi-table-values.png)
 
