@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: ae33d7aac0eb42e925e78b8b76a9d7106cdf9d20
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: b603ced5775d72c09419ea5e18b2eb03b2680e95
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73867436"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273366"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Power BI 분산형 차트의 고밀도 샘플링
 **Power BI Desktop** 2017년 9월 릴리스 및 **Power BI 서비스** 업데이트부터 새 샘플링 알고리즘은 분산형 차트에서 고밀도 데이터를 나타내는 방법을 향상시키는 데 사용할 수 있습니다.
@@ -85,7 +85,8 @@ ms.locfileid: "73867436"
 * **고밀도 샘플링** 알고리즘은 Power BI 서비스 기반 모델, 가져온 모델 또는 DirectQuery에 대한 라이브 연결만을 사용합니다.
 
 ## <a name="next-steps"></a>다음 단계
-다른 차트의 고밀도 샘플링에 대한 자세한 내용은 다음 문서를 참조하세요.
+
+고밀도 샘플링에 대한 자세한 내용은 다음 문서를 참조하세요.
 
 * [Power BI에서 고밀도 선 샘플링](desktop-high-density-sampling.md)
-
+* [Power BI 보고서에서 데이터 플롯 정렬 및 배포 팁](guidance/report-tips-sort-distribute-data-plots.md)

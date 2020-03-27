@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/13/2020
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5693e75ff186c3edb95eeaa92d26823e0e0d3a60
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: d5b57b782af52542ed944b5e5e7504a974ee9d81
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76039057"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273343"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>Power BI Desktop에서 Python 스크립트 실행
 
@@ -109,6 +109,14 @@ Power BI Desktop에서 Python 스크립트를 실행하려면 다음을 수행�
 Python이 설치되어 있지 않거나 식별되지 않으면 경고가 표시됩니다. 로컬 머신을 여러 개 설치한 경우에도 경고가 표시될 수 있습니다. 이전의 Python 설치 및 Python 스크립팅 사용 섹션을 다시 검토합니다.
 
 ![Python이 설치되지 않았다는 경고](media/desktop-python-scripts/python-scripts-3.png)
+
+#### <a name="using-custom-python-distributions"></a>사용자 지정 Python 배포 사용
+
+Power BI는 설정 페이지를 통해 제공되는 사용자 제공 디렉터리에서 python.exe 실행 파일을 사용하여 스크립트를 직접 실행합니다. 환경을 준비하기 위해 추가 단계를 수행해야 하는 배포(예: Conda)의 경우 실행에 실패하는 문제가 발생할 수 있습니다.
+
+관련 문제를 방지하려면 https://www.python.org/ 에서 공식 Python 배포를 사용하는 것이 좋습니다.
+
+가능한 해결 방법으로, 사용자 지정 Python 환경 프롬프트에서 Power BI Desktop을 시작할 수 있습니다.
 
 ### <a name="refresh"></a>새로 고침
 

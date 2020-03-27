@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/12/2020
+ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: fa373fca782a582ec2ac2ef60cb36322efaff327
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 02bea09bcd6400b4dc316a08ec74ed2780ad3363
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205277"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273182"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Power BI의 데이터 보호(미리 보기)
 
@@ -105,6 +105,8 @@ Microsoft Cloud App Security를 사용하여 의도하지 않은 유출이나 �
 * [HYOK 보호](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions)는 Power BI에서 적용된 레이블에 대해 지원되지 않습니다.
 * Office 앱에서 레이블을 보고 적용하려면 [라이선스 요구 사항](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps#subscription-and-licensing-requirements-for-sensitivity-labels)을 충족해야 합니다.
 * 민감도 레이블은 글로벌(퍼블릭) 클라우드의 테넌트에만 지원됩니다. 다른 클라우드의 테넌트에서는 민감도 레이블이 지원되지 않습니다.
+* 템플릿 앱에 대해서는 데이터 민감도 레이블이 지원되지 않습니다.
+* Power BI는 **전달 금지** 및 **임시** 보호 유형의 민감도 레이블을 지원하지 않습니다.
 
 ## <a name="next-steps"></a>다음 단계
 

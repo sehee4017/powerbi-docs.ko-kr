@@ -10,12 +10,12 @@ ms.date: 01/03/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6cf298f6fd4d6d99163b2c0f5674b40cfc14bbfc
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 1102022edca3afad2a658facdf43da7b8bca547d
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75657193"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113787"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Power BI에서 사용자 활동 추적
 
@@ -49,13 +49,13 @@ Power BI REST API를 기반으로 하는 관리 애플리케이션을 사용하�
 https://api.powerbi.com/v1.0/myorg/admin/activityevents?startDateTime='2019-08-31T00:00:00'&endDateTime='2019-08-31T23:59:59'
 ```
 
-항목 수가 많으면 **ActivityEvents** API는 약 5,000~10,000개 항목과 연속 토큰만 반환합니다. 그러면 모든 항목이 검색되고 더 이상 연속 토큰이 수신되지 않을 때까지 연속 토큰으로 **ActivityEvents** API를 다시 호출하여 다음 항목 배치를 가져와야 합니다. 다음 예제에서는 연속 토큰을 사용하는 방법을 보여 줍니다.
+항목 수가 많으면 **ActivityEvents** API는 약 5,000~10,000개 항목과 연속 토큰만 반환합니다. 그러면 모든 항목이 검색되고 더 이상 연속 토큰이 수신되지 않을 때까지 연속 토큰으로 **ActivityEvents** API를 다시 호출하여 다음 항목 배치를 가져옵니다. 다음 예제에서는 연속 토큰을 사용하는 방법을 보여 줍니다.
 
 ```
 https://api.powerbi.com/v1.0/myorg/admin/activityevents?continuationToken='%2BRID%3ARthsAIwfWGcVAAAAAAAAAA%3D%3D%23RT%3A4%23TRC%3A20%23FPC%3AARUAAAAAAAAAFwAAAAAAAAA%3D'
 ```
 
-반환된 항목 수에 관계없이 결과에 연속 토큰이 포함되어 있으면, 연속 토큰이 더 이상 반환되지 않을 때까지 해당 토큰으로 API를 다시 호출하여 나머지 데이터를 검색해야 합니다. 호출에서 이벤트 항목 없이 연속 토큰이 반환되는 경우도 있습니다. 다음 예제에서는 응답에 반환된 연속 토큰을 사용하여 반복하는 방법을 보여 줍니다.
+반환된 항목 수에 관계없이 결과에 연속 토큰이 포함되어 있으면, 연속 토큰이 더 이상 반환되지 않을 때까지 해당 토큰을 사용하여 API를 다시 호출하여 나머지 데이터를 검색해야 합니다. 호출에서 이벤트 항목 없이 연속 토큰이 반환되는 경우도 있습니다. 다음 예제에서는 응답에 반환된 연속 토큰을 사용하여 반복하는 방법을 보여 줍니다.
 
 ```
 while(response.ContinuationToken != null)
@@ -68,12 +68,15 @@ while(response.ContinuationToken != null)
 }
 completeListOfActivityEvents.AddRange(response.ActivityEventEntities);
 ```
-
+> [!NOTE]
+> 모든 이벤트가 표시되는 데 최대 24시간이 걸릴 수 있지만 일반적으로 전체 데이터를 더 빨리 사용할 수 있습니다.
+>
+>
 ### <a name="get-powerbiactivityevent-cmdlet"></a>Get-PowerBIActivityEvent cmdlet
 
-자동으로 연속 토큰을 처리하는 **Get-PowerBIActivityEvent** cmdlet이 포함된 PowerShell용 Power BI 관리 cmdlet을 사용하여 활동 이벤트를 간편하게 다운로드할 수 있습니다. **Get-PowerBIActivityEvent** cmdlet은 **ActivityEvents** REST API와 동일한 제한 사항이 있는 StartDateTime 및 EndDateTime 매개 변수를 사용합니다. 즉, 한 번에 1일 분량의 활동 데이터만 검색할 수 있으므로 시작 날짜와 종료 날짜가 동일한 날짜 값을 참조해야 합니다.
+PowerShell용 Power BI 관리 cmdlet을 사용하여 활동 이벤트를 다운로드합니다. **Get-PowerBIActivityEvent** cmdlet은 자동으로 연속 토큰을 처리합니다. **Get-PowerBIActivityEvent** cmdlet은 **ActivityEvents** REST API와 동일한 제한 사항이 있는 StartDateTime 및 EndDateTime 매개 변수를 사용합니다. 즉, 한 번에 1일 분량의 활동 데이터만 검색할 수 있으므로 시작 날짜와 종료 날짜가 동일한 날짜 값을 참조해야 합니다.
 
-다음 스크립트는 모든 Power BI 활동을 다운로드하는 방법을 보여 줍니다. 이 명령은 개별 활동 속성에 간편하게 액세스할 수 있도록 결과를 JSON에서 .NET 개체로 변환합니다.
+다음 스크립트는 모든 Power BI 활동을 다운로드하는 방법을 보여 줍니다. 이 명령은 개별 활동 속성에 간편하게 액세스할 수 있도록 결과를 JSON에서 .NET 개체로 변환합니다. 이러한 예에서는 이벤트가 누락되지 않도록 하루에 가능한 가장 작은 타임스탬프와 가장 큰 타임스탬프를 보여 줍니다.
 
 ```powershell
 Login-PowerBI
@@ -111,11 +114,11 @@ Power BI와 Office 365의 사용자 활동을 추적하려는 경우 Office 365 
 
 - 감사 로그에 액세스하려면 전역 관리자이거나 Exchange Online에서 감사 로그 또는 보기 전용 감사 로그 역할을 할당받아야 합니다. 기본적으로 준수 관리 및 조직 관리 역할 그룹은 Exchange 관리 센터의 **사용 권한** 페이지에 대해 이러한 역할이 할당됩니다.
 
-    관리자가 아닌 계정에 감사 로그 액세스 권한을 부여하려면 해당 사용자를 이러한 역할 그룹의 구성원으로 추가해야 합니다. 다른 방법으로는 Exchange 관리 센터에서 사용자 지정 역할 그룹을 만들고 이 그룹에 감사 로그 또는 보기 전용 감사 로그 역할을 할당한 다음 액세스 권한이 필요한 계정을 새로 만든 역할 그룹에 추가할 수도 있습니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](/Exchange/permissions-exo/role-groups)를 참조하세요.
+    관리자가 아닌 계정에 감사 로그 액세스 권한을 부여하려면 해당 사용자를 이러한 역할 그룹의 구성원으로 추가합니다. 다른 방법으로는 Exchange 관리 센터에서 사용자 지정 역할 그룹을 만들고 이 그룹에 감사 로그 또는 보기 전용 감사 로그 역할을 할당한 다음 액세스 권한이 필요한 계정을 새로 만든 역할 그룹에 추가할 수도 있습니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](/Exchange/permissions-exo/role-groups)를 참조하세요.
 
     Microsoft 365 관리 센터에서 Exchange 관리 센터에 액세스할 수 없는 경우, https://outlook.office365.com/ecp 로 이동하고 자격 증명을 사용하여 로그인하세요.
 
-- 감사 로그에 대한 액세스 권한이 있지만 전역 관리자 또는 Power BI 서비스 관리자가 아닌 경우 Power BI 관리 포털에 대한 액세스 권한이 없습니다. 이 경우에는 [Office 365 보안 및 준수 센터](https://sip.protection.office.com/#/unifiedauditlog)로 직접 연결되는 링크를 사용해야 합니다.
+- 감사 로그에 대한 액세스 권한이 있지만 전역 관리자 또는 Power BI 서비스 관리자가 아닌 경우 Power BI 관리 포털에 액세스할 수 없습니다. 이 경우에는 [Office 365 보안 및 준수 센터](https://sip.protection.office.com/#/unifiedauditlog)로 직접 연결되는 링크를 사용합니다.
 
 ### <a name="access-your-audit-logs"></a>감사 로그에 액세스
 
@@ -258,7 +261,7 @@ Exchange Online에 연결하는 방법에 대한 자세한 내용은 [Exchange O
 | Power BI 폴더 만듦                           | CreateFolder                                |                                          |
 | Power BI Gateway 만들어짐                          | CreateGateway                               |                                          |
 | Power BI 그룹 만듦                            | CreateGroup                                 |                                          |
-| Power BI 보고서 만듦                           | CreateReport                                |                                          |
+| Power BI 보고서 만듦                           | CreateReport <sup>1</sup>                                |                                          |
 | 외부 스토리지 계정으로 데이터 흐름 마이그레이션     | DataflowMigratedToExternalStorageAccount    | 현재 사용되지 않음                       |
 | 데이터 흐름 사용 권한 추가됨                        | DataflowPermissionsAdded                    | 현재 사용되지 않음                       |
 | 데이터 흐름 사용 권한 제거됨                      | DataflowPermissionsRemoved                  | 현재 사용되지 않음                       |
@@ -294,7 +297,7 @@ Exchange Online에 연결하는 방법에 대한 자세한 내용은 [Exchange O
 | Power BI 주석 게시됨                           | PostComment                                 |                                          |
 | Power BI 대시보드 인쇄됨                        | PrintDashboard                              |                                          |
 | Power BI 보고서 페이지 인쇄됨                      | PrintReport                                 |                                          |
-| 웹에 Power BI 보고서 게시됨                  | PublishToWebReport                          |                                          |
+| 웹에 Power BI 보고서 게시됨                  | PublishToWebReport <sup>2</sup>                         |                                          |
 | Key Vault에서 Power BI 데이터 흐름 비밀 수신됨  | ReceiveDataflowSecretFromKeyVault           |                                          |
 | Power BI Gateway에서 데이터 원본 제거됨         | RemoveDatasourceFromGateway                 |                                          |
 | Power BI 그룹 구성원 제거됨                    | DeleteGroupMembers                          |                                          |
@@ -333,6 +336,10 @@ Exchange Online에 연결하는 방법에 대한 자세한 내용은 [Exchange O
 | Power BI 타일 표시됨                              | ViewTile                                    |                                          |
 | Power BI 사용 메트릭 표시됨                     | ViewUsageMetrics                            |                                          |
 |                                                   |                                             |                                          |
+
+<sup>1</sup> Power BI Desktop에서 서비스에 게시는 서비스에서 CreateReport 이벤트입니다.
+
+<sup>2</sup> PublishtoWebReport는 [웹에 게시](service-publish-to-web.md) 기능을 참조합니다.
 
 ## <a name="next-steps"></a>다음 단계
 

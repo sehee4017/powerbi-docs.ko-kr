@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 03/25/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: b20820490ec88d34d4ee75c135cc54277e473545
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: 79f3fa8c9c175b698cb91784f95d3bb9d8ca0cc5
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "77076645"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273251"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL에 쿼리 문자열 매개 변수를 사용하여 보고서 필터링
 
@@ -193,11 +193,17 @@ TerritoryChain = [Territory] & " - " & [Chain]
 쿼리 문자열 매개 변수를 사용할 때 알아야 할 몇 가지 사항이 있습니다.
 
 * *in* 연산자를 사용하는 경우 *in*의 오른쪽에 있는 값은 괄호로 묶이고 쉼표로 구분된 목록이어야 합니다.    
-* 또한 Power BI Report Server는 "필터" URL 매개 변수를 사용하여 추가 필터를 지정하는 기능을 제공합니다.  예를 들어 Power BI Report Server에서 URL은 다음과 같이 표시됩니다. https://reportserver/reports/powerbi/Store Sales?rs:Embed=true&filter= Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
-* 쿼리 문자열 필터링은 [웹에 게시](service-publish-to-web.md) 또는 [PDF로 내보내기](consumer/end-user-pdf.md)에서는 작동하지 않습니다.
-* [SharePoint Online에 보고서 웹 파트 포함](service-embed-report-spo.md)은 URL 필터를 지원하지 않습니다.
-* Javascript 제한 때문에 Long 데이터 형식은 (2^53-1)입니다.
+* 또한 Power BI Report Server는 “필터” URL 매개 변수를 사용하여 추가 필터를 지정하는 기능을 제공합니다. Power BI Report Server에서 URL은 다음과 같이 표시됩니다. `https://reportserver/reports/powerbi/Store Sales?rs:Embed=true&filter= Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'`
 * 보고서 URL 필터에는 10개 식 제한(AND로 연결된 10개의 필터)이 있습니다.
+* JavaScript 제한 때문에 Long 데이터 형식은 (2^53-1)입니다.
+
+URL 필터는 일부 포함 시나리오에서 지원되며 다른 시나리오에서는 지원되지 않습니다.
+
+- [보안 포털 또는 웹 사이트에 보고서 포함](service-embed-secure.md)이 지원됩니다.
+- URL 필터는 Power BI Embedded에서 지원됩니다. 자세한 내용은 [Power BI Embedded 고급 URL 필터링 기능](https://azure.microsoft.com/updates/power-bi-embedded-advanced-url-filtering-capabilities)을 참조하세요.
+- 쿼리 문자열 필터링은 [웹에 게시](service-publish-to-web.md) 또는 [PDF로 내보내기](consumer/end-user-pdf.md)에서는 작동하지 않습니다.
+- [SharePoint Online에 보고서 웹 파트 포함](service-embed-report-spo.md)은 URL 필터를 지원하지 않습니다.
+- Teams는 URL 지정을 허용하지 않습니다.
 
 ## <a name="next-steps"></a>다음 단계
 

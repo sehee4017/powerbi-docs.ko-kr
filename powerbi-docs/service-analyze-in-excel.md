@@ -78,7 +78,7 @@ Excel에서 Power BI 데이터를 분석하려는 경우, .odc 파일에 대한 
 ![데이터 연결 사용](media/service-analyze-in-excel/pbi_anlz_excel_enable.png)
 
 > [!NOTE]
-> Power BI 테넌트 관리자는 온-프레미스 데이터 세트를 Analysis Services(AS) 데이터베이스에 저장하고 *Power BI Admin Portal*을 사용하여 **Excel에서 분석** 사용을 비활성화할 수 있습니다. 이 옵션을 비활성화하면 AS 데이터베이스에서 **Excel에서 분석**이 비활성화되지만 다른 데이터 세트에는 계속 사용할 수 있습니다.
+> Power BI 테넌트 관리자는 온-프레미스 데이터 세트를 Analysis Services(AS) 데이터베이스에 저장하고 *Power BI 관리 포털*을 사용하여 **Excel에서 분석** 사용을 비활성화할 수 있습니다. 이 옵션을 비활성화하면 AS 데이터베이스에서 **Excel에서 분석**이 비활성화되지만 다른 데이터 세트에는 계속 사용할 수 있습니다.
 > 
 > 
 

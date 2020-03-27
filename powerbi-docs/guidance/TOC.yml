@@ -78,6 +78,12 @@
               href: report-tips-legends.md
             - name: 시각적 개체 색 최적화 팁
               href: report-tips-visual-colors.md
+            - name: 시각적 개체 색 최적화 팁
+              href: report-tips-visual-colors.md
+            - name: 데이터 플롯 정렬 및 배포 팁
+              href: report-tips-sort-distribute-data-plots.md
+            - name: '셰이프, 이미지 및 아이콘을 활용한 작업 팁'
+              href: report-tips-shapes-images-icons.md
         - name: Power BI 페이지를 매긴 보고서
           items:
             - name: 페이지를 매긴 보고서를 사용하는 경우

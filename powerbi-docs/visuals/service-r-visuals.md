@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 04fa40f5f73199ed5050870b49cd432f62cf362c
-ms.sourcegitcommit: 82c41f91055da8c1cc5d8cc67927d5246d11247b
+ms.openlocfilehash: 60432c110df7c20aa13969d70ed7c2a90d0ef575
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "78199076"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114845"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>Power BI에서 R 시각적 개체 만들기 및 사용
 R 시각적 개체는 현재 **Power BI Desktop**에서 만든 다음 Power BI 서비스에 게시할 수 있습니다. R 시각적 개체 만들기에 대한 자세한 내용은 [R을 사용하여 Power BI 시각적 개체 만들기](../desktop-r-visuals.md)를 참조하세요.
@@ -88,6 +88,7 @@ Power BI 서비스의 R 시각적 개체에는 몇 가지 제한 사항이 있�
 * R 시각적 개체 지원은 [지원되는 R 패키지에 대해 알아보기](../service-r-packages-support.md)에 식별된 패키지로 제한됩니다. 현재 사용자 지정 패키지에 대한 지원이 없습니다.
 * 데이터 크기 제한 – R 시각적 개체가 그리기에 사용하는 데이터가 150,000행으로 제한됩니다. 150,000개를 초과하는 행을 선택할 경우 상위 150,000개만 사용되고 이미지에 메시지가 표시됩니다. 또한 입력 데이터는 250MB로 제한됩니다.
 * 해결 방법 - 모든 R 시각적 개체는 72DPI로 표시됩니다.
+* 디바이스 그리기 - 기본 디바이스에 대한 그리기만 지원됩니다. 
 * 계산 시간 제한 - R 시각적 개체 계산 시간이 60초를 초과하면 스크립트 시간이 초과되어 오류가 발생합니다.
 * 데이터 업데이트, 필터링 및 강조 표시가 발생하면 R 시각적 개체가 새로 고쳐집니다. 그러나 이미지 자체는 대화형이 아니며 도구 설명을 지원하지 않습니다.
 * 다른 시각적 개체를 강조 표시하면 R 시각적 개체가 그에 응답하지만 R 시각적 개체의 요소를 클릭하여 다른 요소를 교차 필터링할 수는 없습니다.

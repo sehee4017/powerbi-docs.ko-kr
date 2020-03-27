@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 02/28/2020
-ms.openlocfilehash: d9d97715853ab87ac507ff41117ab176b8620e2e
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.date: 03/18/2020
+ms.openlocfilehash: 885c6b98e66a6ce2fd8069cc86bf50440cb94b4b
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205254"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113616"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI의 페이지를 매긴 보고서: FAQ 
 
@@ -68,13 +68,17 @@ ReportType 필드에는 Power BI 보고서가 아닌 페이지를 매긴 보고�
 
 오류 메시지가 수신되지만 워크로드가 다시 켜질 때까지 보고서를 볼 수 없습니다. 작업 영역에서 보고서를 삭제할 수는 있습니다.
 
-### <a name="what-is-the-default-memory-for-each-of-the-premium-skus-supported-for-paginated-reports"></a>페이지를 매긴 보고서에 대해 지원되는 각 Premium SKU의 기본 메모리는 얼마인가요?
+### <a name="what-is-the-default-memory-for-each-of-the-premium-skus-that-support-paginated-reports"></a>페이지를 매긴 보고서를 지원하는 각 Premium SKU의 기본 메모리는 얼마인가요?
 
 페이지를 매긴 보고서에 대한 각 Premium SKU의 기본 메모리는 다음과 같습니다.
 
 - **P1/A4**: 기본값 20%, 최솟값 10%
 - **P2/A5**: 기본값 20%, 최솟값 5%
 - **P3/A6**: 기본값 20%, 최솟값 2.5%
+
+Power BI 테넌트 관리자는 관리 포털에서 기본 최대 메모리 비율을 수정할 수 있습니다. **용량 설정** 탭의 **Power BI Premium**에서 **페이지를 매긴 보고서** 워크로드 섹션을 참조하세요.
+
+:::image type="content" source="media/paginated-reports-faq/paginated-reports-capacity-settings.png" alt-text="페이지를 매긴 보고서 용량 설정 탭":::
 
 ## <a name="general"></a>일반
 
@@ -160,7 +164,7 @@ Microsoft Excel, Microsoft Word, Microsoft PowerPoint, PDF, .CSV, XML 및 MHTML�
 
 ### <a name="will-other-report-specific-features-in-power-bi-like-pinning-to-report-tiles-to-dashboards-work-with-paginated-reports"></a>보고서 타일을 대시보드에 고정하는 기능과 같이, Power BI의 다른 보고서 관련 기능이 페이지를 매긴 보고서에서도 작동하나요?
 
-가능한 한 보고서가 서비스의 동일한 주요 시나리오를 지원하도록 할 계획입니다.  보고서를 작성하는 도구가 달라도 소비자 관점에서는 포털의 목록에 있는 또 다른 보고서인 경우가 이상적입니다. 필요한 작업을 달성할 수 있으면 어떻게 만들어졌는지는 중요시하지 않습니다.  이 기능 패리티의 좋은 예가 계획된 주석 지원입니다. 기능 자체는 보고서 종류마다 약간 다르게 작동할 수 있으나 보고서 종료 둘 다에 대해 주석을 사용할 수 있습니다.
+가능한 한 보고서가 서비스의 동일한 주요 시나리오를 지원하도록 할 계획입니다.  보고서를 작성하는 도구가 달라도 소비자 관점에서는 포털의 목록에 있는 또 다른 보고서인 경우가 이상적입니다. 필요한 작업을 달성할 수 있으면 어떻게 만들어졌는지는 중요시하지 않습니다.  이 기능 패리티의 좋은 예가 계획된 주석 지원입니다. 기능 자체는 보고서 종류마다 약간 다르게 작동할 수 있으나 보고서 종류 둘 다에 대해 주석을 사용할 수 있습니다.
 
 ### <a name="is-there-a-report-viewer-control-for-paginated-reports-in-the-power-bi-service"></a>Power BI 서비스의 페이지를 매긴 보고서에 대한 보고서 뷰어 컨트롤이 있나요?
 

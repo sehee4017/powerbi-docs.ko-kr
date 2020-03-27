@@ -10,12 +10,12 @@ ms.date: 03/16/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 97aad9a72cba6fe195208902e2a3d986b3225a3d
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 48f26229ea77bbe26ee07d46925d41cadcce7c12
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488709"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80114459"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
@@ -233,7 +233,12 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 
 ### <a name="export-data"></a>데이터 내보내기
 
-조직의 사용자는 타일 또는 시각화에서 데이터를 내보낼 수 있습니다. [타일 또는 시각적 기체에서 데이터를 내보내는](visuals/power-bi-visualization-export-data.md) 방법에 대해 자세히 알아보세요.
+조직의 사용자는 타일 또는 시각화에서 데이터를 내보낼 수 있습니다. 이 컨트롤은 Excel에서 분석, .csv로 내보내기, 데이터 세트 다운로드(.pbix) 및 Power BI 서비스 라이브 연결 기능을 제어합니다. [타일 또는 시각적 기체에서 데이터를 내보내는](visuals/power-bi-visualization-export-data.md) 방법에 대해 자세히 알아보세요.
+
+>[!NOTE]
+> Excel로 내보내기 설정이 도입되기 전에 이 설정은 Excel 파일로 데이터 내보내기도 제어했습니다. 자세한 내용은 [Excel로 내보내기 아래의 참고](#export-to-excel)를 참조하세요.
+
+![데이터 내보내기 설정](media/service-admin-portal/powerbi-admin-portal-export-data-setting.png)
 
 다음 이미지는 타일에서 데이터를 내보내는 옵션을 보여 줍니다.
 
@@ -241,6 +246,15 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 
 > [!NOTE]
 > **데이터 내보내기**를 사용하지 않도록 설정하면 사용자는 Power BI 서비스 라이브 연결과 함께 [Excel에서 분석](service-analyze-in-excel.md) 기능을 사용할 수 없습니다.
+
+### <a name="export-to-excel"></a>Excel로 내보내기
+
+조직의 사용자가 시각화에서 Excel 파일로 데이터를 내보낼 수 있습니다.
+
+![Excel로 내보내기 설정](media/service-admin-portal/powerbi-admin-portal-export-to-excel-setting.png)
+
+>[!IMPORTANT]
+> Excel로 내보내기 설정이 도입되기 전에 Excel 파일로 내보내기는 데이터 내보내기 설정에 의해 제어되었습니다. 따라서 Excel로 내보내기 설정이 도입되기 전에 존재한 테넌트에서는 테넌트 관리자가 Excel로 내보내기 설정을 처음 볼 때 ‘적용되지 않은 변경 내용’이 있음을 알게 됩니다.  . 새 설정을 적용하려면 이러한 변경 내용을 적용해야 합니다. 그렇지 않으면 Excel 파일로 내보내기는 데이터 내보내기 설정에 의해 계속 제어됩니다.
 
 ### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>PowerPoint 프레젠테이션 또는 PDF 문서로 보고서 내보내기
 

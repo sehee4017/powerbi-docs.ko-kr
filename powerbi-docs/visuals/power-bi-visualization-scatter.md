@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a03ac63caf8da96cd7e786c99c8a8dcd36f45a75
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.openlocfilehash: e7160505a720b6629067d7b1486f0dd227efd862
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311665"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273320"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI의 분산형 차트, 거품형 차트 및 점 그림 차트
 
@@ -184,8 +184,10 @@ X축에 따라 범주 데이터를 포함하려는 경우 좋은 선택입니다
 
 ## <a name="next-steps"></a>다음 단계
 
-* [Power BI 분산형 차트의 고밀도 샘플링](desktop-high-density-scatter-charts.md)
+다음 문서에도 관심이 있을 수 있습니다.
 
+* [Power BI 분산형 차트의 고밀도 샘플링](desktop-high-density-scatter-charts.md)
 * [Power BI의 시각화 유형](power-bi-visualization-types-for-reports-and-q-and-a.md)
+* [Power BI 보고서에서 데이터 플롯 정렬 및 배포 팁](../guidance/report-tips-sort-distribute-data-plots.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

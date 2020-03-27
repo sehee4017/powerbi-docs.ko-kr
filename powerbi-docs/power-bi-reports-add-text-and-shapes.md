@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b90bfd9482e28faa8d9dfb0d089ca07656663b53
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 6e5281b03ecf9de5414b334d4f88658fb9741d3f
+ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762465"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80273205"
 ---
 # <a name="add-text-boxes-and-shapes-to-power-bi-reports"></a>Power BI 보고서에 텍스트 상자 및 셰이프 추가
 Power BI 서비스 및 Power BI Desktop을 사용하여 보고서에 텍스트 상자 및 셰이프를 추가할 수 있습니다. 두 경우 모두 보고서에 대한 편집 권한이 있어야 합니다. Power BI 서비스에서 보고서가 사용자와 공유된 경우에는 편집 권한이 없습니다. 
@@ -63,8 +63,10 @@ Power BI Desktop을 사용하여 [보고서에 정적 이미지를 추가](/lear
    > 
 
 ## <a name="next-steps"></a>다음 단계
-[텍스트 상자에 하이퍼링크 추가](service-add-hyperlink-to-text-box.md)
 
-[Power BI 서비스의 디자이너를 위한 기본 개념](service-basic-concepts.md)
+다음 문서에도 관심이 있을 수 있습니다.
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
+* [텍스트 상자에 하이퍼링크 추가](service-add-hyperlink-to-text-box.md)
+* [Power BI 서비스의 디자이너를 위한 기본 개념](service-basic-concepts.md)
+* [Power BI 보고서에서 셰이프, 이미지 및 아이콘을 사용하여 분석을 향상하기 위한 팁](guidance/report-tips-shapes-images-icons.md)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

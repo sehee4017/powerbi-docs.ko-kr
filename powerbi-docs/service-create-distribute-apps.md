@@ -5,15 +5,15 @@ author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 622d01632b9c9cbe6203090b3ac2149d4bc94474
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 0b420a41474349f86be682987ff9f8144debab11
+ms.sourcegitcommit: 075a0ade4134d28f578fda78996595e8cd9f3555
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207876"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "80147380"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Power BI에 앱 게시
 
@@ -28,6 +28,7 @@ Power BI에서 공식 패키지 콘텐츠를 만든 다음, *앱*을 통해 광�
 - Microsoft AppSource에서 앱을 찾아 설치할 수 있습니다.
 - 직접 링크를 보낼 수 있습니다.
 - Power BI 관리자가 사용자에게 사용 권한을 부여한 경우 동료의 Power BI 계정에서 해당 앱을 자동으로 설치할 수 있습니다.
+- 앱을 배포하거나 업데이트할 때 Power BI는 내부 사용자에게 메일을 보내지 않습니다. 외부 사용자에게 앱을 배포하는 경우 해당 사용자는 직접 링크가 포함된 메일을 받습니다. 
 
 고유의 기본 제공 탐색 기능을 사용하여 앱을 만들 수 있으므로 사용자는 자신의 콘텐츠를 쉽게 찾을 수 있습니다. 앱의 콘텐츠를 수정할 수 없습니다. Power BI 서비스 또는 모바일 앱 중 하나인 데이터 필터링, 강조 표시 및 정렬에서 이 서비스와 상호 작용할 수 있습니다. 업데이트를 자동으로 가져오므로, 데이터 새로 고침 빈도를 조절할 수 있습니다. 기본 데이터 세트에 연결하고 앱에서 보고서 복사본을 만들 수 있는 빌드 권한을 부여할 수도 있습니다. [빌드 권한](service-datasets-build-permissions.md)에 대해 자세히 알아봅니다.
 
@@ -132,7 +133,7 @@ Power BI에서 공식 패키지 콘텐츠를 만든 다음, *앱*을 통해 광�
 
 
 ## <a name="automatically-install-apps-for-end-users"></a>최종 사용자에 대해 자동으로 앱 설치
-관리자가 권한을 제공하는 경우 앱을 자동으로 설치하여 최종 사용자에게 제공할 수 있습니다. 이 푸시 기능을 사용하면 권한이 있는 사용자 또는 그룹에 적절한 앱을 쉽게 배포할 수 있습니다. 최종 사용자의 앱 콘텐츠 목록에 앱이 자동으로 표시됩니다. Microsoft AppSource에서 찾거나 설치 링크를 따를 필요가 없습니다. Power BI 관리자 포털 문서에서 관리자가 [최종 사용자에게 앱 푸시하기](service-admin-portal.md#push-apps-to-end-users)를 사용 설정하는 방법을 참조하세요.
+관리자가 권한을 제공하는 경우 앱을 자동으로 설치하여 최종 사용자에게 제공할 수 있습니다.  이 푸시 기능을 사용하면 권한이 있는 사용자 또는 그룹에 적절한 앱을 쉽게 배포할 수 있습니다. 최종 사용자의 앱 콘텐츠 목록에 앱이 자동으로 표시됩니다. Microsoft AppSource에서 찾거나 설치 링크를 따를 필요가 없습니다. Power BI 관리자 포털 문서에서 관리자가 [최종 사용자에게 앱 푸시하기](service-admin-portal.md#push-apps-to-end-users)를 사용 설정하는 방법을 참조하세요.
 
 ### <a name="how-to-push-an-app-automatically-to-end-users"></a>최종 사용자에게 앱을 자동으로 푸시하는 방법
 관리자가 사용 권한을 할당하면 **앱을 자동으로 설치**하는 새로운 옵션이 표시됩니다. 확인란을 선택하고 **앱 게시**(또는 **앱 업데이트**)를 선택하면, 앱이 **액세스** 탭의 앱 **권한** 섹션에 정의된 모든 사용자 또는 그룹으로 푸시됩니다.

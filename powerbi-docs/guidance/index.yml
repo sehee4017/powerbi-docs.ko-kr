@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 23792d8d132702860c611623fc3888debe07cfed
-  ms.sourcegitcommit: d55d3089fcb3e78930326975957c9940becf2e76
+  ms.openlocfilehash: 5f6e5c71f368b5b707534cde769de477bd8fa6a6
+  ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 03/04/2020
-  ms.locfileid: "78260695"
+  ms.lasthandoff: 03/26/2020
+  ms.locfileid: "80273435"
 landingContent:
 - title: Power BI 지침
   linkLists:
@@ -89,7 +89,7 @@ landingContent:
   linkLists:
   - linkListType: concept
     links:
-    - text: 보고서 페이지 도구 설명을 사용하여 시각적 개체 확장
+    - text: 보고서 페이지 도구 설명 사용
       url: report-page-tooltips.md
     - text: 보고서 페이지 드릴스루 사용
       url: report-drillthrough.md
@@ -103,6 +103,10 @@ landingContent:
       url: report-tips-legends.md
     - text: 시각적 개체 색 최적화 팁
       url: report-tips-visual-colors.md
+    - text: 데이터 플롯 정렬 및 배포 팁
+      url: report-tips-sort-distribute-data-plots.md
+    - text: 셰이프, 이미지 및 아이콘을 활용한 작업 팁
+      url: report-tips-shapes-images-icons.md
 - title: Power BI 페이지를 매긴 보고서
   linkLists:
   - linkListType: concept

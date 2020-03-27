@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e91900632b7cf470cd91923ca9ec871247c154ba
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.openlocfilehash: 8297d5e16c15baac058f82b75634eb4f31b3c630
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "76710174"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113166"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>데이터 흐름 스토리지를 위해 Azure Data Lake Storage Gen2 연결
 
@@ -42,12 +42,10 @@ Azure Data Lake Storage Gen2를 데이터 흐름에 사용하려면 다음이 �
 
 Azure Data Lake Storage Gen2 계정으로 Power BI를 구성하려면 먼저 스토리지 계정을 만들고 구성해야 합니다. Power BI에 대한 요구 사항을 살펴보겠습니다.
 
-1. 스토리지 계정은 Power BI 테넌트와 동일한 AAD 테넌트에서 만들어야 합니다.
-2. 스토리지 계정은 Power BI 테넌트와 동일한 지역에 만들어야 합니다. Power BI 테넌트의 위치를 확인하려면 [내 Power BI 테넌트는 어디에 있나요?](service-admin-where-is-my-tenant-located.md) 문서를 참조하세요.
-3. 스토리지 계정에서 ‘계층 구조 네임스페이스’ 기능이 사용 가능해야 합니다. 
-4. Power BI 서비스에는 스토리지 계정에서 *판독기* 및 *데이터 액세스* 역할이 부여되어야 합니다.
-5. **powerbi**라는 파일 시스템을 만들어야 합니다.
-6. Power BI 서비스에는 사용자가 만든 **powerbi** 파일 시스템의 권한이 부여되어야 합니다.
+1. ADLS 스토리지 계정의 소유자여야 합니다. 이는 구독 수준에서 상속되지 않은 리소스 수준에서 할당되어야 합니다.
+2. 스토리지 계정은 Power BI 테넌트와 동일한 AAD 테넌트에서 만들어야 합니다.
+3. 스토리지 계정은 Power BI 테넌트와 동일한 지역에 만들어야 합니다. Power BI 테넌트의 위치를 확인하려면 [내 Power BI 테넌트는 어디에 있나요?](service-admin-where-is-my-tenant-located.md) 문서를 참조하세요.
+4. 스토리지 계정에서 ‘계층 구조 네임스페이스’ 기능이 사용 가능해야 합니다. 
 
 다음 섹션에서는 Azure Data Lake Storage Gen2 계정을 구성하는 데 필요한 단계를 자세히 설명합니다.
 
@@ -59,73 +57,17 @@ Azure Data Lake Storage Gen2 계정으로 Power BI를 구성하려면 먼저 스
 2. 계층 구조 네임스페이스 기능을 사용하도록 설정해야 합니다.
 3. 복제 설정을 **RA-GRS(읽기 액세스 지역 중복 스토리지)** 로 설정하는 것이 좋습니다.
 
-### <a name="grant-the-power-bi-service-reader-and-data-access-roles"></a>Power BI 서비스 판독기 및 데이터 액세스 역할을 부여합니다.
+### <a name="grant-permissions-to-power-bi-services"></a>Power BI 서비스에 대한 사용 권한 부여
 
 그런 다음 생성된 스토리지 계정에서 Power BI 서비스에 판독기 및 데이터 액세스 역할을 부여해야 합니다. 모두 기본 제공 역할이므로 단계는 간단합니다. 
 
 [기본 제공 RBAC 역할 할당](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role)의 단계를 따르세요.
 
-**역할 할당 추가** 창에서 Power BI 서비스에 할당할 **판독기** 및 **데이터 액세스** 역할을 선택합니다. 그런 다음, 검색을 사용하여 **Power BI 서비스**를 찾습니다. 
+**역할 할당 추가** 창에서 **Reader and Data Access**(읽기 권한자 및 데이터 액세스) 역할을 선택합니다. 그런 다음, 검색을 사용하여 **Power BI 서비스** 애플리케이션을 찾습니다.
+**Storage Blob 데이터 소유자** 역할에 대해서 동일한 단계를 반복한 후 **Power BI 서비스**와 **Power BI Premium** 애플리케이션에 역할을 할당합니다.
 
 > [!NOTE]
 > 사용 권한이 포털에서 Power BI로 전파되도록 30분 이상 허용합니다. 포털에서 사용 권한을 변경할 때마다 이러한 사용 권한이 Power BI에 반영되는 데 30분이 걸릴 수 있습니다. 
-
-
-### <a name="create-a-file-system-for-power-bi"></a>Power BI용 파일 시스템 만들기
-
-스토리지 계정을 Power BI에 추가하려면 먼저 *powerbi*라는 파일 시스템을 만들어야 합니다. Azure Databricks, HDInsight, AZCopy 또는 Azure Storage Explorer 사용을 포함하여 다양한 방법으로 파일 시스템을 만들 수 있습니다. 이 섹션에서는 Azure Storage Explorer를 사용하여 파일 시스템을 만드는 간단한 방법을 보여 줍니다.
-
-이 단계를 수행하려면 Azure Storage Explorer 버전 1.6.2 이상을 설치해야 합니다. Windows, Macintosh 또는 Linux용 Azure Storage Explorer를 설치하려면 [Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/)를 참조하세요.
-
-1. Azure Storage Explorer를 성공적으로 설치하면 처음 시작할 때 [Microsoft Azure Storage Explorer - 연결] 창이 표시됩니다. Storage Explorer는 스토리지 계정에 연결하는 여러 가지 방법을 제공하지만 현재 필요한 설정에 지원되는 방법은 한 가지뿐입니다. 
-
-2. 왼쪽 창에서 사용자가 위에서 만든 스토리지 계정을 찾고 확장합니다.
-
-3. Blob 컨테이너를 마우스 오른쪽 단추로 클릭하고 상황에 맞는 메뉴에서 [Blob 컨테이너 만들기]를 선택합니다.
-
-   ![BLOB 컨테이너를 마우스 오른쪽 단추로 클릭](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05a.jpg)
-
-4. 텍스트 상자가 Blob 컨테이너 폴더 아래에 나타납니다. 이름을 *powerbi*로 입력합니다. 
-
-   ![이름을 “powerbi”로 입력](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05b.jpg)
-
-5. 작업이 완료되면 Enter 키를 눌러 Blob 컨테이너 만들기
-
-   ![Enter 키를 눌러 BLOB 컨테이너 만들기](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05c.jpg)
-
-다음 섹션에서는 사용자가 만든 파일 시스템의 전체 권한을 Power BI 서비스 제품군에 부여합니다. 
-
-### <a name="grant-power-bi-permissions-to-the-file-system"></a>파일 시스템에 Power BI 권한 부여
-
-파일 시스템에 권한을 부여하려면 Power BI 서비스 액세스 권한을 부여하는 ACL(액세스 제어 목록) 설정을 적용합니다. 이를 수행하는 첫 번째 단계는 테넌트에서 Power BI 서비스 ID를 얻는 것입니다. Azure Portal의 **엔터프라이즈 앱** 섹션에서 AAD(Azure Active Directory) 애플리케이션을 볼 수 있습니다.
-
-테넌트 애플리케이션을 찾으려면 다음 단계를 수행합니다.
-
-1. [Azure Portal](https://portal.azure.com/)의 탐색 패널에서 **Azure Active Directory**를 선택합니다.
-2. Azure **Active Directory** 블레이드에서 **엔터프라이즈 애플리케이션**을 선택합니다.
-3. **애플리케이션 유형** 드롭다운 메뉴에서 **모든 애플리케이션** 을 선택한 후 **적용을**선택합니다. 테넌트 애플리케이션의 샘플이 다음 이미지와 비슷하게 표시됩니다.
-
-    ![AAD 엔터프라이즈 애플리케이션](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_06.jpg)
-
-4. 검색 창에 *Power*를 입력하면 Power BI 및 파워 쿼리 애플리케이션의 개체 ID 컬렉션이 나타납니다. 이후 단계에서는 세 가지 값 모두가 필요합니다.  
-
-    ![Power 애플리케이션 검색](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07.jpg)
-
-5. 검색 결과에서 Power BI Premium 서비스 및 파워 쿼리 온라인의 개체 ID를 모두 선택하고 복사합니다. 이후 단계에서 해당 값을 붙여넣도록 준비합니다.
-
-6. 그런 다음, **Azure Storage Explorer**를 사용하여 이전 섹션에서 만든 *powerbi* 파일 시스템으로 이동합니다. [Set file and directory level permissions using Azure Storage explorer](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer)(Azure Storage 탐색기를 사용하여 파일 및 디렉터리 수준 권한 설정)의 [Managing access](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access)(액세스 관리) 섹션에 있는 지침을 따릅니다.
-
-7. 5단계에서 수집한 두 개의 Power BI Premium 개체 ID 각각에 대해 **읽기**, **쓰기**, **실행** 액세스 및 기본값 ACL을 *powerbi* 파일 시스템에 할당합니다.
-
-   ![두 개체 ID에 대해 세 개 모두 할당](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07a.jpg)
-
-8. 4단계에서 수집한 파워 쿼리 온라인 개체 ID에 대해 **쓰기**, **실행** 액세스 및 기본값 ACL을 *powerbi* 파일 시스템에 할당합니다.
-
-   ![다음, 쓰기 및 실행 할당](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07b.jpg)
-
-9. 또한 **기타**에 대해 **실행** 액세스 및 기본값 ACL을 할당합니다.
-
-    ![마지막, 기타에 대해 실행 할당](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07c.jpg)
 
 ## <a name="connect-your-azure-data-lake-storage-gen2-to-power-bi"></a>Power BI에 Azure Data Lake Storage Gen2 연결
 

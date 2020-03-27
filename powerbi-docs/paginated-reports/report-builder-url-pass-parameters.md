@@ -9,12 +9,12 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 08/29/2019
-ms.openlocfilehash: b8301ca17559b81d4db132fbeaa0955ce68a4c6e
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 7a5ec7ef1f66a4a5b6ec80c80e9fd37e19bb2813
+ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78922531"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80113557"
 ---
 # <a name="pass-a-report-parameter-in-a-url-for-a-paginated-report-in-power-bi"></a>Power BI에서 페이지를 매긴 보고서에 대한 URL에 보고서 매개 변수 전달 
 
@@ -64,8 +64,8 @@ rp:SalesOrderNumber:isnull=true
 
 > [!NOTE]
 > 보고서에 기본값이 있는 보고서 매개 변수가 포함되어 있고 **Prompt** 속성이 **false**(즉 보고서 관리자에서 **Prompt User** 속성을 선택하지 않음)이면 URL 내에서 해당 보고서 매개 변수에 대한 값을 전달할 수 없습니다. 이를 통해 관리자는 최종 사용자가 특정 보고서 매개 변수의 값을 추가하거나 수정하지 못하게 할 수 있습니다.
-
-> Power BI는 900자를 초과하는 쿼리 문자열을 지원하지 않습니다.  URL 매개 변수를 사용하여 페이지가 매겨진 보고서를 보는 경우 이 값을 초과할 수 있습니다.  다중 값 매개 변수를 사용하는 경우 특히 그렇습니다.
+> 
+> Power BI는 2,000자를 초과하는 쿼리 문자열을 지원하지 않습니다.  URL 매개 변수를 사용하여 페이지가 매겨진 보고서를 보는 경우 이 값을 초과할 수 있습니다.  다중 값 매개 변수를 사용하는 경우 특히 그렇습니다.
 
 ## <a name="additional-examples"></a>추가 예제 
 

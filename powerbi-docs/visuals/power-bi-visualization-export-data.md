@@ -38,7 +38,7 @@ Will이 보고서의 시각화 중 하나에서 데이터를 내보내고 *.xlsx
 
 ## <a name="export-data-from-a-power-bi-dashboard"></a>Power BI 대시보드에서 데이터 내보내기
 
-1. 시각화의 오른쪽 위 모서리에서 추가 작업(...)을 선택합니다.
+1. 시각화의 오른쪽 위 모서리에서 추가 옵션(...)을 선택합니다.
 
     ![줄임표 단추를 가리키는 화살표가 있는 시각화의 스크린샷](media/power-bi-visualization-export-data/pbi-export-tile3.png)
 
