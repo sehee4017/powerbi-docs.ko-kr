@@ -102,12 +102,12 @@
               href: end-user-favorite.md
             - name: '대시보드 인쇄, 대시보드 타일 인쇄, 보고서 페이지 인쇄'
               href: end-user-print.md
+            - name: 공유한 콘텐츠 보기
+              href: end-user-shared-with-me.md
             - name: 관련 콘텐츠 보기
               href: end-user-related.md
             - name: 최근 콘텐츠 보기
               href: end-user-recent.md
-            - name: 공유한 항목 컨테이너에 있는 콘텐츠 보기
-              href: end-user-shared-with-me.md
             - name: 보고서 또는 대시보드 구독
               href: end-user-subscribe.md
             - name: Power BI에서 콘텐츠 검색 및 정렬

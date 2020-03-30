@@ -100,7 +100,7 @@
               href: ../service-encryption-byok.md
             - name: 프리미엄 용량 다시 시작
               href: ../service-admin-premium-restart.md
-            - name: 클라이언트 애플리케이션 및 도구를 사용하여 데이터 세트에 연결
+            - name: XMLA 엔드포인트로 데이터 세트 연결(미리 보기)
               href: ../service-premium-connect-tools.md
     - name: 참조
       items:
