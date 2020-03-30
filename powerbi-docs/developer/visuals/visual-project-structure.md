@@ -48,7 +48,7 @@ project
 
 ## <a name="folder-and-file-description"></a>폴더 및 파일 설명
 
-이 섹션에서는 디렉터리에서 Power BI 시각적 개체 **pbiciz** 도구가 만드는 각 폴더와 파일에 대한 정보를 제공합니다.  
+이 섹션에서는 디렉터리에서 Power BI 시각적 개체 **pbiviz** 도구가 만드는 각 폴더와 파일에 대한 정보를 제공합니다.  
 
 ### <a name="vscode"></a>.vscode
 

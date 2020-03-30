@@ -47,7 +47,7 @@ ms.locfileid: "77026741"
 
     ![대화 상자에서 데이터 가져오기](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web2.png)
 
-   Wikipedia 웹 페이지에 연결한 후 **탐색기** 대화 상자에는 페이지에서 사용 가능한 테이블 목록이 표시됩니다. 테이블 이름을 선택하여 데이터를 미리 볼 수 있습니다. 정확히 원하는 셰이프는 아니지만 원하는 데이터가 **Results[edit]** 테이블에 있습니다. 보고서에 로드하기 전에 데이터를 다시 셰이핑하고 정리합니다.
+   Wikipedia 웹 페이지에 연결한 후 **탐색기** 대화 상자에는 페이지에서 사용 가능한 테이블 목록이 표시됩니다. 테이블 이름을 선택하여 데이터를 미리 볼 수 있습니다. 정확히 원하는 셰이프는 아니지만 원하는 데이터가 **Results[편집]** 테이블에 있습니다. 보고서에 로드하기 전에 데이터를 다시 셰이핑하고 정리합니다.
 
    ![탐색기 대화 상자](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/tutorialimanaly_navigator.png)
 
