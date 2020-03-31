@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 50c8416573b995c34d62129d11926e70d9d4242d
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 88c32a3d32a8d6c6653fa9badcf728bad0ee2c54
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381402"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404573"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI 보안 백서
 
@@ -135,7 +135,7 @@ Power BI 서비스에 대한 사용자 인증은 사용자의 브라우저와 Po
 
 Power BI 서비스에 대한 사용자 인증 순서는 다음 단계에서 설명한 대로 수행되며, 다음 이미지에 나와 있습니다.
 
-1. 사용자가 주소 표시줄에서 Power BI 주소(예: https://app.powerbi.com)를 입력하거나 Power BI 방문 페이지(_에서_ 로그인 https://powerbi.microsoft.com)을 선택하여 브라우저에서 Power BI 서비스에 대한 연결을 시작합니다. 연결은 TLS 1.2 및 HTTPS를 사용하여 설정되며, 이후 브라우저와 Power BI 서비스 간의 모든 통신에서 HTTPS를 사용합니다. 요청은 **Azure Traffic Manager**로 보내집니다.
+1. 사용자는 주소 표시줄에 Power BI 주소를 입력 하거나 (예: `https://app.powerbi.com`) Power BI 방문 페이지 (https://powerbi.microsoft.com))에서 _로그인_ 을 선택 하 여 브라우저에서 Power BI 서비스에 대 한 연결을 시작 합니다. 연결은 TLS 1.2 및 HTTPS를 사용하여 설정되며, 이후 브라우저와 Power BI 서비스 간의 모든 통신에서 HTTPS를 사용합니다. 요청은 **Azure Traffic Manager**로 보내집니다.
 
 2. **Azure Traffic Manager**는 사용자의 DNS 레코드를 확인하여 Power BI가 배포되는 가장 가까운 데이터 센터를 확인하고 사용자를 보내야 하는 WFE 클러스터의 IP 주소를 사용하여 DNS에 응답합니다.
 
