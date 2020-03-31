@@ -89,7 +89,7 @@ ms.locfileid: "78260456"
 
 그러나 **Customer Balance** 시각적 개체에는 결과가 올바르게 표시되지 않습니다. **Customer Balance** 시각적 개체에서 각 고객의 잔액이 총 잔액과 같습니다. 이 결과는 각 고객이 모든 계정의 공동 계정 소유자인 경우에만 올바른 결과일 수 있습니다. 이 예제는 해당 경우가 아닙니다. 문제는 필터 전달과 관련이 있습니다. 필터가 **Transaction** 테이블까지 전달되지 않습니다.
 
-**Customer** 테이블에서 **Transaction** 테이블로 관계 필터 방향을 따릅니다. **Account** 및 **AccountCustomer** 테이블 간의 관계가 잘못된 방향으로 전달되고 있는 것이 분명합니다. 이 관계의 필터 방향을 **둘 다**로 설정해야 합니다.
+**Customer** 테이블에서 **Transaction** 테이블로 관계 필터 방향을 따릅니다. **Account** 및 **AccountCustomer** 테이블 간의 관계가 잘못된 방향으로 전달되고 있는 것이 분명합니다. 이 관계의 필터 방향을 **모두**로 설정해야 합니다.
 
 ![모델 다이어그램이 업데이트되었습니다. Account 및 AccountCustomer 테이블 간의 관계에 하나의 변경 내용이 적용되었습니다. 이제 양방향으로 모두 필터링됩니다.](media/relationships-many-to-many/bank-account-customer-model-related-tables-3.png)
 
