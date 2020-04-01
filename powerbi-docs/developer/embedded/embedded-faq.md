@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 6dd5b7838a1f59971e11a4674853abead7af0b90
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 0042c7db70cac103d04d1c48d06c12b71634b541
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79492793"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403662"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded에 대한 질문과 대답
 
@@ -22,15 +22,15 @@ ms.locfileid: "79492793"
 
 ## <a name="general"></a>일반
 
-### <a name="what-is-power-bi-embedded"></a>Power BI Embedded는 무엇인가요?
+### <a name="what-is-power-bi-embedded"></a>Power BI Embedded는 무엇입니까?
 
 [Microsoft PBIE(Power BI Embedded)](azure-pbie-what-is-power-bi-embedded.md)를 사용하면 애플리케이션 개발자가 데이터 시각화를 직접 만들고 컨트롤을 처음부터 새로 빌드하지 않고도 멋진 대화형 보고서를 애플리케이션에 포함할 수 있습니다.
 
-### <a name="who-is-the-target-audience-for-power-bi-embedded"></a>Power BI Embedded의 대상 그룹은 누구인가요?
+### <a name="who-is-the-target-audience-for-power-bi-embedded"></a>Power BI Embedded의 대상 그룹은 누구입니까?
 
 애플리케이션을 코딩하는, ISV(독립 소프트웨어 공급업체)라고도 하는 소프트웨어 회사 및 개발자입니다.
 
-### <a name="how-is-power-bi-embedded-different-from-power-bi-the-service"></a>Power BI Embedded는 Power BI 서비스와 어떤 차이가 있나요?
+### <a name="how-is-power-bi-embedded-different-from-power-bi-the-service"></a>Power BI Embedded는 Power BI 서비스와 어떤 차이가 있습니까?
 
 Power BI는 조직의 가장 중요한 비즈니스 데이터의 단일 보기를 제공하는 SaaS(Software as a Service) 분석 솔루션입니다.
 
@@ -49,7 +49,7 @@ Power BI Embedded는 애플리케이션에 시각적 개체를 포함하려는 I
 
 앱 포함 외에도, ISV(일반적으로 대규모)가 P SKU를 사용하여 조직 내에서 사전 패키지 Power BI 서비스의 추가 이점을 누리려는 경우가 있습니다. LOB(기간 업무) 애플리케이션을 빌드하고 분석 기능을 포함하는 데에만 관심이 있고 사전 패키지 Power BI 서비스에는 관심이 없는 일부 기업은 Azure에서 SKU를 사용할 수 있습니다.
 
-### <a name="how-many-embed-tokens-can-i-create"></a>얼마나 많은 포함 토큰을 만들 수 있나요?
+### <a name="how-many-embed-tokens-can-i-create"></a>얼마나 많은 포함 토큰을 만들 수 있습니까?
 
 PRO 라이선스가 있는 포함 토큰은 개발 테스트용이므로 Power BI 마스터 계정 또는 [서비스 주체](embed-service-principal.md)는 제한된 수의 토큰만 생성할 수 있습니다. 프로덕션 환경에 포함하려면 [용량을 구입](#technical)합니다. 용량 구입 시 생성할 수 있는 포함 토큰 수에는 제한이 없습니다. [사용 가능한 기능](https://docs.microsoft.com/rest/api/power-bi/availablefeatures)으로 이동하여 현재 포함된 사용 현황을 백분율로 표시하는 사용 값을 확인합니다.
 
@@ -96,7 +96,7 @@ PRO 라이선스가 있는 포함 토큰은 개발 테스트용이므로 Power B
 
 PBI 포털을 사용하여 PBI 테넌트 지역을 찾을 수 있습니다.
 
-[https://app.powerbi.com/](https://app.powerbi.com/ ) > ? > Power BI 정보
+[https://app.powerbi.com/](`https://app.powerbi.com/`) > ? > Power BI 정보
 
 ![Power BI 정보](media/embedded-faq/about-01.png)
 ![테넌트 지역](media/embedded-faq/tenant-location-01.png)
@@ -200,7 +200,7 @@ RLS의 경우 ISV 개발자는 모델 및 포함 토큰 생성의 일부로 데�
 
 **[애플리케이션 ID](embed-sample-for-customers.md#application-id)** 는 인증을 위해 애플리케이션 ID를 전달할 때 액세스 토큰을 만드는 데 사용됩니다.
 
-작업을 위해 서비스 주체를 참조하거나 변경하려면 **[서비스 주체 개체 ID](embed-service-principal.md#how-to-get-the-service-principal-object-id)** 를 사용합니다(예: 서비스 주체를 작업 영역에 관리자로 적용).
+작업을 위해 서비스 주체를 참조하거나 변경하려면 **[서비스 주체 개체 ID](embed-service-principal.md)** 를 사용합니다(예: 서비스 주체를 작업 영역에 관리자로 적용).
 
 ### <a name="can-you-manage-an-on-premises-data-gateway-with-service-principal"></a>서비스 주체로 온-프레미스 데이터 게이트웨이를 관리할 수 있나요?
 

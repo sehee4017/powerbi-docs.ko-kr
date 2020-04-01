@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: 2280c29869ad072136ffe1bf068a6e37119ac905
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: d9ebab8c52be8872865b0c308e8629c92603bbaa
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79495139"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403764"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers-preview"></a>자습서:  고객을 위해 애플리케이션에 페이지를 매긴 Power BI 보고서 포함(미리 보기)
 
@@ -70,7 +70,7 @@ Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.
 
 전용 용량을 만들면 해당 전용 용량에 앱 작업 영역을 할당할 수 있습니다.
 
-[서비스 주체](embed-service-principal.md)를 사용하여 작업 영역에 전용 용량을 할당하려면 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity)를 사용합니다. Power BI REST API를 사용할 때는 [서비스 주체 개체 ID](embed-service-principal.md#how-to-get-the-service-principal-object-id)를 사용해야 합니다.
+[서비스 주체](embed-service-principal.md)를 사용하여 작업 영역에 전용 용량을 할당하려면 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity)를 사용합니다. Power BI REST API를 사용할 때는 [서비스 주체 개체 ID](embed-service-principal.md)를 사용해야 합니다.
 
 ### <a name="create-and-upload-your-paginated-reports"></a>페이지를 매긴 보고서 만들기 및 업로드
 

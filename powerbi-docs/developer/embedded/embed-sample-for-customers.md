@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/12/2019
-ms.openlocfilehash: 37f8858d3581f58fc82fcbd1f3a1718ca56b6d72
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 4eca0a799440da57cdb37a603447ba2b0d0c99c8
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79494035"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403820"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>자습서:  고객의 애플리케이션에 Power BI 콘텐츠 포함
 
@@ -438,7 +438,7 @@ Pro 라이선스로 포함 토큰을 사용하는 것은 개발 테스트용이�
 
 포함된 콘텐츠(데이터 세트, 보고서, 대시보드 포함)와 관련된 Power BI 리소스를 포함하는 모든 작업 영역을 전용 용량에 할당해야 합니다. 예를 들어 포함된 보고서 및 보고서에 바인딩된 데이터 세트가 서로 다른 작업 영역에 있을 경우 두 작업 영역을 모두 전용 용량에 할당해야 합니다.
 
-[서비스 주체](embed-service-principal.md)를 사용하여 작업 영역에 전용 용량을 할당하려면 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity)를 사용합니다. Power BI REST API를 사용할 때는 [서비스 주체 개체 ID](embed-service-principal.md#how-to-get-the-service-principal-object-id)를 사용해야 합니다.
+[서비스 주체](embed-service-principal.md)를 사용하여 작업 영역에 전용 용량을 할당하려면 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity)를 사용합니다. Power BI REST API를 사용할 때는 [서비스 주체 개체 ID](embed-service-principal.md)를 사용해야 합니다.
 
 아래 단계에 따라 **마스터 계정**을 사용하여 작업 영역에 전용 용량을 할당합니다.
 

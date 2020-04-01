@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/27/2019
-ms.openlocfilehash: 29a6e9f67258d4babc58d8195dda59afe97554c6
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 7ab9ac60e416502f69401fcea87a697f53176448
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205231"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404776"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Power BI Premium의 페이지를 매긴 보고서란?
 
@@ -25,7 +25,7 @@ ms.locfileid: "79205231"
 
 ![페이지를 매긴](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
-보고서 작성기에서 보고서를 미리 본 후 Power BI 서비스, https://app.powerbi.com 에 게시할 수 있습니다. 서비스에 보고서를 게시하려면 Power BI Pro 라이선스가 필요합니다. 작업 영역이 Power BI Premium 용량에 포함된 경우 내 작업 영역 또는 작업 영역에서 페이지를 매긴 보고서를 게시하고 공유할 수 있습니다. 또한 Power BI 관리자는 Power BI 관리 포털의 [프리미엄 용량 섹션](../service-admin-premium-workloads.md#paginated-reports)에서 페이지를 매긴 보고서를 사용하도록 설정해야 합니다. 
+보고서 작성기에서 보고서를 미리 본 후 Power BI 서비스, `https://app.powerbi.com` 에 게시할 수 있습니다. 서비스에 보고서를 게시하려면 Power BI Pro 라이선스가 필요합니다. 작업 영역이 Power BI Premium 용량에 포함된 경우 내 작업 영역 또는 작업 영역에서 페이지를 매긴 보고서를 게시하고 공유할 수 있습니다. 또한 Power BI 관리자는 Power BI 관리 포털의 [프리미엄 용량 섹션](../service-admin-premium-workloads.md#paginated-reports)에서 페이지를 매긴 보고서를 사용하도록 설정해야 합니다. 
 
 ## <a name="create-reports-in-power-bi-report-builder"></a>Power BI 보고서 작성기에서 보고서 만들기
 
@@ -61,7 +61,7 @@ ms.locfileid: "79205231"
 
 ## <a name="creating-a-report-definition"></a>보고서 정의 만들기
 
-페이지를 매긴 보고서를 디자인할 때 실제로는 ‘보고서 정의’를 만듭니다.  보고서 정의는 데이터를 포함하지 않습니다. 데이터를 가져올 위치, 가져올 데이터 및 데이터 표시 방법을 지정합니다. 보고서를 실행할 때 보고서 처리기는 지정한 보고서 정의를 사용하고, 데이터를 검색하고, 보고서 레이아웃과 결합하여 보고서를 생성합니다. 보고서 정의를 Power BI 서비스, https://app.powerbi.com 의 내 작업 영역 또는 동료와 공유된 작업 영역에 업로드합니다. 보고서 데이터 원본이 온-프레미스인 경우 보고서를 업로드한 후 데이터 원본 연결을 리디렉션하여 게이트웨이를 통과합니다. 
+페이지를 매긴 보고서를 디자인할 때 실제로는 ‘보고서 정의’를 만듭니다.  보고서 정의는 데이터를 포함하지 않습니다. 데이터를 가져올 위치, 가져올 데이터 및 데이터 표시 방법을 지정합니다. 보고서를 실행할 때 보고서 처리기는 지정한 보고서 정의를 사용하고, 데이터를 검색하고, 보고서 레이아웃과 결합하여 보고서를 생성합니다. 보고서 정의를 Power BI 서비스, `https://app.powerbi.com` 의 내 작업 영역 또는 동료와 공유된 작업 영역에 업로드합니다. 보고서 데이터 원본이 온-프레미스인 경우 보고서를 업로드한 후 데이터 원본 연결을 리디렉션하여 게이트웨이를 통과합니다. 
 
 ## <a name="view-your-paginated-report"></a>페이지를 매긴 보고서 보기
 브라우저의 Power BI 서비스 및 Power BI 모바일 앱에서 페이지를 매긴 보고서를 볼 수 있습니다. Power BI 서비스에서 보고서를 HTML, MHTML, PDF, XML, CSV, TIFF, Word 및 Excel과 같은 여러 형식으로 내보낼 수 있습니다. 다른 사용자와 공유할 수도 있습니다.  

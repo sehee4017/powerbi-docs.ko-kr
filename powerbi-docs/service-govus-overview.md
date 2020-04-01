@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/13/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 349b4d51c1649b714c67e61ac42ddcc49b2eeb12
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: 14c01eb3041964a858b1aeeaeaa471f0d839898e
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114891"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404817"
 ---
 # <a name="power-bi-for-us-government-customers"></a>미국 정부 기관 고객용 Power BI
 이 문서는 Office 365 정부 플랜의 일부로 Power BI를 배포하는 정부 기관 고객을 위한 것입니다. 정부 플랜은 미국 규정 준수 및 보안 표준을 충족해야 하는 조직의 고유한 요구 사항을 위해 설계되었습니다. 미국 정부 기관 고객을 위해 고안된 Power BI 서비스는 상용 Power BI 서비스 버전과 다릅니다. 이러한 기능 차이는 다음 섹션에 설명되어 있습니다.
@@ -56,7 +56,7 @@ Power BI 구독은 Office 365를 배포한 후 추가할 수 있습니다. [미�
 
 | 상용 버전 URL | 미국 정부 버전 URL | GCC High를 위한 미국 정부 URL |
 | --- | --- | --- |
-| https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) | [https://app.high.powerbigov.us](https://app.high.powerbigov.us) |
+| `https://app.powerbi.com/` |[https://app.powerbigov.us](https://app.powerbigov.us) | [https://app.high.powerbigov.us](https://app.high.powerbigov.us) |
 
 계정이 둘 이상의 클라우드로 프로비전될 수 있습니다. 이 경우, Power BI Desktop을 사용할 때 로그인 시 연결할 클라우드를 선택할 수 있습니다.
 

@@ -16,12 +16,12 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: 779ca338a211e569c0dd7f529208cf7bfb1bcf7c
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: ade60bf8b786f70002f0af0672acf951348fee49
+ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79492333"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80487853"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Power BI를 사용한 임베디드 분석
 
@@ -34,7 +34,7 @@ Power BI 서비스(SaaS) 및 Azure의 Power BI Embedded(PaaS)에는 대시보드
 * [조직에 대한 콘텐츠를 포함하면](embedding.md#embedding-for-your-organization) Power BI 서비스를 확장할 수 있습니다. 이렇게 하려면 [조직에 대한 콘텐츠 포함](https://aka.ms/embedsetup/UserOwnsData) 솔루션을 구현합니다.
 * [고객에 대한 콘텐츠 포함](embedding.md#embedding-for-your-customers)을 통해 Power BI 계정이 없는 사용자에게 대시보드 및 보고서를 포함할 수 있습니다. 이렇게 하려면 [고객에 대한 콘텐츠 포함](https://aka.ms/embedsetup/AppOwnsData) 솔루션을 구현합니다.
 
-![PBIE 샘플](../media/what-can-you-do/what-can-you-do-02.png)
+![PBIE 샘플](media/embedding/what-can-you-do-02.png)
 
 ## <a name="use-apis"></a>API 사용
 

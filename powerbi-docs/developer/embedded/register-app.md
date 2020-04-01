@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/02/2019
-ms.openlocfilehash: 123dde6621cee901dc788476b3554fc9584ed0e5
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: e47cb22ba4c30c8090e2e9552e1994a5c545b47b
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114362"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404022"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Power BI와 함께 사용할 Azure AD 애플리케이션 등록
 
@@ -94,7 +94,7 @@ Power BI 앱 등록 도구를 사용하여 애플리케이션을 등록하는 �
 
 ## <a name="how-to-get-the-service-principal-object-id"></a>서비스 주체 개체 ID를 가져오는 방법
 
-[Power BI API](https://docs.microsoft.com/rest/api/power-bi/)를 사용하는 경우 서비스 주체를 참조하기 위해 [서비스 주체 개체 ID](embed-service-principal.md#how-to-get-the-service-principal-object-id)를 사용하여 작업을 정의해야 합니다(예: 서비스 주체를 작업 영역에 관리자로 적용).
+[Power BI API](https://docs.microsoft.com/rest/api/power-bi/)를 사용하는 경우 서비스 주체를 참조하기 위해 [서비스 주체 개체 ID](embed-service-principal.md)를 사용하여 작업을 정의해야 합니다(예: 서비스 주체를 작업 영역에 관리자로 적용).
 
 ## <a name="apply-permissions-to-your-application-within-azure-ad"></a>Azure AD 에서 애플리케이션에 권한 적용
 

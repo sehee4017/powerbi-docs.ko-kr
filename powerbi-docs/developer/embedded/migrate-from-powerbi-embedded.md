@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 20546e0c9251f39ca49f6d713d5db48401937505
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: a8ce4209610e229ae1da7773bd7cb10bd522f72c
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114408"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404042"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI 작업 영역 컬렉션 콘텐츠를 Power BI Embedded로 마이그레이션하는 방법
 
@@ -126,13 +126,13 @@ Power BI 내에서 작업 영역을 만들려면 Pro 라이선스가 있는 사�
 
 **흐름**
 
-1. GET https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources 를 호출하고 수신된 연결 문자열을 저장합니다.
+1. GET `https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources`를 호출하고 수신된 연결 문자열을 저장합니다.
 2. PaaS 작업 영역에서 PBIX API 다운로드를 호출합니다.
 3. PBIX를 저장합니다.
 4. SaaS 작업 영역에 PBIX 가져오기를 호출합니다.
-5. POST  https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections 를 호출하여 연결 문자열을 업데이트합니다.
-6. GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources 을 호출하여 GW 및 데이터 소스 식별자를 가져옵니다.
-7. PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id} 를 호출하여 사용자의 자격 증명을 업데이트합니다.
+5. POST  `https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections`를 호출하여 연결 문자열을 업데이트합니다.
+6. GET `https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources`을 호출하여 GW 및 데이터 소스 식별자를 가져옵니다.
+7. PATCH `https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}`를 호출하여 사용자의 자격 증명을 업데이트합니다.
 
 #### <a name="old-dataset--reports"></a>이전 데이터 세트 및 보고서
 

@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: a013053e3a7948f340b8c27e154cc7578cdea672
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.openlocfilehash: 149b4f8663838c0a87609a1ec24358fb9ee9727e
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79079143"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403629"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>3단계: Power BI에서 데이터 세트 만들기
 이 문서는 [데이터 세트에 데이터를 푸시](walkthrough-push-data.md)하는 단계별 연습의 일부입니다.
 
 데이터 세트에 데이터 푸시의 **2단계**인 [인증 액세스 토큰 가져오기](walkthrough-push-data-get-token.md)에서 **Azure AD**에 인증한 토큰을 가져왔습니다. 이 단계에서는 이 토큰을 사용하여 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 작업을 호출합니다.
 
-REST 리소스를 호출하려면 리소스를 찾는 URL을 사용하여 데이터 세트를 설명하는 JSON(JavaScript Object Notation) 문자열을 Power BI 서비스 리소스에 보냅니다. REST 리소스는 작업할 Power BI 서비스 부분을 식별합니다. 데이터 세트에 데이터를 푸시하려면 대상 리소스는 **데이터 세트**입니다. 데이터 집합을 식별하는 URL은 https://api.PowerBI.com/v1.0/myorg/datasets 입니다. 그룹 내의 데이터를 푸시하는 경우 URL은 https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets 입니다.
+REST 리소스를 호출하려면 리소스를 찾는 URL을 사용하여 데이터 세트를 설명하는 JSON(JavaScript Object Notation) 문자열을 Power BI 서비스 리소스에 보냅니다. REST 리소스는 작업할 Power BI 서비스 부분을 식별합니다. 데이터 세트에 데이터를 푸시하려면 대상 리소스는 **데이터 세트**입니다. 데이터 집합을 식별하는 URL은 `https://api.PowerBI.com/v1.0/myorg/datasets`입니다. 그룹 내의 데이터를 푸시하는 경우 URL은 `https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets`입니다.
 
 Power BI REST 작업을 인증하려면 [인증 액세스 토큰 가져오기](walkthrough-push-data-get-token.md)에서 가져온 토큰을 요청 헤더에 추가합니다.
 
