@@ -18,10 +18,8 @@
     - name: 샘플
       expanded: true
       items:
-        - name: Power BI용 샘플 데이터 가져오기
+        - name: Power BI용 샘플 가져오기
           href: ../sample-datasets.md
-        - name: 샘플 팩 가져오기 및 열기
-          href: ../sample-tutorial-connect-to-the-samples.md
         - name: 고객 수익성 샘플
           href: ../sample-customer-profitability.md
         - name: IT 지출 분석 샘플
@@ -34,6 +32,8 @@
           href: ../sample-procurement.md
         - name: 소매점 분석 샘플
           href: ../sample-retail-analysis.md
+        - name: 소매점 분석 샘플 살펴보기
+          href: ../sample-tutorial-connect-to-the-samples.md
         - name: 영업 및 마케팅 샘플
           href: ../sample-sales-and-marketing.md
         - name: 공급업체 품질 분석 샘플

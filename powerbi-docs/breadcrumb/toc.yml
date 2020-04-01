@@ -19,6 +19,16 @@
             - name: 개발자
               tocHref: /power-bi/developer/
               topicHref: /power-bi/developer/index
+              items:
+                - name: 임베디드 분석
+                  tocHref: /power-bi/developer/embedded/
+                  topicHref: /power-bi/developer/embedded/
+                - name: Power BI 시각적 개체
+                  tocHref: /power-bi/developer/visuals/
+                  topicHref: /power-bi/developer/visuals/
+                - name: 자동화
+                  tocHref: /power-bi/developer/automation/
+                  topicHref: /power-bi/developer/automation/
             - name: 단계별 학습
               tocHref: /power-bi/guided-learning/
               topicHref: /power-bi/guided-learning/
