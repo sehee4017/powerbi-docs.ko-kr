@@ -55,7 +55,7 @@ Power BI Desktop을 처음 시작하면 **시작** 화면이 표시됩니다.
 
 ![Power BI Desktop 시작 화면](media/desktop-getting-started/designer_gsg_startsplashscreen.png)
 
-Power BI Desktop 왼쪽에는 세 가지 Power BI Desktop 뷰의 아이콘이 있습니다. **보고서**, **데이터** 및 **관계**. 현재 뷰는 왼쪽에 있는 노란색 막대로 표시되며, 아이콘 중 하나를 선택하여 뷰를 변경할 수 있습니다. 
+Power BI Desktop 왼쪽에는 세 가지 Power BI Desktop 보기의 아이콘이 있습니다. **보고서**, **데이터** 및 **관계**. 현재 보기는 왼쪽에 있는 노란색 막대로 표시되며, 아이콘 중 하나를 선택하여 보기를 변경할 수 있습니다. 
 
 ![Power BI Desktop 뷰 아이콘 3개](media/desktop-getting-started/designer_gsg_viewtypes.png)
 
@@ -216,7 +216,7 @@ Power BI Desktop의 쿼리 기능이 실행되고 웹 리소스에 연결합니�
 테이블이 Power BI Desktop에 로드된 후에 테이블을 더 변경하고 모델을 다시 로드하여 변경 내용을 적용할 수 있습니다. Power BI Desktop에서 **Power Query 편집기**를 다시 열려면 Power BI Desktop 리본의 **홈** 탭에서 **쿼리 편집**을 선택합니다. 
 
 ## <a name="build-reports"></a>보고서 작성
-Power BI Desktop **보고서** 뷰에서 시각화와 보고서를 작성할 수 있습니다. **보고서** 뷰에는 다음 6개의 기본 영역이 있습니다.
+Power BI Desktop **보고서** 보기에서 시각화와 보고서를 작성할 수 있습니다. **보고서** 보기에는 다음 6개의 기본 영역이 있습니다.
 
 ![Power BI Desktop 보고서 뷰](media/desktop-getting-started/designer_gsg_reportview.png)
 
@@ -337,7 +337,7 @@ Power BI에 로그인하거나 대상을 선택하라는 메시지가 표시될 
 Power BI Desktop 및 Power BI 서비스를 사용하여 여러 매력적인 데이터 관련 매시업 및 시각화를 수행할 수 있습니다. 
 
 ## <a name="next-steps"></a>다음 단계
-Power BI Desktop은 진단 포트에 연결하는 기능을 지원합니다. 다른 도구가 진단 포트에 연결하여 진단을 위해 추적 작업을 수행할 수 있습니다. 진단 포트를 사용할 때는 모델을 변경할 수 없습니다. 모델을 변경하면 손상 및 데이터 손실로 이어질 수 있습니다.
+Power BI Desktop은 진단 포트에 연결하는 기능을 지원합니다. 다른 도구가 진단 포트에 연결하여 진단을 위해 추적 작업을 수행할 수 있습니다. 진단 포트를 사용할 때는 모델을 변경할 수 없습니다.  모델을 변경하면 손상 및 데이터 손실로 이어질 수 있습니다.
 
 Power BI Desktop의 다양한 기능에 대한 자세한 내용은 다음 리소스를 확인하세요.
 

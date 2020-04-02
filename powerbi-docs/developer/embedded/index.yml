@@ -1,0 +1,83 @@
+### YamlMime:Landing
+title: Power BI 임베디드 분석 설명서
+summary: 두 가지 임베디드 분석 솔루션인 Power BI Embedded와 Power BI Premium을 사용하여 포함하는 방법에 대해 알아봅니다.
+metadata:
+  title: Power BI 임베디드 분석 설명서
+  description: 두 가지 임베디드 분석 솔루션인 Power BI Embedded와 Power BI Premium을 사용하여 포함하는 방법에 대해 알아봅니다.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-developer
+  ms.topic: landing-page
+  ms.collection: collection
+  author: KesemSharabi
+  ms.author: kesharab
+  ms.date: 31/03/2020
+  ms.openlocfilehash: 3f7bf1ebb51e7f9e5916e16280a2e10d7339df73
+  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.translationtype: HT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 04/01/2020
+  ms.locfileid: "80516264"
+landingContent:
+- title: 시작
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Power BI를 사용한 포함이란?
+      url: embedding.md
+    - text: Azure의 Power BI Embedded란?
+      url: azure-pbie-what-is-power-bi-embedded.md
+    - text: 질문과 대답
+      url: embedded-faq.md
+- title: 보고서 또는 대시보드 포함
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: '자습서:  고객의 애플리케이션에 Power BI 콘텐츠 포함'
+      url: embed-sample-for-customers.md
+    - text: '자습서:  조직의 애플리케이션에 Power BI 콘텐츠 포함'
+      url: embed-sample-for-your-organization.md
+    - text: '자습서:  고객을 위해 애플리케이션에 페이지를 매긴 Power BI 보고서 포함'
+      url: embed-paginated-reports-customers.md
+    - text: '자습서:  내셔널 클라우드용 애플리케이션에 Power BI 콘텐츠 포함'
+      url: embed-sample-for-customers-national-clouds.md
+  - linkListType: reference
+    links:
+    - text: 포함 설정 도구
+      url: https://app.powerbi.com/embedsetup
+    - text: 개발자 샘플 및 스크립트
+      url: https://github.com/Microsoft/PowerBI-Developer-Samples
+- title: 프로덕션 계획
+  linkLists:
+  - linkListType: architecture
+    links:
+    - text: 용량 및 SKU
+      url: embedded-capacity.md
+    - text: 용량 계획
+      url: embedded-capacity-planning.md
+  - linkListType: concept
+    links:
+    - text: 성능 모범 사례
+      url: embedded-performance-best-practices.md
+    - text: Power BI 사용 권한
+      url: power-bi-permissions.md
+    - text: 질문 및 답변
+      url: qanda.md
+    - text: 포함된 애플리케이션 문제 해결
+      url: embedded-troubleshoot.md
+- title: 참조 및 리소스
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Power BI REST API
+      url: https://docs.microsoft.com/rest/api/power-bi/
+    - text: Power BI REST API 참조
+      url: https://docs.microsoft.com/power-bi/developer/automation/rest-api-reference
+    - text: 개발자 센터
+      url: https://powerbi.microsoft.com/developers/
+    - text: Power BI 라이브러리
+      url: https://www.nuget.org/profiles/powerbi
+    - text: 플레이그라운드
+      url: https://microsoft.github.io/PowerBI-JavaScript/demo/v2-demo/index.html
+    - text: JavaScript Wiki
+      url: https://github.com/Microsoft/powerbi-javascript/wiki

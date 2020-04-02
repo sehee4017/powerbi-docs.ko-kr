@@ -11,13 +11,13 @@ metadata:
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 02/25/2020
-  ms.openlocfilehash: 302fc836908754d2410d21fea48d99996ae5cd8a
-  ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+  ms.date: 03/30/2020
+  ms.openlocfilehash: 7c31ca6f71f4dad0d7ee6f94908cc89a17cd9799
+  ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 03/10/2020
-  ms.locfileid: "79041404"
+  ms.lasthandoff: 03/31/2020
+  ms.locfileid: "80464682"
 landingContent:
 - title: 시작
   linkLists:
@@ -33,10 +33,10 @@ landingContent:
     links:
     - text: 샘플 팩 가져오기 및 열기
       url: ../sample-tutorial-connect-to-the-samples.md
-  - linkListType: concept
+  - linkListType: sample
     links:
-    - text: 보고서 보기
-      url: ../desktop-report-view.md
+    - text: '코로나바이러스감염증-19 샘플: 미국 데이터'
+      url: sample-covid-19-us.md
 - title: 시각화
   linkLists:
   - linkListType: overview

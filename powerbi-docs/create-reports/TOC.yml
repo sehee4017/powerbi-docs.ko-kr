@@ -20,6 +20,8 @@
       items:
         - name: Power BI용 샘플 가져오기
           href: ../sample-datasets.md
+        - name: 코로나바이러스감염증-19 미국 샘플
+          href: sample-covid-19-us.md
         - name: 고객 수익성 샘플
           href: ../sample-customer-profitability.md
         - name: IT 지출 분석 샘플
