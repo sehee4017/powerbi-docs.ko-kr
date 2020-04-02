@@ -85,7 +85,7 @@ Power Query 편집기에서 여러 행의 값을 단일 값으로 그룹화할 �
 
 이 예에서는 교육 등록 데이터 집합의 행을 그룹화합니다. 이 데이터는 Excel 통합 문서의 데이터입니다. 필요한 열만 가져오고, 테이블 이름을 바꾸고, 몇 가지 다른 변환을 수행하기 위해 Power Query 편집기에서 데이터가 셰이핑되었습니다.
 
-각 주에 있는 기관 수를 확인해 보겠습니다. (기관에는 학군, 지역 서비스 기관과 같은 기타 교육 기관 등이 포함될 수 있습니다.) **Agency ID - NCES Assigned \[District\] Latest available year** 열을 선택한 다음 리본 메뉴의 **변환** 탭 또는 **홈** 탭에서 **그룹화 방법** 단추를 선택합니다. (**그룹화 방법**은 두 탭 모두에서 사용할 수 있습니다.)
+각 주에 있는 기관 수를 확인해 보겠습니다. (기관에는 학군, 지역 서비스 기관과 같은 기타 교육 기관 등이 포함될 수 있습니다.) **Agency ID - NCES Assigned \[District\] Latest available year** 열을 선택한 다음 리본 메뉴의 **변환** 탭 또는 **홈** 탭에서 **그룹화** 단추를 선택합니다. (**그룹화**은 두 탭 모두에서 사용할 수 있습니다.)
 
 ![그룹화 방법 대화 상자, Power Query 편집기, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_groupby.png)
 
