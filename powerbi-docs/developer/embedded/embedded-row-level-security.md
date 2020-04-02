@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 66a1253233ab623ff2332a7b112575a7509c0e3c
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: 19abcd84809f0bf8d3560fd8734d30fcf31b9ecb
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80403704"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80550960"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded를 사용하는 행 수준 보안
 
@@ -88,7 +88,7 @@ API는 관련 데이터 세트가 표시된 ID 목록을 수락합니다. RLS를
 
 **PowerBIClient.Reports**에서 **GenerateTokenInGroup** 메서드를 사용하여 포함된 토큰을 만들 수 있습니다.
 
-예를 들어 [PowerBIEmbedded_AppOwnsData](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data) 샘플을 변경할 수 있습니다. *Services\EmbedService.cs 줄 76 및 77*은 다음에서 업데이트할 수 있습니다.
+예를 들어 [PowerBIEmbedded_AppOwnsData](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData) 샘플을 변경할 수 있습니다. *Services\EmbedService.cs 줄 76 및 77*은 다음에서 업데이트할 수 있습니다.
 
 ```csharp
 // Generate Embed Token.

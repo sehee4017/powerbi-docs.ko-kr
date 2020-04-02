@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: overview
 ms.date: 01/03/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 26b2cbfc8e57009b836b5ca650e16977de425f3a
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 22c367dbc6160928541570bf2de37c51edcbfc14
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79383485"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80550875"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI의 시각적 개체
 
@@ -41,7 +41,7 @@ Microsoft 및 커뮤니티 멤버는 공익을 위해 Power BI 시각적 개체 
 
 ### <a name="what-is-appsource"></a>AppSource란?
 
-[AppSource](office-store.md)에는 Microsoft 소프트웨어에 대한 앱, 추가 기능 및 확장이 있습니다. AppSource는 Office 365, Azure, Dynamics 365, Cortana 및 Power BI와 같은 제품을 사용하고 있는 수백만 명의 사용자가 이전보다 더 효율적이며 통찰력 있게 작업을 수행할 수 있도록 도와주는 솔루션을 사용자와 연결합니다.
+[AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)에는 Microsoft 소프트웨어에 대한 앱, 추가 기능 및 확장이 있습니다. AppSource는 Office 365, Azure, Dynamics 365, Cortana 및 Power BI와 같은 제품을 사용하고 있는 수백만 명의 사용자가 이전보다 더 효율적이며 통찰력 있게 작업을 수행할 수 있도록 도와주는 솔루션을 사용자와 연결합니다.
 
 ### <a name="certified-power-bi-visuals"></a>인증된 Power BI 시각적 개체
 
