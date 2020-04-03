@@ -317,8 +317,6 @@
               href: ../desktop-accessibility-keyboard-shortcuts.md
         - name: 페이지를 매긴 보고서
           items:
-            - name: '실습 랩: 페이지가 매겨진 보고서 만들기'
-              href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
             - name: 페이지를 매긴 보고서에 직접 데이터 입력
               href: ../paginated-reports/paginated-reports-enter-data.md
             - name: 포함된 데이터 원본 만들기
