@@ -141,7 +141,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Azure Cost Management
 * Azure Time Series Insights(베타)
 
-다음 그림은 **Azure** 에 대한 **데이터 가져오기** 창을 보여 줍니다.
+다음 그림은 **Azure**에 대한 **데이터 가져오기** 창을 보여 줍니다.
 
 ![Azure 데이터 원본, 데이터 가져오기 대화 상자, Power BI Desktop](media/desktop-data-sources/data-sources-06.png)
 

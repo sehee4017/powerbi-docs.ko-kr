@@ -20,7 +20,7 @@ ms.locfileid: "79488824"
 
 Power BI 보고서의 새 **포함** 옵션을 사용하여 내부 웹 포털에 보고서를 쉽고 안전하게 포함할 수 있습니다. 이러한 포털은 **클라우드 기반**이거나 **온-프레미스에 호스트**될 수 있습니다(예: SharePoint 2019). 포함된 보고서는 [RLS(행 수준 보안)](service-admin-rls.md)를 통해 모든 항목 사용 권한 및 데이터 보안을 준수합니다. 이 기능은 URL 또는 iFrame을 허용하는 모든 포털에 대한 코드 없는 포함을 지원합니다. 
 
-**포함** 옵션은 또한 [URL 필터](service-url-filters.md) 및 URL 설정을 지원합니다. 또한 기본 HTML 및 JavaScript 지식을 필요로 하는 로우 코드 접근 방식을 사용하는 포털과의 통합할 수 있습니다.
+**포함** 옵션은 또한 [URL 필터](service-url-filters.md) 및 URL 설정을 지원합니다. 또한 기본 HTML 및 JavaScript 지식만 있으면 로우 코드 접근 방식을 사용하는 포털과 통합할 수 있습니다.
 
 ## <a name="how-to-embed-power-bi-reports-into-portals"></a>Power BI 보고서를 포털에 **포함**하는 방법
 
