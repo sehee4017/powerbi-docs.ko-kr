@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 156b00c7f7287f12397afea422a38f3870d6c399
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 51c9b8a570abf2686abe9b26a4d9e111e8ef022a
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858424"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404651"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Power BI용 공급업체 품질 분석 샘플: 둘러보기
 
@@ -62,7 +62,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>이 샘플의 Excel 통합 문서 다운로드
 
-이 샘플의 데이터 원본을 보려면 [Excel 통합 문서](https://go.microsoft.com/fwlink/?LinkId=529779)로도 제공됩니다. 통합 문서에는 보고 수정할 수 있는 파워 뷰 시트가 포함됩니다. 원시 데이터를 보려면 데이터 분석 추가 기능을 사용하도록 설정한 다음, **파워 피벗 > 관리**를 선택합니다. 파워 뷰와 파워 피벗 추가 기능을 사용하도록 설정하려면 [내부 Excel 자체에서 Excel 샘플 살펴보기](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)에서 자세한 내용을 참조하세요.
+이 샘플의 데이터 원본을 보려면 [Excel 통합 문서](https://go.microsoft.com/fwlink/?LinkId=529779)로도 제공됩니다. 통합 문서에는 보고 수정할 수 있는 파워 뷰 시트가 포함됩니다. 원시 데이터를 보려면 데이터 분석 추가 기능을 사용하도록 설정한 다음, **파워 피벗 > 관리**를 선택합니다. 파워 뷰 및 파워 피벗 추가 기능을 사용하도록 설정하려면 자세한 내용은 [Excel에서 Excel 샘플 탐색](sample-datasets.md#explore-excel-samples-inside-excel)을 참조하세요.
 
 ## <a name="downtime-caused-by-defective-materials"></a>결함이 있는 자재로 인한 가동 중지 시간
 결함이 있는 자재로 인해 발생한 가동 중지 시간을 분석하고 책임 공급업체가 어느 곳인지 확인하겠습니다.  
@@ -163,7 +163,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 
    ![질문 및 답변 질문: 꺾은선형 차트로 표시한 월별, 연도별 총 가동 중지 시간(분)](media/sample-supplier-quality/supplier15.png)
 
-   6월과 10월에 가동 중지 시간(분)이 증가한 것 이외에, 결함 수로 인해 가동 중지 시간이 급증한 것은 아닙니다. 이 결과는 결함을 잘 관리하고 있음을 보여 줍니다.  
+   6월 및 10월에 가동 중지 시간(분)이 증가한 것 이외에, 결함 수로 인해 가동 중지 시간이 급증한 것은 아닙니다. 이 결과는 결함을 잘 관리하고 있음을 보여 줍니다.  
 3. 이 차트를 대시보드에 고정하려면 질문 상자 위에 있는 고정 아이콘 ![고정 아이콘](media/sample-supplier-quality/pin.png) 을 선택합니다.  
 4. 이상 월에 대해 알아보기 위해 ‘total downtime minutes in October by plant’ 등의 질문을 입력하여 10월 중 자재 유형, 공장 위치, 범주 등을 기준으로 가동 중지 시간(분)을 확인합니다.  
 5. 왼쪽 위에 있는 **질문 및 답변 종료**를 선택하여 대시보드로 돌아갑니다.

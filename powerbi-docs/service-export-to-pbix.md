@@ -6,20 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 04/01/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: de7a01f70d179237c45205447f564b3833db2156
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 15a4d88ac9de5d50caeb975afa8ad1758246031f
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881812"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80551078"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Power BI 서비스에서 Power BI Desktop으로 보고서 다운로드(미리 보기)
 Power BI Desktop에서 로컬 컴퓨터의 보고서( *.pbix* 파일)를 Power BI 서비스에 게시할 수 있습니다. Power BI 보고서는 다른 방향으로도 이동할 수 있습니다. Power BI 서비스에서 Power BI Desktop으로 보고서를 다운로드할 수 있습니다. 두 경우 모두, Power BI 보고서의 확장명은 .pbix입니다.
 
-이 문서의 뒷부분에서 유의해야 할 몇 가지 제한 사항과 고려 사항을 설명합니다.
+이 문서의 [고려 사항 및 문제 해결](#considerations-and-troubleshooting) 섹션에서는 유의해야 할 몇 가지 제한 사항을 설명합니다.
 
 ![파일 드롭다운](media/service-export-to-pbix/power-bi-file-export.png)
 
@@ -55,6 +55,7 @@ Power BI 서비스에서 .pbix 파일을 다운로드하는 경우와 관련된 
 * 다운로드한 파일을 열 때는 항상 최신 버전의 Power BI Desktop을 사용합니다. 이전 버전의 Power BI Desktop에서는 다운로드한 .pbix 파일이 열리지 않을 수도 있습니다.
 * 관리자가 데이터 다운로드 기능을 끈 경우에는 Power BI 서비스에 이 기능이 표시되지 않습니다.
 * 증분 새로 고침을 사용하는 데이터 세트는 .pbix 파일로 다운로드할 수 없습니다.
+* 하나의 작업 영역에 있는 데이터 세트를 기반으로 Power BI 보고서를 만들고 다른 작업 영역에 게시하는 경우 관리자와 사용자가 해당 보고서를 다운로드할 수 없습니다. 이 시나리오에서는 현재 다운로드 기능이 지원되지 않습니다.
 
 ## <a name="next-steps"></a>다음 단계
 이 기능에 대한 1분 비디오 **큐브에서 Guy**를 참조하세요.

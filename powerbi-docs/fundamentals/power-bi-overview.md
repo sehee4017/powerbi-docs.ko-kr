@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 5ad960560ba6c99228ba63ee0041789b9ec6ff7d
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: c3218e20274c0607c2bbec86e961685ccd276659
+ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79114979"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80487762"
 ---
 # <a name="what-is-power-bi"></a>Power BI란?
 **Power BI**는 관련 없는 데이터 소스를 시각적으로 몰입도가 뛰어나고 일관된 대화형 정보로 변환하는 소프트웨어 서비스, 앱 및 커넥터의 컬렉션입니다. 데이터는 Excel 스프레드시트이거나 클라우드 기반 및 온-프레미스 하이브리드 데이터 웨어하우스의 컬렉션일 수 있습니다. Power BI를 사용하면 쉽게 데이터 원본에 연결하고, 중요한 항목을 시각화 및 검색하고, 원하는 모든 사람과 공유할 수 있습니다.
@@ -44,8 +44,12 @@ Power BI 사용 방법은 상황에 가장 적합한 Power BI 도구나 서비�
 역할과 관련된 문서를 살펴보세요.
 - [ *‘디자이너용’* ](../desktop-what-is-desktop.md) Power BI Desktop
 - [ *‘소비자용’* ](../consumer/end-user-consumer.md) Power BI
-- [ *‘개발자용’* ](../developer/what-can-you-do.md) Power BI
 - [ *‘관리자용’* ](../service-admin-administering-power-bi-in-your-organization.md) Power BI
+- *개발자*용 Power BI
+    * [Power BI를 사용한 임베디드 분석](../developer/embedded/embedding.md)
+    * [Azure의 Power BI Embedded란?](../developer/embedded/azure-pbie-what-is-power-bi-embedded.md)
+    * [Power BI의 시각적 개체](../developer/visuals/power-bi-custom-visuals.md)
+    * [개발자는 Power BI API로 무엇을 할 수 있나요?](../developer/automation/overview-of-power-bi-rest-api.md)
 
 ## <a name="the-flow-of-work-in-power-bi"></a>Power BI의 작업 흐름
 Power BI의 일반적인 작업 흐름은 먼저 데이터 원본에 연결하고 Power BI Desktop에서 보고서를 빌드합니다. 그런 다음, Power BI Desktop에서 이 보고서를 Power BI 서비스에 게시하고 공유하여 최종 사용자가 Power BI 서비스 및 모바일 디바이스에서 보고서를 보고 조작할 수 있도록 합니다.

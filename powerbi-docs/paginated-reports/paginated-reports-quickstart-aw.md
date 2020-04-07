@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: aa916afbf439beb7019bd6f0af30cc56ad903704
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 17742c48d9ac5cb49b6d04fe6fe4674e7f6c7ac9
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207232"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404877"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>자습서:  페이지를 매긴 보고서를 만들어 Power BI 서비스에 업로드
 
@@ -286,7 +286,7 @@ Power BI 서비스에 보고서를 게시하기 전에 한 가지 더 형식 지
 
 페이지를 매긴 보고서를 만들었으므로 이제 Power BI 서비스에 이 보고서를 업로드합니다.
 
-1. Power BI 서비스(https://app.powerbi.com) 의 탐색 창에서 **작업 영역** > **작업 영역 만들기**를 선택합니다.
+1. Power BI 서비스(`https://app.powerbi.com`)의 탐색 창에서 **작업 영역** > **작업 영역 만들기**를 선택합니다.
 
 2. 작업 영역 이름을 **Azure AW** 또는 다른 고유한 이름으로 지정합니다. 지금까지는 사용자가 유일한 구성원입니다. 
 

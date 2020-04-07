@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 42e3a95e344e17d1ceba11911fc8aa349ebafd0c
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: eac1c22ba23f7a1a67b2cc120fe38d4c396d864a
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207485"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404726"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Power BI의 소매점 분석 샘플: 둘러보기
 
-소매점 분석 샘플 콘텐츠는 여러 매장과 구역에서 판매된 항목의 소매점 판매 데이터를 분석하는 대시보드, 보고서 및 데이터 세트를 포함합니다. 메트릭은 신규 매장 분석과 함께 올해 성과를 작년의 판매액, 판매 대수, 메츨 총이익 및 차이 면에서 비교합니다. 
+소매점 분석 샘플 콘텐츠는 여러 매장과 구역에서 판매된 항목의 소매점 판매 데이터를 분석하는 대시보드, 보고서 및 데이터 세트를 포함합니다. 메트릭은 신규 매장 분석과 함께 올해 성과를 작년의 판매액, 판매 대수, 매출 총이익 및 차이 면에서 비교합니다. 
 
 ![소매점 분석 샘플 대시보드](media/sample-retail-analysis/retail1.png)
 
@@ -57,7 +57,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>이 샘플의 Excel 통합 문서 다운로드
 
-이 샘플의 데이터 원본을 보려면 [Excel 통합 문서](https://go.microsoft.com/fwlink/?LinkId=529778)로도 제공됩니다. 통합 문서에는 보고 수정할 수 있는 파워 뷰 시트가 포함됩니다. 원시 데이터를 보려면 데이터 분석 추가 기능을 사용하도록 설정한 다음, **파워 피벗 > 관리**를 선택합니다. 파워 뷰와 파워 피벗 추가 기능을 사용하도록 설정하려면 [내부 Excel 자체에서 Excel 샘플 살펴보기](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)에서 자세한 내용을 참조하세요.
+이 샘플의 데이터 원본을 보려면 [Excel 통합 문서](https://go.microsoft.com/fwlink/?LinkId=529778)로도 제공됩니다. 통합 문서에는 보고 수정할 수 있는 파워 뷰 시트가 포함됩니다. 원시 데이터를 보려면 데이터 분석 추가 기능을 사용하도록 설정한 다음, **파워 피벗 > 관리**를 선택합니다. 파워 뷰 및 파워 피벗 추가 기능을 사용하도록 설정하려면 자세한 내용은 [Excel에서 Excel 샘플 탐색](sample-datasets.md#explore-excel-samples-inside-excel)을 참조하세요.
 
 ## <a name="start-on-the-dashboard-and-open-the-report"></a>대시보드 시작 및 보고서 열기
 
@@ -131,7 +131,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 
    ![Allan Guinot 선택](media/sample-retail-analysis/retail13.png)
 
-   Allan의 구역은 작년보다 3월과 6월의 실적이 우수합니다.
+   Allan의 구역은 작년보다 3월 및 6월의 실적이 우수합니다.
 2. **Allan Guinot**이 선택된 상태에서, 거품형 차트에서 **Womens-10**(여성복-10) 버블을 선택합니다.
 
    ![Allan Guinot 및 Womens-10(여성복-10)이 선택됨](media/sample-retail-analysis/power-bi-allan.png)

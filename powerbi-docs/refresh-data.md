@@ -6,15 +6,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 03/26/2020
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 810077e8c651d3d6faf91eecb6fd320c24a69d2f
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 63275e882d71cd5c47a9a10baf4f0975abc2a845
+ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488801"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80302473"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI에서 데이터 새로 고침
 
@@ -92,7 +92,7 @@ Power BI 새로 고침 작업은 데이터 새로 고침, OneDrive 새로 고침
 
 #### <a name="data-refresh"></a>데이터 새로 고침
 
-Power BI 사용자의 경우 데이터 새로 고침은 일반적으로 새로 고침 일정 또는 요청 기반 방식에 따라 데이터를 원래 데이터 원본에서 데이터 세트로 가져온다는 것을 의미합니다. 기본 원본 데이터가 자주 변경되는 경우 여러 데이터 세트 새로 고침을 매일 수행할 수 있습니다. Power BI는 공유 용량의 데이터 세트를 매일 8회의 새로 고침으로 제한합니다. 데이터 세트가 프리미엄 용량에 있는 경우 데이터 세트 설정에서 매일 최대 48회의 새로 고침을 예약할 수 있습니다. 자세한 내용은 이 문서의 뒷부분에 나와 있는 [예약된 새로 고침 구성](#configure-scheduled-refresh)을 참조하세요.
+Power BI 사용자의 경우 데이터 새로 고침은 일반적으로 새로 고침 일정 또는 요청 기반 방식에 따라 데이터를 원래 데이터 원본에서 데이터 세트로 가져온다는 것을 의미합니다. 기본 원본 데이터가 자주 변경되는 경우 여러 데이터 세트 새로 고침을 매일 수행할 수 있습니다. Power BI는 공유 용량의 데이터 세트를 매일 8회의 새로 고침으로 제한합니다. 데이터 세트가 프리미엄 용량에 있는 경우 데이터 세트 설정에서 매일 최대 48회의 새로 고침을 예약할 수 있습니다. 자세한 내용은 이 문서의 뒷부분에 나와 있는 [예약된 새로 고침 구성](#configure-scheduled-refresh)을 참조하세요. [XMLA 엔드포인트](service-premium-connect-tools.md)가 읽기/쓰기에 사용하도록 설정된 Premium 용량의 데이터 세트는 TMSL 또는 PowerShell을 사용하여 프로그래밍 방식으로 구성된 경우 제한 없는 새로 고침 작업을 지원합니다.
 
 매일 새로 고침의 공유 용량 제한은 예약된 새로 고침과 API 새로 고침에 모두 적용된다고 설명하는 것도 중요합니다. 다음 스크린샷과 같이 데이터 세트 메뉴에서 **지금 새로 고침**을 선택하여 요청 시 새로 고침을 트리거할 수도 있습니다. 요청 시 새로 고침은 새로 고침 제한에 포함되지 않습니다. 또한 프리미엄 용량의 데이터 세트는 API 새로 고침에 제한을 적용하지 않습니다. Power BI REST API를 사용하여 고유한 새로 고침 솔루션을 빌드하려는 경우 [데이터 세트 - 데이터 세트 새로 고침](/rest/api/power-bi/datasets/refreshdataset)을 참조하세요.
 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/13/2020
+ms.date: 03/31/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3812f16489d304912ec9574352897e1effb29d4a
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 54c3622b0a4dd6c690c2f22a0b93aed39e9d2799
+ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79201404"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80464641"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>향상된 데이터 세트 메타데이터 사용(미리 보기)
 
@@ -24,6 +24,8 @@ Power BI Desktop 보고서를 만들 때 해당 PBIX 및 PBIT 파일에서도 �
 
 
 향후 Power BI 기능은 메타데이터를 기반으로 할 것이므로 **향상된 데이터 세트 메타데이터** 기능은 전략적이며 기초적인 기능입니다. 향상된 데이터 세트 메타데이터를 활용하기 위해 제공하는 몇 가지 추가 기능에는 Power BI 데이터 세트를 관리하는 작업과 차세대 기능을 활용하기 위해 Analysis Services 워크로드를 Power BI로 마이그레이션하는 작업을 위한 [XMLA 읽기/쓰기](https://docs.microsoft.com/power-platform-release-plan/2019wave2/business-intelligence/xmla-readwrite)가 포함됩니다.
+
+
 
 ## <a name="enable-enhanced-dataset-metadata"></a>향상된 데이터 세트 메타데이터 사용
 
@@ -36,6 +38,9 @@ Power BI Desktop를 다시 시작하라는 메시지가 표시됩니다.
 ![다시 시작 프롬프트](media/desktop-enhanced-dataset-metadata/enhanced-dataset-metadata-02.png)
 
 미리 보기 기능이 사용하도록 설정되면 Power BI Desktop은 이전 메타데이터 형식을 사용하는 PBIX 및 PBIT 파일을 업그레이드하려고 시도합니다. 
+
+> [!IMPORTANT]
+> **향상된 데이터 세트 메타데이터** 기능을 사용하도록 설정하면 보고서가 업그레이드되며 이는 되돌릴 수 없습니다. **향상된 데이터 세트 메타데이터**가 설정되면 Power BI Desktop을 사용하여 로드하거나 만든 모든 Power BI 보고서는 향상된 데이터 세트 메타데이터 형식으로 변환됩니다.
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 

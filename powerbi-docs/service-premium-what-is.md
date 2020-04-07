@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/12/2020
+ms.date: 03/26/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1caa68ac00f9821979f741bf3266514fcb33c36a
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: f53f7a1e51ce1cb17c337569ba770ac2b5643d19
+ms.sourcegitcommit: 8267a7383d6506dae42f87e4f4a2362b875b2911
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381172"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80329655"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium이란?
 
-Power BI Premium은 조직에 대해 Power BI 서비스를 실행할 수 있는 전용 리소스와 향상된 리소스를 제공합니다. 예:
+Power BI Premium을 사용하여 조직 전용의 향상된 리소스를 가져올 수 있으므로 조직 내 사용자는 더 나은 성능 및 응답성으로 Power BI 서비스를 사용할 수 있습니다. 예를 들어 Power BI Premium 구독을 사용하면 사용자와 조직 내 사용자가 다음에 액세스할 수 있습니다.
 
 > [!div class="checklist"]
 > * 더 커진 규모 및 성능
@@ -29,13 +29,16 @@ Power BI Premium은 조직에 대해 Power BI 서비스를 실행할 수 있는 
 > * 지역별 데이터 상주 지원(다중 지역)
 > * 사용자별 라이선스를 구입하지 않고 다른 사용자와 데이터 공유
 
+
+![관리 포털](media/service-premium-what-is/premium-admin-portal.png) 
+
 이 문서에서는 Power BI Premium의 주요 기능을 소개합니다. 필요한 경우 보다 자세한 정보가 포함된 추가 문서에 대한 링크를 제공합니다. Power BI Pro 및 Power BI Premium에 대한 자세한 내용은 [Power BI 가격](https://powerbi.microsoft.com/pricing/)의 _Power BI 기능 비교_ 섹션을 참조하세요.
 
 ## <a name="subscriptions-and-licensing"></a>구독 및 라이선스
 
 Power BI Premium은 두 개의 SKU(Stock-Keeping Unit) 제품군에서 사용할 수 있는 테넌트 수준 Office 365 구독입니다.
 
-- 포함 및 엔터프라이즈 기능에 대한 **P** SKU(P1-P3)는 월간 또는 연간 약정이 필요하며 매월 청구되고 Power BI Report Server 온-프레미스를 설치하기 위한 라이선스를 포함합니다.
+- 포함 및 엔터프라이즈 기능에 대한 **P** SKU(P1-P5)는 월간 또는 연간 약정이 필요하며 매월 청구되고 Power BI Report Server 온-프레미스를 설치하기 위한 라이선스를 포함합니다.
 
 - _조직_ 포함에 대한 **EM** SKU(EM1-EM3)는 매월 청구되며 연간 약정이 필요합니다. EM1 및 EM2 SKU는 볼륨 라이선스 계획을 통해서만 사용할 수 있습니다. 직접 구입할 수는 없습니다.
 
@@ -81,6 +84,8 @@ Power BI Premium을 사용하면 *전용 용량*을 가져올 수 있습니다. 
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
 | P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
 | P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
+| P4 | 64 | 32 | 200 | 32 | 240 | 48 |
+| P5 | 128 | 64 | 400 | 64 | 480 | 96 |
 | | | | | | | |
 
 > [!NOTE]
@@ -219,7 +224,7 @@ Power BI Premium과 함께 제공되는 Power BI Report Server는 웹 포털이 
 
 ## <a name="unlimited-content-sharing"></a>무제한 콘텐츠 공유
 
-프리미엄을 사용하면 조직의 내외에 있는 누구나 개별 라이선스를 구입하지 않고도 페이지를 매긴 대화형 보고서를 비롯한 Power BI 콘텐츠를 볼 수 있습니다. 
+Premium을 사용하면 조직의 내외에 있는 누구나 개별 라이선스를 구입하지 않고도 페이지를 매긴 대화형 보고서를 비롯한 Power BI 콘텐츠를 볼 수 있습니다. 
 
 ![콘텐츠 공유](media/service-premium-what-is/premium-sharing.png)
 
@@ -229,13 +234,14 @@ Power BI Premium과 함께 제공되는 Power BI Report Server는 웹 포털이 
 
 ## <a name="analysis-services-in-power-bi-premium-preview"></a>Power BI Premium의 Analysis Services(미리 보기)
 
-내부적으로 엔터프라이즈에서 입증된 Microsoft **Analysis Services Vertipaq 엔진**은 Power BI 데이터 세트를 구동합니다. Analysis Services는 개방형 표준 XMLA 프로토콜을 지원하는 클라이언트 라이브러리 및 API를 통해 프로그래밍 기능과 클라이언트 애플리케이션 및 도구 지원을 제공합니다. 현재 Power BI Premium 데이터 세트는 **XMLA 엔드포인트**를 통해 Microsoft과 타사 클라이언트 애플리케이션 및 도구에서 *읽기 전용* 작업을 지원합니다. 
+내부적으로 엔터프라이즈에서 입증된 Microsoft **Analysis Services Vertipaq 엔진**은 Power BI Premium 작업 영역 및 데이터 세트를 구동합니다. Analysis Services는 개방형 표준 XMLA 프로토콜을 지원하는 클라이언트 라이브러리 및 API를 통해 프로그래밍 기능과 클라이언트 애플리케이션 및 도구 지원을 제공합니다. 기본적으로 Power BI Premium 용량 데이터 세트 워크로드는 **XMLA 엔드포인트**를 통해 Microsoft 및 타사 클라이언트 애플리케이션 및 도구에서 *읽기 전용* 작업을 지원합니다. 또한 용량 관리자는 엔드포인트를 통해 *읽기/쓰기* 작업을 사용하지 않도록 설정하거나 허용하도록 선택할 수 있습니다.
 
-SQL Server Management Studio 및 SQL Server Profiler와 같은 Microsoft 도구와 DAX Studio 및 데이터 시각화 애플리케이션과 같은 타사 앱은 XMLA, DAX, MDX, DMV 및 Trace 이벤트를 사용하여 프리미엄 데이터 세트를 연결하고 쿼리할 수 있습니다. 
+읽기 전용 액세스 권한으로 SSMS(SQL Server Management Studio) 및 SQL Server Profiler와 같은 Microsoft 도구와 DAX Studio 및 데이터 시각화 애플리케이션과 같은 타사 앱은 XMLA, DAX, MDX, DMV 및 Trace 이벤트를 사용하여 Premium 데이터 세트를 연결하고 쿼리할 수 있습니다. 읽기/쓰기 액세스 권한이 있을 경우 Visual Studio와 같은 엔터프라이즈 데이터 모델링 도구는 Analysis Services 프로젝트 확장 또는 오픈 소스 테이블 형식 편집기를 사용하여 테이블 형식 모델을 데이터 세트로 Premium 작업 영역에 배포할 수 있습니다. 그리고 SSMS와 같은 도구에서는 관리자가 TMSL(테이블 형식 모델 스크립팅 언어)을 사용하여 메타데이터 변경 내용과 고급 데이터 새로 고침 시나리오를 스크립팅할 수 있습니다. 
+
+자세한 내용은 [XMLA 엔드포인트로 데이터 세트 연결](service-premium-connect-tools.md)을 참조하세요.
 
 ![SSMS](media/service-premium-what-is/connect-tools-ssms-dax.png)
 
-자세한 내용은 [클라이언트 애플리케이션 및 도구를 사용하여 데이터 세트에 연결](service-premium-connect-tools.md)을 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 

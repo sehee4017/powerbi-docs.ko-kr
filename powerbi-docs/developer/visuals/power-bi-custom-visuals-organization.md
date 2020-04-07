@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ab2aa7f1771c09a7ec725f9cc533717e7daf11a0
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 52ebb1bf049024051846936237d35b202f00d630
+ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79383508"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80464591"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Power BI의 조직 시각적 개체
 
@@ -35,7 +35,7 @@ Power BI에서 Power BI 시각적 개체를 사용하여 사용자에게 맞는 
 조직에서 조직의 Power BI 시각적 개체를 관리하고 배포하는 방법을 자세히 알아보려면 [조직의 Power BI 시각적 개체를 배포하고 관리하는 방법 자세히 알아보기](https://go.microsoft.com/fwlink/?linkid=866790)를 참조하세요.
 
 > [!WARNING]
-> 사용자 지정 시각적 개체에는 보안 또는 개인 정보 위험이 있는 코드가 포함될 수 있습니다. 조직의 리포지토리에 배포하기 전에 사용자 지정 시각적 개체의 작성자와 원본을 신뢰할 수 있는지 확인하세요.
+> 파일에서 설치된 Power BI 시각적 개체는 보안 또는 개인 정보 위험이 있는 코드를 포함할 수 있습니다. 조직 리포지토리에 배포하기 전에 Power BI 시각적 개체의 작성자와 원본을 신뢰할 수 있는지 확인하세요.
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 
@@ -45,7 +45,9 @@ Power BI에서 Power BI 시각적 개체를 사용하여 사용자에게 맞는 
 
 * 레거시 Power BI 시각적 개체(새 버전의 API를 기반으로 빌드되지 않은 Power BI 시각적 개체 등)는 지원되지 않습니다.
 
-* 리포지토리에서 사용자 지정 시각적 개체를 삭제하면 삭제된 시각적 개체를 사용하는 기존 보고서는 렌더링을 중지합니다. 리포지토리에서 수행한 삭제 작업은 되돌릴 수 없습니다. 사용자 지정 시각적 개체를 일시적으로 사용하지 않도록 설정하려면 “사용 안 함” 기능을 사용합니다.
+* ApSource 또는 파일의 Power BI 시각적 개체를 리포지토리에서 삭제하는 경우 삭제된 시각적 개체를 사용하는 기존 보고서는 렌더링을 중지합니다. 리포지토리에서 삭제는 되돌릴 수 없습니다. ApSource 또는 파일에서 Power BI 시각적 개체를 일시적으로 사용하지 않도록 설정하려면 "사용 안 함" 기능을 사용합니다.
+
+* 조직의 Power BI 시각적 개체는 Power BI 보고서 서버에서 지원되지 않습니다.
 
 최종 사용자:
 

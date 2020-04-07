@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9338bc914c7f4e4afd826bcd3e3452e7c7a3ef35
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 403537f8cd18948c99cc4dffb911009771a8b806
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76040432"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404746"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>Power BI에서 데이터 흐름 만들기 및 사용
 
@@ -32,7 +32,7 @@ ms.locfileid: "76040432"
 2. 데이터 흐름으로 가져올 데이터의 새로 고침 빈도를 예약합니다.
 3. Power BI Desktop으로 데이터 흐름을 사용하는 데이터 세트를 빌드합니다. 
 
-다음 섹션에서는 이러한 단계를 각각 살펴보고 각 단계를 완료하도록 제공되는 도구에 익숙해지도록 합니다. 설명하겠습니다.
+다음 섹션에서는 이러한 단계를 각각 살펴보고 각 단계를 완료하도록 제공되는 도구에 익숙해지도록 합니다. 이제 시작하겠습니다.
 
 ## <a name="creating-a-dataflow"></a>데이터 흐름 만들기
 데이터 흐름을 만들려면, 브라우저에서 Power BI 서비스를 시작하고 다음 화면에 표시된 것처럼 왼쪽 탐색 창에서 **작업 영역**을 선택합니다(Power BI 서비스의 *내 작업영역*에서는 데이터 흐름을 사용할 수 없음). 새 데이터 흐름을 만들 새 작업 영역을 만들 수도 있습니다. 
@@ -75,7 +75,7 @@ ms.locfileid: "76040432"
 
 ### <a name="dataflows-and-the-common-data-model-cdm"></a>데이터 흐름 및 CDM(공통 데이터 모델)
 
-데이터 흐름 엔터티에는 쉽게 비즈니스 데이터를 공통 데이터 모델(Microsoft의 표준화된 스키마)에 매핑하고, Microsoft 및 타사 데이터를 보강하며, 기계 학습에 간편하게 액세스할 수 있는 새로운 도구가 포함되어 있습니다. 이러한 새 기능을 활용하여 비즈니스 데이터에 관한 실행 가능 인텔리전트 인사이트를 제공할 수 있습니다. 쿼리 편집 단계에서 변환을 완료했으면 데이터 원본 테이블의 열을 공통 데이터 모델에서 정의한 대로 표준 엔터티 필드로 매핑할 수 있습니다. 표준 엔터티에는 공통 데이터 모델에서 정의한 알려진 스키마가 있습니다.
+데이터 흐름 엔터티에는 쉽게 비즈니스 데이터를 Common Data Model(Microsoft의 표준화된 스키마)에 매핑하고, Microsoft 및 타사 데이터를 보강하며, 기계 학습에 간편하게 액세스할 수 있는 새로운 도구가 포함되어 있습니다. 이러한 새 기능을 활용하여 비즈니스 데이터에 관한 실행 가능 인텔리전트 인사이트를 제공할 수 있습니다. 쿼리 편집 단계에서 변환을 완료했으면 데이터 원본 테이블의 열을 Common Data Model에서 정의한 대로 표준 엔터티 필드로 매핑할 수 있습니다. 표준 엔터티에는 공통 데이터 모델에서 정의한 알려진 스키마가 있습니다.
 
 이 접근 방식과 공통 데이터 모델에 대한 자세한 내용은 [공통 데이터 모델이란](https://docs.microsoft.com/powerapps/common-data-model/overview) 문서에서 알아보세요.
 
@@ -150,9 +150,9 @@ Power BI 데이터 흐름은 Power BI 데이터 새로 고침 프로세스를 �
 
 * **Salesforce 커넥터** - 데이터 흐름과 함께 Salesforce 평가판 계정을 사용하면 제공된 정보가 없는 경우 연결이 실패합니다. 이 문제를 해결하려면 테스트에 프로덕션 Salesforce 계정 또는 개발자 계정을 사용하세요.
 
-* **SharePoint 커넥터** - 하위 폴더 또는 문서가 없는 SharePoint 사이트 루트 주소를 제공해야 합니다. 예를 들어 다음과 유사한 링크를 사용하세요. https://microsoft.sharepoint.com/teams/ObjectModel/ 
+* **SharePoint 커넥터** - 하위 폴더 또는 문서가 없는 SharePoint 사이트 루트 주소를 제공해야 합니다. 예를 들어 다음과 유사한 링크를 사용하세요. `https://microsoft.sharepoint.com/teams/ObjectModel/` 
 
-* **JSON 파일 커넥터** - 현재 기본 인증만 사용하여 JSON 파일에 연결할 수 있습니다.  URL 내에서 자격 증명을 입력하여 JSON 파일에 연결(예: https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg.. )하는 작업은 현재 지원되지 **않습니다**.  
+* **JSON 파일 커넥터** - 현재 기본 인증만 사용하여 JSON 파일에 연결할 수 있습니다.  URL 내에서 자격 증명을 입력하여 JSON 파일에 연결(예: `https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg`...)하는 작업은 현재 지원되지 **않습니다**.  
 
 * **Azure SQL Data Warehouse** - 데이터 흐름은 현재 Azure SQL Data Warehouse에서 AAD(Azure Active Directory) 인증을 지원하지 않습니다. 이 시나리오에서 기본 인증을 사용하세요.
 

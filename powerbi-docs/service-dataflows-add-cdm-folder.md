@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5b6b8658e4480173c32a591c2fc763a238cfd13a
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: f1e48fb2f20c531f4dc66e86d13b76f54165b81c
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73872706"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404757"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>CDM 폴더를 Power BI에 데이터 흐름으로 추가(미리 보기)
 
@@ -24,6 +24,7 @@ Power BI에서 조직의 Azure Data Lake Store Gen2에 저장된 CDM(공통 데�
 
 다음 목록의 설명대로 CDM 폴더에서 데이터 흐름을 만들기 위한 몇 가지 요구 사항이 있습니다.
 
+* 관리자는 Power BI 내부에서 ADLS Gen2 스토리지 계정을 연결해야 사용할 수 있습니다. ADLS Gen2 계정을 Power BI에 연결하는 방법에 대한 자세한 내용은 [데이터 흐름 스토리지를 위해 Azure Data Lake Storage Gen2 연결](service-dataflows-connect-azure-data-lake-storage-gen2.md)을 참조하세요.
 * CDM 폴더에서 데이터 흐름을 만드는 기능은 [새 작업 영역 환경](service-create-the-new-workspaces.md)에서’만’ 사용할 수 있습니다.  
 * CDM 폴더를 Power BI에 추가하려면 폴더를 추가하는 사용자에게 [CDM 폴더 및 해당 파일의 권한](https://go.microsoft.com/fwlink/?linkid=2029121)이 있어야 합니다.
 * Power BI에 CDM 폴더의 모든 파일 및 폴더를 추가하려면 이에 대한 읽기 및 실행 권한을 부여 받아야 합니다.
@@ -58,7 +59,7 @@ CDM 폴더에서 만들어진 데이터 흐름의 권한을 사용하는 경우 
 다음 목록은 CDM 폴더의 데이터 흐름이 Power BI에서 작동하는 방식을 명확하게 설명하는 데 도움이 됩니다.
 
 Power BI Pro, Premium 및 Embedded 작업 영역:
-* CDM 폴더의 데이터 흐름은 편집할 수 없음
+* CDM 폴더의 데이터 흐름은 편집할 수 없습니다.
 * CDM 폴더에서 만들어진 데이터 흐름을 읽을 권한은 Power BI가 아닌 CDM 폴더 소유자가 관리합니다.
 
 Power BI Desktop:
@@ -71,13 +72,13 @@ Power BI Desktop:
 * 연결된 엔터티는 CDM 폴더에서 만들어진 데이터 흐름에 사용할 수 없음
 
 
-데이터 흐름의 소유자가 아니거나 데이터 흐름의 CDM 폴더 권한이 명시적으로 부여되지 않은 경우 **Power BI Desktop** 고객은 Azure Data Lake Storage Gen2 계정에 저장된 데이터 흐름에 액세스할 수 없습니다. 다음 상황을 고려하세요.
+데이터 흐름의 소유자가 아니거나 데이터 흐름의 CDM 폴더에 대한 권한이 명시적으로 부여되지 않은 경우 **Power BI Desktop** 고객은 Azure Data Lake Storage Gen2 계정에 저장된 데이터 흐름에 액세스할 수 없습니다. 다음 상황을 고려하세요.
 
-1.  Anna는 새 작업 영역을 만들고 CDM 폴더의 데이터 흐름을 저장하도록 구성합니다.
-2.  Anna가 만든 작업 영역의 구성원인 Ben은 Power BI Desktop 및 데이터 흐름 커넥터를 사용하여 Anna가 만든 데이터 흐름에서 데이터를 가져오려고 합니다.
-3.  Ben은 Data Lake의 데이터 흐름 CDM 폴더에 대한 권한 있는 사용자로 추가되지 않았으므로 오류가 발생합니다.
+1.    Anna는 새 작업 영역을 만들고 CDM 폴더의 데이터 흐름을 저장하도록 구성합니다.
+2.    Anna가 만든 작업 영역의 구성원인 Ben은 Power BI Desktop 및 데이터 흐름 커넥터를 사용하여 Anna가 만든 데이터 흐름에서 데이터를 가져오려고 합니다.
+3.    Ben은 데이터 레이크의 데이터 흐름 CDM 폴더에 대한 권한 있는 사용자로 추가되지 않았으므로 오류가 발생합니다.
 
-    ![데이터 흐름을 사용하는 중 오류 발생](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
+  ![데이터 흐름을 사용하는 중 오류 발생](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 
 이 문제를 해결하려면 Ben에게 CDM 폴더 및 해당 파일의 독자 권한이 부여되어야 합니다. [이 문서](https://go.microsoft.com/fwlink/?linkid=2029121)에서 CDM 폴더의 액세스 권한을 부여하는 방법을 자세히 알아볼 수 있습니다.
 
