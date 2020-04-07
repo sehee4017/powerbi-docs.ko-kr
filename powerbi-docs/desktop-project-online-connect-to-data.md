@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 04/01/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 281d5b616b58fce4326e6d719502e443c249372a
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: 0f01a6da3bb0d829d396861814f71d33ba69f22f
+ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80403164"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80550913"
 ---
 # <a name="connect-to-project-online-data-through-power-bi-desktop"></a>Power BI Desktop을 통해 Project Online 데이터에 연결
 Power BI Desktop을 통해 Project Online의 데이터에 연결할 수 있습니다.
@@ -31,7 +31,10 @@ Power BI Desktop을 통해 Project Online의 데이터에 연결할 수 있습�
    
    사용자의 프로젝트 웹앱 사이트에 대한 주소가 *https://\<tenantname\>.sharepoint.com/sites/pwa*와 유사한 경우, OData 피드에 대해 입력할 주소는 *https://\<tenantname\>.sharepoint.com/sites/pwa/\_api/Projectdata*입니다.
    
-   이 예에서는 `https://contoso.sharepoint.com/sites/pwa/default.aspx`을(를) 사용합니다.
+   이 예에서는 다음을 사용합니다.
+
+    `https://contoso.sharepoint.com/sites/pwa/default.aspx`
+
 5. Power BI Desktop에서 Office 365 계정을 사용하여 인증하라는 메시지가 나타납니다. 조직 계정을 선택하고 자격 증명을 입력합니다.
    
    ![](media/desktop-project-online-connect-to-data/image.png)

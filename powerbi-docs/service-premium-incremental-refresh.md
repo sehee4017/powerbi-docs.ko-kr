@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/20/2020
+ms.date: 03/27/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: 852bdcdeb71f6dae555c37467145bad6b584e324
-ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
+ms.openlocfilehash: 1208a598c08b87d0e479e4d8901f880a5dfa6900
+ms.sourcegitcommit: dc18209dccb6e2097a92d87729b72ac950627473
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "77527630"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80361821"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Power BI의 증분 새로 고침
 
@@ -136,7 +136,7 @@ Power BI 서비스의 첫 번째 새로 고침에서 만 5년 동안의 데이�
 >
 > 새로 고침 빈도 요구 사항에 따라 허용되는 수준으로 전체 자릿수를 줄입니다.
 >
-> 앞으로 데이터 변경 검색에 대한 사용자 지정 쿼리 정의를 허용할 예정입니다. 이를 사용하여 열 값을 모두 유지하지 않도록 방지할 수 있습니다.
+> XMLA 엔드포인트를 사용하여 데이터 변경 내용을 검색하는 사용자 지정 쿼리를 정의하고 열 값을 모두 유지하지 않도록 합니다. 자세한 내용은 아래의 데이터 변경 내용 검색용 사용자 지정 쿼리를 참조하세요.
 
 #### <a name="only-refresh-complete-periods"></a>전체 기간만 새로 고침
 
@@ -155,7 +155,7 @@ Power BI 서비스의 첫 번째 새로 고침에서 만 5년 동안의 데이�
 
 ## <a name="query-timeouts"></a>쿼리 시간 제한
 
-[새로 고침 문제 해결](https://docs.microsoft.com/power-bi/refresh-troubleshooting-refresh-scenarios) 문서에서는 Power BI 서비스의 새로 고침 작업 시간을 제한할 수 있다고 설명합니다. 쿼리도 데이터 원본에 대한 기본 시간 제한으로 제한할 수 있습니다. 대부분의 관계형 원본은 M 식에서 시간 제한을 재정의할 수 있습니다. 예를 들어 아래 식에서는 [SQL Server 데이터 액세스 함수](https://msdn.microsoft.com/query-bi/m/sql-database)를 사용하여 시간 제한을 2시간으로 설정합니다. 정책 범위로 정의된 각 기간에는 명령 시간 제한 설정을 준수하는 쿼리가 제출됩니다.
+[새로 고침 문제 해결](refresh-troubleshooting-refresh-scenarios.md) 문서에서는 Power BI 서비스의 새로 고침 작업 시간을 제한할 수 있다고 설명합니다. 쿼리도 데이터 원본에 대한 기본 시간 제한으로 제한할 수 있습니다. 대부분의 관계형 원본은 M 식에서 시간 제한을 재정의할 수 있습니다. 예를 들어 아래 식에서는 [SQL Server 데이터 액세스 함수](https://docs.microsoft.com/powerquery-m/sql-database)를 사용하여 시간 제한을 2시간으로 설정합니다. 정책 범위로 정의된 각 기간에는 명령 시간 제한 설정을 준수하는 쿼리가 제출됩니다.
 
 ```powerquery-m
 let
@@ -166,7 +166,89 @@ in
     #"Filtered Rows"
 ```
 
-## <a name="limitations"></a>제한 사항
+## <a name="xmla-endpoint-benefits-for-incremental-refresh"></a>XMLA 엔드포인트의 증분 새로 고침 관련 이점
 
-현재 [복합 모델](desktop-composite-models.md)의 경우 SQL Server, Azure SQL Database, SQL Data Warehouse, Oracle 및 Teradata 데이터 원본에 대해서만 증분 업데이트가 지원됩니다.
+Premium 용량의 데이터 세트용 [XMLA 엔드포인트](service-premium-connect-tools.md)는 읽기/쓰기 작업에 사용하도록 설정할 수 있으며, 이는 증분 새로 고침에 상당한 이점을 제공할 수 있습니다. XMLA 엔드포인트를 통한 새로 고침 작업은 [하루 48번 새로 고침](refresh-data.md#data-refresh)으로 제한되지 않으며, [예약된 새로 고침 제한 시간](refresh-troubleshooting-refresh-scenarios.md#scheduled-refresh-timeout)이 적용되지 않습니다. 이는 증분 새로 고침 시나리오에서 유용할 수 있습니다.
 
+### <a name="refresh-management-with-sql-server-management-studio-ssms"></a>SSMS(SQL Server Management Studio)를 사용한 새로 고침 관리
+
+XMLA 엔드포인트가 읽기/쓰기에 사용하도록 설정되면 SSMS를 사용하여 증분 새로 고침 정책 애플리케이션에서 생성한 파티션을 보고 관리할 수 있습니다.
+
+![SSMS의 파티션](media/service-premium-incremental-refresh/ssms-partitions.png)
+
+#### <a name="refresh-historical-partitions"></a>기록 파티션 새로 고침
+
+이를 통해 예를 들어 증분 범위에 없는 특정 기록 파티션을 새로 고쳐 모든 기록 데이터를 새로 고치지 않아도 소급 업데이트를 수행할 수 있습니다.
+
+#### <a name="override-incremental-refresh-behavior"></a>증분 새로 고침 동작 재정의
+
+SSMS에서는 [TMSL(테이블 형식 모델 스크립팅 언어)](https://docs.microsoft.com/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current) 및 [TOM(테이블 형식 개체 모델)](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo?view=power-bi-premium-current)을 사용하여 증분 새로 고침을 호출하는 방법을 보다 세밀하게 제어할 수도 있습니다. 예를 들어 SSMS의 개체 탐색기에서 테이블을 마우스 오른쪽 단추로 클릭한 다음 **테이블 처리** 메뉴 옵션을 선택합니다. 그런 다음 **스크립트** 단추를 클릭하여 TMSL refresh 명령을 생성합니다.
+
+![테이블 처리 대화 상자의 스크립트 단추](media/service-premium-incremental-refresh/ssms-process-table.png)
+
+다음 매개 변수를 TMSL refresh 명령에 삽입하여 기본 증분 새로 고침 동작을 재정의할 수 있습니다.
+
+- **applyRefreshPolicy** – 테이블에 증분 새로 고침 정책이 정의된 경우 applyRefreshPolicy는 정책 적용 여부를 결정합니다. 정책이 적용되지 않는 경우 전체 처리 작업을 수행하면 파티션 정의가 변경되지 않고 테이블의 모든 파티션이 완전히 새로 고쳐집니다. 기본값은 true입니다.
+
+- **effectiveDate** – 증분 새로 고침 정책이 적용되는 경우 현재 날짜를 알고 있어야 기록 범위 및 증분 범위의 이동 기간 범위를 결정할 수 있습니다. effectiveDate 매개 변수를 사용하여 현재 날짜를 재정의할 수 있습니다. 이는 과거 또는 미래의 날짜까지 데이터를 증분 방식으로 새로 고치는 테스트, 데모 및 비즈니스 시나리오에 유용합니다(예: 향후 예산). 기본값은 [현재 날짜](#current-date)입니다.
+
+```json
+{ 
+  "refresh": {
+    "type": "full",
+
+    "applyRefreshPolicy": true,
+    "effectiveDate": "12/31/2013",
+
+    "objects": [
+      {
+        "database": "IR_AdventureWorks", 
+        "table": "FactInternetSales" 
+      }
+    ]
+  }
+}
+```
+
+### <a name="custom-queries-for-detect-data-changes"></a>데이터 변경 내용을 검색하기 위한 사용자 지정 쿼리
+
+TMSL 및/또는 TOM을 사용하여 검색된 데이터 변경 동작을 재정의할 수 있습니다. 메모리 내 캐시에서 마지막 업데이트 열을 유지하는 것을 방지하는 데 사용할 수 있을 뿐만 아니라, 새로 고쳐야 하는 파티션에만 플래그를 지정하기 위해 ETL 프로세스가 구성/명령 테이블을 준비하는 시나리오를 사용할 수 있습니다. 이를 통해 데이터 업데이트 소요 시간에 관계없이 필요한 기간을 새로 고칠 수 있는 보다 효율적인 증분 새로 고침 프로세스를 만들 수 있습니다.
+
+pollingExpression은 경량 M 식 또는 다른 M 쿼리의 이름으로 사용됩니다. 스칼라 값을 반환해야 하며 각 파티션에 대해 실행됩니다. 반환된 값이 마지막으로 증분 새로 고침이 수행된 때의 값과 다른 경우 해당 파티션은 전체 처리를 위해 플래그가 지정됩니다.
+
+다음 예제에서는 소급 변경을 위한 기록 범위의 120개월을 모두 포함합니다. 10년 대신 120월을 지정하면 데이터 압축이 덜 효율적일 수 있지만 전체 기록 연도를 새로 고칠 필요가 없습니다. 월이 소급 변경에 충분한 경우에 이렇게 하면 비용이 더 듭니다.
+
+```json
+"refreshPolicy": {
+    "policyType": "basic",
+    "rollingWindowGranularity": "month",
+    "rollingWindowPeriods": 120,
+    "incrementalGranularity": "month",
+    "incrementalPeriods": 120,
+    "pollingExpression": "<M expression or name of custom polling query>",
+    "sourceExpression": [
+    "let ..."
+    ]
+}
+```
+
+## <a name="metadata-only-deployment"></a>메타데이터 전용 배포
+
+Power BI Desktop에서 Power BI 서비스의 작업 영역에 새 버전의 PBIX 파일을 게시할 때 동일한 이름의 데이터 세트가 이미 있는 경우 기존 데이터 세트를 바꿀지 묻는 메시지가 표시됩니다.
+
+![데이터 세트 바꾸기 프롬프트](media/service-premium-incremental-refresh/replace-dataset-prompt.png)
+
+일부 경우에는, 특히 증분 새로 고침을 사용할 때 데이터 세트를 바꾸지 않으려고 할 수 있습니다. Power BI Desktop의 데이터 세트는 서비스의 데이터 세트보다 훨씬 작을 수 있습니다. 서비스의 데이터 세트에 증분 새로 고침 정책이 적용되는 경우 데이터 세트를 바꾸면 몇 년간의 기록 데이터가 손실될 수 있습니다. 모든 기록 데이터를 새로 고치면 시간이 걸리고 사용자에게 시스템 가동 중지 시간이 발생할 수 있습니다.
+
+대신 메타데이터 전용 배포를 수행하는 것이 좋습니다. 이를 통해 기록 데이터 손실 없이 새 개체를 배포할 수 있습니다. 예를 들어 몇 가지 측정값을 추가한 경우 데이터를 새로 고치지 않고도 새 측정값을 배포할 수 있어 많은 시간이 절약됩니다.
+
+읽기/쓰기용으로 구성된 경우 XMLA 엔드포인트는 이를 수행하는 도구와의 호환성을 제공합니다. 예를 들어 ALM 도구 키트는 Power BI 데이터 세트용 스키마 비교 도구이며 메타데이터 배포를 수행하는 데만 사용할 수 있습니다.
+
+[Analysis Services Git 리포지토리](https://github.com/microsoft/Analysis-Services/releases)에서 최신 버전의 ALM 도구 키트를 다운로드하여 설치합니다. 설명서 링크 및 지원 정보는 도움말 리본을 통해 제공됩니다. 메타데이터 전용 배포를 수행하려면 비교를 수행하고 실행 중인 Power BI Desktop 인스턴스를 원본으로, 서비스의 기존 데이터 세트를 대상으로 선택합니다. 표시되는 차이점을 고려하여 증분 새로 고침 파티션이 있는 테이블의 업데이트를 건너뛰거나 옵션 대화 상자를 사용하여 테이블 업데이트를 위해 파티션을 유지합니다. 선택 항목의 유효성을 검사하여 대상 모델의 무결성을 확인한 다음 업데이트합니다.
+
+![ALM 도구 키트](media/service-premium-incremental-refresh/alm-toolkit.png)
+
+## <a name="see-also"></a>참고 항목
+
+[XMLA 엔드포인트로 데이터 세트 연결](service-premium-connect-tools.md)   
+[새로 고침 시나리오 문제 해결](refresh-troubleshooting-refresh-scenarios.md)   

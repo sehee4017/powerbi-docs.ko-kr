@@ -1,4 +1,4 @@
-﻿---
+---
 title: '자습서:  Power BI를 사용하여 GitHub 리포지토리에 연결'
 description: 이 자습서에서는 Power BI를 사용하여 GitHub 서비스의 실제 데이터에 연결하고, Power BI는 대시보드와 보고서를 자동으로 만듭니다.
 author: maggiesMSFT
@@ -10,15 +10,15 @@ ms.topic: tutorial
 ms.date: 08/07/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 986f35cd1c4f612b16374107487d0ca20c9c607e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a3c87a700df1c35596b6520cc64d9b580ccb74eb
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871269"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80403400"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>자습서:  Power BI를 사용하여 GitHub 리포지토리에 연결
-이 자습서에서는 Power BI를 사용하여 GitHub 서비스의 실제 데이터에 연결하고, Power BI는 대시보드와 보고서를 자동으로 만듭니다. Power BI 콘텐츠 공용 저장소(*리포지토리*라고도 하는)에 연결하여 다음과 같은 질문에 대한 답변을 볼 수 있습니다:  얼마나 많은 사람들이 Power BI 공개 콘텐츠에 기여하나요? 가장 많이 기여하는 사람은 누구인가요? 어떤 요일에 기여가 가장 많은가요? 그리고 기타 질문들이 있습니다. 
+이 자습서에서는 Power BI를 사용하여 GitHub 서비스의 실제 데이터에 연결하고, Power BI는 대시보드와 보고서를 자동으로 만듭니다. ower BI 콘텐츠 공용 저장소(*리포지토리*라고도 하는)에 연결하여 다음과 같은 질문에 대한 답변을 볼 수 있습니다:  얼마나 많은 사람들이 Power BI 공개 콘텐츠에 기여하나요? 가장 많이 기여하는 사람은 누구인가요? 어떤 요일에 기여가 가장 많은가요? 그리고 기타 질문들이 있습니다. 
 
 ![Power BI의 GitHub 보고서](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-punch-card.png)
 
@@ -43,7 +43,7 @@ ms.locfileid: "73871269"
 
 
 ## <a name="how-to-connect"></a>연결 방법
-1. Power BI 서비스 (https://app.powerbi.com) 에 로그인합니다. 
+1. Power BI 서비스(`https://app.powerbi.com`)에 로그인합니다. 
 2. 탐색 창에서 **앱**, **앱 가져오기**를 선택합니다.
    
    ![Power BI 앱 가져오기](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial.png) 
@@ -64,7 +64,7 @@ ms.locfileid: "73871269"
 
 5. 만든 GitHub 자격 증명을 입력합니다. 브라우저에서 GitHub에 이미 로그인되어 있으면 Power BI에서 이 단계를 건너뛸 수 있습니다. 
 
-6. **인증 방법**에 대해서는, 선택된 **oAuth2**를 유지하고 \> **로그인**합니다.
+6. **인증 방법**에 대해서는, 선택된 **oAuth2**를 유지하고 \>**로그인**합니다.
 
 7. GitHub 인증 화면을 따릅니다. GitHub 데이터에 대한 Power BI 권한을 부여합니다.
    
@@ -95,11 +95,11 @@ ms.locfileid: "73871269"
 
 1. **데이터에 대해 질문하기**에 커서를 놓습니다. Power BI는 **시작할 질문**을 제공합니다. 
 
-1. **how many users are there**를 선택합니다.
+1. **포함된 사용자 수**를 선택합니다.
  
     ![포함된 사용자 수](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-qna-how-many-users.png)
 
-13. **how many**와 **users are there** 사이에 **pull requests per**를 입력합니다.
+13. **수**와 **포함된 사용자** 사이에 **단위당 끌어오기 요청**을 입력합니다. 
 
      Power BI에서 사용자별 끌어오기 요청 수를 나타내는 가로 막대형 차트를 만듭니다.
 
@@ -110,15 +110,15 @@ ms.locfileid: "73871269"
 
 ## <a name="view-the-github-report"></a>GitHub 보고서 보기 
 
-1. GitHub 대시보드에서 **Pull Requests by Month** 세로 막대형 차트를 선택하여 관련 보고서를 엽니다.
+1. GitHub 대시보드에서 **월별 끌어오기 요청** 세로 막대형 차트를 선택하여 관련 보고서를 엽니다.
 
     ![월별 끌어오기 요청 세로 막대형 차트](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-column-chart.png)
 
-2. **Total pull requests by user** 차트에서 사용자 이름을 선택합니다. 이 예에서는 2월에 대부분의 시간이 표시됩니다.
+2. **사용자별 전체 끌어오기 요청** 차트에서 사용자 이름을 선택합니다. 이 예에서는 2월에 대부분의 시간이 표시됩니다.
 
     ![Power BI - GitHub 보고서(강조 표시)](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-cross-filter-total-prs.png)
 
-3. **Punch Card** 탭을 선택하여 보고서의 다음 페이지를 표시합니다. 
+3. **펀치 카드** 탭을 선택하여 보고서의 다음 페이지를 표시합니다. 
  
     ![Power BI - GitHub 보고서 펀치 카드](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-tues-3pm.png)
 

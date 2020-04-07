@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 3f0c95673bd6a9a5af2a828869f38d32440b617a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8124a80f471e33ebbd140a30d6a49e2a762206ee
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858856"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404099"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Power BI용 인적 자원 샘플 둘러보기
 
@@ -61,7 +61,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>이 샘플의 Excel 통합 문서 다운로드
 
-이 샘플의 데이터 원본을 보려면 [Excel 통합 문서](https://go.microsoft.com/fwlink/?LinkId=529780)로도 제공됩니다. 통합 문서에는 보고 수정할 수 있는 파워 뷰 시트가 포함됩니다. 원시 데이터를 보려면 데이터 분석 추가 기능을 사용하도록 설정한 다음, **파워 피벗 > 관리**를 선택합니다. 파워 뷰와 파워 피벗 추가 기능을 사용하도록 설정하려면 [내부 Excel 자체에서 Excel 샘플 살펴보기](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)에서 자세한 내용을 참조하세요.
+이 샘플의 데이터 원본을 보려면 [Excel 통합 문서](https://go.microsoft.com/fwlink/?LinkId=529780)로도 제공됩니다. 통합 문서에는 보고 수정할 수 있는 파워 뷰 시트가 포함됩니다. 원시 데이터를 보려면 데이터 분석 추가 기능을 사용하도록 설정한 다음, **파워 피벗 > 관리**를 선택합니다. 파워 뷰 및 파워 피벗 추가 기능을 사용하도록 설정하려면 자세한 내용은 [Excel에서 Excel 샘플 탐색](sample-datasets.md#explore-excel-samples-inside-excel)을 참조하세요.
 
 ## <a name="new-hires"></a>신입
 먼저 신규 채용자를 살펴보겠습니다.
@@ -78,8 +78,8 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 3. 관심 있는 항목을 살펴봅니다.
 
     * **월별 신규 채용자 수, 신규 채용자 SPLY 및 근무 중인 YoY 변경 비율** 콤보 차트는 작년에 비해 올해 매달 더 많은 직원을 고용했습니다. 일부 월의 직원이 상당히 더 많습니다.
-    * **지역 및 민족별 신규 채용자 수와 근무 중인 직원 수**콤보 차트에서 **동부** 지역의 사람을 거의 채용하지 않았음을 알았습니다.
-    * **연령대별 신규 채용자 수 YoY Var** 폭포 차트에서는 주로 젊은 직원을 채용하고 있음을 알 수 있습니다. 이 추세는 업무가 대체로 파트타임이기 때문입니다.
+    * **지역 및 민족별 신규 채용자 수와 근무 중인 직원 수** 콤보 차트에서 **동부** 지역 사람을 더 적게 채용했음을 알았습니다.
+    * **연령대별 신규 채용자 수 YoY 변동** 폭포 차트에서는 주로 젊은 직원을 채용하고 있음을 알 수 있습니다. 이 추세는 업무가 대체로 파트타임이기 때문입니다.
     * **성별 신규 채용자 수** 원형 차트는 대체로 균등하게 나뉘어 있음을 보여 줍니다.
 
     더 많은 인사이트를 알 수 있나요? 예를 들어 성비가 고르지 않은 지역을 확인해 봅니다. 
@@ -135,7 +135,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 9. 맨 위 탐색 창에서 **인적 자원 샘플**을 선택하여 대시보드로 돌아갑니다. 보고서에 대한 변경 사항을 저장할 수 있습니다.
 
 ## <a name="bad-hires"></a>잘못된 채용
-마지막으로 살펴볼 영역은 잘못된 채용입니다. 잘모된 채용은 60일 이상 근무하지 않은 직원으로 정의합니다. 신속하게 채용하고 있지만, 적절한 후보를 채용하고 있을까요?
+마지막으로 살펴볼 영역은 잘못된 채용입니다. 잘못된 채용은 60일 이상 근무하지 않은 직원으로 정의합니다. 신속하게 채용하고 있지만, 적절한 후보를 채용하고 있을까요?
 
 1. **Bad Hires as % of Actives by Age Group** (연령대별 근무 중인 직원 중 잘못된 채용 %) 대시보드 타일을 선택합니다. 이 보고서는 세 번째 탭인 **잘못된 고용** 탭으로 열립니다.
 

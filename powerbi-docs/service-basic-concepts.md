@@ -11,18 +11,18 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: f86b9ae056770240485ff1984be4714faec9dc83
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 280e29d90e956ba47de6a0ff80b6f29bc0f00a18
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207922"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404076"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Power BI 서비스의 디자이너를 위한 기본 개념
 
 이 문서는 Power BI 서비스에 익숙해지도록 도와주기 위한 것입니다. 즉, 이 서비스의 여러 요소가 무엇이고, 이 요소가 함께 어떻게 작동하고, 이 요소를 어떻게 사용하는지를 소개합니다. 이미 [Power BI 서비스에 등록](service-self-service-signup-for-power-bi.md)하고 [일부 데이터를 추가](service-get-data.md)한 경우 이 문서를 더 잘 활용할 수 있습니다. 디자이너의 일반적인 워크플로는 보통 Power BI Desktop에서 보고서를 만드는 것으로 시작합니다. 그런 다음 이 보고서를 Power BI 서비스에 게시하고 계속 수정할 수 있습니다. Power BI 서비스에서 보고서를 기반으로 대시보드를 만들 수도 있습니다. 
 
-이 문서에서 보고서가 아직 없는 경우 [Power BI 샘플 콘텐츠 팩](sample-datasets.md#the-power-bi-samples-as-content-packs)을 설치해 보세요.
+이 문서를 위해, 자체 보고서가 아직 없는 경우 [Power BI 샘플](sample-datasets.md) 중 하나를 설치해 보세요.
 
 ![브라우저의 Power BI 서비스 홈 화면](media/service-basic-concepts/power-bi-home-screen.png)
 
@@ -76,7 +76,7 @@ Power BI의 다섯 가지 주요 구성 요소는 *대시보드*, *보고서*, *
 ## <a name="datasets"></a>데이터 세트
 *데이터 세트*는 *가져오기* 또는 *연결*할 데이터의 컬렉션입니다. Power BI를 사용하면 모든 종류의 데이터 세트에 연결하고 가져와서 같은 위치에 모두 함께 표시할 수 있습니다. 데이터 세트는 데이터 흐름에서 데이터를 가져올 수도 있습니다.
 
-데이터 세트는 *작업 영역*과 연결되며, 단일 데이터 세트는 여러 작업 영역의 일부가 될 수 있습니다. 작업 영역을 열면 **데이터 세트** 탭 아래에 연결된 데이터 세트가 나열됩니다. 나열된 각 데이터 세트는 OneDrive의 Excel 통합 문서, 온-프레미스 SSAS 표 형식 데이터 세트, Salesforce 데이터 세트 등 데이터의 단일 원본을 나타냅니다. 여러 가지 다양한 데이터 소스가 지원되며 계속해서 새로 추가할 예정입니다. [Power BI에서 사용할 수 있는 데이터 세트 형식](service-get-data.md) 목록을 참조하세요.
+데이터 세트는 *작업 영역*과 연결되며, 단일 데이터 세트는 여러 작업 영역의 일부가 될 수 있습니다. 작업 영역을 열면 **데이터 세트** 탭 아래에 연결된 데이터 세트가 나열됩니다. 나열된 각 데이터 세트는 OneDrive의 Excel 통합 문서, 온-프레미스 SSAS 표 형식 데이터 세트, Salesforce 데이터 세트 등 데이터의 단일 원본을 나타냅니다. 여러 가지 다양한 데이터 원본이 지원되며 계속해서 새로 추가할 예정입니다. [Power BI에서 사용할 수 있는 데이터 세트 형식](service-get-data.md) 목록을 참조하세요.
 
 아래 예제에서는 “영업 및 마케팅” 작업 영역을 선택하고 **데이터 세트** 탭을 클릭했습니다.
 

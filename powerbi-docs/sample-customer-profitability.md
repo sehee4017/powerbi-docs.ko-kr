@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 160c5736bc2894e629f5bb375dd07e993def1e0c
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: cef0983479a4b63dd97c1f709d69d65172dea334
+ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205300"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80404157"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI용 고객 수익성 샘플 둘러보기
 
@@ -56,7 +56,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>이 샘플의 Excel 통합 문서 다운로드
 
-이 샘플의 데이터 원본을 보려면 [Excel 통합 문서](https://go.microsoft.com/fwlink/?LinkId=529781)로도 제공됩니다. 통합 문서에는 보고 수정할 수 있는 파워 뷰 시트가 포함됩니다. 원시 데이터를 보려면 데이터 분석 추가 기능을 사용하도록 설정한 다음, **파워 피벗 > 관리**를 선택합니다. 파워 뷰와 파워 피벗 추가 기능을 사용하도록 설정하려면 [내부 Excel 자체에서 Excel 샘플 살펴보기](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself)에서 자세한 내용을 참조하세요.
+이 샘플의 데이터 원본을 보려면 [Excel 통합 문서](https://go.microsoft.com/fwlink/?LinkId=529781)로도 제공됩니다. 통합 문서에는 보고 수정할 수 있는 파워 뷰 시트가 포함됩니다. 원시 데이터를 보려면 데이터 분석 추가 기능을 사용하도록 설정한 다음, **파워 피벗 > 관리**를 선택합니다. 파워 뷰 및 파워 피벗 추가 기능을 사용하도록 설정하려면 자세한 내용은 [Excel에서 Excel 샘플 탐색](sample-datasets.md#explore-excel-samples-inside-excel)을 참조하세요.
 
 ## <a name="what-is-our-dashboard-telling-us"></a>대시보드가 시사하는 점은 무엇입니까?
 
@@ -148,7 +148,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
    * **수익 상태(연간 총액)** 의 빨간색 KPI를 볼 수 있습니다. 이 항목은 추가 조사가 확실히 필요합니다.
    * Valery의 매출 차이도 걱정스러운 상태입니다. Valery는 설정된 매출 이익을 달성하지 못했습니다.
    * Valery는 불과 9명의 고객만 보유하고 있으며, 겨우 2개 제품만 취급하고 거의 북부 지역의 고객들하고만 일합니다. 이 특수한 상황이 메트릭의 광범위한 변동을 설명해 줍니다.
-   * 트리맵의 **북부** 사각형을 선택하면 Valery의 북부 지역 총수익이 전체 수익과 일치하는 것으로 표시됩니다.
+   * 트리 맵의 **북부** 사각형을 선택하면 Valery의 북부 지역 총수익이 전체 수익과 일치하는 것으로 표시됩니다.
    * 다른 **지역별 총 매출** 사각형을 선택하면 GM%의 범위가 23%~79%라는 흥미로운 사실을 확인할 수 있습니다. Valery의 매출은 북부 지역을 제외한 모든 지역에서 계절성이 상당히 높습니다.
 
 3. Valery의 영역에서 실적이 저조한 이유를 계속 살펴봅시다. 지역, 다른 사업부 및 보고서의 다음 페이지: **업계 수익 분석**을 살펴봅니다.
