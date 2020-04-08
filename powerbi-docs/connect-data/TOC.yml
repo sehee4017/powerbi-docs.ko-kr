@@ -254,8 +254,14 @@
           items:
             - name: 앱을 사용하여 서비스에 연결
               href: ../service-connect-to-services.md
+            - name: COVID-19 미국 추적 보고서
+              href: service-connect-to-covid-19-tracking.md
+            - name: 위기 통신 상태 보고서
+              href: service-connect-to-crisis-communication-presence-report.md
             - name: GitHub
               href: ../service-connect-to-github.md
+            - name: 병원 응급 대응 의사 결정 지원 대시보드
+              href: service-connect-to-health-emergency-response.md
             - name: Microsoft 지속 가능성 계산기
               href: ../service-connect-to-microsoft-sustainability-calculator.md
             - name: Office365Mon
