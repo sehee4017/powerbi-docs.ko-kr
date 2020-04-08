@@ -9,18 +9,16 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 5ef6068135e8adcbfd242ca4a6491396101d214e
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.openlocfilehash: 0118bc427ce58f48d50b3e8ed4e918bf66c6e8fc
+ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78923014"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80621541"
 ---
 # <a name="power-bi-report-builder"></a>Power BI 보고서 작성기
 
  Power BI 보고서 작성기는 페이지를 매긴 보고서를 작성하기 위한 도구입니다.  페이지를 매긴 보고서를 디자인할 때 검색할 데이터, 가져올 위치 및 표시 방법을 지정하는 보고서 정의를 만듭니다. 보고서를 실행할 때 보고서 처리기는 지정한 보고서 정의를 사용하고, 데이터를 검색하고, 보고서 레이아웃과 결합하여 보고서를 생성합니다. 보고서 작성기에서 보고서를 미리 봅니다. 그런 다음, Power BI 서비스에 보고서를 게시합니다.
-
-[실습 랩: Microsoft Power BI 페이지를 매긴 보고서 만들기](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)를 사용해보세요.
 
 비디오에서 학습하는 것을 선호하십니까? YouTube에서 Power BI 수석 프로그램 관리자 Chris Finlan이 진행하는 Power BI 페이지를 매긴 보고서 비디오 시리즈를 확인하세요.
 
@@ -30,13 +28,13 @@ ms.locfileid: "78923014"
 
 ![Power BI 서비스의 페이지를 매긴 보고서](media/report-builder-power-bi/report-builder-get-started-paginated-report.png)
 
-##  <a name="JumpStartReptCreation"></a> 빠른 보고서 만들기  
+##  <a name="jump-start-report-creation"></a><a name="JumpStartReptCreation"></a> 빠른 보고서 만들기  
  
 -   **테이블, 행렬 또는 차트 마법사를 사용하여 시작**합니다. 데이터 원본 연결을 만들고, 필드를 끌어서 놓아 데이터 세트 쿼리를 만들고, 레이아웃 및 스타일을 선택하고, 보고서를 사용자 지정합니다.  
   
 -   **지도 마법사를 시작**하여 지리적 또는 기하학적 배경에 집계된 데이터를 표시하는 보고서를 만듭니다. 지도 데이터는 Transact-SQL 쿼리 또는 ESRI(Environmental Systems Research Institute, Inc.) 셰이프 파일의 공간 데이터일 수 있습니다. Microsoft Bing 지도 타일 배경을 추가할 수도 있습니다.  
 
-##  <a name="DesignRept"></a> 보고서 디자인  
+##  <a name="design-your-report"></a><a name="DesignRept"></a> 보고서 디자인  
   
 -   **테이블, 행렬, 차트 및 자유 형식 레이아웃을 사용하여 페이지를 매긴 보고서를 만듭니다.** 열 기반 데이터의 테이블 보고서, 요약된 데이터에 대한 행렬 보고서(예: 크로스탭 또는 피벗 테이블 보고서), 그래픽 데이터에 대한 차트 보고서 및 그 밖의 자유 형식 보고서를 만듭니다. 보고서에는 동적 웹 기반 애플리케이션의 목록, 그래픽 및 컨트롤과 함께 다른 보고서와 차트가 포함될 수 있습니다.  
   
@@ -52,7 +50,7 @@ ms.locfileid: "78923014"
   
 -   **이미지 포함 또는 참조** 및 외부 콘텐츠를 포함한 리소스.  
   
-##  <a name="ManageRpt"></a> 보고서 관리  
+##  <a name="manage-your-report"></a><a name="ManageRpt"></a> 보고서 관리  
   
 -   컴퓨터 또는 보고서에 **보고서의 정의를 저장**합니다. 여기서 관리하고 다른 사용자와 공유할 수 있습니다.  
   
@@ -63,5 +61,4 @@ ms.locfileid: "78923014"
 ## <a name="next-steps"></a>다음 단계
 
 - [Power BI Premium에서 페이지를 매긴 보고서란?](paginated-reports-report-builder-power-bi.md)
-- [실습 랩: Microsoft Power BI 페이지를 매긴 보고서 만들기](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)를 사용해보세요.
 - YouTube에서 Power BI 수석 프로그램 관리자 Chris Finlan이 진행하는 [Power BI 페이지를 매긴 보고서 비디오 시리즈](https://www.youtube.com/watch?v=78TZeiEhveY&list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ) 시청
