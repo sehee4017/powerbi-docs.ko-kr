@@ -214,7 +214,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * OLE DB
 * BI360 - 예산 및 재무 보고(베타)
 * FHIR
-* 정보 표(베타)
+* Information Grid(베타)
 * Jamf Pro(베타)
 * Power BI용 MicroStrategy
 * Paxata
@@ -225,7 +225,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Tenforce(스마트) 목록(베타)
 * TIBCO(R) 데이터 가상화(베타)
 * Vena(베타)
-* 직원 차원(베타)
+* Workforce Dimensions(베타)
 * Zucchetti HR Infinity(베타)
 * 빈 쿼리
 
@@ -242,7 +242,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 
 ![웹에 연결, 데이터 가져오기 대화 상자, Power BI Desktop](media/desktop-data-sources/data-sources-08.png)
 
-데이터 연결 형식과 관련된 연결 창이 표시됩니다. 자격 증명이 필요한 경우 제공하라는 메시지가 표시됩니다. 다음 그림은 웹 데이터 소스에 연결하기 위해 입력되는 URL을 보여 줍니다.
+데이터 연결 형식과 관련된 연결 창이 표시됩니다. 자격 증명이 필요한 경우 제공하라는 메시지가 표시됩니다. 다음 그림은 웹 데이터 원본에 연결하기 위해 입력되는 URL을 보여 줍니다.
 
 ![입력 URL, 웹에서 대화 상자, Power BI Desktop](media/desktop-data-sources/datasources-fromwebbox.png)
 
@@ -252,7 +252,7 @@ URL 또는 리소스 연결 정보를 입력한 다음 **확인**을 선택합�
 
 데이터를 로드하려면 **탐색기** 창의 맨 아래에서 **로드** 단추를 선택합니다. Power Query 편집기에서 쿼리를 변환하거나 편집하려면 데이터를 로드하기 전에 **데이터 변환** 단추를 선택합니다.
 
-Power BI Desktop에서 데이터 소스에 연결하는 데 필요한 작업을 마쳤습니다. 데이터 원본의 성장 목록에서 데이터에 연결을 시도하고 자주 확인하세요. 항상 이 목록에 계속해서 추가합니다.
+Power BI Desktop에서 데이터 원본에 연결하는 데 필요한 작업을 마쳤습니다. 데이터 원본의 성장 목록에서 데이터에 연결을 시도하고 자주 확인하세요. 항상 이 목록에 계속해서 추가합니다.
 
 ## <a name="using-pbids-files-to-get-data"></a>PBIDS 파일을 사용하여 데이터 가져오기
 
