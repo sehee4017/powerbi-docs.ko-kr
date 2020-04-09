@@ -60,6 +60,8 @@
               href: mobile-apps-view-phone-report.md
             - name: 모바일 앱에서 온-프레미스 보고서 보기
               href: mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+            - name: 'Face ID, Touch ID, 암호 또는 지문 ID로 보호'
+              href: mobile-native-secure-access.md
             - name: 외부 조직(B2B)에서 콘텐츠에 액세스
               href: mobile-apps-b2b.md
             - name: 휴대폰에서 Power BI QR 코드 스캔
@@ -76,8 +78,6 @@
           items:
             - name: iOS 앱 시작
               href: mobile-iphone-app-get-started.md
-            - name: 'Face ID, 터치 ID 또는 암호로 보호'
-              href: mobile-ios-native-secure-access.md
             - name: iOS 모바일 앱의 Q&A 가상 분석가
               href: mobile-apps-ios-qna.md
             - name: Siri 바로 가기 키를 사용하여 Power BI 모바일 앱 통합
@@ -90,6 +90,10 @@
           items:
             - name: Android 앱 시작
               href: mobile-android-app-get-started.md
+            - name: Android 앱 바로 가기 사용
+              href: mobile-app-quick-access-shortcuts.md
+            - name: Google Search를 사용하여 콘텐츠 찾기 및 액세스
+              href: mobile-app-find-access-google-search.md
             - name: '''회사 SSL 인증서를 신뢰할 수 없습니다.'' 수정'
               href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
             - name: '''Android System Webview를 업데이트해야 합니다.'' 수정'
