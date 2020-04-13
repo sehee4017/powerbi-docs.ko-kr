@@ -8,13 +8,13 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
-ms.date: 09/10/2019
-ms.openlocfilehash: 35df214da19d5f35130408ce8128643f52682428
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.date: 04/02/2020
+ms.openlocfilehash: df59d09a1e8557842904b46eded0a83c86448224
+ms.sourcegitcommit: e0833ec22b263f919025acae88551570b4def0cd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78922232"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80647707"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Power BI에서 페이지를 매긴 보고서의 URL 매개 변수
 
@@ -78,6 +78,14 @@ URL에 보고서 매개 변수를 전달하는 예는  [URL에 보고서 매�
 - CSV 
 - PDF 
 - XML 
+
+**매개 변수 패널 상태** 보고서가 로드될 때 매개 변수 패널이 열려 있는지 닫혀 있는지 아니면 모두 숨겨져 있는지를 지정합니다.
+
+-   rdl:parameterPanelState
+
+    - ‘collapsed’: 매개 변수 패널이 닫힌 상태로 보고서를 로드합니다. 사용자가 단추를 클릭하여 확장할 수 있도록 매개 변수 단추가 사용 설정됩니다.
+    - ‘hidden’: 매개 변수 패널이 닫혀 있고 매개 변수 단추가 비활성화된 상태로 보고서를 로드합니다.
+    - ‘expanded’(기본값): 매개 변수 패널이 열려 있고 매개 변수 단추를 사용할 수 있는 상태로 보고서를 로드합니다.
 
 **장치 정보** 다음 내보내기 형식에 대한 추가 출력 매개 변수를 지정할 수 있습니다. 
 

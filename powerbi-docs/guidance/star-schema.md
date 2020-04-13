@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ba1909c5fc75abdf7338572c646d98fca83595b0
-ms.sourcegitcommit: 22991861c2b9454b170222591f64266335b9fcff
+ms.openlocfilehash: a2e53d27a8ca49e9fc318fd25cc20acbb7bacc38
+ms.sourcegitcommit: 34cca70ba84f37b48407d5d8a45c3f51fb95eb3c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79133258"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "80751613"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>별모양 스키마 및 Power BI에서의 중요성 이해
 
@@ -188,7 +188,7 @@ Power BI 모델에서 판매 주문 번호를 기준으로 필터링하거나 �
 
 ![중복 제거 차원 예제](media/star-schema/degenerate-dimension.png)
 
-자세한 내용은 [일 대 일 관계 지침(중복 제거 차원)](relationships-one-to-one.md#degenerate-dimensions)을 참조하세요.
+그러나 Adventure Works Reseller Sales 테이블에 주문 번호 열 ‘및’ 주문 라인 번호 열이 있고 필터링에 해당 열이 필요한 경우 중복 제거 차원 테이블이 적합합니다.  자세한 내용은 [일 대 일 관계 지침(중복 제거 차원)](relationships-one-to-one.md#degenerate-dimensions)을 참조하세요.
 
 ## <a name="factless-fact-tables"></a>팩트리스 팩트 테이블
 
@@ -196,7 +196,7 @@ Power BI 모델에서 판매 주문 번호를 기준으로 필터링하거나 �
 
 팩트리스 팩트 테이블은 차원 키로 정의된 관찰을 저장할 수 있습니다. 예를 들어 특정 날짜 및 시간에 특정 고객이 웹 사이트에 로그인했습니다. 팩트리스 팩트 테이블의 행 수를 계산하는 측정값을 정의하여 얼마나 많은 고객이 언제 로그인했는지 분석할 수 있습니다.
 
-팩트리스 팩트 테이블의 더 매력적인 용도는 차원 간의 관계를 저장하는 것으로, 다대다 차원 관계를 정의하는 데 권장되는 Power BI 모델 디자인 방법입니다. 다대다 차원 관계 디자인에서는 팩트리스 팩트 테이블을 _브리징 테이블_이라고 합니다.
+팩트리스 팩트 테이블의 더 매력적인 용도는 차원 간의 관계를 저장하는 것으로, 다대다 차원 관계를 정의하는 데 권장되는 Power BI 모델 디자인 방법입니다. [다대다 차원 관계 디자인](relationships-many-to-many.md#relate-many-to-many-dimensions)에서는 팩트리스 팩트 테이블을 ‘브리징 테이블’이라고 합니다. 
 
 예를 들어 영업 사원이 하나 ‘이상’의 판매 지역에 할당될 수 있습니다.  브리징 테이블은 영업 사원 키와 지역 키라는 두 개의 열로 구성된 팩트리스 팩트 테이블로 디자인됩니다. 중복 값이 두 열에 모두 저장될 수 있습니다.
 

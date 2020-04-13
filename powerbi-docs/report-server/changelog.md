@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/02/2020
-ms.openlocfilehash: f27f03a88a39ce046ae64454b9b092e87c07d0a3
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.date: 04/08/2020
+ms.openlocfilehash: ff63e38e52a3c8970edfa5b6d9e2ccabeff2e16a
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381103"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979802"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI Report Server에 대한 변경 로그
 
@@ -29,7 +29,7 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
            -  특정 데이터 원본에 대해 업로드하지 못하는 Power BI 보고서를 수정
            -  포털의 Power BI Report Server Desktop 링크 다운로드 위치를 수정
            -  Excel 렌더링을 위한 DynamicImageDPI를 수정
-           -  특정 다중 사용자 시나리오에서 잘못된 스레드 문화권을 사용하는 Oracle 연결을 수정
+           -  특정 다중 사용자 시나리오에서 잘못된 스레드 문화권을 사용하는 Oracle 연결을 수정([UseInstalledUICulture documentation] 참조)(자세한 내용은 https://docs.microsoft.com/power-bi/report-server/connect-data-sources) 참조)
            -  보고서 포함 오류를 발생시키는 CustomHeaders 기본값을 수정
            -  특정 경우에 잘못 생성되는 SQL 매개 변수 이름을 수정
     - *‘버전: 1.6.7327.3007(빌드 15.0.1102.759), 릴리스 날짜: 2020년 1월 23일*

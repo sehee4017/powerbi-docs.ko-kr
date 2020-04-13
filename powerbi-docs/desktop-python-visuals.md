@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 04/03/2020
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: c5105d038480bbee3e534574add91203f54e3119
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 72c285fd57af21fcb3d1a4568a5ff2e83016072f
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609840"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979871"
 ---
 # <a name="create-power-bi-visuals-by-using-python"></a>Python을 사용하여 Power BI 시각적 개체 만들기
 
@@ -155,9 +155,9 @@ plt.show()
 > **Python 스크립트 보안:** Python 시각적 개체는 Python 스크립트에서 생성되며 보안 또는 개인 정보 위험에 대한 코드를 포함할 수 있습니다. 처음으로 Python 시각적 개체를 보거나 조작하려고 하면 사용자에게 보안 경고 메시지가 표시됩니다. 만든 이와 원본을 신뢰하거나 Python 스크립트를 검토하고 파악한 경우에만 Python 시각적 개체를 사용합니다.
 >  
 
-## <a name="more-information-about-plotting-with-matprolib-pandas-and-python"></a>Matprolib, Pandas 및 Python으로 그리기에 대한 자세한 정보
+## <a name="more-information-about-plotting-with-matplotlib-pandas-and-python"></a>Matplotlib, Pandas 및 Python으로 그리기에 대한 자세한 정보
 
-이 자습서는 Power BI Desktop에서 Python으로 시각적 개체 만들기를 시작하는 데 도움이 되도록 작성되었습니다. Python, Pandas 및 Matprolib 라이브러리를 사용하여 시각적 보고서를 만들기 위한 다양한 옵션과 기능은 거의 설명하지 않습니다. 자세한 관련 내용은 외부 사이트에서 제공되며 시각적 개체 만들기를 시작하는 데 유용한 몇 가지 링크는 아래와 같습니다.
+이 자습서는 Power BI Desktop에서 Python으로 시각적 개체 만들기를 시작하는 데 도움이 되도록 작성되었습니다. Python, Pandas 및 Matplotlib 라이브러리를 사용하여 시각적 보고서를 만들기 위한 다양한 옵션과 기능은 거의 설명하지 않습니다. 자세한 관련 내용은 외부 사이트에서 제공되며 시각적 개체 만들기를 시작하는 데 유용한 몇 가지 링크는 아래와 같습니다.
 
 - [Matplotlib](https://matplotlib.org/) 웹 사이트의 문서 
 - [Matplotlib Tutorial: A Basic Guide to Use Matplotlib with Python](https://www.datasciencelearner.com/matplotlib-tutorial-complete-guide-to-use-matplotlib-with-python/)(Matplotlib 자습서: Python과 함께 Matplotlib를 사용하기 위한 기본 가이드) 
@@ -177,6 +177,7 @@ Power BI Desktop의 Python 시각적 개체에는 다음과 같은 몇 가지 �
 - 데이터 업데이트, 필터링 및 강조 표시가 발생하면 Python 시각적 개체가 새로 고쳐집니다. 그러나 이미지 자체는 대화형이 아니며 교차 필터링의 원본으로 사용할 수 없습니다.
 - 다른 시각적 개체를 강조 표시하면 Python 시각적 개체가 그에 응답하지만, Python 시각적 개체의 요소를 클릭하여 다른 요소를 교차 필터링할 수는 없습니다.
 - Python 기본 디스플레이 디바이스에 그려지는 그림만 캔버스에 올바르게 표시됩니다. 다른 Python 디스플레이 디바이스를 명시적으로 사용하지 마세요.
+- Python 시각적 개체는 입력 열의 이름 바꾸기를 지원하지 않습니다. 열은 스크립트 실행 중에 원래 이름으로 참조됩니다.
 
 ## <a name="next-steps"></a>다음 단계
 

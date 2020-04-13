@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/10/2019
+ms.date: 04/06/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 51d7b29eee1394ec1bbcad8d69b39b4e45ecdb18
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 7f300cca6614f638f88886a913b30a93d0f52cfd
+ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74700076"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80813009"
 ---
 # <a name="monitor-capacities-in-the-admin-portal"></a>관리 포털에서 용량 모니터링
 
@@ -23,6 +23,9 @@ ms.locfileid: "74700076"
 ![포털의 용량 상태 탭](media/service-admin-premium-monitor-portal/admin-portal-health.png)
 
 보다 포괄적인 메트릭이 필요한 경우 [Power BI Premium 용량 메트릭](service-admin-premium-monitor-capacity.md) 앱을 사용 합니다. 앱은 드릴다운과 필터링은 물론, 용량 성능에 영향을 주는 거의 모든 측면에 대한 가장 세부적인 메트릭을 제공합니다. 자세히 알아보려면 [앱을 사용하여 프리미엄 용량 모니터링](service-admin-premium-monitor-capacity.md)을 참조하세요.
+
+> [!IMPORTANT]
+> Power BI Premium 용량의 리소스 사용률이 높아서 성능 또는 안정성 문제가 발생할 경우 문제를 식별하고 해결할 수 있도록 알림 메일을 받을 수 있습니다. 자세한 내용은 [용량 및 안정성 알림](service-interruption-notifications.md#capacity-and-reliability-notifications)을 참조하세요.
 
 ## <a name="system-metrics"></a>시스템 메트릭
 

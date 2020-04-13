@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/09/2020
 ms.author: painbar
-ms.openlocfilehash: 6885f635f96da3bbea039f445e83cd7cada144ce
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: af9a1ad5dd13f4f57947b0ca92459e7691eab5fd
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79435976"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802098"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -24,6 +24,20 @@ ms.locfileid: "79435976"
 
 >[!NOTE]
 >**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="march-2020"></a>2020년 3월
+
+### <a name="use-shortcuts-and-google-search-to-launch-your-content-android"></a>바로 가기 및 Google Search를 사용하여 콘텐츠 시작(Android)
+데이터를 쉽게 찾고 시작할 수 있도록 Power BI 앱에 바로 가기와 Google Search가 통합되었습니다. 즐겨 사용하는 보고서와 대시보드의 바로 가기를 만들어서 디바이스의 홈 화면에서 손쉽게 액세스하고, Google Search를 사용하여 Power BI 콘텐츠를 빠르게 검색하고 열어 보세요. [Android 앱 바로 가기](mobile-app-quick-access-shortcuts.md)와 [Google Search](mobile-app-find-access-google-search.md)에 대해 자세히 알아보세요!
+
+### <a name="enhanced-security-using-device-protection-preview-android"></a>디바이스 보호를 사용하는 강화된 보안(미리 보기)(Android)
+디바이스의 기본 제공 보호 기능을 사용하여 Power BI 앱을 보호하고 개인 정보를 보호하세요. Power BI 앱에 액세스할 때 생체 인식 인증(지문 ID)을 요구하면 데이터가 프라이빗 상태로 유지되고 본인만 데이터를 볼 수 있습니다. [기본 보안 액세스에 대한 자세한 정보](mobile-native-secure-access.md)
+
+### <a name="scanning-is-now-available-on-ipad"></a>이제 iPad에서 스캔을 사용할 수 있습니다.
+이제 iPad에서 곧바로 바코드를 스캔하여 보고서를 필터링하고, QR 코드를 사용하여 보고서를 빠르게 열 수 있습니다.  
+
+### <a name="updated-filtering-experience"></a>업데이트된 필터링 환경
+Power BI 앱 필터의 기능과 디자인이 새로워졌습니다. 보고서 시각적 개체에 영향을 주는 적용된 필터의 표시 기능이 개선되었으며, 필터를 잠그고 숨기는 기능이 추가되었습니다. 이에 따라 Power BI 서비스 필터링과의 호환성도 향상되었습니다.
 
 ## <a name="february-2020"></a>2020년 2월
 

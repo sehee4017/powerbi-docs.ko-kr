@@ -7,21 +7,21 @@ featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/21/2019
+ms.date: 04/02/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 8f5d11b53526c5d266b96a8f21c42fecc66d3795
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a67d983d11ae8fa2f82a540c0649c2da475d5249
+ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74163761"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80621622"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Power BI 서비스의 데이터 경고
 
 대시보드의 데이터가 설정해 놓은 한도를 넘어 변경되면 알리도록 경고를 설정합니다.
 
-Power BI Pro 라이선스가 있는 경우 타일에 경고를 설정할 수 있습니다. 누군가가 [프리미엄 용량](service-premium-what-is.md)에 있는 대시보드를 공유하는 경우에도 경고를 설정할 수 있습니다. 경고는 보고서 시각적 개체에서 고정된 타일과 계기, KPI 및 카드에만 설정할 수 있습니다. 보고서에서 대시보드로 고정하는 스트리밍 데이터 세트에서 만든 시각적 개체에 경고를 설정할 수 있습니다. **타일 추가** > **사용자 지정 스트리밍 데이터**를 사용하여 대시보드에서 직접 만든 스트리밍 타일에는 경고를 설정할 수 없습니다.
+내 작업 영역의 타일에 경고를 설정할 수 있습니다. 누군가가 [Premium 용량](service-premium-what-is.md)에 있는 대시보드를 공유하는 경우에도 경고를 설정할 수 있습니다. Power BI Pro 라이선스가 있는 경우 다른 작업 영역의 타일에도 경고를 설정할 수 있습니다. 경고는 보고서 시각적 개체에서 고정된 타일과 계기, KPI 및 카드에만 설정할 수 있습니다. 보고서에서 대시보드로 고정하는 스트리밍 데이터 세트에서 만든 시각적 개체에 경고를 설정할 수 있습니다. **타일 추가** > **사용자 지정 스트리밍 데이터**를 사용하여 대시보드에서 직접 만든 스트리밍 타일에는 경고를 설정할 수 없습니다.
 
 대시보드를 공유하더라도 자신이 설정한 경고만 볼 수 있습니다. 대시보드 소유자도 대시보드 보기에서 설정된 경고를 볼 수 없습니다. 데이터 경고는 플랫폼 전반에서 완전히 동기화되며 [Power BI 모바일 앱](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md) 및 Power BI 서비스에서 데이터 경고를 설정하고 확인합니다. Power BI Desktop에서는 사용할 수 없습니다. 경고를 자동화하고 Power Automate와 통합할 수도 있습니다. [Power Automate 및 Power BI](service-flow-integration.md) 문서에서 직접 사용해 볼 수 있습니다.
 

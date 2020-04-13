@@ -2,18 +2,17 @@
 title: Power BI 앱 구성 설정
 description: MDM 도구를 사용하여 Power BI의 동작을 사용자 지정하는 방법
 author: paulinbar
-ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/07/2020
+ms.date: 04/05/2020
 ms.author: painbar
-ms.openlocfilehash: 1991381f8b2917fe3bc61a8be22fbdf44e706d71
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: ce147be4c23b738e1a09296a5d798fb0f94efe13
+ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79205553"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80802029"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>MDM(모바일 디바이스 관리) 도구를 사용하여 Power BI 앱을 원격으로 구성
 
@@ -22,7 +21,7 @@ iOS 및 Android용 Power BI Mobile 앱은 MDM(모바일 디바이스 관리) 서
 Power BI 모바일 앱은 다음 구성 시나리오를 지원합니다.
 
 * 보고서 서버 구성(iOS 및 Android)
-* 데이터 보호 설정(iOS)
+* 데이터 보호 설정(iOS 및 Android)
 * 상호 작용 설정(iOS 및 Android)
 
 ## <a name="report-server-configuration-ios-and-android"></a>보고서 서버 구성(iOS 및 Android)
@@ -36,13 +35,16 @@ Power BI 모바일 앱은 다음 구성 시나리오를 지원합니다.
 | com.microsoft.powerbi.mobile.ServerDisplayName | String | [선택 사항]<br><br>기본값은 "보고서 서버"입니다.<br><br>서버를 표시하기 위해 앱에서 사용되는 식별 이름입니다. |
 | com.microsoft.powerbi.mobile.OverrideServerDetails | Boolean | [선택 사항]<br><br>기본값은 True입니다. True로 설정하면 모바일 디바이스에 이미 있는 모든 보고서 서버 정의를 재정의합니다. 이미 구성된 기존 서버는 삭제됩니다. 또한 True로 설정된 재정의는 사용자가 해당 구성을 제거하지 않도록 방지합니다.<br><br>기존 설정을 그대로 두고 False로 설정하여 푸시된 값을 추가합니다. 모바일 앱에 동일한 서버 URL이 이미 구성되어 있는 경우 앱 구성을 그대로 유지합니다. 앱은 사용자에게 동일한 서버에 대한 인증을 다시 요청하지 않습니다. |
 
-## <a name="data-protection-settings-ios"></a>데이터 보호 설정(iOS)
+## <a name="data-protection-settings-ios-and-android"></a>데이터 보호 설정(iOS 및 Android)
 
-iOS용 Power BI iOS 앱은 관리자에게 보안 및 개인 정보 설정에 대한 기본 구성을 사용자 지정할 수 있는 기능을 제공합니다. Power BI 앱에 액세스할 때 사용자에게 Face ID, Touch ID 또는 암호를 제공하도록 강제할 수 있습니다.
+iOS 및 Android용 Power BI 모바일 앱은 관리자에게 보안 및 개인 정보 설정에 대한 기본 구성을 사용자 지정할 수 있는 기능을 제공합니다. iOS의 경우 Power BI 모바일 앱에 액세스할 때 사용자에게 Face ID, Touch ID 또는 암호를 제공하도록 요구할 수 있습니다. Android의 경우 사용자가 생체 인식 인증(지문 ID)을 사용하도록 요구할 수 있습니다.
 
 | 키 | 형식 | 설명 |
 |---|---|---|
-| com.microsoft.powerbi.mobile.ForceDeviceAuthentication | Boolean | 기본값은 False입니다. <br><br>사용자가 해당 디바이스에 액세스하기 위해서는 TouchID 또는 FaceID 등의 생체 인식이 필요할 수 있습니다. 필요한 경우 인증 외에 생체 인식도 사용됩니다.<br><br>앱 보호 정책을 사용하는 경우 Microsoft는 이중 액세스 프롬프트를 방지하기 위해 이 설정을 사용하지 않도록 설정하는 것을 권장합니다. |
+| com.microsoft.powerbi.mobile.ForceDeviceAuthentication | Boolean | 기본값은 False입니다. <br><br>사용자가 해당 디바이스에서 앱에 액세스하기 위해서는 TouchID 또는 FaceID(iOS)나 지문 ID(Android) 등의 생체 인식이 필요할 수 있습니다. 필요한 경우 인증 외에 생체 인식도 사용됩니다.<br><br>앱 보호 정책을 사용하는 경우 Microsoft는 이중 액세스 프롬프트를 방지하기 위해 이 설정을 사용하지 않도록 설정하는 것을 권장합니다. |
+
+>[!NOTE]
+>데이터 보호 설정은 생체 인식 인증을 지원하는 Android 디바이스에만 적용됩니다.
 
 ## <a name="interaction-settings-ios-and-android"></a>상호 작용 설정(iOS 및 Android)
 
@@ -71,6 +73,6 @@ Intune 포털을 사용하면 관리자가 앱 구성 정책을 통해 Power BI 
 
 ## <a name="next-steps"></a>다음 단계
 
-* [앱 스토어](https://apps.apple.com/app/microsoft-power-bi/id929738808) 및 [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.powerbim&amp;amp;clcid=0x409)에서 Power BI 모바일 앱 가져오기
+* [App Store](https://apps.apple.com/app/microsoft-power-bi/id929738808) 및 [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.powerbim&amp;amp;clcid=0x409)에서 Power BI 모바일 앱 가져오기
 * [@MSPowerBI Twitter](https://twitter.com/MSPowerBI)에서 팔로우
 * [Power BI 커뮤니티](https://community.powerbi.com/)에서 대화에 참여

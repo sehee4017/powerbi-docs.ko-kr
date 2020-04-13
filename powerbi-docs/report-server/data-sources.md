@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/02/2020
+ms.date: 04/08/2020
 ms.author: maggies
-ms.openlocfilehash: 08eca8ecb9aa941c2670a801113bc711bff409b2
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: 166f72a717c99457e1d6b8e9a1f30535a9b4686f
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78237526"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979848"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI Report Server에서 Power BI 보고서 데이터 원본
 Power BI 보고서는 여러 데이터 원본에 연결할 수 있습니다. 데이터 사용 방법에 따라 다른 데이터 원본을 사용할 수 있습니다. DirectQuery 또는 SQL Server Analysis Services에 대한 라이브 연결을 사용하여 데이터를 가져오거나 데이터를 직접 쿼리할 수 있습니다.
@@ -46,7 +46,7 @@ Power BI 보고서는 여러 데이터 원본에 연결할 수 있습니다. 데
 | Dynamics 365(온라인) |예 |아니요 |아니요 |
 | Facebook |예 |아니요 |아니요 |
 | 폴더 |예 |예 |아니요 |
-| Google 애널리틱스 |예 |아니요 |아니요 |
+| Google 웹로그 분석 |예 |아니요 |아니요 |
 | HDFS(Hadoop 파일) |예 |아니요 |아니요 |
 | IBM DB2 데이터베이스 |예 |예 |아니요 |
 | Impala |예 |아니요 |아니요 |
@@ -133,7 +133,7 @@ Power BI Report Server는 모델 새로 고침을 위한 OAuth 기반 인증을 
 | Dynamics 365(온라인) |아니요 |아니요 |아니요 |아니요 |
 | Facebook |아니요 |아니요 |아니요 |아니요 |
 | 폴더 |아니요 |아니요 |아니요 |예 |
-| Google 애널리틱스 |아니요 |아니요 |아니요 |아니요 |
+| Google 웹로그 분석 |아니요 |아니요 |아니요 |아니요 |
 | HDFS(Hadoop 파일) |아니요 |아니요 |아니요 |아니요 |
 | IBM DB2 데이터베이스 |아니요 |아니요 |예 |예 |
 | Impala |아니요 |아니요 |아니요 |아니요 |
@@ -156,7 +156,7 @@ Power BI Report Server는 모델 새로 고침을 위한 OAuth 기반 인증을 
 | SharePoint Online 목록 |아니요 |아니요 |아니요 |아니요 |
 | Snowflake |아니요 |아니요 |아니요 |아니요 |
 | Sybase 데이터베이스 |아니요 |아니요 |예 |예 |
-| Teradata |아니요 |아니요 |예 |예 |
+| Teradata |아니요 |아니요 |예 |예** |
 | appFigures(베타) |아니요 |아니요 |아니요 |아니요 |
 | Azure Analysis Services 데이터베이스(베타) |아니요 |아니요 |아니요 |아니요 |
 | Azure Cosmos DB(베타) |아니요 |아니요 |아니요 |아니요 |
@@ -189,6 +189,8 @@ Power BI Report Server는 모델 새로 고침을 위한 OAuth 기반 인증을 
 | Visual Studio Team Services(베타) |아니요 |아니요 |아니요 |아니요 |
 | Webtrends(베타) |아니요 |아니요 |아니요 |아니요 |
 | Zendesk(베타) |아니요 |아니요 |아니요 |아니요 |
+
+**Teradata에서 LDAP 인증을 사용하는 것(Power BI Desktop에서 명령 프롬프트 명령 ‘setx PBI_EnableTeradataLdap true’를 사용하여 설정)은 모델 새로 고침에서 지원되지 않습니다.
 
 ## <a name="list-of-supported-authentication-methods-for-directquery"></a>DirectQuery를 위해 지원되는 인증 방법 목록
 

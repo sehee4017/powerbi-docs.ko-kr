@@ -7,19 +7,19 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/31/2020
+ms.date: 04/06/2020
 ms.author: lukaszp
 LocalizationGroup: Samples
-ms.openlocfilehash: 432312b5ceb7632e0249d1d7dda6158bf97d0224
-ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
+ms.openlocfilehash: 66e76c21e7d5171d24ff1518745a35947aa7ca42
+ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80472063"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80979779"
 ---
 # <a name="covid-19-tracking-sample-for-us-state-and-local-governments"></a>미국 주 및 지방 정부를 위한 COVID-19 추적 샘플
 
-Power BI 팀은 미국 주 및 지방 정부가 COVID-19에 대한 대화형 보고서를 게시하거나 사용자 지정할 수 있는 COVID-19 추적 샘플을 만들었습니다. Power BI Desktop을 사용하여 COVID-19 데이터를 분석하고 시각화하여 시, 카운티, 주 및 전국 수준에서 커뮤니티에 정보를 제공할 수 있습니다. 그런 다음 Power BI 웹에 게시 기능을 사용하여 시민에게 보고서를 공개할 수 있습니다. 이 문서에서는 자체 공용 스토리, 블로그 또는 웹 사이트에서 Power BI 대화형 시각화를 사용하기 위한 세 가지 옵션을 제공합니다.
+Power BI 팀은 미국 주 및 지방 정부가 COVID-19에 대한 대화형 보고서를 게시하거나 사용자 지정할 수 있는 COVID-19 추적 샘플을 만들었습니다. Power BI Desktop을 사용하여 COVID-19 데이터를 분석하고 시각화하여 시, 카운티, 주 및 전국 수준에서 커뮤니티에 정보를 제공할 수 있습니다. 그런 다음 Power BI 웹에 게시 기능을 사용하여 시민에게 보고서를 공개할 수 있습니다. 이 문서에서는 자체 공용 스토리, 블로그 또는 웹 사이트에서 Power BI 대화형 시각화를 사용하기 위한 여러 옵션을 제공합니다.
 
 :::image type="content" source="media/sample-covid-19-us/covid-19-us-tracking-sample.png" alt-text="미국 데이터를 사용하는 COVID-19 샘플":::
 
@@ -45,10 +45,10 @@ Microsoft는 샘플 보고서를 게시하고 웹에 게시 embed 태그를 만�
 대화형 그래픽을 사이트에 포함시키려면 다음 embed 태그를 복사하여 웹 페이지에서 그래픽을 표시하려는 위치에 붙여넣습니다.  
 
 ```
-<iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiMmI2ZjExMzItZTcwNy00YmUwLWFlMTAtYTUxYzVjODZmYjA5IiwidCI6ImMxMzZlZWMwLWZlOTItNDVlMC1iZWFlLTQ2OTg0OTczZTIzMiIsImMiOjF9" frameborder="0" allowFullScreen="true"></iframe>
+<iframe width="1600" height="900" src="https://app.powerbi.com/view?r=eyJrIjoiMmI2ZjExMzItZTcwNy00YmUwLWFlMTAtYTUxYzVjODZmYjA5IiwidCI6ImMxMzZlZWMwLWZlOTItNDVlMC1iZWFlLTQ2OTg0OTczZTIzMiIsImMiOjF9" frameborder="0" allowFullScreen="true"></iframe>
 ```
 
-Embed 태그는 HTML 페이지에 삽입할 수 있는 HTML iFrame 요소입니다. 제공된 iFrame의 너비와 높이를 사이트에 맞게 조정합니다. 샘플 보고서는 16:9 비율로 작성되었으므로 이 차원을 유지하는 크기를 선택합니다. 올바르게 구현되면 그래픽이 회색 테두리 없이 표시됩니다. 이러한 변경 작업을 수행할 때 [iFrame 크기 조정 팁과 요령을 검토](https://docs.microsoft.com/power-bi/service-publish-to-web#tips-and-tricks-for-iframe-height-and-width)하면 유용합니다.
+Embed 태그는 HTML 페이지에 삽입할 수 있는 HTML iFrame 요소입니다. 제공된 iFrame의 너비와 높이를 사이트에 맞게 조정합니다. 샘플 보고서는 16:9 비율로 작성되었으므로 이 차원을 유지하는 크기를 선택합니다. 올바르게 구현되면 그래픽이 회색 테두리 없이 표시됩니다. 이러한 변경 작업을 수행할 때 [iFrame 크기 조정 팁과 요령을 검토](../service-publish-to-web.md#tips-and-tricks-for-iframe-height-and-width)하면 유용합니다.
 
 ## <a name="option-2-customize-the-sample-power-bi-file"></a>옵션 2: 샘플 Power BI 파일 사용자 지정
 
@@ -104,7 +104,7 @@ USAFacts 데이터는 저작자 표시가 필요한 Creative Commons 라이선�
 1. 데이터 원본 자격 증명 인증 방법: 익명
 2. 이 데이터 원본에 대한 개인 정보 수준 설정: 공개
 
-새로 고침 설정을 테스트하려면 [데이터 세트 항목에서 사용할 수 있는 지금 새로 고침 옵션](../refresh-data.md#data-refresh)을 선택합니다.
+새로 고침 설정을 테스트하려면 데이터 세트 항목에서 사용할 수 있는 [지금 새로 고침](../refresh-data.md#data-refresh) 옵션을 선택합니다.
 
 새로 고친 데이터는 일정이 실행될 때마다 로드됩니다. 기본 데이터는 USAFacts에서 제공되며 설정한 새로 고침 일정만큼 자주 업데이트되지 않을 수 있습니다. [USAFacts 웹 사이트](https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/)를 확인하여 기본 데이터가 마지막으로 업데이트된 시기를 알 수 있습니다. 
 
@@ -147,6 +147,11 @@ Power BI Desktop에서 보고서를 변경한 경우 Power BI 서비스에서 �
     
 그런 다음 Power BI Desktop을 사용하여 데이터를 시각화할 수 있습니다. 마지막으로 **옵션 2:** [Power BI 서비스에 보고서 게시](#publish-your-report-to-the-power-bi-service)의 단계를 사용하여 보고서를 게시하고 사용자 지정 embed 태그를 만듭니다. 
 
+## <a name="option-4-use-the-covid-19-us-tracking-template-app"></a>옵션 4: 코로나바이러스감염증-19 미국 추적 템플릿 앱 사용
+
+한 가지 옵션이 더 있습니다. Power BI 팀은 사용자가 곧바로 시작할 수 있도록 코로나바이러스감염증-19 미국 추적 ‘템플릿 앱’을 만들었습니다.  템플릿 앱은 특정 데이터 원본에 대한 보고서, 대시보드, 데이터 세트의 번들입니다. 템플릿 앱은 AppSource에서 다운로드하여 필요에 맞게 사용하거나 수정할 수 있으며, 동료들에게 배포할 수 있습니다. 
+
+코로나바이러스감염증-19 미국 추적 템플릿 앱에는 그대로 사용하거나 Power BI 서비스에서 곧바로 사용자 지정하거나 원하는 경우 다른 데이터 원본에 다운로드하여 추가할 수 있는 미리 작성된 코로나바이러스감염증-19 메트릭 보고서가 포함되어 있습니다. [코로나바이러스감염증-19 미국 추적 템플릿 앱](../connect-data/service-connect-to-covid-19-tracking.md)을 설치하는 방법을 알아보고 바로 시작하세요.
 
 ## <a name="about-the-data-source-for-this-report"></a>이 보고서용 데이터 원본 정보
 이 대화형 보고서는 질병통제센터(CDC)와 주 및 지방 보건 기관에서 데이터를 집계합니다. 카운티 수준 데이터는 주 및 지방 보건 기관을 직접 참조(링크)하여 확인됩니다.

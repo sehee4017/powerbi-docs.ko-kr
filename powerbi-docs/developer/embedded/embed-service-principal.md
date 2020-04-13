@@ -9,24 +9,18 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/30/2020
-ms.openlocfilehash: 9ec08ebe583110b2775f107be0ace2a03929c72d
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: 7ae2752627e24c5de2feed372009061e523a3fc8
+ms.sourcegitcommit: 34cca70ba84f37b48407d5d8a45c3f51fb95eb3c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80403540"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "80751641"
 ---
 # <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>서비스 주체 및 애플리케이션 암호를 사용하여 Power BI 콘텐츠 포함
 
-서비스 주체는 Azure AD 애플리케이션이 콘텐츠 및 API Power BI 서비스에 액세스하도록 하는 데 사용할 수 있는 인증 방법입니다.
+[!INCLUDE[service principal overview](../../includes/service-principal-overview.md)]
 
-Azure AD(Azure Active Directory) 앱을 만들 때 [서비스 주체 개체](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object)가 만들어집니다. 서비스 주체 개체(*서비스 주체*라고도 함)는 Azure AD가 앱을 인증하도록 합니다. 인증된 앱은 Azure AD 테넌트 리소스에 액세스할 수 있습니다.
-
-인증을 위해 서비스 주체는 Azure AD 앱의 *애플리케이션 ID*와 다음 중 하나를 사용합니다.
-* 애플리케이션 암호
-* 인증서
-
-이 문서에서는 *애플리케이션 ID* 및 *애플리케이션 암호*를 사용한 서비스 주체 인증에 대해 설명합니다. 인증서를 통해 서비스 주체를 사용하여 인증하려면 [Power BI 인증서 기반 인증]()을 참조하세요.
+이 문서에서는 *애플리케이션 ID* 및 *애플리케이션 암호*를 사용한 서비스 주체 인증에 대해 설명합니다.
 
 ## <a name="method"></a>메서드
 
@@ -55,12 +49,12 @@ Azure AD(Azure Active Directory) 앱을 만들 때 [서비스 주체 개체](htt
 ## <a name="step-1---create-an-azure-ad-app"></a>1단계 - Azure AD 앱 만들기
 
 다음 방법 중 하나를 사용하여 Azure AD 앱을 만듭니다.
-* [Microsoft Azure Portal](https://ms.portal.azure.com/#allservices)에서 앱 만들기
+* [Microsoft Azure Portal](https://portal.azure.com/#allservices)에서 앱 만들기
 * [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-3.6.1)을 사용하여 앱을 만듭니다.
 
 ### <a name="creating-an-azure-ad-app-in-the-microsoft-azure-portal"></a>Microsoft Azure Portal에서 Azure AD 앱 만들기
 
-1. [Microsoft Azure](https://ms.portal.azure.com/#allservices)에 로그인합니다.
+1. [Microsoft Azure](https://portal.azure.com/#allservices)에 로그인합니다.
 
 2. **앱 등록**을 검색하고 **앱 등록** 링크를 클릭합니다.
 
@@ -72,7 +66,7 @@ Azure AD(Azure Active Directory) 앱을 만들 때 [서비스 주체 개체](htt
 
 4. 필수 정보를 입력합니다.
     * **이름** - 애플리케이션의 이름을 입력합니다.
-    * **지원되는 계정 유형** - 지원되는 계정 유형을 선택합니다.
+    * **지원되는 계정 유형** - 필요한 Azure AD 계정을 선택합니다.
     * (선택 사항) **리디렉션 URI** - 필요한 경우 URI를 입력합니다.
 
 5. **등록**을 클릭합니다.
@@ -205,5 +199,3 @@ Azure AD 앱이 Power BI 서비스의 보고서, 대시보드, 데이터 세트�
 * [고객을 위한 Power BI Embedded](embed-sample-for-customers.md)
 
 * [서비스 주체가 있는 온-프레미스 데이터 게이트웨이를 사용하는 행 수준 보안](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
-
-* [서비스 주체 및 인증서를 사용하여 Power BI 콘텐츠 포함]()

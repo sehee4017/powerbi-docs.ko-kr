@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 12/19/2019
+ms.date: 04/06/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: ae11ec64a0bffbd3e64c0fd677a7225c2b31f521
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: c15576ac6ab9b20a3492341c05d2f9d8eb42e107
+ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488686"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80813055"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Power BI Premium 메트릭 앱
 
@@ -27,6 +27,9 @@ ms.locfileid: "79488686"
 ![Power BI Premium 메트릭 앱](media/service-premium-metrics-app/premium-metrics-app-00.png)
 
 다음 섹션에서는 방문 페이지와 세 가지 메트릭 보고서 페이지를 자세히 설명합니다. 
+
+> [!IMPORTANT]
+> Power BI Premium 용량의 리소스 사용률이 높아서 성능 또는 안정성 문제가 발생할 경우 문제를 식별하고 해결할 수 있도록 알림 메일을 받을 수 있습니다. 자세한 내용은 [용량 및 안정성 알림](service-interruption-notifications.md#capacity-and-reliability-notifications)을 참조하세요.
 
 ## <a name="premium-capacity-health-center"></a>프리미엄 용량 상태 센터
 
@@ -50,7 +53,7 @@ ms.locfileid: "79488686"
 
 **활성 메모리** KPI는 용량의 활성 메모리가 70% 임계값을 50회 초과한 횟수를 측정합니다(마커는 지난 7일의 30%로 설정되어 있습니다). 이는 용량이 쿼리 성능 문제가 발생할 수 있는 지점에 접근하고 있음을 나타냅니다.
 
-이 섹션에 표시된 계기 시각적 개체는 보고서를 마지막으로 새로 고친 때로부터 지난 7일 동안 용량이 70% 임계값을 네 번 초과한 것을 시간별 버킷으로 분할하여 나타냅니다. 계기의 최댓값인 168은 지난 7일을 시간 단위로 나타낸 것입니다.
+이 섹션에 표시된 계기 시각적 개체는 보고서를 마지막으로 새로 고친 때로부터 지난 7일 동안 용량이 70% 임계값을 네 번 초과한 것을 시간별 버킷으로 분할하여 나타냅니다. 계기의 최대값인 168은 지난 7일을 시간 단위로 나타낸 것입니다.
 
 활성 메모리 KPI의 세부 정보를 알아보려면 **탐색** 단추를 클릭하여 보고서 페이지를 확인합니다. 이 페이지는 페이지 오른쪽 열에 표시되는 문제 해결 가이드와 함께 상세 메트릭의 특정 시각화를 제공합니다. 
 
