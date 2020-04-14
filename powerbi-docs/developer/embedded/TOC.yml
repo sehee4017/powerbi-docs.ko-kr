@@ -48,6 +48,8 @@
           href: embed-from-apps.md
         - name: 파일로 보고서 내보내기
           href: export-to.md
+        - name: 페이지를 매긴 보고서를 파일로 내보내기
+          href: export-paginated-report.md
         - name: 앱 자동 설치
           href: embed-auto-install-app.md
         - name: Azure Active Directory 테넌트 만들기

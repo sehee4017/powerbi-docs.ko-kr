@@ -76,6 +76,8 @@
               href: service-security-data-protection-metrics-report.md
         - name: 행 수준 보안
           href: ../service-admin-rls.md
+        - name: 데이터 세트 및 데이터 흐름 인증 설정
+          href: service-admin-setup-certification.md
         - name: Intune으로 모바일 앱 구성
           href: ../service-admin-mobile-intune.md
         - name: Power BI Premium
