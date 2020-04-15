@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/25/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 44d7559d573eb58a303b509f726d5a7aaab3be79
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.openlocfilehash: a4c1357ba2bcd4e4703a09974ee01a3ee10ad87b
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80273595"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006552"
 ---
 # <a name="tips-to-improve-analysis-with-shapes-images-and-icons-in-power-bi-reports"></a>Power BI 보고서에서 셰이프, 이미지 및 아이콘을 사용하여 분석을 향상하기 위한 팁
 
@@ -22,7 +22,7 @@ ms.locfileid: "80273595"
 
 Power BI 보고서에서 셰이프, 이미지 및 아이콘을 사용하여 분석을 향상하기 위한 4가지 팁을 보여 주는 비디오를 시청하세요.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-gLwXonWNsI" frameborder="0" allowfullscreen></iframe>
+> [!VIDEO https://www.youtube.com/embed/-gLwXonWNsI]
 
 ## <a name="tips"></a>팁
 

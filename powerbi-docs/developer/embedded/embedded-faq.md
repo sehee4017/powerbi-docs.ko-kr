@@ -96,7 +96,7 @@ PRO 라이선스가 있는 포함 토큰은 개발 테스트용이므로 Power B
 
 PBI 포털을 사용하여 PBI 테넌트 지역을 찾을 수 있습니다.
 
-[https://app.powerbi.com/](`https://app.powerbi.com/`) > ? > Power BI 정보
+`https://app.powerbi.com/` > ? > Power BI 정보
 
 ![Power BI 정보](media/embedded-faq/about-01.png)
 ![테넌트 지역](media/embedded-faq/tenant-location-01.png)

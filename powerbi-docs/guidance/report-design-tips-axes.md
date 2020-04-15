@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 1b5d90ac539f22f53f17ce0c6d4b2d1a354d3476
-ms.sourcegitcommit: d65da4738f011beec8f4423085cbd483511cdfb0
+ms.openlocfilehash: 2c0d7c90c92a0a20fb7acf2985707c2bc99a69bc
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78238032"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006598"
 ---
 # <a name="tips-to-manage-axes-in-power-bi-reports"></a>Power BI 보고서에서 축을 관리하기 위한 팁
 
@@ -22,7 +22,7 @@ ms.locfileid: "78238032"
 
 Power BI 보고서에서 축을 효과적으로 관리하기 위한 8가지 팁을 보여 주는 비디오를 시청하세요.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3t9W7Xvpzo0" frameborder="0" allowfullscreen></iframe>
+> [!VIDEO https://www.youtube.com/embed/3t9W7Xvpzo0]
 
 ## <a name="tips"></a>팁
 

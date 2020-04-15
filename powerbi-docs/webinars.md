@@ -7,13 +7,13 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
-ms.author: v-tatero
-ms.openlocfilehash: 83c0020549fd2bad939aa0876b82e58abcc88295
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.author: kfollis
+ms.openlocfilehash: 08e1303d0f1a5ee9e0e3e4e778e3f81e0a183df5
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381333"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267552"
 ---
 # <a name="power-bi-webinars"></a>Power BI 웹 세미나
 
@@ -152,7 +152,7 @@ ms.locfileid: "79381333"
 <br>저자: Iman Eftekhari, Agile Analytics의 Julia Paton 및 QBE Insurance의 Shahram Karimi
 <br>[등록 및 지금 보기](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html?Lcid=en-us)
 
-**소비재 상품 제조업체와 소매업체의 상생 실현**
+**소비재 상품 제조업체와 판매점의 상생 실현**
 <br>Thorogood의 작성자 Liz McCreesh
 <br>[등록 및 지금 보기](https://info.microsoft.com/Achieving-a-Win-Win-for-Consumer-Packaged-Goods-Manufacturers-and-Retailers-registration.html)
 

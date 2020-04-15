@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ae57579c88924d4c34ec2c2a1d4aed5238dce64b
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 364736ae8f4cf800c9c63282feb07f8e081aeb42
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74695844"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006667"
 ---
 # <a name="enable-encryption-for-sap-hana"></a>SAP HANA에 대한 암호화 사용
 
@@ -92,7 +92,7 @@ HANA 서버에 연결하는 데 사용할 클라이언트가 신뢰하는 CA(인
     openssl x509 -outform der -in your-cert.pem -out your-cert.crt
     ```
     
-    OpenSSL을 변환에 사용하는 방법에 대한 자세한 내용은 [OpenSSL 설명서](https://www.openssl.org/docs/manmaster/man1/x509.html)를 참조하세요.
+    OpenSSL을 변환에 사용하는 방법에 대한 자세한 내용은 [OpenSSL 설명서](https://www.openssl.org/docs/man1.0.2/man3/x509.html)를 참조하세요.
 
 ## <a name="test-the-connection"></a>연결 테스트
 
