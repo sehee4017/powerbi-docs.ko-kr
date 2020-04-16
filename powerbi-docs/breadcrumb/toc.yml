@@ -32,6 +32,9 @@
             - name: 단계별 학습
               tocHref: /power-bi/guided-learning/
               topicHref: /power-bi/guided-learning/
+            - name: 학습 카탈로그
+              tocHref: /power-bi/learning-catalog/
+              topicHref: /power-bi/learning-catalog/index
             - name: 보고서 서버
               tocHref: /power-bi/report-server/
               topicHref: /power-bi/report-server/index
