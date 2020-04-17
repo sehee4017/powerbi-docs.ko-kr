@@ -19,3 +19,5 @@
       href: learning-catalog-functional-consultant.md
     - name: 솔루션 설계자
       href: learning-catalog-solution-architect.md
+    - name: DAX 소개
+      href: ../guided-learning/introductiontodax.yml?tutorial-step=1

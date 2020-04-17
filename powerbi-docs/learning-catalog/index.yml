@@ -1,6 +1,6 @@
 ### YamlMime:Landing
 title: Power BI 학습 카탈로그
-summary: Power BI와 관련된 모든 학습 옵션 찾기
+summary: Power BI에 대한 학습 옵션 찾기
 metadata:
   title: Power BI 학습 카탈로그
   description: 조직의 역할에 적합한 Power BI 학습 옵션을 찾습니다.
@@ -9,12 +9,12 @@ metadata:
   author: loreleishannonmsft
   ms.author: v-lshann
   ms.date: 04/08/2020
-  ms.openlocfilehash: aff1866616a10e5df124619261d8398bda5c51a3
-  ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+  ms.openlocfilehash: 9f03f812eb20454f655a876438312ba50b521a29
+  ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 04/13/2020
-  ms.locfileid: "81269044"
+  ms.lasthandoff: 04/16/2020
+  ms.locfileid: "81439299"
 landingContent:
 - title: 비즈니스 의사 결정권자
   linkLists:

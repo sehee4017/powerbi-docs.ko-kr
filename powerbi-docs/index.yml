@@ -13,12 +13,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/31/2020
-  ms.openlocfilehash: ac6ecb181cd5b06e54ab611976532638d43359f6
-  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.openlocfilehash: 0ad39302737284ecbde50a8810b740d68706c809
+  ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 04/01/2020
-  ms.locfileid: "80487696"
+  ms.lasthandoff: 04/16/2020
+  ms.locfileid: "81439394"
 highlightedContent:
   items:
   - title: 미국 데이터로 코로나바이러스감염증-19 보고서 만들기
@@ -217,19 +217,19 @@ conceptualContent:
     footerLink:
       url: guidance/index.yml
       text: 자세히 보기
-  - title: 알아보기
+  - title: 학습 카탈로그
     links:
-    - url: https://docs.microsoft.com/learn/modules/explore-power-bi-service/
+    - url: learning-catalog/learning-catalog-bdm.md
       itemType: learn
-      text: Power BI로 수행할 수 있는 작업 알아보기
-    - url: https://docs.microsoft.com/learn/modules/analyze-data-power-bi/
+      text: 비즈니스 의사 결정권자
+    - url: guided-learning/introductiontodax.yml?tutorial-step=1
       itemType: learn
-      text: 데이터 분석
-    - url: https://docs.microsoft.com/learn/modules/get-started-with-power-bi/
+      text: DAX 시작
+    - url: learning-catalog/learning-catalog-solution-architect.md
       itemType: learn
-      text: 빌드 시작하기
+      text: 솔루션 설계자
     footerLink:
-      url: guided-learning/index.yml
+      url: learning-catalog/index.yml
       text: 자세히 보기
 additionalContent:
   sections:

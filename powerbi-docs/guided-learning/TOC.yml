@@ -14,5 +14,3 @@
   href: 'https://docs.microsoft.com/learn/modules/explore-data-power-bi'
 - name: 게시 및 공유
   href: 'https://docs.microsoft.com/learn/modules/publish-share-power-bi'
-- name: DAX 소개
-  href: introductiontodax.yml?tutorial-step=1

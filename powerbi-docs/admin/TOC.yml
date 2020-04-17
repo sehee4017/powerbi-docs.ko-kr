@@ -16,14 +16,24 @@
       items:
         - name: Microsoft 365의 관리 역할
           href: ../service-admin-role.md
+        - name: 조직에 대한 라이선싱
+          href: ../service-admin-licensing-organization.md
+        - name: 미국 정부용 Power BI
+          items:
+            - name: 미국 정부용 Power BI
+              href: ../service-govus-overview.md
+            - name: 미국 정부 기관 등록
+              href: ../service-govus-signup.md
+        - name: 지역 클라우드의 Power BI
+          items:
+            - name: Go 로컬 독일 지역으로 마이그레이션
+              href: service-admin-migrate-data-germany.md
+            - name: 독일 클라우드 고객을 위한 FAQ
+              href: ../service-govde-faq.md
         - name: 질문과 대답(FAQ)
           href: ../service-admin-faq.md
         - name: 고가용성 및 장애 조치(failover) FAQ
           href: ../service-admin-failover.md
-        - name: Go 로컬 독일 지역으로 마이그레이션
-          href: service-admin-migrate-data-germany.md
-        - name: 독일 클라우드 고객을 위한 FAQ
-          href: ../service-govde-faq.md
         - name: Power BI Premium
           items:
             - name: 프리미엄 용량 관리
@@ -38,14 +48,14 @@
       items:
         - name: 라이선싱 및 등록
           items:
-            - name: 조직에 대한 라이선싱
-              href: ../service-admin-licensing-organization.md
+            - name: 조직용 Power BI를 사용해 보세요.
+              href: service-admin-org-subscription.md
             - name: Power BI Pro 구매
               href: ../service-admin-purchasing-power-bi-pro.md
-            - name: 미국 정부용 Power BI
-              href: ../service-govus-overview.md
-            - name: 미국 정부 기관 등록
-              href: ../service-govus-signup.md
+            - name: 셀프 서비스 등록 사용 안 함
+              href: service-admin-disable-self-service.md
+            - name: 사용자 라이선스 보기 및 관리
+              href: service-admin-manage-licenses.md
             - name: Microsoft 365 평가판으로 등록
               href: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
             - name: Microsoft 365 파트너를 통해 Power BI 추가
