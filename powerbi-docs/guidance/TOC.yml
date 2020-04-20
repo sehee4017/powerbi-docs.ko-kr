@@ -108,6 +108,8 @@
               href: gateway-onprem-sizing.md
             - name: 보고서 성능 모니터링
               href: monitor-report-performance.md
+            - name: 보고서 성능 문제 해결
+              href: report-performance-troubleshoot.md
     - name: 백서
       items:
         - name: 백서 개요
