@@ -23,6 +23,8 @@
           items:
             - name: 새 작업 영역 만들기
               href: ../service-create-the-new-workspaces.md
+            - name: 작업 영역용 새 디자인 옵트인
+              href: service-workspaces-new-look.md
             - name: 클래식 작업 영역 업그레이드
               href: ../designer/service-upgrade-workspaces.md
             - name: 작업 영역 만들기
@@ -65,8 +67,6 @@
               href: ../service-publish-to-web.md
             - name: OneDrive의 Excel 통합 문서에 연결하는 대시보드 공유
               href: ../service-share-dashboard-that-links-to-excel-onedrive.md
-            - name: Excel용 Power BI 게시자
-              href: ../publisher-for-excel.md
         - name: Power BI 확장
           items:
             - name: Excel에서 분석
