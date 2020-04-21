@@ -6,19 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/04/2018
+ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: aa7dc612d7a1b16fdc02fb1b40c98257cda3183d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 2feb20907bbcffcb8aa395705b34604ebbedb682
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877594"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006506"
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi"></a>Power BI에서 크기를 조정할 수 있는 반응형 슬라이서 만들기
 
-반응형 슬라이서 크기를 보고서 공간에 맞게 조정합니다. 반응형 슬라이서를 사용하면 가로부터 정사각형 및 세로까지 다양한 크기와 모양으로 크기를 변경할 수 있으며, 사용자가 조작하는 대로 슬라이서의 값이 자동으로 다시 정렬됩니다. Power BI Desktop 및 Power BI 서비스에서 수평 슬라이서 및 날짜/범위 슬라이서를 반응형으로 만들 수 있습니다. 또한 날짜/범위 슬라이서는 손끝으로 손쉽게 변경할 수 있도록 터치 영역이 개선되었습니다. 반응형 슬라이서를 원하는 대로 작게 또는 크게 변경할 수 있습니다. 그러면 Power BI 서비스 및 Power BI 모바일 앱의 보고서에 잘 맞도록 자동으로 크기가 변경됩니다. 
+[!INCLUDE [applies-to](includes/applies-to.md)] [!INCLUDE [yes-desktop](includes/yes-desktop.md)] [!INCLUDE [yes-service](includes/yes-service.md)]
+
+반응형 슬라이서 크기를 보고서 공간에 맞게 조정합니다. 반응형 슬라이서를 사용하면 가로부터 정사각형 및 세로까지 다양한 크기와 모양으로 크기를 변경할 수 있으며, 사용자가 조작하는 대로 슬라이서의 값이 자동으로 다시 정렬됩니다. Power BI Desktop 및 Power BI 서비스에서 가로 슬라이서 및 날짜/범위 슬라이서를 반응형으로 만들 수 있습니다. 또한 날짜/범위 슬라이서는 손끝으로 손쉽게 변경할 수 있도록 터치 영역이 개선되었습니다. 반응형 슬라이서를 원하는 대로 작게 또는 크게 변경할 수 있습니다. 그러면 Power BI 서비스 및 Power BI 모바일 앱의 보고서에 잘 맞도록 자동으로 크기가 변경됩니다. 
 
 ![다양한 모양이 될 수 있는 반응형 슬라이서](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer.gif)
 
@@ -73,7 +75,7 @@ Power BI Desktop에서는 보고서의 각 페이지에 대한 휴대폰 레이�
 동일한 단계에 따라 시간 또는 범위 슬라이서를 반응형으로 만들 수 있습니다. **반응형**을 **켜기**로 설정한 후 다음과 같은 몇 가지를 확인할 수 있습니다.
 
 - 시각적 개체는 캔버스에서 허용되는 크기에 따라 입력란의 순서를 최적화합니다. 
-- 데이터 요소 표시는 캔버스에서 허용된 크기에 따라 슬라이서를 최대한 사용 가능하도록 최적화됩니다. 
+- 데이터 요소 표시는 캔버스에서 허용된 크기에 따라 슬라이서를 최대한 사용 가능하게 만들도록 최적화되었습니다. 
 - 슬라이더에서 새 라운드 핸들바는 터치 상호 작용을 최적화합니다. 
 - 시각적 개체가 너무 작아서 유용하게 사용할 수 없는 경우 해당 위치에서 시각적 유형을 나타내는 아이콘이 됩니다. 이와 상호 작용하려면 두 번 탭하여 포커스 모드로 엽니다. 그러면 유용한 공간이 기능 손실 없이 보고서 페이지에 저장됩니다.
 

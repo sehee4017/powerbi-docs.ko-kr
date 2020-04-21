@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: be8716cebb091dafcc927b4bd1ecd0942ad88b47
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: cd2086facbeb581a4418a3358a79cca0e80140ff
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79208060"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267345"
 ---
 # <a name="dataset-modes-in-the-power-bi-service"></a>Power BI 서비스의 데이터 세트 모드
 
@@ -77,18 +77,9 @@ DirectQuery 모델과 관련하여 다음과 같은 몇 가지 이점이 있습�
 - [자동 페이지 새로 고침](desktop-automatic-page-refresh.md) 기능을 사용하여 실시간 보고서를 개발할 수 있습니다.
 - DirectQuery 모델을 기반으로 하는 대시보드 타일은 15분 마다 자동으로 업데이트될 수 있습니다.
 
-그러나 다음과 같이 DirectQuery 모델과 관련된 단점 및 제한 사항이 다수 있습니다.
+그러나 다음과 같이 DirectQuery 모델과 관련된 몇 가지 제한 사항이 있습니다.
 
-- 모델은 지원되는 데이터 원본 하나를 기반으로 해야 합니다. 이 때문에 데이터 원본에서 이미 데이터 통합이 수행되어야 하는 것입니다. 지원되는 데이터 원본은 널리 사용되는 많은 데이터 저장소를 지원하는 관계형 및 분석 시스템입니다.
-
-    > [!TIP]
-    > 많은 Microsoft 데이터 원본이 지원됩니다. Microsoft 데이터 원본에는 SQL Server, Azure Data Brick, Azure HDInsight Spark(베타), Azure SQL Database 및 Azure SQL Data Warehouse가 포함됩니다. 자세한 내용은 [Power BI의 직접 쿼리에서 지원하는 데이터 원본](desktop-directquery-data-sources.md)을 참조하세요.
-
-- 성능이 저하될 수 있으며, Power BI 서비스에 부정적인 영향을 미칠 수 있습니다. 이 문제는 일부 쿼리가 Power BI 서비스를 위해 CPU를 많이 사용하기 때문에 발생할 수 있습니다. 데이터 원본이 Power BI에서 전송하는 쿼리에 대해 최적화되지 않았기 때문일 수도 있습니다.
-- 파워 쿼리 쿼리는 폴딩 가능해야 합니다. 이 요구 사항은 파워 쿼리 논리가 지나치게 복잡하면 안 됨을 의미합니다. 또한 논리는 데이터 원본에서 인식하는 기본 쿼리로 바뀔 수 있는 M 식 및 함수를 사용하도록 제한되어야 합니다.
-- DAX 수식은 데이터 원본에서 인식하는 기본 쿼리로 바뀔 수 있는 함수만 사용하도록 제한됩니다. 또한 계산 테이블이나 DAX 시간 인텔리전스 함수는 지원되지 않습니다.
-- 100만 개를 초과하는 행을 검색해야 하는 모델 쿼리는 실패합니다.
-- 여러 시각적 개체가 포함된 보고서 및 대시보드는 특히 데이터 원본이 일시적인 경우 일관되지 않은 결과를 표시할 수 있습니다.
+- DAX 수식은 데이터 원본에서 인식하는 기본 쿼리로 바뀔 수 있는 함수만 사용하도록 제한됩니다. 계산된 테이블은 지원되지 않습니다.
 - Q&A 및 빠른 인사이트 기능은 지원되지 않습니다.
 
 Power BI 서비스 리소스 관점에서 DirectQuery 모델에는 다음이 필요합니다.
