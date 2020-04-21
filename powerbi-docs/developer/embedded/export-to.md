@@ -7,36 +7,36 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/24/2020
-ms.openlocfilehash: 35b5c5f05a9c0ae5a36875671a919df12843e295
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.openlocfilehash: 472797cf30d6b88a59af5b3846e9b710bf4607c7
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80273297"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267506"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>파일로 Power BI 보고서 내보내기(미리 보기)
 
 `exportToFile` API를 사용하면 REST 호출을 통해 Power BI 보고서를 내보낼 수 있습니다. 지원되는 파일 형식은 다음과 같습니다.
-* **PPTX**(PowerPoint)
-* **PDF**
-* **PNG**
-    * PNG로 내보낼 때 여러 페이지가 있는 보고서는 zip 파일로 압축됩니다.
-    * PNG zip의 각 파일은 보고서 페이지를 나타냅니다.
+* **.pptx**(PowerPoint)
+* **.pdf**
+* **.png**
+    * .png로 내보내는 경우 여러 페이지가 포함된 보고서는 .zip 파일로 압축됩니다.
+    * .zip에 포함된 각 파일은 보고서 페이지를 나타냅니다.
     * 페이지 이름은 [페이지 가져오기](https://docs.microsoft.com/rest/api/power-bi/reports/getpages) 또는 [그룹의 페이지 가져오기](https://docs.microsoft.com/rest/api/power-bi/reports/getpagesingroup) API의 반환값과 동일합니다.
 
 ## <a name="usage-examples"></a>사용 예
 
 내보내기 기능은 다양한 방법으로 사용할 수 있습니다. 다음은 몇 가지 예입니다.
 
-* **인쇄로 보내기 단추** - 애플리케이션에서 클릭하면 내보내기 작업을 트리거하는 단추를 만듭니다. 작업은 표시된 보고서를 PDF 또는 .PPTX로 내보낼 수 있으며, 완료되면 사용자가 파일을 다운로드로 받을 수 있습니다. 책갈피를 사용하여 구성된 필터, 슬라이서 및 추가 설정을 포함하여 특정 상태에서 보고서를 내보낼 수 있습니다. 이 API는 비동기식이므로 파일을 사용하는 데 어느 정도 시간이 걸릴 수 있습니다.
+* **인쇄로 보내기 단추** - 애플리케이션에서 클릭하면 내보내기 작업을 트리거하는 단추를 만듭니다. 작업은 표시된 보고서를 .pdf 또는 .pptx로 내보낼 수 있으며, 완료되면 사용자가 파일을 다운로드로 받을 수 있습니다. 책갈피를 사용하여 구성된 필터, 슬라이서 및 추가 설정을 포함하여 특정 상태에서 보고서를 내보낼 수 있습니다. 이 API는 비동기식이므로 파일을 사용하는 데 어느 정도 시간이 걸릴 수 있습니다.
 
-* **이메일 첨부 파일** - PDF 보고서를 첨부하여 설정된 간격으로 자동 이메일을 보냅니다. 이 시나리오는 주별 보고서를 임원에게 자동으로 전송하려는 경우에 유용할 수 있습니다.
+* **메일 첨부 파일** - .pdf 보고서를 첨부하여 설정된 간격마다 자동화된 메일을 보냅니다. 이 시나리오는 주별 보고서를 임원에게 자동으로 전송하려는 경우에 유용할 수 있습니다.
 
 ## <a name="using-the-api"></a>API 사용
 
 API를 사용하기 전에 다음 [관리자 테넌트 설정](../../service-admin-portal.md#tenant-settings)이 사용하도록 설정되었는지 확인합니다.
 * **PowerPoint 프레젠테이션 또는 PDF 문서로 보고서 내보내기** - 기본적으로 사용하도록 설정됩니다.
-* **이미지 파일로 보고서 내보내기** - PNG에만 필요하며 기본적으로 사용하지 않도록 설정됩니다.
+* **이미지 파일로 보고서 내보내기** - *.png*에만 필요하며 기본적으로 사용되지 않습니다.
 
 이 API는 비동기식입니다. [exportToFile](https://docs.microsoft.com/rest/api/power-bi/reports/exporttofile) API를 호출하면 내보내기 작업을 트리거합니다. 내보내기 작업을 트리거한 후 [폴링](https://docs.microsoft.com/rest/api/power-bi/reports/getexporttofilestatus)을 사용하여 완료될 때까지 작업을 추적합니다.
 
@@ -73,9 +73,9 @@ RLS를 사용하여 내보내려면 다음과 같은 권한이 있어야 합니�
 
 ### <a name="data-protection"></a>데이터 보호
 
-PDF 및 PPTX 형식은 [민감도 레이블](../../admin/service-security-data-protection-overview.md#sensitivity-labels-in-power-bi)을 지원합니다. 민감도 레이블을 포함하는 보고서를 PDF 또는 PPTX로 내보내는 경우 내보낸 파일은 민감도 레이블을 포함하는 보고서를 표시합니다.
+.pdf 및 .pptx 형식은 [민감도 레이블](../../admin/service-security-data-protection-overview.md#sensitivity-labels-in-power-bi)을 지원합니다. 민감도 레이블이 포함된 보고서를 .pdf 또는 .pptx로 내보내는 경우 내보낸 파일은 민감도 레이블이 포함된 보고서를 표시합니다.
 
-민감도 레이블이 포함된 보고서는 [서비스 주체](embed-service-principal.md)를 사용하여 PDF 또는 PPTX로 내보낼 수 없습니다.
+민감도 레이블이 포함된 보고서는 [서비스 주체](embed-service-principal.md)를 사용하여 .pdf 또는 .pptx로 내보낼 수 없습니다.
 
 ### <a name="localization"></a>지역화
 
@@ -102,8 +102,8 @@ PDF 및 PPTX 형식은 [민감도 레이블](../../admin/service-security-data-p
 * 내보내는 보고서의 데이터 세트는 Premium 또는 Embedded 용량에 있어야 합니다.
 * 퍼블릭 미리 보기의 경우 시간당 내보내는 Power BI 보고서 페이지 수는 용량당 50개로 제한됩니다.
 * 내보낸 보고서는 250MB의 파일 크기를 초과할 수 없습니다.
-* PNG로 내보낼 때 민감도 레이블은 지원되지 않습니다.
-* 민감도 레이블이 포함된 보고서는 [서비스 주체](embed-service-principal.md)를 사용하여 PDF 또는 PPTX로 내보낼 수 없습니다.
+* .png로 내보내는 경우에는 민감도 레이블이 지원되지 않습니다.
+* 민감도 레이블이 포함된 보고서는 [서비스 주체](embed-service-principal.md)를 사용하여 .pdf 또는 .pptx로 내보낼 수 없습니다.
 * 내보낸 보고서에 포함할 수 있는 페이지 수는 30입니다. 보고서에 더 많은 페이지가 포함된 경우 API는 오류를 반환하고 내보내기 작업은 취소됩니다.
 * [개인 책갈피](../../consumer/end-user-bookmarks.md#personal-bookmarks) 및 [영구 필터](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)는 지원되지 않습니다.
 * 아래에 나열된 Power BI 시각적 개체는 지원되지 않습니다. 이러한 시각적 개체를 포함하는 보고서를 내보낼 경우 보고서에서 이러한 시각적 개체를 포함하는 부분은 렌더링되지 않으며 오류 기호가 표시됩니다.
@@ -263,6 +263,9 @@ private async Task<ExportedFile> ExportPowerBIReport(
 ## <a name="next-steps"></a>다음 단계
 
 고객 및 조직용 콘텐츠를 포함하는 방법을 검토합니다.
+
+> [!div class="nextstepaction"]
+>[페이지를 매긴 보고서를 파일로 내보내기](export-paginated-report.md)
 
 > [!div class="nextstepaction"]
 >[고객에 대한 콘텐츠 포함](embed-sample-for-customers.md)

@@ -1,31 +1,35 @@
 ---
 title: Power BI의 슬라이서
 description: Power BI 슬라이서는 보고서의 다른 시각화에 표시되는 데이터 세트의 부분을 좁히는 대체 필터링 방법입니다.
-author: v-thepet
+author: maggiesMSFT
 ms.reviewer: ''
-featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: tutorial
-ms.date: 11/04/2019
-ms.author: mihart
+ms.topic: conceptual
+ms.date: 04/06/2020
+ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 97ad95346715cd5ad38f41d6e7b9df3cc7493f40
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 105a9afe7292412227f67ef80e15eb23eb7d5f71
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265366"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006800"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI의 슬라이서
 
-[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-desktop](../includes/yes-desktop.md)] [!INCLUDE [yes-service](../includes/yes-service.md)]
 
-보고서를 보는 사람이 전체 판매액 메트릭을 확인하고 개별 구역 관리자 및 다른 시간 프레임에 대한 성과를 강조 표시할 수 있도록 하려 합니다. 별도의 보고서나 비교 차트를 만들 수 있습니다. 또는 슬라이서를 사용할 수 있습니다. 슬라이서는 보고서의 다른 시각화에 표시되는 데이터 세트의 부분을 좁히는 대체 필터링 방법입니다. 
-
-이 자습서에서는 무료 [소매점 분석 샘플](../sample-retail-analysis.md)을 사용하여 목록 및 날짜 범위 슬라이서를 만들고, 서식을 지정하고, 이를 사용하는 방법을 안내합니다. 슬라이서의 서식을 지정하고 사용하는 방법을 재미있게 알아보세요. 
+보고서를 보는 사람이 전체 판매액 메트릭을 확인하고 개별 구역 관리자 및 다른 시간 프레임에 대한 성과를 강조 표시할 수 있도록 하려 합니다. 별도의 보고서나 비교 차트를 만들 수 있습니다. 또는 ‘슬라이서’를 사용할 수 있습니다.  슬라이서는 보고서의 다른 시각화에 표시되는 데이터 세트의 부분을 좁히는 대체 필터링 방법입니다. 
 
 ![슬라이서 애니메이션](media/power-bi-visualization-slicers/slicer2.gif)
+
+이 문서에서는 무료 [소매점 분석 샘플](../sample-retail-analysis.md)을 사용하여 기본 슬라이서를 만들고 서식을 지정하는 과정을 안내합니다. 슬라이서의 영향을 받는 시각적 개체를 제어하는 방법과 다른 페이지의 슬라이서와 동기화하는 방법도 보여 줍니다. 특정 유형의 슬라이서를 만드는 방법을 설명하는 다른 문서는 다음과 같습니다.
+
+- [숫자 범위 슬라이서](../desktop-slicer-numeric-range.md)
+- [상대 날짜 슬라이서](desktop-slicer-filter-date-range.md)
+- [크기 조정 가능한 반응형 슬라이서](../power-bi-slicer-filter-responsive.md)
+- [계층 구조 슬라이서](../create-reports/power-bi-slicer-hierarchy-multiple-fields.md)(여러 필드 포함)
 
 ## <a name="when-to-use-a-slicer"></a>슬라이서를 사용하는 경우
 다음과 같은 경우 슬라이서를 사용하는 것이 좋습니다.
@@ -40,16 +44,13 @@ Power BI 슬라이서는 다음을 지원하지 않습니다.
 - 입력 필드
 - 드릴다운
 
+## <a name="create-a-slicer"></a>슬라이서 만들기
 
-## <a name="create-slicers"></a>슬라이서 만들기
+이 슬라이서는 구역 관리자로 데이터를 필터링합니다. 이 절차를 수행하려면 [소매점 분석 샘플 PBIX 파일](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 다운로드합니다.
 
-**구역 관리자별로 데이터를 필터링하는 새 슬라이서 만들기**
-
-1. [소매점 분석 샘플 PBIX 파일](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 다운로드합니다.
-
-1. Power BI Desktop 메뉴 모음에서 **파일** > **열기**를 선택합니다.
+1. Power BI Desktop을 열고 메뉴 모음에서 **파일** > **열기**를 선택합니다.
    
-1. **Retail Analysis sample PBIX.pbix** 파일을 찾은 다음, **열기**를 선택합니다.
+1. **소매점 분석 샘플 PBIX.pbix** 파일을 찾은 다음, **열기**를 선택합니다.
 
 1. 왼쪽 창에서 **보고서** 아이콘 ![보고서 아이콘](media/power-bi-visualization-kpi/power-bi-report-view.png)을 선택하여 보고서 보기로 파일을 엽니다.
 
@@ -73,36 +74,6 @@ Power BI 슬라이서는 다음을 지원하지 않습니다.
 
    >[!TIP]
    >슬라이서 목록 항목은 기본적으로 오름차순으로 정렬됩니다. 정렬 순서를 내림차순으로 바꾸려면 슬라이서의 오른쪽 위에 있는 줄임표( **...** )를 선택하고 **내림차순 정렬**을 선택합니다.
-
-**날짜 범위별로 데이터를 필터링하는 새 슬라이서 만들기**
-
-1. 보고서의 **개요** 페이지를 선택합니다. 보고서 캔버스에서 아무것도 선택하지 않은 상태로 **필드** 창에서 **매장** >  **OpenDate**를 선택합니다.
-
-    이렇게 하면 **시각화** 창의 **값** 상자를 채워 새 시각화를 만듭니다.
-
-1. 보고서에서 새 시각화를 선택한 상태로 **시각화** 창에서 **슬라이서** 아이콘을 선택하여 새 시각화를 슬라이서로 변환합니다. 이 **OpenDate** 슬라이서는 날짜 범위가 채워진 슬라이더 컨트롤입니다.
-    
-    ![OpenDate 시각화 만들기](media/power-bi-visualization-slicers/power-bi-date-slicer.png)
-
-1. 캔버스에서 슬라이서 및 다른 요소의 크기를 조정하고 끌어서 슬라이서에 사용할 공간을 만듭니다. 슬라이더 크기는 슬라이서 크기로 조정되지만 슬라이서 크기를 너무 작게 조정하면 해당 슬라이더가 사라지고 날짜가 잘립니다. 
-
-1. 슬라이더로 다른 날짜 범위를 선택하거나, 날짜 필드를 선택하여 날짜를 입력하거나 더 정확한 선택을 위해 달력을 팝업으로 표시합니다. 페이지의 다른 시각화에 미치는 영향을 확인합니다.
-    
-    >[!NOTE]
-    >숫자 및 날짜/시간 데이터 형식은 기본적으로 범위 슬라이더 슬라이서를 생성합니다. 이제 2018년 2월 Power BI 업데이트부터 정수 데이터 형식 범위 슬라이더는 소수 자릿수를 표시하지 않고 정수 값에 맞춰집니다. 
-
-1. 슬라이서 유형을 변경하려면 슬라이서를 선택한 상태로 슬라이서의 오른쪽 위 영역을 마우스로 가리키고, 표시되는 캐럿 아이콘을 선택한 다음, **목록** 또는 **이전**과 같은 옵션 중 하나를 선택합니다. 슬라이서 모양과 선택 옵션이 어떻게 변경되는지 확인합니다. 
- 
-    ![슬라이서의 새 범위](media/power-bi-visualization-slicers/power-bi-between-slicer.png)
-
-
-날짜 및 숫자 범위 슬라이서를 만드는 방법에 대한 자세한 내용은 다음 동영상을 시청하고 [Power BI Desktop에서 숫자 범위 슬라이서 사용](../desktop-slicer-numeric-range.md)을 참조하세요.
-   > [!NOTE]
-   > 이 비디오에서는 이전 버전의 Power BI Desktop을 사용합니다.
-   > 
-   > 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zIZPA0UrJyA" frameborder="0" allowfullscreen></iframe> 
 
 ## <a name="control-which-page-visuals-are-affected-by-slicers"></a>슬라이서의 영향을 받는 페이지 시각적 개체 제어
 기본적으로 보고서 페이지의 슬라이서는 서로를 포함하여 해당 페이지의 다른 모든 시각화에 영향을 줍니다. 방금 만든 목록 및 날짜 슬라이더에서 값을 선택할 때 다른 시각화에 미치는 영향을 확인하세요. 필터링된 데이터는 두 슬라이서에서 선택한 값의 교차 영역입니다. 
@@ -208,7 +179,7 @@ Power BI 슬라이서는 다음을 지원하지 않습니다.
 
 ### <a name="title-options"></a>제목 옵션
 **제목**은 기본적으로 **켜기**로 설정되어 있습니다. 이렇게 선택하면 슬라이서 맨 위에 데이터 필드 이름이 표시됩니다. 
-- 이 자습서에서는 다음과 같이 제목 텍스트의 서식을 지정합니다. 
+- 이 문서에서는 다음과 같이 제목 텍스트의 서식을 지정합니다. 
    - **글꼴색**: 빨강
    - **텍스트 크기**: **14pt**
    - **맞춤**: **가운데**
@@ -216,7 +187,7 @@ Power BI 슬라이서는 다음을 지원하지 않습니다.
 
 
 ### <a name="items-options-list-slicers-only"></a>항목 옵션(목록 슬라이서만 해당)
-1. 이 자습서에서는 다음과 같이 **항목** 옵션의 서식을 지정합니다.
+1. 이 문서에서는 다음과 같이 **항목** 옵션의 서식을 지정합니다.
     - **글꼴색**: 검정
     - **배경**: 연한 빨강
     - **텍스트 크기**: **10pt**

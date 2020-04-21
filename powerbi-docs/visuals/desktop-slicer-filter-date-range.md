@@ -1,22 +1,24 @@
 ---
-title: Power BI Desktop에서 상대 날짜 슬라이서 또는 필터 사용
-description: Power BI Desktop에서 슬라이서 또는 필터를 사용하여 상대 날짜 범위를 제한하는 방법을 알아봅니다.
+title: Power BI에서 상대 날짜 슬라이서 또는 필터 사용
+description: Power BI에서 슬라이서 또는 필터를 사용하여 상대 날짜 범위를 제한하는 방법을 알아봅니다.
 author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 04/06/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9d7173225cc52df5d7221b32a6fad81617afa422
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9ce36bfa61b16bd30e59bc8491af80efdfdc8a35
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876817"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006792"
 ---
-# <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>Power BI Desktop에서 상대 날짜 슬라이서 및 필터 사용
+# <a name="use-a-relative-date-slicer-and-filter-in-power-bi"></a>Power BI에서 상대 날짜 슬라이서 및 필터 사용
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-desktop](../includes/yes-desktop.md)] [!INCLUDE [yes-service](../includes/yes-service.md)]
 
 **상대 날짜 슬라이서** 또는 **상대 날짜 필터**를 사용하면 데이터 모델의 모든 날짜 열에 시간 기반 필터를 적용할 수 있습니다. 예를 들어 **상대 날짜 슬라이서**를 사용하여 지난 30일(또는 월, 달력 월 등) 이내에 발생한 판매 데이터만 표시할 수 있습니다. 데이터를 새로 고치면 상대 기간에 적절한 상대 날짜 제약 조건이 자동으로 적용됩니다.
 
@@ -98,7 +100,7 @@ ms.locfileid: "73876817"
 
 * **Power BI**의 데이터 모델에는 표준 시간대 정보가 포함되어 있지 않습니다. 모델에서 시간은 저장할 수 있지만 해당 표준 시간대가 표시되지 않습니다.
 
-* 슬라이서 및 필터는 항상 UTC의 시간을 기반으로 합니다. 보고서에 필터를 설정하고 다른 표준 시간대에 있는 동료에게 보내면 둘 다 같은 데이터를 볼 수 있습니다. UTC 표준 시간대에 있지 않은 한 귀하와 귀하의 동료는 시간 오프셋을 고려해야 합니다.
+* 슬라이서 및 필터는 항상 UTC의 시간을 기반으로 합니다. 보고서에 필터를 설정하고 다른 표준 시간대에 있는 동료에게 보내면 둘 다 같은 데이터를 볼 수 있습니다. UTC 표준 시간대가 아닌 경우 사용자와 동료는 발생하는 시간 오프셋을 고려해야 합니다.
 
 * **쿼리 편집기**를 사용하여 현지 표준 시간대에서 캡처된 데이터를 UTC로 변환할 수 있습니다.
 

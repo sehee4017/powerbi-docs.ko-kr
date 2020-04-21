@@ -6,14 +6,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/18/2020
+ms.date: 04/07/2020
 ms.author: mihart
-ms.openlocfilehash: 19a3b1bbf5f2ea3043b92d97a66196ca3e32118c
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 2e5b8cf174e5e2180a42d2ccb3d2b43ba31b2d38
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79377239"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267230"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 서비스 관련 용어집
 Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용되고 있습니다. 용어집은 용어를 조회할 수 있는 적절한 위치로, 책갈피를 지정할 수도 있습니다. Power BI 서비스의 구성 요소를 학습하기에 좋은 또 다른 유용한 리소스는 [기본 개념](end-user-basic-concepts.md)입니다. 기본 개념은 Power BI ‘부분’의 간략한 개요와 연결 방식을 설명합니다. 
@@ -24,7 +24,7 @@ Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용
 
 **계정** *라이선스*라고도 하는 여러 다양한 유형의 Power BI 계정이 있습니다.  계정은 사용자 단위 또는 조직 단위입니다. 사용자 단위 계정은 *무료* 또는 *Pro*로 제공됩니다.  Power BI *무료* 사용자는 독립 실행형 Power BI Desktop을 사용하거나 Premium 조직 계정 내에서 Power BI 서비스를 사용하고 있습니다. Power BI 사용자 단위 *Pro* 계정은 공동 작업 및 다른 *Pro* 사용자의 콘텐츠 공유를 허용하는 유료 월간 구독입니다. 
 
-조직 *Premium*(*Premium 용량*이라고도 함) 계정은 사용자 단위 라이선스 위에 기능 계층을 추가합니다. 예를 들어, *Premium* 라이선스가 있는 조직 내의 *무료* 사용자 단위 계정 소유자는 *Premium*이 없는 *무료* 사용자보다 Power BI로 더 많은 작업을 수행할 수 있습니다. 예를 들어 *Premium* 조직 계정의 *무료* 사용자는 동료와 공동으로 작업하고 Power BI Premium 용량에 호스트된 콘텐츠를 볼 수 있습니다.  
+조직 *Premium*(*Premium 용량*이라고도 함) 계정은 사용자 단위 라이선스 위에 기능 계층을 추가합니다. 예를 들어, *Premium* 라이선스가 있는 조직 내의 *무료* 사용자 단위 계정 소유자는 *Premium*이 없는 *무료* 사용자보다 Power BI로 더 많은 작업을 수행할 수 있습니다. 예를 들어 ‘프리미엄’ 조직 계정의 ‘무료’ 사용자는 동료와 협업하고 Power BI Premium 용량에서 호스트된 콘텐츠를 볼 수 있습니다.    
 
 **admin portal (관리자 포털)** Power BI 관리자가 조직에서 Power BI의 사용자, 기능 및 설정을 관리하는 위치입니다. (참고: Office 365, Azure 및 PowerApps는 관리 센터를 사용합니다.)
 
@@ -36,8 +36,7 @@ Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용
 
 **annotate (주석 달기)** iOS 및 Android 디바이스용 Power BI 모바일 앱에서 타일, 보고서 또는 시각화 개체의 스냅샷 사본에 줄, 텍스트 또는 스탬프를 쓰는 것입니다.
 
-**app, apps (앱)** 
-
+**app, apps**(앱) 대시보드, 보고서 및 데이터 세트의 번들입니다. iOS용 Power BI 앱과 같이 콘텐츠를 사용하는 모바일 앱을 의미하기도 합니다.
 
 **AppSource** 다운로드할 대시보드, 보고서, 데이터 세트 및 앱을 찾아보고 검색할 수 있는 중앙 집중식 온라인 리포지토리입니다.
 
@@ -178,7 +177,7 @@ Power BI 서비스의 왼쪽 가장자리를 따라 표시되는 컨트롤입니
 
 ## <a name="m"></a>M
 
-**측정값** - 측정값은 계산을 수행하는 데 사용할 수 있는 양적(숫자) 필드입니다. 일반적인 계산은 합계, 평균 및 최솟값입니다. 예를 들어 회사에서 스케이트보드를 만들고 판매하는 경우 회사의 측정값은 판매된 스케이트보드의 개수와 연간 평균 수익일 수 있습니다.
+**측정값** - 측정값은 계산을 수행하는 데 사용할 수 있는 양적(숫자) 필드입니다. 일반적인 계산은 합계, 평균 및 최소값입니다. 예를 들어 회사에서 스케이트보드를 만들고 판매하는 경우 회사의 측정값은 판매된 스케이트보드의 개수와 연간 평균 수익일 수 있습니다.
 
 **Mobile app (모바일 앱)** iOS, Android 및 Windows 디바이스에서 Power BI를 실행할 수 있는 앱입니다.
 
@@ -203,7 +202,7 @@ Power BI 서비스의 왼쪽 가장자리를 따라 표시되는 컨트롤입니
 
 **OneDrive for Business (비즈니스용 OneDrive)** 및 **OneDrive** OneDrive는 개인 계정이고 비즈니스용 OneDrive는 회사 계정입니다.  
 
-**On-premises (온-프레미스)** 로컬 컴퓨팅(컴퓨팅 리소스가 고객의 자체 시설에 위치한 환경)을 클라우드 컴퓨팅과 구분해 주는 용어입니다.
+**On-premises**(온-프레미스) 로컬 컴퓨팅(컴퓨팅 리소스가 고객의 자체 시설에 있는 환경)을 클라우드 컴퓨팅과 구분하는 데 사용되는 용어입니다.
 
 
 ## <a name="p"></a>P

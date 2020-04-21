@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/13/2020
-ms.openlocfilehash: dfb6c313e989514da2aa04facd6c6136a0eadc1a
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: dfb57d6344e6a8e020404f9cd23c957967b960f7
+ms.sourcegitcommit: a9ebab692c670192b62a31bfe99447908506251b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404195"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "81122251"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Report Server에 최적화된 Power BI Desktop 설치
 
@@ -96,6 +96,10 @@ Power BI Report Server 보고서는 Power BI 모바일 앱에서 다음과 같�
 ### <a name="custom-security"></a>사용자 지정 보안
 
 Power BI Report Server에 최적화된 Power BI Desktop은 사용자 지정 보안을 지원하지 않습니다. Power BI Report Server가 사용자 지정 보안 확장 프로그램을 사용하여 구성된 경우에는 Power BI Desktop(Power BI Report Server에 최적화됨)에서 Power BI Report Server 인스턴스로 Power BI 보고서를 저장할 수 없습니다. Power BI Desktop에서 .pbix 보고서 파일을 저장하고 Power BI Report Server 포털 사이트에 업로드해야 합니다.
+
+### <a name="saving-reports-to-a-power-bi-report-server-in-a-different-domain"></a>다른 도메인의 Power BI Report Server에 보고서 저장
+
+Power BI 보고서를 Power BI Report Server에 저장하는 경우 Windows 자격 증명이 사용됩니다. Windows 자격 증명과 다른 도메인에 있는 보고서 서버에 직접 저장할 수는 없습니다. 웹 브라우저를 사용하여 보고서 서버를 확인한 다음, 사용자 머신에서 파일을 수동으로 업로드할 수도 있습니다.
 
 ## <a name="power-bi-desktop-for-earlier-versions-of-power-bi-report-server"></a>이전 버전의 Power BI Report Server에 대한 Power BI Desktop
 

@@ -1,28 +1,41 @@
 ---
-title: Power BI Desktop에서 숫자 범위 슬라이서 사용
-description: Power BI Desktop에서 숫자 범위를 제한하는 슬라이서를 사용하는 방법을 알아봅니다
+title: Power BI에서 숫자 범위 슬라이서 사용
+description: Power BI에서 숫자 범위로 제한하는 슬라이서를 사용하는 방법을 알아봅니다.
 author: davidiseminger
 ms.reviewer: ''
+featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/17/2020
+ms.date: 04/06/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0fcc666febb4444b5ee83a1646e1e0c3ef9c6d82
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: bd5f937154edf9f8b6a86fb7f53690943a7f3a53
+ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539305"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "81006644"
 ---
-# <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>Power BI Desktop에서 숫자 범위 슬라이서 사용
+# <a name="use-the-numeric-range-slicer-in-power-bi"></a>Power BI에서 숫자 범위 슬라이서 사용
+
+[!INCLUDE [applies-to](includes/applies-to.md)] [!INCLUDE [yes-desktop](includes/yes-desktop.md)] [!INCLUDE [yes-service](includes/yes-service.md)]
 
 숫자 범위 슬라이서를 사용하여 데이터 모델의 모든 숫자 열에 모든 종류의 필터를 적용할 수 있습니다. 숫자 데이터를 필터링하는 세 가지 옵션은 숫자 사이, 숫자보다 작거나 같음 또는 숫자보다 크거나 같음입니다. 이 간단한 기술은 데이터를 필터링하는 강력한 방법입니다.
 
 ![숫자 범위 슬라이서를 사용한 시각적 개체](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-0.png)
 
-## <a name="use-the-numeric-range-slicer"></a>숫자 범위 슬라이서 사용
+## <a name="video"></a>비디오
+
+이 비디오에서는 숫자 범위 슬라이서를 만드는 과정을 안내합니다.
+
+> [!NOTE]
+> 이 비디오에서는 이전 버전의 Power BI Desktop을 사용합니다.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zIZPA0UrJyA" frameborder="0" allowfullscreen></iframe> 
+
+
+## <a name="add-a-numeric-range-slicer"></a>숫자 범위 슬라이서 추가
 
 다른 슬라이서를 사용하는 것처럼 숫자 범위 슬라이서를 사용할 수 있습니다. 보고서에 **슬라이서** 시각적 개체를 만든 후 **필드** 값으로 숫자 값을 선택하기만 하면 됩니다. 다음 이미지에서는 **LineTotal** 필드를 선택했습니다.
 

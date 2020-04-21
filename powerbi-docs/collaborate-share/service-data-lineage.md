@@ -8,15 +8,15 @@ ms.topic: conceptual
 ms.date: 02/27/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: cb58b71d4fe15458516dc0b1d3f25d79e6ef1a62
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.openlocfilehash: 165651beab2e20f033d20480e78a3876931ea806
+ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79126055"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "81267276"
 ---
 # <a name="data-lineage-preview"></a>데이터 계보(미리 보기)
-최신 BI(비즈니스 인텔리전스) 프로젝트에서 데이터 원본에서 대상까지 이동하는 데이터 흐름을 이해하는 것이 중요합니다. 여러 데이터 원본, 아티팩트 및 종속성에 걸쳐 있는 고급 분석 프로젝트를 구성한 경우 중요성은 더 커집니다. "이 데이터를 변경하면 어떻게 되나요?" 또는 "이 보고서가 최신 상태가 아닌 이유는 무엇인가요?"와 같은 질문은 대답하기 어려울 수 있습니다. 이러한 질문들은 전문가 팀이나 이해를 위한 세부적인 조사가 필요할 수 있습니다. 질문에 대답하는 데 도움이 되는 데이터 계보 보기를 설계했습니다.
+최신 BI(비즈니스 인텔리전스) 프로젝트에서 데이터 원본에서 대상까지 이동하는 데이터 흐름을 이해하는 것이 중요합니다. 여러 데이터 원본, 아티팩트 및 종속성에 걸쳐 있는 고급 분석 프로젝트를 구성한 경우 중요성은 더 커집니다. "이 데이터를 변경하면 어떻게 되나요?" 또는 “이 보고서가 최신 상태가 아닌 이유는 무엇인가요?”와 같은 질문은 대답하기 어려울 수 있습니다. 이러한 질문들은 전문가 팀이나 이해를 위한 세부적인 조사가 필요할 수 있습니다. 질문에 대답하는 데 도움이 되는 데이터 계보 보기를 설계했습니다.
 
 ![Power BI 계보 보기](media/service-data-lineage/service-data-lineage-view.png)
  
@@ -93,3 +93,4 @@ Power BI에는 대시보드, 보고서, 데이터 세트, 데이터 흐름 등 �
 ## <a name="next-steps"></a>다음 단계
 
 * [작업 영역의 데이터 세트 소개(미리 보기)](../service-datasets-across-workspaces.md)
+* [데이터 세트 영향 분석](service-dataset-impact-analysis.md)
