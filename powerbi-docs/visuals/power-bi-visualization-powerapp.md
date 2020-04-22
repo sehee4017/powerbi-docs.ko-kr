@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/17/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3be5f9efe3a6e18ba46f6990b09952d37b967e16
-ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
+ms.openlocfilehash: 5628a114b872b7c0d92d5079198616a20fe85b87
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79525939"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637788"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>자습서:  Power BI 보고서에 Power Apps 시각적 개체 포함
 
@@ -53,7 +53,7 @@ Power Apps 구독이 없는 경우 시작하기 전에 [무료 계정을 만듭�
 
 3. **필드** 창에서 **이름**, **제품 코드** 및 **영업 스테이지**를 선택합니다. 
 
-    ![필드 선택](media/power-bi-visualization-powerapp/power-bi-fields.jpg)
+    ![필드 선택](media/power-bi-visualization-powerapp/power-bi-fields.png)
 
 4. Power Apps 시각적 개체에서 앱을 만들려는 Power Apps 환경을 선택한 다음 **새로 만들기**를 선택합니다.
 

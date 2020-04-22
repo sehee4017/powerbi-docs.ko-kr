@@ -1,20 +1,20 @@
 ---
 title: Power BI에서 단추 사용
 description: 보고서를 앱처럼 동작하도록 만들고 사용자가 추가로 상호 작용할 수 있는 단추를 Power BI 보고서에 추가할 수 있습니다.
-author: davidiseminger
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/12/2020
-ms.author: davidi
+ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6629165ec031fea0d1c1af443e1d7b311bc743aa
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: c703a4b67b642af5199413e80ff1e140905a2338
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79201645"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439828"
 ---
 # <a name="use-buttons-in-power-bi"></a>Power BI에서 단추 사용
 Power BI의 **단추**를 사용하여 보고서가 앱과 유사하게 동작하도록 만들고, 매력적인 환경을 만들어 사용자가 Power BI 콘텐츠를 마우스로 가리키고, 클릭하고, 추가로 상호 작용할 수 있습니다. **Power BI Desktop** 및 **Power BI 서비스**에서 보고서에 단추를 추가할 수 있습니다. Power BI 서비스에서 보고서를 공유하면 해당 보고서는 사용자를 위한 앱과 유사한 환경을 제공합니다.

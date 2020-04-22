@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 45f3ff801b2f1bffd2396fe9f59ea32dd4b11ffb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a6dd3040fd765010c5d6baaf76991f7d1be4cfa7
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877058"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637910"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Excel 통합 문서 파일에서 데이터 가져오기
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -41,7 +41,7 @@ Excel을 사용하여 외부 데이터 원본에 연결할 경우 통합 문서�
 ### <a name="workbooks-with-power-view-sheets-pivottables-and-charts"></a>파워 뷰 시트, 피벗 테이블 및 차트 포함 문서
 Power BI에서 파워 뷰 시트와 피벗 테이블 및 차트가 어떻게 나타나는지 또는 나타나지 않을지는 통합 문서가 저장된 위치와 Power BI로 가져오기 위해 선택한 방식에 따라 달라집니다. 아래에서 더 자세히 다루겠습니다.
 
-## <a name="data-types"></a>데이터 형식
+## <a name="data-types"></a>데이터 유형
 Power BI는 다음 데이터 형식을 지원합니다. 정수, 10진수 숫자, 통화, 날짜, True/False, 텍스트. Excel에서 데이터를 특정 데이터 형식으로 표시하면 Power BI 환경이 향상됩니다.
 
 ## <a name="prepare-your-workbook-for-power-bi"></a>Power BI에 사용할 통합 문서 준비
@@ -124,8 +124,6 @@ Excel 2016에서 **Power BI에 게시** 기능을 사용하면 파일을 가져�
 **새로 고침 예약** - Excel 통합 문서 파일이 외부 데이터 원본에 연결하거나 로컬 드라이브에서 가져온 경우 데이터 세트 또는 보고서가 항상 최신 상태로 업데이트되도록 예약된 새로 고침을 설정할 수 있습니다. 대부분의 경우에 예약된 새로 고침을 설정하는 방법은 아주 쉽지만 이 문서에서는 자세히 다루지 않겠습니다. 자세한 내용은 [Power BI에서 데이터 새로 고침](refresh-data.md)을 참조하세요.
 
 [Excel 2016에서 Power BI로 게시](service-publish-from-excel.md)
-
-[Excel용 Power BI 게시자](publisher-for-excel.md)
 
 [Power BI에서 데이터 새로 고침](refresh-data.md)
 

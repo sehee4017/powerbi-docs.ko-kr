@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/06/2020
+ms.date: 04/17/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: c15576ac6ab9b20a3492341c05d2f9d8eb42e107
-ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
+ms.openlocfilehash: 80f870f1657e629786cec299484f3b3c97609e79
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80813055"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637955"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Power BI Premium 메트릭 앱
 
@@ -28,8 +28,9 @@ ms.locfileid: "80813055"
 
 다음 섹션에서는 방문 페이지와 세 가지 메트릭 보고서 페이지를 자세히 설명합니다. 
 
-> [!IMPORTANT]
-> Power BI Premium 용량의 리소스 사용률이 높아서 성능 또는 안정성 문제가 발생할 경우 문제를 식별하고 해결할 수 있도록 알림 메일을 받을 수 있습니다. 자세한 내용은 [용량 및 안정성 알림](service-interruption-notifications.md#capacity-and-reliability-notifications)을 참조하세요.
+
+
+
 
 ## <a name="premium-capacity-health-center"></a>프리미엄 용량 상태 센터
 

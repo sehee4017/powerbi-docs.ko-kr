@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 03/18/2020
-ms.openlocfilehash: 885c6b98e66a6ce2fd8069cc86bf50440cb94b4b
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.date: 04/21/2020
+ms.openlocfilehash: dcf154105b8940bd400fbb4e630a1d1cfd00ddf0
+ms.sourcegitcommit: 8775168ed916c517c57c696ebe45699e638b86e8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80113616"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "81766278"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI의 페이지를 매긴 보고서: FAQ 
 
@@ -88,6 +88,8 @@ Power BI 테넌트 관리자는 관리 포털에서 기본 최대 메모리 비�
 
 Power BI 보고서는 탐색 및 대화형 작업에 최적화되어 있습니다.  여러 영업 사원이 특정 지역/산업/고객에 대해 동일한 보고서의 데이터를 분할하여 수치가 어떻게 변경되는지 확인하려는 영업 보고서로는 Power BI 보고서가 가장 적합합니다.
 
+자세한 내용은 [Power BI의 페이지를 매긴 보고서가 필요한 경우](../guidance/report-paginated-or-power-bi.md)를 참조하세요.
+
 ### <a name="the-documentation-says-power-bi-report-builder-is-the-preferred-authoring-tool-can-i-create-paginated-reports-in-sql-server-data-tools-for-power-bi"></a>설명서는 Power BI 보고서 작성기가 기본 작성 도구라고 표시됩니다. Power BI용 SQL Server Data Tools에서 페이지를 매긴 보고서를 만들 수 있나요?
 
 예. 하지만 Power BI 서비스에서는 한 번에 하나의 항목만 업로드할 수 있으므로 작성자가 SSDT(SQL Server Data Tools)와 함께 사용하는 시나리오 중 다수는 아직 지원되지 않습니다. 이 FAQ 뒷부분에 제공된 [지원되지 않는 기능의 전체 목록](#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)을 참조하세요.  
@@ -110,10 +112,8 @@ Power BI 보고서는 탐색 및 대화형 작업에 최적화되어 있습니�
 
 - 공유 데이터 원본
 - 공유 데이터 세트
-- 하위 보고서
 - 다른 보고서로 드릴스루 및 클릭스루
 - 연결된 보고서
-- Bing 지도 계층
 - 사용자 지정 글꼴
 
 토글/정렬을 제외하고 Power BI 서비스에서 지원되지 않는 기능이 있는 파일을 업로드하려고 하면 오류 메시지를 받게 됩니다.

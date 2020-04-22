@@ -1,20 +1,20 @@
 ---
 title: Power BI 보고서에서 드릴스루 설정
 description: Power BI 보고서의 새 보고서 페이지에서 드릴스루를 사용하여 데이터로 드릴다운하는 방법 알아보기
-author: davidiseminger
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/12/2020
-ms.author: davidi
+ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5a494341ff6ee9c5fe4b2c2119749f58f2fd540d
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 5e415fb46f845312253f37d8549a4eecb5b10ae7
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79201463"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439782"
 ---
 # <a name="set-up-drill-through-in-power-bi-reports"></a>Power BI 보고서에서 드릴스루 설정
 Power BI 보고서에서 ‘드릴스루’를 사용하면 보고서에서 공급업체, 고객 또는 제조업체와 같은 특정 엔터티에 초점을 맞춘 페이지를 만들 수 있습니다.  보고서 읽기 권한자가 드릴스루를 사용하는 경우에는 다른 보고서 페이지에서 데이터 요소를 마우스 오른쪽 단추로 클릭하고 포커스가 있는 페이지로 드릴스루하여 해당 컨텍스트로 필터링되는 세부 정보를 가져옵니다. 클릭할 때 세부 정보로 [드릴스루하는 단추를 만들](desktop-drill-through-buttons.md) 수도 있습니다.

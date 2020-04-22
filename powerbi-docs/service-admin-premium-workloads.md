@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 04/08/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: a252c10b247ad5fc06565139bc69fc43a9add467
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: 6350c67835c097de6f065ba61c0b49b555551952
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267483"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637748"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>프리미엄 용량에서 워크로드 구성
 
@@ -202,8 +202,9 @@ Power BI 보고서에서는 용량에 대한 각 쿼리에 훨씬 적은 시간 
 
 [Power BI Premium 용량 메트릭 앱](service-admin-premium-monitor-capacity.md)은 용량을 사용하도록 설정한 워크로드를 모니터링할 데이터 세트, 데이터 흐름 및 페이지를 매긴 보고서 메트릭을 제공합니다. 
 
-> [!IMPORTANT]
-> Power BI Premium 용량의 리소스 사용률이 높아서 성능 또는 안정성 문제가 발생할 경우 문제를 식별하고 해결할 수 있도록 알림 메일을 받을 수 있습니다. 자세한 내용은 [용량 및 안정성 알림](service-interruption-notifications.md#capacity-and-reliability-notifications)을 참조하세요.
+
+
+
 
 ## <a name="next-steps"></a>다음 단계
 

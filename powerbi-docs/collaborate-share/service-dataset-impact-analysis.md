@@ -1,5 +1,5 @@
 ---
-title: 데이터 세트 영향 분석(미리 보기)
+title: 데이터 집합 영향 분석
 description: 데이터 세트를 변경할 경우의 다운스트림 영향을 시각화하고 분석합니다.
 author: paulinbar
 ms.reviewer: ''
@@ -8,14 +8,14 @@ ms.topic: conceptual
 ms.date: 04/13/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: 016c555c6df65a45a9d429c25db93110022d9d8f
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: d6d62583d6ef6bd1fcc1630b46bdb5d97c221f16
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81268032"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525333"
 ---
-# <a name="dataset-impact-analysis-preview"></a>데이터 세트 영향 분석(미리 보기)
+# <a name="dataset-impact-analysis"></a>데이터 집합 영향 분석
 
 데이터 세트를 변경했거나 변경을 고려 중인 경우 해당 변경 내용이 데이터 세트에 종속된 다운스트림 보고서와 대시보드에 미치는 영향을 평가할 수 있어야 합니다. **데이터 세트 영향 분석**은 평가를 수행하는 데 도움이 되는 정보를 제공합니다.
 * 변경 내용의 영향을 받을 수 있는 작업 영역, 보고서 및 대시보드 수를 표시하고, 추가 조사를 위해 영향을 받는 보고서와 대시보드가 있는 작업 영역을 쉽게 탐색할 수 있게 합니다.

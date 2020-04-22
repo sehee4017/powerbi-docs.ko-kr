@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/06/2020
+ms.date: 04/17/2020
 ms.author: kfollis
-ms.openlocfilehash: 984991d8640df04c19b6461f5f0faaf0a50fe4ed
-ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
+ms.openlocfilehash: 85b26b68c4943e0bc100be7a298730cec34cfc78
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80812976"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637763"
 ---
 # <a name="service-interruption-notifications"></a>서비스 중단 알림
 
@@ -32,26 +32,8 @@ ms.locfileid: "80812976"
 > [!NOTE]
 > 이 기능은 현재 Power BI Premium의 전용 용량에만 사용할 수 있습니다. 공유 용량이나 포함된 용량에는 사용할 수 없습니다.
 
-## <a name="capacity-and-reliability-notifications"></a>용량 및 안정성 알림
-
-Power BI Premium 용량의 리소스 사용률이 높은 상태가 지속되어 안정성에 영향을 줄 수 있다고 판단될 경우 알림 메일이 발송됩니다. 이러한 경우에는 보고서 열기, 데이터 세트 새로 고침, 쿼리 실행과 같은 작업이 오래 지연되는 경우가 포함됩니다. 
-
-알림 메일에서는 다음을 포함하여 높은 리소스 사용률이 발생한 이유에 대한 정보를 안내합니다.
-
-* 해당 데이터 세트의 데이터 세트 ID
-* 작업 유형
-* 높은 리소스 사용률과 관련된 CPU 시간
-
-Power BI는 Power BI Premium 용량의 오버로드가 감지되는 경우에도 메일 알림을 발송합니다. 메일에서는 오버로드의 가능한 원인, 직전 10분 동안 로드를 생성한 작업, 각 작업이 생성한 로드의 양을 안내합니다. 
-
-Premium 용량이 둘 이상 있는 경우에는 사용자가 리소스 집약적인 항목을 포함하는 작업 영역을 로드가 가장 적은 용량으로 이전하는 방안을 고려할 수 있도록 메일에서 오버로드된 기간의 해당 용량에 대한 정보도 안내합니다.
-
-오버로드 메일 알림은 오버로드 임계값이 트리거된 경우에만 발송됩니다. 해당 Premium 용량의 로드가 임계값 미만으로 떨어져도 이를 안내하는 메일은 발송되지 않습니다.
-
-다음 이미지는 샘플 알림 메일을 보여 줍니다.
 
 
-![오버로드 용량 알림 메일](media/service-interruption-notifications/refresh-notification-email-2.png)
 
 
 ## <a name="enable-notifications"></a>알림 사용

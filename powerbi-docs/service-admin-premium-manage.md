@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/06/2020
+ms.date: 04/17/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 2aa62197bc9af359962f25394d4f202a945d97d8
-ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
+ms.openlocfilehash: 9dbbf38b69d71811de4dd599951529234068b178
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80813101"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637919"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>Power BI Premium에서 용량 구성 및 관리
 
@@ -95,8 +95,8 @@ Power BI 관리자 및 Office 365 글로벌 관리자는 Power BI Premium 용량
 
     P SKU는 EM SKU로 다운그레이드될 수 없습니다. 설명을 보려면 비활성화된 옵션 위로 마우스를 가져가면 됩니다.
 
-> [!IMPORTANT]
-> Power BI Premium 용량의 리소스 사용률이 높아서 성능 또는 안정성 문제가 발생할 경우 문제를 식별하고 해결할 수 있도록 알림 메일을 받을 수 있습니다. 자세한 내용은 [용량 및 안정성 알림](service-interruption-notifications.md#capacity-and-reliability-notifications)을 참조하세요.
+
+
 
 
 ### <a name="manage-user-permissions"></a>사용자 권한 관리

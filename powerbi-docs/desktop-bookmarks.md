@@ -1,20 +1,20 @@
 ---
 title: Power BI Desktop에서 책갈피를 사용하여 인사이트 공유 및 스토리 작성
 description: Power BI Desktop에서 책갈피를 사용하여 보고서에서 보기 및 설정을 저장하고 스토리 모양의 프리젠테이션을 작성할 수 있습니다.
-author: davidiseminger
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/18/2019
-ms.author: davidi
+ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 00ea3e70b34ecdaf2c5bd8b8728153bfb26f899b
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: b986b86642e5ac3e6a8394010bf27922daaf5ea7
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79378987"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439920"
 ---
 # <a name="create-bookmarks-in-power-bi-desktop-to-share-insights-and-build-stories"></a>Power BI Desktop에서 책갈피를 만들어 인사이트 공유 및 스토리 작성
 Power BI Desktop에서 ‘책갈피’를 사용하면 시각적 개체의 상태 및 필터링을 비롯하여 현재 구성된 보고서 페이지 보기를 캡처할 수 있습니다.  나중에 저장된 책갈피를 선택하여 해당 상태로 돌아갈 수 있습니다. 

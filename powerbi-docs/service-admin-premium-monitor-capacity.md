@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/06/2020
+ms.date: 04/17/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 268aa73506be5cc025645672f402b88646497b1c
-ms.sourcegitcommit: 2b93c1cc29aaf199ab7441a04c8e5ae49ffca5d6
+ms.openlocfilehash: 86a3c1ce2bbd678a2030fc4a3bc256424f7c8ad8
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80813078"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637705"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>앱을 사용하여 프리미엄 용량 모니터링
 
@@ -22,8 +22,9 @@ ms.locfileid: "80813078"
 
 앱은 새로운 기능과 역량을 사용하여 정기적으로 업데이트됩니다. 최신 버전을 실행하고 있는지 확인합니다. 이전 버전의 앱이 이미 설치되어 있는 경우 앱에서 삭제한 다음, CTRL+F5를 눌러 새로 고치는 것이 가장 좋습니다.
 
-> [!IMPORTANT]
-> Power BI Premium 용량의 리소스 사용률이 높아서 성능 또는 안정성 문제가 발생할 경우 문제를 식별하고 해결할 수 있도록 알림 메일을 받을 수 있습니다. 이는 오버로드된 용량 문제를 해결하는 간소화된 방법이 될 수 있습니다. 자세한 내용은 [용량 및 안정성 알림](service-interruption-notifications.md#capacity-and-reliability-notifications)을 참조하세요.
+
+
+
 
 ## <a name="install-the-app"></a>앱 설치
 
