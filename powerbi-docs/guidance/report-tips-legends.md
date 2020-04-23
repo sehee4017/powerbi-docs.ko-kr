@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/15/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 5c026e2b7625a2306092f04e11aa77cb275c1f5f
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.openlocfilehash: 098c01aacca7fca0621efe12367f2f66cd0d9d96
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "81006092"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066110"
 ---
 # <a name="tips-to-format-and-implement-legends-in-power-bi-reports"></a>Power BI 보고서의 범례 서식 지정 및 구현 팁
 
@@ -39,7 +39,7 @@ Power BI 보고서에서 범례의 서식을 지정하고 구현하기 위한 6�
 
 이 문서와 관련된 보다 자세한 내용을 알아보려면 다음 리소스를 참조하세요.
 
-- [멋진 보고서를 만드는 팁](../power-bi-reports-tips-and-tricks-for-creating.md)
+- [멋진 보고서를 만드는 팁](../desktop-tips-and-tricks-for-creating-reports.md)
 - biDezine 비디오: [Power BI에서 범례 서식 지정 및 구현을 위한 6가지 팁](https://www.youtube.com/watch?v=r9XnHmuWkZQ)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 - 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com)
