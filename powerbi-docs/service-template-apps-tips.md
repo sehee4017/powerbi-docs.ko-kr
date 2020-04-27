@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/24/2020
 ms.author: tebercov
-ms.openlocfilehash: 92d5a5177b0fa03af583e9e89ce574c0197f3f7a
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.openlocfilehash: 12ba04381c5227c897f4b1f13def4c52999bc1a5
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80273228"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066285"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Power BI에서 템플릿 앱 작성 팁
 
@@ -128,7 +128,7 @@ Power BI Desktop에서 [매개 변수](https://powerbi.microsoft.com/blog/deep-d
 * 데이터에 연결하는 데 필요한 자격 증명 및 매개 변수가 포함된 지침을 유효성 검사 팀이 준수하도록 합니다.
 * 애플리케이션에는 Power BI 및 제공하는 CPP에 앱 아이콘이 있어야 합니다. [자세히 알아보기](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
 * 랜딩 페이지를 구성합니다. [자세히 알아보기](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* [Power BI 앱 제품](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer)에 대한 설명서를 따라야 합니다.
+* [파트너 센터 -> Power BI 앱 제품](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)에 대한 설명서를 따라야 합니다.
 * 대시보드가 앱의 일부인 경우 비어 있지 않은지 확인합니다.
 * 앱을 제출하기 전에 앱 링크를 사용하여 앱을 설치합니다. 데이터 세트와 앱 환경을 계획대로 연결할 수 있는지 확인합니다.
 * pbix를 템플릿 작업 영역에 업로드하기 전에 불필요한 연결을 언로드해야 합니다.

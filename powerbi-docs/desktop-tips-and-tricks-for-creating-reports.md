@@ -7,14 +7,14 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/31/2020
+ms.date: 04/22/2020
 ms.author: davidi
-ms.openlocfilehash: d3733b651ac8b9687d3b0547cc2f76c04a0d0823
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: 95492b8561c37b52e77fbd8b16ce5e1e2ec4e4e1
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427257"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066233"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Power BI Desktop에서 보고서를 만들기 위한 팁과 힌트
 데이터를 최대한 활용하려면 추가 도움이 필요하기도 합니다. Microsoft Power BI Desktop *및* 파워 피벗 추가 기능이 사용되고 파워 쿼리가 설치 및 사용되는 Microsoft Excel 2016 또는 Excel 2013 Pro-Plus 버전에서 보고서를 만들 때 사용할 수 있는 몇 가지 팁과 힌트를 모아두었습니다. 
@@ -148,7 +148,7 @@ Power BI Desktop에서 계산 필드를 사용하여 히스토그램을 정의�
 쿼리 편집기는 데이터를 조작하여 셰이핑하고 정리하여 시각화하거나 모델링할 수 있는 방법을 제공하는 매우 강력한 도구입니다. 알아야 할 몇 가지 패턴이 있습니다.
 
 ### <a name="temporary-columns-can-be-deleted-after-computing-a-result"></a>결과 계산 후에는 임시 열을 삭제할 수 있습니다.
-Power BI Desktop에서 종종 여러 열의 데이터를 하나의 새 열로 변환하는 계산을 만들어야 합니다. 이 작업은 복잡할 수 있습니다. 이 문제를 해결하는 한 가지 쉬운 방법은 작업을 단계로 분해하는 것입니다. 먼저 첫 열을 복제합니다. 그런 다음 임시 열 단계를 만듭니다. 그런 다음 최종 결과를 위한 열을 만듭니다. 그런 다음 최종 데이터 집합이 복잡하게 보이지 않도록 임시 열을 삭제할 수 있습니다. 쿼리 탭에서 순서대로 단계를 실행하므로 이렇게 하는 것이 가능합니다. 
+Power BI Desktop에서 종종 여러 열의 데이터를 하나의 새 열로 변환하는 계산을 만들어야 합니다. 이 작업은 복잡할 수 있습니다. 이 문제를 해결하는 한 가지 쉬운 방법은 작업을 단계로 분해하는 것입니다. 먼저 첫 열을 복제합니다. 그런 다음 임시 열을 만듭니다. 그런 다음 최종 결과를 위한 열을 만듭니다. 그런 다음 최종 데이터 집합이 복잡하게 보이지 않도록 임시 열을 삭제할 수 있습니다. 쿼리 탭에서 순서대로 단계를 실행하므로 이렇게 하는 것이 가능합니다. 
 
 ### <a name="duplicate-or-reference-queries-followed-by-merge-to-original-query"></a>쿼리를 복제하거나 참조한 후 원래 쿼리 병합
 경우에 따라 데이터 집합에 대한 요약 통계를 계산하면 유용합니다. 이 작업을 쉽게 수행하려면 쿼리 탭에서 쿼리를 복제하거나 참조합니다. 그런 다음 **그룹화**를 사용하여 요약 통계를 계산합니다. 요약 통계는 비교하기 좋도록 원래 데이터에서 데이터를 정규화하는 데 도움이 됩니다. 요약 통계는 특히 개별 값을 전체적으로 비교하는 데 유용합니다. 이렇게 하려면 원래 쿼리로 이동해서 병합 옵션을 선택합니다. 그런 다음 적절한 식별자에서 일치하는 요약 통계 쿼리에서 데이터를 병합합니다. 이제 분석에 필요한 대로 데이터를 정규화할 준비가 되었습니다.
@@ -161,3 +161,64 @@ DAX는 Power BI Desktop의 계산 수식 언어입니다. DAX는 BI 분석에 �
 [DAX(Data Analysis Expressions) 참조](https://msdn.microsoft.com/library/gg413422.aspx)
 
 [DAX 리소스 센터](https://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
+
+## <a name="power-bi-service-and-power-bi-desktop"></a>Power BI 서비스 ‘및’ Power BI Desktop 
+
+### <a name="read-andor-watch-how-to-design-visually-stunning-reports-and-dashboards-in-power-bi"></a>"Power BI에서 시각적으로 멋진 보고서(및 대시보드)를 설계하는 방법"을 읽거나 봅니다.
+커뮤니티 멤버인 Miguel Myers는 그래픽 디자이너일 뿐만 아니라 데이터 과학자입니다.
+
+![Power BI 보고서](media/desktop-tips-and-tricks-for-creating-reports/power-bi-reports.png)
+
+* [블로그를 읽어보세요](https://powerbi.microsoft.com/blog/how-to-design-visually-stunning-reports/)
+* [웹 세미나를 시청하세요](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-04Apr-19-Design-Reports-in-PowerBI-Registration.html)
+
+### <a name="consider-your-audience"></a>대상 그룹을 고려
+의사 결정에 도움이 될 주요 메트릭은 무엇인가요? 보고서가 어떻게 사용될까요? 어떤 학습 내용 또는 문화적 가정이 디자인 선택에 영향을 줄 수 있을까요? 성공을 위해 대상 그룹은 어떤 정보를 필요로 할까요?
+
+보고서가 어디에 표시될 예정인가요? 큰 모니터에 표시될 예정이라면 대시보드에 더 많은 콘텐츠를 넣을 수 있습니다. 태블릿에 보고서를 표시하는 경우에는 시각화 수가 적을수록 읽기 편합니다.
+
+### <a name="tell-a-story-and-keep-it-to-one-screen"></a>스토리를 말하고 한 화면으로 유지
+각 보고서 페이지에서 스토리를 한눈에 알 수 있어야 합니다. 페이지에 스크롤 막대를 사용하지 않을 수 있나요? 보고서가 너무 복잡하거나 너무 혼란스러울까요?  필수 정보를 쉽게 읽고 해석할 수 있도록 군더더기를 제거합니다.
+
+### <a name="make-the-most-important-information-biggest"></a>가장 중요한 정보를 가장 비중있게
+보고서 페이지의 시각화와 텍스트의 크기가 모두 동일하면 대상 독자가 가장 중요한 사항에 집중하기 어려워집니다. 예를 들어, 카드 시각화의 경우 중요한 번호를 눈에 띄게 표시하는 좋은 방법입니다.  
+![카드 시각화](media/service-dashboards-design-tips/pbi_card.png)
+
+### <a name="but-be-sure-to-provide-context"></a>문맥 정보 제공  
+
+텍스트 상자 및 도구 설명과 같은 기능을 사용하여 시각화에 컨텍스트를 추가합니다.
+
+### <a name="put-the-most-important-information-in-the-upper-corner"></a>가장 중요한 정보를 상단 모서리에 놓기
+대부분의 사람들이 위쪽에서 아래쪽으로 읽는 경향이 있으므로 가장 높은 수준의 세부 정보를 맨 위에 배치하고 대상 그룹이 읽어가는 방향(왼쪽-오른쪽, 오른쪽-왼쪽)으로 보다 자세한 정보를 표시합니다.
+
+### <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>데이터에 적합한 시각화 사용 및 읽기 쉽게 서식 지정
+다양성을 위해 여러 시각화를 사용하는 것을 피하세요.  시각화는 그림을 그리는 것이며 "읽고" 해석하기 쉬워야 합니다.  일부 데이터 및 시각화에서는 간단한 그래픽 시각화로도 충분합니다. 보다 복잡한 시각화를 호출할 수 있는 기타 데이터도 있지만 타일 및 레이블, 기타 사용자 지정 항목의 활용이 독자에게 도움이 되도록 해야 합니다.  
+
+* 3차원 차트, 0으로 시작하지 않는 차트처럼 현실을 왜곡하는 차트를 사용할 때는 주의하세요. 인간의 뇌는 원형 모양을 해석하기 더 어렵다는 점을 유념하세요. 원형 차트, 도넛형 차트, 계기 및 기타 원형 차트 종류는 모양은 좋지만 대신 사용할 수 있는 다른 시각적 개체가 있을까요?    
+* 차트 내에 있는 축의 차트 눈금, 차트 차원 순서 및 차원 값에 사용된 색이 일관되도록 하세요.    
+* 정량 데이터를 적절하게 인코딩하세요. 숫자를 표시할 때는 서너 개의 숫자를 초과하지 마세요. 소수점 왼쪽 및 수백 또는 수백만 자릿수를 하나의 또는 두 숫자로 표시하세요(예: 3,400,000가 아닌 3.4백만).    
+* 정밀도와 시간 수준을 섞어 쓰지 마세요. 시간 프레임을 잘 이해하고 있어야 합니다.  해당 연도의 특정 월에서 필터링된 차트 옆에 지난 달에 대한 하나의 차트를 포함하지 마세요.    
+* 또한 동일한 눈금에 큰 측정값과 작은 측정값을 함께 사용하지 마세요(예: 꺾은선형 차트 또는 가로 막대형 차트).  예를 들어 백만 단위인 측정값과 천 단위인 측정값이 있을 수 있습니다.  이러한 큰 단위에서는 천 단위인 측정값의 차이를 파악하기 어렵습니다.  함께 사용해야 하는 경우 보조 축의 사용을 허용하는 콤보 차트 같은 시각화를 선택합니다.    
+* 불필요한 데이터 레이블로 차트를 복잡하게 하지 마세요. 가로 막대형 차트의 값은 ***충분히 클 경우*** 일반적으로 실제 숫자를 표시하지 않아도 잘 이해됩니다.   
+* [차트가 정렬](consumer/end-user-change-sort.md)되는 방식에 주의하세요. 최상위 또는 최하위 숫자에 주목하도록 하려면 측정값을 기준으로 정렬합니다. 사람들이 여러 다른 범주 내에서 특정 범주를 신속하게 찾을 수 있도록 하려면 축을 기준으로 정렬합니다.  
+* 원형 차트는 범주가 8개 미만일 경우 적합합니다. 값을 나란히 비교할 수 없으므로 원형 차트는 가로 막대형 및 세로 막대형 차트보다 값을 비교하기가 더 어렵습니다. 원형 차트는 부분을 비교하기보다는 부분에서 전체로의 관계를 파악하는 데 유용할 수 있습니다. 계기 차트는 목표의 컨텍스트에서 현재 상태를 표시하는 데 적합합니다.    
+
+시각화 관련 지침에 대한 자세한 내용은 [Power BI에서 시각화 유형](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)을 참조하세요.  
+
+### <a name="learn-more-about-best-practice-dashboard-design"></a>모범 사례 대시보드 디자인에 대한 자세한 정보
+다음은 몇 가지 유용한 설명서입니다.
+
+* *Storytelling with Data*. Cole Nussbaumer Knafic
+* *Data points*. Nathan Yau
+* *The truthful Art*. Alberto Cairo
+* *Now You See It* by Stephen Few  
+* *Envisioning Information* by Edward Tufte  
+* *Advanced Presentations Design*. Andrew Abela   
+
+## <a name="next-steps"></a>다음 단계
+* [Power BI 서비스의 디자이너를 위한 기본 개념](service-basic-concepts.md)
+* [Power BI의 보고서](consumer/end-user-reports.md)
+
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
+
+

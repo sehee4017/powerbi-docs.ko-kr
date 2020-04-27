@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 6b7b472b0c16c47ae2497c5dc8c74cc1c4d778d4
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: 4062cb8a417ce20f4d6823a3e68d26ad12b9a6c9
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79436022"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066351"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Power BI에서 템플릿 앱 만들기
 
@@ -166,7 +166,7 @@ URL은 릴리스 단계 간을 전환할 때 변경되지 않습니다. 승격�
 
     해당 옵션이 표시되지 않으면 Power BI 관리자에게 문의하여 관리 포털에서 [템플릿 앱 개발에 대한 권한](service-admin-portal.md#template-apps-settings)을 부여합니다.
 11. **승격**을 선택하여 선택 사항을 확인합니다.
-12. 테스트를 위해 이 새 URL을 복사하여 테넌트 외부에서 공유합니다. 이 링크는 또한 [새 Cloud 파트너 포털 제품](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-publish-offer)을 만들어 AppSource에 앱을 배포하는 프로세스를 시작하기 위해 제출하는 링크입니다. Cloud 파트너 포털에 대한 사전 프로덕션 링크만 제출합니다. 앱이 승격되고 AppSource에 게시되었다는 알림을 받은 후에만 이 패키지를 Power BI의 프로덕션으로 승격할 수 있습니다.
+12. 테스트를 위해 이 새 URL을 복사하여 테넌트 외부에서 공유합니다. 이 링크는 또한 [새 파트너 센터 제품](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)을 만들어 AppSource에 앱을 배포하는 프로세스를 시작하기 위해 제출하는 링크입니다. 파트너 센터에 대한 사전 프로덕션 링크만 제출하세요. 앱이 승격되고 AppSource에 게시되었다는 알림을 받은 후에만 이 패키지를 Power BI의 프로덕션으로 승격할 수 있습니다.
 13. AppSource를 통해 프로덕션 또는 공유할 준비가 되면 **Release Management** 창으로 돌아가서 **사전 프로덕션** 옆의 **앱 승격**을 선택합니다.
 14. **승격**을 선택하여 선택 사항을 확인합니다.
 
@@ -174,10 +174,10 @@ URL은 릴리스 단계 간을 전환할 때 변경되지 않습니다. 승격�
 
     ![프로덕션 중인 앱](media/service-template-apps-create/power-bi-template-app-production.png)
 
-전 세계 수천 명의 Power BI 사용자가 앱을 널리 이용할 수 있도록 AppSource에 제출하는 것이 좋습니다. 자세한 내용은 [Power BI 애플리케이션 제안](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer)을 참조하세요.
+전 세계 수천 명의 Power BI 사용자가 앱을 널리 이용할 수 있도록 AppSource에 제출하는 것이 좋습니다. 자세한 내용은 [Power BI 애플리케이션 제안](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)을 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 
 [조직의 템플릿 앱 설치, 사용자 지정 및 배포](service-template-apps-install-distribute.md)에서 고객이 템플릿 앱과 상호 작용하는 방법을 참조하세요.
 
-앱 배포에 대한 자세한 내용은 [Power BI 애플리케이션 제안](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer)을 참조하세요.
+앱 배포에 대한 자세한 내용은 [Power BI 애플리케이션 제안](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)을 참조하세요.

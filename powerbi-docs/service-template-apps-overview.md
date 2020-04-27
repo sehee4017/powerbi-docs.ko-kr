@@ -6,24 +6,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/17/2019
+ms.date: 04/16/2020
 ms.author: painbar
-ms.openlocfilehash: c9a42949ca517860c8b3f0e6faa07d49bd8054e8
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: 42fa16228deea88f606e348d1a87f9d465c8c2ea
+ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79376687"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "82066328"
 ---
 # <a name="what-are-power-bi-template-apps"></a>Power BI 템플릿 앱이란?
 
 새 Power BI *템플릿 앱*을 사용하면 Power BI 파트너는 코딩이 거의 없거나 전혀 없는 Power BI 앱을 만들고 모든 Power BI 고객에게 배포할 수 있습니다.  이 문서는 Power BI 템플릿 앱 프로그램의 개요입니다.
 
-템플릿 앱은 현재 서비스 콘텐츠 팩을 대체합니다. Power BI 파트너로서 고객이 즉시 사용할 수 있는 콘텐츠 세트를 만들고 직접 게시할 수 있습니다.  
+Power BI 파트너로서 고객이 즉시 사용할 수 있는 콘텐츠 세트를 만들고 직접 게시할 수 있습니다.  
 
 고객이 자신의 계정에서 연결하고 인스턴스화할 수 있는 템플릿 앱을 빌드합니다. 도메인 전문가는 비즈니스 사용자가 쉽게 사용할 수 있는 방식으로 데이터의 잠금을 해제할 수 있습니다.  
 
-템플릿 앱을 Cloud 파트너 포털에 제출합니다. 그러면 앱은 [Power BI 앱 마켓플레이스](https://app.powerbi.com/getdata/services) 및 [Microsoft AppSource](https://appsource.microsoft.com/?product=power-bi)에서 공개적으로 사용할 수 있게 됩니다. 다음은 공용 템플릿 앱 생성 환경을 개괄적으로 살펴봅니다.
+파트너 센터에 템플릿 앱을 제출합니다. 그러면 앱은 [Power BI 앱 마켓플레이스](https://app.powerbi.com/getdata/services) 및 [Microsoft AppSource](https://appsource.microsoft.com/?product=power-bi)에서 공개적으로 사용할 수 있게 됩니다. 다음은 공용 템플릿 앱 생성 환경을 개괄적으로 살펴봅니다.
 
 ## <a name="power-bi-apps-marketplace"></a>Power BI 앱 마켓플레이스
 
@@ -38,7 +38,7 @@ Power BI 템플릿 앱을 사용하면 Power BI Pro 또는 Power BI Premium 사�
 템플릿 앱을 개발하고 제출하는 일반적인 프로세스는 여러 단계로 구성됩니다. 일부 단계는 동시에 둘 이상의 작업을 포함할 수 있습니다.
 
 
-| 단계 | Power BI Desktop |  |Power BI 서비스  |  |Cloud 파트너 포털  |
+| 단계 | Power BI Desktop |  |Power BI 서비스  |  |파트너 센터  |
 |---|--------|--|---------|---------|---------|
 | **1단계** | .pbix 파일에서 데이터 모델 및 보고서 빌드 |  | 작업 영역을 만듭니다. .pbix 파일을 가져옵니다. 보완 대시보드 만들기  |  | 파트너로 등록 |
 | **2단계** |  |  | 테스트 패키지 만들기 및 내부 유효성 검사 실행        |  | |
@@ -49,7 +49,7 @@ Power BI 템플릿 앱을 사용하면 Power BI Pro 또는 Power BI Premium 사�
 
 템플릿 앱을 만들려면 템플릿 앱을 만들 수 있는 권한이 있어야 합니다. 자세한 내용은 Power BI 관리 포털, 템플릿 앱 설정을 참조하세요. 
 
-템플릿 앱을 Power BI 서비스 및 AppSource에 게시하려면 [Cloud Marketplace 게시자가 되기](https://docs.microsoft.com/azure/marketplace/become-publisher) 위한 요구 사항을 충족해야 합니다.
+템플릿 앱을 Power BI 서비스 및 AppSource에 게시하려면 [파트너 센터 게시자가 되기](https://docs.microsoft.com/azure/marketplace/become-publisher) 위한 요구 사항을 충족해야 합니다.
  
 ## <a name="high-level-steps"></a>대략적인 단계
 
@@ -67,7 +67,7 @@ Power BI 템플릿 앱을 사용하면 Power BI Pro 또는 Power BI Premium 사�
 
 6. 테스트 앱을 사전 프로덕션으로 승격하여 AppSource에서 유효성 검사를 위한 앱을 제출하고, 자신의 테넌트 외부에서 테스트합니다. 
 
-7. 게시를 위해 클라우드 파트너 플랫폼에 콘텐츠를 제출합니다. 
+7. 게시를 위해 [파트너 센터](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)에 콘텐츠를 제출합니다. 
 
 8. 제안을 AppSource에서 '라이브'로 이동하고 Power BI에서 앱을 프로덕션으로 이동합니다.
 
@@ -75,11 +75,11 @@ Power BI 템플릿 앱을 사용하면 Power BI Pro 또는 Power BI Premium 사�
 
 ## <a name="requirements"></a>요구 사항
 
-템플릿 앱을 만들려면 템플릿 앱을 만들 수 있는 권한이 있어야 합니다. 자세한 내용은 Power BI [관리 포털, 템플릿 앱 설정](service-admin-portal.md#template-apps-settings)을 참조하세요. 
+템플릿 앱을 만들려면 템플릿 앱을 만들 수 있는 권한이 있어야 합니다. 자세한 내용은 Power BI [관리 포털, 템플릿 앱 설정](service-admin-portal.md#template-apps-settings) 을 참조하세요.
 
-템플릿 앱을 Power BI 서비스 및 AppSource에 게시하려면 [Cloud Marketplace 게시자가 되기](https://docs.microsoft.com/azure/marketplace/become-publisher) 위한 요구 사항을 충족해야 합니다.
+템플릿 앱을 Power BI 서비스 및 AppSource에 게시하려면 [파트너 센터 게시자가 되기](https://docs.microsoft.com/azure/marketplace/become-publisher) 위한 요구 사항을 충족해야 합니다.
  > [!NOTE] 
- > 템플릿 앱 제출은 [Cloud 파트너 포털](https://cloudpartner.azure.com)에서 관리합니다. 동일한 Microsoft 개발자 센터 등록 계정을 사용하여 로그인합니다. AppSource 제품에는 Microsoft 계정이 하나만 있어야 합니다. 계정은 개별 서비스나 제품에 특정되어서는 안됩니다.
+ > 템플릿 앱 제출은 [파트너 센터](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)에서 관리합니다. 동일한 Microsoft 개발자 센터 등록 계정을 사용하여 로그인합니다. AppSource 제품에는 Microsoft 계정이 하나만 있어야 합니다. 계정은 개별 서비스나 제품에 특정되어서는 안됩니다.
 
 ## <a name="tips"></a>팁 
 
