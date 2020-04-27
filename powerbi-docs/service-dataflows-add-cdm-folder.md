@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: f1e48fb2f20c531f4dc66e86d13b76f54165b81c
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: cc47820e5903426d4f3635c78e0dc108049f897e
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404757"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439345"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>CDM 폴더를 Power BI에 데이터 흐름으로 추가(미리 보기)
 
@@ -30,6 +30,12 @@ Power BI에서 조직의 Azure Data Lake Store Gen2에 저장된 CDM(공통 데�
 * Power BI에 CDM 폴더의 모든 파일 및 폴더를 추가하려면 이에 대한 읽기 및 실행 권한을 부여 받아야 합니다.
 
 다음 섹션에서는 CDM 폴더에서 데이터 흐름을 만드는 방법을 설명합니다.
+
+## <a name="authorizing-users-for-cdm-folders-to-create-a-dataflow"></a>사용자에게 CDM 폴더에 대한 권한을 부여하여 데이터 흐름 만들기
+
+CDM 폴더에서 데이터 흐름을 만들려면 다음 권한을 추가해야 합니다.
+* Power BI를 통해 CDM 폴더에 액세스하는 사용자는 스토리지 계정의 **Storage Blob 데이터 소유자** 역할 아래에 나열되어야 합니다.
+* Power BI를 통해 CDM 폴더에 액세스하는 사용자에게는 CDM 폴더 자체와 그 안에 있는 모든 파일이나 폴더에 대한 **읽기 액세스** 및 **실행 액세스** ACL이 있어야 합니다. 
 
 ## <a name="create-a-dataflow-from-a-cdm-folder"></a>CDM 폴더에서 데이터 흐름 만들기
 

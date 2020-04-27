@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/24/2020
-ms.openlocfilehash: 472797cf30d6b88a59af5b3846e9b710bf4607c7
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: db907897256ef4afc0bdb9a253a23880b6e79f53
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267506"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525471"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>파일로 Power BI 보고서 내보내기(미리 보기)
 
@@ -106,6 +106,7 @@ RLS를 사용하여 내보내려면 다음과 같은 권한이 있어야 합니�
 * 민감도 레이블이 포함된 보고서는 [서비스 주체](embed-service-principal.md)를 사용하여 .pdf 또는 .pptx로 내보낼 수 없습니다.
 * 내보낸 보고서에 포함할 수 있는 페이지 수는 30입니다. 보고서에 더 많은 페이지가 포함된 경우 API는 오류를 반환하고 내보내기 작업은 취소됩니다.
 * [개인 책갈피](../../consumer/end-user-bookmarks.md#personal-bookmarks) 및 [영구 필터](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)는 지원되지 않습니다.
+* 소버린 클라우드는 지원되지 않습니다.
 * 아래에 나열된 Power BI 시각적 개체는 지원되지 않습니다. 이러한 시각적 개체를 포함하는 보고서를 내보낼 경우 보고서에서 이러한 시각적 개체를 포함하는 부분은 렌더링되지 않으며 오류 기호가 표시됩니다.
     * 인증되지 않은 Power BI 시각적 개체
     * R 시각적 개체

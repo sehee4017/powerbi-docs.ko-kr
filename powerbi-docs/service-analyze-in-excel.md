@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/13/2020
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: a142b950375014c4d1adba917cceb2c6d9af4825
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.openlocfilehash: df905c4174c366f64b58d257786f002c607f3edb
+ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "77427694"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81675675"
 ---
 # <a name="analyze-in-excel"></a>Excel에서 분석
 Excel을 사용하여 Power BI에 있는 데이터 세트를 살펴보고 상호 작용하려는 경우가 있습니다. **Excel에서 분석**을 사용하면 이것이 가능하고, Power BI에 존재하는 데이터 세트를 기반으로 Excel의 피벗 테이블, 차트, 슬라이서 기능에 액세스할 수 있습니다.
@@ -68,9 +68,7 @@ Power BI에서 보고서나 데이터 세트 옆에 있는 **추가 옵션** 메
 ### <a name="users-with-multiple-power-bi-accounts"></a>Power BI 계정이 여러 개인 사용자
 Power BI 계정이 여러 개인 사용자는, Power BI에 로그인한 계정과, Excel에서 분석에 사용되는 데이터 세트에 대한 액세스가 있는 계정이 다른 경우를 접할 수 있습니다. 이런 경우, Excel에서 분석 통합 문서에 사용되는 데이터 세트에 액세스를 시도하면 **사용할 수 없음** 오류가 발생하거나 로그인에 실패할 수 있습니다.
 
-다시 로그인할 수 있는 기회가 제공되며, 이 때 Excel에서 분석에서 액세스하는 데이터 세트에 대한 액세스가 있는Power BI 계정으로 로그인할 수 있습니다. Excel에서 현재 로그인한 계정을 식별하고, 로그아웃할 수 있는(이어서, 다른 계정으로 로그인하는) 링크를 제공하는**Power BI** 리본 탭에서 **프로필**을 선택할 수도 있습니다. 아직 설치하지 않은 경우 [Power BI publisher for Excel을 다운로드](https://www.microsoft.com/download/details.aspx?id=50729)할 수 있습니다. 그러면 Excel의 Power BI 리본이 설치됩니다.
-
-![프로필 보기](media/service-analyze-in-excel/pbi_anlz_excel_profile.png)
+다시 로그인할 수 있는 기회가 제공되며, 이 때 Excel에서 분석에서 액세스하는 데이터 세트에 대한 액세스가 있는Power BI 계정으로 로그인할 수 있습니다. Excel의 위쪽에 있는 리본에서 사용자 이름을 선택하여 현재 로그인한 계정을 식별할 수도 있습니다. 로그아웃하고 다른 계정으로 로그인합니다.
 
 ### <a name="enable-data-connections"></a>데이터 연결 사용
 Excel에서 Power BI 데이터를 분석하려는 경우, .odc 파일에 대한 파일 이름과 경로를 확인하라는 메시지가 표시되면 **사용**을 선택합니다.

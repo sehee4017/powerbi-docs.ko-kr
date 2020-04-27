@@ -6,23 +6,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/08/2019
+ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: c69e0247ecde7d6bd1cf158761a2ff9efd31d2d3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: de30da9c5cf6ad2046a99fb327cdad825725a14d
+ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881378"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "81637839"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Power BI 서비스의 ‘새 디자인’
 
-Power BI 서비스(app.powerbi.com)의 디자인이 보고서를 더욱 편리하게 보고 조작할 수 있도록 변경되었습니다. 새 디자인은 더 간단하고 다른 친숙한 Microsoft 제품과 비슷하게 빌드되었습니다. Power BI 서비스 전체를 밝은 색 테마로 전환하고 아이콘을 업데이트하여 보고서 내용을 주요 포커스 지점으로 만들었습니다. 다음은 새 디자인에서 변경된 내용의 개요입니다. 자세한 내용은 번호를 매긴 섹션을 참조하세요.
+Power BI 서비스(app.powerbi.com)의 디자인이 보고서를 더욱 편리하게 보고 조작할 수 있도록 변경되었습니다. 새 디자인은 더 간단하고 다른 친숙한 Microsoft 제품과 비슷하게 빌드되었습니다. Power BI 서비스 전체를 밝은 색 테마로 전환하고 아이콘을 업데이트하여 보고서 내용을 주요 포커스 지점으로 만들었습니다. 
+
+**Power BI Desktop**의 새 디자인에 대한 정보를 찾고 있나요? [Power BI Desktop에서 업데이트된 리본 사용](desktop-ribbon.md)을 참조하세요.
+
+다음은 새 디자인에서 변경된 내용의 개요입니다. 자세한 내용은 번호를 매긴 섹션을 참조하세요.
 
 ![새 디자인의 변경 내용 개요](media/service-new-look/power-bi-new-look-changes.png)
 
-특정 작업을 찾으십니까? [‘새 디자인’: 작업이 어디로 이동했나요?](service-new-look-where-actions.md)를 참조하세요.
+특정 작업을 찾으십니까? [‘새 디자인’: 작업이 어디로 이동했나요?](service-new-look-where-actions.md)
 
 ## <a name="quick-tour-of-the-changes"></a>변경 내용 둘러보기
 
@@ -87,4 +91,6 @@ Power BI 서비스 사용자는 새 디자인을 옵트인(opt in)할 수 있습
 
 ## <a name="next-steps"></a>다음 단계
 
-[소비자용 Power BI](consumer/end-user-consumer.md)
+- [Power BI Desktop에서 업데이트된 리본 사용](desktop-ribbon.md)
+- [작업 영역 '새 디자인' 옵트인](collaborate-share/service-workspaces-new-look.md)
+- [소비자용 Power BI](consumer/end-user-consumer.md)

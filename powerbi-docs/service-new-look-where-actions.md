@@ -6,19 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/08/2019
+ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 2216fb2b18fd0f35fe9ece25ae2bfeea26672a66
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 69b42452af53b8929f49a6bde6b47b0cf3cc152e
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872039"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525563"
 ---
 # <a name="the-new-look-where-did-the-actions-go"></a>‘새 디자인’: 작업이 어디로 이동했나요?
 
 Power BI 서비스(app.powerbi.com)의 디자인이 보고서를 더욱 편리하게 보고 조작할 수 있도록 변경되었습니다. 따라서 많은 메뉴 작업이 이동했습니다. 이 문서의 표에서는 이전 위치를 새 위치에 매핑합니다. 배경은 [Power BI 서비스의 '새 디자인'](service-new-look.md)을 참조하세요.
+
+**Power BI Desktop**의 새 디자인에 대한 정보를 찾고 있나요? [Power BI Desktop에서 업데이트된 리본 사용](desktop-ribbon.md)을 참조하세요.
 
 ## <a name="report-actions-in-the-new-look"></a>새 디자인의 보고서 작업
 

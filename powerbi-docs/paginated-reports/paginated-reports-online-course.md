@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 325e62bbf326e9f30d4c41299998c61cc5d7f487
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: 5ff7891ce704ebaf8677df6f0872396ffa1b04a2
+ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267598"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81675636"
 ---
 # <a name="online-course-power-bi-paginated-reports-in-a-day"></a>온라인 과정: 특정 일의 Power BI 페이지를 매긴 보고서
 
@@ -83,7 +83,7 @@ ms.locfileid: "81267598"
 
 프레젠테이션 콘텐츠와 8가지 실습 랩으로 구성된 자율 학습 키트를 다운로드하여 설정할 수 있습니다.
 
-1. [이 링크](https://aka.ms/priad-ilt-student)를 사용하여 자율 학습 키트(.zip)를 사용자 PC에 로컬로 다운로드합니다.
+1. [이 링크](https://aka.ms/priad-student)를 사용하여 자율 학습 키트(.zip)를 사용자 PC에 로컬로 다운로드합니다.
 1. 파일 속성을 열고 “차단 해제”를 선택합니다(Windows에서 잠재적으로 신뢰할 수 없는 것으로 파일에 플래그를 지정할 수 있음).
 1. 파일 시스템의 폴더에 파일 내용을 추출합니다. 쉽게 찾을 수 있는 폴더를 만들고 **Training**으로 이름을 지정하는 것이 좋습니다. 랩 문서에서는 해당 위치가 **&lt;CourseFolder&gt;** 입니다.
 
@@ -105,6 +105,10 @@ ms.locfileid: "81267598"
 > Power BI Desktop 파일을 작업 영역에 게시하려면 Power BI에 로그인해야 합니다. 게시하면 보고서 데이터 원본으로 사용되는 데이터 세트가 생성됩니다. 데이터 세트를 보고서 데이터 원본으로 사용하기 위해 Power BI Pro 라이선스 또는 Power BI Premium 구독이 필요하지는 않습니다.
 >
 > 그러나 일부 랩 작업에서는 페이지를 매긴 보고서를 작업 영역에 게시해야 합니다. 페이지를 매긴 보고서는 페이지를 매긴 보고서 워크로드가 사용하도록 설정된 [전용 용량](../service-premium-what-is.md#dedicated-capacities)의 작업 영역에 저장된 경우에만 열 수 있습니다. 적절한 작업 영역에 대한 액세스 권한이 없는 경우 보고서 게시 데모 비디오를 볼 수 있는 링크가 대신 제공됩니다.
+
+## <a name="instructor-kit"></a>강사 키트
+
+[이 링크](https://aka.ms/priad-instructor)를 사용하여 강사 키트(.zip)를 사용자 PC에 로컬로 다운로드합니다.
 
 ## <a name="next-steps"></a>다음 단계
 

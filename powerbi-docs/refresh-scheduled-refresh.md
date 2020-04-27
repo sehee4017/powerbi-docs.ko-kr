@@ -1,20 +1,20 @@
 ---
 title: 예약된 새로 고침 구성
 description: 게이트웨이 선택하고 예약된 새로 고침을 구성하는 단계를 설명합니다.
-author: maggiesMSFT
+author: davidiseminger
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.author: maggies
+ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 622273ed4c8d6f2faee46d3cc84d981f86bd8c92
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: cc0527d093118fdb585800d0038f824223098119
+ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74958405"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81675689"
 ---
 # <a name="configure-scheduled-refresh"></a>예약된 새로 고침 구성
 
@@ -38,7 +38,7 @@ ms.locfileid: "74958405"
 
 ![게이트웨이가 구성되지 않음](media/refresh-scheduled-refresh/gateway-not-configured.png)
 
-개인 게이트웨이를 구성한 경우 온라인 상태이면 선택할 수 있습니다. 사용할 수 없는 경우 오프라인으로 표시됩니다.
+개인 게이트웨이를 구성했고 온라인 상태인 경우 선택할 수 있습니다. 사용할 수 없는 경우 오프라인으로 표시됩니다.
 
 ![게이트웨이 연결](media/refresh-scheduled-refresh/gateway-connection.png)
 
@@ -57,7 +57,7 @@ ms.locfileid: "74958405"
 > [!NOTE]
 > 일부 인증 방법의 경우, 데이터 원본에 로그인하는 데 사용한 암호가 만료되거나 변경되면 **데이터 원본 자격 증명**의 데이터 원본에 대해서도 변경해야 합니다.
 
-무언가 잘못된 경우, 문제는 대개 Windows에 로그인하여 서비스를 시작하지 못했기 때문에 게이트웨이가 오프라인 상태이거나, 업데이트된 데이터를 쿼리하기 위해 Power BI가 데이터 원본에 로그인할 수 없는 경우와 관련이 있습니다. 새로 고칠 수 없는 경우, 데이터 세트의 설정을 확인합니다. 게이트웨이 서비스가 오프라인 상태인 경우, **상태**는 오류로 나타납니다. Power BI가 데이터 원본에 로그인할 수 없는 경우, 데이터 원본 자격 증명에 오류가 표시됩니다.
+무언가 잘못된 경우, 문제는 대개 Windows에 로그인하여 서비스를 시작하지 못했기 때문에 게이트웨이가 오프라인 상태이거나, 업데이트된 데이터를 쿼리하기 위해 Power BI가 데이터 원본에 로그인할 수 없는 경우와 관련이 있습니다. 새로 고칠 수 없는 경우, 데이터 세트 설정을 확인합니다. 게이트웨이 서비스가 오프라인 상태인 경우, **상태**는 오류로 나타납니다. Power BI가 데이터 원본에 로그인할 수 없는 경우, 데이터 원본 자격 증명에 오류가 표시됩니다.
 
 ### <a name="on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이
 
@@ -66,7 +66,7 @@ ms.locfileid: "74958405"
 ![새로 고침 예약 명령](media/refresh-scheduled-refresh/data-source-credentials-egw.png)
 
 > [!NOTE]
-> 데이터 새로 고침을 위해 온-프레미스 SharePoint에 연결할 때 Power BI는 *익명*, *기본* 및 *Windows(NTLM/Kerberos)* 인증 메커니즘만 지원합니다. Power BI는 온-프레미스 SharePoint 데이터 원본의 데이터 새로 고침에 *ADFS* 또는 임의의 양식 기반 인증을 지원하지 않습니다.
+> 데이터 새로 고침을 위해 온-프레미스 SharePoint에 연결할 때 Power BI는 *익명*, *기본* 및 *Windows(NTLM/Kerberos)* 인증 메커니즘만 지원합니다. Power BI는 온-프레미스 SharePoint 데이터 원본의 데이터 새로 고침에 *ADFS* 또는 임의의 양식 기반 인증을 지원하지 않습니다. 
 
 ## <a name="scheduled-refresh"></a>예약된 새로 고침
 
@@ -82,7 +82,11 @@ ms.locfileid: "74958405"
 > [!NOTE]
 > 두 달 동안 비활성 상태이면 데이터 세트에 대해 예약된 새로 고침이 일시 중지됩니다. 데이터 세트를 기반으로 하는 대시보드 또는 보고서를 방문한 사용자가 없는 경우 데이터 세트는 비활성 상태로 간주됩니다. 이때 예약된 새로 고침이 일시 중지되었음을 나타내는 메일이 데이터 세트 소유자에게 전송됩니다. 그런 다음 데이터 세트의 새로 고침 일정이 **사용 안 함**으로 표시됩니다. 예약된 새로 고침을 다시 시작하려면 데이터 세트를 기반으로 하는 대시보드 또는 보고서를 다시 방문하면 됩니다.
 
-## <a name="whats-supported"></a>무엇이 지원되나요?
+## <a name="whats-supported"></a>지원되는 내용은 무엇입니까?
+
+
+> [!NOTE]
+> 또한 예약된 새로 고침은 4개의 연속된 오류 후 자동으로 비활성화됩니다.
 
 특정 데이터 세트는 예약된 새로 고침을 위해 다른 게이트웨이에 대해 지원됩니다. 다음은 제공되는 지원에 대한 참조입니다.
 
@@ -90,8 +94,8 @@ ms.locfileid: "74958405"
 
 **Power BI Desktop**
 
-* Power BI Desktop의 **데이터 가져오기** 및 쿼리 편집기에 표시된 모든 온라인 데이터 원본입니다.
-* Hadoop 파일(HDFS) 및 Microsoft Exchange를 제외하고 Power BI Desktop의 **데이터 가져오기** 및 쿼리 편집기에 표시되는 모든 온-프레미스 데이터 원본입니다.
+* Power BI Desktop의 **데이터 가져오기** 및 쿼리 편집기에 표시된 모든 온라인 데이터 원본.
+* Hadoop 파일(HDFS) 및 Microsoft Exchange를 제외하고 Power BI Desktop의 **데이터 가져오기** 및 쿼리 편집기에 표시되는 모든 온-프레미스 데이터 원본.
 
 **Excel**
 

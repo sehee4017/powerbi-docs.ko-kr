@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: b1ab74ec7f7f6594450ec2cf95528d06dc45f613
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 2962d5f8504b7214cb685457c59b11f1d9d7b85e
+ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77610021"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81525540"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>Power BI에서 보고서 성능 모니터링
 
@@ -23,7 +23,7 @@ ms.locfileid: "77610021"
 성능 모니터링은 다음 상황과 관련이 있습니다.
 
 - 가져오기 데이터 모델 새로 고침이 느린 경우.
-- DirectQuery 또는 LiveConnection 보고서가 느린 경우.
+- DirectQuery 또는 Live Connection 보고서가 느린 경우.
 - 모델 계산이 느린 경우.
 
 느린 쿼리 또는 보고서 시각적 개체가 지속적인 최적화의 중심이 되어야 합니다.
@@ -85,6 +85,7 @@ Power BI Premium 용량의 경우, **Power BI Premium 메트릭 앱**을 사용�
 
 - [쿼리 진단](/power-query/QueryDiagnostics)
 - [성능 분석기](../desktop-performance-analyzer.md)
+- [Power BI의 보고서 성능 문제 해결](report-performance-troubleshoot.md)
 - [Power BI Premium 메트릭 앱](../service-premium-metrics-app.md)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 - 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com/)

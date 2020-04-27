@@ -1,38 +1,37 @@
 ---
 title: 미국 정부 기관 고객용 Power BI - 개요
-description: 미국 정부 고객은 Office 365 정부 플랜에 Power BI Pro 구독을 추가할 수 있습니다. 이 서비스 설명에서 가입 방법을 알아보고 기능 가용성을 검토하세요.
+description: 미국 정부 고객은 Microsoft 365 정부 플랜에 Power BI Pro 구독을 추가할 수 있습니다. 이 서비스 설명에서 가입 방법을 알아보고 기능 가용성을 검토하세요.
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/13/2020
+ms.date: 04/07/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 14c01eb3041964a858b1aeeaeaa471f0d839898e
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.openlocfilehash: 8a6351c96a2d2bef596cbdd693b4b7035fc16e14
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80404817"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81436348"
 ---
 # <a name="power-bi-for-us-government-customers"></a>미국 정부 기관 고객용 Power BI
 이 문서는 Office 365 정부 플랜의 일부로 Power BI를 배포하는 정부 기관 고객을 위한 것입니다. 정부 플랜은 미국 규정 준수 및 보안 표준을 충족해야 하는 조직의 고유한 요구 사항을 위해 설계되었습니다. 미국 정부 기관 고객을 위해 고안된 Power BI 서비스는 상용 Power BI 서비스 버전과 다릅니다. 이러한 기능 차이는 다음 섹션에 설명되어 있습니다.
 
 ## <a name="add-power-bi-to-your-office-365-government-plan"></a>Office 365 정부 플랜에 Power BI 추가
 
-Power BI 미국 정부 구독을 획득하고 사용자에게 라이선스를 할당하려면 먼저 Office 365 정부 플랜에 등록해야 합니다. 조직에 이미 Office 365 정부 플랜이 있는 경우 [Power BI Pro 정부 구독 구매](#purchase-a-power-bi-pro-government-subscription)로 건너뜁니다.
+Power BI 미국 정부 기관 구독을 획득하고 사용자에게 라이선스를 할당하려면 먼저 Office 365 정부 플랜에 등록해야 합니다. 조직에 이미 Office 365 정부 플랜이 있는 경우 [Power BI Pro 정부 구독 구매](#purchase-a-power-bi-pro-government-subscription)로 건너뜁니다.
 
 ### <a name="enroll-in-office-365-government-plan"></a>Office 365 정부 플랜에 등록
 
 신규 고객은 정부 플랜에 등록하기 전에 조직의 자격 유효성을 검사해야 합니다.  먼저 [정부 기관용 Office 365 자격 유효성 검사 양식](https://www.microsoft.com/microsoft-365/government/eligibility-validation)을 작성합니다. 조직에 적합한 플랜을 선택하려면 [Office 365 미국 정부 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)을 참조하세요.
 
 > [!NOTE]
-> 이미 상용 환경에 Power BI를 배포했고 미국 정부 클라우드로 마이그레이션하려는 경우 Office 365  Government 플랜에 새로운 Power BI Pro 구독을 추가해야 합니다. 다음으로 상용 데이터를 미국 정부 기관용 Power BI 서비스에 복제하고 사용자 계정에서 상용 라이선스 할당을 제거한 다음 사용자 계정에 Power BI Pro 정부 기관 라이선스를 할당합니다.
+> 이미 상용 환경에 Power BI를 배포했고 미국 정부 클라우드로 마이그레이션하려는 경우 Office 365 정부 플랜에 새로운 Power BI Pro 구독을 추가해야 합니다. 다음으로 상용 데이터를 미국 정부 기관용 Power BI 서비스에 복제하고 사용자 계정에서 상용 라이선스 할당을 제거한 다음 사용자 계정에 Power BI Pro 정부 기관 라이선스를 할당합니다.
 >
 >
-
-### <a name="government-cloud-instances"></a>정부 클라우드 인스턴스
+## <a name="government-cloud-instances"></a>정부 클라우드 인스턴스
 Office 365는 다양한 규정 준수 요구 사항을 충족하기 위해 다양한 정부 기관용 환경을 제공합니다. 각 환경에서 제공하는 기능에 대한 자세한 내용은 연결된 서비스 설명을 참조하세요.
 
 * [Office 365 GCC(정부 커뮤니티 클라우드)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc)는 연방, 주, 지방 정부를 위해 설계되었습니다.
@@ -41,24 +40,24 @@ Office 365는 다양한 규정 준수 요구 사항을 충족하기 위해 다�
 
 * [Office 365 DoD 환경](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod)은 미국 국방부만을 위해 설계되었습니다. 
 
-### <a name="purchase-a-power-bi-pro-government-subscription"></a>Power BI Pro 정부 구독 구매
+## <a name="connect-to-power-bi-for-us-government"></a>미국 정부 기관용 Power BI에 연결
 
-Power BI 구독은 Office 365를 배포한 후 추가할 수 있습니다. [미국 정부 기관 등록](service-govus-signup.md#existing-office-government-cloud-customers)의 단계별 지침에 따라 Power BI Pro 정부 서비스를 구매합니다. Power BI를 사용해야 하는 모든 사용자에게 충분한 라이선스를 구입한 다음 개별 사용자 계정에 할당합니다.
+미국 정부용 Power BI에 연결하려면 상용 사용자와는 다른 URL을 사용해야 합니다. Power BI에 로그인하려면 다음 URL을 사용하세요.
+
+| 상용 버전  | GCC  | GCC High | DoD |
+| --- | --- | --- | --- |
+| [https://app.powerbi.com/](https://app.powerbi.com) |[https://app.powerbigov.us](https://app.powerbigov.us) | [https://app.high.powerbigov.us](https://app.high.powerbigov.us) | [https://app.mil.powerbigov.us](https://app.mil.powerbigov.us) |
+
+계정이 둘 이상의 클라우드로 프로비전될 수 있습니다. 이 경우, Power BI Desktop을 사용할 때 로그인 시 연결할 클라우드를 선택할 수 있습니다.
+
+## <a name="purchase-a-power-bi-pro-government-subscription"></a>Power BI Pro 정부 구독 구매
+
+Power BI 구독은 Office 365를 배포한 후 추가할 수 있습니다. [미국 정부 기관 등록](service-govus-signup.md)의 단계별 지침에 따라 Power BI Pro 정부 서비스를 구매합니다. Power BI를 사용해야 하는 모든 사용자에게 충분한 라이선스를 구입한 다음 개별 사용자 계정에 할당합니다.
 
 > [!IMPORTANT]
 > Power BI 미국 정부는 무료 라이선스로 제공되지 않습니다. 각 사용자는 Pro 라이선스가 할당되어야 정부 커뮤니티 클라우드에 액세스할 수 있습니다. 무료 라이선스가 할당된 사용자 계정은 상용 클라우드에만 액세스할 권한이 있으며, 인증 및 액세스 문제가 발생합니다. Power BI Premium을 구매한 경우 사용자 액세스를 사용하기 위해 Pro 라이선스를 할당할 필요가 없습니다.  보고서가 프리미엄 용량에 게시되는 경우 조직의 모든 사용자가 공유되는 보고서에 액세스할 수 있습니다. 라이선스 유형의 차이점을 검토하려면 [라이선스 유형별 Power BI 서비스 기능](service-features-license-type.md)을 참조하세요.
 >
 >
-
-## <a name="connect-to-power-bi-for-us-government"></a>미국 정부 기관용 Power BI에 연결
-
-미국 정부용 Power BI에 연결하려면 상용 사용자와는 다른 URL을 사용해야 합니다. Power BI에 로그인하려면 다음 URL을 사용하세요.
-
-| 상용 버전 URL | 미국 정부 버전 URL | GCC High를 위한 미국 정부 URL |
-| --- | --- | --- |
-| `https://app.powerbi.com/` |[https://app.powerbigov.us](https://app.powerbigov.us) | [https://app.high.powerbigov.us](https://app.high.powerbigov.us) |
-
-계정이 둘 이상의 클라우드로 프로비전될 수 있습니다. 이 경우, Power BI Desktop을 사용할 때 로그인 시 연결할 클라우드를 선택할 수 있습니다.
 
 ## <a name="connectivity-between-government-and-global-azure-cloud-services"></a>정부와 글로벌 Azure 클라우드 서비스 간의 연결
 

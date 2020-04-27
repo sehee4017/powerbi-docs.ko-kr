@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/22/2019
+ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 878e4a2e033d33e8c6bb027f35976c19e8b108c9
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 014e3963c0297adb4b77a71f1267f7f132944094
+ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488847"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81439851"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 서비스의 새로운 기능
 **Power BI 서비스**의 알려진 문제 및 최근에 릴리스된 기능에 대해서는 이 페이지를 확인하세요. 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -29,11 +29,41 @@ ms.locfileid: "79488847"
 * [Microsoft Power BI(YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [큐브의 Guy(YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
+### <a name="april-2020"></a>2020년 4월
+* Power BI 서비스의 작업 영역에 대한 '새 디자인' 공개 미리 보기
+* [Power BI 앱](service-create-distribute-apps.md)에 대한 사용자 지정 탐색 디자인의 일반 공급
+
+## <a name="previous-months-2020"></a>이전 달(2020년)
+### <a name="march-2020"></a>2020년 3월
+* Power BI REST API를 사용하여 PDF, PPTX 및 PNG 파일로 보고서 내보내기
+* Power BI 서비스의 신규 및 개선된 전역 검색 환경
+* [다중 지역 프리미엄 용량](service-admin-premium-multi-geo.md)의 성능 향상
+* Power BI Premium의 [읽기/쓰기 XMLA 엔드포인트](service-premium-connect-tools.md)의 공개 미리 보기
+
+### <a name="february-2020"></a>2020년 2월
+* Power BI 홈에서 대시보드, 보고서 및 앱을 승격하는 기능
+* Microsoft Teams에 보고서를 포함하는 새 [Power BI 탭](service-embed-report-microsoft-teams.md)
+* Power BI Pro 사용자를 지원하는 [증분 새로 고침](service-premium-incremental-refresh.md)의 일반 공급
+* 외부 전자 메일 주소에 대한 전자 메일 구독 지원
+* Power BI Premium의 [BYOK(Bring Your Own Key)](service-encryption-byok.md) 일반 공급
+
+### <a name="january-2020"></a>2020년 1월
+* Power BI 작업 영역 환경에 대해 새롭게 향상된 [사용 현황 메트릭](service-usage-metrics.md)
+
+## <a name="2019"></a>2019년
+### <a name="december-2019"></a>2019년 12월
+* Power BI 서비스 관리자가 테넌트 내에서 사용자 및 관리 활동을 추적할 수 있게 해주는 새 활동 로그 API
+
+### <a name="november-2019"></a>2019년 11월
+* [Power BI Premium의 대형 모델](service-premium-large-models.md)의 공개 미리 보기
+* Power BI에서 Microsoft Cloud App Security 제어 사용의 공개 미리 보기
+
 ### <a name="october-2019"></a>2019년 10월
 * Power BI 데이터 세트를 새로 고치는 새로운 Power Automate 작업
 * Power BI 서비스에 있는 보고서 및 대시보드의 [연락처 목록](https://powerbi.microsoft.com/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/)
+* [자동화된 Machine Learning](service-machine-learning-automated)의 일반 공급
+* Power BI 데이터 계보 보기의 공개 미리 보기
 
-## <a name="previous-months-2019"></a>이전 달(2019년)
 ### <a name="september-2019"></a>2019년 9월
 * [템플릿 앱](service-template-apps-overview.md)의 연결 구성 업데이트
 
@@ -327,7 +357,7 @@ ms.locfileid: "79488847"
 
 ***대시보드***
 
-* [Vimeo 동영상 타일](service-dashboard-add-widget.md):  대시보드에서 Vimeo 플레이어가 포함된 타일을 추가합니다.
+* [Vimeo 비디오 타일](service-dashboard-add-widget.md):  대시보드에서 Vimeo 플레이어가 포함된 타일을 추가합니다.
 
 ***Excel에서 분석***
 
@@ -474,7 +504,7 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 ## <a name="2015"></a>2015
 **2015년 12월 16일**
 
-이번 주의 많은 업데이트는 대부분 Power BI Desktop에 적용되지만 보고서 작성 및 시각화에 대한 몇 가지 중요 업데이트도 있습니다. [Power BI 팀 블로그](https://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx)에는 업데이트에 대한 자세한 설명뿐 아니라 동영상도 있습니다.   
+이번 주의 많은 업데이트는 대부분 Power BI Desktop에 적용되지만 보고서 작성 및 시각화에 대한 몇 가지 중요 업데이트도 있습니다. [Power BI 팀 블로그](https://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx)에는 업데이트에 대한 자세한 설명뿐 아니라 비디오도 있습니다.   
 
 [Power BI Desktop 다운로드](https://powerbi.microsoft.com/desktop?WT.mc_id=Blog_Desktop_Update)
 
@@ -511,7 +541,7 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
   6. ODBC 커넥터: 사용자/시스템 DSN 선택 지원
   7. CSV 커넥터: 원본 대화 상자에서 열 구분 기호를 지정하는 기능
 
-이러한 많은 업데이트를 보여 주는 동영상을 포함하여 자세한 내용은 [Power BI 블로그](https://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx)를 참조하세요.
+이러한 많은 업데이트를 보여 주는 비디오를 포함하여 자세한 내용은 [Power BI 블로그](https://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx)를 참조하세요.
 
 **2015년 12월 10일**
 
