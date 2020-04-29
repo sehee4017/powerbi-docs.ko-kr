@@ -26,6 +26,8 @@
           href: power-bi-custom-visuals-organization.md
         - name: Power BI 시각적 개체에 대한 지침
           href: guidelines-powerbi-visuals.md
+        - name: 성능 팁
+          href: performance-tips.md
         - name: 시각적 개체 FAQ
           href: power-bi-custom-visuals-faq.md
         - name: 기능 사용
@@ -70,6 +72,8 @@
           href: enable-sync-slicers.md
         - name: 시각적 개체 디버그
           href: visuals-how-to-debug.md
+        - name: 모바일 개발
+          href: mobile-development.md
         - name: Power BI 시각적 개체 문제 해결
           href: power-bi-custom-visuals-troubleshoot.md
     - name: 참조
@@ -104,6 +108,8 @@
               href: utils-svg.md
             - name: 형식 유틸리티
               href: utils-type.md
+            - name: 테스트 유틸리티
+              href: utils-test.md
             - name: 도구 설명 유틸리티
               href: utils-tooltip.md
             - name: 데이터 보기 유틸리티
