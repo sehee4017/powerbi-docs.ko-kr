@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 8a6351c96a2d2bef596cbdd693b4b7035fc16e14
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.openlocfilehash: a9a5f3fd5304e64209b6069741dffcc3fa9b07c8
+ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "81436348"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82256153"
 ---
 # <a name="power-bi-for-us-government-customers"></a>미국 정부 기관 고객용 Power BI
 이 문서는 Office 365 정부 플랜의 일부로 Power BI를 배포하는 정부 기관 고객을 위한 것입니다. 정부 플랜은 미국 규정 준수 및 보안 표준을 충족해야 하는 조직의 고유한 요구 사항을 위해 설계되었습니다. 미국 정부 기관 고객을 위해 고안된 Power BI 서비스는 상용 Power BI 서비스 버전과 다릅니다. 이러한 기능 차이는 다음 섹션에 설명되어 있습니다.
@@ -88,7 +88,7 @@ SQL에서 방화벽을 설정하려면 단계에 따라 [IP 방화벽 규칙을 
 |보고서 작성|대시보드 및 보고서 만들기 및 보기|사용 가능|사용 가능|사용 가능|
 |  |예약된 데이터 새로 고침|사용 가능|사용 가능|사용 가능|
 |  |새로 고칠 수 있는 팀 대시보드|사용 가능|사용 가능|사용 가능|
-|  |페이지를 매긴 보고서|사용 가능|사용 가능|로드맵|
+|  |페이지를 매긴 보고서|사용 가능|로드맵|로드맵|
 |  |템플릿 앱|사용할 수 없음|사용할 수 없음|사용할 수 없음|
 |데이터에 연결|Excel에서 데이터 및 보고서 가져오기|사용 가능|사용 가능|사용 가능|
 |  |CSV 파일에서 데이터 가져오기|사용 가능|사용 가능|사용 가능|
