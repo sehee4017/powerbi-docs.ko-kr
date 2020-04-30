@@ -2,20 +2,20 @@
 title: 미국 주 및 지방 정부를 위한 COVID-19 추적 샘플
 description: COVID-19 전염병에 대한 미국 주 및 지방 데이터를 사용하는 샘플 보고서를 다운로드하고 수정합니다.
 author: LukaszPawlowski-MS
-ms.reviewer: ''
+ms.reviewer: maggies
 ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/06/2020
+ms.date: 04/28/2020
 ms.author: lukaszp
 LocalizationGroup: Samples
-ms.openlocfilehash: 66e76c21e7d5171d24ff1518745a35947aa7ca42
-ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
+ms.openlocfilehash: 8cdc4a9a78c20c7c4e6986b63a3af61a319df1b6
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80979779"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584936"
 ---
 # <a name="covid-19-tracking-sample-for-us-state-and-local-governments"></a>미국 주 및 지방 정부를 위한 COVID-19 추적 샘플
 
@@ -48,7 +48,7 @@ Microsoft는 샘플 보고서를 게시하고 웹에 게시 embed 태그를 만�
 <iframe width="1600" height="900" src="https://app.powerbi.com/view?r=eyJrIjoiMmI2ZjExMzItZTcwNy00YmUwLWFlMTAtYTUxYzVjODZmYjA5IiwidCI6ImMxMzZlZWMwLWZlOTItNDVlMC1iZWFlLTQ2OTg0OTczZTIzMiIsImMiOjF9" frameborder="0" allowFullScreen="true"></iframe>
 ```
 
-Embed 태그는 HTML 페이지에 삽입할 수 있는 HTML iFrame 요소입니다. 제공된 iFrame의 너비와 높이를 사이트에 맞게 조정합니다. 샘플 보고서는 16:9 비율로 작성되었으므로 이 차원을 유지하는 크기를 선택합니다. 올바르게 구현되면 그래픽이 회색 테두리 없이 표시됩니다. 이러한 변경 작업을 수행할 때 [iFrame 크기 조정 팁과 요령을 검토](../service-publish-to-web.md#tips-and-tricks-for-iframe-height-and-width)하면 유용합니다.
+Embed 태그는 HTML 페이지에 삽입할 수 있는 HTML iFrame 요소입니다. 제공된 iFrame의 너비와 높이를 사이트에 맞게 조정합니다. 샘플 보고서는 16:9 비율로 작성되었으므로 이 차원을 유지하는 크기를 선택합니다. 올바르게 구현되면 그래픽이 회색 테두리 없이 표시됩니다. 이러한 변경 작업을 수행할 때 [iFrame 크기 조정 팁과 요령을 검토](../service-publish-to-web.md#tips-for-iframe-height-and-width)하면 유용합니다.
 
 ## <a name="option-2-customize-the-sample-power-bi-file"></a>옵션 2: 샘플 Power BI 파일 사용자 지정
 
@@ -112,7 +112,7 @@ USAFacts 데이터는 저작자 표시가 필요한 Creative Commons 라이선�
 
 ### <a name="create-a-publish-to-web-embed-code"></a>웹에 게시 embed 태그 만들기 
 
-사용자 지정 보고서를 자체 웹 사이트에 포함하려면 [자체 웹에 게시 embed 태그를 만드는 방법](../service-publish-to-web.md#how-to-use-publish-to-web)에 대한 지침을 따릅니다.
+사용자 지정 보고서를 자체 웹 사이트에 포함하려면 [자체 웹에 게시 embed 태그를 만드는 방법](../service-publish-to-web.md#create-embed-codes-with-publish-to-web)에 대한 지침을 따릅니다.
 
 Embed 태그를 게시한 후에는 확인 대화 상자에서 iFrame을 사용하여 웹 사이트에 포함합니다.
 
