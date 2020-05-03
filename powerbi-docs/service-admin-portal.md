@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/16/2020
+ms.date: 04/27/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 48f26229ea77bbe26ee07d46925d41cadcce7c12
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: e44a50a6e44006c0b23b0d57917f16260fdbe2f8
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114459"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585437"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
@@ -203,32 +203,30 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 
 ### <a name="publish-to-web"></a>웹에 게시
 
-조직의 사용자는 웹에 보고서를 게시할 수 있습니다. [자세히 알아봅니다](service-publish-to-web.md). 이렇게 하면 보고서와 이 보고서에 포함된 데이터를 웹에서 누구나 사용할 수 있습니다.
+**웹에 게시** 설정은 Power BI 테넌트 관리자에게 사용자가 embed 태그를 만들어 보고서를 웹에 게시할 수 있는 옵션을 제공합니다. 이 기능을 통해 웹상의 모든 사용자가 보고서 및 해당 데이터를 사용할 수 있습니다. [웹에 게시하는 방법](service-publish-to-web.md)에 대해 자세히 알아보세요.
 
 > [!NOTE]
-> Power BI 관리자가 새 웹에 게시 embed 태그를 만들 수 있도록 허용해야 합니다. 조직에 기존 embed 태그가 있을 수 있습니다. [embed 태그](service-admin-portal.md#embed-codes) 페이지를 사용하여 현재 게시된 보고서를 검토할 수 있습니다.
+> Power BI 관리자만 새 웹에 게시 embed 태그를 만들 수 있습니다. 조직에 기존 embed 태그가 있을 수 있습니다. 현재 게시된 보고서를 검토하려면 관리 포털의 [embed 태그](service-admin-portal.md#embed-codes) 섹션을 참조하세요.
 
-다음 이미지는 **웹에 게시** 설정을 사용하도록 설정한 경우 보고서의 **파일** 메뉴를 보여 줍니다.
+다음 이미지에서는 **웹에 게시** 설정을 사용하도록 설정된 경우 보고서에 대한 **기타 옵션(...)** 메뉴를 보여 줍니다.
 
-![파일 메뉴의 웹에 게시](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+![기타 옵션 메뉴의 웹에 게시](media/service-admin-portal/power-bi-more-options-publish-web.png)
 
-**웹에 게시** 설정은 사용자가 embed 태그를 만들 수 있는 옵션을 제공합니다.
+관리 포털의 **웹에 게시** 설정은 사용자가 embed 태그를 만들 수 있는 옵션을 제공합니다.
 
 ![웹에 게시 설정](media/service-admin-portal/powerbi-admin-publish-to-web-setting.png)
 
-
-**embed 태그 작동 방식 선택** 옵션이 **기존 embed 태그만 허용**으로 설정되고 **웹에 게시** 설정이 **사용**으로 설정된 경우 Power BI 관리자에게 연락하여 embed 태그를 만들도록 요청합니다.
+관리자는 **웹에 게시**를 **사용**으로 설정하고, **embed 태그 작동 방식 선택**을 **기존 embed 태그만 허용**으로 설정할 수 있습니다. 이 경우 사용자는 embed 태그를 만들 수 있지만, 이렇게 하려면 Power BI 관리자에게 문의해야 합니다.
 
 ![웹에 게시 프롬프트](media/service-publish-to-web/publish_to_web_admin_prompt.png)
-
 
 **웹에 게시** 설정에 따라 UI에 다른 옵션이 표시됩니다.
 
 |기능 |전체 조직에 대해 사용 |전체 조직에 대해 사용 안 함 |특정 보안 그룹   |
 |---------|---------|---------|---------|
-|보고서의 **파일** 메뉴 아래에 있는 **웹 게시**.|모든 사용자에 대해 사용|모든 사용자에게 표시 안 함|권한 있는 사용자 또는 그룹에만 표시.|
+|보고서 **기타 옵션(...)** 메뉴 아래의 **웹에 게시**|모든 사용자에 대해 사용|모든 사용자에게 표시 안 함|권한 있는 사용자 또는 그룹에만 표시.|
 |**설정** 아래의 **embed 태그 관리**|모든 사용자에 대해 사용|모든 사용자에 대해 사용|모든 사용자에 대해 사용<br><br>권한 있는 사용자 또는 그룹에만 * **삭제** 옵션 제공.<br>*  모든 사용자에 대해 **코드 가져오기** 사용.|
-|관리자 포털 내의 **embed 태그**|상태는 다음 중 하나를 반영합니다.<br>* 활성<br>* 지원되지 않음<br>* 차단됨|상태에 **사용 안 함**이 표시됨|상태는 다음 중 하나를 반영합니다.<br>* 활성<br>* 지원되지 않음<br>* 차단됨<br><br>테넌트 설정에 따라 사용자에게 권한이 없으면 상태가 **침해됨**으로 표시됩니다.|
+|관리자 포털 내의 **embed 태그**|상태는 다음 중 하나를 반영합니다.<br>* 활성<br>* 지원되지 않음<br>* 차단됨|상태에 **사용 안 함**이 표시됨|상태는 다음 중 하나를 반영합니다.<br>* 활성<br>* 지원되지 않음<br>* 차단됨<br><br>테넌트 설정에 따라 사용자에게 권한이 부여되지 않으면 **침해됨**이라는 상태가 표시됩니다.|
 |게시된 기존 보고서|모두 사용|모두 사용 안 함|보고서가 모든 사용자에 대해 계속 렌더링합니다.|
 
 ### <a name="export-data"></a>데이터 내보내기

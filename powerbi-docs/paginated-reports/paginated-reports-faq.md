@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 04/21/2020
-ms.openlocfilehash: dcf154105b8940bd400fbb4e630a1d1cfd00ddf0
-ms.sourcegitcommit: 8775168ed916c517c57c696ebe45699e638b86e8
+ms.date: 04/29/2020
+ms.openlocfilehash: 3677e29e4ca9bc13bf0c7397d854dea62ec5f70f
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "81766278"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585000"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI의 페이지를 매긴 보고서: FAQ 
 
@@ -173,6 +173,11 @@ Microsoft Excel, Microsoft Word, Microsoft PowerPoint, PDF, .CSV, XML 및 MHTML�
 ### <a name="can-you-search-for-paginated-reports-from-the-new-home-experience-in-the-power-bi-service"></a>Power BI 서비스의 새 홈 환경에서 페이지를 매긴 보고서를 검색할 수 있나요?
 
 예. 이제 홈에서 페이지를 매긴 보고서를 검색할 수 있습니다.  또한 새 홈 환경의 다른 부분에 보고서가 표시됩니다.
+
+## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
+페이지를 매긴 보고서에서 DateTime 필드를 사용할 때 주의해야 하는 사항은 다음과 같습니다.
+
+- 현재 DateTime 매개 변수와 관련된 몇 가지 세계화 제한 사항이 있습니다. Power BI 서비스의 모든 DateTime 매개 변수는 Power BI Report Builder에서 DataTime을 설계하는 방법에 관계없이 미국 형식(MM/DD/YYYY)으로 가져옵니다.
 
 ## <a name="next-steps"></a>다음 단계
 

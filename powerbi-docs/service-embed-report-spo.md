@@ -1,23 +1,23 @@
 ---
 title: SharePoint Online에 보고서 웹 파트 포함
 description: SharePoint Online용 Power BI의 새로운 보고서 웹 파트를 사용하면 SharePoint Online 페이지에서 대화형 Power BI 보고서를 쉽게 포함시킬 수 있습니다.
-author: KesemSharabi
-ms.author: kesharab
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 12/18/2019
-ms.openlocfilehash: d1ac9238e361a0889e52838eb0b3c3889c1cccf7
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 04/27/2020
+ms.openlocfilehash: 5b726137fae0087701833b2d713cf7b5a329f899
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75221715"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585208"
 ---
-# <a name="embed-with-report-web-part-in-sharepoint-online"></a>SharePoint Online에 보고서 웹 파트 포함
+# <a name="embed-a-report-web-part-in-sharepoint-online"></a>SharePoint Online에 보고서 웹 파트 포함
 
 SharePoint Online용 Power BI의 새로운 보고서 웹 파트를 사용하면 SharePoint Online 페이지에서 대화형 Power BI 보고서를 쉽게 포함시킬 수 있습니다.
 
@@ -38,9 +38,9 @@ SharePoint Online용 Power BI의 새로운 보고서 웹 파트를 사용하면 
 
 1. Power BI 내에서 보고서를 봅니다.
 
-2. **파일** 드롭다운 메뉴를 선택한 다음, **SharePoint Online에 포함**을 선택합니다.
+2. **기타 옵션(...)** 드롭다운 메뉴에서 **포함** > **SharePoint Online**을 차례로 선택합니다.
 
-    ![파일 메뉴](media/service-embed-report-spo/powerbi-file-menu.png)
+    ![기타 옵션 메뉴, SharePoint Online](media/service-embed-report-spo/power-bi-more-options-sharepoint-online.png)
 
 3. 대화 상자에서 보고서 URL을 복사합니다.
 

@@ -8,14 +8,14 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.custom: ''
-ms.date: 06/20/2018
+ms.date: 04/28/2020
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 932c13b84184ad237879e33e943d85020640dd4c
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 472eacea2a84d1f4a71d6869406e17f2ffd03e6b
+ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698319"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82255890"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>DirectQuery를 사용한 Azure SQL Data Warehouse
 
@@ -53,7 +53,7 @@ SQL Data Warehouse와 Power BI 사이를 이동하는 가장 쉬운 방법은 Az
 
 SQL Data Warehouse는 Power BI 데이터 가져오기 페이지에도 나열됩니다. 
 
-1. 탐색 창의 맨 아래에서 **데이터 가져오기**를 선택합니다.  
+1. 탐색 창 아래쪽에서 **데이터 가져오기**를 선택합니다.  
 
     ![데이터 단추 가져오기](media/service-azure-sql-data-warehouse-with-direct-connect/getdatabutton.png)
 
@@ -61,7 +61,7 @@ SQL Data Warehouse는 Power BI 데이터 가져오기 페이지에도 나열됩�
 
     ![데이터베이스](media/service-azure-sql-data-warehouse-with-direct-connect/databases.png)
 
-3. **SQL Data Warehouse**\>**연결**을 선택합니다.
+3. **SQL Data Warehouse** \> **연결**을 차례로 선택합니다.
 
     ![직접 연결을 사용한 Azure SQL DW](media/service-azure-sql-data-warehouse-with-direct-connect/azuresqldatawarehouseconnect.png)
 

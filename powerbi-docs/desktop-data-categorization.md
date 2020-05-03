@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 218a05c41c3befed8f8600f6a584560f5be92a1f
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.openlocfilehash: 4ce9946672514d3d3f181c573789b256888a4372
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "76709559"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584831"
 ---
 # <a name="specify-data-categories-in-power-bi-desktop"></a>Power BI Desktop에서 데이터 범주 지정
 Power BI Desktop에서는 열의 *데이터 범주*를 지정하여 시각화에서 해당 값을 처리하는 방식을 Power BI Desktop에 알려줄 수 있습니다.
@@ -33,7 +33,7 @@ Power BI Desktop이 국가가 강조 표시된 전 세계 그림을 표시해야
 **데이터 범주를 지정하려면**
 
 1. **보고서** 보기 또는 **데이터** 보기의 **필드** 목록에서 다른 분류를 통해 정렬할 필드를 선택합니다.
-2. 리본 메뉴의 **모델링** 탭의 **속성** 영역에서 **데이터 범주** 옆에 있는 드롭다운 화살표를 선택합니다.  이 목록에는 열에 대해 선택할 수 있는 데이터 범주가 표시됩니다. 열의 현재 데이터 형식에 적용되지 않는 일부 선택은 비활성화되어 있습니다.  예를 들어, 열이 이진 데이터 형식이라면 Power BI Desktop에서는 지리 데이터 범주를 선택할 수 없습니다. 
+2. 리본 메뉴의 **모델링** 탭의 **속성** 영역에서 **데이터 범주** 옆에 있는 드롭다운 화살표를 선택합니다.  이 목록에는 열에 대해 선택할 수 있는 데이터 범주가 표시됩니다. 열의 현재 데이터 형식에 적용되지 않는 일부 선택은 비활성화되어 있습니다.  예를 들어 열이 날짜 또는 시간 데이터 형식인 경우 Power BI Desktop에서 지리 데이터 범주를 선택할 수 없도록 합니다. 
 3. 원하는 범주를 선택하세요.
 
    ![](media/desktop-data-categorization/desktop-data-categorization.png)

@@ -1,21 +1,22 @@
 ---
 title: Power BI 웹 세미나
 description: Power BI 웹 세미나
-author: v-tatero
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/01/2019
+ms.date: 04/23/2020
 ms.author: kfollis
-ms.openlocfilehash: 08e1303d0f1a5ee9e0e3e4e778e3f81e0a183df5
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: cfdb4f380cd8ad9655593798f591a4c915988c43
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267552"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120094"
 ---
 # <a name="power-bi-webinars"></a>Power BI 웹 세미나
+[//]: # "Tatevik Tatero는 Chauncy Freels와 협력하고 이 웹 세미나 목록을 유지하는 데 도움을 주는 공급업체입니다."
 
 예정된 라이브 웹 세미나에 등록하거나 녹화된 주문형 세션을 감상해 보세요.
 
@@ -89,7 +90,7 @@ ms.locfileid: "81267552"
 <br>작성자: Olaf Hubel 및 Miguel Martinez
 <br>[등록 및 지금 보기](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)
 
-**흥미진진한 기능 – 개선된 시각화 디자인을 위한 팁**
+**매력적인 기능 – 개선된 시각화 디자인을 위한 팁**
 <br>작성자: Miranda Li
 <br>[등록 및 지금 보기](https://info.microsoft.com/ww-landing-powerbi-tips-for-better-visualization-design.html?Is=Website)
 
@@ -156,17 +157,13 @@ ms.locfileid: "81267552"
 <br>Thorogood의 작성자 Liz McCreesh
 <br>[등록 및 지금 보기](https://info.microsoft.com/Achieving-a-Win-Win-for-Consumer-Packaged-Goods-Manufacturers-and-Retailers-registration.html)
 
-**Power BI로 고객 데이터를 활용하여 판매점의 성공 실현**
+**Power BI를 사용하여 고객 데이터를 소매점의 성공으로 혁신**
 <br>작성자: Hitachi Solutions의 Angad Soni
 <br>[등록 및 지금 보기](https://info.microsoft.com/Transform-Your-Customer-Data-into-Retail-Success-OnDemandRegistration.html?LCID=EN-US?wt.mc_id=undefined)
 
 **환자 결과와 수익성을 둘 다 개선하는 입증된 의료 솔루션**
 <br>작성자: US Medical IT의 Stephen Cracknell 및 Stuart Macanliss
 <br>[등록 및 지금 보기](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
-
-**영업 및 서비스를 위한 응용 인텔리전스**
-<br>작성자: Avanade의 Ed Bobrin
-<br>[등록 및 지금 보기](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
 
 **제조업체: 디지털 변신은 진행 중 - 분석을 활용하여 리더십을 유지하고 수익성 극대화**
 <br>작성자: Blue Margin의 Jon Thompson 및 Elgin Fastener Group의 Jim Pastor
@@ -186,7 +183,7 @@ ms.locfileid: "81267552"
 
 ### <a name="community"></a>커뮤니티 ###
 
-**Power BI 소유자의 Power BI 힌트, 팁 및 도구**
+**PowerBI.Tips 소유자의 Power BI 힌트, 팁 및 도구**
 <br>작성자: Mike Carlo 및 Seth Bauer
 <br>[지금 보기](https://www.youtube.com/watch?v=fnj1_e3HXow)
 
@@ -210,14 +207,14 @@ ms.locfileid: "81267552"
 <br>작성자: Ted Pattison
 <br>[지금 보기](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website)
 
-### <a name="advanced-topics"></a>고급 항목 ###
+### <a name="advanced-topics"></a>고급 항목
 
 **Excel 및 Power BI를 사용한 고급 분석**
 <br>작성자: Nagasaikiran Kambhampati 및 Miguel Martinez
 <br>[시청 등록](https://info.microsoft.com/ww-landing-advanced-analytics-excel-powerbi.html?Is=Website)
 <br>[고급 분석 시작 키트를 다운로드하여 따라 하기](https://aka.ms/pbiaawebinar)
 
-**[Power BI 채택 프레임워크 웨비나 시리즈](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)**
+**Power BI 채택 프레임워크 웨비나 시리즈**
 <br>작성자: Manu Kanwarpal 및 Paul Henwood
 <br>[지금 등록 및 시청 - 파트 1 - 채택: 데이터 기반 문화권 채택](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
 <br>[지금 등록 및 시청 - 파트 2 - 거버넌스: Power BI 사용 관리](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
@@ -225,36 +222,13 @@ ms.locfileid: "81267552"
 <br>[지금 등록 및 시청 - 파트 4 - 보안: Power BI로 데이터 보안 유지](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website)
 <br>[지금 등록 및 시청 - 파트 5 - 출시: 성공적인 Power BI 출시](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
 
-**Office 365 재무 전문가 웨비나 시리즈**
-<br>작성자: Mark Traverso, Carlos Otero, Johnnie Thomas, Amanda Cofsky 및 Miguel Martinez
-<br>Office 365를 사용하여 일상적인 업무를 더욱 효율적으로 수행할 수 있는 팁, 요령 및 모범 사례를 알아봅니다.
-<br>[등록 및 지금 보기](https://aka.ms/Office365FinanceProsPBI)
-
 **전체 스택 Power BI 제다이 되기 – 스타워즈 데이터를 통해 Power BI의 고급 기능 연습**
 <br>작성자: Gil Raviv
 <br>[지금 보기](https://www.youtube.com/watch?v=r0Qk5V8dvgg)
 
-**조직을 더 안전하게 하는 성공적인 데이터 거번넌스 전략 구현 방법**
-<br>작성자: Ajay Anandan
-<br>[등록 및 지금 보기](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website)
-
-**Power BI 프리미엄을 사용하여 최신 BI 도입 가속화**
-<br>작성자: Sirui Sun 및 Miguel Martinez
-<br>[등록 및 지금 보기](https://info.microsoft.com/powerbi-premium-webinar-ondemand.html?Is=Website)
-
-**Power BI Report Server의 새롭고 흥미로운 기능**
-<br>작성자: Riccardo Muti, Chris Finlan 및 Chinmay Joshi
-<br>[등록 및 지금 보기](https://info.microsoft.com/whats-new-powerbi-report-server.html?Is=Website)
-
-**Microsoft Power BI 기능**
-<br>작성자: Kirkland Barrett
-<br>[등록 및 지금 보기](https://info.microsoft.com/US-PowerBI-WBNR-FY17-11Nov-29-BIATMIcrosoft274828_01Registration-ForminBody.html?Is=Website)
-
 ## <a name="see-also"></a>참고 항목
 
 - [Power BI 백서](whitepapers.md)
-
-- [Microsoft Data Insights Summit 2017 주문형 세션](https://community.powerbi.com/t5/Data-Insights-Summit-2017-On/bd-p/DataInsightsSummit2017OnDemand?Is=Website)
 
 - [Power BI란?](fundamentals/power-bi-overview.md)
 

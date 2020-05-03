@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/17/2020
+ms.date: 04/20/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 8dfc6e872b67605a262c7390b91703649a2cfb0f
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: 548c76e2d344e996d367cba810bf42442af8d27d
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80114059"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120321"
 ---
 # <a name="work-with-filters-in-power-bi-reports"></a>Power BI 보고서에서 필터 작업
 
@@ -257,6 +257,10 @@ Power BI Desktop에는 미리 보기로 제공되는 새 리본이 있습니다.
 보고서 설정의 필터링 환경 섹션에는 사용자가 필터 유형을 변경할 수 있는지 여부를 제어하는 옵션이 있습니다.
 
 ![필터 유형 변경 제한](media/power-bi-report-filter/power-bi-enable-change-filter-type.png)
+
+## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
+
+[웹에 게시]에는 [필터] 창이 표시되지 않습니다. 보고서를 웹에 게시하려는 경우 필터링을 위한 슬라이서를 추가하는 것이 좋습니다.
 
 ## <a name="next-steps"></a>다음 단계
 

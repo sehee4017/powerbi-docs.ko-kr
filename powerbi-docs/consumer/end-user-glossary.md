@@ -8,12 +8,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: mihart
-ms.openlocfilehash: 2e5b8cf174e5e2180a42d2ccb3d2b43ba31b2d38
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: 101cdbc7ad7ea5d07edf182765d305ad2f1fa8c7
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267230"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120117"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 서비스 관련 용어집
 Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용되고 있습니다. 용어집은 용어를 조회할 수 있는 적절한 위치로, 책갈피를 지정할 수도 있습니다. Power BI 서비스의 구성 요소를 학습하기에 좋은 또 다른 유용한 리소스는 [기본 개념](end-user-basic-concepts.md)입니다. 기본 개념은 Power BI ‘부분’의 간략한 개요와 연결 방식을 설명합니다. 
@@ -22,9 +22,9 @@ Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용
 
 ## <a name="a"></a>A
 
-**계정** *라이선스*라고도 하는 여러 다양한 유형의 Power BI 계정이 있습니다.  계정은 사용자 단위 또는 조직 단위입니다. 사용자 단위 계정은 *무료* 또는 *Pro*로 제공됩니다.  Power BI *무료* 사용자는 독립 실행형 Power BI Desktop을 사용하거나 Premium 조직 계정 내에서 Power BI 서비스를 사용하고 있습니다. Power BI 사용자 단위 *Pro* 계정은 공동 작업 및 다른 *Pro* 사용자의 콘텐츠 공유를 허용하는 유료 월간 구독입니다. 
+**계정** *라이선스* 또는 *구독*이라고도 하는 다른 유형의 Power BI 계정이 있습니다.  계정은 사용자 또는 조직 단위를 기준으로 합니다. 사용자 단위 계정은 *무료* 또는 *Pro*로 제공됩니다.  Power BI *평가판* 사용자는 독립 실행형 Power BI Desktop, 독립 실행형 Power BI 서비스 또는 프리미엄 조직 구독이 있는 조직 내에서 Power BI 서비스를 사용합니다. Power BI 사용자 단위 *Pro* 계정은 공동 작업 및 다른 *Pro* 사용자의 콘텐츠 공유를 허용하는 유료 월간 구독입니다. 
 
-조직 *Premium*(*Premium 용량*이라고도 함) 계정은 사용자 단위 라이선스 위에 기능 계층을 추가합니다. 예를 들어, *Premium* 라이선스가 있는 조직 내의 *무료* 사용자 단위 계정 소유자는 *Premium*이 없는 *무료* 사용자보다 Power BI로 더 많은 작업을 수행할 수 있습니다. 예를 들어 ‘프리미엄’ 조직 계정의 ‘무료’ 사용자는 동료와 협업하고 Power BI Premium 용량에서 호스트된 콘텐츠를 볼 수 있습니다.    
+조직 *프리미엄*(*프리미엄 용량*이라고도 함) 구독에는 사용자별 라이선스에 기반한 기능 계층이 추가됩니다. 예를 들어 *프리미엄* 구독이 있는 조직 내의 *평가판* 사용자별 계정 소유자는 Power BI를 사용하여 *프리미엄*이 없는 *평가판* 사용자보다 훨씬 더 많은 작업을 수행할 수 있습니다. 예를 들어 ‘프리미엄’ 조직 계정의 ‘무료’ 사용자는 동료와 협업하고 Power BI Premium 용량에서 호스트된 콘텐츠를 볼 수 있습니다.   
 
 **admin portal (관리자 포털)** Power BI 관리자가 조직에서 Power BI의 사용자, 기능 및 설정을 관리하는 위치입니다. (참고: Office 365, Azure 및 PowerApps는 관리 센터를 사용합니다.)
 

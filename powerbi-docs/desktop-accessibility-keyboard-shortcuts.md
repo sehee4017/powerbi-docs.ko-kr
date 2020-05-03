@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8c4db4d659c64fba8b7a79e6e36a5f27d8dd5d34
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 986c09e404e0190a3efee8480d413d49cbd49186
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73869369"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584812"
 ---
 # <a name="keyboard-shortcuts-in-power-bi-desktop"></a>Power BI Desktop의 바로 가기 키
 
@@ -38,7 +38,7 @@ Power BI Desktop을 사용하는 경우 **Shift+?** 를 누르면 다음 이미�
 ## <a name="frequently-used-shortcuts"></a>자주 사용되는 바로 가기
 | 수행할 작업           | 누르기                |
 | :------------------- | :------------------- |
-| 구역 간에 포커스 이동  | **Ctrl+F6** |
+| 섹션 간 포커스 이동  | **Ctrl+F6** |
 | 구역에서 포커스를 앞으로 이동 | **Tab**         |
 | 구역에서 포커스를 뒤로 이동 | **Shift+Tab** |
 | 개체 선택 또는 선택 취소 | **Enter** 또는 **스페이스바** |
@@ -56,6 +56,7 @@ Power BI Desktop을 사용하는 경우 **Shift+?** 를 누르면 다음 이미�
 | 다중 선택 | **Ctrl+Enter** 또는 **Ctrl+스페이스바** |
 | 마우스 오른쪽 단추 클릭 | <ul><li>Windows 키보드: **Windows 팝업 키+F10**. Windows 팝업 키는 왼쪽 Alt 키와 왼쪽 화살표 키 사이에 있습니다.</li><li>다른 키보드: **Shift+F10**</li></ul> |
 | 선택 영역 지우기 | **Ctrl+Shift+C** |
+| 도구 설명 표시 또는 숨기기 | **Ctrl+H** |
 
 ## <a name="table-and-matrix-navigation"></a>테이블 및 행렬 탐색
 | 수행할 작업          | 누르기                |

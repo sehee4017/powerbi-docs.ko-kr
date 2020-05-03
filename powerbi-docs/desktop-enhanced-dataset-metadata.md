@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/31/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 54c3622b0a4dd6c690c2f22a0b93aed39e9d2799
-ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
+ms.openlocfilehash: 301d6397e4a3ae4498234bae3ad8a49aa7552722
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80464641"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82584675"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>향상된 데이터 세트 메타데이터 사용(미리 보기)
 
@@ -46,6 +46,7 @@ Power BI Desktop를 다시 시작하라는 메시지가 표시됩니다.
 
 미리 보기 버전에서는 미리 보기 기능을 사용할 수 있는 경우 다음 제한 사항이 적용됩니다.
 
+### <a name="unsupported-features-and-connectors"></a>지원되지 않는 기능 및 커넥터
 업그레이드되지 않은 기존 PBIX 또는 PBIT 파일을 열 때 데이터 세트에 다음 기능 또는 커넥터가 포함되어 있으면 업그레이드에 실패합니다. 해당 오류가 발생하는 경우 사용자 환경에 즉각적인 영향을 미치지 않으며 Power BI Desktop은 이전 메타데이터 형식을 계속 사용합니다.
 
 * Python 스크립트
@@ -67,6 +68,8 @@ Power BI Desktop를 다시 시작하라는 메시지가 표시됩니다.
 
 또한 **향상된 데이터 세트 메타데이터**를 사용하도록 아직 업그레이드되지 않은 PBIX 및 PBIT 파일은 현재 버전에서 위의 기능 또는 커넥터를 ‘사용할 수 없습니다’. 
 
+### <a name="lineage-view"></a>계보 보기
+새 메타데이터 형식을 사용하는 데이터 세트에는 현재 Power BI 서비스의 계보 보기에 있는 데이터 흐름에 대한 링크가 표시되지 않습니다.
 
 ## <a name="next-steps"></a>다음 단계
 

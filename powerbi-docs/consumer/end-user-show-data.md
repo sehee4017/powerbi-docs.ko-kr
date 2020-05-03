@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 04/08/2020
+ms.date: 04/28/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3587118d6ee844f611d69666e163f64e4d499475
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.openlocfilehash: 7367c94a0eca86291d3f520cc947fceda06d659a
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81267322"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585299"
 ---
 # <a name="show-data-with-power-bi-reports"></a>Power BI 보고서와 함께 데이터 표시
 
@@ -22,22 +22,22 @@ ms.locfileid: "81267322"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Power BI 시각적 개체는 기본 데이터 세트의 데이터를 사용하여 구성됩니다. 숨은 기능에 관심이 있는 경우 Power BI 서비스를 사용하면 보고서의 시각적 개체를 만드는 데 사용된 데이터를 *표시*할 수 있습니다. **데이터 표시**를 선택하면 Power BI는 시각적 개체 아래(또는 옆에) 데이터를 표시합니다.
+Power BI 시각적 개체는 기본 데이터 세트의 데이터를 사용하여 구성됩니다. 숨은 기능에 관심이 있는 경우 Power BI 서비스를 사용하면 보고서의 시각적 개체를 만드는 데 사용된 데이터를 *표시*할 수 있습니다. **테이블로 표시**를 선택하면 Power BI에서 데이터를 시각적 개체 아래(또는 옆)에 표시합니다.
 
 대시보드에서 기본 데이터를 보려면 [Excel로 내보내기](end-user-export.md)를 사용합니다.
 
 ## <a name="show-the-data-being-used-to-create-a-report-visual"></a>시각적 개체를 만드는 데 사용된 데이터 표시
 1. Power BI 서비스에서 [보고서를 열고](end-user-report-open.md) 시각적 개체를 선택합니다.  
-2. 시각적 개체의 기반이 되는 데이터를 표시하려면 **추가 옵션**(...)을 선택한 다음, **데이터 표시**를 선택합니다.
+2. 시각적 개체에 숨겨져 있는 데이터를 표시하려면 **기타 옵션**(...), **테이블로 표시**를 차례로 선택합니다.
    
-   ![데이터 표시 선택](./media/end-user-show-data/power-bi-explore-show-data-newer.png)
+   ![드롭다운에서 테이블로 표시 선택](./media/end-user-show-data/power-bi-show-data-vertical.png)
 3. 기본적으로 데이터는 시각적 개체 아래에 표시됩니다.
    
-   ![시각적 개체 및 데이터 세로 표시](./media/end-user-show-data/power-bi-show-data-new.png)
+   ![시각적 개체 및 데이터 세로 표시](./media/end-user-show-data/power-bi-show-data-table.png)
 
 4. 방향을 변경하려면 시각화의 오른쪽 위에서 세로 레이아웃 ![레이아웃 아이콘](media/end-user-show-data/power-bi-vertical-icon-new.png) 을 선택합니다.
    
-   ![시각적 개체 및 데이터 가로 표시](./media/end-user-show-data/power-bi-show-data-rotate.png)
+   ![시각적 개체 및 데이터 가로 표시](./media/end-user-show-data/power-bi-horizontal.png)
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI 보고서의 시각적 개체](../visuals/power-bi-report-visualizations.md)    

@@ -9,14 +9,15 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.custom: seodec18
-ms.openlocfilehash: 6844d09c04759f0cdb780b3c1805698f1b1b519f
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.openlocfilehash: 1426cb2926641ca93bcbff3e55ea151f829f290a
+ms.sourcegitcommit: 1059c6222458f189fb5301dcb689dad2b2c00bc1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "78401903"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "82191617"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>허용 목록의 Power BI URL
+[//]: # "suparnap, miwehnia는 이 목록을 유지 관리하기 위한 연락처입니다."
 
 Power BI SaaS(Software-as-a-service) 애플리케이션이라고도 하는 **Power BI 온라인 서비스**는 인터넷에 연결되어 있어야 합니다. 아래 엔드포인트는 Power BI 온라인 서비스를 사용하여 고객에게 연결할 수 있어야 합니다.
 
@@ -52,6 +53,7 @@ Power BI의 일반적인 사용의 경우 아래 테이블 및 연결된 사이�
 | 5 | **필수:** 서비스 원격 분석 | dc.services.visualstudio.com | TCP 443 |
 | 6 | **선택 사항:** 정보 메시지 | dynmsg.modpim.com | TCP 443 |
 | 7 | **선택 사항:** NPS 설문 조사 | nps.onyx.azure.net | TCP 443 |
+| 8 | **선택 사항:** CDN(Content Delivery Network) | content.powerapps.com | TCP 443 |
 | | | |
 
 ## <a name="administration"></a>관리

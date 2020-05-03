@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/19/2020
+ms.date: 04/19/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: fd11e6fd45a3978eb301adabc15ac8941e7824bf
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.openlocfilehash: 1b23f76425fdf7ceb245b25bcc2b7551dabf0600
+ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "77496704"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82120251"
 ---
 # <a name="apps-in-power-bi"></a>Power BI의 앱
 
@@ -29,8 +29,8 @@ ms.locfileid: "77496704"
 
 ![Power BI의 앱](./media/end-user-apps/power-bi-apps.png)
 
-> [!NOTE]
-> 앱 기능을 사용하려면 Power BI Pro 라이선스가 필요합니다. [라이선스 유형 조회](end-user-license.md)
+
+앱 기능을 사용하려면 Power BI Pro 라이선스가 필요하거나 앱을 프리미엄 용량에 저장해야 합니다. 라이선스 및 프리미엄 용량에 대한 자세한 내용은 [소비자 라이선스](end-user-license.md)를 참조하세요.
 
 ## <a name="app-designers-and-app-consumers"></a>앱 *디자이너* 및 앱 *소비자*
 사용자 역할에 따라 자신의 용도에 따라 또는 동료와 공유하기 위해 앱(*디자이너*)을 만들려는 사람이 있을 수 있습니다. 또는 다른 사용자가 만든 앱(*소비자*)를 받아 다운로드하는 사람일 수 있습니다. 이 문서는 앱 *소비자*를 위한 것입니다.
@@ -44,8 +44,8 @@ ms.locfileid: "77496704"
 ## <a name="get-a-new-app"></a>새 앱 가져오기
 몇 가지 방법으로 앱을 가져올 수 있습니다. 아래에 몇 가지 방법이 나와 있습니다.  하지만 앱을 가져오고 탐색하는 방법에 대한 자세한 단계별 지침은 [앱 열기 및 상호 작용](end-user-app-view.md)을 참조하세요.
 
-- 앱 디자이너는 Power BI 계정에 자동으로 앱을 설치할 수 있으며, 다음에 Power BI를 열면 **앱** 콘텐츠 목록에서 새 앱을 볼 수 있습니다. 
-- 앱 디자이너는 앱의 직접 링크를 소비자에게 메일로 보낼 수 있습니다. 링크를 선택하면 Power BI에서 앱이 열립니다.
+- 앱 디자이너는 앱을 Power BI 계정에 자동으로 설치할 수 있으며, 다음에 Power BI를 열면 새 앱이 **앱** 콘텐츠 목록에 표시됩니다. 
+- 앱 디자이너는 앱의 직접 링크를 소비자에게 메일로 보낼 수 있습니다. 링크를 선택하면 Power BI 서비스에서 앱이 열립니다.
 - 모바일 디바이스의 Power BI에서는 AppSource가 아닌 직접 링크를 통해서만 설치할 수 있습니다. 앱 작성자가 앱을 자동 설치할 경우 앱 목록이 표시됩니다.
 - [AppSource](https://appsource.microsoft.com)에서 앱을 검색할 수 있습니다. AppSource에는 회사 내외부에서 보고서 디자이너가 게시한 앱이 포함되어 있습니다. 예를 들어 Google Analytics, GitHub 또는 Microsoft Dynamics와 같이 이미 사용하고 있는 서비스에 대한 AppSource에서 앱을 찾을 수 있습니다. 또한 Power BI를 학습하는 데 사용할 수 있는 샘플에 해당하는 앱도 찾을 수 있습니다.  
 

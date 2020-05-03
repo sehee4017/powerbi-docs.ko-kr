@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/20/2019
+ms.date: 04/24/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c2290963db54f150eed8176c2820c59f8f138666
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: a118cd0874410e538ca8329e0b8c0ed1bdb430b7
+ms.sourcegitcommit: 834cad24901f7fd966c4010e36a7904bc120e57f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223308"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "82149611"
 ---
 # <a name="connect-to-an-oracle-database"></a>Oracle 데이터베이스에 연결
 Power BI Desktop을 사용하여 Oracle 데이터베이스에 연결하려면 Power BI Desktop을 실행하는 컴퓨터에 올바른 Oracle 클라이언트 소프트웨어를 설치해야 합니다. 사용하는 Oracle 클라이언트 소프트웨어는 설치한 Power BI Desktop 버전이 32비트 또는 64비트인지에 따라 다릅니다.
@@ -22,6 +22,10 @@ Power BI Desktop을 사용하여 Oracle 데이터베이스에 연결하려면 Po
 지원되는 Oracle 버전: 
 - Oracle 9 이상
 - Oracle 클라이언트 소프트웨어 8.1.7 이상
+
+> [!NOTE]
+> Power BI Report Server용 Oracle 데이터베이스를 구성하는 경우 [Oracle 연결 형식](https://docs.microsoft.com/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15) 문서의 정보를 참조하세요. 
+
 
 ## <a name="determining-which-version-of-power-bi-desktop-is-installed"></a>설치된 Power BI Desktop의 버전 확인
 설치된 Power BI Desktop 버전을 확인하려면 **파일** > **도움말** > **정보**를 선택한 다음 **버전** 줄을 확인합니다. 다음 이미지에서 64비트 버전의 Power BI Desktop이 설치되었습니다.
@@ -65,3 +69,5 @@ Microsoft Store에서 Power BI Desktop을 다운로드하면 Oracle 드라이버
 * Microsoft Store의 버전을 사용하려면 로컬 컴퓨터에서 _12.X.X\client_X_의 oraons.dll을 _12.X.X\client_X\bin_에 복사합니다. 여기서 _X_는 버전 및 디렉터리 번호를 나타냅니다.
 
 Oracle 데이터베이스에 연결할 때 Power BI Gateway에 ‘개체 참조가 설정되지 않음’ 오류 메시지가 표시되면 [데이터 원본 관리 - Oracle](service-gateway-onprem-manage-oracle.md)의 지침을 따르세요. 
+
+Power BI Report Server를 사용하는 경우 [Oracle 연결 형식](https://docs.microsoft.com/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15) 문서의 지침을 참조하세요.

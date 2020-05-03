@@ -7,26 +7,28 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 58f9a56d41bd35987f7c258fafdbff26aedf5df1
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 4be8a1ce88d50461ca51bb65278b823046459e30
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488824"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585049"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>보안 포털 또는 웹 사이트에 보고서 포함
 
 Power BI 보고서의 새 **포함** 옵션을 사용하여 내부 웹 포털에 보고서를 쉽고 안전하게 포함할 수 있습니다. 이러한 포털은 **클라우드 기반**이거나 **온-프레미스에 호스트**될 수 있습니다(예: SharePoint 2019). 포함된 보고서는 [RLS(행 수준 보안)](service-admin-rls.md)를 통해 모든 항목 사용 권한 및 데이터 보안을 준수합니다. 이 기능은 URL 또는 iFrame을 허용하는 모든 포털에 대한 코드 없는 포함을 지원합니다. 
 
-**포함** 옵션은 또한 [URL 필터](service-url-filters.md) 및 URL 설정을 지원합니다. 또한 기본 HTML 및 JavaScript 지식만 있으면 로우 코드 접근 방식을 사용하는 포털과 통합할 수 있습니다.
+**포함** 옵션은 [URL 필터](service-url-filters.md) 및 URL 설정을 지원합니다. 또한 기본 HTML 및 JavaScript 지식만 있으면 로우 코드 접근 방식을 사용하는 포털과 통합할 수 있습니다.
 
-## <a name="how-to-embed-power-bi-reports-into-portals"></a>Power BI 보고서를 포털에 **포함**하는 방법
+## <a name="how-to-embed-power-bi-reports-into-portals"></a>Power BI 보고서를 포털에 포함하는 방법
 
-1. 새로운 **포함** 옵션은 Power BI 서비스의 보고서에 대한 **파일** 메뉴에서 사용 가능합니다.
+1. Power BI 서비스에서 보고서를 엽니다.
 
-    ![안전한 포함 옵션 드롭다운 목록 옵션](media/service-embed-secure/secure-embed-drop-down-menu.png)
+2. **기타 옵션(...)** 메뉴에서 **포함** >  **웹 사이트 또는 포털**을 차례로 선택합니다.
+
+    ![웹 사이트 또는 포털 옵션](media/service-embed-secure/power-bi-more-options-website.png)
 
 2. **포함** 옵션을 선택하면 보고서를 안전하게 포함하는 데 사용할 수 있는 링크와 iFrame을 제공하는 대화 상자가 열립니다.
 
