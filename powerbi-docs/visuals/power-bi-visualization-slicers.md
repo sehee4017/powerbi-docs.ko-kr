@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 105a9afe7292412227f67ef80e15eb23eb7d5f71
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.openlocfilehash: 1ba284aa3c925ef0679572ca55cad9e5267d3f21
+ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "81006800"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "82585072"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI의 슬라이서
 
@@ -131,6 +131,11 @@ Power BI 슬라이서는 다음을 지원하지 않습니다.
     >[!NOTE]
     >슬라이서를 페이지에 동기화하지만 해당 페이지에 표시되지 않도록 설정할 경우 다른 페이지에서 선택한 슬라이서에 따라 페이지의 데이터가 필터링됩니다.
  
+## <a name="filtering-slicers"></a>슬라이서 필터링
+슬라이서에 표시되는 값 목록을 줄이기 위해 슬라이서에 시각적 수준 필터를 적용할 수 있습니다. 예를 들어 목록 슬라이서에서 빈 값을 필터링하거나 범위 슬라이서에서 특정 날짜를 필터링할 수 있습니다. 이렇게 하면 섹션을 만들 때 ‘슬라이서에 표시된 값’에만 영향을 주며, ‘슬라이서가 다른 시각적 개체에 적용하는 필터’에 영향을 주지 않습니다.   예를 들어 범위 슬라이서에 필터를 적용하여 특정 날짜만 표시해보겠습니다. 슬라이서의 선택 항목은 해당 범위의 처음 날짜와 마지막 날짜만 표시하지만 다른 시각적 개체에서 다른 날짜를 볼 수 있습니다. 슬라이서에서 선택한 범위를 변경하면 다른 시각적 개체 업데이트가 표시됩니다. 슬라이서를 지우면 모든 날짜가 다시 표시됩니다.
+
+시각적 개체 수준 필터에 대한 자세한 내용은 [필터 형식](../power-bi-report-filter-types.md)을 참조하세요.
+
 ## <a name="format-slicers"></a>슬라이서 서식 지정
 슬라이서 유형에 따라 다양한 서식 옵션을 사용할 수 있습니다. **가로** 방향, **반응형** 레이아웃 및 **항목** 색 지정을 사용하면 표준 목록 항목이 아닌 단추 또는 타일을 생성하고 슬라이서 항목 크기가 다양한 화면 크기 및 레이아웃에 맞게 조정되도록 설정할 수 있습니다.  
 
