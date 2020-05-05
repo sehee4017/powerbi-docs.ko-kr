@@ -327,6 +327,10 @@
               href: ../paginated-reports/report-builder-shared-datasets.md
             - name: 매개 변수 만들기
               href: ../paginated-reports/paginated-reports-parameters.md
+            - name: 하위 보고서
+              href: ../paginated-reports/subreports.md
+            - name: 하위 보고서 문제 해결
+              href: ../paginated-reports/subreports-troubleshoot.md
             - name: URL에 보고서 매개 변수 전달
               href: ../paginated-reports/report-builder-url-pass-parameters.md
             - name: 페이지를 매긴 보고서 게시
