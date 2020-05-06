@@ -11,10 +11,10 @@ ms.date: 04/17/2020
 ms.author: mihart
 LocalizationGroup: consumers
 ms.openlocfilehash: 4c4b923199ccd35433b7bf743314395fc70bbe30
-ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82065762"
 ---
 # <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>*소비자* 및 다른 무료 라이선스 사용자를 위한 Power BI 기능 목록

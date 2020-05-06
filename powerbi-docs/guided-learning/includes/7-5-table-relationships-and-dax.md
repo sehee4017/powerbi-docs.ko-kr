@@ -1,9 +1,9 @@
 ---
 ms.openlocfilehash: 679c3e8c3d94c93899e9dcfae1e57f4b678fb218
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73799994"
 ---
 Power BI를 통해 완전히 다른 데이터 원본에서 제공하는 테이블을 비롯하여 여러 테이블 간에 관계를 만들 수 있습니다. Power BI Desktop의 **관계** 보기에서 모든 데이터 모델에 대한 이러한 관계를 볼 수 있습니다.

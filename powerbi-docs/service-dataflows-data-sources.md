@@ -10,10 +10,10 @@ ms.date: 09/20/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 650fb243152d9bf2ca2ecfc37143145d734b78fe
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872677"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows"></a>Power BI 데이터 흐름에 대한 데이터 원본에 연결
@@ -51,7 +51,7 @@ Power BI 데이터 흐름을 사용하면 다양한 데이터 원본에 연결�
 * 모든 범주
 * 파일
 * 데이터베이스
-* Power BI
+* Azure 소비 분석
 * Azure
 * 온라인 서비스
 * 기타
@@ -60,7 +60,7 @@ Power BI 데이터 흐름을 사용하면 다양한 데이터 원본에 연결�
 
 **파일** 범주에는 데이터 흐름에 대해 다음과 같은 사용 가능한 데이터 연결이 포함됩니다.
 
-* Access
+* 액세스 권한
 * Excel
 * JSON
 * 텍스트/CSV
@@ -92,7 +92,7 @@ Power BI 데이터 흐름을 사용하면 다양한 데이터 원본에 연결�
 **온라인 서비스** 범주에는 데이터 흐름에 대해 다음과 같은 사용 가능한 데이터 연결이 포함됩니다.
 
 * Amazon Redshift
-* 앱용 Common Data Service
+* 앱에 대한 Common Data Service
 * Microsoft Exchange Online
 * Salesforce 개체
 * Salesforce 보고서

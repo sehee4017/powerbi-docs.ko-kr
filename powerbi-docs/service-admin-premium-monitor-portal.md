@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: 18ae8828ce5811b4f06038b18ff6b423562c335b
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637698"
 ---
 # <a name="monitor-capacities-in-the-admin-portal"></a>관리 포털에서 용량 모니터링
@@ -87,7 +87,7 @@ ms.locfileid: "81637698"
 | 총 개수 | 데이터 세트에 대해 실행된 총 쿼리 수입니다. |
 | 평균 기간(밀리초) |데이터 세트에 대한 평균 쿼리 기간(밀리초)|
 | 최대 기간(ms) |데이터 세트에서 가장 오래 실행된 쿼리 기간(밀리초)입니다. |
-| 평균 대기 시간(밀리초) |데이터 세트의 평균 쿼리 대기 시간(밀리초)입니다. |
+| Average Wait Time(ms) |데이터 세트의 평균 쿼리 대기 시간(밀리초)입니다. |
 | 최대 대기 시간(밀리초) |데이터 세트에서 가장 오래 대기한 쿼리 기간(밀리초)입니다. |
 
 ##### <a name="eviction"></a>제거
