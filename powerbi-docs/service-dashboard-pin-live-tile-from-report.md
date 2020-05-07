@@ -11,10 +11,10 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: d620c1def289cea39a90092876ce275eea8ee699
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73853071"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>전체 보고서 페이지를 라이브 타일로 Power BI 대시보드에 고정
@@ -37,7 +37,7 @@ Amanda가 라이브 보고서 페이지를 대시보드에 고정하는 과정�
 2. 시각화를 선택하지 않은 상태에서 메뉴 모음에서 **라이브 페이지 고정**을 선택합니다.
    
    ![라이브 고정 페이지 아이콘](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page.png) 
-3. 기존 대시보드 또는 새 대시보드에 타일을 고정합니다. 다음 텍스트가 강조 표시되어 있습니다. ‘라이브 고정 페이지에서 변경 내용을 보고서에 적용하여 해당 페이지를 새로 고치면 대시보드 타일에 나타나게 됩니다.’ 
+3. 기존 대시보드 또는 새 대시보드에 타일을 고정합니다. *라이브 고정 페이지에서 변경 내용을 보고서에 적용하여 해당 페이지를 새로 고치면 대시보드 타일에 나타나게 됩니다.* 라는 텍스트가 강조 표시되어 있습니다.
    
    * 기존 대시보드: 드롭다운에서 대시보드의 이름을 선택합니다. 사용자와 공유된 대시보드는 드롭다운에 나타나지 않습니다.
    * 새 대시보드: 새 대시보드의 이름을 입력합니다.

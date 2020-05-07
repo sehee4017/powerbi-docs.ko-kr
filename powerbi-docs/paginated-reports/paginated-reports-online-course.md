@@ -10,10 +10,10 @@ ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
 ms.openlocfilehash: 5ff7891ce704ebaf8677df6f0872396ffa1b04a2
-ms.sourcegitcommit: 1f768dfef27cd8887318671f91427f72d02370c6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81675636"
 ---
 # <a name="online-course-power-bi-paginated-reports-in-a-day"></a>온라인 과정: 특정 일의 Power BI 페이지를 매긴 보고서

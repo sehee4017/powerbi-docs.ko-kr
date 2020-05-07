@@ -10,10 +10,10 @@ ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: 0c9d346017dc3b18abd6a56d0d3a62e1305e6575
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698742"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI 관리 - 질문과 대답(FAQ)
@@ -68,7 +68,7 @@ Microsoft 365 관리자는 [Power BI 웹 사이트](https://powerbi.microsoft.co
 조직의 사용자에게 적용될 수 있는 세 가지 시나리오가 있습니다.
 
 * **시나리오 1**: 조직에 기존 Microsoft 365 환경이 있고, Power BI에 등록하는 사용자에게 Microsoft 365 계정이 이미 있습니다.
-    이 시나리오에서 테넌트에 회사 또는 학교 계정(예: contoso.com)이 있는 사용자에게 아직 Power BI가 없는 경우, Microsoft는 해당 계정에 대해 Power BI(무료) 플랜을 활성화합니다. 사용자에게 Power BI 서비스를 사용 하는 방법에 대한 정보를 자동으로 알립니다.
+    이 시나리오에서 테넌트에 회사 또는 학교 계정(예: contoso.com)이 있는 사용자에게 아직 Power BI가 없는 경우, Microsoft는 해당 계정에 대해 Power BI(무료) 플랜을 활성화합니다.  사용자에게 Power BI 서비스를 사용 하는 방법에 대한 정보를 자동으로 알립니다.
 
 * **시나리오 2**: 조직에 기존 Microsoft 365 환경이 있지만, Power BI에 등록하는 사용자에게 Microsoft 365 계정이 없습니다.
     이 시나리오에서는 조직의 도메인(예: contoso.com)에 사용자의 메일 주소가 있지만 Microsoft 365 계정이 아직 없습니다. 이 경우 사용자는 Power BI에 가입할 수 있으며 자동으로 계정을 받습니다. 이 작업에는 Power BI 서비스에 액세스할 수 있습니다. 예를 들어 Nancy라는 직원이 업무용 메일 주소(예: nancy@contoso.com)를 사용하여 등록하는 경우, Microsoft는 자동으로 Contoso의 Microsoft 365 환경에 Nancy를 사용자로 추가하고 해당 계정에 대해 Power BI를 활성화합니다.
@@ -108,7 +108,7 @@ Set-MsolCompanySettings -AllowEmailVerifiedUsers $true
 
 ### <a name="how-do-i-check-if-i-have-the-block-on-in-the-tenant"></a>테넌트에 블록이 있는지 여부를 확인하려면 어떻게 하나요?
 
-다음 PowerShell 스크립트를 사용하여 설정을 확인합니다. *AllowEmailVerifiedUsers* 는 false여야 합니다. [PowerShell에 대해 자세히 알아보세요][1].
+다음 PowerShell 스크립트를 사용하여 설정을 확인합니다. *AllowEmailVerifiedUsers* 는 false여야 합니다.  [PowerShell에 대해 자세히 알아보세요][1].
 
 ```powershell
 $msolcred = get-credential
@@ -181,7 +181,7 @@ Power BI는 Microsoft 365 전역 관리자 역할의 사용자와 Power BI 서�
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-microsoft-365-tenant-that-users-get-added-to"></a>여러 도메인이 있는 경우 사용자가 추가되는 Microsoft 365 테넌트를 제어할 수 있나요?
 
-사용자가 아무 작업도 하지 않는다면, 서비스는 각 사용자 전자 메일 도메인 및 하위 도메인에 대한 테넌트를 만듭니다. 모든 사용자가 자신의 전자 메일 주소 확장명에 관계 없이 동일한 테넌트에 포함되도록 하려면: 미리 대상 테넌트를 만들거나 기존 테넌트를 사용합니다. 그런 다음 해당 테넌트 내에서 통합하기 원하는 모든 기존 도메인 및 하위 도메인을 추가합니다. 해당 도메인 및 하위 도메인으로 끝나는 전자 메일 주소를 사용하는 모든 사용자는 등록할 때 자동으로 대상 테넌트에 가입됩니다.
+사용자가 아무 작업도 하지 않는다면, 서비스는 각 사용자 전자 메일 도메인 및 하위 도메인에 대한 테넌트를 만듭니다. 모든 사용자가 자신의 전자 메일 주소 확장명에 관계 없이 동일한 테넌트에 포함되도록 하려면: 미리 대상 테넌트를 만들거나 기존 테넌트를 사용합니다. 그런 다음 해당 테넌트 내에서 통합하기 원하는 모든 기존 도메인 및 하위 도메인을 추가합니다.  해당 도메인 및 하위 도메인으로 끝나는 전자 메일 주소를 사용하는 모든 사용자는 등록할 때 자동으로 대상 테넌트에 가입됩니다.
 
 > [!IMPORTANT]
 > 사용자를 만든 후 테넌트 간에 사용자를 이동하는 자동화된 지원 메커니즘은 없습니다. 단일 Microsoft 365 테넌트에 도메인을 추가하는 방법에 대한 자세한 내용은 [Office 365에 사용자 및 도메인 추가](/office365/admin/setup/add-domain/)를 참조하세요.

@@ -11,10 +11,10 @@ ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
 ms.openlocfilehash: 9b3e06172d29f218f9234cf1f3d7e1f623495001
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74697270"
 ---
 # <a name="premium-capacity-scenarios"></a>프리미엄 용량 시나리오
@@ -141,7 +141,7 @@ CPU 포화의 영향을 이해하는 데 더 미묘한 차이가 있습니다. �
 
 경우에 따라 Power BI 관리자는 보고서 대신 대시보드(캐시된 타일에 대한 데이터 세트 새로 고침을 사용하여 정기적으로 쿼리)를 만들어 데이터 세트 소유자에게 휘발성이 낮은 쿼리 워크로드를 만들도록 요청할 수 있습니다. 이렇게 하면 대시보드가 로드될 때 급증을 방지할 수 있습니다. 이 해결 방법은 지정된 비즈니스 요구 사항에 대해 항상 가능한 것은 아니지만 데이터 세트를 변경하지 않고도 CPU 포화를 방지하는 효과적인 방법이 될 수 있습니다.
 
-## <a name="acknowledgements"></a>승인
+## <a name="acknowledgements"></a>감사의 말
 
 이 문서는 데이터 플랫폼 MVP이자 [Bitwise Solutions](https://www.bitwisesolutions.com.au/)의 독립 BI 전문가인 Peter Myers가 작성한 것입니다.
 

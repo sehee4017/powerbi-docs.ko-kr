@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 10aec8659fcb643c5b0511360ba798c7b4873c77
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74697891"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>온-프레미스 및 클라우드 데이터 원본 병합 또는 추가
@@ -25,7 +25,7 @@ ms.locfileid: "74697891"
 >[!NOTE]
 >이 문서는 클라우드 및 온-프레미스 데이터 원본이 단일 쿼리에서 병합 또는 추가되는 데이터 세트에만 적용됩니다. 한 쿼리는 온-프레미스 데이터 원본에 연결되고 다른 쿼리는 클라우드 데이터 원본에 연결된 개별 쿼리를 포함하는 데이터 세트의 경우 게이트웨이에서 클라우드 데이터 원본에 대한 쿼리를 실행하지 않습니다.
 
-## <a name="prerequisites"></a>필수 조건
+## <a name="prerequisites"></a>사전준비
 
 - 로컬 컴퓨터에 [게이트웨이가 설치되었습니다](/data-integration/gateway/service-gateway-install).
 - 온-프레미스 및 클라우드 데이터 원본을 결합하는 쿼리가 포함된 Power BI Desktop 파일입니다.
