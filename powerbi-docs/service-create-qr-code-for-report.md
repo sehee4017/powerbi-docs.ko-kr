@@ -10,10 +10,10 @@ ms.date: 03/13/2018
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: c98f06afe2af93e32d98ff1c3147cc15b64fbb57
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73853383"
 ---
 # <a name="create-a-qr-code-for-a-report-in-power-bi-to-use-in-the-mobile-apps"></a>Power BI에서 모바일 앱에 사용할 보고서의 QR 코드 만들기
@@ -39,7 +39,7 @@ Power BI의 QR 코드는 실제 세계의 모든 항목을 관련된 BI 정보�
 ## <a name="print-the-qr-code"></a>QR 코드 인쇄
 Power BI는 QR 코드를 인쇄할 수 있는 JPG 파일로 생성합니다. 
 
-1. **다운로드**를 선택하고 프린터에 연결된 컴퓨터에서 PNG 파일을 엽니다.  
+1. **다운로드**를 선택한 후 프린터에 연결된 컴퓨터에서 JPG 파일을 엽니다.  
    
    JPG 파일의 이름은 타일과 동일합니다. 예를 들어 "Sales and Marketing Sample.jpg"입니다.
    
@@ -50,5 +50,5 @@ Power BI는 QR 코드를 인쇄할 수 있는 JPG 파일로 생성합니다.
 * 모바일 앱으로 [실제 Power BI 데이터에 연결](consumer/mobile/mobile-apps-data-in-real-world-context.md)
 * [모바일 디바이스에서 Power BI QR 코드 스캔](consumer/mobile/mobile-apps-qr-code.md)
 * [타일에 대한 QR 코드 만들기](service-create-qr-code-for-tile.md)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+* 질문이 있으신가요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

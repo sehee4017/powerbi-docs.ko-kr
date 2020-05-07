@@ -69,11 +69,11 @@
               href: ../service-share-dashboard-that-links-to-excel-onedrive.md
         - name: Power BI 확장
           items:
-            - name: Excel에서 분석
+            - name: 도구 모음
               href: ../service-analyze-in-excel.md
             - name: Excel에서 분석 문제 해결
               href: ../desktop-troubleshooting-analyze-in-excel.md
-            - name: '오류: Excel 통합 문서에서 데이터를 찾을 수 없음'
+            - name: '오류: Excel 통합 문서에서 데이터를 찾을 수 없습니다.'
               href: ../service-admin-troubleshoot-excel-workbook-data.md
             - name: Power Automate 및 Power BI
               href: ../service-flow-integration.md

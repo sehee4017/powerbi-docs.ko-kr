@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 04/17/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: 9dbbf38b69d71811de4dd599951529234068b178
-ms.sourcegitcommit: d43761104f7daf4b2f297648855bb573b53e6d8c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81637919"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>Power BI Premium에서 용량 구성 및 관리
@@ -126,7 +126,7 @@ Power BI 관리자 및 Office 365 글로벌 관리자와 함께 용량 관리자
 
     ![작업 영역 할당](media/service-admin-premium-manage/assign-workspaces.png)
 
-   | 선택 영역 | 설명 |
+   | 선택 | 설명 |
    | --- | --- |
    | **사용자별 작업 영역** | 사용자 또는 그룹별 작업 영역을 할당하면 해당 사용자가 소유한 모든 작업 영역은 사용자의 개인 작업 영역을 포함하여 프리미엄 용량에 할당됩니다. 언급된 사용자는 자동으로 작업 영역 할당 권한을 얻습니다.<br>다른 용량에 이미 할당된 작업 영역을 포함합니다. |
    | **특정 작업 영역** | 선택한 용량에 할당할 특정 작업 영역의 이름을 입력합니다. |

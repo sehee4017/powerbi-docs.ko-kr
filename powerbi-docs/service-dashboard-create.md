@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 07/17/2019
 ms.author: maggies
 ms.openlocfilehash: d67e7acf4309595e8bccac86119ea38f1a97797f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73853402"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>보고서에서 Power BI 대시보드 만들기
@@ -72,7 +72,7 @@ Amanda가 보고서에서 시각화를 고정하여 새 대시보드를 만드�
 2. **추가 옵션(...)**  > **보고서 편집**을 선택하여 편집용 보기에서 보고서를 엽니다.
 
     ![읽기용 보기의 보고서](media/service-dashboard-create/power-bi-reading-view.png)
-3. 시각화 위로 마우스를 가져 가면 사용할 수 있는 옵션이 표시됩니다. 시각적 개체를 대시보드에 추가하려면 고정 아이콘 ![고정 아이콘](media/service-dashboard-create/power-bi-pin-icon.png)을 선택합니다.
+3. 시각화 위로 마우스를 가져 가면 사용할 수 있는 옵션이 표시됩니다. 시각적 개체를 대시보드에 추가하려면 고정 아이콘 ![고정 아이콘](media/service-dashboard-create/power-bi-pin-icon.png).
 
     ![타일을 마우스로 가리키기](media/service-dashboard-create/power-bi-hover.png)
 4. 새 대시보드를 만들고 있으므로 **새 대시보드**에 대한 옵션을 선택하고 이름을 지정합니다.
