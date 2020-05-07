@@ -10,10 +10,10 @@ ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 01e41520ec4cc391e241cd53a03c3e71d15379d7
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79496266"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>동료 Power BI 홈페이지의 추천 콘텐츠
@@ -60,5 +60,5 @@ ms.locfileid: "79496266"
 
 * [대시보드 및 보고서를 공동 작업 및 공유하는 방법](../service-how-to-collaborate-distribute-dashboards-reports.md)
 * [관리 포털에서 추천 콘텐츠 관리](../service-admin-portal.md#manage-featured-content)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
+* 질문이 있으신가요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
 

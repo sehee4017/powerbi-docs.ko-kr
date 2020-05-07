@@ -9,13 +9,13 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/04/2019
 ms.openlocfilehash: cac59a4689eecd75c53ca1c62d7b097438b2ae53
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114523"
 ---
-# <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>Power BI 애플리케이션에 대한 Azure AD 액세스 토큰 가져오기
+# <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>Power BI 애플리케이션의 Azure AD 액세스 토큰 얻기
 
 이 문서에서는 Power BI 애플리케이션에서 사용자를 인증하고 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)와 함께 사용할 액세스 토큰을 검색하는 방법을 보여줍니다.
 

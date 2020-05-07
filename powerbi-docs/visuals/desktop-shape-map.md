@@ -10,10 +10,10 @@ ms.date: 03/18/2020
 ms.author: mihart
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: 67c2acad74827c515c92ed0d16dd642170b8dc61
-ms.sourcegitcommit: 646d2de454a2897dc52cbc02b7743aaa021bac04
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79525663"
 ---
 # <a name="create-shape-map-visualizations-in-power-bi-desktop-preview"></a>Power BI Desktop에서 도형 맵 시각화 만들기(미리 보기)
@@ -88,7 +88,7 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 ![데스크톱에서 데이터 입력을 선택합니다.](media/desktop-shape-map/shape-map-4-new.png)
 
-데이터에 여러 열이 있는 경우 Excel과 같은 편집기를 사용하여 데이터를 붙여넣은 다음, 각 데이터 열을 개별적으로 복사해야 합니다. 그러면 데이터를 Power BI Desktop에 붙여넣을 수 있습니다. 맨 위 행이 머리글로 자동으로 식별됩니다.
+데이터에 여러 열이 있는 경우 Excel과 같은 편집기를 사용하여 데이터를 붙여넣은 다음, 각 데이터 열을 개별적으로 복사해야 합니다. 그러면 데이터를 Power BI Desktop에 붙여넣을 수 있습니다. 맨 위 행이 헤더로 자동으로 식별됩니다.
 
 ![테이블 창 만들기](media/desktop-shape-map/shape-map-5.png)
 
@@ -113,7 +113,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 
 이 미리 보기 릴리스에서는 다음 **지역 키**를 사용하여 **도형 맵**을 테스트합니다.
 
-### <a name="australia-states"></a>오스트레일리아: 시/도
+### <a name="australia-states"></a>오스트레일리아: 주
 
 | ID | abbr | iso | name | postal |
 | --- | --- | --- | --- | --- |
@@ -126,7 +126,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 | au-nsw |NSW |AU-NSW |New South Wales |NSW |
 | au-act |ACT |AU-ACT |Australian Capital Territory |ACT |
 
-### <a name="austria-states"></a>오스트리아: 시/도
+### <a name="austria-states"></a>오스트리아: 주
 
 | ID | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- |
@@ -135,12 +135,12 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 | at-tr |AT-7 |Tirol |Tyrol |TR |
 | at-st |AT-6 |Steiermark |Styria |ST |
 | at-sz |AT-5 |Salzburg |Salzburg |SZ |
-| at-oo |AT-4 |Oberösterreich |Upper Austria |OO |
-| at-no |AT-3 |Niederösterreich |Lower Austria |NO |
+| at-oo |AT-4 |Oberösterreich |Upper Austria |기 |
+| at-no |AT-3 |Niederösterreich |Lower Austria |아니요 |
 | at-ka |AT-2 |Kärnten |Carinthia |KA |
 | at-bu |AT-1 |Burgenland |Burgenland |BU |
 
-### <a name="brazil-states"></a>브라질: 시/도
+### <a name="brazil-states"></a>브라질: 주
 
 | ID |
 | --- |
@@ -148,7 +148,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 | Pernambuco |
 | Goias |
 | Sergipe |
-| Sao Paulo |
+| 상파울루 |
 | Santa Catarina |
 | Roraima |
 | Rondonia |
@@ -186,7 +186,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 | ca-sk |CA-SK |Saskatchewan |SK |
 | ca-qc |CA-QC |Quebec |QC |
 | ca-pe |CA-PE |Prince Edward Island |PE |
-| ca-on |CA-ON |Ontario |ON |
+| ca-on |CA-ON |Ontario |켜기 |
 | ca-ns |CA-NS |Nova Scotia |NS |
 | ca-nl |CA-NL |Newfoundland and Labrador |NL |
 | ca-nb |CA-NB |New Brunswick |NB |
@@ -204,7 +204,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 | Centre-Val de Loire |Centre-Val de Loire |Centre-Val de Loire |
 | Corse |Corse |Corsica |
 | Grand Est |  |  |
-| Guadeloupe | |   |
+| 과들루프 | |   |
 | Hauts-de-France |  |  |
 | Ile-de-France |Île-de-France |Ile-de-France |
 | La Reunion |  |  |
@@ -216,7 +216,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 | Provence-Alpes-Cote d'Azur |Provence-Alpes-Côte d'Azur |Provence-Alpes-Cote d'Azur |
 |  |  |  |
 
-### <a name="germany-states"></a>독일: 시/도
+### <a name="germany-states"></a>독일: 주
 
 | ID | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- |
@@ -293,7 +293,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 | it-pu |IT-75 |Apulia |Puglia |PU |
 | it-ab |IT-65 |Abruzzo |Abruzzo |AB |
 
-### <a name="mexico-states"></a>멕시코: 시/도
+### <a name="mexico-states"></a>멕시코: 주
 
 | ID | abreviatura | iso | name | name-en | postal |
 | --- | --- | --- | --- | --- | --- |
@@ -311,7 +311,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 | mx-pue |Pue. |MX-PUE |Puebla |Puebla |PU |
 | mx-oax |Oax. |MX-OAX |Oaxaca |Oaxaca |OA |
 | mx-nle |N.L. |MX-NLE |Nuevo León |Nuevo Leon |NL |
-| mx-nay |Nay. |MX-NAY |Nayarit |Nayarit |NA |
+| mx-nay |Nay. |MX-NAY |Nayarit |Nayarit |해당 없음 |
 | mx-mor |Mor. |MX-MOR |Morelos |Morelos |MR |
 | mx-mic |Mich. |MX-MIC |Michoacán |Michoacan |MC |
 | mx-mex |Méx. |MX-MEX |Estado de México |Mexico State |MX |
@@ -356,28 +356,28 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 | gb-nir |GB-NIR |Northern Ireland |
 | gb-eng |GB-ENG |England |
 
-### <a name="usa-states"></a>미국: 시/도
+### <a name="usa-states"></a>미국: 주
 
 | ID | name | postal |
 | --- | --- | --- |
 | us-mi |Michigan |MI |
-| us-ak |Alaska |AK |
+| us-ak |알래스카 |AK |
 | us-hi |Hawaii |HI |
 | us-fl |Florida |FL |
 | us-la |Louisiana |LA |
 | us-ar |Arkansas |AR |
 | us-sc |South Carolina |SC |
-| us-ga |Georgia |GA |
+| us-ga |조지아 |GA |
 | us-ms |Mississippi |MS |
 | us-al |Alabama |AL |
 | us-nm |New Mexico |NM |
 | us-tx |Texas |TX |
 | us-tn |Tennessee |TN |
-| us-nc |North Carolina |NC |
-| us-ok |Oklahoma |OK |
+| us-nc |노스캐롤라이나 |NC |
+| us-ok |Oklahoma |확인 |
 | us-az |Arizona |AZ |
 | us-mo |Missouri |MO |
-| us-va |Virginia |VA |
+| us-va |버지니아 |VA |
 | us-ks |Kansas |KS |
 | us-ky |Kentucky |KY |
 | us-co |Colorado |CO |
@@ -385,7 +385,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 | us-wv |West Virginia |WV |
 | us-de |Delaware |DE |
 | us-dc |District of Columbia |DC |
-| us-il |Illinois |IL |
+| us-il |일리노이 |IL |
 | us-oh |Ohio |OH |
 | us-ca |California |CA |
 | us-ut |Utah |UT |
@@ -400,7 +400,7 @@ Excel에서처럼 새 열 이름(오른쪽 빈 열)을 입력한 후 각 셀에 
 | us-ma |Massachusetts |MA |
 | us-ia |Iowa |IA |
 | us-nh |New Hampshire |NH |
-| us-or |Oregon |OR |
+| us-or |Oregon |또는 |
 | us-mn |Minnesota |MN |
 | us-vt |Vermont |VT |
 | us-id |Idaho |ID |

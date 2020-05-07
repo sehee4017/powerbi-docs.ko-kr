@@ -10,19 +10,19 @@ ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
 ms.openlocfilehash: 96a006f60e08d35ef6bbe13a2033d866814ec5b2
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74697546"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이란?
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-온-프레미스 데이터 게이트웨이는 온-프레미스 데이터(클라우드에 없는 데이터)와 여러 Microsoft 클라우드 서비스 간에 빠르고 안전한 데이터 전송을 제공하는 역할을 합니다. 이러한 클라우드 서비스에는 Power BI, PowerApps, Power Automate, Azure Analysis Services 및 Azure Logic Apps가 포함됩니다. 조직은 게이트웨이를 사용하여 데이터베이스 및 기타 데이터 원본을 온-프레미스 네트워크에 유지하면서 클라우드 서비스에서도 해당 온-프레미스 데이터를 안전하게 사용할 수 있습니다.
+온-프레미스 데이터 게이트웨이는 온-프레미스 데이터(클라우드에 없는 데이터)와 여러 Microsoft 클라우드 서비스 간에 빠르고 안전한 데이터 전송을 제공하는 역할을 합니다. 이러한 클라우드 서비스에는 Power BI, PowerApps, Power Automate, Azure Analysis Services 및 Azure Logic Apps가 포함됩니다. 게이트웨이를 사용하여 조직에서는 데이터베이스와 기타 데이터 원본을 온-프레미스 네트워크에 유지하면서도 클라우드 서비스에서 해당 온-프레미스 데이터를 안전하게 사용할 수 있습니다.
 
-## <a name="how-the-gateway-works"></a>게이트웨이 작동 방식
+## <a name="how-the-gateway-works"></a>게이트웨이 작동 원리
 
 ![게이트웨이 개요](media/service-gateway-onprem/on-premises-data-gateway.png)
 
@@ -30,7 +30,7 @@ ms.locfileid: "74697546"
 
 ## <a name="types-of-gateways"></a>게이트웨이 유형
 
-각각의 시나리오에는 다음 두 가지 유형의 게이트웨이가 있습니다.
+시나리오마다 각각 두 가지 유형의 게이트웨이가 있습니다.
 
 * **온-프레미스 데이터 게이트웨이**를 사용하면 여러 사용자가 여러 온-프레미스 데이터 원본에 연결할 수 있습니다. 단일 게이트웨이 설치를 사용하면 모든 지원되는 서비스에서 온-프레미스 데이터 게이트웨이를 사용할 수 있습니다. 이 게이트웨이는 여러 사용자가 여러 데이터 원본에 액세스하는 복잡한 시나리오에 적합합니다.
 

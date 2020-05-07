@@ -10,10 +10,10 @@ ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
 ms.openlocfilehash: 0118bc427ce58f48d50b3e8ed4e918bf66c6e8fc
-ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80621541"
 ---
 # <a name="power-bi-report-builder"></a>Power BI 보고서 작성기
@@ -36,9 +36,9 @@ ms.locfileid: "80621541"
 
 ##  <a name="design-your-report"></a><a name="DesignRept"></a> 보고서 디자인  
   
--   **테이블, 행렬, 차트 및 자유 형식 레이아웃을 사용하여 페이지를 매긴 보고서를 만듭니다.** 열 기반 데이터의 테이블 보고서, 요약된 데이터에 대한 행렬 보고서(예: 크로스탭 또는 피벗 테이블 보고서), 그래픽 데이터에 대한 차트 보고서 및 그 밖의 자유 형식 보고서를 만듭니다. 보고서에는 동적 웹 기반 애플리케이션의 목록, 그래픽 및 컨트롤과 함께 다른 보고서와 차트가 포함될 수 있습니다.  
+-   **테이블, 행렬, 차트, 자유 형식 보고서 레이아웃을 사용하여 페이지를 매긴 보고서를 작성합니다.** 열 기반 데이터의 테이블 보고서, 요약된 데이터에 대한 행렬 보고서(예: 크로스탭 또는 피벗 테이블 보고서), 그래픽 데이터에 대한 차트 보고서 및 그 밖의 자유 형식 보고서를 만듭니다. 보고서에는 동적 웹 기반 애플리케이션의 목록, 그래픽 및 컨트롤과 함께 다른 보고서와 차트가 포함될 수 있습니다.  
   
--   **다양한 데이터 원본에서 보고합니다.** SQL Server 및 Analysis Services, Oracle, Power BI 데이터 세트 및 기타 데이터베이스의 관계형 및 다차원 데이터를 사용하는 보고서를 만들 수 있습니다.  
+-   **다양한 데이터 원본을 사용하여 보고서를 작성합니다.** SQL Server 및 Analysis Services, Oracle, Power BI 데이터 세트 및 기타 데이터베이스의 관계형 및 다차원 데이터를 사용하는 보고서를 만들 수 있습니다.  
   
 -   **기존 보고서를 수정합니다.** 보고서 작성기를 사용하면 SSDT(SQL Server Data Tools) 보고서 디자이너에서 생성된 보고서를 사용자 지정하고 업데이트할 수 있습니다.  
   

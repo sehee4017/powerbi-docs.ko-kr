@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 01/12/2020
 ms.openlocfilehash: 18267f06bd43166cb1958d3aff73913a31189953
-ms.sourcegitcommit: 6e56d038280efab86521602cbc089b3989dddbd0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80550757"
 ---
 # <a name="power-bi-visual-project-structure"></a>Power BI 시각적 개체 프로젝트 구조
@@ -102,7 +102,7 @@ Power BI 시각적 개체 도구는 이 폴더에서 다음 파일을 만듭니�
 
 [TypeScript](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)의 구성 파일입니다.
 
-이 파일에는 `pbiviz.json` 파일의 `visualClassName` 속성에 지정된 시각적 개체의 기본 클래스가 있는 **\*.ts** 파일의 경로가 포함되어야 합니다.
+이 파일에는 **파일의 \* 속성에 지정된 시각적 개체의 기본 클래스가 있는**`visualClassName`.ts`pbiviz.json` 파일의 경로가 포함되어야 합니다.
 
 ### <a name="tslintjson"></a>tslint.json
 

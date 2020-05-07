@@ -1,5 +1,5 @@
 ---
-title: '자습서:  SQL Server에서 온-프레미스 데이터에 연결'
+title: '자습서: SQL Server에서 온-프레미스 데이터에 연결'
 description: 데이터를 새로 고치는 방법을 비롯하여 SQL Server를 게이트웨이 데이터 원본으로 사용하는 방법에 대해 알아봅니다.
 author: arthiriyer
 ms.reviewer: kayu
@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: 100417202fca148be0e2e976ce0cd84167c803d9
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74958442"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>온-프레미스 SQL Server 데이터베이스에서 데이터 새로 고침
@@ -30,7 +30,7 @@ ms.locfileid: "74958442"
 > * 새로 고침 기록을 검토하여 이전 새로 고침 주기의 결과를 분석합니다.
 > * 이 자습서에서 만든 아티팩트를 삭제하여 리소스를 정리합니다.
 
-## <a name="prerequisites"></a>필수 조건
+## <a name="prerequisites"></a>사전준비
 
 - 아직 없는 경우, 시작하기 전에 [Power BI 평가판](https://app.powerbi.com/signupredirect?pbi_source=web)에 등록합니다.
 - 로컬 컴퓨터에 [Power BI Desktop을 설치](https://powerbi.microsoft.com/desktop/)합니다.
@@ -114,7 +114,7 @@ Power BI Desktop에서 온-프레미스 SQL Server 데이터베이스에 직접 
 
 5. **게이트웨이** 관리 페이지의 **데이터 원본 설정** 탭에서 다음 정보를 입력 및 확인하고 **추가**를 선택합니다.
 
-    | 옵션 | 값 |
+    | 옵션 | Value |
     | --- | --- |
     | 데이터 원본 이름 | AdventureWorksProducts |
     | 데이터 원본 유형 | SQL Server |

@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 ms.author: painbar
 ms.openlocfilehash: 177f029073320c8db68b532fdb282b745c69a408
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80802643"
 ---
 # <a name="find-and-access-your-content-with-google-search"></a>Google Search를 사용하여 콘텐츠 찾기 및 액세스
@@ -28,7 +28,7 @@ Google Search를 사용하여 보고서 또는 대시보드를 찾아서 Power B
 
 ## <a name="search-using-google-search"></a>Google Search를 사용하여 검색
 
-Google 검색 상자에서 power bi에서 &lt;검색 항목&gt; 검색 양식을 사용하여 검색합니다.**** 예를 들어, **power bi에서 판매 검색**을 사용합니다.
+Google 검색 상자에서 power bi에서 &lt;검색 항목&gt; 검색 양식을 사용하여 검색합니다.****** 예를 들어, **power bi에서 판매 검색**을 사용합니다.
 
 * 일치 항목이 하나만 발견된 경우 Power BI 모바일 앱이 해당 항목을 엽니다.
 * 일치 항목이 둘 이상 발견된 경우 Power BI가 요청에 따라 필터링된 검색 화면을 엽니다.

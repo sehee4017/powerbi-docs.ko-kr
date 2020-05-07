@@ -10,10 +10,10 @@ ms.date: 03/25/2020
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: abe556231978d762dab652263aa2c55cf3c8a955
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80273274"
 ---
 # <a name="supported-browsers-for-power-bi"></a>Power BI에 지원되는 브라우저
@@ -33,5 +33,5 @@ Power BI는 사용할 수 있는 모든 플랫폼에서 다음 브라우저를 �
 
 ## <a name="next-steps"></a>다음 단계
 * [Power BI란?](power-bi-overview.md)
-* [Power BI 커뮤니티](https://community.powerbi.com/)에 질문하기
+* [Power BI 커뮤니티](https://community.powerbi.com/)에 질문합니다.
 * 여전히 문제가 있나요? [Power BI 지원 페이지](https://powerbi.microsoft.com/support/)를 방문하세요.

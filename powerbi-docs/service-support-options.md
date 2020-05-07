@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 09/17/2019
 ms.author: kfollis
 ms.openlocfilehash: 690f69f584b4b185929ad465cf4ddd75e26c1011
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74696536"
 ---
 # <a name="power-bi-pro-and-power-bi-premium-support-options"></a>Power BI Pro 및 Power BI Premium 지원 옵션
@@ -21,12 +21,11 @@ ms.locfileid: "74696536"
 
 | **지원 옵션** | **고장 수리 기술 지원** | **청구 지원** | **사전 대응 컨설팅 및 교육** | **서비스 수준<br>(초기 참여 시간)** | **지원 채널** |
 | --- | --- | --- | --- | --- | --- |
-| **커뮤니티 지원**: Power BI 전문가 및 Microsoft 직원으로 이루어진 글로벌 커뮤니티가 제공한 답변을 사용하여 피어-투-피어 지원, 지침 및 모범 사례를 가져오는 사용자를 위한 웹 포럼입니다. | X | | | 없음, 참여는 최선을 다해 제공됩니다. | [Power BI 커뮤니티](https://community.powerbi.com) |
-
+| **커뮤니티 지원**: Power BI 전문가 및 Microsoft 직원과 이루어진 글로벌 커뮤니티가 제공한 답변을 사용하여 피어-투-피어 지원, 지침 및 모범 사례를 가져오는 사용자를 위한 웹 포럼입니다. | X |   |   | 없음, 최선을 다해 참여하지 않았습니다. | [Power BI 커뮤니티](https://community.powerbi.com) |
 | **Power BI Pro 최종 사용자 지원**: Power BI에서 콘텐츠를 만들고 사용하는 최종 사용자를 위한 기본 기술 지원입니다. | X |   |   | 영업일 기준 1일입니다. | [Power BI 지원 사이트](https://support.powerbi.com)  |
-| **Power BI Premium 관리 지원**: Power BI Premium 용량을 배포하고 운영하는 관리자를 위한 기술 지원입니다. | X |   |   | 사례의 심각도에 따라 영업일 기준 1일 또는 1시간입니다.\* | [Power BI 지원 사이트](https://support.powerbi.com)<br>또는<br>[Microsoft 365 관리 센터](https://portal.office.com/adminportal)<br>또는<br> 휴대 전화 |
-| **Power BI 관리 지원**: 조직에서 Power BI를 배포하는 관리자를 위한 기술 및 요금 청구 지원입니다.  이 옵션을 사용하려면 Azure Active Directory 회사 관리자, Office 365 글로벌 관리자, Office 365 서비스 관리자 또는 Power BI 서비스 관리자여야 합니다. | X | X |   | 사례의 심각도에 따라 영업일 기준 1일 또는 1시간입니다.\* | [Microsoft 365 관리 센터](https://portal.office.com/adminportal)<br>또는<br> 휴대 전화 |
-| **Microsoft 프리미어 지원**: 계정 관리를 사용하여 현장 검색과 같은 옵션 및 학습 및 데이터 모델 성능 최적화와 같은 사전 대응 서비스를 지원하는 엔터프라이즈 수준의 접근 방식입니다. | X | X | X | 제품 및 사례의 심각도에 따라 다양합니다.\* | 기술 계정 관리자 <br>또는<br> [Microsoft 365 관리 센터](https://portal.office.com/adminportal) |
+| **Power BI Premium 관리 지원**: Power BI Premium 용량을 배포하고 운영하는 관리자를 위한 기술 지원입니다. | X |   |   | 사례의 심각도에 따라 영업일 기준 1일 또는 1시간입니다.\* | [Power BI 지원 사이트](https://support.powerbi.com)<br>OR<br>[Microsoft 365 관리 센터](https://portal.office.com/adminportal)<br>OR<br> 휴대 전화 |
+| **Power BI 관리 지원**: 조직에서 Power BI를 배포하는 관리자를 위한 기술 및 요금 청구 지원입니다.  이 옵션을 사용하려면 Azure Active Directory 회사 관리자, Office 365 글로벌 관리자, Office 365 서비스 관리자 또는 Power BI 서비스 관리자여야 합니다. | X | X |   | 사례의 심각도에 따라 영업일 기준 1일 또는 1시간입니다.\* | [Microsoft 365 관리 센터](https://portal.office.com/adminportal)<br>OR<br> 휴대 전화 |
+| **Microsoft 프리미어 지원**: 계정 관리를 사용하여 현장 검색과 같은 옵션 및 학습 및 데이터 모델 성능 최적화와 같은 사전 대응 서비스를 지원하는 엔터프라이즈 수준의 접근 방식입니다. | X | X | X | 제품 및 사례의 심각도에 따라 다양합니다.\* | 기술 계정 관리자 <br>OR<br> [Microsoft 365 관리 센터](https://portal.office.com/adminportal) |
 | | | | | | |
 
 \* 1시간 SLA는 _심각도 A 사례_를 통해서만 지원됩니다. 여기에는 기존 프로덕션 보고에서 작업 중단으로부터 직접적이며 즉각적인 비즈니스 영향을 줄 수 있는 근거가 필요합니다.

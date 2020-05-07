@@ -10,10 +10,10 @@ ms.date: 04/06/2020
 ms.author: mihart
 LocalizationGroup: Create reports
 ms.openlocfilehash: 9ce36bfa61b16bd30e59bc8491af80efdfdc8a35
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81006792"
 ---
 # <a name="use-a-relative-date-slicer-and-filter-in-power-bi"></a>Power BI에서 상대 날짜 슬라이서 및 필터 사용
@@ -42,17 +42,17 @@ ms.locfileid: "81006792"
 
 ![첫 번째 설정이 호출된 Relative 구성 옵션의 스크린샷.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04.png)
 
-* 마지막
+* Last
 
 * 다음
 
-* 이번
+* 이
 
 *상대 날짜 슬라이서*의 두 번째(가운데) 설정을 사용하면 상대 날짜 범위를 정의하는 숫자를 입력할 수 있습니다.
 
 ![두 번째 설정이 호출된 Relative 구성 옵션의 스크린샷.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04a.png)
 
-세 번째 설정을 사용하여 날짜 측정을 선택할 수 있습니다. 다음 선택 항목이 제공됩니다.
+세 번째 설정을 사용하여 날짜 측정을 선택할 수 있습니다. 다음 옵션이 있습니다.
 
 ![세 번째 설정이 호출된 Relative 구성 옵션의 스크린샷.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-05.png)
 
@@ -62,11 +62,11 @@ ms.locfileid: "81006792"
 
 * 주(달력)
 
-* 개월
+* 월
 
 * 개월(달력)
 
-* 년
+* 연도
 
 * 년(달력)
 

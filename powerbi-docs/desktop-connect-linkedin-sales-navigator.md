@@ -10,10 +10,10 @@ ms.date: 11/11/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: cd952dfa690d079d662f09e1e01c34dadf129b7b
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74565636"
 ---
 # <a name="connect-to-linkedin-sales-navigator-in-power-bi-desktop"></a>Power BI Desktop에서 LinkedIn Sales Navigator에 연결
@@ -25,7 +25,7 @@ ms.locfileid: "74565636"
 
 **LinkedIn Sales Navigator**를 사용하여 LinkedIn 데이터에 연결하려면 LinkedIn Sales Navigator Enterprise 요금제가 있어야 하며 Sales Navigator 계약에 대한 관리자 또는 보고 사용자여야 합니다.
 
-다음 비디오에서는 [이 문서의 뒷부분](#using-the-linkedin-sales-navigator-template-app)에서 자세히 설명하는 **LinkedIn Sales Navigator** 템플릿 앱을 사용하기 위한 간략한 둘러보기 및 자습서를 제공합니다. 
+다음 비디오에서는 **이 문서의 뒷부분**에서 자세히 설명하는 [LinkedIn Sales Navigator](#using-the-linkedin-sales-navigator-template-app) 템플릿 앱을 사용하기 위한 간략한 둘러보기 및 자습서를 제공합니다. 
 
 > [!VIDEO https://www.youtube.com/embed/ZqhmaiORLw0]
 

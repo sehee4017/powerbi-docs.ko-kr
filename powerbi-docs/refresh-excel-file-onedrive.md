@@ -1,4 +1,4 @@
-﻿---
+---
 title: Excel 통합 문서로부터 만들어진 데이터 세트 새로 고침 - 클라우드
 description: OneDrive 또는 SharePoint Online에 있는 Excel 통합 문서로부터 만들어진 데이터 세트 새로 고침
 author: davidiseminger
@@ -10,10 +10,10 @@ ms.date: 06/06/2019
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: 21b7b93b4e522a8e6a49d22b54c9ddd83cb5e042
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699624"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>OneDrive 또는 SharePoint Online에 있는 Excel 통합 문서로부터 만들어진 데이터 세트 새로 고침
@@ -51,7 +51,7 @@ Power BI에서 **지금 새로** 고침 및 **새로 고침 예약**은 다음 �
 
 Power BI에서 로그인하는 데 사용한 동일한 계정이 비즈니스용 OneDrive에 로그인하는 데 사용하는 계정이기 때문에 Power BI에서 비즈니스용 OneDrive에 연결하는 작업은 일반적으로 원활합니다. 하지만 개인 OneDrive를 사용하여 다른 [Microsoft 계정](https://account.microsoft.com)으로 로그인할 가능성이 있습니다.
 
-Microsoft 계정으로 로그인하는 경우 **로그인 유지**를 선택해야 합니다. 그런 다음, Power BI는 Power BI Desktop의 파일에 있는 모든 업데이트를 Power BI의 데이터 세트와 동기화할 수 있습니다.  
+Microsoft 계정으로 로그인 하는 경우 **로그인 상태 유지**를 선택해야 합니다. 그런 다음, Power BI는 Power BI Desktop의 파일에 있는 모든 업데이트를 Power BI의 데이터 세트와 동기화할 수 있습니다.  
 
 ![확인란에 로그인 상태 유지](media/refresh-excel-file-onedrive/refresh_signin_keepmesignedin.png)
 
@@ -71,22 +71,22 @@ Microsoft 계정 자격 증명이 변경되어 Power BI의 데이터 세트 및 
 
 ## <a name="how-do-i-make-sure-data-is-loaded-to-the-excel-data-model"></a>데이터를 Excel 데이터 모델에 로드하려면 어떻게 해야 하나요?
 
-파워 쿼리(Excel 2016에서 **가져오기 및 변환**)를 사용하여 데이터 원본에 연결할 때 데이터를 로드하기 위한 몇 가지 옵션이 있습니다. 데이터 모델에 데이터를 로드하려면 **다음으로 로드** 대화 상자에서 **데이터 모델에 이 데이터 추가** 옵션을 선택해야 합니다.
+파워 쿼리(Excel 2016에서 **가져오기 및 변환**)를 사용하여 데이터 원본에 연결할 때 데이터를 로드하기 위한 몇 가지 옵션이 있습니다. 데이터 모델에 데이터를 로드하려면 **에 로드** 대화 상자에서 **데이터 모델에 이 데이터 추가** 옵션을 선택해야 합니다.
 
 > [!NOTE]
 > 여기의 이미지는 Excel 2016을 보여줍니다.
 >
 >
 
-**탐색기**에서 **다음으로 로드...** 를 클릭합니다.  
+**탐색기**에서 **...에 로드**를 클릭합니다.  
 
 ![로드 대상... 명령](media/refresh-excel-file-onedrive/refresh_loadtodm_1.png)
 
-또는 **탐색기**에서 **편집**을 클릭하는 경우 쿼리 편집기를 엽니다. 여기서 **닫기 및 다음으로 로드...** 를 클릭할 수 있습니다.  
+또는 **탐색기**에서 **편집**을 클릭하는 경우 쿼리 편집기를 엽니다. **닫기 및 ...에 로드**를 클릭할 수 있습니다.  
 
 ![닫기 및 로드 대상... 명령](media/refresh-excel-file-onedrive/refresh_loadtodm_2.png)
 
-그런 다음 **다음으로 로드**에서 **데이터 모델에 이 데이터 추가**를 선택해야 합니다.  
+그런 다음 **에 로드**에서 **데이터 모델에 이 데이터 추가**를 선택해야 합니다.  
 
 ![데이터 모델에 추가 확인란](media/refresh-excel-file-onedrive/refresh_loadtodm_3.png)
 
@@ -104,7 +104,7 @@ Microsoft 계정 자격 증명이 변경되어 Power BI의 데이터 세트 및 
 
 무언가 잘못된 경우, 이는 일반적으로 Power BI가 데이터 원본에 로그인할 수 없기 때문이거나 데이터 세트가 온-프레미스 데이터 원본에 연결된 경우 게이트웨이가 오프라인 상태이기 때문입니다. Power BI가 데이터 원본에 로그인할 수 있는지 확인합니다. 데이터 소스에 로그인할 때 사용하는 암호를 변경하거나 Power BI가 데이터 원본에서 로그아웃된 경우, 데이터 원본 자격 증명에서 다시 데이터 원본에 로그인을 시도해야 합니다.
 
-**새로 고침 실패 알림 전자 메일을 내게 보내기**를 체크된 상태로 남겨두어야 합니다. 예약된 새로 고침이 실패하는 경우 바로 알아야 합니다.
+**새로 고침 실패 알림 전자 메일을 내게 보내기를 체크된 상태**로 남겨두어야 합니다. 예약된 새로 고침이 실패하는 경우 바로 알아야 합니다.
 
 ## <a name="important-notes"></a>중요한 참고 사항
 

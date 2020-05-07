@@ -9,10 +9,10 @@ ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 93cb384c06fc78f8d006aed02aef323bf3a72d31
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81006352"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Power BI에 앱 게시
@@ -43,7 +43,7 @@ Power BI에서 공식 패키지 콘텐츠를 만든 다음, *앱*을 통해 광�
 
 1. 작업 영역 목록 보기에서 **앱에 포함할** 대시보드와 보고서를 결정합니다.
 
-    ![게시할 대시보드 선택](media/service-create-distribute-apps/power-bi-apps-incude-dashboard.png)
+    ![게시할 대시보드 선택 ](media/service-create-distribute-apps/power-bi-apps-incude-dashboard.png)
 
     관련 대시보드가 있는 보고서를 포함하지 않도록 선택하면 보고서 옆에 경고가 표시됩니다. 앱을 게시할 수는 있지만 관련 대시보드에는 해당 보고서의 타일이 없습니다.
 

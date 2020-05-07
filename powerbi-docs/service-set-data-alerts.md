@@ -11,10 +11,10 @@ ms.date: 04/02/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: a67d983d11ae8fa2f82a540c0649c2da475d5249
-ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80621622"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Power BI 서비스의 데이터 경고
@@ -23,7 +23,7 @@ ms.locfileid: "80621622"
 
 내 작업 영역의 타일에 경고를 설정할 수 있습니다. 누군가가 [Premium 용량](service-premium-what-is.md)에 있는 대시보드를 공유하는 경우에도 경고를 설정할 수 있습니다. Power BI Pro 라이선스가 있는 경우 다른 작업 영역의 타일에도 경고를 설정할 수 있습니다. 경고는 보고서 시각적 개체에서 고정된 타일과 계기, KPI 및 카드에만 설정할 수 있습니다. 보고서에서 대시보드로 고정하는 스트리밍 데이터 세트에서 만든 시각적 개체에 경고를 설정할 수 있습니다. **타일 추가** > **사용자 지정 스트리밍 데이터**를 사용하여 대시보드에서 직접 만든 스트리밍 타일에는 경고를 설정할 수 없습니다.
 
-대시보드를 공유하더라도 자신이 설정한 경고만 볼 수 있습니다. 대시보드 소유자도 대시보드 보기에서 설정된 경고를 볼 수 없습니다. 데이터 경고는 플랫폼 전반에서 완전히 동기화되며 [Power BI 모바일 앱](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md) 및 Power BI 서비스에서 데이터 경고를 설정하고 확인합니다. Power BI Desktop에서는 사용할 수 없습니다. 경고를 자동화하고 Power Automate와 통합할 수도 있습니다. [Power Automate 및 Power BI](service-flow-integration.md) 문서에서 직접 사용해 볼 수 있습니다.
+대시보드를 공유하더라도 자신이 설정한 경고만 볼 수 있습니다. 대시보드 소유자도 대시보드 보기에서 설정된 경고를 볼 수 없습니다. 데이터 경고는 플랫폼 전반에서 완전히 동기화되며 [Power BI 모바일 앱](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md) 및 Power BI 서비스에서 데이터 경고를 설정하고 봅니다. Power BI Desktop에서는 사용할 수 없습니다. 경고를 자동화하고 Power Automate와 통합할 수도 있습니다. [Power Automate 및 Power BI](service-flow-integration.md) 문서에서 직접 사용해 볼 수 있습니다.
 
 ![타일](media/service-set-data-alerts/powerbi-alert-types-new.png)
 
@@ -32,7 +32,7 @@ ms.locfileid: "80621622"
 
 ## <a name="set-data-alerts-in-the-power-bi-service"></a>Power BI 서비스에서 데이터 경고 설정
 
-Amanda가 대시보드의 타일에 몇 가지 경고를 추가하는 과정을 시청합니다. 그런 다음, 비디오 아래에 있는 단계별 지침을 따라서 직접 시도해 볼 수 있습니다.
+Amanda가 대시보드의 타일에 몇 가지 경고를 추가하는 과정을 봅니다. 그런 다음, 비디오 아래에 있는 단계별 지침을 따라서 직접 시도해 볼 수 있습니다.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JbL2-HJ8clE" frameborder="0" allowfullscreen></iframe>
 
@@ -89,7 +89,7 @@ Amanda가 대시보드의 타일에 몇 가지 경고를 추가하는 과정을 
 
 ### <a name="from-the-dashboard-tile"></a>대시보드 타일에서
 
-1. 타일에 대한 경고를 변경하거나 제거하려면, 종 모양 아이콘 ![경고 아이콘](media/service-set-data-alerts/power-bi-bell-icon.png)을 선택하여 **경고 관리** 창을 다시 엽니다.
+1. 타일에 대한 경고를 변경하거나 제거하려면, 종 모양 아이콘 **경고 아이콘**을 선택하여 ![경고 관리](media/service-set-data-alerts/power-bi-bell-icon.png) 창을 다시 엽니다.
 
     Power BI에서 해당 타일에 대해 설정된 경고를 표시합니다.
 

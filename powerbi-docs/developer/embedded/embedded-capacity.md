@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
 ms.openlocfilehash: 27d6ddd9b24e09805bd22150a22347e5cd93c8e0
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79492839"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Power BI 임베디드 분석의 용량 및 SKU
@@ -36,7 +36,7 @@ Power BI Embedded는 애플리케이션에 시각적 개체를 포함하려는 I
 
 Power BI Embedded를 사용하는 애플리케이션에서는 사용자가 Power BI Embedded 용량에 저장된 콘텐츠를 사용할 수 있습니다.
 
-### <a name="power-bi-premium"></a>Power BI Premium
+### <a name="power-bi-premium"></a>Power BI 프리미엄
 
 [Power BI Premium](../../service-premium-what-is.md)은 조직, 파트너, 고객 및 공급업체에 대한 단일 보기를 제공하는 완전한 BI 솔루션을 원하는 기업 고객을 위해 설계되었습니다.
 
@@ -158,7 +158,7 @@ Power BI Premium은 두 가지 SKU, 즉 *P*와 *EM*을 제공합니다.
 </tr>
 <tr>
 <td><p><strong>Billing</strong></td>
-<td style="text-align: center;">시간별</td>
+<td style="text-align: center;">매시간</td>
 <td style="text-align: center;">매월</td>
 <td style="text-align: center;">매월</td>
 </tr>

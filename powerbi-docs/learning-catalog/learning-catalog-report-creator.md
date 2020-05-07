@@ -7,10 +7,10 @@ ms.topic: article
 ms.date: 03/25/2020
 ms.author: v-lshann
 ms.openlocfilehash: f318aa59f33a9993b31787fcb3e0036286616608
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81268814"
 ---
 # <a name="report-creator-learning-catalog"></a>보고서 작성자 학습 카탈로그
@@ -61,6 +61,6 @@ Power BI 보고서 디자이너이신가요?
 | 콘텐츠 | 설명  | 서식 | 길이   |
 |-------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|----------------|
 | [Microsoft Flow 및 PowerApps의 전체 경제적 영향](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website) | Microsoft Flow와 PowerApps를 사용하여 생산성이 뛰어난 앱을 빌드하고 비즈니스 프로세스를 자동화하는 방법을 알아보려면 이 웨비나에 등록하세요. 기업이 해당 솔루션을 채택할 경우 얻을 수 있는 혜택에 대해 의뢰한 연구 결과를 바탕으로, 게스트인 Forrester Consulting에서 중요한 정보를 얻을 수 있습니다. | 웹 세미나 |   |
-| [함께 사용하면 더욱 강력한 성능: Excel 사용자가 Power BI로부터 얻을 수 있는 5가지 장점](https://info.microsoft.com/excel-powerbi-better-together-ondemand.html)  | Excel은 전 세계에서 가장 인기 있는 프로그램 중 하나입니다. 수많은 개인과 기업이 간단한 데이터 입력 및 회계에서 고급 통계 및 데이터 분석에 이르기까지 모든 것에 Excel을 사용합니다. 그러나 다른 Microsoft 프로그램인 Power BI와 함께 사용할 경우 시간을 절약하고 효율성을 높이는 것은 물론 Excel 기능을 크게 확장할 수 있다는 것을 모르는 사용자가 많습니다. 사용자와 기업이 Excel과 Power BI를 함께 활용할 수 있는 5가지 이유를 살펴보겠습니다. 웨비나를 마치면 데이터를 분석, 해석 및 활용하는 조직의 역량을 키우는 데 필요한 모든 지식을 얻게 될 것입니다. | 웹 세미나 |   |
+| [함께 사용하면 더욱 강력한 성능: Excel 사용자가 Power BI로부터 얻을 수 있는 5가지 장점](https://info.microsoft.com/excel-powerbi-better-together-ondemand.html)  | Excel은 전 세계에서 가장 인기 있는 프로그램 중 하나입니다. 수많은 개인과 기업이 간단한 데이터 입력 및 회계에서 고급 통계 및 데이터 분석에 이르기까지 모든 것에 Excel을 사용합니다. 그러나 다른 Microsoft 프로그램인 Power BI와 함께 사용할 경우 시간을 절약하고 효율성을 높이는 것은 물론 Excel 기능을 크게 확장할 수 있다는 것을 모르는 Power BI에서 작동합니다. 사용자와 기업이 Excel과 Power BI를 함께 활용할 수 있는 5가지 이유를 살펴보겠습니다. 웨비나를 마치면 데이터를 분석, 해석 및 활용하는 조직의 역량을 키우는 데 필요한 모든 지식을 얻게 될 것입니다. | 웹 세미나 |   |
 | [스프레드시트 이외](https://info.microsoft.com/CA-PowerBI-WBNR-FY18-05May-09-DataBeyondtheSpreadsheet-MCW0006385_02OnDemandRegistration-ForminBody.html)        | 모든 Excel 사용자와 분석가에 대한 요청: 더 효율적으로 작업하고 더 많은 가치를 제공하며 중요한 사항에 집중하세요. 사용자가 사용하고자 하는 멋진 보고서를 만들고, 설명 없이도 동료가 파악할 수 있는 방식으로 데이터를 시각적으로 공유하고, 어디에서든 정보를 이해해야 하는 모든 사용자가 인사이트에 액세스할 수 있게 하는 방법을 알아볼 수 있습니다. 이 온라인 세션에서 Microsoft Power BI의 작동 방식을 확인하세요.  | 웹 세미나 |   |
 | [Power BI 및 Visio를 사용하여 적합한 인사이트 얻기](https://info.microsoft.com/ww-ondemand-powerbi-and-visio.html) | Power BI 대시보드와 Microsoft Visio 다이어그램을 결합하여 강력한 시각적 개체를 만드는 방법을 알아보려면 이 웨비나에 참여하세요. Visio와 Power BI는 시각적으로 뛰어나고 기본적으로 상호 보완적입니다. Visio를 사용하면 상호 연결된 워크플로 및 실제 레이아웃과 같은 설명적인 다이어그램을 만들 수 있습니다. Power BI를 통해 차트 및 맵을 사용하는 직관적인 대시보드를 빌드하여 핵심 성과 지표를 측정하고 목표를 추적할 수 있습니다.  | 웹 세미나 |   |

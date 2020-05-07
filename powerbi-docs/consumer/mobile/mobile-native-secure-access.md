@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: painbar
 ms.openlocfilehash: ce7b3c3bc667023ef36650d8c551caaceab04c02
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80802804"
 ---
 # <a name="protect-power-bi-app-with-face-id-touch-id-passcode-or-biometric-data"></a>Face ID, Touch ID, 암호 또는 생체 인식 데이터로 Power BI 앱 보호 
@@ -24,7 +24,7 @@ iOS 및 Android용 Power BI 앱을 사용하면 추가 ID를 구성하여 데이
 
 | ![iPhone](./media/mobile-native-secure-access/ios-logo-40-px.png) | ![iPad](./media/mobile-native-secure-access/ios-logo-40-px.png) | ![Android 휴대폰](././media/mobile-native-secure-access/android-logo-40-px.png) | ![Android 태블릿](././media/mobile-native-secure-access/android-logo-40-px.png) |
 |:--- |:--- |:--- |:--- |
-|iPhone |iPad |Android 휴대폰 |Android 태블릿 |
+|iPhones |iPad |Android 휴대폰 |Android 태블릿 |
 
 ## <a name="turn-on-face-id-touch-id-or-passcode-on-ios"></a>iOS에서 Face ID, Touch ID 또는 암호 설정
 

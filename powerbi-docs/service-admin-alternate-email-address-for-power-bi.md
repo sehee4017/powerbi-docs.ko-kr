@@ -10,10 +10,10 @@ ms.date: 04/23/2019
 ms.author: kfollis
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 3a6f1f692d615da14be9092290fd7c8c9e6bf168
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698650"
 ---
 # <a name="use-an-alternate-email-address"></a>대체 이메일 주소 사용
@@ -63,7 +63,7 @@ Power BI는 다음 순서에 따라 사용할 메일을 선택합니다.
 
 1. Azure AD 사용자 개체에 메일 특성이 있는 경우, Power BI는 메일 주소에 해당 메일 특성을 사용합니다.
 
-1. UPN 이메일이 **\*.onmicrosoft.com** 도메인 이메일 주소("\@" 기호 다음의 정보)가 *아닌* 경우, Power BI는 이메일 주소에 해당 메일 특성을 사용합니다.
+1. UPN 이메일이  .onmicrosoft.com**도메인 이메일 주소("\*" 기호 다음의 정보)가**아닌\@ 경우, Power BI는 이메일 주소에 해당 메일 특성을 사용합니다.
 
 1. Azure AD 사용자 개체에 *기타 이메일 주소* 배열 특성이 있는 경우, Power BI에서 이 목록에 있는 첫 번째 메일을 사용합니다(이 특성에 메일 목록이 있을 수 있기 때문에).
 

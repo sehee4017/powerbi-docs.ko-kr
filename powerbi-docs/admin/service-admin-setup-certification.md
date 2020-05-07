@@ -9,10 +9,10 @@ ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Share your work
 ms.openlocfilehash: 1fc33b48613335f4fba97921e3d528175eb2a47f
-ms.sourcegitcommit: 81407c9ccadfa84837e07861876dff65d21667c7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81267848"
 ---
 # <a name="set-up-dataset-and-dataflow-certification-preview"></a>데이터 세트 및 데이터 흐름 인증 설정(미리 보기)
@@ -35,7 +35,7 @@ Power BI 테넌트 관리자가 조직의 인증 프로세스를 설정해야 �
    ![데이터 세트 및 데이터 흐름 인증 설정](media/service-admin-setup-certification/service-admin-certification-setup-dialog.png)
 
 1. 토글을 **사용**으로 설정합니다.
-1. 데이터 세트 인증의 경우 조직에 게시된 인증 정책이 있으면 해당 URL을 여기에 입력할 수 있습니다. 그러면 [데이터 흐름 보증 설정 대화 상자](../service-datasets-promote.md#request-dataset-certification)의 인증 섹션에 있는 **자세한 정보** 링크가 됩니다. 
+1. 데이터 세트 인증의 경우 조직에 게시된 인증 정책이 있으면 해당 URL을 여기에 입력할 수 있습니다. 그러면 **데이터 흐름 보증 설정 대화 상자**의 인증 섹션에 있는 [자세한 정보](../service-datasets-promote.md#request-dataset-certification) 링크가 됩니다. 
 1. 데이터 세트와 데이터 흐름을 인증할 수 있는 권한이 있는 사용자 또는 그룹을 지정합니다. 권한 있는 인증자는 [데이터 세트](../service-datasets-promote.md#request-dataset-certification) 또는 [데이터 흐름](../transform-model/service-dataflows-promote-certify.md#certify-a-dataflow) 보증 설정 대화 상자의 인증 섹션에서 인증 단추를 사용할 수 있습니다.
 1. **적용**을 클릭합니다.
 
@@ -44,4 +44,4 @@ Power BI 테넌트 관리자가 조직의 인증 프로세스를 설정해야 �
 * [데이터 세트 인증](../service-datasets-certify.md)
 * [데이터 흐름 승격](../transform-model/service-dataflows-promote-certify.md#promote-a-dataflow)
 * [데이터 흐름 인증](../transform-model/service-dataflows-promote-certify.md#certify-a-dataflow)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+* 질문이 있으신가요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

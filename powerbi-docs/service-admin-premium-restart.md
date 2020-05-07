@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 03/12/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: ccc14cb041c5131d2cb06a8ad362b7054bcde857
-ms.sourcegitcommit: 3c51431d85793b71f378c4b0b74483dfdd8411b3
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80464696"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>Power BI Premium 용량 다시 시작
@@ -58,6 +58,6 @@ Power BI는 프리미엄 용량 사용자를 이러한 문제로부터 보호하
 
 ## <a name="next-steps"></a>다음 단계
 
-[Power BI 프리미엄이란?](service-premium-what-is.md)
+[Power BI Premium이란?](service-premium-what-is.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

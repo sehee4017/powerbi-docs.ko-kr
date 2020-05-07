@@ -10,10 +10,10 @@ ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 9f9b0ec77d0273374d940332abd5d186c2604866
-ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80979825"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>Power BI에서 R 시각적 개체 만들기 및 사용
@@ -57,7 +57,7 @@ Power BI 서비스는 *샌드박스* 기술을 적용하여 사용자 및 서비
 이 *샌드박스* 방법은 Power BI 서비스에서 실행되는 R 스크립트에서 인터넷에 액세스 또는 R 시각적 개체를 만들 필요가 없는 다른 리소스에 액세스와 같은 몇 가지 제한을 적용합니다.
 
 ## <a name="r-scripts-error-experience"></a>R 스크립트 오류 경험
-R 스크립트에 오류가 발생하면 R 시각적 개체가 그려지지 않고 오류 메시지가 표시됩니다. 오류에 대한 자세한 내용을 보려면 다음 그림에 나와 있는 것처럼 캔버스의 R 시각적 개체 오류에서 **자세한 정보 표시**를 선택합니다.
+R 스크립트에 오류가 발생하면 R 시각적 개체가 그려지지 않고 오류 메시지가 표시됩니다. 오류에 대한 자세한 내용을 보려면 다음 그림에 나와 있는 것처럼 캔버스의 R 시각적 개체 오류에서 **자세한 정보 표시** 를 선택합니다.
 
 ![오류 메시지](media/service-r-visuals/r-visuals-service-4.png)
 
@@ -65,7 +65,7 @@ R 스크립트에 오류가 발생하면 R 시각적 개체가 그려지지 않�
 
 ![런타임 오류를 보여 주는 스크린샷](media/service-r-visuals/r-visuals-service-5.png)
 
-## <a name="licensing"></a>라이선싱
+## <a name="licensing"></a>라이선스
 R 시각적 개체는 보고서, 새로 고침, 필터 및 교차 필터를 렌더링하는 데 [Power BI Pro](../service-self-service-signup-for-power-bi.md) 라이선스가 필요합니다. Power BI Pro 라이선스 및 무료 라이선스와의 차이점에 대한 자세한 내용은 [Power BI Pro 콘텐츠란?](../service-admin-purchasing-power-bi-pro.md)을 참조하세요.
 
 Power BI의 무료 사용자만 프리미엄 작업 영역에서 다른 사용자와 공유된 타일을 사용할 수 있습니다. 자세한 내용은 [Power BI Pro 구매](../service-admin-purchasing-power-bi-pro.md)를 참조하세요.
@@ -114,9 +114,9 @@ Power BI 서비스의 R 시각적 개체에는 몇 가지 제한 사항이 있�
 ## <a name="overview-of-r-packages"></a>R 패키지 개요
 R 패키지는 잘 정의된 형식으로 결합된 R 함수, 데이터 및 컴파일된 코드의 컬렉션입니다. R을 설치할 경우 패키지의 표준 집합과 함께 제공되며 다른 패키지를 다운로드 및 설치할 수 있습니다. 설치되면 사용할 세션으로 R 패키지를 로드해야 합니다. R 패키지의 주 원본은 CRAN([Comprehensive R Archive Network](https://cran.r-project.org/web/packages/available_packages_by_name.html))입니다.
 
-**Power BI Desktop**은 제한 없이 모든 유형의 R 패키지를 사용할 수 있습니다. 예를 들어, [RStudio IDE](https://www.rstudio.com/)를 사용하여 **Power BI Desktop**에서 사용할 R 패키지를 직접 설치할 수 있습니다.
+**Power BI Desktop**은 제한 없이 모든 유형의 R 패키지를 사용할 수 있습니다. 예를 들어, **RStudio IDE**를 사용하여 [Power BI Desktop](https://www.rstudio.com/)에서 사용할 R 패키지를 직접 설치할 수 있습니다.
 
-**Power BI 서비스**의 R 시각화 개체는 [이 문서](../service-r-packages-support.md)에 나오는 **지원 패키지** 섹션에 있는 패키지에서 지원됩니다. 지원 되는 패키지 목록에서 관심이 있는 패키지를 찾을 수 없는 경우 패키지의 지원을 요청할 수 있습니다. 지원을 요청하는 방법에 대한 내용은 [Power BI 서비스의 R 패키지](../service-r-packages-support.md)를 참조하세요.
+**Power BI 서비스**의 R 시각화 개체는 **이 문서**에 나오는 [지원 패키지](../service-r-packages-support.md) 섹션에 있는 패키지에서 지원됩니다. 지원 되는 패키지 목록에서 관심이 있는 패키지를 찾을 수 없는 경우 패키지의 지원을 요청할 수 있습니다. 지원을 요청하는 방법에 대한 내용은 [Power BI 서비스의 R 패키지](../service-r-packages-support.md)를 참조하세요.
 
 ### <a name="requirements-and-limitations-of-r-packages"></a>R 패키지의 요구 사항 및 제한 사항
 R 패키지에 대한 몇 가지 요구 사항 및 제한 사항이 있습니다.

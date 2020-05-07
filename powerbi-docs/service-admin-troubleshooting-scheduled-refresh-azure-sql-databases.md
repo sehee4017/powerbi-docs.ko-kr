@@ -1,6 +1,6 @@
 ---
 title: Azure SQL Database에 대해 예약된 새로 고침의 문제 해결
-description: Power BI에서 Azure SQL Database에 대해 예약된 새로 고침의 문제 해결
+description: 'Power BI에서 Azure SQL Database에 대해 예약된 새로 고침의 문제 해결 '
 author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
@@ -11,13 +11,13 @@ ms.author: maggies
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 292f80b4fec7da9ff6ce42e3611bf4d6353bae2d
-ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74791958"
 ---
-# <a name="troubleshooting-scheduled-refresh-for-azure-sql-databases-in-power-bi"></a>Power BI에서 Azure SQL Database에 대해 예약된 새로 고침의 문제 해결
+# <a name="troubleshooting-scheduled-refresh-for-azure-sql-databases-in-power-bi"></a>Power BI에서 Azure SQL Database에 대해 예약된 새로 고침의 문제 해결 
 
 새로 고침에 대한 자세한 내용은 [Power BI에서 데이터 새로 고침](refresh-data.md) 및 [예약된 새로 고침 구성](refresh-scheduled-refresh.md)을 참조하세요.
 
