@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
 ms.openlocfilehash: 26e68f64f9cce2251e98c6a831200b6fbc5d2dd8
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114487"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Power BI 작업 영역 컬렉션에서 콘텐츠 마이그레이션을 위한 코드 조각
@@ -23,7 +23,7 @@ ms.locfileid: "80114487"
 
 아래 코드는 C# 및 [Power BI .NET SDK](https://www.nuget.org/profiles/powerbi)를 사용하는 예제입니다.
 
-아래 코드 조각을 실행하기 위해서는 다음 네임스페이스를 사용해야 합니다.
+다음 네임스페이스를 사용하여 아래 코드 조각을 실행해야 합니다.
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -127,7 +127,7 @@ SaaS로 마이그레이션한 후 PBIX를 업데이트하기 위한 것입니다
 
 ## <a name="set-directquery-credentials-in-saas-workspace"></a>SaaS 작업 영역에서 DirectQuery 자격 증명 설정
 
-이 코드 조각에서는 간단한 설명을 위해 암호화되지 않은 자격 증명을 사용하지만 암호화된 자격 증명 전송도 지원합니다.
+이 코드 조각에는 간결성을 위해 암호화되지 않은 자격 증명이 사용되었으며 암호화된 자격 증명을 보내는 것도 지원됩니다.
 
 ```csharp
     public class ConnectionString
@@ -234,7 +234,7 @@ SaaS로 마이그레이션한 후 PBIX를 업데이트하기 위한 것입니다
 [Power BI Embedded 작업 영역 컬렉션 콘텐츠를 Power BI으로 마이그레이션하는 방법](migrate-from-powerbi-embedded.md)  
 [Power BI 대시보드, 보고서 및 타일을 포함하는 방법](embed-sample-for-your-organization.md)  
 [Power BI 프리미엄이란?](../../service-premium-what-is.md)  
-[JavaScript API Git 리포지토리](https://github.com/Microsoft/PowerBI-JavaScript)  
+[JavaScript Git 리포지토리](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git 리포지토리](https://github.com/Microsoft/PowerBI-CSharp)  
 [JavaScript 포함 샘플](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
 [Power BI 프리미엄 백서](https://aka.ms/pbipremiumwhitepaper)  

@@ -12,10 +12,10 @@ ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: e303d85083624bb67e73729024875d0f6f44fc42
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79377150"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Power BI 서비스 소비자를 위한 기본 개념
@@ -156,7 +156,7 @@ _______________________________________________________
 
 소비자는 대시보드를 편집할 수 없습니다. 하지만 주석을 추가하고, 관련 데이터를 보고, 즐겨찾기로 설정하고, 구독하는 등의 작업은 가능합니다.
 
-대시보드는 어떤 용도로 사용되나요?  몇 가지만 말하자면 다음과 같습니다.
+대시보드는 어떤 용도로 사용됩니까?  몇 가지만 말하자면 다음과 같습니다.
 
 - 의사 결정을 내리는 데 필요한 모든 정보를 한눈에 보기 위해서
 

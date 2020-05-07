@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/03/2020
 ms.openlocfilehash: f437b1d1fbfc1e905878fbb99875f1fc455e7b14
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79493253"
 ---
 # <a name="capacity-planning-in-power-bi-embedded-analytics"></a>Power BI Embedded 분석의 용량 계획
@@ -27,7 +27,7 @@ Power BI Embedded 분석 배포에 필요한 용량의 유형을 계산하는 �
 * 데이터 새로 고침 속도
 * 예측하기 어려운 추가 사용 패턴입니다.
 
-이 문서는 Power BI Embedded 분석 용량(*A*, *EM* 또는 *P* SKU)에 대한 부하 테스트를 자동화하기 위해 만들어진 [Power BI 전용 용량 부하 평가 도구](https://github.com/microsoft/PowerBI-Tools-For-Capacities/tree/master/LoadTestingPowerShellTool/)를 도입하여 Power BI Embedded 분석을 위한 용량 계획을 보다 쉽게 수행하도록 하기 위해 작성되었습니다.
+이 문서는 Power BI Embedded 분석 용량([A](https://github.com/microsoft/PowerBI-Tools-For-Capacities/tree/master/LoadTestingPowerShellTool/), *EM* 또는 *P* SKU)에 대한 부하 테스트를 자동화하기 위해 만들어진 *Power BI 전용 용량 부하 평가 도구*를 도입하여 Power BI Embedded 분석을 위한 용량 계획을 보다 쉽게 수행하도록 하기 위해 작성되었습니다.
 
 ## <a name="planning-tool"></a>계획 도구
 
@@ -51,7 +51,7 @@ Power BI Embedded 분석 배포에 필요한 용량의 유형을 계산하는 �
 
 테스트를 실행한 후 메트릭 앱에서 부하 테스트의 효과를 확인하려면 아래 지침을 따르세요. 테스트가 부하를 생성하기 시작할 때부터 부하가 메트릭에 표시될 때까지 최대 15분 정도 지연될 수 있습니다.
 
-1. [메트릭 앱](../../service-admin-premium-monitor-capacity.md) 방문 페이지의 **데이터 세트** 탭을 확장합니다.
+1. **메트릭 앱** 방문 페이지의 [데이터 세트](../../service-admin-premium-monitor-capacity.md) 탭을 확장합니다.
 2. **지금 새로 고침**을 클릭하여 요청 시 새로 고침을 시작합니다. 관리자가 이 작업을 수행해야 합니다.
 
     ![Power BI Premium 용량 메트릭](media/embedded-capacity-planning/embedded-capacity-planning.png)

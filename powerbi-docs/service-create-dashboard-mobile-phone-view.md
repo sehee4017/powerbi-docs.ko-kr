@@ -10,10 +10,10 @@ ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 75152d546bc2dc622210d5b9e5933ee44fbdc0b7
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872850"
 ---
 # <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>휴대폰에 대한 대시보드 최적화 - Power BI 
@@ -56,7 +56,7 @@ ms.locfileid: "73872850"
     Power BI는 휴대폰 레이아웃을 자동으로 저장합니다.
 
 ## <a name="next-steps"></a>다음 단계
-* [Power BI 모바일 앱에 최적화된 보고서 만들기](desktop-create-phone-report.md)
+* [Power BI 전화 앱에 대해 최적화된 보고서 만들기](desktop-create-phone-report.md)
 * [모든 크기에 최적화된 반응형 시각적 개체 만들기](visuals/desktop-create-responsive-visuals.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

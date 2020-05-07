@@ -10,10 +10,10 @@ ms.date: 04/01/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 28be15b1f62f410c14faaa5d3e8c36060596c466
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79208129"
 ---
 # <a name="self-service-data-prep-in-power-bi"></a>Power BI의 셀프 서비스 데이터 준비
@@ -46,7 +46,7 @@ Power BI는 조직이 여러 원본의 데이터를 통합하고 모델링을 �
 
 ## <a name="how-to-use-dataflows"></a>데이터 흐름 사용 방법
 
-이전 섹션에서는 데이터 흐름을 사용하여 빠르게 Power BI에서 강력한 분석을 만들 수 있는 몇 가지 방법을 설명했습니다. 이 섹션에서는 조직에서 데이터 흐름을 사용하여 빠르게 인사이트를 만들 수 있는 방법을 살펴보고 Power BI Pro가 고유한 데이터 흐름을 만들고 고유한 조직에 대해 인사이트를 사용자 지정할 수 있는 방법을 간략하게 알아봅니다.
+이전 섹션에서는 데이터 흐름을 사용하여 빠르게 Power BI에서 강력한 분석을 만들 수 있는 몇 가지 방법을 설명했습니다. 이 섹션에서는 조직에서 데이터 흐름을 사용하여 빠르게 인사이트를 만들 수 있는 방법을 살펴보고 BI Pro가 고유한 데이터 흐름을 만들고 고유한 조직에 대해 인사이트를 사용자 지정할 수 있는 방법을 간략하게 알아봅니다.
 
 > [!NOTE]
 > Power BI Pro 또는 Power BI Premium 계정과 같은 데이터 흐름을 사용하려면 유료 Power BI 계정이 있어야 하지만 데이터 흐름 사용에 대해서는 별도로 요금이 부과되지 않습니다. 
@@ -73,7 +73,7 @@ Power BI는 조직의 Azure Data Lake Storage 계정에 저장된 공통 데이�
 데이터 흐름 기능 및 워크로드가 Power BI Premium 구독에서 작동하려면 해당 프리미엄 용량의 데이터 흐름 워크로드가 켜져 있어야 합니다. 다음 표에는 Power BI Pro 계정을 사용하는 경우의 데이터 흐름 기능 및 해당 용량이 Power BI Premium을 사용하는 경우와 비교하여 설명되어 있습니다.
 
 
-|데이터 흐름 기능 | Power BI Pro |   Power BI Premium |
+|데이터 흐름 기능 | Power BI Pro |   Power BI 프리미엄 |
 |---------|---------|---------|
 |예약된 새로 고침| 8/일|  48|
 |총 스토리지| 10GB/사용자  |100TB/노드|

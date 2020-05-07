@@ -10,10 +10,10 @@ ms.date: 03/12/2020
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: d3cb3c8093446d4417a59c5f64ab6b85a765e3c8
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79206450"
 ---
 # <a name="create-a-drill-through-button-in-power-bi-preview"></a>Power BI에서 드릴스루 단추 만들기(미리 보기)
@@ -90,7 +90,7 @@ String_for_button = If(SELECTEDVALUE('Product'[Product], 0) == 0), "See product 
 
 드릴스루 단추를 선택하면 대상 페이지로 전달되는 매장 및 제품에 대한 필터가 둘 다 표시됩니다.
 
-![이 페이지의 필터](media/desktop-drill-through-buttons/power-bi-button-filters-passed-through.png)
+![이 페이지의 필터링](media/desktop-drill-through-buttons/power-bi-button-filters-passed-through.png)
 
 ### <a name="ambiguous-filter-context"></a>모호한 필터 컨텍스트
 

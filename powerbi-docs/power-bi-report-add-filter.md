@@ -10,10 +10,10 @@ ms.date: 10/20/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 143851013679dd0356c1ea5036c3d724b1dc436d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73875164"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>Power BI의 보고서에 필터 추가
@@ -29,7 +29,7 @@ ms.locfileid: "73875164"
 Power BI에서는 수동과 자동, 드릴스루 및 통과 등 다양한 종류의 필터를 제공합니다. [다양한 종류의 필터](power-bi-report-filter-types.md)에 대해 읽어 보세요.
 
 ## <a name="filters-in-editing-view-or-reading-view"></a>편집용 보기 또는 읽기용 보기의 필터
-읽기용 보기 및 편집용 보기의 다음 두 가지 보기에서 보고서를 조작할 수 있습니다. 읽기용 보기 및 편집용 보기. 사용할 수 있는 필터링 기능은 현재 보기에 따라 달라집니다. 자세한 내용은 모든 [필터 및 Power BI 보고서에서 강조 표시 정보](power-bi-reports-filters-and-highlighting.md)를 참조하세요.
+읽기용 보기 및 편집용 보기의 두 가지 보기에서 보고서를 조작할 수 있습니다. 사용할 수 있는 필터링 기능은 현재 보기에 따라 달라집니다. 자세한 내용은 모든 [필터 및 Power BI 보고서에서 강조 표시 정보](power-bi-reports-filters-and-highlighting.md)를 참조하세요.
 
 이 문서는 보고서 **편집용 보기**에서 필터를 만드는 방법에 관해 설명합니다.  읽기용 보기에서 필터에 대한 자세한 내용은 [보고서 읽기용 보기에서 필터로 상호 작용](consumer/end-user-report-filter.md)을 참조하세요.
 
@@ -89,7 +89,7 @@ Power BI에서는 수동과 자동, 드릴스루 및 통과 등 다양한 종류
      
     ![필터 창에 필드 추가](media/power-bi-report-add-filter/power-bi-search-add-visual-filter.png)
 
-    **구역 관리자**는 시각화 자체에 ‘추가되는 것이 아닙니다’.  시각화는 여전히 **StoreNumberName** 축과 **올해 판매** 값으로 구성됩니다.  
+    **지역 관리자**는 시각화 자체에 ‘추가되는 것이 아닙니다’.  시각화는 여전히 **StoreNumberName** 축과 **올해 판매** 값으로 구성됩니다.  
      
     ![필드가 시각적 개체에 없음](media/power-bi-report-add-filter/power-bi-visualization.png)
 
@@ -126,7 +126,7 @@ Power BI 서비스 및 Power BI Desktop의 드릴스루를 사용하여 공급 �
 ### <a name="create-a-drillthrough-filter"></a>드릴스루 필터 만들기
 과정을 따르려면 [고객 수익성 샘플](sample-customer-profitability.md#get-the-content-pack-for-this-sample)을 다운로드합니다. 경영진 비즈니스 영역에 초점을 두는 페이지를 원하는 경우를 가정해 봅니다.
 
-1. Power BI 서비스에서 소매점 분석 보고서를 연 다음 **지역 월별 판매** 페이지로 이동합니다.
+1. Power BI 서비스에서 소매점 분석 보고서를 연 다음 **지역 월별 판매** 페이지로 이동 합니다.
 
 2. **추가 옵션(...)**  > **보고서 편집**을 선택하여 편집용 보기에서 보고서를 엽니다.
    

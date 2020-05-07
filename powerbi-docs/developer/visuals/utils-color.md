@@ -9,10 +9,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/14/2020
 ms.openlocfilehash: 8de530871739a18c1afc72cee3e0da5fc70ebb16
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79379355"
 ---
 # <a name="color-utils"></a>색 유틸리티
@@ -33,7 +33,7 @@ npm install powerbi-visuals-utils-colorutils --save
 ```
 이 명령은 패키지를 설치하고 ```package.json```에 대한 종속성으로 패키지를 추가합니다.
 
-## <a name="usage"></a>사용량
+## <a name="usage"></a>사용
 
 InteractivityUtils를 사용하려면 시각적 개체의 소스 코드에 필요한 구성 요소를 가져와야 합니다.
 ```typescript

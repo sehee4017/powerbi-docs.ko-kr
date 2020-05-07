@@ -10,10 +10,10 @@ ms.date: 01/14/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 12c2d839c14a4a982505f56b7d605bacc5edc728
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79381425"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI의 시각화 유형
@@ -41,7 +41,7 @@ ms.locfileid: "79381425"
 >[!TIP]
 >여러 범주의 특정 값을 살펴보는 데는 가로 막대형 차트가 표준입니다.
 
-### <a name="cards-multi-row"></a>카드: 여러 행
+### <a name="cards-multi-row"></a>카드: 다중 행
 ![여러 행 카드](media/power-bi-visualization-types-for-reports-and-q-and-a/multi-row-card.png)
 
 ### <a name="cards-single-number"></a>카드: 단일 숫자
@@ -53,7 +53,7 @@ ms.locfileid: "79381425"
 ![콤보 차트](media/power-bi-visualization-types-for-reports-and-q-and-a/combosmall.png)
 
 >[!TIP]
->콤보 차트는 세로 막대형 차트와 꺾은선형 차트를 결합합니다. *꺾은선형 및 누적 세로 막대형* 과 꺾은선형 및 묶은 세로 막대형 중에서 선택합니다. 
+>콤보 차트는 세로 막대형 차트와 꺾은선형 차트를 결합합니다. *꺾은선형 및 누적 세로 막대형* 과 *꺾은선형 및 묶은 세로 막대형*중에서 선택합니다.
 
 자세한 내용은 [Power BI의 콤보 차트](power-bi-visualization-combo-chart.md)를 참조하세요.
 
@@ -110,12 +110,12 @@ ms.locfileid: "79381425"
 
 자세한 내용은 [지도 시각 효과에 대한 팁과 트릭](power-bi-map-tips-and-tricks.md)을 참조하세요.
 
-### <a name="maps-arcgis-maps"></a>지도: ArcGIS 맵
+### <a name="maps-arcgis-maps"></a>지도: ArcGIS 지도
 ![ArcGIS 지도](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
 자세한 내용은 [Power BI의 ArcGIS 지도](power-bi-visualization-arcgis.md)를 참조하세요.
 
-### <a name="maps-filled-maps-choropleth"></a>지도: 등치 지역도
+### <a name="maps-filled-maps-choropleth"></a>지도: 등치 지역도(코로플레스)
 ![등치 지역도](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
 
 >[!TIP]
@@ -132,7 +132,7 @@ ms.locfileid: "79381425"
 자세한 내용은 [Shape Maps in Power BI](desktop-shape-map.md)(Power BI의 도형 맵)를 참조하세요.
 
 
-### <a name="matrix"></a>Matrix
+### <a name="matrix"></a>행렬
 ![행렬](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
 
 >[!TIP]
@@ -203,7 +203,7 @@ ms.locfileid: "79381425"
 
 자세한 내용은 [대시보드에 이미지 위젯 추가](../service-dashboard-add-widget.md)를 참조하세요.
 
-### <a name="tables"></a>테이블
+### <a name="tables"></a>표
 ![테이블 시각적 개체](media/power-bi-visualization-types-for-reports-and-q-and-a/tabletype.png)
 
 >[!TIP]
@@ -212,7 +212,7 @@ ms.locfileid: "79381425"
 자세한 내용은 [Power BI에서 테이블 작업](power-bi-visualization-tables.md)을 참조하세요.
 
 ### <a name="treemaps"></a>트리맵
-![treemap](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
+![트리맵](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
 
 자세한 내용은 [Power BI의 트리 맵](power-bi-visualization-treemaps.md)을 참조하세요.
 

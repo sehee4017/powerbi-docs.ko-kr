@@ -10,10 +10,10 @@ ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 097c3e5be411c05a99df75bca5ec3e7abe0b19e0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73878652"
 ---
 # <a name="connect-to-adobe-analytics-in-power-bi-desktop"></a>Power BI Desktop에서 Adobe Analytics에 연결 
@@ -32,7 +32,7 @@ ms.locfileid: "73878652"
 
 메시지가 표시되면 사용자 이름 및 암호를 입력합니다. 연결이 설정되면 Power BI **탐색기** 대화 상자 내에서 여러 차원과 측정값을 미리 보고 선택하여 단일 표 출력을 만들 수 있습니다. 선택한 항목에 필요한 모든 필수 입력 매개 변수를 제공할 수도 있습니다. 
 
-![탐색기를 사용하여 데이터 선택](media/desktop-connect-adobe-analytics/connect-adobe-analytics_04.png)
+![탐색기를 사용하여 데이터 선택 ](media/desktop-connect-adobe-analytics/connect-adobe-analytics_04.png)
 
 선택된 테이블을 **로드**하여 전체 테이블을 **Power BI Desktop**에 가져오거나 쿼리를 **편집**하여 **쿼리 편집기**를 열고 사용하려는 데이터의 집합을 필터링하고 재정의한 후 조정된 데이터 집합을 **Power BI Desktop**에 로드할 수 있습니다.
 

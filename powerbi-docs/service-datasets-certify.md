@@ -10,10 +10,10 @@ ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: bdce9ec797d00b34f657ed66df6b7a5ce373334d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73877153"
 ---
 # <a name="certify-datasets-preview"></a>데이터 세트 인증(미리 보기)
@@ -22,7 +22,7 @@ ms.locfileid: "73877153"
 
 이제 Power BI 사용자는 다양한 데이터 세트에 액세스할 수 있으므로 엔터프라이즈는 신뢰할 수 있는 고품질 데이터 세트로 안내해야 합니다. Power BI에서는 데이터 세트를 *보증*하는 두 가지 방법을 제공합니다.
 
-- **승격**: 데이터 세트 소유자는 광범위하게 사용할 수 있게 되면 자신의 데이터 세트를 승격할 수 있습니다. 세부 정보는 [데이터 세트 승격](service-datasets-promote.md)을 참조하세요. 
+- **승격**: 데이터 세트 소유자는 광범위하게 사용할 수 있게 되면 자신의 데이터 세트를 승격할 수 있습니다. 세부 정보는 [데이터 세트 승격](service-datasets-promote.md)을 참조하세요.  
 - **인증**: 데이터 세트 소유자는 승격된 데이터 세트의 인증을 요청할 수 있습니다. **데이터 세트 인증** 테넌트 관리자 설정에 정의된 선택된 사용자 그룹이 인증할 데이터 세트를 결정합니다. 데이터 세트 검색 중에 데이터 세트를 인증한 사용자의 이름이 도구 설명에 표시됩니다. **인증됨** 레이블 위에 마우스를 갖다 대면 이름을 확인할 수 있습니다.
 
 ## <a name="certify-a-dataset"></a>데이터 세트 인증

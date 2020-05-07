@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 03/09/2020
 ms.author: painbar
 ms.openlocfilehash: 67daafc0938216b135b31d3190c191402e9a10de
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435378"
 ---
 # <a name="view-on-premises-reports-and-kpis-in-the-power-bi-windows-app"></a>Power BI Windows 앱에서 온-프레미스 보고서 및 KPI 보기
@@ -75,7 +75,7 @@ Reporting Services KPI, 모바일 보고서 및 Power BI 보고서(미리 보기
 * 포커스 모드로 보려면 KPI를 누릅니다.
   
     ![포커스 모드의 KPI](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-kpis.png)
-* 모바일 보고서를 눌러서 열고 Power BI 앱에서 상호 작용합니다.
+* 모바일 보고서를 탭하여 Power BI 앱에서 열고 상호 작용합니다.
   
     ![Reporting Services 모바일 보고서](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report.png)
 
@@ -108,5 +108,5 @@ Power BI 모바일 앱에서 Reporting Services KPI와 모바일 보고서를 �
 ## <a name="next-steps"></a>다음 단계
 * [Windows 10용 Power BI 모바일 앱 시작](mobile-windows-10-phone-app-get-started.md)  
 * [Power BI란?](../../fundamentals/power-bi-overview.md)  
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+* 질문이 있으신가요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

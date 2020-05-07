@@ -10,10 +10,10 @@ ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 95170ec36c5b4da0314c858ae415c3bbcb2ab556
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73877397"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>멋진 Power BI 대시보드를 디자인하기 위한 팁
@@ -22,7 +22,7 @@ ms.locfileid: "73877397"
 ![마케팅 및 판매 샘플 대시보드](media/service-dashboards-design-tips/power-bi-marketing-sample-dashboard.png)
 
 > [!TIP]
-> 이 대시보드가 마음에 드시나요? AppSource에서 대시보드와 관련 보고서를 다운로드할 수 있습니다. **데이터 가져오기** > **서비스**로 이동합니다. **Microsoft Sample - Sales &amp; Marketing** > **지금 가져오기**를 선택합니다.
+> 이 대시보드가 마음에 드시나요? AppSource에서 대시보드와 관련 보고서를 다운로드할 수 있습니다. **데이터 가져오기** > **서비스**로 이동합니다. **Microsoft 샘플 - 마케팅 및 판매** > **지금 가져오기**를 선택합니다.
 
 다음은 대시보드에 대한 몇 가지 팁입니다.
 

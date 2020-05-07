@@ -11,10 +11,10 @@ ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: b0ed499a272fc3f6fc0590117898c64551fedac1
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79436091"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>Power BI의 콤보 차트 만들기 및 사용
@@ -34,7 +34,7 @@ Power BI 콤보 차트는 꺾은선형 차트와 세로 막대형 차트를 결�
 * 하나의 측정값이 다른 측정값으로 정의된 목표를 충족하는지 확인하는 경우
 * 캔버스 공간을 절약하려는 경우
 
-### <a name="prerequisites"></a>필수 조건
+### <a name="prerequisites"></a>사전준비
 이 자습서는 [소매점 분석 샘플 PBIX 파일](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 사용합니다.
 
 1. 메뉴 모음의 왼쪽 위 섹션에서 **파일** > **열기**를 선택합니다.
@@ -43,7 +43,7 @@ Power BI 콤보 차트는 꺾은선형 차트와 세로 막대형 차트를 결�
 
 1. **소매점 분석 샘플 PBIX 파일**을 보고서 보기 아이콘 ![보고서 보기 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
 
-1. 새 페이지를 추가하기 위해 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
+1. Select ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
 
 
 
@@ -63,12 +63,12 @@ Will이 판매 및 샘플 마케팅을 사용하여 콤보 차트를 만드는 �
 
     b.  **판매** \> **올해 총 수익**도 **값**으로 끌어다 놓습니다.
 
-    c. **시간** \> **회계 월**을 선택하여 **축**에 추가합니다.
+    다. **시간** \> **회계 월**을 선택하여 **축**에 추가합니다.
 
     ![콤보 자습서 예](media/power-bi-visualization-combo-chart/combotutorial1new.png)
 5. 시각화의 오른쪽 위에 있는 **추가 옵션**(...)을 선택한 다음, **정렬 기준 > FiscalMonth**를 선택합니다. 정렬 순서를 변경하려면 줄임표를 다시 선택하고 **오름차순 정렬** 또는 **내림차순 정렬**을 선택합니다. 이 예제에서는 **오름차순 정렬**을 사용합니다.
 
-6. 세로 막대형 차트를 콤보 차트로 변환합니다. 사용 가능한 두 가지 콤보 차트는 다음과 같습니다: **꺾은선형 및 누적 세로 막대형** 및 **꺾은선형 및 묶은 세로 막대형**. 세로 막대형 차트를 선택한 상태로 **시각화** 창에서 **꺾은선형 및 묶은 세로 막대형 차트**를 선택합니다.
+6. 세로 막대형 차트를 콤보 차트로 변환합니다. **꺾은선형 및 누적 세로 막대형**과 **꺾은선형 및 묶은 세로 막대형**의 두 가지 콤보 차트를 사용할 수 있습니다. 세로 막대형 차트를 선택한 상태로 **시각화** 창에서 **꺾은선형 및 묶은 세로 막대형 차트**를 선택합니다.
 
     ![콤보 차트 변환 예](media/power-bi-visualization-combo-chart/converttocombo-new2.png)
 7. **필드** 창에서 **판매** \> **작년 판매**를 **꺾은선형 값** 버킷으로 끌어다 놓습니다.
@@ -86,7 +86,7 @@ Will이 판매 및 샘플 마케팅을 사용하여 콤보 차트를 만드는 �
 1월에는 GM%가 35%였고, 4월에 45% 고점에 도달했으며, 7월에 감소하고, 8월에 다시 고점에 도달했습니다. 작년과 금년의 매출 패턴이 유사할까요?
 
    ![콤보 차트 예 판매액](media/power-bi-visualization-combo-chart/combo1-new.png)
-2. **This Year Sales > Value** 및 **Last Year Sales**를 꺾은선형 차트에 추가합니다. **Gross Margin Last Year(%)** 의 눈금은 **Sales** 눈금보다 훨씬 작기 때문에 비교하기가 어렵습니다.      
+2. **This Year Sales > Value** 및 **Last Year Sales**를 꺾은선형 차트에 추가합니다. **작년의 총 수익률(%)** 의 눈금은 **Sales** 눈금보다 훨씬 작기 때문에 비교하기가 어렵습니다.      
 
    ![콤보 차트 플랫라인 예](media/power-bi-visualization-combo-chart/flatline-new.png)
 3. 보다 쉽게 읽고 해석 가능한 시각적 개체를 만들려면 꺾은선형 차트를 꺾은선형 및 누적 세로 막대형 차트로 변환합니다.
@@ -98,7 +98,7 @@ Will이 판매 및 샘플 마케팅을 사용하여 콤보 차트를 만드는 �
    ![클러스터 콤보 차트 예](media/power-bi-visualization-combo-chart/power-bi-clustered-combo.png)    
 
 ## <a name="add-titles-to-the-axes"></a>축에 제목 추가
-1. 서식 창을 열려면 페인트 롤러 아이콘 ![서식 창을 열려면 페인트 롤러 아이콘](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) 을 선택합니다.
+1. 페인트 롤러 아이콘 ![페인트 롤러 아이콘](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) 서식 창을 열려면.
 1. 아래쪽 화살표를 선택하여 **Y축** 옵션을 확장합니다.
 1. **Y축(열)** 에 대해 **위치**를 **왼쪽**으로 설정하고, **제목**을 **켬**으로 설정하고, **스타일**을 **제목만 표시**로 설정하고, **표시 단위**를 **백만**으로 설정합니다.
 

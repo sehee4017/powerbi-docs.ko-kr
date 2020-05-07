@@ -9,10 +9,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/14/2020
 ms.openlocfilehash: 67470ec405806f44fdb483e857d222ad4ff05a45
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79379171"
 ---
 # <a name="tooltip-utils"></a>도구 설명 유틸리티
@@ -33,7 +33,7 @@ npm install powerbi-visuals-utils-colorutils --save
 ```
 이 명령은 패키지를 설치하고 ```package.json```에 대한 종속성으로 패키지를 추가합니다.
 
-## <a name="usage"></a>사용량
+## <a name="usage"></a>사용
 
 > 사용 가이드에서는 패키지의 공용 API를 설명합니다. 패키지의 각 공용 인터페이스에 대한 설명과 몇 가지 예제를 찾을 수 있습니다.
 
@@ -63,7 +63,7 @@ function createTooltipServiceWrapper(tooltipService: ITooltipService, rootElemen
 
 ```ITooltipService```는 [IVisualHost](https://github.com/microsoft/PowerBI-visuals-tools/blob/master/templates/visuals/.api/v2.6.0/PowerBI-visuals.d.ts#L1335)에서 사용할 수 있습니다.
 
-**예제**
+**예**
 
 ```typescript
 import { createTooltipServiceWrapper } from "powerbi-visuals-utils-tooltiputils";
@@ -101,7 +101,7 @@ interface ITooltipServiceWrapper {
 addTooltip<T>(selection: d3.Selection<any>, getTooltipInfoDelegate: (args: TooltipEventArgs<T>) => VisualTooltipDataItem[], getDataPointIdentity?: (args: TooltipEventArgs<T>) => ISelectionId, reloadTooltipDataOnMouseMove?: boolean): void;
 ```
 
-**예제**
+**예**
 
 ```typescript
 import { createTooltipServiceWrapper, TooltipEventArgs, ITooltipServiceWrapper, TooltipEnabledDataPoint } from "powerbi-visuals-utils-tooltiputils";
@@ -144,7 +144,7 @@ tooltipServiceWrapper.addTooltip<TooltipEnabledDataPoint>(element, (eventArgs: T
 hide(): void;
 ```
 
-**예제**
+**예**
 
 ```typescript
 import {createTooltipServiceWrapper} from "powerbi-visuals-utils-tooltiputils";

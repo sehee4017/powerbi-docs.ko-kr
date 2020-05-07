@@ -10,10 +10,10 @@ ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: ae13bc69d7049dc9cf5c9d71ce0961ec566252bf
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79379102"
 ---
 # <a name="design-power-bi-reports-for-accessibility"></a>접근성을 지원하는 Power BI 보고서 디자인
@@ -235,7 +235,7 @@ Power BI는 접근성 도구와 기능뿐 아니라 보고서를 만들 때 사�
 * 중요한 정보를 전달하는 데 도구 설명을 사용하지 않는 것이 좋습니다. 운동 장애가 있는 사용자와 마우스를 사용하지 않는 사용자는 액세스하기 어렵습니다.
 * 도구 설명을 차트에 보조 정보로 추가합니다. 각 시각적 개체의 액세스 가능한 **데이터 표시** 테이블에 포함됩니다.
 
-### <a name="video"></a>동영상
+### <a name="video"></a>비디오
 * 페이지를 렌더링할 때 자동으로 시작되는 동영상을 방지합니다.
 * 동영상에 캡션이 있는지 확인하거나 대본을 제공합니다.
 
@@ -263,7 +263,7 @@ Power BI는 접근성 도구와 기능뿐 아니라 보고서를 만들 때 사�
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 접근성 기능에 대한 몇 가지 알려진 문제와 제한 사항이 있습니다. 해당 문제와 제한 사항에 대한 설명은 다음 목록에 나와 있습니다.
 
-* **Power BI Desktop**이 있는 화면 판독기를 사용하는 경우 **Power BI Desktop**에서 모든 파일을 열기 전에 화면 판독기를 여는 것이 가장 좋습니다.
+* **Power BI Desktop**에서 화면 판독기를 사용하는 경우 **Power BI Desktop**에서 파일을 열기 전에 화면 판독기를 여는 것이 가장 좋습니다.
 
 ## <a name="next-steps"></a>다음 단계
 
