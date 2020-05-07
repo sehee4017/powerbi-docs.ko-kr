@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 11/19/2019
 ms.author: mohaali
 ms.openlocfilehash: a17f98859e637621fbae037610359c8f29391a98
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75762281"
 ---
 # <a name="introduction-to-power-bi-qa-visualizations"></a>Power BI 질문 및 답변 시각화 소개
@@ -35,7 +35,7 @@ ms.locfileid: "75762281"
 - 질문 및 답변 시각적 개체를 표준 시각적 개체로 변환하는 아이콘 
 - 디자이너가 기본 자연어 엔진을 구성할 수 있게 해주는 질문 및 답변 도구를 여는 아이콘
 
-## <a name="prerequisites"></a>필수 조건
+## <a name="prerequisites"></a>사전준비
 
 1. 이 자습서는 [영업 및 마케팅 샘플 PBIX 파일](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)을 사용합니다. 
 
@@ -45,7 +45,7 @@ ms.locfileid: "75762281"
 
 1. 보고서 뷰에서 파일을 엽니다. ![보고서 뷰 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. 새 페이지를 추가하기 위해 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
+1. Select ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
 
 
 질문 및 답변 시각적 개체를 만들 때 오류가 표시되는 경우 [제한 사항](../natural-language/q-and-a-limitations.md) 섹션을 검사하여 데이터 원본 구성이 지원되는지 확인합니다.

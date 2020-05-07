@@ -10,10 +10,10 @@ ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
 ms.openlocfilehash: c277c21ffd3546307f9c38dfc06364324702986f
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74699386"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>온-프레미스 데이터 게이트웨이 심층 분석
@@ -22,7 +22,7 @@ ms.locfileid: "74699386"
 
 이 문서의 정보를 Power BI 및 일반 문서에 걸쳐 여러 문서로 이동했습니다. 각 제목 아래의 링크를 따라 관련 콘텐츠를 찾을 수 있습니다.
 
-## <a name="how-the-gateway-works"></a>게이트웨이 작동 방법
+## <a name="how-the-gateway-works"></a>게이트웨이 작동 방식
 
 [온-프레미스 데이터 게이트웨이 아키텍처](/data-integration/gateway/service-gateway-onprem-indepth)를 참조하세요.
 
@@ -81,7 +81,7 @@ ms.locfileid: "74699386"
 
 [로그인 계정](/data-integration/gateway/service-gateway-onprem-indepth#sign-in-account)을 참조하세요.
 
-## <a name="windows-service-account"></a>Windows 서비스 계정
+## <a name="windows-service-account"></a>Windows Service 계정
 
 [온-프레미스 데이터 게이트웨이 서비스 계정 변경](/data-integration/gateway/service-gateway-service-account)을 참조하세요.
 

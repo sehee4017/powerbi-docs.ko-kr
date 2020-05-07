@@ -10,10 +10,10 @@ ms.date: 01/02/2020
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: c72387d40ddf4b193481a37dbcb40695668eab66
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75837334"
 ---
 # <a name="create-calculated-tables-in-power-bi-desktop"></a>Power BI Desktop에서 계산된 테이블 만들기
@@ -64,7 +64,7 @@ New Western Region Employees = 'Western Region Employees'
 이 문서에서는 계산된 테이블에 대한 간략한 소개만 제공합니다. 많은 분석 문제를 해결하기 위해 DAX가 있는 계산된 테이블을 사용할 수 있습니다. 다음은 자주 사용되는 DAX 테이블 함수입니다.
 
 * DISTINCT
-* Values
+* VALUES
 * CROSSJOIN
 * UNION
 * NATURALINNERJOIN

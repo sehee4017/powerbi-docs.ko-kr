@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: c303bbd3fe229ea48dbad3da9d003851f7441956
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761637"
 ---
 # <a name="connect-to-an-amazon-redshift-database-in-power-bi-desktop"></a>Power BI Desktop에서 Amazon Redshift 데이터베이스에 연결
@@ -24,7 +24,7 @@ ms.locfileid: "75761637"
 
 ![](media/desktop-connect-redshift/connect_redshift_3.png)
 
-**Amazon Redshift** 창이 나타나면 **Amazon Redshift** 서버 및 데이터베이스 이름을 상자에 입력하거나 붙여 넣습니다. *Server* 필드의 일부로, 사용자는 다음 형식으로 포트를 지정할 수 있습니다. *ServerURL:Port*
+**Amazon Redshift** 창이 나타나면 **Amazon Redshift** 서버 및 데이터베이스 이름을 상자에 입력하거나 붙여 넣습니다. *Server* 필드의 일부로, 사용자는 *ServerURL:Port* 형식으로 포트를 지정할 수 있습니다.
 
 ![](media/desktop-connect-redshift/connect_redshift_4.png)
 

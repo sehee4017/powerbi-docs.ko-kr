@@ -10,10 +10,10 @@ ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: ea60400a4522dd496e19d508f13760581c0b2620
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761252"
 ---
 # <a name="work-with-multidimensional-models-in-power-bi"></a>Power BI에서 다차원 모델 작업
@@ -58,11 +58,11 @@ ARP(특성 관계 경로)는 ‘기본 멤버’에 강력한 기능을 제공�
 
 이제 각 열이 Power BI에서 사용될 때 어떤 일이 일어나는지 살펴보겠습니다. 시각적 개체가 다음 열에서 그룹화되는 경우 결과는 다음과 같습니다.
 
-* **City** - Power BI는 *City*, *State*, *Country*의 **기본 멤버**를 지워서 모든 도시를 표시하지만, *Population*의 **기본 멤버**를 유지합니다. Power BI가 *City*의 전체 ARP를 지웠습니다.
+* **City** - Power BI는 **City**, *State*, *Country*의 *기본 멤버*를 지워서 모든 도시를 표시하지만, **Population**의 *기본 멤버*를 유지합니다. Power BI가 *City*의 전체 ARP를 지웠습니다.
     > [!NOTE]
     > *Population*은 *City*의 ARP 경로에 없고 *State*에만 연결되므로 Power BI는 이 항목을 지우지 않습니다.
-* **State** - Power BI는 *City*, *State*, *Country* 및 *Population*의 모든 **기본 멤버**를 지워서 모든 *State*를 표시합니다.
-* **Country** - Power BI는 *City*, *State* 및 *Country*의 모든 **기본 멤버**를 지워서 모든 국가를 표시하지만, *Population*의 **기본 멤버**를 유지합니다.
+* **State** - Power BI는 *City*, **State**, *Country* 및 *Population*의 모든 *기본 멤버*를 지워서 모든 *State*를 표시합니다.
+* **Country** - Power BI는 **City**, *State* 및 *Country*의 모든 *기본 멤버*를 지워서 모든 국가를 표시하지만, **Population**의 *기본 멤버*를 유지합니다.
 * **City 및 State** - Power BI는 모든 열의 모든 **기본 멤버**를 지웁니다.
 
 시각적 개체에 표시되는 그룹의 전체 ARP 경로가 지워집니다. 

@@ -11,10 +11,10 @@ ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: c6987c5849fd2f971c1d7bdc7fe6130dcd09ce59
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761729"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Power BI Desktop에서 Azure Consumption Insights 데이터에 연결
@@ -224,7 +224,7 @@ Azure Portal의 열 및 세부 정보 이름은 API와 커넥터에서 비슷하
 | 태그 |tags |Tags |아니요 |
 | TagsId | | |예 |
 | Unit Of Measure |unitOfMeasure |Unit Of Measure |아니요 |
-| Year | |Year |아니요 |
+| 년 | |년 |아니요 |
 | SubscriptionId |subscriptionId |SubscriptionId |예 |
 | SubscriptionGuid |subscriptionGuid |SubscriptionGuid |아니요 |
 

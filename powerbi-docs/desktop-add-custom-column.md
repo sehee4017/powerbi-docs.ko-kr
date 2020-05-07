@@ -10,10 +10,10 @@ ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 443053bc973005d3e2a655b1222d049a4251e7d7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73878867"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Power BI Desktop에서 사용자 지정 열 추가
@@ -49,7 +49,7 @@ Power BI Desktop에서 쿼리 편집기를 사용하여 새 사용자 지정 데
 
 - **새 열 이름** 상자에 있는 사용자 지정 열의 초기 이름. 이 열의 이름은 바꿀 수 있습니다.
 
-- **사용자 지정 열 수식** 상자에 있는 [PowerQuery M 수식 쿼리](https://docs.microsoft.com/powerquery-m/power-query-m-function-reference). 이러한 쿼리는 새 사용자 지정 열이 정의되는 수식을 작성하여 만듭니다. 
+- [사용자 지정 열 수식](https://docs.microsoft.com/powerquery-m/power-query-m-function-reference) 상자에 있는 **PowerQuery M 수식 쿼리**. 이러한 쿼리는 새 사용자 지정 열이 정의되는 수식을 작성하여 만듭니다. 
 
    ![사용자 지정 열 추가 페이지](media/desktop-add-custom-column/add-custom-column_03.png)
 
@@ -79,7 +79,7 @@ Power BI Desktop에서 쿼리 편집기를 사용하여 새 사용자 지정 데
 
 ## <a name="use-the-advanced-editor-for-custom-columns"></a>고급 편집기를 사용하여 사용자 지정 열 만들기
 
-쿼리를 만든 후에 **고급 편집기**를 사용하여 쿼리 단계를 수정할 수도 있습니다. 이 작업을 수행하려면 다음 단계를 따릅니다.
+쿼리를 만든 후에 **고급 편집기**를 사용하여 쿼리 단계를 수정할 수도 있습니다. 이렇게 하려면 다음 단계를 수행하세요.
 
 1. **쿼리 편집기** 창에서 리본의 **보기** 탭을 선택합니다. 
 

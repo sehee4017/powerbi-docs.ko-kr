@@ -9,10 +9,10 @@ ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
 ms.openlocfilehash: b30310f78dca919474baf6d5870294bfc05dcacf
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75760999"
 ---
 # <a name="set-geographic-filters-in-power-bi-desktop-for-use-in-the-mobile-app"></a>Power BI Desktop에서 모바일 앱에 사용할 지리적 필터 설정
@@ -26,11 +26,11 @@ Power BI Desktop에서는 열의 [지리 데이터 범주](desktop-data-categori
 > 
 
 ## <a name="identify-geographic-data-in-your-report"></a>보고서에서 지리적 데이터 식별
-1. Power BI Desktop에서 데이터 보기로 전환합니다 ![데이터 보기 아이콘](media/desktop-mobile-geofiltering/pbi_desktop_data_icon.png)을 탭합니다.
+1. Power BI Desktop에서 데이터 보기로 전환합니다 ![데이터 보기 아이콘](media/desktop-mobile-geofiltering/pbi_desktop_data_icon.png).
 2. 지리적 데이터(예: City 열)로 열을 선택합니다.
    
     ![City 열](media/desktop-mobile-geofiltering/power-bi-desktop-geo-column.png)
-3. **모델링** 탭에서 **데이터 범주**의 올바른 범주(이 예에서는 **City**)를 선택합니다.
+3. **모델링** 탭에서 **데이터 범주**, 올바른 범주(이 예에서는 **City**)를 선택합니다.
    
     ![데이터 범주 상자](media/desktop-mobile-geofiltering/power-bi-desktop-geo-category.png)
 4. 이 모델의 다른 필드에 대한 지리적 데이터 범주 설정을 계속합니다. 
@@ -60,5 +60,5 @@ Power BI Desktop에서는 열의 [지리 데이터 범주](desktop-data-categori
 
 ## <a name="next-steps"></a>다음 단계
 * [Power BI Desktop의 데이터 분류](desktop-data-categorization.md)  
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+* 질문이 있으신가요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

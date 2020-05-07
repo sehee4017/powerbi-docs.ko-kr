@@ -5,10 +5,10 @@ ms.topic: include
 ms.date: 12/03/2019
 ms.author: kfollis
 ms.openlocfilehash: e046ad861f65a0a1b7d0a704fded822038438d85
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74958602"
 ---
 Power BI 서비스에서 사용자가 보유한 사용자 단위 라이선스 유형 및 작업하는 콘텐츠가 Power BI Premium 용량에 할당된 작업 영역에 있는지 여부에 따라 기능을 정의했습니다.
@@ -17,4 +17,4 @@ Power BI 서비스에서 사용자가 보유한 사용자 단위 라이선스 �
 
 * **Power BI Premium 용량** - ’Power BI Premium 라이선스’.  Power BI Premium은 Power BI에서 보다 일관된 성능을 제공하고 더 큰 데이터 볼륨을 지원하기 위해 전용 용량을 제공합니다. 또한 Power BI Premium을 사용하면 콘텐츠를 보는 사용자에게 Power BI Pro 라이선스를 요구하지 않고 Pro 사용자가 콘텐츠를 광범위하게 배포할 수 있습니다. 자세한 내용은 [Power BI Premium이란?](../service-premium-what-is.md)을 참조하세요.
 
-라이선스 유형의 자세한 비교는 [Power BI 가격](https://powerbi.microsoft.com/pricing/)의 _Power BI 기능 비교_ 섹션을 참조하세요.
+라이선스 유형의 자세한 비교는 _Power BI 가격_의 [Power BI 기능 비교](https://powerbi.microsoft.com/pricing/) 섹션을 참조하세요.

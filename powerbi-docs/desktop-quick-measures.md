@@ -11,10 +11,10 @@ ms.date: 11/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 4e5ea5e5fcbffb5c61434ecc26a90d80d1cd1736
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74415326"
 ---
 # <a name="use-quick-measures-for-common-calculations"></a>일반적인 계산에 빠른 측정 사용
@@ -22,7 +22,7 @@ ms.locfileid: "74415326"
 
 ## <a name="create-a-quick-measure"></a>빠른 측정 만들기
 
-Power BI Desktop에서 빠른 측정을 만들려면 **필드** 창에서 마우스 오른쪽 단추를 클릭하거나 특정 항목 옆의 줄임표(**...**)를 선택하고 메뉴가 나타나면 **새 빠른 측정**을 선택합니다. 
+Power BI Desktop에서 빠른 측정을 만들려면 **필드** 창에서 마우스 오른쪽 단추를 클릭하거나 특정 항목 옆의 줄임표( **...** )를 선택하고 메뉴가 나타나면 **새 빠른 측정**을 선택합니다. 
 
 ![새 빠른 측정 선택](media/desktop-quick-measures/quick-measures_01.png)
 
@@ -134,5 +134,5 @@ Power BI Desktop에서 빠른 측정을 만들려면 **필드** 창에서 마우
 시간 인텔리전스 빠른 측정에서 고유한 사용자 지정 날짜 테이블을 사용할 수 있습니다. 외부 테이블 형식 모델을 사용하는 경우에는 [시간 인텔리전스에 사용할 날짜 테이블로 표시 지정](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular)에 설명된 대로 모델을 작성할 때 테이블의 기본 날짜 열이 날짜 테이블로 표시되었는지 확인해야 합니다. 고유한 날짜 테이블을 가져오는 경우에는 [Set and use date tables in Power BI Desktop](desktop-date-tables.md)(Power BI Desktop에서 날짜 테이블 설정 및 사용)에 설명된 대로 날짜 테이블로 표시해야 합니다.
 
 ### <a name="additional-information-and-examples"></a>추가 정보 및 예제
-아직 제공되지 않은 빠른 측정에 대한 아이디어가 있으신가요? 좋습니다! [Power BI Ideas](https://go.microsoft.com/fwlink/?linkid=842906)(Power BI 아이디어) 페이지를 확인하고 Power BI Desktop에 표시되었으면 하는 빠른 측정에 대한 아이디어 및 DAX 수식을 제출해 주세요. 향후 릴리스에서 빠른 측정 목록에 추가되도록 노력하겠습니다.
+아직 제공되지 않은 빠른 측정에 대한 아이디어가 있으신가요? 잘 했습니다! [Power BI Ideas](https://go.microsoft.com/fwlink/?linkid=842906)(Power BI 아이디어) 페이지를 확인하고 Power BI Desktop에 표시되었으면 하는 빠른 측정에 대한 아이디어 및 DAX 수식을 제출해 주세요. 향후 릴리스에서 빠른 측정 목록에 추가되도록 노력하겠습니다.
 

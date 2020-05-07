@@ -11,10 +11,10 @@ ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
 ms.openlocfilehash: b2a05f3112a9272d5e41cff20729c445c7a0ae39
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76038555"
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>OneDrive 또는 SharePoint Online에 저장된 데이터 세트 새로 고침
@@ -56,7 +56,7 @@ Power BI는 다음 데이터 원본에 연결하고 해당 데이터 원본에�
 
 Power BI에서 비즈니스용 OneDrive에 연결하는 경우 일반적으로 Power BI 계정이 비즈니스용 OneDrive 계정과 동일한 계정이기 때문에 연결이 쉽습니다. 개인 OneDrive를 사용하는 경우에는 일반적으로 다른 [Microsoft 계정](https://account.microsoft.com)으로 로그인합니다.
 
-Microsoft 계정으로 로그인하는 경우 **로그인 유지**를 선택해야 합니다. 그런 다음, Power BI는 Power BI Desktop의 파일에 있는 모든 업데이트를 Power BI의 데이터 세트와 동기화할 수 있습니다.
+Microsoft 계정으로 로그인 하는 경우 **로그인 상태 유지**를 선택해야 합니다. 그런 다음, Power BI는 Power BI Desktop의 파일에 있는 모든 업데이트를 Power BI의 데이터 세트와 동기화할 수 있습니다.
 
 ![](media/refresh-desktop-file-onedrive/refresh_signin_keepmesignedin.png)
 
@@ -72,7 +72,7 @@ Microsoft 자격 증명을 변경한 경우 OneDrive의 파일과 Power BI의 �
 
 OneDrive에서 Power BI Desktop 파일의 변경 내용을 저장하고 약 1시간 이내에 해당 변경 내용이 Power BI에 표시되지 않는 경우에는 Power BI가 OneDrive에 연결할 수 없기 때문일 수 있습니다. OneDrive에서 파일에 다시 연결해봅니다. 로그인할지 묻는 메시지가 표시되면 **로그인 유지**를 선택해야 합니다. Power BI는 OneDrive에 연결하여 파일과 동기화할 수 없기 때문에 파일을 다시 가져와야 합니다.
 
-**새로 고침 실패 알림 전자 메일을 내게 보내기**를 체크된 상태로 남겨두어야 합니다. 예약된 새로 고침이 실패하는 경우 바로 알아야 합니다.
+**새로 고침 실패 알림 전자 메일을 내게 보내기** 를 체크된 상태로 남겨두어야 합니다. 예약된 새로 고침이 실패하는 경우 바로 알아야 합니다.
 
 ## <a name="troubleshooting"></a>문제 해결
 경우에 따라 데이터 새로 고침이 예상대로 진행되지 않을 수 있습니다. 일반적으로 게이트웨이와 연결될 때 데이터 새로 고침 문제가 발생합니다. 게이트웨이 문제 해결 문서에서 도구 및 알려진 문제를 살펴 보세요.

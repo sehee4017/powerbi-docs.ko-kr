@@ -12,10 +12,10 @@ ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 5f571cabcc413947713cd232863b3ecad910436d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872237"
 ---
 # <a name="generate-data-insights-automatically-with-power-bi"></a>Power BI를 사용하여 데이터 인사이트를 자동으로 생성
@@ -30,7 +30,7 @@ ms.locfileid: "73872237"
 인사이트 기능은 Microsoft Research와의 연계를 통해 개발되는 [고급 분석 알고리즘 집합](service-insight-types.md)의 성장을 기반으로 구축됩니다. 당사는 더 많은 사람들이 새롭고 직관적인 방식으로 각자 데이터의 정보를 활용할 수 있도록 하기 위해 노력할 것입니다.
 
 ## <a name="run-quick-insights-on-a-dataset"></a>데이터 세트에서 신속한 정보 활용을 실행합니다.
-Amanda가 데이터 세트에 대한 빠른 인사이트를 실행하고, 정보를 포커스 모드에서 열고, 정보 중 하나를 대시보드에 타일로 고정한 다음, 대시보드 타일에 대한 정보를 얻는 비디오를 시청하세요.
+Amanda가 데이터 세트에 대한 신속한 정보 활용을 실행하고, 정보를 포커스 모드에서 열고, 정보 중 하나를 대시보드에 타일로 고정한 다음, 대시보드 타일에 대한 정보를 얻는 비디오를 시청하세요.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/et_MLSL2sA8" frameborder="0" allowfullscreen></iframe>
 
@@ -45,7 +45,7 @@ Amanda가 데이터 세트에 대한 빠른 인사이트를 실행하고, 정보
 2. Power BI는 [다양한 알고리즘](service-insight-types.md)을 사용하여 데이터 세트의 추세를 검색합니다.
    
     ![정보를 검색하는 중 대화 상자](media/service-insights/pbi_autoinsightssearching.png)
-3. 몇 초 이내에 정보가 준비됩니다.  **인사이트 보기**를 선택하여 시각화를 표시합니다.
+3. 몇 초 이내에 정보가 준비됩니다.  **View Insights(정보 보기)** 를 선택하여 시각화를 표시합니다.
    
     ![성공 메시지](media/service-insights/pbi_autoinsightsuccess.png)
    
@@ -53,11 +53,11 @@ Amanda가 데이터 세트에 대한 빠른 인사이트를 실행하고, 정보
     > 데이터가 통계적으로 중요하지 않기 때문에 일부 데이터 세트는 인사이트를 생성할 수 없습니다.  자세한 내용은 [인사이트에 대한 데이터 최적화](service-insights-optimize.md)를 참조하세요.
     > 
     
-4. 최대 32개의 개별 정보 카드가 있는 특수 **빠른 인사이트** 캔버스에 시각화가 표시됩니다. 각 카드에는 차트 또는 그래프와 간략한 설명이 있습니다.
+4. 최대 32개의 개별 정보 카드가 있는 특수 **신속한 정보 활용** 캔버스에 시각화가 표시됩니다. 각 카드에는 차트 또는 그래프와 간략한 설명이 있습니다.
    
-    ![빠른 인사이트 캔버스](media/service-insights/power-bi-insights.png)
+    ![신속한 정보 활용 캔버스](media/service-insights/power-bi-insights.png)
 
-## <a name="interact-with-the-insight-cards"></a>인사이트 카드와 상호 작용
+## <a name="interact-with-the-insight-cards"></a>정보 활용 카드와 상호 작용
 
 1. 시각화를 대시보드에 추가하려면 카드를 마우스로 가리키고 고정 아이콘을 선택합니다.
 
@@ -76,12 +76,12 @@ Amanda가 데이터 세트에 대한 빠른 인사이트를 실행하고, 정보
      
        ![인사이트 얻기 아이콘](media/service-insights/pbi-autoinsights-tile.png)
      
-     인사이트가 왼쪽에 표시되고 해당 단일 인사이트의 데이터에만 기초한 새 카드는 오른쪽에 표시됩니다.
+     정보 활용이 왼쪽에 표시되고 해당 단일 정보 활용의 데이터에만 기초한 새 카드는 오른쪽에 표시됩니다.
      
        ![인사이트의 인사이트](media/service-insights/power-bi-insights-on-insights-new.png)
-4. 원래의 인사이트 캔버스로 돌아가려면 왼쪽 위 모서리에서 **포커스 모드 종료**를 선택합니다.
+4. 원래의 정보 활용 캔버스로 돌아가려면 왼쪽 위 모서리에서 **포커스 모드 종료**를 선택합니다.
 
-## <a name="run-insights-on-a-dashboard-tile"></a>대시보드 타일에서 인사이트 실행
+## <a name="run-insights-on-a-dashboard-tile"></a>대시보드 타일에서 정보 활용 실행
 데이터 세트 전체를 대상으로 인사이트를 검색하는 것보다, 검색 범위를 좁혀 단일 대시보드 타일을 만드는 데 사용되는 데이터에 대해 지정된 범위의 인사이트를 수행합니다. 
 
 1. 대시보드를 엽니다.

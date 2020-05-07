@@ -10,10 +10,10 @@ ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: quickstart
 ms.openlocfilehash: 5aed52ec232d3e603d69bfe93640187401279ff6
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75885231"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>빠른 시작: Power BI Desktop에서 데이터에 연결
@@ -24,7 +24,7 @@ ms.locfileid: "75885231"
 
 아직 Power BI에 등록하지 않은 경우 시작하기 전에 [평가판에 등록합니다](https://app.powerbi.com/signupredirect?pbi_source=web).
 
-## <a name="prerequisites"></a>필수 조건
+## <a name="prerequisites"></a>사전준비
 
 이 문서의 단계를 완료하려면 다음 리소스가 필요합니다.
 
