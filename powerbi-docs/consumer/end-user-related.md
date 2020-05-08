@@ -11,10 +11,10 @@ ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 0d3bbbf9042d2b0d1a42ab9c1f759ccfd03c6609
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114370"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>Power BI 서비스에서 관련 콘텐츠 보기
@@ -52,7 +52,7 @@ Will이 대시보드에 대한 관련 콘텐츠를 보여주는 비디오를 시
 
 
 ## <a name="view-related-content-for-a-dataset"></a>데이터 세트에 대한 관련 콘텐츠 보기
-**관련 콘텐츠** 창을 열려면 데이터 세트에 대해 *보기* 이상의 권한이 있어야 합니다. 이 예제에서는 [조달 분석 샘플](../sample-procurement.md)을 사용합니다.
+*관련 콘텐츠* 창을 열려면 데이터 세트에 대해 **보기** 이상의 권한이 있어야 합니다. 이 예제에서는 [조달 분석 샘플](../sample-procurement.md)을 사용합니다.
 
 탐색 창에서 **작업 영역** 제목을 찾아 목록에서 작업 영역을 선택합니다. 작업 영역에 콘텐츠가 있는 경우 캔버스에서 오른쪽에 표시됩니다. 
 

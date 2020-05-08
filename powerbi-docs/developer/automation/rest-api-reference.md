@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: reference
 ms.date: 05/25/2018
 ms.openlocfilehash: e7f7a94eb94054510046e5e873281cf68eb3bf3d
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79079373"
 ---
 # <a name="power-bi-rest-api-reference"></a>Power BI REST API 참조
@@ -27,7 +27,7 @@ Power BI REST API는 다음과 같은 작업을 제공합니다.
 
 * 데이터 세트 작업: 데이터 세트를 가져오고 만듭니다.
 * 테이블 작업: 테이블을 가져오고 테이블 스키마를 업데이트합니다.
-* 행 작업: 행을 추가하고 삭제합니다.
+* 행 작업: 행을 추가하고 행을 삭제합니다.
 * 그룹 작업: 그룹을 가져옵니다.
 
 Power BI REST API에 대한 자세한 내용은 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)를 참조하세요.

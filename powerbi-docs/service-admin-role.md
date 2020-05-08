@@ -10,10 +10,10 @@ ms.date: 01/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: fc1a0c524a3cb4a713cbaf049c259a4b96714131
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76160814"
 ---
 # <a name="understanding-power-bi-service-administrator-roles"></a>Power BI 서비스 관리자 역할 이해
@@ -95,7 +95,7 @@ PowerShell을 사용하여 역할에 사용자를 할당할 수도 있습니다.
 
 1. 역할에 멤버를 추가하려면 [Add-AzureADDirectoryRoleMember](/powershell/module/azuread/add-azureaddirectoryrolemember)를 실행합니다.
 
-    | 매개 변수 | Description |
+    | 매개 변수 | 설명 |
     | --- | --- |
     | ObjectId |역할 ObjectId |
     | RefObjectId |구성원 ObjectId |
@@ -109,4 +109,4 @@ PowerShell을 사용하여 역할에 사용자를 할당할 수도 있습니다.
 [조직에서 Power BI 관리](service-admin-administering-power-bi-in-your-organization.md)  
 [Power BI 관리 포털](service-admin-portal.md)  
 
-추가 질문이 있으신가요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

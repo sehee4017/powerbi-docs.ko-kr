@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
 ms.openlocfilehash: 51d03582ec91b926526a075a356323eb4f95a84b
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77609871"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이에서 사용자 지정 데이터 커넥터 사용

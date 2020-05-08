@@ -8,13 +8,13 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
-ms.date: 08/29/2019
-ms.openlocfilehash: 7a5ec7ef1f66a4a5b6ec80c80e9fd37e19bb2813
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.date: 05/01/2020
+ms.openlocfilehash: e6e4187f89bb0ae6e6772f29b19782ee7fbfad25
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80113557"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82692835"
 ---
 # <a name="pass-a-report-parameter-in-a-url-for-a-paginated-report-in-power-bi"></a>Power BI에서 페이지를 매긴 보고서에 대한 URL에 보고서 매개 변수 전달 
 
@@ -45,7 +45,7 @@ https://app.powerbi.com/groups/me/rdlreports/xxxxxxx-abc7-40f0-b456-febzf9cdda4d
 앱의 보고서에 정의된 동일한 두 개의 매개 변수를 지정하려면 다음 URL을 사용합니다. 
 
 ```
-https://app.powerbi.com/groups/me/apps/xxxxxxx-c4c4-4217-afd9-3920a0d1e2b0/rdlreports/b1d5e659-639e-41d0-b733-05d2bca9853c?rp:Salesperson=Tiggee&State=Utah 
+https://app.powerbi.com/groups/me/apps/xxxxxxx-c4c4-4217-afd9-3920a0d1e2b0/rdlreports/b1d5e659-639e-41d0-b733-05d2bca9853c?rp:Salesperson=Tiggee&rp:State=Utah 
 ```
 
 매개 변수에 대해 null 값을 전달하려면 다음 구문을 사용합니다. 

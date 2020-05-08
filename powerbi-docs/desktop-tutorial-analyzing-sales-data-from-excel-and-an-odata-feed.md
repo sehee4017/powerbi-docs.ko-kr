@@ -10,10 +10,10 @@ ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 0e3f742e0ad9d3b9bf81c9dd95e9193413a70d6a
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76540221"
 ---
 # <a name="tutorial-analyze-sales-data-from-excel-and-an-odata-feed"></a>자습서:  Excel 및 OData 피드의 판매 데이터 분석
@@ -79,7 +79,7 @@ ms.locfileid: "76540221"
 
    ![OData 피드 대화 상자](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/get_odata2.png)
 
-1. **탐색기**에서 **Orders** 테이블을 선택한 다음, **데이터 변환**을 선택하여 데이터를 Power Query 편집기로 로드합니다.
+1. **탐색기**에서 **Orders** 테이블을 선택한 다음, **Transform Data**를 선택하여 데이터를 Power Query 편집기로 로드합니다.
 
    ![OData용 탐색기](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/analyzingsalesdata_odatafeed.png)
 

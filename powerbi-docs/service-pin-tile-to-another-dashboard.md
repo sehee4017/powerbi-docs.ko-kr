@@ -10,10 +10,10 @@ ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 8e0c598d02b808e997bf0c1f47322e132860100c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73881233"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>하나의 대시보드에서 다른 대시보드에 타일 고정
@@ -23,7 +23,7 @@ ms.locfileid: "73881233"
 > 공유된 대시보드에서는 타일을 고정할 수 없습니다.
 
 ## <a name="pin-a-tile-to-another-dashboard"></a>다른 대시보드에 타일 고정
-1. [데이터 가져오기](service-get-data.md). 이 예에서는 [IT 지출 분석 샘플](sample-it-spend.md)을 사용합니다.
+1. [데이터를 가져옵니다](service-get-data.md). 이 예에서는 [IT 지출 분석 샘플](sample-it-spend.md)을 사용합니다.
 2. [대시보드](consumer/end-user-dashboards.md)를 엽니다.
 3. 고정하려는 타일을 마우스로 가리키고, **추가 옵션**(...)을 선택한 다음, **타일 고정**을 선택합니다.  
    

@@ -11,10 +11,10 @@ ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 39b95708b95144ba77a3b33b8ee15f913ae7ca2b
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79126262"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Power BI Desktop 및 Power BI 서비스 비교
@@ -50,7 +50,7 @@ Power BI Desktop과 서비스의 보고서 편집기는 유사합니다. 다음 
 ### <a name="collaborating"></a>협업
 
 
-보고서를 만든 후에는 사용자와 동료가 공동 작업을 수행하는 **Power BI 서비스**의 *작업 영역*에 보고서를 저장할 수 있습니다. 해당 보고서 위에 *대시보드*를 빌드합니다. 그런 다음, 해당 대시보드와 보고서를 조직 내/외부의 보고서 소비자와 공유합니다. 보고서 소비자는 편집용 보기가 아닌 ‘읽기용 보기’의 Power BI 서비스에서 봅니다.  소비자는 보고서 작성자에게 제공되는 일부 기능에 액세스할 수 없습니다.  데이터 세트를 공유하고, 다른 사용자가 데이터 세트에서 고유한 보고서를 작성하도록 허용할 수도 있습니다. 자세한 내용은 [Power BI 서비스의 협업](../service-new-workspaces.md)을 참조하세요.
+보고서를 만든 후에는 사용자와 동료가 공동 작업을 수행하는 *Power BI 서비스*의 **작업 영역**에 보고서를 저장할 수 있습니다. 해당 보고서 위에 *대시보드*를 빌드합니다. 그런 다음, 해당 대시보드와 보고서를 조직 내/외부의 보고서 소비자와 공유합니다. 보고서 소비자는 편집용 보기가 아닌 ‘읽기용 보기’의 Power BI 서비스에서 봅니다.  소비자는 보고서 작성자에게 제공되는 일부 기능에 액세스할 수 없습니다.  데이터 세트를 공유하고, 다른 사용자가 데이터 세트에서 고유한 보고서를 작성하도록 허용할 수도 있습니다. 자세한 내용은 [Power BI 서비스의 협업](../service-new-workspaces.md)을 참조하세요.
 
 ### <a name="self-service-data-prep-with-dataflows"></a>데이터 흐름을 사용하여 셀프 서비스 데이터 준비
 

@@ -10,10 +10,10 @@ ms.date: 03/12/2020
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: c703a4b67b642af5199413e80ff1e140905a2338
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81439828"
 ---
 # <a name="use-buttons-in-power-bi"></a>Power BI에서 단추 사용
@@ -71,7 +71,7 @@ Power BI의 단추에는 기본(마우스로 가리키거나 선택하는 경우
 - **페이지 탐색**을 선택하면 책갈피를 사용하지 않고 보고서 내의 다른 페이지로 이동합니다. 자세한 내용은 이 문서의 [페이지 탐색 만들기](#create-page-navigation)를 참조하세요.
 - **Q&A**를 선택하면 **Q&A 탐색기** 창이 열립니다. 
 
-특정 단추는 기본 동작을 자동으로 선택합니다. 예를 들어 **질문 및 답변** 단추 형식은 자동으로 **질문 및 답변**을 기본 동작으로 선택합니다. [이 블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#Q&AExplorer)을 확인하여 **질문 및 답변 탐색기**에 대해 자세히 알아볼 수 있습니다.
+특정 단추는 기본 동작을 자동으로 선택합니다. 예를 들어 **질문 및 답변** 단추 형식은 자동으로 **질문 및 답변**을 기본 동작으로 선택합니다. **이 블로그 게시물**을 확인하여 [질문 및 답변 탐색기](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2018-feature-summary/#Q&AExplorer)에 대해 자세히 알아볼 수 있습니다.
 
 사용하려는 *CTRL+클릭* 단추를 사용하여 보고서에 만들 단추를 사용하거나 테스트할 수 있습니다. 
 

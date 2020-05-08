@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/02/2019
 ms.openlocfilehash: e47cb22ba4c30c8090e2e9552e1994a5c545b47b
-ms.sourcegitcommit: 444f7fe5068841ede2a366d60c79dcc9420772d4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80404022"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Power BI와 함께 사용할 Azure AD 애플리케이션 등록
@@ -54,7 +54,7 @@ Power BI 앱 등록 도구를 사용하여 애플리케이션을 등록하는 �
 
 5. 애플리케이션 유형으로 **서버 쪽 웹 애플리케이션**을 선택한 경우 **홈 페이지 URL** 및 **리디렉션 URL**에 대한 값을 계속 입력합니다. **리디렉션 URL**은 임의의 올바른 URL로 작동하며 사용자가 만든 애플리케이션과 일치해야 합니다. **네이티브**를 선택한 경우 6단계를 계속 진행합니다.
 
-6. 애플리케이션에 필요한 Power BI API를 선택합니다. Power BI 액세스 권한에 대한 자세한 내용은 [Power BI 사용 권한](power-bi-permissions.md)을 참조하세요. 그런 다음, **등록**을 선택합니다.
+6. 애플리케이션에 필요한 Power BI API를 선택합니다. Power BI 액세스 권한에 대한 자세한 내용은 [Power BI 사용 권한](power-bi-permissions.md)을 참조하세요. 그런 다음 **등록**을 선택합니다.
 
     ![등록할 API 선택](media/register-app/register-app-new-app-registration-apis-register.png)
 
@@ -84,7 +84,7 @@ Power BI 앱 등록 도구를 사용하여 애플리케이션을 등록하는 �
 
 4. 왼쪽 탐색 창에서 **모든 서비스**로 이동하여 **앱 등록**을 선택한 다음, **새 등록**을 선택합니다.
 
-5. 메시지에 따라 새 애플리케이션을 만듭니다.
+5. 프롬프트에 따라 새 애플리케이션을 만듭니다.
 
    Azure Active Directory에 애플리케이션을 등록하는 방법에 대한 자세한 내용은 [Azure Active Directory에 앱 등록](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v2-register-an-app)을 참조하세요.
 
@@ -112,11 +112,11 @@ Power BI 앱 등록 도구를 사용하여 애플리케이션을 등록하는 �
 
     ![앱 사용 권한 03](media/register-app/powerbi-embedded-azuread-app-permissions03.png)
 
-4. **위임된 권한**에서 필요한 특정 권한을 선택합니다. 선택 항목을 저장하려면 하나씩 선택합니다. 완료되면 **저장**을 선택합니다.
+4. **위임된 권한**에서 필요한 특정 권한을 선택합니다. 선택 항목을 저장하려면 하나씩 선택합니다. 완료되면 **저장** 을 선택합니다.
 
 5. **동의 허용**을 선택합니다.
 
-    Azure AD에서 동의하도록 요구하는 메시지가 표시되지 않게 하려면 *마스터 계정*에 **동의 허용** 작업이 필요합니다. 이 작업을 수행하는 계정이 전역 관리자인 경우, 조직 내 모든 사용자에게 이 애플리케이션에 대한 권한을 부여합니다. 이 작업을 수행하는 계정이 *마스터 계정*이고 글로벌 관리자가 아닌 경우, 이 애플리케이션의 *마스터 계정*에만 권한을 부여합니다.
+    Azure AD에서 동의하도록 요구하는 메시지가 표시되지 않게 하려면 **마스터 계정**에 *동의 허용* 작업이 필요합니다. 이 작업을 수행하는 계정이 전역 관리자인 경우, 조직 내 모든 사용자에게 이 애플리케이션에 대한 권한을 부여합니다. 이 작업을 수행하는 계정이 *마스터 계정*이고 글로벌 관리자가 아닌 경우, 이 애플리케이션의 *마스터 계정*에만 권한을 부여합니다.
 
 ### <a name="applying-permissions-programmatically"></a>프로그래밍 방식으로 권한 적용
 

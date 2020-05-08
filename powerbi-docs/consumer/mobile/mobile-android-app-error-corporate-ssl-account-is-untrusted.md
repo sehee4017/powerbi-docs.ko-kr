@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: a68644c63d3d5eaeb54a71683629af01817d62a7
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79114608"
 ---
 # <a name="fixing-corporate-ssl-certificate-is-untrusted---power-bi"></a>“회사 SSL 인증서를 신뢰할 수 없습니다.” 수정 - Power BI
@@ -44,5 +44,5 @@ Microsoft Power BI용 Android 모바일 앱에 로그인할 때 "이 디바이�
 
 ## <a name="next-steps"></a>다음 단계
 * Android 앱 스토어에서 [Android 앱 다운로드](https://go.microsoft.com/fwlink/?LinkID=544867)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/) 
+* 질문이 있으신가요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/) 
 

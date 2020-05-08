@@ -8,19 +8,19 @@ ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
 ms.openlocfilehash: 717627e171df6a0843453a72b54ec591a7fd5a19
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78923198"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Power BI 공유 데이터 세트 기반의 페이지가 매겨진 보고서 만들기
 
-Power BI Desktop에서 만든 데이터 세트를 Power BI 보고서 작성기 페이지를 매긴 보고서의 데이터 원본으로 사용할 수 있습니다. 이 시나리오를 다음과 같이 가정합니다. Power BI Desktop에서 Power BI 보고서를 만들었습니다. 데이터 모델을 디자인하는 데 많은 시간을 쏟았으며, 모든 종류의 뛰어난 시각적 개체를 사용하여 멋진 Power BI 보고서를 만들었습니다. 보고서에는 많은 행을 포함하는 행렬이 있으므로 모두 보려면 스크롤해야 합니다. 보고서 구독자가 해당 행렬의 모든 행을 표시하는 보고서를 인쇄할 수 있기를 원합니다. Power BI 페이지를 매긴 보고서는 이 요구 사항을 충족할 수 있습니다. 페이지 머리글 및 바닥글과 직접 디자인한 완벽한 페이지 레이아웃을 사용하여 여러 페이지로 이루어진 테이블 또는 행렬을 인쇄합니다. 이 보고서는 Power BI Desktop 보고서를 보완할 것입니다. 두 보고서가 불일치하는 부분 없이 정확히 동일한 데이터를 기반으로 하도록 동일한 데이터 세트를 사용합니다.
+Power BI Desktop에서 만든 데이터 세트를 Power BI 보고서 작성기에서 페이지를 매긴 보고서의 데이터 원본으로 사용할 수 있습니다. 이 시나리오를 다음과 같이 가정합니다. Power BI Desktop에서 Power BI 보고서를 만들었습니다. 데이터 모델을 디자인하는 데 많은 시간을 쏟았으며, 모든 종류의 뛰어난 시각적 개체를 사용하여 멋진 Power BI 보고서를 만들었습니다. 보고서에는 많은 행을 포함하는 행렬이 있으므로 모두 보려면 스크롤해야 합니다. 보고서 구독자가 해당 행렬의 모든 행을 표시하는 보고서를 인쇄할 수 있기를 원합니다. Power BI 페이지를 매긴 보고서는 이 요구 사항을 충족할 수 있습니다. 페이지 머리글 및 바닥글과 직접 디자인한 완벽한 페이지 레이아웃을 사용하여 여러 페이지로 이루어진 테이블 또는 행렬을 인쇄합니다. 이 보고서는 Power BI Desktop 보고서를 보완할 것입니다. 두 보고서가 불일치하는 부분 없이 정확히 동일한 데이터를 기반으로 하도록 동일한 데이터 세트를 사용합니다.
 
 ![Power BI Desktop 및 보고서 작성기 페이지를 매긴 보고서](media/report-builder-shared-datasets/power-bi-desktop-report-builder-arrow-26-pgs.png)
 
-데이터 세트가 프리미엄 용량의 작업 영역에 있을 필요는 없으며, 해당 작업 영역의 멤버가 아니어도 됩니다. 데이터 세트의 [빌드 권한](../service-datasets-build-permissions.md)만 있으면 됩니다. 페이지를 매긴 보고서를 게시하려면 Power BI Pro 라이선스가 필요합니다. 또한 최소한 프리미엄 용량의 작업 영역에 대한 기여자 역할이 있어야 합니다.
+데이터 세트가 프리미엄 용량의 작업 영역에 있을 필요는 없으며, 해당 작업 영역의 멤버가 아니어도 됩니다. 데이터 세트의 [빌드 권한](../service-datasets-build-permissions.md)만 있으면 됩니다. 페이지를 매긴 보고서를 게시하려면 Power BI Pro 라이선스가 필요합니다. 또한 최소한 프리미엄 용량의 작업 영역에 대한 참가자 역할이 있어야 합니다.
 
 ## <a name="what-you-need"></a>필요한 작업
 
@@ -29,7 +29,7 @@ Power BI Desktop에서 만든 데이터 세트를 Power BI 보고서 작성기 �
 - Power BI 보고서 작성기. [Power BI 보고서 작성기를 다운로드하여 설치](https://go.microsoft.com/fwlink/?linkid=2086513)합니다.
 - Power BI 데이터 세트에 액세스하려면 데이터 세트의 빌드 권한이 있어야 합니다. [빌드 권한](../service-datasets-build-permissions.md)을 참조하세요.
 - 보고서 작성기에서 페이지를 매긴 보고서를 만드는 경우 Power BI Pro 라이선스가 필요하지 않습니다. 
-- 페이지를 매긴 보고서를 게시하려면 Power BI Pro 라이선스가 필요합니다. 또한 최소한 프리미엄 용량의 작업 영역에 대한 기여자 역할이 있어야 합니다. 
+- 페이지를 매긴 보고서를 게시하려면 Power BI Pro 라이선스가 필요합니다. 또한 최소한 프리미엄 용량의 작업 영역에 대한 참가자 역할이 있어야 합니다. 
 - 선택 사항: 이 문서를 따르려는 경우 Power BI Desktop [소매점 분석 샘플 .pbix](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) 파일을 다운로드하고 Power BI Desktop에서 연 다음, 많은 열이 있는 테이블을 추가합니다. **서식** 창에서 **합계**를 끕니다. 그런 다음, Power BI 서비스의 작업 영역에 게시합니다.
 
     ![합계 꺼짐](media/report-builder-shared-datasets/power-bi-desktop-totals-off.png)

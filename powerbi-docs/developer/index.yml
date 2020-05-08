@@ -14,14 +14,14 @@ metadata:
   ms.author: kesharab
   ms.date: 31/03/2020
   ms.openlocfilehash: 8d37f5a4cde341dd8788791fecdbd1c7f20249d0
-  ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 04/01/2020
+  ms.lasthandoff: 05/05/2020
   ms.locfileid: "80487803"
 highlightedContent:
   items:
-  - title: Power BI를 사용한 임베디드 분석
+  - title: Power BI를 사용하는 임베디드 분석
     itemType: overview
     url: embedded/embedding.md
   - title: Azure의 Power BI Embedded란?
@@ -39,7 +39,7 @@ conceptualContent:
     links:
     - url: embedded/embedding.md
       itemType: overview
-      text: Power BI를 사용한 임베디드 분석
+      text: Power BI를 사용하는 임베디드 분석
     - url: embedded/azure-pbie-what-is-power-bi-embedded.md
       itemType: overview
       text: Azure의 Power BI Embedded란?
@@ -63,7 +63,7 @@ conceptualContent:
     footerLink:
       url: visuals/index.yml
       text: 자세히 보기
-  - title: 자동화
+  - title: Automation
     links:
     - url: automation/overview-of-power-bi-rest-api.md
       itemType: overview

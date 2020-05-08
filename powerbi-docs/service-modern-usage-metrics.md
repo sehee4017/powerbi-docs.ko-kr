@@ -11,10 +11,10 @@ ms.topic: conceptual
 ms.date: 01/22/2020
 LocalizationGroup: Dashboards
 ms.openlocfilehash: d3f359ad4c968407dff143458b65954844f9a22d
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76829285"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>새 작업 영역 환경에서 사용량 메트릭 모니터링
@@ -48,7 +48,7 @@ ms.locfileid: "76829285"
     ![사용량 메트릭 보고서가 준비됨](media/service-modern-usage-metrics/power-bi-modern-usage-metrics-ready.png)
 
 1. 결과를 보려면 **사용 메트릭 보기**를 선택합니다.
-2. 이 작업을 처음으로 수행하는 경우 Power BI가 이전 사용량 메트릭 보고서를 열 수 있습니다. 향상된 사용량 메트릭 보고서를 표시하려면 오른쪽 위 모서리에서 새 사용량 보고서 끄기 스위치를 **켜기**로 전환합니다.
+2. 이 작업을 처음으로 수행하는 경우 Power BI가 이전 사용량 메트릭 보고서를 열 수 있습니다. 향상된 사용량 메트릭 보고서를 표시하려면 오른쪽 위 모서리에서 새 사용량 보고서 해제 스위치를 **켜기**로 전환합니다.
 
     ![최신 사용량 메트릭 보고서로 전환](media/service-modern-usage-metrics/power-bi-modern-usage-metrics-on.png)
 
@@ -206,7 +206,7 @@ Power BI Desktop에서 사용량 메트릭 보고서 데이터 세트를 기반�
 
     ![사용량 메트릭 보고서 필드 목록 보기](media/service-modern-usage-metrics/power-bi-desktop-fields-list.png)
 
-1. 이제 모두 동일한 사용량 메트릭 보고서 데이터 세트를 기반으로 사용자 지정 사용량 보고서를 만들고 공유할 수 있습니다.
+1. 이제 모두 동일한 사용량 메트릭 보고서 데이터 세트를 기반으로 사용자 지정 사용 보고서를 만들고 공유할 수 있습니다.
 
 ### <a name="analyze-usage-data-in-excel"></a>Excel에서 사용량 데이터 분석
 

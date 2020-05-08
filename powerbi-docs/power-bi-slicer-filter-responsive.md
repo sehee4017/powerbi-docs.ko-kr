@@ -10,17 +10,17 @@ ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: 2feb20907bbcffcb8aa395705b34604ebbedb682
-ms.sourcegitcommit: 915cb7d8088deb0d9d86f3b15dfb4f6f5b1b869c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81006506"
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi"></a>Power BI에서 크기를 조정할 수 있는 반응형 슬라이서 만들기
 
 [!INCLUDE [applies-to](includes/applies-to.md)] [!INCLUDE [yes-desktop](includes/yes-desktop.md)] [!INCLUDE [yes-service](includes/yes-service.md)]
 
-반응형 슬라이서 크기를 보고서 공간에 맞게 조정합니다. 반응형 슬라이서를 사용하면 가로부터 정사각형 및 세로까지 다양한 크기와 모양으로 크기를 변경할 수 있으며, 사용자가 조작하는 대로 슬라이서의 값이 자동으로 다시 정렬됩니다. Power BI Desktop 및 Power BI 서비스에서 가로 슬라이서 및 날짜/범위 슬라이서를 반응형으로 만들 수 있습니다. 또한 날짜/범위 슬라이서는 손끝으로 손쉽게 변경할 수 있도록 터치 영역이 개선되었습니다. 반응형 슬라이서를 원하는 대로 작게 또는 크게 변경할 수 있습니다. 그러면 Power BI 서비스 및 Power BI 모바일 앱의 보고서에 잘 맞도록 자동으로 크기가 변경됩니다. 
+반응형 슬라이서 크기를 보고서 공간에 맞게 조정합니다. 반응형 슬라이서를 사용하면 가로부터 정사각형 및 세로까지 다양한 크기와 모양으로 크기를 변경할 수 있으며, 사용자가 조작하는 대로 슬라이서의 값이 자동으로 다시 정렬됩니다. Power BI Desktop 및 Power BI 서비스에서 수평 슬라이서 및 날짜/범위 슬라이서를 반응형으로 만들 수 있습니다. 또한 날짜/범위 슬라이서는 손끝으로 손쉽게 변경할 수 있도록 터치 영역이 개선되었습니다. 반응형 슬라이서를 원하는 대로 작게 또는 크게 변경할 수 있습니다. 그러면 Power BI 서비스 및 Power BI 모바일 앱의 보고서에 잘 맞도록 자동으로 크기가 변경됩니다. 
 
 ![다양한 모양이 될 수 있는 반응형 슬라이서](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer.gif)
 
@@ -28,7 +28,7 @@ ms.locfileid: "81006506"
 
 동적 슬라이서를 만드는 첫 번째 단계는 기본 슬라이서를 만드는 것입니다. 
 
-1. **시각화** 창에서 **슬라이서** 아이콘 ![슬라이서 아이콘](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer-icon.png)을 선택합니다.
+1. **시각화** 창에서 ![슬라이서](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer-icon.png) 아이콘 **슬라이서 아이콘**을 선택합니다.
 2. 필터링할 필드를 **필드**로 끌어옵니다.
 
     ![슬라이서에 필드 추가](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-1-create.png)

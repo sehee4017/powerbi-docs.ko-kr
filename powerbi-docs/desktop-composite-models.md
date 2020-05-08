@@ -10,10 +10,10 @@ ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: 45f7ecee11cd57a73ed0e998dad26935b560c8ad
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76161238"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>Power BI Desktop의 복합 모델 사용
@@ -122,7 +122,7 @@ DirectQuery의 일부 테이블과 일부 가져오기 테이블을 포함하는
 > [!NOTE]
 > Power BI Desktop 및 Power BI 서비스에서 *혼합* 스토리지 모드를 사용할 수 있습니다.
 
-## <a name="calculated-tables"></a>계산 테이블
+## <a name="calculated-tables"></a>계산된 테이블
 
 DirectQuery를 사용하는 모델에 계산된 테이블을 추가할 수 있습니다. 계산된 테이블을 정의하는 DAX(데이터 분석 식)는 가져온 테이블이나 DirectQuery 테이블 또는 둘의 조합을 참조할 수 있습니다.
 

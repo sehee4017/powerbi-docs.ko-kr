@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 03/25/2020
 ms.author: v-pemyer
 ms.openlocfilehash: f03daf65ab938923906351acef9440fe0de88c5c
-ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82065573"
 ---
 # <a name="tips-to-improve-analysis-with-shapes-images-and-icons-in-power-bi-reports"></a>Power BI 보고서에서 셰이프, 이미지 및 아이콘을 사용하여 분석을 향상하기 위한 팁

@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/09/2020
 ms.author: maggies
 ms.openlocfilehash: 7052b0f045b98ce8e25822f76fe0b8391e298a47
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75837608"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Power BI Report Server에서 Power BI 보고서 예약된 새로 고침
@@ -28,7 +28,7 @@ Power BI 보고서에 대해 예약된 새로 고침을 통해 보고서에 대�
 Power BI 보고서에 대해 예약된 새로 고침을 사용하는 경우 몇 가지 구성 요소가 관련됩니다.
 
 * 예약된 이벤트를 생성하는 타이머로서의 SQL Server 에이전트
-* 예약된 작업이 보고서 서버 데이터베이스에서 이벤트의 큐 및 알림에 추가됩니다. 확장 배포에서 큐는 배포의 모든 보고서 서버에서 공유됩니다.
+* 예약된 작업이 보고서 서버 데이터베이스에서 이벤트의 큐 및 알림에 추가됩니다. 스케일 아웃 배포에서는 배포의 모든 보고서 서버에서 큐가 공유됩니다.
 * 이벤트 예약의 결과로 발생하는 모든 보고서 처리는 백그라운드 프로세스로 수행됩니다.
 * 데이터 모델은 Analysis Services 인스턴스 내에서 로드됩니다.
 * 일부 데이터 원본의 경우 파워 쿼리 매시업 엔진은 데이터 원본에 연결하고 데이터를 변환하는 데 사용됩니다. 다른 데이터 원본은 Power BI Report Server에 대한 데이터 모델을 호스팅하는 데 사용되는 Analysis Services 서비스에서 직접 연결될 수 있습니다.
@@ -36,7 +36,7 @@ Power BI 보고서에 대해 예약된 새로 고침을 사용하는 경우 몇 
 * 스케일 아웃 구성에서 데이터 모델을 노드 간에 복제할 수 있습니다.
 * Analysis Services는 데이터를 처리하고 필요한 계산을 실행합니다.
 
-Power BI Report Server는 모든 예약된 작업에 대한 이벤트 큐를 유지 관리합니다. 정기적으로 큐를 폴링하여 새 이벤트를 확인합니다. 기본적으로 큐는 10초 간격으로 검색됩니다. RSReportServer.config 파일에서 **PollingInterval**, **IsNotificationService** 및 **IsEventService** 구성 설정을 수정하여 간격을 변경할 수 있습니다. **IsDataModelRefreshService**는 보고서 서버가 예약된 이벤트를 처리하는지 여부를 설정하는 데 사용될 수도 있습니다.
+Power BI Report Server는 모든 예약된 작업에 대한 이벤트 큐를 유지 관리합니다. 또한 새 이벤트를 확인하기 위해 정기적으로 큐를 폴링합니다. 기본적으로 큐는 10초 간격으로 검색됩니다. RSReportServer.config 파일에서 **PollingInterval**, **IsNotificationService**및 **IsEventService** 구성 설정을 수정하여 간격을 변경할 수 있습니다. **IsDataModelRefreshService**는 보고서 서버가 예약된 이벤트를 처리하는지 여부를 설정하는 데 사용될 수도 있습니다.
 
 ### <a name="analysis-services"></a>Analysis Services
 Power BI 보고서 렌더링뿐만 아니라 예약된 새로 고침을 수행하는 데에는 Analysis Services에서 Power BI 보고서의 데이터 모델 로딩이 필요합니다. Analysis Services 프로세스는 Power BI Report Server와 함께 실행됩니다.
