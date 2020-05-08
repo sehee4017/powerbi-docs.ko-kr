@@ -62,7 +62,7 @@
             - name: 자연어 Q&A
               items:
                 - name: Q&A 소개
-                  href: ../natural-language/q-and-a-intro.md
+                  href: ../natural-language/q-and-a-tooling-intro.md
                 - name: Q&A 도구 소개
                   href: ../natural-language/q-and-a-tooling-intro.md
                 - name: Q&A 도구 고급

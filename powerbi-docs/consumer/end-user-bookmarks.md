@@ -9,10 +9,10 @@ ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Create reports
 ms.openlocfilehash: 7d1e355f2c28679f5c2101d250a9fc2d5c99a2bd
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205645"
 ---
 # <a name="what-are-bookmarks"></a>책갈피란?
@@ -43,7 +43,7 @@ ms.locfileid: "79205645"
 
 책갈피를 선택하여 해당 보고서 보기로 변경합니다. 
 
-![보고서 책갈피를 선택하는 동작을 보여주는 동영상.](media/end-user-bookmarks/power-bi-bookmarks.gif)
+![보고서 책갈피를 선택하는 동작을 보여주는 비디오.](media/end-user-bookmarks/power-bi-bookmarks.gif)
 
 ### <a name="personal-bookmarks"></a>개인 책갈피
 

@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 828736dac528a8ba8c77b90162309236f5bc7018
-ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
+ms.openlocfilehash: d17c6bbe5ddf6cd39626ac0038595543cd2fecfb
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "77558606"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841069"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B에서 외부 게스트 사용자에게 Power BI 콘텐츠 배포
 
 Power BI에서는 Azure AD B2B(Azure Active Directory Business-to-Business)를 통해 외부 게스트 사용자와 콘텐츠를 공유할 수 있습니다.
 Azure AD B2B 사용을 통해 조직은 특정 위치에서 외부 사용자와 공유를 사용하도록 설정하고 관리합니다. 기본적으로 외부 게스트는 소비 전용 환경을 사용합니다. 또한 조직의 외부 게스트 사용자가 조직의 콘텐츠를 편집하고 관리할 수 있도록 허용할 수 있습니다.
 
-이 문서에서는 Power BI의 Azure AD B2B 기본 사항을 소개합니다. 자세한 내용은 [Azure Active Directory B2B를 사용하여 외부 게스트 사용자에게 Power BI 콘텐츠 배포](whitepaper-azure-b2b-power-bi.md)를 참조하세요.
+이 문서에서는 Power BI의 Azure AD B2B 기본 사항을 소개합니다. 자세한 내용은 [Azure Active Directory B2B를 사용하여 외부 게스트 사용자에게 Power BI 콘텐츠 배포](guidance/whitepaper-azure-b2b-power-bi.md)를 참조하세요.
 
 ## <a name="enable-access"></a>액세스 사용
 
@@ -38,7 +38,7 @@ Azure AD B2B 사용을 통해 조직은 특정 위치에서 외부 사용자와 
 
 [미국 정부용 Power BI](service-govus-overview.md)와 같이 정부 클라우드와 관련된 사용자를 초대할 수 없습니다.
 
-## <a name="invite-guest-users"></a>게스트 사용자 초대
+## <a name="invite-guest-users"></a>게스트 사용자 초대 
 
 게스트 사용자를 조직에 최초로 초대할 때만 초대가 필요합니다. 사용자를 초대하려면 계획 또는 임시 초대를 사용합니다.
 

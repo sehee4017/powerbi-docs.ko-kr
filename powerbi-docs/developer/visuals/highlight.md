@@ -9,19 +9,19 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 10/31/2019
 ms.openlocfilehash: a472db6c6dcc1266a11e78d72ab8465df7682042
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114155"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>Power BI 시각적 개체에서 데이터 요소 강조 표시
 
-기본적으로 요소를 선택할 때마다 `dataView` 개체의 `values` 배열이 선택한 값으로만 필터링됩니다. 그러면 페이지의 다른 모든 시각적 개체에 선택한 데이터만 표시됩니다.
+기본적으로 요소를 선택할 때마다 `values` 개체의 `dataView` 배열이 선택한 값으로만 필터링됩니다. 그러면 페이지의 다른 모든 시각적 개체에 선택한 데이터만 표시됩니다.
 
 ![강조 표시 ‘dataview’ 기본 동작](media/highlight/highlight-dataview.png)
 
-`capabilities.json`의 `supportsHighlight` 속성을 `true`로 설정하면 필터링되지 않은 전체 `values` 배열과 `highlights` 배열을 받게 됩니다. `highlights` 배열의 길이는 values 배열과 같으며, 선택하지 않은 값은 `null`로 설정됩니다. 이 속성이 사용하도록 설정된 경우, 시각적 개체는 `values` 배열을 `highlights` 배열과 비교하여 적절한 데이터를 강조 표시해야 합니다.
+`supportsHighlight`의 `capabilities.json` 속성을 `true`로 설정하면 필터링되지 않은 전체 `values` 배열과 `highlights` 배열을 받게 됩니다. `highlights` 배열의 길이는 values 배열과 같으며, 선택하지 않은 값은 `null`로 설정됩니다. 이 속성이 사용하도록 설정된 경우, 시각적 개체는 `values` 배열을 `highlights` 배열과 비교하여 적절한 데이터를 강조 표시해야 합니다.
 
 ![`dataview`에서 강조 표시 지원](media/highlight/highlight-dataview-supports.png)
 
@@ -323,7 +323,7 @@ div.value {
 
 행렬 데이터 뷰 매핑을 위한 계층 구조를 만드는 샘플 데이터는 다음과 같습니다.
 
-|   Row1   |   Row2   |   Row3   |   열1   |   열2   |   Column3   |   값   |
+|   Row1   |   Row2   |   Row3   |   열1   |   Column2   |   열3   |   값   |
 |-----|-----|------|-------|-------|-------|-------|
 |   R1   |   R11   |   R111   |   C1   |   C11   |   C111   |   1   |
 |   R1   |   R11   |   R112   |   C1   |   C11   |   C112   |   2   |
@@ -466,7 +466,7 @@ public update(options: VisualUpdateOptions) {
 }
 ```
 
-여기서 `matrixNode`는 현재 노드, `div`는 이 계층 구조 수준의 메타데이터 열, `levels`는 자식 HTML 요소의 부모 요소입니다.
+여기서 `matrixNode`는 현재 노드, `levels`는 이 계층 구조 수준의 메타데이터 열, `div`는 자식 HTML 요소의 부모 요소입니다.
 
 `treeWalker`는 재귀 함수로, `div` 요소와 헤더 텍스트를 나타내는 `p`를 만들고 노드의 자식 요소에 대해 함수를 호출해야 합니다.
 

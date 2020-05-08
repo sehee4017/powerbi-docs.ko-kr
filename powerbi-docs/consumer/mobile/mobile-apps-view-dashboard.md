@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 3410d8fa8c2f9300fccbe47683a90cbca8ff8383
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205530"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 대시보드 및 보고서 보기
@@ -30,7 +30,7 @@ ms.locfileid: "79205530"
 모바일 디바이스에서 대시보드 및 보고서를 보려면 웹 브라우저에서 대시보드를 만들거나 연결해야 합니다. 
 
 1. Power BI 서비스([https://www.powerbi.com](https://www.powerbi.com))로 이동하여 [계정을 등록](../../service-self-service-signup-for-power-bi.md)합니다.
-2. [자신의 Power BI 대시보드 및 보고서를 만들거나](../../service-get-started.md)[Microsoft Dynamics CRM](../../service-connect-to-microsoft-dynamics-crm.md)과 같은 다양한 서비스에 대해 기존 [Power BI 앱](../../service-connect-to-services.md)에 연결합니다.
+2. [자신의 Power BI 대시보드 및 보고서를 만들거나](../../service-get-started.md)[Microsoft Dynamics CRM](../../service-connect-to-services.md)과 같은 다양한 서비스에 대해 기존 [Power BI 앱](../../service-connect-to-microsoft-dynamics-crm.md)에 연결합니다.
 
 Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
 
@@ -92,9 +92,9 @@ Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
 4. 또한 대시보드를 눌러서 열고 해당 대시보드에서 타일을 확인할 수 있습니다. 대시보드에서 다음과 같이 상호 작용할 수 있습니다.
    
    * 타일과 [상호작용하려면 해당 타일을 탭합니다](mobile-tiles-in-the-mobile-apps.md).
-   * 타일 뒤의 [보고서 열기](mobile-reports-in-the-mobile-apps.md).
+   * 타일 뒤의 [보고서를 엽니다](mobile-reports-in-the-mobile-apps.md).
    * [다른 사람을 초대하여 대시보드를 봅니다](mobile-share-dashboard-from-the-mobile-apps.md).
-   * 타일의 [스냅샷에 주석 달기 및 공유](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md).
+   * 타일의 [스냅샷에 주석 달기 및 공유](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 5. 내 작업 영역으로 돌아가려면 왼쪽 위 모서리의 대시보드 이름을 탭한 다음 **내 작업 영역**을 탭합니다.
    
    ![이동 경로](./media/mobile-apps-view-dashboard/power-bi-dashboard-breadcrumb.png)
@@ -102,7 +102,7 @@ Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
 ## <a name="view-dashboards-on-your-android-phone"></a>Android 휴대폰에서 대시보드 보기
 1. Android 휴대폰에서 Power BI 앱을 열고 로그인합니다.
    
-   먼저 [Android 앱을 다운로드](https://go.microsoft.com/fwlink/?LinkID=544867)해야 하나요?
+   먼저 [Android 앱을 다운로드](https://go.microsoft.com/fwlink/?LinkID=544867)해야 합니까?
 2. 대시보드를 열려면 누릅니다.   
    
    ![대시보드 홈](./media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
@@ -126,7 +126,7 @@ Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
 ## <a name="view-dashboards-on-your-android-tablet"></a>Android 태블릿에서 대시보드 보기
 1. Android 태블릿에서 Power BI 앱을 열고 로그인합니다.
    
-   먼저 [Android 앱을 다운로드](https://go.microsoft.com/fwlink/?LinkID=544867)해야 하나요?
+   먼저 [Android 앱을 다운로드](https://go.microsoft.com/fwlink/?LinkID=544867)해야 합니까?
 2. 대시보드를 열려면 누릅니다.   
    
    ![대시보드 홈](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
@@ -153,8 +153,8 @@ Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
 [대시보드의 휴대폰 보기를 만드는](../../service-create-dashboard-mobile-phone-view.md) 방법에 대해 알아봅니다.
 
 ## <a name="next-steps"></a>다음 단계
-* Google Play에서 [Android 앱 다운로드](https://go.microsoft.com/fwlink/?LinkID=544867)  
+* Google play에서 [Android 앱 다운로드](https://go.microsoft.com/fwlink/?LinkID=544867)  
 * [Power BI용 Android 앱 시작](mobile-android-app-get-started.md)  
 * [Power BI란?](../../fundamentals/power-bi-overview.md)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+* 질문이 있으신가요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

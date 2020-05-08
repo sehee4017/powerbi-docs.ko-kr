@@ -9,10 +9,10 @@ ms.topic: quickstart
 ms.date: 12/16/2019
 ms.author: painbar
 ms.openlocfilehash: 9af7fd95bcdaf0d747d1a3f2313f965d18a888e3
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205668"
 ---
 # <a name="a-quick-tour-of-the-mobile-app-home-page"></a>모바일 앱 홈페이지 둘러보기
@@ -65,7 +65,7 @@ Power BI Mobile 앱을 열면 자주 또는 최근에 방문한 보고서, 대�
 * ![샘플 아이콘](./media/mobile-apps-home-page/powerbi-mobile-app-samples-icon.png) **샘플** - Power BI 기능을 알아보는 데 사용할 수 있는 Power BI 샘플입니다.
 * ![스캐너 아이콘](./media/mobile-apps-home-page/powerbi-mobile-app-scanner-icon.png) **스캐너** - [바코드](../../mobile-apps-scan-barcode-iphone.md) 및 [QR 코드](../../mobile-apps-qr-code.md)를 스캔하는 스캐너로 사용할 수 있는 디바이스 카메라입니다.
 
-## <a name="header"></a>header
+## <a name="header"></a>머리글
 
 페이지 맨 위에 있는 헤더에는 사용 중인 Power BI 페이지, 보고서 또는 대시보드의 이름이 표시됩니다.
 

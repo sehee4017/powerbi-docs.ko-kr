@@ -10,18 +10,18 @@ ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 425bf50ad6eb4da9b50f7d9cdc760ef71cb7bff2
-ms.sourcegitcommit: 08f65ea314b547b41b51afef6876e56182190266
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/25/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76753303"
 ---
 # <a name="create-calculated-columns-in-power-bi-desktop"></a>Power BI Desktop에서 계산 열 만들기
-계산된 열을 사용하면 이미 모델에 있는 표에 새 데이터를 추가할 수 있습니다. 그러나 값을 쿼리하고 데이터 원본에서 새 열로 로드하는 대신 열 값을 정의하는 DAX(Data Analysis Expressions) 수식을 만듭니다. Power BI Desktop에서 **보고서** 보기의 새 열 기능을 사용하여 계산된 열이 생성됩니다.
+계산된 열을 사용하면 이미 모델에 있는 표에 새 데이터를 추가할 수 있습니다. 그러나 값을 쿼리하고 데이터 소스에서 새 열로 로드하는 대신 열 값을 정의하는 DAX(Data Analysis Expressions) 수식을 만듭니다. Power BI Desktop에서 **보고서** 보기의 새 열 기능을 사용하여 계산된 열이 생성됩니다.
 
 쿼리 편집기에서 **사용자 지정 열 추가**를 사용하여 쿼리의 일부로 만든 사용자 지정 열과 달리 **보고서** 보기 또는 **데이터** 보기에서 만든 계산된 열은 이미 모델에 로드한 데이터를 기반으로 합니다. 예를 들어 두 개의 서로 다르지만 관련된 테이블에 있는 두 열의 값을 연결하거나, 추가를 수행하거나, 하위 문자열을 추출할 수 있습니다.
 
-만든 계산된 열은 다른 필드와 마찬가지로 **필드** 목록에 나타나지만 해당 값이 수식의 결과임을 표시하는 특수 아이콘이 있습니다. 열에 원하는 대로 이름을 지정하고 다른 필드처럼 보고서 시각화에 추가할 수 있습니다.
+만든 계산된 열은 다른 필드와 마찬가지로 **필드** 목록에 나타나지만 해당 값이 수식의 결과임을 표시하는 특수 아이콘이 있습니다. 열에 원하는 대로 이름을 지정하고 다른 필드처럼 보고서 시각화에 추가할 수 있습니다. 
 
 ![](media/desktop-calculated-columns/calccolinpbid_fields.png)
 

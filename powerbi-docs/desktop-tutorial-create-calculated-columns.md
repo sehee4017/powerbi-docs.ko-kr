@@ -1,6 +1,6 @@
 ---
-title: '자습서:  Power BI Desktop에서 계산 열 만들기'
-description: '자습서:  Power BI Desktop에서 계산 열 만들기'
+title: '자습서: Power BI Desktop에서 계산 열 만들기'
+description: '자습서: Power BI Desktop에서 계산 열 만들기'
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,25 +10,25 @@ ms.date: 11/26/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: cdd4f4f5058b57cbf59a3a0b35286243bd8c8f37
-ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75731722"
 ---
-# <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>자습서:  Power BI Desktop에서 계산 열 만들기
+# <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>자습서: Power BI Desktop에서 계산 열 만들기
 
 분석 중인 데이터에 원하는 결과를 얻는 데 필요한 특정 필드가 없는 경우도 있습니다. 이때 ‘계산 열’이 사용됩니다.  계산 열은 DAX(Data Analysis Expressions) 수식을 사용하여 다른 몇 개 열에서 텍스트 값을 결합하는 것부터 다른 값에서 숫자 값을 계산하는 것까지 열의 값을 정의합니다. 예를 들어 데이터에 **City** 및 **State** 필드가 포함되어 있지만 “Miami, FL”과 같이 하나의 **Location** 필드에 두 필드를 모두 포함하려 한다고 가정합니다. 계산된 열은 바로 이런 용도로 사용됩니다.
 
-계산 열과 [측정값](desktop-tutorial-create-measures.md)은 모두 DAX 수식을 기반으로 한다는 점에서 비슷하지만 사용하는 방식이 다릅니다. 측정값은 다른 필드를 기준으로 결과 값을 계산하기 위해 시각화의 **값** 영역에 주로 사용됩니다. 계산 열을 시각화의 행, 축, 범례 및 그룹 영역에서 새 **필드**로 사용합니다.
+계산 열과 [측정값](desktop-tutorial-create-measures.md)은 모두 DAX 수식을 기반으로 한다는 점에서 비슷하지만 사용하는 방식이 다릅니다. 측정값은 다른 필드를 기준으로 결과 값을 계산하기 위해 시각화의 **값** 영역에 주로 사용됩니다. 반면, 계산 열은 시각화의 행, 축, 범례 및 그룹 영역에서 신규 **필드**로 사용합니다.
 
 이 자습서에서는 Power BI Desktop에서 일부 계산 열을 만들고 보고서 시각화에서 사용하는 과정을 안내합니다.
 
-## <a name="prerequisites"></a>필수 조건
+## <a name="prerequisites"></a>사전준비
 
 - 이 자습서는 Power BI Desktop을 사용하여 고급 모델을 만드는 방법을 이미 알고 있는 Power BI 사용자를 위한 것입니다. 데이터 가져오기 및 Power Query 편집기를 사용하여 데이터를 가져오고, 여러 가지 관련 테이블을 사용하고, 보고서 캔버스에 필드를 추가하는 방법을 이미 알고 있어야 합니다. Power BI Desktop을 처음 사용하는 경우 [Power BI Desktop 시작](desktop-getting-started.md)을 확인해야 합니다.
   
-- 이 자습서에서는 [Power BI Desktop에서 사용자 고유의 측정값 만들기](desktop-tutorial-create-measures.md) 자습서에 사용되는 동일한 샘플인 [Power BI Desktop용 Contoso 판매 샘플](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip)을 사용합니다. 가상 회사인 Contoso, Inc.의 이 판매 데이터는 데이터베이스에서 가져온 것이므로 데이터 원본에 연결하거나 파워 쿼리 편집기에서 볼 수 없습니다. 사용자 컴퓨터에 파일을 다운로드하여 추출한 다음, Power BI Desktop에서 엽니다.
+- 이 자습서에서는 [Power BI Desktop에서 사용자 고유의 측정값 만들기](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip) 자습서에 사용되는 동일한 샘플인 [Power BI Desktop용 Contoso 판매 샘플](desktop-tutorial-create-measures.md)을 사용합니다. 가상 회사인 Contoso, Inc.의 이 판매 데이터는 데이터베이스에서 가져온 것이므로 데이터 원본에 연결하거나 파워 쿼리 편집기에서 볼 수 없습니다. 사용자 컴퓨터에 파일을 다운로드하여 추출한 다음, Power BI Desktop에서 엽니다.
 
 ## <a name="create-a-calculated-column-with-values-from-related-tables"></a>관련 테이블의 값을 사용하여 계산 열 만들기
 

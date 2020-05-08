@@ -11,10 +11,10 @@ ms.date: 01/21/2020
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 8a72bc43bcceae6e676728934ceec81c8cb27d04
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76539434"
 ---
 # <a name="create-and-use-what-if-parameters-to-visualize-variables-in-power-bi-desktop"></a>What if 매개 변수를 만들고 이러한 매개 변수를 사용하여 Power BI Desktop에서 변수 시각화
@@ -58,7 +58,7 @@ Power BI Desktop의 **모델링** 탭에서 ‘가상’ 매개 변수를 만듭
 
 ![할인 이후 판매액 정의](media/desktop-what-if/what-if_06.png)
 
-그런 다음, 축에서 **OrderDate**를 포함하는 열 시각적 개체를 만들고 **SalesAmount**와 방금 만든 측정값 **‘할인 후 판매액’** 을 값으로 만듭니다.
+그런 다음, 축에서 **OrderDate**를 포함하는 열 시각적 개체를 만들고 **SalesAmount**와 방금 만든 측정값 **‘할인 후 판매액**’을 값으로 만듭니다.
 
 ![SalesAmount의 시각화](media/desktop-what-if/what-if_07.png)
 
