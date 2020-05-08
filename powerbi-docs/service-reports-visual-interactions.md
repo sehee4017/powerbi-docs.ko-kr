@@ -11,10 +11,10 @@ ms.date: 02/04/2020
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 1d723f3dd67eb5e096622c882b5f538a77666d9e
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77036702"
 ---
 # <a name="change-how-visuals-interact-in-a-power-bi-report"></a>Power BI 보고서에서 시각적 개체가 조작되는 방식 변경
@@ -44,7 +44,7 @@ ms.locfileid: "77036702"
 2. **시각적 상호 작용** 옵션을 표시합니다.
     
 
-    - Power BI Desktop에서 **서식 > 상호 작용 편집**을 선택합니다.
+    - 바탕 화면에서 **서식 > 상호 작용** 을 선택합니다.
 
         ![형식 및 상호 작용 선택](media/service-reports-visual-interactions/power-bi-interaction.png)
 
@@ -65,7 +65,7 @@ ms.locfileid: "77036702"
 
 선택한 시각화가
    
-   * 페이지의 다른 시각화 중 하나를 교차 필터링해야 하는 경우 시각화 ![필터 아이콘](media/service-reports-visual-interactions/power-bi-filter-icon.png)의 오른쪽 위 모서리에 있는 **필터** 아이콘을 선택합니다.
+   * 페이지의 다른 시각화 중 하나를 교차 필터링해야 하는 경우 시각화 **필터 아이콘**의 오른쪽 위 모서리에 있는 ![필터](media/service-reports-visual-interactions/power-bi-filter-icon.png) 아이콘을 선택합니다.
    * 페이지의 다른 시각화 중 하나를 교차 강조 표시해야 하는 경우 **강조 표시** 아이콘 ![강조 표시 아이콘](media/service-reports-visual-interactions/power-bi-highlight-icon.png)을 선택합니다.
    * 페이지의 다른 시각화에 영향을 주지 않는 경우 **영향 없음** 아이콘 ![영향 없음 아이콘](media/service-reports-visual-interactions/power-bi-no-impact.png)을 선택합니다.
 
@@ -82,7 +82,7 @@ ms.locfileid: "77036702"
 
     ![드릴링 켜기](media/service-reports-visual-interactions/power-bi-drill-down.png)
 
-2. 메뉴 모음에서 **서식** > **기타 시각적 개체 드릴 필터링**을 선택합니다.  이제 시각화에서 드릴다운(및 드릴업)하면 보고서 페이지의 다른 시각화가 현재 드릴링 선택을 반영하도록 변경됩니다. 
+2. 메뉴 모음에서 **형식** > **기타 시각적 개체 드릴 필터링**을 선택합니다.  이제 시각화에서 드릴다운(및 드릴업)하면 보고서 페이지의 다른 시각화가 현재 드릴링 선택을 반영하도록 변경됩니다. 
 
     ![기타 시각적 개체 드릴 필터링 켜기](media/service-reports-visual-interactions/power-bi-drill.png)
 

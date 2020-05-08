@@ -11,10 +11,10 @@ ms.date: 03/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 7ff02eb07d4b052892cc80ab4710223d8d302a9f
-ms.sourcegitcommit: 743167a911991d19019fef16a6c582212f6a9229
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78893441"
 ---
 # <a name="customize-visualization-titles-backgrounds-and-legends"></a>시각화 제목, 배경 및 범례 사용자 지정
@@ -149,7 +149,7 @@ ms.locfileid: "78893441"
 | KPI | 예 | 예 | 해당 없음 |
 | 선 | 예 | 예 | 예 |
 | 맵 | 예 | 예 | 예 |
-| Matrix | 예 | 예 | 해당 없음 |
+| 행렬 | 예 | 예 | 해당 없음 |
 | 원형 | 예 | 예 | 예 |
 | 질문 및 답변 | 예 | 예 | 해당 없음 |
 | 분산형 | 예 | 예 | 예 |

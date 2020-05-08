@@ -10,10 +10,10 @@ ms.date: 01/16/2019
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: 33d0b7850b5e396d8f03e80cbcb32768fb26bf6d
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81439805"
 ---
 # <a name="use-cross-report-drillthrough-in-power-bi"></a>Power BI에서 교차 보고서 드릴스루 사용
@@ -31,7 +31,7 @@ Power BI *교차 보고서 드릴스루* 기능을 사용하면 같은 Power BI 
 이 문서에서는 Power BI 보고서에 대한 교차 보고서 드릴스루를 설정하고 사용하는 방법을 보여줍니다.
 
 > [!NOTE]
-> **내 작업 영역** 내에서 개별적으로 공유된 [공유한 항목 보고서](service-share-dashboards.md#share-a-dashboard-or-report)는 교차 보고서 드릴스루와 함께 사용할 수 없습니다. 교차 보고서 드릴스루를 사용하려면 보고서가 공유된 작업 영역에서 보고서에 액세스해야 합니다.
+> [내 작업 영역](service-share-dashboards.md#share-a-dashboard-or-report) 내에서 개별적으로 공유된 **공유한 항목 보고서**는 교차 보고서 드릴스루와 함께 사용할 수 없습니다. 교차 보고서 드릴스루를 사용하려면 보고서가 공유된 작업 영역에서 보고서에 액세스해야 합니다.
 
 ## <a name="enable-cross-report-drillthrough"></a>교차 보고서 드릴스루 사용
 
@@ -70,7 +70,7 @@ Power BI Desktop 또는 Power BI 서비스에서 교차 보고서 드릴스루�
 1. 페이지를 교차 보고서 드릴스루 전용으로 사용하는 경우에는 캔버스에 자동으로 추가된 **뒤로** 단추를 삭제합니다. **뒤로** 단추는 보고서 내에서 탐색하는 경우에만 작동합니다. 
 1. 대상 페이지를 구성한 후 Power BI 서비스를 사용하는 경우 보고서 페이지를 저장해야 하고, Power BI Desktop을 사용하는 경우 저장한 후 보고서를 게시해야 합니다.
 
-이제 끝났습니다! 보고서가 교차 보고서 드릴스루를 수행할 준비가 되었습니다. 
+이것으로 끝입니다. 보고서가 교차 보고서 드릴스루를 수행할 준비가 되었습니다. 
 
 ## <a name="use-cross-report-drillthrough"></a>교차 보고서 드릴스루 사용
 

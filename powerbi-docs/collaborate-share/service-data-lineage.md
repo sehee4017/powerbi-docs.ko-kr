@@ -9,10 +9,10 @@ ms.date: 02/27/2020
 ms.author: painbar
 LocalizationGroup: ''
 ms.openlocfilehash: fc1f55fbadfaa6c25dd9140a41064eaa876013df
-ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81525402"
 ---
 # <a name="data-lineage"></a>데이터 계보
@@ -79,7 +79,7 @@ Power BI에는 대시보드, 보고서, 데이터 세트, 데이터 흐름 등 �
 
     ![확대/축소 또는 전체 화면](media/service-data-lineage/service-data-lineage-zoom.png)
 
-## <a name="permissions"></a>권한
+## <a name="permissions"></a>사용 권한
 
 * 계보 보기를 보려면 Power BI Pro 라이선스가 필요합니다.
 * 계보 보기는 작업 영역에 대한 액세스 권한이 있는 사용자만 사용할 수 있습니다.

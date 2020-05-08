@@ -9,10 +9,10 @@ ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
 ms.openlocfilehash: c342a7472666ee50b7213e7d933ad36da85ce7f6
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76975036"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Power BI로 사용하는 서비스에 연결
@@ -29,7 +29,7 @@ Power BI를 통해 비즈니스 운영에 사용하는 다양한 서비스(예: 
 
 ![Power BI 모바일 앱의 Google 웹로그 분석 앱](media/service-connect-to-services/power-bi-service-mobile-app-240.png)
 
-## <a name="get-started"></a>시작
+## <a name="get-started"></a>시작하기
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
 
 ## <a name="edit-the-dashboard-and-reports"></a>대시보드 및 보고서 편집
@@ -70,5 +70,5 @@ Power BI 앱에 제안하려는 서비스를 사용하나요? [Power BI 지원](
 ## <a name="next-steps"></a>다음 단계
 * [동료에게 앱 배포](service-create-distribute-apps.md)
 * [Power BI에서 새 작업 영역 만들기](service-create-the-new-workspaces.md)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+* 질문이 있으신가요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

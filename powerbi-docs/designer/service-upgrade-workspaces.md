@@ -10,10 +10,10 @@ ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 266a8609123f05f258daee60f6ae17f032ebae29
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/23/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74410815"
 ---
 # <a name="upgrade-classic-workspaces-to-the-new-workspaces-in-power-bi"></a>Power BI에서 클래식 작업 영역을 새 작업 영역으로 업그레이드
@@ -212,4 +212,4 @@ Office 365 그룹은 작업 영역에서 역할을 부여하므로 업그레이�
 ## <a name="next-steps"></a>다음 단계
 * [Power BI에서 새 작업 영역 만들기](../service-create-the-new-workspaces.md)
 * [클래식 작업 영역 만들기](../service-create-workspaces.md)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+* 질문이 있으신가요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
