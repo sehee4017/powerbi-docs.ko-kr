@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 06/18/2019
 ms.openlocfilehash: 43fcc0873006cfd42c97a287c7bff66f5995bfef
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79380955"
 ---
 # <a name="the-analytics-pane-in-power-bi-visuals"></a>Power BI 시각적 개체의 분석 창
@@ -25,7 +25,7 @@ ms.locfileid: "79380955"
 
 ## <a name="manage-the-analytics-pane"></a>분석 창 관리
 
-[**서식** 창](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial-format-options)에서 속성을 관리하는 것과 동일한 방법으로, 시각적 개체의 *capabilities.json* 파일에서 개체를 정의하여 **분석** 창을 관리합니다.
+[**서식** 창](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial-format-options)에서 속성을 관리하는 것과 동일한 방법으로, 시각적 개체의 **capabilities.json** 파일에서 개체를 정의하여 *분석* 창을 관리합니다.
 
 **분석** 창의 차이점은 다음과 같습니다.
 
@@ -37,8 +37,8 @@ ms.locfileid: "79380955"
     > 값을 지정하지 않으면, `objectCategory`는 기본적으로 “서식”으로 설정됩니다.
 
 * 개체에는 다음 두 가지 속성이 있어야 합니다.
-    * `bool` 형식의 `show`(기본값은 `false`임)
-    * `text` 형식의 `displayName`. 선택한 기본값이 인스턴스의 초기 표시 이름이 됩니다.
+    * `show` 형식의 `bool`(기본값은 `false`임)
+    * `displayName` 형식의 `text`. 선택한 기본값이 인스턴스의 초기 표시 이름이 됩니다.
 
 ```json
 {

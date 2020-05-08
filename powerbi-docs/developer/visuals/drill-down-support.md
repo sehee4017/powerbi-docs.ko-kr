@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
 ms.openlocfilehash: dd8510230a66a9897023686aefb72990ac01a5fd
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79380492"
 ---
 # <a name="add-drill-down-support"></a>드릴다운 지원 추가
@@ -205,7 +205,7 @@ button {
 
 시각적 개체를 테스트하기 위해 샘플 데이터 준비:
 
-|   H1  |   H2    | H3  |   Values  |
+|   H1  |   H2    | H3  |   VALUES  |
 |-----|-----|------|-------|
 |   A   |    A1  |    A11 |    1   |
 |   A    |    A1    |    A12    |    2    |
@@ -213,12 +213,12 @@ button {
 |   A    |    A2    |    A22    |    4    |
 |   A    |    A3    |    A31    |    5    |
 |   A    |    A3    |    A32    |    6    |
-|   B    |    B1    |    B11    |    7    |
-|   B    |    B1    |    B12    |    8    |
-|   B    |    B2    |    B21    |    9    |
-|   B    |    B2    |    B22    |    10    |
-|   B    |    B3    |    B31    |    11    |
-|   B    |    B3    |    B32    |    12    |
+|   b    |    B1    |    B11    |    7    |
+|   b    |    B1    |    B12    |    8    |
+|   b    |    B2    |    B21    |    9    |
+|   b    |    B2    |    B22    |    10    |
+|   b    |    B3    |    B31    |    11    |
+|   b    |    B3    |    B32    |    12    |
 
 Power BI Desktop에서 계층 구조를 만듭니다.
 
@@ -315,7 +315,7 @@ export class Visual implements IVisual {
 
 행렬 데이터 뷰 매핑을 사용하여 시각적 개체를 테스트하기 위한 샘플 데이터 준비:
 
-|   Row1   |   Row2   |   Row3   |   열1   |   열2   |   Column3   |   값   |
+|   Row1   |   Row2   |   Row3   |   열1   |   Column2   |   열3   |   값   |
 |-----|-----|------|-------|-------|-------|-------|
 |   R1   |   R11   |   R111   |   C1   |   C11   |   C111   |   1   |
 |   R1   |   R11   |   R112   |   C1   |   C11   |   C112   |   2   |

@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/24/2020
 ms.openlocfilehash: f4d47347c98d19afdfbf07615842bfb4649dc1b9
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79379263"
 ---
 # <a name="power-bi-visuals-interactivity-utils"></a>Power BI 시각적 개체 InteractivityUtils
@@ -138,7 +138,7 @@ Power BI 시각적 개체 도구는 외부 CSS 규칙을 래핑하여 CSS 파일
     이 클래스에는 다음과 같은 상응하는 메서드가 있습니다.
     * `bindClick`
     * `bindClearCatcher`
-    * `bindContextMenu`.
+    * `bindContextMenu`에 대한 답변에 설명되어 있는 단계를 성공적으로 완료하면 활성화됩니다.
 
     ```typescript
     export class Behavior<SelectableDataPointType extends BaseDataPoint> implements IInteractiveBehavior {

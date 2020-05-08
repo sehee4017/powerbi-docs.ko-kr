@@ -11,16 +11,16 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: bdd2ec136ae741e15e0cb60d141c651cd5fb6749
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79207600"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>대시보드 타일 편집 또는 제거
 
 ## <a name="dashboard-owners-versus-dashboard-consumers"></a>대시보드 *소유자*와 대시보드 *소비자*의 차이점
-대시보드를 만들거나 소유할 때 해당 대시보드에서 타일의 모양과 기본 동작을 변경하는 여러 옵션이 있습니다. 아래의 설정과 전략을 사용하여 동료들을 위한 대시보드 *소비* 경험을 디자인하세요.  타일을 선택하면 기본 보고서, 사용자 지정 URL 또는 다른 대시보드가 열리나요? [동영상 또는 스트리밍 데이터를 표시하는 타일을 추가](service-dashboard-add-widget.md)할 수도 있습니다. [대화형 슬라이서가 있는 타일을 만들려는 경우](service-dashboard-pin-live-tile-from-report.md)도 있을 것입니다. *작성자*에게는 여러 가지 옵션이 있습니다. 
+대시보드를 만들거나 소유할 때 해당 대시보드에서 타일의 모양과 기본 동작을 변경하는 여러 옵션이 있습니다. 아래의 설정과 전략을 사용하여 동료들을 위한 대시보드 *소비* 경험을 디자인하세요.  타일을 선택하면 기본 보고서, 사용자 지정 URL 또는 다른 대시보드가 열립니까? [비디오 또는 스트리밍 데이터를 표시하는 타일을 추가](service-dashboard-add-widget.md)할 것입니까? [대화형 슬라이서가 있는 타일을 만들려는 경우](service-dashboard-pin-live-tile-from-report.md)도 있을 것입니다. *작성자*에게는 여러 가지 옵션이 있습니다. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lJKgWnvl6bQ" frameborder="0" allowfullscreen></iframe>
 
@@ -38,7 +38,7 @@ ms.locfileid: "79207600"
   > 타일 자체에 표시된 시각화를 변경하려면 해당 타일을 삭제하고 새 [대시보드 타일](consumer/end-user-tiles.md)을 추가합니다.
 
   
-## <a name="prerequisites"></a>필수 조건
+## <a name="prerequisites"></a>사전준비
 이 자습서를 따라 하려면 Power BI 서비스(Power BI Desktop 아님)를 열고 [IT 지출 분석 샘플을 다운로드](sample-it-spend.md)합니다. "성공" 메시지가 나타나면 **대시보드로 이동**을 선택합니다.
 
 - - -
@@ -61,7 +61,7 @@ ms.locfileid: "79207600"
 
     ![시각화 창](media/service-dashboard-edit-tile/power-bi-donut-chart.png)
 
-5. 고정 아이콘을 선택하고 도넛형 차트를 IT 지출 분석 샘플 대시보드에 고정합니다.
+5. 핀 고정 아이콘을 선택하고 도넛형 차트를 IT 지출 분석 샘플 대시보드에 고정합니다.
 
    ![타일 마우스로 가리키기](media/service-dashboard-edit-tile/power-bi-pin.png)
 
@@ -79,7 +79,7 @@ ms.locfileid: "79207600"
 ## <a name="resize-the-tile"></a>타일 크기 조정
 1x1 타일 단위에서 5x5까지, 타일을 다양한 크기로 만들 수 있습니다. 핸들(오른쪽 하단)을 선택하고 끌어 타일 크기를 조정합니다.
 
-![동영상](media/service-dashboard-edit-tile/pbigif_resizetile4.gif)
+![비디오](media/service-dashboard-edit-tile/pbigif_resizetile4.gif)
 
 - - -
 ## <a name="more-options--menu"></a>**추가 옵션**(...) 메뉴
@@ -101,7 +101,7 @@ ms.locfileid: "79207600"
 <a name="rename"></a>
 
 ### <a name="rename-the-tile"></a>타일 이름 바꾸기
-"타일 세부 정보" 창 맨 위에서 **제목**을 **사용 금액**으로 변경합니다.
+"타일 세부 정보" 창 맨 위에서 **제목**을 **사용한 양**으로 변경합니다.
 
 ![타일 세부 정보 창](media/service-dashboard-edit-tile/power-bi-tile-title.png)
 

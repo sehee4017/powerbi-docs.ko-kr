@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 4a9dcf14d1745087e2596507d4c7dbc7a03b5ab3
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79435332"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱의 지리적 위치별 보고서 필터링
@@ -19,9 +19,9 @@ ms.locfileid: "79435332"
 
 | ![iPhone](./media/mobile-apps-geographic-filtering/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-geographic-filtering/ipad-logo-50-px.png) | ![Android 휴대폰](./media/mobile-apps-geographic-filtering/android-phone-logo-50-px.png) | ![Android 태블릿](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | ![Windows Phone](./media/mobile-apps-geographic-filtering/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
-| iPhone |iPad |Android 휴대폰 |Android 태블릿 |Windows 10 휴대폰 |
+| iPhones |iPad |Android 휴대폰 |Android 태블릿 |Windows 10 휴대폰 |
 
-모바일 디바이스에서 Power BI 보고서를 볼 때 오른쪽 위 모서리에 작은 압정 아이콘이 보이시나요? 그렇다면, 지리적 위치에 따라 해당 보고서를 필터링할 수 있습니다.
+모바일 디바이스에서 Power BI 보고서를 볼 때 오른쪽 위 모서리에 작은 압정 아이콘이 보이십니까? 그렇다면, 지리적 위치에 따라 해당 보고서를 필터링할 수 있습니다.
 
 > [!NOTE]
 > 보고서의 지리적 이름이 영어인 경우(예: “New York City” 또는 “Germany”) 위치에 따라 필터링할 수 있습니다. Windows 10 태블릿 및 PC는 지리적 필터링을 지원하지 않지만 Windows 10 휴대폰은 지원합니다.
@@ -36,7 +36,7 @@ ms.locfileid: "79435332"
    
     ![압정 필터](./media/mobile-apps-geographic-filtering/power-bi-mobile-geo-map-set-filter.png)
 
-## <a name="why-dont-i-see-location-tags-on-a-report"></a>보고서에 위치 태그가 표시되지 않는 이유는 무엇인가요?
+## <a name="why-dont-i-see-location-tags-on-a-report"></a>보고서에 위치 태그가 표시되지 않는 이유는 무엇입니까?
 위치 태그를 표시하려면 다음 세 가지 조건이 모두 참이어야 합니다. 
 
 * Power BI Desktop에서 보고서를 만든 사람은 도시, 주 또는 국가/지역 등 하나 이상의 열에 대해 [지리적 데이터를 분류](../../desktop-mobile-geofiltering.md)했어야 합니다.
@@ -51,5 +51,5 @@ Power BI Desktop에서 [지리적 필터링 설정](../../desktop-mobile-geofilt
 ### <a name="next-steps"></a>다음 단계
 * 모바일 앱으로 [실제 Power BI 데이터에 연결](mobile-apps-data-in-real-world-context.md)
 * [Power BI Desktop의 데이터 분류](../../desktop-data-categorization.md) 
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+* 질문이 있으신가요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

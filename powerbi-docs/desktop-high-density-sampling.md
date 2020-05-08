@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 344b041b8cca3e6ed4be1f40c0e783df18315679
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79378596"
 ---
 # <a name="high-density-line-sampling-in-power-bi"></a>Power BI의 고밀도 선 샘플링
@@ -36,7 +36,7 @@ ms.locfileid: "79378596"
 
 고밀도 시각적 개체의 경우 **Power BI**는 데이터를 고해상도 청크로 지능적으로 분할한 다음, 각 청크를 나타내기 위해 중요한 요소를 선택합니다. 고해상도 데이터 분할의 해당 프로세스는 결과 차트가 모든 기본 데이터 요소 렌더링에서 시각적으로 구별되지만 훨씬 빠르고 더욱 대화형이 되도록 특별히 조정됩니다.
 
-### <a name="minimum-and-maximum-values-for-high-density-line-visuals"></a>고밀도 선 시각적 개체에 대한 최소 및 최댓값
+### <a name="minimum-and-maximum-values-for-high-density-line-visuals"></a>고밀도 선 시각적 개체에 대한 최소 및 최대값
 지정된 모든 시각화의 경우 다음과 같은 시각적 제한 사항이 적용됩니다.
 
 * **3,500**은 기본 데이터 요소 또는 계열의 수와 관계없이 대부분의 시각적 개체에 ‘표시되는’ 데이터 요소의 최대 수입니다(다음 글머리 기호 목록의 ‘예외’ 참조).   이와 같이 각각 350개의 데이터 요소가 있는 10개의 시리즈가 있는 경우 시각적 개체는 해당 최대 전체 데이터 요소 제한에 도달했습니다. 하나의 시리즈가 있는 경우 새 알고리즘이 이를 기본 데이터에 대한 최상의 샘플링으로 여기는 경우 최대 3,500개의 데이터 요소를 가질 수 있습니다.

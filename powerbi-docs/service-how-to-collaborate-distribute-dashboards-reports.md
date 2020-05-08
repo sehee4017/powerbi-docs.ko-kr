@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 03/12/2020
 LocalizationGroup: Share your work
 ms.openlocfilehash: 86992d2e1426616f8d902a9f49d35407fde60ef2
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79376756"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Power BI에서 작업을 공유하는 방법
@@ -78,7 +78,7 @@ Power BI에는 새 작업 영역 환경이 있습니다. 작업 영역의 변경
 
 ## <a name="share-dashboards-and-reports"></a>대시보드 및 보고서 공유
 
-고유한 내 작업 영역 또는 작업 영역에서 대시보드 및 보고서를 종료했고 다른 사용자가 액세스하도록 하려는 경우를 가정하겠습니다. 한 가지 방법은 공유하는 것입니다.  
+고유한 내 작업 영역 또는 작업 영역에서 대시보드 및 보고서를 종료했고 다른 사용자가 액세스하도록 하려는 경우를 가정하겠습니다. 한 가지 방법은 공유 하는 것입니다.  
 
 ![보고서 공유](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-report.png)
 
