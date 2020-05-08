@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/29/2019
 ms.openlocfilehash: 7e74b01a6b12302393a3e4bc40b2e9cccfc13d63
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79488272"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>2단계: 인증 액세스 토큰 가져오기
@@ -23,7 +23,7 @@ ms.locfileid: "79488272"
 
 ## <a name="get-an-authentication-access-token"></a>인증 액세스 토큰 가져오기
 
-시작하기 전에 [Power BI 데이터 세트에 데이터 푸시](walkthrough-push-data.md) 시리즈에서 [이전 단계](../embedded/register-app.md)를 완료했는지 확인합니다. 
+시작하기 전에 [Power BI 데이터 세트에 데이터 푸시](../embedded/register-app.md) 시리즈에서 [이전 단계](walkthrough-push-data.md)를 완료했는지 확인합니다. 
 
 이 프로시저를 수행하려면 Visual Studio 2015 이상이 필요합니다.
 
@@ -35,11 +35,11 @@ ms.locfileid: "79488272"
 
      b. **Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory -Version 2.21.301221612**를 입력합니다.
 
-     c. Program.cs에 `using Microsoft.IdentityModel.Clients.ActiveDirectory;`를 추가합니다.
+     다. Program.cs에 `using Microsoft.IdentityModel.Clients.ActiveDirectory;`를 추가합니다.
 
 3. 이 단계 다음에 나열된 샘플 코드를 Program.cs에 추가합니다.
 
-4. 앱을 등록할 때 [이전 시리즈 문서](../embedded/register-app.md)에서 가져온 **클라이언트 ID**가 있는 "{ClientID}"로 바꿉니다.
+4. 앱을 등록할 때 **이전 시리즈 문서**에서 가져온 [클라이언트 ID](../embedded/register-app.md)가 있는 "{ClientID}"로 바꿉니다.
 
 5. 콘솔 앱을 실행하고 Power BI 계정에 로그인합니다. 
 

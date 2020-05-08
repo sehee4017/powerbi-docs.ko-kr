@@ -11,10 +11,10 @@ ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6e5281b03ecf9de5414b334d4f88658fb9741d3f
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80273205"
 ---
 # <a name="add-text-boxes-and-shapes-to-power-bi-reports"></a>Power BI 보고서에 텍스트 상자 및 셰이프 추가
@@ -44,7 +44,7 @@ Power BI Desktop을 사용하여 [보고서에 정적 이미지를 추가](/lear
 
 6. 텍스트 상자를 닫으려면 보고서 캔버스에서 빈 공간을 선택합니다. 
 
-7. 고정 아이콘  ![고정 아이콘](media/power-bi-reports-add-text-and-shapes/pbi_pintile.png) 을 선택하여 텍스트 상자를 대시보드에 고정합니다. 
+7. 고정 아이콘  ![핀 고정 아이콘을 클릭하거나](media/power-bi-reports-add-text-and-shapes/pbi_pintile.png) 을 선택하여 텍스트 상자를 대시보드에 고정합니다. 
 
 ## <a name="add-a-shape-to-a-report"></a>보고서에 셰이프 추가
 1. 보고서 캔버스에서 아무 곳이나 커서를 두고 **셰이프**를 선택합니다.

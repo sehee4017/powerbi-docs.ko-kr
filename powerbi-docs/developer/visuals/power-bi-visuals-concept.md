@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: 96f1fd217a59ee95aed05b790800024dc9f72be9
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79378149"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI의 시각적 개체
@@ -128,7 +128,7 @@ Power BI에서의 작업 및 후속 업데이트는 다음 세 가지 패턴 중
 
 ## <a name="next-steps"></a>다음 단계
 
-시각화를 만들어 Microsoft AppSource에 추가하는 데 관심이 있으신가요? 아래 문서를 참조하세요.
+시각화를 만들어 Microsoft AppSource에 추가하는 데 관심이 있으신가요?  아래 문서를 참조하세요.
 
 * [Power BI 시각적 개체 개발](./custom-visual-develop-tutorial.md)
 * [파트너 센터에 Power BI 시각적 개체 게시](office-store.md)

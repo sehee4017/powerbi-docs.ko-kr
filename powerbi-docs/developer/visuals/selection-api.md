@@ -10,10 +10,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: 2cca057b2a91129745fe739160ffbb3e9e25b6da
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80113695"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>Power BI 시각적 개체 선택 항목별로 시각적 개체에 대화형 작업 추가
@@ -81,7 +81,7 @@ export interface ISelectionIdBuilder {
 
 샘플 데이터 세트에 대한 범주 데이터 뷰 매핑에서 선택 항목이 어떻게 표시되는지 검토해 보겠습니다.
 
-| 제조업체 | 형식 | 값 |
+| 제조업체 | Type | Value |
 | - | - | - |
 | Chrysler | 국내 승용차 | 28883 |
 | Chrysler | 국내 트럭 | 117131 |
@@ -159,18 +159,18 @@ export interface ISelectionIdBuilder {
 
 그리고 시각적 개체는 `Manufacturer` 및 `Type`을 기준으로 데이터를 분할할 수 있어야 합니다.
 
-예를 들어 사용자가 `Manufacturer`에서 `Chrysler`를 선택하면 다른 시각적 개체는 다음 데이터를 표시해야 합니다.
+예를 들어 사용자가 `Chrysler`에서 `Manufacturer`를 선택하면 다른 시각적 개체는 다음 데이터를 표시해야 합니다.
 
-| 제조업체 | 형식 | 값 |
+| 제조업체 | Type | Value |
 | - | - | - |
 | **Chrysler** | 국내 승용차 | 28883 |
 | **Chrysler** | 국내 트럭 | 117131 |
 | **Chrysler** | 수입 승용차 | 0 |
 | **Chrysler** | 수입 트럭 | 6362 |
 
-사용자가 `Type`에서 `Import Car`를 선택하면(계열을 기준으로 데이터를 선택) 다른 시각적 개체는 다음 데이터를 표시해야 합니다.
+사용자가 `Import Car`에서 `Type`를 선택하면(계열을 기준으로 데이터를 선택) 다른 시각적 개체는 다음 데이터를 표시해야 합니다.
 
-| 제조업체 | 형식 | 값 |
+| 제조업체 | Type | Value |
 | - | - | - |
 | Chrysler | **수입 승용차** | 0 |
 | Ford | **수입 승용차** | 0 |
@@ -185,10 +185,10 @@ export interface ISelectionIdBuilder {
 
 ![선택 항목이 포함된 시각적 개체의 데이터 바구니](media/selection-api/visual-selections-databuckets.png)
 
-범주(열)로 `Manufacturer`, 계열(행)로 `Type`, 계열에 대한 `Values`로 `Value`가 있습니다.
+범주(열)로 `Manufacturer`, 계열(행)로 `Type`, 계열에 대한 `Value`로 `Values`가 있습니다.
 
 > [!NOTE]
-> 시각적 개체는 데이터 뷰 매핑에 따라 `Values`가 `Rows` 데이터를 기준으로 그룹화될 것으로 예상하므로 `Values`가 계열에 필요합니다.
+> 시각적 개체는 데이터 뷰 매핑에 따라 `Values`가 `Values` 데이터를 기준으로 그룹화될 것으로 예상하므로 `Rows`가 계열에 필요합니다.
 
 #### <a name="create-selections-for-categories"></a>범주에 대한 선택 항목 만들기
 

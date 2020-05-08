@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e7e5e406a0a4c9cdcecfab5a5af681857600feb5
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.openlocfilehash: 95ccee8e2c711c272d6114339161cbf1d1c883a9
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79488525"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841690"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Power BI Desktop의 자동 페이지 새로 고침(미리 보기)
 
@@ -121,7 +121,7 @@ Power BI **작업 영역**은 용량 내에 상주하며 보안, 협업 및 배�
 
  1. *기능 설정/해제*: 용량 관리자가 기능을 사용하지 않기로 결정한 경우, 게시된 보고서에서 어떤 유형의 페이지 새로 고침도 설정할 수 없습니다.
 
- 2. *최소 새로 고침 간격*: 기능을 사용하도록 설정하려면, 용량 관리자가 최소 새로 고침 간격을 설정해야 합니다. 간격이 최솟값보다 낮을 경우, Power BI 서비스가 용량 관리자가 설정한 최소 간격을 준수하기 위해 간격을 재정의합니다.
+ 2. *최소 새로 고침 간격*: 기능을 사용하도록 설정하려면, 용량 관리자가 최소 새로 고침 간격을 설정해야 합니다. 간격이 최소값보다 낮을 경우, Power BI 서비스가 용량 관리자가 설정한 최소 간격을 준수하기 위해 간격을 재정의합니다.
 
 아래 표에 이 기능을 사용할 수 있는 위치와 각 용량 유형 및 [스토리지 모드](service-dataset-modes-understand.md)에 대한 제한 사항이 자세히 설명되어 있습니다
 
@@ -212,7 +212,7 @@ Power BI Desktop 또는 Power BI 서비스에서, 자동 페이지 새로 고침
 
 * [Power BI의 DirectQuery 사용](desktop-directquery-about.md)
 * [성능 분석기를 사용하여 보고서 요소 성능 검사](desktop-performance-analyzer.md)
-* [Power BI Premium 용량 배포 및 관리](whitepaper-powerbi-premium-deployment.md)
+* [Power BI Premium 용량 배포 및 관리](guidance/whitepaper-powerbi-premium-deployment.md)
 * [Power BI Desktop의 데이터 원본](desktop-data-sources.md)
 * [Power BI Desktop에서 데이터 셰이핑 및 결합](desktop-shape-and-combine-data.md)
 * [Power BI Desktop에서 Excel 통합 문서에 연결](desktop-connect-excel.md)   

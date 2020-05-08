@@ -32,7 +32,7 @@
               href: auto-date-time.md
             - name: 일대일 관계
               href: relationships-one-to-one.md
-            - name: 다대다 관계
+            - name: 다 대 다 관계
               href: relationships-many-to-many.md
             - name: 활성 및 비활성 관계
               href: relationships-active-inactive.md
@@ -113,10 +113,10 @@
     - name: 백서
       items:
         - name: 백서 개요
-          href: ../whitepapers.md
+          href: whitepapers.md
         - name: Power BI 보안 백서
-          href: ../whitepaper-powerbi-security.md
+          href: whitepaper-powerbi-security.md
         - name: Power BI Premium 배포
-          href: ../whitepaper-powerbi-premium-deployment.md
+          href: whitepaper-powerbi-premium-deployment.md
         - name: Azure Active Directory B2B를 사용하여 외부에서 Power BI 배포
-          href: ../whitepaper-azure-b2b-power-bi.md
+          href: whitepaper-azure-b2b-power-bi.md

@@ -60,11 +60,11 @@
               href: ../service-gateway-power-bi-faq.md
     - name: 방법 가이드
       items:
-        - name: 데이터 원본 연결
+        - name: '데이터 원본 연결 '
           href: ../desktop-connect-to-data.md
         - name: 데이터에 연결
           items:
-            - name: 데이터 원본 연결
+            - name: '데이터 원본 연결 '
               href: ../desktop-data-sources.md
             - name: SharePoint 목록에서 보고서 만들기
               href: ../desktop-sharepoint-online-list.md
