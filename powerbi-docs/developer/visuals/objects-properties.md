@@ -9,10 +9,10 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: ae548abd0d579414a69b0d970213ff9d69ff2f08
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205875"
 ---
 # <a name="objects-and-properties-of-power-bi-visuals"></a>Power BI 시각적 개체의 개체 및 속성
@@ -136,7 +136,7 @@ export interface StructuralTypeDescriptor {
 }
 ```
 
-*fill* 및 *fillrule* 속성에 주의합니다. 첫 번째 속성은 색 선택기이고, 두 번째 속성은 규칙 조건이 충족될 때 ‘fill’ 속성 `visually`를 바꾸는 그라데이션 대체 규칙입니다. 
+*fill* 및 *fillrule* 속성에 주의합니다. 첫 번째 속성은 색 선택기이고, 두 번째 속성은 규칙 조건이 충족될 때 ‘fill’ 속성 *를 바꾸는 그라데이션 대체 규칙입니다.* `visually`
 
 ‘fill’ 속성과 대체 규칙 간의 이러한 연결은 *fillRule* 속성의 `"rule"`>`"output"` 섹션에서 설정됩니다. 
 
@@ -202,7 +202,7 @@ public enumerateObjectInstances(options: EnumerateVisualObjectInstancesOptions):
 
 `enumerateObjectInstances`의 선택기는 dataView에서 각 개체가 바인딩되는 위치를 결정합니다. 다음 네 가지 옵션이 있습니다.
 
-#### <a name="static"></a>static
+#### <a name="static"></a>정적
 
 이 개체는 여기에 표시된 것처럼 `dataviews[index].metadata.objects` 메타데이터에 바인딩됩니다.
 

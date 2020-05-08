@@ -1,5 +1,5 @@
 ---
-title: Power BI 데이터 원본
+title: Power BI 데이터 소스
 description: 이 문서에는 DirectQuery 및 온-프레미스 데이터 게이트웨이에 대한 정보를 포함하여 Power BI에서 지원하는 데이터 원본이 나열되어 있습니다.
 author: kfollis
 ms.reviewer: ''
@@ -9,21 +9,21 @@ ms.topic: conceptual
 ms.date: 03/10/2020
 ms.author: kfollis
 ms.openlocfilehash: 1853e710958b5bed0dad011594d9e04ccc99842d
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79041680"
 ---
-# <a name="power-bi-data-sources"></a>Power BI 데이터 원본
+# <a name="power-bi-data-sources"></a>Power BI 데이터 소스
 
 다음 표에서는 DirectQuery 및 온-프레미스 데이터 게이트웨이에 대한 정보를 포함하여 Power BI가 데이터 집합으로 지원하는 데이터 원본을 보여 줍니다. 데이터 흐름에 대한 자세한 내용은 [Power BI 데이터 흐름용 데이터 원본에 연결](service-dataflows-data-sources.md)을 참조하세요.
 
 > [!NOTE]
-> 인증을 위해 Internet Explorer 10(또는 그 이상)이 요구되는 Power BI Desktop용 데이터 커넥터가 다수 존재합니다. 
+> 인증에 Internet Explorer 10 이상이 필요한 Power BI Desktop용 데이터 커넥터가 많습니다. 
 
 
-| 데이터 원본 | 데스크톱에서 연결 | 서비스에서 연결 및 새로 고침 | DirectQuery/라이브 연결 | 게이트웨이(지원됨) | 게이트웨이(필수) |
+| 데이터 소스 | 데스크톱에서 연결 | 서비스에서 연결 및 새로 고침 | DirectQuery/라이브 연결 | 게이트웨이(지원됨) | 게이트웨이(필수) |
 |---|---|---|---|---|---|---|---|
 | Access 데이터베이스 | 예 | 예 | 아니요 | 예 <sup>1</sup> | 예 |
 | ActiveDirectory | 예 | 예 | 아니요 | 예 | 예 |
@@ -45,7 +45,7 @@ ms.locfileid: "79041680"
 | Azure SQL Database | 예 | 예 | 예 | 예 <sup>2</sup> | 아니요 |
 | Azure SQL Data Warehouse | 예 | 예 | 예 | 예 <sup>2</sup> | 아니요 |
 | Azure Table Storage | 예 | 예 | 아니요 | 예 | 아니요 |
-| BI Connector | 예 | 예 | 예 | 예 | 예 |
+| BI 커넥터 | 예 | 예 | 예 | 예 | 예 |
 | BI360 - Budgeting &amp; Financial Reporting | 예 | 예 | 아니요 | 아니요 | 아니요 |
 | Common Data Service | 예 | 예 | 아니요 | 아니요 | 아니요 |
 | Data.World - 데이터 세트 가져오기 | 예 | 예 | 아니요 | 아니요 | 아니요 |
@@ -65,7 +65,7 @@ ms.locfileid: "79041680"
 | 파일 | 예 | 예 | 아니요 | 예 | 예 |
 | 폴더 | 예 | 예 | 아니요 | 예 | 예 |
 | GitHub | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Google 웹로그 분석 | 예 | 예 | 아니요 | 아니요 | 아니요 |
+| Google 분석 | 예 | 예 | 아니요 | 아니요 | 아니요 |
 | Google BigQuery | 예 | 예 | 아니요 | 아니요 | 아니요 |
 | HDFS(Hadoop 파일) | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
 | HDInsight 대화형 쿼리 | 예 | 예 | 예 | 아니요 | 아니요 |
@@ -74,7 +74,7 @@ ms.locfileid: "79041680"
 | IBM Netezza | 예 | 예 | 예 | 예 | 예 |
 | Impala | 예 | 예 | 예 | 예 | 예 |
 | Indexima | 예 | 예 | 예 | 예 | 예 |
-| Industrial App Store | 예 | 예 | 아니요 | 아니요 | 아니요 |
+| 산업 앱 스토어 | 예 | 예 | 아니요 | 아니요 | 아니요 |
 | Information Grid | 예 | 예 | 아니요 | 아니요 | 아니요 |
 | Intersystems IRIS | 예 | 예 | 예 | 예 | 예 |
 | Intune 데이터 웨어하우스 | 예 | 예 | 아니요 | 아니요 | 아니요 |
@@ -105,7 +105,7 @@ ms.locfileid: "79041680"
 | Power Platform 데이터 흐름 | 예 | 예 | 아니요 | 아니요 | 아니요 |
 | Python 스크립트 | 예 | 예 <sup>5</sup> | 아니요 | 예 <sup>5</sup> | 예 |
 | QubolePresto | 예 | 예 | 예 | 예 | 예 |
-| Quick Base | 예 | 예 | 아니요 | 예 | 예 |
+| 빠른 자료 | 예 | 예 | 아니요 | 예 | 예 |
 | QuickBooks Online | 예 | 예 | 아니요 | 아니요 | 아니요 |
 | R 스크립트 | 예 | 예 <sup>5</sup> | 아니요 | 예 <sup>5</sup> | 아니요 |
 | Roamler | 예 | 예 | 아니요 | 예 | 아니요 |

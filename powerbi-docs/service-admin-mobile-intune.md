@@ -10,10 +10,10 @@ ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: 2f2c0b2c6ba4d991dd6293b435acc07659013f5b
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74698512"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Microsoft Intune으로 모바일 앱 구성
@@ -41,7 +41,7 @@ iOS용 앱 URL을 가져오려면 iTunes에서 가져와야 합니다.
 
 1. iTunes를 엽니다.
 
-1. Power BI를 검색합니다.
+1. Power BI를 검색합니다. 
 
 1. **iPhone 앱** 및 **iPad 앱** 아래에 **Microsoft Power BI**가 표시되어야 합니다. 어떤 방법을 사용해도 동일한 URL을 얻게 됩니다.
 
@@ -91,7 +91,7 @@ iOS용 앱 URL을 가져오려면 iTunes에서 가져와야 합니다.
 
 1. **게시자**, **이름** 및 **설명**을 제공합니다. 선택적으로 **아이콘**을 제공할 수도 있습니다. **범주**는 회사 포털 앱에 대한 항목입니다. 완료되면 **다음**을 선택합니다.
 
-1. **모두**(기본값), **iPad** 또는 **iPhone**중에서 어떤 방식으로 게시할지 결정할 수 있습니다. 기본적으로 **모두**가 표시되며 두 디바이스 유형에 모두 작동합니다. Power BI 앱은 iPhone 및 iPad에 둘 다 동일한 URL입니다. **다음**을 선택합니다.
+1. **모두**(기본값), **iPad** 또는 **iPhone** 중에서 어떤 방식으로 게시할지 결정할 수 있습니다. 기본적으로 **모두**가 표시되며 두 디바이스 유형에 모두 작동합니다. Power BI 앱은 iPhone 및 iPad에 둘 다 동일한 URL입니다. **다음**을 선택합니다.
 
 1. **업로드**를 선택합니다.
 
@@ -158,9 +158,9 @@ iOS용 앱 URL을 가져오려면 iTunes에서 가져와야 합니다.
 
 앱이 배포되면 앱 페이지에서 배포에 대해 **예**가 표시됩니다.
 
-## <a name="step-5-install-the-application-on-a-device"></a>5단계: 디바이스에 애플리케이션 설치
+## <a name="step-5-install-the-application-on-a-device"></a>5단계: 디바이스에서 애플리케이션 설치
 
-‘회사 포털’ 앱을 통해 애플리케이션을 설치합니다. 회사 포털을 설치하지 않은 경우 iOS 또는 Android 플랫폼의 앱 스토어를 통해 가져올 수 있습니다. 조직의 로그인으로 회사 포털에 로그인합니다.
+‘회사 포털’ 앱을 통해 애플리케이션을 설치합니다.  회사 포털을 설치하지 않은 경우 iOS 또는 Android 플랫폼의 앱 스토어를 통해 가져올 수 있습니다. 조직의 로그인으로 회사 포털에 로그인합니다.
 
 1. 회사 포털 앱을 엽니다.
 

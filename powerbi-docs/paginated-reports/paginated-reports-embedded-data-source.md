@@ -9,10 +9,10 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.openlocfilehash: 83fadfe5f690a87563d20b9c6385b9a37193b9c9
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78921772"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Power BI 서비스에서 페이지를 매긴 보고서의 포함된 데이터 원본 만들기
@@ -47,7 +47,7 @@ ms.locfileid: "78921772"
   
 3.  **내 보고서에 포함된 연결 사용**을 선택합니다.  
   
-1.  **연결 유형 선택** 목록에서 데이터 원본 형식을 선택합니다. 
+1.  **연결 유형 선택** 목록에서 데이터 원본 유형을 선택합니다. 
 
 1.  다음 방법 중 하나를 사용하여 연결 문자열을 지정합니다.  
   
