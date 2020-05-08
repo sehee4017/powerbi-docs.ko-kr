@@ -9,16 +9,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: e856c3afca0578c906a54f636dd58cd9208607a8
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.openlocfilehash: 31ce44059ec2abd5a2615267311ba651993342ba
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79207991"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841897"
 ---
 # <a name="power-bi-security"></a>Power BI 보안
 
-Power BI 보안에 대한 자세한 설명은 [Power BI 보안 백서를 참조](whitepaper-powerbi-security.md)하세요.
+Power BI 보안에 대한 자세한 설명은 [Power BI 보안 백서를 참조](guidance/whitepaper-powerbi-security.md)하세요.
 
 Power BI 서비스는 Microsoft 클라우드 컴퓨팅 인프라 및 플랫폼인 **Azure**를 기반으로 합니다. Power BI 서비스 아키텍처는 **WFE(웹 프런트 엔드)** 클러스터 및 **백엔드** 클러스터 등, 두 클러스터를 기반으로 합니다. WFE 클러스터는 Power BI 서비스에 대한 최초 연결과 인증을 관리하며, 인증 후에는 백엔드가 이후의 모든 사용자 상호 작용을 처리합니다. Power BI는 AAD(Azure Active Directory)를 사용하여 사용자 ID를 스토리지 및 관리하며 각각 Azure BLOB와 Azure SQL Database를 사용하여 데이터 및 메타 데이터 스토리지을 관리합니다.
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/23/2020
 ms.author: kfollis
-ms.openlocfilehash: cfdb4f380cd8ad9655593798f591a4c915988c43
-ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
+ms.openlocfilehash: 11e6e1b1359841ea85bcb65b384abab926f003e0
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "82120094"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841943"
 ---
 # <a name="power-bi-webinars"></a>Power BI 웹 세미나
 [//]: # "Tatevik Tatero는 Chauncy Freels와 협력하고 이 웹 세미나 목록을 유지하는 데 도움을 주는 공급업체입니다."
@@ -228,7 +228,7 @@ ms.locfileid: "82120094"
 
 ## <a name="see-also"></a>참고 항목
 
-- [Power BI 백서](whitepapers.md)
+- [Power BI 백서](guidance/whitepapers.md)
 
 - [Power BI란?](fundamentals/power-bi-overview.md)
 

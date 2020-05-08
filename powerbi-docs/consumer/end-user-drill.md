@@ -10,10 +10,10 @@ ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 7c0c08e8056232fa7c60b20faf48b0137a19bc5f
-ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77496399"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Power BI에서 시각적 개체 드릴 모드
@@ -101,7 +101,7 @@ ms.locfileid: "77496399"
 
     1. 대신 확장합니다.
 
-    한 번에 한 필드 드릴다운을 계속합니다.  **Knoxville, TN**을 선택합니다. 이제 트리맵에는 Knoxville에 있는 상점의 우편 번호가 표시됩니다.
+    한 번에 한 필드 드릴다운을 계속합니다.  **녹스빌, TN**을 선택합니다. 이제 트리맵에는 Knoxville에 있는 상점의 우편 번호가 표시됩니다.
 
     ![우편 번호 37919를 보여 주는 트리맵의 스크린샷](media/end-user-drill/power-bi-drill-two.png)
 
@@ -119,7 +119,7 @@ ms.locfileid: "77496399"
 
     ![TN에 대한 모든 데이터를 보여 주는 트리맵의 스크린샷](media/end-user-drill/power-bi-expand-two.png)
 
-1. 드릴다운이 켜져 있는지 ![켜진 드릴다운 켜기/쓰기 아이콘의 스크린샷](./media/end-user-drill/power-bi-drill-icon2.png) 확인하고 ‘아래로 확장’ 아이콘 ![아래로 확장 아이콘의 스크린샷](./media/end-user-drill/power-bi-drill-icon6.png)을 선택합니다.  이제 트리맵은 동일한 수의 리프(상자)를 표시하지만 각 리프는 추가 세부 정보를 포함합니다. 이제 트리맵은 도시 및 주만 표시하는 대신 우편 번호도 보여 줍니다.
+1. 드릴다운이 켜져 있는지 ![켜진 드릴다운 켜기/쓰기 아이콘의 스크린샷](./media/end-user-drill/power-bi-drill-icon2.png) 확인하고 ‘아래로 확장’ 아이콘 *아래로 확장 아이콘의 스크린샷*을 선택합니다.![](./media/end-user-drill/power-bi-drill-icon6.png) 이제 트리맵은 동일한 수의 리프(상자)를 표시하지만 각 리프는 추가 세부 정보를 포함합니다. 이제 트리맵은 도시 및 주만 표시하는 대신 우편 번호도 보여 줍니다.
 
     ![도시, 주 및 우편 번호를 보여 주는 시각적 개체의 스크린샷](./media/end-user-drill/power-bi-expand-three.png)
 

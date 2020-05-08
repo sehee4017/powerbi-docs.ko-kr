@@ -10,10 +10,10 @@ ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 25ed90dba0c164a44d691f8247023f2ff7e0a67f
-ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76913523"
 ---
 # <a name="create-report-templates-for-power-bi-desktop"></a>Power BI Desktop의 보고서 템플릿 만들기
@@ -66,7 +66,7 @@ Power BI 보고서 템플릿을 사용하려면 Power BI Desktop에서 템플릿
 
 매개 변수와 데이터를 지정하고 나면, 템플릿의 기반이 되었던 보고서의 모든 페이지, 시각적 개체, 데이터 모델 아티팩트 및 쿼리를 포함하는 보고서가 생성됩니다. 
 
-이제 끝났습니다! Power BI Desktop에서 간편하게 보고서 템플릿을 만들고 사용함으로써, 매력적인 레이아웃 및 기타 보고서 측면을 쉽게 재현하고 다른 사용자와 공유할 수 있습니다.
+이것으로 끝입니다. Power BI Desktop에서 간편하게 보고서 템플릿을 만들고 사용함으로써, 매력적인 레이아웃 및 기타 보고서 측면을 쉽게 재현하고 다른 사용자와 공유할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 **쿼리 매개 변수**:

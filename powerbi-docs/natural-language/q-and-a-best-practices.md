@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: d6b07025f2aefe334fbbd65659b527c2bcad1efd
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.openlocfilehash: 02faed03e84c9d3a9f9ebd536116ffa0287dba4e
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "77609950"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841920"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>Power BI에서 질문 및 답변을 최적화하는 모범 사례
 일반적인 구 및 자연어를 사용하여 데이터에 대해 질문하는 것은 강력한 기능입니다. 데이터가 응답할 때 더욱 강력해지며, Power BI의 질문 및 답변은 바로 이 기능을 수행합니다.
@@ -194,6 +194,8 @@ Power BI는 적극적으로 기본적으로 숫자 열을 집계하기 때문에
 이 단계는 Q&A에 특별히 적용됩니다(일반적으로 Power BI 보고서에는 해당되지 않음). 사용자에게는 종종 총 매출액, 순매출액, 총 순매출액과 같이 동일한 항목을 참조하는 데 사용하는 다양한 용어가 있습니다. Power BI 모델의 테이블과 열에 이러한 동의어를 추가할 수 있습니다. 
 
 이 단계는 중요할 수 있습니다. 간단한 테이블 및 열 이름을 사용하는 경우라도 질문 및 답변 사용자는 먼저 떠오르는 어휘를 사용하여 질문하고 미리 정의된 열 목록에서 선택하지 않습니다. 더 타당한 동의어를 추가할수록 보고서를 이용하는 사용자의 경험이 향상됩니다. 동의어를 추가하려면 Power BI Desktop에서 모델 뷰로 이동하고 모델링 탭을 선택한 다음, 필드 또는 테이블을 선택합니다. 속성 창에 동의어를 추가할 수 있는 **동의어** 상자가 표시됩니다.
+
+
 
 ![질문 및 답변 속성 창 동의어](media/qna-modelling-pane-synonyms.png)
 

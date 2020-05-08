@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 01/22/2020
 ms.author: maggies
 ms.openlocfilehash: f8d711bba8dc7570f2d470554fd1d971639bbb7b
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76710209"
 ---
 # <a name="always-encrypted-in-power-bi-report-server"></a>Power BI Report Server에서 항상 암호화
@@ -65,13 +65,13 @@ Power BI Report Server에서 열 암호화 전략은 *결정적*이거나 *임�
 
 - 모든 Always Encrypted 열은 결정적 전략을 사용하여 항상 암호화되어야 합니다.
 - Always Encrypted 열에 사용되는 모든 매개 변수는 단일 값 매개 변수입니다.
-- 모든 SQL 비교는 등호(=) 연산자를 사용합니다.
+- 모든 SQL 비교는 Equals(=) 연산자를 사용합니다.
 
 ## <a name="datatype-support"></a>데이터 형식 지원
 
-| SQL 데이터 형식 | 읽기 필드 지원 | Group By 요소로 사용 지원 | 지원되는 집계(COUNT, DISTINCT, MAX, MIN, SUM 등) | 매개 변수를 사용하여 같음 필터링 지원 | 참고 |
+| SQL 데이터 형식 | 읽기 필드 지원 | Group By 요소로 사용 지원 | 지원되는 집계(COUNT, DISTINCT, MAX, MIN, SUM 등) | 매개 변수를 사용하여 같음 필터링 지원 | 메모 |
 | --- | --- | --- | --- | --- | --- |
-| int | 예 | 예 | COUNT, DISTINCT | 예, 정수로 |   |
+| 정수 | 예 | 예 | COUNT, DISTINCT | 예, 정수로 |   |
 | float | 예 | 예 | COUNT, DISTINCT | 예, 부동으로 |   |
 | nvarchar | 예 | 예 | COUNT, DISTINCT | 예, 텍스트로 | 결정적 암호화에서는 문자 열에 대해 binary2 정렬 순서를 적용하는 열 데이터 정렬을 사용해야 합니다. 자세한 내용은 SQL Server의 [Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption) 문서를 참조하세요.  |
 | varchar | 예 | 예 | COUNT, DISTINCT | 아니요 |   |

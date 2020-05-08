@@ -10,10 +10,10 @@ ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 817ce82b94817530854d85c7dbcca17a313fc438
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874458"
 ---
 # <a name="create-a-visual-with-power-bi-qa"></a>Power BI 질문 및 답변으로 시각적 개체 만들기
@@ -48,7 +48,7 @@ ms.locfileid: "73874458"
    
    ![질문 및 답변 - 채워진 영역 차트](media/power-bi-visualization-introduction-to-q-and-a/power-bi-qna-create-filled-chart.png)
 
-4. 대시보드로 차트를 고정하려면 고정 아이콘을 선택합니다. ![고정 아이콘](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png) 을 탭합니다.
+4. 대시보드로 차트를 고정하려면 고정 아이콘을 선택합니다. ![핀 고정 아이콘을 클릭하거나](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png) 을 탭합니다.
 
 ## <a name="create-a-visual-in-the-report-editor"></a>보고서 편집기에서 시각적 개체 만들기
 

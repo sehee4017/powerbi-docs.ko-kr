@@ -10,10 +10,10 @@ ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 0ccc32a18098673034e7f37b92f8edb5636ef21d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73872538"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Power BI 서비스에서 거의 모든 요소 삭제
@@ -28,7 +28,7 @@ ms.locfileid: "73872538"
 
 ### <a name="to-delete-a-dashboard"></a>대시보드를 삭제하려면
 1. 작업 영역에서 **대시보드** 탭을 선택합니다.
-2. 삭제할 대시보드를 찾은 후 삭제 아이콘 ![삭제 아이콘](media/service-delete/power-bi-delete-icon.png)을 선택합니다.
+2. 삭제할 대시보드를 찾은 후 삭제 아이콘 ![삭제 아이콘](media/service-delete/power-bi-delete-icon.png).
 
     ![비디오](media/service-delete/power-bi-delete-dash.gif)
 
@@ -37,7 +37,7 @@ ms.locfileid: "73872538"
 
 ### <a name="to-delete-a-report"></a>보고서를 삭제하려면
 1. 내 작업 영역에서 **보고서** 탭을 선택합니다.
-2. 삭제할 보고서를 찾은 후 삭제 아이콘   ![삭제 아이콘](media/service-delete/power-bi-delete-icon.png)을 선택합니다.   
+2. 삭제할 보고서를 찾은 후 삭제 아이콘   ![삭제 아이콘](media/service-delete/power-bi-delete-icon.png).   
 
     ![작업 영역의 보고서 탭](media/service-delete/power-bi-delete-reportnew.png)
 3. 삭제를 확인합니다.

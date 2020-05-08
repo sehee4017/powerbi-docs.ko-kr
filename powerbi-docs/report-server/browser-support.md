@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
 ms.openlocfilehash: 724bd7a9a11c42520c520019f1c4a67415aa5487
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874300"
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Power BI Report Server에 대한 브라우저 지원
@@ -69,7 +69,7 @@ Power BI Report Server 및 보고서 뷰어 컨트롤을 관리하고 보기 위
 ### <a name="authentication-requirements"></a>인증 요구 사항
 브라우저는 클라이언트 요청이 성공하기 위해 Report Server에서 처리되어야 하는 특정 인증 체계를 지원합니다. 다음 표에서는 Windows 운영 체제에서 실행 중인 각 브라우저에서 지원하는 기본 인증 유형을 식별합니다.
 
-| **브라우저 형식** | **지원** | **브라우저 기본값** | **서버 기본값** |
+| **브라우저 종류** | **지원** | **브라우저 기본값** | **서버 기본값** |
 | --- | --- | --- | --- |
 | **Microsoft Edge**(+) |Negotiate, Kerberos, NTLM, 기본 |협상 |예. 기본 인증 설정은 Edge를 사용합니다. |
 | **Microsoft Internet Explorer** |Negotiate, Kerberos, NTLM, 기본 |협상 |예. 기본 인증 설정은 Internet Explorer를 사용합니다. |
@@ -80,7 +80,7 @@ Power BI Report Server 및 보고서 뷰어 컨트롤을 관리하고 보기 위
  **(+)** 최신 공개 릴리스 버전
 
 ### <a name="script-requirements-for-viewing-reports"></a>보고서를 보기 위한 스크립트 요구 사항
-보고서 뷰어를 사용하려면 브라우저를 구성하여 스크립트를 실행합니다.
+보고서 뷰어를 사용하려면 스크립트를 실행하도록 브라우저를 구성합니다.
 
 스크립팅을 사용하지 않는 경우 보고서를 열 때 다음과 비슷한 오류 메시지가 나타납니다.
 
@@ -88,10 +88,10 @@ Power BI Report Server 및 보고서 뷰어 컨트롤을 관리하고 보기 위
 Your browser does not support scripts or has been configured to not allow scripts to run. Click here to view this report without scripts
 ```
 
- 스크립트 지원 없이 보고서를 보려고 선택한 경우 보고서는 보고서 도구 모음과 문서 맵와 같은 보고서 뷰어 기능 없이 HTML로 렌더링됩니다.
+ 스크립트 지원 없이 보고서를 보도록 선택하면 보고서는 보고서 도구 모음과 문서 구조와 같은 보고서 뷰어 기능 없이 HTML로 렌더링됩니다.
 
 > [!NOTE]
-> 보고서 도구 모음은 HTML 뷰어 구성의 일부입니다. 기본적으로 도구 모음은 브라우저 창에서 렌더링되는 모든 보고서의 맨 위에 나타납니다. 보고서 뷰어는 정보에 대한 보고서를 검색하고, 특정 페이지로 스크롤하며 보기 편하게 페이지 크기를 조정하는 기능을 제공합니다. 보고서 도구 모음 또는 HTML 뷰어에 대한 자세한 내용은 [HTML 뷰어 및 보고서 도구 모음](https://docs.microsoft.com/sql/reporting-services/html-viewer-and-the-report-toolbar)을 참조하세요.
+> 보고서 도구 모음은 HTML 뷰어 구성 요소의 일부입니다. 기본적으로 브라우저 창에서 렌더링되는 모든 보고서의 상단에 도구 모음이 표시됩니다. 보고서 뷰어는 정보에 대한 보고서를 검색하고, 특정 페이지로 스크롤하며 보기 편하게 페이지 크기를 조정하는 기능을 제공합니다. 보고서 도구 모음 또는 HTML 뷰어에 대한 자세한 내용은 [HTML Viewer and the Report Toolbar](https://docs.microsoft.com/sql/reporting-services/html-viewer-and-the-report-toolbar)을 참조하세요.
 > 
 > 
 
