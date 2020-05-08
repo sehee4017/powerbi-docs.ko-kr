@@ -10,10 +10,10 @@ ms.date: 02/12/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 48380d40d819ea1af74430546b9548c372bd2091
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77426613"
 ---
 # <a name="build-permission-for-shared-datasets-preview"></a>공유 데이터 세트에 대한 빌드 권한(미리 보기)
@@ -57,7 +57,7 @@ Power BI Desktop에서 보고서를 만드는 경우 해당 보고서의 데이�
 1. 작업 영역에서 **데이터 세트** 목록 페이지로 이동합니다. 
 1. 데이터 세트 옆에 있는 **추가 옵션**(...)을 선택한 다음 > **권한 관리**를 선택합니다.
 
-    ![권한 관리](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
+    ![사용 권한 관리](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
 1. 이름 옆에 있는 **추가 옵션**(...)을 선택한 다음 > **빌드 제거**를 선택합니다.
 
@@ -87,7 +87,7 @@ Power BI Desktop에서 보고서를 만드는 경우 해당 보고서의 데이�
 1. 작업 영역에서 **데이터 세트** 목록 페이지로 이동합니다. 
 1. 데이터 세트 옆에 있는 **추가 옵션**(...)을 선택한 다음 > **권한 관리**를 선택합니다.
 
-    ![권한 관리](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
+    ![사용 권한 관리](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
 1. 이름 옆에 있는 **추가 옵션**(...)을 선택한 다음 > **빌드 제거**를 선택합니다.
 
@@ -108,4 +108,4 @@ Power BI는 기존 권한인 읽기 및 재공유를 보완하기 위해 2019년
 ## <a name="next-steps"></a>다음 단계
 
 - [작업 영역에서 데이터 세트 사용(미리 보기)](service-datasets-across-workspaces.md)
-- 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+- 질문이 있으신가요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

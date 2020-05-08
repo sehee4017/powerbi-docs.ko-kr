@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 04/05/2020
 ms.author: painbar
 ms.openlocfilehash: ce147be4c23b738e1a09296a5d798fb0f94efe13
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80802029"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>MDM(모바일 디바이스 관리) 도구를 사용하여 Power BI 앱을 원격으로 구성
@@ -28,7 +28,7 @@ Power BI 모바일 앱은 다음 구성 시나리오를 지원합니다.
 
 관리자는 iOS 및 Android용 Power BI 앱을 사용하여 보고서 서버 구성을 등록된 장치에 원격으로 "푸시"할 수 있습니다.
 
-| 키 | 형식 | 설명 |
+| 키 | Type | 설명 |
 |---|---|---|
 | com.microsoft.powerbi.mobile.ServerURL | String | 보고서 서버 URL.<br><br>http/https로 시작해야 합니다.|
 | com.microsoft.powerbi.mobile.ServerUsername | String | [선택 사항]<br><br>서버 연결에 사용할 사용자 이름입니다.<br><br>존재하지 않는 경우 앱은 연결의 사용자 이름을 입력하라는 메시지를 수신합니다.|
@@ -39,7 +39,7 @@ Power BI 모바일 앱은 다음 구성 시나리오를 지원합니다.
 
 iOS 및 Android용 Power BI 모바일 앱은 관리자에게 보안 및 개인 정보 설정에 대한 기본 구성을 사용자 지정할 수 있는 기능을 제공합니다. iOS의 경우 Power BI 모바일 앱에 액세스할 때 사용자에게 Face ID, Touch ID 또는 암호를 제공하도록 요구할 수 있습니다. Android의 경우 사용자가 생체 인식 인증(지문 ID)을 사용하도록 요구할 수 있습니다.
 
-| 키 | 형식 | 설명 |
+| 키 | Type | 설명 |
 |---|---|---|
 | com.microsoft.powerbi.mobile.ForceDeviceAuthentication | Boolean | 기본값은 False입니다. <br><br>사용자가 해당 디바이스에서 앱에 액세스하기 위해서는 TouchID 또는 FaceID(iOS)나 지문 ID(Android) 등의 생체 인식이 필요할 수 있습니다. 필요한 경우 인증 외에 생체 인식도 사용됩니다.<br><br>앱 보호 정책을 사용하는 경우 Microsoft는 이중 액세스 프롬프트를 방지하기 위해 이 설정을 사용하지 않도록 설정하는 것을 권장합니다. |
 
@@ -53,7 +53,7 @@ iOS 및 Android용 Power BI 앱은 관리자가 조직의 사용자 그룹 간�
 >[!NOTE]
 >현재 모든 디바이스에서 모든 상호 작용을 지원하지는 않습니다. 디바이스 간 현재 가용성을 보여주는 차트는 [보고서 상호 작용 설정 구성](mobile-app-interaction-settings.md)을 참조하세요.
 
-| 키 | 형식 | 값 | 설명 |
+| 키 | Type | 값 | 설명 |
 |---|---|---|---|
 | com.microsoft.powerbi.mobile.ReportTapInteraction | String |  <nobr>한 번 탭</nobr><br><nobr>두 번 탭</nobr> | 시각적 개체를 눌렀을 때 데이터 요소도 선택할지를 구성합니다. |
 | com.microsoft.powerbi.mobile.EnableMultiSelect | Boolean |  <nobr>True</nobr><br><nobr>False</nobr> | 데이터 요소를 눌렀을 때 현재 선택 영역을 바꿀지 아니면 현재 선택 영역에 추가할지를 구성합니다. |
@@ -73,6 +73,6 @@ Intune 포털을 사용하면 관리자가 앱 구성 정책을 통해 Power BI 
 
 ## <a name="next-steps"></a>다음 단계
 
-* [App Store](https://apps.apple.com/app/microsoft-power-bi/id929738808) 및 [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.powerbim&amp;amp;clcid=0x409)에서 Power BI 모바일 앱 가져오기
+* [앱 스토어](https://apps.apple.com/app/microsoft-power-bi/id929738808) 및 [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.powerbim&amp;amp;clcid=0x409)에서 Power BI 모바일 앱 가져오기
 * [@MSPowerBI Twitter](https://twitter.com/MSPowerBI)에서 팔로우
 * [Power BI 커뮤니티](https://community.powerbi.com/)에서 대화에 참여

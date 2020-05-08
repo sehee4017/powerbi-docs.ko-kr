@@ -9,10 +9,10 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
 ms.openlocfilehash: 42b9057ccfaa918593e1be8a182c7b0ee57f9760
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "78920990"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Power BI 서비스에서 페이지를 매긴 보고서에 대한 매개 변수 만들기
@@ -27,7 +27,7 @@ ms.locfileid: "78920990"
   
 2.  데이터 세트에 있는 매개 변수 중 하나가 사용된 테이블입니다.  
   
-3.  매개 변수 창입니다. 매개 변수 창의 매개 변수 레이아웃을 사용자 지정할 수 있습니다. 
+3.  매개 변수 창입니다. 매개 변수 창에서 매개 변수 레이아웃을 사용자 지정할 수 있습니다. 
   
 4.  @FromDate 및 @ToDate 매개 변수는 **날짜/시간** 데이터 형식입니다. 보고서를 볼 때 텍스트 상자에 날짜를 입력하거나 달력 컨트롤에서 날짜를 선택할 수 있습니다. 
 
@@ -52,7 +52,7 @@ ms.locfileid: "78920990"
   
 7.  사용자가 매개 변수에 대해 값을 두 개 이상 선택할 수 있도록 허용하려면 **다중 값 허용**을 선택합니다.  
   
-8.  표시 유형 옵션을 설정합니다.  
+8.  표시 여부 옵션을 설정합니다.  
   
     -   보고서의 맨 위에 있는 도구 모음에 매개 변수를 표시하려면 **표시**를 선택합니다.  
   

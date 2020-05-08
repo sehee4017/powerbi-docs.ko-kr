@@ -11,10 +11,10 @@ ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 141dabdce7816d21c49d8c7f98d1438c2fc20e8d
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76709842"
 ---
 # <a name="enable-bidirectional-cross-filtering-for-directquery-in-power-bi-desktop"></a>Power BI Desktop에서 DirectQuery에 대해 양방향 교차 필터링 사용
@@ -27,13 +27,13 @@ ms.locfileid: "76709842"
 
 **관계 편집** 대화 상자에서 교차 필터링을 사용하도록 설정할 수 있습니다. 관계에 교차 필터링을 사용하려면 다음 옵션을 구성해야 합니다.
 
-* **교차 필터 방향**을 **모두**로 설정합니다.
+* **교차 필터 방향**을 **양쪽**으로 설정합니다.
 * **양방향으로 보안 필터 적용**을 선택합니다.
 
   ![Power BI Desktop에서 양방향 필터링을 구성합니다.](media/desktop-bidirectional-filtering/bidirectional-filtering_2.png)
 
 > [!NOTE]
-> Power BI Desktop에서 교차 필터링 DAX 수식을 만들 때 *UserPrincipalName*을 사용합니다. 이 필드는 사용자의 로그인과 동일한 경우가 많습니다. 예를 들어 *UserName* 대신 <em>joe@contoso.com</em>입니다. 따라서 *UserName* 또는 *EmployeeID*를 *UserPrincipalName*에 매핑하는 관련 테이블을 만들어야 할 수 있습니다.
+> Power BI Desktop에서 교차 필터링 DAX 수식을 만들 때 *UserPrincipalName*을 사용합니다. 이 필드는 사용자의 로그인과 동일한 경우가 많습니다. 예를 들어 <em>UserNamejoe@contoso.com 대신</em>  입니다. 따라서 *UserName* 또는 *EmployeeID*를 *UserPrincipalName*에 매핑하는 관련 테이블을 만들어야 할 수 있습니다.
 
 양방향 교차 필터링의 작동 방식에 대한 자세한 내용 및 예제는 [Power BI Desktop 백서에 대한 양방향 교차 필터링](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx)을 확인하세요.
 

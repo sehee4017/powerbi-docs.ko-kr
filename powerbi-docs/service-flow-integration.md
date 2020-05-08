@@ -11,10 +11,10 @@ ms.date: 02/25/2020
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: aafba825c5bd4ece3c8b97256d5943f91b456cd7
-ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77609707"
 ---
 # <a name="power-automate-and-power-bi"></a>Power Automate 및 Power BI
@@ -29,7 +29,7 @@ Sirui가 Power BI 경고가 트리거될 때 동료에게 자세한 전자 메�
 
 ## <a name="create-a-flow-that-is-triggered-by-a-power-bi-data-alert"></a>Power BI 데이터 경고로 트리거하는 흐름 만들기
 
-### <a name="prerequisites"></a>필수 조건
+### <a name="prerequisites"></a>사전준비
 이 자습서에서는 흐름을 만드는 두 가지 방법, 즉 템플릿을 이용하는 방법과 처음부터 새로 만드는 방법을 보여줍니다. 과정을 따르려면 [Power BI에서 데이터 경고를 만들고](service-set-data-alerts.md), Slack 체험 계정을 만든 다음, [Power Automate에 등록합니다](https://flow.microsoft.com/#home-signup)(무료).
 
 ## <a name="create-a-flow-that-uses-power-bi---from-a-template"></a>Power BI를 사용하여 템플릿을 기반으로 하는 흐름 만들기
@@ -42,7 +42,7 @@ Sirui가 Power BI 경고가 트리거될 때 동료에게 자세한 전자 메�
 3. **템플릿에서 만들기**를 선택합니다.
    
     ![내 흐름 메뉴 모음](media/service-flow-integration/power-bi-template.png)
-4. [검색] 상자를 사용하여 Power BI 템플릿을 찾고 **Power BI 데이터 경고가 트리거될 때 모든 대상 그룹에게 전자 메일 보내기 > 계속**을 선택합니다.
+4. [검색] 상자를 사용하여 Power BI 템플릿을 찾고 **Power BI 데이터 경고가 트리거될 때 모든 대상 그룹에 전자 메일 보내기 > 계속**을 선택합니다.
    
     ![검색 결과](media/service-flow-integration/power-bi-flow-alert.png)
 
@@ -55,7 +55,7 @@ Sirui가 Power BI 경고가 트리거될 때 동료에게 자세한 전자 메�
 1. 트리거 드롭다운 목록에서 Power BI 데이터 경고를 선택합니다. **아일랜드의 새 메달**을 선택합니다. 경고를 만드는 방법을 알아보려면 [Power BI에서 데이터 경고](service-set-data-alerts.md)를 참조하세요.
    
    ![경고 드롭다운](media/service-flow-integration/power-bi-trigger-flow.png)
-2. 유효한 메일 주소를 하나 이상 입력하고 **편집**(아래에 표시) 또는 **동적 콘텐츠 추가**를 선택합니다. 
+2. 유효한 메일 주소를 하나 이상 입력하고 **편집**(아래에 표시) 또는 **Add dynamic content**(동적 콘텐츠 추가)를 선택합니다. 
    
    ![이메일 보내기 화면](media/service-flow-integration/power-bi-flow-email.png)
 
@@ -84,7 +84,7 @@ Sirui가 Power BI 경고가 트리거될 때 동료에게 자세한 전자 메�
 2. **내 흐름** > **빈 페이지에서 만들기**를 선택합니다.
    
    ![Power Automate 상단 메뉴 모음](media/service-flow-integration/power-bi-my-flows.png)
-3. [검색] 상자를 사용하여 Power BI 트리거를 찾고 **Power BI - 데이터 기반 경고가 트리거되는 시기**를 선택합니다.
+3. [검색] 상자를 사용하여 Power BI 트리거를 찾고 **Power BI - 데이터 기반 경고가 트리거된 경우**를 선택합니다.
 
 ### <a name="build-your-flow"></a>흐름 작성
 1. 드롭다운 목록에서 경고의 이름을 선택합니다.  경고를 만드는 방법을 알아보려면 [Power BI에서 데이터 경고](service-set-data-alerts.md)를 참조하세요.

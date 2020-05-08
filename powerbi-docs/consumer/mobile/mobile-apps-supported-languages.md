@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 4f135a411d69835e925cf97b418bda6ae80adc1a
-ms.sourcegitcommit: 480bba9c745cb9af2005637e693c5714b3c64a8a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79113189"
 ---
 # <a name="supported-languages-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 지원되는 언어
@@ -53,12 +53,12 @@ Power BI 모바일 앱은 현재 다음과 같은 언어를 지원합니다.
 * 우크라이나어-українська
 * 베트남어-Tiếng Việt
 
-## <a name="notes"></a>참고
+## <a name="notes"></a>메모
 * Power BI는 모바일 디바이스의 로캘에 해당 하는 언어를 사용합니다. 다른 언어는 설정할 수 없습니다.
 * 알림은 영어로만 제공됩니다. 예를 들어, 누군가가 대시보드를 사용자와 공유하는 경우 알림은 영어로 제공됩니다. 
 
 ## <a name="next-steps"></a>다음 단계
 * [Power BI에 지원되는 언어 및 국가/지역](../../supported-languages-countries-regions.md)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티](https://community.powerbi.com/)에 질문합니다.
+* 질문이 있으신가요? [Power BI 커뮤니티](https://community.powerbi.com/)에 질문합니다.
 * 여전히 문제가 있나요? [Power BI 지원 페이지](https://powerbi.microsoft.com/support/)를 방문하세요.
 

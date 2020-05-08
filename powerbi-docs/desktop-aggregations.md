@@ -10,10 +10,10 @@ ms.date: 02/14/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: b7ff14b4932ba77b47fdb603124d29858c622fc7
-ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77427662"
 ---
 # <a name="use-aggregations-in-power-bi-desktop"></a>Power BI Desktop에서 집계 사용
@@ -49,9 +49,9 @@ Power BI의 *집계*를 사용하면 테이블 크기를 줄여 중요한 데이
 - 개수
 - GroupBy
 - Max
-- 최소
-- 합계
-- 테이블 행 개수
+- Min
+- Sum
+- 테이블 행 수 계산
 
 ![집계 관리 대화 상자](media/desktop-aggregations/aggregations_07.jpg)
 
@@ -114,19 +114,19 @@ RLS(행 수준 보안) 식이 집계에 대해 올바르게 작동하려면 집�
 
 대신 **판매 집계** 집계 테이블을 만듭니다. **판매 집계** 테이블에서 행 수는 **CustomerKey**, **DateKey**및 **ProductSubcategoryKey**별로 그룹화된 **SalesAmount Amount**의 합계와 같습니다. **판매 집계** 테이블은 **판매**보다 높은 세분성을 가지므로 수십억 대신 수백만 행이 포함되어 관리하기가 훨씬 쉽습니다.
 
-다음 차원 테이블이 비즈니스 가치가 높은 쿼리에 가장 일반적으로 사용되는 경우에는 *일 대 다* 또는 *다 대 일* 관계를 사용하여 **판매 집계**를 필터링할 수 있습니다.
+다음 차원 테이블이 비즈니스 가치가 높은 쿼리에 가장 일반적으로 사용되는 경우에는 **일 대 다** 또는 *다 대 일* 관계를 사용하여 *판매 집계*를 필터링할 수 있습니다.
 
 - 지리
-- 고객
-- 날짜
+- Customer
+- Date
 - 제품 하위 범주
-- Product Category(제품 범주)
+- 제품 범주
 
 다음 이미지에서는 이 모델을 보여 줍니다.
 
 ![모델의 집계 테이블](media/desktop-aggregations/aggregations_03.jpg)
 
-다음 표에는 **판매 집계** 테이블에 대한 집계가 나와 있습니다.
+다음 표에는 **Sales Agg** 테이블에 대한 집계가 나와 있습니다.
 
 ![판매 집계 테이블의 집계](media/desktop-aggregations/aggregations-table_01.jpg)
 
@@ -194,7 +194,7 @@ DAX 시간 인텔리전스 함수는 집계를 인식합니다. DATESYTD 함수�
 
 Hadoop 기반 빅 데이터 모델에는 차원 모델과 다른 특징이 있습니다. 큰 테이블 간의 조인을 방지하기 위해 빅 데이터 모델은 대개 관계를 사용하지 않지만 팩트 테이블에 차원 특성을 비정규화합니다. *GroupBy 열 기반* 집계를 사용하여 대화형 분석을 위해 이러한 빅 데이터 모델의 잠금을 해제할 수 있습니다.
 
-다음 표에는 집계할 **이동** 숫자 열이 있습니다. 다른 모든 열은 그룹화할 특성입니다. 테이블에는 IoT 데이터와 엄청난 수의 행이 포함됩니다. 스토리지 모드는 DirectQuery입니다. 전체 데이터 세트에 걸쳐 집계되는 데이터 원본에 대한 쿼리의 경우 엄청난 양으로 인해 속도가 느립니다. 
+다음 표에는 집계할 **Movement**(이동) 숫자 열이 있습니다. 다른 모든 열은 그룹화할 특성입니다. 테이블에는 IoT 데이터와 엄청난 수의 행이 포함됩니다. 스토리지 모드는 DirectQuery입니다. 전체 데이터 세트에 걸쳐 집계되는 데이터 원본에 대한 쿼리의 경우 엄청난 양으로 인해 속도가 느립니다. 
 
 ![IoT 테이블](media/desktop-aggregations/aggregations_09.jpg)
 
@@ -208,7 +208,7 @@ Hadoop 기반 빅 데이터 모델에는 차원 모델과 다른 특징이 있�
 
 GroupBy 열을 기반으로 하는 집계에서 **GroupBy** 항목은 선택 사항이 아닙니다. 해당 항목이 없으면 집계가 적중되지 않습니다. GroupBy 항목을 선택할 수 있을 때 관계 기반 집계를 사용하는 것과는 다릅니다.
 
-다음 표에는 **드라이버 작업 집계** 테이블에 대한 집계가 나와 있습니다.
+다음 표에는 **Driver Activity Agg** 테이블에 대한 집계가 나와 있습니다.
 
 ![Driver Activity Agg 집계 테이블](media/desktop-aggregations/aggregations-table_02.jpg)
 
@@ -228,11 +228,11 @@ GroupBy 열을 기반으로 하는 집계에서 **GroupBy** 항목은 선택 사
 
 집계에 대한 관계 및 GroupBy 열 기법을 결합할 수 있습니다. 관계를 기반으로 하는 집계에서는 비정규화된 차원 테이블을 여러 테이블로 분할해야 할 수 있습니다. 특정 차원 테이블이 비용이 많이 들고 실용적이지 않은 경우에는 해당 차원에 대한 집계 테이블에서 필요한 특성을 복제하고 다른 차원에 대한 관계를 사용할 수 있습니다.
 
-예를 들어 다음 모델은 **판매 집계** 테이블에서 **월**, **분기**, **학기** 및 **연도**를 복제합니다. **판매 집계**와 **날짜** 테이블 간에는 관계가 없지만 **고객** 및 **제품 하위 범주**에 대한 관계가 있습니다. **판매 집계**의 스토리지 모드는 [가져오기]입니다.
+예를 들어 다음 모델은 **Sales Agg** 테이블에서 **월**, **분기**, **학기** 및 **연도**를 복제합니다. **판매 집계**와 **날짜** 테이블 간에는 관계가 없지만 **고객** 및 **제품 하위 범주**에 대한 관계가 있습니다. **Sales Agg**의 스토리지 모드는 [가져오기]입니다.
 
 ![결합된 집계 기술](media/desktop-aggregations/aggregations_15.jpg)
 
-다음 표에는 **판매 집계** 테이블에 대한 **집계 관리** 대화 상자에 설정된 항목이 나와 있습니다. **Date**가 세부 정보 테이블인 GroupBy 항목은 **Date** 특성별로 그룹화된 쿼리에 대한 집계에 강제로 적중해야 합니다. 앞의 예제와 같이 관계가 있으므로 **CustomerKey** 및 **ProductSubcategoryKey**에 대한 **GroupBy** 항목은 DISTINCTCOUNT를 제외하고 집계 적중 횟수에 영향을 주지 않습니다.
+다음 표에는 **Sales Agg** 테이블에 대한 **집계 관리** 대화 상자에 설정된 항목이 나와 있습니다. **Date**가 세부 정보 테이블인 GroupBy 항목은 **Date** 특성별로 그룹화된 쿼리에 대한 집계에 강제로 적중해야 합니다. 앞의 예제와 같이 관계가 있으므로 **CustomerKey** 및 **ProductSubcategoryKey**에 대한 **GroupBy** 항목은 DISTINCTCOUNT를 제외하고 집계 적중 횟수에 영향을 주지 않습니다.
 
 ![판매 집계의 집계 테이블 항목](media/desktop-aggregations/aggregations-table_04.jpg)
 
@@ -257,7 +257,7 @@ DATESYTD 함수가 **CalendarDay** 값의 테이블을 생성하고 집계 테�
 다음 예는 여러 소스를 포함하는 [복합 모델](desktop-composite-models.md)입니다.
 
 - **드라이버 작업** DirectQuery 테이블은 빅 데이터 시스템에서 제공하는 1조 개가 넘는 IoT 데이터 행을 포함합니다. 제어된 필터 컨텍스트에서 개별 IoT 판독 값을 볼 수 있도록 드릴스루 쿼리를 제공합니다.
-- **드라이버 작업 집계** 테이블은 DirectQuery 모드의 중간 집계 테이블입니다. Azure SQL Data Warehouse에 10억 개가 넘는 행이 포함되며, columnstore 인덱스를 사용하여 원본에서 최적화됩니다.
+- **Driver Activity Agg** 테이블은 DirectQuery 모드의 중간 집계 테이블입니다. Azure SQL Data Warehouse에 10억 개가 넘는 행이 포함되며, columnstore 인덱스를 사용하여 원본에서 최적화됩니다.
 - 그룹화 특성이 적고 낮은 카디널리티이므로 **드라이버 작업 Agg2** 가져오기 테이블의 세분성은 높습니다. 행 수는 수천 개만큼 적을 수 있으므로 메모리 내 캐시에 쉽게 맞출 수 있습니다. 이러한 특성은 고급 프로필의 경영진 대시보드에서 사용되므로 이러한 특성을 참조하는 쿼리는 최대한 빨리 처리해야 합니다.
 
 > [!NOTE]
@@ -267,13 +267,13 @@ DATESYTD 함수가 **CalendarDay** 값의 테이블을 생성하고 집계 테�
 
 ![큰 데이터 세트의 잠금을 해제하는 작은 공간 모델용 테이블](media/desktop-aggregations/aggregations_13.jpg)
 
-**드라이버 작업 Agg2**에 대한 **집계 관리** 대화 상자가 **우선 순위** 필드를 **드라이버 작업 집계**보다 높은 *10*으로 설정합니다. 우선 순위가 높은 설정은 집계를 사용하는 쿼리가 **드라이버 작업 Agg2**를 먼저 고려함을 의미합니다. **드라이버 작업 Agg2**에서 응답할 수 있는 세분성이 아닌 하위 쿼리는 **드라이버 작업 집계**를 대신 고려합니다. 집계 테이블 중 하나에서 응답할 수 없는 세부 정보 쿼리는 **드라이버 작업**으로 지정됩니다.
+**드라이버 작업 Agg2**에 대한 **집계 관리** 대화 상자가 **우선 순위** 필드를 *드라이버 작업 집계*보다 높은 **10**으로 설정합니다. 우선 순위가 높은 설정은 집계를 사용하는 쿼리가 **드라이버 작업 Agg2**를 먼저 고려함을 의미합니다. **드라이버 작업 Agg2**에서 응답할 수 있는 세분성이 아닌 하위 쿼리는 **드라이버 작업 집계**를 대신 고려합니다. 집계 테이블 중 하나에서 응답할 수 없는 세부 정보 쿼리는 **Driver Activity**로 지정됩니다.
 
 연결된 집계가 허용되지 않으므로 **세부 정보 테이블** 열에 지정된 테이블은 **드라이버 작업 집계**가 아니라 **드라이버 작업**입니다.
 
 ![집계 관리 대화 상자](media/desktop-aggregations/aggregations_14.jpg)
 
-다음 표에는 **드라이버 작업 Agg2** 테이블에 대한 집계가 나와 있습니다.
+다음 표에는 **Driver Activity Agg2** 테이블에 대한 집계가 나와 있습니다.
 
 ![Driver Activity Agg2 집계 테이블](media/desktop-aggregations/aggregations-table_03.jpg)
 

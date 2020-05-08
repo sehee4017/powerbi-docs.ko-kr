@@ -10,10 +10,10 @@ ms.date: 02/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 9a59f8e230ecd8eec6338e92b7fb01e525831617
-ms.sourcegitcommit: 87b7cb4a2e626711b98387edaa5ff72dc26262bb
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79039992"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI에 대한 질문과 대답
@@ -54,7 +54,7 @@ Power BI Desktop은 사용자의 컴퓨터에 바로 설치할 수 있는 무료
 
 Power BI 서비스를 개인으로 등록할 수도 있습니다. [Power BI 셀프 서비스 등록 프로세스](../service-self-service-signup-for-power-bi.md)를 참조하세요.
 
-## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>왜 업무용 메일로 가입해야 하나요?
+## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>회사 메일을 사용하여 등록해야 하는 이유는 무엇인가요?
 
 Power BI는 소비자 메일 서비스나 전자 통신 공급자가 제공하는 메일 주소를 지원하지 않습니다. [Power BI 셀프 서비스 등록 프로세스](../service-self-service-signup-for-power-bi.md)에 대해 자세히 알아보세요.
 

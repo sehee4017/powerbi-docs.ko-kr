@@ -1,9 +1,9 @@
 ---
 ms.openlocfilehash: 27d6db6cf8ad8ebd7b2c957954ceec34b83681d0
-ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77464453"
 ---
 ## <a name="define-roles-and-rules-in-power-bi-desktop"></a>Power BI Desktop의 역할 및 규칙 정의
@@ -25,12 +25,12 @@ Power BI Desktop 내에서 역할 및 규칙을 정의할 수 있습니다. Powe
    ![만들기 선택](./media/rls-desktop-define-roles/powerbi-desktop-security-create-role.png)
 4. **역할**에서 역할 이름을 입력합니다. 
 5. **테이블**에서 DAX 규칙을 적용할 테이블을 선택합니다.
-6. **테이블 필터 DAX 식** 상자에 DAX 식을 입력합니다. 이 식은 true 또는 false 값을 반환합니다. 예: ```[Entity ID] = “Value”```.
+6. **테이블 필터 DAX 식** 상자에 DAX 식을 입력합니다. 이 식은 true 또는 false 값을 반환합니다. 예: ```[Entity ID] = “Value”```
       
    ![역할 관리 창](./media/rls-desktop-define-roles/powerbi-desktop-security-create-rule.png)
 
    > [!NOTE]
-   > 이 식에 *username()* 을 사용할 수 있습니다. *username()* 은 Power BI Desktop 내에서 *도메인\사용자 이름*의 형식을 취합니다. Power BI 서비스 및 Power BI Report Server 내에서 사용자의 UPN(사용자 계정 이름) 형식입니다. 또는 항상 사용자 계정 이름 형식(*username\@contoso.com*)으로 사용자를 반환하는 *userprincipalname()* 을 사용할 수 있습니다.
+   > 이 식에 *username()* 을 사용할 수 있습니다. *username()* 은 Power BI Desktop 내에서 *도메인\사용자 이름*의 형식을 취합니다. Power BI 서비스 및 Power BI Report Server 내에서 사용자의 UPN(사용자 계정 이름) 형식입니다. 또는 항상 사용자 계정 이름 형식(*username*contoso.com *)으로 사용자를 반환하는 \@userprincipalname()* 을 사용할 수 있습니다.
    > 
    > 
 
