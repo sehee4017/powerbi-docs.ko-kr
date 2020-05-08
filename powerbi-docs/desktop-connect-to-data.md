@@ -11,13 +11,13 @@ ms.date: 01/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 751a53e2bfe0c9743a71cc41aa349afa23fd013a
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76539191"
 ---
-# <a name="connect-to-data-sources-in-power-bi-desktop"></a>Power BI Desktop에서 데이터 원본에 연결
+# <a name="connect-to-data-sources-in-power-bi-desktop"></a>Power BI Desktop에서 데이터 소스에 연결
 
 Power BI Desktop을 사용하면 계속 확장되는 데이터에 쉽게 연결할 수 있습니다. Power BI Desktop이 없는 경우 여기서 [다운로드](https://go.microsoft.com/fwlink/?LinkID=521662)하여 설치할 수 있습니다.
 
@@ -27,9 +27,9 @@ Power BI Desktop에는 사용할 수 있는 *모든 종류*의 데이터 소스�
 
 ## <a name="example-of-connecting-to-data"></a>데이터에 연결하는 방법 예제
 
-이 예제에서는 **웹** 데이터 원본에 연결합니다.
+이 예제에서는 **웹** 데이터 소스에 연결합니다.
 
-사용 중지를 상상해 보세요. 은퇴를 계획 중이며, 많은 햇빛과 세금 및 의료 보험 혜택이 있는 곳에서 거주하고 싶습니다. 또는 데이터 분석가이며 고객에게 유용한 정보를 제공하려 한다고 가정해 보세요. 예를 들어 비옷을 만드는 클라이언트가 강우량이 ‘많은’ 지역에서 매출 목표를 정하도록 도울 수 있습니다.
+사용 중지를 상상해 보세요. 은퇴를 계획 중이며, 많은 햇빛과 세금 및 의료 보험 혜택이 있는 곳에서 거주하고 싶습니다. 또는 데이터 분석가이며 고객에게 유용한 정보를 제공하려 한다고 가정해 보세요. 예를 들어 비옷을 만드는 클라이언트가 강우량이 ‘많은’ 지역에서 매출 목표를 정하도록 도울 수 있습니다. 
 
 어떤 경우든지 이러한 항목 등에 대한 흥미로운 데이터가 있는 웹 리소스를 찾을 수 있습니다.
 
@@ -76,7 +76,7 @@ Power BI Desktop에서 모든 종류의 작업을 수행할 수 있습니다. �
 * [Power BI Desktop에서 데이터 셰이핑 및 결합](desktop-shape-and-combine-data.md)
 * [Power BI Desktop의 일반적인 쿼리 작업 수행](desktop-common-query-tasks.md)   
 
-사용자 의견을 제공하려는 경우 좋습니다! Power BI Desktop에서 **아이디어 제출** 메뉴 항목을 사용하거나 [커뮤니티 피드백](https://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback)을 방문하세요. 항상 사용자 의견에 귀를 기울이고 있습니다.
+사용자 의견을 제공하려는 경우 잘 했습니다! Power BI Desktop에서 **아이디어 제출** 메뉴 항목을 사용하거나 [커뮤니티 피드백](https://community.powerbi.com/t5/Community-Feedback/bd-p/community-feedback)을 방문하세요. 항상 사용자 의견에 귀를 기울이고 있습니다.
 
 ![아이디어 제출](media/desktop-connect-to-data/sendfeedback.png)
 

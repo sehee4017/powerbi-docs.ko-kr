@@ -10,16 +10,16 @@ ms.date: 01/09/2020
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 6f71cf9b8325441fe3827a259daf3bcbe15765a5
-ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76709916"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Power BI Desktop에서 관계 만들기 및 관리
-여러 테이블을 가져올 때 이러한 모든 테이블의 데이터를 사용하여 분석을 수행하려는 경우가 있습니다. 결과를 정확하게 계산하고 보고서에 올바른 정보를 표시하려면 테이블 간의 관계가 필요합니다. Power BI Desktop에서는 이러한 관계를 쉽게 만들 수 있습니다. 실제로 아무 작업도 수행할 필요가 없는 경우가 대부분입니다. 자동 검색 기능이 자동으로 작업을 수행합니다. 그러나 관계를 직접 만들거나 관계를 변경해야 하는 경우도 있습니다. 어떤 경우든지 Power BI Desktop에서의 관계 및 관계를 만들고 편집하는 방법을 이해하는 것이 중요합니다.
+여러 테이블을 가져올 때 이러한 모든 테이블의 데이터를 사용하여 분석을 수행하려는 경우가 있습니다. 결과를 정확하게 계산하고 보고서에 올바른 정보를 표시하려면 테이블 간의 관계가 필요합니다. Power BI Desktop에서는 이러한 관계를 쉽게 만들 수 있습니다. 실제로 아무 작업도 수행할 필요가 없는 경우가 대부분입니다. 자동 검색 기능이 자동으로 작업을 수행합니다. 그러나 관계를 직접 만들거나 관계를 변경해야 하는 경우도 있습니다. 어떤 경우든지 Power BI Desktop에서의 관계 및 관계를 만들고 편집하는 방법을 이해하는 것이 중요합니다. 
 
-## <a name="autodetect-during-load"></a>로드하는 동안 자동 검색
+## <a name="autodetect-during-load"></a>로드하는 동안 자동 검색 
 둘 이상의 테이블을 동시에 쿼리하는 경우 데이터가 로드될 때 Power BI Desktop에서 자동으로 관계를 찾고 만들려고 합니다. 관계 옵션 **카디널리티**, **교차 필터 방향** 및 **이 관계를 활성으로 만들기**가 자동으로 설정됩니다. Power BI Desktop은 쿼리하는 테이블의 열 이름을 보고 잠재적 관계가 있는지를 확인합니다. 관계가 있는 경우 자동으로 생성됩니다. Power BI Desktop이 높은 수준의 신뢰도로 일치하는 항목을 확인할 수 없을 경우 관계를 만들지 않습니다. 그러나 여전히 **관계 관리** 대화 상자를 사용하여 직접 관계를 만들거나 편집할 수 있습니다.
 
 ## <a name="create-a-relationship-with-autodetect"></a>자동 검색으로 관계 만들기

@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 09/05/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 281cb03e8d22688b23970c66b0fbc5a5bec1e15d
-ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
+ms.openlocfilehash: f689ba79f9cce7d6ee815e0712491e7d00647fe8
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "82584756"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841667"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop의 데이터 형식
 이 문서에서는 Power BI Desktop 및 DAX(Data Analysis Expressions)에서 지원하는 데이터 형식을 설명합니다. 
@@ -79,10 +79,11 @@ Power BI Desktop은 쿼리 뷰에서 5가지 날짜/시간 데이터 형식을 �
 이진 데이터 형식은 이진 형식의 다른 데이터를 나타내는 데 사용할 수 있습니다. 쿼리 편집기 내에서 이진 파일을 Power BI 모델에 로드하기 전에 다른 데이터 형식으로 변환하는 경우 이 파일을 사용할 수 있습니다. 이진 열은 Power BI 데이터 모델에서 지원되지 않습니다. 레거시 이유로 인해 [데이터 보기] 및 [보고서 보기] 메뉴에 있지만, 이진 열을 Power BI 모델에 로드하려고 하면 오류가 발생할 수 있습니다.
 
 
+
+
 > [!NOTE]
 >  이진 열이 쿼리 단계의 출력에 있는 경우 게이트웨이를 통해 데이터를 새로 고치려고 하면 오류가 발생할 수 있습니다. 이진 열은 쿼리의 마지막 단계로 명시적으로 제거하는 것이 좋습니다.    
 > 
->
 
 ### <a name="table-data-type"></a>테이블 데이터 형식
 DAX는 집계, 시간 인텔리전스 계산 등과 같이 다양한 함수에서 테이블 데이터 형식을 사용합니다. 어떤 함수에는 테이블에 대한 참조가 필요하고 어떤 함수는 다른 함수에 대한 입력으로 사용할 수 있게 테이블을 반환합니다. 입력으로 테이블이 필요한 여러 함수에서 테이블을 평가하는 식을 지정할 수 있습니다. 어떤 함수에서는 기본 테이블에 대한 참조가 필요합니다. 특정 함수의 요구 사항에 대한 정보는 [DAX 함수 참조](https://msdn.microsoft.com/library/ee634396.aspx)에서 확인하세요.

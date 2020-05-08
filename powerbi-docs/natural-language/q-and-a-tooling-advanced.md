@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/18/2019
 ms.author: mohaali
-ms.openlocfilehash: 64a6294ca30901c61928eca068ab4ebbb3d39638
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 9499dd99d89619d096d86ac676c54ebb214c3a55
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74958520"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841851"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>Power BI Desktop에서 질문 및 답변 언어 스키마 편집 및 관용구 추가 
 일반적인 구 및 자연어를 사용하여 데이터에 대해 질문하는 것은 강력한 기능입니다. 데이터가 응답할 때 더욱 강력해집니다. Power BI 질문 및 답변에 질문할 때 정확히 답변하는 것이 최선의 방법입니다. 하지만 더 나은 질문 및 답변 상호 작용을 위해 답변을 개선할 수 있습니다. 한 가지 방법은 언어 스키마를 편집하는 것입니다. 

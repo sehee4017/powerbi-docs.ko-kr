@@ -10,10 +10,10 @@ ms.date: 10/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 132c795724b6f3744e0648ac1f3229c5e6538a97
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75758425"
 ---
 # <a name="add-visuals-to-a-power-bi-report-part-2"></a>Power BI 보고서에 시각적 개체 추가(2부)
@@ -26,7 +26,7 @@ ms.locfileid: "75758425"
 ## <a name="create-a-new-visualization"></a>새 시각화 만들기
 이 자습서에서는 소매점 분석 데이터 세트를 자세히 살펴보고 몇 가지 주요 시각화를 만듭니다.
 
-## <a name="prerequisites"></a>필수 조건
+## <a name="prerequisites"></a>사전준비
 
 이 자습서는 [소매점 분석 샘플 PBIX 파일](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 사용합니다.
 
@@ -34,9 +34,9 @@ ms.locfileid: "75758425"
    
 2. **소매점 분석 샘플 PBIX 파일**을 찾습니다.
 
-1. **소매점 분석 샘플 PBIX 파일**을 보고서 보기 ![보고서 보기 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
+1. **소매점 분석 샘플 PBIX 파일**을 보고서 보기 아이콘 ![보고서 보기 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
 
-1. 새 페이지를 추가하기 위해 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
+1. Select ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
 
 ## <a name="add-visualizations-to-the-report"></a>시각화 요소를 보고서에 추가
 

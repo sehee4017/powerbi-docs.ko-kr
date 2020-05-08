@@ -11,10 +11,10 @@ ms.date: 02/21/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 925d63f0abf92bd7a9c0d5fdd2ff6eff5b88b961
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761160"
 ---
 # <a name="apply-insights-in-power-bi-desktop-to-explain-fluctuations-in-visuals-preview"></a>Power BI Desktop에서 인사이트를 적용하여 시각적 개체의 변동 설명(미리 보기)
@@ -52,7 +52,7 @@ ms.locfileid: "75761160"
 
 무엇보다도 시각적 개체의 위쪽에 있는 **+** 단추를 통해 시각적 개체를 수동으로 만든 경우처럼 보고서에 선택한 시각적 개체를 추가할 수 있습니다. 다음 서식을 지정하거나 그렇지 않은 경우 보고서에서 다른 시각적 개체를 조정한 경우처럼 추가된 시각적 개체를 조정할 수 있습니다. **Power BI Desktop**에서 보고서를 편집하는 경우 선택한 정보 시각적 개체를 추가할 수 있습니다.
 
-보고서가 읽기 또는 편집 모드인 경우 정보를 사용할 수 있습니다. 그러면 데이터를 분석하고 보고서에 쉽게 추가할 수 있는 시각적 개체를 만드는 데 유용하게 사용할 수 있습니다.
+보고서가 읽는 또는 편집 모드인 경우 정보를 사용할 수 있습니다. 그러면 데이터를 분석하고 보고서에 쉽게 추가할 수는 시각적 개체 만드는 데 유연하게 사용할 수 있습니다.
 
 ## <a name="details-of-the-results-returned"></a>반환된 결과의 세부 정보
 
@@ -119,7 +119,7 @@ ms.locfileid: "75761160"
 * 스칼라인 열 기준 정렬을 정의하지 않으면 X-축의 범주 열입니다. 계층 구조를 사용하는 경우 활성 계층 구조의 모든 열은 이 조건에 맞아야 합니다.
 
 
-또한 다음 모델 유형 및 데이터 원본은 현재 인사이트에 지원되지 않습니다.
+또한 다음 모델 유형 및 데이터 소스는 현재 정보에 지원되지 않습니다.
 
 * DirectQuery
 * 라이브 연결

@@ -10,10 +10,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 3d3afa28119a0924356491226bf0baf6e7bb228b
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761614"
 ---
 # <a name="connect-to-pdf-files-in-power-bi-desktop"></a>Power BI Desktop에서 PDF 파일에 연결
@@ -23,7 +23,7 @@ Power BI Desktop에서 Power BI Desktop의 다른 데이터 원본처럼 **PDF �
 
 다음 섹션에서는 **PDF 파일**에 연결하고, 데이터를 선택하고, 해당 데이터를 **Power BI Desktop**으로 가져오는 방법에 대해 설명합니다.
 
-[Power BI Desktop 가져오기](desktop-get-the-desktop.md)의 링크에서 설치할 수 있는 **Power BI Desktop**의 최신 릴리스로 업그레이드하는 것이 좋습니다. 
+**Power BI Desktop 가져오기**의 링크에서 설치할 수 있는 [Power BI Desktop](desktop-get-the-desktop.md)의 최신 릴리스로 업그레이드하는 것이 좋습니다. 
 
 ## <a name="connect-to-a-pdf-file"></a>PDF 파일에 연결
 **PDF** 파일에 연결하려면 Power BI Desktop의 **홈** 리본에서 **데이터 가져오기**를 선택합니다. 왼쪽의 범주에서 **파일**을 선택하면 **PDF**가 표시됩니다.

@@ -10,10 +10,10 @@ ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 5fda121af151e787c444b928c320b7f33fe1405c
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75757879"
 ---
 # <a name="create-and-use-basic-area-charts"></a>기본 영역형 차트 만들기 및 사용
@@ -32,16 +32,16 @@ ms.locfileid: "75757879"
 * 시계열 전체 볼륨 추세 보기 및 비교 
 * 물리적으로 셀 수 있는 집합을 나타내는 개별 계열
 
-### <a name="prerequisites"></a>필수 조건
+### <a name="prerequisites"></a>사전준비
 이 자습서는 [소매점 분석 샘플 PBIX 파일](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 사용합니다.
 
 1. 메뉴 모음의 왼쪽 위 섹션에서 **파일** > **열기**를 선택합니다.
    
 2. **소매점 분석 샘플 PBIX 파일**을 찾습니다.
 
-1. **소매점 분석 샘플 PBIX 파일**을 보고서 보기 ![보고서 보기 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
+1. **소매점 분석 샘플 PBIX 파일**을 보고서 보기 아이콘 ![보고서 보기 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
 
-1. 새 페이지를 추가하기 위해 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
+1. Select ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
 
 
 ## <a name="create-a-basic-area-chart"></a>기본 영역형 차트 만들기
@@ -57,7 +57,7 @@ ms.locfileid: "75757879"
 
    ![영역형 차트 아이콘](media/power-bi-visualization-basic-area-chart/convertchart.png)
    
-   c.  **Time \> FiscalMonth**를 선택하여 **축**에 추가합니다.   
+   다.  **Time \> FiscalMonth**를 선택하여 **축**에 추가합니다.   
    ![영역형 차트 축 값](media/power-bi-visualization-basic-area-chart/powerbi-area-chartnew.png)
    
    d.  월별 차트를 표시하려면 줄임표(시각적 개체의 오른쪽 위 모서리)를 선택 하고 **월별 정렬**을 선택합니다. 정렬 순서를 변경하려면 줄임표를 다시 선택하고 **오름차순 정렬** 또는 **내림차순 정렬**을 선택합니다.

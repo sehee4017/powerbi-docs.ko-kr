@@ -10,12 +10,12 @@ ms.author: kfollis
 ms.date: 12/05/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 831c6f1d2cecfa51b64c8ff77f14ead9f644bcc7
-ms.sourcegitcommit: b2cb0b02bdc451bf11a92a68f2c4d560a811f563
+ms.openlocfilehash: 70f10620932708dd178b635f966a55f8139cde65
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "81439989"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841161"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Power BI를 사용하는 행 수준 보안(RLS)
 
@@ -51,7 +51,7 @@ Power BI Desktop 내에서 역할을 만들거나 수정할 수만 있습니다.
 
 ### <a name="add-members"></a>멤버 추가
 
-전자 메일 주소 또는 추가하려는 사용자, 보안 그룹 및 배포 목록의 이름을 입력하여 역할에 멤버를 추가할 수 있습니다. Power BI 내에서 만든 그룹은 추가할 수 없습니다. [조직 외부](whitepaper-azure-b2b-power-bi.md#data-security-for-external-partners) 멤버를 추가할 수 있습니다.
+전자 메일 주소 또는 추가하려는 사용자, 보안 그룹 및 배포 목록의 이름을 입력하여 역할에 멤버를 추가할 수 있습니다. Power BI 내에서 만든 그룹은 추가할 수 없습니다. [조직 외부](guidance/whitepaper-azure-b2b-power-bi.md#data-security-for-external-partners) 멤버를 추가할 수 있습니다.
 
 ![멤버 추가](media/service-admin-rls/rls-add-member.png)
 

@@ -10,10 +10,10 @@ ms.date: 12/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: aa05ffa7ba07ea1daf162f8ebb2baa3d18f64b29
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75256359"
 ---
 # <a name="migrate-your-subscription-to-the-new-go-local-german-regions"></a>새 “Go Local” 독일어 지역으로 구독 마이그레이션
@@ -24,6 +24,6 @@ ms.locfileid: "75256359"
 
 구독이 마이그레이션 되면 퍼블릭 클라우드 가격 책정과 일치하도록 가격이 인하됩니다. 직접 고객은 새 연간 갱신 날짜에 새 구독이 표시됩니다. 이 방법의 일환으로 마이그레이션 되는 서비스는 다음과 같습니다.
 
-* Power BI
+* Azure 소비 분석
 
 향후 몇 개월 동안 이 문서를 계속 업데이트하면서 필수 조건, 단계별 절차, 마이그레이션이 조직에 미치는 영향에 대한 자세한 정보를 추가할 예정입니다.

@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: eecccb15eb48e922fd6b29e703a2bc4f298caa6e
-  ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
+  ms.openlocfilehash: 2aba7eb9ff9fbd6941c84a9f3db10758724cdb0c
+  ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 04/16/2020
-  ms.locfileid: "81525356"
+  ms.lasthandoff: 05/05/2020
+  ms.locfileid: "82841582"
 landingContent:
 - title: Power BI 지침
   linkLists:
@@ -28,7 +28,7 @@ landingContent:
     - text: Power BI 최적화 가이드
       url: power-bi-optimization.md
     - text: 백서 개요
-      url: ../whitepapers.md
+      url: whitepapers.md
 - title: 데이터 변환 및 모양 지정
   linkLists:
   - linkListType: concept
@@ -53,7 +53,7 @@ landingContent:
       url: auto-date-time.md
     - text: 일대일 관계
       url: relationships-one-to-one.md
-    - text: 다대다 관계
+    - text: 다 대 다 관계
       url: relationships-many-to-many.md
     - text: 활성 및 비활성 관계
       url: relationships-active-inactive.md
