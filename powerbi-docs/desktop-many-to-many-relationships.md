@@ -10,10 +10,10 @@ ms.date: 12/19/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: 7452879e47cd4b058fcdb3e08f0ded35a85da1aa
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761068"
 ---
 # <a name="apply-many-many-relationships-in-power-bi-desktop"></a>Power BI Desktop에서 다 대 다 관계 적용
@@ -91,7 +91,7 @@ Power BI Desktop의 2018년 7월 릴리스 전에는 이러한 테이블 간에 
 
 ![숨겨진 State 테이블, 관계 뷰, Power BI Desktop](media/desktop-many-to-many-relationships/many-to-many-relationships_08.png)
 
-**State**(**CityData** 테이블에 포함됨)를 총 **‘인구’** 및 총 **‘판매액’** 과 함께 표시하는 시각적 개체는 다음과 같이 표시됩니다.
+**State**(**CityData** 테이블에 포함됨)를 총 ‘인구’ 및 총 ‘판매액’과 함께 표시하는 시각적 개체는 다음과 같이 표시됩니다. **** ****
 
 ![State, Population 및 Sales 테이블, Power BI Desktop](media/desktop-many-to-many-relationships/many-to-many-relationships_09.png)
 

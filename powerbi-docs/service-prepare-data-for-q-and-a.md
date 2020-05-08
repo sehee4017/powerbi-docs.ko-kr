@@ -10,10 +10,10 @@ ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 16d58090a9a7c6e64fbf2ace23fdf342d1768a30
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73881076"
 ---
 # <a name="make-excel-data-work-well-with-qa-in-power-bi"></a>Power BI의 질문 및 답변에서 Excel 데이터가 잘 작동하도록 설정
@@ -47,7 +47,7 @@ Power BI에서는 질문 및 답변으로 구조화된 데이터를 검색하고
 - [소비자를 위한 Q&A](consumer/end-user-q-and-a.md)  
 - [대시보드 및 보고서에서 Q&A 사용](power-bi-tutorial-q-and-a.md)
 - [질문 및 답변에 대한 온-프레미스 데이터 세트 준비](service-q-and-a-direct-query.md)   
-- [Power BI에 대한 데이터 가져오기](service-get-data.md)  
+- [데이터 가져오기(Power BI)](service-get-data.md)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
 

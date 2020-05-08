@@ -10,10 +10,10 @@ ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: c006d35baa14e68cca7009aabf79438321396802
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75761936"
 ---
 # <a name="consume-power-bi-reports-by-using-accessibility-features"></a>접근성 기능을 사용하여 Power BI 보고서 사용

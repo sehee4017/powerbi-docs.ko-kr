@@ -10,10 +10,10 @@ ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: eb2c513e8ee8ad1c8ad93866f688e40f6c5af56d
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/17/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76160791"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Power BI 디자이너용 대시보드 소개
@@ -51,14 +51,14 @@ Power BI *대시보드*는 시각화를 통해 스토리를 알려주는 흔히 
 | --- | --- | --- |
 | 페이지 |한 페이지 |한 페이지 이상 |
 | 데이터 원본 |대시보드당 보고서 및 데이터 세트 모두 하나 이상 |보고서당 단일 데이터 세트 |
-| Power BI Desktop에서 사용 가능 |예 | 예. Power BI Desktop에서 보고서 작성 및 보기 가능 |
+| Power BI Desktop에서 사용 가능 |아니요 | 예. Power BI Desktop에서 보고서 작성 및 보기 가능 |
 | 구독 |예. 대시보드 구독 가능 |예. 보고서 페이지 구독 가능 |
-| Filtering |아니요. 필터링 또는 조각화 불가능 |예. 필터링, 강조 표시 및 조각화를 위한 다양한 방법 |
-| 주요 |예. 하나의 대시보드를 *주요* 대시보드로 설정 가능 |예 |
+| 필터링 |아니요. 필터링 또는 조각화 불가능 |예. 필터링, 강조 표시 및 조각화를 위한 다양한 방법 |
+| 주요 |예. 하나의 대시보드를 *주요* 대시보드로 설정 가능 |아니요 |
 | 즐겨찾기 | 예. 여러 대시보드를 *즐겨찾기*로 설정 가능 | 예. 여러 보고서를 *즐겨찾기*로 설정 가능
-| 경고 설정 |예. 특정 상황에서 대시보드 타일에서 사용 가능 |예 |
-| 자연어 쿼리(질문 및 답변) |yes | 예. 보고서 및 기본 데이터 세트를 편집할 수 있는 권한이 제공됨 |
-| 기본 데이터 세트 테이블 및 필드를 볼 수 있음 |아니요. 데이터를 내보낼 수 있지만 대시보드 자체에서 테이블 및 필드를 볼 수 없음 |yes |
+| 경고 설정 |예. 특정 상황에서 대시보드 타일에서 사용 가능 |아니요 |
+| 자연어 쿼리(질문 및 답변) |예 | 예. 보고서 및 기본 데이터 세트를 편집할 수 있는 권한이 제공됨 |
+| 기본 데이터 세트 테이블 및 필드를 볼 수 있음 |아니요. 데이터를 내보낼 수 있지만 대시보드 자체에서 테이블 및 필드를 볼 수 없음 |예 |
 
 
 ## <a name="next-steps"></a>다음 단계

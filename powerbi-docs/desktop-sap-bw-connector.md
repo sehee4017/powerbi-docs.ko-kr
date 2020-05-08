@@ -1,6 +1,6 @@
 ---
 title: Power BI Desktop에서 SAP Business Warehouse(BW) 커넥터 사용
-description: Power BI Desktop에서 SAP BW 커넥터 사용
+description: Power BI Desktop에서 SAP BW Connector 사용
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,10 +10,10 @@ ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 8e1f6c38af11c5bdf942a4dc3a20b4b5f0ec0601
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76038873"
 ---
 # <a name="use-the-sap-business-warehouse-connector-in-power-bi-desktop"></a>Power BI Desktop에서 SAP Business Warehouse 커넥터 사용
@@ -225,22 +225,22 @@ SAP BW 커넥터의 구현 2.0이 버전 1과 호환되도록 모든 노력을 �
 
 다음 표에서는 SAP BW에 대한 현재 지원을 자세히 설명합니다.
 
-|Product  |Mode  |인증  |커넥터  |SNC 라이브러리  |지원됨  |
+|Product  |모드  |인증  |커넥터  |SNC 라이브러리  |지원됨  |
 |---------|---------|---------|---------|---------|---------|
-|Power BI Desktop     |모두         | 사용자 / 암호  | 애플리케이션 서버 | 해당 없음  | yes  |
-|Power BI Desktop     |모두         | Windows          | 애플리케이션 서버 | sapcrypto + gsskrb5/gx64krb5  | yes  |
-|Power BI Desktop     |모두         | 가장을 통한 Windows | 애플리케이션 서버 | sapcrypto + gsskrb5/gx64krb5  | yes  |
-|Power BI Desktop     |모두         | 사용자 / 암호        | 메시지 서버 | 해당 없음  | yes  |
-|Power BI Desktop     |모두         | Windows        | 메시지 서버 | sapcrypto + gsskrb5/gx64krb5  | yes  |
-|Power BI Desktop     |모두         | 가장을 통한 Windows | 메시지 서버 | sapcrypto + gsskrb5/gx64krb5  | yes  |
+|Power BI Desktop     |임의         | 사용자 / 암호  | 애플리케이션 서버 | 해당 없음  | 예  |
+|Power BI Desktop     |임의         | Windows          | 애플리케이션 서버 | sapcrypto + gsskrb5/gx64krb5  | 예  |
+|Power BI Desktop     |임의         | 가장을 통한 Windows | 애플리케이션 서버 | sapcrypto + gsskrb5/gx64krb5  | 예  |
+|Power BI Desktop     |임의         | 사용자 / 암호        | 메시지 서버 | 해당 없음  | 예  |
+|Power BI Desktop     |임의         | Windows        | 메시지 서버 | sapcrypto + gsskrb5/gx64krb5  | 예  |
+|Power BI Desktop     |임의         | 가장을 통한 Windows | 메시지 서버 | sapcrypto + gsskrb5/gx64krb5  | 예  |
 |Power BI 게이트웨이     |가져오기      | Power BI Desktop과 동일 |         |   |   |
-|Power BI 게이트웨이     |DirectQuery | 사용자 / 암호        | 애플리케이션 서버 | 해당 없음  | yes  |
-|Power BI 게이트웨이     |DirectQuery | 가장을 통한 Windows(고정 사용자, SSO 없음) | 애플리케이션 서버 | sapcrypto + gsskrb5/gx64krb5  | yes  |
-|Power BI 게이트웨이     |DirectQuery | DirectQuery 쿼리에 대해 Kerberos를 통해 SSO 옵션 사용 | 애플리케이션 서버 | sapcrypto + gsskrb5/gx64krb5   | yes  |
-|Power BI 게이트웨이     |DirectQuery | 사용자 / 암호        | 메시지 서버 | 해당 없음  | yes  |
-|Power BI 게이트웨이     |DirectQuery | 가장을 통한 Windows(고정 사용자, SSO 없음) | 메시지 서버 | sapcrypto + gsskrb5/gx64krb5  | yes  |
-|Power BI 게이트웨이     |DirectQuery | DirectQuery 쿼리에 대해 Kerberos를 통해 SSO 옵션 사용 | 메시지 서버 | gsskrb5/gx64krb5  | 예  |
-|Power BI 게이트웨이     |DirectQuery | DirectQuery 쿼리에 대해 Kerberos를 통해 SSO 옵션 사용 | 메시지 서버 | sapcrypto  | yes  |
+|Power BI 게이트웨이     |DirectQuery | 사용자 / 암호        | 애플리케이션 서버 | 해당 없음  | 예  |
+|Power BI 게이트웨이     |DirectQuery | 가장을 통한 Windows(고정 사용자, SSO 없음) | 애플리케이션 서버 | sapcrypto + gsskrb5/gx64krb5  | 예  |
+|Power BI 게이트웨이     |DirectQuery | DirectQuery 쿼리에 대해 Kerberos를 통해 SSO 옵션 사용 | 애플리케이션 서버 | sapcrypto + gsskrb5/gx64krb5   | 예  |
+|Power BI 게이트웨이     |DirectQuery | 사용자 / 암호        | 메시지 서버 | 해당 없음  | 예  |
+|Power BI 게이트웨이     |DirectQuery | 가장을 통한 Windows(고정 사용자, SSO 없음) | 메시지 서버 | sapcrypto + gsskrb5/gx64krb5  | 예  |
+|Power BI 게이트웨이     |DirectQuery | DirectQuery 쿼리에 대해 Kerberos를 통해 SSO 옵션 사용 | 메시지 서버 | gsskrb5/gx64krb5  | 아니요  |
+|Power BI 게이트웨이     |DirectQuery | DirectQuery 쿼리에 대해 Kerberos를 통해 SSO 옵션 사용 | 메시지 서버 | sapcrypto  | 예  |
 
 ## <a name="next-steps"></a>다음 단계
 

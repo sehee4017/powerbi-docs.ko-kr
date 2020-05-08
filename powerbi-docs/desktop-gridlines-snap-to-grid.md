@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: b7be8601a535843fc012cf7ea0f2ae723ea6ba79
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73878206"
 ---
 # <a name="use-gridlines-and-snap-to-grid-in-power-bi-desktop-reports"></a>Power BI Desktop 보고서에서 눈금선 및 눈금에 맞춤 사용
@@ -40,7 +40,7 @@ ms.locfileid: "73878206"
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_2.png)
 
 ### <a name="using-gridlines-inside-visuals"></a>시각적 개체 내의 눈금선 사용
-Power BI에는 데이터 요소와 값을 비교하기 위한 시각적 안내선을 제공하는 시각적 개체 내부의 눈금선도 있습니다. **Power BI Desktop**의 2017년 9월 릴리스부터 **시각화** 창의 **서식** 섹션에서 찾을 수 있는 **X축** 또는 **Y축**카드를 사용하여 시각적 개체 내에서 눈금선을 관리할 수 있습니다(시각적 유형에 따라 적절하게). 시각적 개체 내에서 눈금선의 다음 요소를 관리할 수 있습니다.
+Power BI에는 데이터 요소와 값을 비교하기 위한 시각적 안내선을 제공하는 시각적 개체 내부의 눈금선도 있습니다. **Power BI Desktop**의 2017년 9월 릴리스부터 **시각화** 창의 **서식** 섹션에서 찾을 수 있는 **X-축** 또는 **Y-축** 카드를 사용하여 시각적 개체 내에서 눈금선을 관리할 수 있습니다(시각적 형식에 따라 적절하게). 시각적 개체 내에서 눈금선의 다음 요소를 관리할 수 있습니다.
 
 * 눈금선 켜기 또는 끄기
 * 눈금선의 색 변경

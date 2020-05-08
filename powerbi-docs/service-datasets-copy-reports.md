@@ -10,10 +10,10 @@ ms.date: 01/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 8716a304e5b117c027d75db149ebcc8d95efebfe
-ms.sourcegitcommit: 313a5a6a01c09038a6152d681103accbd2faf437
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76268935"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>다른 작업 영역에서 보고서 복사(미리 보기)
@@ -33,7 +33,7 @@ ms.locfileid: "76268935"
 
     ![보고서 복사본 저장](media/service-datasets-copy-reports/power-bi-dataset-save-report-copy.png)
 
-    보고서가 새 환경 작업 영역에 있고 [빌드 권한](service-datasets-build-permissions.md)을 가지고 있는 경우에만 **복사본 저장** 아이콘이 표시됩니다. 작업 영역에 대한 액세스 권한이 있더라도 데이터 세트에 대한 빌드 권한이 있어야 합니다.
+    보고서가 새 환경 작업 영역에 있고 **빌드 권한**을 가지고 있는 경우에만 [복사본 저장](service-datasets-build-permissions.md) 아이콘이 표시됩니다. 작업 영역에 대한 액세스 권한이 있더라도 데이터 세트에 대한 빌드 권한이 있어야 합니다.
 
 3. **이 보고서의 복사본 저장**에서 보고서 이름을 지정하고 대상 작업 영역을 선택합니다.
 
@@ -58,7 +58,7 @@ ms.locfileid: "76268935"
 
     ![보고서 복사본 저장](media/service-datasets-copy-reports/power-bi-save-copy.png)
 
-    보고서가 새 환경 작업 영역에 있고 [빌드 권한](service-datasets-build-permissions.md)을 가지고 있는 경우에만 **복사본 저장** 옵션이 표시됩니다.
+    보고서가 새 환경 작업 영역에 있고 **빌드 권한**을 가지고 있는 경우에만 [복사본 저장](service-datasets-build-permissions.md) 옵션이 표시됩니다.
 
 3. 보고서에 이름을 지정하고 **저장**을 선택합니다.
 
@@ -107,4 +107,4 @@ ms.locfileid: "76268935"
 ## <a name="next-steps"></a>다음 단계
 
 - [작업 영역에서 데이터 세트 사용(미리 보기)](service-datasets-across-workspaces.md)
-- 질문이 있으십니까? [Power BI 커뮤니티에 질문하세요.](https://community.powerbi.com/)
+- 질문이 있으신가요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
