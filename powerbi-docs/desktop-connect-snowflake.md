@@ -10,22 +10,22 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: e7534fd0da2039a2dafaf3ca80ee6957fa8d8754
-ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "77464304"
 ---
 # <a name="connect-to-a-snowflake-computing-warehouse-in-power-bi-desktop"></a>Power BI Desktop에서 Snowflake 컴퓨팅 웨어하우스에 연결
 Power BI Desktop에서 **Snowflake** 컴퓨팅 웨어하우스에 연결하고 Power BI Desktop의 다른 데이터 원본처럼 기본 데이터를 사용할 수 있습니다. 
 
 > [!NOTE]
-> 또한 **Snowflake ODBC 드라이버**를 **Power BI Desktop** 32 비트 또는 64 비트 설치와 일치하는 아키텍처를 사용하여 **Snowflake** 커넥터를 사용하는 컴퓨터에 설치*해야* 합니다. 다음 링크를 따라가서 [해당되는 Snowflake ODBC 드라이버를 다운로드](https://go.microsoft.com/fwlink/?LinkID=823762)합니다.
+> 또한 *Snowflake ODBC 드라이버*를 **Power BI Desktop** 32 비트 또는 64 비트 설치와 일치하는 아키텍처를 사용하여 **Snowflake** 커넥터를 사용하는 컴퓨터에 설치**해야** 합니다. 다음 링크를 따라가서 [해당되는 Snowflake ODBC 드라이버를 다운로드](https://go.microsoft.com/fwlink/?LinkID=823762)합니다.
 > 
 > 
 
 ## <a name="connect-to-a-snowflake-computing-warehouse"></a>Snowflake 컴퓨팅 웨어하우스에 연결
-**Snowflake** 컴퓨팅 웨어하우스에 연결하려면 Power BI Desktop의 **홈** 리본에서 **데이터 가져오기**를 선택합니다. 왼쪽에 있는 범주에서 **데이터베이스**를 선택하면 **Snowflake**가 표시됩니다.
+**Snowflake** 컴퓨팅 웨어하우스에 연결하려면 Power BI Desktop의 **홈** 리본 메뉴에서 **데이터 가져오기**를 선택합니다. 왼쪽에 있는 범주에서 **데이터베이스**를 선택하면 **Snowflake**가 표시됩니다.
 
 ![](media/desktop-connect-snowflake/connect-snowflake-2b.png)
 
