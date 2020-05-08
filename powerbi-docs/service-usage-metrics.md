@@ -11,10 +11,10 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 9aa2e11dd2068cae118336268c5c55ead1e25b8b
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871220"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Power BI 대시보드 및 보고서의 사용 메트릭 모니터링
@@ -105,7 +105,7 @@ Power BI 서비스에서는 사용 메트릭 보고서를 실행할 수만 있�
 
 기본 데이터 세트에 작업 영역의 모든 대시보드 또는 보고서에 대한 사용 정보가 포함되는 것이 가장 좋습니다. 그러면 더 많은 가능성이 지원됩니다. 예를 들어 사용에 따라 작업 영역에서 모든 대시보드를 비교하는 보고서를 만들 수 있습니다. 또는 해당 앱 내에 배포된 모든 콘텐츠의 사용량을 집계하여 Power BI 앱에 대한 사용 메트릭 대시보드를 만들 수도 있습니다.  이 문서의 뒷부분에서 필터를 제거하고 [작업 영역의 모든 사용 메트릭을 확인](#see-all-workspace-usage-metrics)하는 방법을 참조하세요.
 
-### <a name="create-a-copy-of-the-usage-report"></a>사용 보고서의 복사본 만들기
+### <a name="create-a-copy-of-the-usage-report"></a>사용량 보고서의 복사본 만들기
 
 미리 작성된 읽기 전용 보고서의 복사본을 만들면 해당 보고서의 편집 가능한 복사본이 생성됩니다. 얼핏 보기에는 완전히 같아 보이지만 이 복사본에서는 편집용 보기로 보고서를 열고, 새 시각화, 필터 및 페이지를 추가하고, 기존 시각화를 수정하거나 삭제하는 등 많은 작업을 수행할 수 있습니다. 새 보고서는 현재 작업 영역에 저장됩니다.
 

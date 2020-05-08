@@ -1,9 +1,9 @@
 ---
 ms.openlocfilehash: 3966521d158c244487638be4117f98ea570e1f28
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73799995"
 ---
 **DAX**를 소개하기 위해 설계된 Power BI **단계별 학습** 섹션을 시작합니다.

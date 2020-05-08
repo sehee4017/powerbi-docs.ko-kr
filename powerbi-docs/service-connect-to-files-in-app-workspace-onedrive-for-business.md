@@ -9,10 +9,10 @@ ms.date: 04/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: 180fd8d451be794070d8b0f4d37c40965671d23d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73854876"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>Power BI 작업 영역의 OneDrive에 저장된 파일에 연결
@@ -37,7 +37,7 @@ ms.locfileid: "73854876"
 2. **파일**을 선택하여 Office 365에서 작업 영역의 비즈니스용 OneDrive를 엽니다.
    
    > [!NOTE]
-   > 작업 영역 메뉴에 **파일**이 표시되지 않는 경우, **구성원**을 선택하여 작업 영역의 비즈니스용 OneDrive를 엽니다. 거기에서 **파일**을 선택합니다. Office 365가 앱의 그룹 작업 영역 파일에 대한 OneDrive 스토리지 위치를 설정합니다. 이 프로세스에는 다소 시간이 걸릴 수 있습니다. 
+   > 작업 영역 메뉴에 **파일**이 표시되지 않는 경우, **구성원**을 선택하여 작업 영역의 비즈니스용 OneDrive를 엽니다. 거기에서 **일**을 선택합니다. Office 365가 앱의 그룹 작업 영역 파일에 대한 OneDrive 스토리지 위치를 설정합니다. 이 프로세스는 시간이 약간 걸릴 수 있습니다. 
    > 
    > 
 3. 여기서 작업 영역의 비즈니스용 OneDrive에 파일을 업로드할 수 있습니다. **업로드**를 선택하고, 자신의 파일로 이동합니다.
@@ -52,10 +52,10 @@ ms.locfileid: "73854876"
 
 ### <a name="import-or-connect-to-the-files-in-your-workspace"></a>작업 영역의 파일 가져오기 또는 연결
 1. Power BI에서 작업 영역으로 전환하여 작업 영역 이름이 왼쪽 위에 표시되도록 합니다. 
-2. 탐색 창 아래쪽에서 **데이터 가져오기**를 선택합니다. 
+2. 탐색 창의 맨 아래에서 **데이터 가져오기**를 선택합니다. 
    
    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-get-data-button.png)
-3. **파일** 상자에서 **가져오기**를 선택합니다.
+3. **파일**상자에서 **가져오기**를 선택합니다.
    
    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_getfiles.png)
 4. **OneDrive** - ‘작업 영역 이름’을 선택합니다. 
