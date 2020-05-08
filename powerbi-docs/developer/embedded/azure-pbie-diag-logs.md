@@ -8,10 +8,10 @@ ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
 ms.openlocfilehash: 362c765fb5e739563b8d21eaed53304eddce8acc
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79495806"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Azure의 Power BI Embedded에 대한 진단 로깅
@@ -36,12 +36,12 @@ ms.locfileid: "79495806"
 
     * **이름** - 만들 진단 설정의 이름을 입력합니다.
 
-    * **스토리지 계정에 보관** - 이 옵션을 사용하려면 기존 스토리지 계정에 연결해야 합니다. [스토리지 계정 만들기](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account)를 참조하고 지침에 따라 스토리지 계정을 만듭니다. 그런 다음, 포털에서 이 페이지로 돌아가서 스토리지 계정을 선택합니다. 새로 만들어진 스토리지 계정이 드롭다운 메뉴에 나타나는 데 몇 분이 걸릴 수 있습니다. 로그 파일 스토리지는 JSON 형식입니다.
+    * **스토리지 계정에 보관** - 이 옵션을 사용하려면 기존 스토리지 계정에 연결해야 합니다. [스토리지 계정 만들기](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account)를 참조하고 지침에 따라 스토리지 계정을 만듭니다. 그런 다음, 포털에서 이 페이지로 돌아가서 스토리지 계정을 선택합니다. 새로 만든 스토리지 계정이 드롭다운 메뉴에 나타나기까지 몇 분 정도 걸릴 수 있습니다. 로그 파일 스토리지는 JSON 형식입니다.
     * **이벤트 허브로의 스트림** - 이 옵션을 사용하려면 기존 이벤트 허브 네임스페이스 및 이벤트 허브에 연결해야 합니다. 자세한 내용은 [Azure Portal을 사용하여 이벤트 허브 네임스페이스 및 이벤트 허브 만들기](https://docs.microsoft.com/azure/event-hubs/event-hubs-create)를 참조하세요.
     * **Log Analytics에 보내기** - 이 옵션을 사용하려면 기존 작업 영역을 사용하거나 포털에서 [새 작업 영역을 만드는](https://docs.microsoft.com/azure/log-analytics/log-analytics-quick-collect-azurevm#create-a-workspace) 단계에 따라 새 Log Analytics 작업 영역을 만듭니다. 이 작업에는 기본 제공 분석, 대시보드 및 알림 기능을 제공하는 [Azure Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-overview)를 이용합니다. Log Analytics를 사용하면 다른 리소스의 추가 데이터를 연결하고 모든 애플리케이션의 리소스 전체에서 데이터의 단일 및 전체 보기를 가져올 수 있습니다. [단일 클릭으로 Power BI](https://docs.microsoft.com/azure/log-analytics/log-analytics-powerbi)에 연결할 수도 있습니다.
     Log Analytics에서 로그를 보는 방법에 대한 자세한 내용은 [Log Analytics의 로그 보기](https://docs.microsoft.com/azure/log-analytics/log-analytics-activity)를 참조하세요.
     * **Engine** - 아래에 [나열된 엔진 이벤트](#whats-logged) 집합을 기록하려면 이 옵션을 선택합니다.
-    * **AllMetrics** - [메트릭](https://docs.microsoft.com/azure/analysis-services/analysis-services-monitor#server-metrics)에 자세한 정보 데이터를 저장하려면 이 옵션을 선택합니다. 스토리지 계정에 보관할 경우 진단 로그의 보존 기간을 선택할 수 있습니다. 로그는 보존 기간이 만료된 후에 자동 삭제됩니다.
+    * **AllMetrics** - [메트릭](https://docs.microsoft.com/azure/analysis-services/analysis-services-monitor#server-metrics)에 자세한 정보 데이터를 저장하려면 이 옵션을 선택합니다. 스토리지 계정으로 보관하려는 경우 진단 로그의 보존 기간을 선택할 수 있습니다. 보존 기간이 만료되면 로그가 자동으로 삭제됩니다.
 
 3. **저장**을 선택합니다.
 
@@ -77,7 +77,7 @@ PowerShell을 사용하여 메트릭 및 진단 로깅을 사용하도록 설정
         Set-AzureRmDiagnosticSetting -ResourceId [your resource id] -WorkspaceId [resource id of the log analytics workspace] -Enabled $true
     ```
 
-* 다음 명령을 사용하여 Log Analytics 작업 영역의 리소스 ID를 얻을 수 있습니다.
+* 다음 명령을 사용하여 Log Analytics 작업 영역의 리소스 ID를 가져올 수 있습니다.
 
     ```powershell
     (Get-AzureRmOperationalInsightsWorkspace).ResourceId
@@ -93,11 +93,11 @@ PowerShell을 사용하여 메트릭 및 진단 로깅을 사용하도록 설정
 
 [Resource Manager 템플릿을 사용하여 리소스 생성 시 진단 설정을 사용하도록 설정](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-enable-diagnostic-logs-using-template)하는 방법을 알아봅니다.
 
-## <a name="whats-logged"></a>기록된 내용은 무엇인가요?
+## <a name="whats-logged"></a>다음이 로깅됩니다.
 
 **Engine** 및/또는 **AllMetrics** 범주를 선택할 수 있습니다.
 
-### <a name="engine"></a>Engine
+### <a name="engine"></a>엔진
 
 엔진 범주는 다음 이벤트를 기록하도록 리소스에 지시하고 각 이벤트에는 다음 속성이 있습니다.
 
@@ -106,7 +106,7 @@ PowerShell을 사용하여 메트릭 및 진단 로깅을 사용하도록 설정
 |    Audit Login    |    추적이 시작된 후 엔진 이벤트에 대한 모든 새 연결을 기록합니다.    |
 |    Session Initialize    |    추적이 시작된 후 모든 세션 초기화 이벤트를 기록합니다.    |
 |    Vertipaq Query Begin    |    추적이 시작된 후 모든 VertiPaq SE 쿼리 시작 이벤트를 기록합니다.    |
-|    Query Begin    |    추적이 시작된 후 모든 쿼리 시작 이벤트를 기록합니다.    |
+|    쿼리 시작    |    추적이 시작된 후 모든 쿼리 시작 이벤트를 기록합니다.    |
 |    Query End    |    추적이 시작된 후 모든 쿼리 종료 이벤트를 기록합니다.    |
 |    Vertipaq Query End    |    추적이 시작된 후 모든 VertiPaq SE 쿼리 종료 이벤트를 기록합니다.    |
 |    Audit Logout    |    추적이 시작된 후 엔진 이벤트의 모든 연결 끊기를 기록합니다.    |
@@ -118,16 +118,16 @@ PowerShell을 사용하여 메트릭 및 진단 로깅을 사용하도록 설정
 | 속성 이름 | Vertipaq Query End Example | 속성 설명 |
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | EventClass | XM_SEQUERY_END | 이벤트 분류에 사용되는 이벤트 클래스입니다. |
-| EventSubclass | 0 | 이벤트 하위 클래스는 각 이벤트 클래스에 대한 추가 정보를 제공합니다. (예: 0: VertiPaq 검사) |
+| EventSubclass | 0 | 이벤트 하위 클래스는 각 이벤트 클래스에 대한 추가 정보를 제공합니다. (예: 0: VertiPaq Scan) |
 | RootActivityId | ff217fd2-611d-43c0-9c12-19e202a94f70 | 루트 활동 ID입니다. |
 | CurrentTime | 2018-04-06T18:30:11.9137358Z | 이벤트가 시작된 시간입니다(사용 가능한 경우). |
 | StartTime | 2018-04-06T18:30:11.9137358Z | 이벤트가 시작된 시간입니다(사용 가능한 경우). |
 | JobID | 0 | 진행할 작업 ID입니다. |
 | ObjectID | 464 | 개체 ID |
 | ObjectType | 802012 | ObjectType |
-| EndTime | 2018-04-06T18:30:11.9137358Z | 이벤트가 끝난 시간입니다. |
-| 기간 | 0 | 이벤트에서 사용한 시간(밀리초)입니다. |
-| SessionType | 사용자 | 세션 유형(작업을 발생시킨 엔터티)입니다. |
+| EndTime | 2018-04-06T18:30:11.9137358Z | 이벤트가 종료된 시간입니다. |
+| Duration | 0 | 이벤트에서 사용한 시간(밀리초)입니다. |
+| SessionType | User | 세션 유형(작업을 발생시킨 엔터티)입니다. |
 | ProgressTotal | 0 | 총 진행률입니다. |
 | IntegerData | 0 | 정수 데이터입니다. |
 | Severity | 0 | 예외의 심각도입니다. |
@@ -152,7 +152,7 @@ PowerShell을 사용하여 메트릭 및 진단 로깅을 사용하도록 설정
 
 일반적으로 로그는 로깅을 설정한 후 몇 시간 내에 사용할 수 있습니다. 스토리지 계정에서 로그를 관리하는 것은 사용자의 책임입니다.
 
-* 표준 Azure 액세스 제어 방법을 사용하여 액세스할 수 있는 사용자를 제한하는 방식으로 로그를 보호합니다.
+* 표준 Azure 액세스 제어 메서드를 사용하여 액세스할 수 있는 사용자를 제한하여 로그를 보호합니다.
 * 스토리지 계정에 더 이상 보존하지 않을 로그를 삭제합니다.
 * 보존 기간을 설정해야 하므로, 이전 로그는 스토리지 계정에서 삭제됩니다.
 
@@ -168,7 +168,7 @@ Log Analytics에서 진단 데이터를 보려면 아래와 같이 관리 영역
 
 ![수집된 모든 데이터](media/azure-pbie-diag-logs/azure-pbie-diag-logs-analytics-all-collected-data.png)
 
-**형식**에서 **AzureDiagnostics**를 선택하고 **적용**을 선택합니다. AzureDiagnostics에는 Engine 이벤트가 포함됩니다. Log Analytics 쿼리는 즉시 만들어집니다.
+**형식**에서 **AzureDiagnostics**를 선택하고 **적용**을 선택합니다. AzureDiagnostics에는 Engine 이벤트가 포함됩니다. Log Analytics 쿼리는 즉석에서 생성됩니다.
 
 ![Azure Diagnostics](media/azure-pbie-diag-logs/azure-pbie-diag-logs-analytics-azure-diagnostics.png)
 

@@ -10,10 +10,10 @@ ms.date: 04/20/2020
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 548c76e2d344e996d367cba810bf42442af8d27d
-ms.sourcegitcommit: 9ec2c608b90bf651df613f0714addd251a885039
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/24/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "82120321"
 ---
 # <a name="work-with-filters-in-power-bi-reports"></a>Power BI 보고서에서 필터 작업

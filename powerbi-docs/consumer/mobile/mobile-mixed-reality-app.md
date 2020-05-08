@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
 ms.openlocfilehash: 99e9c407a92d126ddc4c6f4822106cfa6458dbac
-ms.sourcegitcommit: 7e845812874b3347bcf87ca642c66bed298b244a
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79205921"
 ---
 # <a name="power-bi-for-mixed-reality-app-preview"></a>혼합 현실용 Power BI 앱(미리 보기)
 가상 환경을 사용하는 동안 혼합 현실용 Power BI 앱(미리 보기)에서 대시보드 및 보고서를 확인하거나 사용자 환경 컨텍스트의 특정 위치에 배치합니다. 
 
-Windows 스토어에서 [Mixed Reality용 Power BI 앱을 다운로드](https://www.microsoft.com/p/power-bi-mobile/9nblgggzlxn1?activetab=pivot%3aoverviewtab)합니다. Windows 스토어에서 이 앱을 “Power BI Mobile”이라고 합니다. 가상 환경에서 대시보드 및 보고서와 상호 작용한 다음, 배치하려는 항목을 선택합니다. 
+Windows 스토어에서 [혼합 현실용 Power BI 앱 다운로드](https://www.microsoft.com/p/power-bi-mobile/9nblgggzlxn1?activetab=pivot%3aoverviewtab): Windows 스토어에서는 "Power BI 모바일"이라고 합니다. 가상 환경에서 대시보드 및 보고서와 상호 작용한 다음, 배치하려는 항목을 선택합니다. 
 
 ## <a name="two-views-windows-classic-and-holographic"></a>두 가지 보기: Windows 클래식 및 홀로그램
 

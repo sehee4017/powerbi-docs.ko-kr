@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 02/13/2020
 LocalizationGroup: Premium
 ms.openlocfilehash: aed0d1e4dec6f6efe49dd39cd5b6fc60f8977e44
-ms.sourcegitcommit: a175faed9378a7d040a08ced3e46e54503334c07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "79488617"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Power BI 프리미엄 구매 방법
@@ -35,7 +35,7 @@ Power BI Premium P1 SKU가 구성된 새 테넌트를 만들거나, 기존 조�
 
 ### <a name="create-a-new-tenant-with-power-bi-premium-p1"></a>Power BI 프리미엄 P1로 새 테넌트 만들기
 
-기존 테넌트가 없어 새로 하나를 만들려면 Power BI 프리미엄도 동시에 구매할 수 있습니다. 다음 링크를 통해 새 테넌트를 만드는 과정을 안내받고 Power BI Premium을 구매할 수 있습니다: [Power BI Premium P1 제품](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1). 테넌트를 만들면 자동으로 해당 테넌트의 Microsoft 365 전역 관리자 역할에 할당됩니다.
+기존 테넌트가 없어 새로 하나를 만들려면 Power BI 프리미엄도 동시에 구매할 수 있습니다. 다음 링크를 통해 새 테넌트를 만드는 과정을 안내받고 Power BI Premium([Power BI Premium P1 솔루션](https://signup.microsoft.com/Signup?OfferId=b3ec5615-cc11-48de-967d-8d79f7cb0af1))을 구입할 수 있습니다. 테넌트를 만들면 자동으로 해당 테넌트의 Microsoft 365 전역 관리자 역할에 할당됩니다.
 
 용량을 구매한 후 [용량을 관리](service-admin-premium-manage.md#manage-capacity)하고 용량에 [작업 영역을 할당](service-admin-premium-manage.md#assign-a-workspace-to-a-capacity)하는 방법을 알아봅니다.
 
@@ -51,7 +51,7 @@ Power BI Premium P1 SKU가 구성된 새 테넌트를 만들거나, 기존 조�
 
     또는 Microsoft 365 관리 센터로 이동할 수 있습니다.
 
-1. **청구** > **서비스 구매**를 선택합니다.
+1. **청구** > **서비스 구입**을 선택합니다.
 
 1. **기타 계획** 아래에서 Power BI 프리미엄 제안을 찾습니다. P1~P3, EM3 및 P1(매월)로 나열됩니다.
 
