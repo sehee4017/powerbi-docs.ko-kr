@@ -23,7 +23,7 @@
           href: ../service-basic-concepts.md
         - name: 도움을 받을 수 있는 10가지 팁
           href: ../service-tips-for-finding-help.md
-        - name: 라이선싱
+        - name: 라이선스
           items:
             - name: Power BI에 등록
               href: ../service-self-service-signup-for-power-bi.md
@@ -31,7 +31,7 @@
               href: ../service-features-license-type.md
     - name: 방법 가이드
       items:
-        - name: Power BI Desktop 다운로드
+        - name: Power BI Desktop 받기
           href: ../desktop-get-the-desktop.md
         - name: Power BI Desktop 시작
           href: ../desktop-getting-started.md
@@ -43,7 +43,7 @@
           href: ../power-bi-browsers.md
     - name: 리소스
       items:
-        - name: 비디오
+        - name: 동영상
           href: ../videos.md
         - name: 웹 세미나
           href: ../webinars.md

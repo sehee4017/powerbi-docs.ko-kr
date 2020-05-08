@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 6b2b457c2df8e37b4fac3108061a325261f5574b
-ms.sourcegitcommit: 9ecd7cadb9ff47f0fc0e400730777cc4dadbd80d
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80487780"
 ---
 # <a name="azure-and-power-bi"></a>Azure 및 Power BI
@@ -34,7 +34,7 @@ Azure SQL Database에 연결을 시작하고 비즈니스의 진행률을 모니
 
 ## <a name="transform-shape-and-merge-your-cloud-data"></a>클라우드 데이터 변환, 구체화 및 병합
 
-복잡한 데이터 및 모든 종류의 원본이 있으세요? 문제가 되지 않습니다. **Power BI Desktop** 과 Azure 서비스를 사용하면 **데이터 가져오기** 대화 상자를 한 번 탭하여 연결할 수 있습니다. 동일한 쿼리 내에서 **Azure SQL Database**, **Azure HDInsight** 데이터 소스 및 **Azure Blob Storage**(또는 **Azure Table Storage**)에 연결한 다음 필요한 각각의 내부 하위 집합만 선택하고 여기서 구체화할 수 있습니다.
+복잡한 데이터 및 모든 종류의 원본이 있으세요? 문제가 되지 않습니다. **Power BI Desktop**과 Azure 서비스를 사용하면 **데이터 가져오기** 대화 상자를 한 번 탭하여 연결할 수 있습니다. 동일한 쿼리 내에서 **Azure SQL Database**, **Azure HDInsight** 데이터 소스 및 **Azure Blob Storage**(또는 **Azure Table Storage**)에 연결한 다음, 필요한 각각의 내부 하위 집합만 선택하고 여기서 구체화할 수 있습니다.
 
 동일한 데이터 연결 및 동일한 쿼리를 사용하여 대상마다 다른 보고서를 만들 수 있습니다. 새 보고서 페이지를 작성하고, 각 대상에 대한 시각화를 구체화 하고, 비즈니스를 잘 알고 유지하면 됩니다.
 
@@ -66,4 +66,4 @@ Azure와 Power BI를 사용하여 필요한 만큼 확장할 수 있습니다. �
 
 ## <a name="what-could-you-do-with-azure-and-power-bi"></a>Azure 및 Power BI로 수행할 수 있는 작업은 무엇인가요?
 
-**Azure** 및 **Power BI**를 결합할 수 있는 모든 종류의 시나리오가 있습니다. 여기서 가능성 및 기회는 비즈니스만큼 고유합니다. **Azure 서비스**에 대한 자세한 내용은 **Azure를 사용한 데이터 분석 시나리오**를 설명하는 이 [개요 페이지](https://docs.microsoft.com/azure/machine-learning/team-data-science-process/plan-your-environment)에서 확인하고, 데이터 소스를 인텔리전스로 변환하는 방법을 알아봅니다.
+**Azure** 및 **Power BI**를 결합할 수 있는 모든 종류의 시나리오가 있습니다. 여기서 가능성 및 기회는 비즈니스만큼 고유합니다. **Azure 서비스**에 대한 자세한 내용은 [Azure를 사용한 데이터 분석 시나리오](https://docs.microsoft.com/azure/machine-learning/team-data-science-process/plan-your-environment)를 설명하는 이 **개요 페이지**에서 확인하고, 데이터 소스를 인텔리전스로 변환하는 방법을 알아봅니다.

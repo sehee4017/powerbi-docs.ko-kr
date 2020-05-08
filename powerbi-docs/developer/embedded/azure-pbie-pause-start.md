@@ -1,5 +1,5 @@
 ---
-title: Azure Portal에서 Power BI Embedded 용량 일시 중지 및 시작| Microsoft Docs
+title: Azure Portal에서 Power BI Embedded 용량을 일시 중지 및 시작 | Microsoft Docs
 description: 이 아티클은 Microsoft Azure에서 Power BI Embedded 용량을 일시 중지 및 시작하는 방법을 안내합니다.
 services: power-bi-embedded
 author: KesemSharabi
@@ -10,10 +10,10 @@ ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 09/28/2017
 ms.openlocfilehash: 07c9c12366b100936e03fe07358ee180e026dfc5
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80114753"
 ---
 # <a name="pause-and-start-your-power-bi-embedded-capacity-in-the-azure-portal"></a>Azure Portal에서 Power BI Embedded 용량 일시 중지 및 시작
@@ -43,7 +43,7 @@ Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.
 
     ![용량 일시 중지](media/azure-pbie-pause-start/azure-portal-pause-capacity.png)
 
-5. **예**를 선택하여 용량 일시 중지를 확인합니다.
+5. **예**를 선택하면 용량을 일시 중지 하는 것이 확인됩니다.
 
     ![일시 중지 확인](media/azure-pbie-pause-start/azure-portal-confirm-pause.png)
 
@@ -65,7 +65,7 @@ Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.
 
     ![용량 시작](media/azure-pbie-pause-start/azure-portal-start-capacity.png)
 
-5. **예**를 선택하여 용량 시작을 확인합니다.
+5. **예**를 선택하면 용량을 시작하는 것이 확인됩니다.
 
     ![시작 확인](media/azure-pbie-pause-start/azure-portal-confirm-start.png)
 

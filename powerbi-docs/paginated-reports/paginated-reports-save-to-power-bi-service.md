@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 01/03/2020
-ms.openlocfilehash: 0207cbdbc3fae8636f8fd73a008d54ee7d10c5f9
-ms.sourcegitcommit: ced8c9d6c365cab6f63fbe8367fb33e6d827cb97
+ms.date: 05/04/2020
+ms.openlocfilehash: 3e7e1590adbf953db4232ddffa5f26778e5670c2
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78921611"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781619"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>Power BI 서비스에 페이지를 매긴 보고서 게시
 
@@ -107,9 +107,6 @@ Power BI 서비스에서 시작하여 페이지를 매긴 보고서를 업로드
 
 1. 자세한 내용 및 다음 단계를 보려면 Power BI 서비스 문서 [온-프레미스 데이터 게이트웨이란?](../service-gateway-onprem.md)을 참조하세요.
 
-### <a name="gateway-limitations"></a>게이트웨이 제한 사항
-
-현재 게이트웨이는 다중값 매개 변수를 지원하지 않습니다.
 
 
 ## <a name="next-steps"></a>다음 단계

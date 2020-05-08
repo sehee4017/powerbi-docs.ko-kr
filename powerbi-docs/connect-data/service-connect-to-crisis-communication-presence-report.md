@@ -9,10 +9,10 @@ ms.date: 04/06/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
 ms.openlocfilehash: f637bb10ed7ec27dcb3da07fc04cae39328ffebe
-ms.sourcegitcommit: 34cca70ba84f37b48407d5d8a45c3f51fb95eb3c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80752260"
 ---
 # <a name="connect-to-the-crisis-communication-presence-report"></a>재난 안내 상태 보고서에 연결
@@ -53,7 +53,7 @@ ms.locfileid: "80752260"
 
    ![앱 페이지의 재난 안내 상태 보고서 앱](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-apps-page-icon.png)
 
-## <a name="connect-to-data-sources"></a>데이터 원본 연결
+## <a name="connect-to-data-sources"></a>데이터 원본 연결 
 
 1. 앱 페이지에서 아이콘을 선택하여 앱을 엽니다.
 

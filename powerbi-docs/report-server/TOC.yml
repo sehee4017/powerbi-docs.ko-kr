@@ -21,7 +21,7 @@
           href: whats-new.md
         - name: 관리자 개요
           href: admin-handbook-overview.md
-        - name: 로그 변경
+        - name: 변경 로그
           href: changelog.md
         - name: 지원 타임라인
           href: support-timeline.md
@@ -39,7 +39,7 @@
               href: data-sources.md
             - name: 페이지를 매긴 보고서 데이터 원본
               href: connect-data-sources.md
-            - name: 구독
+            - name: Subscriptions
               href: 'https://go.microsoft.com/fwlink/?linkid=851310'
             - name: 모바일 앱 사용
               href: 'https://go.microsoft.com/fwlink/?linkid=848711'

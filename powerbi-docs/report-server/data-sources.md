@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 04/08/2020
 ms.author: maggies
 ms.openlocfilehash: 166f72a717c99457e1d6b8e9a1f30535a9b4686f
-ms.sourcegitcommit: e7fda395b47e404c61e961a60816b7a1b0182759
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "80979848"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI Report Server에서 Power BI 보고서 데이터 원본
@@ -46,7 +46,7 @@ Power BI 보고서는 여러 데이터 원본에 연결할 수 있습니다. 데
 | Dynamics 365(온라인) |예 |아니요 |아니요 |
 | Facebook |예 |아니요 |아니요 |
 | 폴더 |예 |예 |아니요 |
-| Google 웹로그 분석 |예 |아니요 |아니요 |
+| Google 분석 |예 |아니요 |아니요 |
 | HDFS(Hadoop 파일) |예 |아니요 |아니요 |
 | IBM DB2 데이터베이스 |예 |예 |아니요 |
 | Impala |예 |아니요 |아니요 |
@@ -133,7 +133,7 @@ Power BI Report Server는 모델 새로 고침을 위한 OAuth 기반 인증을 
 | Dynamics 365(온라인) |아니요 |아니요 |아니요 |아니요 |
 | Facebook |아니요 |아니요 |아니요 |아니요 |
 | 폴더 |아니요 |아니요 |아니요 |예 |
-| Google 웹로그 분석 |아니요 |아니요 |아니요 |아니요 |
+| Google 분석 |아니요 |아니요 |아니요 |아니요 |
 | HDFS(Hadoop 파일) |아니요 |아니요 |아니요 |아니요 |
 | IBM DB2 데이터베이스 |아니요 |아니요 |예 |예 |
 | Impala |아니요 |아니요 |아니요 |아니요 |

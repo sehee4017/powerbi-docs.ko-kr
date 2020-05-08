@@ -1,19 +1,19 @@
 ---
 title: Power BI에서 템플릿 앱 만들기
 description: 모든 Power BI 고객에게 배포할 수 있는 템플릿 앱을 Power BI에서 만드는 방법입니다.
-author: teddybercovitz
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 09/15/2019
-ms.author: tebercov
-ms.openlocfilehash: 4062cb8a417ce20f4d6823a3e68d26ad12b9a6c9
-ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
+ms.date: 05/04/2020
+ms.author: painbar
+ms.openlocfilehash: 5de7268dfa792a85d813e98280f00c87e5e98447
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "82066351"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781642"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Power BI에서 템플릿 앱 만들기
 

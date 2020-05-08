@@ -10,10 +10,10 @@ ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Get started
 ms.openlocfilehash: 69b42452af53b8929f49a6bde6b47b0cf3cc152e
-ms.sourcegitcommit: 5ece366fceee9832724dae40eacf8755e1d85b04
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "81525563"
 ---
 # <a name="the-new-look-where-did-the-actions-go"></a>‘새 디자인’: 작업이 어디로 이동했나요?
