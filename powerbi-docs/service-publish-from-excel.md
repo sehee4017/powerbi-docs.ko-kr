@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/26/2020
+ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e503d2c68b4b726ab44c3bec0fad7001da33e184
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ca3e954f64665798c439fba47c3135e93fe51ac0
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80329608"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866797"
 ---
 # <a name="publish-to-power-bi-from-microsoft-excel"></a>Microsoft Excel에서 Power BI에 게시
 Microsoft Excel 2016 이상에서는 [Power BI](https://powerbi.microsoft.com) 작업 영역에 직접 Excel 통합 문서를 게시할 수 있습니다. 그러면 통합 문서의 데이터를 기반으로 대화형 보고서 및 대시보드를 만들 수 있습니다. 그러면 조직에서 다른 사용자와 정보를 공유할 수 있습니다.
@@ -42,7 +42,7 @@ Excel은 로컬 Excel 파일의 게시를 지원합니다. 비즈니스용 OneDr
 > Office 365 구독으로 Excel 2016 이상 버전을 사용하는 경우에만 로컬 파일을 게시할 수 있습니다. Excel 2016 독립 실행형 설치는 통합 문서가 비즈니스용 OneDrive 또는 SharePoint Online에 저장된 경우에만 Power BI에 게시할 수 있습니다.
 > 
 
-**게시**를 선택하는 경우 게시하려는 작업 영역을 선택할 수 있습니다. 작업 영역은 다음 그림에 표시된 것처럼 개인 작업 영역 또는 액세스 권한이 있는 그룹 작업 영역일 수 있습니다.
+**게시**를 선택하는 경우 게시하려는 작업 영역을 선택할 수 있습니다. Excel 파일이 비즈니스용 OneDrive에 있는 경우 *내 작업 영역*에만 게시할 수 있습니다. Excel 파일이 로컬 드라이브에 있는 경우 *내 작업 영역* 또는 액세스 권한이 있는 공유 작업 영역에 게시할 수 있습니다.
 
 ![Power BI에 게시](media/service-publish-from-excel/pbi_choose_workspace.png)
 

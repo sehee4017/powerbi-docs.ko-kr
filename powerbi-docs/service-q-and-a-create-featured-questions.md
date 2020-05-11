@@ -10,10 +10,10 @@ ms.date: 05/14/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 1571589844abb8e9acf0bbb78eccf5664db9bf52
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73881112"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Power BI 질문 및 답변에 대한 추천 질문 만들기
@@ -31,7 +31,7 @@ ms.locfileid: "73881112"
 1. 대시보드에서 질문 및 답변의 질문 상자를 선택합니다.   질문과 대답은 데이터 세트에 나타나는 용어 목록을 표시하여 도움을 주고 있습니다.
 2. 이 목록에 추가하려면 Power BI의 오른쪽 위 모서리에서 톱니 바퀴형 아이콘을 선택합니다.  
    ![기어 아이콘](media/service-q-and-a-create-featured-questions/pbi_gearicon2.jpg)
-3. **설정**&gt;**데이터 세트**&gt;**Retail Analysis Sample**&gt;**질문 및 답변 추천 질문**을 선택합니다.  
+3. **설정** &gt; **데이터 세트** &gt; **소매점 분석 샘플** &gt; **추천 질문 및 답변**을 선택합니다.  
 4. **질문 추가**를 선택합니다.
    
    ![설정 메뉴](media/service-q-and-a-create-featured-questions/power-bi-settings.png)

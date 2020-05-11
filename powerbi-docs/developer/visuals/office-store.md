@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 08790c8c0c751f935d62357d86b6976a81dc977b
-ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
+ms.openlocfilehash: 90e914cf9b5c03542436750253fd959808403214
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "80621451"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82613560"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>파트너 센터에 Power BI 시각적 개체 게시
 
@@ -101,9 +101,11 @@ Power BI 팀은 파일에서 새 Power BI 시각적 개체 제출, 기존 Power 
 
 ## <a name="tracking-submission-status-and-usage"></a>제출 상태 및 사용 현황 추적
 
-[유효성 검사 정책](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals)을 검토할 수 있습니다.
+* [유효성 검사 정책](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals)을 검토할 수 있습니다.
 
-제출 후에 [앱 대시보드](https://sellerdashboard.microsoft.com/Application/Summary/)에서 제출 상태를 볼 수 있습니다.
+* 제출 후에 [앱 대시보드](https://sellerdashboard.microsoft.com/Application/Summary/)에서 제출 상태를 볼 수 있습니다.
+
+* AppSource에서 Power BI 시각적 개체를 다운로드할 수 있는 시기를 이해하려면 Power BI 시각적 개체 [게시 타임라인](power-bi-custom-visuals-certified.md#publication-timeline)을 검토합니다.
 
 ## <a name="certify-your-visual"></a>시각적 개체 인증
 

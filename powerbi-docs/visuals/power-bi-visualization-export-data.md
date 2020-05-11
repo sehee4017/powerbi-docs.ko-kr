@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/28/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f82bde423d910cb5622e5e709890502e96daab36
-ms.sourcegitcommit: 20f15ee7a11162127e506b86d21e2fff821a4aee
+ms.openlocfilehash: e3e0108f539a7c42b41c36f743a0b8b79f3b61b8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "82585384"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781734"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>시각화를 생성하는 데 사용된 데이터 내보내기
 
@@ -265,6 +265,8 @@ Power BI 관리 포털 설정이 데이터 내보내기에 대한 보고서 설�
   1. **외부 데이터 가져오기** > **텍스트에서**를 선택합니다.
   
   1. 파일이 저장된 로컬 폴더로 이동하고 *.csv*를 선택합니다.
+
+- *.csv*로 내보낼 때 특정 문자는 선행 **'** 로 이스케이프됩니다.
 
 - Power BI 관리자는 데이터 내보내기를 사용하지 않도록 설정할 수 있습니다.
 

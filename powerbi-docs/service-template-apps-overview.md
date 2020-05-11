@@ -4,16 +4,16 @@ description: 이 문서는 Power BI 템플릿 앱 프로그램의 개요입니�
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 04/16/2020
+ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: 42fa16228deea88f606e348d1a87f9d465c8c2ea
-ms.sourcegitcommit: 01bcbc8f0280aec875b22542a9c193c80899dc10
+ms.openlocfilehash: 466e7cb842244104b004c4f65f82dafe13dc9725
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "82066328"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781320"
 ---
 # <a name="what-are-power-bi-template-apps"></a>Power BI 템플릿 앱이란?
 
@@ -103,6 +103,7 @@ Power BI 템플릿 앱을 사용하면 Power BI Pro 또는 Power BI Premium 사�
 | 데이터 세트: 작업 영역 간 | 작업 영역 간 데이터 세트는 허용되지 않습니다.  |
 | 쿼리 매개 변수 | 지원되지 않음: 데이터 세트를 위한 "Any" 또는 "Binary" 형식 블록 새로 고침 작업의 매개 변수 |
 | Power BI 시각적 개체 | 공개적으로 사용할 수 있는 Power BI 시각적 개체만 지원됩니다. [조직 Power BI 시각적 개체](developer/visuals/power-bi-custom-visuals-organization.md)는 지원되지 않습니다. |
+| 소버린 클라우드 | 소버린 클라우드에서는 템플릿 앱을 사용할 수 없습니다. |
 
 ## <a name="support"></a>지원
 개발 중 지원을 받으려면 [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support)를 사용하세요. 이 사이트를 적극적으로 모니터링하고 관리합니다. 고객 인시던트에서 해당 팀에 연락하는 방법을 신속하게 찾을 수 있습니다.

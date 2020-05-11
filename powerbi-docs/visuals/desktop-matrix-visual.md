@@ -1,5 +1,5 @@
 ---
-title: Power BI에서 행렬 시각적 개체 사용
+title: Power BI에서 행렬 시각적 개체 만들기
 description: 행렬 시각적 개체를 사용하여 Power BI에서 단계 레이아웃 및 세부적인 강조 표시를 사용하는 방법을 알아봅니다.
 author: mihart
 ms.reviewer: ''
@@ -7,16 +7,18 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/10/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c091295d50bac576af411d967b9902d6804f82be
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0a9bebd51e64c18e0c354386e168661542b9c5bf
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81637863"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866590"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Power BI에서 행렬 시각화 만들기
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -28,6 +30,8 @@ ms.locfileid: "81637863"
 
 행렬과 관련된 여러 가지 기능을 이 문서의 다음 섹션에서 살펴보겠습니다.
 
+> [!NOTE]
+> Power BI 동료와 보고서를 공유하려면 개별 Power BI Pro 라이선스가 있거나 보고서가 Premium 용량에 저장되어 있어야 합니다.
 
 ## <a name="understanding-how-power-bi-calculates-totals"></a>Power BI에서 총계를 계산하는 방법 이해
 

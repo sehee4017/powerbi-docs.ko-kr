@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/09/2020
+ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 6f71cf9b8325441fe3827a259daf3bcbe15765a5
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 373ad0d230b3d9d7b9d35909d086b0611637f0e2
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76709916"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866337"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Power BI Desktop에서 관계 만들기 및 관리
 여러 테이블을 가져올 때 이러한 모든 테이블의 데이터를 사용하여 분석을 수행하려는 경우가 있습니다. 결과를 정확하게 계산하고 보고서에 올바른 정보를 표시하려면 테이블 간의 관계가 필요합니다. Power BI Desktop에서는 이러한 관계를 쉽게 만들 수 있습니다. 실제로 아무 작업도 수행할 필요가 없는 경우가 대부분입니다. 자동 검색 기능이 자동으로 작업을 수행합니다. 그러나 관계를 직접 만들거나 관계를 변경해야 하는 경우도 있습니다. 어떤 경우든지 Power BI Desktop에서의 관계 및 관계를 만들고 편집하는 방법을 이해하는 것이 중요합니다. 
@@ -271,7 +271,7 @@ Power BI가 해당 설정을 만드는 이유는 Power BI Desktop에서 두 테�
 
  ![교차 필터링 방향](media/desktop-create-and-manage-relationships/candmrel_repcrossfiltersingle.png)
 
-필터 지정은 **CompanyProject**에서 **CompanyEmployee**로 진행되지만(다음 그림 참조) **CompanyEmployee**까지 진행되지는 않습니다. 
+필터 지정은 **CompanyProject**에서 **ProjectHours**로 진행되지만(다음 이미지 참조) **CompanyEmployee**까지 진행되지는 않습니다. 
 
  ![교차 필터링 예제](media/desktop-create-and-manage-relationships/candmrel_singledircrossfiltering.png)
 

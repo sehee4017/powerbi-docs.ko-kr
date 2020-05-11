@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 2dee596648c9921cefab6903167e780bfacb122e
-ms.sourcegitcommit: 2c798b97fdb02b4bf4e74cf05442a4b01dc5cbab
+ms.openlocfilehash: b759d19046ddb375646743a50025689ab9a566c0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80113903"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82613537"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Power BI 시각적 개체 인증받기
 
@@ -82,8 +82,6 @@ Power BI 시각적 리포지토리가 어떻게 보이는지 이해하려면 [Po
 
 `pbiviz package`를 사용하여 Power BI 시각적 개체를 컴파일해야 합니다. 자체 빌드 스크립트를 사용하는 경우, `npm run package` 사용자 지정 빌드 명령을 제공합니다.
 
-
-
 ### <a name="source-code-requirements"></a>소스 코드 요구 사항
 
 [Power BI 시각적 개체 추가 인증](https://docs.microsoft.com/legal/marketplace/certification-policies#1200-power-bi-visuals-additional-certification) 정책 목록을 따르는지 확인합니다. 제출이 이러한 지침을 따르지 않는 경우, 파트너 센터의 거부 전자 메일에는 이 링크에 나열된 정책 번호가 포함됩니다.
@@ -150,6 +148,25 @@ Power BI 시각적 개체가 인증되면 인증되었음을 나타내는 지정
     ![Power BI 인터페이스의 인증된 Power BI 시각적 개체](media/power-bi-custom-visuals-certified/certified-visual-blue.png)
 
 * *Power BI 인증* 필터 옵션을 선택하여 인증된 Power BI 시각적 개체만 표시할 수 있습니다.
+
+## <a name="publication-timeline"></a>게시 타임라인
+
+AppSource에 배포하는 프로세스는 다소 시간이 걸릴 수 있습니다. 이 프로세스가 완료되면 Power BI 시각적 개체를 AppSource에서 다운로드할 수 있습니다.
+
+### <a name="when-will-users-be-able-to-download-my-visual"></a>사용자가 내 시각적 개체를 다운로드할 수 있나요?
+
+* Power BI 시각적 개체를 처음 제출한 경우 사용자는 AppSource에서 전자 메일을 받은 후 몇 시간 후에 다운로드할 수 있습니다.
+
+* 기존 Power BI 시각적 개체에 업데이트를 제출하는 경우 사용자가 제출한 후 한 달 이내에 업데이트를 다운로드할 수 있습니다.
+
+    >[!NOTE]
+    > AppSource의 *버전* 필드는 시각적 개체를 제출한 후 약 1주일 후에 AppSource에서 Power BI를 승인한 날짜로 업데이트됩니다. 사용자는 업데이트된 시각적 개체를 다운로드할 수 있지만 업데이트된 기능은 적용되지 않습니다. 시각적 개체의 새 기능은 한 달 후에 사용자의 보고서에 영향을 줍니다. 
+
+### <a name="when-will-my-power-bi-visual-display-a-certification-badge"></a>언제 내 Power BI 시각적 개체에서 인증 배지를 표시하나요?
+
+* Power BI 시각적 개체를 처음 제출한 경우 AppSource에서 승인 전자 메일을 받은 날에 인증 배지가 나타납니다.
+
+* 기존 Power BI 시각적 개체에 대한 인증을 요청하는 경우 제출 후 한 달 이내에 인증 배지가 표시됩니다.
 
 ## <a name="next-steps"></a>다음 단계
 

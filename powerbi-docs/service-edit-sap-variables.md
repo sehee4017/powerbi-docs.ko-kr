@@ -9,16 +9,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/12/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: cec8d598713000ec1d2b5a1fb72ebaa7d8932faf
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: a05b677a3a6c826c8207af29e965a7cd76149fbe
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74010878"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841046"
 ---
 # <a name="edit-sap-variables-in-the-power-bi-service"></a>Power BI 서비스에서 SAP 변수 편집
 
-DirectQuery와 함께 SAP Business Warehouse 또는 SAP HANA를 사용하는 경우, 이제 보고서 작성자는 최종 사용자가 프리미엄 및 공유 작업 영역에 대한 **Power BI 서비스**에서 SAP 변수를 편집하도록 허용할 수 있습니다. 이 기능은 내 작업 영역의 [공유한 항목] 탭에 있는 보고서에 대해 작동하지 않습니다. 
+DirectQuery와 함께 SAP Business Warehouse 또는 SAP HANA를 사용하는 경우, 이제 보고서 작성자는 최종 사용자가 프리미엄 및 공유 작업 영역에 대한 **Power BI 서비스**에서 SAP 변수를 편집하도록 허용할 수 있습니다. 이 기능은 내 작업 영역과 V1 작업 영역에서 만든 앱의 [공유한 항목] 탭에 있는 보고서에 대해 작동하지 않습니다. 
 
 ![변수 편집 대화 상자](media/service-edit-sap-variables/sap-edit-variables-dialog.png)
 

@@ -3,32 +3,28 @@ title: KPI(핵심 성과 지표) 시각적 개체
 description: Power BI에서 KPI(핵심 성과 지표) 시각적 개체 만들기
 author: mihart
 ms.reviewer: ''
-featuredvideoid: xmja6EpqaO0
+featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 01/30/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5d21fc3a2e585922e65e1385ed1fc436a6dbcf22
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7f865c53a1a47ad53137f0e7659917689243b914
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76974990"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865178"
 ---
 # <a name="create-key-performance-indicator-kpi-visualizations"></a>KPI(핵심 성과 지표) 시각화 만들기
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 KPI(핵심 성과 지표)는 측정 가능한 목표에 대해 만든 진행률의 정도를 알리는 시각적 신호입니다. KPI에 대한 자세한 내용은 [PowerPivot의 KPI(핵심 성과 지표)](/previous-versions/sql/sql-server-2012/hh272050(v=sql.110))를 참조하세요.
 
-Will이 단일 메트릭 시각적 개체: 계기, 카드 및 KPI를 만드는 방법을 보여 주는 과정을 봅니다.
-   > [!NOTE]
-   > 이 비디오에서는 이전 버전의 Power BI Desktop을 사용합니다.
-   > 
-   > 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="when-to-use-a-kpi"></a>KPI를 사용하는 경우
 
@@ -44,7 +40,7 @@ Will이 단일 메트릭 시각적 개체: 계기, 카드 및 KPI를 만드는 �
 
 KPI 데이터 세트에는 KPI에 대한 목표 값이 포함되어야 합니다. 데이터 세트에 목표 값이 포함되어 있지 않다면 목표가 들어 있는 Excel 시트를 데이터 모델 또는 PBIX 파일에 추가함으로써 목표를 생성할 수 있습니다.
 
-## <a name="prerequisites"></a>사전준비
+## <a name="prerequisites"></a>필수 조건
 
 이 자습서는 [소매점 분석 샘플 PBIX 파일](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 사용합니다.
 
@@ -55,6 +51,9 @@ KPI 데이터 세트에는 KPI에 대한 목표 값이 포함되어야 합니다
 1. 보고서 보기에서 **소매점 분석 샘플 PBIX 파일**을 엽니다. ![보고서 뷰 아이콘의 스크린샷.](media/power-bi-visualization-kpi/power-bi-report-view.png)
 
 1. 새 페이지를 추가하려면 **+** 를 선택하세요. ![노란색 탭의 스크린샷.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png)
+
+> [!NOTE]
+> Power BI 동료와 보고서를 공유하려면 개별 Power BI Pro 라이선스가 있거나 보고서가 Premium 용량에 저장되어 있어야 합니다.    
 
 ## <a name="how-to-create-a-kpi"></a>KPI를 만드는 방법
 
@@ -85,7 +84,7 @@ KPI 데이터 세트에는 KPI에 대한 목표 값이 포함되어야 합니다
 
 1. 필요에 따라 페인트 롤러 아이콘을 선택하여 KPI의 형식을 지정하고 서식 창을 엽니다.
 
-    * **표시기** - 표시기의 표시 단위 및 소수 자릿수를 제어합니다.
+    * **지표** - 표시기의 표시 단위 및 소수 자릿수를 제어합니다.
 
     * **추세 축** - **켜기**로 설정된 경우 추세 축이 KPI 시각적 개체의 배경으로 표시됩니다.  
 

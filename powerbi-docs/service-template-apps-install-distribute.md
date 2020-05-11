@@ -4,16 +4,16 @@ description: Power BI에서 조직의 템플릿 앱을 설치, 사용자 지정 
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
-ms.topic: how-to
-ms.date: 03/15/2020
+ms.subservice: powerbi-template-apps
+ms.topic: conceptual
+ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: 08aadc3027c5b265194e4239b150ea5d27fe2e43
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: 86fe618508504faebc920c77a1f9605da59040d9
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79436114"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781691"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>조직에 템플릿 앱 설치 및 배포
 
@@ -65,7 +65,7 @@ Power BI 분석가인가요? 그렇다면 이 문서에서는 Salesforce, Micros
 
 1. **연결**을 클릭합니다.
     
-    데이터 원본을 샘플 데이터에서 사용자 고유의 데이터 원본으로 변경하는 대화 상자 또는 일련의 대화 상자가 열립니다. 일반적으로 데이터 세트 매개 변수 및 데이터 원본 자격 증명이 다시 정의됩니다. [알려진 제한 사항](service-template-apps-tips.md#known-limitations)을 참조하세요.
+    데이터 원본을 샘플 데이터에서 사용자 고유의 데이터 원본으로 변경하는 대화 상자 또는 일련의 대화 상자가 열립니다. 일반적으로 데이터 세트 매개 변수 및 데이터 원본 자격 증명이 다시 정의됩니다. [알려진 제한 사항](service-template-apps-overview.md#known-limitations)을 참조하세요.
     
     아래 예제에서는 데이터에 연결하는 데 두 개의 대화 상자가 사용됩니다.
 
@@ -95,14 +95,18 @@ Power BI 분석가인가요? 그렇다면 이 문서에서는 Salesforce, Micros
 
 때때로 템플릿 앱 작성자는 AppSource, 직접 링크 또는 둘 다를 통해 새로운 향상된 버전의 템플릿 앱을 릴리스합니다.
 
-처음에 AppSource에서 앱을 다운로드한 경우 새 버전의 템플릿 앱이 사용 가능해지면 새 앱 버전을 사용할 수 있음을 알리는 업데이트 배너가 Power BI 서비스에 나타납니다.
+처음에 AppSource에서 앱을 다운로드한 경우 새 버전의 템플릿 앱을 사용할 수 있게 되면 다음 두 가지 방법으로 알림이 표시됩니다.
+* 새 앱 버전을 사용할 수 있음을 알리는 업데이트 배너가 Power BI 서비스에 나타납니다.
+  ![템플릿 앱 업데이트 알림](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-banner.png)
+* Power BI 알림 창에서 알림을 받습니다.
 
-  ![템플릿 앱 업데이트 알림](media/service-template-apps-install-distribute/power-bi-new-app-version-notification.png)
+
+  ![템플릿 앱 업데이트 알림](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-pane.png)
 
 >[!NOTE]
 >처음에 AppSource가 아닌 직접 링크를 통해 앱을 다운로드한 경우 새 버전을 사용할 수 있는 시기를 알 수 있는 유일한 방법은 템플릿 앱 작성자에게 문의하는 것입니다.
 
-  업데이트를 설치하려면 알림 배너에서 **지금 얻기**를 클릭하거나, AppSource에서 앱을 다시 찾고 **지금 가져오기**를 선택합니다. 템플릿 앱 작성자가 제공하는 업데이트의 직접 링크를 얻은 경우 링크를 클릭하면 됩니다.
+  업데이트를 설치하려면 알림 배너 또는 알림 센터에서 **지금 얻기**를 클릭하거나, AppSource에서 앱을 다시 찾고 **지금 가져오기**를 선택합니다. 템플릿 앱 작성자가 제공하는 업데이트의 직접 링크를 얻은 경우 링크를 클릭하면 됩니다.
   
   현재 버전을 덮어쓸지, 아니면 새 작업 영역에 새 버전을 설치할지 묻는 메시지가 표시됩니다. 기본적으로 “덮어쓰기”가 선택되어 있습니다.
 

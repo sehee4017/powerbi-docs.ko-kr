@@ -10,10 +10,10 @@ ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 511fb6674d84cc0d206fdb1807fcb9ebf9e41d30
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73873118"
 ---
 # <a name="connect-to-azure-search-with-power-bi"></a>Power BI로 Azure Search에 연결
@@ -24,13 +24,13 @@ Azure Search 트래픽 분석을 사용하면 Azure Search 서비스에 대한 �
 [Power BI용 Azure Search 콘텐츠 팩](https://app.powerbi.com/getdata/services/azure-search)에 연결합니다.
 
 ## <a name="how-to-connect"></a>연결 방법
-1. 탐색 창의 맨 아래에서 **데이터 가져오기**를 선택합니다.
+1. 탐색 창 아래쪽에서 **데이터 가져오기**를 선택합니다.
    
    ![](media/service-connect-to-azure-search/pbi_getdata.png) 
 2. **서비스** 상자에서 **가져오기**를 선택합니다.
    
    ![](media/service-connect-to-azure-search/pbi_getservices.png) 
-3. **Azure Search**\>**가져오기**를 선택합니다.
+3. **Azure Search** \> **가져오기**를 선택합니다.
    
    ![](media/service-connect-to-azure-search/azuresearch.png)
 4. Azure Search 분석이 저장되는 Table Storage 계정의 이름을 제공합니다.

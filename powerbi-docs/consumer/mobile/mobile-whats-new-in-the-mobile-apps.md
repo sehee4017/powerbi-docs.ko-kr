@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/09/2020
+ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: af9a1ad5dd13f4f57947b0ca92459e7691eab5fd
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.openlocfilehash: 8235f95d724b34e7ea815579e6f8ed6a1f71e409
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80802098"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841713"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -24,6 +24,14 @@ ms.locfileid: "80802098"
 
 >[!NOTE]
 >**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="april-2020"></a>2020년 4월
+
+### <a name="sharing-from-workspaces-is-now-available"></a>이제 작업 영역에서 공유 가능
+작업 영역에서 보고서 및 대시보드를 공유하는 기능을 추가했습니다. 작업 영역 소유자가 허용하는 경우 이제 Power BI 서비스와 마찬가지로 "내 작업 영역" 및 다른 작업 영역에 있는 콘텐츠를 공유할 수 있습니다. 
+
+### <a name="dashboards-now-support-full-screen-mode-ios-and-android"></a>이제 대시보드가 전체 화면 모드(iOS 및 Android)를 지원합니다.
+이제 대시보드를 전체 화면 모드로 전환하여 더 넓은 공간에서 대시보드 콘텐츠를 확인할 수 있습니다. 
 
 ## <a name="march-2020"></a>2020년 3월
 
@@ -871,4 +879,4 @@ Power BI 모바일 앱의 개선된 점 -- Android, iOS(iPhone 및 iPad) 및 Win
 * 인 포커스 모드에서의 맵 타일 렌더링을 개선하여 화면 자원을 최대한 활용하도록 했습니다.
 * 역할 기반 보안을 사용하는 대시보드에 액세스할 때의 사용자 환경을 개선했습니다. 
 * 새로운 기능을 사용하면 다음 타일을 선택하기 위해 대시보드로 돌아갈 필요 없이 인 포커스 모드에서 직접 대시보드 타일을 통해 앞뒤로 탐색할 수 있습니다.
-* 성능을 더 안정화하고 향상시켰습니다. 
+* 성능을 더 안정화하고 향상시켰습니다.

@@ -8,16 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 01/10/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8aa392b69d21905901f8304c577b87b00ed19057
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f7c907d31d4d58a9f39ad982e7d94f3f5ba3f118
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75885285"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865571"
 ---
 # <a name="create-and-view-decomposition-tree-visuals-in-power-bi-preview"></a>Power BI에서 분해 트리 시각적 개체 만들기 및 보기(미리 보기)
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
+
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 Power BI의 분해 트리 시각적 개체를 사용하여 여러 차원에서 데이터를 시각화할 수 있습니다. 자동으로 데이터를 집계하며 임의 순서로 차원을 드릴다운할 수 있게 해줍니다. AI(인공 지능) 시각화이기도 하므로 특정 기준에 따라 드릴다운할 다음 차원을 찾도록 요청할 수 있습니다. 그러므로 임시 탐색 및 근본 원인 분석을 수행하는 데 유용한 도구입니다.
@@ -29,6 +32,8 @@ Power BI의 분해 트리 시각적 개체를 사용하여 여러 차원에서 �
 - 회사가 보유한 이월 주문(재고 부족) 제품의 비율을 분석하는 공급망 시나리오.  
 - 게임 장르 및 제작사와 같은 다양한 요소에 따라 비디오 게임 판매를 분류하는 판매 시나리오.
 
+> [!NOTE]
+> Power BI 동료와 보고서를 공유하려면 개별 Power BI Pro 라이선스가 있거나 보고서가 Premium 용량에 저장되어 있어야 합니다.    
 
 ## <a name="get-started"></a>시작
 시각화 창에서 분해 트리 아이콘을 선택합니다.

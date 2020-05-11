@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: fe349e9eb29f85315e568d5851ce8206186cb61b
-ms.sourcegitcommit: bcc42e938fa28abe433287fecb9abb28c253b6bb
+ms.openlocfilehash: 776ef09de58c2bb3b47a6d55ae5e8cf2be0cf228
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80302547"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82613679"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint-preview"></a>XMLA 엔드포인트로 데이터 세트 연결(미리 보기)
 
@@ -231,7 +231,20 @@ Power BI Desktop에서 작성되고 Premium 작업 영역에 게시된 데이터
 
 ### <a name="power-bi-desktop-in-live-connect-mode"></a>Power BI Desktop의 라이브 연결 모드
 
-Power BI Desktop은 Azure Analysis Services 또는 SQL Server Analysis Services에 배포된 모델 데이터베이스인 것처럼 Power BI Premium 데이터 세트에 연결할 수 있습니다. 이 경우 Power BI Desktop은 XMLA 엔드포인트를 사용합니다. 그러나 Power BI Desktop 사용자는 Power BI 데이터 세트 전용으로 만든 라이브 연결 기능을 대신 사용하는 것이 좋습니다. 라이브 연결을 사용하면 데이터 세트의 인증 수준을 표시하는 향상된 검색 환경을 제공하며, 사용자는 작업 영역 URL을 추적할 필요가 없습니다. 데이터 세트의 이름만 입력할 수 있습니다. 더 자세히 알아보려면 [Power BI Desktop에서 Power BI 서비스의 데이터 세트에 연결](desktop-report-lifecycle-datasets.md)을 참조하세요.
+Power BI Desktop은 라이브 연결을 사용하여 Power BI Premium 데이터 세트에 연결할 수 있습니다. 라이브 연결을 사용하는 경우 데이터를 로컬로 복제하지 않아도 되므로 사용자가 유의적 모델을 더 쉽게 사용할 수 있습니다. 사용자는 다음과 같은 두 가지 방법으로 연결할 수 있습니다.
+
+**Power BI 데이터 세트**를 선택한 다음 데이터 세트를 선택하여 보고서를 만듭니다. 이는 사용자가 데이터 세트에 실시간으로 연결하는 **권장** 방법입니다. 이 방법은 데이터 세트의 보증 수준을 보여주는 향상된 검색 환경을 제공합니다. 사용자는 작업 영역 URL을 찾아서 추적할 필요가 없습니다. 사용자는 간단히 데이터 세트 이름을 입력하거나 스크롤하여 원하는 데이터 세트를 찾을 수 있습니다.
+
+![데이터 세트에 라이브 연결](media/service-premium-connect-tools/dataset-live-connect.png)
+
+사용자가 연결할 수 있는 다른 방법은 **데이터 가져오기** > **Analysis Services**를 사용하고, Power BI Premium 작업 영역 이름을 URL로 지정하고, **라이브 연결**을 선택한 다음, 탐색기에서 데이터 세트를 선택하는 것입니다. 이 경우 Power BI Desktop은 XMLA 엔드포인트를 사용하여 Analysis Services 데이터 모델인 것처럼 데이터 세트에 라이브 연결합니다. 
+
+![Analysis Services 데이터 세트에 라이브 연결](media/service-premium-connect-tools/as-live-connect.png)
+
+기존 보고서가 Power BI Premium 데이터 세트로 마이그레이션하려는 Analysis Services 데이터 모델에 라이브 연결된 조직은 **데이터 변환** > **데이터 원본 설정**에서 서버 이름 URL을 변경하기만 하면 됩니다.
+
+> [!NOTE]
+> XMLA 읽기/쓰기 공개 미리 보기 중에 Power BI Desktop에서 **데이터 가져오기** > **Analysis Services**를 사용하고 **라이브 연결** 옵션을 선택하여 Power BI Premium 데이터 세트에 연결하는 경우, 아직 Power BI 서비스에 보고서를 게시할 수 없습니다.
 
 ## <a name="audit-logs"></a>감사 로그
 

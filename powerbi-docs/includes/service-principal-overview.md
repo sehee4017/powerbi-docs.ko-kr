@@ -1,10 +1,18 @@
 ---
-ms.openlocfilehash: 26f4b82301915524b65d9d2d6b39d61b54ed0321
-ms.sourcegitcommit: 8eeb784fd46321680367ac913ef976aeedaa7766
+title: 서비스 주체 개요
+description: 서비스 주체 개요
+services: powerbi
+author: KesemSharabi
+ms.author: kesharab
+ms.topic: include
+ms.date: 04/05/2020
+ms.custom: include file
+ms.openlocfilehash: 7fc4412a66602fe3a6548c3e1afb06de788da90d
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "80621593"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82616032"
 ---
 서비스 주체는 Azure AD 애플리케이션이 콘텐츠 및 API Power BI 서비스에 액세스하도록 하는 데 사용할 수 있는 인증 방법입니다.
 

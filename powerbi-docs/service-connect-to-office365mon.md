@@ -10,10 +10,10 @@ ms.date: 11/26/2019
 ms.author: painbar
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 8e9563d10d80290a48e20cd2d6a889831d34924b
-ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/26/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "74548581"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>Power BI로 Office365Mon에 연결
@@ -34,7 +34,7 @@ Power BI용 [Office365Mon 템플릿 앱](https://msit.powerbi.com/groups/me/geta
 3. **Office365Mon** \> **가져오기**를 선택합니다.
    
    ![](media/service-connect-to-office365mon/o365mon.png)
-4. 인증 방법에 대해 **oAuth2** \> **로그인**을 선택합니다.
+4. 인증 방법에서 **oAuth2** \> **로그인**을 선택합니다.
    
    메시지가 표시되면 Office365Mon 관리자 자격 증명을 입력하고 인증 프로세스를 따릅니다.
    

@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 04/24/2020
-ms.openlocfilehash: cbf30e3479629533faea73465362c378d4b73848
-ms.sourcegitcommit: c772c544ce2e1e2a147b9b62e5579ac3cb59d54c
+ms.date: 04/28/2020
+ms.openlocfilehash: ad75cf6b85a896fbdc275748dc31c620206e08a2
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "82255770"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82692883"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI 페이지를 매긴 보고서의 지원되는 데이터 원본
 
@@ -25,7 +25,7 @@ ms.locfileid: "82255770"
 
 | 데이터 원본 | 인증 | 참고 |
 | --- | --- | --- |
-| Azure SQL Database <br>Azure SQL Data Warehouse | 기본, SSO(Single Sign-On), OAuth2 |   |
+| Azure SQL Database <br>Azure SQL Data Warehouse | 기본, SSO(Single Sign-On), OAuth2 | Azure SQL DB에서 엔터프라이즈 게이트웨이를 사용할 수 있습니다. 그러나 이러한 시나리오에서는 SSO 또는 oAuth2를 사용하여 인증할 수 없습니다.   |
 | Azure SQL Managed Instance | 기본 | 퍼블릭 또는 프라이빗 엔드포인트를 통해(프라이빗 엔드포인트는 Enterprise Gateway를 통해 라우팅되어야 함)  |
 | Azure Analysis Services | SSO, OAuth2 | AAS 방화벽을 사용하지 않도록 설정하거나 모든 IP 범위를 허용하도록 구성해야 함.|
 | Power BI 데이터 세트 | SSO | 프리미엄 및 비프리미엄 Power BI 데이터 세트 읽기 권한 필요 |

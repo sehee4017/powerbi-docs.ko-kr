@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/13/2020
+ms.date: 04/16/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fa0686171ee6f9e171e69d60f804d8e141530103
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5247b2c990c8c0cfd29da0e8a30cdc8691000106
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79207255"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866820"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop의 데이터 원본
 
@@ -139,7 +139,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * HDInsight 대화형 쿼리
 * Azure Data Explorer(Kusto)
 * Azure Cost Management
-* Azure Time Series Insights(베타)
+
 
 다음 그림은 **Azure**에 대한 **데이터 가져오기** 창을 보여 줍니다.
 
@@ -191,6 +191,9 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Quick Base
 * TeamDesk(베타)
 * Workplace Analytics(베타)
+* Power BI용 Projectplace(베타)
+* Webtrends Analytics(베타)
+* Zoho Creator(베타)
 
 다음 그림은 **온라인 서비스**에 대한 **데이터 가져오기** 창을 보여 줍니다.
 
@@ -213,6 +216,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * ODBC
 * OLE DB
 * BI360 - 예산 및 재무 보고(베타)
+* Cognite Data Fusion(베타)
 * FHIR
 * Information Grid(베타)
 * Jamf Pro(베타)
@@ -220,13 +224,15 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Paxata
 * QubolePresto(베타)
 * Roamler(베타)
-* Siteimprove(베타)
+* Siteimprove
 * SurveyMonkey(베타)
-* Tenforce(스마트) 목록(베타)
 * TIBCO(R) 데이터 가상화(베타)
 * Vena(베타)
 * Workforce Dimensions(베타)
 * Zucchetti HR Infinity(베타)
+* Tenforce(스마트) 목록
+* Shortcuts Business Insights(베타)
+* Vessel Insight(베타)
 * 빈 쿼리
 
 다음 그림은 **기타**에 대한 **데이터 가져오기** 창을 보여 줍니다.

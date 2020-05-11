@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/25/2020
+ms.date: 05/04/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 79f3fa8c9c175b698cb91784f95d3bb9d8ca0cc5
-ms.sourcegitcommit: ad638d553d5f7f5831587791ffa7aa37a47dd6ae
+ms.openlocfilehash: 2c9b7a5d13f2bc0f74d82dd2ad78efdb76ff6a14
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80273251"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781454"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL에 쿼리 문자열 매개 변수를 사용하여 보고서 필터링
 
@@ -156,7 +156,9 @@ V3와 V4 사이에는 다른 점이 있습니다. OData V3는 날짜를 지원�
 
 ## <a name="special-characters-in-url-filters"></a>URL 필터의 특수 문자
 
-특수 문자 및 공백에는 몇 가지 추가 서식 지정이 필요합니다. 쿼리에 공백, 대시 또는 기타 ASCII 문자가 아닌 문자가 포함되는 경우 밑줄과 X로 시작하는 ‘이스케이프 코드’( **_x**) 및 4자리 **유니코드**와 그 뒤에 다른 밑줄을 붙여 해당 특수 문자의 접두사를 지정합니다.  유니코드가 4자 미만인 경우 0으로 채워야 합니다. 몇 가지 예제는 다음과 같습니다.
+### <a name="special-characters-in-table-and-column-names"></a>테이블 및 열 이름의 특수 문자
+
+테이블 및 열 이름의 특수 문자와 공백에는 몇 가지 추가 서식 지정이 필요합니다. 쿼리에 공백, 대시 또는 기타 ASCII 문자가 아닌 문자가 포함되는 경우 밑줄과 X로 시작하는 ‘이스케이프 코드’( **_x**) 및 4자리 **유니코드**와 그 뒤에 다른 밑줄을 붙여 해당 특수 문자의 접두사를 지정합니다.  유니코드가 4자 미만인 경우 0으로 채워야 합니다. 몇 가지 예제는 다음과 같습니다.
 
 |식별자  |유니코드  | Power BI용 코딩  |
 |---------|---------|---------|
@@ -169,6 +171,24 @@ Table_x0020_Name/Column_x002B_Plus eq 3 ![테이블 시각적 개체 렌더링 �
 
 
 Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![테이블 시각적 개체 렌더링 특수 문자](media/service-url-filters/power-bi-special-characters2.png)
+
+### <a name="special-characters-in-values"></a>값의 특수 문자
+
+URL 필터는 작은따옴표(')를 제외하고 필드 값의 모든 특수 문자를 이미 지원합니다. 이 문자만 이스케이프해야 합니다. 작은따옴표 문자를 검색하려면 작은따옴표 두 개('')를 사용합니다. 
+
+예:
+
+- `?filter=Table/Name eq 'O''Brien'`은 다음과 같습니다. 
+
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-obrien.png" alt-text="Name is O'Brien":::
+
+- `?filter=Table/Name eq 'Lee''s Summit'`은 다음과 같습니다.
+
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-lees.png" alt-text="Lee 's Summit":::
+
+- `in` 연산자는 이 이스케이프도 지원합니다. `?filter=Table/Name in ('Lee''s Summit', 'O''Brien')`은 다음과 같습니다.
+
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-in.png" alt-text="Lee's Summit 또는 O'Brien":::
 
 ## <a name="use-dax-to-filter-on-multiple-values"></a>DAX를 사용하여 여러 값을 필터링
 

@@ -6,19 +6,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/17/2020
+ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: a82465adb5b0c7fe8be0e6e724c5eda1bfcf7ec0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1fee95bbfb790a1c61d82131579c8fb43980ca05
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79206956"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866728"
 ---
 # <a name="work-with-data-view-in-power-bi-desktop"></a>Power BI Desktop의 데이터 뷰 사용
 
 *데이터 보기*는 *Power BI Desktop* 모델의 데이터를 검사하고, 검색하고, 이해하는 데 도움이 됩니다. ‘Power Query 편집기’에서 테이블, 열 및 데이터를 보는 것과는 차이가 있습니다.  데이터 보기에서는 모델에 데이터를 로드한 *후*의 데이터를 보게 됩니다.
+
+> [!NOTE]
+> 데이터 보기에서는 모델에 데이터를 로드한 후 표시하므로 모든 데이터 원본이 DirectQuery를 기반으로 하는 경우 데이터 보기 아이콘이 표시되지 않습니다. 
 
 데이터를 모델링할 때 보고서 캔버스에서 시각 효과 없이 테이블 또는 열의 실제 모습을 보려는 경우가 있습니다. 행 수준을 바로 확인하는 것이 좋습니다. 이 기능은 특히 측정치와 계산된 열을 만들거나, 데이터 형식 또는 데이터 범주를 파악해야 하는 경우 유용합니다.
 
@@ -48,3 +51,14 @@ ms.locfileid: "79206956"
 
 > [!NOTE]
 > 현재 사용자 인터페이스와는 다른 문화권에서 Power BI 모델을 만든 경우 텍스트 필드 이외 항목에 대해서는 데이터 보기 사용자 인터페이스에 검색 상자가 나타나지 않습니다. 예를 들어, 미국 영어로 만들어졌지만 스페인어로 표시되는 모델에 적용됩니다.
+
+
+## <a name="next-steps"></a>다음 단계
+
+Power BI Desktop으로 모든 종류의 작업을 수행할 수 있습니다. 해당 기능에 대한 자세한 내용은 다음 리소스를 확인하세요.
+
+* [Power BI Desktop이란?](desktop-what-is-desktop.md)
+* [Power BI Desktop을 사용한 쿼리 개요](desktop-query-overview.md)
+* [Power BI Desktop의 데이터 형식](desktop-data-types.md)
+* [Power BI Desktop에서 데이터 셰이핑 및 결합](desktop-shape-and-combine-data.md)
+* [Power BI Desktop의 일반적인 쿼리 작업](desktop-common-query-tasks.md)

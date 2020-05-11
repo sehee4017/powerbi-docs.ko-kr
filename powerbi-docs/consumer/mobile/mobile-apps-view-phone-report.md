@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: 91fc7e9e3664f21d50b475f316a9a6c64875fab4
-ms.sourcegitcommit: 9b806dfe62c2dee82d971bb4f89d983b97931b43
+ms.openlocfilehash: eba723e4e75c7ce051921a907d2a3d0aa9536833
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "80802134"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841782"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>휴대폰에 대해 최적화된 Power BI 보고서 보기
 
@@ -131,7 +131,7 @@ Power BI 보고서의 다른 모든 기능은 휴대폰에 최적화된 보고�
 
 
 ## <a name="next-steps"></a>다음 단계
-* [Power BI 휴대폰 앱에 대해 최적화된 보고서 만들기](../../desktop-create-phone-report.md)
+* [Power BI 모바일 앱에 최적화된 보고서 만들기](../../desktop-create-phone-report.md)
 * [Power BI에서 대시보드 휴대폰 보기 만들기](../../service-create-dashboard-mobile-phone-view.md)
 * [모든 크기에 최적화된 반응형 시각적 개체 만들기](../../visuals/desktop-create-responsive-visuals.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

@@ -8,13 +8,13 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
-ms.date: 04/02/2020
-ms.openlocfilehash: df59d09a1e8557842904b46eded0a83c86448224
-ms.sourcegitcommit: e0833ec22b263f919025acae88551570b4def0cd
+ms.date: 05/01/2020
+ms.openlocfilehash: 83de843ba640bc165e9a56450bc5539e8e433e78
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "80647707"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82692861"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Power BI에서 페이지를 매긴 보고서의 URL 매개 변수
 
@@ -68,7 +68,11 @@ URL에 보고서 매개 변수를 전달하는 예는  [URL에 보고서 매�
 
 ### <a name="report-commands-rdl"></a>보고서 명령(`rdl:`) 
 
-**내보내기 형식** 보고서를 렌더링하고 내보낼 형식을 지정합니다. 사용 가능한 값은 다음과 같습니다.
+**내보내기 형식** 보고서를 렌더링하고 내보낼 형식을 지정합니다.
+
+예: rdl:format=PDF
+
+사용 가능한 값은 다음과 같습니다.
  
 - PPTX(PowerPoint)
 - MHTML 

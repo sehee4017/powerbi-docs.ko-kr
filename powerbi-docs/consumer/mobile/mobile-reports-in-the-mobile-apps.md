@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/07/2020
+ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: 9f9a0afb766becefa5b74c5737795f6f227e7c27
-ms.sourcegitcommit: abc8419155dd869096368ba744883b865c5329fa
+ms.openlocfilehash: f2aeb720221fa79aa95f9674aa1e3ac610b28c19
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79435769"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841736"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 보고서 탐색
 적용 대상:
@@ -45,7 +45,7 @@ Power BI 모바일 앱의 보고서를 위한 두 가지 아이콘이 있습니�
 * ![휴대폰 보고서 아이콘](./media/mobile-reports-in-the-mobile-apps/report-phone-icon.png) 세로 방향으로 표시되는 하나 이상의 휴대폰에 최적화된 페이지로 구성된 보고서를 나타냅니다.
 
 > [!NOTE]
-> 휴대폰을 가로 방향으로 들면 보고서 페이지가 휴대폰 레이아웃으로 표시되더라도 항상 가로 레이아웃으로 볼 수 있습니다.
+> 휴대폰을 가로 방향으로 들면 보고서 페이지가 모바일 레이아웃으로 표시되더라도 항상 가로 레이아웃으로 볼 수 있습니다.
 
 대시보드에서 보고서로 이동하려면 타일의 오른쪽 위에 있는 **추가 옵션**(...)을 탭한 다음, **보고서 열기**를 탭합니다.
   

@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: cfe877d6fac96124badc19f6ab685523077132fc
-ms.sourcegitcommit: 6bbc3d0073ca605c50911c162dc9f58926db7b66
+ms.openlocfilehash: f7e21f5b9f2ac01fec19a7113cf595464619a0e0
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79381287"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841989"
 ---
 # <a name="what-is-power-bi-administration"></a>Power BI 관리란?
 
@@ -50,7 +50,7 @@ Power BI 서비스 관리자 역할은 사용자에게 라이선스를 할당하
 
 ## <a name="administrative-tasks"></a>관리 작업
 
-관리자는 다음 표에서 다루는 조직에 대한 Power BI 테넌트를 지원하는 많은 작업을 수행합니다.
+관리자는 다음 테이블에서 다루는 조직에 대한 Power BI를 지원하는 많은 작업을 수행합니다.
 
 | **작업 영역** | **일반 작업** |
 | --- | --- |
@@ -78,7 +78,7 @@ Power BI 서비스 관리자 역할은 사용자에게 라이선스를 할당하
 
 ## <a name="next-steps"></a>다음 단계
 
-이 문서를 통해 Power BI 관리자 작업 및 관련된 특정 역할, 작업 및 도구에 대한 인사이트를 빠르게 파악하기를 바랍니다. 이해도를 높이기 위해 다음 문서 주제를 참조하는 것이 좋습니다.
+이 문서를 통해 Power BI 관리자 작업 및 관련된 특정 역할, 작업 및 도구에 대한 인사이트를 빠르게 파악하기를 바랍니다. 자세히 알아보려면 다음 문서를 참조하는 것이 좋습니다.
 
 - [Power BI 관리 포털 사용](service-admin-portal.md)
 - [테넌트 관리자 설정 지침](guidance/admin-tenant-settings.md)

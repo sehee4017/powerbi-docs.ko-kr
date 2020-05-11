@@ -1,30 +1,32 @@
 ---
 title: Power BI에서 상대 날짜 슬라이서 또는 필터 사용
 description: Power BI에서 슬라이서 또는 필터를 사용하여 상대 날짜 범위를 제한하는 방법을 알아봅니다.
-author: mihart
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/06/2020
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9ce36bfa61b16bd30e59bc8491af80efdfdc8a35
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f63a56ea350d089b82eb7a18470e1bcc439d1151
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81006792"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866521"
 ---
-# <a name="use-a-relative-date-slicer-and-filter-in-power-bi"></a>Power BI에서 상대 날짜 슬라이서 및 필터 사용
+# <a name="creating-a-relative-date-slicer-and-filter-in-power-bi"></a>Power BI에서 상대 날짜 슬라이서 및 필터 만들기
 
-[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-desktop](../includes/yes-desktop.md)] [!INCLUDE [yes-service](../includes/yes-service.md)]
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 **상대 날짜 슬라이서** 또는 **상대 날짜 필터**를 사용하면 데이터 모델의 모든 날짜 열에 시간 기반 필터를 적용할 수 있습니다. 예를 들어 **상대 날짜 슬라이서**를 사용하여 지난 30일(또는 월, 달력 월 등) 이내에 발생한 판매 데이터만 표시할 수 있습니다. 데이터를 새로 고치면 상대 기간에 적절한 상대 날짜 제약 조건이 자동으로 적용됩니다.
 
 ![상대 날짜 슬라이서를 가리키는 화살표가 있는 보고서의 스크린샷.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-01.png)
 
-## <a name="use-the-relative-date-range-slicer"></a>상대 날짜 범위 슬라이서 사용
+Power BI 동료와 보고서를 공유하려면 개별 Power BI Pro 라이선스가 있거나 보고서가 Premium 용량에 저장되어 있어야 합니다.
+
+## <a name="create-the-relative-date-range-slicer"></a>상대 날짜 범위 슬라이서 만들기
 
 다른 슬라이서와 마찬가지로 상대 날짜 슬라이서를 사용할 수 있습니다. 보고서에 대한 **슬라이서** 시각적 개체를 만든 다음, **필드** 값에 대해 날짜 값을 선택합니다. 다음 이미지에서는 *OrderDate* 필드를 선택했습니다.
 
@@ -42,17 +44,17 @@ ms.locfileid: "81006792"
 
 ![첫 번째 설정이 호출된 Relative 구성 옵션의 스크린샷.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04.png)
 
-* Last
+* 마지막
 
 * 다음
 
-* 이
+* 이번
 
 *상대 날짜 슬라이서*의 두 번째(가운데) 설정을 사용하면 상대 날짜 범위를 정의하는 숫자를 입력할 수 있습니다.
 
 ![두 번째 설정이 호출된 Relative 구성 옵션의 스크린샷.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04a.png)
 
-세 번째 설정을 사용하여 날짜 측정을 선택할 수 있습니다. 다음 옵션이 있습니다.
+세 번째 설정을 사용하여 날짜 측정을 선택할 수 있습니다. 다음 선택 항목이 제공됩니다.
 
 ![세 번째 설정이 호출된 Relative 구성 옵션의 스크린샷.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-05.png)
 
@@ -62,11 +64,11 @@ ms.locfileid: "81006792"
 
 * 주(달력)
 
-* 월
+* 개월
 
 * 개월(달력)
 
-* 연도
+* 년
 
 * 년(달력)
 
@@ -80,7 +82,7 @@ ms.locfileid: "81006792"
 
 이에 비해 *개월(달력)* 을 선택한 경우, 제한된 시각적 개체는 5월 1일부터 6월 30일(달력상의 최근 두 달)까지의 데이터를 보여줍니다.
 
-## <a name="using-the-relative-date-range-filter"></a>상대 날짜 범위 필터 사용
+## <a name="create-the-relative-date-range-filter"></a>상대 날짜 범위 필터 만들기
 
 보고서 페이지 또는 전체 보고서에 대한 상대 날짜 범위 필터를 만들 수도 있습니다. 이렇게 하려면 **필드** 창의 **페이지 수준 필터** 또는 **보고서 수준 필터**로 끌어다 놓습니다.
 
@@ -106,4 +108,5 @@ ms.locfileid: "81006792"
 
 ## <a name="next-steps"></a>다음 단계
 
-[Power BI Desktop에서 그룹화 및 범주화 사용](../desktop-grouping-and-binning.md) 방법에 대해 알아봅니다.
+- [Power BI에서 상대 날짜 슬라이서 및 필터 사용](desktop-slicer-filter-date-range.md)
+- [Power BI의 슬라이서](power-bi-visualization-slicers.md)

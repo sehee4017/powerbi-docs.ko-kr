@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 93cb384c06fc78f8d006aed02aef323bf3a72d31
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c2e68b894c7f3e259fd2236d655d562257383433
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81006352"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866567"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Power BI에 앱 게시
 
@@ -63,8 +63,8 @@ Power BI에서 공식 패키지 콘텐츠를 만든 다음, *앱*을 통해 광�
 
 5. **사용 권한**에서 앱에 액세스할 수 있는 사용자와 수행할 수 있는 작업을 결정합니다. 
 
-    - [클래식 작업 영역](service-create-workspaces.md): 조직의 모든 사용자, 특정 사용자 또는 AAD(Azure Active Directory) 보안 그룹.
-    - [새 환경 작업 영역](service-create-the-new-workspaces.md): 특정 사용자, AAD 보안 그룹, 배포 목록 및 Office 365 그룹. 모든 작업 영역 사용자에게는 앱 작업 영역의 앱에 대한 액세스가 자동으로 부여됩니다.
+    - [클래식 작업 영역](service-create-workspaces.md): 조직의 모든 사용자, 특정 사용자 또는 Azure AD(Azure Active Directory) 보안 그룹.
+    - [새 환경 작업 영역](service-create-the-new-workspaces.md): 특정 사용자, Azure AD 보안 그룹, 배포 목록 및 Office 365 그룹. 모든 작업 영역 사용자에게는 앱 작업 영역의 앱에 대한 액세스가 자동으로 부여됩니다.
     - 빌드 권한을 제공하여 앱 사용자가 앱의 기본 데이터 세트에 연결하도록 허용할 수 있습니다. 공유 데이터 세트를 검색하면 이러한 데이터 세트가 표시됩니다. 이 문서에서 [사용자가 앱의 데이터 세트에 연결하도록 허용](#allow-users-to-connect-to-datasets)하는 방법을 자세히 알아보세요.
     - 빌드 권한이 있는 사용자는 이 앱의 보고서를 다른 작업 영역으로 복사할 수도 있습니다. 이 문서에서 [사용자가 앱의 보고서를 복사하도록 허용](#allow-users-to-copy-reports)하는 방법을 자세히 알아보세요.
     

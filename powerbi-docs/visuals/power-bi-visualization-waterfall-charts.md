@@ -8,29 +8,24 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/5/2019
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6abca661a1553bfabc3da35fe714ff9bced5555a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d4e31d8c3d2bcbbfdf0d2d932be70cc2cd5f2625
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74907667"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866498"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI의 폭포 차트
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 폭포 차트는 Power BI가 값을 더하거나 뺄 때의 누계를 보여 줍니다. 초기 값(예: 순수입)이 일련의 양수 및 음수 변경에 어떻게 영향을 받는지 이해하는 데 유용합니다.
 
-세로형 막대는 색으로 구분되어 증가 및 감소를 빠르게 구분할 수 있습니다. 중간 값 열이 부동 세로형 막대인 반면, 초기 및 최종 값 세로형 막대는 종종 [가로축에서 시작합니다](https://support.office.com/article/Create-a-waterfall-chart-in-Office-2016-for-Windows-8de1ece4-ff21-4d37-acd7-546f5527f185#BKMK_Float "가로축에서 시작"). 이러한 스타일로 인해, 폭포 차트는 교량 차트라고도 합니다.
-
-   > [!NOTE]
-   > 이 비디오에서는 이전 버전의 Power BI Desktop을 사용합니다.
-   > 
-   > 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qKRZPBnaUXM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+세로형 막대는 색으로 구분되어 증가 및 감소를 빠르게 구분할 수 있습니다. 중간 값은 부동 세로 막대인 반면, 초기 및 최종 값 세로 막대는 [가로 축에서 시작](https://support.office.com/article/Create-a-waterfall-chart-in-Office-2016-for-Windows-8de1ece4-ff21-4d37-acd7-546f5527f185#BKMK_Float "가로 축에서 시작")하는 경우가 많습니다. 이러한 스타일로 인해, 폭포 차트는 교량 차트라고도 합니다.
 
 ## <a name="when-to-use-a-waterfall-chart"></a>폭포 차트를 사용하는 경우
 
@@ -42,11 +37,11 @@ ms.locfileid: "74907667"
 
 * 다양한 수익원과 총수익(또는 손실)을 표시하여 회사의 연간 수익을 그리려는 경우
 
-* 연간 회사의 시작 인원수와 최종 인원수를 표시할 때.
+* 1년 동안 회사의 시작 및 종료 인력을 나타내기 위해
 
 * 매달 벌고 쓰는 금액이 얼마인지 그리고 계좌의 잔고가 얼마인지를 시각화하기 위해
 
-## <a name="prerequisite"></a>필수 요소
+## <a name="prerequisite"></a>필수 조건
 
 이 자습서는 [소매점 분석 샘플 PBIX 파일](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 사용합니다.
 
@@ -56,8 +51,10 @@ ms.locfileid: "74907667"
 
 1. **소매점 분석 샘플 PBIX 파일**을 보고서 보기 아이콘 ![보고서 보기 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
 
-1. Select ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
+1. 새 페이지를 추가하기 위해 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
 
+> [!NOTE]
+> Power BI 동료와 보고서를 공유하려면 개별 Power BI Pro 라이선스가 있거나 보고서가 Premium 용량에 저장되어 있어야 합니다.    
 
 ## <a name="create-a-waterfall-chart"></a>폭포 차트 만들기
 
@@ -73,7 +70,7 @@ ms.locfileid: "74907667"
 
     ![시각화 템플릿](media/power-bi-visualization-waterfall-charts/convert-waterfall.png)
 
-1. **시간** > **회계 월**을 선택하여 **범주**에 추가합니다.
+1. **시간** > **FiscalMonth**를 선택하여 **범주** 영역에 추가합니다.
 
     ![폭포](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-month.png)
 
