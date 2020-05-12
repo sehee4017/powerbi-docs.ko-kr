@@ -10,7 +10,7 @@
     - name: 개념
       expanded: true
       items:
-        - name: 작업 구성
+        - name: 작업 영역에서 작업 구성
           href: ../service-new-workspaces.md
         - name: 클래식 작업 영역에서 사용량 모니터링
           href: ../service-usage-metrics.md
@@ -69,11 +69,11 @@
               href: ../service-share-dashboard-that-links-to-excel-onedrive.md
         - name: Power BI 확장
           items:
-            - name: 도구 모음
+            - name: Excel에서 분석
               href: ../service-analyze-in-excel.md
             - name: Excel에서 분석 문제 해결
               href: ../desktop-troubleshooting-analyze-in-excel.md
-            - name: '오류: Excel 통합 문서에서 데이터를 찾을 수 없습니다.'
+            - name: '오류: Excel 통합 문서에서 데이터를 찾을 수 없음'
               href: ../service-admin-troubleshoot-excel-workbook-data.md
             - name: Power Automate 및 Power BI
               href: ../service-flow-integration.md
