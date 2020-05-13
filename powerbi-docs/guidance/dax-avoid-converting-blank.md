@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 2f70b98ed540a2e5b87e5a949e30b0c1c02069d1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: aea24e96acadbf9fee9e6dbf3aa395e09ef8e541
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74700389"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279644"
 ---
 # <a name="dax-avoid-converting-blanks-to-values"></a>DAX: 공백을 값으로 변환하지 마세요.
 
@@ -66,7 +66,7 @@ DIVIDE([Profit], [Sales])
 ![아까와 동일한 테이블 시각적 개체가 4개와 데이터 행만 표시하는 것을 볼 수 있습니다. 각 행에는 판매량 값이 있고 Profit Margin(이익) 값이 0이 아닌 고객이 표시되어 있습니다.](media/dax-avoid-converting-blank/table-visual-good.png)
 
 > [!TIP]
-> 필요한 경우 [데이터가 없는 항목 표시](../desktop-show-items-no-data.md) 옵션을 사용하도록 설정하여 시각적 개체가 필터 컨텍스트 내에서 모든 그룹화(값을 반환하는 것과 비어 있음을 반환하는 것 모두)를 표시하도록 구성할 수 있습니다.
+> 필요한 경우 [데이터가 없는 항목 표시](../create-reports/desktop-show-items-no-data.md) 옵션을 사용하도록 설정하여 시각적 개체가 필터 컨텍스트 내에서 모든 그룹화(값을 반환하는 것과 비어 있음을 반환하는 것 모두)를 표시하도록 구성할 수 있습니다.
 
 ## <a name="recommendation"></a>권장 사항
 
@@ -80,3 +80,4 @@ DIVIDE([Profit], [Sales])
 
 - [DAX(Data Analysis Expressions) 참조](/dax/)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+

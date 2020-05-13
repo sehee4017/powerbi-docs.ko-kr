@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: fdd7504823f088ed0e88657a6fcccaeb9a5a36d0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1ab1ed139a62b1929cb1b4da411bf7949a5d151e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79487812"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279759"
 ---
 # <a name="tenant-admin-settings-guidance"></a>테넌트 관리자 설정 지침
 
@@ -21,7 +21,7 @@ ms.locfileid: "79487812"
 
 이 지침에서는 Power BI 경험 개선에 유용하거나 조직이 위험에 노출될 수 있는 특정 테넌트 설정을 소개합니다. 관리자는 테넌트를 항상 조직의 정책과 프로세스에 맞추어 조정하는 것이 좋습니다.
 
-[테넌트 설정](../service-admin-portal.md#tenant-settings)은 [관리 포털](https://app.powerbi.com/admin-portal/tenantSettings)에서 관리되며 [Power BI 서비스 관리자](../service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi)가 구성할 수 있습니다. 테넌트 설정이 많으면 소수의 사용자만 기능과 특징을 사용하게 될 수도 있습니다. 따라서 필요한 보안 그룹을 계획할 수 있도록 설정에 먼저 익숙해지는 것이 좋습니다. 동일한 보안 그룹을 여러 설정에 적용할 수도 있습니다.
+[테넌트 설정](../admin/service-admin-portal.md#tenant-settings)은 [관리 포털](https://app.powerbi.com/admin-portal/tenantSettings)에서 관리되며 [Power BI 서비스 관리자](../admin/service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi)가 구성할 수 있습니다. 테넌트 설정이 많으면 소수의 사용자만 기능과 특징을 사용하게 될 수도 있습니다. 따라서 필요한 보안 그룹을 계획할 수 있도록 설정에 먼저 익숙해지는 것이 좋습니다. 동일한 보안 그룹을 여러 설정에 적용할 수도 있습니다.
 
 ## <a name="improve-power-bi-experience"></a>Power BI 경험 개선
 
@@ -88,7 +88,7 @@ ms.locfileid: "79487812"
 
 ### <a name="publish-to-web"></a>웹에 게시
 
-[웹에 게시](../service-publish-to-web.md) 기능은 공개 보고서를 웹에 게시하는 데 사용됩니다. 이 기능을 잘못 사용하면 기밀 정보가 웹에서 실시간으로 노출될 위험이 있습니다.
+[웹에 게시](../collaborate-share/service-publish-to-web.md) 기능은 공개 보고서를 웹에 게시하는 데 사용됩니다. 이 기능을 잘못 사용하면 기밀 정보가 웹에서 실시간으로 노출될 위험이 있습니다.
 
 **웹에 게시** 설정은 기본적으로 전체 조직에서 사용하도록 설정되어 있지만 관리자가 아닌 사용자는 embed 태그 생성 기능이 제한됩니다. 이 설정은 **내보내기 및 공유 설정** 그룹에서 찾을 수 있습니다.
 
@@ -109,7 +109,7 @@ ms.locfileid: "79487812"
 보안 그룹은 하나 이상 할당하는 것이 좋습니다. 이 그룹에는 보고서 게시 권한을 부여하거나 _거부_할 수 있습니다.
 
 > [!IMPORTANT]
-> 이 설정을 사용하지 않으면 [Excel에서 분석](../service-analyze-in-excel.md) 및 Power BI 서비스 [라이브 연결](../desktop-report-lifecycle-datasets.md#using-a-power-bi-service-live-connection-for-report-lifecycle-management) 기능의 사용도 제한됩니다.
+> 이 설정을 사용하지 않으면 [Excel에서 분석](../collaborate-share/service-analyze-in-excel.md) 및 Power BI 서비스 [라이브 연결](../connect-data/desktop-report-lifecycle-datasets.md#using-a-power-bi-service-live-connection-for-report-lifecycle-management) 기능의 사용도 제한됩니다.
 
 !["데이터 내보내기" 설정이 표시됩니다.](media/admin-tenant-settings/export-data.png)
 
@@ -118,7 +118,7 @@ ms.locfileid: "79487812"
 
 ### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>외부 게스트 사용자가 조직의 콘텐츠를 편집 및 관리하도록 허용
 
-외부 게스트 사용자가 Power BI 콘텐츠를 편집 및 관리할 수 있습니다. 자세한 내용은 [Azure AD B2B에서 외부 게스트 사용자에게 Power BI 콘텐츠 배포](../service-admin-azure-ad-b2b.md)를 참조하세요.
+외부 게스트 사용자가 Power BI 콘텐츠를 편집 및 관리할 수 있습니다. 자세한 내용은 [Azure AD B2B에서 외부 게스트 사용자에게 Power BI 콘텐츠 배포](../admin/service-admin-azure-ad-b2b.md)를 참조하세요.
 
 **외부 게스트 사용자가 조직의 콘텐츠를 편집 및 관리하도록 허용** 설정은 기본적으로 전체 조직에서 사용하지 않도록 설정되어 있습니다. 이 설정은 **내보내기 및 공유 설정** 그룹에서 찾을 수 있습니다.
 
@@ -141,7 +141,8 @@ ms.locfileid: "79487812"
 
 이 문서와 관련된 보다 자세한 내용을 알아보려면 다음 리소스를 참조하세요.
 
-- [Power BI 관리란?](../service-admin-administering-power-bi-in-your-organization.md)
-- [관리 포털에서 Power BI 관리](../service-admin-portal.md)
+- [Power BI 관리란?](../admin/service-admin-administering-power-bi-in-your-organization.md)
+- [관리 포털에서 Power BI 관리](../admin/service-admin-portal.md)
 - 질문이 있으신가요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 - 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com)
+

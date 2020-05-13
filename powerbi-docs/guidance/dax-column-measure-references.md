@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 3ca49008639f7e3e084c8d045bc911aff57b7b21
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 42d99c7139586a78565198b59bc74716261537e0
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75498740"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279621"
 ---
 # <a name="dax-column-and-measure-references"></a>DAX: 열 및 측정값 참조
 
@@ -43,7 +43,7 @@ Profit = Orders[Sales] - Orders[Cost]
 
 ## <a name="measures"></a>측정값
 
-측정값은 모델 수준 개체입니다. 이런 이유로 측정값 이름은 모델 내에서 고유해야 합니다. 그러나 **필드** 창에서 보고서 작성자는 각 측정값이 단일 모델 테이블과 연결되어 있는 것을 확인할 수 있습니다. 이 연결은 외관상의 이유로 설정된 것이며, 측정값의 **홈 테이블** 속성을 설정하여 구성할 수 있습니다. 자세한 내용은 [Power BI Desktop의 측정값(측정값 구성)](../desktop-measures.md#organizing-your-measures)을 참조하세요.
+측정값은 모델 수준 개체입니다. 이런 이유로 측정값 이름은 모델 내에서 고유해야 합니다. 그러나 **필드** 창에서 보고서 작성자는 각 측정값이 단일 모델 테이블과 연결되어 있는 것을 확인할 수 있습니다. 이 연결은 외관상의 이유로 설정된 것이며, 측정값의 **홈 테이블** 속성을 설정하여 구성할 수 있습니다. 자세한 내용은 [Power BI Desktop의 측정값(측정값 구성)](../transform-model/desktop-measures.md#organizing-your-measures)을 참조하세요.
 
 식에 정규화된 측정값을 사용할 수 있습니다. DAX intellisense에서 제안도 제공합니다. 그러나 이 방법은 필요하지 않으며 권장되지 않습니다. 측정값의 홈 테이블을 변경하면 정규화된 측정값 참조를 사용하는 모든 식이 중단됩니다. 중단된 수식을 각각 편집하여 측정값 참조를 제거(또는 업데이트)해야 합니다.
 
@@ -68,3 +68,4 @@ Profit = Orders[Sales] - Orders[Cost]
 
 - [DAX(Data Analysis Expressions) 참조](/dax/)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+

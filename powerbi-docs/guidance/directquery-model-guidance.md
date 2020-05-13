@@ -8,26 +8,26 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 723cc7b2767f6a5ee4394bca74e507fc688b3af8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ace93dfe358c85e54863dece0303c889c6a766b2
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75223651"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279598"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Power BI Desktop의 DirectQuery 모델 지침
 
 이 문서는 Power BI Desktop 또는 Power BI 서비스를 사용하여 Power BI DirectQuery 모델을 개발하는 데이터 모델러를 대상으로 합니다. DirectQuery 사용 사례, 제한 사항 및 지침을 설명합니다. 특히, 지침은 DirectQuery가 모델에 적합한 모드인지 여부를 확인하고 DirectQuery 모델을 기준으로 보고서의 성능을 개선하도록 작성되었습니다. 이 문서의 내용은 Power BI 서비스 또는 Power BI Report Server에 호스트된 DirectQuery 모델에 적용됩니다.
 
-이 문서는 DirectQuery 모델 디자인을 자세히 설명하기 위한 것이 아닙니다. 소개는 [Power BI Desktop의 DirectQuery 모델](../desktop-directquery-about.md) 문서를 참조하세요. 자세한 내용은 [SQL Server 2016 Analysis Services의 DirectQuery](https://download.microsoft.com/download/F/6/F/F6FBC1FC-F956-49A1-80CD-2941C3B6E417/DirectQuery%20in%20Analysis%20Services%20-%20Whitepaper.pdf) 백서를 직접 참조하세요. 이 백서는 SQL Server Analysis Services에서 DirectQuery를 사용하는 방법을 설명합니다. 그러나 대부분의 내용은 Power BI DirectQuery 모델에도 적용됩니다.
+이 문서는 DirectQuery 모델 디자인을 자세히 설명하기 위한 것이 아닙니다. 소개는 [Power BI Desktop의 DirectQuery 모델](../connect-data/desktop-directquery-about.md) 문서를 참조하세요. 자세한 내용은 [SQL Server 2016 Analysis Services의 DirectQuery](https://download.microsoft.com/download/F/6/F/F6FBC1FC-F956-49A1-80CD-2941C3B6E417/DirectQuery%20in%20Analysis%20Services%20-%20Whitepaper.pdf) 백서를 직접 참조하세요. 이 백서는 SQL Server Analysis Services에서 DirectQuery를 사용하는 방법을 설명합니다. 그러나 대부분의 내용은 Power BI DirectQuery 모델에도 적용됩니다.
 
-이 문서에서는 복합 모델을 직접 다루지 않습니다. 복합 모델은 하나 이상의 DirectQuery 원본으로 구성됩니다. 이 문서에서 설명하는 지침은 최소한 부분적으로라도 복합 모델 디자인과 관련이 있습니다. 그러나 가져오기 테이블과 DirectQuery 테이블을 함께 사용할 경우의 의미는 이 문서에서 설명하지 않습니다. 자세한 내용은 [Power BI Desktop에서 복합 모델 사용](../desktop-composite-models.md)을 참조하세요.
+이 문서에서는 복합 모델을 직접 다루지 않습니다. 복합 모델은 하나 이상의 DirectQuery 원본으로 구성됩니다. 이 문서에서 설명하는 지침은 최소한 부분적으로라도 복합 모델 디자인과 관련이 있습니다. 그러나 가져오기 테이블과 DirectQuery 테이블을 함께 사용할 경우의 의미는 이 문서에서 설명하지 않습니다. 자세한 내용은 [Power BI Desktop에서 복합 모델 사용](../transform-model/desktop-composite-models.md)을 참조하세요.
 
 DirectQuery 모델은 Power BI 환경(Power BI 서비스 또는 Power BI Report Server)과 기본 데이터 원본에 다른 워크로드를 적용한다는 것을 이해해야 합니다. DirectQuery가 적절한 디자인 방법인 것으로 확인되면 프로젝트에서 적절한 참여자를 구성하는 것이 좋습니다. 성공적인 DirectQuery 모델 배포는 IT 전문가 팀의 긴밀한 협력을 통해 이루어지는 경우가 많습니다. 팀은 일반적으로 모델 개발자와 원본 데이터베이스 관리자로 구성됩니다. 데이터 설계자와 데이터 웨어하우스 및 ETL 개발자를 포함할 수도 있습니다. 최상의 성능 결과를 얻으려면 대체로 데이터 원본에 직접 최적화를 적용해야 합니다.
 
 ## <a name="design-in-power-bi-desktop"></a>Power BI Desktop에서 디자인
 
-Power BI Desktop을 사용하지 않고 Azure SQL Data Warehouse 및 Azure HDInsight Spark 데이터 원본에 직접 연결할 수 있습니다. Power BI 서비스에서 “데이터 가져오기”를 수행하고 데이터베이스 타일을 선택하면 됩니다. 자세한 내용은 [DirectQuery를 사용한 Azure SQL Data Warehouse](../service-azure-sql-data-warehouse-with-direct-connect.md)를 참조하세요.
+Power BI Desktop을 사용하지 않고 Azure SQL Data Warehouse 및 Azure HDInsight Spark 데이터 원본에 직접 연결할 수 있습니다. Power BI 서비스에서 “데이터 가져오기”를 수행하고 데이터베이스 타일을 선택하면 됩니다. 자세한 내용은 [DirectQuery를 사용한 Azure SQL Data Warehouse](../connect-data/service-azure-sql-data-warehouse-with-direct-connect.md)를 참조하세요.
 
 직접 연결은 편리하지만, 이 방법을 사용하지 않는 것이 좋습니다. 주요 이유는 기본 데이터 원본 스키마가 변경될 경우 모델 구조를 새로 고칠 수 없기 때문입니다.
 
@@ -77,8 +77,8 @@ Power BI Desktop을 사용하여 모든 DirectQuery 모델을 만들고 관리�
     이 지침에는 한 가지 예외가 있으며, [COMBINEVALUES](/dax/combinevalues-function-dax) DAX 함수 사용과 관련이 있습니다. 이 함수의 목적은 다중 열 모델 관계를 지원하는 것입니다. 관계에서 사용되는 식을 생성하는 대신, 다중 열 SQL 조인 조건자를 생성합니다.
 - **“고유 식별자” 열에 관계 적용 안 함:** Power BI에서는 고유 식별자(GUID) 데이터 형식을 기본적으로 지원하지 않습니다. 이 형식의 열 간에 관계를 정의하는 경우, Power BI는 캐스트 포함 조인을 사용하여 원본 쿼리를 생성합니다. 이러한 쿼리 시간 데이터 변환은 일반적으로 성능 저하를 초래합니다. 이 경우가 최적화될 때까지 유일한 해결 방법은 기본 데이터베이스에서 다른 데이터 형식의 열을 구체화하는 것입니다.
 - **관계의 ‘일’ 쪽 열 숨기기:** 관계의 ‘일’ 쪽 열을 숨겨야 합니다. 일반적으로 차원 유형 테이블의 기본 키 열입니다. 숨겨진 경우 **필드** 창에 제공되지 않으므로, 시각적 개체를 구성하는 데 사용할 수 없습니다. 열 값을 기준으로 보고서를 그룹화하거나 필터링하는 것이 유용한 경우 ‘다’ 쪽 열은 계속 표시될 수 있습니다. 예를 들어 **Sales** 및 **Product** 테이블 간에 관계가 있는 모델을 가정해 봅시다. 관계 열에는 제품 SKU(Stock Keeping Unit) 값이 포함되어 있습니다. 시각적 개체에 제품 SKU를 추가해야 하는 경우 **Sales** 테이블에만 표시되어야 합니다. 이 열을 사용하여 시각적 개체에서 필터링 또는 그룹화하면 Power BI는 **Sales** 및 **Product** 테이블을 조인할 필요가 없는 쿼리를 생성합니다.
-- **관계를 설정하여 무결성 적용:** DirectQuery 관계의 **참조 무결성 가정** 속성은 Power BI에서 외부 조인이 아닌 내부 조인을 사용하여 원본 쿼리를 생성할지 여부를 결정합니다. 이렇게 하면 일반적으로 쿼리 성능이 향상되지만 관계형 데이터베이스 원본의 세부 정보에 따라 달라집니다. 자세한 내용은 [Power BI Desktop의 참조 무결성 설정 가정](../desktop-assume-referential-integrity.md)을 참조하세요.
-- **양방향 관계 필터링 사용 안 함:** 양방향 관계 필터링을 사용하면 성능이 낮은 쿼리 문이 생성될 수 있습니다. 이 관계 기능은 필요한 경우에만 사용해야 하며, 일반적으로 브리징 테이블에서 다대다 관계를 구현하는 경우입니다. 자세한 내용은 [Power BI Desktop의 다대다 카디널리티를 사용한 관계](../desktop-many-to-many-relationships.md)를 참조하세요.
+- **관계를 설정하여 무결성 적용:** DirectQuery 관계의 **참조 무결성 가정** 속성은 Power BI에서 외부 조인이 아닌 내부 조인을 사용하여 원본 쿼리를 생성할지 여부를 결정합니다. 이렇게 하면 일반적으로 쿼리 성능이 향상되지만 관계형 데이터베이스 원본의 세부 정보에 따라 달라집니다. 자세한 내용은 [Power BI Desktop의 참조 무결성 설정 가정](../connect-data/desktop-assume-referential-integrity.md)을 참조하세요.
+- **양방향 관계 필터링 사용 안 함:** 양방향 관계 필터링을 사용하면 성능이 낮은 쿼리 문이 생성될 수 있습니다. 이 관계 기능은 필요한 경우에만 사용해야 하며, 일반적으로 브리징 테이블에서 다대다 관계를 구현하는 경우입니다. 자세한 내용은 [Power BI Desktop의 다대다 카디널리티를 사용한 관계](../transform-model/desktop-many-to-many-relationships.md)를 참조하세요.
 - **병렬 쿼리 제한:** 각 기본 데이터 원본에 대해 DirectQuery가 여는 최대 연결 수를 설정할 수 있습니다. 이 설정은 데이터 원본에 동시에 보내는 쿼리 수를 제어합니다.
 
     ![Power BI Desktop 창이 열리고, 현재 파일 DirectQuery 페이지를 선택합니다. 데이터 원본당 최대 연결 수 속성이 강조 표시됩니다.](media/directquery-model-guidance/directquery-model-guidance-desktop-options-current-file-directquery.png)
@@ -121,9 +121,9 @@ Power BI Desktop을 사용하여 모든 DirectQuery 모델을 만들고 관리�
 
 ## <a name="convert-to-a-composite-model"></a>복합 모델로 변환
 
-모델 테이블의 스토리지 모드를 구성하여 가져오기 및 DirectQuery 모델의 이점을 단일 모델에 결합할 수 있습니다. 테이블 스토리지 모드는 가져오기, DirectQuery 또는 둘 다(이중이라고 함)일 수 있습니다. 모델에 서로 다른 스토리지 모드의 테이블이 포함되어 있는 경우를 복합 모델이라고 합니다. 자세한 내용은 [Power BI Desktop에서 복합 모델 사용](../desktop-composite-models.md)을 참조하세요.
+모델 테이블의 스토리지 모드를 구성하여 가져오기 및 DirectQuery 모델의 이점을 단일 모델에 결합할 수 있습니다. 테이블 스토리지 모드는 가져오기, DirectQuery 또는 둘 다(이중이라고 함)일 수 있습니다. 모델에 서로 다른 스토리지 모드의 테이블이 포함되어 있는 경우를 복합 모델이라고 합니다. 자세한 내용은 [Power BI Desktop에서 복합 모델 사용](../transform-model/desktop-composite-models.md)을 참조하세요.
 
-DirectQuery 모델을 복합 모델로 변환하여 수행할 수 있는 여러 기능 및 성능 개선 사항이 있습니다. 복합 모델은 둘 이상의 DirectQuery 원본을 통합할 수 있으며, 집계도 포함할 수 있습니다. DirectQuery 테이블에 집계 테이블을 추가하여 테이블의 요약 표현을 가져올 수 있습니다. 시각적 개체가 상위 수준 집계를 쿼리하는 경우 성능이 훨씬 향상될 수 있습니다. 자세한 내용은 [Power BI Desktop의 집계](../desktop-aggregations.md)를 참조하세요.
+DirectQuery 모델을 복합 모델로 변환하여 수행할 수 있는 여러 기능 및 성능 개선 사항이 있습니다. 복합 모델은 둘 이상의 DirectQuery 원본을 통합할 수 있으며, 집계도 포함할 수 있습니다. DirectQuery 테이블에 집계 테이블을 추가하여 테이블의 요약 표현을 가져올 수 있습니다. 시각적 개체가 상위 수준 집계를 쿼리하는 경우 성능이 훨씬 향상될 수 있습니다. 자세한 내용은 [Power BI Desktop의 집계](../transform-model/desktop-aggregations.md)를 참조하세요.
 
 ## <a name="educate-users"></a>사용자 교육
 
@@ -137,7 +137,7 @@ DirectQuery 데이터 세트를 기반으로 하는 보고서에 대해 보고�
 
 DirectQuery에 대한 자세한 내용은 다음 리소스를 참조하세요.
 
-- [Power BI Desktop의 DirectQuery 모델](../desktop-directquery-about.md)
-- [Power BI Desktop에서 DirectQuery 사용](../desktop-use-directquery.md)
-- [Power BI Desktop의 DirectQuery 모델 문제 해결](../desktop-directquery-troubleshoot.md)
+- [Power BI Desktop의 DirectQuery 모델](../connect-data/desktop-directquery-about.md)
+- [Power BI Desktop에서 DirectQuery 사용](../connect-data/desktop-use-directquery.md)
+- [Power BI Desktop의 DirectQuery 모델 문제 해결](../connect-data/desktop-directquery-troubleshoot.md)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

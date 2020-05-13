@@ -1,4 +1,4 @@
-﻿---
+---
 title: 보고서에 차트 정렬 방식 변경
 description: Power BI 보고서에서 차트 정렬 방식 변경
 author: mihart
@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/19/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 1a59618ea27944314465d8e08d5f0c249c3bed0b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 811e0513c1b4a16a731e6d9bd90cbc0689ca76e0
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496466"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279782"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Power BI 보고서에서 차트 정렬 방식 변경
 
@@ -22,7 +22,7 @@ ms.locfileid: "77496466"
 
 
 > [!IMPORTANT]
-> **이 문서는 보고서 또는 데이터 세트에 대한 편집 권한이 없고 온라인 버전의 Power BI(Power BI 서비스)에서만 작업하는 Power BI 사용자를 대상으로 작성되었습니다. 보고서 *디자이너*, *관리자* 또는 *소유자*인 경우 이 문서에 모든 필요한 정보가 포함되지 않았을 수 있습니다. 대신, [Power BI Desktop에서 열 기준 정렬](../desktop-sort-by-column.md)** 을 참조하세요.
+> **이 문서는 보고서 또는 데이터 세트에 대한 편집 권한이 없고 온라인 버전의 Power BI(Power BI 서비스)에서만 작업하는 Power BI 사용자를 대상으로 작성되었습니다. 보고서 *디자이너*, *관리자* 또는 *소유자*인 경우 이 문서에 모든 필요한 정보가 포함되지 않았을 수 있습니다. 대신, [Power BI Desktop에서 열 기준 정렬](../create-reports/desktop-sort-by-column.md)** 을 참조하세요.
 
 Power BI 서비스에서 다양한 데이터 필드로 정렬하여 시각적 개체의 모양을 변경할 수 있습니다. 시각적 개체의 정렬 방법을 변경하여 전달하려는 정보를 강조 표시할 수 있습니다. 숫자 데이터(예: 판매 수치) 또는 텍스트 데이터(예: 주 이름) 중 어떤 데이터를 사용하든지 시각화를 원하는 대로 정렬할 수 있습니다. Power BI는 여러 가지 정렬 방법과 간편한 메뉴를 제공합니다. 
 
@@ -41,11 +41,11 @@ Power BI 서비스에서 다양한 데이터 필드로 정렬하여 시각적 �
 
 ![X 축을 기준으로 사전순으로 정렬된 막대형 차트](media/end-user-change-sort/powerbi-sort-category.png)
 
-정렬 기준을 범주(매장 이름)에서 값(평방 피트당 매출)으로 대신 변경하는 것은 쉽습니다. **추가 옵션**(...)을 선택하고 **정렬 기준**을 선택합니다. 시각적 개체에 사용되는 숫자 값을 선택합니다.  이 예제에서는 **Sales Per Sq Ft**를 선택했습니다.
+정렬 기준을 범주(매장 이름)에서 값(평방 피트당 매출)으로 대신 변경하는 것은 쉽습니다. **기타 작업**(...)을 선택하고 **정렬 기준**을 선택합니다. 시각적 개체에 사용되는 숫자 값을 선택합니다.  이 예제에서는 **Sales Per Sq Ft**를 선택했습니다.
 
 ![정렬 기준 및 값 선택을 보여 주는 스크린샷](media/end-user-change-sort/power-bi-sort-value.png)
 
-필요한 경우, 오름차순 및 내림차순으로 정렬 순서를 변경합니다.  **추가 옵션**(...)을 다시 선택하고 **내림차순 정렬** 또는 **오름차순 정렬**을 선택합니다. 정렬 작업에 사용 중인 필드는 굵은 글꼴로 표시되고 노란색 막대가 있습니다.
+필요한 경우, 오름차순 및 내림차순으로 정렬 순서를 변경합니다.  **기타 작업**(...)을 다시 선택하고 **내림차순 정렬** 또는 **오름차순 정렬**을 선택합니다. 정렬 작업에 사용 중인 필드는 굵은 글꼴로 표시되고 노란색 막대가 있습니다.
 
    ![정렬 방식 및 오름차순, 내림차순 선택을 보여주는 비디오](media/end-user-change-sort/sort.gif)
 
@@ -69,7 +69,7 @@ Power BI 보고서는 [읽기용 보기](end-user-reading-view.md)에서 작업�
 
 ![연락처 정보를 표시하는 드롭다운](media/end-user-change-sort/power-bi-contact.png)
 
-콘텐츠에 대한 편집 권한이 있는 *디자이너*인 경우 [Power BI Desktop의 열 기준 정렬](../desktop-sort-by-column.md)을 참조하여 데이터 세트를 업데이트하고 이러한 종류의 정렬을 설정하는 방법을 알아보세요.
+콘텐츠에 대한 편집 권한이 있는 *디자이너*인 경우 [Power BI Desktop의 열 기준 정렬](../create-reports/desktop-sort-by-column.md)을 참조하여 데이터 세트를 업데이트하고 이러한 종류의 정렬을 설정하는 방법을 알아보세요.
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI 보고서의 시각화](end-user-visualizations.md)에 대해 자세히 알아보세요.
