@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: ee4ac2db9d27129172797db9743790b5175dcd89
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 95e661e81e7753d0a28806cca5d652f8e92666a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880069"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "80114109"
 ---
 # <a name="the-visual-filters-api-in-power-bi-visuals"></a>Power BI 시각적 개체의 시각적 개체 필터 API
 
 시각적 개체 필터 API를 사용하면 Power BI 시각적 개체의 데이터를 필터링할 수 있습니다. 다른 선택 항목과의 주요 차이점은 다른 시각적 개체의 강조 표시 지원과 관계없이 다른 시각적 개체가 어떤 방식으로든 필터링된다는 것입니다.
 
-시각적 개체에 대해 필터링을 사용하려면 시각적 개체가 *capabilities.json* 코드의 `general` 섹션에 `filter` 개체를 포함해야 합니다.
+시각적 개체에 대해 필터링을 사용하려면 시각적 개체가 `filter`capabilities.json`general` 코드의 *섹션에* 개체를 포함해야 합니다.
 
 ```json
 "objects": {
@@ -53,7 +53,7 @@ export interface IFilter {
     target: IFilterTarget;
 }
 ```
-조건:
+위치:
 * `target`은 데이터 원본의 테이블 열입니다.
 
 ## <a name="the-basic-filter-api"></a>기본 필터 API
@@ -67,7 +67,7 @@ export interface IBasicFilter extends IFilter {
 }
 ```
 
-조건:
+위치:
 * `operator`는 *In*, *NotIn*, *All* 값을 포함하는 열거형입니다.
 * `values`는 조건의 값입니다.
 
@@ -120,7 +120,7 @@ visualHost.applyJsonFilter(filter, "general", "filter", FilterAction.merge);
 
 이 필터는 시각적 개체 API 1.7.0에서 도입되었습니다.
 
-고급 필터 API를 사용하려면 `table` 및 `column` 이름이 포함된 `target`도 필요합니다. 그러나 고급 필터 API 연산자는 *And*와 *Or*입니다. 
+고급 필터 API를 사용하려면 `target` 및 `table` 이름이 포함된 `column`도 필요합니다. 그러나 고급 필터 API 연산자는 *And*와 *Or*입니다. 
 
 또한 이 필터는 다음과 같이 인터페이스에 값 대신 조건을 사용합니다.
 
@@ -178,7 +178,7 @@ interface ITupleFilter extends IFilter {
 }
 ```
 
-조건:
+위치:
 * `target`은 테이블 이름이 포함된 열 배열입니다.
 
     ```typescript
@@ -281,7 +281,7 @@ export interface VisualUpdateOptions extends extensibility.VisualUpdateOptions {
 
 다음 그림은 몇 가지 샘플 JSON 필터 코드를 보여 줍니다.
 
-![JSON 필터 코드](./media/json-filter.png)
+![JSON 필터 코드](media/filter-api/json-filter.png)
 
 ### <a name="clear-the-json-filter"></a>JSON 필터 지우기
 

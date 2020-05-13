@@ -1,0 +1,121 @@
+### YamlMime:Landing
+title: Power BI에서 보고서 및 대시보드 만들기 - 설명서
+summary: Power BI 설명서를 통해 Power BI 용도와 관계없이 필요에 부합한 전문가의 정보 및 답변을 얻을 수 있습니다.
+metadata:
+  title: Power BI에서 보고서 및 대시보드 만들기 - 설명서
+  description: Power BI 설명서를 통해 Power BI 용도와 관계없이 필요에 부합한 전문가의 정보 및 답변을 얻을 수 있습니다.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 03/30/2020
+  ms.openlocfilehash: 4c8b301e95dddbfc80f1a4b3c4a7a464da267dfc
+  ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+  ms.translationtype: HT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "83275987"
+landingContent:
+- title: 시작
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: 업데이트된 리본 사용
+      url: desktop-ribbon.md
+    - text: 접근성 개요
+      url: desktop-accessibility-overview.md
+    - text: 샘플 데이터 가져오기
+      url: sample-datasets.md
+  - linkListType: tutorial
+    links:
+    - text: 샘플 팩 가져오기 및 열기
+      url: sample-tutorial-connect-to-the-samples.md
+  - linkListType: sample
+    links:
+    - text: '코로나바이러스감염증-19 샘플: 미국 데이터'
+      url: sample-covid-19-us.md
+- title: 시각화
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 시각화 개요
+      url: ../visuals/power-bi-report-visualizations.md
+    - text: 시각화 형식
+      url: ../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md
+  - linkListType: how-to-guide
+    links:
+    - text: 맵을 위한 팁과 요령
+      url: ../visuals/power-bi-map-tips-and-tricks.md
+    - text: 시각적 개체에서 데이터 내보내기
+      url: ../visuals/power-bi-visualization-export-data.md
+    - text: 슬라이서
+      url: ../visuals/power-bi-visualization-slicers.md
+- title: 보고서 디자인
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 보고서 테마
+      url: desktop-report-themes.md
+    - text: 텍스트 상자 및 셰이프
+      url: power-bi-reports-add-text-and-shapes.md
+  - linkListType: how-to-guide
+    links:
+    - text: 조건부 테이블 서식 지정
+      url: desktop-conditional-table-formatting.md
+    - text: 그룹화 및 범주화 사용
+      url: desktop-grouping-and-binning.md
+    - text: 보고서에 책갈피 추가
+      url: desktop-bookmarks.md
+- title: 보고서 상호 작용 디자인
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Power BI Desktop의 보고서 뷰
+      url: desktop-report-view.md
+  - linkListType: how-to-guide
+    links:
+    - text: Q&A를 사용하여 데이터 탐색
+      url: power-bi-tutorial-q-and-a.md
+    - text: 보고서에서 드릴스루 사용
+      url: desktop-drillthrough.md
+    - text: 보고서에 책갈피 추가
+      url: desktop-bookmarks.md
+    - text: 보고서에 필터 추가
+      url: power-bi-report-filter.md
+- title: Power BI 페이지를 매긴 보고서
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Power BI 페이지를 매긴 보고서란?
+      url: ../paginated-reports/paginated-reports-report-builder-power-bi.md
+    - text: Power BI의 보고서 작성기
+      url: ../paginated-reports/report-builder-power-bi.md
+  - linkListType: concept
+    links:
+    - text: 식 예제
+      url: ../paginated-reports/report-builder-expression-examples.md
+    - text: 테이블, 행렬 및 목록
+      url: ../paginated-reports/report-builder-tables-matrices-lists.md
+  - linkListType: how-to-guide
+    links:
+    - text: 공유 데이터 세트에서 보고서 만들기
+      url: ../paginated-reports/report-builder-shared-datasets.md
+    - text: 매개 변수 만들기
+      url: ../paginated-reports/paginated-reports-parameters.md
+- title: 대시보드
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 대시보드 소개
+      url: service-dashboards.md
+  - linkListType: how-to-guide
+    links:
+    - text: 대시보드 만들기
+      url: service-dashboard-create.md
+    - text: 대시보드에 타일 고정
+      url: service-dashboard-pin-tile-from-report.md
+    - text: 대시보드에 이미지 또는 비디오 추가
+      url: service-dashboard-add-widget.md

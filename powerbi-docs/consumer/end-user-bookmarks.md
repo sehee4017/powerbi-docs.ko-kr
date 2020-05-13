@@ -5,21 +5,23 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/31/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: d5816c4080340b3ff5f29f6000fd203e1a2dedfd
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 7d1e355f2c28679f5c2101d250a9fc2d5c99a2bd
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73852250"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79205645"
 ---
 # <a name="what-are-bookmarks"></a>책갈피란?
 
+[!INCLUDE[consumer-appliesto-ynnm](../includes/consumer-appliesto-ynnm.md)]
+
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-책갈피는 보고서 페이지에 대해 현재 구성된 보기를 캡처합니다. 여기에는 필터, 슬라이서, 시각적 개체의 상태가 포함됩니다. 책갈피를 선택하면 해당 보기로 이동하게 됩니다. 책갈피에는 두 가지 유형이 있습니다. 하나는 사용자가 직접 만든 것이고, 다른 하나는 보고서 *디자이너*가 만든 것입니다.
+책갈피는 보고서 페이지에 대해 현재 구성된 보기를 캡처합니다. 여기에는 필터, 슬라이서, 시각적 개체의 상태가 포함됩니다. 책갈피를 선택하면 해당 보기로 이동하게 됩니다. 책갈피에는 두 가지 유형이 있습니다. 하나는 사용자가 직접 만든 것이고, 다른 하나는 보고서 *디자이너*가 만든 것입니다. 모든 Power BI 사용자는 개인 책갈피를 만들 수 있습니다. 그러나 다른 사용자가 만든 책갈피를 사용할 수 있으려면 Power BI Pro 또는 Premium 라이선스가 필요합니다. [사용 중인 라이선스 확인](end-user-license.md)
 
 ## <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>책갈피를 사용하여 Power BI에서 정보 공유 및 스토리 빌드 
 책갈피에는 다양한 용도가 있습니다. 흥미로운 인사이트를 발견하여 보관하고 싶을 경우, 나중에 돌아갈 수 있도록 책갈피를 만들 수 있습니다. 지금 당장 어디를 가야 하는데 이제까지 한 작업을 그대로 유지하고 싶은 경우에도 책갈피를 만들 수 있습니다. 보고서의 기본 보기를 책갈피로 만들어 두면 매번 돌아갈 때마다 보고서 페이지의 해당 보기가 가장 먼저 열립니다. 
@@ -33,6 +35,9 @@ ms.locfileid: "73852250"
 
 ### <a name="report-bookmarks"></a>보고서 책갈피
 보고서 *디자이너*가 보고서 책갈피를 포함해 둔 경우, **보고서 책갈피** 제목 아래에서 찾을 수 있습니다. 이 보고서 페이지에는 B1과 B2라는 두 개의 책갈피가 있습니다. 
+
+> [!NOTE]
+> 공유 보고서를 보려면 Power BI Pro 또는 Premium이 필요합니다. 
 
 ![보고서 책갈피를 표시합니다.](media/end-user-bookmarks/power-bi-report.png)
 
@@ -152,7 +157,7 @@ Note that selecting **Ungroup** for any bookmark from a group takes all bookmark
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
 **책갈피**의 이 릴리스에서는 몇 가지 제한 사항 및 고려 사항을 기억해야 합니다.
 
-* 대부분의 사용자 지정 시각적 개체는 책갈피에서 잘 작동합니다. 책갈피 및 사용자 지정 시각적 개체 관련 문제가 발생하면 해당 사용자 지정 시각적 개체의 작성자에게 문의하여 시각적 개체에 책갈피 지원을 추가하도록 요청합니다. 
+* 대부분의 Power BI 시각적 개체는 책갈피에서 잘 작동합니다. 책갈피 및 Power BI 시각적 개체 관련 문제가 발생하면 해당 Power BI 시각적 개체의 작성자에게 문의하여 시각적 개체에 책갈피 지원을 추가하도록 요청합니다.
 * 책갈피를 만든 후 보고서 페이지에서 시각적 개체를 추가하는 경우 시각적 개체는 기본 상태로 표시됩니다. 즉, 이전에 책갈피를 만든 페이지에 슬라이서를 도입하는 경우 슬라이서가 해당 기본 상태로 작동합니다.
 * 일반적으로, 보고서 *디자이너*가 보고서를 업데이트하거나 다시 게시하더라도 책갈피는 영향을 받지 않습니다. 단, 디자이너가 책갈피에서 사용되는 필드를 제거하는 등 보고서에 중요한 변경 사항을 적용한 경우, 다음번에 이 책갈피를 열려고 시도하면 오류 메시지가 표시됩니다. 
 

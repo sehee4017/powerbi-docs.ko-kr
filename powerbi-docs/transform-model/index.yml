@@ -1,0 +1,81 @@
+### YamlMime:Landing
+title: Power BI에서 데이터 변환, 모양 지정 및 모델링 - 설명서
+summary: Power BI 설명서를 통해 Power BI 용도와 관계없이 필요에 부합한 전문가의 정보 및 답변을 얻을 수 있습니다.
+metadata:
+  title: Power BI에서 데이터 변환, 모양 지정 및 모델링 - 설명서
+  description: Power BI 설명서를 통해 Power BI 용도와 관계없이 필요에 부합한 전문가의 정보 및 답변을 얻을 수 있습니다.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 03/03/2020
+  ms.openlocfilehash: d8d30cc860146e904c788dcd374d580d5a3fcf0b
+  ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+  ms.translationtype: HT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "83279115"
+landingContent:
+- title: 데이터 변환 및 모양 지정
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 쿼리 편집기 개요
+      url: desktop-query-overview.md
+  - linkListType: tutorial
+    links:
+    - text: 데이터 모양 지정 및 결합
+      url: ../connect-data/desktop-shape-and-combine-data.md
+  - linkListType: concept
+    links:
+    - text: 일반적인 쿼리 작업
+      url: desktop-common-query-tasks.md
+  - linkListType: how-to-guide
+    links:
+    - text: 파일 결합(이진)
+      url: desktop-combine-binaries.md
+- title: 모델 데이터
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 모델링 보기
+      url: desktop-modeling-view.md
+    - text: 다대다 관계
+      url: desktop-many-to-many-relationships.md
+  - linkListType: how-to-guide
+    links:
+    - text: 관계 만들기 및 관리
+      url: desktop-create-and-manage-relationships.md
+    - text: 데이터 분류 적용
+      url: desktop-data-categorization.md
+- title: 계산
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: DAX 기본 사항 알아보기
+      url: desktop-quickstart-learn-dax-basics.md
+    - text: 계산 열 만들기
+      url: desktop-tutorial-create-calculated-columns.md
+  - linkListType: concept
+    links:
+    - text: 계산된 테이블
+      url: desktop-calculated-tables.md
+  - linkListType: how-to-guide
+    links:
+    - text: 빠른 측정 사용
+      url: desktop-quick-measures.md
+- title: 셀프 서비스 데이터 준비
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Power BI의 셀프 서비스 데이터 준비
+      url: ../connect-data/desktop-quickstart-connect-to-data.md
+  - linkListType: concept
+    links:
+    - text: '데이터 흐름: 셀프 서비스 데이터 준비'
+      url: service-dataflows-overview.md
+    - text: 데이터 흐름 만들기 및 사용
+      url: service-dataflows-create-use.md

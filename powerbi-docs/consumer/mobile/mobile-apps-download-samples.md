@@ -8,17 +8,17 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: painbar
 ms.openlocfilehash: 82a299dad5d58ca03d2b05ae02c49e0da0478303
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75256796"
 ---
 # <a name="downloading-samples-to-my-workspace-in-the-power-bi-service"></a>Power BI 서비스의 내 작업 영역에 샘플 다운로드
 
 여기에 제공된 몇 가지 모바일 앱 문서는 설명 목적으로 샘플 데이터를 사용합니다. 디바이스에서 작업을 수행하기 위해 Power BI 서비스 계정에 샘플 데이터를 다운로드할 수 있으며, 디바이스의 Power BI Mobile 앱에서 샘플 데이터를 볼 수 있습니다. 이 문서에서는 Power BI 서비스 계정에 샘플 데이터를 다운로드하는 방법을 설명합니다. 
 
-## <a name="prerequisites"></a>필수 조건
+## <a name="prerequisites"></a>사전준비
 
 Power BI 서비스 계정이 있어야 데이터를 다운로드할 수 있습니다. 아직 Power BI에 등록하지 않은 경우 시작하기 전에 [평가판에 등록](https://app.powerbi.com/signupredirect?pbi_source=web)합니다.
 
@@ -46,4 +46,4 @@ Power BI 서비스 계정이 있어야 데이터를 다운로드할 수 있습�
 
 ## <a name="next-steps"></a>다음 단계
 * [빠른 시작](mobile-apps-quickstart-view-dashboard-report.md)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티의 모바일 앱 섹션](https://go.microsoft.com/fwlink/?linkid=839277) 확인
+* 질문이 있으신가요? [Power BI 커뮤니티의 모바일 앱 섹션](https://go.microsoft.com/fwlink/?linkid=839277) 확인

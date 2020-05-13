@@ -1,9 +1,9 @@
 ---
 ms.openlocfilehash: c3b1b7288d0d277fc866ea47887335d10279c6cc
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73799996"
 ---
 DAX를 사용하면 데이터의 모양을 지정하고 형성하거나 그렇지 않으면 분석하는 데 사용할 수 있는 많은 함수가 있습니다. 이러한 함수는 소수의 범주로 그룹화할 수 있습니다.
@@ -29,7 +29,7 @@ Power BI에서는 지금까지 입력한 문자와 일치하는 함수를 표시
 DAX에는 일반적으로 사용되는 다음 함수를 비롯한 다양한 **집계** 함수가 있습니다.
 
 * 합계
-* 평균값
+* AVERAGE
 * 최소값
 * 최대값
 * SUMX(및 기타 *X* 함수)

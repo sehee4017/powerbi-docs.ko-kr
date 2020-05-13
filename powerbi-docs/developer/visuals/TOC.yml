@@ -1,0 +1,126 @@
+- name: Power BI 시각적 개체 설명서
+  href: index.yml
+  expanded: true
+  items:
+    - name: 개요
+      expanded: true
+      items:
+        - name: Power BI의 시각적 개체
+          href: power-bi-custom-visuals.md
+    - name: 자습서
+      expanded: true
+      items:
+        - name: Power BI의 시각적 개체 개발
+          href: custom-visual-develop-tutorial.md
+        - name: 서식 지정 옵션 추가
+          href: custom-visual-develop-tutorial-format-options.md
+        - name: 시각적 개체 프로젝트를 위한 단위 테스트 추가
+          href: unit-tests-introduction.md
+    - name: 개념
+      items:
+        - name: Power BI 시각적 개체 프로젝트 구조
+          href: visual-project-structure.md
+        - name: 시각적 개념
+          href: power-bi-visuals-concept.md
+        - name: Power BI의 조직을 위한 시각적 개체
+          href: power-bi-custom-visuals-organization.md
+        - name: Power BI 시각적 개체에 대한 지침
+          href: guidelines-powerbi-visuals.md
+        - name: 성능 팁
+          href: performance-tips.md
+        - name: 시각적 개체 FAQ
+          href: power-bi-custom-visuals-faq.md
+        - name: 기능 사용
+          href: capabilities.md
+        - name: 데이터 보기 매핑
+          href: dataview-mappings.md
+        - name: 개체 및 속성
+          href: objects-properties.md
+        - name: 고급 편집 모드
+          href: advanced-edit-mode.md
+    - name: 방법
+      items:
+        - name: Power BI 시각적 개체 인증받기
+          href: power-bi-custom-visuals-certified.md
+        - name: AppSource에 Power BI 시각적 개체 게시하기
+          href: office-store.md
+        - name: Power BI에서 R 지원 Power BI 시각적 개체 사용
+          href: ../../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
+        - name: 시각적 개체 상호 작용
+          href: visuals-interactions.md
+        - name: 선택 항목 추가
+          href: selection-api.md
+        - name: 시각적 개체 도구 설명 추가
+          href: add-tooltips.md
+        - name: 분석 창 추가
+          href: analytics-pane.md
+        - name: 시각적 개체 필터링
+          href: filter-api.md
+        - name: 더 많은 데이터 가져오기
+          href: fetch-more-data.md
+        - name: 책갈피 추가 지원
+          href: bookmarks-support.md
+        - name: 상황에 맞는 메뉴 지원 추가
+          href: context-menu.md
+        - name: 드릴다운 지원 추가
+          href: drill-down-support.md
+        - name: 시각적 개체의 데이터 강조 표시
+          href: highlight.md
+        - name: 고대비 모드 지원 추가
+          href: high-contrast-support.md
+        - name: 슬라이서 동기화 사용
+          href: enable-sync-slicers.md
+        - name: 시각적 개체 디버그
+          href: visuals-how-to-debug.md
+        - name: 모바일 개발
+          href: mobile-development.md
+        - name: Power BI 시각적 개체 문제 해결
+          href: power-bi-custom-visuals-troubleshoot.md
+    - name: 참조
+      items:
+        - name: 방문 페이지
+          href: landing-page.md
+        - name: 시작 URL
+          href: launch-url.md
+        - name: 로컬 스토리지 API
+          href: local-storage.md
+        - name: 이벤트 렌더링
+          href: event-service.md
+        - name: 정렬
+          href: sort-options.md
+        - name: 지역화
+          href: localization.md
+        - name: Power BI 시각적 개체 유틸리티
+          items:
+            - name: 외부 라이브러리 추가
+              href: adding-external-libraries.md
+            - name: 대화형 유틸리티
+              href: utils-interactivity-selections.md
+            - name: 유틸리티 서식 지정
+              href: utils-formatting.md
+            - name: 데이터 보기 유틸리티
+              href: utils-dataview.md
+            - name: 차트 유틸리티
+              href: utils-chart.md
+            - name: 색 유틸리티
+              href: utils-color.md
+            - name: SVG 유틸리티
+              href: utils-svg.md
+            - name: 형식 유틸리티
+              href: utils-type.md
+            - name: 테스트 유틸리티
+              href: utils-test.md
+            - name: 도구 설명 유틸리티
+              href: utils-tooltip.md
+            - name: 데이터 보기 유틸리티
+              href: utils-dataview.md
+    - name: 리소스
+      items:
+        - name: 개발자 센터
+          href: 'https://powerbi.microsoft.com/developers/'
+        - name: Power BI 시각적 개체 샘플
+          href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
+        - name: Power BI Visuals Git 리포지토리
+          href: 'https://go.microsoft.com/fwlink/?linkid=848277'
+        - name: SSL 인증서를 만드는 중
+          href: create-ssl-certificate.md

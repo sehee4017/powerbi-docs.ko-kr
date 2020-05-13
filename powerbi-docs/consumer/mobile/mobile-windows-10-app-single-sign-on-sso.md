@@ -1,19 +1,19 @@
 ---
 title: Power BI 모바일 Windows 앱의 Single Sign-On
 description: Power BI 모바일 Windows 앱의 SSO(Single Sign-On)에 대해 읽어 보세요. SSO는 단일 사용자 계정으로 한 번만 로그인하여 비즈니스를 수행하는 데 필요한 모든 애플리케이션 및 리소스에 액세스하는 것을 의미합니다.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 09/17/2018
-ms.author: mshenhav
-ms.openlocfilehash: 4ec2e43843d37f0966070d39e08ae0ab6160dbf8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: e9156e539ee9f1a344b89f7814c148829498e5fc
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876664"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79435930"
 ---
 # <a name="single-sign-on-in-the-power-bi-mobile-windows-app"></a>Power BI 모바일 Windows 앱의 Single Sign-On
 
@@ -21,7 +21,10 @@ Power BI 모바일 Windows 앱의 SSO(Single Sign-On)에 대해 읽어 보세요
 
 Power BI Windows 앱은 Azure Active Directory에 통합되어 있으므로 기본 조직 계정을 사용하여 도메인에 가입된 디바이스에 로그인할 뿐 아니라 Power BI 서비스에도 로그인할 수 있습니다. Windows 휴대폰에서 Power BI를 보는 경우 Power BI에 사용하는 계정은 디바이스 설정에서 회사 또는 학교 계정으로 구성되어야 합니다.  
 
-SSO는 Microsoft Azure Active Directory에서 관리하는 Windows 디바이스에만 사용할 수 있습니다. 
+SSO는 Microsoft Azure Active Directory에서 관리하는 Windows 디바이스에만 사용할 수 있습니다.
+
+>[!NOTE]
+>**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ## <a name="sign-in-with-sso"></a>SSO로 로그인
 
@@ -34,5 +37,5 @@ Power BI에 로그인하는 데 현재 Windows 활성 세션 자격 증명을 �
 ## <a name="next-steps"></a>다음 단계
 
 - [Windows 10용 Power BI 모바일 앱 시작](mobile-windows-10-phone-app-get-started.md)
-- 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+- 질문이 있으신가요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

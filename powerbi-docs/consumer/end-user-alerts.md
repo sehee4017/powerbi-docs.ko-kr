@@ -7,17 +7,19 @@ featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: tutorial
-ms.date: 10/18/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f7ebc459379dbf292603a605db8d3f9c7162e92f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5f4dc1d1f3e707a59ef81e63be42714c499d050f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851271"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "77496530"
 ---
-# <a name="tutorial-set-dashboard-alerts-on-power-bi-dashboards"></a>자습서:  Power BI 대시보드에서 대시보드 경고 설정
+# <a name="tutorial-set-alerts-on-power-bi-dashboards"></a>자습서:  Power BI 대시보드에서 경고 설정
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -25,7 +27,7 @@ ms.locfileid: "73851271"
 
 ![타일, 카드, KPI](media/end-user-alerts/card-gauge-kpi.png)
 
-대시보드를 공유하더라도 자신이 설정한 경고만 볼 수 있습니다. 데이터 경고는 플랫폼 전반에서 완전히 동기화되며 [Power BI 모바일 앱](mobile/mobile-set-data-alerts-in-the-mobile-apps.md) 및 Power BI 서비스에서 데이터 경고를 설정하고 봅니다. 
+대시보드를 공유하더라도 자신이 설정한 경고만 볼 수 있습니다. 데이터 경고는 플랫폼 전반에서 완전히 동기화되며 [Power BI 모바일 앱](mobile/mobile-set-data-alerts-in-the-mobile-apps.md) 및 Power BI 서비스에서 데이터 경고를 설정하고 확인합니다. 
 
 > [!WARNING]
 > 이러한 경고는 데이터에 대한 정보를 제공합니다. 모바일 디바이스에서 Power BI 데이터를 보는데 그 모바일 디바이스를 잃어버린 경우 Power BI 서비스를 사용하여 모든 경고를 해제하는 것이 좋습니다.
@@ -112,6 +114,7 @@ ms.locfileid: "73851271"
 * 알림은 계기, KPI 및 카드에만 설정할 수 있습니다.
 * 계기, KPI 또는 카드에 경고를 설정할 수 없는 경우 시스템 관리자에게 도움을 요청하세요. 대시보드 또는 특정 유형의 대시보드 타일에 대해 경고가 꺼져 있거나 사용할 수 없는 경우도 있습니다.
 * 경고는 새로 고쳐지는 데이터에만 적용됩니다. 정적 데이터에 대해서는 적용되지 않습니다. Microsoft에서 제공하는 대부분의 샘플은 정적입니다. 
+* ‘소비자’는 자신의 대시보드를 만들 수 없으며 ‘디자이너’가 대시보드를 만들어 소비자와 공유합니다.   공유 콘텐츠를 받고 보려면 Power BI Pro 또는 Premium 라이선스가 필요합니다. 자세한 내용은 [사용 중인 라이선스 확인](end-user-license.md)을 참조하세요. 
 
 
 ## <a name="clean-up-resources"></a>리소스 정리

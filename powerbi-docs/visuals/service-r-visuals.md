@@ -7,16 +7,19 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/14/2019
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 837412a85eff14c8eaa72fbf1625cadde524cc76
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: eee7b67fcfaed987170baa8cb5a0b3c8cba86350
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75762213"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866419"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>Power BI에서 R 시각적 개체 만들기 및 사용
+
+[!INCLUDE[consumer-appliesto-nnyn](../includes/consumer-appliesto-nnyn.md)]
+
 R 시각적 개체는 현재 **Power BI Desktop**에서 만든 다음 Power BI 서비스에 게시할 수 있습니다. R 시각적 개체 만들기에 대한 자세한 내용은 [R을 사용하여 Power BI 시각적 개체 만들기](../desktop-r-visuals.md)를 참조하세요.
 
 ## <a name="viewing-r-visuals-in-the-power-bi-service"></a>Power BI 서비스에서 R 시각적 개체 보기
@@ -65,7 +68,7 @@ R 스크립트에 오류가 발생하면 R 시각적 개체가 그려지지 않�
 
 ![런타임 오류를 보여 주는 스크린샷](media/service-r-visuals/r-visuals-service-5.png)
 
-## <a name="licensing"></a>라이선싱
+## <a name="licensing"></a>라이선스
 R 시각적 개체는 보고서, 새로 고침, 필터 및 교차 필터를 렌더링하는 데 [Power BI Pro](../service-self-service-signup-for-power-bi.md) 라이선스가 필요합니다. Power BI Pro 라이선스 및 무료 라이선스와의 차이점에 대한 자세한 내용은 [Power BI Pro 콘텐츠란?](../service-admin-purchasing-power-bi-pro.md)을 참조하세요.
 
 Power BI의 무료 사용자만 프리미엄 작업 영역에서 다른 사용자와 공유된 타일을 사용할 수 있습니다. 자세한 내용은 [Power BI Pro 구매](../service-admin-purchasing-power-bi-pro.md)를 참조하세요.
@@ -86,13 +89,15 @@ Pro 라이선스로 **관리되는 테넌트**     |   지원됨      | 지원�
 Power BI 서비스의 R 시각적 개체에는 몇 가지 제한 사항이 있습니다.
 
 * R 시각적 개체 지원은 [지원되는 R 패키지에 대해 알아보기](../service-r-packages-support.md)에 식별된 패키지로 제한됩니다. 현재 사용자 지정 패키지에 대한 지원이 없습니다.
-* 데이터 크기 제한 – R 시각적 개체가 그리기에 사용하는 데이터가 150,000행으로 제한됩니다. 150,000개를 초과하는 행을 선택할 경우 상위 150,000개만 사용되고 이미지에 메시지가 표시됩니다.
+* 데이터 크기 제한 – R 시각적 개체가 그리기에 사용하는 데이터가 150,000행으로 제한됩니다. 150,000개를 초과하는 행을 선택할 경우 상위 150,000개만 사용되고 이미지에 메시지가 표시됩니다. 또한 입력 데이터는 250MB로 제한됩니다.
 * 해결 방법 - 모든 R 시각적 개체는 72DPI로 표시됩니다.
+* 디바이스 그리기 - 기본 디바이스에 대한 그리기만 지원됩니다. 
 * 계산 시간 제한 - R 시각적 개체 계산 시간이 60초를 초과하면 스크립트 시간이 초과되어 오류가 발생합니다.
 * 데이터 업데이트, 필터링 및 강조 표시가 발생하면 R 시각적 개체가 새로 고쳐집니다. 그러나 이미지 자체는 대화형이 아니며 도구 설명을 지원하지 않습니다.
 * 다른 시각적 개체를 강조 표시하면 R 시각적 개체가 그에 응답하지만 R 시각적 개체의 요소를 클릭하여 다른 요소를 교차 필터링할 수는 없습니다.
 * *시간* 데이터 형식에 대해 R 시각적 개체는 현재 지원되지 않습니다. 날짜/시간을 대신 사용하세요.
 * **웹에 게시**를 사용하는 경우 R 시각적 개체는 표시되지 않습니다.
+* R 시각적 개체는 입력 열의 이름 바꾸기를 지원하지 않습니다. 열은 스크립트 실행 중에 원래 이름으로 참조됩니다.
 * R 시각적 개체는 현재 대시보드 및 보고서 인쇄를 인쇄하지 않습니다.
 * R 시각적 개체는 현재 Analysis Services의 DirectQuery 모드에서 지원되지 않습니다.
 * R 시각적 개체는 텍스트 레이블을 그래픽 요소로 변환하는 기능을 제공합니다. Power BI 서비스에서 이 작업을 수행하려면 다음과 같은 추가 단계가 필요합니다.
@@ -112,9 +117,9 @@ Power BI 서비스의 R 시각적 개체에는 몇 가지 제한 사항이 있�
 ## <a name="overview-of-r-packages"></a>R 패키지 개요
 R 패키지는 잘 정의된 형식으로 결합된 R 함수, 데이터 및 컴파일된 코드의 컬렉션입니다. R을 설치할 경우 패키지의 표준 집합과 함께 제공되며 다른 패키지를 다운로드 및 설치할 수 있습니다. 설치되면 사용할 세션으로 R 패키지를 로드해야 합니다. R 패키지의 주 원본은 CRAN([Comprehensive R Archive Network](https://cran.r-project.org/web/packages/available_packages_by_name.html))입니다.
 
-**Power BI Desktop**은 제한 없이 모든 유형의 R 패키지를 사용할 수 있습니다. 예를 들어, [RStudio IDE](https://www.rstudio.com/)를 사용하여 **Power BI Desktop**에서 사용할 R 패키지를 직접 설치할 수 있습니다.
+**Power BI Desktop**은 제한 없이 모든 유형의 R 패키지를 사용할 수 있습니다. 예를 들어, **RStudio IDE**를 사용하여 [Power BI Desktop](https://www.rstudio.com/)에서 사용할 R 패키지를 직접 설치할 수 있습니다.
 
-**Power BI 서비스**의 R 시각화 개체는 [이 문서](../service-r-packages-support.md)에 나오는 **지원 패키지** 섹션에 있는 패키지에서 지원됩니다. 지원 되는 패키지 목록에서 관심이 있는 패키지를 찾을 수 없는 경우 패키지의 지원을 요청할 수 있습니다. 지원을 요청하는 방법에 대한 내용은 [Power BI 서비스의 R 패키지](../service-r-packages-support.md)를 참조하세요.
+**Power BI 서비스**의 R 시각화 개체는 **이 문서**에 나오는 [지원 패키지](../service-r-packages-support.md) 섹션에 있는 패키지에서 지원됩니다. 지원 되는 패키지 목록에서 관심이 있는 패키지를 찾을 수 없는 경우 패키지의 지원을 요청할 수 있습니다. 지원을 요청하는 방법에 대한 내용은 [Power BI 서비스의 R 패키지](../service-r-packages-support.md)를 참조하세요.
 
 ### <a name="requirements-and-limitations-of-r-packages"></a>R 패키지의 요구 사항 및 제한 사항
 R 패키지에 대한 몇 가지 요구 사항 및 제한 사항이 있습니다.

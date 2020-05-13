@@ -9,11 +9,11 @@ ms.topic: conceptual
 ms.date: 08/05/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 5560181f2fc52a02eebce274d88dc66517181517
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74410772"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79205783"
 ---
 # <a name="data-reduction-techniques-for-import-modeling"></a>가져오기 모델링을 위한 데이터 축소 방법
 

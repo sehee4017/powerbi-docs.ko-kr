@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/21/2020
-ms.openlocfilehash: 7b8c106f13df381152b6323cf1263747a3064709
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.date: 02/20/2020
+ms.openlocfilehash: 20b41762f7b38bd4ed26add97abb4eec1da0c000
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76540570"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "77558572"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Power BI Report Server를 설치하기 위한 하드웨어 및 소프트웨어 요구 사항
 
@@ -23,12 +23,12 @@ ms.locfileid: "76540570"
 
 | 구성 요소 | 요구 사항 |
 | --- | --- |
-| .NET Framework |4.6<br><br>[Windows용 Microsoft .NET Framework 4.6(웹 설치 관리자)](https://support.microsoft.com/kb/3045560)에서 .NET Framework를 수동으로 설치할 수 있습니다.<br/><br/> .NET Framework 4.6에 대한 자세한 정보, 권장 사항 및 지침은 [개발자를 위한 .NET Framework 배포 가이드](https://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx)를 참조하세요.<br/><br/>.NET Framework 4.6을 설치하기 전에 Windows 8.1 및 Windows Server 2012 R2에는 [KB2919355](https://support.microsoft.com/kb/2919355)가 필요합니다. |
+| .NET Framework |4.7<br><br>[Windows용 Microsoft .NET Framework 4.7(웹 설치 관리자)](https://support.microsoft.com/en-us/kb/3186500)에서 .NET Framework를 수동으로 설치할 수 있습니다.<br/><br/> .NET Framework 4.7에 대한 자세한 정보, 권장 사항 및 지침은 [개발자를 위한 .NET Framework 배포 가이드](https://docs.microsoft.com/dotnet/framework/deployment/deployment-guide-for-developers)를 참조하세요.<br/><br/>.NET Framework 4.7을 설치하기 전에 Windows 8.1 및 Windows Server 2012 R2에는 [KB2919355](https://support.microsoft.com/kb/2919355)가 필요합니다. |
 | 하드 디스크 |Power BI Report Server에는 최소 1GB의 하드 디스크 여유 공간이 필요합니다.<br><br>Report Server 데이터베이스를 호스팅하는 데이터베이스 서버에 추가 공간이 필요합니다. |
 | 메모리 |**최소값:** 1GB<br/><br/> **권장:** 최소 4GB |
 | 프로세서 속도 |**최소:** x64 프로세서: 1.4GHz<br/><br/> **권장:** 2.0GHz 이상 |
 | 프로세서 형식 |x64 프로세서: AMD Opteron, AMD Athlon 64, Intel EM64T가 지원되는 Intel Xeon, EM64T가 지원되는 Intel Pentium IV |
-| 운영 체제 |Windows Server 2019 Datacenter<br><br>Windows Server 2019 Standard<br><br>Windows Server 2016 Datacenter<br><br>Windows Server 2016 Standard<br><br>Windows Server 2012 R2 Datacenter<br><br>Windows Server 2012 R2 Standard<br><br>Windows Server 2012 R2 Essentials<br><br>Windows Server 2012 R2 Foundation<br><br>Windows Server 2012 Datacenter<br><br>Windows Server 2012 Standard<br><br>Windows Server 2012 Essentials<br><br>Windows Server 2012 Foundation<br><br>Windows 10 Home<br><br>Windows 10 Professional<br><br>Windows 10 Enterprise<br><br>Windows 8.1<br><br>Windows 8.1 Pro<br><br>Windows 8.1 Enterprise<br><br>Windows 8<br><br>Windows 8 Pro<br><br>Windows 8 Enterprise |
+| 운영 체제 |Windows Server 2019 Datacenter<br><br>Windows Server 2019 Standard<br><br>Windows Server 2016 Datacenter<br><br>Windows Server 2016 Standard<br><br>Windows Server 2012 R2 Datacenter<br><br>Windows Server 2012 R2 Standard<br><br>Windows Server 2012 R2 Essentials<br><br>Windows Server 2012 R2 Foundation<br><br>Windows Server 2012 데이터 센터<br><br>Windows Server 2012 Standard<br><br>Windows Server 2012 Essentials<br><br>Windows Server 2012 Foundation<br><br>Windows 10 Home<br><br>Windows 10 Professional<br><br>Windows 10 Enterprise<br><br>Windows 8.1<br><br>Windows 8.1 Pro<br><br>Windows 8.1 Enterprise<br><br>Windows 8<br><br>Windows 8 Pro<br><br>Windows 8 Enterprise |
 
 > [!NOTE]
 > Power BI Report Server는 x64 설치는 프로세서에서만 지원됩니다.
@@ -38,6 +38,7 @@ ms.locfileid: "76540570"
 
 보고서 서버 데이터베이스를 호스팅하는 데 SQL Server를 사용합니다. SQL Server 데이터베이스 엔진 인스턴스는 로컬 또는 원격 인스턴스일 수 있습니다. 다음은 보고서 서버 데이터베이스를 호스팅하는 데 사용할 수 있는 지원되는 버전의 SQL Server 데이터베이스 엔진입니다.
 
+* Azure SQL Managed Instance(Power BI Report Server 2020년 1월 버전 이상)
 * SQL Server 2019
 * SQL Server 2017
 * SQL Server 2016
@@ -48,7 +49,7 @@ ms.locfileid: "76540570"
 
 ## <a name="considerations"></a>고려 사항
 
-Power BI Report Server는 Report Server를 작동하는 데 필요한 핵심 설정을 구성하는 기본값을 설치합니다. 다음 요구 사항을 포함합니다.
+Power BI Report Server는 Report Server를 작동하는 데 필요한 핵심 설정을 구성하는 기본값을 설치합니다. 요구 사항은 다음과 같습니다.
 
 * Power BI Report Server에 대해 지원되는 언어 - 영어, 독일어, 스페인어, 일본어, 이탈리아어, 프랑스어, 러시아어, 중국어 간체, 중국어 번체, 포르투갈어(브라질), 한국어
 * 설치한 이후 및 Report Server 데이터베이스를 구성하기 전에 SQL Server 데이터베이스 엔진을 사용할 수 있어야 합니다. 데이터베이스 엔진 인스턴스는 Reporting Services 구성 관리자가 만들 Report Server 데이터베이스를 호스팅합니다. 데이터베이스 엔진은 실제 설치 환경에 필요하지 않습니다.
@@ -59,7 +60,7 @@ Power BI Report Server는 Report Server를 작동하는 데 필요한 핵심 설
 
 ## <a name="read-only-domain-controller-rodc"></a>RODC(읽기 전용 도메인 컨트롤러)
 
- RODC(읽기 전용 도메인 컨트롤러)가 있는 환경에 보고서 서버를 설치할 수 있습니다. 그러나 Reporting Services가 제대로 작동하려면 읽기/쓰기 도메인 컨트롤러에 대한 액세스가 필요합니다. Reporting Services가 RODC에 액세스할 수 있는 경우 서비스를 관리하려고 할 때 오류가 발생할 수 있습니다.
+ RODC(읽기 전용 도메인 컨트롤러)가 있는 환경에 보고서 서버를 설치할 수 있습니다. 그러나 Reporting Services가 제대로 작동하려면 읽기/쓰기 도메인 컨트롤러에 대한 액세스가 필요합니다. Reporting Services에 RODC에 대한 액세스만 있는 경우 서비스를 관리하려고 할 때 오류가 발생할 수 있습니다.
 
 ## <a name="power-bi-reports-and-analysis-services-live-connections"></a>Power BI 보고서 및 Analysis Services 라이브 연결
 

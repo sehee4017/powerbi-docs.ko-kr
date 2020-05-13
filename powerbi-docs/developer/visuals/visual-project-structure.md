@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI 시각적 개체 프로젝트 구조
 description: 이 문서에서는 Power BI 시각적 개체 프로젝트의 폴더 및 파일 구조를 설명합니다.
 author: KesemSharabi
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 01/12/2020
-ms.openlocfilehash: 16e7a317102602ffb4faf04da0ed2cae588a2a4d
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: 18267f06bd43166cb1958d3aff73913a31189953
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75925522"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "80550757"
 ---
 # <a name="power-bi-visual-project-structure"></a>Power BI 시각적 개체 프로젝트 구조
 
@@ -64,8 +64,6 @@ project
 
 Power BI 시각적 개체 도구는 Power BI 시각화 창에서 이 파일을 새 Power BI 시각적 개체 아이콘으로 사용합니다.
 
-<!--- ![Visualization pane](./media/visualization-pane-analytics-tab.png) --->
-
 ### <a name="src"></a>src
 
 이 폴더에는 시각적 개체의 소스 코드가 포함되어 있습니다.
@@ -74,7 +72,7 @@ Power BI 시각적 개체 도구는 이 폴더에서 다음 파일을 만듭니�
 * `visual.ts` - 시각적 개체의 기본 소스 코드.
 * `settings.ts` - 시각적 개체의 설정 코드. 파일의 클래스는 [시각적 개체의 속성](./objects-properties.md#properties)을 정의하기 위한 인터페이스를 제공합니다.
 
-### <a name="style"></a>style
+### <a name="style"></a>스타일
 
 이 폴더에는 시각적 개체의 스타일이 보관된 `visual.less` 파일이 포함되어 있습니다.
 
@@ -104,7 +102,7 @@ Power BI 시각적 개체 도구는 이 폴더에서 다음 파일을 만듭니�
 
 [TypeScript](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)의 구성 파일입니다.
 
-이 파일에는 `pbiviz.json` 파일의 `visualClassName` 속성에 지정된 시각적 개체의 기본 클래스가 있는 **\*.ts** 파일의 경로가 포함되어야 합니다.
+이 파일에는 **파일의 \* 속성에 지정된 시각적 개체의 기본 클래스가 있는**`visualClassName`.ts`pbiviz.json` 파일의 경로가 포함되어야 합니다.
 
 ### <a name="tslintjson"></a>tslint.json
 
@@ -115,7 +113,7 @@ Power BI 시각적 개체 도구는 이 폴더에서 다음 파일을 만듭니�
 `pbiviz.json` 파일의 다음 코드 캡션에 있는 주석은 메타데이터 항목을 설명합니다.
 
 > [!NOTE]
-> * **pbiviz** 도구 버전 3.x.x부터는 `externalJS`가 지원되지 않습니다.
+> * **pbiviz** 도구의 버전 3.x.x부터 `externalJS`가 지원되지 않습니다.
 > * 지역화 지원을 위해 [시각적 개체에 Power BI 로캘을 추가](./localization.md)합니다.
 
 ```json

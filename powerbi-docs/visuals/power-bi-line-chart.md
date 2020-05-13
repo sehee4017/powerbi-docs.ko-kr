@@ -2,31 +2,39 @@
 title: Power BI의 꺾은선형 차트
 description: Power BI의 꺾은선형 차트
 author: mihart
-ms.reviewer: amac
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/26/2019
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e46aa05ac326b5c959da8a29329fa92f4aec0b4d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 0f430747187729cbb939b67795ff0507770bb0f1
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871073"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82867027"
 ---
 # <a name="line-charts-in-power-bi"></a>Power BI의 꺾은선형 차트
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
+
 꺾은선형 차트는 점으로 표시되고 직선으로 연결되는 일련의 데이터 요소입니다. 꺾은선형 차트에는 하나 이상의 선이 있을 수 있습니다. 꺾은선형 차트에는 X축과 Y축이 있습니다. 
 
 ![간단한 꺾은선형 차트](media/power-bi-line-charts/power-bi-line.png)
 
+
+
 ## <a name="create-a-line-chart"></a>꺾은선형 차트 만들기
 이러한 지침에서는 영업 및 마케팅 샘플 앱을 사용하여 올해의 판매액을 범주별로 표시하는 꺾은선형 차트를 만듭니다. 이를 따르려면 appsource.com에서 샘플 앱을 받으세요.
 
+> [!NOTE]
+> Power BI 동료와 보고서를 공유하려면 개별 Power BI Pro 라이선스가 있거나 보고서가 Premium 용량에 저장되어 있어야 합니다.
+
 1. 빈 보고서 페이지에서 시작합니다. Power BI 서비스를 사용하는 경우 [편집용 보기](../service-interact-with-a-report-in-editing-view.md)에서 보고서를 엽니다.
 
-2. 필드 창에서 **SalesFact** \> **전체 단위**를 선택하고 **날짜** > **월**을 선택합니다.  Power BI는 보고서 캔버스에 세로 막대형 차트를 만듭니다.
+2. 필드 창에서 **SalesFact** \> **전체 단위**를 선택하고 **날짜**  >  **월**을 선택합니다.  Power BI는 보고서 캔버스에 세로 막대형 차트를 만듭니다.
 
     ![필드 창에서 선택](media/power-bi-line-charts/power-bi-step1.png)
 

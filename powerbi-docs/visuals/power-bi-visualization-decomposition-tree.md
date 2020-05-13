@@ -1,4 +1,4 @@
----
+﻿---
 title: 분해 트리
 description: '자습서:  Power BI에서 분해 트리 시각화 만들기'
 author: mihart
@@ -8,16 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 01/10/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8aa392b69d21905901f8304c577b87b00ed19057
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.openlocfilehash: f7c907d31d4d58a9f39ad982e7d94f3f5ba3f118
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75885285"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865571"
 ---
 # <a name="create-and-view-decomposition-tree-visuals-in-power-bi-preview"></a>Power BI에서 분해 트리 시각적 개체 만들기 및 보기(미리 보기)
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
+
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 Power BI의 분해 트리 시각적 개체를 사용하여 여러 차원에서 데이터를 시각화할 수 있습니다. 자동으로 데이터를 집계하며 임의 순서로 차원을 드릴다운할 수 있게 해줍니다. AI(인공 지능) 시각화이기도 하므로 특정 기준에 따라 드릴다운할 다음 차원을 찾도록 요청할 수 있습니다. 그러므로 임시 탐색 및 근본 원인 분석을 수행하는 데 유용한 도구입니다.
@@ -29,6 +32,8 @@ Power BI의 분해 트리 시각적 개체를 사용하여 여러 차원에서 �
 - 회사가 보유한 이월 주문(재고 부족) 제품의 비율을 분석하는 공급망 시나리오.  
 - 게임 장르 및 제작사와 같은 다양한 요소에 따라 비디오 게임 판매를 분류하는 판매 시나리오.
 
+> [!NOTE]
+> Power BI 동료와 보고서를 공유하려면 개별 Power BI Pro 라이선스가 있거나 보고서가 Premium 용량에 저장되어 있어야 합니다.    
 
 ## <a name="get-started"></a>시작
 시각화 창에서 분해 트리 아이콘을 선택합니다.
@@ -84,7 +89,7 @@ Power BI의 분해 트리 시각적 개체를 사용하여 여러 차원에서 �
 
 그럼에도 더 흥미로운 분할은 같은 열에 있는 다른 값을 기준으로 하는 상위 값을 확인하는 것입니다. 분석 유형을 **절대**에서 **상대**로 변경하면 Nintendo에 대해 다음과 같은 결과를 얻을 수 있습니다. ![분해 트리 상대 분할](media/power-bi-visualization-decomposition-tree/tree-ai-relative.png)
 
-이번에는 제안된 값이 **Game Genre 내 Platform**입니다. Platform에는 Nintendo보다 큰 절대값이 없습니다($19,950,000와 $46,950,000). 그럼에도 불구하고 이것은 두드러지는 값입니다.
+이번에는 제안된 값이 **Game Genre 내 Platform**입니다.  Platform에는 Nintendo보다 큰 절대값이 없습니다($19,950,000와 $46,950,000). 그럼에도 불구하고 이것은 두드러지는 값입니다.
 
 보다 정확하게는 10개의 게임 장르 값이 있으므로 균일하게 분할할 경우 Platform에서 예상되는 값은 $4.6M이 됩니다. Platform은 값이 거의 $20M이기 때문에 예상 결과보다 4배 더 높은 흥미로운 결과를 얻을 수 있습니다.
 

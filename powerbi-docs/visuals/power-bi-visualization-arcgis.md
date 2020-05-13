@@ -8,24 +8,32 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/29/2019
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c9e0658eb277ae25b3a418dd80fb9323be6f6ab0
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: c296e202dccf814fcb9e1a4c6ee0620185723248
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75758402"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865693"
 ---
 # <a name="create-arcgis-maps-in-power-bi-desktop"></a>Power BI Desktop에서 ArcGIS 지도 만들기
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 이 자습서는 ArcGIS Maps for Power BI를 만드는 사람의 관점에서 작성되었습니다. ‘디자이너’가 동료와 ArcGIS Maps for Power BI 지도를 공유하면, 동료가 지도를 보고 조작할 수 있지만 변경 내용을 저장할 수는 없습니다.  ArcGIS 지도를 보는 방법에 대한 자세한 내용은 [ArcGIS Maps for Power BI 조작](power-bi-visualizations-arcgis.md)을 참조하세요.
 
+> [!NOTE]
+> Power BI 동료와 보고서를 공유하려면 개별 Power BI Pro 라이선스가 있거나 보고서가 Premium 용량에 저장되어 있어야 합니다.
+
 ArcGIS 지도와 Power BI의 조합은 지도에서 요소의 표현을 넘어서 완전히 새로운 수준으로 매핑합니다. 기본 지도, 위치 유형, 테마, 기호 스타일 및 참조 계층에서 선택하여 멋진 정보 제공용 지도 시각화를 만듭니다. 공간 분석과 지도의 신뢰할 수 있는 데이터 계층의 조합은 시각화에서 데이터의 심도 깊은 이해를 제공합니다.
 
  모바일 디바이스에서 ArcGIS Maps for Power BI 지도를 만들 수는 없지만, 지도를 보고 조작할 수 있습니다. [ArcGIS 지도와 상호 작용](power-bi-visualizations-arcgis.md)을 참조하세요.
+
+> [!NOTE]
+> ArcGIS Maps for Power BI는 현재 Power BI Report Server에 사용할 수 없습니다.
 
 > [!TIP]
 > GIS는 Geographic Information Systems(지리적 정보 시스템)의 약자입니다.
@@ -60,7 +68,7 @@ ArcGIS Maps for Power BI는 Esri(https://www.esri.com) 에서 제공합니다. P
 
 1. 보고서 뷰 ![보고서 뷰 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)에서 **소매점 분석 샘플**을 엽니다.
 
-1. 선택 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
+1. 새 페이지를 추가하기 위해 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
 
    
 ## <a name="create-an-arcgis-maps-for-power-bi-map-visualization"></a>ArcGIS Maps for Power BI 지도 시각화 만들기

@@ -1,23 +1,25 @@
----
+﻿---
 title: Power BI의 방사형 계기 차트
 description: Power BI의 방사형 계기 차트
 author: mihart
 ms.reviewer: ''
-featuredvideoid: xmja6Epqa
+featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e783b4357d4db39e09aabbb1df39e1bb5c84532e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7c6c4dbe9f17464483f5b44542ffbe04f715d4bd
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880895"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866935"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Power BI의 방사형 계기 차트
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -27,12 +29,8 @@ ms.locfileid: "73880895"
 
 이 예에서는 월별 판매 팀의 평균 판매량을 추적하는 자동차 소매업체입니다. 바늘은 140대 판매 목표를 나타냅니다. 가능한 최소 평균 판매량은 0이고 최대는 200입니다.  파란색 음영은 팀이 이번 달에 평균 약 120대를 판매한 상태임을 나타냅니다. 다행히 목표에 도달할 수 있는 또 다른 한 주가 아직 남아있습니다.
 
-Will이 단일 메트릭 시각적 개체: 계기, 카드 및 KPI를 만드는 방법을 보여 주는 과정을 봅니다.
-   > [!NOTE]
-   > 이 비디오에서는 이전 버전의 Power BI Desktop을 사용합니다.
-   > 
-   > 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
+> [!NOTE]
+> Power BI 동료와 보고서를 공유하려면 개별 Power BI Pro 라이선스가 있거나 보고서가 Premium 용량에 저장되어 있어야 합니다.
 
 ## <a name="when-to-use-a-radial-gauge"></a>방사형 계기를 사용하는 경우
 
@@ -60,7 +58,7 @@ Will이 단일 메트릭 시각적 개체: 계기, 카드 및 KPI를 만드는 �
 
 1. **로드**를 클릭합니다.
 
-1. 새 페이지를 추가하기 위해 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png)를 선택합니다.
+1. 새 페이지를 추가하기 위해 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
 
 
  

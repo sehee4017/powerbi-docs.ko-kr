@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: 2c7ae8180f51592319c9aaca85272553480cd283
-ms.sourcegitcommit: 0da17de80c9651f9f4474d1abb1bdaaade8808fb
+ms.openlocfilehash: bad6b507e970319003a8d338ecf29a2afc948e9c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/27/2019
-ms.locfileid: "75498521"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79435562"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 즐겨찾기 만들기 및 보기
 적용 대상:
@@ -21,6 +21,9 @@ ms.locfileid: "75498521"
 | ![iPhone](./media/mobile-apps-favorites/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-favorites/ipad-logo-50-px.png) | ![Android 휴대폰](./media/mobile-apps-favorites/android-phone-logo-50-px.png) | ![Android 태블릿](./media/mobile-apps-favorites/android-tablet-logo-50-px.png) | ![Android 태블릿](./media/mobile-apps-favorites/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Android 휴대폰 |Android 태블릿 |Windows 10 디바이스 |
+
+>[!NOTE]
+>**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 모바일 앱에서 즐겨 찾는 온-프레미스 Power BI Report Server, Reporting Services KPI 및 보고서와 함께 즐겨 찾는 Power BI 대시보드, 보고서, 앱을 만들고 보는 방법에 대해 알아보세요.
 
@@ -49,7 +52,7 @@ Power BI Report Server 또한 Reporting Services 웹 포털에서 KPI와 보고�
 ## <a name="make-a-dashboard-or-report-a-favorite-in-the-ios-and-windows-10-mobile-apps"></a>iOS 및 Windows 10 모바일 앱에서 대시보드 또는 보고서를 즐겨찾기로 만들기
 대시보드나 보고서 목록 또는 대시보드나 보고서 자체에서 Power BI 대시보드 또는 보고서를 즐겨찾기로 만들 수 있습니다.
 
-* 모바일 앱의 대시보드 또는 보고서 목록에서 이름 옆에 있는 속이 빈 별 ![즐겨찾기 아님 아이콘을 탭합니다](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png)을 탭합니다. 별이 노란색 ![즐겨찾기 아이콘으로 바뀝니다](./././media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png)을 탭합니다.
+* 모바일 앱의 대시보드 또는 보고서 목록에서 이름 옆에 있는 속이 빈 별 ![즐겨찾기 아님 아이콘을 탭합니다](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png). 별이 노란색 ![즐겨찾기 아이콘으로 바뀝니다](./././media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png).
   
     ![대시보드 즐겨찾기](./media/mobile-apps-favorites/power-bi-mobile-make-dashboard-favorite.png)
 * 대시보드를 사용 중이면 리본에서 속이 빈 별 ![즐겨찾기 아님 아이콘](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png)을 탭합니다. 보고서를 사용 중이면 **기타 옵션**(...) 아래에 별이 있습니다.  별이 검은색 ![즐겨찾기 아이콘](./././media/mobile-apps-favorites/power-bi-mobile-favorite-selected-black.png)으로 바뀝니다.
@@ -63,7 +66,7 @@ Power BI Report Server 또한 Reporting Services 웹 포털에서 KPI와 보고�
   
     ![Android 즐겨찾기 메뉴](./media/mobile-apps-favorites/power-bi-android-make-favorite.png)
 
-* 대시보드를 사용 중이면 리본에서 속이 빈 별 ![즐겨찾기 아님 아이콘을 탭합니다](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png)을 탭합니다. 별이 진한 회색 ![즐겨찾기 아이콘으로 바뀝니다](./media/mobile-apps-favorites/power-bi-android-favorite-icon.png)을 탭합니다.
+* 대시보드를 사용 중이면 리본에서 속이 빈 별 ![즐겨찾기 아님 아이콘을 탭합니다](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png). 별이 진한 회색 ![즐겨찾기 아이콘으로 바뀝니다](./media/mobile-apps-favorites/power-bi-android-favorite-icon.png).
   
     ![Android 즐겨찾기 별](./media/mobile-apps-favorites/power-bi-android-favorite-in-dashboard.png)
 

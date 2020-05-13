@@ -10,10 +10,10 @@ ms.date: 10/28/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: c9de9031fdbee48fca3b9a025fe2547ec08a5f20
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73871038"
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>Power BI 보고서에서 시각화 유형 변경
@@ -35,7 +35,7 @@ Power BI 서비스와 Power BI Desktop에서 다양한 유형의 시각화를 �
 대시보드에 고정한 이후에 보고서에서 시각화 유형을 변경한 경우 대시보드 타일이 자동으로 업데이트되지 않습니다. 따라서 Power BI 서비스를 사용하여 시각화를 꺾은선형 차트로 고정한 다음, 보고서에서 가로 막대형 차트로 변경한 경우, 이미 고정된 버전의 데이터는 꺾은선형 차트로 유지됩니다. 가로 막대형 차트도 대시보드에서 고정하여 볼 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI 보고서의 시각화](power-bi-report-visualizations.md)에 대해 자세히 알아보기
+[Power BI 보고서의 시각화](power-bi-report-visualizations.md)에 대한 자세한 정보
 
 [Power BI - 기본 개념](../consumer/end-user-basic-concepts.md)
 

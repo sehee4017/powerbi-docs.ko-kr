@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 590f11f23a04a698459cc4db99efe5308ccc0ce3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 996e409e634292ca0767f34c49931cfbcdcd4b94
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879953"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79379576"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>자습서:  Power BI 시각적 개체 프로젝트의 단위 테스트 추가
 
@@ -381,7 +381,7 @@ npm run test
 
 `karma.js`가 Chrome 브라우저에서 테스트 사례를 실행합니다.
 
-![Chrome에서 열린 Karma JavaScript](./media/karmajs-chrome.png)
+![Chrome에서 열린 Karma JavaScript](media/unit-tests-introduction/karmajs-chrome.png)
 
 > [!NOTE]
 > Google Chrome을 로컬에 설치해야 합니다.
@@ -453,7 +453,7 @@ export class SampleBarChartDataBuilder extends TestDataViewBuilder {
 
 데이터 필드 버킷에 데이터를 넣으면 Power BI는 해당 데이터를 기반으로 하는 범주 `dataview` 개체를 생성합니다.
 
-![데이터 필드 버킷](./media/fields-buckets.png)
+![데이터 필드 버킷](media/unit-tests-introduction/fields-buckets.png)
 
 단위 테스트에는 데이터를 재현할 Power BI 핵심 함수가 없습니다. 그러나 정적 데이터를 범주 `dataview`에 매핑해야 합니다. `TestDataViewBuilder` 클래스가 매핑 작업에 도움이 될 수 있습니다.
 
@@ -596,23 +596,23 @@ Lines        : 52.83% ( 112/212 )
 
 시각적 개체가 다음과 같이 Chrome 브라우저에서 열립니다.
 
-![Chrome에서 UT 시작됨](./media/karmajs-chrome-ut-runned.png)
+![Chrome에서 UT 시작됨](media/unit-tests-introduction/karmajs-chrome-ut-runned.png)
 
 요약을 통해 검사가 증가한 것을 알 수 있습니다. 현재 코드 검사에 대한 자세한 내용을 보려면 `coverage\index.html`을 엽니다.
 
-![UT 검사 인덱스](./media/code-coverage-index.png)
+![UT 검사 인덱스](media/unit-tests-introduction/code-coverage-index.png)
 
 또는 `src` 폴더의 범위를 확인합니다.
 
-![src 폴더 검사](./media/code-coverage-src-folder.png)
+![src 폴더 검사](media/unit-tests-introduction/code-coverage-src-folder.png)
 
 파일 범위에서 원본 코드를 살펴볼 수 있습니다. `Coverage` 유틸리티는 단위 테스트 중 특정 코드가 실행되지 않을 경우 해당 행을 빨간색으로 강조 표시합니다.
 
-![visual.ts 파일의 코드 검사](./media/code-coverage-visual-src.png)
+![visual.ts 파일의 코드 검사](media/unit-tests-introduction/code-coverage-visual-src.png)
 
 > [!IMPORTANT]
 > 코드 검사가 시각적 개체의 적절한 기능 검사를 의미하는 것은 아닙니다. 하나의 간단한 단위 테스트가 `src\visual.ts` 검사의 96% 이상을 제공합니다.
 
 ## <a name="next-steps"></a>다음 단계
 
-시각적 개체가 준비되면 게시를 위해 제출할 수 있습니다. 자세한 내용은 [AppSource에 Power BI 시각적 개체 게시](../office-store.md)를 참조하세요.
+시각적 개체가 준비되면 게시를 위해 제출할 수 있습니다. 자세한 내용은 [AppSource에 Power BI 시각적 개체 게시](office-store.md)를 참조하세요.

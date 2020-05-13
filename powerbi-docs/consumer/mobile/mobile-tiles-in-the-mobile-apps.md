@@ -1,19 +1,19 @@
 ---
 title: Power BI 모바일 앱에서 타일 탐색
 description: 타일은 데이터의 라이브 스냅샷이며 대시보드에 고정됩니다. Power BI 모바일 앱에 있는 타일과 상호 작용하는 방법에 대해 알아봅니다.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
-ms.author: mshenhav
-ms.openlocfilehash: b400f429ef1e65a40caea717ab18bc06300f9d76
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: c9957b1f190f3e2cfc2aa5f082eb11df4d647b5f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75221205"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79435907"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 타일 탐색
 적용 대상:
@@ -85,6 +85,10 @@ ms.locfileid: "75221205"
 4. 왼쪽 위에 있는 화살표를 눌러 타일을 닫고 대시보드로 돌아갑니다.
 
 ## <a name="tiles-in-the-windows-10-mobile-app"></a>Windows 10 모바일 앱의 타일
+
+>[!NOTE]
+>**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](https://go.microsoft.com/fwlink/?linkid=2121400)
+
 1. Windows 10용 [Power BI 모바일 앱에서 대시보드](mobile-apps-view-dashboard.md)를 엽니다.
 2. 타일의 세로 줄임표(...)를 탭합니다. 여기에서는 다음과 같은 작업을 할 수 있습니다. 
    

@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/18/2020
+ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: 27f6469cb960ff101f45636e0720b935929ff010
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: f2aeb720221fa79aa95f9674aa1e3ac610b28c19
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538135"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841736"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 보고서 탐색
 적용 대상:
@@ -21,6 +21,9 @@ ms.locfileid: "76538135"
 | ![iPhone](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![iPad](././media/mobile-reports-in-the-mobile-apps/ios-logo-40-px.png) | ![Android 휴대폰](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | ![Android 태블릿](././media/mobile-reports-in-the-mobile-apps/android-logo-40-px.png) | ![Windows 10 디바이스](./media/mobile-reports-in-the-mobile-apps/win-10-logo-40-px.png) |
 |:---: |:---: |:---: |:---: |:---: |
 | iPhone |iPad |Android 휴대폰 |Android 태블릿 |Windows 10 디바이스 |
+
+>[!NOTE]
+>**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 Power BI 보고서는 해당 데이터의 다양한 결과 및 인사이트를 나타내는 시각적 개체가 포함된 데이터의 대화형 뷰입니다. 3단계 프로세스 중 다음의 세 번째 단계는 Power BI 모바일 앱에서 보고서 보기입니다.
 
@@ -42,7 +45,7 @@ Power BI 모바일 앱의 보고서를 위한 두 가지 아이콘이 있습니�
 * ![휴대폰 보고서 아이콘](./media/mobile-reports-in-the-mobile-apps/report-phone-icon.png) 세로 방향으로 표시되는 하나 이상의 휴대폰에 최적화된 페이지로 구성된 보고서를 나타냅니다.
 
 > [!NOTE]
-> 휴대폰을 가로 방향으로 들면 보고서 페이지가 휴대폰 레이아웃으로 표시되더라도 항상 가로 레이아웃으로 볼 수 있습니다.
+> 휴대폰을 가로 방향으로 들면 보고서 페이지가 모바일 레이아웃으로 표시되더라도 항상 가로 레이아웃으로 볼 수 있습니다.
 
 대시보드에서 보고서로 이동하려면 타일의 오른쪽 위에 있는 **추가 옵션**(...)을 탭한 다음, **보고서 열기**를 탭합니다.
   
@@ -59,6 +62,14 @@ Power BI 모바일 앱을 다운로드하면 단일 탭 상호 작용이 설정�
 원하는 경우 두 번 탭 상호 작용으로 전환할 수 있습니다. 두 번 탭 상호 작용을 사용하면 먼저 시각적 개체를 탭하여 선택한 다음 시각적 개체에서 다시 탭하여 원하는 작업을 수행합니다.
 
 두 번 탭 상호 작용으로 전환하거나 단일 탭으로 다시 전환하려면 [앱 상호 작용 설정](./mobile-app-interaction-settings.md)으로 이동합니다.
+
+### <a name="single-select-versus-multi-select-mode-for-data-point-selection"></a>데이터 요소 선택을 위한 단일 선택 모드 및 다중 선택 모드
+
+보고서에서 데이터 요소를 탭하여 선택합니다. 단일 선택 모드 또는 다중 선택 모드를 사용할지 여부를 선택할 수 있습니다. 단일 선택 모드에서 데이터 요소를 탭하여 선택하면 이전에 선택한 항목이 해당 선택 항목으로 바뀝니다. 다중 선택 모드에서 데이터 요소를 탭하여 선택하면 현재 선택한 항목에 선택 항목이 *추가*되고 모든 선택 항목의 결합된 결과가 모든 보고서의 시각적 개체에서 강조 표시됩니다.
+
+선택한 데이터 요소의 선택을 취소하려면 다시 탭하면 됩니다.
+
+단일 선택 모드와 다중 선택 모드 간에 전환하려면 [앱 상호 작용 설정](./mobile-app-interaction-settings.md)으로 이동합니다.
 
 ### <a name="using-tap-and-long-tap"></a>탭 및 길게 탭 사용
 탭은 마우스 클릭과 동일한 동작입니다. 따라서 데이터 요소에 따라 보고서를 교차 강조 표시하려는 경우 해당 데이터 요소를 탭하면 됩니다.

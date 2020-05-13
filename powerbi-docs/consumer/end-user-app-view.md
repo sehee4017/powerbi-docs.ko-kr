@@ -6,17 +6,19 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 1/22/2020
+ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 08a58bd725b8a8da3ff54b5bb670eb70af458dc7
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.openlocfilehash: 3b8985158092227fde5eb64eddabc9990d0606f6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819264"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82120278"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI에서 대시보드 및 보고서로 앱 설치 및 사용
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -27,7 +29,12 @@ ms.locfileid: "76819264"
 
 모바일 디바이스의 Power BI에서는 AppSource가 아닌 직접 링크를 통해서만 설치할 수 있습니다. 앱 설계자가 앱을 자동 설치할 경우 앱 목록이 표시됩니다.
 
-## <a name="install-an-app-from-a-direct-link"></a>직접 링크에서 앱 설치
+## <a name="apps-and-licenses"></a>앱 및 라이선스
+일부 Power BI 사용자는 앱을 보고 상호 작용할 수 없습니다. 
+- 평가판 라이선스가 있는 경우 사용자와 공유되고 프리미엄 용량의 작업 영역에 저장된 앱을 열 수 있습니다.
+- Pro 라이선스가 있는 경우 공유된 앱을 열 수 있습니다.
+
+## <a name="install-an-app-from-a-direct-link"></a>직접 링크에서 앱 설치 
 새 앱을 설치하는 가장 쉬운 방법은 앱 디자이너가 메일로 직접 링크를 받는 것입니다.  
 
 **컴퓨터에서** 
@@ -43,7 +50,10 @@ ms.locfileid: "76819264"
 ![모바일 디바이스의 앱 콘텐츠 목록](./media/end-user-app-view/power-bi-ios.png)
 
 ## <a name="get-the-app-from-microsoft-appsource"></a>Microsoft AppSource에서 앱 가져오기
-Microsoft AppSource에서 앱을 찾아 설치할 수도 있습니다. 액세스할 수 있는 앱(즉, 앱 작성자가 귀하에게 권한을 부여했거나 모든 사용자에게 부여한 앱)만 표시됩니다.
+Microsoft AppSource에서 앱을 찾아 설치할 수도 있습니다. 액세스할 수 있는 앱(즉, 앱 작성자가 귀하에게 권한을 부여했거나 모든 사용자에게 부여한 앱)만 표시됩니다. 
+
+> [!NOTE]
+> 평가판 사용자 라이선스를 사용하는 경우 Power BI Pro 계정으로 업그레이드하지 않거나 앱을 프리미엄 용량에 저장하지 않으면 앱을 다운로드할 수 있지만 볼 수는 없습니다. 자세한 내용은 [소비자 라이선스](end-user-license.md)를 참조하세요.
 
 1. **앱**  > **앱 가져오기**를 선택합니다. 
    
@@ -77,7 +87,12 @@ Microsoft AppSource에서 앱을 찾아 설치할 수도 있습니다. 액세스
 
 5. 앱이 설치되면 Power BI 서비스에 성공 메시지가 표시됩니다. **앱으로 이동**을 선택하여 앱을 엽니다. 디자이너가 앱을 만든 방법에 따라, 앱 대시보드 또는 앱 보고서가 표시됩니다.
 
+
+
     ![앱을 설치함 ](./media/end-user-apps/power-bi-app-ready.png)
+
+    > [!NOTE]
+    > 평가판 사용자 라이선스를 사용하는 경우 Power BI Pro 계정으로 업그레이드하지 않으면 앱을 다운로드할 수 있지만 볼 수는 없습니다. 
 
     **앱**을 선택하고 **영업 및 마케팅**을 선택하여 앱 콘텐츠 목록에서 직접 앱을 열 수도 있습니다.
 
@@ -120,9 +135,7 @@ Microsoft AppSource에서 앱을 찾아 설치할 수도 있습니다. 액세스
     > [!NOTE] 
     > 새 버전을 설치하면 보고서와 대시보드에 있을 수 있는 변경 사항이 덮어 쓰입니다. 업데이트된 보고서와 대시보드를 유지하려면 다른 이름으로 저장하거나 다른 위치에 저장한 후 설치하면 됩니다. 
 
-    4. 업데이트된 버전을 설치한 후 **업데이트 앱**을 선택하여 업데이트 프로세스를 완료합니다. 
-
-    <!--![Update app](./media/end-user-app-view/power-bi-new-app-version-update-app.png) -->
+    4. 업데이트된 버전이 설치되면 **앱 업데이트**를 선택하여 업데이트 프로세스를 완료합니다. 
 
 
 ## <a name="next-steps"></a>다음 단계

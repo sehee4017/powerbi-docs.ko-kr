@@ -6,23 +6,20 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/25/2019
+ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 6ce82516413fe43cfbc1336e2f6f51003277fb4a
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.openlocfilehash: 937f8ca693113cf85d265420da44f7c9f8b68f5f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76161297"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "78260456"
 ---
 # <a name="many-to-many-relationship-guidance"></a>다 대 다 관계 지침
 
 이 문서는 Power BI Desktop을 개발하는 데이터 모델러를 대상으로 합니다. 세 가지 다 대 다 모델링 시나리오를 설명합니다. 또한 모델에서 시나리오에 맞게 디자인하는 방법에 대한 지침을 제공합니다.
 
-> [!NOTE]
-> 이 문서에서 모델 관계를 소개하지는 않습니다. 관계, 해당 속성 또는 관계를 구성하는 방법을 잘 모르겠으면 먼저 [Power BI Desktop의 모델 관계](../desktop-relationships-understand.md) 문서를 읽어보시는 것이 좋습니다.
->
-> 별모양 스키마 디자인을 살펴보는 것도 중요합니다. 자세한 내용은 [별모양 스키마 및 Power BI에서의 중요도 이해](star-schema.md)를 참조하세요.
+[!INCLUDE [relationships-prerequisite-reading](includes/relationships-prerequisite-reading.md)]
 
 사실상 세 가지 다 대 다 시나리오가 있습니다. 세 가지 시나리오는 다음 작업을 수행해야 하는 경우에 발생할 수 있습니다.
 
@@ -164,7 +161,7 @@ ms.locfileid: "76161297"
 
 ### <a name="relate-many-to-many-facts-guidance"></a>다 대 다 팩트 연결 지침
 
-일반적으로 다 대 다 카디널리티를 사용하여 두 팩트 유형 테이블을 직접 연결하지 않는 것이 좋습니다. 주요 이유는 이 모델을 사용할 경우 시각적 개체 필터 또는 그룹을 다양한 방식으로 보고할 수 없기 때문입니다. 이 예제에서는 시각적 개체가 **Order** 테이블의 **OrderID** 열로만 필터링하거나 그룹화할 수 있습니다. 추가 이유는 데이터 품질과 관련이 있습니다. 데이터에 무결성 문제가 있을 경우 ‘약한 관계’의 특성으로 인해 쿼리 중에 일부 행이 생략될 수 있습니다.  자세한 내용은 [관계 평가](../desktop-relationships-understand.md#relationship-evaluation)를 참조하세요.
+일반적으로 다 대 다 카디널리티를 사용하여 두 팩트 유형 테이블을 직접 연결하지 않는 것이 좋습니다. 주요 이유는 이 모델을 사용할 경우 시각적 개체 필터 또는 그룹을 다양한 방식으로 보고할 수 없기 때문입니다. 이 예제에서는 시각적 개체가 **Order** 테이블의 **OrderID** 열로만 필터링하거나 그룹화할 수 있습니다. 추가 이유는 데이터 품질과 관련이 있습니다. 데이터에 무결성 문제가 있을 경우 ‘약한 관계’의 특성으로 인해 쿼리 중에 일부 행이 생략될 수 있습니다.  자세한 내용은 [Power BI Desktop의 모델 관계(관계 평가)](../desktop-relationships-understand.md#relationship-evaluation)를 참조하세요.
 
 팩트 유형 테이블을 직접 연결하는 대신, [별모양 스키마](star-schema.md) 디자인 원칙을 채택하는 것이 좋습니다. 차원 유형 테이블을 추가하면 됩니다. 그러면 차원 유형 테이블이 일 대 다 관계를 사용하여 팩트 유형 테이블에 연결됩니다. 이 디자인 방법은 유연성 있는 보고 옵션을 제공하므로 강력합니다. 이 방법을 사용하면 차원 유형 열 중 하나로 필터링하거나 그룹화하고 관련 팩트 유형 테이블을 요약할 수 있습니다.
 
@@ -187,7 +184,7 @@ ms.locfileid: "76161297"
 - 보고서 시각적 개체가 차원 유형 테이블의 보이는 열을 기준으로 ‘필터링하거나 그룹화’할 수 있습니다. 
 - 보고서 시각적 개체가 팩트 유형 테이블의 보이는 열을 ‘요약’할 수 있습니다. 
 - **OrderLine**, **OrderDate** 또는 **Product** 테이블에 적용된 필터가 두 팩트 유형 테이블에 모두 전달됩니다.
-- 모든 관계는 일 대 다이고, 각 관계는 ‘강력한 관계’입니다.  데이터 무결성 문제가 마스킹 되지 않습니다. 자세한 내용은 [관계 평가](../desktop-relationships-understand.md#relationship-evaluation)를 참조하세요.
+- 모든 관계는 일 대 다이고, 각 관계는 ‘강력한 관계’입니다.  데이터 무결성 문제가 마스킹 되지 않습니다. 자세한 내용은 [Power BI Desktop의 모델 관계(관계 평가)](../desktop-relationships-understand.md#relationship-evaluation)를 참조하세요.
 
 ## <a name="relate-higher-grain-facts"></a>상위 세분성 팩트 연결
 
@@ -300,4 +297,6 @@ IF(
 
 - [Power BI Desktop의 모델 관계](../desktop-relationships-understand.md)
 - [별모양 스키마 및 Power BI에서의 중요성 이해](star-schema.md)
-- 질문이 있으십니까? [Power BI 커뮤니티에 질문하세요.](https://community.powerbi.com/)
+- [관계 문제 해결 지침](relationships-troubleshoot.md)
+- 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+- 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com/)

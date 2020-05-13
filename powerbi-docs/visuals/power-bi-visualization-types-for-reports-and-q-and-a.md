@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8737a0e9b2dd8ba17d28962ed51e24ec0c5cefc4
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 12c2d839c14a4a982505f56b7d605bacc5edc728
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76040484"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79381425"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI의 시각화 유형
 ## <a name="power-bi-visualizations"></a>Power BI 시각화
 새로운 시각화를 추가할 예정이니 기대해 주세요.
 
-[Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)를 확인하면 고유한 대시보드 및 보고서에 다운로드하여 사용할 수 있는 [사용자 지정 시각적 개체](../developer/power-bi-custom-visuals.md) 목록이 늘어나는 것을 볼 수 있습니다. 창의성을 발휘하고 싶으신가요? [이 커뮤니티 사이트에 고유한 시각적 개체를 만들고 추가하는 방법을 알아봅니다](../developer/office-store.md).  
+[Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)를 확인하면 고유한 대시보드 및 보고서에 다운로드하여 사용할 수 있는 [Power BI 시각적 개체](../developer/visuals/power-bi-custom-visuals.md) 목록이 늘어나는 것을 볼 수 있습니다. 창의성을 발휘하고 싶으신가요? [이 커뮤니티 사이트에 고유한 시각적 개체를 만들고 추가하는 방법을 알아봅니다](../developer/visuals/office-store.md).  
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Power BI에서 사용할 수 있는 시각화 목록
 이러한 시각화는 모두 Power BI 보고서에 추가하고, 질문 및 답변에서 지정하고, 대시보드에 고정할 수 있습니다.
@@ -41,7 +41,7 @@ ms.locfileid: "76040484"
 >[!TIP]
 >여러 범주의 특정 값을 살펴보는 데는 가로 막대형 차트가 표준입니다.
 
-### <a name="cards-multi-row"></a>카드: 여러 행
+### <a name="cards-multi-row"></a>카드: 다중 행
 ![여러 행 카드](media/power-bi-visualization-types-for-reports-and-q-and-a/multi-row-card.png)
 
 ### <a name="cards-single-number"></a>카드: 단일 숫자
@@ -53,7 +53,7 @@ ms.locfileid: "76040484"
 ![콤보 차트](media/power-bi-visualization-types-for-reports-and-q-and-a/combosmall.png)
 
 >[!TIP]
->콤보 차트는 세로 막대형 차트와 꺾은선형 차트를 결합합니다. *꺾은선형 및 누적 세로 막대형* 과 꺾은선형 및 묶은 세로 막대형 중에서 선택합니다. 
+>콤보 차트는 세로 막대형 차트와 꺾은선형 차트를 결합합니다. *꺾은선형 및 누적 세로 막대형* 과 *꺾은선형 및 묶은 세로 막대형*중에서 선택합니다.
 
 자세한 내용은 [Power BI의 콤보 차트](power-bi-visualization-combo-chart.md)를 참조하세요.
 
@@ -110,12 +110,12 @@ ms.locfileid: "76040484"
 
 자세한 내용은 [지도 시각 효과에 대한 팁과 트릭](power-bi-map-tips-and-tricks.md)을 참조하세요.
 
-### <a name="maps-arcgis-maps"></a>지도: ArcGIS 맵
+### <a name="maps-arcgis-maps"></a>지도: ArcGIS 지도
 ![ArcGIS 지도](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
 자세한 내용은 [Power BI의 ArcGIS 지도](power-bi-visualization-arcgis.md)를 참조하세요.
 
-### <a name="maps-filled-maps-choropleth"></a>지도: 등치 지역도
+### <a name="maps-filled-maps-choropleth"></a>지도: 등치 지역도(코로플레스)
 ![등치 지역도](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
 
 >[!TIP]
@@ -193,7 +193,7 @@ ms.locfileid: "76040484"
 
 자세한 내용은 [Power BI의 고밀도 분산형 차트](desktop-high-density-scatter-charts.md)를 참조하세요.
 
-### <a name="slicers"></a>슬라이서(Slicers)
+### <a name="slicers"></a>슬라이서
 ![slicer](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
 
 자세한 내용은 [Power BI의 슬라이서](power-bi-visualization-slicers.md)를 참조하세요.
@@ -203,7 +203,7 @@ ms.locfileid: "76040484"
 
 자세한 내용은 [대시보드에 이미지 위젯 추가](../service-dashboard-add-widget.md)를 참조하세요.
 
-### <a name="tables"></a>테이블
+### <a name="tables"></a>표
 ![테이블 시각적 개체](media/power-bi-visualization-types-for-reports-and-q-and-a/tabletype.png)
 
 >[!TIP]
@@ -212,7 +212,7 @@ ms.locfileid: "76040484"
 자세한 내용은 [Power BI에서 테이블 작업](power-bi-visualization-tables.md)을 참조하세요.
 
 ### <a name="treemaps"></a>트리맵
-![treemap](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
+![트리맵](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
 
 자세한 내용은 [Power BI의 트리 맵](power-bi-visualization-treemaps.md)을 참조하세요.
 
@@ -228,7 +228,7 @@ ms.locfileid: "76040484"
 자세한 내용은 [Power BI의 폭포 차트](power-bi-visualization-waterfall-charts.md)를 참조하세요.
 
 ## <a name="tell-qa-which-visualization-to-use"></a>질문 및 답변에 사용할 시각화 알리기
-Power BI 질문 및 답변을 사용하여 자연어 쿼리를 입력할 때 쿼리에서 시각화 유형을 지정할 수 있습니다.  다음은 그 예입니다.
+Power BI 질문 및 답변을 사용하여 자연어 쿼리를 입력할 때 쿼리에서 시각화 유형을 지정할 수 있습니다.  예:
 
 "***sales by state as a treemap***"
 

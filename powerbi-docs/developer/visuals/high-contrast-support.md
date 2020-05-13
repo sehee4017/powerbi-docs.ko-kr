@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 021040706ff34f43c6a7772849f2e27181041bc9
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9372187ae1fdfac27f6b3e7267a1c0622c063464
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880040"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "80114339"
 ---
 # <a name="high-contrast-mode-support-in-power-bi-visuals"></a>Power BI 시각적 개체의 고대비 모드 지원
 
@@ -82,9 +82,9 @@ Power BI 네이티브 시각적 개체는 다음과 같은 지침을 따릅니�
 
 예를 들어 다음 샘플 가로 막대형 차트에서는 모든 막대가 2픽셀 두께의 전경 윤곽선과 배경 채우기로 그려집니다. 기본 색이 적용된 모양과 몇 가지 고대비 테마가 적용된 모양을 비교합니다.
 
-![표준 색을 사용한 샘플 가로 막대형 차트](./media/hc-samplebarchart-standard.png)
-![*어둡게 #2* 색 테마를 사용한 샘플 가로 막대형 차트](./media/hc-samplebarchart-dark2.png)
-![*흰색* 색 테마를 사용한 샘플 가로 막대형 차트](./media/hc-samplebarchart-white.png)
+![표준 색을 사용한 샘플 가로 막대형 차트](media/high-contrast-support/hc-samplebarchart-standard.png)
+![*어둡게 #2* 색 테마를 사용한 샘플 가로 막대형 차트](media/high-contrast-support/hc-samplebarchart-dark2.png)
+![*흰색* 색 테마를 사용한 샘플 가로 막대형 차트](media/high-contrast-support/hc-samplebarchart-white.png)
 
 다음 섹션에서는 고대비를 지원하기 위해 변경된 `visualTransform` 함수의 한곳을 보여 줍니다. 업데이트 중에 렌더링의 일부로 호출됩니다.
 

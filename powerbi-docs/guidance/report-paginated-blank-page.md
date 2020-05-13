@@ -1,4 +1,4 @@
----
+﻿---
 title: 페이지를 매긴 보고서를 인쇄할 때 빈 페이지 방지
 description: 인쇄할 때 빈 페이지를 방지하도록 페이지를 매긴 보고서를 디자인하기 위한 지침
 author: peter-myers
@@ -8,23 +8,23 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 76d1631b95c30d5ae56ced5d64e5174f6f9db759
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 349459b95a815a52665e50687554f81f90a9c81b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76041868"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "78920817"
 ---
 # <a name="avoid-blank-pages-when-printing-paginated-reports"></a>페이지를 매긴 보고서를 인쇄할 때 빈 페이지 방지
 
-이 문서에서는 독자가 Power BI [페이지를 매긴 보고서](../paginated-reports-report-builder-power-bi.md)를 디자인하는 보고서 작성자라고 가정하고, PDF 또는 Microsoft Word 등의 하드 페이지 형식으로 보고서를 내보낼 때 빈 페이지를 방지하는 데 도움이 되는 권장 사항을 제공합니다.
+이 문서에서는 독자가 Power BI [페이지를 매긴 보고서](../paginated-reports/paginated-reports-report-builder-power-bi.md)를 디자인하는 보고서 작성자라고 가정하고, PDF 또는 Microsoft Word 등의 하드 페이지 형식으로 보고서를 내보낼 때 빈 페이지를 방지하는 데 도움이 되는 권장 사항을 제공합니다.
 
 ## <a name="page-setup"></a>페이지 설정
 
 보고서 페이지 크기 속성은 페이지 방향, 크기, 여백을 결정합니다. 이러한 보고서 속성에 액세스하는 방법은 다음과 같습니다.
 
 - 보고서 **속성 페이지** 사용: 보고서 캔버스 밖의 진한 회색 영역을 마우스 오른쪽 단추로 클릭한 다음 _보고서 속성을_ 선택합니다.
-- [**속성** 창](../paginated-reports-report-design-view.md#4-properties-pane) 사용: 보고서 캔버스 밖의 진한 회색 영역을 클릭하여 보고서 개체를 선택합니다. **속성** 창이 열려 있어야 합니다.
+- [**속성** 창](../paginated-reports/paginated-reports-report-design-view.md#4-properties-pane) 사용: 보고서 캔버스 밖의 진한 회색 영역을 클릭하여 보고서 개체를 선택합니다. **속성** 창이 열려 있어야 합니다.
 
 보고서 **속성 페이지**의 **페이지 설정** 페이지는 페이지 설정 속성을 보고 업데이트할 수 있는 친숙한 인터페이스를 제공합니다.
 
@@ -32,7 +32,7 @@ ms.locfileid: "76041868"
 
 모든 페이지 크기 속성이 올바르게 구성되어 있는지 확인합니다.
 
-|속성|권장|
+|속성|권장 사항|
 |---------|---------|
 |페이지 단위|관련 단위(인치 또는 센티미터)를 선택합니다.|
 |방향|올바른 옵션(세로 또는 가로)을 선택합니다.|
@@ -91,7 +91,7 @@ ms.locfileid: "76041868"
 
 이 문서와 관련된 보다 자세한 내용을 알아보려면 다음 리소스를 참조하세요.
 
-- [Power BI Premium에서 페이지를 매긴 보고서란?](../paginated-reports-report-builder-power-bi.md)
-- [Power BI 페이지를 매긴 보고서의 페이지 매김](../paginated-reports-pagination.md)
-- 질문이 있으십니까? [Power BI 커뮤니티에 질문하세요.](https://community.powerbi.com/)
+- [Power BI Premium에서 페이지를 매긴 보고서란?](../paginated-reports/paginated-reports-report-builder-power-bi.md)
+- [Power BI 페이지를 매긴 보고서의 페이지 매김](../paginated-reports/paginated-reports-pagination.md)
+- 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 - 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com)

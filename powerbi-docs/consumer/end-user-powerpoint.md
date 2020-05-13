@@ -3,24 +3,29 @@ title: 보고서를 Power BI에서 PowerPoint로 내보내기
 description: Power BI 보고서를 PowerPoint로 내보내는 방법을 알아봅니다.
 author: mihart
 ms.reviewer: ''
+ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/04/2019
+ms.date: 05/05/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 25422b2503caed78e6e6518a855f6b23a0571a8c
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 4a93bbc0d5d8014e11fb59129b22b5493def0ac2
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74830575"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841119"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>보고서를 Power BI에서 PowerPoint로 내보내기
 
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Power BI를 사용하여 보고서를 Microsoft PowerPoint에 게시하고 Power BI 보고서에 따라 슬라이드 모음을 쉽게 만들 수 있습니다. PowerPoint로 내보내는 경우 다음이 발생합니다.
+![Power BI 로고 및 PowerPoint 로고가 표시되는 아트](media/end-user-powerpoint/logos.png)
+
+Power BI 서비스(app.powerbi.com)를 사용하여 보고서를 Microsoft PowerPoint에 게시하고 Power BI 보고서에 따라 슬라이드 모음을 쉽게 만들 수 있습니다. PowerPoint로 내보내는 경우 다음이 발생합니다.
 
 * Power BI 보고서의 각 페이지는 PowerPoint에서 개별 슬라이드를 생성합니다.
 * Power BI 보고서의 각 페이지는 PowerPoint에서 단일 고해상도 이미지로 내보내집니다.
@@ -28,6 +33,10 @@ Power BI를 사용하여 보고서를 Microsoft PowerPoint에 게시하고 Power
 * Power BI 보고서로 연결되는 링크가 PowerPoint에서 만들어집니다.
 
 **Power BI 보고서**를 **PowerPoint**로 빠르게 내보낼 수 있습니다. 다음 섹션에서 설명하는 단계를 수행합니다.
+
+Power BI 서비스에서 특정 시각적 개체를 복사하여 PowerPoint에 붙여넣을 수도 있습니다. **이미지로 복사** 아이콘을 선택하여 시각적 개체를 클립보드에 복사합니다. 그런 다음 PowerPoint를 열고 시각적 개체를 붙여넣습니다.
+
+![이미지로 복사 아이콘 선택](media/end-user-powerpoint/power-bi-copy.png)
 
 ## <a name="export-your-power-bi-report-to-powerpoint"></a>Power BI 보고서를 PowerPoint로 내보내기
 **Power BI 서비스**에서 보고서를 선택하여 캔버스에 표시합니다. **홈**, **앱** 또는 탐색 창의 다른 컨테이너에서 보고서를 선택할 수도 있습니다.
@@ -75,11 +84,13 @@ Power BI가 내보낸 PowerPoint 파일을 열면 훌륭하고 유용한 요소�
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
 **PowerPoint로 내보내기** 기능을 사용할 때 유의해야 할 고려 사항 및 제한 사항이 있습니다.
 
-* R 시각적 개체는 현재 지원되지 않습니다. 이러한 시각적 개체는 시각적 개체가 지원되지 않는다는 오류 메시지와 함께 PowerPoint에 빈 이미지로 내보내집니다.
-* 인증된 사용자 지정 시각적 개체는 지원됩니다. 사용자 지정 시각적 개체를 인증하는 방법을 비롯한 인증된 사용자 지정 시각적 개체에 대한 자세한 내용은 [사용자 지정 시각적 개체 인증하기](../developer/power-bi-custom-visuals-certified.md)를 참조하세요. 인증되지 않은 사용자 지정 시각적 개체는 지원되지 않습니다. 이러한 시각적 개체는 시각적 개체가 지원되지 않는다는 오류 메시지와 함께 PowerPoint에 빈 이미지로 내보내집니다.
+
+* 보고서를 PowerPoint로 내보내는 과정은 몇 분 정도 걸릴 수 있으므로 잠시 기다려 주시기 바랍니다. 소요 시간에 영향을 줄 수 있는 요소에는 보고서의 구조, Power BI 서비스의 현재 부하 등이 있습니다.
+* 인증된 Power BI 시각적 개체는 지원됩니다. 사용자 지정 시각적 개체를 인증하는 방법을 비롯한 인증된 사용자 지정 시각적 개체에 대한 자세한 내용은 [사용자 지정 시각적 개체 인증하기](../developer/power-bi-custom-visuals-certified.md)를 참조하세요. 인증되지 않은 사용자 지정 시각적 개체는 지원되지 않습니다. 이러한 시각적 개체는 시각적 개체가 지원되지 않는다는 오류 메시지와 함께 PowerPoint에 빈 이미지로 내보내집니다.
+* 현재는 내보내기에서 **현재 값**을 선택할 경우 URL 필터가 적용되지 않습니다.
+* [ESRI ArcGIS 시각적 개체](../visuals/power-bi-visualizations-arcgis.md)는 지원되지 않습니다.
 * 30개 이상의 보고서 페이지를 포함하는 보고서는 현재 내보낼 수 없습니다.
 * 스크롤 막대가 있는 시각적 개체는 기본 상태로 내보내집니다. PowerPoint의 시각적 개체에는 데이터의 위쪽 부분만 표시됩니다. 각 슬라이드가 이미지이므로 PowerPoint에서 스크롤할 수 없습니다. 
-* 보고서를 PowerPoint로 내보내는 과정은 몇 분 정도 걸릴 수 있으므로 잠시 기다려 주시기 바랍니다. 소요 시간에 영향을 줄 수 있는 요소에는 보고서의 구조, Power BI 서비스의 현재 부하 등이 있습니다.
 * **PowerPoint로 내보내기** 메뉴 항목을 Power BI 서비스에서 사용할 수 없다면 테넌트 관리자가 이 기능을 사용하지 않도록 설정했을 가능성이 큽니다. 자세한 내용은 테넌트 관리자에게 문의하세요.
 * 배경 이미지는 차트의 경계 영역에서 잘립니다. PowerPoint로 내보내기 전에 배경 이미지를 제거하는 것이 좋습니다.
 * PowerPoint의 페이지는 Power BI 보고서의 원래 페이지 크기에 관계 없이 항상 표준 9:16 크기로 만들어집니다.
@@ -89,7 +100,11 @@ Power BI가 내보낸 PowerPoint 파일을 열면 훌륭하고 유용한 요소�
 * 위에서 언급했듯이, 각 보고서 페이지는 PowerPoint 파일에서 단일 이미지 형식으로 내보내집니다.
 * Power BI 서비스는 PowerPoint 내보내기에 대한 언어로 Power BI 언어 설정을 사용합니다. 언어 기본 설정을 보거나 설정하려면 ![톱니바퀴 아이콘](media/end-user-powerpoint/power-bi-settings-icon.png) > **설정** > **일반** > **언어**를 선택합니다.
 * 내보낸 PowerPoint 파일의 표지 슬라이드에 있는 **다운로드된** 시간은 내보낼 때 컴퓨터의 표준 시간대로 설정됩니다.
-* 현재는 내보내기에서 **현재 값**을 선택할 경우 URL 필터가 적용되지 않습니다.
+* PPTX로 내보내는 경우, 사용자 지정 글꼴이 있는 테마를 사용하는 보고서에서 사용자 지정 글꼴이 기본 글꼴로 대체됩니다.
+* R 및 Python을 사용하여 만든 시각적 개체는 현재 지원되지 않습니다. 이러한 시각적 개체는 시각적 개체가 지원되지 않는다는 오류 메시지와 함께 PowerPoint에 빈 이미지로 내보내집니다.
+
+
 
 ## <a name="next-steps"></a>다음 단계
+[시각적 개체를 정적 이미지로 복사](../power-bi-visualization-copy-paste.md)    
 [보고서 인쇄](end-user-print.md)

@@ -1,19 +1,19 @@
----
+﻿---
 title: Power BI 모바일 앱에서 데이터 경고 설정
 description: 대시보드의 데이터가 설정해 놓은 한도를 넘어 변경되면 알리도록 Power BI 모바일 앱에서 데이터 경고를 설정하는 방법을 알아봅니다.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/11/2019
 ms.author: painbar
-ms.openlocfilehash: 7668df00d63fc1bdb8bb0e113fa9ad7e0f029147
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: ff33bc2005918ba08c6098afd91a020e0cb6ba79
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75221380"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79435815"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 데이터 경고 설정
 적용 대상:
@@ -103,6 +103,10 @@ Power BI 모바일 앱에서 개별 경고를 관리하거나 [Power BI 서비�
 5. 경고를 모두 삭제하려면 휴지통 아이콘 ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-delete-alert-icon.png)을 탭합니다.
 
 ## <a name="data-alerts-on-a-windows-device"></a>Windows 디바이스의 데이터 경고
+
+>[!NOTE]
+>**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](https://go.microsoft.com/fwlink/?linkid=2121400)
+
 ### <a name="set-data-alerts-on-a-windows-device"></a>Windows 디바이스의 데이터 경고 설정
 1. 대시보드에서 번호 또는 계기 타일을 탭하여 엽니다.  
 2. 종 모양 아이콘 ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-off.png)을 눌러서 경고를 추가합니다.  

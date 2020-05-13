@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: a0127a6ffa0d698a94e368532c44d0f83c362b42
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 49601798ae920d956441c5580079625bf7408e07
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75002400"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "78290575"
 ---
 # <a name="referencing-power-query-queries"></a>파워 쿼리의 쿼리 참조
 
@@ -54,5 +54,5 @@ ms.locfileid: "75002400"
 
 - [Power BI의 셀프 서비스 데이터 준비](../service-dataflows-overview.md)
 - [Power BI에서 데이터 흐름 만들기 및 사용](../service-dataflows-create-use.md)
-- Guy in a cube 비디오: [Power BI 및 Excel용 내부 파워 쿼리 참조 쿼리](https://www.youtube.com/watch?v=3uKNNZqBIkg)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+- 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com/)

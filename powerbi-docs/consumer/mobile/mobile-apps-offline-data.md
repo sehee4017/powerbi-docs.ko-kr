@@ -8,19 +8,22 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
-ms.openlocfilehash: 2974f257509d88a469f981bbdecf8cdca47c8e9e
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 9c38aef858d723e548529f450e34d0480de5f8b2
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75219083"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79435447"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 오프라인 데이터 보기
 적용 대상:
 
 | ![iPhone](./media/mobile-apps-offline-data/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-offline-data/ipad-logo-50-px.png) | ![Android 휴대폰](./media/mobile-apps-offline-data/android-phone-logo-50-px.png) | ![Android 태블릿](./media/mobile-apps-offline-data/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-apps-offline-data/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
-| iPhone |iPad |Android 휴대폰 |Android 태블릿 |Windows 10 디바이스 |
+| iPhones |iPad |Android 휴대폰 |Android 태블릿 |Windows 10 디바이스 |
+
+>[!NOTE]
+>**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 모바일 브라우저가 아닌 모바일 앱에서 Power BI 보기를 사용하는 이점은 네트워크에 연결되지 않을 때에도 데이터를 볼 수 있다는 점입니다. 
 
@@ -34,7 +37,7 @@ ms.locfileid: "75219083"
 또한 모바일 앱에서 이전에 액세스한 모든 Power BI 보고서에 대한 읽기 전용 액세스 권한이 있습니다. 전체 보고서를 확인할 수 있지만 보고서에서 필터링이나 교차 필터링, 슬라이서를 사용할 수 없습니다.
 
 ## <a name="background-data-refresh"></a>백그라운드 데이터 새로 고침
-백그라운드 새로 고침은 지난 2주 동안 보았던 대시보드와 보고서뿐만 아니라 즐겨찾는 대시보드도 Power BI 서비스(데이터 원본이 아님)의 데이터로 업데이트합니다. WiFi에 연결한 경우 백그라운드 새로 고침은 2시간마다 업데이트됩니다. 그렇지 않으면 3G 네트워크상에 있는 경우 Power BI는 콘텐츠를 24시간마다 업데이트합니다.
+백그라운드 새로 고침은 지난 2주 동안 보았던 대시보드와 보고서뿐만 아니라 즐겨찾는 대시보드도 Power BI 서비스(데이터 원본이 아님)의 데이터로 업데이트합니다. WiFi에 연결한 경우 백그라운드 새로 고침은 2시간마다 업데이트됩니다. 그러지 않고 3G 네트워크에 연결된 경우 Power BI는 콘텐츠를 24시간마다 업데이트합니다.
 
 예를 들어 네트워크 사용량을 방지하기 위해 백그라운드 새로 고침을 끌 수 있습니다. 디바이스에서 설정을 확인합니다.
 

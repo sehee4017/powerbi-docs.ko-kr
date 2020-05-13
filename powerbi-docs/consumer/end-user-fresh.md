@@ -6,17 +6,19 @@ ms.service: powerbi
 ms.custom: ''
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/18/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 92f031ff43bc4d3bd5840e69fec166606b14eb73
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 81581b861f731ac287cc18f4ab1fdf77ab7a4e7c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73863875"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79040116"
 ---
 # <a name="your-content-is-up-to-date"></a>콘텐츠가 최신 상태입니다.
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 

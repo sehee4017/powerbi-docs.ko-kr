@@ -7,17 +7,19 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 03/11/2020
 ms.author: mihart
-LocalizationGroup: Getting started
-ms.openlocfilehash: 6982ca89979fa101593cce92151e400f82e7ba0d
-ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
+LocalizationGroup: Get started
+ms.openlocfilehash: 753458b4db621fff5a4bba4aebb96543284013ff
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "76894686"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79114108"
 ---
 # <a name="sign-in-to-power-bi-service"></a>Power BI 서비스에 로그인
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 ## <a name="power-bi-accounts"></a>Power BI 계정
 Power BI에 로그인하기 전에 계정이 필요합니다. Power BI 계정을 가져오는 방법은 두 가지가 있습니다. 첫 번째는 회사가 직원을 위해 Power BI 라이선스를 구입한 경우입니다. 그리고 두 번째는 개인 평가판 체험 등록이나 개인 라이선스인 경우입니다. 이 문서는 첫 번째 시나리오를 다룹니다.

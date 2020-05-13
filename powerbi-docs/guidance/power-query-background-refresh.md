@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: v-pemyer
 ms.openlocfilehash: 59cb62a9186da03a265fc3a8711d7275c3772af3
-ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/03/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75623064"
 ---
 # <a name="disable-power-query-background-refresh"></a>파워 쿼리 백그라운드 새로 고침 사용 안 함
@@ -43,4 +43,4 @@ ms.locfileid: "75623064"
 이 문서와 관련된 보다 자세한 내용을 알아보려면 다음 리소스를 참조하세요.
 
 - [파워 쿼리 문서](/power-query/)
-- 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+- 질문이 있으신가요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

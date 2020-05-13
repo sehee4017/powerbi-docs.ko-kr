@@ -8,16 +8,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 2a8dca43077fe12e4903585e3926cc67fe864136
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.openlocfilehash: 90f501b257313c48cbef13517747ff83cd9ea9d1
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76162414"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "78920780"
 ---
 # <a name="use-cascading-parameters-in-paginated-reports"></a>페이지를 매긴 보고서에서 연계 매개 변수 사용
 
-이 문서에서는 독자가 Power BI [페이지를 매긴 보고서](../paginated-reports-report-builder-power-bi.md)를 디자인하는 보고서 작성자라고 가정하고, 연계 매개 변수를 디자인하는 시나리오를 제공합니다. 연계 매개 변수는 종속성이 있는 보고서 매개 변수입니다. 보고서 사용자가 선택하는 매개 변수 값은 다른 매개 변수에 사용할 수 있는 값을 설정하는 데 사용됩니다.
+이 문서에서는 독자가 Power BI [페이지를 매긴 보고서](../paginated-reports/paginated-reports-report-builder-power-bi.md)를 디자인하는 보고서 작성자라고 가정하고, 연계 매개 변수를 디자인하는 시나리오를 제공합니다. 연계 매개 변수는 종속성이 있는 보고서 매개 변수입니다. 보고서 사용자가 선택하는 매개 변수 값은 다른 매개 변수에 사용할 수 있는 값을 설정하는 데 사용됩니다.
 
 > [!NOTE]
 > 연계 매개 변수에 대한 소개와 구성 방법은 이 문서에서 다루지 않습니다. 연계 매개 변수에 익숙하지 않다면 먼저 [보고서에 연계 매개 변수 추가(보고서 작성기 및 SSRS)](/sql/reporting-services/report-design/add-cascading-parameters-to-a-report-report-builder-and-ssrs)를 읽어 보는 것이 좋습니다.
@@ -37,10 +37,10 @@ ms.locfileid: "76162414"
 
 - ResellerCode(정수)
 - ResellerName
-- Country-Region
+- 국가-지역
 - State-Province
-- City
-- PostalCode
+- 도시
+- 우편 번호
 
 **Sales**라는 테이블도 있습니다. 이 테이블은 판매 주문 레코드를 저장하며, **ResellerCode** 열에서 **Reseller** 테이블에 대한 외래 키 관계를 가집니다.
 
@@ -281,7 +281,7 @@ WHERE
 
 이 문서와 관련된 보다 자세한 내용을 알아보려면 다음 리소스를 참조하세요.
 
-- [Power BI 보고서 작성기의 보고서 매개 변수](../report-builder-parameters.md)
+- [Power BI 보고서 작성기의 보고서 매개 변수](../paginated-reports/report-builder-parameters.md)
 - [보고서에 연계 매개 변수 추가(보고서 작성기 및 SSRS)](/sql/reporting-services/report-design/add-cascading-parameters-to-a-report-report-builder-and-ssrs)
-- 질문이 있으십니까? [Power BI 커뮤니티에 질문하세요.](https://community.powerbi.com/)
+- 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 - 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com)

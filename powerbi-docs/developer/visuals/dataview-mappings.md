@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: b50ebde94d78ca42437979d792fb6402affe8855
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 571d4a2992a5017114cf94c3f49296769062d8ee
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74696655"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79380859"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>Power BI 시각적 개체의 데이터 뷰 매핑 이해
 
@@ -185,7 +185,7 @@ export class Visual implements IVisual {
 
 따라서 시각적 개체는 Power BI의 단일 값을 표시합니다.
 
-![단일 데이터 뷰 매핑 시각적 개체 예제](./media/visual-simple-dataview-mapping.png)
+![단일 데이터 뷰 매핑 시각적 개체 예제](media/dataview-mappings/visual-simple-dataview-mapping.png)
 
 ## <a name="categorical-data-mapping"></a>범주 데이터 매핑
 
@@ -339,7 +339,7 @@ export class Visual implements IVisual {
 
 | 범주별 |  |  | | | |
 |-----|-----|------|------|------|------|
-| | Year | 2013 | 2014 | 2015 | 2016 |
+| | 년 | 2013 | 2014 | 2015 | 2016 |
 | 국가 | | |
 | 미국 | | x | x | 650 | 350 |
 | 캐나다 | | x | 630 | 490 | x |
@@ -493,7 +493,7 @@ export class Visual implements IVisual {
 
 시각적 개체의 결과는 다음과 같습니다.
 
-![범주 데이터 뷰 매핑이 포함된 시각적 개체](./media/categorical-data-view-mapping-visual.png)
+![범주 데이터 뷰 매핑이 포함된 시각적 개체](media/dataview-mappings/categorical-data-view-mapping-visual.png)
 
 ## <a name="table-data-mapping"></a>테이블 데이터 매핑
 
@@ -508,7 +508,7 @@ export class Visual implements IVisual {
     {
         "displayName": "Column",
         "name": "column",
-        "kind": "Measure"
+        "kind": "Grouping"
     },
     {
         "displayName": "Value",
@@ -545,7 +545,7 @@ export class Visual implements IVisual {
 
 데이터 예:
 
-| 국가| Year | 영업 |
+| 국가| 년 | 영업 |
 |-----|-----|------|
 | 미국 | 2016 | 100 |
 | 미국 | 2015 | 50 |
@@ -557,7 +557,7 @@ export class Visual implements IVisual {
 
 데이터 바인딩:
 
-![테이블 데이터 뷰 매핑 데이터 바인딩](./media/table-dataview-mapping-data.png)
+![테이블 데이터 뷰 매핑 데이터 바인딩](media/dataview-mappings/table-dataview-mapping-data.png)
 
 Power BI는 데이터를 테이블 데이터 뷰로 표시합니다. 데이터가 정렬되었다고 가정하면 안 됩니다.
 
@@ -603,7 +603,7 @@ Power BI는 데이터를 테이블 데이터 뷰로 표시합니다. 데이터�
 
 원하는 필드를 선택한 다음 합계를 선택하면 데이터를 집계할 수 있습니다.  
 
-![데이터 집계](./media/data-aggregation.png)
+![데이터 집계](media/dataview-mappings/data-aggregation.png)
 
 테이블 데이터 뷰 매핑을 처리하기 위한 코드 샘플입니다.
 
@@ -686,7 +686,7 @@ td {
 }
 ```
 
-![테이블 데이터 뷰 매핑을 사용하는 시각적 개체](./media/table-dataview-mapping-visual.png)
+![테이블 데이터 뷰 매핑을 사용하는 시각적 개체](media/dataview-mappings/table-dataview-mapping-visual.png)
 
 ## <a name="matrix-data-mapping"></a>행렬 데이터 매핑
 
@@ -767,7 +767,7 @@ Power BI는 계층적 데이터 구조를 만듭니다. 트리 계층 구조의 
 
 Power BI의 핵심 행렬 시각적 개체는 데이터를 테이블로 렌더링합니다.
 
-![행렬 시각적 개체](./media/matrix-visual-smaple.png)
+![행렬 시각적 개체](media/dataview-mappings/matrix-visual-smaple.png)
 
 시각적 개체는 다음 코드에 설명된 대로 데이터 구조를 가져옵니다. 여기에는 처음 두 개의 테이블 행만 나와 있습니다.
 
@@ -868,7 +868,7 @@ Power BI의 핵심 행렬 시각적 개체는 데이터를 테이블로 렌더�
 * `bottom`: 데이터를 데이터 세트 아래쪽에서 가져온 값으로 제한하려는 경우에 사용합니다. 데이터 세트에서 마지막 “count”개의 값을 가져옵니다.
 * `sample`: *count*개의 항목으로 제한된 간단한 샘플링 알고리즘을 통해 데이터 세트를 줄입니다. 즉, 첫 번째 항목과 마지막 항목이 포함되고 그 사이에 동일한 간격으로 *count*개의 항목이 포함됩니다.
 예를 들어 데이터 세트 [0, 1, 2, ... 100]이 있고 *count*가 9이면 값 [0, 10, 20 ... 100]이 표시됩니다.
-* `window`: *count*개의 요소를 포함하는 데이터 요소 ‘창’을 한 번에 하나씩 로드합니다. 현재 `top`과 `window`는 동일합니다. 창 설정을 완전히 지원하기 위해 작업 중입니다.
+* `window`: *count*개의 요소를 포함하는 데이터 요소 ‘창’을 한 번에 하나씩 로드합니다.  현재 `top`과 `window`는 동일합니다. 창 설정을 완전히 지원하기 위해 작업 중입니다.
 
 ## <a name="data-reduction-algorithm-usage"></a>데이터 감소 알고리즘 사용
 

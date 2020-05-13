@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maggies
 ms.openlocfilehash: 6e341f80e3631228c28590ccf0a7711e0b624f2c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73874234"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Power BI 보고서를 사용하도록 Kerberos 구성
@@ -134,7 +134,7 @@ Analysis Services에서는 MSOLAPSvc.3이라는 서비스를 사용합니다. SP
 
 Analysis Services SPN의 예는 다음과 같습니다.
 
-| 형식 | 형식 |
+| Type | 형식 |
 | --- | --- |
 | 기본 인스턴스 |MSOLAPSvc.3/ContosoAS.contoso.com<br>MSOLAPSvc.3/ContosoAS |
 | 명명된 인스턴스 |MSOLAPSvc.3/ContosoAS.contoso.com:INSTANCENAME<br>MSOLAPSvc.3/ContosoAS:INSTANCENAME |

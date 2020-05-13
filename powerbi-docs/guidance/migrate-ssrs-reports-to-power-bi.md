@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 53940737f71e04fbf5bccd9520a749f6fc559db9
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: b87848953722d33235a11729a3643c627cca7234
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76889239"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79525617"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>SQL Server Reporting Services 보고서를 Power BI로 마이그레이션
 
@@ -41,16 +41,16 @@ SSRS 서버의 가동을 중지하거나 보고서 사용자들의 작업을 방
 
 ### <a name="supported-versions"></a>지원되는 버전
 
-온-프레미스에서 실행 중인 SSRS는 물론 Azure와 같은 클라우드 공급자가 호스트하는 가상 머신에 있는 SSRS도 마이그레이션할 수 있습니다. 
+온-프레미스에서 실행 중인 SSRS는 물론 Azure와 같은 클라우드 공급자가 호스트하는 가상 머신에 있는 SSRS도 마이그레이션할 수 있습니다.
 
 다음은 Power BI로의 마이그레이션이 지원되는 SQL Server 버전입니다.
 
 > [!div class="checklist"]
-> * SQL Server 2012
-> * SQL Server 2014
-> * SQL Server 2016
-> * SQL Server 2017
-> * SQL Server 2019
+> - SQL Server 2012
+> - SQL Server 2014
+> - SQL Server 2016
+> - SQL Server 2017
+> - SQL Server 2019
 
 Power BI Report Server에서의 마이그레이션도 가능합니다.
 
@@ -60,7 +60,7 @@ Power BI Report Server에서의 마이그레이션도 가능합니다.
 
 이 도구는 다음과 같은 작업을 자동화합니다.
 
-* [지원되지 않는 데이터 원본](../paginated-reports-data-sources.md)과 [지원되지 않는 보고서 기능](../paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)이 있는지 확인
+* [지원되지 않는 데이터 원본](../paginated-reports/paginated-reports-data-sources.md)과 [지원되지 않는 보고서 기능](../paginated-reports/paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)이 있는지 확인
 * ‘공유’ 리소스를 ‘임베디드’ 리소스로 변환:  
   * 공유 **데이터 원본**은 임베디드 데이터 원본이 됨
   * 공유 **데이터 세트**는 임베디드 데이터 세트가 됨
@@ -92,17 +92,17 @@ SSRS 인스턴스를 검색한 후에 이루어지는 _평가_ 단계의 목표�
 
 그러나 다음 SSRS 항목 유형은 Power BI로 마이그레이션할 수 없습니다.
 
-* 공유 데이터 원본<sup>1</sup>
-* 공유 데이터 세트<sup>1</sup>
-* 리소스(예: 이미지 파일)
-* KPI(SSRS 2016 이상-Enterprise Edition만 해당)
-* 모바일 보고서(SSRS 2016 이상-Enterprise Edition만 해당)
-* 보고서 모델(사용되지 않음)
-* 보고서 파트(사용되지 않음)
+- 공유 데이터 원본<sup>1</sup>
+- 공유 데이터 세트<sup>1</sup>
+- 리소스(예: 이미지 파일)
+- KPI(SSRS 2016 이상-Enterprise Edition만 해당)
+- 모바일 보고서(SSRS 2016 이상-Enterprise Edition만 해당)
+- 보고서 모델(사용되지 않음)
+- 보고서 파트(사용되지 않음)
 
 <sup>1</sup> [RDL 마이그레이션 도구](https://github.com/microsoft/RdlMigration)는 지원되는 데이터 원본을 사용하는 공유 데이터 원본 및 공유 데이터 세트를 자동으로 변환합니다.
 
-RDL 보고서가 [Power BI 페이지를 매긴 보고서에서 지원되지 않는 기능](../paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)을 사용할 경우, 보고서를 [Power BI 보고서](../consumer/end-user-reports.md)로 다시 만드는 방안을 고려할 수 있습니다. RDL 보고서가 마이그레이션되는 경우라 하더라도 가능한 경우 이를 Power BI 보고서로 새로 만드는 것이 권장됩니다.
+RDL 보고서가 [Power BI 페이지를 매긴 보고서에서 지원되지 않는 기능](../paginated-reports/paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi)을 사용할 경우, 보고서를 [Power BI 보고서](../consumer/end-user-reports.md)로 다시 만드는 방안을 고려할 수 있습니다. RDL 보고서가 마이그레이션되는 경우라 하더라도 가능한 경우 이를 Power BI 보고서로 새로 만드는 것이 권장됩니다.
 
 RDL 보고서는 _온-프레미스 데이터 원본_에서 데이터를 검색해야 하는 경우 SSO(Single Sign-On)를 사용할 수 없습니다. 현재, 이러한 원본에서는 모든 데이터 검색이 _게이트웨이 데이터 원본 사용자 계정_의 보안 컨텍스트를 사용하여 수행됩니다. SSAS(SQL Server Analysis Services)가 사용자 단위로 RLS(행 수준 보안)를 적용할 수 없습니다.
 
@@ -113,14 +113,15 @@ RDL 보고서는 _온-프레미스 데이터 원본_에서 데이터를 검색�
 _준비_ 단계의 목표는 모든 것을 준비하는 것입니다. 이 단계에서는 Power BI 환경을 설정하고, 보고서를 보호하고 게시할 방법을 계획하고, 마이그레이션할 수 없는 SSRS 항목을 다시 만들 방안을 도출합니다.
 
 1. Power BI 프리미엄 용량에서 [페이지를 매긴 보고서 워크로드](../service-admin-premium-workloads.md#paginated-reports)가 사용하도록 설정되어 있고 메모리가 충분한지 확인합니다.
-1. 보고서 [데이터 원본](../paginated-reports-data-sources.md)에 대한 지원을 확인하고, 온-프레미스 데이터 원본과의 연결을 허용할 수 있도록 [Power BI 게이트웨이](../service-gateway-onprem.md)를 설정합니다.
+1. 보고서 [데이터 원본](../paginated-reports/paginated-reports-data-sources.md)에 대한 지원을 확인하고, 온-프레미스 데이터 원본과의 연결을 허용할 수 있도록 [Power BI 게이트웨이](../service-gateway-onprem.md)를 설정합니다.
 1. Power BI 보안을 숙지하고, [Power BI 작업 영역 및 작업 영역 역할](../service-new-workspaces.md)을 사용하여 [SSRS 폴더 및 권한을 재현할 방법](/sql/reporting-services/security/secure-folders)을 계획합니다.
 1. Power BI 공유를 숙지하고, [Power BI 앱](../service-create-distribute-apps.md)을 게시하여 콘텐츠를 배포할 방법을 계획합니다.
 1. SSRS 공유 데이터 원본 대신 [공유 Power BI 데이터 세트](../service-datasets-build-permissions.md)를 사용하는 방안을 고려합니다.
 1. [Power BI Desktop](../desktop-what-is-desktop.md)을 사용하여 모바일 최적화된 보고서를 개발합니다. 이때 SSRS 모바일 보고서 및 KPI 대신 [Power KPI 사용자 지정 시각적 개체](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083?tab=Overview)를 사용하는 것이 좋습니다.
 1. 보고서에서 **UserID** 기본 제공 필드의 사용을 다시 평가합니다. **UserID**를 사용하여 보고서 데이터를 보호하는 경우 페이지를 매긴 보고서가 Power BI 서비스에서 호스트될 때는 이 필드가 UPN(사용자 계정 이름)을 반환한다는 것을 이해해야 합니다. 따라서 기본 제공 필드는 _AW\mblythe_와 같은 NT 계정 이름을 반환하는 대신 _m.blythe&commat;adventureworks.com_과 같은 형식으로 반환합니다. 데이터 세트 정의 그리고 경우에 따라 원본 데이터를 수정해야 합니다. 수정하고 게시한 후에는 보고서를 철저히 테스트하여 데이터 사용 권한이 예상대로 작동하는지 확인하는 것이 좋습니다.
 1. 보고서에서 **ExecutionTime** 기본 제공 필드의 사용을 다시 평가합니다. 페이지를 매긴 보고서가 Power BI 서비스에서 호스트될 때는 기본 제공 필드가 날짜/시간을 _UTC(협정 세계시)_ 로 반환합니다. 이는 보고서 매개 변수 기본값 및 보고서 실행 시간 레이블(일반적으로 보고서 바닥글에 추가됨)에 영향을 줄 수 있습니다.
-1. 보고서 작성자가 [Power BI 보고서 작성기](../report-builder-power-bi.md)를 설치해 두었고 조직에서 향후 릴리스를 간편하게 배포할 수 있는 환경이 구성되어 있는지 확인합니다.
+1. 데이터 원본이 SQL Server(온-프레미스)인 경우 보고서에서 지도 시각화를 사용하지 않는지 확인합니다. 지도 시각화는 SQL Server 공간 데이터 형식을 사용하며 해당 데이터 형식은 게이트웨이에서 지원되지 않습니다. 자세한 내용은 [페이지를 매긴 보고서의 데이터 검색 지침(SQL Server 복합 데이터 형식)](report-paginated-data-retrieval.md#sql-server-complex-data-types)을 참조하세요.
+1. 보고서 작성자가 [Power BI 보고서 작성기](../paginated-reports/report-builder-power-bi.md)를 설치해 두었고 조직에서 향후 릴리스를 간편하게 배포할 수 있는 환경이 구성되어 있는지 확인합니다.
 
 ## <a name="migration-stage"></a>마이그레이션 단계
 
@@ -136,7 +137,7 @@ SSRS 인스턴스 및 Power BI 작업 영역에 액세스할 권한이 있는 �
 1. 각 보고서 정의를 다운로드하고 .rdl 파일을 로컬에 저장합니다.
 1. Power BI 보고서 작성기의 최신 버전을 열고 Azure AD 자격 증명을 사용하여 Power BI 서비스에 연결합니다. 
 1. Power BI 보고서 작성기에서 각 보고서를 열고 다음을 수행합니다.
-   1. 모든 데이터 원본과 데이터 세트가 보고서 정의에 임베디드되어 있고 [지원되는 데이터 원본](../paginated-reports-data-sources.md)인지 확인합니다.
+   1. 모든 데이터 원본과 데이터 세트가 보고서 정의에 임베디드되어 있고 [지원되는 데이터 원본](../paginated-reports/paginated-reports-data-sources.md)인지 확인합니다.
    1. 미리 보기를 통해 보고서가 올바르게 렌더링되는지 확인합니다.
    1. _다른 이름으로 저장_ 옵션을 선택하고 _Power BI 서비스_를 선택합니다.
    1. 보고서를 포함하게 될 작업 영역을 선택합니다.
@@ -146,8 +147,8 @@ SSRS 인스턴스 및 Power BI 작업 영역에 액세스할 권한이 있는 �
 
 자동 마이그레이션에는 두 가지 옵션이 있습니다. 다음을 사용할 수 있습니다.
 
-* RDL 마이그레이션 도구
-* SSRS 및 Power BI용으로 공개된 API
+- RDL 마이그레이션 도구
+- SSRS 및 Power BI용으로 공개된 API
 
 [RDL 마이그레이션 도구](#migration-tool)는 이 문서에서 이미 설명한 바 있습니다.
 
@@ -155,8 +156,8 @@ SSRS 인스턴스 및 Power BI 작업 영역에 액세스할 권한이 있는 �
 
 API에 대한 자세한 내용은 다음을 참조하세요.
 
-* [Power BI REST API 참조](../developer/rest-api-reference.md)
-* [SQL Server Reporting Services REST API](/sql/reporting-services/developer/rest-api)
+- [Power BI REST API 참조](../developer/automation/rest-api-reference.md)
+- [SQL Server Reporting Services REST API](/sql/reporting-services/developer/rest-api)
 
 ## <a name="post-migration-stage"></a>마이그레이션 후 단계
 
@@ -164,7 +165,7 @@ API에 대한 자세한 내용은 다음을 참조하세요.
 
 ### <a name="configure-data-sources"></a>데이터 원본 구성
 
-보고서를 Power BI로 마이그레이션한 후에는 데이터 원본이 올바르게 설정되었는지 확인해야 합니다. 이 과정에는 게이트웨이 데이터 원본에 할당하고 [데이터 원본 자격 증명을 안전하게 저장](../paginated-reports-data-sources.md#azure-sql-database-authentication) 작업이 포함될 수 있습니다. 이러한 작업은 RDL 마이그레이션 도구에 의해 수행되지 않습니다.
+보고서를 Power BI로 마이그레이션한 후에는 데이터 원본이 올바르게 설정되었는지 확인해야 합니다. 이 과정에는 게이트웨이 데이터 원본에 할당하고 [데이터 원본 자격 증명을 안전하게 저장](../paginated-reports/paginated-reports-data-sources.md#azure-sql-database-authentication) 작업이 포함될 수 있습니다. 이러한 작업은 RDL 마이그레이션 도구에 의해 수행되지 않습니다.
 
 ### <a name="review-report-performance"></a>보고서 성능 검토
 
@@ -182,20 +183,21 @@ API에 대한 자세한 내용은 다음을 참조하세요.
 
 이러한 문제를 이해하고 문제에 대응하는 구체적인 방법을 포함하여 문제에 대해 자세히 알아보려면 다음 문서를 참조하세요.
 
-* [Premium 용량 최적화](../service-premium-capacity-optimize.md)
-* [앱 내에서 프리미엄 용량 모니터링](../service-admin-premium-monitor-capacity.md)
+- [Premium 용량 최적화](../service-premium-capacity-optimize.md)
+- [앱 내에서 프리미엄 용량 모니터링](../service-admin-premium-monitor-capacity.md)
 
 ## <a name="next-steps"></a>다음 단계
 
 이 문서에 대한 자세한 내용은 다음 리소스를 참조하세요.
 
-* [Power BI Premium에서 페이지를 매긴 보고서란?](../paginated-reports-report-builder-power-bi.md)
-* Guy in a cube 비디오: [Power BI의 페이지를 매긴 보고서 소개](https://www.youtube.com/watch?v=wfqn45XNK3M)
-* [Power BI의 페이지를 매긴 보고서가 필요한 경우](report-paginated-or-power-bi.md)
-* [Power BI의 페이지를 매긴 보고서: FAQ](../paginated-reports-faq.md)
-* [Power BI 프리미엄 FAQ](../service-premium-faq.md)
-* [RDL 마이그레이션 도구](https://github.com/microsoft/RdlMigration)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
-* 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com)
+- [Power BI Premium에서 페이지를 매긴 보고서란?](../paginated-reports/paginated-reports-report-builder-power-bi.md)
+- [페이지를 매긴 보고서의 데이터 검색 지침](report-paginated-data-retrieval.md)
+- [Power BI의 페이지를 매긴 보고서가 필요한 경우](report-paginated-or-power-bi.md)
+- [Power BI의 페이지를 매긴 보고서: FAQ](../paginated-reports/paginated-reports-faq.md)
+- [온라인 과정: 특정 일의 페이지를 매긴 보고서](../paginated-reports/paginated-reports-online-course.md)
+- [Power BI 프리미엄 FAQ](../service-premium-faq.md)
+- [RDL 마이그레이션 도구](https://github.com/microsoft/RdlMigration)
+- 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+- 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com)
 
 조직에서 마이그레이션 프로세스를 성공적으로 완료하는 데 도움을 줄 Power BI 파트너와 협력할 수 있습니다. Power BI 파트너와 협력하려면 [Power BI 파트너 포털](https://powerbi.microsoft.com/partners/)을 방문하세요.

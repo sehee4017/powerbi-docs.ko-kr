@@ -1,34 +1,34 @@
 ---
-title: Windows 10 모바일 앱에서 SSRS 모바일 보고서 및 KPI 보기 - Power BI
+title: Power BI Windows 앱에서 온-프레미스 보고서 및 KPI 보기
 description: Windows 10용 Power BI 모바일 앱은 중요한 온-프레미스 비즈니스 정보에 대한 터치 기반의 라이브 모바일 액세스를 제공합니다.
-author: mshenhav
-ms.reviewer: ''
+author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
-ms.author: mshenhav
-ms.openlocfilehash: 4666e7c0e4901a99867ea72ab404df4cbffe110b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 03/09/2020
+ms.author: painbar
+ms.openlocfilehash: 67daafc0938216b135b31d3190c191402e9a10de
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879370"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79435378"
 ---
-# <a name="view-reporting-services-ssrs-mobile-reports-and-kpis-in-the-windows-10-power-bi-mobile-app"></a>Windows 10 Power BI 모바일 앱에서 Reporting Services(SSRS) 모바일 보고서 및 KPI 보기
-SQL Server 2016 Reporting Services에서 Windows 10용 Power BI 모바일 앱은 중요한 온-프레미스 비즈니스 정보에 대한 터치 기반의 라이브 모바일 액세스를 제공합니다. 
+# <a name="view-on-premises-reports-and-kpis-in-the-power-bi-windows-app"></a>Power BI Windows 앱에서 온-프레미스 보고서 및 KPI 보기
+SQL Server 2016 Reporting Services에서 Windows 10용 Power BI 앱은 중요한 온-프레미스 비즈니스 정보에 대한 터치 기반의 라이브 모바일 액세스를 제공합니다. 
 
 ![Reporting Services 모바일 보고서](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report.png)
 
 ## <a name="first-things-first"></a>먼저 수행할 중요한 작업
-SQL Server 2016 Enterprise Edition 모바일 보고서 게시자를 사용하여 [Reporting Services 모바일 보고서를 만들고](https://msdn.microsoft.com/library/mt652547.aspx) [Reporting Services 웹 포털](https://msdn.microsoft.com/library/mt637133.aspx)에 게시합니다. 웹 포털에 KPI를 만듭니다. 폴더에 정리하고 쉽게 찾을 수 있도록 즐겨찾기를 표시합니다. 
+SQL Server 2016 Enterprise Edition 모바일 보고서 게시자를 사용하여 [Reporting Services 모바일 보고서를 만들고](https://msdn.microsoft.com/library/mt652547.aspx)[Reporting Services 웹 포털](https://msdn.microsoft.com/library/mt637133.aspx)에 게시합니다. 웹 포털에 KPI를 만듭니다. 폴더에 정리하고 쉽게 찾을 수 있도록 즐겨찾기를 표시합니다. 
 
-그런 다음 Windows 10용 Power BI 모바일 앱에서, 폴더에 정리되어 있거나 즐겨찾기에 모아놓은 모바일 보고서와 KPI를 봅니다. 
+그런 다음, Windows 10용 Power BI 앱에서 폴더에 정리되어 있거나 즐겨찾기에 모아놓은 KPS, 모바일 보고서 및 Power BI 고보서를 봅니다. 
 
 > [!NOTE]
 > 디바이스에서 Windows 10이 실행되고 있어야 합니다. RAM 1GB, 내부 스토리지 8GB 이상인 디바이스에서 앱이 최적으로 작동합니다.
-> 
-> 
+
+>[!NOTE]
+>**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](https://go.microsoft.com/fwlink/?linkid=2121400)
 
 ## <a name="explore-samples-without-a-sql-server-2016-reporting-services-server"></a>SQL Server 2016 Reporting Services 서버 없이 샘플을 탐색합니다.
 Reporting Services 웹 포털에 대한 액세스가 없더라도, Reporting Services 모바일 보고서의 기능을 탐색할 수 있습니다.
@@ -68,19 +68,19 @@ KPI 및 모바일 보고서와 상호 작용할 샘플을 찾아봅니다.
    > 
 
 ## <a name="view-reporting-services-kpis-and-mobile-reports-in-the-power-bi-app"></a>Power BI 앱에서 Reporting Services KPI와 모바일 보고서 보기
-Reporting Services KPI 및 모바일 보고서는 Reporting Services 웹 포털에 있을 때와 같은 폴더에 표시됩니다.
+Reporting Services KPI, 모바일 보고서 및 Power BI 보고서(미리 보기)는 Reporting Services 웹 포털에서와 동일한 폴더에 표시됩니다.
 
 ![보고서 폴더](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-folders.png)
 
 * 포커스 모드로 보려면 KPI를 누릅니다.
   
     ![포커스 모드의 KPI](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report-kpis.png)
-* 모바일 보고서를 눌러서 열고 Power BI 앱에서 상호 작용합니다.
+* 모바일 보고서를 탭하여 Power BI 앱에서 열고 상호 작용합니다.
   
     ![Reporting Services 모바일 보고서](././media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-ssrs-mobile-report.png)
 
 ## <a name="view-your-favorite-kpis-and-reports"></a>즐겨찾는 KPI 및 보고서 보기
-Reporting Services 웹 포털에 KPI와 모바일 보고서를 즐겨찾기로 표시해 놓으면 Windows 10 디바이스에서 Power BI 즐겨찾기 대시보드와 보고서를 통해 한 폴더에서 편리하게 볼 수 있습니다.
+Reporting Services 웹 포털에 KPI, 모바일 보고서 및 Power BI 보고서를 즐겨찾기로 표시해 놓으면 Windows 10 디바이스에서 Power BI 즐겨찾기 대시보드와 보고서를 통해 한 폴더에서 편리하게 볼 수 있습니다.
 
 * **즐겨찾기**를 누릅니다.
   
@@ -88,8 +88,6 @@ Reporting Services 웹 포털에 KPI와 모바일 보고서를 즐겨찾기로 �
   
    웹 포털의 즐겨찾기가 이 페이지에 모두 있습니다.
   
-   ![즐겨찾기 페이지](./media/mobile-app-windows-10-ssrs-kpis-mobile-reports/power-bi-windows-10-ssrs-favorites.png)
-
 자세한 내용은 [Power BI 모바일 앱의 즐겨찾기](mobile-apps-favorites.md)를 읽어보세요.
 
 ## <a name="remove-a-connection-to-a-report-server"></a>보고서 서버에 대한 연결을 제거합니다.
@@ -110,5 +108,5 @@ Power BI 모바일 앱에서 Reporting Services KPI와 모바일 보고서를 �
 ## <a name="next-steps"></a>다음 단계
 * [Windows 10용 Power BI 모바일 앱 시작](mobile-windows-10-phone-app-get-started.md)  
 * [Power BI란?](../../fundamentals/power-bi-overview.md)  
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+* 질문이 있으신가요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

@@ -6,21 +6,75 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/08/2019
+ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: caed3a107b8f7a57d2fb3da92073cb8a5f5331cd
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 8235f95d724b34e7ea815579e6f8ed6a1f71e409
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538408"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841713"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
 
 * [모바일 앱에 대한 Power BI 팀 블로그](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Power BI Desktop의 새로운 기능](../../desktop-latest-update.md)  
-* [Power BI 서비스의 새로운 기능](../../service-whats-new.md)  
+* [Power BI 서비스의 새로운 기능](../../service-whats-new.md)
+
+>[!NOTE]
+>**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="april-2020"></a>2020년 4월
+
+### <a name="sharing-from-workspaces-is-now-available"></a>이제 작업 영역에서 공유 가능
+작업 영역에서 보고서 및 대시보드를 공유하는 기능을 추가했습니다. 작업 영역 소유자가 허용하는 경우 이제 Power BI 서비스와 마찬가지로 "내 작업 영역" 및 다른 작업 영역에 있는 콘텐츠를 공유할 수 있습니다. 
+
+### <a name="dashboards-now-support-full-screen-mode-ios-and-android"></a>이제 대시보드가 전체 화면 모드(iOS 및 Android)를 지원합니다.
+이제 대시보드를 전체 화면 모드로 전환하여 더 넓은 공간에서 대시보드 콘텐츠를 확인할 수 있습니다. 
+
+## <a name="march-2020"></a>2020년 3월
+
+### <a name="use-shortcuts-and-google-search-to-launch-your-content-android"></a>바로 가기 및 Google Search를 사용하여 콘텐츠 시작(Android)
+데이터를 쉽게 찾고 시작할 수 있도록 Power BI 앱에 바로 가기와 Google Search가 통합되었습니다. 즐겨 사용하는 보고서와 대시보드의 바로 가기를 만들어서 디바이스의 홈 화면에서 손쉽게 액세스하고, Google Search를 사용하여 Power BI 콘텐츠를 빠르게 검색하고 열어 보세요. [Android 앱 바로 가기](mobile-app-quick-access-shortcuts.md)와 [Google Search](mobile-app-find-access-google-search.md)에 대해 자세히 알아보세요!
+
+### <a name="enhanced-security-using-device-protection-preview-android"></a>디바이스 보호를 사용하는 강화된 보안(미리 보기)(Android)
+디바이스의 기본 제공 보호 기능을 사용하여 Power BI 앱을 보호하고 개인 정보를 보호하세요. Power BI 앱에 액세스할 때 생체 인식 인증(지문 ID)을 요구하면 데이터가 프라이빗 상태로 유지되고 본인만 데이터를 볼 수 있습니다. [기본 보안 액세스에 대한 자세한 정보](mobile-native-secure-access.md)
+
+### <a name="scanning-is-now-available-on-ipad"></a>이제 iPad에서 스캔을 사용할 수 있습니다.
+이제 iPad에서 곧바로 바코드를 스캔하여 보고서를 필터링하고, QR 코드를 사용하여 보고서를 빠르게 열 수 있습니다.  
+
+### <a name="updated-filtering-experience"></a>업데이트된 필터링 환경
+Power BI 앱 필터의 기능과 디자인이 새로워졌습니다. 보고서 시각적 개체에 영향을 주는 적용된 필터의 표시 기능이 개선되었으며, 필터를 잠그고 숨기는 기능이 추가되었습니다. 이에 따라 Power BI 서비스 필터링과의 호환성도 향상되었습니다.
+
+## <a name="february-2020"></a>2020년 2월
+
+### <a name="multi-select-mode-android-and-ios"></a>다중 선택 모드(Android 및 iOS)
+
+보고서 페이지에서 여러 데이터 요소를 선택하는 기능을 추가했습니다. 다중 선택이 켜지면 탭하는 각 데이터 요소가 선택한 다른 데이터 요소에 추가되고 결합된 결과가 페이지의 모든 시각적 개체에서 자동으로 강조 표시됩니다. 다중 선택 모드를 켜려면 [모바일 앱 설정](./mobile-app-interaction-settings.md) 페이지로 이동합니다.
+
+>[!NOTE]
+>다중 선택 모드는 다음 보고서 서버 릴리스의 Power BI Report Server에서 지원됩니다.
+
+### <a name="report-footer-can-now-always-be-visible-in-the-mobile-app-for-iphones"></a>이제 보고서 바닥글은 iPhone용 모바일 앱에 항상 표시될 수 있습니다.
+
+Android 휴대폰에서와 같이 iPhone에서 보고서 페이지의 아래쪽에 보고서 바닥글을 고정하기로 결정할 수 있습니다. 그러면 보고서 바닥글은 페이지의 작업에 관계없이 항상 표시되고 사용할 수 있습니다. 이 경우 제공되는 모든 옵션을 쉽게 사용할 수 있습니다. 바닥글을 고정하려면 [모바일 앱 설정](./mobile-app-interaction-settings.md) 페이지에서 **고정된 보고서 바닥글**을 전환합니다.
+
+### <a name="support-for-pbirs-reports-preview-windows"></a>PBIRS 보고서 지원(미리 보기)(Windows)
+
+이제 Power BI 앱에서 PBIRS(Power BI Report Server) 보고서를 열 수 있습니다.
+
+### <a name="quickly-access-your-recent-items-windows"></a>최근 항목에 빠르게 액세스(Windows)
+
+Windows 작업 표시줄에서 Power BI 앱 아이콘을 마우스 오른쪽 단추로 클릭하여 최근 본 모든 항목의 목록을 가져옵니다. 목록의 항목을 클릭하여 빠르게 재방문할 수 있습니다.
+
+![작업 표시줄 빠른 액세스 메뉴](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-windows-taskbar-quick-access.png)
+
+## <a name="january-2020"></a>2020년 1월
+
+### <a name="share-annotations-created-in-presentation-mode-windows"></a>프레젠테이션 모드에서 만든 주석 공유(Windows)
+
+프레젠테이션 중에 작성하는 주석은 프레젠테이션의 중요한 부분이자 토론의 주요 구성 요소가 됩니다. 이제 프레젠테이션 모드에서 보고서에 주석을 달 때 동료와 보고서 페이지의 스냅샷을 공유할 수 있습니다. [자세히 알아보기](./mobile-windows-10-app-presentation-mode.md#use-presentation-mode)
 
 ## <a name="december-2019"></a>2019년 12월
 
@@ -32,7 +86,7 @@ Android 사용자로부터 보고서를 사용하는 환경이 최적이 아님�
 
 이전 동작을 선호하는 사용자는 새롭게 확장된 모바일 앱의 [상호 작용 설정](./mobile-app-interaction-settings.md)을 통해 이 동작을 복원할 수 있습니다.
 
-또한 IT 관리자는 앱 구성 파일과 함께 선택한 MDM 도구를 사용하여 사용자를 대신해 [새 기본 설정을 원격으로 재정의](./mobile-app-configuration.md#interaction-settings-android)할 수 있습니다. 이러한 방식으로 조직의 모든 사용자가 동일한 동작을 구성할 수 있습니다.
+또한 IT 관리자는 앱 구성 파일과 함께 선택한 MDM 도구를 사용하여 사용자를 대신해 [새 기본 설정을 원격으로 재정의](./mobile-app-configuration.md#interaction-settings-ios-and-android)할 수 있습니다. 이러한 방식으로 조직의 모든 사용자가 동일한 동작을 구성할 수 있습니다.
 
 > [!NOTE]
 > 새로 고침 단추 및 보고서 바닥글 고정에 대한 상호 작용 설정은 현재 보고서 서버 보고서에 영향을 주지 않습니다. 1월 보고서 서버 릴리스와 함께 변경됩니다.
@@ -367,7 +421,7 @@ Power BI 보고서에는 이제 iPad 앱의 새로 고침 단추가 있습니다
 
 #### <a name="improved-hyperlink-support"></a>하이퍼링크 지원 개선
 
-이제 사용자 지정 시각적 개체의 링크를 탭하여 모바일 브라우저에서 열 수 있습니다.
+이제 Power BI 시각적 개체의 링크를 탭하여 모바일 브라우저에서 열 수 있습니다.
 
 #### <a name="intune-integration-android"></a>Intune 통합(Android)
 
@@ -441,7 +495,7 @@ Power BI Desktop에서 휴대폰에 최적화된 페이지가 있는 보고서�
 #### <a name="all-devices"></a>All 디바이스
 **전화 보고서에 대한 배경색** Power BI Desktop에서 보고서에 대한 배경색을 정의하는 경우 전화 보고서는 동일한 배경색을 갖게 됩니다. [전화에 대한 보고서 페이지 최적화](../../desktop-create-phone-report.md)에 대해 자세히 알아봅니다.
 
-**모바일 친화적 사용자 지정 시각적 개체 개발** 모바일 디바이스에 잘 어울리고 제대로 작동하는 사용자 지정 시각적 개체 만들기 팁에 대해 이 [개발자 가이드](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md)를 참조하세요.
+**모바일 친화적인 Power BI 시각적 개체 개발** 모바일 디바이스에 잘 어울리고 제대로 작동하는 Power BI 시각적 개체 만들기에 대한 팁은 이 [개발자 가이드](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md)를 참조하세요.
 
 #### <a name="ios-devices"></a>iOS 디바이스
 **데이터와 통신: 말로 질문** 이제 입력하지 않고 이야기하여 [질문 및 답변으로 데이터에 대해 질문](mobile-apps-ios-qna.md)할 수 있습니다. 
@@ -667,7 +721,7 @@ Power BI 모바일 앱의 알림 센터에서는 사용자와 공유한 새 데�
 * **QR 코드**는 **보고서에**도 제공됩니다. 관련된 보고서도 직접 이동하려면 탐색 또는 검색이 필요 없이 Power BI 앱을 사용하여 코드를 스캔합니다.
 * SQL Server 2016 Reporting Services에 대한 **데이터 관리 개선**: 디바이스의 로드 시간 및 데이터 사용이 감소되었습니다.
 * **SQL Server 2016 테마가 지정된 모바일 보고서**: 디바이스에서 모바일 보고서에 대한 테마를 확인합니다.
-* **Geofiltering**: 현재 위치에 따라 보고서를 필터링합니다.
+* **지역 필터링**: 현재 위치에 따라 보고서를 필터링합니다.
 
 ### <a name="april-2016"></a>2016년 4월
 자세한 내용은 [4월 Power BI Mobile Apps 블로그](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-april-2016/)를 참조하세요.
@@ -825,5 +879,4 @@ Power BI 모바일 앱의 개선된 점 -- Android, iOS(iPhone 및 iPad) 및 Win
 * 인 포커스 모드에서의 맵 타일 렌더링을 개선하여 화면 자원을 최대한 활용하도록 했습니다.
 * 역할 기반 보안을 사용하는 대시보드에 액세스할 때의 사용자 환경을 개선했습니다. 
 * 새로운 기능을 사용하면 다음 타일을 선택하기 위해 대시보드로 돌아갈 필요 없이 인 포커스 모드에서 직접 대시보드 타일을 통해 앞뒤로 탐색할 수 있습니다.
-* 성능을 더 안정화하고 향상시켰습니다. 
-
+* 성능을 더 안정화하고 향상시켰습니다.

@@ -3,21 +3,22 @@ title: 나와 공유한 대시보드 및 보고서 표시
 description: Power BI에서 나와 공유한 문서
 author: mihart
 ms.reviewer: ''
-featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/25/2019
+ms.date: 03/22/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6fdb336faaceee21347f426beb6fdefc0bdb70f4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d4fbc607b27999a9a1264a4cf004898ec05b0d18
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73861685"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "80302499"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>나와 공유한 대시보드 및 보고서 표시
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -25,7 +26,7 @@ ms.locfileid: "73861685"
 
 ![공유 아이콘](./media/end-user-shared-with-me/power-bi-share-dashboard.png)
 
-Amanda가 **공유한 항목** 콘텐츠 목록을 설명하고 목록을 탐색하고 필터링하는 방법을 보여 주는 비디오를 시청하세요. 그런 다음 비디오 아래에 있는 단계별 지침을 따라서 직접 시도해 볼 수 있습니다. 공유된 대시보드를 보려면 Power BI Pro 라이선스가 필요합니다. 자세한 내용은 [Power BI 프리미엄이란?](../service-premium-what-is.md)을 참조하세요.
+Amanda가 **공유한 항목** 콘텐츠 목록을 설명하고 목록을 탐색하고 필터링하는 방법을 보여 주는 비디오를 시청하세요. 그런 다음, 비디오 아래에 있는 단계별 지침을 따라서 직접 시도해 볼 수 있습니다. 공유된 대시보드를 보려면 Power BI Pro 라이선스가 필요합니다. 자세한 내용은 [Power BI 프리미엄이란?](../service-premium-what-is.md)을 참조하세요.
     
 
 > [!NOTE]
@@ -46,7 +47,7 @@ Amanda가 **공유한 항목** 콘텐츠 목록을 설명하고 목록을 탐색
 * 대시보드 또는 보고서 제거  ![휴지통 아이콘](./media/end-user-shared-with-me/power-bi-delete-icon.png).
 * 일부 대시보드 및 보고서는 다시 공유할 수 있음  ![공유 아이콘](./media/end-user-shared-with-me/power-bi-share-icon-new.png).
 * [Excel에서 보고서 열기](end-user-export.md) ![Excel로 내보내기 아이콘](./media/end-user-shared-with-me/power-bi-excel.png) 
-* Power BI가 데이터에서 찾은 [인사이트 보기](end-user-insights.md) ![인사이트 아이콘](./media/end-user-shared-with-me/power-bi-insights.png)
+* Power BI가 데이터에서 찾은 [인사이트 보기](end-user-insights.md)![인사이트 아이콘](./media/end-user-shared-with-me/power-bi-insights.png)
   
   > [!NOTE]
   > EGRC 분류에 대한 자세한 내용을 보려면 **분류** 단추를 선택하거나 [대시보드 데이터 분류](../service-data-classification.md)를 방문하세요.

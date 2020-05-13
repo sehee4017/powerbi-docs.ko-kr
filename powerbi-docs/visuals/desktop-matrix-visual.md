@@ -1,22 +1,24 @@
 ---
-title: Power BI에서 행렬 시각적 개체 사용
+title: Power BI에서 행렬 시각적 개체 만들기
 description: 행렬 시각적 개체를 사용하여 Power BI에서 단계 레이아웃 및 세부적인 강조 표시를 사용하는 방법을 알아봅니다.
 author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/30/2020
-ms.author: mihart
+ms.date: 02/10/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2e4ab92d5d1adce8659cdb971c5061a0f133b38f
-ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
+ms.openlocfilehash: 0a9bebd51e64c18e0c354386e168661542b9c5bf
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "76895501"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866590"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Power BI에서 행렬 시각화 만들기
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -28,6 +30,8 @@ ms.locfileid: "76895501"
 
 행렬과 관련된 여러 가지 기능을 이 문서의 다음 섹션에서 살펴보겠습니다.
 
+> [!NOTE]
+> Power BI 동료와 보고서를 공유하려면 개별 Power BI Pro 라이선스가 있거나 보고서가 Premium 용량에 저장되어 있어야 합니다.
 
 ## <a name="understanding-how-power-bi-calculates-totals"></a>Power BI에서 총계를 계산하는 방법 이해
 
@@ -57,7 +61,8 @@ ms.locfileid: "76895501"
 
 ![](media/desktop-matrix-visual/power-bi-expand3.png)
 
-
+> [!NOTE]
+> Analysis Services 다차원 모델을 기반으로 보고서를 작성할 때 모델에서 기본 멤버 기능을 사용하는 경우 확장/축소에 대한 몇 가지 특별한 고려 사항이 있습니다. 자세한 내용은 [Power BI에서 다차원 모델 작업](../desktop-default-member-multidimensional-models.md)을 참조하세요.
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>행렬 시각적 개체로 드릴다운 사용
 행렬 시각적 개체를 사용하면 이전에는 사용할 수 없었던 모든 종류의 흥미로운 드릴다운 작업을 수행할 수 있습니다. 행, 열을 사용하여 개별 섹션 및 셀까지 드릴다운하는 기능이 포함됩니다. 각 기능의 작동 방법을 살펴보겠습니다.
@@ -136,17 +141,32 @@ ms.locfileid: "76895501"
 
 계단형 레이아웃을 사용하지 않는 경우 Power BI에서는 상위 범주 아래에서 들여쓰기하지 않고 다른 열에 하위 범주를 표시합니다.
 
-## <a name="subtotals-with-matrix-visuals"></a>행렬 시각적 개체에서 부분합
+## <a name="subtotals-and-grand-totals-with-matrix-visuals"></a>행렬 시각적 개체에서 소계 및 총계 표시
 
-행과 열 모두의 경우 행렬 시각적 개체에서 부분합을 켜거나 끌 수 있습니다. 다음 이미지에서 행 소계가 **켜기**로 설정된 것을 확인할 수 있습니다.
+행과 열 모두의 경우 행렬 시각적 개체에서 부분합을 켜거나 끌 수 있습니다. 다음 이미지에서 행의 소계가 **켜기**로 설정되고 하단에 표시되도록 지정된 것을 확인할 수 있습니다.
 
-![총계 및 소계를 표시하는 행렬](media/desktop-matrix-visual/matrix-visual_20.png)
+![총계 및 소계를 표시하는 행렬](media/desktop-matrix-visual/power-bi-subtotals.png)
 
-시각화 창의 서식 섹션에서 **소계** 카드를 확장하고 행 소계 슬라이더를 **끄기**로 설정합니다. 이렇게 하면 소계가 표시되지 않습니다.
+**소계**를 켜고 레이블을 추가하면 Power BI도 총계의 값에 행을 추가하고 동일한 레이블을 적용합니다. 총계의 서식을 지정하려면 **총계**의 서식 옵션을 선택합니다. 
 
-![총계가 꺼져 있는 행렬](media/desktop-matrix-visual/matrix-visual_21.png)
+![총계 카드가 표시된 행렬](media/desktop-matrix-visual/power-bi-grand-total.png)
+
+소계와 총계를 사용하지 않으려면 시각화 창의 서식 섹션에서 **소계** 카드를 확장합니다. 행의 소계 슬라이더를 **끄기**로 밉니다. 이렇게 하면 소계가 표시되지 않습니다.
+
+![총계가 꺼져 있는 행렬](media/desktop-matrix-visual/power-bi-no-subtotals.png)
 
 열 부분합에 동일한 프로세스가 적용됩니다.
+
+## <a name="add-conditional-icons"></a>조건부 아이콘 추가
+*조건부 아이콘*이 포함된 테이블 또는 행렬에 시각 신호를 추가합니다. 
+
+시각화 창의 서식 섹션에서 **조건부 서식 지정** 카드를 확장합니다. **아이콘** 슬라이더를 **켜기**로 밀고 **고급 컨트롤**을 선택합니다.
+
+![아이콘 화면이 표시된 행렬](media/desktop-matrix-visual/power-bi-icons.png)
+
+행렬의 조건, 아이콘, 색상을 조정하고 **확인**을 선택합니다. 이 예제에서는 낮은 값에 빨간색 깃발, 높은 값에 보라색 원, 두 값의 사이에 있는 경우 노란색 삼각형을 사용했습니다. 
+
+![아이콘이 표시된 행렬](media/desktop-matrix-visual/power-bi-icons-applied.png)
 
 ## <a name="cross-highlighting-with-matrix-visuals"></a>행렬 시각적 개체를 사용한 상호 강조 표시
 
@@ -203,6 +223,10 @@ ms.locfileid: "76895501"
 ‘고급 컨트롤’을 선택하면 조정할 수 있는 대화 상자가 표시됩니다.  이 예는 **데이터 막대**의 대화 상자를 표시합니다.
 
 ![데이터 막대 창](media/desktop-matrix-visual/power-bi-data-bars.png)
+
+## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
+
+* 행렬의 셀 또는 헤더에 있는 텍스트 데이터에 줄 바꿈 문자가 포함된 경우, 요소의 연결된 서식 창 카드에서 '자동 줄 바꿈' 옵션을 설정/해제하지 않는 한 이러한 문자는 무시됩니다. 
 
 ## <a name="next-steps"></a>다음 단계
 

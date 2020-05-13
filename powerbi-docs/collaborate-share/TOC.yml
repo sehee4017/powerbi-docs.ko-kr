@@ -1,0 +1,93 @@
+- name: 'Power BI를 사용하여 협업, 공유 및 제품 간 통합'
+  href: index.yml
+  expanded: true
+  items:
+    - name: 개요
+      expanded: true
+      items:
+        - name: 작업 공유 방법
+          href: service-how-to-collaborate-distribute-dashboards-reports.md
+    - name: 개념
+      expanded: true
+      items:
+        - name: 작업 영역에서 작업 구성
+          href: service-new-workspaces.md
+        - name: 클래식 작업 영역에서 사용량 모니터링
+          href: service-usage-metrics.md
+        - name: 새 작업 영역에서 사용량 모니터링
+          href: service-modern-usage-metrics.md
+    - name: 방법 가이드
+      expanded: true
+      items:
+        - name: Power BI에서 공동 작업
+          items:
+            - name: 새 작업 영역 만들기
+              href: service-create-the-new-workspaces.md
+            - name: 작업 영역용 새 디자인 옵트인
+              href: service-workspaces-new-look.md
+            - name: 클래식 작업 영역 업그레이드
+              href: ../collaborate-share/service-upgrade-workspaces.md
+            - name: 작업 영역 만들기
+              href: service-create-workspaces.md
+            - name: 작업 영역에서 앱 게시
+              href: service-create-distribute-apps.md
+            - name: 작업 영역에서 데이터 스토리지 관리
+              href: ../admin/service-admin-manage-your-data-storage-in-power-bi.md
+            - name: 데이터 계보
+              href: service-data-lineage.md
+            - name: 데이터 집합 영향 분석
+              href: service-dataset-impact-analysis.md
+            - name: 데이터 민감도 레이블 적용
+              href: ../collaborate-share/service-security-apply-data-sensitivity-labels.md
+            - name: 그룹의 OneDrive의 파일에 연결
+              href: ../connect-data/service-connect-to-files-in-app-workspace-onedrive-for-business.md
+            - name: 클래식 작업 영역에서 공동 작업
+              href: service-collaborate-power-bi-workspace.md
+            - name: Power BI 및 Office 365에서 그룹 관리
+              href: service-manage-app-workspace-in-power-bi-and-office-365.md
+        - name: 작업 게시 및 공유
+          items:
+            - name: 대시보드 및 보고서 공유
+              href: service-share-dashboards.md
+            - name: 보고서 필터링 및 공유
+              href: service-share-reports.md
+            - name: URL의 매개 변수를 사용하여 보고서 필터링
+              href: service-url-filters.md
+            - name: 직접 및 다른 사용자 구독
+              href: service-report-subscribe.md
+            - name: 홈의 기능 콘텐츠
+              href: service-featured-content.md
+            - name: Microsoft Teams에 보고서 포함
+              href: service-embed-report-microsoft-teams.md
+            - name: SharePoint Online에 보고서 포함
+              href: service-embed-report-spo.md
+            - name: 보안 포털 또는 웹 사이트에 보고서 포함
+              href: service-embed-secure.md
+            - name: Power BI에서 웹에 게시
+              href: service-publish-to-web.md
+            - name: OneDrive의 Excel 통합 문서에 연결하는 대시보드 공유
+              href: service-share-dashboard-that-links-to-excel-onedrive.md
+        - name: Power BI 확장
+          items:
+            - name: Excel에서 분석
+              href: service-analyze-in-excel.md
+            - name: Excel에서 분석 문제 해결
+              href: desktop-troubleshooting-analyze-in-excel.md
+            - name: '오류: Excel 통합 문서에서 데이터를 찾을 수 없음'
+              href: ../connect-data/service-admin-troubleshoot-excel-workbook-data.md
+            - name: Power Automate 및 Power BI
+              href: service-flow-integration.md
+            - name: 타사 앱 사용
+              href: service-power-bi-get-started-third-party-apps.md
+        - name: 조직 콘텐츠 팩
+          items:
+            - name: 조직 콘텐츠 팩 소개
+              href: service-organizational-content-pack-introduction.md
+            - name: 콘텐츠 팩 만들기 및 게시
+              href: service-organizational-content-pack-create-and-publish.md
+            - name: '콘텐츠 팩 복사, 새로 고침 및 액세스'
+              href: service-organizational-content-pack-copy-refresh-access.md
+            - name: '콘텐츠 팩 관리, 업데이트, 삭제'
+              href: service-organizational-content-pack-manage-update-delete.md
+            - name: 콘텐츠 팩에 대한 연결 제거
+              href: service-organizational-content-pack-disconnect.md

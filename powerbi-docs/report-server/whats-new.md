@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/23/2020
-ms.openlocfilehash: d4e233e55731d77d4136c1b6ef1e341a2d043234
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.date: 02/27/2020
+ms.openlocfilehash: 6ee1740d536a1bfd248b91d002142470b3894180
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "77026718"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79381310"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Report Server의 새로운 기능
 
@@ -166,6 +166,10 @@ Azure Active Directory 애플리케이션 프록시를 사용하면 더 이상 �
 
 Power BI Report Server는 이제 Enterprise 및 Standard 버전 Power BI Report Server 카탈로그 데이터베이스에 대해 투명한 데이터베이스 암호화를 지원합니다.
 
+#### <a name="power-bi-visuals-api"></a>Power BI 시각적 개체 API
+
+이 릴리스와 함께 제공되는 API 버전은 2.6입니다.
+
 #### <a name="microsoft-report-builder-update"></a>Microsoft 보고서 작성기 업데이트
 
 새로 릴리스된 보고서 작성기 버전은 Reporting Services의 2016, 2017 및 2019 버전과 완전히 호환됩니다. 또한 Power BI Report Server의 모든 릴리스 및 지원 버전과도 호환됩니다.
@@ -313,7 +317,7 @@ Power BI 보고서에서 다음 기능 지원:
 
 **내게 필요한 옵션 기능** 목록에 내게 필요한 옵션 기능이 너무 많습니다(예: [필드 목록 창 내게 필요한 옵션 지원](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)). 필드 목록 창에 완전히 액세스할 수 있습니다. 키보드 및 화면 reader만 사용하여 창 주위를 탐색하고 컨텍스트 메뉴를 사용하여 보고서 페이지에 필드를 추가할 수 있습니다.
 
-#### <a name="custom-visuals"></a>사용자 지정 시각적 개체
+#### <a name="power-bi-visuals"></a>Power BI 시각적 개체
 
 - 이 릴리스에서 제공된 API 버전은 2.3입니다.
 
@@ -377,11 +381,11 @@ Kerberos에서 SAP HANA SSO 직접 쿼리 지원은 Power BI 보고서에 대해
 >[!Note]
 >Power BI Desktop에서 만든 보고서를 사용하여 SAP HANA를 관계형 데이터 원본으로 처리하는 경우에만 이 시나리오가 지원됩니다.  Power BI Desktop에서 이 작업을 수행하려면 옵션의 DirectQuery 메뉴에서 "SAP HANA를 관계형 원본으로 처리"를 선택하고, 확인을 클릭합니다.
 
-#### <a name="custom-visuals"></a>사용자 지정 시각적 개체
+#### <a name="power-bi-visuals"></a>Power BI 시각적 개체
 
 - 이 릴리스에서 제공된 API 버전은 1.13.0입니다.
 
-- 이제 사용자 지정 시각적 개체는 현재 버전(있는 경우)의 서버 API와 호환 가능한 이전 버전으로 대체할 수 있습니다.
+- 이제 Power BI 시각적 개체는 현재 버전(있는 경우)의 서버 API와 호환 가능한 이전 버전으로 대체할 수 있습니다.
 
 ### <a name="reporting"></a>보고 
 
@@ -446,34 +450,34 @@ IT 관리자인 경우 이제 조직의 MDM 도구를 사용하여 보고서 서
 
 새로운 기능의 전체 목록에서 특별히 이러한 기능에 주목합니다.
 
-#### <a name="rule-based-conditional-formatting-for-table-and-matrixhttpspowerbimicrosoftcomblogpower-bi-desktop-november-2017-feature-summaryconditionalformatting"></a>[테이블 및 행렬에 대한 규칙 기반 조건부 서식 지정](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting)
+#### <a name="rule-based-conditional-formatting-for-table-and-matrix"></a>[테이블 및 행렬에 대한 규칙 기반 조건부 서식 지정](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting)
 
 테이블 또는 행렬의 특정 비즈니스 논리에 따라 열의 배경 또는 글꼴 색을 조건부로 지정하는 규칙을 만듭니다.
 
-#### <a name="show-and-hide-pageshttpspowerbimicrosoftcomblogpower-bi-desktop-january-2018-feature-summaryhidepages"></a>[페이지 표시 및 숨기기](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#hidePages)
+#### <a name="show-and-hide-pages"></a>[페이지 표시 및 숨기기](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#hidePages)
 
 reader에게 보고서에 대한 액세스 권한을 부여하려고 하지만 일부 페이지가 완료되지 않았습니다. 이제 준비될 때까지 숨길 수 있습니다. 또는 일반 탐색에서 페이지를 숨길 수 있고 책갈피 또는 드릴스루를 통해 페이지로 이동할 수 있습니다.
 
-#### <a name="bookmarkinghttpspowerbimicrosoftcomblogpower-bi-desktop-march-2018-feature-summarybookmarking"></a>[책갈피](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking)
+#### <a name="bookmarking"></a>[책갈피](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking)
 
 책갈피의 경우 책갈피를 만들어서 보고서에서 데이터를 사용하여 이야기를 만듭니다.
 
 - [책갈피의 교차 강조 표시](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkCrossHighlighting): 책갈피는 책갈피를 만들 때 보고서 페이지에서 교차 강조 표시한 상태를 유지 관리하고 표시합니다.
 - [책갈피의 추가 유연성](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#bookmarkFlexibility): 책갈피는 보고서에서 설정한 속성을 반영하고 선택한 시각적 개체에만 영향을 줍니다.
 
-#### <a name="multi-select-data-points-across-multiple-chartshttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summarycrosshighlight"></a>[여러 차트에서 데이터 요소 다중 선택](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight)
+#### <a name="multi-select-data-points-across-multiple-charts"></a>[여러 차트에서 데이터 요소 다중 선택](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#crosshighlight)
 
 여러 차트에서 여러 데이터 요소를 선택하고 교차 필터링을 전체 페이지에 적용했습니다.
 
-#### <a name="sync-slicers-across-multiple-pages-of-your-reporthttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summarysyncslicers"></a>[보고서의 여러 페이지에서 슬라이서 동기화](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers)
+#### <a name="sync-slicers-across-multiple-pages-of-your-report"></a>[보고서의 여러 페이지에서 슬라이서 동기화](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#syncSlicers)
 
 슬라이서는 보고서에서 하나 또는 둘 이상의 페이지에 적용할 수 있습니다.
 
-#### <a name="quick-measureshttpspowerbimicrosoftcomblogpower-bi-desktop-february-2018-feature-summaryquickmeasures"></a>[빠른 측정](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
+#### <a name="quick-measures"></a>[빠른 측정](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#quickMeasures) 
 
 기존 측정값 및 테이블의 숫자 열에 따라 새 측정값을 만듭니다.
 
-#### <a name="drilling-down-filters-other-visualshttpspowerbimicrosoftcomblogpower-bi-desktop-december-feature-summarydrillfiltersothervisuals"></a>[기타 시각적 개체에서 필터 드릴다운](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
+#### <a name="drilling-down-filters-other-visuals"></a>[기타 시각적 개체에서 필터 드릴다운](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#drillFiltersOtherVisuals)
 
 하나의 시각적 개체의 지정된 범주에서 드릴다운하면 동일한 범주에 따라 페이지에서 모든 시각적 개체를 필터링할 수 있습니다.
 
@@ -609,7 +613,7 @@ Power BI Report Server는 이제 새 Power BI 테이블 및 행렬 시각적 개
 
 * 사용 가능한 Power BI Report Server 미리 보기
 * Power BI 보고서 온-프레미스를 게시하는 기능
-  * 사용자 지정 시각적 개체에 대한 지원
+  * Power BI 시각적 개체 지원
   * 앞으로 더 많은 데이터 원본을 사용하여 **Analysis Services 라이브 연결**에 대해 지원합니다.
   * Power BI Report Server에서 호스팅되는 Power BI 보고서를 표시하도록 업데이트된 Power BI 모바일 앱
 * 주석을 사용하여 보고서에서 협업 향상

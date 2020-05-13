@@ -9,11 +9,11 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: b8b1a1a59ee9fae5a1c248548a14c5f91438edc9
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875530"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79378941"
 ---
 # <a name="visual-interactions-in-power-bi-visuals"></a>Power BI 시각적 개체의 시각적 상호 작용
 

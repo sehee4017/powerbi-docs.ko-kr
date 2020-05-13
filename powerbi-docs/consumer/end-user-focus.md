@@ -1,4 +1,4 @@
----
+﻿---
 title: 포커스 모드와 전체 화면 모드 - 확대하여 더 자세히 보는 방법
 description: 포커스 모드 또는 전체 화면 모드에서 Power BI 대시보드, 대시보드 타일, 보고서 또는 보고서 시각적 개체를 표시하는 방법에 대한 설명서
 author: mihart
@@ -7,17 +7,19 @@ featuredvideoid: dtdLul6otYE
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/22/2020
+ms.date: 03/09/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: f2114d8d4be2e5f9c3b3f34589adc901a0ef4ebb
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 0e7d46711502b75c9d0fedb8b1a0792a11f102bd
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537744"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79040204"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>콘텐츠를 더 자세히 표시: 포커스 모드 및 전체 화면 모드
+
+[!INCLUDE [consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]    
 
@@ -60,7 +62,7 @@ Power BI Mobile을 사용하는 경우 [Windows 10 모바일 앱에서 전체 �
 
 전체 화면 모드는 대시보드, 보고서 페이지 및 보고서 시각적 개체에 사용할 수 있습니다. 
 
-- 전체 화면 모드에서 대시보드를 열려면 맨 위 메뉴 모음에서 전체 화면 아이콘 ![전체 화면 아이콘](media/end-user-focus/power-bi-full-screen-icon.png)을 선택합니다.  
+- 전체 화면 모드에서 대시보드를 열려면 전체 화면 아이콘을 선택합니다. ![전체 화면 아이콘](media/end-user-focus/power-bi-full-screen-icon.png) 을 선택합니다. 
 
 - 전체 화면 모드에서 보고서 페이지를 열려면 **보기** > **전체 화면**을 선택합니다.
 

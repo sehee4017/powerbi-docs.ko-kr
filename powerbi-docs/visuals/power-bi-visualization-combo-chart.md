@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI의 콤보 차트
 description: 콤보 차트에 대한 이 자습서에서는 Power BI 서비스 및 Desktop에서 콤보 차트를 사용하는 시기와 만드는 방법을 설명합니다.
 author: mihart
@@ -7,17 +7,19 @@ featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/22/2019
-ms.author: mihart
+ms.date: 04/22/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 11be774515552d10846b51863eda6c155b92b57f
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 9c8dcfec103bb53d645cdfd347112d7443506569
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75758086"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82867004"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>Power BI의 콤보 차트 만들기 및 사용
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -33,6 +35,9 @@ Power BI 콤보 차트는 꺾은선형 차트와 세로 막대형 차트를 결�
 * 두 측정값 간의 상관관계를 하나의 시각화에 보여주는 경우
 * 하나의 측정값이 다른 측정값으로 정의된 목표를 충족하는지 확인하는 경우
 * 캔버스 공간을 절약하려는 경우
+
+> [!NOTE]
+> Power BI 동료와 보고서를 공유하려면 개별 Power BI Pro 라이선스가 있거나 보고서가 Premium 용량에 저장되어 있어야 합니다.
 
 ### <a name="prerequisites"></a>필수 조건
 이 자습서는 [소매점 분석 샘플 PBIX 파일](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 사용합니다.
@@ -98,7 +103,7 @@ Will이 판매 및 샘플 마케팅을 사용하여 콤보 차트를 만드는 �
    ![클러스터 콤보 차트 예](media/power-bi-visualization-combo-chart/power-bi-clustered-combo.png)    
 
 ## <a name="add-titles-to-the-axes"></a>축에 제목 추가
-1. 서식 창을 열려면 페인트 롤러 아이콘 ![페인트 롤러 아이콘](media/power-bi-visualization-combo-chart/power-bi-paintroller.png)을 선택합니다.
+1. 서식 창을 열려면 페인트 롤러 아이콘 ![서식 창을 열려면 페인트 롤러 아이콘](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) 을 선택합니다.
 1. 아래쪽 화살표를 선택하여 **Y축** 옵션을 확장합니다.
 1. **Y축(열)** 에 대해 **위치**를 **왼쪽**으로 설정하고, **제목**을 **켬**으로 설정하고, **스타일**을 **제목만 표시**로 설정하고, **표시 단위**를 **백만**으로 설정합니다.
 

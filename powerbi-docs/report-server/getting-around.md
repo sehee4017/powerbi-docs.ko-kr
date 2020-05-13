@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
 ms.openlocfilehash: ecc33c6176214cb8178e55d716294bf9446a7b1d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73859471"
 ---
 # <a name="manage-content-in-the-web-portal"></a>웹 포털에서 콘텐츠 관리 
@@ -23,7 +23,7 @@ Power BI Report Server 웹 포털은 Power BI, 모바일, 페이지를 매긴 �
 모든 최신 브라우저에서 웹 포털을 볼 수 있습니다. 웹 포털의 폴더에서 보고서 및 KPI를 구성하고 즐겨찾기로 표시할 수 있습니다. 거기에 Excel 통합 문서를 저장할 수도 있습니다. 웹 포털에서 보고서를 만드는 데 필요한 도구를 시작할 수 있습니다.
 
 * Power BI Desktop을 사용하여 만든 **Power BI 보고서**: 웹 포털 및 Power BI 모바일 앱에서 확인합니다.
-* 보고서 작성기에서 만든 **페이지를 매긴 보고서**: 최신 수준의 고정 레이아웃 문서가 인쇄에 최적화되었습니다.
+* 보고서 작성기에서 만든 **페이지가 매겨진** 보고서: 최신 수준의 고정 레이아웃 문서가 인쇄에 최적화되었습니다.
 * 웹 포털에서 바로 만든 **KPI**.
 
 웹 포털에서 Report Server 폴더를 찾거나 특정 보고서를 검색할 수 있습니다. 보고서 기록에서 보고서, 해당 일반 속성 및 캡처된 보고서의 과거 복사본을 볼 수 있습니다. 사용 권한에 따라 보고서를 구독하여 파일 시스템에 전자 메일 받은 편지함이나 공유 폴더로 전달하도록 할 수도 있습니다.
@@ -39,13 +39,13 @@ Power BI Report Server 웹 포털은 Power BI, 모바일, 페이지를 매긴 �
    
     기본적으로 URL은 <em>https://[ComputerName]/reports</em>입니다.
    
-    특정 포트를 사용하도록 Report Server를 구성할 수 있습니다. 예: <em>https://[ComputerName]:80/reports</em> 또는 <em>https://[ComputerName]:8080/reports</em>
+    특정 포트를 사용하도록 보고서 서버를 구성할 수 있습니다. 예: <em>https://[ComputerName]:80/reports</em> 또는 <em>https://[ComputerName]:8080/reports</em>
    
     웹 포털에서 항목을 이러한 범주로 그룹화했음을 확인할 수 있습니다.
    
    * KPI
    * 모바일 보고서
-   * 페이지를 매긴 보고서
+   * 페이지가 매겨진 보고서
    * Power BI Desktop 보고서
    * Excel 통합 문서
    * 데이터 세트

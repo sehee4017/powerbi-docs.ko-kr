@@ -1,0 +1,54 @@
+- name: Power BI 자동화 설명서
+  href: index.yml
+  expanded: true
+  items:
+    - name: 개요
+      expanded: true
+      items:
+        - name: Power BI API로 무엇을 할 수 있나요?
+          href: overview-of-power-bi-rest-api.md
+    - name: 자습서
+      expanded: true
+      items:
+        - name: 데이터 세트에 데이터 푸시
+          href: walkthrough-push-data.md
+        - name: 인증 액세스 토큰 가져오기
+          href: walkthrough-push-data-get-token.md
+        - name: 데이터 세트 만들기
+          href: walkthrough-push-data-create-dataset.md
+        - name: 행을 추가할 데이터 세트 가져오기
+          href: walkthrough-push-data-get-datasets.md
+        - name: 테이블에 행 추가
+          href: walkthrough-push-data-add-rows.md
+    - name: 개념
+      items:
+        - name: 실시간 데이터에 대한 자동 보존 정책
+          href: api-automatic-retention-policy-for-real-time-data.md
+        - name: 데이터 푸시
+          items:
+            - name: Power BI REST API 제한 사항
+              href: api-rest-api-limitations.md
+            - name: 데이터 세트 속성
+              href: api-dataset-properties.md
+            - name: 데이터 모델 버전 관리
+              href: api-data-model-versioning.md
+    - name: 방법
+      items:
+        - name: 자격 증명 구성
+          href: configure-credentials.md
+    - name: 참조
+      items:
+        - name: REST API
+          href: 'https://docs.microsoft.com/rest/api/power-bi'
+        - name: Power BI REST API 참조
+          href: rest-api-reference.md
+        - name: 전체 코드 목록
+          href: walkthrough-push-data-complete-code.md
+    - name: 리소스
+      items:
+        - name: 개발자 센터
+          href: 'https://powerbi.microsoft.com/en-us/developers/'
+        - name: 'Power BI C# Git 리포지토리'
+          href: 'https://go.microsoft.com/fwlink/?linkid=848273'
+        - name: .NET SDK 다운로드
+          href: 'https://go.microsoft.com/fwlink/?linkid=848274'

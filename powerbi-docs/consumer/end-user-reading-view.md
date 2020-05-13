@@ -10,16 +10,19 @@ ms.service: powerbi
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/30/2019
+ms.date: 03/11/2020
 ms.author: mihart
-ms.openlocfilehash: 09b9bf10c3328ecc4eb9ca9d16460b1bcfab0da5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: eeffb4c0fb7db57eacf18818275716db42679f6e
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73862686"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79206036"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>빠른 시작: *소비자*의 Power BI 기능 알아보기
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
+
 이 빠른 시작에서는 Power BI를 조작하여 데이터 기반 비즈니스 인사이트를 검색하는 방법을 알아봅니다. 이 문서에서는 자세한 내용을 제공하는 대신 Power BI **소비자**가 사용할 수 있는 다양한 작업을 빠르게 둘러볼 수 있습니다.
 
 아직 Power BI에 등록하지 않은 경우 시작하기 전에 [평가판에 등록합니다](https://app.powerbi.com/signupredirect?pbi_source=web).
@@ -88,7 +91,7 @@ Power BI 서비스에서 자동으로 작업을 수행하는 두 가지 방법�
 #### <a name="subscribe-to-a-dashboard-or-report"></a>대시보드(또는 보고서) 구독
 대시보드를 모니터링하기 위해 Power BI를 열 필요가 없습니다.  대신에 구독하면 Power BI가 설정된 일정에 따라 해당 대시보드의 스냅샷을 메일로 보내 줍니다. 
 
-![구독 아이콘 선택](./media/end-user-reading-view/power-bi-subscribe-email.png)
+![구독 아이콘 선택](./media/end-user-reading-view/power-bi-subscribe-email.png).
 
  [Power BI 구독](end-user-subscribe.md)에 대한 자세한 정보
 
@@ -174,7 +177,7 @@ Easily navigate between the visualizations on the report page.
 [시각적 개체 정렬](end-user-search-sort.md)에 대한 자세한 정보
 
 ### <a name="show-the-data-used-to-create-a-visualization"></a>시각화를 만드는 데 사용된 데이터 표시
-Power BI 시각화는 기본 데이터 세트의 데이터를 사용하여 구성됩니다. 숨은 기능에 관심이 있는 경우 Power BI를 사용하면 시각적 개체를 만드는 데 사용되는 데이터를 *표시*할 수 있습니다. **데이터 표시**를 선택하면 Power BI는 시각화 아래(또는 옆에) 데이터를 표시합니다.
+Power BI 시각화는 기본 데이터 세트의 데이터를 사용하여 구성됩니다. 숨은 기능에 관심이 있는 경우 Power BI를 사용하면 시각적 개체를 만드는 데 사용되는 데이터를 *표시*할 수 있습니다. **데이터 표시**를 선택하면 Power BI는 시각화 아래(또는 옆)에 데이터를 표시합니다.
 
 시각적 개체를 활성화하고 **추가 옵션**(...)을 선택한 다음, **데이터 표시**를 선택합니다.
    
@@ -186,7 +189,7 @@ Power BI 시각화는 기본 데이터 세트의 데이터를 사용하여 구�
 
 ![Excel로 내보낸 데이터](./media/end-user-reading-view/power-bi-export-powerpoint.png)
 
-<!-- Exporting isn’t limited to individual visuals; you can export entire reports to PowerPoint or PDF to share with your colleagues.
+<!-- Exporting isn't limited to individual visuals; you can export entire reports to PowerPoint or PDF to share with your colleagues.
 
 ![data exported to PowerPoint](./media/end-user-reading-view/power-bi-export-powerpoint.png) -->
 

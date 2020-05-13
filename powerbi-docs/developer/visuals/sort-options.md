@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 546480ae863c63d6517fde7c98e7c9787c022ab6
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3cb8f5af63960667dc46cab1d818ba48943fd582
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875538"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79378080"
 ---
 # <a name="sorting-options-for-power-bi-visuals"></a>Power BI 시각적 개체의 정렬 옵션
 
@@ -31,7 +31,7 @@ ms.locfileid: "73875538"
     }
 ```
 
-![상황에 맞는 메뉴의 정렬 옵션](./media/sorting.png)
+![상황에 맞는 메뉴의 정렬 옵션](media/sort-options/sorting.png)
 
 ## <a name="implicit-sorting"></a>암시적 정렬
 

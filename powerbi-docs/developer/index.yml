@@ -1,93 +1,110 @@
-### YamlMime:Landing
+### YamlMime:Hub
 title: Power BI 개발자 설명서
-summary: Power BI 설명서를 통해 Power BI 용도와 관계없이 필요에 부합한 전문가의 정보 및 답변을 얻을 수 있습니다.
+summary: Power BI 개발자는 Power BI 콘텐츠를 포함하고, Power BI 시각적 개체를 개발하며, Power BI 프로세스를 자동화할 수 있습니다.
+brand: power-bi
 metadata:
   title: Power BI 개발자 설명서
-  description: Power BI 설명서를 통해 Power BI 용도와 관계없이 필요에 부합한 전문가의 정보 및 답변을 얻을 수 있습니다.
+  description: Power BI 개발자는 Power BI 콘텐츠를 포함하고, Power BI 시각적 개체를 개발하며, Power BI 프로세스를 자동화할 수 있습니다.
   services: powerbi
   ms.service: powerbi
   ms.subservice: powerbi-developer
-  ms.topic: landing-page
+  ms.topic: hub-page
   ms.collection: collection
-  author: maggiesMSFT
-  ms.author: maggies
-  ms.date: 10/25/2019
-  ms.openlocfilehash: 18c09880a7e036c768d67a5df169df3c4c4f0f4c
-  ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+  author: KesemSharabi
+  ms.author: kesharab
+  ms.date: 31/03/2020
+  ms.openlocfilehash: 8d37f5a4cde341dd8788791fecdbd1c7f20249d0
+  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 11/15/2019
-  ms.locfileid: "74099409"
-landingContent:
-- title: 개발자용 Power BI 정보
-  linkLists:
-  - linkListType: overview
+  ms.lasthandoff: 05/05/2020
+  ms.locfileid: "80487803"
+highlightedContent:
+  items:
+  - title: Power BI를 사용하는 임베디드 분석
+    itemType: overview
+    url: embedded/embedding.md
+  - title: Azure의 Power BI Embedded란?
+    itemType: overview
+    url: embedded/azure-pbie-what-is-power-bi-embedded.md
+  - title: Power BI의 시각적 개체
+    itemType: overview
+    url: visuals/power-bi-custom-visuals.md
+  - title: 개발자는 Power BI API로 무엇을 할 수 있나요?
+    itemType: overview
+    url: automation/overview-of-power-bi-rest-api.md
+conceptualContent:
+  items:
+  - title: 임베디드 분석
     links:
-    - text: 개발자가 수행할 수 있는 작업
-      url: what-can-you-do.md
-    - text: Power BI의 시각적 개체
-      url: power-bi-custom-visuals.md
-    - text: 포함 항목
-      url: embedding.md
-    - text: Power BI API란?
-      url: overview-of-power-bi-rest-api.md
-  - linkListType: reference
+    - url: embedded/embedding.md
+      itemType: overview
+      text: Power BI를 사용하는 임베디드 분석
+    - url: embedded/azure-pbie-what-is-power-bi-embedded.md
+      itemType: overview
+      text: Azure의 Power BI Embedded란?
+    - url: embedded/embedded-capacity.md
+      itemType: concept
+      text: 용량 및 SKU
+    footerLink:
+      url: embedded/index.yml
+      text: 자세히 보기
+  - title: Power BI 시각적 개체
     links:
-    - text: 개발자 센터
-      url: https://powerbi.microsoft.com/developers/
-    - text: 개발자 샘플
-      url: https://github.com/Microsoft/PowerBI-Developer-Samples
-    - text: JavaScript Wiki
-      url: https://github.com/Microsoft/powerbi-javascript/wiki
-    - text: REST API
+    - url: visuals/power-bi-custom-visuals.md
+      itemType: overview
+      text: Power BI의 시각적 개체
+    - url: visuals/custom-visual-develop-tutorial.md
+      itemType: tutorial
+      text: Power BI의 시각적 개체 개발
+    - url: visuals/office-store.md
+      itemType: how-to-guide
+      text: 파트너 센터에 Power BI 시각적 개체 게시
+    footerLink:
+      url: visuals/index.yml
+      text: 자세히 보기
+  - title: Automation
+    links:
+    - url: automation/overview-of-power-bi-rest-api.md
+      itemType: overview
+      text: 개발자는 Power BI API로 무엇을 할 수 있나요?
+    - url: automation/walkthrough-push-data.md
+      itemType: tutorial
+      text: Power BI 데이터 세트에 데이터 푸시
+    - url: automation/configure-credentials.md
+      itemType: how-to-guide
+      text: 자격 증명 구성
+    footerLink:
+      url: automation/index.yml
+      text: 자세히 보기
+additionalContent:
+  sections:
+  - title: 관련 도구
+  - items:
+    - title: Power BI REST API
+      summary: Power BI REST API는 포함, 관리 및 사용자 리소스를 위한 서비스 엔드포인트를 제공합니다.
       url: https://docs.microsoft.com/rest/api/power-bi/
-    - text: Azure Resource Manager(ARM) REST API
+    - title: Azure Resource Manager REST API
+      summary: RESTful 웹 서비스 세트를 제공하는 API를 사용하여 Power BI 전용 용량을 생성 및 검색하고, 업데이트 및 삭제할 수 있습니다.
       url: https://docs.microsoft.com/rest/api/power-bi-embedded/
-- title: 시각적 개체
-  linkLists:
-  - linkListType: tutorial
-    links:
-    - text: 시각적 개체 개발
-      url: visuals/custom-visual-develop-tutorial.md
-  - linkListType: concept
-    links:
-    - text: 시각적 개체 FAQ
-      url: power-bi-custom-visuals-faq.md
-    - text: 시각적 개체에 대한 지침
-      url: guidelines-powerbi-visuals.md
-    - text: 시각적 개체의 고급 편집 모드
-      url: visuals/advanced-edit-mode.md
-  - linkListType: how-to-guide
-    links:
-    - text: 시각적 개체 인증받기
-      url: power-bi-custom-visuals-certified.md
-    - text: AppSource에 사용자 지정 시각적 개체 게시
-      url: office-store.md
-- title: 분석 내장
-  linkLists:
-  - linkListType: tutorial
-    links:
-    - text: 고객용 콘텐츠 포함
-      url: embed-sample-for-customers.md
-    - text: 조직용 콘텐츠 포함
-      url: embed-sample-for-your-organization.md
-  - linkListType: concept
-    links:
-    - text: 행 수준 보안
-      url: embedded-row-level-security.md
-    - text: 다중 테넌트 관리
-      url: embed-multi-tenancy.md
-    - text: 임베디드 FAQ
-      url: embedded-faq.md
-    - text: 권한
-      url: power-bi-permissions.md
-  - linkListType: how-to-guide
-    links:
-    - text: 앱에서 포함
-      url: embed-from-apps.md
-    - text: Azure Active Directory 테넌트 만들기
-      url: create-an-azure-active-directory-tenant.md
-    - text: Azure AD 액세스 토큰 가져오기
-      url: get-azuread-access-token.md
-    - text: Power BI Embedded의 Q&A 기능
-      url: qanda.md
+    - title: Power Platform 설명서
+      summary: Power BI, Power Apps, Power Automate 및 Power Virtual Agents가 함께 작동하여 서로에게 도움이 되는 방법을 알아봅니다.
+      url: https://docs.microsoft.com/power-platform/
+    - title: Power BI 개발자 센터
+      summary: Power BI를 사용하여 빌드하세요.
+      url: https://powerbi.microsoft.com/developers/
+    - title: Power BI 시각적 개체 샘플
+      summary: Power BI 샘플 및 코드 라이브러리의 컬렉션입니다.
+      url: https://microsoft.github.io/PowerBI-visuals/samples/
+    - title: Power BI 라이브러리
+      summary: Power BI 라이브러리(NuGet)입니다.
+      url: https://www.nuget.org/profiles/powerbi
+    - title: 포함 설정 도구
+      summary: Power BI 포함 환경을 설정하세요.
+      url: https://app.powerbi.com/embedsetup
+    - title: 플레이그라운드
+      summary: 기능을 사용해 보고 API를 살펴보세요.
+      url: https://aka.ms/pbieplayground
+    - title: JavaScript Wiki
+      summary: JavaScript 기술 자료를 살펴보세요.
+      url: https://github.com/Microsoft/powerbi-javascript/wiki

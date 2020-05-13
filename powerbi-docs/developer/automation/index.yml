@@ -1,0 +1,65 @@
+### YamlMime:Landing
+title: Power BI 자동화 설명서
+summary: Power BI 자동화를 사용하면 보고서, 데이터 세트 및 작업 영역과 같은 Power BI 개체에 대한 관리 작업을 수행할 수 있습니다.
+metadata:
+  title: Power BI 자동화 설명서
+  description: Power BI 자동화를 사용하면 보고서, 데이터 세트 및 작업 영역과 같은 Power BI 개체에 대한 관리 작업을 수행할 수 있습니다.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-developer
+  ms.topic: landing-page
+  ms.collection: collection
+  author: KesemSharabi
+  ms.author: kesharab
+  ms.date: 31/03/2020
+  ms.openlocfilehash: 33f3caa20bc29c41b9d2c43f6727947ce9b7d446
+  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.translationtype: HT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 05/05/2020
+  ms.locfileid: "80516402"
+landingContent:
+- title: 시작
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Power BI API로 수행할 수 있는 작업 알아보기
+      url: overview-of-power-bi-rest-api.md
+  - linkListType: tutorial
+    links:
+    - text: '자습서:  데이터 세트에 데이터 푸시'
+      url: walkthrough-push-data.md
+    - text: '자습서:  인증 액세스 토큰 가져오기'
+      url: walkthrough-push-data-get-token.md
+    - text: '자습서:  데이터 세트 만들기'
+      url: walkthrough-push-data-create-dataset.md
+    - text: 행을 추가할 데이터 세트 가져오기
+      url: walkthrough-push-data-get-datasets.md
+    - text: Power BI 테이블에 행 추가
+      url: walkthrough-push-data-add-rows.md
+- title: 데이터 작업
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 실시간 데이터에 대한 자동 보존 정책
+      url: api-automatic-retention-policy-for-real-time-data.md
+    - text: Power BI REST API 제한 사항
+      url: api-rest-api-limitations.md
+    - text: 데이터 세트 속성
+      url: api-dataset-properties.md
+  - linkListType: how-to-guide
+    links:
+    - text: 자격 증명 구성
+      url: configure-credentials.md
+- title: 참조 및 리소스
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Power BI REST API
+      url: https://docs.microsoft.com/rest/api/power-bi/
+    - text: Power BI REST API 참조
+      url: https://docs.microsoft.com/power-bi/developer/automation/rest-api-reference
+    - text: 개발자 센터
+      url: https://powerbi.microsoft.com/developers/
+    - text: Power BI 라이브러리
+      url: https://www.nuget.org/profiles/powerbi

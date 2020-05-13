@@ -1,0 +1,67 @@
+### YamlMime:Landing
+title: Power BI를 사용하여 협업, 공유 및 제품 간 통합 - 설명서
+summary: Power BI 설명서를 통해 Power BI 용도와 관계없이 필요에 부합한 전문가의 정보 및 답변을 얻을 수 있습니다.
+metadata:
+  title: Power BI를 사용하여 협업, 공유 및 제품 간 통합 - 설명서
+  description: Power BI 설명서를 통해 Power BI 용도와 관계없이 필요에 부합한 전문가의 정보 및 답변을 얻을 수 있습니다.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 03/03/2020
+  ms.openlocfilehash: 9b2f5fd70ed00dccb122fb4195284a1f3e0f75c2
+  ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+  ms.translationtype: HT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "83275182"
+landingContent:
+- title: 협업 및 공유 시작하기
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 작업 공유 방법
+      url: service-how-to-collaborate-distribute-dashboards-reports.md
+- title: 동료와 협업
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 작업 영역의 데이터 세트 소개
+      url: ../connect-data/service-datasets-across-workspaces.md
+    - text: 공유 데이터 세트에 대한 사용 권한 빌드
+      url: ../connect-data/service-datasets-build-permissions.md
+  - linkListType: how-to-guide
+    links:
+    - text: 새 작업 영역에서 작업 구성
+      url: service-new-workspaces.md
+- title: 작업 공유
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 앱 게시
+      url: service-create-distribute-apps.md
+    - text: 사용량 메트릭 모니터링
+      url: service-modern-usage-metrics.md
+  - linkListType: how-to-guide
+    links:
+    - text: 보고서 및 대시보드 공유
+      url: service-share-dashboards.md
+    - text: 보고서 필터링 및 공유
+      url: service-share-reports.md
+    - text: 데이터 세트 공유
+      url: ../connect-data/service-datasets-share.md
+- title: 다른 서비스와 통합
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Azure 및 Power BI
+      url: ../connect-data/service-azure-and-power-bi.md
+    - text: Excel에서 분석
+      url: service-analyze-in-excel.md
+  - linkListType: how-to-guide
+    links:
+    - text: SharePoint Online에 포함
+      url: service-embed-report-spo.md

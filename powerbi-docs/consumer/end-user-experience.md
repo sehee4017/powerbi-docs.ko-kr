@@ -11,12 +11,12 @@ ms.topic: quickstart
 ms.date: 01/31/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: fbd629ea7d2c5bb71471ac8073a5a823f1b2c192
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 595ce61bf2020c27420a33871e82ca7ff9025d60
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76975151"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79040157"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>빠른 시작 - Power BI 서비스 살펴보기
 
@@ -36,7 +36,7 @@ ms.locfileid: "76975151"
 
 
 시작하려면 Power BI 서비스(app.powerbi.com)를 열고 **홈**으로 이동합니다. 
-1. 왼쪽 탐색 창이 축소되어 있으면 탐색 창 아이콘 ![3개의 가로줄이 있는 아이콘](./media/end-user-experience/power-bi-burger.png) 을 선택하여 펼칩니다. 
+1. 왼쪽 탐색 창이 축소되어 있으면 탐색 창 아이콘 ![3개의 가로줄이 있는 아이콘](./media/end-user-experience/power-bi-burger.png) 클릭하여 펼칩니다. 
 
 1. 아직 열려 있지 않으면 **홈**을 선택합니다. 
 
@@ -72,7 +72,7 @@ ms.locfileid: "76975151"
 
 ![내 작업 영역 ](./media/end-user-experience/power-bi-workspaces.png)
 
-**내 작업 영역**에는 소유하고 만드는 모든 콘텐츠가 저장됩니다. 고유한 콘텐츠에 대한 개인 샌드박스 또는 작업 영역으로 생각하면 됩니다. 대부분의 Power BI ‘소비자'는 새 콘텐츠를 만드는 일이 업무에 포함되어 있지 않으므로 **내 작업 영역**이 비어 있는 상태로 유지됩니다.   정의상 ‘소비자'는 다른 사용자가 만든 데이터를 사용하고 해당 데이터를 이용해 비즈니스 의사 결정을 내립니다.  콘텐츠를 만드는 경우 대신 [‘디자이너'를 위한 Power BI 문서](../power-bi-creator-landing.md)를 읽어 보시기 바랍니다. 
+**내 작업 영역**에는 소유하고 만드는 모든 콘텐츠가 저장됩니다. 고유한 콘텐츠에 대한 개인 샌드박스 또는 작업 영역으로 생각하면 됩니다. 대부분의 Power BI ‘소비자'는 새 콘텐츠를 만드는 일이 업무에 포함되어 있지 않으므로 **내 작업 영역**이 비어 있는 상태로 유지됩니다.   정의상 ‘소비자'는 다른 사용자가 만든 데이터를 사용하고 해당 데이터를 이용해 비즈니스 의사 결정을 내립니다.  콘텐츠를 만드는 경우 대신 [*보고서 작성자*를 위한 Power BI 문서](../index.yml)를 읽어 보시기 바랍니다.
 
 **앱 작업 영역**에는 특정 앱의 모든 콘텐츠가 포함됩니다.  ‘디자이너'는 앱을 만들 때 해당 앱을 활용하는 데 필요한 모든 콘텐츠를 함께 묶습니다.   영업 및 마케팅 작업 영역을 선택하여 ‘디자이너'가 앱에 무엇을 묶었는지 확인해 보세요.  
 

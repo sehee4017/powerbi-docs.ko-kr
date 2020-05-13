@@ -3,19 +3,18 @@ title: Power BI 서비스를 열었을 때 표시되는 대시보드 선택
 description: Power BI 서비스에서 주요 대시보드를 만드는 방법에 대한 설명서
 author: mihart
 ms.reviewer: ''
-featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/14/2019
+ms.date: 03/19/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 412bcf397d550e002957e7379bf41381e8e3eea8
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 4e9bd94a044d88c4f0a767738d07b97ddc989f7e
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73852546"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82065619"
 ---
 # <a name="featured-dashboards-in-the-power-bi-service"></a>Power BI 서비스의 주요 대시보드
 
@@ -33,9 +32,6 @@ ms.locfileid: "73852546"
 주요 대시보드를 아직 설정하지 않은 경우 Power BI는 사용자가 마지막으로 사용한 대시보드 또는 Power BI **홈**으로 열립니다. 
 
 ### <a name="set-a-dashboard-as-featured"></a>대시보드를 주요 대시보드로 설정
-이 비디오에서 Amanda가 주요 대시보드를 만드는 과정을 살펴보세요. 그런 다음 단계에 따라 직접 시도해 보세요.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
 
 
 1. 주요 대시보드로 설정하려는 대시보드를 엽니다. 
@@ -51,7 +47,6 @@ ms.locfileid: "73852546"
 
 1. 이전 1단계와 2단계를 수행합니다.
    
-    ![주요 대시보드 변경 창](./media/end-user-featured/power-bi-change-feature.png)
 2. **주요 대시보드로 설정**을 선택합니다. 주요 대시보드에서 해제하더라도 Power BI에서 제거되지 않습니다. 
    
     ![성공 메시지](./media/end-user-featured/power-bi-unfeature-new.png)
@@ -62,9 +57,9 @@ ms.locfileid: "73852546"
 1. 현재 주요 대시보드로 지정된 대시보드를 엽니다.
 2. 위쪽 메뉴 모음에서 **추가 옵션**(...)을 선택한 다음, **주요 대시보드 사용 안 함**을 선택합니다.
 
-    ![주요 대시보드 사용 안 함 선택됨](./media/end-user-featured/power-bi-unfeature-newer.png)
+    ![주요 대시보드 사용 안 함 선택됨](./media/end-user-featured/power-bi-unfeature.png)
    
 ## <a name="next-steps"></a>다음 단계
-- [대시보드를 즐겨찾기에 추가](end-user-favorite.md)
+- [대시보드를 즐겨찾기에 추가](end-user-favorite.md)    
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티](https://community.powerbi.com/)를 사용해 보세요.
 

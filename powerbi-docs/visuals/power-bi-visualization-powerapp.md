@@ -3,19 +3,19 @@ title: Power BI 보고서에 새 Power App 포함
 description: 동일한 데이터 원본을 사용하고 다른 보고서 항목처럼 필터링할 수 있는 앱을 포함합니다
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: tapan maniar
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 02/03/2020
-ms.author: mihart
+ms.date: 03/29/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 99869740eb20b14625e66ff50cb48b08e5cb3e15
-ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
+ms.openlocfilehash: 04e2092b3651fd3339706582001f37fc855ddbad
+ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "77036679"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82841966"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>자습서:  Power BI 보고서에 Power Apps 시각적 개체 포함
 
@@ -53,7 +53,7 @@ Power Apps 구독이 없는 경우 시작하기 전에 [무료 계정을 만듭�
 
 3. **필드** 창에서 **이름**, **제품 코드** 및 **영업 스테이지**를 선택합니다. 
 
-    ![필드 선택](media/power-bi-visualization-powerapp/power-bi-fields.jpg)
+    ![필드 선택](media/power-bi-visualization-powerapp/power-bi-fields.png)
 
 4. Power Apps 시각적 개체에서 앱을 만들려는 Power Apps 환경을 선택한 다음 **새로 만들기**를 선택합니다.
 
@@ -106,4 +106,5 @@ Power BI 보고서의 슬라이서에서 **1월**을 선택합니다. 이 경우
 
 
 ## <a name="next-steps"></a>다음 단계
-[질문 및 답변 시각적 개체](power-bi-visualization-types-for-reports-and-q-and-a.md)
+[질문 및 답변 시각적 개체](power-bi-visualization-types-for-reports-and-q-and-a.md)    
+[자습서: Power BI 보고서에 Power Apps 시각적 개체 포함](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visual)    

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: ca29e711e12c3958b608dcc231de628cd7590988
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e3af800696fd593f092cc46f9a59df2d0a5f94e2
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880226"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79380311"
 ---
 # <a name="capabilities-and-properties-of-power-bi-visuals"></a>Power BI 시각적 개체의 기능 및 속성 
 
@@ -158,7 +158,7 @@ ms.locfileid: "73880226"
 
 위의 데이터 역할은 다음 이미지에 표시된 필드를 만듭니다.
 
-![데이터 역할 필드](./media/data-role-display.png)
+![데이터 역할 필드](media/capabilities/data-role-display.png)
 
 ## <a name="define-how-you-want-the-data-mapped-dataviewmappings"></a>데이터 매핑 방법 정의: dataViewMappings
 

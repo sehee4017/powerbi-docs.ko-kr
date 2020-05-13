@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI 서비스에서 인쇄
 description: Power BI 서비스에서 대시보드, 타일 또는 보고서 페이지를 인쇄합니다.
 author: mihart
@@ -7,18 +7,19 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/12/2019
+ms.date: 03/12/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 5ad3e1f18e6b18116a070d9013bf7cd64d7e1c0f
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 61322db7085bd41539c0c79d483403b794f23f26
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75218032"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79114312"
 ---
 # <a name="printing-from-the-power-bi-service"></a>Power BI 서비스에서 인쇄
 
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 ## <a name="what-can-be-printed"></a>인쇄할 수 있는 내용
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -67,7 +68,7 @@ Power BI에서 인쇄하는 경우 브라우저에서 인쇄 창이 열립니다
    
     ![전체 화면 옵션 메뉴](./media/end-user-print/menu-options-new.png)
 
-4. 인쇄 아이콘 ![인쇄 아이콘](./media/end-user-print/print-icon.png)을 선택합니다.     
+4. 인쇄 아이콘 ![인쇄 아이콘](./media/end-user-print/print-icon.png).     
 
 5. 브라우저의 인쇄 창이 열립니다. 설정을 선택합니다. 예를 들어 타일이 페이지에 맞지 않는 경우 배율을 75%로 변경할 수 있습니다. **인쇄**를 선택합니다.
 

@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.custom: ''
 ms.date: 09/05/2017
 ms.openlocfilehash: eac019bc31396359b7520e057f2384adce386a96
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73873952"
 ---
 # <a name="upgrade-power-bi-report-server"></a>Power BI Report Server 업그레이드
@@ -38,7 +38,7 @@ Power BI Report Server 및 Report Server에 최적화된 Power BI Desktop을 다
 
 * 전체 복구 모델을 사용하여 **reportserver** 데이터베이스를 백업합니다.
 * 단순 복구 모델을 사용하여 **reportservertempdb** 데이터베이스를 백업합니다.
-* 각 데이터베이스에 서로 다른 백업 일정을 사용할 수 있습니다. **reportservertempdb**를 백업하는 유일한 이유는 하드웨어 오류가 발생할 경우 다시 만들 필요가 없도록 하는 것입니다. 하드웨어 오류 시 **reportservertempdb**의 데이터는 복구하지 않아도 되지만 테이블 구조는 필요합니다. **reportservertempdb**가 손실된 경우 복구하는 유일한 방법은 보고서 서버 데이터베이스를 다시 만드는 것입니다. **reportservertempdb**를 다시 만들 때는 주 보고서 서버 데이터베이스와 같은 이름을 지정해야 합니다.
+* 각 데이터베이스에 서로 다른 백업 일정을 사용할 수 있습니다. **reportservertempdb** 를 백업하는 유일한 이유는 하드웨어 오류가 있을 때 데이터베이스를 다시 만들지 않아도 되게 하기 위해서입니다. 하드웨어 오류 시 **reportservertempdb**의 데이터는 복구하지 않아도 되지만 테이블 구조는 필요합니다. **reportservertempdb**가 손실된 경우 복구하는 유일한 방법은 보고서 서버 데이터베이스를 다시 만드는 것입니다. **reportservertempdb**를 다시 만들 때는 주 보고서 서버 데이터베이스와 같은 이름을 지정해야 합니다.
 
 SQL Server 관계형 데이터베이스의 백업 및 복구에 대한 자세한 내용은 [SQL Server Databases 백업 및 복원](https://docs.microsoft.com/sql/relational-databases/backup-restore/back-up-and-restore-of-sql-server-databases)을 참조하세요.
 

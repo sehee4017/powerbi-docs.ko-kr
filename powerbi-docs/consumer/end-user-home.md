@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/28/2020
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: dd83388c00b2415c43355bb57c271b430a9abc53
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: 83c834b05846c22577b7987d341c295a1e763b59
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888882"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79113309"
 ---
 # <a name="find-your-dashboards-reports-and-apps"></a>대시보드, 보고서 및 앱 찾기
+
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 Power BI에서 *콘텐츠*라는 용어는 앱, 대시보드 및 보고서를 가리킵니다. 콘텐츠는 Power BI *디자이너*가 만들고, 이렇게 만든 콘텐츠는 여러분과 같은 동료들에게 공유됩니다. 콘텐츠는 Power BI 서비스에서 액세스하고 볼 수 있습니다. Power BI에서 작업을 시작하기 가장 좋은 곳은 Power BI **홈**입니다.
 
 ## <a name="explore-power-bi-home"></a>Power BI 홈 살펴보기
@@ -96,7 +98,7 @@ Power BI는 사용자의 활동 및 계정 설정에 따라 일련의 권장 앱
 ![Power BI 서비스 탐색 창의 스크린샷.](media/end-user-home/power-bi-nav.png)
 
 
-탐색 창을 사용하여 대시보드, 보고서 및 앱 사이를 이동하고 찾을 수 있습니다. 탐색 창을 사용하는 것이 콘텐츠로 이동하는 가장 빠른 방법인 경우가 많습니다. 탐색 창은 홈 시작 페이지를 열면 표시되며, Power BI 서비스의 다른 영역을 열어도 그대로 유지됩니다. 숨기기 아이콘을 선택하여 축소할 수 있습니다. ![탐색 창 숨기기 아이콘](media/end-user-home/power-bi-hide.png) 을 탭합니다.
+탐색 창을 사용하여 대시보드, 보고서 및 앱 사이를 이동하고 찾을 수 있습니다. 탐색 창을 사용하는 것이 콘텐츠로 이동하는 가장 빠른 방법인 경우가 많습니다. 탐색 창은 홈 시작 페이지를 열면 표시되며, Power BI 서비스의 다른 영역을 열어도 그대로 유지됩니다. 숨기기 아이콘을 선택하여 축소할 수 있습니다. ![탐색 창 숨기기 아이콘](media/end-user-home/power-bi-hide.png) .
   
 탐색 창은 홈 캔버스에서 본 것과 비슷한 방식의 컨테이너, 즉 즐겨찾기, 최근, 앱, 공유한 항목, 및 작업 영역을 구성합니다. 플라이아웃을 사용하여 각 컨테이너에서 가장 최근 콘텐츠만 볼 수도 있고 콘텐츠 목록으로 이동하여 각 컨테이너 범주의 모든 콘텐츠를 볼 수도 있습니다.
  

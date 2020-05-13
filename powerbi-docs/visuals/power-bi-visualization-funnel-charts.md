@@ -7,17 +7,19 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/12/2019
-ms.author: mihart
+ms.date: 05/05/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 356d738795f8bf99ba1e2f8dfc705b23f52a6d5e
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: b60a4c14873427bd06d2b6abce48c9d3d3008859
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762442"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865256"
 ---
 # <a name="create-and-use-funnel-charts"></a>깔때기형 차트 만들기 및 사용
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -26,6 +28,9 @@ ms.locfileid: "75762442"
 각 깔때기 단계는 합계의 백분율을 나타냅니다. 따라서 대부분의 경우 깔때기형 차트는 깔때기 모양으로, 첫 단계가 가장 크고 뒤로 갈수록 점점 작아집니다.  서양배 모양의 깔때기도 유용합니다. 프로세스의 문제를 식별할 수 있기 때문입니다.  하지만 일반적으로 첫 번째 단계인 "유입" 단계가 가장 큽니다.
 
 ![샘플 파란색 깔때기형](media/power-bi-visualization-funnel-charts/funnelplain.png)
+
+> [!NOTE]
+> Power BI 동료와 보고서를 공유하려면 개별 Power BI Pro 라이선스가 있거나 보고서가 Premium 용량에 저장되어 있어야 합니다.    
 
 ## <a name="when-to-use-a-funnel-chart"></a>깔때기형 차트를 사용하는 경우
 다음과 같은 경우 깔때기형 차트를 사용하는 것이 좋습니다.

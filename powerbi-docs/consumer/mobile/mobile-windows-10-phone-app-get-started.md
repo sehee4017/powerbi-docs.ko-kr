@@ -1,19 +1,19 @@
 ---
 title: Windows 10용 Power BI 모바일 앱 시작
 description: Windows 10용 Power BI 모바일 앱은 태블릿이나 휴대폰에서 비즈니스 정보에 대한 터치 기반의 최신 모바일 액세스를 제공합니다.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/09/2019
-ms.author: mshenhav
-ms.openlocfilehash: b2bfe6157653459c2d7b60b85c9f7e8a3e465e23
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 03/11/2020
+ms.author: painbar
+ms.openlocfilehash: 0bbdc13e1adf52ba90435f22920e4351e8f34404
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73879063"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79435953"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Windows 10용 Power BI 모바일 앱 시작
 Windows 10용 Power BI Mobile 앱은 태블릿이나 휴대폰으로 Power BI를 가져옵니다. 터치 사용이 가능한 최신 모바일 방식으로 비즈니스 정보에 액세스할 수 있습니다. 어디서든 [Windows 시작 화면](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)에서 회사 대시보드를 보고 조작할 수 있습니다.
@@ -28,8 +28,11 @@ Windows 10용 Power BI Mobile 앱은 태블릿이나 휴대폰으로 Power BI를
 * Windows 스토어에서 [**Windows 10용 Power BI 모바일 앱을 다운로드**](https://go.microsoft.com/fwlink/?LinkID=526478)합니다.
   
   디바이스에서 Windows 10을 실행해야 합니다. RAM 3GB, 내부 스토리지 8GB 이상인 디바이스에서 앱을 실행할 수 있습니다.
+
+  >[!NOTE]
+  >**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](https://go.microsoft.com/fwlink/?linkid=2121400)
    
-* [Power BI Mobile 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)을 알아보세요.
+* [Power BI 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)을 알아보세요.
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>웹에서 Power BI 서비스에 등록합니다.
 아직 등록하지 않은 경우 [Power BI 서비스](https://powerbi.com/)로 이동합니다. 고유한 계정을 등록하여 대시보드 및 보고서를 만들고 저장한 다음, 데이터를 모읍니다. Windows 10 디바이스에서 Power BI에 로그인하여 어디서나 자신의 대시보드를 볼 수 있습니다.

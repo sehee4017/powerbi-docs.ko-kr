@@ -2,26 +2,57 @@
   href: /
   topicHref: /
   items:
-    - name: Power BI
-      tocHref: /power-bi/
-      topicHref: /power-bi/
+    - name: Power 플랫폼
+      href: /power-platform/
+      topicHref: /power-platform/
       items:
-        - name: 소비자
-          tocHref: /power-bi/consumer/
-          topicHref: /power-bi/consumer/power-bi-consumer-landing
-        - name: 개발자
-          tocHref: /power-bi/developer/
-          topicHref: /power-bi/developer/index
+        - name: Power BI
+          tocHref: /power-bi/
+          topicHref: /power-bi/
           items:
-            - name: Power BI에서 R 지원 Power BI 시각적 개체 사용
+            - name: 소비자
+              tocHref: /power-bi/consumer/
+              topicHref: /power-bi/consumer/index
+            - name: 모바일
+              tocHref: /power-bi/consumer/mobile/
+              topicHref: /power-bi/consumer/mobile/index
+            - name: Developer
               tocHref: /power-bi/developer/
               topicHref: /power-bi/developer/index
-        - name: 단계별 학습
-          tocHref: /power-bi/guided-learning/
-          topicHref: /power-bi/guided-learning/
-        - name: 보고서 서버
-          tocHref: /power-bi/report-server/
-          topicHref: /power-bi/report-server/get-started
-        - name: 지침
-          tocHref: /power-bi/guidance/
-          topicHref: /power-bi/guidance/index
+              items:
+                - name: 임베디드 분석
+                  tocHref: /power-bi/developer/embedded/
+                  topicHref: /power-bi/developer/embedded/
+                - name: Power BI 시각적 개체
+                  tocHref: /power-bi/developer/visuals/
+                  topicHref: /power-bi/developer/visuals/
+                - name: Automation
+                  tocHref: /power-bi/developer/automation/
+                  topicHref: /power-bi/developer/automation/
+            - name: 단계별 학습
+              tocHref: /power-bi/guided-learning/
+              topicHref: /power-bi/guided-learning/
+            - name: 학습 카탈로그
+              tocHref: /power-bi/learning-catalog/
+              topicHref: /power-bi/learning-catalog/index
+            - name: 보고서 서버
+              tocHref: /power-bi/report-server/
+              topicHref: /power-bi/report-server/index
+            - name: 지침
+              tocHref: /power-bi/guidance/
+              topicHref: /power-bi/guidance/index
+            - name: '공동 작업, 공유, 통합'
+              tocHref: /power-bi/collaborate-share/
+              topicHref: /power-bi/collaborate-share/index
+            - name: 보고서 및 대시보드 만들기
+              tocHref: /power-bi/create-reports/
+              topicHref: /power-bi/create-reports/index
+            - name: 데이터에 연결
+              tocHref: /power-bi/connect-data/
+              topicHref: /power-bi/connect-data/index
+            - name: 시작하기
+              tocHref: /power-bi/fundamentals/
+              topicHref: /power-bi/fundamentals/index
+            - name: '데이터 변환, 셰이핑 및 모델링'
+              tocHref: /power-bi/transform-model/
+              topicHref: /power-bi/transform-model/index

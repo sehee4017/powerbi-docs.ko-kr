@@ -6,17 +6,20 @@ ms.reviewer: Mohammad
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/23/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 9fd5375684466eca49582ff9d153fd2533ad7e92
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: d97ff72c385edd4c59c6eb72ce1eb873656923c9
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099015"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79376825"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Power BI Q&A에서 질문하기 위한 팁
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Q&A에서 인식하는 단어 및 용어
 이 페이지에 안내되지 않은 키워드도 있습니다.  Power BI가 키워드를 인식하는지 확인하는 가장 좋은 방법은 질문 상자에 입력하여 테스트하는 것입니다.  회색으로 표시되는 단어 또는 용어는 Power BI가 인식하지 못하는 것입니다.
 
@@ -33,13 +36,13 @@ ms.locfileid: "74099015"
 |     |         |         
 **관사**     |  a, an, the              |
 |     |         |         
-|**공란 및 부울**     |   blank, empty, null, prefixed with “non” or “non-“, empty string, empty text, true, t, false, f          |
+|**공란 및 부울**     |   blank, empty, null, prefixed with "non" or "non-", empty string, empty text, true, t, false, f          |
 |     |         |         |
 |**비교**     |   vs, versus, compared to, compared with            |
 |     |         |         |
 |**접속사**     |  and, or, each of, with, versus, &, and, but, nor, along with, in addition to       |         
 |          |         |
-|**축약**     |  질문 및 답변은 거의 모든 축약어를 인식합니다. 직접 시도해 보세요.  몇 가지 예: didn’t, haven’t, he’d, he’s, isn’t, it’s, she’ll, they’d, weren’t, who’s, won’t, wouldn’t          |
+|**축약**     |  질문 및 답변은 거의 모든 축약어를 인식합니다. 직접 시도해 보세요.  몇 가지 예제: didn't, haven't, he'd, he's, isn't, it's, she'll, they'd, weren't, who's, won't, wouldn't          |
 |        |         |
 |**날짜**     |       Power BI는 대부분의 날짜 용어(day, week, month, year, quarter, decade 등) 및 다양한 형식으로 작성된 날짜(아래 참조)를 인식합니다. Power BI는 다음 키워드도 인식합니다. MonthName, Days 1-31, decade. 예: January 3rd of 1995, January 3rd 1995, jan 03 1995, 3 Jan 1995, the 3rd of January, January 1995, 1995 January, 1995-01, 01/1995, names of months         |
 |        |         |
@@ -64,7 +67,7 @@ ms.locfileid: "74099015"
 |  |  |
 |**상위 N개**     |     (순서, 순위): top, bottom, highest, lowest, first, last, next, earliest, newest, oldest, latest, most recent, next            |
 |        |         |
-|**시각적 개체 유형**     |  모든 시각적 개체 유형은 Power BI 네이티브 유형입니다.  시각화 창에서 옵션인 경우 질문에 포함할 수 있습니다.  이 규칙에 대한 예외는 시각화 창에 수동으로 추가한 [사용자 지정 시각적 개체](../developer/power-bi-custom-visuals.md)입니다.  |
+|**시각적 개체 유형**     |  모든 시각적 개체 유형은 Power BI 네이티브 유형입니다.  시각화 창에서 옵션인 경우 질문에 포함할 수 있습니다.  이 규칙에 대한 예외는 시각화 창에 수동으로 추가한 [Power BI 시각적 개체](../developer/visuals/power-bi-custom-visuals.md)입니다.  |
 |  |  예: 가로 막대형 차트로 월별 및 총 판매액별 구역 보기               |
 |        |         |
 |**Wh(관계, 정규화된)**  | when, where, which, who, whom, how many, how much, how many times, how often, how frequently, amount, number, quantity, how long, what                |

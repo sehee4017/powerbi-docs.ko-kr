@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
 ms.openlocfilehash: c5e1e0b90f24a81940edab46633f49df41d25fdc
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "75219891"
 ---
 # <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>외부 조직의 사용자와 공유하는 Power BI 콘텐츠 보기
@@ -24,7 +24,7 @@ Power BI는 조직 외부의 게스트 사용자에게 Power BI 콘텐츠를 안
 
 | ![iPhone](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/iphone-logo-50-px.png) | ![iPad](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/ipad-logo-50-px.png) | ![Android 휴대폰](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/android-phone-logo-50-px.png) | ![Android 태블릿](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/android-tablet-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |
-| iPhone |iPad |Android 휴대폰 |Android 태블릿 |
+| iPhones |iPad |Android 휴대폰 |Android 태블릿 |
 
 ## <a name="accessing-shared-content"></a>공유 콘텐츠 액세스
 

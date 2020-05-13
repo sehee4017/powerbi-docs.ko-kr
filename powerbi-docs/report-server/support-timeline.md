@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/03/2020
-ms.openlocfilehash: 204e1cdb83c02582e6181cf6addcbfdf8355054d
-ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
+ms.openlocfilehash: 3546254c8bff56ac4caefbdd0b5f8df901256a59
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "75691447"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "77527571"
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Power BI Report Server에 대한 타임라인 지원
 
@@ -34,9 +34,10 @@ Power BI Report Server는 매해 몇 번씩 릴리스됩니다. 보안 및 중�
 | 2017년 10월 |2017년 10월 31일 | 더 이상 지원되지 않음 |
 | 2018년 3월 | 2018년 3월 19일 | 더 이상 지원되지 않음 |
 | 2018년 8월 | 2018년 8월 15일 | 더 이상 지원되지 않음 |
-| 2019년 1월 | 2019년 1월 23일 | 2020년 1월 23일 |
+| 2019년 1월 | 2019년 1월 23일 | 더 이상 지원되지 않음 |
 | 2019년 5월 | 2019년 5월 22일 | 2020년 5월 22일 |
 | 2019년 9월 | 2019년 9월 | 2020년 9월 
+| 2020년 1월 | 2020년 1월 | 2021년 1월
 
 Power BI Report Server 및 Report Server에 최적화된 Power BI Desktop을 다운로드하려면 [Power BI Report Server를 사용하여 온-프레미스 보고](https://powerbi.microsoft.com/report-server/)로 이동합니다.
 

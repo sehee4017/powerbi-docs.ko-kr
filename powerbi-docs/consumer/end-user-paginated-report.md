@@ -6,17 +6,20 @@ ms.reviewer: chris finlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/02/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a66189707bc6b688be012eeb59881ce4a8517ea1
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: c4c21dc0f02e547cd7319d789a3eb66cce1f4b88
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74830482"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79377354"
 ---
 # <a name="paginated-reports-in-the-power-bi-service"></a>Power BI 서비스의 페이지를 매긴 보고서
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+
 지금까지 [Power BI 보고서](end-user-reports.md)에 대해 알아보았습니다. Power BI 보고서는 사용자가 가장 자주 사용하게 되는 유형의 보고서입니다. 이 외에도 *페이지를 매긴 보고서*라는 유형의 보고서가 있습니다. 보고서 *디자이너*가 프리미엄 용량 작업 영역에서 또는 이 작업 영역에 있는 앱에서 사용자에게 페이지를 매긴 보고서를 공유하는 경우가 있습니다. 
 
 ## <a name="what-is-a-paginated-report"></a>페이지를 매긴 보고서란?
@@ -33,7 +36,7 @@ ms.locfileid: "74830482"
 
 ![1개의 매개 변수가 있는 간단한 보고서](./media/end-user-paginated-report/power-bi-report-simple.png)
 
-페이지를 매신 보고서와 비교해 보면 Power BI 보고서는 훨씬 더 많은 상호 작용이 수반됩니다. Power BI 보고서는 임시 보고를 지원하며, 사용자 지정 시각적 개체를 비롯해 훨씬 더 많은 유형의 시각적 개체를 지원합니다.
+페이지를 매신 보고서와 비교해 보면 Power BI 보고서는 훨씬 더 많은 상호 작용이 수반됩니다. Power BI 보고서는 임시 보고를 지원하며, Power BI 시각적 개체를 비롯해 훨씬 더 많은 유형의 시각적 개체를 지원합니다.
 
 ## <a name="identify-a-paginated-report"></a>페이지를 매긴 보고서 식별하기
 

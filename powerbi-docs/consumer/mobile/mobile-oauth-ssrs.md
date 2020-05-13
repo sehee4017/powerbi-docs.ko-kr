@@ -1,19 +1,19 @@
 ---
 title: OAuth를 사용하여 Power BI Report Server 및 SSRS에 연결
 description: SQL Server Reporting Services 2016 이상에 연결하기 위해 Power BI 모바일 앱에서 OAuth 인증을 지원하도록 환경을 구성하는 방법을 알아봅니다.
-author: maggiesMSFT
-ms.author: maggies
+author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/03/2019
-ms.openlocfilehash: 3680344c3449c80064b818f7ab2a5b48020fba4b
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.date: 03/11/2020
+ms.openlocfilehash: c3c6e8d7ddb823eb1e857b102c2f6c788e366141
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220611"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79114947"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth를 사용하여 Power BI Report Server 및 SSRS에 연결
 
@@ -148,7 +148,7 @@ AD FS 관리 화면 내에 Power BI 모바일 앱에 대한 정보가 포함된 
 
 OAuth 인증에서 Windows 인증으로 전환하기 위해 프로토콜 전환을 포함한 제한된 위임을 사용해야 합니다. Kerberos 구성 중 일부입니다. Reporting Services 구성 내에서 Reporting Services SPN을 이미 정의했습니다.
 
-Active Directory 내의 WAP 서버 컴퓨터 계정에서 제한된 위임을 구성해야 합니다. Active Directory에 대한 권한이 없는 경우 도메인 관리자 권한으로 작동하도록 해야 합니다.
+Active Directory 내의 WAP 서버 컴퓨터 계정에서 제한된 위임을 구성해야 합니다. Active Directory에 대한 권한이 없는 경우 도메인 관리자와 함께 작업해야 할 수도 있습니다.
 
 제한된 위임을 구성하기 위해 다음 단계를 수행하려고 합니다.
 
@@ -195,7 +195,7 @@ Active Directory 내의 WAP 서버 컴퓨터 계정에서 제한된 위임을 �
 Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentication ADFS -ExternalUrl https://reports.contoso.com/ -ExternalCertificateThumbprint "0ff79c75a725e6f67e3e2db55bdb103efc9acb12" -BackendServerUrl https://ContosoSSRS/ -ADFSRelyingPartyName "Reporting Services - Web API" -BackendServerAuthenticationSPN "http/ContosoSSRS.contoso.com" -UseOAuthAuthentication
 ```
 
-| 매개 변수 | 주석 |
+| 매개 변수 | 의견 |
 | --- | --- |
 | **ADFSRelyingPartyName** |ADFS 내에서 애플리케이션 그룹의 일부로 만든 Web API 이름입니다. |
 | **ExternalCertificateThumbprint** |외부 사용자에 사용할 인증서입니다. 이 인증서가 모바일 디바이스에서 유효하고 신뢰할 수 있는 인증 기관에서 제공되는 것이 중요합니다. |
@@ -207,7 +207,7 @@ Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentic
 WAP 애플리케이션을 추가한 후에 IntegratedWindowsAuthentication을 사용하도록 BackendServerAuthenticationMode를 설정해야 합니다. 이를 설정하기 위해 WAP 애플리케이션에서 ID가 필요합니다.
 
 ```powershell
-Get-WebApplicationProxyApplication “Contoso Reports” | fl
+Get-WebApplicationProxyApplication "Contoso Reports" | fl
 ```
 
 ![애플리케이션 그룹 추가](media/mobile-oauth-ssrs/wap-application-id.png)
@@ -254,5 +254,5 @@ Fiddler를 사용할 경우 로그인이 성공적으로 작동하면 WAP 애플
 [Active Directory Federation Services](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services)  
 [Windows Server 2016의 웹 애플리케이션 프록시](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server)  
 [AD FS 사전 인증을 사용하여 애플리케이션 게시](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)  
-[AD FS 2016 및 Azure MFA구성](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa)  
+[AD FS 2016 및 Azure MFA 구성](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa)  
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

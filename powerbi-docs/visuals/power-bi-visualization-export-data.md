@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI 시각화에서 데이터 내보내기
 description: 보고서 시각화 및 대시보드 시각화에서 데이터를 내보내고 Excel에서 봅니다.
 author: mihart
@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/16/2020
+ms.date: 04/28/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4e42a00c516cf9cd24c307c8f953a6cc7f840314
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: e3e0108f539a7c42b41c36f743a0b8b79f3b61b8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539786"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82781734"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>시각화를 생성하는 데 사용된 데이터 내보내기
 
@@ -166,7 +166,7 @@ Power BI 관리자와 디자이너가 독점 데이터를 보호하기 위해 �
 
 - 데이터 세트 소유자는 RLS(행 수준 보안)를 설정할 수 있습니다. RLS는 읽기 전용 사용자에 대한 액세스를 제한합니다. 그러나 앱 작업 영역을 구성하고 멤버에게 편집 권한을 지정한 경우에는 RLS 역할이 적용되지 않습니다. 자세한 내용은 [행 수준 보안](../service-admin-rls.md)을 참조하세요.
 
-- 보고서 디자이너는 **필드** 목록에 표시되지 않도록 열을 숨길 수 있습니다. 자세한 내용은 [데이터 세트 속성](../developer/api-dataset-properties.md)을 참조하세요.
+- 보고서 디자이너는 **필드** 목록에 표시되지 않도록 열을 숨길 수 있습니다. 자세한 내용은 [데이터 세트 속성](../developer/automation/api-dataset-properties.md)을 참조하세요.
 
 - Power BI 관리자는 대시보드, 보고서, 데이터 세트 및 데이터 흐름에 [민감도 레이블](../admin/service-security-data-protection-overview.md)을 추가할 수 있습니다. 그런 다음 데이터를 내보낼 때 암호화 또는 워터마크와 같은 보호 설정을 적용할 수 있습니다. 
 
@@ -192,7 +192,7 @@ Power BI 관리자와 디자이너가 독점 데이터를 보호하기 위해 �
 | 측정값만 해당 | 모든 관련된 테이블에서 숨겨지지 않은 모든 열(측정값을 확장하기 위해) |
 | 측정값만 해당 | 모델 측정값의 중복 행에 대한 요약된 데이터 |
 
-\*Power BI Desktop 또는 서비스의 보고서 보기에서 *측정값*은 계산기 아이콘![아이콘 표시](media/power-bi-visualization-export-data/power-bi-calculator-icon.png)과 함께 **필드** 목록에 표시됩니다. Power BI Desktop에서 측정값을 만들 수 있습니다.
+\*Power BI Desktop 또는 서비스의 보고서 보기에서 *측정값*은 계산기 아이콘![아이콘 표시](media/power-bi-visualization-export-data/power-bi-calculator-icon.png)과 함께 **필드** 목록에 표시됩니다.  Power BI Desktop에서 측정값을 만들 수 있습니다.
 
 ### <a name="set-the-export-options"></a>내보내기 옵션 설정
 
@@ -242,7 +242,7 @@ Power BI 관리 포털 설정이 데이터 내보내기에 대한 보고서 설�
 
 - 시각화 Power BI에 대한 ‘데이터가 없는 항목 표시’ 옵션을 사용하도록 설정한 경우 ‘기본 데이터’를 사용한 내보내기가 작동하지 않습니다.  
 
-- DirectQuery를 사용하는 경우 Power BI에서 내보낼 수 있는 데이터의 최대 크기는 압축되지 않은 16MB 데이터입니다. 의도하지 않게 최대 행 수보다 적게 내보낼 수도 있습니다. 다음과 같은 경우에 해당할 수 있습니다.
+- DirectQuery를 사용하는 경우 Power BI에서 내보낼 수 있는 데이터의 최대 크기는 압축되지 않은 16MB 데이터입니다. 의도하지 않은 결과로 인해 최대 행 수인 150,000개 미만으로 내보낼 수 있습니다. 다음과 같은 경우에 해당할 수 있습니다.
 
     - 많은 열이 있는 경우
 
@@ -252,7 +252,7 @@ Power BI 관리 포털 설정이 데이터 내보내기에 대한 보고서 설�
 
 - 시각화가 두 개 이상 데이터 테이블의 데이터를 사용하고 데이터 모델에 해당 테이블에 대한 관계가 없는 경우 Power BI는 첫 번째 테이블의 데이터만 내보냅니다.
 
-- 현재 사용자 지정 시각적 개체 및 R 시각적 개체는 지원되지 않습니다.
+- 현재 Power BI 시각적 개체 및 R 시각적 개체는 지원되지 않습니다.
 
 - Power BI에서 필드를 두 번 클릭하고 새 이름을 입력하여 필드(열)의 이름을 바꿀 수 있습니다. Power BI는 ‘새 이름을 별칭’으로 참조합니다.  Power BI 보고서가 중복 필드 이름으로 끝나지만 Excel이 중복을 허용하지 않을 수 있습니다. 따라서 Power BI가 데이터를 Excel로 내보낼 때 필드 별칭은 원래 필드(열) 이름으로 되돌립니다.  
 
@@ -265,6 +265,8 @@ Power BI 관리 포털 설정이 데이터 내보내기에 대한 보고서 설�
   1. **외부 데이터 가져오기** > **텍스트에서**를 선택합니다.
   
   1. 파일이 저장된 로컬 폴더로 이동하고 *.csv*를 선택합니다.
+
+- *.csv*로 내보낼 때 특정 문자는 선행 **'** 로 이스케이프됩니다.
 
 - Power BI 관리자는 데이터 내보내기를 사용하지 않도록 설정할 수 있습니다.
 

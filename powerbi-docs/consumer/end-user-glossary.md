@@ -6,14 +6,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/17/2019
+ms.date: 04/07/2020
 ms.author: mihart
-ms.openlocfilehash: e5c3f8b327d6899d83e2304e56e5813a47fc4698
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 101cdbc7ad7ea5d07edf182765d305ad2f1fa8c7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537810"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "82120117"
 ---
 # <a name="glossary-for-power-bi-service"></a>Power BI 서비스 관련 용어집
 Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용되고 있습니다. 용어집은 용어를 조회할 수 있는 적절한 위치로, 책갈피를 지정할 수도 있습니다. Power BI 서비스의 구성 요소를 학습하기에 좋은 또 다른 유용한 리소스는 [기본 개념](end-user-basic-concepts.md)입니다. 기본 개념은 Power BI ‘부분’의 간략한 개요와 연결 방식을 설명합니다. 
@@ -22,7 +22,9 @@ Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용
 
 ## <a name="a"></a>A
 
-**account (계정)** 여러 다양한 유형의 Power BI 계정이 있습니다.  Power BI Pro 계정은 월별 유료 구독입니다.  Power BI 무료 계정을 사용하면 Power BI Premium 용량에 호스트되는 콘텐츠를 볼 수 있습니다.  
+**계정** *라이선스* 또는 *구독*이라고도 하는 다른 유형의 Power BI 계정이 있습니다.  계정은 사용자 또는 조직 단위를 기준으로 합니다. 사용자 단위 계정은 *무료* 또는 *Pro*로 제공됩니다.  Power BI *평가판* 사용자는 독립 실행형 Power BI Desktop, 독립 실행형 Power BI 서비스 또는 프리미엄 조직 구독이 있는 조직 내에서 Power BI 서비스를 사용합니다. Power BI 사용자 단위 *Pro* 계정은 공동 작업 및 다른 *Pro* 사용자의 콘텐츠 공유를 허용하는 유료 월간 구독입니다. 
+
+조직 *프리미엄*(*프리미엄 용량*이라고도 함) 구독에는 사용자별 라이선스에 기반한 기능 계층이 추가됩니다. 예를 들어 *프리미엄* 구독이 있는 조직 내의 *평가판* 사용자별 계정 소유자는 Power BI를 사용하여 *프리미엄*이 없는 *평가판* 사용자보다 훨씬 더 많은 작업을 수행할 수 있습니다. 예를 들어 ‘프리미엄’ 조직 계정의 ‘무료’ 사용자는 동료와 협업하고 Power BI Premium 용량에서 호스트된 콘텐츠를 볼 수 있습니다.   
 
 **admin portal (관리자 포털)** Power BI 관리자가 조직에서 Power BI의 사용자, 기능 및 설정을 관리하는 위치입니다. (참고: Office 365, Azure 및 PowerApps는 관리 센터를 사용합니다.)
 
@@ -34,8 +36,7 @@ Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용
 
 **annotate (주석 달기)** iOS 및 Android 디바이스용 Power BI 모바일 앱에서 타일, 보고서 또는 시각화 개체의 스냅샷 사본에 줄, 텍스트 또는 스탬프를 쓰는 것입니다.
 
-**app, apps (앱)** 
-
+**app, apps**(앱) 대시보드, 보고서 및 데이터 세트의 번들입니다. iOS용 Power BI 앱과 같이 콘텐츠를 사용하는 모바일 앱을 의미하기도 합니다.
 
 **AppSource** 다운로드할 대시보드, 보고서, 데이터 세트 및 앱을 찾아보고 검색할 수 있는 중앙 집중식 온라인 리포지토리입니다.
 
@@ -170,6 +171,8 @@ Power BI 서비스의 왼쪽 가장자리를 따라 표시되는 컨트롤입니
 
 첫 번째 인스턴스: 탐색 창 이후 언급 시 또는 공간 부족 시: 탐색 창
 
+**라이선스** *계정*을 참조하세요.
+
 **list page (목록 페이지)** 또는 **콘텐츠 목록** 탐색 창 요소의 섹션 페이지 중 하나입니다. 예: 즐겨찾기, 최근 항목, 내 작업 영역 등
 
 ## <a name="m"></a>M
@@ -184,7 +187,7 @@ Power BI 서비스의 왼쪽 가장자리를 따라 표시되는 컨트롤입니
 
 ## <a name="n"></a>N
 
-**native (네이티브)** 제품에 포함되어 있습니다. 예를 들어, Power BI에는 ‘네이티브’ 시각화 요소 집합이 함께 제공됩니다.  그러나 사용자 지정 시각적 개체 등의 다른 유형을 가져올 수도 있습니다.
+**native (네이티브)** 제품에 포함되어 있습니다. 예를 들어, Power BI에는 ‘네이티브’ 시각화 요소 집합이 함께 제공됩니다.  그러나 Power BI 시각적 개체 등의 다른 유형을 가져올 수도 있습니다.
 
 **navigation pane (탐색 창)** 또는 **nav pane (탐색 창)** Power BI 서비스의 왼쪽 가장자리를 따라 표시되는 컨트롤입니다.
 
@@ -199,7 +202,7 @@ Power BI 서비스의 왼쪽 가장자리를 따라 표시되는 컨트롤입니
 
 **OneDrive for Business (비즈니스용 OneDrive)** 및 **OneDrive** OneDrive는 개인 계정이고 비즈니스용 OneDrive는 회사 계정입니다.  
 
-**On-premises (온-프레미스)** 로컬 컴퓨팅(컴퓨팅 리소스가 고객의 자체 시설에 위치한 환경)을 클라우드 컴퓨팅과 구분해 주는 용어입니다.
+**On-premises**(온-프레미스) 로컬 컴퓨팅(컴퓨팅 리소스가 고객의 자체 시설에 있는 환경)을 클라우드 컴퓨팅과 구분하는 데 사용되는 용어입니다.
 
 
 ## <a name="p"></a>P
@@ -222,19 +225,21 @@ Power BI 서비스의 왼쪽 가장자리를 따라 표시되는 컨트롤입니
 
 **Power BI**, **Power BI Desktop (Power BI 서비스)** , **Power BI Desktop**, **Power BI Mobile**, Power BI 제품 일부 *Power BI*는 일반적인 용어입니다. 대개 최초에 *Power BI 서비스* 및 *Power BI Mobile*과 같은 전체 제품 이름을 언급한 후에 Power BI를 사용합니다.
 
-**Power BI Desktop***Desktop*이라고도 합니다. 데이터를 연결, 변환 및 시각화할 수 있도록 로컬 컴퓨터에 설치할 수 있는 Power BI의 무료 Windows 애플리케이션입니다. 보고서 디자이너 및 관리자가 사용합니다. 자세한 내용은 [Power BI란?](../fundamentals/power-bi-overview.md)을 참조하세요.
+**Power BI Desktop** *Desktop*이라고도 합니다. 데이터를 연결, 변환 및 시각화할 수 있도록 로컬 컴퓨터에 설치할 수 있는 Power BI의 무료 Windows 애플리케이션입니다. 보고서 디자이너 및 관리자가 사용합니다. 자세한 내용은 [Power BI란?](../fundamentals/power-bi-overview.md)을 참조하세요.
 
 **Power BI Embedded** 개발자가 자체 앱, 사이트 및 도구에 Power BI 대시보드 및 보고서를 포함하는 데 사용하는 제품입니다.
 
-**Power BI Premium** 조직이 전용 하드웨어를 구매하여 예측 가능한 방식으로 BI 솔루션을 확장할 수 있도록 하는 Power BI Pro 라이선스의 추가 기능입니다.
+**Power BI Premium** 조직이 전용 하드웨어를 구매하여 예측 가능한 방식으로 BI 솔루션을 확장할 수 있도록 하는 Power BI Pro 라이선스의 추가 기능입니다. *계정*을 참조하세요.
 
-**Power BI Pro license (Power BI Pro 라이선스)** 대시보드를 빌드하고 작성하고, 공유 데이터로 공동 작업을 수행하고, 자동으로 데이터를 최신 상태로 유지하고, 데이터가 액세스 및 사용되는 방식을 감사 및 제어하는 기능과 배포할 콘텐츠를 패키지(Power BI 앱)로 만드는 기능을 제공하는 월별 사용자 라이선스입니다.
+**Power BI Pro** 보고서 및 대시보드를 빌드하고 작성하고, 공유 데이터로 공동 작업을 수행하고, 자동으로 데이터를 최신 상태로 유지하고, 데이터가 액세스 및 사용되는 방식을 감사 및 제어하는 기능과 배포할 콘텐츠를 패키지(Power BI 앱)로 만드는 기능을 제공하는 월별 사용자 단위 라이선스입니다. *계정*을 참조하세요.
 
 **Power BI Report Server** Power BI Premium과 함께 출시된 새로운 SSRS 브랜드 제품으로, 조직이 분산형 하이브리드 BI 시스템(클라우드 및 온-프레미스 배포 혼합)을 빌드할 수 있도록 합니다. Embedded는 Power BI 보고서를 저장하고 관리하는 현지화된 방법을 제공합니다.
 
 **Power BI service (Power BI 서비스)** 온라인 SaaS(Software as a Service) 서비스입니다. 자세한 내용은 [Power BI란?](../fundamentals/power-bi-overview.md)을 참조하세요.
 
 **Premium workspace (Premium 작업 영역)** 다이아몬드 아이콘을 통해 고객에게 표시되며, 전용 용량으로 실행되는 작업 영역입니다.  
+
+**Pro** 라이선스 또는 **Pro** 계정 *계정*을 참조하세요.
 
 **publish (게시)** Power BI 서비스 보고서 디자이너는 Power BI 작업 영역의 콘텐츠를 번들로 묶어 다른 사용자에게 Power BI 앱으로 제공합니다.  Power BI Desktop 보고서 디자이너는 보고서를 바탕으로 대시보드를 빌드하고 다른 사용자와 손쉽게 공유할 수 있도록 Power BI Desktop 보고서를 .pbix 형식으로 Power BI 서비스로 보내는 작업을 지칭할 때 ‘게시’라는 용어를 사용합니다.  
 

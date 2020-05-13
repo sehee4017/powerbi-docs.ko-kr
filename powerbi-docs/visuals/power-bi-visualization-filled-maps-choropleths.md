@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI의 등치 지역도(단계구분도)
 description: Power BI에서 등치 지역도(단계구분도)를 만드는 방법에 대한 설명서
 author: mihart
@@ -8,16 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/05/2019
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6a3458de09cece30948ff848859f05ed8127d034
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: ba344d66f967d502d9de8adef7defcae434fb3ef
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75757856"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82865463"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Power BI의 등치 지역도(단계구분도) 만들기 및 사용
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -55,15 +57,8 @@ Bing에 전송되는 데이터에 대한 자세한 내용 및 지오코딩 성�
 
 1. 새 페이지를 추가하기 위해 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
 
-
-## <a name="create-a-basic-filled-map"></a>기본 등치 지역도 만들기
-이 비디오에서 Kim은 기본 지도를 만들고 등치 지역도로 변환합니다.
-   > [!NOTE]
-   > 이 비디오에서는 이전 버전의 Power BI Desktop을 사용합니다.
-   > 
-   > 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ajTPGNpthcg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+> [!NOTE]
+> Power BI 동료와 보고서를 공유하려면 개별 Power BI Pro 라이선스가 있거나 보고서가 Premium 용량에 저장되어 있어야 합니다.    
 
 ### <a name="create-a-filled-map"></a>등치 지역도 만들기
 1. 필드 창에서 **Geo** \> **State** 필드를 선택합니다.    
@@ -79,7 +74,7 @@ Bing에 전송되는 데이터에 대한 자세한 내용 및 지오코딩 성�
    b.  **State**를 마우스로 가리키고 확장 펼침 버튼을 선택합니다.  
    ![상태(모두)를 보여주는 시각적 수준 필터](media/power-bi-visualization-filled-maps-choropleths/img004.png)
 
-   c. **모두** 옆의 확인 표시를 표시하고 **AK** 옆에 있는 확인 표시를 제거합니다.
+   c.  **모두** 옆의 확인 표시를 표시하고 **AK** 옆에 있는 확인 표시를 제거합니다.
 
    ![모두 및 AK를 선택하지 않은 상태 드롭다운](media/power-bi-visualization-filled-maps-choropleths/img005.png)
 4. 페인트 롤러 아이콘을 선택하여 서식 창을 열고 **데이터 색**을 선택합니다.
@@ -130,7 +125,7 @@ Power BI를 사용하면 등치 지역도의 모양을 다양한 방식으로 �
 
 Power BI Desktop의 데이터 세트를 편집할 수 있는 권한이 있는 경우 지도 모호성 해결을 위해 이 비디오를 시청하세요.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Co2z9b-s_yM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+> [비디오 https://www.youtube.com/embed/Co2z9b-s_yM ]
 
 위도 및 경도 데이터에 액세스할 수 없지만 데이터 세트에 대한 편집 액세스 권한이 있는 경우 [이 지침을 따라 데이터 세트를 업데이트하세요](https://support.office.com/article/Maps-in-Power-View-8A9B2AF3-A055-4131-A327-85CC835271F7).
 

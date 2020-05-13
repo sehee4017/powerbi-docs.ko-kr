@@ -9,11 +9,11 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: 6c79673e9d4b7edc95bdfe0373bb8a47d9fe587b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880087"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79380689"
 ---
 # <a name="fetch-more-data-from-power-bi"></a>Power BI에서 더 많은 데이터 가져오기
 

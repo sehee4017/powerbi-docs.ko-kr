@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/03/2019
-ms.openlocfilehash: 2a95f8afce2762b82e73741563a29fa22b433d36
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 02/13/2020
+ms.openlocfilehash: dfb57d6344e6a8e020404f9cd23c957967b960f7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874108"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "81122251"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Report Server에 최적화된 Power BI Desktop 설치
 
@@ -62,7 +62,7 @@ Power BI Report Server 내에서 Power BI 보고서를 편집하거나 웹 포�
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 
-Power BI Report Server, Power BI 서비스(https://app.powerbi.com) ) 및 Power BI 모바일 앱의 Power BI 보고서는 거의 동일한 역할을 담당하지만 몇 가지 다른 기능이 있습니다.
+Power BI Report Server, Power BI 서비스(`https://app.powerbi.com`) 및 Power BI 모바일 앱의 Power BI 보고서는 거의 동일한 역할을 담당하지만 몇 가지 다른 기능이 있습니다.
 
 ### <a name="selecting-a-language"></a>언어 선택
 
@@ -70,7 +70,7 @@ Power BI Report Server에 최적화된 Power BI Desktop의 경우 앱을 설치�
 
 ### <a name="report-visuals-in-a-browser"></a>브라우저의 보고서 시각적 개체
 
-Power BI Report Server 보고서는 사용자 지정 시각적 개체를 비롯한 대부분의 시각화를 지원합니다. Power BI Report Server 보고서는 다음 항목을 지원하지 않습니다.
+Power BI Report Server 보고서는 Power BI 시각적 개체를 비롯한 대부분의 시각화를 지원합니다. Power BI Report Server 보고서는 다음 항목을 지원하지 않습니다.
 
 * R 시각적 개체
 * ArcGIS 맵
@@ -89,15 +89,23 @@ Power BI Report Server 보고서는 Power BI 모바일 앱에서 다음과 같�
 
 * R 시각적 개체
 * ArcGIS 맵
-* 사용자 지정 시각적 개체
+* Power BI 시각적 개체
 * 현재 위치
 * 지역 필터링 또는 막대 코드
+
+### <a name="custom-security"></a>사용자 지정 보안
+
+Power BI Report Server에 최적화된 Power BI Desktop은 사용자 지정 보안을 지원하지 않습니다. Power BI Report Server가 사용자 지정 보안 확장 프로그램을 사용하여 구성된 경우에는 Power BI Desktop(Power BI Report Server에 최적화됨)에서 Power BI Report Server 인스턴스로 Power BI 보고서를 저장할 수 없습니다. Power BI Desktop에서 .pbix 보고서 파일을 저장하고 Power BI Report Server 포털 사이트에 업로드해야 합니다.
+
+### <a name="saving-reports-to-a-power-bi-report-server-in-a-different-domain"></a>다른 도메인의 Power BI Report Server에 보고서 저장
+
+Power BI 보고서를 Power BI Report Server에 저장하는 경우 Windows 자격 증명이 사용됩니다. Windows 자격 증명과 다른 도메인에 있는 보고서 서버에 직접 저장할 수는 없습니다. 웹 브라우저를 사용하여 보고서 서버를 확인한 다음, 사용자 머신에서 파일을 수동으로 업로드할 수도 있습니다.
 
 ## <a name="power-bi-desktop-for-earlier-versions-of-power-bi-report-server"></a>이전 버전의 Power BI Report Server에 대한 Power BI Desktop
 
 보고서 서버가 이전 버전이면 해당 버전의 Power BI Desktop이 필요합니다. 다음은 이전 버전을 다운로드하기 위한 링크입니다.
 
-- Microsoft Power BI Desktop([Power BI Report Server에 최적화됨 - 2019년 1월](https://go.microsoft.com/fwlink/?linkid=2055039))
+- Microsoft Power BI Desktop([Power BI Report Server에 최적화됨 - 2019년 9월](https://go.microsoft.com/fwlink/?linkid=2103723))
 
 ## <a name="next-steps"></a>다음 단계
 

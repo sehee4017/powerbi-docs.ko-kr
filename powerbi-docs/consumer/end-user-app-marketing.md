@@ -6,24 +6,25 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/02/2019
+ms.date: 02/19/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: e15c19402c032d84c77f1e6e61e7afb6b49856fb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 65584772a60be1a784828226fbac48458ded7be8
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851149"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "77496860"
 ---
 # <a name="install-and-use-the-sample-sales-and-marketing-app-in-the-power-bi-service"></a>Power BI 서비스에서 샘플 영업 및 마케팅 앱 설치 및 사용
 
-[Power BI 콘텐츠를 가져오는 방법을 기본적으로 이해](end-user-app-view.md)했으므로 이제 Microsoft AppSource(appsource.com)에서 영업 및 마케팅 앱을 다운로드해 보겠습니다.
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
+[Power BI 콘텐츠를 가져오는 방법을 기본적으로 이해](end-user-app-view.md)했으므로 이제 Microsoft AppSource(appsource.com)에서 영업 및 마케팅 앱을 다운로드해 보겠습니다. 
 
 
 ## <a name="microsoft-appsource-appsourcecom"></a>Microsoft AppSource(appsource.com)
-앱 링크는 [영업 및 마케팅 앱](https://appsource.microsoft.com/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample?tab=Overview)입니다. 이 링크를 선택하면 Microsoft AppSource에서 이 앱의 다운로드 페이지가 열립니다. 
+앱 링크는 [마케팅 및 영업 앱](https://appsource.microsoft.com/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample?tab=Overview)입니다. 이 링크를 선택하면 Microsoft AppSource에서 이 앱의 다운로드 페이지가 열립니다. 
 
 1. 앱을 다운로드하려면 로그인하라는 메시지가 표시될 수 있습니다. Power BI에 사용하는 것과 동일한 메일 주소로 로그인합니다. 
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 48942b30b84706c933ccef455129c84a67ac5a1b
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: d5599db57ef7b105575dcb7ee4b4342f374624f0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76040370"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "78290590"
 ---
 # <a name="use-report-page-drillthrough"></a>보고서 페이지 드릴스루 사용
 
@@ -70,5 +70,5 @@ ms.locfileid: "76040370"
 이 문서와 관련된 보다 자세한 내용을 알아보려면 다음 리소스를 참조하세요.
 
 - [Power BI Desktop에서 드릴스루 사용](../desktop-drillthrough.md)
-- Guy in a cube 비디오: [Drilling into drillthrough in Power BI Desktop](https://www.youtube.com/watch?v=2x9lLHDbtDk)(Power BI Desktop의 드릴스루 살펴보기)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+- 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com/)

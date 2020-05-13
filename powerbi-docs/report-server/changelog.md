@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/27/2020
-ms.openlocfilehash: 993d83e15eafa0e40938eee13cbeabec75389f47
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.date: 04/08/2020
+ms.openlocfilehash: abe0b97a4c4f593f8bb22be8b72c12295d0f656c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819540"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "81006460"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI Report Server에 대한 변경 로그
 
@@ -24,6 +24,14 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
 
 ## <a name="january-2020"></a>2020년 1월
 - **Power BI Report Server**
+    - *‘버전: 1.6.7364.4075(빌드 15.0.1102.777), 릴리스 날짜: 2020년 3월 2일*
+         - 버그 픽스
+           -  특정 데이터 원본에 대해 업로드하지 못하는 Power BI 보고서를 수정
+           -  포털의 Power BI Report Server Desktop 링크 다운로드 위치를 수정
+           -  Excel 렌더링을 위한 DynamicImageDPI를 수정
+           -  특정 다중 사용자 시나리오에서 잘못된 스레드 문화권을 사용하는 Oracle 연결 수정(자세한 내용은 [UseInstalledUICulture 설명서](https://docs.microsoft.com/power-bi/report-server/connect-data-sources) 참조)
+           -  보고서 포함 오류를 발생시키는 CustomHeaders 기본값을 수정
+           -  특정 경우에 잘못 생성되는 SQL 매개 변수 이름을 수정
     - *‘버전: 1.6.7327.3007(빌드 15.0.1102.759), 릴리스 날짜: 2020년 1월 23일*
          - 기능
             -  Power BI 보고서에서 Excel로 내보내기.
@@ -192,7 +200,7 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
         - 기능
             - SAP HANA SSO 직접 쿼리는 Power BI 보고서에 대해 지금 사용할 수 있는 Kerberos에서 지원됩니다.
             - 릴리스 버전 1.13.0에서 사용자 지정 시각적 개체 API
-            - 사용자 지정 시각적 개체는 현재 버전(있는 경우)의 서버 API와 호환 가능한 이전 버전으로 대체합니다.
+            - Power BI 시각적 개체는 현재 버전(있는 경우)의 서버 API와 호환 가능한 이전 버전으로 대체합니다.
 
 - **Power BI Desktop(Power BI Report Server에 최적화됨)**
     - *‘버전: 2.61.5192.641(2018년 8월), 릴리스 날짜: 2018년 8월 15일’*
@@ -314,7 +322,7 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
             - Power BI 보고서에서 보고서를 실행한 사용자 대신 `{{UserId}}` 태그가 저장된 자격 증명으로 확인됩니다.
             - Power BI Server 보고서에서 일부 이미지가 렌더링되지 않습니다.
             - Power BI 보고서 서버에서 Power BI 보고서의 이름을 변경할 수 없습니다.
-            - Power BI 모바일 애플리케이션에서 사용자 지정 시각적 개체를 로드할 수 없습니다(로컬 캐시 정리를 위해 모바일 앱을 다시 설치해야 함).
+            - Power BI 모바일 애플리케이션에서 Power BI 시각적 개체를 로드할 수 없습니다(로컬 캐시 정리를 위해 모바일 앱을 다시 설치해야 함).
 
     - *‘빌드 14.0.600.271, 릴리스 날짜: 2017년 6월 12일’*
         - Power BI Report Server 초기 릴리스

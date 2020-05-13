@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/08/2019
+ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: e3bfdf7fd53e71a4582a1f3e3ba08f55f2e9a290
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: c766393c9a4c81c484afe6f934e1ebb8314d0fb9
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220351"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "77426636"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>iOS 디바이스에서 Power BI 모바일 앱 시작
 iPhone 및 iPad의 iOS용 Microsoft Power BI 앱은 Power BI, Power BI Report Server 및 Reporting Services의 모바일 BI 환경을 제공합니다. 실시간 터치 가능한 모바일 액세스를 사용하여 어디에서나 온-프레미스 및 클라우드에 있는 회사 대시보드를 쉽게 보고 상호작용할 수 있습니다. 대시보드의 데이터를 살펴보고 메일 또는 문자 메시지로 동료와 공유합니다. 그리고 [Apple Watch](mobile-apple-watch.md)에서 가장 시기 적절한 데이터를 최신 상태로 유지합니다.  
@@ -32,7 +32,7 @@ Power BI Desktop에서 Power BI 보고서를 만들고 게시합니다.
 ## <a name="download-the-app"></a>앱 다운로드
 Apple App Store에서 iPhone 또는 iPad로 [iOS 앱을 다운로드](https://go.microsoft.com/fwlink/?LinkId=522062 "iOS 앱 다운로드")합니다.
 
-iOS 11 이상을 실행하는 모든 디바이스에서 iOS용 Power BI 앱을 실행할 수 있습니다. 
+iOS 11 이상을 실행하는 모든 디바이스에서 iOS용 Power BI 모바일 앱을 실행할 수 있습니다. 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Power BI 서비스에 등록
 등록하지 않은 경우 [powerbi.com](https://powerbi.microsoft.com/get-started/)으로 이동하여 **Power BI - 클라우드 협업 및 공유**에서 **무료 체험**을 선택합니다.
@@ -40,12 +40,12 @@ iOS 11 이상을 실행하는 모든 디바이스에서 iOS용 Power BI 앱을 �
 
 ## <a name="get-started-with-the-power-bi-app"></a>Power BI 앱 시작
 1. iOS 디바이스에서 Power BI 앱을 엽니다.
-2. Power BI 대시보드를 보려면 **Power BI**를 누릅니다.  
-   Reporting Services 모바일 보고서와 KPI를 보려면 **Report Server**를 탭합니다.
+2. Power BI에 로그인하려면 **Power BI** 탭을 탭하여 로그인 세부 정보를 입력합니다.  
+   Reporting Services 모바일 보고서와 KPI에 로그인하려면 **보고서 서버** 탭을 탭하여 로그인 세부 정보를 입력합니다.
    
    ![Power BI 모바일 앱에 로그인](./media/mobile-iphone-app-get-started/power-bi-connect-to-login.png)
    
-   앱을 사용 중이면 화면의 왼쪽 위에 있는 계정 프로필 이미지를 탭하여 둘 간에 전환합니다. 
+   앱을 사용 중이면 화면의 왼쪽 위에 있는 계정 프로필 이미지를 탭하여 Power BI와 보고서 서버 간에 전환합니다. 
 
 ## <a name="try-the-power-bi-and-reporting-services-samples"></a>Power BI 및 Reporting Services 샘플 시도
 등록하지 않고도 Power BI 및 Reporting Services 샘플을 보고 조작할 수 있습니다.

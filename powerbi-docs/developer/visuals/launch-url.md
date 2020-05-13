@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 7fe802c2dbc225c07f3cf53481f078ff1399004e
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 7e398354ab069bb02554c94312909c0ed835d027
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74060422"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79379782"
 ---
 # <a name="create-a-launch-url"></a>시작 URL 만들기
 
@@ -43,7 +43,7 @@ export class Visual implements IVisual {
 }
 ```
 
-## <a name="usage"></a>사용
+## <a name="usage"></a>사용량
 
 `host.launchUrl()` API 호출을 사용하고 대상 URL을 문자열 인수로 전달합니다.
 
@@ -145,7 +145,7 @@ private createHelpLinkElement(): Element {
     }
 ```
 
-![시작 URL 토글](./media/launchurl-toggle.png)
+![시작 URL 토글](media/launch-url/launchurl-toggle.png)
 
 또한 시각적 개체의 `update` 함수에 다음 줄이 추가되었습니다.
 

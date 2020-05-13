@@ -7,14 +7,14 @@ manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: e87235232860897765ef95bf0ec865410adf8fd1
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.openlocfilehash: 531da1ede8b83af9fb8093a3178c945f374b835c
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819494"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79379393"
 ---
 # <a name="chart-utils"></a>차트 유틸리티
 
@@ -681,7 +681,7 @@ let formattedValue = formatter.format(value);
 
 ## <a name="legend-service"></a>Legend 서비스
 
-`Legend` 서비스는 사용자 지정 시각적 개체의 PBI 범례를 만들고 관리하기 위한 도우미 인터페이스를 제공합니다.
+`Legend` 서비스는 Power BI 시각적 개체의 PBI 범례를 만들고 관리하기 위한 도우미 인터페이스를 제공합니다.
 
 이 모듈은 다음과 같은 함수와 인터페이스를 제공합니다.
 

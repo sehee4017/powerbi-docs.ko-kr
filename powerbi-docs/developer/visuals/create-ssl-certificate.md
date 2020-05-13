@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: tutorial
+ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 224b6db8fa04a471a1ce7d1fff2b34a838d6fb9d
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: fab40863d7beae4892a56975aa5e92c4fe5486ac
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74060345"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79380275"
 ---
 # <a name="create-an-ssl-certificate"></a>SSL 인증서 만들기
 

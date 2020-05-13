@@ -7,18 +7,18 @@ manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 79ad33a632a1f4935f462bcde0d36f2ccc55a2bd
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.openlocfilehash: 80c53b183f37dc09ee83ff20bd97f944bdcbc9b4
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76818988"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79379332"
 ---
 # <a name="dataviewutils"></a>DataViewUtils
 
-`DataViewUtils`는 Power BI 사용자 지정 시각적 개체의 DataView 개체 구문 분석을 간소화하는 함수 및 클래스 세트입니다.
+`DataViewUtils`는 Power BI 시각적 개체의 DataView 개체 구문 분석을 간소화하는 함수 및 클래스 세트입니다.
 
 ## <a name="installation"></a>설치
 

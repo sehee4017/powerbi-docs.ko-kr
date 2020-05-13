@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 19714db2d1307ac9d7eb8861955870ba9988539e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 97242883fe90c8f5e115818a24e4bb1c49f69b77
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880317"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79380564"
 ---
 # <a name="advanced-edit-mode-in-power-bi-visuals"></a>Power BI 시각적 개체의 고급 편집 모드
 
@@ -39,7 +39,7 @@ Power BI 시각적 개체에서 고급 UI 컨트롤이 필요한 경우 고급 �
 
 *capabilities.json*에 `advancedEditModeSupport` 속성이 없거나 `NotSupported`로 설정된 경우에는 **편집** 단추가 표시되지 않습니다.
 
-![편집 모드 시작](./media/edit-mode.png)
+![편집 모드 시작](media/advanced-edit-mode/edit-mode.png)
 
 **편집**을 선택하면, 시각적 개체는 EditMode가 `Advanced`로 설정된 update() 호출을 가져옵니다. *capabilities.json* 파일에 설정된 값에 따라 다음 작업이 수행됩니다.
 

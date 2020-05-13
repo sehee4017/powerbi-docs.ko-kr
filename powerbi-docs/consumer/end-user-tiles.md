@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/18/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 92c473b5df6c21509ba32e41d88dd43c265fa3a0
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 0481a09aaeac4f6c76c49d3a816ac880cdb9d60b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73861406"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79114063"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI의 대시보드 타일
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -32,7 +34,7 @@ Power BI의 구성 요소를 이해하는 데 도움이 필요한 경우  [Power
 
 ## <a name="interacting-with-tiles-on-a-dashboard"></a>대시보드에서 타일 조작
 
-1. 타일을 가리켜서 줄임표를 표시합니다.
+1. 타일을 가리켜서 줄임표을 표시합니다.
    
     ![타일 줄임표](./media/end-user-tiles/ellipses_new.png)
 2. 줄임표를 선택하여 타일 동작 메뉴를 엽니다. 타일을 만드는 데 사용되는 시각적 개체 유형과 메서드에 따라 다른 옵션이 제공됩니다. 사용자에게 표시되는 옵션의 몇 가지 예는 다음과 같습니다.

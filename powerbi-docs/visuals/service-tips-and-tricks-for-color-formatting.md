@@ -10,20 +10,20 @@ ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 0b633f2482c5b9f1624f39e4f2c0e07afc55353f
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76895021"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Power BI의 색 서식을 위한 팁과 힌트
 Power BI는 대시보드 및 보고서를 사용자 지정할 수 있는 다양한 방법을 제공합니다. 이 아티클에서는 사용자의 요구에 맞게 Power BI를 보다 매력적이고 흥미롭게 시각화하고 사용자 지정할 수 있는 팁 모음에 대해 자세히 다룹니다.
 
-다음 팁을 제공합니다. 다른 유용한 팁이 있나요? 좋습니다! 팁을 보내주시면 이 목록에 추가하는 것을 고려해 보겠습니다.
+다음 팁을 제공합니다. 다른 유용한 팁이 있나요? 잘 했습니다! 팁을 보내주시면 이 목록에 추가하는 것을 고려해 보겠습니다.
 
 * 전체 보고서에 테마 적용
 * 단일 데이터 요소 색 변경
-* 조건부 서식 지정
+* 조건부 서식
 * 숫자 값 기준 차트 색
 * 필드 값 기준 데이터 요소 색
 * 색 눈금에 사용되는 색 사용자 지정

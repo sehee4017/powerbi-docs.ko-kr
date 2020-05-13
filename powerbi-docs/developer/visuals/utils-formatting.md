@@ -7,14 +7,14 @@ ms.reviewer: rkarlin
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 9ae7e4b976cef2217c3742ef808a9a7063695cbc
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: dc2d036ab1e3e3dab551269163ced2f066a71626
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819471"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79378027"
 ---
 # <a name="formatting-utils"></a>유틸리티 서식 지정
 
@@ -402,7 +402,7 @@ stringExtensions.startsWith("Power BI", "Power");
 // returns: true
 ```
 
-### <a name="contains"></a>포함
+### <a name="contains"></a>contains
 
 이 함수는 문자열이 지정된 substring을 포함하는지 확인합니다.
 

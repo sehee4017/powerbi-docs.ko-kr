@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 184aeb1f26e54bb8b8935f2f06ec6cad2e282ecf
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 4870fac504f36600c13af49c5798d896eeb59261
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537915"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79113159"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Power BI에서 지원되는 정보의 유형
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 Power BI에 데이터를 살펴보고 흥미로운 추세 및 패턴을 찾도록 요청할 수 있습니다. 찾은 추세 및 패턴은 *인사이트*라는 시각적 개체 형식으로 제공됩니다. 
 
@@ -49,13 +51,13 @@ Power BI가 사용하는 알고리즘입니다.
 
 ![시계열의 변경 지점 예제](./media/end-user-insight-types/pbi-auto-insight-types-changepoint.png)
 
-### <a name="correlation"></a>상관 관계
+### <a name="correlation"></a>Correlation
 데이터 세트에 범주 또는 값에 대해 여러 측정값이 유사한 패턴이나 추세를 표시하는 경우를 검색합니다.
 
 ![상관 관계 예제](./media/end-user-insight-types/pbi-auto-insight-types-correlation.png)
 
 ### <a name="low-variance"></a>하위 분산
-데이터 요소가 평균에 크게 못 미치는 사례를 검색합니다.
+차원의 데이터 포인트가 평균에서 멀지 않아 "분산"이 낮은 경우를 검색합니다. "판매"라는 측정값과 "지역" 차원이 있다고 가정해 보겠습니다. 지역을 살펴보면 데이터 포인트와 (데이터 포인트의) 평균 간에 차이가 거의 없음을 알 수 있습니다. 이 인사이트는 모든 지역에서 판매의 분산이 임계값보다 낮은 경우 트리거됩니다. 다시 말해 판매가 모든 지역에서 상당히 비슷한 경우에 트리거됩니다.
 
 ![하위 분산 예제](./media/end-user-insight-types/power-bi-low-variance.png)
 
@@ -75,7 +77,9 @@ Power BI가 사용하는 알고리즘입니다.
 ![계절성 예제](./media/end-user-insight-types/pbi-auto-insight-types-seasonality-new.png)
 
 ### <a name="steady-share"></a>안정적 지분
-연속 변수에서 부모의 전체 값과 자식 값의 지분 간에 부모-자식 상관 관계가 있는 경우를 강조 표시합니다.
+연속 변수에서 부모의 전체 값과 자식 값의 지분 간에 부모-자식 상관 관계가 있는 경우를 강조 표시합니다. 안정적 지분 인사이트는 측정값, 차원 및 다른 날짜/시간 차원의 컨텍스트에 적용됩니다. 이 인사이트는 특정 차원 값(예: “북동부 지역”)이 해당 날짜/시간 차원에서 전체 판매 중 안정적 비율을 차지하는 경우 트리거됩니다.
+
+안정적 지분 인사이트와 하위 분산 인사이트는 둘 다 시간에 따른 값 분산의 부족과 관련이 있으므로 비슷합니다. 하지만 안정적 지분 인사이트는 시간에 따른 **전체 비율**의 분산 부족을 측정하는 반면 하위 분산 인사이트는 차원에서의 절대적 측정값 분산 부족을 측정합니다.
 
 ![안정적 지분 예제](./media/end-user-insight-types/pbi-auto-insight-types-steadyshare.png)
 

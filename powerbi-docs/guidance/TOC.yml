@@ -7,6 +7,8 @@
       items:
         - name: 개요
           href: overview.md
+        - name: Power BI 최적화 가이드
+          href: power-bi-optimization.md
     - name: 개념
       expanded: true
       items:
@@ -19,7 +21,7 @@
             - name: 파워 쿼리 백그라운드 새로 고침 사용 안 함
               href: power-query-background-refresh.md
             - name: 데이터 흐름에 관한 모범 사례
-              href: ../service-dataflows-best-practices.md
+              href: ../transform-model/service-dataflows-best-practices.md
         - name: 데이터 모델링
           items:
             - name: 별모양 스키마란?
@@ -28,8 +30,16 @@
               href: import-modeling-data-reduction.md
             - name: 자동 날짜/시간 지침
               href: auto-date-time.md
-            - name: 다 대 다 관계 지침
+            - name: 일대일 관계
+              href: relationships-one-to-one.md
+            - name: 다대다 관계
               href: relationships-many-to-many.md
+            - name: 활성 및 비활성 관계
+              href: relationships-active-inactive.md
+            - name: 양방향 관계
+              href: relationships-bidirectional-filtering.md
+            - name: 관계 문제 해결
+              href: relationships-troubleshoot.md
             - name: DirectQuery 모델 지침
               href: directquery-model-guidance.md
             - name: 복합 모델 지침
@@ -52,29 +62,61 @@
               href: dax-column-measure-references.md
             - name: FILTER를 필터 인수로 사용하지 마세요.
               href: dax-avoid-avoid-filter-as-filter-argument.md
+        - name: Power BI 보고서
+          items:
+            - name: 모델에서 보고서 분리
+              href: report-separate-from-model.md
             - name: 보고서 페이지 도구 설명을 사용하여 시각적 개체 확장
               href: report-page-tooltips.md
             - name: 보고서 페이지 드릴스루 사용
               href: report-drillthrough.md
-            - name: Power BI의 페이지를 매긴 보고서가 필요한 경우
+            - name: 축 관리 팁
+              href: report-design-tips-axes.md
+            - name: 차트 눈금선 제어 팁
+              href: report-tips-chart-gridlines.md
+            - name: 레이블 사용 최적화 팁
+              href: report-tips-labels.md
+            - name: 범례 서식 지정 및 구현 팁
+              href: report-tips-legends.md
+            - name: 시각적 개체 색 최적화 팁
+              href: report-tips-visual-colors.md
+            - name: 시각적 개체 색 최적화 팁
+              href: report-tips-visual-colors.md
+            - name: 데이터 플롯 정렬 및 배포 팁
+              href: report-tips-sort-distribute-data-plots.md
+            - name: '셰이프, 이미지 및 아이콘을 활용한 작업 팁'
+              href: report-tips-shapes-images-icons.md
+        - name: Power BI 페이지를 매긴 보고서
+          items:
+            - name: 페이지를 매긴 보고서를 사용하는 경우
               href: report-paginated-or-power-bi.md
-            - name: 페이지를 매긴 보고서에서 연계 매개 변수 사용
+            - name: 데이터 검색 지침
+              href: report-paginated-data-retrieval.md
+            - name: 이미지 사용 지침
+              href: report-paginated-image.md
+            - name: 연계 매개 변수 사용
               href: paginated-report-cascading-parameter.md
-            - name: 페이지를 매긴 보고서를 인쇄할 때 빈 페이지 방지
+            - name: 인쇄할 때 빈 페이지 방지
               href: report-paginated-blank-page.md
             - name: SSRS 보고서를 Power BI로 마이그레이션
               href: migrate-ssrs-reports-to-power-bi.md
         - name: 관리 및 배포
           items:
+            - name: 테넌트 관리 설정
+              href: admin-tenant-settings.md
             - name: 온-프레미스 데이터 게이트웨이 크기 조정
               href: gateway-onprem-sizing.md
+            - name: 보고서 성능 모니터링
+              href: monitor-report-performance.md
+            - name: 보고서 성능 문제 해결
+              href: report-performance-troubleshoot.md
     - name: 백서
       items:
         - name: 백서 개요
-          href: ../whitepapers.md
+          href: whitepapers.md
         - name: Power BI 보안 백서
-          href: ../whitepaper-powerbi-security.md
+          href: whitepaper-powerbi-security.md
         - name: Power BI Premium 배포
-          href: ../whitepaper-powerbi-premium-deployment.md
+          href: whitepaper-powerbi-premium-deployment.md
         - name: Azure Active Directory B2B를 사용하여 외부에서 Power BI 배포
-          href: ../whitepaper-azure-b2b-power-bi.md
+          href: whitepaper-azure-b2b-power-bi.md

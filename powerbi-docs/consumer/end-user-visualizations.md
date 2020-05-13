@@ -9,14 +9,16 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c182639e97bcaf272c656d2ee2e002e7470efc40
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: 1aaacfae3c9af4517f6b028852e46059884dd3d5
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76888527"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79113851"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>보고서, 대시보드 및 앱에서 시각적 개체 조작
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 가장 기본적으로 ***시각화***(또는 ‘시각적 개체’)는 보고서 및 데이터 세트의 데이터를 사용하여 Power BI ‘디자이너’에 의해 빌드된 차트 유형입니다.   
 
@@ -25,7 +27,7 @@ ms.locfileid: "76888527"
 ![타일이 있는 대시보드](media/end-user-visualizations/power-bi-dashboard.png)
 
 > [!TIP]
-> 이러한 세부 콘텐츠를 읽기 전에 개요 항목인 ‘소비자’에 대한 [Power BI 기본 개념](end-user-basic-concepts.md)을 읽는 것이 좋습니다. 
+> 이러한 세부 콘텐츠를 읽기 전에 개요 항목인 ‘소비자’에 대한 [Power BI 기본 개념*을 읽는 것이 좋습니다.* ](end-user-basic-concepts.md)
 
 ## <a name="what-can-i-do-with-visuals"></a>시각적 개체로 수행할 수 있는 작업은 무엇인가요?
 
@@ -49,7 +51,7 @@ ms.locfileid: "76888527"
 |[질문 및 답변에서 시각적 개체를 열고 검색합니다(*디자이너*가 질문 및 답변을 사용하여 시각적 개체를 만든 경우)](end-user-q-and-a.md).     |   예      |   해당 없음      |  해당 없음  |
 |[질문 및 답변에서 시각적 개체를 만듭니다(검색을 위해 저장할 수 없음)](end-user-q-and-a.md).     |   예      |   디자이너가 보고서에 질문 및 답변을 추가한 경우      |  예  |
 |[Power BI에 시각적 개체의 데이터에서 관심 있는 팩트나 추세를 찾도록 요청합니다](end-user-insights.md).  자동으로 생성되는 시각적 개체를 *인사이트*라고 합니다.     |    예(타일의 경우)    |  아니요       | 아니요   |
-|[‘포커스’ 모드를 사용하여 한 번에 하나의 시각적 개체만 표시합니다](end-user-focus.md).      | 예(타일의 경우)        |   예(시각적 개체의 경우)      | 해당 없음  |
+|[‘포커스’ 모드를 사용하여 한 번에 하나의 시각적 개체만 표시합니다 *.* ](end-user-focus.md)     | 예(타일의 경우)        |   예(시각적 개체의 경우)      | 해당 없음  |
 |[마지막으로 시각적 개체를 새로 고친 시간을 검색합니다](end-user-fresh.md).     |  예       |    예     | 해당 없음  |
 |[*전체 화면* 모드를 사용하여 테두리 또는 탐색 창 없이 한 번에 하나의 시각적 개체만 표시합니다](end-user-focus.md).     |   예      |  예       | 기본적으로  |
 |[인쇄](end-user-print.md)합니다.     |  예       |   예      | 아니요  |

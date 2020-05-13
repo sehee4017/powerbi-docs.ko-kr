@@ -1,0 +1,59 @@
+### YamlMime:Landing
+title: Power BI 시각적 개체 설명서
+summary: 사용자, 사용자 조직 또는 전체 Power BI 커뮤니티에서 사용할 고유한 Power BI 시각적 개체를 개발하세요. 설명서에 필요한 정보가 있습니다.
+metadata:
+  title: Power BI 시각적 개체 설명서
+  description: 사용자, 사용자 조직 또는 전체 Power BI 커뮤니티에서 사용할 고유한 Power BI 시각적 개체를 개발하세요. 설명서에 필요한 정보가 있습니다.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-developer
+  ms.topic: landing-page
+  ms.collection: collection
+  author: KesemSharabi
+  ms.author: kesharab
+  ms.date: 31/03/2020
+  ms.openlocfilehash: d68b08f941ebe04c41e29f1260332e6f2b0d332c
+  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.translationtype: HT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 05/05/2020
+  ms.locfileid: "80516241"
+landingContent:
+- title: 시작
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: Power BI의 시각적 개체
+      url: power-bi-custom-visuals.md
+    - text: Power BI 시각적 개체 프로젝트 구조
+      url: visual-project-structure.md
+    - text: 질문과 대답
+      url: power-bi-custom-visuals-faq.md
+- title: Power BI의 시각적 개체 개발
+  linkLists:
+  - linkListType: tutorial
+    links:
+    - text: '자습서:  Power BI의 시각적 개체 개발'
+      url: custom-visual-develop-tutorial.md
+    - text: '자습서:  Power BI 시각적 개체에 서식 옵션 추가'
+      url: custom-visual-develop-tutorial-format-options.md
+  - linkListType: concept
+    links:
+    - text: Power BI 시각적 개체에 대한 지침
+      url: guidelines-powerbi-visuals.md
+- title: Power BI 시각적 개체 게시
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 파트너 센터에 Power BI 시각적 개체 게시
+      url: office-store.md
+    - text: Power BI 시각적 개체 인증받기
+      url: power-bi-custom-visuals-certified.md
+- title: 참조 및 리소스
+  linkLists:
+  - linkListType: reference
+    links:
+    - text: Power BI 시각적 개체 샘플
+      url: https://microsoft.github.io/PowerBI-visuals/samples/
+    - text: Git 리포지토리
+      url: https://github.com/Microsoft/PowerBI-visuals

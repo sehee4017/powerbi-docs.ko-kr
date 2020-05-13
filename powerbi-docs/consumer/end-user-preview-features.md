@@ -1,4 +1,4 @@
----
+﻿---
 title: 미리 보기 기능에 옵트인
 description: 미리 보기에 있는 Power BI 기능을 설정/해제하는 방법
 author: mihart
@@ -7,17 +7,20 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/17/2020
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: ad7e2133d531abcbb2165dc2be9846a6a70f4fc0
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 1ce2445e0b2d92551a5554f32dc3b9e2a751e7b6
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537432"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79113538"
 ---
 # <a name="opt-in-for-power-bi-service-preview-features"></a>Power BI 서비스 미리 보기 기능에 옵트인
+
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
+
 ## <a name="what-are-preview-features"></a>*미리 보기 기능* 이란?
 Power BI 서비스를 개선하면서 *미리 보기 기능*으로 몇 가지 새로운 기능을 출시할 예정입니다. 이제 미리 보기 기능을 설정하거나 해제할 수 있으므로 이를 시험해 볼 수 있습니다.
 
@@ -30,7 +33,7 @@ Power BI 서비스를 개선하면서 *미리 보기 기능*으로 몇 가지 �
 ## <a name="find-previews-and-turn-them-on-and-off"></a>미리 보기를 찾아 설정(및 해제)
 1. Power BI 화면의 오른쪽 위에 있는 기어 아이콘을 선택하고 **설정**을 선택하여 [설정] 메뉴를 엽니다.
    
-   ![설정 메뉴](./media/end-user-preview-features/power-bi-settings.png)
+   ![설정 메뉴](./media/end-user-preview-features/power-bi-settings.png).
 2. **일반** 탭을 선택합니다. 미리 보기가 있을 경우 **미리 보기 기능**에 대한 옵션이 표시되거나 왼쪽에 미리 보기 기능이 표시될 것입니다.  이 예에서는 ArcGIS 지도에 대한 미리 보기가 있습니다. 
    
    ![일반 탭](./media/end-user-preview-features/power-bi-preview-esri.png)

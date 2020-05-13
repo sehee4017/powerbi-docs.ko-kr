@@ -1,0 +1,23 @@
+- name: 학습 카탈로그
+  href: index.yml
+  items:
+    - name: 비즈니스 의사 결정권자
+      href: learning-catalog-bdm.md
+    - name: 소비자
+      href: learning-catalog-consumer.md
+    - name: 보고서 작성자
+      href: learning-catalog-report-creator.md
+    - name: 데이터 분석가
+      href: learning-catalog-data-analyst.md
+    - name: 관리자
+      href: learning-catalog-administrator.md
+    - name: 개발자
+      href: learning-catalog-developer.md
+    - name: 파트너 사전 판매 역할
+      href: learning-catalog-presales.md
+    - name: 기능 컨설턴트
+      href: learning-catalog-functional-consultant.md
+    - name: 솔루션 설계자
+      href: learning-catalog-solution-architect.md
+    - name: DAX 소개
+      href: ../guided-learning/introductiontodax.yml?tutorial-step=1

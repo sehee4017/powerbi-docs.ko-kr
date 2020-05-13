@@ -8,26 +8,26 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 10/31/2019
-ms.openlocfilehash: 0c1263760157371f9f4d9fc0f122d6e37d73d720
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a472db6c6dcc1266a11e78d72ab8465df7682042
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819172"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "80114155"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>Power BI 시각적 개체에서 데이터 요소 강조 표시
 
-기본적으로 요소를 선택할 때마다 `dataView` 개체의 `values` 배열이 선택한 값으로만 필터링됩니다. 그러면 페이지의 다른 모든 시각적 개체에 선택한 데이터만 표시됩니다.
+기본적으로 요소를 선택할 때마다 `values` 개체의 `dataView` 배열이 선택한 값으로만 필터링됩니다. 그러면 페이지의 다른 모든 시각적 개체에 선택한 데이터만 표시됩니다.
 
-![강조 표시 ‘dataview’ 기본 동작](./media/highlight-dataview.png)
+![강조 표시 ‘dataview’ 기본 동작](media/highlight/highlight-dataview.png)
 
-`capabilities.json`의 `supportsHighlight` 속성을 `true`로 설정하면 필터링되지 않은 전체 `values` 배열과 `highlights` 배열을 받게 됩니다. `highlights` 배열의 길이는 values 배열과 같으며, 선택하지 않은 값은 `null`로 설정됩니다. 이 속성이 사용하도록 설정된 경우, 시각적 개체는 `values` 배열을 `highlights` 배열과 비교하여 적절한 데이터를 강조 표시해야 합니다.
+`supportsHighlight`의 `capabilities.json` 속성을 `true`로 설정하면 필터링되지 않은 전체 `values` 배열과 `highlights` 배열을 받게 됩니다. `highlights` 배열의 길이는 values 배열과 같으며, 선택하지 않은 값은 `null`로 설정됩니다. 이 속성이 사용하도록 설정된 경우, 시각적 개체는 `values` 배열을 `highlights` 배열과 비교하여 적절한 데이터를 강조 표시해야 합니다.
 
-![`dataview`에서 강조 표시 지원](./media/highlight-dataview-supports.png)
+![`dataview`에서 강조 표시 지원](media/highlight/highlight-dataview-supports.png)
 
 이 예제에서는 막대 1개가 선택된 것을 확인할 수 있습니다. 또한 highlights 배열의 유일한 값입니다. 여러 개의 선택 항목과 부분 강조 표시가 있을 수도 있습니다. 강조 표시된 값이 데이터 뷰에 표시됩니다.
 
-> [!Note]
+> [!NOTE]
 > 테이블 데이터 뷰 매핑은 하이라이트 기능을 지원하지 않습니다.
 
 ## <a name="highlight-data-points-with-categorical-data-view-mapping"></a>범주 데이터 뷰 매핑을 사용하여 데이터 요소 강조 표시
@@ -187,7 +187,7 @@ public update(options: VisualUpdateOptions) {
 
 여기서 `categoryValues`는 범주 값 배열, `measureValues`는 측정값 배열, `measureHighlights`는 강조 표시된 값 부분입니다.
 
-> [!Note]
+> [!NOTE]
 > `measureHighlights` 속성 값은 `categoryValues` 속성 값보다 작을 수 있습니다.
 > 값이 부분적으로 강조 표시되었음을 의미합니다.
 
@@ -271,7 +271,7 @@ div.value {
 
 결과에는 다음과 같은 시각적 개체 뷰가 있어야 합니다.
 
-![범주 데이터 뷰 매핑과 강조 표시가 있는 시각적 개체](./media/dev-categorical-visual-highlight-demo.gif)
+![범주 데이터 뷰 매핑과 강조 표시가 있는 시각적 개체](media/highlight/dev-categorical-visual-highlight-demo.gif)
 
 ## <a name="highlight-data-points-with-matrix-data-view-mapping"></a>행렬 데이터 뷰 매핑을 사용하여 데이터 요소 강조 표시
 
@@ -323,7 +323,7 @@ div.value {
 
 행렬 데이터 뷰 매핑을 위한 계층 구조를 만드는 샘플 데이터는 다음과 같습니다.
 
-|   Row1   |   Row2   |   Row3   |   열1   |   열2   |   Column3   |   값   |
+|   Row1   |   Row2   |   Row3   |   열1   |   Column2   |   열3   |   값   |
 |-----|-----|------|-------|-------|-------|-------|
 |   R1   |   R11   |   R111   |   C1   |   C11   |   C111   |   1   |
 |   R1   |   R11   |   R112   |   C1   |   C11   |   C112   |   2   |
@@ -466,7 +466,7 @@ public update(options: VisualUpdateOptions) {
 }
 ```
 
-여기서 `matrixNode`는 현재 노드, `div`는 이 계층 구조 수준의 메타데이터 열, `levels`는 자식 HTML 요소의 부모 요소입니다.
+여기서 `matrixNode`는 현재 노드, `levels`는 이 계층 구조 수준의 메타데이터 열, `div`는 자식 HTML 요소의 부모 요소입니다.
 
 `treeWalker`는 재귀 함수로, `div` 요소와 헤더 텍스트를 나타내는 `p`를 만들고 노드의 자식 요소에 대해 함수를 호출해야 합니다.
 
@@ -582,7 +582,7 @@ JSON.stringify(options.dataViews[0].matrix.rows.root.children[0].children[0].chi
 
 여기서 `value` 속성은 다른 시각적 개체의 선택 항목을 적용하지 않고 노드 값을 나타내고, highlight 속성은 강조 표시된 데이터 부분을 나타냅니다.
 
-> [!Note]
+> [!NOTE]
 > `highlight` 속성 값은 `value` 속성 값보다 작을 수 있습니다.
 > 값이 부분적으로 강조 표시되었음을 의미합니다.
 
@@ -643,7 +643,7 @@ public update(options: VisualUpdateOptions) {
 
 따라서 단추와 `highlighted value/default value` 값을 포함하는 시각적 개체를 얻게 됩니다.
 
-![행렬 데이터 뷰 매핑과 강조 표시가 있는 시각적 개체](./media/dev-matrix-visual-highlight-demo.gif)
+![행렬 데이터 뷰 매핑과 강조 표시가 있는 시각적 개체](media/highlight/dev-matrix-visual-highlight-demo.gif)
 
 ## <a name="next-steps"></a>다음 단계
 

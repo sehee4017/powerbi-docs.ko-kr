@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 21d663b2f29a8090e6cfb7013d16c739ef0a29b3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7c0c08e8056232fa7c60b20faf48b0137a19bc5f
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851453"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "77496399"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Power BI에서 시각적 개체 드릴 모드
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -32,6 +34,7 @@ ms.locfileid: "73851453"
 어떤 Power BI 시각적 개체에 계층 구조가 포함되어 있는지 확실치 않나요? 시각적 개체를 마우스로 가리킵니다. 위쪽에 이러한 드릴 컨트롤이 조합되어 표시되면 시각적 개체에 계층 구조가 포함됩니다.
 
 ![드릴 아이콘의 스크린샷.](./media/end-user-drill/power-bi-drill-icons.png)  
+
 
 ## <a name="learn-how-to-drill-down-and-up"></a>드릴다운 및 드릴업하는 방법 알아보기
 
@@ -116,7 +119,7 @@ ms.locfileid: "73851453"
 
     ![TN에 대한 모든 데이터를 보여 주는 트리맵의 스크린샷](media/end-user-drill/power-bi-expand-two.png)
 
-1. 드릴다운이 켜져 있는지 ![켜진 드릴다운 켜기/쓰기 아이콘의 스크린샷](./media/end-user-drill/power-bi-drill-icon2.png) 확인하고 ‘아래로 확장’ 아이콘 ![아래로 확장 아이콘의 스크린샷](./media/end-user-drill/power-bi-drill-icon6.png)을 선택합니다.  이제 트리맵은 동일한 수의 리프(상자)를 표시하지만 각 리프는 추가 세부 정보를 포함합니다. 이제 트리맵은 도시 및 주만 표시하는 대신 우편 번호도 보여 줍니다.
+1. 드릴다운이 켜져 있는지 ![켜진 드릴다운 켜기/쓰기 아이콘의 스크린샷](./media/end-user-drill/power-bi-drill-icon2.png) 확인하고 ‘아래로 확장’ 아이콘 *아래로 확장 아이콘의 스크린샷*을 선택합니다.![](./media/end-user-drill/power-bi-drill-icon6.png) 이제 트리맵은 동일한 수의 리프(상자)를 표시하지만 각 리프는 추가 세부 정보를 포함합니다. 이제 트리맵은 도시 및 주만 표시하는 대신 우편 번호도 보여 줍니다.
 
     ![도시, 주 및 우편 번호를 보여 주는 시각적 개체의 스크린샷](./media/end-user-drill/power-bi-expand-three.png)
 
@@ -141,7 +144,9 @@ ms.locfileid: "73851453"
 
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
-기본적으로 드릴은 보고서의 다른 시각적 개체를 필터링하지 않습니다. 그러나 보고서 디자이너는 이 기본 동작을 변경할 수 있습니다. 드릴하는 동안 페이지의 다른 시각적 개체가 교차 필터링되거나 교차 강조 표시되는지 확인합니다.
+- 기본적으로 드릴은 보고서의 다른 시각적 개체를 필터링하지 않습니다. 그러나 보고서 디자이너는 이 기본 동작을 변경할 수 있습니다. 드릴하는 동안 페이지의 다른 시각적 개체가 교차 필터링되거나 교차 강조 표시되는지 확인합니다.
+
+- 공유된 보고서를 보려면 Power BI Pro 또는 Premium 라이선스가 필요합니다. [사용 중인 라이선스 확인](end-user-license.md)
 
 
 ## <a name="next-steps"></a>다음 단계

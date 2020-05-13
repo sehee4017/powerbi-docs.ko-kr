@@ -1,18 +1,18 @@
 ---
 title: Power BI Q&A 교육을 위한 질문 및 답변 도구 소개(미리 보기)
 description: Power BI 질문 및 답변 도구 소개
-author: mohaali
+author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/17/2019
-ms.author: mohaali
-ms.openlocfilehash: 17d0a68782f34c09286be5ebe020668a15061ee4
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 04/17/2020
+ms.author: maggies
+ms.openlocfilehash: 6178c9f157578110a09abf3fcbebccba54339f13
+ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73874946"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82866077"
 ---
 # <a name="intro-to-qa-tooling-to-train-power-bi-qa-preview"></a>Power BI 질문 및 답변 학습을 위한 질문 및 답변 도구 소개(미리 보기)
 
@@ -36,29 +36,44 @@ Power BI 질문 및 답변 ‘도구’를 사용하면 사용자의 자연어 �
 1. Power BI Desktop을 열고 질문 및 답변을 사용하여 시각적 개체를 만듭니다. 
 2. 시각적 개체의 모서리에서 기어 아이콘을 선택합니다. 
 
-    ![질문 및 답변 시각적 개체 기어](media/qna-visual-gear.png)
+    ![질문 및 답변 시각적 개체 기어](media/q-and-a-tooling-intro/qna-visual-gear.png)
 
     시작 페이지가 열립니다.  
 
-    ![질문 및 답변 시작](media/qna-tooling-dialog.png)
+    ![질문 및 답변 시작](media/q-and-a-tooling-intro/qna-tooling-dialog.png)
 
 ### <a name="review-questions"></a>질문 검토
 
 **질문 검토**를 선택하여 Power BI 서비스에서 테넌트에 사용 중인 데이터 세트 목록을 확인합니다. **질문 검토** 페이지에는 데이터 세트 소유자, 작업 영역 및 마지막으로 새로 고친 날짜도 표시됩니다. 여기서 데이터 세트를 선택하고 사용자의 질문을 확인할 수 있습니다. 데이터는 인식되지 않은 단어도 표시합니다. 여기에 표시된 모든 데이터는 지난 28일간의 데이터입니다.
 
-![질문 및 답변 질문 검토](media/qna-tooling-review-questions.png)
+![질문 및 답변 질문 검토](media/q-and-a-tooling-intro/qna-tooling-review-questions.png)
 
 ### <a name="teach-qa"></a>질문 및 답변 학습
 
 **질문 및 답변 학습** 섹션에서는 단어를 인식하도록 질문 및 답변을 교육할 수 있습니다. 먼저 질문 및 답변에서 인식할 수 없는 단어가 포함된 질문을 입력합니다. 질문 및 답변에서 해당 용어의 정의를 묻는 메시지가 표시됩니다. 단어가 나타내는 항목에 해당하는 필터 또는 필드 이름을 입력합니다. 그러면 질문 및 답변에서 원래 질문을 다시 해석합니다. 결과가 만족스러우면 입력을 저장할 수 있습니다. 자세한 내용은 [질문 및 답변 학습](q-and-a-tooling-teach-q-and-a.md)을 참조하세요.
 
-![Q&A 교육 동의어 미리 보기](media/qna-tooling-teach-fixpreview.png)
+![Q&A 교육 동의어 미리 보기](media/q-and-a-tooling-intro/qna-tooling-teach-fixpreview.png)
 
 ### <a name="manage-terms"></a>용어 관리
 
 질문 및 답변 학습 섹션에서 저장한 모든 항목이 여기에 표시되므로 정의한 용어를 검토하거나 삭제할 수 있습니다. 현재 기존 정의를 편집할 수 없으므로 용어를 다시 정의하려면 해당 용어를 삭제하고 다시 만들어야 합니다.
 
-![질문 및 답변 용어 관리](media/qna-manage-terms.png)
+![질문 및 답변 용어 관리](media/q-and-a-tooling-intro/qna-manage-terms.png)
+
+### <a name="suggest-questions"></a>질문 제안
+
+설치를 수행하지 않고 질문 및 답변 시각적 개체는 시작하기 위한 몇 가지 질문을 제안합니다. 이러한 질문은 데이터 모델을 기반으로 자동 생성됩니다. **질문 제안**에서 자동 생성된 질문을 사용자의 질문으로 덮어쓸 수 있습니다. 
+
+시작하려면 텍스트 상자에 추가할 질문을 입력합니다. 미리 보기 섹션에서 질문 및 답변 시각적 개체에 표시되는 결과를 볼 수 있습니다. 
+
+:::image type="content" source="media/q-and-a-tooling-intro/power-bi-qna-suggest-questions.png" alt-text="질문 및 답변 제안":::
+ 
+**추가** 단추를 선택하여 이 질문을 **제안된 질문**에 추가합니다. 추가 질문은 모두 이 목록의 끝에 추가됩니다. 질문은 이 목록에서와 같은 순서로 질문 및 답변 시각적 개체에 표시됩니다. 
+
+:::image type="content" source="media/q-and-a-tooling-intro/power-bi-qna-save-suggest-questions.png" alt-text="제안된 질문 저장":::
+ 
+**저장**을 선택하여 질문 및 답변 시각적 개체에 제안된 질문의 목록을 표시합니다. 
+
 
 ## <a name="other-qa-settings"></a>기타 질문 및 답변 설정
 
@@ -70,7 +85,7 @@ Power BI Desktop **모델링** 탭에는 질문 및 답변 환경을 개선하�
 
 2. 필드 또는 테이블을 선택하여 **속성** 창을 표시합니다.  이 창은 캔버스 오른쪽에 표시되고 여러 질문 및 답변 작업을 나열합니다. 한 가지 옵션은 **동의어**입니다. **동의어** 상자에서 선택한 테이블이나 필드에 대한 대안을 신속하게 정의할 수 있습니다. 도구 대화 상자의 **질문 및 답변 학습** 섹션에서 동의어를 정의할 수도 있지만, 대체로 여기서 테이블의 많은 필드에 대해 동의어를 정의하는 것이 더 빠릅니다.
 
-    ![질문 및 답변 모델링 창 동의어](media/qna-modelling-pane-synonyms.png)
+    ![질문 및 답변 모델링 창 동의어](media/q-and-a-tooling-intro/qna-modelling-pane-synonyms.png)
 
 3. 단일 필드에 대해 여러 동의어를 정의하려면 쉼표를 사용하여 다음 동의어를 지정합니다.
 
@@ -100,6 +115,4 @@ Power BI의 질문 및 답변 내에서 기본 자연어 결과의 점수 및 �
 
 ## <a name="next-steps"></a>다음 단계
 
-자연어 엔진을 개선하기 위한 여러 가지 모범 사례가 있습니다. 자세한 내용은 다음 아티클을 참조하세요.
-
-* [질문 및 답변 모범 사례](q-and-a-best-practices.md)
+자연어 엔진을 개선하기 위한 여러 가지 모범 사례가 있습니다. 자세한 내용은 [질문 및 답변 모범 사례](q-and-a-best-practices.md)를 참조하세요.

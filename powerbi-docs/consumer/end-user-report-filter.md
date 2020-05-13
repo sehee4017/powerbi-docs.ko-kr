@@ -7,17 +7,19 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/22/2019
+ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: af784c772ddbdd895f7e6c576d91d4e2fec8ffeb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cb3947ec7aaf6d67a22eb1d7543a57e66e87f5f3
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73862063"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79114448"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>보고서 필터 창 둘러보기
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 

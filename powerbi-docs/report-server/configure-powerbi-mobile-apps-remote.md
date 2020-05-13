@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/07/2019
 ms.author: painbar
 ms.openlocfilehash: b84d7a23cf947b18302c761ff5f78143bf3356aa
-ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2019
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "73925855"
 ---
 # <a name="configure-power-bi-mobile-app-access-to-report-server-remotely"></a>원격으로 보고서 서버에 대한 Power BI 모바일 앱 액세스 권한 구성
@@ -38,7 +38,7 @@ ms.locfileid: "73925855"
 
 다음 표에서는 쌍을 자세히 설명합니다.
 
-|키  |형식  |설명  |
+|키  |Type  |설명  |
 |---------|---------|---------|
 | com.microsoft.powerbi.mobile.ServerURL | String | 보고서 서버 URL <br> http/https로 시작해야 함 |
 | com.microsoft.powerbi.mobile.ServerUsername | String | [선택 사항] <br> 서버 연결에 사용할 사용자 이름입니다. <br> 존재하지 않는 경우 앱은 연결의 사용자 이름을 입력하라는 메시지를 수신합니다.| 

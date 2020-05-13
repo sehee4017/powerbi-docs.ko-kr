@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 11/21/2018
-ms.openlocfilehash: f1a1bfc161fe163a4c4680dbcc90e6ad28b80a90
-ms.sourcegitcommit: 0da17de80c9651f9f4474d1abb1bdaaade8808fb
+ms.openlocfilehash: 3d0dc39fbf6d1daf978292d0e5e43129e66376c7
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/27/2019
-ms.locfileid: "75498486"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79381011"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>자습서:  Power BI 시각적 개체에 서식 옵션 추가
 
@@ -287,4 +287,4 @@ ms.locfileid: "75498486"
 
 ## <a name="next-steps"></a>다음 단계
 
-**AppSource**에 제출하여 다른 사용자가 사용할 새로 개발된 시각적 개체를 나열할 수 있습니다. 이 프로세스에 대한 자세한 내용은 [사용자 지정 시각적 개체를 AppSource에 게시](../office-store.md)를 참조하세요.
+**AppSource**에 제출하여 다른 사용자가 사용할 새로 개발된 시각적 개체를 나열할 수 있습니다. 이 프로세스에 대한 자세한 내용은 [Power BI 시각적 개체를 AppSource에 게시](office-store.md)를 참조하세요.

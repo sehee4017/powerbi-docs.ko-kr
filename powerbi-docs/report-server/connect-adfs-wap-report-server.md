@@ -9,17 +9,17 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/14/2020
 ms.openlocfilehash: 2caa96aceef90ad1d25a521cbf4a3f699a2a64e0
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2020
+ms.lasthandoff: 05/05/2020
 ms.locfileid: "76042443"
 ---
 # <a name="use-web-application-proxy-and-active-directory-federated-services---power-bi-report-server"></a>웹 애플리케이션 프록시 및 Active Directory Federated Services 사용 - Power BI Report Server
 
 이 문서에서는 WAP(웹 애플리케이션 프록시) 및 AD FS(Active Directory Federeated Services)를 사용하여 Power BI Report Server 및 SQL Server Reporting Services(SSRS) 2016 이상에 연결하는 방법을 알아봅니다. 회사 네트워크에서 멀리 떨어진 사용자는 이 통합을 통해 클라이언트 브라우저에서 Power BI Report Server 및 Reporting Services에 액세스하고 AD FS 사전 인증으로 보호될 수 있습니다. Power BI 모바일 앱의 경우, [Power BI Report Server 및 SSRS에 연결하도록 OAuth를 구성](../consumer/mobile/mobile-oauth-ssrs.md)해야 합니다.
 
-## <a name="prerequisites"></a>사전 요구 사항
+## <a name="prerequisites"></a>필수 조건
 
 ### <a name="domain-name-services-dns-configuration"></a>DNS(도메인 이름 서비스) 구성
 
@@ -32,7 +32,7 @@ ms.locfileid: "76042443"
 
 WAP 애플리케이션 및 AD FS 서버에 대한 인증서를 구성해야 합니다. 이러한 인증서는 둘 다 컴퓨터가 인식하는 유효한 인증 기관의 일부여야 합니다.
 
-## <a name="1-configure-the-report-server"></a>1. 보고서 서버 구성
+## <a name="1-configure-the-report-server"></a>1. Report Server 구성
 
 유효한 SPN(서비스 사용자 이름)이 있는지 확인해야 합니다. 유효한 SPN을 통해 적절한 Kerberos 인증이 수행되고 보고서 서버에서 협상 인증을 사용할 수 있습니다.
 
@@ -77,7 +77,7 @@ AD FS 서버에서 AD FS 관리 앱을 사용하여 다음 단계를 완료합�
     **표시 이름 지정**에 원하는 이름을 입력하고 **다음**을 선택합니다.
     신뢰 당사자 트러스트 식별자 추가: `<ADFS\_URL>/adfs/services/trust`
 
-    예: `https://adfs.contosolab.com/adfs/services/trust`
+    예를 들어: `https://adfs.contosolab.com/adfs/services/trust`
 
     ![보고서 서버](media/connect-adfs-wap-report-server/report-server-adfs-configure-identifiers.png)
 
@@ -173,5 +173,5 @@ Active Directory 내의 WAP 서버 컴퓨터 계정에서 제한된 위임을 �
 * [Power BI Report Server 및 SSRS에 연결하도록 OAuth 구성](../consumer/mobile/mobile-oauth-ssrs.md)
 *[Power BI Report Server란?](get-started.md)  
 
-추가 질문이 있으신가요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

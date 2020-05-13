@@ -1,4 +1,4 @@
----
+﻿---
 title: 보고서에 차트 정렬 방식 변경
 description: Power BI 보고서에서 차트 정렬 방식 변경
 author: mihart
@@ -6,21 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 02/19/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 76370e2b633e21674ba878e70b5ecfc333453c96
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 1a59618ea27944314465d8e08d5f0c249c3bed0b
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76889216"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "77496466"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Power BI 보고서에서 차트 정렬 방식 변경
 
-
-
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 
 > [!IMPORTANT]
@@ -32,7 +30,7 @@ Power BI 서비스에서 다양한 데이터 필드로 정렬하여 시각적 �
 
 ## <a name="get-started"></a>시작
 
-시작하려면 보고서 시각적 개체를 선택하고 **추가 옵션**(...)을 선택합니다.  정렬에 대해 세 가지 옵션이 있습니다. **내림차순 정렬**, **오름차순 정렬**, **정렬 기준**. 
+시작하려면 공유된 보고서를 엽니다. 정렬할 수 있는 시각적 개체를 선택하고 **추가 작업**(...)을 선택합니다.  정렬에 대해 세 가지 옵션이 있습니다. **내림차순 정렬**, **오름차순 정렬**, **정렬 기준**. 
     
 
 ![X 축을 기준으로 사전순으로 정렬된 막대형 차트](media/end-user-change-sort/power-bi-more-actions.png)
@@ -69,9 +67,9 @@ Power BI 보고서는 [읽기용 보기](end-user-reading-view.md)에서 작업�
 
 보고서를 설계한 사람만 이 변경 작업을 수행할 수 있습니다. *디자이너*의 연락처 정보는 머리글 표시줄에서 보고서 이름을 선택하여 확인할 수 있습니다.
 
-콘텐츠에 대한 편집 권한이 있는 *디자이너*인 경우 [Power BI Desktop의 열 기준 정렬](../desktop-sort-by-column.md)을 참조하여 데이터 세트를 업데이트하고 이러한 종류의 정렬을 설정하는 방법을 알아보세요.
-
 ![연락처 정보를 표시하는 드롭다운](media/end-user-change-sort/power-bi-contact.png)
+
+콘텐츠에 대한 편집 권한이 있는 *디자이너*인 경우 [Power BI Desktop의 열 기준 정렬](../desktop-sort-by-column.md)을 참조하여 데이터 세트를 업데이트하고 이러한 종류의 정렬을 설정하는 방법을 알아보세요.
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI 보고서의 시각화](end-user-visualizations.md)에 대해 자세히 알아보세요.

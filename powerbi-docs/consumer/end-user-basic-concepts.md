@@ -8,21 +8,25 @@ ms.service: powerbi
 ms.custom: seodec18
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/16/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 24e5a06d3e835f7ff5114cbf17b772bc7efd00bb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e303d85083624bb67e73729024875d0f6f44fc42
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73852237"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79377150"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Power BI 서비스 소비자를 위한 기본 개념
 
+[!INCLUDE[consumer-appliesto-ynnm](../includes/consumer-appliesto-ynnm.md)]
+
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-이 문서에서는 독자가 [Power BI 개요](../fundamentals/power-bi-overview.md)를 이미 읽었고 자신을 [Power BI ***소비자***](end-user-consumer.md)로 인식하고 있다고 가정합니다. 소비자는 동료로부터 대시보드 및 보고서와 같은 Power BI 콘텐츠를 받습니다. 소비자는 웹 사이트 기반 버전의 Power BI인 Power BI 서비스를 사용합니다.
+이 문서에서는 독자가 [Power BI 개요](../fundamentals/power-bi-overview.md)를 이미 읽었고 자신을 [Power BI **_소비자_** ](end-user-consumer.md)로 인식하고 있다고 가정합니다. 소비자는 동료로부터 대시보드 및 보고서와 같은 Power BI 콘텐츠를 받습니다. 소비자는 웹 사이트 기반 버전의 Power BI인 Power BI 서비스를 사용합니다.
+
+다른 사용자로부터 콘텐츠를 받으려면 Power BI Pro 사용자 라이선스 또는 Power BI 프리미엄 용량 라이선스가 필요합니다. [라이선스 유형 조회](end-user-license.md)
 
 분명히 “Power BI Desktop” 또는 “Desktop”이라는 용어를 들어 보았을 것입니다. 이는 대시보드와 보고서를 빌드하고 소비자와 공유하는 ‘디자이너’가 사용하는 독립 실행형 도구입니다.  다른 Power BI 도구가 있다는 것을 알고 있어야 합니다. 소비자는 Power BI 서비스만 사용하게 됩니다. 이 문서는 Power BI 서비스에만 적용됩니다.
 
@@ -38,7 +42,7 @@ ms.locfileid: "73852237"
 
 ![Power BI 서비스 시작 화면의 스크린샷](media/end-user-basic-concepts/power-bi-home.png)
 
-Power BI를 사용할 때는 웹 사이트를 열 때마다 표시되는 내용을 개인 설정할 수 있습니다. 예를 들어, Power BI가 **홈**페이지를 여는 것을 선호하는 사람도 있고, 즐겨찾기 대시보드에 먼저 표시되는 것을 선호하는 사람도 있습니다. 이처럼 환경을 개인 설정하는 자세한 방법은 다음 문서에서 확인할 수 있습니다.
+Power BI를 사용할 때는 웹 사이트를 열 때마다 표시되는 내용을 개인 설정할 수 있습니다. 예를 들어 Power BI가 **홈**으로 열리는 것을 선호하는 사람도 있고, 즐겨찾기 대시보드에 먼저 표시되는 것을 선호하는 사람도 있습니다. 이처럼 환경을 개인 설정하는 자세한 방법은 다음 문서에서 확인할 수 있습니다.
 
 - [Power BI 홈 및 전역 검색 소개](https://powerbi.microsoft.com/blog/introducing-power-bi-home-and-global-search)
 
@@ -54,13 +58,13 @@ _______________________________________________________
 
 ### <a name="introduction-to-building-blocks"></a>구성 요소 소개
 
-Power BI 소비자를 위한 5가지 구성 요소는 ***시각화***, ***대시보드***, ***보고서***, ***앱***, ***데이터 세트***입니다. 이를 *Power BI* ***콘텐츠***라고 부르기도 합니다.  ‘콘텐츠’는 작업 영역 에 있습**** 니다. 일반적인 워크플로에서는 이와 같은 구성 요소가 모두 사용됩니다. Power BI ‘디자이너’(아래 다이어그램에서 노란색으로 표시)는 ‘데이터 세트’에서 데이터를 수집하고, 분석을 위해 Power BI로 가져오고, 유용한 사실과 인사이트를 보여 주는 다양한 ‘시각화’로 구성된 ‘보고서’를 만들고, 보고서의 시각화를 대시보드에 고정하고, 보고서 및 대시보드를 ‘소비자’와 공유합니다(아래 다이어그램에서 검은색으로 표시).      ‘디자이너’는 보고서와 대시보드를 ‘앱’ 또는 다른 유형의 공유 콘텐츠 형태로 공유합니다.  
+Power BI 소비자를 위한 5가지 구성 요소는 **_시각화_** , **_대시보드_** , **_보고서_** , **_앱_** , **_데이터 세트_** 입니다. 이를 *Power BI* **_콘텐츠_** 라고 부르기도 합니다. *콘텐츠*는 **_작업 영역_** 에 있습니다. 일반적인 워크플로에서는 이와 같은 구성 요소가 모두 사용됩니다. Power BI ‘디자이너’(아래 다이어그램에서 노란색으로 표시)는 ‘데이터 세트’에서 데이터를 수집하고, 분석을 위해 Power BI로 가져오고, 유용한 사실과 인사이트를 보여 주는 다양한 ‘시각화’로 구성된 ‘보고서’를 만들고, 보고서의 시각화를 대시보드에 고정하고, 보고서 및 대시보드를 ‘소비자’와 공유합니다(아래 다이어그램에서 검은색으로 표시).      ‘디자이너’는 보고서와 대시보드를 ‘앱’ 또는 다른 유형의 공유 콘텐츠 형태로 공유합니다.  
 
 ![기본 Power BI 워크플로 차트입니다.](media/end-user-basic-concepts/power-bi-workflow.png)
 
 가장 기본적으로
 
-- ![시각화 아이콘의 스크린샷](media/end-user-basic-concepts/visual.png) ***시각화***(또는 ‘시각적 개체’)는 Power BI ‘디자이너’에 의해 빌드된 차트 유형입니다.   시각적 개체는 ‘보고서’ 및 ‘데이터 세트’의 데이터를 표시합니다.   일반적으로 *설계자*는 Power BI Desktop의 시각적 개체를 빌드합니다.
+- ![시각화 아이콘의 스크린샷](media/end-user-basic-concepts/visual.png) **_시각화_** (또는 *시각적 개체*)는 Power BI *디자이너*가 빌드한 차트 유형입니다. 시각적 개체는 ‘보고서’ 및 ‘데이터 세트’의 데이터를 표시합니다.   일반적으로 *설계자*는 Power BI Desktop의 시각적 개체를 빌드합니다.
 
     자세한 내용은 [보고서, 대시보드 및 앱에서 시각적 개체 조작](end-user-visualizations.md)을 참조하세요.
 
@@ -114,7 +118,7 @@ Power BI에서 볼 수 있는 시각화로는 폭포, 리본, 트리맵, 원형,
 
 [Power BI에 포함된 시각화의 전체 목록](../power-bi-visualization-types-for-reports-and-q-and-a.md)을 참조하세요.
 
-‘사용자 지정 시각적 개체’라는 시각화는 커뮤니티에서도 사용할 수 있습니다.  인식할 수 없는 시각적 개체가 포함된 보고서를 받은 경우 사용자 지정 시각적 개체일 가능성이 높습니다. 사용자 지정 시각적 개체를 해석하는 데 도움이 필요하면 보고서 또는 대시보드 ‘디자이너’의 이름을 조회하고 해당 디자이너에게 문의하세요. 
+‘Power BI 시각적 개체’라는 시각화는 커뮤니티에서도 사용할 수 있습니다.  인식할 수 없는 시각적 개체가 포함된 보고서를 받은 경우 사용자 지정 시각적 개체일 가능성이 높습니다. 사용자 지정 시각적 개체를 해석하는 데 도움이 필요하면 보고서 또는 대시보드 ‘디자이너’의 이름을 조회하고 해당 디자이너에게 문의하세요. 
 
 한 보고서의 단일 시각화...
 
@@ -126,7 +130,7 @@ _______________________________________________________
 
 ## <a name="reports"></a>보고서
 
-Power BI 보고서는 시각화, 그래픽 및 텍스트로 이루어진 하나 이상의 페이지입니다. 보고서의 모든 시각화는 단일 데이터 세트에서 제공합니다. *설계자*는 [*읽기 보기*에서 보고서와 상호 작용하는](end-user-reading-view.md) *소비자*와 보고서를 공유합니다.
+Power BI 보고서는 시각화, 그래픽 및 텍스트로 이루어진 하나 이상의 페이지입니다. 보고서의 모든 시각화는 단일 데이터 세트에서 제공합니다. *설계자*는 [*읽기 보기*에서 보고서와 상호 작용하는](end-user-reading-view.md)*소비자*와 보고서를 공유합니다.
 
 ![탭이 있는 보고서의 스크린샷](media/end-user-basic-concepts/power-bi-report.png)
 
@@ -148,7 +152,7 @@ _______________________________________________________
 
   ![샘플 대시보드의 스크린샷](media/end-user-basic-concepts/power-bi-dashboard.png)
 
-타일은 *설계자*가 보고서에서 대시보드 등으로 *고정*하는 시각적 개체의 렌더링입니다. 고정된 각 타일에는 디자이너가 데이터 세트에서 만들고 대시보드에 고정한 [시각화](end-user-visualizations.md)가 표시됩니다. 또한 타일에는 전체 보고서 페이지가 포함될 수 있으며, 라이브 스트리밍 데이터 또는 동영상도 포함될 수 있습니다. ‘디자이너’가 대시보드에 타일을 추가할 수 있는 여러 가지 방법이 있습니다.  이 개요 문서에서 다루기엔 너무 많습니다. 자세히 알아보려면 [Power BI의 대시보드 타일](end-user-tiles.md)을 참조하세요.
+타일은 *디자이너*가 보고서에서 대시보드 등으로 *고정*하는 시각적 개체의 렌더링입니다. 고정된 각 타일에는 디자이너가 데이터 세트에서 만들고 대시보드에 고정한 [시각화](end-user-visualizations.md)가 표시됩니다. 또한 타일에는 전체 보고서 페이지가 포함될 수 있으며, 라이브 스트리밍 데이터 또는 동영상도 포함될 수 있습니다. ‘디자이너’가 대시보드에 타일을 추가할 수 있는 여러 가지 방법이 있습니다.  이 개요 문서에서 다루기엔 너무 많습니다. 자세히 알아보려면 [Power BI의 대시보드 타일](end-user-tiles.md)을 참조하세요.
 
 소비자는 대시보드를 편집할 수 없습니다. 하지만 주석을 추가하고, 관련 데이터를 보고, 즐겨찾기로 설정하고, 구독하는 등의 작업은 가능합니다.
 
@@ -179,6 +183,9 @@ _______________________________________________________
 ## <a name="apps"></a>앱
 
 이러한 대시보드 및 보고서 컬렉션은 관련 콘텐츠를 단일 패키지로 정리합니다. Power BI *설계자*는 이를 빌드하고 개인, 그룹, 전체 조직 또는 대중과 공유합니다. 소비자는 자신이 동료와 동일한 데이터(단일 버전의 진실한 정보)로 작업하고 있음을 확신할 수 있습니다.
+
+> [!NOTE]
+> 앱을 사용하려면 Power BI Pro 또는 Premium 라이선스가 필요합니다. 
 
 ![Power BI의 왼쪽 창에서 선택된 앱의 스크린샷](media/end-user-basic-concepts/power-bi-apps.png)
 

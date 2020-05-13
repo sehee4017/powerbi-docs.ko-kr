@@ -9,23 +9,23 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 06/18/2019
-ms.openlocfilehash: c5530767d37e9c9dfaf5270037d873fc4d1a58ec
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 43fcc0873006cfd42c97a287c7bff66f5995bfef
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880291"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79380955"
 ---
 # <a name="the-analytics-pane-in-power-bi-visuals"></a>Power BI 시각적 개체의 분석 창
 
 **분석** 창은 2018년 11월에 [네이티브 시각적 개체](https://docs.microsoft.com/power-bi/desktop-analytics-pane)에 대해 도입되었습니다.
 이 문서에서는 API v2.5.0을 사용하는 Power BI 시각적 개체가 **분석 창**에 해당 속성을 제공하고 관리할 수 있는 방법을 설명합니다.
 
-![분석 창](./media/visualization-pane-analytics-tab.png)
+![분석 창](media/analytics-pane/visualization-pane-analytics-tab.png)
 
 ## <a name="manage-the-analytics-pane"></a>분석 창 관리
 
-[**서식** 창](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial-format-options)에서 속성을 관리하는 것과 동일한 방법으로, 시각적 개체의 *capabilities.json* 파일에서 개체를 정의하여 **분석** 창을 관리합니다.
+[**서식** 창](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial-format-options)에서 속성을 관리하는 것과 동일한 방법으로, 시각적 개체의 **capabilities.json** 파일에서 개체를 정의하여 *분석* 창을 관리합니다.
 
 **분석** 창의 차이점은 다음과 같습니다.
 
@@ -37,8 +37,8 @@ ms.locfileid: "73880291"
     > 값을 지정하지 않으면, `objectCategory`는 기본적으로 “서식”으로 설정됩니다.
 
 * 개체에는 다음 두 가지 속성이 있어야 합니다.
-    * `bool` 형식의 `show`(기본값은 `false`임)
-    * `text` 형식의 `displayName`. 선택한 기본값이 인스턴스의 초기 표시 이름이 됩니다.
+    * `show` 형식의 `bool`(기본값은 `false`임)
+    * `displayName` 형식의 `text`. 선택한 기본값이 인스턴스의 초기 표시 이름이 됩니다.
 
 ```json
 {
