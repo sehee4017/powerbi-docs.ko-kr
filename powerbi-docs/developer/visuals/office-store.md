@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 90e914cf9b5c03542436750253fd959808403214
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1aa682a71fe7469f8a9c7d5415fb843400e5d312
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82613560"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148319"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>파트너 센터에 Power BI 시각적 개체 게시
 
@@ -27,7 +27,7 @@ Power BI 시각적 개체를 만든 후에는 다른 사람이 검색하고 사�
 
 ## <a name="preparing-to-submit-your-power-bi-visual"></a>Power BI 시각적 개체 제출 준비
 
-Power BI 시각적 개체를 AppSource에 제출하기 전에 [Power BI 시각적 개체 지침](guidelines-powerbi-visuals.md)을 읽고 [사용자 지정 시각적 개체를 테스트](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md)했는지 확인합니다.
+Power BI 시각적 개체를 AppSource에 제출하기 전에 [Power BI 시각적 개체 지침](guidelines-powerbi-visuals.md)을 읽고 [사용자 지정 시각적 개체를 테스트](./submission-testing.md)했는지 확인합니다.
 
 Power BI 시각적 개체를 제출할 준비가 되면 시각적 개체가 아래 나열된 모든 요구 사항을 충족하는지 확인합니다.
 
@@ -99,9 +99,10 @@ Power BI 팀은 파일에서 새 Power BI 시각적 개체 제출, 기존 Power 
 
 10. **제품 설정**을 선택하고 **검토 및 게시**를 클릭합니다.
 
+
 ## <a name="tracking-submission-status-and-usage"></a>제출 상태 및 사용 현황 추적
 
-* [유효성 검사 정책](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals)을 검토할 수 있습니다.
+[유효성 검사 정책](https://docs.microsoft.com/legal/marketplace/certification-policies#1180-power-bi-visuals)을 검토할 수 있습니다.
 
 * 제출 후에 [앱 대시보드](https://sellerdashboard.microsoft.com/Application/Summary/)에서 제출 상태를 볼 수 있습니다.
 

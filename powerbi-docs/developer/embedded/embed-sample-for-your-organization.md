@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 332b9d500aa45ed25199630422e89f890a81f6a3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 125c8ddbdda48b5c7249a6f810d33a65a5f908ee
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80621635"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349796"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>자습서:  조직의 애플리케이션에 Power BI 콘텐츠 포함
 
@@ -31,7 +31,7 @@ ms.locfileid: "80621635"
 
 시작하려면 다음이 필요합니다.
 
-* [Power BI Pro 계정](../../service-self-service-signup-for-power-bi.md).
+* [Power BI Pro 계정](../../fundamentals/service-self-service-signup-for-power-bi.md).
 * [Microsoft Azure](https://azure.microsoft.com/) 구독.
 * 고유한 [Azure Active Directory 테넌트 ](create-an-azure-active-directory-tenant.md) 설정이 필요합니다.
 * 페이지를 매긴 보고서를 포함하려면 최소 P1 용량이 필요합니다. [페이지를 매긴 보고서에 필요한 크기의 프리미엄 용량은 무엇인가요? 참조](../../paginated-reports/paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)
@@ -60,7 +60,7 @@ Azure에서 애플리케이션을 만들었으면 Azure에서 애플리케이션
 
 ### <a name="create-a-workspace"></a>작업 영역 만들기
 
-고객을 위해 보고서, 대시보드 또는 타일을 포함하는 경우 콘텐츠를 작업 영역 내에 배치해야 합니다. 설정할 수 있는 작업 영역에는 [기존 작업 영역](../../service-create-workspaces.md) 또는 [새 작업 영역](../../service-create-the-new-workspaces.md)이 있습니다.
+고객을 위해 보고서, 대시보드 또는 타일을 포함하는 경우 콘텐츠를 작업 영역 내에 배치해야 합니다. 설정할 수 있는 작업 영역에는 [기존 작업 영역](../../collaborate-share/service-create-workspaces.md) 또는 [새 작업 영역](../../collaborate-share/service-create-the-new-workspaces.md)이 있습니다.
 
 ### <a name="create-and-publish-your-power-bi-reports"></a>Power BI 보고서 만들기 및 게시
 
@@ -381,9 +381,9 @@ function updateEmbedReport() {
 
 ### <a name="create-a-dedicated-capacity"></a>전용 용량 만들기
 
-전용 용량을 만들면 작업 영역의 콘텐츠 전용 리소스를 활용할 수 있습니다. 페이지를 매긴 보고서의 경우 최소 P1 용량을 사용하여 작업 영역을 백업해야 합니다. [Power BI Premium](../../service-premium-what-is.md)을 사용하여 전용 용량을 만들 수 있습니다.
+전용 용량을 만들면 작업 영역의 콘텐츠 전용 리소스를 활용할 수 있습니다. 페이지를 매긴 보고서의 경우 최소 P1 용량을 사용하여 작업 영역을 백업해야 합니다. [Power BI Premium](../../admin/service-premium-what-is.md)을 사용하여 전용 용량을 만들 수 있습니다.
 
-다음 표에서는 [Microsoft Office 365](../../service-admin-premium-purchase.md) 내에서 사용할 수 있는 Power BI Premium SKU를 나열합니다.
+다음 표에서는 [Microsoft Office 365](../../admin/service-admin-premium-purchase.md) 내에서 사용할 수 있는 Power BI Premium SKU를 나열합니다.
 
 | 용량 노드 | 총 vCore<br/>(백 엔드 + 프런트 엔드) | 백 엔드 vCore | 프런트 엔드 vCore | DirectQuery/라이브 연결 제한 |
 | --- | --- | --- | --- | --- | --- |
@@ -418,7 +418,7 @@ function updateEmbedReport() {
 
 ## <a name="admin-settings"></a>관리 설정
 
-전역 관리자 또는 Power BI 서비스 관리자는 테넌트에 REST API를 사용하도록 설정하거나 해제할 수 있습니다. Power BI 관리자는 전체 조직 또는 개별 보안 그룹에 대해 이 설정을 지정할 수 있습니다. 기본적으로 전체 조직에서 사용하도록 설정됩니다. [Power BI 관리 포털](../../service-admin-portal.md)에서 이러한 변경 내용을 적용할 수 있습니다.
+전역 관리자 또는 Power BI 서비스 관리자는 테넌트에 REST API를 사용하도록 설정하거나 해제할 수 있습니다. Power BI 관리자는 전체 조직 또는 개별 보안 그룹에 대해 이 설정을 지정할 수 있습니다. 기본적으로 전체 조직에서 사용하도록 설정됩니다. [Power BI 관리 포털](../../admin/service-admin-portal.md)에서 이러한 변경 내용을 적용할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 

@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: c3218e20274c0607c2bbec86e961685ccd276659
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f02c383ddbe9eddca180ad8bd29816730c249561
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80487762"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349612"
 ---
 # <a name="what-is-power-bi"></a>Power BI란?
 **Power BI**는 관련 없는 데이터 소스를 시각적으로 몰입도가 뛰어나고 일관된 대화형 정보로 변환하는 소프트웨어 서비스, 앱 및 커넥터의 컬렉션입니다. 데이터는 Excel 스프레드시트이거나 클라우드 기반 및 온-프레미스 하이브리드 데이터 웨어하우스의 컬렉션일 수 있습니다. Power BI를 사용하면 쉽게 데이터 원본에 연결하고, 중요한 항목을 시각화 및 검색하고, 원하는 모든 사람과 공유할 수 있습니다.
@@ -42,9 +42,9 @@ Power BI 사용 방법은 프로젝트 또는 팀에서 사용자의 역할에 �
 Power BI 사용 방법은 상황에 가장 적합한 Power BI 도구나 서비스가 무엇이냐에 따라 다를 수 있습니다. 예를 들어 Power BI Desktop을 사용하여 팀을 위해 고객 참여 통계에 대한 보고서를 만들고 Power BI 서비스의 실시간 대시보드에서 재고 및 제조 진행 상황을 볼 수 있습니다. 상황에 맞게 Power BI의 각 부분을 사용할 수 있어서 매우 유연하고 매력적입니다.
 
 역할과 관련된 문서를 살펴보세요.
-- [ *‘디자이너용’* ](../desktop-what-is-desktop.md) Power BI Desktop
+- [ *‘디자이너용’* ](desktop-what-is-desktop.md) Power BI Desktop
 - [ *‘소비자용’* ](../consumer/end-user-consumer.md) Power BI
-- [ *‘관리자용’* ](../service-admin-administering-power-bi-in-your-organization.md) Power BI
+- [ *‘관리자용’* ](../admin/service-admin-administering-power-bi-in-your-organization.md) Power BI
 - *개발자*용 Power BI
     * [Power BI를 사용한 임베디드 분석](../developer/embedded/embedding.md)
     * [Azure의 Power BI Embedded란?](../developer/embedded/azure-pbie-what-is-power-bi-embedded.md)
@@ -71,5 +71,5 @@ Power BI Report Server는 방화벽 뒤에 배포한 다음, 웹 브라우저, �
 
 ## <a name="next-steps"></a>다음 단계
 - [빠른 시작: Power BI 서비스 사용 방법 알아보기](../service-the-new-power-bi-experience.md)   
-- [자습서: Power BI 서비스 시작](../service-get-started.md)
-- [빠른 시작: Power BI Desktop에서 데이터에 연결](../desktop-quickstart-connect-to-data.md)
+- [자습서: Power BI 서비스 시작](service-get-started.md)
+- [빠른 시작: Power BI Desktop에서 데이터에 연결](../connect-data/desktop-quickstart-connect-to-data.md)

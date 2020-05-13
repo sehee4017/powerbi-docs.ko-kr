@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/12/2019
-ms.openlocfilehash: 4eca0a799440da57cdb37a603447ba2b0d0c99c8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7eef6c7522bc364bc4b66c9567189dd7aec72239
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80403820"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349842"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>자습서:  고객의 애플리케이션에 Power BI 콘텐츠 포함
 
@@ -31,7 +31,7 @@ ms.locfileid: "80403820"
 
 시작하려면 다음이 필요합니다.
 
-* [Power BI Pro 계정](../../service-self-service-signup-for-power-bi.md)(Power BI Pro 계정에 로그인하기 위한 사용자 이름 및 암호인 마스터 계정) 또는 [서비스 주체(앱 전용 토큰)](embed-service-principal.md).
+* [Power BI Pro 계정](../../fundamentals/service-self-service-signup-for-power-bi.md)(Power BI Pro 계정에 로그인하기 위한 사용자 이름 및 암호인 마스터 계정) 또는 [서비스 주체(앱 전용 토큰)](embed-service-principal.md).
 * 고유한 [Azure Active Directory 테넌트 ](create-an-azure-active-directory-tenant.md) 설정이 필요합니다.
 
 아직 **Power BI Pro**에 등록하지 않은 경우 시작하기 전에 [평가판에 등록](https://powerbi.microsoft.com/pricing/)합니다.
@@ -58,7 +58,7 @@ Azure Active Directory로 [애플리케이션을 등록](register-app.md)하여 
 
 ### <a name="create-a-workspace"></a>작업 영역 만들기
 
-고객을 위해 보고서, 대시보드 또는 타일을 포함하는 경우 콘텐츠를 작업 영역 내에 배치해야 합니다. 설정할 수 있는 작업 영역에는 [기존 작업 영역](../../service-create-workspaces.md) 또는 [새 작업 영역](../../service-create-the-new-workspaces.md)이 있습니다. *마스터* 계정을 사용하는 경우에는 사용하는 작업 영역의 형식은 중요하지 않습니다. 그러나 *[서비스 주체](embed-service-principal.md)* 를 사용하여 애플리케이션에 로그인하는 경우에는 새 작업 영역을 사용해야 합니다. 두 시나리오에서 ‘마스터’ 계정이나 ‘서비스 주체’는 모두 애플리케이션과 관련된 작업 영역의 관리자여야 합니다.  
+고객을 위해 보고서, 대시보드 또는 타일을 포함하는 경우 콘텐츠를 작업 영역 내에 배치해야 합니다. 설정할 수 있는 작업 영역에는 [기존 작업 영역](../../collaborate-share/service-create-workspaces.md) 또는 [새 작업 영역](../../collaborate-share/service-create-the-new-workspaces.md)이 있습니다. *마스터* 계정을 사용하는 경우에는 사용하는 작업 영역의 형식은 중요하지 않습니다. 그러나 *[서비스 주체](embed-service-principal.md)* 를 사용하여 애플리케이션에 로그인하는 경우에는 새 작업 영역을 사용해야 합니다. 두 시나리오에서 ‘마스터’ 계정이나 ‘서비스 주체’는 모두 애플리케이션과 관련된 작업 영역의 관리자여야 합니다.  
 
 ### <a name="create-and-publish-your-reports"></a>보고서 만들기 및 게시
 
@@ -409,7 +409,7 @@ JavaScript API 사용에 대한 전체 샘플의 경우 [Playground 도구](http
 ### <a name="create-a-dedicated-capacity"></a>전용 용량 만들기
 
 전용 용량을 만들면 고객을 위해 전용 리소스의 혜택을 활용할 수 있습니다. 선택할 수 있는 두 가지 유형의 용량은 다음과 같습니다.
-* **Power BI Premium** - *EM* 및 *P*의 두 SKU 제품군에서 사용할 수 있는 테넌트 수준 Office 356 구독입니다. Power BI 콘텐츠를 포함하는 경우 이 솔루션을 *‘Power BI 포함’* 이라고 합니다. 이 구독과 관련된 자세한 내용은 [Power BI Premium이란?](../../service-premium-what-is.md)을 참조하세요.
+* **Power BI Premium** - *EM* 및 *P*의 두 SKU 제품군에서 사용할 수 있는 테넌트 수준 Office 356 구독입니다. Power BI 콘텐츠를 포함하는 경우 이 솔루션을 *‘Power BI 포함’* 이라고 합니다. 이 구독과 관련된 자세한 내용은 [Power BI Premium이란?](../../admin/service-premium-what-is.md)을 참조하세요.
 * **Azure Power BI Embedded** - [Microsoft Azure Portal](https://portal.azure.com)에서 전용 용량을 구입할 수 있습니다. 이 구독은 *A* SKU를 사용합니다. Power BI Embedded 용량을 만드는 방법에 대한 자세한 내용은 [Azure Portal에서 Power BI Embedded 용량 만들기](azure-pbie-create-capacity.md)를 참조하세요.
 > [!NOTE]
 > A SKU에서는 무료 Power BI 라이선스를 사용하여 Power BI 콘텐츠에 액세스할 수 없습니다.
