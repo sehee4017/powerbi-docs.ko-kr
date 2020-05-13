@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: 55b71508380a424ba48e4d24ac6c6fc70d9a570d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c4d1ce3a4a15c2d79951865e03131e001260e2c9
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80802075"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276079"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>모바일 디바이스에서 Power BI QR 코드 스캔
 적용 대상:
@@ -24,7 +24,7 @@ ms.locfileid: "80802075"
 
 Power BI의 QR 코드는 실제 세계의 모든 항목을 관련된 BI 정보에 연결할 수 있습니다. 탐색하거나 검색할 필요가 없습니다.
 
-가령, 동료가 대시보드의 타일이나 보고서에 대해 [Power BI 서비스에서 QR 코드를 만들고](../../service-create-qr-code-for-tile.md), 대시보드나 보고서를 공유하고, 메일이나 특정 항목과 같은 주요 위치에 QR 코드를 배치했다고 가정합니다. 
+가령, 동료가 대시보드의 타일이나 보고서에 대해 [Power BI 서비스에서 QR 코드를 만들고](../../create-reports/service-create-qr-code-for-tile.md), 대시보드나 보고서를 공유하고, 메일이나 특정 항목과 같은 주요 위치에 QR 코드를 배치했다고 가정합니다. 
 
 Power BI 앱에서 스캐너 또는 휴대폰에 설치된 다른 스캐너를 사용하여 QR 코드를 스캔하면 휴대폰에서 바로 관련 타일 또는 보고서에 즉시 액세스할 수 있습니다. 
 
@@ -75,8 +75,7 @@ Power BI 앱에서 스캐너 또는 휴대폰에 설치된 다른 스캐너를 �
 
 ## <a name="next-steps"></a>다음 단계
 * 모바일 앱으로 [실제 Power BI 데이터에 연결](mobile-apps-data-in-real-world-context.md)
-* [Power BI 서비스에서 타일에 대한 QR 코드 만들기](../../service-create-qr-code-for-tile.md)
-* [Power BI 서비스에서 보고서에 대한 QR 코드 만들기](../../service-create-qr-code-for-report.md)
+* [Power BI 서비스에서 타일에 대한 QR 코드 만들기](../../create-reports/service-create-qr-code-for-tile.md)
+* [Power BI 서비스에서 보고서에 대한 QR 코드 만들기](../../create-reports/service-create-qr-code-for-report.md)
 * [혼합 현실용 Power BI 앱을 사용하여 QR 코드를 스캔](mobile-mixed-reality-app.md)할 수도 있습니다.
 * 질문이 있으신가요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
-

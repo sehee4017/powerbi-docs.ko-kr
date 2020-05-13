@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/29/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c296e202dccf814fcb9e1a4c6ee0620185723248
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 34c0287c8a4df296e41826f32de95b0c050c8d08
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82865693"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277298"
 ---
 # <a name="create-arcgis-maps-in-power-bi-desktop"></a>Power BI Desktop에서 ArcGIS 지도 만들기
 
@@ -73,7 +73,7 @@ ArcGIS Maps for Power BI는 Esri(https://www.esri.com) 에서 제공합니다. P
    
 ## <a name="create-an-arcgis-maps-for-power-bi-map-visualization"></a>ArcGIS Maps for Power BI 지도 시각화 만들기
 
-Will이 몇 가지 시각화를 만드는 과정을 살펴본 다음, 아래 단계를 따라 [소매점 분석 샘플 .PBIX 파일](../sample-datasets.md)을 사용하여 직접 체험해 보세요.
+Will이 몇 가지 시각화를 만드는 과정을 살펴본 다음, 아래 단계를 따라 [소매점 분석 샘플 .PBIX 파일](../create-reports/sample-datasets.md)을 사용하여 직접 체험해 보세요.
     
 
    > [!NOTE]
@@ -368,4 +368,5 @@ Power BI용 ArcGIS Maps는 국가/지역, 시/도 및 우편 번호와 같은 �
 [Power BI용 ArcGIS 지도의 가용성을 발표하는 블로그 게시물](https://powerbi.microsoft.com/blog/announcing-arcgis-maps-for-power-bi-by-esri-preview/)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+
 

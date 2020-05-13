@@ -8,19 +8,19 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/04/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 049b6ac14c6d35d68815eac32520a4eaa654ad42
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f1608fd2511e38758b5bf05041d625cf524fff34
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78920728"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83127801"
 ---
 # <a name="when-to-use-paginated-reports-in-power-bi"></a>Power BI의 페이지를 매긴 보고서가 필요한 경우
 
 이 문서는 Power BI 보고서를 디자인하는 보고서 작성자를 대상으로 작성되었습니다. 이 문서에서는 [Power BI 페이지를 매긴 보고서](../paginated-reports/paginated-reports-report-builder-power-bi.md)를 개발해야 하는 경우를 안내합니다.
 
 > [!NOTE]
-> Power BI 페이지를 매긴 보고서를 게시하려면 Power BI 프리미엄 용량이 필요합니다. 보고서는 [페이지를 매긴 보고서 워크로드를 사용하도록 설정된](../service-admin-premium-workloads.md#paginated-reports) 전용 용량에 있는 작업 영역에 있을 때만 렌더링됩니다.
+> Power BI 페이지를 매긴 보고서를 게시하려면 Power BI 프리미엄 용량이 필요합니다. 보고서는 [페이지를 매긴 보고서 워크로드를 사용하도록 설정된](../admin/service-admin-premium-workloads.md#paginated-reports) 전용 용량에 있는 작업 영역에 있을 때만 렌더링됩니다.
 
 Power BI 페이지를 매긴 보고서는 **인쇄** 또는 **PDF 생성**에 최적화되어 있습니다. Power BI 페이지를 매긴 보고서를 사용하면 수준 높은 서식이 적용되어 픽셀 단위까지 완벽한 레이아웃을 생성할 수 있습니다. 따라서 페이지를 매긴 보고서는 판매 청구서와 같은 운영 보고서에 적합합니다.
 
@@ -36,7 +36,7 @@ Power BI 페이지를 매긴 보고서는 다음과 같은 경우에 사용하�
 
 SSRS(SQL Server Reporting Services) [RDL(Report Definition Language)](/sql/reporting-services/reports/report-definition-language-ssrs) 보고서가 이미 있는 경우 이를 [Power BI 보고서](../consumer/end-user-reports.md)로 다시 만들거나 Power BI에 페이지를 매긴 보고서로 마이그레이션할 수 있습니다. 자세한 내용은 [SQL Server Reporting Services 보고서를 Power BI로 마이그레이션](migrate-ssrs-reports-to-power-bi.md)을 참조하세요.
 
-Power BI 작업 영역에 게시된 페이지를 매긴 보고서는 Power BI 보고서와 나란히 사용할 수 있습니다. [Power BI 앱](../service-create-distribute-apps.md)를 사용하여 쉽게 배포할 수도 있습니다.
+Power BI 작업 영역에 게시된 페이지를 매긴 보고서는 Power BI 보고서와 나란히 사용할 수 있습니다. [Power BI 앱](../collaborate-share/service-create-distribute-apps.md)를 사용하여 쉽게 배포할 수도 있습니다.
 
 SSRS 보고서를 마이그레이션하는 대신 다시 만드는 방안을 고려하는 것이 좋습니다. 분석 환경을 제공하기 위한 보고서의 경우에는 특히 그렇습니다. 이러한 경우 Power BI 보고서가 더 나은 보고서 사용자 환경을 제공할 가능성이 높습니다.
 

@@ -7,12 +7,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 717627e171df6a0843453a72b54ec591a7fd5a19
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6f77b2c4ffa7b42cf99a75b4ae88ae0aeb631499
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78923198"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276631"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Power BI 공유 데이터 세트 기반의 페이지가 매겨진 보고서 만들기
 
@@ -20,14 +20,14 @@ Power BI Desktop에서 만든 데이터 세트를 Power BI 보고서 작성기�
 
 ![Power BI Desktop 및 보고서 작성기 페이지를 매긴 보고서](media/report-builder-shared-datasets/power-bi-desktop-report-builder-arrow-26-pgs.png)
 
-데이터 세트가 프리미엄 용량의 작업 영역에 있을 필요는 없으며, 해당 작업 영역의 멤버가 아니어도 됩니다. 데이터 세트의 [빌드 권한](../service-datasets-build-permissions.md)만 있으면 됩니다. 페이지를 매긴 보고서를 게시하려면 Power BI Pro 라이선스가 필요합니다. 또한 최소한 프리미엄 용량의 작업 영역에 대한 참가자 역할이 있어야 합니다.
+데이터 세트가 프리미엄 용량의 작업 영역에 있을 필요는 없으며, 해당 작업 영역의 멤버가 아니어도 됩니다. 데이터 세트의 [빌드 권한](../connect-data/service-datasets-build-permissions.md)만 있으면 됩니다. 페이지를 매긴 보고서를 게시하려면 Power BI Pro 라이선스가 필요합니다. 또한 최소한 프리미엄 용량의 작업 영역에 대한 참가자 역할이 있어야 합니다.
 
 ## <a name="what-you-need"></a>필요한 작업
 
 다음은 Power BI 보고서 작성기에서 공유 데이터 세트를 사용하는 데 필요한 사항과 필요하지 않은 사항의 목록입니다.
 
 - Power BI 보고서 작성기. [Power BI 보고서 작성기를 다운로드하여 설치](https://go.microsoft.com/fwlink/?linkid=2086513)합니다.
-- Power BI 데이터 세트에 액세스하려면 데이터 세트의 빌드 권한이 있어야 합니다. [빌드 권한](../service-datasets-build-permissions.md)을 참조하세요.
+- Power BI 데이터 세트에 액세스하려면 데이터 세트의 빌드 권한이 있어야 합니다. [빌드 권한](../connect-data/service-datasets-build-permissions.md)을 참조하세요.
 - 보고서 작성기에서 페이지를 매긴 보고서를 만드는 경우 Power BI Pro 라이선스가 필요하지 않습니다. 
 - 페이지를 매긴 보고서를 게시하려면 Power BI Pro 라이선스가 필요합니다. 또한 최소한 프리미엄 용량의 작업 영역에 대한 참가자 역할이 있어야 합니다. 
 - 선택 사항: 이 문서를 따르려는 경우 Power BI Desktop [소매점 분석 샘플 .pbix](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) 파일을 다운로드하고 Power BI Desktop에서 연 다음, 많은 열이 있는 테이블을 추가합니다. **서식** 창에서 **합계**를 끕니다. 그런 다음, Power BI 서비스의 작업 영역에 게시합니다.
@@ -74,7 +74,7 @@ Power BI 보고서와 보고서 작성기 보고서의 데이터를 동일하게
 1. Power BI Desktop에서 Power BI 보고서(.pbix)를 엽니다.
 1. 페이지를 매긴 보고서에 사용하려는 모든 데이터가 포함된 테이블이 보고서에 있는지 확인합니다. 테이블은 다음 두 가지 요구 사항을 충족해야 합니다.
     - 행렬이나 다른 시각적 개체가 아닌 플랫 테이블이어야 합니다. 테이블이 아닌 경우 지금 테이블로 변환하고, 다음에 나오는 성능 분석기 단계를 진행한 다음, 원하는 시각적 개체로 다시 변환합니다.
-    - 숫자 필드의 경우 ‘미리 정의된 측정값’을 사용해야 합니다.  필드 옆에 계산기 기호가 있습니다. [측정값 만들기](../desktop-measures.md)에 대해 알아보세요. 
+    - 숫자 필드의 경우 ‘미리 정의된 측정값’을 사용해야 합니다.  필드 옆에 계산기 기호가 있습니다. [측정값 만들기](../transform-model/desktop-measures.md)에 대해 알아보세요. 
 
         ![측정값 아이콘](media/report-builder-shared-datasets/power-bi-measure-icon.png)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/5/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d4e31d8c3d2bcbbfdf0d2d932be70cc2cd5f2625
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 20b597507a3619b60ef1db058d0ff3c8fd63b867
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866498"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276677"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI의 폭포 차트
 
@@ -66,7 +66,7 @@ ms.locfileid: "82866498"
 
    ![선택된 판매량 > 총판매액 차이에 해당하는 시각적 개체의 스크린샷](media/power-bi-visualization-waterfall-charts/power-bi-bar.png)
 
-1. 폭포 아이콘 ![폭포 아이콘의 스크린샷](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-icon.png)을 선택합니다.
+1. 폭포 아이콘 ![폭포 아이콘의 스크린샷](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-icon.png)
 
     ![시각화 템플릿](media/power-bi-visualization-waterfall-charts/convert-waterfall.png)
 
@@ -114,6 +114,7 @@ ms.locfileid: "82866498"
 
 ## <a name="next-steps"></a>다음 단계
 
-* [Power BI 보고서에서 시각적 개체가 조작되는 방식 변경](../service-reports-visual-interactions.md)
+* [Power BI 보고서에서 시각적 개체가 조작되는 방식 변경](../create-reports/service-reports-visual-interactions.md)
 
 * [Power BI의 시각화 유형](power-bi-visualization-types-for-reports-and-q-and-a.md)
+

@@ -4,12 +4,12 @@ ms.service: powerbi
 ms.topic: include
 ms.date: 01/31/2020
 ms.author: davidi
-ms.openlocfilehash: b67025de5e2a70876a31fd42e22c9572403288fa
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 912b0213c328c623e7881f7f30fe7d67f6d889b3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77464428"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83274643"
 ---
 ## <a name="limitations"></a>제한 사항
 
@@ -17,7 +17,7 @@ ms.locfileid: "77464428"
 
 * 이전에 Power BI 서비스에 역할 및 규칙을 정의한 경우 Power BI Desktop에서 이를 다시 생성해야 합니다.
 
-* Power BI Desktop으로 생성된 데이터 세트에서만 RLS를 정의할 수 있습니다. Excel로 만든 데이터 세트에 RLS를 사용하려는 경우 먼저 파일을 Power BI Desktop(PBIX) 파일로 변환해야 합니다. [자세히 알아보기](../desktop-import-excel-workbooks.md).
+* Power BI Desktop으로 생성된 데이터 세트에서만 RLS를 정의할 수 있습니다. Excel로 만든 데이터 세트에 RLS를 사용하려는 경우 먼저 파일을 Power BI Desktop(PBIX) 파일로 변환해야 합니다. [자세히 알아보기](../connect-data/desktop-import-excel-workbooks.md).
 
 * 가져오기 및 DirectQuery 연결만 지원됩니다. Analysis Services에 대한 라이브 연결은 온-프레미스 모델에서 처리됩니다.
 
@@ -32,3 +32,4 @@ Power BI Desktop에서 이전에 게시된 보고서를 게시하려고 하면 �
 1. Anna는 오류를 받습니다.
 
 **해결 방법:** 이 문제가 해결될 때까지 Power BI 서비스에서 Power BI Desktop 파일을 다시 게시합니다. **데이터 가져오기** > **파일**을 선택하여 이를 수행할 수 있습니다.
+

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/05/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 90d5e48ca200a6817338ae6c44595905cc76bfed
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 97e0a4f6e522997e6f132d1c3dbc493188ba66ba
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80752674"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275481"
 ---
 # <a name="connect-to-the-covid-19-us-tracking-report"></a>코로나바이러스감염증-19 미국 추적 보고서에 연결
 이 문서에서는 코로나바이러스감염증-19 추적 보고서의 템플릿 앱을 설치하고 데이터 원본에 연결하는 방법을 설명합니다.
@@ -54,14 +54,14 @@ ms.locfileid: "80752674"
 
 ## <a name="schedule-report-refresh"></a>보고서 새로 고침 예약
 
-데이터 새로 고침이 완료되면 앱의 작업 영역이 표시됩니다. [새로 고침 일정을 설정](../refresh-scheduled-refresh.md)하여 보고서 데이터를 최신 상태로 유지합니다.
+데이터 새로 고침이 완료되면 앱의 작업 영역이 표시됩니다. [새로 고침 일정을 설정](../connect-data/refresh-scheduled-refresh.md)하여 보고서 데이터를 최신 상태로 유지합니다.
 
 ## <a name="customize-and-share"></a>사용자 지정 및 공유
 
-자세한 내용은 [앱 사용자 지정 및 공유](../service-template-apps-install-distribute.md#customize-and-share-the-app)를 참조하세요. 앱을 게시하거나 배포하기 전에 반드시 [보고서 고지 사항](../create-reports/sample-covid-19-us.md#disclaimers)을 검토하세요.
+자세한 내용은 [앱 사용자 지정 및 공유](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app)를 참조하세요. 앱을 게시하거나 배포하기 전에 반드시 [보고서 고지 사항](../create-reports/sample-covid-19-us.md#disclaimers)을 검토하세요.
 
 ## <a name="next-steps"></a>다음 단계
 * [미국 주 및 지방 정부를 위한 코로나바이러스감염증-19 추적 샘플](../create-reports/sample-covid-19-us.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
-* [Power BI 템플릿 앱이란?](../service-template-apps-overview.md)
-* [조직에 템플릿 앱 설치 및 배포](../service-template-apps-install-distribute.md)
+* [Power BI 템플릿 앱이란?](../connect-data/service-template-apps-overview.md)
+* [조직에 템플릿 앱 설치 및 배포](../connect-data/service-template-apps-install-distribute.md)

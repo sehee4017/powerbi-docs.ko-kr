@@ -1,4 +1,4 @@
-﻿---
+---
 title: Power BI의 슬라이서
 description: Power BI 슬라이서는 보고서의 다른 시각화에 표시되는 데이터 세트의 부분을 좁히는 대체 필터링 방법입니다.
 author: maggiesMSFT
@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/06/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1ba284aa3c925ef0679572ca55cad9e5267d3f21
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c72863407fea0cf550643e5193a8b514b2bb51bd
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82585072"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276332"
 ---
 # <a name="slicers-in-power-bi"></a>Power BI의 슬라이서
 
@@ -24,11 +24,11 @@ ms.locfileid: "82585072"
 
 ![슬라이서 애니메이션](media/power-bi-visualization-slicers/slicer2.gif)
 
-이 문서에서는 무료 [소매점 분석 샘플](../sample-retail-analysis.md)을 사용하여 기본 슬라이서를 만들고 서식을 지정하는 과정을 안내합니다. 슬라이서의 영향을 받는 시각적 개체를 제어하는 방법과 다른 페이지의 슬라이서와 동기화하는 방법도 보여 줍니다. 특정 유형의 슬라이서를 만드는 방법을 설명하는 다른 문서는 다음과 같습니다.
+이 문서에서는 무료 [소매점 분석 샘플](../create-reports/sample-retail-analysis.md)을 사용하여 기본 슬라이서를 만들고 서식을 지정하는 과정을 안내합니다. 슬라이서의 영향을 받는 시각적 개체를 제어하는 방법과 다른 페이지의 슬라이서와 동기화하는 방법도 보여 줍니다. 특정 유형의 슬라이서를 만드는 방법을 설명하는 다른 문서는 다음과 같습니다.
 
-- [숫자 범위 슬라이서](../desktop-slicer-numeric-range.md)
+- [숫자 범위 슬라이서](../create-reports/desktop-slicer-numeric-range.md)
 - [상대 날짜 슬라이서](desktop-slicer-filter-date-range.md)
-- [크기 조정 가능한 반응형 슬라이서](../power-bi-slicer-filter-responsive.md)
+- [크기 조정 가능한 반응형 슬라이서](../create-reports/power-bi-slicer-filter-responsive.md)
 - [계층 구조 슬라이서](../create-reports/power-bi-slicer-hierarchy-multiple-fields.md)(여러 필드 포함)
 
 ## <a name="when-to-use-a-slicer"></a>슬라이서를 사용하는 경우
@@ -92,7 +92,7 @@ Power BI 슬라이서는 다음을 지원하지 않습니다.
 
    이제 슬라이서에서 이름과 날짜 범위를 선택할 때 **회계 월 및 구역 관리자별 총 판매액 차이** 차트가 변경되지 않습니다.
 
-상호 작용 편집에 대한 자세한 내용은 [Power BI 보고서에서 시각적 개체가 조작되는 방식 변경](../service-reports-visual-interactions.md)을 참조하세요.
+상호 작용 편집에 대한 자세한 내용은 [Power BI 보고서에서 시각적 개체가 조작되는 방식 변경](../create-reports/service-reports-visual-interactions.md)을 참조하세요.
 
 ## <a name="sync-and-use-slicers-on-other-pages"></a>다른 페이지에서 슬라이서 동기화 및 사용
 2018년 2월 Power BI 업데이트부터 보고서의 일부 또는 모든 페이지에서 슬라이서를 동기화하여 사용할 수 있습니다. 
@@ -134,7 +134,7 @@ Power BI 슬라이서는 다음을 지원하지 않습니다.
 ## <a name="filtering-slicers"></a>슬라이서 필터링
 슬라이서에 표시되는 값 목록을 줄이기 위해 슬라이서에 시각적 수준 필터를 적용할 수 있습니다. 예를 들어 목록 슬라이서에서 빈 값을 필터링하거나 범위 슬라이서에서 특정 날짜를 필터링할 수 있습니다. 이렇게 하면 섹션을 만들 때 ‘슬라이서에 표시된 값’에만 영향을 주며, ‘슬라이서가 다른 시각적 개체에 적용하는 필터’에 영향을 주지 않습니다.   예를 들어 범위 슬라이서에 필터를 적용하여 특정 날짜만 표시해보겠습니다. 슬라이서의 선택 항목은 해당 범위의 처음 날짜와 마지막 날짜만 표시하지만 다른 시각적 개체에서 다른 날짜를 볼 수 있습니다. 슬라이서에서 선택한 범위를 변경하면 다른 시각적 개체 업데이트가 표시됩니다. 슬라이서를 지우면 모든 날짜가 다시 표시됩니다.
 
-시각적 개체 수준 필터에 대한 자세한 내용은 [필터 형식](../power-bi-report-filter-types.md)을 참조하세요.
+시각적 개체 수준 필터에 대한 자세한 내용은 [필터 형식](../create-reports/power-bi-report-filter-types.md)을 참조하세요.
 
 ## <a name="format-slicers"></a>슬라이서 서식 지정
 슬라이서 유형에 따라 다양한 서식 옵션을 사용할 수 있습니다. **가로** 방향, **반응형** 레이아웃 및 **항목** 색 지정을 사용하면 표준 목록 항목이 아닌 단추 또는 타일을 생성하고 슬라이서 항목 크기가 다양한 화면 크기 및 레이아웃에 맞게 조정되도록 설정할 수 있습니다.  
@@ -169,7 +169,7 @@ Power BI 슬라이서는 다음을 지원하지 않습니다.
 
     ![가로 옵션](media/power-bi-visualization-slicers/6-buttons.png)
 
-가로 방향 및 반응형 레이아웃에 대한 자세한 내용은 [Power BI에서 크기를 조정할 수 있는 반응형 슬라이서 만들기](../power-bi-slicer-filter-responsive.md)를 참조하세요.
+가로 방향 및 반응형 레이아웃에 대한 자세한 내용은 [Power BI에서 크기를 조정할 수 있는 반응형 슬라이서 만들기](../create-reports/power-bi-slicer-filter-responsive.md)를 참조하세요.
 
 ### <a name="selection-controls-options-list-slicers-only"></a>선택 컨트롤 옵션(목록 슬라이서만 해당)
 1. **선택 컨트롤**에서 **“모두 선택” 옵션 표시**를 **켜기**로 설정하여 **모두 선택** 항목을 슬라이서에 추가합니다. 
@@ -222,4 +222,3 @@ Power BI 슬라이서는 다음을 지원하지 않습니다.
 - [Power BI의 시각화 유형](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 - [Power BI의 테이블](power-bi-visualization-tables.md)
-

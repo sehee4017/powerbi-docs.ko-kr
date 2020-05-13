@@ -8,12 +8,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 067171f7ec74beccdb5a312c1cac5bbc6c87541f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 511dc42a3090f838654cda84f596d34f02bb3439
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377653"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275090"
 ---
 # <a name="data-retrieval-guidance-for-paginated-reports"></a>페이지를 매긴 보고서의 데이터 검색 지침
 
@@ -101,14 +101,14 @@ MDX 쿼리 디자이너를 사용하려면 모델에 측정값을 포함해야 �
 
 ## <a name="non-native-data-sources"></a>기본이 아닌 데이터 원본
 
-[페이지를 매긴 보고서에서 기본적으로 지원](../paginated-reports/paginated-reports-data-sources.md)되지 않는 데이터 원본을 기반으로 페이지를 매긴 보고서를 개발해야 하는 경우에는 먼저 Power BI Desktop 데이터 모델을 개발할 수 있습니다. 이렇게 하면 100개가 넘는 [Power BI 데이터 원본](../power-bi-data-sources.md)에 연결할 수 있습니다. Power BI 서비스에 게시된 후 Power BI 데이터 세트에 연결하는 페이지를 매긴 보고서를 개발할 수 있습니다.
+[페이지를 매긴 보고서에서 기본적으로 지원](../paginated-reports/paginated-reports-data-sources.md)되지 않는 데이터 원본을 기반으로 페이지를 매긴 보고서를 개발해야 하는 경우에는 먼저 Power BI Desktop 데이터 모델을 개발할 수 있습니다. 이렇게 하면 100개가 넘는 [Power BI 데이터 원본](../connect-data/power-bi-data-sources.md)에 연결할 수 있습니다. Power BI 서비스에 게시된 후 Power BI 데이터 세트에 연결하는 페이지를 매긴 보고서를 개발할 수 있습니다.
 
 ## <a name="data-integration"></a>데이터 통합
 
 여러 데이터 원본의 데이터를 결합해야 하는 경우 다음 두 가지 옵션을 사용할 수 있습니다.
 
 - **보고서 데이터 세트 결합**: 데이터 원본이 [페이지를 매긴 보고서에서 기본적으로 지원](../paginated-reports/paginated-reports-data-sources.md)되는 경우 [Lookup](/sql/reporting-services/report-design/report-builder-functions-lookup-function) 또는 [LookupSet](/sql/reporting-services/report-design/report-builder-functions-lookupset-function) 보고서 작성기 함수를 사용하는 계산 필드를 만드는 것이 좋을 수 있습니다.
-- **Power BI Desktop 모델 개발**: 그러나 Power BI Desktop에서 데이터 모델을 개발하는 것이 더 효율적일 수 있습니다. 파워 쿼리를 사용하여 [지원되는 데이터 원본](../power-bi-data-sources.md)을 기반으로 쿼리를 결합할 수 있습니다. Power BI 서비스에 게시된 후 Power BI 데이터 세트에 연결하는 페이지를 매긴 보고서를 개발할 수 있습니다.
+- **Power BI Desktop 모델 개발**: 그러나 Power BI Desktop에서 데이터 모델을 개발하는 것이 더 효율적일 수 있습니다. 파워 쿼리를 사용하여 [지원되는 데이터 원본](../connect-data/power-bi-data-sources.md)을 기반으로 쿼리를 결합할 수 있습니다. Power BI 서비스에 게시된 후 Power BI 데이터 세트에 연결하는 페이지를 매긴 보고서를 개발할 수 있습니다.
 
 ## <a name="sql-server-complex-data-types"></a>SQL Server 복합 데이터 형식
 

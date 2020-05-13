@@ -7,12 +7,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 4a9dcf14d1745087e2596507d4c7dbc7a03b5ab3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7ee8887752f6a5161e0046e4aac1711f2ce64922
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435332"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276217"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱의 지리적 위치별 보고서 필터링
 적용 대상:
@@ -39,17 +39,16 @@ ms.locfileid: "79435332"
 ## <a name="why-dont-i-see-location-tags-on-a-report"></a>보고서에 위치 태그가 표시되지 않는 이유는 무엇입니까?
 위치 태그를 표시하려면 다음 세 가지 조건이 모두 참이어야 합니다. 
 
-* Power BI Desktop에서 보고서를 만든 사람은 도시, 주 또는 국가/지역 등 하나 이상의 열에 대해 [지리적 데이터를 분류](../../desktop-mobile-geofiltering.md)했어야 합니다.
+* Power BI Desktop에서 보고서를 만든 사람은 도시, 주 또는 국가/지역 등 하나 이상의 열에 대해 [지리적 데이터를 분류](../../transform-model/desktop-mobile-geofiltering.md)했어야 합니다.
 * 사용자는 해당 열에 데이터가 있는 위치 중 한 곳에 있습니다.
 * 사용자는 다음과 같은 모바일 디바이스 중 하나를 사용합니다.
   * iOS(iPad, iPhone, iPod)
   * Android(휴대폰, 태블릿)
   * Windows 10 휴대폰(PC, 태블릿 등 다른 Windows 10 디바이스는 지리적 필터링을 지원하지 않음)
 
-Power BI Desktop에서 [지리적 필터링 설정](../../desktop-mobile-geofiltering.md)에 대해 자세히 알아봅니다.
+Power BI Desktop에서 [지리적 필터링 설정](../../transform-model/desktop-mobile-geofiltering.md)에 대해 자세히 알아봅니다.
 
 ### <a name="next-steps"></a>다음 단계
 * 모바일 앱으로 [실제 Power BI 데이터에 연결](mobile-apps-data-in-real-world-context.md)
-* [Power BI Desktop의 데이터 분류](../../desktop-data-categorization.md) 
+* [Power BI Desktop의 데이터 분류](../../transform-model/desktop-data-categorization.md) 
 * 질문이 있으신가요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
-

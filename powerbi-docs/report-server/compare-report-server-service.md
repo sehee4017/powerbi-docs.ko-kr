@@ -1,4 +1,4 @@
-﻿---
+---
 title: Power BI Report Server 및 Power BI 서비스 비교
 description: 이 문서에서는 Power BI Report Server와 Power BI 서비스의 기능을 비교합니다.
 keywords: ''
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 ms.date: 03/04/2020
-ms.openlocfilehash: 7762ace1da913713567b79a9650b3f07aa71146d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 18ca1b58d37fedb2c8246b91dc765168002e163e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381057"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275941"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Report Server 및 Power BI 서비스 비교
 
@@ -31,26 +31,26 @@ Power BI Report Server 및 Power BI 서비스에는 많은 유사성과 일부 �
 | 릴리스 주기 | 1년에 세 번(1월, 5월, 9월) | 1개월에 한 번 | 최신 기능 및 수정은 Power BI 서비스에 대해 먼저 제공됩니다. 서비스에 대한 Power BI Desktop 릴리스의 기능 롤업은 각 릴리스에서 Power BI Report Server에 제공되고, 대부분의 다른 기능은 Power BI 서비스에만 사용할 수 있습니다. |
 | Power BI Desktop에서 Power BI 보고서 만들기 | 예 | 예 |  |
 | 브라우저에서 Power BI 보고서 만들기 | 아니요 | 예 |  |
-| Power BI 공유 데이터 세트 호스트 및 연결 | 아니요 | 예 | [작업 영역의 데이터 세트 소개](../service-datasets-across-workspaces.md) |
+| Power BI 공유 데이터 세트 호스트 및 연결 | 아니요 | 예 | [작업 영역의 데이터 세트 소개](../connect-data/service-datasets-across-workspaces.md) |
 | 게이트웨이 필요 | 아니요 | 온-프레미스 데이터 원본의 경우 예 |  |
-| 실시간 스트리밍 | 아니요 | 예 | [Power BI에서 실시간 스트리밍](../service-real-time-streaming.md) |
+| 실시간 스트리밍 | 아니요 | 예 | [Power BI에서 실시간 스트리밍](../connect-data/service-real-time-streaming.md) |
 | 대시보드 | 아니요 | 예 | [Power BI 서비스의 대시보드](../consumer/end-user-dashboards.md) |
-| 앱을 사용하여 보고서 그룹 배포 | 아니요 | 예 | [대시보드 및 보고서로 앱 생성 및 게시](../service-create-distribute-apps.md) |
-| 콘텐츠 팩 | 아니요 | 예 | [조직 콘텐츠 팩: 소개](../service-organizational-content-pack-introduction.md) |
-| Salesforce와 같은 서비스에 연결 | 예 | 예 | Power BI 서비스의 콘텐츠 팩과 함께 [사용하는 서비스에 연결](../service-connect-to-services.md)합니다. Power BI Report Server에서 인증된 커넥터를 사용하여 서비스에 연결합니다. 자세한 내용은 [Power BI Report Server에서 Power BI 보고서 데이터 원본](data-sources.md)을 참조하세요. |
-| Q&A | 아니요 | 예 | [Power BI 서비스 및 Power BI Desktop의 질문 및 답변](../power-bi-tutorial-q-and-a.md) 
+| 앱을 사용하여 보고서 그룹 배포 | 아니요 | 예 | [대시보드 및 보고서로 앱 생성 및 게시](../collaborate-share/service-create-distribute-apps.md) |
+| 콘텐츠 팩 | 아니요 | 예 | [조직 콘텐츠 팩: 소개](../collaborate-share/service-organizational-content-pack-introduction.md) |
+| Salesforce와 같은 서비스에 연결 | 예 | 예 | Power BI 서비스의 콘텐츠 팩과 함께 [사용하는 서비스에 연결](../connect-data/service-connect-to-services.md)합니다. Power BI Report Server에서 인증된 커넥터를 사용하여 서비스에 연결합니다. 자세한 내용은 [Power BI Report Server에서 Power BI 보고서 데이터 원본](data-sources.md)을 참조하세요. |
+| Q&A | 아니요 | 예 | [Power BI 서비스 및 Power BI Desktop의 질문 및 답변](../create-reports/power-bi-tutorial-q-and-a.md) 
 | 신속한 정보 활용 | 아니요 | 예 | [Power BI를 사용하여 데이터 인사이트를 자동으로 생성](../consumer/end-user-insights.md) |
-| 도구 모음 | 아니요 | 예 | [Excel에서 분석](../service-analyze-in-excel.md) 
+| 도구 모음 | 아니요 | 예 | [Excel에서 분석](../collaborate-share/service-analyze-in-excel.md) 
 | 페이지가 매겨진 보고서 | 예 | 예 | 프리미엄 용량에서 [Power BI 서비스에서 페이지를 매긴 보고서를 미리 보기로 사용할 수 있음](../paginated-reports/paginated-reports-report-builder-power-bi.md) |
 | Power BI 모바일 앱 | 예 | 예 | [Power BI 모바일 앱 개요](../consumer/mobile/mobile-apps-for-mobile-devices.md) |
 | ARC GIS 지도 | 아니요 | 예 | [Power BI 서비스 및 Power BI Desktop에서 Esri로 ArcGIS 지도 만들기](../visuals/power-bi-visualization-arcgis.md) |
-| Power BI 보고서에 대한 메일 구독 | 아니요 | 예 | Power BI 서비스의 보고서 또는 대시보드에 [자신이나 다른 사용자 구독](../service-report-subscribe.md) |
+| Power BI 보고서에 대한 메일 구독 | 아니요 | 예 | Power BI 서비스의 보고서 또는 대시보드에 [자신이나 다른 사용자 구독](../collaborate-share/service-report-subscribe.md) |
 | 페이지를 매긴 보고서에 대한 메일 구독 | 예 | 예 | [Power BI 서비스의 페이지가 매겨진 보고서에 자신과 다른 사용자 구독](../consumer/paginated-reports-subscriptions.md)<br><br>[Reporting Services의 메일 전송](https://docs.microsoft.com/sql/reporting-services/working-with-subscriptions-web-portal)  |
-| 데이터 경고 | 아니요 | 예 | Power BI 서비스의 [데이터 경고](../service-set-data-alerts.md)
-| 행 수준 보안(RLS) | 예 | 예 | DirectQuery(데이터 원본) 및 가져오기 모드에서 사용 가능 <br><br>[Power BI 서비스](../service-admin-rls.md)의 행 수준 보안 <br><br>[Power BI Report Server](row-level-security-report-server.md)의 행 수준 보안 |
+| 데이터 경고 | 아니요 | 예 | Power BI 서비스의 [데이터 경고](../create-reports/service-set-data-alerts.md)
+| 행 수준 보안(RLS) | 예 | 예 | DirectQuery(데이터 원본) 및 가져오기 모드에서 사용 가능 <br><br>[Power BI 서비스](../admin/service-admin-rls.md)의 행 수준 보안 <br><br>[Power BI Report Server](row-level-security-report-server.md)의 행 수준 보안 |
 | 전체 화면 모드 | 아니요 | 예 | Power BI 서비스의 [전체 화면 모드](../consumer/end-user-focus.md) |
-| 고급 Office 365 협업 | 아니요 | 예 | Office 365를 사용하여 [작업 영역에서 협업](../service-collaborate-power-bi-workspace.md) |
-| R 시각적 개체 | 아니요 | 예 | Power BI Desktop에서[R 시각적 개체를 만들고](../desktop-r-visuals.md) Power BI 서비스에 게시합니다. R 시각적 개체를 포함하는 Power BI 보고서는 Power BI Report Server에 저장할 수 없습니다.  |
+| 고급 Office 365 협업 | 아니요 | 예 | Office 365를 사용하여 [작업 영역에서 협업](../collaborate-share/service-collaborate-power-bi-workspace.md) |
+| R 시각적 개체 | 아니요 | 예 | Power BI Desktop에서[R 시각적 개체를 만들고](../create-reports/desktop-r-visuals.md) Power BI 서비스에 게시합니다. R 시각적 개체를 포함하는 Power BI 보고서는 Power BI Report Server에 저장할 수 없습니다.  |
 | 미리 보기 기능 | 아니요 | 예 | [Power BI 서비스 미리 보기 기능 옵트인](../consumer/end-user-preview-features.md) |
 | Power BI 시각적 개체 | 예 | 예 | [Power BI 시각적 개체](../developer/visuals/power-bi-custom-visuals.md) |
 | 복합 모델 | 아니요 | 예 |
@@ -59,3 +59,9 @@ Power BI Report Server 및 Power BI 서비스에는 많은 유사성과 일부 �
 ## <a name="next-steps"></a>다음 단계
 
 [Power BI Report Server 설치](install-report-server.md)
+
+
+
+
+
+

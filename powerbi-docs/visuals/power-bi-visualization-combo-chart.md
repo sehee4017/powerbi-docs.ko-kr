@@ -1,4 +1,4 @@
-﻿---
+---
 title: Power BI의 콤보 차트
 description: 콤보 차트에 대한 이 자습서에서는 Power BI 서비스 및 Desktop에서 콤보 차트를 사용하는 시기와 만드는 방법을 설명합니다.
 author: mihart
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/22/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9c8dcfec103bb53d645cdfd347112d7443506569
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 036343df0a9af678b5a88c261a60ce603483a1cc
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867004"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277183"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>Power BI의 콤보 차트 만들기 및 사용
 
@@ -121,16 +121,19 @@ Will이 판매 및 샘플 마케팅을 사용하여 콤보 차트를 만드는 �
 
 여기서 다음과 같은 작업을 수행할 수 있습니다.
 
-* [대시보드 타일로 콤보 차트를 추가합니다](../service-dashboard-tiles.md).
-* [보고서를 저장합니다](../service-report-save.md).
+* [대시보드 타일로 콤보 차트를 추가합니다](../create-reports/service-dashboard-tiles.md).
+* [보고서를 저장합니다](../create-reports/service-report-save.md).
 * [장애가 있는 사용자가 보고서에 액세스할 수 있도록 만듭니다](../desktop-accessibility.md).
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>교차 강조 표시 및 교차 필터링
 
-콤보 차트에서 특정 세로 막대 또는 꺾은선을 강조 표시하면 보고서 페이지의 다른 시각화 요소가 교차 강조 표시 및 교차 필터링되며 그 반대의 경우도 마찬가지입니다. 이 기본 동작을 변경하려면 [시각적 상호 작용](../service-reports-visual-interactions.md)을 사용합니다.
+콤보 차트에서 특정 세로 막대 또는 꺾은선을 강조 표시하면 보고서 페이지의 다른 시각화 요소가 교차 강조 표시 및 교차 필터링되며 그 반대의 경우도 마찬가지입니다. 이 기본 동작을 변경하려면 [시각적 상호 작용](../create-reports/service-reports-visual-interactions.md)을 사용합니다.
 
 ## <a name="next-steps"></a>다음 단계
 
 [Power BI의 도넛형 차트](power-bi-visualization-doughnut-charts.md)
 
 [Power BI의 시각화 유형](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+
+

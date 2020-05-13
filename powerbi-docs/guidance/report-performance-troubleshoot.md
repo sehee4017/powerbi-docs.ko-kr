@@ -8,18 +8,18 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/15/2020
 ms.author: v-pemyer
-ms.openlocfilehash: a5230a39706ce5d6941c00386160fe10114442e1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: dd3be575946502a886bbf2b89e2a1844f4046ea7
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81527994"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276953"
 ---
 # <a name="troubleshoot-report-performance-in-power-bi"></a>Power BI의 보고서 성능 문제 해결
 
 이 문서에서는 개발자와 관리자가 보고서 성능 저하 문제를 해결할 수 있는 지침을 제공합니다. 지침은 Power BI 보고서와 Power BI 페이지를 매긴 보고서에도 적용됩니다.
 
-로드 속도가 느리거나 슬라이서 또는 다른 기능과 상호 작용할 때 업데이트 속도가 느려지는 보고서 사용자는 보고서 성능 저하를 식별할 수 있습니다. 보고서가 프리미엄 용량에 호스트되는 경우 [Power BI Premium 메트릭 앱](../service-admin-premium-monitor-capacity.md)을 모니터링하여 보고서 성능 저하를 식별할 수도 있습니다. 이 앱은 Power BI Premium 구독의 상태 및 용량을 모니터링하는 데 도움이 됩니다.
+로드 속도가 느리거나 슬라이서 또는 다른 기능과 상호 작용할 때 업데이트 속도가 느려지는 보고서 사용자는 보고서 성능 저하를 식별할 수 있습니다. 보고서가 프리미엄 용량에 호스트되는 경우 [Power BI Premium 메트릭 앱](../admin/service-admin-premium-monitor-capacity.md)을 모니터링하여 보고서 성능 저하를 식별할 수도 있습니다. 이 앱은 Power BI Premium 구독의 상태 및 용량을 모니터링하는 데 도움이 됩니다.
 
 ## <a name="follow-flowchart-steps"></a>순서도 단계 따르기
 
@@ -44,7 +44,7 @@ ms.locfileid: "81527994"
 
 ### <a name="premium-capacity"></a>프리미엄 용량
 
-보고서가 프리미엄 용량에서 호스트되는 경우 **Power BI Premium 메트릭 앱**을 사용하여 보고서 호스팅 용량이 용량 리소스를 수시로 초과하는지 여부를 확인합니다. CPU가 80%를 수시로 초과하는 경우에 발생합니다. 메모리의 경우 [활성 메모리 메트릭](../service-premium-metrics-app.md#the-active-memory-metric)이 50을 초과하는 때입니다. 리소스에 대한 압박이 있을 때 [용량을 관리하거나 크기를 조정](../service-admin-premium-manage.md)해야 할 수 있습니다(순서도 종결자 1). 적절한 리소스가 있는 경우 일반적인 보고서 사용 중에 용량 작업을 조사합니다(순서도 종결자 2).
+보고서가 프리미엄 용량에서 호스트되는 경우 **Power BI Premium 메트릭 앱**을 사용하여 보고서 호스팅 용량이 용량 리소스를 수시로 초과하는지 여부를 확인합니다. CPU가 80%를 수시로 초과하는 경우에 발생합니다. 메모리의 경우 [활성 메모리 메트릭](../admin/service-premium-metrics-app.md#the-active-memory-metric)이 50을 초과하는 때입니다. 리소스에 대한 압박이 있을 때 [용량을 관리하거나 크기를 조정](../admin/service-admin-premium-manage.md)해야 할 수 있습니다(순서도 종결자 1). 적절한 리소스가 있는 경우 일반적인 보고서 사용 중에 용량 작업을 조사합니다(순서도 종결자 2).
 
 ### <a name="shared-capacity"></a>공유 용량
 
@@ -53,14 +53,14 @@ ms.locfileid: "81527994"
 먼저 하루 또는 월의 특정 시간에 성능 저하가 발생하는지 확인합니다. 이러한 경우는 많은 사용자가 보고서를 열고 있는 것입니다. 다음과 같은 두 가지 옵션을 고려해야 합니다.
 
 - 데이터 세트를 [Azure Analysis Services](/azure/analysis-services/analysis-services-overview)또는 프리미엄 용량으로 마이그레이션하여 쿼리 처리량을 늘립니다(순서도 종결자 4).
-- Power BI Desktop [성능 분석기](../desktop-performance-analyzer.md)를 사용하여 시각적 개체 및 DAX 수식과 같은 각 보고서 요소의 상태를 확인할 수 있습니다. 이 방법은 성능 문제의 원인이 쿼리인지 시각적 개체 렌더링인지 확인하는 데 특히 유용합니다(순서도 종결자 5).
+- Power BI Desktop [성능 분석기](../create-reports/desktop-performance-analyzer.md)를 사용하여 시각적 개체 및 DAX 수식과 같은 각 보고서 요소의 상태를 확인할 수 있습니다. 이 방법은 성능 문제의 원인이 쿼리인지 시각적 개체 렌더링인지 확인하는 데 특히 유용합니다(순서도 종결자 5).
 
 시간 패턴이 없는 것을 확인하는 경우 다음으로 성능 저하가 특정 지리 또는 지역으로 격리되는지 여부를 고려합니다. 이러한 경우는 데이터 원본이 원격이고 네트워크 통신이 느릴 수 있습니다. 이 경우 다음을 고려하세요.
 
 - [Azure Analysis Services](/azure/analysis-services/analysis-services-overview)를 사용하여 아키텍처 변경(순서도 종결자 3).
 - [온-프레미스 데이터 게이트웨이 성능](/data-integration/gateway/service-gateway-performance) 최적화(순서도 종결자 3).
 
-마지막으로, 시간 패턴이 없고 _또한_ 모든 지역에서 성능이 저하되는 것을 확인하는 경우 특정 디바이스, 클라이언트 또는 웹 브라우저에서 성능 저하가 발생하는지 여부를 조사합니다. 그렇지 않으면 앞에서 설명한 대로 Power BI Desktop [Performance Analyzer](../desktop-performance-analyzer.md)를 사용하여 보고서나 모델을 최적화합니다(순서도 종결자 5).
+마지막으로, 시간 패턴이 없고 _또한_ 모든 지역에서 성능이 저하되는 것을 확인하는 경우 특정 디바이스, 클라이언트 또는 웹 브라우저에서 성능 저하가 발생하는지 여부를 조사합니다. 그렇지 않으면 앞에서 설명한 대로 Power BI Desktop [Performance Analyzer](../create-reports/desktop-performance-analyzer.md)를 사용하여 보고서나 모델을 최적화합니다(순서도 종결자 5).
 
 특정 디바이스, 클라이언트 또는 웹 브라우저에서 성능이 저하되는 것을 확인하면 [Power BI 지원 페이지](https://powerbi.microsoft.com/support/)를 통해 지원 티켓을 만드는 것이 좋습니다(순서도 종결자 6).
 
@@ -70,7 +70,7 @@ ms.locfileid: "81527994"
 
 - [Power BI 지침](index.yml)
 - [보고서 성능 모니터링](monitor-report-performance.md)
-- [성능 분석기](../desktop-performance-analyzer.md)
+- [성능 분석기](../create-reports/desktop-performance-analyzer.md)
 - 백서: [Power BI Enterprise 배포 계획](https://go.microsoft.com/fwlink/?linkid=2057861)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 - 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com/)

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.openlocfilehash: 83fadfe5f690a87563d20b9c6385b9a37193b9c9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b70db42732143d5db938ad793be8aa3997ecdd8c
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921772"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276907"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Power BI 서비스에서 페이지를 매긴 보고서의 포함된 데이터 원본 만들기
 
@@ -27,11 +27,11 @@ ms.locfileid: "78921772"
 - Oracle 
 - Teradata 
 
-다음 데이터 원본에 대해 [SQL Server Analysis Services 연결](../service-premium-connect-tools.md) 옵션을 사용합니다.
+다음 데이터 원본에 대해 [SQL Server Analysis Services 연결](../admin/service-premium-connect-tools.md) 옵션을 사용합니다.
 
 - Power BI Premium 데이터 세트
 
-페이지를 매긴 보고서는 [Power BI 게이트웨이](../service-gateway-onprem.md)를 통해 온-프레미스 데이터 원본에 연결됩니다. 보고서를 Power BI 서비스에 게시한 후 게이트웨이를 설정합니다.
+페이지를 매긴 보고서는 [Power BI 게이트웨이](../connect-data/service-gateway-onprem.md)를 통해 온-프레미스 데이터 원본에 연결됩니다. 보고서를 Power BI 서비스에 게시한 후 게이트웨이를 설정합니다.
 
 자세한 내용은 [Power BI 보고서 작성기의 보고서 데이터](report-builder-data.md)를 참조하세요.
 
@@ -93,3 +93,4 @@ Power BI 데이터 세트에 연결하는 페이지를 매긴 보고서는 Power
 
 - [Power BI 서비스에서 페이지를 매긴 보고서의 포함된 데이터 세트 만들기](paginated-reports-create-embedded-dataset.md)
 - [Power BI Premium에서 페이지를 매긴 보고서란?](paginated-reports-report-builder-power-bi.md)
+

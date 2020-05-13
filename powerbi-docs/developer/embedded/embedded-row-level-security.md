@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 19abcd84809f0bf8d3560fd8734d30fcf31b9ecb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 71f204058bfa94c61df8299d2a2c7c9063caad5d
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80550960"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277022"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded를 사용하는 행 수준 보안
 
@@ -21,7 +21,7 @@ ms.locfileid: "80550960"
 
 일반적으로 ISV 시나리오인 Power BI 비사용자(앱 소유 데이터)에 포함되는 경우 이 문서를 참조하세요. 사용자 및 역할을 설명하기 위해 포함 토큰을 구성합니다.
 
-조직 내에서 Power BI 사용자(사용자 소유 데이터)에 포함되는 경우 RLS는 Power BI 서비스 내에서와 마찬가지로 직접 작동합니다. 애플리케이션에서 추가로 수행해야 하는 작업은 없습니다. 자세한 내용은 [Power BI에서 RLS(행 수준 보안)](../../service-admin-rls.md)를 참조하세요.
+조직 내에서 Power BI 사용자(사용자 소유 데이터)에 포함되는 경우 RLS는 Power BI 서비스 내에서와 마찬가지로 직접 작동합니다. 애플리케이션에서 추가로 수행해야 하는 작업은 없습니다. 자세한 내용은 [Power BI에서 RLS(행 수준 보안)](../../admin/service-admin-rls.md)를 참조하세요.
 
 ![행 수준 보안과 관련된 항목입니다.](media/embedded-row-level-security/powerbi-embedded-rls-components.png)
 
@@ -29,7 +29,7 @@ RLS를 활용하려면 세 가지 주요 개념인 사용자, 역할 및 규칙�
 
 **사용자** – 아티팩트(대시보드, 타일, 보고서 또는 데이터 세트)를 보는 최종 사용자입니다. 사용자는 Power BI Embedded에서 포함된 토큰에 있는 사용자 이름 속성에 의해 식별됩니다.
 
-**역할** - 사용자 역할에 속합니다. 역할은 규칙에 대한 컨테이너로써 *판매 관리자* 또는 *영업 담당자*와 같은 이름을 지정할 수 있습니다. Power BI Desktop 내에서 역할을 만듭니다. 자세한 내용은 [Power BI Desktop에서 RLS(행 수준 보안)](../../desktop-rls.md)을 참조하세요.
+**역할** - 사용자 역할에 속합니다. 역할은 규칙에 대한 컨테이너로써 *판매 관리자* 또는 *영업 담당자*와 같은 이름을 지정할 수 있습니다. Power BI Desktop 내에서 역할을 만듭니다. 자세한 내용은 [Power BI Desktop에서 RLS(행 수준 보안)](../../create-reports/desktop-rls.md)을 참조하세요.
 
 **규칙** – 역할에는 규칙이 있고 이러한 규칙은 데이터에 적용되는 실제 필터입니다. 규칙은 “국가 = 미국”처럼 간단하거나 훨씬 동적일 수 있습니다.
 이 문서의 나머지 부분에는 RLS를 작성하고 포함된 애플리케이션 내에서 사용하는 예제가 있습니다. 예제에서는 [소매점 분석 샘플](https://go.microsoft.com/fwlink/?LinkID=780547) PBIX 파일을 사용합니다.
@@ -135,7 +135,7 @@ var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "r
 
 ### <a name="on-premises-data-gateway-configuration"></a>온-프레미스 데이터 게이트웨이 구성
 
-[온-프레미스 데이터 게이트웨이](../../service-gateway-onprem.md)는 Analysis Services 라이브 연결을 사용할 경우에 사용됩니다. 나열된 ID를 사용하여 embed 토큰을 생성할 경우 마스터 계정은 게이트웨이의 관리자로 나열되어야 합니다. 마스터 계정이 나열되지 않으면 행 수준 보안이 데이터 속성에 적용되지 않습니다. 게이트웨이 관리자 이외의 역할을 제공할 수 있지만 유효한 ID에 대한 고유한 사용자 이름을 지정해야 합니다.
+[온-프레미스 데이터 게이트웨이](../../connect-data/service-gateway-onprem.md)는 Analysis Services 라이브 연결을 사용할 경우에 사용됩니다. 나열된 ID를 사용하여 embed 토큰을 생성할 경우 마스터 계정은 게이트웨이의 관리자로 나열되어야 합니다. 마스터 계정이 나열되지 않으면 행 수준 보안이 데이터 속성에 적용되지 않습니다. 게이트웨이 관리자 이외의 역할을 제공할 수 있지만 유효한 ID에 대한 고유한 사용자 이름을 지정해야 합니다.
 
 ### <a name="use-of-roles"></a>역할 사용
 
@@ -235,9 +235,9 @@ REST API를 호출하는 경우 각 ID 내에 사용자 지정 데이터를 추�
 
 보고서에서 데이터 필터링을 결정할 때 **RLS(행 수준 보안)** 또는 **JavaScript 필터**를 사용할 수 있습니다.
 
-[행 수준 보안](../../service-admin-rls.md)은 데이터 모델 수준에서 데이터를 필터링하는 기능입니다. 백엔드 데이터 원본이 RLS 설정을 제어합니다. 데이터 모델에 따라 포함 토큰 생성이 사용자 이름과 세션의 역할을 설정합니다. 클라이언트 쪽 코드로 이를 대체, 제거 또는 제어할 수 없으므로 안전한 것으로 간주됩니다. 데이터를 안전하게 필터링하기 위해 RLS를 사용할 것을 권장합니다. 아래 옵션 중 하나를 사용하여 RLS로 데이터를 필터링할 수 있습니다.
+[행 수준 보안](../../admin/service-admin-rls.md)은 데이터 모델 수준에서 데이터를 필터링하는 기능입니다. 백엔드 데이터 원본이 RLS 설정을 제어합니다. 데이터 모델에 따라 포함 토큰 생성이 사용자 이름과 세션의 역할을 설정합니다. 클라이언트 쪽 코드로 이를 대체, 제거 또는 제어할 수 없으므로 안전한 것으로 간주됩니다. 데이터를 안전하게 필터링하기 위해 RLS를 사용할 것을 권장합니다. 아래 옵션 중 하나를 사용하여 RLS로 데이터를 필터링할 수 있습니다.
 
-* [Power BI 보고서에서 역할을 구성](../../desktop-rls.md).
+* [Power BI 보고서에서 역할을 구성](../../create-reports/desktop-rls.md).
 * 데이터 원본 수준(Analysis Services 실시간 연결 전용)에서 역할을 구성합니다.
 * `EffectiveIdentity`를 사용하여 [포함 토큰](https://docs.microsoft.com/rest/api/power-bi/embedtoken/datasets_generatetokeningroup)을 통해 프로그래밍 방식으로 필터링. 포함 토큰을 사용하는 경우, 실제 필터는 특정 세션에서 포함 토큰을 통과합니다.
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 78bfc17e81a3de3ce9f6f32c694de902ae0a1ef9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 015c227fd600827e306c8b31b68992e33e6a3206
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114847"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276194"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>iOS 앱의 질문 및 답변 가상 분석가 - Power BI
 
@@ -102,7 +102,7 @@ Apple iOS 개발자 가이드의 [iOS의 새로운 기능](https://go.microsoft.
 * iOS 모바일 앱의 Power BI 서비스 또는 질문 및 답변 가상 분석가에서 이러한 [질문 및 답변에서 질문하기 팁](../end-user-q-and-a-tips.md)을 따르세요.
 
 ### <a name="how-to-enhance-the-dataset"></a>데이터 세트를 향상시키는 방법
-* Power BI Desktop 또는 Power BI 서비스에서 데이터 세트를 향상시켜 [데이터가 질문 및 답변과 질문 및 답변 가상 분석가에서 잘 작동하도록](../../service-prepare-data-for-q-and-a.md) 합니다.
+* Power BI Desktop 또는 Power BI 서비스에서 데이터 세트를 향상시켜 [데이터가 질문 및 답변과 질문 및 답변 가상 분석가에서 잘 작동하도록](../../create-reports/service-prepare-data-for-q-and-a.md) 합니다.
 
 ## <a name="next-steps"></a>다음 단계
 * [Power BI 서비스에서 Q&A](../end-user-q-and-a.md)

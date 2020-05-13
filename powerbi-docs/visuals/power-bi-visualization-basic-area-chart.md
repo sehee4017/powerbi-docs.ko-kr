@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 18d16440e8894e69101357af700c9b295eaa30c6
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: f6960d3087ba5b271c6c130df59e6e667e838165
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866969"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277160"
 ---
 # <a name="create-and-use-basic-area-charts"></a>기본 영역형 차트 만들기 및 사용
 
@@ -68,7 +68,7 @@ ms.locfileid: "82866969"
    d.  월별 차트를 표시하려면 줄임표(시각적 개체의 오른쪽 위 모서리)를 선택 하고 **월별 정렬**을 선택합니다. 정렬 순서를 변경하려면 줄임표를 다시 선택하고 **오름차순 정렬** 또는 **내림차순 정렬**을 선택합니다.
 
 ## <a name="highlighting-and-cross-filtering"></a>강조 표시 및 교차 필터링
-필터 창 사용 방법에 대한 자세한 내용은 [보고서에 필터 추가](../power-bi-report-add-filter.md)를 참조하세요.
+필터 창 사용 방법에 대한 자세한 내용은 [보고서에 필터 추가](../create-reports/power-bi-report-add-filter.md)를 참조하세요.
 
 차트에서 한 특정 영역을 강조 표시하려면 영역 또는 영역의 위쪽 테두리를 선택합니다.  다른 시각화 유형과는 달리, 동일한 페이지에 다른 시각화가 있는 경우 기본 영역형 차트를 강조 표시해도 보고서 페이지의 다른 시각화를 교차 필터링하지 않습니다. 그러나 영역형 차트는 보고서 페이지에서 기타 시각화 요소에 의해 트리거되는 교차 필터링의 대상입니다. 
 
@@ -78,7 +78,7 @@ ms.locfileid: "82866969"
 
     ![필터 예시](media/power-bi-visualization-basic-area-chart/power-bi-area-chart-filters.gif) 
 
-자세한 내용은 [보고서의 시각적 상호 작용](../service-reports-visual-interactions.md)을 참조하세요.
+자세한 내용은 [보고서의 시각적 상호 작용](../create-reports/service-reports-visual-interactions.md)을 참조하세요.
 
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결   
@@ -87,4 +87,6 @@ ms.locfileid: "82866969"
 
 ## <a name="next-step"></a>다음 단계
 [Power BI의 보고서](power-bi-visualization-card.md)  
+
+
 

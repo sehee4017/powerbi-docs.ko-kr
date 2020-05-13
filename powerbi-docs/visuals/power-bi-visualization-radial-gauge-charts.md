@@ -1,4 +1,4 @@
-﻿---
+---
 title: Power BI의 방사형 계기 차트
 description: Power BI의 방사형 계기 차트
 author: mihart
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7c6c4dbe9f17464483f5b44542ffbe04f715d4bd
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 4274136df063258b6879057636f11ec437873ae6
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866935"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276355"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Power BI의 방사형 계기 차트
 
@@ -61,7 +61,7 @@ ms.locfileid: "82866935"
 1. 새 페이지를 추가하기 위해 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
 
 
- 
+
 ## <a name="create-a-basic-radial-gauge"></a>기본 방사형 계기 만들기
 
 ### <a name="step-1-create-a-gauge-to-track-gross-sales"></a>1단계: 총 매출을 추적하는 계기 만들기
@@ -116,7 +116,7 @@ ms.locfileid: "82866935"
 
 ### <a name="step-5-save-your-report"></a>5단계: 보고서 저장
 
-1. [보고서를 저장합니다](../service-report-save.md).
+1. [보고서를 저장합니다](../create-reports/service-report-save.md).
 
 ## <a name="use-manual-format-options-to-set-minimum-maximum-and-target-values"></a>수동 서식 옵션을 사용하여 최솟값, 최댓값 및 대상 값 설정
 
@@ -151,3 +151,4 @@ ms.locfileid: "82866935"
 * [Power BI의 시각화 유형](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
+

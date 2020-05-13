@@ -1,4 +1,4 @@
-﻿---
+---
 title: Power BI의 트리맵
 description: Power BI의 트리맵
 author: mihart
@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 189cc784577df277b0b0517253699ae06842b30c
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: afc18fa33ec1612900cecc0a34eb50851804fb62
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866889"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276700"
 ---
 # <a name="treemaps-in-power-bi"></a>Power BI의 트리맵
 
@@ -120,10 +120,11 @@ ms.locfileid: "82866889"
 1. **지난 해 체인별 판매액** 원형 차트에서 **Fashions Direct** 조각을 선택하여 트리맵을 교차 필터링합니다.
    ![교차 필터링 기능의 GIF 데모.](media/power-bi-visualization-treemaps/treemapnoowl.gif)
 
-1. 차트를 상호 간에 강조 표시하고 필터링하는 방법을 관리하려면 [Power BI 보고서에서 시각적 개체가 조작되는 방식 변경](../service-reports-visual-interactions.md)을 참조하세요.
+1. 차트를 상호 간에 강조 표시하고 필터링하는 방법을 관리하려면 [Power BI 보고서에서 시각적 개체가 조작되는 방식 변경](../create-reports/service-reports-visual-interactions.md)을 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 
 * [Power BI의 폭포 차트](power-bi-visualization-waterfall-charts.md)
 
 * [Power BI의 시각화 유형](power-bi-visualization-types-for-reports-and-q-and-a.md)
+

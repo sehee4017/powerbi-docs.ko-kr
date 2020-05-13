@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/24/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6af8568dc39544ce064643c8dfb80fa2932cf13a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 52522c03a285290fbc01da49328516f62ddfc60a
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82149673"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279230"
 ---
 # <a name="connect-to-the-regional-emergency-response-dashboard"></a>지역별 응급 대응 대시보드에 연결
 지역별 응급 대응 대시보드는 [Microsoft Power Platform 지역별 응급 대응 솔루션](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview)의 보고 구성 요소입니다. 지역별 조직 관리자는 Power BI 테넌트에서 대시보드를 볼 수 있으므로 효율적인 의사 결정에 도움이 되는 중요한 데이터 및 메트릭을 빠르게 볼 수 있습니다.
@@ -82,21 +82,21 @@ ms.locfileid: "82149673"
 
 ## <a name="schedule-report-refresh"></a>보고서 새로 고침 예약
 
-데이터 새로 고침이 완료되면 [새로 고침 일정을 설정](../refresh-scheduled-refresh.md)하여 보고서 데이터를 최신 상태로 유지합니다.
+데이터 새로 고침이 완료되면 [새로 고침 일정을 설정](../connect-data/refresh-scheduled-refresh.md)하여 보고서 데이터를 최신 상태로 유지합니다.
 
 1. 위쪽 헤더 표시줄에서 **Power BI**를 선택합니다.
 
    ![Power BI 이동 경로](media/service-connect-to-regional-emergency-response/service-regional-emergency-response-app-powerbi-breadcrumb.png)
 
-1. 왼쪽 탐색 창의 **작업 영역** 아래에서 지역별 응급 대응 대시보드 작업 영역을 찾아서 [예약된 새로 고침 구성](../refresh-scheduled-refresh.md) 문서의 지침을 따릅니다.
+1. 왼쪽 탐색 창의 **작업 영역** 아래에서 지역별 응급 대응 대시보드 작업 영역을 찾아서 [예약된 새로 고침 구성](../connect-data/refresh-scheduled-refresh.md) 문서의 지침을 따릅니다.
 
 ## <a name="customize-and-share"></a>사용자 지정 및 공유
 
-자세한 내용은 [앱 사용자 지정 및 공유](../service-template-apps-install-distribute.md#customize-and-share-the-app)를 참조하세요. 앱을 게시하거나 배포하기 전에 반드시 [보고서 고지 사항](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview#disclaimer)을 검토하세요.
+자세한 내용은 [앱 사용자 지정 및 공유](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app)를 참조하세요. 앱을 게시하거나 배포하기 전에 반드시 [보고서 고지 사항](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview#disclaimer)을 검토하세요.
 
 ## <a name="next-steps"></a>다음 단계
 * [지역별 응급 대응 대시보드 이해](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights)
 * [Power Apps에서 재난 안내 샘플 템플릿 설정 및 알아보기](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
-* [Power BI 템플릿 앱이란?](../service-template-apps-overview.md)
-* [조직에 템플릿 앱 설치 및 배포](../service-template-apps-install-distribute.md)
+* [Power BI 템플릿 앱이란?](../connect-data/service-template-apps-overview.md)
+* [조직에 템플릿 앱 설치 및 배포](../connect-data/service-template-apps-install-distribute.md)

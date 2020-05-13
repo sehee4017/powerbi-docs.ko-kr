@@ -1,4 +1,4 @@
-﻿---
+---
 title: Power BI 모바일 앱에서 바코드 스캔
 description: 실제 세계에서 바코드를 스캔하여 Power BI 모바일 앱에 있는 필터링된 BI 정보로 바로 이동합니다.
 author: paulinbar
@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: 043f27a2fb695811ac867689b4a63efdefded2e6
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: dfe5e6350d0209f836900a921aadc5347b181766
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80802052"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276171"
 ---
 # <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>Power BI 모바일 앱에서 디바이스로 바코드 스캔
 실제 세계에서 바코드를 스캔하여 Power BI 모바일 앱에 있는 필터링된 BI 정보로 바로 이동합니다.
@@ -25,14 +25,14 @@ ms.locfileid: "80802052"
 |:--- |:--- |:--- |:--- |
 |iPhone |iPad |Android 휴대폰 |Android 태블릿 |
 
-동료가 [보고서 Power BI Desktop에 바코드 필드의 태그를 지정](../../desktop-mobile-barcodes.md)하고 보고서를 공유했다고 가정합니다. 
+동료가 [보고서 Power BI Desktop에 바코드 필드의 태그를 지정](../../transform-model/desktop-mobile-barcodes.md)하고 보고서를 공유했다고 가정합니다. 
 
 ![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-scanner.png)
 
 디바이스의 Power BI 앱에서 스캐너를 사용하여 제품 바코드를 스캔할 때 해당 바코드가 있는 보고서(또는 보고서 목록)를 확인합니다. 해당 바코드로 필터링된 보고서를 열 수 있습니다.
 
 ## <a name="scan-a-barcode-with-the-power-bi-scanner"></a>Power BI 스캐너를 사용하여 바코드 스캔
-1. 탐색 모음에서 **추가 옵션**(...)을 탭한 다음, **스캐너**를 탭합니다.
+1. 탐색 모음에서 **기타 옵션**(...)을 탭한 다음, **스캐너**를 탭합니다.
 
     ![](media/mobile-apps-scan-barcode-iphone/power-bi-scanner.png)
 
@@ -64,13 +64,12 @@ ms.locfileid: "80802052"
 ### <a name="looks-like-you-dont-have-any-reports-that-can-be-filtered-by-barcodes"></a>“바코드를 기준으로 필터링할 수 있는 보고서가 없는 것 같습니다.”
 이는 바코드가 사용하도록 설정된 보고서가 없음을 의미합니다. 바코드 스캐너는 **바코드**로 표시된 열이 있는 보고서만을 필터링할 수 있습니다.  
 
-사용자 또는 보고서 소유자가 Power BI Desktop에서 열의 태그를 **바코드**로 지정하도록 합니다. [Power BI Desktop에서 바코드 필드 태그 지정](../../desktop-mobile-barcodes.md)에 대해 자세히 알아봅니다.
+사용자 또는 보고서 소유자가 Power BI Desktop에서 열의 태그를 **바코드**로 지정하도록 합니다. [Power BI Desktop에서 바코드 필드 태그 지정](../../transform-model/desktop-mobile-barcodes.md)에 대해 자세히 알아봅니다.
 
 ### <a name="couldnt-filter-report---looks-like-this-barcode-doesnt-exist-in-the-report-data"></a>“보고서를 필터링할 수 없음 - 이 바코드는 보고서 데이터에 없는 것 같습니다.”
 필터링하도록 선택한 보고서는 이 바코드 값을 포함하지 않은 데이터 모델을 기반으로 합니다. 예를 들어 "미네랄 워터"라는 제품은 보고서에 포함되지 않습니다. 다른 제품을 검색하고 다른 보고서(둘 이상의 보고서를 사용할 수 있는 경우)를 선택하거나 필터링되지 않은 보고서를 볼 수 있습니다. 
 
 ## <a name="next-steps"></a>다음 단계
-* [Power BI Desktop에서 바코드 필드 태그 지정](../../desktop-mobile-barcodes.md)
+* [Power BI Desktop에서 바코드 필드 태그 지정](../../transform-model/desktop-mobile-barcodes.md)
 * [Power BI의 대시보드 타일](../end-user-tiles.md)
 * [Power BI의 대시보드](../end-user-dashboards.md)
-

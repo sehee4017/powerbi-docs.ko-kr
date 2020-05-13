@@ -1,4 +1,4 @@
-﻿---
+---
 title: Power BI의 분산형, 거품형 및 점 그림 차트
 description: Power BI의 분산형 차트, 점 그림 차트 및 거품형 차트
 author: mihart
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 33c07df0cd8c0e00489f344e721164ed9252fcaf
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 9a9248f68f85f6dec2a70842c0931d7dd448d690
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866912"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276838"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI의 분산형 차트, 거품형 차트 및 점 그림 차트
 
@@ -177,13 +177,13 @@ X축에 따라 범주 데이터를 포함하려는 경우 좋은 선택입니다
 
 ![자세히 웰에 TempTime이 추가된 분산형 차트의 스크린샷](media/power-bi-visualization-scatter/pbi-scatter-tshoot2.png)
 
-새 필드를 만들려면 데이터 세트에 [Power BI Desktop 쿼리 편집기를 사용하여 인덱스 열을 추가](../desktop-add-custom-column.md)합니다. 그런 다음, 이 열을 시각화의 **자세히** 영역에 추가합니다.
+새 필드를 만들려면 데이터 세트에 [Power BI Desktop 쿼리 편집기를 사용하여 인덱스 열을 추가](../create-reports/desktop-add-custom-column.md)합니다. 그런 다음, 이 열을 시각화의 **자세히** 영역에 추가합니다.
 
 ## <a name="next-steps"></a>다음 단계
 
 다음 문서에도 관심이 있을 수 있습니다.
 
-* [Power BI 분산형 차트의 고밀도 샘플링](desktop-high-density-scatter-charts.md)
+* [Power BI 분산형 차트의 고밀도 샘플링](../create-reports/desktop-high-density-scatter-charts.md)
 * [Power BI의 시각화 유형](power-bi-visualization-types-for-reports-and-q-and-a.md)
 * [Power BI 보고서에서 데이터 플롯 정렬 및 배포 팁](../guidance/report-tips-sort-distribute-data-plots.md)
 

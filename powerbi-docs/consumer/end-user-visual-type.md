@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 6bf8ccd9048262ce05aff68819ecdb31a44ddfe2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: acfcd863a537153e70734d5f83e89e384438885e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377193"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279437"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI의 시각적 개체 유형
 
@@ -97,7 +97,7 @@ ms.locfileid: "79377193"
 
 주요 영향 요인 차트는 선택한 결과 또는 값에 대한 주요 기여자를 표시합니다.
 
-주요 영향 요인을 통해 주요 메트릭에 영향을 주는 요인을 이해하도록 도울 수 있습니다. 예: *두 번째 주문하는 고객에게 영향을 주는 요인* 또는 *지난 6월 매출이 높은 이유* 
+주요 영향 요인을 통해 주요 메트릭에 영향을 주는 요인을 이해하도록 도울 수 있습니다. 예: *두 번째 주문하는 고객에게 영향을 주는 요인*또는*지난 6월 매출이 높은 이유* 
 
 ### <a name="kpis"></a>KPI
 ![KPI](media/end-user-visual-type/power-bi-kpi.png)
@@ -152,7 +152,7 @@ ArcGIS 지도와 Power BI의 조합은 지도에서 요소의 표현을 넘어�
 ![질문 및 답변 시각적 개체](media/end-user-visual-type/power-bi-q-and-a.png)
 
 >[!TIP]
->[대시보드의 질문 및 답변 환경](../power-bi-tutorial-q-and-a.md)과 마찬가지로, 질문 및 답변 시각적 개체를 사용하면 자연어로 데이터에 대해 질문할 수 있습니다. 
+>[대시보드의 질문 및 답변 환경](../create-reports/power-bi-tutorial-q-and-a.md)과 마찬가지로, 질문 및 답변 시각적 개체를 사용하면 자연어로 데이터에 대해 질문할 수 있습니다. 
 
 자세한 내용은 [Power BI의 질문 및 답변 시각적 개체](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)를 참조하세요.
 
@@ -248,3 +248,4 @@ Power BI 질문 및 답변을 사용하여 자연어 쿼리를 입력할 때 쿼
 ## <a name="next-steps"></a>다음 단계
 [보고서, 대시보드 및 앱에서 시각적 개체 조작](end-user-visualizations.md)    
 [sqlbi.com에서 올바른 시각적 개체 참조](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
+

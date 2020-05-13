@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3b8985158092227fde5eb64eddabc9990d0606f6
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a38b3aa72c37d10ce19344ebe6f3c3f286661d62
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82120278"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83275527"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI에서 대시보드 및 보고서로 앱 설치 및 사용
 
@@ -65,7 +65,7 @@ Microsoft AppSource에서 앱을 찾아 설치할 수도 있습니다. 액세스
 
 ## <a name="get-an-app-from-the-microsoft-appsource-website"></a>Microsoft AppSource 웹 사이트에서 앱 가져오기 
 
-이 예제에서는 Microsoft 샘플 앱 중 하나를 엽니다. AppSource에서 비즈니스 운영에 사용하는 다양한 서비스용 앱을 찾을 수 있습니다.  Salesforce, Microsoft Dynamics, Google 애널리틱스, GitHub, Zendesk, Marketo 등의 서비스가 있습니다. 자세한 내용은 [Power BI를 통해 사용 중인 서비스용 앱](../service-connect-to-services.md)을 참조하세요. 
+이 예제에서는 Microsoft 샘플 앱 중 하나를 엽니다. AppSource에서 비즈니스 운영에 사용하는 다양한 서비스용 앱을 찾을 수 있습니다.  Salesforce, Microsoft Dynamics, Google 애널리틱스, GitHub, Zendesk, Marketo 등의 서비스가 있습니다. 자세한 내용은 [Power BI를 통해 사용 중인 서비스용 앱](../connect-data/service-connect-to-services.md)을 참조하세요. 
 
 1. 브라우저에서 [https://appsource.microsoft.com](https://appsource.microsoft.com)을 열고 **Power BI 앱**을 선택합니다.
 
@@ -142,3 +142,4 @@ Microsoft AppSource에서 앱을 찾아 설치할 수도 있습니다. 액세스
 * [앱 개요로 돌아가기](end-user-apps.md)
 * [Power BI 보고서 보기](end-user-report-open.md)
 * [콘텐츠를 공유하는 다른 방법](end-user-shared-with-me.md)
+
