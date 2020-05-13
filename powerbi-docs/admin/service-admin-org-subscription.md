@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/08/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 28acd982faed44a0912a486262c9db7611531265
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c0f4e8fd72f3808633cde64a880130798fabb173
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81447490"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83138289"
 ---
 # <a name="get-a-power-bi-subscription-for-your-organization"></a>조직의 Power BI 구독 가져오기
 
@@ -41,7 +41,7 @@ Power BI 구독에 등록하려면 회사 또는 학교 계정이 필요합니�
 
 ## <a name="sign-up-through-microsoft-365"></a>Microsoft 365를 통해 등록
 
-Microsoft 365 전역 관리자 또는 대금 청구 관리자의 경우 조직의 Power BI 구독을 가져올 수 있습니다. 자세한 내용은 [라이선스는 누가 구매하고 할당할 수 있나요?](../service-admin-licensing-organization.md#who-can-purchase-and-assign-licenses)를 참조하세요.
+Microsoft 365 전역 관리자 또는 대금 청구 관리자의 경우 조직의 Power BI 구독을 가져올 수 있습니다. 자세한 내용은 [라이선스는 누가 구매하고 할당할 수 있나요?](service-admin-licensing-organization.md#who-can-purchase-and-assign-licenses)를 참조하세요.
 
 > [!NOTE]
 >

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 17742c48d9ac5cb49b6d04fe6fe4674e7f6c7ac9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 45edb3695acdcc5519fb0b62cebc853ff25ce97a
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80404877"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83145215"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>자습서:  페이지를 매긴 보고서를 만들어 Power BI 서비스에 업로드
 
@@ -43,7 +43,7 @@ Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.
 Power BI 서비스로 페이지를 매긴 보고서를 업로드하는 데 필요한 필수 조건은 다음과 같습니다.
 
 - [Power BI Pro 라이선스](../service-admin-power-bi-pro-in-your-organization.md)가 있어야 합니다.
-- [Power BI Premium 용량](../service-premium-what-is.md)에 서비스 작업 영역이 있어야 합니다. 해당 용량의 작업 영역 이름 옆에는 다이아몬드 아이콘(![Premium 다이아몬드 아이콘](media/paginated-reports-quickstart-aw/premium-diamond.png))이 있습니다.
+- [Power BI Premium 용량](../admin/service-premium-what-is.md)에 서비스 작업 영역이 있어야 합니다. 해당 용량의 작업 영역 이름 옆에는 다이아몬드 아이콘(![Premium 다이아몬드 아이콘](media/paginated-reports-quickstart-aw/premium-diamond.png))이 있습니다.
 
 ## <a name="create-the-matrix-with-a-wizard"></a>마법사를 사용하여 행렬 만들기
   
@@ -329,4 +329,3 @@ Power BI 서비스에 보고서를 게시하기 전에 한 가지 더 형식 지
 ## <a name="next-steps"></a>다음 단계
 
 [Power BI Premium에서 페이지를 매긴 보고서란?](paginated-reports-report-builder-power-bi.md)
-

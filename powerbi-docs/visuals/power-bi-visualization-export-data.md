@@ -1,4 +1,4 @@
-﻿---
+---
 title: Power BI 시각화에서 데이터 내보내기
 description: 보고서 시각화 및 대시보드 시각화에서 데이터를 내보내고 Excel에서 봅니다.
 author: mihart
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/28/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e3e0108f539a7c42b41c36f743a0b8b79f3b61b8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 49e4653152e8981222d3a2589781546eb25bcd0e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82781734"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273020"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>시각화를 생성하는 데 사용된 데이터 내보내기
 
@@ -54,7 +54,7 @@ Will이 보고서의 시각화 중 하나에서 데이터를 내보내고 *.xlsx
 
 ## <a name="export-data-from-a-report"></a>보고서에서 데이터 내보내기
 
-과정을 따르려면 편집용 보기의 Power BI 서비스에서 [조달 분석 샘플 보고서](../sample-procurement.md)를 엽니다. 빈 보고서 페이지를 새로 추가합니다. 그런 다음 집계, 계층 구조 및 시각화 수준 필터를 추가하려면 다음 단계를 따릅니다.
+과정을 따르려면 편집용 보기의 Power BI 서비스에서 [조달 분석 샘플 보고서](../create-reports/sample-procurement.md)를 엽니다. 빈 보고서 페이지를 새로 추가합니다. 그런 다음 집계, 계층 구조 및 시각화 수준 필터를 추가하려면 다음 단계를 따릅니다.
 
 ### <a name="create-a-stacked-column-chart"></a>누적 세로 막대형 차트를 만듭니다.
 
@@ -94,7 +94,7 @@ Will이 보고서의 시각화 중 하나에서 데이터를 내보내고 *.xlsx
 
     - **기본 데이터**
 
-    집계 이해를 위한 도움은 [Power BI의 집계](../service-aggregates.md)를 참조하세요.
+    집계 이해를 위한 도움은 [Power BI의 집계](../create-reports/service-aggregates.md)를 참조하세요.
 
 
     > [!NOTE]
@@ -133,7 +133,7 @@ Will이 보고서의 시각화 중 하나에서 데이터를 내보내고 *.xlsx
 
     - **기본 데이터**
 
-    집계 이해를 위한 도움은 [Power BI의 집계](../service-aggregates.md)를 참조하세요.
+    집계 이해를 위한 도움은 [Power BI의 집계](../create-reports/service-aggregates.md)를 참조하세요.
 
 
     > [!NOTE]
@@ -164,7 +164,7 @@ Power BI 관리자와 디자이너가 독점 데이터를 보호하기 위해 �
 
 - Power BI 관리자는 조직에 대한 데이터 내보내기를 해제할 수 있습니다. 
 
-- 데이터 세트 소유자는 RLS(행 수준 보안)를 설정할 수 있습니다. RLS는 읽기 전용 사용자에 대한 액세스를 제한합니다. 그러나 앱 작업 영역을 구성하고 멤버에게 편집 권한을 지정한 경우에는 RLS 역할이 적용되지 않습니다. 자세한 내용은 [행 수준 보안](../service-admin-rls.md)을 참조하세요.
+- 데이터 세트 소유자는 RLS(행 수준 보안)를 설정할 수 있습니다. RLS는 읽기 전용 사용자에 대한 액세스를 제한합니다. 그러나 앱 작업 영역을 구성하고 멤버에게 편집 권한을 지정한 경우에는 RLS 역할이 적용되지 않습니다. 자세한 내용은 [행 수준 보안](../admin/service-admin-rls.md)을 참조하세요.
 
 - 보고서 디자이너는 **필드** 목록에 표시되지 않도록 열을 숨길 수 있습니다. 자세한 내용은 [데이터 세트 속성](../developer/automation/api-dataset-properties.md)을 참조하세요.
 

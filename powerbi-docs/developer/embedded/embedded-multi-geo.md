@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 269fe87a61df3470a8d11e4934ff1fca4bde7e86
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3b51fbfda8f63834a0b2445bd2b2b23734b8e234
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114661"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83149251"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>Power BI Embedded에 대한 다중 지역 지원
 
 **Power BI Embedded에 대한 다중 지역 지원**은 Power BI Embedded를 사용하여 애플리케이션을 빌드해 앱에 분석 기능을 포함하는 ISV와 조직이 이제 전 세계 여러 지역에서 데이터를 배포할 수 있음을 의미합니다.
 
-이제 **Power BI Embedded**를 사용하는 고객은 **Power BI Premium에서 다중 지역을 사용하여 지원**하는 것과 동일한 기능 및 제한 사항에 따라 **다중 지역** 옵션을 사용하여 [A 용량](../../service-admin-premium-Multi-Geo.md)을 설정할 수 있습니다.
+이제 **Power BI Embedded**를 사용하는 고객은 **Power BI Premium에서 다중 지역을 사용하여 지원**하는 것과 동일한 기능 및 제한 사항에 따라 **다중 지역** 옵션을 사용하여 [A 용량](../../admin/service-admin-premium-Multi-Geo.md)을 설정할 수 있습니다.
 
 ## <a name="creating-new-power-bi-embedded-capacity-resource-with-multi-geo"></a>다중 지역을 사용하여 새로운 Power BI Embedded 용량 리소스 만들기
 
@@ -89,6 +89,6 @@ API를 통해 다중 지역을 사용한 용량 관리를 지원하기 위해 �
 
 * [Power BI Embedded 용량 만들기](azure-pbie-create-capacity.md)
 
-* [Power BI Premium 용량의 다중 지역](../../service-admin-premium-multi-geo.md)
+* [Power BI Premium 용량의 다중 지역](../../admin/service-admin-premium-multi-geo.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

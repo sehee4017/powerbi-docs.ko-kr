@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 502e37cda5533fe6d9b1ce45faa67f809dbeec78
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9c883b32d03362e5d0e0d6d5ed074cb627fabaf1
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78263694"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273195"
 ---
 # <a name="bi-directional-relationship-guidance"></a>양방향 관계 지침
 
@@ -134,10 +134,11 @@ CALCULATE(
 
 이 문서와 관련된 보다 자세한 내용을 알아보려면 다음 리소스를 참조하세요.
 
-- [Power BI Desktop의 모델 관계](../desktop-relationships-understand.md)
+- [Power BI Desktop의 모델 관계](../transform-model/desktop-relationships-understand.md)
 - [별모양 스키마 및 Power BI에서의 중요성 이해](star-schema.md)
 - [일 대 일 관계 지침](relationships-one-to-one.md)
 - [다 대 다 관계 지침](relationships-many-to-many.md)
 - [관계 문제 해결 지침](relationships-troubleshoot.md)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 - 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com/)
+

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/13/2020
-ms.openlocfilehash: dfb57d6344e6a8e020404f9cd23c957967b960f7
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: bdbd604c552f9efa29fc8738e474b0907ad44f2e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81122251"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278356"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Report Server에 최적화된 Power BI Desktop 설치
 
@@ -81,7 +81,7 @@ Power BI Report Server 보고서는 Power BI 시각적 개체를 비롯한 대�
 
 Power BI Report Server 보고서는 [Power BI 모바일 앱](../consumer/mobile/mobile-apps-for-mobile-devices.md)에서 다음을 비롯한 모든 기본 기능을 지원합니다.
 
-* [휴대폰 보고서 레이아웃](../desktop-create-phone-report.md): Power BI 모바일 앱에 보고서를 최적화할 수 있습니다. 휴대폰에서 최적화된 보고서에는 특수 아이콘 ![휴대폰 보고서 레이아웃 아이콘](media/install-powerbi-desktop/power-bi-rs-mobile-optimized-icon.png) 및 레이아웃이 포함됩니다.
+* [휴대폰 보고서 레이아웃](../create-reports/desktop-create-phone-report.md): Power BI 모바일 앱에 보고서를 최적화할 수 있습니다. 휴대폰에서 최적화된 보고서에는 특수 아이콘 ![휴대폰 보고서 레이아웃 아이콘](media/install-powerbi-desktop/power-bi-rs-mobile-optimized-icon.png) 및 레이아웃이 포함됩니다.
   
     ![휴대폰에 최적화된 보고서](media/install-powerbi-desktop/power-bi-rs-mobile-optimized-report.png)
 
@@ -115,3 +115,4 @@ Power BI Desktop을 설치했으므로 Power BI 보고서를 작성하기 시작
 [Power BI Report Server란?](get-started.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+

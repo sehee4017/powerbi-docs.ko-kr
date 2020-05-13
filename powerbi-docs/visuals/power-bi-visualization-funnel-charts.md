@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b60a4c14873427bd06d2b6abce48c9d3d3008859
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 6eee86423fdfc1e1a9338aa4fecfd5eae0c0d111
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82865256"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272859"
 ---
 # <a name="create-and-use-funnel-charts"></a>깔때기형 차트 만들기 및 사용
 
@@ -94,20 +94,23 @@ ms.locfileid: "82865256"
      
      ![제안 막대에 대한 세부 정보](media/power-bi-visualization-funnel-charts/funnelhover-new.png)
 
-6. [보고서를 저장합니다](../service-report-save.md).
+6. [보고서를 저장합니다](../create-reports/service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>강조 표시 및 교차 필터링
-필터 창 사용 방법에 대한 자세한 내용은 [보고서에 필터 추가](../power-bi-report-add-filter.md)를 참조하세요.
+필터 창 사용 방법에 대한 자세한 내용은 [보고서에 필터 추가](../create-reports/power-bi-report-add-filter.md)를 참조하세요.
 
 깔때기에서 막대를 강조 표시하면 보고서 페이지의 다른 시각화 요소를 교차 필터링하며 그 반대의 경우도 마찬가지입니다. 계속 수행하려면 깔때기형 차트를 포함하는 보고서 페이지에 몇 가지 시각적 개체를 추가합니다.
 
 1. 깔때기에서 **Proposal** 막대를 선택합니다. 이는 페이지의 다른 시각화 요소를 상호 간에 강조 표시합니다. Ctrl 키를 사용하면 여러 개를 선택할 수 있습니다.
    
    ![시각적 개체 상호 작용을 보여 주는 짧은 비디오](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
-2. 시각적 개체를 상호 간에 강조 표시하고 필터링하는 방법에 대한 기본 설정을 설정하려면 [Power BI에서 시각적 상호 작용](../service-reports-visual-interactions.md)을 참조하세요.
+2. 시각적 개체를 상호 간에 강조 표시하고 필터링하는 방법에 대한 기본 설정을 설정하려면 [Power BI에서 시각적 상호 작용](../create-reports/service-reports-visual-interactions.md)을 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 
 [Power BI의 계기](power-bi-visualization-radial-gauge-charts.md)
 
 [Power BI의 시각화 유형](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+
+

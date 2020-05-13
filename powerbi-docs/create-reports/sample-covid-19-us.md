@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/28/2020
 ms.author: lukaszp
 LocalizationGroup: Samples
-ms.openlocfilehash: 8cdc4a9a78c20c7c4e6986b63a3af61a319df1b6
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: aca7fc70bc70de553eee070ce5e1522b96c94880
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82584936"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277896"
 ---
 # <a name="covid-19-tracking-sample-for-us-state-and-local-governments"></a>미국 주 및 지방 정부를 위한 COVID-19 추적 샘플
 
@@ -48,7 +48,7 @@ Microsoft는 샘플 보고서를 게시하고 웹에 게시 embed 태그를 만�
 <iframe width="1600" height="900" src="https://app.powerbi.com/view?r=eyJrIjoiMmI2ZjExMzItZTcwNy00YmUwLWFlMTAtYTUxYzVjODZmYjA5IiwidCI6ImMxMzZlZWMwLWZlOTItNDVlMC1iZWFlLTQ2OTg0OTczZTIzMiIsImMiOjF9" frameborder="0" allowFullScreen="true"></iframe>
 ```
 
-Embed 태그는 HTML 페이지에 삽입할 수 있는 HTML iFrame 요소입니다. 제공된 iFrame의 너비와 높이를 사이트에 맞게 조정합니다. 샘플 보고서는 16:9 비율로 작성되었으므로 이 차원을 유지하는 크기를 선택합니다. 올바르게 구현되면 그래픽이 회색 테두리 없이 표시됩니다. 이러한 변경 작업을 수행할 때 [iFrame 크기 조정 팁과 요령을 검토](../service-publish-to-web.md#tips-for-iframe-height-and-width)하면 유용합니다.
+Embed 태그는 HTML 페이지에 삽입할 수 있는 HTML iFrame 요소입니다. 제공된 iFrame의 너비와 높이를 사이트에 맞게 조정합니다. 샘플 보고서는 16:9 비율로 작성되었으므로 이 차원을 유지하는 크기를 선택합니다. 올바르게 구현되면 그래픽이 회색 테두리 없이 표시됩니다. 이러한 변경 작업을 수행할 때 [iFrame 크기 조정 팁과 요령을 검토](../collaborate-share/service-publish-to-web.md#tips-for-iframe-height-and-width)하면 유용합니다.
 
 ## <a name="option-2-customize-the-sample-power-bi-file"></a>옵션 2: 샘플 Power BI 파일 사용자 지정
 
@@ -93,18 +93,18 @@ USAFacts 데이터는 저작자 표시가 필요한 Creative Commons 라이선�
 
 ### <a name="publish-your-report-to-the-power-bi-service"></a>Power BI 서비스에 보고서 게시
 
-보고서를 원하는 대로 사용자 지정했으면 [여기에 설명된 단계에 따라 보고서를 Power BI 서비스에 게시](../desktop-upload-desktop-files.md)합니다.
+보고서를 원하는 대로 사용자 지정했으면 [여기에 설명된 단계에 따라 보고서를 Power BI 서비스에 게시](../create-reports/desktop-upload-desktop-files.md)합니다.
 
 ### <a name="configure-scheduled-refresh"></a>예약된 새로 고침 구성
 
-보고서 데이터를 최신 상태로 유지하려면 보고서를 게시한 후 [예약된 새로 고침을 구성](../refresh-scheduled-refresh.md)할 수 있습니다.
+보고서 데이터를 최신 상태로 유지하려면 보고서를 게시한 후 [예약된 새로 고침을 구성](../connect-data/refresh-scheduled-refresh.md)할 수 있습니다.
 
 해당 단계를 수행할 때 다음 옵션을 선택합니다.
 
 1. 데이터 원본 자격 증명 인증 방법: 익명
 2. 이 데이터 원본에 대한 개인 정보 수준 설정: 공개
 
-새로 고침 설정을 테스트하려면 데이터 세트 항목에서 사용할 수 있는 [지금 새로 고침](../refresh-data.md#data-refresh) 옵션을 선택합니다.
+새로 고침 설정을 테스트하려면 데이터 세트 항목에서 사용할 수 있는 [지금 새로 고침](../connect-data/refresh-data.md#data-refresh) 옵션을 선택합니다.
 
 새로 고친 데이터는 일정이 실행될 때마다 로드됩니다. 기본 데이터는 USAFacts에서 제공되며 설정한 새로 고침 일정만큼 자주 업데이트되지 않을 수 있습니다. [USAFacts 웹 사이트](https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/)를 확인하여 기본 데이터가 마지막으로 업데이트된 시기를 알 수 있습니다. 
 
@@ -112,7 +112,7 @@ USAFacts 데이터는 저작자 표시가 필요한 Creative Commons 라이선�
 
 ### <a name="create-a-publish-to-web-embed-code"></a>웹에 게시 embed 태그 만들기 
 
-사용자 지정 보고서를 자체 웹 사이트에 포함하려면 [자체 웹에 게시 embed 태그를 만드는 방법](../service-publish-to-web.md#create-embed-codes-with-publish-to-web)에 대한 지침을 따릅니다.
+사용자 지정 보고서를 자체 웹 사이트에 포함하려면 [자체 웹에 게시 embed 태그를 만드는 방법](../collaborate-share/service-publish-to-web.md#create-embed-codes-with-publish-to-web)에 대한 지침을 따릅니다.
 
 Embed 태그를 게시한 후에는 확인 대화 상자에서 iFrame을 사용하여 웹 사이트에 포함합니다.
 
@@ -143,7 +143,7 @@ Power BI Desktop에서 보고서를 변경한 경우 Power BI 서비스에서 �
 
     :::image type="content" source="media/sample-covid-19-us/power-bi-covid-19-load-data.png" alt-text="웹에서 데이터 로드":::
 
-    이 문서 [Power BI Desktop에서 웹 페이지에 연결](../desktop-connect-to-web.md)에서는 웹에서 데이터를 로드하는 방법을 자세히 설명합니다.
+    이 문서 [Power BI Desktop에서 웹 페이지에 연결](../connect-data/desktop-connect-to-web.md)에서는 웹에서 데이터를 로드하는 방법을 자세히 설명합니다.
     
 그런 다음 Power BI Desktop을 사용하여 데이터를 시각화할 수 있습니다. 마지막으로 **옵션 2:** [Power BI 서비스에 보고서 게시](#publish-your-report-to-the-power-bi-service)의 단계를 사용하여 보고서를 게시하고 사용자 지정 embed 태그를 만듭니다. 
 
@@ -168,4 +168,8 @@ Johns Hopkins 대학교 데이터는 Copyright 2020 Johns Hopkins University에 
 
 ## <a name="next-steps"></a>다음 단계
 
-[Power BI용 샘플 가져오기](../sample-datasets.md)
+[Power BI용 샘플 가져오기](../create-reports/sample-datasets.md)
+
+
+
+

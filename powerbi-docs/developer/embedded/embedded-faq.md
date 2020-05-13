@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 0042c7db70cac103d04d1c48d06c12b71634b541
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: fe1eb36a63d504497f15bef8316e96d120439793
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80403662"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83145105"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded에 대한 질문과 대답
 
@@ -67,7 +67,7 @@ PRO 라이선스가 있는 포함 토큰은 개발 테스트용이므로 Power B
 
 ### <a name="how-can-i-monitor-power-bi-embedded-capacity-consumption"></a>Power BI Embedded 용량 소비를 모니터링하려면 어떻게 하나요?
 
-* [Power BI 관리 포털](../../service-admin-portal.md#power-bi-embedded) 사용
+* [Power BI 관리 포털](../../admin/service-admin-portal.md#power-bi-embedded) 사용
 
 * Power BI에서 [메트릭 앱](https://docs.microsoft.com/power-bi/service-admin-premium-monitor-capacity) 다운로드
 

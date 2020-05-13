@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 97e7bf44233e0986459be9edf719cd21cd3d7a01
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d7fc915c9c21460670bf86f308b756196886983a
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81637597"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83132048"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Power BI의 데이터 보호(미리 보기)
 
@@ -113,6 +113,6 @@ Microsoft Cloud App Security를 사용하여 의도하지 않은 유출이나 �
 이 문서에서는 Power BI의 데이터 보호에 대해 간략하게 설명했습니다. 다음 문서에서는 Power BI의 데이터 보호에 대해 자세히 설명합니다. 
 
 * [Power BI에서 데이터 민감도 레이블 사용](service-security-enable-data-sensitivity-labels.md)
-* [Power BI에서 데이터 민감도 레이블 적용](../designer/service-security-apply-data-sensitivity-labels.md)
+* [Power BI에서 데이터 민감도 레이블 적용](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
 * [Power BI에서 Microsoft Cloud App Security 제어 사용](service-security-using-microsoft-cloud-app-security-controls.md)
 * [데이터 보호 메트릭 보고서](service-security-data-protection-metrics-report.md)

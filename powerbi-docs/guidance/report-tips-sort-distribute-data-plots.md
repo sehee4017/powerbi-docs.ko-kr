@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/25/2020
 ms.author: v-pemyer
-ms.openlocfilehash: e532c78254dffc9a3f95a165f509f8cc0553f09b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 639999044da94c3f31abdf63737a876b63dc83c9
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82065942"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278908"
 ---
 # <a name="tips-to-sort-and-distribute-data-plots-in-power-bi-reports"></a>Power BI 보고서에서 데이터 플롯 정렬 및 배포 팁
 
@@ -42,7 +42,8 @@ Power BI 보고서에서 데이터 플롯 정렬 및 배포에 관한 9가지 �
 
 이 문서와 관련된 보다 자세한 내용을 알아보려면 다음 리소스를 참조하세요.
 
-- [멋진 보고서를 만드는 팁](../desktop-tips-and-tricks-for-creating-reports.md)
+- [멋진 보고서를 만드는 팁](../create-reports/desktop-tips-and-tricks-for-creating-reports.md)
 - biDezine 비디오: [Power BI에서 데이터 플롯 정렬 및 배포에 관한 9가지 팁](https://www.youtube.com/watch?v=BnhA4qa-9Jk)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 - 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com/)
+

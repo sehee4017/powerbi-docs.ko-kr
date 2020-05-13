@@ -8,16 +8,16 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.custom: ''
 ms.date: 04/16/2019
-ms.openlocfilehash: 0adfb72c408f96749afc8a3d7a6884e10e52fadb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 10939c23a5c25a2ff4233f6b74f9efd99d8e10fd
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114684"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148064"
 ---
 # <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>조직에 포함할 때 Power BI 앱 자동 설치
 
-앱에서 콘텐츠를 포함하려면 포함하려는 사용자가 [앱에 액세스](../../service-create-distribute-apps.md)해야 합니다. 앱이 사용자용으로 설치되면 임베딩이 원활하게 작동합니다. 자세한 내용은 [앱에서 보고서 또는 대시보드 포함](embed-from-apps.md)을 참조하세요. PowerBI.com에서 모든 앱을 [자동으로 설치](https://powerbi.microsoft.com/blog/automatically-install-apps/)할 수 있음을 정의할 수 있습니다. 그러나 이 작업은 테넌트 수준에서 수행되고 모든 앱에 적용됩니다.
+앱에서 콘텐츠를 포함하려면 포함하려는 사용자가 [앱에 액세스](../../collaborate-share/service-create-distribute-apps.md)해야 합니다. 앱이 사용자용으로 설치되면 임베딩이 원활하게 작동합니다. 자세한 내용은 [앱에서 보고서 또는 대시보드 포함](embed-from-apps.md)을 참조하세요. PowerBI.com에서 모든 앱을 [자동으로 설치](https://powerbi.microsoft.com/blog/automatically-install-apps/)할 수 있음을 정의할 수 있습니다. 그러나 이 작업은 테넌트 수준에서 수행되고 모든 앱에 적용됩니다.
 
 ## <a name="auto-install-app-on-embedding"></a>포함 시 앱 자동 설치
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/25/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f03daf65ab938923906351acef9440fe0de88c5c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 863f5f55eb4fb5d2427585bd2d792097ac1c6630
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82065573"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278931"
 ---
 # <a name="tips-to-improve-analysis-with-shapes-images-and-icons-in-power-bi-reports"></a>Power BI 보고서에서 셰이프, 이미지 및 아이콘을 사용하여 분석을 향상하기 위한 팁
 
@@ -37,7 +37,8 @@ Power BI 보고서에서 셰이프, 이미지 및 아이콘을 사용하여 분�
 
 이 문서와 관련된 보다 자세한 내용을 알아보려면 다음 리소스를 참조하세요.
 
-- [멋진 보고서를 만드는 팁](../desktop-tips-and-tricks-for-creating-reports.md)
+- [멋진 보고서를 만드는 팁](../create-reports/desktop-tips-and-tricks-for-creating-reports.md)
 - biDezine 비디오: [Power BI에서 픽토그램을 사용하여 분석을 향상하기 위한 4가지 팁](https://www.youtube.com/watch?v=-gLwXonWNsI)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 - 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com/)
+

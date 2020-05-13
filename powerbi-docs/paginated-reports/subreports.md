@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/29/2020
-ms.openlocfilehash: 65d1401a66f8e670df1af3097f0e99fb6b647022
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 784e3fd3883adb9fc5b773cc730b992135d7ef8b
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82615706"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83272813"
 ---
 # <a name="subreports-in-power-bi-paginated-reports"></a>Power BI 페이지를 매긴 보고서의 하위 보고서
 
@@ -74,7 +74,7 @@ Power BI Report Builder는 컴퓨터의 페이지를 매긴 보고서(로컬 보
   
  하위 보고서를 보고서의 본문이나 데이터 영역에 배치할 수 있습니다. 하위 보고서를 데이터 영역에 배치하면 하위 보고서는 데이터 영역에 있는 그룹 또는 행의 인스턴스마다 반복됩니다. 그룹 또는 행의 값을 하위 보고서에 전달할 수 있습니다. 하위 보고서 값 속성에서 하위 보고서 매개 변수에 전달하려는 값을 포함하는 필드의 식을 사용합니다.  
   
- 매개 변수 및 하위 보고서를 사용하는 방법에 대한 자세한 내용은 SQL Server Reporting Services 설명서의 [하위 보고서 및 매개 변수 추가](https://docs.microsoft.com/sql/reporting-services/report-design/add-a-subreport-and-parameters-report-builder-and-ssrs.md)를 참조하세요.  
+ 매개 변수 및 하위 보고서를 사용하는 방법에 대한 자세한 내용은 SQL Server Reporting Services 설명서의 [하위 보고서 및 매개 변수 추가](https://docs.microsoft.com/sql/reporting-services/report-design/add-a-subreport-and-parameters-report-builder-and-ssrs)를 참조하세요.  
 
 ## <a name="preview-paginated-reports-in-report-builder"></a>Report Builder에서 페이지를 매긴 보고서 미리 보기
 

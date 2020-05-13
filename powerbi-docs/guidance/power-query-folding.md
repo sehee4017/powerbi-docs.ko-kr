@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: e8123bba9f68305e1944dbfb280b5255e4fb9b48
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 271ccd9abcba8fe75f0ad66a88cb970584855a35
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75622154"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83149190"
 ---
 # <a name="query-folding-guidance-in-power-bi-desktop"></a>Power BI Desktop의 쿼리 폴딩 지침
 
@@ -52,5 +52,5 @@ ms.locfileid: "75622154"
 이 문서에 대한 자세한 내용은 다음 리소스를 참조하세요.
 
 - 파워 쿼리의 [쿼리 폴딩](/power-query/power-query-folding) 개념 문서
-- [Power BI Premium의 증분 새로 고침](../service-premium-incremental-refresh.md)
+- [Power BI Premium의 증분 새로 고침](../admin/service-premium-incremental-refresh.md)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

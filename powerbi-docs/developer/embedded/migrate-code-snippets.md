@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 26e68f64f9cce2251e98c6a831200b6fbc5d2dd8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b2976511577dc6e83aa17c83c6c6c560f0755d15
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114487"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83141190"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Power BI 작업 영역 컬렉션에서 콘텐츠 마이그레이션을 위한 코드 조각
 
@@ -233,7 +233,7 @@ SaaS로 마이그레이션한 후 PBIX를 업데이트하기 위한 것입니다
 [Power BI에 포함](embedding.md)  
 [Power BI Embedded 작업 영역 컬렉션 콘텐츠를 Power BI으로 마이그레이션하는 방법](migrate-from-powerbi-embedded.md)  
 [Power BI 대시보드, 보고서 및 타일을 포함하는 방법](embed-sample-for-your-organization.md)  
-[Power BI 프리미엄이란?](../../service-premium-what-is.md)  
+[Power BI 프리미엄이란?](../../admin/service-premium-what-is.md)  
 [JavaScript Git 리포지토리](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git 리포지토리](https://github.com/Microsoft/PowerBI-CSharp)  
 [JavaScript 포함 샘플](https://microsoft.github.io/PowerBI-JavaScript/demo/)  

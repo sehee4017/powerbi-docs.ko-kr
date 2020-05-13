@@ -6,21 +6,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/31/2018
+ms.date: 12/31/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cda52bd8814c409bdc8d8d7e14a30744fc91b9ad
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: eeb02715fa205d7fb9f6a3107998feb3d87a9d7b
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73880780"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83271962"
 ---
 # <a name="move-and-resize-a-visualization-in-a-report"></a>보고서에서 시각화 이동 및 크기 조정
 
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
+
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
-보고서 디자이너와 소유자는 시각화를 이동하고 크기를 조정할 수 있습니다. Power BI 서비스(app.powerbi.com)에서 작업하는 경우, [편집용 보기](../service-interact-with-a-report-in-editing-view.md)에서 보고서를 열어야 합니다. 
+보고서 디자이너와 소유자는 시각화를 이동하고 크기를 조정할 수 있습니다. Power BI 서비스(app.powerbi.com)에서 작업하는 경우, [편집용 보기](../create-reports/service-interact-with-a-report-in-editing-view.md)에서 보고서를 열어야 합니다. 
 
 ## <a name="open-the-report"></a>보고서 열기
 Power BI Desktop에서 하나 이상의 시각화가 있는 보고서를 열거나 [새 시각화를 만듭니다](power-bi-report-add-visualizations-i.md). 
@@ -37,8 +39,9 @@ Power BI Desktop에서 하나 이상의 시각화가 있는 보고서를 열거�
   ![포커스 모드 아이콘](media/power-bi-visualization-move-and-resize/pbi_popouticon.jpg)
 
 ## <a name="next-steps"></a>다음 단계
-[대시보드에서 시각화 크기 고정](../service-dashboard-edit-tile.md)  
+[대시보드에서 시각화 크기 고정](../create-reports/service-dashboard-edit-tile.md)  
 
 [포커스 모드](../consumer/end-user-focus.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
+

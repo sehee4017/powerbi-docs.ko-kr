@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: d70d1357af3309ddd9584b11ccf79115cde095c8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0a66b0fc1a984e0905fba209ca59afb3a02696b2
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79383301"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83131302"
 ---
 # <a name="power-bi-visuals-faq"></a>Power BI 시각적 개체 FAQ
 
@@ -24,7 +24,7 @@ ms.locfileid: "79383301"
 
 ### <a name="how-can-the-admin-manage-organizational-power-bi-visuals"></a>관리자가 조직의 Power BI 시각적 개체를 관리하려면 어떻게 해야 하나요?
 
-관리 포털의 *조직의 시각적 개체* 탭에서 관리자는 [엔터프라이즈의 모든 조직 Power BI 시각적 개체를 확인하고 관리](../../service-admin-portal.md#organizational-visuals)할 수 있습니다. 여기에는 Power BI 시각적 개체 추가, 사용하도록 설정, 사용하지 않도록 설정 및 삭제가 포함됩니다.
+관리 포털의 *조직의 시각적 개체* 탭에서 관리자는 [엔터프라이즈의 모든 조직 Power BI 시각적 개체를 확인하고 관리](../../admin/service-admin-portal.md#organizational-visuals)할 수 있습니다. 여기에는 Power BI 시각적 개체 추가, 사용하도록 설정, 사용하지 않도록 설정 및 삭제가 포함됩니다.
 
 조직의 사용자는 Power BI 시각적 개체를 쉽게 찾고 Power BI Desktop 또는 서비스에서 직접 보고서로 가져올 수 있습니다.
 

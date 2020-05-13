@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 70a1aed046ac213e314da2ddaecafab9c5a941ee
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 60b7c858a98a105454efe0233484120ad4319f62
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76537235"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83131906"
 ---
 # <a name="enable-data-sensitivity-labels-in-power-bi-preview"></a>Power BI에서 데이터 민감도 레이블 사용(미리 보기)
 
 Power BI에서 [Microsoft Information Protection 데이터 민감도 레이블](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)을 사용하도록 설정하면 다음이 적용됩니다.
 
-* 조직의 특정 사용자와 보안 그룹이 민감도 레이블을 분류하고 Power BI 대시보드, 보고서, 데이터 세트 및 데이터 흐름(이후에는 ‘자산’으로 표시됨)에 [민감도 레이블을 적용](../designer/service-security-apply-data-sensitivity-labels.md)할 수 있습니다. 
+* 조직의 특정 사용자와 보안 그룹이 민감도 레이블을 분류하고 Power BI 대시보드, 보고서, 데이터 세트 및 데이터 흐름(이후에는 ‘자산’으로 표시됨)에 [민감도 레이블을 적용](../collaborate-share/service-security-apply-data-sensitivity-labels.md)할 수 있습니다. 
 * 조직의 모든 구성원이 해당 레이블을 볼 수 있습니다.
 
 데이터 민감도 레이블은 Power BI 작성자와 사용자가 데이터 민감도를 인식하게 하여 데이터 보호를 강화하는 동시에 분류의 의미와 해당 분류의 데이터를 처리하는 방법에 대한 정보를 제공합니다.
@@ -71,6 +71,6 @@ Power BI는 Microsoft Information Protection 민감도 레이블을 사용합니
 이 문서에서는 Power BI에서 데이터 민감도 레이블을 사용하도록 설정하는 방법을 설명했습니다. 다음 문서에서는 Power BI의 데이터 보호에 대해 자세히 설명합니다. 
 
 * [Power BI의 데이터 보호 개요](service-security-data-protection-overview.md)
-* [Power BI에서 데이터 민감도 레이블 적용](../designer/service-security-apply-data-sensitivity-labels.md)
+* [Power BI에서 데이터 민감도 레이블 적용](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
 * [Power BI에서 Microsoft Cloud App Security 제어 사용](service-security-using-microsoft-cloud-app-security-controls.md)
 * [데이터 보호 메트릭 보고서](service-security-data-protection-metrics-report.md)

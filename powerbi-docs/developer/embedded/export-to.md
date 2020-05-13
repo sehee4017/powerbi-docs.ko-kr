@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/24/2020
-ms.openlocfilehash: db907897256ef4afc0bdb9a253a23880b6e79f53
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1d51c16502d3217e0158add2126d0b5726d87ff1
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525471"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83144726"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>파일로 Power BI 보고서 내보내기(미리 보기)
 
@@ -34,7 +34,7 @@ ms.locfileid: "81525471"
 
 ## <a name="using-the-api"></a>API 사용
 
-API를 사용하기 전에 다음 [관리자 테넌트 설정](../../service-admin-portal.md#tenant-settings)이 사용하도록 설정되었는지 확인합니다.
+API를 사용하기 전에 다음 [관리자 테넌트 설정](../../admin/service-admin-portal.md#tenant-settings)이 사용하도록 설정되었는지 확인합니다.
 * **PowerPoint 프레젠테이션 또는 PDF 문서로 보고서 내보내기** - 기본적으로 사용하도록 설정됩니다.
 * **이미지 파일로 보고서 내보내기** - *.png*에만 필요하며 기본적으로 사용되지 않습니다.
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: a2e53d27a8ca49e9fc318fd25cc20acbb7bacc38
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4172fc2ff4a1da409a1f5586e8b3579e4745fe99
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80751613"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273457"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>별모양 스키마 및 Power BI에서의 중요성 이해
 
@@ -42,7 +42,7 @@ ms.locfileid: "80751613"
 - 차원 테이블은 _필터링_ 및 _그룹화_를 지원합니다.
 - 팩트 테이블은 _요약_을 지원합니다.
 
-모델러가 테이블 유형을 차원 또는 팩트로 구성하도록 설정하는 테이블 속성은 없습니다. 실제로 모델 관계에 따라 결정됩니다. 모델 관계는 두 테이블 간의 필터 전파 경로를 설정하며, 테이블 유형을 결정하는 관계의 **카디널리티** 속성입니다. 일반적인 관계 카디널리티는 _일 대 다_ 또는 역으로 _다 대 일_입니다. “일” 쪽은 항상 차원 유형 테이블인 반면, “다” 쪽은 항상 팩트 유형 테이블입니다. 관계에 대한 자세한 내용은 [Power BI Desktop의 모델 관계](../desktop-relationships-understand.md)를 참조하세요.
+모델러가 테이블 유형을 차원 또는 팩트로 구성하도록 설정하는 테이블 속성은 없습니다. 실제로 모델 관계에 따라 결정됩니다. 모델 관계는 두 테이블 간의 필터 전파 경로를 설정하며, 테이블 유형을 결정하는 관계의 **카디널리티** 속성입니다. 일반적인 관계 카디널리티는 _일 대 다_ 또는 역으로 _다 대 일_입니다. “일” 쪽은 항상 차원 유형 테이블인 반면, “다” 쪽은 항상 팩트 유형 테이블입니다. 관계에 대한 자세한 내용은 [Power BI Desktop의 모델 관계](../transform-model/desktop-relationships-understand.md)를 참조하세요.
 
 ![개념 별모양 스키마](media/star-schema/star-schema-example2.png)
 
@@ -209,10 +209,12 @@ Power BI 모델에서 판매 주문 번호를 기준으로 필터링하거나 �
 별모양 스키마 디자인 또는 Power BI 모델 디자인에 대한 자세한 내용은 다음 문서를 참조하세요.
 
 - [차원 모델링 Wikipedia 문서](https://go.microsoft.com/fwlink/p/?linkid=246459)
-- [Power BI Desktop에서 관계 만들기 및 관리](../desktop-create-and-manage-relationships.md)
+- [Power BI Desktop에서 관계 만들기 및 관리](../transform-model/desktop-create-and-manage-relationships.md)
 - [일 대 일 관계 지침](relationships-one-to-one.md)
 - [다 대 다 관계 지침](relationships-many-to-many.md)
 - [양방향 관계 지침](relationships-bidirectional-filtering.md)
 - [활성 및 비활성 관계 지침](relationships-active-inactive.md)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 - 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com/)
+
+

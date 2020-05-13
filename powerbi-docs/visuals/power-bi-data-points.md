@@ -7,16 +7,18 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/10/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 98af83c726cfd4e5b4e6744cbcfa1f7e5a69f57b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a874875c470cd85720570e57b7c6d7cf50dabca1
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381448"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83274170"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>시각적 개체 유형별 데이터 요소 제한 및 전략 적용
+
+[!INCLUDE[consumer-appliesto-yyyn](../includes/consumer-appliesto-yyyn.md)]    
 
 Power BI에서 시각적 개체를 렌더링할 경우 시각화가 빠르고 정확해야 합니다. 이를 위해 각 시각적 개체 유형의 기본 알고리즘을 구성해야 합니다. Power BI의 시각적 개체는 다양한 규모의 데이터 세트를 처리할 수 있을 정도의 유연성이 있어야 합니다. 일부 데이터 세트에는 몇 개의 데이터 요소만 있는 반면, 다른 데이터 세트에는 페타바이트 단위의 데이터 요소가 있습니다. 이 문서에서는 Power BI에서 시각화를 렌더링하는 데 사용하는 전략을 설명합니다.
 
@@ -56,8 +58,8 @@ Power BI에서 시각적 개체를 렌더링할 경우 시각화가 빠르고 �
 
 ## <a name="strategies-and-data-point-limits-by-visual-type"></a>시각적 개체 유형별 전략 및 데이터 요소 제한
 
-### <a name="area-chart"></a>영역형 차트
-[선 샘플링 작동 방식](../desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works) 참조
+### <a name="area-chart"></a>영역 차트
+[선 샘플링 작동 방식](../create-reports/desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works) 참조
 
 ### <a name="barcolumn-chart"></a>가로 막대형/세로 막대형 차트
 - 범주별 모드인 경우
@@ -97,10 +99,10 @@ Power BI에서 시각적 개체를 렌더링할 경우 시각화가 빠르고 �
 - 하위 3,500
 
 ### <a name="line-chart"></a>꺾은선형 차트
-[선 샘플링 작동 방식](../desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works) 참조
+[선 샘플링 작동 방식](../create-reports/desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works) 참조
 
 ### <a name="line-chart-high-density"></a>꺽은선형 차트, 고밀도
-[고밀도 샘플링](../desktop-high-density-sampling.md) 참조
+[고밀도 샘플링](../create-reports/desktop-high-density-sampling.md) 참조
 
 ### <a name="map"></a>맵 
 - 최대 요소: 3,500
@@ -109,9 +111,9 @@ Power BI에서 시각적 개체를 렌더링할 경우 시각화가 빠르고 �
 - 위치: 상위 3,500
 - 위치, 크기: 상위 3,500
 - 위치, 위도 및 경도 집계(+/-Size): 상위 3,500
-- 위도, 경도: [고밀도 분산형](desktop-high-density-scatter-charts.md) 참조
+- 위도, 경도: [고밀도 분산형](../create-reports/desktop-high-density-scatter-charts.md) 참조
 - 위도, 경도, 크기: 상위 3,500
-- 범례, 위도, 경도: [고밀도 분산형](desktop-high-density-scatter-charts.md) 참조
+- 범례, 위도, 경도: [고밀도 분산형](../create-reports/desktop-high-density-scatter-charts.md) 참조
 - 범례, 위도, 경도, 크기: 상위 233개 범례, 상위 15개 위도 및 경고(통계 또는 동적 제한을 사용할 수 있음)
 - 위치, 범례, 위도 및 경도를 집계로(+/-Size): 상위 233개 위치, 상위 15개 범례(통계 또는 동적 제한을 사용할 수 있음)
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
-ms.openlocfilehash: c5e1e0b90f24a81940edab46633f49df41d25fdc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 711c920f5b0b7feeeeb2297e0f93714e1e89f1a2
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75219891"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148200"
 ---
 # <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>외부 조직의 사용자와 공유하는 Power BI 콘텐츠 보기
 
@@ -28,7 +28,7 @@ Power BI는 조직 외부의 게스트 사용자에게 Power BI 콘텐츠를 안
 
 ## <a name="accessing-shared-content"></a>공유 콘텐츠 액세스
 
-**첫째, 사용자와 항목을 공유한 외부 조직의 사용자가 필요합니다.** 같은 조직 또는 외부 조직의 다른 사람이 [사용자와 항목을 공유](../../service-share-dashboards.md)할 때, 공유 항목에 대한 링크가 포함된 메일을 받게 됩니다. 모바일 디바이스에서 해당 링크를 따라 Power BI 모바일 앱을 엽니다. 앱이 외부 조직에서 공유된 항목이라는 것을 인식하는 경우, 앱은 사용자의 ID를 사용하여 해당 조직에 다시 연결합니다. 앱은 해당 조직에서 사용자와 공유한 모든 항목을 로드합니다.
+**첫째, 사용자와 항목을 공유한 외부 조직의 사용자가 필요합니다.** 같은 조직 또는 외부 조직의 다른 사람이 [사용자와 항목을 공유](../../collaborate-share/service-share-dashboards.md)할 때, 공유 항목에 대한 링크가 포함된 메일을 받게 됩니다. 모바일 디바이스에서 해당 링크를 따라 Power BI 모바일 앱을 엽니다. 앱이 외부 조직에서 공유된 항목이라는 것을 인식하는 경우, 앱은 사용자의 ID를 사용하여 해당 조직에 다시 연결합니다. 앱은 해당 조직에서 사용자와 공유한 모든 항목을 로드합니다.
 
 ![Power BI 메일에서 공유 항목 열기 ](./media/mobile-apps-b2b/mobile-b2b-open-item-email-new.png)
 

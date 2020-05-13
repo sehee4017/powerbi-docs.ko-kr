@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 937f8ca693113cf85d265420da44f7c9f8b68f5f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8718c67c592bf96d50efed475c0d27b4ec80ca04
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78260456"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278333"
 ---
 # <a name="many-to-many-relationship-guidance"></a>다 대 다 관계 지침
 
@@ -161,7 +161,7 @@ ms.locfileid: "78260456"
 
 ### <a name="relate-many-to-many-facts-guidance"></a>다 대 다 팩트 연결 지침
 
-일반적으로 다 대 다 카디널리티를 사용하여 두 팩트 유형 테이블을 직접 연결하지 않는 것이 좋습니다. 주요 이유는 이 모델을 사용할 경우 시각적 개체 필터 또는 그룹을 다양한 방식으로 보고할 수 없기 때문입니다. 이 예제에서는 시각적 개체가 **Order** 테이블의 **OrderID** 열로만 필터링하거나 그룹화할 수 있습니다. 추가 이유는 데이터 품질과 관련이 있습니다. 데이터에 무결성 문제가 있을 경우 ‘약한 관계’의 특성으로 인해 쿼리 중에 일부 행이 생략될 수 있습니다.  자세한 내용은 [Power BI Desktop의 모델 관계(관계 평가)](../desktop-relationships-understand.md#relationship-evaluation)를 참조하세요.
+일반적으로 다 대 다 카디널리티를 사용하여 두 팩트 유형 테이블을 직접 연결하지 않는 것이 좋습니다. 주요 이유는 이 모델을 사용할 경우 시각적 개체 필터 또는 그룹을 다양한 방식으로 보고할 수 없기 때문입니다. 이 예제에서는 시각적 개체가 **Order** 테이블의 **OrderID** 열로만 필터링하거나 그룹화할 수 있습니다. 추가 이유는 데이터 품질과 관련이 있습니다. 데이터에 무결성 문제가 있을 경우 ‘약한 관계’의 특성으로 인해 쿼리 중에 일부 행이 생략될 수 있습니다.  자세한 내용은 [Power BI Desktop의 모델 관계(관계 평가)](../transform-model/desktop-relationships-understand.md#relationship-evaluation)를 참조하세요.
 
 팩트 유형 테이블을 직접 연결하는 대신, [별모양 스키마](star-schema.md) 디자인 원칙을 채택하는 것이 좋습니다. 차원 유형 테이블을 추가하면 됩니다. 그러면 차원 유형 테이블이 일 대 다 관계를 사용하여 팩트 유형 테이블에 연결됩니다. 이 디자인 방법은 유연성 있는 보고 옵션을 제공하므로 강력합니다. 이 방법을 사용하면 차원 유형 열 중 하나로 필터링하거나 그룹화하고 관련 팩트 유형 테이블을 요약할 수 있습니다.
 
@@ -184,7 +184,7 @@ ms.locfileid: "78260456"
 - 보고서 시각적 개체가 차원 유형 테이블의 보이는 열을 기준으로 ‘필터링하거나 그룹화’할 수 있습니다. 
 - 보고서 시각적 개체가 팩트 유형 테이블의 보이는 열을 ‘요약’할 수 있습니다. 
 - **OrderLine**, **OrderDate** 또는 **Product** 테이블에 적용된 필터가 두 팩트 유형 테이블에 모두 전달됩니다.
-- 모든 관계는 일 대 다이고, 각 관계는 ‘강력한 관계’입니다.  데이터 무결성 문제가 마스킹 되지 않습니다. 자세한 내용은 [Power BI Desktop의 모델 관계(관계 평가)](../desktop-relationships-understand.md#relationship-evaluation)를 참조하세요.
+- 모든 관계는 일 대 다이고, 각 관계는 ‘강력한 관계’입니다.  데이터 무결성 문제가 마스킹 되지 않습니다. 자세한 내용은 [Power BI Desktop의 모델 관계(관계 평가)](../transform-model/desktop-relationships-understand.md#relationship-evaluation)를 참조하세요.
 
 ## <a name="relate-higher-grain-facts"></a>상위 세분성 팩트 연결
 
@@ -209,7 +209,7 @@ ms.locfileid: "78260456"
 
 그러나 월 또는 날짜 수준 필터가 의미 있는 결과를 생성하도록 주의해야 합니다. 특별한 계산 논리가 없을 경우, 보고서 시각적 개체는 대상 날짜를 문자 그대로 각 연도의 첫 번째 날로 보고할 수 있습니다. 다른 모든 날과 1월을 제외한 모든 월은 목표 수량을 BLANK로 요약합니다.
 
-다음 행렬 시각적 개체는 보고서 사용자가 연도에서 월로 드릴하는 경우 어떻게 되는지를 보여 줍니다. 시각적 개체가 **TargetQuantity** 열을 요약합니다. 행렬 행에 [데이터가 없는 항목 표시](../desktop-show-items-no-data.md) 옵션이 사용하도록 설정되었습니다.
+다음 행렬 시각적 개체는 보고서 사용자가 연도에서 월로 드릴하는 경우 어떻게 되는지를 보여 줍니다. 시각적 개체가 **TargetQuantity** 열을 요약합니다. 행렬 행에 [데이터가 없는 항목 표시](../create-reports/desktop-show-items-no-data.md) 옵션이 사용하도록 설정되었습니다.
 
 ![행렬 시각적 개체는 2020년 목표 수량을 270으로 표시합니다. 2020년 월을 표시하도록 확장하면 1월은 270이고 다른 모든 월 수준 목표 수량은 BLANK입니다.](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-bad.png)
 
@@ -295,7 +295,7 @@ IF(
 
 이 문서와 관련된 보다 자세한 내용을 알아보려면 다음 리소스를 참조하세요.
 
-- [Power BI Desktop의 모델 관계](../desktop-relationships-understand.md)
+- [Power BI Desktop의 모델 관계](../transform-model/desktop-relationships-understand.md)
 - [별모양 스키마 및 Power BI에서의 중요성 이해](star-schema.md)
 - [관계 문제 해결 지침](relationships-troubleshoot.md)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

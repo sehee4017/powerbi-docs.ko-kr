@@ -8,18 +8,18 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 04/11/2020
 ms.author: v-pemyer
-ms.openlocfilehash: dad451da460abed65a69990394522f268d7f21cd
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 971c699170103d5521763679c93d3641c094cc58
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525268"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277436"
 ---
 # <a name="separate-reports-from-models-in-power-bi-desktop"></a>Power BI Desktop의 모델에서 보고서 분리
 
 새 Power BI Desktop 솔루션을 만들 때 수행해야 하는 첫 번째 작업 중 하나는 "데이터 가져오기"입니다. 데이터를 가져오면 명백하게 다른 두 가지 결과를 발생시킬 수 있습니다. 결과는 다음과 같을 수 있습니다.
 
-- 이미 게시된 모델에 대한 [Live Connection](../desktop-report-lifecycle-datasets.md)을 만듭니다. 이 모델은 Power BI 데이터 세트 또는 원격 호스팅 Analysis Services 모델일 수 있습니다.
+- 이미 게시된 모델에 대한 [Live Connection](../connect-data/desktop-report-lifecycle-datasets.md)을 만듭니다. 이 모델은 Power BI 데이터 세트 또는 원격 호스팅 Analysis Services 모델일 수 있습니다.
 - 가져오기, DirectQuery 또는 복합 모델일 수 있는 새 모델 개발을 시작합니다.
 
 이 문서는 두 번째 시나리오와 관련이 있습니다. 보고서와 모델을 단일 Power BI Desktop 파일로 결합해야 하는지 여부에 대한 지침을 제공합니다.
@@ -67,7 +67,7 @@ _단일 파일 솔루션_은 모델을 기반으로 하는 단일 보고서만 �
 
 이 문서와 관련된 보다 자세한 내용을 알아보려면 다음 리소스를 참조하세요.
 
-- [Power BI Desktop에서 Power BI 서비스의 데이터 세트에 연결](../desktop-report-lifecycle-datasets.md)
+- [Power BI Desktop에서 Power BI 서비스의 데이터 세트에 연결](../connect-data/desktop-report-lifecycle-datasets.md)
 - [Power BI 서비스에서 관련 콘텐츠 보기](../consumer/end-user-related.md)
 - [데이터 계보](../collaborate-share/service-data-lineage.md)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

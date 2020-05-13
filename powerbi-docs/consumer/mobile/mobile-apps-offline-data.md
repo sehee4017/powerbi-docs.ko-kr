@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
-ms.openlocfilehash: 9c38aef858d723e548529f450e34d0480de5f8b2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cfb5e4f1f75437db6235ece0d8661bab3f008649
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435447"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148425"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 오프라인 데이터 보기
 적용 대상:
@@ -44,7 +44,7 @@ ms.locfileid: "79435447"
 > [!NOTE]
 > iOS 디바이스에서 Power BI 모바일 앱을 사용하고 조직에서 Microsoft Intune MAM을 구성한 경우 백그라운드 데이터 새로 고침이 해제됩니다. 다음 번에 앱을 시작하면 Power BI에서 웹의 Power BI 서비스로부터 데이터를 새로 고칩니다.
 > 
-> [Microsoft Intune을 사용하여 Power BI 모바일 앱 구성](../../service-admin-mobile-intune.md)에 대해 자세히 알아보세요. 
+> [Microsoft Intune을 사용하여 Power BI 모바일 앱 구성](../../admin/service-admin-mobile-intune.md)에 대해 자세히 알아보세요. 
 > 
 > 
 

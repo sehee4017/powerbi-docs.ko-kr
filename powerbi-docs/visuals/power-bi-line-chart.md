@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0f430747187729cbb939b67795ff0507770bb0f1
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 9f7cd6c277a02ce4e44db40930184cce955e5948
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867027"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83274193"
 ---
 # <a name="line-charts-in-power-bi"></a>Power BI의 꺾은선형 차트
 
@@ -32,7 +32,7 @@ ms.locfileid: "82867027"
 > [!NOTE]
 > Power BI 동료와 보고서를 공유하려면 개별 Power BI Pro 라이선스가 있거나 보고서가 Premium 용량에 저장되어 있어야 합니다.
 
-1. 빈 보고서 페이지에서 시작합니다. Power BI 서비스를 사용하는 경우 [편집용 보기](../service-interact-with-a-report-in-editing-view.md)에서 보고서를 엽니다.
+1. 빈 보고서 페이지에서 시작합니다. Power BI 서비스를 사용하는 경우 [편집용 보기](../create-reports/service-interact-with-a-report-in-editing-view.md)에서 보고서를 엽니다.
 
 2. 필드 창에서 **SalesFact** \> **전체 단위**를 선택하고 **날짜**  >  **월**을 선택합니다.  Power BI는 보고서 캔버스에 세로 막대형 차트를 만듭니다.
 
@@ -74,7 +74,7 @@ ms.locfileid: "82867027"
    ![고도로 분산된 값](media/power-bi-line-charts/power-bi-dual-axes.png)
 
 ## <a name="highlighting-and-cross-filtering"></a>강조 표시 및 교차 필터링
-필터 창 사용 방법에 대한 자세한 내용은 [보고서에 필터 추가](../power-bi-report-add-filter.md)를 참조하세요.
+필터 창 사용 방법에 대한 자세한 내용은 [보고서에 필터 추가](../create-reports/power-bi-report-add-filter.md)를 참조하세요.
 
 꺾은선형 차트에서 데이터 요소를 선택하면 보고서 페이지의 다른 시각화 요소가 교차 강조 표시 및 교차 필터링되며 그 반대의 경우도 마찬가지입니다. 과정을 따르려면 **시장 점유율** 탭을 엽니다.  
 
@@ -86,7 +86,7 @@ ms.locfileid: "82867027"
 
 세로 막대형 차트가 교차 강조 표시되고 계기가 교차 필터링되는 방식을 확인합니다.
 
-차트를 상호 간에 강조 표시하고 필터링하는 방법을 관리하려면 [Power BI 보고서의 시각화 상호 작용](../service-reports-visual-interactions.md)을 참조하세요.
+차트를 상호 간에 강조 표시하고 필터링하는 방법을 관리하려면 [Power BI 보고서의 시각화 상호 작용](../create-reports/service-reports-visual-interactions.md)을 참조하세요.
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
 * 하나의 꺾은선형 차트에 이중 Y축이 있을 수 없습니다.  대신 콤보 차트를 사용해야 합니다.
@@ -95,5 +95,8 @@ ms.locfileid: "82867027"
 ## <a name="next-steps"></a>다음 단계
 
 [Power BI의 시각화 유형](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+
+
 
 

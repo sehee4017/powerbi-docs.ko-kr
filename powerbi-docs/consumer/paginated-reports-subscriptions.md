@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: d3813636010dcbf5c866248111755beb0dca99b8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c7f377c1295d4cd8f0d226331fcb6db697786e5a
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74834635"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83141260"
 ---
 # <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>Power BI 서비스의 페이지를 매긴 보고서에 자신과 다른 사용자 구독 
 
@@ -39,7 +39,6 @@ ms.locfileid: "74834635"
 
 ## <a name="next-steps"></a>다음 단계
 
-[Power BI 서비스의 보고서 및 대시보드에 자신과 다른 사용자 구독](../service-report-subscribe.md)
+[Power BI 서비스의 보고서 및 대시보드에 자신과 다른 사용자 구독](../collaborate-share/service-report-subscribe.md)
 
 [Power BI 서비스의 페이지를 매긴 보고서](end-user-paginated-report.md)
-

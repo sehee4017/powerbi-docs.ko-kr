@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: 7436b97cdeacf08f1d4ed9374ec615d56ae92db1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d94e9696ee41e8bd76f7d11aab794ccd2dc701b3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73859195"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277988"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Power BI Report Server의 RLS(행 수준 보안)
 
@@ -33,7 +33,7 @@ Power BI Desktop으로 Power BI로 가져온 보고서에 대한 RLS를 구성�
 
 사용자 이름 또는 로그인 ID를 기반으로 하는 [동적 행 수준 보안](https://docs.microsoft.com/analysis-services/tutorial-tabular-1200/supplemental-lesson-implement-dynamic-security-by-using-row-filters)을 구현할 때 이 상자를 선택합니다. 
 
-자세한 내용은 [Power BI Desktop에서 DirectQuery를 사용하여 양방향 교차 필터링](../desktop-bidirectional-filtering.md) 및 [테이블 형식 BI 의미 체계 모델 보안](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) 기술 백서를 참조하세요.
+자세한 내용은 [Power BI Desktop에서 DirectQuery를 사용하여 양방향 교차 필터링](../transform-model/desktop-bidirectional-filtering.md) 및 [테이블 형식 BI 의미 체계 모델 보안](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) 기술 백서를 참조하세요.
 
 [!INCLUDE [rls-desktop-view-as-roles](../includes/rls-desktop-view-as-roles.md)]
 
@@ -84,7 +84,7 @@ Power BI Report Server에서 사용자 지정 인증을 사용하는 경우 사�
 
 username() DAX 함수를 사용하여 보고서를 작성한 사용자는 통합 보안이 있는 DirectQuery를 사용할 때를 제외하고 UPN(사용자 계정 이름)이 반환되는 새 동작을 알 수 있습니다.  해당 시나리오에서는 RLS가 준수되지 않으므로 해당 시나리오의 동작은 변경되지 않습니다.
 
-Power BI Desktop으로 생성된 데이터 세트에서만 RLS를 정의할 수 있습니다. Excel로 만든 데이터 세트에 RLS를 사용하려면 먼저 파일을 Power BI Desktop(PBIX) 파일로 변환해야 합니다. [Excel 파일 변환](../desktop-import-excel-workbooks.md)에 대해 자세히 알아봅니다.
+Power BI Desktop으로 생성된 데이터 세트에서만 RLS를 정의할 수 있습니다. Excel로 만든 데이터 세트에 RLS를 사용하려면 먼저 파일을 Power BI Desktop(PBIX) 파일로 변환해야 합니다. [Excel 파일 변환](../connect-data/desktop-import-excel-workbooks.md)에 대해 자세히 알아봅니다.
 
 저장된 자격 증명을 사용하는 추출, 변환, 로드(ETL) 및 DirectQuery 연결만 지원됩니다. 통합 인증을 사용하는 Analysis Services 및 DirectQuery 연결에 대한 라이브 연결은 데이터 원본에서 처리됩니다. 
 
@@ -122,3 +122,4 @@ DirectQuery와 함께 통합 보안을 사용하는 경우 다음과 같은 사�
 [관리자 안내서](admin-handbook-overview.md)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+

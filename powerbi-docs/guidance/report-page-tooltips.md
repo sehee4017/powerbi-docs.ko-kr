@@ -8,16 +8,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 5a6b7bda8bf5e8d80ae8b22a71035f8bc362fb89
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e3af0828afcc7c085b896fe9e1b99f3b10bfdd5f
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377745"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277850"
 ---
 # <a name="extend-visuals-with-report-page-tooltips"></a>보고서 페이지 도구 설명을 사용하여 시각적 개체 확장
 
-이 문서에서는 독자가 Power BI 보고서를 설계하는 보고서 작성자라고 가정하고, [보고서 페이지 도구 설명](../desktop-tooltips.md)을 만들기 위한 제안 및 권장 사항을 제공합니다.
+이 문서에서는 독자가 Power BI 보고서를 설계하는 보고서 작성자라고 가정하고, [보고서 페이지 도구 설명](../create-reports/desktop-tooltips.md)을 만들기 위한 제안 및 권장 사항을 제공합니다.
 
 ## <a name="suggestions"></a>제안
 
@@ -29,7 +29,7 @@ ms.locfileid: "79377745"
 > [!NOTE]
 > 보고서 시각적 개체는 도구 설명 페이지 필터가 시각적 개체의 디자인과 호환되는 경우에만 페이지 도구 설명을 보여 줄 수 있습니다. 예를 들어, _제품으로_ 그룹화되는 시각적 개체는 _제품으로_ 필터링되는 도구 설명 페이지와 호환됩니다.
 >
-> 페이지 도구 설명에서는 대화형 작업이 지원되지 않습니다. 보고서 사용자가 대화형으로 작업하도록 하려면 대신 [드릴스루 페이지](../desktop-drillthrough.md)를 만드세요.
+> 페이지 도구 설명에서는 대화형 작업이 지원되지 않습니다. 보고서 사용자가 대화형으로 작업하도록 하려면 대신 [드릴스루 페이지](../create-reports/desktop-drillthrough.md)를 만드세요.
 >
 > Power BI 시각적 개체는 페이지 도구 설명을 지원하지 않습니다.
 
@@ -65,7 +65,7 @@ ms.locfileid: "79377745"
 
 단추, 이미지, 텍스트 상자 및 도형도 시각적 개체 머리글 페이지 도구 설명을 표시할 수 있습니다.
 
-다음 예제에서는 보고서 사용자가 [시각적 개체 머리글 아이콘](../desktop-visual-elements-for-reports.md)을 커서로 가리키면 어떻게 되는지를 보여 줍니다.
+다음 예제에서는 보고서 사용자가 [시각적 개체 머리글 아이콘](../create-reports/desktop-visual-elements-for-reports.md)을 커서로 가리키면 어떻게 되는지를 보여 줍니다.
 
 ![보고서 사용자가 시각적 개체 헤더 아이콘(물음표 아이콘) 위에 커서를 올렸습니다. 서식 있는 도구 설명이 나타났습니다.](media/report-page-tooltips/suggestion-add-help.png)
 
@@ -85,8 +85,8 @@ ms.locfileid: "79377745"
 
 이 문서와 관련된 보다 자세한 내용을 알아보려면 다음 리소스를 참조하세요.
 
-- [Power BI Desktop의 보고서 페이지에 기반한 도구 설명 만들기](../desktop-tooltips.md)
-- [Power BI Desktop에서 도구 설명 사용자 지정](../desktop-custom-tooltips.md)
-- [시각적 개체를 사용하여 Power BI 보고서 개선](../desktop-visual-elements-for-reports.md)
+- [Power BI Desktop의 보고서 페이지에 기반한 도구 설명 만들기](../create-reports/desktop-tooltips.md)
+- [Power BI Desktop에서 도구 설명 사용자 지정](../create-reports/desktop-custom-tooltips.md)
+- [시각적 개체를 사용하여 Power BI 보고서 개선](../create-reports/desktop-visual-elements-for-reports.md)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 - 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com/)

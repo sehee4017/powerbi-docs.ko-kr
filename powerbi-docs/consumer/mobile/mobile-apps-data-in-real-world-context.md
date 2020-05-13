@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: e7d3d19bdef1b19d397ac7db13cdec2317f8ab42
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 512d9f5662a87b3819b7151eb0fc3a4d6a540dd6
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114572"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278517"
 ---
 # <a name="get-data-from-the-real-world-with-the-power-bi-mobile-apps"></a>Power BI 모바일 앱으로 실제 환경에서 데이터 가져오기
 Power BI 모바일 앱에서는 여러 가지 방법으로 관련된 BI 정보에 실제 세계를 연결할 수 있습니다. 
@@ -25,14 +25,14 @@ Power BI 모바일 앱에서는 여러 가지 방법으로 관련된 BI 정보�
 
 추가 정보:
 
-* [Power BI에서 타일에 대한 QR 코드 만들기](../../service-create-qr-code-for-tile.md)
+* [Power BI에서 타일에 대한 QR 코드 만들기](../../create-reports/service-create-qr-code-for-tile.md)
 * [모바일 디바이스에서 Power BI QR 코드 스캔](mobile-apps-qr-code.md)
 * [혼합 현실용 Power BI 앱을 사용하여 QR 코드 스캔](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view)
 
 ## <a name="qr-codes-for-reports"></a>보고서에 대한 QR 코드
 보고서에 대한 QR 코드를 만듭니다.  동료가 자신의 iPhone을 사용하여 코드를 검색할 때(Android 휴대폰은 출시 예정) QR 코드와 관련된 보고서가 보입니다. 
 
-[Power BI에서 보고서에 대한 QR 코드 만들기](../../service-create-qr-code-for-report.md)에 대한 추가 정보
+[Power BI에서 보고서에 대한 QR 코드 만들기](../../create-reports/service-create-qr-code-for-report.md)에 대한 추가 정보
 
 ## <a name="barcodes"></a>바코드
 동료가 제품에서 바코드를 스캔하고 해당 제품에 대해 필터링된 해당 보고서로 바로 이동할 수 있도록 보고서의 바코드 데이터에 태그를 지정합니다.
@@ -41,7 +41,7 @@ Power BI 모바일 앱에서는 여러 가지 방법으로 관련된 BI 정보�
 
 추가 정보:
 
-* [보고서에서 바코드 데이터의 태그 지정](../../desktop-mobile-barcodes.md)
+* [보고서에서 바코드 데이터의 태그 지정](../../transform-model/desktop-mobile-barcodes.md)
 * [iPhone에서 Power BI 앱의 바코드 스캔](mobile-apps-scan-barcode-iphone.md)
 
 ## <a name="filter-by-location"></a>위치별 필터링
@@ -50,6 +50,5 @@ Power BI Desktop의 보고서에서 지리적 데이터를 분류합니다. 그�
 [위치별 필터링](mobile-apps-geographic-filtering.md)에 대한 추가 정보입니다.
 
 ## <a name="next-steps"></a>다음 단계
-* [Power BI에서 타일에 대한 QR 코드 만들기](../../service-create-qr-code-for-tile.md)
-* [Power BI에서 보고서에 대한 QR 코드 만들기](../../service-create-qr-code-for-report.md)
-
+* [Power BI에서 타일에 대한 QR 코드 만들기](../../create-reports/service-create-qr-code-for-tile.md)
+* [Power BI에서 보고서에 대한 QR 코드 만들기](../../create-reports/service-create-qr-code-for-report.md)

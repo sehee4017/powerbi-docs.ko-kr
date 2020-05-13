@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: eba723e4e75c7ce051921a907d2a3d0aa9536833
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: d3584ebc5233ccffc007118ac87ada49e906b34c
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841782"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273526"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>휴대폰에 대해 최적화된 Power BI 보고서 보기
 
@@ -48,7 +48,7 @@ Power BI 보고서의 다른 모든 기능은 휴대폰에 최적화된 보고�
 ## <a name="cross-highlight-visuals"></a>시각적 개체을 강조 표시합니다.
 세로 보기에서 시각적 개체를 강조 표시하면 Power BI 서비스 및 휴대폰 가로 보기에서와 동일하게 작동합니다. 한 시각적 개체에서 데이터를 선택하면 그 페이지의 다른 시각적 개체에 있는 관련 데이터도 강조 표시됩니다.
 
-[Power BI에서 필터링 및 강조 표시](../../power-bi-reports-filters-and-highlighting.md)에 대해 자세히 알아보세요.
+[Power BI에서 필터링 및 강조 표시](../../create-reports/power-bi-reports-filters-and-highlighting.md)에 대해 자세히 알아보세요.
 
 ## <a name="select-visuals"></a>시각적 개체 선택
 휴대폰 보고서에서 시각적 개체를 선택하면 휴대폰 보고서는 그 시각적 개체를 강조 표시하고, 그것에 초점을 맞추고, 캔버스 제스처를 무효화합니다.
@@ -131,8 +131,7 @@ Power BI 보고서의 다른 모든 기능은 휴대폰에 최적화된 보고�
 
 
 ## <a name="next-steps"></a>다음 단계
-* [Power BI 모바일 앱에 최적화된 보고서 만들기](../../desktop-create-phone-report.md)
-* [Power BI에서 대시보드 휴대폰 보기 만들기](../../service-create-dashboard-mobile-phone-view.md)
+* [Power BI 모바일 앱에 최적화된 보고서 만들기](../../create-reports/desktop-create-phone-report.md)
+* [Power BI에서 대시보드 휴대폰 보기 만들기](../../create-reports/service-create-dashboard-mobile-phone-view.md)
 * [모든 크기에 최적화된 반응형 시각적 개체 만들기](../../visuals/desktop-create-responsive-visuals.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
-

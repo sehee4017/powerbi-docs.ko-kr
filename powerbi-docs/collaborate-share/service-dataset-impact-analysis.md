@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/13/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: d6d62583d6ef6bd1fcc1630b46bdb5d97c221f16
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: edb34fc5592a6b851ae2c48690a772d75049fb48
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525333"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83274860"
 ---
 # <a name="dataset-impact-analysis"></a>데이터 집합 영향 분석
 
@@ -54,7 +54,7 @@ ms.locfileid: "81525333"
 
 ## <a name="notify-contacts"></a>연락처에 알림
 
-데이터 세트를 변경했거나 변경을 고려 중인 경우 관련 사용자에게 알리는 것이 좋습니다. 연락처에 알리면, 영향을 받는 모든 작업 영역의 [연락처 목록](../service-create-the-new-workspaces.md#workspace-contact-list)에 메일이 전송됩니다. 사용자 이름이 메일에 표시되므로 연락처는 새 메일 스레드에서 사용자를 찾아 회신할 수 있습니다. 
+데이터 세트를 변경했거나 변경을 고려 중인 경우 관련 사용자에게 알리는 것이 좋습니다. 연락처에 알리면, 영향을 받는 모든 작업 영역의 [연락처 목록](../collaborate-share/service-create-the-new-workspaces.md#workspace-contact-list)에 메일이 전송됩니다. 사용자 이름이 메일에 표시되므로 연락처는 새 메일 스레드에서 사용자를 찾아 회신할 수 있습니다. 
 
 1. 영향 분석 사이드 창에서 **연락처에 알림**을 클릭합니다. 연락처에 알림 대화 상자가 표시됩니다.
 
@@ -89,5 +89,6 @@ Power BI Desktop에서 데이터 세트를 변경한 후 Power BI 서비스에 �
 
 ## <a name="next-steps"></a>다음 단계
 
-* [작업 영역의 데이터 세트 소개(미리 보기)](../service-datasets-across-workspaces.md)
+* [작업 영역의 데이터 세트 소개(미리 보기)](../connect-data/service-datasets-across-workspaces.md)
 * [데이터 계보](service-data-lineage.md)
+

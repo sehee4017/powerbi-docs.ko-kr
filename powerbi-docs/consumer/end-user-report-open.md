@@ -8,12 +8,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
-ms.openlocfilehash: 6ffdc73e5e9ef9ccd416378c19da587986c80b55
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 661277337c00f160c010351ba5f827b6e0fc2f8f
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114338"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277620"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>‘소비자’에 대한 Power BI 서비스의 보고서 보기 
 
@@ -99,14 +99,14 @@ Power BI ‘디자이너’가 메일의 링크를 통해 또는 Power BI 콘텐
     ![읽기용 보기로 보고서 열기](./media/end-user-report-open/power-bi-report-tabs.png)
 
 > [!NOTE]
-> 모든 타일이 보고서로 연결되는 것은 아닙니다. [질문 및 답변으로 작성한](end-user-q-and-a.md) 타일을 선택하면 질문 및 답변 화면이 열립니다. [대시보드 **타일 추가** 위젯을 사용하여 만든](../service-dashboard-add-widget.md) 타일을 선택하면, 몇 가지 다른 일이 발생할 수 있습니다.  
+> 모든 타일이 보고서로 연결되는 것은 아닙니다. [질문 및 답변으로 작성한](end-user-q-and-a.md) 타일을 선택하면 질문 및 답변 화면이 열립니다. [대시보드 **타일 추가** 위젯을 사용하여 만든](../create-reports/service-dashboard-add-widget.md) 타일을 선택하면, 몇 가지 다른 일이 발생할 수 있습니다.  
 
 
 ##  <a name="still-more-ways-to-open-a-report"></a>보고서를 열 수 있는 기타 방법
 Power BI 서비스를 보다 더 편안하게 탐색할 수 있게 되면, 자신에게 가장 적합한 워크플로를 파악할 수 있게 됩니다. 보고서에 액세스하는 몇 가지 다른 방법은 다음과 같습니다.
 - [즐겨찾기](end-user-favorite.md) 및 [최근 항목](end-user-recent.md)을 사용하여 탐색 창에서    
 - [관련 항목 보기](end-user-related.md) 사용    
-- 누군가가 [사용자와 공유](../service-share-reports.md)하거나 [경고를 설정](end-user-alerts.md)할 때 메일을 통해    
+- 누군가가 [사용자와 공유](../collaborate-share/service-share-reports.md)하거나 [경고를 설정](end-user-alerts.md)할 때 메일을 통해    
 - [알림 센터](end-user-notification-center.md)를 통해    
 - 작업 영역에서
 - 기타

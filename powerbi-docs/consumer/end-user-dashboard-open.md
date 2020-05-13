@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 64809b2542cbe64951dc2f8fae12b13b8f6bc79e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8f71eab47aba9621805891b10874ea9e501ed0bf
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496283"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277919"
 ---
 # <a name="view-a-dashboard"></a>대시보드 보기
 
@@ -49,10 +49,10 @@ Power BI Pro 또는 Premium 라이선스는 대시보드를 공유하고 공유�
 - **최근** - 최근에 대시보드를 방문한 경우
 - **앱** - 대부분의 앱에는 대시보드와 보고서가 모두 포함되어 있음
 - **공유한 항목** - 동료가 [대시보드를 공유](end-user-shared-with-me.md)한 경우
-- **내 작업 영역** - [Power BI 샘플](../sample-datasets.md)을 다운로드한 경우
+- **내 작업 영역** - [Power BI 샘플](../create-reports/sample-datasets.md)을 다운로드한 경우
 
 
 
 ## <a name="next-steps"></a>다음 단계
-* [샘플 대시보드](../sample-tutorial-connect-to-the-samples.md) 중 하나를 둘러보면 대시보드에 금방 익숙해 집니다.    
+* [샘플 대시보드](../create-reports/sample-tutorial-connect-to-the-samples.md) 중 하나를 둘러보면 대시보드에 금방 익숙해 집니다.    
 * [대시보드 타일](end-user-tiles.md)과 선택할 경우 어떻게 되는지 알아보세요.

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 92aa2c5d8da91590f5d491090761a6a6b1501061
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 43905b05bfe796c416bb8d91901497f6ca1e573e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78263809"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278264"
 ---
 # <a name="one-to-one-relationship-guidance"></a>일 대 일 관계 지침
 
@@ -99,7 +99,7 @@ ms.locfileid: "78263809"
 - 계층 구조를 만드는 기능이 제한됩니다. 해당 수준이 _동일한 테이블_의 열을 기반으로 해야 하기 때문입니다.
 - 테이블 사이에 전체 행과 일치하는 항목이 없는 경우 예기치 않은 결과가 생성됩니다.
 
-구체적인 권장 사항은 일 대 일 관계가 _내부 아일랜드_ 또는 _교차 아일랜드_인지에 따라 달라집니다. 관계 평가에 대한 자세한 내용은 [Power BI Desktop의 모델 관계(관계 평가)](../desktop-relationships-understand.md#relationship-evaluation)를 참조하세요.
+구체적인 권장 사항은 일 대 일 관계가 _내부 아일랜드_ 또는 _교차 아일랜드_인지에 따라 달라집니다. 관계 평가에 대한 자세한 내용은 [Power BI Desktop의 모델 관계(관계 평가)](../transform-model/desktop-relationships-understand.md#relationship-evaluation)를 참조하세요.
 
 ### <a name="intra-island-one-to-one-relationship"></a>내부 아일랜드 일 대 일 관계
 
@@ -107,7 +107,7 @@ ms.locfileid: "78263809"
 
 다음 단계는 일 대 일 관계 데이터를 통합하고 모델링하는 방법을 제공합니다.
 
-1. **쿼리 병합**: [두 쿼리를 결합](../desktop-shape-and-combine-data.md#combine-queries)할 경우 각 쿼리에서 데이터의 완전성을 고려해야 합니다. 하나의 쿼리에 전체 행 집합(예: 마스터 목록)이 포함된 경우 다른 쿼리와 병합합니다. 기본 조인 유형인 _왼쪽 우선 외부 조인_을 사용하도록 병합 변환을 구성합니다. 이 조인 유형을 사용하면 첫 번째 쿼리의 모든 행을 유지하고 두 번째 쿼리의 일치하는 행으로 보충합니다. 두 번째 쿼리의 모든 필수 열을 첫 번째 쿼리로 확장합니다.
+1. **쿼리 병합**: [두 쿼리를 결합](../connect-data/desktop-shape-and-combine-data.md#combine-queries)할 경우 각 쿼리에서 데이터의 완전성을 고려해야 합니다. 하나의 쿼리에 전체 행 집합(예: 마스터 목록)이 포함된 경우 다른 쿼리와 병합합니다. 기본 조인 유형인 _왼쪽 우선 외부 조인_을 사용하도록 병합 변환을 구성합니다. 이 조인 유형을 사용하면 첫 번째 쿼리의 모든 행을 유지하고 두 번째 쿼리의 일치하는 행으로 보충합니다. 두 번째 쿼리의 모든 필수 열을 첫 번째 쿼리로 확장합니다.
 2. **쿼리 로드 비활성화**: 두 번째 쿼리의 [로드를 비활성화](import-modeling-data-reduction.md#disable-power-query-query-load)해야 합니다. 그러면 결과를 모델 테이블로 로드하지 않습니다. 이 구성은 데이터 모델 저장소 크기를 줄이고 **필드** 창을 깔끔하게 정리하는 데 도움이 됩니다.
 
     이 예제에서 보고서 작성자는 이제 **필드** 창에 **Product**라는 단일 테이블을 찾을 수 있습니다. 이 테이블이 모든 제품 관련 필드를 포함합니다.
@@ -131,11 +131,11 @@ ms.locfileid: "78263809"
 
 ![필드 창에는 Marketing이라는 표시 폴더 안에 Category 필드가 표시됩니다.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-display-folder.png)
 
-모델에서 일 대 일 내부 아일랜드 관계를 정의하기로 결정하는 경우, 가능하면 연결된 테이블에 일치하는 행이 있어야 합니다. 일 대 일 내부 아일랜드 관계는 [강력한 관계](../desktop-relationships-understand.md#strong-relationships)로 평가되므로 데이터 무결성 문제는 보고서 시각적 개체에 BLANK로 표시될 수 있습니다. (이 문서에 나오는 첫 번째 테이블 시각적 개체에서 BLANK 그룹화의 예를 볼 수 있습니다.)
+모델에서 일 대 일 내부 아일랜드 관계를 정의하기로 결정하는 경우, 가능하면 연결된 테이블에 일치하는 행이 있어야 합니다. 일 대 일 내부 아일랜드 관계는 [강력한 관계](../transform-model/desktop-relationships-understand.md#strong-relationships)로 평가되므로 데이터 무결성 문제는 보고서 시각적 개체에 BLANK로 표시될 수 있습니다. (이 문서에 나오는 첫 번째 테이블 시각적 개체에서 BLANK 그룹화의 예를 볼 수 있습니다.)
 
 ### <a name="inter-island-one-to-one-relationship"></a>교차 아일랜드 일 대 일 관계
 
-테이블 사이에 일 대 일 _교차 아일랜드_ 관계가 있는 경우 데이터 원본에서 데이터를 미리 통합하지 않는 한 대체 모델 디자인이 없습니다. Power BI는 일 대 일 모델 관계를 [약한 관계](../desktop-relationships-understand.md#weak-relationships)로 평가합니다. 따라서 연결된 테이블에 일치하는 행이 있어야 합니다. 쿼리 결과에서 일치하지 않는 행이 제거되기 때문입니다.
+테이블 사이에 일 대 일 _교차 아일랜드_ 관계가 있는 경우 데이터 원본에서 데이터를 미리 통합하지 않는 한 대체 모델 디자인이 없습니다. Power BI는 일 대 일 모델 관계를 [약한 관계](../transform-model/desktop-relationships-understand.md#weak-relationships)로 평가합니다. 따라서 연결된 테이블에 일치하는 행이 있어야 합니다. 쿼리 결과에서 일치하지 않는 행이 제거되기 때문입니다.
 
 두 테이블의 필드가 테이블 시각적 개체에 추가되고 테이블 간에 약한 관계가 있는 경우 어떻게 되는지 살펴보겠습니다.
 
@@ -147,7 +147,7 @@ ms.locfileid: "78263809"
 
 이 문서와 관련된 보다 자세한 내용을 알아보려면 다음 리소스를 참조하세요.
 
-- [Power BI Desktop의 모델 관계](../desktop-relationships-understand.md)
+- [Power BI Desktop의 모델 관계](../transform-model/desktop-relationships-understand.md)
 - [별모양 스키마 및 Power BI에서의 중요성 이해](star-schema.md)
 - [관계 문제 해결 지침](relationships-troubleshoot.md)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

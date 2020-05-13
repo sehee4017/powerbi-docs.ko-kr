@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0a9bebd51e64c18e0c354386e168661542b9c5bf
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: b26cd958ad637f0dc3c27c7a0f6ccbe2591d37b7
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866590"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279184"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Power BI에서 행렬 시각화 만들기
 
@@ -62,7 +62,7 @@ ms.locfileid: "82866590"
 ![](media/desktop-matrix-visual/power-bi-expand3.png)
 
 > [!NOTE]
-> Analysis Services 다차원 모델을 기반으로 보고서를 작성할 때 모델에서 기본 멤버 기능을 사용하는 경우 확장/축소에 대한 몇 가지 특별한 고려 사항이 있습니다. 자세한 내용은 [Power BI에서 다차원 모델 작업](../desktop-default-member-multidimensional-models.md)을 참조하세요.
+> Analysis Services 다차원 모델을 기반으로 보고서를 작성할 때 모델에서 기본 멤버 기능을 사용하는 경우 확장/축소에 대한 몇 가지 특별한 고려 사항이 있습니다. 자세한 내용은 [Power BI에서 다차원 모델 작업](../connect-data/desktop-default-member-multidimensional-models.md)을 참조하세요.
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>행렬 시각적 개체로 드릴다운 사용
 행렬 시각적 개체를 사용하면 이전에는 사용할 수 없었던 모든 종류의 흥미로운 드릴다운 작업을 수행할 수 있습니다. 행, 열을 사용하여 개별 섹션 및 셀까지 드릴다운하는 기능이 포함됩니다. 각 기능의 작동 방법을 살펴보겠습니다.
@@ -211,7 +211,7 @@ ms.locfileid: "82866590"
 
 **웹 URL**을 설정하고 열에 대한 URL로 사용할 필드를 선택합니다. 적용된 후에는 해당 필드(열)의 값이 활성 링크가 됩니다. 마우스로 가리켜 이 링크를 선택하여 해당 페이지로 이동합니다. 
 
-자세한 내용은 [조건부 테이블 서식 지정](../desktop-conditional-table-formatting.md)을 참조하세요.
+자세한 내용은 [조건부 테이블 서식 지정](../create-reports/desktop-conditional-table-formatting.md)을 참조하세요.
 
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>행렬 시각적 개체에서 음영 및 글꼴 색
 행렬 시각적 개체를 사용하여 행렬 내에서 셀의 배경에 조건부 서식(색 및 음영과 데이터 막대)을 적용할 수 있고 텍스트와 값 자체에 조건부 서식을 적용할 수 있습니다.
@@ -233,3 +233,5 @@ ms.locfileid: "82866590"
 [Power BI용 Power Apps 시각적 개체](power-bi-visualization-powerapp.md)
 
 [Power BI의 시각화 유형](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/28/2020
-ms.openlocfilehash: ad75cf6b85a896fbdc275748dc31c620206e08a2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 865b60800b68aed410f10964148afdf2791b1ae1
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82692883"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279161"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI 페이지를 매긴 보고서의 지원되는 데이터 원본
 
@@ -38,7 +38,7 @@ Azure SQL Database 데이터 원본의 경우 [Azure SQL Database 인증](#azure
 
 ## <a name="other-data-sources"></a>기타 데이터 원본
 
-[Power BI 데이터 게이트웨이](../service-gateway-onprem.md)를 통해 위의 기본적으로 지원되는 데이터 원본 외에도 다음 데이터 원본에 액세스할 수 있습니다.
+[Power BI 데이터 게이트웨이](../connect-data/service-gateway-onprem.md)를 통해 위의 기본적으로 지원되는 데이터 원본 외에도 다음 데이터 원본에 액세스할 수 있습니다.
 
 - SQL Server
 - SQL Server Analysis Services
@@ -74,3 +74,4 @@ SSO 및 OAuth2가 제대로 작동하려면 데이터 원본이 연결된 Azure 
 [Power BI 서비스에서 페이지를 매긴 보고서 보기](../consumer/paginated-reports-view-power-bi-service.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
+

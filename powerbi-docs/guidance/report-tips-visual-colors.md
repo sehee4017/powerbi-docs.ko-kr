@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/15/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 007f91a0f220ce7482600ac284336a3ac1cbfa0f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7e8526e5e8acf45afe125495cf8eca4628b70a06
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82065504"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278885"
 ---
 # <a name="tips-to-optimize-visual-colors-in-power-bi-reports"></a>Power BI 보고서에서 시각적 개체 색을 최적화하기 위한 팁
 
@@ -41,7 +41,8 @@ Power BI 보고서에서 시각적 개체 색을 최적화하기 위한 8가지 
 
 이 문서와 관련된 보다 자세한 내용을 알아보려면 다음 리소스를 참조하세요.
 
-- [멋진 보고서를 만드는 팁](../desktop-tips-and-tricks-for-creating-reports.md)
+- [멋진 보고서를 만드는 팁](../create-reports/desktop-tips-and-tricks-for-creating-reports.md)
 - biDezine 비디오: [Power BI에서 시각적 개체 색을 최적화하기 위한 8가지 팁](https://www.youtube.com/watch?v=RhYcEsdPqJg)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 - 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com)
+

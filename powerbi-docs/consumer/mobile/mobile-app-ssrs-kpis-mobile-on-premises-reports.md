@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: painbar
-ms.openlocfilehash: 6020a6cb72be4e8d7be0485c7787fefc097e679d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 387f0cd4ecea59fd55af0a9eceff2272ddd8097b
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75220083"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278862"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 온-프레미스 보고서 서버 보고서 및 KPI 보기
 
@@ -107,7 +107,7 @@ Power BI 보고서, Reporting Services 모바일 보고서 및 KPI는 Reporting 
   > 드릴다운 및 드릴업은 현재 Power BI Report Server의 Power BI 보고서에서 사용되지 않습니다.
   
     ![Power BI 보고서](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-report-server-report.png)
-* Power BI Desktop에서 보고서 소유자는 Power BI 모바일 앱에 [보고서를 최적화](../../desktop-create-phone-report.md)할 수 있습니다. 휴대전화에서 최적화된 보고서에는 특수 아이콘 ![최적화된 Power BI 보고서 아이콘](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-icon.png) 및 레이아웃이 있습니다.
+* Power BI Desktop에서 보고서 소유자는 Power BI 모바일 앱에 [보고서를 최적화](../../create-reports/desktop-create-phone-report.md)할 수 있습니다. 휴대전화에서 최적화된 보고서에는 특수 아이콘 ![최적화된 Power BI 보고서 아이콘](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-icon.png) 및 레이아웃이 있습니다.
   
     ![모바일을 위해 최적화된 Power BI 보고서](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-rs-mobile-optimized-report.png)
 * 포커스 모드로 보려면 KPI를 누릅니다.
@@ -133,4 +133,3 @@ Power BI 보고서, Reporting Services 모바일 보고서 및 KPI는 Reporting 
 ## <a name="next-steps"></a>다음 단계
 * [Power BI란?](../../fundamentals/power-bi-overview.md)  
 * 질문이 있으신가요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
-

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 49601798ae920d956441c5580079625bf7408e07
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 242f1e44e3314af900d9f4d4e4fb7380b28b4103
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78290575"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278678"
 ---
 # <a name="referencing-power-query-queries"></a>파워 쿼리의 쿼리 참조
 
@@ -42,7 +42,7 @@ ms.locfileid: "78290575"
 
 일반적으로 쿼리 전체에서 논리가 중복되지 않도록 쿼리를 참조하는 것을 권장합니다. 그러나 이 문서에 설명된 대로 이 디자인 방법은 데이터 새로 고침 속도를 저하하고 데이터 원본에 과도한 부담을 줄 수 있습니다.
 
-대신 [데이터 흐름](../service-dataflows-overview.md)을 만드는 것이 좋습니다. 데이터 흐름을 사용하면 데이터 새로 고침 시간을 개선하고 데이터 원본에 대한 영향을 줄일 수 있습니다.
+대신 [데이터 흐름](../transform-model/service-dataflows-overview.md)을 만드는 것이 좋습니다. 데이터 흐름을 사용하면 데이터 새로 고침 시간을 개선하고 데이터 원본에 대한 영향을 줄일 수 있습니다.
 
 원본 데이터와 변환을 캡슐화하도록 데이터 흐름을 디자인할 수 있습니다. 데이터 흐름은 Power BI 서비스의 지속형 데이터 저장소이므로 데이터 검색 속도가 빠릅니다. 따라서 참조 쿼리가 데이터 흐름에 여러 번 요청하는 경우에도 데이터 새로 고침 시간이 향상될 수 있습니다.
 
@@ -52,7 +52,7 @@ ms.locfileid: "78290575"
 
 이 문서와 관련된 보다 자세한 내용을 알아보려면 다음 리소스를 참조하세요.
 
-- [Power BI의 셀프 서비스 데이터 준비](../service-dataflows-overview.md)
-- [Power BI에서 데이터 흐름 만들기 및 사용](../service-dataflows-create-use.md)
+- [Power BI의 셀프 서비스 데이터 준비](../transform-model/service-dataflows-overview.md)
+- [Power BI에서 데이터 흐름 만들기 및 사용](../transform-model/service-dataflows-create-use.md)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 - 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com/)

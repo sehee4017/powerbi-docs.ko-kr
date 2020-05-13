@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: c9957b1f190f3e2cfc2aa5f082eb11df4d647b5f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e5f4fc253fbb7427de8adb21305f66769abcd428
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435907"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273089"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 타일 탐색
 적용 대상:
@@ -52,7 +52,7 @@ ms.locfileid: "79435907"
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-tile-link.png)
    
-    링크를 누르면 다른 Power BI 대시보드나 외부 URL로 이동할 수 있습니다. [링크를 눌러](../../service-dashboard-edit-tile.md#hyperlink) Power BI 앱 내에서 열 수 있습니다. 외부 사이트인 경우 허용할지 묻는 메시지가 표시됩니다.
+    링크를 누르면 다른 Power BI 대시보드나 외부 URL로 이동할 수 있습니다. [링크를 눌러](../../create-reports/service-dashboard-edit-tile.md#hyperlink) Power BI 앱 내에서 열 수 있습니다. 외부 사이트인 경우 허용할지 묻는 메시지가 표시됩니다.
    
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
@@ -77,7 +77,7 @@ ms.locfileid: "79435907"
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)
    
-    링크를 누르면 다른 Power BI 대시보드나 외부 URL로 이동할 수 있습니다. [링크를 눌러](../../service-dashboard-edit-tile.md#hyperlink) Power BI 앱 내에서 열 수 있습니다. 외부 사이트인 경우 허용할지 묻는 메시지가 표시됩니다.
+    링크를 누르면 다른 Power BI 대시보드나 외부 URL로 이동할 수 있습니다. [링크를 눌러](../../create-reports/service-dashboard-edit-tile.md#hyperlink) Power BI 앱 내에서 열 수 있습니다. 외부 사이트인 경우 허용할지 묻는 메시지가 표시됩니다.
    
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
@@ -98,7 +98,7 @@ ms.locfileid: "79435907"
    
     **보고서 열기** ![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png)를 탭하여 [기본 보고서를 봅니다](mobile-reports-in-the-mobile-apps.md).
    
-    링크가 포함된 경우 [링크를 엽니다](../../service-dashboard-edit-tile.md#hyperlink). 링크를 누르면 Power BI 대시보드나 외부 URL로 이동할 수 있습니다.
+    링크가 포함된 경우 [링크를 엽니다](../../create-reports/service-dashboard-edit-tile.md#hyperlink). 링크를 누르면 Power BI 대시보드나 외부 URL로 이동할 수 있습니다.
 3. **타일 확장** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-focus-mode-icon.png)을 탭합니다. 타일 데이터를 쉽게 보고 탐색할 수 있는 포커스 모드로 열립니다. 이 모드에서는 다음 작업을 수행할 수 있습니다.
    
    원형 차트를 회전시켜서 조각의 값을 원형 차트 위쪽에 표시합니다.  
@@ -130,4 +130,3 @@ ms.locfileid: "79435907"
 ## <a name="next-steps"></a>다음 단계
 * [Power BI란?](../../fundamentals/power-bi-overview.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
-

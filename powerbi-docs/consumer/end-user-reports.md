@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 089d1df9a63a30d602ac12f1bf18f32787374654
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 28af5cd89e918fad7fc7064479ac95c67ca3cee3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114234"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277459"
 ---
 # <a name="reports-in-power-bi"></a>Power BI의 보고서
 
@@ -76,7 +76,7 @@ Power BI는 단일 데이터 세트를 기반으로 보고서를 만듭니다. �
 
 * [Power BI 서비스 둘러보기](end-user-basic-concepts.md)에서 시작하면 보고서와 보고서 도구 위치를 파악할 수 있습니다.
 * [보고서를 여는 방법](end-user-report-open.md)과 [소비자가 사용할 수 있는 모든 상호 작용](end-user-reading-view.md)에 대해 살펴봅니다.
-* [샘플](../sample-tutorial-connect-to-the-samples.md) 중 하나를 둘러보면 보고서에 금방 익숙해 집니다.  
+* [샘플](../create-reports/sample-tutorial-connect-to-the-samples.md) 중 하나를 둘러보면 보고서에 금방 익숙해 집니다.  
 * 보고서가 사용 중인 데이터 세트와 보고서(*고정*)의 시각적 개체를 표시하는 대시보드를 확인하려면 [Power BI의 관련 콘텐츠 보기](end-user-related.md)를 참조하세요.
 
 > [!TIP]
@@ -86,3 +86,4 @@ Power BI는 단일 데이터 세트를 기반으로 보고서를 만듭니다. �
 
 [보고서 열기 및 보기](end-user-report-open.md)    
 [Power BI 서비스의 대시보드](end-user-dashboards.md)
+

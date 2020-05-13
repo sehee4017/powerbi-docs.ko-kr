@@ -1,4 +1,4 @@
-﻿---
+---
 title: Power BI 서비스에서 인쇄
 description: Power BI 서비스에서 대시보드, 타일 또는 보고서 페이지를 인쇄합니다.
 author: mihart
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/12/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 61322db7085bd41539c0c79d483403b794f23f26
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8c91e2a07143a6355b7049e80cbdc3e4ba906013
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114312"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83145376"
 ---
 # <a name="printing-from-the-power-bi-service"></a>Power BI 서비스에서 인쇄
 
@@ -116,7 +116,6 @@ Power BI에서 인쇄하는 경우 브라우저에서 인쇄 창이 열립니다
 * A: 기본 보기의 대시보드 또는 보고서로 돌아가서 시각적 개체를 포커스 모드, 전체 화면 모드로 차례로 다시 엽니다. 
 
 ## <a name="next-steps"></a>다음 단계
-[동료 및 다른 사용자와 대시보드 및 보고서 공유](../service-share-dashboards.md)
+[동료 및 다른 사용자와 대시보드 및 보고서 공유](../collaborate-share/service-share-dashboards.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
-

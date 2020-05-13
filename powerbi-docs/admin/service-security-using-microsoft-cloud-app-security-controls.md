@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 6d342773f35adef5f7b61953b06e526a42be75dc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9e3527d4e32143a3bc261226a5f10c371bcaaef4
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76537396"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83131984"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi-preview"></a>Power BI에서 Microsoft Cloud App Security 제어 사용(미리 보기)
 
@@ -60,7 +60,7 @@ Cloud App Security에는 Power BI 전용의 두 가지 기본 제공 검색도 �
 
 민감도 레이블을 사용하면 조직의 사용자가 조직 외부의 파트너와 협업하면서 중요한 콘텐츠와 데이터를 신중하게 파악할 수 있도록 중요한 콘텐츠를 분류하고 보호할 수 있습니다. 
 
-Power BI에 민감도 레이블을 사용하는 프로세스에 대한 자세한 내용은 [Power BI의 민감도 레이블](../designer/service-security-apply-data-sensitivity-labels.md) 문서를 참조하세요. [민감도 레이블을 기반으로 하는 Power BI 정책의 예제](#example)는 아래를 참조하세요.
+Power BI에 민감도 레이블을 사용하는 프로세스에 대한 자세한 내용은 [Power BI의 민감도 레이블](../collaborate-share/service-security-apply-data-sensitivity-labels.md) 문서를 참조하세요. [민감도 레이블을 기반으로 하는 Power BI 정책의 예제](#example)는 아래를 참조하세요.
 
 ## <a name="built-in-microsoft-cloud-app-security-detections-for-power-bi"></a>Power BI용 기본 제공 Microsoft Cloud App Security 검색
 
@@ -136,7 +136,7 @@ Power BI에서 Cloud App Security를 사용하면 사용자 세션 및 해당 �
 
 * [Power BI의 데이터 보호 개요](service-security-data-protection-overview.md)
 * [Power BI에서 데이터 민감도 레이블 사용](service-security-enable-data-sensitivity-labels.md)
-* [Power BI에서 데이터 민감도 레이블 적용](../designer/service-security-apply-data-sensitivity-labels.md)
+* [Power BI에서 데이터 민감도 레이블 적용](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
 
 다음 Azure 및 보안 문서도 유용할 수 있습니다.
 

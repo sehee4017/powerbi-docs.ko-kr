@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: consumers
-ms.openlocfilehash: 8610f5c0efbc3da394e4de7c263a88aad813eae2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 14e3b0f2956252e0b09abcf314d6e14b9a9709ad
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82066047"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83129495"
 ---
 # <a name="using-the-power-bi-service-as-a-consumer"></a>*소비자* 자격으로 Power BI 서비스 사용
 
@@ -47,7 +47,7 @@ Power BI 서비스에서 수행할 수 있는 작업은 다음 세 가지 사항
 
 이러한 작업 영역 내에서 디자이너는 동료가 콘텐츠와 상호 작용할 수 있는 범위를 결정하는 **뷰어**, **참가자**, **구성원** 및 **관리자** 같은 역할을 할당합니다. 자세한 내용은 [작업 영역 권한 및 역할](end-user-workspaces.md)을 참조하세요. 
 
-프리미엄 용량에 대한 자세한 내용은 [Microsoft Power BI Premium이란?](../service-premium-what-is.md)을 참조하세요.
+프리미엄 용량에 대한 자세한 내용은 [Microsoft Power BI Premium이란?](../admin/service-premium-what-is.md)을 참조하세요.
 
 
 ## <a name="find-out-which-licenses-you-have"></a>보유한 라이선스 확인

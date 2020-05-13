@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/22/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4f0bfdbf3eb3856f872c872fbe0880ad39839e07
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 31563e5bb5b91468b8913c3204e9d27607716c77
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867602"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279207"
 ---
 # <a name="use-a-relative-time-slicer-and-filter-in-power-bi"></a>Power BI에서 상대 시간 슬라이서 및 필터 사용
 
@@ -24,7 +24,7 @@ ms.locfileid: "82867602"
 
 :::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time.gif" alt-text="상대 시간 예제":::
 
-[자동 페이지 새로 고침](../desktop-automatic-page-refresh.md) 기능과 함께 이 기능을 사용할 필요가 없습니다. 그러나 많은 상대 시간 시나리오는 자동 페이지 새로 고침 기능과 함께 사용됩니다.  
+[자동 페이지 새로 고침](../create-reports/desktop-automatic-page-refresh.md) 기능과 함께 이 기능을 사용할 필요가 없습니다. 그러나 많은 상대 시간 시나리오는 자동 페이지 새로 고침 기능과 함께 사용됩니다.  
 
 > [!NOTE]
 > 페이지 또는 보고서 수준에서 상대 시간 필터 또는 슬라이서를 적용하면 공유 *앵커* 시간을 사용하여 해당 페이지 또는 보고서의 모든 시각적 개체가 정확히 같은 시간 범위로 필터링됩니다. 시각적 개체는 실행 시간이 약간 다를 수 있기 때문에 이 공유 앵커 시간을 사용하면 페이지 또는 보고서 전체에서 시각적 개체를 동기화할 수 있습니다. 이 문서에서 [앵커 시간](#understanding-anchor-time)에 대한 자세한 내용을 알아보세요.
@@ -107,4 +107,3 @@ ms.locfileid: "82867602"
 
 - [Power BI에서 상대 날짜 슬라이서 및 필터 사용](../visuals/desktop-slicer-filter-date-range.md)
 - [Power BI의 슬라이서](../visuals/power-bi-visualization-slicers.md)
-

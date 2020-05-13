@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: cb3947ec7aaf6d67a22eb1d7543a57e66e87f5f3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 029970885070fad34e38697aa4c81fce316b7410
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114448"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277666"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>보고서 필터 창 둘러보기
 
@@ -25,7 +25,7 @@ ms.locfileid: "79114448"
 
 이 문서에서는 Power BI 서비스의 보고서 **필터** 창에 대해 알아봅니다. 필터를 사용하여 데이터에서 새로운 인사이트를 검색합니다.
 
-Power BI에서 데이터를 필터링하는 다양한 방법이 있습니다. 필터에 대한 자세한 내용은 [필터 및 Power BI 보고서의 강조 표시](../power-bi-reports-filters-and-highlighting.md)를 참조하세요.
+Power BI에서 데이터를 필터링하는 다양한 방법이 있습니다. 필터에 대한 자세한 내용은 [필터 및 Power BI 보고서의 강조 표시](../create-reports/power-bi-reports-filters-and-highlighting.md)를 참조하세요.
 
 ![필터 옵션을 가리키는 화살표가 있는 브라우저의 보고서 스크린샷.](media/end-user-report-filter/power-bi-report.png)
 

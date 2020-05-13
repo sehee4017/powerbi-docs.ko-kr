@@ -2,22 +2,25 @@
 title: 지도(Bing 지도 통합 포함)의 팁과 힌트
 description: 'Power BI Map 시각화, 시각적 개체, 위치, 경도 및 위도, Bing Maps로 작동하는 방법 등에 대한 팁과 요령. '
 author: mihart
-ms.reviewer: ''
+ms.reviewer: rien
 featuredvideoid: ajTPGNpthcg
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/17/2020
+ms.date: 05/05/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e5c89a8089929b7d87d2a1291ef2c5d3a5b012b7
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 89b81286819e5f286a26efeb6b36d6336446132c
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79525916"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277827"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI Map 시각화를 위한 팁과 힌트
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
+
 Power BI는 Bing Maps와 통합되어 기본 지도 좌표를 제공(지오코딩이라는 프로세스)하므로 지도를 쉽게 만들 수 있습니다. 이와 함께 알고리즘을 사용하여 올바른 위치를 식별하지만, 경우에 따라 추측하기도 합니다. Power BI가 자체적으로 지도 시각화를 만들 수 없는 경우 Bing Maps의 도움말을 등록합니다. 
 
 사용자 또는 사용자의 관리자는 지오코딩에 URL Bing을 사용할 수 있도록 방화벽을 업데이트해야 할 수 있습니다.  이러한 URL은 다음과 같습니다.
@@ -47,7 +50,7 @@ Power BI 서비스 및 Power BI Desktop은 지도 시각화를 만드는 데 필
 
 **1. Power BI Desktop에 지리적 필드 재분류**
 
-Power BI Desktop에서 데이터 필드에 *데이터 범주*를 설정하면 필드가 올바르게 지오코딩되도록 보장할 수 있습니다. 데이터 뷰에서 원하는 열을 선택합니다. 리본에서 **모델링** 탭을 선택한 다음, **데이터 범주**를 **주소**, **도시**, **대륙**, **국가/지역**, **국가**, **우편 번호**, **시**/**도**로 설정합니다. 이러한 데이터 범주는 Bing에서 날짜를 올바르게 인코딩하는 데 도움이 됩니다. 자세히 알아보려면 [Power BI Desktop의 데이터 분류](../desktop-data-categorization.md)를 참조하세요. SQL Server Analysis Services에 라이브로 연결하는 경우 [SSDT(SQL Server Data Tools)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt)를 사용하여 Power BI 외부에서 데이터 분류를 설정해야 합니다.
+Power BI Desktop에서 데이터 필드에 *데이터 범주*를 설정하면 필드가 올바르게 지오코딩되도록 보장할 수 있습니다. 데이터 뷰에서 원하는 열을 선택합니다. 리본에서 **모델링** 탭을 선택한 다음, **데이터 범주**를 **주소**, **도시**, **대륙**, **국가/지역**, **국가**, **우편 번호**, **시**/**도**로 설정합니다. 이러한 데이터 범주는 Bing에서 날짜를 올바르게 인코딩하는 데 도움이 됩니다. 자세히 알아보려면 [Power BI Desktop의 데이터 분류](../transform-model/desktop-data-categorization.md)를 참조하세요. SQL Server Analysis Services에 라이브로 연결하는 경우 [SSDT(SQL Server Data Tools)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt)를 사용하여 Power BI 외부에서 데이터 분류를 설정해야 합니다.
 
 **2. 둘 이상의 위치 열을 사용합니다.**     
  경우에 따라서는 매핑에 대한 데이터 범주를 설정하는 것이 Bing에서 의도를 올바르게 추측하는 데 부족할 수 있습니다. 여러 국가나 지역에서는 위치가 존재하기 때문에 일부 지정이 모호해집니다. 예를 들어, 영국, 펜실베니아, 뉴욕에 ***사우샘프턴***이 있습니다.
@@ -94,4 +97,5 @@ Power BI에서 사용하는 데이터 세트에 위도 및 경도 필드가 있�
 [Power BI 시각화](power-bi-report-visualizations.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
+
 

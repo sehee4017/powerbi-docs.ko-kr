@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: a8c8c50369911e76376ccbda3a95743813fde6bb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3e3e44647ca7c85c09a3e7f4b3c309947559f5d3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78263671"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83273227"
 ---
 # <a name="active-vs-inactive-relationship-guidance"></a>활성 및 비활성 관계 지침
 
@@ -114,7 +114,7 @@ CALCULATE(
 
 보고서 페이지는 분기 2019 Q4를 기준으로 필터링됩니다. 테이블 시각적 개체는 월별로 그룹화되고 테이블에 다양한 판매 통계가 표시됩니다. **Orders** 측정값과 **Orders Shipped** 측정값은 서로 다른 결과를 생성합니다. 각 측정값은 동일한 요약 논리(**Sales** 테이블의 행 수)를 사용하지만 **Date** 테이블 필터 전파는 서로 다릅니다.
 
-분기 슬라이서에는 BLANK 항목이 포함되어 있습니다. 이 슬라이서 항목은 [테이블 확장](../desktop-relationships-understand.md#strong-relationships)의 결과로 표시됩니다. 각 **Sales** 테이블 행에는 주문 날짜가 있지만 일부 행에는 BLANK 배송 날짜가 있습니다. 이러한 주문은 아직 배송되지 않은 것입니다. 테이블 확장은 비활성 관계도 고려하므로 BLANK가 관계의 다 쪽에 있는 BLANK 또는 데이터 무결성 문제로 인해 나타날 수 있습니다.
+분기 슬라이서에는 BLANK 항목이 포함되어 있습니다. 이 슬라이서 항목은 [테이블 확장](../transform-model/desktop-relationships-understand.md#strong-relationships)의 결과로 표시됩니다. 각 **Sales** 테이블 행에는 주문 날짜가 있지만 일부 행에는 BLANK 배송 날짜가 있습니다. 이러한 주문은 아직 배송되지 않은 것입니다. 테이블 확장은 비활성 관계도 고려하므로 BLANK가 관계의 다 쪽에 있는 BLANK 또는 데이터 무결성 문제로 인해 나타날 수 있습니다.
 
 ## <a name="recommendations"></a>권장 사항
 
@@ -129,7 +129,7 @@ CALCULATE(
 
 이 문서와 관련된 보다 자세한 내용을 알아보려면 다음 리소스를 참조하세요.
 
-- [Power BI Desktop의 모델 관계](../desktop-relationships-understand.md)
+- [Power BI Desktop의 모델 관계](../transform-model/desktop-relationships-understand.md)
 - [별모양 스키마 및 Power BI에서의 중요성 이해](star-schema.md)
 - [관계 문제 해결 지침](relationships-troubleshoot.md)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

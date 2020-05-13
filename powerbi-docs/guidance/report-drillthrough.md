@@ -8,16 +8,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2019
 ms.author: v-pemyer
-ms.openlocfilehash: d5599db57ef7b105575dcb7ee4b4342f374624f0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 853f6d7f5cd6696be55edeea101bc0ca51922ad3
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78290590"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278080"
 ---
 # <a name="use-report-page-drillthrough"></a>보고서 페이지 드릴스루 사용
 
-이 문서에서는 독자가 Power BI 보고서를 디자인하는 보고서 작성자라고 가정하고, [보고서 페이지 드릴스루](../desktop-drillthrough.md)를 만들기 위한 제안 및 권장 사항을 제공합니다.
+이 문서에서는 독자가 Power BI 보고서를 디자인하는 보고서 작성자라고 가정하고, [보고서 페이지 드릴스루](../create-reports/desktop-drillthrough.md)를 만들기 위한 제안 및 권장 사항을 제공합니다.
 
 보고서 사용자가 다음과 같은 흐름을 달성할 수 있도록 보고서를 디자인하는 것이 좋습니다.
 
@@ -58,8 +58,8 @@ ms.locfileid: "78290590"
 - **드릴스루 필터:** 드릴스루 페이지를 디자인할 때 실제와 동일한 결과를 미리 보기로 볼 수 있도록 드릴스루 필터를 설정하세요. 보고서를 게시하기 전에 필터를 제거하는 것도 잊지 마세요.
 - **추가 기능:** 드릴스루 페이지는 여타 보고서 페이지와 같습니다. 슬라이서, 필터와 같은 추가적인 대화형 기능으로 한층 강화할 수도 있습니다.
 - **공백:** 공백을 표시하거나 드릴스루 필터가 적용되었을 때 오류를 생성할 수 있는 시각적 개체는 추가하지 마세요.
-- **페이지 표시 유형:** 드릴스루 페이지는 숨기는 것이 좋습니다. 드릴스루 페이지를 표시된 상태로 유지하려는 경우에는 사용자가 이전에 설정된 드릴스루 필터를 지울 수 있는 단추도 적용하세요. 단추에 [책갈피](../desktop-bookmarks.md)를 할당하세요. 책갈피는 모든 필터를 제거하도록 구성되어야 합니다.
-- **뒤로 단추:** 드릴스루 필터를 할당하면 뒤로 [단추](../desktop-buttons.md)가 자동으로 추가됩니다. 이 단추는 그대로 두는 것이 좋습니다. 이렇게 하면 보고서 사용자가 원본 페이지로 손쉽게 돌아갈 수 있습니다.
+- **페이지 표시 유형:** 드릴스루 페이지는 숨기는 것이 좋습니다. 드릴스루 페이지를 표시된 상태로 유지하려는 경우에는 사용자가 이전에 설정된 드릴스루 필터를 지울 수 있는 단추도 적용하세요. 단추에 [책갈피](../create-reports/desktop-bookmarks.md)를 할당하세요. 책갈피는 모든 필터를 제거하도록 구성되어야 합니다.
+- **뒤로 단추:** 드릴스루 필터를 할당하면 뒤로 [단추](../create-reports/desktop-buttons.md)가 자동으로 추가됩니다. 이 단추는 그대로 두는 것이 좋습니다. 이렇게 하면 보고서 사용자가 원본 페이지로 손쉽게 돌아갈 수 있습니다.
 - **시인성:** 시각적 개체 머리글 아이콘 텍스트를 설정하거나 텍스트 상자에 지침을 추가하여 드릴스루 페이지의 시인성을 높이세요. [이 블로그 게시물](https://alluringbi.com/2019/10/23/overlays-for-true-self-serve-reporting/)에서 설명하는 것처럼 오버레이를 디자인할 수도 있습니다.
 
 > [!TIP]
@@ -69,6 +69,6 @@ ms.locfileid: "78290590"
 
 이 문서와 관련된 보다 자세한 내용을 알아보려면 다음 리소스를 참조하세요.
 
-- [Power BI Desktop에서 드릴스루 사용](../desktop-drillthrough.md)
+- [Power BI Desktop에서 드릴스루 사용](../create-reports/desktop-drillthrough.md)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 - 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com/)

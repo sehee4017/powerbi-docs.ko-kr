@@ -9,16 +9,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 2962d5f8504b7214cb685457c59b11f1d9d7b85e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9245dd6c25917b2c8c861ea5b83710cd8b52bb22
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525540"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279023"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>Power BI에서 보고서 성능 모니터링
 
-[Power BI Premium 메트릭 앱](../service-premium-metrics-app.md)을 사용하여 Power BI Desktop에서 보고서 성능을 모니터링하고, 병목 상태가 발생하는 위치를 확인하고, 보고서 성능을 향상시키는 방법을 알아봅니다.
+[Power BI Premium 메트릭 앱](../admin/service-premium-metrics-app.md)을 사용하여 Power BI Desktop에서 보고서 성능을 모니터링하고, 병목 상태가 발생하는 위치를 확인하고, 보고서 성능을 향상시키는 방법을 알아봅니다.
 
 성능 모니터링은 다음 상황과 관련이 있습니다.
 
@@ -39,7 +39,7 @@ Power BI Desktop에서 [쿼리 진단](/power-query/QueryDiagnostics)을 사용�
 
 ## <a name="use-performance-analyzer"></a>성능 분석기 사용
 
-Power BI Desktop에서 [성능 분석기](../desktop-performance-analyzer.md)를 사용하여 시각적 개체 및 DAX 수식과 같은 각 보고서 요소의 상태를 확인할 수 있습니다. 이 방법은 성능 문제의 원인이 쿼리인지 시각적 개체 렌더링인지 확인하는 데 특히 유용합니다.
+Power BI Desktop에서 [성능 분석기](../create-reports/desktop-performance-analyzer.md)를 사용하여 시각적 개체 및 DAX 수식과 같은 각 보고서 요소의 상태를 확인할 수 있습니다. 이 방법은 성능 문제의 원인이 쿼리인지 시각적 개체 렌더링인지 확인하는 데 특히 유용합니다.
 
 ## <a name="use-sql-server-profiler"></a>SQL Server Profiler 사용
 
@@ -77,15 +77,15 @@ SQL Server Profiler 사용의 이점은 SQL Server (관계형) 데이터베이�
 
 ## <a name="monitor-premium-metrics"></a>Premium 메트릭 모니터링
 
-Power BI Premium 용량의 경우, **Power BI Premium 메트릭 앱**을 사용하여 Power BI Premium 구독의 상태와 용량을 모니터링하세요. 자세한 내용은 [Power BI Premium 메트릭 앱](../service-premium-metrics-app.md)을 참조하세요.
+Power BI Premium 용량의 경우, **Power BI Premium 메트릭 앱**을 사용하여 Power BI Premium 구독의 상태와 용량을 모니터링하세요. 자세한 내용은 [Power BI Premium 메트릭 앱](../admin/service-premium-metrics-app.md)을 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 
 이 문서에 대한 자세한 내용은 다음 리소스를 참조하세요.
 
 - [쿼리 진단](/power-query/QueryDiagnostics)
-- [성능 분석기](../desktop-performance-analyzer.md)
+- [성능 분석기](../create-reports/desktop-performance-analyzer.md)
 - [Power BI의 보고서 성능 문제 해결](report-performance-troubleshoot.md)
-- [Power BI Premium 메트릭 앱](../service-premium-metrics-app.md)
+- [Power BI Premium 메트릭 앱](../admin/service-premium-metrics-app.md)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 - 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com/)

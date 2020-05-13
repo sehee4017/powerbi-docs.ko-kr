@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 01e41520ec4cc391e241cd53a03c3e71d15379d7
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4d8b3d48828840920b6bbd792c9fe9da40308b39
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79496266"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83142304"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>동료 Power BI 홈페이지의 추천 콘텐츠
 
@@ -24,9 +24,9 @@ ms.locfileid: "79496266"
 
 ## <a name="who-can-feature-content"></a>콘텐츠를 추천할 수 있는 사용자
 
-테넌트에서 콘텐츠를 추천하는 기능을 사용하도록 설정하는 작업은 Power BI 테넌트 관리자가 수행합니다. 또한 관리자는 콘텐츠를 추천할 수 있는 사용자를 선택합니다. 자세한 내용은 [관리 포털](../service-admin-portal.md#featured-content) 문서를 참조하세요.
+테넌트에서 콘텐츠를 추천하는 기능을 사용하도록 설정하는 작업은 Power BI 테넌트 관리자가 수행합니다. 또한 관리자는 콘텐츠를 추천할 수 있는 사용자를 선택합니다. 자세한 내용은 [관리 포털](../admin/service-admin-portal.md#featured-content) 문서를 참조하세요.
 
-조직에서 해당 책임이 있는 선택 그룹 중 하나인 경우 Power BI Pro 라이선스가 있어야 합니다. 대시보드 및 보고서를 추천하려면 작업 영역에서 관리자, 구성원 또는 참가자 역할이 필요합니다. 앱 자체를 추천하려면 작업 영역에서 관리자 또는 구성원 역할이 있어야 합니다. 자세한 내용은 [새 작업 영역의 역할](../service-new-workspaces.md#roles-in-the-new-workspaces)을 참조하세요.
+조직에서 해당 책임이 있는 선택 그룹 중 하나인 경우 Power BI Pro 라이선스가 있어야 합니다. 대시보드 및 보고서를 추천하려면 작업 영역에서 관리자, 구성원 또는 참가자 역할이 필요합니다. 앱 자체를 추천하려면 작업 영역에서 관리자 또는 구성원 역할이 있어야 합니다. 자세한 내용은 [새 작업 영역의 역할](service-new-workspaces.md#roles-in-the-new-workspaces)을 참조하세요.
 
 ## <a name="who-sees-featured-content"></a>추천 콘텐츠를 보는 사용자
 
@@ -58,7 +58,6 @@ ms.locfileid: "79496266"
 
 ## <a name="next-steps"></a>다음 단계
 
-* [대시보드 및 보고서를 공동 작업 및 공유하는 방법](../service-how-to-collaborate-distribute-dashboards-reports.md)
-* [관리 포털에서 추천 콘텐츠 관리](../service-admin-portal.md#manage-featured-content)
+* [대시보드 및 보고서를 공동 작업 및 공유하는 방법](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md)
+* [관리 포털에서 추천 콘텐츠 관리](../admin/service-admin-portal.md#manage-featured-content)
 * 질문이 있으신가요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
-
