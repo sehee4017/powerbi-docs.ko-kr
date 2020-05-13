@@ -12,56 +12,56 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/03/2020
-  ms.openlocfilehash: d4099c6ad1a5ed6396d8c4a777e3a0aa13a6d570
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: 9b2f5fd70ed00dccb122fb4195284a1f3e0f75c2
+  ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "79112781"
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "83275182"
 landingContent:
 - title: 협업 및 공유 시작하기
   linkLists:
   - linkListType: overview
     links:
     - text: 작업 공유 방법
-      url: ../service-how-to-collaborate-distribute-dashboards-reports.md
+      url: service-how-to-collaborate-distribute-dashboards-reports.md
 - title: 동료와 협업
   linkLists:
   - linkListType: concept
     links:
     - text: 작업 영역의 데이터 세트 소개
-      url: ../service-datasets-across-workspaces.md
+      url: ../connect-data/service-datasets-across-workspaces.md
     - text: 공유 데이터 세트에 대한 사용 권한 빌드
-      url: ../service-datasets-build-permissions.md
+      url: ../connect-data/service-datasets-build-permissions.md
   - linkListType: how-to-guide
     links:
     - text: 새 작업 영역에서 작업 구성
-      url: ../service-new-workspaces.md
+      url: service-new-workspaces.md
 - title: 작업 공유
   linkLists:
   - linkListType: concept
     links:
     - text: 앱 게시
-      url: ../service-create-distribute-apps.md
+      url: service-create-distribute-apps.md
     - text: 사용량 메트릭 모니터링
-      url: ../service-modern-usage-metrics.md
+      url: service-modern-usage-metrics.md
   - linkListType: how-to-guide
     links:
     - text: 보고서 및 대시보드 공유
-      url: ../service-share-dashboards.md
+      url: service-share-dashboards.md
     - text: 보고서 필터링 및 공유
-      url: ../service-share-reports.md
+      url: service-share-reports.md
     - text: 데이터 세트 공유
-      url: ../service-datasets-share.md
+      url: ../connect-data/service-datasets-share.md
 - title: 다른 서비스와 통합
   linkLists:
   - linkListType: concept
     links:
     - text: Azure 및 Power BI
-      url: ../service-azure-and-power-bi.md
-    - text: 도구 모음
-      url: ../service-analyze-in-excel.md
+      url: ../connect-data/service-azure-and-power-bi.md
+    - text: Excel에서 분석
+      url: service-analyze-in-excel.md
   - linkListType: how-to-guide
     links:
     - text: SharePoint Online에 포함
-      url: ../service-embed-report-spo.md
+      url: service-embed-report-spo.md

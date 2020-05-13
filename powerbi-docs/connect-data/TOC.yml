@@ -6,339 +6,339 @@
       expanded: true
       items:
         - name: Power BI의 데이터 원본
-          href: ../service-get-data.md
+          href: service-get-data.md
         - name: 온-프레미스 데이터 게이트웨이란?
-          href: ../service-gateway-onprem.md
+          href: service-gateway-onprem.md
     - name: 빠른 시작
       expanded: true
       items:
         - name: Power BI Desktop에서 데이터에 연결
-          href: ../desktop-quickstart-connect-to-data.md
+          href: desktop-quickstart-connect-to-data.md
     - name: 자습서
       items:
         - name: 여러 데이터 원본 셰이프 및 결합
-          href: ../desktop-shape-and-combine-data.md
+          href: desktop-shape-and-combine-data.md
         - name: 웹 페이지 데이터 가져오기 및 분석
-          href: ../desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
+          href: desktop-tutorial-importing-and-analyzing-data-from-a-web-page.md
         - name: Excel 및 OData 피드의 판매 데이터 분석
-          href: ../desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
+          href: desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed.md
         - name: Facebook 데이터 분석
-          href: ../desktop-tutorial-facebook-analytics.md
+          href: desktop-tutorial-facebook-analytics.md
         - name: Analysis Services 테이블 형식 모델에서 행 수준 보안 구현
-          href: ../desktop-tutorial-row-level-security-onprem-ssas-tabular.md
+          href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
         - name: Power BI 시작
-          href: ../service-get-started.md
+          href: ../fundamentals/service-get-started.md
         - name: GitHub 샘플에 연결
-          href: ../service-tutorial-connect-to-github.md
+          href: service-tutorial-connect-to-github.md
         - name: Excel에서 분석 사용
-          href: ../service-tutorial-analyze-in-excel.md
+          href: ../collaborate-share/service-tutorial-analyze-in-excel.md
         - name: Cognitive Services 사용
-          href: ../service-tutorial-use-cognitive-services.md
+          href: service-tutorial-use-cognitive-services.md
         - name: Machine Learning 통합
-          href: ../service-tutorial-invoke-machine-learning-model.md
+          href: service-tutorial-invoke-machine-learning-model.md
         - name: Machine Learning 모델 빌드
-          href: ../service-tutorial-build-machine-learning-model.md
+          href: service-tutorial-build-machine-learning-model.md
         - name: SQL Server에서 데이터 새로 고침
-          href: ../service-gateway-sql-tutorial.md
+          href: service-gateway-sql-tutorial.md
     - name: 개념
       items:
         - name: Power BI 데이터 원본
-          href: ../power-bi-data-sources.md
+          href: power-bi-data-sources.md
         - name: Power BI 데이터 원본 필수 조건
-          href: ../desktop-data-source-prerequisites.md
+          href: desktop-data-source-prerequisites.md
         - name: Power BI Desktop에서 향상된 데이터 세트 메타데이터 사용(미리 보기)
-          href: ../desktop-enhanced-dataset-metadata.md
+          href: desktop-enhanced-dataset-metadata.md
         - name: Power BI에서 다차원 모델 작업
-          href: ../desktop-default-member-multidimensional-models.md
+          href: desktop-default-member-multidimensional-models.md
         - name: Power BI에서 DirectQuery를 사용하는 방법
-          href: ../desktop-directquery-about.md
+          href: desktop-directquery-about.md
         - name: 게이트웨이
           items:
             - name: 데이터 게이트웨이 배포 지침
-              href: ../service-gateway-deployment-guidance.md
+              href: service-gateway-deployment-guidance.md
             - name: 온-프레미스 데이터 게이트웨이 FAQ
-              href: ../service-gateway-power-bi-faq.md
+              href: service-gateway-power-bi-faq.md
     - name: 방법 가이드
       items:
-        - name: '데이터 원본 연결 '
-          href: ../desktop-connect-to-data.md
+        - name: 데이터 원본 연결
+          href: desktop-connect-to-data.md
         - name: 데이터에 연결
           items:
-            - name: '데이터 원본 연결 '
-              href: ../desktop-data-sources.md
+            - name: 데이터 원본 연결
+              href: desktop-data-sources.md
             - name: SharePoint 목록에서 보고서 만들기
-              href: ../desktop-sharepoint-online-list.md
+              href: desktop-sharepoint-online-list.md
             - name: LinkedIn Sales Navigator에 연결
-              href: ../desktop-connect-linkedin-sales-navigator.md
+              href: desktop-connect-linkedin-sales-navigator.md
             - name: 예제를 제공하여 웹 페이지 데이터 가져오기
-              href: ../desktop-connect-to-web-by-example.md
+              href: desktop-connect-to-web-by-example.md
             - name: Power BI 서비스의 데이터 세트에 연결
-              href: ../desktop-report-lifecycle-datasets.md
+              href: desktop-report-lifecycle-datasets.md
             - name: Excel 통합 문서 가져오기
-              href: ../desktop-import-excel-workbooks.md
+              href: desktop-import-excel-workbooks.md
             - name: Power BI Desktop 제네릭 인터페이스로 데이터에 연결
-              href: ../desktop-connect-using-generic-interfaces.md
+              href: desktop-connect-using-generic-interfaces.md
             - name: PDF 파일에 연결
-              href: ../desktop-connect-pdf.md
+              href: desktop-connect-pdf.md
             - name: Adobe Analytics에 연결
-              href: ../desktop-connect-adobe-analytics.md
+              href: desktop-connect-adobe-analytics.md
             - name: Oracle 데이터베이스에 연결
-              href: ../desktop-connect-oracle-database.md
+              href: desktop-connect-oracle-database.md
             - name: Python
               items:
                 - name: Python 스크립트 실행
-                  href: ../desktop-python-scripts.md
+                  href: desktop-python-scripts.md
                 - name: 쿼리 편집기에서 Python 사용
-                  href: ../desktop-python-in-query-editor.md
+                  href: desktop-python-in-query-editor.md
                 - name: 외부 Python IDE 사용
-                  href: ../desktop-python-ide.md
+                  href: desktop-python-ide.md
                 - name: Python을 사용하여 시각적 개체 만들기
-                  href: ../desktop-python-visuals.md
+                  href: desktop-python-visuals.md
             - name: R 스크립트 실행
-              href: ../desktop-r-scripts.md
+              href: desktop-r-scripts.md
             - name: 쿼리 편집기에서 R 사용
-              href: ../desktop-r-in-query-editor.md
+              href: desktop-r-in-query-editor.md
             - name: 외부 R IDE 사용
-              href: ../desktop-r-ide.md
+              href: desktop-r-ide.md
             - name: R 패키지로 시각적 개체 만들기
-              href: ../service-r-packages-support.md
+              href: service-r-packages-support.md
             - name: Power BI Desktop에 데이터 직접 연결
-              href: ../desktop-enter-data-directly-into-desktop.md
+              href: desktop-enter-data-directly-into-desktop.md
             - name: Excel 통합 문서에 연결
-              href: ../desktop-connect-excel.md
+              href: desktop-connect-excel.md
             - name: SSAS 다차원 모델에 연결
-              href: ../desktop-ssas-multidimensional.md
+              href: desktop-ssas-multidimensional.md
             - name: CSV 파일에 연결
-              href: ../desktop-connect-csv.md
+              href: desktop-connect-csv.md
             - name: Google BigQuery 데이터베이스에 연결
-              href: ../desktop-connect-bigquery.md
+              href: desktop-connect-bigquery.md
             - name: Impala 데이터베이스에 연결
-              href: ../desktop-connect-impala.md
+              href: desktop-connect-impala.md
             - name: OData 피드에 연결
-              href: ../desktop-connect-odata.md
+              href: desktop-connect-odata.md
             - name: Amazon Redshift 데이터베이스에 연결
-              href: ../desktop-connect-redshift.md
+              href: desktop-connect-redshift.md
             - name: 웹 페이지에 연결
-              href: ../desktop-connect-to-web.md
+              href: desktop-connect-to-web.md
             - name: Snowflake 컴퓨팅 웨어하우스에 연결
-              href: ../desktop-connect-snowflake.md
+              href: desktop-connect-snowflake.md
             - name: Azure Cost Management 커넥터를 사용하여 시각적 개체 만들기
-              href: ../desktop-connect-azure-cost-management.md
+              href: desktop-connect-azure-cost-management.md
             - name: Azure Consumption Insights 데이터에 연결
-              href: ../desktop-connect-azure-consumption-insights.md
+              href: desktop-connect-azure-consumption-insights.md
             - name: SAP HANA 데이터베이스에 연결
-              href: ../desktop-sap-hana.md
+              href: desktop-sap-hana.md
             - name: SAP HANA에 대한 암호화 사용
-              href: ../desktop-sap-hana-encryption.md
+              href: desktop-sap-hana-encryption.md
             - name: Analysis Services 테이블 형식 데이터에 연결
-              href: ../desktop-analysis-services-tabular-data.md
+              href: desktop-analysis-services-tabular-data.md
             - name: DirectQuery를 사용하여 데이터 원본에 연결
-              href: ../desktop-use-directquery.md
+              href: desktop-use-directquery.md
             - name: DirectQuery를 사용하여 SAP Business Warehouse에 연결
-              href: ../desktop-directquery-sap-bw.md
+              href: desktop-directquery-sap-bw.md
             - name: DirectQuery를 사용하여 SAP HANA 데이터 원본에 연결
-              href: ../desktop-directquery-sap-hana.md
+              href: desktop-directquery-sap-hana.md
             - name: 참조 무결성 가정 설정 적용
-              href: ../desktop-assume-referential-integrity.md
+              href: desktop-assume-referential-integrity.md
             - name: SAP BW 커넥터를 사용하여 SAP BW 데이터에 액세스
-              href: ../desktop-sap-bw-connector.md
+              href: desktop-sap-bw-connector.md
             - name: 비즈니스용 OneDrive 링크 사용
-              href: ../desktop-use-onedrive-business-links.md
+              href: desktop-use-onedrive-business-links.md
             - name: '타사 서비스: Facebook 커넥터 사용'
-              href: ../service-facebook-connector.md
+              href: service-facebook-connector.md
             - name: '타사 서비스: Google Analytics 커넥터'
-              href: ../service-google-analytics-connector.md
+              href: service-google-analytics-connector.md
             - name: Power BI Desktop을 통해 Project Online 데이터에 연결
-              href: ../desktop-project-online-connect-to-data.md
+              href: desktop-project-online-connect-to-data.md
         - name: 파일에서 데이터 가져오기
           items:
             - name: 파일에서 데이터 가져오기
-              href: ../service-get-data-from-files.md
+              href: service-get-data-from-files.md
             - name: Excel에서 멋진 보고서로
-              href: ../service-from-excel-to-stunning-report.md
+              href: service-from-excel-to-stunning-report.md
             - name: Excel 통합 문서 파일에서 데이터 가져오기
-              href: ../service-excel-workbook-files.md
+              href: service-excel-workbook-files.md
             - name: Power BI Desktop 파일에서 데이터 가져오기
-              href: ../service-desktop-files.md
+              href: service-desktop-files.md
             - name: 매개 변수 편집
-              href: ../service-parameters.md
+              href: service-parameters.md
             - name: 쉼표로 구분된 값(.csv) 파일에서 데이터 가져오기
-              href: ../service-comma-separated-value-files.md
+              href: service-comma-separated-value-files.md
             - name: Power BI에서 실시간 스트리밍
-              href: ../service-real-time-streaming.md
+              href: service-real-time-streaming.md
             - name: Excel에서 Power BI로 게시
-              href: ../service-publish-from-excel.md
+              href: service-publish-from-excel.md
             - name: Excel 통합 문서 크기 줄이기
-              href: ../reduce-the-size-of-an-excel-workbook.md
+              href: reduce-the-size-of-an-excel-workbook.md
         - name: 공유 데이터 세트에서 데이터 가져오기
           items:
             - name: 작업 영역에서 데이터 세트 사용
-              href: ../service-datasets-across-workspaces.md
+              href: service-datasets-across-workspaces.md
             - name: 데이터 세트 공유(미리 보기)
-              href: ../service-datasets-share.md
+              href: service-datasets-share.md
             - name: 공유 데이터 세트에 대한 권한 빌드
-              href: ../service-datasets-build-permissions.md
+              href: service-datasets-build-permissions.md
             - name: 데이터 세트를 기반으로 보고서 만들기
-              href: ../service-datasets-discover-across-workspaces.md
+              href: service-datasets-discover-across-workspaces.md
             - name: 데이터 세트를 기반으로 보고서 복사
-              href: ../service-datasets-copy-reports.md
+              href: service-datasets-copy-reports.md
             - name: 데이터 세트 사용 제어
-              href: ../service-datasets-admin-across-workspaces.md
+              href: service-datasets-admin-across-workspaces.md
         - name: 데이터 세트 보증
           items:
             - name: 데이터 세트 승격
-              href: ../service-datasets-promote.md
+              href: service-datasets-promote.md
             - name: 데이터 세트 인증
-              href: ../service-datasets-certify.md
+              href: service-datasets-certify.md
         - name: 데이터베이스에서 데이터 가져오기
           items:
             - name: Azure 및 Power BI
-              href: ../service-azure-and-power-bi.md
+              href: service-azure-and-power-bi.md
             - name: Power BI 및 Azure 송신
-              href: ../service-azure-egress-power-bi.md
+              href: service-azure-egress-power-bi.md
             - name: DirectQuery를 사용한 Azure SQL Data Warehouse
-              href: ../service-azure-sql-data-warehouse-with-direct-connect.md
+              href: service-azure-sql-data-warehouse-with-direct-connect.md
             - name: DirectQuery를 사용한 Azure SQL Database
-              href: ../service-azure-sql-database-with-direct-connect.md
+              href: service-azure-sql-database-with-direct-connect.md
             - name: Power BI의 SQL Server Analysis Services 라이브 데이터
-              href: ../sql-server-analysis-services-tabular-data.md
+              href: sql-server-analysis-services-tabular-data.md
         - name: 데이터 새로 고침
           items:
             - name: Power BI에서 데이터 새로 고침
-              href: ../refresh-data.md
+              href: refresh-data.md
             - name: 예약된 새로 고침 구성
-              href: ../refresh-scheduled-refresh.md
+              href: refresh-scheduled-refresh.md
             - name: 증분 새로 고침 구성
-              href: ../service-premium-incremental-refresh.md
+              href: ../admin/service-premium-incremental-refresh.md
             - name: 로컬 Power BI Desktop 파일에서 데이터 세트 새로 고침
-              href: ../refresh-desktop-file-local-drive.md
+              href: refresh-desktop-file-local-drive.md
             - name: 클라우드 Power BI Desktop 파일에서 데이터 세트 새로 고침
-              href: ../refresh-desktop-file-onedrive.md
+              href: refresh-desktop-file-onedrive.md
             - name: 로컬 Excel 통합 문서에서 데이터 세트 새로 고침
-              href: ../refresh-excel-file-local-drive.md
+              href: refresh-excel-file-local-drive.md
             - name: 클라우드 Excel 통합 문서에서 데이터 세트 새로 고침
-              href: ../refresh-excel-file-onedrive.md
+              href: refresh-excel-file-onedrive.md
             - name: OneDrive에 있는 .csv 파일에서 데이터 세트 새로 고침
-              href: ../refresh-csv-file-onedrive.md
+              href: refresh-csv-file-onedrive.md
             - name: Power BI Premium의 쿼리 캐싱
-              href: ../power-bi-query-caching.md
+              href: power-bi-query-caching.md
         - name: 템플릿 앱
           items:
             - name: 템플릿 앱 개요
-              href: ../service-template-apps-overview.md
+              href: service-template-apps-overview.md
             - name: 템플릿 앱 만들기
-              href: ../service-template-apps-create.md
+              href: service-template-apps-create.md
             - name: 템플릿 앱을 만들기 위한 팁
-              href: ../service-template-apps-tips.md
+              href: service-template-apps-tips.md
             - name: 템플릿 앱 설치 및 배포
-              href: ../service-template-apps-install-distribute.md
+              href: service-template-apps-install-distribute.md
             - name: 'Power BI 템플릿 앱을 업데이트, 삭제 및 추출'
-              href: ../service-template-update-delete-extract.md
+              href: service-template-update-delete-extract.md
             - name: 템플릿 앱 샘플
-              href: ../service-template-apps-samples.md
+              href: service-template-apps-samples.md
         - name: 문제 해결
           items:
             - name: 새로 고침 시나리오 문제 해결
-              href: ../refresh-troubleshooting-refresh-scenarios.md
+              href: refresh-troubleshooting-refresh-scenarios.md
             - name: 새로 고침을 지원하지 않는 데이터 원본 문제 해결
-              href: ../service-admin-troubleshoot-unsupported-data-source-for-refresh.md
+              href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
             - name: Azure SQL Database에 대해 예약된 새로 고침의 문제 해결
-              href: ../service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
+              href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
             - name: Excel에서 분석 문제 해결
-              href: ../desktop-troubleshooting-analyze-in-excel.md
+              href: ../collaborate-share/desktop-troubleshooting-analyze-in-excel.md
             - name: '오류: Excel 통합 문서에서 데이터를 찾을 수 없음'
-              href: ../service-admin-troubleshoot-excel-workbook-data.md
+              href: service-admin-troubleshoot-excel-workbook-data.md
             - name: 새로 고침에 실패한 경우 Xero 콘텐츠 팩 자격 증명을 새로 고치는 방법
-              href: ../service-refresh-xero-credentials.md
+              href: service-refresh-xero-credentials.md
         - name: 서비스에 연결
           items:
             - name: 앱을 사용하여 서비스에 연결
-              href: ../service-connect-to-services.md
+              href: service-connect-to-services.md
             - name: COVID-19 미국 추적 보고서
               href: service-connect-to-covid-19-tracking.md
             - name: 위기 통신 상태 보고서
               href: service-connect-to-crisis-communication-presence-report.md
             - name: GitHub
-              href: ../service-connect-to-github.md
+              href: service-connect-to-github.md
             - name: 병원 응급 대응 의사 결정 지원 대시보드
               href: service-connect-to-health-emergency-response.md
             - name: Microsoft 지속 가능성 계산기
-              href: ../service-connect-to-microsoft-sustainability-calculator.md
+              href: service-connect-to-microsoft-sustainability-calculator.md
             - name: Office365Mon
-              href: ../service-connect-to-office365mon.md
+              href: service-connect-to-office365mon.md
             - name: 프로젝트 온라인
-              href: ../service-connect-to-project-online.md
+              href: service-connect-to-project-online.md
             - name: QuickBooks Online
-              href: ../service-connect-to-quickbooks-online.md
+              href: service-connect-to-quickbooks-online.md
             - name: 지역별 응급 대응 대시보드
               href: service-connect-to-regional-emergency-response.md
             - name: Salesforce
-              href: ../service-connect-to-salesforce.md
+              href: service-connect-to-salesforce.md
             - name: Smartsheet
-              href: ../service-connect-to-smartsheet.md
+              href: service-connect-to-smartsheet.md
             - name: Xero
-              href: ../service-connect-to-xero.md
+              href: service-connect-to-xero.md
             - name: Zendesk
-              href: ../service-connect-to-zendesk.md
+              href: service-connect-to-zendesk.md
         - name: 게이트웨이
           items:
             - name: 온-프레미스 데이터 게이트웨이 심층 분석
-              href: ../service-gateway-onprem-indepth.md
+              href: service-gateway-onprem-indepth.md
             - name: 온-프레미스 데이터 게이트웨이(개인 모드)
-              href: ../service-gateway-personal-mode.md
+              href: service-gateway-personal-mode.md
             - name: 게이트웨이 데이터 원본 관리
               items:
                 - name: 데이터 원본 관리
-                  href: ../service-gateway-data-sources.md
+                  href: service-gateway-data-sources.md
                 - name: 엔터프라이즈 데이터 원본 관리 - Analysis Services
-                  href: ../service-gateway-enterprise-manage-ssas.md
+                  href: service-gateway-enterprise-manage-ssas.md
                 - name: 엔터프라이즈 데이터 원본 관리 - SAP HANA
-                  href: ../service-gateway-enterprise-manage-sap.md
+                  href: service-gateway-enterprise-manage-sap.md
                 - name: 엔터프라이즈 데이터 소스 관리 - SQL
-                  href: ../service-gateway-enterprise-manage-sql.md
+                  href: service-gateway-enterprise-manage-sql.md
                 - name: 데이터 원본 관리 - Oracle
-                  href: ../service-gateway-onprem-manage-oracle.md
+                  href: service-gateway-onprem-manage-oracle.md
                 - name: 엔터프라이즈 데이터 원본 관리 - 가져오기/예약된 새로 고침
-                  href: ../service-gateway-enterprise-manage-scheduled-refresh.md
+                  href: service-gateway-enterprise-manage-scheduled-refresh.md
                 - name: 온-프레미스 및 클라우드 데이터 원본 병합
-                  href: ../service-gateway-mashup-on-premises-cloud.md
+                  href: service-gateway-mashup-on-premises-cloud.md
             - name: SSO(Single Sign-On) 사용
               items:
                 - name: SSO 개요
-                  href: ../service-gateway-sso-overview.md
+                  href: service-gateway-sso-overview.md
                 - name: Kerberos 기반 SSO
                   items:
                     - name: Kerberos 기반 SSO 구성
-                      href: ../service-gateway-sso-kerberos.md
+                      href: service-gateway-sso-kerberos.md
                     - name: 데이터 원본 관련 구성
                       items:
                         - name: SAP HANA
-                          href: ../service-gateway-sso-kerberos-sap-hana.md
+                          href: service-gateway-sso-kerberos-sap-hana.md
                         - name: SAP BW-sapcrypto(일반 암호화 라이브러리)
-                          href: ../service-gateway-sso-kerberos-sap-bw-commoncryptolib.md
+                          href: service-gateway-sso-kerberos-sap-bw-commoncryptolib.md
                         - name: SAP BW - gx64krb5.dll
-                          href: ../service-gateway-sso-kerberos-sap-bw-gx64krb.md
+                          href: service-gateway-sso-kerberos-sap-bw-gx64krb.md
                 - name: SAML 기반 SSO
-                  href: ../service-gateway-sso-saml.md
+                  href: service-gateway-sso-saml.md
             - name: 게이트웨이 문제 해결
-              href: ../service-gateway-onprem-tshoot.md
+              href: service-gateway-onprem-tshoot.md
             - name: 게이트웨이 문제 해결(개인 모드)
-              href: ../service-admin-troubleshooting-power-bi-personal-gateway.md
+              href: service-admin-troubleshooting-power-bi-personal-gateway.md
             - name: 사용자 지정 커넥터 사용
-              href: ../service-gateway-custom-connectors.md
+              href: service-gateway-custom-connectors.md
         - name: 문제 해결
           items:
             - name: Access 및 Excel .xls 파일 가져오기 문제 해결
-              href: ../desktop-access-database-errors.md
+              href: desktop-access-database-errors.md
             - name: Power BI Desktop 열기 문제 해결
-              href: ../desktop-error-launching-desktop.md
+              href: desktop-error-launching-desktop.md
             - name: DirectQuery 모델 개발 문제 해결
-              href: ../desktop-directquery-troubleshoot.md
+              href: desktop-directquery-troubleshoot.md
     - name: 참조
       items:
         - name: Power BI Desktop의 데이터 형식
-          href: ../desktop-data-types.md
+          href: desktop-data-types.md
         - name: 커넥터 확장성
-          href: ../desktop-connector-extensibility.md
+          href: desktop-connector-extensibility.md
         - name: 신뢰할 수 있는 타사 커넥터
-          href: ../desktop-trusted-third-party-connectors.md
+          href: desktop-trusted-third-party-connectors.md

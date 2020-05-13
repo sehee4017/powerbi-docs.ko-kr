@@ -12,27 +12,27 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/30/2020
-  ms.openlocfilehash: 7c31ca6f71f4dad0d7ee6f94908cc89a17cd9799
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: 4c8b301e95dddbfc80f1a4b3c4a7a464da267dfc
+  ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "80464682"
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "83275987"
 landingContent:
 - title: 시작
   linkLists:
   - linkListType: get-started
     links:
     - text: 업데이트된 리본 사용
-      url: ../desktop-ribbon.md
+      url: desktop-ribbon.md
     - text: 접근성 개요
-      url: ../desktop-accessibility-overview.md
+      url: desktop-accessibility-overview.md
     - text: 샘플 데이터 가져오기
-      url: ../sample-datasets.md
+      url: sample-datasets.md
   - linkListType: tutorial
     links:
     - text: 샘플 팩 가져오기 및 열기
-      url: ../sample-tutorial-connect-to-the-samples.md
+      url: sample-tutorial-connect-to-the-samples.md
   - linkListType: sample
     links:
     - text: '코로나바이러스감염증-19 샘플: 미국 데이터'
@@ -58,33 +58,33 @@ landingContent:
   - linkListType: concept
     links:
     - text: 보고서 테마
-      url: ../desktop-report-themes.md
+      url: desktop-report-themes.md
     - text: 텍스트 상자 및 셰이프
-      url: ../power-bi-reports-add-text-and-shapes.md
+      url: power-bi-reports-add-text-and-shapes.md
   - linkListType: how-to-guide
     links:
     - text: 조건부 테이블 서식 지정
-      url: ../desktop-conditional-table-formatting.md
+      url: desktop-conditional-table-formatting.md
     - text: 그룹화 및 범주화 사용
-      url: ../desktop-grouping-and-binning.md
+      url: desktop-grouping-and-binning.md
     - text: 보고서에 책갈피 추가
-      url: ../desktop-bookmarks.md
+      url: desktop-bookmarks.md
 - title: 보고서 상호 작용 디자인
   linkLists:
   - linkListType: concept
     links:
     - text: Power BI Desktop의 보고서 뷰
-      url: ../desktop-report-view.md
+      url: desktop-report-view.md
   - linkListType: how-to-guide
     links:
     - text: Q&A를 사용하여 데이터 탐색
-      url: ../power-bi-tutorial-q-and-a.md
+      url: power-bi-tutorial-q-and-a.md
     - text: 보고서에서 드릴스루 사용
-      url: ../desktop-drillthrough.md
+      url: desktop-drillthrough.md
     - text: 보고서에 책갈피 추가
-      url: ../desktop-bookmarks.md
+      url: desktop-bookmarks.md
     - text: 보고서에 필터 추가
-      url: ../power-bi-report-filter.md
+      url: power-bi-report-filter.md
 - title: Power BI 페이지를 매긴 보고서
   linkLists:
   - linkListType: overview
@@ -110,12 +110,12 @@ landingContent:
   - linkListType: concept
     links:
     - text: 대시보드 소개
-      url: ../service-dashboards.md
+      url: service-dashboards.md
   - linkListType: how-to-guide
     links:
     - text: 대시보드 만들기
-      url: ../service-dashboard-create.md
+      url: service-dashboard-create.md
     - text: 대시보드에 타일 고정
-      url: ../service-dashboard-pin-tile-from-report.md
+      url: service-dashboard-pin-tile-from-report.md
     - text: 대시보드에 이미지 또는 비디오 추가
-      url: ../service-dashboard-add-widget.md
+      url: service-dashboard-add-widget.md

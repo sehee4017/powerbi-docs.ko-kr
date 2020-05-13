@@ -5,7 +5,7 @@
       expanded: true
       items:
         - name: 보고서 편집기 둘러보기
-          href: ../service-the-report-editor-take-a-tour.md
+          href: service-the-report-editor-take-a-tour.md
         - name: 페이지를 매긴 보고서란?
           href: ../paginated-reports/paginated-reports-report-builder-power-bi.md
     - name: 자습서
@@ -19,46 +19,46 @@
       expanded: true
       items:
         - name: Power BI용 샘플 가져오기
-          href: ../sample-datasets.md
+          href: sample-datasets.md
         - name: 코로나바이러스감염증-19 미국 샘플
           href: sample-covid-19-us.md
         - name: 고객 수익성 샘플
-          href: ../sample-customer-profitability.md
+          href: sample-customer-profitability.md
         - name: IT 지출 분석 샘플
-          href: ../sample-it-spend.md
+          href: sample-it-spend.md
         - name: 인적 자원 샘플
-          href: ../sample-human-resources.md
+          href: sample-human-resources.md
         - name: 기회 분석 샘플
-          href: ../sample-opportunity-analysis.md
+          href: sample-opportunity-analysis.md
         - name: 조달 분석 샘플
-          href: ../sample-procurement.md
+          href: sample-procurement.md
         - name: 소매점 분석 샘플
-          href: ../sample-retail-analysis.md
+          href: sample-retail-analysis.md
         - name: 소매점 분석 샘플 살펴보기
-          href: ../sample-tutorial-connect-to-the-samples.md
+          href: sample-tutorial-connect-to-the-samples.md
         - name: 영업 및 마케팅 샘플
-          href: ../sample-sales-and-marketing.md
+          href: sample-sales-and-marketing.md
         - name: 공급업체 품질 분석 샘플
-          href: ../sample-supplier-quality.md
+          href: sample-supplier-quality.md
         - name: 재무 샘플 통합 문서 다운로드
-          href: ../sample-financial-download.md
+          href: sample-financial-download.md
     - name: 개념
       expanded: true
       items:
         - name: Power BI 보고서
           items:
             - name: 보고서 보기 작업
-              href: ../desktop-report-view.md
+              href: desktop-report-view.md
             - name: 보고서의 필터 유형
-              href: ../power-bi-report-filter-types.md
+              href: power-bi-report-filter-types.md
             - name: 필터 및 보고서에서 강조 표시
-              href: ../power-bi-reports-filters-and-highlighting.md
+              href: power-bi-reports-filters-and-highlighting.md
             - name: 고밀도 선 샘플링
-              href: ../desktop-high-density-sampling.md
+              href: desktop-high-density-sampling.md
             - name: 질문 및 답변 시각적 개체에 대한 정보
               href: ../visuals/power-bi-visualization-q-and-a.md
             - name: 접근성 정보
-              href: ../desktop-accessibility-overview.md
+              href: desktop-accessibility-overview.md
             - name: 자연어 Q&A
               items:
                 - name: Q&A 소개
@@ -112,107 +112,107 @@
         - name: Power BI 보고서
           items:
             - name: 자동 페이지 새로 고침 사용(미리 보기)
-              href: ../desktop-automatic-page-refresh.md
+              href: desktop-automatic-page-refresh.md
             - name: 성능 분석기를 사용하여 보고서 요소 검사
-              href: ../desktop-performance-analyzer.md
+              href: desktop-performance-analyzer.md
             - name: 보고서에 시각적 요소 추가
-              href: ../desktop-visual-elements-for-reports.md
+              href: desktop-visual-elements-for-reports.md
             - name: 시각적 개체를 개선하는 보고서 도구 설명 추가
-              href: ../desktop-tooltips.md
+              href: desktop-tooltips.md
             - name: 보고서를 PDF 파일로 내보내기
-              href: ../desktop-export-to-pdf.md
+              href: desktop-export-to-pdf.md
             - name: 인사이트를 적용하여 시각적 개체의 변동 설명(미리 보기)
-              href: ../desktop-insights.md
+              href: desktop-insights.md
             - name: 인사이트를 사용하여 배포판이 어떻게 다른지 검색(미리 보기)
-              href: ../desktop-insights-find-where-different.md
+              href: desktop-insights-find-where-different.md
             - name: 단추 만들기
-              href: ../desktop-buttons.md
+              href: desktop-buttons.md
             - name: 드릴스루 단추 만들기
-              href: ../desktop-drill-through-buttons.md
+              href: desktop-drill-through-buttons.md
             - name: 드릴스루 기능 사용
-              href: ../desktop-drillthrough.md
+              href: desktop-drillthrough.md
             - name: 교차 보고서 드릴스루 기능 사용
-              href: ../desktop-cross-report-drill-through.md
+              href: desktop-cross-report-drill-through.md
             - name: 책갈피를 만들어 인사이트를 저장 및 공유
-              href: ../desktop-bookmarks.md
+              href: desktop-bookmarks.md
             - name: 보고서 테마 작업
-              href: ../desktop-report-themes.md
+              href: desktop-report-themes.md
             - name: 보고서에서 필터 작업
-              href: ../power-bi-report-filter.md
+              href: power-bi-report-filter.md
             - name: 보고서에 필터 추가
-              href: ../power-bi-report-add-filter.md
+              href: power-bi-report-add-filter.md
             - name: 그룹화 및 범주화 적용
-              href: ../desktop-grouping-and-binning.md
+              href: desktop-grouping-and-binning.md
             - name: 눈금선 및 눈금에 맞춤 적용
-              href: ../desktop-gridlines-snap-to-grid.md
+              href: desktop-gridlines-snap-to-grid.md
             - name: 보고서에 페이지 표시 설정 적용
-              href: ../power-bi-report-display-settings.md
+              href: power-bi-report-display-settings.md
             - name: 예제의 열 추가
-              href: ../desktop-add-column-from-example.md
+              href: desktop-add-column-from-example.md
             - name: 사용자 지정 열 추가
-              href: ../desktop-add-custom-column.md
+              href: desktop-add-custom-column.md
             - name: 인라인 계층 구조 레이블 사용
-              href: ../desktop-inline-hierarchy-labels.md
+              href: desktop-inline-hierarchy-labels.md
             - name: 슬라이서
               href: ../visuals/power-bi-visualization-slicers.md
             - name: 숫자 범위 슬라이서
-              href: ../desktop-slicer-numeric-range.md
+              href: desktop-slicer-numeric-range.md
             - name: 상대 날짜 슬라이서 및 필터
               href: ../visuals/desktop-slicer-filter-date-range.md
             - name: 상대 날짜 슬라이서 및 필터
               href: slicer-filter-relative-time.md
             - name: 크기를 조정할 수 있는 슬라이서 만들기
-              href: ../power-bi-slicer-filter-responsive.md
+              href: power-bi-slicer-filter-responsive.md
             - name: 슬라이서에 여러 필드 추가
               href: power-bi-slicer-hierarchy-multiple-fields.md
             - name: 행 수준 보안을 사용하여 데이터 액세스 제한
-              href: ../desktop-rls.md
+              href: desktop-rls.md
             - name: 도구 사용자 지정
-              href: ../desktop-custom-tooltips.md
+              href: desktop-custom-tooltips.md
             - name: 보고서에 텍스트 상자 및 셰이프 추가
-              href: ../power-bi-reports-add-text-and-shapes.md
+              href: power-bi-reports-add-text-and-shapes.md
             - name: 텍스트 상자에 하이퍼링크 추가
-              href: ../service-add-hyperlink-to-text-box.md
+              href: service-add-hyperlink-to-text-box.md
             - name: 테이블에 하이퍼링크 추가
-              href: ../power-bi-hyperlinks-in-tables.md
+              href: power-bi-hyperlinks-in-tables.md
             - name: '테이블, 행렬 또는 슬라이서에 이미지 표시'
-              href: ../power-bi-images-tables.md
+              href: power-bi-images-tables.md
             - name: 사용자 지정 형식 문자열 표시
-              href: ../desktop-custom-format-strings.md
+              href: desktop-custom-format-strings.md
             - name: 조건부 테이블 서식 지정
-              href: ../desktop-conditional-table-formatting.md
+              href: desktop-conditional-table-formatting.md
             - name: 동적 식 기반 제목 만들기
-              href: ../desktop-conditional-format-visual-titles.md
+              href: desktop-conditional-format-visual-titles.md
             - name: 열 기준 정렬
-              href: ../desktop-sort-by-column.md
+              href: desktop-sort-by-column.md
             - name: 모바일 앱 보고서 최적화
-              href: ../desktop-create-phone-report.md
+              href: desktop-create-phone-report.md
             - name: 데이터 보기 및 레코드 옵션 보기 적용
-              href: ../desktop-see-data-see-records.md
+              href: desktop-see-data-see-records.md
             - name: 보고서를 만들기 위한 팁과 힌트
-              href: ../desktop-tips-and-tricks-for-creating-reports.md
+              href: desktop-tips-and-tricks-for-creating-reports.md
             - name: 보고서에서 시각적 개체 그룹화
-              href: ../desktop-grouping-visuals.md
+              href: desktop-grouping-visuals.md
             - name: 보고서 템플릿 만들기
-              href: ../desktop-templates.md
+              href: desktop-templates.md
             - name: 데이터 세트에서 보고서 만들기
-              href: ../service-report-create-new.md
+              href: service-report-create-new.md
             - name: 보고서 저장
-              href: ../service-report-save.md
+              href: service-report-save.md
             - name: 편집용 보기에서 보고서와 상호 작용
-              href: ../service-interact-with-a-report-in-editing-view.md
+              href: service-interact-with-a-report-in-editing-view.md
             - name: Excel에서 분석
-              href: ../service-analyze-in-excel.md
+              href: ../collaborate-share/service-analyze-in-excel.md
             - name: 서비스의 집계 작업
-              href: ../service-aggregates.md
+              href: service-aggregates.md
             - name: 보고서에 대한 QR 코드 만들기
-              href: ../service-create-qr-code-for-report.md
+              href: service-create-qr-code-for-report.md
             - name: 소비자가 시각적 개체를 사용자 지정할 수 있도록 허용(미리 보기)
               href: power-bi-personalize-visuals.md
             - name: Power BI Desktop으로 보고서 내보내기(미리 보기)
-              href: ../service-export-to-pbix.md
+              href: service-export-to-pbix.md
             - name: 데이터 세트 및 보고서 게시
-              href: ../desktop-upload-desktop-files.md
+              href: desktop-upload-desktop-files.md
         - name: 시각화
           items:
             - name: 보고서에 시각적 개체 추가(1부)
@@ -226,7 +226,7 @@
             - name: '시각적 개체 제목, 배경 및 범례 사용자 지정'
               href: ../visuals/power-bi-visualization-customize-title-background-and-legend.md
             - name: 데이터가 없는 항목 표시
-              href: ../desktop-show-items-no-data.md
+              href: desktop-show-items-no-data.md
             - name: 시각적 개체 유형별 데이터 요소 제한 및 전략 적용
               href: ../visuals/power-bi-data-points.md
             - name: 시각적 개체의 기본 데이터 표시
@@ -242,7 +242,7 @@
             - name: '보고서에서 시각화 개체 이동, 크기 조정 및 팝아웃'
               href: ../visuals/power-bi-visualization-move-and-resize.md
             - name: 보고서에서 시각적 개체가 조작되는 방식 변경
-              href: ../service-reports-visual-interactions.md
+              href: service-reports-visual-interactions.md
             - name: 지도 시각화를 위한 팁과 요령
               href: ../visuals/power-bi-map-tips-and-tricks.md
             - name: X축 및 Y축 속성 사용자 지정
@@ -276,9 +276,9 @@
             - name: R 시각적 개체
               href: ../visuals/service-r-visuals.md
             - name: R을 사용하여 Power BI 만들기
-              href: ../desktop-r-visuals.md
+              href: desktop-r-visuals.md
             - name: R 지원 Power BI 시각적 개체 다운로드 및 사용
-              href: ../desktop-r-powered-custom-visuals.md
+              href: desktop-r-powered-custom-visuals.md
             - name: 방사형 계기 차트
               href: ../visuals/power-bi-visualization-radial-gauge-charts.md
             - name: 리본 차트
@@ -304,29 +304,29 @@
             - name: Q&A 모범 사례
               href: ../natural-language/q-and-a-best-practices.md
             - name: Q&A를 사용하여 데이터 탐색
-              href: ../power-bi-tutorial-q-and-a.md
+              href: power-bi-tutorial-q-and-a.md
             - name: Q&A로 시각적 개체 만들기
-              href: ../power-bi-visualization-introduction-to-q-and-a.md
+              href: power-bi-visualization-introduction-to-q-and-a.md
             - name: Q&A를 통해 Excel 데이터 작동 가능
-              href: ../service-prepare-data-for-q-and-a.md
+              href: service-prepare-data-for-q-and-a.md
             - name: 질문 및 답변에 대한 추천 질문 만들기
-              href: ../service-q-and-a-create-featured-questions.md
+              href: service-q-and-a-create-featured-questions.md
             - name: 라이브 연결로 질문 및 답변 사용
-              href: ../service-q-and-a-direct-query.md
+              href: service-q-and-a-direct-query.md
             - name: 신속한 정보 활용
-              href: ../service-insights.md
+              href: service-insights.md
             - name: 빠른 인사이트를 위한 데이터 최적화
-              href: ../service-insights-optimize.md
+              href: service-insights-optimize.md
         - name: 접근성
           items:
             - name: 액세스 가능한 보고서 디자인
-              href: ../desktop-accessibility-creating-reports.md
+              href: desktop-accessibility-creating-reports.md
             - name: 접근성 도구를 사용하여 보고서 만들기
-              href: ../desktop-accessibility-creating-tools.md
+              href: desktop-accessibility-creating-tools.md
             - name: 접근성 기능을 사용하여 보고서 사용
-              href: ../desktop-accessibility-consuming-tools.md
+              href: desktop-accessibility-consuming-tools.md
             - name: Power BI Desktop의 바로 가기 키
-              href: ../desktop-accessibility-keyboard-shortcuts.md
+              href: desktop-accessibility-keyboard-shortcuts.md
         - name: 페이지를 매긴 보고서
           items:
             - name: 페이지를 매긴 보고서에 직접 데이터 입력
@@ -350,39 +350,39 @@
         - name: 대시보드
           items:
             - name: 대시보드 소개
-              href: ../service-dashboards.md
+              href: service-dashboards.md
             - name: 대시보드 타일
-              href: ../service-dashboard-tiles.md
+              href: service-dashboard-tiles.md
             - name: 보고서에서 대시보드 만들기
-              href: ../service-dashboard-create.md
+              href: service-dashboard-create.md
             - name: 대시보드 복사본 만들기
-              href: ../service-dashboard-copy.md
+              href: service-dashboard-copy.md
             - name: 보고서에서 대시보드에 타일 고정
-              href: ../service-dashboard-pin-tile-from-report.md
+              href: service-dashboard-pin-tile-from-report.md
             - name: 대시보드 간에 타일 고정
-              href: ../service-pin-tile-to-another-dashboard.md
+              href: service-pin-tile-to-another-dashboard.md
             - name: Excel의 대시보드에 타일 고정
-              href: ../service-dashboard-pin-tile-from-excel.md
+              href: service-dashboard-pin-tile-from-excel.md
             - name: 질문 및 답변에서 대시보드에 타일 고정
-              href: ../service-dashboard-pin-tile-from-q-and-a.md
+              href: service-dashboard-pin-tile-from-q-and-a.md
             - name: 전체 보고서 페이지를 대시보드에 고정
-              href: ../service-dashboard-pin-live-tile-from-report.md
+              href: service-dashboard-pin-live-tile-from-report.md
             - name: 서비스의 데이터 경고
-              href: ../service-set-data-alerts.md
+              href: service-set-data-alerts.md
             - name: '대시보드에 이미지, 텍스트 상자, 비디오 또는 코드 추가'
-              href: ../service-dashboard-add-widget.md
+              href: service-dashboard-add-widget.md
             - name: 타일 편집
-              href: ../service-dashboard-edit-tile.md
+              href: service-dashboard-edit-tile.md
             - name: 멋진 대시보드를 디자인하기 위한 팁
-              href: ../service-dashboards-design-tips.md
+              href: service-dashboards-design-tips.md
             - name: 휴대폰에 적합하도록 대시보드 최적화
-              href: ../service-create-dashboard-mobile-phone-view.md
+              href: service-create-dashboard-mobile-phone-view.md
             - name: 타일에 대한 QR 코드 만들기
-              href: ../service-create-qr-code-for-tile.md
+              href: service-create-qr-code-for-tile.md
             - name: 대시보드 데이터 분류
-              href: ../service-data-classification.md
+              href: service-data-classification.md
             - name: 대시보드 테마
-              href: ../service-dashboard-themes.md
+              href: service-dashboard-themes.md
         - name: 배포 파이프라인
           items:
             - name: 시작
@@ -392,8 +392,8 @@
         - name: 기타 작업
           items:
             - name: 콘텐츠 이름 바꾸기
-              href: ../service-rename.md
+              href: service-rename.md
             - name: 항목 연락처 설정
-              href: ../service-item-contact.md
+              href: service-item-contact.md
             - name: 거의 모든 항목 삭제
-              href: ../service-delete.md
+              href: service-delete.md

@@ -6,50 +6,50 @@
       expanded: true
       items:
         - name: Power BI란?
-          href: ../power-bi-overview.md
+          href: power-bi-overview.md
         - name: Power BI Desktop이란?
-          href: ../desktop-what-is-desktop.md
+          href: desktop-what-is-desktop.md
         - name: Power BI 서비스란?
-          href: ../power-bi-service-overview.md
+          href: power-bi-service-overview.md
         - name: Power BI Desktop 및 서비스 비교
-          href: ../service-service-vs-desktop.md
+          href: service-service-vs-desktop.md
     - name: 개념
       items:
         - name: 최신 Power BI Desktop 업데이트의 새로운 기능
-          href: ../desktop-latest-update.md
+          href: desktop-latest-update.md
         - name: Power BI 서비스의 새로운 기능
-          href: ../service-whats-new.md
+          href: service-whats-new.md
         - name: Power BI 서비스 이해
-          href: ../service-basic-concepts.md
+          href: service-basic-concepts.md
         - name: 도움을 받을 수 있는 10가지 팁
-          href: ../service-tips-for-finding-help.md
-        - name: 라이선스
+          href: service-tips-for-finding-help.md
+        - name: 라이선싱
           items:
             - name: Power BI에 등록
-              href: ../service-self-service-signup-for-power-bi.md
+              href: service-self-service-signup-for-power-bi.md
             - name: 라이선스 유형별 기능
-              href: ../service-features-license-type.md
+              href: service-features-license-type.md
     - name: 방법 가이드
       items:
-        - name: Power BI Desktop 받기
-          href: ../desktop-get-the-desktop.md
+        - name: Power BI Desktop 다운로드
+          href: desktop-get-the-desktop.md
         - name: Power BI Desktop 시작
-          href: ../desktop-getting-started.md
+          href: desktop-getting-started.md
     - name: 참조
       items:
         - name: 지원되는 언어 및 국가/지역
-          href: ../supported-languages-countries-regions.md
+          href: supported-languages-countries-regions.md
         - name: 지원되는 브라우저
-          href: ../power-bi-browsers.md
+          href: power-bi-browsers.md
     - name: 리소스
       items:
-        - name: 동영상
-          href: ../videos.md
+        - name: 비디오
+          href: videos.md
         - name: 웹 세미나
-          href: ../webinars.md
+          href: webinars.md
         - name: Power BI Desktop 동영상
-          href: ../desktop-videos.md
+          href: desktop-videos.md
         - name: Power BI Desktop 업데이트 보관
-          href: ../desktop-latest-update-archive.md
+          href: desktop-latest-update-archive.md
         - name: Power BI Desktop 웃는 얼굴 보내기 개인정보취급방침
-          href: ../desktop-send-smile-privacy-statement.md
+          href: desktop-send-smile-privacy-statement.md

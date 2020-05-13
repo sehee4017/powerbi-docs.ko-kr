@@ -21,7 +21,7 @@
             - name: 파워 쿼리 백그라운드 새로 고침 사용 안 함
               href: power-query-background-refresh.md
             - name: 데이터 흐름에 관한 모범 사례
-              href: ../service-dataflows-best-practices.md
+              href: ../transform-model/service-dataflows-best-practices.md
         - name: 데이터 모델링
           items:
             - name: 별모양 스키마란?
@@ -32,7 +32,7 @@
               href: auto-date-time.md
             - name: 일대일 관계
               href: relationships-one-to-one.md
-            - name: 다 대 다 관계
+            - name: 다대다 관계
               href: relationships-many-to-many.md
             - name: 활성 및 비활성 관계
               href: relationships-active-inactive.md

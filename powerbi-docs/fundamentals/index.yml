@@ -12,33 +12,33 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/05/2020
-  ms.openlocfilehash: 04ce4ce2ec0038ff6e79a2e65de8279a3a73dcad
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: cbe4b08f84dcd4246bceb83933366d1086d27bd0
+  ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "81439598"
+  ms.lasthandoff: 05/13/2020
+  ms.locfileid: "83348784"
 landingContent:
 - title: Power BI란?
   linkLists:
   - linkListType: overview
     links:
     - text: Power BI란?
-      url: ../power-bi-overview.md
+      url: power-bi-overview.md
     - text: Power BI Desktop이란?
-      url: ../desktop-what-is-desktop.md
+      url: desktop-what-is-desktop.md
     - text: Power BI 서비스란?
-      url: ../power-bi-service-overview.md
+      url: power-bi-service-overview.md
     - text: Power BI Desktop 및 서비스 비교
-      url: ../service-service-vs-desktop.md
+      url: service-service-vs-desktop.md
 - title: 새로운 기능
   linkLists:
   - linkListType: concept
     links:
     - text: Power BI Desktop의 새로운 기능
-      url: ../desktop-latest-update.md
+      url: desktop-latest-update.md
     - text: 서비스의 새로운 기능
-      url: ../service-whats-new.md
+      url: service-whats-new.md
 - title: 학습 시작하기
   linkLists:
   - linkListType: learn
@@ -47,21 +47,21 @@ landingContent:
       url: https://docs.microsoft.com/learn/paths/create-use-analytics-reports-power-bi/
     - text: Power BI Desktop을 사용하여 데이터 가져오기
       url: https://docs.microsoft.com/learn/modules/get-data-power-bi/?tutorial-step=1
-- title: 라이선스
+- title: 라이선싱
   linkLists:
   - linkListType: concept
     links:
     - text: Power BI에 등록
-      url: ../service-self-service-signup-for-power-bi.md
+      url: service-self-service-signup-for-power-bi.md
     - text: 라이선스 유형별 기능
-      url: ../service-features-license-type.md
+      url: service-features-license-type.md
 - title: 리소스
   linkLists:
   - linkListType: reference
     links:
     - text: Power BI 동영상
-      url: ../videos.md
+      url: videos.md
     - text: Power BI Desktop 동영상
-      url: ../desktop-videos.md
+      url: desktop-videos.md
     - text: 웹 세미나
-      url: ../webinars.md
+      url: webinars.md

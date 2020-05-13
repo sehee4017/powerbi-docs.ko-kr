@@ -27,9 +27,9 @@
         - name: 자연어를 사용하여 질문하는 방법에 대한 자세한 정보
           href: end-user-q-and-a.md
         - name: ‘새 디자인’ 탐색
-          href: ../service-new-look.md
+          href: service-new-look.md
         - name: '‘새 디자인’: 어디에서 작업이 진행되었나요?'
-          href: ../service-new-look-where-actions.md
+          href: service-new-look-where-actions.md
     - name: 방법
       items:
         - name: 대시보드
@@ -93,7 +93,7 @@
             - name: 시각화에서 드릴 다운
               href: end-user-drill.md
             - name: ArcGIS 맵과 상호 작용
-              href: ../power-bi-visualizations-arcgis.md
+              href: ../visuals/power-bi-visualizations-arcgis.md
         - name: 일반 작업
           items:
             - name: Excel로 데이터 내보내기
