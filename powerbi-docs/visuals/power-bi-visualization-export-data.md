@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI 시각화에서 데이터 내보내기
 description: 보고서 시각화 및 대시보드 시각화에서 데이터를 내보내고 Excel에서 봅니다.
 author: mihart

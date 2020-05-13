@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI Report Server 및 Power BI 서비스 비교
 description: 이 문서에서는 Power BI Report Server와 Power BI 서비스의 기능을 비교합니다.
 keywords: ''

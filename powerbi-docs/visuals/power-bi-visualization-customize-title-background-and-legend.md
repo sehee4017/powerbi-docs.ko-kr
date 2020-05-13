@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI 시각화 서식 지정 시작
 description: 시각화 제목, 배경 및 범례 사용자 지정
 author: mihart

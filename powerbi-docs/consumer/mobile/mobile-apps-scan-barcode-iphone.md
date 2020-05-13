@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI 모바일 앱에서 바코드 스캔
 description: 실제 세계에서 바코드를 스캔하여 Power BI 모바일 앱에 있는 필터링된 BI 정보로 바로 이동합니다.
 author: paulinbar
@@ -32,7 +32,7 @@ ms.locfileid: "80802052"
 디바이스의 Power BI 앱에서 스캐너를 사용하여 제품 바코드를 스캔할 때 해당 바코드가 있는 보고서(또는 보고서 목록)를 확인합니다. 해당 바코드로 필터링된 보고서를 열 수 있습니다.
 
 ## <a name="scan-a-barcode-with-the-power-bi-scanner"></a>Power BI 스캐너를 사용하여 바코드 스캔
-1. 탐색 모음에서 **기타 옵션**(...)을 탭한 다음, **스캐너**를 탭합니다.
+1. 탐색 모음에서 **추가 옵션**(...)을 탭한 다음, **스캐너**를 탭합니다.
 
     ![](media/mobile-apps-scan-barcode-iphone/power-bi-scanner.png)
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI 모바일 앱에서 데이터 경고 설정
 description: 대시보드의 데이터가 설정해 놓은 한도를 넘어 변경되면 알리도록 Power BI 모바일 앱에서 데이터 경고를 설정하는 방법을 알아봅니다.
 author: paulinbar

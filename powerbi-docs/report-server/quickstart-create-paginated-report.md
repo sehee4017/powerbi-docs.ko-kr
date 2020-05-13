@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI Report Server에 페이지를 매긴 보고서 만들기
 description: 몇 가지 간단한 단계를 거쳐 Power BI Report Server에 페이지를 매긴 보고서를 만드는 방법을 알아봅니다.
 author: maggiesMSFT

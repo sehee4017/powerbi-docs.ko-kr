@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI 보고서 및 대시보드의 테이블 시각화
 description: Power BI 보고서와 대시보드에서 열 너비 크기를 조정하는 방법을 비롯하여 테이블 시각화를 사용하여 작업하는 방법에 대한 자습서입니다.
 author: mihart

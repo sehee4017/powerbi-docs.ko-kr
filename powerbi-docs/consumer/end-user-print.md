@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI 서비스에서 인쇄
 description: Power BI 서비스에서 대시보드, 타일 또는 보고서 페이지를 인쇄합니다.
 author: mihart

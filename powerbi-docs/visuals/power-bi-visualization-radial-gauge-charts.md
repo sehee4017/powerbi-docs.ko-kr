@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI의 방사형 계기 차트
 description: Power BI의 방사형 계기 차트
 author: mihart
@@ -61,7 +61,7 @@ ms.locfileid: "82866935"
 1. 새 페이지를 추가하기 위해 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
 
 
-
+ 
 ## <a name="create-a-basic-radial-gauge"></a>기본 방사형 계기 만들기
 
 ### <a name="step-1-create-a-gauge-to-track-gross-sales"></a>1단계: 총 매출을 추적하는 계기 만들기

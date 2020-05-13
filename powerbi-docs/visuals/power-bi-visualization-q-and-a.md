@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI 질문 및 답변 시각적 개체 사용
 description: Power BI 질문 및 답변 시각적 개체를 설정하는 방법
 author: mihart

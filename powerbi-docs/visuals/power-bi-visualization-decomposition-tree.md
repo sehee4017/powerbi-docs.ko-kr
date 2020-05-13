@@ -1,4 +1,4 @@
----
+﻿---
 title: 분해 트리
 description: '자습서:  Power BI에서 분해 트리 시각화 만들기'
 author: mihart
@@ -105,7 +105,7 @@ Nintendo 북아메리카 판매/Abs(Avg(플랫폼 북아메리카 판매))
 vs.  
 46,950,000/ (46,950,000/1) = 1x  
 
-트리에서 AI 분할을 사용하지 않으려는 경우 **분석 서식 지정** 옵션을 사용하여 해제할 수도 있습니다.  
+트리에서 AI 분할을 사용하지 않으려는 경우 **분석 서식 지정** 옵션을 사용하여 해제할 수도 있습니다.   
 
 ![분해 트리 AI 분할 사용 안 함](media/power-bi-visualization-decomposition-tree/tree-ai-disable.png)
 

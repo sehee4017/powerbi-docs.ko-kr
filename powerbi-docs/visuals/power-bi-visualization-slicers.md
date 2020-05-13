@@ -1,4 +1,4 @@
----
+﻿---
 title: Power BI의 슬라이서
 description: Power BI 슬라이서는 보고서의 다른 시각화에 표시되는 데이터 세트의 부분을 좁히는 대체 필터링 방법입니다.
 author: maggiesMSFT

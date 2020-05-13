@@ -56,7 +56,7 @@ Power BI에서 시각적 개체를 렌더링할 경우 시각화가 빠르고 �
 
 ## <a name="strategies-and-data-point-limits-by-visual-type"></a>시각적 개체 유형별 전략 및 데이터 요소 제한
 
-### <a name="area-chart"></a>영역 차트
+### <a name="area-chart"></a>영역형 차트
 [선 샘플링 작동 방식](../desktop-high-density-sampling.md#how-the-new-line-sampling-algorithm-works) 참조
 
 ### <a name="barcolumn-chart"></a>가로 막대형/세로 막대형 차트

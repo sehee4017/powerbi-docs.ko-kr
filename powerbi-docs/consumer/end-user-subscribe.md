@@ -1,4 +1,4 @@
----
+﻿---
 title: 직접 보고서 및 대시보드 구독
 description: 본인이 Power BI 보고서 및 대시보드의 메일 스냅샷을 구독하는 방법에 대해 알아보세요.
 author: mihart

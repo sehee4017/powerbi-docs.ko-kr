@@ -1,4 +1,4 @@
----
+﻿---
 title: 2부, Power BI 보고서에 시각화 추가
 description: 2부, Power BI 보고서에 시각화 추가
 author: mihart
