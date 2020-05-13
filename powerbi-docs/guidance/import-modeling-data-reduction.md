@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/05/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 5560181f2fc52a02eebce274d88dc66517181517
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7816fd6e75c9b8925ba0d707f6a63f58af546fcf
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205783"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279483"
 ---
 # <a name="data-reduction-techniques-for-import-modeling"></a>가져오기 모델링을 위한 데이터 축소 방법
 
@@ -23,8 +23,8 @@ ms.locfileid: "79205783"
 
 VertiPaq 스토리지 엔진의 효율성에도 불구하고, 모델에 로드되는 데이터를 최소화하는 것이 중요합니다. 이 작업은 큰 모델이나 시간이 지남에 따라 커질 것으로 예상되는 모델의 경우 특히 중요합니다. 네 가지 타당한 이유는 다음과 같습니다.
 
-- 큰 모델 크기가 해당 용량에서 지원되지 않을 수 있습니다. 프리미엄 용량은 최대 13GB 크기의 모델을 호스트할 수 있는 반면, 공유 용량은 최대 1GB 크기의 모델을 호스트할 수 있습니다. 자세한 내용은 [큰 데이터 세트를 위한 Power BI Premium 지원](../service-premium-large-datasets.md) 문서를 참조하세요.
-- 모델 크기가 작으면 특정 메모리에서 용량 리소스 경합이 감소합니다. 따라서 더 많은 모델을 더 오랫동안 동시에 로드할 수 있으므로 제거 비율이 낮아집니다. 자세한 내용은 [프리미엄 용량 관리](../service-premium-capacity-manage.md)를 참조하세요.
+- 큰 모델 크기가 해당 용량에서 지원되지 않을 수 있습니다. 프리미엄 용량은 최대 13GB 크기의 모델을 호스트할 수 있는 반면, 공유 용량은 최대 1GB 크기의 모델을 호스트할 수 있습니다. 자세한 내용은 [큰 데이터 세트를 위한 Power BI Premium 지원](../admin/service-premium-what-is.md) 문서를 참조하세요.
+- 모델 크기가 작으면 특정 메모리에서 용량 리소스 경합이 감소합니다. 따라서 더 많은 모델을 더 오랫동안 동시에 로드할 수 있으므로 제거 비율이 낮아집니다. 자세한 내용은 [프리미엄 용량 관리](../admin/service-premium-capacity-manage.md)를 참조하세요.
 - 모델이 작으면 데이터 새로 고침이 빨라지므로 보고 대기 시간이 단축되고, 데이터 세트 새로 고침 처리량이 증가하며, 원본 시스템 및 용량 리소스의 부담이 감소합니다.
 - 테이블 행 수가 적을수록 계산 평가가 빨라지므로 전반적인 쿼리 성능이 향상됩니다.
 
@@ -88,7 +88,7 @@ VertiPaq 스토리지 엔진은 일반적인 파워 쿼리 원본 열과 동일�
 
 ## <a name="disable-auto-datetime"></a>자동 날짜/시간 사용 안 함
 
-Power BI Desktop에는 _자동 날짜/시간_이라는 옵션이 있습니다. 이 옵션을 사용하면 보고서 작성자가 일정 기간에 대한 필터, 그룹화 및 드릴다운을 구성하는 데 도움이 되도록 날짜 열에 대한 숨겨진 자동 날짜/시간 테이블이 생성됩니다. 숨겨진 테이블은 사실 모델의 크기를 늘리는 계산된 테이블입니다. 이 옵션을 사용하는 방법에 대한 지침은 [Power BI Desktop의 자동 날짜/시간](../desktop-auto-date-time.md) 문서를 참조하세요.
+Power BI Desktop에는 _자동 날짜/시간_이라는 옵션이 있습니다. 이 옵션을 사용하면 보고서 작성자가 일정 기간에 대한 필터, 그룹화 및 드릴다운을 구성하는 데 도움이 되도록 날짜 열에 대한 숨겨진 자동 날짜/시간 테이블이 생성됩니다. 숨겨진 테이블은 사실 모델의 크기를 늘리는 계산된 테이블입니다. 이 옵션을 사용하는 방법에 대한 지침은 [Power BI Desktop의 자동 날짜/시간](../transform-model/desktop-auto-date-time.md) 문서를 참조하세요.
 
 ## <a name="switch-to-mixed-mode"></a>혼합 모드로 전환
 
@@ -96,12 +96,13 @@ Power BI Desktop에서 혼합 모드 디자인은 복합 모델을 생성합니�
 
 모델 크기를 줄이는 효과적인 방법은 큰 팩트 유형 테이블의 스토리지 모드 속성을 DirectQuery로 설정하는 것입니다. 이 디자인 방법은 앞에서 소개한 [그룹화 방법 및 요약](#group-by-and-summarize) 기술과 함께 사용할 때 효과적일 수 있습니다. 예를 들어 요약된 판매 데이터를 사용하여 고성능 “요약” 보고를 구현할 수 있습니다. 드릴스루 페이지는 특정(및 좁은) 필터 컨텍스트에 맞게 세분화된 판매를 표시하여, 상황에 맞는 모든 판매 주문을 표시할 수 있습니다. 이 예제에서는 드릴스루 페이지에 판매 주문 데이터를 검색하기 위한 DirectQuery 테이블 기반의 시각적 개체가 포함됩니다.
 
-그러나 복합 모델은 보안 및 성능과 관련해서 다양한 영향을 미칩니다. 자세한 내용은 [Power BI Desktop에서 복합 모델 사용](../desktop-composite-models.md) 문서를 참조하세요.
+그러나 복합 모델은 보안 및 성능과 관련해서 다양한 영향을 미칩니다. 자세한 내용은 [Power BI Desktop에서 복합 모델 사용](../transform-model/desktop-composite-models.md) 문서를 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 
 Power BI 가져오기 모델 디자인에 대한 자세한 내용은 다음 문서를 참조하세요.
 
-- [Power BI Desktop에서 복합 모델 사용](../desktop-composite-models.md)
-- [Power BI Desktop의 스토리지 모드](../desktop-storage-mode.md)
+- [Power BI Desktop에서 복합 모델 사용](../transform-model/desktop-composite-models.md)
+- [Power BI Desktop의 스토리지 모드](../transform-model/desktop-storage-mode.md)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+

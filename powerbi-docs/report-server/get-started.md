@@ -9,12 +9,12 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 3e01bd0d7314cba1eb46dacff01b350c6685a6e9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 39ccb9120b7dd61d7f160c296d2de799b7f3fe23
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82613596"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83141096"
 ---
 # <a name="what-is-power-bi-report-server"></a>Power BI Report Server란?
 
@@ -26,7 +26,7 @@ Power BI Report Server는 보고서와 KPI를 표시하고 관리하는 웹 포�
 Power BI Report Server는 SQL Server Reporting Services 및 Power BI 온라인 서비스와 비슷하지만 방식이 서로 다릅니다. Power BI 서비스와 마찬가지로 Power BI Report Server는 Power BI 보고서(.pbix), Excel 파일 및 페이지가 매겨진 보고서(.rdl)를 호스트합니다. Reporting Services와 마찬가지로 Power BI Report Server는 온-프레미스입니다. Power BI Report Server 기능은 Reporting Services의 상위 집합입니다. Reporting Services에서 수행할 수 있는 모든 작업은 Power BI 보고서에 대한 지원과 함께 Power BI Report Server를 통해 수행할 수 있습니다. 자세한 내용은 [Power BI Report Server 및 Power BI 서비스 비교](compare-report-server-service.md)를 참조하세요.
 
 ## <a name="licensing-power-bi-report-server"></a>Power BI Report Server 라이선싱
-Power BI Report Server는 다음 두 가지 라이선스를 통해 사용할 수 있습니다. Software Assurance와 함께 [Power BI Premium](../service-premium-what-is.md) 및 [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions). Power BI Premium 라이선스를 사용하면 하이브리드 배포 혼합 클라우드 및 온-프레미스를 만들 수 있습니다.  
+Power BI Report Server는 다음 두 가지 라이선스를 통해 사용할 수 있습니다. Software Assurance와 함께 [Power BI Premium](../admin/service-premium-what-is.md) 및 [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions). Power BI Premium 라이선스를 사용하면 하이브리드 배포 혼합 클라우드 및 온-프레미스를 만들 수 있습니다.  
 
 > [!NOTE]
 > Power BI Premium의 경우 Power BI Report Server는 P SKU에만 포함됩니다. EM SKU에는 포함되지 않았습니다.
@@ -71,5 +71,3 @@ Power BI Report Server 프로그래밍 기능을 활용하여 API를 통해 보�
 [보고서 작성기 다운로드](https://www.microsoft.com/download/details.aspx?id=53613)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
-
-

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: f2aeb720221fa79aa95f9674aa1e3ac610b28c19
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: 48b13b73455d39eb7dc8cbf9df3e95408592f7f5
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841736"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279506"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 보고서 탐색
 적용 대상:
@@ -27,7 +27,7 @@ ms.locfileid: "82841736"
 
 Power BI 보고서는 해당 데이터의 다양한 결과 및 인사이트를 나타내는 시각적 개체가 포함된 데이터의 대화형 뷰입니다. 3단계 프로세스 중 다음의 세 번째 단계는 Power BI 모바일 앱에서 보고서 보기입니다.
 
-1. [Power BI Desktop에서 보고서를 만듭니다](../../desktop-report-view.md). Power BI Desktop에서도 [휴대폰용 보고서를 최적화](mobile-apps-view-phone-report.md)할 수 있습니다.
+1. [Power BI Desktop에서 보고서를 만듭니다](../../create-reports/desktop-report-view.md). Power BI Desktop에서도 [휴대폰용 보고서를 최적화](mobile-apps-view-phone-report.md)할 수 있습니다.
 2. 이 보고서를 Power BI 서비스[(https://powerbi.com)](https://powerbi.com)) 또는 [Power BI Report Server](../../report-server/get-started.md)에 게시합니다.  
 3. Power BI 모바일 앱에서 이 보고서를 조작할 수 있습니다.
 
@@ -100,7 +100,7 @@ Power BI 모바일 앱을 다운로드하면 단일 탭 상호 작용이 설정�
 시각적 개체의 특정 부분을 탭한 다음 *드릴스루* 옵션을 탭하면 Power BI는 보고서의 다른 페이지로 이동하고 탭한 값으로 필터링합니다. 보고서 작성자는 하나 이상의 드릴스루 옵션을 정의할 수 있으며 각각 다른 페이지로 이동합니다. 이 경우에는 드릴스루하려는 옵션을 선택할 수 있습니다. [뒤로] 단추를 누르면 다시 이전 페이지로 이동합니다.
 
 
-자세한 내용은 [Power BI Desktop에서 드릴스루를 추가](../../desktop-drillthrough.md)하는 방법을 읽어보세요.
+자세한 내용은 [Power BI Desktop에서 드릴스루를 추가](../../create-reports/desktop-drillthrough.md)하는 방법을 읽어보세요.
    
    > [!IMPORTANT]
    > Power BI 모바일 앱에서 행렬 및 테이블 시각적 개체의 드릴 동작은 열이나 행 머리글이 아닌 셀 값만을 통해 사용하도록 설정됩니다.
@@ -156,7 +156,7 @@ Power BI 모바일 앱은 보고서 작성자가 정의한 보고서 책갈피�
 ## <a name="configure-your-experience-with-reports"></a>보고서를 사용하여 환경 구성
 Power BI 모바일 앱에는 보고서 환경을 제어할 수 있는 다양한 설정이 있습니다. 현재 다음을 구성할 수 있습니다.
 * **보고서 시각적 개체와의 상호 작용**: 단일 탭 또는 두 번 탭하기 상호 작용 중 하나를 사용하도록 선택할 수 있습니다.
-* **데이터 새로 고침 방법**: 보고서 데이터를 새로 고치기 위해 새로 고침 단추나 아래로 당기는 조치를 선택할 수 있습니다.
+* **데이터 새로 고침 방법**: 보고서 데이터를 새로 고치기 위해 새로 고침 단추나 풀 다운 조치를 선택할 수 있습니다.
 * **보고서 바닥글 표시 유형**: 항상 표시되는 고정 바닥글을 선택하거나 동작에 따라(예: 스크롤) 숨거나 다시 나타나는 동적 바닥글을 선택할 수 있습니다.
 
 이러한 설정을 변경하는 방법에 대한 자세한 내용은 [앱 상호 작용 설정](./mobile-app-interaction-settings.md)을 참조하세요.
@@ -164,6 +164,5 @@ Power BI 모바일 앱에는 보고서 환경을 제어할 수 있는 다양한 
 
 ## <a name="next-steps"></a>다음 단계
 * [휴대폰에 최적화된 Power BI 보고서 보기 및 상호 작용](mobile-apps-view-phone-report.md)
-* [휴대폰에 최적화된 보고서 버전 만들기](../../desktop-create-phone-report.md)
+* [휴대폰에 최적화된 보고서 버전 만들기](../../create-reports/desktop-create-phone-report.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
-

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Power BI 모바일 앱에서 데이터 경고 설정
 description: 대시보드의 데이터가 설정해 놓은 한도를 넘어 변경되면 알리도록 Power BI 모바일 앱에서 데이터 경고를 설정하는 방법을 알아봅니다.
 author: paulinbar
@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/11/2019
 ms.author: painbar
-ms.openlocfilehash: ff33bc2005918ba08c6098afd91a020e0cb6ba79
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 288ac6620af03c49d0a7f96e219e88d855381caf
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435815"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279552"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 데이터 경고 설정
 적용 대상:
@@ -29,7 +29,7 @@ Power BI Pro 라이선스가 있거나 공유 대시보드가 프리미엄 용�
 > [!WARNING]
 > 데이터 기반 경고 알림은 데이터에 관한 정보를 제공합니다. 디바이스를 분실한 경우 Power BI 서비스에 가서 모든 데이터 기반 경고 규칙을 해제하는 것이 좋습니다. 
 > 
-> [Power BI 서비스에서 데이터 경고 관리하기](../../service-set-data-alerts.md)에 대해 자세히 알아보세요.
+> [Power BI 서비스에서 데이터 경고 관리하기](../../create-reports/service-set-data-alerts.md)에 대해 자세히 알아보세요.
 > 
 > 
 
@@ -58,7 +58,7 @@ Power BI Pro 라이선스가 있거나 공유 대시보드가 프리미엄 용�
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-another-alert-rule.png)
 
 ### <a name="manage-alerts-on-your-iphone-or-ipad"></a>iPhone 또는 iPad에서 경고 관리
-모바일 디바이스에서 개별 경고를 관리하거나 [Power BI 서비스에서 모든 경고를 관리](../../service-set-data-alerts.md)할 수 있습니다.
+모바일 디바이스에서 개별 경고를 관리하거나 [Power BI 서비스에서 모든 경고를 관리](../../create-reports/service-set-data-alerts.md)할 수 있습니다.
 
 1. 대시보드에서 경고가 포함된 번호 또는 계기 타일을 탭합니다.  
    
@@ -92,7 +92,7 @@ Power BI Pro 라이선스가 있거나 공유 대시보드가 프리미엄 용�
 8. **저장**을 누릅니다.
 
 ### <a name="manage-alerts-on-an-android-device"></a>Android 디바이스의 경고 관리
-Power BI 모바일 앱에서 개별 경고를 관리하거나 [Power BI 서비스에서 모든 경고를 관리](../../service-set-data-alerts.md)할 수 있습니다.
+Power BI 모바일 앱에서 개별 경고를 관리하거나 [Power BI 서비스에서 모든 경고를 관리](../../create-reports/service-set-data-alerts.md)할 수 있습니다.
 
 1. 대시보드에서 경고가 포함된 카드 또는 계기 타일을 탭합니다.  
 2. 단색 벨 아이콘 ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-filled-alert-bell.png)을 탭합니다.  
@@ -131,7 +131,7 @@ Power BI 모바일 앱에서 개별 경고를 관리하거나 [Power BI 서비�
    ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-add-another-alert.png)
 
 ### <a name="manage-alerts-on-a-windows-device"></a>Windows 디바이스의 경고 관리
-Power BI 모바일 앱에서 개별 경고를 관리하거나 [Power BI 서비스에서 모든 경고를 관리](../../service-set-data-alerts.md)할 수 있습니다.
+Power BI 모바일 앱에서 개별 경고를 관리하거나 [Power BI 서비스에서 모든 경고를 관리](../../create-reports/service-set-data-alerts.md)할 수 있습니다.
 
 1. 대시보드에서 경고가 포함된 카드 또는 계기 타일을 탭합니다.  
 2. 종 모양 아이콘 ![](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-on.png)을 탭합니다.  
@@ -172,7 +172,6 @@ Power BI 모바일 앱에서 개별 경고를 관리하거나 [Power BI 서비�
 * 경고는 스트리밍 데이터가 포함된 타일에는 작동하지 않습니다.
 
 ## <a name="next-steps"></a>다음 단계
-* [Power BI 서비스에서 경고 관리](../../service-set-data-alerts.md)
+* [Power BI 서비스에서 경고 관리](../../create-reports/service-set-data-alerts.md)
 * [Power BI 모바일 알림 센터](mobile-apps-notification-center.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
-

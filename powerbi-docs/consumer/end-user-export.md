@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/20/2020
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 811eaa9769a099122597d7132de80cbc2d22a51b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6f653bd14f71d0d8409dbb8c3653515198cc6c40
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79040152"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279460"
 ---
 # <a name="export-data-from-a-visual"></a>시각적 개체에서 데이터 내보내기
 
@@ -28,7 +28,8 @@ ms.locfileid: "79040152"
 
 ## <a name="from-a-visual-on-a-power-bi-dashboard"></a>Power BI 대시보드의 시각화 개체에서
 
-1. Power BI 대시보드에서 시작합니다. 여기서는 ***영업 및 마케팅 샘플*** 앱에서 대시보드를 사용하고 있습니다. [이 앱은 AppSource.com에서 다운로드](https://appsource.microsoft.com/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample-preview?flightCodes=e2b06c7a-a438-4d99-9eb6-4324ce87f282)할 수 있습니다.
+1. Power BI 대시보드에서 시작합니다. 여기서는 ***영업 및 마케팅 샘플*** 앱에서 대시보드를 사용하고 있습니다. [이 앱은 AppSource.com에서 다운로드](https://appsource.microsoft.com/en-us/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample
+)할 수 있습니다.
 
     ![앱 대시보드](media/end-user-export/power-bi-dashboards.png)
 

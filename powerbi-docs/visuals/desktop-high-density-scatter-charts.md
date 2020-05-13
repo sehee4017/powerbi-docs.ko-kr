@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 960ce09c1392787f2d24e84d26c2f3be9be010f8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: fd35ef0dd7cf4bd20162b82a8f0470ba2ad50980
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73876823"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279138"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Power BI 분산형 차트의 고밀도 샘플링
 
@@ -87,5 +87,6 @@ ms.locfileid: "73876823"
 ## <a name="next-steps"></a>다음 단계
 다른 차트의 고밀도 샘플링에 대한 자세한 내용은 다음 문서를 참조하세요.
 
-* [Power BI의 고밀도 선 샘플링](../desktop-high-density-sampling.md)
+* [Power BI의 고밀도 선 샘플링](../create-reports/desktop-high-density-sampling.md)
+
 

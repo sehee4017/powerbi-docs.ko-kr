@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: 7284532d95cce780f4022477faab9033adcd764a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c619f37ac062eec02eb379ba7cd97731254a171a
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79492609"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83279391"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Power BI Embedded 성능에 대한 모범 사례
 
@@ -59,7 +59,7 @@ ms.locfileid: "79492609"
 
 Power BI Premium 용량 또는 Power BI Embedded 용량을 사용하는 조직은 쿼리 캐싱을 활용하여 데이터 세트와 관련된 보고서의 속도를 개선할 수 있습니다.
 
-[Power BI의 쿼리 캐싱에 대해 자세히 알아보세요](../../power-bi-query-caching.md).
+[Power BI의 쿼리 캐싱에 대해 자세히 알아보세요](../../connect-data/power-bi-query-caching.md).
 
 ## <a name="preload"></a>미리 로드
 
@@ -99,7 +99,7 @@ Power BI Premium 용량 또는 Power BI Embedded 용량을 사용하는 조직�
 보고서 요소의 성능을 검사하려면 Power BI Desktop에서 성능 분석기를 사용할 수 있습니다.
 성능 분석기를 사용하여 각 보고서 요소가 수행하는 방식을 측정하는 로그를 보고 기록할 수 있습니다.
 
-[성능 분석기에 대해 자세히 알아보세요](../../desktop-performance-analyzer.md).
+[성능 분석기에 대해 자세히 알아보세요](../../create-reports/desktop-performance-analyzer.md).
 
 > [!NOTE]
 > 포함된 보고서 성능을 powerbi.com의 성능과 비교하는 것을 항상 기억하세요. 이렇게 하면 성능 문제를 파악하는 데 도움이 될 수 있습니다.

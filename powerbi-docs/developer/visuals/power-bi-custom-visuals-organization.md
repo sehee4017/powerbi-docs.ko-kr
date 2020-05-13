@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 52ebb1bf049024051846936237d35b202f00d630
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6683efbf9fa9dea9215914c097f249362fbffff2
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80464591"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83278816"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Power BI의 조직 시각적 개체
 
@@ -42,8 +42,6 @@ Power BI에서 Power BI 시각적 개체를 사용하여 사용자에게 맞는 
 알고 있어야 하는 여러 가지 고려 사항과 제한 사항이 있습니다.
 
 관리자:
-
-* 레거시 Power BI 시각적 개체(새 버전의 API를 기반으로 빌드되지 않은 Power BI 시각적 개체 등)는 지원되지 않습니다.
 
 * ApSource 또는 파일의 Power BI 시각적 개체를 리포지토리에서 삭제하는 경우 삭제된 시각적 개체를 사용하는 기존 보고서는 렌더링을 중지합니다. 리포지토리에서 삭제는 되돌릴 수 없습니다. ApSource 또는 파일에서 Power BI 시각적 개체를 일시적으로 사용하지 않도록 설정하려면 "사용 안 함" 기능을 사용합니다.
 
