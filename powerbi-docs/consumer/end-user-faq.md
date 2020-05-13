@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 9a59f8e230ecd8eec6338e92b7fb01e525831617
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a22bba65b44446e7027627a24ebcf316f8f073d4
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79039992"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348393"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI에 대한 질문과 대답
 
@@ -42,21 +42,21 @@ Power BI Premium은 보다 일관된 성능을 제공할 수 있는 전용 용�
 
 ## <a name="what-if-i-have-questions-about-power-bi-premium"></a>Power BI 프리미엄에 대한 질문이 있다면?
 
-Power BI 프리미엄 관련된 질문은 [Power BI 프리미엄 FAQ](../service-premium-faq.md)를 참조하세요.
+Power BI 프리미엄 관련된 질문은 [Power BI 프리미엄 FAQ](../admin/service-premium-faq.md)를 참조하세요.
 
 ## <a name="what-is-power-bi-desktop"></a>Power BI Desktop이란?
 
-Power BI Desktop은 사용자의 컴퓨터에 바로 설치할 수 있는 무료 애플리케이션입니다. Power BI Desktop은 Power BI 서비스와 긴밀하게 작동합니다.  데이터 과학자, 보고서 디자이너, 관리자 및 개발자는 Power BI Desktop을 사용하여 보고서를 생성하고, 여러분과 같은 Power BI 서비스 *소비자*에게 제공합니다. [Power BI Desktop이란?](../desktop-what-is-desktop.md)에 대해 자세히 알아봅니다.
+Power BI Desktop은 사용자의 컴퓨터에 바로 설치할 수 있는 무료 애플리케이션입니다. Power BI Desktop은 Power BI 서비스와 긴밀하게 작동합니다.  데이터 과학자, 보고서 디자이너, 관리자 및 개발자는 Power BI Desktop을 사용하여 보고서를 생성하고, 여러분과 같은 Power BI 서비스 *소비자*에게 제공합니다. [Power BI Desktop이란?](../fundamentals/desktop-what-is-desktop.md)에 대해 자세히 알아봅니다.
 
 ## <a name="what-do-i-need-to-use-the-power-bi-service-as-a-consumer"></a>*소비자* 자격으로 Power BI 서비스를 사용하려면 무엇이 필요한가요?
 
 회사에서 Power BI 라이선스 또는 Premium 용량 계정을 구매한 경우 웹 브라우저 및 자격 증명만 있으면 됩니다. 로그인하려면 회사 메일 주소와 암호(Power BI 관리자가 설정)를 사용합니다.  
 
-Power BI 서비스를 개인으로 등록할 수도 있습니다. [Power BI 셀프 서비스 등록 프로세스](../service-self-service-signup-for-power-bi.md)를 참조하세요.
+Power BI 서비스를 개인으로 등록할 수도 있습니다. [Power BI 셀프 서비스 등록 프로세스](../fundamentals/service-self-service-signup-for-power-bi.md)를 참조하세요.
 
 ## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>회사 메일을 사용하여 등록해야 하는 이유는 무엇인가요?
 
-Power BI는 소비자 메일 서비스나 전자 통신 공급자가 제공하는 메일 주소를 지원하지 않습니다. [Power BI 셀프 서비스 등록 프로세스](../service-self-service-signup-for-power-bi.md)에 대해 자세히 알아보세요.
+Power BI는 소비자 메일 서비스나 전자 통신 공급자가 제공하는 메일 주소를 지원하지 않습니다. [Power BI 셀프 서비스 등록 프로세스](../fundamentals/service-self-service-signup-for-power-bi.md)에 대해 자세히 알아보세요.
 
 ## <a name="does-power-bi-support-mobile-devices"></a>Power BI는 모바일 디바이스를 지원하나요?
 
@@ -80,12 +80,12 @@ Power BI 서비스를 무료로 사용하려면 웹 브라우저와 메일만 �
 
 다음 리소스를 사용하면 시작하는 데 도움이 됩니다.
 
-* [Power BI 블로그](https://blogs.msdn.com/b/powerbi/)
-* [웹 세미나](../webinars.md)
+* [Power BI 블로그](https://powerbi.microsoft.com/blog/)
+* [웹 세미나](../fundamentals/webinars.md)
 * [YouTube 채널](https://www.youtube.com/user/mspowerbi)의 시작하기 비디오
 * [*소비자*](index.yml) 아티클로 Power BI 시작하기
 * [커뮤니티 가입](https://community.powerbi.com/) 및 질문하기
-* 더 많은 제안은 [도움을 받을 수 있는 10가지 팁](../service-tips-for-finding-help.md)을 참조하세요.
+* 더 많은 제안은 [도움을 받을 수 있는 10가지 팁](../fundamentals/service-tips-for-finding-help.md)을 참조하세요.
 
 ## <a name="what-browsers-does-power-bi-support"></a>Power BI에서는 어떤 브라우저를 지원하나요?
 
@@ -93,7 +93,7 @@ Power BI 서비스를 무료로 사용하려면 웹 브라우저와 메일만 �
 
 ## <a name="what-regions-and-languages-does-power-bi-support"></a>Power BI에서는 어떤 영역 및 언어를 지원하나요?
 
-다음은 [Power BI에서 지원하는 영역 및 언어](../supported-languages-countries-regions.md)의 전체 목록입니다.
+다음은 [Power BI에서 지원하는 영역 및 언어](../fundamentals/supported-languages-countries-regions.md)의 전체 목록입니다.
 
 ## <a name="where-can-i-learn-more-about-security"></a>보안에 대해 자세히 알아보려면 어떻게 해야 하나요?
 
@@ -101,7 +101,7 @@ Power BI 서비스를 무료로 사용하려면 웹 브라우저와 메일만 �
 
 * 이 [Power BI 보안](https://go.microsoft.com/fwlink/?LinkId=829185) 백서
 
-* 이 [Power BI 보안 지원](../service-admin-power-bi-security.md) 문서
+* 이 [Power BI 보안 지원](../admin/service-admin-power-bi-security.md) 문서
 
 ## <a name="how-do-i-undo-in-power-bi"></a>Power BI에서는 어떻게 실행을 취소하나요?
 

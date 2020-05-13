@@ -8,19 +8,19 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 0bbdc13e1adf52ba90435f22920e4351e8f34404
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cfbffaa06f3cfc393ba3381adbfc1a7613c2f0c1
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435953"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349359"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Windows 10용 Power BI 모바일 앱 시작
 Windows 10용 Power BI Mobile 앱은 태블릿이나 휴대폰으로 Power BI를 가져옵니다. 터치 사용이 가능한 최신 모바일 방식으로 비즈니스 정보에 액세스할 수 있습니다. 어디서든 [Windows 시작 화면](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)에서 회사 대시보드를 보고 조작할 수 있습니다.
 
 ![Windows 라이브 타일](./media/mobile-windows-10-phone-app-get-started/pbi_win10_livetile.gif)
 
-고유한 데이터를 사용하여 [Power BI 서비스에서 대시보드 및 보고서를 만듭니다](../../service-get-started.md). 
+고유한 데이터를 사용하여 [Power BI 서비스에서 대시보드 및 보고서를 만듭니다](../../fundamentals/service-get-started.md). 
 
 그런 다음 대시보드 및 보고서를 조작하고, 데이터를 탐색하고, Windows 10용 Power BI 모바일 앱과 모든 것을 공유합니다.
 
@@ -38,7 +38,7 @@ Windows 10용 Power BI Mobile 앱은 태블릿이나 휴대폰으로 Power BI를
 아직 등록하지 않은 경우 [Power BI 서비스](https://powerbi.com/)로 이동합니다. 고유한 계정을 등록하여 대시보드 및 보고서를 만들고 저장한 다음, 데이터를 모읍니다. Windows 10 디바이스에서 Power BI에 로그인하여 어디서나 자신의 대시보드를 볼 수 있습니다.
 
 1. Power BI 서비스에서 [등록](https://go.microsoft.com/fwlink/?LinkID=513879)을 눌러 Power BI 계정을 만듭니다.
-2. [사용자 고유의 대시보드 및 보고서 만들기](../../service-get-started.md)를 시작합니다.
+2. [사용자 고유의 대시보드 및 보고서 만들기](../../fundamentals/service-get-started.md)를 시작합니다.
 
 ## <a name="get-started-with-the-power-bi-app"></a>Power BI 앱 시작
 1. Windows 10 디바이스의 시작 화면에서 Power BI 앱을 엽니다.
@@ -110,7 +110,7 @@ Power BI 대시보드 샘플을 검토하고 조작할 수 있지만, 샘플로 
 다음은 Power BI의 대시보드 및 보고서나 Reporting Services 웹 포털의 Reporting Services 모바일 보고서 및 KPI를 사용하여 Windows 10 디바이스용 Power BI 앱에서 수행할 수 있는 다른 몇 가지 작업입니다.
 
 ### <a name="power-bi-dashboards-and-reports"></a>Power BI 대시보드 및 보고서
-* [앱](../../service-create-distribute-apps.md) 보기.
+* [앱](../../collaborate-share/service-create-distribute-apps.md) 보기.
 * [대시보드](mobile-apps-view-dashboard.md) 보기.
 * 디바이스의 시작 화면의 라이브 타일에 [대시보드 및 Power BI 타일 고정](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).
 * [타일 공유](mobile-windows-10-phone-app-get-started.md).
@@ -125,4 +125,3 @@ Power BI 대시보드 샘플을 검토하고 조작할 수 있지만, 샘플로 
 * Windows Store에서 [Power BI 앱 다운로드](https://go.microsoft.com/fwlink/?LinkID=526478)  
 * [Power BI란?](../../fundamentals/power-bi-overview.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
-

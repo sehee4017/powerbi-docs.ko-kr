@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 5ff7891ce704ebaf8677df6f0872396ffa1b04a2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ada695b2a568358f96010feb320226437beeb075
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81675636"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349175"
 ---
 # <a name="online-course-power-bi-paginated-reports-in-a-day"></a>온라인 과정: 특정 일의 Power BI 페이지를 매긴 보고서
 
@@ -100,11 +100,11 @@ ms.locfileid: "81675636"
 첫 번째 랩을 시작할 준비가 되면 **&lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf** 파일을 엽니다. 이 문서에서는 Power BI 서비스에 로그인하고 데이터 세트를 업로드한 다음, [Power BI Report Builder](report-builder-power-bi.md)를 설치하는 과정을 안내합니다.
 
 > [!NOTE]
-> 고유의 Power BI 계정이 있어야 합니다. 계정이 없는 경우 [개인으로 Power BI 가입](../service-self-service-signup-for-power-bi.md)을 참조하세요.
+> 고유의 Power BI 계정이 있어야 합니다. 계정이 없는 경우 [개인으로 Power BI 가입](../fundamentals/service-self-service-signup-for-power-bi.md)을 참조하세요.
 >
 > Power BI Desktop 파일을 작업 영역에 게시하려면 Power BI에 로그인해야 합니다. 게시하면 보고서 데이터 원본으로 사용되는 데이터 세트가 생성됩니다. 데이터 세트를 보고서 데이터 원본으로 사용하기 위해 Power BI Pro 라이선스 또는 Power BI Premium 구독이 필요하지는 않습니다.
 >
-> 그러나 일부 랩 작업에서는 페이지를 매긴 보고서를 작업 영역에 게시해야 합니다. 페이지를 매긴 보고서는 페이지를 매긴 보고서 워크로드가 사용하도록 설정된 [전용 용량](../service-premium-what-is.md#dedicated-capacities)의 작업 영역에 저장된 경우에만 열 수 있습니다. 적절한 작업 영역에 대한 액세스 권한이 없는 경우 보고서 게시 데모 비디오를 볼 수 있는 링크가 대신 제공됩니다.
+> 그러나 일부 랩 작업에서는 페이지를 매긴 보고서를 작업 영역에 게시해야 합니다. 페이지를 매긴 보고서는 페이지를 매긴 보고서 워크로드가 사용하도록 설정된 [전용 용량](../admin/service-premium-what-is.md#dedicated-capacities)의 작업 영역에 저장된 경우에만 열 수 있습니다. 적절한 작업 영역에 대한 액세스 권한이 없는 경우 보고서 게시 데모 비디오를 볼 수 있는 링크가 대신 제공됩니다.
 
 ## <a name="instructor-kit"></a>강사 키트
 

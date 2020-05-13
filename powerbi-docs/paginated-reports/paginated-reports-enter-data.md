@@ -8,12 +8,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: maggies
-ms.openlocfilehash: 5ef019c1c8d488735509ac3c2767fbc9d395786a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 074bc95a9e259df84211d3f922831db323d506cc
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78922094"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348669"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>보고서 작성기 - Power BI에서 페이지를 매긴 보고서에 직접 데이터 입력
 
@@ -22,7 +22,7 @@ ms.locfileid: "78922094"
 ## <a name="prerequisites"></a>사전준비
 
 - 페이지를 매긴 보고서에 직접 데이터를 입력하려면 [Microsoft 다운로드 센터에서 보고서 작성기](https://www.microsoft.com/download/details.aspx?id=53613)의 새 버전을 설치합니다. 
-- 페이지를 매긴 보고서를 Power BI 서비스에 저장하려면 [Power BI Pro 계정](../service-self-service-signup-for-power-bi.md)이 필요하고 [Power BI Premium 용량](../service-premium-what-is.md)의 작업 영역에 대한 액세스 권한을 작성해야 합니다.
+- 페이지를 매긴 보고서를 Power BI 서비스에 저장하려면 [Power BI Pro 계정](../fundamentals/service-self-service-signup-for-power-bi.md)이 필요하고 [Power BI Premium 용량](../admin/service-premium-what-is.md)의 작업 영역에 대한 액세스 권한을 작성해야 합니다.
 - 보고서 서버에 페이지를 매긴 보고서를 저장하려면 [RsReportServer.config 파일 편집](#upload-the-paginated-report-to-a-report-server)에 대한 사용 권한이 필요합니다.
 
 ## <a name="get-started"></a>시작하기

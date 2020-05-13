@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: af3ae969d0aedab3cc49e8d286ce71313da3d6bc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 557334ed8aecccd646fde92a6d2cfa7852aff36b
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77259765"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83347220"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Android 디바이스에서 Power BI 모바일 앱 시작
 Microsoft Power BI용 Android 앱은 Power BI, Power BI Report Server 및 Reporting Services에 대한 모바일 BI 환경을 제공합니다. 실시간 터치 가능한 모바일 액세스를 사용하여 어디에서나 온-프레미스 및 클라우드에 있는 회사 대시보드를 쉽게 보고 상호작용할 수 있습니다. 대시보드의 데이터를 살펴보고 메일 또는 문자 메시지로 동료와 공유합니다. 
@@ -46,7 +46,7 @@ Power BI는 Android 5.0 이상 운영 체제를 실행하는 다양한 Android �
 아직 등록하지 않은 경우, [Power BI 서비스](https://powerbi.com/)로 가서 대시보드 및 보고서를 만들어 저장하고, 데이터를 함께 가져오기 위해 자신의 계정을 등록합니다. 그 후 Android 디바이스에서 Power BI에 로그인하면 어디서든 대시보드를 볼 수 있습니다.
 
 1. Power BI 서비스에서 [등록](https://go.microsoft.com/fwlink/?LinkID=513879)을 눌러 Power BI 계정을 만듭니다.
-2. [사용자 고유의 대시보드 및 보고서 만들기](../../service-get-started.md)를 시작합니다.
+2. [사용자 고유의 대시보드 및 보고서 만들기](../../fundamentals/service-get-started.md)를 시작합니다.
 
 ## <a name="get-started-with-the-power-bi-app-on-your-device"></a>디바이스에서 Power BI 앱 시작
 1. Android 디바이스의 시작 화면에서 Android용 Power BI 앱을 엽니다.
@@ -94,17 +94,17 @@ Microsoft Intune을 사용하면 액세스 핀이 필요하고, 애플리케이�
 > 
 > 
 
-[Microsoft Intune을 사용하여 Power BI 모바일 앱 구성](../../service-admin-mobile-intune.md)에 대해 자세히 알아보세요. 
+[Microsoft Intune을 사용하여 Power BI 모바일 앱 구성](../../admin/service-admin-mobile-intune.md)에 대해 자세히 알아보세요. 
 
 ## <a name="next-steps"></a>다음 단계
 Power BI의 대시보드 및 보고서와 Power BI Report Server 또는 Reporting Services 웹 포털의 보고서 및 KPI를 사용하여 Power BI용 Android 디바이스 앱에서 수행할 수 있는 몇 가지 다른 작업은 다음과 같습니다.
 
 ### <a name="power-bi-dashboards-and-reports"></a>Power BI 대시보드 및 보고서
-* [앱](../../service-create-distribute-apps.md) 보기.
+* [앱](../../collaborate-share/service-create-distribute-apps.md) 보기.
 * [대시보드](../../mobile-apps-view-dashboard.md) 보기.
 * [대시보드의 타일](../../mobile-tiles-in-the-mobile-apps.md) 탐색.
 * [Power BI 보고서](../../mobile-reports-in-the-mobile-apps.md) 열기.
-* [앱](../../service-create-distribute-apps.md) 보기.
+* [앱](../../collaborate-share/service-create-distribute-apps.md) 보기.
 * [타일에 주석 달기 및 공유](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md).
 * [대시보드](../../mobile-share-dashboard-from-the-mobile-apps.md) 공유.
 * Android 휴대폰에서 [Power BI QR 코드를 스캔](../../mobile-apps-qr-code.md)하여 관련 대시보드 타일 또는 보고서 열기. 
@@ -119,5 +119,3 @@ Power BI의 대시보드 및 보고서와 Power BI Report Server 또는 Reportin
 * Android 앱 스토어에서 [Android 앱 다운로드](https://go.microsoft.com/fwlink/?LinkID=544867)
 * [Power BI란?](../../fundamentals/power-bi-overview.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
-
-

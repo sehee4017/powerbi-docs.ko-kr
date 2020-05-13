@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/27/2020
-ms.openlocfilehash: 6ee1740d536a1bfd248b91d002142470b3894180
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3ce1ae5207af6f4aaf844679bcd3ae52d2c13819
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381310"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348163"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Report Server의 새로운 기능
 
@@ -23,8 +23,8 @@ Power BI Report Server 및 Power BI Report Server에 최적화된 Power BI Deskt
 
 관련 Power BI “새로운 기능” 정보는 다음을 참조하세요.
 
-* [Power BI 서비스의 새로운 기능](../service-whats-new.md)
-* [Power BI Desktop의 새로운 기능](../desktop-latest-update.md)
+* [Power BI 서비스의 새로운 기능](../fundamentals/service-whats-new.md)
+* [Power BI Desktop의 새로운 기능](../fundamentals/desktop-latest-update.md)
 * [Power BI용 모바일 앱의 새로운 기능](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
 
 ## <a name="january-2020"></a>2020년 1월
@@ -128,7 +128,7 @@ Power BI Report Server 및 Power BI Report Server에 최적화된 Power BI Deskt
 
 보고서 작성자가 .pbids 파일을 열면 Power BI Desktop은 파일에 지정된 데이터 원본에 연결하기 위한 인증을 요구합니다. 그런 다음 사용자가 모델에 로드할 테이블을 선택합니다. 파일에 지정되지 않은 경우 사용자가 데이터베이스를 선택해야 할 수도 있습니다. 여기에서 보고서 작성자가 시각화 작성을 시작할 수 있습니다.
 
-자세한 내용 및 예제는 "Power BI Desktop의 데이터 원본" 문서의 [.pbids 파일을 사용하여 데이터 가져오기](../desktop-data-sources.md#using-pbids-files-to-get-data)에서 확인할 수 있습니다.
+자세한 내용 및 예제는 "Power BI Desktop의 데이터 원본" 문서의 [.pbids 파일을 사용하여 데이터 가져오기](../connect-data/desktop-data-sources.md#using-pbids-files-to-get-data)에서 확인할 수 있습니다.
 
 *모델링 작업 성능 개선*
 
@@ -239,11 +239,11 @@ Power BI Report Server 2019년 9월 업데이트에는 다양한 Power BI 보고
 
 #### <a name="performance-analyzer"></a>성능 분석기 
 
-보고서가 예상보다 느리게 실행된다면 Power BI Desktop에서 성능 분석기를 사용해 보세요. 성능 분석기를 시작하면 사용자가 보고서에서 수행하는 모든 동작에 대한 정보가 담긴 로그 파일이 생성됩니다. [성능 분석기](../desktop-performance-analyzer.md)에 대해 자세히 알아보세요.
+보고서가 예상보다 느리게 실행된다면 Power BI Desktop에서 성능 분석기를 사용해 보세요. 성능 분석기를 시작하면 사용자가 보고서에서 수행하는 모든 동작에 대한 정보가 담긴 로그 파일이 생성됩니다. [성능 분석기](../create-reports/desktop-performance-analyzer.md)에 대해 자세히 알아보세요.
 
 #### <a name="new-modeling-view"></a>새로운 모델링 보기
 
-Power BI Desktop의 새로운 모델링 보기에서는 테이블이 여러 개 포함된 복잡한 데이터 세트를 보고 작업할 수 있습니다. 여러 다이어그램 레이아웃과 열, 측정값, 테이블의 대량 편집 등의 기능이 추가되었습니다. [모델링 보기](../desktop-modeling-view.md)에 대해 자세히 알아보세요.
+Power BI Desktop의 새로운 모델링 보기에서는 테이블이 여러 개 포함된 복잡한 데이터 세트를 보고 작업할 수 있습니다. 여러 다이어그램 레이아웃과 열, 측정값, 테이블의 대량 편집 등의 기능이 추가되었습니다. [모델링 보기](../transform-model/desktop-modeling-view.md)에 대해 자세히 알아보세요.
 
 #### <a name="accessible-visual-interaction"></a>액세스 가능 시각적 개체 조작
 
@@ -251,11 +251,11 @@ Power BI Desktop의 새로운 모델링 보기에서는 테이블이 여러 개 
 
 #### <a name="conditional-formatting-titles-and-web-url-actions"></a>조건부 서식 제목 및 웹 URL 동작
 
-Power BI 보고서는 대화형입니다. 보고서의 타일이 보고서의 현재 상태를 반영하여 동적으로 변경될 것을 기대할 수 있습니다. 동일한 표현식 바인딩 서식 지정을 사용하여 단추, 도형 및 이미지의 URL을 동적으로 만들 수 있습니다. [표현식 기반 제목](../desktop-conditional-format-visual-titles.md)에 대해 자세히 알아보세요.
+Power BI 보고서는 대화형입니다. 보고서의 타일이 보고서의 현재 상태를 반영하여 동적으로 변경될 것을 기대할 수 있습니다. 동일한 표현식 바인딩 서식 지정을 사용하여 단추, 도형 및 이미지의 URL을 동적으로 만들 수 있습니다. [표현식 기반 제목](../create-reports/desktop-conditional-format-visual-titles.md)에 대해 자세히 알아보세요.
 
 #### <a name="cross-highlight-by-axis-labels"></a>축 레이블별 교차 강조 표시
 
-시각적 개체에서 데이터 요소를 선택하는 것과 마찬가지로 시각적 개체에서 축 범주 레이블을 선택하여 페이지에 있는 다른 요소를 교차 강조 표시합니다. [교차 강조 표시](../power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting)에 대해 자세히 알아보세요.
+시각적 개체에서 데이터 요소를 선택하는 것과 마찬가지로 시각적 개체에서 축 범주 레이블을 선택하여 페이지에 있는 다른 요소를 교차 강조 표시합니다. [교차 강조 표시](../create-reports/power-bi-reports-filters-and-highlighting.md#ad-hoc-highlighting)에 대해 자세히 알아보세요.
 
 #### <a name="all-the-new-features"></a>모든 새로운 기능
 

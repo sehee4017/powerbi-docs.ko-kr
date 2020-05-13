@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 0d3bbbf9042d2b0d1a42ab9c1f759ccfd03c6609
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3dcd968d00d98106a8b717e635b8a7fdf958dc70
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114370"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83347335"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>Power BI 서비스에서 관련 콘텐츠 보기
 
@@ -47,12 +47,12 @@ Will이 대시보드에 대한 관련 콘텐츠를 보여주는 비디오를 시
 
 ![관련 콘텐츠 창](./media/end-user-related/power-bi-view-related-dashboard.png)
 
-여기에서 관련 콘텐츠에 대해 직접 작업할 수 있습니다.  예를 들어 보고서 또는 대시보드 이름을 선택하여 엽니다.  나열된 보고서의 경우 [Excel에서 분석](../service-analyze-in-excel.md) 또는 [유용한 정보 얻기](end-user-insights.md)에 대한 아이콘을 선택합니다. 데이터 세트의 경우 마지막 새로 고침 날짜 및 시간, [Excel에서 분석](../service-analyze-in-excel.md) 및 [유용한 정보 얻기](end-user-insights.md)를 확인할 수 있습니다.  
+여기에서 관련 콘텐츠에 대해 직접 작업할 수 있습니다.  예를 들어 보고서 또는 대시보드 이름을 선택하여 엽니다.  나열된 보고서의 경우 [Excel에서 분석](../collaborate-share/service-analyze-in-excel.md) 또는 [유용한 정보 얻기](end-user-insights.md)에 대한 아이콘을 선택합니다. 데이터 세트의 경우 마지막 새로 고침 날짜 및 시간, [Excel에서 분석](../collaborate-share/service-analyze-in-excel.md) 및 [유용한 정보 얻기](end-user-insights.md)를 확인할 수 있습니다.  
 
 
 
 ## <a name="view-related-content-for-a-dataset"></a>데이터 세트에 대한 관련 콘텐츠 보기
-*관련 콘텐츠* 창을 열려면 데이터 세트에 대해 **보기** 이상의 권한이 있어야 합니다. 이 예제에서는 [조달 분석 샘플](../sample-procurement.md)을 사용합니다.
+*관련 콘텐츠* 창을 열려면 데이터 세트에 대해 **보기** 이상의 권한이 있어야 합니다. 이 예제에서는 [조달 분석 샘플](../create-reports/sample-procurement.md)을 사용합니다.
 
 탐색 창에서 **작업 영역** 제목을 찾아 목록에서 작업 영역을 선택합니다. 작업 영역에 콘텐츠가 있는 경우 캔버스에서 오른쪽에 표시됩니다. 
 
@@ -67,7 +67,7 @@ Will이 대시보드에 대한 관련 콘텐츠를 보여주는 비디오를 시
 
 ![Power BI 콘텐츠 보기 위에 관련 콘텐츠 창이 열립니다.](media/end-user-related/power-bi-dataset.png)
 
-여기에서 관련 콘텐츠에 대해 직접 작업할 수 있습니다. 예를 들어 대시보드 또는 보고서 이름을 선택하여 엽니다.  목록에 있는 대시보드에서 아이콘을 선택하여 [다른 사람과 대시보드를 공유](../service-share-dashboards.md)하거나 해당 대시보드의 **설정** 창을 엽니다. 보고서의 경우 [Excel에서 분석](../service-analyze-in-excel.md), [이름 바꾸기](../service-rename.md) 또는 [유용한 정보 얻기](end-user-insights.md)에 대한 아이콘을 선택합니다.  
+여기에서 관련 콘텐츠에 대해 직접 작업할 수 있습니다. 예를 들어 대시보드 또는 보고서 이름을 선택하여 엽니다.  목록에 있는 대시보드에서 아이콘을 선택하여 [다른 사람과 대시보드를 공유](../collaborate-share/service-share-dashboards.md)하거나 해당 대시보드의 **설정** 창을 엽니다. 보고서의 경우 [Excel에서 분석](../collaborate-share/service-analyze-in-excel.md), [이름 바꾸기](../create-reports/service-rename.md) 또는 [유용한 정보 얻기](end-user-insights.md)에 대한 아이콘을 선택합니다.  
 
 ## <a name="limitations-and-troubleshooting"></a>제한 사항 및 문제 해결
 * "관련 항목 보기"가 없다면 ![관련 항목 보기 아이콘](./media/end-user-related/power-bi-view-related-icon-new.png) 아이콘을 찾으세요. **관련 콘텐츠** 창을 여는 아이콘을 선택합니다.
@@ -75,6 +75,5 @@ Will이 대시보드에 대한 관련 콘텐츠를 보여주는 비디오를 시
 * 스트리밍 데이터 세트에서는 관련 콘텐츠 기능을 사용할 수 없습니다.
 
 ## <a name="next-steps"></a>다음 단계
-* [Power BI 서비스 시작](../service-get-started.md)
+* [Power BI 서비스 시작](../fundamentals/service-get-started.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
-

@@ -8,12 +8,12 @@ ms.topic: include
 ms.date: 10/02/2019
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: 008b159c41e0c9d7edf8bd46090f9f7e1db74468
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: bb2d6ba32c0cf4c764fd03ca81653f91c7195377
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "71968805"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83347302"
 ---
 > [!NOTE]
-> Power BI가 새로운 모양으로 전환되고 있으므로 설명서의 일부 이미지가 서비스에 표시되는 것과 일치하지 않을 수 있습니다. [새로운 디자인](../service-new-look.md)에 대해 자세히 알아보고 직접 시도해 보세요.
+> Power BI가 새로운 모양으로 전환되고 있으므로 설명서의 일부 이미지가 서비스에 표시되는 것과 일치하지 않을 수 있습니다. [새로운 디자인](../consumer/service-new-look.md)에 대해 자세히 알아보고 직접 시도해 보세요.

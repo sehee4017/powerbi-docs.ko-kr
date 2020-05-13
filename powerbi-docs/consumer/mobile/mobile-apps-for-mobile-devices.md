@@ -9,12 +9,12 @@ ms.date: 03/11/2020
 ms.author: painbar
 ms.custom: ''
 ms.reviewer: ''
-ms.openlocfilehash: 8e24258d7431996bcdcc1c049daa2a6cbd4f60b5
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: a0d65cb61d671f5779fa8281ad8be3153211a4a6
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841759"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83347266"
 ---
 # <a name="what-are-the-power-bi-mobile-apps"></a>Power BI 모바일 앱이란?
 Power BI는 iOS, Android 및 Windows 10 모바일 디바이스용 모바일 앱 집합을 제공합니다. 모바일 앱에서 클라우드 및 온-프레미스 데이터에 연결하고 이를 조작합니다. 
@@ -35,7 +35,7 @@ Power BI Desktop에서 보고서를 만듭니다. 대시보드를 만들고 Powe
 | [![iPad](./media/mobile-apps-for-mobile-devices/ipad-logo-50-px.png)](mobile-iphone-app-get-started.md) |**iPad**에서 Power BI 모바일 앱은 Power BI 서비스에 대해 서식이 지정된 방식으로 대시보드 및 보고서를 표시합니다. 또한 [Power BI Report Server, Reporting Services KPI 및 보고서](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)를 iPad에서 바로 볼 수 있습니다. 대시보드의 데이터가 설정해 놓은 한도를 넘어 변경되면 알리도록 [Power BI 모바일 앱에서 데이터 경고를 설정](mobile-set-data-alerts-in-the-mobile-apps.md)할 수 있습니다. <br/>[iOS용 Power BI 모바일 앱](mobile-iphone-app-get-started.md)을 시작합니다. |
 | [![Android 휴대폰](media/mobile-apps-for-mobile-devices/android-phone-logo-50-px.png)](mobile-android-app-get-started.md) |**Android 휴대폰**용 Power BI 모바일 앱에서는 휴대 가능한 Power BI를 통해 비즈니스 정보에 대한 터치 기반의 최신 모바일 액세스 권한을 제공합니다. [지리적 위치 기준으로 보고서를 필터링](mobile-apps-geographic-filtering.md)할 수 있습니다. [Android 휴대폰을 사용하여 QR 코드를 스캔](mobile-apps-qr-code.md)하고 Power BI 대시보드 또는 보고서로 바로 이동할 수 있습니다. <br/>[Android용 Power BI 모바일 앱](mobile-android-app-get-started.md)을 시작합니다. |
 | [![Android 태블릿](./media/mobile-apps-for-mobile-devices/android-tablet-logo-50-px.png)](mobile-android-app-get-started.md) |다양한 **Android 태블릿**에서 실행되는 이 모바일 앱은 비즈니스 정보에 대한 최신의 터치 기반 모바일 액세스를 제공합니다. Android 태블릿에서 Power BI 모바일 앱은 Power BI 서비스에 대해 서식이 지정된 방식으로 대시보드 및 보고서를 표시합니다. 즐겨 찾는 Power BI Report Server, Reporting Services KPI 및 보고서와 함께 신속하게 가져올 수 있도록 [즐겨 찾는 대시보드 및 보고서를 표시](mobile-apps-favorites.md)할 수 있습니다. <br/>[Android용 Power BI 모바일 앱](mobile-android-app-get-started.md)을 시작합니다. |
-| [![Windows 디바이스](./media/mobile-apps-for-mobile-devices/win-10-logo-50-px.png)](../../desktop-getting-started.md) |Windows 10용 Power BI 모바일 앱은 Windows 10 휴대폰을 포함하는 모든 Windows 10 디바이스에서 실행됩니다. 다른 모바일 앱의 많은 기능과 함께 Windows 10용 Power BI 모바일 앱은 특별한 기능을 제공합니다. 예를 들어 Power BI 모바일 앱에서 [Power BI 대시보드를 Windows 10 시작 화면에 고정](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)할 수 있습니다. 또한 Windows 10용 Power BI 모바일 앱 및 [Surface Hub에서 프레젠테이션 모드로 Power BI를 실행](mobile-windows-10-app-presentation-mode.md)할 수 있습니다. <br/>[Windows 10 디바이스용 Power BI 모바일 앱](mobile-windows-10-phone-app-get-started.md)을 시작합니다. |||
+| [![Windows 디바이스](./media/mobile-apps-for-mobile-devices/win-10-logo-50-px.png)](../../fundamentals/desktop-getting-started.md) |Windows 10용 Power BI 모바일 앱은 Windows 10 휴대폰을 포함하는 모든 Windows 10 디바이스에서 실행됩니다. 다른 모바일 앱의 많은 기능과 함께 Windows 10용 Power BI 모바일 앱은 특별한 기능을 제공합니다. 예를 들어 Power BI 모바일 앱에서 [Power BI 대시보드를 Windows 10 시작 화면에 고정](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)할 수 있습니다. 또한 Windows 10용 Power BI 모바일 앱 및 [Surface Hub에서 프레젠테이션 모드로 Power BI를 실행](mobile-windows-10-app-presentation-mode.md)할 수 있습니다. <br/>[Windows 10 디바이스용 Power BI 모바일 앱](mobile-windows-10-phone-app-get-started.md)을 시작합니다. |||
 
 >[!NOTE]
 >**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](https://go.microsoft.com/fwlink/?linkid=2121400)
@@ -45,9 +45,7 @@ Power BI Desktop에서 보고서를 만듭니다. 대시보드를 만들고 Powe
 
 Microsoft Intune을 사용하면 액세스 핀이 필요하고, 애플리케이션에서 데이터를 처리하는 방법을 제어하며, 앱을 사용하지 않을 때 애플리케이션 데이터를 암호화하는 것과 같은 항목을 조직에서 제어할 수 있습니다.
 
-[Microsoft Intune을 사용하여 Android 및 iOS용 Power BI 모바일 앱 구성](../../service-admin-mobile-intune.md)에 대해 자세히 알아보세요. 
+[Microsoft Intune을 사용하여 Android 및 iOS용 Power BI 모바일 앱 구성](../../admin/service-admin-mobile-intune.md)에 대해 자세히 알아보세요. 
 
 ## <a name="next-steps"></a>다음 단계
 [모바일 앱에서 대시보드 보기](mobile-apps-quickstart-view-dashboard-report.md)
-
-

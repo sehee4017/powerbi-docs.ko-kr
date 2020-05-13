@@ -8,19 +8,19 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: 8235f95d724b34e7ea815579e6f8ed6a1f71e409
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: dd3d3702524bc8939720a177dcdcc291081542f4
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841713"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349267"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
 
 * [모바일 앱에 대한 Power BI 팀 블로그](https://powerbi.microsoft.com/blog/tag/mobile/)
-* [Power BI Desktop의 새로운 기능](../../desktop-latest-update.md)  
-* [Power BI 서비스의 새로운 기능](../../service-whats-new.md)
+* [Power BI Desktop의 새로운 기능](../../fundamentals/desktop-latest-update.md)  
+* [Power BI 서비스의 새로운 기능](../../fundamentals/service-whats-new.md)
 
 >[!NOTE]
 >**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](https://go.microsoft.com/fwlink/?linkid=2121400)
@@ -476,7 +476,7 @@ Power BI Desktop에서 휴대폰에 최적화된 페이지가 있는 보고서�
 
 ### <a name="june-2107"></a>2017년 6월
 #### <a name="all-devices"></a>All 디바이스
-**앱 즐겨찾기 만들기** 대시보드를 즐겨찾기로 만들 수 있습니다. 최근에는 [Power BI에서 앱을 추가했으며](../../service-create-distribute-apps.md) 이제 앱 즐겨찾기 만들기도 수행할 수 있습니다. 
+**앱 즐겨찾기 만들기** 대시보드를 즐겨찾기로 만들 수 있습니다. 최근에는 [Power BI에서 앱을 추가했으며](../../collaborate-share/service-create-distribute-apps.md) 이제 앱 즐겨찾기 만들기도 수행할 수 있습니다. 
 
 ### <a name="may-2017"></a>2017년 5월
 #### <a name="all-devices"></a>All 디바이스
@@ -493,7 +493,7 @@ Power BI Desktop에서 휴대폰에 최적화된 페이지가 있는 보고서�
 [2017년 4월 모바일 앱 기능 요약](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-feature-summary-march-april-2017/)을 참고하세요.
 
 #### <a name="all-devices"></a>All 디바이스
-**전화 보고서에 대한 배경색** Power BI Desktop에서 보고서에 대한 배경색을 정의하는 경우 전화 보고서는 동일한 배경색을 갖게 됩니다. [전화에 대한 보고서 페이지 최적화](../../desktop-create-phone-report.md)에 대해 자세히 알아봅니다.
+**전화 보고서에 대한 배경색** Power BI Desktop에서 보고서에 대한 배경색을 정의하는 경우 전화 보고서는 동일한 배경색을 갖게 됩니다. [전화에 대한 보고서 페이지 최적화](../../create-reports/desktop-create-phone-report.md)에 대해 자세히 알아봅니다.
 
 **모바일 친화적인 Power BI 시각적 개체 개발** 모바일 디바이스에 잘 어울리고 제대로 작동하는 Power BI 시각적 개체 만들기에 대한 팁은 이 [개발자 가이드](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md)를 참조하세요.
 
@@ -553,7 +553,7 @@ Power BI Desktop에서 휴대폰에 최적화된 페이지가 있는 보고서�
 #### <a name="all-devices"></a>All 디바이스
 **테이블 및 행렬에서 100개 이상의 행 로드** 이제 대시보드 또는 보고서에 큰 테이블 또는 행렬이 있는 경우 타일에 가능한 한 많은 데이터를 표시합니다. 그런 다음 포커스 모드에서 아래로 스크롤하여 추가 행을 로드할 수 있습니다.
 
-**전화 보고서 - 일반 가용성** 이제 Power BI 전화 보고서를 일반적으로 사용할 수 있습니다. Power BI Desktop에서 모바일 뷰어를 위해 기존 보고서를 세로로 조정하여 볼 수 있습니다. [Power BI Desktop에서 전화 보고서 작성](../../desktop-create-phone-report.md) 및 [휴대폰에서 보고서 경험](mobile-apps-view-phone-report.md)에 대해 자세히 알아보세요.
+**전화 보고서 - 일반 가용성** 이제 Power BI 전화 보고서를 일반적으로 사용할 수 있습니다. Power BI Desktop에서 모바일 뷰어를 위해 기존 보고서를 세로로 조정하여 볼 수 있습니다. [Power BI Desktop에서 전화 보고서 작성](../../create-reports/desktop-create-phone-report.md) 및 [휴대폰에서 보고서 경험](mobile-apps-view-phone-report.md)에 대해 자세히 알아보세요.
 
 #### <a name="ios"></a>iOS
 **ADFS(Active Directory Federation Services) 미리 보기를 사용한 SSRS 인증** 이제 모바일 디바이스에서 조직 계정으로 온-프레미스 SQL Server Reporting Services 서버에 로그인할 수 있습니다. [OAuth를 사용하여 SSRS 서버에 연결](mobile-oauth-ssrs.md)에 대해 자세히 알아보세요.
@@ -644,7 +644,7 @@ Power BI Desktop에서 휴대폰에 최적화된 페이지가 있는 보고서�
 #### <a name="all-phones"></a>모든 전화
 **즐겨찾기** 모든 Power BI 모바일 앱에서 즐겨 찾는 대시보드를 보고 iOS 및 Windows 10 디바이스용 Power BI 모바일 앱에서 즐겨찾기 목록을 관리할 수 있습니다. 자세한 내용은 [Power BI 모바일 앱의 즐겨찾기](mobile-apps-favorites.md)를 읽어보세요.
 
-**대시보드 데이터 분류** 대시보드 소유자가 자신의 대시보드를 할당한 데이터 분류를 확인할 수 있습니다. 자세한 내용은 [대시보드 분류](../../service-data-classification.md)를 읽어보세요.
+**대시보드 데이터 분류** 대시보드 소유자가 자신의 대시보드를 할당한 데이터 분류를 확인할 수 있습니다. 자세한 내용은 [대시보드 분류](../../create-reports/service-data-classification.md)를 읽어보세요.
 
 **데이터 기반 경고** KPI, 계기 및 카드 타일에 대한 미리 설정된 방법으로 데이터가 변경될 때 경고 알림을 받습니다. 다음에 대해 자세히 알아보세요.
 
@@ -659,14 +659,14 @@ Power BI Desktop에서 휴대폰에 최적화된 페이지가 있는 보고서�
 
 **Intune MAM에 대한 지원** Microsoft Intune 모바일 애플리케이션 관리(MAM) 기능에 대한 지원을 추가합니다.
 
-자세한 내용은 [Power BI 모바일 앱에서 Microsoft Intune](../../service-admin-mobile-intune.md)을 읽어보세요.
+자세한 내용은 [Power BI 모바일 앱에서 Microsoft Intune](../../admin/service-admin-mobile-intune.md)을 읽어보세요.
 
 #### <a name="windows-10-devices"></a>Windows 10 디바이스
 **전체 화면 및 프레젠테이션 모드** Surface Hub에서 보고서를 프레젠테이션 모드로 표시하고 Windows 10 디바이스에서 대시보드, 보고서 및 타일을 전체 화면 모드로 표시할 수 있습니다.
 
 ### <a name="july-2016"></a>2016년 7월
 #### <a name="all-phones"></a>모든 전화
-이제 Power BI 서비스에서 세로 모드로 [휴대폰에 맞게 대시보드 보기를 만들](../../service-create-dashboard-mobile-phone-view.md) 수 있습니다. 
+이제 Power BI 서비스에서 세로 모드로 [휴대폰에 맞게 대시보드 보기를 만들](../../create-reports/service-create-dashboard-mobile-phone-view.md) 수 있습니다. 
 
 #### <a name="android-phones"></a>Android 휴대폰
 **즐겨찾기 탭** 단일 위치에서 즐겨 찾는 모든 대시보드에 액세스할 수 있습니다.
@@ -795,7 +795,7 @@ Power BI 모바일 앱의 알림 센터에서는 사용자와 공유한 새 데�
 
 **R 타일 및 웹 위젯** 모바일 디바이스의 대시보드에서 이러한 새 타일 유형을 볼 수 있습니다.
 
-**Bing 대시보드** 이제 Power BI 서비스에서 [Bing 검색 결과로 대시보드](../../service-connect-to-services.md)를 만든 후 모바일 디바이스에서 볼 수 있습니다.
+**Bing 대시보드** 이제 Power BI 서비스에서 [Bing 검색 결과로 대시보드](../../connect-data/service-connect-to-services.md)를 만든 후 모바일 디바이스에서 볼 수 있습니다.
 
 **대시보드에 타일로 고정되는 보고서 페이지** 이제 Power BI 서비스의 대시보드에 전체 보고서 페이지를 고정할 수 있어, iPhone 또는 Android 휴대폰의 Power BI 앱에서 보고서 페이지를 볼 수 있습니다.
 
@@ -805,41 +805,42 @@ Power BI 팀은 여러 주요 추가 기능과 업데이트를 포함하여 2015
 #### <a name="sql-server-2016-reporting-services-mobile-reports-in-ios"></a>IOS의 SQL Server 2016 Reporting Services 모바일 보고서
 이제 iPad나 iPhone과 같은 IOS 디바이스의 Power BI 앱에서 SQL Server 모바일 보고서를 볼 수 있습니다. 자세한 내용은 다음을 참조하세요.
 
-* [iOS용 Power BI 앱의 SQL 16 SSRS SQL](https://blogs.msdn.com/b/powerbi/archive/2015/12/30/sql-16-ssrs-on-power-bi-app-for-ios.aspx) 블로그 게시물
+* [iOS용 Power BI 앱의 SQL 16 SSRS SQL](https://powerbi.microsoft.com/blog/sql-16-ssrs-on-power-bi-app-for-ios/
+) 블로그 게시물
 * [iPhone 및 iPad 앱에서 SQL Server 모바일 보고서 및 KPI](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) 보기 설명서
 
 #### <a name="power-bi-app-for-windows-10-phones"></a>Windows 10 Phone용 Power BI 앱
 새 Windows 10 Phone용 Power BI 앱이 터치 및 모바일 생산성에 대해 최적화되어 있습니다. 대시보드 및 보고서를 탐색하고, 데이터를 보도록 동료를 초대하고, 메일을 통해 정보를 공유하여 팀의 참여도를 높이세요. 또한 [Power BI 대시보드를 Windows Phone 시작 화면에 고정](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)할 수도 있습니다.
 
-* [Windows 10 Phone용 Power BI 앱 블로그 게시물](https://blogs.msdn.com/b/powerbi/archive/2015/12/30/announcing-the-power-bi-app-for-windows-10-mobile.aspx)을 참고하세요.
+* [Windows 10 Phone용 Power BI 앱 블로그 게시물](https://powerbi.microsoft.com/blog/announcing-the-power-bi-app-for-windows-10-mobile/)을 참고하세요.
 * [Windows 10 Phone용 Power BI 앱 시작합니다](mobile-windows-10-phone-app-get-started.md).
 
 #### <a name="other-additions"></a>기타 추가 기능
-자세한 내용은 [Power BI 모바일 앱 12월 블로그 게시물](https://blogs.msdn.com/b/powerbi/archive/2015/12/30/power-bi-mobile-apps-update-_2d00_-december-2015.aspx)을 참고하세요.
+자세한 내용은 [Power BI 모바일 앱 12월 블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-2d00-december-2015/)을 참고하세요.
 
 * 동료가 대시보드를 공유할 경우 알림을 받습니다. (iOS)
 * 대시보드에서 고정된 보고서 페이지 전체를 봅니다. (iOS 및 Android)
-* Android 휴대폰에서 [QR 코드를 스캔](https://blogs.msdn.com/b/powerbi/archive/2015/12/08/bridge-the-gap-between-your-physical-world-and-your-bi-using-qr-codes.aspx)하고 관련 타일로 바로 이동합니다.
+* Android 휴대폰에서 [QR 코드를 스캔](https://powerbi.microsoft.com/blog/bridge-the-gap-between-your-physical-world-and-your-bi-using-qr-codes/)하고 관련 타일로 바로 이동합니다.
 
 ### <a name="november-2015"></a>2015년 11월
-[2015년 11월 Power BI 모바일 블로그 게시물](https://blogs.msdn.com/b/powerbi/archive/2015/11/24/power-bi-mobile-apps-update-_2d00_-november-2015.aspx)을 참고하세요.
+[2015년 11월 Power BI 모바일 블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-2d00-november-2015/)을 참고하세요.
 
 #### <a name="all-power-bi-mobile-apps"></a>모든 Power BI 모바일 앱
 * 새로운 시작 환경
 * 향상된 차트 데이터 용량
 
 #### <a name="ios-and-android-mobile-apps"></a>iOS 및 Android 모바일 앱
-* 기업에서는 이제 디바이스 및 애플리케이션을 관리하도록 [Microsoft Intune로 iOS 및 Android 용 Power BI 모바일 앱을 구성](../../service-admin-mobile-intune.md)할 수 있습니다.
+* 기업에서는 이제 디바이스 및 애플리케이션을 관리하도록 [Microsoft Intune로 iOS 및 Android 용 Power BI 모바일 앱을 구성](../../admin/service-admin-mobile-intune.md)할 수 있습니다.
 
 #### <a name="iphone-mobile-app"></a>iPhone 모바일 앱
 * iPhone에서 직접 [대시보드에 그림 타일을 추가](mobile-iphone-app-get-started.md)합니다.
-* [Power BI 서비스에서 QR 코드를 만든](../../service-create-qr-code-for-tile.md) 후 iPhone에서 스캔하여 Power BI 앱을 특정 타일로 엽니다.
+* [Power BI 서비스에서 QR 코드를 만든](../../create-reports/service-create-qr-code-for-tile.md) 후 iPhone에서 스캔하여 Power BI 앱을 특정 타일로 엽니다.
 
 #### <a name="the-power-bi-app-for-windows-devices"></a>Windows 디바이스용 Power BI 앱
-* [타일에서 특정 URL로 직접 연결](../../service-dashboard-edit-tile.md#hyperlink)합니다.
+* [타일에서 특정 URL로 직접 연결](../../create-reports/service-dashboard-edit-tile.md#hyperlink)합니다.
 
 ### <a name="october-2015"></a>2015년 10월
-[10월 중순 Power BI 모바일 블로그 게시물](https://blogs.msdn.com/b/powerbi/archive/2015/10/21/power-bi-mobile-mid-october-updates-are-here.aspx)을 읽습니다.
+[10월 중순 Power BI 모바일 블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-mobile-mid-october-updates-are-here/)을 읽습니다.
 
 #### <a name="all-power-bi-mobile-apps"></a>모든 Power BI 모바일 앱
 * 백분율 기반 Y축이 있는 꺾은선형 차트는 이제 실제 데이터에 따라 시각적 범위를 계산합니다. 그래프는 이제 기본 값 대신 차트에서 가장 낮은 데이터 요소부터 시작합니다.
@@ -851,12 +852,12 @@ Power BI 팀은 여러 주요 추가 기능과 업데이트를 포함하여 2015
 * 그룹의 최신 대시보드를 최신 상태로 유지합니다. - 팀 멤버가 그룹 중 하나에 대시보드를 추가할 때마다 iPhone에서 알림을 수신합니다.
   
     ![](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_grpdashalertcrop.png)
-* 이제 바로 전화를 돌려서 대시보드를 가로로 볼 수 있습니다. [iPhone 앱에서 가로 모드](https://blogs.msdn.com/b/powerbi/archive/2015/11/02/enjoy-the-landscape-with-the-power-bi-iphone-app.aspx)에 대해 자세히 읽습니다.
+* 이제 바로 전화를 돌려서 대시보드를 가로로 볼 수 있습니다. [iPhone 앱에서 가로 모드](https://powerbi.microsoft.com/blog/enjoy-the-landscape-with-the-power-bi-iphone-app/)에 대해 자세히 읽습니다.
   
     ![](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_landscape.png)
 
 ### <a name="september-2015"></a>2015년 9월
-Power BI 모바일 앱의 개선된 점 -- Android, iOS(iPhone 및 iPad) 및 Windows. [9월 중순 Power BI 모바일 블로그 게시물](https://blogs.msdn.com/b/powerbi/archive/2015/09/23/power-bi-mobile-mid-september-updates-are-here.aspx)을 읽습니다.
+Power BI 모바일 앱의 개선된 점 -- Android, iOS(iPhone 및 iPad) 및 Windows. [9월 중순 Power BI 모바일 블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-mobile-mid-september-updates-are-here/)을 읽습니다.
 
 #### <a name="android"></a>Android
 * 그룹 작업 영역 지원: 그룹 작업 영역에서는 동료와 공동 작업을 수행합니다. 

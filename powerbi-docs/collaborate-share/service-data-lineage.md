@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 02/27/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: fc1f55fbadfaa6c25dd9140a41064eaa876013df
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 101217023576783a32491b21ba254d54736b27db
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525402"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348209"
 ---
 # <a name="data-lineage"></a>데이터 계보
 최신 BI(비즈니스 인텔리전스) 프로젝트에서 데이터 원본에서 대상까지 이동하는 데이터 흐름을 이해하는 것이 중요합니다. 여러 데이터 원본, 아티팩트 및 종속성에 걸쳐 있는 고급 분석 프로젝트를 구성한 경우 중요성은 더 커집니다. "이 데이터를 변경하면 어떻게 되나요?" 또는 “이 보고서가 최신 상태가 아닌 이유는 무엇인가요?”와 같은 질문은 대답하기 어려울 수 있습니다. 이러한 질문들은 전문가 팀이나 이해를 위한 세부적인 조사가 필요할 수 있습니다. 질문에 대답하는 데 도움이 되는 데이터 계보 보기를 설계했습니다.
@@ -88,9 +88,9 @@ Power BI에는 대시보드, 보고서, 데이터 세트, 데이터 흐름 등 �
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 
-- Internet Explorer에서는 계보 보기를 사용할 수 없습니다. 자세한 내용은 [Power BI에 지원되는 브라우저](../power-bi-browsers.md)를 참조하세요.
+- Internet Explorer에서는 계보 보기를 사용할 수 없습니다. 자세한 내용은 [Power BI에 지원되는 브라우저](../fundamentals/power-bi-browsers.md)를 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 
-* [작업 영역의 데이터 세트 소개(미리 보기)](../service-datasets-across-workspaces.md)
+* [작업 영역의 데이터 세트 소개(미리 보기)](../connect-data/service-datasets-across-workspaces.md)
 * [데이터 세트 영향 분석](service-dataset-impact-analysis.md)

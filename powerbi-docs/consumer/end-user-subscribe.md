@@ -1,4 +1,4 @@
-﻿---
+---
 title: 직접 보고서 및 대시보드 구독
 description: 본인이 Power BI 보고서 및 대시보드의 메일 스냅샷을 구독하는 방법에 대해 알아보세요.
 author: mihart
@@ -10,12 +10,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 03/24/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 10d1e87fabc54c5886930c52ce60ed4a62479847
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e5d87e3b41d6048b214fca45fc99df35f997d3c1
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81525448"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83347303"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Power BI 서비스에서 보고서 또는 대시보드 구독 
 
@@ -25,7 +25,7 @@ ms.locfileid: "81525448"
 
 가장 중요한 대시보드와 보고서를 최신 상태로 유지하는 것이 결코 쉬운 일은 아닙니다. 가장 중요한 보고서 페이지와 대시보드를 구독하면 Power BI에서 스냅샷을 전자 메일로 받은 편지함에 보냅니다. 매일, 매주 또는 데이터 새로 고침될 때 Power BI에게 이메일 수신 빈도를 알려줍니다. Power BI가 이메일을 보내거나 지금 실행되도록 특정 시간을 설정할 수도 있습니다.  모두 합쳐, 보고서 또는 대시보드당 최대 24개의 구독을 설정할 수 있습니다.
 
-메일 및 스냅샷은 Power BI 설정에 설정된 언어를 사용합니다([Power BI에 지원되는 언어 및 국가/지역](../supported-languages-countries-regions.md) 참조). 언어가 정의되지 않은 경우 Power BI는 현재 브라우저의 로캘 설정에 따른 언어를 사용합니다. 언어 기본 설정을 보거나 설정하려면 기어 아이콘 ![기어 아이콘](./media/end-user-subscribe/power-bi-settings-icon.png) > **설정 > 일반 > 언어**를 선택합니다. 
+메일 및 스냅샷은 Power BI 설정에 설정된 언어를 사용합니다([Power BI에 지원되는 언어 및 국가/지역](../fundamentals/supported-languages-countries-regions.md) 참조). 언어가 정의되지 않은 경우 Power BI는 현재 브라우저의 로캘 설정에 따른 언어를 사용합니다. 언어 기본 설정을 보거나 설정하려면 기어 아이콘 ![기어 아이콘](./media/end-user-subscribe/power-bi-settings-icon.png) > **설정 > 일반 > 언어**를 선택합니다. 
 
 ![언어 드롭다운](./media/end-user-subscribe/power-bi-language.png)
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 3410d8fa8c2f9300fccbe47683a90cbca8ff8383
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8a3a80ea7bb318944961a57ac6fdac695aa46253
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205530"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349451"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 대시보드 및 보고서 보기
 적용 대상:
@@ -29,8 +29,8 @@ ms.locfileid: "79205530"
 
 모바일 디바이스에서 대시보드 및 보고서를 보려면 웹 브라우저에서 대시보드를 만들거나 연결해야 합니다. 
 
-1. Power BI 서비스([https://www.powerbi.com](https://www.powerbi.com))로 이동하여 [계정을 등록](../../service-self-service-signup-for-power-bi.md)합니다.
-2. [자신의 Power BI 대시보드 및 보고서를 만들거나](../../service-get-started.md)[Microsoft Dynamics CRM](../../service-connect-to-services.md)과 같은 다양한 서비스에 대해 기존 [Power BI 앱](../../service-connect-to-microsoft-dynamics-crm.md)에 연결합니다.
+1. Power BI 서비스([https://www.powerbi.com](https://www.powerbi.com))로 이동하여 [계정을 등록](../../fundamentals/service-self-service-signup-for-power-bi.md)합니다.
+2. [자신의 Power BI 대시보드 및 보고서를 만들거나](../../fundamentals/service-get-started.md)[Microsoft Dynamics CRM](../../connect-data/service-connect-to-services.md)과 같은 다양한 서비스에 대해 기존 [Power BI 앱](../../connect-data/service-connect-to-services.md)에 연결합니다.
 
 Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
 
@@ -45,14 +45,14 @@ Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
     ![대시보드 탭](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-home.png)
    
    * 노란색 별 ![즐겨찾기 별](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 은 즐겨찾기 대시보드임을 나타냅니다. 
-   * 각 대시보드 이름 아래의 표기(이 예의 경우 "MBI") ![데이터 분류](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png)는 각 대시보드의 데이터를 분류하는 방법을 나타냅니다. 자세한 내용은 [Power BI 데이터 분류](../../service-data-classification.md)를 참조하세요.
+   * 각 대시보드 이름 아래의 표기(이 예의 경우 "MBI") ![데이터 분류](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png)는 각 대시보드의 데이터를 분류하는 방법을 나타냅니다. 자세한 내용은 [Power BI 데이터 분류](../../create-reports/service-data-classification.md)를 참조하세요.
    
    기본적으로 iPhone에서는 Power BI 대시보드가 약간 다르게 보입니다. 모든 타일이 동일한 크기로 나타나며, 위에서 아래로 하나씩 정렬됩니다.
    
     ![대시보드 세로 모드 보기](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-portrait.png)
    
    > [!TIP]
-   > 대시보드 소유자인 경우 [Power BI 서비스에서 세로 모드로 휴대폰에 맞게 대시보드 보기를 만들](../../service-create-dashboard-mobile-phone-view.md) 수 있습니다. 
+   > 대시보드 소유자인 경우 [Power BI 서비스에서 세로 모드로 휴대폰에 맞게 대시보드 보기를 만들](../../create-reports/service-create-dashboard-mobile-phone-view.md) 수 있습니다. 
    > 
    > 
    
@@ -85,7 +85,7 @@ Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
    ![대시보드 홈](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
    
    * 노란색 별 ![즐겨찾기 별](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 은 즐겨찾기 대시보드임을 나타냅니다. 
-   * 각 대시보드 이름 아래의 표기(이 예의 경우 "MBI") ![데이터 분류](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png)는 각 대시보드의 데이터를 분류하는 방법을 나타냅니다. 자세한 내용은 [Power BI 데이터 분류](../../service-data-classification.md)를 참조하세요.
+   * 각 대시보드 이름 아래의 표기(이 예의 경우 "MBI") ![데이터 분류](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png)는 각 대시보드의 데이터를 분류하는 방법을 나타냅니다. 자세한 내용은 [Power BI 데이터 분류](../../create-reports/service-data-classification.md)를 참조하세요.
 3. 작업 영역에서 대시보드를 공유할 수 있습니다. 대시보드 타일의 오른쪽 아래 모서리에서 줄임표( **...** )를 누르고 **다른 사람 초대**를 누릅니다.
    
    ![초대 아이콘](./media/mobile-apps-view-dashboard/power-bi-ipad-tile-invite-others.png)
@@ -109,13 +109,13 @@ Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
 
     노란색 별 ![즐겨찾기 별](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 은 즐겨찾기 대시보드임을 나타냅니다. 
 
-    대시보드 이름 아래의 표기(이 예의 경우 "MBI") ![데이터 분류](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)는 각 대시보드의 데이터를 분류하는 방법을 나타냅니다. 자세한 내용은 [Power BI 데이터 분류](../../service-data-classification.md)를 참조하세요.
+    대시보드 이름 아래의 표기(이 예의 경우 "MBI") ![데이터 분류](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)는 각 대시보드의 데이터를 분류하는 방법을 나타냅니다. 자세한 내용은 [Power BI 데이터 분류](../../create-reports/service-data-classification.md)를 참조하세요.
 
     Android 휴대폰에서는 Power BI 대시보드가 약간 다르게 보입니다. 모든 타일이 동일한 너비로 나타나며, 위에서 아래로 하나씩 정렬됩니다.
 
     ![대시보드 세로 모드 보기](./media/mobile-apps-view-dashboard/pbi_andr_dash.png)
 
-    대시보드 소유자인 경우 [Power BI 서비스에서 세로 모드로 휴대폰에 맞게 대시보드 보기를 만들](../../service-create-dashboard-mobile-phone-view.md) 수 있습니다. 
+    대시보드 소유자인 경우 [Power BI 서비스에서 세로 모드로 휴대폰에 맞게 대시보드 보기를 만들](../../create-reports/service-create-dashboard-mobile-phone-view.md) 수 있습니다. 
 
 1. 대시보드에서 이름 옆에 있는 세로 **추가 옵션**(...) 단추를 탭하면 동료를 초대하거나, 새로 고치거나, 대시보드에 대한 정보를 가져올 수 있습니다.
    
@@ -132,7 +132,7 @@ Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
    ![대시보드 홈](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
    
    * 노란색 별 ![즐겨찾기 별](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) 은 즐겨찾기 대시보드를 표시합니다. 
-   * 각 대시보드 이름 아래의 표기(이 예의 경우 "MBI") ![데이터 분류](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)는 각 대시보드의 데이터를 분류하는 방법을 나타냅니다. 자세한 내용은 [Power BI 데이터 분류](../../service-data-classification.md)를 참조하세요.
+   * 각 대시보드 이름 아래의 표기(이 예의 경우 "MBI") ![데이터 분류](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png)는 각 대시보드의 데이터를 분류하는 방법을 나타냅니다. 자세한 내용은 [Power BI 데이터 분류](../../create-reports/service-data-classification.md)를 참조하세요.
 3. 대시보드에서 이름 옆에 있는 세로 **추가 옵션**(...) 단추를 탭하면 동료를 초대하거나, 새로 고치거나, 대시보드에 대한 정보를 가져올 수 있습니다.
    
    ![줄임표 메뉴](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
@@ -150,11 +150,10 @@ Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
 
 ![대시보드 휴대폰 보기](./media/mobile-apps-view-dashboard/power-bi-phone-dashboard-in-progress.png)
 
-[대시보드의 휴대폰 보기를 만드는](../../service-create-dashboard-mobile-phone-view.md) 방법에 대해 알아봅니다.
+[대시보드의 휴대폰 보기를 만드는](../../create-reports/service-create-dashboard-mobile-phone-view.md) 방법에 대해 알아봅니다.
 
 ## <a name="next-steps"></a>다음 단계
 * Google play에서 [Android 앱 다운로드](https://go.microsoft.com/fwlink/?LinkID=544867)  
 * [Power BI용 Android 앱 시작](mobile-android-app-get-started.md)  
 * [Power BI란?](../../fundamentals/power-bi-overview.md)
 * 질문이 있으신가요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
-

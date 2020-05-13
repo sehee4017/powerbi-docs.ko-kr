@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/17/2020
 ms.author: mihart
 LocalizationGroup: consumers
-ms.openlocfilehash: 4c4b923199ccd35433b7bf743314395fc70bbe30
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 088844ccf52a67cfd67590e62a2dd8cab83add66
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82065762"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348416"
 ---
 # <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>*소비자* 및 다른 무료 라이선스 사용자를 위한 Power BI 기능 목록
 
@@ -23,7 +23,7 @@ ms.locfileid: "82065762"
 
 ‘소비자’는 비즈니스 의사 결정을 내리기 위해 보고서 및 대시보드를 탐색하는 데 Power BI 서비스를 사용할 수 있습니다.  해당 보고서와 대시보드는 Power BI *Pro* 라이선스가 있는 ‘디자이너’가 만든 것입니다.  Pro 사용자는 동료와 콘텐츠를 공유하고, 동료가 콘텐츠를 사용하여 수행할 수 있는 작업을 제어할 수 있습니다. 디자이너가 링크를 전송하여 콘텐츠를 공유하는 경우도 있고, 콘텐츠가 자동으로 설치되고 Power BI **앱** 또는 **공유한 항목**에 표시되는 경우도 있습니다.
 
-디자이너는 여러 가지 방법으로 콘텐츠를 공유할 수 있습니다. 그러나 이 문서는 Power BI ‘소비자’를 대상으로 작성되었으므로 소비자가 콘텐츠를 받고 조작하는 방법만 설명합니다.  콘텐츠를 공유하는 다른 방법에 대한 자세한 내용은 [Power BI에서 작업을 공유하는 방법](../service-how-to-collaborate-distribute-dashboards-reports.md)을 참조하세요.
+디자이너는 여러 가지 방법으로 콘텐츠를 공유할 수 있습니다. 그러나 이 문서는 Power BI ‘소비자’를 대상으로 작성되었으므로 소비자가 콘텐츠를 받고 조작하는 방법만 설명합니다.  콘텐츠를 공유하는 다른 방법에 대한 자세한 내용은 [Power BI에서 작업을 공유하는 방법](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md)을 참조하세요.
 
 ![Power BI 탐색 창](media/end-user-features/power-bi-share.png)
 
@@ -47,7 +47,7 @@ ms.locfileid: "82065762"
 ### <a name="licenses"></a>라이선스 
 각 Power BI 서비스 사용자는 무료 라이선스 또는 Pro 라이선스를 보유합니다. *소비자*는 무료 라이선스를 보유합니다.
 
-- **무료 라이선스** - 일반적으로 조직 내의 *소비자*에게 할당됩니다(아래 첫 번째 이미지 참조). 개인으로 Power BI 서비스에 등록하고 [독립 실행형 모드로 Power BI 서비스](../service-self-service-signup-for-power-bi.md)를 시험적으로 사용해 보려는 사용자에게도 할당됩니다(아래 두 번째 이미지 참조). 
+- **무료 라이선스** - 일반적으로 조직 내의 *소비자*에게 할당됩니다(아래 첫 번째 이미지 참조). 개인으로 Power BI 서비스에 등록하고 [독립 실행형 모드로 Power BI 서비스](../fundamentals/service-self-service-signup-for-power-bi.md)를 시험적으로 사용해 보려는 사용자에게도 할당됩니다(아래 두 번째 이미지 참조). 
 
     ![무료 사용자가 표시된 화면](media/end-user-features/power-bi-free-organization.png)
 

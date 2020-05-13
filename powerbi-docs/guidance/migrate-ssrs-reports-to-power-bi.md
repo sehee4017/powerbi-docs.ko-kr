@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: b87848953722d33235a11729a3643c627cca7234
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d9fd23a0cf5c3ed26c78e4c53ae600bf74daca91
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79525617"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83348186"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>SQL Server Reporting Services 보고서를 Power BI로 마이그레이션
 
@@ -37,7 +37,7 @@ SSRS 서버의 가동을 중지하거나 보고서 사용자들의 작업을 방
 
 ### <a name="preparing-for-migration"></a>마이그레이션 준비
 
-보고서를 Power BI로 마이그레이션하기 위한 준비를 할 때 먼저 조직에 [Power BI Premium](../service-premium-what-is.md) 구독이 있는지 확인해야 합니다. 이 구독은 Power BI 페이지를 매긴 보고서를 호스트하고 실행하는 데 필요합니다.
+보고서를 Power BI로 마이그레이션하기 위한 준비를 할 때 먼저 조직에 [Power BI Premium](../admin/service-premium-what-is.md) 구독이 있는지 확인해야 합니다. 이 구독은 Power BI 페이지를 매긴 보고서를 호스트하고 실행하는 데 필요합니다.
 
 ### <a name="supported-versions"></a>지원되는 버전
 
@@ -112,12 +112,12 @@ RDL 보고서는 _온-프레미스 데이터 원본_에서 데이터를 검색�
 
 _준비_ 단계의 목표는 모든 것을 준비하는 것입니다. 이 단계에서는 Power BI 환경을 설정하고, 보고서를 보호하고 게시할 방법을 계획하고, 마이그레이션할 수 없는 SSRS 항목을 다시 만들 방안을 도출합니다.
 
-1. Power BI 프리미엄 용량에서 [페이지를 매긴 보고서 워크로드](../service-admin-premium-workloads.md#paginated-reports)가 사용하도록 설정되어 있고 메모리가 충분한지 확인합니다.
-1. 보고서 [데이터 원본](../paginated-reports/paginated-reports-data-sources.md)에 대한 지원을 확인하고, 온-프레미스 데이터 원본과의 연결을 허용할 수 있도록 [Power BI 게이트웨이](../service-gateway-onprem.md)를 설정합니다.
-1. Power BI 보안을 숙지하고, [Power BI 작업 영역 및 작업 영역 역할](../service-new-workspaces.md)을 사용하여 [SSRS 폴더 및 권한을 재현할 방법](/sql/reporting-services/security/secure-folders)을 계획합니다.
-1. Power BI 공유를 숙지하고, [Power BI 앱](../service-create-distribute-apps.md)을 게시하여 콘텐츠를 배포할 방법을 계획합니다.
-1. SSRS 공유 데이터 원본 대신 [공유 Power BI 데이터 세트](../service-datasets-build-permissions.md)를 사용하는 방안을 고려합니다.
-1. [Power BI Desktop](../desktop-what-is-desktop.md)을 사용하여 모바일 최적화된 보고서를 개발합니다. 이때 SSRS 모바일 보고서 및 KPI 대신 [Power KPI 사용자 지정 시각적 개체](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083?tab=Overview)를 사용하는 것이 좋습니다.
+1. Power BI 프리미엄 용량에서 [페이지를 매긴 보고서 워크로드](../admin/service-admin-premium-workloads.md#paginated-reports)가 사용하도록 설정되어 있고 메모리가 충분한지 확인합니다.
+1. 보고서 [데이터 원본](../paginated-reports/paginated-reports-data-sources.md)에 대한 지원을 확인하고, 온-프레미스 데이터 원본과의 연결을 허용할 수 있도록 [Power BI 게이트웨이](../connect-data/service-gateway-onprem.md)를 설정합니다.
+1. Power BI 보안을 숙지하고, [Power BI 작업 영역 및 작업 영역 역할](../collaborate-share/service-new-workspaces.md)을 사용하여 [SSRS 폴더 및 권한을 재현할 방법](/sql/reporting-services/security/secure-folders)을 계획합니다.
+1. Power BI 공유를 숙지하고, [Power BI 앱](../collaborate-share/service-create-distribute-apps.md)을 게시하여 콘텐츠를 배포할 방법을 계획합니다.
+1. SSRS 공유 데이터 원본 대신 [공유 Power BI 데이터 세트](../connect-data/service-datasets-build-permissions.md)를 사용하는 방안을 고려합니다.
+1. [Power BI Desktop](../fundamentals/desktop-what-is-desktop.md)을 사용하여 모바일 최적화된 보고서를 개발합니다. 이때 SSRS 모바일 보고서 및 KPI 대신 [Power KPI 사용자 지정 시각적 개체](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083?tab=Overview)를 사용하는 것이 좋습니다.
 1. 보고서에서 **UserID** 기본 제공 필드의 사용을 다시 평가합니다. **UserID**를 사용하여 보고서 데이터를 보호하는 경우 페이지를 매긴 보고서가 Power BI 서비스에서 호스트될 때는 이 필드가 UPN(사용자 계정 이름)을 반환한다는 것을 이해해야 합니다. 따라서 기본 제공 필드는 _AW\mblythe_와 같은 NT 계정 이름을 반환하는 대신 _m.blythe&commat;adventureworks.com_과 같은 형식으로 반환합니다. 데이터 세트 정의 그리고 경우에 따라 원본 데이터를 수정해야 합니다. 수정하고 게시한 후에는 보고서를 철저히 테스트하여 데이터 사용 권한이 예상대로 작동하는지 확인하는 것이 좋습니다.
 1. 보고서에서 **ExecutionTime** 기본 제공 필드의 사용을 다시 평가합니다. 페이지를 매긴 보고서가 Power BI 서비스에서 호스트될 때는 기본 제공 필드가 날짜/시간을 _UTC(협정 세계시)_ 로 반환합니다. 이는 보고서 매개 변수 기본값 및 보고서 실행 시간 레이블(일반적으로 보고서 바닥글에 추가됨)에 영향을 줄 수 있습니다.
 1. 데이터 원본이 SQL Server(온-프레미스)인 경우 보고서에서 지도 시각화를 사용하지 않는지 확인합니다. 지도 시각화는 SQL Server 공간 데이터 형식을 사용하며 해당 데이터 형식은 게이트웨이에서 지원되지 않습니다. 자세한 내용은 [페이지를 매긴 보고서의 데이터 검색 지침(SQL Server 복합 데이터 형식)](report-paginated-data-retrieval.md#sql-server-complex-data-types)을 참조하세요.
@@ -171,9 +171,9 @@ API에 대한 자세한 내용은 다음을 참조하세요.
 
 가능한 최상의 보고서 사용자 환경을 제공하기 위해 다음 작업을 완료하는 것이 권장됩니다.
 
-1. [Power BI에서 지원하는 각 브라우저](../power-bi-browsers.md)에서 보고서를 테스트하여 보고서가 올바르게 렌더링되는지 확인합니다.
+1. [Power BI에서 지원하는 각 브라우저](../fundamentals/power-bi-browsers.md)에서 보고서를 테스트하여 보고서가 올바르게 렌더링되는지 확인합니다.
 1. 테스트를 실행하여 SSRS 및 Power BI에서의 보고서 렌더링 시간을 비교합니다. Power BI 보고서가 적정 시간 안에 렌더링되는지 확인합니다.
-1. 메모리가 부족하여 Power BI 보고서가 렌더링되지 않는 경우 [Power BI 프리미엄 용량에 추가 리소스를 할당](../service-admin-premium-workloads.md#paginated-reports)합니다.
+1. 메모리가 부족하여 Power BI 보고서가 렌더링되지 않는 경우 [Power BI 프리미엄 용량에 추가 리소스를 할당](../admin/service-admin-premium-workloads.md#paginated-reports)합니다.
 1. 렌더링이 오래 걸리는 보고서의 경우 [보고서 첨부 파일이 포함된 메일 구독](../consumer/paginated-reports-subscriptions.md)으로 보고서 사용자에게 Power BI를 전달하는 방안을 고려합니다.
 1. Power BI 데이터 세트를 기반으로 하는 Power BI 보고서의 경우 모델 디자인을 검토하여 완전히 최적화되었는지 확인합니다.
 
@@ -183,8 +183,8 @@ API에 대한 자세한 내용은 다음을 참조하세요.
 
 이러한 문제를 이해하고 문제에 대응하는 구체적인 방법을 포함하여 문제에 대해 자세히 알아보려면 다음 문서를 참조하세요.
 
-- [Premium 용량 최적화](../service-premium-capacity-optimize.md)
-- [앱 내에서 프리미엄 용량 모니터링](../service-admin-premium-monitor-capacity.md)
+- [Premium 용량 최적화](../admin/service-premium-capacity-optimize.md)
+- [앱 내에서 프리미엄 용량 모니터링](../admin/service-admin-premium-monitor-capacity.md)
 
 ## <a name="next-steps"></a>다음 단계
 
@@ -195,7 +195,7 @@ API에 대한 자세한 내용은 다음을 참조하세요.
 - [Power BI의 페이지를 매긴 보고서가 필요한 경우](report-paginated-or-power-bi.md)
 - [Power BI의 페이지를 매긴 보고서: FAQ](../paginated-reports/paginated-reports-faq.md)
 - [온라인 과정: 특정 일의 페이지를 매긴 보고서](../paginated-reports/paginated-reports-online-course.md)
-- [Power BI 프리미엄 FAQ](../service-premium-faq.md)
+- [Power BI 프리미엄 FAQ](../admin/service-premium-faq.md)
 - [RDL 마이그레이션 도구](https://github.com/microsoft/RdlMigration)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 - 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com)

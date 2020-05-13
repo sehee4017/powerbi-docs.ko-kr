@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: bb323737934ade08ed4998bdcf8d441e8951732c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: fece594fa6236f01c707f0b84ddca977fb32dede
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379885"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349290"
 ---
 # <a name="add-the-locale-in-power-bi-for-power-bi-visuals"></a>Power BI 시각적 개체에 대한 Power BI에 로캘 추가
 
 시각적 개체는 Power BI 로캘을 검색하여 해당 콘텐츠를 관련 언어로 지역화할 수 있습니다.
 
-[Power BI에 지원되는 언어 및 국가/지역](./../../supported-languages-countries-regions.md)에 대해 읽으세요.
+[Power BI에 지원되는 언어 및 국가/지역](./../../fundamentals/supported-languages-countries-regions.md)에 대해 읽으세요.
 
 예를 들어 샘플 가로 막대형 차트 시각적 개체의 로캘을 가져옵니다.
 
@@ -45,7 +45,7 @@ this.locale = options.host.locale;
 
 지원되는 로캘:
 
-로캘 문자열 | Language
+로캘 문자열 | 언어
 --------------|----------------------
 ar-SA | لعربية(아랍어)
 bg-BG | български(불가리아어)
@@ -155,7 +155,7 @@ zh-TW | 中國(중국어-Tranditional)
 
 ### <a name="desktop"></a>데스크톱
 
-데스크톱 사용의 경우, https://powerbi.microsoft.com 에서 Power BI 데스크톱의 지역화된 버전을 다운로드합니다.
+데스크톱 사용의 경우, https://powerbi.microsoft.com에서 Power BI 데스크톱의 지역화된 버전을 다운로드합니다.
 
 ### <a name="web-service"></a>웹 서비스
 

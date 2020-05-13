@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/03/2020
 ms.author: maggies
-ms.openlocfilehash: 69ebfa9b1d2ef500b388a1bbb57926dc53ff2607
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: efc316e93bea9cfc1b3f429657ac2810e13f4e63
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76975013"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83349474"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Power BI Report Server용 Power BI 보고서 만들기
 Power BI 서비스 (https://powerbi.com) 에서 클라우드에 Power BI 보고서를 저장할 수 있는 것과 마찬가지로 Power BI Report Server 웹 포털에서 Power BI 보고서 온-프레미스를 저장하고 관리할 수 있습니다. Power BI Desktop에서 보고서를 만들고 편집하고 웹 포털에 게시합니다. 그런 다음 조직의 보고서 사용자는 모바일 디바이스의 브라우저 또는 Power BI 모바일 앱에서 해당 보고서를 볼 수 있습니다.
@@ -79,7 +79,7 @@ Power BI Desktop에서 Power BI 보고서를 이미 만든 경우 Power BI Repor
 2. 필드를 끌어서 **값**으로 계산합니다. 숫자 필드가 아닌 경우 Power BI Desktop에서는 자동으로 해당 필드를 값*의 갯수*로 만듭니다.
 3. 필드를 끌어서 **그룹**에 그룹화합니다.
 
-[Power BI 보고서 디자인](../desktop-report-view.md)에 대해 자세히 알아봅니다.
+[Power BI 보고서 디자인](../create-reports/desktop-report-view.md)에 대해 자세히 알아봅니다.
 
 ## <a name="step-4-save-your-report-to-the-report-server"></a>4단계: Report Server에 보고서 저장
 보고서가 준비되면 2단계에서 선택한 Power BI Report Server에 저장합니다.
@@ -98,7 +98,7 @@ Power BI Desktop에서 Power BI 보고서를 이미 만든 경우 Power BI Repor
 ### <a name="power-bi-desktop"></a>Power BI Desktop
 Power BI Desktop에는 보고서를 만들기 위한 유용한 리소스가 많이 있습니다. 이 링크로 시작하는 것이 좋습니다.
 
-* [Power BI Desktop 시작](../desktop-getting-started.md)
+* [Power BI Desktop 시작](../fundamentals/desktop-getting-started.md)
 * 단계별 학습: [Power BI Desktop 살펴보기](/learn/modules/get-data-power-bi/2-getting-started-power-bi-desktop)
 
 ### <a name="power-bi-report-server"></a>Power BI Report Server
