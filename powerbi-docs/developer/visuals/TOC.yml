@@ -12,6 +12,10 @@
       items:
         - name: Power BI의 시각적 개체 개발
           href: custom-visual-develop-tutorial.md
+        - name: 반응 기반 시각적 개체 만들기
+          href: create-react-visual.md
+        - name: 가로 막대형 차트 작성
+          href: create-bar-chart.md
         - name: 서식 지정 옵션 추가
           href: custom-visual-develop-tutorial-format-options.md
         - name: 시각적 개체 프로젝트를 위한 단위 테스트 추가
@@ -38,14 +42,20 @@
           href: objects-properties.md
         - name: 고급 편집 모드
           href: advanced-edit-mode.md
+        - name: supportsKeyboardFocus 기능
+          href: supportskeyboardfocus-feature.md
+        - name: supportsMultiVisualSelection-feature.md
+          href: supportsmultivisualselection-feature.md
     - name: 방법
       items:
         - name: Power BI 시각적 개체 인증받기
           href: power-bi-custom-visuals-certified.md
         - name: AppSource에 Power BI 시각적 개체 게시하기
           href: office-store.md
+        - name: Power BI 시각적 개체 테스트
+          href: submission-testing.md
         - name: Power BI에서 R 지원 Power BI 시각적 개체 사용
-          href: ../../desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
+          href: ../../create-reports/desktop-r-powered-custom-visuals.md?toc=/powerbi-docs/developer/TOC.json&bc=/powerbi-docs/breadcrumb/toc.json
         - name: 시각적 개체 상호 작용
           href: visuals-interactions.md
         - name: 선택 항목 추가
@@ -64,6 +74,8 @@
           href: context-menu.md
         - name: 드릴다운 지원 추가
           href: drill-down-support.md
+        - name: 시각적 개체에 색 추가
+          href: add-colors-power-bi-visual.md
         - name: 시각적 개체의 데이터 강조 표시
           href: highlight.md
         - name: 고대비 모드 지원 추가
@@ -78,10 +90,14 @@
           href: power-bi-custom-visuals-troubleshoot.md
     - name: 참조
       items:
+        - name: Changelog
+          href: changelog.md
         - name: 방문 페이지
           href: landing-page.md
         - name: 시작 URL
           href: launch-url.md
+        - name: 시각적 API
+          href: visual-api.md
         - name: 로컬 스토리지 API
           href: local-storage.md
         - name: 이벤트 렌더링
@@ -119,8 +135,8 @@
         - name: 개발자 센터
           href: 'https://powerbi.microsoft.com/developers/'
         - name: Power BI 시각적 개체 샘플
-          href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
-        - name: Power BI Visuals Git 리포지토리
+          href: samples.md
+        - name: 사용자 지정 시각적 개체 Git 리포지토리
           href: 'https://go.microsoft.com/fwlink/?linkid=848277'
         - name: SSL 인증서를 만드는 중
           href: create-ssl-certificate.md

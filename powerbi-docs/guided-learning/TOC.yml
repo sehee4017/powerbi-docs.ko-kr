@@ -1,6 +1,6 @@
-- name: Power BI 살펴보기(소비자)
+- name: Power BI 살펴보기(../consumer)
   href: 'https://docs.microsoft.com/learn/modules/explore-power-bi-service'
-- name: Power BI에서 데이터 분석(소비자)
+- name: Power BI에서 데이터 분석(../consumer)
   href: 'https://docs.microsoft.com/learn/modules/analyze-data-power-bi'
 - name: Power BI로 빌드 시작
   href: 'https://docs.microsoft.com/learn/modules/get-started-with-power-bi'
@@ -10,7 +10,7 @@
   href: 'https://docs.microsoft.com/learn/modules/model-data-power-bi'
 - name: 시각적 개체 사용
   href: 'https://docs.microsoft.com/learn/modules/visuals-in-power-bi'
-- name: 데이터 살펴보기
+- name: 데이터 탐색
   href: 'https://docs.microsoft.com/learn/modules/explore-data-power-bi'
 - name: 게시 및 공유
   href: 'https://docs.microsoft.com/learn/modules/publish-share-power-bi'
