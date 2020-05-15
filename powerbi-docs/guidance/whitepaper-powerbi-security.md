@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/24/2019
+ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: ff8b6a139d0088b2ff2acc8f73b75431e500ba51
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4454269803c45948c21c4448ab76b5397d3388b2
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279092"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407526"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI 보안 백서
 
@@ -263,7 +263,7 @@ Power BI에서 데이터 무결성 모니터링을 제공하는 방법은 다음
 
     &ensp;&ensp;입니다. Office 365용 Excel로 만든 보고서의 경우 아무 것도 캐시되지 않습니다.
 
-    &ensp;&ensp;2. Power BI 보고서의 경우 표시된 시각적 개체 데이터는 캐시되어 Azure SQL Database에서 암호화됩니다.
+    &ensp;&ensp;2. Power BI 보고서의 경우 표시 된 보고서의 시각적 개체에 대 한 데이터는 다음 섹션에 설명 된 대로 캐시 되어 시각적 데이터 캐시에 저장 됩니다.
  
 
 4. Power BI에 게시된 원래 Power BI Desktop(.pbix) 또는 Excel(.xlsx) 파일
@@ -272,11 +272,20 @@ Power BI에서 데이터 무결성 모니터링을 제공하는 방법은 다음
 
 #### <a name="dashboards-and-dashboard-tiles"></a>대시보드 및 대시보드 타일
 
-1. 캐시 – 대시보드의 시각적 개체에 필요한 데이터는 일반적으로 캐시되고 Azure SQL Database에서 암호화되어 저장됩니다. Excel 또는 SSRS(SQL Server Reporting Services)의 고정된 시각적 개체와 같은 다른 타일은 Azure Blob에서 이미지로 저장되고 암호화됩니다.
+1. 캐시 – 대시보드의 시각적 개체에 필요한 데이터는 일반적으로 다음 섹션에 설명 된 시각적 데이터 캐시에 캐시 되어 저장 됩니다. Excel 또는 SSRS(SQL Server Reporting Services)의 고정된 시각적 개체와 같은 다른 타일은 Azure Blob에서 이미지로 저장되고 암호화됩니다.
 
 2. 정적 데이터 – Azure Blob storage에 저장 되 고 암호화 된 배경 이미지 및 Power BI 시각적 개체와 같은 아티팩트를 포함 합니다.
 
-사용되는 암호화 방법에 관계없이 Microsoft는 고객을 대신하여 비밀 저장소 또는 Azure Key Vault에서 키 암호화를 관리합니다.
+사용 되는 암호화 방법에 관계 없이 Microsoft는 고객 대신 키 암호화를 관리 합니다.
+
+#### <a name="visual-data-cache"></a>시각적 데이터 캐시
+
+시각적 데이터는 데이터 집합이 Power BI Premium 용량에서 호스트 되는지 여부에 따라 다른 위치에 캐시 됩니다. 용량에서 호스팅되지 않는 데이터 집합의 경우 시각적 데이터가 캐시 되 고 Azure SQL Database에 암호화 되어 저장 됩니다. 용량에서 호스트 되는 데이터 집합의 경우 시각적 데이터는 다음 위치 중 하나에 캐시할 수 있습니다.
+
+* Azure Blob Storage
+* Azure Premium 파일
+* Power BI Premium 용량 노드
+
 
 ### <a name="data-transiently-stored-on-non-volatile-devices"></a>비휘발성 디바이스에 일시적으로 저장된 데이터
 
