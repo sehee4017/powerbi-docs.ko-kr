@@ -72,6 +72,8 @@
               href: end-user-bookmarks.md
             - name: 보고서에 추천 추가
               href: end-user-spotlight.md
+            - name: 시각적 개체 개인 설정
+              href: end-user-personalize-visuals.md
             - name: Power BI의 페이지를 매긴 보고서
               items:
                 - name: 페이지를 매긴 보고서
