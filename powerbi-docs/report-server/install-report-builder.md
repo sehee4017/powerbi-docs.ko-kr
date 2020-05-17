@@ -1,4 +1,4 @@
-﻿---
+---
 title: 보고서 작성기 설치 - Power BI Report Server
 description: 이 문서에서는 Power BI Report Server에 대해 보고서 작성기를 다운로드하고 설치하는 방법을 설명합니다.
 author: maggiesMSFT
@@ -21,11 +21,11 @@ ms.locfileid: "78919838"
 
 Power BI 서비스용 Report Builder를 설치하는 데 도움이 필요한가요? [Power BI 보고서 작성기](../paginated-reports/report-builder-power-bi.md)를 참조하세요.
   
-일반적으로 관리자는 Power BI Report Server를 설치 및 구성하고, 웹 포털에서 보고서 작성기를 다운로드할 권한을 부여하며 보고서 서버에 저장된 보고서 및 공유 데이터 세트에 대한 폴더와 사용 권한을 관리합니다. Power BI Report Server 관리에 대한 자세한 내용은 [관리 개요, Power BI Report Server](admin-handbook-overview.md)를 참조하세요.  
+일반적으로 관리자는 Power BI Report Server를 설치 및 구성하고, 웹 포털에서 Report Builder를 다운로드할 권한을 부여하며 보고서 서버에 저장된 보고서 및 공유 데이터 세트에 대한 폴더와 사용 권한을 관리합니다. Power BI Report Server 관리에 대한 자세한 내용은 [관리 개요, Power BI Report Server](admin-handbook-overview.md)를 참조하세요.  
   
 ## <a name="system-requirements"></a>시스템 요구 사항
   
- Microsoft 다운로드 센터에서 **보고서 작성기 다운로드 페이지**의 [시스템 요구 사항](https://go.microsoft.com/fwlink/?LinkID=734968) 섹션을 참조하세요.
+ Microsoft 다운로드 센터에서 [보고서 작성기 다운로드 페이지](https://go.microsoft.com/fwlink/?LinkID=734968)의 **시스템 요구 사항** 섹션을 참조하세요.
  
 ## <a name="install-report-builder-from-a-web-portal"></a>웹 포털에서 보고서 작성기 설치
   

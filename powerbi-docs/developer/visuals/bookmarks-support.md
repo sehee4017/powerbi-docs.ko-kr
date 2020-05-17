@@ -29,7 +29,7 @@ Power BI 보고서 책갈피를 사용하면 구성된 보고서 페이지 뷰, 
 
 1. 필수 유틸리티인 [powerbi-visuals-utils-interactivityutils](https://github.com/Microsoft/PowerBI-visuals-utils-interactivityutils/) 버전 3.0.0 이상을 설치(또는 업데이트)합니다. 상태 선택 또는 필터를 조작하기 위한 추가 클래스를 포함합니다. 이 클래스는 필터 시각적 개체 및 `InteractivityService`를 사용하는 모든 시각적 개체에 필요합니다.
 
-2. `registerOnSelectCallback` 인스턴스에서 `SelectionManager`을 사용하려면 시각적 개체 API를 버전 1.11.0으로 업데이트합니다. 이 작업은 `SelectionManager`가 아닌 일반 `InteractivityService`를 사용하는 필터 이외의 시각적 개체에 필요합니다.
+2. `SelectionManager` 인스턴스에서 `registerOnSelectCallback`을 사용하려면 시각적 개체 API를 버전 1.11.0으로 업데이트합니다. 이 작업은 `InteractivityService`가 아닌 일반 `SelectionManager`를 사용하는 필터 이외의 시각적 개체에 필요합니다.
 
 ### <a name="how-power-bi-visuals-interact-with-power-bi-in-report-bookmarks"></a>보고서 책갈피에서 Power BI 시각적 개체가 Power BI와 상호 작용하는 방법
 
@@ -51,7 +51,7 @@ Power BI 보고서 책갈피를 사용하면 구성된 보고서 페이지 뷰, 
 
 * 시각적 개체가 [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md)를 아직 사용하지 않은 경우, `FilterManager.restoreSelectionIds` 메서드를 사용할 수 있습니다.
 
-* 시각적 개체가 이미 [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md)를 사용하여 선택 항목을 관리하는 경우에는 `applySelectionFromFilter` 인스턴스에서 `InteractivityService` 메서드를 사용해야 합니다.
+* 시각적 개체가 이미 [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md)를 사용하여 선택 항목을 관리하는 경우에는 `InteractivityService` 인스턴스에서 `applySelectionFromFilter` 메서드를 사용해야 합니다.
 
 #### <a name="use-iselectionmanagerregisteronselectcallback"></a>ISelectionManager.registerOnSelectCallback 사용
 
@@ -187,7 +187,7 @@ Timeline Slicer 시각적 개체가 범위 선택기를 해당 데이터 범위�
 
 `filterState` 속성은 일부 필터링의 속성을 만듭니다. 시각적 개체는 책갈피에 다양한 값을 저장할 수 있습니다.
 
-속성 값을 필터 상태로 저장하려면 `"filterState": true`capabilities.json*에서 개체 속성을* 로 표시합니다.
+속성 값을 필터 상태로 저장하려면 *capabilities.json*에서 개체 속성을 `"filterState": true`로 표시합니다.
 
 예를 들어 Timeline Slicer는 `Granularity` 속성 값을 필터에 저장합니다. 이렇게 하면 책갈피를 변경할 때 현재 세분성이 변경됩니다.
 

@@ -37,8 +37,8 @@ ms.locfileid: "79380955"
     > 값을 지정하지 않으면, `objectCategory`는 기본적으로 “서식”으로 설정됩니다.
 
 * 개체에는 다음 두 가지 속성이 있어야 합니다.
-    * `show` 형식의 `bool`(기본값은 `false`임)
-    * `displayName` 형식의 `text`. 선택한 기본값이 인스턴스의 초기 표시 이름이 됩니다.
+    * `bool` 형식의 `show`(기본값은 `false`임)
+    * `text` 형식의 `displayName`. 선택한 기본값이 인스턴스의 초기 표시 이름이 됩니다.
 
 ```json
 {

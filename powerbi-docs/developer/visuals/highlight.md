@@ -17,11 +17,11 @@ ms.locfileid: "80114155"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>Power BI 시각적 개체에서 데이터 요소 강조 표시
 
-기본적으로 요소를 선택할 때마다 `values` 개체의 `dataView` 배열이 선택한 값으로만 필터링됩니다. 그러면 페이지의 다른 모든 시각적 개체에 선택한 데이터만 표시됩니다.
+기본적으로 요소를 선택할 때마다 `dataView` 개체의 `values` 배열이 선택한 값으로만 필터링됩니다. 그러면 페이지의 다른 모든 시각적 개체에 선택한 데이터만 표시됩니다.
 
 ![강조 표시 ‘dataview’ 기본 동작](media/highlight/highlight-dataview.png)
 
-`supportsHighlight`의 `capabilities.json` 속성을 `true`로 설정하면 필터링되지 않은 전체 `values` 배열과 `highlights` 배열을 받게 됩니다. `highlights` 배열의 길이는 values 배열과 같으며, 선택하지 않은 값은 `null`로 설정됩니다. 이 속성이 사용하도록 설정된 경우, 시각적 개체는 `values` 배열을 `highlights` 배열과 비교하여 적절한 데이터를 강조 표시해야 합니다.
+`capabilities.json`의 `supportsHighlight` 속성을 `true`로 설정하면 필터링되지 않은 전체 `values` 배열과 `highlights` 배열을 받게 됩니다. `highlights` 배열의 길이는 values 배열과 같으며, 선택하지 않은 값은 `null`로 설정됩니다. 이 속성이 사용하도록 설정된 경우, 시각적 개체는 `values` 배열을 `highlights` 배열과 비교하여 적절한 데이터를 강조 표시해야 합니다.
 
 ![`dataview`에서 강조 표시 지원](media/highlight/highlight-dataview-supports.png)
 
@@ -466,7 +466,7 @@ public update(options: VisualUpdateOptions) {
 }
 ```
 
-여기서 `matrixNode`는 현재 노드, `levels`는 이 계층 구조 수준의 메타데이터 열, `div`는 자식 HTML 요소의 부모 요소입니다.
+여기서 `matrixNode`는 현재 노드, `div`는 이 계층 구조 수준의 메타데이터 열, `levels`는 자식 HTML 요소의 부모 요소입니다.
 
 `treeWalker`는 재귀 함수로, `div` 요소와 헤더 텍스트를 나타내는 `p`를 만들고 노드의 자식 요소에 대해 함수를 호출해야 합니다.
 

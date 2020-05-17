@@ -177,7 +177,7 @@ ms.locfileid: "78921151"
   
      텍스트 상자에 날짜 또는 숫자만 포함되는 경우 텍스트 상자의 Format 속성을 사용하여 텍스트 상자 내의 **Format** 함수 대신 형식을 적용해야 합니다.  
   
--   **Right**, **Len** 및 **InStr** 함수는 하위 문자열을 반환하는 데 유용합니다(예: *DOMAIN*\\*username*을 사용자 이름만으로 잘라내기). 다음 식은 \\User *매개 변수에서 백슬래시(* ) 문자 오른쪽의 문자열 부분을 반환합니다.  
+-   **Right**, **Len** 및 **InStr** 함수는 하위 문자열을 반환하는 데 유용합니다(예: *DOMAIN*\\*username*을 사용자 이름만으로 잘라내기). 다음 식은 *User* 매개 변수에서 백슬래시(\\) 문자 오른쪽의 문자열 부분을 반환합니다.  
   
     ```  
     =Right(Parameters!User.Value, Len(Parameters!User.Value) - InStr(Parameters!User.Value, "\"))  
@@ -202,7 +202,7 @@ ms.locfileid: "78921151"
   
     ```  
   
--   .NET Framework **의** Regex`xref:System.Text.RegularExpressions` 함수는 기존 문자열의 형식(예: 전화 번호 형식 지정)을 변경하는 데 유용합니다. 다음 식은 **Replace** 함수를 사용하여 필드의 10자리 전화 번호 형식을 "*nnn*-*nnn*-*nnnn*"에서 "(*nnn*) *nnn*-*nnnn*"으로 변경합니다.  
+-   .NET Framework `xref:System.Text.RegularExpressions`의 **Regex** 함수는 기존 문자열의 형식(예: 전화 번호 형식 지정)을 변경하는 데 유용합니다. 다음 식은 **Replace** 함수를 사용하여 필드의 10자리 전화 번호 형식을 "*nnn*-*nnn*-*nnnn*"에서 "(*nnn*) *nnn*-*nnnn*"으로 변경합니다.  
   
     ```  
     =System.Text.RegularExpressions.Regex.Replace(Fields!Phone.Value, "(\d{3})[ -.]*(\d{3})[ -.]*(\d{4})", "($1) $2-$3")  
@@ -244,7 +244,7 @@ ms.locfileid: "78921151"
   
 ###  <a name="decision-functions"></a><a name="DecisionFunctions"></a> 의사 결정 함수  
   
--   **IIF** 함수는 식이 true인지 여부에 따라 두 값 중 하나를 반환합니다. 다음 식은 **IIF** 함수를 사용하여 **값이 100을 초과하면 부울 값인**True`LineTotal`를 반환합니다. 그렇지 않으면 **False**를 반환합니다.  
+-   **IIF** 함수는 식이 true인지 여부에 따라 두 값 중 하나를 반환합니다. 다음 식은 **IIF** 함수를 사용하여 `LineTotal` 값이 100을 초과하면 부울 값인 **True**를 반환합니다. 그렇지 않으면 **False**를 반환합니다.  
   
     ```  
     =IIF(Fields!LineTotal.Value > 100, True, False)  
@@ -482,7 +482,7 @@ ms.locfileid: "78921151"
  특정 그룹 범위에 대해 로컬인 그룹 변수의 값을 초기화한 다음, 해당 변수에 대한 참조를 식에 포함시킬 수 있습니다. 사용자 지정 코드에 그룹 변수를 사용할 수 있는 방법 중 하나는 사용자 지정 집계를 구현하는 것입니다. 
   
 ## <a name="suppressing-null-or-zero-values-at-run-time"></a>런타임에 null 또는 0 값 표시 안 함  
- 식의 일부 값은 보고서 처리 시간에 null 또는 정의되지 않은 값으로 계산할 수 있습니다. 이렇게 하면 런타임 오류가 만들어져 계산된 식 대신 **#Error**가 텍스트 상자에 표시될 수 있습니다. **IIF** 함수는 이러한 동작에 특히 민감합니다. If-Then-Else 문과 달리 **IIF** 문의 각 부분(함수 호출 포함)이 **true** 또는 **false**를 테스트하는 루틴에 전달되기 전에 계산되기 때문입니다. `=IIF(Fields!Sales.Value is NOTHING, 0, Fields!Sales.Value)`가 NOTHING이면 **문은**#Error`Fields!Sales.Value`를 렌더링되는 보고서에 생성합니다.  
+ 식의 일부 값은 보고서 처리 시간에 null 또는 정의되지 않은 값으로 계산할 수 있습니다. 이렇게 하면 런타임 오류가 만들어져 계산된 식 대신 **#Error**가 텍스트 상자에 표시될 수 있습니다. **IIF** 문의 각 부분이 **true** 또는 **false**를 테스트하는 루틴으로 전달되기 전에 계산되므로(함수 호출 포함) If-Then-Else 문과 달리 **IIF** 함수는 특히 이 동작에 민감합니다. `Fields!Sales.Value`가 NOTHING이면 `=IIF(Fields!Sales.Value is NOTHING, 0, Fields!Sales.Value)` 문은 **#Error**를 렌더링되는 보고서에 생성합니다.  
   
  이 상황을 방지하려면 다음 전략 중 하나를 사용합니다.  
   
@@ -512,7 +512,7 @@ ms.locfileid: "78921151"
     =Code.GetDeltaPercentage(Previous(Sum(Fields!Sales.Value),"ColumnGroupByYear"), Sum(Fields!Sales.Value))  
     ```  
   
-     이렇게 하면 런타임 예외를 방지할 수 있습니다. 이제 텍스트 상자의 `=IIF(Me.Value < 0, "red", "black")`Color**속성에서**와 같은 식을 사용하여 값이 0보다 크거나 작은지 여부에 따라 텍스트를 조건부로 표시할 수 있습니다.  
+     이렇게 하면 런타임 예외를 방지할 수 있습니다. 이제 텍스트 상자의 **Color** 속성에서 `=IIF(Me.Value < 0, "red", "black")`와 같은 식을 사용하여 값이 0보다 크거나 작은지 여부에 따라 텍스트를 조건부로 표시할 수 있습니다.  
   
 ## <a name="next-steps"></a>다음 단계
 

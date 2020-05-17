@@ -159,7 +159,7 @@ export interface ISelectionIdBuilder {
 
 그리고 시각적 개체는 `Manufacturer` 및 `Type`을 기준으로 데이터를 분할할 수 있어야 합니다.
 
-예를 들어 사용자가 `Chrysler`에서 `Manufacturer`를 선택하면 다른 시각적 개체는 다음 데이터를 표시해야 합니다.
+예를 들어 사용자가 `Manufacturer`에서 `Chrysler`를 선택하면 다른 시각적 개체는 다음 데이터를 표시해야 합니다.
 
 | 제조업체 | Type | Value |
 | - | - | - |
@@ -168,7 +168,7 @@ export interface ISelectionIdBuilder {
 | **Chrysler** | 수입 승용차 | 0 |
 | **Chrysler** | 수입 트럭 | 6362 |
 
-사용자가 `Import Car`에서 `Type`를 선택하면(계열을 기준으로 데이터를 선택) 다른 시각적 개체는 다음 데이터를 표시해야 합니다.
+사용자가 `Type`에서 `Import Car`를 선택하면(계열을 기준으로 데이터를 선택) 다른 시각적 개체는 다음 데이터를 표시해야 합니다.
 
 | 제조업체 | Type | Value |
 | - | - | - |
@@ -185,10 +185,10 @@ export interface ISelectionIdBuilder {
 
 ![선택 항목이 포함된 시각적 개체의 데이터 바구니](media/selection-api/visual-selections-databuckets.png)
 
-범주(열)로 `Manufacturer`, 계열(행)로 `Type`, 계열에 대한 `Value`로 `Values`가 있습니다.
+범주(열)로 `Manufacturer`, 계열(행)로 `Type`, 계열에 대한 `Values`로 `Value`가 있습니다.
 
 > [!NOTE]
-> 시각적 개체는 데이터 뷰 매핑에 따라 `Values`가 `Values` 데이터를 기준으로 그룹화될 것으로 예상하므로 `Rows`가 계열에 필요합니다.
+> 시각적 개체는 데이터 뷰 매핑에 따라 `Values`가 `Rows` 데이터를 기준으로 그룹화될 것으로 예상하므로 `Values`가 계열에 필요합니다.
 
 #### <a name="create-selections-for-categories"></a>범주에 대한 선택 항목 만들기
 

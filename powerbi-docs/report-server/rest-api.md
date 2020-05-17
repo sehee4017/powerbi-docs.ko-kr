@@ -27,7 +27,7 @@ REST API는 Power BI Report Server 카탈로그의 개체에 대한 프로그래
 
 REST API 요청/응답 쌍은 5개의 구성 요소로 구분될 수 있습니다.
 
-* **요청 URI**는 `{URI-scheme} :// {URI-host} / {resource-path} ? {query-string}`으로 구성됩니다. 요청 URI는 요청 메시지 헤더에 포함되어 있지만 대부분의 언어 또는 프레임워크에서는 요청 메시지에서 이를 별도로 전달해야 하므로 여기에서는 별도로 호출합니다.
+* `{URI-scheme} :// {URI-host} / {resource-path} ? {query-string}`으로 구성되는 **요청 URI**. 요청 URI는 요청 메시지 헤더에 포함되어 있지만 대부분의 언어 또는 프레임워크에서는 요청 메시지에서 이를 별도로 전달해야 하므로 여기에서는 별도로 호출합니다.
   
   * URI 체계: 요청을 전송하는 데 사용되는 프로토콜을 나타냅니다. 예: `http` 또는 `https`
   * URI 호스트: REST 서비스 엔드포인트가 호스팅되는 서버의 도메인 이름 또는 IP 주소를 지정합니다(예: `myserver.contoso.com`).

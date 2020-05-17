@@ -1,4 +1,4 @@
-﻿---
+---
 title: Power BI 시각적 개체 프로젝트 구조
 description: 이 문서에서는 Power BI 시각적 개체 프로젝트의 폴더 및 파일 구조를 설명합니다.
 author: KesemSharabi
@@ -102,7 +102,7 @@ Power BI 시각적 개체 도구는 이 폴더에서 다음 파일을 만듭니�
 
 [TypeScript](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)의 구성 파일입니다.
 
-이 파일에는 **파일의 \* 속성에 지정된 시각적 개체의 기본 클래스가 있는**`visualClassName`.ts`pbiviz.json` 파일의 경로가 포함되어야 합니다.
+이 파일에는 `pbiviz.json` 파일의 `visualClassName` 속성에 지정된 시각적 개체의 기본 클래스가 있는 **\*.ts** 파일의 경로가 포함되어야 합니다.
 
 ### <a name="tslintjson"></a>tslint.json
 

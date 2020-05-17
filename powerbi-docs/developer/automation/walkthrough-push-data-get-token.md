@@ -23,7 +23,7 @@ ms.locfileid: "79488272"
 
 ## <a name="get-an-authentication-access-token"></a>인증 액세스 토큰 가져오기
 
-시작하기 전에 [Power BI 데이터 세트에 데이터 푸시](../embedded/register-app.md) 시리즈에서 [이전 단계](walkthrough-push-data.md)를 완료했는지 확인합니다. 
+시작하기 전에 [Power BI 데이터 세트에 데이터 푸시](walkthrough-push-data.md) 시리즈에서 [이전 단계](../embedded/register-app.md)를 완료했는지 확인합니다. 
 
 이 프로시저를 수행하려면 Visual Studio 2015 이상이 필요합니다.
 
@@ -39,7 +39,7 @@ ms.locfileid: "79488272"
 
 3. 이 단계 다음에 나열된 샘플 코드를 Program.cs에 추가합니다.
 
-4. 앱을 등록할 때 **이전 시리즈 문서**에서 가져온 [클라이언트 ID](../embedded/register-app.md)가 있는 "{ClientID}"로 바꿉니다.
+4. 앱을 등록할 때 [이전 시리즈 문서](../embedded/register-app.md)에서 가져온 **클라이언트 ID**가 있는 "{ClientID}"로 바꿉니다.
 
 5. 콘솔 앱을 실행하고 Power BI 계정에 로그인합니다. 
 

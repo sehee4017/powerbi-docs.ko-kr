@@ -19,7 +19,7 @@ ms.locfileid: "80114109"
 
 시각적 개체 필터 API를 사용하면 Power BI 시각적 개체의 데이터를 필터링할 수 있습니다. 다른 선택 항목과의 주요 차이점은 다른 시각적 개체의 강조 표시 지원과 관계없이 다른 시각적 개체가 어떤 방식으로든 필터링된다는 것입니다.
 
-시각적 개체에 대해 필터링을 사용하려면 시각적 개체가 `filter`capabilities.json`general` 코드의 *섹션에* 개체를 포함해야 합니다.
+시각적 개체에 대해 필터링을 사용하려면 시각적 개체가 *capabilities.json* 코드의 `general` 섹션에 `filter` 개체를 포함해야 합니다.
 
 ```json
 "objects": {
@@ -120,7 +120,7 @@ visualHost.applyJsonFilter(filter, "general", "filter", FilterAction.merge);
 
 이 필터는 시각적 개체 API 1.7.0에서 도입되었습니다.
 
-고급 필터 API를 사용하려면 `target` 및 `table` 이름이 포함된 `column`도 필요합니다. 그러나 고급 필터 API 연산자는 *And*와 *Or*입니다. 
+고급 필터 API를 사용하려면 `table` 및 `column` 이름이 포함된 `target`도 필요합니다. 그러나 고급 필터 API 연산자는 *And*와 *Or*입니다. 
 
 또한 이 필터는 다음과 같이 인터페이스에 값 대신 조건을 사용합니다.
 

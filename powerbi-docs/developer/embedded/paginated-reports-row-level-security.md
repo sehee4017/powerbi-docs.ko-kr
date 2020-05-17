@@ -26,13 +26,13 @@ ms.locfileid: "79491735"
 
 ## <a name="configuring-a-parameter-to-filter-the-dataset"></a>매개 변수를 구성하여 데이터 세트 필터링
 
-페이지를 매긴 Power BI 보고서에 행 수준 보안을 적용하는 경우 [UserID](../../paginated-reports/report-builder-parameters.md) 특성에 **매개 변수**를 할당해야 합니다. 이 매개 변수는 보고서가 포함되기 전에 데이터 세트에서 가져온 데이터를 제한합니다.
+페이지를 매긴 Power BI 보고서에 행 수준 보안을 적용하는 경우 **UserID** 특성에 [매개 변수](../../paginated-reports/report-builder-parameters.md)를 할당해야 합니다. 이 매개 변수는 보고서가 포함되기 전에 데이터 세트에서 가져온 데이터를 제한합니다.
 
 **UserID**에 매개 변수를 할당한 후 [보고서 GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup) API를 사용하여 포함 토큰을 가져옵니다.
 
 ## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>보고서 또는 쿼리 수준에서 필터로 UserID 사용
 
-**Power BI 보고서 작성기**에서 *UserId*를 *필터*로 사용하거나 데이터 원본에 대한 [쿼리](../../paginated-reports/report-builder-power-bi.md)에 사용할 수 있습니다.
+[Power BI 보고서 작성기](../../paginated-reports/report-builder-power-bi.md)에서 **UserId**를 *필터*로 사용하거나 데이터 원본에 대한 *쿼리*에 사용할 수 있습니다.
 
 ### <a name="using-the-filter"></a>필터 사용
 
@@ -80,7 +80,7 @@ ms.locfileid: "79491735"
 
 고객을 위해 페이지를 매긴 보고서를 포함할 때 포함 토큰을 가져오기 위해 [보고서 GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup) API가 사용됩니다. 이 토큰을 사용하여 페이지를 매긴 보고서에서 가져온 일부 데이터를 필터링할 수도 있습니다.
 
-일부 데이터만 표시하려면 표시할 정보가 들어 있는 `username` 필드를 할당합니다. 예를 들어, 색 매개 변수가 있는 페이지를 매긴 보고서에서 *필드에*녹색`username`을 입력하면 포함 토큰이 색 열에 *녹색* 값이 있는 데이터만 표시하도록 포함된 데이터를 제한합니다.
+일부 데이터만 표시하려면 표시할 정보가 들어 있는 `username` 필드를 할당합니다. 예를 들어, 색 매개 변수가 있는 페이지를 매긴 보고서에서 `username` 필드에 *녹색*을 입력하면 포함 토큰이 색 열에 *녹색* 값이 있는 데이터만 표시하도록 포함된 데이터를 제한합니다.
 
 ```JSON
 {
