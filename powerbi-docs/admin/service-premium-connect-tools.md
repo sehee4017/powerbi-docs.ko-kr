@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 7bb3dc401fedbb55f5ed81fa5e859cbfee5a1a26
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 7a363af0bb8d6db9f0fd370b7c4b987b51c88221
+ms.sourcegitcommit: faa8cfb66e79ea16ba46605f752cc9ca57924d0e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274446"
+ms.locfileid: "83382741"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint-preview"></a>XMLA 엔드포인트로 데이터 세트 연결(미리 보기)
 
@@ -29,6 +29,9 @@ ms.locfileid: "83274446"
 Power BI Premium은 클라이언트 애플리케이션과 Power BI 작업 영역 및 데이터 세트를 관리하는 엔진 간의 통신을 위해 [XMLA(XML for Analysis)](https://docs.microsoft.com/analysis-services/xmla/xml-for-analysis-xmla-reference?view=power-bi-premium-current) 프로토콜을 사용합니다. 이러한 통신은 일반적으로 XMLA 엔드포인트라고 하는 것을 통해 이루어집니다. XMLA는 내부적으로 Power BI의 의미 체계 모델링, 거버넌스, 수명 주기 및 데이터 관리를 실행하는 Microsoft Analysis Services 엔진에서 사용되는 것과 동일한 통신 프로토콜입니다.
 
 기본적으로 엔드포인트를 사용한 *읽기 전용* 연결은 용량의 **데이터 세트 워크로드**에 대해 사용하도록 설정됩니다. 읽기 전용에서 데이터 시각화 애플리케이션 및 도구는 데이터 세트 모델 데이터, 메타데이터, 이벤트 및 스키마를 쿼리할 수 있습니다. 엔드포인트를 사용한 *읽기/쓰기* 작업을 사용하도록 설정하여 추가 데이터 세트 관리, 거버넌스, 고급 의미 체계 모델링, 디버깅 및 모니터링을 제공할 수 있습니다. 읽기/쓰기를 사용하는 경우 Power BI Premium 데이터 세트에는 Azure Analysis Services 및 SQL Server Analysis Services 엔터프라이즈급 테이블 형식 모델링 도구와 프로세스에 대한 더 많은 패리티가 있습니다.
+
+> [!NOTE]
+> 특히 XMLA 엔드포인트를 사용하여 데이터 세트에 연결하는 경우에는 최신 작업 영역 환경을 사용하는 것이 좋습니다. 데이터 세트 생성 또는 삭제와 같은 작업은 클래식 작업 영역에서 지원되지 않습니다. 클래식 작업 영역을 최신 환경으로 업그레이드하려면 [Power BI에서 클래식 작업 영역 업그레이드](../collaborate-share/service-upgrade-workspaces.md)를 참조하세요.
 
 ## <a name="data-modeling-and-management-tools"></a>데이터 모델링 및 관리 도구
 

@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/28/2019
+ms.date: 12/28/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c9de9031fdbee48fca3b9a025fe2547ec08a5f20
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 33511dd5a61882de77d6089a5f77e70361f3cbed
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73871038"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277597"
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>Power BI 보고서에서 시각화 유형 변경
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -29,13 +31,15 @@ Power BI 서비스와 Power BI Desktop에서 다양한 유형의 시각화를 �
 3. 시각화 창에서 새 시각화 유형을 선택합니다. 
    
    ![세로 막대형 차트를 꺾은선형 차트로 변경하는 것을 보여주는 비디오](media/power-bi-report-change-visualization-type/change-viz/change-viz.gif).
-4. (선택 사항) 시각화를 대시보드에 타일로 [고정](../service-dashboard-pin-tile-from-report.md)합니다. 
+4. (선택 사항) 시각화를 대시보드에 타일로 [고정](../create-reports/service-dashboard-pin-tile-from-report.md)합니다. 
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
 대시보드에 고정한 이후에 보고서에서 시각화 유형을 변경한 경우 대시보드 타일이 자동으로 업데이트되지 않습니다. 따라서 Power BI 서비스를 사용하여 시각화를 꺾은선형 차트로 고정한 다음, 보고서에서 가로 막대형 차트로 변경한 경우, 이미 고정된 버전의 데이터는 꺾은선형 차트로 유지됩니다. 가로 막대형 차트도 대시보드에서 고정하여 볼 수 있습니다.
 
+Power BI 동료와 보고서를 공유하려면 개별 Power BI Pro 라이선스가 있거나 보고서가 Premium 용량에 저장되어 있어야 합니다. [보고서 공유](../collaborate-share/service-share-reports.md)를 참조하세요.
+
 ## <a name="next-steps"></a>다음 단계
-[Power BI 보고서의 시각화](power-bi-report-visualizations.md)에 대한 자세한 정보
+[Power BI 보고서의 시각화](power-bi-report-visualizations.md)에 대해 자세히 알아보기
 
 [Power BI - 기본 개념](../consumer/end-user-basic-concepts.md)
 

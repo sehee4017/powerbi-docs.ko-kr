@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: d9ebab8c52be8872865b0c308e8629c92603bbaa
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f9248b659bec744f7da02c4d2639f30bd646bb48
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80403764"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276056"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers-preview"></a>자습서:  고객을 위해 애플리케이션에 페이지를 매긴 Power BI 보고서 포함(미리 보기)
 
@@ -34,14 +34,14 @@ ms.locfileid: "80403764"
 * [서비스 주체(앱 전용 토큰)](embed-service-principal.md)
 * [Microsoft Azure](https://azure.microsoft.com/) 구독
 * 사용자의 [Azure Active Directory 테넌트](create-an-azure-active-directory-tenant.md) 설정
-* [페이지를 매긴 보고서](../../service-admin-premium-workloads.md#paginated-reports) 워크로드 사용 시 최소 A4 또는 P1 [용량](#create-a-dedicated-capacity)
+* [페이지를 매긴 보고서](../../admin/service-admin-premium-workloads.md#paginated-reports) 워크로드 사용 시 최소 A4 또는 P1 [용량](#create-a-dedicated-capacity)
 
 Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)을 만듭니다.
 
 > [!IMPORTANT]
 > * **서비스 주체**를 사용해야 합니다. 마스터 사용자는 지원되지 않습니다.
 > * SSO(Single Sign-On)가 필요한 데이터 원본은 지원되지 않습니다.
-> * Power BI 데이터 세트는 [데이터 원본](../../service-get-data.md)으로 지원되지 않습니다.
+> * Power BI 데이터 세트는 [데이터 원본](../../connect-data/service-get-data.md)으로 지원되지 않습니다.
 
 ## <a name="set-up-your-power-bi-environment"></a>Power BI 환경 설정
 
@@ -49,12 +49,12 @@ Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.
 
 ### <a name="create-an-app-workspace"></a>앱 작업 영역 만들기
 
-[서비스 주체](embed-service-principal.md)를 사용하여 애플리케이션에 로그인하므로 [새 작업 영역](../../service-create-the-new-workspaces.md)을 사용해야 합니다. 또한 *서비스 주체*로서 애플리케이션과 관련된 앱 작업 영역의 관리자 또는 구성원이어야 합니다.
+[서비스 주체](embed-service-principal.md)를 사용하여 애플리케이션에 로그인하므로 [새 작업 영역](../../collaborate-share/service-create-the-new-workspaces.md)을 사용해야 합니다. 또한 *서비스 주체*로서 애플리케이션과 관련된 앱 작업 영역의 관리자 또는 구성원이어야 합니다.
 
 ### <a name="create-a-dedicated-capacity"></a>전용 용량 만들기
 
 포함할 페이지를 매긴 보고서를 가져오거나 업로드하기 전에 보고서가 들어 있는 작업 영역을 최소 A4 또는 P1 용량에 할당해야 합니다. 다음과 같은 두 가지 유형의 용량 중에서 선택할 수 있습니다.
-* **Power BI Premium** - 페이지를 매긴 보고서를 포함하려면 *P* SKU 용량이 필요합니다. Power BI 콘텐츠를 포함하는 경우 이 솔루션을 *Power BI 포함*이라고 합니다. 이 구독과 관련된 자세한 내용은 [Power BI Premium이란?](../../service-premium-what-is.md)을 참조하세요.
+* **Power BI Premium** - 페이지를 매긴 보고서를 포함하려면 *P* SKU 용량이 필요합니다. Power BI 콘텐츠를 포함하는 경우 이 솔루션을 *Power BI 포함*이라고 합니다. 이 구독과 관련된 자세한 내용은 [Power BI Premium이란?](../../admin/service-premium-what-is.md)을 참조하세요.
 * **Azure Power BI Embedded** - [Microsoft Azure Portal](https://portal.azure.com)에서 전용 용량을 구입할 수 있습니다. 이 구독은 *A* SKU를 사용합니다. 페이지를 매긴 보고서를 포함하려면 최소 *A4* 구독이 필요합니다. Power BI Embedded 용량을 만드는 방법에 대한 자세한 내용은 [Azure Portal에서 Power BI Embedded 용량 만들기](azure-pbie-create-capacity.md)를 참조하세요.
 
 아래 표에서는 각 SKU의 리소스 및 한도를 설명합니다. 요구 사항에 가장 적합한 용량을 확인하려면 [내 시나리오를 위해 구입해야 하는 SKU](https://docs.microsoft.com/power-bi/developer/embedded-faq#which-solution-should-i-choose) 표를 참조하세요.
@@ -242,7 +242,7 @@ Report report = reports.Value.FirstOrDefault();
 
 ### <a name="create-the-embed-token"></a>포함 토큰을 만듭니다.
 
-JavaScript API에서 사용할 수 있는 포함 토큰을 생성합니다. 페이지를 매긴 Power BI 보고서를 포함하기 위한 포함 토큰을 만들려면 [보고서 GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup) API를 사용합니다.
+JavaScript API에서 사용할 수 있는 포함 토큰을 생성합니다. 페이지를 매긴 Power BI 보고서를 포함하기 위한 포함 토큰을 만들려면 [보고서 GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup) API를 사용합니다.
 
 포함 토큰을 만드는 샘플은 [샘플 애플리케이션](https://github.com/Microsoft/PowerBI-Developer-Samples)의  *Services\EmbedService.cs* 파일 내에서 사용할 수 있습니다.
 

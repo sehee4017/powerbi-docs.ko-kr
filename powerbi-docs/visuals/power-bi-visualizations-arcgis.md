@@ -7,18 +7,24 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/18/2019
+ms.date: 05/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 59685b4c3ceab4b60cba92ec1d3924b902c1426a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5783df071830cdb19ef124ebb908f53955823c69
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77115311"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83130967"
 ---
 # <a name="interact-with-arcgis-maps-in-power-bi"></a>Power BI에서 ArcGIS 지도와 상호 작용
+
+[!INCLUDE[consumer-appliesto-yyyn](../includes/consumer-appliesto-yyyn.md)]    
+
 이 토픽은 Power BI 서비스, 데스크톱 또는 모바일에서 ArcGIS 지도를 사용하는 사람의 관점에서 작성되었습니다. 디자이너가 ArcGIS map for Power BI 시각적 개체를 공유하면 여러 가지 방법으로 해당 시각적 개체와 상호 작용할 수 있습니다.  ArcGIS 지도를 작성하는 방법에 대한 자세한 내용은 [ArcGIS maps by Esri tutorial](../visuals/power-bi-visualization-arcgis.md)(Esri에서 제공하는 ArcGIS 지도 자습서)을 참조하세요.
+
+> [!NOTE]
+> Power BI 동료와 보고서를 공유하려면 개별 Power BI Pro 라이선스가 있거나 보고서가 Premium 용량에 저장되어 있어야 합니다. [보고서 공유](../collaborate-share/service-share-reports.md)를 참조하세요.
 
 ArcGIS 지도와 Power BI의 조합은 지도에서 요소의 표현을 넘어서 완전히 새로운 수준으로 매핑합니다. 보고서 디자이너는 지도를 시작하고 인구 통계 데이터 계층을 해당 지도에 연결합니다. 공간 분석과 지도의 위치 기반 데이터 계층(인구 조사 데이터 등)의 조합을 통해 시각화의 데이터를 자세히 이해할 수 있습니다.
 
@@ -60,26 +66,26 @@ ArcGIS Maps for Power BI 시각적 개체에는 여러 가지 유형의 인구 �
 
 ### <a name="reference-layers"></a>참조 계층
 
-보고서 ‘디자이너’는 하나의 참조 계층을 추가할 수 있습니다.  참조 계층은 Esri에서 호스트되며 위치에 대한 인구 통계 정보의 추가 계층을 제공합니다. 아래 예제에는 인구 밀도에 대한 참조 계층이 있습니다. 더 어두운색은 더 높은 밀도를 나타냅니다.
+보고서 ‘디자이너’는 하나의 참조 계층을 추가할 수 있습니다. 참조 계층은 Esri에서 호스트되며 위치에 대한 인구 통계 정보의 추가 계층을 제공합니다. 아래 예제에는 인구 밀도에 대한 참조 계층이 있습니다. 더 어두운색은 더 높은 밀도를 나타냅니다.
 
 ![인구 밀도를 보여 주는 Orlando 영역 지도](media/power-bi-visualizations-arcgis/power-bi-reference.png)  
 
 ### <a name="infographics"></a>인포그래픽
 
-보고서 ‘디자이너’는 여러 개의 인포그래픽 계층을 추가할 수 있습니다.  인포그래픽은 시각적 개체 캔버스의 오른쪽을 따라 표시되는 빠른 시각적 표시기입니다. 인포그래픽은 Esri에서 호스트되며 위치에 대한 인구 통계 정보의 추가 계층을 제공합니다. 아래 예제에는 세 가지 인포그래픽이 적용되어 있습니다. 지도 자체에는 표시되지 않지만 카드에는 표시됩니다. 인포그래픽 카드는 지도에서 영역을 확대/축소하고, 이동하고, 선택하면 업데이트됩니다.
+보고서 ‘디자이너’는 여러 개의 인포그래픽 계층을 추가할 수 있습니다. 인포그래픽은 시각적 개체 캔버스의 오른쪽을 따라 표시되는 빠른 시각적 표시기입니다. 인포그래픽은 Esri에서 호스트되며 위치에 대한 인구 통계 정보의 추가 계층을 제공합니다. 아래 예제에는 세 가지 인포그래픽이 적용되어 있습니다. 지도 자체에는 표시되지 않지만 카드에는 표시됩니다. 인포그래픽 카드는 지도에서 영역을 확대/축소하고, 이동하고, 선택하면 업데이트됩니다.
 
 ![캔버스 오른쪽을 따라 인포그래픽이 표시되고 확대된 Orlando 영역 지도](media/power-bi-visualizations-arcgis/power-bi-infographics.png)  
 
 ### <a name="pins"></a>핀
 
-핀은 도시나 주소 같은 정확한 위치를 나타냅니다. 경우에 따라 보고서 ‘디자이너’는 운행 시간 반경에 핀을 사용합니다.  이 예제에서는 North Carolina, Charlotte의 50마일 반경 내에 있는 매장을 보여 줍니다.
+핀은 도시나 주소 같은 정확한 위치를 나타냅니다. 경우에 따라 보고서 ‘디자이너’는 운행 시간 반경에 핀을 사용합니다. 이 예제에서는 North Carolina, Charlotte의 50마일 반경 내에 있는 매장을 보여 줍니다.
 
 
 ![NC, Charlotte 주변 운행 시간](media/power-bi-visualizations-arcgis/power-bi-drive-times.png) 
 
 
 ## <a name="interact-with-an-arcgis-maps-for-power-bi-visual"></a>ArcGIS Maps for Power BI 시각적 개체와 상호 작용
-사용 가능한 기능은 보고서가 공유된 방법 및 Power BI 계정 유형에 따라 달라집니다. 질문 사항이 있으면 시스템 관리자에게 문의하세요. ArcGIS Maps for Power BI 시각적 개체는 보고서의 다른 시각적 개체와 매우 비슷하게 작동합니다. [시각화를 만드는 데 사용된 데이터를 표시](../consumer/end-user-show-data.md)하고, [포커스 모드 및 전체 화면 모드](../consumer/end-user-focus.md)로 지도를 표시하며, [주석을 추가](../consumer/end-user-comment.md)하고, 보고서 ‘디자이너’가 설정한 [필터와 상호 작용](../consumer/end-user-report-filter.md)하는 등의 기능을 사용할 수 있습니다.  ArcGIS 시각적 개체는 보고서 페이지의 다른 시각적 개체를 교차 필터링할 수 있으며 그 반대의 경우도 마찬가지입니다.
+사용 가능한 기능은 보고서가 공유된 방법 및 Power BI 계정 유형에 따라 달라집니다. 질문 사항이 있으면 시스템 관리자에게 문의하세요. ArcGIS Maps for Power BI 시각적 개체는 보고서의 다른 시각적 개체와 매우 비슷하게 작동합니다. [시각화를 만드는 데 사용된 데이터를 표시](../consumer/end-user-show-data.md)하고, [포커스 모드 및 전체 화면 모드](../consumer/end-user-focus.md)로 지도를 표시하며, [주석을 추가](../consumer/end-user-comment.md)하고, 보고서 ‘디자이너’가 설정한 [필터와 상호 작용](../consumer/end-user-report-filter.md)하는 등의 기능을 사용할 수 있습니다. ArcGIS 시각적 개체는 보고서 페이지의 다른 시각적 개체를 교차 필터링할 수 있으며 그 반대의 경우도 마찬가지입니다.
 
 기본 지도 위치(예: 거품형)를 마우스로 가리켜 도구 설명을 표시합니다. 또한 ArcGIS 시각적 개체 선택 도구를 사용하여 추가 도구 설명을 표시하고 기본 지도 또는 참조 계층에서 특정 항목을 선택합니다.  
 
@@ -103,7 +109,7 @@ ArcGIS Maps for Power BI에서는 5가지 선택 모드를 사용할 수 있습�
 
 ![갈색 거품형에 대한 도구 설명의 스크린샷](media/power-bi-visualizations-arcgis/power-bi-single-selects.png)
 
-지도에 참조 계층이 있는 경우 위치를 선택하면 도구 설명에 세부 정보가 표시됩니다. 여기서는 Seneca County를 선택했으며 보고서 ‘디자이너’가 지도에 추가한 참조 계층(인구 밀드)의 데이터가 표시됩니다.  이 예제에서는 데이터 요소에 두 개의 다른 지방이 포함되어 도구 설명이 두 페이지입니다. 각 페이지에는 차트가 있습니다. 차트에서 막대를 선택하여 추가 세부 정보를 표시합니다. 
+지도에 참조 계층이 있는 경우 위치를 선택하면 도구 설명에 세부 정보가 표시됩니다. 여기서는 Seneca County를 선택했으며 보고서 ‘디자이너’가 지도에 추가한 참조 계층(인구 밀드)의 데이터가 표시됩니다. 이 예제에서는 데이터 요소에 두 개의 다른 지방이 포함되어 도구 설명이 두 페이지입니다. 각 페이지에는 차트가 있습니다. 차트에서 막대를 선택하여 추가 세부 정보를 표시합니다. 
 
 ![Seneca County에 대한 도구 설명의 스크린샷](media/power-bi-visualizations-arcgis/power-bi-single-select-ref.png)
 

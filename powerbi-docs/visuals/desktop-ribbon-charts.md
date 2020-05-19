@@ -6,23 +6,28 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/10/2019
-ms.author: mihart
+ms.date: 05/05/2019
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1cee814b5013ece3a847aeb3660f1257c69be125
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6da3dd980b180398cf75c8e01f81501ec5d62ed6
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73871152"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83127469"
 ---
-# <a name="use-ribbon-charts-in-power-bi"></a>Power BI에서 리본 차트 사용
+# <a name="create-ribbon-charts-in-power-bi"></a>Power BI에서 리본 차트 만들기
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
-리본 차트를 사용하여 데이터를 시각화하고, 가장 높은 순위(가장 큰 값)를 가진 데이터 범주를 신속하게 검색할 수 있습니다. 리본 차트는 각 기간에 가장 높은 범위(값)가 항상 위쪽에 표시되어 순위 변경 내용을 효과적으로 표시합니다. 
+리본 차트를 만들어서 데이터를 시각화하고, 가장 높은 순위(가장 큰 값)를 가진 데이터 범주를 신속하게 검색할 수 있습니다. 리본 차트는 각 기간에 가장 높은 범위(값)가 항상 위쪽에 표시되어 순위 변경 내용을 효과적으로 표시합니다. 
 
 ![리본 차트](media/desktop-ribbon-charts/ribbon-charts-01.png)
+
+> [!NOTE]
+> Power BI 동료와 보고서를 공유하려면 개별 Power BI Pro 라이선스가 있거나 보고서가 Premium 용량에 저장되어 있어야 합니다. [보고서 공유](../collaborate-share/service-share-reports.md)를 참조하세요.
 
 ## <a name="prerequisites"></a>필수 조건
 

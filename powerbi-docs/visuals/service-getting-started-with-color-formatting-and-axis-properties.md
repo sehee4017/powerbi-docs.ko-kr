@@ -6,17 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 04/30/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2433f030f00ec8cd337d97c4402b83ed6c4c5a00
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 526d2face5b963b27ac17335bbe223c5e3bec672
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76895234"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276585"
 ---
 # <a name="getting-started-with-the-formatting-pane"></a>서식 창을 사용하여 시작
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
+
 보고서에 대한 편집 권한이 있는 경우 다양한 서식 옵션을 사용할 수 있습니다. Power BI 보고서에서 데이터 계열, 데이터 요소 및 시각화의 배경까지도 변경할 수 있습니다. X축과 Y축이 표시되는 방식을 변경할 수 있습니다. 시각화, 셰이프 및 제목의 글꼴 속성을 지정할 수도 있습니다. Power BI에서 보고서가 표시되는 방식을 완전히 제어할 수 있습니다.
 
 시작하려면 Power BI Desktop 또는 Power BI 서비스에서 보고서를 엽니다. 둘 다 거의 동일한 서식 옵션을 제공합니다. Power BI 서비스에서 보고서를 여는 경우 메뉴 모음에서 **편집**을 선택하세요. 
@@ -154,8 +157,10 @@ X축 또는 Y축을 수정하는 것이 유용할 때가 있습니다. 색 작�
 가능한 서식 작업의 일부만 살펴본 것입니다. 보고서를 편집 모드로 열고 서식 창을 통해 멋지면서도 유용한 시각화를 재미있게 만들어 보세요.
 
 ## <a name="next-steps"></a>다음 단계
-자세한 내용은 다음 아티클을 참조하세요.  
+자세한 내용은 다음 아티클을 참조하세요. 
+
+* [보고서 공유](../collaborate-share/service-share-reports.md)
 
 * [Power BI의 색 서식을 위한 팁과 힌트](service-tips-and-tricks-for-color-formatting.md)  
-* [테이블에서 조건부 서식 지정](../desktop-conditional-table-formatting.md)
+* [테이블에서 조건부 서식 지정](../create-reports/desktop-conditional-table-formatting.md)
 

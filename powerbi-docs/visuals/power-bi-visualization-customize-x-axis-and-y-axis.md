@@ -7,17 +7,19 @@ featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/3/2019
+ms.date: 05/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 830fbe945405f8ad7aadd7ceac9fb1967daad22b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6504e49c67d3c2344033f0cad53394ec5ae87e21
+ms.sourcegitcommit: 52177142c3e1f49147dff08fe48600a85a814a2c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75758109"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "82944823"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>X축 및 Y축 속성 사용자 지정
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -216,13 +218,12 @@ Y축 제목이 **켜기**이면 Y축 제목이 Y축 레이블 옆에 표시됩�
 
 1. 제목의 서식을 지정합니다. 이 예에서는 제목 중 하나를 짧게 만들고, 두 제목의 글꼴 크기를 모두 줄였습니다. 
     - 글꼴 크기: **9**
-    - 첫 번째 Y 축(세로 막대형 차트)의 **축 제목**을 줄입니다. 금년 및 작년 판매
+    - 첫 번째 Y 축(세로 막대형 차트)의 **축 제목**을 줄입니다. 금년 및 작년 판매. 
+    
+     ![전체 제목이 표시된 콤보 차트의 스크린샷](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual.png)
 
-    ![전체 제목이 표시된 콤보 차트의 스크린샷](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual.png)
-
-
-
-자세한 내용은 [Power BI의 색 서식을 위한 팁과 힌트](service-tips-and-tricks-for-color-formatting.md) 및 [시각화 제목, 범례 및 배경 사용자 지정](power-bi-visualization-customize-title-background-and-legend.md)을 참조하세요. 그리고 곧 제공될 제목 서식 지정에 대한 새 업데이트를 찾아보세요. 
+    자세한 내용은 [Power BI의 색 서식을 위한 팁과 힌트](service-tips-and-tricks-for-color-formatting.md) 및 [시각화 제목, 범례 및 배경 사용자 지정](power-bi-visualization-customize-title-background-and-legend.md)을 참조하세요. 
+    
 
 ## <a name="next-steps"></a>다음 단계
 

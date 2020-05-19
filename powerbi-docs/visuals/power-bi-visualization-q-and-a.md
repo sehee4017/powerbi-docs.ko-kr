@@ -1,20 +1,23 @@
-﻿---
+---
 title: Power BI 질문 및 답변 시각적 개체 사용
 description: Power BI 질문 및 답변 시각적 개체를 설정하는 방법
-author: mihart
+author: rien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/19/2019
 ms.author: mohaali
-ms.openlocfilehash: a17f98859e637621fbae037610359c8f29391a98
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e94b27945f277c352773e7f9eaa3979fa8bc7451
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75762281"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83148361"
 ---
 # <a name="introduction-to-power-bi-qa-visualizations"></a>Power BI 질문 및 답변 시각화 소개
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -26,7 +29,7 @@ ms.locfileid: "75762281"
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
-질문 및 답변 시각적 개체는 ‘사용자’가 답변을 데이터로 신속하게 가져올 수 있는 도구로 사용되는 동시에 ‘디자이너’가 보고서의 아무 곳이나 두 번 클릭하고 자연어를 사용하여 보고서에서 시각적 개체를 만들어 시작하는 데 사용할 수 있습니다.   다른 시각적 개체처럼 동작하기 때문에, 질문 및 답변 시각적 개체는 교차 필터링/교차 강조 표시가 가능하며 책갈피도 지원합니다. 또한 질문 및 답변 시각적 개체는 테마 및 Power BI 내에서 사용 가능한 기타 기본 서식 옵션을 지원합니다.
+질문 및 답변 시각적 개체는 ‘사용자’가 답변을 데이터로 신속하게 가져올 수 있는 도구로 사용되는 동시에 ‘디자이너’가 보고서의 아무 곳이나 두 번 클릭하고 자연어를 사용하여 보고서에서 시각적 개체를 만들어 시작하는 데 사용할 수 있습니다.  다른 시각적 개체처럼 동작하기 때문에, 질문 및 답변 시각적 개체는 교차 필터링/교차 강조 표시가 가능하며 책갈피도 지원합니다. 또한 질문 및 답변 시각적 개체는 테마 및 Power BI 내에서 사용 가능한 기타 기본 서식 옵션을 지원합니다.
 
 질문 및 답변 시각적 개체는 다음 네 가지 핵심 구성 요소로 이루어져 있습니다.
 
@@ -35,7 +38,7 @@ ms.locfileid: "75762281"
 - 질문 및 답변 시각적 개체를 표준 시각적 개체로 변환하는 아이콘 
 - 디자이너가 기본 자연어 엔진을 구성할 수 있게 해주는 질문 및 답변 도구를 여는 아이콘
 
-## <a name="prerequisites"></a>사전준비
+## <a name="prerequisites"></a>필수 조건
 
 1. 이 자습서는 [영업 및 마케팅 샘플 PBIX 파일](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)을 사용합니다. 
 
@@ -45,10 +48,12 @@ ms.locfileid: "75762281"
 
 1. 보고서 뷰에서 파일을 엽니다. ![보고서 뷰 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Select ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
+1. 새 페이지를 추가하기 위해 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
 
+질문 및 답변 시각적 개체를 만들 때 오류가 표시되는 경우 [제한 사항](../natural-language/q-and-a-limitations.md) 섹션을 검사하여 데이터 원본 구성이 지원되는지 확인합니다.    
 
-질문 및 답변 시각적 개체를 만들 때 오류가 표시되는 경우 [제한 사항](../natural-language/q-and-a-limitations.md) 섹션을 검사하여 데이터 원본 구성이 지원되는지 확인합니다.
+> [!NOTE]
+> Power BI 동료와 보고서를 공유하려면 개별 Power BI Pro 라이선스가 있거나 보고서가 Premium 용량에 저장되어 있어야 합니다. [보고서 공유](../collaborate-share/service-share-reports.md)를 참조하세요.
 
 ## <a name="create-a-qa-visual-using-a-suggested-question"></a>제안된 질문을 사용하여 질문 및 답변 시각적 개체 만들기
 이 연습에서는 제안된 질문 중 하나를 선택하여 질문 및 답변 시각적 개체를 만듭니다. 

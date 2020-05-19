@@ -1,4 +1,4 @@
-﻿---
+---
 title: 2부, Power BI 보고서에 시각화 추가
 description: 2부, Power BI 보고서에 시각화 추가
 author: mihart
@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/28/2018
+ms.date: 05/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 132c795724b6f3744e0648ac1f3229c5e6538a97
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c8b0012224d145f40cb6b9784da1a40957efce50
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75758425"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277781"
 ---
 # <a name="add-visuals-to-a-power-bi-report-part-2"></a>Power BI 보고서에 시각적 개체 추가(2부)
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -26,7 +28,7 @@ ms.locfileid: "75758425"
 ## <a name="create-a-new-visualization"></a>새 시각화 만들기
 이 자습서에서는 소매점 분석 데이터 세트를 자세히 살펴보고 몇 가지 주요 시각화를 만듭니다.
 
-## <a name="prerequisites"></a>사전준비
+## <a name="prerequisites"></a>필수 조건
 
 이 자습서는 [소매점 분석 샘플 PBIX 파일](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 사용합니다.
 
@@ -36,7 +38,7 @@ ms.locfileid: "75758425"
 
 1. **소매점 분석 샘플 PBIX 파일**을 보고서 보기 아이콘 ![보고서 보기 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
 
-1. Select ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
+1. 새 페이지를 추가하기 위해 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
 
 ## <a name="add-visualizations-to-the-report"></a>시각화 요소를 보고서에 추가
 
@@ -59,7 +61,7 @@ ms.locfileid: "75758425"
 5. 시각화를 선택하고 윤곽 원 중 하나를 클릭한 다음 끌어서 [시각화의 크기를 조정](power-bi-visualization-move-and-resize.md)합니다. 스크롤 막대가 보이지 않도록 넓게 만들고 다른 시각화를 추가할 만큼의 공간을 남겨둡니다.
    
    ![영역 차트 시각적 개체의 스크린샷](media/power-bi-report-add-visualizations-ii/pbi_part2_7b.png)
-6. [보고서를 저장합니다](../service-report-save.md).
+6. [보고서를 저장합니다](../create-reports/service-report-save.md).
 
 ### <a name="add-a-map-visualization-that-looks-at-sales-by-location"></a>위치별 매출을 볼 수 있는 맵 시각화 추가
 
@@ -68,6 +70,9 @@ ms.locfileid: "75758425"
 
 2. 범례를 추가합니다.  매장 이름별로 데이터를 보려면 **Store** > **Chain**을 범례 영역으로 끌어 놓습니다.  
    ![필드 목록의 체인에서 범례 버킷의 체인까지 화살표가 있는 보고서 캔버스](media/power-bi-report-add-visualizations-ii/power-bi-chain.png)
+
+> [!NOTE]
+> Power BI 동료와 보고서를 공유하려면 개별 Power BI Pro 라이선스가 있거나 보고서가 Premium 용량에 저장되어 있어야 합니다. [보고서 공유](../collaborate-share/service-share-reports.md)를 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 * [Power BI 보고서의 시각화](power-bi-report-visualizations.md)에 대해 자세히 알아보세요.  

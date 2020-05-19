@@ -7,14 +7,14 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/14/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 12c2d839c14a4a982505f56b7d605bacc5edc728
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7210e2f2f6fa3581744a5400bcdeb795d8883120
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79381425"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83276815"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI의 시각화 유형
 ## <a name="power-bi-visualizations"></a>Power BI 시각화
@@ -41,7 +41,7 @@ ms.locfileid: "79381425"
 >[!TIP]
 >여러 범주의 특정 값을 살펴보는 데는 가로 막대형 차트가 표준입니다.
 
-### <a name="cards-multi-row"></a>카드: 다중 행
+### <a name="cards-multi-row"></a>카드: 여러 행
 ![여러 행 카드](media/power-bi-visualization-types-for-reports-and-q-and-a/multi-row-card.png)
 
 ### <a name="cards-single-number"></a>카드: 단일 숫자
@@ -53,7 +53,7 @@ ms.locfileid: "79381425"
 ![콤보 차트](media/power-bi-visualization-types-for-reports-and-q-and-a/combosmall.png)
 
 >[!TIP]
->콤보 차트는 세로 막대형 차트와 꺾은선형 차트를 결합합니다. *꺾은선형 및 누적 세로 막대형* 과 *꺾은선형 및 묶은 세로 막대형*중에서 선택합니다.
+>콤보 차트는 세로 막대형 차트와 꺾은선형 차트를 결합합니다. *꺾은선형 및 누적 세로 막대형* 과 꺾은선형 및 묶은 세로 막대형 중에서 선택합니다. 
 
 자세한 내용은 [Power BI의 콤보 차트](power-bi-visualization-combo-chart.md)를 참조하세요.
 
@@ -110,12 +110,12 @@ ms.locfileid: "79381425"
 
 자세한 내용은 [지도 시각 효과에 대한 팁과 트릭](power-bi-map-tips-and-tricks.md)을 참조하세요.
 
-### <a name="maps-arcgis-maps"></a>지도: ArcGIS 지도
+### <a name="maps-arcgis-maps"></a>지도: ArcGIS 맵
 ![ArcGIS 지도](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
 자세한 내용은 [Power BI의 ArcGIS 지도](power-bi-visualization-arcgis.md)를 참조하세요.
 
-### <a name="maps-filled-maps-choropleth"></a>지도: 등치 지역도(코로플레스)
+### <a name="maps-filled-maps-choropleth"></a>지도: 등치 지역도
 ![등치 지역도](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
 
 >[!TIP]
@@ -157,7 +157,7 @@ ms.locfileid: "79381425"
 ![질문 및 답변 시각적 개체](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-q-and-a.png)
 
 >[!TIP]
->[대시보드의 질문 및 답변 환경](../power-bi-tutorial-q-and-a.md)과 마찬가지로, 질문 및 답변 시각적 개체를 사용하면 자연어로 데이터에 대해 질문할 수 있습니다. 
+>[대시보드의 질문 및 답변 환경](../create-reports/power-bi-tutorial-q-and-a.md)과 마찬가지로, 질문 및 답변 시각적 개체를 사용하면 자연어로 데이터에 대해 질문할 수 있습니다. 
 
 자세한 내용은 [Power BI의 질문 및 답변 시각적 개체](power-bi-visualization-q-and-a.md)를 참조하세요.
 
@@ -165,7 +165,7 @@ ms.locfileid: "79381425"
 ![R 시각적 개체](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-r-visuals.png)
 
 >[!TIP]
->일반적으로 ‘R 시각적 개체’라고 하는 R 스크립트를 사용하여 만든 시각적 개체는 R의 풍부한 분석 및 시각화 기능을 사용하여 예측과 같은 고급 데이터 셰이핑 및 분석을 제공할 수 있습니다. R 시각적 개체는 Power BI Desktop에서 만들고 Power BI 서비스에 게시할 수 있습니다.    
+>일반적으로 ‘R 시각적 개체’라고 하는 R 스크립트를 사용하여 만든 시각적 개체는 R의 풍부한 분석 및 시각화 기능을 사용하여 예측과 같은 고급 데이터 셰이핑 및 분석을 제공할 수 있습니다. R 시각적 개체는 Power BI Desktop에서 만들고 Power BI 서비스에 게시할 수 있습니다.   
 
 자세한 내용은 [Power BI의 R 시각적 개체](service-r-visuals.md)를 참조하세요.
 
@@ -191,7 +191,7 @@ ms.locfileid: "79381425"
 >[!TIP]
 >시각적 개체에 데이터 요소가 너무 많으면 시각적 개체가 다운될 수 있으므로, 정교한 샘플링 알고리즘을 사용하여 시각화의 정확성을 보장하세요.
 
-자세한 내용은 [Power BI의 고밀도 분산형 차트](desktop-high-density-scatter-charts.md)를 참조하세요.
+자세한 내용은 [Power BI의 고밀도 분산형 차트](../create-reports/desktop-high-density-scatter-charts.md)를 참조하세요.
 
 ### <a name="slicers"></a>슬라이서
 ![slicer](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
@@ -201,9 +201,9 @@ ms.locfileid: "79381425"
 ### <a name="standalone-images"></a>독립 실행형 이미지
 ![독립 실행형 이미지 시각적 개체](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_image.png)
 
-자세한 내용은 [대시보드에 이미지 위젯 추가](../service-dashboard-add-widget.md)를 참조하세요.
+자세한 내용은 [대시보드에 이미지 위젯 추가](../create-reports/service-dashboard-add-widget.md)를 참조하세요.
 
-### <a name="tables"></a>표
+### <a name="tables"></a>테이블
 ![테이블 시각적 개체](media/power-bi-visualization-types-for-reports-and-q-and-a/tabletype.png)
 
 >[!TIP]
@@ -212,7 +212,7 @@ ms.locfileid: "79381425"
 자세한 내용은 [Power BI에서 테이블 작업](power-bi-visualization-tables.md)을 참조하세요.
 
 ### <a name="treemaps"></a>트리맵
-![트리맵](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
+![treemap](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
 
 자세한 내용은 [Power BI의 트리 맵](power-bi-visualization-treemaps.md)을 참조하세요.
 
@@ -232,8 +232,11 @@ Power BI 질문 및 답변을 사용하여 자연어 쿼리를 입력할 때 쿼
 
 "***sales by state as a treemap***"
 
+대시보드에 질문 및 대답 필드가 없는 경우 테넌트 관리자가 이를 사용하지 않도록 설정했을 수 있습니다. 
+
 ![지정된 시각화 유형을 표시하는 Q&A 질문 상자](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI 보고서의 시각화](power-bi-report-visualizations.md)    
 [sqlbi.com에서 올바른 시각적 개체 참조](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf)
+

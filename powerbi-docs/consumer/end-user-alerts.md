@@ -7,23 +7,26 @@ featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: tutorial
-ms.date: 02/18/2020
+ms.date: 04/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5f4dc1d1f3e707a59ef81e63be42714c499d050f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4cad37b9d4a7bf9e74a29312786a02b26fce5463
+ms.sourcegitcommit: faa8cfb66e79ea16ba46605f752cc9ca57924d0e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496530"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83382764"
 ---
 # <a name="tutorial-set-alerts-on-power-bi-dashboards"></a>자습서:  Power BI 대시보드에서 경고 설정
 
-[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
+[!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-대시보드의 데이터가 설정해 놓은 한도보다 많이 또는 적게 변경되면 알리도록 경고를 설정합니다. 알림은 계기, KPI 및 카드에 대해 작동합니다. 이 기능은 계속 발전하고 있으므로 [아래의 팁 및 문제 해결 섹션](#tips-and-troubleshooting)을 참조하세요.
+대시보드의 데이터가 설정해 놓은 한도보다 많이 또는 적게 변경되면 알리도록 경고를 설정합니다. 경고는 보고서 시각적 개체에서 고정된 타일과 계기, KPI 및 카드에만 설정할 수 있습니다. 
+
+*소비자*는 **내 작업 영역**에서 만든 대시보드의 타일에 경고를 추가할 수 있습니다. 또한 *소비자*는 [프리미엄 용량](end-user-license.md)에서 공유된 대시보드의 타일에도 경고를 추가할 수 있습니다. Power BI Pro 라이선스가 있는 경우 다른 작업 영역의 타일에도 경고를 설정할 수 있습니다.
+이 기능은 계속 발전하고 있으므로 [아래의 팁 및 문제 해결 섹션](#tips-and-troubleshooting)을 참조하세요.
 
 ![타일, 카드, KPI](media/end-user-alerts/card-gauge-kpi.png)
 
@@ -44,12 +47,12 @@ ms.locfileid: "77496530"
 
 아직 Power BI에 등록하지 않은 경우 시작하기 전에 [평가판에 등록합니다](https://app.powerbi.com/signupredirect?pbi_source=web).
 
-이 예제에서는 영업 및 마케팅 샘플 앱의 대시보드 카드 타일을 사용합니다. 이 앱은 [Microsoft AppSource](https://appsource.microsoft.com)에서 사용할 수 있습니다. 앱을 다운로드하는 데 도움이 필요한 경우 [Power BI를 사용하여 앱 설치 및 사용](end-user-app-view.md)을 참조하세요.
+이 예제에서는 영업 및 마케팅 샘플 앱의 대시보드 카드 타일을 사용합니다. 이 앱은 [Microsoft AppSource](https://appsource.microsoft.com)에서 사용할 수 있습니다. 앱을 다운로드하는 방법은 [Sales & Marketing 앱 설치 및 사용](end-user-app-marketing.md)을 참조하세요.
 
 1. 대시보드 계기, KPI 또는 카드 타일에서 줄임표(...)를 선택합니다.
    
    ![카드 타일](media/end-user-alerts/power-bi-cards.png)
-2. 종 모양 아이콘 ![경고 아이콘](media/end-user-alerts/power-bi-bell-icon.png) 또는 **경고 관리**를 선택하여 **총 매장**에 대한 하나 이상의 경고를 추가합니다.
+2. 종 모양 아이콘 ![경고 아이콘](media/end-user-alerts/power-bi-bell-icon.png) 또는 **경고 관리**를 선택하여 **% 단위 시장 점유율**에 대한 경고를 하나 이상 추가합니다.
 
    ![줄임표가 선택된 카드 타일](media/end-user-alerts/power-bi-ellipses.png)
 
@@ -85,7 +88,7 @@ ms.locfileid: "77496530"
 
 ## <a name="managing-alerts"></a>경고 관리
 
-경고는 여러 가지 방법으로 관리할 수 있습니다. 대시보드 타일 자체에서, Power BI 설정 메뉴에서, 그리고 [ iPhone용 Power BI 모바일 앱](mobile/mobile-set-data-alerts-in-the-mobile-apps.md) 또는 [Windows 10용 Power BI 모바일 앱](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)에서 관리할 수 있습니다.
+경고는 여러 가지 방법으로 관리할 수 있습니다. 대시보드 타일 자체에서, Power BI 설정 메뉴에서, [iPhone용 Power BI 모바일 앱](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)의 개별 타일에서 또는 [Windows 10용 Power BI 모바일 앱](mobile/mobile-set-data-alerts-in-the-mobile-apps.md)에서 관리할 수 있습니다.
 
 ### <a name="from-the-tile-itself"></a>타일 자체에서
 
@@ -111,10 +114,10 @@ ms.locfileid: "77496530"
 
 ## <a name="tips-and-troubleshooting"></a>팁 및 문제 해결 
 
-* 알림은 계기, KPI 및 카드에만 설정할 수 있습니다.
-* 계기, KPI 또는 카드에 경고를 설정할 수 없는 경우 시스템 관리자에게 도움을 요청하세요. 대시보드 또는 특정 유형의 대시보드 타일에 대해 경고가 꺼져 있거나 사용할 수 없는 경우도 있습니다.
+* 계기, KPI 또는 카드에 경고를 설정할 수 없는 경우 테넌트 관리자에게 도움을 요청하세요. 대시보드 또는 특정 유형의 대시보드 타일에 대해 경고가 꺼져 있거나 사용할 수 없는 경우도 있습니다.
 * 경고는 새로 고쳐지는 데이터에만 적용됩니다. 정적 데이터에 대해서는 적용되지 않습니다. Microsoft에서 제공하는 대부분의 샘플은 정적입니다. 
-* ‘소비자’는 자신의 대시보드를 만들 수 없으며 ‘디자이너’가 대시보드를 만들어 소비자와 공유합니다.   공유 콘텐츠를 받고 보려면 Power BI Pro 또는 Premium 라이선스가 필요합니다. 자세한 내용은 [사용 중인 라이선스 확인](end-user-license.md)을 참조하세요. 
+* 공유 콘텐츠를 받고 보려면 Power BI Pro 또는 Premium 라이선스가 필요합니다. 자세한 내용은 [사용 중인 라이선스 확인](end-user-license.md)을 참조하세요.
+* 보고서에서 대시보드로 고정한 스트리밍 데이터 세트에서 만든 시각적 개체에 경고를 설정할 수 있습니다. **타일 추가** > **사용자 지정 스트리밍 데이터**를 사용하여 대시보드에서 직접 만든 스트리밍 타일에는 경고를 설정할 수 없습니다.
 
 
 ## <a name="clean-up-resources"></a>리소스 정리

@@ -7,16 +7,18 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.date: 01/10/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 413e30c04ac02e6b957f03494bf6a488edeacac0
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e7c59ddd15a85eeabe0edae6d6a9649f56092ab7
+ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75885320"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83141436"
 ---
 # <a name="create-key-influencers-visualizations"></a>주요 영향 요인 시각화 만들기
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -172,7 +174,7 @@ ms.locfileid: "75885320"
 
 ## <a name="adding-counts"></a>개수 추가
 
-영향 요인이 큰 영향을 주지만 데이터를 거의 나타내지 않는 경우도 있습니다. 예를 들어 **유용성** **테마**는 낮은 등급에서 두 번째 가장 큰 영향 요인입니다. 그러나 유용성에 대해 불만을 표시한 고객이 적을 수 있습니다. 개수는 중점을 두려는 영향 요인에 우선 순위를 지정하는 데 도움이 됩니다.
+인플루언서가 큰 영향을 주지만 데이터를 거의 나타내지 않는 경우도 있습니다. 예를 들어 **유용성** **테마**는 낮은 등급에서 두 번째 가장 큰 인플루언서입니다. 그러나 유용성에 대해 불만을 표시한 고객이 적을 수 있습니다. 개수는 중점을 두려는 인플루언서에 우선 순위를 지정하는 데 도움이 됩니다.
 
 서식 창의 **분석 카드**를 통해 개수를 켤 수 있습니다.
 
@@ -186,7 +188,7 @@ ms.locfileid: "75885320"
 
 ![개수 기준 정렬](media/power-bi-visualization-influencers/power-bi-ki-counts-sort.png)
 
-전체 링이 원을 이루면, 영향 요인이 데이터를 100% 포함하는 것입니다. 서식 창의 **분석 카드**에서 **개수 유형** 드롭다운을 사용하여 개수 유형을 최대 영향 요인의 상대 개수로 변경할 수 있습니다. 이제 데이터 양이 가장 많은 영향 요인이 전체 링으로 표시되고 다른 모든 개수는 상대 개수로 표시됩니다.
+전체 링이 원을 이루면, 인플루언서가 데이터를 100% 포함하는 것입니다. 서식 창의 **분석 카드**에서 **개수 유형** 드롭다운을 사용하여 개수 유형을 최대 인플루언서의 상대 개수로 변경할 수 있습니다. 이제 데이터 양이 가장 많은 인플루언서가 전체 링으로 표시되고 다른 모든 개수는 상대 개수로 표시됩니다.
 
 ![상대 개수 표시](media/power-bi-visualization-influencers/power-bi-ki-counts-type.png)
 
@@ -401,7 +403,7 @@ AI 시각화는 내부적으로 [ML.NET](https://dotnet.microsoft.com/apps/machi
 - 침실은 주택 크기를 고려하기 전만큼 중요하지 않을 수 있습니다. 
 
 
-
+Power BI 동료와 보고서를 공유하려면 개별 Power BI Pro 라이선스가 있거나 보고서가 Premium 용량에 저장되어 있어야 합니다. [보고서 공유](../collaborate-share/service-share-reports.md)를 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 - [Power BI의 콤보 차트](power-bi-visualization-combo-chart.md)

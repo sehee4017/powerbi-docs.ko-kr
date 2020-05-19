@@ -1,4 +1,4 @@
-﻿---
+---
 title: Power BI 시각화 서식 지정 시작
 description: 시각화 제목, 배경 및 범례 사용자 지정
 author: mihart
@@ -10,14 +10,17 @@ ms.topic: conceptual
 ms.date: 03/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7ff02eb07d4b052892cc80ab4710223d8d302a9f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5a55fca07e4a0e5f9c027bcd17c3fba66a09958e
+ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78893441"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "83277137"
 ---
 # <a name="customize-visualization-titles-backgrounds-and-legends"></a>시각화 제목, 배경 및 범례 사용자 지정
+
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
+
 
 이 자습서에서는 시각화를 사용자 지정하는 몇 가지 방법을 알아봅니다. 시각화를 사용자 지정하는 많은 옵션이 있습니다. 모든 옵션에 대해 자세히 알아볼 가장 좋은 방법은 **서식** 창을 탐색하는 것입니다(페인트 롤러 아이콘 선택). 시작하기 위해 이 문서는 시각화 제목, 범례, 배경을 사용자 지정하고 테마를 추가하는 방법을 보여 줍니다.
 
@@ -30,12 +33,15 @@ ms.locfileid: "78893441"
 
 - 소매점 분석 샘플 보고서
 
+> [!NOTE]
+> Power BI 동료와 보고서를 공유하려면 개별 Power BI Pro 라이선스가 있거나 보고서가 Premium 용량에 저장되어 있어야 합니다. [보고서 공유](../collaborate-share/service-share-reports.md)를 참조하세요.
+
 ## <a name="customize-visualization-titles-in-reports"></a>보고서의 시각화 제목 사용자 지정
 
-이를 수행하려면 Power BI Desktop에 로그인하고 [소매점 분석 샘플](../sample-datasets.md) 보고서를 엽니다.
+이를 수행하려면 Power BI Desktop에 로그인하고 [소매점 분석 샘플](../create-reports/sample-datasets.md) 보고서를 엽니다.
 
 > [!NOTE]
-> 시각화를 대시보드에 고정하면 대시보드 타일이 됩니다. 타일 자체를 [새 제목 및 부제, 하이퍼링크로 사용자 지정하고 크기를 조정](../service-dashboard-edit-tile.md)할 수도 있습니다.
+> 시각화를 대시보드에 고정하면 대시보드 타일이 됩니다. 타일 자체를 [새 제목 및 부제, 하이퍼링크로 사용자 지정하고 크기를 조정](../create-reports/service-dashboard-edit-tile.md)할 수도 있습니다.
 
 1. **소매점 분석 샘플** 보고서의 **새 상점** 페이지로 이동합니다.
 
@@ -49,7 +55,7 @@ ms.locfileid: "78893441"
 
 1. **제목** 슬라이더를 **켜기**로 이동합니다.
 
-1. 제목을 변경하려면 **제목 텍스트** 필드에 ‘월별 개업 매장 수’를 입력합니다. 
+1. 제목을 변경하려면 **제목 텍스트** 필드에 ‘월별 개업 매장 수’를 입력합니다.
 
     ![제목 텍스트가 입력된 서식 창의 스크린샷](media/power-bi-visualization-customize-title-background-and-legend/power-bi-title.png)
 
@@ -167,3 +173,5 @@ ms.locfileid: "78893441"
 - [색 서식 지정 및 축 속성 시작](service-getting-started-with-color-formatting-and-axis-properties.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
+
+
