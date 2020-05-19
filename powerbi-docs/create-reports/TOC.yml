@@ -12,7 +12,7 @@
       expanded: true
       items:
         - name: '온라인 과정: 페이지를 매긴 보고서'
-          href: ../paginated-reports/paginated-reports-online-course.md
+          href: ../learning-catalog/paginated-reports-online-course.md
         - name: 페이지를 매긴 보고서 만들기 및 업로드
           href: ../paginated-reports/paginated-reports-quickstart-aw.md
     - name: 샘플

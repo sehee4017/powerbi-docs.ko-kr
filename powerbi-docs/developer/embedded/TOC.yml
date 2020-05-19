@@ -28,7 +28,7 @@
           href: embedded-capacity-planning.md
         - name: 성능 모범 사례
           href: embedded-performance-best-practices.md
-        - name: 서비스 주체
+        - name: 서비스 사용자
           href: embed-service-principal.md
         - name: 행 수준 보안
           href: embedded-row-level-security.md
@@ -70,9 +70,9 @@
               href: azure-pbie-create-capacity.md
             - name: Azure에서 Multi-Geo를 사용하여 용량 만들기
               href: embedded-multi-geo.md
-            - name: Azure에서 용량 조정
+            - name: Azure에서 용량 확장
               href: azure-pbie-scale-capacity.md
-            - name: Azure에서 용량 일시 정지 및 시작
+            - name: Azure에서 용량 일시 중지 및 시작
               href: azure-pbie-pause-start.md
         - name: 작업 영역 컬렉션에서 마이그레이션
           items:
@@ -89,7 +89,7 @@
             - name: Azure Resource Management REST API
               href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
             - name: Power BI REST API
-              href: 'https://msdn.microsoft.com/library/mt147898.aspx'
+              href: 'https://docs.microsoft.com/rest/api/power-bi/'
         - name: Power BI 라이브러리
           href: 'https://go.microsoft.com/fwlink/?linkid=848274'
         - name: 앱에 사용자 지정 레이아웃 포함
