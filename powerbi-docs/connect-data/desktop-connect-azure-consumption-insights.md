@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5cc566798d53a29ef1f205c34d7e97d9331a164d
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 8959e703da2587b7633df4313606bdb11a8c983b
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347979"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407513"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Power BI Desktop에서 Azure Consumption Insights 데이터에 연결
 
@@ -28,7 +28,7 @@ Power BI Desktop을 사용하여 Azure에 연결하고, 조직의 Azure 서비�
 
 Azure Consumption Insights를 사용하면 Azure Enterprise Agreement 청구 계정에 연결할 수 있습니다.
 
-이 섹션에서는 Azure 엔터프라이즈 커넥터를 사용해서 마이그레이션해야 하는 데이터를 가져오는 방법을 알아봅니다. **ACI**(Azure Consumption Insights) API에서 사용할 수 있는 ‘사용량 세부 정보 열’ 매핑도 있습니다. 
+이 섹션에서는 Azure 엔터프라이즈 커넥터를 사용해서 마이그레이션해야 하는 데이터를 가져오는 방법을 알아봅니다. **ACI**(Azure Consumption Insights) API에서 사용할 수 있는 ‘사용량 세부 정보 열’ 매핑도 있습니다.
 
 **Azure Consumption Insights** 커넥터를 사용하려면 Azure Portal의 엔터프라이즈 기능에 액세스해야 합니다.
 
@@ -62,7 +62,7 @@ Azure Consumption Insights를 사용하면 Azure Enterprise Agreement 청구 계
 
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
-‘액세스 키’를 제공하고 **연결**을 선택하면 **탐색기** 창이 나타나고, 사용 가능한 9개 테이블이 표시됩니다. 
+‘액세스 키’를 제공하고 **연결**을 선택하면 **탐색기** 창이 나타나고, 사용 가능한 9개 테이블이 표시됩니다.
 
 | 테이블        | 설명 |
 |------------- | -------------------------------------------------------------|
@@ -123,11 +123,11 @@ Azure Consumption Insights를 사용하면 Azure Enterprise Agreement 청구 계
 * 현재 날짜부터 시작하여 개월 수를 정의하려면 *numberOfMonth*를 사용합니다.
   * 1에서 36 사이의 값을 사용합니다. 현재 날짜에서 가져오려는 개월 수를 나타냅니다. 12개월 이하의 데이터를 가져오는 것이 좋습니다. 이 한도는 Power BI 쿼리 가져오기 제약 조건 및 데이터 볼륨 임계값을 방지합니다.
 * 기록 시간 창에서 일정 기간을 정의하려면 *startBillingDataWindow* 및 *endBillingDataWindow*를 사용합니다.
-* ‘startBillingDataWindow’ 또는 ‘endBillingDataWindow’와 함께 ‘numberOfMonth’를 사용하지 않습니다.   
+* ‘startBillingDataWindow’ 또는 ‘endBillingDataWindow’와 함께 ‘numberOfMonth’를 사용하지 않습니다.  
 
 ## <a name="migrate-from-the-azure-enterprise-connector"></a>Azure 엔터프라이즈 커넥터에서 마이그레이션
 
-일부 고객이 ‘Azure 엔터프라이즈 커넥터(베타)’를 사용하여 시각적 개체를 만들었습니다.  결국, **Azure Consumption Insights** 커넥터로 바뀔 예정입니다. 새 커넥터에는 다음과 같은 기능과 개선 사항이 있습니다.
+일부 고객이 ‘Azure 엔터프라이즈 커넥터(베타)’를 사용하여 시각적 개체를 만들었습니다. 결국, **Azure Consumption Insights** 커넥터로 바뀔 예정입니다. 새 커넥터에는 다음과 같은 기능과 개선 사항이 있습니다.
 
 * *균형 요약* 및 *Marketplace 구매*에 사용할 수 있는 추가 데이터 원본
 * *startBillingDataWindow* 및 *endBillingDataWindow*와 같은 새 고급 매개 변수
@@ -184,7 +184,7 @@ Azure Portal의 열 및 세부 정보 이름은 API와 커넥터에서 비슷하
 | --- | --- | --- | --- |
 | AccountName |accountName |계정 이름 |아니요 |
 | AccountId |accountId | |예 |
-| AcccountOwnerId |accountOwnerEmail |AccountOwnerId |아니요 |
+| AccountOwnerId |accountOwnerEmail |AccountOwnerId |아니요 |
 | AdditionalInfo |additionalInfo |AdditionalInfo |아니요 |
 | AdditionalInfold | | |예 |
 | Consumed Quantity |consumedQuantity |Consumed Quantity |아니요 |

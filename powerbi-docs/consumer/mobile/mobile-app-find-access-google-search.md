@@ -28,7 +28,7 @@ Google Search를 사용하여 보고서 또는 대시보드를 찾아서 Power B
 
 ## <a name="search-using-google-search"></a>Google Search를 사용하여 검색
 
-Google 검색 상자에서 power bi에서 검색 항목 검색 양식을 사용하여 검색합니다. 예를 들어, **power bi에서 판매 검색**을 사용합니다.
+Google 검색 상자에서 power bi에서 &lt;검색 항목&gt; 검색 양식을 사용하여 검색합니다.****** 예를 들어, **power bi에서 판매 검색**을 사용합니다.
 
 * 일치 항목이 하나만 발견된 경우 Power BI 모바일 앱이 해당 항목을 엽니다.
 * 일치 항목이 둘 이상 발견된 경우 Power BI가 요청에 따라 필터링된 검색 화면을 엽니다.

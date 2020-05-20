@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/10/2020
 ms.author: kfollis
-ms.openlocfilehash: a29dcd8c89d064678e558d5ebfee7ccb3cc8a8e0
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2aa12ec3d55e491535d12107fc70709f9d41c3f0
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83330109"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438088"
 ---
 # <a name="power-bi-data-sources"></a>Power BI 데이터 소스
 
@@ -66,7 +66,7 @@ ms.locfileid: "83330109"
 | 폴더 | 예 | 예 | 아니요 | 예 | 예 |
 | GitHub | 예 | 예 | 아니요 | 아니요 | 아니요 |
 | Google 분석 | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Google BigQuery | 예 | 예 | 아니요 | 아니요 | 아니요 |
+| Google BigQuery | 예 | 예 | 예 | 아니요 | 아니요 |
 | HDFS(Hadoop 파일) | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
 | HDInsight 대화형 쿼리 | 예 | 예 | 예 | 아니요 | 아니요 |
 | IBM DB2 | 예 | 예 | 예 | 예 | 아니요 |

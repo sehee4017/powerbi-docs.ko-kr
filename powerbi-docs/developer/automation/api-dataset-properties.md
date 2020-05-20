@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: e74e390a5d228cb4a158d422cf0adab48b573cce
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7dad7071fbf887c36443cacdb9be83d83e0b89be
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79079672"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561504"
 ---
 # <a name="dataset-properties"></a>데이터 세트 속성
 
@@ -46,8 +46,8 @@ isHidden     | Boolean        | True인 경우, 테이블은 클라이언트 도
 이름  |Type  |설명  |읽기 전용  |필수
 ---------|---------|---------|---------|---------
 name     |  String        | 열의 사용자 정의 이름입니다.        |  False       | True       
-dataType     |  String       |  지원되는 [EDM 데이터 형식](https://msdn.microsoft.com/library/ee382832.aspx) 및 제한 사항입니다. [데이터 형식 제한](#data-type-restrictions)을 참조하세요.      |  False       | True        
-formatString     | String        | 값이 표시될 때 그 서식을 어떻게 지정하는지 설명하는 문자열입니다. 문자열 서식을 지정하는 방법에 대 한 자세한 내용은 [FORMAT_STRING 콘텐츠](https://msdn.microsoft.com/library/ms146084.aspx)를 참조하세요.      | False        | False        
+dataType     |  String       |  지원되는 [EDM 데이터 형식](/dotnet/framework/data/adonet/entity-data-model-primitive-data-types) 및 제한 사항입니다. [데이터 형식 제한](#data-type-restrictions)을 참조하세요.      |  False       | True        
+formatString     | String        | 값이 표시될 때 그 서식을 어떻게 지정하는지 설명하는 문자열입니다. 문자열 서식을 지정하는 방법에 대 한 자세한 내용은 [FORMAT_STRING 콘텐츠](/analysis-services/multidimensional-models/mdx/mdx-cell-properties-format-string-contents)를 참조하세요.      | False        | False        
 sortByColumn    | String        |   현재 열을 정렬하는 데 사용하기 위해 동일 테이블에 있는 열의 문자열 이름입니다.     | False        | False       
 dataCategory     | String        |  이 열에 있는 데이터를 설명하는 데이터 범주에 사용할 문자열 값입니다. 몇 가지 일반적인 값으로는 Address, City, Continent, Country, Image, ImageUrl, Latitude, Longitude, Organization, Place, PostalCode, StateOrProvince, WebUrl 등이 있습니다.       |  False       | False        
 isHidden    |  Boolean       |  열을 보기에서 숨겨져 있는지를 나타내는 속성입니다. 기본값은 false입니다.       | False        | False        
@@ -59,7 +59,7 @@ summarizeBy     | String        |  열에 대한 기본 집계 메서드입니�
 ---------|---------|---------|---------|---------
 name     | String        |  측정값의 사용자 정의 이름입니다.       |  False       | True        
 expression     | String        | 유효한 DAX 식입니다.        | False        |  True       
-formatString     | String        |  값이 표시될 때 그 서식을 어떻게 지정하는지 설명하는 문자열입니다. 문자열 서식을 지정하는 방법에 대 한 자세한 내용은 [FORMAT_STRING 콘텐츠](https://msdn.microsoft.com/library/ms146084.aspx)를 참조하세요.       | False        | False        
+formatString     | String        |  값이 표시될 때 그 서식을 어떻게 지정하는지 설명하는 문자열입니다. 문자열 서식을 지정하는 방법에 대 한 자세한 내용은 [FORMAT_STRING 콘텐츠](/analysis-services/multidimensional-models/mdx/mdx-cell-properties-format-string-contents)를 참조하세요.       | False        | False        
 isHidden     | String        |  True인 경우, 테이블은 클라이언트 도구에서 숨겨집니다.       |  False       | False       
 
 ## <a name="relationship"></a>관계

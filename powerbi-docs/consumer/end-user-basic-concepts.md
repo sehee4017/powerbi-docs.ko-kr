@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: e303d85083624bb67e73729024875d0f6f44fc42
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d8872499bb54e23aabe642f88a541b85948d6656
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377150"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561992"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Power BI 서비스 소비자를 위한 기본 개념
 
@@ -116,7 +116,7 @@ Power BI에서 볼 수 있는 시각화로는 폭포, 리본, 트리맵, 원형,
 
    ![8가지 샘플 시각적 개체의 스크린샷](media/end-user-basic-concepts/power-bi-visuals.png)
 
-[Power BI에 포함된 시각화의 전체 목록](../power-bi-visualization-types-for-reports-and-q-and-a.md)을 참조하세요.
+[Power BI에 포함된 시각화의 전체 목록](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)을 참조하세요.
 
 ‘Power BI 시각적 개체’라는 시각화는 커뮤니티에서도 사용할 수 있습니다.  인식할 수 없는 시각적 개체가 포함된 보고서를 받은 경우 사용자 지정 시각적 개체일 가능성이 높습니다. 사용자 지정 시각적 개체를 해석하는 데 도움이 필요하면 보고서 또는 대시보드 ‘디자이너’의 이름을 조회하고 해당 디자이너에게 문의하세요. 
 

@@ -5,15 +5,15 @@ author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 04/06/2020
+ms.date: 05/13/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 65f1246185584b5887d97bb9188b43e016e78e8f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 40a585c78de4a95981ff157413e857b48fd35c14
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279253"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407578"
 ---
 # <a name="connect-to-the-hospital-emergency-response-decision-support-dashboard"></a>병원 응급 대응 의사 결정 지원 대시보드에 연결
 병원 응급 대응 의사 결정 지원 대시보드 템플릿 앱은 [의료 응급 대응을 위한 Microsoft Power Platform 솔루션](https://powerapps.microsoft.com/blog/emergency-response-solution-a-microsoft-power-platform-solution-for-healthcare-emergency-response/)의 보고 구성 요소입니다. 이 대시보드는 응급 관리자들이 적시에 올바른 의사 결정을 내릴 수 있도록 의료 시스템 전반의 집계 데이터를 보여 줍니다.
@@ -32,11 +32,11 @@ ms.locfileid: "83279253"
 
 ## <a name="install-the-app"></a>앱 설치
 
-1. 다음 링크를 클릭하여 앱을 가져옵니다. [병원 응급 대응 의사 결정 지원 대시보드 템플릿 앱](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.powerapps_healthcare)
+1. 다음 링크를 클릭하여 앱을 가져옵니다. [병원 응급 대응 의사 결정 지원 대시보드 템플릿 앱](https://aka.ms/AppSource_Hospital_offer)
 
-1. 앱의 AppSource 페이지에서 [**지금 가져오기**](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.powerapps_healthcare)를 선택합니다.
+1. 앱의 AppSource 페이지에서 [**지금 가져오기**](https://aka.ms/AppSource_Hospital_offer)를 선택합니다.
 
-    [![AppSource의 병원 응급 대응 의사 결정 지원 대시보드 앱](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-appsource-get-it-now.png)](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.powerapps_healthcare)
+    [![AppSource의 병원 응급 대응 의사 결정 지원 대시보드 앱](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-appsource-get-it-now.png)](https://aka.ms/AppSource_Hospital_offer)
 
 1. **한 가지 더**의 정보를 읽고 **계속**을 선택합니다.
 

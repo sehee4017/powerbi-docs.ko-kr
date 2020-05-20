@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/09/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: cf937ea36727ec036e3799cb0ac48dfbb5740325
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: dfd44b7130c1c7e4e1d2d7a9c9f15208cb0d9b0c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292918"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563290"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>Power BI에서 DirectQuery를 사용하는 방법
 
@@ -371,7 +371,7 @@ DirectQuery는 기본적으로 최대 10개의 동시 연결을 엽니다. Power
 
 해당 폴더 안에는 *\\Data* 폴더가 있습니다. Data 폴더에는 현재 Power BI 세션의 *FlightRecorderCurrent.trc* 추적 파일이 있습니다. 연결된 Power BI Desktop 세션이 끝나면 해당 작업 영역 폴더가 삭제됩니다.
 
-추적 파일은 *SQL Server Profiler* 도구를 사용하여 읽을 수 있습니다. 무료 다운로드 [SQL Server Management Studio](https://msdn.microsoft.com/library/mt238290.aspx)의 일부로 받으세요.
+추적 파일은 *SQL Server Profiler* 도구를 사용하여 읽을 수 있습니다. 무료 다운로드 [SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms)의 일부로 받으세요.
 
 SQL Server Management Studio를 다운로드하여 설치한 후에 SQL Server Profiler를 실행합니다.
 

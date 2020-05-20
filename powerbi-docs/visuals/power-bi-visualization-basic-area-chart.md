@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f6960d3087ba5b271c6c130df59e6e667e838165
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e03a453b95a797b281f789e8aed40b3879b54e02
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277160"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563848"
 ---
 # <a name="create-and-use-basic-area-charts"></a>기본 영역형 차트 만들기 및 사용
 
@@ -82,11 +82,8 @@ ms.locfileid: "83277160"
 
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결   
-* [장애가 있는 사용자가 보고서에 액세스할 수 있도록 만들기](../desktop-accessibility.md)
+* [장애가 있는 사용자가 보고서에 액세스할 수 있도록 만들기](../create-reports/desktop-accessibility-overview.md)
 * 기본 영역형 차트는 계층화된 영역의 폐색으로 인해 값을 비교하는 데는 효과적이지 않습니다. Power BI는 투명도를 사용하여 영역의 겹침을 나타냅니다. 그러나 이것은 두세 개의 서로 다른 영역에서만 잘 작동합니다. 4개 이상의 측정값에 대한 추세를 비교해야 하는 경우 꺾은선형 차트를 사용해보세요. 4개 이상의 측정값에 대한 볼륨을 비교해야 하는 경우 트리맵을 사용해보세요.
 
 ## <a name="next-step"></a>다음 단계
 [Power BI의 보고서](power-bi-visualization-card.md)  
-
-
-

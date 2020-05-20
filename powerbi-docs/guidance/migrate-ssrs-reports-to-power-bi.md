@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: d9fd23a0cf5c3ed26c78e4c53ae600bf74daca91
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 06bff0a199db9955f11487a05ba78268bb8a942d
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348186"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561596"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>SQL Server Reporting Services 보고서를 Power BI로 마이그레이션
 
@@ -194,7 +194,7 @@ API에 대한 자세한 내용은 다음을 참조하세요.
 - [페이지를 매긴 보고서의 데이터 검색 지침](report-paginated-data-retrieval.md)
 - [Power BI의 페이지를 매긴 보고서가 필요한 경우](report-paginated-or-power-bi.md)
 - [Power BI의 페이지를 매긴 보고서: FAQ](../paginated-reports/paginated-reports-faq.md)
-- [온라인 과정: 특정 일의 페이지를 매긴 보고서](../paginated-reports/paginated-reports-online-course.md)
+- [온라인 과정: 특정 일의 페이지를 매긴 보고서](../learning-catalog/paginated-reports-online-course.md)
 - [Power BI 프리미엄 FAQ](../admin/service-premium-faq.md)
 - [RDL 마이그레이션 도구](https://github.com/microsoft/RdlMigration)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 27509d42b09b9524b204da5ab0ce76f3d180a057
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 06033a65acd090f0297a53bfbf0f0a004b68649a
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83293171"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561573"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop의 데이터 형식
 이 문서에서는 Power BI Desktop 및 DAX(Data Analysis Expressions)에서 지원하는 데이터 형식을 설명합니다. 
@@ -72,7 +72,7 @@ Power BI Desktop은 쿼리 뷰에서 5가지 날짜/시간 데이터 형식을 �
 **True/False** -True 또는 False의 부울 값입니다.
 
 ### <a name="blanksnulls-type"></a>공백/Null 형식
-**공백** - SQL null을 표현 및 대체하는 DAX의 데이터 형식입니다. [BLANK](https://msdn.microsoft.com/library/ee634820.aspx) 함수를 사용하여 공백을 만들고 [ISBLANK](https://msdn.microsoft.com/library/ee634204.aspx) 논리 함수를 사용하여 공백을 테스트할 수 있습니다.
+**공백** - SQL null을 표현 및 대체하는 DAX의 데이터 형식입니다. [BLANK](/dax/blank-function-dax) 함수를 사용하여 공백을 만들고 [ISBLANK](/dax/isblank-function-dax) 논리 함수를 사용하여 공백을 테스트할 수 있습니다.
 
 ### <a name="binary-data-type"></a>이진 데이터 형식
 
@@ -86,7 +86,7 @@ Power BI Desktop은 쿼리 뷰에서 5가지 날짜/시간 데이터 형식을 �
 > 
 
 ### <a name="table-data-type"></a>테이블 데이터 형식
-DAX는 집계, 시간 인텔리전스 계산 등과 같이 다양한 함수에서 테이블 데이터 형식을 사용합니다. 어떤 함수에는 테이블에 대한 참조가 필요하고 어떤 함수는 다른 함수에 대한 입력으로 사용할 수 있게 테이블을 반환합니다. 입력으로 테이블이 필요한 여러 함수에서 테이블을 평가하는 식을 지정할 수 있습니다. 어떤 함수에서는 기본 테이블에 대한 참조가 필요합니다. 특정 함수의 요구 사항에 대한 정보는 [DAX 함수 참조](https://msdn.microsoft.com/library/ee634396.aspx)에서 확인하세요.
+DAX는 집계, 시간 인텔리전스 계산 등과 같이 다양한 함수에서 테이블 데이터 형식을 사용합니다. 어떤 함수에는 테이블에 대한 참조가 필요하고 어떤 함수는 다른 함수에 대한 입력으로 사용할 수 있게 테이블을 반환합니다. 입력으로 테이블이 필요한 여러 함수에서 테이블을 평가하는 식을 지정할 수 있습니다. 어떤 함수에서는 기본 테이블에 대한 참조가 필요합니다. 특정 함수의 요구 사항에 대한 정보는 [DAX 함수 참조](/dax/dax-function-reference)에서 확인하세요.
 
 ## <a name="implicit-and-explicit-data-type-conversion-in-dax-formulas"></a>DAX 수식의 암시적 및 명시적 데이터 형식 변환
 각 DAX 함수에는 입력 및 출력에 사용되는 데이터 형식에 따라 특정한 요구 사항이 있습니다. 예를 들어 어떤 함수에서는 특정 인수에는 정수를, 다른 인수에는 날짜를 요구하며 다른 함수에서는 텍스트나 테이블이 필요합니다.
@@ -197,4 +197,3 @@ DAX에서 null, 빈 값, 공백 셀 또는 누락된 값은 모두 동일한 새
 | TRUE AND BLANK |FALSE |TRUE |
 | BLANK OR BLANK |BLANK |Error |
 | BLANK AND BLANK |BLANK |Error |
-
