@@ -136,9 +136,9 @@ export interface StructuralTypeDescriptor {
 }
 ```
 
-*fill* 및 *fillrule* 속성에 주의합니다. 첫 번째 속성은 색 선택기이고, 두 번째 속성은 규칙 조건이 충족될 때 ‘fill’ 속성 `visually`를 바꾸는 그라데이션 대체 규칙입니다. 
+*fill* 및 *fillrule* 속성에 주의합니다. 첫 번째 속성은 색 선택기이고, 두 번째 속성은 규칙 조건이 충족될 때 ‘fill’ 속성 `visually`를 바꾸는 그라데이션 대체 규칙입니다.
 
-‘fill’ 속성과 대체 규칙 간의 이러한 연결은 *fillRule* 속성의 `"rule"`>`"output"` 섹션에서 설정됩니다. 
+‘fill’ 속성과 대체 규칙 간의 이러한 연결은 *fillRule* 속성의 `"rule"`>`"output"` 섹션에서 설정됩니다.
 
 `"Rule"`>`"InputRole"` 속성은 규칙(조건)을 트리거하는 데이터 역할을 설정합니다. 이 예제에서는 데이터 역할 `"Gradient"`에 데이터가 포함된 경우 `"fill"` 속성에 규칙이 적용됩니다.
 
