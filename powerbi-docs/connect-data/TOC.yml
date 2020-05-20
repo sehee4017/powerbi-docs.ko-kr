@@ -208,6 +208,8 @@
               href: refresh-data.md
             - name: 예약된 새로 고침 구성
               href: refresh-scheduled-refresh.md
+            - name: 센터 새로 고침
+              href: refresh-center.md
             - name: 증분 새로 고침 구성
               href: ../admin/service-premium-incremental-refresh.md
             - name: 로컬 Power BI Desktop 파일에서 데이터 세트 새로 고침
@@ -266,6 +268,8 @@
               href: service-connect-to-microsoft-sustainability-calculator.md
             - name: Office365Mon
               href: service-connect-to-office365mon.md
+            - name: Power BI Premium 용량 메트릭
+              href: service-connect-to-pbi-premium-capacity-metrics.md
             - name: 프로젝트 온라인
               href: service-connect-to-project-online.md
             - name: QuickBooks Online
