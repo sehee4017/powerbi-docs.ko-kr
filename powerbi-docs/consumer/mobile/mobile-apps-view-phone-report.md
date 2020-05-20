@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: d3584ebc5233ccffc007118ac87ada49e906b34c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 380057c2c65db3ea659adc39d692d8955201483b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273526"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565126"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>휴대폰에 대해 최적화된 Power BI 보고서 보기
 
@@ -60,7 +60,7 @@ Power BI 보고서의 다른 모든 기능은 휴대폰에 최적화된 보고�
 
 * 휴대폰 보고서에서 시각적 개체의 오른쪽 위 모서리에 있는 줄임표( **...** ) > **포커스 모드로 확장**을 누릅니다.
   
-    ![포커스 모드로 확장](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
+    ![포커스 모드로 확장](media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
 
 포커스 모드에서 수행하는 작업은 보고서 캔버스로 이어지며, 그 반대도 마찬가지입니다. 예를 들어 시각적 개체에서 한 값을 강조 표시한 다음 전체 보고서로 돌아가면 전체 보고서가 시각적 개체에서 강조 표시한 값으로 필터링 됩니다.
 
@@ -72,7 +72,7 @@ Power BI 보고서의 다른 모든 기능은 휴대폰에 최적화된 보고�
   
     시각적 개체에서 모든 탐색을 지우려면 줄임표( **...** ) > **되돌리기**를 누릅니다 .
   
-    ![되돌리기](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
+    ![되돌리기](media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
   
     되돌리기는 보고서 수준에서 모든 시각적 개체로부터 탐색을 지우거나 또는 시각적 개체 수준에서 선택된 시각적 개체로부터 모든 탐색을 지웁니다.   
 
@@ -86,14 +86,14 @@ Power BI 보고서의 다른 모든 기능은 휴대폰에 최적화된 보고�
 2. 도구 설명이 표시됩니다. 계층이 정의되어 있다면 도구 설명 바닥글에 드릴다운 및 드릴업 화살표가 표시됩니다.
 3. 아래쪽 화살표를 탭하여 드릴다운합니다.
 
-    ![드릴다운 탭](././media/mobile-apps-view-phone-report/report-drill-down.png)
+    ![드릴다운 탭](media/mobile-apps-view-phone-report/report-drill-down.png)
     
 4. 위쪽 화살표를 탭하여 드릴업합니다.
 
 ### <a name="drill-to-next-level"></a>다음 수준으로 드릴
 1. 휴대폰 보고서에서 오른쪽 위 모서리에 있는 줄임표( **...** ) > **포커스 모드로 확장**을 누릅니다.
    
-    ![포커스 모드로 확장](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
+    ![포커스 모드로 확장](media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
    
     이 예제에서 막대는 시/도 값을 보여줍니다.
 2. 왼쪽 아래에서 탐색 아이콘 ![탐색 아이콘](./media/mobile-apps-view-phone-report/power-bi-phone-report-explore-icon.png) 을 탭합니다.
@@ -111,7 +111,7 @@ Power BI 보고서의 다른 모든 기능은 휴대폰에 최적화된 보고�
     ![하위 수준으로 여전히 확장됨](./media/mobile-apps-view-phone-report/power-bi-back-to-phone-report-expanded-levels.png)
 5. 원래 수준으로 다시 올라가려면 줄임표( **...** )를 다시 누르고 **되돌리기**를 누릅니다.
    
-    ![되돌리기](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
+    ![되돌리기](media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
 
 ## <a name="drill-through-from-a-value"></a>값에서 드릴스루
 드릴스루는 하나의 보고서 페이지에 있는 값을 다른 보고서 페이지에 연결합니다. 하나의 데이터 요소에서 다른 보고서 페이지로 드릴스루하면, 데이터 요소 값이 드릴스루된 페이지를 필터링하는 데 사용되거나 선택한 데이터의 컨텍스트에서 표시됩니다.
@@ -121,11 +121,11 @@ Power BI 보고서의 다른 모든 기능은 휴대폰에 최적화된 보고�
 2. 도구 설명이 표시됩니다. 드릴스루가 정의되어 있다면 도구 설명 바닥글에 드릴스루 화살표가 표시됩니다.
 3. 화살표를 탭하여 드릴스루합니다.
 
-    ![드릴스루 탭](././media/mobile-apps-view-phone-report/report-drill-through1.png)
+    ![드릴스루 탭](media/mobile-apps-view-phone-report/report-drill-through1.png)
 
 4. 드릴스루할 보고서 페이지를 선택합니다.
 
-    ![보고서 페이지 선택](././media/mobile-apps-view-phone-report/report-drill-through2.png)
+    ![보고서 페이지 선택](media/mobile-apps-view-phone-report/report-drill-through2.png)
 
 5. 앱 머리글에 있는 뒤로 단추를 사용하여 시작한 페이지로 돌아갑니다.
 
@@ -133,5 +133,5 @@ Power BI 보고서의 다른 모든 기능은 휴대폰에 최적화된 보고�
 ## <a name="next-steps"></a>다음 단계
 * [Power BI 모바일 앱에 최적화된 보고서 만들기](../../create-reports/desktop-create-phone-report.md)
 * [Power BI에서 대시보드 휴대폰 보기 만들기](../../create-reports/service-create-dashboard-mobile-phone-view.md)
-* [모든 크기에 최적화된 반응형 시각적 개체 만들기](../../visuals/desktop-create-responsive-visuals.md)
+* [모든 크기에 최적화된 반응형 시각적 개체 만들기](../../visuals/power-bi-report-visualizations.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

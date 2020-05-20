@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 12/16/2019
 ms.author: painbar
-ms.openlocfilehash: 9af7fd95bcdaf0d747d1a3f2313f965d18a888e3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 16d62af90855c99f9d50c35dd411ef50f2a9a4e6
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205668"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565172"
 ---
 # <a name="a-quick-tour-of-the-mobile-app-home-page"></a>모바일 앱 홈페이지 둘러보기
 이 둘러보기에서는 Power BI 모바일 앱의 홈페이지와 필요한 항목에 빠르게 액세스할 수 있도록 제공되는 탐색 도우미를 살펴봅니다.
@@ -30,18 +30,18 @@ Power BI Mobile 앱을 열면 자주 또는 최근에 방문한 보고서, 대�
  
 ## <a name="quick-access-tab"></a>빠른 액세스 탭
 
-빠른 액세스 탭에는 자주 및 최근 본 보고서, 대시보드, 앱이 두 개의 접기 가능한 섹션으로 그룹화되어 표시됩니다. 최근 본 항목의 긴 목록을 보려면 최근 항목의 오른쪽에 있는 **모두 보기**를 탭합니다. 
+빠른 액세스 탭에는 자주 및 최근 본 보고서, 대시보드, 앱이 두 개의 접기 가능한 섹션으로 그룹화되어 표시됩니다. 최근 본 항목의 긴 목록을 보려면 최근 항목의 오른쪽에 있는 **모두 표시**를 탭합니다. 
 
 ## <a name="activity-feed"></a>작업 피드
 
-작업 피드를 사용하면 Power BI 콘텐츠의 변경 내용을 추적할 수 있습니다. 작업 피드에는 모든 최신 알림, 경고, 댓글, @멘션이 표시됩니다.
+작업 피드를 사용하면 Power BI 콘텐츠의 변경 내용을 추적할 수 있습니다. 작업 피드에는 모든 최신 알림, 경고, 댓글, @mentions이 표시됩니다.
 
 ![작업 피드](./media/mobile-apps-home-page/powerbi-mobile-app-activity.png)
 
 피드 업데이트에는 다음이 포함됩니다.
 * **새로 고친 데이터**: 즐겨찾기나 최근 항목에 있는 보고서 또는 대시보드 중 하나의 기본 데이터를 새로 고친 경우
 * **새 댓글**: 다른 사람이 즐겨찾기나 최근 항목에 있는 보고서 또는 대시보드에 댓글을 만들거나 댓글에서 사용자를 멘션한 경우
-* **데이터 경고**: 데이터가 이전에 [데이터 경고](../../mobile-set-data-alerts-in-the-mobile-apps.md)에서 설정한 임계값에 도달한 경우
+* **데이터 경고**: 데이터가 이전에 [데이터 경고](mobile-set-data-alerts-in-the-mobile-apps.md)에서 설정한 임계값에 도달한 경우
 * **앱 업데이트**: 앱 작성자가 사용 중인 앱의 업데이트를 게시한 경우
 
  자세히 살펴보려면 작업 항목을 탭하여 관련 위치로 점프합니다.
@@ -57,26 +57,26 @@ Power BI Mobile 앱을 열면 자주 또는 최근에 방문한 보고서, 대�
 탐색 모음을 통해 다음 항목을 빠르게 액세스할 수 있습니다.
 
 * ![홈아이콘](./media/mobile-apps-home-page/powerbi-mobile-app-home-icon.png) **홈** - 홈페이지로 돌아갑니다.
-* ![즐겨찾기 아이콘](./media/mobile-apps-home-page/powerbi-mobile-app-favorites-icon.png) **즐겨찾기** - [즐겨찾기](../../mobile-apps-favorites.md)로 표시한 보고서, 대시보드, 앱입니다.
+* ![즐겨찾기 아이콘](./media/mobile-apps-home-page/powerbi-mobile-app-favorites-icon.png) **즐겨찾기** - [즐겨찾기](mobile-apps-favorites.md)로 표시한 보고서, 대시보드, 앱입니다.
 * ![앱 아이콘](./media/mobile-apps-home-page/powerbi-mobile-app-apps-icon.png) **앱** - 계정에 설치한 앱입니다.
 * ![작업 영역 아이콘](./media/mobile-apps-home-page/powerbi-mobile-app-workspaces-icon.png) **작업 영역** - 콘텐츠 작성자가 작성 중인 보고서와 대시보드를 함께 유지하는 작업 폴더입니다.
 * ![최근 항목 아이콘](./media/mobile-apps-home-page/powerbi-mobile-app-recents-icon.png) **최근 항목** - 최근 본 항목입니다.
 * ![공유한 항목 아이콘](./media/mobile-apps-home-page/powerbi-mobile-app-shared-with-me-icon.png) **공유한 항목** - 다른 사용자가 공유한 항목입니다.
 * ![샘플 아이콘](./media/mobile-apps-home-page/powerbi-mobile-app-samples-icon.png) **샘플** - Power BI 기능을 알아보는 데 사용할 수 있는 Power BI 샘플입니다.
-* ![스캐너 아이콘](./media/mobile-apps-home-page/powerbi-mobile-app-scanner-icon.png) **스캐너** - [바코드](../../mobile-apps-scan-barcode-iphone.md) 및 [QR 코드](../../mobile-apps-qr-code.md)를 스캔하는 스캐너로 사용할 수 있는 디바이스 카메라입니다.
+* ![스캐너 아이콘](./media/mobile-apps-home-page/powerbi-mobile-app-scanner-icon.png) **스캐너** - [바코드](mobile-apps-scan-barcode-iphone.md) 및 [QR 코드](mobile-apps-qr-code.md)를 스캔하는 스캐너로 사용할 수 있는 디바이스 카메라입니다.
 
 ## <a name="header"></a>머리글
 
-페이지 맨 위에 있는 머리글에는 사용 중인 Power BI 페이지, 보고서 또는 대시보드의 이름이 표시됩니다.
+페이지 맨 위에 있는 헤더에는 사용 중인 Power BI 페이지, 보고서 또는 대시보드의 이름이 표시됩니다.
 
 ![header](./media/mobile-apps-home-page/powerbi-mobile-app-header.png)
 
 헤더는 다음과 같은 탐색 항목을 제공합니다.
-* **프로필 사진 또는 아바타** - [Power BI 서비스 및 Report Server 계정 간에 전환](../../mobile-app-ssrs-kpis-mobile-on-premises-reports.md)하고 Power BI 모바일 앱 설정에 액세스할 수 있는 가로 창을 엽니다.
+* **프로필 사진 또는 아바타** - [Power BI 서비스 및 Report Server 계정 간에 전환](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)하고 Power BI 모바일 앱 설정에 액세스할 수 있는 가로 창을 엽니다.
 
     ![가로 창](./media/mobile-apps-home-page/powerbi-mobile-app-side-panel.png)
 
-* **알림** - 알림을 보고 액세스할 수 있는 [알림 페이지](../../mobile-apps-notification-center.md)를 엽니다. 알림 벨에 있는 점은 새 알림이 있음을 나타냅니다.
+* **알림** - 알림을 보고 액세스할 수 있는 [알림 페이지](mobile-apps-notification-center.md)를 엽니다. 알림 벨에 있는 점은 새 알림이 있음을 나타냅니다.
 
     ![알림 페이지](./media/mobile-apps-home-page/powerbi-mobile-app-notifications-page.png)
 
@@ -86,5 +86,5 @@ Power BI Mobile 앱을 열면 자주 또는 최근에 방문한 보고서, 대�
 
 ## <a name="next-steps"></a>다음 단계
 이 둘러보기에서는 Power BI 모바일 앱 홈페이지를 살펴보았습니다. Power BI 모바일 앱 사용 방법을 자세히 알아보세요. 
-* [대시보드 및 보고서 살펴보기](../../mobile-apps-quickstart-view-dashboard-report.md)
-* [Power BI 모바일 앱에서 보고서 살펴보기](../../mobile-reports-in-the-mobile-apps.md)
+* [대시보드 및 보고서 살펴보기](mobile-apps-quickstart-view-dashboard-report.md)
+* [Power BI 모바일 앱에서 보고서 살펴보기](mobile-reports-in-the-mobile-apps.md)

@@ -9,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 09/13/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 583d33a1d28fa926bdea41988d651f12de5a8e92
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a490951808271cb845c1ec558344bcf5fdc6c145
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83309133"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564949"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>새로 고침 시나리오 문제 해결
 
@@ -33,7 +33,7 @@ ms.locfileid: "83309133"
 
 ## <a name="refresh-using-web-connector-doesnt-work-properly"></a>웹 커넥터를 사용하여 새로 고침이 제대로 작동하지 않는 경우
 
-[**Web.Page**](https://msdn.microsoft.com/library/mt260924.aspx) 함수를 사용하는 웹 커넥터 스크립트가 있고 2016년 11월 18일 이후에 데이터 세트 또는 보고서를 업데이트한 경우 새로 고침이 제대로 작동하도록 하려면 게이트웨이를 사용해야 합니다.
+[**Web.Page**](/powerquery-m/web-page) 함수를 사용하는 웹 커넥터 스크립트가 있고 2016년 11월 18일 이후에 데이터 세트 또는 보고서를 업데이트한 경우 새로 고침이 제대로 작동하도록 하려면 게이트웨이를 사용해야 합니다.
 
 ## <a name="unsupported-data-source-for-refresh"></a>새로 고침을 지원하지 않는 데이터 소스
 

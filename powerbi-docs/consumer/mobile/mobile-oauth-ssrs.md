@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
-ms.openlocfilehash: c3c6e8d7ddb823eb1e857b102c2f6c788e366141
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 40bbf09e684b4fd3f86564c9b469c6ff248954a6
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114947"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565721"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth를 사용하여 Power BI Report Server 및 SSRS에 연결
 
@@ -60,7 +60,7 @@ Reporting Services 쪽에서 구성할 항목이 많지 않습니다. 적절한 
 
 SPN은 Kerberos 인증을 사용하는 서비스에 대한 고유한 식별자입니다. 보고서 서버에 대한 적절한 HTTP SPN이 있는지 확인해야 합니다.
 
-보고서 서버에 대한 적절한 SPN(서비스 주체 이름)을 구성하는 방법에 대한 자세한 내용은 [보고서 서버에 SPN(서비스 주체 이름) 등록](https://msdn.microsoft.com/library/cc281382.aspx)을 참조하세요.
+보고서 서버에 대한 적절한 SPN(서비스 주체 이름)을 구성하는 방법에 대한 자세한 내용은 [보고서 서버에 SPN(서비스 주체 이름) 등록](/sql/reporting-services/report-server/register-a-service-principal-name-spn-for-a-report-server)을 참조하세요.
 
 ### <a name="enabling-negotiate-authentication"></a>협상 인증 사용
 
@@ -74,7 +74,7 @@ Kerberos 인증을 사용하는 보고서 서버를 사용하려면 보고서 �
 </AuthenticationTypes>
 ```
 
-자세한 내용은 [Reporting Services 구성 파일 수정](https://msdn.microsoft.com/library/bb630448.aspx) 및 [보고서 서버에서 Windows 인증 구성](https://msdn.microsoft.com/library/cc281253.aspx)을 참조하세요.
+자세한 내용은 [Reporting Services 구성 파일 수정](/sql/reporting-services/report-server/modify-a-reporting-services-configuration-file-rsreportserver-config) 및 [보고서 서버에서 Windows 인증 구성](/sql/reporting-services/security/configure-windows-authentication-on-the-report-server)을 참조하세요.
 
 ## <a name="active-directory-federation-services-adfs-configuration"></a>ADFS(Active Directory Federation Services) 구성
 
@@ -248,9 +248,9 @@ Fiddler를 사용할 경우 로그인이 성공적으로 작동하면 WAP 애플
 
 ## <a name="next-steps"></a>다음 단계
 
-[보고서 서버에 SPN(서비스 주체 이름) 등록](https://msdn.microsoft.com/library/cc281382.aspx)  
-[Reporting Services 구성 파일 수정](https://msdn.microsoft.com/library/bb630448.aspx)  
-[보고서 서버에서 Windows 인증 구성](https://msdn.microsoft.com/library/cc281253.aspx)  
+[보고서 서버에 SPN(서비스 주체 이름) 등록](/sql/reporting-services/report-server/register-a-service-principal-name-spn-for-a-report-server)  
+[Reporting Services 구성 파일 수정](/sql/reporting-services/report-server/modify-a-reporting-services-configuration-file-rsreportserver-config)  
+[보고서 서버에서 Windows 인증 구성](/sql/reporting-services/security/configure-windows-authentication-on-the-report-server)  
 [Active Directory Federation Services](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services)  
 [Windows Server 2016의 웹 애플리케이션 프록시](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server)  
 [AD FS 사전 인증을 사용하여 애플리케이션 게시](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)  

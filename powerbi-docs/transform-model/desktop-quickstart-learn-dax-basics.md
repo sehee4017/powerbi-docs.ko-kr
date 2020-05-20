@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 9ff04510a786fa89e1e461e6eefee1af90e58a8e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 783a9bdce34345afd87be379aff7e073ff8c548d
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83313388"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565859"
 ---
 # <a name="apply-dax-basics-in-power-bi-desktop"></a>Power BI Desktop의 DAX 기본 사항 적용
 이 문서는 Power BI Desktop을 처음 사용하는 사용자를 위한 것입니다. DAX(Data Analysis Expressions)를 사용하여 여러 가지 기본 계산 및 데이터 분석 문제를 해결하는 방법을 쉽고 빠르게 소개합니다. 또한 일부 개념 정보, 수행할 수 있는 일련의 작업, 배운 내용을 테스트하는 지식 점검을 살펴보겠습니다. 이 문서를 완료하면 DAX의 가장 중요한 기본 개념을 제대로 이해하고 있어야 합니다.
@@ -66,7 +66,7 @@ DAX 수식을 이해하려는 경우, 매일 생각하고 말하는 언어로 �
 
 “이 측정값은 보고서에 SalesAmount 필드를 추가하는 것과 같은 동작을 수행하는 것이 아닐까?”라고 생각할 수 있습니다. 네, 그렇습니다. 그러나 SalesAmount 필드 값의 합계를 구하는 측정값을 직접 만드는 적절한 이유가 있습니다. 바로 다른 수식에서 인수로 사용할 수 있기 때문입니다. 지금은 약간 혼란스러울 수 있지만, DAX 수식에 대한 기술이 증가함에 따라 이 측정값을 알고 있으면 수식 및 모델을 보다 효율적으로 만들 수 있습니다. 실제로 나중에 다른 수식에서 인수로 표시되는 총 판매액 측정값을 확인할 수 있습니다.
 
-이 수식에 대해 몇 가지 더 살펴보겠습니다. 특히 [SUM](https://msdn.microsoft.com/library/ee634387.aspx) 함수를 사용했습니다. 함수는 복잡한 계산 및 숫자, 날짜, 시간, 텍스트 등을 사용한 조작을 더 쉽게 수행할 수 있도록 미리 작성된 수식입니다. 함수에 대해서는 나중에 자세히 살펴보겠습니다.
+이 수식에 대해 몇 가지 더 살펴보겠습니다. 특히 [SUM](/dax/sum-function-dax) 함수를 사용했습니다. 함수는 복잡한 계산 및 숫자, 날짜, 시간, 텍스트 등을 사용한 조작을 더 쉽게 수행할 수 있도록 미리 작성된 수식입니다. 함수에 대해서는 나중에 자세히 살펴보겠습니다.
 
 또한 열 이름 [SalesAmount]가 해당 열이 속하는 Sales 테이블 뒤에 오는 것을 확인할 수 있습니다. 이 이름은 테이블 이름 뒤에 열 이름을 포함한다는 점에서 정규화된 열 이름이라고 합니다. 동일한 테이블에서 참조되는 열은 수식에 테이블 이름을 포함할 필요가 없으므로 많은 열을 참조하는 긴 수식을 더 짧고 읽기 쉽게 만들 수 있습니다. 그러나 동일한 테이블에 있더라도 측정값 수식에는 테이블 이름을 포함하는 것이 좋습니다.
 
@@ -121,7 +121,7 @@ DAX 수식을 이해하려는 경우, 매일 생각하고 말하는 언어로 �
 
 방금 DAX 수식의 몇 가지 중요한 측면이 소개되었습니다. 
 
-- 이 수식에는 두 개의 함수가 포함되어 있습니다. [PREVIOUSQUARTER](https://msdn.microsoft.com/library/ee634385.aspx) 시간 인텔리전스 함수가 [CALCULATE](https://msdn.microsoft.com/library/ee634825.aspx) 필터 함수에 전달되는 인수로 중첩되었습니다. 
+- 이 수식에는 두 개의 함수가 포함되어 있습니다. [PREVIOUSQUARTER](/dax/previousquarter-function-dax) 시간 인텔리전스 함수가 [CALCULATE](/dax/calculate-function-dax) 필터 함수에 전달되는 인수로 중첩되었습니다. 
 
    DAX 수식에는 중첩 함수가 최대 64개까지 포함될 수 있습니다. 그러나 수식에 이렇게 많은 중첩 함수가 포함될 가능성은 없습니다. 실제로 이러한 수식은 만들고 디버그하기가 어려우며 속도가 빠르지도 않을 것입니다.
 
@@ -142,7 +142,7 @@ DAX 수식을 이해하려는 경우, 매일 생각하고 말하는 언어로 �
 ### <a name="functions"></a>함수
 함수는 특정 순서 또는 구조에서 인수라는 특정 값을 사용하여 계산을 수행하는 미리 정의된 수식입니다. 인수는 다른 함수, 다른 수식, 식, 열 참조, 숫자, 텍스트, TRUE/FALSE 같은 논리 값 또는 상수일 수 있습니다.
 
-DAX에는 다음과 같은 범주의 함수가 포함됩니다. [날짜 및 시간](https://msdn.microsoft.com/library/ee634786.aspx), [시간 인텔리전스](https://msdn.microsoft.com/library/ee634763.aspx), [정보](https://msdn.microsoft.com/library/ee634552.aspx), [논리](https://msdn.microsoft.com/library/ee634365.aspx), [수학](https://msdn.microsoft.com/library/ee634241.aspx), [통계](https://msdn.microsoft.com/library/ee634822.aspx), [텍스트](https://msdn.microsoft.com/library/ee634938.aspx), [상위/하위](https://msdn.microsoft.com/library/mt150102.aspx) 및 [기타](https://msdn.microsoft.com/library/mt150101.aspx) 함수. Excel 수식의 함수에 익숙한 경우 DAX의 많은 함수가 유사하게 보이지만 DAX 함수는 다음과 같은 측면에서 고유합니다.
+DAX에는 다음과 같은 범주의 함수가 포함됩니다. [날짜 및 시간](/dax/date-and-time-functions-dax), [시간 인텔리전스](/dax/time-intelligence-functions-dax), [정보](/dax/information-functions-dax), [논리](/dax/logical-functions-dax), [수학](/dax/math-and-trig-functions-dax), [통계](/dax/statistical-functions-dax), [텍스트](/dax/text-functions-dax), [상위/하위](/dax/parent-and-child-functions-dax) 및 [기타](/dax/other-functions-dax) 함수. Excel 수식의 함수에 익숙한 경우 DAX의 많은 함수가 유사하게 보이지만 DAX 함수는 다음과 같은 측면에서 고유합니다.
 
 * DAX 함수는 항상 전체 열 또는 테이블을 참조합니다. 테이블 또는 열에서 특정 값만 사용하려는 경우 수식에 필터를 추가할 수 있습니다.
 * 행 단위로 계산을 사용자 지정해야 하는 경우 DAX는 현재 행 값이나 관련 값을 일종의 인수로 사용할 수 있는 함수를 제공하여 컨텍스트에 따라 다른 계산을 수행합니다. 컨텍스트에 대해서는 나중에 자세히 살펴보겠습니다.
@@ -150,7 +150,7 @@ DAX에는 다음과 같은 범주의 함수가 포함됩니다. [날짜 및 시�
 * DAX에는 다양한 시간 인텔리전스 함수가 포함되어 있습니다. 이러한 함수를 사용하여 날짜 범위를 정의하거나 선택하고 그에 따라 동적 계산을 수행할 수 있습니다. 예를 들어 병렬 기간 전체의 합계를 비교할 수 있습니다.
 * Excel에는 많이 사용되는 VLOOKUP 함수가 있습니다. DAX 함수는 Excel의 VLOOKUP처럼 셀 또는 셀 범위를 참조로 사용하지 않습니다. DAX 함수는 열 또는 테이블을 참조로 사용합니다. Power BI Desktop에서는 관계형 데이터 모델을 사용한다는 점에 유의해야 합니다. 다른 테이블의 값을 쉽게 조회할 수 있으며, 대부분의 경우 수식을 만들 필요가 없습니다.
   
-  보시는 것처럼 DAX의 함수를 사용하면 강력한 수식을 만들 수 있습니다. 실제로 여기서는 함수의 기본 사항만 다루었습니다. DAX에 대한 기술이 증가함에 따라 다양한 함수를 사용하여 수식을 만들 수 있습니다. 각 DAX 함수에 대한 자세한 내용은 [DAX 함수 참조](https://msdn.microsoft.com/query-bi/dax/data-analysis-expressions-dax-reference)를 참조하세요.
+  보시는 것처럼 DAX의 함수를 사용하면 강력한 수식을 만들 수 있습니다. 실제로 여기서는 함수의 기본 사항만 다루었습니다. DAX에 대한 기술이 증가함에 따라 다양한 함수를 사용하여 수식을 만들 수 있습니다. 각 DAX 함수에 대한 자세한 내용은 [DAX 함수 참조](/dax/)를 참조하세요.
 
 ### <a name="functions-quickquiz"></a>함수 QuickQuiz
 1. 함수는 항상 무엇을 참조하나요?
@@ -210,7 +210,7 @@ DAX에는 다음과 같은 범주의 함수가 포함됩니다. [날짜 및 시�
 답변은 이 문서의 끝에서 제공됩니다.
 
 ## <a name="summary"></a>요약
-DAX에서 가장 중요한 개념에 대한 기본적인 내용을 이해했으므로 이제 측정값에 대한 DAX 수식을 직접 만들 수 있습니다. 실제로 DAX는 배우기가 약간 까다로울 수 있지만 사용 가능한 많은 리소스를 제공합니다. 이 문서 전체를 읽고 몇 가지 수식을 직접 시험해 보면 고유한 비즈니스 문제를 해결하는 데 도움이 되는 기타 DAX 개념 및 수식에 대해 더 자세히 이해할 수 있습니다. 많은 DAX 리소스를 사용할 수 있지만 [DAX(Data Analysis Expressions) 참조](https://msdn.microsoft.com/library/gg413422.aspx)가 가장 중요합니다.
+DAX에서 가장 중요한 개념에 대한 기본적인 내용을 이해했으므로 이제 측정값에 대한 DAX 수식을 직접 만들 수 있습니다. 실제로 DAX는 배우기가 약간 까다로울 수 있지만 사용 가능한 많은 리소스를 제공합니다. 이 문서 전체를 읽고 몇 가지 수식을 직접 시험해 보면 고유한 비즈니스 문제를 해결하는 데 도움이 되는 기타 DAX 개념 및 수식에 대해 더 자세히 이해할 수 있습니다. 많은 DAX 리소스를 사용할 수 있지만 [DAX(Data Analysis Expressions) 참조](/dax/)가 가장 중요합니다.
 
 DAX는 파워 피벗, Analysis Services 테이블 형식 모델 등의 다른 Microsoft BI 도구에서 여러 해 동안 사용되었으므로 유용한 정보가 많습니다. 자세한 내용은 Microsoft 및 업계 최고 BI 전문가들이 제공하는 설명서, 백서 및 블로그에서 확인할 수 있습니다. [TechNet의 DAX 리소스 센터 Wiki](https://social.technet.microsoft.com/wiki/contents/articles/dax-resource-center.aspx)도 시작하는 데 많은 도움이 될 수 있습니다.
 
@@ -224,11 +224,10 @@ DAX는 파워 피벗, Analysis Services 테이블 형식 모델 등의 다른 Mi
 
 1. 테이블 및 열
 2. 예. 수식에는 중첩된 함수가 최대 64개까지 포함될 수 있습니다.
-3. [텍스트 함수](https://msdn.microsoft.com/library/ee634938.aspx).
+3. [텍스트 함수](/dax/text-functions-dax).
 
 컨텍스트:
 
 1. 행 컨텍스트 및 필터 컨텍스트
 2. 단일 값을 결정하는 계산에서 사용되는 하나 이상의 필터
 3. 현재 행
-

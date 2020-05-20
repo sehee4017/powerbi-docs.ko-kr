@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: a22bba65b44446e7027627a24ebcf316f8f073d4
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 39d30cc7949565872fd638f289756be6541eee0d
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348393"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564989"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI에 대한 질문과 대답
 
@@ -89,7 +89,7 @@ Power BI 서비스를 무료로 사용하려면 웹 브라우저와 메일만 �
 
 ## <a name="what-browsers-does-power-bi-support"></a>Power BI에서는 어떤 브라우저를 지원하나요?
 
-다음은 [Power BI에 지원되는 브라우저](../service-browser-support.md)의 전체 목록입니다.
+다음은 [Power BI에 지원되는 브라우저](../fundamentals/power-bi-browsers.md)의 전체 목록입니다.
 
 ## <a name="what-regions-and-languages-does-power-bi-support"></a>Power BI에서는 어떤 영역 및 언어를 지원하나요?
 

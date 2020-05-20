@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: b89c64caa7a4f8fe846cca488164758550a4869a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 78031bb4f8326b50917b5c299948518717cc18a9
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83361201"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83566066"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 서비스의 새로운 기능
 **Power BI 서비스**의 알려진 문제 및 최근에 릴리스된 기능에 대해서는 이 페이지를 확인하세요. 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -224,7 +224,7 @@ ms.locfileid: "83361201"
 
 ### <a name="june-2017"></a>2017년 6월
 * [Power BI Premium](https://powerbi.microsoft.com/blog/power-bi-premium-generally-available/)을 일반적으로 사용할 수 있습니다.
-* [예약된 새로 고침 자동화](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/), [보고서 복제 및 다시 바인딩](https://github.com/Azure-Samples/powerbi-powershell/blob/master/rebindReport.ps1), [게이트웨이 바인딩 업데이트](https://msdn.microsoft.com/library/mt784650.aspx) 등에 대한 여러 API 개선 사항
+* [예약된 새로 고침 자동화](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/), [보고서 복제 및 다시 바인딩](https://github.com/Azure-Samples/powerbi-powershell/blob/master/rebindReport.ps1), [게이트웨이 바인딩 업데이트](/rest/api/power-bi/) 등에 대한 여러 API 개선 사항
 * 대시보드 타일에서 다른 대시보드 및 보고서로 Power BI 앱의 상대적 링크
 * [Impala 커넥터](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#impala)는 일반적으로 Power BI Desktop에서 사용할 수 있습니다.
 * [대화형 R Power BI 시각적 개체](https://powerbi.microsoft.com/blog/interactive-r-custom-visuals-support-is-here/)를 사용하여 Power BI의 시각적 개체 기능을 확장합니다.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3f3b5f8967890a3bb0cda3464b8d122d40938f62
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 283b43ef60d88df64b66812956e79bdcce1f16e9
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83322013"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565790"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Excel에서 Power BI 대시보드에 타일 고정
 Excel 통합 문서에서 타일을 고정하려면 해당 통합 문서를 Power BI 서비스(app.powerbi.com)에 연결합니다. 통합 문서를 기본적으로 연결하면 해당 통합 문서의 연결된 읽기 전용 버전을 Power BI 서비스로 가져오고 범위를 대시보드에 고정할 수 있습니다. 전체 워크시트를 대시보드에 고정할 수도 있습니다.  
@@ -34,7 +34,7 @@ Power BI에서는 통합 문서를 편집할 수 없습니다. 그러나 일부 
 
 1. 비즈니스용 OneDrive에 통합 문서를 업로드합니다.
 
-2. Power BI에서 [데이터 가져오기 > 파일 > OneDrive - Business](../connect-data/service-excel-workbook-files.md)를 선택하고 Excel 파일을 저장한 위치로 이동하여 **해당 통합 문서에 연결**합니다. 파일을 선택하고 **연결 > 연결**을 선택합니다.
+2. Power BI에서 **데이터 가져오기 > 파일 > OneDrive - Business**를 선택하고 Excel 파일을 저장한 위치로 이동하여 [해당 통합 문서에 연결](../connect-data/service-excel-workbook-files.md)합니다. 파일을 선택하고 **연결 > 연결**을 선택합니다.
 
     ![비즈니스용 OneDrive 대화 상자](media/service-dashboard-pin-tile-from-excel/power-bi-connect.png)
 
@@ -80,7 +80,7 @@ Power BI에서는 통합 문서를 편집할 수 없습니다. 그러나 일부 
  ![비디오](media/service-dashboard-pin-tile-from-excel/pin-from-excel.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
-지원되지 않는 기능: Power BI는 Excel Services를 사용하여 통합 문서 타일을 검색합니다. 따라서 Excel의 일부 기능은 Excel Services REST API에서 지원되지 않으므로 Power BI의 타일에 표시되지 않습니다. 예를 들어 스파크라인, 아이콘 집합 조건부 서식 및 시간 슬라이서 등이 있습니다. 지원되지 않는 기능의 전체 목록은 [Excel Services REST API에서 지원되지 않는 기능](https://msdn.microsoft.com/library/office/ff394477.aspx)을 참조하세요.
+지원되지 않는 기능: Power BI는 Excel Services를 사용하여 통합 문서 타일을 검색합니다. 따라서 Excel의 일부 기능은 Excel Services REST API에서 지원되지 않으므로 Power BI의 타일에 표시되지 않습니다. 예를 들어 스파크라인, 아이콘 집합 조건부 서식 및 시간 슬라이서 등이 있습니다. 지원되지 않는 기능의 전체 목록은 [Excel Services REST API에서 지원되지 않는 기능](/sharepoint/dev/general-development/unsupported-features-in-excel-services-rest-api)을 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 [Excel 통합 문서에 대한 링크가 있는 대시보드 공유](../collaborate-share/service-share-dashboard-that-links-to-excel-onedrive.md)

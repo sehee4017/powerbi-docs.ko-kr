@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: deb72b1b66d4cbc87c2e317bb1fe1428c079cfea
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2c71f26949f19ed1beb29a162c18dc36ed689c21
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83308949"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565349"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>데이터 원본 관리 - Analysis Services
 
@@ -54,9 +54,9 @@ Analysis Services에 대한 라이브 연결을 설정하는 방법에 대한 �
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Qb5EEjkHoLg" frameborder="0" allowfullscreen></iframe>
 
-사용자가 Analysis Services에 연결된 보고서를 조작할 때마다 유효한 사용자 이름은 게이트웨이에 전달된 다음 온-프레미스 Analysis Services 서버에 전달됩니다. Power BI에 로그인하는 데 사용하는 메일 주소는 유효한 사용자로 Analysis Services에 전달됩니다. 이 주소는 연결 속성 [EffectiveUserName](https://msdn.microsoft.com/library/dn140245.aspx#bkmk_auth)에 전달됩니다. 
+사용자가 Analysis Services에 연결된 보고서를 조작할 때마다 유효한 사용자 이름은 게이트웨이에 전달된 다음 온-프레미스 Analysis Services 서버에 전달됩니다. Power BI에 로그인하는 데 사용하는 메일 주소는 유효한 사용자로 Analysis Services에 전달됩니다. 이 주소는 연결 속성 [EffectiveUserName](/analysis-services/instances/connection-string-properties-analysis-services#bkmk_auth)에 전달됩니다. 
 
-이 메일 주소는 로컬 Active Directory 도메인 내에서 정의된 UPN(사용자 계정 이름)과 일치해야 합니다. UPN은 Active Directory 계정의 속성입니다. 해당 Windows 계정은 Analysis Services 역할에 있어야 합니다. 일치하는 항목이 Active Directory에 없는 경우 로그인에 성공하지 못한 것입니다. Active Directory 및 사용자 이름 지정에 대한 자세한 내용은 [사용자 이름 지정 특성](https://msdn.microsoft.com/library/ms677605.aspx)을 참조하세요.
+이 메일 주소는 로컬 Active Directory 도메인 내에서 정의된 UPN(사용자 계정 이름)과 일치해야 합니다. UPN은 Active Directory 계정의 속성입니다. 해당 Windows 계정은 Analysis Services 역할에 있어야 합니다. 일치하는 항목이 Active Directory에 없는 경우 로그인에 성공하지 못한 것입니다. Active Directory 및 사용자 이름 지정에 대한 자세한 내용은 [사용자 이름 지정 특성](/windows/win32/ad/naming-properties)을 참조하세요.
 
 [로컬 디렉터리 UPN으로 Power BI 로그인 이름을 매핑](service-gateway-enterprise-manage-ssas.md#map-user-names-for-analysis-services-data-sources)할 수도 있습니다.
 
@@ -203,7 +203,7 @@ Analysis Services에서도 이 계정에 따라 필터링을 제공할 수 있�
 - Windows 사용자 계정이 멤버로 속해 있는 역할.
 - 동적 행 수준 보안(구성된 경우).
 
-모델에서 역할 및 동적 행 수준 보안을 구현하는 작업은 이 문서의 범위를 벗어납니다. MSDN에서 [역할(SSAS 테이블 형식)](https://msdn.microsoft.com/library/hh213165.aspx) 및 [보안 역할(Analysis Services - 다차원 데이터)](https://msdn.microsoft.com/library/ms174840.aspx)을 자세히 알아볼 수 있습니다. 테이블 형식 모델 보안을 가장 깊이 있게 이해하려면 [Securing the Tabular BI Semantic Model(테이블 형식 BI 의미 체계 모델 보안 설정) 백서](https://msdn.microsoft.com/library/jj127437.aspx)를 다운로드하여 읽어 보세요.
+모델에서 역할 및 동적 행 수준 보안을 구현하는 작업은 이 문서의 범위를 벗어납니다. MSDN에서 [역할(SSAS 테이블 형식)](/analysis-services/tabular-models/roles-ssas-tabular) 및 [보안 역할(Analysis Services - 다차원 데이터)](/analysis-services/multidimensional-models/olap-logical/security-roles-analysis-services-multidimensional-data)을 자세히 알아볼 수 있습니다. 테이블 형식 모델 보안을 가장 깊이 있게 이해하려면 [Securing the Tabular BI Semantic Model(테이블 형식 BI 의미 체계 모델 보안 설정) 백서](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx)를 다운로드하여 읽어 보세요.
 
 ## <a name="what-about-azure-ad"></a>Azure AD의 경우에는 어떻게 되나요?
 

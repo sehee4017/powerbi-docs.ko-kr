@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 35e5d3b93305f8f2271db6343164cad8b57a4bfd
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: c687486af1293660af5496e27ea707bb1afeec80
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348853"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564555"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Power BI 디자이너용 대시보드 소개
 
@@ -22,7 +22,7 @@ Power BI *대시보드*는 시각화를 통해 스토리를 알려주는 흔히 
 
 ![대시보드](media/service-dashboards/power-bi-dashboard2.png)
 
-대시보드는 Power BI 서비스 전용 기능입니다. 대시보드는 Power BI Desktop에서 사용할 수 없습니다. 모바일 디바이스에서 대시보드를 만들 수는 없지만 대시보드 [보기 및 공유]../consumer/mobile/mobile-apps-view-dashboard.md)는 가능합니다.
+대시보드는 Power BI 서비스 전용 기능입니다. 대시보드는 Power BI Desktop에서 사용할 수 없습니다. 모바일 디바이스에서는 대시보드를 만들 수 없지만 [보기 및 공유](../consumer/mobile/mobile-apps-view-dashboard.md)는 가능합니다.
 
 ## <a name="dashboard-basics"></a>대시보드 기본 사항 
 

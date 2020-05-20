@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/17/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0b0bf61672d383900dad50e5fe7404f7f4a7f0bc
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 96a780d7d7b100acb283623107d4ec841666bb8f
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348922"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561665"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Power BI 디자이너용 대시보드 타일 소개
 
@@ -23,7 +23,7 @@ ms.locfileid: "83348922"
 
 ![Power BI 대시보드](media/service-dashboard-tiles/power-bi-dashboard.png)
 
-대시보드 및 대시보드 타일은 Power BI Desktop이 아닌 Power BI 서비스의 기능입니다. 모바일 디바이스에서 대시보드를 만들 수는 없지만 대시보드 [보기 및 공유]../consumer/mobile/mobile-apps-view-dashboard.md)는 가능합니다.
+대시보드 및 대시보드 타일은 Power BI Desktop이 아닌 Power BI 서비스의 기능입니다. 모바일 디바이스에서는 대시보드를 만들 수 없지만 [보기 및 공유](../consumer/mobile/mobile-apps-view-dashboard.md)할 수 있습니다.
 
 타일 고정 외에도, [타일 추가](service-dashboard-add-widget.md) 컨트롤을 사용하여 대시보드에서 직접 독립 실행형 타일을 만들 수 있습니다. 독립 실행형 타일에는 텍스트 상자, 이미지, 동영상, 스트리밍 데이터 및 웹 콘텐츠가 포함됩니다.
 
@@ -98,6 +98,6 @@ Power BI의 구성 요소를 이해하는 데 도움이 필요한 경우 [Power 
 - [Power BI에서 데이터 새로 고침](../connect-data/refresh-data.md)
 - [Power BI 서비스의 디자이너를 위한 기본 개념](../fundamentals/service-basic-concepts.md)
 - [Office 문서에 Power BI 타일 통합](https://powerbi.microsoft.com/blog/integrating-power-bi-tiles-into-office-documents/)
-- [Power BI 대시보드에 Reporting Services 항목 고정](https://msdn.microsoft.com/library/mt604784.aspx)
+- [Power BI 대시보드에 Reporting Services 항목 고정](/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용](https://community.powerbi.com/)하세요.

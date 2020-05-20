@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 93d94aadb8e7606fd6d55c463a2be88f87e48047
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2aa75d1cbe04f33197bf8941fd101c66384142dd
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83314860"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565813"
 ---
 # <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>휴대폰에 대한 대시보드 최적화 - Power BI 
 휴대폰에서 세로 모드로 대시보드를 볼 때 대시보드 타일이 모두 동일한 크기로 하나씩 배치된 것을 확인할 수 있습니다. Power BI 서비스에서 대시보드의 사용자 지정 보기를 만들 수 있습니다(특히 휴대폰 세로 모드). 휴대폰 보기를 만든 경우에도 휴대을 옆으로 돌리면 서비스에 배치된 대로 대시보드가 표시됩니다.
@@ -57,5 +57,5 @@ ms.locfileid: "83314860"
 
 ## <a name="next-steps"></a>다음 단계
 * [Power BI 전화 앱에 대해 최적화된 보고서 만들기](desktop-create-phone-report.md)
-* [모든 크기에 최적화된 반응형 시각적 개체 만들기](../visuals/desktop-create-responsive-visuals.md)
+* [모든 크기에 최적화된 반응형 시각적 개체 만들기](../visuals/power-bi-report-visualizations.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

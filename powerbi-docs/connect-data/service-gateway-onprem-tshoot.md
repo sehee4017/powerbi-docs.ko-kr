@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: troubleshooting
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 99d418b9a3d0a45fcdd22c0f9090b48393121f27
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 698765cd71873de3badfce45ef546ed61220b323
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83302716"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565326"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>게이트웨이 문제 해결 - Power BI
 
@@ -64,7 +64,7 @@ ms.locfileid: "83302716"
 
     The 'CONTOSO\account' value of the 'EffectiveUserName' XML for Analysis property is not valid.
 
-기본 오류 메시지가 다음과 유사한 경우 Analysis Services에 대한 서비스 계정에서 TGGAU([token-groups-global-and-universal](https://msdn.microsoft.com/library/windows/desktop/ms680300.aspx)) 디렉터리 특성이 누락되었을 수 있습니다.
+기본 오류 메시지가 다음과 유사한 경우 Analysis Services에 대한 서비스 계정에서 TGGAU([token-groups-global-and-universal](/windows/win32/adschema/a-tokengroupsglobalanduniversal)) 디렉터리 특성이 누락되었을 수 있습니다.
 
     The username or password is incorrect.
 

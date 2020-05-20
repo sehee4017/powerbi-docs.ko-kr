@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 11/26/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 858ecc07deabf5b91295220c2b92791b998ecf3a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: e5394a9ac7b7dbfc9edcfac53ea87d061e306a47
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349244"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565836"
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>자습서: Power BI Desktop에서 계산 열 만들기
 
@@ -46,7 +46,7 @@ ms.locfileid: "83349244"
 
 2. 기본적으로 새 계산 열의 이름은 **열**로 지정됩니다. 이름을 바꾸지 않으면 추가하는 새 열의 이름은 **열 2**, **열 3** 등으로 지정됩니다. 열을 더 쉽게 확인할 수 있게 하려면 수식 입력줄에서는 **열** 이름이 이미 강조 표시되어 있으므로 **ProductFullCategory**를 입력하여 열 이름을 바꾼 후 등호( **=** )를 입력합니다.
 
-3. 새 열의 값을 **ProductCategory** 필드의 이름으로 시작하려고 합니다. 이 열은 다르지만 관련된 테이블에 있으므로 [RELATED](https://msdn.microsoft.com/library/ee634202.aspx) 함수를 사용하여 가져올 수 있습니다.
+3. 새 열의 값을 **ProductCategory** 필드의 이름으로 시작하려고 합니다. 이 열은 다르지만 관련된 테이블에 있으므로 [RELATED](/dax/related-function-dax) 함수를 사용하여 가져올 수 있습니다.
 
    등호 뒤에 **r**을 입력합니다. 드롭다운 제안 목록에는 문자 R로 시작하는 모든 DAX 함수가 표시됩니다. 각 함수를 선택하면 해당 함수에 대한 설명이 표시됩니다. 문자를 더 입력하면 원하는 함수와 더 비슷한 함수들이 제안 목록에 표시됩니다. **RELATED**를 선택한 다음, **Enter** 키를 누릅니다.
 
@@ -97,7 +97,7 @@ ms.locfileid: "83349244"
 
 Contoso Sales Sample에는 활성 및 비활성 매장에 대한 판매 데이터가 포함되어 있습니다. **Active StoreName** 필드를 만들어 보고서에서 활성 매장 판매가 비활성 매장 판매와 명확하게 구분되는지 확인하려고 합니다. 새 **Active StoreName** 계산 열에서 각 활성 매장에는 매장의 전체 이름이 표시되지만 비활성 매장의 매출은 **Inactive**라는 하나의 품목으로 그룹화됩니다.
 
-다행히도 **Stores** 테이블에는 새 **Active StoreName** 열에 대한 값을 만드는 데 사용할 수 있으며 활성 매장에 대해 “On” 값을 사용하고 비활성 매장에 대해 “Off” 값을 사용하는 **Status** 열이 있습니다. DAX 수식에서는 논리적 [IF](https://msdn.microsoft.com/library/ee634824.aspx) 함수를 사용하여 각 매장의 **Status**를 테스트하고 결과에 따라 특정 값을 반환합니다. 매장의 **Status**가 “On”인 경우 수식은 매장 이름을 반환합니다. “Off”이면 수식은 “Inactive”의 **Active StoreName**을 할당합니다.
+다행히도 **Stores** 테이블에는 새 **Active StoreName** 열에 대한 값을 만드는 데 사용할 수 있으며 활성 매장에 대해 “On” 값을 사용하고 비활성 매장에 대해 “Off” 값을 사용하는 **Status** 열이 있습니다. DAX 수식에서는 논리적 [IF](/dax/if-function-dax) 함수를 사용하여 각 매장의 **Status**를 테스트하고 결과에 따라 특정 값을 반환합니다. 매장의 **Status**가 “On”인 경우 수식은 매장 이름을 반환합니다. “Off”이면 수식은 “Inactive”의 **Active StoreName**을 할당합니다.
 
 1. **Stores** 테이블에서 새 계산 열을 만들고 수식 입력줄에서 이름을 **Active StoreName**으로 지정합니다.
 
@@ -133,4 +133,4 @@ Contoso Sales Sample에는 활성 및 비활성 매장에 대한 판매 데이�
 
 DAX 수식을 심층 분석하고 고급 수식을 사용하여 계산 열을 만들려는 경우 [Power BI Desktop의 DAX 기본 사항](desktop-quickstart-learn-dax-basics.md)을 참조하세요. 이 문서에서는 구문, 함수 및 컨텍스트에 대한 보다 철저한 이해와 같은 DAX의 기본 개념에 중점을 둡니다.
 
-잊지 말고 [DAX(Data Analysis Expressions) 참조](https://msdn.microsoft.com/library/gg413422.aspx)를 즐겨찾기에 추가하세요. 여기서는 DAX 구문, 연산자 및 200개가 넘는 DAX 함수에 대한 자세한 내용을 확인할 수 있습니다.
+잊지 말고 [DAX(Data Analysis Expressions) 참조](/dax/)를 즐겨찾기에 추가하세요. 여기서는 DAX 구문, 연산자 및 200개가 넘는 DAX 함수에 대한 자세한 내용을 확인할 수 있습니다.

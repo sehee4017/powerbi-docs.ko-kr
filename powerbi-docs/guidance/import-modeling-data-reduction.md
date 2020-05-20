@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/05/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 7816fd6e75c9b8925ba0d707f6a63f58af546fcf
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2c92fb47f576b750aa4815b56fabece2b5bc1de5
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279483"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565974"
 ---
 # <a name="data-reduction-techniques-for-import-modeling"></a>가져오기 모델링을 위한 데이터 축소 방법
 
@@ -105,4 +105,3 @@ Power BI 가져오기 모델 디자인에 대한 자세한 내용은 다음 문�
 - [Power BI Desktop에서 복합 모델 사용](../transform-model/desktop-composite-models.md)
 - [Power BI Desktop의 스토리지 모드](../transform-model/desktop-storage-mode.md)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
-

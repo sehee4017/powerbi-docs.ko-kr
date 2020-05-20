@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/18/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 593847d229dcd4e2081843523a0a988415a9ef81
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: cab4accfa11a4c92c1672314e2157659ef68f21a
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83297978"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564749"
 ---
 # <a name="optimize-power-bi-reports-for-the-mobile-app"></a>모바일 앱에 맞게 Power BI 보고서 최적화
 세로 레이아웃을 만들어 모바일 앱에서 보고서를 보는 환경을 개선할 수 있습니다. Power BI Desktop 및 Power BI 서비스에서 보고서 시각적 개체를 다시 정렬하고 크기를 조정하여 세로 모드에서 최적의 환경을 경험할 수 있습니다.  
@@ -58,7 +58,7 @@ Power BI는 시각적 요소의 크기가 변경될 때 데이터가 보여지�
 
 ![반응형 시각적 개체 크기 조정](media/desktop-create-phone-report/desktop-create-phone-report-6.gif)
 
-각 시각적 개체에 대해 응답성을 사용하도록 설정할지 여부를 선택합니다. [시각적 개체 최적화](../visuals/desktop-create-responsive-visuals.md)에 대해 자세히 알아보세요.
+각 시각적 개체에 대해 응답성을 사용하도록 설정할지 여부를 선택합니다. [시각적 개체 최적화](../visuals/power-bi-report-visualizations.md)에 대해 자세히 알아보세요.
 
 ## <a name="considerations-when-creating-phone-report-layouts"></a>휴대폰 보고서 레이아웃을 만들 때 고려 사항
 * 여러 페이지의 보고서인 경우 모든 페이지 또는 일부만 최적화할 수 있습니다. 
@@ -108,5 +108,5 @@ Power BI는 시각적 요소의 크기가 변경될 때 데이터가 보여지�
 ## <a name="next-steps"></a>다음 단계
 * [Power BI에서 대시보드 휴대폰 보기 만들기](service-create-dashboard-mobile-phone-view.md)
 * [휴대폰에 대해 최적화된 Power BI 보고서 보기](../consumer/mobile/mobile-apps-view-phone-report.md)
-* [모든 크기에 최적화된 반응형 시각적 개체 만들기](../visuals/desktop-create-responsive-visuals.md)
+* [모든 크기에 최적화된 반응형 시각적 개체 만들기](../visuals/power-bi-report-visualizations.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다](https://community.powerbi.com/).

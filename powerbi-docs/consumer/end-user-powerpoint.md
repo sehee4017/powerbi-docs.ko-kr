@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/12/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1dbb35ab45a1172044cedb7fbe484ed4da6c43db
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: f70c41e40ff2da385b2f63798b93dec3fcd7b7c5
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348370"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565744"
 ---
 # <a name="export-reports-to-powerpoint"></a>PowerPoint로 보고서 내보내기
 
@@ -31,7 +31,7 @@ Power BI 서비스(app.powerbi.com)를 사용하여 보고서를 Microsoft Power
 
 **Power BI 보고서**를 **PowerPoint**로 빠르게 내보낼 수 있습니다. 다음 섹션에서 설명하는 단계를 수행합니다.
 
-Power BI 서비스에서 한 번에 하나의 시각적 개체를 복사하여 PowerPoint(또는 붙여넣기를 지원하는 다른 프로그램)에 붙여넣을 수도 있습니다. **이미지로 복사** 아이콘을 선택하여 시각적 개체를 클립보드에 복사합니다. 그런 다음 PowerPoint를 열고 시각적 개체를 붙여넣습니다. 자세한 내용은 [시각적 개체를 정적 이미지로 복사](../power-bi-visualization-copy-paste.md)를 참조하세요.
+Power BI 서비스에서 한 번에 하나의 시각적 개체를 복사하여 PowerPoint(또는 붙여넣기를 지원하는 다른 프로그램)에 붙여넣을 수도 있습니다. **이미지로 복사** 아이콘을 선택하여 시각적 개체를 클립보드에 복사합니다. 그런 다음 PowerPoint를 열고 시각적 개체를 붙여넣습니다. 자세한 내용은 [시각적 개체를 정적 이미지로 복사](../visuals/power-bi-visualization-copy-paste.md)를 참조하세요.
 
 ![이미지로 복사 아이콘 선택](media/end-user-powerpoint/power-bi-copy.png)
 
@@ -87,12 +87,12 @@ Power BI가 내보낸 PowerPoint 파일을 열면 훌륭하고 유용한 요소�
 **PowerPoint로 내보내기** 기능을 사용할 때 유의해야 할 고려 사항 및 제한 사항이 있습니다.
  
 
-* 현재는 내보내기에서 **현재 값**을 선택할 경우 [URL 필터](../service-url-filters.md)가 적용되지 않습니다.
+* 현재는 내보내기에서 **현재 값**을 선택할 경우 [URL 필터](../collaborate-share/service-url-filters.md)가 적용되지 않습니다.
 
 * PowerPoint로 내보내는 보고서에 사용자 지정 글꼴이 사용된 경우 해당 글꼴은 기본 글꼴로 바뀝니다.
 
 * 다음 시각적 개체 형식은 지원되지 않으며 PowerPoint로 내보내지지 않습니다.
-   - [인증되지 않은 사용자 지정 시각적 개체](../developer/power-bi-custom-visuals-certified.md)는 지원되지 않습니다. 
+   - [인증되지 않은 사용자 지정 시각적 개체](../developer/visuals/power-bi-custom-visuals-certified.md)는 지원되지 않습니다. 
    - [ESRI ArcGIS 시각적 개체](../visuals/power-bi-visualizations-arcgis.md)는 지원되지 않습니다.
    - R 및 Python 시각적 개체는 지원되지 않습니다.
    - 배경 이미지는 차트의 경계 영역에서 잘립니다. PowerPoint로 내보내기 전에 배경 이미지를 제거하는 것이 좋습니다.
@@ -109,5 +109,5 @@ Power BI가 내보낸 PowerPoint 파일을 열면 훌륭하고 유용한 요소�
 
 
 ## <a name="next-steps"></a>다음 단계
-[시각적 개체를 정적 이미지로 복사](../power-bi-visualization-copy-paste.md)    
+[시각적 개체를 정적 이미지로 복사](../visuals/power-bi-visualization-copy-paste.md)    
 [보고서 인쇄](end-user-print.md)

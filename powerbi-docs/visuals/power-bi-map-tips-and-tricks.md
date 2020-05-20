@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 89b81286819e5f286a26efeb6b36d6336446132c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 8a7b5785712aeac318b3d8a2bbd14ab7170a435f
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277827"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565905"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI Map 시각화를 위한 팁과 힌트
 
@@ -55,7 +55,7 @@ Power BI Desktop에서 데이터 필드에 *데이터 범주*를 설정하면 �
 **2. 둘 이상의 위치 열을 사용합니다.**     
  경우에 따라서는 매핑에 대한 데이터 범주를 설정하는 것이 Bing에서 의도를 올바르게 추측하는 데 부족할 수 있습니다. 여러 국가나 지역에서는 위치가 존재하기 때문에 일부 지정이 모호해집니다. 예를 들어, 영국, 펜실베니아, 뉴욕에 ***사우샘프턴***이 있습니다.
 
-Power BI는 Bing의 [구조화되지 않은 URL 템플릿 서비스](https://msdn.microsoft.com/library/ff701714.aspx)를 사용하여 국가에 대한 주소 값 집합에 따라 위도 및 경도 좌표를 얻습니다. 데이터에 위치 데이터가 충분하지 않은 경우 그러한 열을 추가하고 적절하게 분류합니다.
+Power BI는 Bing의 [구조화되지 않은 URL 템플릿 서비스](/bingmaps/rest-services/locations/find-a-location-by-address)를 사용하여 국가에 대한 주소 값 집합에 따라 위도 및 경도 좌표를 얻습니다. 데이터에 위치 데이터가 충분하지 않은 경우 그러한 열을 추가하고 적절하게 분류합니다.
 
  예를 들어 *도시* 열만 있는 경우 Bing에서 지오코딩하기 어려울 수 있습니다. 추가적으로 *지역* 열을 추가하여 위치를 명확하게 합니다.  경우에 따라 데이터 세트에 둘 이상의 위치 열만 추가하면 됩니다(이 경우 시/도). 필드 분류를 잊지 마세요. 위 #1을 참조하세요.
 
@@ -97,5 +97,3 @@ Power BI에서 사용하는 데이터 세트에 위도 및 경도 필드가 있�
 [Power BI 시각화](power-bi-report-visualizations.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
-
-

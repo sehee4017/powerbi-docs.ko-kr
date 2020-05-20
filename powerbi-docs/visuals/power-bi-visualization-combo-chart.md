@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/22/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 036343df0a9af678b5a88c261a60ce603483a1cc
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 34d539af94f2bcbe03a2c9d6b870887e371a1a6e
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277183"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563915"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>Power BI의 콤보 차트 만들기 및 사용
 
@@ -123,7 +123,7 @@ Will이 판매 및 샘플 마케팅을 사용하여 콤보 차트를 만드는 �
 
 * [대시보드 타일로 콤보 차트를 추가합니다](../create-reports/service-dashboard-tiles.md).
 * [보고서를 저장합니다](../create-reports/service-report-save.md).
-* [장애가 있는 사용자가 보고서에 액세스할 수 있도록 만듭니다](../desktop-accessibility.md).
+* [장애가 있는 사용자가 보고서에 액세스할 수 있도록 만듭니다](../create-reports/desktop-accessibility-overview.md).
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>교차 강조 표시 및 교차 필터링
 
@@ -134,6 +134,3 @@ Will이 판매 및 샘플 마케팅을 사용하여 콤보 차트를 만드는 �
 [Power BI의 도넛형 차트](power-bi-visualization-doughnut-charts.md)
 
 [Power BI의 시각화 유형](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-
-

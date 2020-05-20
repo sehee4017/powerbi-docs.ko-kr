@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: cfbffaa06f3cfc393ba3381adbfc1a7613c2f0c1
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 04b5bfbc08295974efcb7d583036d96274754bad
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349359"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565698"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Windows 10용 Power BI 모바일 앱 시작
 Windows 10용 Power BI Mobile 앱은 태블릿이나 휴대폰으로 Power BI를 가져옵니다. 터치 사용이 가능한 최신 모바일 방식으로 비즈니스 정보에 액세스할 수 있습니다. 어디서든 [Windows 시작 화면](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)에서 회사 대시보드를 보고 조작할 수 있습니다.
@@ -118,8 +118,8 @@ Power BI 대시보드 샘플을 검토하고 조작할 수 있지만, 샘플로 
 
 ### <a name="reporting-services-mobile-reports-and-kpis"></a>Reporting Services 모바일 보고서 및 KPI
 * Windows 10 디바이스용 Power BI 앱에서 [Reporting Services 모바일 보고서 및 KPI 보기](mobile-app-windows-10-ssrs-kpis-mobile-reports.md).
-* [Reporting Services 웹 포털에서 KPI](https://msdn.microsoft.com/library/mt683632.aspx) 만들기.
-* [SQL Server 모바일 보고서 게시자를 사용하여 고유한 모바일 보고서 만들기](https://msdn.microsoft.com/library/mt652547.aspx) 및 Reporting Services 웹 포털에 게시.
+* [Reporting Services 웹 포털에서 KPI](/sql/reporting-services/working-with-kpis-in-reporting-services) 만들기.
+* [SQL Server 모바일 보고서 게시자를 사용하여 고유한 모바일 보고서 만들기](/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher) 및 Reporting Services 웹 포털에 게시.
 
 ## <a name="next-steps"></a>다음 단계
 * Windows Store에서 [Power BI 앱 다운로드](https://go.microsoft.com/fwlink/?LinkID=526478)  
