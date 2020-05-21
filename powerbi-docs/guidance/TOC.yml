@@ -118,6 +118,8 @@
           href: whitepapers.md
         - name: Power BI 보안 백서
           href: whitepaper-powerbi-security.md
+        - name: Power BI 엔터프라이즈 배포 백서
+          href: whitepaper-powerbi-enterprise-deployment.md
         - name: Power BI Premium 배포
           href: whitepaper-powerbi-premium-deployment.md
         - name: Azure Active Directory B2B를 사용하여 외부에서 Power BI 배포

@@ -208,8 +208,8 @@
               href: refresh-data.md
             - name: 예약된 새로 고침 구성
               href: refresh-scheduled-refresh.md
-            - name: 센터 새로 고침
-              href: refresh-center.md
+            - name: 요약 새로 고침
+              href: refresh-summaries.md
             - name: 증분 새로 고침 구성
               href: ../admin/service-premium-incremental-refresh.md
             - name: 로컬 Power BI Desktop 파일에서 데이터 세트 새로 고침
