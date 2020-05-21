@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 955a14b37d59f554fb12b302c16472387c896e54
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: 7ab103c5d7b568e7315f67193da4d8da25b77a6c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82843644"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565440"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Azure Active Directory B2B를 사용하여 외부 게스트 사용자에게 Power BI 콘텐츠 배포
 
@@ -415,7 +415,7 @@ Azure AD에서이를 해결 하면 Contoso는 추가할 준비가 된 창에 표
 
 또 다른 흥미로운 항목은 Azure AD B2B에서 RLS (dynamic row level security)가 작동 하는 방식을 확인 하는 것입니다.
 
-간단히 말해서 Power BI에 연결 하는 사용자의 사용자 이름을 기반으로 모델의 데이터를 필터링 하 여 동적 행 수준 보안을 적용 합니다. 사용자 그룹에 대해 여러 역할을 추가 하는 대신 모델의 사용자를 정의 합니다. 여기서는 패턴에 대해 자세히 설명 하지 않습니다. Kasper de Jong는 [Power BI Desktop Dynamic security 참고 자료 시트](https://www.kasperonbi.com/power-bi-desktop-dynamic-security-cheat-sheet/)및 [이 백서](https://msdn.microsoft.com/library/jj127437.aspx) 에서 행 수준 보안의 모든 특성에 대 한 자세한 쓰기를 제공 합니다.
+간단히 말해서 Power BI에 연결 하는 사용자의 사용자 이름을 기반으로 모델의 데이터를 필터링 하 여 동적 행 수준 보안을 적용 합니다. 사용자 그룹에 대해 여러 역할을 추가 하는 대신 모델의 사용자를 정의 합니다. 여기서는 패턴에 대해 자세히 설명 하지 않습니다. Kasper de Jong는 [Power BI Desktop Dynamic security 참고 자료 시트](https://www.kasperonbi.com/power-bi-desktop-dynamic-security-cheat-sheet/)및 [이 백서](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) 에서 행 수준 보안의 모든 특성에 대 한 자세한 쓰기를 제공 합니다.
 
 작은 예를 살펴보겠습니다. Contoso는 그룹 별 판매에 대 한 간단한 보고서를 포함 합니다.
 
@@ -504,7 +504,7 @@ Power BI 관리 포털에서 설정은 다음 그림에 표시 됩니다.
 
 - Power BI Desktop에서 Power BI 서비스에 직접 게시
 - 게스트 사용자는 Power BI Desktop를 사용하여 Power BI 서비스의 서비스 데이터 세트에 연결할 수 없습니다.
-- Office 365 그룹에 연결 된 클래식 작업 영역: 게스트 사용자는 이러한 작업 영역을 만들거나 관리자가 될 수 없습니다. 이들은 구성원이 될 수 있습니다.
+- Microsoft 365 그룹에 연결 된 클래식 작업 영역: 게스트 사용자는 이러한 작업 영역을 만들거나 관리자가 될 수 없습니다. 이들은 구성원이 될 수 있습니다.
 - 작업 영역 액세스 목록 임시 초대 전송이 지원되지 않습니다
 - 게스트 사용자에게는 Power BI Publisher for Excel이 지원되지 않습니다
 - 게스트 사용자는 Power BI Gateway를 설치하여 조직에 연결할 수 없습니다

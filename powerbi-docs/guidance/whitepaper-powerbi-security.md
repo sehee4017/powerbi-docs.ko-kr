@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 4454269803c45948c21c4448ab76b5397d3388b2
-ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
+ms.openlocfilehash: f4211b177c60c9bb990c6dc2c8aa8094ab9e69f0
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83407526"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565280"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI 보안 백서
 
@@ -33,7 +33,7 @@ ms.locfileid: "83407526"
 
 **Power BI**는 Microsoft에서 제공하는 온라인 소프트웨어 서비스(_SaaS_ 또는 Software as a Service)로서 셀프 서비스 비즈니스 인텔리전스 대시보드, 보고서, 데이터 세트 및 시각화를 쉽고 빠르게 만들 수 있습니다. Power BI를 사용하면 다양한 데이터 원본에 연결하고, 이러한 연결에서 데이터를 결합하고 구체화한 다음, 다른 사용자와 공유할 수 있는 보고서와 대시보드를 만들 수 있습니다.
 
-Power BI 서비스에는 [Microsoft Online Services 사용 약관](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) 및 [Microsoft Enterprise 개인정보처리방침](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)이 적용됩니다. 데이터 처리 위치는 Microsoft Online Services 사용 약관의 데이터 처리 조항에 나오는 위치를 참조하세요. 규정 준수 정보와 관련하여 [Microsoft Trust Center](https://www.microsoft.com/trustcenter)는 Power BI에 대한 기본 리소스입니다. Power BI 팀은 고객에게 최신의 혁신과 생산성을 제공하기 위해 열심히 노력하고 있습니다. Power BI 현재 [Office 365 준수 프레임 워크](https://www.microsoft.com/trust-center/compliance/compliance-overview)의 계층 D에 있습니다.
+Power BI 서비스에는 [Microsoft Online Services 사용 약관](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) 및 [Microsoft Enterprise 개인정보처리방침](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)이 적용됩니다. 데이터 처리 위치는 Microsoft Online Services 사용 약관의 데이터 처리 조항에 나오는 위치를 참조하세요. 규정 준수 정보와 관련하여 [Microsoft Trust Center](https://www.microsoft.com/trustcenter)는 Power BI에 대한 기본 리소스입니다. Power BI 팀은 고객에게 최신의 혁신과 생산성을 제공하기 위해 열심히 노력하고 있습니다. Power BI 현재 Microsoft 365 준수 프레임 워크의 계층 D에 있습니다. [Microsoft 보안 센터](https://www.microsoft.com/trust-center/compliance/compliance-overview)의 규정 준수에 대해 자세히 알아보세요.
 
 이 문서에서는 Power BI 보안과 관련하여 Power BI 아키텍처를 설명하고, Power BI 에서 사용자를 인증하고 데이터 연결을 설정하는 방법을 설명한 다음, Power BI에서 서비스를 통해 데이터를 저장하고 이동하는 방법에 대해 설명합니다. 마지막 섹션에서는 보안 관련 질문을 전적으로 다루고, 각 질문에 대한 답변을 제공하고 있습니다.
 
@@ -87,13 +87,13 @@ Power BI는 데이터를 저장하고 관리하는 데 두 개의 주 스토리�
 
 예를 들어 사용자가 Excel 통합 문서를 Power BI 서비스로 가져오면, 메모리 내 Analysis Services 테이블 형식 데이터베이스가 만들어지고 데이터는 최대 1시간 동안(또는 시스템에서 메모리 부족이 발생할 때까지) 메모리에 저장됩니다. 또한 데이터는 **Azure Blob** 스토리지로도 보내집니다.
 
-사용자의 Power BI 구독에 대한 메타데이터(예: 대시보드, 보고서, 최근 데이터 원본, 작업 영역, 조직 정보, 테넌트 정보 및 시스템에 대한 기타 메타데이터)는 **Azure SQL Database**에 저장되고 업데이트됩니다. Azure SQL Database에 저장된 모든 정보는 [Azure SQL TDE(투명한 데이터 암호화)](https://msdn.microsoft.com/library/dn948096.aspx) 기술을 사용하여 완전히 암호화됩니다. 또한 Azure Blob 스토리지에 저장된 데이터도 모두 암호화됩니다. 데이터의 로드, 스토리지 및 이동 프로세스에 대한 자세한 내용은 **데이터 스토리지 및 이동** 섹션을 참조하세요.
+사용자의 Power BI 구독에 대한 메타데이터(예: 대시보드, 보고서, 최근 데이터 원본, 작업 영역, 조직 정보, 테넌트 정보 및 시스템에 대한 기타 메타데이터)는 **Azure SQL Database**에 저장되고 업데이트됩니다. Azure SQL Database에 저장된 모든 정보는 [Azure SQL TDE(투명한 데이터 암호화)](/azure/sql-database/transparent-data-encryption-azure-sql) 기술을 사용하여 완전히 암호화됩니다. 또한 Azure Blob 스토리지에 저장된 데이터도 모두 암호화됩니다. 데이터의 로드, 스토리지 및 이동 프로세스에 대한 자세한 내용은 **데이터 스토리지 및 이동** 섹션을 참조하세요.
 
 ## <a name="tenant-creation"></a>테넌트 만들기
 
 테넌트는 Azure, Microsoft Intune, Power BI 또는 Office 365와 같은 Microsoft 클라우드 서비스에 등록할 때 조직에서 수신하고 소유하는 Azure AD 서비스의 전용 인스턴스입니다. 각 Azure AD 테넌트는 서로 전혀 다르고 다른 Azure AD 테넌트와 별개입니다.
 
-테넌트는 회사에 사용자 및 암호, 사용자 프로필 데이터, 사용 권한 등에 대한 사용자의 정보를 저장합니다. 또한 그룹, 애플리케이션, 조직 및 보안에 관련된 기타 정보도 포함합니다. 자세한 내용은 [AZURE AD 테 넌 트 란?](https://msdn.microsoft.com/library/azure/jj573650.aspx#BKMK_WhatIsAnAzureADTenant)을 참조 하세요.
+테넌트는 회사에 사용자 및 암호, 사용자 프로필 데이터, 사용 권한 등에 대한 사용자의 정보를 저장합니다. 또한 그룹, 애플리케이션, 조직 및 보안에 관련된 기타 정보도 포함합니다. 자세한 내용은 [AZURE AD 테 넌 트 란?](/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)을 참조 하세요.
 
 Power BI 테넌트는 국가(또는 지역)와 가장 가까운 것으로 간주되는 데이터 센터에 만들어지며, Office 365 또는 Power BI 서비스가 처음 프로비전되었을 때 제공된 Azure Active Directory의 테넌트에 제공된 상태 정보입니다. Power BI 테넌트는 현재 해당 데이터 센터 위치에서 이동하지 않습니다.
 
@@ -198,7 +198,7 @@ CEK를 암호화하는 데 사용되는 KEK(키 암호화 키)는 미리 정의�
 
 복구 키를 기반으로 하는 게이트웨이 암호화 키는 온-프레미스 인프라를 벗어나지 않습니다. Power BI는 암호화된 온-프레미스 자격 증명 값에 액세스할 수 없으며 이러한 자격 증명을 가로챌 수 없습니다. 웹 클라이언트는 통신하는 특정 게이트웨이와 연결된 공개 키를 사용하여 자격 증명을 암호화합니다.
 
-클라우드 기반 데이터 원본의 경우 데이터 이동 역할은 [Always Encrypted](https://msdn.microsoft.com/library/mt163865.aspx) 방법을 사용하여 암호화 키를 암호화합니다. 자세한 내용은 [Always Encrypted 데이터베이스 기능](https://msdn.microsoft.com/library/mt163865.aspx)을 참조하세요.
+클라우드 기반 데이터 원본의 경우 데이터 이동 역할은 [Always Encrypted](/sql/relational-databases/security/encryption/always-encrypted-database-engine) 방법을 사용하여 암호화 키를 암호화합니다. 자세한 내용은 [Always Encrypted 데이터베이스 기능](/sql/relational-databases/security/encryption/always-encrypted-database-engine)을 참조하세요.
 
 #### <a name="datasets"></a>데이터 세트
 
@@ -381,7 +381,7 @@ Power BI에 대한 일반적인 보안 질문 및 답변은 다음과 같습니�
 
 **Power BI를 사용하는 동안 사용자가 데이터 원본에 연결하고 데이터에 액세스하려면 어떻게 해야 하나요?**
 
-* **Power BI 자격 증명 및 도메인 자격 증명:** 사용자가 전자 메일 주소를 사용 하 여 Power BI에 로그인 사용자가 데이터 리소스에 연결 하려고 하면 Power BI Power BI 로그인 전자 메일 주소를 자격 증명으로 전달 합니다. 도메인 연결 리소스(온-프레미스 또는 클라우드 기반)의 경우 디렉터리 서비스에서 로그인 이메일을 [UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)(_사용자 계정 이름_)과 대조하여 액세스를 허용할 만큼 충분한 자격 증명이 있는지 확인합니다. 회사 기반 전자 메일 주소를 사용 하 여 Power BI에 로그인 하는 조직 (예: 등의 작업 리소스에 로그인 하는 데 사용 하는 전자 메일)은 원활 하 게 _david@contoso.com_ 이루어질 수 있습니다. 회사 기반 메일 주소를 사용 하지 않는 조직의 경우 (예: _david@contoso.onmicrosoft.com_ ), 로그인 자격 증명을 사용 하 Power BI 여 온-프레미스 리소스에 대 한 액세스를 허용 하려면 디렉터리 매핑을 설정 해야 합니다
+* **Power BI 자격 증명 및 도메인 자격 증명:** 사용자가 전자 메일 주소를 사용 하 여 Power BI에 로그인 사용자가 데이터 리소스에 연결 하려고 하면 Power BI Power BI 로그인 전자 메일 주소를 자격 증명으로 전달 합니다. 도메인 연결 리소스(온-프레미스 또는 클라우드 기반)의 경우 디렉터리 서비스에서 로그인 이메일을 [UPN](/windows/win32/secauthn/user-name-formats)(_사용자 계정 이름_)과 대조하여 액세스를 허용할 만큼 충분한 자격 증명이 있는지 확인합니다. 회사 기반 전자 메일 주소를 사용 하 여 Power BI에 로그인 하는 조직 (예: 등의 작업 리소스에 로그인 하는 데 사용 하는 전자 메일)은 원활 하 게 _david@contoso.com_ 이루어질 수 있습니다. 회사 기반 메일 주소를 사용 하지 않는 조직의 경우 (예: _david@contoso.onmicrosoft.com_ ), 로그인 자격 증명을 사용 하 Power BI 여 온-프레미스 리소스에 대 한 액세스를 허용 하려면 디렉터리 매핑을 설정 해야 합니다
 
 * **SQL Server Analysis Services 및 Power BI:** 온-프레미스 SQL Server Analysis Services를 사용 하는 조직의 경우 Power BI Power BI은 온-프레미스 데이터 게이트웨이 (이전 섹션에서 참조 된 **게이트웨이**)를 제공 합니다.  Power BI 온-프레미스 데이터 게이트웨이는 RLS(역할 수준 보안)를 데이터 원본에 적용할 수 있습니다. RLS에 대한 자세한 내용은 이 문서의 앞부분에 있는 **데이터 원본에 대한 사용자 인증**을 참조하세요. 게이트웨이에 대 한 자세한 내용은 [온-프레미스 데이터 게이트웨이](../connect-data/service-gateway-onprem.md)를 참조 하세요.
 
@@ -487,9 +487,9 @@ Power BI에 대한 자세한 내용은 다음 리소스를 참조하세요.
 
 - [Power BI의 그룹](https://support.powerbi.com/knowledgebase/articles/654247)
 - [Power BI Desktop 시작](https://support.powerbi.com/knowledgebase/articles/471664)
-- [Power BI REST API - 개요](https://msdn.microsoft.com/library/dn877544.aspx)
-- [Power BI API 참조](https://msdn.microsoft.com/library/mt147898.aspx)
-- [온-프레미스 데이터 게이트웨이](../connect-data/service-gateway-onprem.md)
+- [Power BI REST API - 개요](/rest/api/power-bi/)
+- [Power BI API 참조](/rest/api/power-bi/)
+- [On-premises data gateway (온-프레미스 데이터 게이트웨이)](../connect-data/service-gateway-onprem.md)
 - [Power BI 내셔널 클라우드](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 - [Power BI에서 온-프레미스 데이터 원본으로의 SSO에 Kerberos 사용](../connect-data/service-gateway-sso-overview.md)

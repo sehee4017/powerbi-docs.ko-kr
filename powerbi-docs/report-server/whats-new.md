@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/27/2020
-ms.openlocfilehash: 3ce1ae5207af6f4aaf844679bcd3ae52d2c13819
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: f4585e4c1eb629b4676b74157c0520d70540da7b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348163"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565149"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Report Server의 새로운 기능
 
@@ -247,7 +247,7 @@ Power BI Desktop의 새로운 모델링 보기에서는 테이블이 여러 개 
 
 #### <a name="accessible-visual-interaction"></a>액세스 가능 시각적 개체 조작
 
-이제 키보드 탐색을 사용하여 여러 기본 제공 시각적 개체에서 데이터 요소에 액세스할 수 있습니다. [Power BI 보고서의 액세스 가능 기능](../desktop-accessibility.md)에 대해 자세히 알아보세요.
+이제 키보드 탐색을 사용하여 여러 기본 제공 시각적 개체에서 데이터 요소에 액세스할 수 있습니다. [Power BI 보고서의 액세스 가능 기능](../create-reports/desktop-accessibility-overview.md)에 대해 자세히 알아보세요.
 
 #### <a name="conditional-formatting-titles-and-web-url-actions"></a>조건부 서식 제목 및 웹 URL 동작
 
