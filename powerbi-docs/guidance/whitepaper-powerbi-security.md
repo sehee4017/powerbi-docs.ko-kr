@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: f4211b177c60c9bb990c6dc2c8aa8094ab9e69f0
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: a80870963cf045730fff18413884d9871354b169
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565280"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83792920"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI 보안 백서
 
@@ -91,11 +91,11 @@ Power BI는 데이터를 저장하고 관리하는 데 두 개의 주 스토리�
 
 ## <a name="tenant-creation"></a>테넌트 만들기
 
-테넌트는 Azure, Microsoft Intune, Power BI 또는 Office 365와 같은 Microsoft 클라우드 서비스에 등록할 때 조직에서 수신하고 소유하는 Azure AD 서비스의 전용 인스턴스입니다. 각 Azure AD 테넌트는 서로 전혀 다르고 다른 Azure AD 테넌트와 별개입니다.
+테 넌 트는 Azure, Microsoft Intune, Power BI, Microsoft 365 등의 Microsoft 클라우드 서비스에 등록할 때 조직이 받아서 소유 하는 Azure AD 서비스의 전용 인스턴스입니다. 각 Azure AD 테넌트는 서로 전혀 다르고 다른 Azure AD 테넌트와 별개입니다.
 
 테넌트는 회사에 사용자 및 암호, 사용자 프로필 데이터, 사용 권한 등에 대한 사용자의 정보를 저장합니다. 또한 그룹, 애플리케이션, 조직 및 보안에 관련된 기타 정보도 포함합니다. 자세한 내용은 [AZURE AD 테 넌 트 란?](/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)을 참조 하세요.
 
-Power BI 테넌트는 국가(또는 지역)와 가장 가까운 것으로 간주되는 데이터 센터에 만들어지며, Office 365 또는 Power BI 서비스가 처음 프로비전되었을 때 제공된 Azure Active Directory의 테넌트에 제공된 상태 정보입니다. Power BI 테넌트는 현재 해당 데이터 센터 위치에서 이동하지 않습니다.
+Microsoft 365 또는 Power BI 서비스 처음 프로 비전 되었을 때 제공 된 Azure Active Directory에서 테 넌 트에 대해 제공 된 국가 (또는 지역) 및 상태 정보에 대해 제공 되는 데이터 센터에 Power BI 테 넌 트가 만들어집니다. Power BI 테넌트는 현재 해당 데이터 센터 위치에서 이동하지 않습니다.
 
 ### <a name="multiple-geographies-multi-geo"></a>여러 지리적 위치(다중 지역)
 
@@ -129,7 +129,7 @@ Azure 데이터 센터에 대한 추가 정보를 제공하는 링크는 다음�
 
 ## <a name="user-authentication"></a>사용자 인증
 
-Power BI 서비스에 대한 사용자 인증은 사용자의 브라우저와 Power BI 서비스 또는 Power BI에서 사용하는 Azure 서비스 간의 일련의 요청, 응답 및 리디렉션으로 구성됩니다. 이 순서는 Power BI에서 사용자 인증 프로세스를 설명합니다. 조직의 사용자 인증 모델(로그인 모델) 옵션에 대한 자세한 내용은 [Office 365에 대한 로그인 모델 선택](https://blogs.office.com/2014/05/13/choosing-a-sign-in-model-for-office-365/)을 참조하세요.
+Power BI 서비스에 대한 사용자 인증은 사용자의 브라우저와 Power BI 서비스 또는 Power BI에서 사용하는 Azure 서비스 간의 일련의 요청, 응답 및 리디렉션으로 구성됩니다. 이 순서는 Power BI에서 사용자 인증 프로세스를 설명합니다. 조직의 사용자 인증 모델 (로그인 모델)에 대 한 옵션에 대 한 자세한 내용은 [Microsoft 365에 대 한 로그인 모델 선택](https://blogs.office.com/2014/05/13/choosing-a-sign-in-model-for-office-365/)을 참조 하세요.
 
 ### <a name="authentication-sequence"></a>인증 순서
 
@@ -245,9 +245,9 @@ Power BI에서 데이터 무결성 모니터링을 제공하는 방법은 다음
 
 1. 메타데이터(보고서 정의)
 
-   a. 보고서는 Office 365용 Excel 보고서 또는 Power BI 보고서일 수 있습니다. 보고서 유형에 따라 메타데이터에 대해 다음과 같이 적용합니다.
+   a. 보고서는 Microsoft 365 보고서 또는 Power BI 보고서에 대 한 Excel 일 수 있습니다. 보고서 유형에 따라 메타데이터에 대해 다음과 같이 적용합니다.
         
-    &ensp;&ensp;입니다. Excel 보고서 메타데이터는 암호화되어 SQL Azure에 저장됩니다. 메타데이터는 Office 365에도 저장됩니다.
+    &ensp;&ensp;입니다. Excel 보고서 메타데이터는 암호화되어 SQL Azure에 저장됩니다. 메타 데이터는 Microsoft 365에도 저장 됩니다.
 
     &ensp;&ensp;2. Power BI 보고서는 암호화되어 Azure SQL 데이터베이스에 저장됩니다.
 
@@ -255,13 +255,13 @@ Power BI에서 데이터 무결성 모니터링을 제공하는 방법은 다음
 
    정적 데이터는 배경 이미지 및 Power BI 시각적 개체와 같은 아티팩트를 포함 합니다.
 
-    &ensp;&ensp;입니다. Office 365용 Excel로 작성된 보고서의 경우 아무 것도 저장되지 않습니다.
+    &ensp;&ensp;입니다. Microsoft 365에 대해 Excel로 만든 보고서의 경우 아무 것도 저장 되지 않습니다.
 
     &ensp;&ensp;2. Power BI 보고서의 경우 정적 데이터는 Azure Blob 스토리지에서 암호화되어 저장됩니다.
 
 3. 캐시
 
-    &ensp;&ensp;입니다. Office 365용 Excel로 만든 보고서의 경우 아무 것도 캐시되지 않습니다.
+    &ensp;&ensp;입니다. Microsoft 365 for Excel을 사용 하 여 만든 보고서의 경우에는 아무 것도 캐시 되지 않습니다.
 
     &ensp;&ensp;2. Power BI 보고서의 경우 표시 된 보고서의 시각적 개체에 대 한 데이터는 다음 섹션에 설명 된 대로 캐시 되어 시각적 데이터 캐시에 저장 됩니다.
  
