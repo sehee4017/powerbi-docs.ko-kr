@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ba0e04ff4cd56566f7d33445fafa7c8cfcc6b7ad
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4114287099300c371a6b02961a968702acb98f92
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83284799"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565463"
 ---
 # <a name="share-a-dataset-preview"></a>데이터 세트 공유(미리 보기)
 
@@ -24,7 +24,7 @@ Power BI Desktop에서 *데이터 모델*의 작성자로서 Power BI 서비스�
 
 1. 먼저 Power BI Desktop에서 데이터 모델을 사용하여 .pbix 파일을 만듭니다. 이 데이터 세트를 다른 사용자에게 제공하여 보고서를 빌드할 계획이라면 .pbix 파일에서 보고서를 디자인하지 않을 수도 있습니다.
 
-    .pbix 파일을 Office 365 그룹에 저장하는 것이 가장 좋습니다.
+    .pbix 파일을 Microsoft 365 그룹에 저장하는 것이 가장 좋습니다.
 
 1. .pbix 파일을 Power BI 서비스의 [새 환경 작업 영역](../collaborate-share/service-create-the-new-workspaces.md)에 게시합니다.
     
@@ -54,4 +54,4 @@ Power BI Desktop에서 *데이터 모델*의 작성자로서 Power BI 서비스�
 ## <a name="next-steps"></a>다음 단계
 
 - [작업 영역에서 데이터 세트 사용(미리 보기)](service-datasets-across-workspaces.md)
-- 질문이 있으신가요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+- 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

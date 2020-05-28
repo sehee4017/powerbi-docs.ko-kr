@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/23/2020
+ms.date: 05/18/2020
 ms.author: kfollis
-ms.openlocfilehash: 7ed9f22f262e03885681cf2fdc36867533837cdc
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1a90a9826d794f84933a75213043c31a9a67a4b5
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83360925"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83566043"
 ---
 # <a name="power-bi-webinars"></a>Power BI 웹 세미나
 [//]: # "Tatevik Tatero는 Chauncy Freels와 협력하고 이 웹 세미나 목록을 유지하는 데 도움을 주는 공급업체입니다."
@@ -22,13 +22,20 @@ ms.locfileid: "83360925"
 
 ## <a name="upcoming-webinars"></a>예정된 웹 세미나
 
-아직 웹 세미나 일정이 없습니다. 곧 다시 더 많은 향후 이벤트를 확인하세요.
+**분석과 BI의 차이는 무엇인가요?**
+<br>작성자: Microsoft의 Nate Findley 및 Charles Feddersen
+<br>[2020년 6월 3일 오전 10:00~오전 11:00 PDT(태평양 일광 절약 시간)에 시청 등록]( https://info.microsoft.com/ww-landing-What-is-the-difference-between-analytics-and-business-intelligence.html?lcid=en-u)
+
 
 >[Power BI 커뮤니티의 예정된 웹 세미나](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>주요 웹 세미나
 
 인기 있는 주문형 웹 세미나 시작
+
+**Microsoft Power BI의 전체 경제적 영향 살펴보기**
+<br>작성자: Microsoft의 Megan Tomlin 및 Forrester Consulting의 Jonathan Lipsitz
+<br>[지금 보기]( https://info.microsoft.com/ww-landing-Explore-the-Total-Economic-Impact-Of-Microsoft-Power-BI.html?Lcid=EN-US)
 
 **Azure 가상 이벤트에서의 분석: Azure Synapse Analytics를 사용하여 인사이트 액세스 시간 단축**
 <br>작성자: Gayle Sheppard 및 John Macintyre
@@ -86,7 +93,7 @@ ms.locfileid: "83360925"
 <br>작성자: Nimrod Shalit
 <br>[등록 및 지금 보기](https://info.microsoft.com/ww-landing-PBI-JavaScript-API-video.html)
 
-**Power BI, Excel 및 Office 365: 엔터프라이즈 데이터 최적화**
+**Power BI, Excel 및 Microsoft 365: 엔터프라이즈 데이터 최적화**
 <br>작성자: Olaf Hubel 및 Miguel Martinez
 <br>[등록 및 지금 보기](https://info.microsoft.com/Unlocking-the-Value-of-your-Enterprise-Data-OnDemandRegistration.html?Is=Website)
 

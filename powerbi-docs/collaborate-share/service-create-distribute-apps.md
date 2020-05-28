@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 08b9585195e805548546e832915e07f0e02265f5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: dd474da6a3fb61b6fd78dc55a6b0313e51bbb773
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348278"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693575"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Power BI에 앱 게시
 
@@ -35,15 +35,15 @@ Power BI에서 공식 패키지 콘텐츠를 만든 다음, *앱*을 통해 광�
 ## <a name="licenses-for-apps"></a>앱에 대한 라이선스
 앱을 만들거나 업데이트하려면 Power BI Pro 라이선스가 필요합니다. 앱 *소비자*의 경우 두 가지 옵션이 있습니다.
 
-* **옵션 1** 앱의 작업 영역이 Power BI Premium 용량을 사용하지 ‘않습니다’.  모든 비즈니스 사용자는 Power BI Pro 라이선스가 있어야 앱을 볼 수 있습니다. 
-* **옵션 2** 앱의 작업 영역이 Power BI Premium 용량을 ‘사용합니다’.  조직에서 Power BI Pro 라이선스가 없는 비즈니스 사용자도 앱 콘텐츠를 볼 수 있습니다. 그러나 보고서를 복사하거나, 기본 데이터 세트를 기반으로 하여 보고서를 만들 수는 없습니다. 자세한 내용은 [Power BI 프리미엄이란?](../admin/service-premium-what-is.md)을 참조하세요.
+* **옵션 1** 앱의 작업 영역이 Power BI Premium 용량을 사용하지 ‘않습니다’. 모든 비즈니스 사용자는 Power BI Pro 라이선스가 있어야 앱을 볼 수 있습니다. 
+* **옵션 2** 앱의 작업 영역이 Power BI Premium 용량을 ‘사용합니다’. 조직에서 Power BI Pro 라이선스가 없는 비즈니스 사용자도 앱 콘텐츠를 볼 수 있습니다. 그러나 보고서를 복사하거나, 기본 데이터 세트를 기반으로 하여 보고서를 만들 수는 없습니다. 자세한 내용은 [Power BI 프리미엄이란?](../admin/service-premium-what-is.md)을 참조하세요.
 
 ## <a name="publish-your-app"></a>앱 게시
 작업 영역의 대시보드 및 보고서가 준비되면 게시하려는 대시보드 및 보고서를 선택한 다음, 앱으로 게시합니다. 
 
 1. 작업 영역 목록 보기에서 **앱에 포함할** 대시보드와 보고서를 결정합니다.
 
-    ![게시할 대시보드 선택 ](media/service-create-distribute-apps/power-bi-apps-incude-dashboard.png)
+    ![게시할 대시보드 선택](media/service-create-distribute-apps/power-bi-apps-incude-dashboard.png)
 
     관련 대시보드가 있는 보고서를 포함하지 않도록 선택하면 보고서 옆에 경고가 표시됩니다. 앱을 게시할 수는 있지만 관련 대시보드에는 해당 보고서의 타일이 없습니다.
 
@@ -64,7 +64,7 @@ Power BI에서 공식 패키지 콘텐츠를 만든 다음, *앱*을 통해 광�
 5. **사용 권한**에서 앱에 액세스할 수 있는 사용자와 수행할 수 있는 작업을 결정합니다. 
 
     - [클래식 작업 영역](service-create-workspaces.md): 조직의 모든 사용자, 특정 사용자 또는 Azure AD(Azure Active Directory) 보안 그룹.
-    - [새 환경 작업 영역](service-create-the-new-workspaces.md): 특정 사용자, Azure AD 보안 그룹, 배포 목록 및 Office 365 그룹. 모든 작업 영역 사용자에게는 앱 작업 영역의 앱에 대한 액세스가 자동으로 부여됩니다.
+    - [새 환경 작업 영역](service-create-the-new-workspaces.md): 특정 사용자, Azure AD 보안 그룹, 배포 목록 및 Microsoft 365 그룹. 모든 작업 영역 사용자에게는 앱 작업 영역의 앱에 대한 액세스가 자동으로 부여됩니다.
     - 빌드 권한을 제공하여 앱 사용자가 앱의 기본 데이터 세트에 연결하도록 허용할 수 있습니다. 공유 데이터 세트를 검색하면 이러한 데이터 세트가 표시됩니다. 이 문서에서 [사용자가 앱의 데이터 세트에 연결하도록 허용](#allow-users-to-connect-to-datasets)하는 방법을 자세히 알아보세요.
     - 빌드 권한이 있는 사용자는 이 앱의 보고서를 다른 작업 영역으로 복사할 수도 있습니다. 이 문서에서 [사용자가 앱의 보고서를 복사하도록 허용](#allow-users-to-copy-reports)하는 방법을 자세히 알아보세요.
     
@@ -139,7 +139,7 @@ Power BI에서 공식 패키지 콘텐츠를 만든 다음, *앱*을 통해 광�
 * 포함된 콘텐츠의 맨 위에 해당 콘텐츠가 Power BI에 없음을 나타내는 보안 경고가 표시됩니다.
 
 ## <a name="automatically-install-apps-for-end-users"></a>최종 사용자에 대해 자동으로 앱 설치
-관리자가 권한을 제공하는 경우 앱을 자동으로 설치하여 최종 사용자에게 제공할 수 있습니다.  이 푸시 기능을 사용하면 권한이 있는 사용자 또는 그룹에 적절한 앱을 쉽게 배포할 수 있습니다. 최종 사용자의 앱 콘텐츠 목록에 앱이 자동으로 표시됩니다. Microsoft AppSource에서 찾거나 설치 링크를 따를 필요가 없습니다. Power BI 관리자 포털 문서에서 관리자가 [최종 사용자에게 앱 푸시하기](../admin/service-admin-portal.md#push-apps-to-end-users)를 사용 설정하는 방법을 참조하세요.
+관리자가 권한을 제공하는 경우 앱을 자동으로 설치하여 최종 사용자에게 제공할 수 있습니다. 이 푸시 기능을 사용하면 권한이 있는 사용자 또는 그룹에 적절한 앱을 쉽게 배포할 수 있습니다. 최종 사용자의 앱 콘텐츠 목록에 앱이 자동으로 표시됩니다. Microsoft AppSource에서 찾거나 설치 링크를 따를 필요가 없습니다. Power BI 관리자 포털 문서에서 관리자가 [최종 사용자에게 앱 푸시하기](../admin/service-admin-portal.md#push-apps-to-end-users)를 사용 설정하는 방법을 참조하세요.
 
 ### <a name="how-to-push-an-app-automatically-to-end-users"></a>최종 사용자에게 앱을 자동으로 푸시하는 방법
 관리자가 사용 권한을 할당하면 **앱을 자동으로 설치**하는 새로운 옵션이 표시됩니다. 확인란을 선택하고 **앱 게시**(또는 **앱 업데이트**)를 선택하면, 앱이 **액세스** 탭의 앱 **권한** 섹션에 정의된 모든 사용자 또는 그룹으로 푸시됩니다.
@@ -166,7 +166,7 @@ Power BI에서 공식 패키지 콘텐츠를 만든 다음, *앱*을 통해 광�
 
 ## <a name="allow-users-to-connect-to-datasets"></a>사용자가 데이터 세트에 연결하도록 허용
 
-**사용자가 앱의 기본 데이터 세트에 연결하도록 허용**하는 옵션을 선택하면 해당 데이터 세트에 대한 ‘빌드 권한’을 앱 사용자에게 부여하는 것입니다.  이 사용 권한이 있으면 다음과 같은 몇 가지 주요 작업을 수행할 수 있습니다.
+**사용자가 앱의 기본 데이터 세트에 연결하도록 허용**하는 옵션을 선택하면 해당 데이터 세트에 대한 ‘빌드 권한’을 앱 사용자에게 부여하는 것입니다. 이 사용 권한이 있으면 다음과 같은 몇 가지 주요 작업을 수행할 수 있습니다.
 
 - [앱 데이터 세트를 보고서의 기반으로 사용](../connect-data/service-datasets-across-workspaces.md)합니다.
 - Power BI Desktop 및 Power BI 서비스의 데이터 가져오기 환경에서 데이터 세트를 검색합니다.

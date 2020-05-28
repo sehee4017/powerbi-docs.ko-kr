@@ -6,21 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/17/2020
+ms.date: 05/19/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 21e0e6ee4499beac5937d0d5777bc7b66c2f09d1
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 2b170a9a5d6e5f36eab555401daf613774c2c984
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83361592"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693994"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Power BI Desktop의 새로운 기능
 
-## <a name="april-2020-update-2805803282"></a>2020년 4월 업데이트(2.80.5803.282)
+## <a name="may-2020-update-2815831621"></a>2020년 5월 업데이트(2.81.5831.621)
 
-4월 Power BI Desktop을 사용자 및 글로벌 커뮤니티와 공유할 수 있게 되어 감사합니다. 
+5월 Power BI Desktop이 글로벌 커뮤니티에 새로운 통찰력, 새로운 기능, 건전한 정도의 긍정적 전망을 줄 수 있기를 바랍니다. 
 
 [다운로드 센터](https://www.microsoft.com/download/details.aspx?id=58494)에서 최신 버전의 Power BI Desktop을 가져옵니다. Windows 10을 실행하는 경우 [Microsoft Store](https://aka.ms/pbidesktopstore)에서도 Power BI Desktop을 구할 수 있습니다. Power BI Desktop 설치 방법과 관계없이, 월별 버전은 버전 번호가 다르더라도 동일합니다. Power BI Desktop 다운로드 및 설치 방법에 대한 자세한 내용은 [Power BI Desktop 가져오기](desktop-get-the-desktop.md)를 참조하세요. 
 
@@ -41,46 +41,43 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 
 ### <a name="reporting"></a>보고
-* 시각적 개체 개인 설정(미리 보기) [[비디오]](https://youtu.be/q2Hfn_Rhb3E?t=54)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Personalize_visuals) 
-* 페이지 새로 고침에 대한 변경 내용 검색(미리 보기)   [[비디오]](https://youtu.be/q2Hfn_Rhb3E?t=447) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Change_detection) 
-* 상대 시간 필터(미리 보기)  [[비디오]](https://youtu.be/q2Hfn_Rhb3E?t=744)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Relative_time_filter) 
-* 시각적 개체 전체에서 사각형 lasso 선택  [[비디오]](https://youtu.be/q2Hfn_Rhb3E?t=1016)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Lasso_select) 
-* 테이블 및 행렬의 합계 및 부분합에 대한 조건부 서식 지정   [[비디오]](https://youtu.be/q2Hfn_Rhb3E?t=1075)  [[문서]](../create-reports/desktop-conditional-table-formatting.md#totals-and-subtotals)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Conditional_formatting) 
-* 이제 테마 사용자 지정 대화 상자를 일반적으로 사용할 수 있음  [[비디오]](https://youtu.be/q2Hfn_Rhb3E?t=1250)  [[문서]](../create-reports/desktop-report-themes.md#customize-report-themes)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Customize_theme_GA) 
-* 조건부 서식 지정의 향상된 검색 기능  [[비디오]](https://youtu.be/q2Hfn_Rhb3E?t=1479)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Improved_discoverability) 
-
-
+* Excel용 추천 테이블 큐레이팅(미리 보기) [[비디오]](https://youtu.be/JtuHIslowxk?t=20)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Excel) 
+* 모든 필터 적용(미리 보기) [[비디오]](https://youtu.be/JtuHIslowxk?t=193) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Apply_all) 
+* 변경 내용 검색의 향상된 기능(미리 보기) [[비디오]](https://youtu.be/JtuHIslowxk?t=475)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_CDM) 
+* 드릴스루 단추 동작이 이제 출시됨 [[비디오]](https://youtu.be/JtuHIslowxk?t=626)  [[문서]](../create-reports/desktop-drill-through-buttons.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Drill_through) 
+* 페이지 탐색 작업의 향상된 기능 [[비디오]](https://youtu.be/JtuHIslowxk?t=1143)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_page_nav) 
+* 단추에서 이제 채우기 이미지 지원 [[비디오]](https://youtu.be/JtuHIslowxk?t=1465)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_fill_images) 
+* 시각적 개체의 그림자 지원 [[비디오]](https://youtu.be/JtuHIslowxk?t=1561)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_shadow) 
+* 필터 창 마이그레이션  [[동영상]](https://youtu.be/JtuHIslowxk?t=1688)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_migration) 
 
 ### <a name="analytics"></a>분석
-* AI 시각적 개체에 대한 DirectQuery 지원 [[비디오]](https://youtu.be/q2Hfn_Rhb3E?t=1498)   [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Direct_Query_AI) 
-* 이제 분해 트리에서 도구 설명을 지원함 [[비디오]](https://youtu.be/q2Hfn_Rhb3E?t=1550)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Decomp_tree_tooltips) 
-* 질문 및 답변 업데이트 [[비디오]](https://youtu.be/q2Hfn_Rhb3E?t=1606)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_QA_updates) 
+* 분해 트리가 이제 출시됨 [[비디오]](https://youtu.be/JtuHIslowxk?t=1701)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Decomp_tree) 
 
 
 ### <a name="visuals"></a>시각적 개체
-* 새 시각화 아이콘 [[비디오]](https://youtu.be/q2Hfn_Rhb3E?t=1946)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_New_Visualization_icons) 
-* 새 Power BI 시각적 개체 [[동영상]](https://youtu.be/q2Hfn_Rhb3E?t=1833)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Visualizations)
+* 새 Power BI 시각적 개체 [[동영상]](https://youtu.be/JtuHIslowxk?t=1840)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Visualizations)
+* Power Apps 시각적 개체가 이제 지원되는 모든 언어와 호환됨 [[비디오]](https://youtu.be/JtuHIslowxk?t=1861)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_lang)
 
-
-### <a name="template-apps"></a>템플릿 앱
-* 뛰어난 StartKit의 Power Platform 센터 [[비디오]](https://youtu.be/q2Hfn_Rhb3E?t=1969)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_CoE_StartKit) 
-* Azure Cognitive Search: 로그 및 메트릭 분석  [[비디오]](https://youtu.be/q2Hfn_Rhb3E?t=1969)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Azure_Cognitive_Search)
-* COVID-19 앱  [[비디오]](https://youtu.be/q2Hfn_Rhb3E?t=1969)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_COVID)
+### <a name="modeling"></a>모델링
+* 목록 구분 기호와 소수점 기호가 이제 표준 DAX 구분 기호로 기본 설정됨[[비디오]](https://youtu.be/JtuHIslowxk?t=1869)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_List_separator)
 
 
 ### <a name="data-preparation"></a>데이터 준비
-* 쿼리 진단의 향상된 기능 [[비디오]](https://youtu.be/q2Hfn_Rhb3E?t=2011)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_Enhancements_to_Query) 
+* 데이터 흐름의 DirectQuery [[비디오]](https://youtu.be/JtuHIslowxk?t=1883)[[문서]](../transform-model/service-dataflows-directquery.md)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_DQ_Dataflows) 
+* Web by example에서 이제 기본적으로 테이블을 자동으로 제안 [[비디오]](https://youtu.be/JtuHIslowxk?t=1916)[[블로그] ](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Web_by_example) 
+* 쿼리 진단의 향상된 기능: 개인 정보 수준 파티션 [[비디오]](https://youtu.be/JtuHIslowxk?t=1931)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Query_Diag) 
 
 
 ### <a name="data-connectivity"></a>데이터 연결
-* Azure Data Lake Storage Gen2의 CDM 폴더 보기 [[비디오]](https://youtu.be/q2Hfn_Rhb3E?t=2124)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_CDM_Folder_view) 
+* 많은 새 데이터 커넥터 [[비디오]](https://youtu.be/JtuHIslowxk?t=1948)   [[문서]](../connect-data/desktop-data-sources.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Data_connectivity) 
+
 
 
 ### <a name="other-features"></a>기타 기능
-* 새 강사 진행 교육 [[비디오]](https://youtu.be/q2Hfn_Rhb3E?t=2147)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/#_New_instructor-led_training) 
+* 데이터 세트 영향 분석 [[비디오]](https://youtu.be/JtuHIslowxk?t=1964)[[블로그] ](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Impact) 
 
 
-각각의 새로운 기능에 대한 자세한 내용은 [Power BI Desktop 기능 요약 블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2020-feature-summary/)을 참조하세요.
+각각의 새로운 기능에 대한 자세한 내용은 [Power BI Desktop 기능 요약 블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/)을 참조하세요.
 
 [Power BI 서비스의 새로운 기능](service-whats-new.md) 및 [Power BI용 모바일 앱의 새로운 기능](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)을 확인합니다.
 
@@ -91,7 +88,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 ### <a name="power-bi-desktop-monthly-update-video"></a>Power BI Desktop 월별 업데이트 비디오
 다음 동영상에서는 이러한 업데이트를 각각 설명합니다. 이 비디오는 블로그 게시물에서도 시청할 수 있습니다.
 
-> [!VIDEO https://www.youtube.com/embed/q2Hfn_Rhb3E]
+> [!VIDEO https://www.youtube.com/embed/JtuHIslowxk]
 
 ## <a name="more-videos"></a>비디오 더 보기
 

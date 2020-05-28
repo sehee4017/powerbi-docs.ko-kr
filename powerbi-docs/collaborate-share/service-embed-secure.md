@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2b7c442ef39bba58b7ac7f8224928d29ea56d9c6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 311473aea5748c94bfa6a757482659176930544b
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348140"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693838"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>보안 포털 또는 웹 사이트에 보고서 포함
 
@@ -50,7 +50,7 @@ Power BI 보고서의 새 **포함** 옵션을 사용하여 내부 웹 포털에
 
 **포함** 옵션은 자동으로 사용자가 보고서를 볼 수 있도록 허용하지 않습니다. 보기 권한은 Power BI 서비스에서 설정합니다.
 
-Power BI 서비스에서 포함된 보고서를 액세스해야 하는 사용자와 공유할 수 있습니다. Office 365 그룹을 사용하는 경우 사용자를 작업 영역의 구성원으로 나열할 수 있습니다. 자세한 내용은 [Power BI 및 Office 365에서 작업 영역을 관리](service-manage-app-workspace-in-power-bi-and-office-365.md)하는 방법을 참조하세요.
+Power BI 서비스에서 포함된 보고서를 액세스해야 하는 사용자와 공유할 수 있습니다. Microsoft 365 그룹을 사용하는 경우 사용자를 작업 영역 멤버로 나열할 수 있습니다. 자세한 내용은 [Power BI 및 Microsoft 365에서 작업 영역을 관리](service-manage-app-workspace-in-power-bi-and-office-365.md)하는 방법을 참조하세요.
 
 ## <a name="licensing"></a>라이선싱
 

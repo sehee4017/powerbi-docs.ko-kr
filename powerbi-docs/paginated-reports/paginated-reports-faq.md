@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/29/2020
-ms.openlocfilehash: 3677e29e4ca9bc13bf0c7397d854dea62ec5f70f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0089a38c852d82acaebc8cab0f0fb653c6a304cb
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82585000"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565629"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI의 페이지를 매긴 보고서: FAQ 
 
@@ -41,7 +41,7 @@ ms.locfileid: "82585000"
 
 ### <a name="how-can-i-monitor-usage-of-paginated-reports-in-my-tenant"></a>내 테넌트에서 페이지를 매긴 보고서의 사용량을 모니터링할 수 있는 방법은 무엇인가요?
 
-Office 365 감사 로그의 다음 이벤트 아래에 이 보고서 종류의 사용량이 자세히 나와 있습니다. 
+감사 로그의 다음 이벤트 아래에 이 보고서 종류의 사용량이 자세히 나와 있습니다.
 
 - Power BI 보고서 보기
 - Power BI 보고서 삭제
@@ -152,7 +152,7 @@ Microsoft Excel, Microsoft Word, Microsoft PowerPoint, PDF, .CSV, XML 및 MHTML�
 
 ### <a name="can-i-use-power-bi-embedded-to-embed-my-paginated-reports-into-an-app-im-hosting"></a>Power BI Embedded를 사용하여 호스트하는 앱에 페이지를 매긴 보고서를 포함할 수 있나요?
 
-보안 포함 지원을 비롯한 SaaS 포함은 이미 사용할 수 있습니다. PaaS를 포함하는 경우 [고객을 위해 애플리케이션에 페이지를 매긴 Power BI 보고서 포함](../developer/embed-paginated-reports-customers.md) 자습서를 참조하세요.
+보안 포함 지원을 비롯한 SaaS 포함은 이미 사용할 수 있습니다. PaaS를 포함하는 경우 [고객을 위해 애플리케이션에 페이지를 매긴 Power BI 보고서 포함](../developer/embedded/embed-paginated-reports-customers.md) 자습서를 참조하세요.
 
 ### <a name="can-i-drill-through-from-a-power-bi-report-to-a-paginated-report"></a>Power BI 보고서에서 페이지를 매긴 보고서로 드릴스루할 수 있나요?
 

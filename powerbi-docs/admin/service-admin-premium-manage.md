@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: f4bf863d7d87bd908165976940b868be55e367f9
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 6155453f00ae64eee2cf74db7426b36248def796
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83138404"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564412"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>Power BI Premium에서 용량 구성 및 관리
 
@@ -24,11 +24,11 @@ Power BI Premium 관리에는 Premium 용량을 만들고, 관리하고, 모니�
 
 ![Power BI 용량 설정 화면](media/service-admin-premium-manage/premium-capacity-management.png)
 
-*용량*은 Power BI Premium 및 Power BI Embedded 제품의 핵심입니다. 용량은 조직이 독점적으로 사용하도록 예약된 리소스의 집합입니다. 전용 용량을 보유하면 사용자별 라이선스를 구입할 필요 없이 조직 전체에서 사용자에게 대시보드, 보고서 및 데이터 세트를 게시할 수 있습니다. 또한 용량에서 호스팅되는 콘텐츠에 대해 신뢰할 수 있는 일관된 성능을 제공합니다. 자세한 내용은 [Power BI 프리미엄이란?](../service-premium.md)을 참조하세요.
+*용량*은 Power BI Premium 및 Power BI Embedded 제품의 핵심입니다. 용량은 조직이 독점적으로 사용하도록 예약된 리소스의 집합입니다. 전용 용량을 보유하면 사용자별 라이선스를 구입할 필요 없이 조직 전체에서 사용자에게 대시보드, 보고서 및 데이터 세트를 게시할 수 있습니다. 또한 용량에서 호스팅되는 콘텐츠에 대해 신뢰할 수 있는 일관된 성능을 제공합니다. 자세한 내용은 [Power BI 프리미엄이란?](service-premium-what-is.md)을 참조하세요.
 
 ## <a name="manage-capacity"></a>용량 관리
 
-Office 365에서 용량 노드를 구입한 후 Power BI 관리 포털에서 용량을 설정합니다. 포털의 **용량 설정** 섹션에서 Power BI Premium 용량을 관리합니다.
+Microsoft 365에서 용량 노드를 구입한 후 Power BI 관리 포털에서 용량을 설정합니다. 포털의 **용량 설정** 섹션에서 Power BI Premium 용량을 관리합니다.
 
 ![관리 포털 내에서 용량 설정](media/service-admin-premium-manage/admin-portal-premium.png)
 
@@ -60,7 +60,7 @@ Office 365에서 용량 노드를 구입한 후 Power BI 관리 포털에서 용
 
     ![새 용량 설정](media/service-admin-premium-manage/set-up-capacity.png)
 
-Power BI 관리자 및 Office 365 글로벌 관리자와 마찬가지로 용량 관리자는 관리 포털 내에 나열된 용량을 확인합니다.
+Power BI 관리자 및 전역 관리자와 마찬가지로 용량 관리자는 관리 포털 내에 나열된 용량을 확인합니다.
 
 ### <a name="capacity-settings"></a>용량 설정
 
@@ -81,7 +81,7 @@ Power BI 관리자 및 Office 365 글로벌 관리자와 마찬가지로 용량 
 
 ### <a name="change-capacity-size"></a>용량 크기 변경
 
-Power BI 관리자 및 Office 365 글로벌 관리자는 Power BI Premium 용량을 변경할 수 있습니다. Power BI 관리자 또는 Office 365 글로벌 관리자가 아닌 용량 관리자에게는 이 옵션이 제공되지 않습니다.
+Power BI 관리자 및 전역 관리자는 Power BI Premium 용량을 변경할 수 있습니다. Power BI 관리자 또는 전역 관리자가 아닌 용량 관리자에게는 이 옵션이 제공되지 않습니다.
 
 1. **용량 크기 변경**을 선택합니다.
 
@@ -118,7 +118,7 @@ Power BI 관리자 및 Office 365 글로벌 관리자는 Power BI Premium 용량
 
 ### <a name="assign-from-the-admin-portal"></a>관리 포털에서 할당
 
-Power BI 관리자 및 Office 365 글로벌 관리자와 함께 용량 관리자는 관리 포털의 프리미엄 용량 관리 섹션에서 작업 영역을 대량으로 할당할 수 있습니다. 용량을 관리하는 경우 작업 영역을 할당할 수 있는 **작업 영역** 섹션이 표시됩니다.
+Power BI 관리자 및 전역 관리자와 함께 용량 관리자는 관리 포털의 프리미엄 용량 관리 섹션에서 작업 영역을 대량으로 할당할 수 있습니다. 용량을 관리하는 경우 작업 영역을 할당할 수 있는 **작업 영역** 섹션이 표시됩니다.
 
 ![용량 관리의 작업 영역 할당 영역](media/service-admin-premium-manage/capacity-manage-workspaces.png)
 

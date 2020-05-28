@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8d70b291b4ff2b157c15967d602cfbee8e12965a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1d37225e1de1ffdf0617a84c3b0514d32494c563
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83144316"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693934"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>Power BI에서 클래식 작업 영역 만들기
 
@@ -22,30 +22,30 @@ Power BI에서 대시보드, 보고서 및 페이지를 매긴 보고서 컬렉�
 
 **알고 계십니까?** Power BI는 현재 기본값인 새 작업 영역 환경을 제공합니다. 새 작업 영역에 대한 자세한 내용은 [새 작업 영역에서 작업 구성](service-new-workspaces.md)을 참조하세요. 클래식 작업 영역을 마이그레이션할 준비가 되셨나요? 자세한 내용은 [Power BI에서 클래식 작업 영역을 새 작업 영역으로 업그레이드](service-upgrade-workspaces.md)를 참조하세요.
 
-클래식 작업 영역을 만들면, 연결된 기본 Office 365 그룹을 만들게 됩니다. 모든 작업 영역 관리는 Office 365에 위치합니다. 동료를 이러한 작업 영역에 구성원 또는 관리자로 추가할 수 있습니다. 작업 영역에 있는 대시보드, 보고서는 물론, 더 광범위한 대상 그룹에 게시할 계획이 있는 기타 문서에 대해 공동 작업할 수 있습니다. 작업 영역에 추가하는 모든 사용자는 Power BI Pro 라이선스가 필요합니다. 
+클래식 작업 영역을 만들면, 연결된 기본 Microsoft 365 그룹을 만들게 됩니다. 모든 작업 영역 관리는 Microsoft 365에 위치합니다. 동료를 이러한 작업 영역에 구성원 또는 관리자로 추가할 수 있습니다. 작업 영역에 있는 대시보드, 보고서는 물론, 더 광범위한 대상 그룹에 게시할 계획이 있는 기타 문서에 대해 공동 작업할 수 있습니다. 작업 영역에 추가하는 모든 사용자는 Power BI Pro 라이선스가 필요합니다.
 
 ## <a name="video-apps-and-workspaces"></a>비디오: 앱 및 작업 영역
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-## <a name="create-a-classic-workspace-based-on-an-office-365-group"></a>Office 365 그룹을 기준으로 클래식 작업 영역 만들기
+## <a name="create-a-classic-workspace-based-on-a-microsoft-365-group"></a>Microsoft 365 그룹을 기준으로 클래식 작업 영역 만들기
 
-작업 영역을 만들 때 Office 365 그룹에 기반합니다.
+작업 영역을 만들 때 Microsoft 365 그룹을 기반으로 합니다.
 
 [!INCLUDE [powerbi-service-create-app-workspace](../includes/powerbi-service-create-app-workspace.md)]
 
-처음 만들 때 작업 영역에서 Office 365에 전파하도록 한 시간 정도 기다려야 합니다. 
+처음 만들 때 작업 영역에서 Microsoft 365에 전파하도록 한 시간 정도 기다려야 합니다.
 
-### <a name="add-an-image-to-your-office-365-workspace-optional"></a>Office 365 작업 영역에 이미지 추가(선택 사항)
+### <a name="add-an-image-to-your-microsoft-365-workspace-optional"></a>Microsoft 365 작업 영역에 이미지 추가(선택 사항)
 기본적으로 Power BI는 해당 앱에 앱의 이니셜이 포함된 작은 컬러 원을 만듭니다. 하지만 이미지로 사용자 지정할 수도 있습니다. 이미지를 추가하려면 Exchange Online 라이선스가 필요합니다.
 
 1. **작업 영역**을 선택하고 작업 영역 이름 옆에 있는 **추가 옵션**(...)을 선택한 다음, **구성원**을 선택합니다. 
    
      ![작업 영역 구성원 선택](media/service-create-workspaces/power-bi-workspace-old-members.png)
    
-    작업 영역에 대한 Office 365 Outlook 계정은 새로운 브라우저 창에서 열립니다.
+    작업 영역에 대한 Microsoft 365 Outlook 계정은 새로운 브라우저 창에서 열립니다.
 2. **편집** 연필을 선택합니다.
    
-     ![Office 365 연필 아이콘](media/service-create-workspaces/power-bi-workspace-old-edit-group.png)
+     ![Microsoft 365 연필 아이콘](media/service-create-workspaces/power-bi-workspace-old-edit-group.png)
 3. 카메라 이미지를 선택하고 사용하려는 이미지를 찾습니다.
    
      ![카메라 이미지 선택](media/service-create-workspaces/power-bi-workspace-old-camera.png)
@@ -54,7 +54,7 @@ Power BI에서 대시보드, 보고서 및 페이지를 매긴 보고서 컬렉�
 
 4. **확인**과 **저장**을 차례로 선택합니다.
    
-    이미지는 Office 365 Outlook 창에서 컬러 원을 대체합니다. 
+    이미지는 Microsoft 365 Outlook 창에서 색상이 있는 원을 대체합니다.
    
      ![사용자 지정된 이미지](media/service-create-workspaces/power-bi-workspace-old-new-image.png)
    

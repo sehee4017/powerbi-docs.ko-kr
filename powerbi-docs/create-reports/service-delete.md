@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 3fdb969888d023ca9683c2460086f2fb8157c3c3
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a48d83223ab02d2f9f043dde2facebd6ad73c27a
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83304556"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565675"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Power BI 서비스에서 거의 모든 요소 삭제
 이 문서에서는 Power BI 서비스에서 대시보드, 보고서, 통합 문서, 데이터 세트, 앱, 시각화 및 작업 영역을 삭제하는 방법을 안내합니다.
@@ -82,7 +82,7 @@ ms.locfileid: "83304556"
 
 ## <a name="delete-a-workspace"></a>작업 영역 삭제
 > [!WARNING]
-> 작업 영역을 만들면 Office 365 그룹이 만들어집니다. 작업 영역을 삭제하면 해당 Office 365 그룹이 삭제됩니다. 즉, 그룹은 SharePoint 및 Microsoft 팀과 같은 다른 O365 제품에서도 삭제됩니다.
+> 작업 영역을 만들면 Microsoft 365 그룹이 만들어집니다. 작업 영역을 삭제하면 해당 Microsoft 365 그룹이 삭제됩니다. 즉, 그룹은 SharePoint 및 Microsoft Teams와 같은 다른 Microsoft 365 제품에서도 삭제됩니다.
 >
 >
 

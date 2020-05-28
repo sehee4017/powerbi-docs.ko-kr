@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: 4524e7c6cb8297f3c9bf71284140ddc31b38e33f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 59400f05544efa9f4ffcca6ef3ebdf1b12423d33
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275412"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564389"
 ---
 # <a name="power-bi-security"></a>Power BI 보안
 
@@ -45,9 +45,9 @@ Power BI는 데이터 저장 및 보관에 두 가지 주 스토리지를 사용
 
 ## <a name="user-authentication"></a>사용자 인증
 
-Power BI는 [AAD](https://azure.microsoft.com/services/active-directory/)(Azure Active Directory)를 사용하여 Power BI 서비스에 로그인한 사용자를 인증하고, 사용자가 인증이 필요한 리소스에 액세스를 시도할 때마다 Power BI 로그인 자격 증명을 사용합니다. 사용자는 Power BI 계정을 지정할 때 사용한 이메일 주소를 사용하여 Power BI 서비스에 로그인하고, Power BI는 이 로그인 이메일을 *유효 사용자 이름*으로 사용하여 사용자가 데이터에 연결을 시도할 때마다 리소스로 전달합니다. 그러면 적용되는 인증에 대해 *유효 사용자 이름*이 *사용자 계정 이름*([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx))에 매핑되며 연결된 Windows 도메인 계정에 확인됩니다.
+Power BI는 [AAD](https://azure.microsoft.com/services/active-directory/)(Azure Active Directory)를 사용하여 Power BI 서비스에 로그인한 사용자를 인증하고, 사용자가 인증이 필요한 리소스에 액세스를 시도할 때마다 Power BI 로그인 자격 증명을 사용합니다. 사용자는 Power BI 계정을 지정할 때 사용한 이메일 주소를 사용하여 Power BI 서비스에 로그인하고, Power BI는 이 로그인 이메일을 *유효 사용자 이름*으로 사용하여 사용자가 데이터에 연결을 시도할 때마다 리소스로 전달합니다. 그러면 적용되는 인증에 대해 *유효 사용자 이름*이 [*UPN*(사용자 계정 이름)](/windows/win32/secauthn/user-name-formats)에 매핑되며 연결된 Windows 도메인 계정에 확인됩니다.
 
-Power BI 로그인을 위해 직장 이메일을 사용하는 조직의 경우(예: <em>david@contoso.com</em>) *유효 사용자 이름*과 UPN의 매핑이 간단합니다. Power BI 로그인에 직장 이메일을 사용하지 않는 조직의 경우(예: <em>david@contoso.onmicrosoft.com</em>) AAD 및 온-프레미스 자격 증명 간의 매핑이 제대로 작동하려면 [디렉터리 동기화](https://technet.microsoft.com/library/jj573653.aspx)가 필요합니다.
+Power BI 로그인을 위해 직장 이메일을 사용하는 조직의 경우(예: <em>david@contoso.com</em>) *유효 사용자 이름*과 UPN의 매핑이 간단합니다. Power BI 로그인에 직장 이메일을 사용하지 않는 조직의 경우(예: <em>david@contoso.onmicrosoft.com</em>) AAD 및 온-프레미스 자격 증명 간의 매핑이 제대로 작동하려면 [디렉터리 동기화](/azure/active-directory-domain-services/synchronization)가 필요합니다.
 
 Power BI의 플랫폼 보안에는 다중 테넌트 환경 보안, 네트워킹 보안, 타 AAD 기반 보안 측정치를 추가하는 기능 등도 포함됩니다.
 
@@ -68,4 +68,3 @@ Power BI의 플랫폼 보안에는 다중 테넌트 환경 보안, 네트워킹 
 **Power BI Desktop**은 그러한 문서에 설명된 레지스트리 키 설정과 해당 레지스트리 설정에 따라 허용되는 TLS 버전을 사용하여 만든 연결만을 따릅니다.
 
 이러한 레지스트리 키 설정에 대한 자세한 내용은 [TLS 레지스트리 설정](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings) 문서를 참조하세요.
-

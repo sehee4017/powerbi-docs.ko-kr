@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0a9880eea0511b942c3c7310a059caf5cd9415e1
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 68dce4919dcc15cfcdd6a7c6776d569e43f9666b
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292067"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561745"
 ---
 # <a name="import-excel-workbooks-into-power-bi-desktop"></a>Power BI Desktop에 Excel 통합 문서 가져오기
 Power BI Desktop을 사용하면 파워 쿼리의 쿼리, 파워 피벗 모델, 파워 뷰 워크시트를 포함하는 Excel 통합 문서를 간편하게 Power BI Desktop에 가져올 수 있습니다. Power BI Desktop은 Excel 통합 문서에 따라 보고서 및 시각화를 자동으로 만듭니다. 가져온 후에는 기존 기능과, 각 Power BI Desktop 월별 업데이트에서 제공되는 새로운 기능을 사용하여 계속해서 Power BI Desktop으로 해당 보고서를 개선하고 구체화할 수 있습니다.
@@ -30,7 +30,7 @@ Power BI Desktop을 사용하면 파워 쿼리의 쿼리, 파워 피벗 모델, 
    현재 통합 문서의 크기나 개체 수에는 제약이 없지만 통합 문서가 커지면 Power BI Desktop의 분석 및 가져오기가 더 오래 걸립니다.
 
    > [!NOTE]
-   > 공유된 비즈니스용 OneDrive 폴더 또는 Office 365 그룹 폴더에서 Excel 파일을 로드하거나 가져오려면 Excel 파일의 URL을 사용하고 웹 데이터 원본을 Power BI Desktop에 입력합니다. 비즈니스용 OneDrive URL의 형식을 제대로 지정하기 위해 따라야 하는 몇 가지 단계가 있습니다. 자세한 내용 및 올바른 일련의 단계는 [Power BI Desktop에서 비즈니스용 OneDrive 링크 사용](desktop-use-onedrive-business-links.md)을 참조하세요.
+   > 공유된 비즈니스용 OneDrive 폴더 또는 Microsoft 365 그룹 폴더에서 Excel 파일을 로드하거나 가져오려면 Excel 파일의 URL을 사용하고 웹 데이터 원본을 Power BI Desktop에 입력합니다. 비즈니스용 OneDrive URL의 형식을 제대로 지정하기 위해 따라야 하는 몇 가지 단계가 있습니다. 자세한 내용 및 올바른 일련의 단계는 [Power BI Desktop에서 비즈니스용 OneDrive 링크 사용](desktop-use-onedrive-business-links.md)을 참조하세요.
    > 
    > 
 

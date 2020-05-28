@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 11/27/2019
-ms.openlocfilehash: 55e74809b47b2906edac9a06f701aa30b3498f80
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.date: 05/14/2020
+ms.openlocfilehash: 0cf3fcdbcfb49d501ccbb7fa191b566e298c84b7
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83144744"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565509"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Power BI Premium의 페이지를 매긴 보고서란?
 
@@ -45,7 +45,7 @@ ms.locfileid: "83144744"
 
 ### <a name="create-paginated-reports-with-matrix-chart-and-free-form-layouts"></a>행렬, 차트 및 자유 형식 레이아웃을 사용하여 페이지를 매긴 보고서 만들기
 
-테이블 보고서는 열 기반 데이터에 적합합니다. 크로스탭 또는 피벗 테이블 보고서와 같은 행렬 보고서는 요약된 데이터에 적합합니다. 차트 보고서는 그래픽 형식으로 데이터를 제공하고 자유 형식 ‘목록’ 보고서는 청구서와 같은 거의 모든 다른 것을 제공할 수 있습니다.  
+테이블 보고서는 열 기반 데이터에 적합합니다. 크로스탭 또는 피벗 테이블 보고서와 같은 행렬 보고서는 요약된 데이터에 적합합니다. 차트 보고서는 그래픽 형식으로 데이터를 제공하고 자유 형식 ‘목록’ 보고서는 청구서와 같은 거의 모든 다른 것을 제공할 수 있습니다. 
   
 보고서 작성기 마법사 중 하나로 시작할 수 있습니다. 테이블, 행렬 및 차트 마법사는 포함된 데이터 원본 연결 및 포함된 데이터 세트를 만드는 과정을 안내합니다. 그런 다음, 필드를 끌어서 놓아 데이터 세트 쿼리를 만들고, 레이아웃 및 스타일을 선택하고, 보고서를 사용자 지정합니다.  
   
@@ -59,7 +59,7 @@ ms.locfileid: "83144744"
 
 ## <a name="creating-a-report-definition"></a>보고서 정의 만들기
 
-페이지를 매긴 보고서를 디자인할 때 실제로는 ‘보고서 정의’를 만듭니다.  보고서 정의는 데이터를 포함하지 않습니다. 데이터를 가져올 위치, 가져올 데이터 및 데이터 표시 방법을 지정합니다. 보고서를 실행할 때 보고서 처리기는 지정한 보고서 정의를 사용하고, 데이터를 검색하고, 보고서 레이아웃과 결합하여 보고서를 생성합니다. 보고서 정의를 Power BI 서비스, `https://app.powerbi.com` 의 내 작업 영역 또는 동료와 공유된 작업 영역에 업로드합니다. 보고서 데이터 원본이 온-프레미스인 경우 보고서를 업로드한 후 데이터 원본 연결을 리디렉션하여 게이트웨이를 통과합니다. 
+페이지를 매긴 보고서를 디자인할 때 실제로는 ‘보고서 정의’를 만듭니다. 보고서 정의는 데이터를 포함하지 않습니다. 데이터를 가져올 위치, 가져올 데이터 및 데이터 표시 방법을 지정합니다. 보고서를 실행할 때 보고서 처리기는 지정한 보고서 정의를 사용하고, 데이터를 검색하고, 보고서 레이아웃과 결합하여 보고서를 생성합니다. 보고서 정의를 Power BI 서비스, `https://app.powerbi.com` 의 내 작업 영역 또는 동료와 공유된 작업 영역에 업로드합니다. 보고서 데이터 원본이 온-프레미스인 경우 보고서를 업로드한 후 데이터 원본 연결을 리디렉션하여 게이트웨이를 통과합니다. 
 
 ## <a name="view-your-paginated-report"></a>페이지를 매긴 보고서 보기
 브라우저의 Power BI 서비스 및 Power BI 모바일 앱에서 페이지를 매긴 보고서를 볼 수 있습니다. Power BI 서비스에서 보고서를 HTML, MHTML, PDF, XML, CSV, TIFF, Word 및 Excel과 같은 여러 형식으로 내보낼 수 있습니다. 다른 사용자와 공유할 수도 있습니다.  
@@ -76,7 +76,7 @@ ms.locfileid: "83144744"
 
 - 보고서 페이지 또는 시각적 개체를 Power BI 대시보드에 고정. 사용자는 여전히 Power BI Report Server 또는 Reporting Services 보고서 서버의 온-프레미스 페이지를 매긴 보고서에서 Power BI 대시보드로 시각화를 고정할 수 있습니다. 자세한 내용은 [Power BI 대시보드에 Reporting Services 항목 고정](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)을 참조하세요.
 - 문서 구조.
-- 하위 보고서 및 드릴스루 보고서.  단, 드릴스루 시나리오를 위해서는 URL 매개 변수를 페이지를 매긴 보고서와 함께 사용할 수 있습니다.
+- 드릴스루 보고서.  드릴스루 시나리오를 위해서는 URL 매개 변수를 페이지를 매긴 보고서와 함께 사용합니다.
 - 공유 데이터 원본 및 공유 데이터 세트.
 
  
@@ -85,4 +85,4 @@ ms.locfileid: "83144744"
 - [Microsoft 다운로드 센터에서 Power BI 보고서 작성기 설치](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [자습서: 페이지를 매긴 보고서 만들기](paginated-reports-quickstart-aw.md)
 - [페이지를 매긴 보고서에 직접 데이터 입력](paginated-reports-enter-data.md)
-- [자습서: 고객을 위해 애플리케이션에 페이지를 매긴 Power BI 보고서 포함](../developer/embed-paginated-reports-customers.md)
+- [자습서: 고객을 위해 애플리케이션에 페이지를 매긴 Power BI 보고서 포함](../developer/embedded/embed-paginated-reports-customers.md)

@@ -7,47 +7,43 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/11/2020
+ms.date: 05/18/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 84ce61c98048690c1560a2c49aed07591a22119f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 8bea8c2fc59deeb6aec4817f27d10371518f523e
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83137637"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564338"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>앱을 사용하여 프리미엄 용량 모니터링
 
 용량 모니터링은 프리미엄 용량 리소스를 최대한 활용하는 방법에 대한 합리적인 결정을 하는 데 필수적입니다. 관리 포털 또는 **Power BI Premium 용량 메트릭** 앱으로 용량을 모니터링할 수 있습니다. 이 문서에서는 프리미엄 용량 메트릭 앱 사용을 설명합니다. 앱은 용량이 수행되는 방법에 대해 가장 심층적인 정보를 제공합니다. 지난 7일 동안의 평균 사용 메트릭의 상위 수준 개요의 경우 관리 포털을 사용할 수 있습니다. 포털에서 모니터링하는 방법에 대한 자세한 내용은 [관리 포털에서 프리미엄 용량 모니터링](service-admin-premium-monitor-portal.md)을 참조하세요.
 
-앱은 새로운 기능과 역량을 사용하여 정기적으로 업데이트됩니다. 최신 버전을 실행하고 있는지 확인합니다. 이전 버전의 앱이 이미 설치되어 있는 경우 앱에서 삭제한 다음, CTRL+F5를 눌러 새로 고치는 것이 가장 좋습니다.
+앱은 새로운 기능과 역량을 사용하여 정기적으로 업데이트됩니다. 최신 버전을 실행하고 있는지 확인합니다. 새 버전을 사용할 수 있을 때 [알림](../connect-data/service-template-apps-install-distribute.md#update-a-template-app)을 받게 됩니다.
 
 > [!IMPORTANT]
 > Power BI Premium 용량의 리소스 사용률이 높아서 성능 또는 안정성 문제가 발생할 경우 문제를 식별하고 해결할 수 있도록 알림 메일을 받을 수 있습니다. 이는 오버로드된 용량 문제를 해결하는 간소화된 방법이 될 수 있습니다. 자세한 내용은 [용량 및 안정성 알림](service-interruption-notifications.md#capacity-and-reliability-notifications)을 참조하세요.
 
 ## <a name="install-the-app"></a>앱 설치
 
-[프리미엄 용량 메트릭 앱](https://app.powerbi.com/groups/me/getapps/services/capacitymetrics)으로 바로 이동하거나 Power BI에서 다른 앱을 설치하는 것처럼 설치할 수 있습니다.
-
-1. Power BI에서 **앱**을 클릭합니다.
-
-    ![앱으로 이동](media/service-admin-premium-monitor-capacity/apps.png)
-
-2. 오른쪽에서 **앱 가져오기**를 클릭합니다.
-3. **앱** 범주에서 **Power BI Premium 용량 메트릭 앱**을 검색합니다.
-4. 구독하여 앱을 설치합니다.
-
-조금만 기다려주세요. 메트릭를 설치하고 새로 고치는 데 몇 분 정도 걸립니다. 앱에 빈 메트릭이 표시되면 F5를 눌러 브라우저를 새로 고칩니다.
+[Power BI Premium Capacity Metrics에 연결](../connect-data/service-connect-to-pbi-premium-capacity-metrics.md)로 이동하여 앱을 설치하고 데이터에 연결하는 방법을 알아봅니다. 또는 [앱으로 바로 이동](https://go.microsoft.com/fwlink/?linkid=2114036)할 수 있습니다.
 
 ## <a name="get-app-refresh-history"></a>앱 새로 고침 기록 가져오기
 
-프리미엄 용량 메트릭 앱을 마지막으로 새로 고친 시간을 확인하려면 **설정** > **데이터 세트** > **Power BI Premium 용량 메트릭** > **새로 고침 기록**을 클릭합니다. 
+프리미엄 용량 메트릭 앱을 마지막으로 새로 고친 시간을 확인하려면
 
-![설정의 새로 고침 기록](media/service-admin-premium-monitor-capacity/settings-refresh-history.png)
+1. 앱과 함께 설치된 작업 영역으로 이동합니다.
 
-마지막 새로 고침이 표시되거나 **새로 고침 기록**을 클릭하여 예약 및 요청 시 새로 고침을 확인합니다.
+   ![앱 작업 영역으로 이동](media/service-admin-premium-monitor-capacity/settings-refresh-history.png)
 
-![마지막 새로 고침](media/service-admin-premium-monitor-capacity/settings-last-refresh.png)
+1. 데이터 세트 줄에서 **새로 고침 예약** 단추를 클릭합니다.
+
+   ![새로 고침 예약 단추](media/service-admin-premium-monitor-capacity/schedule-refresh.png)
+
+   마지막 새로 고침이 표시됩니다. **새로 고침 기록**을 클릭하여 예약된 새로 고침과 요청 시 새로 고침을 확인합니다.
+
+   ![마지막 새로 고침](media/service-admin-premium-monitor-capacity/settings-last-refresh.png)
 
 ## <a name="monitor-capacities-with-the-app"></a>앱을 사용하여 용량 모니터링
 

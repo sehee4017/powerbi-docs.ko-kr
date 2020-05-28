@@ -5,18 +5,20 @@ author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 04/25/2020
+ms.date: 05/19/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1be2d3db9dbf341def86c087344ef7a32cd006a0
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2d5a2f319753323dd391cf6f5dceb970de1720b5
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83337722"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693362"
 ---
 # <a name="connect-to-github-with-power-bi"></a>Power BI로 GitHub에 연결
 이 문서에서는 Power BI 템플릿 앱을 사용하여 GitHub 계정에서 데이터를 가져오는 과정을 안내합니다. 템플릿 앱은 대시보드, 보고서 세트 및 데이터 세트로 구성되고 GitHub 데이터를 탐색할 수 있게 해주는 작업 영역을 생성합니다. Power BI용 GitHub 앱은 기여, 이슈, 끌어오기 요청 및 활성 사용자와 관련된 데이터가 포함된 GitHub 리포지토리(리포라고도 함)의 인사이트를 표시합니다.
+
+![GitHub 템플릿 앱](media/service-connect-to-github/service-github-app-report.png)
 
 템플릿 앱을 설치한 후에 대시보드와 보고서를 변경할 수 있습니다. 그런 다음, 조직의 동료에게 앱으로 배포할 수 있습니다.
 
@@ -27,55 +29,69 @@ ms.locfileid: "83337722"
 >[!NOTE]
 >이 템플릿 앱을 사용하려면 리포지토리 액세스 권한이 있는 GitHub 계정이 필요합니다. 요구 사항에 대한 자세한 내용은 아래에 나와 있습니다.
 >
->이 템플릿 앱은 GitHub Enterprise를 지원하지 않습니다. 
+>이 템플릿 앱은 GitHub Enterprise를 지원하지 않습니다.
 
-## <a name="how-to-connect"></a>연결 방법
-[!INCLUDE [powerbi-service-apps-get-more-apps](../includes/powerbi-service-apps-get-more-apps.md)]
-   
-3. **GitHub** \> **지금 받기**를 선택합니다.
-4. **이 Power BI 앱을 설치하시겠습니까?** 에서 **설치**를 선택합니다.
-4. **앱** 창에서 **GitHub** 타일을 선택합니다.
+## <a name="install-the-app"></a>앱 설치
 
-    ![Power BI - GitHub 타일](media/service-connect-to-github/power-bi-github-tile.png)
+1. 다음 링크를 클릭하여 앱을 가져옵니다. [GitHub 템플릿 앱](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
 
-6. **새 앱 시작**에서 **데이터**를 선택합니다.
+1. 앱의 AppSource 페이지에서 [**지금 가져오기**](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)를 선택합니다.
 
-    ![새 앱 시작](media/service-connect-to-zendesk/power-bi-new-app-connect-get-started.png)
+    [![AppSource의 GitHub 템플릿 앱](media/service-connect-to-github/service-github-template-app-appsource-get-it-now.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
 
-5. 리포지토리의 리포지토리 이름과 리포지토리 소유자를 입력합니다. 아래에서 [해당 매개 변수 찾기](#FindingParams)에 대한 세부 정보를 참조하세요.
-   
-    ![Power BI - GitHub 리포지토리 이름](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-connect.png)
+1. **설치**를 선택합니다. 
 
-5. GitHub 자격 증명을 입력합니다(브라우저를 사용하여 이미 로그인한 경우 이 단계를 건너뛸 수 있음). 
-6. **인증 방법**에 대해 **oAuth2** \> **로그인**을 선택합니다. 
-7. GitHub 인증 화면을 따릅니다. Power BI용 GitHub 템플릿 앱에 GitHub 데이터 사용 권한을 부여합니다.
-   
-   ![Power BI GitHub 권한 부여](media/service-connect-to-github/github_authorize.png)
-   
-    Power BI는 GitHub 및 데이터에 연결됩니다.  하루에 한 번 데이터가 새로 고쳐집니다. Power BI가 데이터를 가져오면 새 GitHub 작업 영역의 콘텐츠가 표시됩니다.
+    ![GitHub 템플릿 앱 설치](media/service-connect-to-github/service-regional-emergency-response-select-install.png)
 
-## <a name="modify-and-distribute-your-app"></a>앱 수정 및 배포
+    앱이 설치되면 앱 페이지에 설치된 앱이 표시됩니다.
 
-GitHub 템플릿 앱을 설치했습니다. 즉, GitHub 작업 영역도 만들었습니다. 작업 영역에서 보고서와 대시보드를 변경한 다음, 조직의 동료에게 ‘앱’으로 배포할 수 있습니다. 
+   ![앱 페이지의 GitHub 앱](media/service-connect-to-github/service-github-app-apps-page-icon.png)
 
-1. 탐색 창에서 작업 영역 이름 옆에 있는 화살표를 선택합니다. 작업 영역에 대시보드 및 보고서가 포함되어 있는 것을 확인할 수 있습니다.
+## <a name="connect-to-data-sources"></a>데이터 원본 연결
 
-    ![탐색 창의 앱](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
+1. 앱 페이지에서 아이콘을 선택하여 앱을 엽니다.
 
-8. 새 [GitHub 대시보드](https://powerbi.microsoft.com/integrations/github)를 선택합니다.    
-    ![Power BI의 GitHub 대시보드](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-new-dashboard.png)
+1. 시작 화면에서 **앱 탐색**을 선택합니다.
 
-3. 새 GitHub 작업 영역의 모든 콘텐츠를 보려면 탐색 창에서 **작업 영역** > **GitHub**를 선택합니다.
- 
-   ![탐색 창의 GitHub 작업 영역](media/service-connect-to-github/power-bi-github-left-nav.png)
+   ![템플릿 앱 시작 화면](media/service-connect-to-github/service-github-app-splash-screen.png)
 
-    이 보기는 작업 영역의 콘텐츠 목록입니다. 오른쪽 위에 **앱 업데이트**가 표시됩니다. 동료에게 앱을 배포할 준비가 되었으면 여기서 시작합니다. 
+   앱이 열리고 샘플 데이터가 표시됩니다.
 
-    ![GitHub 콘텐츠 목록](media/service-connect-to-github/power-bi-github-content-list.png)
+1. 페이지 맨 위에 있는 배너에서 **데이터 연결** 링크를 선택합니다.
 
-2. **보고서** 및 **데이터 세트**를 선택하여 작업 영역의 다른 요소를 확인합니다.
+   ![GitHub 앱 데이터 연결 링크](media/service-connect-to-github/service-github-app-connect-data.png)
 
-    동료에게 [앱을 배포](../collaborate-share/service-create-distribute-apps.md)하는 방법을 참조하세요.
+1. 표시되는 대화 상자에서 리포지토리의 리포지토리 이름과 리포지토리 소유자를 입력합니다. 아래에서 [해당 매개 변수 찾기](#FindingParams)에 대한 세부 정보를 참조하세요. 완료하면 **다음**을 클릭합니다.
+
+   ![Power BI - GitHub 리포지토리 이름](media/service-connect-to-github/power-bi-github-app-tutorial-connect.png)
+
+1. 표시되는 다음 대화 상자에서 인증 방법이 **OAuth2**로 설정되어 있는지 확인합니다. 개인 정보 설정은 변경하지 않아도 됩니다. 준비가 되면 **로그인**을 클릭합니다.
+
+   ![Power BI GitHub 인증 방법](media/service-connect-to-github/power-bi-github-authentication.png)
+
+1. GitHub 자격 증명을 입력하고 GitHub 인증 프로세스를 수행합니다(브라우저를 사용하여 이미 로그인한 경우 이 단계를 건너뛸 수 있음).
+
+   ![Power BI GitHub 인증 프로세스](media/service-connect-to-github/power-bi-github-authenticate-process.png)
+
+
+로그인하면 보고서가 데이터 원본에 연결되고 최신 데이터로 채워집니다. 데이터가 채워지는 동안 활동 모니터가 회전합니다.
+
+![Power BI GitHub 앱 새로 고침 진행 중](media/service-connect-to-github/service-github-app-refresh-monitor.png)
+
+로그인 과정에 사용하지 않도록 설정하지 않으면 보고서 데이터가 하루에 한 번 자동으로 새로 고쳐집니다. 원하는 경우 [새로 고침 일정을 직접 설정](./refresh-scheduled-refresh.md)하여 보고서 데이터를 최신 상태로 유지할 수도 있습니다.
+
+## <a name="customize-and-share"></a>사용자 지정 및 공유
+
+앱을 사용자 지정하고 공유하려면 페이지의 오른쪽 위 모서리의 연필 아이콘을 선택합니다.
+
+![앱 편집](media/service-template-apps-install-distribute/power-bi-template-app-edit-app.png)
+
+
+작업 영역에서 아티팩트를 편집하는 방법에 대한 자세한 내용은 다음을 참조하세요.
+* [Power BI의 보고서 편집기 둘러보기](../create-reports/service-the-report-editor-take-a-tour.md)
+* [Power BI 서비스의 디자이너를 위한 기본 개념](../fundamentals/service-basic-concepts.md)
+
+작업 영역에서 아티팩트 변경을 완료하면 앱을 게시하고 공유할 준비가 됩니다. 이 작업을 수행하는 방법을 알아보려면 [앱 게시](../collaborate-share/service-create-distribute-apps.md#publish-your-app)를 참조하세요.
 
 ## <a name="whats-included-in-the-app"></a>앱에 포함된 내용
 Power BI의 GitHub에서 다음 데이터를 사용할 수 있습니다.     

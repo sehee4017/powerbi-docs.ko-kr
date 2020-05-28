@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/01/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0f01a6da3bb0d829d396861814f71d33ba69f22f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4244253faa3160b515a02b598988072117d982ed
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83291929"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563055"
 ---
 # <a name="connect-to-project-online-data-through-power-bi-desktop"></a>Power BI Desktop을 통해 Project Online 데이터에 연결
 Power BI Desktop을 통해 Project Online의 데이터에 연결할 수 있습니다.
@@ -35,7 +35,7 @@ Power BI Desktop을 통해 Project Online의 데이터에 연결할 수 있습�
 
     `https://contoso.sharepoint.com/sites/pwa/default.aspx`
 
-5. Power BI Desktop에서 Office 365 계정을 사용하여 인증하라는 메시지가 나타납니다. 조직 계정을 선택하고 자격 증명을 입력합니다.
+5. Power BI Desktop에서 회사 또는 학교 계정을 사용하여 인증하라는 메시지가 나타납니다. 조직 계정을 선택하고 자격 증명을 입력합니다.
    
    ![](media/desktop-project-online-connect-to-data/image.png)
 

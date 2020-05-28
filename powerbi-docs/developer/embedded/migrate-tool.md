@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: b6b84d9e6c5f0dee912ccf80cf6949618b16d8c5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 5df9ddd44bdc8952dab14809ce3facd74e5d3753
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83149005"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564164"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded 마이그레이션 도구
 
@@ -49,7 +49,7 @@ ms.locfileid: "83149005"
 3. 로그인하라는 메시지가 표시됩니다. Azure 구독 로그인을 사용합니다.
 
    > [!IMPORTANT]
-   > Power BI에 로그인하려는 Office 365 조직 계정이 **아닙니다.**
+   > Power BI에 로그인하려는 조직 계정이 **아닙니다.**
 
 4. Power BI Embedded 작업 영역 컬렉션을 저장하는 Azure 구독을 선택합니다.
 
@@ -172,7 +172,7 @@ ms.locfileid: "83149005"
 
 작업 영역을 만들려면 **선택한 그룹 만들기** 또는 **누락된 모든 그룹 만들기**를 선택합니다.
 
-이러한 옵션 중 하나를 선택하면 로그인하라는 메시지가 표시됩니다. ‘작업 영역을 만들려는 Power BI 서비스에 대한 자격 증명을 사용하는 것이 좋습니다.’ 
+이러한 옵션 중 하나를 선택하면 로그인하라는 메시지가 표시됩니다. ‘작업 영역을 만들려는 Power BI 서비스에 대한 자격 증명을 사용하는 것이 좋습니다.’
 
 ![그룹 로그인 만들기](media/migrate-tool/migrate-tool-create-group-sign-in.png)
 

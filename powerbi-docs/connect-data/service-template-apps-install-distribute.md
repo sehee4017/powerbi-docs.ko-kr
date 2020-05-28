@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 05/04/2020
+ms.date: 05/19/2020
 ms.author: painbar
-ms.openlocfilehash: 762d88789bb68777886a126589802b9e8d854879
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a68c8a452752981b2526c450820e8d277f5c0b10
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347450"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83692955"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>조직에 템플릿 앱 설치 및 배포
 
@@ -59,11 +59,19 @@ Power BI 분석가인가요? 그렇다면 이 문서에서는 Salesforce, Micros
 
 ## <a name="connect-to-data"></a>데이터에 연결
 
-1. **앱으로 이동**을 선택합니다. **새 앱 시작** 창이 표시됩니다.
+1. **앱으로 이동**을 선택합니다.
 
-   ![앱 시작](media/service-template-apps-install-distribute/power-bi-template-app-get-started.png)
+1. **새 앱 시작** 창에서 **탐색**을 선택합니다.
 
-1. **연결**을 클릭합니다.
+   ![템플릿 앱 시작 화면](media/service-template-apps-install-distribute/power-bi-template-app-get-started.png)
+
+   앱이 열리고 샘플 데이터가 표시됩니다.
+
+1. 페이지 맨 위에 있는 배너에서 **데이터 연결** 링크를 선택합니다.
+
+   ![GitHub 앱 데이터 연결 링크](media/service-template-apps-install-distribute/power-bi-template-app-connect-data.png)
+
+
     
     데이터 원본을 샘플 데이터에서 사용자 고유의 데이터 원본으로 변경하는 대화 상자 또는 일련의 대화 상자가 열립니다. 일반적으로 데이터 세트 매개 변수 및 데이터 원본 자격 증명이 다시 정의됩니다. [알려진 제한 사항](service-template-apps-overview.md#known-limitations)을 참조하세요.
     
@@ -71,19 +79,20 @@ Power BI 분석가인가요? 그렇다면 이 문서에서는 Salesforce, Micros
 
    ![데이터에 연결 대화 상자](media/service-template-apps-install-distribute/power-bi-template-app-connect-to-data-dialogs.png)
 
-    연결 대화 상자 입력을 완료하면 연결 프로세스가 시작됩니다. 배너에서 샘플 데이터를 보고 있음을 알려 줍니다.
+    연결 대화 상자 입력을 완료하면 연결 프로세스가 시작됩니다. 배너에서는 데이터가 새로 고쳐지고 있고 그동안 샘플 데이터가 표시된다고 알려줍니다.
 
     ![샘플 데이터 보기](media/service-template-apps-install-distribute/power-bi-template-app-viewing-sample-data.png)
 
-    데이터의 연결 및 업데이트가 완료될 때까지 기다립니다. 이 프로세스가 완료된 시간을 확인하려면 데이터 세트 행(새로운 디자인) 또는 탭(이전 디자인)에서 진행률 표시기를 확인합니다.
-
-   연결 및 데이터 새로 고침이 완료되면 브라우저를 새로 고칩니다. 이제 배너에서 앱의 변경 내용을 적용하고 공유하려면 앱을 업데이트해야 함을 알려 줍니다.
-
-    ![앱 사용자 지정 및 공유](media/service-template-apps-install-distribute/power-bi-template-app-customize-share.png)
+   로그인 과정에 사용하지 않도록 설정하지 않으면 보고서 데이터가 하루에 한 번 자동으로 새로 고쳐집니다. 원하는 경우 [새로 고침 일정을 직접 설정](./refresh-scheduled-refresh.md)하여 보고서 데이터를 최신 상태로 유지할 수도 있습니다.
 
 ## <a name="customize-and-share-the-app"></a>앱 사용자 지정 및 공유
 
-데이터에 연결 및 데이터 새로 고침 후 브라우저를 새로 고치면 이제 앱과 연결된 작업 영역이 표시됩니다. 이때 모든 작업 영역에서 편집하는 것처럼 아티팩트를 편집할 수 있습니다. 그러나 변경한 항목을 다른 이름으로 저장하지 않는 한, 새 버전으로 앱을 업데이트하면 변경 내용을 덮어씁니다. [덮어쓰기에 대한 자세한 내용을 참조하세요](#overwrite-behavior).
+데이터에 연결하고 데이터 새로 고침이 완료되면 앱에 포함된 보고서 및 대시보드를 사용자 지정하고 동료와 앱을 공유할 수 있습니다. 그러나 변경한 항목을 다른 이름으로 저장하지 않는 한, 새 버전으로 앱을 업데이트하면 변경 내용을 덮어씁니다. [덮어쓰기에 대한 자세한 내용을 참조하세요](#overwrite-behavior).
+
+앱을 사용자 지정하고 공유하려면 페이지의 오른쪽 위 모서리의 연필 아이콘을 선택합니다.
+
+![앱 편집](media/service-template-apps-install-distribute/power-bi-template-app-edit-app.png)
+
 
 작업 영역에서 아티팩트를 편집하는 방법에 대한 자세한 내용은 다음을 참조하세요.
 * [Power BI의 보고서 편집기 둘러보기](../create-reports/service-the-report-editor-take-a-tour.md)
@@ -132,4 +141,4 @@ Power BI 분석가인가요? 그렇다면 이 문서에서는 Salesforce, Micros
 
 ## <a name="next-steps"></a>다음 단계
 
-[Power BI에서 동료와 작업 영역 만들기](../collaborate-share/service-create-workspaces.md)
+[Power BI에서 동료와 작업 영역 만들기](../collaborate-share/service-create-the-new-workspaces.md)

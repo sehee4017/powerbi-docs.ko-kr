@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0a362861aecda7fc9f7cac4820d4826d640a9dd6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 700b9a5dffc3abff00fb2ea738d0517a676a689b
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83144217"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693750"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Power BI에서 새 작업 영역 만들기
 
@@ -22,8 +22,8 @@ Power BI는 새 작업 영역 환경을 소개합니다. 작업 영역은 여전
 
 차이점은 다음과 같습니다. 새 작업 영역을 사용하면 다음을 수행할 수 있습니다.
 
-- 보안 그룹, 배포 목록, Office 365 그룹 및 개인과 같은 사용자 그룹에 작업 영역 역할을 할당합니다.
-- Office 365 그룹을 만들지 않고 Power BI에서 작업 영역을 만듭니다.
+- 보안 그룹, 배포 목록, Microsoft 365 그룹 및 개인과 같은 사용자 그룹에 작업 영역 역할을 할당합니다.
+- Microsoft 365 그룹을 만들지 않고 Power BI에서 작업 영역을 만듭니다.
 - 작업 영역에서 더 유연한 사용 권한 관리에 대해 세분화된 작업 영역 역할을 사용합니다.
 
 클래식 작업 영역을 마이그레이션할 준비가 되셨나요? 자세한 내용은 [Power BI에서 클래식 작업 영역을 새 작업 영역으로 업그레이드](service-upgrade-workspaces.md)를 참조하세요.
@@ -43,7 +43,7 @@ Power BI는 새 작업 영역 환경을 소개합니다. 작업 영역은 여전
    
      ![새 작업 영역 환경](media/service-create-the-new-workspaces/power-bi-new-workspace.png)
      
-     **클래식으로 되돌리기**를 선택하는 경우 [Office 365 그룹을 기준으로 작업 영역](service-create-workspaces.md)이 생성됩니다. 
+     **클래식으로 되돌리기**를 선택하는 경우 [Microsoft 365 그룹을 기준으로 작업 영역](service-create-workspaces.md)이 생성됩니다. 
 
 2. 작업 영역에 이름을 지정합니다. 이름을 사용할 수 없는 경우 편집하여 고유한 이름을 입력합니다.
    
@@ -55,7 +55,7 @@ Power BI는 새 작업 영역 환경을 소개합니다. 작업 영역은 여전
     
     [**연락처 목록**을 추가합니다](#workspace-contact-list). 기본적으로 작업 영역 관리자는 연락처입니다. 
     
-    [URL이 아닌 기존 Office 365 그룹의 이름만 입력하여 **작업 영역 OneDrive**](#workspace-onedrive)를 지정합니다. 이제 이 작업 영역에서 해당 Office 365 그룹의 파일 스토리지 위치를 사용할 수 있습니다. 
+    [URL이 아닌 기존 Microsoft 365 그룹의 이름만 입력하여 **작업 영역 OneDrive**](#workspace-onedrive)를 지정합니다. 이제 이 작업 영역에서 해당 Microsoft 365 그룹의 파일 스토리지 위치를 사용할 수 있습니다.
 
     ![OneDrive 위치 지정](media/service-create-the-new-workspaces/power-bi-new-workspace-onedrive.png)
 
@@ -87,9 +87,9 @@ Power BI는 새 작업 영역 환경을 소개합니다. 작업 영역은 여전
 
 ## <a name="workspace-onedrive"></a>작업 영역 OneDrive
 
-작업 영역 OneDrive 기능을 사용하면 작업 영역 사용자가 SharePoint 문서 라이브러리 파일 스토리지를 사용할 수 있는 Office 365 그룹을 구성할 수 있습니다. 먼저 Power BI 외부에 그룹을 만듭니다. 
+작업 영역 OneDrive 기능을 사용하면 작업 영역 사용자가 SharePoint 문서 라이브러리 파일 스토리지를 사용할 수 있는 Microsoft 365 그룹을 구성할 수 있습니다. 먼저 Power BI 외부에 그룹을 만듭니다.
 
-Power BI는 작업 영역 액세스 권한을 가지도록 구성된 사용자 또는 그룹의 권한을 Office 365 그룹 멤버 자격과 동기화하지 않습니다. 이 설정 Office 365 그룹에서 구성한 파일 스토리지 및 [작업 영역에 대한 액세스 권한](#give-access-to-your-workspace)이 포함된 동일한 Office 365 그룹을 제공하는 것이 가장 좋습니다. 그런 다음, Office 365 그룹의 멤버 자격을 관리하여 작업 영역 액세스를 관리합니다. 
+Power BI는 작업 영역 액세스 권한을 가지도록 구성된 사용자 또는 그룹의 권한을 Microsoft 365 그룹 멤버 자격과 동기화하지 않습니다. 이 Microsoft 365 그룹 설정에서 구성한 파일 스토리지가 포함된 동일한 Microsoft 365 그룹에 [작업 영역에 대한 액세스 권한](#give-access-to-your-workspace)을 제공하는 것이 좋습니다. 그런 다음, Microsoft 365 그룹의 멤버 자격을 관리하여 작업 영역 액세스를 관리합니다.
 
 1. 다음 두 가지 방법 중 하나로 새 **작업 영역 OneDrive** 설정에 액세스합니다.
 
@@ -99,7 +99,7 @@ Power BI는 작업 영역 액세스 권한을 가지도록 구성된 사용자 �
 
     ![작업 영역 설정](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
-2. **고급** > **작업 영역 OneDrive**에서 이전에 만든 Office 365 그룹의 이름을 입력합니다. Power BI는 그룹의 OneDrive를 자동으로 선택합니다.
+2. **고급** > **작업 영역 OneDrive**에서 이전에 만든 Microsoft 365 그룹의 이름을 입력합니다. Power BI는 그룹의 OneDrive를 자동으로 선택합니다.
 
     ![OneDrive 위치 지정](media/service-create-the-new-workspaces/power-bi-new-workspace-onedrive.png)
 
@@ -129,7 +129,7 @@ OneDrive 위치를 구성한 후에는 Power BI 서비스에서 다른 데이터
 
     ![작업 영역 콘텐츠 목록](media/service-create-the-new-workspaces/power-bi-workspace-access-icon.png)
 
-1. 보안 그룹, 배포 목록, Office 365 그룹 또는 개인을 이러한 작업 영역에 뷰어, 구성원, 참가자 또는 관리자로 추가합니다. 다양한 역할에 대한 설명은 [새 작업 영역의 역할](service-new-workspaces.md#roles-in-the-new-workspaces)을 참조하세요.
+1. 보안 그룹, 배포 목록, Microsoft 365 그룹 또는 개인을 이러한 작업 영역에 뷰어, 멤버, 참가자 또는 관리자로 추가합니다. 다양한 역할에 대한 설명은 [새 작업 영역의 역할](service-new-workspaces.md#roles-in-the-new-workspaces)을 참조하세요.
 
     ![작업 영역 추가 멤버, 관리자, 기여자](media/service-create-the-new-workspaces/power-bi-workspace-add-members.png)
 

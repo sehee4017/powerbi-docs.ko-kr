@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/07/2020
 ms.author: davidi
-ms.openlocfilehash: f66e564091c30e11604d0ab3fe58ba1f93addb28
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: e7e7c0f8df0f41d673920cf4af596ca33d46519c
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349106"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564578"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Power BI Desktop에서 보고서를 만들기 위한 팁과 힌트
 데이터를 최대한 활용하려면 추가 도움이 필요하기도 합니다. Microsoft Power BI Desktop *및* 파워 피벗 추가 기능이 사용되고 파워 쿼리가 설치 및 사용되는 Microsoft Excel 2016 또는 Excel 2013 Pro-Plus 버전에서 보고서를 만들 때 사용할 수 있는 몇 가지 팁과 힌트를 모아두었습니다. 
@@ -92,7 +92,7 @@ Power BI Desktop에서 히스토그램을 만드는 방법에는 여러 가지�
 >[!NOTE]
 >모든 시각적 개체를 만들기 전에 정렬 순서에 대해 생각하는 것이 좋습니다. 
 
-프로세스의 다음 단계는 버킷 열에 "Buckets" 쿼리와 "Details" 쿼리 간의 관계를 정의하는 것입니다. Power BI Desktop의 리본에서 **관계 관리**를 클릭합니다. Buckets가 왼쪽 테이블에 있고 Details가 오른쪽 테이블에 있는 관계를 만들고 히스토그램에 사용할 필드를 선택합니다. 
+프로세스의 다음 단계는 버킷 열에 "Buckets" 쿼리와 "Details" 쿼리 간의 관계를 정의하는 것입니다. Power BI Desktop의 리본에서 **관계 관리**를 클릭합니다. 버킷이 왼쪽 테이블에 있고 세부 정보가 오른쪽 테이블에 있는 관계를 만들고 히스토그램에 사용할 필드를 선택합니다. 
 
 마지막 단계는 히스토그램을 만드는 것입니다. "Buckets" 테이블에서 버킷 필드를 끕니다. 결과 세로 막대형 차트에서 기본 필드를 제거합니다. 이제 "Details" 테이블에서 같은 시각적 개체로 히스토그램 필드를 끕니다. 필드 집합에서 기본 집계를 개수로 변경합니다. 결과는 히스토그램입니다. Details 테이블에서 트리 맵과 같은 다른 시각적 개체를 만드는 경우 트리 맵에서 데이터 요소를 선택하여 히스토그램 강조 표시를 표시하고 전체 데이터 집합의 추세를 기준으로 선택한 데이터 요소에 대한 히스토그램을 표시합니다.
 
@@ -112,7 +112,7 @@ Power BI Desktop에서 계산 필드를 사용하여 히스토그램을 정의�
 
 활성 고객 지원 요청의 데이터 집합을 로드하고 다음과 같은 스키마가 포함된 작업 항목의 다른 데이터 집합을 로드합니다.
 
-> CustomerInicdents: {IncidentID, CustomerName, IssueName, OpenedDate, Status} WorkItems: {WorkItemID, IncidentID, WorkItemName, OpenedDate, Status, CustomerName} 
+> CustomerIncidents: {IncidentID, CustomerName, IssueName, OpenedDate, Status} WorkItems: {WorkItemID, IncidentID, WorkItemName, OpenedDate, Status, CustomerName } 
 > 
 > 
 
@@ -158,7 +158,7 @@ DAX는 Power BI Desktop의 계산 수식 언어입니다. DAX는 BI 분석에 �
 
 [Power BI Desktop의 DAX 기본 사항 학습](../transform-model/desktop-quickstart-learn-dax-basics.md)
 
-[DAX(Data Analysis Expressions) 참조](https://msdn.microsoft.com/library/gg413422.aspx)
+[DAX(Data Analysis Expressions) 참조](/dax/)
 
 [DAX 리소스 센터](https://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
 

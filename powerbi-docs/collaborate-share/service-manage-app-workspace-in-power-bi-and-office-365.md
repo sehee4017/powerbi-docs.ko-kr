@@ -1,6 +1,6 @@
 ---
-title: Power BI 및 Office 365에서 작업 영역 관리
-description: Power BI의 작업 영역은 Office 365 그룹을 기반으로 하는 협업 환경을 제공합니다. Power BI 및 Office 365에서 작업 영역을 관리합니다.
+title: Power BI 및 Microsoft 365에서 작업 영역 관리
+description: Power BI의 작업 영역은 Microsoft 365 그룹을 기반으로 하는 협업 환경을 제공합니다. Power BI 및 Microsoft 365에서 작업 영역을 관리합니다.
 author: maggiesMSFT
 ms.reviewer: lukasz
 ms.service: powerbi
@@ -9,27 +9,27 @@ ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 27f3c88607f57be8b5abffdbec71ecfe80beea23
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1365eba697538255ea8c23b03f0b5db71a7ba1cd
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348071"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693799"
 ---
-# <a name="manage-your-workspace-in-power-bi-and-office-365"></a>Power BI 및 Office 365에서 작업 영역 관리
+# <a name="manage-your-workspace-in-power-bi-and-microsoft-365"></a>Power BI 및 Microsoft 365에서 작업 영역 관리
 
-Office 365 또는 [Power BI의 작업 영역](service-create-distribute-apps.md) 작성자나 관리자는 Power BI에서 작업 영역의 몇 가지 측면을 관리합니다. 다른 측면은 Office 365에서 관리합니다.
+Microsoft 365 또는 [Power BI의 작업 영역](service-create-distribute-apps.md) 작성자나 관리자는 Power BI에서 작업 영역의 몇 가지 측면을 관리합니다. 다른 측면은 Microsoft 365에서 관리합니다.
 
 > [!NOTE]
-> 새 작업 영역 환경에서 Power BI 작업 영역과 Office 365 그룹 간의 관계를 변경합니다. 새 작업 영역 중 하나를 만들 때마다 Office 365 그룹이 자동으로 만들어지지는 않습니다. [새 작업 영역 만들기](service-create-the-new-workspaces.md)를 참조하세요.
+> 새 작업 영역 환경에서 Power BI 작업 영역과 Microsoft 365 그룹 간의 관계를 변경합니다. 새 작업 영역 중 하나를 만들 때마다 Microsoft 365 그룹이 자동으로 만들어지지는 않습니다. [새 작업 영역 만들기](service-create-the-new-workspaces.md)를 참조하세요.
 
 **Power BI**에서 다음을 수행할 수 있습니다.
 
 * 작업 영역 구성원을 관리자로 만드는 것을 포함하여 작업 영역 구성원 추가 또는 제거
 * 작업 영역 이름 편집
-* 작업 영역을 삭제합니다. 그러면 Office 365 그룹도 삭제됩니다.
+* 작업 영역을 삭제합니다. 그러면 Microsoft 365 그룹도 삭제됩니다.
 
-**Office 365**에서 다음을 수행할 수 있습니다.
+**Microsoft 365**에서 다음 작업을 수행할 수 있습니다.
 
 * 구성원을 소유자로 설정하는 것을 포함하여 작업 영역의 그룹 구성원 추가 또는 제거
 * 그룹 이름, 이미지, 설명 및 기타 설정 편집
@@ -53,9 +53,9 @@ Office 365 또는 [Power BI의 작업 영역](service-create-distribute-apps.md)
 
 1. **저장** 또는 **취소**를 선택합니다.
 
-## <a name="edit-power-bi-workspace-properties-in-office-365"></a>Office 365에서 Power BI 작업 영역 속성 편집
+## <a name="edit-power-bi-workspace-properties-in-microsoft-365"></a>Microsoft 365에서 Power BI 작업 영역 속성 편집
 
-Office 365용 Outlook에서 직접 작업 영역의 기능을 편집할 수도 있습니다.
+Microsoft 365용 Outlook에서 직접 작업 영역의 기능을 편집할 수도 있습니다.
 
 ### <a name="edit-the-members-of-the-workspace-group"></a>작업 영역 그룹의 구성원 편집
 
@@ -63,17 +63,17 @@ Office 365용 Outlook에서 직접 작업 영역의 기능을 편집할 수도 �
 
    ![Power BI에서 작업 영역 편집](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis-members.png)
 
-   그러면 작업 영역의 Office 365용 Outlook 그룹 보기가 열립니다. 회사 계정에 로그인해야 할 수도 있습니다.
+   그러면 작업 영역의 Microsoft 365용 Outlook 그룹 보기가 열립니다. 회사 계정에 로그인해야 할 수도 있습니다.
 
 1. 팀 구성원의 이름 옆에 있는 역할을 선택하여 해당 사용자를 **구성원** 또는 **소유자**로 만듭니다. 그룹에서 사용자를 제거하려면 **X**를 선택합니다.
 
-   ![Office 365에서 그룹 편집](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
+   ![Microsoft 365에서 그룹 편집](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
 
 ### <a name="add-an-image-and-set-other-workspace-properties"></a>이미지 추가 및 기타 작업 영역 속성 설정
 
-작업 영역에서 앱을 배포하는 경우, 여기서 추가한 이미지가 앱 이미지가 됩니다. [새 작업 영역 만들기](service-create-workspaces.md#add-an-image-to-your-office-365-workspace-optional) 문서의 **Office 365 작업 영역에 이미지 추가**를 참조하세요.
+작업 영역에서 앱을 배포하는 경우, 여기서 추가한 이미지가 앱 이미지가 됩니다. **새 작업 영역 만들기** 문서의 [Microsoft 365 작업 영역에 이미지 추가](service-create-workspaces.md#add-an-image-to-your-microsoft-365-workspace-optional)를 참조하세요.
 
-1. 작업 영역의 Office 365용 Outlook 보기에서 **정보** 탭으로 이동하여 **편집**을 선택합니다.
+1. 작업 영역의 Microsoft 365용 Outlook 보기에서 **정보** 탭으로 이동하여 **편집**을 선택합니다.
 
     ![그룹 편집 아이콘](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgroupo365.png)
 1. 그룹 관련 알림의 이름, 설명 및 언어를 편집할 수 있습니다. 여기에서 이미지를 추가하고 다른 속성을 설정할 수도 있습니다.

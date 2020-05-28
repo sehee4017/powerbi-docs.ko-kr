@@ -10,22 +10,22 @@ ms.date: 04/27/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 8ff022c09fc58f5ebeadbb869039c00c6dd28533
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b08184e92730bd3a42a91424883d07cecec82549
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275596"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564475"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
 관리 포털을 통해 조직의 Power BI ‘테넌트’를 관리할 수 있습니다. 포털에는 사용 메트릭, Microsoft 365 관리 센터에 대한 액세스 및 설정과 같은 항목이 포함되어 있습니다.
 
-전체 관리 포털은 Office 365의 전역 관리자이거나 Power BI 서비스 관리자 역할에 할당된 모든 사용자가 액세스할 수 있습니다. 이러한 역할 중 하나를 할당받지 않은 경우에는 포털에 **용량 설정**만 표시됩니다. Power BI 서비스 관리자 역할에 대한 자세한 내용은 [Power BI 관리자 역할 이해](service-admin-role.md)를 참조하세요.
+전체 관리 포털은 전역 관리자이거나 Power BI 서비스 관리자 역할에 할당된 모든 사용자가 액세스할 수 있습니다. 이러한 역할 중 하나를 할당받지 않은 경우에는 포털에 **용량 설정**만 표시됩니다. Power BI 서비스 관리자 역할에 대한 자세한 내용은 [Power BI 관리자 역할 이해](service-admin-role.md)를 참조하세요.
 
 ## <a name="how-to-get-to-the-admin-portal"></a>관리 포털에 도달하는 방법
 
-Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Office 365 또는 Azure AD(Azure Active Directory) 내에서 **전역 관리자**로 표시되거나 Power BI 서비스 관리자 역할이 할당되어야 합니다. Power BI 서비스 관리자 역할에 대한 자세한 내용은 [Power BI 관리자 역할 이해](service-admin-role.md)를 참조하세요. Power BI 관리 포털에 도달하려면 다음을 수행합니다.
+Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Microsoft 365 또는 Azure AD(Azure Active Directory) 내에서 **전역 관리자**로 표시되거나 Power BI 서비스 관리자 역할이 할당되어야 합니다. Power BI 서비스 관리자 역할에 대한 자세한 내용은 [Power BI 관리자 역할 이해](service-admin-role.md)를 참조하세요. Power BI 관리 포털에 도달하려면 다음을 수행합니다.
 
 1. Power BI 서비스의 오른쪽 위에서 설정 아이콘을 선택합니다.
 
@@ -85,7 +85,7 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Offi
 
 ## <a name="control-usage-metrics"></a>사용량 메트릭 제어
 
-사용량 메트릭 보고서는 Power BI 또는 Office 365 관리자가 켜거나 끌 수 있는 기능입니다. 관리자는 사용량 메트릭에 액세스할 수 있는 사용자를 세부적으로 제어할 수 있습니다. 기본적으로 조직의 모든 사용자에 대해 **켬**으로 설정되어 있습니다.
+사용량 메트릭 보고서는 Power BI 또는 Microsoft 365 관리자가 켜거나 끌 수 있는 기능입니다. 관리자는 사용량 메트릭에 액세스할 수 있는 사용자를 세부적으로 제어할 수 있습니다. 기본적으로 조직의 모든 사용자에 대해 **켬**으로 설정되어 있습니다.
 
 관리자는 콘텐츠 작성자가 사용량 메트릭에서 사용자별 데이터를 볼 수 있는지 여부도 설정할 수 있습니다. 
 
@@ -189,10 +189,10 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 
 :::image type="content" source="media/service-admin-portal/power-bi-admin-workspace-settings.png" alt-text="새 작업 영역 환경 만들기":::
 
-Office 365 그룹을 기반으로 하는 클래식 작업 영역의 경우 Office 365 관리 포털 및 Azure Active Directory에서 관리가 계속 수행됩니다.
+Microsoft 365 그룹을 기반으로 하는 클래식 작업 영역의 경우 관리 포털 및 Azure Active Directory에서 관리가 계속 수행됩니다.
 
 > [!NOTE]
-> **작업 영역(새 작업 영역 경험) 만들기** 설정은 기본적으로 Office 365 그룹을 만들 수 있는 사용자만 Power BI에서 새 작업 영역을 만들도록 허용합니다. 해당하는 사용자가 새 작업 영역을 만들 수 있도록 Power BI 관리 포털에서 값을 설정해야 합니다.
+> **작업 영역 만들기(새 작업 영역 환경)**  설정은 기본적으로 Microsoft 365 그룹을 만들 수 있는 사용자만 새 Power BI 작업 영역을 만들도록 허용합니다. 해당하는 사용자가 새 작업 영역을 만들 수 있도록 Power BI 관리 포털에서 값을 설정해야 합니다.
 
 **작업 영역 목록**
 
@@ -334,7 +334,7 @@ Azure AD B2B 게스트 사용자는 조직의 콘텐츠를 편집하고 관리�
 
 ### <a name="create-template-apps-and-organizational-content-packs"></a>템플릿 앱 및 조직 콘텐츠 팩 만들기
 
-조직의 사용자는 Power BI Desktop에서 하나의 데이터 원본을 기반으로 하는 데이터 세트를 사용하는 템플릿 앱 및 조직 콘텐츠 팩을 만들 수 있습니다. [템플릿 앱](../template-content-pack-authoring.md)에 대해 자세히 알아보세요.
+조직의 사용자는 Power BI Desktop에서 하나의 데이터 원본을 기반으로 하는 데이터 세트를 사용하는 템플릿 앱 및 조직 콘텐츠 팩을 만들 수 있습니다. [템플릿 앱](../connect-data/service-template-apps-create.md)에 대해 자세히 알아보세요.
 
 ### <a name="push-apps-to-end-users"></a>최종 사용자에게 앱 푸시
 
@@ -625,7 +625,3 @@ Power BI Embedded(A SKU) 설정을 관리하는 방법은 [Azure의 Power BI Emb
 [조직에서 Power BI 감사](service-admin-auditing.md)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
-
-
-
-

@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 04/27/2020
-ms.openlocfilehash: 60232b81633542d28b4cd52baf171557e95074c6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 046ebacc69642c1e7f399f0a44d7c5a32e411cb1
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83143667"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693885"
 ---
 # <a name="embed-a-report-web-part-in-sharepoint-online"></a>SharePoint Online에 보고서 웹 파트 포함
 
@@ -79,11 +79,11 @@ SharePoint Online에 보고서를 포함해도 사용자에게 보고서를 볼 
 > [!IMPORTANT]
 > Power BI 서비스 내에서 보고서를 볼 수 있는 사람이 누구인지 확인하고 목록에 없는 사람에게 액세스 권한을 부여합니다.
 
-Power BI에서 보고서 액세스를 제공하는 두 가지 방법이 있습니다. 첫 번째 방법은 Office 365 그룹을 사용하여 SharePoint Online 팀 사이트를 구축하는 경우 사용자를 **Power BI 서비스 내 작업 영역** 및 **SharePoint 페이지**의 구성원으로 나열하는 것입니다. 자세한 내용은 [작업 영역 관리](service-manage-app-workspace-in-power-bi-and-office-365.md) 방법을 참조하세요.
+Power BI에서 보고서 액세스를 제공하는 두 가지 방법이 있습니다. 첫 번째 방법은 Microsoft 365 그룹을 사용하여 SharePoint Online 팀 사이트를 구축하는 경우 사용자를 **Power BI 서비스 내 작업 영역** 및 **SharePoint 페이지**의 멤버로 나열하는 것입니다. 자세한 내용은 [작업 영역 관리](service-manage-app-workspace-in-power-bi-and-office-365.md) 방법을 참조하세요.
 
 두 번째 방법은 앱 내에 보고서를 포함하여 사용자와 직접 공유하는 것입니다.  
 
-1. Pro 사용자여야 하는 작성자는 작업 영역에 보고서를 만듭니다. ‘Power BI 무료 사용자’와 공유하려면 작업 영역을 ‘프리미엄 작업 영역’으로 설정해야 합니다.  
+1. Pro 사용자여야 하는 작성자는 작업 영역에 보고서를 만듭니다. ‘Power BI 무료 사용자’와 공유하려면 작업 영역을 ‘프리미엄 작업 영역’으로 설정해야 합니다. 
 
 2. 작성자가 앱을 게시하고 설치합니다. 작성자는 SharePoint Online에 포함하는 데 사용되는 보고서 URL에 액세스할 수 있도록 앱을 설치해야 합니다.
 
@@ -157,7 +157,7 @@ SharePoint에서 보고서를 보는 사용자에게 **Power BI Pro 라이선스
 
 * Power BI는 SharePoint Online에서 지원하는 것과 동일한 지역화된 언어를 지원하지 않습니다. 결과적으로 포함된 보고서 내에 적절한 지역화가 표시되지 않을 수 있습니다.
 
-* Internet Explorer 10을 사용하는 경우 문제가 발생할 수 있습니다. <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Office 365](https://products.office.com/office-system-requirements#Browsers-section). -->
+* Internet Explorer 10을 사용하는 경우 문제가 발생할 수 있습니다. <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Microsoft 365](https://products.office.com/office-system-requirements#Browsers-section). -->
 
 * [내셔널 클라우드](https://powerbi.microsoft.com/clouds/)에서는 Power BI 웹 파트를 사용할 수 없습니다.
 

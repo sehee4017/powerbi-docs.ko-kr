@@ -6,19 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/12/2020
+ms.date: 05/19/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: d3cb3c8093446d4417a59c5f64ab6b85a765e3c8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 562e011bf280930fdcaf19cc87edc97b2bec131b
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83301520"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83694038"
 ---
-# <a name="create-a-drill-through-button-in-power-bi-preview"></a>Power BI에서 드릴스루 단추 만들기(미리 보기)
+# <a name="create-a-drill-through-button-in-power-bi"></a>Power BI에서 드릴스루 단추 만들기
 
-Power BI에서 단추를 만들 때 **드릴스루(미리 보기)** 작업을 선택할 수 있습니다. 이 작업 유형은 특정 컨텍스트로 필터링된 세부 정보를 가져오기 위해 포커스가 있는 페이지로 드릴스루하는 단추를 만듭니다.
+Power BI에서 단추를 만들 때 **드릴스루** 작업을 선택할 수 있습니다. 이 작업 유형은 특정 컨텍스트로 필터링된 세부 정보를 가져오기 위해 포커스가 있는 페이지로 드릴스루하는 단추를 만듭니다.
 
 드릴스루 단추는 보고서에서 중요한 드릴스루 시나리오의 검색 기능을 개선하려는 경우에 유용할 수 있습니다.
 
@@ -90,7 +90,7 @@ String_for_button = If(SELECTEDVALUE('Product'[Product], 0) == 0), "See product 
 
 드릴스루 단추를 선택하면 대상 페이지로 전달되는 매장 및 제품에 대한 필터가 둘 다 표시됩니다.
 
-![이 페이지의 필터링](media/desktop-drill-through-buttons/power-bi-button-filters-passed-through.png)
+![이 페이지의 필터](media/desktop-drill-through-buttons/power-bi-button-filters-passed-through.png)
 
 ### <a name="ambiguous-filter-context"></a>모호한 필터 컨텍스트
 
@@ -105,7 +105,7 @@ String_for_button = If(SELECTEDVALUE('Product'[Product], 0) == 0), "See product 
 - 이 단추는 단일 단추를 사용하는 여러 대상을 허용하지 않습니다.
 - 이 단추는 동일한 보고서 내에서만 드릴스루를 지원합니다. 즉, 보고서 간 드릴스루를 지원하지 않습니다.
 - 단추의 사용 안 함 상태 서식은 보고서 테마의 색 클래스에 연결됩니다. [색 클래스](desktop-report-themes.md#setting-structural-colors)에 대해 자세히 알아보세요.
-- 드릴스루 작업은 모든 기본 제공 시각적 개체에서 작동하며 AppSource에서 가져온 ‘일부’ 시각적 개체에서 작동합니다.  그러나 AppSource에서 가져온 ‘모든’ 시각적 개체에서 작동한다는 보장은 없습니다. 
+- 드릴스루 작업은 모든 기본 제공 시각적 개체에서 작동하며 AppSource에서 가져온 ‘일부’ 시각적 개체에서 작동합니다. 그러나 AppSource에서 가져온 ‘모든’ 시각적 개체에서 작동한다는 보장은 없습니다.
 
 ## <a name="next-steps"></a>다음 단계
 단추와 유사하거나 상호 작용하는 기능에 대한 자세한 내용은 다음 아티클을 살펴보겠습니다.

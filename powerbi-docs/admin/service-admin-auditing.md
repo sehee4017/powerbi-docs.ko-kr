@@ -10,22 +10,22 @@ ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 8fc1f2a668a0dfff4418749e7f3de7e0379b603f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 42203c65f6351422bbb65b5a0dc2245ac6a7b190
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129057"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564618"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Power BI에서 사용자 활동 추적
 
-Power BI 테넌트의 어떤 항목에 누가 무슨 활동을 수행하는지를 아는 것은 조직에서 규정 준수 및 레코드 관리와 같은 요구 사항을 수행하도록 돕는 데 매우 중요합니다. Power BI에는 사용자 활동을 추적하는 두 가지 옵션인 [Power BI 활동 로그](#use-the-activity-log) 및 [통합 Office 365 감사 로그](#use-the-audit-log)가 있습니다. 두 로그에는 모두 [Power BI 감사 데이터](#operations-available-in-the-audit-and-activity-logs)의 전체 복사본이 포함되지만, 다음 표에 요약된 것처럼 몇 가지 주요 차이점이 있습니다.
+Power BI 테넌트의 어떤 항목에 누가 무슨 활동을 수행하는지를 아는 것은 조직에서 규정 준수 및 레코드 관리와 같은 요구 사항을 수행하도록 돕는 데 매우 중요합니다. Power BI에는 사용자 활동을 추적하는 두 가지 옵션인 [Power BI 활동 로그](#use-the-activity-log) 및 [통합 감사 로그](#use-the-audit-log)가 있습니다. 두 로그에는 모두 [Power BI 감사 데이터](#operations-available-in-the-audit-and-activity-logs)의 전체 복사본이 포함되지만, 다음 표에 요약된 것처럼 몇 가지 주요 차이점이 있습니다.
 
-| **통합 Office 365 감사 로그** | **Power BI 활동 로그** |
+| **통합 감사 로그** | **Power BI 활동 로그** |
 | --- | --- |
 | Power BI 감사 이벤트 외에도 SharePoint Online, Exchange Online, Dynamics 365 및 기타 서비스의 이벤트를 포함합니다. | Power BI 감사 이벤트만 포함합니다. |
 | 전역 관리자 및 감사자와 같이 보기 전용 감사 로그 또는 감사 로그 사용 권한이 있는 사용자만 액세스할 수 있습니다. | 전역 관리자 및 Power BI 서비스 관리자가 액세스할 수 있습니다. |
-| 전역 관리자 및 감사자는 Office 365 보안 및 준수 센터, Microsoft 365 보안 센터, Microsoft 365 규정 준수 센터를 사용하여 통합 감사 로그를 검색할 수 있습니다. | 활동 로그를 검색하기 위한 사용자 인터페이스는 아직 없습니다. |
+| 전역 관리자 및 감사자는 Microsoft 365 Security Center 및 Microsoft 365 규정 준수 센터를 사용하여 통합 감사 로그를 검색할 수 있습니다. | 활동 로그를 검색하기 위한 사용자 인터페이스는 아직 없습니다. |
 | 전역 관리자 및 감사자는 Office 365 관리 Api 및 cmdlet을 사용하여 감사 로그 항목을 다운로드할 수 있습니다. | 전역 관리자 및 Power BI 서비스 관리자는 Power BI REST API 및 관리 cmdlet을 사용하여 활동 로그 항목을 다운로드할 수 있습니다. |
 | 90일간 감사 데이터를 유지합니다. | 30일간 활동 데이터를 유지합니다(공개 미리 보기). |
 | 테넌트가 다른 Azure 지역으로 이동하더라도 감사 데이터를 유지합니다. | 테넌트가 다른 Azure 지역으로 이동하면 활동 데이터를 보존하지 않습니다. |
@@ -105,7 +105,7 @@ $activities[0]
 
 ## <a name="use-the-audit-log"></a>감사 로그 사용
 
-Power BI와 Office 365의 사용자 활동을 추적하려는 경우 Office 365 보안 및 준수 센터의 감사 기능이나 PowerShell을 사용합니다. 감사는 Exchange Online 기능에 의해 수행됩니다. 이 기능은 Power BI를 지원하도록 자동으로 프로비전됩니다.
+Power BI와 Microsoft 365의 사용자 활동을 추적하려는 경우 Office 365 보안 및 준수 센터의 감사 기능이나 PowerShell을 사용합니다. 감사는 Exchange Online 기능에 의해 수행됩니다. 이 기능은 Power BI를 지원하도록 자동으로 프로비전됩니다.
 
 감사 데이터는 날짜 범위, 사용자, 대시보드, 보고서, 데이터 세트 및 작업 유형에 따라 필터링할 수 있습니다. 활동을 CSV(쉼표로 구분된 값) 파일로 다운로드하여 오프라인에서 분석하도록 할 수도 있습니다.
 
@@ -184,7 +184,7 @@ Power BI 감사 로그는 [Office 365 보안 및 준수 센터](https://sip.prot
 
 #### <a name="view-the-details-for-an-event"></a>이벤트에 대한 세부 정보 보기
 
-이벤트에 대한 세부 정보를 보려면 검색 결과 목록에서 이벤트 레코드를 선택합니다. 이벤트 레코드의 상세한 속성이 표함된 **세부 정보** 페이지가 표시됩니다. **세부 정보** 페이지는 이벤트가 발생하는 Office 365 서비스에 따라 속성을 표시합니다.
+이벤트에 대한 세부 정보를 보려면 검색 결과 목록에서 이벤트 레코드를 선택합니다. 이벤트 레코드의 상세한 속성이 표함된 **세부 정보** 페이지가 표시됩니다. **세부 정보** 페이지는 이벤트가 발생하는 Microsoft 365 서비스에 따라 속성을 표시합니다.
 
 이러한 세부 정보를 표시하려면 **추가 정보**를 선택합니다. 모든 Power BI 항목에는 RecordType 속성에 대해 20이라는 값이 있습니다. 기타 속성에 대한 자세한 내용은 [감사 로그의 자세한 속성](/office365/securitycompliance/detailed-properties-in-the-office-365-audit-log/)을 참조하세요.
 
