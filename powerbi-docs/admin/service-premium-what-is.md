@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 03/26/2020
+ms.date: 05/15/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: c206e35651ef28c03151c6c5af8e5bae453d5d2b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 290174f7848e4518a4b1489d0a90136e86d245da
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274377"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438249"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium이란?
 
@@ -59,6 +59,7 @@ Power BI Premium을 사용하면 *전용 용량*을 가져올 수 있습니다. 
 * Excel 통합 문서(데이터를 Power BI Desktop으로 먼저 가져오는 경우 제외)
 * [푸시 데이터 세트](/rest/api/power-bi/pushdatasets)
 * [스트리밍 데이터 세트](../connect-data/service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
+* [질문 및 답변](../create-reports/power-bi-tutorial-q-and-a.md)
 
 작업 영역은 용량 내에 상주합니다. 각 Power BI 사용자는 **내 작업 영역**이라는 개인 작업 영역을 갖습니다. 협업을 사용하도록 설정하기 위해 **작업 영역**이라는 추가 작업 영역을 만들 수 있습니다. 기본적으로 개인 작업 영역을 포함한 작업 영역은 공유 용량에서 생성됩니다. 프리미엄 용량이 있는 경우 내 작업 영역 및 작업 영역을 모두 프리미엄 용량에 할당할 수 있습니다.
 
@@ -68,7 +69,7 @@ Power BI Premium을 사용하면 *전용 용량*을 가져올 수 있습니다. 
 
 프로세싱은 백 엔드와 프런트 엔드 간에 균등하게 나누어진 v 코어의 세트 수에 의해 이루어집니다.
 
-**백 엔드 V 코어**는 쿼리 처리, 캐시 관리, R 서비스 실행, 모델 새로 고침, 자연어 처리(Q&A), 보고서 및 이미지의 서버 쪽 렌더링 비롯한 핵심 Power BI 기능을 담당합니다. 백 엔드 V 코어에는 활성 데이터 세트라고도 하는 모델을 호스팅하는 데 주로 사용되는 고정된 양의 메모리가 할당됩니다.
+**백 엔드 V 코어**는 쿼리 처리, 캐시 관리, R Services 실행, 모델 새로 고침, 보고서 및 이미지의 서버 쪽 렌더링 등을 비롯한 핵심 Power BI 기능을 담당합니다. 백 엔드 V 코어에는 활성 데이터 세트라고도 하는 모델을 호스팅하는 데 주로 사용되는 고정된 양의 메모리가 할당됩니다.
 
 **프런트 엔드 V 코어**는 웹 서비스, 대시보드 및 보고서 문서 관리, 액세스 권한 관리, 예약, API, 업로드 및 다운로드, 일반적으로 사용자 환경과 관련된 모든 항목에 책임이 있습니다.
 
