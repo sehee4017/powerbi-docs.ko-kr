@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/09/2020
+ms.date: 05/09/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: abc936c6ea4b61e4837e05fbde110e5159296815
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: ab232d4e5b6d17e7f20ed8a41875ca47693eb285
+ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82867119"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "83407586"
 ---
 # <a name="let-users-personalize-visuals-in-a-report"></a>사용자가 보고서에서 시각적 개체를 개인 설정할 수 있습니다.
 
@@ -26,7 +26,7 @@ ms.locfileid: "82867119"
  
 ## <a name="what-report-consumers-can-change"></a>보고서 소비자가 변경할 수 있는 내용
 
-이 기능을 통해 소비자는 Power BI 보고서에서 시각적 개체의 임시 탐색을 통해 추가 정보를 얻을 수 있습니다. 이 기능은 보고서 읽기 권한자가 기본 탐색 시나리오를 사용하도록 허용하려는 보고서 작성자에게 적합합니다. 보고서 읽기 권한자는 다음과 같은 수정 작업을 수행할 수 있습니다.
+이 기능을 통해 소비자는 Power BI 보고서에서 시각적 개체의 임시 탐색을 통해 추가 정보를 얻을 수 있습니다. 소비자로 이 기능을 사용하는 방법을 알아보려면 [보고서에서 시각적 개체 개인 설정](../consumer/end-user-personalize-visuals.md)을 참조하세요. 이 기능은 보고서 읽기 권한자가 기본 탐색 시나리오를 사용하도록 허용하려는 보고서 작성자에게 적합합니다. 보고서 읽기 권한자는 다음과 같은 수정 작업을 수행할 수 있습니다.
 
 - 시각화 유형 변경
 - 측정값 또는 차원 교환
@@ -84,69 +84,6 @@ Power BI Desktop에서 이 기능을 사용하도록 설정하려면 **파일** 
 
 :::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-personalize-on-off.png" alt-text="시각적 개체 개인 설정 사용 또는 해제로 밀기":::
 
-## <a name="personalize-visuals-in-the-power-bi-service"></a>Power BI 서비스에서 시각적 개체 개인 설정
-
-사용자는 시각적 개체를 개인 설정하여 보고서 읽기용 보기를 종료하지 않고도 다양한 방법으로 데이터를 탐색할 수 있습니다. 다음 예에서는 사용자가 자신의 요구에 맞게 시각화를 수정할 수 있는 다양한 방법을 보여줍니다. 
-
-1. Power BI 서비스의 읽기용 보기에서 보고서를 엽니다.
-
-2. 시각적 개체의 오른쪽 위 모서리에서 **이 시각적 개체 개인 설정** ![이 시각적 개체 개인 설정 아이콘](media/power-bi-personalize-visuals/power-bi-personalize-visual-icon.png) 아이콘을 선택합니다. 
-
-### <a name="change-the-visualization-type"></a>시각화 유형 변경
-
-**시각화 유형**을 변경하여 다른 표현에 대한 시각화를 볼 수 있습니다.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-change-visual-type.png" alt-text="시각화 유형 변경":::
- 
-### <a name="swap-out-a-measure-or-dimension"></a>측정값 또는 차원 교환
-바꾸려는 필드를 선택한 다음 다른 측정값 또는 차원을 선택하여 X축의 측정값 또는 차원을 바꿀 수 있습니다.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-change-axis.png" alt-text="축 변경":::
- 
-### <a name="add-or-remove-a-legend"></a>범례 추가 또는 제거
-범례를 추가하여 범주를 기반으로 시각적 개체의 색을 구분할 수 있습니다. **개인 설정** 창에서 **범례** 상자의 선택을 취소하여 범주 색 구분을 제거할 수 있습니다. 
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-change-legend.png" alt-text="범례 추가 또는 제거":::
-
-### <a name="compare-two-or-more-different-measures"></a>두 개 이상의 다른 측정값 비교
-\+ 아이콘으로 시각적 개체에 대한 여러 측정값을 추가하여 여러 측정값에 대한 및 대비 값을 비교할 수 있습니다.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-compare-measures.png" alt-text="측정값 비교":::
-
-### <a name="change-aggregations"></a>집계 변경
-**개인 설정** 창에서 집계를 변경하여 측정값이 계산되는 방식을 변경할 수 있습니다.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-change-aggregation.png" alt-text="집계 변경":::
-
-### <a name="capture-changes"></a>변경 내용 캡처 
-개인 책갈피를 사용하여 개인 설정된 보기로 돌아갈 수 있도록 변경 내용을 캡처합니다. 
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-bookmark.png" alt-text="책갈피 만들기":::
- 
-책갈피를 기본 보기로 만들 수도 있습니다.
-
-### <a name="share-changes"></a>변경 내용 공유 
-읽기 및 다시 공유 권한이 있는 경우 보고서를 공유하면 변경 내용을 포함하도록 선택할 수 있습니다.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-share-changes.png" alt-text="변경 내용 공유":::
- 
-### <a name="reset-all-your-changes-to-a-report"></a>보고서에 대한 모든 변경 내용 재설정
-
-**기본으로 재설정**을 선택하여 보고서의 모든 변경 내용을 제거하고 작성자 보고서의 마지막으로 저장된 보기로 다시 설정합니다.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-reset-all.png" alt-text="모든 변경 내용 재설정":::
- 
-### <a name="reset-all-your-changes-to-a-visual"></a>시각적 개체에 대한 모든 변경 내용 재설정
-
-특정 시각적 개체에 대한 변경 내용을 모두 제거하고 해당 시각적 개체의 마지막으로 저장된 보기로 재설정하려면 **이 시각적 개체 재설정**을 선택합니다.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-reset-visual.png" alt-text="모든 시각적 변경 내용 재설정":::
- 
-### <a name="clear-recent-changes"></a>최근 변경 내용 지우기
-
-**개인 설정** 창을 연 이후 변경한 최근 내용을 모두 지우려면 지우개 아이콘을 선택합니다.  
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-revert-changes.png" alt-text="최근 변경 내용 되돌리기":::
 
 ## <a name="limitations-and-known-issues"></a>제한 사항 및 알려진 문제
 
@@ -164,7 +101,8 @@ Power BI Desktop에서 이 기능을 사용하도록 설정하려면 **파일** 
 
 ## <a name="next-steps"></a>다음 단계
 
+[보고서에서 시각적 개체 개인 설정](../consumer/end-user-personalize-visuals.md).     
+
 새 시각적 개체 개인 설정 환경을 사용해보세요. [Power BI Ideas 사이트](https://ideas.powerbi.com/forums/265200-power-bi)에서 이 기능에 대한 피드백을 제공하고 기능을 계속 개선할 방법을 알려주세요. 
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
-

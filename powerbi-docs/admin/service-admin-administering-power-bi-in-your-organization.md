@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 9e9ed930cc557250a9e1702d6010536ed069cd7b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: afa8513267be4ec2de18a9adda7995c88f4f2aa8
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129544"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438042"
 ---
 # <a name="what-is-power-bi-administration"></a>Power BI 관리란?
 
@@ -24,7 +24,7 @@ Power BI 관리는 거버넌스 정책, 사용 모니터링뿐 아니라 라이�
 
 Power BI는 셀프 서비스 비즈니스 인텔리전스를 위해 설계되었으며 관리자는 Power BI 테넌트의 데이터, 프로세스 및 정책에 대한 보호자입니다. Power BI 관리자는 BI 개발자, 분석가 및 기타 역할을 포함하는 팀의 핵심 구성원입니다. 관리자는 조직을 지원하여 중요한 목표가 충족되었는지 확인할 수 있습니다.
 
-- 사용자에게 ‘실제로’ 필요한 KPI 및 메트릭 이해 
+- 사용자에게 ‘실제로’ 필요한 KPI 및 메트릭 이해
 - IT 주도 회사 보고를 위한 전달 시간 단축
 - Power BI 배포의 채택 및 투자 수익률 증가
 
@@ -36,17 +36,17 @@ Power BI는 셀프 서비스 비즈니스 인텔리전스를 위해 설계되었
 
 | **관리자 유형** | **관리 범위** | **Power BI 범위** |
 | --- | --- | --- |
-| Office 365 전역 관리자 | Office 365 | Power BI 테넌트 및 기타 서비스의 모든 측면을 관리할 수 있습니다. |
-| Office 365 대금 청구 관리자 | Office 365 | Office 365 구독을 통해 Power BI 라이선스를 취득할 수 있습니다. |
+| 전역 관리자 | Microsoft 365 | Power BI 테넌트 및 기타 서비스의 모든 측면을 관리할 수 있습니다. |
+| 대금 청구 관리자 | Microsoft 365 | Office 365 구독을 통해 Power BI 라이선스를 취득할 수 있습니다. |
 | Power BI 서비스 관리자 | Power BI 테넌트 | Power BI 테넌트 및 해당 관리 기능(라이선스 부여 제외)을 전반적으로 제어합니다. |
 | Power BI Premium 용량 관리자 | 단일 프리미엄 용량 | 프리미엄 용량 및 해당 관리 기능을 전반적으로 제어합니다. |
 | Power BI Embedded 용량 관리자 | 단일 포함 용량 | 포함 용량 및 해당 관리 기능을 전반적으로 제어합니다. |
 
-Office 365 또는 Azure Active Directory의 전역 관리자는 Power BI에서 관리자 권한을 가집니다. Office 365 전역 관리자는 Power BI 기능에 대한 관리 권한만 부여하는 Power BI 서비스 관리자 역할에 다른 사용자를 할당할 수 있습니다.
+Microsoft 365 또는 Azure Active Directory의 전역 관리자는 Power BI에서 관리자 권한을 가집니다. 전역 관리자는 Power BI 기능에 대한 관리 권한만 부여하는 Power BI 서비스 관리자 역할에 다른 사용자를 할당할 수 있습니다.
 
 Power BI 서비스 관리자는 기능, 보안 및 모니터링에 대한 다양한 테넌트 수준 설정을 포함하는 Power BI 관리 포털에 액세스할 수 있습니다. 서비스 관리자는 Power BI 테넌트의 모든 리소스에 대한 전체 액세스 권한을 가집니다. 대부분의 경우 서비스 관리자는 문제를 식별한 다음, 리소스 소유자에게 수정 작업을 수행하도록 요청합니다.
 
-Power BI 서비스 관리자 역할은 사용자에게 라이선스를 할당하거나 Office 365에서 감사 로그를 보는 기능을 제공하지 않습니다. 따라서 Power BI 서비스 관리자 역할만 수행하는 사용자는 Power BI 관리 작업을 수행할 수 없습니다.
+Power BI 서비스 관리자 역할은 사용자에게 라이선스를 할당하거나 Microsoft 365에서 감사 로그를 보는 기능을 제공하지 않습니다. 따라서 Power BI 서비스 관리자 역할만 수행하는 사용자는 Power BI 관리 작업을 수행할 수 없습니다.
 
 ## <a name="administrative-tasks"></a>관리 작업
 

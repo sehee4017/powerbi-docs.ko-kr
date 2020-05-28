@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 459eaf6ba8b4f6e09b2df5f55956dc77adee9667
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: ce18b3cb077e0fee2eea4d0d31327329f405a51a
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344392"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83563758"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI 관리 - 질문과 대답(FAQ)
 
@@ -68,7 +68,7 @@ Microsoft 365 관리자는 [Power BI 웹 사이트](https://powerbi.microsoft.co
 조직의 사용자에게 적용될 수 있는 세 가지 시나리오가 있습니다.
 
 * **시나리오 1**: 조직에 기존 Microsoft 365 환경이 있고, Power BI에 등록하는 사용자에게 Microsoft 365 계정이 이미 있습니다.
-    이 시나리오에서 테넌트에 회사 또는 학교 계정(예: contoso.com)이 있는 사용자에게 아직 Power BI가 없는 경우, Microsoft는 해당 계정에 대해 Power BI(무료) 플랜을 활성화합니다.  사용자에게 Power BI 서비스를 사용 하는 방법에 대한 정보를 자동으로 알립니다.
+    이 시나리오에서 테넌트에 회사 또는 학교 계정(예: contoso.com)이 있는 사용자에게 아직 Power BI가 없는 경우, Microsoft는 해당 계정에 대해 Power BI(무료) 플랜을 활성화합니다. 사용자에게 Power BI 서비스를 사용 하는 방법에 대한 정보를 자동으로 알립니다.
 
 * **시나리오 2**: 조직에 기존 Microsoft 365 환경이 있지만, Power BI에 등록하는 사용자에게 Microsoft 365 계정이 없습니다.
     이 시나리오에서는 조직의 도메인(예: contoso.com)에 사용자의 메일 주소가 있지만 Microsoft 365 계정이 아직 없습니다. 이 경우 사용자는 Power BI에 가입할 수 있으며 자동으로 계정을 받습니다. 이 작업에는 Power BI 서비스에 액세스할 수 있습니다. 예를 들어 Nancy라는 직원이 업무용 메일 주소(예: nancy@contoso.com)를 사용하여 등록하는 경우, Microsoft는 자동으로 Contoso의 Microsoft 365 환경에 Nancy를 사용자로 추가하고 해당 계정에 대해 Power BI를 활성화합니다.
@@ -81,7 +81,7 @@ Microsoft 365 관리자는 [Power BI 웹 사이트](https://powerbi.microsoft.co
 
 ### <a name="how-can-i-prevent-users-from-joining-my-existing-microsoft-365-tenant"></a>사용자가 기존 Microsoft 365 테넌트에 가입할 수 없게 하려면 어떻게 하나요?
 
-Microsoft 365 전역 관리자는 사용자가 기존 Microsoft 365 테넌트에 가입하지 못하도록 특정 단계를 수행할 수 있습니다. 액세스를 차단하는 경우, 사용자의 가입 시도는 실패하게 되고, 조직의 관리자에게 문의하라는 메시지가 나타납니다. 자동 라이선스 배포(예: 학생, 교수 및 교직원용 Office 365 Education 사용)를 이미 사용하지 않도록 설정한 경우에는 이 프로세스를 반복할 필요가 없습니다.
+전역 관리자는 사용자가 기존 Microsoft 365 테넌트에 가입하지 못하도록 특정 단계를 수행할 수 있습니다. 액세스를 차단하는 경우, 사용자의 가입 시도는 실패하게 되고, 조직의 관리자에게 문의하라는 메시지가 나타납니다. 자동 라이선스 배포(예: 학생, 교수 및 교직원용 Office 365 Education 사용)를 이미 사용하지 않도록 설정한 경우에는 이 프로세스를 반복할 필요가 없습니다.
 
 다음 PowerShell 스크립트를 사용하여 새 사용자가 관리되는 테넌트에 가입할 수 없게 합니다. [PowerShell에 대해 자세히 알아보세요][1].
 
@@ -108,7 +108,7 @@ Set-MsolCompanySettings -AllowEmailVerifiedUsers $true
 
 ### <a name="how-do-i-check-if-i-have-the-block-on-in-the-tenant"></a>테넌트에 블록이 있는지 여부를 확인하려면 어떻게 하나요?
 
-다음 PowerShell 스크립트를 사용하여 설정을 확인합니다. *AllowEmailVerifiedUsers* 는 false여야 합니다.  [PowerShell에 대해 자세히 알아보세요][1].
+다음 PowerShell 스크립트를 사용하여 설정을 확인합니다. *AllowEmailVerifiedUsers* 는 false여야 합니다. [PowerShell에 대해 자세히 알아보세요][1].
 
 ```powershell
 $msolcred = get-credential
@@ -181,10 +181,10 @@ Power BI는 Microsoft 365 전역 관리자 역할의 사용자와 Power BI 서�
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-microsoft-365-tenant-that-users-get-added-to"></a>여러 도메인이 있는 경우 사용자가 추가되는 Microsoft 365 테넌트를 제어할 수 있나요?
 
-사용자가 아무 작업도 하지 않는다면, 서비스는 각 사용자 전자 메일 도메인 및 하위 도메인에 대한 테넌트를 만듭니다. 모든 사용자가 자신의 전자 메일 주소 확장명에 관계 없이 동일한 테넌트에 포함되도록 하려면: 미리 대상 테넌트를 만들거나 기존 테넌트를 사용합니다. 그런 다음 해당 테넌트 내에서 통합하기 원하는 모든 기존 도메인 및 하위 도메인을 추가합니다.  해당 도메인 및 하위 도메인으로 끝나는 전자 메일 주소를 사용하는 모든 사용자는 등록할 때 자동으로 대상 테넌트에 가입됩니다.
+사용자가 아무 작업도 하지 않는다면, 서비스는 각 사용자 전자 메일 도메인 및 하위 도메인에 대한 테넌트를 만듭니다. 모든 사용자가 자신의 전자 메일 주소 확장명에 관계 없이 동일한 테넌트에 포함되도록 하려면: 미리 대상 테넌트를 만들거나 기존 테넌트를 사용합니다. 그런 다음 해당 테넌트 내에서 통합하기 원하는 모든 기존 도메인 및 하위 도메인을 추가합니다. 해당 도메인 및 하위 도메인으로 끝나는 전자 메일 주소를 사용하는 모든 사용자는 등록할 때 자동으로 대상 테넌트에 가입됩니다.
 
 > [!IMPORTANT]
-> 사용자를 만든 후 테넌트 간에 사용자를 이동하는 자동화된 지원 메커니즘은 없습니다. 단일 Microsoft 365 테넌트에 도메인을 추가하는 방법에 대한 자세한 내용은 [Office 365에 사용자 및 도메인 추가](/office365/admin/setup/add-domain/)를 참조하세요.
+> 사용자를 만든 후 테넌트 간에 사용자를 이동하는 자동화된 지원 메커니즘은 없습니다. 단일 Microsoft 365 테넌트에 도메인을 추가하는 방법에 대한 자세한 내용은 [Microsoft 365에 사용자 및 도메인 추가](/office365/admin/setup/add-domain/)를 참조하세요.
 
 ### <a name="how-do-i-remove-power-bi-for-users-that-already-signed-up"></a>이미 등록된 사용자의 Power BI를 제거하려면 어떻게 하나요?
 
@@ -259,9 +259,9 @@ Microsoft는 Azure Active Directory와 같은 Azure 서비스에 빌드된 Micro
 [Power BI 프리미엄이란?](service-premium-what-is.md)  
 [Power BI Premium 구입 방법](service-admin-premium-purchase.md)  
 [Power BI 프리미엄 백서](https://aka.ms/pbipremiumwhitepaper)  
-[Power BI 및 Office 365에서 그룹 관리](../collaborate-share/service-manage-app-workspace-in-power-bi-and-office-365.md)  
-[Office 365 사용자 계정 관리](/office365/servicedescriptions/office-365-platform-service-description/user-account-management/)  
-[Office 365 그룹 관리](/office365/admin/email/create-edit-or-delete-a-security-group/)  
+[Power BI 및 Microsoft 365에서 그룹 관리](../collaborate-share/service-manage-app-workspace-in-power-bi-and-office-365.md)  
+[회사 또는 학교 계정 관리](/office365/servicedescriptions/office-365-platform-service-description/user-account-management/)  
+[Microsoft 365 그룹 관리](/office365/admin/email/create-edit-or-delete-a-security-group/)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 

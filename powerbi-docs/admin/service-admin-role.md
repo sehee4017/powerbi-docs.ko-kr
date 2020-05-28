@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 01/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: fc1a0c524a3cb4a713cbaf049c259a4b96714131
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a5a956f65943f557d21a942bde4be1de40a84692
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83136402"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438203"
 ---
 # <a name="understanding-power-bi-service-administrator-roles"></a>Power BI 서비스 관리자 역할 이해
 
-Power BI 테넌트를 관리하려면 Power BI 관리자, Power Platform 관리자 또는 Microsoft 365 전역 관리자 역할 중 하나가 있어야 합니다. Microsoft 365 사용자 관리 관리자는 PowerShell 스크립트를 사용하거나 Microsoft 365 관리 센터에서 Power BI 관리자 또는 Power Platform 관리자 역할에 사용자를 할당해야 합니다. 자세한 내용은 [Office 365 PowerShell을 사용하여 사용자 계정에 역할 할당](/office365/enterprise/powershell/assign-roles-to-user-accounts-with-office-365-powershell)을 참조하세요.
+Power BI 테넌트를 관리하려면 Power BI 관리자, Power Platform 관리자 또는 Microsoft 365 전역 관리자 역할 중 하나가 있어야 합니다. Microsoft 365 사용자 관리 관리자는 PowerShell 스크립트를 사용하거나 Microsoft 365 관리 센터에서 Power BI 관리자 또는 Power Platform 관리자 역할에 사용자를 할당해야 합니다. 자세한 내용은 [PowerShell을 사용하여 사용자 계정에 역할 할당](/office365/enterprise/powershell/assign-roles-to-user-accounts-with-office-365-powershell)을 참조하세요.
 
 Power BI 관리자 및 Power Platform 관리자 역할이 할당된 사용자는 Power BI 테넌트 및 라이선스를 제외한 테넌트 관리 기능에 대한 모든 권한을 가집니다. 사용자가 할당되면 [Power BI 관리 포털](service-admin-portal.md)에 액세스할 수 있습니다. 여기서 테넌트 전체 사용 메트릭에 액세스하고 Power BI 기능의 테넌트 전체 사용을 제어할 수 있습니다. 이러한 관리자 역할은 전체 Microsoft 365 관리 액세스 권한은 부여하지 않고 Power BI 관리 포털에 액세스해야 하는 사용자에게 적합합니다.
 

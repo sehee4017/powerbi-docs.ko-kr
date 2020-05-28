@@ -4,17 +4,17 @@ description: Power BI Report Server의 개요를 확인하여 SSRS(SQL Server Re
 keywords: ''
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 04/29/2020
+ms.date: 05/14/2020
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 39ccb9120b7dd61d7f160c296d2de799b7f3fe23
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 55a3614c5da2ea8b5ea1a8cbb6ee87b20c542df4
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83141096"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438295"
 ---
 # <a name="what-is-power-bi-report-server"></a>Power BI Report Server란?
 
@@ -26,7 +26,7 @@ Power BI Report Server는 보고서와 KPI를 표시하고 관리하는 웹 포�
 Power BI Report Server는 SQL Server Reporting Services 및 Power BI 온라인 서비스와 비슷하지만 방식이 서로 다릅니다. Power BI 서비스와 마찬가지로 Power BI Report Server는 Power BI 보고서(.pbix), Excel 파일 및 페이지가 매겨진 보고서(.rdl)를 호스트합니다. Reporting Services와 마찬가지로 Power BI Report Server는 온-프레미스입니다. Power BI Report Server 기능은 Reporting Services의 상위 집합입니다. Reporting Services에서 수행할 수 있는 모든 작업은 Power BI 보고서에 대한 지원과 함께 Power BI Report Server를 통해 수행할 수 있습니다. 자세한 내용은 [Power BI Report Server 및 Power BI 서비스 비교](compare-report-server-service.md)를 참조하세요.
 
 ## <a name="licensing-power-bi-report-server"></a>Power BI Report Server 라이선싱
-Power BI Report Server는 다음 두 가지 라이선스를 통해 사용할 수 있습니다. Software Assurance와 함께 [Power BI Premium](../admin/service-premium-what-is.md) 및 [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions). Power BI Premium 라이선스를 사용하면 하이브리드 배포 혼합 클라우드 및 온-프레미스를 만들 수 있습니다.  
+Power BI Report Server는 다음 두 가지 라이선스를 통해 사용할 수 있습니다. Software Assurance와 함께 [Power BI Premium](../admin/service-premium-what-is.md) 및 SQL Server Enterprise Edition. 자세한 내용은 [Microsoft 볼륨 라이선싱](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=1&ShowArchived=True)을 참조하세요. Power BI Premium 라이선스를 사용하면 하이브리드 배포 혼합 클라우드 및 온-프레미스를 만들 수 있습니다.  
 
 > [!NOTE]
 > Power BI Premium의 경우 Power BI Report Server는 P SKU에만 포함됩니다. EM SKU에는 포함되지 않았습니다.

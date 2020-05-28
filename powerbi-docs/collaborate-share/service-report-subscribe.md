@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/10/2020
+ms.date: 05/15/2020
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 9ee04211c44fb342e4baf904bcfa73bab489a1ba
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: f057395361840b7b16fa8a7cde5a6d2513196845
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273641"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438226"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Power BI 서비스의 보고서 및 대시보드에 자신과 다른 사용자 구독
 
@@ -105,12 +105,13 @@ Power BI 관리자는 Power BI 감사 로그를 사용하여 구독 정보를 �
 
 ### <a name="general"></a>일반
 
-- 드문 경우지만 이메일 구독이 받는 사람에게 전달되는 데 15분 이상 걸릴 수 있습니다. 이 경우 데이터 새로 고침 및 이메일 구독을 다른 시간에 실행하여 적절하게 전달되도록 할 것을 권장합니다. 문제가 지속되면 Power BI 지원에 문의하세요.
-- 구독 메일이 스팸 메일 폴더로 배달되지 않도록 하려면, 연락처에 Power BI 메일 별칭([no-reply-powerbi@microsoft.com](mailto:no-reply-powerbi@microsoft.com))을 추가합니다. Microsoft Outlook을 사용하는 경우 별칭을 마우스 오른쪽 단추로 클릭하고 **Outlook 연락처에 추가**를 선택합니다.
+- 다른 BI 제품과 마찬가지로 구독을 설정하는 시간은 구독에서 처리를 시작하는 때입니다.  보고서 처리가 완료되면 구독이 큐에 대기되고 메일 받는 사람에게 전송됩니다.  모든 구독을 최대한 빠르게 처리하고 제공하기 위해 노력하고 있습니다. 그러나 경우에 따라 수요가 가장 많을 때 Power BI에서 한 번에 보낼 수 있는 구독 수로 인해 지연 시간이 늘어날 수 있습니다. 고객 대부분은 보고서를 처리하고 보내는 데 15분 넘게 지연되지 않습니다. 특정 시간과 사용량이 많은 테넌트의 경우 최대 30분이 걸릴 수도 있습니다.  구독이 예약된 시간에서 60분 이상 제공이 지연되는 경우는 없습니다.  지연이 길어지는 경우 먼저 `no-reply-powerbi@microsoft.com` 주소가 메일 공급자의 허용 목록에 포함되어 있는지 확인합니다.  포함되어 있으면 Power BI 지원에 문의하세요.
 - 현재, 페이지를 매긴 보고서를 제외하고 라이브 연결 데이터 세트를 사용하는 보고서 및 대시 보드의 메일 구독은 본인 이외의 다른 사용자가 구독하는 경우 지원되지 않습니다. 보안 컨텍스트를 사용하여 다른 사용자가 페이지를 매긴 보고서를 구독할 수 있습니다. 자세한 내용은 [페이지를 매긴 보고서 구독](../consumer/paginated-reports-subscriptions.md)을 참조하세요.
 - Power BI는 2개월 넘게 방문하지 않은 대시보드 및 보고서와 연결된 데이터 세트에서 자동으로 새로 고침을 일시 중지합니다. 그러나 대시보드 또는 보고서에 구독을 추가하면 방문하지 않았더라도 일시 중지되지 않습니다.
 - 구독 이메일을 받지 못하면 UPN(사용자 계정 이름)이 이메일을 받을 수 있는지 확인합니다.
 - 대시보드 또는 보고서가 프리미엄 용량인 경우 동료를 한 번에 하나의 메일 주소로 구독하는 대신 구독에 그룹 메일 별칭을 사용할 수 있습니다. 별칭은 현재 활성 디렉터리를 기반으로 합니다.
+- 콘텐츠가 프리미엄 용량에 없는 경우 Power BI Pro 사용자만 메일 구독을 받을 수 있습니다. 
+- 구독에서는 현재 책갈피를 지원하지 않습니다.
 
 ### <a name="dashboards"></a>대시보드
 
@@ -118,7 +119,7 @@ Power BI 관리자는 Power BI 감사 로그를 사용하여 구독 정보를 �
 - 드문 경우지만 이메일 구독이 받는 사람에게 전달되는 데 15분 이상 걸릴 수 있습니다. 이 경우 데이터 새로 고침 및 이메일 구독을 다른 시간에 실행하여 적절하게 전달되도록 할 것을 권장합니다. 문제가 지속되면 Power BI 지원에 문의하세요.
 - 대시보드 이메일 구독의 경우 타일에 RLS(행 수준 보안)가 적용되면 해당 타일은 표시되지 않습니다.
 - 대시보드 구독의 경우 일부 유형의 타일이 아직 지원되지 않습니다. 여기에는 스트리밍 타일, 비디오 타일 및 사용자 지정 웹 콘텐츠 타일이 포함됩니다.
-- 테넌트 외부의 동료와 대시보드를 공유하는 경우 대시보드가 Premium 작업 영역 또는 앱에 있지 *않으면* 해당 동료를 위해 구독을 만들 수 없습니다. 따라서 사용자가 aaron@contoso.com인 경우 anyone@fabrikam.com과 공유할 수 있지만 아직 anyone@fabrikam.com을 구독할 수 없고 공유 콘텐츠를 구독할 수 없습니다.
+- 테넌트 외부의 동료와 대시보드를 공유하는 경우 대시보드가 Premium 작업 영역 또는 앱에 있지 *않으면* 해당 동료를 위해 구독을 만들 수 없습니다. 따라서 사용자가 `aaron@contoso.com`인 경우 `anyone@fabrikam.com`과 공유할 수 있지만 아직 `anyone@fabrikam.com`을 구독할 수 없고 공유 콘텐츠를 구독할 수 없습니다.
 
 ### <a name="reports"></a>보고서
 

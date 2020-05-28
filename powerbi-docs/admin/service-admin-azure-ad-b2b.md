@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 09b2f8afd78eda244a6862459a85558efa0fa1c2
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 25b136bfa15b00333400b80781d968d0b40d9779
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129291"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83564498"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B에서 외부 게스트 사용자에게 Power BI 콘텐츠 배포
 
@@ -38,7 +38,7 @@ Azure AD B2B 사용을 통해 조직은 특정 위치에서 외부 사용자와 
 
 [미국 정부용 Power BI](service-govus-overview.md)와 같이 정부 클라우드와 관련된 사용자를 초대할 수 없습니다.
 
-## <a name="invite-guest-users"></a>게스트 사용자 초대 
+## <a name="invite-guest-users"></a>게스트 사용자 초대
 
 게스트 사용자를 조직에 최초로 초대할 때만 초대가 필요합니다. 사용자를 초대하려면 계획 또는 임시 초대를 사용합니다.
 
@@ -130,7 +130,7 @@ Azure Portal에서 초대를 보내려면 다음 단계를 수행합니다.
 * 일부 환경은 [조직에서 콘텐츠를 편집하고 관리할 수 있는 게스트 사용자](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization)에게 제공되지 않습니다. 보고서를 업데이트하거나 게시하려면 데이터 가져오기 등의 Power BI 서비스 웹 UI를 사용하여 Power BI Desktop 파일을 업로드해야 합니다.  다음 환경은 지원되지 않습니다.
     * Power BI Desktop에서 Power BI 서비스에 직접 게시
     * 게스트 사용자는 Power BI Desktop을 사용하여 Power BI 서비스의 서비스 데이터 세트에 연결할 수 없습니다.
-    * Office 365 그룹에 연결된 클래식 작업 영역:
+    * Microsoft 365 그룹에 연결된 클래식 작업 영역:
         * 게스트 사용자는 이러한 작업 영역의 관리자를 만들거나 관리자가 될 수 없습니다.
         * 게스트 사용자는 멤버가 될 수 있습니다.
     * 작업 영역 액세스 목록 임시 초대 전송이 지원되지 않습니다.

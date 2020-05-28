@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 08/21/2018
-ms.openlocfilehash: 907e65635424b709ec2c0850e4d0d759f4ba6dd3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.date: 05/14/2020
+ms.openlocfilehash: 8d2efebcfd2d4bc4289f0c8136ef060507fe0a86
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73874103"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438272"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>OOS(Office Online Server)를 사용하여 Excel 통합 문서를 호스트하도록 보고서 서버 구성
 
@@ -179,7 +179,8 @@ Set-OfficeWebAppsFarm -ExcelAllowExternalData:$true
 
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
 
-* 통합 문서로 읽기 전용 기능만 사용할 수 있습니다.
+- 통합 문서로 읽기 전용 기능만 사용할 수 있습니다.
+- Power BI Report Server에서는 Excel 통합 문서의 예약된 새로 고침이 지원되지 않습니다.
 
 ## <a name="next-steps"></a>다음 단계
 
