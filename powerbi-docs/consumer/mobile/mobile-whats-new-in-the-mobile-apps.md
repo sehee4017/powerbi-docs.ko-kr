@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: dd3d3702524bc8939720a177dcdcc291081542f4
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 7d0933b20c942df724a4d21fbba438cdc8748969
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349267"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83565303"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -274,7 +274,7 @@ Surface Hub 및 Windows 10 디바이스에 대해 향상된 프레젠테이션 �
 
 ### <a name="shared-credentials-now-in-android"></a>공유 자격 증명(현재 Android)
 
-모바일 앱에서 Power BI에 로그인하는 것은 간편하지 않습니다. 공유 자격 증명을 통해 디바이스에서 다른 Office 365 앱 자격 증명을 사용하여 Power BI 서비스에서 사용자를 인증하는 방식으로 로그인 프로세스를 단순화했습니다.
+모바일 앱에서 Power BI에 로그인하는 것은 간편하지 않습니다. 공유 자격 증명을 통해 디바이스에서 다른 Microsoft 365 앱 자격 증명을 사용하여 Power BI 서비스에서 사용자를 인증하는 방식으로 로그인 프로세스를 단순화했습니다.
 
 ### <a name="in-app-urls-now-in-android"></a>앱 내 URL(현재 Android) 
 
@@ -294,7 +294,7 @@ Surface Hub 및 Windows 10 디바이스에 대해 향상된 프레젠테이션 �
 
 ### <a name="shared-credentials-ios"></a>공유 자격 증명(iOS)
 
-모바일 앱에서 Power BI에 로그인하는 것은 간편하지 않습니다. 공유 자격 증명을 통해 디바이스에서 다른 Office 365 앱 자격 증명을 사용하여 Power BI 서비스에서 사용자를 인증하는 방식으로 로그인 프로세스를 단순화했습니다.
+모바일 앱에서 Power BI에 로그인하는 것은 간편하지 않습니다. 공유 자격 증명을 통해 디바이스에서 다른 Microsoft 365 앱 자격 증명을 사용하여 Power BI 서비스에서 사용자를 인증하는 방식으로 로그인 프로세스를 단순화했습니다.
 
 ### <a name="in-app-urls-ios"></a>앱 내 URL(iOS) 
 

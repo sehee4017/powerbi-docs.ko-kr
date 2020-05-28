@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 25b136bfa15b00333400b80781d968d0b40d9779
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 2bb54bf7340e89b86bfbfd56390b79a7051dd709
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564498"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812281"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B에서 외부 게스트 사용자에게 Power BI 콘텐츠 배포
 
@@ -153,7 +153,7 @@ Azure Portal에서 초대를 보내려면 다음 단계를 수행합니다.
 * 외부 게스트 사용자가 전체 조직 내에서 수행할 수 있는 작업을 제한하는 Active Directory 설정이 있습니다. 이 설정은 Power BI 환경에도 적용됩니다. 다음 설명서에는 설정에 대해 설명되어 있습니다.
     * [외부 협업 설정 관리](/azure/active-directory/b2b/delegate-invitations#configure-b2b-external-collaboration-settings)
     * [특정 조직의 B2B 사용자 초대 허용 또는 차단](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)
-    * [게스트 사용자가 Power BI 서비스에 액세스할 수 있도록 허용 또는 차단](/azure/active-directory/conditional-access/overview)
+    * [조건부 액세스를 사용하여 액세스 허용 또는 차단](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps)
     
 * 조직 외부 공유는 국가별 클라우드에서 지원되지 않습니다. 대신, 외부 사용자가 콘텐츠에 액세스하는 데 사용할 수 있는 조직 내 사용자 계정을 만듭니다. 
 
