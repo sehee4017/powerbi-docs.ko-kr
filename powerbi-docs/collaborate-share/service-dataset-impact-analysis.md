@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 04/13/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: edb34fc5592a6b851ae2c48690a772d75049fb48
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: dd7387bcb008d10ec8887ac777431b5423d43f4c
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274860"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120340"
 ---
 # <a name="dataset-impact-analysis"></a>데이터 집합 영향 분석
 
@@ -54,7 +54,7 @@ ms.locfileid: "83274860"
 
 ## <a name="notify-contacts"></a>연락처에 알림
 
-데이터 세트를 변경했거나 변경을 고려 중인 경우 관련 사용자에게 알리는 것이 좋습니다. 연락처에 알리면, 영향을 받는 모든 작업 영역의 [연락처 목록](../collaborate-share/service-create-the-new-workspaces.md#workspace-contact-list)에 메일이 전송됩니다. 사용자 이름이 메일에 표시되므로 연락처는 새 메일 스레드에서 사용자를 찾아 회신할 수 있습니다. 
+데이터 세트를 변경했거나 변경을 고려 중인 경우 관련 사용자에게 알리는 것이 좋습니다. 연락처에 알리면, 영향을 받는 모든 작업 영역의 [연락처 목록](../collaborate-share/service-create-the-new-workspaces.md#create-a-contact-list)에 메일이 전송됩니다. 사용자 이름이 메일에 표시되므로 연락처는 새 메일 스레드에서 사용자를 찾아 회신할 수 있습니다. 
 
 1. 영향 분석 사이드 창에서 **연락처에 알림**을 클릭합니다. 연락처에 알림 대화 상자가 표시됩니다.
 

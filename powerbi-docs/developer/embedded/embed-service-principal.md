@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/30/2020
-ms.openlocfilehash: 40f713c2fd021ea8ecea5789b8ad0bc54cff2294
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 5e9b14fb0eccc0418ca7d5b4a7859f26c1781d50
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275964"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121203"
 ---
 # <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>서비스 주체 및 애플리케이션 암호를 사용하여 Power BI 콘텐츠 포함
 
@@ -188,7 +188,6 @@ Azure AD 앱이 Power BI 서비스의 보고서, 대시보드, 데이터 세트�
 * 프로덕션으로 이동 시 전용 용량이 필요합니다.
 * 서비스 주체를 사용하여 Power BI 포털에 로그인할 수 없습니다.
 * Power BI 관리자 권한은 Power BI 관리 포털의 개발자 설정에서 서비스 주체를 활성화하는 데 필요합니다.
-* 서비스 주체를 사용하여 온-프레미스 데이터 게이트웨이를 설치하거나 관리할 수 없습니다.
 * [조직에 대해 포함](embed-sample-for-your-organization.md) 애플리케이션은 서비스 주체를 사용할 수 없습니다.
 * [데이터 흐름](../../transform-model/service-dataflows-overview.md) 관리는 지원되지 않습니다.
 * 서비스 주체는 현재 모든 관리 API를 지원하지 않습니다.
