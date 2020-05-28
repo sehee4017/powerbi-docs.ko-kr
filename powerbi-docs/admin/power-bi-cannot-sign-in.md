@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/12/2019
-ms.openlocfilehash: b65cf23e37773861d41b037b0f45c430224f1930
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: ec9848f71aa8ba69089de5222dfa9f63703f43c5
+ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83129968"
+ms.lasthandoff: 05/16/2020
+ms.locfileid: "83438019"
 ---
 # <a name="troubleshooting-sign-in-issues-for-power-bi"></a>Power BI의 로그인 문제 해결
 
@@ -26,7 +26,7 @@ ms.locfileid: "83129968"
 
 먼저 [Power BI 지원 페이지](https://powerbi.microsoft.com/support/)를 통해 지원 티켓을 만듭니다.
 
-Power BI 지원 페이지를 통해 이동할 수 없는 경우 [Office 365 지원 페이지](https://support.office.com/home/contact)를 통해 티켓을 만들어 보세요.
+Power BI 지원 페이지를 통해 진행할 수 없는 경우 [Office 지원](https://support.office.com/home/contact)을 통해 티켓을 만들어 보세요.
 
 이러한 페이지 중 하나를 통해 티켓을 만들 수 없는 경우 전화로 고객 지원에 문의하세요.
 
@@ -34,7 +34,7 @@ Power BI 지원 페이지를 통해 이동할 수 없는 경우 [Office 365 지�
 * 유럽, 중동 및 아시아(EMEA)의 고객인 경우: +44-844-800-2400
 * 인도 고객인 경우: +1-800-419-5666
 
-Microsoft 지원팀에 도움을 요청하기 위해 문의할 수 있는 또 다른 옵션은 [Microsoft 프리미어 지원](https://support.microsoft.com/premier)을 구입하는 것입니다. 조직에서 Microsoft 프리미어 지원을 구입했는데도 Power BI 또는 Office 365 채널에서 사례를 만들 수 없다면 전화로 프리미엄 지원에 문의하세요.
+Microsoft 지원팀에 도움을 요청하기 위해 문의할 수 있는 또 다른 옵션은 [Microsoft 프리미어 지원](https://support.microsoft.com/premier)을 구입하는 것입니다. 조직에서 Microsoft 프리미어 지원을 구입했는데도 Power BI 채널 또는 Office 지원에서 사례를 만들 수 없다면 전화로 프리미엄 지원에 문의하세요.
 
 * 미국(US) 및 나머지 아메리카 지역 고객인 경우: +1-800-936-3100
 * 유럽, 중동 및 아시아(EMEA)의 고객인 경우: +44-844-800-8338
