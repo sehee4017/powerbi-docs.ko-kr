@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 04/27/2020
-ms.openlocfilehash: c424572cf222e4b2f65354e7b9a0959b60a56fca
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 7034bd544ee9c14dd5f32df9335faefd4221e4ac
+ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83143766"
+ms.lasthandoff: 05/20/2020
+ms.locfileid: "83693898"
 ---
 # <a name="embed-reports-in-microsoft-teams-with-the-power-bi-tab"></a>Power BI 탭을 사용하여 Microsoft Teams에 보고서 포함
 
@@ -28,11 +28,12 @@ Microsoft Teams의 업데이트된 Power BI 탭을 사용하여 Microsoft Teams 
 - 사용자에게 Power BI Pro 라이선스가 있거나, 보고서가 Power BI 라이선스가 있는 [Power BI 프리미엄 용량(EM 또는 P SKU)](../admin/service-premium-what-is.md)에 포함되어 있습니다.
 - Microsoft Teams에 Power BI 탭이 있습니다.
 - 사용자가 Power BI 서비스에 로그인하여 보고서를 사용하기 위해 Power BI 라이선스를 활성화했습니다.
-- 사용자에게 보고서를 볼 수 있는 권한이 있어야 합니다.
+- Microsoft Teams에서 Power BI 탭을 사용하여 보고서를 추가하려면 보고서를 호스트하는 작업 영역에서 뷰어 이상의 역할이 있어야 합니다. 다른 역할에 대한 자세한 내용은 [새 작업 영역의 역할](service-new-workspaces.md#roles-in-the-new-workspaces)을 참조하세요.
+- Microsoft Teams의 Power BI 탭에서 보고서를 보려면 사용자에게 보고서를 볼 수 있는 권한이 있어야 합니다.
 
 또한 **링크 미리 보기**가 작동하려면 다음을 확인해야 합니다.
 - 사용자가 Microsoft Teams의 Power BI 탭을 사용하기 위한 요구 사항을 충족시킵니다.
-- 사용자가 Power BI 봇 서비스에 로그인했습니다. 
+- 사용자가 Power BI 서비스에 로그인했습니다. 
 
 
 ## <a name="embed-your-report"></a>보고서 포함
@@ -90,12 +91,12 @@ Microsoft Teams의 업데이트된 Power BI 탭을 사용하여 Microsoft Teams 
 
 ## <a name="grant-access-to-reports"></a>보고서에 액세스 권한 부여
 
-Microsoft Teams에 보고서를 포함하거나 항목에 대한 링크를 보내는 경우 사용자에게 보고서를 볼 수 있는 권한이 자동으로 부여되지 않습니다. [사용자가 Power BI에서 보고서를 볼 수 있도록 허용](service-share-dashboards.md)해야 합니다. 해당 팀의 Office 365 그룹을 사용하면 더 쉬워집니다. 
+Microsoft Teams에 보고서를 포함하거나 항목에 대한 링크를 보내는 경우 사용자에게 보고서를 볼 수 있는 권한이 자동으로 부여되지 않습니다. [사용자가 Power BI에서 보고서를 볼 수 있도록 허용](service-share-dashboards.md)해야 합니다. 해당 팀의 Microsoft 365 그룹을 사용하면 더 쉬워집니다.
 
 > [!IMPORTANT]
 > Power BI 서비스 내에서 보고서를 볼 수 있는 사람이 누구인지 확인하고 목록에 없는 사람에게 액세스 권한을 부여합니다.
 
-팀의 모든 사용자가 보고서에 액세스할 수 있도록 하는 한 가지 방법은 보고서를 Power BI의 단일 작업 영역에 저장하고 해당 작업 영역에 대한 액세스 권한을 팀의 Office 365 그룹에 부여하는 것입니다.
+팀의 모든 사용자가 보고서에 액세스할 수 있도록 하는 한 가지 방법은 보고서를 Power BI의 단일 작업 영역에 저장하고 해당 작업 영역에 대한 액세스 권한을 팀의 Microsoft 365 그룹에 부여하는 것입니다.
 
 ## <a name="link-previews"></a>링크 미리 보기 
 
@@ -123,7 +124,7 @@ Power BI 보고서 탭을 Teams에 추가하면 Teams에서 보고서에 대한 
 - Power BI는 Microsoft Teams에서 지원하는 것과 동일한 지역화된 언어를 지원하지 않습니다. 결과적으로 포함된 보고서 내에 적절한 지역화가 표시되지 않을 수 있습니다.
 - Power BI 대시보드는 Microsoft Teams의 Power BI 탭에 포함될 수 없습니다.
 - Power BI 라이선스 또는 보고서에 대한 권한이 없는 사용자에게는 "콘텐츠를 사용할 수 없습니다."라는 메시지가 표시됩니다.
-- Internet Explorer 10을 사용하는 경우 문제가 발생할 수 있습니다. <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Office 365](https://products.office.com/office-system-requirements#Browsers-section). -->
+- Internet Explorer 10을 사용하는 경우 문제가 발생할 수 있습니다. <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Microsoft 365](https://products.office.com/office-system-requirements#Browsers-section). -->
 - [URL 필터](service-url-filters.md)는 Microsoft Teams의 Power BI 탭에서 지원되지 않습니다.
 - 국가 클라우드에서는 새 Power BI 탭을 사용할 수 없습니다. Power BI 앱에서 새 작업 영역 환경의 작업 영역 또는 보고서를 지원하지 않는 이전 버전을 사용할 수 있습니다. 
 - 탭이 저장되면 탭 설정을 통해 탭 이름을 변경할 수 없습니다. [이름 바꾸기] 옵션을 사용하여 변경합니다.

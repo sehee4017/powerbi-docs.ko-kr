@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/08/2019
 ms.author: lukaszp
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 3f0d60bb780b980d3840072568e30d6b4e09da34
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 5330b4c42794f0fa3110cef57f6d62ead0381e52
+ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349013"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83561791"
 ---
 # <a name="set-contact-information-for-reports-and-dashboards-in-the-power-bi-service"></a>Power BI 서비스의 보고서 및 대시보드에 대한 연락처 정보 설정
 이 문서에서는 Power BI 서비스에서 대시보드 또는 보고서에 대한 연락처 정보를 설정하는 방법을 설명합니다.
@@ -24,11 +24,11 @@ ms.locfileid: "83349013"
 
 항목에 대한 연락처에 여러 사용자 또는 그룹을 추가할 수 있습니다. 예:
 * 개인
-* Office 365 그룹
+* Microsoft 365 그룹
 * 이메일 사용 보안 그룹
 * 배포 목록
 
-기본적으로 새 보고서 또는 대시보드를 만드는 사람이 해당 항목에 대한 연락처입니다. 값을 설정하면 기본값을 재정의합니다. 물론 연락처 목록에서 모든 사람 또는 그룹을 제거할 수 있습니다. 클래식 작업 영역에서 이렇게 하면 해당 작업 영역의 Office 365 그룹이 표시됩니다. 새 환경 작업 영역의 경우 [작업 영역 연락처 목록](../collaborate-share/service-create-the-new-workspaces.md#workspace-contact-list)이 사용 됩니다. 작업 영역 연락처 목록이 설정되지 않은 경우 작업 영역 관리자가 표시됩니다.
+기본적으로 새 보고서 또는 대시보드를 만드는 사람이 해당 항목에 대한 연락처입니다. 값을 설정하면 기본값을 재정의합니다. 물론 연락처 목록에서 모든 사람 또는 그룹을 제거할 수 있습니다. 클래식 작업 영역에서 이렇게 하면 해당 작업 영역의 Microsoft 365 그룹이 표시됩니다. 새 환경 작업 영역의 경우 [작업 영역 연락처 목록](../collaborate-share/service-create-the-new-workspaces.md#workspace-contact-list)이 사용 됩니다. 작업 영역 연락처 목록이 설정되지 않은 경우 작업 영역 관리자가 표시됩니다.
 
 연락처 정보는 항목을 보는 사용자에게 표시됩니다. 
 
