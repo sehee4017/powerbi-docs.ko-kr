@@ -52,6 +52,8 @@
           href: power-bi-custom-visuals-certified.md
         - name: AppSource에 Power BI 시각적 개체 게시하기
           href: office-store.md
+        - name: R 지원 시각적 개체 만들기
+          href: create-r-based-power-bi-desktop.md
         - name: Power BI 시각적 개체 테스트
           href: submission-testing.md
         - name: Power BI에서 R 지원 Power BI 시각적 개체 사용
