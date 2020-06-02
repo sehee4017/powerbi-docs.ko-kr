@@ -9,25 +9,25 @@ ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ad60e65406ee69bed4e544486c955765203ddc5c
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a2c4925e03a0e356ca44556fa7e545459c487dac
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348002"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733396"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Power BI의 조직 콘텐츠 팩 소개
 > [!NOTE]
 > 조직 콘텐츠 팩을 만들 수 없거나 새 작업 영역 환경에 설치할 수 없습니다. 아직 시작하지 않은 경우 이제 콘텐츠 팩을 앱으로 업그레이드하세요. [새 작업 영역 환경에 대해 자세히](service-create-the-new-workspaces.md) 알아봅니다.
 > 
 
-팀으로 보내는 메일로 보고서를 정기적으로 배포하나요? 대신 이 방법을 사용해보세요. 대시보드, 보고서, Excel 통합 문서 및 데이터 세트를 패키지하여 *조직 콘텐츠 팩*으로 팀에 게시합니다. 만든 콘텐츠 팩은 팀이 쉽게 찾을 수 있습니다. 즉, 모두 AppSource에 있습니다. 콘텐츠 팩은 Power BI의 일부이기 때문에 대화형 데이터 탐색, 새로운 시각적 개체, 질문 및 답변, 다른 데이터 원본과의 통합, 데이터 새로 고침 등 Power BI의 기능을 모두 활용할 수 있습니다.
+팀으로 보내는 메일로 보고서를 정기적으로 배포하나요? 대신 이 방법을 사용해 보세요. 대시보드, 보고서, Excel 통합 문서 및 데이터 세트를 패키지하여 *조직 콘텐츠 팩*으로 팀에 게시합니다. 만든 콘텐츠 팩은 팀이 쉽게 찾을 수 있습니다. 즉, 모두 AppSource에 있습니다. 콘텐츠 팩은 Power BI의 일부이기 때문에 대화형 데이터 탐색, 새로운 시각적 개체, 질문 및 답변, 다른 데이터 원본과의 통합, 데이터 새로 고침 등 Power BI의 기능을 모두 활용할 수 있습니다.
 
 ![](media/service-organizational-content-pack-introduction/power-bi-org-content-packs.png)
 
 콘텐츠 팩을 만드는 것은 대시보드를 공유하거나 작업 영역에서 협업하는 것과 다릅니다. [대시보드 및 보고서를 공동 작업 및 공유하는 방법](service-how-to-collaborate-distribute-dashboards-reports.md)에 대해 알아보고 상황에 맞는 최상의 옵션을 결정하세요. 
 
-AppSource에서 전체 조직, 배포 또는 보안 그룹 및 [사용자가 속한 Office 365 그룹](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)에 게시된 콘텐츠 팩을 찾거나 검색할 수 있습니다. 특정 그룹의 멤버가 아닌 경우 해당 그룹과 공유한 콘텐츠 팩이 표시되지 않습니다. 그룹의 모든 구성원은 콘텐츠 팩 데이터, 보고서, 통합 문서 및 대시보드에 대한 동일한 읽기 전용 액세스 권한을 갖습니다. SSAS(SQL Server Analysis Services) 데이터 원본인 경우가 아니면 권한이 데이터 원본과 함께 상속됩니다.
+AppSource에서 전체 조직, 배포 또는 보안 그룹 및 [사용자가 속한 Microsoft 365 그룹](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9)에 게시된 콘텐츠 팩을 찾거나 검색할 수 있습니다. 특정 그룹의 멤버가 아닌 경우 해당 그룹과 공유한 콘텐츠 팩이 표시되지 않습니다. 그룹의 모든 구성원은 콘텐츠 팩 데이터, 보고서, 통합 문서 및 대시보드에 대한 동일한 읽기 전용 액세스 권한을 갖습니다. SSAS(SQL Server Analysis Services) 데이터 원본인 경우가 아니면 권한이 데이터 원본과 함께 상속됩니다.
 
 대시보드, 보고서 및 Excel 통합 문서는 읽기 전용이지만, 자신만의 개인화된 콘텐츠 팩 버전을 만들기 위한 시작 지점으로 대시보드와 보고서를 복사하여 사용할 수 있습니다.
 

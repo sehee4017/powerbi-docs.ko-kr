@@ -1,6 +1,6 @@
 ---
 title: O365 파트너에게 Power BI를 추가할 수 없음
-description: Office 365 신디케이션 파트너에게 Power BI를 추가할 수 없습니다. 신디케이티드 모델은 Office 365에서 사용하는 구매 모델입니다.
+description: Microsoft 365 신디케이션 파트너에 Power BI를 추가할 수 없습니다. 신디케이티드 모델은 Microsoft 365에서 사용하는 구매 모델입니다.
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 5907f23bb5bf1bcdc5a4ca3412e5331a09d145c9
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 2c590875b4dee81f7ca54434d6e5895be885be97
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344943"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812338"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Office 365 파트너 구독에 Power BI를 추가할 수 없음
 
-Office 365는 회사에서 Office 365를 자사의 솔루션에 통합하여 재판매함으로써 최종 고객에게 구매, 청구 및 지원을 위한 단일 접점을 제공할 수 있도록 합니다.
+Microsoft 365는 회사에서 Microsoft 365를 자사의 솔루션에 통합하여 재판매함으로써 최종 고객에게 구매, 청구 및 지원을 위한 단일 접점을 제공할 수 있도록 합니다.
 
 Office 365 구독과 함께 Power BI를 구매하려면 파트너에게 문의하는 것이 좋습니다. 파트너가 Power BI를 제공하지 않을 경우 사용할 다양한 옵션이 있습니다.
 
@@ -52,13 +52,13 @@ Power BI 무료 평가판에 가입할 수 있습니다. 평가판 기간이 끝
 
 ### <a name="enable-ad-hoc-subscriptions"></a>임시 구독 사용
 
-기본적으로 임시 구독이라고도 하는 개별 가입은 사용하지 않도록 설정됩니다. 이 경우 가입하려고 할 때 다음 메시지가 표시됩니다. *Your IT department has turned off signup for Microsoft Power BI*(IT 부서에서 Microsoft Power BI에 대한 가입을 해지했습니다.)
+기본적으로 임시 구독이라고도 하는 개별 가입은 사용하지 않도록 설정됩니다. 이 경우 등록하려고 하면 *IT 부서에서 Microsoft Power BI 등록을 해제했습니다.* 라는 메시지가 표시됩니다.
 
 ![죄송합니다 이미지](media/service-admin-syndication-partner/sorry.png)
 
 임시 구독을 사용하도록 설정하려면 파트너에게 연락하여 임시 구독을 설정해 달라고 요청할 수 있습니다. 테넌트 관리자이고 Azure Active Directory PowerShell 명령을 사용하는 방법을 알고 있는 경우 직접 임시 구독을 사용하도록 설정할 수 있습니다. [그래프용 Azure Active Directory PowerShell](/powershell/azure/active-directory/install-adv2/)
 
-1. Office 365 자격 증명을 사용하여 Azure Active Directory에 로그인합니다. 아래 스크립트의 첫 번째 줄은 사용자 자격 증명을 입력하라는 메시지를 표시합니다. 두 번째 행은 Azure Active Directory에 연결합니다.
+1. Microsoft 365 자격 증명을 사용하여 Azure Active Directory에 로그인합니다. 아래 스크립트의 첫 번째 줄은 사용자 자격 증명을 입력하라는 메시지를 표시합니다. 두 번째 행은 Azure Active Directory에 연결합니다.
 
     ```powershell
     $msolcred = get-credential

@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/11/2020
-ms.openlocfilehash: 66ef36f669b5f34c19f283cf9ebc8be2b12332ec
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.date: 05/17/2020
+ms.openlocfilehash: 1e2426b12bf6205e5ed2fc6cfb0540c67740df7d
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148642"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83813626"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Power BI 임베디드 분석의 용량 및 SKU
 
@@ -36,7 +36,7 @@ Power BI Embedded는 애플리케이션에 시각적 개체를 포함하려는 I
 
 Power BI Embedded를 사용하는 애플리케이션에서는 사용자가 Power BI Embedded 용량에 저장된 콘텐츠를 사용할 수 있습니다.
 
-### <a name="power-bi-premium"></a>Power BI 프리미엄
+### <a name="power-bi-premium"></a>Power BI Premium
 
 [Power BI Premium](../../admin/service-premium-what-is.md)은 조직, 파트너, 고객 및 공급업체에 대한 단일 보기를 제공하는 완전한 BI 솔루션을 원하는 기업 고객을 위해 설계되었습니다.
 
@@ -64,74 +64,22 @@ Power BI Premium은 두 가지 SKU, 즉 *P*와 *EM*을 제공합니다.
 
 ### <a name="which-sku-should-i-use"></a>어떤 SKU를 사용해야 하나요?
 
-이 표에서는 기능 요약과 필요한 용량, 각각에 필요한 특정 SKU를 소개합니다. 
+아래 표에는 기능, 해당 기능에 필요한 용량, 각각 필요한 특정 SKU가 요약되어 있습니다.
 
-</br>
-<table>
-<col width="20%">
-<col width="20%">
-<col width="20%">
-<col width="20%">
-<col width="20%">
-<tbody>
-<tr>
-<td style="text-align: center"; colspan="2"><p><b>기능</b></p></td>
-<td style="text-align: center">
-<p><b>Power BI Embedded</b></p>
-</td>
-<td style="text-align: center"; colspan="2">
-<p><b>Power BI 프리미엄</b></p>
-</td>
-</tr>
-<tr>
-<td><p><em>사용되는 항목</em><p></td>
-<td><p><em>사용하는 항목</em><p></td>
-<td style="text-align: center"><p><em>A SKU</br>(Azure)</em></p></td>
-<td style="text-align: center"><p><em>EM SKU</br>(Office)</em></p></td>
-<td style="text-align: center"><p><em>P SKU</br>(Office)</em></p></td>
-</tr>
-<tr>
-<td>Power BI 작업 영역의 아티팩트 포함</td>
-<td>
-</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-</tr>
-<tr>
-<td rowspan="2">Power BI 보고서</td>
-<td>조직용 임베디드 애플리케이션</br>(사용자가 데이터 소유)</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-</tr>
-<tr>
-<td>고객용 임베디드 애플리케이션</br>(앱이 데이터 소유)</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-</tr>
-<tr>
-<td rowspan="3">Power BI 콘텐츠<br>(무료 Power BI 라이선스 포함)</td>
-<td>Power BI 서비스</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✔</td>
-</tr>
-<tr>
-<td>Power BI mobile</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✔</td>
-</tr>
-<tr>
-<td>MS Office 앱</td>
-<td style="text-align: center">✖</td>
-<td style="text-align: center">✔</td>
-<td style="text-align: center">✔</td>
-</tr>
-</tbody>
-</table>
+이 표에서 사용자 지정 앱은 포함된 분석을 사용하여 만든 웹앱을 말합니다. (JavaScript 또는 .NET SDK나 REST API를 사용하여) 사용자 지정 웹앱에 개발자로 포함하는 경우 UX를 제어하고 사용자 지정할 수 있습니다. Power BI 서비스, Power BI Mobile 등의 다른 포함 옵션을 사용하는 경우에는 이 기능을 사용할 수 없습니다.
+
+
+|         |         |         |
+|---------|---------|---------|
+|**시나리오**</br><p></p>|**Azure**</br>(SKU)|**Office**</br>(P 및 EM SKU)|
+|[고객에 대한 콘텐츠 포함](embed-sample-for-customers.md)</br>(앱이 데이터 소유)     |✔        |✔        |
+|[조직에 포함](embed-sample-for-your-organization.md)</br>(사용자가 데이터 소유)     |✖        |✔         |
+|Microsoft 365 앱</br>(이전에는 Office 365 앱이라고 함)<ul><li>[에 포함](../../collaborate-share/service-embed-report-microsoft-teams.md)</li><li>[SharePoint에 포함](../../collaborate-share/service-embed-report-spo.md)</li></ul>     |✖        |✔        |
+|[보안 URL 포함](../../collaborate-share/service-embed-secure.md)</br>(Power BI 서비스로부터 포함)     |✖        |✔        |
+
+>[!NOTE]
+>* Power BI 앱 작업 영역에 콘텐츠를 게시하려면 [Power BI Pro 라이선스](../../admin/service-admin-purchasing-power-bi-pro.md)가 필요합니다.
+>* **P SKU**를 사용해야만 Power BI 사용자가 Power BI 서비스에서 Power BI 앱 및 공유 콘텐츠를 사용할 수 있습니다.
 
 ### <a name="capacity-considerations"></a>용량 고려 사항
 
@@ -147,33 +95,33 @@ Power BI Premium은 두 가지 SKU, 즉 *P*와 *EM*을 제공합니다.
 </tr>
 <tr>
 <td><p><strong>제안</strong></p></td>
-<td style="text-align: center;"><p>Azure</p></td>
-<td style="text-align: center;" colspan="2"><p>Office</p></td>
+<td style="text-align: center"><p>Azure</p></td>
+<td style="text-align: center" colspan="2"><p>Office</p></td>
 </tr>
 <tr>
 <td><p><strong>SKU</strong></p></td>
-<td style="text-align: center;"><p>A</p></td>
-<td style="text-align: center;"><p>EM</p></td>
-<td style="text-align: center;"><p>P</p></td>
+<td style="text-align: center"><p>A</p></td>
+<td style="text-align: center"><p>EM</p></td>
+<td style="text-align: center"><p>P</p></td>
 </tr>
 <tr>
 <td><p><strong>Billing</strong></td>
-<td style="text-align: center;">매시간</td>
-<td style="text-align: center;">매월</td>
-<td style="text-align: center;">매월</td>
+<td style="text-align: center">시간별</td>
+<td style="text-align: center">매월</td>
+<td style="text-align: center">매월</td>
 </tr>
 <tr>
 <td><p><strong>약정</strong></td>
-<td style="text-align: center;">없음</td>
-<td style="text-align: center;">매년</td>
-<td style="text-align: center;">매월 또는 매년</td>
+<td style="text-align: center">없음</td>
+<td style="text-align: center">매년</td>
+<td style="text-align: center">매월 또는 매년</td>
 </tr>
 <tr>
 <td valign="top"><p><strong>사용 현황</strong></td>
-<td style="text-align: center;">Azure 리소스는 다음 작업이 가능합니다.</br>- <a href="azure-pbie-scale-capacity.md">확장 또는 축소</a></br>- <a href="azure-pbie-pause-start.md">일시 중지 및 재시작</a>
-</td>
-<td style="text-align: center;">앱 및 Microsoft 애플리케이션에</br> 포함</td>
-<td style="text-align: center;">앱 및 Power BI 서비스에</br> 포함</td>
+<td style="text-align: center">Azure 리소스는 다음 작업이 가능합니다.<li><a href="azure-pbie-scale-capacity.md">확장 또는 축소</a></li><li><a href="azure-pbie-pause-start.md">일시 중지 및 재시작</a>
+</td></li>
+<td style="text-align: center">앱 및 Microsoft 애플리케이션에</br> 포함</td>
+<td style="text-align: center">앱 및 Power BI 서비스에</br> 포함</td>
 </tr>
 </tbody>
 </table>

@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/28/2019
-ms.openlocfilehash: 67a9725e55f82e325466789064f5738222919ac8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c8c62709775bb269eb57b2f88c174f1dc4fd13ad
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114730"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83794104"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Power BI에서 사용할 Azure Active Directory 테넌트 만들기
 
 [Power BI REST API](../automation/rest-api-reference.md)를 호출하는 사용자 지정 애플리케이션에 대한 새 Azure AD(Azure Active Directory) 테넌트를 만드는 방법을 알아봅니다.
 
-테넌트는 Azure Active Directory에 조직을 표시합니다. 이것은 조직이 Azure, Microsoft Intune 또는 Office 365와 같은 Microsoft 클라우드 서비스에 가입할 때 수신하고 소유하는 전용 Azure AD 서비스 인스턴스입니다. 각 Azure AD 테넌트는 고유하며 다른 Azure AD 테넌트와 별개입니다.
+테넌트는 Azure Active Directory에 조직을 표시합니다. 이것은 조직이 Azure, Microsoft Intune 또는 Microsoft 365와 같은 Microsoft 클라우드 서비스에 가입할 때 수신하고 소유하는 전용 Azure AD 서비스 인스턴스입니다. 각 Azure AD 테넌트는 고유하며 다른 Azure AD 테넌트와 별개입니다.
 
 Azure AD 테넌트가 있다면 애플리케이션을 정의하고 [Power BI REST API](../automation/rest-api-reference.md)를 호출할 수 있도록 사용 권한을 할당할 수 있습니다.
 
@@ -27,7 +27,7 @@ Azure AD 테넌트가 있다면 애플리케이션을 정의하고 [Power BI RES
 
 ## <a name="create-an-azure-active-directory-tenant"></a>Azure Active Directory 테넌트 만들기
 
-Power BI를 사용자 지정 애플리케이션에 통합하려면 Azure AD 내에서 애플리케이션을 정의해야 하며, Azure AD 디렉터리가 필요합니다. 이 디렉터리는 사용자 *테넌트*입니다. 조직에서 Power BI 또는 Office 365를 사용하지 않아서 아직 테넌트가 없는 경우 [개발 환경을 설정해야 합니다](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). 애플리케이션을 조직의 테넌트와 혼합하여 사용하지 않으려는 경우에도 테넌트를 만들어 격리된 상태로 유지할 수 있어야 합니다. 또는 테스트 용도로 테넌트를 만들려고 할 수 있습니다.
+Power BI를 사용자 지정 애플리케이션에 통합하려면 Azure AD 내에서 애플리케이션을 정의해야 하며, Azure AD 디렉터리가 필요합니다. 이 디렉터리는 사용자 *테넌트*입니다. 조직에서 Power BI 또는 Microsoft 365를 사용하지 않아서 아직 테넌트가 없는 경우 [개발 환경을 설정해야 합니다](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). 애플리케이션을 조직의 테넌트와 혼합하여 사용하지 않으려는 경우에도 테넌트를 만들어 격리된 상태로 유지할 수 있어야 합니다. 또는 테스트 용도로 테넌트를 만들려고 할 수 있습니다.
 
 새 Azure AD 테넌트를 만들려면 다음을 수행합니다.
 

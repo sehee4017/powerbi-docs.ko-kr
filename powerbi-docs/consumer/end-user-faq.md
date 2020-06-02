@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/20/2020
+ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 39d30cc7949565872fd638f289756be6541eee0d
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 530b1dd757f8fe0bfdb120601ae8ea28d95ed835
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564989"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793693"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI에 대한 질문과 대답
 
@@ -27,14 +27,14 @@ ms.locfileid: "83564989"
 
 Power BI 서비스는 모든 사용자가 데이터에 대한 폭넓은 이해를 바탕으로 더욱 신속하고 보다 효율적으로 데이터를 시각화하고 분석할 수 있는 클라우드 기반의 비즈니스 분석 서비스입니다. 또한 사용하기 쉬운 대시보드, 대화형 보고서, 데이터를 흥미롭게 표현하는 매력적인 시각화를 통해 광범위한 클라우드 기반 및 온-프레미스 데이터에 사용자를 연결합니다. [Power BI](../fundamentals/power-bi-overview.md)에 대해 자세히 알아봅니다.
 
-## <a name="what-is-the-microsoft-power-bi-service-for-consumers"></a>*소비자*용 Microsoft Power BI 서비스란?
+## <a name="what-is-a-power-bi-consumers"></a>Power BI 소비자란?
 
 Power BI를 조작하는 방식은 작업 역할에 따라 다릅니다. 최종 사용자 또는 *소비자*는 동료로부터 콘텐츠(대시보드, 보고서 및 앱)을 받는 사람입니다. Power BI 서비스라고 하는 Power BI의 온라인 또는 모바일 버전에서 이 콘텐츠를 검토하고 상호 작용하면서 비즈니스 의사 결정을 내립니다.  [소비자용 Power BI](index.yml)에 대해 자세히 알아보세요.
 
 
 ## <a name="whats-the-difference-between-power-bi-pro-and-power-bi-premium"></a>Power BI Pro와 Power BI Premium의 차이점은 무엇인가요?
 
-Power BI Pro는 Power BI 서비스의 모든 콘텐츠 및 기능에 액세스할 수 있는 개별 사용자 라이선스입니다. 콘텐츠를 공유하고 다른 Pro 사용자와 협업할 수도 있습니다. Pro 사용자만 작업 영역에 콘텐츠를 게시하고, 대시보드를 공유하며, 대시보드 및 보고서를 구독할 수 있습니다. 일반적으로 이 유형의 라이선스는 Power BI 보고서 *디자이너*, 개발자 및 관리자에게 할당됩니다. 
+Power BI Pro는 Power BI 서비스의 모든 콘텐츠 및 기능에 액세스할 수 있는 개별 사용자 라이선스입니다. 콘텐츠를 공유하고 다른 Pro 사용자와 협업할 수도 있습니다. Pro 사용자만 작업 영역에 콘텐츠를 게시하고, 대시보드를 공유하며, 대시보드 및 보고서를 구독할 수 있습니다. 
 
 Power BI Premium은 보다 일관된 성능을 제공할 수 있는 전용 용량을 제공합니다. Power BI에서 더 큰 데이터 볼륨도 지원합니다. 개별 사용자의 경우, Premium을 통해 Pro 사용자 단위 콘텐츠를 광범위하게 배포할 수 있으며 콘텐츠를 보는 수신자에게 Pro 사용자 단위 라이선스를 요구하지 않습니다. 즉, *소비자*는 동료와 공동으로 작업하고 공유된 대시보드, 보고서 및 앱을 보고, 상호 작용할 수 있습니다. 
 
@@ -54,7 +54,7 @@ Power BI Desktop은 사용자의 컴퓨터에 바로 설치할 수 있는 무료
 
 Power BI 서비스를 개인으로 등록할 수도 있습니다. [Power BI 셀프 서비스 등록 프로세스](../fundamentals/service-self-service-signup-for-power-bi.md)를 참조하세요.
 
-## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>회사 메일을 사용하여 등록해야 하는 이유는 무엇인가요?
+## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>왜 업무용 메일로 가입해야 하나요?
 
 Power BI는 소비자 메일 서비스나 전자 통신 공급자가 제공하는 메일 주소를 지원하지 않습니다. [Power BI 셀프 서비스 등록 프로세스](../fundamentals/service-self-service-signup-for-power-bi.md)에 대해 자세히 알아보세요.
 

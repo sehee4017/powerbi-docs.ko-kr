@@ -1,28 +1,28 @@
 ---
-title: 작업 영역의 데이터 세트 소개(미리 보기)
+title: 작업 영역의 데이터 세트 소개
 description: 조직 전체의 사용자와 데이터 세트를 공유하는 방법을 알아봅니다. 그런 다음, 자신의 작업 영역에서 데이터 세트를 기반으로 보고서를 빌드할 수 있습니다.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/01/2019
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3fe0478a7fa570b4d88f4493c4b27fec083041ae
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 0458498b5677f20bac3a2e50f884d820ef1c3648
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83285466"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793620"
 ---
-# <a name="intro-to-datasets-across-workspaces-preview"></a>작업 영역의 데이터 세트 소개(미리 보기)
+# <a name="intro-to-datasets-across-workspaces"></a>작업 영역의 데이터 세트 소개
 
 비즈니스 인텔리전스는 협력적인 작업입니다. '진실의 원천'이 될 수 있는 표준화된 데이터 세트를 확립하는 것이 중요합니다. 이러한 표준화된 데이터 세트를 발견하고 다시 사용하는 것이 중요합니다. 조직의 전문 데이터 모델러가 최적화된 데이터 세트를 만들고 공유할 때 보고서 작성자는 이러한 데이터 세트를 시작하여 정확한 보고서를 빌드할 수 있습니다. 그러면 조직은 의사 결정을 위한 일관된 데이터와 건강한 데이터 문화를 얻을 수 있습니다.
 
 ![공유 데이터 세트 선택](media/service-datasets-across-workspaces/power-bi-select-shared-dataset.png)
 
-Power BI에서 데이터 세트 작성자는 [빌드 권한](service-datasets-build-permissions.md)을 사용하여 해당 데이터에 액세스할 수 있는 사용자를 제어할 수 있습니다. 데이터 세트 작성자는 다른 사람이 데이터 세트를 검색할 수 있도록 데이터 세트를 ‘인증’ 또는 ‘승격’할 수도 있습니다.   이렇게 하면 보고서 작성자는 어느 데이터 세트가 공식적이고 품질이 높은지 알 수 있으며, Power BI에서 보고서를 작성할 때 해당 데이터 세트를 사용할 수 있습니다. 테넌트 관리자는 [작업 영역에서 데이터 세트 사용을 제어](service-datasets-admin-across-workspaces.md)하도록 새 테넌트 설정을 사용합니다.
+Power BI에서 데이터 세트 작성자는 [빌드 권한](service-datasets-build-permissions.md)을 사용하여 해당 데이터에 액세스할 수 있는 사용자를 제어할 수 있습니다. 데이터 세트 작성자는 다른 사람이 데이터 세트를 검색할 수 있도록 데이터 세트를 ‘인증’ 또는 ‘승격’할 수도 있습니다.  이렇게 하면 보고서 작성자는 어느 데이터 세트가 공식적이고 품질이 높은지 알 수 있으며, Power BI에서 보고서를 작성할 때 해당 데이터 세트를 사용할 수 있습니다. 테넌트 관리자는 [작업 영역에서 데이터 세트 사용을 제어](service-datasets-admin-across-workspaces.md)하도록 새 테넌트 설정을 사용합니다.
 
 ## <a name="dataset-sharing-and-the-new-workspace-experience"></a>데이터 세트 공유 및 새 작업 영역 환경
 
@@ -33,9 +33,9 @@ Power BI에서 데이터 세트 작성자는 [빌드 권한](service-datasets-bu
 - Power BI Desktop에서 데이터 세트가 새 환경 작업 영역에 있는 한, Live Connect 보고서를 다른 작업 영역에 게시할 수 있습니다.
 - 작업 영역 간에 보고서를 복사할 때 대상 작업 영역은 새 환경 작업 영역이어야 합니다.
 
-## <a name="discover-datasets-preview"></a>데이터 세트 검색(미리 보기)
+## <a name="discover-datasets"></a>데이터 세트 검색
 
-기존 데이터 세트를 토대로 보고서를 작성하는 경우 첫 번째 단계는 Power BI 서비스 또는 Power BI Desktop에서 해당 데이터 세트에 연결하는 것입니다. [다른 작업 영역에서 데이터 세트 검색(미리 보기)](service-datasets-discover-across-workspaces.md)에 대해 읽어 보세요.
+기존 데이터 세트를 토대로 보고서를 작성하는 경우 첫 번째 단계는 Power BI 서비스 또는 Power BI Desktop에서 해당 데이터 세트에 연결하는 것입니다. [다른 작업 영역에서 데이터 세트 검색](service-datasets-discover-across-workspaces.md)에 대해 읽어보기
 
 ## <a name="copy-a-report"></a>보고서 복사
 

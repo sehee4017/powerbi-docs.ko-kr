@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 25b63db2d77e84fb3fc1a3e844ceb46ef1a9bd82
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 4e1fd6a3f6db4ec58fc5eafa1033175edebd82fa
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83141812"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733511"
 ---
 # <a name="tutorial-create-and-publish-a-power-bi-organizational-content-pack"></a>자습서:  Power BI 조직 콘텐츠 팩 만들기 및 게시
 
@@ -35,7 +35,7 @@ Contoso의 릴리스 관리자이고 신제품 출시를 준비하는 중이라�
 
 1. 탐색 창에서 **작업 영역** > **내 작업 영역**을 선택합니다.
 
-1.  위쪽 탐색 창에서 톱니바퀴 아이콘 ![코그 아이콘의 스크린샷](media/service-organizational-content-pack-create-and-publish/cog.png) > **콘텐츠 팩 만들기**를 선택합니다.
+1. 위쪽 탐색 창에서 톱니바퀴 아이콘 ![코그 아이콘의 스크린샷](media/service-organizational-content-pack-create-and-publish/cog.png) > **콘텐츠 팩 만들기**를 선택합니다.
 
    ![코그 아이콘 및 콘텐츠 팩 만들기 옵션에 포커스가 있는 UI 스크린샷](media/service-organizational-content-pack-create-and-publish/pbi_create_contpk.png)
 
@@ -47,7 +47,7 @@ Contoso의 릴리스 관리자이고 신제품 출시를 준비하는 중이라�
 
     1. **특정 그룹**을 선택합니다.
 
-    1. 개인, [Office 365 그룹](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9), 메일 그룹 또는 보안 그룹의 전체 메일 주소를 입력합니다. 예: salesmgrs@contoso.com; sales@contoso.com
+    1. 개인, [Microsoft 365 그룹](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9), 메일 그룹 또는 보안 그룹의 전체 메일 주소를 입력합니다. 예: salesmgrs@contoso.com; sales@contoso.com
 
         이 자습서에서는 그룹의 메일 주소를 사용하겠습니다.
 

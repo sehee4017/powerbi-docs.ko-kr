@@ -5,17 +5,17 @@ author: mihart
 ms.reviewer: willt
 featuredvideoid: EKVvOZmxg9s
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/29/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 34c0287c8a4df296e41826f32de95b0c050c8d08
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: dbdf9ea9d0bd93efef16d6924d2b78865a566111
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277298"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812545"
 ---
 # <a name="create-arcgis-maps-in-power-bi-desktop"></a>Power BI Desktop에서 ArcGIS 지도 만들기
 
@@ -23,7 +23,7 @@ ms.locfileid: "83277298"
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
-이 자습서는 ArcGIS Maps for Power BI를 만드는 사람의 관점에서 작성되었습니다. ‘디자이너’가 동료와 ArcGIS Maps for Power BI 지도를 공유하면, 동료가 지도를 보고 조작할 수 있지만 변경 내용을 저장할 수는 없습니다.  ArcGIS 지도를 보는 방법에 대한 자세한 내용은 [ArcGIS Maps for Power BI 조작](power-bi-visualizations-arcgis.md)을 참조하세요.
+이 자습서는 ArcGIS Maps for Power BI를 만드는 사람의 관점에서 작성되었습니다. ‘디자이너’가 동료와 ArcGIS Maps for Power BI 지도를 공유하면, 동료가 지도를 보고 조작할 수 있지만 변경 내용을 저장할 수는 없습니다. ArcGIS 지도를 보는 방법에 대한 자세한 내용은 [ArcGIS Maps for Power BI 조작](power-bi-visualizations-arcgis.md)을 참조하세요.
 
 > [!NOTE]
 > Power BI 동료와 보고서를 공유하려면 개별 Power BI Pro 라이선스가 있거나 보고서가 Premium 용량에 저장되어 있어야 합니다.
@@ -124,7 +124,7 @@ Will이 몇 가지 시각화를 만드는 과정을 살펴본 다음, 아래 단
 
 
 ### <a name="base-maps"></a>기본 지도
-4개의 기본 지도, 즉 진한 회색 캔버스, 연한 회색 캔버스, OpenStreetMap 및 도로 지도가 제공됩니다.  ‘도로’는 ArcGIS 표준 기본 지도입니다. 
+4개의 기본 지도, 즉 진한 회색 캔버스, 연한 회색 캔버스, OpenStreetMap 및 도로 지도가 제공됩니다.  ‘도로’는 ArcGIS 표준 기본 지도입니다.
 
 기본 지도를 적용하려면 작업 창에서 선택합니다.
 
@@ -223,7 +223,7 @@ ArcGIS Online에서는 공용 웹 지도를 게시하는 조직을 위한 기능
 2. 검색 용어를 입력한 후 지도 계층을 선택합니다. 이 예에서는 미국 하원의원 선거구를 선택했습니다.
    
     ![Esri 인구 통계 예제](media/power-bi-visualization-arcgis/power-bi-reference-details.png)
-3. 자세한 정보를 보려면 음영 처리된 영역을 선택하여 ‘참조 계층에서 선택’을 엽니다.  참조 계층 선택 도구를 사용하여 참조 계층에 있는 경계 또는 개체를 선택합니다.
+3. 자세한 정보를 보려면 음영 처리된 영역을 선택하여 ‘참조 계층에서 선택’을 엽니다. 참조 계층 선택 도구를 사용하여 참조 계층에 있는 경계 또는 개체를 선택합니다.
 
 <br/>
 
@@ -283,7 +283,7 @@ Power BI Desktop에서 **그룹 정책**을 사용하여 조직에 배포된 컴
 </tr>
 <tr>
 <td>key</td>
-<td>Software\Policies\Microsoft\Power BI Desktop&lt;/td&gt;
+<td>Software\Policies\Microsoft\Power BI Desktop</td>
 </tr>
 <tr>
 <td>valueName</td>

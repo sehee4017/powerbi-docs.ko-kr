@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 125c8ddbdda48b5c7249a6f810d33a65a5f908ee
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 49465556d7b11b911e24df06ab6598bb2dbe9707
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349796"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83794129"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>자습서:  조직의 애플리케이션에 Power BI 콘텐츠 포함
 
@@ -54,7 +54,7 @@ Azure Active Directory로 [애플리케이션을 등록](register-app.md)하여 
 
 **서버 쪽 웹 애플리케이션** 앱 등록 작업을 진행해야 합니다. 서버 사이드 웹 애플리케이션을 등록하여 응용 프로그램 암호를 만듭니다.
 
-Azure에서 애플리케이션을 만들었으면 Azure에서 애플리케이션을 열고 ‘인증’으로 이동한 후 ‘리디렉션 URI’에서 **/Redirect**를 ‘리디렉션 URI’에 추가합니다.   
+Azure에서 애플리케이션을 만들었으면 Azure에서 애플리케이션을 열고 ‘인증’으로 이동한 후 ‘리디렉션 URI’에서 **/Redirect**를 ‘리디렉션 URI’에 추가합니다.  
 
 ## <a name="set-up-your-power-bi-environment"></a>Power BI 환경 설정
 
@@ -383,7 +383,7 @@ function updateEmbedReport() {
 
 전용 용량을 만들면 작업 영역의 콘텐츠 전용 리소스를 활용할 수 있습니다. 페이지를 매긴 보고서의 경우 최소 P1 용량을 사용하여 작업 영역을 백업해야 합니다. [Power BI Premium](../../admin/service-premium-what-is.md)을 사용하여 전용 용량을 만들 수 있습니다.
 
-다음 표에서는 [Microsoft Office 365](../../admin/service-admin-premium-purchase.md) 내에서 사용할 수 있는 Power BI Premium SKU를 나열합니다.
+다음 표에는 [Microsoft 365](../../admin/service-admin-premium-purchase.md) 내에서 사용할 수 있는 Power BI Premium SKU가 나와 있습니다.
 
 | 용량 노드 | 총 vCore<br/>(백 엔드 + 프런트 엔드) | 백 엔드 vCore | 프런트 엔드 vCore | DirectQuery/라이브 연결 제한 |
 | --- | --- | --- | --- | --- | --- |

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 05/20/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3a67c36b2594696e1c576693cc5808eb0227c1c7
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4a363ce72002003981f1bcbe46e0f5367f89860f
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83333490"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733478"
 ---
 # <a name="publish-datasets-and-reports-from-power-bi-desktop"></a>Power BI Desktop에서 데이터 세트 및 보고서 게시
 Power BI Desktop 파일을 Power BI 서비스에 게시하면 모델의 데이터가 Power BI 작업 영역에 게시됩니다. **보고서** 보기에서 만든 모든 보고서의 경우에도 마찬가지입니다. 작업 영역 탐색기에서 동일한 이름의 새 데이터 세트와 모든 보고서를 볼 수 있습니다.
@@ -49,5 +49,9 @@ Power BI Desktop 파일을 게시할 때 Power BI Desktop에서 만든 데이터
 * 열 또는 측정값의 이름을 변경하거나 삭제하는 경우, Power BI에서 해당 필드에 갖고 있던 모든 시각화가 손상될 수 있습니다. 
 * Power BI는 기존 열 형식의 일부 변경을 무시합니다. 예를 들어, 열 형식을 0.25%에서 25%로 변경한 경우입니다.
 * Power BI의 기존 데이터 세트에 대해 구성된 새로 고침 일정이 있다고 가정합니다. 파일에 새 데이터 원본을 추가한 후 다시 게시하는 경우, 다음 예약된 새로 고침 전에 해당 데이터 원본에 로그인해야 합니다.
-* Power BI Desktop에서 게시된 데이터 세트를 다시 게시하고 새로 고침 일정을 정의한 경우 다시 게시하는 즉시 데이터 세트 새로 고침이 시작됩니다. 
+* Power BI Desktop에서 게시된 데이터 세트를 다시 게시하고 새로 고침 일정을 정의한 경우 다시 게시하는 즉시 데이터 세트 새로 고침이 시작됩니다.
+* 데이터 세트를 변경한 후 다시 게시하면 변경 내용의 영향을 받을 수 있는 작업 영역, 보고서 및 대시보드 수를 보여 주고 현재 게시된 데이터 세트를 수정 내용으로 바꿀 것인지를 확인하는 메시지가 표시됩니다. 해당 메시지는 Power BI 서비스의 전체 데이터 세트 영향 분석 링크도 제공합니다. 여기서 자세한 정보를 확인하고 조치를 취하여 변경 위험을 완화할 수 있습니다.
 
+   ![데이터 세트 재게시의 영향에 대한 경고](media/desktop-upload-desktop-files/pbid-dataset-impact-analysis-desktop-warning.png)
+
+   [데이터 세트 영향 분석에 대해 자세히 알아보세요](../collaborate-share/service-dataset-impact-analysis.md).

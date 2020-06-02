@@ -1,22 +1,22 @@
 ---
-title: 다른 작업 영역의 데이터 세트를 기반으로 보고서 생성(미리 보기) - Power BI
+title: 다른 작업 영역의 데이터 세트를 기반으로 보고서 생성 - Power BI
 description: 조직 전체의 사용자와 데이터 세트를 공유하는 방법을 알아봅니다. 그런 다음, 자신의 작업 영역에서 데이터 세트를 기반으로 보고서를 빌드할 수 있습니다.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/03/2019
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: af8cab7403a0ee34505ff395248aec188fd54666
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 0e7574f9f1d3b4d6c818115af1f2cb4dcd7b8374
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83284730"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793018"
 ---
-# <a name="create-reports-based-on-datasets-from-different-workspaces-preview"></a>다른 작업 영역의 데이터 세트를 기반으로 보고서 생성(미리 보기)
+# <a name="create-reports-based-on-datasets-from-different-workspaces"></a>다른 작업 영역의 데이터 세트를 기반으로 보고서 생성
 
 다른 작업 영역의 데이터 세트를 기반으로 사용자 고유의 작업 영역에서 보고서를 만드는 방법을 알아봅니다. 기존 데이터 세트 위에 보고서를 빌드하기 위해 Power BI Desktop 또는 Power BI 서비스, 내 작업 영역 또는 [새 작업 영역 환경](../collaborate-share/service-create-the-new-workspaces.md)에서 시작할 수 있습니다.
 
@@ -61,5 +61,5 @@ ms.locfileid: "83284730"
 
 ## <a name="next-steps"></a>다음 단계
 
-- [작업 영역에서 데이터 세트 사용(미리 보기)](service-datasets-across-workspaces.md)
+- [작업 영역에서 데이터 세트 사용](service-datasets-across-workspaces.md)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

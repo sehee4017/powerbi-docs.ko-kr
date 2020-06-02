@@ -7,47 +7,53 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 753458b4db621fff5a4bba4aebb96543284013ff
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cd919c622ecb1e7906a8e352936c6b4d549ca691
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114108"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812817"
 ---
 # <a name="sign-in-to-power-bi-service"></a>Power BI 서비스에 로그인
 
-[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
 ## <a name="power-bi-accounts"></a>Power BI 계정
-Power BI에 로그인하기 전에 계정이 필요합니다. Power BI 계정을 가져오는 방법은 두 가지가 있습니다. 첫 번째는 회사가 직원을 위해 Power BI 라이선스를 구입한 경우입니다. 그리고 두 번째는 개인 평가판 체험 등록이나 개인 라이선스인 경우입니다. 이 문서는 첫 번째 시나리오를 다룹니다.
+Power BI에 로그인하기 전에 계정이 필요합니다. Power BI 계정을 가져오는 방법은 두 가지가 있습니다. 첫 번째는 조직이 직원을 위해 Power BI 라이선스를 구입한 경우입니다. 그리고 두 번째는 [개인이 평가판 또는 개인 라이선스에 등록](../fundamentals/service-self-service-signup-for-power-bi.md)한 경우입니다. 이 문서는 첫 번째 시나리오를 다룹니다.
 
 ## <a name="sign-in-for-the-first-time"></a>처음으로 로그인
 
-### <a name="step-1-open-a-browser"></a>1단계: 브라우저 열기
-Power BI 서비스는 브라우저에서 실행됩니다.  따라서 1단계는 즐겨찾는 브라우저를 열고 **app.powerbi.com**을 입력합니다.
+### <a name="step-1-open-the-power-bi-service"></a>1단계: Power BI 서비스 열기
+Power BI 서비스는 브라우저에서 실행됩니다. 
 
-![브라우저 필드 입력](media/end-user-sign-in/power-bi-sign-in.png)
+- 동료로부터 대시보드 또는 보고서에 대한 링크가 포함된 이메일을 받은 경우 해당 링크를 선택하여 **이 보고서 열기** 또는 **이 대시보드 열기**를 수행합니다.
+
+    ![브라우저 필드 입력](media/end-user-sign-in/power-bi-share.png)    
+
+- 또는 즐겨찾는 브라우저를 열고 **app.powerbi.com**을 입력합니다.
+
+    ![브라우저 필드 입력](media/end-user-sign-in/power-bi-sign-in.png)    
+
 
 ### <a name="step-2-type-your-email-address"></a>2단계: 이메일 주소 입력
-처음 로그인하면 이메일 주소를 입력하라는 메시지가 나타납니다.  이 이메일 주소는 Power BI에 등록하는 데 사용된 회사 또는 학교의 이메일 주소입니다.  
+처음 로그인하면 Microsoft는 사용자에게 이미 Microsoft 365 계정이 있는지 확인합니다. 아래 예제에서 Pradtanna는 다른 Microsoft 서비스에 대한 라이선스를 이미 보유하고 있습니다. 
 
-받은 편지함에서 Power BI 관리자가 보낸 이메일을 확인합니다. 대부분의 관리자는 임시 암호가 포함된 환영 이메일을 보냅니다. 로그인 시 이 이메일 계정을 사용합니다. 
+![로그인 화면](media/end-user-sign-in/power-bi-already.png)
 
-![브라우저 필드 입력](media/end-user-sign-in/power-bi-password.png)
+암호를 입력합니다. 이것은 Microsoft 365 계정 암호입니다. Outlook, Office 같은 다른 Microsoft 제품에 사용하는 것과 동일한 이메일 및 암호입니다.  계정이 설정된 방식에 따라 이메일 또는 모바일 디바이스로 전송된 코드를 입력하라는 메시지가 표시될 수도 있습니다.   
 
+![로그인 화면](media/end-user-sign-in/power-bi-pass.png)
 
+경우에 따라 전역 관리자가 라이선스를 할당하고 이 정보가 포함된 이메일을 보냅니다. 받은 편지함에서 환영 이메일을 확인하고 지침에 따라 처음으로 로그인합니다. 로그인 시 같은 이메일 계정을 사용합니다. 
  
-### <a name="step-3-create-a-new-password"></a>3단계: 새로운 암호 만들기
-Power BI 관리자가 임시 암호를 보낸 경우 **현재 암호** 필드에 암호를 입력합니다. 이 암호를 이메일로 받지 못한 경우 Power BI 관리자에게 문의하세요.
+### <a name="step-3-review-the-terms-and-conditions"></a>3단계: 사용 약관 검토
+사용 약관을 검토하여 동의하면 확인란을 선택하고 **시작**을 선택합니다.
 
-![로그인 필드에 입력한 이메일 주소](media/end-user-sign-in/power-bi-login.png)
+![사용 약관 화면](media/end-user-sign-in/power-bi-term.png)
 
-Power BI가 자격 증명을 기억할 수 있도록 하려면 **예**를 선택합니다. 
-
-![Power BI가 자격 증명을 기억하도록 할지를 결정합니다.](media/end-user-sign-in/power-bi-stay-signed-in.png)
 
 
 ### <a name="step-4-review-your-home-landing-page"></a>4단계: 홈 방문 페이지 검토
@@ -55,9 +61,9 @@ Power BI가 자격 증명을 기억할 수 있도록 하려면 **예**를 선택
 
 ![선택한 홈 방문 페이지를 보여주는 스크린샷](media/end-user-sign-in/power-bi-home-selected.png)
 
-홈 방문 페이지에는 사용 권한이 있는 모든 내용이 표시됩니다. 처음에는 많은 콘텐츠가 없을 수도 있지만 동료와 함께 Power BI를 사용할 때 변경되므로 걱정하지 않아도 됩니다. 
+홈 방문 페이지에는 사용 권한이 있는 모든 내용이 표시됩니다. 처음에는 많은 콘텐츠가 없을 수도 있지만 동료와 함께 Power BI를 사용할 때 변경되므로 걱정하지 않아도 됩니다. 동료가 이메일을 통해 보고서를 공유한 것을 기억하나요? 이 보고서는 홈 방문 페이지의 **공유한 항목** 아래에 있습니다.
 
-![홈 방문 페이지](media/end-user-sign-in/power-bi-home-landing.png)
+![홈 방문 페이지](media/end-user-sign-in/power-bi-home.png)
 
 Power BI가 홈 페이지를 열지 않도록 하려면 [**주요** 대시보드 혹은 보고서](end-user-featured.md)가 대신 열리도록 설정할 수 있습니다. 
 
@@ -66,14 +72,14 @@ Power BI가 홈 페이지를 열지 않도록 하려면 [**주요** 대시보드
 
 ![기본값 재설정 버튼](media/end-user-sign-in/power-bi-reset.png)
 
-## <a name="sign-out-of-power-bi-service"></a>Power BI 서비스에서 로그아웃
+## <a name="sign-out-of-the-power-bi-service"></a>Power BI 서비스 로그아웃
 Power BI를 닫거나 로그아웃하면 변경 내용이 저장되므로 중단한 위치를 바로 선택할 수 있습니다.
 
 Power BI를 닫으려면 작업 중인 브라우저 탭을 닫습니다. 
 
 ![탭을 닫으려면 x를 선택합니다.](media/end-user-sign-in/power-bi-close.png) 
 
-컴퓨터를 공유하는 경우 Power BI를 닫을 때마다 로그아웃하는 것이 좋습니다.  로그아웃하려면 오른쪽 위 모서리에서 프로필 사진을 선택하고 **로그아웃**을 선택합니다. 그렇지 않은 경우 작업이 완료되면 브라우저 탭을 닫습니다.
+컴퓨터를 공유하는 경우 Power BI를 닫을 때마다 로그아웃하는 것이 좋습니다.  로그아웃하려면 오른쪽 위 모서리에서 프로필 사진을 선택하고 **로그아웃**을 선택합니다.  
 
 ![프로필 선택](media/end-user-sign-in/power-bi-sign-out.png) 
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 119571e49b69ad6e3c6cfa0a7d3758912ebec0dc
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: d094e3411bd5b8bef9b4a8f488412d903723a703
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348117"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733557"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>동료 및 다른 사용자와 Power BI 대시보드 및 보고서 공유
 다른 사람에게 대시보드 및 보고서에 대한 액세스 권한을 부여하려면 *공유*를 사용하는 것이 좋습니다. Power BI는 [대시보드 및 보고서를 공동 작업하고 배포하는 여러 가지 다른 방법](service-how-to-collaborate-distribute-dashboards-reports.md)도 제공합니다.
@@ -127,7 +127,7 @@ Power BI 관리자는 외부 게스트 사용자가 조직의 콘텐츠를 편�
 * 대시보드를 공유받은 모든 사용자는 대시보드를 보고 [읽기용 보기](../consumer/end-user-reading-view.md#reading-view)에서 관련 보고서를 조작할 수 있습니다. 일반적으로, 보고서를 만들거나 기존 보고서에 변경 내용을 저장할 수는 없습니다. 그러나 **기본 데이터 세트를 사용하여 사용자의 새 콘텐츠 빌드를 허용**을 선택하는 경우 이 대시보드 또는 보고서의 데이터 세트를 기반으로 다른 작업 영역에서 사용자가 자체 보고서를 만들 수 있습니다.
 * 누구도 데이터 세트를 다운로드하거나 볼 수는 없지만, Excel에서 분석 기능을 사용하여 데이터 세트에 직접 액세스할 수 있습니다. 관리자는 그룹의 모든 사용자에 대해 Excel에서 분석을 사용하는 기능을 제한할 수 있습니다. 이때 제한은 해당 그룹의 모든 사용자와 해당 그룹이 속한 모든 작업 영역에 적용됩니다.
 * 모든 사용자는 수동으로 [데이터를 새로 고칠](../connect-data/refresh-data.md) 수 있습니다.
-* Office 365를 메일에 사용하는 경우 메일 그룹과 연결된 메일 주소를 입력하여 메일 그룹의 멤버와 공유할 수 있습니다.
+* Microsoft 365를 메일에 사용하는 경우 메일 그룹과 연결된 메일 주소를 입력하여 메일 그룹의 멤버와 공유할 수 있습니다.
 * 사용자의 메일 도메인을 공유하는 동료 및 도메인은 다르지만 동일한 테넌트에 등록된 동료는 다른 사용자와 대시보드를 공유할 수 있습니다. 예를 들어, contoso.com 및 contoso2.com 도메인이 동일한 테넌트에 등록되어 있고 메일 주소가 konrads@contoso.com이라고 가정합니다. ravali@contoso.com 및 gustav@contoso2.com에게 공유할 수 있는 권한을 부여한 경우, 해당 사용자가 사용자의 대시보드를 공유할 수 있습니다.
 * 동료가 특정 대시보드 또는 보고서에 이미 액세스할 수 있고 사용자가 해당 대시보드 또는 보고서에 있는 경우 URL을 복사하여 직접 링크를 보낼 수 있습니다. 예: `https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`.
 * 마찬가지로, 동료가 특정 대시보드에 대한 액세스 권한을 가진 경우 [기본 보고서의 직접 링크를 전송](service-share-reports.md)할 수 있습니다. 

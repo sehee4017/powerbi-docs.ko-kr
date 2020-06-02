@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 04/07/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 3f001c91c89b18b43c953669272b4d5be37dd154
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 2701765ce9d9a059016265049ddecf444a0640ea
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83135548"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83792953"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Power BI 서비스에 미국 정부 기관 등록
 
-[Office 365 정부 플랜](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans?rtc=1)의 일부로 Power BI 서비스 버전이 있습니다. 이 문서는 미국 정부 고객용으로 설계되었으며 여기에 설명된 등록 프로세스는 Power BI 서비스의 상용 버전과 다릅니다.
+[Microsoft 365 정부 플랜](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans?rtc=1)의 일부로 Power BI 서비스 버전이 있습니다. 이 문서는 미국 정부 고객용으로 설계되었으며 여기에 설명된 등록 프로세스는 Power BI 서비스의 상용 버전과 다릅니다.
 
 미국 정부 기관용 Power BI 서비스에 대한 자세한 내용은 [미국 정부 기관 고객용 Power BI - 개요](service-govus-overview.md)를 참조하세요.
 
@@ -29,19 +29,19 @@ ms.locfileid: "83135548"
 
 ## <a name="select-the-right-sign-up-process-for-your-us-government-organization"></a>미국 정부 기관에 적합한 등록 프로세스 선택
 
-미국 정부 기관에서 정부 클라우드 커뮤니티를 처음 사용하거나 구독이 이미 있을 수 있습니다. 다음 섹션에서는 Office 365 정부 플랜 및 Power BI에서의 위치에 따라 등록 단계를 자세히 설명합니다. 단계는 현재 등록에 따라 달라집니다.
+미국 정부 기관에서 정부 클라우드 커뮤니티를 처음 사용하거나 구독이 이미 있을 수 있습니다. 다음 섹션에서는 Microsoft 365 정부 플랜 및 Power BI에서의 위치에 따라 등록 단계를 자세히 설명합니다. 단계는 현재 등록에 따라 달라집니다.
 
 Power BI 미국 정부 기관에 등록한 후에는 계정 팀과 협력하여 이 문서에 설명된 [*허용 목록 작성* 프로세스](#additional-signup-information)를 시작합니다. 해당 단계는 정부 커뮤니티 클라우드에서 조직을 완전히 사용하도록 설정하는 데 필요합니다.
 
-## <a name="sign-up-for-a-new-office-365-government-plan"></a>새 Office 365 정부 플랜에 등록
+## <a name="sign-up-for-a-new-microsoft-365-government-plan"></a>새 Microsoft 365 정부 플랜에 등록
 
-조직이 정부 클라우드 커뮤니티를 처음 접하는 경우 다음 단계에 따라 Office 365 정부 플랜을 가져옵니다.
+조직이 정부 클라우드 커뮤니티를 처음 접하는 경우 다음 단계에 따라 Microsoft 365 정부 플랜을 가져옵니다.
 
 > [!NOTE]
 > 전역 관리자가 다음 단계를 수행해야 합니다.
 >
 
-1. [Office 365 정부 플랜](https://products.office.com/government/office-365-web-services-for-government)으로 이동합니다.
+1. [Microsoft 365 정부 플랜](https://products.office.com/government/office-365-web-services-for-government)으로 이동합니다.
 2. **무료 평가판 시작**을 선택합니다.
 3. 양식을 작성하여 조직에 대해 알려줍니다. 드롭다운을 사용하여 조직 유형을 선택합니다.
 
@@ -49,11 +49,11 @@ Power BI 미국 정부 기관에 등록한 후에는 계정 팀과 협력하여 
 
 4. 양식을 제출하여 온보딩 프로세스를 시작합니다. Microsoft 담당자나 파트너가 모든 질문에 도움을 드릴 수 있습니다.
 
-이 프로세스가 완료되면 기존 Office 365 정부 고객의 단계에 따라 Power BI 구독을 추가합니다.
+이 프로세스가 완료되면 기존 Microsoft 365 정부 고객용 단계에 따라 Power BI 구독을 추가합니다.
 
-## <a name="add-power-bi-to-an-office-365-government-plan"></a>Office 365 정부 플랜에 Power BI 추가
+## <a name="add-power-bi-to-a-microsoft-365-government-plan"></a>Microsoft 365 정부 플랜에 Power BI 추가
 
-조직에 이미 Office 365 정부 플랜이 있는 경우 다음 단계에 따라 Power BI 구독을 추가합니다.
+조직에 이미 Microsoft 365 정부 플랜이 있는 경우 다음 단계에 따라 Power BI 구독을 추가합니다.
 
 > [!NOTE]
 > 전역 관리자가 다음 단계를 수행해야 합니다.

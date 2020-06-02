@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/16/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 892414704592347af81ed29763a4d6a34bb12c0f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 189710c613c7d48f76ee0bb23a430ac4d9908c74
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83133464"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83792857"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI 프리미엄 FAQ
 
@@ -41,7 +41,7 @@ Power BI 프리미엄은 용량 기반 라이선스인 반면, Power BI Pro는 �
 * 개인 대시보드 만들기(새 대시보드에 고정)
 * Excel 또는 Power BI Desktop에서 데이터 분석
 * Excel Web App 지원과 공유
-* 대시보드 공유 및 Office 365 그룹과 공동 작업
+* 대시보드 공유 및 Microsoft 365 그룹과 공동 작업
 * Microsoft 팀과 함께 콘텐츠 통합
 
 **Power BI 프리미엄을 사용하기 위해서는 Power BI Pro가 필요합니까?**  

@@ -6,19 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/27/2020
+ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 721479910a430bb04dc6404936b37fbb00a2c5a8
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: cbc89e5f428e13cce35a1d293752091958d82496
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83361983"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83813833"
 ---
 # <a name="sign-up-for-the-power-bi-service-as-an-individual"></a>개별적으로 Power BI 서비스에 가입
 
-Power BI는 개인 데이터 분석 및 시각화 도구가 될 수 있으며 그룹 프로젝트, 사업부 또는 회사 전체의 분석 및 의사 결정 엔진 역할도 할 수 있습니다. 이 문서에서는 개인으로 Power BI에 등록하는 방법을 설명합니다. Power BI 관리자 또는 글로벌 관리자인 경우 [Azure Active Directory의 관리자 역할 권한](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)을 참조하세요.
+Power BI는 개인 데이터 분석 및 시각화 도구가 될 수 있으며 그룹 프로젝트, 사업부 또는 회사 전체의 분석 및 의사 결정 엔진 역할도 할 수 있습니다. 이 문서에서는 개인으로 Power BI에 등록하는 방법을 설명합니다. 전역 관리자 또는 대금 청구 관리자인 경우 [조직의 Power BI 라이선스](../admin/service-admin-licensing-organization.md)를 참조하세요.
 
 ## <a name="what-is-power-bi"></a>Power BI란?
 Power BI는 직관적인 사용자 환경과 인텔리전트 데이터 시각화를 결합하여 더 심층적인 데이터 인사이트를 제공하는 통합 셀프 서비스 및 엔터프라이즈 비즈니스 인텔리전스 플랫폼입니다. 보고서는 Microsoft 도구(예: Teams, SharePoint, PowerPoint) 또는 다른 생산성 제품 내에서 공유할 수 있습니다. 이 제품은 두 개의 관련 애플리케이션이 포함된 온라인 SaaS(Software as a Service) 제품으로 제공됩니다. 하나는 보고서를 만들기 위한 Power BI Desktop이라는 Microsoft Windows 데스크톱 애플리케이션이며, 다른 하나는 iOS 및 Android 디바이스에서 보고서를 사용하기 위한 네이티브 모바일 BI 앱입니다. 
@@ -74,7 +74,7 @@ Power BI 계정에 등록하려면 다음 단계를 수행합니다. 이 프로�
 
        ![시작](media/service-self-service-signup-for-power-bi/power-bi-did-you.png)
    
-    - 다음과 같은 메시지가 표시되면 사용 약관에 동의합니다.
+    - 다음과 같은 메시지가 표시되면 사용 약관을 검토합니다. 동의하면 **시작**을 선택합니다. 
 
         ![시작](media/service-self-service-signup-for-power-bi/power-bi-almost.png)
 
@@ -91,7 +91,7 @@ Power BI 계정에 처음 로그인하는 것을 축하합니다! 이제 평가�
 
 ![Power BI 평가판 대화 상자](media/service-self-service-signup-for-power-bi/power-bi-start-trial.png)    
 
-<sup>2</sup> 일부 조직에서는 기본 Power BI 계정이 Power BI **Pro** 라이선스일 수 있습니다. 예를 들어 일부 Office 365 버전에는 Power BI Pro 라이선스가 포함되어 있습니다. 사용자 라이선스를 조회하는 방법을 알아보려면 [내가 보유한 라이선스는 무엇인가요?](../consumer/end-user-license.md)를 참조하세요.
+<sup>2</sup> 일부 조직에서는 기본 Power BI 계정이 Power BI **Pro** 라이선스일 수 있습니다. 예를 들어 일부 버전의 Microsoft 365에는 Power BI Pro 라이선스가 포함되어 있습니다. 사용자 라이선스를 조회하는 방법을 알아보려면 [내가 보유한 라이선스는 무엇인가요?](../consumer/end-user-license.md)를 참조하세요.
 
 
 
@@ -111,14 +111,14 @@ Power BI(무료) 라이선스가 충분한 경우에는 다른 작업을 수행�
 
 | 증상/오류 메시지 | 원인 및 해결 방법 |
 | ----------------------- | -------------------- |
-| <strong>개인 메일 주소(예: nancy@gmail.com)</strong> 등록 중에 다음과 유사한 메시지를 받게 됩니다. <br /><br /> ‘개인 메일 주소를 입력했습니다.  귀사의 데이터를 안전하게 저장할 수 있도록 업무용 메일 주소를 입력하세요.’ <br /><br /> 또는 <br /><br /> *개인 메일 주소인 것 같습니다. 회사의 다른 사람과 연결할 수 있도록 회사 주소를 입력하세요. 걱정하지 마세요. 사용자의 주소를 공유하지 않습니다.* | Power BI는 소비자 메일 서비스나 전자 통신 공급자가 제공하는 메일 주소를 지원하지 않습니다. <br /><br /> 등록을 완료하려면 회사 또는 학교에서 할당한 메일 주소를 사용하여 다시 시도하세요. <br /><br /> 여전히 등록할 수 없고 보다 고급 설치 프로세스를 완료하려면 [새 Office 365 무료 평가판 구독을 등록하고 해당 전자 메일 주소를 사용하여 등록](../admin/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)하면 됩니다. <br /><br /> 기존 사용자를 [게스트로 초대](../admin/service-admin-azure-ad-b2b.md)할 수도 있습니다. |
-| **셀프 서비스 등록 사용 안 함**: 등록 중에 다음과 같은 메시지를 받게 됩니다. <br /><br /> *등록하면 완료할 수 없습니다. IT 부서에서 Microsoft Power BI에 대한 등록을 해제했습니다. 연락하여 등록을 완료합니다.* <br /><br /> | 조직의 [글로벌 관리자](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles.md)가 Power BI에 대한 셀프 서비스 가입을 사용하지 않도록 설정했습니다. <br /><br /> 가입을 완료하려면 글로벌 관리자에게 문의하여 [지침에 따라 가입을 사용하도록 설정](../admin/service-admin-disable-self-service.md)하세요. <br/><br/> 파트너를 통해 Office 365에 등록한 경우에도 이 문제가 발생할 수 있습니다. 이 경우 Office 365 제공을 담당하는 조직에 문의하세요. |
-| **메일 주소는 Office 365 ID가 아님** 등록 중에 다음과 같은 메시지를 받게 됩니다. <br /><br /> *contoso.com에서 사용자를 찾을 수 없습니다.  회사 또는 학교에서 다른 ID를 사용하나요? <br /><br /> 로그인을 시도했으나 작동하지 않는 경우 IT 부서에 문의합니다.* | 조직에서 전자 메일 주소와 다른 ID를 사용하여 Office 365 및 기타 Microsoft 서비스에 로그인합니다.  예를 들어 전자 메일 주소는 Nancy.Smith@contoso.com이지만 ID는 nancys@contoso.com입니다. <br /><br /> 등록을 완료하려면 Office 365 또는 다른 Microsoft 서비스에 로그인하기 위해 조직에서 할당받은 ID를 사용합니다.  이에 대해 잘 모르는 경우 글로벌 관리자에게 문의하세요. <br /><br /> 여전히 등록할 수 없고 보다 고급 설치 프로세스를 완료하려면 [새 Office 365 무료 평가판 구독을 등록하고 해당 전자 메일 주소를 사용하여 등록](../admin/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)하면 됩니다. |
+| <strong>개인 메일 주소(예: nancy@gmail.com)</strong> 등록 중에 다음과 유사한 메시지를 받게 됩니다. <br /><br /> ‘개인 메일 주소를 입력했습니다. 귀사의 데이터를 안전하게 저장할 수 있도록 업무용 메일 주소를 입력하세요.’ <br /><br /> 또는 <br /><br /> *개인 메일 주소인 것 같습니다. 회사의 다른 사람과 연결할 수 있도록 회사 주소를 입력하세요. 걱정하지 마세요. 사용자의 주소를 공유하지 않습니다.* | Power BI는 소비자 메일 서비스나 전자 통신 공급자가 제공하는 메일 주소를 지원하지 않습니다. <br /><br /> 등록을 완료하려면 회사 또는 학교에서 할당한 메일 주소를 사용하여 다시 시도하세요. <br /><br /> 여전히 등록할 수 없고 보다 고급 설치 프로세스를 완료하려면 [새 Office 365 무료 평가판 구독을 등록하고 해당 전자 메일 주소를 사용하여 등록](../admin/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)하면 됩니다. <br /><br /> 기존 사용자를 [게스트로 초대](../admin/service-admin-azure-ad-b2b.md)할 수도 있습니다. |
+| **셀프 서비스 등록 사용 안 함**: 등록 중에 다음과 같은 메시지를 받게 됩니다. <br /><br /> *등록하면 완료할 수 없습니다. IT 부서에서 Microsoft Power BI에 대한 등록을 해제했습니다. 연락하여 등록을 완료합니다.* <br /><br /> | 조직의 [글로벌 관리자](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles.md)가 Power BI에 대한 셀프 서비스 가입을 사용하지 않도록 설정했습니다. <br /><br /> 가입을 완료하려면 글로벌 관리자에게 문의하여 [지침에 따라 가입을 사용하도록 설정](../admin/service-admin-disable-self-service.md)하세요. <br/><br/> 파트너를 통해 Microsoft 365에 등록한 경우에도 이 문제가 발생할 수 있습니다. 이 경우 Microsoft 365 제공을 담당하는 조직에 문의하세요. |
+| **메일 주소는 Microsoft 365 ID가 아님** 등록 중에 다음과 같은 메시지를 받게 됩니다. <br /><br /> *contoso.com에서 사용자를 찾을 수 없습니다.  회사 또는 학교에서 다른 ID를 사용하나요? <br /><br /> 로그인을 시도했으나 작동하지 않는 경우 IT 부서에 문의합니다.* | 조직에서 전자 메일 주소와 다른 ID를 사용하여 Microsoft 365 및 기타 Microsoft 서비스에 로그인합니다.  예를 들어 전자 메일 주소는 Nancy.Smith@contoso.com이지만 ID는 nancys@contoso.com입니다. <br /><br /> 등록을 완료하려면 Microsoft 365 또는 다른 Microsoft 서비스에 로그인하기 위해 조직에서 할당받은 ID를 사용합니다.  이에 대해 잘 모르는 경우 글로벌 관리자에게 문의하세요. <br /><br /> 여전히 등록할 수 없고 보다 고급 설치 프로세스를 완료하려면 [새 Office 365 무료 평가판 구독을 등록하고 해당 전자 메일 주소를 사용하여 등록](../admin/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md)하면 됩니다. |
 Power BI 로그인에서 암호를 인식하지 못합니다.  |  몇 번 시도하는 경우도 있습니다. 암호를 여러 번 다시 시도했지만 여전히 로그인할 수 없는 경우 Incognito(Chrome) 또는 InPrivate(Edge) 모드에서 브라우저를 실행해 보세요.
 
 ## <a name="next-steps"></a>다음 단계
 
-[Power BI Pro 구매](../admin/service-admin-purchasing-power-bi-pro.md)  
-[개별 사용자에 대한 Power BI 서비스 규약](https://powerbi.microsoft.com/terms-of-service/)  
+[라이선스 유형별 Power BI 기능](../consumer/end-user-features.md)    
+[도움말 찾기 팁](../fundamentals/service-tips-for-finding-help.md)    
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

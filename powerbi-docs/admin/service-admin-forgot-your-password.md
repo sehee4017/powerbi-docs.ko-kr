@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/13/2019
 ms.author: kfollis
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 7f5f24273b05666098376a2ef04a5dcaada6461b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: b2743fee2c681f0923d243304ea8f44b45ee3e17
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83139819"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812150"
 ---
 # <a name="forgot-your-password-for-power-bi"></a>Power BI 암호를 잊은 경우
 
@@ -22,7 +22,7 @@ ms.locfileid: "83139819"
 
 <https://passwordreset.microsoftonline.com>
 
-계정에서 암호 재설정이 설정되지 않은 경우 Office 365 관리자에게 문의하세요. 무료 평가판을 사용하는 경우 조직에서 가장 먼저 등록한 사람이 관리자입니다.
+계정에서 암호 재설정이 설정되지 않은 경우 관리자에게 문의하세요. 무료 평가판을 사용하는 경우 조직에서 가장 먼저 등록한 사람이 관리자입니다.
 
 여전히 계정 액세스에 문제가 발생하는 경우 암호를 다시 설정하기 위해 고객 지원 팀에 문의할 수 있습니다.
 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b0ee72fdfdf504537073b0de22e5c386ca2572ad
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 8e991a8696ac35ed0a7d4b448bb4dd83d9a19c42
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83327947"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793449"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI에서 실시간 스트리밍
 Power BI 실시간 스트리밍을 사용하여 실시간으로 데이터를 스트리밍하고 대시보드를 업데이트할 수 있습니다. Power BI에서 만들 수 있는 시각적 개체 또는 대시보드를 실시간 데이터 및 시각적 개체를 표시하고 업데이트하도록 만들 수도 있습니다. 스트리밍 데이터의 디바이스 및 원본은 공장 센서, 소셜 미디어 원본, 서비스 사용 메트릭 및 시간이 중요한 데이터가 수집되거나 전송되는 모든 것일 수 있습니다.
@@ -52,7 +52,7 @@ Power BI 실시간 스트리밍을 사용하여 실시간으로 데이터를 스
 실제로 스트리밍 데이터 세트와 동반하는 스트리밍 시각적 개체는 데이터가 푸시될 때와 시각화될 때 사이의 대기 시간을 최소화하는 것이 중요한 상황에 최적화되어 있습니다. 또한 어떠한 추가 집계 없이 있는 그대로 시각화할 수 있는 형식으로 푸시된 데이터를 갖는 것이 최상의 방법입니다. 있는 그대로 준비되는 데이터의 예에는 온도 및 미리 계산된 평균이 있습니다.
 
 ### <a name="pubnub-streaming-dataset"></a>PubNub 스트리밍 데이터 세트
-**PubNub** 스트리밍 데이터 세트를 사용하면 Power BI 웹 클라이언트는 PubNub SDK를 사용하여 기존 PubNub 데이터 스트림을 읽으며, Power BI 서비스에서 저장하는 데이터가 없습니다. 이 호출은 웹 클라이언트에서 직접 수행되므로 네트워크에서 허용 목록에 포함된 아웃바운드 트래픽만 허용하는 경우 PubNub에 대한 트래픽 허용 목록을 작성해야 합니다. [PubNub용 아웃바운드 트래픽 허용 목록 작성](https://support.pubnub.com/support/solutions/articles/14000043522-can-i-whitelist-ips-for-pubnub-traffic-)에 대한 지원 문서의 지침을 참조하세요.
+**PubNub** 스트리밍 데이터 세트를 사용하면 Power BI 웹 클라이언트는 PubNub SDK를 사용하여 기존 PubNub 데이터 스트림을 읽으며, Power BI 서비스에서 저장하는 데이터가 없습니다. 이 호출은 웹 클라이언트에서 직접 수행되므로 네트워크에서 허용 목록에 포함된 아웃바운드 트래픽만 허용한 경우 PubNub에 대한 트래픽 허용 목록을 작성해야 합니다. [PubNub용 아웃바운드 트래픽 허용 목록 작성](https://support.pubnub.com/support/solutions/articles/14000043522-can-i-whitelist-ips-for-pubnub-traffic-)에 대한 지원 문서의 지침을 참조하세요.
 
 **스트리밍 데이터 세트**와 마찬가지로, **PubNub 스트리밍 데이터 세트**를 사용하면 Power BI에 기본 데이터베이스가 없으므로 스트림에서 유입되는 데이터를 사용하여 보고서 시각적 개체를 만들 수 없으며 필터링, Power BI 시각적 개체 등과 같은 보고서 기능의 장점을 활용할 수 없습니다. 이와 같이 **PubNub 스트리밍 데이터 세트**는 또한 대시보드에 타일을 추가하고 PubNub 데이터 스트림을 원본으로 구성하는 방법으로만 시각화할 수 있습니다.
 
@@ -215,7 +215,7 @@ Power BI에서 실시간 스트리밍이 작동되는 방법에 대한 간단한
 푸시 데이터 세트의 경우 스키마에 타임 스탬프를 가지고 있다고 가정하여 마지막 N 필터를 사용하여 보고서 시각적 개체 만들기를 시도할 수 있습니다.
 
 #### <a name="can-i-connect-to-push-or-streaming-datasets-in-power-bi-desktop"></a>Power BI Desktop의 푸시 또는 스트리밍 데이터 세트에 연결할 수 있나요?
-아쉽게도 현재는 사용할 수 없습니다.
+푸시 및 하이브리드 데이터 세트는 Power BI Desktop에서 라이브 연결될 수 있지만 다른 스트리밍 데이터 세트는 Power BI Desktop에 연결할 수 없습니다.
 
 #### <a name="given-the-previous-question-how-can-i-do-any-modeling-on-real-time-datasets"></a>이전 질문을 고려해 볼 때, 실시간 데이터 세트에 관한 모델링을 하려면 어떻게 해야 하나요?
 데이터가 영구적으로 저장되지 않으므로 모델링은 스트리밍 데이터 세트에서 불가능합니다. 푸시 데이터 세트의 경우 데이터 세트/테이블 REST API 업데이트를 사용하여 측정값 및 관계를 추가할 수 있습니다. 

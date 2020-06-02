@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/31/2020
+ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 87b4be55b1b811f63dbb7fe271bc3c3fa4af2755
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 42e3f36689e62b196f5d8cb82bd4dd5ee118bf8b
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347427"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793397"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>향상된 데이터 세트 메타데이터 사용(미리 보기)
 
@@ -42,6 +42,23 @@ Power BI Desktop를 다시 시작하라는 메시지가 표시됩니다.
 > [!IMPORTANT]
 > **향상된 데이터 세트 메타데이터** 기능을 사용하도록 설정하면 보고서가 업그레이드되며 이는 되돌릴 수 없습니다. **향상된 데이터 세트 메타데이터**가 설정되면 Power BI Desktop을 사용하여 로드하거나 만든 모든 Power BI 보고서는 향상된 데이터 세트 메타데이터 형식으로 변환됩니다.
 
+## <a name="report-backup-files"></a>보고서 백업 파일
+
+**향상된 데이터 세트 메타데이터** 기능을 사용하도록 보고서를 업데이트하는 경우 취소할 수 없습니다. 그러나 업데이트를 수행하는 동안 보고서를 원래(업데이트 이전) 형식의 버전으로 저장하기 위해 보고서 백업 파일이 생성됩니다. 이 백업 파일은 30일 후에 제거됩니다. 
+
+백업 보고서 파일을 찾으려면 다음을 수행합니다.
+
+1. 다음 위치로 이동합니다. ```C:\Users\<user>\AppData\Local\Microsoft\Power BI Desktop\TempSaves\Backup```. Microsoft Store 버전의 Power BI Desktop을 사용하는 경우 다음 위치를 사용합니다. ```C:\Users\<user>\Microsoft\Power BI Desktop Store App\TempSaves\Backups``` 
+
+2. 여기에서 원본 파일의 이름 및 타임스탬프로 보고서의 복사본을 찾습니다.
+
+3. 파일을 유지하려면 원하는 위치에 파일을 복사합니다.
+
+4. 원본 파일을 열거나 사용하려는 경우 Power BI Desktop에서 **향상된 메타데이터 형식** 미리 보기 기능을 사용하지 않도록 설정했는지 확인합니다. 
+
+보고서를 업그레이드할 때 백업 파일이 만들어지므로 업그레이드 이후 변경된 내용은 포함되지 않습니다. **향상된 메타데이터 형식** 기능이 사용하도록 설정된 상태에서 생성되는 새 보고서는 백업 파일이 없습니다.
+
+
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 
 미리 보기 버전에서는 미리 보기 기능을 사용할 수 있는 경우 다음 제한 사항이 적용됩니다.
@@ -49,6 +66,7 @@ Power BI Desktop를 다시 시작하라는 메시지가 표시됩니다.
 ### <a name="unsupported-features-and-connectors"></a>지원되지 않는 기능 및 커넥터
 업그레이드되지 않은 기존 PBIX 또는 PBIT 파일을 열 때 데이터 세트에 다음 기능 또는 커넥터가 포함되어 있으면 업그레이드에 실패합니다. 해당 오류가 발생하는 경우 사용자 환경에 즉각적인 영향을 미치지 않으며 Power BI Desktop은 이전 메타데이터 형식을 계속 사용합니다.
 
+* 모든 사용자 지정 커넥터
 * Python 스크립트
 * 사용자 지정 커넥터
 * Azure DevOps Server
@@ -66,7 +84,16 @@ Power BI Desktop를 다시 시작하라는 메시지가 표시됩니다.
 * 열 이름에 “\\n”과 같은 특정 문자 조합을 포함하는 M 식
 * **향상된 데이터 세트 메타데이터** 기능이 사용하도록 설정된 데이터 세트를 사용하는 경우 Power BI 서비스에서 SSO(Single Sign On) 데이터 원본을 설정할 수 없습니다.
 
-또한 **향상된 데이터 세트 메타데이터**를 사용하도록 아직 업그레이드되지 않은 PBIX 및 PBIT 파일은 현재 버전에서 위의 기능 또는 커넥터를 ‘사용할 수 없습니다’. 
+위에 나열된 커넥터를 사용하는 보고서는 새 형식으로 업그레이드되지 않습니다. 이미 업그레이드되었거나 이 새로운 기능이 설정된 이후에 만들어진 보고서는 나열된 지원되지 않는 기능 또는 커넥터를 추가하는 것을 지원하지 않습니다. 
+
+동적 데이터 원본을 사용하는 쿼리는 지원되지 않습니다. 동적 데이터 원본을 포함하는 보고서는 새 형식으로 업그레이드되지 않으며, 이미 업그레이드되었거나 이 기능이 설정된 상태에서 새로 만들어진 보고서는 동적 데이터 원본 추가를 지원하지 않습니다. 원본이 매개 변수, 함수 입력 또는 휘발성 함수에 따라 변경되는 경우 쿼리는 동적 데이터 원본을 가집니다. 
+
+업스트림 단계 또는 분기에서 오류가 발생한 쿼리는 지원되지 않습니다. 
+
+또한 **향상된 데이터 세트 메타데이터**를 사용하도록 아직 업그레이드되지 않은 PBIX 및 PBIT 파일은 현재 버전에서 위의 기능 또는 커넥터를 ‘사용할 수 없습니다’.
+
+
+
 
 ### <a name="lineage-view"></a>계보 보기
 새 메타데이터 형식을 사용하는 데이터 세트에는 현재 Power BI 서비스의 계보 보기에 있는 데이터 흐름에 대한 링크가 표시되지 않습니다.

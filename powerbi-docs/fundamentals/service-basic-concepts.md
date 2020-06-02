@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 0620ca7373f247cf5475f43ddaceb69ded60bc59
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: bcd5713b2ee7f053448718bc5dd93c24b0d53de6
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83358441"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83813879"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Power BI 서비스의 디자이너를 위한 기본 개념
 
@@ -29,7 +29,7 @@ ms.locfileid: "83358441"
 브라우저에서 Power BI 서비스를 열면 홈 화면에서 시작합니다. 표시될 수 있는 요소는 다음과 같습니다.
 
 1. 탐색 창
-2. Office 365 앱 시작 관리자
+2. Microsoft 365 앱 시작 관리자
 3. Power BI 홈 단추
 4. 아이콘 단추(설정, 도움말 및 피드백 포함)
 5. 검색 상자
@@ -55,12 +55,12 @@ Power BI의 다섯 가지 주요 구성 요소는 *대시보드*, *보고서*, *
 ## <a name="workspaces"></a>작업 영역
 작업 영역은 용량에 생성됩니다. 기본적으로, 작업 영역은 Power BI의 대시보드, 보고서, 통합 문서, 데이터 세트 및 데이트 흐름의 컨테이너입니다.
 
-작업 영역에는 다음과 같은 두 종류가 있습니다. ‘내 작업 영역’ 및 ‘작업 영역’.  
+작업 영역에는 다음과 같은 두 종류가 있습니다. ‘내 작업 영역’ 및 ‘작업 영역’. 
 
 - *내 작업 영역*은 Power BI 고객이 콘텐츠를 작업하는 개인적인 작업 영역입니다. 내 작업 영역에는 본인만 액세스할 수 있습니다. 내 작업 영역에서 대시보드 및 보고서를 공유할 수 있습니다. 대시보드 및 보고서를 협업하거나 앱을 만들려는 경우 작업 영역에서 작업해야 합니다.      
--  ‘작업 영역’은 동료들과 콘텐츠를 공유하고 협업하는 데 사용됩니다.  작업 영역에 동료를 추가하고 대시보드, 보고서, 통합 문서 및 데이터 세트를 협업할 수 있습니다. 한 가지 예외를 제외하고, 모든 작업 영역 구성원에게 Power BI Pro 라이선스가 있어야 합니다. [새 작업 영역](../collaborate-share/service-create-the-new-workspaces.md)에 대해 자세히 알아보세요. 
+-  ‘작업 영역’은 동료들과 콘텐츠를 공유하고 협업하는 데 사용됩니다. 작업 영역에 동료를 추가하고 대시보드, 보고서, 통합 문서 및 데이터 세트를 협업할 수 있습니다. 한 가지 예외를 제외하고, 모든 작업 영역 구성원에게 Power BI Pro 라이선스가 있어야 합니다. [새 작업 영역](../collaborate-share/service-create-the-new-workspaces.md)에 대해 자세히 알아보세요. 
 
-    작업 영역은 조직을 위한 ‘앱’을 만들어 게시하고 관리하는 공간이기도 합니다.  작업 영역은 Power BI 앱을 구성할 콘텐츠를 위한 준비 영역이자 컨테이너라고 생각하면 됩니다. 그렇다면 *앱*이란 무엇일까요? 앱은 조직의 Power BI 소비자에게 주요 메트릭을 제공하도록 빌드된 대시보드 및 보고서의 컬렉션입니다. 앱은 대화형이지만 소비자가 편집할 수는 없습니다. 앱에 대한 액세스 권한이 있는 동료인 앱 소비자는 Pro 라이선스가 반드시 필요하지는 않습니다.  
+    작업 영역은 조직을 위한 ‘앱’을 만들어 게시하고 관리하는 공간이기도 합니다. 작업 영역은 Power BI 앱을 구성할 콘텐츠를 위한 준비 영역이자 컨테이너라고 생각하면 됩니다. 그렇다면 *앱*이란 무엇일까요? 앱은 조직의 Power BI 소비자에게 주요 메트릭을 제공하도록 빌드된 대시보드 및 보고서의 컬렉션입니다. 앱은 대화형이지만 소비자가 편집할 수는 없습니다. 앱에 대한 액세스 권한이 있는 동료인 앱 소비자는 Pro 라이선스가 반드시 필요하지는 않습니다.  
 
 일반적으로 공유하는 방법에 대해 자세히 알아보려면 [작업에서 대시보드를 공유하는 방법](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md)부터 시작하세요.
 
@@ -69,7 +69,7 @@ Power BI의 다섯 가지 주요 구성 요소는 *대시보드*, *보고서*, *
 ## <a name="dataflows"></a>데이터 흐름
 조직에서 *데이터 흐름*을 사용하여 서로 다른 원본의 데이터를 통합할 수 있습니다. 데이터 흐름은 선택 사항이며, 복잡하거나 큰 프로젝트에서 자주 사용됩니다. 데이터 흐름은 데이터 세트에서 사용하기 위해 준비된 데이터를 나타냅니다. 그러나 보고를 위한 원본으로 데이터 흐름을 직접 사용할 수는 없습니다. 데이터 흐름은 Microsoft 데이터 커넥터의 광범위한 컬렉션을 활용하여 온-프레미스 및 클라우드 기반 데이터 원본에서 데이터를 수집할 수 있도록 합니다.
 
-데이터 흐름은 작업 영역(‘내 작업 영역’ 아님)에서만 만들어지고 관리되며, Azure Data Lake Storage Gen2의 CDM(Common Data Model)에 엔터티로 저장됩니다.  일반적으로 최신 데이터를 저장하기 위해 반복적으로 새로 고치도록 예약됩니다. 데이터 세트에서 사용하고 잠재적으로 다시 사용할 데이터를 준비하는 데 적합합니다. 자세한 내용은 [Power BI의 셀프 서비스 데이터 준비](../transform-model/service-dataflows-overview.md) 문서를 참조하세요.
+데이터 흐름은 작업 영역(‘내 작업 영역’ 아님)에서만 만들어지고 관리되며, Azure Data Lake Storage Gen2의 CDM(Common Data Model)에 엔터티로 저장됩니다. 일반적으로 최신 데이터를 저장하기 위해 반복적으로 새로 고치도록 예약됩니다. 데이터 세트에서 사용하고 잠재적으로 다시 사용할 데이터를 준비하는 데 적합합니다. 자세한 내용은 [Power BI의 셀프 서비스 데이터 준비](../transform-model/service-dataflows-overview.md) 문서를 참조하세요.
 
 데이터가 없는 대시보드나 보고서를 가질 수 없으므로(빈 대시보드와 빈 보고서가 있을 수 있지만 데이터가 있어야 유용함) **데이터 세트**를 소개하겠습니다.
 
@@ -228,8 +228,8 @@ Power BI에서는 통합 문서를 편집할 수 없습니다. 하지만 일부 
 
 ![데이터 분류 아이콘](media/service-basic-concepts/power-bi-title.png)
 
-### <a name="6-office-365-app-launcher"></a>6. **Office 365 앱 시작 관리자**
-앱 시작 관리자에서 모든 Office 365 앱을 한 번의 클릭으로 쉽게 사용할 수 있습니다. 여기에서 이메일, 문서, 일정 등을 빠르게 시작할 수 있습니다.
+### <a name="6-microsoft-365-app-launcher"></a>6. **Microsoft 365 앱 시작 관리자**
+앱 시작 관리자에서 모든 Microsoft 365 앱을 한 번의 클릭으로 쉽게 사용할 수 있습니다. 여기에서 이메일, 문서, 일정 등을 빠르게 시작할 수 있습니다.
 
 ![Office 앱 시작 관리자](media/service-basic-concepts/power-bi-waffle.png)
 

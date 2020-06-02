@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/22/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: d7fc915c9c21460670bf86f308b756196886983a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: d70262908df5568066533d1b638c7a1495a3f30b
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83132048"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733235"
 ---
 # <a name="data-protection-in-power-bi-preview"></a>Power BI의 데이터 보호(미리 보기)
 
@@ -23,7 +23,7 @@ ms.locfileid: "83132048"
 
 Power BI에서 데이터 보호를 사용하면 다음을 수행할 수 있습니다.
 
-* Microsoft 민감도 레이블을 사용하여 Office 365에서 파일을 분류하고 보호하는 데 사용되는 것과 동일한 분류법으로 Power BI 서비스(대시보드, 보고서, 데이터 세트 및 데이터 흐름)의 콘텐츠를 분류하고 레이블을 추가합니다. 
+* Microsoft 민감도 레이블을 사용하여 Microsoft 365에서 파일을 분류하고 보호하는 데 사용되는 것과 동일한 분류법으로 Power BI 서비스(대시보드, 보고서, 데이터 세트 및 데이터 흐름)의 콘텐츠를 분류하고 레이블을 추가합니다.
 
 * 콘텐츠의 민감도 레이블 및 보호를 적용하여 Power BI 서비스에서 파일로 데이터를 내보낼 때 암호화 또는 워터마크와 같은 보호 설정을 적용합니다(Excel, PowerPoint 및 PDF). 
 
@@ -35,7 +35,7 @@ Power BI에서 데이터 보호를 사용하면 다음을 수행할 수 있습�
 
 민감도 레이블은 [Microsoft 365 보안 센터](https://security.microsoft.com/) 또는 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에서 만들고 관리합니다.
 
-두 센터 중 하나에서 민감도 레이블에 액세스하려면 **분류 > 민감도 레이블**로 이동합니다. 이러한 민감도 레이블은 Azure Information Protection, Office 앱, Office 365 서비스 등의 여러 Microsoft 서비스에서 사용할 수 있습니다.
+두 센터 중 하나에서 민감도 레이블에 액세스하려면 **분류** > **민감도 레이블**로 이동합니다. 이러한 민감도 레이블은 Azure Information Protection, Office 앱, Microsoft 365 서비스 등의 여러 Microsoft 서비스에서 사용할 수 있습니다.
 
 > [!IMPORTANT]
 > Azure Information Protection 고객은 Power BI에서 민감도 레이블을 사용하기 위해 레이블을 앞에 나열된 서비스 중 하나로 마이그레이션해야 합니다. 또한 민감도 레이블은 퍼블릭 클라우드에만 지원되고, 소버린 클라우드와 같은 클라우드의 테넌트에서는 지원되지 않습니다.
@@ -44,7 +44,7 @@ Power BI에서 데이터 보호를 사용하면 다음을 수행할 수 있습�
 
 ## <a name="how-sensitivity-labels-work"></a>민감도 레이블의 작동 방식
 
-Power BI 대시보드, 보고서, 데이터 세트 또는 데이터 흐름에 민감도 레이블을 적용하는 경우 다음과 같은 이점을 제공하는 ‘태그’를 해당 리소스에 적용하는 것과 비슷합니다. 
+Power BI 대시보드, 보고서, 데이터 세트 또는 데이터 흐름에 민감도 레이블을 적용하는 경우 다음과 같은 이점을 제공하는 ‘태그’를 해당 리소스에 적용하는 것과 비슷합니다.
 * **사용자 지정 가능** - 조직에 있는 다양한 수준의 중요한 콘텐츠를 위해 개인, 공용, 일반, 기밀, 매우 기밀 등의 범주를 만들 수 있습니다.
 * **일반 텍스트** - 레이블은 일반 텍스트로 작성되므로 사용자가 민감도 레이블 지침에 따라 콘텐츠 처리 방법을 쉽게 이해할 수 있습니다.
 * **지속적** - 콘텐츠에 적용된 민감도 레이블은 콘텐츠를 Excel, PowerPoint, PDF 등의 지원되는 파일 형식으로 내보낼 때 콘텐츠와 함께 이동합니다. 
@@ -101,7 +101,7 @@ Microsoft Cloud App Security를 사용하여 의도하지 않은 유출이나 �
 * Power BI에서 파일을 내보내는 사용자는 민감도 레이블 설정에 따라 해당 파일에 대한 액세스 및 편집 권한을 갖습니다. 데이터를 내보내는 사용자는 파일의 소유자 권한을 얻지 못합니다. 
 * 현재, [페이지를 매긴 보고서]( https://docs.microsoft.com/power-bi/paginated-reports-report-builder-power-bi)와 통합 문서에서는 민감도 레이블을 사용할 수 없습니다.
 * Power BI 자산의 민감도 레이블은 작업 영역 목록 및 계보 보기에만 표시됩니다. 현재 즐겨찾기, 공유한 항목, 최근 항목 또는 앱 보기에는 레이블이 표시되지 않습니다. 그러나 Power BI 자산에 적용된 레이블은 표시되지 않는 경우에도 Excel, PowerPoint 및 PDF 파일로 내보낸 데이터에 항상 유지됩니다.
-* [Microsoft 365 보안 센터](https://security.microsoft.com/) 또는 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에서 구성된 ‘파일 암호화 설정’ 민감도 레이블은 Power BI에서 ‘내보낸’ 파일에만 적용되고 Power BI ‘내부’에서는 적용되지 않습니다.   
+* [Microsoft 365 보안 센터](https://security.microsoft.com/) 또는 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에서 구성된 ‘파일 암호화 설정’ 민감도 레이블은 Power BI에서 ‘내보낸’ 파일에만 적용되고 Power BI ‘내부’에서는 적용되지 않습니다.  
 * [HYOK 보호](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions)는 Power BI에서 적용된 레이블에 대해 지원되지 않습니다.
 * Office 앱에서 레이블을 보고 적용하려면 [라이선스 요구 사항](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels)을 충족해야 합니다.
 * 민감도 레이블은 글로벌(퍼블릭) 클라우드의 테넌트에만 지원됩니다. 다른 클라우드의 테넌트에서는 민감도 레이블이 지원되지 않습니다.

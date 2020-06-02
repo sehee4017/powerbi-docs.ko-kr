@@ -1,22 +1,22 @@
 ---
-title: 다른 앱 또는 작업 영역에서 보고서 복사(미리 보기) - Power BI
+title: 다른 앱 또는 작업 영역에서 보고서 복사 - Power BI
 description: 보고서의 복사본을 만들어 자신의 작업 영역에 저장하는 방법을 알아봅니다.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/16/2020
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8716a304e5b117c027d75db149ebcc8d95efebfe
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: d70f029568dca578bb76350a42b5146ecc335759
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83312629"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793100"
 ---
-# <a name="copy-reports-from-other-workspaces-preview"></a>다른 작업 영역에서 보고서 복사(미리 보기)
+# <a name="copy-reports-from-other-workspaces"></a>다른 작업 영역에서 보고서 복사
 
 작업 영역이나 앱에서 원하는 보고서를 찾은 경우, 복사본을 만들고 다른 작업 영역에 저장할 수 있습니다. 그런 다음, 시각적 개체 및 기타 요소를 추가하거나 삭제하여 보고서의 복사본을 수정할 수 있습니다. 데이터 모델 만들기에 대해 걱정할 필요가 없습니다. 사용자를 위해 이미 생성되어 있습니다. 그리고 기존 보고서를 수정하는 것이 처음부터 시작하는 것보다 훨씬 쉽습니다. 그러나 작업 영역에서 앱을 만들 때 앱에 보고서 복사본을 게시할 수 없는 경우도 있습니다. 자세한 내용은 [“작업 영역에서 데이터 세트 사용” 문서의 고려 사항 및 제한 사항](service-datasets-across-workspaces.md#considerations-and-limitations)을 참조하세요.
 
@@ -33,7 +33,7 @@ ms.locfileid: "83312629"
 
     ![보고서 복사본 저장](media/service-datasets-copy-reports/power-bi-dataset-save-report-copy.png)
 
-    보고서가 새 환경 작업 영역에 있고 **빌드 권한**을 가지고 있는 경우에만 [복사본 저장](service-datasets-build-permissions.md) 아이콘이 표시됩니다. 작업 영역에 대한 액세스 권한이 있더라도 데이터 세트에 대한 빌드 권한이 있어야 합니다.
+    보고서가 새 환경 작업 영역에 있고 [빌드 권한](service-datasets-build-permissions.md)을 가지고 있는 경우에만 **복사본 저장** 아이콘이 표시됩니다. 작업 영역에 대한 액세스 권한이 있더라도 데이터 세트에 대한 빌드 권한이 있어야 합니다.
 
 3. **이 보고서의 복사본 저장**에서 보고서 이름을 지정하고 대상 작업 영역을 선택합니다.
 
@@ -58,7 +58,7 @@ ms.locfileid: "83312629"
 
     ![보고서 복사본 저장](media/service-datasets-copy-reports/power-bi-save-copy.png)
 
-    보고서가 새 환경 작업 영역에 있고 **빌드 권한**을 가지고 있는 경우에만 [복사본 저장](service-datasets-build-permissions.md) 옵션이 표시됩니다.
+    보고서가 새 환경 작업 영역에 있고 [빌드 권한](service-datasets-build-permissions.md)을 가지고 있는 경우에만 **복사본 저장** 옵션이 표시됩니다.
 
 3. 보고서에 이름을 지정하고 **저장**을 선택합니다.
 
@@ -106,5 +106,5 @@ ms.locfileid: "83312629"
 
 ## <a name="next-steps"></a>다음 단계
 
-- [작업 영역에서 데이터 세트 사용(미리 보기)](service-datasets-across-workspaces.md)
-- 질문이 있으신가요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+- [작업 영역에서 데이터 세트 사용](service-datasets-across-workspaces.md)
+- 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

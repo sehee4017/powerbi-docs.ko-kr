@@ -1,5 +1,5 @@
 ---
-title: 내 Power BI 테넌트는 어디에 있나요?
+title: 내 Power BI 테넌트는 어디에 있습니까?
 description: Power BI 테넌트의 위치와 해당 위치를 선택하는 방법에 대해 알아보세요. 서비스에 대한 상호 작용에 영향을 줄 수 있으므로 이를 알아두는 것이 중요합니다.
 author: kfollis
 ms.reviewer: ''
@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 4a763b31333004a8cdecda5262967473817bc983
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a797547562a8968591ca6551f85a56e0da98d680
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83136055"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83793280"
 ---
-# <a name="where-is-my-power-bi-tenant-located"></a>내 Power BI 테넌트는 어디에 있나요?
+# <a name="where-is-my-power-bi-tenant-located"></a>내 Power BI 테넌트는 어디에 있습니까?
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0fOxaHJPvdM?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -34,7 +34,7 @@ Power BI 테넌트의 위치와 해당 위치를 선택하는 방법에 대해 �
 
 ## <a name="how-the-data-region-is-selected"></a>데이터 영역을 선택하는 방법
 
-데이터 영역은 테넌트를 만들 때 선택한 국가에 따라 다릅니다. 이 정보를 공유하기 때문에 Office 365 및 Power BI 모두에 등록하는 데 선택 사항이 적용됩니다. 새 테넌트인 경우 가입할 때 목록에서 해당 국가를 선택합니다.
+데이터 영역은 테넌트를 만들 때 선택한 국가에 따라 다릅니다. 이 정보를 공유하기 때문에 Microsoft 365 및 Power BI 모두에 등록하는 데 선택 사항이 적용됩니다. 새 테넌트인 경우 가입할 때 목록에서 해당 국가를 선택합니다.
 
 ![국가 선택](media/service-admin-where-is-my-tenant-located/sign-up-country-selection.png)
 

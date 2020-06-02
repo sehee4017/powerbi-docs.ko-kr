@@ -1,27 +1,27 @@
 ---
-title: 데이터 세트 승격(미리 보기) - Power BI
+title: 데이터 세트 승격 - Power BI
 description: 데이터 세트를 승격하고 엔터프라이즈 사용자를 신뢰할 수 있는 고품질 데이터 세트로 안내하는 방법을 알아봅니다.
 author: maggiesMSFT
-ms.reviewer: chbraun
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/03/2019
+ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 379249ac50f61df07c4adaffe53e0df29a311086
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3e17b31aa75e1778e92408787a248db810d4d08d
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83284753"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83792990"
 ---
-# <a name="promote-your-dataset-preview"></a>데이터 세트 승격(미리 보기)
+# <a name="promote-your-dataset---power-bi"></a>데이터 세트 승격 - Power BI
 
 이제 Power BI 보고서 작성자는 다양한 데이터 세트에 액세스할 수 있으므로 엔터프라이즈는 신뢰할 수 있는 고품질 데이터 세트로 안내해야 합니다. Power BI에서는 데이터 세트를 *보증*하는 두 가지 방법을 제공합니다.
 
 - **승격**: 데이터 세트 소유자는 광범위한 사용 준비가 되면 사용자 고유의 데이터 세트를 승격할 수 있습니다. 쓰기 권한이 있는 모든 작업 영역 멤버는 데이터 세트를 승격할 수 있습니다. 데이터 세트를 승격할 수 있는 사용자에 대한 제한은 없습니다. 승격은 조직 내에서 데이터 세트의 협업 확산을 지원합니다. 이 문서는 데이터 세트를 승격하는 방법에 대한 것입니다.
-- **인증**: 승격된 데이터 세트에 대한 인증을 요청할 수 있습니다. **데이터 세트 인증** 테넌트 관리자 설정에 정의된 선택된 사용자 그룹이 인증할 데이터 세트를 결정합니다. 세부 정보는 [데이터 세트 인증(미리 보기)](service-datasets-certify.md)을 참조하세요.
+- **인증**: 승격된 데이터 세트에 대한 인증을 요청할 수 있습니다. **데이터 세트 인증** 테넌트 관리자 설정에 정의된 선택된 사용자 그룹이 인증할 데이터 세트를 결정합니다. 자세한 내용은 [데이터 세트 인증](service-datasets-certify.md)을 참조하세요.
 
 ## <a name="promote-a-dataset"></a>데이터 세트 승격
 
