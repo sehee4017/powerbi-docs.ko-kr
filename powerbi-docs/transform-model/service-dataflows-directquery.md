@@ -1,28 +1,28 @@
 ---
-title: Power BI(미리 보기)에서 데이터 흐름과 함께 DirectQuery 사용
+title: Power BI (미리 보기)에서 데이터 흐름와 함께 DirectQuery 사용
 description: Power BI에서 데이터 흐름과 함께 DirectQuery를 사용하는 방법 알아보기
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/19/2020
+ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9de8c9611b24eaa627b3ddf044f13d36d7b9a3d4
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: 469b8b13f77c56f9371ae8c1c81dcb94278c62e0
+ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83694576"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "83794020"
 ---
-# <a name="use-directquery-with-dataflows-in-power-bi-preview"></a>Power BI(미리 보기)에서 데이터 흐름과 함께 DirectQuery 사용
+# <a name="use-directquery-with-dataflows-in-power-bi-preview"></a>Power BI (미리 보기)에서 데이터 흐름와 함께 DirectQuery 사용
 
 DirectQuery를 사용하여 데이터 흐름에 직접 연결할 수 있으므로 관련 데이터를 가져오지 않고도 데이터 흐름에 직접 연결할 수 있습니다. 
 
 데이터 흐름과 함께 DirectQuery를 사용하면 Power BI 및 데이터 흐름 프로세스를 다음과 같이 향상할 수 있습니다.
 
-* **별도의 새로 고침 일정 필요 없음** - DirectQuery는 데이터 흐름에 직접 연결하므로 데이터 세트를 만들 필요가 없어집니다. 따라서 데이터 흐름과 함께 DirectQuery를 사용하면 데이터를 동기화하기 위한 데이터 흐름 및 데이터 세트의 새로 고침 일정을 별도로 만들 필요가 없습니다.
+* **별도의 새로 고침 일정 필요 없음** - DirectQuery는 데이터 흐름에 직접 연결하므로 가져온 데이터 세트를 만들 필요가 없어집니다. 따라서 데이터 흐름과 함께 DirectQuery를 사용하면 데이터를 동기화하기 위한 데이터 흐름 및 데이터 세트의 새로 고침 일정을 별도로 만들 필요가 없습니다.
 
 * **데이터 필터링** - DirectQuery는 데이터 흐름 내에 있는 데이터의 필터링된 보기를 작업하는 데 유용합니다. 데이터를 필터링하여 데이터 흐름 내 데이터의 작은 하위 집합으로 작업하려면 DirectQuery(및 컴퓨팅 엔진)를 사용하여 데이터 흐름 데이터를 필터링하고 필요한 필터링된 하위 집합으로 작업할 수 있습니다.
 
@@ -38,7 +38,7 @@ DirectQuery를 사용하여 데이터 흐름에 직접 연결할 수 있으므�
 
 ## <a name="enable-directquery-for-dataflows"></a>데이터 흐름에 DirectQuery 사용
 
-데이터 흐름을 DirectQuery 액세스에 사용할 수 있도록 하려면 향상된 컴퓨팅 엔진이 최적화된 상태여야 합니다. 데이터 흐름에 DirectQuery를 사용하도록 설정하려면 새로운 **향상된 컴퓨팅 엔진 설정** 옵션을 **최적화됨**으로 설정합니다. 다음 이미지는 올바로 선택한 설정을 보여 줍니다.
+데이터 흐름을 DirectQuery 액세스에 사용할 수 있도록 하려면 향상된 컴퓨팅 엔진이 최적화된 상태여야 합니다. 데이터 흐름에 DirectQuery를 사용하도록 설정하려면 새로운 **향상된 컴퓨팅 엔진 설정** 옵션을 **켜짐**으로 설정합니다. 다음 이미지는 올바로 선택한 설정을 보여 줍니다.
 
 ![데이터 흐름에 향상된 컴퓨팅 엔진 사용](media/service-dataflows-directquery/dataflows-directquery-01.png)
 
@@ -50,7 +50,15 @@ DirectQuery를 사용하여 데이터 흐름에 직접 연결할 수 있으므�
 DirectQuery 및 데이터 흐름에는 다음 목록에 설명된 몇 가지 알려진 제한 사항이 있습니다.
 
 * **향상된 메타데이터 미리 보기** 기능을 사용하도록 설정한 경우 데이터 흐름에 DirectQuery를 사용할 수 없습니다. 이 제외는 Power BI Desktop의 다음 월별 릴리스에서 제거될 예정입니다.
+
 * 이 기능의 미리 보기 기간 중 데이터 흐름과 함께 DirectQuery를 사용하는 경우 일부 고객에게 시간 초과나 성능 문제가 발생할 수 있습니다. 이러한 문제는 미리 보기 기간 동안 적극적으로 해결됩니다.
+
+* 가져오기 및 DirectQuery 데이터 원본이 있는 복합/혼합 모델은 현재 지원되지 않습니다.
+
+* 대용량 데이터 흐름은 시각화를 볼 때 시간 제한 문제로 인한 어려움이 있을 수 있습니다. 이 제한은 이 기능의 일반 공급에서 제거할 예정입니다. 그때까지는 시간 제한 문제가 발생하는 대용량 데이터 흐름은 가져오기 모드를 사용해야 합니다.
+
+* DirectQuery를 사용하는 경우 데이터 원본 설정에서 데이터 흐름 커넥터가 잘못된 자격 증명을 표시합니다. 이는 동작에 영향을 주지 않으며 데이터 세트는 제대로 작동합니다. 이 문제는 일반 공급 전에 해결될 것입니다.
+
 
 
 ## <a name="next-steps"></a>다음 단계

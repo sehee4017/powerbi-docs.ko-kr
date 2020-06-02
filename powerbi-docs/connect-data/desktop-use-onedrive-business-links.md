@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 05/27/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e5effe6f397dd53fe6347708774118e9c491abc1
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 71acc85ecd74b2606d00c4e3b63b6f7532c9487c
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564145"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120015"
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Power BI Desktop에서 비즈니스용 OneDrive 링크 사용
 많은 사용자가 Power BI Desktop에 사용하기 좋은 Excel 통합 문서를 비즈니스용 OneDrive에 저장합니다. Power BI Desktop을 통해 비즈니스용 OneDrive에 저장된 Excel 파일에 대한 온라인 링크를 사용하여 보고서 및 시각적 개체를 만들 수 있습니다. 비즈니스용 OneDrive 그룹 계정 또는 개별 비즈니스용 OneDrive 계정을 사용할 수 있습니다.
@@ -26,11 +26,10 @@ ms.locfileid: "83564145"
    
    > [!NOTE]
    > 브라우저 인터페이스는 다음 이미지와 약간 다를 수 있습니다. 비즈니스용 OneDrive 브라우저 인터페이스에서 여러 가지 방법으로 파일에 대해 **Excel에서 열기**를 선택할 수 있습니다. Excel에서 파일을 열 수 있는 어떤 옵션이라도 사용하면 됩니다.
-   > 
-   > 
    
    ![](media/desktop-use-onedrive-business-links/odb-links_02.png)
-2. Excel에서 **파일** > **정보**를 선택한 다음 **통합 문서 보호** 위에서 **경로 복사**를 선택합니다.
+
+2. Excel에서 다음 그림에 표시된 것처럼 **파일** > **정보**을 선택한 다음 **경로 복사** 단추를 선택합니다.
    
    ![](media/desktop-use-onedrive-business-links/onedrive-copy-path.png)
 

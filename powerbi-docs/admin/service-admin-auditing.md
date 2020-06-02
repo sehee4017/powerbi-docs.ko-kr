@@ -10,12 +10,12 @@ ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 42203c65f6351422bbb65b5a0dc2245ac6a7b190
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: c0f8e6f0282e4a862c8fc92e922a412ba0f56098
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564618"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812430"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Power BI에서 사용자 활동 추적
 
@@ -26,7 +26,7 @@ Power BI 테넌트의 어떤 항목에 누가 무슨 활동을 수행하는지�
 | Power BI 감사 이벤트 외에도 SharePoint Online, Exchange Online, Dynamics 365 및 기타 서비스의 이벤트를 포함합니다. | Power BI 감사 이벤트만 포함합니다. |
 | 전역 관리자 및 감사자와 같이 보기 전용 감사 로그 또는 감사 로그 사용 권한이 있는 사용자만 액세스할 수 있습니다. | 전역 관리자 및 Power BI 서비스 관리자가 액세스할 수 있습니다. |
 | 전역 관리자 및 감사자는 Microsoft 365 Security Center 및 Microsoft 365 규정 준수 센터를 사용하여 통합 감사 로그를 검색할 수 있습니다. | 활동 로그를 검색하기 위한 사용자 인터페이스는 아직 없습니다. |
-| 전역 관리자 및 감사자는 Office 365 관리 Api 및 cmdlet을 사용하여 감사 로그 항목을 다운로드할 수 있습니다. | 전역 관리자 및 Power BI 서비스 관리자는 Power BI REST API 및 관리 cmdlet을 사용하여 활동 로그 항목을 다운로드할 수 있습니다. |
+| 전역 관리자 및 감사자는 Microsoft 365 관리 API 및 cmdlet을 사용하여 감사 로그 항목을 다운로드할 수 있습니다. | 전역 관리자 및 Power BI 서비스 관리자는 Power BI REST API 및 관리 cmdlet을 사용하여 활동 로그 항목을 다운로드할 수 있습니다. |
 | 90일간 감사 데이터를 유지합니다. | 30일간 활동 데이터를 유지합니다(공개 미리 보기). |
 | 테넌트가 다른 Azure 지역으로 이동하더라도 감사 데이터를 유지합니다. | 테넌트가 다른 Azure 지역으로 이동하면 활동 데이터를 보존하지 않습니다. |
 
@@ -239,6 +239,7 @@ Exchange Online에 연결하는 방법에 대한 자세한 내용은 [Exchange O
 
 | 식별 이름                                     | 작업 이름                              | 참고                                  |
 |---------------------------------------------------|---------------------------------------------|------------------------------------------|
+| Excel의 Power BI 주요 테이블에 액세스함 | AnalyzedByExternalApplication |    |
 | Power BI 게이트웨이에 데이터 원본 추가됨             | AddDatasourceToGateway                      |                                          |
 | Power BI 폴더 액세스 권한 추가됨                      | AddFolderAccess                             | 현재 사용되지 않음                       |
 | Power BI 그룹 구성원 추가됨                      | AddGroupMembers                             |                                          |
@@ -299,6 +300,7 @@ Exchange Online에 연결하는 방법에 대한 자세한 내용은 [Exchange O
 | Power BI 대시보드 인쇄됨                        | PrintDashboard                              |                                          |
 | Power BI 보고서 페이지 인쇄됨                      | PrintReport                                 |                                          |
 | 웹에 Power BI 보고서 게시됨                  | PublishToWebReport <sup>2</sup>                         |                                          |
+| 주요 테이블을 게시 또는 업데이트함 | UpdateFeaturedTables <sup>3</sup>   | |
 | Key Vault에서 Power BI 데이터 흐름 비밀 수신됨  | ReceiveDataflowSecretFromKeyVault           |                                          |
 | Power BI Gateway에서 데이터 원본 제거됨         | RemoveDatasourceFromGateway                 |                                          |
 | Power BI 그룹 구성원 제거됨                    | DeleteGroupMembers                          |                                          |
@@ -341,6 +343,8 @@ Exchange Online에 연결하는 방법에 대한 자세한 내용은 [Exchange O
 <sup>1</sup> Power BI Desktop에서 서비스에 게시는 서비스에서 CreateReport 이벤트입니다.
 
 <sup>2</sup> PublishtoWebReport는 [웹에 게시](../collaborate-share/service-publish-to-web.md) 기능을 참조합니다.
+
+<sup>3</sup> UpdateFeaturedTables는 [Excel의 Power BI 주요 테이블](../collaborate-share/service-excel-featured-tables.md)을 참조합니다.
 
 ## <a name="next-steps"></a>다음 단계
 

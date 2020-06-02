@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a3a7d7b0afa4a1eb3d6af81d3e6ba1315e291c4b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 25a0f5abe07b82c2397ab2800802eba6f624a27c
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83324727"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84119928"
 ---
 # <a name="group-visuals-in-power-bi-desktop-reports"></a>Power BI Desktop 보고서에서 시각적 개체 그룹화
 **Power BI Desktop**에서 **그룹화**를 사용하면, PowerPoint에서 항목을 그룹화하는 것처럼 단추, 텍스트 상자, 도형 이미지 및 만든 시각적 개체와 같은 보고서의 시각적 개체를 그룹화할 수 있습니다. 보고서의 시각적 개체를 그룹화함으로써 그룹을 단일 개체처럼 처리하여 보다 쉽고 빠르며 직관적인 방식으로 보고서의 계층을 이동, 크기 조정 및 사용할 수 있습니다.
@@ -28,11 +28,13 @@ Power BI Desktop에서 시각적 개체 그룹을 만들려면 캔버스에서 �
 
 ![그룹화할 항목을 두 개 이상 선택](media/desktop-grouping-visuals/grouping-visuals-02.png)
 
-**선택** 창에 그룹이 표시됩니다. 보고서에 필요한 개수만큼 시각적 개체 그룹을 포함할 수 있으며, 시각적 개체 그룹을 중첩할 수도 있습니다. 다음 그림에서 ‘Australia’ 그룹은 ‘Cards’ 그룹 아래에 중첩됩니다.   그룹 이름 옆에 있는 캐럿을 선택하여 그룹을 펼치고, 캐럿을 다시 선택하여 그룹을 접을 수 있습니다. 
+**선택** 창에 그룹이 표시됩니다. 보고서에 필요한 개수만큼 시각적 개체 그룹을 포함할 수 있으며, 시각적 개체 그룹을 중첩할 수도 있습니다. 다음 그림에서 ‘Australia’ 그룹은 ‘Cards’ 그룹 아래에 중첩됩니다.  그룹 이름 옆에 있는 캐럿을 선택하여 그룹을 펼치고, 캐럿을 다시 선택하여 그룹을 접을 수 있습니다. 
 
 ![그룹 중첩](media/desktop-grouping-visuals/grouping-visuals-03.png)
 
-**선택** 창에서 개별 시각적 개체를 끌어서 놓아 그룹에 포함하거나, 그룹에서 제거하거나, 그룹을 중첩하거나, 중첩에서 그룹 또는 개별 시각적 개체를 제거할 수도 있습니다. 조정하려는 시각적 개체를 원하는 위치에 놓기만 하면 됩니다. 겹치는 경우 ‘계층 순서’ 목록의 순서에 따라 시각적 개체의 계층화가 결정됩니다. 
+**선택** 창에서 개별 시각적 개체를 끌어서 놓아 그룹에 포함하거나, 그룹에서 제거하거나, 그룹을 중첩하거나, 중첩에서 그룹 또는 개별 시각적 개체를 제거할 수도 있습니다. 조정하려는 시각적 개체를 원하는 위치에 놓기만 하면 됩니다. 겹치는 경우 ‘계층 순서’ 목록의 순서에 따라 시각적 개체의 계층화가 결정됩니다.
+
+그룹 이름은 쉽게 바꿀 수 있습니다. **선택** 창에서 그룹 이름을 두 번 클릭한 다음 그룹의 새 이름을 입력하면 됩니다.
 
 ![그룹 끌어서 놓기](media/desktop-grouping-visuals/grouping-visuals-04.png)
 
@@ -40,7 +42,7 @@ Power BI Desktop에서 시각적 개체 그룹을 만들려면 캔버스에서 �
 
 ## <a name="hide-and-show-visuals-or-groups"></a>시각적 개체 또는 그룹 숨기기 및 표시
 
-**선택** 창을 사용하여 그룹을 간편하게 숨기거나 표시할 수 있습니다. 그룹을 숨기려면 그룹 이름(또는 개별 시각적 개체) 옆의 눈 모양 단추를 선택하여 시각적 개체나 그룹의 숨김 또는 표시를 토글합니다. 다음 그림에서 ‘Australia’ 그룹은 숨겨지고 ‘Cards’ 그룹에 중첩된 나머지 그룹은 표시됩니다.  
+**선택** 창을 사용하여 그룹을 간편하게 숨기거나 표시할 수 있습니다. 그룹을 숨기려면 그룹 이름(또는 개별 시각적 개체) 옆의 눈 모양 단추를 선택하여 시각적 개체나 그룹의 숨김 또는 표시를 토글합니다. 다음 그림에서 ‘Australia’ 그룹은 숨겨지고 ‘Cards’ 그룹에 중첩된 나머지 그룹은 표시됩니다. 
 
 
 ![그룹 숨기기 및 표시](media/desktop-grouping-visuals/grouping-visuals-05.png)

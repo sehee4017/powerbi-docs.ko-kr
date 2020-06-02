@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: ce18b3cb077e0fee2eea4d0d31327329f405a51a
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 25b5665aa531c347d43a197b53938aec569b9d2d
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563758"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812177"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI 관리 - 질문과 대답(FAQ)
 
@@ -27,8 +27,8 @@ ms.locfileid: "83563758"
 * [PowerShell 사용](#using-powershell)
 * [사용자가 Power BI에 등록하려면 어떻게 합니까?](#how-do-users-sign-up-for-power-bi)
 * [개별 사용자가 조직에 등록하려면 어떻게 합니까?](#how-do-individual-users-in-my-organization-sign-up)
-* [사용자가 내 기존 Office 365 테넌트에 가입하지 못하게 하려면 어떻게 합니까?](#how-can-i-prevent-users-from-joining-my-existing-microsoft-365-tenant)
-* [사용자가 내 기존 Office 365 테넌트에 가입하도록 허용하려면 어떻게 합니까?](#how-can-i-allow-users-to-join-my-existing-microsoft-365-tenant)
+* [사용자가 내 기존 조직에 가입하지 못하게 하려면 어떻게 합니까?](#how-can-i-prevent-users-from-joining-my-existing-microsoft-365-tenant)
+* [사용자가 내 기존 조직에 가입하도록 허용하려면 어떻게 합니까?](#how-can-i-allow-users-to-join-my-existing-microsoft-365-tenant)
 * [테넌트에 가입이 차단되어 있는지 확인하려면 어떻게 해야 하나요?](#how-do-i-check-if-i-have-the-block-on-in-the-tenant)
 * [기존 사용자가 Power BI 사용을 시작하지 못하게 하려면 어떻게 합니까?](#how-can-i-prevent-my-existing-users-from-starting-to-use-power-bi)
 * [기존 사용자가 Power BI에 등록하도록 허용하려면 어떻게 합니까?](#how-can-i-allow-my-existing-users-to-sign-up-for-power-bi)

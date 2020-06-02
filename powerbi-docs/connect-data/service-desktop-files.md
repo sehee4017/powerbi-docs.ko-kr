@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5368370cc25e12fdeab333b42a064ec4db66c301
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 8db571d3635ad224c293a4d2ab86f4bcb9197fe0
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347381"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120075"
 ---
 # <a name="get-data-from-power-bi-desktop-files"></a>Power BI Desktop 파일에서 데이터 가져오기
 ![](media/service-desktop-files/pbid_file_icon.png)
@@ -47,7 +47,9 @@ ms.locfileid: "83347381"
    ![](media/service-desktop-files/pbid_find_your_file.png)
 
 ## <a name="publish-a-file-from-power-bi-desktop-to-your-power-bi-site"></a>Power BI Desktop에서 Power BI 사이트로 파일 게시
-Power BI Desktop에서 게시를 사용하는 것은 로컬 드라이브에서 파일을 가져오기 위해 Power BI에서 데이터 가져오기를 사용하거나 OneDrive에서 연결하는 것과 사실상 같습니다.  여기에 빠른 사용 방법이 나와 있지만 자세히 알아보려면 [Power BI Desktop에서 게시](../create-reports/desktop-upload-desktop-files.md)를 참조하세요.
+Power BI Desktop에서 게시를 사용하는 것은 처음에 로컬 드라이브에서 파일 데이터를 가져오거나 OneDrive에서 파일 데이터에 연결한다는 점에서 Power BI 데이터 가져오기를 사용하는 것과 비슷합니다. 그러나 로컬 드라이브에서 업로드하는 경우 데이터의 온라인 복사본과 로컬 복사본이 서로 최신 상태를 유지하도록 해당 데이터를 자주 새로 고쳐야 한다는 차이점이 있습니다. 
+
+여기에 빠른 사용 방법이 나와 있지만 자세히 알아보려면 [Power BI Desktop에서 게시](../create-reports/desktop-upload-desktop-files.md)를 참조하세요.
 
 1. Power BI Desktop에서 **파일** > **게시** > **Power BI에 게시** 또는 리본에서 **게시**를 클릭합니다.
    

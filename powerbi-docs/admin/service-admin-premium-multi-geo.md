@@ -1,5 +1,5 @@
 ---
-title: Power BI Premium에 대한 Multi-Geo 지원
+title: Power BI Premium에 대한 다중 지역 지원
 description: Power BI 테넌트의 홈 지역이 아닌 다른 지역에 있는 데이터 센터에 콘텐츠를 배포하는 방법을 알아봅니다.
 author: davidiseminger
 ms.author: davidi
@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 05/26/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 45229edbc6ed2c9e9c4618d44b4b74e42d0037b8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9df00079488b248f2e5bab52395a637e37045a24
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274607"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84119985"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>Power BI Premium에 대한 다중 지역 지원 구성
 
 다중 지역은 다국적 고객이 지역별, 산업별 또는 조직별 데이터 보존 요구 사항을 해결하는 데 도움이 되는 Power BI Premium 기능입니다. Power BI Premium 고객은 Power BI 테넌트의 홈 지역이 아닌 다른 지역에 있는 데이터 센터에 콘텐츠를 배포할 수 있습니다. 지역(지리)은 둘 이상의 지역을 포함할 수 있습니다. 예를 들어 미국은 지역이고 미국 중서부 및 미국 중남부는 미국에 있는 지역입니다. 다음 지역에 콘텐츠를 배포할 수 있습니다.
 
 - 미국
-- Canada
-- United Kingdom
+- 캐나다
+- 영국
 - 브라질
 - 유럽
 - 일본
@@ -65,8 +65,10 @@ Power BI Germany, Power BI China(21Vianet에서 운영) 또는 Power BI(미국 �
 - Excel 통합 문서
 - 대시보드/보고서 메타데이터: 타일 이름, 타일 쿼리 등
 - 게이트웨이 쿼리 또는 예약된 새로 고침 작업에 대한 서비스 버스
-- 사용 권한
+- 권한
 - 데이터 세트 자격 증명
+
+
 
 ## <a name="view-capacity-regions"></a>용량 지역 보기
 
@@ -93,12 +95,13 @@ Power BI Germany, Power BI China(21Vianet에서 운영) 또는 Power BI(미국 �
 - 지역 간에 시작한 모든 이동이 데이터 전송 전에 모든 회사 및 정부 준수 요구 사항을 따르는지 확인합니다.
 - 원격 지역에 저장된 캐시된 쿼리는 해당 지역에 남아 있습니다. 그러나 전송 중인 다른 데이터는 여러 지역 간에 이동할 수 있습니다.
 - 다중 지역 환경에서 데이터를 한 지역에서 다른 지역으로 이동하면 원본 데이터는 최대 30일 동안 데이터 이동이 시작된 지역에 남아 있을 수 있습니다. 해당 기간에 최종 사용자는 데이터에 액세스할 수 없습니다. 데이터가 이 지역에서 제거되고 30일 기간 동안 삭제됩니다.
+- 가져온 데이터 모델에 대한 쿼리 텍스트 및 쿼리 결과 트래픽은 홈 지역을 통해 전송되지 않습니다. 보고서 메타데이터는 원격 지역에서 계속 제공되며 특정 DNS 라우팅 상태에서는 트래픽이 지역에서 제거될 수 있습니다. 
 
 - 현재는 [데이터 흐름](../transform-model/service-dataflows-overview.md) 기능이 다중 지역에서 지원되지 않습니다.
 
 ## <a name="next-steps"></a>다음 단계
 
-- [Power BI Premium이란?](service-premium-what-is.md)
+- [Power BI 프리미엄이란?](service-premium-what-is.md)
 - [Power BI Embedded 용량에 대한 다중 지역](../developer/embedded/embedded-multi-geo.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

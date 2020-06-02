@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/27/2020
+ms.date: 05/12/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: b08184e92730bd3a42a91424883d07cecec82549
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 605d35d55f3191b230d9c4a8d118e2c238283ff2
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564475"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733594"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
@@ -356,6 +356,16 @@ Azure AD B2B 게스트 사용자는 조직의 콘텐츠를 편집하고 관리�
 ### <a name="use-global-search-for-power-bi-preview"></a>Power BI(미리 보기)용 전역 검색 사용
 
 조직의 사용자는 Azure Search에 의존하는 외부 검색 기능을 사용할 수 있습니다.
+
+## <a name="featured-tables-settings"></a>주요 테이블 설정
+
+**테넌트 설정** 아래의 **주요 테이블에 대한 연결 허용** 테넌트 설정을 사용하면 Power BI 관리자가 조직에서 Excel 데이터 형식 갤러리의 주요 테이블을 사용할 수 있는 사용자를 제어할 수 있습니다. 
+
+:::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="주요 테이블에 대한 모든 연결":::
+
+**데이터 내보내기** 테넌트 설정이 **사용 안 함**으로 설정되면 주요 테이블에 대한 연결도 사용할 수 없습니다.
+
+[Excel의 Power BI 주요 테이블](../collaborate-share/service-excel-featured-tables.md)에 대해 자세히 알아보세요.
 
 ## <a name="power-bi-visuals-settings"></a>Power BI 시각적 개체 설정
 

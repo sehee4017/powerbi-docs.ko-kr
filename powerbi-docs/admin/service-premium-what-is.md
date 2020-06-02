@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/15/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 290174f7848e4518a4b1489d0a90136e86d245da
-ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+ms.openlocfilehash: 7c9f198ac15311948e1789173851a6c85debc856
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "83438249"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83812453"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium이란?
 
@@ -50,7 +50,7 @@ Azure Power BI Embedded는 이 문서의 범위를 크게 벗어나지만 워크
 
 ### <a name="purchasing"></a>구매
 
-Power BI Premium 구독은 Microsoft 365 관리 센터에서 관리자가 구입합니다. 특히, Office 365 글로벌 관리자 또는 대금 청구 관리자만 SKU를 구입할 수 있습니다. 구매 시 테넌트는 *v 코어 풀링*으로 알려진 용량에 할당할 해당 v 코어 수를 받습니다. 예를 들어 P3 SKU를 구매하면 32 V 코어의 테넌트를 제공합니다. 자세히 알아보려면 [Power BI Premium 구매 방법](service-admin-premium-purchase.md)을 참조하세요.
+Power BI Premium 구독은 Microsoft 365 관리 센터에서 관리자가 구입합니다. 구체적으로 전역 관리자 또는 대금 청구 관리자만 SKU를 구입할 수 있습니다. 구매 시 테넌트는 *v 코어 풀링*으로 알려진 용량에 할당할 해당 v 코어 수를 받습니다. 예를 들어 P3 SKU를 구매하면 32 V 코어의 테넌트를 제공합니다. 자세히 알아보려면 [Power BI Premium 구매 방법](service-admin-premium-purchase.md)을 참조하세요.
 
 ## <a name="dedicated-capacities"></a>전용 용량
 
@@ -127,13 +127,13 @@ Power BI Premium을 사용하면 *전용 용량*을 가져올 수 있습니다. 
 
 ### <a name="regional-support"></a>지역 지원
 
-새 용량을 만들 때 Office 365 글로벌 관리자 및 Power BI 서비스 관리자는 해당 용량에 할당된 작업 영역이 상주하는 지역을 지정할 수 있습니다. 이를 **다중 지역**이라고 합니다. 다중 지역을 사용하면 조직은 Office 365 구독이 상주하는 지역과 다른 경우에도 특정 지역의 데이터 센터에 콘텐츠를 배포하여 데이터 상주 요구 사항을 충족할 수 있습니다. 자세한 내용은 [Power BI Premium에 대한 다중 지역 지원](service-admin-premium-multi-geo.md)을 참조하세요.
+새 용량을 만들 때 전역 관리자와 Power BI 서비스 관리자는 해당 용량에 할당된 작업 영역이 상주하는 지역을 지정할 수 있습니다. 이를 **다중 지역**이라고 합니다. 다중 지역을 사용하면 조직은 Office 365 구독이 상주하는 지역과 다른 경우에도 특정 지역의 데이터 센터에 콘텐츠를 배포하여 데이터 상주 요구 사항을 충족할 수 있습니다. 자세한 내용은 [Power BI Premium에 대한 다중 지역 지원](service-admin-premium-multi-geo.md)을 참조하세요.
 
 ### <a name="capacity-management"></a>용량 관리
 
 프리미엄 용량 관리에는 용량 생성 또는 삭제, 관리자 할당, 작업 영역 할당, 워크로드 구성, 모니터링 및 용량 성능 최적화를 위한 조정 작업이 포함됩니다. 
 
-Office 365 글로벌 관리자 및 Power BI 서비스 관리자는 사용 가능한 v 코어에서 프리미엄 용량을 만들거나 기존 프리미엄 용량을 수정할 수 있습니다. 용량이 생성되면 용량 크기 및 지리적 영역이 지정되고 하나 이상의 용량 관리자가 할당됩니다. 
+전역 관리자와 Power BI 서비스 관리자는 사용 가능한 v 코어에서 프리미엄 용량을 만들거나 기존 프리미엄 용량을 수정할 수 있습니다. 용량이 생성되면 용량 크기 및 지리적 영역이 지정되고 하나 이상의 용량 관리자가 할당됩니다. 
 
 용량이 생성되면 대부분의 관리 작업은 [관리 포털](service-admin-portal.md)에서 완료됩니다.
 

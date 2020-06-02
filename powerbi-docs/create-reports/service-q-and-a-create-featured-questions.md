@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/14/2019
+ms.date: 05/26/2020
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 4b80d329c89299cbe87fb29aa340733f0031192a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 6e3d44c9871332842ed0e3f3d9b9fb5fc64a5a65
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348991"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121113"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Power BI 질문 및 답변에 대한 추천 질문 만들기
 데이터 세트를 소유하는 경우 해당 데이터 세트에 고유한 추천 질문을 추가할 수 있습니다. Power BI Q&A는 해당 데이터 세트를 기반으로 보고서를 사용하는 동료에게 이러한 질문을 보여줍니다.  추천 질문은 동료에게 데이터 세트에 대해 문의할 수 있는 형식의 질문에 대한 아이디어를 제공합니다. 추가한 추천 질문은 인기있는 질문, 흥미로운 결과를 표시하는 질문 또는 표현하기 어려울 수 있는 질문을 추가하는 등 다양하게 만들 수 있습니다.
@@ -40,7 +40,7 @@ ms.locfileid: "83348991"
 6. 소매점 분석 샘플을 위해 Power BI 대시보드로 이동하고 질문 및 답변의 질문 상자에 커서를 놓습니다.   
    ![주요 질문이 있는 Q&A 질문 상자](media/service-q-and-a-create-featured-questions/power-bi-qna-featured-question-to-start.png)
 7. 새 추천 질문인 **Sales by territory as a map**가 목록에서 첫 번째에 있습니다. 선택합니다.  
-8. 등치 지역도 시각화로 답변이 표시됩니다.  
+8. Power BI가 답변을 만들고 등치 지역도 시각화로 표시합니다.  
    ![Q&A의 주요 질문 답변: 맵 시각화](media/service-q-and-a-create-featured-questions/power-bi-qna-featured-question.png)
 
 ## <a name="next-steps"></a>다음 단계

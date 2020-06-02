@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/09/2020
+ms.date: 05/27/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dfd44b7130c1c7e4e1d2d7a9c9f15208cb0d9b0c
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 05df39b58334b33046fde0f95b9f1ca596c1eec1
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563290"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120571"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>Power BI에서 DirectQuery를 사용하는 방법
 
@@ -184,7 +184,7 @@ DirectQuery 모델에서는 거의 모든 보고 기능이 지원됩니다. 따�
 
 마찬가지로 새 보고서를 편집하면 경로의 단계마다 쿼리를 보내 최종 시각적 개체를 생성해야 합니다.
 
-결과에 대한 일부 캐싱이 있으므로 최근에 똑같은 결과를 얻는 경우 시각적 개체 새로 고침은 순식간에 이루어집니다. 행 수준 보안이 정의되지 않은 경우에는 사용자들 간에 캐시가 공유되지 않습니다.
+결과에 대한 일부 캐싱이 있으므로 최근에 똑같은 결과를 얻는 경우 시각적 개체 새로 고침은 순식간에 이루어집니다. 행 수준 보안이 정의된 경우에는 사용자 간에 캐시가 공유되지 않습니다.
 
 #### <a name="dashboard-refresh"></a>대시보드 새로 고침
 
@@ -312,11 +312,11 @@ DirectQuery 연결을 사용하여 보고서를 만들 때는 다음 지침을 �
 
 * **중앙값:** 일반적으로 모든 집계(`Sum`, `Count Distinct`등)는 기본 원본으로 푸시됩니다. 그러나 중앙값의 경우에는 그렇지 않습니다. 이 집계는 일반적으로 기본 원본에서 지원되지 않기 때문입니다. 이러한 경우 세부 정보 데이터는 기본 원본에서 검색되고 반환되는 결과에서 중앙값이 계산됩니다. 상대적으로 적은 수의 결과로 중앙값을 계산할 때는 이 작업이 적절하지만, 카디널리티가 클 경우 성능 문제 또는 1백만 개 행 제한으로 인한 쿼리 실패가 발생합니다. 예를 들어 **국가 인구 중앙값**은 적절할 수 있지만, **판매 가격 중앙값**은 적절하지 않을 수 있습니다.
 
-* **고급 텍스트 필터(_contains_ 및 유사 텍스트):** 텍스트 열에서 필터링할 때 고급 필터링을 사용하면 *포함(contains)* , *시작 문자(begins with)* 등의 필터를 사용할 수 있습니다. 이러한 필터는 확실히 일부 데이터 원본의 성능이 저하될 수 있습니다. 구체적으로, 정확한 일치가 필요한 경우에는 '포함(contains)' 필터를 사용하지 않아야 합니다.  결과는 실제 데이터에 따라 다를 수 있지만 인덱스를 사용하면 성능이 크게 달라질 수 있습니다.
+* **고급 텍스트 필터(_contains_ 및 유사 텍스트):** 텍스트 열에서 필터링할 때 고급 필터링을 사용하면 *포함(contains)* , *시작 문자(begins with)* 등의 필터를 사용할 수 있습니다. 이러한 필터는 확실히 일부 데이터 원본의 성능이 저하될 수 있습니다. 구체적으로, 정확한 일치가 필요한 경우에는 '포함(contains)' 필터를 사용하지 않아야 합니다. 결과는 실제 데이터에 따라 다를 수 있지만 인덱스를 사용하면 성능이 크게 달라질 수 있습니다.
 
 * **다중 선택 슬라이서:** 기본적으로 슬라이서는 단일 선택만 허용합니다. 필터에서 다중 선택을 허용하면 사용자가 슬라이서에서 몇 개의 항목을 선택하게 되므로 성능 문제가 발생할 수 있습니다. 예를 들어, 사용자가 10개의 제품을 선택하는 경우 새 항목을 선택할 때마다 쿼리가 기본 원본으로 전송됩니다. 쿼리가 완료되기 전에 사용자가 다음 항목을 선택할 수 있지만 이렇게 하면 기본 원본에서 추가 부하가 발생합니다.
 
-* **시각적 개체의 총계 해제 고려:** 기본적으로 테이블 및 메트릭은 총계와 소계를 표시합니다. 대부분의 경우 이러한 합계에 대한 값을 얻으려면 기본 원본에 별도의 쿼리를 전송해야 합니다. 이는 ‘DistinctCount’ 집계를 사용할 때마다 또는 SAP BW나 SAP HANA에서 DirectQuery를 사용할 때 모든 경우에 적용됩니다.  이러한 합계는 **서식** 창을 사용하여 해제해야 합니다.
+* **시각적 개체의 총계 해제 고려:** 기본적으로 테이블 및 메트릭은 총계와 소계를 표시합니다. 대부분의 경우 이러한 합계에 대한 값을 얻으려면 기본 원본에 별도의 쿼리를 전송해야 합니다. 이는 ‘DistinctCount’ 집계를 사용할 때마다 또는 SAP BW나 SAP HANA에서 DirectQuery를 사용할 때 모든 경우에 적용됩니다. 이러한 합계는 **서식** 창을 사용하여 해제해야 합니다.
 
 ### <a name="maximum-number-of-connections-option-for-directquery"></a>DirectQuery에 대한 최대 연결 수 옵션
 
@@ -365,7 +365,7 @@ DirectQuery는 기본적으로 최대 10개의 동시 연결을 엽니다. Power
 
 ![추적 폴더 열기 링크](media/desktop-directquery-about/directquery-about_06.png)
 
-**진단 옵션** 아래에서 **크래시 덤프/추적 폴더 열기**를 선택하면 다음 폴더가 열립니다. *\<User>\AppData\Local\Microsoft\Power BI Desktop\Traces*.
+**크래시 덤프/추적 폴더 열기**를 선택하면 **진단 옵션** 아래에서 다음 폴더가 열립니다. *\<User>\AppData\Local\Microsoft\Power BI Desktop\Traces*.
 
 해당 폴더의 부모 폴더로 이동하면 *AnalysisServicesWorkspaces*가 포함된 폴더가 표시됩니다. 이 폴더에는 열려 있는 Power BI Desktop 인스턴스마다 하나의 작업 영역 폴더가 포함되어 있습니다. 이러한 폴더의 이름은 *AnalysisServicesWorkspace2058279583*와 같이 정수 접미사로 지정됩니다.
 

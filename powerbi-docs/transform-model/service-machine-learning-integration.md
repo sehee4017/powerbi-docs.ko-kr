@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 1004549c37f4bff92e4a8b1d31b3844b7cdd0f2d
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 5562271eebc10789e27f7e65c7ff96b72de43aae
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83330408"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121055"
 ---
 # <a name="azure-machine-learning-integration-in-power-bi"></a>Power BI에서 Azure Machine Learning 통합
 
@@ -30,6 +30,9 @@ Azure Machine Learning에 대해 자세히 알아보려면 다음을 참조하�
 
 - 개요:  [Azure Machine Learning이란 무엇인가요?](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)
 - Azure Machine Learning 빠른 시작 및 자습서:  [Azure Machine Learning 설명서](https://docs.microsoft.com/azure/machine-learning/)
+
+> [!NOTE]
+> Azure Machine Learning 통합을 사용하려면 Power BI Premium 구독이 필요합니다.
 
 ## <a name="granting-access-to-the-azure-ml-model-to-a-power-bi-user"></a>Power BI 사용자에게 Azure ML 모델에 대한 액세스 권한 부여
 
@@ -60,7 +63,7 @@ Power BI에서 Azure ML 모델에 액세스하려면 사용자에게 Azure 구�
 
 6. **저장**을 선택합니다.
 
-7. 3단계부터 6단계까지 반복하여 특정 Machine Learning Studio(클래식) 웹 서비스 ‘또는’ 모델을 호스팅하는 Machine Learning 작업 영역 사용자에게 **읽기 권한자** 권한을 부여합니다. 
+7. 3단계부터 6단계까지 반복하여 특정 Machine Learning Studio(클래식) 웹 서비스 ‘또는’ 모델을 호스팅하는 Machine Learning 작업 영역 사용자에게 **읽기 권한자** 권한을 부여합니다.
 
 
 ## <a name="schema-discovery-for-machine-learning-models"></a>Machine Learning 모델의 스키마 검색

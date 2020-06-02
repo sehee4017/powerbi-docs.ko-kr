@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/10/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 2e32a61891cee2fb5e2a80167d5283962dc164bb
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: fdb3db1db1fe82743658f6a6073386701e7fe961
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83134758"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84121006"
 ---
 # <a name="managing-premium-capacities"></a>프리미엄 용량 관리
 
@@ -23,7 +23,7 @@ Power BI Premium 관리에는 Premium 용량을 만들고, 관리하고, 모니�
 
 ## <a name="creating-and-managing-capacities"></a>용량 만들기 및 관리
 
-Power BI 관리 포털의 **용량 설정** 페이지에는 구매한 V 코어 수와 사용 가능한 Premium 용량이 표시됩니다. 이 페이지에서 Office 365 전역 관리자 또는 Power BI 서비스 관리자는 사용 가능한 V 코어에서 Premium 용량을 만들거나 기존 Premium 용량을 수정할 수 있습니다.
+Power BI 관리 포털의 **용량 설정** 페이지에는 구매한 V 코어 수와 사용 가능한 Premium 용량이 표시됩니다. 이 페이지에서 전역 관리자 또는 Power BI 서비스 관리자는 사용 가능한 V 코어에서 프리미엄 용량을 만들거나 기존 프리미엄 용량을 수정할 수 있습니다.
 
 Premium 용량을 만들 때 관리자는 다음을 정의해야 합니다.
 
@@ -47,7 +47,7 @@ Premium 용량을 만들 때 관리자는 다음을 정의해야 합니다.
 
 Premium 용량은 다중 지역이라고 하는 Power BI 테넌트의 홈 지역이 아닌 지역에 할당할 수 있습니다. 다중 지역에서는 Power BI 콘텐츠가 상주하는 정의된 지리적 지역 내에서 데이터 센터에 대한 관리 제어를 제공합니다. 다중 지역 배포에 대한 이론적 원리는 일반적으로 성능 및 확장성이 아니라 회사 또는 정부 규정 준수를 위한 것입니다. 보고서 및 대시보드 로드에는 여전히 홈 지역에 대한 메타데이터 요청이 포함됩니다. 자세한 내용은 [Power BI Premium에 대한 다중 지역 지원](service-admin-premium-multi-geo.md)을 참조하세요.
 
-Power BI 서비스 관리자와 Office 365 전역 관리자는 Premium 용량을 수정할 수 있습니다. 특히 다음을 수행할 수 있습니다.
+Power BI 서비스 관리자와 전역 관리자는 프리미엄 용량을 수정할 수 있습니다. 특히 다음을 수행할 수 있습니다.
 
 - 용량 크기를 변경하여 리소스를 확장 또는 축소.
 - 용량 관리자를 추가 또는 제거.
@@ -67,7 +67,7 @@ Premium 용량을 삭제하는 것은 가능하며 작업 영역 및 콘텐츠�
 
 Power BI 관리 포털이나 작업 영역의 **작업 영억** 창에서 작업 영역을 프리미엄 용량에 할당할 수 있습니다.
 
-용량 관리자는 물론 Office 365 전역 관리자 또는 Power BI 서비스 관리자는 Power BI 관리 포털에서 작업 영역을 대량으로 할당할 수 있습니다. 대량 할당은 다음에 적용될 수 있습니다.
+용량 관리자는 물론 전역 관리자 또는 Power BI 서비스 관리자는 Power BI 관리 포털에서 작업 영역을 대량으로 할당할 수 있습니다. 대량 할당은 다음에 적용될 수 있습니다.
 
 - **사용자의 작업 영역** - 개인 작업 영역을 포함하여 해당 사용자가 소유하는 모든 작업 영역이 Premium 용량에 할당됩니다. 여기에는 이미 다른 Premium 용량에 할당된 작업 영역을 다시 할당하는 작업이 포함됩니다. 또한 사용자에게 작업 영역 할당 권한도 할당됩니다.
 

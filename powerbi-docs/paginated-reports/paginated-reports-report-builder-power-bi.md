@@ -4,26 +4,39 @@ description: 페이지를 매긴 보고서는 SQL Server Reporting Services의 �
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
+featuredvideoid: jXTiYJKw1Rs
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 05/14/2020
-ms.openlocfilehash: 0cf3fcdbcfb49d501ccbb7fa191b566e298c84b7
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.date: 05/19/2020
+ms.openlocfilehash: 69d6f3c828066a66c59ab8becf4fd4f43e54c547
+ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565509"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83733419"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Power BI Premium의 페이지를 매긴 보고서란?
 
-페이지를 매긴 보고서는 SQL Server Reporting Services의 표준 보고서 형식과 함께 이제 Power BI 서비스에서 사용할 수 있습니다. 이러한 보고서를 인쇄 또는 공유할 수 있습니다. 이러한 보고서가 “페이지를 매긴” 보고서로 불리는 이유는 페이지에 적합하게 형식 지정되어 있기 때문입니다. 이러한 보고서에는 테이블이 여러 페이지에 걸쳐 있는 경우에도 테이블의 모든 데이터가 표시됩니다. 보고서 페이지 레이아웃을 정확하게 제어할 수 있기 때문에 “pixel perfect”라고도 합니다. 페이지를 매긴 보고서는 SQL Server Reporting Services의 RDL 보고서 기술을 기반으로 합니다. 보고서 작성기는 페이지를 매긴 보고서를 작성하기 위한 독립 실행형 도구입니다. 
+페이지를 매긴 보고서는 인쇄 또는 공유하도록 디자인된 보고서입니다. 이러한 보고서가 페이지를 매긴 보고서로 불리는 이유는 페이지에 적합하게 형식 지정되어 있기 때문입니다. 이러한 보고서에는 테이블이 여러 페이지에 걸쳐 있는 경우에도 테이블의 모든 데이터가 표시됩니다. 보고서 페이지 레이아웃을 정확하게 제어할 수 있기 때문에 *pixel perfect*라고도 합니다. Power BI Report Builder는 페이지를 매긴 보고서를 작성하기 위한 독립 실행형 도구입니다. 페이지를 매긴 보고서는 SQL Server Reporting Services의 표준 보고서 형식인 RDL 보고서 기술을 기반으로 합니다. 
 
-페이지를 매긴 보고서에는 여러 페이지가 있을 수 있습니다. 예를 들어 이 보고서에는 563페이지가 있습니다. 각 페이지는 청구서당 한 페이지가 정확하게 배치되고 머리글과 바닥글이 반복됩니다.
+페이지를 매긴 보고서에는 흔히 여러 페이지가 있습니다. 예를 들어 이 보고서에는 563페이지가 있습니다. 각 페이지는 청구서당 한 페이지가 정확하게 배치되고 머리글과 바닥글이 반복됩니다.
 
 ![페이지를 매긴](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
 보고서 작성기에서 보고서를 미리 본 후 Power BI 서비스, `https://app.powerbi.com` 에 게시할 수 있습니다. 서비스에 보고서를 게시하려면 Power BI Pro 라이선스가 필요합니다. 작업 영역이 Power BI Premium 용량에 포함된 경우 내 작업 영역 또는 작업 영역에서 페이지를 매긴 보고서를 게시하고 공유할 수 있습니다. 또한 Power BI 관리자는 Power BI 관리 포털의 [프리미엄 용량 섹션](../admin/service-admin-premium-workloads.md#paginated-reports)에서 페이지를 매긴 보고서를 사용하도록 설정해야 합니다. 
+
+## <a name="compare-power-bi-reports-and-paginated-reports"></a>Power BI 보고서와 페이지를 매긴 보고서 비교
+
+페이지를 매긴 보고서의 주요 이점은 길이에 관계없이 테이블의 모든 데이터를 인쇄하는 기능입니다. Power BI 보고서에 테이블을 배치하는 그림. 페이지에 테이블의 일부 행이 표시되고 나머지 행을 볼 수 있도록 스크롤 막대가 표시됩니다. 해당 페이지를 인쇄하거나 PDF로 내보내는 경우 페이지에서 표시되는 행만 출력됩니다. 
+
+이제 페이지를 매긴 보고서에 동일한 테이블을 추가한다고 가정합니다. 인쇄하거나 PDF로 내보내는 경우 페이지를 매긴 보고서에는 해당 테이블의 모든 행을 인쇄하는 데 필요한 만큼의 페이지가 있습니다. 
+
+다음 비디오에서는 Peter Myers(Microsoft Most Valued Professional - 데이터 플랫폼)와 Chris Finlan(수석 프로그램 관리자)이 두 보고서 형식으로 비슷한 테이블을 인쇄하는 방법을 보여 줍니다. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jXTiYJKw1Rs?list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT" frameborder="0" allowfullscreen></iframe>
+
+이 비디오는 8개 모듈로 구성된 비디오 기반 과정 [하루에 배우는 Power BI 페이지를 매긴 보고서](../learning-catalog/paginated-reports-online-course.md)의 일부입니다. 이 과정은 Power BI 페이지를 매긴 보고서를 만들고 게시하고 배포하는 데 필요한 기술 지식을 가진 보고서 작성자로서 역량을 강화하도록 설계되었습니다.
 
 ## <a name="create-reports-in-power-bi-report-builder"></a>Power BI 보고서 작성기에서 보고서 만들기
 

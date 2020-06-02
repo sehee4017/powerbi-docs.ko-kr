@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/12/2020
+ms.date: 05/20/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 1a6cf5cad4fe4b76d44dcfaecd81324003687b10
-ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
+ms.openlocfilehash: aa8b457dfd33cff40dbd651f0e07811e361e52d9
+ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83407889"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84120941"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>서비스 주체를 사용하여 Premium 작업 영역 및 데이터 세트 작업 자동화
 
@@ -29,7 +29,7 @@ Power BI Premium은 Power BI Embedded와 동일한 서비스 주체 기능을 �
 - Azure Logic Apps
 - 사용자 지정 클라이언트 애플리케이션
 
-서비스 주체는 [새 작업 영역](../collaborate-share/service-new-workspaces.md)에서만 XMLA 엔드포인트와 함께 사용할 수 있습니다. 클래식 작업 영역은 지원되지 않습니다. 서비스 주체는 할당된 작업 영역에 대한 작업을 수행하는 데 필요한 권한만 갖습니다. 권한은 일반 UPN 계정과 마찬가지로 작업 영역 액세스를 통해 할당됩니다.
+[새 작업 영역](../collaborate-share/service-new-workspaces.md)만 서비스 주체를 사용한 XMLA 엔드포인트 연결을 지원합니다. 클래식 작업 영역은 지원되지 않습니다. 서비스 주체는 할당된 작업 영역에 대한 작업을 수행하는 데 필요한 권한만 갖습니다. 권한은 일반 UPN 계정과 마찬가지로 작업 영역 액세스를 통해 할당됩니다.
 
 쓰기 작업을 수행하려면 용량의 **데이터 세트 워크로드**에 [읽기-쓰기가 사용하도록 설정된 XMLA 엔드포인트](service-premium-connect-tools.md#enable-xmla-read-write)가 있어야 합니다. Power BI Desktop에서 게시된 데이터 세트는 [향상된 메타데이터 형식](../connect-data/desktop-enhanced-dataset-metadata.md) 기능이 사용하도록 설정되어 있어야 합니다.
 
@@ -91,7 +91,7 @@ $PWord = ConvertTo-SecureString -String $AppSecret -AsPlainText -Force
 
 $Credential = New-Object -TypeName "System.Management.Automation.PSCredential" -ArgumentList $AppId, $PWord
 
-Invoke-ProcessTable -Server "powerbi://api.powerbi.com/v1.0/myorg/myworkspace" -TableName "mytable" -Database "mydataset" -RefreshType "Full" -ServicePrincipal -ApplicationId $AppId -TenantId $TenantId -Credential $Credential
+Invoke-ProcessTable -Server "powerbi://api.powerbi.com/v1.0/myorg/myworkspace" -TableName "mytable" -DatabaseName "mydataset" -RefreshType "Full" -ServicePrincipal -ApplicationId $AppId -TenantId $TenantId -Credential $Credential
 ```
 
 ### <a name="amo-and-adomd"></a>AMO 및 ADOMD
