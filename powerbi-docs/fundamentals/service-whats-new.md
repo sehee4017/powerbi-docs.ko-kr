@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 78031bb4f8326b50917b5c299948518717cc18a9
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 2f98071000715c65f50f39eb4d121a4af6e72f99
+ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83566066"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83813350"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 서비스의 새로운 기능
 **Power BI 서비스**의 알려진 문제 및 최근에 릴리스된 기능에 대해서는 이 페이지를 확인하세요. 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -174,7 +174,7 @@ ms.locfileid: "83566066"
 
 ### <a name="april-2018"></a>2018년 4월
 * [데이터 보호에 대한 Power BI 백서](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
-* Power BI 서비스 [감사 로그](../admin/service-admin-auditing.md)는 Office 365 테넌트에 대해 기본적으로 설정됩니다.
+* Power BI 서비스 [감사 로그](../admin/service-admin-auditing.md)는 조직에 대해 기본적으로 설정됩니다.
 
 ### <a name="march-2018"></a>2018년 3월
 * Power BI 서비스의 [영구 필터](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)
@@ -188,7 +188,7 @@ ms.locfileid: "83566066"
 ### <a name="january-2018"></a>2018년 1월
 *    Power BI 보고서 공유 및 즐겨찾기에 추가
 *    Azure SQL Database 및 Data Warehouse에 대해 OAuth2 및 DirectQuery SSO(Single Sign-on) 지원
-*    지역 내 감사: 감사 로그가 이제 테넌트와 동일한 Office 365 지역에 저장됩니다.
+*    지역 내 감사: 감사 로그가 이제 테넌트와 동일한 Microsoft 365 지역에 저장됩니다.
 *    SharePoint Online [Power BI 보고서 웹 파트](https://go.microsoft.com/fwlink/p/?LinkId=825698) 출시
 *    테넌트의 모든 사용자에 대해 Power BI 시각적 개체 보기를 끄는 관리자 컨트롤
 *    AAS(Azure Analysis Services)에 대해 예약된 새로 고침 지원
@@ -254,7 +254,7 @@ ms.locfileid: "83566066"
 
 ### <a name="january-2017"></a>2017년 1월
 * [Power BI는 관리자 역할](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#pbiadminrole)을 사용하여 Power BI를 관리합니다.
-* Office 365 감사 포털의 [Power BI 감사 로그](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#auditlogs)는 전역적으로 사용할 수 있습니다.
+* 감사 포털의 [Power BI 감사 로그](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#auditlogs)는 전역적으로 사용할 수 있습니다.
 * [개발자 도구 및 Power BI 시각적 개체 API](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/)의 버전 1.4가 릴리스되었습니다.
 * [실시간 스트리밍 기능 집합](https://powerbi.microsoft.com/blog/announcing-general-availability-of-power-bi-real-time-streaming-datasets/)이 일반 기능으로 릴리스되었습니다.
 * 코드 줄을 작성하지 않고 [Power Automate를 사용하여 Power BI로 데이터를 푸시](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/)합니다.
@@ -277,7 +277,7 @@ ms.locfileid: "83566066"
 * [새로운 Microsoft 팀과 Power BI 통합](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/)을 이용합니다.
 * R을 이해하지 않고 Power BI에서 [R 시각화](https://powerbi.microsoft.com/blog/r-powered-custom-visuals/)를 디자인합니다.
 * 미리 보기: [Azure Analysis Services](https://powerbi.microsoft.com/blog/introducing-azure-analysis-services/)를 사용하여 BI 전문가는 클라우드 또는 온-프레미스에 보존하는 데이터를 기반으로 BI 의미 체계 모델을 만들어 비즈니스 사용자에게 단순화된 데이터 보기를 제공할 수 있습니다.
-* 새로운 [Power BI 서비스 관리자 역할](https://powerbi.microsoft.com/blog/making-it-easier-to-administer-power-bi/)은 Power BI 관리 포털에 액세스할 수 있지만 다른 Office 365 관리 액세스할 수 없는 사용자에게 할당할 수 있습니다.
+* 새로운 [Power BI 서비스 관리자 역할](https://powerbi.microsoft.com/blog/making-it-easier-to-administer-power-bi/)은 Power BI 관리 포털에 액세스해야 하지만 다른 관리 액세스 권한은 없어야 하는 사용자에게 할당할 수 있습니다.
 * [Power BI를 사용하여 MYOB 고급 데이터](https://powerbi.microsoft.com/blog/explore-your-myob-advanced-data-with-power-bi/)를 탐색합니다.
 * 비관리자가 [Power BI 감사 로그](https://powerbi.microsoft.com/blog/tech-tip-thursday-power-bi-auditing-for-a-non-administrator/)를 검토할 수 있는 방법
 * [텍스트 열을 도구 설명으로](https://powerbi.microsoft.com/blog/tech-tip-thursday-displaying-text-columns-in-tool-tips/) 표시합니다.
@@ -693,7 +693,7 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 **2015년 8월 4일**
 
 * Power BI는 이제 [회로 ID](https://powerbi.microsoft.com/blog/circuit-id-data-with-power-bi/) 사용자에게 모든 회로 ID 클라우드 통신 서비스를 추적하고 모니터링하는 능력을 제공하여 올바른 비즈니스 결정을 내릴 수 있도록 해줍니다. 시작 방법에 대한 자세한 내용은 Power BI용 회로 ID 콘텐츠 팩 [도움말 페이지](../connect-data/service-connect-to-services.md)를 참조하세요.
-* 오늘 공개된 공유 대시보드 기능 향상으로 더욱 쉽게 사용할 수 있습니다.  조직이 전자 메일에 Office 365를 사용하는 경우, Outlook에서 전자 메일을 보내는 것과 동일한 방식으로 [전자 메일 배포 그룹에 공유](https://powerbi.microsoft.com/blog/easier-dashboard-sharing-with-distribution-groups/)할 수 있습니다.  배포 그룹의 주소를 입력하고 공유를 클릭합니다.  배포 그룹의 모든 구성원은 전자 메일 초대를 받아 대시보드를 보게 됩니다.
+* 오늘 공개된 공유 대시보드 기능 향상으로 더욱 쉽게 사용할 수 있습니다.  조직이 전자 메일에 Microsoft 365를 사용하는 경우 Outlook에서 전자 메일을 보내는 것과 동일한 방식으로 [전자 메일 배포 그룹에 공유](https://powerbi.microsoft.com/blog/easier-dashboard-sharing-with-distribution-groups/)할 수 있습니다.  배포 그룹의 주소를 입력하고 공유를 클릭합니다.  배포 그룹의 모든 구성원은 전자 메일 초대를 받아 대시보드를 보게 됩니다.
 
 **2015년 7월 28일**
 
@@ -703,7 +703,7 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 
 * Power BI의 "일반 공급"(GA) 릴리스가 공개되었음을 알려드립니다. [Power BI Pro](service-self-service-signup-for-power-bi.md)에 지금 등록합니다. GA 릴리스의 일부로서, 몇 가지 멋진 새로운 기능을 제공하려 합니다.
 * 새 시각화 요소 및 보고서 작성 환경: 새 보고 캔버스에는 시각화를 더 다양하게 선택하고 제목, 범례, 축, 색상, 배경 등의 서식 지정을 더욱 세밀하게 제어할 수 있습니다.
-* [Power BI 그룹](../collaborate-share/service-create-distribute-apps.md): Office 365 그룹을 기반으로 하는 강력한 공동 작업 환경을 제공합니다.
+* [Power BI 그룹](../collaborate-share/service-create-distribute-apps.md): Microsoft 365 그룹을 기반으로 하는 강력한 공동 작업 환경을 제공합니다.
 * [조직 콘텐츠 팩](../collaborate-share/service-organizational-content-pack-introduction.md): Power BI를 사용하여 대시보드 및 보고서를 매우 간단하게 만들 수 있고, 사용자가 이 콘텐츠를 조직 콘텐츠 갤러리에 게시할 수 있게 되었습니다.
 * [전체 Excel 파일 가져오기](../connect-data/service-excel-workbook-files.md): Excel Online에서 하듯 비즈니스용 OneDrive에 저장된 Excel 통합 문서를 Power BI에 가져와 전체 통합 문서를 볼 수 있습니다.
 * [CSV 파일 가져오기](../connect-data/service-get-data-from-files.md): Excel 또는 Power BI Desktop 파일처럼 쉼표로 구분된 값 텍스트(CSV) 파일은 Power BI 대시보드 및 보고서용 데이터 세트가 될 수도 있습니다.
@@ -714,7 +714,7 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 
 * Acumatica Cloud ERP는 강력하고 유연한 플랫폼에서 제공되는 재무, 배포, CRM 및 프로젝트 회계 등 완전 통합 비즈니스 관리 애플리케이션 제품군을 제공합니다. Power BI [Acumatica 콘텐츠 팩](https://powerbi.microsoft.com/blog/analyze-and-explore-your-acumatica-cloud-erp-data-with-power-bi/)을 사용하면 신속하게 연결하고 기회 데이터에 대한 이해력을 즉각적으로 넓힐 수 있습니다. 이 콘텐츠에는 날짜별로 획득한 총 기회 수 등과 같은 세부 정보를 탐색하고 제공하기 위해 기본 제공된 대시보드, 일련의 보고서, 큐레이트 데이터 세트가 있습니다. 자세한 내용은 [여기](../connect-data/service-connect-to-services.md)를 읽어보세요. 
 * [Azure HDInsight](https://powerbi.microsoft.com/blog/visualize-big-data-with-power-bi-and-spark-for-azure-hdinsight/)는 이제 완전히 관리되는 Spark 서비스를 제공합니다. 이 기능을 통해 반복적인 기계 학습과 대화형 데이터 분석 등의 시나리오를 구성할 수 있게 되었습니다. Power BI를 통해 간단한 실시간 탐색을 제공하는 HDInsight의 Spark의 데이터에 직접 연결할 수 있습니다. 자세한 내용은 [도움말 설명서](../connect-data/power-bi-data-sources.md)를 읽어보세요.
-* [Office 365 탐색 및 애플리케이션 시작 관리자 통합](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#launcher) 이제 한 번의 클릭으로 Office 365 애플리케이션 모두를 탐색할 수 있습니다.
+* [Microsoft 365 탐색 및 애플리케이션 시작 관리자 통합](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#launcher). 이제 한 번의 클릭으로 Microsoft 365 애플리케이션 모두를 탐색할 수 있습니다.
 * 타일을 클릭할 때 사용자가 탐색하는 [사용자 지정 URL 지정](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#url) 이제 특정 보고서, 다른 대시보드, SSRS 보고서 또는 외부 웹사이트 등 사용자가 이동하는 곳을 정확하게 제어할 수 있게 되었습니다. 
 * Power BI에서 사용하는 [스토리지의 표시 유형 및 관리](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#storage)
 * [질문과 대답에 표시되는 시각적 개체와 필드 구성](https://powerbi.microsoft.com/blog/new-capabilities-added-to-power-bi#visual)
