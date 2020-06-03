@@ -3,19 +3,19 @@ title: 무료 라이선스를 사용하는 사용자의 기능 사용 가능 여
 description: 소비자와 무료 사용자가 사용할 수 있는 기능을 보여 주는 설명 및 차트
 author: mihart
 ms.reviewer: ''
-ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 04/17/2020
 ms.author: mihart
+ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: 088844ccf52a67cfd67590e62a2dd8cab83add66
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: cea72988c812bd4628e62600c6585e93e7fecc11
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348416"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84160206"
 ---
 # <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>*소비자* 및 다른 무료 라이선스 사용자를 위한 Power BI 기능 목록
 
