@@ -9,10 +9,10 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/28/2020
 ms.openlocfilehash: 865b60800b68aed410f10964148afdf2791b1ae1
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
+ms.lasthandoff: 06/02/2020
 ms.locfileid: "83279161"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI 페이지를 매긴 보고서의 지원되는 데이터 원본

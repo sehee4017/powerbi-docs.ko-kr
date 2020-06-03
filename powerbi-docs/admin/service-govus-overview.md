@@ -6,15 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/07/2020
+ms.date: 05/27/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 9f94d6a1b99bce40d3f901dd71877da3f6b236af
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: f4f0bc5de0480748344fa029c774c4d262facc08
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83792892"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159700"
 ---
 # <a name="power-bi-for-us-government-customers"></a>미국 정부 기관 고객용 Power BI
 이 문서는 Microsoft 365 정부 플랜의 일부로 Power BI를 배포하는 정부 기관 고객을 위한 것입니다. 정부 플랜은 미국 규정 준수 및 보안 표준을 충족해야 하는 조직의 고유한 요구 사항을 위해 설계되었습니다. 미국 정부 기관 고객을 위해 고안된 Power BI 서비스는 상용 Power BI 서비스 버전과 다릅니다. 이러한 기능 차이는 다음 섹션에 설명되어 있습니다.
@@ -97,7 +98,7 @@ SQL 데이터베이스에 대한 방화벽을 설정하려면 [IP 방화벽 규�
 |데이터 관리|데이터 관리 게이트웨이|사용 가능|사용 가능|사용 가능|
 |  |Azure SQL Database에서 데이터 암호화|사용 가능|사용 가능|사용 가능|
 |  |Power BI용 Blob Storage에서 데이터 암호화|사용 가능|사용 가능|사용 가능|
-|제품 간 통합|Power BI 웹 파트를 사용하여 SharePoint Online에 포함|사용할 수 없음|사용할 수 없음|사용할 수 없음|
+|제품 간 통합|Power BI 웹 파트를 사용하여 SharePoint Online에 포함|사용 가능|사용할 수 없음|사용할 수 없음|
 |  |Embed 웹 파트를 사용하여 SharePoint Online에 포함|사용 가능|사용 가능|사용 가능|
 |  |데이터 흐름 및 AI 함수|사용할 수 없음|사용할 수 없음|사용할 수 없음|
 |  |데이터 기반 경고를 위한 Power Automate 연결|사용할 수 없음|사용할 수 없음|사용할 수 없음|
