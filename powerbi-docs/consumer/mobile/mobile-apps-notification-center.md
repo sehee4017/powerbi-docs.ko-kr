@@ -20,7 +20,7 @@ ms.locfileid: "83276102"
 
 | ![iPhone](./media/mobile-apps-notification-center/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-notification-center/ipad-logo-50-px.png) | ![Android 휴대폰](./media/mobile-apps-notification-center/android-phone-logo-50-px.png) | ![Android 태블릿](./media/mobile-apps-notification-center/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-apps-notification-center/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
-| iPhones |iPad |Android 휴대폰 |Android 태블릿 |Windows 10 디바이스 |
+| iPhone |iPad |Android 휴대폰 |Android 태블릿 |Windows 10 디바이스 |
 
 >[!NOTE]
 >**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](https://go.microsoft.com/fwlink/?linkid=2121400)
@@ -41,7 +41,7 @@ ms.locfileid: "83276102"
    [Power BI가 알리는 방법](mobile-apps-notification-center.md#change-or-turn-off-notifications-on-your-mobile-device)을 변경할 수 있습니다.
 2. 알림을 받은 경우 모바일 디바이스에서 Power BI에 로그인할 때 알림 벨 아이콘 ![알림 벨](./media/mobile-apps-notification-center/powerbi-alert-tile-notification-icon.png) (iOS 및 Android) 또는 전역 탐색 단추 ![알림 닷](./media/mobile-apps-notification-center/power-bi-iphone-alert-global-nav-button.png) (Windows 10 디바이스)에 노란색 점이 표시됩니다. 
 
-3. 알림 센터에서 알림을 보려면 알림 벨 ![알림 벨](./media/mobile-apps-notification-center/powerbi-alert-tile-notification-icon.png) (iOS 및 Android) 또는 알림 센터 아이콘 ![알림 아이콘](./media/mobile-apps-notification-center/power-bi-windows-10-notification-icon.png) (Windows 10 디바이스)에 노란색 점이 표시됩니다.
+3. 알림 센터에서 알림을 보려면 알림 벨 ![알림 벨](./media/mobile-apps-notification-center/powerbi-alert-tile-notification-icon.png) (iOS 및 Android) 또는 알림 센터 아이콘 ![알림 아이콘](./media/mobile-apps-notification-center/power-bi-windows-10-notification-icon.png) (Windows 10 디바이스)을 탭합니다.
    
     알림은 가장 최근 메시지부터 읽지 않은 메시지를 강조하여 표시됩니다. 알림은 삭제하거나 최대 제한인 100개에 도달하지 않는 한 90일 동안 유지됩니다.
    

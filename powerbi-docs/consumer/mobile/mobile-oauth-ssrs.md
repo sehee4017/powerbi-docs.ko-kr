@@ -7,23 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/11/2020
-ms.openlocfilehash: 40bbf09e684b4fd3f86564c9b469c6ff248954a6
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.date: 06/01/2020
+ms.openlocfilehash: 3ca896512103aa285170eadc8435003257e57ac3
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565721"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84316089"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth를 사용하여 Power BI Report Server 및 SSRS에 연결
 
 OAuth를 통해 Power BI Report Server 및 Reporting Services에 연결하여 모바일 보고서 또는 KPI를 표시할 수 있습니다. Power BI Report Server 및 SQL Server Reporting Services 2016 이상에 연결하기 위해 Power BI 모바일 앱에서 OAuth 인증을 지원하도록 환경을 구성하는 방법을 알아봅니다.
-
-Adam이 OAuth를 사용하여 Power BI Mobile에서 SSRS에 연결하는 것을 확인합니다.
-
-
-<iframe width="560" height="350" src="https://www.youtube.com/embed/okzPAI2uUek" frameborder="0" allowfullscreen></iframe>
-
 
 > [!NOTE]
 > 인증을 위해 WAP를 사용하여 Power BI Report Server에서 호스팅되는 Power BI 보고서 보기는 이제 iOS 및 Android 앱에서 지원됩니다.
@@ -98,7 +92,7 @@ AD FS 관리 화면 내에 Power BI 모바일 앱에 대한 정보가 포함된 
 
 4. 추가하는 애플리케이션의 **이름**을 제공합니다. 
 
-5. **클라이언트 ID**가 자동으로 생성되는 반면 iOS 및 Android에 대해 484d54fc-b481-4eee-9505-0258a1913020을 입력합니다. 
+5. **클라이언트 ID**가 자동으로 생성되는 반면 iOS 및 Android에 대해 484d54fc-b481-4eee-9505-0258a1913020을 입력합니다.
 
 6. 다음 **리디렉션 URL**을 추가하려고 합니다.
 
@@ -195,7 +189,7 @@ Active Directory 내의 WAP 서버 컴퓨터 계정에서 제한된 위임을 �
 Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentication ADFS -ExternalUrl https://reports.contoso.com/ -ExternalCertificateThumbprint "0ff79c75a725e6f67e3e2db55bdb103efc9acb12" -BackendServerUrl https://ContosoSSRS/ -ADFSRelyingPartyName "Reporting Services - Web API" -BackendServerAuthenticationSPN "http/ContosoSSRS.contoso.com" -UseOAuthAuthentication
 ```
 
-| 매개 변수 | 의견 |
+| 매개 변수 | 주석 |
 | --- | --- |
 | **ADFSRelyingPartyName** |ADFS 내에서 애플리케이션 그룹의 일부로 만든 Web API 이름입니다. |
 | **ExternalCertificateThumbprint** |외부 사용자에 사용할 인증서입니다. 이 인증서가 모바일 디바이스에서 유효하고 신뢰할 수 있는 인증 기관에서 제공되는 것이 중요합니다. |
@@ -254,5 +248,5 @@ Fiddler를 사용할 경우 로그인이 성공적으로 작동하면 WAP 애플
 [Active Directory Federation Services](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services)  
 [Windows Server 2016의 웹 애플리케이션 프록시](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server)  
 [AD FS 사전 인증을 사용하여 애플리케이션 게시](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)  
-[AD FS 2016 및 Azure MFA 구성](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa)  
+[AD FS 2016 및 Azure MFA구성](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa)  
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

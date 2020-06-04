@@ -92,9 +92,9 @@ Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
 4. 또한 대시보드를 눌러서 열고 해당 대시보드에서 타일을 확인할 수 있습니다. 대시보드에서 다음과 같이 상호 작용할 수 있습니다.
    
    * 타일과 [상호작용하려면 해당 타일을 탭합니다](mobile-tiles-in-the-mobile-apps.md).
-   * 타일 뒤의 [보고서를 엽니다](mobile-reports-in-the-mobile-apps.md).
+   * 타일 뒤의 [보고서 열기](mobile-reports-in-the-mobile-apps.md).
    * [다른 사람을 초대하여 대시보드를 봅니다](mobile-share-dashboard-from-the-mobile-apps.md).
-   * 타일의 [스냅샷에 주석 달기 및 공유](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
+   * 타일의 [스냅샷에 주석 달기 및 공유](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md).
 5. 내 작업 영역으로 돌아가려면 왼쪽 위 모서리의 대시보드 이름을 탭한 다음 **내 작업 영역**을 탭합니다.
    
    ![이동 경로](./media/mobile-apps-view-dashboard/power-bi-dashboard-breadcrumb.png)
@@ -102,7 +102,7 @@ Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
 ## <a name="view-dashboards-on-your-android-phone"></a>Android 휴대폰에서 대시보드 보기
 1. Android 휴대폰에서 Power BI 앱을 열고 로그인합니다.
    
-   먼저 [Android 앱을 다운로드](https://go.microsoft.com/fwlink/?LinkID=544867)해야 합니까?
+   먼저 [Android 앱을 다운로드](https://go.microsoft.com/fwlink/?LinkID=544867)해야 하나요?
 2. 대시보드를 열려면 누릅니다.   
    
    ![대시보드 홈](./media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
@@ -126,7 +126,7 @@ Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
 ## <a name="view-dashboards-on-your-android-tablet"></a>Android 태블릿에서 대시보드 보기
 1. Android 태블릿에서 Power BI 앱을 열고 로그인합니다.
    
-   먼저 [Android 앱을 다운로드](https://go.microsoft.com/fwlink/?LinkID=544867)해야 합니까?
+   먼저 [Android 앱을 다운로드](https://go.microsoft.com/fwlink/?LinkID=544867)해야 하나요?
 2. 대시보드를 열려면 누릅니다.   
    
    ![대시보드 홈](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
@@ -153,7 +153,7 @@ Power BI 서비스의 Power BI 대시보드는 다음과 같습니다.
 [대시보드의 휴대폰 보기를 만드는](../../create-reports/service-create-dashboard-mobile-phone-view.md) 방법에 대해 알아봅니다.
 
 ## <a name="next-steps"></a>다음 단계
-* Google play에서 [Android 앱 다운로드](https://go.microsoft.com/fwlink/?LinkID=544867)  
+* Google Play에서 [Android 앱 다운로드](https://go.microsoft.com/fwlink/?LinkID=544867)  
 * [Power BI용 Android 앱 시작](mobile-android-app-get-started.md)  
 * [Power BI란?](../../fundamentals/power-bi-overview.md)
-* 질문이 있으신가요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

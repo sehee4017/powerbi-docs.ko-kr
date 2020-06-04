@@ -25,7 +25,7 @@ Power BI Desktop 내에서 역할 및 규칙을 정의할 수 있습니다. Powe
    ![만들기 선택](./media/rls-desktop-define-roles/powerbi-desktop-security-create-role.png)
 4. **역할**에서 역할 이름을 입력합니다. 
 5. **테이블**에서 DAX 규칙을 적용할 테이블을 선택합니다.
-6. **테이블 필터 DAX 식** 상자에 DAX 식을 입력합니다. 이 식은 true 또는 false 값을 반환합니다. 예: ```[Entity ID] = “Value”```
+6. **테이블 필터 DAX 식** 상자에 DAX 식을 입력합니다. 이 식은 true 또는 false 값을 반환합니다. 예: ```[Entity ID] = “Value”```.
       
    ![역할 관리 창](./media/rls-desktop-define-roles/powerbi-desktop-security-create-rule.png)
 

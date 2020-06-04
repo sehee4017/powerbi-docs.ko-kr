@@ -60,4 +60,4 @@ ms.locfileid: "83142304"
 
 * [대시보드 및 보고서를 공동 작업 및 공유하는 방법](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md)
 * [관리 포털에서 추천 콘텐츠 관리](../admin/service-admin-portal.md#manage-featured-content)
-* 질문이 있으신가요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

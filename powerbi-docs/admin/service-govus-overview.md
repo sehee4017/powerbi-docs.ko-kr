@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/27/2020
+ms.date: 06/02/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: f4f0bc5de0480748344fa029c774c4d262facc08
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
+ms.openlocfilehash: 8be103d01b5f46c510a1e3658d5a5e29d566a5ff
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84159700"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336547"
 ---
 # <a name="power-bi-for-us-government-customers"></a>미국 정부 기관 고객용 Power BI
 이 문서는 Microsoft 365 정부 플랜의 일부로 Power BI를 배포하는 정부 기관 고객을 위한 것입니다. 정부 플랜은 미국 규정 준수 및 보안 표준을 충족해야 하는 조직의 고유한 요구 사항을 위해 설계되었습니다. 미국 정부 기관 고객을 위해 고안된 Power BI 서비스는 상용 Power BI 서비스 버전과 다릅니다. 이러한 기능 차이는 다음 섹션에 설명되어 있습니다.
@@ -83,12 +83,12 @@ SQL 데이터베이스에 대한 방화벽을 설정하려면 [IP 방화벽 규�
 |  |공유 및 액세스 제어에 Active Directory 그룹 사용|사용 가능|사용 가능|사용 가능|
 |  |Office 365 보안 및 준수 관리 센터를 통한 감사|사용 가능|사용 가능|사용 가능|
 |  |외부 사용자 공유|사용 가능|사용 가능|사용 가능|
-|  |보고서 및 대시보드의 사용량 메트릭|사용할 수 없음|사용할 수 없음|사용할 수 없음|
+|  |보고서 및 대시보드의 사용량 메트릭|사용 가능|사용 가능|사용 가능|
 |  |GCC와 상용 클라우드 간 Azure B2B|사용할 수 없음|사용할 수 없음|사용할 수 없음|
 |보고서 작성|대시보드 및 보고서 만들기 및 보기|사용 가능|사용 가능|사용 가능|
 |  |예약된 데이터 새로 고침|사용 가능|사용 가능|사용 가능|
 |  |새로 고칠 수 있는 팀 대시보드|사용 가능|사용 가능|사용 가능|
-|  |페이지를 매긴 보고서|사용 가능|로드맵|로드맵|
+|  |페이지를 매긴 보고서|사용 가능|사용 가능|사용 가능|
 |  |템플릿 앱|사용할 수 없음|사용할 수 없음|사용할 수 없음|
 |데이터에 연결|Excel에서 데이터 및 보고서 가져오기|사용 가능|사용 가능|사용 가능|
 |  |CSV 파일에서 데이터 가져오기|사용 가능|사용 가능|사용 가능|

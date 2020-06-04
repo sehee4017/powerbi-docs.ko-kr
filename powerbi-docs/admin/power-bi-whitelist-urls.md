@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.custom: seodec18
-ms.openlocfilehash: f74bfb92508564a01422729eefc251acc124baea
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: c3a3bd98dc65e3b73ffe04b95fa9001c90af1d53
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83692737"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315928"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>허용 목록의 Power BI URL
 [//]: # "suparnap, miwehnia는 이 목록을 유지 관리하기 위한 연락처입니다."
@@ -46,14 +46,15 @@ Power BI의 일반적인 사용의 경우 아래 테이블 및 연결된 사이�
 
 | 행 | 용도 | 대상 | 포트 |
 | --- | --- | --- | --- |
-| 1 | **필수:** 백 엔드 API | *.analysis.windows.net | TCP 443 |
-| 2 | **필수:** 백 엔드 API | *.pbidedicated.windows.net | TCP 443 |
-| 3 | **필수:** CDN(Content Delivery Network) | content.powerapps.com | TCP 443 |
-| 4 | **필수:** Microsoft 365 통합 | [Microsoft 365 Common 및 Office Online URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online)에 대한 설명서를 참조하세요. | 해당 없음 |
-| 5 | **필수:** 포털 | app.powerbi.com | TCP 443 |
-| 6 | **필수:** 서비스 원격 분석 | dc.services.visualstudio.com | TCP 443 |
-| 7 | **선택 사항:** 정보 메시지 | dynmsg.modpim.com | TCP 443 |
-| 8 | **선택 사항:** NPS 설문 조사 | nps.onyx.azure.net | TCP 443 |
+| 1 | **필수:** 백 엔드 API | api.powerbi.com | TCP 443 |
+| 2 | **필수:** 백 엔드 API | *.analysis.windows.net | TCP 443 |
+| 3 | **필수:** 백 엔드 API | *.pbidedicated.windows.net | TCP 443 |
+| 4 | **필수:** CDN(Content Delivery Network) | content.powerapps.com | TCP 443 |
+| 5 | **필수:** Microsoft 365 통합 | [Microsoft 365 Common 및 Office Online URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online)에 대한 설명서를 참조하세요. | 해당 없음 |
+| 6 | **필수:** 포털 | app.powerbi.com | TCP 443 |
+| 7 | **필수:** 서비스 원격 분석 | dc.services.visualstudio.com | TCP 443 |
+| 8 | **선택 사항:** 정보 메시지 | dynmsg.modpim.com | TCP 443 |
+| 9 | **선택 사항:** NPS 설문 조사 | nps.onyx.azure.net | TCP 443 |
 | | | |
 
 ## <a name="administration"></a>관리

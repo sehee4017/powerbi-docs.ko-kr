@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/27/2020
+ms.date: 06/03/2020
 ms.author: maggies
-ms.openlocfilehash: f0bf8edc3c954bf5c79d76c1a3bdba1a08ae40ae
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 529be27d10a5ac1a352473be14e6e7184493bdf9
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84121091"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336800"
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI용 백서
 
@@ -21,7 +21,7 @@ ms.locfileid: "84121091"
 
 | 백서 | Description | 날짜 |
 | --- | --- | --- |
-| [Power BI Enterprise 배포 계획](https://aka.ms/PBIEnterpriseDeploymentWP) |이 업데이트 된 기술 백서는 잘 작동 하 고 안전한 조직 Power BI 배포에 대 한 고려 사항 및 모범 사례를 간략하게 설명 합니다. | 2020년 5월 |
+| [Power BI Enterprise 배포 계획](https://aka.ms/PBIEnterpriseDeploymentWP) |이 업데이트 된 기술 백서는 잘 작동 하 고 안전한 조직 Power BI 배포에 대 한 고려 사항 및 모범 사례를 간략하게 설명 합니다. | 6 월 2020 |
 | [Power BI 및 데이터 흐름](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| 이 백서에서는 데이터 흐름의 기술 정보를 자세히 설명하고 데이터 흐름의 특징 및 기능의 기반이 되는 역량과 이니셔티브를 설명합니다. | 2018년 11월 |
 | [Microsoft Power BI 프리미엄](https://aka.ms/pbipremiumwhitepaper) |시작될 때의 모습과 확대 방식 등, Power BI 프리미엄을 설명합니다. | 2017년 10월 |
 | [Power BI Premium 계획 및 배포](whitepaper-powerbi-premium-deployment.md)| 이 백서의 내용은 일반 지침에 통합 되었습니다. 잘 정의 된 작업을 위해 프리미엄 용량을 계획 하 고 배포 하는 방법에 대 한 지침 및 모범 사례는 링크를 참조 하세요.| 2019년 3월 |
