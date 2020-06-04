@@ -28,8 +28,6 @@
           href: embedded-capacity-planning.md
         - name: 성능 모범 사례
           href: embedded-performance-best-practices.md
-        - name: 서비스 사용자
-          href: embed-service-principal.md
         - name: 행 수준 보안
           href: embedded-row-level-security.md
         - name: 페이지를 매긴 보고서 행 수준 보안
@@ -40,10 +38,12 @@
           href: azure-pbie-diag-logs.md
         - name: 포함 FAQ
           href: embedded-faq.md
-        - name: Power BI 사용 권한
-          href: power-bi-permissions.md
     - name: 방법
       items:
+        - name: 인증서와 함께 서비스 주체를 사용하여 포함합니다.
+          href: embed-service-principal-certificate.md
+        - name: 앱 암호와 함께 서비스 주체를 사용하여 포함합니다.
+          href: embed-service-principal.md
         - name: 앱에서 포함
           href: embed-from-apps.md
         - name: 파일로 보고서 내보내기

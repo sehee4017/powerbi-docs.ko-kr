@@ -20,6 +20,8 @@
           href: custom-visual-develop-tutorial-format-options.md
         - name: 시각적 개체 프로젝트를 위한 단위 테스트 추가
           href: unit-tests-introduction.md
+        - name: R 스크립트에서 R 시각적 개체로 깔대기형 플롯 빌드
+          href: funnel-plot-from-r.md
     - name: 개념
       items:
         - name: Power BI 시각적 개체 프로젝트 구조
