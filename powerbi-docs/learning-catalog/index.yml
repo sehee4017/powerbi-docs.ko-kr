@@ -6,15 +6,15 @@ metadata:
   description: 조직의 역할에 적합한 Power BI 학습 옵션을 찾습니다.
   ms.service: powerbi
   ms.topic: landing-page
-  author: loreleishannonmsft
-  ms.author: v-lshann
+  author: margoc
+  ms.author: margoc
   ms.date: 04/08/2020
-  ms.openlocfilehash: c53b6e74933557937f4a9449925199d6325f78e3
-  ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
+  ms.openlocfilehash: 60221a8a30c25b7a78fa76f54b9a8617ef7efe4f
+  ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 06/04/2020
-  ms.locfileid: "84427821"
+  ms.lasthandoff: 06/08/2020
+  ms.locfileid: "84532813"
 landingContent:
 - title: 비즈니스 의사 결정권자
   linkLists:
