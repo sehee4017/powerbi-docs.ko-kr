@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 2f98071000715c65f50f39eb4d121a4af6e72f99
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: b43d52445c9a5232ba1747a9dae9333da8697f84
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813350"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273072"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 서비스의 새로운 기능
 **Power BI 서비스**의 알려진 문제 및 최근에 릴리스된 기능에 대해서는 이 페이지를 확인하세요. 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -646,7 +646,7 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 * 이번 주 서비스 업데이트에서는 새 보고서를 만들 때 이제 여러 페이지 크기 중에서 선택할 수 있을 뿐만 아니라 고유한 페이지 크기를 정의할 수 있습니다. 보고서에서 각 페이지의 크기 및 가로 세로 비율을 제어합니다.
 * 이미지 및 거품형 차트에 대한 추가 시각적 서식 지원을 추가했습니다. 이미지 왜곡을 방지하려면 이미지 크기를 조정하는 동안 측면을 잠글 수 있고 분산형 차트 거품이 채워지거나 채워지지 않게 구성될 수 있습니다.
 * 현재 Power BI는 대체 전자 메일 주소에 초대를 공유하도록 전송합니다. 대시보드를 사용자와 공유하면 원래 전자 메일 주소 및 대체 전자 메일 주소(구성된 경우) 모두에 초대 링크를 공유하도록 전송합니다.
-* Power BI는 다중 테넌트(DonMT) O365 아키텍처 전용에서 해당 프로그램을 포함하여 모든 고객이 사용할 수 있습니다. Power BI를 다중 테넌트 모드에서 공유 서비스로 사용합니다. 대부분의 경우에 [셀프 서비스 등록 프로세스](https://powerbi.microsoft.com/)에 따라 Power BI를 등록할 수 있습니다. – 회사 전자 메일 주소를 입력하고 시작할 이름 및 암호를 입력합니다. 테넌트 관리자인 경우 [여기](https://go.microsoft.com/fwlink/?LinkId=627174)에 있는 지침을 사용하여 사용자에게 라이선스를 할당할 수 있습니다.
+* Power BI는 다중 테넌트(DonMT) Microsoft 365 아키텍처 전용에서 해당 프로그램을 포함하여 모든 고객이 사용할 수 있습니다. Power BI를 다중 테넌트 모드에서 공유 서비스로 사용합니다. 대부분의 경우에 [셀프 서비스 등록 프로세스](https://powerbi.microsoft.com/)에 따라 Power BI를 등록할 수 있습니다. – 회사 전자 메일 주소를 입력하고 시작할 이름 및 암호를 입력합니다. 테넌트 관리자인 경우 [여기](https://go.microsoft.com/fwlink/?LinkId=627174)에 있는 지침을 사용하여 사용자에게 라이선스를 할당할 수 있습니다.
 * Azure 감사 로그를 사용하면 Azure 구독에서 제어 평면 작업 로그를 볼 수 있습니다. Power BI Azure 감사 로그 콘텐츠 팩은 이러한 로그에 포함된 다양한 정보를 쉽게 분석하고 시각화합니다. 콘텐츠 팩을 사용하면 기본적인 대시보드 및 보고서를 사용하여 데이터에 연결하고 정보를 검색하기 시작할 수 있습니다. 자세한 내용은 [블로그](https://powerbi.microsoft.com/blog/monitor-azure-audit-logs-with-power-bi/) 및 [온라인 설명서](../connect-data/service-connect-to-services.md)를 읽습니다.
 
 [블로그에서 자세한 내용을 알아보세요](https://powerbi.microsoft.com/blog/power-bi-weekly-service-update-0929/).
