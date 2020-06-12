@@ -7,94 +7,115 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/16/2020
+ms.date: 06/01/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1f29d59d3b10f8dc963d8ba1965638bc01bae0c8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 40a145814938b15b55476f4cc0536290cd009cfe
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83335698"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273232"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop에서 보고서 테마 사용
 
-Power BI Desktop ‘보고서 테마’를 사용하여 회사 색을 사용하거나 아이콘 세트를 변경하거나 새로운 기본 시각적 개체 서식 지정을 적용하는 등의 디자인 변경 내용을 전체 보고서에 적용할 수 있습니다.  보고서 테마를 적용하면 보고서의 모든 시각적 개체는 선택한 테마의 색과 서식을 기본값으로 사용합니다. 몇 가지 예외가 적용되며 이에 대해서는 이 문서의 뒷부분에서 설명합니다.
+Power BI Desktop ‘보고서 테마’를 사용하여 회사 색을 사용하거나 아이콘 세트를 변경하거나 새로운 기본 시각적 개체 서식 지정을 적용하는 등의 디자인 변경 내용을 전체 보고서에 적용할 수 있습니다. 보고서 테마를 적용하면 보고서의 모든 시각적 개체는 선택한 테마의 색과 서식을 기본값으로 사용합니다. 몇 가지 예외가 적용되며 이에 대해서는 이 문서의 뒷부분에서 설명합니다.
 
-![보고서 테마](media/desktop-report-themes/report-themes-1a.png)
+**보기** 리본으로 이동하여 리본의 **테마** 섹션에서 드롭다운 화살표 단추를 선택한 다음 원하는 테마를 선택하여 보고서 테마를 선택할 수 있습니다. 사용 가능한 테마는 Microsoft PowerPoint 등의 다른 Microsoft 제품에서 보이는 테마와 비슷합니다.
+
+![보고서 테마](media/desktop-report-themes/report-themes-01.png)
 
 보고서 테마의 유형은 다음과 같이 기본 제공 보고서 테마와 사용자 지정 보고서 테마 파일 두 가지입니다.
 
-- 기본 제공 보고서 테마는 Power BI Desktop과 함께 설치된 다양한 종류의 미리 정의된 색 구성표를 제공합니다. 기본 제공 보고서 테마는 Power BI Desktop 메뉴에서 직접 선택합니다.
+- **기본 제공** 보고서 테마는 Power BI Desktop과 함께 설치된 다양한 종류의 미리 정의된 색 구성표를 제공합니다. 기본 제공 보고서 테마는 Power BI Desktop 메뉴에서 직접 선택합니다.
 
-- 사용자 지정 보고서 테마 파일은 해당 기본 구조를 정의하는 JSON 파일에 생성되는 보고서 테마입니다. 사용자 지정 보고서 테마를 적용하려면 해당 JSON 파일을 Power BI Desktop으로 가져와 보고서에 적용합니다.
+- **사용자 지정** 보고서 테마는 현재 테마를 조정하여 사용자 지정 테마로 저장하거나 JSON 파일을 사용하여 사용자 고유의 사용자 지정 테마를 만드는 방법으로 만듭니다. JSON 파일은 이 문서의 뒷부분에 설명된 대로 보고서 테마의 여러 측면에 대한 세부적인 제어를 제공합니다. 
 
-  [**테마 사용자 지정**대화 상자](#create-and-customize-a-theme-in-power-bi-desktop)를 사용하여 Power BI Desktop에서 기존 보고서 테마를 사용자 지정할 수도 있습니다.
+보고서 테마가 작동하는 방법을 설명한 다음 사용자 지정 보고서 테마를 만드는 방법에 대해 알아보겠습니다.
 
-**시각화** 창의 **서식** 섹션에 나열된 요소는 거의 모두 Power BI Desktop에서 직접 설정한 사용자 지정을 통해 또는 보고서 테마 JSON 파일을 통해 사용자 지정하고 표준화할 수 있습니다. 보고서의 기본 모양과 느낌을 세분화된 수준까지 완전히 제어할 수 있게 하는 것이 목표입니다.
 
 ## <a name="how-report-themes-work"></a>보고서 테마 작동 방법
 
-Power BI Desktop 보고서에 보고서 테마를 적용하려면 [사용할 수 있는 기본 제공 보고서 테마](#built-in-report-themes) 중에서 선택하거나, [테마 사용자 지정 JSON 파일 가져오기](#import-custom-report-theme-files)를 하거나, [**테마 사용자 지정** 대화 상자](#create-and-customize-a-theme-in-power-bi-desktop)를 사용할 수 있습니다.
+Power BI Desktop 보고서에 보고서 테마를 적용하려면 다음 옵션 중에서 선택할 수 있습니다.
 
-사용자 지정할 수 있는 기본값에 대한 자세한 내용은 아래의 [보고서 테마 JSON 형식](#report-theme-json-file-format) 섹션을 확인하세요.
+* Power BI Desktop에 빌드된 [사용 가능한 기본 제공 보고서 테마](#built-in-report-themes)에서 선택합니다.
+* **테마 사용자 지정** 대화 상자를 사용하여 테마를 사용자 지정합니다.
+* [사용자 지정 테마 JSON 파일을 가져옵니다](#import-custom-report-theme-files).
+
+이러한 각 옵션을 차례로 살펴보겠습니다.
 
 ### <a name="built-in-report-themes"></a>기본 제공 보고서 테마
 
 사용 가능한 기본 제공 보고서 테마에서 선택하려면 다음을 수행합니다.
 
-1. **홈** 리본에서 **테마 전환**을 선택합니다.
+1. **보기** 리본에서 **테마** 드롭다운 화살표 단추 **테마 전환**을 선택합니다.
 
-   ![보고서 테마 선택](media/desktop-report-themes/report-themes-2a.png)
+   ![보고서 테마 선택](media/desktop-report-themes/report-themes-02.png)
 
-2. 드롭다운 메뉴에서 포함된 테마 중 하나를 선택합니다.
+2. 표시되는 드롭다운 메뉴에서 포함된 테마 중 하나를 선택합니다.
+
+   ![보고서 테마 선택](media/desktop-report-themes/report-themes-03.png)
 
    이제 보고서 테마가 보고서에 적용됩니다.
 
-다음 표에서는 사용 가능한 기본 제공 보고서 테마를 보여 줍니다.
+    다음 표에서는 사용 가능한 기본 제공 보고서 테마를 보여 줍니다.
+    
+    | 기본 제공 보고서 테마 | 기본 색 시퀀스 |
+    |------ |---------- |
+    | 기본값 | ![기본값](media/desktop-report-themes/report-themes-color-scheme-default.png)|
+    | Highrise | ![Highrise](media/desktop-report-themes/report-themes-color-scheme-highrise.png)|
+    | 경영진 | ![경영진](media/desktop-report-themes/report-themes-color-scheme-executive.png)|
+    | Frontier| ![Frontier](media/desktop-report-themes/report-themes-color-scheme-frontier.png)|
+    | 혁신 | ![혁신](media/desktop-report-themes/report-themes-color-scheme-innovative.png)|
+    | Bloom | ![Bloom](media/desktop-report-themes/report-themes-color-scheme-bloom.png)|
+    | Tidal| ![Tidal](media/desktop-report-themes/report-themes-color-scheme-tidal.png)|
+    | 온도 | ![온도](media/desktop-report-themes/report-themes-color-scheme-temperature.png)|
+    | Solar| ![Solar](media/desktop-report-themes/report-themes-color-scheme-solar.png)|
+    | Divergent | ![Divergent](media/desktop-report-themes/report-themes-color-scheme-divergent.png)|
+    | Storm | ![Storm](media/desktop-report-themes/report-themes-color-scheme-storm.png)|
+    | Classic | ![Classic](media/desktop-report-themes/report-themes-color-scheme-classic.png)|
+    | 도시 공원 | ![도시 공원](media/desktop-report-themes/report-themes-color-scheme-city-park.png)|
+    | 교실 | ![교실](media/desktop-report-themes/report-themes-color-scheme-classroom.png)|
+    | 색맹 지원 | ![색맹 지원](media/desktop-report-themes/report-themes-color-scheme-colorblind-safe.png)|
+    | 일렉트로닉 | ![일렉트로닉](media/desktop-report-themes/report-themes-color-scheme-electric.png)|
+    | 고대비 | ![고대비](media/desktop-report-themes/report-themes-color-scheme-high-contrast.png)|
+    | 일몰 | ![일몰](media/desktop-report-themes/report-themes-color-scheme-sunset.png)|
+    | 석양 | ![석양](media/desktop-report-themes/report-themes-color-scheme-twilight.png)|
+    
+3. 테마 드롭다운에서 **테마 갤러리**를 선택하여 Power BI 커뮤니티 멤버가 만든 테마 컬렉션을 찾아볼 수도 있습니다.
 
-| 기본 제공 보고서 테마 | 기본 색 시퀀스 |
-|------ |---------- |
-| 기본값 | ![기본값](media/desktop-report-themes/report-themes-color-scheme-default.png)|
-| Highrise | ![Highrise](media/desktop-report-themes/report-themes-color-scheme-highrise.png)|
-| 경영진 | ![경영진](media/desktop-report-themes/report-themes-color-scheme-executive.png)|
-| Frontier| ![Frontier](media/desktop-report-themes/report-themes-color-scheme-frontier.png)|
-| 혁신 | ![혁신](media/desktop-report-themes/report-themes-color-scheme-innovative.png)|
-| Bloom | ![Bloom](media/desktop-report-themes/report-themes-color-scheme-bloom.png)|
-| Tidal| ![Tidal](media/desktop-report-themes/report-themes-color-scheme-tidal.png)|
-| 온도 | ![온도](media/desktop-report-themes/report-themes-color-scheme-temperature.png)|
-| Solar| ![Solar](media/desktop-report-themes/report-themes-color-scheme-solar.png)|
-| Divergent | ![Divergent](media/desktop-report-themes/report-themes-color-scheme-divergent.png)|
-| Storm | ![Storm](media/desktop-report-themes/report-themes-color-scheme-storm.png)|
-| Classic | ![Classic](media/desktop-report-themes/report-themes-color-scheme-classic.png)|
-| 도시 공원 | ![도시 공원](media/desktop-report-themes/report-themes-color-scheme-city-park.png)|
-| 교실 | ![교실](media/desktop-report-themes/report-themes-color-scheme-classroom.png)|
-| 색맹 지원 | ![색맹 지원](media/desktop-report-themes/report-themes-color-scheme-colorblind-safe.png)|
-| 일렉트로닉 | ![일렉트로닉](media/desktop-report-themes/report-themes-color-scheme-electric.png)|
-| 고대비 | ![고대비](media/desktop-report-themes/report-themes-color-scheme-high-contrast.png)|
-| 일몰 | ![일몰](media/desktop-report-themes/report-themes-color-scheme-sunset.png)|
-| 석양 | ![석양](media/desktop-report-themes/report-themes-color-scheme-twilight.png)|
+   ![테마 갤러리](media/desktop-report-themes/report-themes-04.png)
+
+    갤러리에서 원하는 테마를 선택하고 연결된 JSON 파일을 다운로드할 수 있습니다. 
+
+    다운로드한 파일을 설치하려면 **테마** 드롭다운에서 **테마 찾아보기**를 선택하고 JSON 파일을 다운로드한 위치로 이동한 후 해당 테마를 선택하여 새 테마로 Power BI Desktop에 가져옵니다.
+
+    성공적으로 완료되면 가져오기가 성공했음을 나타내는 대화 상자가 Power BI에 표시됩니다.
+
+   ![테마 가져오기 성공](media/desktop-report-themes/report-themes-05.png)
 
 ## <a name="customize-report-themes"></a>보고서 테마 사용자 지정
 
-Power BI Desktop의 2019년 12월 릴리스부터 다음 두 가지 방법으로 보고서 테마를 사용자 지정할 수 있습니다.
+**시각화** 창의 **서식** 섹션에 나열된 요소는 거의 모두 Power BI Desktop에서 직접 설정한 사용자 지정을 통해 또는 보고서 테마 JSON 파일을 통해 사용자 지정하고 표준화할 수 있습니다. 보고서의 기본 모양과 느낌을 세분화된 수준까지 완전히 제어할 수 있게 하는 것이 목표입니다.
+
+보고서 테마를 사용자 지정하는 두 가지 방법은 다음과 같습니다.
 
 - [Power BI Desktop에서 테마 만들기 및 사용자 지정](#create-and-customize-a-theme-in-power-bi-desktop)
 - [사용자 지정 보고서 테마 JSON 파일 만들기 및 사용자 지정](#introduction-to-report-theme-json-files)
 
+다음 섹션에서는 이러한 각 방법에 대해 차례로 살펴보겠습니다.
+
 ### <a name="create-and-customize-a-theme-in-power-bi-desktop"></a>Power BI Desktop에서 테마 만들기 및 사용자 지정
 
-Power BI Desktop에서 직접 테마를 사용자 지정하려면 다음을 수행합니다.
+Power BI Desktop에서 직접 테마를 사용자 지정하려면 원하는 항목에 가까운 테마를 선택하고 몇 가지 사항을 조정하면 됩니다. 먼저 가까이 있는 테마를 선택하거나 다른 원하는 테마로 시작하고, 그 테마에서 사용자 지정하고 다음 단계를 수행합니다.
 
-1. **홈** 리본에서 **테마 전환** > **현재 테마 사용자 지정**을 선택합니다.
+1. **보기** 리본에서 **테마** 드롭다운 단추를 선택하고 **현재 테마 사용자 지정**을 선택합니다.
 
-   현재 보고서에 적용된 보고서의 테마를 사용자 지정하는 방법이 표시된 대화 상자가 나타납니다.
+   ![테마 사용자 지정](media/desktop-report-themes/report-themes-06.png)
 
-   ![테마 사용자 지정](media/desktop-report-themes/report-themes_5b.png)
+2. 현재 테마에 대해 모든 종류의 변경을 수행한 후 설정을 새 테마로 저장할 수 있는 대화 상자가 나타납니다.
 
-2. 기존 테마가 마음에 들어 몇 가지 사항만 조정하려면 테마를 선택하거나 가져온 다음에 **현재 테마 사용자 지정**을 선택합니다.
-
-   ![현재 테마 사용자 지정](media/desktop-report-themes/report-themes_5c.png)
+   ![현재 테마 사용자 지정](media/desktop-report-themes/report-themes-07.png)
 
 사용자 지정할 수 있는 테마 설정은 다음 범주로 제공되며, **테마 사용자 지정** 창에 반영됩니다.
 
@@ -113,11 +134,11 @@ Power BI Desktop에서 직접 테마를 사용자 지정하려면 다음을 수�
 
 ### <a name="import-custom-report-theme-files"></a>사용자 지정 보고서 테마 파일 가져오기
 
-사용자 지정 보고서 테마 파일을 가져오려면 다음을 수행합니다.
+다음 단계를 수행하여 사용자 지정 보고서 테마 파일을 가져올 수도 있습니다.
 
-1. **홈** 리본에서 **테마 전환**을 선택하고 드롭다운 메뉴에서 **테마 가져오기**를 선택합니다.
+1. **보기** 리본을 선택하고 **테마** 드롭다운 단추에서 **테마 찾아보기**를 선택합니다.
 
-   ![테마 가져오기](media/desktop-report-themes/report-themes-3a.png)
+   ![테마 가져오기](media/desktop-report-themes/report-themes-08.png)
 
    사용자를 JSON 테마 파일의 위치로 이동시키는 창이 나타납니다.
 
@@ -127,7 +148,7 @@ Power BI Desktop에서 직접 테마를 사용자 지정하려면 다음을 수�
 
    테마 파일이 성공적으로 로드되면 Power BI Desktop에서 성공 메시지를 표시합니다.
 
-   ![테마를 성공적으로 가져옴](media/desktop-report-themes/report-themes_5.png)
+   ![테마 가져오기 성공](media/desktop-report-themes/report-themes-05.png)
 
 ## <a name="introduction-to-report-theme-json-files"></a>보고서 테마 JSON 파일 소개
 
@@ -172,7 +193,7 @@ Power BI 서비스에 보고서를 게시하는 경우 보고서 테마 색이 �
 
 3. 항목 드롭다운을 선택하여 보고서 테마에 대한 **테마 색** 정보를 봅니다.
 
-   ![테마 색](media/desktop-report-themes/report-themes_8.png)
+   ![테마 색](media/desktop-report-themes/report-themes-09.png)
 
 이 예제에서는 세인트 패트릭스 데이 보고서 테마에서 다수의 녹색 및 갈색을 적용한 후 테마 색을 봅니다. 모두 녹색으로 보이십니까? 해당 색이 가져와서 적용한 보고서 테마의 일부이기 때문입니다.
 
@@ -180,11 +201,11 @@ Power BI 서비스에 보고서를 게시하는 경우 보고서 테마 색이 �
 
 ### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>보고서에 보고서 테마 색을 유지하지 않는 경우
 
-색 선택의 **사용자 지정 색** 옵션을 사용하여 시각적 개체에서 특정 데이터 요소에 사용자 지정 색 집합(또는 개별 색)을 적용해 보겠습니다. 보고서 테마를 적용하면 이 보고서 테마는 사용자 지정된 데이터 요소 색을 ‘재정의하지 않습니다’. 
+색 선택의 **사용자 지정 색** 옵션을 사용하여 시각적 개체에서 특정 데이터 요소에 사용자 지정 색 집합(또는 개별 색)을 적용해 보겠습니다. 보고서 테마를 적용하면 이 보고서 테마는 사용자 지정된 데이터 요소 색을 ‘재정의하지 않습니다’.
 
-**테마 색** 섹션을 사용하여 데이터 요소 색을 수동으로 설정할 수도 있습니다. 이러한 색은 새 보고서 테마를 적용할 때 ‘업데이트되지 않습니다’.  새 보고서 테마를 적용할 때 색이 업데이트되도록 기본 색으로 되돌리려면 **기본값으로 되돌리기**를 선택하거나 색 선택의 **테마 색** 색상표에서 색을 선택합니다.
+**테마 색** 섹션을 사용하여 데이터 요소 색을 수동으로 설정할 수도 있습니다. 이러한 색은 새 보고서 테마를 적용할 때 ‘업데이트되지 않습니다’. 새 보고서 테마를 적용할 때 색이 업데이트되도록 기본 색으로 되돌리려면 **기본값으로 되돌리기**를 선택하거나 색 선택의 **테마 색** 색상표에서 색을 선택합니다.
 
-![기본값으로 되돌리기](media/desktop-report-themes/report-themes_9.png)
+![기본값으로 되돌리기](media/desktop-report-themes/report-themes-10.png)
 
 많은 Power BI 시각적 개체가 보고서 테마에 적용되지 않습니다.
 
@@ -230,9 +251,9 @@ Power BI 서비스에 보고서를 게시하는 경우 보고서 테마 색이 �
 
 보고서 테마를 사용하여 Power BI Desktop 보고서가 사용자, 조직 또는 현재 시즌이나 휴일을 다양하게 반영하도록 할 수 있습니다.
 
-## <a name="export-report-themes-preview"></a>보고서 테마 내보내기(미리 보기)
+## <a name="export-report-themes"></a>보고서 테마 내보내기
 
-Power BI Desktop의 2019년 12월 릴리스부터 현재 적용된 보고서 테마를 Power BI Desktop에서 JSON 파일로 직접 내보내는 옵션을 사용할 수 있습니다. 보고서 테마를 내보낸 후에는 다른 보고서에서 다시 사용할 수 있습니다. 이 옵션을 사용하면 기본 제공 테마 대부분의 JSON 파일을 내보낼 수 있습니다. 유일한 예외는 가져올 때 다른 테마를 작성하는 기반이 되는 기준 테마인 클래식 및 기본 테마입니다.
+현재 적용된 보고서 테마를 Power BI Desktop에서 JSON 파일로 직접 내보낼 수 있습니다. 보고서 테마를 내보낸 후에는 다른 보고서에서 다시 사용할 수 있습니다. 이 옵션을 사용하면 기본 제공 테마 대부분의 JSON 파일을 내보낼 수 있습니다. 유일한 예외는 가져올 때 다른 테마를 작성하는 기반이 되는 기준 테마인 클래식 및 기본 테마입니다.
 
 현재 적용된 테마를 Power BI Desktop에서 내보내려면 다음을 수행합니다.
 
@@ -331,9 +352,9 @@ Power BI Desktop의 2019년 12월 릴리스부터 현재 적용된 보고서 테
 
 다음으로, JSON 파일에 텍스트 클래스를 추가할 수 있습니다. 텍스트 클래스는 색 클래스와 유사하지만 보고서에서 텍스트 그룹의 글꼴 크기, 색 및 패밀리를 업데이트할 수 있도록 고안되었습니다.
 
-12개의 텍스트 클래스가 있지만 보고서의 모든 텍스트 서식 지정을 변경하는 데는 ‘기본 클래스’라는 네 개의 클래스만 설정하면 됩니다.   이러한 네 가지 기본 클래스는 “텍스트” 섹션의 [**테마 사용자 지정** 대화 상자](#create-and-customize-a-theme-in-power-bi-desktop)에서 설정할 수 있습니다. “일반”은 **레이블**, “제목”은 **제목**, “카드 및 KPI”는 **콜아웃**, 그리고 “탭 헤더”는 **헤더**에 해당합니다.
+12개의 텍스트 클래스가 있지만 보고서의 모든 텍스트 서식 지정을 변경하는 데는 ‘기본 클래스’라는 네 개의 클래스만 설정하면 됩니다.  이러한 네 가지 기본 클래스는 “텍스트” 섹션의 [**테마 사용자 지정** 대화 상자](#create-and-customize-a-theme-in-power-bi-desktop)에서 설정할 수 있습니다. “일반”은 **레이블**, “제목”은 **제목**, “카드 및 KPI”는 **콜아웃**, 그리고 “탭 헤더”는 **헤더**에 해당합니다.
 
-‘보조 클래스’로 간주되는 다른 텍스트 클래스는 연결된 기본 클래스에서 해당 속성을 자동으로 파생시킵니다.  보조 클래스는 기본 클래스에 비해 더 밝은 텍스트 색 음영 또는 더 크거나 더 작은 텍스트 크기 비율을 선택하는 경우가 많습니다.
+‘보조 클래스’로 간주되는 다른 텍스트 클래스는 연결된 기본 클래스에서 해당 속성을 자동으로 파생시킵니다. 보조 클래스는 기본 클래스에 비해 더 밝은 텍스트 색 음영 또는 더 크거나 더 작은 텍스트 크기 비율을 선택하는 경우가 많습니다.
 
 **레이블** 클래스를 예로 들어 보겠습니다. **레이블** 클래스의 기본 서식 지정은 Segoe UI, #252423(진한 회색) 및 12포인트입니다. 이 클래스는 테이블 및 행렬에서 값을 서식 지정하는 데 사용됩니다. 일반적으로 테이블 또는 행렬의 합계는 서식 지정은 비슷하지만 눈에 띄도록 **굵은 레이블** 클래스를 사용하여 굵게 표시합니다. 하지만 테마 JSON에서 이 클래스를 지정할 필요는 없습니다. Power BI에서 자동으로 지정합니다. 나중에 테마에서 글꼴이 14포인트인 레이블을 지정하기로 결정하는 경우 **굵은 레이블** 클래스를 업데이트할 필요도 없습니다. **레이블** 클래스의 텍스트 서식 지정을 상속하기 때문입니다.
 

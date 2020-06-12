@@ -7,15 +7,15 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/26/2019
+ms.date: 06/03/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7c9ba490a2cc30d42fee4f2317dbf5d4026ab59a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 1ff21d0508889fecda5022edb0e48714c8be3ed6
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83299703"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84337099"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Power BI Desktop의 자동 페이지 새로 고침(미리 보기)
 
@@ -121,15 +121,15 @@ Power BI **작업 영역**은 용량 내에 상주하며 보안, 협업 및 배�
 
  1. *기능 설정/해제*: 용량 관리자가 기능을 사용하지 않기로 결정한 경우, 게시된 보고서에서 어떤 유형의 페이지 새로 고침도 설정할 수 없습니다.
 
- 2. *최소 새로 고침 간격*: 기능을 사용하도록 설정하려면, 용량 관리자가 최소 새로 고침 간격을 설정해야 합니다. 간격이 최소값보다 낮을 경우, Power BI 서비스가 용량 관리자가 설정한 최소 간격을 준수하기 위해 간격을 재정의합니다.
+ 2. *최소 새로 고침 간격*: 기능을 사용하도록 설정하려면, 용량 관리자가 최소 새로 고침 간격을 설정해야 합니다. 간격이 최솟값보다 낮을 경우, Power BI 서비스가 용량 관리자가 설정한 최소 간격을 준수하기 위해 간격을 ‘재정의’합니다. 이러한 재정의를 다음 표에서 ‘용량 관리 재정의’라고 합니다. 
 
-아래 표에 이 기능을 사용할 수 있는 위치와 각 용량 유형 및 [스토리지 모드](../connect-data/service-dataset-modes-understand.md)에 대한 제한 사항이 자세히 설명되어 있습니다
+아래 표에 이 기능을 사용할 수 있는 위치와 각 용량 유형 및 [스토리지 모드](../connect-data/service-dataset-modes-understand.md)에 대한 제한 사항이 자세히 설명되어 있습니다.
 
 | 스토리지 모드 | 전용 용량 | 공유 용량 |
 | --- | --- | --- |
 | DirectQuery | **지원됨** – 예. <br>**최소 새로 고침 간격** – 1초 <br>**용량 관리자 재정의** – 예. | **지원됨** – 예. <br>**최소 새로 고침 간격** - 30분 <br>**용량 관리자 재정의** – 아니요. |
 | 가져오기 | **지원됨** – 아니요. <br>**최소 새로 고침 간격** - 해당 없음. <br>**용량 관리자 재정의** – 해당 없음. | **지원됨** – 아니요. <br>**최소 새로 고침 간격** - 해당 없음. <br>**용량 관리자 재정의** – 해당 없음. |
-| 혼합 모드 (DQ + 기타) | **지원됨** – 예. <br>**최소 새로 고침 간격** – 1초 <br>**용량 관리자 재정의** – 예. | **지원됨** – 예. <br>**최소 새로 고침 간격** - 30분 <br>**용량 관리자 재정의** – 아니요. |
+| 혼합 모드(DirectQuery + 기타 데이터 원본) | **지원됨** – 예. <br>**최소 새로 고침 간격** – 1초 <br>**용량 관리자 재정의** – 예. | **지원됨** – 예. <br>**최소 새로 고침 간격** - 30분 <br>**용량 관리자 재정의** – 아니요. |
 | 라이브 연결 AS | **지원됨** – 아니요. <br>**최소 새로 고침 간격** - 해당 없음. <br>**용량 관리자 재정의** – 해당 없음. | **지원됨** – 아니요. <br>**최소 새로 고침 간격** - 해당 없음. <br>**용량 관리자 재정의** – 해당 없음. |
 | 라이브 연결 PBI | **지원됨** – 아니요. <br>**최소 새로 고침 간격** - 해당 없음. <br>**용량 관리자 재정의** – 해당 없음. | **지원됨** – 아니요. <br>**최소 새로 고침 간격** - 해당 없음. <br>**용량 관리자 재정의** – 해당 없음. |
 
@@ -186,7 +186,7 @@ Power BI Desktop 또는 Power BI 서비스에서, 자동 페이지 새로 고침
     * 용량 관리자 UI에서 적용된 자동 페이지 새로 고침 설정 변경이 보고서에 전파되는 데는 최대 5분까지 소요됩니다.
     * 용량에 대해서 자동 페이지 새로 고침을 켜야 할 뿐만 아니라, 보고서를 보려는 보고서의 페이지에 대해서도 이 기능을 켜야 합니다.
 
-3. 보고서가 혼합 모드(DQ + 가져오기)에서 작동하고 있습니다. 모든 시각적 개체가 새로 고쳐지는 것은 아닙니다.
+3. 내 보고서는 혼합 모드에서 작동합니다(혼합 모드는 보고서에 DirectQuery 연결 및 가져오기 데이터 원본이 있음을 의미합니다). 모든 시각적 개체가 새로 고쳐지는 것은 아닙니다.
 
     * 시각적 개체가 가져오기 테이블을 참조하는 경우에 이런 일이 예상됩니다. 가져오기에는 자동 페이지 새로 고침이 지원되지 않습니다.
     * 이 섹션의 1번 질문을 참조하세요.
@@ -211,6 +211,7 @@ Power BI Desktop 또는 Power BI 서비스에서, 자동 페이지 새로 고침
 자세한 내용은 다음 문서를 참조하세요.
 
 * [Power BI의 DirectQuery 사용](../connect-data/desktop-directquery-about.md)
+* [Power BI Desktop에서 복합 모델 사용](../transform-model/desktop-composite-models.md)
 * [성능 분석기를 사용하여 보고서 요소 성능 검사](desktop-performance-analyzer.md)
 * [Power BI Premium 용량 배포 및 관리](../guidance/whitepaper-powerbi-premium-deployment.md)
 * [Power BI Desktop의 데이터 원본](../connect-data/desktop-data-sources.md)

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/13/2020
+ms.date: 06/02/2020
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d5b57b782af52542ed944b5e5e7504a974ee9d81
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2792c5b35d68dd38554209fe8fe065710c339381
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83291423"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336846"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>Power BI Desktop에서 Python 스크립트 실행
 
@@ -83,7 +83,7 @@ Power BI Desktop에서 Python 스크립트를 준비하고 실행하는 경우 �
 * pandas 데이터 프레임만 가져오므로, Power BI로 가져오려는 데이터가 데이터 프레임에 표시되는지 확인함
 * 30분 이상 실행하는 Python 스크립트는 시간이 초과됨
 * 사용자 입력을 기다리는 등의 Python 스크립트의 대화형 호출은 스크립트의 실행을 중지함
-* Python 스크립트 내에서 작업 디렉터리를 설정할 때, 작업 디렉터리에 ‘반드시’ 상대 경로가 아닌 전체 경로를 정의해야 합니다. 
+* Python 스크립트 내에서 작업 디렉터리를 설정할 때, 작업 디렉터리에 ‘반드시’ 상대 경로가 아닌 전체 경로를 정의해야 합니다.
 * 중첩된 표는 현재 지원되지 않습니다.
 
 ### <a name="run-your-python-script-and-import-data"></a>Python 스크립트 실행 및 데이터 가져오기
@@ -121,6 +121,10 @@ Power BI는 설정 페이지를 통해 제공되는 사용자 제공 디렉터�
 ### <a name="refresh"></a>새로 고침
 
 Power BI Desktop에서 Python 스크립트를 새로 고칠 수 있습니다. 새로 고치려면 **홈** 리본으로 이동한 다음, **새로 고침**을 선택합니다. Python 스크립트를 새로 고치면 Power BI Desktop에서 Python 스크립트를 다시 실행합니다.
+
+## <a name="known-limitations"></a>알려진 제한 사항
+
+현재는 **향상된 메타데이터(미리 보기)** 기능을 사용하여 만든 보고서에서 Python 스크립트를 사용할 수 없습니다. 기존 보고서는 계속 작동합니다. 자세한 내용은 [향상된 데이터 세트 메타데이터 사용(미리 보기)](desktop-enhanced-dataset-metadata.md)을 확인하세요. 
 
 ## <a name="next-steps"></a>다음 단계
 

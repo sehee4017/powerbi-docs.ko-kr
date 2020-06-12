@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 03/06/2020
+ms.date: 05/27/2020
 ms.author: maggies
-ms.openlocfilehash: 548e66685c7b460829e171d097d18640cd5b0f57
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3bd792c585f42add6652205a6e4a99fe116ad20f
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78922600"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159838"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>Azure 애플리케이션 프록시를 사용하여 Power BI Report Server 구성
 
@@ -167,6 +167,9 @@ KCD를 구성하려면 각 커넥터 컴퓨터에 대해 다음 단계를 반복
 ![기본 커넥터 그룹](media/azure-application-proxy/report-server-application-proxy-1.png)
 
 **추가 설정** 섹션에서 어떤 변경도 수행하지 않았습니다. 기본 옵션을 사용하도록 구성되어 있습니다.
+
+> [!IMPORTANT]
+> 애플리케이션 프록시를 구성하는 경우 **백 엔드 애플리케이션 시간 제한** 속성이 **기본값**(85초)으로 설정되어 있는지 확인합니다. 실행하는 데 85초 이상 걸리는 보고서가 있는 경우 이 속성을 가능한 최대 시간 제한 값인 **장기**(180초)로 설정합니다. **장기**로 구성하면 모든 보고서는 180초 내에 완료되어야 합니다. 그렇지 않으면 시간 제한으로 인해 오류가 발생합니다.
 
 ![추가 설정](media/azure-application-proxy/report-server-application-proxy-1.png)
 

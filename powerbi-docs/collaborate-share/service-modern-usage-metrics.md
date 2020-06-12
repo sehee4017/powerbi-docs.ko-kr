@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 183fceb6877109960ea1fb7e6f36bd74588f8f10
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: 894aa17e0a6a2be52446be0a67452d96d45c9a5b
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693857"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84316066"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>새 작업 영역 환경에서 사용량 메트릭 모니터링
 
@@ -132,7 +132,7 @@ ms.locfileid: "83693857"
 
 ## <a name="disable-usage-metrics-reports"></a>사용량 메트릭 보고서 사용 안 함
 
-사용량 메트릭 보고서는 Power BI 또는 Microsoft 365 관리자가 켜거나 끌 수 있는 기능입니다. 관리자는 사용자가 사용 메트릭에 대한 액세스를 갖는지 세부적으로 제어합니다. 기본적으로 조직의 모든 사용자에 대해 적용됩니다. 설정에 대한 자세한 내용은 관리 포털 문서에서 [사용 메트릭 제어](../admin/service-admin-portal.md#control-usage-metrics)를 참조하세요.
+사용량 메트릭 보고서는 Power BI 또는 전역 관리자가 켜거나 끌 수 있는 기능입니다. 관리자는 사용자가 사용 메트릭에 대한 액세스를 갖는지 세부적으로 제어합니다. 기본적으로 조직의 모든 사용자에 대해 적용됩니다. 설정에 대한 자세한 내용은 관리 포털 문서에서 [사용 메트릭 제어](../admin/service-admin-portal.md#control-usage-metrics)를 참조하세요.
 
 > [!NOTE]
 > Power BI 테넌트 관리자만 관리 포털을 보고 설정을 편집할 수 있습니다.

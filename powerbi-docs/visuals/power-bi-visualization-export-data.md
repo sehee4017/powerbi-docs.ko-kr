@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 01f2d8add417b1d1d37ef043ccb3c48c2609162d
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: b0fc91eab8c377f5571e66eb7baaf55234fafa97
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813603"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84337030"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>시각화를 생성하는 데 사용된 데이터 내보내기
 
@@ -154,24 +154,26 @@ Will이 보고서의 시각화 중 하나에서 데이터를 내보내고 *.xlsx
 
     - 시각화에 필터를 적용했으므로 내보낸 데이터는 필터링된 상태로 내보냅니다. 첫 번째 행은 **적용된 필터를 표시합니다. 조지아주 애틀랜타**가 아닙니다. 
 
-## <a name="protecting-proprietary-data"></a>소유 데이터 보호
+## <a name="customize-the-export-data-user-experience"></a>데이터 내보내기 사용자 환경 사용자 지정
 
-데이터 세트에는 모든 사용자가 볼 수 없는 내용이 있을 수 있습니다. 주의하지 않으면 기본 데이터를 내보낼 때 사용자가 해당 시각적 개체에 대한 모든 세부 데이터를 볼 수 있습니다. 즉, 데이터의 모든 행과 모든 열을 볼 수 있습니다. 
+보고서에 대한 액세스 권한이 부여된 사용자는 [RLS(행 수준 보안)(../admin/service-admin-rls.md)가 액세스를 제한하지 않는 한 **전체 기본 데이터 세트에 대한 액세스가 허용됩니다**. 보고서 작성자 및 Power BI 관리자는 아래에 설명된 기능을 사용하여 사용자 환경을 사용자 지정할 수 있습니다.
 
-Power BI 관리자와 디자이너가 독점 데이터를 보호하기 위해 사용해야 하는 몇 가지 전략이 있습니다. 
+- 보고서 작성자는 [사용자가 사용할 수 있는 ‘내보내기 옵션’](#set-the-export-options)을 결정할 수 있습니다.  
 
-- 디자이너는 [사용자가 사용할 수 있는 *내보내기 옵션*](#set-the-export-options)을 결정할 수 있습니다.  
-
-- Power BI 관리자는 조직에 대한 데이터 내보내기를 해제할 수 있습니다. 
+- Power BI 관리자는 조직에 대한 일부 또는 전체 데이터 내보내기 옵션을 해제할 수 있습니다.  
 
 - 데이터 세트 소유자는 RLS(행 수준 보안)를 설정할 수 있습니다. RLS는 읽기 전용 사용자에 대한 액세스를 제한합니다. 그러나 앱 작업 영역을 구성하고 멤버에게 편집 권한을 지정한 경우에는 RLS 역할이 적용되지 않습니다. 자세한 내용은 [행 수준 보안](../admin/service-admin-rls.md)을 참조하세요.
 
-- 보고서 디자이너는 **필드** 목록에 표시되지 않도록 열을 숨길 수 있습니다. 자세한 내용은 [데이터 세트 속성](../developer/automation/api-dataset-properties.md)을 참조하세요.
+- 보고서 작성자는 **필드** 목록에 표시되지 않도록 열을 숨길 수 있습니다. 자세한 내용은 [데이터 세트 속성](../developer/automation/api-dataset-properties.md)을 참조하세요.
 
-- Power BI 관리자는 대시보드, 보고서, 데이터 세트 및 데이터 흐름에 [민감도 레이블](../admin/service-security-data-protection-overview.md)을 추가할 수 있습니다. 그런 다음 데이터를 내보낼 때 암호화 또는 워터마크와 같은 보호 설정을 적용할 수 있습니다. 
 
-- Power BI 관리자는 [Microsoft Cloud App Security](../admin/service-security-data-protection-overview.md)를 사용하여 보안 관리자가 사용자 액세스 및 활동을 모니터링하고, 실시간 위험 분석을 수행하며, 레이블 관련 제어를 설정할 수 있습니다. 예를 들어 조직에서 Microsoft Cloud App Security를 사용하여 사용자가 중요한 데이터를 Power BI에서 비관리형 디바이스로 다운로드할 수 없도록 하는 정책을 구성할 수 있습니다. 
+**이러한 사용자 지정 사용자 환경에서는 데이터 세트에서 사용자가 액세스할 수 있는 데이터를 제한하지 않습니다. 각 사용자의 자격 증명에 따라 액세스할 수 있는 데이터를 결정하도록 데이터 세트에서 [RLS(행 수준 보안)](../admin/service-admin-rls.md)를 사용합니다.**
 
+## <a name="protect-data-when-it-is-exported-out-of-power-bi"></a>데이터가 Power BI 외부로 내보내질 때 보호
+
+- 보고서 작성자는 보고서에 [민감도 레이블](../admin/service-security-data-protection-overview.md)을 적용할 수 있습니다.  이러한 레이블은 보고서 데이터에 액세스할 수 있는 사용자 및 데이터를 Excel, PowerPoint 및 PDF로 내보내는 방법을 결정합니다. 일부 민감도 수준에는 데이터를 내보낼 때 적용되는 보호 설정(예: 사용 권한, 암호화)이 포함됩니다. 민감도 수준에 보호 설정이 포함되어 있으면 데이터를 Excel, PowerPoint 및 PDF로 내보낼 때 해당 설정이 적용됩니다. 적절한 권한이 있는 사용자만 보고서 데이터를 내보내고 보고 저장하고 공유할 수 있습니다. 
+
+- 보안 및 Power BI 관리자는 [Microsoft Cloud App Security](../admin/service-security-data-protection-overview.md)를 사용하여 사용자 액세스 및 활동을 모니터링하고, 실시간 위험 분석을 수행하며, 레이블 관련 제어를 설정할 수 있습니다. 예를 들어 조직에서 Microsoft Cloud App Security를 사용하여 사용자가 중요한 데이터를 Power BI에서 비관리형 디바이스로 다운로드할 수 없도록 하는 정책을 구성할 수 있습니다.
 
 ## <a name="export-underlying-data-details"></a>기본 데이터 세부 정보 내보내기
 

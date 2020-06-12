@@ -6,20 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/05/2020
+ms.date: 05/28/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 373ad0d230b3d9d7b9d35909d086b0611637f0e2
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a0000d2e0da3613bb74e8d3d0aed2dd7fa3e3dcc
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83326038"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84160275"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Power BI Desktop에서 관계 만들기 및 관리
-여러 테이블을 가져올 때 이러한 모든 테이블의 데이터를 사용하여 분석을 수행하려는 경우가 있습니다. 결과를 정확하게 계산하고 보고서에 올바른 정보를 표시하려면 테이블 간의 관계가 필요합니다. Power BI Desktop에서는 이러한 관계를 쉽게 만들 수 있습니다. 실제로 아무 작업도 수행할 필요가 없는 경우가 대부분입니다. 자동 검색 기능이 자동으로 작업을 수행합니다. 그러나 관계를 직접 만들거나 관계를 변경해야 하는 경우도 있습니다. 어떤 경우든지 Power BI Desktop에서의 관계 및 관계를 만들고 편집하는 방법을 이해하는 것이 중요합니다. 
+여러 테이블을 가져올 때 이러한 모든 테이블의 데이터를 사용하여 분석을 수행하려는 경우가 있습니다. 결과를 정확하게 계산하고 보고서에 올바른 정보를 표시하려면 테이블 간의 관계가 필요합니다. Power BI Desktop에서는 이러한 관계를 쉽게 만들 수 있습니다. 실제로 아무 작업도 수행할 필요가 없는 경우가 대부분입니다. 자동 검색 기능이 자동으로 작업을 수행합니다. 그러나 관계를 직접 만들거나 관계를 변경해야 하는 경우도 있습니다. 어떤 경우든지 Power BI Desktop에서의 관계 및 관계를 만들고 편집하는 방법을 이해하는 것이 중요합니다.
 
-## <a name="autodetect-during-load"></a>로드하는 동안 자동 검색 
+## <a name="autodetect-during-load"></a>로드하는 동안 자동 검색
 둘 이상의 테이블을 동시에 쿼리하는 경우 데이터가 로드될 때 Power BI Desktop에서 자동으로 관계를 찾고 만들려고 합니다. 관계 옵션 **카디널리티**, **교차 필터 방향** 및 **이 관계를 활성으로 만들기**가 자동으로 설정됩니다. Power BI Desktop은 쿼리하는 테이블의 열 이름을 보고 잠재적 관계가 있는지를 확인합니다. 관계가 있는 경우 자동으로 생성됩니다. Power BI Desktop이 높은 수준의 신뢰도로 일치하는 항목을 확인할 수 없을 경우 관계를 만들지 않습니다. 그러나 여전히 **관계 관리** 대화 상자를 사용하여 직접 관계를 만들거나 편집할 수 있습니다.
 
 ## <a name="create-a-relationship-with-autodetect"></a>자동 검색으로 관계 만들기
@@ -59,7 +59,7 @@ ms.locfileid: "83326038"
 ### <a name="cardinality"></a>카디널리티
 **카디널리티** 옵션은 다음 설정 중 하나를 사용할 수 있습니다.
 
-**다 대 일(\*:1)** : 다 대 일 관계는 관계의 가장 일반적인 기본 형식입니다. 이는 한 테이블의 열은 둘 이상의 값 인스턴스를 가질 수 있고, 다른 관련 테이블(조회 테이블이라고도 함)은 하나의 값 인스턴스만 가질 수 있음을 의미합니다.
+**다 대 일(\*:1)** : 다 대 일 관계는 관계의 가장 일반적인 기본 형식입니다. 이는 특정 테이블의 열은 둘 이상의 값 인스턴스를 가질 수 있고, 다른 관련 테이블(조회 테이블이라고도 함)은 하나의 값 인스턴스만 가질 수 있음을 의미합니다.
 
 **일 대 일(1:1)** : 일 대 일 관계에서는 한 테이블의 열과 다른 관련 테이블이 하나의 특정 값 인스턴스만 가질 수 있음을 의미합니다.
 

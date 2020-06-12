@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 49465556d7b11b911e24df06ab6598bb2dbe9707
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: 38db00f51a333b754267d52aaf3e3eabccc3e6b6
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83794129"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273026"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>자습서:  조직의 애플리케이션에 Power BI 콘텐츠 포함
 
@@ -387,8 +387,8 @@ function updateEmbedReport() {
 
 | 용량 노드 | 총 vCore<br/>(백 엔드 + 프런트 엔드) | 백 엔드 vCore | 프런트 엔드 vCore | DirectQuery/라이브 연결 제한 |
 | --- | --- | --- | --- | --- | --- |
-| EM1 |vCore 1개 |vCore 0.5개, 10GB RAM |vCore 0.5개 |초당 3.75 |
-| EM2 |vCore 2개 |vCore 1개, 10GB RAM |vCore 1개 |초당 7.5 |
+| EM1 |vCore 1개 |vCore 0.5개, 3GB RAM |vCore 0.5개 |초당 3.75 |
+| EM2 |vCore 2개 |vCore 1개, 5GB RAM |vCore 1개 |초당 7.5 |
 | EM3 |vCore 4개 |vCore 2개, 10GB RAM |vCore 2개 |초당 15 |
 | P1 |vCore 8개 |vCore 4개, 25GB RAM |vCore 4개 |초당 30 |
 | P2 |vCore 16개 |vCore 8개, 50GB의 RAM |vCore 8개 |초당 60 |

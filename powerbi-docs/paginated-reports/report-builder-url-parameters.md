@@ -9,12 +9,12 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 05/01/2020
-ms.openlocfilehash: 83de843ba640bc165e9a56450bc5539e8e433e78
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d7e11b40c3a0257e090812ff15f31916cea509f9
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82692861"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336777"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Power BI에서 페이지를 매긴 보고서의 URL 매개 변수
 
@@ -163,6 +163,8 @@ XML:
 - rdl:Encoding=string
 - rdl:FileExtension=string
 - rdl:Schema=true/false
+
+**동일한 브라우저 창에서 하이퍼링크 열기** 보고서의 하이퍼링크 URL에 ‘rdl:targetSameWindow=true’를 추가하여 Power BI가 동일한 브라우저 창에서 이 하이퍼링크를 열도록 할 수 있습니다. 보고서에 하이퍼링크를 추가하는 방법에 대한 자세한 내용은 SQL Server Reporting Services 설명서에서 [URL에 하이퍼링크 추가](https://docs.microsoft.com/sql/reporting-services/report-design/add-a-hyperlink-to-a-url-report-builder-and-ssrs)를 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 

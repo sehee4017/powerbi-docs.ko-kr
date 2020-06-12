@@ -6,15 +6,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: troubleshooting
-ms.date: 09/13/2019
+ms.date: 05/28/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 38f3b9e40001b5cc3d90d35ed56e768237345e5d
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: f28182b8ecfcadae92f64a725622493ebd7a6c61
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84119792"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84160252"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>새로 고침 시나리오 문제 해결
 
@@ -23,7 +23,14 @@ ms.locfileid: "84119792"
 > [!NOTE]
 > 아래 나열되어 있지 않은 시나리오가 발생하고 문제를 발생시킨 경우 [커뮤니티 사이트](https://community.powerbi.com/)에 추가 지원을 요청하거나 [지원 티켓](https://powerbi.microsoft.com/support/)을 만들 수 있습니다.
 >
->
+
+새로 고침에 대한 기본 요구 사항이 충족되고 확인되는지를 항상 확인해야 합니다. 이러한 기본 요구 사항은 다음과 같습니다.
+
+* 게이트웨이가 최신 버전인지 확인
+* 보고서에 게이트웨이가 선택되어 있는지 확인합니다. 선택되어 있지 않은 경우 데이터 원본이 변경되었거나 없을 수 있습니다.
+
+이러한 요구 사항이 충족된 것을 확인했다면 다음 섹션에서 더 많은 문제 해결 방법을 살펴봅니다. 
+
 
 ## <a name="email-notifications"></a>메일 알림
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 분해 트리
 description: '자습서:  Power BI에서 분해 트리 시각화 만들기'
 author: mihart
@@ -10,14 +10,14 @@ ms.topic: tutorial
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f7c907d31d4d58a9f39ad982e7d94f3f5ba3f118
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 7e93e8a08b6dd662f3ada089c5ee8745bb24b3e2
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82865571"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84337053"
 ---
-# <a name="create-and-view-decomposition-tree-visuals-in-power-bi-preview"></a>Power BI에서 분해 트리 시각적 개체 만들기 및 보기(미리 보기)
+# <a name="create-and-view-decomposition-tree-visuals-in-power-bi"></a>Power BI에서 분해 트리 시각적 개체 만들기 및 보기
 
 [!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
@@ -32,6 +32,9 @@ Power BI의 분해 트리 시각적 개체를 사용하여 여러 차원에서 �
 - 회사가 보유한 이월 주문(재고 부족) 제품의 비율을 분석하는 공급망 시나리오.  
 - 게임 장르 및 제작사와 같은 다양한 요소에 따라 비디오 게임 판매를 분류하는 판매 시나리오.
 
+공급망 시나리오에서 사용되는 pbix는 다음에서 찾을 수 있습니다. [Supply Chain Sample.pbix](
+https://github.com/microsoft/powerbi-desktop-samples/blob/master/Sample%20Reports/Supply%20Chain%20Sample.pbix).
+
 > [!NOTE]
 > Power BI 동료와 보고서를 공유하려면 개별 Power BI Pro 라이선스가 있거나 보고서가 Premium 용량에 저장되어 있어야 합니다.    
 
@@ -41,15 +44,19 @@ Power BI의 분해 트리 시각적 개체를 사용하여 여러 차원에서 �
 
 시각화에는 두 가지 유형의 입력이 필요합니다.
 
-**분석** – 분석할 메트릭입니다. 측정값 또는 집계여야 합니다.  
-**설명 기준** - 드릴다운할 하나 이상의 차원입니다.
+ - **분석** – 분석할 메트릭입니다. 측정값 또는 집계여야 합니다.  
+ - **설명 기준** - 드릴다운할 하나 이상의 차원입니다.
 
-측정값을 필드로 끌면 시각적 개체가 업데이트되어 집계된 측정값을 보여줍니다. 아래 예제에서는 이월 주문 제품 평균 백분율(5.07%)을 시각화합니다, ![분해 트리 루트 노드](media/power-bi-visualization-decomposition-tree/tree-root.png)
+측정값을 필드로 끌면 시각적 개체가 업데이트되어 집계된 측정값을 보여줍니다. 아래 예제에서는 이월 주문 제품 평균 백분율(5.07%)을 시각화합니다.
+
+![분해 트리 루트 노드](media/power-bi-visualization-decomposition-tree/tree-root.png)
 
 다음 단계는 드릴다운할 차원을 하나 이상 가져오는 것입니다. **설명 기준** 버킷에 이러한 필드를 추가합니다. 루트 노드 옆에 더하기 기호가 표시됩니다. +를 선택하면 드릴하려는 필드를 선택할 수 있습니다. 원하는 순서로 필드를 드릴할 수 있습니다.
+
 ![분해 트리 메뉴](media/power-bi-visualization-decomposition-tree/tree-menu.png)
 
 **Forecast bias**를 선택하면 트리가 확장되고 측정값이 열의 값을 기준으로 분류됩니다. 드릴할 다른 노드를 선택하여 이 프로세스를 반복할 수 있습니다.
+
 ![분해 트리 확장](media/power-bi-visualization-decomposition-tree/tree-expansion.png)
 
 마지막 수준에서 노드를 선택하면 데이터가 교차 필터링됩니다. 이전 수준에서 노드를 선택하면 경로가 변경됩니다.
@@ -72,10 +79,12 @@ Power BI의 분해 트리 시각적 개체를 사용하여 여러 차원에서 �
 
 분석은 기본 설정에 따라 두 가지 방법으로 작동할 수 있습니다. 기본 동작은 다음과 같습니다.
 
-**높은 값** 사용 가능한 모든 필드를 고려하고 분석할 측정값에서 가장 높은 값을 얻기 위해 드릴할 필드를 결정합니다.  
-**낮은 값** 사용 가능한 모든 필드를 고려하고 분석할 측정값에서 가장 낮은 값을 얻기 위해 드릴할 필드를 결정합니다.  
+ - **높은 값** 사용 가능한 모든 필드를 고려하고 분석할 측정값에서 가장 높은 값을 얻기 위해 드릴할 필드를 결정합니다.  
+ - **낮은 값** 사용 가능한 모든 필드를 고려하고 분석할 측정값에서 가장 낮은 값을 얻기 위해 드릴할 필드를 결정합니다.  
 
-이월 주문 예제에서 **높은 값**을 선택하면 다음과 같은 결과가 나타납니다. ![분해 트리 AI 분할](media/power-bi-visualization-decomposition-tree/tree-ai-split.png)
+이월 주문 예제에서 **높은 값**을 선택하면 다음과 같은 결과가 나타납니다.
+
+![분해 트리 AI 분할](media/power-bi-visualization-decomposition-tree/tree-ai-split.png)
 
 **Product Type** 옆에 전구가 나타나 ‘AI 분할’을 표시합니다. 또한 트리는 이월 주문 최대값으로 **Patient Monitoring** 노드(9.2%)를 제안하는 점선을 제공합니다. 
 
@@ -83,7 +92,9 @@ Power BI의 분해 트리 시각적 개체를 사용하여 여러 차원에서 �
 
 **절대**와는 반대로 **상대** AI 분할을 찾도록 시각적 개체를 구성할 수 있습니다. 
 
-상대 모드는 두드러지는 높은 값을 찾습니다(열의 나머지 데이터와 비교). 이를 설명하기 위해 예제를 살펴보겠습니다. ![분해 트리 절대 분할](media/power-bi-visualization-decomposition-tree/tree-ai-absolute.png)
+상대 모드는 두드러지는 높은 값을 찾습니다(열의 나머지 데이터와 비교). 이를 설명하기 위해 예제를 살펴보겠습니다.
+
+![분해 트리 절대 분할](media/power-bi-visualization-decomposition-tree/tree-ai-absolute.png)
 
 위의 스크린샷에는 북아메리카 지역 비디오 게임 판매가 나와 있습니다. 먼저 **Publisher Name**을 기준으로 트리를 분할한 다음 Nintendo로 드릴합니다. **높은 값**을 선택하면 **Platform이 Nintendo**가 확장됩니다. Nintendo(제작사)만 Nintendo 콘솔 게임을 개발하므로 값은 하나뿐이고 당연히 이것이 최대값입니다.
 
@@ -105,15 +116,19 @@ Nintendo 북아메리카 판매/Abs(Avg(플랫폼 북아메리카 판매))
 vs.  
 46,950,000/ (46,950,000/1) = 1x  
 
-트리에서 AI 분할을 사용하지 않으려는 경우 **분석 서식 지정** 옵션을 사용하여 해제할 수도 있습니다.   
+트리에서 AI 분할을 사용하지 않으려는 경우 **분석 서식 지정** 옵션을 사용하여 해제할 수도 있습니다.  
 
 ![분해 트리 AI 분할 사용 안 함](media/power-bi-visualization-decomposition-tree/tree-ai-disable.png)
 
 ## <a name="tree-interactions-with-ai-splits"></a>AI 분할을 사용한 트리 상호 작용
 
-후속 AI 수준이 여러 개 있을 수 있습니다. 다양한 종류의 AI 수준을 혼합할 수도 있습니다(높은 값에서 낮은 값으로 이동하다가 다시 높은 값으로 이동). ![여러 AI 경로를 가진 분해 트리](media/power-bi-visualization-decomposition-tree/tree-multi-ai-path.png)
+후속 AI 수준이 여러 개 있을 수 있습니다. 다양한 종류의 AI 수준을 혼합할 수도 있습니다(높은 값에서 낮은 값으로 이동하다가 다시 높은 값으로 이동).
 
-트리에서 다른 노드를 선택하면 AI는 처음부터 다시 계산합니다. 아래 예제에서는 **Forecast bias** 수준에서 선택한 노드를 변경했습니다. 이후 수준을 변경하면 올바른 높은 값과 낮은 값이 생성됩니다. ![분해 트리 AI 상호 작용](media/power-bi-visualization-decomposition-tree/tree-ai-interactions.png)
+![여러 AI 경로를 가진 분해 트리](media/power-bi-visualization-decomposition-tree/tree-multi-ai-path.png)
+
+트리에서 다른 노드를 선택하면 AI는 처음부터 다시 계산합니다. 아래 예제에서는 **Forecast bias** 수준에서 선택한 노드를 변경했습니다. 이후 수준을 변경하면 올바른 높은 값과 낮은 값이 생성됩니다.
+
+![분해 트리 AI 상호 작용](media/power-bi-visualization-decomposition-tree/tree-ai-interactions.png)
 
 다른 시각적 개체를 통해 분해 트리를 교차 필터링하는 경우 AI 수준도 다시 계산됩니다. 아래 예제에서는 공장 #0477에 대한 이월 주문 %가 가장 높은 것을 볼 수 있습니다.
 
@@ -144,15 +159,11 @@ AI 수준이 비 AI 수준처럼 동작하게 하려면 전구를 선택하여 �
 
 AI 분할은 다음과 같은 시나리오에서 지원되지 않습니다.  
 -   Azure Analysis Services
--   DirectQuery
 -   Power BI Report Server
 -   웹에 게시
 -   복잡한 측정값과 '분석' 내 확장 스키마의 측정값
 
-기타 미리 보기 제한 사항:
-- Power BI Mobile  
-- 대시보드에 고정
-- 데이터 기능 표시
+기타 제한 사항은 다음과 같습니다.
 - Q&A 내에서 지원
 
 ## <a name="next-steps"></a>다음 단계

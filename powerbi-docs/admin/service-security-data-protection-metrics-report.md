@@ -6,34 +6,34 @@ manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 05/23/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: e16acffd683b14eb48a6e21ddc456caeac25efc3
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: fdc246d1edb487ce7280ceee8a3727d2faeb0252
+ms.sourcegitcommit: 12f26ae9a2615cb287fee9046b0dc713af764c04
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83131987"
+ms.lasthandoff: 05/31/2020
+ms.locfileid: "84229047"
 ---
-# <a name="data-protection-metrics-report-preview"></a>데이터 보호 메트릭 보고서(미리 보기)
+# <a name="data-protection-metrics-report"></a>데이터 보호 메트릭 보고서
 
 ## <a name="what-is-the-data-protection-metrics-report"></a>데이터 보호 메트릭 보고서란?
-데이터 보호 메트릭 보고서는 [Power BI 관리자](../admin/service-admin-role.md)가 테넌트의 데이터 민감도 레이블 사용 및 도입을 모니터링하고 추적하는 데 사용할 수 있는 전용 보고서입니다.
+데이터 보호 메트릭 보고서는 [Power BI 관리자](../service-admin-role.md)가 테넌트의 데이터 민감도 레이블 사용 및 도입을 모니터링하고 추적하는 데 사용할 수 있는 전용 보고서입니다.
 
 ![데이터 보호 메트릭 보고서](./media/service-security-data-protection-metrics-report/protection-metrics-seven-days-1.png)
  
 보고서 기능:
 * 지난 7일, 30일 또는 90일 동안 테넌트의 일별 민감도 레이블 사용량을 보여 주는 100% 기준 누적 세로 막대형 차트입니다. 이 차트를 사용하면 시간이 지남에 따라 다양한 레이블 형식의 상대적 사용량을 쉽게 추적할 수 있습니다.
 * 대시보드, 보고서, 데이터 세트 및 데이터 흐름에 대한 테넌트의 현재 민감도 레이블 사용 상태를 보여 주는 도넛형 차트입니다.
-* Power BI 경고, 사용자 위험, 활동 로그 및 기타 정보를 사용할 수 있는 Cloud App Security 포털 링크입니다. 자세한 내용은 [Power BI에서 Microsoft Cloud App Security 컨트롤 사용(미리 보기)](./service-security-using-microsoft-cloud-app-security-controls.md)을 참조하세요.
+* Power BI 경고, 사용자 위험, 활동 로그 및 기타 정보를 사용할 수 있는 Cloud App Security 포털 링크입니다. 자세한 내용은 [Power BI에서 Microsoft Cloud App Security 컨트롤 사용](./service-security-using-microsoft-cloud-app-security-controls.md)을 참조하세요.
 
 보고서는 24시간마다 새로 고쳐집니다.
 
 ## <a name="viewing-the-data-protection-metrics-report"></a>데이터 보호 메트릭 보고서 보기
 
-보고서를 열고 보려면 [Power BI 관리자 역할](../admin/service-admin-role.md)이 있어야 합니다.
-보고서를 보려면 **설정 > 관리 포털**로 이동한 다음 **보호 메트릭(미리 보기)** 을 선택합니다.
+보고서를 열고 보려면 [Power BI 관리자 역할](../service-admin-role.md)이 있어야 합니다.
+보고서를 보려면 **설정 > 관리 포털**로 이동한 다음 **보호 메트릭**을 선택합니다.
 
 ![보호 메트릭 관리 포털](./media/service-security-data-protection-metrics-report/protection-metrics-admin-portal.png)
  
@@ -51,9 +51,9 @@ ms.locfileid: "83131987"
 * Cloud App Security 정보에 액세스하려면 조직에 적절한 [Cloud App Security 라이선스](https://docs.microsoft.com/power-bi/admin/service-security-using-microsoft-cloud-app-security-controls#microsoft-cloud-app-security-licensing)가 있어야 합니다.
 * Power BI 관리자가 아닌 사용자로 데이터 보호 메트릭 보고서의 정보를 공유하려는 경우 이 보고서에는 조직에 대한 중요한 정보가 포함되어 있다는 점에 유의해주세요.
 * 데이터 보호 메트릭 보고서는 특별한 종류의 보고서이며 “공유한 항목”, “최근” 및 “즐겨찾기” 목록에 표시되지 않습니다.
-* [외부 사용자(Azure Active Directory B2B 게스트 사용자)](../admin/service-admin-azure-ad-b2b.md)는 데이터 보호 메트릭 보고서를 사용할 수 없습니다.
+* [외부 사용자(Azure Active Directory B2B 게스트 사용자)](../service-admin-azure-ad-b2b.md)는 데이터 보호 메트릭 보고서를 사용할 수 없습니다.
 ## <a name="next-steps"></a>다음 단계
-* [Power BI의 데이터 보호(미리 보기)](./service-security-data-protection-overview.md)
-* [Power BI에서 Microsoft Cloud App Security 제어 사용(미리 보기)](./service-security-using-microsoft-cloud-app-security-controls.md)
-* [Power BI 서비스 관리자 역할 이해](../admin/service-admin-role.md)
-* [Power BI에서 데이터 민감도 레이블 사용](./service-security-enable-data-sensitivity-labels.md)
+* [Power BI의 데이터 보호](./service-security-data-protection-overview.md)
+* [Power BI에서 Microsoft Cloud App Security 제어 사용](service-security-using-microsoft-cloud-app-security-controls.md)
+* [Power BI 서비스 관리자 역할 이해](service-admin-role.md)
+* [Power BI에서 데이터 민감도 레이블 사용](service-security-enable-data-sensitivity-labels.md)

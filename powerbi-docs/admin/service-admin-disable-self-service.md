@@ -1,6 +1,6 @@
 ---
 title: 셀프 서비스 등록 및 구매 사용 또는 사용 안 함
-description: 관리자가 Power BI에 등록하고 라이선스를 구매할 수 있는 기능을 해제하는 방법에 대한 정보입니다.
+description: 관리자가 Power BI 서비스에 등록하고 라이선스를 업그레이드할 수 있는 기능을 해제하는 방법에 대한 정보입니다.
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
@@ -8,13 +8,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 04/08/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 561d8b6cd0e17e885ced984315a04376400a2a58
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 751db634ceb9e7d6349b35f7348b09e0c0d648ed
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81447513"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84160068"
 ---
 # <a name="enable-or-disable-self-service-sign-up-and-purchasing"></a>셀프 서비스 등록 및 구매 사용 또는 사용 안 함
 

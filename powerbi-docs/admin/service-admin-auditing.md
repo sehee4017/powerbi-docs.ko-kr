@@ -8,14 +8,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/11/2020
 ms.author: kfollis
-ms.custom: seodec18
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: c0f8e6f0282e4a862c8fc92e922a412ba0f56098
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: f479bb865a11de57587a0302738411327327ed33
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83812430"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272681"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Power BI에서 사용자 활동 추적
 
@@ -133,9 +133,9 @@ Power BI 감사 로그는 [Office 365 보안 및 준수 센터](https://sip.prot
 
 1. **감사 로그**를 선택합니다.
 
-1. **O365 관리 센터로 이동**을 선택합니다.
+1. **Microsoft 365 관리 센터로 이동**을 선택합니다.
 
-   ![감사 로그 옵션 및 Microsoft O365 관리 센터로 이동 옵션이 표시된 관리 포털의 스크린샷.](media/service-admin-auditing/audit-log-o365-admin-center.png)
+   ![감사 로그 옵션 및 Microsoft 365 관리 센터로 이동 옵션이 표시된 관리 포털의 스크린샷.](media/service-admin-auditing/audit-log-o365-admin-center.png)
 
 ### <a name="search-only-power-bi-activities"></a>Power BI 활동만 검색
 

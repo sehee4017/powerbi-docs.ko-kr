@@ -6,19 +6,22 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 05/29/2020
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 3544a5330a21036e0ddecb351fd67b424ca6ebc7
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: cceeb3c874bf3320b7c826790c46b4cafd6d45a2
+ms.sourcegitcommit: b66c913a50a5100082e1c8ff7cd1c4f76f514fe7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348876"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "84219503"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>Power BI에서 라이브 연결에 대한 질문 및 답변 사용
-## <a name="what-is-the-on-premises-data-gateway--what-is-a-live-connection"></a>온-프레미스 데이터 게이트웨이란?  라이브 연결이란?
-Power BI의 데이터 세트를 Power BI로 가져올 수 있거나 이에 대한 라이브 연결을 만들 수 있습니다. 라이브 연결 데이터 세트는 보통 "온-프레미스"라고 합니다. 라이브 연결은 [게이트웨이](../connect-data/service-gateway-onprem.md) 및 데이터를 사용하여 관리되고 라이브 쿼리를 사용하여 앞뒤로 조사가 전송됩니다.
+
+데이터 세트를 Power BI로 가져오거나 이에 대한 ‘라이브 연결’을 만들 수 있습니다. 라이브 연결 데이터 세트는 일반적으로 온-프레미스입니다. 그렇다면 [게이트웨이](../connect-data/service-gateway-onprem.md)를 사용하여 라이브 연결을 관리합니다. 데이터 및 쿼리는 라이브 쿼리를 사용하여 앞뒤로 전송됩니다.
+
+> [!NOTE]
+> 또한 라이브 연결은 게이트웨이가 필요하지 않은 Azure Analysis Services 데이터 세트를 지원합니다.
 
 ## <a name="qa-for-on-premises-data-gateway-datasets"></a>온-프레미스 데이터 게이트웨이 데이터 세트에 대한 질문 및 답변
 게이트웨이를 통해 액세스하는 데이터 세트에 대한 질문 및 답변을 사용하려는 경우 먼저 사용하도록 설정해야 합니다.
@@ -60,7 +63,7 @@ Power BI 질문 및 답변은 데이터 원본에서 텍스트 및 스키마 값
 
 ## <a name="next-steps"></a>다음 단계
 
-- [온-프레미스 데이터 게이트웨이](../connect-data/service-gateway-onprem.md)  
+- [On-premises data gateway (온-프레미스 데이터 게이트웨이)](../connect-data/service-gateway-onprem.md)  
 - [데이터 원본 관리 - Analysis Services](../connect-data/service-gateway-enterprise-manage-ssas.md)  
 - [Power BI 서비스의 디자이너를 위한 기본 개념](../fundamentals/service-basic-concepts.md)  
 - [Power BI 질문 및 답변 개요](../consumer/end-user-q-and-a.md)  

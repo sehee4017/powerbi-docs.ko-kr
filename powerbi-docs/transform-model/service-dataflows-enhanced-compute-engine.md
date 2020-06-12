@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 06/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e126451bf016bf4e9dcce7b7a4df51db9ed20386
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: ec0d12ddf91b04654b90c5a3e7cdfda24bc04604
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83320518"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315905"
 ---
 # <a name="the-enhanced-compute-engine"></a>향상된 컴퓨팅 엔진
 
@@ -31,6 +31,9 @@ Power BI의 향상된 컴퓨팅 엔진을 사용하면 Power BI Premium 구독�
 향상된 컴퓨팅 엔진은 Power BI 서비스의 **용량 설정** 페이지에 있는 **데이터 흐름** 섹션에서 사용하도록 설정할 수 있습니다. 기본적으로 향상된 컴퓨팅 엔진은 **꺼짐**으로 설정되어 있습니다. 향상된 컴퓨팅 엔진을 켜려면 다음 그림과 같이 토글을 **켜짐**으로 바꾸고 설정을 저장합니다. 
 
 ![향상된 컴퓨팅 엔진 켜기](media/service-dataflows-enhanced-compute-engine/enhanced-compute-engine-01.png)
+
+> [!IMPORTANT]
+> 향상된 컴퓨팅 엔진은 A3 이상의 Power BI 용량에 대해서만 작동합니다.
 
 향상된 컴퓨팅 엔진을 켜고 데이터 흐름으로 돌아가면 동일한 용량에 있는 기존의 연결된 엔터티에서 만들어진 *join* 또는 *group by* 작업과 같은 복잡한 작업을 수행하는 계산된 엔터티의 성능이 향상된 것을 볼 수 있습니다. 
 

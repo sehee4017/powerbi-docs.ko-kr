@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d094e3411bd5b8bef9b4a8f488412d903723a703
-ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
+ms.openlocfilehash: cf971de1a60636def852080a523c227f08b4f888
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83733557"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272934"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>동료 및 다른 사용자와 Power BI 대시보드 및 보고서 공유
 다른 사람에게 대시보드 및 보고서에 대한 액세스 권한을 부여하려면 *공유*를 사용하는 것이 좋습니다. Power BI는 [대시보드 및 보고서를 공동 작업하고 배포하는 여러 가지 다른 방법](service-how-to-collaborate-distribute-dashboards-reports.md)도 제공합니다.
@@ -26,7 +26,7 @@ ms.locfileid: "83733557"
 
 즐겨찾기, 최근 항목, 공유한 항목(소유자가 허용한 경우), 내 작업 영역, 기타 작업 영역 등 Power BI 서비스의 대부분의 위치에서 대시보드와 보고서를 공유할 수 있습니다. 작업 영역에서 [관리자, 구성원 또는 참가자 역할](service-new-workspaces.md#roles-in-the-new-workspaces)을 하는 경우에도 다른 작업 영역에서 공유할 수 있습니다. 
 
-대시보드 또는 보고서를 공유할 경우 공유받은 사람들은 대시보드 또는 보고서를 보고 조작할 수 있지만 편집할 수는 없습니다. [RLS(행 수준 보안)](../admin/service-admin-rls.md)를 적용하지 않는 한 다른 사용자는 사용자가 대시보드 또는 보고서에서 확인할 수 있는 동일한 데이터를 봅니다. 허용하는 경우 사용자와 항목을 공유하는 동료는 자신의 동료와도 공유할 수 있습니다. 조직 외부 사람들도 대시보드 또는 보고서를 보고 상호 작용할 수는 있지만, 공유할 수는 없습니다. 
+대시보드 또는 보고서를 공유할 경우 공유받은 사람들은 대시보드 또는 보고서를 보고 조작할 수 있지만 편집할 수는 없습니다. 기본 데이터 세트에 RLS(행 수준 보안)를 적용하지 않는 한 다른 사용자는 귀하가 대시보드 및 보고서에서 확인할 수 있고 전체 기본 데이터 세트에 액세스할 수 있는 동일한 데이터를 봅니다.  허용하는 경우 사용자와 항목을 공유하는 동료는 자신의 동료와도 공유할 수 있습니다. 조직 외부 사람들도 대시보드 또는 보고서를 보고 상호 작용할 수는 있지만, 공유할 수는 없습니다. 
 
 Power BI Desktop에서 직접 *공유*할 수 없습니다. Power BI 서비스에 [Power BI Desktop의 보고서를 게시](../create-reports/desktop-upload-desktop-files.md)합니다. 하지만 [Power BI 모바일 앱에서 대시보드를 공유](../consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md)할 수 있습니다.  
 
@@ -123,7 +123,7 @@ Power BI 관리자는 외부 게스트 사용자가 조직의 콘텐츠를 편�
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
 다음은 대시보드 및 보고서 공유에 관해 주의해야 할 점입니다.
 
-* 일반적으로 사용자와 사용자의 동료는 대시보드 또는 보고서에서 동일한 데이터를 볼 수 있습니다. 따라서 사용자가 타인보다 더 많은 데이터를 볼 수 있는 권한을 가진 경우, 그들도 사용자의 대시보드 또는 보고서의 모든 데이터를 보게 됩니다. 그러나 [RLS(행 수준 보안)](../admin/service-admin-rls.md)가 대시보드 또는 보고서 바탕이 되는 데이터 세트에 적용된 경우 각 사용자의 자격 증명에 따라 해당 사용자가 액세스할 수 있는 데이터가 결정됩니다.
+* 동료와 대시보드를 공유하는 경우에도 기본 데이터 세트를 공유하게 됩니다. [RLS(행 수준 보안)](../admin/service-admin-rls.md)으로 액세스를 제한하지 않는 한 동료는 전체 데이터 세트에 액세스할 수 있습니다. 보고서 작성자는 보고서를 보거나 상호 작용할 때 사용자 환경을 사용자 지정하는 기능(예: 열을 숨기기 및 시각적 개쳬 작업 제한)을 사용할 수 있습니다. 이러한 사용자 지정 사용자 환경에서는 데이터 세트에서 사용자가 액세스할 수 있는 데이터를 제한하지 않습니다. 각 사용자의 자격 증명에 따라 액세스할 수 있는 데이터를 결정하도록 데이터 세트에서 [RLS(행 수준 보안)](../admin/service-admin-rls.md)를 사용합니다.
 * 대시보드를 공유받은 모든 사용자는 대시보드를 보고 [읽기용 보기](../consumer/end-user-reading-view.md#reading-view)에서 관련 보고서를 조작할 수 있습니다. 일반적으로, 보고서를 만들거나 기존 보고서에 변경 내용을 저장할 수는 없습니다. 그러나 **기본 데이터 세트를 사용하여 사용자의 새 콘텐츠 빌드를 허용**을 선택하는 경우 이 대시보드 또는 보고서의 데이터 세트를 기반으로 다른 작업 영역에서 사용자가 자체 보고서를 만들 수 있습니다.
 * 누구도 데이터 세트를 다운로드하거나 볼 수는 없지만, Excel에서 분석 기능을 사용하여 데이터 세트에 직접 액세스할 수 있습니다. 관리자는 그룹의 모든 사용자에 대해 Excel에서 분석을 사용하는 기능을 제한할 수 있습니다. 이때 제한은 해당 그룹의 모든 사용자와 해당 그룹이 속한 모든 작업 영역에 적용됩니다.
 * 모든 사용자는 수동으로 [데이터를 새로 고칠](../connect-data/refresh-data.md) 수 있습니다.

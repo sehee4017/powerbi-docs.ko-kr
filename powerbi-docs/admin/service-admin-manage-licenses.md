@@ -8,17 +8,18 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 04/08/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 2d5eab5dbbf600227611cadc870fab1b3e44a4b7
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 16cd210955ff358bd6bf64346b4e3169648bab8d
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83138892"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84160022"
 ---
 # <a name="view-and-manage-power-bi-user-licenses"></a>Power BI 사용자 라이선스 보기 및 관리
 
-이 문서에서는 관리자가 Microsoft 365 관리 센터 또는 Azure Portal을 사용하여 사용자 라이선스를 보고 관리하는 방법을 설명합니다.
+이 문서에서는 관리자가 Microsoft 365 관리 센터 또는 Azure Portal을 사용하여 Power BI 서비스에 대한 사용자 라이선스를 보고 관리하는 방법을 설명합니다.
 
 > [!NOTE]
 >

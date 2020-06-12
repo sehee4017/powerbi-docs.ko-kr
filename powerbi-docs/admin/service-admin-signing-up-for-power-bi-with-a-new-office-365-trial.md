@@ -8,21 +8,23 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/17/2020
 ms.author: mihart
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 9c13f29b29742e62cb08c973e5444a7879e6222a
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: bab0eba6e2ae3d0ec8ede57f9875385dbb26a60a
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83812223"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159861"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>새 Microsoft 365 평가판으로 Power BI에 가입
 
-이 문서에서는 작업 또는 학교 이메일 계정이 없는 경우 Power BI에 가입하는 다른 방법에 대해 설명합니다.
+이 문서에서는 회사 또는 학교 메일 계정이 없는 경우 Power BI 서비스에 가입하는 다른 방법에 관해 설명합니다.
 
 이메일 주소를 사용하여 Power BI에 가입하는 데 문제가 있는 경우 먼저 [Power BI에 사용할 수 있는 이메일 주소](../fundamentals/service-self-service-signup-for-power-bi.md#supported-email-addresses)인지 확인합니다. 성공하지 못하면 Microsoft 365 평가판에 가입하고 회사 계정을 만듭니다. 그런 다음, 새 회사 계정을 사용하여 Power BI 서비스에 가입합니다. Microsoft 365 평가판이 만료된 후에도 Power BI를 사용할 수 있습니다.
 
 ## <a name="sign-up-for-a-microsoft-365-trial-of-office"></a>Office의 Microsoft 365 평가판 등록
+
 [Microsoft 365 웹 사이트](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans)에서 Microsoft 365 평가판에 가입합니다. 계정이 아직 없는 경우 계정을 만드는 단계를 안내해 드립니다. Hotmail 및 Gmail 같은 상업용 메일 계정은 Microsoft 365에서 사용할 수 없으므로 새 계정을 만듭니다.  해당 메일 계정은 *zalan@onmicrosoft.com* 과 같은 형식입니다.
 
 ![체험하기 선택](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-try-free.png)

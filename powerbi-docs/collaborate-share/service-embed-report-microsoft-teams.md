@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 04/27/2020
-ms.openlocfilehash: 7034bd544ee9c14dd5f32df9335faefd4221e4ac
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: 5d0c9fcfbd35b8b42e8196f6f014c96803f6ffc5
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693898"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159539"
 ---
 # <a name="embed-reports-in-microsoft-teams-with-the-power-bi-tab"></a>Power BI 탭을 사용하여 Microsoft Teams에 보고서 포함
 
@@ -48,7 +48,7 @@ Microsoft Teams의 업데이트된 Power BI 탭을 사용하여 Microsoft Teams 
 
     ![Power BI를 보여 주는 Microsoft Teams 탭 목록](media/service-embed-report-microsoft-teams/service-embed-report-microsoft-teams-tab.png)
 
-3. 제공된 옵션을 사용하여 작업 영역, 공유한 항목 또는 Power BI 앱에서 보고서를 선택합니다.
+3. 제공된 옵션을 사용하여 작업 영역 또는 Power BI 앱에서 보고서를 선택합니다.
 
     ![Microsoft Teams 설정의 Power BI 탭](media/service-embed-report-microsoft-teams/service-embed-report-microsoft-teams-tab-settings.png)
 

@@ -8,18 +8,18 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.custom: ''
-ms.date: 04/28/2020
+ms.date: 06/03/2020
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 166f5abb2e773ebdbdce552b4dd2fff99b3142f8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: cde97805519a800fc98668cb523db92f0276b06d
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83302279"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336959"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>DirectQuery를 사용한 Azure SQL Data Warehouse
 
-DirectQuery을 사용한 Azure SQL Data Warehouse를 통해 Azure SQL Data Warehouse에 이미 있는 데이터와 메트릭을 기반으로 하는 동적 보고서를 만들 수 있습니다. DirectQuery을 사용할 경우 데이터를 탐색할 때 쿼리가 Azure SQL Data Warehouse로 다시 전송됩니다. 실시간 쿼리가 SQL Data Warehouse의 규모와 결합하여 테라바이트의 데이터를 상대로 몇 분 안에 동적 보고서를 만들 수 있습니다. 또한 **Power BI에서 열기** 버튼이 있어 사용자가 수동으로 정보를 지정하지 않고도 직접 Power BI를 SQL Data Warehouse에 연결할 수 있습니다.
+DirectQuery을 사용한 Azure SQL Data Warehouse를 통해 Azure SQL Data Warehouse에 이미 있는 데이터와 메트릭을 기반으로 하는 동적 보고서를 만들 수 있습니다. DirectQuery을 사용할 경우 데이터를 탐색할 때 쿼리가 Azure SQL Data Warehouse로 다시 전송됩니다. 실시간 쿼리가 SQL Data Warehouse의 규모와 결합하여 테라바이트의 데이터를 상대로 몇 분 안에 동적 보고서를 만들 수 있습니다. 또한 **대시보드 + 보고서 작성** 링크를 사용하면 사용자가 SQL Data Warehouse를 사용하여 Power BI 보고서를 만들 수 있습니다.
 
 SQL Data Warehouse 커넥터를 사용할 때
 
@@ -32,57 +32,41 @@ SQL Data Warehouse 커넥터를 사용할 때
 
 이러한 제한 사항 및 참고는 환경이 계속 향상됨에 따라 변경될 수 있습니다. 연결 단계는 아래에서 자세히 설명합니다.
 
-## <a name="using-the-open-in-power-bi-button"></a>'Power BI에서 열기' 단추 사용
+## <a name="build-dashboards-and-reports-in-power-bi"></a>Power BI의 대시보드 및 보고서 작성
 
 > [!Important]
-> Azure SQL Data Warehouse에 대한 연결이 향상되었습니다.  Azure SQL Data Warehouse 데이터 원본에 연결하는 최상의 환경을 위해 Power BI Desktop을 사용합니다.  모델 및 보고서를 빌드하면 Power BI 서비스에 게시할 수 있습니다.  Power BI 서비스에서 Azure SQL Data Warehouse에 대한 직접 커넥터는 이제 사용되지 않습니다.
+> Azure SQL Data Warehouse에 대한 연결이 향상되었습니다. Azure SQL Data Warehouse 데이터 원본에 연결하는 최상의 환경을 위해 Power BI Desktop을 사용합니다. 모델 및 보고서를 빌드하면 Power BI 서비스에 게시할 수 있습니다. Power BI 서비스에서 Azure SQL Data Warehouse에 대해 이전에 사용 가능했던 직접 커넥터는 이제 사용할 수 없습니다.
 
-SQL Data Warehouse와 Power BI 사이를 이동하는 가장 쉬운 방법은 Azure Portal 내에서 **Power BI에서 열기** 단추를 사용하는 것입니다. 이 단추를 사용하면 Power BI에서 자연스럽게 새 대시보드 만들기를 시작할 수 있습니다.
+SQL Data Warehouse와 Power BI 간을 이동하는 가장 쉬운 방법은 Power BI Desktop에서 보고서를 만드는 것입니다. Azure Portal 내에서 **대시보드 + 보고서 작성** 단추를 사용할 수 있습니다.
 
-1. 시작하려면 Azure Portal에서 SQL Data Warehouse 인스턴스로 이동합니다. 현재 SQL Data Warehouse는 Azure Portal에만 있습니다.
+1. 시작하려면 Power BI Desktop을 다운로드하여 설치합니다. 다운로드 및 설치에 대한 자세한 내용을 보려면 [Power BI Desktop 다운로드](../fundamentals/desktop-get-the-desktop.md) 문서를 참조하거나, 다음 단계로 직접 이동합니다.
 
-2. **Power BI에서 열기** 단추를 클릭합니다.
+2. **대시보드 + 보고서 작성** 링크를 클릭하여 Power BI Desktop을 다운로드할 수도 있습니다.
 
-    ![Power BI에서 열기](media/service-azure-sql-data-warehouse-with-direct-connect/openinpowerbi.png)
+    ![Power BI에서 열기](media/service-azure-sql-data-warehouse-with-direct-connect/create-reports-01.png)
 
-3. 직접 로그인할 수 없거나 Power BI 계정이 없는 경우 로그인이 필요합니다.
 
-4. SQL Data Warehouse에서 사전 입력한 정보가 들어 있는 SQL Data Warehouse 연결 페이지로 이동합니다. 자격 증명을 입력하고 연결을 눌러 연결합니다.
+## <a name="connecting-through-power-bi-desktop"></a>Power BI Desktop을 통해 연결
 
-## <a name="connecting-through-power-bi"></a>Power BI를 통해 연결
+Power BI Desktop의 **데이터 가져오기** 단추를 사용하여 SQL Data Warehouse에 연결할 수 있습니다. 
 
-SQL Data Warehouse는 Power BI 데이터 가져오기 페이지에도 나열됩니다. 
+1. **홈** 메뉴에서 **데이터 가져오기** 단추를 선택합니다.  
 
-1. 탐색 창 아래쪽에서 **데이터 가져오기**를 선택합니다.  
+    ![데이터 단추 가져오기](media/service-azure-sql-data-warehouse-with-direct-connect/create-reports-02.png)
 
-    ![데이터 단추 가져오기](media/service-azure-sql-data-warehouse-with-direct-connect/getdatabutton.png)
+2. **추가...** 를 선택하여 사용 가능한 모든 데이터 원본을 표시합니다. 표시되는 창의 왼쪽 부분에서 **Azure**를 선택하고 오른쪽 부분의 사용 가능한 커넥터 목록에서 **Azure SQL Data Warehouse**를 선택합니다.
 
-2. **데이터베이스**내에서 **가져오기**를 선택합니다.
+    ![Azure 데이터 원본](media/service-azure-sql-data-warehouse-with-direct-connect/create-reports-03.png)
 
-    ![데이터베이스](media/service-azure-sql-data-warehouse-with-direct-connect/databases.png)
+3. 표시되는 창에 서버를 입력하고 필요에 따라 연결할 데이터베이스의 상태를 지정할 수 있습니다. 다음과 같은 데이터 연결 모드를 선택할 수도 있습니다. 가져오기 또는 DirectQuery. Azure SQL Data Warehouse의 정보에 실시간으로 액세스하려면 DirectQuery를 사용합니다.
 
-3. **SQL Data Warehouse** \> **연결**을 차례로 선택합니다.
+    ![직접 연결을 사용한 Azure SQL DW](media/service-azure-sql-data-warehouse-with-direct-connect/create-reports-04.png)
 
-    ![직접 연결을 사용한 Azure SQL DW](media/service-azure-sql-data-warehouse-with-direct-connect/azuresqldatawarehouseconnect.png)
+4. Azure SQL Data Warehouse 연결에 대한 고급 옵션을 보려면 **고급 옵션** 옆에 있는 아래쪽 화살표를 선택하여 연결에 대한 추가 옵션을 표시합니다.
 
-4. 연결에 필요한 정보를 입력합니다. 아래의 **매개 변수 찾기** 섹션에는 Azure Portal에서 이 데이터가 배치될 위치를 보여줍니다.
+    ![서버 이름](media/service-azure-sql-data-warehouse-with-direct-connect/create-reports-05.png)
 
-    ![서버 이름](media/service-azure-sql-data-warehouse-with-direct-connect/servername.png)
-
-    ![고급 서버 이름](media/service-azure-sql-data-warehouse-with-direct-connect/servernamewithadvanced.png)
-
-    ![사용자 이름](media/service-azure-sql-data-warehouse-with-direct-connect/username.png)
-
-   > [!NOTE]
-   > 사용자 이름은 Azure SQL Data Warehouse 인스턴스에 정의된 사용자가 됩니다.
-
-5. 별표로 표시된 새 타일 또는 새로 만든 데이터 세트를 선택하여 데이터 세트를 드릴다운합니다. 이 데이터 세트는 데이터베이스와 동일한 이름을 갖습니다.
-
-    ![데이터 세트 2](media/service-azure-sql-data-warehouse-with-direct-connect/dataset2.png)
-
-6. 모든 테이블 및 열을 탐색할 수 있습니다. 열을 선택하면 쿼리가 다시 소스로 전송되고 동적으로 시각 효과를 만듭니다. 또한 필터를 다시 데이터 웨어하우스에 대한 쿼리로 변환할 수 있습니다. 이러한 시각 효과를 새 보고서에 저장하고 대시보드에 다시 고정할 수 있습니다.
-
-    ![탐색 3](media/service-azure-sql-data-warehouse-with-direct-connect/explore3.png)
+다음 섹션에서는 연결에 대한 매개 변수 값을 찾는 방법에 대해 설명합니다. 
 
 ## <a name="finding-parameter-values"></a>매개 변수 값 찾기
 
@@ -97,6 +81,7 @@ SQL Data Warehouse는 Power BI 데이터 가져오기 페이지에도 나열됩�
 
 ## <a name="next-steps"></a>다음 단계
 
+* [Power BI에서 DirectQuery를 사용하는 방법](desktop-directquery-about.md)
 * [Power BI란?](../fundamentals/power-bi-overview.md)  
 * [Power BI에 대한 데이터 가져오기](service-get-data.md)  
 * [Azure SQL Data Warehouse](/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is/)

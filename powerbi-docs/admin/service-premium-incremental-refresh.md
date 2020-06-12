@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: eb9a10c715a03adc9149ca8793ff248a23b9914d
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 2257e38183d87ef7fd4fdd12546c2a191a7acf74
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84121015"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159884"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Power BI의 증분 새로 고침
 
@@ -230,7 +230,7 @@ pollingExpression은 경량 M 식 또는 다른 M 쿼리의 이름으로 사용�
 
 ## <a name="metadata-only-deployment"></a>메타데이터 전용 배포
 
-Power BI Desktop에서 Power BI 서비스의 작업 영역에 새 버전의 PBIX 파일을 게시할 때 동일한 이름의 데이터 세트가 이미 있는 경우 기존 데이터 세트를 바꿀지 묻는 메시지가 표시됩니다.
+Power BI Desktop에서 Power BI Premium의 작업 영역에 새 버전의 PBIX 파일을 게시할 때 동일한 이름의 데이터 세트가 이미 있는 경우 기존 데이터 세트를 바꿀지 묻는 메시지가 표시됩니다.
 
 ![데이터 세트 바꾸기 프롬프트](media/service-premium-incremental-refresh/replace-dataset-prompt.png)
 

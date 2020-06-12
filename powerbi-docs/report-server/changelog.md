@@ -7,19 +7,48 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 04/08/2020
-ms.openlocfilehash: abe0b97a4c4f593f8bb22be8b72c12295d0f656c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.date: 05/31/2020
+ms.openlocfilehash: 0391f0f2e4340b01c1f1ad7a3bce860487daabc9
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81006460"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272658"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI Report Server에 대한 변경 로그
 
 Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에 대한 버그 픽스와 새 항목을 나열합니다.
 
 새로운 기능에 대한 자세한 내용은 [Power BI 보고서 서버의 새로운 기능](whats-new.md)을 참조하세요. 
+
+
+## <a name="may-2020"></a>2020년 5월
+- **Power BI Report Server**
+    - *‘버전: 1.8.7450.37410(빌드 15.0.1103.227), 릴리스 날짜: 2020년 5월 27일*
+         - 기능
+            -  사용자 지정 가능한 카탈로그 연결 풀 크기에 대한 지원이 추가되었습니다(자세한 내용은 [MaxCatalogConnectionPoolSizePerProcess 설정](https://docs.microsoft.com/sql/reporting-services/report-server/rsreportserver-config-configuration-file?view=sql-server-ver15#bkmk_service) 참조).
+            -  새로 고침 작업 중에 보고서를 볼 때의 동작이 향상되었습니다.
+        - 보안 업데이트
+        - 버그 수정
+            - 폴더 및 보고서 이름에서 작은따옴표와 관련된 두 가지 문제를 해결했습니다.
+            - 가로 스크롤을 특정 브라우저 및 레코드 참조 기능과 연결하는 문제를 해결했습니다.
+            - 보고서를 여는 동안 예약된 새로 고침에서 기본 모델의 스키마 오류가 발생할 수 있는 문제를 해결했습니다.
+            - PDF 내보내기용 대체 텍스트가 멀티바이트 문자로 올바르게 인코딩되지 않았던 문제를 해결했습니다.
+            - LoadReport를 실행하는 사용자 지정 애플리케이션에서 TrustedHeader 오류가 잘못 수신되는 문제를 해결했습니다.
+            - 예약된 새로 고침에서 부하가 많은 경우 새로 고침이 실패하는 문제를 해결했습니다.
+            - 보고서 이름이 폴더 이름과 일치하는 경우 보고서가 잘못된 위치에 저장하는 문제를 해결했습니다.
+            - 문서 구조에서 탭 이동 문제를 해결했습니다.
+            - DAX 쿼리를 사용할 때 발생하는 데이터 기반 구독 실패 문제를 해결했습니다.
+            - URL 액세스에서 FindString이 일치하는 항목을 찾지 못하는 문제를 해결했습니다.
+            - 보고서가 이동될 때 포함된 데이터 원본을 차단하는 문제를 해결했습니다.
+            - 특정 데이터 원본에 대해 예약된 새로 고침이 실패하는 문제를 해결했습니다.
+            - 잘못된 요청이 발생하는 경우를 줄이기 위해 보고서 일정에 대한 유효성 검사를 추가했습니다.
+
+
+- **Power BI Desktop(Power BI Report Server에 최적화됨)**
+    - *‘버전: 2.81.5831.941(2020년 5월), 릴리스 날짜: 2020년 5월 27일*(새 빌드 및 새 버전)
+        - Power BI Report Server 연결에 필요한 변경 내용 포함(2020년 5월)        
+
 
 
 ## <a name="january-2020"></a>2020년 1월

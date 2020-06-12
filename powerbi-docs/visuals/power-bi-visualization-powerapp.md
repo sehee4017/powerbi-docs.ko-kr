@@ -7,15 +7,15 @@ ms.reviewer: tapan maniar
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 03/29/2020
+ms.date: 06/01/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 04e2092b3651fd3339706582001f37fc855ddbad
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: aead027780ad1e7887b172cba328c0c4e97675b5
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841966"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273440"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>자습서:  Power BI 보고서에 Power Apps 시각적 개체 포함
 
@@ -104,6 +104,8 @@ Power BI 보고서의 슬라이서에서 **1월**을 선택합니다. 이 경우
 ## <a name="clean-up-resources"></a>리소스 정리
 기회 분석 샘플을 더 이상 사용하지 않으려는 경우 대시보드, 보고서 및 데이터 세트를 삭제할 수 있습니다.
 
+## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
+문제 해결 정보는 [Power BI용 Power Apps 시각적 개체](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visualbranch=pr-en-us-2943#limitations-of-the-power-apps-visual)를 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 [질문 및 답변 시각적 개체](power-bi-visualization-types-for-reports-and-q-and-a.md)    

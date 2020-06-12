@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 1ab1ed139a62b1929cb1b4da411bf7949a5d151e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b024ff52585a4b9b46b60e3230a059b3d07d7b24
+ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279759"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84273902"
 ---
 # <a name="tenant-admin-settings-guidance"></a>테넌트 관리자 설정 지침
 
@@ -44,7 +44,7 @@ ms.locfileid: "83279759"
 !["‘도움말 보기’ 정보 게시" 설정이 표시됩니다.](media/admin-tenant-settings/publish-get-help-information.png)
 
 ## <a name="manage-risk"></a>위험 관리
-
+위험을 관리하는 설정은 Power BI 테넌트에서 거버넌스 정책을 설정하는 데 도움이 될 수 있습니다. 그러나 거버넌스 설정은 보안 측정값이 아닙니다. 예를 들어 **데이터 내보내기** 설정을 사용하지 않도록 설정하면 Power BI 사용자 인터페이스에서 기능을 제거하고 이런 식으로 Power BI 사용자가 조직의 거버넌스 정책을 준수하도록 하는 데에는 도움이 되지만, 결정된 사용자가 다른 옵션을 사용하여 데이터를 내보내지 못하도록 하지는 않습니다. 보안 측면에서 데이터 세트에 대한 읽기 권한이 있는 Power BI 사용자는 이 데이터 세트를 쿼리할 수 있는 권한을 가지며, Power BI 사용자 인터페이스에서 사용할 수 있는 기능에 관계없이 결과를 유지할 수 있습니다.
 ### <a name="receive-email-notification-service-outages-or-incidents"></a>서비스 중단 또는 인시던트에 대한 전자 메일 알림 받기
 
 테넌트가 서비스 중단 또는 인시던트에 영향을 받는 경우 전자 메일 알림을 받을 수 있습니다. 이렇게 하면 관련 인시던트에 미리 대응할 수 있습니다.
@@ -143,6 +143,6 @@ ms.locfileid: "83279759"
 
 - [Power BI 관리란?](../admin/service-admin-administering-power-bi-in-your-organization.md)
 - [관리 포털에서 Power BI 관리](../admin/service-admin-portal.md)
-- 질문이 있으신가요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+- 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 - 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com)
 

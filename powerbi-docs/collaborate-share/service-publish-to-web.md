@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/25/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 28e19c750819b883adc2319c171ef1cb7b3125f1
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 136376da9d00e5f40397f0d4152e83d17a171168
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273894"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272980"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI에서 웹에 게시
 
@@ -169,8 +169,7 @@ Power BI에 등록한 소규모 조직이나 개인의 경우 아직 Power BI �
 
 일반적으로 기존 조직에는 이미 Power BI 관리자가 있습니다. 다음 역할의 사람들이 Power BI 관리자 역할을 할 수 있습니다.
 
-- Office 365 관리자
-- Azure Active Directory 관리자
+- 전역 관리자
 - Azure Active Directory에서 Power BI 서비스 관리자 역할이 있는 사용자
 
 조직에서 [이러한 사용자 중 하나를 찾아서](https://docs.microsoft.com/office365/admin/admin-overview/admin-overview#who-has-admin-permissions-in-my-business) 관리 포털에서 [웹에 게시 테넌트 설정](../admin/service-admin-portal.md#publish-to-web)을 업데이트하도록 요청해야 합니다.

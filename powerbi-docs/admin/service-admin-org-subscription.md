@@ -1,5 +1,5 @@
 ---
-title: 조직의 Power BI 구독 가져오기
+title: 조직의 Power BI 서비스 구독 가져오기
 description: 관리자 권한으로 Power BI 서비스 구독에 등록하고 대량으로 라이선스를 구매하는 방법입니다.
 author: kfollis
 ms.reviewer: ''
@@ -8,17 +8,18 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/13/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 1bb8abab7d3f8430037b31e2797d62ce8d7b03e1
-ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+ms.openlocfilehash: 39ecda08527e0805b1ce26ebd9a1c83ceb57187b
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "83438150"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84160045"
 ---
-# <a name="get-a-power-bi-subscription-for-your-organization"></a>조직의 Power BI 구독 가져오기
+# <a name="get-a-power-bi-service-subscription-for-your-organization"></a>조직의 Power BI 서비스 구독 가져오기
 
-관리자는 Microsoft 365 관리 센터의 **서비스 구매** 페이지를 통해 Power BI에 등록할 수 있습니다. 관리자가 Power BI에 등록할 때 액세스 권한이 있어야 하는 사용자에게 라이선스를 할당할 수 있습니다.
+관리자는 Microsoft 365 관리 센터의 **서비스 구매** 페이지를 통해 Power BI 서비스에 등록할 수 있습니다. 관리자가 Power BI에 등록할 때 액세스 권한이 있어야 하는 사용자에게 라이선스를 할당할 수 있습니다.
 
 조직의 사용자는 Power BI 웹 사이트를 통해 Power BI에 등록할 수 있습니다. 조직의 사용자가 Power BI에 등록할 때 해당 사용자에게 Power BI 라이선스가 자동으로 할당됩니다. 셀프 서비스 기능을 해제하려면 [셀프 서비스 등록 및 구매를 사용하거나 사용하지 않도록 설정](service-admin-disable-self-service.md)의 단계에 따릅니다.
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 7a363af0bb8d6db9f0fd370b7c4b987b51c88221
-ms.sourcegitcommit: faa8cfb66e79ea16ba46605f752cc9ca57924d0e
+ms.openlocfilehash: 74ea78bf9f5e845eb86a38bad54ebde5e99ffbb0
+ms.sourcegitcommit: b66c913a50a5100082e1c8ff7cd1c4f76f514fe7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83382741"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "84219551"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint-preview"></a>XMLA 엔드포인트로 데이터 세트 연결(미리 보기)
 
@@ -98,11 +98,14 @@ OLS(개체 수준 보안)는 Power BI Premium 데이터 세트에서 아직 지�
 
 동일한 테넌트(B2B가 아님)의 UPN을 가진 사용자는 테넌트 이름을 `myorg`로 바꿀 수 있습니다. 예를 들면  `powerbi://api.powerbi.com/v1.0/myorg/Sales Workspace`입니다.
 
+B2B 사용자는 테넌트 이름에서 해당 조직 UPN을 지정해야 합니다. 예를 들면  `powerbi://api.powerbi.com/v1.0/fabrikam.com/Sales Workspace`입니다.
+
 ### <a name="to-get-the-workspace-connection-url"></a>작업 영역 연결 URL을 가져오려면
 
 작업 영역 **설정** > **Premium** > **작업 영역 연결**에서 **복사**를 클릭합니다.
 
 ![작업 영역 연결 문자열](media/service-premium-connect-tools/xmla-endpoint-workspace-connection.png)
+
 
 ## <a name="connection-requirements"></a>연결 요구 사항
 

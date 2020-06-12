@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 02/27/2020
-ms.openlocfilehash: f4585e4c1eb629b4676b74157c0520d70540da7b
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.date: 05/27/2020
+ms.openlocfilehash: ee725457475f1bccd593e2331d9e62c85ef08762
+ms.sourcegitcommit: 0d8261a3cdef05ed8d4eb2aaffff2c1cc2098624
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565149"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "84126299"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Report Server의 새로운 기능
 
@@ -23,9 +23,56 @@ Power BI Report Server 및 Power BI Report Server에 최적화된 Power BI Deskt
 
 관련 Power BI “새로운 기능” 정보는 다음을 참조하세요.
 
-* [Power BI 서비스의 새로운 기능](../fundamentals/service-whats-new.md)
-* [Power BI Desktop의 새로운 기능](../fundamentals/desktop-latest-update.md)
-* [Power BI용 모바일 앱의 새로운 기능](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
+- [Power BI 서비스의 새로운 기능](../fundamentals/service-whats-new.md)
+- [Power BI Desktop의 새로운 기능](../fundamentals/desktop-latest-update.md)
+
+## <a name="may-2020"></a>2020년 5월
+
+이 업데이트의 주요 내용 중에는 계층 슬라이서와 분해 트리 시각적 개체 및 쿼리 진단이 있습니다. 다음은 새로운 기능 및 업데이트된 기능의 전체 목록입니다. 자세한 내용은 [2020년 5월 Power BI Report Server 블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-report-server-may-2020-feature-summary/)을 참조하세요. 
+
+### <a name="reporting"></a>보고
+
+- 계층 슬라이서
+- 단추의 새 작업 유형:
+
+    - 페이지 탐색
+    - 드릴스루
+
+- 단추에서 채우기 이미지 지원
+- 테이블의 다중 열 정렬
+- 꺾은선형 차트의 이중 축
+- 시각적 개체를 위한 사각형 선택
+- 테이블 및 행렬의 합계 및 부분합에 대한 조건부 서식 지정
+- 테마 사용자 지정 대화 상자
+- 조건부 서식 지정 검색 기능
+- 분해 트리
+- 필터 창 업데이트:
+
+    - 새 필터 창 환경
+    - 필터 창 검색
+    
+### <a name="modeling"></a>모델링
+
+- 새로운 DAX 함수:
+
+    - FirstNonBlankValue
+    - LastNonBlankValue
+    - Coalesce
+
+- 표준 DAX 구분 기호
+
+### <a name="visualizations"></a>시각화
+
+- 새 시각화 아이콘
+- 시각적 그림자
+
+### <a name="data-preparation"></a>데이터 준비
+
+- 쿼리 진단
+
+### <a name="other"></a>기타
+
+- 웹 프록시에 기본 시스템 자격 증명 사용
 
 ## <a name="january-2020"></a>2020년 1월
 
@@ -561,13 +608,13 @@ OData 피드로 Power BI Desktop에서 공유 데이터 세트에 액세스할 �
 
 관리자는 서버 팜에 대한 SSMS 고급 속성에서 다음 속성을 설정할 수 있습니다.
 
-* EnableCustomVisuals: True/False
-* EnablePowerBIReportEmbeddedModels: True/False
-* EnablePowerBIReportExportData: True/False
-* MaxFileSizeMb: 기본값은 1000
-* ModelCleanupCycleMinutes: 메모리에서 모델을 제거하기 위해 확인하는 주기
-* ModelExpirationMinutes: 마지막으로 사용된 시간에 따라 모델 만료 및 모델 제거까지 남은 시간
-* ScheduleRefreshTimeoutMinutes: 모델에 대해 적용할 수 있는 데이터 새로 고침 기간 기본값은 2시간입니다.  하드 상한 제한은 없습니다.
+- EnableCustomVisuals: True/False
+- EnablePowerBIReportEmbeddedModels: True/False
+- EnablePowerBIReportExportData: True/False
+- MaxFileSizeMb: 기본값은 1000
+- ModelCleanupCycleMinutes: 메모리에서 모델을 제거하기 위해 확인하는 주기
+- ModelExpirationMinutes: 마지막으로 사용된 시간에 따라 모델 만료 및 모델 제거까지 남은 시간
+- ScheduleRefreshTimeoutMinutes: 모델에 대해 적용할 수 있는 데이터 새로 고침 기간 기본값은 2시간입니다.  하드 상한 제한은 없습니다.
 
 **구성 파일 rsreportserver.config**
 
@@ -597,9 +644,9 @@ Excel 및 Power BI에는 업계에서 고유한 도구의 포트폴리오가 포
 
 [OOS(Office Online Server)를 Power BI Report Server 미리 보기 환경에 추가하는 방법에 관한 연습](excel-oos.md)을 게시했습니다. 볼륨 라이선스 계정을 사용하는 고객은 볼륨 라이선스 서비스 센터에서 OOS를 무료로 다운로드할 수 있으며, 보기 전용 기능을 확인할 수 있습니다. 구성된 후 사용자는 Excel 통합 문서를 보고 상호 작용할 수 있습니다.
 
-* 외부 데이터 원본 종속성 없음
-* 외부 SQL Server Analysis Services 데이터 원본에 대한 라이브 연결
-* PowerPivot 데이터 모델 보유
+- 외부 데이터 원본 종속성 없음
+- 외부 SQL Server Analysis Services 데이터 원본에 대한 라이브 연결
+- PowerPivot 데이터 모델 보유
 
 ### <a name="support-for-new-table-and-matrix-visuals"></a>새 테이블 및 행렬 시각화 개체에 대한 지원
 
@@ -607,22 +654,21 @@ Power BI Report Server는 이제 새 Power BI 테이블 및 행렬 시각적 개
 
 ## <a name="june-2017"></a>2017년 6월
 
-* Power BI Report Server는 GA(일반적으로 사용 가능)합니다.
+- Power BI Report Server는 GA(일반적으로 사용 가능)합니다.
 
 ## <a name="may-2017"></a>2017년 5월
 
-* 사용 가능한 Power BI Report Server 미리 보기
-* Power BI 보고서 온-프레미스를 게시하는 기능
-  * Power BI 시각적 개체 지원
-  * 앞으로 더 많은 데이터 원본을 사용하여 **Analysis Services 라이브 연결**에 대해 지원합니다.
-  * Power BI Report Server에서 호스팅되는 Power BI 보고서를 표시하도록 업데이트된 Power BI 모바일 앱
-* 주석을 사용하여 보고서에서 협업 향상
+- 사용 가능한 Power BI Report Server 미리 보기
+- Power BI 보고서 온-프레미스를 게시하는 기능
+  - Power BI 시각적 개체 지원
+  - *’Analysis Services 라이브 연결’ - 더 많은 데이터 원본 지원 예정.
+  - Power BI Report Server에서 호스팅되는 Power BI 보고서를 표시하도록 업데이트된 Power BI 모바일 앱
+- 주석을 사용하여 보고서에서 협업 향상
 
 ## <a name="next-steps"></a>다음 단계
 
 이러한 원본을 확인하여 Power BI Report Server의 새로운 기능을 최신 상태로 유지합니다.
 
-* [Microsoft Power BI 블로그](https://powerbi.microsoft.com/blog/)
-* [큐브에서 Guy YouTube 채널](https://aka.ms/guyinacube)
+- [Microsoft Power BI 블로그](https://powerbi.microsoft.com/blog/)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

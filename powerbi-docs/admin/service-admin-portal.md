@@ -10,12 +10,12 @@ ms.date: 05/12/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 605d35d55f3191b230d9c4a8d118e2c238283ff2
-ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
+ms.openlocfilehash: 460ab380798975065eb90bf904b2b5bacd1edd2c
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83733594"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315974"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
@@ -85,7 +85,7 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Micr
 
 ## <a name="control-usage-metrics"></a>사용량 메트릭 제어
 
-사용량 메트릭 보고서는 Power BI 또는 Microsoft 365 관리자가 켜거나 끌 수 있는 기능입니다. 관리자는 사용량 메트릭에 액세스할 수 있는 사용자를 세부적으로 제어할 수 있습니다. 기본적으로 조직의 모든 사용자에 대해 **켬**으로 설정되어 있습니다.
+사용량 메트릭 보고서는 Power BI 또는 전역 관리자가 켜거나 끌 수 있는 기능입니다. 관리자는 사용량 메트릭에 액세스할 수 있는 사용자를 세부적으로 제어할 수 있습니다. 기본적으로 조직의 모든 사용자에 대해 **켬**으로 설정되어 있습니다.
 
 관리자는 콘텐츠 작성자가 사용량 메트릭에서 사용자별 데이터를 볼 수 있는지 여부도 설정할 수 있습니다. 
 
@@ -132,6 +132,9 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 ## <a name="tenant-settings"></a>테넌트 설정
 
 **테넌트 설정** 탭에서는 조직에서 사용할 수 있는 기능에 대한 세분화된 제어를 제공합니다. 중요한 데이터에 대한 우려가 있는 경우 일부 기능은 사용자의 조직에 적합하지 않을 수 있거나 특정 기능을 특정 그룹만 사용할 수 있도록 할 수 있습니다.
+
+> [!NOTE]
+> Power BI 사용자 인터페이스에서 기능의 가용성을 제어하는 테넌트 설정은 거버넌스 정책을 수립하는 데 도움이 될 수 있지만 보안 조치는 아닙니다. 예를 들어 **데이터 내보내기** 설정은 데이터 세트에 대한 Power BI 사용자의 권한을 제한하지 않습니다. 데이터 세트에 대한 읽기 권한이 있는 Power BI 사용자에게는 이 데이터 세트를 쿼리할 수 있는 권한이 있으며, Power BI 사용자 인터페이스에서 **데이터 내보내기** 기능을 사용하지 않고 결과를 유지할 수도 있습니다.
 
 다음 이미지에서는 **테넌트 설정** 탭의 여러 설정을 보여 줍니다.
 

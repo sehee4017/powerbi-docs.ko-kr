@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/12/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: c71467a279ed3a2304d6af82f7493dac97425c4f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 68ead14063c290c8ec9db5cb24814b93e493ea6b
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348094"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272957"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Power BI에서 작업을 공유하는 방법
 
@@ -78,11 +78,11 @@ Power BI에는 새 작업 영역 환경이 있습니다. 작업 영역의 변경
 
 ## <a name="share-dashboards-and-reports"></a>대시보드 및 보고서 공유
 
-고유한 내 작업 영역 또는 작업 영역에서 대시보드 및 보고서를 종료했고 다른 사용자가 액세스하도록 하려는 경우를 가정하겠습니다. 한 가지 방법은 공유 하는 것입니다.  
+고유한 내 작업 영역 또는 작업 영역에서 대시보드 및 보고서를 종료했고 다른 사용자가 액세스하도록 하려는 경우를 가정하겠습니다. 한 가지 방법은 공유하는 것입니다. 
 
 ![보고서 공유](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-report.png)
 
-콘텐츠를 공유하려면 Power BI Pro 라이선스가 필요하고 공유하려는 사람도 동일합니다. 또는 콘텐츠가 [프리미엄 용량](../admin/service-premium-what-is.md)의 작업 영역에 있어야 합니다. 대시보드 또는 보고서를 공유할 경우 공유 대상이 대시보드를 보고 상호 작용할 수는 있지만 편집은 불가능합니다. 기본 데이터 세트에 RLS(행 수준 보안)를 적용하지 않는 한 다른 사용자는 귀하가 대시보드 및 보고서에서 확인할 수 있는 동일한 데이터를 봅니다. 허용하는 경우 사용자와 항목을 공유하는 동료는 자신의 동료와도 공유할 수 있습니다. 
+콘텐츠를 공유하려면 Power BI Pro 라이선스가 필요하고 공유하려는 사람도 동일합니다. 또는 콘텐츠가 [프리미엄 용량](../admin/service-premium-what-is.md)의 작업 영역에 있어야 합니다. 대시보드 또는 보고서를 공유할 경우 공유 대상이 대시보드를 보고 상호 작용할 수는 있지만 편집은 불가능합니다. [RLS(행 수준 보안)](../admin/service-admin-rls.md)를 적용하지 않는 한 다른 사용자는 귀하가 대시보드 또는 보고서에서 확인할 수 있는 동일한 데이터를 보고 기본 데이터 세트의 모든 데이터에 액세스할 수 있습니다. 허용하는 경우 사용자와 항목을 공유하는 동료는 자신의 동료와도 공유할 수 있습니다. 
 
 조직 외부 사용자와도 공유할 수 있습니다. 외부 사용자는 대시보드 또는 보고서를 보고 상호 작용할 수는 있지만 공유는 할 수 없습니다. 
 

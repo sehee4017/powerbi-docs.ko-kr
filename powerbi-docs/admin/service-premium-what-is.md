@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.custom: seodec18
+ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 7c9f198ac15311948e1789173851a6c85debc856
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: 1c72507759a69dc03f3d8b1510aef0e3ad369dd2
+ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83812453"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84272750"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium이란?
 
@@ -36,7 +36,7 @@ Power BI Premium을 사용하여 조직 전용의 향상된 리소스를 가져�
 
 ## <a name="subscriptions-and-licensing"></a>구독 및 라이선스
 
-Power BI Premium은 두 개의 SKU(Stock-Keeping Unit) 제품군에서 사용할 수 있는 테넌트 수준 Office 365 구독입니다.
+Power BI Premium은 두 개의 SKU(Stock Keeping Unit) 제품군에서 사용할 수 있는 테넌트 수준 Microsoft 365 구독입니다.
 
 - 포함 및 엔터프라이즈 기능에 대한 **P** SKU(P1-P5)는 월간 또는 연간 약정이 필요하며 매월 청구되고 Power BI Report Server 온-프레미스를 설치하기 위한 라이선스를 포함합니다.
 
@@ -127,7 +127,7 @@ Power BI Premium을 사용하면 *전용 용량*을 가져올 수 있습니다. 
 
 ### <a name="regional-support"></a>지역 지원
 
-새 용량을 만들 때 전역 관리자와 Power BI 서비스 관리자는 해당 용량에 할당된 작업 영역이 상주하는 지역을 지정할 수 있습니다. 이를 **다중 지역**이라고 합니다. 다중 지역을 사용하면 조직은 Office 365 구독이 상주하는 지역과 다른 경우에도 특정 지역의 데이터 센터에 콘텐츠를 배포하여 데이터 상주 요구 사항을 충족할 수 있습니다. 자세한 내용은 [Power BI Premium에 대한 다중 지역 지원](service-admin-premium-multi-geo.md)을 참조하세요.
+새 용량을 만들 때 전역 관리자와 Power BI 서비스 관리자는 해당 용량에 할당된 작업 영역이 상주하는 지역을 지정할 수 있습니다. 이를 **다중 지역**이라고 합니다. 다중 지역을 사용하면 조직은 Microsoft 365 구독이 상주하는 지역과 다른 경우에도 특정 지역의 데이터 센터에 콘텐츠를 배포하여 데이터 상주 요구 사항을 충족할 수 있습니다. 자세한 내용은 [Power BI Premium에 대한 다중 지역 지원](service-admin-premium-multi-geo.md)을 참조하세요.
 
 ### <a name="capacity-management"></a>용량 관리
 

@@ -1,6 +1,6 @@
 ---
-title: Power BI를 포함하는 서비스 주체
-description: Power BI 콘텐츠 포함에 사용하기 위해 서비스 주체 및 애플리케이션 암호를 사용하여 Azure Active Directory 내에서 애플리케이션을 등록하는 방법을 알아봅니다.
+title: 서비스 주체 및 애플리케이션 암호를 사용하여 Power BI 콘텐츠 포함
+description: Azure Active Directory 애플리케이션 서비스 주체 및 애플리케이션 암호를 사용하여 임베디드 분석을 인증하는 방법을 알아봅니다.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,19 +8,24 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 03/30/2020
-ms.openlocfilehash: 5e9b14fb0eccc0418ca7d5b4a7859f26c1781d50
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.date: 05/12/2020
+ms.openlocfilehash: da7db691628b0fbcfd42d6a35f99b18b4cfdcc88
+ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84121203"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84315827"
 ---
-# <a name="embedding-power-bi-content-with-service-principal-and-application-secret"></a>서비스 주체 및 애플리케이션 암호를 사용하여 Power BI 콘텐츠 포함
+# <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>서비스 주체 및 애플리케이션 암호를 사용하여 Power BI 콘텐츠 포함
 
 [!INCLUDE[service principal overview](../../includes/service-principal-overview.md)]
 
 이 문서에서는 *애플리케이션 ID* 및 *애플리케이션 암호*를 사용한 서비스 주체 인증에 대해 설명합니다.
+
+>[!NOTE]
+>비밀 키가 아닌 인증서를 사용하여 백 엔드 서비스를 보호하는 것이 좋습니다.
+>* [비밀 키 또는 인증서를 사용하여 Azure AD에서 액세스 토큰을 가져오는 방법에 대해 자세히 알아보세요.](https://docs.microsoft.com/azure/architecture/multitenant-identity/client-assertion)
+>* [서비스 주체 및 인증서를 사용하여 Power BI 콘텐츠 포함](embed-service-principal-certificate.md)
 
 ## <a name="method"></a>메서드
 
@@ -54,30 +59,12 @@ ms.locfileid: "84121203"
 
 ### <a name="creating-an-azure-ad-app-in-the-microsoft-azure-portal"></a>Microsoft Azure Portal에서 Azure AD 앱 만들기
 
-1. [Microsoft Azure](https://portal.azure.com/#allservices)에 로그인합니다.
-
-2. **앱 등록**을 검색하고 **앱 등록** 링크를 클릭합니다.
-
-    ![azure 앱 등록](media/embed-service-principal/azure-app-registration.png)
-
-3. **새 등록**을 클릭합니다.
-
-    ![앱 등록](media/embed-service-principal/new-registration.png)
-
-4. 필수 정보를 입력합니다.
-    * **이름** - 애플리케이션의 이름을 입력합니다.
-    * **지원되는 계정 유형** - 필요한 Azure AD 계정을 선택합니다.
-    * (선택 사항) **리디렉션 URI** - 필요한 경우 URI를 입력합니다.
-
-5. **등록**을 클릭합니다.
-
-6. 등록한 후에는 **개요** 탭에서 *애플리케이션 ID*를 확인할 수 있습니다. 나중에 사용할 수 있도록 *애플리케이션 ID*를 복사하여 저장합니다.
-
-    ![애플리케이션 ID](media/embed-service-principal/application-id.png)
+[!INCLUDE[service create app](../../includes/service-principal-create-app.md)]
 
 7. **인증서 및 암호** 탭을 클릭합니다.
 
      ![애플리케이션 ID](media/embed-service-principal/certificates-and-secrets.png)
+
 
 8. **새 클라이언트 암호**를 클릭합니다.
 
@@ -157,7 +144,7 @@ Azure AD에서 만든 보안 그룹을 **개발자 설정**의 특정 보안 그
 
 ![관리 포털](media/embed-service-principal/admin-portal.png)
 
-## <a name="step-4---add-the-service-principal-as-an-admin-to-your-workspace"></a>4단계 - 서비스 주체를 관리자로 작업 영역에 추가
+## <a name="step-4---add-the-service-principal-to-your-workspace"></a>4단계 - 작업 영역에 서비스 주체 추가
 
 Azure AD 앱이 Power BI 서비스의 보고서, 대시보드, 데이터 세트와 같은 아티팩트에 액세스할 수 있도록 하려면 서비스 주체 엔터티를 작업 영역에 멤버 또는 관리자로 추가합니다.
 
@@ -181,20 +168,21 @@ Azure AD 앱이 Power BI 서비스의 보고서, 대시보드, 데이터 세트�
 
 콘텐츠가 포함되면 [프로덕션으로 이동](embed-sample-for-customers.md#move-to-production)할 준비가 된 것입니다.
 
-## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
-
-* 서비스 주체는 [새 작업 영역](../../collaborate-share/service-create-the-new-workspaces.md)에서만 작동합니다.
-* 서비스 주체 사용 시 **내 작업 영역**이 지원되지 않습니다.
-* 프로덕션으로 이동 시 전용 용량이 필요합니다.
-* 서비스 주체를 사용하여 Power BI 포털에 로그인할 수 없습니다.
-* Power BI 관리자 권한은 Power BI 관리 포털의 개발자 설정에서 서비스 주체를 활성화하는 데 필요합니다.
-* [조직에 대해 포함](embed-sample-for-your-organization.md) 애플리케이션은 서비스 주체를 사용할 수 없습니다.
-* [데이터 흐름](../../transform-model/service-dataflows-overview.md) 관리는 지원되지 않습니다.
-* 서비스 주체는 현재 모든 관리 API를 지원하지 않습니다.
-* [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview) 데이터 원본과 함께 서비스 주체를 사용하는 경우 서비스 주체 자체에 Azure Analysis Services 인스턴스 권한이 있어야 합니다. 서비스 주체가 포함된 보안 그룹을 이 목적으로 사용할 수는 없습니다.
+[!INCLUDE[service principal limitations](../../includes/service-principal-limitations.md)]
 
 ## <a name="next-steps"></a>다음 단계
 
-* [고객을 위한 Power BI Embedded](embed-sample-for-customers.md)
+>[!div class="nextstepaction"]
+>[앱 등록](register-app.md)
 
-* [서비스 주체가 있는 온-프레미스 데이터 게이트웨이를 사용하는 행 수준 보안](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
+> [!div class="nextstepaction"]
+>[고객을 위한 Power BI Embedded](embed-sample-for-customers.md)
+
+>[!div class="nextstepaction"]
+>[Azure Active Directory의 애플리케이션 및 서비스 주체 개체](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+
+>[!div class="nextstepaction"]
+>[서비스 주체가 있는 온-프레미스 데이터 게이트웨이를 사용하는 행 수준 보안](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
+
+>[!div class="nextstepaction"]
+>[서비스 주체 및 인증서를 사용하여 Power BI 콘텐츠 포함](embed-service-principal-certificate.md)

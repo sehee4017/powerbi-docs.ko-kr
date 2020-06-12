@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: f9248b659bec744f7da02c4d2639f30bd646bb48
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 78487f52df9f62e85e80f02d9653c9ac2f5b52c7
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276056"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84337122"
 ---
-# <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers-preview"></a>자습서:  고객을 위해 애플리케이션에 페이지를 매긴 Power BI 보고서 포함(미리 보기)
+# <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>자습서:  고객을 위해 애플리케이션에 페이지를 매긴 Power BI 보고서 포함
 
 **Azure의 Power BI Embedded** 또는 **Office의 Power BI 포함**을 통해 앱 소유 데이터를 사용하여 애플리케이션에 페이지를 매긴 보고서를 포함할 수 있습니다. **앱 소유 데이터**는 해당 임베디드 분석 플랫폼으로 Power BI를 사용하는 애플리케이션을 갖는 것입니다. **ISV** 또는 **개발자**는 사용자에게 Power BI 라이선스를 요구하지 않고도 완벽하게 통합된 대화형 애플리케이션에서 페이지를 매긴 보고서를 표시하는 Power BI 콘텐츠를 만들 수 있습니다. 이 자습서에서는 Power BI JavaScript API와 함께 Power BI .NET SDK를 사용하여 페이지를 매긴 보고서를 애플리케이션에 통합하는 방법을 보여 줍니다.
 
@@ -40,7 +40,7 @@ Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.
 
 > [!IMPORTANT]
 > * **서비스 주체**를 사용해야 합니다. 마스터 사용자는 지원되지 않습니다.
-> * SSO(Single Sign-On)가 필요한 데이터 원본은 지원되지 않습니다.
+> * SSO(Single Sign-On)가 필요한 데이터 원본은 지원되지 않습니다. 지원되는 데이터 세트 및 해당 인증 방법의 목록은 [Power BI 페이지를 매긴 보고서의 지원되는 데이터 원본](../../paginated-reports/paginated-reports-data-sources.md)을 참조하세요. 
 > * Power BI 데이터 세트는 [데이터 원본](../../connect-data/service-get-data.md)으로 지원되지 않습니다.
 
 ## <a name="set-up-your-power-bi-environment"></a>Power BI 환경 설정

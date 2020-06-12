@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: dd474da6a3fb61b6fd78dc55a6b0313e51bbb773
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: a26a93851d3914527bbb61275d763f95f21d7603
+ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693575"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "84336823"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Power BI에 앱 게시
 
@@ -209,6 +209,7 @@ Power BI에서 공식 패키지 콘텐츠를 만든 다음, *앱*을 통해 광�
 * 새 작업 영역 환경의 경우, 앱 액세스 목록에 추가된 사용자가 작업 영역을 통해 이미 앱에 대한 액세스 권한을 부여받은 경우에는 해당 사용자가 앱 액세스 목록에 표시되지 않습니다.  
 * Power BI 서비스의 새 디자인을 사용하는 경우 항목 정보 카드에 지원 사이트 URL이 표시됩니다. [Power BI의 ‘새 디자인’](../consumer/service-new-look.md)에 대해 자세히 알아보세요.
 * 앱에는 사용자가 공유 권한을 사용하여 앱과 앱의 기본 데이터 세트를 공유할 수 있도록 하는 옵션이 있습니다. 새 앱에는 해당 옵션이 기본적으로 꺼져 있습니다. 기존 앱의 경우 해당 옵션을 끄고 기본 데이터 세트에 대한 사용 권한을 업데이트하는 것이 좋습니다. 처음에는 앱이 해당 동작을 포함하는 콘텐츠 팩을 바꾸도록 설계되었기 때문에 기존 앱에는 옵션이 사용하도록 설정되어 있습니다.
+* 앱은 최대 200개의 대시보드를 포함할 수 있습니다. 
 
 ## <a name="next-steps"></a>다음 단계
 * [작업 영역 만들기](service-create-workspaces.md)

@@ -1,6 +1,6 @@
 ---
-title: 조직의 Power BI 라이선스 부여
-description: Power BI에서 사용 가능한 다양한 라이선스 유형과 관리자가 조직에 대한 라이선스를 구매하고 관리하는 방법을 간략하게 설명합니다.
+title: 조직의 사용자에 대한 Power BI 라이선스 부여
+description: Power BI에서 사용 가능한 다양한 사용자 라이선스 유형과 관리자가 조직의 사용자에 대한 라이선스를 구매하고 관리하는 방법을 간략하게 설명합니다.
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
@@ -8,15 +8,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/14/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: a0ce3eab2992c59c5b887db1f0838f88db7ad2da
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 5bac52e98830c97262945e1434880f9c178a0932
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563491"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159999"
 ---
-# <a name="power-bi-licensing-in-your-organization"></a>조직의 Power BI 라이선스 부여
+# <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>조직의 사용자에 대한 Power BI 서비스 라이선스 부여
 
 사용자가 Power BI 서비스에서 수행할 수 있는 작업은 보유한 사용자별 라이선스 유형에 따라 달라집니다. 라이선스에서 제공하는 액세스 수준은 액세스 중인 작업 영역이 Power BI Premium 용량에 할당되었는지 여부에 따라 달라집니다. Power BI 서비스의 모든 사용자에게 라이선스가 있어야 합니다.
 

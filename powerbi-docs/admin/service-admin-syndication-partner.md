@@ -1,26 +1,27 @@
 ---
-title: O365 파트너에게 Power BI를 추가할 수 없음
-description: Microsoft 365 신디케이션 파트너에 Power BI를 추가할 수 없습니다. 신디케이티드 모델은 Microsoft 365에서 사용하는 구매 모델입니다.
+title: Microsoft 365 파트너를 통해 Power BI 구매
+description: 파트너를 통해 구매한 Microsoft 365 구독에 Power BI를 추가하는 방법에 대해 알아봅니다. 신디케이티드 모델은 Microsoft 365에서 사용하는 구매 모델입니다.
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/09/2019
+ms.date: 05/27/2020
 ms.author: kfollis
+ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 2c590875b4dee81f7ca54434d6e5895be885be97
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: bc00c69869ea58aee8b4d0a79fce6b24489bde18
+ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83812338"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "84159750"
 ---
-# <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>Office 365 파트너 구독에 Power BI를 추가할 수 없음
+# <a name="add-power-bi-to-a-microsoft-365-partner-subscription"></a>Microsoft 365 파트너 구독에 Power BI 추가
 
-Microsoft 365는 회사에서 Microsoft 365를 자사의 솔루션에 통합하여 재판매함으로써 최종 고객에게 구매, 청구 및 지원을 위한 단일 접점을 제공할 수 있도록 합니다.
+Microsoft 365는 회사에서 Microsoft 365를 자사의 솔루션에 통합하여 재판매함으로써 고객에게 구매, 청구 및 지원을 위한 단일 접점을 제공할 수 있도록 합니다.
 
-Office 365 구독과 함께 Power BI를 구매하려면 파트너에게 문의하는 것이 좋습니다. 파트너가 Power BI를 제공하지 않을 경우 사용할 다양한 옵션이 있습니다.
+Microsoft 365 구독에 Power BI를 추가하는 데 관심이 있는 경우 파트너에게 문의하여 이 작업을 수행하는 것이 좋습니다. 파트너가 현재 Power BI를 제공하지 않는 경우 아래에 설명된 옵션을 사용할 수 있습니다.
 
 ## <a name="work-with-your-partner-to-purchase-power-bi"></a>파트너와 협업하여 Power BI 구매
 
@@ -36,15 +37,17 @@ Power BI Pro 또는 Power BI Premium에 대한 구독을 구매하려면 파트�
 
 1. [Microsoft 365 관리 센터](https://admin.microsoft.com/AdminPortal/Home#/homepage)로 이동합니다.
 
-1. 왼쪽 메뉴에서 **청구**를 엽니다.
+1. 왼쪽 메뉴에서 **청구**를 열고 **제품**을 선택합니다.
 
-    * **구독**이 표시되면 Microsoft에서 직접 서비스를 구매하거나 Power BI를 제공하는 다른 파트너에게 문의할 수 있습니다.
+   ![Microsoft 365 관리 센터의 청구 메뉴](media/service-admin-syndication-partner/365-my-products.png)
 
-        ![청구 - 구독 포함](media/service-admin-syndication-partner/billingsub.png)
+ 1. 아래 이미지에 나와 있는 것 처럼**구독**을 찾습니다. **구독**이 표시되면 Microsoft에서 직접 서비스를 구매하거나 Power BI를 제공하는 다른 파트너에게 문의할 수 있습니다.
 
-    * **구독**이 표시되지 않으면 Microsoft에서 직접 또는 다른 파트너로부터 구매할 수 없습니다.
+    ![구독을 포함하는 제품](media\service-admin-syndication-partner\365-subscriptions.png)
 
-파트너가 Power BI를 제공하지 않고 Microsoft 또는 다른 파트너로부터 직접 구매할 수 없는 경우에는 무료 평가판에 가입하는 것이 좋습니다.
+    **구독**이 표시되지 않으면 Microsoft에서 직접 또는 다른 파트너로부터 구매할 수 없습니다.
+
+파트너가 Power BI를 제공하지 않고 Microsoft 또는 다른 파트너로부터 직접 구매할 수 없는 경우에는 평가판에 가입하는 것이 좋습니다.
 
 ## <a name="sign-up-for-a-free-trial"></a>무료 평가판 가입
 
@@ -56,31 +59,11 @@ Power BI 무료 평가판에 가입할 수 있습니다. 평가판 기간이 끝
 
 ![죄송합니다 이미지](media/service-admin-syndication-partner/sorry.png)
 
-임시 구독을 사용하도록 설정하려면 파트너에게 연락하여 임시 구독을 설정해 달라고 요청할 수 있습니다. 테넌트 관리자이고 Azure Active Directory PowerShell 명령을 사용하는 방법을 알고 있는 경우 직접 임시 구독을 사용하도록 설정할 수 있습니다. [그래프용 Azure Active Directory PowerShell](/powershell/azure/active-directory/install-adv2/)
-
-1. Microsoft 365 자격 증명을 사용하여 Azure Active Directory에 로그인합니다. 아래 스크립트의 첫 번째 줄은 사용자 자격 증명을 입력하라는 메시지를 표시합니다. 두 번째 행은 Azure Active Directory에 연결합니다.
-
-    ```powershell
-    $msolcred = get-credential
-    connect-msolservice -credential $msolcred
-    ```
-
-    ![자격 증명 입력](media/service-admin-syndication-partner/aad-signin.png)
-
-1. 로그인한 후 다음 명령을 실행하여 `AllowAdHocSubscriptions`에 대한 현재 설정을 확인합니다.
-
-    ```powershell
-    Get-MsolCompanyInformation
-    ```
-
-1. 다음 명령을 실행하여 무료 가입을 사용하도록 설정합니다.
-
-    ```powershell
-    Set-MsolCompanySettings -AllowAdHocSubscriptions $true
-    ```
+임시 구독을 사용하도록 설정하려면 파트너에게 연락하여 임시 구독을 설정해 달라고 요청할 수 있습니다. 테넌트 관리자이고 Azure Active Directory PowerShell 명령을 사용하는 방법을 알고 있는 경우 직접 임시 구독을 사용하도록 설정할 수 있습니다. 자세한 내용은 [셀프 서비스 구매 사용 또는 사용 안 함](service-admin-disable-self-service.md)의 단계를 따르세요.
 
 ## <a name="next-steps"></a>다음 단계
 
-[조직의 Power BI 라이선스 부여](service-admin-licensing-organization.md)
+* [조직의 Power BI 라이선스 부여](service-admin-licensing-organization.md)
+* [Power BI Pro 라이선스 구매 및 할당](service-admin-purchasing-power-bi-pro.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

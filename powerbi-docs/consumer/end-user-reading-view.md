@@ -7,18 +7,17 @@ author: mihart
 editor: ''
 tags: ''
 ms.service: powerbi
-ms.subservice: powerbi-consumer
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/11/2020
 ms.author: mihart
-ms.openlocfilehash: ef25e98bb87b52cf7f0bd30c118b7e2fa5509991
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: eeffb4c0fb7db57eacf18818275716db42679f6e
+ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813810"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "79206036"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>빠른 시작: *소비자*의 Power BI 기능 알아보기
 
@@ -34,7 +33,7 @@ Power BI는 관련 없는 데이터 원본을 시각적으로 몰입도가 뛰�
 ![앱 가져오기 아이콘](./media/end-user-reading-view/power-bi-conceptual.png)
 
 ## <a name="reading-view"></a>읽기용 보기
-읽기용 보기는 보고서 ‘소비자’를 위해 Power BI 서비스에서 제공됩니다.  동료가 보고서, 대시보드 또는 앱을 공유하면 읽기용 보기를 사용하여 보고서를 살펴보고 조작할 수 있습니다. 
+읽기용 보기는 보고서 ‘소비자’를 위해 Power BI 서비스에서 제공됩니다. 동료가 보고서, 대시보드 또는 앱을 공유하면 읽기용 보기를 사용하여 보고서를 살펴보고 조작할 수 있습니다. 
 
 브라우저 또는 모바일 디바이스에서 Power BI 서비스를 엽니다. 사용자와 동료가 자동으로 업데이트되고 새로 고쳐지는 신뢰할 수 있는 동일한 앱, 대시보드 및 보고서를 사용할 수 있으므로 항상 최신 콘텐츠로 작업하게 됩니다.   
 
@@ -61,7 +60,7 @@ Power BI에서 “콘텐츠”라는 용어를 사용하는 경우 보고서, �
 
 ### <a name="reports"></a>보고서
 
-Power BI 보고서는 해당 데이터 세트에서 얻은 다양한 결과 및 인사이트를 나타내는 시각적 개체가 포함된 데이터 세트에 대한 다각적인 데이터 뷰입니다. 보고서에는 단일 시각적 개체 또는 여러 페이지의 시각적 개체가 있을 수 있습니다. 보고서는 Power BI ‘디자이너’가 만들어 배포하고 ‘소비자’와 공유합니다.  
+Power BI 보고서는 해당 데이터 세트에서 얻은 다양한 결과 및 인사이트를 나타내는 시각적 개체가 포함된 데이터 세트에 대한 다각적인 데이터 뷰입니다. 보고서에는 단일 시각적 개체 또는 여러 페이지의 시각적 개체가 있을 수 있습니다. 보고서는 Power BI ‘디자이너’가 만들어 배포하고 ‘소비자’와 공유합니다. 
 
 ![앱 가져오기 아이콘](./media/end-user-reading-view/power-bi-report-phone.png)
 
@@ -71,7 +70,7 @@ Power BI 보고서는 해당 데이터 세트에서 얻은 다양한 결과 및 
 
 Power BI 대시보드는 시각화를 사용하여 스토리를 전달하는 단일 페이지로, 캔버스라고도 합니다. 한 페이지로 제한되기 때문에 해당 스토리의 가장 중요한 요소만 포함할 경우 잘 디자인된 대시보드라 할 수 있습니다.
 
-대시보드에 표시되는 시각화를 타일이라고 하며, 보고서 ‘디자이너’가 대시보드에 고정합니다.  대부분의 경우, 타일을 선택하면 시각화가 생성된 보고서 페이지로 이동합니다. 
+대시보드에 표시되는 시각화를 타일이라고 하며, 보고서 ‘디자이너’가 대시보드에 고정합니다. 대부분의 경우, 타일을 선택하면 시각화가 생성된 보고서 페이지로 이동합니다. 
 
 ![앱 가져오기 아이콘](./media/end-user-reading-view/power-bi-dashboard-phone.png)
 
@@ -107,7 +106,7 @@ Power BI 서비스에서 자동으로 작업을 수행하는 두 가지 방법�
 
 
 ### <a name="use-qa-to-ask-questions-using-natural-language"></a>질문 및 답변을 사용하여 자연어 사용에 대해 질문하기
-경우에 따라 자연어를 사용하여 질문을 하면 가장 빠르게 사용자 데이터로 답변을 받을 수 있습니다. 질문 및 답변 상자는 대시보드의 위쪽에서 사용할 수 있습니다. “show me count of large opportunities by sales stage as a funnel.”를 예로 들 수 있습니다. 
+경우에 따라 자연어를 사용하여 질문을 하면 가장 빠르게 사용자 데이터로 답변을 받을 수 있습니다. 질문 및 답변 상자는 대시보드의 위쪽에서 사용할 수 있습니다. “판매 단계별 대규모 영업 기회 수를 깔때기로 표시합니다.”를 예로 들 수 있습니다. 
 
 ![질문 및 답변](./media/end-user-reading-view/power-bi-q-and-a.png)
 
@@ -194,7 +193,7 @@ Power BI 시각화는 기본 데이터 세트의 데이터를 사용하여 구�
 
 ![data exported to PowerPoint](./media/end-user-reading-view/power-bi-export-powerpoint.png) -->
 
-‘소비자’가 Power BI 서비스에서 수행할 수 있는 몇 가지 작업을 간략하게 살펴보았습니다.   
+‘소비자’가 Power BI 서비스에서 수행할 수 있는 몇 가지 작업을 간략하게 살펴보았습니다.  
 
 ## <a name="clean-up-resources"></a>리소스 정리
 - 앱에 연결한 경우 탐색 창에서 **앱**을 선택하여 앱 콘텐츠 목록을 엽니다. 삭제할 앱을 마우스로 가리키고 휴지통 아이콘을 선택합니다.
