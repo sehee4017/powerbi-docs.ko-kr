@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 02/11/2020
-  ms.openlocfilehash: 96881ecb03132579643517679aaab3c87b7a977f
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: 2d15b3e6bf3ab2c097353ecf7647c244db8cdcdc
+  ms.sourcegitcommit: 6d3a37eb636e1b71c7dcb9d1c3a9e495b78dec97
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "78923911"
+  ms.lasthandoff: 06/11/2020
+  ms.locfileid: "84681885"
 landingContent:
 - title: Power BI 모바일 앱 정보
   linkLists:
@@ -29,7 +29,7 @@ landingContent:
       url: mobile-whats-new-in-the-mobile-apps.md
     - text: 모바일 앱 홈페이지
       url: mobile-apps-home-page.md
-- title: 시작하기
+- title: 시작
   linkLists:
   - linkListType: get-started
     links:
@@ -55,8 +55,8 @@ landingContent:
       url: mobile-apps-offline-data.md
     - text: 대시보드 또는 보고서 공유
       url: mobile-share-dashboard-from-the-mobile-apps.md
-    - text: 데이터 경고 설정
-      url: mobile-set-data-alerts-in-the-mobile-apps.md
+    - text: 모바일 앱 보고서 최적화
+      url: ../../create-reports/desktop-create-phone-report.md
 - title: 온-프레미스 보고서
   linkLists:
   - linkListType: how-to-guide
