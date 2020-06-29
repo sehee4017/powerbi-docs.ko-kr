@@ -24,7 +24,7 @@
               href: service-govus-overview.md
             - name: 미국 정부 기관 등록
               href: service-govus-signup.md
-        - name: 지역 클라우드의 Power BI
+        - name: 국가별 클라우드의 Power BI
           items:
             - name: Go 로컬 독일 지역으로 마이그레이션
               href: service-admin-migrate-data-germany.md
@@ -116,6 +116,8 @@
               href: service-premium-connect-tools.md
             - name: 서비스 사용자를 사용한 자동화
               href: service-premium-service-principal.md
+            - name: XMLA 엔드포인트 연결 문제 해결
+              href: troubleshoot-xmla-endpoint.md
     - name: 참조
       items:
         - name: 'PowerShell, REST API 및 .NET SDK'

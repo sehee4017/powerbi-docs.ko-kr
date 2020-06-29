@@ -49,8 +49,12 @@
           items:
             - name: 대시보드 및 보고서 공유
               href: service-share-dashboards.md
+            - name: 보고서 또는 대시보드에 대한 액세스 요청
+              href: service-request-access.md
             - name: 보고서 필터링 및 공유
               href: service-share-reports.md
+            - name: 보고서 또는 대시보드 공유 문제 해결
+              href: service-troubleshoot-sharing.md
             - name: URL의 매개 변수를 사용하여 보고서 필터링
               href: service-url-filters.md
             - name: 직접 및 다른 사용자 구독

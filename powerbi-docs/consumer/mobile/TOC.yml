@@ -44,7 +44,7 @@
               href: mobile-share-dashboard-from-the-mobile-apps.md
             - name: 모바일 앱의 즐겨찾기
               href: mobile-apps-favorites.md
-            - name: Power BI Mobile Apps에서 데이터 경고 설정
+            - name: Power BI 모바일 앱에서 데이터 경고 설정
               href: mobile-set-data-alerts-in-the-mobile-apps.md
             - name: Power BI 모바일 앱에서 알림 가져오기
               href: mobile-apps-notification-center.md
@@ -84,6 +84,8 @@
               href: mobile-apps-iOS-siri-Shortcuts.md
             - name: iOS 디바이스 검색 통합
               href: mobile-apps-iOS-search-integration.md
+            - name: 어둡게 모드
+              href: mobile-apps-dark-mode.md
             - name: Power BI Apple Watch 앱
               href: mobile-apple-watch.md
         - name: Android 디바이스
@@ -106,7 +108,7 @@
               href: mobile-pin-dashboard-start-screen-windows-10-phone-app.md
             - name: 온-프레미스 보고서 및 KPI 보기
               href: mobile-app-windows-10-ssrs-kpis-mobile-reports.md
-            - name: Surface Hub에서 Power BI 보기
+            - name: Surface Hub 및 Windows 10 디바이스의 프레젠테이션 모드
               href: mobile-windows-10-app-presentation-mode.md
             - name: Windows 앱에서 Single Sign-On
               href: mobile-windows-10-app-single-sign-on-sso.md

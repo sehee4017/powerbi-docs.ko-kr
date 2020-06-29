@@ -28,6 +28,8 @@
               href: star-schema.md
             - name: 데이터 모델 크기 줄이기
               href: import-modeling-data-reduction.md
+            - name: 날짜 테이블 만들기
+              href: model-date-tables.md
             - name: 자동 날짜/시간 지침
               href: auto-date-time.md
             - name: 일대일 관계
@@ -44,6 +46,8 @@
               href: directquery-model-guidance.md
             - name: 복합 모델 지침
               href: composite-model-guidance.md
+            - name: RLS(행 수준 보안) 지침
+              href: rls-guidance.md
         - name: DAX
           items:
             - name: 나누기 함수 및 나누기 연산자(/)

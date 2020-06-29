@@ -122,6 +122,8 @@
               href: desktop-connect-to-web.md
             - name: Snowflake 컴퓨팅 웨어하우스에 연결
               href: desktop-connect-snowflake.md
+            - name: Power BI 서비스에서 Snowflake에 연결
+              href: service-connect-snowflake.md
             - name: Azure Cost Management 커넥터를 사용하여 시각적 개체 만들기
               href: desktop-connect-azure-cost-management.md
             - name: Azure Consumption Insights 데이터에 연결

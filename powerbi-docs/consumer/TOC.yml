@@ -74,6 +74,8 @@
               href: end-user-spotlight.md
             - name: 시각적 개체 개인 설정
               href: end-user-personalize-visuals.md
+            - name: 시각적 개체의 변동 분석
+              href: end-user-analyze-visuals.md
             - name: Power BI의 페이지를 매긴 보고서
               items:
                 - name: 페이지를 매긴 보고서
@@ -92,6 +94,8 @@
               href: end-user-visual-type.md
             - name: 시각화를 생성하는 데 사용 된 데이터 표시
               href: end-user-show-data.md
+            - name: 시각적 개체를 복사하여 다른 곳에 붙여넣기
+              href: end-user-copy-paste.md
             - name: 시각화에서 드릴 다운
               href: end-user-drill.md
             - name: ArcGIS 맵과 상호 작용
