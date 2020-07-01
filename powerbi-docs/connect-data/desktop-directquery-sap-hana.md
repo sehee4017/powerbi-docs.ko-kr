@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 2a3b9ab5e8ec2d977363506f98d27528db7b9d8a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: f121d4fb4e60fc29ef887d27c148aa3063dcee82
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292642"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85223697"
 ---
 # <a name="connect-to-sap-hana-data-sources-by-using-directquery-in-power-bi"></a>Power BI의 DirectQuery를 사용하여 SAP HANA 데이터 원본에 연결
 **DirectQuery**를 사용하여 **SAP HANA** 데이터 원본에 직접 연결할 수 있습니다. SAP HANA에 연결할 때에는 두 가지 옵션이 있습니다.

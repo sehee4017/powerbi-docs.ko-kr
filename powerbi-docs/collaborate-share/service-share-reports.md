@@ -6,16 +6,16 @@ ms.reviewer: lukaszp
 featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/29/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e91698413df11a2f593128a616948935b65c0c4e
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: 2988f02b8207eafe5155073af9acc60dcb0a81cf
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272911"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85225319"
 ---
 # <a name="filter-and-share-a-power-bi-report"></a>Power BI 보고서 필터링 및 공유
 다른 사람에게 대시보드 및 보고서에 대한 액세스 권한을 부여하려면 *공유*를 사용하는 것이 좋습니다. 필터링된 버전의 보고서를 공유하려면 어떻게 해야 할까요? 특정 도시, 영업 사원 또는 연도 데이터만 표시하도록 보고서를 만들려고 할 수 있습니다. 이 문서에서는 보고서를 필터링한 후 필터링된 버전을 공유하는 방법을 설명합니다. 필터링된 보고서를 공유하는 또 다른 방법은 [보고서 URL에 쿼리 매개 변수를 추가](service-url-filters.md)하는 것입니다. 두 경우 모두 받는 사람이 처음 열 때 보고서가 필터링됩니다. 받는 사람이 보고서에서 필터 선택을 삭제할 수 있습니다.

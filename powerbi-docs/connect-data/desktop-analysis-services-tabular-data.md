@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/28/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ac15a732f3d388fd5dafa61d33eec1d82022da54
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 6f9661b6cda8782e83e64e30f55ae4b0d8bf6fa2
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83301313"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85224871"
 ---
 # <a name="connect-to-analysis-services-tabular-data-in-power-bi-desktop"></a>Power BI Desktop의 Analysis Services 표 형식 데이터에 연결
 Power BI Desktop에서 SQL Server Analysis Services 테이블 형식 모델의 데이터에 연결하여 데이터를 가져올 수 있는 방법은 다음 두 가지입니다. 라이브 연결을 사용하여 탐색하거나, 항목을 선택하고 Power BI Desktop으로 가져옵니다.

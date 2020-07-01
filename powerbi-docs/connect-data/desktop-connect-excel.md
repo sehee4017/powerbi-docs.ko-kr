@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 116aac1bf661f07b30208f943b27eddbf172da00
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 28eb1efb28a1b8d394d68a9c57a9c2733cc08972
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347795"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85224528"
 ---
 # <a name="connect-to-excel-workbooks-in-power-bi-desktop"></a>Power BI Desktop에서 Excel 통합 문서에 연결
 Power BI Desktop에서 Excel 통합 문서에 연결하는 것은 간단하며 이 문서에서는 이에 대한 단계를 안내합니다.

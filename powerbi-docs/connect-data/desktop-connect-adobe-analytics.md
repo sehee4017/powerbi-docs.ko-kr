@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ff955948f2fd59e915f2f7bbf76d1e109daaaba3
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: bc6b40754e12531c57dfcab2923fdf999aee5481
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347910"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85224810"
 ---
 # <a name="connect-to-adobe-analytics-in-power-bi-desktop"></a>Power BI Desktop에서 Adobe Analytics에 연결 
 **Power BI Desktop**에서 **Adobe Analytics**에 연결하고 Power BI Desktop의 다른 데이터 원본처럼 기본 데이터를 사용할 수 있습니다. 

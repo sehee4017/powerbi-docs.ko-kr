@@ -3,19 +3,19 @@ title: Power BI 타사 앱 시작
 description: Power BI 타사 앱 시작
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
 ms.cunstom: ''
 ms.date: 09/16/2019
 LocalizationGroup: Get started
-ms.openlocfilehash: ff44527ab0f6c57007db82c79d6b357973eded17
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: d845cde571679355fd50560a154358885f981db0
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83147502"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85225508"
 ---
 # <a name="get-started-with-third-party-apps"></a>타사 앱 시작
 

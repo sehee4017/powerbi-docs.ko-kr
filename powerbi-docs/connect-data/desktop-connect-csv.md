@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9e0e89b2e1ebcd42eb77569346e28a7ef644ace9
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 06e5ec77a084755379d81be93c9455e8bd7af304
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347818"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85224629"
 ---
 # <a name="connect-to-csv-files-in-power-bi-desktop"></a>Power BI Desktop에서 CSV 파일에 연결
 Power BI Desktop에서 쉼표로 구분된 값(*CSV*) 파일에 연결하는 것은 Excel 통합 문서에 연결하는 것과 매우 유사합니다. 둘 다 간편하며 이 문서에서는 액세스 권한이 있는 CSV 파일에 연결하는 방법을 단계별로 안내합니다.
