@@ -5,16 +5,16 @@ author: mihart
 ms.reviewer: mohammad ali
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 7739967443a8c6dc75cdaa3fbd0e472dcc090b9a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9ad30c7fc8319ece258b82c2fcfe7f94fc63200b
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79488548"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85231646"
 ---
 # <a name="qa-for-power-bi-consumers"></a>Power BI 소비자를 위한 질문 및 답변
 
@@ -100,7 +100,7 @@ Power BI에서 간편하게 질문하는 또 다른 방법은 프롬프트, 자�
 
 ![질문 및 답변 시각적 개체 지도](media/end-user-q-and-a/power-bi-q-and-a-suggested.png)
 
-그러나 자연어 쿼리에 추가하여 사용할 시각적 개체 유형을 Power BI에 지시할 수 있습니다. 일부 시각적 개체 유형은 데이터에서 작동하지 않거나 데이터에 적합하지 않습니다. 예를 들어 이 데이터는 의미 있는 분산형 차트를 생성하지 않고 등치 지역도로 작동합니다.
+그러나 자연어 쿼리에 추가하여 사용할 시각적 개체 유형을 Power BI에 지시할 수 있습니다. 일부 시각적 개체 유형은 데이터에서 작동하지 않거나 데이터에 적합하지 않습니다. 예를 들어 이 데이터는 의미 있는 분산형 차트를 생성하지 않고 채워진 지도로 작동합니다.
 
 ![채워진 지도로 작동하는 질문 및 답변 시각적 개체](media/end-user-q-and-a/power-bi-filled-map.png)
 
