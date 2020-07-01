@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/27/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 71acc85ecd74b2606d00c4e3b63b6f7532c9487c
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 88aa1335433dba38e5f18ca7463077543db2c923
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84120015"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85222461"
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Power BI Desktop에서 비즈니스용 OneDrive 링크 사용
 많은 사용자가 Power BI Desktop에 사용하기 좋은 Excel 통합 문서를 비즈니스용 OneDrive에 저장합니다. Power BI Desktop을 통해 비즈니스용 OneDrive에 저장된 Excel 파일에 대한 온라인 링크를 사용하여 보고서 및 시각적 개체를 만들 수 있습니다. 비즈니스용 OneDrive 그룹 계정 또는 개별 비즈니스용 OneDrive 계정을 사용할 수 있습니다.
