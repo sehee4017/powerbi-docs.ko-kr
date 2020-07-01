@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/30/2018
-ms.openlocfilehash: 5df9ddd44bdc8952dab14809ce3facd74e5d3753
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 60e80311ff12da2bc79b7f844c81c7b5c8f4c3ac
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564164"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354872"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded 마이그레이션 도구
 
@@ -151,7 +151,7 @@ ms.locfileid: "83564164"
 
 **다운로드** 탭에 보고서 및 관련 메타데이터 목록이 표시됩니다. 이전 및 현재 내보내기 상태를 함께 볼 수 있습니다.
 
-![](media/migrate-tool/migrate-tool-download-tab.png)
+![다운로드](media/migrate-tool/migrate-tool-download-tab.png)
 
 다음과 같은 두 가지 옵션이 있습니다.
 

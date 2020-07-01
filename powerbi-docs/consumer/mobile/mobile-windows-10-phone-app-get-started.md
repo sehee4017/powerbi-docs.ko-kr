@@ -5,15 +5,15 @@ author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 04b5bfbc08295974efcb7d583036d96274754bad
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: c40ba6827e788a51402b3aa22497b5ddde1bcdc2
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565698"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85240424"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Windows 10용 Power BI 모바일 앱 시작
 Windows 10용 Power BI Mobile 앱은 태블릿이나 휴대폰으로 Power BI를 가져옵니다. 터치 사용이 가능한 최신 모바일 방식으로 비즈니스 정보에 액세스할 수 있습니다. 어디서든 [Windows 시작 화면](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)에서 회사 대시보드를 보고 조작할 수 있습니다.

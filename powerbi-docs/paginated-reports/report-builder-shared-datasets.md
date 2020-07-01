@@ -4,15 +4,15 @@ description: Power BI 공유 데이터 세트 기반의 Power BI Report Builder�
 ms.date: 02/12/2020
 ms.service: powerbi
 ms.subservice: report-builder
-ms.topic: conceptual
+ms.topic: how-to
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 6f77b2c4ffa7b42cf99a75b4ae88ae0aeb631499
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a13f346feeddc8196cb35e06acf027baeaa7a151
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276631"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239792"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Power BI 공유 데이터 세트 기반의 페이지가 매겨진 보고서 만들기
 
@@ -26,7 +26,7 @@ Power BI Desktop에서 만든 데이터 세트를 Power BI 보고서 작성기�
 
 다음은 Power BI 보고서 작성기에서 공유 데이터 세트를 사용하는 데 필요한 사항과 필요하지 않은 사항의 목록입니다.
 
-- Power BI 보고서 작성기. [Power BI 보고서 작성기를 다운로드하여 설치](https://go.microsoft.com/fwlink/?linkid=2086513)합니다.
+- Power BI 보고서 작성기. [Power BI 보고서 작성기를 다운로드하여 설치](https://aka.ms/pbireportbuilder)합니다.
 - Power BI 데이터 세트에 액세스하려면 데이터 세트의 빌드 권한이 있어야 합니다. [빌드 권한](../connect-data/service-datasets-build-permissions.md)을 참조하세요.
 - 보고서 작성기에서 페이지를 매긴 보고서를 만드는 경우 Power BI Pro 라이선스가 필요하지 않습니다. 
 - 페이지를 매긴 보고서를 게시하려면 Power BI Pro 라이선스가 필요합니다. 또한 최소한 프리미엄 용량의 작업 영역에 대한 참가자 역할이 있어야 합니다. 

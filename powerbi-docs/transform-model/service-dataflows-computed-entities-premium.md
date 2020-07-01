@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1c79002cfc133be4c474aa992baa57f285ace182
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 0b43864078e52381aa92e6e16366ba4fdf5fea29
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83313963"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239743"
 ---
 # <a name="using-computed-entities-on-power-bi-premium"></a>Power BI Premium의 계산된 엔터티 사용
 
@@ -52,13 +52,13 @@ Power BI 서비스의 데이터 흐름 제작 도구에서 **엔터티 편집**�
 
 다음과 같은 예를 고려해 보세요. Dynamics 365 구독의 모든 고객에 대한 원시 데이터가 포함된 ‘계정’ 엔터티가 있습니다.  해당 연도에 매일 다른 계정에서 수행한 지원 통화 데이터가 포함되어 있는 서비스 센터의 *ServiceCalls* 원시 데이터도 있습니다.
 
-*ServiceCalls*의 데이터로 ‘계정’ 엔터티를 보강하려 한다고 가정해 보겠습니다.  
+*ServiceCalls*의 데이터로 ‘계정’ 엔터티를 보강하려 한다고 가정해 보겠습니다. 
 
 먼저 ServiceCalls에서 데이터를 집계하여 작년에 각 계정에 대해 수행된 지원 통화 수를 계산해야 합니다. 
 
 ![Power BI Premium의 계산된 엔터티 예](media/service-dataflows-computed-entities-premium/computed-entities-premium_02.png)
 
-다음으로는 ‘계정’ 엔터티를 *ServiceCallsAggregated* 엔터티와 병합하여 보강된 **계정** 테이블을 계산할 것입니다. 
+다음으로는 ‘계정’ 엔터티를 *ServiceCallsAggregated* 엔터티와 병합하여 보강된 **계정** 테이블을 계산할 것입니다.
 
 ![Power BI Premium의 계산된 엔터티 예](media/service-dataflows-computed-entities-premium/computed-entities-premium_03.png)
 

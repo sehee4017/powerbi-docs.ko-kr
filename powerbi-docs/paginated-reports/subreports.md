@@ -6,14 +6,14 @@ ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/29/2020
-ms.openlocfilehash: 784e3fd3883adb9fc5b773cc730b992135d7ef8b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9ced88289b2170d503a8394d5b83175659178e85
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83272813"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239581"
 ---
 # <a name="subreports-in-power-bi-paginated-reports"></a>Power BI 페이지를 매긴 보고서의 하위 보고서
 
@@ -23,7 +23,7 @@ ms.locfileid: "83272813"
   
  위의 그림에서 주 Sales Order 보고서에 표시된 연락처 정보는 실제로 Contacts 하위 보고서에서 가져온 것입니다.  
   
-Power BI Report Builder에서 페이지가 매겨진 보고서 정의(.rdl) 파일을 만들고 수정합니다. SQL Server Reporting Services에 저장된 하위 보고서를 Power BI 서비스 Premium 작업 영역에 업로드할 수 있습니다. 주 보고서와 하위 보고서를 같은 작업 영역에 게시해야 합니다. [Power BI Report Builder](https://go.microsoft.com/fwlink/?linkid=2086513)를 설치합니다.
+Power BI Report Builder에서 페이지가 매겨진 보고서 정의(.rdl) 파일을 만들고 수정합니다. SQL Server Reporting Services에 저장된 하위 보고서를 Power BI 서비스 Premium 작업 영역에 업로드할 수 있습니다. 주 보고서와 하위 보고서를 같은 작업 영역에 게시해야 합니다. [Power BI Report Builder](https://aka.ms/pbireportbuilder)를 설치합니다.
   
 ## <a name="work-with-report-builder-and-the-power-bi-service"></a>Report Builder 및 Power BI 서비스 사용
 

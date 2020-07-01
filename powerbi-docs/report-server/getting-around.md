@@ -5,15 +5,15 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: ecc33c6176214cb8178e55d716294bf9446a7b1d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 35cbfd905db3d6d8464add0fe0e67060c41c9d0a
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73859471"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239411"
 ---
 # <a name="manage-content-in-the-web-portal"></a>웹 포털에서 콘텐츠 관리 
 Power BI Report Server 웹 포털은 Power BI, 모바일, 페이지를 매긴 보고서 및 KPI를 보고, 저장하고 관리하는 온-프레미스 위치입니다.

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/18/2020
+ms.date: 06/19/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b0e52ebf4f529c7da75e79becf30c74d6e2c0248
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 64fa13f3e95f43813c657eb9be195fb03e57a06b
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496306"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354918"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Power BI 서비스 소비자에 대한 대시보드
 
@@ -32,7 +32,6 @@ Power BI ***대시보드***는 보통 캔버스라고도 하며 스토리를 전
 > 대시보드를 [모바일 디바이스에서 보고 공유](mobile/mobile-apps-view-dashboard.md)할 수 있습니다.
 >
 > 공유된 대시보드를 보려면 Power BI Pro가 필요합니다.
-> 
 
 대시보드의 시각화는 보고서를 기반으로 하며 각 보고서는 한 개의 데이터 세트를 기반으로 합니다. 사실, 대시보드를 생각하는 한 가지 방법은 기본 보고서와 데이터 세트로 들어가는 입구로 여기는 것입니다. 시각화를 선택하면 이를 만드는 데 사용한 보고서(및 데이터 세트)로 이동합니다.
 
