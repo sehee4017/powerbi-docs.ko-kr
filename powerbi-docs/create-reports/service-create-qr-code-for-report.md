@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/13/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 52fb546df2c5e0523b218d00755ec273cac85f25
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 544a4e476d730a6bccc02f476903005ca19a5cca
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83314791"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85219347"
 ---
 # <a name="create-a-qr-code-for-a-report-in-power-bi-to-use-in-the-mobile-apps"></a>Power BI에서 모바일 앱에 사용할 보고서의 QR 코드 만들기
 Power BI의 QR 코드는 실제 세계의 모든 항목을 관련된 BI 정보에 연결할 수 있습니다. 탐색하거나 검색할 필요가 없습니다.

@@ -5,15 +5,15 @@ author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: 56b3a4f67f5bc6dda777ea7c94b92c65abb4f3b0
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1f71c2c835c729f3a0afe824835deaee719568c2
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349405"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85219991"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>iOS 디바이스에서 Power BI 모바일 앱 시작
 iPhone 및 iPad의 iOS용 Microsoft Power BI 앱은 Power BI, Power BI Report Server 및 Reporting Services의 모바일 BI 환경을 제공합니다. 실시간 터치 가능한 모바일 액세스를 사용하여 어디에서나 온-프레미스 및 클라우드에 있는 회사 대시보드를 쉽게 보고 상호작용할 수 있습니다. 대시보드의 데이터를 살펴보고 메일 또는 문자 메시지로 동료와 공유합니다. 그리고 [Apple Watch](mobile-apple-watch.md)에서 가장 시기 적절한 데이터를 최신 상태로 유지합니다.  

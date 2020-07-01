@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: l8JoB7w0zJA
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 283b43ef60d88df64b66812956e79bdcce1f16e9
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: e2e47a09437bacfc905258bd6e23e82ff5554225
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565790"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85219301"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Excel에서 Power BI 대시보드에 타일 고정
 Excel 통합 문서에서 타일을 고정하려면 해당 통합 문서를 Power BI 서비스(app.powerbi.com)에 연결합니다. 통합 문서를 기본적으로 연결하면 해당 통합 문서의 연결된 읽기 전용 버전을 Power BI 서비스로 가져오고 범위를 대시보드에 고정할 수 있습니다. 전체 워크시트를 대시보드에 고정할 수도 있습니다.  

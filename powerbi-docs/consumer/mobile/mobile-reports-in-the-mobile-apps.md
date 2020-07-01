@@ -5,15 +5,15 @@ author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: 48b13b73455d39eb7dc8cbf9df3e95408592f7f5
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e24932a5d58766e355533a2fc0b86a5ca0f3148f
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279506"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85219945"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 보고서 탐색
 적용 대상:

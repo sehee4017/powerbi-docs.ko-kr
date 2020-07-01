@@ -7,16 +7,16 @@ featuredvideoid: et_MLSL2sA8
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4178d9cc5ce6f8e671c0d996bb64ee9a1389acdb
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 5523c08b81a129bab70f1c087e8895dedf83621f
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83306603"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85221095"
 ---
 # <a name="generate-data-insights-automatically-with-power-bi"></a>Power BI를 사용하여 데이터 인사이트를 자동으로 생성
 새 데이터 세트가 있고 어디서 시작해야 할지가 확실하지 않은 경우  빠르게 대시보드를 만들어야 하는 경우  놓쳤을 수 있는 정보를 찾으려는 경우
