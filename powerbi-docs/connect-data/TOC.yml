@@ -94,6 +94,8 @@
                   href: desktop-python-ide.md
                 - name: Python을 사용하여 시각적 개체 만들기
                   href: desktop-python-visuals.md
+                - name: 지원되는 Python 패키지에 대해 알아보기
+                  href: service-python-packages-support.md
             - name: R 스크립트 실행
               href: desktop-r-scripts.md
             - name: 쿼리 편집기에서 R 사용

@@ -66,6 +66,8 @@
               href: dax-column-measure-references.md
             - name: FILTER를 필터 인수로 사용하지 마세요.
               href: dax-avoid-avoid-filter-as-filter-argument.md
+            - name: 샘플 모델
+              href: dax-sample-model.md
         - name: Power BI 보고서
           items:
             - name: 모델에서 보고서 분리

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 11/14/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 722516004a454f970b7a88e2bf4c48d1d0176b6b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 91ca05a144166abbc903d42ba30a5c70b839987d
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237345"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782810"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>Power BI에서 R 시각적 개체 만들기 및 사용
 
@@ -104,15 +104,19 @@ Power BI 서비스의 R 시각적 개체에는 몇 가지 제한 사항이 있�
   
   * R 스크립트의 시작 부분에 다음 줄을 추가합니다.
     
-        powerbi_rEnableShowText =  1
+```powerbi_rEnableShowText =  1```
+
 * 한국어, 중국어, 일본어 글꼴이 Power BI 서비스에서 제대로 작동하려면 다음 추가 단계가 모두 필요합니다.
   
   * 먼저 R 패키지 *showtext*와 모든 종속성을 설치합니다. 다음 스크립트를 실행하면 됩니다.
     
-        *install.packages("showtext")*
+```install.packages("showtext")```
+
   * 다음으로 R 스크립트의 시작 부분에 다음 줄을 추가합니다.
     
-        powerbi_rEnableShowTextForCJKLanguages =  1
+```R script
+powerbi_rEnableShowTextForCJKLanguages =  1
+```
 
 ## <a name="overview-of-r-packages"></a>R 패키지 개요
 R 패키지는 잘 정의된 형식으로 결합된 R 함수, 데이터 및 컴파일된 코드의 컬렉션입니다. R을 설치할 경우 패키지의 표준 집합과 함께 제공되며 다른 패키지를 다운로드 및 설치할 수 있습니다. 설치되면 사용할 세션으로 R 패키지를 로드해야 합니다. R 패키지의 주 원본은 CRAN([Comprehensive R Archive Network](https://cran.r-project.org/web/packages/available_packages_by_name.html))입니다.

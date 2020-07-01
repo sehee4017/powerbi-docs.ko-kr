@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 7ab103c5d7b568e7315f67193da4d8da25b77a6c
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 2783f434e2bb1d6d45ed1a9442c60da7b09e7ae4
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565440"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782785"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Azure Active Directory B2B를 사용하여 외부 게스트 사용자에게 Power BI 콘텐츠 배포
 
@@ -71,7 +71,7 @@ Contoso는 하도급 업자와 함께 작동 하 여 radiators의 안정성 분�
 
 
 
-1. IT 관리자와 함께 사용자가 수동으로 또는 Azure Active Directory에서 제공 하는 API를 통해 게스트 사용자를 초대 하는 프로세스
+1. 이 프로세스는 수동으로 또는에서 제공 하는 API를 통해 게스트 사용자를 초대 하는 IT 관리자에 의해 시작 됩니다 Azure Active Directory
 2. 사용자는 조직에 대 한 초대를 수락 합니다.
 3. 사용자가 초대를 수락 하면 Power BI 사용자는 외부 사용자 또는 해당 사용자가 속한 보안 그룹을 사용 하 여 보고서 나 대시보드를 공유할 수 있습니다. Power BI에서 일반 공유와 마찬가지로 외부 사용자는 항목에 대 한 링크가 포함 된 전자 메일을 받습니다.
 4. 외부 사용자가 링크에 액세스 하면 해당 디렉터리에서 해당 인증은 Contoso의 Azure AD에 전달 되 고 Power BI 콘텐츠에 대 한 액세스 권한을 얻는 데 사용 됩니다.
@@ -331,7 +331,7 @@ Azure AD B2B와의 통합 Power BI 모든 비즈니스 메일 주소와 함께 �
 
 Azure ad 계정이 외부 파티의 Azure AD에서 사용 되거나 생성 되는 것을 인식 하는 것이 중요 합니다. 이렇게 하면 루시가 자신의 사용자 이름 및 암호를 사용할 수 있으며, 조직에서 Azure AD를 사용 하는 경우에는 루시가 회사를 떠날 때마다 다른 테 넌 트에서 해당 자격 증명이 자동으로 작동 하지 않습니다.
 
-## <a name="licensing"></a>라이선싱
+## <a name="licensing"></a>라이선스
 
 Contoso는 공급자 및 파트너 조직의 게스트 사용자에 게 Power BI 콘텐츠에 대 한 액세스를 허가 하는 세 가지 방법 중 하나를 선택할 수 있습니다.
 
@@ -409,7 +409,7 @@ Azure AD에서이를 해결 하면 Contoso는 추가할 준비가 된 창에 표
 
 이제이 사용자가 공유 된 앱을 열면 유럽의 데이터가 포함 된 보고서만 표시 됩니다.
 
-![콘텐츠 보기](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_33.png)
+![뷰 콘텐츠](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_33.png)
 
 ### <a name="dynamic-row-level-security"></a>동적 행 수준 보안
 
