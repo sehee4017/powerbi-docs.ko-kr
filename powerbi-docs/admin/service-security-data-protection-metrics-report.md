@@ -4,17 +4,17 @@ description: 데이터 보호 메트릭 보고서에 대한 자세한 정보
 author: paulinbar
 manager: rkarlin
 ms.service: powerbi
-ms.subservice: powerbi-service
-ms.topic: conceptual
-ms.date: 05/23/2020
+ms.subservice: powerbi-eim
+ms.topic: how-to
+ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: fdc246d1edb487ce7280ceee8a3727d2faeb0252
-ms.sourcegitcommit: 12f26ae9a2615cb287fee9046b0dc713af764c04
+ms.openlocfilehash: 759957b6412f4835aaf170fcebb7fd2beac4e234
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2020
-ms.locfileid: "84229047"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85227176"
 ---
 # <a name="data-protection-metrics-report"></a>데이터 보호 메트릭 보고서
 

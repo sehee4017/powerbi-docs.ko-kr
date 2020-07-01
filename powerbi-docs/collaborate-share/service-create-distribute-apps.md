@@ -4,16 +4,16 @@ description: 기본 제공 탐색 기능이 있는 대시보드 및 보고서 �
 author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a26a93851d3914527bbb61275d763f95f21d7603
-ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
+ms.openlocfilehash: d12e64b98e2282e4446565ebd17a6222ba6276d2
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84336823"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85226667"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Power BI에 앱 게시
 
