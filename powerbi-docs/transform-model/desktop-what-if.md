@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/21/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8a72bc43bcceae6e676728934ceec81c8cb27d04
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 649e9198e5fe88d19f001a2e601e24535132d90e
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83331029"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239231"
 ---
 # <a name="create-and-use-what-if-parameters-to-visualize-variables-in-power-bi-desktop"></a>What if 매개 변수를 만들고 이러한 매개 변수를 사용하여 Power BI Desktop에서 변수 시각화
 

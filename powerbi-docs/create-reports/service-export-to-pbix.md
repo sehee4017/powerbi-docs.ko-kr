@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/01/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 2ccf0d7566cb1ffd2b3b12295c0667885bf30ef0
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: b8fddd6b88effac3375840dd6034ca93cec52f12
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349589"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238314"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Power BI 서비스에서 Power BI Desktop으로 보고서 다운로드(미리 보기)
 Power BI Desktop에서 로컬 컴퓨터의 보고서( *.pbix* 파일)를 Power BI 서비스에 게시할 수 있습니다. Power BI 보고서는 다른 방향으로도 이동할 수 있습니다. Power BI 서비스에서 Power BI Desktop으로 보고서를 다운로드할 수 있습니다. 두 경우 모두, Power BI 보고서의 확장명은 .pbix입니다.

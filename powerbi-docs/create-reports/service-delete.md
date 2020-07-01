@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a48d83223ab02d2f9f043dde2facebd6ad73c27a
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: f74b90b944f40b5d5ff046f60bd67ca4c3c7eb83
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565675"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238416"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Power BI 서비스에서 거의 모든 요소 삭제
 이 문서에서는 Power BI 서비스에서 대시보드, 보고서, 통합 문서, 데이터 세트, 앱, 시각화 및 작업 영역을 삭제하는 방법을 안내합니다.

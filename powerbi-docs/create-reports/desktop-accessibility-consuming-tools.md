@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c006d35baa14e68cca7009aabf79438321396802
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 0d388127ab42c4f60d1e08efea6b3fdbbbf7045b
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83303107"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238819"
 ---
 # <a name="consume-power-bi-reports-by-using-accessibility-features"></a>접근성 기능을 사용하여 Power BI 보고서 사용
 Power BI에는 장애가 있는 사람이 Power BI 보고서를 보다 쉽게 사용하고 조작할 수 있게 해주는 여러 기본 제공 기능이 있습니다. 이러한 도구를 통해 사용자는 보조 기술을 사용하지 않는 사람과 동일한 정보를 보고서에서 얻을 수 있습니다.

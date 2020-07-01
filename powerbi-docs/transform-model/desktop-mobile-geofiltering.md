@@ -4,16 +4,16 @@ description: Power BI Desktop의 모델에서 지리적 필터링을 설정하�
 author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
-ms.openlocfilehash: 27c59fb550b608a7ae33cfcef1849f480d599b93
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 361a5c6537c3ae1a149b67851b01776c880bf257
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83324359"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237127"
 ---
 # <a name="set-geographic-filters-in-power-bi-desktop-for-use-in-the-mobile-app"></a>Power BI Desktop에서 모바일 앱에 사용할 지리적 필터 설정
 Power BI Desktop에서는 열의 [지리 데이터 범주](desktop-data-categorization.md)를 지정하여 보고서의 시각적 개체에서 해당 값을 처리하는 방식을 Power BI Desktop에 알려줄 수 있습니다. 추가적인 이점으로 사용자 또는 동료가 Power BI 모바일 앱에서 해당 보고서를 볼 때 Power BI에서 사용자가 있는 위치와 일치하는 지리적 필터를 자동으로 제공합니다. 

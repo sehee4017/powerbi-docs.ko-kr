@@ -5,16 +5,16 @@ author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 61a008ee238e3e4e774ce251bc7439149ff4ca09
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 0e02b75bf7924e84f31265c22420e20ec0b17df3
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83308834"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237607"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>온-프레미스 및 클라우드 데이터 원본 병합 또는 추가
 

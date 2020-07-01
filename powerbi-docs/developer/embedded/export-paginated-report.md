@@ -3,16 +3,16 @@ title: Power BI 보고서 API 내보내기
 description: 포함된 Power BI 페이지를 매긴 보고서를 내보내는 방법을 알아봅니다.
 author: KesemSharabi
 ms.author: kesharab
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 04/05/2020
-ms.openlocfilehash: acb13a70ea4693f447b70aa59da07cd91639de25
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ed3193e586dc05fe92d9c429584080ac80d86a17
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81268768"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237167"
 ---
 # <a name="export-paginated-report-to-file-preview"></a>페이지를 매긴 보고서를 파일로 내보내기(미리 보기)
 

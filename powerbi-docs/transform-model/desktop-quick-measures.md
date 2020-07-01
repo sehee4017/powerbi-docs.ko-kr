@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 11/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4e5ea5e5fcbffb5c61434ecc26a90d80d1cd1736
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2bb48ad44c1f1d440fb5741fc55cc4a83f315dc8
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83306235"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237158"
 ---
 # <a name="use-quick-measures-for-common-calculations"></a>일반적인 계산에 빠른 측정 사용
 *‘빠른 측정’* 을 사용하여 일반적이고 강력한 계산을 쉽고 빠르게 수행할 수 있습니다. 빠른 측정은 백그라운드에서 DAX(Data Analysis Expressions) 명령 집합을 실행한 후 결과를 표시하여 보고서에서 사용할 수 있습니다. DAX를 작성할 필요가 없으며, 대화 상자에서 제공하는 입력에 따라 자동으로 작성됩니다. 사용 가능한 수많은 계산 범주와 사용자 요구에 맞게 각 계산을 수정할 방법이 있습니다. 무엇보다도 빠른 측정에서 실행되는 DAX를 확인하고 바로 시작하거나 고유한 DAX 지식을 확장할 수 있습니다.

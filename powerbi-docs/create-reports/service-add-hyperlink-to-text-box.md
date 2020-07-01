@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2de2cd80dbffc8c65a4577fffd6a8e41bc6116d2
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2960bb75e408011cbdf6b05117ac7f6073517f9b
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83315941"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238136"
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>보고서에서 텍스트 상자에 하이퍼링크 추가
 Power BI Desktop 또는 Power BI 서비스에서 보고서에 텍스트 상자를 추가할 수 있습니다. 보고서의 텍스트 상자를 대시보드에 고정하거나 대시보드에 직접 추가할 수 있습니다. 텍스트 상자가 있는 곳이라면 언제든지 하이퍼링크를 추가할 수 있습니다. 이 문서에서는 보고서의 텍스트 상자에 하이퍼링크를 추가하는 방법을 보여 줍니다. 

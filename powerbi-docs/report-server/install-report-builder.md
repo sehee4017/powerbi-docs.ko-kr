@@ -6,22 +6,22 @@ ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/07/2020
-ms.openlocfilehash: a18e0a094c5bc42f7a77a045ac7b552e458e5628
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0c71a2e6c7c21dc7dc447de804e7f771cebb5369
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78919838"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239294"
 ---
 # <a name="install-report-builder---power-bi-report-server"></a>보고서 작성기 설치 - Power BI Report Server
 
 보고서 작성기는 사용자 또는 관리자가 해당 컴퓨터에 설치하는 독립 실행형 앱입니다. Microsoft 다운로드 센터 또는 Power BI Report Server에서 설치할 수 있습니다.  
 
-Power BI 서비스용 Report Builder를 설치하는 데 도움이 필요한가요? [Power BI 보고서 작성기](../paginated-reports/report-builder-power-bi.md)를 참조하세요.
+Power BI 서비스용 보고서 작성기를 설치하는 데 도움이 필요한가요? [Power BI 보고서 작성기](../paginated-reports/report-builder-power-bi.md)를 참조하세요.
   
-일반적으로 관리자는 Power BI Report Server를 설치 및 구성하고, 웹 포털에서 Report Builder를 다운로드할 권한을 부여하며 보고서 서버에 저장된 보고서 및 공유 데이터 세트에 대한 폴더와 사용 권한을 관리합니다. Power BI Report Server 관리에 대한 자세한 내용은 [관리 개요, Power BI Report Server](admin-handbook-overview.md)를 참조하세요.  
+일반적으로 관리자는 Power BI Report Server를 설치 및 구성하고, 웹 포털에서 보고서 작성기를 다운로드할 권한을 부여하며 보고서 서버에 저장된 보고서 및 공유 데이터 세트에 대한 폴더와 사용 권한을 관리합니다. Power BI Report Server 관리에 대한 자세한 내용은 [관리 개요, Power BI Report Server](admin-handbook-overview.md)를 참조하세요.  
   
 ## <a name="system-requirements"></a>시스템 요구 사항
   
@@ -31,7 +31,7 @@ Power BI 서비스용 Report Builder를 설치하는 데 도움이 필요한가�
   
 Power BI Report Server 웹 포털에서 보고서 작성기를 설치할 수 있습니다. SSRS 서버에 보고서를 만들기 위해 보고서 작성기를 이미 설치했을 수 있습니다. Power BI Report Server에 보고서를 만들기 위해 동일한 버전 이상의 보고서 작성기를 사용할 수 있습니다. 설치하지 않은 경우 프로세스가 쉽습니다.
 
-1. Power BI Report Server 웹 포털에서 **새로 만들기** > **페이지가 매겨진 보고서**를 선택합니다.
+1. Power BI Report Server 웹 포털에서 **새로 만들기** > **페이지를 매긴 보고서**를 선택합니다.
    
     ![새 페이지가 매겨진 보고서 메뉴](media/quickstart-create-paginated-report/reportserver-new-paginated-report-menu.png)
    

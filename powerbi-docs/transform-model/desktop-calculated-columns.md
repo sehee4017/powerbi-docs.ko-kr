@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 425bf50ad6eb4da9b50f7d9cdc760ef71cb7bff2
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 90a8cf81c2dd0dae3a31a15197785e64432f1a01
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83339010"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237911"
 ---
 # <a name="create-calculated-columns-in-power-bi-desktop"></a>Power BI Desktop에서 계산 열 만들기
 계산된 열을 사용하면 이미 모델에 있는 표에 새 데이터를 추가할 수 있습니다. 그러나 값을 쿼리하고 데이터 소스에서 새 열로 로드하는 대신 열 값을 정의하는 DAX(Data Analysis Expressions) 수식을 만듭니다. Power BI Desktop에서 **보고서** 보기의 새 열 기능을 사용하여 계산된 열이 생성됩니다.

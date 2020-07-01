@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 08/22/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: e2793fe56df462fd5f1bd1c266b75ad14fd9b375
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 57331a49d5020308ebc39fbcb42a1728e6167593
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83311387"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236991"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Power BI 서비스에서 대시보드 테마 사용
 **대시보드 테마**를 사용하여 전체 대시보드에 회사 색, 계절 색 지정 또는 적용하려는 기타 색 테마 등의 색 테마를 적용할 수 있습니다. **대시보드 테마**를 적용하는 경우 대시보드의 모든 시각적 개체에서는 선택한 테마를 사용합니다(몇 가지 예외 적용, 이 아티클의 뒷부분에서 설명).
@@ -80,7 +80,7 @@ JSON 파일로 사용자 지정 테마를 저장한 다음, 다른 대시보드 
 
 * 보고서가 대시보드 테마의 다양한 테마를 사용하는 경우 시각적 개체가 현재 테마를 유지할지 또는 다양한 원본의 시각적 개체 간에 일관성을 위해 대시보드 테마를 사용할지 여부를 제어할 수 있습니다. 타일을 대시보드에 고정하는 경우 보고서 테마를 유지하려면 **현재 테마 유지**를 선택합니다. 대시보드의 시각적 개체는 투명도 설정을 포함하여 보고서 테마를 유지합니다. 
 
-    Power BI Desktop에서 보고서를 만들고, **보고서 테마를 추가**한 다음, Power BI 서비스에 보고서를 게시한 경우에만 [타일 테마 지정](desktop-report-themes.md) 옵션이 표시됩니다. 
+    Power BI Desktop에서 보고서를 만들고, [보고서 테마를 추가](desktop-report-themes.md)한 다음, Power BI 서비스에 보고서를 게시한 경우에만 **타일 테마 지정** 옵션이 표시됩니다. 
 
     ![현재 테마 계속 선택](media/service-dashboard-themes/power-bi-keep-current.png)
 

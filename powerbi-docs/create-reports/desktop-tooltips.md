@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 34aef4d99a56e2d98e83717392f63ee5c5b72f7c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 78aac3b12abc0e055094078c59f39911a026e797
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83333605"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238498"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Power BI Desktop의 보고서 페이지에 기반한 도구 설명 만들기
 **Power BI Desktop**에서 만든 보고서 페이지에 기반을 둔 시각적 개체를 가리키면 나타나는 **보고서 도구 설명**을 시각적으로 풍부하게 만들 수 있습니다. 도구 설명으로 사용되는 보고서 페이지를 만들면 사용자 지정 도구 설명에 시각적 개체, 이미지 및 기타 보고서 페이지에서 만든 항목 컬렉션을 포함할 수 있습니다. 

@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 22dc752a07c1633e0c42ceb25a8fcbf2a6314f4d
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3f23f18002ce12c3b6706469f36bde077e117941
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83338872"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237871"
 ---
 # <a name="create-calculated-tables-in-power-bi-desktop"></a>Power BI Desktop에서 계산된 테이블 만들기
 대부분의 경우, 테이블은 외부 데이터 원본에서 모델로 데이터를 가져와서 만듭니다. 반면에 *계산된 테이블*을 사용하면 모델로 이미 로드한 데이터를 기반으로 새 테이블을 추가할 수 있습니다. 값을 쿼리하고 데이터 원본에서 새 테이블의 열로 로드하는 대신 [DAX(Data Analysis Expressions)](/dax/index) 수식을 만들어서 테이블 값을 정의합니다.

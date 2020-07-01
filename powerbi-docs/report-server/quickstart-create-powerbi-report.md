@@ -5,15 +5,15 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/03/2020
 ms.author: maggies
-ms.openlocfilehash: efc316e93bea9cfc1b3f429657ac2810e13f4e63
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 8e907b87c26dd7f2e764705a1178efc5df432a3e
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349474"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239008"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Power BI Report Server용 Power BI 보고서 만들기
 Power BI 서비스 (https://powerbi.com) 에서 클라우드에 Power BI 보고서를 저장할 수 있는 것과 마찬가지로 Power BI Report Server 웹 포털에서 Power BI 보고서 온-프레미스를 저장하고 관리할 수 있습니다. Power BI Desktop에서 보고서를 만들고 편집하고 웹 포털에 게시합니다. 그런 다음 조직의 보고서 사용자는 모바일 디바이스의 브라우저 또는 Power BI 모바일 앱에서 해당 보고서를 볼 수 있습니다.

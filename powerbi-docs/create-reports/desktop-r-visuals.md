@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 11/04/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: ad4b7286f2c87e9dfe8df92b8b2c34864384f010
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 65291c81ab1952599079ff93ed4ed19694657132
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83328867"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239071"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>R을 사용하여 Power BI 시각적 개체 만들기
 Power BI Desktop에서 *R*을 사용하여 데이터를 시각화할 수 있습니다. [R](https://mran.revolutionanalytics.com/documents/what-is-r)은 통계 컴퓨팅 및 그래픽을 위한 언어이자 환경입니다.

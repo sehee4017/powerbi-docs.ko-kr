@@ -6,15 +6,15 @@ author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: a68644c63d3d5eaeb54a71683629af01817d62a7
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 85e295b2320f8aecca2176149ce37c0a25ad2bd2
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114608"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237459"
 ---
 # <a name="fixing-corporate-ssl-certificate-is-untrusted---power-bi"></a>“회사 SSL 인증서를 신뢰할 수 없습니다.” 수정 - Power BI
 Microsoft Power BI용 Android 모바일 앱에 로그인할 때 "이 디바이스에서 회사 SSL 인증서를 신뢰할 수 없기 때문에 인증할 수 없습니다."라는 메시지가 표시될 수 있습니다. 회사 IT 관리자에게 문의하세요." 

@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/07/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: abbe6192819daa6b5d0197d9471a8eab84596262
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 193463978e3c4d80980a15e154dbeef05aa1a2a0
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349658"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238911"
 ---
 # <a name="connect-to-data-created-by-power-platform-dataflows-in-power-bi-desktop"></a>Power BI Desktop에서 Power Platform 데이터 흐름을 통해 만든 데이터에 연결
 **Power BI Desktop**에서 Power BI Desktop의 다른 데이터 원본처럼 **Power Platform 데이터 흐름**에서 만든 데이터에 연결할 수 있습니다.

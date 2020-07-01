@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/01/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 417d5a03ed45897896db15f2fd31d3badae837c5
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: 91b19fd5e357f4ab020b72b259ab5053c36af8f7
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84273463"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238426"
 ---
 # <a name="publish-datasets-and-reports-from-power-bi-desktop"></a>Power BI Desktop에서 데이터 세트 및 보고서 게시
 Power BI Desktop 파일을 Power BI 서비스에 게시하면 모델의 데이터가 Power BI 작업 영역에 게시됩니다. **보고서** 보기에서 만든 모든 보고서의 경우에도 마찬가지입니다. 작업 영역 탐색기에서 동일한 이름의 새 데이터 세트와 모든 보고서를 볼 수 있습니다.
