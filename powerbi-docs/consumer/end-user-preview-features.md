@@ -1,4 +1,4 @@
-﻿---
+---
 title: 미리 보기 기능에 옵트인
 description: 미리 보기에 있는 Power BI 기능을 설정/해제하는 방법
 author: mihart
@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 1ce2445e0b2d92551a5554f32dc3b9e2a751e7b6
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 88172ea1c27c1a547d57311f261450ee63fcd12e
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79113538"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236337"
 ---
 # <a name="opt-in-for-power-bi-service-preview-features"></a>Power BI 서비스 미리 보기 기능에 옵트인
 

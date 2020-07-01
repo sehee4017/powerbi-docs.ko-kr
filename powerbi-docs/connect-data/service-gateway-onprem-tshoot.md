@@ -6,15 +6,15 @@ ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
-ms.topic: troubleshooting
+ms.topic: how-to
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 698765cd71873de3badfce45ef546ed61220b323
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 0fd6e2d9a05c07ae5ed74a4f3f35af5267a68a87
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565326"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236197"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>게이트웨이 문제 해결 - Power BI
 
@@ -54,7 +54,7 @@ ms.locfileid: "83565326"
 
 자세한 정보는 **이벤트 로그** > **애플리케이션 및 서비스 로그** > **온-프레미스 데이터 게이트웨이 서비스**도 확인할 수 있습니다.
 
-### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>오류: \<server\>에 연결하는 중 오류가 발생했습니다. 세부 정보: “데이터 게이트웨이에 연결했지만 해당 게이트웨이에서 온-프레미스 데이터 원본에 액세스할 수 없습니다.”
+### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>오류: \<server\>에 연결하려는 동안 오류가 발생했습니다. 세부 정보: “데이터 게이트웨이에 연결했지만 해당 게이트웨이에서 온-프레미스 데이터 원본에 액세스할 수 없습니다.”
 
 지정된 데이터 원본에 연결할 수 없습니다. 해당 데이터 원본에 제공된 정보의 유효성을 검사해야 합니다.
 

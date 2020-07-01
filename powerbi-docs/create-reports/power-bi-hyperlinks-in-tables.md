@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/13/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6b98e99191363c6a33aa4ee99adff2ab72f48641
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 55b08d608e30b8a1f4b06319f1de835a12f7ca77
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344828"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85234828"
 ---
 # <a name="add-hyperlinks-urls-to-a-table-or-matrix"></a>테이블 또는 행렬에 하이퍼링크(URL) 추가
 이 토픽에서는 테이블에 하이퍼링크(URL)를 추가하는 방법을 배웁니다. Power BI Desktop을 사용하여 데이터 세트에 하이퍼링크(URL)를 추가합니다. Power BI Desktop 또는 Power BI 서비스에서 보고서 테이블 및 행렬에 하이퍼링크를 추가할 수 있습니다. 그런 다음 URL 또는 링크 아이콘을 표시하거나 다른 열을 링크 텍스트로 서식 지정할 수 있습니다.
@@ -92,7 +92,7 @@ Power BI Desktop에서는 URL이 포함된 필드를 하이퍼링크로 서식 �
     ![웹 URL 조건부 서식 지정](media/power-bi-hyperlinks-in-tables/power-bi-format-conditional-web-url.png)
 
     > [!NOTE]
-    > **웹 URL** 옵션이 표시되지 않으면 하이퍼링크를 포함하는 열이 **데이터 범주** 드롭다운 상자에서 **웹 URL**로 형식이 지정되지 ‘않습니다’. 
+    > **웹 URL** 옵션이 표시되지 않으면 하이퍼링크를 포함하는 열이 **데이터 범주** 드롭다운 상자에서 **웹 URL**로 형식이 지정되지 ‘않습니다’.
 
 5. **웹 URL** 대화 상자에서 **필드 기준** 상자의 URL이 포함된 필드를 선택하고 **확인**을 선택합니다.
 

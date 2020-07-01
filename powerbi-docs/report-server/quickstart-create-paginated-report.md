@@ -1,19 +1,19 @@
-﻿---
+---
 title: Power BI Report Server에 페이지를 매긴 보고서 만들기
 description: 몇 가지 간단한 단계를 거쳐 Power BI Report Server에 페이지를 매긴 보고서를 만드는 방법을 알아봅니다.
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/07/2020
 ms.author: maggies
-ms.openlocfilehash: 33c4f7b208916c2d920591acfc444f52c7655e47
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d8e36a9eba34b2c27c9ce6f86edfafa568bccf90
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78919538"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236313"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Power BI Report Server에 페이지를 매긴 보고서 만들기
 이 문서에서는 몇 가지 간단한 단계를 거쳐 Power BI Report Server에 페이지를 매긴 보고서를 만듭니다.

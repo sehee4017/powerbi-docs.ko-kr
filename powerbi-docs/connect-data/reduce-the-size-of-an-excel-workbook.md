@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8c58c85ea46f9884586e1ff73f1ef9f7b1db9cdd
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 7755834f5d76392f7212073f958d3c4070dcaca7
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83327234"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85234776"
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>Power BI에서 보기 위해 Excel 통합 문서 크기 줄이기
 1GB 미만의 Excel 통합 문서를 Power BI에 업로드할 수 있습니다. Excel 통합 문서에는 두 부분이 있습니다. 데이터 모델과, 보고서의 나머지 부분(핵심 워크시트 컨텐츠)입니다. 보고서가 다음 크기 제한에 적합한 경우, **비즈니스용 OneDrive**에 저장하고 Power BI에 연결하여 Excel Online에서 볼 수 있습니다.

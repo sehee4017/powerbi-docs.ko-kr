@@ -4,16 +4,16 @@ description: '비즈니스 운영에 사용하는 다양한 서비스(예: Sales
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7465d2f94fcddd37e20b1c1e5a2679810d1a135c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: fa4c8102eeb41fb754604eb646c11f44891413c9
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83325164"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236248"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Power BI로 사용하는 서비스에 연결
 Power BI를 통해 비즈니스 운영에 사용하는 다양한 서비스(예: Salesforce, Microsoft Dynamics, Google 애널리틱스)에 연결할 수 있습니다. Power BI는 자격 증명을 사용하여 서비스에 연결하면 시작됩니다. 자동으로 데이터를 표시하고 비즈니스에 대한 시각적 인사이트를 제공하는 대시보드를 포함한 Power BI *작업 영역* 및 Power BI 보고서 집합을 만듭니다.

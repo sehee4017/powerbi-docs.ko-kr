@@ -6,15 +6,15 @@ ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: bdf01eadc656467e50d17f04150c278da4603ef1
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: dea1198519f59a81c49e2f7a95a903c37bd4fb11
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83299818"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236609"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이에서 사용자 지정 데이터 커넥터 사용
 

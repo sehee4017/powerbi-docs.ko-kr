@@ -4,16 +4,16 @@ description: Power BI 질문 및 답변을 사용하여 대시보드 및 보고�
 author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: b98d3b154d779a9b9ae04dfa00a6033d59c45c9c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4269ccb5f86a364d2bf4abf89e3184096a368ff3
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83309593"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85234707"
 ---
 # <a name="use-power-bi-qa-to-explore-your-data-and-create-visuals"></a>Power BI 질문 및 답변을 사용하여 데이터 탐색 및 시각적 개체 만들기
 

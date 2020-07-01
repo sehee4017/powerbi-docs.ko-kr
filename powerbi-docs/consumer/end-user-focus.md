@@ -1,4 +1,4 @@
-﻿---
+---
 title: 포커스 모드와 전체 화면 모드 - 확대하여 더 자세히 보는 방법
 description: 포커스 모드 또는 전체 화면 모드에서 Power BI 대시보드, 대시보드 타일, 보고서 또는 보고서 시각적 개체를 표시하는 방법에 대한 설명서
 author: mihart
@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: dtdLul6otYE
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/09/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 0e7d46711502b75c9d0fedb8b1a0792a11f102bd
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e399eb8229cc02d0c8abf589849c2d43577dafb7
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79040204"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85235277"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>콘텐츠를 더 자세히 표시: 포커스 모드 및 전체 화면 모드
 
@@ -138,7 +138,7 @@ Power BI Mobile을 사용하는 경우 [Windows 10 모바일 앱에서 전체 �
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
 
-* 보고서의 시각적 개체에서 포커스 모드를 사용할 때는 모든 필터(시각적 개체 수준, 페이지 수준, 드릴스루 및 보고서 수준)을 보고 조작할 수 있습니다.    
+* 보고서의 시각적 개체에서 포커스 모드를 사용할 때는 모든 필터(시각적 수준, 페이지 수준, 드릴스루 및 보고서 수준)을 보고 조작할 수 있습니다.    
 * 대시보드에서 포커스 모드를 시각적 개체와 함께 사용할 때에는 시각적 개체 수준 필터만 보고 조작할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계

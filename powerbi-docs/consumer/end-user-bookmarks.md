@@ -4,16 +4,16 @@ description: Power BI 서비스의 책갈피에 대한 설명서 개요 항목�
 author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7b8945dc229d2aaf6227e18bb8f444c03bf200f2
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 08b3c1287d8435c06735c5756e5f95275b2757a6
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279805"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85235593"
 ---
 # <a name="what-are-bookmarks"></a>책갈피란?
 

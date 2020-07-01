@@ -6,16 +6,16 @@ ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 09/12/2019
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: d18d3a5b5d85a121f67c5b3109a150a21ab72d1a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 765e21aae6c68741ecba41ef24b691deeb2a403f
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83327188"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85235299"
 ---
 # <a name="refresh-a-dataset-created-from-a-csv-file-on-onedrive-or-sharepoint-online"></a>OneDrive 또는 SharePoint Online에 있는 .CSV 파일에서 만든 데이터 세트 새로 고침
 ## <a name="what-are-the-advantages"></a>장점은 무엇인가요?
