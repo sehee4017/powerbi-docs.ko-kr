@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: f63a56ea350d089b82eb7a18470e1bcc439d1151
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 5d50f6dc1f1671ae8eb6695d9d39443367dfc20e
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866521"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85233468"
 ---
 # <a name="creating-a-relative-date-slicer-and-filter-in-power-bi"></a>Power BI에서 상대 날짜 슬라이서 및 필터 만들기
 
@@ -32,7 +32,7 @@ Power BI 동료와 보고서를 공유하려면 개별 Power BI Pro 라이선스
 
 ![슬라이서 시각적 개체 아이콘과 필드을 가리키는 화살표가 있는 시각화 창의 스크린샷.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-02.png)
 
-캔버스에서 슬라이서를 선택한 다음, 슬라이서 시각적 개체의 오른쪽 위 모서리에 있는 캐럿을 선택합니다. 시각적 개체에 날짜 데이터가 있는 경우 메뉴에 **상대** 옵션이 표시됩니다.
+캔버스에서 슬라이서를 선택한 다음, 슬라이서 시각적 개체의 오른쪽 위 모서리에 있는 캐럿을 선택합니다. 시각적 개체에 날짜 데이터가 있는 경우 메뉴에 **상대**에 대한 옵션이 표시됩니다.
 
 ![캐럿 주위에 호출과 Relative를 가리키는 화살표가 있는 슬라이서 시각적 개체의 스크린샷.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-03.png)
 
@@ -72,7 +72,7 @@ Power BI 동료와 보고서를 공유하려면 개별 Power BI Pro 라이선스
 
 * 년(달력)
 
-해당 목록에서 **개월**을 선택하고 가운데 설정에 *2*를 입력하면 다음과 같이 됩니다.
+해당 목록에서 **월**을 선택하고 가운데 설정에 *2*를 입력하면 다음과 같이 됩니다.
 
 * 오늘이 7월 20일인 경우
 

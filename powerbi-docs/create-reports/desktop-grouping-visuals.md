@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 25a0f5abe07b82c2397ab2800802eba6f624a27c
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 067a9cfc63b36f97716d61580f2e191756dbf0e6
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84119928"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85233869"
 ---
 # <a name="group-visuals-in-power-bi-desktop-reports"></a>Power BI Desktop 보고서에서 시각적 개체 그룹화
 **Power BI Desktop**에서 **그룹화**를 사용하면, PowerPoint에서 항목을 그룹화하는 것처럼 단추, 텍스트 상자, 도형 이미지 및 만든 시각적 개체와 같은 보고서의 시각적 개체를 그룹화할 수 있습니다. 보고서의 시각적 개체를 그룹화함으로써 그룹을 단일 개체처럼 처리하여 보다 쉽고 빠르며 직관적인 방식으로 보고서의 계층을 이동, 크기 조정 및 사용할 수 있습니다.

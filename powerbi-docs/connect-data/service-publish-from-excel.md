@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9bbd5cbafa7f6c17fd9b9a02b93a27cc5859ee4a
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: 81ba595be7262c81cdb68f2a1ed052c45663d7a7
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272773"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85234370"
 ---
 # <a name="publish-to-power-bi-from-microsoft-excel"></a>Microsoft Excel에서 Power BI에 게시
 Microsoft Excel 2016 이상에서는 [Power BI](https://powerbi.microsoft.com) 작업 영역에 직접 Excel 통합 문서를 게시할 수 있습니다. 그러면 통합 문서의 데이터를 기반으로 대화형 보고서 및 대시보드를 만들 수 있습니다. 그러면 조직에서 다른 사용자와 정보를 공유할 수 있습니다.

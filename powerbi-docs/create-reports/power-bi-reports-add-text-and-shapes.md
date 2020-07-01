@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: _3q6VEBhGew
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1c9ba158ecce1e520bdd90f34892b9ee1d0f9d24
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 6388c82095b162be5c1164efa8b07812e6515e50
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344322"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85233564"
 ---
 # <a name="add-text-boxes-and-shapes-to-power-bi-reports"></a>Power BI 보고서에 텍스트 상자 및 셰이프 추가
 Power BI 서비스 및 Power BI Desktop을 사용하여 보고서에 텍스트 상자 및 셰이프를 추가할 수 있습니다. 두 경우 모두 보고서에 대한 편집 권한이 있어야 합니다. Power BI 서비스에서 보고서가 사용자와 공유된 경우에는 편집 권한이 없습니다. 
