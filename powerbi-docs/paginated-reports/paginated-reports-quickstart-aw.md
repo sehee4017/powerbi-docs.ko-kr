@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 81e293f4dbf15a21c2546a54f140b163ebc93c05
-ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
+ms.openlocfilehash: 5243f80fea732e01fee600d738ae6e6cde56e261
+ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "83565652"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "84427714"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>자습서:  페이지를 매긴 보고서를 만들어 Power BI 서비스에 업로드
 
@@ -36,7 +36,7 @@ Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.
 
 페이지를 매긴 보고서를 만드는 데 필요한 필수 조건은 다음과 같습니다.
 
-- [Power BI 보고서 작성기는 Microsoft 다운로드 센터에서](https://go.microsoft.com/fwlink/?linkid=2086513) 설치합니다. 
+- [Power BI 보고서 작성기는 Microsoft 다운로드 센터에서](https://aka.ms/pbireportbuilder) 설치합니다. 
 
 - 빠른 시작 [Azure Portal에서 Azure SQL Database 샘플 만들기](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal)를 따릅니다. **개요** 탭에 있는 **서버 이름** 상자의 값을 복사하여 저장합니다. Azure에서 만든 사용자 이름과 암호를 기억하세요.
 

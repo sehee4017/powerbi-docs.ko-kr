@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/18/2020
+ms.date: 06/16/2020
 ms.author: kfollis
-ms.openlocfilehash: 1a90a9826d794f84933a75213043c31a9a67a4b5
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 872c847f25c15b46338127dd4a5a15cc536e5ee2
+ms.sourcegitcommit: 3e7e3cb2c2e398cffe8733d99e3ac832ee056dc9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83566043"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "84973410"
 ---
 # <a name="power-bi-webinars"></a>Power BI 웹 세미나
 [//]: # "Tatevik Tatero는 Chauncy Freels와 협력하고 이 웹 세미나 목록을 유지하는 데 도움을 주는 공급업체입니다."
@@ -22,12 +22,7 @@ ms.locfileid: "83566043"
 
 ## <a name="upcoming-webinars"></a>예정된 웹 세미나
 
-**분석과 BI의 차이는 무엇인가요?**
-<br>작성자: Microsoft의 Nate Findley 및 Charles Feddersen
-<br>[2020년 6월 3일 오전 10:00~오전 11:00 PDT(태평양 일광 절약 시간)에 시청 등록]( https://info.microsoft.com/ww-landing-What-is-the-difference-between-analytics-and-business-intelligence.html?lcid=en-u)
-
-
->[Power BI 커뮤니티의 예정된 웹 세미나](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
+[Power BI 커뮤니티의 예정된 웹 세미나](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>주요 웹 세미나
 

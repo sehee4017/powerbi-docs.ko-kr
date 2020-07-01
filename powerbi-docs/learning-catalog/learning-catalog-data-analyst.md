@@ -1,17 +1,17 @@
 ---
 title: 데이터 분석가 학습 카탈로그
 description: Power BI와 관련된 모든 학습 옵션 찾기
-author: loreleishannonmsft
+author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: v-lshann
-ms.openlocfilehash: 97ecff0abf13ff72d7794b06085be077efbe9027
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.author: margoc
+ms.openlocfilehash: 4664966098089d564e82207eb7aac923bc626b77
+ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565767"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "84532192"
 ---
 # <a name="data-analyst-learning-catalog"></a>데이터 분석가 학습 카탈로그
 
@@ -55,6 +55,11 @@ Power BI를 사용하여 조직에서 데이터를 분석하고 조직에 대한
 | [Power BI 데이터 시각적 개체 만들기: 코어 차트 유형 및 이를 사용하는 방법](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-OnDemandRegistration.html)  | 차트 종류는 시각적 분석의 가장 기본적인 구성 요소 중 하나입니다. 차트를 적절하게 사용하면 올바른 패턴과 명확성을 만들고 사용자에게 적절한 답변을 제공할 수 있습니다.  | 웹 세미나 |             |
 | [새 Power BI 및 data.world 커넥터를 사용하여 퍼블릭 또는 프라이빗 데이터 세트 시각화](https://info.microsoft.com/data-world-connector-powerbi-ondemand.html)  | data.world와 협업하여 Microsoft는 data.world 데이터 세트를 Power BI Desktop으로 가져올 수 있는 새 데이터 커넥터를 출시했습니다. data.world와 함께 데이터 팬이 보다 편리하게 인사이트를 수집, 관리, 탐색, 시각화하고 다른 사용자와 공유하도록 지원할 수 있습니다.  | 웹 세미나 |             |
 | [Power BI 대시보드에서 실제 시각화를 사용하여 실행 가능한 인사이트 얻기](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/8-10-18-Webinar-Get-actionable-insights-using-real-world/td-p/480242) | Charles Sterling과 Shakun Grover가 Power BI 대시보드에서 실제 시각화를 사용하는 과정을 안내합니다.  Microsoft Visio는 데이터를 시각적으로 컨텍스트화하고 프로세스 흐름을 표시하기 위한 완벽한 캔버스를 제공합니다. 새로운 Power BI용 Visio 시각적 개체를 사용하면 Power BI 대시보드 내에서 Visio의 강력한 시각화 기능을 편리하게 활용하여 인사이트와 작업을 유도할 수 있습니다.                              | 웹 세미나 | 34분 19초 |
+## <a name="dax"></a>DAX<a name="dax"></a>
+| 콘텐츠 | 설명 | 서식  | 길이      |
+|--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|
+| [Phil Seamark가 설명하는 Power BI의 실용적인 DAX](https://www.youtube.com/watch?v=1fGfqzS37qs)  | Phil Seamark는 본인의 새 저서와 함께 제공하기 위해 Power BI의 실용적인 DAX를 위한 몇 가지 모범 사례를 설명합니다.   | YouTube 비디오 | 59분 41초 |
+| [Philip Seamark가 설명하는 독창적인 DAX 솔루션](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/10-2-18-Webinar-Creative-DAX-solutions-by-Philip-Seamark/td-p/516250) | DAX 언어가 단순히 열에서 SUM을 실행하거나 테이블의 행 개수를 계산하는 것보다 훨씬 강력한 언어라는 것을 알고 계십니까? DAX는 가장 빠른 데이터베이스 중 하나를 기반으로 합니다. 가능하다고 생각하지 못했을 몇 가지 특이하고 독창적인 시나리오를 Charles Sterling과 Philip Seamark가 소개합니다. | 웹 세미나       | 58분 12초 |
 ## <a name="governance-and-deployment"></a>거버넌스 및 배포<a name="governance-deployment"></a>
 | 콘텐츠  | 설명   | 서식  | 길이 |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|--------|

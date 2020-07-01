@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 04/29/2020
-ms.openlocfilehash: 0089a38c852d82acaebc8cab0f0fb653c6a304cb
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: f18f8b56db8635d407417949bc35adb61fb4a2c5
+ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565629"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "84427556"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI의 페이지를 매긴 보고서: FAQ 
 
@@ -96,7 +96,7 @@ Power BI 보고서는 탐색 및 대화형 작업에 최적화되어 있습니�
 
 ### <a name="what-versions-of-report-builder-do-you-support"></a>지원되는 보고서 작성기 버전은 무엇인가요?
 
-페이지를 매긴 보고서를 위한 Power BI 서비스의 기본 제작 도구로 Power BI 보고서 작성기를 출시했습니다. [Power BI 보고서 작성기는 Microsoft 다운로드 센터에서](https://go.microsoft.com/fwlink/?linkid=2086513) 설치할 수 있습니다.
+페이지를 매긴 보고서를 위한 Power BI 서비스의 기본 제작 도구로 Power BI 보고서 작성기를 출시했습니다. [Power BI 보고서 작성기는 Microsoft 다운로드 센터에서](https://aka.ms/pbireportbuilder) 설치할 수 있습니다.
 
 ### <a name="how-do-i-move-existing-reports-i-have-saved-in-sql-server-reporting-services-to-power-bi"></a>SQL Server Reporting Services에 저장한 기존 보고서를 Power BI로 이동하려면 어떻게 해야 하나요?
 
@@ -181,5 +181,5 @@ Microsoft Excel, Microsoft Word, Microsoft PowerPoint, PDF, .CSV, XML 및 MHTML�
 
 ## <a name="next-steps"></a>다음 단계
 
-- [Microsoft 다운로드 센터에서 Power BI 보고서 작성기 설치](https://go.microsoft.com/fwlink/?linkid=2086513)
+- [Microsoft 다운로드 센터에서 Power BI 보고서 작성기 설치](https://aka.ms/pbireportbuilder)
 - [자습서: 페이지를 매긴 보고서 만들기](paginated-reports-quickstart-aw.md)

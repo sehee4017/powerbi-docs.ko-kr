@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/15/2019
-ms.openlocfilehash: 6a481681801b580b9eec47c5c704d8bdea8835f1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d82f09fa4c545129bbd1032041dcfab6f4f67901
+ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75222106"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "84739348"
 ---
 # <a name="tutorial-developing-a-power-bi-visual"></a>자습서:  Power BI 시각적 개체 개발
 
@@ -645,7 +645,7 @@ PowerShell에서 실행 중인 사용자 지정 시각적 개체를 중지하려
 
 ## <a name="debugging"></a>디버깅
 
-사용자 지정 시각적 개체의 디버깅에 대한 팁은 [디버깅 가이드](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/how-to-debug/)를 을 참조하세요.
+사용자 지정 시각적 개체의 디버깅에 대한 팁은 [디버깅 가이드](./visuals-how-to-debug.md#how-to-debug-power-bi-visuals)를 을 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 

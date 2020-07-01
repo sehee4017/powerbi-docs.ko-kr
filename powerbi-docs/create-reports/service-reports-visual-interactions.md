@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: N_xYsCbyHPw
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/04/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: f50b7fb9cc63322ea488ab6f2adddfd29f763d14
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3646518cdf9575d73ccfc39a859b9c7211db8678
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83321047"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85218680"
 ---
 # <a name="change-how-visuals-interact-in-a-power-bi-report"></a>Power BI 보고서에서 시각적 개체가 조작되는 방식 변경
 보고서에 대한 편집 권한이 있는 경우 **시각적 상호 작용**을 사용하여 보고서 페이지의 시각화들이 서로 영향을 주는 방식을 변경할 수 있습니다. 
@@ -65,7 +65,7 @@ ms.locfileid: "83321047"
 
 선택한 시각화가
    
-   * 페이지의 다른 시각화 중 하나를 교차 필터링해야 하는 경우 시각화 **필터 아이콘**의 오른쪽 위 모서리에 있는 ![필터](media/service-reports-visual-interactions/power-bi-filter-icon.png) 아이콘을 선택합니다.
+   * 페이지의 다른 시각화 중 하나를 교차 필터링해야 하는 경우 시각화 ![필터 아이콘](media/service-reports-visual-interactions/power-bi-filter-icon.png)의 오른쪽 위 모서리에 있는 **필터** 아이콘을 선택합니다.
    * 페이지의 다른 시각화 중 하나를 교차 강조 표시해야 하는 경우 **강조 표시** 아이콘 ![강조 표시 아이콘](media/service-reports-visual-interactions/power-bi-highlight-icon.png)을 선택합니다.
    * 페이지의 다른 시각화에 영향을 주지 않는 경우 **영향 없음** 아이콘 ![영향 없음 아이콘](media/service-reports-visual-interactions/power-bi-no-impact.png)을 선택합니다.
 

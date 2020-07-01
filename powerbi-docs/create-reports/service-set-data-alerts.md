@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/02/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f14a9222021a38616b872679a2d8798c15b4c666
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: dab2e4b7bdc3da8278db6765e7233d98d7dba473
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83321254"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85218726"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Power BI 서비스의 데이터 경고
 
@@ -89,7 +89,7 @@ Amanda가 대시보드의 타일에 몇 가지 경고를 추가하는 과정을 
 
 ### <a name="from-the-dashboard-tile"></a>대시보드 타일에서
 
-1. 타일에 대한 경고를 변경하거나 제거하려면, 종 모양 아이콘 **경고 아이콘**을 선택하여 ![경고 관리](media/service-set-data-alerts/power-bi-bell-icon.png) 창을 다시 엽니다.
+1. 타일에 대한 경고를 변경하거나 제거하려면, 종 모양 아이콘 ![경고 아이콘](media/service-set-data-alerts/power-bi-bell-icon.png)을 선택하여 **경고 관리** 창을 다시 엽니다.
 
     Power BI에서 해당 타일에 대해 설정된 경고를 표시합니다.
 

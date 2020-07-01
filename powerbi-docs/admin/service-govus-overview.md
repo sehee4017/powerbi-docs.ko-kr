@@ -10,14 +10,15 @@ ms.date: 06/02/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 8be103d01b5f46c510a1e3658d5a5e29d566a5ff
-ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
+ms.openlocfilehash: 3d50b8678abd54d2a4543b5a2d187f32b491b063
+ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84336547"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "84427123"
 ---
 # <a name="power-bi-for-us-government-customers"></a>미국 정부 기관 고객용 Power BI
+
 이 문서는 Microsoft 365 정부 플랜의 일부로 Power BI를 배포하는 정부 기관 고객을 위한 것입니다. 정부 플랜은 미국 규정 준수 및 보안 표준을 충족해야 하는 조직의 고유한 요구 사항을 위해 설계되었습니다. 미국 정부 기관 고객을 위해 고안된 Power BI 서비스는 상용 Power BI 서비스 버전과 다릅니다. 이러한 기능 차이는 다음 섹션에 설명되어 있습니다.
 
 ## <a name="add-power-bi-to-your-microsoft-365-government-plan"></a>Microsoft 365 정부 플랜에 Power BI 추가
@@ -33,13 +34,14 @@ Power BI 미국 정부 기관 구독을 획득하고 사용자에게 라이선�
 >
 >
 ## <a name="government-cloud-instances"></a>정부 클라우드 인스턴스
+
 Microsoft 365는 다양한 규정 준수 요구 사항을 충족하기 위해 다양한 정부 기관용 환경을 제공합니다. 각 등록에 대한 자세한 내용은 다음을 참조하세요.
 
 * [Microsoft 365 GCC(정부 커뮤니티 클라우드)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc)는 연방, 주, 지방 정부를 위해 설계되었습니다.
 
 * [Microsoft 365 GCC High(정부 커뮤니티 클라우드 높음)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod)는 연방 기관, 방위 산업, 항공 우주 산업 및 제어되는 미분류 정보를 보유하는 기타 조직을 위해 설계되었습니다. 이 환경은 국가 안보 조직 및 ITAR(국제 무기 거래 규정) 데이터 또는 DFARS(국방 연방 획득 규칙 부록) 요구 사항이 있는 회사에 적합합니다.
 
-* [Microsoft 365 DoD 환경](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod)은 미국 국방부 전용으로 설계되었습니다. 
+* [Microsoft 365 DoD 환경](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod)은 미국 국방부 전용으로 설계되었습니다.
 
 ## <a name="connect-to-power-bi-for-us-government"></a>미국 정부 기관용 Power BI에 연결
 
@@ -68,7 +70,7 @@ Azure는 여러 클라우드에 분산되어 있습니다. 기본적으로 클�
 * USGov 텍사스
 * USGov 애리조나
 
-퍼블릭 클라우드에서는 IP 범위를 사용할 수 있습니다. 미국 정부 클라우드 IP 범위를 얻으려면 [Azure IP 범위 및 서비스 태그 - 미국 정부 클라우드](https://www.microsoft.com/download/details.aspx?id=57063) 파일을 다운로드합니다. 
+퍼블릭 클라우드에서는 IP 범위를 사용할 수 있습니다. 미국 정부 클라우드 IP 범위를 얻으려면 [Azure IP 범위 및 서비스 태그 - 미국 정부 클라우드](https://www.microsoft.com/download/details.aspx?id=57063) 파일을 다운로드합니다.
 
 SQL 데이터베이스에 대한 방화벽을 설정하려면 [IP 방화벽 규칙 만들기 및 관리](https://docs.microsoft.com/azure/sql-database/sql-database-firewall-configure#create-and-manage-ip-firewall-rules)를 참조하세요.
 
@@ -84,7 +86,7 @@ SQL 데이터베이스에 대한 방화벽을 설정하려면 [IP 방화벽 규�
 |  |Office 365 보안 및 준수 관리 센터를 통한 감사|사용 가능|사용 가능|사용 가능|
 |  |외부 사용자 공유|사용 가능|사용 가능|사용 가능|
 |  |보고서 및 대시보드의 사용량 메트릭|사용 가능|사용 가능|사용 가능|
-|  |GCC와 상용 클라우드 간 Azure B2B|사용할 수 없음|사용할 수 없음|사용할 수 없음|
+|  |GCC와 상용 클라우드 간 Azure B2B|사용 가능|사용 가능|사용 가능|
 |보고서 작성|대시보드 및 보고서 만들기 및 보기|사용 가능|사용 가능|사용 가능|
 |  |예약된 데이터 새로 고침|사용 가능|사용 가능|사용 가능|
 |  |새로 고칠 수 있는 팀 대시보드|사용 가능|사용 가능|사용 가능|
@@ -112,4 +114,4 @@ SQL 데이터베이스에 대한 방화벽을 설정하려면 [IP 방화벽 규�
 * [미국 정부 기관용 Power BI 등록](service-govus-signup.md)
 * [Microsoft Power Apps US Government](https://docs.microsoft.com/power-platform/admin/powerapps-us-government)
 * [Power Automate US Government](https://docs.microsoft.com/power-automate/us-govt)
-* <a href="https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government">Power BI 미국 정부 데모</a>
+* [Power BI 미국 정부 데모](https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government)

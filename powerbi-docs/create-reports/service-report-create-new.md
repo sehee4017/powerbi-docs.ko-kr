@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 66a690f9ee786747e59a55d498dfd206ecbcb992
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 74a0238d39d778641d1906271fd478463ee4a95a
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349750"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85218952"
 ---
 # <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>데이터 세트를 가져와 Power BI 서비스에서 보고서 만들기
 지금까지 [Power BI의 보고서](../consumer/end-user-reports.md)에 대해 살펴보았으며 이제 직접 만들려고 합니다. 다양한 방법으로 보고서를 만들 수 있습니다. 이 문서에서는 먼저 Excel 데이터 세트로 Power BI 서비스에서 기본 보고서를 만듭니다. 보고서를 만들기 위한 기본 사항을 파악했으면, 끝에 있는 [다음 단계](#next-steps)에서 더 높은 수준의 보고서 항목을 확인합니다.  
@@ -55,7 +55,7 @@ ms.locfileid: "83349750"
 1. 필드 창에서 **판매액** > **올해 판매액** > **값**을 선택합니다.
    
     ![보고서 편집기의 가로 막대형 차트](media/service-report-create-new/power-bi-report-step1.png)
-2. ![시각화](media/service-report-create-new/powerbi-gauge-icon.png) 창에서 계기 템플릿 **계기 아이콘**을 선택하여 시각적 개체를 계기로 변환합니다.
+2. **시각화** 창에서 계기 템플릿 ![계기 아이콘](media/service-report-create-new/powerbi-gauge-icon.png)을 선택하여 시각적 개체를 계기로 변환합니다.
    
     ![보고서 편집기의 계기 시각적 개체](media/service-report-create-new/power-bi-report-step2.png)
 3. **판매액** > **올해 판매액** > **목표**를 **대상 값**으로 끌어서 놓습니다. 목표에 매우 근접해 보입니다.
@@ -72,7 +72,7 @@ CMO에게는 몇 가지 추가적인 질문이 있습니다. 올해 판매액이
 2. 계기를 선택 취소합니다. 필드 창에서 **판매액** > **올해 판매액** > **값**을 선택하고 **판매액** > **작년 판매액**을 선택합니다.
    
     ![계기 및 가로 막대형 차트가 포함된 보고서 편집기](media/service-report-create-new/power-bi-report-step4.png)
-3. ![시각화](media/service-report-create-new/power-bi-areachart-icon.png) 창에서 영역 차트 템플릿 **차트 아이콘**을 선택하여 시각적 개체를 영역 차트로 변환합니다.
+3. **시각화** 창에서 영역 차트 템플릿 ![차트 아이콘](media/service-report-create-new/power-bi-areachart-icon.png)을 선택하여 시각적 개체를 영역 차트로 변환합니다.
 4. **시간** > **기간**을 선택하여 **축** 영역에 추가합니다.
    
     ![영역 차트가 활성화된 보고서 편집기](media/service-report-create-new/power-bi-report-step5.png)

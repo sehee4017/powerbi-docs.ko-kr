@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 11/25/2019
 ms.author: painbar
-ms.openlocfilehash: 0313dc2014130ded9b9ed4ad112aa26803d92d28
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e3b0fba18250853eec7eef85b5cfc9161290bacb
+ms.sourcegitcommit: c006d7aabf90c7b29fb05641d1f94f1ee7132943
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435723"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "84685313"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>빠른 시작: Power BI 모바일 앱에서 대시보드 및 보고서 살펴보기
 이 빠른 시작에서는 Power BI Mobile 앱을 둘러보고 샘플 대시보드와 보고서를 살펴봅니다. iOS용 Power BI 앱이 표시되지만, 다른 디바이스에서도 쉽게 작업을 수행할 수 있습니다.
@@ -47,8 +47,6 @@ ms.locfileid: "79435723"
     ![내 작업 영역의 대시보드](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-dashboard.png)
    
     모바일 디바이스의 Power BI 대시보드는 Power BI 서비스와 약간 다르게 보입니다. 모든 타일이 동일한 너비로 나타나며, 위에서 아래로 하나씩 정렬됩니다.
-
-5. 별모양 아이콘을 탭합니다. ![제목 표시줄에서 별모양 아이콘을 즐겨찾기에 추가하여](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-favorite-icon.png) 을 탭하여 즐겨찾기 대시보드로 설정합니다. 모바일 앱에서 즐겨찾기를 설정하면 Power BI 서비스에서도 즐겨찾기가 되고, 그 반대의 경우도 마찬가지입니다.
 
 6. 아래로 스크롤하여 “올해 판매액, 작년 판매액” 채워진 꺾은선형 차트를 탭합니다.
 
