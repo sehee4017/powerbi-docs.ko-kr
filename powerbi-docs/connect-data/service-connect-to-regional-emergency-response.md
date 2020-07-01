@@ -4,16 +4,16 @@ description: 지역별 응급 대응 템플릿 앱의 COVID-19 의사 결정 지
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/24/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 52522c03a285290fbc01da49328516f62ddfc60a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3cf846ef7fa7b47b0eaa90c850885af65a4bab80
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279230"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85229661"
 ---
 # <a name="connect-to-the-regional-emergency-response-dashboard"></a>지역별 응급 대응 대시보드에 연결
 지역별 응급 대응 대시보드는 [Microsoft Power Platform 지역별 응급 대응 솔루션](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview)의 보고 구성 요소입니다. 지역별 조직 관리자는 Power BI 테넌트에서 대시보드를 볼 수 있으므로 효율적인 의사 결정에 도움이 되는 중요한 데이터 및 메트릭을 빠르게 볼 수 있습니다.

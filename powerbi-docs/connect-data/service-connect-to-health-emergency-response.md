@@ -4,16 +4,16 @@ description: 의료 응급 템플릿 앱의 코로나바이러스감염증-19 �
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/13/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 40a585c78de4a95981ff157413e857b48fd35c14
-ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
+ms.openlocfilehash: e10f2144e987f8fdc7ea9dbfd18d4581889ae8bf
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83407578"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85230141"
 ---
 # <a name="connect-to-the-hospital-emergency-response-decision-support-dashboard"></a>병원 응급 대응 의사 결정 지원 대시보드에 연결
 병원 응급 대응 의사 결정 지원 대시보드 템플릿 앱은 [의료 응급 대응을 위한 Microsoft Power Platform 솔루션](https://powerapps.microsoft.com/blog/emergency-response-solution-a-microsoft-power-platform-solution-for-healthcare-emergency-response/)의 보고 구성 요소입니다. 이 대시보드는 응급 관리자들이 적시에 올바른 의사 결정을 내릴 수 있도록 의료 시스템 전반의 집계 데이터를 보여 줍니다.
