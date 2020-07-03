@@ -13,6 +13,10 @@
           href: power-bi-service-overview.md
         - name: Power BI Desktop 및 서비스 비교
           href: service-service-vs-desktop.md
+    - name: 자습서
+      items:
+        - name: Power BI 서비스 시작
+          href: service-get-started.md
     - name: 개념
       items:
         - name: 최신 Power BI Desktop 업데이트의 새로운 기능
