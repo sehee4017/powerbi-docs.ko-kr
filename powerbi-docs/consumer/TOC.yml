@@ -68,6 +68,8 @@
               href: end-user-pdf.md
             - name: 보고서를 PowerPoint로 내보내기
               href: end-user-powerpoint.md
+            - name: 단추를 식별하고 사용하는 방법
+              href: end-user-buttons.md
             - name: 보고서에 책갈피 추가
               href: end-user-bookmarks.md
             - name: 보고서에 추천 추가
