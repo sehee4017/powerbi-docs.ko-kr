@@ -1,22 +1,22 @@
 ---
-title: Power BI Desktop에서 AI 인사이트 연결(미리 보기)
+title: Power BI Desktop에서 AI 인사이트 연결
 description: Power BI Desktop에서 AI 인사이트의 데이터에 쉽게 연결하고 사용합니다.
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
-ms.date: 11/12/2019
+ms.topic: how-to
+ms.date: 06/10/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fec1a1a632244ef0c1923e2d68f76a7364d3c7b8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 7f067e87bf155b45be1d4c34f27d41649b6247df
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83311732"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237981"
 ---
-# <a name="use-ai-insights-in-power-bi-desktop-preview"></a>Power BI Desktop에서 AI 인사이트 사용(미리 보기)
+# <a name="use-ai-insights-in-power-bi-desktop"></a>Power BI Desktop에서 AI 인사이트 사용
 
 Power BI에서 AI 인사이트를 사용하여 데이터 준비 작업을 개선하는 미리 학습된 기계 학습 모델의 모음에 액세스할 수 있습니다. AI 인사이트는 **파워 쿼리 편집기**에서 액세스하며, 연결된 기능 및 함수는 **파워 쿼리 편집기**의 **홈** 및 **열 추가** 탭을 통해 액세스합니다. 
 
@@ -26,7 +26,10 @@ Power BI에서 AI 인사이트를 사용하여 데이터 준비 작업을 개선
 
 ## <a name="how-to-enable-ai-insights"></a>AI 인사이트를 사용하도록 설정하는 방법
 
-Power BI의 AI 인사이트는 미리 보기 기능이며 사용하도록 설정해야 합니다. 사용하도록 설정하려면 **파일 > 옵션 및 설정> 옵션**을 차례로 선택한 다음, 왼쪽 열에서 **미리 보기 기능**을 선택합니다. 오른쪽 창에는 **AI 인사이트 함수 브라우저** 선택 항목이 있습니다. **AI 인사이트 함수 브라우저** 옆의 확인란을 선택하여 미리 보기 기능을 사용하도록 설정합니다. 미리 보기 기능 변경 내용을 적용하려면 Power BI Desktop을 다시 시작해야 합니다.
+AI 인사이트는 Power BI Desktop 2020년 6월 릴리스에서 정식 출시되었습니다. 이전 버전의 Power BI Desktop에서는 **파일 > 옵션 및 설정 > 옵션**을 선택한 다음 왼쪽 열에서 **미리 보기 기능**을 선택하여 Power BI의 AI 인사이트를 사용하도록 설정해야 합니다. 오른쪽 창에는 **AI 인사이트 함수 브라우저** 선택 항목이 있습니다. **AI 인사이트 함수 브라우저** 옆의 확인란을 선택하여 미리 보기 기능을 사용하도록 설정합니다. 미리 보기 기능 변경 내용을 적용하려면 Power BI Desktop을 다시 시작해야 합니다.
+
+> [!NOTE]
+> AI 인사이트는 2020년 6월 릴리스 이후의 모든 Power BI Desktop 버전에서 정식 출시되었으며, 이러한 버전의 경우 미리 보기 기능으로 사용하도록 설정할 필요가 없습니다.
 
 ![Power BI Desktop의 AI 인사이트 옵션](media/desktop-ai-insights/ai-insights-01.png)
 
@@ -177,7 +180,7 @@ Power BI에서 Azure ML 모델에 액세스하려면 사용자에게 Azure 구�
 4. **액세스 제어(IAM)** 를 선택하고 **추가** 단추를 선택합니다.
 5. **읽기 권한자**를 역할로 선택합니다. Azure ML 모델에 대한 액세스 권한을 부여할 Power BI 사용자를 선택합니다.
 6. **저장**을 선택합니다.
-7. 3단계부터 6단계까지 반복하여 특정 Machine Learning Studio(클래식) 웹 서비스 ‘또는’ 모델을 호스팅하는 Machine Learning 작업 영역 사용자에게 **읽기 권한자** 권한을 부여합니다. 
+7. 3단계부터 6단계까지 반복하여 특정 Machine Learning Studio(클래식) 웹 서비스 ‘또는’ 모델을 호스팅하는 Machine Learning 작업 영역 사용자에게 **읽기 권한자** 권한을 부여합니다.
 
 ### <a name="schema-discovery-for-machine-learning-models"></a>Machine Learning 모델의 스키마 검색
 

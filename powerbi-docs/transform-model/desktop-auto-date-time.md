@@ -5,15 +5,15 @@ author: peter-myers
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ea3d786642d969eb8f0879bd336a49c486b3f95c
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: ae8121af4e3c16e7e8dd047284034fc95d0403fd
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349520"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393821"
 ---
 # <a name="apply-auto-datetime-in-power-bi-desktop"></a>Power BI Desktop의 자동 날짜/시간 적용
 
@@ -24,7 +24,6 @@ ms.locfileid: "83349520"
 이 옵션을 사용하도록 설정되면 다음 조건에 모두 해당하는 경우 Power BI Desktop에서 각 날짜 열에 대해 숨겨진 자동 날짜/시간 테이블을 만듭니다.
 
 - 테이블 스토리지 모드가 가져오기입니다.
-- 열은 계산된 열이 아닙니다.
 - 열 데이터 형식이 날짜 또는 날짜/시간입니다.
 - 열이 모델 관계의 "다" 쪽이 아닙니다.
 
@@ -99,6 +98,7 @@ Power BI Desktop에서 _파일 > 옵션 및 설정 > 옵션_ 을 차례로 선�
 이 문서와 관련된 보다 자세한 내용을 알아보려면 다음 리소스를 참조하세요.
 
 - [Power BI Desktop의 자동 날짜/시간 지침](../guidance/auto-date-time.md)
+- [Power BI Desktop에서 날짜 테이블 만들기](../guidance/model-date-tables.md)
 - [Power BI Desktop에서 날짜 테이블 설정 및 사용](desktop-date-tables.md)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 - 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com/)

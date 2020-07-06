@@ -1,6 +1,6 @@
 ---
-title: 특정 일의 Power BI 페이지를 매긴 보고서 과정
-description: 이 온라인 과정에서는 Power BI 페이지를 매긴 보고서를 만들고 게시하고 배포하는 데 필요한 기술 지식을 가진 보고서 작성자로서 역량을 강화하려고 합니다.
+title: 페이지를 매긴 Power BI 보고서 하루에 끝내기 과정
+description: 이 비디오 기반 과정의 목표는 페이지를 매긴 Power BI 보고서를 만들고 게시하고 배포하는 데 필요한 기술 지식으로 보고서 작성자의 역량을 강화하는 것입니다.
 author: peter-myers
 ms.reviewer: maggies
 featuredvideoid: DN1t5p9aui0
@@ -9,14 +9,14 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 3b6c3f79b6695c670b942253ddd2c2b158dc3acc
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: d4d5386a7e56618a761e541ba7942778a09a7008
+ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693226"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "84427462"
 ---
-# <a name="power-bi-paginated-reports-in-a-day-course"></a>특정 일의 Power BI 페이지를 매긴 보고서 과정
+# <a name="power-bi-paginated-reports-in-a-day-course"></a>페이지를 매긴 Power BI 보고서 하루에 끝내기 과정
 
 **특정 일의 Power BI 페이지를 매긴 보고서** 비디오 기반 과정에서는 Power BI 페이지를 매긴 보고서를 만들고 게시하고 배포하는 데 필요한 기술 지식으로 보고서 작성자의 역량을 강화합니다. 주문형으로 제공되고 체험용인 이 과정에서는 거의 4시간 20분 동안 콘텐츠를 볼 수 있습니다. 다운로드하여 8가지 실습 랩을 완료하는 데 사용할 수 있는 [자율 학습 키트](#self-study-kit)도 있습니다.
 
@@ -93,11 +93,11 @@ ms.locfileid: "83693226"
 - **MySolution**: 이 폴더에는 솔루션 파일이 저장됩니다. 랩 지침에서 해당 폴더를 사용해야 하는 경우를 알려줍니다.
 - **Presentation**: 이 폴더에는 PDF 문서로 제공되는 과정 프레젠테이션 파일이 들어 있습니다.
 
-### <a name="getting-started-with-the-kit"></a>키트 시작
+### <a name="get-started-with-the-kit"></a>키트 시작
 
 먼저 온라인 과정을 시청하는 것이 좋습니다. **&lt;CourseFolder&gt;\PowerBIPRIAD\Presentation\PowerBIPRIAD_Presentation.pdf** 파일을 열어 프레젠테이션 이론을 다시 참조할 수 있습니다. 프레젠테이션에는 이론 실습 시간을 나타내는 8개의 랩 슬라이드가 포함되어 있습니다. 관련 콘텐츠를 찾는 데 도움이 되는 많은 리소스 링크도 포함되어 있습니다.
 
-첫 번째 랩을 시작할 준비가 되면 **&lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf** 파일을 엽니다. 이 문서에서는 Power BI 서비스에 로그인하고 데이터 세트를 업로드한 다음, [Power BI Report Builder](../paginated-reports/report-builder-power-bi.md)를 설치하는 과정을 안내합니다.
+첫 번째 랩을 시작할 준비가 되면 **&lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf** 파일을 엽니다. 이 문서에서는 Power BI 서비스에 로그인하고 데이터 세트를 업로드한 다음, [Power BI Report Builder](https://aka.ms/pbireportbuilder)를 설치하는 과정을 안내합니다.
 
 > [!NOTE]
 > 고유의 Power BI 계정이 있어야 합니다. 계정이 없는 경우 [개인으로 Power BI 가입](../fundamentals/service-self-service-signup-for-power-bi.md)을 참조하세요.

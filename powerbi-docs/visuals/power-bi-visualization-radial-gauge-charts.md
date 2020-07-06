@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/05/2020
+ms.date: 06/17/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4274136df063258b6879057636f11ec437873ae6
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 24f69255ae12400c23cd9ca506e5b103e14e7ffb
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276355"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354895"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Power BI의 방사형 계기 차트
 
@@ -23,7 +23,7 @@ ms.locfileid: "83276355"
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
-방사형 계기 차트는 원호 형태로 목표에 대한 진행률 또는 KPI(핵심 성과 지표)를 측정하는 단일 값을 표시합니다. 선(또는 ‘바늘’)은 목표 또는 대상 값을 나타냅니다.  음영은 목표에 대한 진행률을 나타냅니다. 호 내부의 값은 진행률 값을 나타냅니다. Power BI에서 모든 가능한 값을 최소(맨 왼쪽 값)에서 최대(맨 오른쪽 값)까지 호를 따라 균등하게 분배합니다.
+방사형 계기 차트는 원호 형태로 목표에 대한 진행률 또는 KPI(핵심 성과 지표)를 측정하는 단일 값을 표시합니다. 선(또는 ‘바늘’)은 목표 또는 대상 값을 나타냅니다. 음영은 목표에 대한 진행률을 나타냅니다. 호 내부의 값은 진행률 값을 나타냅니다. Power BI에서 모든 가능한 값을 최소(맨 왼쪽 값)에서 최대(맨 오른쪽 값)까지 호를 따라 균등하게 분배합니다.
 
 ![방사형 계기의 스크린샷](media/power-bi-visualization-radial-gauge-charts/gauge-m.png)
 
@@ -70,7 +70,7 @@ ms.locfileid: "83276355"
 
 1. **필드** 창에서 **총 판매액**을 선택합니다.
 
-   ![](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue-new.png)
+   ![재무 테이블 확장됨, 총 판매액 선택됨](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue-new.png)
 
 1. 집계를 **평균**으로 변경합니다.
 

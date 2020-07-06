@@ -5,16 +5,16 @@ author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 12/4/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b2c587be792e0ad6318dd066cb239949b30cc9e5
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b74c0948ba8d22f1917f9750f86e899c8a99a904
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276562"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85239370"
 ---
 # <a name="display-a-visualizations-underlying-data"></a>시각화의 기본 데이터 표시
 
@@ -70,7 +70,7 @@ Power BI 시각화는 데이터 세트에서 데이터를 사용하여 구성됩
 
 - 리본의 **레코드 표시** 단추가 사용하지 않도록 설정되어 회색으로 표시되면 선택된 시각화가 레코드 표시를 지원하지 않는 것입니다.
 - 레코드 표시 보기에서 데이터를 변경하고 다시 보고서에 저장할 수 없습니다.
-- 시각적 개체에서 계산된 측정값을 사용할 때는 레코드 표시를 사용할 수 없습니다.
+- 시각적 개체가 다차원 모델에서 계산된 측정값을 사용하는 경우 레코드 표시를 사용할 수 없습니다.
 - 라이브 MD(다차원) 모델에 연결된 경우 레코드 표시를 사용할 수 없습니다.  
 
 ## <a name="next-steps"></a>다음 단계

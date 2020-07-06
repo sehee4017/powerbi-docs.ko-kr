@@ -3,16 +3,16 @@ title: 배포 파이프라인 시작
 description: Power BI에서 배포 파이프라인을 사용하는 방법을 알아봅니다.
 author: KesemSharabi
 ms.author: kesharab
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 05/06/2020
-ms.openlocfilehash: 8dc0dc97e2b4bca7154ea0f13273ee2dbaee1b61
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 6e9ed3217a7ee589eaf1469ba179ef8c8bc474e9
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83272836"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354734"
 ---
 # <a name="get-started-with-deployment-pipelines-preview"></a>배포 파이프라인 시작(미리 보기)
 
@@ -84,7 +84,7 @@ ms.locfileid: "83272836"
 
 배포할 단계를 선택하고 배포 단추를 클릭합니다. 배포 프로세스가 대상 단계에서 중복 작업 영역을 만듭니다. 이 작업 영역에는 현재 단계의 기존 콘텐츠가 모두 포함됩니다.
 
-[![](media/deployment-pipelines-get-started/deploy.png "Deploy all content")](media/deployment-pipelines-get-started/deploy.png#lightbox)
+[![배포](media/deployment-pipelines-get-started/deploy.png "모든 콘텐츠 배포")](media/deployment-pipelines-get-started/deploy.png#lightbox)
 
 ### <a name="selective-deployment"></a>선택적 배포
 
@@ -92,7 +92,7 @@ ms.locfileid: "83272836"
 
 대시보드, 보고서 및 데이터 세트는 서로 관련되어 있고 종속성이 있으므로 관련 항목 선택 단추를 사용하여 해당 항목이 종속된 모든 항목을 확인할 수 있습니다. 예를 들어 보고서를 다음 단계에 배포하려는 경우 관련 항목 선택 단추를 클릭하면 보고서가 연결된 데이터 세트가 표시되므로 두 항목을 모두 한 번에 배포하고 보고서가 중단되지 않습니다.
 
-[![](media/deployment-pipelines-get-started/selective-deploy.png "Selective deployment")](media/deployment-pipelines-get-started/selective-deploy.png#lightbox)
+[![선택적 배포](media/deployment-pipelines-get-started/selective-deploy.png "선택적 배포")](media/deployment-pipelines-get-started/selective-deploy.png#lightbox)
 
 >[!NOTE]
 > * 보고서 또는 대시보드는 이들이 종속된 항목이 대상 단계에 존재하지 않는 경우 다음 단계에 배포할 수 없습니다.
@@ -104,7 +104,7 @@ ms.locfileid: "83272836"
 
 이전 단계 배포는 이전 단계에 콘텐츠가 없는 경우에만 가능합니다. 이전 단계에 배포할 때는 특정 항목을 선택할 수 없습니다. 해당 단계의 모든 콘텐츠가 배포됩니다.
 
-[![](media/deployment-pipelines-get-started/deploy-back.png "Backwards deployment")](media/deployment-pipelines-get-started/deploy-back.png#lightbox)
+[![이전 단계 배포](media/deployment-pipelines-get-started/deploy-back.png "이전 단계 배포")](media/deployment-pipelines-get-started/deploy-back.png#lightbox)
 
 ## <a name="step-4---create-dataset-rules"></a>4단계 - 데이터 세트 규칙 만들기
 
@@ -125,11 +125,11 @@ ms.locfileid: "83272836"
 
 2. 배포 설정 창에서 규칙을 만들 데이터 세트를 선택합니다.
 
-    [![](media/deployment-pipelines-get-started/dataset-rules.png "Select a dataset")](media/deployment-pipelines-get-started/dataset-rules.png#lightbox)
+    [![데이터 세트 규칙](media/deployment-pipelines-get-started/dataset-rules.png "데이터 세트 선택")](media/deployment-pipelines-get-started/dataset-rules.png#lightbox)
 
 3. 만들려는 규칙의 유형을 선택하고 목록을 확장 한 다음 **규칙 추가**를 클릭합니다.
 
-     [![](media/deployment-pipelines-get-started/add-rule.png "Add a rule")](media/deployment-pipelines-get-started/add-rule.png#lightbox)
+     [![규칙 추가](media/deployment-pipelines-get-started/add-rule.png "규칙 추가")](media/deployment-pipelines-get-started/add-rule.png#lightbox)
 
 ### <a name="dataset-rule-types"></a>데이터 세트 규칙 유형
 
@@ -154,15 +154,14 @@ ms.locfileid: "83272836"
 * 규칙에 정의된 데이터 원본 또는 매개 변수가 원본 데이터 세트에서 변경되거나 제거되면 규칙이 유효하지 않게 되고 배포가 실패합니다.
 
 * 데이터 원본 규칙은 다음 데이터 원본에 대해서만 정의할 수 있습니다.
-    * Analysis 서비스
-    * Azure SQL Server
     * Azure Analysis Services
+    * SSAS(SQL Server Analysis Services)
+    * Azure SQL Server
+    * 데이터베이스 가져오기
     * Odata 피드
     * Oracle
-    * SapHana
+    * SapHana (직접 쿼리 모드가 아닌 가져오기 모드에서만 지원됨)
     * SharePoint
-    * 데이터베이스 가져오기
-    * SSAS(SQL Server Analysis Services)
     * Teradata
 
     다른 데이터 원본의 경우에는 [매개 변수를 사용하여 데이터 원본을 구성](deployment-pipelines-best-practices.md#use-parameters-in-your-model)하는 것이 좋습니다.
@@ -181,7 +180,7 @@ ms.locfileid: "83272836"
 
 두 개의 순차 단계에 콘텐츠가 포함된 경우 콘텐츠 항목 메타데이터를 기준으로 콘텐츠가 비교됩니다. 이러한 비교에는 단계 간 데이터 또는 새로 고침 시간 비교가 포함되지 않습니다.
 
- [![](media/deployment-pipelines-get-started/deployment-flow.png "Comparing stages")](media/deployment-pipelines-get-started/deployment-flow.png#lightbox)
+ [![배포 흐름](media/deployment-pipelines-get-started/deployment-flow.png "단계 비교")](media/deployment-pipelines-get-started/deployment-flow.png#lightbox)
 
 두 순차 단계 간의 차이점을 시각적으로 신속하게 파악할 수 있도록 비교 아이콘 표시기가 그 사이에 표시됩니다. 비교 표시기에는 두 가지 상태가 있습니다.
 
@@ -202,7 +201,7 @@ ms.locfileid: "83272836"
     >[!NOTE]
     >배포는 ‘누락’ 항목에 영향을 주지 않습니다.
 
- [![](media/deployment-pipelines-get-started/compare.png "Compare view")](media/deployment-pipelines-get-started/compare.png#lightbox)
+ [![비교](media/deployment-pipelines-get-started/compare.png "비교 보기")](media/deployment-pipelines-get-started/compare.png#lightbox)
 
 ## <a name="overriding-content"></a>콘텐츠 재정의
 

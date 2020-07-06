@@ -5,27 +5,29 @@ author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
-ms.date: 03/11/2020
+ms.topic: how-to
+ms.date: 06/24/2020
 ms.author: mihart
+ms.custom: contperfq4
 LocalizationGroup: Consumer
-ms.openlocfilehash: acfcd863a537153e70734d5f83e89e384438885e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 605b3fbc49d9a9dbf60b6963a89487ca15284b29
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279437"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393844"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI의 시각적 개체 유형
 
 [!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
-시각화 개체는 보고서, 대시보드, 질문 및 답변에서 찾을 수 있습니다. 해당 시각적 개체 유형 중 일부는 Power BI와 함께 패키지로 제공되고, 일부는 ‘Power BI 시각적 개체’입니다.  사용자 지정 시각적 개체는 Power BI 외부에서 ‘보고서 디자이너’가 Power BI 보고서 및 대시보드에 추가할 수 있는 방식으로 생성됩니다.  
+시각적 개체(차트 및 시각화라고도 함)는 데이터를 그림으로 표현한 것입니다. 몇 가지 일반적인 예는 세로 막대형 차트, 지도, 분산형 차트 및 방사형 계기입니다. 시각화 개체는 보고서, 대시보드, 질문 및 답변에서 찾을 수 있습니다.
 
-이 문서에서는 Power BI 서비스와 함께 패키지로 제공되는 시각적 개체를 간략하게 설명합니다.  자주 사용되는 시각적 개체입니다. 이러한 시각적 개체에 대한 자세한 내용은 [시각적 개체 유형에 대한 Power BI 보고서 ‘디자이너’ 문서](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)를 참조하세요. 
+이 페이지에서 설명하는 시각적 개체는 Power BI와 함께 패키징된 시각적 개체입니다. 이러한 시각적 개체 유형을 자주 보게 될 것입니다. 이 페이지에서는 미리 패키징된 이러한 시각적 개체의 간략한 개요를 제공합니다. 이러한 시각적 개체에 대한 자세한 내용은 [시각적 개체 유형에 대한 Power BI 보고서 디자이너 설명서](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)를 참조하세요.
 
-> [!NOTE]
-> Power BI 시각적 개체에 대해 알아보려면 [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)의 **Power BI 시각적 개체** 섹션에서 이를 검색합니다. 각 시각적 개체마다 설명, 작성자 정보, 스크린샷 또는 비디오를 찾을 수 있습니다. 
+Power BI에 자동으로 포함되지 않는 시각적 개체는 사용자 지정 시각적 개체라고 합니다. 사용자 지정 시각적 개체는 Microsoft AppSource와 같은 외부 웹 사이트 또는 조직 저장소와 같은 내부 원본에서 Power BI로 가져올 수 있습니다. 사용자 지정 시각적 개체를 가져오려면 보고서에 대한 편집 권한이 필요합니다. 이러한 추가 시각적 개체에 대한 자세한 내용은 [Power BI의 시각적 개체](../developer/visuals/power-bi-custom-visuals.md)를 참조하세요.
+
+
 
 ## <a name="list-of-visuals-available-in-power-bi"></a>Power BI에서 사용할 수 있는 시각적 개체 목록
 이러한 모든 시각적 개체는 Power BI 대시보드와 보고서에서 찾을 수 있으며, [질문 및 답변에서 지정](end-user-q-and-a.md)할 수 있습니다. 시각적 개체를 조작하는 방법에 대한 자세한 내용은 [보고서, 대시보드 및 앱에서 시각적 개체 조작](end-user-visualizations.md)을 참조하세요.
@@ -64,6 +66,12 @@ ms.locfileid: "83279437"
 - 두 측정값 간의 상관관계를 하나의 시각적 개체로 보여 주려는 경우
 - 하나의 측정값이 다른 측정값으로 정의된 목표를 충족하는지 확인하는 경우
 - 캔버스 공간을 절약하려는 경우
+
+
+### <a name="decomposition-tree"></a>분해 트리
+![분해 트리](media/end-user-visual-type/power-bi-decomposition.png)
+
+분해 트리 시각적 개체를 사용하여 여러 차원에서 데이터를 시각화할 수 있습니다. 자동으로 데이터를 집계하며 임의 순서로 차원을 드릴다운할 수 있게 해줍니다. AI(인공 지능) 시각화이기도 하므로 특정 기준에 따라 드릴다운할 다음 차원을 찾도록 요청할 수 있습니다. 그러므로 임시 탐색 및 근본 원인 분석을 수행하는 데 유용한 도구입니다.
 
 ### <a name="doughnut-charts"></a>도넛형 차트
 ![도넛형 차트](media/end-user-visual-type/donut-small.png)
@@ -210,12 +218,12 @@ X축을 따라 숫자 또는 범주 데이터를 그릴 수 있다는 점을 제
 - 테이블 형식으로 데이터를 표시
 - 숫자 데이터를 범주별로 표시
 
-### <a name="treemaps"></a>트리맵
-![트리맵 차트](media/end-user-visual-type/pbi-nancy-viz-tree.png)
+### <a name="tree-maps"></a>트리 맵
+![트리 맵 차트](media/end-user-visual-type/pbi-nancy-viz-tree.png)
 
-트리맵은 값을 나타내는 크기와 색이 지정된 사각형으로 구성된 차트입니다.  이 차트는 사각형이 주 사각형 내에 중첩되는 계층 구조 형식일 수 있습니다. 각 사각형 내부의 공간은 측정되는 값을 기반으로 하여 할당됩니다. 사각형은 크기순으로 가장 큰 것이 왼쪽 위, 가장 작은 것이 오른쪽 아래에 정렬됩니다.
+트리 맵은 값을 나타내는 크기와 색이 지정된 사각형으로 구성된 차트입니다.  이 차트는 사각형이 주 사각형 내에 중첩되는 계층 구조 형식일 수 있습니다. 각 사각형 내부의 공간은 측정되는 값을 기반으로 하여 할당됩니다. 사각형은 크기순으로 가장 큰 것이 왼쪽 위, 가장 작은 것이 오른쪽 아래에 정렬됩니다.
 
-다음과 같은 경우 트리맵을 사용하는 것이 좋습니다.
+다음과 같은 경우 트리 맵을 사용하는 것이 좋습니다.
 - 많은 양의 계층적 데이터를 표시하는 경우
 - 가로 막대형 차트로는 많은 수의 값을 효과적으로 처리할 수 없는 경우
 - 각 부분과 전체 간의 비율을 표시하는 경우
@@ -241,7 +249,7 @@ X축을 따라 숫자 또는 범주 데이터를 그릴 수 있다는 점을 제
 Power BI 질문 및 답변을 사용하여 자연어 쿼리를 입력할 때 쿼리에 시각적 개체 유형을 지정할 수 있습니다.  예:
 
 
-"***sales by state as a treemap***"
+"****** 주별 매출을 트리맵으로"
 
 ![질문 및 답변 세션](media/end-user-visual-type/qa-treemap.png)
 

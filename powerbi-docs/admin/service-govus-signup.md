@@ -10,12 +10,12 @@ ms.date: 04/07/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: f494533c8b79dce250f3f25c706896d542f01f26
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
+ms.openlocfilehash: 885490554acfec10503ba8ce7bc1db6937ec8fce
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84159562"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485464"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Power BI 서비스에 미국 정부 기관 등록
 
@@ -32,7 +32,7 @@ ms.locfileid: "84159562"
 
 미국 정부 기관에서 정부 클라우드 커뮤니티를 처음 사용하거나 구독이 이미 있을 수 있습니다. 다음 섹션에서는 Microsoft 365 정부 플랜 및 Power BI에서의 위치에 따라 등록 단계를 자세히 설명합니다. 단계는 현재 등록에 따라 달라집니다.
 
-Power BI 미국 정부 기관에 등록한 후에는 계정 팀과 협력하여 이 문서에 설명된 [*허용 목록 작성* 프로세스](#additional-signup-information)를 시작합니다. 해당 단계는 정부 커뮤니티 클라우드에서 조직을 완전히 사용하도록 설정하는 데 필요합니다.
+Power BI 미국 정부 기관에 등록한 후에는 계정 팀과 협력하여 이 문서에 설명된 [허용 목록 프로세스](#additional-signup-information)를 시작합니다. 해당 단계는 정부 커뮤니티 클라우드에서 조직을 완전히 사용하도록 설정하는 데 필요합니다.
 
 ## <a name="sign-up-for-a-new-microsoft-365-government-plan"></a>새 Microsoft 365 정부 플랜에 등록
 
@@ -69,9 +69,9 @@ Power BI 미국 정부 기관에 등록한 후에는 계정 팀과 협력하여 
 
 ## <a name="additional-signup-information"></a>추가 등록 정보
 
-미국 정부 Power BI 서비스를 사용하려면 먼저 Microsoft 계정 팀과 협력하여 조직에 대한 *허용 목록 작성*을 시작해야 합니다. 허용 목록 작성은 Power BI 엔지니어링 팀에서 고객을 상용 클라우드 환경에서 안전한 정부 커뮤니티 클라우드로 이동시키는 데 사용하는 프로세스입니다. 이 단계를 통해 미국 정부 클라우드에서 사용할 수 있는 기능이 예상대로 작동하게 됩니다. 
+미국 정부 Power BI 서비스를 사용하려면 먼저 Microsoft 계정 팀과 협력하여 조직을 허용 목록에 추가해야 합니다. 허용 목록 프로세스는 Power BI 엔지니어링 팀에서 고객을 상용 클라우드 환경에서 안전한 정부 커뮤니티 클라우드로 이동시키는 데 사용합니다. 이 단계를 통해 미국 정부 클라우드에서 사용할 수 있는 기능이 예상대로 작동하게 됩니다. 
 
-허용 목록 작성 프로세스를 시작하려면 Microsoft 계정 팀에 문의하여 도움을 받습니다. 관리자만 허용 목록 작성을 요청할 수 있습니다. 이 프로세스는 3주 정도 소요됩니다. 이 기간 중에 Power BI 엔지니어링 팀에서 테넌트가 미국 정부 클라우드에서 올바르게 작동하도록 적합한 변경을 수행하게 됩니다.
+허용 목록 프로세스를 시작하려면 Microsoft 계정 팀에 도움을 요청하세요. 허용 목록에 추가는 관리자만 요청할 수 있습니다. 이 프로세스는 3주 정도 소요됩니다. 이 기간 중에 Power BI 엔지니어링 팀에서 테넌트가 미국 정부 클라우드에서 올바르게 작동하도록 적합한 변경을 수행하게 됩니다.
 
 
 ## <a name="next-steps"></a>다음 단계

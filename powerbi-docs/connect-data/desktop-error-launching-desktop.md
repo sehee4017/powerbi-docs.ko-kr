@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.date: 01/14/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 67c83f2cc0eb81e90f447961ed178a04e97e050e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: ba59a08ee1b50e44af71312a25d77fb67c8fca2d
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292090"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485441"
 ---
 # <a name="troubleshoot-opening-power-bi-desktop"></a>Power BI Desktop 열기 문제 해결
 
@@ -36,7 +36,7 @@ Power BI Desktop에서 이전 버전의 *Power BI 온-프레미스 데이터 게
 
 또는 관리자 권한으로 Power BI Desktop을 시작할 수도 있습니다. 이 경우에도 Power BI Desktop이 성공적으로 열립니다. 앞에서 설명한 대로 최신 버전의 Power BI 온-프레미스 데이터 게이트웨이를 설치하는 것이 좋습니다.
 
-Power BI Desktop은 멀티 프로세스 아키텍처로 설계되었으며, 이러한 여러 프로세스는 Windows 명명된 파이프를 사용하여 통신합니다. 해당 명명된 파이프를 방해하는 다른 프로세스가 있을 수 있습니다. 바이러스 백신 소프트웨어 또는 방화벽이 파이프를 차단하거나 트래픽을 특정 포트로 리디렉션할 수 있는 상황을 포함하여 이러한 방해의 가장 일반적인 이유는 보안입니다. 관리자 권한으로 Power BI Desktop을 열면 해당 문제가 해결될 수 있습니다. 관리자 권한으로도 열 수 없는 경우 관리자에게 문의하여 명명된 파이프가 제대로 통신하지 못하도록 하는 보안 규칙을 확인합니다. 그런 다음 Power BI Desktop 및 해당 하위 프로세스를 허용 목록에 포함합니다.
+Power BI Desktop은 멀티 프로세스 아키텍처로 설계되었으며, 이러한 여러 프로세스는 Windows 명명된 파이프를 사용하여 통신합니다. 해당 명명된 파이프를 방해하는 다른 프로세스가 있을 수 있습니다. 바이러스 백신 소프트웨어 또는 방화벽이 파이프를 차단하거나 트래픽을 특정 포트로 리디렉션할 수 있는 상황을 포함하여 이러한 방해의 가장 일반적인 이유는 보안입니다. 관리자 권한으로 Power BI Desktop을 열면 해당 문제가 해결될 수 있습니다. 관리자 권한으로도 열 수 없는 경우 관리자에게 문의하여 명명된 파이프가 제대로 통신하지 못하도록 하는 보안 규칙을 확인합니다. 그런 다음 Power BI Desktop 및 해당 하위 프로세스를 허용 목록에 추가합니다.
 
 ## <a name="resolve-issues-when-connecting-to-sql-server"></a>SQL Server 연결 시 문제 해결
 

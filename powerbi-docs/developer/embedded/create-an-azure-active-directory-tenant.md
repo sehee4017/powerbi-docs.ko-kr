@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/28/2019
-ms.openlocfilehash: c8c62709775bb269eb57b2f88c174f1dc4fd13ad
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: f592b7927d713e343f1d3ad11453cbbacc17fffd
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83794104"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354941"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Power BI에서 사용할 Azure Active Directory 테넌트 만들기
 
@@ -60,29 +60,29 @@ Power BI를 사용자 지정 애플리케이션에 통합하려면 Azure AD 내�
 
 1. Azure Portal에서 Azure Active Directory를 사용하고 있는지 확인합니다.
 
-    ![](media/create-an-azure-active-directory-tenant/aad-flyout.png)
+    ![Azure AD 날아가기](media/create-an-azure-active-directory-tenant/aad-flyout.png)
 
     그렇지 않은 경우 왼쪽 서비스 탐색에서 Azure Active Directory 아이콘을 선택합니다.
 
-    ![](media/create-an-azure-active-directory-tenant/aad-service.png)
+    ![Azure AD 아이콘](media/create-an-azure-active-directory-tenant/aad-service.png)
 
 2. **관리** 아래에서 **사용자**를 선택합니다.
 
-    ![](media/create-an-azure-active-directory-tenant/users-and-groups.png)
+    ![Azure AD 사용자 및 그룹](media/create-an-azure-active-directory-tenant/users-and-groups.png)
 
 3. **모든 사용자**를 선택한 후 **+ 새 사용자**를 선택합니다.
 
 4. 테넌트 글로벌 관리자에 대한 **이름** 및 **사용자 이름**을 제공합니다. **디렉터리 역할**을 **글로벌 관리자**로 변경합니다. 임시 암호를 표시할 수도 있습니다. 완료되면 **만들기**를 선택합니다.
 
-    ![](media/create-an-azure-active-directory-tenant/global-admin.png)
+    ![Azure AD 전역 관리자](media/create-an-azure-active-directory-tenant/global-admin.png)
 
 5. 일반 테넌트 사용자에 대해 동일한 작업을 수행합니다. 마스터 포함 계정에 대해 이 계정을 사용할 수 있습니다. 현재는 **디렉터리 역할**에 대해 **사용자**로 남겨 둡니다. 암호를 적어 둔 다음, **만들기**를 선택합니다.
 
-    ![](media/create-an-azure-active-directory-tenant/pbiembed-user.png)
+    ![Azure AD 사용자](media/create-an-azure-active-directory-tenant/pbiembed-user.png)
 
 6. 5단계에서 만든 사용자 계정으로 Power BI에 가입합니다. [powerbi.com](https://powerbi.microsoft.com/get-started/)으로 이동하고 **Power BI - Cloud 협업 및 공유** 아래에서 **평가판 사용해 보기**를 선택합니다.
 
-    ![](media/create-an-azure-active-directory-tenant/try-powerbi-free.png)
+    ![테넌트 만들기](media/create-an-azure-active-directory-tenant/try-powerbi-free.png)
 
     가입하면 Power BI Pro를 60일 동안 무료로 사용해보라는 메시지가 표시됩니다. [임베디드 솔루션 개발 시작](embed-sample-for-customers.md)에 대한 옵션을 제공하는 Pro 사용자가 되도록 가입할 수 있습니다.
 

@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 05/06/2020
-ms.openlocfilehash: c4a823b0b41def6c10cd8f932bb97e91eb977ecb
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.date: 06/25/2020
+ms.openlocfilehash: fc7e6aa751bab6562e097b8ce14ff8416e6231e7
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148612"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782563"
 ---
 # <a name="understand-the-deployment-process-preview"></a>배포 프로세스 이해(미리 보기)
 
@@ -60,7 +60,7 @@ ms.locfileid: "83148612"
 
 가능한 경우 대상 데이터 세트의 데이터가 유지됩니다. 데이터 세트 변경 내용이 없는 경우 데이터는 배포 전 상태로 유지됩니다.
 
-테이블 또는 계산된 측정값을 추가하는 것과 같이 약간만 변경된 경우에는 Power BI가 원래 데이터를 유지하며 필요한 항목만 새로 고치도록 새로 고침이 최적화됩니다. 중단이 발생하는 스키마 변경이나 데이터 원본 연결 변경의 경우에는 전체 새로 고침이 필요합니다.
+테이블 또는 측정값을 추가하는 것과 같이 약간만 변경된 경우에는 Power BI가 원래 데이터를 유지하며 필요한 항목만 새로 고치도록 새로 고침이 최적화됩니다. 중단이 발생하는 스키마 변경이나 데이터 원본 연결 변경의 경우에는 전체 새로 고침이 필요합니다.
 
 ### <a name="requirements-for-deploying-to-a-stage-with-an-existing-workspace"></a>기존 작업 영역이 포함된 단계에 배포하기 위한 요구 사항
 
@@ -152,11 +152,11 @@ ms.locfileid: "83148612"
 
 최종 사용자의 관점에서 각 앱 업데이트를 테스트할 수 있도록 각 배포 파이프라인 단계에 대한 앱을 만듭니다. 배포 파이프라인을 사용하면 이 프로세스를 쉽게 관리할 수 있습니다. 작업 영역 카드의 게시 또는 보기 단추를 사용하여 특정 파이프라인 단계에서 앱을 게시하거나 볼 수 있습니다.
 
-[![](media/deployment-pipelines-process/publish.png "Publish app")](media/deployment-pipelines-process/publish.png#lightbox)
+[![앱 게시](media/deployment-pipelines-process/publish.png "앱 게시")](media/deployment-pipelines-process/publish.png#lightbox)
 
 프로덕션 단계에서 왼쪽 아래 모서리에 있는 주 작업 단추를 클릭하면 Power BI의 앱 업데이트 페이지가 열려 앱 사용자가 콘텐츠 업데이트를 사용할 수 있습니다.
 
-[![](media/deployment-pipelines-process/update-app.png "Update app")](media/deployment-pipelines-process/update-app.png#lightbox)
+[![앱 업데이트](media/deployment-pipelines-process/update-app.png "앱 업데이트")](media/deployment-pipelines-process/update-app.png#lightbox)
 
 >[!IMPORTANT]
 >배포 프로세스에는 앱 콘텐츠 또는 설정 업데이트가 포함되지 않습니다. 콘텐츠 또는 설정에 변경 내용을 적용하려면 필요한 파이프라인 단계에서 수동으로 앱을 업데이트해야 합니다.
@@ -236,13 +236,23 @@ ms.locfileid: "83148612"
 
 * Power BI [민감도 레이블](../admin/service-security-data-protection-overview.md#sensitivity-labels-in-power-bi)을 포함하는 보고서 및 대시보드와 같은 Power BI 항목은 배포할 수 없습니다.
 
-* [증분 새로 고침](../admin/service-premium-incremental-refresh.md)을 사용하여 구성된 데이터 세트는 배포할 수 없습니다.
+* 단일 배포로 배포할 수 있는 Power BI 항목은 최대 300개입니다.
 
 * 작업 영역 제한 사항의 목록은 [작업 영역 할당 제한 사항](deployment-pipelines-get-started.md#workspace-assignment-limitations)을 참조하세요.
 
-* 데이터 세트 규칙 제한 사항의 목록은 [데이터 세트 규칙 제한 사항](deployment-pipelines-get-started.md#dataset-rule-limitations)을 참조하세요.
-
 * 지원되지 않는 항목의 목록은 [지원되지 않는 항목](#unsupported-items)을 참조하세요.
+
+### <a name="dataset-limitations"></a>데이터 세트 제한 사항
+
+* [증분 새로 고침](../admin/service-premium-incremental-refresh.md)을 사용하여 구성된 데이터 세트는 배포할 수 없습니다.
+
+* 실시간 데이터 연결을 사용하는 데이터 세트는 배포할 수 없습니다.
+
+* 배포하는 동안 대상 데이터 세트가 [라이브 연결](../connect-data/desktop-report-lifecycle-datasets.md)을 사용하는 경우 원본 데이터 세트도 이 연결 모드를 사용해야 합니다.
+
+* 배포 후에는 (데이터 세트가 배포된 단계로부터의) 데이터 세트 다운로드가 지원되지 않습니다.
+
+* 데이터 세트 규칙 제한 사항의 목록은 [데이터 세트 규칙 제한 사항](deployment-pipelines-get-started.md#dataset-rule-limitations)을 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 

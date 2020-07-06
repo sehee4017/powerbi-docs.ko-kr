@@ -7,15 +7,15 @@ featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/22/2020
+ms.date: 06/18/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 34d539af94f2bcbe03a2c9d6b870887e371a1a6e
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 90c721f6c2f555bd632d6c8fff56d05994b1444b
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563915"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354780"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>Power BI의 콤보 차트 만들기 및 사용
 
@@ -78,7 +78,7 @@ Will이 판매 및 샘플 마케팅을 사용하여 콤보 차트를 만드는 �
     ![콤보 차트 변환 예](media/power-bi-visualization-combo-chart/converttocombo-new2.png)
 7. **필드** 창에서 **판매** \> **작년 판매**를 **꺾은선형 값** 버킷으로 끌어다 놓습니다.
 
-   ![](media/power-bi-visualization-combo-chart/linevaluebucket.png)
+   ![작년 매출을 표시하는 꺾은선형 값 영역](media/power-bi-visualization-combo-chart/linevaluebucket.png)
 
    콤보 차트가 다음과 같이 표시됩니다.
 

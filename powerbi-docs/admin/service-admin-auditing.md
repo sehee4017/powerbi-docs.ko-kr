@@ -5,17 +5,17 @@ author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: f479bb865a11de57587a0302738411327327ed33
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: ff61cdf25c83b1062fd7c4a471a49269d20c57a8
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272681"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782400"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Power BI에서 사용자 활동 추적
 
@@ -244,8 +244,9 @@ Exchange Online에 연결하는 방법에 대한 자세한 내용은 [Exchange O
 | Power BI 폴더 액세스 권한 추가됨                      | AddFolderAccess                             | 현재 사용되지 않음                       |
 | Power BI 그룹 구성원 추가됨                      | AddGroupMembers                             |                                          |
 | 관리자가 테넌트에 데이터 흐름 스토리지 계정 연결됨 | AdminAttachedDataflowStorageAccountToTenant | 현재 사용되지 않음                       |
-| Power BI 데이터 세트 분석됨                         | AnalyzedByExternalApplication               |                                          |
-| Power BI 보고서 분석                          | AnalyzeInExcel                              | 사용자가 서비스와 상호 작용할 때 생성됩니다. `*.odc` 파일을 다운로드해도 감사 이벤트가 생성되지 않음                                         |
+| Power BI 데이터 세트 분석됨                         | AnalyzedByExternalApplication               | 사용자가 서비스와 상호 작용할 때 생성됨                                         |
+| Power BI 보고서 분석                          | AnalyzeInExcel                              |                                          |
+| 배포 파이프라인에 작업 영역 할당                          | AssignWorkspaceToPipeline                              |                                          |
 | 데이터 흐름 스토리지 계정 연결됨                 | AttachedDataflowStorageAccount              |                                          |
 | 게이트웨이에 바인딩된 Power BI 데이터 세트                | BindToGateway                               |                                          |
 | 데이터 흐름 새로 고침 취소됨                        | CancelDataflowRefresh                       |                                          |
@@ -254,7 +255,9 @@ Exchange Online에 연결하는 방법에 대한 자세한 내용은 [Exchange O
 | Power BI 데이터 세트 연결 변경됨              | SetAllConnections                           |                                          |
 | Power BI Gateway 관리자 변경됨                   | ChangeGatewayAdministrators                 |                                          |
 | Power BI Gateway 데이터 원본 사용자 변경됨        | ChangeGatewayDatasourceUsers                |                                          |
+| 조직의 사용자 지정 시각적 개체 만듦                          | InsertOrganizationalGalleryItem                                |                                          |
 | 조직의 Power BI 콘텐츠 팩 만듦      | CreateOrgApp                                |                                          |
+| 배포 파이프라인 만듦      | CreateAlmPipeline                                |                                          |
 | Power BI 앱 만듦                              | CreateApp                                   |                                          |
 | Power BI 대시보드 만듦                        | CreateDashboard                             |                                          |
 | Power BI 데이터 흐름 만듦                         | CreateDataflow                              |                                          |
@@ -264,9 +267,13 @@ Exchange Online에 연결하는 방법에 대한 자세한 내용은 [Exchange O
 | Power BI Gateway 만들어짐                          | CreateGateway                               |                                          |
 | Power BI 그룹 만듦                            | CreateGroup                                 |                                          |
 | Power BI 보고서 만듦                           | CreateReport <sup>1</sup>                                |                                          |
+| 사용자 지정 시각적 개체가 Azure AD 액세스 토큰 요청                           | GenerateCustomVisualAADAccessToken                                |                                          |
+| 사용자 지정 시각적 개체가 Office Web Apps 액세스 토큰 요청                           | GenerateCustomVisualWACAccessToken                                |                                          |
 | 외부 스토리지 계정으로 데이터 흐름 마이그레이션     | DataflowMigratedToExternalStorageAccount    | 현재 사용되지 않음                       |
 | 데이터 흐름 사용 권한 추가됨                        | DataflowPermissionsAdded                    | 현재 사용되지 않음                       |
 | 데이터 흐름 사용 권한 제거됨                      | DataflowPermissionsRemoved                  | 현재 사용되지 않음                       |
+| 조직의 사용자 지정 시각적 개체 삭제됨     | DeleteOrganizationalGalleryItem                                |                                          |
+| 배포 파이프라인 삭제됨      | DeleteAlmPipeline                                |                                          |
 | 조직의 Power BI 콘텐츠 팩 삭제됨      | DeleteOrgApp                                |                                          |
 | Power BI 주석 삭제됨                          | DeleteComment                               |                                          |
 | Power BI 대시보드 삭제됨                        | DeleteDashboard                             | 현재 사용되지 않음                       |
@@ -278,6 +285,7 @@ Exchange Online에 연결하는 방법에 대한 자세한 내용은 [Exchange O
 | Power BI Gateway 삭제됨                          | DeleteGateway                               |                                          |
 | Power BI 그룹 삭제됨                            | DeleteGroup                                 |                                          |
 | Power BI 보고서 삭제됨                           | DeleteReport                                |                                          |
+| 파이프라인 단계에 배포됨                           | DeployAlmPipeline                                |                                          |
 | 검색된 Power BI 데이터 세트의 데이터 원본          | GetDatasources                              |                                          |
 | 다운로드한 Power BI 보고서                        | DownloadReport                              |                                          |
 | 데이터 흐름 속성 편집됨                        | EditDataflowProperties                      |                                          |
@@ -302,6 +310,7 @@ Exchange Online에 연결하는 방법에 대한 자세한 내용은 [Exchange O
 | 웹에 Power BI 보고서 게시됨                  | PublishToWebReport <sup>2</sup>                         |                                          |
 | 주요 테이블을 게시 또는 업데이트함 | UpdateFeaturedTables <sup>3</sup>   | |
 | Key Vault에서 Power BI 데이터 흐름 비밀 수신됨  | ReceiveDataflowSecretFromKeyVault           |                                          |
+| 배포 파이프라인에서 작업 영역 제거됨         | UnassignWorkspaceFromPipeline                 |                                          |
 | Power BI Gateway에서 데이터 원본 제거됨         | RemoveDatasourceFromGateway                 |                                          |
 | Power BI 그룹 구성원 제거됨                    | DeleteGroupMembers                          |                                          |
 | 용량에서 작업 영역 제거됨                 | RemoveWorkspacesFromCapacity                |                                          |
@@ -321,9 +330,12 @@ Exchange Online에 연결하는 방법에 대한 자세한 내용은 [Exchange O
 | Power BI 데이터 흐름 인수됨                     | TookOverDataflow                             |                                          |
 | Power BI 앱 게시 취소됨                          | UnpublishApp                                |                                          |
 | 용량 리소스 거버넌스 설정 업데이트      | UpdateCapacityResourceGovernanceSettings    | 현재 Microsoft 365 관리 센터에 없음 |
+| 조직의 사용자 지정 시각적 개체 업데이트됨                     | UpdateOrganizationalGalleryItem                   |                                          |
 | 용량 관리자 업데이트됨                            | UpdateCapacityAdmins                        |                                          |
 | 용량 표시 이름 업데이트됨                     | UpdateCapacityDisplayName                   |                                          |
 | 데이터 흐름 스토리지 할당 권한 업데이트됨   | UpdatedDataflowStorageAssignmentPermissions |                                          |
+| 배포 파이프라인 업데이트됨   | UpdateAlmPipelineAccess |                                          |
+| 배포 파이프라인 구성 업데이트됨   | SetConfigurationAlmPipeline |                                          |
 | 조직의 Power BI 설정 업데이트됨          | UpdatedAdminFeatureSwitch                   |                                          |
 | Power BI 앱 업데이트됨                              | UpdateApp                                   |                                          |
 | Power BI 데이터 흐름 업데이트됨                         | UpdateDataflow                              |                                          |

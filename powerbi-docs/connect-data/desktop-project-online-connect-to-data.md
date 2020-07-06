@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/01/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4244253faa3160b515a02b598988072117d982ed
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 726c265198c7489ac1de055d0fc00b1988109d11
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83563055"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85223324"
 ---
 # <a name="connect-to-project-online-data-through-power-bi-desktop"></a>Power BI Desktop을 통해 Project Online 데이터에 연결
 Power BI Desktop을 통해 Project Online의 데이터에 연결할 수 있습니다.
@@ -29,7 +29,7 @@ Power BI Desktop을 통해 Project Online의 데이터에 연결할 수 있습�
 3. **OData 피드**를 선택하고 **연결**을 선택합니다.
 4. URL 상자의 OData 피드에 대한 주소를 입력하고 확인을 클릭합니다.
    
-   사용자의 프로젝트 웹앱 사이트에 대한 주소가 *https://\<tenantname\>.sharepoint.com/sites/pwa*와 유사한 경우, OData 피드에 대해 입력할 주소는 *https://\<tenantname\>.sharepoint.com/sites/pwa/\_api/Projectdata*입니다.
+   프로젝트 웹앱 주소가*https://\<tenantname\>.sharepoint.com/sites/pwa*와 비슷한 경우 OData 피드에 대해 입력할 주소는 *https://\<tenantname\>.sharepoint.com/sites/pwa/\_api/Projectdata*입니다.
    
    이 예에서는 다음을 사용합니다.
 

@@ -4,15 +4,15 @@ description: 바로 가기와 Google Search를 사용하여 자주 보는 콘텐
 author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/06/2020
 ms.author: painbar
-ms.openlocfilehash: 1aa2e80e7624fb50878c70e464aac7edd943e0a8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ec4763118360ea02362e3f49fe9776224e9c087a
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80802781"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85229392"
 ---
 # <a name="use-android-app-shortcuts-in-the-power-bi-android-app"></a>Power BI Android 앱에서 Android 앱 바로 가기 사용
 
@@ -33,7 +33,7 @@ Android용 Power BI 모바일 앱은 앱을 탐색하지 않고도 필요한 보
 
 원하는 보고서 또는 대시보드의 바로 가기를 만들 수 있습니다.
 
-1. 작업 메뉴에서 **기타 옵션...** 을 클릭하고 **바로 가기 추가**를 선택합니다.
+1. 보고서의 작업 메뉴에서 **추가 옵션...** 을 탭하고 **바로 가기 추가**를 선택합니다. 대시보드의 작업 메뉴에서 **바로 가기 추가**를 탭합니다.
 
    ![바로 가기 작업 메뉴 추가](media/mobile-app-quick-access-shortcuts/mobile-add-shortcut-action-menu.png)
 
@@ -44,7 +44,6 @@ Android용 Power BI 모바일 앱은 앱을 탐색하지 않고도 필요한 보
    이 두 가지 방법은 아래 이미지에 나와 있습니다.
 
    ![바로 가기 추가 배너](media/mobile-app-quick-access-shortcuts/mobile-add-shortcut-banner.png)
-
 
  1. 항목 이름이 표시된 **바로 가기 추가** 대화 상자가 열립니다. 원하는 경우 이름을 편집할 수 있습니다. 완료되면 **추가**를 탭합니다.
 
@@ -60,7 +59,7 @@ Android용 Power BI 모바일 앱은 앱을 탐색하지 않고도 필요한 보
 
 ## <a name="edit-the-shortcut-name"></a>바로 가기 이름 편집
 
-바로 가기 이름을 편집하려면 작업 메뉴에서 **추가 옵션...** 을 선택하고 **바로 가기 이름 편집**을 선택합니다.
+바로 가기 이름을 편집하려면 보고서의 작업 메뉴에서 **추가 옵션...** 을 탭한 다음 **바로 가기 이름 편집**을 선택합니다. 대시보드에서 **바로 가기 추가**를 탭합니다. **바로 가기 이름 편집** 대화 상자가 표시됩니다.
 
  ![바로 가기 이름 편집](media/mobile-app-quick-access-shortcuts/mobile-edit-shortcut.png)
 

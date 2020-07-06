@@ -7,17 +7,18 @@ author: mihart
 editor: ''
 tags: ''
 ms.service: powerbi
+ms.subservice: powerbi-consumer
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/11/2020
+ms.date: 06/17/2020
 ms.author: mihart
-ms.openlocfilehash: eeffb4c0fb7db57eacf18818275716db42679f6e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 20d54e9050e1481180b3a8b58a69c7235198bef3
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79206036"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85355148"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>빠른 시작: *소비자*의 Power BI 기능 알아보기
 
@@ -155,7 +156,7 @@ Easily navigate between the visualizations on the report page.
     ![report Selection pane](media/end-user-reading-view/power-bi-selection-pane-new.png) -->
 
 ### <a name="zoom-in-on-individual-visuals"></a>개별 시각적 개체 확대
-시각적 개체를 마우스로 가리키고 **포커스 모드** 아이콘 ![](media/end-user-reading-view/pbi_popouticon.jpg)을 선택합니다. 아래와 같이 포커스 모드에서 시각화를 보고 전체 보고서 캔버스를 채우도록 확장합니다.
+시각적 개체를 마우스로 가리키고 **포커스 모드** 아이콘을 선택해 ![메뉴에서 포커스 모드를 선택](media/end-user-reading-view/pbi_popouticon.jpg)합니다. 아래와 같이 포커스 모드에서 시각화를 보고 전체 보고서 캔버스를 채우도록 확장합니다.
 
 ![포커스 모드](media/end-user-reading-view/power-bi-full-screen-before.png)
 

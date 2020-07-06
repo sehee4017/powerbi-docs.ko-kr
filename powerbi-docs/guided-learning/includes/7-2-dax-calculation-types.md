@@ -1,17 +1,17 @@
 ---
-ms.openlocfilehash: 4ea1b2141cf9a072f11a3a62789c7c0ec5b500a4
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0296512b59baf828dd284088e0109af819aee261
+ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73799993"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "84562121"
 ---
 DAX를 사용하여 만들 수 있는 두 가지 기본 계산이 있습니다.
 
 * **계산 열**
-* **계산 측정값**
+* **측정값**
 
-그 중 하나를 만드는 방법을 살펴보기 전에 **계산 된 열** 또는 **계산 된 측정값** 중 하나를 만들 때 사용하는 테이블 및 열에 대한 DAX 구문을 파악하는 것이 좋습니다.
+**계산 열** 또는 **측정값**을 만드는 방법을 살펴보기 전에 만들 때 사용할 테이블과 열의 DAX 구문을 확실히 파악하는 것이 좋습니다.
 
 ## <a name="dax-table-and-column-name-syntax"></a>DAX 테이블 및 열 이름 구문
 새 열 또는 측정값을 만드는 경우 DAX에서 테이블 이름의 일반 형식을 알아야 합니다.
@@ -51,8 +51,8 @@ DAX를 사용하여 만들 수 있는 두 가지 기본 계산이 있습니다.
 
 계산 열 수식에서 테이블 또는 열을 참조하는 경우 테이블에서 행을 지정하지 않아도 됩니다. Power BI에서 각 계산에 대한 현재 행의 열을 계산합니다.
 
-## <a name="creating-calculated-measures"></a>계산 측정값 만들기
-백분율 또는 비율을 계산하거나 복잡한 집계가 필요할 때 **계산 측정값**을 사용합니다. DAX 수식을 사용하여 측정값을 만들려면 **모델링** 탭에서 **새 측정값** 단추를 선택합니다. **수식 입력줄**을 보여 주고 쉽게 DAX 수식을 작성할 수 있기 때문에 Power BI Desktop에서 **데이터** 보기가 좋습니다.
+## <a name="creating-measures"></a>측정값 만들기
+백분율 또는 비율을 계산하거나 복잡한 집계가 필요할 때 **측정값**을 사용합니다. DAX 수식을 사용하여 측정값을 만들려면 **모델링** 탭에서 **새 측정값** 단추를 선택합니다. **수식 입력줄**을 보여 주고 쉽게 DAX 수식을 작성할 수 있기 때문에 Power BI Desktop에서 **데이터** 보기가 좋습니다.
 
 ![](media/7-2-dax-calculation-types/dax-calc-types_4.png)
 
@@ -60,7 +60,7 @@ DAX를 사용하여 만들 수 있는 두 가지 기본 계산이 있습니다.
 
 ![](media/7-2-dax-calculation-types/dax-calc-types_5.png)
 
-계산 측정값에 대한 필수 요소는 계산 열의 경우와 동일합니다.
+측정값의 필수 요소는 계산 열의 경우와 동일합니다.
 
 * 새 측정값 이름
 * 하나 이상의 함수 또는 식

@@ -7,16 +7,16 @@ ms.reviewer: tessa
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b0fc91eab8c377f5571e66eb7baaf55234fafa97
-ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
+ms.openlocfilehash: f4d1bb58093ed3c78330370d5a44a3f98ee4aae7
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84337030"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238958"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>시각화를 생성하는 데 사용된 데이터 내보내기
 
@@ -156,7 +156,7 @@ Will이 보고서의 시각화 중 하나에서 데이터를 내보내고 *.xlsx
 
 ## <a name="customize-the-export-data-user-experience"></a>데이터 내보내기 사용자 환경 사용자 지정
 
-보고서에 대한 액세스 권한이 부여된 사용자는 [RLS(행 수준 보안)(../admin/service-admin-rls.md)가 액세스를 제한하지 않는 한 **전체 기본 데이터 세트에 대한 액세스가 허용됩니다**. 보고서 작성자 및 Power BI 관리자는 아래에 설명된 기능을 사용하여 사용자 환경을 사용자 지정할 수 있습니다.
+보고서에 대한 액세스 권한이 부여된 사용자에게는 [행 수준 보안(RLS)](../admin/service-admin-rls.md)이 액세스를 제한하지 않는 한 **전체 기본 데이터 세트에 대한 액세스 권한이 부여됩니다**. 보고서 작성자 및 Power BI 관리자는 아래에 설명된 기능을 사용하여 사용자 환경을 사용자 지정할 수 있습니다.
 
 - 보고서 작성자는 [사용자가 사용할 수 있는 ‘내보내기 옵션’](#set-the-export-options)을 결정할 수 있습니다.  
 
@@ -171,7 +171,7 @@ Will이 보고서의 시각화 중 하나에서 데이터를 내보내고 *.xlsx
 
 ## <a name="protect-data-when-it-is-exported-out-of-power-bi"></a>데이터가 Power BI 외부로 내보내질 때 보호
 
-- 보고서 작성자는 보고서에 [민감도 레이블](../admin/service-security-data-protection-overview.md)을 적용할 수 있습니다.  이러한 레이블은 보고서 데이터에 액세스할 수 있는 사용자 및 데이터를 Excel, PowerPoint 및 PDF로 내보내는 방법을 결정합니다. 일부 민감도 수준에는 데이터를 내보낼 때 적용되는 보호 설정(예: 사용 권한, 암호화)이 포함됩니다. 민감도 수준에 보호 설정이 포함되어 있으면 데이터를 Excel, PowerPoint 및 PDF로 내보낼 때 해당 설정이 적용됩니다. 적절한 권한이 있는 사용자만 보고서 데이터를 내보내고 보고 저장하고 공유할 수 있습니다. 
+- 보고서 작성자는 Microsoft Information Protection [민감도 레이블](../admin/service-security-data-protection-overview.md)을 사용하여 보고서를 분류하고 레이블을 지정할 수 있습니다. 민감도 레이블에 보호 설정이 있는 경우 Power BI는 보고서 데이터를 Excel, PowerPoint 또는 PDF 파일로 내보낼 때 이러한 보호 설정을 적용합니다. 보호된 파일은 권한 있는 사용자만 열 수 있습니다.
 
 - 보안 및 Power BI 관리자는 [Microsoft Cloud App Security](../admin/service-security-data-protection-overview.md)를 사용하여 사용자 액세스 및 활동을 모니터링하고, 실시간 위험 분석을 수행하며, 레이블 관련 제어를 설정할 수 있습니다. 예를 들어 조직에서 Microsoft Cloud App Security를 사용하여 사용자가 중요한 데이터를 Power BI에서 비관리형 디바이스로 다운로드할 수 없도록 하는 정책을 구성할 수 있습니다.
 

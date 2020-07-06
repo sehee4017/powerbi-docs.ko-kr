@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/05/2020
+ms.date: 06/24/2020
 ms.author: painbar
-ms.openlocfilehash: 7d0933b20c942df724a4d21fbba438cdc8748969
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 9655783decee99bc90071cdfbd66a8b58d8272f4
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565303"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782588"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -24,6 +24,20 @@ ms.locfileid: "83565303"
 
 >[!NOTE]
 >**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="june-2020"></a>2020년 6월
+### <a name="show-your-bookmarks-in-slideshows-windows"></a>슬라이드 쇼에 책갈피 표시(Windows)
+이제 보고서 책갈피와 개인 책갈피를 프레젠테이션의 일부로 슬라이드 쇼에 자동으로 포함하여 데이터에서 특정 인사이트를 강조 표시할 수 있습니다.
+[확인해 보세요](mobile-windows-10-app-presentation-mode.md#use-presentation-mode).
+
+## <a name="may-2020"></a>2020년 5월
+### <a name="weve-added-dark-mode-to-power-bi-mobile-ios"></a>Power BI Mobile에 어둡게 모드가 추가됨(iOS)
+iOS13용 Power BI 모바일 앱에서 새로운 어둡게 모드를 사용해 보세요. 어둡게 모드에서는 어두운 배경에 밝은 텍스트가 표시되어 화면의 밝기가 줄어들고 콘텐츠를 더 쉽게 볼 수 있습니다. 앱 모양 설정에서 테마를 전환할 수 있습니다. [자세히 알아보기](mobile-apps-dark-mode.md)
+
+![Power BI 모바일 앱의 어둡게 모드](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-dark-mode.png)
+
+### <a name="apply-bookmarks-in-presentation-mode-windows"></a>프레젠테이션 모드에서 책갈피 적용(Windows)
+이제 프레젠테이션 모드에서 보고서를 프레젠테이션할 때 보고서 페이지에 개인 책갈피와 보고서 책갈피를 모두 적용하여 데이터에 대한 스토리 전달이 가능합니다. [확인해 보세요](mobile-windows-10-app-presentation-mode.md#use-presentation-mode).
 
 ## <a name="april-2020"></a>2020년 4월
 

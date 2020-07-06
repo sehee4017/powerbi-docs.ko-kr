@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: 42304e60740c215b1300e66f074807aea10ec6f9
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
+ms.openlocfilehash: cbc8f6366e23aa7fbfb447bbfe56909c09f3e3fd
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84317055"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354481"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>자습서:  R 스크립트에서 R 시각적 개체로 깔대기형 그림 빌드
 이 문서에서는 R 시각적 개체에서 R 스크립트를 사용하여 깔때기형 그림을 빌드하는 방법을 단계별로 설명합니다.
@@ -89,13 +89,13 @@ ms.locfileid: "84317055"
 
    각 입력 필드에 대한 이름, 형식, 도구 설명 및 최대 열 수를 정의하는 `dataRoles` 및 `dataViewMappings` 섹션을 업데이트해야 합니다.
 
-   ![](./samples/funnel-plot/chapter-3/funnel-r-visual-v02/capabilities-before-vs-after.png)
+   ![이전 및 이후](./samples/funnel-plot/chapter-3/funnel-r-visual-v02/capabilities-before-vs-after.png)
    
    자세한 내용은 [기능](./capabilities.md)을 참조하세요.
 
 1. `dataset` 대신 `Population`, `Number` 및 `Tooltips`를 입력 데이터 프레임으로 지원하기 위해 *script.r*을 편집하거나, [script.r](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v02/script.r)을 다운로드합니다.
 
-   ![](./samples/funnel-plot/chapter-3/funnel-r-visual-v02/script-r-before-vs-after.png)
+   ![스크립트](./samples/funnel-plot/chapter-3/funnel-r-visual-v02/script-r-before-vs-after.png)
 
    > [!TIP]
    > R 스크립트의 변경을 따르려면 주석 블록을 검색합니다. 
@@ -125,7 +125,7 @@ ms.locfileid: "84317055"
 
    [capabilities.json](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/capabilities.json)을 다운로드하고, 자세한 내용은 [개체 속성](./objects-properties.md)을 참조하세요.
 
-   ![](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/capabilities-before-after.PNG)
+   ![capabilities](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/capabilities-before-after.PNG)
 
 1. *src/settings.ts*가 [이 settings.ts](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/src/settings.ts)를 미러링하도록 편집합니다. 이 파일은 TypeScript로 작성됩니다.  
 
@@ -133,7 +133,7 @@ ms.locfileid: "84317055"
    - 속성 값을 보유할 새 인터페이스 선언
    - 멤버 속성 및 기본값 정의
 
-   ![](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/settings-ts-before-after.PNG)
+   ![설정](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/settings-ts-before-after.PNG)
 
 1. *script.r*이 [이 script.r](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script.r)을 미러링하도록 편집합니다. 그러면 사용자 매개 변수마다 `if.exists` 호출을 추가하여 UI의 매개 변수에 대한 지원이 추가됩니다.
 
@@ -150,7 +150,7 @@ ms.locfileid: "84317055"
    > #RVIZ_IN_PBI_GUIDE:END:Removed to enable user parameters
    > ```
 
-   ![](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script_r_before_after_1.png)
+   ![앞뒤의 스크립트](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script_r_before_after_1.png)
 
    앞서 설명한 것처럼 UI에 매개 변수를 노출하지 않도록 결정할 수 있습니다.  
 

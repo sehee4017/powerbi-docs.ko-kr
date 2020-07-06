@@ -5,17 +5,17 @@ author: mihart
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/19/2020
 ms.author: mihart
-ms.custom: licensing support
+ms.custom: licensing support, css_fy20Q4
 LocalizationGroup: Share your work
-ms.openlocfilehash: baa556b1db10827b5979331ddcc22fa1e111a661
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
+ms.openlocfilehash: ed50045aca966face5d758c9036508bdfef81d5e
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84160160"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236544"
 ---
 # <a name="apps-in-power-bi"></a>Power BI의 앱
 
@@ -43,15 +43,17 @@ ms.locfileid: "84160160"
 
 <!-- add conceptual art -->
 ## <a name="get-a-new-app"></a>새 앱 가져오기
-몇 가지 방법으로 앱을 가져올 수 있습니다. 아래에 몇 가지 방법이 나와 있습니다.  하지만 앱을 가져오고 탐색하는 방법에 대한 자세한 단계별 지침은 [앱 열기 및 상호 작용](end-user-app-view.md)을 참조하세요.
+새 앱을 가져오는 가장 좋은 방법은 [Power BI 앱 마켓플레이스](https://app.powerbi.com/groups/me/getapps/apps)에서 가져오는 것입니다.
 
-- 앱 디자이너는 앱을 Power BI 계정에 자동으로 설치할 수 있으며, 다음에 Power BI를 열면 새 앱이 **앱** 콘텐츠 목록에 표시됩니다. 
-- 앱 디자이너는 앱의 직접 링크를 소비자에게 메일로 보낼 수 있습니다. 링크를 선택하면 Power BI 서비스에서 앱이 열립니다.
-- 모바일 디바이스의 Power BI에서는 AppSource가 아닌 직접 링크를 통해서만 설치할 수 있습니다. 앱 작성자가 앱을 자동 설치할 경우 앱 목록이 표시됩니다.
-- [AppSource](https://appsource.microsoft.com)에서 앱을 검색할 수 있습니다. AppSource에는 회사 내외부에서 보고서 디자이너가 게시한 앱이 포함되어 있습니다. 예를 들어 Google Analytics, GitHub 또는 Microsoft Dynamics와 같이 이미 사용하고 있는 서비스에 대한 AppSource에서 앱을 찾을 수 있습니다. 또한 Power BI를 학습하는 데 사용할 수 있는 샘플에 해당하는 앱도 찾을 수 있습니다.  
+![Power BI 앱 마켓플레이스](./media/end-user-apps/power-bi-app-marketplace.png)
 
+앱을 가져오는 몇 가지 다른 방법이 있습니다. 아래에 이런 방법 일부가 나와 있습니다. 하지만 앱을 가져오고 탐색하는 방법에 대한 자세한 단계별 지침은 [앱 열기 및 상호 작용](end-user-app-view.md)을 참조하세요.
 
-## <a name="next-step"></a>다음 단계
+* 앱 디자이너는 앱을 Power BI 계정에 자동으로 설치할 수 있으며, 다음에 Power BI를 열면 새 앱이 **앱** 콘텐츠 목록에 표시됩니다. 
+* 앱 디자이너는 앱의 직접 링크를 소비자에게 메일로 보낼 수 있습니다. 링크를 선택하면 Power BI 서비스에서 앱이 열립니다.
+* 모바일 디바이스의 Power BI에서는 AppSource가 아닌 직접 링크를 통해서만 설치할 수 있습니다. 앱 작성자가 앱을 자동 설치할 경우 앱 목록이 표시됩니다. 
+
+## <a name="next-steps"></a>다음 단계
 * [앱 열기 및 상호 작용](end-user-app-view.md)
 * [콘텐츠를 공유하는 다른 방법](end-user-shared-with-me.md)
 

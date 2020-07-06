@@ -6,19 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 02/19/2020
+ms.date: 06/25/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a84ebd1374cab596023f55024eb9368a69daab0d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 10db78c01ea074e2b3fab71715a3df92ae207f8e
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236026"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782479"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Power BI 보고서에서 차트 정렬 방식 변경
 
-[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
+[!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
 
 > [!IMPORTANT]
@@ -26,7 +26,7 @@ ms.locfileid: "85236026"
 
 Power BI 서비스에서 다양한 데이터 필드로 정렬하여 시각적 개체의 모양을 변경할 수 있습니다. 시각적 개체의 정렬 방법을 변경하여 전달하려는 정보를 강조 표시할 수 있습니다. 숫자 데이터(예: 판매 수치) 또는 텍스트 데이터(예: 주 이름) 중 어떤 데이터를 사용하든지 시각화를 원하는 대로 정렬할 수 있습니다. Power BI는 여러 가지 정렬 방법과 간편한 메뉴를 제공합니다. 
 
-대시보드의 시각적 개체는 정렬할 수 없지만 Power BI 보고서에서는 대부분의 시각화를 정렬할 수 있습니다. 
+대시보드의 시각적 개체는 정렬할 수 없습니다. 하지만 Power BI 보고서에서는 대부분의 시각화를 한 번에 한 개, 경우에 따라 두 개의 필드를 기준으로 정렬할 수 있습니다. 특정 형식의 시각적 개체에는 정렬을 전혀 사용할 수 없습니다(트리 맵, 계기, 지도 등). 
 
 ## <a name="get-started"></a>시작
 
@@ -51,6 +51,19 @@ Power BI 서비스에서 다양한 데이터 필드로 정렬하여 시각적 �
 
 > [!NOTE]
 > 일부 시각화는 정렬되지 않습니다. 예를 들어 트리맵, 지도, 등치 지역도, 분산형, 계기, 카드, 폭포 시각화는 정렬할 수 없습니다.
+
+## <a name="sorting-by-multiple-columns"></a>여러 열을 기준으로 정렬
+이 테이블의 데이터는 **고객 수**를 기준으로 정렬됩니다.  단어 숫자 아래 있는 작은 화살표로 이를 알 수 있습니다. 화살표가 아래를 향하고 있는 것은 열이 내림차순으로 정렬되어 있음을 의미합니다.
+
+![정렬에 사용되는 첫 번째 열을 보여 주는 스크린샷](media/end-user-change-sort/power-bi-sort-first.png)
+
+
+정렬 순서에 열을 더 추가하려면 정렬 순서 옆에서 추가하려는 열 머리글을 Shift를 누른 상태로 클릭합니다. 예를 들어 **고객 수**를 클릭한 다음 Shift를 누른 상태에서 **총 수익**을 클릭하면 테이블은 먼저 고객 기준으로 정렬된 다음 수익 기준으로 정렬됩니다. 빨간색 윤곽선은 정렬 순서가 변경된 영역을 표시합니다.
+
+![정렬에 사용되는 두 번째 열을 보여 주는 스크린샷](media/end-user-change-sort/power-bi-sort-second.png)
+
+같은 열에서 Shift를 누른 상태로 다시 클릭하면 해당 열의 정렬 방향이 변경됩니다. 또한 이전에 정렬 순서에 추가한 열을 Shift를 누른 상태로 클릭하면 해당 열이 정렬 순서의 뒤로 이동합니다.
+
 
 ## <a name="saving-changes-you-make-to-sort-order"></a>정렬 순서에 적용한 변경 내용 저장
 Power BI 보고서는 [읽기용 보기](end-user-reading-view.md)에서 작업하는 경우에도 필터, 슬라이서, 정렬 및 기타 데이터 뷰 변경 내용을 유지합니다. 따라서 보고서에서 다른 곳으로 이동했다가 나중에 돌아오면 정렬 변경 내용이 저장됩니다.  변경 내용을 보고서 *디자이너* 설정으로 다시 되돌리려면 위쪽 메뉴 모음에서 **기본값으로 다시 설정**을 선택합니다. 

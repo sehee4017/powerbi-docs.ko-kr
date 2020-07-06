@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 95e661e81e7753d0a28806cca5d652f8e92666a8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 24e8ac32fb89db2fdc0d1f4ad3fbaffdadaf57bb
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114109"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85237431"
 ---
 # <a name="the-visual-filters-api-in-power-bi-visuals"></a>Power BI 시각적 개체의 시각적 개체 필터 API
 
@@ -53,7 +53,7 @@ export interface IFilter {
     target: IFilterTarget;
 }
 ```
-위치:
+조건:
 * `target`은 데이터 원본의 테이블 열입니다.
 
 ## <a name="the-basic-filter-api"></a>기본 필터 API
@@ -67,7 +67,7 @@ export interface IBasicFilter extends IFilter {
 }
 ```
 
-위치:
+조건:
 * `operator`는 *In*, *NotIn*, *All* 값을 포함하는 열거형입니다.
 * `values`는 조건의 값입니다.
 
@@ -178,7 +178,7 @@ interface ITupleFilter extends IFilter {
 }
 ```
 
-위치:
+조건:
 * `target`은 테이블 이름이 포함된 열 배열입니다.
 
     ```typescript
@@ -261,7 +261,7 @@ SELECT * FROM DataTable WHERE ( Team = "Team1" AND Value = 5 ) OR ( Team = "Team
 
 ## <a name="restore-the-json-filter-from-the-data-view"></a>데이터 뷰에서 JSON 필터 복원
 
-API 버전 2.2부터, 다음 코드와 같이 *VisualUpdateOptions*에서 JSON 필터를 복원할 수 있습니다.
+API 버전 2.2.0부터, 다음 코드와 같이 *VisualUpdateOptions*에서 JSON 필터를 복원할 수 있습니다.
 
 ```typescript
 export interface VisualUpdateOptions extends extensibility.VisualUpdateOptions {
@@ -285,7 +285,7 @@ export interface VisualUpdateOptions extends extensibility.VisualUpdateOptions {
 
 ### <a name="clear-the-json-filter"></a>JSON 필터 지우기
 
-필터 API는 필터의 `null` 값을 ‘다시 설정’ 또는 ‘지우기’로 허용합니다.  
+필터 API는 필터의 `null` 값을 ‘다시 설정’ 또는 ‘지우기’로 허용합니다. 
 
 ```typescript
 // invoke the filter

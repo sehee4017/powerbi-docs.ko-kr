@@ -7,15 +7,15 @@ featuredvideoid: et_MLSL2sA8
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 06/22/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 891a9b1a5afee26bdb2d6b363ccd2cee5f2461cb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 111b2b5fe0ae4b341816becdb4baf0b96e057cdd
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377287"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354504"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Power BI로 대시보드 타일에서 데이터 인사이트 보기
 
@@ -29,7 +29,7 @@ ms.locfileid: "79377287"
 
 인사이트 기능은 Microsoft Research와의 연계를 통해 개발되는 [고급 분석 알고리즘 집합](end-user-insight-types.md)의 성장을 기반으로 구축됩니다. 당사는 더 많은 사람들이 새롭고 직관적인 방식으로 각자 데이터의 정보를 활용할 수 있도록 하기 위해 노력할 것입니다.
 
-## <a name="run-insights-on-a-dashboard-tile"></a>대시보드 타일에서 정보 활용 실행
+## <a name="run-insights-on-a-dashboard-tile"></a>대시보드 타일에서 인사이트 실행
 대시보드 타일에서 인사이트를 실행하는 경우 Power BI에서 해당 단일 대시보드 타일을 만드는 데 사용된 데이터만 검색합니다. 
 
 1. [대시보드를 엽니다](end-user-dashboards.md).
@@ -43,7 +43,7 @@ ms.locfileid: "79377287"
     ![포커스 모드](./media/end-user-insights/power-bi-insights-tile.png)    
 4. 인사이트 하나로 호기심이 자극되나요? 자세히 알아보려면 해당 인사이트 카드를 선택합니다. 선택한 인사이트는 왼쪽에 나타나고 해당 단일 인사이트의 데이터에만 기초한 새 인사이트 카드는 오른쪽에 표시됩니다.    
 
- ## <a name="interact-with-the-insight-cards"></a>정보 활용 카드와 상호 작용
+ ## <a name="interact-with-the-insight-cards"></a>인사이트 카드와 상호 작용
 일단 인사이트가 시작되면 계속 살펴보세요.
 
    * 캔버스에서 시각적 개체를 필터링합니다.  필터를 표시하려면 오른쪽 위 모서리에 있는 화살표를 선택하여 필터 창을 확장합니다.
@@ -54,16 +54,18 @@ ms.locfileid: "79377287"
    
       ![확장된 필터 메뉴](./media/end-user-insights/power-bi-insight-card.png)
    
-   * 오른쪽 위 모서리에서 전구 모양 아이콘 ![인사이트 아이콘](./media/end-user-insights/power-bi-bulb-icon.png) 또는 **인사이트**를 선택합니다. 정보 활용이 왼쪽에 표시되고 해당 단일 정보 활용의 데이터에만 기초한 새 카드는 오른쪽에 표시됩니다.
+   * 오른쪽 위 모서리에서 전구 모양 아이콘 ![인사이트 아이콘](./media/end-user-insights/power-bi-bulb-icon.png) 또는 **인사이트**를 선택합니다. 인사이트가 왼쪽에 표시되고 해당 단일 인사이트의 데이터에만 기초한 새 카드는 오른쪽에 표시됩니다.
      
-     ![정보 활용을 보여주는 메뉴 모음 아이콘](./media/end-user-insights/power-bi-related.png)
+     ![인사이트를 보여주는 메뉴 모음 아이콘](./media/end-user-insights/power-bi-related.png)
      
 보고서로 돌아가려면 왼쪽 위 모서리에서 **포커스 모드 종료**를 선택합니다.
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
-- **인사이트 보기**는 모든 대시보드 타일 유형에서 작동하지 않습니다. 예를 들면 Power BI 시각적 개체에는 사용할 수 없습니다.<!--[Power BI visuals](end-user-custom-visuals.md)-->
+- **인사이트 보기**는 모든 대시보드 타일 유형에서 작동하지 않습니다. 예를 들면 Power BI 사용자 지정 시각적 개체에는 사용할 수 없습니다.<!--[Power BI visuals](end-user-custom-visuals.md)-->
 
 
 ## <a name="next-steps"></a>다음 단계
+
+[분석 기능을 사용](end-user-analyze-visuals.md)하여 보고서 시각적 개체에서 인사이트 실행    
 [사용 가능한 빠른 인사이트 유형](end-user-insight-types.md)에 대해 알아보기
 

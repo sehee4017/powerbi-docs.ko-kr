@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 102145e8c5b2fd3ad19b6703710405d06da5a93a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: f7760021966673b93313809a806473b94c7750d3
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83323232"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85218703"
 ---
 # <a name="make-excel-data-work-well-with-qa-in-power-bi"></a>Power BI의 질문 및 답변에서 Excel 데이터가 잘 작동하도록 설정
 데이터 모델을 만들거나 Power BI에 사용할 Excel 통합 문서를 작성하는 사람이라면 다음을 확인하세요.
@@ -40,13 +40,13 @@ Power BI에서는 질문 및 답변으로 구조화된 데이터를 검색하고
 
 * 통합 문서에 파워 피벗 데이터 모델이 있는 경우 더 많은 최적화를 수행할 수 있습니다. 사내 팀의 자연어 전문가가 제공하는 [Power BI 질문 및 답변 이해 2부](https://powerbi.microsoft.com/blog/demystifying-power-bi-q-amp-a-part-2/)에 대해 자세히 알아보세요.
 
-* Power BI Desktop에서 데이터 세트를 열고 새 열을 만들고, 계산된 측정값을 만들고, 필드를 연결하여 고유 값을 만들고, 데이터를 유형별로(예: 날짜, 문자열, 지리, 이미지, URL) 분류합니다.
+* Power BI Desktop에서 데이터 세트를 열고 새 열을 만들고, 측정값을 만들고, 필드를 연결하여 고유 값을 만들고, 데이터를 유형별로(예: 날짜, 문자열, 지리, 이미지, URL) 분류합니다.
 
 ## <a name="next-steps"></a>다음 단계
 
 - [소비자를 위한 Q&A](../consumer/end-user-q-and-a.md)  
 - [대시보드 및 보고서에서 Q&A 사용](power-bi-tutorial-q-and-a.md)
 - [질문 및 답변에 대한 온-프레미스 데이터 세트 준비](service-q-and-a-direct-query.md)   
-- [데이터 가져오기(Power BI)](../connect-data/service-get-data.md)  
+- [Power BI에 대한 데이터 가져오기](../connect-data/service-get-data.md)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

@@ -1,17 +1,17 @@
 ---
 title: 보고서 작성자 학습 카탈로그
 description: Power BI와 관련된 모든 학습 옵션 찾기
-author: loreleishannonmsft
+author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: v-lshann
-ms.openlocfilehash: f318aa59f33a9993b31787fcb3e0036286616608
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.author: margoc
+ms.openlocfilehash: ed36d045047215babb092eb074156c950af9d16f
+ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81268814"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "84532284"
 ---
 # <a name="report-creator-learning-catalog"></a>보고서 작성자 학습 카탈로그
 
@@ -39,6 +39,7 @@ Power BI 보고서 디자이너이신가요?
 ## <a name="report-design"></a>보고서 디자인<a name="report-design"></a>
 | 콘텐츠 | 설명  | 서식 | 길이   |
 |-------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|----------------|
+|[온라인 과정: 페이지를 매긴 Power BI 보고서 하루에 끝내기](paginated-reports-online-course.md)|페이지를 매긴 Power BI 보고서를 만들고 게시하고 배포하는 데 필요한 기술 지식으로 보고서 작성자의 역량을 강화하는 것을 목표로 하는 비디오 기반 과정입니다. 비디오 1부터 비디오 24까지 녹화된 순서대로 비디오를 시청하는 것이 좋습니다.|YouTube 재생 목록 및 자율 학습 키트|4시간 20분|
 | [Tristan Malherbe가 설명하는 Power BI를 사용한 데이터 사례 발표](https://www.youtube.com/watch?v=egk0suekwHo)  | Tristan Malherbe가 설명하는 Power BI를 사용한 데이터 사례 발표  | YouTube 비디오 | 59분 54초    |
 | [PowerBI.Tips 소유자의 파워 요령, 팁 및 도구](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-Tricks-Tips-and-Tools-from-the-owners-of-PowerBI-Tips/td-p/382848) | PowerBI.Tips 소유자의 파워 요령, 팁 및 도구입니다. 매우 특별한 사용자 그룹 모임에서 PowerBI.Tips 소유자이자 Power BI MVP인 Seth Bauer와 Mike Carlo는 지난 18개월 동안 http://PowerBI.Tips 에 게시한 방대한 파워 요령, 팁 및 도구를 공유합니다. 쿼리 편집기 내에서 데이터 형식을 추가하는 테마 생성기와 최신 제품 Power BI 레이아웃(및 최신 레이아웃 “Cool Blue” 둘러보기)을 포함하는 데모입니다.  | 웹 세미나       | 1시간 7분 4초 |
 | [18/9/11 웨비나: 새 도구와 새 템플릿(색 변경 내용 설명 포함)](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/9-11-18-Webinar-New-tools-and-new-templates-including-a/td-p/480220) | PowerBI.Tips 작성자이자 Microsoft MVP인 Seth Bauer 및 Mike Carlo와 Charles Sterling은 지난 6개월 동안 https://PowerBI.Tips 에 게시한 많은 파워 요령, 팁 및 도구를 공유합니다. 데모에는 최신 테마 생성기, 팁과 요령, 최신 Power BI 레이아웃이 포함됩니다.  | 웹 세미나       | 53분 34초    |

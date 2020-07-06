@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: f64fcd86d54c20e1318d38c2a73e9bca2174558a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: c4fe9f20e2b6b978479cfdad0651a96d6d322056
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83302670"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485648"
 ---
 # <a name="on-premises-data-gateway-faq---power-bi"></a>온-프레미스 데이터 게이트웨이 FAQ - Power BI
 
@@ -48,7 +48,7 @@ ms.locfileid: "83302670"
 
 ## <a name="analysis-services-in-power-bi"></a>Power BI의 Analysis Services
 
-**질문:** msdmpump.dll을 사용하여 Analysis Services에 사용자 지정 유효 사용자 이름 매핑을 만들 수 있나요? 
+**질문:** msmdpump.dll을 사용하여 Analysis Services에 사용자 지정 유효 사용자 이름 매핑을 만들 수 있나요? 
 
 **답변:** 아니요. 지금은 사용하도록 지원되지 않습니다.
 

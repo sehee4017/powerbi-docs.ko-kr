@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 6456d6126245ac6416dd7f50e705a0c731d98623
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 178a2f2037a52b1b08e1006123c30eff1af18af6
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83325831"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393752"
 ---
 # <a name="set-and-use-date-tables-in-power-bi-desktop"></a>Power BI Desktop에서 날짜 테이블 설정 및 사용
 
@@ -47,7 +47,7 @@ ms.locfileid: "83325831"
 
 * 첫 번째 시나리오는 정식 또는 기본 날짜 테이블 및 계층 구조를 만드는 경우입니다. 이전에 설명한 날짜 테이블에 대한 유효성 검사 기준을 충족하는 데이터의 테이블입니다. 
 
-* 두 번째 시나리오는 예를 들어 날짜 테이블로 사용할 ‘희미한 날짜’ 필드를 사용하는 것처럼 Analysis Services의 테이블을 사용하는 경우입니다.  
+* 두 번째 시나리오는 예를 들어 날짜 테이블로 사용할 ‘희미한 날짜’ 필드를 사용하는 것처럼 Analysis Services의 테이블을 사용하는 경우입니다. 
 
 날짜 테이블을 지정하면 해당 테이블에서 날짜 열인 열을 선택할 수 있습니다. **필드** 창에서 테이블을 선택하여 사용할 열을 지정한 다음, 테이블을 마우스 오른쪽 단추로 클릭하고 **날짜 테이블로 표시 > 날짜 테이블 설정**을 선택합니다. 다음 창이 나타납니다. 이 창의 드롭다운 상자에서 날짜 테이블로 사용할 열을 선택할 수 있습니다.
 
@@ -74,7 +74,10 @@ ms.locfileid: "83325831"
 
 ## <a name="next-steps"></a>다음 단계
 
-다음 문서에도 관심이 있을 수 있습니다.
+이 문서와 관련된 보다 자세한 내용을 알아보려면 다음 리소스를 참조하세요.
 
 * [Power BI Desktop의 자동 날짜/시간](desktop-auto-date-time.md)
+* [Power BI Desktop에서 날짜 테이블 만들기](../guidance/model-date-tables.md)
 * [Power BI Desktop의 데이터 형식](../connect-data/desktop-data-types.md)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+* 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com/)

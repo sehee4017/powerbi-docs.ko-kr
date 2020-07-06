@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: c619f37ac062eec02eb379ba7cd97731254a171a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: ba0a85958fad500bd27f4697a7f46961ca430f49
+ms.sourcegitcommit: 0b1e96de184caf2371adedcc3ee43bcb88048187
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279391"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "85299575"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Power BI Embedded 성능에 대한 모범 사례
 
 이 문서에서는 애플리케이션의 보고서, 대시보드 및 타일을 더 빠르게 렌더링하기 위한 추천 사항을 제공합니다.
 
 > [!Note]
-> 로드 시간은 주로 시각적 개체, 데이터 크기, 쿼리 및 계산된 측정값의 복잡성을 포함하여 보고서 및 데이터 자체와 관련된 요소에 따라 달라집니다. 자세한 내용은 [Power BI 최적화 가이드](../../guidance/power-bi-optimization.md)를 참조하세요.
+> 로드 시간은 주로 시각적 개체, 데이터 크기, 쿼리 및 측정값의 복잡성을 비롯한 보고서 및 데이터 자체와 관련된 요소에 따라 달라집니다. 자세한 내용은 [Power BI 최적화 가이드](../../guidance/power-bi-optimization.md)를 참조하세요.
 
 ## <a name="update-tools-and-sdk-packages"></a>도구 및 SDK 패키지 업데이트
 
@@ -53,7 +53,7 @@ ms.locfileid: "83279391"
 동일한 iframe에 여러 보고서를 포함하는 경우 각 보고서에 대해 새 iframe을 생성하지 마세요. 대신, 새 보고서를 포함하는 다른 구성의 `powerbi.embed(element, config)`를 사용합니다.
 
 > [!NOTE]
-> '앱 소유 데이터' 시나리오에 대한 보고서 간 전환은 새 포함 토큰을 생성하는 데 필요하기 때문에 매우 효과적일 수 있습니다.
+> 고객을 위해 포함('앱 소유 데이터' 시나리오라고도 함)할 때 보고서 간에 전환하려면 모든 보고서 및 데이터 세트에 대한 권한이 있는 포함 토큰을 사용해야 합니다. 자세한 내용은 [토큰 API 생성](https://docs.microsoft.com/rest/api/power-bi/embedtoken/generatetoken)을 참조하세요.
 
 ## <a name="query-caching"></a>쿼리 캐싱
 

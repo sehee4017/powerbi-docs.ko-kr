@@ -1,6 +1,6 @@
 ---
 title: Power BI Premium의 페이지를 매긴 보고서란?
-description: 페이지를 매긴 보고서는 SQL Server Reporting Services의 표준 보고서 형식과 함께 이제 Power BI 서비스에서 사용할 수 있습니다. 이러한 보고서를 인쇄 또는 공유할 수 있습니다. 보고서 레이아웃을 정확하게 제어할 수 있습니다. 이러한 보고서에는 테이블이 여러 페이지에 걸쳐 있는 경우에도 테이블의 모든 데이터가 표시됩니다.
+description: 이제 Power BI 서비스에서 페이지를 매긴 보고서를 사용할 수 있습니다. 이러한 보고서는 SQL Server Reporting Services에서 오랫동안 표준이었습니다. 이러한 보고서를 인쇄 또는 공유할 수 있습니다. 보고서 레이아웃을 정확하게 제어할 수 있습니다. 이러한 보고서에는 테이블이 여러 페이지에 걸쳐 있는 경우에도 테이블의 모든 데이터가 표시됩니다.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 05/19/2020
-ms.openlocfilehash: 69d6f3c828066a66c59ab8becf4fd4f43e54c547
-ms.sourcegitcommit: c1f05254eaf5adb563f8d4f33c299119134c7d1f
+ms.openlocfilehash: 7483b6878a7f7c2e01be7869827f8de66499cc5f
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83733419"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393787"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Power BI Premium의 페이지를 매긴 보고서란?
 
@@ -95,7 +95,8 @@ ms.locfileid: "83733419"
  
 ## <a name="next-steps"></a>다음 단계
 
-- [Microsoft 다운로드 센터에서 Power BI 보고서 작성기 설치](https://go.microsoft.com/fwlink/?linkid=2086513)
+- [Microsoft 다운로드 센터에서 Power BI 보고서 작성기 설치](https://aka.ms/pbireportbuilder)
 - [자습서: 페이지를 매긴 보고서 만들기](paginated-reports-quickstart-aw.md)
+- [온라인 과정: Power BI 페이지를 매긴 보고서 하루에 끝내기](../learning-catalog/paginated-reports-online-course.md)
 - [페이지를 매긴 보고서에 직접 데이터 입력](paginated-reports-enter-data.md)
 - [자습서: 고객을 위해 애플리케이션에 페이지를 매긴 Power BI 보고서 포함](../developer/embedded/embed-paginated-reports-customers.md)

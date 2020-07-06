@@ -6,16 +6,16 @@ ms.reviewer: willt
 ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
-ms.date: 03/11/2020
+ms.topic: how-to
+ms.date: 06/25/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 63c18ae6452b36a72ab72eb6fdf0ce14a73011e9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 62acc84c7459cadd758a036f1db04685b5e9c2b5
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79114133"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782550"
 ---
 # <a name="navigation-for-power-bi-consumers-global-search"></a>Power BI 소비자를 위한 탐색: 전역 검색
 
@@ -39,11 +39,11 @@ Power BI 서비스를 처음 사용하는 경우 몇 개의 콘텐츠(대시보�
 
 ## <a name="sorting-content-lists"></a>콘텐츠 목록 정렬
 
-콘텐츠가 몇 개 없는 경우에는 정렬이 필요하지 않을 수 있습니다.  그러나 긴 목록의 대시보드 및 보고서가 있으면 정렬을 통해 필요한 항목을 찾을 수 있습니다. 예를 들어 이 **공유한 항목** 콘텐츠 목록에는 63개 항목이 있습니다. 
+콘텐츠가 몇 개 없는 경우에는 정렬이 필요하지 않을 수 있습니다.  그러나 긴 목록의 대시보드 및 보고서가 있으면 정렬을 통해 필요한 항목을 찾을 수 있습니다. 예를 들어 이 **공유한 항목** 콘텐츠 목록에는 257개 항목이 있습니다. 
 
-![공유한 항목 콘텐츠 목록](./media/end-user-search-sort/power-bi-long-lists.png)
+![공유한 항목 콘텐츠 목록](./media/end-user-search-sort/power-bi-all-shared.png)
 
-지금은 이 콘텐츠 목록이 날짜별로 내림차순으로 정렬됩니다. 정렬 기준을 변경하려면 **날짜(최신)** 오른쪽에 있는 화살표를 선택합니다.
+현재 이 콘텐츠 목록은 A에서 Z까지 이름순으로 정렬됩니다. 정렬 기준을 변경하려면 **이름(A-Z)** 오른쪽에 있는 화살표를 선택합니다.
 
 ![정렬 드롭다운 메뉴](./media/end-user-search-sort/power-bi-sort-date.png)
 
@@ -60,5 +60,7 @@ Power BI 서비스를 처음 사용하는 경우 몇 개의 콘텐츠(대시보�
 
 ## <a name="next-steps"></a>다음 단계
 [보고서에서 시각적 개체 정렬](end-user-change-sort.md)
+
+[시각적 개체에서 데이터 정렬](end-user-change-sort.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

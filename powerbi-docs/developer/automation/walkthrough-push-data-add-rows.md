@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: ecd5b71d0b64e235d69d2b6d3933d393cb684b04
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ba37d9fc79405518a59ff188fdb5890e6af8043c
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79079258"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85355033"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>5단계: Power BI 테이블에 행 추가
 
@@ -23,7 +23,7 @@ ms.locfileid: "79079258"
 
 [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 작업을 호출하면 데이터 세트에 행이 추가됩니다.
 
-![](media/walkthrough-push-data-add-rows/powerbi-developer-add-rows.png)
+![행 추가](media/walkthrough-push-data-add-rows/powerbi-developer-add-rows.png)
 
 Power BI API를 사용하여 데이터 세트에 행을 추가하는 방법은 다음과 같습니다.
 

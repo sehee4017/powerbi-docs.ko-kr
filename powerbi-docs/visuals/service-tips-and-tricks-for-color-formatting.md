@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/29/2020
+ms.date: 06/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c2800ab9d57732448db9e4fe647a0601a20a816c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b273b5ea265815f26e58010356790186163c4aa8
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276608"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354619"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Power BI의 색 서식을 위한 팁과 힌트
 
@@ -62,11 +62,11 @@ Power BI는 대시보드 및 보고서를 사용자 지정할 수 있는 다양�
 
 **데이터 색** 카드를 확장하고 **모두 표시**의 슬라이더를 켜기로 전환합니다. 그러면 시각화에서 각 데이터 요소에 대한 색이 표시됩니다. 이제 데이터 요소를 수정할 수 있습니다.
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-show.png)
+![모두 표시가 켜기로 설정된 서식 창](media/service-tips-and-tricks-for-color-formatting/power-bi-show.png)
 
 **Convenience**를 주황색으로 설정합니다. 
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-one-color.png)
+![주황색 열이 하나 있는 세로 막대형 차트](media/service-tips-and-tricks-for-color-formatting/power-bi-one-color.png)
 
 선택된 **Convenience** 데이터 요소는 멋지게 음영 표시되고 확실히 돋보입니다.
 
@@ -96,7 +96,7 @@ Power BI는 대시보드 및 보고서를 사용자 지정할 수 있는 다양�
 
 시각적 개체의 일부가 아닌 필드를 사용하여 시각적 개체의 색을 서식 지정할 수도 있습니다. 다음 이미지에서는 **%Market Share SPLY YTD**가 사용되고 있습니다. 
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-colors.png)
+![여러 파란색 음영이 있는 세로 막대형 차트](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-colors.png)
 
 
 보시는 것처럼 **Productivity** 및 **Extreme**에서 둘 다 더 많은 단위를 판매했지만(해당 열이 더 높음), **Moderation**의 **%Market Share SPLY YTD**가 더 큽니다(해당 열의 색 채도가 더 큼).
@@ -106,7 +106,7 @@ Power BI는 대시보드 및 보고서를 사용자 지정할 수 있는 다양�
 
 첫 번째 이미지에서 차트의 막대가 막대에 표시된 그라데이션을 어떻게 반영하는지 확인합니다. 가장 높은 값은 녹색이고 가장 낮은 값은 주황색이며 그 사이의 각 막대는 녹색과 주황색 사이의 스펙트럼 음영으로 색이 지정됩니다.
 
-![](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional4.png)
+![녹색부터 주황색까지 색의 그라데이션을 보여 주는 세로 막대형 차트](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional4.png)
 
 이제 **최소** 및 **최대** 값 상자에 숫자 값을 제공하면 어떻게 되는지 살펴보겠습니다. **최소** 및 **최대**의 드롭 상자에서 **사용자 지정**을 선택하고 **최소**를 3,500으로 설정한 다음 **최대**를 6,000으로 설정합니다.
 

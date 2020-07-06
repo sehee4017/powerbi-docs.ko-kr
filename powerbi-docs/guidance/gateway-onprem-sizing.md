@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: de84dd7e9021abf1198f2dc4f910afb8bd078ac6
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b195e0bc11068b819a2f3133ed9ae135e3c30ffb
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279529"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485947"
 ---
 # <a name="on-premises-data-gateway-sizing"></a>온-프레미스 데이터 게이트웨이 크기 조정
 
@@ -84,7 +84,7 @@ Power BI 서비스와 게이트웨이 그리고 게이트웨이와 데이터 원
 
 - 안정성, 빠른 속도 및 낮고 일관성 있는 대기 시간을 위해 노력합니다.
 - 게이트웨이와 데이터 원본 간의 컴퓨터 홉을 제거(또는 감소)합니다.
-- 방화벽 프록시 계층에 의해 적용되는 모든 네트워크 제한을 제거합니다. Power BI 엔드포인트에 대한 자세한 내용은 [허용 목록의 Power BI URL](../admin/power-bi-whitelist-urls.md)을 참조하세요.
+- 방화벽 프록시 계층에 의해 적용되는 모든 네트워크 제한을 제거합니다. Power BI 엔드포인트에 대한 자세한 내용은 [허용 목록에 Power BI URL 추가](../admin/power-bi-whitelist-urls.md)를 참조하세요.
 - [Azure ExpressRoute](/azure/expressroute/expressroute-introduction)를 구성하여 Power BI에 대하여 관리되는 프라이빗 연결을 설정합니다.
 - Azure VM 내 데이터 원본의 경우 VM이 [Power BI 서비스와 함께 배치](../admin/service-admin-where-is-my-tenant-located.md)되었는지 확인합니다.
 - 동적 RLS를 포함하는 SSAS(SQL Server Analysis Services)에 대한 라이브 연결 워크로드의 경우 게이트웨이 컴퓨터와 온-프레미스 Active Directory간에 적절한 연결을 보장합니다.

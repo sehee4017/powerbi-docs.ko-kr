@@ -4,17 +4,17 @@ description: Power BI에서 데이터 보호 기능이 작동하는 방식을 �
 author: paulinbar
 manager: rkarlin
 ms.service: powerbi
-ms.subservice: powerbi-service
-ms.topic: conceptual
-ms.date: 05/21/2020
+ms.subservice: powerbi-eim
+ms.topic: how-to
+ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: fa969f8f738cf09e9e01e284de8f60e2fd8ce9ab
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
+ms.openlocfilehash: 4575c80106329a00c959db73c2851c99959f41ec
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84315675"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393660"
 ---
 # <a name="data-protection-in-power-bi"></a>Power BI의 데이터 보호
 
@@ -37,7 +37,7 @@ ms.locfileid: "84315675"
 > 조직에서 Azure Information Protection 민감도 레이블을 사용하는 경우 Power BI에서 레이블을 사용하려면 이전에 나열된 서비스 중 하나로 [마이그레이션](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels)해야 합니다.
 
 > [!NOTE]
-> 민감도 레이블은 퍼블릭 클라우드에만 지원되고, 소버린 클라우드와 같은 클라우드의 테넌트에서는 지원되지 않습니다.
+> 민감도 레이블은 퍼블릭 클라우드에만 지원되고, 국가 클라우드와 같은 클라우드의 테넌트에서는 지원되지 않습니다.
 
 ## <a name="how-sensitivity-labels-work-in-power-bi"></a>Power BI에서 민감도 레이블 작동 방식
 

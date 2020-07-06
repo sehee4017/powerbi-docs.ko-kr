@@ -1,7 +1,7 @@
 ---
 title: Power BI 보고서 작성기
 description: Power BI 보고서 작성기는 페이지를 매긴 보고서를 작성하기 위한 도구입니다.
-ms.date: 11/27/2019
+ms.date: 06/29/2020
 ms.service: powerbi
 ms.subservice: report-builder
 featuredvideoid: 78TZeiEhveY
@@ -9,16 +9,18 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 0118bc427ce58f48d50b3e8ed4e918bf66c6e8fc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a0c22be90b609e25a6403e33cb646b35e9467c07
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80621541"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782750"
 ---
 # <a name="power-bi-report-builder"></a>Power BI 보고서 작성기
 
- Power BI 보고서 작성기는 페이지를 매긴 보고서를 작성하기 위한 도구입니다.  페이지를 매긴 보고서를 디자인할 때 검색할 데이터, 가져올 위치 및 표시 방법을 지정하는 보고서 정의를 만듭니다. 보고서를 실행할 때 보고서 처리기는 지정한 보고서 정의를 사용하고, 데이터를 검색하고, 보고서 레이아웃과 결합하여 보고서를 생성합니다. 보고서 작성기에서 보고서를 미리 봅니다. 그런 다음, Power BI 서비스에 보고서를 게시합니다.
+ Power BI Report Builder는 Power BI 서비스에 게시할 수 있는 페이지를 매긴 보고서를 만들기 위한 도구입니다.  페이지를 매긴 보고서를 디자인할 때 검색할 데이터, 가져올 위치 및 표시 방법을 지정하는 보고서 정의를 만듭니다. 보고서를 실행할 때 보고서 처리기는 지정한 보고서 정의를 사용하고, 데이터를 검색하고, 보고서 레이아웃과 결합하여 보고서를 생성합니다. 보고서 작성기에서 보고서를 미리 봅니다. 그런 다음, Power BI 서비스에 보고서를 게시합니다.
+ 
+작성을 시작할 준비가 되셨나요? Microsoft 다운로드 센터에서 [Power BI Report Builder를 설치](https://aka.ms/pbireportbuilder)합니다.
 
 비디오에서 학습하는 것을 선호하십니까? YouTube에서 Power BI 수석 프로그램 관리자 Chris Finlan이 진행하는 Power BI 페이지를 매긴 보고서 비디오 시리즈를 확인하세요.
 
@@ -36,9 +38,9 @@ ms.locfileid: "80621541"
 
 ##  <a name="design-your-report"></a><a name="DesignRept"></a> 보고서 디자인  
   
--   **테이블, 행렬, 차트, 자유 형식 보고서 레이아웃을 사용하여 페이지를 매긴 보고서를 작성합니다.** 열 기반 데이터의 테이블 보고서, 요약된 데이터에 대한 행렬 보고서(예: 크로스탭 또는 피벗 테이블 보고서), 그래픽 데이터에 대한 차트 보고서 및 그 밖의 자유 형식 보고서를 만듭니다. 보고서에는 동적 웹 기반 애플리케이션의 목록, 그래픽 및 컨트롤과 함께 다른 보고서와 차트가 포함될 수 있습니다.  
+-   **테이블, 행렬, 차트 및 자유 형식 레이아웃을 사용하여 페이지를 매긴 보고서를 만듭니다.** 열 기반 데이터의 테이블 보고서, 요약된 데이터에 대한 행렬 보고서(예: 크로스탭 또는 피벗 테이블 보고서), 그래픽 데이터에 대한 차트 보고서 및 그 밖의 자유 형식 보고서를 만듭니다. 보고서에는 동적 웹 기반 애플리케이션의 목록, 그래픽 및 컨트롤과 함께 다른 보고서와 차트가 포함될 수 있습니다.  
   
--   **다양한 데이터 원본을 사용하여 보고서를 작성합니다.** SQL Server 및 Analysis Services, Oracle, Power BI 데이터 세트 및 기타 데이터베이스의 관계형 및 다차원 데이터를 사용하는 보고서를 만들 수 있습니다.  
+-   **다양한 데이터 원본에서 보고합니다.** SQL Server 및 Analysis Services, Oracle, Power BI 데이터 세트 및 기타 데이터베이스의 관계형 및 다차원 데이터를 사용하는 보고서를 만들 수 있습니다.  
   
 -   **기존 보고서를 수정합니다.** 보고서 작성기를 사용하면 SSDT(SQL Server Data Tools) 보고서 디자이너에서 생성된 보고서를 사용자 지정하고 업데이트할 수 있습니다.  
   

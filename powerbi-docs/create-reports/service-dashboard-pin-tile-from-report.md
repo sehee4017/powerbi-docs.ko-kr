@@ -6,16 +6,16 @@ ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 07/23/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7e3a9d6db1b7f51f02f3dbc94da1d6b35eac3222
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1e0fdf11eab5ea264e78363984ff49bbc95660d8
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348899"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354320"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>보고서에서 Power BI 대시보드에 타일 고정
 
@@ -57,6 +57,11 @@ Amanda가 Power BI 보고서에서 시각적 개체 및 이미지를 고정하�
 또 다른 옵션은 전체 보고서 페이지를 대시보드에 고정하는 것입니다. 이 방법을 사용하면 한 번에 두 개 이상의 시각적 개체를 쉽게 고정할 수 있습니다. 전체 페이지를 고정하면 타일은 *라이브*입니다. 즉, 대시보드에서 해당 타일과 상호 작용할 수 있습니다. 필터를 추가하거나 차트에 사용된 필드를 변경하는 등 보고서 편집기에서 시각적 개체를 변경한 모든 내용은 대시보드 타일에도 반영됩니다.  
 
 자세한 내용은 [전체 보고서 페이지 고정](service-dashboard-pin-live-tile-from-report.md)을 참조하세요.
+
+> [!NOTE]
+> 일부 서식 옵션은 대시보드에 고정된 경우 시각적 개체에 적용되지 않습니다. 고정된 타일에서 테두리, 그림자 및 배경 설정이 무시됩니다. 카드 시각적 개체의 경우 값에 사용되는 텍스트는 항상 'DIN' 글꼴 패밀리를 사용하여 대시보드에 표시됩니다. 
+> 
+>
 
 ## <a name="next-steps"></a>다음 단계
 - [Power BI 서비스 소비자에 대한 대시보드](../consumer/end-user-dashboards.md)

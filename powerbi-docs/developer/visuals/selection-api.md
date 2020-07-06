@@ -7,14 +7,14 @@ ms.reviewer: rkarlin
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 2cca057b2a91129745fe739160ffbb3e9e25b6da
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 57f443ec11d918966c25b9d59a1656bb02983fbb
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80113695"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238053"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>Power BI 시각적 개체 선택 항목별로 시각적 개체에 대화형 작업 추가
 
@@ -81,7 +81,7 @@ export interface ISelectionIdBuilder {
 
 샘플 데이터 세트에 대한 범주 데이터 뷰 매핑에서 선택 항목이 어떻게 표시되는지 검토해 보겠습니다.
 
-| 제조업체 | Type | Value |
+| 제조업체 | 형식 | 값 |
 | - | - | - |
 | Chrysler | 국내 승용차 | 28883 |
 | Chrysler | 국내 트럭 | 117131 |
@@ -161,7 +161,7 @@ export interface ISelectionIdBuilder {
 
 예를 들어 사용자가 `Manufacturer`에서 `Chrysler`를 선택하면 다른 시각적 개체는 다음 데이터를 표시해야 합니다.
 
-| 제조업체 | Type | Value |
+| 제조업체 | 형식 | 값 |
 | - | - | - |
 | **Chrysler** | 국내 승용차 | 28883 |
 | **Chrysler** | 국내 트럭 | 117131 |
@@ -170,7 +170,7 @@ export interface ISelectionIdBuilder {
 
 사용자가 `Type`에서 `Import Car`를 선택하면(계열을 기준으로 데이터를 선택) 다른 시각적 개체는 다음 데이터를 표시해야 합니다.
 
-| 제조업체 | Type | Value |
+| 제조업체 | 형식 | 값 |
 | - | - | - |
 | Chrysler | **수입 승용차** | 0 |
 | Ford | **수입 승용차** | 0 |

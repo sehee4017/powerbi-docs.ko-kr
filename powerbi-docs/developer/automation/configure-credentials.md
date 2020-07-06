@@ -6,18 +6,22 @@ ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
-ms.date: 02/23/2020
-ms.openlocfilehash: bd7758be32d18fd3be06a7847edc7795c2b5f9e1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.topic: how-to
+ms.date: 06/23/2020
+ms.openlocfilehash: ed35775ac077be7c45807b950530e4e1277d5ac3
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114776"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85355010"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Power BI에 대한 자격 증명을 프로그래밍 방식으로 구성
 
-Power BI에 대한 자격 증명을 프로그래밍 방식으로 구성하려면 다음 단계를 따릅니다.
+Power BI에 대한 자격 증명을 프로그래밍 방식으로 구성하려면 이 문서의 단계를 따르세요.
+
+>[!NOTE]
+>* 호출하는 사용자는 데이터 세트 소유자 또는 게이트웨이 관리자여야 합니다. [서비스 주체](../embedded/embed-service-principal-certificate.md)를 사용할 수도 있습니다. 예를 들어 서비스 주체는 데이터 세트 소유자일 수 있습니다.
+>* 클라우드 데이터 원본과 해당 자격 증명은 사용자 수준에서 관리됩니다.
 
 ## <a name="update-credentials-flow-for-data-sources"></a>데이터 원본에 대한 자격 증명 흐름 업데이트
 

@@ -6,15 +6,15 @@ ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 311473aea5748c94bfa6a757482659176930544b
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: a2e7445db843788293a20fbbebdffd2952dfeb6a
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83693838"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85226195"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>보안 포털 또는 웹 사이트에 보고서 포함
 
@@ -139,7 +139,7 @@ report.src = newUrl;
 
 * **포함** 옵션에 제공되는 자동 인증 기능은 Power BI JavaScript API에서 작동하지 않습니다. Power BI JavaScript API의 경우 [사용자 소유 데이터](../developer/embedded/embed-sample-for-your-organization.md) 포함 방법을 사용합니다. 
 
-* 인증 토큰 수명은 AAD 설정에 따라 제어됩니다. 인증 토큰이 만료되면 브라우저를 새로 고쳐 업데이트된 인증 토큰을 가져와야 합니다. 기본 수명은 1시간이지만 조직에 따라 더 짧거나 더 길 수 있습니다.
+* 인증 토큰 수명은 AAD 설정에 따라 제어됩니다. 인증 토큰이 만료되면 브라우저를 새로 고쳐 업데이트된 인증 토큰을 가져와야 합니다. 기본 수명은 1시간이지만 조직에 따라 더 짧거나 더 길 수 있습니다.  이 시나리오에는 토큰 자동 새로 고침 기능이 없습니다.
 
 ## <a name="next-steps"></a>다음 단계
 

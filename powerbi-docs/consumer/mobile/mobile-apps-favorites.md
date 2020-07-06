@@ -5,15 +5,15 @@ author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: bad6b507e970319003a8d338ecf29a2afc948e9c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ee2ce1161f5afbdc39520a0102d3289f00792207
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435562"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85240217"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 즐겨찾기 만들기 및 보기
 적용 대상:
@@ -52,27 +52,23 @@ Power BI Report Server 또한 Reporting Services 웹 포털에서 KPI와 보고�
 ## <a name="make-a-dashboard-or-report-a-favorite-in-the-ios-and-windows-10-mobile-apps"></a>iOS 및 Windows 10 모바일 앱에서 대시보드 또는 보고서를 즐겨찾기로 만들기
 대시보드나 보고서 목록 또는 대시보드나 보고서 자체에서 Power BI 대시보드 또는 보고서를 즐겨찾기로 만들 수 있습니다.
 
-* 모바일 앱의 대시보드 또는 보고서 목록에서 이름 옆에 있는 속이 빈 별 ![즐겨찾기 아님 아이콘을 탭합니다](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png). 별이 노란색 ![즐겨찾기 아이콘으로 바뀝니다](./././media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png).
+* 모바일 앱의 대시보드 또는 보고서 목록에서 이름 옆에 있는 속이 빈 별 ![즐겨찾기 아님 아이콘을 탭합니다](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png). 별모양이 검은색으로 바뀝니다 ![즐겨찾기 아이콘으로 바뀝니다](./././media/mobile-apps-favorites/power-bi-mobile-favorite-selected-black.png).
   
     ![대시보드 즐겨찾기](./media/mobile-apps-favorites/power-bi-mobile-make-dashboard-favorite.png)
-* 대시보드를 사용 중이면 리본에서 속이 빈 별 ![즐겨찾기 아님 아이콘](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png)을 탭합니다. 보고서를 사용 중이면 **기타 옵션**(...) 아래에 별이 있습니다.  별이 검은색 ![즐겨찾기 아이콘](./././media/mobile-apps-favorites/power-bi-mobile-favorite-selected-black.png)으로 바뀝니다.
+* 대시보드 또는 보고서에 있는 경우 머리글에서 **기타 옵션**(...)을 탭한 다음 표시되는 메뉴에서 빈 별모양 ![즐겨찾기 아님 아이콘](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png)을 탭합니다. 별모양이 검은색 ![즐겨찾기 아이콘](./././media/mobile-apps-favorites/power-bi-mobile-favorite-selected-black.png)으로 바뀝니다.
   
     ![선택한 즐겨찾기 아이콘](./media/mobile-apps-favorites/power-bi-mobile-favorite-selected.png)
 
 ## <a name="make-a-dashboard-or-report-a-favorite-in-the-android-mobile-apps"></a>Android 모바일 앱에서 대시보드 또는 보고서를 즐겨찾기로 만들기
 대시보드나 보고서 목록 또는 대시보드나 보고서 자체에서 대시보드 또는 보고서를 즐겨찾기로 만들 수 있습니다.
 
-* 모바일 앱의 대시보드 또는 보고서 목록에서 이름 옆에 있는 세로 **기타 옵션**(...) 단추를 탭한 다음, 표시되는 정보 탭에서 즐겨찾기 별을 탭합니다.
+* 모바일 앱의 대시보드 또는 보고서 목록에서 보고서 또는 대시보드 이름 옆의 별모양을 탭하여 해당 항목을 즐겨찾기에 추가 또는 해제합니다.
   
     ![Android 즐겨찾기 메뉴](./media/mobile-apps-favorites/power-bi-android-make-favorite.png)
 
-* 대시보드를 사용 중이면 리본에서 속이 빈 별 ![즐겨찾기 아님 아이콘을 탭합니다](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png). 별이 진한 회색 ![즐겨찾기 아이콘으로 바뀝니다](./media/mobile-apps-favorites/power-bi-android-favorite-icon.png).
+* 대시보드 또는 보고서에 있는 경우 **기타 옵션(...)** 을 탭한 다음 **즐겨찾기**를 선택합니다.
   
     ![Android 즐겨찾기 별](./media/mobile-apps-favorites/power-bi-android-favorite-in-dashboard.png)
-
-* 보고서를 사용 중이면 아래로 살짝 밀어 리본을 표시하고 **기타 옵션**(...)을 탭한 다음, 아래로 스크롤하여 속이 빈 별 ![즐겨찾기 아님 아이콘](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png)을 찾아서 탭합니다. 별이 진한 회색 ![즐겨찾기 아이콘](./media/mobile-apps-favorites/power-bi-android-favorite-icon.png)으로 바뀝니다.
-  
-    ![Android 즐겨찾기 별](./media/mobile-apps-favorites/power-bi-android-favorite-in-report.png)
 
 ## <a name="make-favorite-power-bi-report-server-and-reporting-services-reports-and-kpis"></a>즐겨 찾는 Power BI Report Server 및 Reporting Services 보고서 및 KPI 만들기
 Power BI 모바일 앱에서 즐겨 찾는 Power BI Report Server 및 Reporting Services 보고서 및 KPI를 볼 수 있지만 모바일 앱에서 즐겨찾기로 만들 수 없습니다. [웹 포털에서 즐겨찾기로 태그](../../report-server/tutorial-explore-report-server-web-portal.md#tag-your-favorites)합니다. 

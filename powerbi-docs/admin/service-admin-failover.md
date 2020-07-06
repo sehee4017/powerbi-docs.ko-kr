@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/20/2020
+ms.date: 06/18/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 3dd50d4f57b3146135cde5e91062ed3b2a0eecc1
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 56ace35adf6a005c4370bf692d8851dc015688c0
+ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83128545"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85782350"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI 고가용성, 장애 조치(failover) 및 재해 복구 FAQ
 
@@ -38,7 +38,7 @@ Power BI는 비즈니스 연속성을 보장하기 위해 Azure 데이터 센터
 
 백업 인스턴스는 [Microsoft 보안 센터](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)에 표시된 경우를 제외하고 조직에서 Power BI에 등록할 때 선택한 동일한 지리적 위치(지역) 내에 있습니다. 한 지역은 여러 지역을 포함할 수 있으며 Microsoft는 모든 데이터 복원력을 위해 지정된 지역 내의 모든 지역에 데이터를 복제할 수 있습니다. Microsoft는 고객 데이터를 지역 외부로 복제하거나 이동하지 않습니다. Power BI가 제공하는 지역 및 지역 내의 매핑은 [Microsoft 보안 센터](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)를 참조하세요.
 
-## <a name="how-does-microsoft-decide-to-failover"></a>Microsoft가 장애 조치(failover)를 결정하는 방법은?
+## <a name="how-does-microsoft-decide-to-fail-over"></a>Microsoft가 장애 조치(failover)를 결정하는 방법은?
 
 장애 조치(failover)가 필요한 시기를 나타내는 두 가지 시스템이 있습니다.
 
@@ -57,6 +57,9 @@ Power BI는 장애 조치가 필요한 것으로 식별된 후 다시 작동하�
 
 장애 조치를 수행한 후 Power BI는 Azure Storage 지역 복제를 사용하여 장애 조치를 수행합니다. 일반적으로 해당 복제의 반환 시점은 15분이지만, [Azure Storage는 SLA에서 이 시간 범위를 보장하지 않으므로](https://docs.microsoft.com/azure/storage/common/storage-redundancy) Power BI도 시간 범위를 보장할 수 없습니다. 
 
+## <a name="what-happens-to-workspaces-and-reports-if-my-premium-capacity-becomes-unavailable"></a>프리미엄 용량을 사용할 수 없게 되면 작업 영역과 보고서는 어떻게 되나요? 
+
+프리미엄 용량을 사용할 수 없게 되어도 작업 영역과 보고서는 계속 액세스 가능하며 이전에 액세스했던 Power BI Pro 라이선스가 있는 모든 사용자에게 표시됩니다.
 
 ## <a name="when-does-my-power-bi-instance-return-to-the-original-region"></a>내 Power BI 인스턴스가 원래 영역으로 돌아가는 시기는?
 

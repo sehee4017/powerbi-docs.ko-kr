@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/27/2020
-ms.openlocfilehash: ee725457475f1bccd593e2331d9e62c85ef08762
-ms.sourcegitcommit: 0d8261a3cdef05ed8d4eb2aaffff2c1cc2098624
+ms.openlocfilehash: 9cb9939f665dabc910c0605f4c1864f7d80988c3
+ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84126299"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "84739233"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Report Server의 새로운 기능
 
@@ -215,7 +215,7 @@ Power BI Report Server는 이제 Enterprise 및 Standard 버전 Power BI Report 
 
 #### <a name="power-bi-visuals-api"></a>Power BI 시각적 개체 API
 
-이 릴리스와 함께 제공되는 API 버전은 2.6입니다.
+이 릴리스와 함께 제공되는 API 버전은 2.6.0입니다.
 
 #### <a name="microsoft-report-builder-update"></a>Microsoft 보고서 작성기 업데이트
 
@@ -366,7 +366,7 @@ Power BI 보고서에서 다음 기능 지원:
 
 #### <a name="power-bi-visuals"></a>Power BI 시각적 개체
 
-- 이 릴리스에서 제공된 API 버전은 2.3입니다.
+- 이 릴리스와 함께 제공되는 API 버전은 2.3.0입니다.
 
 ### <a name="administrator-settings"></a>관리자 설정
 

@@ -5,22 +5,24 @@ author: davidiseminger
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
-ms.topic: conceptual
-ms.date: 11/01/2017
+ms.topic: how-to
+ms.date: 06/10/2020
 ms.author: davidi
-ms.openlocfilehash: cab64bdcd5707cfd0b1578e82334de4b5c84495c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3814c0532d94af3265bd608fc7837df982f9b6c4
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "81439966"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236081"
 ---
 # <a name="how-to-configure-power-bi-report-scheduled-refresh"></a>Power BI 보고서 예약된 새로 고침을 구성하는 방법
-Power BI 보고서에서 데이터를 새로 고치려면 예약된 새로 고침 계획을 만들어야 합니다. 이 작업은 Power BI 보고서의 *관리* 영역 내에서 수행됩니다.
+Power BI Report Server에서 Power BI 보고서의 데이터를 새로 고치려면 예약된 새로 고침 계획을 만들어야 합니다. 보고서 서버에 있는 Power BI 보고서의 관리 영역에서 이 계획을 만듭니다.
 
 ![Power BI 보고서의 성공적인 예약된 새로 고침](media/configure-scheduled-refresh/scheduled-refresh-success.png)
 
 ## <a name="configure-data-source-credentials"></a>데이터 원본 자격 증명 구성
+예약된 새로 고침 계획을 만들려면 필요한 권한이 있어야 합니다. 권한은 보고서 서버에 대한 역할 정의에 정의되어 있습니다. 자세한 내용은 SQL Server Reporting Services 설명서의 [역할 정의 - 미리 정의된 역할](https://docs.microsoft.com/sql/reporting-services/security/role-definitions-predefined-roles)을 참조하세요.
+
 데이터 새로 고침 예약 계획을 만들기 전에 Power BI 보고서에서 사용된 **각 데이터 원본**에 대한 자격 증명을 설정해야 합니다.
 
 1. 웹 포털에서 Power BI 보고서를 마우스 오른쪽 단추로 클릭하고 **관리**를 선택합니다.
@@ -70,7 +72,7 @@ Power BI 보고서에서 데이터를 새로 고치려면 예약된 새로 고�
 2. 왼쪽 메뉴에서 **예약된 새로 고침** 탭을 선택합니다.
 3. **예약된 새로 고침** 페이지에서 가장 오른쪽 열은 계획의 상태를 표시합니다.
    
-   | **상태** | **설명** |
+   | **Status** | **설명** |
    | --- | --- |
    | 새 예약된 새로 고침 계획 |계획이 생성되었지만 실행되지 않습니다. |
    | 새로 고침 |새로 고침 프로세스를 시작했습니다. |

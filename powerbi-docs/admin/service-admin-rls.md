@@ -5,17 +5,17 @@ author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
+ms.topic: how-to
 ms.author: kfollis
 ms.date: 12/05/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6622bff6123ac6985a5275ec72be3a78b13908e6
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 94a65a826cce3cdb0821e8127e45a1f983ad7d89
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274644"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85227870"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Power BI를 사용하는 행 수준 보안(RLS)
 
@@ -102,7 +102,10 @@ Power BI 서비스 내의 작업 영역에 Power BI Desktop 보고서를 게시�
 [!INCLUDE [include-short-name](../includes/rls-faq.md)]
 
 ## <a name="next-steps"></a>다음 단계
-[Power BI Desktop을 사용하는 행 수준 보안(RLS)](../create-reports/desktop-rls.md)  
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+이 문서와 관련된 보다 자세한 내용을 알아보려면 다음 리소스를 참조하세요.
 
+- [Power BI Desktop에 대해 RLS(행 수준 보안)를 사용하여 데이터 액세스 제한](../create-reports/desktop-rls.md)
+- [Power BI Desktop의 행 수준 보안(RLS) 지침](../guidance/rls-guidance.md)
+- 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+- 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com/)

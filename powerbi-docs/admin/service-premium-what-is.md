@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/15/2020
+ms.date: 06/13/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 1c72507759a69dc03f3d8b1510aef0e3ad369dd2
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: 83383b93d9f61c30c22afa30a5d092aa62ce3a10
+ms.sourcegitcommit: 94fc44928bff09d874793964b5d7443db40934cd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272750"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "84754179"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium이란?
 
@@ -85,12 +85,10 @@ Power BI Premium을 사용하면 *전용 용량*을 가져올 수 있습니다. 
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
 | P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
 | P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
-| P4 | 64 | 32 | 200 | 32 | 240 | 48 |
-| P5 | 128 | 64 | 400 | 64 | 480 | 96 |
 | | | | | | | |
 
-> [!NOTE]
-> 더 큰 단일 SKU(예: P2 SKU 1개)를 사용하는 것이 두 개의 더 작은 SKU(예: P1 SKU 2개)를 결합하는 것보다 더 바람직할 수 있습니다. 예를 들어 더 큰 모델을 사용하고 P2를 사용하여 더 나은 병렬 처리를 달성할 수 있습니다.
+>[!NOTE]
+>더 큰 단일 SKU(예: P2 SKU 1개)를 사용하는 것이 두 개의 더 작은 SKU(예: P1 SKU 2개)를 결합하는 것보다 더 바람직할 수 있습니다. 예를 들어 더 큰 모델을 사용하고 P2를 사용하여 더 나은 병렬 처리를 달성할 수 있습니다.
 
 ### <a name="capacity-workloads"></a>용량 워크로드
 
@@ -179,17 +177,17 @@ SKU에 따라 Power BI Premium은 최대 **10GB** 크기까지 Power BI Desktop(
 
 ### <a name="size-considerations"></a>크기 고려 사항
 
-대규모 데이터 세트는 리소스를 많이 사용할 수 있습니다. 1GB보다 큰 데이터 세트에는 최소 P1 SKU를 사용해야 합니다. A3까지 A SKU가 지원하는 작업 영역에 대규모 데이터 세트를 게시하는 것이 효과적일 수 있지만 새로 고치는 작업은 가능하지 않습니다.
+대규모 데이터 세트는 리소스를 많이 사용할 수 있습니다. 1GB보다 큰 데이터 세트의 경우 최소 P1 또는 A4 SKU가 있어야 합니다. A3까지 A SKU가 지원하는 작업 영역에 대규모 데이터 세트를 게시하는 것이 효과적일 수 있지만 새로 고치는 작업은 가능하지 않습니다.
 
 다음 표는 Power BI 서비스에 .pbix 파일을 업로드 또는 게시하는 데 권장되는 SKU입니다.
 
    |SKU  |.pbix의 크기   |
    |---------|---------|
-   |P1    | < 3GB        |
-   |P2    | < 6GB        |
-   |P3, P4, P5    | 최대 10GB   |
+   |P1/A4    | < 3GB        |
+   |P2/A5    | < 6GB        |
+   |P3/A6, P4, P5    | 최대 10GB   |
 
-Power BI Embedded A4 SKU는 P1 SKU, A5 = P2 및 A6 = P3과 같습니다. 데이터 세트를 A 및 EM SKU에 게시하면 공유 용량의 모델 크기 제한 오류와 관련이 없는 오류가 반환될 수 있습니다. A 및 EM SKU의 데이터 세트에 대한 새로 고침 오류로 인해 시간 초과를 가리킬 가능성이 높습니다.
+Power BI Embedded A4 SKU는 P1 SKU, A5 = P2 및 A6 = P3과 같습니다.
 
 데이터 세트에 [대형 모델](service-premium-large-models.md)을 사용하는 경우 .pbix 파일 크기 제한이 파일 업로드 또는 게시에 계속 적용됩니다. 그러나 증분 새로 고침과 대형 모델을 결합하면 데이터 세트가 이러한 한도보다 훨씬 더 커질 수 있습니다. 대형 모델의 경우 데이터 세트 크기는 Power BI Premium 용량 크기로만 제한됩니다.
 
@@ -211,7 +209,7 @@ Power BI Embedded A4 SKU는 P1 SKU, A5 = P2 및 A6 = P3과 같습니다. 데이�
 
 ## <a name="paginated-reports"></a>페이지를 매긴 보고서
 
-P1-P3 및 A4_A6 SKU에서 지원되는 페이지를 매긴 보고서는 SQL Server Reporting Services의 RDL(Report Definition Language) 기술을 기반으로 합니다. RDL 기술을 기반으로 하지만, Power BI Premium에도 포함된 온-프레미스에 설치할 수 있는 다운로드 가능한 보고 플랫폼인 Power BI Report Server와는 다릅니다. 페이지를 매긴 보고서는 인쇄하거나 공유할 수 있는 페이지에 잘 맞도록 형식이 지정됩니다. 테이블이 여러 페이지에 걸쳐 있더라도 데이터는 테이블에 표시됩니다. 무료 [**Power BI 보고서 작성기**](https://go.microsoft.com/fwlink/?linkid=2086513) Windows Desktop 애플리케이션을 사용하여 사용자가 페이지를 매긴 보고서를 작성하여 서비스에 게시합니다.
+P1-P3 및 A4_A6 SKU에서 지원되는 페이지를 매긴 보고서는 SQL Server Reporting Services의 RDL(Report Definition Language) 기술을 기반으로 합니다. RDL 기술을 기반으로 하지만, Power BI Premium에도 포함된 온-프레미스에 설치할 수 있는 다운로드 가능한 보고 플랫폼인 Power BI Report Server와는 다릅니다. 페이지를 매긴 보고서는 인쇄하거나 공유할 수 있는 페이지에 잘 맞도록 형식이 지정됩니다. 테이블이 여러 페이지에 걸쳐 있더라도 데이터는 테이블에 표시됩니다. 무료 [**Power BI 보고서 작성기**](https://aka.ms/pbireportbuilder) Windows Desktop 애플리케이션을 사용하여 사용자가 페이지를 매긴 보고서를 작성하여 서비스에 게시합니다.
 
 Power BI Premium에서 페이지를 매긴 보고서는 관리 포털을 사용하여 용량을 활성화해야 하는 워크로드입니다. 용량 관리자는 용량 전체 메모리 리소스의 백분율로 메모리 양을 활성화한 다음, 지정할 수 있습니다. 다른 유형의 워크로드와 달리 프리미엄은 용량 내 포함된 공간에서 페이지를 매긴 보고서를 실행합니다. 워크로드가 활성 상태인지 여부와 관계없이 이 공간에 지정하는 최대 메모리가 사용됩니다. 기본값은 20%입니다. 
 

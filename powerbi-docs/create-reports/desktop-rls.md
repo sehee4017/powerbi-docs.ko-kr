@@ -6,16 +6,16 @@ ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: ''
 ms.date: 01/31/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 89c33de2ef7319c6dcbeace0df79786128e16cd9
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9036967c826dee83847c3bc3d4a903bbe749b2ce
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83334318"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238643"
 ---
 # <a name="restrict-data-access-with-row-level-security-rls-for-power-bi-desktop"></a>Power BI Desktop에 대해 RLS(행 수준 보안)를 사용하여 데이터 액세스 제한
 
@@ -36,6 +36,9 @@ Power BI Desktop에서 RLS(행 수준 보안)를 사용하여 지정된 사용�
 
 ## <a name="next-steps"></a>다음 단계
 
-[Power BI 서비스를 사용하는 행 수준 보안(RLS)](../admin/service-admin-rls.md)  
+이 문서와 관련된 보다 자세한 내용을 알아보려면 다음 리소스를 참조하세요.
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다](https://community.powerbi.com/).
+- [Power BI를 사용하는 RLS(행 수준 보안)](../admin/service-admin-rls.md)
+- [Power BI Desktop의 행 수준 보안(RLS) 지침](../guidance/rls-guidance.md)
+- 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+- 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com/)

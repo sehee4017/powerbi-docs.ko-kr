@@ -3,37 +3,34 @@ title: 동료 및 다른 사용자와 Power BI 대시보드 및 보고서 공유
 description: 조직 내외부의 동료와 Power BI 대시보드 및 보고서를 공유하는 방법 및 공유에 대한 필수 고려 사항
 author: maggiesMSFT
 ms.reviewer: lukaszp
-featuredvideoid: 0tUwn8DHo3s
+ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
-ms.date: 11/26/2019
+ms.topic: how-to
+ms.date: 06/26/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: cf971de1a60636def852080a523c227f08b4f888
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: d09ebee0cc22c7037db437e1c7a46a3d19ff36fd
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272934"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485592"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>동료 및 다른 사용자와 Power BI 대시보드 및 보고서 공유
-다른 사람에게 대시보드 및 보고서에 대한 액세스 권한을 부여하려면 *공유*를 사용하는 것이 좋습니다. Power BI는 [대시보드 및 보고서를 공동 작업하고 배포하는 여러 가지 다른 방법](service-how-to-collaborate-distribute-dashboards-reports.md)도 제공합니다.
-
-![대시보드 목록에서 공유 아이콘](media/service-share-dashboards/power-bi-share-new-look.png)
-
-콘텐츠를 조직 내부와 공유하든 또는 외부와 공유하든, 공유하려면 [Power BI Pro 라이선스](../fundamentals/service-features-license-type.md)가 필요합니다. 콘텐츠가 [프리미엄 용량](../admin/service-premium-what-is.md)에 있는 경우가 아니면 수신자도 Power BI Pro 라이선스가 필요합니다. 
-
-즐겨찾기, 최근 항목, 공유한 항목(소유자가 허용한 경우), 내 작업 영역, 기타 작업 영역 등 Power BI 서비스의 대부분의 위치에서 대시보드와 보고서를 공유할 수 있습니다. 작업 영역에서 [관리자, 구성원 또는 참가자 역할](service-new-workspaces.md#roles-in-the-new-workspaces)을 하는 경우에도 다른 작업 영역에서 공유할 수 있습니다. 
+공유는 Power BI 서비스에서 대시보드 및 보고서에 대한 액세스 권한을 사용자에게 부여하는 가장 쉬운 방법입니다. 조직 내부 사용자나 외부 사용자와 공유할 수 있습니다.
 
 대시보드 또는 보고서를 공유할 경우 공유받은 사람들은 대시보드 또는 보고서를 보고 조작할 수 있지만 편집할 수는 없습니다. 기본 데이터 세트에 RLS(행 수준 보안)를 적용하지 않는 한 다른 사용자는 귀하가 대시보드 및 보고서에서 확인할 수 있고 전체 기본 데이터 세트에 액세스할 수 있는 동일한 데이터를 봅니다.  허용하는 경우 사용자와 항목을 공유하는 동료는 자신의 동료와도 공유할 수 있습니다. 조직 외부 사람들도 대시보드 또는 보고서를 보고 상호 작용할 수는 있지만, 공유할 수는 없습니다. 
 
+![대시보드 목록에서 공유 아이콘](media/service-share-dashboards/power-bi-share-new-look.png)
+
+즐겨찾기, 최근 항목, 내 작업 영역 등 Power BI 서비스의 대부분의 위치에서 대시보드와 보고서를 공유할 수 있습니다. 작업 영역에서 [관리자, 구성원 또는 참가자 역할](service-new-workspaces.md#roles-in-the-new-workspaces)을 하는 경우에도 다른 작업 영역에서 공유할 수 있습니다. 소유자가 허용하는 경우 공유한 항목에서 대시보드와 보고서를 공유할 수 있습니다. 
+
+Power BI 서비스는 대시보드 및 보고서를 공동 작업하고 배포하는 다른 방법도 제공합니다. 사용자의 상황에 가장 적합한 방법을 찾으려면 [Power BI에서 협업하고 공유하는 방법](service-how-to-collaborate-distribute-dashboards-reports.md)을 읽어 보세요. 
+
+콘텐츠를 조직 내부와 공유하든 또는 외부와 공유하든, 공유하려면 [Power BI Pro 라이선스](../fundamentals/service-features-license-type.md)가 필요합니다. 콘텐츠가 [프리미엄 용량](../admin/service-premium-what-is.md)에 있는 경우가 아니면 수신자도 Power BI Pro 라이선스가 필요합니다. 
+
 Power BI Desktop에서 직접 *공유*할 수 없습니다. Power BI 서비스에 [Power BI Desktop의 보고서를 게시](../create-reports/desktop-upload-desktop-files.md)합니다. 하지만 [Power BI 모바일 앱에서 대시보드를 공유](../consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md)할 수 있습니다.  
-
-## <a name="video-share-a-dashboard"></a>비디오: 대시보드 공유
-Amanda가 Amanda 회사 내부 및 외부의 동료와 대시보드를 공유하는 과정을 시청합니다. 그런 다음, 비디오 아래에 있는 단계별 지침을 따라서 직접 시도해 볼 수 있습니다.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0tUwn8DHo3s?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="share-a-dashboard-or-report"></a>대시보드 또는 보고서 공유
 
@@ -98,6 +95,14 @@ Power BI 모바일 앱에서 조직 외부의 사용자에게 링크를 보낼 �
 
 Power BI 관리자는 외부 게스트 사용자가 조직의 콘텐츠를 편집하고 관리할 수 있도록 허용할 수 있습니다. 그런 경우, 외부 사용자에게 소비 전용 환경이 제공되지 않습니다. 해당 사용자는 조직의 콘텐츠를 편집하고 관리할 수 있습니다. [Azure AD B2B를 사용하여 외부 게스트 사용자에게 Power BI 콘텐츠를 배포하는 방법](../admin/service-admin-azure-ad-b2b.md)에 대해 자세히 알아보세요.
 
+## <a name="share-with-more-than-100-separate-users"></a>100명 이상의 개별 사용자와 공유
+
+단일 공유 작업으로 최대 100명의 사용자 또는 그룹과 공유할 수 있습니다. 그러나 한 항목에 대한 액세스 권한을 500명이 넘는 사용자에게 부여할 수 있습니다. 다음은 몇 가지 제안 사항입니다.
+
+- 사용자를 개별적으로 지정하여 여러 번 공유합니다.
+- 모든 사용자를 포함하는 사용자 그룹과 공유합니다. 
+- 작업 영역에서 보고서 또는 대시보드를 만든 다음, 작업 영역에서 앱을 만듭니다. 앱을 더 많은 사람들과 공유할 수 있습니다. [Power BI에서 앱을 게시하는 방법](service-create-distribute-apps.md)에 대해 자세히 알아보세요.
+
 ## <a name="stop-or-change-sharing"></a>공유 중지 또는 변경
 대시보드 또는 보고서 소유자만 다시 공유를 켜고 끌 수 있습니다.
 
@@ -132,50 +137,10 @@ Power BI 관리자는 외부 게스트 사용자가 조직의 콘텐츠를 편�
 * 동료가 특정 대시보드 또는 보고서에 이미 액세스할 수 있고 사용자가 해당 대시보드 또는 보고서에 있는 경우 URL을 복사하여 직접 링크를 보낼 수 있습니다. 예: `https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`.
 * 마찬가지로, 동료가 특정 대시보드에 대한 액세스 권한을 가진 경우 [기본 보고서의 직접 링크를 전송](service-share-reports.md)할 수 있습니다. 
 
-### <a name="share-with-more-than-100-separate-users"></a>100명 이상의 개별 사용자와 공유
-
-단일 공유 작업으로 최대 100명의 사용자 또는 그룹과 공유할 수 있습니다. 그러나 한 항목에 대한 액세스 권한을 500명이 넘는 사용자에게 부여할 수 있습니다. 다음은 몇 가지 제안 사항입니다.
-
-- 사용자를 개별적으로 지정하여 여러 번 공유합니다.
-- 모든 사용자를 포함하는 사용자 그룹과 공유합니다. 
-- 작업 영역에서 보고서 또는 대시보드를 만든 다음, 작업 영역에서 앱을 만듭니다. 앱을 더 많은 사람들과 공유할 수 있습니다. [Power BI에서 앱을 게시하는 방법](service-create-distribute-apps.md)에 대해 자세히 알아보세요.
-
-## <a name="troubleshoot-sharing"></a>공유 문제 해결
-
-### <a name="my-dashboard-recipients-see-a-lock-icon-in-a-tile-or-a-permission-required-message"></a>내 대시보드를 받는 사람에게 타일 또는 “사용 권한 필요” 메시지에 잠금 아이콘이 표시됩니다.
-
-공유받은 사람이 보고서를 보려고 할 때 대시보드의 잠긴 타일 또는 “사용 권한 필요” 메시지가 표시될 수 있습니다.
-
-![Power BI 잠긴 타일](media/service-share-dashboards/power-bi-locked_tile_small.png)
-
-이 경우 기본 데이터 세트에 대한 권한을 부여해야 합니다.
-
-1. 콘텐츠 목록에 있는 **데이터 세트** 탭으로 이동합니다.
-
-1. 데이터 세트 옆에 있는 줄임표( **...** )와 **사용 권한 관리**를 차례로 선택합니다.
-
-    ![권한 관리](media/service-share-dashboards/power-bi-sharing-manage-permissions.png)
-
-1. **사용자 추가**를 선택합니다.
-
-    ![사용자 추가 선택](media/service-share-dashboards/power-bi-share-dataset-add-user.png)
-
-1. 개인에 대한 전체 메일 주소, 메일 그룹 또는 보안 그룹을 입력합니다. 동적 메일 그룹과 공유할 수 없습니다.
-
-    ![전자 메일 주소 추가](media/service-share-dashboards/power-bi-add-user-dataset.png)
-
-
-1. **추가**를 선택합니다.
-
-### <a name="i-cant-share-a-dashboard-or-report"></a>대시보드 또는 보고서를 공유할 수 없음
-
-대시보드 또는 보고서를 공유하려면 기본 콘텐츠, 즉 모든 관련 보고서 및 데이터 세트를 다시 공유할 수 있는 권한이 있어야 합니다. 공유할 수 없다는 메시지가 표시되면 보고서 작성자에게 해당 보고서 및 데이터 세트에 대한 다시 공유 권한을 요청합니다.
-
-!["공유할 수 없습니다." 메시지](media/service-share-dashboards/power-bi-sharing-unable-to-share.png)
-
-
 ## <a name="next-steps"></a>다음 단계
 
-* [대시보드 및 보고서를 공동 작업 및 공유하는 방법](service-how-to-collaborate-distribute-dashboards-reports.md)
-* [필터링된 Power BI 보고서 공유](service-share-reports.md)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
+- [대시보드 및 보고서를 공동 작업 및 공유하는 방법](service-how-to-collaborate-distribute-dashboards-reports.md)
+- [대시보드 및 보고서 공유 문제 해결](service-troubleshoot-sharing.md)
+- [공유 대시보드 또는 보고서에 대한 액세스 요청 또는 액세스 권한 부여](service-request-access.md)
+- [필터링된 Power BI 보고서 공유](service-share-reports.md)
+- 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

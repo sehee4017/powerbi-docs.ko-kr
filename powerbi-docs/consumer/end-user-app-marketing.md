@@ -1,20 +1,20 @@
 ---
 title: Power BI 서비스에서 영업 및 마케팅 앱 설치 및 사용
-description: Power BI에서 앱을 사용하면 관련된 대시보드 및 보고서를 모두 한 곳에 모을 수 있습니다. AppSource에서 영업 및 마케팅 앱을 설치합니다.
+description: Power BI에서 앱을 사용하면 관련된 대시보드 및 보고서를 모두 한 곳에 모을 수 있습니다. Power BI 앱 마켓플레이스에서 영업 및 마케팅 앱을 설치합니다.
 author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
-ms.date: 02/19/2020
+ms.topic: how-to
+ms.date: 06/09/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 65584772a60be1a784828226fbac48458ded7be8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: df22baeae8acb09ac9b7f071c16ec8697203f8fa
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496860"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85236569"
 ---
 # <a name="install-and-use-the-sample-sales-and-marketing-app-in-the-power-bi-service"></a>Power BI 서비스에서 샘플 영업 및 마케팅 앱 설치 및 사용
 
@@ -23,43 +23,42 @@ ms.locfileid: "77496860"
 [Power BI 콘텐츠를 가져오는 방법을 기본적으로 이해](end-user-app-view.md)했으므로 이제 Microsoft AppSource(appsource.com)에서 영업 및 마케팅 앱을 다운로드해 보겠습니다. 
 
 
-## <a name="microsoft-appsource-appsourcecom"></a>Microsoft AppSource(appsource.com)
-앱 링크는 [마케팅 및 영업 앱](https://appsource.microsoft.com/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample?tab=Overview)입니다. 이 링크를 선택하면 Microsoft AppSource에서 이 앱의 다운로드 페이지가 열립니다. 
+## <a name="get-the-app-from-the-power-bi-apps-marketplace"></a>Power BI 앱 마켓플레이스에서 앱 가져오기
 
-1. 앱을 다운로드하려면 로그인하라는 메시지가 표시될 수 있습니다. Power BI에 사용하는 것과 동일한 메일 주소로 로그인합니다. 
+1. 아직 로그인하지 않았으면 [Power BI 서비스에 로그인](./end-user-sign-in.md)합니다. 
 
-    ![AppSource 로그인 화면  ](./media/end-user-app-marketing/power-bi-sign-in.png)
+1. Power BI에서 **앱 > 앱 가져오기**를 선택합니다. 
 
-2. **지금 받기**를 선택합니다. 
+    ![앱 가져오기  ](./media/end-user-app-marketing/power-bi-get-apps.png)
 
-    ![Power BI 앱이 선택된 AppSource 웹 사이트  ](./media/end-user-app-marketing/power-bi-get-now.png)
+1. Power BI 앱 마켓플레이스가 열립니다. 영업 및 마케팅 앱을 찾습니다. 표시되지 않는 경우 검색 상자에 "Sales"를 입력 해 보세요.
 
+    ![Power BI 앱 마켓플레이스  ](./media/end-user-app-marketing/power-bi-apps-marketplace.png)
 
-3. AppSource에 처음으로 로그인하는 경우 사용 약관에 동의해야 합니다. 
+1. 앱 타일을 클릭합니다. AppSource에서 앱 제품이 열립니다. **지금 가져오기**를 클릭합니다.
 
-    ![AppSource 사용 약관 화면  ](./media/end-user-app-marketing/power-bi-term.png)
+   ![AppSource의 앱 제품](./media/end-user-app-marketing/power-bi-apps-app-offering.png)
 
+1. 이 앱을 설치할 것인지 확인합니다.
 
-4. Power BI 서비스가 열립니다. 이 앱을 설치할 것인지 확인합니다.
-
-    ![이 앱을 설치하시겠습니까?  ](./media/end-user-apps/power-bi-app-install.png)
+   ![이 앱을 설치하시겠습니까?](./media/end-user-app-marketing/power-bi-app-install.png)
 
 5. 앱이 설치되면 Power BI 서비스에 성공 메시지가 표시됩니다. **앱으로 이동**을 선택하여 앱을 엽니다. 디자이너가 앱을 만든 방법에 따라, 앱 대시보드 또는 앱 보고서가 표시됩니다.
 
-    ![앱을 설치함 ](./media/end-user-apps/power-bi-app-ready.png)
+    ![앱을 설치함 ](./media/end-user-app-marketing/power-bi-app-ready.png)
 
     **앱**을 선택하고 **영업 및 마케팅**을 선택하여 앱 콘텐츠 목록에서 직접 앱을 열 수도 있습니다.
 
-    ![Power BI의 앱](./media/end-user-apps/power-bi-apps.png)
+    ![Power BI의 앱](./media/end-user-app-marketing/power-bi-apps-sales-marketing.png)
 
 
 6. 새 앱을 탐색할지 또는 사용자 지정하고 공유할지를 선택합니다. Microsoft 샘플 앱을 선택했으므로 먼저 살펴보겠습니다. 
 
-    ![샘플 데이터와 함께 탐색](./media/end-user-apps/power-bi-explore.png)
+    ![샘플 데이터와 함께 탐색](./media/end-user-app-marketing/power-bi-explore.png)
 
 7.  새 앱이 대시보드를 사용하여 열립니다. 앱 *디자이너*가 대신 보고서로 열리도록 앱을 설정했을 수 있습니다.  
 
-    ![샘플 데이터와 함께 탐색](./media/end-user-apps/power-bi-new-app.png)
+    ![샘플 데이터와 함께 탐색](./media/end-user-app-marketing/power-bi-new-app.png)
 
 
 

@@ -6,16 +6,16 @@ ms.author: owend
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
-ms.date: 03/26/2020
+ms.topic: how-to
+ms.date: 06/04/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 74ea78bf9f5e845eb86a38bad54ebde5e99ffbb0
-ms.sourcegitcommit: b66c913a50a5100082e1c8ff7cd1c4f76f514fe7
+ms.openlocfilehash: b327730db126ad3f83e0a680d8dc29f384e606fe
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/30/2020
-ms.locfileid: "84219551"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85227414"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint-preview"></a>XMLA 엔드포인트로 데이터 세트 연결(미리 보기)
 
@@ -169,7 +169,7 @@ XMLA 엔드포인트를 통해 지정된 메타데이터는 데이터 원본에 
 
 ### <a name="service-principals"></a>서비스 주체
 
-공개 미리 보기 동안 자동화 시나리오를 위해 [서비스 주체](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)를 사용하여 XMLA 엔드포인트를 통해 연결하는 것은 아직 지원되지 않습니다.
+Azure 서비스 주체를 사용하여 무인 리소스 및 서비스 수준 작업을 수행할 수 있습니다. 자세한 내용은 [서비스 주체를 사용하여 Premium 작업 영역 및 데이터 세트 작업 자동화](service-premium-service-principal.md)를 참조하세요.
 
 ## <a name="deploy-model-projects-from-visual-studio-ssdt"></a>Visual Studio에서 모델 프로젝트 배포(SSDT)
 

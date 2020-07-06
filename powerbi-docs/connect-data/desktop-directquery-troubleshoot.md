@@ -5,15 +5,15 @@ author: peter-myers
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 002df4e6c3eec7095258647a0015042efb98257f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 54091175b49a0465a56a689190965429715a4754
+ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292504"
+ms.lasthandoff: 06/27/2020
+ms.locfileid: "85485556"
 ---
 # <a name="troubleshoot-developing-directquery-models-in-power-bi-desktop"></a>Power BI Desktop의 DirectQuery 모델 개발 문제 해결
 
@@ -42,13 +42,13 @@ ms.locfileid: "83292504"
 - Teradata
 - SAP HANA
 
-추적 파일은 현재 사용자의 **AppData** 폴더에 있을 수 있습니다. _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces_
+추적 파일은 현재 사용자의 **AppData** 폴더에 있습니다. _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces_
 
 이 폴더에 쉽게 액세스하려면 Power BI Desktop에서 _파일 > 옵션 및 설정 > 옵션_을 선택한 다음, **진단** 페이지를 선택합니다. 그러면 다음과 같은 대화 상자 창이 표시됩니다.
 
 ![Power BI Desktop 창이 열리고, 전역 진단 페이지를 선택합니다. 진단 옵션 섹션에는 추적 사용 및 지오코딩 캐시 무시라는 두 가지 속성이 있습니다. 추적 사용 옵션을 사용하도록 설정합니다. 크래시 덤프 수집 섹션에는 지금 사용 단추와 크래시 덤프/추적 폴더 열기 링크가 있습니다.](media/desktop-directquery-troubleshoot/desktop-directquery-troubleshoot-desktop-file-options-diagnostics.png)
 
-**크래시 덤프/추적 폴더 열기** 링크를 선택하면 크래시 덤프 수집 아래에 다음 폴더가 열립니다. _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\Traces_
+크래시 덤프 수집 아래에서 **크래시 덤프/추적 폴더 열기** 링크를 선택하면 다음 폴더가 열립니다. _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\Traces_
 
 해당 폴더의 부모 폴더로 이동하면 _AnalysisServicesWorkspaces_가 포함된 폴더가 표시됩니다. 이 폴더에는 열려 있는 Power BI Desktop 인스턴스마다 하나의 작업 영역 하위 폴더가 포함되어 있습니다. 이러한 하위 폴더의 이름은 _AnalysisServicesWorkspace2058279583_와 같이 정수 접미사로 지정됩니다.
 
@@ -63,7 +63,7 @@ SQL Server Management Studio를 다운로드하여 설치한 후에 SQL Server P
 추적 파일을 열려면 다음 단계를 수행합니다.
 
 1. SQL Server Profiler에서 _‘파일 > 열기 > 추적’_ 파일을 선택합니다.
-2. 다음과 같이 현재 열려 있는 Power BI 세션에 대한 추적 파일의 경로를 입력합니다. _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces\AnalysisServicesWorkspace2058279583\Data_
+2. 현재 열려 있는 Power BI 세션에 대한 추적 파일의 경로를 입력합니다(예: _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces\AnalysisServicesWorkspace2058279583\Data_).
 3. _FlightRecorderCurrent.trc_를 엽니다.
 
 현재 세션의 모든 이벤트가 표시됩니다. 주석이 추가된 다음 예제는 이벤트 그룹을 강조 표시하고 있습니다. 각 그룹에 있는 항목은 다음과 같습니다.
@@ -77,7 +77,7 @@ SQL Server Management Studio를 다운로드하여 설치한 후에 SQL Server P
 
 관심 있는 다른 열은 다음과 같습니다.
 
-- **TextData:** 이벤트의 텍스트 세부 정보입니다. ‘쿼리 시작/종료’ 이벤트의 경우 DAX 쿼리가 됩니다.  ‘DirectQuery 시작/종료’ 이벤트의 경우 기본 원본으로 보낸 SQL 쿼리가 됩니다.  현재 선택한 이벤트의 _TextData_ 값도 맨 아래 영역에 표시됩니다.
+- **TextData:** 이벤트의 텍스트 세부 정보입니다. ‘쿼리 시작/종료’ 이벤트의 경우 DAX 쿼리가 됩니다. ‘DirectQuery 시작/종료’ 이벤트의 경우 기본 원본으로 보낸 SQL 쿼리가 됩니다. 현재 선택한 이벤트의 _TextData_ 값도 맨 아래 영역에 표시됩니다.
 - **EndTime:** 이벤트의 완료 시간입니다.
 - **Duration:** DAX 또는 SQL 쿼리를 실행하는 데 걸리는 시간(밀리초)입니다.
 - **Error:** 오류가 발생했는지 여부를 나타냅니다. 오류가 발생한 경우 이벤트도 빨간색으로 표시됩니다.

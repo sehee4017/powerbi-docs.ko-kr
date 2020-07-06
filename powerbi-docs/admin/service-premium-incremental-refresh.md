@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
-ms.topic: conceptual
-ms.date: 05/26/2020
+ms.topic: how-to
+ms.date: 06/22/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: 2257e38183d87ef7fd4fdd12546c2a191a7acf74
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
+ms.openlocfilehash: a9045c5c088926b24bb9f71e2adf558da6ffa597
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84159884"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85227439"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Power BI의 증분 새로 고침
 
@@ -114,7 +114,7 @@ Power BI 서비스의 첫 번째 새로 고침에서 만 5년 동안의 데이�
 
 #### <a name="current-date"></a>현재 날짜
 
-‘현재 날짜’는 새로 고침 시간의 시스템 날짜를 기준으로 합니다. Power BI 서비스의 데이터 세트에 예약된 새로 고침을 사용하는 경우에는 현재 날짜를 결정할 때 지정된 표준 시간대가 고려됩니다. 수동으로 호출된 새로 고침 및 예약된 새로 고침은 둘 다 표준 시간대를 따릅니다(사용 가능한 경우). 예를 들어 표준 시간대가 지정된 오후 8시(태평양 표준시(미국 및 캐나다))에 발생하는 새로 고침은 GMT(태평양 표준시와 다르게 다음 날이 됨)가 아닌 태평양 표준시를 기준으로 현재 날짜를 결정합니다.
+‘현재 날짜’는 새로 고침 시간의 시스템 날짜를 기준으로 합니다. Power BI 서비스의 데이터 세트에 예약된 새로 고침을 사용하는 경우에는 현재 날짜를 결정할 때 지정된 표준 시간대가 고려됩니다. Power BI 서비스를 통해 수동으로 호출된 새로 고침 또는 예약된 새로 고침은 모두 표준 시간대를 준수할 수 있습니다(사용 가능한 경우). 예를 들어 표준 시간대가 지정된 오후 8시(태평양 표준시(미국 및 캐나다))에 발생하는 새로 고침은 GMT(태평양 표준시와 다르게 다음 날이 됨)가 아닌 태평양 표준시를 기준으로 현재 날짜를 결정합니다. [TMSL refresh 명령](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current) 같이 Power BI 서비스를 통해 호출되지 않은 새로 고침 작업은 예약된 새로 고침 표준 시간대를 고려하지 않습니다.
 
 ![표준 시간대](media/service-premium-incremental-refresh/time-zone2.png)
 
@@ -186,7 +186,7 @@ SSMS에서는 [TMSL(테이블 형식 모델 스크립팅 언어)](https://docs.m
 
 - **applyRefreshPolicy** – 테이블에 증분 새로 고침 정책이 정의된 경우 applyRefreshPolicy는 정책 적용 여부를 결정합니다. 정책이 적용되지 않는 경우 전체 처리 작업을 수행하면 파티션 정의가 변경되지 않고 테이블의 모든 파티션이 완전히 새로 고쳐집니다. 기본값은 true입니다.
 
-- **effectiveDate** – 증분 새로 고침 정책이 적용되는 경우 현재 날짜를 알고 있어야 기록 범위 및 증분 범위의 이동 기간 범위를 결정할 수 있습니다. effectiveDate 매개 변수를 사용하여 현재 날짜를 재정의할 수 있습니다. 이는 과거 또는 미래의 날짜까지 데이터를 증분 방식으로 새로 고치는 테스트, 데모 및 비즈니스 시나리오에 유용합니다(예: 향후 예산). 기본값은 [현재 날짜](#current-date)입니다.
+- **effectiveDate** – 증분 새로 고침 정책이 적용되는 경우 현재 날짜를 알고 있어야 기록 범위 및 증분 범위의 이동 기간 범위를 결정할 수 있습니다. effectiveDate 매개 변수를 사용하여 현재 날짜를 재정의할 수 있습니다. 이는 과거 또는 미래의 날짜까지 데이터를 증분 방식으로 새로 고치는 테스트, 데모 및 비즈니스 시나리오에 유용합니다(예: 향후 예산). 기본값은 현재 날짜입니다.
 
 ```json
 { 
@@ -205,6 +205,8 @@ SSMS에서는 [TMSL(테이블 형식 모델 스크립팅 언어)](https://docs.m
   }
 }
 ```
+
+TMSL을 사용하여 기본 증분 새로 고침 동작을 재정의하는 방법에 대한 자세한 내용은 [Refresh 명령](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current)을 참조하세요.
 
 ### <a name="custom-queries-for-detect-data-changes"></a>데이터 변경 내용을 검색하기 위한 사용자 지정 쿼리
 

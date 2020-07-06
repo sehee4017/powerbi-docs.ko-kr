@@ -5,16 +5,16 @@ author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: troubleshooting
+ms.topic: how-to
 ms.date: 5/06/2019
 ms.author: arthii
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: da21acf2c37136b70bdb7ab70060422655ac879c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 108a50017a55a2ac87bb8db2adf4f92bd5dca58f
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83323876"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85231065"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>Power BI Gateway 문제 해결(개인 모드)
 
@@ -47,7 +47,7 @@ ms.locfileid: "83323876"
 ## <a name="schedule-refresh"></a>새로 고침 예약
 **오류: 클라우드에 저장된 자격 증명이 누락되었습니다.**
 
-새로 고침을 예약한 후 게이트웨이(개인 모드)를 제거하고 다시 설치한 경우 \<데이터 세트\>에 대한 설정에 이 오류가 나타날 수 있습니다. 게이트웨이(개인 모드)를 제거하는 경우 새로 고침에 대해 데이터 세트의 데이터 원본 자격 증명이 Power BI 서비스에서 제거됩니다.
+새로 고침을 예약한 후 게이트웨이(개인 모드)를 제거하고 다시 설치한 경우 \<dataset\>에 대한 설정에 이 오류가 나타날 수 있습니다. 게이트웨이(개인 모드)를 제거하는 경우 새로 고침에 대해 데이터 세트의 데이터 원본 자격 증명이 Power BI 서비스에서 제거됩니다.
 
 **해결 방법:** Power BI에서 데이터 세트의 새로 고침 설정으로 이동합니다. **데이터 원본 관리**에서 오류가 있는 모든 데이터 원본에 대해 **자격 증명 편집**을 선택합니다. 그런 다음 데이터 원본에 다시 로그인합니다.
 

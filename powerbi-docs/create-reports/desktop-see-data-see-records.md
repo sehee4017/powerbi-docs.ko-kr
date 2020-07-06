@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: d1aca2499ecf2be3e38fe36bd00f5ff5b2c17cc7
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: f70876b3b8c1815576ed019f88b67296f7aec052
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83793849"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238610"
 ---
 # <a name="use-visual-table-and-data-point-table-in-power-bi-desktop"></a>Power BI Desktop에서 시각적 개체 테이블 및 데이터 요소 테이블 사용
 **Power BI Desktop**에서는 시각화의 세부 정보로 드릴하고 선택한 시각적 개체에 대한 기본 데이터 또는 개별 데이터 레코드의 텍스트 표현을 볼 수 있습니다. 이러한 기능을 때로는 ‘클릭 광고’, ‘드릴스루’ 또는 ‘드릴스루 세부 정보’라고 합니다.  
@@ -82,7 +82,7 @@ ms.locfileid: "83793849"
 > [!NOTE]
 >**데이터 요소 테이블**에는 다음과 같은 제한 사항이 있습니다.
 > - **데이터 요소 테이블** 보기에서 데이터를 변경하고 다시 보고서에 저장할 수 없습니다.
-> - 시각적 개체에서 계산된 측정값을 사용하는 경우 **데이터 요소 테이블**을 사용할 수 없습니다.
+> - 시각적 개체에서 (다차원) 측정값 그룹에 계산된 측정값을 사용하는 경우 **데이터 요소** 테이블을 사용할 수 없습니다.
 > - 라이브 MD(다차원) 모델에 연결된 경우 **데이터 요소 테이블**을 사용할 수 없습니다.
 
 ## <a name="next-steps"></a>다음 단계

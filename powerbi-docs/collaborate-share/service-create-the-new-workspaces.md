@@ -5,17 +5,17 @@ author: maggiesMSFT
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: maggies
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: edc06d7a46589c999e4bf18613c0c75f6d5bf983
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: c3a625dcdd58f881c9314e821753f66098e073f5
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84120582"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354435"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Power BI에서 새 작업 영역 만들기
 
@@ -144,6 +144,20 @@ OneDrive 위치를 구성한 후에는 Power BI 서비스에서 다른 데이터
 조직 내의 많은 대상 그룹에 공식 콘텐츠를 배포하려는 경우 작업 영역에서 앱을 게시할 수 있습니다.  콘텐츠가 준비되면 게시할 대시보드 및 보고서를 선택한 다음, 앱으로 게시합니다. 각 작업 영역에서 하나의 앱을 만들 수 있습니다.
 
 [새 작업 영역에서 앱을 게시](service-create-distribute-apps.md)하는 방법을 자세히 알아보세요.
+
+## <a name="security-settings"></a>보안 설정
+
+**참가자가 이 작업 영역에 대한 앱을 업데이트하도록 허용** 설정을 통해 작업 영역 관리자는 작업 영역에 대한 앱을 업데이트하는 기능을 참가자 역할의 사용자에게 위임할 수 있습니다. 기본적으로 작업 영역 관리자 및 구성원만 작업 영역에 대한 앱을 게시하고 업데이트할 수 있습니다. 
+
+사용하도록 설정하면 참가자는 다음을 수행할 수 있습니다.
+* 이름, 아이콘, 설명, 지원 사이트, 색과 같은 앱 메타데이터를 업데이트
+* 보고서 또는 데이터 세트 추가와 같이 앱에 포함된 항목을 추가 또는 제거
+* 앱이 열리는 앱 탐색 또는 기본 항목을 변경
+
+그러나 참가자는 다음과 같은 작업을 수행할 수 없습니다.
+* 처음으로 앱을 게시
+* 앱에 대한 사용 권한이 있는 사용자를 변경
+
 
 ## <a name="next-steps"></a>다음 단계
 * [Power BI의 새 작업 영역에서 작업 구성](service-new-workspaces.md)에 대해 알아보기

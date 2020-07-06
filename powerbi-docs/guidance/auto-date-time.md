@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 69084048b46c77452bf94f04fd79a97c4f09af5b
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: b95eafbe797dcc28c54aa9781b0422820ccf1f4b
+ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565997"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "85393614"
 ---
 # <a name="auto-datetime-guidance-in-power-bi-desktop"></a>Power BI Desktop의 자동 날짜/시간 지침
 
@@ -26,7 +26,7 @@ _자동 날짜/시간_ 옵션은 편리하고 빠르고 사용하기 쉬운 시�
 
 다음 글머리 기호 목록에서는 _자동 날짜/시간_ 옵션과 관련된 고려 사항 및 가능한 제한 사항을 설명합니다.
 
-- **모두 적용되거나 모두 적용되지 않음:** _자동 날짜/시간_ 옵션을 사용하도록 설정하는 경우 가져오기 테이블에서 관계의 &quot;다&quot;측면이 아닌 모든 날짜 열(계산된 열 제외)에 적용됩니다. 열에 따라 선택적으로 사용 또는 사용 안 함을 지정할 수 없습니다.
+- **모두 적용되거나 모두 적용되지 않음:** _자동 날짜/시간_ 옵션을 사용하도록 설정하는 경우 가져오기 테이블에서 관계의 &quot;다&quot; 측면이 아닌 모든 날짜 열에 적용됩니다. 열에 따라 선택적으로 사용 또는 사용 안 함을 지정할 수 없습니다.
 - **달력 기간만 해당:** 연도 및 분기 열은 달력 기간과 관련이 있습니다. 즉, 연도는 1월 1일에 시작하여 12월 31일에 끝납니다. 연도 시작(또는 종료) 날짜를 사용자 지정할 수는 없습니다.
 - **사용자 지정:** 기간을 설명하는 데 사용되는 값은 사용자 지정할 수 없습니다. 또한 다른 기간(예: 주)을 설명하는 열을 더 추가할 수도 없습니다.
 - **연도 필터링:** **분기**, **월** 및 **일** 열 값에는 연도 값이 포함되지 않습니다. 예를 들어 **월** 열에는 월 이름(1월, 2월 등)만 포함됩니다. 값은 완전히 자체 설명되지 않으며, 일부 보고서 디자인에서는 연도 필터 컨텍스트를 전달하지 못할 수 있습니다.
@@ -51,6 +51,7 @@ _자동 날짜/시간_ 옵션이 프로젝트와 관련이 없는 경우 전역 
 
 이 문서와 관련된 보다 자세한 내용을 알아보려면 다음 리소스를 참조하세요.
 
+- [Power BI Desktop에서 날짜 테이블 만들기](model-date-tables.md)
 - [Power BI Desktop의 자동 날짜/시간](../transform-model/desktop-auto-date-time.md)
 - [Power BI Desktop에서 날짜 테이블 설정 및 사용](../transform-model/desktop-date-tables.md)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

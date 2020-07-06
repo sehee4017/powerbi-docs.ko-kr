@@ -5,22 +5,22 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 809f0ec23dd0b7c1ef4cd41dde27fd0c8fdefd33
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 752e43fa3471419a76338f9db81f08a6180b6aba
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83324497"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238230"
 ---
 # <a name="create-measures-for-data-analysis-in-power-bi-desktop"></a>Power BI Desktop에서 데이터 분석을 위한 측정값 만들기
 
 Power BI Desktop에서는 몇 번의 클릭만으로 데이터에 대한 정보를 만들 수 있습니다. 그러나 가장 중요한 질문에 답변하는 데 필요한 모든 정보가 해당 데이터에 포함되지 않은 경우도 있습니다. 이러한 경우 측정값을 사용하면 도움이 될 수 있습니다.
 
-측정값은 가장 일반적인 데이터 분석에서 사용됩니다. 합계, 평균, 최솟값, 최댓값, 개수 등의 간단한 요약을 **필드**를 통해 설정할 수 있습니다. 측정값의 계산된 결과는 보고서 조작에 대한 응답으로 항상 변경되어 빠른 동적 임시 데이터 탐색이 가능합니다. 측정값에 대해 좀 더 자세히 살펴보겠습니다. 자세한 내용은 [계산 측정값 만들기](/learn/modules/model-data-power-bi/4b-create-calculated-measures)를 참조하세요.
+측정값은 가장 일반적인 데이터 분석에서 사용됩니다. 합계, 평균, 최솟값, 최댓값, 개수 등의 간단한 요약을 **필드**를 통해 설정할 수 있습니다. 측정값의 계산된 결과는 보고서 조작에 대한 응답으로 항상 변경되어 빠른 동적 임시 데이터 탐색이 가능합니다. 측정값에 대해 좀 더 자세히 살펴보겠습니다. 자세한 내용은 [측정값 만들기](/learn/modules/model-data-power-bi/4b-create-calculated-measures)를 참조하세요.
 
 ## <a name="understanding-measures"></a>측정값 이해
 

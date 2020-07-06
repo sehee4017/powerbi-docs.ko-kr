@@ -5,15 +5,15 @@ author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/19/2020
 ms.author: painbar
-ms.openlocfilehash: a68c8a452752981b2526c450820e8d277f5c0b10
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: e66d1b8b57af9ee04239e7222db742b64cc25883
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83692955"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85235704"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>조직에 템플릿 앱 설치 및 배포
 
@@ -38,15 +38,19 @@ Power BI 분석가인가요? 그렇다면 이 문서에서는 Salesforce, Micros
 
     ![앱 가져오기](media/service-template-apps-install-distribute/power-bi-get-apps-arrow.png)
 
-1. 표시되는 AppSource 창에서 **앱**을 선택합니다. 원하는 앱을 찾아보거나 검색한 다음, **지금 가져오기**를 선택합니다.
+1. 표시되는 Power BI 앱 마켓플레이스에서 **템플릿 앱**을 선택합니다. AppSource에서 사용할 수 있는 모든 템플릿 앱이 표시됩니다. 원하는 템플릿 앱을 찾아보거나 검색 상자를 사용하여 필터링된 선택 항목을 가져옵니다. 템플릿 앱 이름 또는 재무, 분석, 마케팅 등과 같은 범주의 이름 일부를 입력하면 원하는 항목을 보다 쉽게 찾을 수 있습니다.
 
     ![AppSource에서 검색](media/service-template-apps-install-distribute/power-bi-appsource.png)
+
+1. 찾고 있는 템플릿 앱을 찾았으면 클릭합니다. 템플릿 앱 제품이 표시됩니다. **지금 가져오기**를 클릭합니다.
+
+   ![템플릿 앱 제품](media/service-template-apps-install-distribute/power-bi-template-app-offer.png)
 
 1. 표시되는 대화 상자에서 **설치**를 선택합니다.
 
     ![앱 설치](media/service-template-apps-install-distribute/power-install-dialog.png)
     
-    앱은 연결된 작업 영역을 사용하여 설치됩니다. **앱을 사용자 지정하는 경우 이 연결된 작업 영역에서 작업을 수행합니다**.
+    추가 [사용자 지정](#customize-and-share-the-app)에 필요한 모든 아티팩트가 있는 같은 이름의 작업 영역과 함께 앱이 설치됩니다.
 
     > [!NOTE]
     > AppSource에 나열되지 않은 앱의 설치 링크를 사용하면 유효성 검사 대화 상자에 선택을 확인하라는 메시지가 표시됩니다.

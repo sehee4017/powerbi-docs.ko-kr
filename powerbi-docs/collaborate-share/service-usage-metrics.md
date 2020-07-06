@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/21/2019
 LocalizationGroup: Dashboards
-ms.openlocfilehash: af095964846cad264d1ac0ffd82e0c2ac6988a0e
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: b5f4d615c04583e59b618b415c8c239c9295c8a8
+ms.sourcegitcommit: 0b1e96de184caf2371adedcc3ee43bcb88048187
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84273417"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "85299598"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Power BI 대시보드 및 보고서의 사용 메트릭 모니터링
 
@@ -158,6 +158,7 @@ Power BI는 별도의 국가별 클라우드에서 사용할 수 있습니다. �
 * 사용 메트릭은 일관되지 않는 네트워크 연결, 광고 차단 또는 클라이언트에서 이벤트 전송을 방해할 수 있는 기타 문제로 인해 실제보다 활동 수가 적게 집계될 수 있습니다.
 * 이 문서의 앞부분에서 설명한 대로 특정 유형의 보기는 사용 메트릭에 포함되지 않습니다.
 * Power BI 서비스로 요청을 다시 전송할 필요 없이 클라이언트가 새로 고쳐지는 경우 사용 메트릭은 실제보다 활동 수가 많이 집계될 수 있습니다.
+* 사용 현황 메트릭 보고서에는 공유를 사용할 수 없습니다. 사용자에게 보고서에 대한 읽기 액세스 권한을 부여하려면 먼저 작업 영역에 대한 액세스 권한을 부여해야 합니다.
 
 ### <a name="other-considerations"></a>기타 고려 사항
 

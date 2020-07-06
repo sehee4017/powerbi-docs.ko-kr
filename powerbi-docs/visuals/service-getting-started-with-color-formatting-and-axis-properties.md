@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/30/2020
+ms.date: 06/17/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 526d2face5b963b27ac17335bbe223c5e3bec672
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e4f5007d60f7634b671f1178a7279fe5cc35be89
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276585"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354596"
 ---
 # <a name="getting-started-with-the-formatting-pane"></a>서식 창을 사용하여 시작
 
@@ -28,11 +28,11 @@ ms.locfileid: "83276585"
 
 보고서를 편집하고 시각화를 선택한 경우 **시각화** 창이 나타납니다. 이 창을 사용하여 시각화를 변경합니다. **시각화** 창 바로 아래에는 **필드** 아이콘(막대 모음) **서식** 아이콘(페인트 롤러) 및 **분석** 아이콘(돋보기) 등 세 가지 아이콘이 있습니다. 아래 이미지에서는 **필드** 아이콘을 선택했으며 아이콘 아래 노란색 막대로 표시됩니다.
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format.png)
+![필드 아이콘이 선택된 시각화 창](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format.png)
 
 **서식**을 선택하면 아이콘 아래 영역에 현재 선택한 시각화에 사용할 수 있는 사용자 지정이 표시됩니다.  
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format-selected.png)
+![서식 아이콘이 선택된 시각화 창](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format-selected.png)
 
 각 시각화의 여러 요소를 사용자 지정할 수 있습니다. 사용 가능한 옵션은 선택한 시각적 개체에 따라 달라집니다. 옵션 중 일부는 다음과 같습니다.
 
@@ -119,7 +119,7 @@ ms.locfileid: "83276585"
 ## <a name="changing-axis-properties"></a>축 속성 변경
 
 X축 또는 Y축을 수정하는 것이 유용할 때가 있습니다. 색 작업과 마찬가지로 다음 이미지에 표시된 것처럼 변경할 축 왼쪽에 있는 아래쪽 화살표를 선택하여 축을 수정할 수 있습니다.  
-![](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-y-axis.png)
+![Y축 카드에 대한 화살표가 있는 서식 창](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-y-axis.png)
 
 아래 예제에서는 다음을 수행하여 Y축의 서식을 지정했습니다.
 - 레이블을 시각화의 오른쪽으로 이동

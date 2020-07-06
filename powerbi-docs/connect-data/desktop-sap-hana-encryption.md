@@ -6,23 +6,22 @@ ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 364736ae8f4cf800c9c63282feb07f8e081aeb42
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 83e1725b7ce7d38a00d0564702977c3a8eef7c1d
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83289215"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85222872"
 ---
 # <a name="enable-encryption-for-sap-hana"></a>SAP HANA에 대한 암호화 사용
 
 Power BI Desktop 및 Power BI 서비스에서 SAP HANA 서버로의 연결을 암호화하는 것이 좋습니다. OpenSSL 및 SAP 소유 CommonCryptoLib(이전의 sapcrypto) 라이브러리를 사용하여 HANA 암호화를 설정할 수 있습니다. SAP는 CommonCryptoLib 사용을 권장하지만, 두 라이브러리에서 모두 기본 암호화 기능을 사용할 수 있습니다.
 
-이 문서에서는 OpenSSL을 사용하여 암호화를 설정하는 방법을 간략하게 설명하고 SAP 설명서의 일부 특정 영역을 참조합니다. 콘텐츠와 링크를 주기적으로 업데이트하지만, 종합적인 지침 및 지원은 항상 공식 SAP 설명서를 참조하세요.
- OpenSSL 대신 CommonCryptoLib를 사용하여 암호화를 설정하려는 경우 [SAP HANA 2.0에서 TLS/SSL을 구성하는 방법](https://blogs.sap.com/2018/11/13/how-to-configure-tlsssl-in-sap-hana-2.0/)을 참조하세요. OpenSSL에서 CommonCryptoLib로 마이그레이션하는 단계는 [SAP Note 2093286](https://launchpad.support.sap.com/#/notes/2093286)(s-user가 필요함)을 참조하세요.
+이 문서에서는 OpenSSL을 사용하여 암호화를 설정하는 방법을 간략하게 설명하고 SAP 설명서의 일부 특정 영역을 참조합니다. 콘텐츠와 링크를 주기적으로 업데이트하지만, 종합적인 지침 및 지원은 항상 공식 SAP 설명서를 참조하세요. OpenSSL 대신 CommonCryptoLib를 사용하여 암호화를 설정하려는 경우 [SAP HANA 2.0에서 TLS/SSL을 구성하는 방법](https://blogs.sap.com/2018/11/13/how-to-configure-tlsssl-in-sap-hana-2.0/)을 참조하세요. OpenSSL에서 CommonCryptoLib로 마이그레이션하는 단계는 [SAP Note 2093286](https://launchpad.support.sap.com/#/notes/2093286)(s-user가 필요함)을 참조하세요.
 
 > [!NOTE]
 > 이 문서에서 자세히 설명하는 암호화 설정 단계는 SAML SSO의 설정 및 구성 단계와 겹칩니다. HANA 서버의 암호화 공급자로 OpenSSL을 선택하든, CommonCryptoLib를 선택하든 간에 SAML 및 암호화 구성에서 동일하게 선택해야 합니다.
@@ -41,7 +40,7 @@ HANA 서버에 대한 X509 인증서 서명 요청을 만듭니다.
 
 1. SSH를 사용하여 HANA 서버가 실행되는 Linux 머신에 \<sid\>adm으로 연결합니다.
 
-1. 홈 디렉터리 _/__usr/sap/\<sid\>/home_ 으로 이동합니다.
+1. 홈 디렉터리 _/__usr/sap/\<sid\>/home_으로 이동합니다.
 
 1. 아직 없는 경우 이름이 _.__ssl_ 인 숨겨진 디렉터리를 만듭니다.
 

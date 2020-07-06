@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: 149b4f8663838c0a87609a1ec24358fb9ee9727e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 8860a06355f201c463e97d81021a8e5476ac98c8
+ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80403629"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "85354987"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>3단계: Power BI에서 데이터 세트 만들기
 이 문서는 [데이터 세트에 데이터를 푸시](walkthrough-push-data.md)하는 단계별 연습의 일부입니다.
@@ -26,7 +26,7 @@ Power BI REST 작업을 인증하려면 [인증 액세스 토큰 가져오기](w
 
 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) 작업을 호출하면 새 데이터 세트가 만들어집니다. 
 
-![](media/walkthrough-push-data-create-dataset/powerbi-developer-create-dataset.png)
+![데이터 세트 만들기](media/walkthrough-push-data-create-dataset/powerbi-developer-create-dataset.png)
 
 Power BI에서 데이터 세트를 만드는 방법은 다음과 같습니다.
 

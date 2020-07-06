@@ -8,36 +8,39 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/13/2019
-ms.openlocfilehash: fa8759d7edb519240140263bcd01bfdddd9c7d86
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 3cf415cbd14da28d523a042fdf4099fe464a4a8b
+ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83141069"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "84739187"
 ---
 # <a name="power-bi-visuals-api-changelog"></a>Power BI 시각적 개체 API 변경 로그
 이 페이지에는 API 버전에 대한 빠른 요약이 포함되어 있습니다. 여기에 나열된 버전은 안정적인 것으로 간주되며 변경되지 않습니다.
 
-## <a name="api-v26"></a>API v2.6
+## <a name="api-v320"></a>API v3.2.0
+  * **[supportsMultiVisualSelection](./supportsmultivisualselection-feature.md)** 지원
+
+## <a name="api-v260"></a>API v2.6.0
   * 업데이트 옵션에 **isInFocus**를 추가하고 시각적 개체에 **switchFocusModeState** 메서드를 추가
   * **부분합** 사용자 지정을 지원
 
-## <a name="api-v25"></a>API v2.5
+## <a name="api-v250"></a>API v2.5.0
   * **[분석 창](./analytics-pane.md)** 을 지원
   * `SelectionIdBuilder` **withMatrixNode** 및 **withTable** 메서드를 지원
   * `DataRepetitionSelector` 인터페이스를 더 이상 지원하지 않고 `data.CustomVisualOpaqueIdentity` 인터페이스로 대체
 
-## <a name="api-v23"></a>API v2.3
+## <a name="api-v230"></a>API v2.3.0
   * **[방문 페이지 API](./landing-page.md)**
   * **[로컬 스토리지 API](./local-storage.md)**
   * **[튜플 필터 API(다중 열 필터)](./filter-api.md#the-tuple-filter-api-multi-column-filter)**
   * **[이벤트 렌더링 API](./event-service.md#render-events-in-power-bi-visuals)**
 
-## <a name="api-v22"></a>API v2.2
+## <a name="api-v220"></a>API v2.2.0
   * **[DataView에서 JSON 필터 복원](./filter-api.md#restore-the-json-filter-from-the-data-view)** 을 지원
   * **[ContextMenu API](./context-menu.md)**
 
-## <a name="api-v21"></a>API v2.1
+## <a name="api-v210"></a>API v2.1.0
   * 성능 향상:
     * 로드 시간 단축
     * 메모리 사용 공간 축소
@@ -58,32 +61,32 @@ ms.locfileid: "83141069"
    ```
 * `proto` 속성이 dataView 내부에서 숨겨진 metadata\data를 더 이상 저장하지 않습니다. `proto`를 통해 속성에 액세스하는 시각적 개체는 이 업데이트로 인해 중단될 수 있습니다.
 
-## <a name="api-v113"></a>API v1.13
+## <a name="api-v1130"></a>API v1.13.0
 * **[슬라이서 동기화](./enable-sync-slicers.md)** 를 지원. 이 기능은 PBI 현재 코드 상태로 인한 단일 필드 슬라이서에 대해서만 유효합니다. [자세히 알아보기](/power-bi/desktop-slicers)
 * 접근성: [고대비 지원](./high-contrast-support.md) 
 * 접근성: 키보드 포커스 플래그 허용
 
-## <a name="api-v112"></a>API v1.12
+## <a name="api-v1120"></a>API v1.12.0
 * 테마를 지원
 * **[fetchMoreData](./fetch-more-data.md)** 를 지원. **더 많은 데이터 가져오기 API**는 하드 한도인 30,000개 데이터 요소에 구애되지 않습니다.
 * **[캔버스 도구 설명 API](./add-tooltips.md#add-report-page-tooltips)**
 
-## <a name="api-v111"></a>API v1.11
+## <a name="api-v1110"></a>API v1.11.0
 * **[FilterManager API](./filter-api.md)**
 * **[책갈피](./bookmarks-support.md)** 를 지원 
 
-## <a name="api-v110"></a>API v1.10
+## <a name="api-v1100"></a>API v1.10.0
 * `ILocalizationManager`를 추가
 * **인증 API**
 
-## <a name="api-v19"></a>API v1.9
+## <a name="api-v190"></a>API v1.9.0
 * **[launchUrl API](./launch-url.md)**
 
-## <a name="api-v18"></a>API v1.8
+## <a name="api-v180"></a>API v1.8.0
 * 기능 스키마에서 새 형식 **fillRule**(그라데이션)을 지원
 * 개체 속성용 기능 스키마에서 **규칙** 속성을 지원
 
-## <a name="api-v17"></a>API v1.7
+## <a name="api-v170"></a>API v1.7.0
 * **[RESJSON](./localization.md#resource-file)** 을 지원
 
 ## <a name="api-v162"></a>API v1.6.2

@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 02/05/2019
-ms.openlocfilehash: 3b51fbfda8f63834a0b2445bd2b2b23734b8e234
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 9c99d48a0b9d50312d2ae5ce152826fcf1ab9319
+ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83149251"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "85238775"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>Power BI Embedded에 대한 다중 지역 지원
 
@@ -80,6 +80,8 @@ API를 통해 다중 지역을 사용한 용량 관리를 지원하기 위해 �
 * 다중 지역 환경에서 데이터를 한 지역에서 다른 지역으로 이동하면 원본 데이터는 최대 30일 동안 데이터 이동이 시작된 지역에 남아 있을 수 있습니다. 해당 기간에 사용자는 데이터에 액세스할 수 없습니다. 데이터가 이 지역에서 제거되고 30일 기간 동안 삭제됩니다.
 
 * 일반적으로 다중 지역을 사용해도 성능이 향상되지 않습니다. 보고서 및 대시보드 로드에는 메타데이터의 홈 지역에 대한 요청이 포함됩니다.
+
+* 고객을 위한 포함 시나리오에서 쿼리 텍스트와 쿼리 결과는 홈 테넌트를 통해 계속 전송됩니다.
 
 ## <a name="next-steps"></a>다음 단계
 
