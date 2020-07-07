@@ -38,7 +38,7 @@
             - name: 데이터 집합 영향 분석
               href: service-dataset-impact-analysis.md
             - name: 데이터 민감도 레이블 적용
-              href: ../collaborate-share/service-security-apply-data-sensitivity-labels.md
+              href: ../admin/service-security-apply-data-sensitivity-labels.md
             - name: 그룹의 OneDrive의 파일에 연결
               href: ../connect-data/service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: 클래식 작업 영역에서 공동 작업
