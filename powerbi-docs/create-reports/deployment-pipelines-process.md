@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 06/25/2020
-ms.openlocfilehash: fc7e6aa751bab6562e097b8ce14ff8416e6231e7
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: eee8d67caab4a3d7b888396fa62debaf0aab2490
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782563"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034293"
 ---
 # <a name="understand-the-deployment-process-preview"></a>배포 프로세스 이해(미리 보기)
 
@@ -234,7 +234,7 @@ ms.locfileid: "85782563"
 
 * 작업 영역이  [프리미엄 용량](../admin/service-premium-what-is.md)에 있어야 합니다.
 
-* Power BI [민감도 레이블](../admin/service-security-data-protection-overview.md#sensitivity-labels-in-power-bi)을 포함하는 보고서 및 대시보드와 같은 Power BI 항목은 배포할 수 없습니다.
+* Power BI [민감도 레이블](../admin/service-security-sensitivity-label-overview.md)을 포함하는 보고서 및 대시보드와 같은 Power BI 항목은 배포할 수 없습니다.
 
 * 단일 배포로 배포할 수 있는 Power BI 항목은 최대 300개입니다.
 

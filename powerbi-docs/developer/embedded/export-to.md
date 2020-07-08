@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 03/24/2020
-ms.openlocfilehash: 546f712c87e67240fd15ee2563252d8f322212c7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5763c3fc72632e6e734e0dc0a32854e719709d01
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221003"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034500"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>파일로 Power BI 보고서 내보내기(미리 보기)
 
@@ -73,7 +73,7 @@ RLS를 사용하여 내보내려면 다음과 같은 권한이 있어야 합니�
 
 ### <a name="data-protection"></a>데이터 보호
 
-.pdf 및 .pptx 형식은 [민감도 레이블](../../admin/service-security-data-protection-overview.md#sensitivity-labels-in-power-bi)을 지원합니다. 민감도 레이블이 포함된 보고서를 .pdf 또는 .pptx로 내보내는 경우 내보낸 파일은 민감도 레이블이 포함된 보고서를 표시합니다.
+.pdf 및 .pptx 형식은 [민감도 레이블](../../admin/service-security-sensitivity-label-overview.md)을 지원합니다. 민감도 레이블이 포함된 보고서를 .pdf 또는 .pptx로 내보내는 경우 내보낸 파일은 민감도 레이블이 포함된 보고서를 표시합니다.
 
 민감도 레이블이 포함된 보고서는 [서비스 주체](embed-service-principal.md)를 사용하여 .pdf 또는 .pptx로 내보낼 수 없습니다.
 
