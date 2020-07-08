@@ -76,13 +76,15 @@
           href: desktop-admin-sign-in-form.md
         - name: 데이터 보호
           items:
-            - name: 데이터 보호 개요
-              href: service-security-data-protection-overview.md
-            - name: 데이터 민감도 레이블 사용
+            - name: Power BI의 민감도 레이블
+              href: service-security-sensitivity-label-overview.md
+            - name: 민감도 레이블 지정
               href: service-security-enable-data-sensitivity-labels.md
+            - name: 민감도 레이블 적용 방법
+              href: service-security-apply-data-sensitivity-labels.md
             - name: Power BI에서 Microsoft Cloud App Security 사용
               href: service-security-using-microsoft-cloud-app-security-controls.md
-            - name: 데이터 보호 메트릭 보고서
+            - name: 보호 메트릭 보고서
               href: service-security-data-protection-metrics-report.md
         - name: 행 수준 보안
           href: service-admin-rls.md
