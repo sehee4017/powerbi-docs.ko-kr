@@ -10,36 +10,36 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 28eb1efb28a1b8d394d68a9c57a9c2733cc08972
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d0c7bf64eaae7467963ce1bfd7638e8eb87ae249
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224528"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86033879"
 ---
 # <a name="connect-to-excel-workbooks-in-power-bi-desktop"></a>Power BI Desktop에서 Excel 통합 문서에 연결
 Power BI Desktop에서 Excel 통합 문서에 연결하는 것은 간단하며 이 문서에서는 이에 대한 단계를 안내합니다.
 
 Power BI Desktop의 **홈** 리본에서 **데이터 가져오기 > Excel**을 선택합니다.
 
-![](media/desktop-connect-excel/connect_to_excel_1.png)
+![Excel 옵션의 스크린샷](media/desktop-connect-excel/connect_to_excel_1.png)
 
 나타나는 **열기** 대화 상자에서 통합 문서를 선택합니다.
-![](media/desktop-connect-excel/connect_to_excel_2.png)
+![대화 상자 열기 스크린샷](media/desktop-connect-excel/connect_to_excel_2.png)
 
 Power BI Desktop에 **탐색기** 창의 통합 문서에서 가져온 다른 데이터 요소에 대한 테이블이 표시됩니다. 왼쪽 창에서 테이블을 선택하면 데이터 미리 보기가 오른쪽 창에 나타납니다.
 
-![](media/desktop-connect-excel/connect_to_excel_3.png)
+![탐색기 창의 스크린샷](media/desktop-connect-excel/connect_to_excel_3.png)
 
 로드 단추를 선택하여 데이터를 가져오거나 Power BI Desktop으로 데이터를 가져오기 전에 **쿼리 편집기**를 사용하여 데이터를 편집하는 경우 **편집** 단추를 선택합니다.
 
 데이터를 로드하면 Power BI Desktop에 **로드** 창이 표시되고 데이터 로딩과 관련된 활동이 표시됩니다.  
 
-![](media/desktop-connect-excel/connect_to_excel_4.png)
+![로드 창의 스크린샷](media/desktop-connect-excel/connect_to_excel_4.png)
 
 완료되면 Power BI Desktop에 **필드** 창의 Excel 통합 문서에서 가져온 테이블 및 필드가 Desktop의 오른쪽에 표시됩니다.
 
-![](media/desktop-connect-excel/connect_to_excel_5.png)
+![필드 창의 스크린샷](media/desktop-connect-excel/connect_to_excel_5.png)
 
 이것으로 끝입니다!
 

@@ -5,16 +5,16 @@ author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: how-to
+ms.topic: troubleshooting
 ms.date: 05/27/2020
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: e1162ecfb9eee7d1a0bfaf5a7ef25244ec8935c0
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3c36a2725748e2c701c65f1737c39f4d56128962
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226814"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034385"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Excel에서 분석 문제 해결
 
@@ -45,22 +45,22 @@ Excel 라이브러리는 비트 수준 측면에서 Windows 버전과 일치해�
 
 최신 Excel 라이브러리를 다운로드하려면 Power BI를 방문하고 Power BI 서비스의 오른쪽 위에서 **아래쪽 화살표**를 선택한 다음 **Excel에서 분석 업데이트**를 선택합니다.
 
-![](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_1.png)
+![Excel에서 분석 업데이트를 선택하는 오른쪽 위 모서리에 있는 아래쪽 화살표 메뉴 옵션의 스크린샷](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_1.png)
 
 나타나는 대화 상자에서 **다운로드(미리 보기)** 를 선택합니다.
 
-![](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_2.png)
+![다운로드 또는 미리 보기 단추를 선택하는 Excel에서 분석 업데이트 대화 상자의 스크린샷](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_2.png)
 
 ## <a name="determining-whether-you-need-to-update-your-excel-libraries"></a>Excel 라이브러리를 업데이트해야 하는지 여부 결정
 이전 섹션의 링크에서 최신 버전의 Excel OLE DB 공급자 라이브러리를 다운로드할 수 있습니다. 해당 OLD DB 공급자 라이브러리를 다운로드하고 설치를 시작한 후에는 현재 설치된 버전에 대한 확인이 수행됩니다.
 
 Excel OLE DB 공급자 클라이언트 라이브러리가 최신 상태이면 다음과 같은 대화 상자가 표시됩니다.
 
-![](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_3.png)
+![최신 버전의 Excel OLEDB 공급자 클라이언트 라이브러리를 사용할 수 있는 경우 업데이트를 요청하는 대화 상자의 스크린샷](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_3.png)
 
 또는 컴퓨터에 있는 버전보다 최신 버전을 설치하는 경우 다음 대화 상자가 나타납니다.
 
-![](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_2.png)
+![Excel OLEDB 공급자 클라이언트 라이브러리를 설치하는 동안 업그레이드를 확인하는 대화 상자의 스크린샷](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_2.png)
 
 업그레이드할지 묻는 대화 상자가 표시되면 설치를 계속하여 컴퓨터에 설치된 OLE DB 공급자의 최신 버전을 가져와야 합니다.
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 74063dc581cce3d63395be5f99e0232a9e7a69a2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f89459b9d1e930fe429467b566d0813030fb43ab
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225905"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034523"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>조직 콘텐츠 팩: 복사, 새로 고침 및 액세스
 
@@ -31,7 +31,7 @@ ms.locfileid: "85225905"
 
 1. 콘텐츠 팩 대시보드 옆에 있는 **추가 옵션**(...)을 선택한 다음 > 복사본 만들기를 선택합니다.
 
-    ![](media/service-organizational-content-pack-copy-refresh-access/power-bi-create-copy-organizational-content-pack.png)
+    ![추가 옵션 대화 상자의 스크린샷](media/service-organizational-content-pack-copy-refresh-access/power-bi-create-copy-organizational-content-pack.png)
 2. **저장**을 선택합니다.  
 
 이제 변경할 수 있는 복사본이 있습니다. 아무도 변경 내용을 볼 수 없습니다.

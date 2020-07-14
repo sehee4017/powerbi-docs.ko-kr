@@ -9,19 +9,19 @@ ms.topic: reference
 ms.date: 09/09/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c6c3ccdc547a8e9fb4e2d471365c9da67f7cf58a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 19189529637fe5511ebd6f736c17b8a10a1d2ef9
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83130280"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86033787"
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Power BI Desktop 개인 정보 수준
 **Power BI Desktop**에서, 개인 정보 수준은 특정 데이터 원본이 다른 데이터 원본과 격리되는 정도를 정의하는 격리 수준을 지정합니다. 제한적인 격리 수준은 데이터 원본 간에 교환 되는 정보를 차단하지만 기능이 감소되고 성능이 영향을 받을 수 있습니다.
 
 **파일 > 옵션 및 설정 > 옵션**에 있는 **개인 정보 수준** 설정과 **현재 파일 > 개인 정보**가 차례로 Power BI Desktop에서 데이터를 결합하는 동안 개인 정보 수준 설정을 사용할지 여부를 결정합니다. 이 대화 상자에는 개인 정보 수준 및 개인 정보 수준에 대한 Power BI Desktop 설명서의 링크(이 문서)가 포함되어 있습니다.
 
-![](media/desktop-privacy-levels/desktop_privacylevels1.png)
+![옵션 대화 상자의 스크린샷](media/desktop-privacy-levels/desktop_privacylevels1.png)
 
 ## <a name="configure-a-privacy-level"></a>개인 정보 수준 구성
 개인 정보 수준 설정으로, 특정 데이터 원본을 다른 데이터 원본과 격리해야 하는 정도를 정의하는 격리 수준을 지정할 수 있습니다.
@@ -37,7 +37,7 @@ ms.locfileid: "83130280"
 
 데이터 원본 개인 정보 수준을 구성하려면 데이터 원본을 선택한 다음 **편집**을 선택합니다. 다음 이미지와 같은 **데이터 원본 설정** 대화 상자가 표시됩니다. 이 대화 상자의 하단에 있는 드롭다운 메뉴에서 적절한 개인 정보 수준을 선택할 수 있습니다.
 
-![](media/desktop-privacy-levels/desktop_privacylevels2.png)
+![데이터 원본 설정 대화 상자의 스크린샷](media/desktop-privacy-levels/desktop_privacylevels2.png)
 
 > [!CAUTION]
 > 매우 중요한 데이터나 기밀 데이터를 포함하는 데이터 원본은 **프라이빗**으로 구성해야 합니다.

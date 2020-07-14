@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e499f6894890c379b76bfe0a11428715add30dfb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5e76cdfc2fd8ad4a90290ecaa559d502d5f847e6
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224888"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034431"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Power BI Desktop에서 Azure Consumption Insights 데이터에 연결
 
@@ -42,25 +42,25 @@ Azure Consumption Insights를 사용하면 Azure Enterprise Agreement 청구 계
 
 1. **연결**을 선택합니다.
 
-   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01b.png)
+   ![Microsoft Azure Consumption Insights 대화 상자의 스크린샷 연결을 선택합니다.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01b.png)
 
    표시되는 대화 상자에서 **Azure 등록 번호**를 입력합니다.
 
-   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_02.png)
+   ![Azure 등록 번호를 입력하는 대화 상자의 스크린샷](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_02.png)
 
    * 다음 이미지에 표시된 위치에서 [Azure Enterprise Portal](https://ea.azure.com)의 등록 번호를 가져올 수 있습니다.
 
-  ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_08.png)
+  ![Azure Enterprise Portal의 등록 번호 가져오기 스크린샷](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_08.png)
 
    이 커넥터 버전은 https://ea.azure.com 에서 엔터프라이즈 등록을 지원합니다. 중국 등록은 현재 지원되지 않습니다.
 
    다음으로 연결할 *선택키*를 제공합니다.
 
-   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_03.png)
+   ![Microsoft Azure Consumption Insights에 연결하기 위해 액세스 키를 입력하는 대화 상자의 스크린샷](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_03.png)
 
    * [Azure Enterprise Portal](https://ea.azure.com)에서 등록을 위한 선택키를 찾을 수 있습니다.
 
-  ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
+  ![등록 액세스 키를 보여 주는 Azure Enterprise Portal의 스크린샷](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
 ‘액세스 키’를 제공하고 **연결**을 선택하면 **탐색기** 창이 나타나고, 사용 가능한 9개 테이블이 표시됩니다.
 
@@ -78,7 +78,7 @@ Azure Consumption Insights를 사용하면 Azure Enterprise Agreement 청구 계
 
 테이블 옆에 있는 확인란을 선택하여 미리 보기를 확인할 수 있습니다. 해당 이름 옆에 있는 확인란을 선택하여 하나 이상의 테이블을 선택한 다음 **로드**를 선택할 수 있습니다.
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04b.png)
+![사용 가능한 모든 테이블을 보여 주는 탐색기 대화 상자의 스크린샷](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04b.png)
 
 > [!NOTE]
 > *요약* 및 *가격표* 테이블은 등록 수준 API 키에 사용할 수 있습니다. 또한 이러한 테이블의 데이터에는 기본적으로 *사용량* 및 *PriceSheet*의 현재 달의 데이터가 있습니다. *요약* 및 *MarketPlace* 테이블은 현재 월에 제한되지 않습니다.
@@ -87,11 +87,11 @@ Azure Consumption Insights를 사용하면 Azure Enterprise Agreement 청구 계
 
 **로드**를 선택하면, 데이터가 **Power BI Desktop**에 로드됩니다.
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
+![데이터가 로드되면 표시되는 대화 상자의 스크린샷](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
 
 선택한 데이터가 로드되면 선택한 테이블 및 필드를 **필드** 창에서 볼 수 있습니다.
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_06.png)
+![탐색기 창에서 테이블을 로드한 후 필드 창의 스크린샷](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_06.png)
 
 ## <a name="using-azure-consumption-insights"></a>Azure Consumption Insights 사용
 **Azure Consumption Insights** 커넥터를 사용하려면 Azure Portal의 엔터프라이즈 기능에 액세스합니다.
@@ -116,7 +116,7 @@ Azure Consumption Insights를 사용하면 Azure Enterprise Agreement 청구 계
 
 다음 그림은 표시되는 샘플 컬렉션을 보여 줍니다.
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_07.png)
+![샘플 컬렉션의 스크린샷](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_07.png)
 
 보고서를 사용하고 쿼리를 만들 때, 다음을 수행할 수 있습니다.
 
@@ -148,7 +148,7 @@ Azure Consumption Insights를 사용하면 Azure Enterprise Agreement 청구 계
     in     
         data
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_10.png)
+![고급 편집기의 쿼리 만들기 대화 상자의 스크린샷](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_10.png)
 
 *enrollmentNumber* 값을 해당 등록 번호로 바꾸어야 합니다. [Azure Enterprise Portal](https://ea.azure.com)에서 번호를 확인할 수 있습니다. *numberOfMonth* 매개 변수는 현재 데이터에서 돌아가려는 데이터 개월 수입니다. 이번 달에 0을 사용합니다.
 
@@ -160,7 +160,7 @@ Azure Consumption Insights를 사용하면 Azure Enterprise Agreement 청구 계
 1. 메모장(또는 다른 텍스트 편집기)을 엽니다.
 2. 이동하려는 측정값을 선택하고 *수식* 필드에서 텍스트를 복사하고 메모장에 붙여넣습니다.
 
-   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_11.png)
+   ![열 및 측정값의 수식 필드를 보여 주는 스크린샷](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_11.png)
 3. *Query1*을 원래 세부 정보 테이블 이름으로 바꿉니다.
 4. 새 테이블 측정값과 사용자 지정 열을 만들려면 테이블을 마우스 오른쪽 단추로 클릭하고 **새 측정값**을 선택합니다. 그런 다음, 모두 완료될 때까지 저장된 측정값과 열을 잘라내어 붙여넣습니다.
 
@@ -169,7 +169,7 @@ Azure Consumption Insights를 사용하면 Azure Enterprise Agreement 청구 계
 
 - **Power BI Desktop**의 **모델링** 탭에서 **관계 관리**를 선택하면 모델 내에서 관계를 관리할 수 있는 창이 표시됩니다. 필요에 따라 테이블을 다시 연결합니다.
 
-    ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_12.png)
+    ![관계 만들기 대화 상자의 스크린샷 관계 관리를 선택합니다.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_12.png)
 
 ### <a name="step-5-verify-your-visuals-and-adjust-field-formatting-as-needed"></a>5단계: 시각적 개체 확인 및 필요에 따라 필드 서식 조정
 이 시점에는 대부분의 원본 시각적 개체, 테이블 및 드릴다운이 예상대로 작동해야 합니다. 그러나 모양과 느낌을 정확하게 지정하려면 몇 가지 사소한 조정 작업이 필요할 수 있습니다. 각 대시보드 및 시각적 개체를 원하는 모양으로 표시하려면 조회하는 데 잠시 시간이 걸립니다.

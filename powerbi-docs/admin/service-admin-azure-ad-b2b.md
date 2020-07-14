@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 06/02/2020
+ms.date: 07/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 2782d639109b4901012e40ddb3d7c748bf063524
-ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
+ms.openlocfilehash: 17c19fbdf1c5057d287f50531f2b679a19e3a30e
+ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "85393545"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "85939459"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B에서 외부 게스트 사용자에게 Power BI 콘텐츠 배포
 
@@ -98,7 +98,7 @@ Azure Portal에서 초대를 보내려면 다음 단계를 수행합니다.
 
 ### <a name="assign-a-power-bi-pro-license-to-guest-user"></a>게스트 사용자에게 Power BI Pro 라이선스 할당
 
-조직에서 게스트 사용자에게 Power BI Pro 라이선스를 할당하면 게스트 사용자가 공유 콘텐츠를 볼 수 있습니다. 라이선스 할당 방법에 대한 자세한 내용은 [라이선스 페이지에서 사용자에게 라이선스 할당](/office365/admin/manage/assign-licenses-to-users#assign-licenses-to-users-on-the-licenses-page)을 참조하세요. 게스트 사용자에게 Pro 라이선스를 할당하기 전에 Microsoft 계정 담당자에게 문의하여 Microsoft 계약 조건을 준수하고 있는지 확인합니다.
+조직에서 게스트 사용자에게 Power BI Pro 라이선스를 할당하면 게스트 사용자가 공유 콘텐츠를 볼 수 있습니다. 라이선스 할당 방법에 대한 자세한 내용은 [라이선스 페이지에서 사용자에게 라이선스 할당](/office365/admin/manage/assign-licenses-to-users#assign-licenses-to-users-on-the-licenses-page)을 참조하세요. 게스트 사용자에게 Pro 라이선스를 할당하기 전에 [제품 사용 약관 사이트](https://www.microsoft.com/licensing/terms)를 참조하여 Microsoft 라이선싱 계약 조건을 준수하고 있는지 확인합니다.
 
 ![테넌트에서 Pro 라이선스를 할당한 경우 게스트 사용자 환경 다이어그램.](media/service-admin-azure-ad-b2b/license-approach-2.png)
 

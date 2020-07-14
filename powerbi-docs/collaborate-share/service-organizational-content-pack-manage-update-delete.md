@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3857478e972caef0a53c1de82f6dcc96650a7386
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d741a489c5655e5a08f49f7197389a67c5d016ed
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225694"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034408"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>조직 콘텐츠 팩 관리, 업데이트 및 삭제
 > [!NOTE]
@@ -40,12 +40,12 @@ ms.locfileid: "85225694"
 
 1. 메시지에서 **콘텐츠 팩 보기**를 선택합니다.
    
-   ![](media/service-organizational-content-pack-manage-update-delete/pbi_contpkchangesmessage.png)
-2. 또는 오른쪽 위 모퉁이에서 톱니바퀴 아이콘 ![](media/service-organizational-content-pack-manage-update-delete/cog.png)을 선택하고 **콘텐츠 팩 보기**를 선택합니다.
+   ![콘텐츠 팩 보기를 선택하는 메시지 대화 상자의 스크린샷](media/service-organizational-content-pack-manage-update-delete/pbi_contpkchangesmessage.png)
+2. 또는 오른쪽 위 모서리에서 톱니바퀴 아이콘 ![톱니바퀴 아이콘의 스크린샷](media/service-organizational-content-pack-manage-update-delete/cog.png)을 선택하고 **콘텐츠 팩 보기**를 선택합니다.
    
-   ![](media/service-organizational-content-pack-manage-update-delete/pbi_contpkview.png)
+   ![오른쪽 위 모서리에 있는 톱니바퀴 아이콘의 스크린샷](media/service-organizational-content-pack-manage-update-delete/pbi_contpkview.png)
    
-   경고 아이콘 ![](media/service-organizational-content-pack-manage-update-delete/pbi_contpkwarningicon.png)이 표시됩니다.  이렇게 하면 어떤 방식으로든 콘텐츠 팩을 수정했고 게시했던 내용이 더 이상 일치하지 않음을 알 수 있습니다.
+   경고 아이콘이 표시됩니다. ![경고 아이콘의 스크린샷](media/service-organizational-content-pack-manage-update-delete/pbi_contpkwarningicon.png).  이렇게 하면 어떤 방식으로든 콘텐츠 팩을 수정했고 게시했던 내용이 더 이상 일치하지 않음을 알 수 있습니다.
 3. **편집**을 선택합니다.  
 4. **콘텐츠 팩 업데이트** 창에서 필요한 변경을 수행하고 **업데이트**를 선택합니다. **성공** 메시지가 나타납니다.
    
@@ -55,7 +55,7 @@ ms.locfileid: "85225694"
 ## <a name="update-the-audience-expand-or-restrict-access"></a>대상 그룹 업데이트: 액세스 확장 또는 제한
 콘텐츠 팩 작성자에 제공되는 다른 수정 항목으로는 콘텐츠 팩에 대한 액세스를 확장 및 제한하는 것입니다.  사용자는 콘텐츠 팩을 광범위한 대상 그룹에 게시했고 작은 그룹에 대한 액세스를 제한하도록 결정했을 것입니다.  
 
-1. 톱니 아이콘 ![](media/service-organizational-content-pack-manage-update-delete/cog.png)을 선택하고 **콘텐츠 팩 보기**를 선택합니다.
+1. 톱니바퀴 아이콘 ![톱니바퀴 아이콘의 스크린샷](media/service-organizational-content-pack-manage-update-delete/cog.png)을 선택하고 **콘텐츠 팩 보기**를 선택합니다.
 2. **편집**을 선택합니다. 
 3. **콘텐츠 팩 업데이트** 창에서 필요한 변경을 수행하고 **업데이트**를 선택합니다. 예를 들어 **특정 그룹** 필드에서 원래 메일 그룹을 삭제하고 구성원 수가 적은 다른 메일 그룹으로 바꿉니다.
    
@@ -77,7 +77,7 @@ ms.locfileid: "85225694"
 > 
 > 
 
-1. AppSource에서 콘텐츠 팩을 삭제하려면 콘텐츠 팩을 만든 작업 영역으로 이동하여 톱니바퀴 아이콘 ![](media/service-organizational-content-pack-manage-update-delete/cog.png)을 선택한 다음, **콘텐츠 팩 보기**를 선택합니다.
+1. AppSource에서 콘텐츠 팩을 삭제하려면 콘텐츠 팩을 만든 작업 영역으로 이동하여 톱니바퀴 아이콘 ![톱니바퀴 아이콘의 스크린샷](media/service-organizational-content-pack-manage-update-delete/cog.png)을 선택한 후 **콘텐츠 팩 보기**를 선택합니다.
 2. **삭제 \> 삭제**를 선택합니다. 
    
    * 콘텐츠 팩을 사용자 지정하지 않은 그룹 구성원의 경우 해당 콘텐츠 팩과 연결된 대시보드 및 보고서가 자동으로 제거됩니다. 이러한 대시보드 및 보고서는 더 이상 사용할 수 없으며 콘텐츠 팩이 탐색 창에 표시되지 않습니다.

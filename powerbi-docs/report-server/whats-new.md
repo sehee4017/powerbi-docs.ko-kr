@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/27/2020
-ms.openlocfilehash: 9cb9939f665dabc910c0605f4c1864f7d80988c3
-ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
+ms.date: 07/06/2020
+ms.openlocfilehash: b6f2775d9aa23899a1e27ed58b818024129043b7
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "84739233"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034040"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Report Server의 새로운 기능
 
@@ -28,9 +28,11 @@ Power BI Report Server 및 Power BI Report Server에 최적화된 Power BI Deskt
 
 ## <a name="may-2020"></a>2020년 5월
 
+### <a name="power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Report Server에 최적화된 Power BI Desktop
+
 이 업데이트의 주요 내용 중에는 계층 슬라이서와 분해 트리 시각적 개체 및 쿼리 진단이 있습니다. 다음은 새로운 기능 및 업데이트된 기능의 전체 목록입니다. 자세한 내용은 [2020년 5월 Power BI Report Server 블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-report-server-may-2020-feature-summary/)을 참조하세요. 
 
-### <a name="reporting"></a>보고
+#### <a name="reporting"></a>보고
 
 - 계층 슬라이서
 - 단추의 새 작업 유형:
@@ -51,7 +53,7 @@ Power BI Report Server 및 Power BI Report Server에 최적화된 Power BI Deskt
     - 새 필터 창 환경
     - 필터 창 검색
     
-### <a name="modeling"></a>모델링
+#### <a name="modeling"></a>모델링
 
 - 새로운 DAX 함수:
 
@@ -61,18 +63,24 @@ Power BI Report Server 및 Power BI Report Server에 최적화된 Power BI Deskt
 
 - 표준 DAX 구분 기호
 
-### <a name="visualizations"></a>시각화
+#### <a name="visualizations"></a>시각화
 
 - 새 시각화 아이콘
 - 시각적 그림자
 
-### <a name="data-preparation"></a>데이터 준비
+#### <a name="data-preparation"></a>데이터 준비
 
 - 쿼리 진단
 
-### <a name="other"></a>기타
+#### <a name="other"></a>기타
 
 - 웹 프록시에 기본 시스템 자격 증명 사용
+
+### <a name="power-bi-report-server"></a>Power BI Report Server
+
+#### <a name="power-bi-visuals-api"></a>Power BI 시각적 개체 API
+
+이 릴리스와 함께 제공되는 API 버전은 3.2입니다.
 
 ## <a name="january-2020"></a>2020년 1월
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: b41d15329b7ce617803056d2d2b912a0afb7850c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: cecb78ec986ddf672a9560598ccf68c95fa5d659
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227088"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034224"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi"></a>Power BI에서 Microsoft Cloud App Security 제어 사용
 
@@ -59,7 +59,7 @@ Cloud App Security에는 Power BI 전용의 두 가지 기본 제공 검색도 �
 
 민감도 레이블을 사용하면 조직의 사용자가 조직 외부의 파트너와 협업하면서 중요한 콘텐츠와 데이터를 신중하게 파악할 수 있도록 중요한 콘텐츠를 분류하고 보호할 수 있습니다. 
 
-Power BI에 민감도 레이블을 사용하는 프로세스에 대한 자세한 내용은 [Power BI의 민감도 레이블](../collaborate-share/service-security-apply-data-sensitivity-labels.md) 문서를 참조하세요. [민감도 레이블을 기반으로 하는 Power BI 정책의 예제](#example)는 아래를 참조하세요.
+Power BI에 민감도 레이블을 사용하는 프로세스에 대한 자세한 내용은 [Power BI의 민감도 레이블](service-security-sensitivity-label-overview.md) 문서를 참조하세요. [민감도 레이블을 기반으로 하는 Power BI 정책의 예제](#example)는 아래를 참조하세요.
 
 ## <a name="built-in-cloud-app-security-detections-for-power-bi"></a>Power BI용 기본 제공 Cloud App Security 검색
 
@@ -133,9 +133,9 @@ Power BI에서 Cloud App Security를 사용하면 사용자 세션 및 해당 �
 ## <a name="next-steps"></a>다음 단계
 이 문서에서는 Cloud App Security를 통해 Power BI에 데이터 및 콘텐츠 보호 기능을 제공할 수 있는 방법을 설명합니다. Power BI에 대한 데이터 보호 기능과 이 기능을 사용하도록 설정하는 Azure 서비스에 대한 지원 콘텐츠를 설명하는 다음 문서를 참조할 수도 있습니다.
 
-* [Power BI의 데이터 보호 개요](service-security-data-protection-overview.md)
-* [Power BI에서 데이터 민감도 레이블 사용](service-security-enable-data-sensitivity-labels.md)
-* [Power BI에서 데이터 민감도 레이블 적용](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
+* [Power BI의 민감도 레이블 개요](service-security-sensitivity-label-overview.md)
+* [Power BI에서 민감도 레이블 사용](service-security-enable-data-sensitivity-labels.md)
+* [Power BI에서 민감도 레이블을 적용하는 방법](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
 
 다음 Azure 및 보안 문서도 유용할 수 있습니다.
 

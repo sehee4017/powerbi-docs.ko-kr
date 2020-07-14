@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/23/2020
-ms.openlocfilehash: ed35775ac077be7c45807b950530e4e1277d5ac3
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: dd85f44057c0e4069a903293ec162028b1cbd66e
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85355010"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034063"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Power BI에 대한 자격 증명을 프로그래밍 방식으로 구성
 
@@ -49,13 +49,16 @@ Power BI에 대한 자격 증명을 프로그래밍 방식으로 구성하려면
 
     ---
 
-2. [게이트웨이 가져오기](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways)를 호출하여 게이트웨이 공용 키를 검색합니다.
+    >[!NOTE]
+    >클라우드 데이터 원본을 사용 중인 경우에는 이 섹션의 다음 단계를 수행하지 마세요. 1단계에서 얻은 게이트웨이 ID 및 데이터 원본 ID를 사용해 [데이터 원본 업데이트](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource)를 호출하여 자격 증명을 설정합니다. 
+
+3. [게이트웨이 가져오기](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways)를 호출하여 게이트웨이 공용 키를 검색합니다.
 
     ```csharp
     var gateway = pbiClient.Gateways.GetGatewayById(datasource.GatewayId);
     ```
 
-3. 자격 증명을 암호화합니다.
+4. 자격 증명을 암호화합니다.
 
     # <a name="net-sdk-v3"></a>[.NET SDK v3](#tab/sdk3)
 
@@ -73,7 +76,7 @@ Power BI에 대한 자격 증명을 프로그래밍 방식으로 구성하려면
 
     ---  
 
-4. 암호화된 자격 증명을 사용하여 자격 증명 세부 정보를 빌드합니다.
+5. 암호화된 자격 증명을 사용하여 자격 증명 세부 정보를 빌드합니다.
 
     # <a name="net-sdk-v3"></a>[.NET SDK v3](#tab/sdk3)
 
@@ -101,7 +104,7 @@ Power BI에 대한 자격 증명을 프로그래밍 방식으로 구성하려면
 
     ---
 
-5. [데이터 원본 업데이트](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource)를 호출하여 자격 증명을 설정합니다.
+6. [데이터 원본 업데이트](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource)를 호출하여 자격 증명을 설정합니다.
 
     ```csharp
     pbiClient.Gateways.UpdateDatasource(gatewayId, datasourceId, credentialDetails);

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 06/02/2020
-ms.openlocfilehash: 75b880876a08a78d822fc1203de40a7bb8311afe
-ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
+ms.openlocfilehash: bb693b1b46e193a87365537492c83aa2eb8a479a
+ms.sourcegitcommit: b2c60781da6f756102f91346b35a7651fb5dcda3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84337076"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "86092242"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>자습서:  고객의 애플리케이션에 Power BI 콘텐츠 포함
 
@@ -428,9 +428,12 @@ JavaScript API 사용에 대한 전체 샘플의 경우 [Playground 도구](http
 
 ### <a name="development-testing"></a>개발 테스트
 
-Pro 라이선스로 포함 토큰을 사용하는 것은 개발 테스트용이므로 Power BI 마스터 계정이나 서비스 주체가 생성할 수 있는 포함 토큰 수는 제한됩니다. 프로덕션 환경에 포함하려면 전용 용량이 필요합니다. 전용 용량으로 생성할 수 있는 포함 토큰 수에는 제한이 없습니다. [사용 가능한 기능](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures)으로 이동하여 현재 포함된 사용 현황을 백분율로 표시하는 사용 값을 확인합니다. 사용량은 마스터 계정을 기반으로 합니다.
+개발 테스트를 위해 Pro 라이선스에 평가판 포함 토큰을 사용할 수 있습니다. 프로덕션 환경에 포함하려면 전용 용량을 사용합니다.
 
-자세한 내용은 [임베디드 분석 용량 계획 백서](https://aka.ms/pbiewhitepaper)를 참조하세요.
+Power BI 서비스 주체 계정 또는 마스터 계정이 생성할 수 있는 평가판 포함 토큰의 수는 제한됩니다. [사용 가능한 기능](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) API를 사용하여 현재 포함된 사용의 비율을 확인합니다. 사용량은 서비스 주체 계정 또는 마스터 계정별로 표시됩니다.
+
+테스트하는 중에 포함 토큰이 부족해지는 경우 Power BI Embedded 또는 Premium [용량](embedded-capacity.md)을 구매해야 합니다. 전용 용량으로 생성할 수 있는 포함 토큰 수에는 제한이 없습니다.
+
 
 ### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>전용 용량에 작업 영역 할당
 

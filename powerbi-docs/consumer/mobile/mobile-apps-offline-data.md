@@ -8,19 +8,19 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
-ms.openlocfilehash: cfb5e4f1f75437db6235ece0d8661bab3f008649
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: b719dc72d9137ac1c3ffc3eee4669ad6bd61fc9f
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148425"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034247"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 오프라인 데이터 보기
 적용 대상:
 
 | ![iPhone](./media/mobile-apps-offline-data/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-offline-data/ipad-logo-50-px.png) | ![Android 휴대폰](./media/mobile-apps-offline-data/android-phone-logo-50-px.png) | ![Android 태블릿](./media/mobile-apps-offline-data/android-tablet-logo-50-px.png) | ![Windows 10](./media/mobile-apps-offline-data/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
-| iPhones |iPad |Android 휴대폰 |Android 태블릿 |Windows 10 디바이스 |
+| iPhone |iPad |Android 휴대폰 |Android 태블릿 |Windows 10 디바이스 |
 
 >[!NOTE]
 >**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](https://go.microsoft.com/fwlink/?linkid=2121400)
@@ -35,6 +35,9 @@ ms.locfileid: "83148425"
 오프라인 상태인 경우, 모바일 앱에서 이전에 액세스한 모든 대시보드에 액세스하고 상호 작용할 수 있습니다.
 
 또한 모바일 앱에서 이전에 액세스한 모든 Power BI 보고서에 대한 읽기 전용 액세스 권한이 있습니다. 전체 보고서를 확인할 수 있지만 보고서에서 필터링이나 교차 필터링, 슬라이서를 사용할 수 없습니다.
+
+>[!NOTE]
+> DirectQuery 기반 보고서는 캐시되지 않으며 오프라인에서 사용할 수 없습니다.
 
 ## <a name="background-data-refresh"></a>백그라운드 데이터 새로 고침
 백그라운드 새로 고침은 지난 2주 동안 보았던 대시보드와 보고서뿐만 아니라 즐겨찾는 대시보드도 Power BI 서비스(데이터 원본이 아님)의 데이터로 업데이트합니다. WiFi에 연결한 경우 백그라운드 새로 고침은 2시간마다 업데이트됩니다. 그러지 않고 3G 네트워크에 연결된 경우 Power BI는 콘텐츠를 24시간마다 업데이트합니다.

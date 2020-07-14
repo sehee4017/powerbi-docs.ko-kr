@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6cac39407cac3af833656a4e94edf9a3c80bbc26
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e32824a58faa3a6a98e4d38f7362c62ab13b069e
+ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231629"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "86034454"
 ---
 # <a name="connect-to-zendesk-with-power-bi"></a>Power BI로 Zendesk에 연결
 
@@ -28,6 +28,9 @@ ms.locfileid: "85231629"
 
 >[!NOTE]
 >연결하려면 Zendesk 관리자 계정이 필요합니다. [요구 사항](#system-requirements)에 대한 자세한 내용은 아래에 나와 있습니다.
+
+>[!WARNING]
+>2019년 10월 15일 이전에는 Zendesk 지원 검색 API를 통해 대량 쿼리의 페이지 매김을 통해 총 20만 개의 결과가 수신되었습니다. 의도한 범위에 맞게 검색 사용을 조정하기 위해 Zendesk는 이제 반환되는 최대 결과 수를 총 1,000개로 제한하고 페이지당 최대 100개의 결과를 제공합니다. 그러나 현재 Power BI Zendesk 커넥터는 여전히 이러한 새 제한을 초과하는 API 호출을 생성할 수 있어, 이로 인해 잘못된 결과가 발생할 수 있습니다.
 
 ## <a name="how-to-connect"></a>연결 방법
 
