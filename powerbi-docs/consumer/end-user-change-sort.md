@@ -2,19 +2,19 @@
 title: 보고서에 차트 정렬 방식 변경
 description: Power BI 보고서에서 차트 정렬 방식 변경
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 06/25/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 10db78c01ea074e2b3fab71715a3df92ae207f8e
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: c70229a37a697fedba54cde1899073f20710f542
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782479"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161770"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Power BI 보고서에서 차트 정렬 방식 변경
 

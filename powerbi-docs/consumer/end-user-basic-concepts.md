@@ -2,7 +2,7 @@
 title: Power BI 서비스 - 소비자를 위한 기본 개념
 description: Power BI 서비스 앱, 작업 영역, 대시보드, 보고서, 데이터 세트 및 통합 문서입니다.
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.custom: seodec18
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: d8872499bb54e23aabe642f88a541b85948d6656
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: edbadb8d5e366e4f62e14f4df3922d80cdbb35cb
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83561992"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86162230"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Power BI 서비스 소비자를 위한 기본 개념
 

@@ -2,19 +2,19 @@
 title: Power BI 서비스에서 영업 및 마케팅 앱 설치 및 사용
 description: Power BI에서 앱을 사용하면 관련된 대시보드 및 보고서를 모두 한 곳에 모을 수 있습니다. Power BI 앱 마켓플레이스에서 영업 및 마케팅 앱을 설치합니다.
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 06/09/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: df22baeae8acb09ac9b7f071c16ec8697203f8fa
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5f2e97a5b1ba8fc62581244cf26cd069ce5c2586
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236569"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86162255"
 ---
 # <a name="install-and-use-the-sample-sales-and-marketing-app-in-the-power-bi-service"></a>Power BI 서비스에서 샘플 영업 및 마케팅 앱 설치 및 사용
 

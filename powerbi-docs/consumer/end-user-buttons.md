@@ -2,19 +2,19 @@
 title: Power BI 서비스에서 단추가 작동하는 방식을 알아봅니다.
 description: 보고서 내 탐색, 드릴스루, 교차 보고서 드릴스루를 비롯한 다양한 작업을 시작하는 단추를 사용할 수 있습니다.
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 07/01/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 14024a9c28da93cbe9e6e586ee66f634b63a70b8
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: 51871e9653a1f3d0d48f25de33d4a72603695cf4
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85940128"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161793"
 ---
 # <a name="buttons-in-the-power-bi-service"></a>Power BI 서비스의 단추
 동료에게 받은 보고서에 단추가 표시된 것을 보고 사용하는 방법이 궁금했을 수도 있습니다. 일부에는 단어가 있고, 일부에는 화살표가 있으며, 또 다른 일부에는 드롭다운 메뉴도 있습니다. 이 문서에서는 단추를 인식하는 방법과 단추로 수행하는 작업을 파악하는 방법을 설명합니다.
