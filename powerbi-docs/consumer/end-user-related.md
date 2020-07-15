@@ -2,7 +2,7 @@
 title: 대시보드, 보고서 및 데이터 세트에서 관련 콘텐츠 보기
 description: 더욱 간편해진 탐색, 대시보드에서 관련 콘텐츠 보기, 보고서 및 데이터 세트
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 0930b9b38694ddbb054449951ccb41e9148a8b2c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d8a024fe64accd873398437105bdcee701361b26
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234968"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264315"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>Power BI 서비스에서 관련 콘텐츠 보기
 

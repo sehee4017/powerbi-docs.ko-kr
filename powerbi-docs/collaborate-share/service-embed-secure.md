@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: a2e7445db843788293a20fbbebdffd2952dfeb6a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e1925c57869a58f111b77c6a50a1289224440ecb
+ms.sourcegitcommit: 01b5fb05f723eab2557e0e420bfde23197987a96
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226195"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "86301002"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>보안 포털 또는 웹 사이트에 보고서 포함
 
@@ -122,8 +122,6 @@ report.src = newUrl;
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 
 * 페이지를 매긴 보고서는 보안 포함 시나리오로 지원되며 URL 매개 변수를 사용하여 페이지를 매긴 보고서도 지원됩니다. [페이지를 매긴 보고서의 URL에서 보고서 매개 변수를 전달하는 방법](../paginated-reports/report-builder-url-pass-parameters.md)에 대해 자세히 알아보세요.
-
-* Azure B2B(Business to Business)를 사용한 외부 게스트 사용자를 지원하지 않습니다.
 
 * 보안 포함은 Power BI 서비스에 게시된 보고서에 대해 작동합니다.
 

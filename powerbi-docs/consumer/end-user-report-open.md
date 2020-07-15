@@ -2,18 +2,18 @@
 title: 보고서 보기
 description: 이 항목에서는 Power BI 소비자와 최종 사용자가 Power BI 보고서를 열고 보아야 하는 내용을 표시합니다.
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
-ms.openlocfilehash: 0750ac3546242cffa9858168bb8ff376d3aad8e9
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a706864ef5bd0e4858cfe593a68e7d1f399e06df
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235972"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264340"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>‘소비자’에 대한 Power BI 서비스의 보고서 보기 
 
