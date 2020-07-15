@@ -2,7 +2,7 @@
 title: 포커스 모드와 전체 화면 모드 - 확대하여 더 자세히 보는 방법
 description: 포커스 모드 또는 전체 화면 모드에서 Power BI 대시보드, 대시보드 타일, 보고서 또는 보고서 시각적 개체를 표시하는 방법에 대한 설명서
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 featuredvideoid: dtdLul6otYE
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 03/09/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: e399eb8229cc02d0c8abf589849c2d43577dafb7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d474313dd624407fbeecc595a3dad2b416752855
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235277"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216126"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>콘텐츠를 더 자세히 표시: 포커스 모드 및 전체 화면 모드
 

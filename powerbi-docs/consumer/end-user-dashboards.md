@@ -2,19 +2,19 @@
 title: 대시보드는 무엇이고, 여는 방법은 무엇인가요?
 description: 대시보드는 Power BI 서비스의 핵심 기능입니다.
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 06/19/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 64fa13f3e95f43813c657eb9be195fb03e57a06b
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 5f8b2fd4c999853e09852e69406968cad2fb9490
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354918"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216157"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Power BI 서비스 소비자에 대한 대시보드
 

@@ -2,7 +2,7 @@
 title: PowerPoint로 전체 보고서 내보내기
 description: Power BI 보고서를 PowerPoint로 내보내는 방법을 알아봅니다.
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 07/01/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 85dc7e9807e11114c4fb6abb988d10c583b9e56c
-ms.sourcegitcommit: 7d7bb755d5a5af30d2b0eab89fb56e4498514890
+ms.openlocfilehash: d49d92261b141a66021bb0809c214e712bd687c8
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85837042"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263734"
 ---
 # <a name="export-reports-to-powerpoint"></a>PowerPoint로 보고서 내보내기
 

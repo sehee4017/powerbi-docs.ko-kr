@@ -2,7 +2,7 @@
 title: Power BI 서비스에서 최근에 방문한 콘텐츠 표시
 description: Power BI의 최근 항목에 대한 문서
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: d9956dac9a2e3b51ef18bc6c3912dee74bd58ebb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b35d04c591e9ea4102b20e4b04c3f25284246d17
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229416"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263283"
 ---
 # <a name="recent-content-in-the-power-bi-service"></a>Power BI 서비스의 **최근** 콘텐츠
 

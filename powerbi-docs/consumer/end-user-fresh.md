@@ -3,18 +3,19 @@ title: Power BI 콘텐츠를 최신 상태로 유지하는 방법
 description: Power BI를 통해 데이터, 보고서, 대시보드 및 앱의 최신 버전을 사용하는 방법에 대해 알아봅니다.
 author: mihart
 ms.service: powerbi
+ms.reviewer: mihart
 ms.custom: ''
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: f03493ad6aef1b9ed8393ef684d4c18143085964
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 73affb07b137ee60fe00f7d344759ec2de1bcb85
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235010"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215900"
 ---
 # <a name="your-content-is-up-to-date"></a>콘텐츠가 최신 상태입니다.
 

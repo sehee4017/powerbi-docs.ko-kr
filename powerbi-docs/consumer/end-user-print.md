@@ -2,7 +2,7 @@
 title: Power BI 서비스에서 인쇄
 description: Power BI 서비스에서 대시보드, 타일 또는 보고서 페이지를 인쇄합니다.
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 03/12/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 1e47b6fb3b402c14e9973dd2ad69b574ad6a2e54
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b12eef42a3e5ac778d686f9d627e5f84bc66fcde
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236395"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263354"
 ---
 # <a name="printing-from-the-power-bi-service"></a>Power BI 서비스에서 인쇄
 

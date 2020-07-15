@@ -2,19 +2,19 @@
 title: Power BI 서비스 홈에서 콘텐츠 찾기
 description: 홈 캔버스에서 보고서, 대시보드 및 앱을 찾아서 열 수 있습니다.
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 83c834b05846c22577b7987d341c295a1e763b59
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7738fef88a82b84c1391af4b3e784b305478ccb2
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79113309"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263941"
 ---
 # <a name="find-your-dashboards-reports-and-apps"></a>대시보드, 보고서 및 앱 찾기
 
@@ -81,7 +81,7 @@ Power BI 서비스에서 작업을 할 때 동료들로부터 대시보드, 보�
 ![선택한 조경 작업 영역](./media/end-user-home/power-bi-search-workspace.png)
 
 ### <a name="shared-with-me"></a>공유한 항목
-동료들은 나에게 앱뿐 아니라 개별 대시보드와 보고서도 공유할 수 있습니다. **공유한 항목** 섹션에서, 동료들이 나에게 공유한 3개의 대시보드와 3개의 보고서가 있는 것을 볼 수 있습니다.
+동료들은 나에게 앱뿐 아니라 개별 대시보드와 보고서도 공유할 수 있습니다. **공유한 항목** 섹션에서, 동료들에 나에게 공유한 3개의 대시보드와 3개의 보고서가 있는 것을 볼 수 있습니다.
 
 ![홈에 나열된 공유 콘텐츠](./media/end-user-home/power-bi-shared.png)
 

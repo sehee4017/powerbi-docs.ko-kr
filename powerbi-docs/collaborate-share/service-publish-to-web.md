@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 02/25/2020
+ms.date: 07/08/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5e7fe8a7c71927a1e89bd4e86209c580ae1f3b29
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 26c27c8cd33929c7bb83a8ef5b1faed0fb12e502
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225675"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216558"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI에서 웹에 게시
 
@@ -29,10 +29,6 @@ Power BI **웹에 게시** 옵션을 사용하면 대화형 Power BI 콘텐츠�
 ## <a name="create-embed-codes-with-publish-to-web"></a>웹에 게시를 사용하여 embed 태그 만들기
 
 **웹에 게시**는 개인 또는 그룹 작업 영역에서 편집할 수 있는 보고서에 사용할 수 있습니다.  사용자와 공유되는 보고서 또는 행 수준 보안을 사용하여 데이터를 보호하는 보고서에는 사용할 수 없습니다. **웹에 게시**가 지원되지 않는 경우의 전체 목록은 아래 [**제한**](#limitations) 섹션을 참조하세요. **웹에 게시**를 사용하기 전에 이 문서의 앞부분에 있는 **경고**를 확인해 보세요.
-
-다음의 짧은 비디오는 이 기능의 작동 방식을 보여줍니다. 그런 다음, 아래 단계에 따라 직접 시도해 보세요.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UF9QtqE7s4Y" frameborder="0" allowfullscreen></iframe>
 
 다음 단계는 **웹에 게시**를 사용하는 방법을 설명합니다.
 
