@@ -47,6 +47,8 @@
       items:
         - name: Power BI 보고서
           items:
+            - name: Power BI Desktop 및 외부 도구
+              href: desktop-external-tools.md
             - name: Power BI 최신 리본
               href: desktop-ribbon.md
             - name: 보고서 보기 작업
