@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4166c734dd89acdc50967aee90b6a268546a383a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: c744b7b9b0ec15258214c9c7e27332eb4a49ead4
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83338550"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86262919"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Power BI 분산형 차트의 고밀도 샘플링
 **Power BI Desktop** 2017년 9월 릴리스 및 **Power BI 서비스** 업데이트부터 새 샘플링 알고리즘은 분산형 차트에서 고밀도 데이터를 나타내는 방법을 향상시키는 데 사용할 수 있습니다.
 
 예를 들어 매년 수만 개의 데이터 요소가 있는 각 상점의 경우 조직의 영업 활동에서 분산형 차트를 만들 수 있습니다. 이러한 정보의 분산형 차트는 사용 가능한 데이터에서 데이터를 샘플링하고(해당 데이터의 의미 있는 표현을 선택하여 시간 경과에 따른 판매 상황을 보여줌), 기본 데이터를 나타내는 분산형 차트를 만듭니다. 이는 고밀도 분산형 차트의 일반적인 사례입니다. Power BI는 고밀도 데이터의 해당 샘플링을 향상시켰으며, 이에 대해 이 문서에서 자세히 설명합니다.
 
-![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_01.png)
+![고밀도 샘플링 데이터를 보여 주는 분산형 차트의 스크린샷.](media/desktop-high-density-scatter-charts/high-density-scatter-charts_01.png)
 
 > [!NOTE]
 > 이 문서에서 설명하는 **고밀도 샘플링** 알고리즘은 **Power BI Desktop** 및 **Power BI 서비스** 모두의 분산형 차트에서 사용할 수 있습니다.
@@ -59,17 +59,17 @@ ms.locfileid: "83338550"
 
 * **자세히** 아래에서 값을 마우스 오른쪽 단추로 클릭하고 메뉴에서 **데이터가 없는 항목 표시**로 설정하면 분산형 차트가 원래 알고리즘으로 되돌아갑니다.
   
-  ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_02.png)
+  ![데이터가 없는 항목 표시가 선택된 세부 정보 창을 보여 주는 시각화 메뉴의 스크린샷.](media/desktop-high-density-scatter-charts/high-density-scatter-charts_02.png)
 * **재생** 축의 모든 값은 분산형 차트가 원래 알고리즘으로 되돌아가도록 만듭니다.
 * 분산형 차트에서 X 및 Y 축이 모두 누락되면 차트는 원래 알고리즘으로 되돌아갑니다.
 * **분석** 창에서 **비율 선**을 사용하면 차트가 원래 알고리즘으로 되돌아갑니다.
   
-  ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_03.png)
+  ![분석 창 및 비율 선의 포인터를 보여 주는 시각화 메뉴의 스크린샷.](media/desktop-high-density-scatter-charts/high-density-scatter-charts_03.png)
 
 ## <a name="how-to-turn-on-high-density-sampling-for-a-scatter-chart"></a>분산형 차트에 고밀도 샘플링을 사용하는 방법
 **고밀도 샘플링**을 켜려면 분산형 차트를 선택하고, **서식** 창으로 이동한 다음, **일반** 카드를 확장하고, 해당 카드의 아래쪽에 있는 **고밀도 샘플링** 토글 슬라이더를 **켜기**로 밉니다.
 
-![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_04.png)
+![서식 창, 일반 카드 및 고밀도 샘플링 토글 슬라이더의 포인터를 보여 주는 시각화 메뉴의 스크린샷.](media/desktop-high-density-scatter-charts/high-density-scatter-charts_04.png)
 
 > [!NOTE]
 > 슬라이더가 켜지면 Power BI는 가능하면 **고밀도 샘플링** 알고리즘을 사용하려고 합니다. 알고리즘을 사용할 수 없는 경우(예: *재생* 축에서 값을 배치한 경우) 차트가 표준 알고리즘으로 되돌아가더라도 지정 슬라이더는 **켜기** 위치에 있게 됩니다. *재생* 축에서 값을 제거하거나 고밀도 샘플링 알고리즘을 사용할 수 있도록 조건을 변경하면 기능이 활성화되어 있으므로 차트에서 자동으로 해당 차트에 고밀도 샘플링을 사용합니다.

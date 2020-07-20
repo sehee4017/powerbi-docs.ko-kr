@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 3e3e44647ca7c85c09a3e7f4b3c309947559f5d3
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e8ba3203728a72b26d188e96eb1fa66f62f89a55
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273227"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215123"
 ---
 # <a name="active-vs-inactive-relationship-guidance"></a>활성 및 비활성 관계 지침
 
@@ -29,7 +29,7 @@ ms.locfileid: "83273227"
 
 다음은 두 테이블의 부분 모델 다이어그램입니다.
 
-![모델 다이어그램에는 Flight와 Airport라는 2개의 테이블이 포함되어 있습니다. 관계 디자인은 다음 단락에서 설명합니다.](media/relationships-active-inactive/flight-model-1.png)
+![테이블 두 개가 포함된 모델을 보여 주는 다이어그램: Flight와 Airport라는 2개의 테이블이 포함되어 있습니다. 관계 디자인은 다음 단락에서 설명합니다.](media/relationships-active-inactive/flight-model-1.png)
 
 **Flight** 테이블과 **Airport** 테이블 사이에는 두 가지 모델 관계가 있습니다. **Flight** 테이블에서 **DepartureAirport** 및 **ArrivalAirport** 열은 **Airport** 테이블의 **Airport** 열과 연결되어 있습니다. 별모양 스키마 디자인에서 **Airport** 테이블은 [롤플레잉 차원](star-schema.md#role-playing-dimensions)으로 설명됩니다. 이 모델에서 두 역할은 _출발 공항_ 및 _도착 공항_입니다.
 
@@ -39,13 +39,13 @@ ms.locfileid: "83273227"
 
 향상된 모델 디자인은 다음과 같습니다.
 
-![이제 모델 다이어그램에 4개의 테이블 Date, Flight, Departure Airport 및 Arrival Airport가 포함되어 있습니다. 관계 디자인은 다음 단락에서 설명합니다.](media/relationships-active-inactive/flight-model-2.png)
+![테이블 네 개가 포함된 모델을 보여 주는 다이어그램: Date, Flight, Departure Airport 및 Arrival Airport가 포함되어 있습니다.](media/relationships-active-inactive/flight-model-2.png)
 
 이제 모델에는 두 개의 공항 테이블 **Departure Airport** 및 **Arrival Airport**가 있습니다. 이러한 테이블과 **Flight** 테이블 간의 모델 관계가 활성화됩니다. 또한 **Departure Airport** 및 **Arrival Airport** 테이블의 열 이름 앞에는 _Departure_ 또는 _Arrival_이라는 접두사가 붙습니다.
 
 이 향상된 모델 디자인에서 다음과 같은 보고서 디자인을 만들 수 있습니다.
 
-![보고서 페이지에 두 개의 슬라이서와 하나의 테이블 시각적 요소가 있습니다. 슬라이서는 월 및 출발 공항입니다. 테이블 시각적 개체에 도착 공항과 다양한 통계가 나열됩니다.](media/relationships-active-inactive/flight-report-design.png)
+![보고서 페이지에 두 개의 슬라이서와 하나의 테이블 시각적 개체가 있음을 보여 주는 다이어그램. 슬라이서는 월 및 출발 공항입니다.](media/relationships-active-inactive/flight-report-design.png)
 
 보고서 페이지는 멜버른을 출발 공항으로 필터링하고 도착 공항을 기준으로 테이블 시각적 개체 그룹을 필터링합니다.
 
@@ -86,7 +86,7 @@ ms.locfileid: "83273227"
 
 다음은 두 테이블의 부분 모델 다이어그램입니다.
 
-![모델 다이어그램에는 Sales와 Date라는 2개의 테이블이 포함되어 있습니다. Sales 테이블에는 6개의 측정값이 있습니다. 관계 디자인은 다음 단락에서 설명합니다.](media/relationships-active-inactive/sales-model.png)
+![테이블 두 개가 포함된 모델을 보여 주는 다이어그램: Sales와 Date라는 2개의 테이블이 포함되어 있습니다. Sales 테이블에는 6개의 측정값이 있습니다.](media/relationships-active-inactive/sales-model.png)
 
 **Sales** 테이블과 **Date** 테이블 사이에는 두 가지 모델 관계가 있습니다. **Sales** 테이블에서 **OrderDate** 및 **ShipDate** 열은 **Date** 테이블의 **Date** 열과 관련이 있습니다. 이 모델에서 **Date** 테이블에 대한 두 역할은 _주문 날짜_ 및 _배송 날짜_입니다. **OrderDate** 열과의 관계가 활성 상태입니다.
 
@@ -110,7 +110,7 @@ CALCULATE(
 
 이 모델 디자인에서 다음과 같은 보고서 디자인을 만들 수 있습니다.
 
-![보고서 페이지에 하나의 슬라이서와 하나의 테이블 시각적 요소가 있습니다. 슬라이서는 분기이며 테이블 시각적 개체에 월별 판매 통계가 나열됩니다.](media/relationships-active-inactive/sales-report-design.png)
+![하나의 슬라이서와 테이블 시각적 개체가 있는 보고서 페이지를 보여 주는 다이어그램. 슬라이서는 분기이며 테이블 시각적 개체에 월별 판매 통계가 나열됩니다.](media/relationships-active-inactive/sales-report-design.png)
 
 보고서 페이지는 분기 2019 Q4를 기준으로 필터링됩니다. 테이블 시각적 개체는 월별로 그룹화되고 테이블에 다양한 판매 통계가 표시됩니다. **Orders** 측정값과 **Orders Shipped** 측정값은 서로 다른 결과를 생성합니다. 각 측정값은 동일한 요약 논리(**Sales** 테이블의 행 수)를 사용하지만 **Date** 테이블 필터 전파는 서로 다릅니다.
 

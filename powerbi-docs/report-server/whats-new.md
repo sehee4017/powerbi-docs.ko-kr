@@ -7,24 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 07/06/2020
-ms.openlocfilehash: b6f2775d9aa23899a1e27ed58b818024129043b7
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.date: 07/08/2020
+ms.openlocfilehash: af737472b85dcfa05935aefa9ddd7a6fcbb746f2
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034040"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214363"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Report Server의 새로운 기능
 
-Power BI Report Server 및 Power BI Report Server에 최적화된 Power BI Desktop의 새로운 기능을 알아봅니다. 이 문서에서는 주요 기능 영역을 설명합니다. 이 문서는 신규 릴리스가 공개될 때마다 업데이트됩니다.
+Power BI Report Server 및 Power BI Report Server에 최적화된 Power BI Desktop의 새로운 기능을 알아봅니다. 이 문서에서는 주요 기능 영역을 설명합니다. 이 문서는 신규 릴리스가 공개될 때마다 업데이트됩니다. Power BI Report Server의 새로운 기능에 관한 자세한 내용은 [Power BI Report Server 변경 로그](changelog.md)를 참조하세요.
 
 [Power BI Report Server 및 Power BI Report Server에 최적화된 Power BI Desktop](https://powerbi.microsoft.com/report-server/)을 다운로드합니다.
-
-관련 Power BI “새로운 기능” 정보는 다음을 참조하세요.
-
-- [Power BI 서비스의 새로운 기능](../fundamentals/service-whats-new.md)
-- [Power BI Desktop의 새로운 기능](../fundamentals/desktop-latest-update.md)
 
 ## <a name="may-2020"></a>2020년 5월
 

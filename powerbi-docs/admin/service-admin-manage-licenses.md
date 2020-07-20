@@ -10,12 +10,12 @@ ms.date: 04/08/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 8b110dceb7427e3aeefe8e7ef48e579943a7e6f3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: af58a79c5c81e8f04e5d0ba714703c202f9c8000
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228444"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161356"
 ---
 # <a name="view-and-manage-power-bi-user-licenses"></a>Power BI 사용자 라이선스 보기 및 관리
 
@@ -35,7 +35,7 @@ ms.locfileid: "85228444"
 
 활성 Power BI 구독이 보유하고 있는 다른 구독과 함께 나열됩니다. 여기에 표시된 것처럼 Power BI(무료)에 대한 예기치 않은 구독이 표시될 수 있습니다.
 
-  ![Power BI 무료 사용자 활성화 구독](media/service-admin-manage-licenses/power-bi-free-user-activated.png)
+  ![무료 구독을 보여 주는 Power BI 구독의 스크린샷.](media/service-admin-manage-licenses/power-bi-free-user-activated.png)
 
 이 구독 유형은 사용자가 셀프 서비스 등록을 활용할 때 생성됩니다. 자세한 내용은 [조직의 Power BI](https://docs.microsoft.com/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide)를 참조하세요.
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d6301b4eea49ab4ae5714446e051290cb254c324
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 92244304bcffc3544ca8616fd0b16226361d58c8
+ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354757"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "86385955"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>데이터 흐름 스토리지를 위해 Azure Data Lake Storage Gen2 연결
 
@@ -46,6 +46,7 @@ Azure Data Lake Storage Gen2 계정으로 Power BI를 구성하려면 먼저 스
 2. 스토리지 계정은 Power BI 테넌트와 동일한 AAD 테넌트에서 만들어야 합니다.
 3. 스토리지 계정은 Power BI 테넌트와 동일한 지역에 만들어야 합니다. Power BI 테넌트의 위치를 확인하려면 [내 Power BI 테넌트는 어디에 있나요?](../admin/service-admin-where-is-my-tenant-located.md) 문서를 참조하세요.
 4. 스토리지 계정에서 ‘계층 구조 네임스페이스’ 기능이 사용 가능해야 합니다.
+5. 현재 사용자가 스토리지 계정을 만들지 않은 경우에는 현재 사용자에게 [Storage Blob 데이터 소유자](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#storage-blob-data-owner) 및 [소유자](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#owner) 권한이 할당되었는지 확인하세요. (소유자에게는 데이터 수준 권한이 없으므로 Blob 데이터 소유자가 필요합니다.)
 
 다음 섹션에서는 Azure Data Lake Storage Gen2 계정을 구성하는 데 필요한 단계를 자세히 설명합니다.
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 11/01/2017
 ms.author: maggies
-ms.openlocfilehash: aee58d27eb75bbe14629235591065e236502588a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a9dd66d726a2417c936204898eb2cdfb749fcc94
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236123"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216505"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Power BI 보고서를 사용하도록 Kerberos 구성
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -31,14 +31,14 @@ Report Server가 제대로 구성되지 않은 경우 다음과 같은 오류가
 
     Something went wrong.
 
-    We couldn’t run the report because we couldn’t connect to its data source. The report or data source might not be configured correctly. 
+    We couldn't run the report because we couldn't connect to its data source. The report or data source might not be configured correctly. 
 
 기술 세부 정보 내에서 다음과 같은 메시지가 표시됩니다.
 
-    We couldn’t connect to the Analysis Services server. The server forcibly closed the connection. To connect as the user viewing the report, your organization must have configured Kerberos constrained delegation.
+    We couldn't connect to the Analysis Services server. The server forcibly closed the connection. To connect as the user viewing the report, your organization must have configured Kerberos constrained delegation.
 
-![](media/configure-kerberos-powerbi-reports/powerbi-report-config-error.png)
-
+![Analysis Services 서버 연결 문제와 관련된 오류 메시지를 보여 주는 Power BI 보고서의 스크린샷.](media/configure-kerberos-powerbi-reports/powerbi-report-config-error.png)
+ 
 ## <a name="configuring-kerberos-constrained-delegation"></a>Kerberos 제한 위임 구성
 Kerberos 제한 위임이 작동하기 위해 구성해야 하는 몇 가지 항목이 있습니다. 서비스 계정의 SPN(서비스 주체 이름) 및 위임 설정을 포함합니다.
 
@@ -134,7 +134,7 @@ Analysis Services에서는 MSOLAPSvc.3이라는 서비스를 사용합니다. SP
 
 Analysis Services SPN의 예는 다음과 같습니다.
 
-| Type | 형식 |
+| 형식 | 서식 |
 | --- | --- |
 | 기본 인스턴스 |MSOLAPSvc.3/ContosoAS.contoso.com<br>MSOLAPSvc.3/ContosoAS |
 | 명명된 인스턴스 |MSOLAPSvc.3/ContosoAS.contoso.com:INSTANCENAME<br>MSOLAPSvc.3/ContosoAS:INSTANCENAME |
@@ -202,14 +202,14 @@ Active Directory 사용자 및 컴퓨터 내에서 Report Server 서비스 계�
 14. 만든 SPN을 선택합니다. `MSOLAPDisco.3`로 시작합니다. FQDN 및 NetBIOS SPN 모두를 추가한 경우 둘 다 선택합니다. 하나만 표시될 수 있습니다.
 15. **확인**을 선택합니다. **확장됨**을 선택한 경우 대화 상자는 다음과 유사하게 표시됩니다.
     
-    ![](media/configure-kerberos-powerbi-reports/powerbi-report-config-delegation.png)
+    ![속성 창의 위임 탭을 보여 주는 Power BI 보고서의 스크린샷.](media/configure-kerberos-powerbi-reports/powerbi-report-config-delegation.png)
 16. **확인**을 선택합니다.
 17. Power BI Report Server를 다시 부팅합니다.
 
 ## <a name="running-a-power-bi-report"></a>Power BI 보고서 실행
 위의 구성이 모두 배치되면 보고서가 제대로 표시되어야 합니다. 
 
-![](media/configure-kerberos-powerbi-reports/powerbi-report.png)
+![샘플 대시보드 보기를 보여 주는 Power BI 보고서의 스크린샷.](media/configure-kerberos-powerbi-reports/powerbi-report.png)
 
 대부분의 경우 이 구성이 Kerberos를 사용하여 작동하는 반면 사용자 환경에 따라 다른 구성이 있을 수 있습니다. 보고서가 로드되지 않은 경우 도메인 관리자에게 알려서 추가로 조사하거나 지원을 문의합니다.
 

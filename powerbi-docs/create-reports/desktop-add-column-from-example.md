@@ -9,23 +9,23 @@ ms.topic: how-to
 ms.date: 01/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9632bfaecc524aac95ec524cccb59ba08a7bc21f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 68f2dc14b713345796ba0472fc3d55f6baedf819
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229072"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263199"
 ---
 # <a name="add-a-column-from-examples-in-power-bi-desktop"></a>Power BI Desktop의 예제에서 열 추가
-Power Query 편집기에서 ‘예제에서 열 추가’를 사용하면 새 열에 하나 이상의 예제 값을 제공하여 데이터 모델에 새 열을 추가할 수 있습니다.  선택 영역에서 새 열 예제를 만들거나 테이블의 모든 기존 열을 기반으로 입력을 제공할 수 있습니다.
+Power Query 편집기에서 ‘예제에서 열 추가’를 사용하면 새 열에 하나 이상의 예제 값을 제공하여 데이터 모델에 새 열을 추가할 수 있습니다. 선택 영역에서 새 열 예제를 만들거나 테이블의 모든 기존 열을 기반으로 입력을 제공할 수 있습니다.
 
-![](media/desktop-add-column-from-example/add-column-from-example_01.png)
+![Power BI Desktop의 예제에서 열을 추가하는 방법을 보여 주는 Power Query 편집기의 스크린샷.](media/desktop-add-column-from-example/add-column-from-example_01.png)
 
-‘예제에서 열 추가’를 사용하면 빠르고 쉽게 새 열을 만들 수 있으며 다음과 같은 상황에서 유용합니다. 
+‘예제에서 열 추가’를 사용하면 빠르고 쉽게 새 열을 만들 수 있으며 다음과 같은 상황에서 유용합니다.
 
 - 새 열에서 원하는 데이터는 알고 있지만 어떤 변환(또는 변환 컬렉션)을 사용할지는 모릅니다.
 - 어떤 변환이 필요한지는 이미 알고 있지만 변환을 수행하기 위해 UI에서 무엇을 선택해야 할지 모릅니다.
-- ‘M’에서 ‘사용자 지정 열’ 식을 사용하여 필요한 변환은 모두 알고 있지만 UI에서 이러한 식 중 하나 이상을 사용할 수 없습니다.  
+- ‘M’에서 ‘사용자 지정 열’ 식을 사용하여 필요한 변환은 모두 알고 있지만 UI에서 이러한 식 중 하나 이상을 사용할 수 없습니다. 
 
 예제에서 열을 추가하는 것은 쉽고 간단합니다. 다음 섹션에서는 이 작업이 얼마나 쉬운지 보여줍니다.
 
@@ -165,4 +165,3 @@ Power Query 편집기에서 ‘예제에서 열 추가’를 사용하면 새 �
 - 합계
 - 탄젠트
 - 버킷팅/범위
-

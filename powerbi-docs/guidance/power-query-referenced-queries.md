@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 242f1e44e3314af900d9f4d4e4fb7380b28b4103
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 21105513bf77a4ede8d788860a99fedaf3a6c48c
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278678"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214865"
 ---
 # <a name="referencing-power-query-queries"></a>파워 쿼리의 쿼리 참조
 
@@ -23,13 +23,13 @@ ms.locfileid: "83278678"
 
 몇 가지 쿼리를 살펴보겠습니다. **Query1**은 웹 서비스의 데이터를 원본으로 사용하고 로드는 사용하지 않습니다. **Query2**, **Query3**, **Query4**는 모두 **Query1**을 참조하고 해당 출력은 데이터 모델에 로드됩니다.
 
-![쿼리 종속성 보기로, 이전 단락에서 설명한 쿼리를 표시합니다.](media/power-query-referenced-queries/query-dependencies-web-service.png)
+![이전 단락에서 설명한 쿼리를 표시하는 쿼리 종속성 보기를 보여 주는 다이어그램.](media/power-query-referenced-queries/query-dependencies-web-service.png)
 
 데이터 모델을 새로 고칠 때 파워 쿼리가 **Query1** 결과를 검색하고 참조된 쿼리에서 다시 사용하는 것으로 가정하는 경우가 많습니다. 이는 잘못된 생각입니다. 실제로 파워 쿼리는 **Query2**, **Query3**, **Query4**를 별도로 실행합니다.
 
 **Query2**에 **Query1** 단계가 포함되어 있다고 생각할 수 있습니다. **Query3**과 **Query4**도 마찬가지입니다. 다음 다이어그램에서는 쿼리가 실행되는 방식을 보다 명확하게 보여 줍니다.
 
-![쿼리 종속성 보기의 수정된 버전으로 Query 2, Query 3, Query 4를 표시합니다. 세 쿼리 각각에는 Query 1이 포함되어 있습니다.](media/power-query-referenced-queries/query-dependencies-web-service-concept.png)
+![Query 2, Query 3, Query 4를 표시하는 쿼리 종속성 보기의 수정된 버전을 보여 주는 다이어그램.](media/power-query-referenced-queries/query-dependencies-web-service-concept.png)
 
 **Query1**은 세 번 실행됩니다. 여러 번 실행으로 인해 데이터 새로 고침이 느려지고 데이터 원본에 부정적인 영향을 미칠 수 있습니다.
 

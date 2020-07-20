@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 87a30acce38966d0e044f4ed0b6691ccbc7acd3f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 0be1f3aeb48e4596566c36c1ee8cfadeb3c33d10
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349221"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214023"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Power BI Desktop 및 Power BI 서비스 비교
 
 Power BI Desktop과 Power BI 서비스를 비교한 벤 다이어그램에서 중간 영역은 두 영역이 어떻게 겹치는지를 보여 줍니다. Power BI Desktop 또는 서비스에서 수행할 수 있는 몇 가지 작업입니다. 벤 다이어그램의 양쪽 측면에는 애플리케이션과 서비스에 고유한 기능이 표시됩니다.  
 
-![Power BI Desktop 및 서비스의 벤 다이어그램](media/service-service-vs-desktop/power-bi-venn-desktop-service.png)
+![Power BI Desktop과 Power BI 서비스 간 관계를 보여 주는 벤 다이어그램.](media/service-service-vs-desktop/power-bi-venn-desktop-service.png)
 
 **Power BI Desktop**은 무료 애플리케이션을 위해 로컬 컴퓨터에 설치하는 완전한 데이터 분석 및 보고서 작성 도구입니다. 이 도구에 포함된 쿼리 편집기를 사용하면 다양한 데이터 원본에 연결하고 데이터 모델로 결합(모델링이라고도 함)할 수 있습니다. 그런 다음, 해당 데이터 모델을 기반으로 하여 보고서를 디자인합니다. [Power BI Desktop 시작 가이드](desktop-getting-started.md)가 이 과정을 안내합니다.
 
@@ -33,7 +33,7 @@ Power BI Desktop과 Power BI 서비스를 비교한 벤 다이어그램에서 �
 
 애플리케이션과 서비스 둘 다에서 ‘보고서’를 빌드하고 편집합니다. 보고서에는 시각적 개체 및 시각적 개체의 컬렉션이 포함된 하나 이상의 페이지가 있을 수 있습니다. 책갈피, 단추, 필터 및 드릴스루를 추가하여 보고서 탐색을 향상합니다.
 
-![Power BI Desktop 또는 서비스에서 보고서 편집](media/service-service-vs-desktop/power-bi-editing-desktop-service.png)
+![번호가 매겨진 섹션이 있는 Power BI Desktop 및 Power BI 서비스의 스크린샷.](media/service-service-vs-desktop/power-bi-editing-desktop-service.png)
 
 Power BI Desktop과 서비스의 보고서 편집기는 유사합니다. 다음 세 가지 섹션으로 구성되어 있습니다.  
 

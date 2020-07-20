@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/24/2020
+ms.date: 07/08/2020
 ms.author: painbar
-ms.openlocfilehash: 9655783decee99bc90071cdfbd66a8b58d8272f4
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 2a8186f24e7a82604ab941e25c2a5aa471efe614
+ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782588"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "86386001"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -24,6 +24,13 @@ ms.locfileid: "85782588"
 
 >[!NOTE]
 >**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="july-2020"></a>2020년 7월
+### <a name="the-power-bi-mobile-app-for-windows-now-supports-organizational-branding"></a>이제 Windows용 Power BI 모바일 앱에서 조직 브랜딩을 지원함
+이제 조직의 브랜딩 테마와 일치하도록 관리자가 변경하는 Power BI의 모양과 느낌은 Power BI 모바일 앱에도 표시됩니다. 해당 변경 내용에는 위쪽 탐색 모음, 조직 로고 및 배너 이미지에 사용할 새로운 색 구성표가 포함될 수 있습니다.  
+
+### <a name="disable-single-sign-on-via-remote-configuration-ios-and-android"></a>원격 구성을 통해 Single Sign-On 사용 안 함(iOS 및 Android)
+이제 IT 관리자는 Power BI 모바일 앱의 Single Sign-On을 원격으로 사용하지 않도록 설정하여 다중 사용자 디바이스에서 보안 및 권한 준수를 향상할 수 있습니다. [자세한 정보](mobile-app-configuration.md#disable-single-sign-on-ios-and-android)
 
 ## <a name="june-2020"></a>2020년 6월
 ### <a name="show-your-bookmarks-in-slideshows-windows"></a>슬라이드 쇼에 책갈피 표시(Windows)
@@ -860,15 +867,15 @@ Power BI 팀은 여러 주요 추가 기능과 업데이트를 포함하여 2015
 * 백분율 기반 Y축이 있는 꺾은선형 차트는 이제 실제 데이터에 따라 시각적 범위를 계산합니다. 그래프는 이제 기본 값 대신 차트에서 가장 낮은 데이터 요소부터 시작합니다.
 * 꺾은선형, 세로 막대형 및 가로 막대형 차트에는 이제 데이터 레이블이 있습니다. 
   
-    ![](media/mobile-whats-new-in-the-mobile-apps/pbi_mobilelinechart.png)
+    ![데이터 레이블을 사용하여 월별 VTB 비율을 보여 주는 꺾은선형 차트의 스크린샷. ](media/mobile-whats-new-in-the-mobile-apps/pbi_mobilelinechart.png)
 
 #### <a name="iphone"></a>iPhone
 * 그룹의 최신 대시보드를 최신 상태로 유지합니다. - 팀 멤버가 그룹 중 하나에 대시보드를 추가할 때마다 iPhone에서 알림을 수신합니다.
   
-    ![](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_grpdashalertcrop.png)
+    ![iPhone의 알림을 보여 주는 대시보드의 스크린샷.](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_grpdashalertcrop.png)
 * 이제 바로 전화를 돌려서 대시보드를 가로로 볼 수 있습니다. [iPhone 앱에서 가로 모드](https://powerbi.microsoft.com/blog/enjoy-the-landscape-with-the-power-bi-iphone-app/)에 대해 자세히 읽습니다.
   
-    ![](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_landscape.png)
+    ![iPhone의 가로 모드를 보여 주는 대시보드의 스크린샷.](media/mobile-whats-new-in-the-mobile-apps/pbi_iph_landscape.png)
 
 ### <a name="september-2015"></a>2015년 9월
 Power BI 모바일 앱의 개선된 점 -- Android, iOS(iPhone 및 iPad) 및 Windows. [9월 중순 Power BI 모바일 블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-mobile-mid-september-updates-are-here/)을 읽습니다.

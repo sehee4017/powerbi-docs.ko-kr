@@ -9,23 +9,23 @@ ms.topic: how-to
 ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f121d4fb4e60fc29ef887d27c148aa3063dcee82
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4d2c48f39fff9cd55243848b2ee62d05f9d5db00
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223697"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216388"
 ---
 # <a name="connect-to-sap-hana-data-sources-by-using-directquery-in-power-bi"></a>Power BI의 DirectQuery를 사용하여 SAP HANA 데이터 원본에 연결
 **DirectQuery**를 사용하여 **SAP HANA** 데이터 원본에 직접 연결할 수 있습니다. SAP HANA에 연결할 때에는 두 가지 옵션이 있습니다.
 
-* **SAP HANA를 다차원 원본으로 취급(기본값):** 이 경우 Power BI가 SAP Business Warehouse 또는 Analysis Services와 같은 다른 다차원 원본에 연결할 때와 비슷한 동작이 수행됩니다. 이 설정을 사용하여 SAP HANA에 연결하면 단일 분석 또는 계산 보기가 선택되고, 해당 보기의 모든 측정값, 계층 구조 및 특성을 필드 목록에서 사용할 수 있습니다. 시각적 개체가 생성될 때 집계 데이터는 항상 SAP HANA에서 검색됩니다. 이것이 권장되는 방법이며 SAP HANA에 대한 새로운 DirectQuery 보고서의 기본값입니다.
+* **SAP HANA를 다차원 원본으로 처리(기본값):**  이 경우 Power BI를 SAP Business Warehouse 또는 Analysis Services처럼 다른 다차원 원본에 연결할 때와 동작이 비슷합니다. 이 설정을 사용하여 SAP HANA에 연결하면 단일 분석 또는 계산 보기가 선택되고, 해당 보기의 모든 측정값, 계층 구조 및 특성을 필드 목록에서 사용할 수 있습니다. 시각적 개체가 생성될 때 집계 데이터는 항상 SAP HANA에서 검색됩니다. 이것이 권장되는 방법이며 SAP HANA에 대한 새로운 DirectQuery 보고서의 기본값입니다.
 
 * **SAP HANA를 관계형 원본으로 처리:** 이 경우 Power BI에서 SAP HANA를 관계형 원본으로 처리합니다. 이렇게 하면 유연성이 향상됩니다. 이 방법에서는 측정값이 예상대로 집계되는지 확인하고 성능 문제를 피하도록 주의해야 합니다.
 
 연결 방법은 다음 이미지에 표시된 것처럼 **파일 > 옵션 및 설정**을 선택하고 **옵션 > DirectQuery**를 선택한 다음, **SAP HANA를 관계형 원본으로 처리**를 선택하여 설정하는 전체 도구 옵션으로 확인할 수 있습니다. 
 
-![](media/desktop-directquery-sap-hana/directquery-sap-hana_01a.png)
+![DirectQuery 옵션을 보여 주는 옵션 대화 상자의 스크린샷.](media/desktop-directquery-sap-hana/directquery-sap-hana_01a.png)
 
 SAP HANA를 관계형 원본으로 처리하는 옵션은 SAP HANA를 통해 DirectQuery를 사용하는 *새* 보고서에 사용되는 방법을 제어합니다. 이 옵션은 현재 보고서의 기존 SAP HANA 연결 또는 열려 있는 다른 보고서의 연결에 아무런 영향을 미치지 않습니다. 그러므로 이 옵션이 현재 선택되어 있지 않은 경우, **데이터 가져오기**를 사용하여 SAP HANA에 새 연결을 추가하면 해당 연결은 SAP HANA를 다차원 원본으로 처리하게 됩니다. 그러나 SAP HANA에 연결되는 다른 보고서를 열면 해당 보고서가 *만들어졌을 때* 설정된 옵션에 따라 계속 동작합니다. 즉, 2018년 2월 이전에 생성된 SAP HANA에 연결된 모든 보고서는 계속 SAP HANA를 관계형 원본으로 처리합니다. 
 
@@ -35,7 +35,7 @@ SAP HANA를 관계형 원본으로 처리하는 옵션은 SAP HANA를 통해 Dir
 
 ## <a name="treat-sap-hana-as-a-multi-dimensional-source-default"></a>SAP HANA를 다차원 원본으로 처리(기본값)
 
-SAP HANA에 대한 모든 새 연결은 기본적으로 SAP HANA를 다차원 원본으로 처리하는 이 연결 방법을 사용합니다. SAP HANA에 대한 연결을 관계형 원본으로 처리하려면 **파일 > 옵션 및 설정 > 옵션**을 선택한 다음, **직접 쿼리 > SAP HANA를 관계형 원본으로 처리** 아래의 상자를 선택해야 합니다. 이 기능이 **미리 보기**로 제공되는 동안 다차원 방법을 사용하여 생성된 보고서를 Power BI 서비스에 게시할 수 ‘없으며’, 그렇게 하면 Power BI 서비스에서 보고서를 열 때 오류가 발생합니다.   
+SAP HANA에 대한 모든 새 연결은 기본적으로 SAP HANA를 다차원 원본으로 처리하는 이 연결 방법을 사용합니다. SAP HANA에 대한 연결을 관계형 원본으로 처리하려면 **파일 > 옵션 및 설정 > 옵션**을 선택한 다음, **직접 쿼리 > SAP HANA를 관계형 원본으로 처리** 아래의 상자를 선택해야 합니다. 이 기능이 **미리 보기**로 제공되는 동안 다차원 방법을 사용하여 생성된 보고서를 Power BI 서비스에 게시할 수 ‘없으며’, 그렇게 하면 Power BI 서비스에서 보고서를 열 때 오류가 발생합니다.  
 
 다차원 원본으로 SAP HANA에 연결하는 경우 다음 사항을 고려해야 합니다.
 
@@ -65,7 +65,7 @@ DirectQuery를 사용하여 SAP HANA에 연결할 때(다차원 원본으로 처
 
 * **계산 열 지원 안 함:** 계산 열을 만드는 기능을 사용할 수 없습니다. 즉 계산 열을 만드는 그룹화 및 클러스터링을 사용할 수 없습니다.
 * **측정값에 대한 추가 제한 사항:** SAP HANA에서 제공하는 지원 수준을 반영하기 위해 측정값에서 사용할 수 있는 DAX 식에 추가로 적용되는 제한 사항이 있습니다.
-* **관계 정의에 대한 지원 없음:** 보고서 내에서 단일 보기만 쿼리할 수 있으며, 관계 정의에 대한 지원이 없습니다.
+* **관계 정의 지원 안 함:** 보고서 내에서 단일 보기만 쿼리할 수 있으며, 관계 정의에 대한 지원이 없습니다.
 * **데이터 보기 없음:** **데이터 보기**는 일반적으로 테이블의 세부 수준 데이터를 표시합니다. SAP HANA와 같은 OLAP 원본의 특성을 고려할 때 이 보기는 SAP HANA를 통해 사용할 수 없습니다.
 * **열 및 측정값 세부 정보 고정:** 필드 목록에 표시되는 열 및 측정값의 목록은 기본 원본에 따라 고정되며 수정할 수 없습니다. 예를 들어 열을 삭제하거나 데이터 형식을 변경할 수 없지만 이름은 변경할 수 있습니다.
 * **DAX의 추가 제한 사항:** 원본의 제한 사항을 반영하기 위해 측정값 정의에 사용할 수 있는 DAX에 대한 추가 제한 사항이 있습니다. 예를 들어 테이블에 대해 집계 함수를 사용할 수 없습니다.
@@ -73,7 +73,7 @@ DirectQuery를 사용하여 SAP HANA에 연결할 때(다차원 원본으로 처
 ### <a name="additional-visualization-restrictions"></a>추가 시각화 제한 사항
 
 DirectQuery를 사용하여 SAP HANA에 연결할 때(다차원 원본으로 처리) 시각적 개체에 대한 제한 사항은 다음과 같습니다. 
-* **열 집계 없음:** 시각적 개체에 대한 열 집계를 변경할 수 없으며, 항상 ‘요약 안 함’입니다. 
+* **열 집계 없음:** 시각적 개체에 대한 열 집계를 변경할 수 없으며, 항상 ‘요약 안 함’입니다.
 
 ## <a name="treat-sap-hana-as-a-relational-source"></a>SAP HANA를 관계형 원본으로 처리 
 
@@ -82,14 +82,14 @@ DirectQuery를 사용하여 SAP HANA에 연결할 때(다차원 원본으로 처
 * SAP HANA 보기에 비가산적 측정값(예: 단순한 합계가 아닌 고유 카운트 또는 평균)이 포함된 경우 결과가 예상대로 나와야 합니다.
 * 결과 쿼리가 효율적이어야 합니다.
 
-**데이터 가져오기** 또는 **쿼리 편집기**에 정의된 쿼리에서 집계를 수행할 때는 SQL Server와 같은 관계형 원본의 동작을 명확히 하고 시작하는 것이 좋습니다. 다음에 나오는 예에서 **쿼리 편집기**에 정의된 쿼리는 ‘ProductID’별 평균 가격을 반환합니다.   
+**데이터 가져오기** 또는 **쿼리 편집기**에 정의된 쿼리에서 집계를 수행할 때는 SQL Server와 같은 관계형 원본의 동작을 명확히 하고 시작하는 것이 좋습니다. 다음에 나오는 예에서 **쿼리 편집기**에 정의된 쿼리는 ‘ProductID’별 평균 가격을 반환합니다.  
 
-![](media/desktop-directquery-sap-hana/directquery-sap-hana_01.png)
+![제품 ID별 평균 가격을 반환하는 쿼리 편집기에 정의된 쿼리를 보여 주는 다이어그램.](media/desktop-directquery-sap-hana/directquery-sap-hana_01.png)
 
 데이터를 Power BI(및 DirectQuery 사용)로 가져오는 경우 결과는 다음과 같습니다.
 
 * **쿼리 편집기**에서 작성한 쿼리에 정의된 집계 수준에서 데이터를 가져옵니다. 예를 들어, 제품별 평균 가격입니다. 그 결과, 시각적 개체에 사용할 수 있는 *ProductID* 및 *AveragePrice*라는 두 열이 있는 테이블이 생성됩니다.
-* 시각적 개체에서 모든 후속 집계(예: *Sum*, *평균*, *Average* 등)는 가져온 데이터에 대해 수행됩니다. 예를 들어, 시각적 개체에 ‘AveragePrice’를 포함하면 기본적으로 ‘Sum’ 집계를 사용하고 각 ‘ProductID’에 대한 ‘AveragePrice’ 합계를 반환합니다(이 예에서는 13.67).     시각적 개체에 사용된 다른 대체 집계 함수(예: *Min*, *Average* 등)도 마찬가지입니다. 예를 들어, *AveragePrice*의 *Average*는 6.66, 4, 3의 평균(4.56)을 반환하며 기본 테이블에 있는 6개 레코드에서 *Price*의 평균(5.17)이 아닙니다.
+* 시각적 개체에서 모든 후속 집계(예: *Sum*, *평균*, *Average* 등)는 가져온 데이터에 대해 수행됩니다. 예를 들어, 시각적 개체에 ‘AveragePrice’를 포함하면 기본적으로 ‘Sum’ 집계를 사용하고 각 ‘ProductID’에 대한 ‘AveragePrice’ 합계를 반환합니다(이 예에서는 13.67).    시각적 개체에 사용된 다른 대체 집계 함수(예: *Min*, *Average* 등)도 마찬가지입니다. 예를 들어, *AveragePrice*의 *Average*는 6.66, 4, 3의 평균(4.56)을 반환하며 기본 테이블에 있는 6개 레코드에서 *Price*의 평균(5.17)이 아닙니다.
   
 가져오기 대신 **DirectQuery**(동일한 관계형 원본에 대해)를 사용하면 동일한 의미 체계가 적용되고 결과는 정확히 동일합니다.  
 
@@ -112,7 +112,7 @@ SAP HANA에서 DirectQuery를 사용하는 경우 이러한 고려 사항 및 �
   
 예를 살펴보겠습니다. 다음 예제에서는 **데이터 가져오기** 대화 상자에서 5개의 열(**CalendarQuarter**, **Color**, **LastName**, **ProductLine**, **SalesOrderNumber**)과 *OrderQuantity* 측정값을 선택하면, 나중에 Min OrderQuantity가 포함된 간단한 시각적 개체가 생성되고 그 결과 SAP HANA에 다음 SQL 쿼리가 발생합니다. 음영 처리된 부분은 하위 SELECT로, **데이터 가져오기** / **쿼리 편집기**의 쿼리를 포함합니다. 이 하위 SELECT가 높은 카디널리티 결과를 제공하면 결과 SAP HANA 성능이 저하될 가능성이 큽니다.  
 
-![](media/desktop-directquery-sap-hana/directquery-sap-hana_03.png)
+![SAP HANA에 대한 SQL 쿼리를 보여 주는 쿼리 예제의 스크린샷.](media/desktop-directquery-sap-hana/directquery-sap-hana_03.png)
 
    
 이러한 동작 때문에 **데이터 가져오기** 또는 **쿼리 편집기**에서 선택한 항목은 SAP HANA에 적당한 쿼리이면서 필요한 항목으로 제한하는 것이 좋습니다.  
@@ -148,4 +148,4 @@ DirectQuery에 대한 자세한 내용은 다음 리소스를 참조하세요.
 * [Power BI의 DirectQuery](desktop-directquery-about.md)
 * [DirectQuery에서 지원하는 데이터 원본](power-bi-data-sources.md)
 * [DirectQuery 및 SAP BW](desktop-directquery-sap-bw.md)
-* [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)
+* [On-premises data gateway (온-프레미스 데이터 게이트웨이)](service-gateway-onprem.md)

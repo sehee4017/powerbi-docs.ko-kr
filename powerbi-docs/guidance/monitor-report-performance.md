@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 9245dd6c25917b2c8c861ea5b83710cd8b52bb22
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3c76fed8f5533ad339904c4f8251a7404270a0ae
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279023"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216608"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>Power BI에서 보고서 성능 모니터링
 
@@ -35,7 +35,7 @@ Power BI Desktop에서 [쿼리 진단](/power-query/QueryDiagnostics)을 사용�
 > [!NOTE]
 > 쿼리 진단은 현재 미리 보기 기능이므로 _옵션 및 설정_에서 사용하도록 설정해야 합니다. 사용하도록 설정되면 **도구** 리본 탭의 Power Query 편집기 창에서 해당 명령을 사용할 수 있습니다.
 
-![이미지는 Power Query 편집기 도구 리본 탭을 보여 줍니다. 리본에는 단계 진단 명령, 진단 시작 명령, 진단 중지 명령이 표시됩니다.](media/monitor-report-performance/power-query-diagnotics.png)
+![진단 단계 명령, 진단 시작 명령 및 진단 중지 명령을 보여 주는 Power Query 편집기 도구 리본 탭의 스크린샷.](media/monitor-report-performance/power-query-diagnotics.png)
 
 ## <a name="use-performance-analyzer"></a>성능 분석기 사용
 

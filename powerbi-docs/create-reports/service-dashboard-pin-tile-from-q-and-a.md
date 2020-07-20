@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d74c6583197441d63cb6c7c40ba44a5b21885b28
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 76c76cf5ae41c369e3810f3a52ee43816184d8e1
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219186"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263049"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>질문 및 답변에서 대시보드에 타일 고정
 ## <a name="how-to-pin-a-tile-from-qa"></a>질문 및 답변에서 타일을 고정하는 방법
@@ -32,7 +32,7 @@ ms.locfileid: "85219186"
    ![질문 입력](media/service-dashboard-pin-tile-from-q-and-a/power-bi-type-q-and-a.png)
 
    질문 상자에 제안이 표시됩니다.
-4. 대시보드에 차트를 타일로 추가하려면 캔버스의 오른쪽 위에 있는 고정 ![](media/service-dashboard-pin-tile-from-q-and-a/pbi_pintile.png)을 선택합니다. 대시보드를 사용자와 공유하면 시각화를 고정할 수 없습니다.
+4. 대시보드에 차트를 타일로 추가하려면 캔버스의 오른쪽 위에서 고정 ![고정 아이콘](media/service-dashboard-pin-tile-from-q-and-a/pbi_pintile.png) 을 선택합니다. 대시보드를 사용자와 공유하면 시각화를 고정할 수 없습니다.
 
 5. 기존 대시보드 또는 새 대시보드에 타일을 고정합니다.
 

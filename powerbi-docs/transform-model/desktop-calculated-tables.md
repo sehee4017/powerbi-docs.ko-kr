@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 3f23f18002ce12c3b6706469f36bde077e117941
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8c22b040a1767d616ce1f4d0e4e7fa26e55bfe19
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237871"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214292"
 ---
 # <a name="create-calculated-tables-in-power-bi-desktop"></a>Power BI Desktop에서 계산된 테이블 만들기
 대부분의 경우, 테이블은 외부 데이터 원본에서 모델로 데이터를 가져와서 만듭니다. 반면에 *계산된 테이블*을 사용하면 모델로 이미 로드한 데이터를 기반으로 새 테이블을 추가할 수 있습니다. 값을 쿼리하고 데이터 원본에서 새 테이블의 열로 로드하는 대신 [DAX(Data Analysis Expressions)](/dax/index) 수식을 만들어서 테이블 값을 정의합니다.
@@ -31,11 +31,11 @@ DAX는 Power BI Desktop에서처럼 관계형 데이터로 작업할 때 사용�
 
 **Northwest Employees**
 
- ![](media/desktop-calculated-tables/calctables_nwempl.png)
+ ![Northwest Employees의 표 형식 데이터를 보여 주는 Power BI Desktop의 스크린샷.](media/desktop-calculated-tables/calctables_nwempl.png)
 
 **Southwest Employees**
 
- ![](media/desktop-calculated-tables/calctables_swempl.png)
+ ![Southwest Employees의 표 형식 데이터를 보여 주는 Power BI Desktop의 스크린샷.](media/desktop-calculated-tables/calctables_swempl.png)
 
 Power BI Desktop의 보고서 뷰 또는 데이터 뷰에서, **Modeling** 탭의 **계산** 그룹에서 **새 테이블**을 선택합니다. 데이터 뷰에서는 새로 만든 계산된 테이블을 곧바로 볼 수 있으므로 데이터 뷰에서 작업하는 것이 좀 더 편리합니다.
 

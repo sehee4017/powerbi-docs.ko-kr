@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: b195e0bc11068b819a2f3133ed9ae135e3c30ffb
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: e1a24d8d15881bf8a1948d91758c7592f75ea7ac
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485947"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214201"
 ---
 # <a name="on-premises-data-gateway-sizing"></a>온-프레미스 데이터 게이트웨이 크기 조정
 
@@ -33,7 +33,7 @@ _캐시된 데이터_ 워크로드는 Power BI 데이터 세트에 로드하기 
 1. **데이터 검색 및 변환**: 데이터를 검색하고 필요한 경우 변환합니다. 가능하면 파워 쿼리 매시업 엔진은 데이터 원본에 변환 단계를 푸시합니다. 이를 _[쿼리 폴딩](power-query-folding.md)_ 이라고 합니다. 가능하지 않은 경우에는 게이트웨이에서 변환해야 합니다. 이 경우 게이트웨이는 더 많은 CPU 및 메모리 리소스를 사용합니다.
 1. **전송**: 데이터가 Power BI 서비스로 전송됩니다. 특히 대용량 데이터 볼륨의 경우 안정적이고 빠른 인터넷 연결이 중요합니다.
 
-![온-프레미스 원본에 연결하는 온-프레미스 데이터 게이트웨이(관계형 데이터베이스, Excel 통합 문서 및 CSV 파일)를 표시하는 다이어그램입니다. 게이트웨이는 데이터를 검색하고 변환합니다.](media/gateway-onprem-sizing/gateway-onprem-workload-cached-data.png)
+![온-프레미스 원본에 연결하는 온-프레미스 데이터 게이트웨이를 보여 주는 캐시 데이터의 다이어그램.](media/gateway-onprem-sizing/gateway-onprem-workload-cached-data.png)
 
 ### <a name="live-connection-and-directquery-workloads"></a>라이브 연결 및 DirectQuery 워크로드
 
@@ -46,7 +46,7 @@ _라이브 연결 및 DirectQuery_ 워크로드는 대부분 통과 모드에서
 
 보고서 사용자에게 응답성이 뛰어난 환경을 보장하기 위해 안정적이고 빠르고 일관된 연결이 중요합니다.
 
-![온-프레미스 원본에 연결하는 온-프레미스 데이터 게이트웨이를 표시하는 다이어그램입니다. Analysis Services 테이블 형식 데이터베이스 및 관계형. 게이트웨이는 주로 통과 모드에서 작동합니다.](media/gateway-onprem-sizing/gateway-onprem-workload-liveconnection-directquery.png)
+![온-프레미스 원본에 연결하는 온-프레미스 데이터 게이트웨이를 보여 주는 라이브 연결 및 DirectQuery의 다이어그램.](media/gateway-onprem-sizing/gateway-onprem-workload-liveconnection-directquery.png)
 
 ## <a name="sizing-considerations"></a>크기 조정 고려 사항
 

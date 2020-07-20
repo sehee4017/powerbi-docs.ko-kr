@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 69cc3e21befb2c3becca737f853947e869bd681c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b832e96b795b38133939296a15dcab6ece3996be
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224202"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214897"
 ---
 # <a name="connect-to-an-amazon-redshift-database-in-power-bi-desktop"></a>Power BI Desktop에서 Amazon Redshift 데이터베이스에 연결
 **Power BI Desktop**에서 **Amazon Redshift** 데이터베이스에 연결하고 Power BI Desktop의 다른 데이터 원본처럼 기본 데이터를 사용할 수 있습니다.
@@ -22,19 +22,19 @@ ms.locfileid: "85224202"
 ## <a name="connect-to-an-amazon-redshift-database"></a>Amazon Redshift 데이터베이스에 연결
 **Amazon Redshift** 데이터베이스에 연결하려면 Power BI Desktop의 **홈** 리본에서 **데이터 가져오기**를 선택합니다. 왼쪽에 있는 범주에서 **데이터베이스**를 선택하면 **Amazon Redshift**가 표시됩니다.
 
-![](media/desktop-connect-redshift/connect_redshift_3.png)
+![Amazon Redshift 데이터베이스 선택 항목을 보여 주는 데이터 가져오기 대화 상자의 스크린샷.](media/desktop-connect-redshift/connect_redshift_3.png)
 
-**Amazon Redshift** 창이 나타나면 **Amazon Redshift** 서버 및 데이터베이스 이름을 상자에 입력하거나 붙여 넣습니다. *Server* 필드의 일부로, 사용자는 *ServerURL:Port* 형식으로 포트를 지정할 수 있습니다.
+**Amazon Redshift** 창이 나타나면 **Amazon Redshift** 서버 및 데이터베이스 이름을 상자에 입력하거나 붙여 넣습니다. *Server* 필드의 일부로, 사용자는 다음 형식으로 포트를 지정할 수 있습니다. *ServerURL:Port*
 
-![](media/desktop-connect-redshift/connect_redshift_4.png)
+![서버 및 데이터베이스 필드를 보여 주는 Amazon Redshift 대화 상자의 스크린샷.](media/desktop-connect-redshift/connect_redshift_4.png)
 
 메시지가 표시되면 사용자 이름 및 암호를 입력합니다. 오류를 피하려면 SSL 인증서와 정확하게 일치하는 서버 이름을 사용해야 합니다. 
 
-![](media/desktop-connect-redshift/connect_redshift_5.png)
+![사용자 이름 및 암호 필드를 보여 주는 Amazon Redshift 자격 증명 프롬프트의 스크린샷.](media/desktop-connect-redshift/connect_redshift_5.png)
 
 성공적으로 연결되면 **탐색기** 창이 나타나고 서버에 사용 가능한 데이터를 표시합니다. 여기서 하나 이상의 요소를 선택하여 **Power BI Desktop**에 가져오고 사용할 수 있습니다.
 
-![](media/desktop-connect-redshift/connect_redshift_6.png)
+![서버에서 사용할 수 있는 데이터를 보여 주는 탐색기 대화 상자의 스크린샷.](media/desktop-connect-redshift/connect_redshift_6.png)
 
 **탐색기** 창에서 선택하면 데이터를 **로드** 또는 **편집**할 수 있습니다.
 

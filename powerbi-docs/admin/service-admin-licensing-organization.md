@@ -10,12 +10,12 @@ ms.date: 06/24/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: e050fd4ec3e533c07ecfd0f0604092bec7fc00b5
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 276770b677d85e0e125e7dd87bb0a800248d71c2
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85484935"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161476"
 ---
 # <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>조직의 사용자에 대한 Power BI 서비스 라이선스 부여
 
@@ -57,7 +57,7 @@ ms.locfileid: "85484935"
 1. 모든 사용자를 포함하는 데 필요한 라이선스 수를 입력합니다.
 1. **라이선스가 없는 모든 사용자에게 자동으로 할당**을 선택하고 체크 아웃합니다.
 
-  ![Power BI 무료 자동 할당 구독](media/service-admin-licensing-organization/m365-auto-assign.png) 
+  ![셀프 서비스 가입을 보여 주는 Power BI 무료 자동 할당 구독의 스크린샷.](media/service-admin-licensing-organization/m365-auto-assign.png)
 
 조직에서 이미 라이선스가 있는 사용자를 확인하려면 [사용자 라이선스 보기 및 관리](service-admin-manage-licenses.md)를 참조하여 방법을 알아보세요.
 

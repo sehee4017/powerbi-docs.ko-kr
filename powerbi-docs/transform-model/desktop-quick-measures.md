@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 11/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2bb48ad44c1f1d440fb5741fc55cc4a83f315dc8
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 129b4a22e17b5eab03018efae113ff47133e9dda
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237158"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214171"
 ---
 # <a name="use-quick-measures-for-common-calculations"></a>일반적인 계산에 빠른 측정 사용
 *‘빠른 측정’* 을 사용하여 일반적이고 강력한 계산을 쉽고 빠르게 수행할 수 있습니다. 빠른 측정은 백그라운드에서 DAX(Data Analysis Expressions) 명령 집합을 실행한 후 결과를 표시하여 보고서에서 사용할 수 있습니다. DAX를 작성할 필요가 없으며, 대화 상자에서 제공하는 입력에 따라 자동으로 작성됩니다. 사용 가능한 수많은 계산 범주와 사용자 요구에 맞게 각 계산을 수정할 방법이 있습니다. 무엇보다도 빠른 측정에서 실행되는 DAX를 확인하고 바로 시작하거나 고유한 DAX 지식을 확장할 수 있습니다.
@@ -90,7 +90,7 @@ Power BI Desktop에서 빠른 측정을 만들려면 **필드** 창에서 마우
 
 **필드** 창에서 **평균 단가**를 **기준 값** 필드로 끌어옵니다. **범주** 필드에 **범주**를 그대로 두고 **확인**을 선택합니다. 
 
-![](media/desktop-quick-measures/quick-measures_06.png)
+![필드 창의 필터 옵션을 보여 주는 Power BI Desktop의 스크린샷.](media/desktop-quick-measures/quick-measures_06.png)
 
 **확인**을 선택하면 몇 가지 흥미로운 현상이 발생합니다.
 
@@ -134,5 +134,5 @@ Power BI Desktop에서 빠른 측정을 만들려면 **필드** 창에서 마우
 시간 인텔리전스 빠른 측정에서 고유한 사용자 지정 날짜 테이블을 사용할 수 있습니다. 외부 테이블 형식 모델을 사용하는 경우에는 [시간 인텔리전스에 사용할 날짜 테이블로 표시 지정](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular)에 설명된 대로 모델을 작성할 때 테이블의 기본 날짜 열이 날짜 테이블로 표시되었는지 확인해야 합니다. 고유한 날짜 테이블을 가져오는 경우에는 [Set and use date tables in Power BI Desktop](desktop-date-tables.md)(Power BI Desktop에서 날짜 테이블 설정 및 사용)에 설명된 대로 날짜 테이블로 표시해야 합니다.
 
 ### <a name="additional-information-and-examples"></a>추가 정보 및 예제
-아직 제공되지 않은 빠른 측정에 대한 아이디어가 있으신가요? 잘 했습니다! [Power BI Ideas](https://go.microsoft.com/fwlink/?linkid=842906)(Power BI 아이디어) 페이지를 확인하고 Power BI Desktop에 표시되었으면 하는 빠른 측정에 대한 아이디어 및 DAX 수식을 제출해 주세요. 향후 릴리스에서 빠른 측정 목록에 추가되도록 노력하겠습니다.
+아직 제공되지 않은 빠른 측정에 대한 아이디어가 있으신가요? 좋습니다! [Power BI Ideas](https://go.microsoft.com/fwlink/?linkid=842906)(Power BI 아이디어) 페이지를 확인하고 Power BI Desktop에 표시되었으면 하는 빠른 측정에 대한 아이디어 및 DAX 수식을 제출해 주세요. 향후 릴리스에서 빠른 측정 목록에 추가되도록 노력하겠습니다.
 

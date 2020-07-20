@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 178a2f2037a52b1b08e1006123c30eff1af18af6
-ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
+ms.openlocfilehash: cdb992ba337118c9f7fcfef8335dbc31e6e48032
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "85393752"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215302"
 ---
 # <a name="set-and-use-date-tables-in-power-bi-desktop"></a>Power BI Desktop에서 날짜 테이블 설정 및 사용
 
@@ -22,19 +22,19 @@ ms.locfileid: "85393752"
 
 이 자동 동작에 대한 자세한 내용은 [Power BI Desktop의 자동 날짜/시간](desktop-auto-date-time.md) 문서를 참조하세요.
 
-많은 데이터 분석가가 고유한 날짜 테이블을 만드는 것을 선호합니다. **Power BI Desktop**에서 모델에서 **날짜 테이블**로 사용할 테이블을 지정한 다음, 테이블의 날짜 데이터를 사용하여 날짜 관련 시각적 개체, 테이블, 빠른 측정 등을 만들 수 있습니다. 고유한 날짜 테이블을 지정하면 모델에 생성된 날짜 계층 구조를 제어하고 **빠른 측정** 및 모델의 날짜 테이블을 사용하는 기타 작업에서 사용할 수 있습니다. 
+많은 데이터 분석가가 고유한 날짜 테이블을 만드는 것을 선호합니다. **Power BI Desktop**에서 모델에서 **날짜 테이블**로 사용할 테이블을 지정한 다음, 테이블의 날짜 데이터를 사용하여 날짜 관련 시각적 개체, 테이블, 빠른 측정 등을 만들 수 있습니다. 고유한 날짜 테이블을 지정하면 모델에 생성된 날짜 계층 구조를 제어하고 **빠른 측정** 및 모델의 날짜 테이블을 사용하는 기타 작업에서 사용할 수 있습니다.
 
-![](media/desktop-date-tables/date-tables_01.png)
+![“날짜 테이블로 표시” 대화 상자를 보여 주는 Power BI Desktop의 스크린샷.](media/desktop-date-tables/date-tables_01.png)
 
 ## <a name="setting-your-own-date-table"></a>고유한 날짜 테이블 설정
 
 **날짜 테이블**을 설정하려면 다음 이미지에 표시된 것처럼 **필드** 창에서 날짜 테이블로 사용할 테이블을 선택한 다음, 테이블을 마우스 오른쪽 단추로 클릭하고 나타나는 메뉴에서 **날짜 테이블로 표시 > 날짜 테이블로 표시**를 선택합니다.
 
-![](media/desktop-date-tables/date-tables_02.png)
+![필드 창의 “날짜 테이블로 표시” 필터 옵션을 보여 주는 Power BI Desktop의 스크린샷.](media/desktop-date-tables/date-tables_02.png)
 
 테이블을 선택한 다음, 여기에 표시되는 **모델링** 리본에서 **날짜 테이블로 표시**를 선택할 수도 있습니다.
 
-![](media/desktop-date-tables/date-tables_02b.png)
+![“날짜 테이블로 표시” 단추 및 옵션 필터를 보여 주는 Power BI Desktop의 스크린샷.](media/desktop-date-tables/date-tables_02b.png)
 
 고유한 **날짜 테이블**을 지정할 때 Power BI Desktop은 해당 열과 데이터에 대해 다음 유효성 검사를 수행하여 데이터에 대해 다음을 확인합니다.
 
@@ -51,7 +51,7 @@ ms.locfileid: "85393752"
 
 날짜 테이블을 지정하면 해당 테이블에서 날짜 열인 열을 선택할 수 있습니다. **필드** 창에서 테이블을 선택하여 사용할 열을 지정한 다음, 테이블을 마우스 오른쪽 단추로 클릭하고 **날짜 테이블로 표시 > 날짜 테이블 설정**을 선택합니다. 다음 창이 나타납니다. 이 창의 드롭다운 상자에서 날짜 테이블로 사용할 열을 선택할 수 있습니다.
 
-![](media/desktop-date-tables/date-tables_03.png)
+![중요 정보를 포함하는 “날짜 테이블로 표시” 대화 상자를 보여 주는 Power BI Desktop의 스크린샷.](media/desktop-date-tables/date-tables_03.png)
 
 고유한 날짜 테이블을 지정할 때 **Power BI Desktop**은 사용자를 대신하여 모델에 빌드하는 계층 구조를 자동으로 만들지 않습니다. 나중에 날짜 테이블을 선택 취소하고 더 이상 수동으로 설정한 날짜 테이블이 없는 경우 Power BI Desktop은 테이블의 날짜 열에 대해 자동으로 생성된 기본 제공 날짜 테이블을 다시 만듭니다.
 
@@ -63,11 +63,11 @@ ms.locfileid: "85393752"
 
 1. **필드** 창에서 **데이터 테이블**을 선택하고 필요한 경우 확장한 다음, 날짜로 사용할 열을 선택합니다.
    
-    ![](media/desktop-date-tables/date-tables_04.png) 
+    ![필드 창의 날짜 필터를 보여 주는 Power BI Desktop의 스크린샷.](media/desktop-date-tables/date-tables_04.png) 
 
 2. **모델링** 탭에서 **데이터 형식:** 을 선택한 다음, 드롭다운 화살표를 클릭하여 사용 가능한 데이터 형식을 표시합니다.
 
-    ![](media/desktop-date-tables/date-tables_05.png)
+    ![데이터 형식 필터가 선택된 모델링 탭을 보여 주는 Power BI Desktop의 스크린샷.](media/desktop-date-tables/date-tables_05.png)
 
 3. 열에 대한 데이터 형식을 지정합니다. 
 

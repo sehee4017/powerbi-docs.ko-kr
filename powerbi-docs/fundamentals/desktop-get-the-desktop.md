@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a043e230ba74432254248ee70db495bc75a3d28b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3038463a9e3447ee9b38ae3cb178f3486d21bc80
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232500"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215108"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop 다운로드
 Power BI Desktop을 통해 데이터를 시각화하는 고급 쿼리, 모델 및 보고서를 빌드할 수 있습니다. Power BI Desktop에서 Power BI 서비스에 게시하여 데이터 모델을 빌드하고, 보고서를 만들고, 작업을 공유할 수 있습니다. Power BI Desktop은 무료로 다운로드할 수 있습니다.
@@ -35,20 +35,20 @@ Microsoft Store에서 최신 버전의 Power BI Desktop에 액세스하는 방�
 
     - [Power BI 서비스](https://docs.microsoft.com/power-bi/service-get-started)에서 오른쪽 위에 있는 **다운로드** 아이콘을 선택한 다음, **Power BI Desktop**을 선택합니다.
 
-      ![Power BI 서비스에서 Power BI Desktop 다운로드](media/desktop-get-the-desktop/getpbid_downloads.png)
+      ![Power BI Desktop 다운로드 옵션을 보여 주는 Microsoft Store의 스크린샷.](media/desktop-get-the-desktop/getpbid_downloads.png)
 
    - [Power BI Desktop 제품 페이지](https://powerbi.microsoft.com/desktop/)로 이동한 다음, **무료 다운로드**를 선택합니다.
   
 2. Microsoft Store의 **Power BI Desktop** 페이지에서 **설치**를 선택합니다.
 
-     ![Microsoft Store에서 Power BI Desktop 가져오기](media/desktop-get-the-desktop/getpbid_04.png)
+     ![Power BI Desktop 설치 옵션을 보여 주는 Microsoft Store의 스크린샷.](media/desktop-get-the-desktop/getpbid_04.png)
 
 Microsoft Store에서 Power BI Desktop을 가져오는 경우 몇 가지 이점이 있습니다.
 
 * **자동 업데이트**: 최신 버전이 제공되는 즉시, Windows가 백그라운드에서 자동으로 다운로드하므로 항상 최신 버전이 유지됩니다.
 * **필요한 파일만 다운로드**: Microsoft Store는 각 업데이트에서 변경된 구성 요소만 사용자 머신에 다운로드하므로 각 업데이트에 필요한 파일만 다운로드됩니다.
-* **관리자 권한이 필요하지 않음**: 패키지를 직접 다운로드하고 설치하는 경우 설치가 성공적으로 완료되려면 관리자여야 합니다. Microsoft Store에서 Power BI Desktop을 가져오는 경우에는 관리자 권한이 필요하지 ‘않습니다’. 
-* **IT 롤아웃 사용**: 비즈니스용 Microsoft Store를 통해 조직의 모든 사용자에게 Power BI Desktop을 보다 쉽게 배포하거나 ‘롤아웃’할 수 있습니다. 
+* **관리자 권한이 필요하지 않음**: 패키지를 직접 다운로드하고 설치하는 경우 설치가 성공적으로 완료되려면 관리자여야 합니다. Microsoft Store에서 Power BI Desktop을 가져오는 경우에는 관리자 권한이 필요하지 ‘않습니다’.
+* **IT 롤아웃 사용**: 비즈니스용 Microsoft Store를 통해 조직의 모든 사용자에게 Power BI Desktop을 보다 쉽게 배포하거나 ‘롤아웃’할 수 있습니다.
 
 * **언어 감지** Microsoft Store 버전은 지원되는 언어를 모두 포함하며, 시작할 때마다 컴퓨터에서 사용되는 언어를 확인합니다. 이 언어 지원은 Power BI Desktop에서 만든 모델의 지역화에도 영향을 줍니다. 예를 들어 기본 제공 날짜 계층 구조는 .pbix 파일을 만들 때 Power BI Desktop에서 사용 중인 언어와 일치합니다.
 
@@ -66,7 +66,7 @@ Microsoft Store에서 Power BI Desktop을 설치할 때 적용되는 고려 사�
   
   다운로드 센터에서 Power BI Desktop 실행 파일을 다운로드하려면 [다운로드 센터 페이지](https://www.microsoft.com/download/details.aspx?id=58494)에서 **다운로드**를 선택합니다. 그런 다음, 32비트 또는 64비트 설치 파일 중에서 다운로드할 파일을 지정합니다.
 
-  ![Power BI Desktop 설치 파일 지정](media/desktop-get-the-desktop/download-desktop-exe.png)
+  ![64비트 Power BI Desktop 다운로드 확인란을 보여 주는 다운로드 센터의 스크린샷.](media/desktop-get-the-desktop/download-desktop-exe.png)
 
 ### <a name="install-power-bi-desktop-after-downloading-it"></a>Power BI Desktop을 다운로드한 후 설치
 다운로드를 완료하면 설치 파일을 실행하라는 메시지가 표시됩니다.
@@ -75,16 +75,16 @@ Microsoft Store에서 Power BI Desktop을 설치할 때 적용되는 고려 사�
 
 설치 패키지를 시작하면 Power BI Desktop이 애플리케이션으로 설치되고 데스크톱에서 실행됩니다.
 
-![Power BI Desktop 설치 프로그램 실행](media/desktop-get-the-desktop/designer_gsg_install.png)
+![설치 마법사를 보여 주는 Power BI Desktop 설치의 스크린샷.](media/desktop-get-the-desktop/designer_gsg_install.png)
 
 > [!NOTE]
-> 다운로드한(MSI) 버전(사용되지 않음) 및 Microsoft Store 버전의 Power BI Desktop을 동일한 컴퓨터에 설치하는 기능(‘Side-by-Side’ 설치라고도 함)은 지원되지 않습니다.  Microsoft Store에서 다운로드하기 전에 Power BI Desktop을 수동으로 제거합니다.
+> 다운로드한(MSI) 버전(사용되지 않음) 및 Microsoft Store 버전의 Power BI Desktop을 동일한 컴퓨터에 설치하는 기능(‘Side-by-Side’ 설치라고도 함)은 지원되지 않습니다. Microsoft Store에서 다운로드하기 전에 Power BI Desktop을 수동으로 제거합니다.
 > 
 
 ## <a name="using-power-bi-desktop"></a>Power BI Desktop 사용
 Power BI Desktop을 시작하면 시작 화면이 표시됩니다.
 
-![Power BI Desktop 시작 화면](media/desktop-get-the-desktop/getpbid_05.png)
+![시작 화면을 보여 주는 Power BI Desktop 설치의 스크린샷.](media/desktop-get-the-desktop/getpbid_05.png)
 
 Power BI Desktop을 처음 사용하는 경우(즉, 설치가 업그레이드되지 않은 경우), 계속하기 전에 양식을 작성하거나 Power BI 서비스에 로그인하라는 메시지가 표시됩니다.
 
@@ -122,7 +122,7 @@ Power BI Desktop을 설치할 때 명령줄 스위치를 사용하여 속성과 
 |-repair     |설치 복구(또는 현재 설치되어 있지 않은 경우 설치)         |
 |-package, -update     |Power BI Desktop 설치(-uninstall 또는 -repair를 지정하지 않은 경우 기본값)         |
 
-‘property = value’ 구문으로 지정한 다음 구문 매개 변수를 사용할 수도 있습니다. 
+‘property = value’ 구문으로 지정한 다음 구문 매개 변수를 사용할 수도 있습니다.
 
 |매개 변수  |의미  |
 |---------|---------|
@@ -164,7 +164,7 @@ Windows Installer 파일(.msi 파일)이 필요한 도구를 사용하여 사용
 
 사용자가 오래된 버전의 Power BI Desktop을 사용하는 경우 다음 메시지와 유사한 오류 메시지가 표시될 수 있습니다. 
 
-‘저장된 데이터베이스를 모델에 복원할 수 없습니다.’  
+‘저장된 데이터베이스를 모델에 복원할 수 없습니다.’ 
 
 Power BI Desktop의 현재 버전으로 업데이트하면 대개 이 문제가 해결됩니다.
 
@@ -180,7 +180,7 @@ Power BI Desktop의 현재 버전으로 업데이트하면 대개 이 문제가 
 
 특정 화면 해상도 구성을 포함한 특정 상황에 있는 일부 사용자에게는 Power BI Desktop 렌더링 콘텐츠가 큰 검은색 영역과 함께 표시될 수 있습니다. 이 문제의 원인은 일반적으로 Power BI Desktop이 콘텐츠를 표시하는 방법 때문이 아니라 항목 렌더링 방법에 영향을 주는 최근 운영 체제 업데이트 때문입니다. 이 문제를 해결하려면 다음 단계를 수행합니다.
 
-1. **시작** 키를 누르고 표시되는 검색 창에 ‘흐리게’를 입력합니다. 
+1. **시작** 키를 누르고 표시되는 검색 창에 ‘흐리게’를 입력합니다.
 2. 표시되는 대화 상자에서 다음 옵션을 선택합니다. **Let Windows fix apps that are blurry.** (Windows에서 흐리게 표시되는 앱을 수정하도록 합니다.)
 3. Power BI Desktop을 다시 시작합니다.
 

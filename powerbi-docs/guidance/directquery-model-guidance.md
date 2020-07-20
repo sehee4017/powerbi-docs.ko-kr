@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ace93dfe358c85e54863dece0303c889c6a766b2
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 264d3f4a0c611ca01de627b7656584ceb60e7b18
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279598"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214540"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Power BI Desktop의 DirectQuery 모델 지침
 
@@ -54,9 +54,9 @@ Power BI Desktop을 사용하여 모든 DirectQuery 모델을 만들고 관리�
 
 - **파워 쿼리의 복잡한 쿼리 방지:** 파워 쿼리의 쿼리에서 변환을 적용할 필요가 없도록 하여 효율적인 모델 디자인을 구현할 수 있습니다. 즉, 각 쿼리가 단일 관계형 데이터베이스 원본 테이블 또는 뷰에 매핑됩니다. **기본 쿼리 보기** 옵션을 선택하면 파워 쿼리 적용 단계의 실제 SQL 쿼리 문 표현을 미리 볼 수 있습니다.
 
-    ![쿼리 편집기 적용 단계는 다섯 단계를 표시합니다. “이름이 바뀐 열”이라는 마지막 단계를 마우스 오른쪽 단추로 클릭하면 상황에 맞는 메뉴가 열립니다. “기본 쿼리 보기” 옵션이 활성화되고 강조 표시됩니다.](media/directquery-model-guidance/directquery-model-guidance-query-editor-view-native-query.png)
+    ![적용된 단계에서 “기본 쿼리 보기” 옵션을 보여 주는 Power BI Desktop의 스크린샷.](media/directquery-model-guidance/directquery-model-guidance-query-editor-view-native-query.png)
     
-    ![기본 쿼리 창에는 원본 테이블을 조인하는 T-SQL 쿼리가 표시됩니다.](media/directquery-model-guidance/directquery-model-guidance-native-query-window.png)
+    ![기본 쿼리 창을 보여 주는 Power BI Desktop의 스크린샷. 쿼리 문은 두 개의 원본 테이블을 조인합니다.](media/directquery-model-guidance/directquery-model-guidance-native-query-window.png)
 
 - **계산 열 사용 및 데이터 형식 변경 내용 검사:** DirectQuery 모델은 데이터 형식을 변환하는 파워 쿼리 단계와 계산을 추가할 수 있도록 지원합니다. 그러나 가능한 경우 관계형 데이터베이스 원본에서 변환 결과를 구체화하면 성능이 개선됩니다.
 - **파워 쿼리 상대 날짜 필터링 사용 안 함:** 파워 쿼리의 쿼리에서 상대 날짜 필터링을 정의할 수 있습니다. 예를 들어 작년에 생성된 판매 주문을 검색합니다(오늘 날짜 기준). 이 유형의 필터는 다음과 같이 비효율적인 기본 쿼리로 변환됩니다.
@@ -81,7 +81,7 @@ Power BI Desktop을 사용하여 모든 DirectQuery 모델을 만들고 관리�
 - **양방향 관계 필터링 사용 안 함:** 양방향 관계 필터링을 사용하면 성능이 낮은 쿼리 문이 생성될 수 있습니다. 이 관계 기능은 필요한 경우에만 사용해야 하며, 일반적으로 브리징 테이블에서 다대다 관계를 구현하는 경우입니다. 자세한 내용은 [Power BI Desktop의 다대다 카디널리티를 사용한 관계](../transform-model/desktop-many-to-many-relationships.md)를 참조하세요.
 - **병렬 쿼리 제한:** 각 기본 데이터 원본에 대해 DirectQuery가 여는 최대 연결 수를 설정할 수 있습니다. 이 설정은 데이터 원본에 동시에 보내는 쿼리 수를 제어합니다.
 
-    ![Power BI Desktop 창이 열리고, 현재 파일 DirectQuery 페이지를 선택합니다. 데이터 원본당 최대 연결 수 속성이 강조 표시됩니다.](media/directquery-model-guidance/directquery-model-guidance-desktop-options-current-file-directquery.png)
+    ![Direct Query 옵션 창을 보여 주는 Power BI Desktop의 스크린샷.](media/directquery-model-guidance/directquery-model-guidance-desktop-options-current-file-directquery.png)
     
     이 설정은 모델에 DirectQuery 원본이 하나 이상 있는 경우에만 활성화됩니다. 이 값은 모든 DirectQuery 원본과 모델에 새로 추가된 DirectQuery 원본에 적용됩니다.
 
@@ -95,7 +95,7 @@ Power BI Desktop을 사용하여 모든 DirectQuery 모델을 만들고 관리�
 
 - **쿼리 감소 기술 사용:** Power BI Desktop _‘옵션 및 설정’_ 에는 쿼리 감소 페이지가 있습니다. 이 페이지에는 세 가지 유용한 옵션이 있습니다. 상호 작용을 편집하여 재정의할 수 있긴 하지만, 기본적으로 교차 강조 표시 및 교차 필터링을 사용하지 않도록 설정할 수 있습니다. 슬라이서 및 필터에 적용 단추를 표시하는 것도 가능합니다. 슬라이서 또는 필터 옵션은 보고서 사용자가 단추를 클릭해야 적용됩니다. 필요한 경우, 보고서를 처음 만들 때 해당 옵션을 사용하도록 설정하는 것이 좋습니다.
 
-    ![Power BI Desktop 창이 열리고, 현재 파일 쿼리 감소 페이지를 선택합니다. 보내는 쿼리 수를 줄이고 슬라이서 및 필터의 적용 단추를 표시하는 세 가지 옵션이 제공됩니다.](media/directquery-model-guidance/directquery-model-guidance-desktop-options-current-file-query-reduction.png)
+    ![옵션 창의 쿼리 감소 필터를 보여 주는 Power BI Desktop의 스크린샷.](media/directquery-model-guidance/directquery-model-guidance-desktop-options-current-file-query-reduction.png)
     
 - **필터를 먼저 적용:** 보고서를 처음 디자인할 때 보고서, 페이지 또는 시각적 개체 수준에서 해당 필터를 적용한 후에 필드를 시각적 개체 필드로 매핑하는 것이 좋습니다. 예를 들어 **Country** 및 **Sales** 측정값에서 끌어 특정 연도를 기준으로 필터링하는 대신, **Year** 필드에 필터를 먼저 적용합니다. 시각적 개체를 작성하는 각 단계에서 쿼리를 보내기 때문이며, 첫 번째 쿼리가 완료되기 전에 다른 변경 작업을 수행할 수는 있지만 기본 데이터 원본에 불필요한 부하가 발생할 수 있습니다. 필터를 일찍 적용하면 일반적으로 이러한 중간 쿼리의 비용이 감소하며 속도가 빨라집니다. 또한 필터를 일찍 적용하지 못하면 위에서 설명한 대로 100만 개 행 한도를 초과할 수 있습니다.
 - **페이지의 시각적 개체 수 제한:** 보고서 페이지가 열리고 페이지 필터를 적용하면 페이지의 모든 시각적 개체가 새로 고쳐집니다. 그러나 위에서 설명한 대로 Power BI 환경과 **데이터 원본당 최대 연결 수** 모델 설정에서 적용되는, 병렬로 보낼 수 있는 쿼리 수에 대한 한도가 있습니다. 따라서 페이지 시각적 개체 수가 늘어나면 직렬 방식으로 새로 고쳐질 가능성이 높아집니다. 이로 인해 전체 페이지를 새로 고치는 데 걸리는 시간이 늘어나고, 시각적 개체가 휘발성 데이터 원본에 대해 일관성이 없는 결과를 표시할 가능성이 증가합니다. 이런 이유로, 페이지의 시각적 개체 수를 제한하고 더 단순한 페이지를 사용하는 것이 좋습니다. 여러 개의 카드 시각적 개체를 하나의 다중 행 카드 시각적 개체로 바꾸면 비슷한 페이지 레이아웃을 얻을 수 있습니다.
@@ -105,7 +105,7 @@ Power BI Desktop을 사용하여 모든 DirectQuery 모델을 만들고 관리�
 
 - **측정값 필터:** 측정값(또는 열 집계)이 포함된 시각적 개체의 측정값에 필터가 적용되어 있을 수 있습니다. 예를 들어 아래 시각적 개체는 매출이 $1500만보다 큰 범주에 대해서만 **범주**별 **매출**을 보여 줍니다.
 
-    ![테이블 시각적 개체에는 범주와 매출이라는 두 개의 열이 있습니다. 필터 창에는 값이 $1500만보다 큰 매출 측정값에 대한 필터가 표시됩니다. 테이블에는 3개의 행이 있고, 각 행에 $1500만보다 큰 매출 값이 있습니다.](media/directquery-model-guidance/directquery-model-guidance-example-measure-filter.png)
+    ![적용된 필터를 포함하는 표 형식 데이터를 보여 주는 Power BI Desktop의 스크린샷.](media/directquery-model-guidance/directquery-model-guidance-example-measure-filter.png)
     
     
     이 경우 두 개의 쿼리가 기본 원본으로 전송될 수 있습니다.

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 806fb9fffccaffee62d8cafb00dc94b5ad7b0def
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ef9c39f6c00738718d88dd485430b150ad95ec50
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220888"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216350"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>로컬 드라이브에 있는 Excel 통합 문서로부터 만들어진 데이터 세트 새로 고침
 ## <a name="whats-supported"></a>무엇이 지원되나요?
@@ -39,21 +39,21 @@ Power BI에서 지금 새로 고침 및 새로 고침 예약은 다음 데이터
 > 
 
 ## <a name="how-do-i-make-sure-data-is-loaded-to-the-excel-data-model"></a>데이터를 Excel 데이터 모델에 로드하려면 어떻게 해야 하나요?
-파워 쿼리(Excel 2016에서 데이터 가져오기 및 변환)를 사용하여 데이터 원본에 연결할 때 데이터를 로드하기 위한 몇 가지 옵션이 있습니다. 데이터 모델에 데이터를 로드하려면 **에 로드** 대화 상자에서 **데이터 모델에 이 데이터 추가** 옵션을 선택해야 합니다.
+파워 쿼리(Excel 2016에서 데이터 가져오기 및 변환)를 사용하여 데이터 원본에 연결할 때 데이터를 로드하기 위한 몇 가지 옵션이 있습니다. 데이터 모델에 데이터를 로드하려면 **다음으로 로드** 대화 상자에서 **데이터 모델에 이 데이터 추가** 옵션을 선택해야 합니다.
 
 > [!NOTE]
 > 여기의 이미지는 Excel 2016을 보여줍니다.
 > 
 > 
 
-**탐색기**에서 **...에 로드**를 클릭합니다.  
-    ![](media/refresh-excel-file-local-drive/refresh_loadtodm_1.png)
+**탐색기**에서 **다음으로 로드...** 를 클릭합니다.  
+    ![다음으로 로드 선택 항목을 보여 주는 탐색기에 있는 다음으로 로드의 스크린샷.](media/refresh-excel-file-local-drive/refresh_loadtodm_1.png)
 
-또는 탐색 창에서 **편집** 을 클릭하는 경우 쿼리 편집기를 엽니다. **닫기 및 ...에 로드**를 클릭할 수 있습니다.  
-    ![](media/refresh-excel-file-local-drive/refresh_loadtodm_2.png)
+또는 탐색 창에서 **편집**을 클릭하는 경우 쿼리 편집기를 엽니다. 여기서 **닫기 및 다음으로 로드...** 를 클릭할 수 있습니다.  
+    ![닫기 및 다음으로 로드 선택 항목을 보여 주는 탐색기에 있는 홈 탭의 스크린샷.](media/refresh-excel-file-local-drive/refresh_loadtodm_2.png)
 
-그런 다음 **에 로드**에서 **데이터 모델에 이 데이터 추가**를 선택해야 합니다.  
-    ![](media/refresh-excel-file-local-drive/refresh_loadtodm_3.png)
+그런 다음 **다음으로 로드**에서 **데이터 모델에 이 데이터 추가**를 선택해야 합니다.  
+    ![데이터 모델에 이 데이터 추가 확인란이 선택되었음을 보여 주는 다음으로 로드 대화 상자의 스크린샷](media/refresh-excel-file-local-drive/refresh_loadtodm_3.png)
 
 ### <a name="what-if-i-use-get-external-data-in-power-pivot"></a>파워 피벗에서 외부 데이터 가져오기를 사용할 경우 어떻게 되나요?
 문제가 되지 않습니다. 파워 피벗을 사용하여 온-프레미스 또는 온라인 데이터 원본에서 데이터에 연결하고 쿼리할 때마다 데이터는 데이터 모델에 자동으로 로드됩니다.

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 971c2351fe5032ba91fa6c0f964bd844ef479b05
-ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
+ms.openlocfilehash: 7c9b5c753b262900d61a1a71b4c9a8167c943121
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "84532422"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216688"
 ---
 # <a name="many-to-many-relationship-guidance"></a>다 대 다 관계 지침
 
@@ -35,20 +35,20 @@ ms.locfileid: "84532422"
 
 다음은 테이블 3개로 이루어진 간단한 모델 다이어그램입니다.
 
-![모델 다이어그램에는 테이블 3개가 포함되어 있습니다. 디자인은 다음 단락에서 설명합니다.](media/relationships-many-to-many/bank-account-customer-model-example.png)
+![테이블 세 개가 포함된 모델을 보여 주는 다이어그램. 디자인은 다음 단락에서 설명합니다.](media/relationships-many-to-many/bank-account-customer-model-example.png)
 
 첫 번째 테이블의 이름은 **Account**이고 **AccountID**와 **Account**라는 2개의 열이 있습니다. 두 번째 테이블의 이름은 **AccountCustomer**이고 **AccountID**와 **CustomerID**라는 2개의 열이 있습니다. 세 번째 테이블의 이름은 **Customer**이고 **CustomerID**와 **Customer**라는 2개의 열이 있습니다. 테이블 간에는 관계가 없습니다.
 
 테이블을 연결하기 위해 일 대 다 관계 2개를 추가합니다. 다음은 업데이트된 관련 테이블 모델 다이어그램입니다. **Transaction**이라는 팩트 유형 테이블이 추가되었습니다. 이 테이블에는 계정 트랜잭션이 기록됩니다. 브리징 테이블과 모든 ID 열은 숨겨져 있습니다.
 
-![이제 모델 다이어그램에 테이블 4개가 포함되어 있습니다. 모든 테이블을 연결하기 위해 일 대 다 관계를 추가했습니다.](media/relationships-many-to-many/bank-account-customer-model-related-tables-1.png)
+![이제 모델에 네 개의 테이블이 포함됨을 보여 주는 다이어그램. 모든 테이블을 연결하기 위해 일 대 다 관계를 추가했습니다.](media/relationships-many-to-many/bank-account-customer-model-related-tables-1.png)
 
 관계 필터 전달의 작동 방식을 설명하는 데 도움이 되도록 모델 다이어그램이 테이블 행을 표시하도록 수정되었습니다.
 
 > [!NOTE]
 > Power BI Desktop 모델 다이어그램에는 테이블 행을 표시할 수 없습니다. 이 문서에서는 명확한 예제로 설명을 지원하기 위해 표시한 것입니다.
 
-![이제 모델 다이어그램에 테이블 행이 표시됩니다. 행 세부 정보는 다음 단락에서 설명합니다.](media/relationships-many-to-many/bank-account-customer-model-related-tables-2.png)
+![이제 모델에 테이블 행이 표시됨을 보여 주는 다이어그램. 행 세부 정보는 다음 단락에서 설명합니다.](media/relationships-many-to-many/bank-account-customer-model-related-tables-2.png)
 
 네 테이블의 행 세부 정보는 다음 글머리 기호 목록에 설명되어 있습니다.
 
@@ -71,7 +71,7 @@ ms.locfileid: "84532422"
 
 다음은 **Transaction** 테이블의 **Amount** 열을 요약하는 두 개의 시각적 개체입니다. 첫 번째 시각적 개체는 계정을 기준으로 그룹화되므로, **Amount** 열의 합계는 ‘계정 잔액’을 나타냅니다. 두 번째 시각적 개체는 고객을 기준으로 그룹화되므로, **Amount** 열의 합계는 ‘고객 잔액’을 나타냅니다.
 
-![두 개의 보고서 시각적 개체가 나란히 표시됩니다. 시각적 개체는 다음 단락에서 설명합니다.](media/relationships-many-to-many/bank-account-customer-model-queried-1.png)
+![나란히 배치된 두 개의 보고서 시각적 개체를 보여 주는 다이어그램. 시각적 개체는 다음 단락에서 설명합니다.](media/relationships-many-to-many/bank-account-customer-model-queried-1.png)
 
 첫 번째 시각적 개체의 제목은 **Account Balance**이고 **Account**와 **Amount**라는 2개의 열이 있습니다. 다음 결과를 표시합니다.
 
@@ -91,9 +91,9 @@ ms.locfileid: "84532422"
 
 **Customer** 테이블에서 **Transaction** 테이블로 관계 필터 방향을 따릅니다. **Account** 및 **AccountCustomer** 테이블 간의 관계가 잘못된 방향으로 전달되고 있는 것이 분명합니다. 이 관계의 필터 방향을 **모두**로 설정해야 합니다.
 
-![모델 다이어그램이 업데이트되었습니다. Account 및 AccountCustomer 테이블 간의 관계에 하나의 변경 내용이 적용되었습니다. 이제 양방향으로 모두 필터링됩니다.](media/relationships-many-to-many/bank-account-customer-model-related-tables-3.png)
+![모델이 업데이트되었음을 보여 주는 다이어그램. 이제 양방향으로 모두 필터링됩니다.](media/relationships-many-to-many/bank-account-customer-model-related-tables-3.png)
 
-![동일한 두 개의 보고서 시각적 개체가 나란히 표시됩니다. 첫 번째 시각적 개체는 변경되지 않았습니다. 두 번째 시각적 개체는 다른 결과를 표시하며 다음 단락에서 설명합니다.](media/relationships-many-to-many/bank-account-customer-model-queried-2.png)
+![나란히 배치된 동일한 두 개의 보고서 시각적 개체를 보여 주는 다이어그램. 첫 번째 시각적 개체는 변경되지 않았지만 두 번째 시각적 개체는 변경되었습니다.](media/relationships-many-to-many/bank-account-customer-model-queried-2.png)
 
 예상대로 **Account Balance** 시각적 개체는 변경되지 않았습니다.
 
@@ -131,13 +131,13 @@ ms.locfileid: "84532422"
 
 2개의 팩트 유형 테이블 **Order**와 **Fulfillment**가 포함된 예제를 살펴봅시다. **Order** 테이블에는 주문 라인당 하나의 행이 있고, **Fulfillment** 테이블에는 주문 라인당 0개 이상의 행이 포함될 수 있습니다. **Order** 테이블의 행은 판매 주문을 나타냅니다. **Fulfillment** 테이블의 행은 배송된 주문 항목을 나타냅니다. 다 대 다 관계는 2개의 **OrderID** 열을 연결하고 **Order** 테이블에서만 필터를 전달합니다(**Order**가 **Fulfillment**를 필터링함).
 
-![모델 다이어그램에는 Order와 Fulfillment라는 2개의 테이블이 포함되어 있습니다. 다 대 다 관계는 두 OrderID 열을 연결하고 Order에서 Fulfillment로 필터링합니다.](media/relationships-many-to-many/order-fulfillment-model-example.png)
+![테이블 두 개가 포함된 모델을 보여 주는 다이어그램: Order와 Fulfillment라는 2개의 테이블이 포함되어 있습니다.](media/relationships-many-to-many/order-fulfillment-model-example.png)
 
 관계 카디널리티는 다 대 다로 설정되어 두 테이블에 중복된 **OrderID** 값을 저장할 수 있도록 지원합니다. 한 주문에 여러 라인이 있을 수 있으므로 **Order** 테이블에는 중복된 **OrderID** 값이 있을 수 있습니다. 한 주문에 여러 라인이 있을 수 있고 주문 라인이 여러 배송을 통해 처리될 수 있으므로 **Fulfillment** 테이블에도 중복된 **OrderID** 값이 있을 수 있습니다.
 
 이제 테이블 행을 살펴봅시다. **Fulfillment** 테이블에서 주문 라인이 여러 배송을 통해 처리될 수 있음을 확인합니다. 주문 라인이 없으면 주문이 아직 처리되지 않은 것입니다.
 
-![이제 모델 다이어그램에 테이블 행이 표시됩니다. 행 세부 정보는 다음 단락에서 설명합니다.](media/relationships-many-to-many/order-fulfillment-model-related-tables.png)
+![이제 모델에 테이블 행이 표시됨을 보여 주는 다이어그램. 행 세부 정보는 다음 단락에서 설명합니다.](media/relationships-many-to-many/order-fulfillment-model-related-tables.png)
 
 두 테이블의 행 세부 정보는 다음 글머리 기호 목록에 설명되어 있습니다.
 
@@ -155,7 +155,7 @@ ms.locfileid: "84532422"
 
 모델을 쿼리하면 어떻게 되는지 살펴봅시다. 다음은 **Order** 테이블의 **OrderID** 열을 기준으로 주문 및 처리 수량을 비교하는 테이블 시각적 개체입니다.
 
-![테이블 시각적 개체에 OrderID, OrderQuantity, FulfillmentQuantity라는 3개의 열이 있습니다. 주문마다 하나씩, 3개의 행이 있습니다. OrderID 2와 3은 완전히 처리되지 않았습니다.](media/relationships-many-to-many/order-fulfillment-model-queried.png)
+![세 개의 열이 있는 테이블 시각적 개체를 보여 주는 다이어그램: OrderID, OrderQuantity, FulfillmentQuantity라는 3개의 열이 있습니다.](media/relationships-many-to-many/order-fulfillment-model-queried.png)
 
 시각적 개체는 정확한 결과를 표시합니다. 그러나 모델의 유용성이 제한적입니다. 즉, **Order** 테이블의 **OrderID** 열로만 필터링하거나 그룹화할 수 있습니다.
 
@@ -167,7 +167,7 @@ ms.locfileid: "84532422"
 
 더 나은 솔루션을 살펴봅시다.
 
-![모델 다이어그램에는 OrderLine, OrderDate, Order, Fulfillment, Product, FulfillmentDate라는 6개의 테이블이 포함되어 있습니다. 모든 테이블이 연결되어 있습니다. 디자인은 다음 단락에서 설명합니다.](media/relationships-many-to-many/order-fulfillment-model-improved.png)
+![모델에 6개의 테이블이 포함됨을 보여 주는 다이어그램: OrderLine, OrderDate, Order, Fulfillment, Product, FulfillmentDate라는 6개의 테이블이 포함되어 있습니다.](media/relationships-many-to-many/order-fulfillment-model-improved.png)
 
 디자인이 다음과 같이 변경된 것을 확인합니다.
 
@@ -192,11 +192,11 @@ ms.locfileid: "84532422"
 
 다음 4개의 테이블이 포함된 예제를 살펴봅시다. **Date**, **Sales**, **Product**, **Target**. **Date** 및 **Product**는 차원 유형 테이블이며, 일 대 다 관계를 통해 각각 **Sales** 팩트 유형 테이블에 연결되어 있습니다. 지금까지는 양호한 별모양 스키마 디자인입니다. 그러나 **Target** 테이블은 다른 테이블에 아직 연결되어 있지 않습니다.
 
-![모델 다이어그램에는 Date, Sales, Product, Target이라는 4개의 테이블이 포함되어 있습니다. Target 테이블은 다른 테이블에 연결되어 있지 않습니다. 디자인은 다음 단락에서 설명합니다.](media/relationships-many-to-many/sales-targets-model-example.png)
+![테이블 네 개가 포함된 모델을 보여 주는 다이어그램: Date, Sales, Product, Target이라는 4개의 테이블이 포함되어 있습니다.](media/relationships-many-to-many/sales-targets-model-example.png)
 
 **Target** 테이블에는 **Category**, **TargetQuantity**, **TargetYear**라는 3개의 열이 있습니다. 테이블 행에는 연도 및 제품 범주 세분성이 표시됩니다. 즉, 판매 성과를 측정하는 데 사용되는 목표는 각 제품 범주에 대해 매년 설정됩니다.
 
-![Target 테이블에는 TargetYear, Category, TargetQuantity라는 3개의 열이 있습니다. 6개 행은 각각 세 가지 범주의 2019년 및 2020년 목표를 기록합니다.](media/relationships-many-to-many/sales-targets-model-target-rows.png)
+![대상 테이블에 세 개의 열이 있음을 보여 주는 다이어그램: TargetYear, Category, TargetQuantity라는 3개의 열이 있습니다.](media/relationships-many-to-many/sales-targets-model-target-rows.png)
 
 **Target** 테이블에는 차원 유형 테이블보다 상위 수준의 데이터가 저장되므로 일 대 다 관계를 만들 수 없습니다. 관계 중 하나에만 적용됩니다. **Target** 테이블을 차원 유형 테이블에 연결할 수 있는 방법을 살펴봅시다.
 
@@ -211,7 +211,7 @@ ms.locfileid: "84532422"
 
 다음 행렬 시각적 개체는 보고서 사용자가 연도에서 월로 드릴하는 경우 어떻게 되는지를 보여 줍니다. 시각적 개체가 **TargetQuantity** 열을 요약합니다. 행렬 행에 [데이터가 없는 항목 표시](../create-reports/desktop-show-items-no-data.md) 옵션이 사용하도록 설정되었습니다.
 
-![행렬 시각적 개체는 2020년 목표 수량을 270으로 표시합니다. 2020년 월을 표시하도록 확장하면 1월은 270이고 다른 모든 월 수준 목표 수량은 BLANK입니다.](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-bad.png)
+![2020년 목표 수량을 270으로 공개하는 행렬 시각적 개체를 보여 주는 다이어그램.](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-bad.png)
 
 이 동작을 방지하려면 측정값을 사용하여 팩트 데이터의 요약을 제어하는 것이 좋습니다. 요약을 제어하는 한 가지 방법은 하위 수준 기간을 쿼리할 때 BLANK를 반환하는 것입니다. 일부 정교한 DAX로 정의하는 또 다른 방법은 하위 수준 기간에 값을 배분하는 것입니다.
 
@@ -228,7 +228,7 @@ IF(
 
 이제 다음 행렬 시각적 개체가 **Target Quantity** 측정값을 사용합니다. 모든 월별 목표 수량이 BLANK임을 보여 줍니다.
 
-![행렬 시각적 개체는 2020년 목표 수량을 270으로 표시합니다. 2020년 월을 표시하도록 확장하면 모든 월 수준 목표 수량이 BLANK입니다.](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-good.png)
+![2020년 목표 수량을 270으로 공개하는 행렬 시각적 개체를 보여 주는 다이어그램.](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-good.png)
 
 ### <a name="relate-higher-grain-non-date"></a>상위 세분성 연결(날짜 아님)
 
@@ -236,21 +236,21 @@ IF(
 
 **Product** 및 **Target** 테이블의 **Category** 열에는 중복 값이 포함되어 있습니다. 따라서 일 대 다 관계의 “일”이 없습니다. 이 경우 다 대 다 관계를 만들어야 합니다. 관계는 차원 유형 테이블에서 팩트 유형 테이블로 필터를 단방향으로 전달해야 합니다.
 
-![모델 다이어그램의 조각은 Target 및 Product 테이블을 보여 줍니다. 다 대 다 관계를 통해 두 테이블을 연결합니다. 필터 방향은 Product에서 Target으로 진행됩니다.](media/relationships-many-to-many/sales-targets-model-relate-non-date.png)
+![대상 및 제품 테이블의 모델을 보여 주는 다이어그램. 다 대 다 관계를 통해 두 테이블을 연결합니다.](media/relationships-many-to-many/sales-targets-model-relate-non-date.png)
 
 이제 테이블 행을 살펴봅시다.
 
-![모델 다이어그램에는 Target과 Product라는 2개의 테이블이 포함되어 있습니다. 다 대 다 관계를 통해 두 Category 열을 연결합니다. 행 세부 정보는 다음 단락에서 설명합니다.](media/relationships-many-to-many/sales-targets-model-relate-non-date-tables.png)
+![테이블 두 개가 포함된 모델을 보여 주는 다이어그램: Target과 Product라는 2개의 테이블이 포함되어 있습니다. 다 대 다 관계를 통해 두 Category 열을 연결합니다.](media/relationships-many-to-many/sales-targets-model-relate-non-date-tables.png)
 
 **Target** 테이블에는 각 대상 연도(2019년, 2020년)를 나타내는 행 2개와 범주 2개(Clothing, Accessories)가 있습니다. **Product** 테이블에는 세 가지 제품이 있습니다. 두 제품은 clothing 범주에 속하고, 한 제품은 accessories 범주에 속합니다. clothing 색 중 하나는 녹색이고 나머지 두 제품은 파란색입니다.
 
 **Product** 테이블의 **Category** 열을 기준으로 그룹화된 테이블 시각적 개체는 다음과 같은 결과를 생성합니다.
 
-![테이블 시각적 개체에는 Category와 TargetQuantity라는 2개의 열이 있습니다. Accessories는 60, Clothing은 40, 합계는 100입니다.](media/relationships-many-to-many/sales-targets-model-visual-category-targets.png)
+![두 개의 열이 있는 테이블 시각적 개체를 보여 주는 다이어그램: Category와 TargetQuantity라는 2개의 열이 있습니다. Accessories는 60, Clothing은 40, 합계는 100입니다.](media/relationships-many-to-many/sales-targets-model-visual-category-targets.png)
 
 이 시각적 개체는 올바른 결과를 생성합니다. 이제 **Product** 테이블의 **Color** 열을 사용하여 목표 수량을 그룹화하면 어떻게 되는지를 살펴봅시다.
 
-![테이블 시각적 개체에는 Color와 TargetQuantity라는 2개의 열이 있습니다. Blue는 100, Green은 40, 합계는 100입니다.](media/relationships-many-to-many/sales-targets-model-visual-color-targets-bad.png)
+![두 개의 열이 있는 테이블 시각적 개체를 보여 주는 다이어그램: Color와 TargetQuantity라는 2개의 열이 있습니다. Blue는 100, Green은 40, 합계는 100입니다.](media/relationships-many-to-many/sales-targets-model-visual-color-targets-bad.png)
 
 이 시각적 개체는 잘못된 데이터 표현을 생성합니다. 어떤 문제가 발생한 것일까요?
 
@@ -272,11 +272,11 @@ IF(
 
 이제 다음 테이블 시각적 개체가 **Target Quantity** 측정값을 사용합니다. 모든 색 목표 수량이 BLANK임을 보여 줍니다.
 
-![테이블 시각적 개체에는 Color와 TargetQuantity라는 2개의 열이 있습니다. Blue는 BLANK, Green은 BLANK, 합계는 100입니다.](media/relationships-many-to-many/sales-targets-model-visual-color-targets-good.png)
+![두 개의 열이 있는 테이블 시각적 개체를 보여 주는 다이어그램: Color와 TargetQuantity라는 2개의 열이 있습니다. Blue는 BLANK, Green은 BLANK, 합계는 100입니다.](media/relationships-many-to-many/sales-targets-model-visual-color-targets-good.png)
 
 최종 모델 디자인은 다음과 같이 표시됩니다.
 
-![모델 다이어그램은 일 대 다 관계를 통해 Date 및 Target 테이블이 연결되었음을 보여 줍니다. Product 및 Target 테이블은 다 대 다 관계를 통해 연결되었으며 Product에서 Target으로 필터링됩니다.](media/relationships-many-to-many/sales-targets-model-example-final.png)
+![일 대 다 관계와 관련된 날짜 및 대상 테이블이 있는 모델을 보여 주는 다이어그램.](media/relationships-many-to-many/sales-targets-model-example-final.png)
 
 ### <a name="relate-higher-grain-facts-guidance"></a>상위 세분성 팩트 연결 지침
 

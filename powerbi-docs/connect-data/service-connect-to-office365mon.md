@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 11/26/2019
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 471522e0f66fe4bf03a8c1616d1a24221149f2e0
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 422782c3036f94c1ea764f46135200116092d70c
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229911"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216228"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>Power BI로 Office365Mon에 연결
 Power BI와 Office365Mon 템플릿 앱을 사용하면 Office 365 작동 중단 및 상태 성능 데이터를 간편하게 분석할 수 있습니다. Power BI는 작동 중단 및 상태 프로브를 비롯한 데이터를 검색한 다음 해당 데이터를 기반으로 기본 대시보드 및 보고서를 작성합니다.
@@ -27,23 +27,23 @@ Power BI용 [Office365Mon 템플릿 앱](https://msit.powerbi.com/groups/me/geta
 ## <a name="how-to-connect"></a>연결 방법
 1. 탐색 창 아래쪽에서 **데이터 가져오기**를 선택합니다.
    
-   ![](media/service-connect-to-office365mon/pbi_getdata.png)
+   ![탐색 창의 데이터 가져오기 단추를 보여 주는 스크린샷.](media/service-connect-to-office365mon/pbi_getdata.png)
 2. **서비스** 상자에서 **가져오기**를 선택합니다.
    
-   ![](media/service-connect-to-office365mon/pbi_getservices.png) 
+   ![가져오기 단추를 보여 주는 서비스 대화 상자의 스크린샷.](media/service-connect-to-office365mon/pbi_getservices.png) 
 3. **Office365Mon** \> **가져오기**를 선택합니다.
    
-   ![](media/service-connect-to-office365mon/o365mon.png)
+   ![가져오기 링크를 보여 주는 Office365Mon 대화 상자의 스크린샷.](media/service-connect-to-office365mon/o365mon.png)
 4. 인증 방법에서 **oAuth2** \> **로그인**을 선택합니다.
    
    메시지가 표시되면 Office365Mon 관리자 자격 증명을 입력하고 인증 프로세스를 따릅니다.
    
-   ![](media/service-connect-to-office365mon/creds.png)
+   ![인증 방법 필드의 oAuth2를 보여 주는 Office365Mon에 연결 대화 상자의 스크린샷.](media/service-connect-to-office365mon/creds.png)
    
-   ![](media/service-connect-to-office365mon/creds2.png)
+   ![자격 증명 입력을 요구하는 Office365Mon 로그인의 스크린샷.](media/service-connect-to-office365mon/creds2.png)
 5. Power BI가 데이터를 가져오면 탐색 창에 새 대시보드, 보고서 및 데이터 세트가 표시됩니다. 새 항목은 노란색 별표 \*가 표시됩니다. Office365Mon 항목을 선택하세요.
    
-   ![](media/service-connect-to-office365mon/dashboard4.png)
+   ![대시보드, 보고서 및 데이터 세트를 보여 주는 Power BI 탐색 창 스크린샷.](media/service-connect-to-office365mon/dashboard4.png)
 
 **다음 단계**
 

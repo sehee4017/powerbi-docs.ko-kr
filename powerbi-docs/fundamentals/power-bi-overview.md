@@ -8,12 +8,12 @@ ms.topic: overview
 ms.date: 09/04/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 9a7e7319bf8f5ccf517596d708dea4c1f4a41590
-ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
+ms.openlocfilehash: 6a21288a8f2946bd1e1a874d0810dd9241b1ffe2
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "83564452"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216769"
 ---
 # <a name="what-is-power-bi"></a>Power BI란?
 **Power BI**는 관련 없는 데이터 소스를 시각적으로 몰입도가 뛰어나고 일관된 대화형 정보로 변환하는 소프트웨어 서비스, 앱 및 커넥터의 컬렉션입니다. 데이터는 Excel 스프레드시트이거나 클라우드 기반 및 온-프레미스 하이브리드 데이터 웨어하우스의 컬렉션일 수 있습니다. Power BI를 사용하면 쉽게 데이터 원본에 연결하고, 중요한 항목을 시각화 및 검색하고, 원하는 모든 사람과 공유할 수 있습니다.
@@ -24,7 +24,7 @@ Power BI는 다음으로 구성됩니다.
 - **Power BI 서비스**라는 온라인 SaaS(*Software as a Service*) 서비스. 
 - Windows, iOS 및 Android 디바이스용 Power BI **모바일 앱**.
 
-![Power BI Desktop, 서비스, 모바일](media/power-bi-overview/power-bi-overview-blocks.png)
+![통합을 보여 주는 Power BI Desktop, 서비스 및 Mobile의 다이어그램.](media/power-bi-overview/power-bi-overview-blocks.png)
 
 이 세 가지 요소(&mdash;Power BI Desktop, 서비스 및 모바일 앱&mdash;)는 직원들이 자신 또는 자신의 역할에 가장 효과적으로 비즈니스 인사이트를 생성, 공유, 사용하도록 설계되었습니다.
 
@@ -63,7 +63,7 @@ Power BI의 일반적인 작업 흐름은 먼저 데이터 원본에 연결하�
 
 Power BI Report Server에서 제공하는 즉시 사용할 도구와 서비스의 범위에서 Power BI, 모바일 및 페이지를 매긴 온-프레미스 보고서를 만들고, 배포하고, 관리할 수 있습니다.
 
-![온-프레미스에 대한 다이어그램](media/power-bi-overview/power-bi-report-server2.png)
+![통합을 보여 주는 Power BI Desktop, 서비스 및 Mobile의 다이어그램.](media/power-bi-overview/power-bi-report-server2.png)
 
 Power BI Report Server는 방화벽 뒤에 배포한 다음, 웹 브라우저, 모바일 디바이스 또는 메일로 보는지에 관계없이 다양한 방법으로 적합한 사용자에게 보고서를 배달하는 솔루션입니다. 그리고 Power BI Report Server는 클라우드의 Power BI와 호환되므로 준비가 되면 클라우드로 이동할 수 있습니다. 
 

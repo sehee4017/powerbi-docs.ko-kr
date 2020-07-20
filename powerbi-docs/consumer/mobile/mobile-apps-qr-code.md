@@ -8,19 +8,19 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: ce5c57173cb5676a78bb3b77b1baaf2409062cc1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a551df2fb8ec668a9d8d29bdb8cdb37f9bb1652c
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220428"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264855"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>모바일 디바이스에서 Power BI QR 코드 스캔
 적용 대상:
 
 | ![iPhone](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![iPad](./media/mobile-apps-qr-code/ios-logo-40-px.png) | ![Android 휴대폰](././media/mobile-apps-qr-code/android-logo-40-px.png) | ![Android 태블릿](././media/mobile-apps-qr-code/android-logo-40-px.png) |
 |:--- |:--- |:--- |:--- |
-|iPhones |iPad |Android 휴대폰 |Android 태블릿 |
+|iPhone |iPad |Android 휴대폰 |Android 태블릿 |
 
 Power BI의 QR 코드는 실제 세계의 모든 항목을 관련된 BI 정보에 연결할 수 있습니다. 탐색하거나 검색할 필요가 없습니다.
 
@@ -37,16 +37,16 @@ Power BI 앱에서 스캐너 또는 휴대폰에 설치된 다른 스캐너를 �
 
 1. 탐색 모음에서 **기타 옵션**(...)을 탭한 다음, **스캐너**를 탭합니다.
 
-    ![](media/mobile-apps-qr-code/power-bi-scanner.png)
+    ![스캐너 선택 항목을 보여 주는 탐색 창에 있는 추가 옵션의 스크린샷.](media/mobile-apps-qr-code/power-bi-scanner.png)
 
 2. 카메라를 사용하지 않도록 설정한 경우 Power BI 앱이 카메라를 사용할 수 있도록 승인해야 합니다. 한 번만 승인하면 됩니다. 
  
 3. Power BI QR 코드를 스캐너로 가리킵니다. 
    
-    ![](media/mobile-apps-qr-code/power-bi-align-qr-code.png)
+    ![Power BI QR 코드를 가리키는 스캐너를 보여 주는 뉴스 인쇄의 스크린샷.](media/mobile-apps-qr-code/power-bi-align-qr-code.png)
 4. 확대된 현실의 배경을 마우스로 가리키면 타일 또는 보고서가 나타납니다.
    
-    ![](media/mobile-apps-qr-code/power-bi-ios-qr-ar-scanner.png)
+    ![뉴스 인쇄를 가리키는 보고서를 보여 주는 스크린샷.](media/mobile-apps-qr-code/power-bi-ios-qr-ar-scanner.png)
 
 5. 보고서 또는 타일을 눌러 포커스 모드로 열거나 스캐너로 돌아갑니다.
 
@@ -58,16 +58,16 @@ Power BI 앱에서 스캐너 또는 휴대폰에 설치된 다른 스캐너를 �
 
 1. 탐색 모음에서 **기타 옵션**(...)을 탭한 다음, **스캐너**를 탭합니다.
 
-    ![](media/mobile-apps-qr-code/power-bi-scanner.png)
+    ![스캐너 선택 항목을 보여 주는 탐색 창에 있는 추가 옵션의 스크린샷.](media/mobile-apps-qr-code/power-bi-scanner.png)
 
 2. 카메라를 사용하지 않도록 설정한 경우 Power BI 앱이 카메라를 사용할 수 있도록 승인해야 합니다. 한 번만 승인하면 됩니다. 
 
 3. Power BI QR 코드를 스캐너로 가리킵니다. 
    
-    ![](media/mobile-apps-qr-code/pbi_iph_qrscan.png)
+    ![Power BI QR 코드를 가리키는 스캐너를 보여 주는 QR 스캐너의 스크린샷.](media/mobile-apps-qr-code/pbi_iph_qrscan.png)
 4. Power BI에서 타일 또는 보고서가 자동으로 열립니다.
    
-    ![](media/mobile-apps-qr-code/power-bi-android-tile.png)
+    ![월 및 판매 단계별 세로 막대형 차트를 보여 주는 기회 수 보고서의 스크린샷.](media/mobile-apps-qr-code/power-bi-android-tile.png)
 
 ### <a name="scan-a-qr-code-from-an-external-scanner-on-your-android-device"></a>Android 디바이스의 외부 스캐너에서 QR 코드 스캔
 1. Android 디바이스에 설치된 스캐너에서 스캐너를 관련 Power BI QR 코드로 가리키면 타일 또는 보고서에 바로 액세스할 수 있습니다. 
@@ -78,4 +78,4 @@ Power BI 앱에서 스캐너 또는 휴대폰에 설치된 다른 스캐너를 �
 * [Power BI 서비스에서 타일에 대한 QR 코드 만들기](../../create-reports/service-create-qr-code-for-tile.md)
 * [Power BI 서비스에서 보고서에 대한 QR 코드 만들기](../../create-reports/service-create-qr-code-for-report.md)
 * [혼합 현실용 Power BI 앱을 사용하여 QR 코드를 스캔](mobile-mixed-reality-app.md)할 수도 있습니다.
-* 질문이 있으신가요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

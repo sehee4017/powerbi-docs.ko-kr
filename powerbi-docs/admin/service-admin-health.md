@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 610fe7ea2188d40d42ab91a355df68bc07bb0d84
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3b3faab2a01a00e09560d39e850f40d0672a5863
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228516"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161172"
 ---
 # <a name="track-power-bi-service-health-in-microsoft-365"></a>Microsoft 365에서 Power BI 서비스 상태 추적
 
@@ -38,7 +38,7 @@ Microsoft 365 관리 센터는 Power BI 관리자에게 중요한 도구를 제�
 
 1. 자세한 정보를 보려면 항목에 대한 **세부 정보 표시**를 선택합니다. 아래 스크린샷에는 최근 상태 업데이트를 포함한 추가 세부 정보가 표시되어 있습니다.
 
-    ![권고 세부 정보의 스크린샷](media/service-admin-health/advisory-details.png)
+    ![추가 정보를 보여 주는 공지 세부 정보의 스크린샷.](media/service-admin-health/advisory-details.png)
 
     아래로 스크롤하여 추가 정보를 확인한 다음, 완료되면 창을 닫습니다.
 

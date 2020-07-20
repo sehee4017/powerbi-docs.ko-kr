@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: aea24e96acadbf9fee9e6dbf3aa395e09ef8e541
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 6b130016bf4514b817edbf8c91cfb24d2063e6f1
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279644"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215451"
 ---
 # <a name="dax-avoid-converting-blanks-to-values"></a>DAX: 공백을 값으로 변환하지 마세요.
 
@@ -47,7 +47,7 @@ DIVIDE([Profit], [Sales], 0)
 
 테이블 시각적 개체에 고객으로 그룹화된 **Profit Margin** 측정값을 추가하면 어떻게 되는지 살펴보겠습니다.
 
-![테이블 시각적 개체에 Customer(고객), Sales(판매량), Profit Margin(이익)이라는 3개의 열이 있습니다. 테이블에는 약 10개의 데이터 행이 있으며, 세로 스크롤 막대가 있는 것으로 보아 표시된 것보다 더 많은 행이 있다는 것을 알 수 있습니다. Sales(판매량) 열에는 아무런 값도 표시되어 있지 않습니다. Profit Margin(이익) 열에는 0만 표시되어 있습니다.](media/dax-avoid-converting-blank/table-visual-poor.png)
+![고객당 하나의 행이 있는 데이터의 테이블 시각적 개체를 보여 주는 Power BI Desktop의 스크린샷. 판매 값은 비어 있고 이익률 값은 0%입니다. ](media/dax-avoid-converting-blank/table-visual-poor.png)
 
 테이블 시각적 개체에 매우 많은 개수의 행이 표시되어 있습니다. (실제로 이 모델에는 18,484명의 고객이 포함되어 있으므로 테이블에 해당 데이터가 모두 표시될 것입니다.) 표시된 고객의 경우 판매량이 없는 것을 알 수 있습니다. 그러나 **Profit Margin**(이익)이 어떤 경우에도 항상 값을 반환하므로 모두 표시되고 있습니다.
 
@@ -63,7 +63,7 @@ DIVIDE([Profit], [Sales])
 
 테이블 시각적 개체는 이제 현재 필터 컨텍스트 내에서 판매량이 있는 고객만 표시합니다. 향상된 측정값은 보고서 사용자에게 보다 효율적이고 실용적인 경험을 제공합니다.
 
-![아까와 동일한 테이블 시각적 개체가 4개와 데이터 행만 표시하는 것을 볼 수 있습니다. 각 행에는 판매량 값이 있고 Profit Margin(이익) 값이 0이 아닌 고객이 표시되어 있습니다.](media/dax-avoid-converting-blank/table-visual-good.png)
+![필터링된 콘텐츠가 포함된 데이터의 테이블 시각적 개체를 보여 주는 Power BI Desktop의 스크린샷.](media/dax-avoid-converting-blank/table-visual-good.png)
 
 > [!TIP]
 > 필요한 경우 [데이터가 없는 항목 표시](../create-reports/desktop-show-items-no-data.md) 옵션을 사용하도록 설정하여 시각적 개체가 필터 컨텍스트 내에서 모든 그룹화(값을 반환하는 것과 비어 있음을 반환하는 것 모두)를 표시하도록 구성할 수 있습니다.
@@ -80,4 +80,3 @@ DIVIDE([Profit], [Sales])
 
 - [DAX(Data Analysis Expressions) 참조](/dax/)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
-

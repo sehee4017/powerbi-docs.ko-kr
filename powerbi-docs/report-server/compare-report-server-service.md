@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 03/04/2020
-ms.openlocfilehash: a6cb8575ef5265264cf0c15c4cfcfc4207726a07
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.date: 07/08/2020
+ms.openlocfilehash: 34f4265444d030902474c740dda91f8431d36625
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565583"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216529"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Report Server 및 Power BI 서비스 비교
 
@@ -50,7 +50,8 @@ Power BI Report Server 및 Power BI 서비스에는 많은 유사성과 일부 �
 | 행 수준 보안(RLS) | 예 | 예 | DirectQuery(데이터 원본) 및 가져오기 모드에서 사용 가능 <br><br>[Power BI 서비스](../admin/service-admin-rls.md)의 행 수준 보안 <br><br>[Power BI Report Server](row-level-security-report-server.md)의 행 수준 보안 |
 | 전체 화면 모드 | 아니요 | 예 | Power BI 서비스의 [전체 화면 모드](../consumer/end-user-focus.md) |
 | 고급 Microsoft 365 협업 | 아니요 | 예 | Microsoft 365를 사용하여 [작업 영역에서 협업](../collaborate-share/service-collaborate-power-bi-workspace.md) |
-| R 시각적 개체 | 아니요 | 예 | Power BI Desktop에서[R 시각적 개체를 만들고](../create-reports/desktop-r-visuals.md) Power BI 서비스에 게시합니다. R 시각적 개체를 포함하는 Power BI 보고서는 Power BI Report Server에 저장할 수 없습니다.  |
+| R 스크립트 및 시각적 개체 | 아니요 | 예 | Power BI Desktop에서 [R 시각적 개체를 만들고](../create-reports/desktop-r-visuals.md), R 스크립트를 실행하며, Power BI 서비스에 게시합니다. R 스크립트 또는 시각적 개체를 포함하는 Power BI 보고서는 Power BI Report Server에 저장할 수 없습니다.  |
+| Python 스크립트 및 시각적 개체 | 아니요 | 예 | Power BI Desktop에서 [Python 스크립트 및 시각적 개체를 만들고](../connect-data/desktop-python-scripts.md) Power BI 서비스에 게시합니다. Python 스크립트 또는 시각적 개체를 포함하는 Power BI 보고서는 Power BI Report Server에 저장할 수 없습니다. |
 | 미리 보기 기능 | 아니요 | 예 | [Power BI 서비스 미리 보기 기능 옵트인](../consumer/end-user-preview-features.md) |
 | Power BI 시각적 개체 | 예 | 예 | [Power BI 시각적 개체](../developer/visuals/power-bi-custom-visuals.md) |
 | 복합 모델 | 아니요 | 예 |

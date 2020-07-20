@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: bcd5713b2ee7f053448718bc5dd93c24b0d53de6
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: ca6ce7bde592c1153b0a553a906391c3a2c7d5be
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813879"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216634"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Power BI 서비스의 디자이너를 위한 기본 개념
 
@@ -24,7 +24,7 @@ ms.locfileid: "83813879"
 
 이 문서를 위해, 자체 보고서가 아직 없는 경우 [Power BI 샘플](../create-reports/sample-datasets.md) 중 하나를 설치해 보세요.
 
-![브라우저의 Power BI 서비스 홈 화면](media/service-basic-concepts/power-bi-home-screen.png)
+![아래 나열된 번호가 매겨진 영역이 포함된 브라우저에서 Power BI 서비스 홈 화면의 스크린샷을 보여 주는 다이어그램.](media/service-basic-concepts/power-bi-home-screen.png)
 
 브라우저에서 Power BI 서비스를 열면 홈 화면에서 시작합니다. 표시될 수 있는 요소는 다음과 같습니다.
 
@@ -57,7 +57,8 @@ Power BI의 다섯 가지 주요 구성 요소는 *대시보드*, *보고서*, *
 
 작업 영역에는 다음과 같은 두 종류가 있습니다. ‘내 작업 영역’ 및 ‘작업 영역’. 
 
-- *내 작업 영역*은 Power BI 고객이 콘텐츠를 작업하는 개인적인 작업 영역입니다. 내 작업 영역에는 본인만 액세스할 수 있습니다. 내 작업 영역에서 대시보드 및 보고서를 공유할 수 있습니다. 대시보드 및 보고서를 협업하거나 앱을 만들려는 경우 작업 영역에서 작업해야 합니다.      
+- *내 작업 영역*은 Power BI 고객이 콘텐츠를 작업하는 개인적인 작업 영역입니다. 내 작업 영역에는 본인만 액세스할 수 있습니다. 내 작업 영역에서 대시보드 및 보고서를 공유할 수 있습니다. 대시보드 및 보고서를 협업하거나 앱을 만들려는 경우 작업 영역에서 작업해야 합니다.
+
 -  ‘작업 영역’은 동료들과 콘텐츠를 공유하고 협업하는 데 사용됩니다. 작업 영역에 동료를 추가하고 대시보드, 보고서, 통합 문서 및 데이터 세트를 협업할 수 있습니다. 한 가지 예외를 제외하고, 모든 작업 영역 구성원에게 Power BI Pro 라이선스가 있어야 합니다. [새 작업 영역](../collaborate-share/service-create-the-new-workspaces.md)에 대해 자세히 알아보세요. 
 
     작업 영역은 조직을 위한 ‘앱’을 만들어 게시하고 관리하는 공간이기도 합니다. 작업 영역은 Power BI 앱을 구성할 콘텐츠를 위한 준비 영역이자 컨테이너라고 생각하면 됩니다. 그렇다면 *앱*이란 무엇일까요? 앱은 조직의 Power BI 소비자에게 주요 메트릭을 제공하도록 빌드된 대시보드 및 보고서의 컬렉션입니다. 앱은 대화형이지만 소비자가 편집할 수는 없습니다. 앱에 대한 액세스 권한이 있는 동료인 앱 소비자는 Pro 라이선스가 반드시 필요하지는 않습니다.  
@@ -80,7 +81,7 @@ Power BI의 다섯 가지 주요 구성 요소는 *대시보드*, *보고서*, *
 
 아래 예제에서는 “영업 및 마케팅” 작업 영역을 선택하고 **데이터 세트** 탭을 클릭했습니다.
 
-![데이터 세트가 선택됨](media/service-basic-concepts/power-bi-datasets.png)
+![데이터 세트가 선택된 샘플 작업 영역을 보여 주는 Power BI의 스크린샷.](media/service-basic-concepts/power-bi-datasets.png)
 
 **하나의** 데이터 세트...
 
@@ -88,7 +89,7 @@ Power BI의 다섯 가지 주요 구성 요소는 *대시보드*, *보고서*, *
 * 여러 보고서에서 사용할 수 있습니다.
 * 해당 데이터 세트의 시각화가 여러 대시보드에 표시될 수 있습니다.
 
-  ![데이터 세트 다이어그램](media/service-basic-concepts/drawing2.png)
+  ![보고서 및 대시보드에 대한 데이터 세트 관계를 보여 주는 다이어그램.](media/service-basic-concepts/drawing2.png)
 
 [데이터 세트에 연결하거나 데이터 세트를 가져오려면](../connect-data/service-get-data.md) 탐색 창의 맨 아래에 있는 **데이터 가져오기**를 선택합니다. 지침에 따라 특정 원본에 연결하거나 가져오고 활성 작업 영역에 데이터 세트를 추가합니다. 새 데이터 세트는 노란색 별표로 표시됩니다. Power BI에서 작업을 수행해도 기본 데이터 세트는 변경되지 않습니다.
 
@@ -108,7 +109,7 @@ Power BI의 다섯 가지 주요 구성 요소는 *대시보드*, *보고서*, *
 ## <a name="reports"></a>보고서
 Power BI 보고서는 꺽은선형 차트, 맵 및 트리맵과 같은 하나 이상의 시각화가 있는 페이지입니다. 시각화는 **_시각적 개체_** 라고도 합니다. 보고서의 모든 시각화는 단일 데이터 세트에서 제공합니다. Power BI 내에서 처음부터 보고서를 만들거나, 동료와 공유하는 대시보드를 사용하여 가져올 수도 있고, Power BI, Excel, Power BI Desktop, 데이터베이스 및 SaaS 애플리케이션에서 데이터 세트에 연결할 때 보고서를 만들 수 있습니다.  예를 들어 파워 뷰 시트가 포함된 Excel 통합 문서에 연결하면 Power BI에서 해당 시트를 기반으로 보고서를 만듭니다. 또한 SaaS 애플리케이션에 연결하면 Power BI에서 미리 작성된 보고서를 가져옵니다.
 
-보고서를 보고 상호 작용하는 다음 두 가지 모드가 있습니다. *읽기용 보기* 및 *편집용 보기*. 보고서를 열면 읽기용 보기로 열립니다. 편집 권한이 있는 경우 왼쪽 위 모서리에 **보고서 편집**이 표시되고 보고서를 편집용 보기에서 볼 수 있습니다.  보고서가 작업 영역에 있는 경우 *관리자*, *구성원* 또는 *참가자* 역할을 사용하는 모든 사용자가 이를 편집할 수 있습니다. 이러한 사용자는 해당 보고서에 대한 편집용 보기의 탐색, 디자인, 빌드 및 공유 기능 모두에 액세스할 수 있습니다. 보고서를 공유하는 사람들은 읽기용 보기에서 보고서를 탐색하고 상호 작용할 수 있습니다.   
+보고서를 보고 상호 작용하는 다음 두 가지 모드가 있습니다. *읽기용 보기* 및 *편집용 보기*. 보고서를 열면 읽기용 보기로 열립니다. 편집 권한이 있는 경우 왼쪽 위 모서리에 **보고서 편집**이 표시되고 보고서를 편집용 보기에서 볼 수 있습니다.  보고서가 작업 영역에 있는 경우 *관리자*, *구성원* 또는 *참가자* 역할을 사용하는 모든 사용자가 이를 편집할 수 있습니다. 이러한 사용자는 해당 보고서에 대한 편집용 보기의 탐색, 디자인, 빌드 및 공유 기능 모두에 액세스할 수 있습니다. 보고서를 공유하는 사람들은 읽기용 보기에서 보고서를 탐색하고 상호 작용할 수 있습니다.
 
 작업 영역을 열면 **보고서** 탭 아래에 연결된 보고서가 나열됩니다. 나열된 각 보고서는 단 하나의 기본 데이터 세트를 기반으로 하는 하나 이상의 시각화 페이지를 나타냅니다. 보고서를 열려면 보고서를 선택합니다.
 
@@ -118,7 +119,7 @@ Power BI 보고서는 꺽은선형 차트, 맵 및 트리맵과 같은 하나 �
 
 아래 예제에서는 “영업 및 마케팅” 작업 영역을 선택하고 **보고서** 탭을 클릭했습니다.
 
-![보고서 선택됨](media/service-basic-concepts/power-bi-reports.png)
+![보고서가 선택된 샘플 작업 영역을 보여 주는 Power BI의 스크린샷.](media/service-basic-concepts/power-bi-reports.png)
 
 **하나의** 보고서는...
 
@@ -126,7 +127,7 @@ Power BI 보고서는 꺽은선형 차트, 맵 및 트리맵과 같은 하나 �
 * 해당 작업 영역 내의 여러 대시보드에 연결할 수 있습니다. 해당 보고서에서 고정된 타일이 여러 대시보드에 나타날 수 있습니다.
 * 하나의 데이터 세트의 데이터를 사용하여 만들 수 있습니다. Power BI Desktop에서는 한 보고서의 단일 데이터 세트로 둘 이상의 데이터 원본을 결합하고 해당 보고서를 Power BI로 가져올 수 있습니다.
 
-  ![보고서 다이어그램](media/service-basic-concepts/drawing3new.png)
+  ![데이터 세트 및 대시보드에 대한 보고서 관계를 보여 주는 다이어그램.](media/service-basic-concepts/drawing3new.png)
 
 ### <a name="dig-deeper"></a>심층 분석
 - [데이터 세트를 가져와 Power BI 서비스에서 보고서 만들기](../create-reports/service-report-create-new.md)
@@ -154,7 +155,7 @@ Power BI 보고서는 꺽은선형 차트, 맵 및 트리맵과 같은 하나 �
 * 여러 보고서의 시각화를 표시할 수 있습니다.
 * 다른 도구(예: Excel)에서 고정된 시각화를 표시할 수 있습니다.
 
-  ![대시보드 선택됨](media/service-basic-concepts/drawing1.png)
+  ![데이터 세트 및 보고서에 대한 대시보드 관계를 보여 주는 다이어그램.](media/service-basic-concepts/drawing1.png)
 
 ### <a name="dig-deeper"></a>심층 분석
 * [빈 대시보드를 생성한 다음 데이터를 가져옵니다](../create-reports/service-dashboard-create.md)
@@ -177,15 +178,15 @@ Power BI에서는 통합 문서를 편집할 수 없습니다. 하지만 일부 
 ## <a name="a-dashboard-in-my-workspace"></a>내 작업 영역의 대시보드
 작업 영역 및 구성 요소를 살펴보았습니다. Power BI 서비스에서 대시보드 환경을 구성하는 부분을 종합하여 검토해 보겠습니다.
 
-![브라우저의 Power BI 서비스](media/service-basic-concepts/completenewest.png)
+![브라우저에서 아래 나열된 번호가 매겨진 기능을 보여 주는 Power BI 서비스의 스크린샷.](media/service-basic-concepts/completenewest.png)
 
 ### <a name="1-navigation-pane"></a>1. **탐색 창**
 탐색 창을 사용하여 Power BI 구성 요소인 대시보드, 보고서, 통합 문서 및 데이터 세트와 작업 영역을 찾아보고 드나들 수 있습니다.  
 
-  ![탐색 창](media/service-basic-concepts/power-bi-navigation.png)
+  ![탐색 창을 보여 주는 Power BI 서비스의 스크린샷.](media/service-basic-concepts/power-bi-navigation.png)
 
 * **데이터 가져오기**를 선택하여 [Power BI에 데이터 세트, 보고서 및 대시보드를 추가](../connect-data/service-get-data.md)합니다.
-* 이 아이콘을 사용하여 탐색 창 확장 및 축소 ![탐색 창 아이콘](media/service-basic-concepts/expand-icon.png).
+* 이 아이콘을 사용하여 탐색 창 확장 및 축소 ![탐색 창 아이콘을 보여 주는 Power BI 서비스의 스크린샷.](media/service-basic-concepts/expand-icon.png).
 * **즐겨찾기**를 선택하여 즐겨 찾는 콘텐츠를 열거나 관리합니다.
 * **최근**을 선택하여 가장 최근에 방문한 콘텐츠를 보고 엽니다.
 * **앱**을 선택하여 앱을 보거나, 열거나, 삭제합니다.
@@ -203,7 +204,7 @@ Power BI에서는 통합 문서를 편집할 수 없습니다. 하지만 일부 
 
 대시보드는 [타일](../create-reports/service-dashboard-tiles.md)로 구성됩니다.  타일은 보고서 편집용 보기, 질문 및 답변, 기타 대시보드에서 생성되고, Excel, SSRS 등에서 고정될 수 있습니다. [위젯](../create-reports/service-dashboard-add-widget.md)이라는 특수한 형식의 타일은 대시보드에 직접 추가됩니다. 대시보드에 나타나는 타일은 보고서 작성자/소유자가 특별히 대시보드에 배치한 것입니다.  대시보드에 타일을 추가하는 동작을 *고정*이라고 합니다.
 
-![Power BI 대시보드 캔버스](media/service-basic-concepts/canvas.png)
+![대시보드 캔버스를 보여 주는 Power BI 서비스의 스크린샷.](media/service-basic-concepts/canvas.png)
 
 자세한 내용은 [대시보드](#dashboards)(위)를 참조하세요.
 
@@ -212,36 +213,36 @@ Power BI에서는 통합 문서를 편집할 수 없습니다. 하지만 일부 
 
 질문 및 답변은 대시보드에 연결된 데이터 세트에서 답변을 찾습니다.  연결된 데이터 세트는 해당 대시보드에 고정된 타일이 하나 이상 있는 데이터 세트입니다.
 
-![질문 및 답변 질문하기 상자](media/service-basic-concepts/power-bi-qna.png)
+![질문 및 답변 질문 상자를 보여 주는 Power BI 서비스의 스크린샷.](media/service-basic-concepts/power-bi-qna.png)
 
 질문 입력을 시작하는 즉시 질문 및 답변 페이지로 이동합니다. 입력할 때 질문 및 답변을 사용하면 적절하게 질문을 하고 고쳐 말하기, 자동 채우기, 제안 등으로 최상의 답변을 찾을 수 있습니다. 원하는 시각화(답변)가 있으면 대시보드에 고정합니다. 자세한 내용은 [Power BI의 질문 및 답변](../consumer/end-user-q-and-a.md)을 참조하세요.
 
 ### <a name="4-icons-in-the-black-header-bar"></a>4. **검정 머리글 표시줄 아이콘**
 오른쪽 위에 있는 아이콘은 설정, 알림, 다운로드, 도움말 보기, **새로운 디자인** 켜기 혹은 끄기 및 Power BI 팀에 피드백 제공을 위한 리소스입니다.  
 
-![아이콘 단추](media/service-basic-concepts/power-bi-icons.png)
+![아이콘 단추를 보여 주는 Power BI 서비스의 스크린샷.](media/service-basic-concepts/power-bi-icons.png)
 
 ### <a name="5-dashboard-title-navigation-path-or-breadcrumbs"></a>5. **대시보드 제목**(탐색 경로. 즉, 이동 경로)
 활성 상태인 작업 영역과 대시보드를 파악하는 것이 항상 쉬운 일은 아니므로 Power BI에서는 자동으로 탐색 경로를 생성합니다.  이 예에서는 작업 영역(내 작업 영역) 및 대시보드 제목(소매점 분석 샘플)이 보입니다.  보고서를 열면 탐색 경로의 끝에 보고서의 이름이 추가될 것입니다.  경로의 각 섹션은 활성 하이퍼링크입니다.  
 
 대시보드 제목 다음에 나오는 "C" 아이콘을 주목하세요. 이 대시보드에는 "기밀"이라는 [데이터 분류 태그](../create-reports/service-data-classification.md)가 있습니다. 이 태그는 데이터의 민감도 및 보안 수준을 식별합니다. 관리자가 데이터 분류를 설정한 경우 모든 대시보드에는 기본 태그 집합이 있습니다. 대시보드 소유자는 대시보드의 적절한 보안 수준에 맞게 태그를 변경해야 합니다.
 
-![데이터 분류 아이콘](media/service-basic-concepts/power-bi-title.png)
+![데이터 분류 아이콘을 보여 주는 Power BI 서비스의 스크린샷.](media/service-basic-concepts/power-bi-title.png)
 
 ### <a name="6-microsoft-365-app-launcher"></a>6. **Microsoft 365 앱 시작 관리자**
 앱 시작 관리자에서 모든 Microsoft 365 앱을 한 번의 클릭으로 쉽게 사용할 수 있습니다. 여기에서 이메일, 문서, 일정 등을 빠르게 시작할 수 있습니다.
 
-![Office 앱 시작 관리자](media/service-basic-concepts/power-bi-waffle.png)
+![Office 앱 시작 관리자를 보여 주는 Power BI 서비스의 스크린샷.](media/service-basic-concepts/power-bi-waffle.png)
 
 ### <a name="7-power-bi-home"></a>7. **Power BI 홈**
 **Power BI**를 선택하면 Power BI 홈으로 돌아갑니다.
 
-   ![서비스의 “Power BI”](media/service-basic-concepts/version-new.png)
+   ![Power BI 홈으로 돌아오는 아이콘을 보여 주는 Power BI 서비스의 스크린샷.](media/service-basic-concepts/version-new.png)
 
 ### <a name="8-labeled-icons-in-the-gray-menu-bar"></a>8. **회색 메뉴 모음에서 레이블이 지정된 아이콘**
 이 화면 영역에는 콘텐츠와 상호 작용하는 데 사용되는 추가 옵션이 제공됩니다(이 경우 대시보드와 상호 작용).  보이는 레이블이 지정된 아이콘 외에도 **추가 옵션(...)** 을 선택하면 대시보드를 복제, 인쇄 및 새로 고침하는 옵션 등이 표시됩니다.
 
-   ![레이블이 지정된 아이콘 단추](media/service-basic-concepts/power-bi-labeled-icons.png)
+   ![레이블이 지정된 아이콘 단추를 보여 주는 Power BI 서비스의 스크린샷.](media/service-basic-concepts/power-bi-labeled-icons.png)
 
 ## <a name="next-steps"></a>다음 단계
 - [Power BI란?](power-bi-overview.md)  

@@ -7,15 +7,15 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 06/25/2020
+ms.date: 07/09/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 62acc84c7459cadd758a036f1db04685b5e9c2b5
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 1ff7332bc71935cd6b679fa546dc2f1d37551436
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782550"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215754"
 ---
 # <a name="navigation-for-power-bi-consumers-global-search"></a>Power BI 소비자를 위한 탐색: 전역 검색
 
@@ -29,7 +29,7 @@ Power BI 서비스를 처음 사용하는 경우 몇 개의 콘텐츠(대시보�
 ## <a name="searching-for-content"></a>콘텐츠 검색
  검색은 Power BI 서비스의 거의 모든 부분에서 사용할 수 있습니다. 검색 상자 또는 검색 아이콘만 찾으면 됩니다. ![돋보기 아이콘](./media/end-user-search-sort/power-bi-search-icon.png).
 
- 검색 필드에 대시보드, 보고서, 통합 문서, 앱 또는 소유자의 이름을 전부 또는 일부 입력합니다. Power BI가 모든 콘텐츠를 검색합니다. 
+ 검색 필드에 대시보드, 보고서, 통합 문서, 작업 영역, 앱 또는 소유자의 이름을 전부 또는 일부 입력합니다. Power BI가 모든 콘텐츠를 검색합니다. 
 
  ![보고서 검색](./media/end-user-search-sort/power-bi-search-field.png) 
 

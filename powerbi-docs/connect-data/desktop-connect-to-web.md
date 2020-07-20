@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7a3444aca5f74dd54ba292548ac5fa1d848f5172
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 618e2acb415d72870fd599142775720955e8ba88
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223981"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214708"
 ---
 # <a name="connect-to-webpages-from-power-bi-desktop"></a>Power BI Desktop에서 웹 페이지에 연결
 
@@ -23,21 +23,21 @@ ms.locfileid: "85223981"
 
 Power BI Desktop의 **홈** 리본에서 **데이터 가져오기 > 웹**을 선택합니다.
 
-![](media/desktop-connect-to-web/connect-to-web_1.png)
+![웹 선택 항목을 보여 주는 Power BI Desktop의 스크린샷.](media/desktop-connect-to-web/connect-to-web_1.png)
 
 대화 상자가 나타나면 데이터를 가져오려는 웹 페이지의 URL을 묻는 메시지가 표시됩니다.
 
-![](media/desktop-connect-to-web/connect-to-web_2.png)
+![URL 필드를 보여 주는 웹 대화 상자의 스크린샷.](media/desktop-connect-to-web/connect-to-web_2.png)
 
 URL을 입력했으면(또는 붙여넣기) **확인**을 선택합니다. Power BI Desktop이 해당 페이지에 연결된 후 페이지의 사용 가능한 데이터를 **탐색기** 창에 표시됩니다. 사용 가능한 데이터 요소(예: 전체 페이지의 테이블) 중 하나를 선택하면 **탐색기** 창 오른쪽에 데이터 미리 보기가 표시됩니다.
 
-![](media/desktop-connect-to-web/connect-to-web_3.png)
+![선택한 테이블의 데이터 미리 보기를 보여 주는 탐색기 대화 상자의 스크린샷.](media/desktop-connect-to-web/connect-to-web_3.png)
 
 **편집** 단추를 선택하면 **쿼리 편집기**가 실행되며 여기에서 데이터를 Power BI Desktop으로 가져오기 전에 웹 페이지 데이터의 모양을 지정하고 변환할 수 있습니다. 또는 **로드** 단추를 선택하고 왼쪽 창에서 선택한 모든 데이터 요소를 가져올 수 있습니다.
 
 **로드**를 선택하면 Power BI Desktop에서 선택한 항목을 가져오고 Power BI Desktop의 보고서 보기 오른쪽에 있는 **필드** 창에서 사용할 수 있습니다.
 
-![](media/desktop-connect-to-web/connect-to-web_4.png)
+![선택한 테이블 목록을 보여 주는 필드 창의 스크린샷.](media/desktop-connect-to-web/connect-to-web_4.png)
 
 웹 페이지에 연결하고 데이터를 Power BI Desktop으로 가져오는 데 필요한 작업을 마쳤습니다.
 

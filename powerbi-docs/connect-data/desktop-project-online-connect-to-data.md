@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/01/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 726c265198c7489ac1de055d0fc00b1988109d11
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 807ba59066508d063dba2e2f921eff19cf018bc5
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223324"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214610"
 ---
 # <a name="connect-to-project-online-data-through-power-bi-desktop"></a>Power BI Desktop을 통해 Project Online 데이터에 연결
 Power BI Desktop을 통해 Project Online의 데이터에 연결할 수 있습니다.
@@ -37,7 +37,7 @@ Power BI Desktop을 통해 Project Online의 데이터에 연결할 수 있습�
 
 5. Power BI Desktop에서 회사 또는 학교 계정을 사용하여 인증하라는 메시지가 나타납니다. 조직 계정을 선택하고 자격 증명을 입력합니다.
    
-   ![](media/desktop-project-online-connect-to-data/image.png)
+   ![연결하기 위한 자격 증명 프롬프트를 보여 주는 Power BI Desktop의 스크린샷.](media/desktop-project-online-connect-to-data/image.png)
 
 OData 피드에 연결하는 데 사용하는 계정에는 프로젝트 웹앱 사이트에 대한 포트폴리오 뷰어 이상의 액세스 권한이 있어야 합니다. 
 

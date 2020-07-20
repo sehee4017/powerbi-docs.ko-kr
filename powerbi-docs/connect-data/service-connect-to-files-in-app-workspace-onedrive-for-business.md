@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 04/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: fdbb571a30f530ddeba37a7eaf490718b6c8116d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0016c5af8d8e9e154abf3c9e94dc6330a73d358d
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230361"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216258"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-workspace"></a>Power BI 작업 영역의 OneDrive에 저장된 파일에 연결
 [Power BI에서 작업 영역을 만든](../collaborate-share/service-create-distribute-apps.md) 후에 Power BI 작업 영역의 비즈니스용 OneDrive에 Excel, CSV, Power BI Desktop 파일을 저장할 수 있습니다. OneDrive에 저장한 파일을 계속 업데이트할 수 있습니다. 이러한 업데이트는 파일에 따라 Power BI 보고서 및 대시보드에 자동으로 반영됩니다. 
@@ -33,7 +33,7 @@ ms.locfileid: "85230361"
 ## <a name="1-upload-files-to-the-onedrive-for-business-for-your-workspace"></a>1 작업 영역의 비즈니스용 OneDrive에 파일 업로드
 1. Power BI 서비스에서 작업 영역 옆에 있는 화살표를 선택하고 작업 영역 이름 옆에 있는 줄임표( **...** )를 선택합니다. 
    
-   ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-ellipsis.png)
+   ![선택한 작업 영역 이름을 보여 주는 Power BI 작업 영역의 스크린샷.](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-ellipsis.png)
 2. **파일**을 선택하여 Microsoft 365에서 작업 영역의 비즈니스용 OneDrive를 엽니다.
    
    > [!NOTE]
@@ -42,7 +42,7 @@ ms.locfileid: "85230361"
    > 
 3. 여기서 작업 영역의 비즈니스용 OneDrive에 파일을 업로드할 수 있습니다. **업로드**를 선택하고, 자신의 파일로 이동합니다.
    
-   ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grpfilesonedrive.png)
+   ![파일 업로드를 위해 이동하는 방법을 보여 주는 비즈니스용 OneDrive의 스크린샷.](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grpfilesonedrive.png)
 
 ## <a name="2-import-excel-files-as-datasets-or-as-excel-online-workbooks"></a>2 Excel 파일을 데이터 세트 또는 Excel 온라인 통합 문서로 가져오기
 이제 작업 영역의 비즈니스용 OneDrive에 파일이 있으므로 원하는 작업을 선택할 수 있습니다. 다음을 할 수 있습니다. 
@@ -54,26 +54,26 @@ ms.locfileid: "85230361"
 1. Power BI에서 작업 영역으로 전환하여 작업 영역 이름이 왼쪽 위에 표시되도록 합니다. 
 2. 탐색 창 아래쪽에서 **데이터 가져오기**를 선택합니다. 
    
-   ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-get-data-button.png)
+   ![탐색 창의 데이터 가져오기 단추를 보여 주는 스크린샷.](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-get-data-button.png)
 3. **파일** 상자에서 **가져오기**를 선택합니다.
    
-   ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_getfiles.png)
+   ![가져오기 단추를 보여 주는 파일 대화 상자의 스크린샷.](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_getfiles.png)
 4. **OneDrive** - ‘작업 영역 이름’을 선택합니다.
    
-    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grp_one_drive_shrpt.png)
+    ![로컬 파일, OneDrive 및 SharePoint를 보여 주는 작업 영역을 선택하는 세 가지 타일의 스크린샷.](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_grp_one_drive_shrpt.png)
 5. 원하는 파일을 선택하고 **연결**을 선택합니다.
    
     이 시점에서 [Excel 통합 문서에서 데이터를 가져올지](service-get-data-from-files.md) 또는 [전체 Excel 통합 문서에 연결할지](service-excel-workbook-files.md) 여부를 결정합니다.
 6. **가져오기** 또는 **연결**을 선택합니다.
    
-    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_importexceldataorwholecrop.png)
+    ![Excel에서 가져오기 또는 Excel에 연결을 보여 주는 비즈니스용 OneDrive 대화 상자의 스크린샷.](media/service-connect-to-files-in-app-workspace-onedrive-for-business/pbi_importexceldataorwholecrop.png)
 7. **가져오기**를 선택하는 경우 **데이터 세트** 탭에 통합 문서가 나타납니다. 
    
-    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-import.png)
+    ![데이터 세트 탭을 보여 주는 Power BI에 있는 작업 영역의 스크린샷.](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-import.png)
    
     **연결**을 선택하는 경우 통합 문서는 **통합 문서** 탭에 있습니다.
    
-    ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-connect.png)
+    ![통합 문서 탭을 보여 주는 Power BI에 있는 작업 영역의 스크린샷.](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-connect.png)
 
 ## <a name="next-steps"></a>다음 단계
 * [Power BI에서 앱과 작업 영역 만들기](../collaborate-share/service-create-distribute-apps.md)

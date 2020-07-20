@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/23/2019
 ms.author: kfollis
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 6c6bbf8476087532fd3a049a0e4bde3191892325
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: d2d28d8ea3f7e2e7217124483f90ecc28d44314f
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83564033"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161700"
 ---
 # <a name="use-an-alternate-email-address"></a>대체 이메일 주소 사용
 
@@ -37,7 +37,7 @@ Microsoft 365에서 대체 주소를 지정하려면 다음 단계를 수행합�
 
     세부 정보를 편집할 수 없는 경우 이는 관리자가 사용자의 메일 주소를 관리하는 것을 의미합니다. 이메일 주소를 업데이트하려면 관리자에게 문의하세요.
 
-    ![연락처 세부 정보](media/service-admin-alternate-email-address-for-power-bi/contact-details.png)
+    ![대체 메일을 지정하는 방법을 보여 주는 연락처 세부 정보 대화 상자의 스크린샷.](media/service-admin-alternate-email-address-for-power-bi/contact-details.png)
 
 1. **대체 메일** 필드에 Microsoft 365에서 Power BI 업데이트에 사용할 메일 주소를 입력합니다.
 

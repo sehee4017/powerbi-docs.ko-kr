@@ -9,15 +9,15 @@ ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5b649b3694eab5a573f814efd707155154d54b18
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c34244669b538a5c3138536adbfd022eb00e646d
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236688"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263043"
 ---
 # <a name="get-data-from-power-bi-desktop-files"></a>Power BI Desktop 파일에서 데이터 가져오기
-![](media/service-desktop-files/pbid_file_icon.png)
+![Power BI Desktop 파일 아이콘](media/service-desktop-files/pbid_file_icon.png)
 
 **Power BI Desktop**은 비즈니스 인텔리전스 및 보고서를 쉽게 만듭니다. 다양한 데이터 원본에 연결하든, 데이터를 쿼리하고 변환하든, 데이터를 모델링하든, 강력하고 동적인 보고서를 작성하든 관계없이 **Power BI Desktop**은 비즈니스 인텔리전스 작업을 직관적이고 신속하게 만듭니다. **Power BI Desktop**에 익숙하지 않은 경우 [Power BI Desktop 시작](../fundamentals/desktop-getting-started.md)을 참조합니다.
 
@@ -38,13 +38,13 @@ ms.locfileid: "85236688"
 
 1. Power BI의 탐색 창에서 **데이터 가져오기**를 클릭합니다.
    
-   ![](media/service-desktop-files/pbid_get_data_button.png)
+   ![탐색 창의 단추를 보여 주는 데이터 가져오기의 스크린샷.](media/service-desktop-files/pbid_get_data_button.png)
 2. **파일**에서 **가져오기**를 클릭합니다.
    
-   ![](media/service-desktop-files/pbid_files_get.png)
+   ![가져오기 단추를 보여 주는 파일 대화 상자의 스크린샷.](media/service-desktop-files/pbid_files_get.png)
 3. 파일을 찾습니다. Power BI Desktop 파일의 확장명은 .PBIX입니다.
    
-   ![](media/service-desktop-files/pbid_find_your_file.png)
+   ![로컬 파일, 비즈니스용 OneDrive, 개인용 OneDrive 및 SharePoint 타일을 보여 주는 파일을 찾기 위한 타일 네 개의 스크린샷.](media/service-desktop-files/pbid_find_your_file.png)
 
 ## <a name="publish-a-file-from-power-bi-desktop-to-your-power-bi-site"></a>Power BI Desktop에서 Power BI 사이트로 파일 게시
 Power BI Desktop에서 게시를 사용하는 것은 처음에 로컬 드라이브에서 파일 데이터를 가져오거나 OneDrive에서 파일 데이터에 연결한다는 점에서 Power BI 데이터 가져오기를 사용하는 것과 비슷합니다. 그러나 로컬 드라이브에서 업로드하는 경우 데이터의 온라인 복사본과 로컬 복사본이 서로 최신 상태를 유지하도록 해당 데이터를 자주 새로 고쳐야 한다는 차이점이 있습니다. 
@@ -53,12 +53,12 @@ Power BI Desktop에서 게시를 사용하는 것은 처음에 로컬 드라이�
 
 1. Power BI Desktop에서 **파일** > **게시** > **Power BI에 게시** 또는 리본에서 **게시**를 클릭합니다.
    
-   ![](media/service-desktop-files/pbid_publish.png)
+   ![Power BI Desktop에서 게시하는 방법을 보여 주는 리본에 있는 게시의 스크린샷.](media/service-desktop-files/pbid_publish.png)
 2. Power BI에 로그인합니다. 이 작업은 처음에만 수행해야 합니다.
    
    완료되면 Power BI 사이트에서 보고서를 열기 위한 링크를 얻게 됩니다.
    
-   ![](media/service-desktop-files/pbid_publishing.png)
+   ![보고서를 열기 위해 링크로 성공적으로 로그인했음을 보여 주는 로그인 확인 대화 상자의 스크린샷.](media/service-desktop-files/pbid_publishing.png)
 
 ## <a name="next-steps"></a>다음 단계
 **데이터 탐색** - 파일에서 Power BI로 데이터 및 보고서를 가져오면 이제 살펴볼 차례입니다. 파일에 이미 보고서가 있다면 탐색 창의 **보고서**에 나타납니다. 파일에 데이터가 있다면 새 보고서를 만들 수 있습니다. 새 데이터 세트를 마우스 오른쪽 단추로 클릭한 다음, **탐색**을 클릭합니다.

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 4f9b69e863b71fda0cece06df7065740bd55463e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 620e71ffa08a02dc0d0080b310fb0252388e1b10
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228897"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161195"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>로그인한 Power BI 사용자 찾기
 
@@ -29,7 +29,7 @@ ms.locfileid: "85228897"
 
 * 테넌트는 Azure Active Directory Premium 라이선스와 연결되어 있어야 합니다.
 
-* 전역 관리자, 보안 관리자 또는 보안 구독자 역할 중 하나여야 합니다.
+* 다음 역할 중 하나여야 합니다. 전역 관리자, 보안 관리자 또는 보안 읽기 권한자.
 
 ## <a name="use-the-azure-portal-to-view-sign-ins"></a>Azure Portal을 사용하여 로그인 보기
 
@@ -51,7 +51,7 @@ ms.locfileid: "85228897"
 
 CSV 파일 또는 JSON 파일의 두 가지 형식 중 하나로 [로그인 보고서를 다운로드](/azure/active-directory/reports-monitoring/quickstart-download-sign-in-report)할 수 있습니다.
 
-![다운로드 단추 스크린샷.](media/service-admin-access-usage/download-sign-in-data-csv.png)
+![다운로드 옵션이 강조 표시된 데이터 내보내기의 스크린샷.](media/service-admin-access-usage/download-sign-in-data-csv.png)
 
 **로그인** 보고서의 맨 위에서 **다운로드**를 선택한 후, 다음 옵션 중 하나를 선택합니다.
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f70876b3b8c1815576ed019f88b67296f7aec052
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f9fa3ee1c1e0f757eb3b464785c8cb3fe3ab6e78
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238610"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264726"
 ---
 # <a name="use-visual-table-and-data-point-table-in-power-bi-desktop"></a>Power BI Desktop에서 시각적 개체 테이블 및 데이터 요소 테이블 사용
 **Power BI Desktop**에서는 시각화의 세부 정보로 드릴하고 선택한 시각적 개체에 대한 기본 데이터 또는 개별 데이터 레코드의 텍스트 표현을 볼 수 있습니다. 이러한 기능을 때로는 ‘클릭 광고’, ‘드릴스루’ 또는 ‘드릴스루 세부 정보’라고 합니다.  
@@ -74,7 +74,7 @@ ms.locfileid: "85238610"
 
 데이터 요소에 대해 **데이터 요소 테이블**을 선택하면 Power BI Desktop 캔버스에 선택된 요소와 연결된 모든 데이터가 표시됩니다. 
 
-![](media/desktop-see-data-see-records/visual-table-09.png)
+![데이터 요소 테이블을 선택하는 경우 선택한 요소와 연결된 모든 데이터를 보여 주는 캔버스의 스크린샷.](media/desktop-see-data-see-records/visual-table-09.png)
 
 보고서로 돌아가려면 캔버스의 왼쪽 위에 있는 **< 보고서로 돌아가기**를 선택합니다.
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/30/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 41d5350bf2986f9b8f0f01acf97e96eafc3b4db8
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9fcf67a52bde69e62816af09a8fed69c8383927d
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229520"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216176"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Power BI로 Salesforce에 연결
 Power BI를 사용하면 Salesforce.com 계정에 쉽게 연결할 수 있습니다. 이 연결을 통해 Salesforce 데이터를 검색하고 대시보드와 보고서를 자동으로 제공받을 수 있습니다.
@@ -24,37 +24,37 @@ Power BI와 [Salesforce 통합](https://powerbi.microsoft.com/integrations/sales
 ## <a name="how-to-connect"></a>연결 방법
 1. Power BI의 탐색 창 아래쪽에서 **데이터 가져오기**를 선택합니다.
    
-   ![](media/service-connect-to-salesforce/pbi_getdata.png) 
+   ![탐색 창의 데이터 가져오기 단추를 보여 주는 스크린샷.](media/service-connect-to-salesforce/pbi_getdata.png) 
 2. **서비스** 상자에서 **가져오기**를 선택합니다.
    
-   ![](media/service-connect-to-salesforce/pbi_getservices.png) 
+   ![가져오기 단추를 보여 주는 서비스 대화 상자의 스크린샷.](media/service-connect-to-salesforce/pbi_getservices.png) 
 3. **Salesforce에 대한 분석**을 선택하고 **가져오기**를 선택합니다.  
    
-   ![](media/service-connect-to-salesforce/salesforce.png)
+   ![지금 가져오기 링크를 보여 주는 Salesforce에 대한 분석 대화 상자의 스크린샷.](media/service-connect-to-salesforce/salesforce.png)
 4. **로그인**을 선택하여 로그인 흐름을 시작합니다.
    
-    ![](media/service-connect-to-salesforce/dialog.png)
+    ![로그인 단추를 보여 주는 Salesforce에 연결 대화 상자의 스크린샷.](media/service-connect-to-salesforce/dialog.png)
 5. 메시지가 표시되면 Salesforce 자격 증명을 입력합니다. **허용**을 선택하여 Power BI가 기본 Salesforce 정보 및 데이터에 액세스할 수 있게 합니다.
    
-   ![](media/service-connect-to-salesforce/sf_authorize.png)
+   ![Power BI가 정보에 액세스할 권한을 요청하고 있음을 보여 주는 Salesforce 자격 증명의 스크린샷.](media/service-connect-to-salesforce/sf_authorize.png)
 6. 드롭다운 옵션을 사용하여 Power BI로 가져오려는 항목을 구성합니다.
    
    * **대시보드**
      
      가상 사용자(예: **판매 관리자**)에 따라 미리 정의된 대시보드를 선택합니다. 이러한 대시보드는 사용자 지정 필드를 포함하지 않는 특정 Salesforce 표준 데이터의 세트를 검색합니다.
      
-     ![](media/service-connect-to-salesforce/pbi_salesforcechooserole.png)
+     ![가상 사용자에 따라 미리 정의된 대시보드를 선택하는 옵션을 보여 주는 Salesforce 대시보드의 스크린샷.](media/service-connect-to-salesforce/pbi_salesforcechooserole.png)
    * **보고서**
      
      Salesforce 계정에서 사용자 지정 보고서를 하나 이상 선택합니다. 이러한 보고서는 Salesforce의 뷰와 일치하며 사용자 지정 필드 또는 개체의 데이터를 포함할 수 있습니다.
      
-     ![](media/service-connect-to-salesforce/pbi_salesforcereports.png)
+     ![사용자 지정 보고서 목록을 보여 주는 Salesforce 보고서의 스크린샷.](media/service-connect-to-salesforce/pbi_salesforcereports.png)
      
      보고서가 표시되지 않는 경우 Salesforce 계정에서 추가하거나 만든 후 다시 연결합니다.
 
 7. **연결**을 선택하여 가져오기 프로세스를 시작합니다. 가져오는 동안 가져오기가 진행 중임을 보여 주는 알림이 표시됩니다. 가져오기가 완료되면 탐색 창에 나열된 Salesforce 데이터에 대한 대시보드, 보고서 및 데이터 세트가 표시됩니다.
    
-   ![](media/service-connect-to-salesforce/pbi_getdatasalesforcedash.png)
+   ![대시보드, 보고서 및 데이터 세트를 보여 주는 판매 관리자 대시보드의 스크린샷.](media/service-connect-to-salesforce/pbi_getdatasalesforcedash.png)
 
 대시보드를 변경하여 원하는 방법으로 데이터를 표시할 수 있습니다. Q&A 또는 [타일 선택](../consumer/end-user-tiles.md)을 통해 질문하여 기본 보고서를 열고 [대시보드 타일을 편집하거나 제거](../create-reports/service-dashboard-edit-tile.md)할 수 있습니다.
 

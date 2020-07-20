@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 9c883b32d03362e5d0e0d6d5ed074cb627fabaf1
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: c362a8012635becb68200a9d513157c05310edaf
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273195"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86215156"
 ---
 # <a name="bi-directional-relationship-guidance"></a>양방향 관계 지침
 
@@ -40,7 +40,7 @@ ms.locfileid: "83273195"
 
 양방향 관계는 데이터가 존재하는 위치로 항목을 제한하는 슬라이서를 제공할 수 있습니다. (Excel PivotTables 및 슬라이서에 대해 잘 알고 있는 경우 이는 Power BI 데이터 세트 또는 Analysis Services 모델에서 데이터를 소싱하는 경우의 기본 동작입니다.) 그 의미를 설명하는 데 도움이 되도록 먼저 다음 모델 다이어그램을 살펴보겠습니다.
 
-![모델 다이어그램에는 테이블 3개가 포함되어 있습니다. 디자인은 다음 단락에서 설명합니다.](media/relationships-bidirectional-filtering/sales-model-diagram.png)
+![테이블 세 개가 포함된 모델을 보여 주는 다이어그램. 디자인은 다음 단락에서 설명합니다.](media/relationships-bidirectional-filtering/sales-model-diagram.png)
 
 첫 번째 테이블의 이름은 **Customer**이고 **Country-Region**, **Customer**, **CustomerCode**라는 3개의 열이 있습니다. 두 번째 테이블의 이름은 **Product**이고 **Color**, **Product**, **SKU**라는 3개의 열이 있습니다. 세 번째 테이블의 이름은 **Sales**이고 **CustomerCode**, **OrderDate**, **Quantity**, **SKU**라는 4개의 열이 있습니다. **Customer** 및 **Product** 테이블은 차원 유형 테이블이며 각 테이블에는 **Sales** 테이블과 일 대 다 관계가 있습니다. 각 관계는 단일 방향으로 필터링됩니다.
 
@@ -49,7 +49,7 @@ ms.locfileid: "83273195"
 > [!NOTE]
 > Power BI Desktop 모델 다이어그램에는 테이블 행을 표시할 수 없습니다. 이 문서에서는 명확한 예제로 설명을 지원하기 위해 표시한 것입니다.
 
-![이제 모델 다이어그램에 테이블 행이 표시됩니다. 행 세부 정보는 다음 단락에서 설명합니다.](media/relationships-bidirectional-filtering/sales-model-diagram-rows.png)
+![이제 모델에 테이블 행이 표시됨을 보여 주는 다이어그램. 행 세부 정보는 다음 단락에서 설명합니다.](media/relationships-bidirectional-filtering/sales-model-diagram-rows.png)
 
 세 테이블의 행 세부 정보는 다음 글머리 기호 목록에 설명되어 있습니다.
 
@@ -67,17 +67,17 @@ ms.locfileid: "83273195"
 
 이제 다음 보고서 페이지를 살펴보겠습니다.
 
-![보고서 페이지에는 세 개의 시각적 개체가 포함되어 있습니다. 세부 정보는 다음 단락에서 설명합니다.](media/relationships-bidirectional-filtering/sales-report-no-bi-directional-filter.png)
+![시각적 개체 세 개가 포함된 보고서 페이지를 보여 주는 다이어그램. 세부 정보는 다음 단락에서 설명합니다.](media/relationships-bidirectional-filtering/sales-report-no-bi-directional-filter.png)
 
 페이지는 두 개의 슬라이서와 하나의 카드 시각적 개체로 구성되어 있습니다. 첫 번째 슬라이서는 **Country-Region**용이며 다음 2개의 항목이 있습니다. Australia 및 United States. 현재 오스트레일리아를 기준으로 조각화되어 있습니다. 두 번째 슬라이서는 **Product**용이며 다음 3개의 항목이 있습니다. Hat, Jeans 및 T-shirt. 항목은 선택되지 않았습니다(필터링된 _제품이 없음_을 의미). 카드 시각적 개체는 수량 30을 표시합니다.
 
 보고서 사용자가 오스트레일리아를 기준으로 조각화되는 경우 **Product** 슬라이서를 데이터가 오스트레일리아 판매량에 _연결_되는 항목을 표시하도록 제한해야 할 수 있습니다. 이는 "데이터 포함" 슬라이서 항목을 표시할 때와 같은 의미입니다. **Product** 테이블과 **Sales** 테이블 간의 관계를 구성하여 양방향으로 필터링하는 방법으로 이 동작을 수행할 수 있습니다.
 
-![모델 다이어그램은 Product 테이블과 Sales 테이블 간의 관계가 양방향임을 보여 줍니다.](media/relationships-bidirectional-filtering/sales-model-diagram-rows-bi-directional-filter.png)
+![Product 테이블과 Sales 테이블 간 관계가 양방향인 모델을 보여 주는 다이어그램.](media/relationships-bidirectional-filtering/sales-model-diagram-rows-bi-directional-filter.png)
 
 이제 **Product** 슬라이서에 단일 항목 T-shirt가 나열됩니다. 이 항목은 오스트레일리아 고객에게 판매되는 유일한 제품을 나타냅니다.
 
-![보고서 페이지에는 세 개의 시각적 개체가 포함되어 있습니다. 세부 정보는 다음 단락에서 설명합니다.](media/relationships-bidirectional-filtering/sales-report-bi-directional-filter.png)
+![시각적 개체 세 개가 포함된 보고서 페이지를 보여 주는 다이어그램. 세부 정보는 다음 단락에서 설명합니다.](media/relationships-bidirectional-filtering/sales-report-bi-directional-filter.png)
 
 먼저 보고서 사용자에 대해 이 디자인이 작동하는지 신중하게 고려하는 것이 좋습니다. 일부 보고서 사용자에게는 이 환경이 혼란스러울 수 있습니다. 이들은 슬라이서와 상호 작용할 때 다른 슬라이서 항목이 동적으로 표시되거나 사라지는 이유를 이해하지 못합니다.
 
@@ -93,7 +93,7 @@ Total Quantity = SUM(Sales[Quantity])
 
 "데이터 포함" **Product** 슬라이서 항목을 표시하려면 "비어 있지 않음" 조건을 사용하여 **Total Quantity** 측정값을 기준으로 필터링하면 됩니다.
 
-![이제 Product 슬라이서의 필터 창에서 "Total Quantity가 비어 있지 않음"을 기준으로 필터링합니다.](media/relationships-bidirectional-filtering/filter-product-slicer-measure-is-not-blank.png)
+![이제 Product 슬라이서의 필터 창이 “Total Quantity가 비어 있지 않음”을 기준으로 필터링됨을 보여 주는 다이어그램.](media/relationships-bidirectional-filtering/filter-product-slicer-measure-is-not-blank.png)
 
 ## <a name="dimension-to-dimension-analysis"></a>차원 간 분석
 
@@ -128,7 +128,7 @@ CALCULATE(
 
 다음 표에서는 판매된 각 제품에 대한 통계를 시각적으로 표시합니다. **Quantity** 열은 단순히 수량 값의 합계입니다. **Different Countries Sold** 열은 제품을 구매한 모든 고객의 국가-지역 값 수를 나타냅니다.
 
-![테이블 시각적 개체에는 두 개의 제품이 나열됩니다. "Different Countries Sold" 열에서 Jeans는 1이고, T-shirt는 2입니다.](media/relationships-bidirectional-filtering/country-sales-crossfilter-function.png)
+![두 제품이 테이블 시각적 개체에 나열됨을 보여 주는 다이어그램. "Different Countries Sold" 열에서 Jeans는 1이고, T-shirt는 2입니다.](media/relationships-bidirectional-filtering/country-sales-crossfilter-function.png)
 
 ## <a name="next-steps"></a>다음 단계
 
@@ -141,4 +141,3 @@ CALCULATE(
 - [관계 문제 해결 지침](relationships-troubleshoot.md)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 - 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com/)
-

@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 10/24/2018
 ms.author: maggies
-ms.openlocfilehash: f69d55e6c4f0916ac2c0c5083e062b248c4c36de
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b877ec917953bb6ec456a0042035e498c591e1ed
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239421"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214001"
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>보고서 서버 제품 키를 확인하는 방법
 프로덕션 환경에서 서버를 설치하기 위해 Power BI Report Server 제품 키를 찾는 방법에 대해 알아봅니다.
@@ -41,8 +41,8 @@ SQL Server Enterprise SA 규약이 있는 경우 [볼륨 라이선스 서비스 
 > 
 > 
 
-![](media/find-product-key/vlsc-download.png "Volume Licensing Service Center")
-
+![Power BI 보고서 통합 정보가 포함된 다운로드 및 키 탭을 보여 주는 SQL Server Enterprise의 스크린샷.](media/find-product-key/vlsc-download.png "볼륨 라이선싱 서비스 센터")
+ 
 ## <a name="next-steps"></a>다음 단계
 [Power BI Report Server 설치](install-report-server.md)  
 [Power BI Report Server에 최적화된 Power BI Desktop 설치](install-powerbi-desktop.md)  

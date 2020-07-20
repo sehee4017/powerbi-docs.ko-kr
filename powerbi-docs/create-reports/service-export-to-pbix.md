@@ -6,17 +6,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 04/01/2020
+ms.date: 07/14/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: b8fddd6b88effac3375840dd6034ca93cec52f12
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5cd0dd3b91109e63e5481e2f5e5516fd9ecd245c
+ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238314"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "86385978"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Power BI 서비스에서 Power BI Desktop으로 보고서 다운로드(미리 보기)
+      
 Power BI Desktop에서 로컬 컴퓨터의 보고서( *.pbix* 파일)를 Power BI 서비스에 게시할 수 있습니다. Power BI 보고서는 다른 방향으로도 이동할 수 있습니다. Power BI 서비스에서 Power BI Desktop으로 보고서를 다운로드할 수 있습니다. 두 경우 모두, Power BI 보고서의 확장명은 .pbix입니다.
 
 이 문서의 [고려 사항 및 문제 해결](#considerations-and-troubleshooting) 섹션에서는 유의해야 할 몇 가지 제한 사항을 설명합니다.
@@ -46,18 +47,22 @@ Power BI Desktop에서 로컬 컴퓨터의 보고서( *.pbix* 파일)를 Power B
     ![Power BI Desktop 보고서 편집기](media/service-export-to-pbix/power-bi-desktop.png)
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
+
 Power BI 서비스에서 .pbix 파일을 다운로드하는 경우와 관련된 몇 가지 중요한 고려 사항 및 제한 사항이 있습니다.
 
 * 파일을 다운로드하려면 보고서의 액세스 권한을 편집해야 합니다.
-* 보고서가 Power BI Desktop에서 생성되어 Power BI 서비스에 ‘게시’되었거나, .pbix 파일이 Power BI 서비스에 ‘업로드’된 상태여야 합니다.  
+* 보고서가 Power BI Desktop에서 생성되어 Power BI 서비스에 ‘게시’되었거나, .pbix 파일이 Power BI 서비스에 ‘업로드’된 상태여야 합니다. 
 * 보고서는 2016년 11월 23일 이후 게시되거나 업데이트되어야 합니다. 이전에 게시된 보고서는 다운로드할 수 없습니다.
 * 원래 Power BI 서비스에서 만든 보고서 및 콘텐츠 팩에는 이 기능이 적용되지 않습니다.
 * 다운로드한 파일을 열 때는 항상 최신 버전의 Power BI Desktop을 사용합니다. 이전 버전의 Power BI Desktop에서는 다운로드한 .pbix 파일이 열리지 않을 수도 있습니다.
 * 관리자가 데이터 다운로드 기능을 끈 경우에는 Power BI 서비스에 이 기능이 표시되지 않습니다.
 * 증분 새로 고침을 사용하는 데이터 세트는 .pbix 파일로 다운로드할 수 없습니다.
+* [큰 모델](../admin/service-premium-large-models.md)에 사용할 수 있는 데이터 세트는 .pbix 파일로 다운로드할 수 없습니다.
+* [XMLA 엔드포인트](../admin/service-premium-connect-tools.md)를 사용하여 수정된 데이터 세트는 .pbix 파일로 다운로드할 수 없습니다.
 * 하나의 작업 영역에 있는 데이터 세트를 기반으로 Power BI 보고서를 만들고 다른 작업 영역에 게시하는 경우 관리자와 사용자가 해당 보고서를 다운로드할 수 없습니다. 이 시나리오에서는 현재 다운로드 기능이 지원되지 않습니다.
 
 ## <a name="next-steps"></a>다음 단계
+
 이 기능에 대한 1분 비디오 **큐브에서 Guy**를 참조하세요.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ymWqU5jiUl0" frameborder="0" allowfullscreen></iframe>

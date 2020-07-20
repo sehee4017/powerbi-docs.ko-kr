@@ -1,18 +1,18 @@
 ---
 title: Power BI Report Builder에서 Power BI 공유 데이터 세트로 페이지가 매겨진 보고서 만들기
 description: Power BI 공유 데이터 세트 기반의 Power BI Report Builder에서 페이지가 매겨진 보고서를 만듭니다.
-ms.date: 02/12/2020
+ms.date: 07/08/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: a13f346feeddc8196cb35e06acf027baeaa7a151
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d3955b8dde22863e7b0224d335b162846e0741d2
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239792"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216863"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Power BI 공유 데이터 세트 기반의 페이지가 매겨진 보고서 만들기
 
@@ -74,7 +74,7 @@ Power BI 보고서와 보고서 작성기 보고서의 데이터를 동일하게
 1. Power BI Desktop에서 Power BI 보고서(.pbix)를 엽니다.
 1. 페이지를 매긴 보고서에 사용하려는 모든 데이터가 포함된 테이블이 보고서에 있는지 확인합니다. 테이블은 다음 두 가지 요구 사항을 충족해야 합니다.
     - 행렬이나 다른 시각적 개체가 아닌 플랫 테이블이어야 합니다. 테이블이 아닌 경우 지금 테이블로 변환하고, 다음에 나오는 성능 분석기 단계를 진행한 다음, 원하는 시각적 개체로 다시 변환합니다.
-    - 숫자 필드의 경우 ‘미리 정의된 측정값’을 사용해야 합니다.  필드 옆에 계산기 기호가 있습니다. [측정값 만들기](../transform-model/desktop-measures.md)에 대해 알아보세요. 
+    - 숫자 필드의 경우 ‘미리 정의된 측정값’을 사용해야 합니다. 필드 옆에 계산기 기호가 있습니다. [측정값 만들기](../transform-model/desktop-measures.md)에 대해 알아보세요. 
 
         ![측정값 아이콘](media/report-builder-shared-datasets/power-bi-measure-icon.png)
 
@@ -104,6 +104,9 @@ Power BI 보고서와 보고서 작성기 보고서의 데이터를 동일하게
     ![보고서 작성기 쿼리 디자이너](media/report-builder-shared-datasets/power-bi-report-builder-query-designer.png)
 
 1. 위쪽 상자에 Power BI Desktop에서 복사한 쿼리를 붙여넣습니다.
+
+    > [!NOTE]
+    > 쿼리에 TOPN 함수가 포함된 경우에는 쿼리에서 해당 함수를 삭제합니다.
 
 1. **쿼리 실행**(빨간색 느낌표, !)을 선택하여 쿼리가 작동하는지 확인합니다. 
 
@@ -199,7 +202,7 @@ Power BI 보고서와 보고서 작성기 보고서의 데이터를 동일하게
 
 여백과 테이블 열을 좁게 만든 경우에도 페이지마다 뒤에 공백 페이지가 표시될 수 있습니다. 이유가 무엇일까요? 바로 수학 때문입니다. 
 
-설정한 페이지 여백에 보고서 ‘본문’의 너비를 더한 값이 보고서 형식의 너비보다 작아야 합니다. 
+설정한 페이지 여백에 보고서 ‘본문’의 너비를 더한 값이 보고서 형식의 너비보다 작아야 합니다.
 
 예를 들어 보고서가 8.5” X 11” 형식이고 양쪽 여백을 각각 0.75로 설정했다고 가정합니다. 두 여백을 합치면 1.5”가 되므로 본문의 너비는 7”보다 작아야 합니다.
 

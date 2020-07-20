@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 021b5f0856ef4ff3730102efda88fd089a36dfcf
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: bd3ab4a1c6f702ad866211339a3d3a386c4981fa
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83320081"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264407"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Power BI 서비스용 데이터 원본
 데이터는 Power BI의 핵심입니다. 여러분이 데이터를 탐색하려 한다고 가정해 봅니다. 여러분은 데이터를 탐색하기 위해 차트와 대시보드를 만들거나 **질문 및 답변**을 통해 질문을 합니다. 여러분의 눈에 보이는 시각화 및 답변의 기본 데이터는 데이터 세트에서 가져옵니다. 그러나 해당 데이터 세트를 어디서 가져오나요? 데이터 세트는 데이터 원본에서 가져옵니다.
@@ -23,14 +23,14 @@ ms.locfileid: "83320081"
 
 페이지의 왼쪽 아래 모서리에서 **데이터 가져오기**를 선택하여 Power BI에서 모든 데이터 원본의 데이터를 가져올 수 있습니다.
 
-![](media/service-get-data/pbi-getdata-navigation-link.png) 
+![Power BI 서비스 화면의 왼쪽 아래에 표시되는 데이터 가져오기의 스크린샷.](media/service-get-data/pbi-getdata-navigation-link.png) 
 
 **데이터 가져오기**를 선택한 후에는 액세스하려는 데이터를 선택할 수 있습니다.
 
-![](media/service-get-data/pbi-getdata-startscreen.png)
+![액세스하려는 데이터를 선택하는 옵션을 보여 주는 데이터 가져오기 선택 항목의 스크린샷.](media/service-get-data/pbi-getdata-startscreen.png)
 
 ## <a name="discover-content"></a>콘텐츠 검색
-![](media/service-get-data/pbi-getdata-discovercontent.png)
+![파트너 로고를 보여 주는 콘텐츠 검색 섹션의 스크린샷.](media/service-get-data/pbi-getdata-discovercontent.png)
 
 **콘텐츠 검색** 섹션에는 필요한 데이터와 보고서가 이미 준비된 상태로 포함되어 있습니다. Power BI에는 두 가지 유형의 콘텐츠 팩이 있습니다. 조직 및 서비스. 
 
@@ -43,7 +43,7 @@ ms.locfileid: "83320081"
 **새 콘텐츠 만들기** 섹션에는 콘텐츠를 직접 만들고 가져오는 옵션이 포함되어 있습니다. Power BI에서 사용자 고유의 콘텐츠를 만들거나 가져오는 두 가지 방법이 있습니다. 그것은 바로 파일과 데이터베이스입니다. 
 
 ### <a name="files"></a>파일
-![](media/service-get-data/pbi_getdata_files.png)
+![Excel, Power BI Desktop 및 CSV 아이콘](media/service-get-data/pbi_getdata_files.png)
 
 **Excel** ( *.xlsx*, *.xlsm*) - Excel의 통합 문서는 여러 데이터 형식을 포함할 수 있습니다. 예를 들어 사용자가 직접 워크시트에 입력한 데이터를 포함할 수 있습니다. 사용자가 파워 쿼리를 사용하여 외부 데이터 원본에서 쿼리하고 로드한 데이터를 포함할 수도 있습니다. 파워 쿼리는 Excel 2016 또는 PowerPivot의 **가져오기 및 변환**을 통해 사용할 수 있습니다. 워크시트의 테이블에서 데이터를 가져오거나 데이터 모델에서 데이터를 가져올 수 있습니다. 자세한 내용은 [Power BI용 파일에서 데이터 가져오기](service-get-data-from-files.md)를 참조하세요.
 
@@ -56,7 +56,7 @@ XML 테이블( *.xml*) 또는 텍스트 파일( *.txt*) 같은 기타 유형의 
 파일을 저장하는 위치가 큰 차이를 가져오기도 합니다. 비즈니스용 OneDrive는 최대한의 유연성 및 Power BI와의 통합을 제공합니다. 파일을 로컬 드라이브에 보관해도 괜찮습니다. 하지만 데이터를 새로 고쳐야 하는 경우 몇 가지 추가 단계가 있습니다. 자세한 내용은 아래의 문서 링크를 참조하세요.
 
 ### <a name="databases"></a>데이터베이스
-![](media/service-get-data/pbi_getdata_databases.png)
+![클라우드 로고의 데이터베이스를 보여 주는 데이터베이스의 스크린샷.](media/service-get-data/pbi_getdata_databases.png)
 
 **클라우드의 데이터베이스** - Power BI 서비스에서는 다음에 실시간으로 연결할 수 있습니다.
 

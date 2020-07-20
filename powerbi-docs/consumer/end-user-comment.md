@@ -2,20 +2,20 @@
 title: 대시보드 및 보고서에 댓글 추가
 description: 이 문서에서는 대시보드, 보고서 또는 시각적 개체에 댓글을 추가하는 방법과 댓글을 사용하여 공동 작업자와 대화하는 방법을 보여 줍니다.
 author: mihart
-ms.reviewer: ''
+ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 02/18/2020
+ms.date: 07/07/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 4d9581a617241afbe668d8e1810c0c3f60a0835c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 76a3bd087899126d1c3aa9eed6eb7d20b1441bff
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236037"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161894"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>대시보드 또는 보고서에 댓글 추가
 
@@ -33,7 +33,7 @@ ms.locfileid: "85236037"
 ## <a name="how-to-use-the-comments-feature"></a>의견 기능 사용 방법
 전체 대시보드, 대시보드의 개별 시각적 개체, 보고서 페이지, 페이지를 매긴 보고서 및 보고서 페이지의 개별 시각적 개체에 설명을 추가할 수 있습니다. 일반 댓글이나 특정 동료를 대상으로 하는 댓글을 추가합니다.  
 
-보고서에 댓글을 추가할 때 Power BI는 현재 필터 및 슬라이서 값을 캡처합니다. 즉, 댓글을 선택하거나 응답하면 보고서 페이지 또는 보고서 시각적 개체가 변경되어 댓글을 처음 추가할 때 활성화된 필터 및 슬라이서 선택 항목을 표시할 수 있습니다.  
+보고서에 댓글을 추가할 때 Power BI는 현재 필터 및 슬라이서 값을 캡처하고 [책갈피](end-user-bookmarks.md)를 만듭니다. 즉, 댓글을 선택하거나 응답하면 보고서 페이지 또는 보고서 시각적 개체가 변경되어 댓글을 처음 추가할 때 활성화된 필터 및 슬라이서 선택 항목을 표시할 수 있습니다.  
 
 ![필터가 있는 보고서 동영상](media/end-user-comment/power-bi-comment.gif)
 
@@ -46,15 +46,15 @@ ms.locfileid: "85236037"
 
 1. Power BI 대시보드 또는 보고서를 열고 **댓글** 아이콘을 선택합니다. 이렇게 하면 댓글 대화 상자가 열립니다.
 
-    ![주석 아이콘](media/end-user-comment/power-bi-comment-menu.png)
+    ![주석 아이콘](media/end-user-comment/power-bi-comments-icon.png)
 
     여기서는 대시보드 작성자가 이미 일반 댓글을 추가한 것을 볼 수 있습니다.  이 대시보드에 대한 액세스 권한이 있는 사용자는 누구나 이 댓글을 볼 수 있습니다.
 
-    ![주석 아이콘](media/end-user-comment/power-bi-first-comments.png)
+    ![주석 아이콘](media/end-user-comment/power-bi-first-comment.png)
 
 2. 응답하려면 **회신**을 선택하고 응답을 입력한 다음, **게시**를 선택합니다.  
 
-    ![주석 회신 아이콘](media/end-user-comment/power-bi-comment-reply.png)
+    ![주석 회신 아이콘](media/end-user-comment/power-bi-comments-reply.png)
 
     기본적으로 Power BI는 댓글 스레드를 시작한 동료(이 경우 Aaron)에게 응답을 보냅니다. 
 
@@ -62,7 +62,7 @@ ms.locfileid: "85236037"
 
  3. 기존 스레드의 일부가 아닌 댓글을 추가하려면 위쪽 텍스트 필드에 댓글을 입력합니다.
 
-    ![주석 회신 아이콘](media/end-user-comment/power-bi-new-comments.png)
+    ![주석 회신 아이콘](media/end-user-comment/power-bi-new-commenting.png)
 
     이 대시보드에 대한 댓글은 이제 다음과 같습니다.
 
@@ -74,11 +74,11 @@ ms.locfileid: "85236037"
 1. 시각적 개체를 마우스로 가리키고 **추가 옵션**(...)을 선택합니다.    
 2. 드롭다운에서 **댓글 열기**를 선택합니다.
 
-    ![댓글 추가가 첫 번째 옵션입니다.](media/end-user-comment/power-bi-report-comment.png)  
+    ![댓글 추가가 첫 번째 옵션입니다.](media/end-user-comment/power-bi-comment-reports.png)  
 
 3.  **댓글** 대화 상자가 열리고, 페이지의 다른 시각적 개체는 회색으로 표시됩니다. 이 시각적 개체에는 아직 댓글이 없습니다. 
 
-    ![자기 자신에게 댓글 추가](media/end-user-comment/power-bi-comment-column.png)  
+    ![자기 자신에게 댓글 추가](media/end-user-comment/power-bi-comments-column.png)  
 
 4. 댓글을 입력하고 **게시**를 선택합니다.
 
@@ -94,13 +94,15 @@ ms.locfileid: "85236037"
 5. **닫기**를 선택하여 대시보드 또는 보고서로 돌아갑니다.
 
 ### <a name="get-your-colleagues-attention-by-using-the--sign"></a>@ 기호를 사용하여 동료의 주의 유도
-대시보드, 보고서, 타일 또는 시각적 개체 댓글을 만드는지와 관계없이 “\@” 기호를 사용하여 동료의 주의를 끕니다.  “\@” 기호를 입력하면 Power BI는 조직에서 개인을 검색하고 선택할 수 있는 드롭다운을 엽니다. "\@" 기호로 나타나는 확인된 이름은 파란색 글꼴로 표시됩니다. 
+대시보드, 보고서, 타일 또는 시각적 개체 댓글을 만드는지와 관계없이 “\@” 기호를 사용하여 동료의 주의를 끕니다.  “\@” 기호를 입력하면 Power BI는 조직에서 개인을 검색하고 선택할 수 있는 드롭다운을 엽니다. "\@" 기호로 나타나는 확인된 이름은 파란색 글꼴로 표시됩니다. @mentioned 개인은 즉시 받은 편지함에 메일을 받으며, Power BI 모바일 앱을 사용하는 경우 디바이스에서 푸시 알림을 받습니다. 알림에서 직접 댓글을 열고, 데이터를 확인하고, 그에 따라 회신할 수 있습니다.
 
-다음은 시각화 ‘디자이너’와 나누는 대화입니다.  @ 기호를 사용하여 댓글을 보도록 유도합니다. 이 댓글이 나에게 쓴 것인지 알고 있습니다. Power BI에서 이 앱 대시보드를 열고 머리글에서 **댓글**을 선택합니다. **댓글** 창에 대화가 표시됩니다.
+다음은 시각화 ‘디자이너’와 나누는 대화입니다. @ 기호를 사용하여 댓글을 보도록 유도합니다. 알림을 받고 링크를 선택하여 해당 대시보드 및 관련 대화를 엽니다.  
 
 ![댓글 멘션 추가](media/end-user-comment/power-bi-comment-convo.png)  
 
+## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
 
+- 대화에 회신할 때는 책갈피가 캡처되지 않습니다. 대화의 첫 번째 댓글만 책갈피를 만듭니다.
 
 ## <a name="next-steps"></a>다음 단계
 [소비자를 위한 시각화 개체](end-user-visualizations.md)로 돌아가기    

@@ -9,21 +9,21 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6a0170d40413cd2833f7e31bb3bc7c5704a1f5cc
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 106b2e4f9b829190cff8269342c3239429b41f24
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224031"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214731"
 ---
 # <a name="connect-to-data-by-using-power-bi-desktop-generic-interfaces"></a>Power BI Desktop 제네릭 인터페이스를 사용하여 데이터에 연결 
 
-**데이터 가져오기** 창에 표시된 대로, **Access 데이터베이스**에서 **Zendesk** 리소스에 이르는 기본 제공 데이터 커넥터를 사용하여 **Power BI Desktop**에서 다수의 다양한 데이터 원본에 연결할 수 있습니다. *Power BI Desktop*에 빌드된 제네릭 인터페이스(예: **ODBC** 또는 **REST API**)를 사용하여 모든 종류의 **다른** 데이터 원본에 연결하여 추가로 사용자 연결 옵션을 더욱 확장시킬 수도 있습니다.
+**데이터 가져오기** 창에 표시된 대로, **Access 데이터베이스**에서 **Zendesk** 리소스에 이르는 기본 제공 데이터 커넥터를 사용하여 **Power BI Desktop**에서 다수의 다양한 데이터 원본에 연결할 수 있습니다. **Power BI Desktop**에 빌드된 제네릭 인터페이스(예: **ODBC** 또는 **REST API**)를 사용하여 모든 종류의 *다른* 데이터 원본에 연결하여 추가로 사용자 연결 옵션을 더욱 확장시킬 수도 있습니다.
 
-![](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_1.png)
+![ODBC 선택 항목을 보여 주는 데이터 가져오기 대화 상자의 스크린샷.](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_1.png)
 
 ## <a name="power-bi-desktop-data-interfaces"></a>Power BI Desktop 데이터 인터페이스
-**Power BI Desktop**에는 특정 데이터 원본에 연결하도록 구성된 데이터 커넥터의 컬렉션이 계속 증가됩니다. 예를 들어 **데이터 가져오기 > 더 보기...** (이전 이미지에 표시됨)를 선택할 때 표시되는 창에 다른 데이터 원본이 있는 경우 **SharePoint 목록** 데이터 커넥터는 **SharePoint 목록**을 위해 구성된 연결 시퀀스 진행 중에 특정 필드 및 지원 정보를 제공합니다.
+**Power BI Desktop**에는 특정 데이터 원본에 연결하도록 구성된 데이터 커넥터의 컬렉션이 계속 증가됩니다. 예를 들어 **데이터 가져오기 > 자세히...** (이전 이미지에 표시됨)를 선택할 때 표시되는 창에 다른 데이터 원본이 있는 경우 **SharePoint 목록** 데이터 커넥터는 **SharePoint 목록**을 위해 구성된 연결 시퀀스 진행 중에 특정 필드 및 지원 정보를 제공합니다.
 
 또한 **Power BI Desktop**에서는 다음과 같은 제네릭 데이터 인터페이스 중 하나를 사용하여 **데이터 가져오기** 목록에서 식별되지 않는 데이터 원본에 연결할 수 있습니다.
 
@@ -42,7 +42,7 @@ ms.locfileid: "85224031"
 ## <a name="data-sources-accessible-through-odbc"></a>ODBC를 통해 액세스할 수 있는 데이터 원본
 **Power BI Desktop**의 **ODBC** 커넥터를 사용하면 간단히 **데이터 원본 이름(DSN)** 또는 *연결 문자열*을 지정하여 모든 타사 ODBC 드라이버에서 데이터를 가져올 수 있습니다. 필요에 따라 ODBC 드라이버에 대해 실행할 SQL 문을 지정할 수도 있습니다.
 
-![](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_2.png)
+![DSN 및 고급 옵션을 보여 주는 ODBC 커넥터 대화 상자의 스크린샷.](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_2.png)
 
 다음 목록에서는 **Power BI Desktop**이 제네릭 **ODBC**를 사용하여 연결할 수 있는 데이터 원본의 몇 가지 예를 자세히 설명합니다.
 
@@ -56,13 +56,13 @@ ms.locfileid: "85224031"
 | ODBC |Hive |[Hive ODBC 드라이버](https://www.simba.com/drivers/hive-odbc-jdbc/) |
 | ODBC |IBM Netezza |[IBM Netezza 정보](https://www.ibm.com/support/knowledgecenter/SSULQD_7.2.1/com.ibm.nz.datacon.doc/c_datacon_plg_overview.html) |
 | ODBC |기능 |[Presto ODBC 드라이버](https://www.simba.com/drivers/presto-odbc-jdbc/) |
-| ODBC |Project Online |[프로젝트 온라인 문서](desktop-project-online-connect-to-data.md) |
+| ODBC |프로젝트 온라인 |[프로젝트 온라인 문서](desktop-project-online-connect-to-data.md) |
 | ODBC |Progress OpenEdge |[Progress OpenEdge ODBC 드라이버 블로그 게시물](https://www.progress.com/blogs/connect-microsoft-power-bi-to-openedge-via-odbc-driver) |
 
 ## <a name="data-sources-accessible-through-ole-db"></a>OLE DB를 통해 액세스할 수 있는 데이터 원본
 **Power BI Desktop**의 **OLE DB** 커넥터를 사용하면 간단히 *연결 문자열*을 지정하여 모든 타사 OLE DB 드라이버에서 데이터를 가져올 수 있습니다. 필요에 따라 OLE DB 드라이버에 대해 실행할 SQL 문을 지정할 수도 있습니다.
 
-![](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_3.png)
+![연결 문자열 및 고급 옵션을 보여 주는 OLE DB 커넥터 대화 상자의 스크린샷.](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_3.png)
 
 다음 목록에서는 **Power BI Desktop**에서 제네릭 **OLE DB** 인터페이스를 사용하여 연결할 수 있는 데이터 원본의 몇 가지 예를 자세히 설명합니다.
 
@@ -74,7 +74,7 @@ ms.locfileid: "85224031"
 ## <a name="data-sources-accessible-through-odata"></a>OData를 통해 액세스할 수 있는 데이터 원본
 **Power BI Desktop**의 **OData** 커넥터를 사용하면 간단히 **OData** URL을 입력하거나 붙여 넣어 모든 **OData**에서 데이터를 가져올 수 있습니다. **OData 피드** 창에 제공된 텍스트 상자에 이러한 링크를 입력하거나 붙여 넣어 여러 URL 파트를 추가할 수 있습니다.
 
-![](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_4.png)
+![URL 부분 및 미리 보기 필드를 보여 주는 OData 피드 대화 상자의 스크린샷.](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_4.png)
 
 다음 목록에서는 **Power BI Desktop**에서 제네릭 **OData** 인터페이스를 사용하여 연결할 수 있는 데이터 원본의 몇 가지 예를 자세히 설명합니다.
 
@@ -85,7 +85,7 @@ ms.locfileid: "85224031"
 ## <a name="data-sources-accessible-through-rest-apis"></a>REST API를 통해 액세스할 수 있는 데이터 원본
 **REST API**를 사용하여 데이터 원본에 연결할 수 있으므로 **REST**를 지원하는 모든 종류의 데이터 원본에서 데이터를 사용할 수 있습니다.
 
-![](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_5.png)
+![데이터 원본을 보여 주는 쿼리 대화 상자의 스크린샷.](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_5.png)
 
 다음 목록에서는 **Power BI Desktop**에서 제네릭 **REST API** 인터페이스를 사용하여 연결할 수 있는 데이터 원본의 몇 가지 예를 자세히 설명합니다.
 
@@ -96,7 +96,7 @@ ms.locfileid: "85224031"
 ## <a name="data-sources-accessible-through-r-script"></a>R 스크립트를 통해 액세스할 수 있는 데이터 원본
 **R 스크립트**를 사용하여 데이터 원본에 액세스하고 **Power BI Desktop**에서 해당 데이터를 사용할 수 있습니다.
 
-![](media/desktop-connect-using-generic-interfaces/r-scripts-2.png)
+![실행 스크립트를 보여 주는 R 스크립트 대화 상자의 스크린샷.](media/desktop-connect-using-generic-interfaces/r-scripts-2.png)
 
 다음 목록에서는 **Power BI Desktop**에서 제네릭 **R 스크립트** 인터페이스를 사용하여 연결할 수 있는 데이터 원본의 몇 가지 예를 자세히 설명합니다.
 

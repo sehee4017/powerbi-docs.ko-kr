@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 25b5665aa531c347d43a197b53938aec569b9d2d
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: aed09a9cd26452a03363e8606e45938715595558
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83812177"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161678"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI 관리 - 질문과 대답(FAQ)
 
@@ -130,7 +130,7 @@ Get-MsolCompanyInformation | fl allow*
      connect-msolservice -credential $msolcred
     ```
 
-   ![PowerShell을 통한 Azure Active Directory 로그인 스크린샷](media/service-admin-licensing-organization/azure-ad-sign-in.png)
+   ![PowerShell을 통한 Azure Active Directory 로그인의 스크린샷.](media/service-admin-licensing-organization/azure-ad-sign-in.png)
 
 1. 로그인한 후, 다음 명령을 실행하여 테넌트가 현재 어떻게 설정되어 있는지 확인합니다.
 

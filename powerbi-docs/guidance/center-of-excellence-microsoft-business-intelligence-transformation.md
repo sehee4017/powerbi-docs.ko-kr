@@ -8,18 +8,18 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 18dc88404b84e786bfee0a15ac169a6e0c1496e4
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: 8e1e590f871e1840209e72eb611bde7b21610c6e
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85940172"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86162370"
 ---
 # <a name="microsofts-bi-transformation"></a>Microsoft의 BI 변환
 
 이 문서는 IT 전문가와 IT 관리자를 대상으로 합니다. 지속적으로 데이터를 자산으로 활용할 수 있는 Microsoft의 BI 전략과 비전에 대해 알아봅니다. 또한 Microsoft가 Power BI를 사용하여 비즈니스 의사 결정의 데이터 문화를 촉진하는 방법도 알아봅니다.
 
-먼저 약간의 배경 설명을 하겠습니다. 오늘날 데이터 급증은 맹렬한 속도로 소비자와 비즈니스에 영향을 주고 있습니다. 이러한 데이터 집약적 환경에서 성공하려면 엄청난 양의 데이터를 간결한 인사이트로 정제하는 분석가와 경영진이 필요합니다. Microsoft의 BI 도구가 발전함에 따라 Microsoft 자체가 데이터를 탐색하고 회사에서 영향을 촉진하는 데 필요한 올바른 인사이트에 도달하는 방법이 혁신되었습니다.
+먼저 약간의 배경 설명을 하겠습니다. 오늘날 데이터 급증은 맹렬한 속도로 소비자와 비즈니스에 영향을 주고 있습니다. 이러한 데이터 집약적 환경에서 성공하려면 엄청난 양의 데이터를 간결한 인사이트로 정제하는 분석가와 경영진이 필요합니다. Microsoft의 BI 도구가 발전함에 따라 Microsoft 자체가 데이터를 탐색하고 회사에서 영향을 촉진하는 데 필요한 올바른 인사이트에 도달하는 방법이 변경되었습니다.
 
 그렇다면 조직에서 데이터로 작업하는 방식을 어떻게 혁신할 수 있을까요? 이 문서에서 공유하는 Microsoft의 BI 변환 경험 사례를 통해 이해하는 데 도움을 받으세요.
 

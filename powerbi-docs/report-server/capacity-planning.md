@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 04/02/2020
 ms.author: maggies
-ms.openlocfilehash: 25bf9d8a05805fad268152c64b5aefa36f602803
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f82a3a9e1cf207a006319e6ac7e662baaf5d9d1f
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80647660"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216567"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Power BI Report Server에 대한 용량 계획 지침
 Power BI Report Server는 셀프 서비스 BI 및 엔터프라이즈 보고 솔루션으로써 고객이 방화벽을 넘어 온-프레미스에 배포할 수 있습니다. 이 기능은 SQL Server Reporting Services의 온-프레미스 서버 플랫폼과 Power BI Desktop의 대화형 보고 기능을 결합했습니다. 기업 내에서 분석 및 보고 사용량이 지나치게 증가하면 엔터프라이즈 사용자의 기본 사항에 맞게 조정하는 데 필요한 하드웨어 인프라 및 소프트웨어 라이선스를 위한 예산 편성이 어려울 수 있습니다. 이 문서는 보고서 서버에 대한 다양한 워크로드의 다양한 부하 테스트 실행 결과를 공유하여 Power BI 보고서 서버의 용량 계획에 대한 지침을 제공하려고 합니다. 조직의 보고서, 쿼리 및 사용 패턴이 광범위하게 다른 반면 사용되는 실제 테스트 및 실행되는 방법에 대한 자세한 설명 등 이 문서에 표시되는 결과는 Power BI Report Server를 배포하는 초기 단계 계획 프로세스에 있는 모든 사용자에게 참조 사항으로 제공됩니다.
@@ -44,7 +44,7 @@ Power BI Report Server 배포는 다음과 같은 가상 컴퓨터의로 구성�
 * Power BI Report Server
 * Power BI Report Server 데이터베이스 메모리, CPU, 네트워크 및 디스크 리소스를 SQL Server 데이터베이스 엔진과 경쟁하지 않아도 되도록 보고서 서버 데이터베이스는 Power BI Report Server가 아닌 다른 컴퓨터에서 호스팅됩니다.
 
-![](media/capacity-planning/report-server-topology.png)
+![Power BI Report Server, Active Directory 및 연결된 데이터베이스 간 관계를 보여 주는 다이어그램.](media/capacity-planning/report-server-topology.png)
 
 토폴로지에 사용된 각 가상 컴퓨터의 철저한 구성은 부록 1.1 Power BI Report Server 토폴로지 및 부록 1.2 Power BI Report Server 가상 컴퓨터 구성을 참조하세요.
 
@@ -62,9 +62,9 @@ Power BI Report Server 배포는 다음과 같은 가상 컴퓨터의로 구성�
 > 이 도구는 Microsoft에서 공식적으로 지원되지 않지만, 제품 팀이 해당 프로젝트에 참여하여 다른 참가자가 제기한 문제에 대한 답변을 제공합니다.
 
 ### <a name="workloads"></a>워크로드
-테스트에 사용되는 Power BI Report Heavy 및 Paginated Report Heavy라는 2가지 워크로드 프로필이 있습니다. 다음 표에서는 Report Server에 대해 실행되는 요청의 분포를 설명합니다.
+테스트에 사용되는 두 가지 워크로드 프로필은 다음과 같습니다. Power BI Report Heavy 및 Paginated Report Heavy. 다음 표에서는 Report Server에 대해 실행되는 요청의 분포를 설명합니다.
 
-| 작업 | Power BI Report Heavy, 발생 빈도 | Paginated Report Heavy, 발생 빈도 |
+| 활동 | Power BI Report Heavy, 발생 빈도 | Paginated Report Heavy, 발생 빈도 |
 | --- | --- | --- |
 | **Power BI 보고서 렌더링** |60% |10% |
 | **Rendering paginated (RDL) 보고서** |30% |60% |
@@ -105,8 +105,8 @@ Microsoft에는 여러 팀이 사용한 Power BI Report Server의 프로덕션 �
 | 가상 컴퓨터 형식 | 프로세서 | 메모리 | Azure VM 크기 |
 | --- | --- | --- | --- |
 | **Active Directory 도메인 액세스** |2개 코어 |7GB |Standard_DS2_v2 |
-| **SQL Server 데이터베이스 엔진 및 Analysis Services** |코어 16개 |56GB |Standard_DS5_v2 |
-| **Report Server 데이터베이스** |코어 16개 |56GB |Standard_DS5_v2 |
+| **SQL Server 데이터베이스 엔진 및 Analysis Services** |16개 코어 |56GB |Standard_DS5_v2 |
+| **Report Server 데이터베이스** |16개 코어 |56GB |Standard_DS5_v2 |
 
 **1.2 Power BI Report Server Virtual Machine 구성** 
 
@@ -115,7 +115,7 @@ Power BI Report Server를 호스팅하는 Virtual Machine에 다른 구성의 �
 | 가상 컴퓨터 | 프로세서 | 메모리 | Azure VM 크기 |
 | --- | --- | --- | --- |
 | **Power BI Report Server(소규모)** |8개 코어 |32GB |Standard_D8S_v3 |
-| **Power BI Report Server(대규모)** |코어 16개 |64GB |vStandard_D16S_v3 |
+| **Power BI Report Server(대규모)** |16개 코어 |64GB |vStandard_D16S_v3 |
 
 ### <a name="2-run-the-loadtest-tool"></a>2 LoadTest 도구 실행
 Power BI Report Server의 Microsoft Azure 배포에 대해 Reporting Services LoadTest 도구를 실행하려는 경우 다음 단계를 수행합니다.
@@ -123,7 +123,7 @@ Power BI Report Server의 Microsoft Azure 배포에 대해 Reporting Services Lo
 1. GitHub(https://github.com/Microsoft/Reporting-Services-LoadTest) )에서 Reporting Services LoadTest 프로젝트를 복제합니다.  
 2. 프로젝트 디렉터리에서 RSLoadTests.sln이라는 솔루션 파일을 찾을 수 있습니다. Visual Studio 2015 이상에서 이 파일을 엽니다.
 3. Microsoft Azure에서 Power BI Report Server 배포에 대해 이 도구를 실행할지 아니면 Power BI Report Server 배포에 대해 이 도구를 실행할지를 결정합니다. 고유한 배포에 대해 실행하려는 경우 5단계로 이동합니다.
-4. https://github.com/Microsoft/Reporting-Services-LoadTest#create-a-sql-server-reporting-services-load-environment-in-azure 의 지침에 따라 Azure에서 Power BI Report Server 환경을 만듭니다.
+4. [https://github.com/Microsoft/Reporting-Services-LoadTest#create-a-sql-server-reporting-services-load-environment-in-azure](https://github.com/Microsoft/Reporting-Services-LoadTest#create-a-sql-server-reporting-services-load-environment-in-azure ) 의 지침에 따라 Azure에서 Power BI Report Server 환경을 만듭니다.
 5. 환경 배포를 완료하면 https://github.com/Microsoft/Reporting-Services-LoadTest#load-test-execution 의 지침에 따라 테스트를 실행합니다.
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

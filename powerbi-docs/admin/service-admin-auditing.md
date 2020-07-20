@@ -10,12 +10,12 @@ ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: ff61cdf25c83b1062fd7c4a471a49269d20c57a8
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 195d1284fedc9f9c51c6fed2ff03cc0883b16405
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782400"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161724"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Power BI에서 사용자 활동 추적
 
@@ -145,7 +145,7 @@ Power BI 감사 로그는 [Office 365 보안 및 준수 센터](https://sip.prot
 
 2. **Power BI 활동**을 선택합니다.
 
-   ![Power BI 작업이 표시된 감사 로그 검색의 스크린샷.](media/service-admin-auditing/audit-log-search-filter-by-powerbi.png)
+   ![Power BI 작업이 호출된 감사 로그 검색의 스크린샷.](media/service-admin-auditing/audit-log-search-filter-by-powerbi.png)
 
 3. 선택 상자 밖의 아무 곳이나 선택하여 상자를 닫습니다.
 
@@ -157,13 +157,13 @@ Power BI 감사 로그는 [Office 365 보안 및 준수 센터](https://sip.prot
 
 선택한 날짜 범위가 90일을 초과하면 오류가 표시됩니다. 최대 날짜 범위인 90일을 사용하는 경우 **시작 날짜**에 현재 시간을 선택합니다. 그렇지 않으면 시작 날짜가 종료 날짜보다 빠르다는 오류가 표시됩니다. 90일이 지나기 전에 감사를 사용하도록 설정하는 경우, 날짜 범위가 감사를 켠 날짜 이전에 시작되도록 설정할 수 없습니다.
 
-![시작 날짜 및 종료 날짜 옵션이 표시된 감사 로그 검색의 스크린샷.](media/service-admin-auditing/search-audit-log-by-date.png)
+![시작 날짜 및 종료 날짜 옵션이 호출된 감사 로그 검색의 스크린샷.](media/service-admin-auditing/search-audit-log-by-date.png)
 
 ### <a name="search-the-audit-logs-by-users"></a>사용자별 감사 로그 검색
 
 특정 사용자가 수행한 활동에 대한 감사 로그 항목을 검색할 수 있습니다. **사용자** 필드에 사용자 이름을 하나 이상 입력합니다. 사용자 이름은 이메일 주소와 비슷합니다. 사용자가 Power BI에 로그인하는 계정입니다. 조직의 모든 사용자(및 서비스 계정)에 대한 항목을 반환하려면 이 상자를 비워둡니다.
 
-![사용자별 검색](media/service-admin-auditing/search-audit-log-by-user.png)
+![사용자가 호출된 감사 로그 검색의 스크린샷.](media/service-admin-auditing/search-audit-log-by-user.png)
 
 ### <a name="view-search-results"></a>검색 결과 보기
 
@@ -198,7 +198,7 @@ Power BI 감사 로그를 CSV 파일로 내보내려면 다음 단계를 수행�
 
 1. **로드된 결과 저장** 또는 **모든 결과 다운로드**를 선택합니다.
 
-    ![결과 내보내기 옵션의 스크린샷.](media/service-admin-auditing/export-auditing-results.png)
+    ![모든 결과 다운로드가 호출된 결과 내보내기 옵션의 스크린샷.](media/service-admin-auditing/export-auditing-results.png)
 
 ### <a name="use-powershell-to-search-audit-logs"></a>PowerShell을 사용하여 감사 로그 검색
 

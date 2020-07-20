@@ -10,18 +10,18 @@ ms.topic: overview
 ms.date: 05/29/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 7628106c29be75c4eb01bc9d7d52a3c9ededb9e8
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: c3e56df49caac8b5250a4e382cab253a0a9c5210
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84272556"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161333"
 ---
 # <a name="what-is-power-bi-administration"></a>Power BI 관리란?
 
 Power BI 관리는 Power BI의 작동 방식을 제어하는 조직 전체 설정을 관리하는 것입니다. 관리자 역할에 할당된 사용자는 조직 리소스를 구성, 모니터링 및 프로비저닝합니다. 이 문서에서는 시작하는 데 도움이 되는 관리 역할, 작업 및 도구에 대한 개요를 제공합니다.
 
-![Power BI 관리 포털](media/service-admin-administering-power-bi-in-your-organization/admin-portal.png)
+![조직 전체의 설정을 보여 주는 Power BI 관리 포털의 스크린샷.](media/service-admin-administering-power-bi-in-your-organization/admin-portal.png)
 
 ## <a name="administrator-roles-related-to-power-bi"></a>Power BI와 관련된 관리자 역할
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 9e19216f9e080d73cf0965ad430dcc4839bdc617
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 11389b5986d0dd627b0077808a74db5ab2769a65
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348554"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216307"
 ---
 # <a name="connect-to-azure-search-with-power-bi"></a>Power BI로 Azure Search에 연결
 Azure Search 트래픽 분석을 사용하면 Azure Search 서비스에 대한 트래픽을 모니터링하고 이해할 수 있습니다. Power BI용 Azure Search 콘텐츠 팩은 지난 30일 동안의 검색, 인덱싱, 서비스 통계 및 대기 시간을 비롯한 검색 데이터를 자세히 제공합니다. 자세한 내용은 [Azure 블로그 게시물](https://azure.microsoft.com/blog/analyzing-your-azure-search-traffic/)에서 찾을 수 있습니다.
@@ -26,22 +26,22 @@ Azure Search 트래픽 분석을 사용하면 Azure Search 서비스에 대한 �
 ## <a name="how-to-connect"></a>연결 방법
 1. 탐색 창 아래쪽에서 **데이터 가져오기**를 선택합니다.
    
-   ![](media/service-connect-to-azure-search/pbi_getdata.png) 
+   ![탐색기 창의 단추를 보여 주는 Power BI Desktop에 있는 데이터 가져오기의 스크린샷.](media/service-connect-to-azure-search/pbi_getdata.png) 
 2. **서비스** 상자에서 **가져오기**를 선택합니다.
    
-   ![](media/service-connect-to-azure-search/pbi_getservices.png) 
+   ![가져오기 단추를 보여 주는 서비스 대화 상자의 스크린샷.](media/service-connect-to-azure-search/pbi_getservices.png) 
 3. **Azure Search** \> **가져오기**를 선택합니다.
    
-   ![](media/service-connect-to-azure-search/azuresearch.png)
+   ![가져오기 링크를 보여 주는 Azure 서비스 대화 상자의 스크린샷.](media/service-connect-to-azure-search/azuresearch.png)
 4. Azure Search 분석이 저장되는 Table Storage 계정의 이름을 제공합니다.
    
-   ![](media/service-connect-to-azure-search/params.png)
+   ![Azure Storage 계정 이름 필드를 보여 주는 Azure Search 연결 대화 상자의 스크린샷.](media/service-connect-to-azure-search/params.png)
 5. 인증 메커니즘으로 **키** 를 선택하고 스토리지 계정 키를 제공합니다. **로그인** 을 클릭하여 로드 프로세스를 시작합니다.
    
-   ![](media/service-connect-to-azure-search/creds.png)
+   ![인증 방법 필드에 키가 입력되었음을 보여 주는 Azure Search 연결 대화 상자의 스크린샷.](media/service-connect-to-azure-search/creds.png)
 6. 로드가 완료되면 새 대시보드, 보고서 및 모델이 탐색 창에 나타납니다. 대시보드를 선택하여 가져온 데이터를 표시합니다.
    
-    ![](media/service-connect-to-azure-search/dashboard2.png)
+    ![대시보드, 보고서 및 모델을 보여 주는 탐색 창의 스크린샷.](media/service-connect-to-azure-search/dashboard2.png)
 
 **다음 단계**
 

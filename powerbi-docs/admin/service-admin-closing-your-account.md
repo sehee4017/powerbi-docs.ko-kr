@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 5a84d46743522a9070c4cd9b16f7a540e3c103df
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d5028e4aaa1bbb864f14c3f3cdb58d136275e5fc
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228632"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161241"
 ---
 # <a name="close-your-power-bi-account"></a>Power BI 계정 닫기
 
@@ -34,7 +34,7 @@ Power BI를 더 이상 사용하지 않으려면 Power BI 계정을 닫을 수 �
 
 1. 계정을 닫을 이유를 선택합니다(1). 추가 정보를 제공할 수도 있습니다(2). 그런 다음 **계정 닫기**를 선택합니다.
 
-    ![계정 닫기 옵션이 표시된 계정 닫기 대화 상자의 스크린샷.](media/service-admin-closing-your-account/close-account-settings-3.png)
+    ![계정을 닫기 위한 추가 정보를 제공하는 필드를 보여 주는 계정 닫기 대화 상자의 스크린샷.](media/service-admin-closing-your-account/close-account-settings-3.png)
 
 1. 계정을 종료할 것인지 확인합니다.
 
@@ -42,12 +42,12 @@ Power BI를 더 이상 사용하지 않으려면 Power BI 계정을 닫을 수 �
 
     Power BI에서 계정을 닫았다는 확인이 표시됩니다. 필요한 경우 여기에서 계정을 다시 열 수 있습니다.
 
-    ![계정이 닫혔습니다 대화 상자의 스크린샷.](media/service-admin-closing-your-account/close-account-settings-5.png)
+    ![계정이 닫혔습니다. 확인 대화 상자의 스크린샷.](media/service-admin-closing-your-account/close-account-settings-5.png)
 
 ## <a name="managed-tenant-users"></a>관리된 테넌트 사용자
 
 조직이 Power BI에 가입한 경우 테넌트 관리자에게 문의하세요. 계정에서 라이선스를 할당 해제하도록 요청합니다.
 
-![관리형 계정 닫기](media/service-admin-closing-your-account/close-account-managed.png)
+![관리형 계정 닫기의 스크린샷.](media/service-admin-closing-your-account/close-account-managed.png)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

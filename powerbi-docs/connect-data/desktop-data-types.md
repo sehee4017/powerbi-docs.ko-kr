@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 06033a65acd090f0297a53bfbf0f0a004b68649a
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: 40f85c40abd543e4f90a1f571ce648bfc4af7d9e
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83561573"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216463"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Power BI Desktop의 데이터 형식
 이 문서에서는 Power BI Desktop 및 DAX(Data Analysis Expressions)에서 지원하는 데이터 형식을 설명합니다. 
@@ -28,11 +28,11 @@ Power BI Desktop에서는 쿼리 편집기, 데이터 보기 또는 보고서 �
 
 **쿼리 편집기의 데이터 형식**
 
-![](media/desktop-data-types/pbiddatatypesinqueryeditort.png)
+![쿼리 편집기에 표시된 데이터 형식 리본의 스크린샷.](media/desktop-data-types/pbiddatatypesinqueryeditort.png)
 
 **데이터 보기 또는 보고서 보기의 데이터 형식**
 
-![](media/desktop-data-types/pbiddatatypesindatareportview.png)
+![데이터 뷰에 표시된 데이터 형식 리본의 스크린샷.](media/desktop-data-types/pbiddatatypesindatareportview.png)
 
 쿼리 편집기의 데이터 형식 드롭다운에는 현재 데이터 또는 보고서 보기에는 없는 다음 두 가지 데이터 형식이 있습니다. **날짜/시간/표준 시간대** 및 **기간**. 이러한 데이터 형식이 있는 열을 모델에 로드하고 데이터 또는 보고서 보기에서 볼 때는 날짜/시간/표준 시간대 데이터 형식의 열은 날짜/시간으로, 기간 데이터 형식의 열은 10진수로 변환됩니다.
 

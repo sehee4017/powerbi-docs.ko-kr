@@ -10,15 +10,15 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 40844f41483fa7c4ca66e831b0766d6f41fcd83a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b7b886b5e0c21c77e0a5a6aca83fa0ae0751f435
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221325"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264121"
 ---
 # <a name="get-data-from-files-for-power-bi"></a>Power BI 파일에서 데이터 가져오기
-![](media/service-get-data-from-files/file_icons.png)
+![Excel, Power BI Desktop 및 CSV 아이콘](media/service-get-data-from-files/file_icons.png)
 
 Power BI에서는 세 가지 형식의 파일에서 데이터 및 보고서를 연결하거나 가져올 수 있습니다.
 

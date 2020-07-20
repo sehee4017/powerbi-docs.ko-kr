@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 4f1f8947827500ec89d189e17f8ab2189caaff93
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: fe93fa3f41cf1c340b31ce3c6f817f842f3039ff
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83138982"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161655"
 ---
 # <a name="using-the-same-account-for-power-bi-and-azure"></a>Power BI 및 Azure에서 동일한 계정 사용
 
@@ -32,7 +32,7 @@ Azure 및 Power BI 모두에 동일한 로그인을 사용하려면 조직 계�
 
 1. 탐색 창에서 **액세스 제어(IAM)** 를 선택한 다음, **추가** \> **공동 관리자 추가**를 선택합니다.
 
-    ![Azure Portal에서 공동 관리자 추가](media/service-admin-how-to-use-the-same-account-as-azure/add-co-administrator.png)
+    ![공동 관리자 추가가 호출된 액세스 제어의 스크린샷.](media/service-admin-how-to-use-the-same-account-as-azure/add-co-administrator.png)
 
 1. 조직 계정에 연결된 메일 주소를 입력하고 **추가**를 선택합니다.
 

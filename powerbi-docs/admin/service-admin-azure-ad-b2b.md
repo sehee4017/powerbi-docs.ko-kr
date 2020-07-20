@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 17c19fbdf1c5057d287f50531f2b679a19e3a30e
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: ca0a33f42c1b2fd466df9af59bb649ae73d7d594
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85939459"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161379"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B에서 외부 게스트 사용자에게 Power BI 콘텐츠 배포
 
@@ -62,7 +62,7 @@ Azure Portal에서 초대를 보내려면 다음 단계를 수행합니다.
 
 1. **메일 주소** 및 **개인 메시지**를 입력합니다.
 
-    ![Azure AD Portal 새 게스트 사용자 대화 상자의 스크린샷.](media/service-admin-azure-ad-b2b/azure-ad-portal-invite-message.png)
+    ![메일 및 메시지 필드가 호출된 새 게스트 사용자 대화 상자의 스크린샷.](media/service-admin-azure-ad-b2b/azure-ad-portal-invite-message.png)
 
 1. **초대**를 선택합니다.
 
@@ -70,17 +70,17 @@ Azure Portal에서 초대를 보내려면 다음 단계를 수행합니다.
 
 게스트 사용자는 받은 이메일 초대에서 **시작**을 선택해야 합니다. 그러면 게스트 사용자가 조직에 추가됩니다.
 
-![게스트 사용자 메일 초대 스크린샷.](media/service-admin-azure-ad-b2b/guest-user-invite-email.png)
+![시작이 호출된 게스트 사용자 메일 초대의 스크린샷.](media/service-admin-azure-ad-b2b/guest-user-invite-email.png)
 
 ### <a name="ad-hoc-invites"></a>임시 초대
 
 언제든지 외부 사용자를 초대하려면 외부 사용자를 대시보드에 추가하거나 공유 기능을 통해 보고서에 추가하거나 액세스 페이지를 통해 앱에 추가합니다. 다음은 앱을 사용할 외부 사용자를 초대할 때 수행할 작업의 예입니다.
 
-![Power BI의 앱 액세스 목록에 추가된 외부 사용자 스크린샷.](media/service-admin-azure-ad-b2b/power-bi-app-access.png)
+![Power BI의 앱 액세스 목록에 추가된 외부 사용자의 스크린샷.](media/service-admin-azure-ad-b2b/power-bi-app-access.png)
 
 게스트 사용자는 앱이 자신과 공유되었음을 안내하는 메일을 받게 됩니다.
 
-![게스트 사용자와 공유된 앱을 안내하는 메일 스크린샷](media/service-admin-azure-ad-b2b/guest-user-invite-email-2.png)
+![앱이 공유될 때 게스트 사용자가 받는 메일의 스크린샷.](media/service-admin-azure-ad-b2b/guest-user-invite-email-2.png)
 
 게스트 사용자가 해당 조직 이메일 주소로 로그인해야 합니다. 로그인 후 초대를 수락하라는 메시지가 표시됩니다. 로그인한 후 게스트 사용자를 위해 앱이 열립니다. 앱으로 돌아가려면 링크를 책갈피로 표시하거나, 메일을 저장해야 합니다.
 
@@ -94,19 +94,19 @@ Azure Portal에서 초대를 보내려면 다음 단계를 수행합니다.
 
 작업 영역을 [Power BI Premium 용량](service-premium-what-is.md)에 할당하면 게스트 사용자가 Power BI Pro 라이선스 없이도 앱을 사용할 수 있습니다. Power BI Premium에서는 앱이 새로 고침 비율 증대, 전용 용량, 대규모 모델 크기 등과 같은 다른 기능도 활용할 수 있습니다.
 
-![Power BI Premium을 사용한 경우 게스트 사용자 환경 다이어그램.](media/service-admin-azure-ad-b2b/license-approach-1.png)
+![Power BI Premium을 사용한 경우 게스트 사용자 환경의 다이어그램.](media/service-admin-azure-ad-b2b/license-approach-1.png)
 
 ### <a name="assign-a-power-bi-pro-license-to-guest-user"></a>게스트 사용자에게 Power BI Pro 라이선스 할당
 
 조직에서 게스트 사용자에게 Power BI Pro 라이선스를 할당하면 게스트 사용자가 공유 콘텐츠를 볼 수 있습니다. 라이선스 할당 방법에 대한 자세한 내용은 [라이선스 페이지에서 사용자에게 라이선스 할당](/office365/admin/manage/assign-licenses-to-users#assign-licenses-to-users-on-the-licenses-page)을 참조하세요. 게스트 사용자에게 Pro 라이선스를 할당하기 전에 [제품 사용 약관 사이트](https://www.microsoft.com/licensing/terms)를 참조하여 Microsoft 라이선싱 계약 조건을 준수하고 있는지 확인합니다.
 
-![테넌트에서 Pro 라이선스를 할당한 경우 게스트 사용자 환경 다이어그램.](media/service-admin-azure-ad-b2b/license-approach-2.png)
+![테넌트에서 Pro 라이선스를 할당한 경우 게스트 사용자 환경의 다이어그램.](media/service-admin-azure-ad-b2b/license-approach-2.png)
 
 ### <a name="guest-user-brings-their-own-power-bi-pro-license"></a>게스트 사용자가 자신의 Power BI Pro 라이선스 사용
 
 게스트 사용자에게 소속 조직을 통해 할당된 Power BI Pro 라이선스가 이미 있을 수 있습니다.
 
-![게스트 사용자 라이선스를 사용한 경우 게스트 사용자 환경 다이어그램.](media/service-admin-azure-ad-b2b/license-approach-3.png)
+![게스트 사용자 라이선스를 사용한 경우 게스트 사용자 환경의 다이어그램.](media/service-admin-azure-ad-b2b/license-approach-3.png)
 
 ## <a name="guest-users-who-can-edit-and-manage-content"></a>콘텐츠를 편집하고 관리할 수 있는 게스트 사용자
 
@@ -118,7 +118,7 @@ Azure Portal에서 초대를 보내려면 다음 단계를 수행합니다.
 
 2. **테넌트 URL** 옆에 있는 값을 찾습니다. 허용된 게스트 사용자와 테넌트 URL을 공유합니다.
 
-    ![게스트 사용자 테넌트 URL이 표시된 Power BI 정보 대화 상자 스크린샷.](media/service-admin-azure-ad-b2b/power-bi-about-dialog.png)
+    ![게스트 사용자 테넌트 URL이 호출된 Power BI 정보 대화 상자의 스크린샷.](media/service-admin-azure-ad-b2b/power-bi-about-dialog.png)
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 

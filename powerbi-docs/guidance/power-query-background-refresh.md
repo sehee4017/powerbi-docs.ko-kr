@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 59cb62a9186da03a265fc3a8711d7275c3772af3
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 39eef27e746e636ddb331d28a930c1cd0dca0a5d
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75623064"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214922"
 ---
 # <a name="disable-power-query-background-refresh"></a>파워 쿼리 백그라운드 새로 고침 사용 안 함
 
@@ -26,21 +26,21 @@ ms.locfileid: "75623064"
 
 ## <a name="recommendation"></a>권장 사항
 
-‘백그라운드에서’ 미리 보기 캐시를 업데이트하도록 Power BI Desktop 파일을 설정하면 새로 고침 속도가 빨라집니다.  사용하도록 설정하려면 Power BI Desktop에서 ‘파일 > 옵션 및 설정 > 옵션’을 선택하고 ‘데이터 로드’ 페이지를 선택한 다음,   **백그라운드에서 데이터 미리 보기를 다운로드하도록 허용** 옵션을 켭니다. 이 옵션은 현재 파일에 대해서만 설정할 수 있습니다.
+‘백그라운드에서’ 미리 보기 캐시를 업데이트하도록 Power BI Desktop 파일을 설정하면 새로 고침 속도가 빨라집니다. 사용하도록 설정하려면 Power BI Desktop에서 ‘파일 > 옵션 및 설정 > 옵션’을 선택하고 ‘데이터 로드’ 페이지를 선택한 다음,  **백그라운드에서 데이터 미리 보기를 다운로드하도록 허용** 옵션을 켭니다. 이 옵션은 현재 파일에 대해서만 설정할 수 있습니다.
 
-![Power BI Desktop 백그라운드 데이터 옵션](media/power-query-background-refresh/power-query-options-background-data.png)
+![백그라운드 데이터 옵션을 보여 주는 Power BI Desktop의 스크린샷.](media/power-query-background-refresh/power-query-options-background-data.png)
 
 백그라운드 새로 고침을 사용하도록 설정하면 미리 보기 데이터가 만료될 수 있습니다. 만료되면 Power Query 편집기에서 다음 경고를 표시하여 알려줍니다.
 
-![오래된 미리 보기 데이터에 대한 Power Query 편집기 경고](media/power-query-background-refresh/power-query-preview-data-old.png)
+![이전 미리 보기 데이터에 관한 Power Query 편집기 경고를 보여 주는 Power BI Desktop의 스크린샷.](media/power-query-background-refresh/power-query-preview-data-old.png)
 
 언제든지 미리 보기 캐시를 업데이트할 수 있습니다. **미리 보기 새로 고침** 명령을 사용하여 단일 쿼리 또는 모든 쿼리에 대해 업데이트할 수 있습니다. 이 명령은 Power Query 편집기 창의 **홈** 리본에 있습니다.
 
-![미리 보기 데이터를 새로 고치는 Power Query 편집기 명령](media/power-query-background-refresh/power-query-refresh-preview-data.png)
+![미리 보기 데이터를 새로 고치는 Power Query 편집기 명령을 보여 주는 Power BI Desktop의 스크린샷.](media/power-query-background-refresh/power-query-refresh-preview-data.png)
 
 ## <a name="next-steps"></a>다음 단계
 
 이 문서와 관련된 보다 자세한 내용을 알아보려면 다음 리소스를 참조하세요.
 
 - [파워 쿼리 문서](/power-query/)
-- 질문이 있으신가요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+- 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

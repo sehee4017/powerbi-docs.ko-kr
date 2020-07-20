@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b343136acb22d213c0e2ad2dfcf83fbda805e88a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d6de937f4be3c503c146c31a32c56b67ee97a8c4
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224128"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214815"
 ---
 # <a name="connect-to-a-snowflake-computing-warehouse-in-power-bi-desktop"></a>Power BI Desktop에서 Snowflake 컴퓨팅 웨어하우스에 연결
 Power BI Desktop에서 **Snowflake** 컴퓨팅 웨어하우스에 연결하고 Power BI Desktop의 다른 데이터 원본처럼 기본 데이터를 사용할 수 있습니다. 
@@ -22,15 +22,15 @@ Power BI Desktop에서 **Snowflake** 컴퓨팅 웨어하우스에 연결하고 P
 ## <a name="connect-to-a-snowflake-computing-warehouse"></a>Snowflake 컴퓨팅 웨어하우스에 연결
 **Snowflake** 컴퓨팅 웨어하우스에 연결하려면 Power BI Desktop의 **홈** 리본에서 **데이터 가져오기**를 선택합니다. 왼쪽에 있는 범주에서 **데이터베이스**를 선택하면 **Snowflake**가 표시됩니다.
 
-![](media/desktop-connect-snowflake/connect-snowflake-2b.png)
+![Snowflake 데이터베이스 선택 항목을 보여 주는 데이터 가져오기 대화 상자의 스크린샷.](media/desktop-connect-snowflake/connect-snowflake-2b.png)
 
 **Snowflake** 창이 나타나면 상자에 Snowflake 컴퓨팅 웨어하우스 이름을 입력하거나 붙여 넣고 **확인**을 선택합니다. Power BI로 데이터를 직접 **가져오거나** **DirectQuery**를 사용할 수 있습니다. [DirectQuery 사용](desktop-use-directquery.md)에 대해 자세히 알아볼 수 있습니다. AAD SSO는 DirectQuery만 지원합니다.
 
-![](media/desktop-connect-snowflake/connect-snowflake-3.png)
+![가져오기 라디오 단추를 보여 주는 Snowflake 대화 상자의 스크린샷.](media/desktop-connect-snowflake/connect-snowflake-3.png)
 
 메시지가 표시되면 사용자 이름 및 암호를 입력합니다.
 
-![](media/desktop-connect-snowflake/connect-snowflake-4.png)
+![사용자 이름 및 암호 필드를 보여 주는 Snowflake 자격 증명 프롬프트의 스크린샷.](media/desktop-connect-snowflake/connect-snowflake-4.png)
 
 > [!NOTE]
 > 특정 **Snowflake** 서버에 사용자 이름 및 암호를 입력하면 Power BI Desktop에서 후속 연결을 시도할 때에도 동일한 자격 증명을 사용합니다. **파일 > 옵션 및 설정 > 데이터 원본 설정**으로 이동하여 해당 자격 증명을 수정할 수 있습니다.

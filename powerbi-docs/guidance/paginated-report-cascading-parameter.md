@@ -8,12 +8,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 90f501b257313c48cbef13517747ff83cd9ea9d1
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 35a62923ba69520c1197e7bb80114a22ec1d9a20
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78920780"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86214103"
 ---
 # <a name="use-cascading-parameters-in-paginated-reports"></a>페이지를 매긴 보고서에서 연계 매개 변수 사용
 
@@ -60,7 +60,7 @@ ms.locfileid: "78920780"
 
 이 예에서 보고서 사용자는 다섯 개의 보고서 매개 변수와 상호 작용합니다. 사용자는 국가/지역, 시/도, 구/군/시 및 우편 번호를 선택해야 합니다. 그러면 최종 매개 변수가 해당 지리적 위치에 있는 재판매인을 나열합니다.
 
-![그림이 보여 주는 다섯 가지 보고서 매개 변수는 다음과 같습니다. Country-region, State-province, City, Postal Code, Reseller. 처음 네 매개 변수는 값이 설정되어 있으며, 재판매인 목록은 네 개 항목으로만 필터링됩니다.](media/paginated-report-cascading-parameter/filter-by-related-columns-example.png)
+![관련 열별 필터링을 보여 주는 Power BI 페이지를 매긴 보고서 매개 변수의 스크린샷.](media/paginated-report-cascading-parameter/filter-by-related-columns-example.png)
 
 다음은 연계 매개 변수를 개발하는 방법입니다.
 
@@ -134,7 +134,7 @@ ms.locfileid: "78920780"
 
 이 예에서 보고서 사용자는 보고서 매개 변수와 상호 작용하여 재판매인의 첫 번째 문자를 선택합니다. 그런 다음 두 번째 매개 변수는 선택된 문자로 이름이 시작될 때 재판매인을 나열합니다.
 
-![그림이 보여 주는 두 가지 보고서 매개 변수는 다음과 같습니다. Group, Reseller. 첫 번째 매개 변수 값은 문자 A로 설정되고, 재판매인 목록은 해당 문자로 시작하는 여러 항목으로 필터링됩니다.](media/paginated-report-cascading-parameter/filter-by-grouping-column-example.png)
+![그룹화 열별 필터링을 보여 주는 Power BI 페이지를 매긴 보고서 매개 변수의 스크린샷.](media/paginated-report-cascading-parameter/filter-by-grouping-column-example.png)
 
 다음은 연계 매개 변수를 개발하는 방법입니다.
 
@@ -196,7 +196,7 @@ GO
 
 이 예에서 보고서 사용자는 보고서 매개 변수와 상호 작용하여 검색 패턴을 입력합니다. 그런 다음 두 번째 매개 변수는 이름에 패턴이 포함될 때 재판매인을 나열합니다.
 
-![그림이 보여 주는 두 가지 보고서 매개 변수는 다음과 같습니다. Search, Reseller. 첫 번째 매개 변수 값은 텍스트 “red”로 설정되고, 재판매인 목록은 해당 텍스트를 포함하는 여러 항목으로 필터링됩니다.](media/paginated-report-cascading-parameter/filter-by-search-pattern-example.png)
+![검색 패턴별 필터링을 보여 주는 Power BI 페이지를 매긴 보고서 매개 변수의 스크린샷.](media/paginated-report-cascading-parameter/filter-by-search-pattern-example.png)
 
 다음은 연계 매개 변수를 개발하는 방법입니다.
 
@@ -242,7 +242,7 @@ WHERE
 
 이 예에서 보고서 사용자는 세 가지 보고서 매개 변수와 상호 작용합니다. 처음 두 개는 판매 주문 날짜의 날짜 범위를 설정합니다. 그러면 세 번째 매개 변수가 해당 기간 동안 주문이 생성된 재판매인을 나열합니다.
 
-![그림이 보여 주는 세 가지 보고서 매개 변수는 다음과 같습니다. Start Order Date, End Order Date, Reseller. 두 날짜 매개 변수는 2020년 1월로 설정되고, 재판매인 목록은 이 달 동안 주문한 재판매인을 나타내는 여러 항목으로 필터링됩니다.](media/paginated-report-cascading-parameter/filter-relevant-items-example.png)
+![세 가지 보고서 매개 변수를 보여 주는 Power BI 페이지를 매긴 보고서 매개 변수의 스크린샷: Start Order Date, End Order Date, Reseller.](media/paginated-report-cascading-parameter/filter-relevant-items-example.png)
 
 다음은 연계 매개 변수를 개발하는 방법입니다.
 

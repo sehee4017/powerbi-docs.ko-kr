@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 04/29/2020
-ms.openlocfilehash: f18f8b56db8635d407417949bc35adb61fb4a2c5
-ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
+ms.date: 07/08/2020
+ms.openlocfilehash: acde398c1d8954b815c86cce77a6be0cfcf1553f
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "84427556"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216663"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI의 페이지를 매긴 보고서: FAQ 
 
@@ -162,7 +162,7 @@ Microsoft Excel, Microsoft Word, Microsoft PowerPoint, PDF, .CSV, XML 및 MHTML�
 
 예, v1과 v2 모두 작업 영역에서 페이지를 매긴 보고서를 앱으로 배포하는 것을 지원됩니다. 
 
-### <a name="will-other-report-specific-features-in-power-bi-like-pinning-to-report-tiles-to-dashboards-work-with-paginated-reports"></a>보고서 타일을 대시보드에 고정하는 기능과 같이, Power BI의 다른 보고서 관련 기능이 페이지를 매긴 보고서에서도 작동하나요?
+### <a name="will-other-report-specific-features-in-power-bi-like-pinning-report-tiles-to-dashboards-work-with-paginated-reports"></a>보고서 타일을 대시보드에 고정하는 기능과 같이, Power BI의 다른 보고서 관련 기능이 페이지를 매긴 보고서에서도 작동합니까?
 
 가능한 한 보고서가 서비스의 동일한 주요 시나리오를 지원하도록 할 계획입니다.  보고서를 작성하는 도구가 달라도 소비자 관점에서는 포털의 목록에 있는 또 다른 보고서인 경우가 이상적입니다. 필요한 작업을 달성할 수 있으면 어떻게 만들어졌는지는 중요시하지 않습니다.  이 기능 패리티의 좋은 예가 계획된 주석 지원입니다. 기능 자체는 보고서 종류마다 약간 다르게 작동할 수 있으나 보고서 종류 둘 다에 대해 주석을 사용할 수 있습니다.
 

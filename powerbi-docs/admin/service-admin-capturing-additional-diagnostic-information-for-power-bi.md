@@ -10,12 +10,12 @@ ms.date: 09/17/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 670373afb5cb890c87a24a129cd43fde7bd5d892
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 49e0b85cb42b008f8d5e3e38296172e24b868fa8
+ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83128916"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86161218"
 ---
 # <a name="capture-additional-diagnostic-information-for-power-bi"></a>Power BI에 대한 추가 진단 정보 캡처
 
@@ -39,7 +39,7 @@ ms.locfileid: "83128916"
 
 1. 세션 프로파일링을 중지하려면 개발자 도구 영역의 **네트워크** 탭에서 빨간색 사각형을 선택할 수 있습니다.
 
-   ![중지 단추 설명선이 포함된 Microsoft Edge 개발자 도구 네트워크 탭의 스크린샷.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-stop.png)
+   ![중지 아이콘 설명선이 포함된 Microsoft Edge 개발자 도구 네트워크 탭의 스크린샷.](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-stop.png)
 
 1. 디스켓 아이콘을 선택하여 데이터를 HTTP Archive(HAR) 파일로 내보냅니다.
 

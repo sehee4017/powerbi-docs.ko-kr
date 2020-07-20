@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5a363a951e9c8f6cc04f825c64dce811d0a954e8
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7ce25bb448d698f8c1ce4b77e8823e96220a1792
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219324"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86264468"
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>Power BI에서 모바일 앱에 사용할 타일의 QR 코드 만들기
 Power BI의 QR 코드는 실제 세계의 모든 항목을 관련된 BI 정보에 연결할 수 있습니다. 탐색하거나 검색할 필요가 없습니다.
@@ -26,13 +26,13 @@ Power BI의 QR 코드는 실제 세계의 모든 항목을 관련된 BI 정보�
 
 ## <a name="create-a-qr-code-for-a-tile"></a>타일에 대한 QR 코드 만들기
 1. Power BI 서비스에서 대시보드를 엽니다.
-2. 타일의 오른쪽 위 모서리에 있는 **추가 옵션**(...)을 선택한 다음 **포커스 모드**![](media/service-create-qr-code-for-tile/fullscreen-icon.jpg)를 선택합니다.
+2. 타일의 오른쪽 위에 있는 **추가 옵션**(...)을 선택하고 **포커스 모드** ![전체 화면 아이콘](media/service-create-qr-code-for-tile/fullscreen-icon.jpg) 선택합니다.
 3. 오른쪽 위에 있는 **추가 옵션**(...)을 선택한 다음, **QR 코드 생성**을 선택합니다. 
    
-    ![](media/service-create-qr-code-for-tile/power-bi-create-qr-code-tile.png)
+    ![QR 코드를 생성하는 줄임표의 포인터를 보여 주는 타일의 스크린샷.](media/service-create-qr-code-for-tile/power-bi-create-qr-code-tile.png)
 4. QR 코드와 함께 대화 상자가 나타납니다. 
    
-    ![](media/service-create-qr-code-for-tile/pbi_qrcode_opportunity_count.png)
+    ![QR 코드를 다운로드하거나 저장할 준비가 되었음을 보여 주는 대화 상자의 스크린샷.](media/service-create-qr-code-for-tile/pbi_qrcode_opportunity_count.png)
 5. 여기서 QR 코드를 스캔 또는 다운로드하여 저장한 후 다음을 수행할 수 있습니다. 
    
    * 메일 또는 다른 문서에 추가 또는 

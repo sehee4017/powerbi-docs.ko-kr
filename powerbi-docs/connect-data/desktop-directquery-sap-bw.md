@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 644966663ea9d53b34861f1b33b2cab8f5fcee31
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b7cc8a159139cc53a0e243134b31305dff95812d
+ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223674"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86216443"
 ---
 # <a name="connect-to-sap-business-warehouse-by-using-directquery-in-power-bi"></a>Power BI의 DirectQuery를 사용하여 SAP Business Warehouse에 연결
 **DirectQuery**를 사용하여 **SAP BW(Business Warehouse)** 데이터 원본에 직접 연결할 수 있습니다. SAP BW의 OLAP/다차원 특성을 고려할 때 관계형 원본(예: SQL Server)과 SAP BW에 대한 DirectQuery 간에는 많은 차이점이 있습니다. 이러한 차이점은 다음과 같이 요약됩니다.
@@ -41,7 +41,7 @@ Power BI에서 DirectQuery를 사용하여 SAP BW에 연결할 때 기본적인 
 ## <a name="additional-visualization-restrictions"></a>추가 시각화 제한 사항
 Power BI에서 DirectQuery를 사용하여 SAP BW에 연결할 때 기본적인 추가 시각화 제한 사항은 다음과 같습니다.
 
-* **열 집계 없음:** 시각적 개체에 대한 열 집계를 변경할 수 없으며, 항상 *요약 안 함*입니다.
+* **열 집계 없음:** 시각적 개체에 대한 열 집계를 변경할 수 없으며, 항상 ‘요약 안 함’입니다.
 * **측정값 필터링 사용 안 함:** SAP BW에서 제공하는 지원을 반영하기 위해 측정값 필터링을 사용할 수 없습니다.
 * **다중 선택 및 포함/제외:** 데이터 요소에서 둘 이상의 열 값을 나타내는 경우 시각적 개체에 대한 데이터 요소를 여러 개 선택하는 기능을 사용할 수 없습니다. 예를 들어 범례에 있는 범주와 함께 국가별 판매를 나타내는 가로 막대형 차트가 제공되면 (미국, 자전거) 및 (프랑스, 옷)에 대한 데이터 요소를 선택할 수 없습니다. 마찬가지로 (미국, 자전거)에 대한 데이터 요소를 선택하여 시각적 개체에서 제외할 수 없습니다. 두 제한 사항은 모두 SAP BW에서 제공하는 지원을 반영하기 위해 적용됩니다.
 
@@ -56,7 +56,7 @@ Power BI에서 DirectQuery를 사용하여 SAP BW에 연결할 때 기본적인 
 | 측정 단위 |Power BI에서는 측정 단위(예: 230KG)가 반영되지 않습니다. |
 | 키 및 텍스트(짧은, 보통, 긴) |CostCenter와 같은 SAP BW 특성의 경우 필드 목록에는 단일 열 비용 센터가 표시됩니다.  해당 열을 사용하면 기본 텍스트가 표시됩니다.  숨겨진 필드를 표시하면 고유 이름 열을 표시할 수도 있으며, 이는 SAP BW에서 할당한 고유 이름을 반환하며 고유성에 대한 기준이 됩니다.<br/> <br/>  키 및 기타 텍스트 필드는 사용할 수 없습니다. |
 | 특성의 다중 계층 구조 |**SAP**에서 특성에는 여러 계층이 있을 수 있습니다. 쿼리에 이러한 특성이 포함되면 사용자는 BEx 분석기와 같은 도구에서 사용할 계층을 선택할 수 있습니다. <br/> <br/> **Power BI**의 필드 목록에서는 다양한 계층을 동일한 차원의 다른 계층으로 볼 수 있습니다.  그러나 동일한 차원에서 서로 다른 두 계층의 여러 수준을 선택하면 SAP에서 빈 데이터가 반환됩니다. |
-| 비정형 계층 구조 처리 |![](media/desktop-directquery-sap-bw/directquery-sap-bw_01.png) |
+| 비정형 계층 구조 처리 |![비정형 계층 구조의 처리를 보여 주는 비정형 콘텐츠의 스크린샷.](media/desktop-directquery-sap-bw/directquery-sap-bw_01.png) |
 | 크기 조정 인수/역 부호 |SAP에서 주요 수치에는 모든 표시의 크기가 해당 인수로 조정되는 서식 옵션으로 정의된 크기 조정 인수(예: 1000)가 있을 수 있습니다. <br/> <br/> 마찬가지로 부호를 반대로 바꾸는 속성 집합이 있을 수 있습니다. Power BI에서 시각적으로 또는 계산의 일부로 이러한 주요 수치를 사용하면 크기가 조정되지 않은 숫자가 사용되며 부호가 반대로 바뀌지 않습니다. 기본 크기 조정 인수는 사용할 수 없습니다. Power BI 시각적 개체에서는 축(K, M, B)에 표시되는 크기 조정 단위를 시각적 서식의 일부로 제어할 수 있습니다. |
 | 수준이 동적으로 표시되거나 표시되지 않는 계층 구조 |SAP BW에 처음 연결할 때 계층 구조의 수준에 대한 정보를 검색하여 필드 목록에 일단의 필드를 생성합니다. 이를 캐시하여 수준 집합이 변경되면 새로 고침을 호출할 때까지 해당 필드 집합이 변경되지 않습니다. <br/> <br/> **Power BI Desktop**에서만 이렇게 수행할 수 있습니다. 게시 후에는 Power BI 서비스에서 수준의 변경 내용을 반영하는 이러한 새로 고침을 호출할 수 없습니다. |
 | 기본 필터 |BEx 쿼리에는 SAP BEx 분석기에서 자동으로 적용하는 기본 필터가 포함될 수 있습니다. 이러한 필터는 공개되지 않으므로 Power BI에서 동일한 방법으로 사용할 경우 기본적으로 동일한 필터가 적용되지 않습니다. |

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: c40ba6827e788a51402b3aa22497b5ddde1bcdc2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9ebc5857248b2d8c764262e2f27559c1960e1884
+ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240424"
+ms.lasthandoff: 07/11/2020
+ms.locfileid: "86263310"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Windows 10용 Power BI 모바일 앱 시작
 Windows 10용 Power BI Mobile 앱은 태블릿이나 휴대폰으로 Power BI를 가져옵니다. 터치 사용이 가능한 최신 모바일 방식으로 비즈니스 정보에 액세스할 수 있습니다. 어디서든 [Windows 시작 화면](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)에서 회사 대시보드를 보고 조작할 수 있습니다.
@@ -67,12 +67,12 @@ Power BI 대시보드 샘플을 검토하고 조작할 수 있지만, 샘플로 
 
 ### <a name="reporting-services-mobile-report-samples"></a>Reporting Services 모바일 보고서 샘플
 1. 왼쪽 위 모퉁이에서 전역 탐색 단추 ![전역 탐색 단추](././media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png) 를 탭합니다.
-2. **설정** 아이콘 ![](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png)을 탭하고 **서버에 연결**을 마우스 오른쪽 단추로 클릭하거나 탭한 채로 유지한 다음 **샘플 보기**를 탭합니다.
+2. **설정** 아이콘 ![설정 아이콘](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png)을 탭하고 **서버에 연결**을 마우스 오른쪽 단추로 클릭하거나 탭한 채로 유지한 다음 **샘플 보기**를 탭합니다.
    
-   ![](media/mobile-windows-10-phone-app-get-started/power-bi-win10-connect-ssrs-samples.png)
+   ![서버에 연결하기 위한 설정 아이콘의 포인터를 보여 주는 설정 화면의 스크린샷.](media/mobile-windows-10-phone-app-get-started/power-bi-win10-connect-ssrs-samples.png)
 3. 소매 보고서 또는 판매 보고서 폴더를 열어 KPI 및 모바일 보고서를 탐색합니다.
    
-   ![](media/mobile-windows-10-phone-app-get-started/power-bi-win10-ssrs-sample-kpis.png)
+   ![KPI 및 모바일 보고서를 보여 주는 보고서의 스크린샷.](media/mobile-windows-10-phone-app-get-started/power-bi-win10-ssrs-sample-kpis.png)
 
 ## <a name="search-for-dashboards-reports-and-apps"></a>대시보드, 보고서 및 앱 검색
 앱의 위쪽에 있는 검색 상자에 입력하여 대시보드, 보고서 및 앱을 신속하게 찾습니다.
@@ -94,7 +94,7 @@ Power BI 대시보드 샘플을 검토하고 조작할 수 있지만, 샘플로 
 ![Power BI 탐색 창](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-left-nav.png)
 
 ## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>즐겨찾는 대시보드, KPI 및 보고서 보기
-모바일 앱의 즐겨찾기 페이지에서 Reporting Services KPI 및 모바일 보고서와 함께 즐겨 찾는 Power BI 대시보드를 볼 수 있습니다. Power BI 모바일 앱에서 대시보드를 즐겨찾기로 만들면 브라우저의 Power BI 서비스를 포함한 모든 디바이스에서 액세스할 수 있습니다.  
+모바일 앱의 즐겨찾기 페이지에서 Reporting Services KPI 및 모바일 보고서와 함께 즐겨 찾는 Power BI 대시보드를 볼 수 있습니다. Power BI 모바일 앱에서 대시보드를 즐겨찾기로 만들면 브라우저의 Power BI 서비스를 포함한 모든 디바이스에서 액세스할 수 있습니다. 
 
 * **즐겨찾기**를 누릅니다.
   
