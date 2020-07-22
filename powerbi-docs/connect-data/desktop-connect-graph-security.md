@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: preetikr
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c691446d7cc9a976e38cab5aefc385c988cb1552
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 9f434d27a11d171509645594a6f7f67e62c16faa
+ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347772"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "86409309"
 ---
 # <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>Power BI Desktop에서 Microsoft Graph Security API에 연결
 
@@ -32,6 +32,7 @@ Microsoft Graph 보안 커넥터를 사용하려면 Azure AD(Azure Active Direct
 |----------|-------|
 | **애플리케이션 이름** | `MicrosoftGraphSecurityPowerBIConnector` |
 | **애플리케이션 ID** | `cab163b7-247d-4cb9-be32-39b6056d4189` |
+| **URI 리디렉션** | `https://oauth.powerbi.com/views/oauthredirect.html` |
 |||
 
 커넥터에 대한 동의를 얻기 위해 Azure AD 테넌트 관리자는 다음 방법 중 하나를 사용할 수 있습니다.
