@@ -156,8 +156,6 @@
           items:
             - name: 파일에서 데이터 가져오기
               href: service-get-data-from-files.md
-            - name: Excel에서 멋진 보고서로
-              href: service-from-excel-to-stunning-report.md
             - name: Excel 통합 문서 파일에서 데이터 가져오기
               href: service-excel-workbook-files.md
             - name: Power BI Desktop 파일에서 데이터 가져오기
