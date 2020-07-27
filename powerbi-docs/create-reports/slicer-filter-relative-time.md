@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 04/22/2020
+ms.date: 07/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 056d69a866b0b56e83557e77462e03e3e00a2c8d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f1a792c7ad25600f04ca9834b1e5019d4e27efb4
+ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85218542"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "86409516"
 ---
 # <a name="use-a-relative-time-slicer-and-filter-in-power-bi"></a>Power BI에서 상대 시간 슬라이서 및 필터 사용
 
@@ -22,18 +22,12 @@ ms.locfileid: "85218542"
 
 빠른 새로 고침 시나리오가 등장하면서 더 작은 기간으로 필터링하는 기능이 유용할 수 있습니다. 상대 시간 슬라이서 또는 상대 시간 필터를 사용하면 데이터 모델의 모든 날짜 또는 시간 열에 시간 기반 필터를 적용할 수 있습니다. 예를 들어 상대 시간 슬라이서를 사용하여 지난 분 또는 시간 단위의 비디오 보기만 표시할 수 있습니다. 
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time.gif" alt-text="상대 시간 예제":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time.gif" alt-text="상대 시간 예제 스크린샷":::
 
 [자동 페이지 새로 고침](../create-reports/desktop-automatic-page-refresh.md) 기능과 함께 이 기능을 사용할 필요가 없습니다. 그러나 많은 상대 시간 시나리오는 자동 페이지 새로 고침 기능과 함께 사용됩니다.  
 
 > [!NOTE]
 > 페이지 또는 보고서 수준에서 상대 시간 필터 또는 슬라이서를 적용하면 공유 *앵커* 시간을 사용하여 해당 페이지 또는 보고서의 모든 시각적 개체가 정확히 같은 시간 범위로 필터링됩니다. 시각적 개체는 실행 시간이 약간 다를 수 있기 때문에 이 공유 앵커 시간을 사용하면 페이지 또는 보고서 전체에서 시각적 개체를 동기화할 수 있습니다. 이 문서에서 [앵커 시간](#understanding-anchor-time)에 대한 자세한 내용을 알아보세요.
-
-## <a name="turn-on-relative-time-preview"></a>상대 시간 미리 보기 설정
-
-상대 시간 필터가 미리 보기 상태이므로 기능 스위치를 설정해야 합니다. **파일** > **옵션 및 설정** > **옵션**으로 이동합니다. **전역 설정** > **미리 보기 기능**에서 **상대 시간 필터**가 선택되어 있는지 확인합니다.
-
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set-preview.png" alt-text="상대 시간 미리 보기 옵션 설정":::
 
 ## <a name="create-a-relative-time-slicer-or-filter"></a>상대 시간 슬라이서 또는 필터 만들기
 
@@ -45,7 +39,7 @@ ms.locfileid: "85218542"
 
 2. **슬라이서** 시각화 유형을 선택합니다.
 
-    :::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-create-slicer.png" alt-text="시간 슬라이서 만들기":::
+    :::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-create-slicer.png" alt-text="시간 슬라이서 만들기 스크린샷":::
 
 ### <a name="create-a-filter"></a>필터 만들기
  
@@ -55,27 +49,27 @@ ms.locfileid: "85218542"
 
 다음으로 필터 형식을 **상대 시간**으로 변경합니다.
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set.png" alt-text="상대 시간으로 변경":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set.png" alt-text="상대 시간으로 변경하는 스크린샷":::
  
 슬라이서에 다음과 같이 표시됩니다.
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-slicer.png" alt-text="슬라이서의 상대 시간":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-slicer.png" alt-text="슬라이서의 상대 시간 스크린샷":::
 
 필터 카드에 다음과 같이 표시됩니다. 
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-filter.png" alt-text="필터의 상대 시간":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-filter.png" alt-text="필터의 상대 시간 스크린샷":::
  
-이 새 필터 형식을 사용하면 **마지막**, **다음** 또는 **이 기간**을 기준으로 필터링하는 옵션이 있습니다. 
+이 새 필터 형식을 사용하면 **마지막**, **다음** 또는 **이 기간**을 기준으로 필터링할 수 있습니다. 
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-last-next.png" alt-text="마지막, 다음 또는 이 기간 선택":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-last-next.png" alt-text="마지막, 다음 또는 이 기간을 선택하는 스크린샷":::
  
 정수 및 시간 단위를 사용하여 기간을 지정합니다. **분** 또는 **시**.
  
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-minutes-hours.png" alt-text="분 또는 시 선택":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-minutes-hours.png" alt-text="분 또는 시간 선택 스크린샷":::
 
 캔버스에 공간을 저장해야 하는 경우 필터 창에서 상대 시간 필터를 필터 카드로 만들 수도 있습니다.
 
-:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set-filter.png" alt-text="대신 필터에서 상대 시간 설정":::
+:::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set-filter.png" alt-text="필터에서 상대 시간을 대신 설정하는 스크린샷":::
  
 ## <a name="understanding-anchor-time"></a>앵커 시간 이해
 
@@ -101,7 +95,7 @@ ms.locfileid: "85218542"
     - 포함 API를 통해 지원되지 않습니다.
     - 웹에 게시는 지원되지 않습니다.
 
-- **쿼리 캐싱**: 클라이언트 캐시를 활용합니다. 따라서 "최근 1분" 및 "지난 5분"을 차례로 지정한 다음 "지난 1분"으로 다시 지정한다고 가정합니다. 이때 페이지를 수동 또는 자동으로 새로 고치는 경우가 아니면 처음 실행했을 때와 같은 결과가 표시됩니다.
+- **쿼리 캐싱**: 클라이언트 캐시를 사용합니다. "최근 1분" 및 "지난 5분"을 차례로 지정한 다음 "지난 1분"으로 다시 지정한다고 가정합니다. 이때 페이지를 수동 또는 자동으로 새로 고치는 경우가 아니면 처음 실행했을 때와 같은 결과가 표시됩니다.
 
 ## <a name="next-steps"></a>다음 단계
 

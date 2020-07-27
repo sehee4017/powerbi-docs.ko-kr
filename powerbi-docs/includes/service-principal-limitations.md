@@ -7,12 +7,12 @@ ms.author: kesharab
 ms.topic: include
 ms.date: 06/06/2020
 ms.custom: include file
-ms.openlocfilehash: 8e50a529bfd398a4075ebf049ee4aec1bcf48b4d
-ms.sourcegitcommit: cd64ddd3a6888253dca3b2e3fe24ed8bb9b66bc6
+ms.openlocfilehash: 569d7dfe251183962a14de1c42d85ee2e58950af
+ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84315824"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "86401657"
 ---
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 
@@ -25,3 +25,4 @@ ms.locfileid: "84315824"
 * [데이터 흐름](../transform-model/service-dataflows-overview.md) 관리는 지원되지 않습니다.
 * 서비스 주체는 현재 모든 관리 API를 지원하지 않습니다.
 * [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview) 데이터 원본과 함께 서비스 주체를 사용하는 경우 서비스 주체 자체에 Azure Analysis Services 인스턴스 권한이 있어야 합니다. 서비스 주체가 포함된 보안 그룹을 이 목적으로 사용할 수는 없습니다.
+* 서비스 주체는 현재 게이트웨이의 데이터 원본에 액세스할 수 없습니다. 즉, 게이트웨이에서 서비스 주체를 데이터 원본 사용자로 추가할 수 없습니다.

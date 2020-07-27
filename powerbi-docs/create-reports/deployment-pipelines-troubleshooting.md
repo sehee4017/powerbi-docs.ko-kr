@@ -7,12 +7,12 @@ ms.topic: troubleshooting
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 05/06/2020
-ms.openlocfilehash: e41a13fac3e0ffea5171d2927cc0f3b9debbeef1
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: b911af4c7137aac9352c16985aac3a79a7eec87e
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485878"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557167"
 ---
 # <a name="deployment-pipelines-troubleshooting-preview"></a>배포 파이프라인 문제 해결(미리 보기)
 
@@ -110,7 +110,7 @@ Power BI의 배포 파이프라인을 이해하려면 [배포 파이프라인 �
 
 데이터 세트 규칙에 누락된 값이 있습니다. 데이터 세트가 변경된 경우 이 문제가 발생할 수 있습니다.
 
-![손상된 규칙](media/deployment-pipelines-troubleshooting/broken-rule.png)
+![끊어진 링크로 인해 배포가 실패하는 경우에 표시되는 잘못된 규칙 오류의 스크린샷](media/deployment-pipelines-troubleshooting/broken-rule.png)
 
 이전에 성공한 배포가 끊어진 링크로 인해 실패할 경우 경고가 표시됩니다. **규칙 구성**을 클릭하여 실패한 데이터 세트가 표시되는 배포 설정 창으로 이동할 수 있습니다. 데이터 세트를 클릭하면 손상된 규칙이 표시됩니다.
 

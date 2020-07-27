@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 07/08/2020
-ms.openlocfilehash: 8b777cba35f32dcf2d6561b73c350d047d473223
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 1263de975319b7b0e2ef5123d985fa50a126d680
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162278"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459603"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI Report Server에 대한 변경 로그
 
@@ -52,11 +52,12 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
 
 
 - **Power BI Desktop(Power BI Report Server에 최적화됨)**
-    - *‘버전: 2.81.5831.941(2020년 5월), 릴리스 날짜: 2020년 5월 27일*(새 빌드 및 새 버전)
+   - *‘버전: 2.81.5831.1181(2020년 5월), 릴리스 날짜: 2020년 6월 9일*
+        - 버그 수정
+           -  마켓플레이스 시각적 개체에 대한 수정
+   - *‘버전: 2.81.5831.941(2020년 5월), 릴리스 날짜: 2020년 5월 27일*(새 빌드 및 새 버전)
         - Power BI Report Server 연결에 필요한 변경 내용 포함(2020년 5월)        
-
-
-
+   
 ## <a name="january-2020"></a>2020년 1월
 - **Power BI Report Server**
     - *‘버전: 1.6.7364.4075(빌드 15.0.1102.777), 릴리스 날짜: 2020년 3월 2일*

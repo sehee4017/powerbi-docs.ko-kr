@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/08/2019
+ms.date: 07/16/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e68d860800f2265923189e470bc633589e612c11
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 785ad7b7d10a164f8257f8aacab177116c0b553b
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224147"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459626"
 ---
 # <a name="connect-to-pdf-files-in-power-bi-desktop"></a>Power BI Desktop에서 PDF 파일에 연결
 Power BI Desktop에서 Power BI Desktop의 다른 데이터 원본처럼 **PDF 파일**에 연결하여 파일에 포함된 데이터를 사용할 수 있습니다.
@@ -39,6 +39,10 @@ PDF 파일에서 검색된 요소 옆의 확인란을 선택하면 오른쪽 창
 **Power BI Desktop**의 2018년 11월 릴리스부터 PDF 연결에 대한 선택적 매개 변수로 **Start page** 및 **End Page**를 지정할 수 있습니다. 다음 형식을 사용하여 M 수식 언어로 이러한 매개 변수를 지정할 수도 있습니다.
 
 `Pdf.Tables(File.Contents("c:\sample.pdf"), [StartPage=10, EndPage=11])`
+
+## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
+
+프리미엄 용량의 데이터 세트에서 PDF 커넥터로 작업하는 경우 PDF 커넥터가 제대로 연결되지 않습니다. PDF 커넥터가 프리미엄 용량의 데이터 세트에서 작동하도록 하려면 게이트웨이를 사용하도록 데이터 세트를 구성하고 데이터 세트에 대한 연결이 게이트웨이를 통과하는지 확인합니다.  
 
 
 ## <a name="next-steps"></a>다음 단계

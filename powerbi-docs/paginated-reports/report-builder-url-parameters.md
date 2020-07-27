@@ -9,12 +9,12 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 05/01/2020
-ms.openlocfilehash: d7e11b40c3a0257e090812ff15f31916cea509f9
-ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
+ms.openlocfilehash: fd92e64ac04a31446214bd6f1661d9ba5c1358d9
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84336777"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557120"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Power BI에서 페이지를 매긴 보고서의 URL 매개 변수
 
@@ -81,7 +81,15 @@ URL에 보고서 매개 변수를 전달하는 예는  [URL에 보고서 매�
 - WORDOPENXML(WORD) 
 - CSV 
 - PDF 
+- ACCESSIBLEPDF(PDF)
 - XML 
+
+**보고서 보기** 보고서를 표시하는 데 사용되는 보기 유형을 지정합니다.
+
+-   rdl:reportView
+
+    - 'interactive'(기본값): 보고서를 대화형 모드로 로드합니다.
+    - 'pageView': 보고서를 페이지 보기 모드로 로드합니다.
 
 **매개 변수 패널 상태** 보고서가 로드될 때 매개 변수 패널이 열려 있는지 닫혀 있는지 아니면 모두 숨겨져 있는지를 지정합니다.
 
@@ -93,7 +101,7 @@ URL에 보고서 매개 변수를 전달하는 예는  [URL에 보고서 매�
 
 **장치 정보** 다음 내보내기 형식에 대한 추가 출력 매개 변수를 지정할 수 있습니다. 
 
-PDF:
+PDF / ACCESSIBLEPDF:
 
 - rdl:AccessiblePDF=true/false
 - rdl:Columns=integer

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 01/08/2020
+ms.date: 07/15/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b4146cef6ae34c7c6e5eb9713242c3a2cb0257ee
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9a3e393fa02d0bccc3e966c467b41883e72ae05e
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237764"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459649"
 ---
 # <a name="using-dataflows-with-on-premises-data-sources"></a>온-프레미스 데이터 원본으로 만든 데이터 흐름 사용
 
@@ -69,6 +69,7 @@ ms.locfileid: "85237764"
 * 게이트웨이를 변경하면 전체 데이터 흐름에 영향을 줍니다.
 * 여러 게이트웨이가 필요한 경우 여러 데이터 흐름을(게이트웨이마다 하나씩) 빌드하고 컴퓨팅 또는 엔터티 참조 기능을 사용하여 데이터를 통합하는 것이 좋습니다.
 * 데이터 흐름은 엔터프라이즈 게이트웨이를 사용하는 경우에만 지원됩니다. 개인 게이트웨이는 드롭다운 목록 및 설정 화면에서 선택할 수 없습니다.
+* [DirectQuery를 위해 Kerberos를 통한 SSO 사용 및 쿼리 가져오기](../connect-data/service-gateway-sso-kerberos.md#run-a-power-bi-report) 옵션을 사용하여 구성한 온-프레미스 데이터 원본은 데이터 흐름에서 지원되지 않습니다.
 
 
 ## <a name="next-steps"></a>다음 단계

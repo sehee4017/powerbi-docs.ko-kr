@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 05/06/2020
-ms.openlocfilehash: e76d820e804a19db148e0db4c2702e002ee2c017
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4dd5698f91177733e150577490775eefb7e2f2ef
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275918"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557189"
 ---
 # <a name="deployment-pipelines-best-practices-preview"></a>배포 파이프라인 모범 사례(미리 보기)
 
@@ -140,7 +140,7 @@ XMLA 읽기/쓰기 기능을 사용하여 외부 작업 영역에서 [공유 데
 
 테스트할 때 프로덕션 단계와 동일한 용량을 사용할 수 있습니다. 그러나 이렇게 하면 부하 테스트 중에 프로덕션이 불안정해질 수 있습니다. 프로덕션이 불안정해지는 것을 방지하려면 리소스에서 프로덕션 용량과 비슷한 다른 용량을 테스트용으로 사용합니다. 추가 비용을 방지하기 위해 [Azure A 용량](../developer/embedded/azure-pbie-create-capacity.md)을 사용하여 테스트 시간에 대해서만 비용을 지불할 수 있습니다.
 
-![배포 파이프라인 모범 사례 다이어그램](media/deployment-pipelines-best-practices/deployment-pipelines-best-practices-diagram.png)
+![프로덕션 환경을 시뮬레이트하는 테스트 환경을 포함하는 배포 파이프라인을 보여주는 다이어그램입니다.](media/deployment-pipelines-best-practices/deployment-pipelines-best-practices-diagram.png)
 
 ### <a name="use-dataset-rules-with-a-real-life-data-source"></a>실제 데이터 원본에 데이터 세트 규칙 사용
 

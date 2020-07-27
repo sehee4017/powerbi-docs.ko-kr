@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/10/2020
+ms.date: 07/15/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5a8b2934c47d3bc85b1710927fefb814f027c035
-ms.sourcegitcommit: c006d7aabf90c7b29fb05641d1f94f1ee7132943
+ms.openlocfilehash: f0eef1441eb0bb87b6e7b85e791c47174c752bc7
+ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "84685263"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "86409424"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop으로 이전 월별 업데이트
 
@@ -32,6 +32,94 @@ ms.locfileid: "84685263"
 처음부터 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
 
 다음 섹션은 이전 달들의 **Power BI Desktop**에 대한 업데이트를 설명합니다.
+
+
+## <a name="june-2020-update-2825858301"></a>2020년 6월 업데이트(2.82.5858.301)
+
+새로운 기능과 정식 출시 기능, 데이터의 세계에 뛰어들어 상호 작용할 수 있는 다양한 기회로 가득한 6월 Power BI Desktop으로 새로 시작하는 기분을 느껴 보세요. 
+
+[다운로드 센터](https://www.microsoft.com/download/details.aspx?id=58494)에서 최신 버전의 Power BI Desktop을 가져옵니다. Windows 10을 실행하는 경우 [Microsoft Store](https://aka.ms/pbidesktopstore)에서도 Power BI Desktop을 구할 수 있습니다. Power BI Desktop 설치 방법과 관계없이, 월별 버전은 버전 번호가 다르더라도 동일합니다. Power BI Desktop 다운로드 및 설치 방법에 대한 자세한 내용은 [Power BI Desktop 가져오기](desktop-get-the-desktop.md)를 참조하세요. 
+
+> [!IMPORTANT]
+> 2019년 9월 릴리스부터 Power BI Desktop은 지원되는 모든 언어를 포함하는 단일 .exe 파일로만 릴리스됩니다. .msi 버전은 더 이상 릴리스되지 않습니다.
+
+
+Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 다음과 같이 해석됩니다.
+
+* \[블로그\]: 대부분의 기능은 월별 업데이트 블로그 게시물에 설명되어 있습니다.
+* \[비디오\]: 일부 기능에는 새 브라우저 탭의 기능을 설명하는 비디오 발췌가 있습니다.
+* \[문서\]: 일부 기능에는 세부 정보를 제공하는 문서가 있습니다.
+* 나머지 기능은 설명 없이도 바로 이해할 수 있으며 문서 또는 동영상이 필요하지 않습니다.
+
+전체 [Power BI Desktop 월별 업데이트 비디오](#power-bi-desktop-monthly-update-video)도 시청할 수 있습니다.
+
+다음은 이번 달의 Power BI Desktop 업데이트입니다.
+
+
+### <a name="reporting"></a>보고
+* 모바일 레이아웃 작성 향상 [[동영상]](https://youtu.be/WUo8TnHNHYM?t=15)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_mobile) 
+* 자동 페이지 새로 고침 정식 출시 [[동영상]](https://youtu.be/WUo8TnHNHYM?t=266)  [[문서]](../create-reports/desktop-automatic-page-refresh.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_APR) 
+* 계층형 슬라이서 정식 출시  [[동영상]](https://youtu.be/WUo8TnHNHYM?t=819)  [[문서]](../create-reports/desktop-drill-through-buttons.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Hierarchical_slicer) 
+* 최신 리본 정식 출시  [[동영상]](https://youtu.be/WUo8TnHNHYM?t=1057)  [[문서]](../create-reports/desktop-ribbon.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_ribbon) 
+* Excel 데이터 형식 갤러리의 기능 설정된 테이블에서 이제 RLS 지원 [[동영상]](https://youtu.be/WUo8TnHNHYM?t=1075) [[문서]](../collaborate-share/service-excel-featured-tables.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_RLS) 
+
+
+
+### <a name="analytics"></a>분석
+* AI 인사이트 정식 출시 [[동영상]](https://youtu.be/WUo8TnHNHYM?t=1106)  [[문서]](../transform-model/desktop-ai-insights.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_AI) 
+
+
+### <a name="visuals"></a>시각적 개체
+* 꺾은선형 차트 점 서식 지정 옵션 [[동영상]](https://youtu.be/WUo8TnHNHYM?t=1262)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Line_chart)
+* 여러 공급업체의 새로운 여러 시각적 개체 [[동영상]](https://youtu.be/WUo8TnHNHYM?t=1342)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Radar)
+
+### <a name="template-apps"></a>템플릿 앱
+* Agile HR Analytics [[동영상]](https://youtu.be/WUo8TnHNHYM?t=1482)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Agile_HR_Analytics)
+* Uber 사용자 데이터 보고서 [[동영상]](https://youtu.be/WUo8TnHNHYM?t=1507)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Uber_User_Data)
+
+
+### <a name="modeling"></a>모델링
+* 라이브 연결에 대해 사용 설정된 모델 뷰(미리 보기) [[동영상]](https://youtu.be/WUo8TnHNHYM?t=1527)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Model_view_enabled)
+* 모델 뷰 업데이트 [[동영상]](https://youtu.be/WUo8TnHNHYM?t=1624)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Updates_to_Model)
+
+
+### <a name="data-connectivity"></a>데이터 연결
+* Palantir Foundry 커넥터 [[동영상]](https://youtu.be/WUo8TnHNHYM?t=1700)   [[문서]](../connect-data/desktop-data-sources.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Palantir) 
+
+
+### <a name="other-features"></a>기타 기능
+* 새 Power BI 학습 [[동영상]](https://youtu.be/WUo8TnHNHYM?t=1722)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_pbi_training) 
+
+
+각각의 새로운 기능에 대한 자세한 내용은 [Power BI Desktop 기능 요약 블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/)을 참조하세요.
+
+[Power BI 서비스의 새로운 기능](service-whats-new.md) 및 [Power BI용 모바일 앱의 새로운 기능](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)을 확인합니다.
+
+> [!NOTE]
+> [Power BI Desktop에서 사용할 수 있는 데이터 원본](../connect-data/desktop-data-sources.md)을 참조하세요. 목록에 새로운 항목이 계속 추가되고 있으므로 자주 확인하세요.
+
+
+### <a name="power-bi-desktop-monthly-update-video"></a>Power BI Desktop 월별 업데이트 비디오
+다음 동영상에서는 이러한 업데이트를 각각 설명합니다. 이 동영상은 블로그 게시물에서도 시청할 수 있습니다.
+
+> [!VIDEO https://www.youtube.com/embed/WUo8TnHNHYM]
+
+
+조직에 필요한 경우 이전 버전의 Power BI Desktop을 다운로드할 수도 있습니다. 이전 버전보다는 최신 버전의 Power BI Desktop을 사용하는 것이 좋습니다. 모든 이전 버전에는 다음과 같은 제한이 있습니다.
+
+* Power BI Desktop의 이전 릴리스에는 서비스가 제공되지 않으므로 최신 기능 및 업데이트를 사용하려면 항상 최신 릴리스를 사용해야 합니다.
+* Power BI Desktop의 최신 릴리스에서 만들거나 저장한 파일을 이전 버전의 Power BI Desktop에서 열지 못할 수 있습니다. 
+* Power BI Desktop의 최신 릴리스에서 저장한 보고서를 로드할 때 경고가 표시되어 이전 버전에 해당 보고서를 저장하는 경우 새 기능과 관련된 정보가 모두 손실됩니다.
+* Power BI Desktop의 영어 버전만 보관됩니다.
+
+이전 버전을 다운로드하려면 아래 링크를 선택하세요. 
+
+* [Power BI Desktop 2020년 6월 버전 - 32비트](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-06.exe)
+* [Power BI Desktop 2020년 6월 버전 - 64비트](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-06_x64.exe)
+
+
+
+
 
 
 

@@ -6,21 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/10/2020
+ms.date: 07/15/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: c5d8fc3eb74acb32364754385f4458f6b9441e87
-ms.sourcegitcommit: c006d7aabf90c7b29fb05641d1f94f1ee7132943
+ms.openlocfilehash: 7108ed95e28819bf90eacab86caf90dd13fa645c
+ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "84684665"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "86409332"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Power BI Desktop의 새로운 기능
 
-## <a name="june-2020-update-2825858301"></a>2020년 6월 업데이트(2.82.5858.301)
+## <a name="july-2020-update-2835894661"></a>2020년 7월 업데이트(2.83.5894.661)
 
-새로운 기능과 정식 출시 기능, 데이터의 세계에 뛰어들어 상호 작용할 수 있는 다양한 기회로 가득한 6월 Power BI Desktop으로 새로 시작하는 기분을 느껴 보세요. 
+Power BI Desktop 7월 업데이트에는 여러 혁신적인 새 기능이 포함됩니다. 
 
 [다운로드 센터](https://www.microsoft.com/download/details.aspx?id=58494)에서 최신 버전의 Power BI Desktop을 가져옵니다. Windows 10을 실행하는 경우 [Microsoft Store](https://aka.ms/pbidesktopstore)에서도 Power BI Desktop을 구할 수 있습니다. Power BI Desktop 설치 방법과 관계없이, 월별 버전은 버전 번호가 다르더라도 동일합니다. Power BI Desktop 다운로드 및 설치 방법에 대한 자세한 내용은 [Power BI Desktop 가져오기](desktop-get-the-desktop.md)를 참조하세요. 
 
@@ -41,41 +41,38 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 
 ### <a name="reporting"></a>보고
-* 모바일 레이아웃 작성 향상 [[동영상]](https://youtu.be/WUo8TnHNHYM?t=15)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_mobile) 
-* 자동 페이지 새로 고침 정식 출시 [[동영상]](https://youtu.be/WUo8TnHNHYM?t=266)  [[문서]](../create-reports/desktop-automatic-page-refresh.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_APR) 
-* 계층형 슬라이서 정식 출시  [[동영상]](https://youtu.be/WUo8TnHNHYM?t=819)  [[문서]](../create-reports/desktop-drill-through-buttons.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Hierarchical_slicer) 
-* 최신 리본 정식 출시  [[동영상]](https://youtu.be/WUo8TnHNHYM?t=1057)  [[문서]](../create-reports/desktop-ribbon.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_ribbon) 
-* Excel 데이터 형식 갤러리의 기능 설정된 테이블에서 이제 RLS 지원 [[동영상]](https://youtu.be/WUo8TnHNHYM?t=1075) [[문서]](../collaborate-share/service-excel-featured-tables.md) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_RLS) 
-
+* 그라데이션 레이아웃 [[동영상]](https://youtu.be/BCNYMJKyjEo?t=15) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Gradient_legend) 
+* 슬라이서 헤더 텍스트를 추가로 사용자 지정할 수 있는 기능  [[동영상]](https://youtu.be/BCNYMJKyjEo?t=159) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Ability_to_further) 
+* 상대 시간 필터가 일반 공급됨 [[동영상]](https://youtu.be/BCNYMJKyjEo?t=195) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Relative_time_filter) 
 
 
 ### <a name="analytics"></a>분석
-* AI 인사이트 정식 출시 [[동영상]](https://youtu.be/WUo8TnHNHYM?t=1106)  [[문서]](../transform-model/desktop-ai-insights.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_AI) 
+* 질문 및 답변 개선 사항 [[동영상]](https://youtu.be/BCNYMJKyjEo?t=214) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Enhancements_to_QA) 
 
 
 ### <a name="visuals"></a>시각적 개체
-* 꺾은선형 차트 점 서식 지정 옵션 [[동영상]](https://youtu.be/WUo8TnHNHYM?t=1262)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Line_chart)
-* 여러 공급업체의 새로운 여러 시각적 개체 [[동영상]](https://youtu.be/WUo8TnHNHYM?t=1342)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Radar)
-
-### <a name="template-apps"></a>템플릿 앱
-* Agile HR Analytics [[동영상]](https://youtu.be/WUo8TnHNHYM?t=1482)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Agile_HR_Analytics)
-* Uber 사용자 데이터 보고서 [[동영상]](https://youtu.be/WUo8TnHNHYM?t=1507)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Uber_User_Data)
+* Azure Maps 시각적 개체(미리 보기) [[동영상]](https://youtu.be/BCNYMJKyjEo?t=390) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Azure_Maps_visual)
+* XViz의 다중 축 차트 업데이트 [[동영상]](https://youtu.be/BCNYMJKyjEo?t=783)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Updates_to_Multi_Axis)
 
 
 ### <a name="modeling"></a>모델링
-* 라이브 연결에 대해 사용 설정된 모델 뷰(미리 보기) [[동영상]](https://youtu.be/WUo8TnHNHYM?t=1527)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Model_view_enabled)
-* 모델 뷰 업데이트 [[동영상]](https://youtu.be/WUo8TnHNHYM?t=1624)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Updates_to_Model)
+* Excel 재무 함수 지원 [[동영상]](https://youtu.be/BCNYMJKyjEo?t=812)   [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Support_for_Excel)
+* 라이브 연결용으로 지원되는 모델 보기가 일반 공급됨 [[동영상]](https://youtu.be/BCNYMJKyjEo?t=956) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Model_view_enabled)
 
 
-### <a name="data-connectivity"></a>데이터 연결
-* Palantir Foundry 커넥터 [[동영상]](https://youtu.be/WUo8TnHNHYM?t=1700)   [[문서]](../connect-data/desktop-data-sources.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Palantir) 
+### <a name="data-preparation"></a>데이터 준비
+* 자동 유형 검색을 사용하지 않도록 설정하는 전역 옵션 [[동영상]](https://youtu.be/BCNYMJKyjEo?t=989) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Global_option_to) 
+
+
+### <a name="template-apps"></a>템플릿 앱
+* MAQ Software의 YouTube Analytics [[동영상]](https://youtu.be/BCNYMJKyjEo?t=1035)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_YouTube_Analytics_by)
 
 
 ### <a name="other-features"></a>기타 기능
-* 새 Power BI 학습 [[동영상]](https://youtu.be/WUo8TnHNHYM?t=1722)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_pbi_training) 
+* Power BI Desktop에서 외부 도구 시작(미리 보기) [[동영상]](https://youtu.be/BCNYMJKyjEo?t=1066)   [[문서]](../create-reports/desktop-external-tools.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Launch_external_tools) 
 
 
-각각의 새로운 기능에 대한 자세한 내용은 [Power BI Desktop 기능 요약 블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/)을 참조하세요.
+각각의 새로운 기능에 대한 자세한 내용은 [Power BI Desktop 기능 요약 블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/)을 참조하세요.
 
 [Power BI 서비스의 새로운 기능](service-whats-new.md) 및 [Power BI용 모바일 앱의 새로운 기능](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)을 확인합니다.
 
@@ -86,7 +83,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 ### <a name="power-bi-desktop-monthly-update-video"></a>Power BI Desktop 월별 업데이트 비디오
 다음 동영상에서는 이러한 업데이트를 각각 설명합니다. 이 비디오는 블로그 게시물에서도 시청할 수 있습니다.
 
-> [!VIDEO https://www.youtube.com/embed/WUo8TnHNHYM]
+> [!VIDEO https://www.youtube.com/embed/BCNYMJKyjEo]
 
 ## <a name="more-videos"></a>비디오 더 보기
 

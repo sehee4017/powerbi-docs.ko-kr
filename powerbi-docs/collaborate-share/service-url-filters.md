@@ -8,20 +8,22 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/04/2020
+ms.date: 07/16/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: dc71bff7cd27ec369899a02cc9da0f916a043af1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 59e99bc44b9b438c76b72addf49beee2b69b8623
+ms.sourcegitcommit: 8b8d54d46470a311d8654abe92b5a223b696af28
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225249"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "86437267"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL에 쿼리 문자열 매개 변수를 사용하여 보고서 필터링
 
 Power BI 서비스에서 보고서를 열면 보고서의 페이지마다 고유한 URL을 보유합니다. 보고서 페이지를 필터링하려면 보고서 캔버스에서 필터 창을 사용할 수 있습니다.  또는 URL에 쿼리 문자열 매개 변수를 추가하여 보고서를 사전 필터링할 수 있습니다. 동료에게 보여 주고 싶은 보고서가 있고 이를 위해 미리 필터링하려고 할 수 있습니다. 필터링하는 한 가지 방법은 보고서에 대한 기본 URL로 시작하고, 필터 매개 변수를 URL에 추가한 다음, 새로운 전체 URL을 메일로 보내는 것입니다.
 
-![서비스의 Power BI 보고서](media/service-url-filters/power-bi-report2.png)
+이 문서에서는 소매점 분석 샘플 보고서를 사용합니다. 따라 하려면 [샘플 보고서를 다운로드](../create-reports/sample-retail-analysis.md#get-the-sample)할 수 있습니다.
+
+![서비스의 Power BI 보고서 스크린샷](media/service-url-filters/power-bi-retail-analysis-sample.png)
 
 ## <a name="uses-for-query-string-parameters"></a>쿼리 문자열 매개 변수의 용도
 
@@ -35,22 +37,14 @@ Power BI Desktop에서 작업 중이라고 가정합니다. 다른 Power BI 보�
 
 *URL*?filter=*Table*/*Field* eq '*value*'
 
-![필터가 포함된 URL](media/service-url-filters/power-bi-filter-urls7b.png)
+![필터가 있는 URL의 스크린샷](media/service-url-filters/power-bi-filter-urls7b.png)
 
 * **테이블** 및 **필드** 이름은 대소문자를 구분하고, **값**은 구분하지 않습니다.
 * 보고서 보기에서 숨겨진 필드는 계속 필터링할 수 있습니다.
 
-### <a name="reports-in-apps"></a>앱의 보고서
-
-앱의 보고서에 URL 필터를 추가하려는 경우 형식이 약간 다릅니다. 앱의 보고서에 대한 링크에는 URL에 추가되는 쿼리 매개 변수(ctid)가 있습니다. 쿼리 매개 변수를 앰퍼샌드(&)로 구분합니다. “?filter=”를 유지하고, 앞에 앰퍼샌드(&)가 추가된 URL의 끝으로 ctid 매개 변수를 이동합니다. 
-
-이 예제와 같습니다.
-
-app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter=*Table*/*Field* eq '*value*'&ctid=*ctid*
-
 ### <a name="field-types"></a>필드 형식
 
-필드 형식은 숫자, 날짜/시간 또는 문자열일 수 있고 사용된 형식은 데이터 세트에서 설정된 형식과 일치해야 합니다.  예를 들어 날짜로 설정된 데이터 세트 열에서 날짜/시간 또는 숫자 값을 찾으려는 경우(예: Table/StringColumn eq 1) “문자열” 형식의 테이블 열을 지정하는 작업은 작동하지 않습니다.
+필드 형식은 숫자, 날짜/시간 또는 문자열일 수 있고 사용된 형식은 데이터 세트에서 설정된 형식과 일치해야 합니다.  예를 들어 날짜로 설정된 데이터 세트 열에서 날짜/시간 또는 숫자 값을 찾으려는 경우(예: Table/StringColumn eq 1) “string” 형식의 테이블 열을 지정하는 작업은 작동하지 않습니다.
 
 * **문자열**은 ‘manager name’과 같이 작은따옴표로 묶여야 합니다.
 * **숫자**에는 특별한 서식 지정이 필요하지 않습니다. 자세한 내용은 이 문서의 [숫자 데이터 형식](#numeric-data-types)을 참조하세요.
@@ -62,27 +56,19 @@ app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter
 
 보고서에 대한 URL이 다음과 같다고 가정합니다.
 
-![시작 URL](media/service-url-filters/power-bi-filter-urls6.png)
+![시작 URL의 스크린샷](media/service-url-filters/power-bi-filter-urls6.png)
 
-North Carolina에 매장이 있다는 것을 맵 시각화(위)에서 확인할 수 있습니다.
+North Carolina에 매장이 있다는 것을 위의 맵 시각화에서 확인할 수 있습니다. *NC*는 **Store** 테이블의 **Territory** 필드에서 North Carolina를 나타내는 값입니다. 따라서 "NC"의 매장에 대한 데이터만 표시하도록 보고서를 필터링하려면 다음 문자열을 URL에 추가합니다.
 
->[!NOTE]
->이 예제는 [소매점 분석 샘플](../create-reports/sample-datasets.md)을 토대로 합니다.
-> 
-
-"NC"(North Carolina)의 매장에 대한 데이터만 표시하도록 보고서를 필터링하려면 다음으로 URL을 추가합니다.
-
+```
 ?filter=Store/Territory eq 'NC'
+```
 
-![필터가 포함된 URL](media/service-url-filters/power-bi-filter-urls7.png)
+![필터가 있는 URL의 스크린샷](media/service-url-filters/power-bi-filter-urls7.png)
 
->[!NOTE]
->*NC*는 **Store** 테이블의 **Territory** 필드에 저장된 값입니다.
-> 
+이제 보고서는 North Carolina에 대해 필터링되며 보고서에 있는 모든 시각화는 North Carolina에 대한 데이터만 표시합니다.
 
-보고서는 North Carolina에 대해 필터링되며 보고서 페이지에 있는 모든 시각화는 North Carolina에 대한 데이터만 표시합니다.
-
-![노스캐롤라이나로 필터링된 보고서](media/service-url-filters/power-bi-report4.png)
+![North Carolina에 대해 필터링된 보고서의 스크린샷](media/service-url-filters/power-bi-url-filter-nc.png)
 
 ## <a name="filter-on-more-than-one-value-in-a-field"></a>필드에서 둘 이상의 값을 필터링
 
@@ -92,7 +78,9 @@ North Carolina에 매장이 있다는 것을 맵 시각화(위)에서 확인할 
 
 동일한 예제를 사용하여 보고서를 필터링하여 "NC"(노스캐롤라이나) 또는 "TN"(테네시) 내 상점에 대한 데이터만 표시하려면 URL에 다음을 추가합니다.
 
+```
 ?filter=Store/Territory in ('NC', 'TN')
+```
 
 다른 유용한 연산자 목록은 이 문서의 뒷부분에 나오는 [연산자](#operators) 테이블을 참조하세요.
 
@@ -158,7 +146,7 @@ V3와 V4 사이에는 다른 점이 있습니다. OData V3는 날짜를 지원�
 
 ### <a name="special-characters-in-table-and-column-names"></a>테이블 및 열 이름의 특수 문자
 
-테이블 및 열 이름의 특수 문자와 공백에는 몇 가지 추가 서식 지정이 필요합니다. 쿼리에 공백, 대시 또는 기타 ASCII 문자가 아닌 문자가 포함되는 경우 밑줄과 X로 시작하는 ‘이스케이프 코드’( **_x**) 및 4자리 **유니코드**와 그 뒤에 다른 밑줄을 붙여 해당 특수 문자의 접두사를 지정합니다.  유니코드가 4자 미만인 경우 0으로 채워야 합니다. 몇 가지 예제는 다음과 같습니다.
+테이블 및 열 이름의 특수 문자와 공백에는 몇 가지 추가 서식 지정이 필요합니다. 쿼리에 공백, 대시 또는 기타 ASCII 문자가 아닌 문자가 포함되는 경우 밑줄과 X로 시작하는 ‘이스케이프 코드’( **_x**) 및 4자리 **유니코드**와 그 뒤에 다른 밑줄을 붙여 해당 특수 문자의 접두사를 지정합니다. 유니코드가 4자 미만인 경우 0으로 채워야 합니다. 몇 가지 예제는 다음과 같습니다.
 
 |식별자  |유니코드  | Power BI용 코딩  |
 |---------|---------|---------|
@@ -167,10 +155,10 @@ V3와 V4 사이에는 다른 점이 있습니다. OData V3는 날짜를 지원�
 |**[Column]**     |  [는 0x005B이며, ]는 0x005D입니다.       |  _x005B_Column_x005D_       |
 |**Column+Plus**     | +는 0x2B입니다.        |  Column_x002B_Plus       |
 
-Table_x0020_Name/Column_x002B_Plus eq 3 ![테이블 시각적 개체 렌더링 특수 문자](media/service-url-filters/power-bi-special-characters1.png)
+Table_x0020_Name/Column_x002B_Plus eq 3 ![특수 문자를 렌더링하는 테이블 시각적 개체의 스크린샷](media/service-url-filters/power-bi-special-characters1.png)
 
 
-Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![테이블 시각적 개체 렌더링 특수 문자](media/service-url-filters/power-bi-special-characters2.png)
+Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![특수 문자를 렌더링하는 테이블 시각적 개체의 스크린샷](media/service-url-filters/power-bi-special-characters2.png)
 
 ### <a name="special-characters-in-values"></a>값의 특수 문자
 
@@ -200,7 +188,9 @@ TerritoryChain = [Territory] & " - " & [Chain]
 
 보고서를 Power BI 서비스에 게시한 후 URL 쿼리 문자열을 사용하여 NC에 있는 Lindseys 매장으로만 표시 데이터를 필터링합니다.
 
-    https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/ReportSection3?filter=Store/TerritoryChain eq 'NC – Lindseys'
+```
+https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/ReportSection3?filter=Store/TerritoryChain eq 'NC – Lindseys'
+```
 
 ## <a name="pin-a-tile-from-a-filtered-report"></a>필터링된 보고서에서 타일 고정
 
@@ -216,6 +206,7 @@ TerritoryChain = [Territory] & " - " & [Chain]
 * 또한 Power BI Report Server는 “필터” URL 매개 변수를 사용하여 추가 필터를 지정하는 기능을 제공합니다. Power BI Report Server에서 URL은 다음과 같이 표시됩니다. `https://reportserver/reports/powerbi/Store Sales?rs:Embed=true&filter= Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'`
 * 보고서 URL 필터에는 10개 식 제한(AND로 연결된 10개의 필터)이 있습니다.
 * JavaScript 제한 때문에 Long 데이터 형식은 (2^53-1)입니다.
+* Power BI는 URL 쿼리 문자열의 문자 수를 제한하지 않습니다. 브라우저마다 길이 제한이 다릅니다.
 
 URL 필터는 일부 포함 시나리오에서 지원되며 다른 시나리오에서는 지원되지 않습니다.
 

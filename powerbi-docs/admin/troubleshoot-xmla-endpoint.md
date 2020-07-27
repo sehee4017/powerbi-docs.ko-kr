@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 06/16/2020
+ms.date: 07/16/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: be55180f57fec683b8da426e6c73bb95d6365d2f
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 5d6e3af615a73f8e4a3db42406bf94e33f16a2a3
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485533"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459672"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>XMLA 엔드포인트 연결 문제 해결
 
@@ -89,7 +89,7 @@ Power BI Premium 작업 영역의 기존 데이터 세트에서 메타데이터�
 
 테이블 형식 모델에 대해 호환성 수준을 1500 이상으로 지정하는 것이 좋습니다. 이 호환성 수준은 대부분의 기능과 데이터 원본 유형을 지원합니다. 이후 호환성 수준은 이전 수준과 호환됩니다.
 
-### <a name="unsupported-data-providers"></a>지원되지 않는 데이터 공급자
+### <a name="supported-data-providers"></a>지원되는 데이터 공급자
 
 1500 호환성 수준에서 Power BI는 다음과 같은 데이터 원본 유형을 지원합니다.
 

@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 03/24/2020
-ms.openlocfilehash: 5763c3fc72632e6e734e0dc0a32854e719709d01
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.date: 07/13/2020
+ms.openlocfilehash: 04dae0a59391ba48c7a8b6858c98ed11490ca946
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034500"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557104"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>파일로 Power BI 보고서 내보내기(미리 보기)
 
@@ -117,9 +117,10 @@ RLS를 사용하여 내보내려면 다음과 같은 권한이 있어야 합니�
 
 내보내기 작업을 만들 때 다음 세 단계를 수행해야 합니다.
 
-1. 내보내기 요청 보내기
-2. 폴링
-3. 파일 가져오기
+1. [내보내기 요청 보내기](#step-1---sending-an-export-request)
+2. [폴링](#step-2---polling)
+3. [파일 가져오기](#step-3---getting-the-file)
+4. [파일 스트림 사용](#step-4---using-the-file-stream)
 
 이 섹션에서는 각 단계에 대한 예제를 제공합니다.
 
@@ -231,6 +232,10 @@ public class ExportedFile
     public string FileSuffix;
 }
 ```
+
+### <a name="step-4---using-the-file-stream"></a>4단계 - 파일 스트림 사용
+
+파일 스트림이 있는 경우 가장 적합한 방식으로 파일 스트림을 처리할 수 있습니다. 예를 들어 파일 스트림을 메일로 보내거나 내보낸 보고서를 다운로드하는 데 사용할 수 있습니다.
 
 ### <a name="end-to-end-example"></a>엔드투엔드 예제
 

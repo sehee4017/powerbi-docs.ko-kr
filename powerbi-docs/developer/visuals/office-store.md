@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
-ms.date: 03/08/2020
-ms.openlocfilehash: 037fbdf3c1e4c01bac91e6089f9fa1c7dd1635d1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.date: 07/14/2020
+ms.openlocfilehash: 94cd4fd652fc1b06a73e1ea319a65e1aa5b46c7e
+ms.sourcegitcommit: 8b8d54d46470a311d8654abe92b5a223b696af28
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238992"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "86437218"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>파트너 센터에 Power BI 시각적 개체 게시
 
@@ -23,7 +23,7 @@ Power BI 시각적 개체를 만든 후에는 다른 사람이 검색하고 사�
 
 [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)는 Microsoft 제품 및 서비스에 대한 SaaS 앱과 추가 기능을 찾을 수 있는 곳입니다.
 
-![Office 스토어](media/office-store/appsource-01.png)
+![AppSource의 Power BI 시각적 개체 스크린샷](media/office-store/appsource-01.png)
 
 ## <a name="preparing-to-submit-your-power-bi-visual"></a>Power BI 시각적 개체 제출 준비
 
@@ -61,7 +61,7 @@ Power BI 시각적 개체를 제출하려면 Power BI 팀의 앱 패키지 XML�
 
 ## <a name="submitting-to-appsource"></a>AppSource에 제출
 
-Power BI 시각적 개체를 AppSource에 제출하려면 Power BI 팀에서 앱 패키지를 얻은 후 파트너 센터에 제출해야 합니다. 
+Power BI 시각적 개체를 AppSource에 제출하려면 Power BI 팀에서 앱 패키지를 얻은 후 파트너 센터에 제출해야 합니다.
 
 ### <a name="getting-the-app-package"></a>앱 패키지 얻기
 
@@ -73,6 +73,11 @@ Power BI 팀은 파일에서 새 Power BI 시각적 개체 제출, 기존 Power 
 
 파트너 센터에 Power BI 시각적 개체를 제출하려면 파트너 센터에 등록되어 있어야 합니다. 아직 등록하지 않은 경우 [파트너 센터에서 개발자 계정을 개설](https://docs.microsoft.com/office/dev/store/open-a-developer-account)합니다.
 
+>[!NOTE]
+>**개별 게시자**는 다음 중 한 가지 방법을 사용하여 Power BI 시각적 개체를 제출할 수 있습니다.
+>* 이전 판매자 대시보드 계정이 있는 경우 해당 계정의 자격 증명을 계속 사용하여 파트너 센터에 로그인할 수 있습니다.
+>* 이전 판매자 대시보드 계정이 없고 파트너 센터에 등록되지 않은 경우 회사 메일을 사용하여 [파트너 센터에서 개발자 계정을 열어야](https://docs.microsoft.com/office/dev/store/open-a-developer-account) 합니다.
+
 파트너 센터에 Power BI 시각적 개체를 제출하려면 다음 단계를 수행합니다. 제출 프로세스에 대한 자세한 내용은 [파트너 센터를 통해 AppSource에 Office 솔루션 제출](https://docs.microsoft.com/office/dev/store/use-partner-center-to-submit-to-appsource)을 참조하세요.
 
 1. **파트너 센터**에 로그인합니다.
@@ -83,7 +88,7 @@ Power BI 팀은 파일에서 새 Power BI 시각적 개체 제출, 기존 Power 
 
 4. **새로 만들기**를 선택하고 드롭다운 메뉴에서 **Power BI 시각적 개체**를 선택합니다.
 
-    ![Office 스토어](media/office-store/power-bi-visual.png)
+    ![파트너 센터의 Office 스토어 탭에서 새 Power BI 시각적 개체를 만드는 스크린샷](media/office-store/power-bi-visual.png)
 
 5. **새 Power BI 시각적 개체 만들기** 창에서 Power BI 시각적 개체의 이름을 입력하고 **만들기**를 선택합니다.
 

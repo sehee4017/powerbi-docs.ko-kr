@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 06/25/2020
-ms.openlocfilehash: eee8d67caab4a3d7b888396fa62debaf0aab2490
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: 002a50fd2e8e55d5ec06d7f15420ae8299861b37
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034293"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557213"
 ---
 # <a name="understand-the-deployment-process-preview"></a>배포 프로세스 이해(미리 보기)
 
@@ -152,11 +152,11 @@ ms.locfileid: "86034293"
 
 최종 사용자의 관점에서 각 앱 업데이트를 테스트할 수 있도록 각 배포 파이프라인 단계에 대한 앱을 만듭니다. 배포 파이프라인을 사용하면 이 프로세스를 쉽게 관리할 수 있습니다. 작업 영역 카드의 게시 또는 보기 단추를 사용하여 특정 파이프라인 단계에서 앱을 게시하거나 볼 수 있습니다.
 
-[![앱 게시](media/deployment-pipelines-process/publish.png "앱 게시")](media/deployment-pipelines-process/publish.png#lightbox)
+[![프로덕션 단계의 오른쪽 아래에 있는 앱 게시 단추를 강조 표시하는 스크린샷](media/deployment-pipelines-process/publish.png)](media/deployment-pipelines-process/publish.png#lightbox)
 
 프로덕션 단계에서 왼쪽 아래 모서리에 있는 주 작업 단추를 클릭하면 Power BI의 앱 업데이트 페이지가 열려 앱 사용자가 콘텐츠 업데이트를 사용할 수 있습니다.
 
-[![앱 업데이트](media/deployment-pipelines-process/update-app.png "앱 업데이트")](media/deployment-pipelines-process/update-app.png#lightbox)
+[![프로덕션 단계의 오른쪽 아래에 있는 앱 업데이트 단추를 강조 표시하는 스크린샷](media/deployment-pipelines-process/update-app.png)](media/deployment-pipelines-process/update-app.png#lightbox)
 
 >[!IMPORTANT]
 >배포 프로세스에는 앱 콘텐츠 또는 설정 업데이트가 포함되지 않습니다. 콘텐츠 또는 설정에 변경 내용을 적용하려면 필요한 파이프라인 단계에서 수동으로 앱을 업데이트해야 합니다.
