@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3cf9d59926c1a38d83f386c7ae01fbdcf1a7fc95
-ms.sourcegitcommit: a58d10ca62bc55e83b58cf8e8495ac01a4bd6532
+ms.openlocfilehash: 4af8f9edd3d51214aaa766219e4903eb4b26b813
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/20/2020
-ms.locfileid: "85120431"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252547"
 ---
 # <a name="ways-to-collaborate-and-share-in-power-bi"></a>Power BI에서 협업 및 공유하는 방법
 
@@ -73,7 +73,7 @@ Power BI 보고서 탭을 Microsoft Teams에 추가하면 Teams에서 보고서�
 
 :::image type="content" source="media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-teams-conversation-tab.png" alt-text="Microsoft Teams 대화 탭":::
 
-자세한 내용은 [Power BI를 사용하여 Microsoft Teams에서 협업](service-embed-report-microsoft-teams.md)을 참조하세요.
+자세한 내용은 [Power BI를 사용하여 Microsoft Teams에서 협업](service-collaborate-microsoft-teams.md)을 참조하세요.
 
 ## <a name="share-dashboards-and-reports"></a>대시보드 및 보고서 공유
 

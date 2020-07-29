@@ -5,19 +5,19 @@ services: powerbi
 author: maggiesMSFT
 ms.service: powerbi
 ms.topic: include
-ms.date: 06/23/2020
+ms.date: 07/24/2020
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: 9ddf9df0feaed2a2a0177d11e9b36f34135801c6
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 6a2fa7aca043c553c9174db81ff575853e526e06
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85365180"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87260224"
 ---
 |기능   | 관리자  | 멤버  | 참가자  | 뷰어 |
 |---|---|---|---|---|
-| 작업 영역 업데이트 및 삭제  |  |   |   |   | 
+| 작업 영역 업데이트 및 삭제  | ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png) |   |   |   | 
 | 다른 관리자를 비롯한 사람 추가/제거  |  ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png) |   |   |   |
 | 참가자가 작업 영역의 앱을 업데이트하도록 허용  |  ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png) |   |   |   |
 | 낮은 권한을 가진 구성원 또는 다른 사용자 추가  |  ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png) | ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |   |

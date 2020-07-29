@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: b43d52445c9a5232ba1747a9dae9333da8697f84
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: 40f1e0938f54fe55abf8148e12f8842041b42c3d
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84273072"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252777"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 서비스의 새로운 기능
 **Power BI 서비스**의 알려진 문제 및 최근에 릴리스된 기능에 대해서는 이 페이지를 확인하세요. 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -42,7 +42,7 @@ ms.locfileid: "84273072"
 
 ### <a name="february-2020"></a>2020년 2월
 * Power BI 홈에서 대시보드, 보고서 및 앱을 승격하는 기능
-* Microsoft Teams에 보고서를 포함하는 새 [Power BI 탭](../collaborate-share/service-embed-report-microsoft-teams.md)
+* Microsoft Teams에 보고서를 포함하는 새 [Power BI 탭](../collaborate-share/service-collaborate-microsoft-teams.md)
 * Power BI Pro 사용자를 지원하는 [증분 새로 고침](../admin/service-premium-incremental-refresh.md)의 일반 공급
 * 외부 전자 메일 주소에 대한 전자 메일 구독 지원
 * Power BI Premium의 [BYOK(Bring Your Own Key)](../admin/service-encryption-byok.md) 일반 공급

@@ -11,12 +11,12 @@ ms.author: kfollis
 ms.custom: MC
 ROBOTS: NOINDEX
 LocalizationGroup: Admin
-ms.openlocfilehash: cc9364129159b5527d309f125d42e661d0b4c206
-ms.sourcegitcommit: a58d10ca62bc55e83b58cf8e8495ac01a4bd6532
+ms.openlocfilehash: 099cd750328bed0b23524d6119c4d7ce91548a23
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/20/2020
-ms.locfileid: "85120562"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252041"
 ---
 # <a name="power-bi-planned-maintenance"></a>Power BI 계획된 유지 관리
 
@@ -37,7 +37,7 @@ Power BI 서비스에 대한 계획된 유지 관리는 고객에게 신뢰할 �
 * Power BI Mobile 앱 사용자는 최신 버전을 사용 중인지 확인하고 앱에서 로그아웃한 다음 다시 로그인해야 합니다. 휴대폰의 앱 스토어를 확인하거나 [Power BI Mobile](https://powerbi.microsoft.com/mobile/) 페이지를 확인하세요.
 * 로컬에서 또는 OneDrive 및 SharePoint 위치에서 조직의 시각적 개체를 사용하는 보고서를 편집하거나 게시한 고객은 조직 시각적 개체 저장소를 통해 시각적 개체를 다시 가져오거나 업데이트된 PBIX를 다운로드한 후 다시 게시해야 합니다. 조직 시각적 개체에 대한 자세한 내용은 [조직 시각적 개체](service-admin-portal.md#organization-visuals)를 참조하세요.
 * Excel에서 분석 기능을 사용하는 Excel 통합 문서가 새로 고쳐지지 않는 경우 연결 문자열을 업데이트하거나 해당 데이터 세트에 대한 ODC 연결을 다시 다운로드해야 할 수 있습니다. 자세한 내용은 [Excel에서 분석](../collaborate-share/service-analyze-in-excel.md#connect-to-power-bi-data)을 참조하세요.
-* 유지 관리가 완료되면 콘텐츠에 포함된 Power BI에 대한 링크가 연결되지 않을 수 있습니다. 예를 들어 SharePoint 또는 Teams의 포함된 링크를 사용하면 사용자 오류가 발생할 수 있습니다. 이 문제를 해결하려면 Power BI에서 포함된 링크를 다시 생성한 다음 해당 링크를 사용하는 위치를 업데이트해야 합니다. 포함된 링크에 대한 자세한 내용은 [SharePoint Online에 보고서 웹 파트 포함](../collaborate-share/service-embed-report-spo.md) 및 [Power BI를 사용하여 Microsoft Teams에서 협업](../collaborate-share/service-embed-report-microsoft-teams.md)을 참조하십시오.
+* 유지 관리가 완료되면 콘텐츠에 포함된 Power BI에 대한 링크가 연결되지 않을 수 있습니다. 예를 들어 SharePoint 또는 Teams의 포함된 링크를 사용하면 사용자 오류가 발생할 수 있습니다. 이 문제를 해결하려면 Power BI에서 포함된 링크를 다시 생성한 다음 해당 링크를 사용하는 위치를 업데이트해야 합니다. 포함된 링크에 대한 자세한 내용은 [SharePoint Online에 보고서 웹 파트 포함](../collaborate-share/service-embed-report-spo.md) 및 [Power BI를 사용하여 Microsoft Teams에서 협업](../collaborate-share/service-collaborate-microsoft-teams.md)을 참조하십시오.
 
 ## <a name="next-steps"></a>다음 단계
 

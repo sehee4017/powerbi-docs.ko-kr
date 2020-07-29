@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/05/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: def07ed0ea061c02489d6e92b9648ad1a8d0edad
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: ea161af0156aa0bee2fe92ab2f87fb82630f5589
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86035125"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252133"
 ---
 # <a name="sensitivity-labels-in-power-bi"></a>Power BI의 민감도 레이블
 
@@ -83,7 +83,7 @@ Microsoft Teams 및 SharePoint 같은 비즈니스 애플리케이션이나 조�
 
 다음과 같은 포함 시나리오가 지원됩니다.
 * [조직에 포함](../developer/embedded/embed-sample-for-your-organization.md)
-* Microsoft 365 앱(예: [Teams](../collaborate-share/service-embed-report-microsoft-teams.md) 및 [SharePoint](../collaborate-share/service-embed-report-spo.md))
+* Microsoft 365 앱(예: [Teams](../collaborate-share/service-collaborate-microsoft-teams.md) 및 [SharePoint](../collaborate-share/service-embed-report-spo.md))
 * [보안 URL 포함](../collaborate-share/service-embed-secure.md)(Power BI 서비스에서 포함) 
 
 ## <a name="sensitivity-labels-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱의 민감도 레이블

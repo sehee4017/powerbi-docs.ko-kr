@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 02/25/2020
+ms.date: 07/27/2020
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: 50d3adef65791c3fecd1a2125f67318fb8ab0298
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: eb59359497dec351c960ce0c6a3ce11b4f6eab0d
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214258"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252110"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Power BI 작업 영역에서 데이터 스토리지 관리
 
@@ -28,7 +28,7 @@ ms.locfileid: "86214258"
 ### <a name="shared-capacity-limits"></a>공유 용량 제한
 공유 용량의 작업 영역: 
 
-- 작업 영역당 스토리지가 100GB로 제한됩니다.
+- 작업 영역당 스토리지가 10GB로 제한됩니다.
 - 앱 작업 영역의 경우 총사용량은 10GB의 테넌트 스토리지 제한에 테넌트의 Pro 라이선스 수를 곱한 값을 초과할 수 없습니다.
 
 ### <a name="premium-capacity-limits"></a>프리미엄 용량 제한
