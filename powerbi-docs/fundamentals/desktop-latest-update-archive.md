@@ -6,21 +6,26 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/15/2020
+ms.date: 07/22/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f0eef1441eb0bb87b6e7b85e791c47174c752bc7
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: 01155e3ed4921a11f87acaeaf67f20772a4d01dd
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86409424"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252754"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop으로 이전 월별 업데이트
 
 이 문서는 **Power BI Desktop**에 대한 이전 업데이트를 설명합니다. 가장 최근 달의 릴리스의 경우 [**Power BI Desktop** 최신 업데이트](desktop-latest-update.md)를 확인합니다.
 
 [다운로드 센터](https://www.microsoft.com/download/details.aspx?id=58494)에서 최신 버전의 Power BI Desktop을 가져옵니다. Windows 10을 실행하는 경우 Windows 10의 Microsoft Store에서도 Power BI Desktop을 가져올 수 있습니다. Power BI Desktop 설치 방법과 관계없이, 월별 버전은 버전 번호가 다르더라도 동일합니다. Power BI Desktop 다운로드 및 설치 방법에 대한 자세한 내용은 [Power BI Desktop 가져오기](desktop-get-the-desktop.md)를 참조하세요. 
+
+
+> [!IMPORTANT]
+> Power BI Desktop은 매월 고객 피드백과 새로운 기능을 통합하여 업데이트되고 릴리스됩니다. 최신 버전의 Power BI Desktop만 지원되며, Power BI Desktop 지원을 문의하는 고객에게는 최신 버전으로 업그레이드할지 묻는 메시지가 표시됩니다. 최신 버전의 Power BI Desktop은 [Microsoft Store](https://aka.ms/pbidesktopstore)에서 가져오거나 컴퓨터에 [다운로드](https://www.microsoft.com/download/details.aspx?id=58494)하여 설치하는 지원되는 모든 언어를 포함하는 단일 실행 파일로 가져옵니다.
+
 
 각 업데이트 옆의 링크는 다음을 의미합니다.
 
