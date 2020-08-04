@@ -6,96 +6,94 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/20/2020
+ms.date: 07/24/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a872c0ada80a7168ebc6bb545de1ad474c4561b7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 00fba391a6ad92f1e3edaf0e2af9691452724f6e
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226352"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87251647"
 ---
 # <a name="access-power-bi-featured-tables-in-excel-preview"></a>Excel에서 Power BI 주요 테이블에 액세스(미리 보기)
 
-Excel의 데이터 형식 갤러리에서 Power BI 데이터 세트의 주요 테이블에서 데이터를 찾을 수 있습니다. 주요 테이블을 사용하면 보다 쉽게 엔터프라이즈 데이터를 Excel 시트에 추가할 수 있습니다. 조직에서는 Power BI 인증 및 승격된 데이터 세트 기능을 사용하여 더 많은 사용자가 관련 있고 새로 고칠 수 있는 데이터를 찾아 더 나은 결정을 내릴 수 있습니다. Excel 설명서에서 [Power BI의 Excel 데이터 형식](https://support.office.com/article/use-excel-data-types-from-power-bi-preview-cd8938ce-f963-444d-b82a-7140848241e9)을 사용하는 방법에 대해 자세히 알아보세요.
+Excel의 데이터 형식 갤러리에 있는 Power BI 데이터 세트의 ‘추천 테이블’에서 데이터를 찾을 수 있습니다. 주요 테이블을 사용하면 보다 쉽게 엔터프라이즈 데이터를 Excel 시트에 추가할 수 있습니다. Power BI 데이터를 Excel 시트로 가져오는 단계는 다음과 같습니다.
 
-데이터 형식 갤러리에는 모델러가 Power BI 데이터 세트에서 큐레이팅한 주요 테이블만 표시됩니다. 또한 Power BI에서 액세스할 수 있는 모든 데이터 세트를 Excel에서 찾아볼 수 있습니다. Excel의 **데이터 리본**에서 **데이터 가져오기** 아래에 있는 **Power BI 데이터 세트** 옵션을 선택합니다.
+- Power BI 데이터 모델러는 [Power BI에서 데이터 세트를 승격하거나 인증](../connect-data/service-datasets-promote.md)합니다.
+- 데이터 모델러는 데이터 세트에서 [추천 테이블을 식별](service-create-excel-featured-tables.md)하고 해당 데이터 세트를 Power BI 서비스에 저장합니다.
+- 조직의 나머지 부분은 관련되거나 새로 고칠 수 있는 데이터를 사용하기 위해 Excel에서 해당 추천 테이블에 연결할 수 있습니다. Excel은 해당 테이블을 ‘데이터 형식’으로 참조하고 데이터 형식 갤러리에 나열합니다.
 
-## <a name="access-power-bi-data-through-the-excel-data-types-gallery"></a>Excel 데이터 형식 갤러리를 통해 Power BI 데이터에 액세스
-Power BI 데이터 세트의 주요 테이블은 데이터 리본의 Excel 데이터 형식 갤러리에 표시됩니다.
+> [!NOTE]
+> Excel에서 Power BI로 액세스할 수 있는 데이터 세트의 데이터를 가져올 수도 있습니다. **데이터** 리본에서 **데이터 가져오기** > **Power BI에서(Microsoft)** 를 선택합니다.
+> :::image type="content" source="media/service-excel-featured-tables/excel-get-data-power-bi.png" alt-text="데이터 리본에 있는 Power BI에서 데이터 가져오기 옵션의 스크린샷.":::
 
-:::image type="content" source="media/service-excel-featured-tables/excel-data-ribbon.png" alt-text="Excel 데이터 리본":::
+## <a name="the-excel-data-types-gallery"></a>Excel 데이터 형식 갤러리
+Power BI 데이터 세트의 추천 테이블은 **데이터** 리본에 있는 Excel **데이터 형식** 갤러리에 ‘데이터 형식’으로 표시됩니다.
 
-이 리본을 확장하면 갤러리에서 사용 가능한 상위 데이터 형식이 표시됩니다.
+:::image type="content" source="media/service-excel-featured-tables/excel-data-ribbon.png" alt-text="Excel 데이터 리본에 있는 데이터 형식 갤러리의 스크린샷.":::
 
-:::image type="content" source="media/service-excel-featured-tables/excel-data-types-gallery.png" alt-text="Excel 데이터 형식 갤러리":::
+확장된 갤러리에는 **주식** 및 **지리**와 같은 일반 데이터 형식과 Power BI 데이터 세트의 추천 테이블인 사용 가능한 상위 10개 **조직** 데이터 형식이 표시됩니다.
+
+:::image type="content" source="media/service-excel-featured-tables/excel-data-types-gallery.png" alt-text="Excel 데이터 형식 갤러리의 스크린샷.":::
+
+## <a name="format-a-range-of-cells-as-a-table-optional"></a>셀 범위를 테이블로 서식 지정(선택 사항)
+
+ 시작하기 전에 데이터 서식을 Excel 테이블로 지정하는 것이 좋습니다. 이렇게 하면 한 행에서 변경한 내용이 테이블의 다른 행에 적용됩니다. 
+
+1. 열 머리글을 추가합니다. 
+2. 그런 다음, 데이터에서 셀을 선택하고 Ctrl+T를 누릅니다. 
+3. **머리글 포함** > **확인**을 선택합니다.
+
+    :::image type="content" source="media/service-excel-featured-tables/excel-format-table.png" alt-text="범위를 테이블로 변환하는 스크린샷.":::
+
+## <a name="search-for-power-bi-data-in-the-excel-data-types-gallery"></a>Excel 데이터 형식 갤러리에서 Power BI 데이터 검색
+
+Power BI 추천 테이블에서 데이터를 검색하려면 추천 테이블의 값과 일치하는 값을 포함하는 Excel 시트의 셀 또는 범위를 선택합니다. **조직**을 선택합니다. Excel은 액세스 권한이 있는 모든 추천 테이블을 검색하여 일치 항목을 찾습니다.
+
+:::image type="content" source="media/service-excel-featured-tables/excel-table-organization.png" alt-text="셀 또는 셀 범위 선택의 스크린샷.":::
  
-Power BI 주요 테이블에서 데이터를 조회하려면 Excel 시트에서 셀 또는 범위를 선택합니다.
+검색할 추천 테이블을 알고 있는 경우 갤러리에서 **조직에서(미리 보기)** 를 선택합니다.
 
-:::image type="content" source="media/service-excel-featured-tables/excel-select-cell.png" alt-text="셀 선택":::
+:::image type="content" source="media/service-excel-featured-tables/excel-organizational-data-table.png" alt-text="Excel 조직 데이터, 공급자 데이터 형식 테이블의 스크린샷.":::
  
-사용자가 액세스할 수 있는 인증된 데이터 세트의 주요 테이블에서 데이터를 검색하려면 갤러리에서 **조직 데이터** 옵션을 선택합니다.
+검색할 때 Excel이 신뢰도가 높은 일치하는 행을 찾으면 셀이 해당 행에 즉시 연결됩니다. 연결된 항목 아이콘은 셀이 Power BI의 행에 연결되어 있음을 나타냅니다.
 
-:::image type="content" source="media/service-excel-featured-tables/excel-organizational-data.png" alt-text="Excel 조직 데이터":::
+:::image type="content" source="media/service-excel-featured-tables/excel-linked-card-icon.png" alt-text="연결된 항목 아이콘의 스크린샷.":::
+
+셀에 잠재적으로 일치하는 행이 두 개 이상 있는 경우 셀에 물음표 아이콘이 표시되고 **데이터 선택기** 창이 열립니다. 다음 예제에서는 사용자가 B2:B10의 범위를 선택하고 Power BI 추천 테이블을 검색했습니다. 셀 B5 “Ma Maison”을 제외한 모든 행에 일치 항목이 있습니다. **데이터 선택기**는 두 개의 일치 가능한 항목을 보여 줍니다.
+
+:::image type="content" source="media/service-excel-featured-tables/excel-data-selector-pane.png" alt-text="Excel 데이터 선택기 창의 스크린샷.":::
  
-검색하는 데이터의 종류를 알고 있거나 조직 데이터 옵션을 사용하여 일치하는 행을 찾을 수 없는 경우 특정 데이터 형식을 선택합니다.
+조직 데이터 옵션은 여러 추천 테이블의 행을 반환할 수 있습니다. Excel은 잠재적으로 일치하는 행을 원래 데이터 형식에 따라 그룹화합니다. Excel은 가장 근사하게 일치하는 행을 기준으로 데이터 형식을 정렬합니다. 갈매기형 화살표를 사용하여 데이터 형식을 일치하는 행으로 축소/확장합니다.
 
-:::image type="content" source="media/service-excel-featured-tables/excel-select-data-type.png" alt-text="데이터 형식 선택":::
- 
-검색할 때 일치하는 행이 높은 신뢰도로 검색되는 경우 셀이 행에 즉시 연결됩니다. 연결된 항목 아이콘은 셀이 Power BI의 행에 연결되어 있음을 나타냅니다.
-
-:::image type="content" source="media/service-excel-featured-tables/excel-linked-item-icon.png" alt-text="연결된 항목 아이콘":::
-
-셀에 잠재적으로 일치하는 행이 여러 개 있으면 데이터 선택기 창이 표시됩니다. 이 셀에는 물음표 아이콘이 표시됩니다. 이 아이콘을 클릭하면 해당 행에 대한 데이터 선택기 창이 열립니다. 다음은 사용자가 A2:A7 범위를 선택하고 Power BI 추천 테이블을 검색한 예입니다.
-
-:::image type="content" source="media/service-excel-featured-tables/excel-multiple-matches.png" alt-text="여러 개의 잠재적으로 일치하는 행":::
-
-**데이터 선택기** 창에는 잠재적으로 일치하는 행이 표시됩니다.
-
-:::image type="content" source="media/service-excel-featured-tables/excel-data-selector-pane.png" alt-text="Excel 데이터 선택기 창":::
- 
-조직 데이터 옵션은 여러 데이터 형식의 행을 반환할 수 있습니다. Excel은 잠재적으로 일치하는 행을 원래 데이터 형식에 따라 그룹화합니다. Excel은 가장 근사하게 일치하는 행을 기준으로 데이터 형식을 정렬합니다. 갈매기형 화살표를 사용하여 데이터 형식을 일치하는 행으로 축소/확장합니다.
-
-:::image type="content" source="media/service-excel-featured-tables/excel-data-selector-multiple.png" alt-text="Excel 데이터 선택기 창":::
+:::image type="content" source="media/service-excel-featured-tables/excel-data-selector-multiple.png" alt-text="여러 가능성이 있는 Excel 데이터 선택기 창의 스크린샷.":::
  
 올바른 행을 선택할 수 있도록 각 행에서 행 이름을 선택하여 행 세부 정보를 확인합니다. 행을 찾았으면 **선택**을 눌러 Excel의 셀에 행을 연결합니다. 
 
-:::image type="content" source="media/service-excel-featured-tables/excel-data-selector-select.png" alt-text="데이터 선택기 세부 정보":::
+:::image type="content" source="media/service-excel-featured-tables/excel-data-selector-details.png" alt-text="데이터 선택기 세부 정보의 스크린샷.":::
  
-행이 선택되면 셀이 행에 연결되고 해당 값이 Power BI 주요 테이블의 **행 레이블** 필드 값에 연결됩니다. 
-
-:::image type="content" source="media/service-excel-featured-tables/excel-linked-item-icon.png" alt-text="Excel 연결된 항목":::
+셀의 **카드** 아이콘을 선택하면 추천 테이블의 모든 필드 및 계산 필드의 데이터가 포함된 카드가 표시됩니다. 카드의 제목에는 주요 테이블의 행 레이블 필드 값이 표시됩니다.
  
-**연결된 셀** 아이콘을 선택하면 주요 테이블의 모든 필드 및 계산 필드의 데이터가 포함된 카드가 표시됩니다. 카드의 제목에는 주요 테이블의 행 레이블 필드 값이 표시됩니다.
- 
-:::image type="content" source="media/service-excel-featured-tables/excel-linked-item-details.png" alt-text="연결된 항목 세부 정보":::
+:::image type="content" source="media/service-excel-featured-tables/excel-linked-item-details.png" alt-text="연결된 항목 세부 정보의 스크린샷.":::
 
-**데이터 삽입** 아이콘을 선택하여 필드 값을 표에 추가합니다.
+**데이터 삽입** 아이콘을 선택한 다음, 필드 목록에서 필드 이름을 선택하여 해당 값을 표에 추가합니다.  
 
-:::image type="content" source="media/service-excel-featured-tables/excel-insert-data.png" alt-text="데이터 삽입"::: 
-
-필드 목록에서 필드 이름을 선택하여 해당 값을 표에 추가합니다.  
-
-:::image type="content" source="media/service-excel-featured-tables/excel-select-field.png" alt-text="필드 이름 선택":::
+:::image type="content" source="media/service-excel-featured-tables/excel-select-field.png" alt-text="필드 이름 선택의 스크린샷.":::
 
 필드 값이 인접한 셀에 배치됩니다. 셀 수식은 연결된 셀 및 필드 이름을 참조하므로 Excel 함수에서 데이터를 사용할 수 있습니다.
 
-:::image type="content" source="media/service-excel-featured-tables/excel-cell-formula.png" alt-text="Excel 셀 수식":::
- 
-데이터를 Excel 테이블로 서식 지정하는 경우 필드를 추가하면 테이블이 확장되고 열 머리글이 필드 이름과 일치하도록 설정됩니다. 동일한 데이터 형식에 연결된 행도 해당 값으로 채워집니다.
-
-:::image type="content" source="media/service-excel-featured-tables/excel-field-column-name.png" alt-text="필드는 열 이름"::: 
+:::image type="content" source="media/service-excel-featured-tables/excel-cell-formula.png" alt-text="Excel 셀 수식의 스크린샷.":::
 
 ## <a name="cell-formulas"></a>셀 수식
 
 Excel 테이블을 사용하는 경우 연결된 테이블 열을 참조한 다음 `.`(마침표) 참조를 사용하여 데이터 필드를 추가할 수 있습니다.
 
-:::image type="content" source="media/service-excel-featured-tables/excel-dot-reference.png" alt-text="Excel 마침표 참조":::
+:::image type="content" source="media/service-excel-featured-tables/excel-dot-reference.png" alt-text="Excel 기간 참조의 스크린샷.":::
 
 마찬가지로 셀을 사용하는 경우 셀을 참조하고 `.`(마침표) 참조를 사용하여 필드를 검색할 수 있습니다.
 
-:::image type="content" source="media/service-excel-featured-tables/excel-cell-dot-reference.png" alt-text="셀 마침표 참조":::
+:::image type="content" source="media/service-excel-featured-tables/excel-cell-dot-reference.png" alt-text="셀 기간 참조의 스크린샷.":::
  
 ## <a name="data-caching-and-refresh"></a>데이터 캐싱 및 새로 고침
 
@@ -103,24 +101,25 @@ Excel이 셀을 Power BI 주요 테이블의 행에 연결할 때 Excel 파일�
 
 **데이터** 리본의 **모두 새로 고침** 단추를 사용하여 연결된 셀의 데이터를 새로 고칩니다. 
 
-:::image type="content" source="media/service-excel-featured-tables/excel-refresh-all.png" alt-text="모두 새로 고침":::
+:::image type="content" source="media/service-excel-featured-tables/excel-refresh-all.png" alt-text="모두 새로 고침의 스크린샷.":::
  
 개별 셀을 새로 고칠 수도 있습니다. 셀을 마우스 오른쪽 단추로 클릭하고 **데이터 형식** > **새로 고침**을 선택합니다.
 
 ## <a name="show-a-card-change-or-convert-to-text"></a>카드 표시, 변경 또는 텍스트로 변환
 
-연결된 셀에는 오른쪽 클릭 메뉴 옵션이 추가되었습니다. 셀을 마우스 오른쪽 단추로 클릭하고 **데이터 형식** >  
+연결된 셀에는 오른쪽 클릭 메뉴 옵션이 추가되었습니다. 셀을 마우스 오른쪽 단추로 클릭합니다. 일반 옵션과 함께 다음도 표시됩니다.
 
-- **카드 표시**
-- **새로 고침**
-- **변경** 
+- **데이터 형식 카드 표시**.
+- **새로 고침**.
+- **변경**.
 - **텍스트로 변환**을 선택합니다.
 
-:::image type="content" source="media/service-excel-featured-tables/excel-right-click-data-type.png" alt-text="마우스 오른쪽 단추 클릭, 텍스트로 변환":::
+:::image type="content" source="media/service-excel-featured-tables/excel-right-click-data-type.png" alt-text="마우스 오른쪽 단추 클릭, 텍스트로 변환의 스크린샷.":::
  
 **텍스트로 변환**은 Power BI 주요 테이블의 행에 대한 링크를 제거합니다. 중요한 점은 셀의 텍스트가 연결된 셀의 행 레이블 값이라는 것입니다. 셀을 의도하지 않는 행에 연결한 경우 Excel에서 **실행 취소**를 선택하여 초기 셀 값을 복원합니다.
 
 ## <a name="licensing"></a>라이선싱
+
 Excel 데이터 형식 갤러리와 Power BI 주요 테이블에 대한 연결된 환경은 Excel E5 및 G5 고객만 사용할 수 있습니다. 
 
 ## <a name="security"></a>보안
@@ -128,39 +127,6 @@ Excel 데이터 형식 갤러리와 Power BI 주요 테이블에 대한 연결�
 Power BI에서 사용 권한이 있는 데이터 세트의 주요 테이블만 볼 수 있습니다. 데이터를 새로 고칠 때 행을 검색하기 위해 Power BI의 데이터 세트에 액세스할 수 있는 권한이 있어야 합니다. 이를 위해 데이터 세트에 대한 빌드 또는 쓰기 권한이 필요합니다. Excel은 전체 행에 대해 반환되는 데이터를 캐시합니다. Excel 파일을 공유하는 모든 사용자는 모든 연결된 셀의 모든 필드에 대한 데이터를 볼 수 있습니다.
 
 Power BI 데이터 세트에 행 수준 보안 또는 Microsoft Information Protection 민감도 레이블이 적용된 경우 해당 데이터 세트의 주요 테이블이 Excel 데이터 형식 갤러리에 포함되지 않습니다. 이는 초기 미리 보기의 제한 사항입니다.
-
-## <a name="curate-a-featured-table-in-power-bi-desktop"></a>Power BI Desktop에서 주요 테이블 큐레이팅
-Excel 데이터 형식 갤러리에는 Power BI 서비스에 업로드된 데이터 세트의 주요 테이블이 표시됩니다. Power BI Desktop을 사용하여 데이터 모델에서 주요 테이블을 큐레이팅한 다음 Power BI 서비스에 업로드합니다.
-
-### <a name="turn-on-the-featured-table-preview"></a>주요 테이블 미리 보기 설정
-
-1. Power BI Desktop에서 **파일** > **옵션 및 설정** > **옵션** > **미리 보기 기능**을 선택합니다.
-2. **주요 테이블** 확인란을 선택합니다.
-
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-preview-featured-tables.png" alt-text="미리 보기 주요 테이블 옵션":::
-
-### <a name="select-a-table"></a>테이블 선택
-
-1. Power BI Desktop에서 모델 뷰로 이동합니다.
-
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-model-view.png" alt-text="모델 뷰":::
- 
-2. 테이블을 선택하고 **주요 테이블**을 **예**로 설정합니다.
-
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-featured-table-yes.png" alt-text="주요 테이블을 예로 설정":::
-
-4. **이 주요 테이블 설정**에서 필수 필드를 제공합니다.
-
-    - **설명**.
-    - **행 레이블** 필드 값은 사용자가 행을 쉽게 식별할 수 있도록 Excel에서 사용됩니다. 이 값은 **데이터 선택기** 창 및 **정보** 카드에 연결된 셀의 셀 값으로 표시됩니다. 
-    - **키 열** 필드 값은 행의 고유 ID를 제공합니다. Excel이 이 값을 사용하여 셀을 테이블의 특정 행에 연결할 수 있습니다.
-
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-set-up-featured-table.png" alt-text="주요 테이블 설정":::
-
-데이터 세트를 Power BI 서비스에 게시하거나 가져오면 Excel 데이터 형식 갤러리에 주요 테이블이 표시됩니다.
-
-- Excel은 데이터 형식 목록을 캐시합니다. 그러므로 새로 게시된 주요 테이블을 보려면 Excel을 다시 시작해야 합니다.
-- 일부 데이터 세트는 미리 보기에서 지원되지 않으며, 이러한 데이터 세트에 정의된 주요 테이블은 Excel에 표시되지 않습니다. 자세한 내용은 고려 사항 및 제한 사항을 참조하세요.
 
 ## <a name="administrative-control"></a>관리 제어
 
@@ -193,7 +159,7 @@ Power BI 관리자는 조직에서 Excel 데이터 형식 갤러리의 주요 �
     - 추천 테이블에 정의된 측정값
     - 관련 테이블에 정의된 측정값 및 관계에서 계산된 암시적 측정값
 
-- Excel에서는 새 Power BI 작업 영역에 저장된 주요 테이블만 표시합니다. 클래식 작업 영역 또는 내 작업 영역에 저장된 주요 테이블은 Excel에서 데이터 형식으로 표시되지 않습니다. Power BI에서 [클래식 작업 영역을 새 작업 영역으로 업그레이드](service-upgrade-workspaces.md)할 수 있습니다.
+- Excel에서는 새 Power BI 작업 영역에 저장된 추천 테이블(‘데이터 형식’)만 표시합니다. 클래식 작업 영역 또는 내 작업 영역에 저장된 주요 테이블은 Excel에서 데이터 형식으로 표시되지 않습니다. Power BI에서 [클래식 작업 영역을 새 작업 영역으로 업그레이드](service-upgrade-workspaces.md)할 수 있습니다.
 
 Excel의 데이터 형식 환경은 조회 함수와 유사합니다. Excel 시트에서 제공하는 셀 값을 사용하여 Power BI 주요 테이블에서 일치하는 행을 검색합니다. 검색 환경에는 다음과 같은 동작이 있습니다.
 
@@ -213,5 +179,7 @@ Excel의 데이터 형식 환경은 조회 함수와 유사합니다. Excel 시�
 
 ## <a name="next-steps"></a>다음 단계
 
+- [Power BI Desktop에서 추천 테이블 설정](service-create-excel-featured-tables.md)
+- Excel 설명서에서 [Power BI의 Excel 데이터 형식](https://support.office.com/article/use-excel-data-types-from-power-bi-preview-cd8938ce-f963-444d-b82a-7140848241e9)을 사용하는 방법에 대해 알아보세요.
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
 

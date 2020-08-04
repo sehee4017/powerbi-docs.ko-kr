@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: overview
-ms.date: 12/16/2019
+ms.date: 07/23/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2a67bd6c2a3d757475580d218547be689dbb99d2
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: c8d4671d55e09ca6e60599bbc0ac9802258f63ba
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216920"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252731"
 ---
 # <a name="what-is-power-bi-desktop"></a>Power BI Desktop이란?
 
@@ -30,7 +30,12 @@ Power BI Desktop의 가장 일반적인 용도는 다음과 같습니다.
 * 하나 이상의 보고서 페이지에서 시각적 개체 모음인 보고서 만들기
 * Power BI 서비스를 사용하여 다른 사용자와 보고서 공유
 
-사용자, 주로 해당 작업을 담당하는 사용자는 ‘데이터 분석가’(‘분석가’라고도 함) 또는 비즈니스 인텔리전스 전문가(‘보고서 작성자’라고도 함)로 간주되는 경우가 많습니다.   하지만 자신을 분석가나 보고서 작성자로 간주하지 않는 사용자가 Power BI Desktop을 사용하여 매력적인 보고서를 만들거나 다양한 원본에서 데이터를 끌어와 동료 및 조직과 공유할 수 있는 데이터 모델을 빌드하는 경우도 많습니다.
+사용자, 주로 해당 작업을 담당하는 사용자는 ‘데이터 분석가’(‘분석가’라고도 함) 또는 비즈니스 인텔리전스 전문가(‘보고서 작성자’라고도 함)로 간주되는 경우가 많습니다. 하지만 자신을 분석가나 보고서 작성자로 간주하지 않는 사용자가 Power BI Desktop을 사용하여 매력적인 보고서를 만들거나 다양한 원본에서 데이터를 끌어와 동료 및 조직과 공유할 수 있는 데이터 모델을 빌드하는 경우도 많습니다.
+
+
+> [!IMPORTANT]
+> Power BI Desktop은 매월 고객 피드백과 새로운 기능을 통합하여 업데이트되고 릴리스됩니다. 최신 버전의 Power BI Desktop만 지원되며, Power BI Desktop 지원을 문의하는 고객에게는 최신 버전으로 업그레이드할지 묻는 메시지가 표시됩니다. 최신 버전의 Power BI Desktop은 [Microsoft Store](https://aka.ms/pbidesktopstore)에서 가져오거나 컴퓨터에 [다운로드](https://www.microsoft.com/download/details.aspx?id=58494)하여 설치하는 지원되는 모든 언어를 포함하는 단일 실행 파일로 가져옵니다.
+
 
 Power BI Desktop에서 사용할 수 있는 뷰는 세 가지가 있으며, 이러한 뷰는 캔버스 왼쪽에서 선택할 수 있습니다. 뷰는 다음과 같은 순서로 표시됩니다.
 * **보고서**: 이 뷰에서는 보고서 및 시각적 개체를 만듭니다. 대부분의 작성 시간 동안 이 뷰에서 작업합니다.
@@ -81,7 +86,7 @@ Power Query 편집기를 시작하려면 다음을 수행합니다.
 
 ## <a name="create-visuals"></a>시각적 개체 만들기 
 
-데이터 모델이 있으면 ‘필드’를 보고서 캔버스로 끌어 ‘시각적 개체’를 만들 수 있습니다.  시각적 개체는 모델의 데이터를 그래픽으로 표현한 것입니다. Power BI Desktop에서 선택할 수 있는 다양한 유형의 시각적 개체가 있습니다. 다음 시각적 개체는 단순 세로 막대형 차트를 표시합니다. 
+데이터 모델이 있으면 ‘필드’를 보고서 캔버스로 끌어 ‘시각적 개체’를 만들 수 있습니다. 시각적 개체는 모델의 데이터를 그래픽으로 표현한 것입니다. Power BI Desktop에서 선택할 수 있는 다양한 유형의 시각적 개체가 있습니다. 다음 시각적 개체는 단순 세로 막대형 차트를 표시합니다. 
 
 ![샘플 가로 막대형 차트를 보여 주는 Power BI Desktop의 스크린샷.](media/desktop-what-is-desktop/what-is-desktop_04.png)
 
@@ -128,5 +133,5 @@ Power BI Desktop 보고서를 게시하려면 다음을 수행합니다.
 Power BI Desktop을 시작하려면 먼저 애플리케이션을 다운로드하여 설치해야 합니다. Power BI Desktop을 가져오는 방법은 두 가지가 있습니다.
 
 * [Windows 스토어에서 Power BI Desktop 가져오기](https://aka.ms/pbidesktopstore)
-* [웹에서 Power BI Desktop 다운로드](https://docs.microsoft.com/power-bi/desktop-get-the-desktop#download-power-bi-desktop-directly)
+* [웹에서 Power BI Desktop 다운로드](https://www.microsoft.com/download/details.aspx?id=58494)
 

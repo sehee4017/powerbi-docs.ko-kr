@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 07/16/2020
+ms.date: 07/22/2020
 ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7fecec5ed41f0de9227cf30ed3ba4f39b23f21e9
-ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
+ms.openlocfilehash: 92c3a65b11435403b61a06324f534e6d82e4b7cb
+ms.sourcegitcommit: efe11c819be75887c4242afa64d32bb0698da569
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "86459557"
+ms.lasthandoff: 07/24/2020
+ms.locfileid: "87123491"
 ---
 # <a name="manage-data-sources"></a>데이터 원본 관리
 
@@ -44,6 +44,9 @@ API를 사용하여 대부분의 데이터 원본 관리 작업을 수행할 수
     ![데이터 원본 설정](media/service-gateway-data-sources/data-source-settings.png)
 
 5. SQL Server의 경우 **Windows** 또는 **기본**(SQL 인증)의 **인증 방법**을 선택합니다. **기본**을 선택하는 경우 데이터 원본에 대한 자격 증명을 입력합니다.
+
+    > [!NOTE]
+    > 선택한 인증 방법이 OAuth인 경우 OAuth 토큰 만료 정책보다 오래 실행되는 모든 쿼리가 실패할 수 있습니다.
 
 6. **고급 설정**에서 데이터 원본에 대해 [SSO(Single Sign-on)](service-gateway-sso-overview.md)를 구성할 수 있습니다. 
 

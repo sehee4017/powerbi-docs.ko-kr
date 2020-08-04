@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0d388127ab42c4f60d1e08efea6b3fdbbbf7045b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ca04a5404f0868f85a9c7ed840109efe6d213760
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238819"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86952642"
 ---
 # <a name="consume-power-bi-reports-by-using-accessibility-features"></a>접근성 기능을 사용하여 Power BI 보고서 사용
 Power BI에는 장애가 있는 사람이 Power BI 보고서를 보다 쉽게 사용하고 조작할 수 있게 해주는 여러 기본 제공 기능이 있습니다. 이러한 도구를 통해 사용자는 보조 기술을 사용하지 않는 사람과 동일한 정보를 보고서에서 얻을 수 있습니다.
@@ -30,7 +30,7 @@ Power BI에는 장애가 있는 사람이 Power BI 보고서를 보다 쉽게 �
 
 ## <a name="keyboard-navigation"></a>키보드 탐색
 
-Power BI Desktop 또는 Power BI 서비스를 시작하는 경우, **Tab** 키를 누르는 즉시 오른쪽 위에 도구 설명이 표시됩니다. **화면 읽기 프로그램으로 Power BI를 사용하는 방법의 팁** 링크를 클릭하면 이 문서로 이동하고, 접근성 도구로 보고서를 사용하는 방법에 대한 정보가 제공됩니다. **주 콘텐츠로 건너뛰기** 링크를 클릭하면 보고서 캔버스로 이동합니다.
+Power BI Desktop 또는 Power BI 서비스를 시작하는 경우 **Tab** 키를 누르는 즉시 오른쪽 위에 도구 설명이 표시됩니다. **화면 읽기 프로그램으로 Power BI를 사용하는 방법의 팁** 링크를 클릭하면 이 문서로 이동하고, 접근성 도구로 보고서를 사용하는 방법에 대한 정보가 제공됩니다. **주 콘텐츠로 건너뛰기** 링크를 클릭하면 보고서 캔버스로 이동합니다.
 
 ![Tab 키를 눌러 접근성 팁 확인](media/desktop-accessibility/accessibility-consuming-tools-02.png)
 
@@ -94,7 +94,7 @@ Power BI Desktop 또는 Power BI 서비스를 시작하는 경우, **Tab** 키�
 
 ![데이터 표시](media/desktop-accessibility/accessibility-04.png)
 
-**데이터 표시** 기능은 이 바로 가기 키를 통해서만 화면 읽기 프로그램에서 액세스할 수 있는 HTML 테이블입니다. 시각적 개체 머리글의 옵션을 통해 **데이터 표시**를 열면, 화면 읽기 프로그램과 호환되지 ‘않는’ 테이블이 표시됩니다.   바로 가기 키를 통해 **데이터 표시**를 사용하는 경우, 화면 읽기 프로그램에서 제공하는 바로 가기 키를 모두 활용하려면 스캔 모드를 켭니다.
+**데이터 표시** 기능은 이 바로 가기 키를 통해서만 화면 읽기 프로그램에서 액세스할 수 있는 HTML 테이블입니다. 시각적 개체 머리글의 옵션을 통해 **데이터 표시**를 열면, 화면 읽기 프로그램과 호환되지 ‘않는’ 테이블이 표시됩니다.  바로 가기 키를 통해 **데이터 표시**를 사용하는 경우, 화면 읽기 프로그램에서 제공하는 바로 가기 키를 모두 활용하려면 스캔 모드를 켭니다.
 
 **데이터 표시** 뷰를 종료하고 보고서로 돌아가려면 **Esc** 키를 누릅니다.
 
@@ -114,5 +114,3 @@ Power BI 접근성에 대한 문서 컬렉션은 다음과 같습니다.
 * [접근성 도구를 사용하여 Power BI 보고서 만들기](desktop-accessibility-creating-tools.md)
 * [Power BI 보고서의 접근성 바로 가기 키](desktop-accessibility-keyboard-shortcuts.md)
 * [보고서 접근성 검사 목록](desktop-accessibility-creating-reports.md#report-accessibility-checklist)
-
-

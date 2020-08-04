@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: a797547562a8968591ca6551f85a56e0da98d680
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: ee123bed8940b52a66f3b0f860671a87210c261f
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83793280"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86952688"
 ---
 # <a name="where-is-my-power-bi-tenant-located"></a>내 Power BI 테넌트는 어디에 있습니까?
 
@@ -34,7 +34,7 @@ Power BI 테넌트의 위치와 해당 위치를 선택하는 방법에 대해 �
 
 ## <a name="how-the-data-region-is-selected"></a>데이터 영역을 선택하는 방법
 
-데이터 영역은 테넌트를 만들 때 선택한 국가에 따라 다릅니다. 이 정보를 공유하기 때문에 Microsoft 365 및 Power BI 모두에 등록하는 데 선택 사항이 적용됩니다. 새 테넌트인 경우 가입할 때 목록에서 해당 국가를 선택합니다.
+데이터 영역은 테넌트를 만들 때 선택한 국가/지역에 따라 다릅니다. 이 정보를 공유하기 때문에 Microsoft 365 및 Power BI 모두에 등록하는 데 선택 사항이 적용됩니다. 새 테넌트인 경우 가입할 때 목록에서 해당 국가/지역을 선택합니다.
 
 ![국가 선택](media/service-admin-where-is-my-tenant-located/sign-up-country-selection.png)
 
@@ -44,4 +44,3 @@ Power BI는 테넌트에 대한 데이터가 저장되는 위치를 결정하는
 > 테넌트를 만든 후에는 이 선택 사항을 변경할 수 없습니다.
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
-

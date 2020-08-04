@@ -1,5 +1,5 @@
 ---
-title: 새 작업 영역 환경에서 사용량 메트릭 모니터링
+title: 새 작업 영역 환경에서 사용 현황 메트릭 모니터링(미리 보기)
 description: Power BI 대시보드 및 보고서에 대한 새 작업 영역 환경에서 사용량 메트릭을 보고, 저장하고, 사용하는 방법입니다.
 author: maggiesMSFT
 ms.author: maggies
@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/22/2020
+ms.date: 07/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 380fe94a123c26d7502ce68bc21372f791a3508f
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 7c8c1744c8ecbbf170ae073d2e302fe55faea55b
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162046"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86953033"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>새 작업 영역 환경에서 사용량 메트릭 모니터링
 
@@ -65,6 +65,9 @@ ms.locfileid: "86162046"
 ### <a name="usage-metrics-report-dataset"></a>사용량 메트릭 보고서 데이터 세트
 
 향상된 사용량 메트릭 보고서는 사용량 메트릭 보고서 데이터 세트를 기반으로 하며, 이 데이터 세트는 향상된 사용량 메트릭 보고서를 처음 시작할 때 Power BI가 자동으로 생성합니다. 그런 다음 Power BI가 데이터 세트를 매일 새로 고침합니다. 새로 고침 일정을 변경할 수는 없지만, Power BI가 사용량 메트릭 데이터를 새로 고치는 데 사용하는 자격 증명을 업데이트할 수는 있습니다. 자격 증명이 만료된 경우 또는 데이터 세트가 있는 작업 영역에서 사용량 메트릭 보고서를 처음 시작한 사용자를 제거한 경우 예약된 새로 고침을 다시 시작해야 할 수 있습니다.
+
+> [!NOTE]
+> 미리 보기로 제공되는 동안 사용 현황 메트릭 데이터 세트에는 사용자 지정 보고서에 영향을 미치는 사소한 변경 내용이 있을 수 있습니다.  
 
 ### <a name="usage-metrics-report-pages"></a>사용량 메트릭 보고서 페이지
 

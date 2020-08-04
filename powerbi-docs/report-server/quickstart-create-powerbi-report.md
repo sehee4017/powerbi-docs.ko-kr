@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 02/03/2020
+ms.date: 07/24/2020
 ms.author: maggies
-ms.openlocfilehash: 8e907b87c26dd7f2e764705a1178efc5df432a3e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 73772b96929ffd91dc5a38634ab9a1a2e57286b1
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239008"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87251341"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Power BI Report Server용 Power BI 보고서 만들기
 Power BI 서비스 (https://powerbi.com) 에서 클라우드에 Power BI 보고서를 저장할 수 있는 것과 마찬가지로 Power BI Report Server 웹 포털에서 Power BI 보고서 온-프레미스를 저장하고 관리할 수 있습니다. Power BI Desktop에서 보고서를 만들고 편집하고 웹 포털에 게시합니다. 그런 다음 조직의 보고서 사용자는 모바일 디바이스의 브라우저 또는 Power BI 모바일 앱에서 해당 보고서를 볼 수 있습니다.
@@ -40,13 +40,13 @@ Power BI Desktop에서 Power BI 보고서를 이미 만든 경우 Power BI Repor
 
     - **PBIDesktopRS_x64.msi**(64비트 버전).
 
-4. 설치 프로그램을 다운로드한 후에는 Power BI Desktop(2019년 9월) 설치 마법사를 실행합니다.
+4. 설치 관리자를 다운로드한 후 Power BI Desktop 설치 마법사를 실행합니다.
 
 2. 설치가 끝나면 **지금 Power BI Desktop 시작**을 선택합니다.
    
-    그러면 자동으로 시작되어 사용할 준비가 됩니다. 제목 표시줄에 **Power BI Desktop(2019년 9월)** 이라고 표시되면 올바른 버전이 준비된 것입니다.
+    그러면 자동으로 시작되어 사용할 준비가 됩니다. 제목 표시줄에 **Power BI Desktop(2020년 5월)** 이 표시되면 올바른 버전이 준비된 것입니다.
 
-    ![Power BI Desktop 2019년 9월](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-sept-2019.png)
+    ![Power BI Desktop 2020년 5월](media/quickstart-create-powerbi-report/power-bi-report-server-desktop-may-2020.png)
 
 3. Power BI Desktop에 익숙하지 않은 경우 시작 화면에서 비디오를 시청하는 것이 좋습니다.
    

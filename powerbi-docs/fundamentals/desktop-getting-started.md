@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 03/13/2020
+ms.date: 07/23/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: ec716f0824ce083b034dc8fd459f00fdb7768ac4
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 62f0f6d9bac3b8451f3c5efc70612c2ef067aed4
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215585"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252800"
 ---
 # <a name="get-started-with-power-bi-desktop"></a>Power BI Desktop 시작
 Power BI Desktop 시작 가이드를 시작합니다. 이 둘러보기에서는 Power BI Desktop의 작동 방식, 수행할 수 있는 작업, 강력한 데이터 모델 및 놀라운 보고서를 작성하여 비즈니스 인텔리전스를 강화하는 방법을 보여 줍니다.
@@ -24,6 +24,11 @@ Power BI Desktop의 작동 방식과 사용 방법의 간략한 개요는 이 �
 ![샘플 작업 항목을 보여 주는 Power BI Desktop의 스크린샷.](media/desktop-getting-started/hero-02.png)
 
 [Power BI Desktop 시작](https://www.youtube.com/watch?v=Qgam9M8I0xA) 동영상를 보고 [재무 샘플](https://go.microsoft.com/fwlink/?LinkID=521962) Excel 통합 문서를 다운로드하여 동영상 내용에 따라 작업을 수행할 수도 있습니다.
+
+
+> [!IMPORTANT]
+> Power BI Desktop은 매월 고객 피드백과 새로운 기능을 통합하여 업데이트되고 릴리스됩니다. 최신 버전의 Power BI Desktop만 지원되며, Power BI Desktop 지원을 문의하는 고객에게는 최신 버전으로 업그레이드할지 묻는 메시지가 표시됩니다. 최신 버전의 Power BI Desktop은 [Microsoft Store](https://aka.ms/pbidesktopstore)에서 가져오거나 컴퓨터에 [다운로드](https://www.microsoft.com/download/details.aspx?id=58494)하여 설치하는 지원되는 모든 언어를 포함하는 단일 실행 파일로 가져옵니다.
+
 
 ## <a name="how-power-bi-desktop-works"></a>Power BI Desktop의 작동 방식
 Power BI Desktop을 사용하면 다음과 같은 작업을 수행할 수 있습니다.
@@ -180,7 +185,7 @@ Power BI Desktop의 쿼리 기능이 실행되고 웹 리소스에 연결합니�
 
 **쿼리 설정**의 **속성** 필드에서 테이블 제목을 ‘주 코드’로 바꿉니다. 
 
-**주 코드** 테이블이 셰이핑되면 두 테이블을 하나로 ‘결합’할 수 있습니다. 이제 테이블이 데이터에 적용한 쿼리의 결과이기 때문에 ‘쿼리’라고도 합니다. 쿼리를 결합하는 두 가지 주요 방법은 ‘병합’과 ‘추가’입니다.  
+**주 코드** 테이블이 셰이핑되면 두 테이블을 하나로 ‘결합’할 수 있습니다. 이제 테이블이 데이터에 적용한 쿼리의 결과이기 때문에 ‘쿼리’라고도 합니다. 쿼리를 결합하는 두 가지 주요 방법은 ‘병합’과 ‘추가’입니다. 
 
 다른 쿼리에 추가하려는 열이 하나 이상 있을 경우 쿼리를 ‘병합’합니다. 기존 쿼리에 추가하려는 데이터 행이 더 있을 경우 쿼리를 ‘추가’합니다.
 

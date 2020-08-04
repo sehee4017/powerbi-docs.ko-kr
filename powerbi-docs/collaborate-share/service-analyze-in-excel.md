@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: d4bfb6de39f0a8dee678e8224cca1cb03646abca
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1e1e9afcbcae300e12580fb5f54bdb53e7822c03
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226991"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86952777"
 ---
 # <a name="analyze-in-excel"></a>Excel에서 분석
 **Excel에서 분석**을 사용하면 Power BI 데이터 세트를 Excel로 가져온 다음 피벗 테이블, 차트, 슬라이서 및 기타 Excel 기능을 사용하여 데이터 세트를 보고 상호 작용할 수 있습니다. **Excel에서 분석**을 사용하려면 먼저 Power BI에서 이 기능을 다운로드하여 설치한 후 Excel에서 사용할 데이터 세트를 하나 이상 선택해야 합니다. 
@@ -62,36 +62,41 @@ Power BI 서비스에서 제공하는 링크를 통해 **Excel에서 분석**을
 
 ## <a name="connect-to-power-bi-data"></a>Power BI 데이터에 연결
 
-Power BI 서비스에서 Excel로 분석할 데이터 세트 또는 보고서로 이동하고 **추가 옵션** 메뉴(...)를 선택하여 **Excel에서 분석** 메뉴 옵션을 찾습니다. 다음 그림에서는 보고서를 선택하는 방법을 보여 줍니다.
-
-![업데이트 설치 중](media/service-analyze-in-excel/analyze-excel-06.png)
-
-Power BI 서비스에서 Excel로 데이터 세트를 가져오는 몇 가지 단계가 있습니다.
+Power BI 서비스에서 Excel로 분석할 데이터 세트 또는 보고서로 이동하고 다음을 수행합니다.
 
 1. **추가 옵션** 메뉴를 선택합니다.
-2. 표시되는 메뉴 항목에서 **Excel에서 분석**을 선택합니다.
 
-    그러면 Power BI 서비스가 **Excel에서 분석**에 사용하기 위해 디자인되고 구조화된 데이터 세트 파일(확장명 .ODC)을 만듭니다. 파일이 만들어진 다음 브라우저에서 자동으로 다운로드 프로세스를 시작합니다.
+1. 표시되는 메뉴 항목에서 **Excel에서 분석**을 선택합니다.
+
+    다음 그림에서는 보고서를 선택하는 방법을 보여 줍니다.
+
+    ![업데이트 설치 중](media/service-analyze-in-excel/analyze-excel-06.png)
     
-    ![ODC 파일 다운로드 중](media/service-analyze-in-excel/analyze-excel-07.png)
+    >[!NOTE]
+    >보고서 메뉴에서 Excel에서 분석을 선택하면 보고서의 기본 데이터 세트를 Excel로 가져옵니다.
+
+    그런 다음, Power BI 서비스는 **Excel에서 분석**에서 사용하도록 디자인된 데이터 세트의 Excel 파일을 만들고 브라우저에서 다운로드 프로세스를 시작합니다.
     
-    파일 이름은 파일이 파생된 데이터 세트(또는 보고서, 기타 데이터 원본)과 일치합니다. 따라서 보고서 이름이 *Latest-Sales*라면 다운로드된 파일은 **Latest-Sales.ODC**가 됩니다.
+    ![Excel 파일 다운로드](media/service-analyze-in-excel/analyze-in-excel-download-xlsx.png)
 
-3. .ODC 파일 시작
+    파일 이름은 파일이 파생된 데이터 세트(또는 보고서, 기타 데이터 원본)과 일치합니다. 따라서 보고서 이름이 *Quarterly Report*이면 다운로드된 파일은 **Quarterly Report.xlsx**가 됩니다.
 
-파일은 이미 **Excel에서 분석**과 연결되어 있으므로, .ODC 파일을 선택하거나 시작하면 Excel이 시작되어 자동으로 .ODC 파일을 로드하기 시작합니다. 그러나 외부 데이터 원본 위협에 대한 경고가 표시될 수 있습니다.
+3. Excel 파일을 시작합니다.
 
-![보안 경고](media/service-analyze-in-excel/analyze-excel-08.png)
-
-**Excel에서 분석**을 위해 .ODC 파일을 로드하도록 **사용**을 선택합니다. 그러면 Excel이 파일을 로드합니다. 
+    >[!NOTE]
+    >파일을 처음 열 때 **편집 사용**을 사용하도록 설정한 다음, [제한된 보기](https://support.microsoft.com/en-gb/office/what-is-protected-view-d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653?ui=en-us&rs=en-gb&ad=gb) 및 [신뢰할 수 있는 문서](https://support.microsoft.com/en-us/office/trusted-documents-cf872bd8-47ec-4c02-baa5-1fdba1a11b53) 설정에 따라 **콘텐츠 사용**을 사용하도록 설정합니다.
+    >
+    >![제한된 보기 편집 사용 배너의 스크린샷](media/service-analyze-in-excel/protected-view-enable-editing-banner.png)
+    >
+    >![신뢰할 수 있는 문서 콘텐츠 사용 배너의 스크린샷](media/service-analyze-in-excel/trusted-document-enable-content-banner.png)
 
 ## <a name="use-excel-to-analyze-the-data"></a>Excel을 사용하여 데이터 분석
 
-보안 알림에서 **사용**을 선택하여 .ODC 파일 로드를 허용하면 Excel이 분석할 준비가 된 Power BI 데이터 세트에서 **피벗 테이블** 및 **필드** 목록을 제공합니다.
+편집 및 콘텐츠를 사용하도록 설정하면 Excel은 분석할 준비가 된 Power BI 데이터 세트의 빈 **피벗 테이블** 및 **필드** 목록을 제공합니다.
 
-![데이터가 연결된 Excel](media/service-analyze-in-excel/analyze-excel-09.png)
+![데이터가 연결된 Excel](media/service-analyze-in-excel/analyze-in-excel-connected.png)
 
-.ODC 파일에는 Power BI에 있는 데이터 세트에 연결하는 MSOLAP 연결 문자열이 있습니다. 데이터를 분석하거나 작업하는 경우, Excel은 Power BI의 해당 데이터 세트를 쿼리하고 결과를 Excel로 반환합니다. 데이터 세트가 DirectQuery를 사용하여 라이브 데이터 원본에 연결된 경우 Power BI는 데이터 원본을 쿼리하고 결과를 Excel로 반환합니다.
+Excel 파일에는 Power BI에 있는 데이터 세트에 연결하는 MSOLAP 연결 문자열이 있습니다. 데이터를 분석하거나 작업하는 경우, Excel은 Power BI의 해당 데이터 세트를 쿼리하고 결과를 Excel로 반환합니다. 데이터 세트가 DirectQuery를 사용하여 라이브 데이터 원본에 연결된 경우 Power BI는 데이터 원본을 쿼리하고 결과를 Excel로 반환합니다.
 
 이제 Power BI 데이터에 대한 연결이 설정되었으므로 Excel에서 로컬 데이터 세트를 사용하는 것처럼 피벗 테이블, 차트를 만들고 해당 데이터 세트를 분석할 수 있습니다.
 
@@ -107,7 +112,7 @@ Excel에서 분석을 사용할 때 고려해야 할 몇 가지 사항이 있습
 
 
 ### <a name="sign-in-to-power-bi"></a>Power BI에 로그인
-브라우저에서 Power BI로 로그인했더라도 Excel에서 처음으로 새 .ODC 파일을 열면 Power BI 계정으로 Power BI에 로그인하라는 메시지가 나타날 수 있습니다. Excel에서 Power BI에 대한 연결을 인증합니다.
+브라우저에서 Power BI로 로그인했더라도 Excel에서 처음으로 새 Excel 파일을 열면 Power BI 계정으로 Power BI에 로그인하라는 메시지가 나타날 수 있습니다. Excel에서 Power BI에 대한 연결을 인증합니다.
 
 ### <a name="users-with-multiple-power-bi-accounts"></a>Power BI 계정이 여러 개인 사용자
 일부 사용자는 여러 개의 Power BI 계정이 있습니다. 이 경우 한 계정으로 Power BI에 로그인했지만 Excel에서 분석에 사용되는 데이터 세트에 대한 액세스 권한은 다른 계정에 있을 수 있습니다. 이런 상황이라면 Excel에서 분석 통합 문서에 사용되는 데이터 세트에 액세스를 시도할 경우 **사용할 수 없음** 오류가 발생하거나 로그인에 실패할 수 있습니다.

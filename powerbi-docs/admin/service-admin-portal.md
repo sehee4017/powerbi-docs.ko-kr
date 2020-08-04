@@ -10,12 +10,12 @@ ms.date: 05/12/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f2fb659188a5c413ec7a203c6f1a55bb24826c15
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 90cd12bc7d8d7261e25edd32c5afa7cf144e8202
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228736"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252506"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
@@ -185,6 +185,7 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 
 - 새 작업 영역 환경을 만듭니다.
 - 작업 영역에서 데이터 세트를 사용합니다.
+- 클래식 작업 영역 만들기를 차단합니다.
 
 ### <a name="create-the-new-workspaces"></a>새 작업 영역 만들기
 
@@ -213,6 +214,13 @@ Microsoft 365 그룹을 기반으로 하는 클래식 작업 영역의 경우 �
 
 자세한 내용은 [작업 영역 데이터 세트 소개](../connect-data/service-datasets-across-workspaces.md)를 참조하세요.
 
+### <a name="block-classic-workspace-creation"></a>클래식 작업 영역 만들기 차단
+
+관리자는 조직에서 클래식 작업 영역을 만들 수 있는지를 제어할 수 있습니다. 이 설정을 사용하면 작업 영역을 만드는 사용자가 새 작업 영역 환경의 작업 영역만 만들 수 있습니다. 
+
+![클래식 작업 영역 만들기 차단](media/service-admin-portal/power-bi-admin-block-classic-workspaces.png)
+
+이 설정을 사용하면 새로 만든 Office 365 그룹이 Power BI 작업 영역 목록에 표시되지 않습니다. 기존 클래식 작업 영역은 목록에 계속 표시됩니다. 이 설정을 사용하지 않으면 사용자가 속한 모든 Office 365 그룹이 작업 영역 목록에 표시됩니다. [새 작업 영역 환경 작업 영역](../collaborate-share/service-new-workspaces.md)에 관해 자세히 알아보세요.
 
 ## <a name="export-and-sharing-settings"></a>내보내기 및 공유 설정
 
@@ -370,6 +378,15 @@ Azure AD B2B 게스트 사용자는 조직의 콘텐츠를 편집하고 관리�
 
 [Excel의 Power BI 주요 테이블](../collaborate-share/service-excel-featured-tables.md)에 대해 자세히 알아보세요.
 
+## <a name="share-to-teams-tenant-setting"></a>Teams에 공유 테넌트 설정
+
+**Teams에 공유** 설정은 Power BI 관리 포털의 **테넌트 설정** 섹션에 있습니다. 이 설정을 사용하면 조직이 Power BI 서비스에서 **Teams에 공유** 단추를 숨길 수 있습니다. 사용 안 함으로 설정하면 사용자가 Power BI 서비스에서 보고서와 대시보드를 볼 때 작업 모음 또는 상황에 맞는 메뉴에서 **Teams에 공유** 단추가 표시되지 않습니다.
+
+![Power BI 관리 포털에 있는 Teams에 공유 테넌트 설정의 스크린샷.](media/service-admin-portal/service-teams-share-to-teams-tenant-setting.png)
+
+[Teams에 Power BI 콘텐츠 공유](../collaborate-share/service-share-report-teams.md)에 관해 자세히 알아보세요.
+
+
 ## <a name="power-bi-visuals-settings"></a>Power BI 시각적 개체 설정
 
 ### <a name="add-and-use-power-bi-visuals"></a>Power BI 시각적 개체 추가 및 사용
@@ -382,7 +399,7 @@ Azure AD B2B 게스트 사용자는 조직의 콘텐츠를 편집하고 관리�
 Power BI Desktop(3월 19일 릴리스부터 시작)은 **그룹 정책**을 사용하여 조직의 배포된 컴퓨터에서 Power BI 시각화 개체를 사용하지 않도록 설정할 수 있습니다.
 
 <table>
-<tr><th>특성</th><th>값</th>
+<tr><th>attribute</th><th>값</th>
 </tr>
 <td>key</td>
     <td>Software\Policies\Microsoft\Power BI Desktop\</td>
@@ -591,7 +608,7 @@ Power BI Embedded(A SKU) 설정을 관리하는 방법은 [Azure의 Power BI Emb
 
 관리자는 테넌트에 있는 작업 영역을 볼 수 있습니다. 작업 영역 목록을 정렬 및 필터링하고 각 작업 영역에 대한 세부 정보를 표시할 수 있습니다. 테이블 열은 작업 영역에 대해 [Power BI 관리자 Rest API](/rest/api/power-bi/admin)에서 반환된 속성에 해당합니다. 개인 작업 영역은 **개인 그룹** 형식, 클래식 작업 영역은 **그룹** 형식, 새 작업 영역 환경은 **작업 영역** 형식입니다. 자세한 내용은 [새 작업 영역에서 작업 구성](../collaborate-share/service-new-workspaces.md)을 참조하세요.
 
-관리자는 관리 포털 또는 PowerShell Cmdlet을 사용하여 작업 영역을 관리하고 복구할 수도 있습니다. 
+관리자는 관리 포털 또는 PowerShell cmdlet을 사용하여 작업 영역을 관리하고 복구할 수도 있습니다. 
 
 ![작업 영역 목록](media/service-admin-portal/workspaces-list.png)
 

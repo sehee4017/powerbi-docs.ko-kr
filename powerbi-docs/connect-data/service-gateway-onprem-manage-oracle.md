@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5ebc9a36b4a4e54d6388625921c98c571859568f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0b617afdeb69f2367b83ad40b2146f5ce78cdc89
+ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237582"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87364011"
 ---
 # <a name="manage-your-data-source---oracle"></a>데이터 원본 관리 - Oracle
 
@@ -22,44 +22,22 @@ ms.locfileid: "85237582"
 
 [온-프레미스 데이터 게이트웨이를 설치](/data-integration/gateway/service-gateway-install)한 후에는 게이트웨이와 함께 사용할 수 있는 [데이터 원본을 추가](service-gateway-data-sources.md#add-a-data-source)해야 합니다. 이 문서에서는 예약된 새로 고침 또는 DirectQuery에 맞게 게이트웨이 및 Oracle 데이터 원본으로 작업하는 방법을 살펴봅니다.
 
+## <a name="connect-to-an-oracle-database"></a>Oracle 데이터베이스에 연결
+온-프레미스 데이터 게이트웨이를 사용하여 Oracle 데이터베이스에 연결하려면 게이트웨이를 실행하는 컴퓨터에 올바른 Oracle 클라이언트 소프트웨어를 설치해야 합니다. 사용하는 Oracle 클라이언트 소프트웨어는 Oracle 서버 버전에 따라 다르지만, 항상 64비트 게이트웨이와 일치합니다.
+
+지원되는 Oracle 버전: 
+- Oracle Server 9 이상
+- ODAC(Oracle Data Access Client) 소프트웨어 11.2 이상
+
 ## <a name="install-the-oracle-client"></a>Oracle 클라이언트 설치
+- [64비트 Oracle 클라이언트를 다운로드하여 설치합니다](https://www.oracle.com/database/technologies/odac-downloads.html).
 
-게이트웨이를 Oracle 서버에 연결하려면 Oracle Data Provider for .NET(ODP.NET)을 설치하고 구성해야 합니다. ODP.NET은 ODAC(Oracle Data Access Components)의 일부입니다.
-
-32비트 버전의 Power BI Desktop의 경우 다음 링크를 사용하여 32비트 Oracle 클라이언트를 다운로드 및 설치합니다.
-
-* [Visual Studio(12.1.0.2.4)용 Oracle 개발자 도구와 32비트 ODAC(Oracle Data Access Components)](https://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
-
-64비트 버전의 Power BI Desktop 또는 온-프레미스 데이터 게이트웨이의 경우 다음 링크를 사용하여 64비트 Oracle 클라이언트를 다운로드 및 설치합니다.
-
-* [Windows x64용 64비트 ODAC 12.2c 릴리스 1(12.2.0.1.0)](https://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
-
-클라이언트가 설치된 후에 데이터베이스에 대한 적절한 정보로 tnsnames.ora 파일을 구성합니다. Power BI Desktop 및 게이트웨이는 tnsnames.ora 파일에 정의된 net_service_name 외부로 이동합니다. net_service_name을 구성하지 않은 경우 연결할 수 없습니다. tnsnames.ora의 기본 경로는 `[Oracle Home Directory]\Network\Admin\tnsnames.ora`입니다. Tnsnames.ora 파일을 구성하는 방법에 대한 자세한 내용은 [Oracle: Local Naming Parameters (tnsnames.ora)](https://docs.oracle.com/cd/B28359_01/network.111/b28317/tnsnames.htm)(Oracle: 로컬 이름 지정 매개 변수(tnsnames.ora))를 참조하세요.
-
-### <a name="example-tnsnamesora-file-entry"></a>예제 tnsnames.ora 파일 항목
-
-tnsname.ora에 있는 항목의 기본 형식은 다음과 같습니다.
-
-```
-net_service_name=
- (DESCRIPTION=
-   (ADDRESS=(protocol_address_information))
-   (CONNECT_DATA=
-     (SERVICE_NAME=service_name)))
-```
-
-작성되는 서버 및 포트 정보의 예는 다음과 같습니다.
-
-```
-CONTOSO =
-  (DESCRIPTION =
-    (ADDRESS = (PROTOCOL = TCP)(HOST = oracleserver.contoso.com)(PORT = 1521))
-    (CONNECT_DATA =
-      (SERVER = DEDICATED)
-      (SERVICE_NAME = CONTOSO)
-    )
-  )
-```
+> [!NOTE]
+> Oracle Server와 호환되는 ODAC(Oracle Data Access Client) 버전을 선택합니다. 예를 들어 ODAC 12.x는 Oracle Server 버전 9를 항상 지원하지는 않습니다.
+> Oracle 클라이언트의 Windows Installer를 선택합니다.
+> Oracle 클라이언트를 설치하는 과정에서 설치 마법사를 실행하는 동안 해당 확인란을 선택하여 *컴퓨터 전체 수준에서 ASP.NET에 대한 ODP.NET 및/또는 Oracle 공급자를 구성*할 수 있는지 확인합니다. Oracle 클라이언트 마법사의 일부 버전에서는 기본적으로 확인란을 선택하고 나머지 버전에서는 그렇지 않습니다. Power BI를 Oracle 데이터베이스에 연결할 수 있도록 확인란이 선택되어 있는지 확인합니다.
+ 
+클라이언트가 설치되고 ODAC가 제대로 구성된 후에는 Power BI Desktop 또는 다른 테스트 클라이언트를 사용하여 게이트웨이에서 올바른 설치 및 구성을 확인하는 것이 좋습니다.
 
 ## <a name="add-a-data-source"></a>데이터 원본 추가
 
@@ -111,7 +89,7 @@ Oracle 데이터 원본 형식을 선택한 후 **서버** 및 **데이터베이
 
 ## <a name="troubleshooting"></a>문제 해결
 
-명명 구문이 잘못되었거나 적절히 구성되지 않은 경우 Oracle에서 여러 오류가 발생할 수 있습니다.
+명명 구문이 잘못되었거나 적절히 구성되지 않은 경우 Oracle에서 여러 가지 오류가 발생할 수 있습니다.
 
 * ORA-12154: TNS: 지정된 연결 식별자를 확인할 수 없습니다.
 * ORA-12514: TNS: 수신기는 현재 연결 설명자에서 요청된 서비스를 알지 못합니다.
@@ -121,8 +99,9 @@ Oracle 데이터 원본 형식을 선택한 후 **서버** 및 **데이터베이
 
 Oracle 클라이언트가 설치되지 않거나 제대로 구성되지 않은 경우 이 오류가 발생할 수 있습니다. 설치된 경우 tnsnames.ora 파일이 제대로 구성되어 있고 적절한 net_service_name을 사용하는지 확인합니다. net_service_name이 Power BI Desktop을 사용하는 머신과 게이트웨이를 실행하는 머신 간에 동일한지 확인해야 합니다. 자세한 내용은 [Oracle 클라이언트 설치](#install-the-oracle-client)를 참조하세요.
 
-> [!NOTE]
-> Oracle 서버 버전과 Oracle 클라이언트 버전 간에 호환성 문제가 발생할 수도 있습니다. 일반적으로 이러한 버전이 일치하도록 합니다.
+Oracle 서버 버전과 Oracle Data Access Client 버전 간에 호환성 문제가 발생할 수도 있습니다. 일반적으로 해당 버전을 일치시키려 하는데 일부 조합이 호환되지 않습니다. 예를 들어 ODAC 12.x는 Oracle Server 버전 9를 지원하지 않습니다.
+
+데이터 원본 서버와 게이트웨이 머신 간에 발생하는 연결 문제를 진단하려면 게이트웨이 머신에 클라이언트(예: Power BI Desktop 또는 Oracle ODBC 테스트)를 설치하는 것이 좋습니다. 클라이언트를 사용하여 데이터 원본 서버에 대한 연결을 확인할 수 있습니다.
 
 게이트웨이와 관련된 추가 문제 해결 정보는 [온-프레미스 데이터 게이트웨이 문제 해결](/data-integration/gateway/service-gateway-tshoot)을 참조하세요.
 

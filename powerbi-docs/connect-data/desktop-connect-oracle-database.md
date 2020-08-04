@@ -1,5 +1,5 @@
 ---
-title: Oracle 데이터베이스에 연결
+title: Power BI Desktop을 사용하여 Oracle 데이터베이스에 연결
 description: Oracle을 Power BI Desktop에 연결하는 데 필요한 단계 및 다운로드
 author: davidiseminger
 ms.reviewer: ''
@@ -9,19 +9,19 @@ ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1e74ff0bf54b263df65af7e7497eb57f3e5c2adb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2c59cb593a236785346721cb5c3ac90c702c93ed
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224328"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252064"
 ---
-# <a name="connect-to-an-oracle-database"></a>Oracle 데이터베이스에 연결
-Power BI Desktop을 사용하여 Oracle 데이터베이스에 연결하려면 Power BI Desktop을 실행하는 컴퓨터에 올바른 Oracle 클라이언트 소프트웨어를 설치해야 합니다. 사용하는 Oracle 클라이언트 소프트웨어는 설치한 Power BI Desktop 버전이 32비트 또는 64비트인지에 따라 다릅니다.
+# <a name="connect-to-an-oracle-database-with-power-bi-desktop"></a>Power BI Desktop을 사용하여 Oracle 데이터베이스에 연결
+Power BI Desktop을 사용하여 Oracle 데이터베이스에 연결하려면 Power BI Desktop을 실행하는 컴퓨터에 올바른 Oracle 클라이언트 소프트웨어를 설치해야 합니다. 사용하는 Oracle 클라이언트 소프트웨어는 설치한 Power BI Desktop 버전이 32비트 또는 64비트인지에 따라 다릅니다. 또한 Oracle Server 버전에 따라 다릅니다.
 
 지원되는 Oracle 버전: 
-- Oracle 9 이상
-- Oracle 클라이언트 소프트웨어 8.1.7 이상
+- Oracle Server 9 이상
+- ODAC(Oracle Data Access Client) 소프트웨어 11.2 이상
 
 > [!NOTE]
 > Power BI Desktop, 온-프레미스 데이터 게이트웨이 또는 Power BI Report Server용 Oracle 데이터베이스를 구성하는 경우 [Oracle 연결 형식](https://docs.microsoft.com/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15) 문서의 정보를 참조하세요. 
@@ -32,12 +32,14 @@ Power BI Desktop을 사용하여 Oracle 데이터베이스에 연결하려면 Po
 
 ![Power BI Desktop 버전](media/desktop-connect-oracle-database/connect-oracle-database_1.png)
 
-## <a name="installing-the-oracle-client"></a>Oracle 클라이언트 설치
+## <a name="install-the-oracle-client"></a>Oracle 클라이언트 설치
 - Power BI Desktop 32비트 버전의 경우 [32비트 Oracle 클라이언트를 다운로드하여 설치](https://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)합니다.
 
 - Power BI Desktop 64비트 버전의 경우 [64비트 Oracle 클라이언트를 다운로드하여 설치](https://www.oracle.com/database/technologies/odac-downloads.html)합니다.
 
 > [!NOTE]
+> Oracle Server와 호환되는 ODAC(Oracle Data Access Client) 버전을 선택합니다. 예를 들어 ODAC 12.x는 Oracle Server 버전 9를 항상 지원하지는 않습니다.
+> Oracle 클라이언트의 Windows Installer를 선택합니다.
 > Oracle 클라이언트를 설치하는 과정에서 설치 마법사를 실행하는 동안 해당 확인란을 선택하여 *컴퓨터 전체 수준에서 ASP.NET에 대한 ODP.NET 및/또는 Oracle 공급자를 구성*할 수 있는지 확인합니다. Oracle 클라이언트 마법사의 일부 버전에서는 기본적으로 확인란을 선택하고 나머지 버전에서는 그렇지 않습니다. Power BI를 Oracle 데이터베이스에 연결할 수 있도록 확인란이 선택되어 있는지 확인합니다.
 
 ## <a name="connect-to-an-oracle-database"></a>Oracle 데이터베이스에 연결
@@ -53,9 +55,7 @@ Power BI Desktop을 사용하여 Oracle 데이터베이스에 연결하려면 Po
 
    ![Oracle 서버 이름 입력](media/desktop-connect-oracle-database/connect-oracle-database_3.png)
 
-   > [!TIP]
-   > 이 단계에서 연결하는 데 문제가 있는 경우 **서버** 필드에 다음 형식을 사용해 보세요. *(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=host_name)(PORT=port_num))(CONNECT_DATA=(SERVICE_NAME=service_name)))*
-   
+      
 3. 네이티브 데이터베이스 쿼리를 사용하여 데이터를 가져오려는 경우 **Oracle 데이터베이스** 대화 상자의 **고급 옵션** 섹션을 확장할 때 표시되는 **SQL 문** 상자에 쿼리를 넣습니다.
    
    ![고급 옵션 확장](media/desktop-connect-oracle-database/connect-oracle-database_4.png)
@@ -64,6 +64,18 @@ Power BI Desktop을 사용하여 Oracle 데이터베이스에 연결하려면 Po
 
 
 ## <a name="troubleshooting"></a>문제 해결
+
+명명 구문이 잘못되었거나 적절히 구성되지 않은 경우 Oracle에서 여러 가지 오류가 발생할 수 있습니다.
+
+* ORA-12154: TNS: 지정된 연결 식별자를 확인할 수 없습니다.
+* ORA-12514: TNS: 수신기는 현재 연결 설명자에서 요청된 서비스를 알지 못합니다.
+* ORA-12541: TNS: 수신기 없음
+* ORA-12170: TNS: 연결 시간 초과가 발생함
+* ORA-12504: TNS: 수신기가 CONNECT_DATA에서 SERVICE_NAME을 제공받지 못했습니다.
+
+Oracle 클라이언트가 설치되지 않거나 제대로 구성되지 않은 경우 이 오류가 발생할 수 있습니다. 설치된 경우 tnsnames.ora 파일이 제대로 구성되어 있고 적절한 net_service_name을 사용하는지 확인합니다. net_service_name이 Power BI Desktop을 사용하는 머신과 게이트웨이를 실행하는 머신 간에 동일한지 확인해야 합니다. 자세한 내용은 [Oracle 클라이언트 설치](#install-the-oracle-client)를 참조하세요.
+
+Oracle 서버 버전과 Oracle Data Access Client 버전 간에 호환성 문제가 발생할 수도 있습니다. 일반적으로 해당 버전을 일치시키려 하는데 일부 조합이 호환되지 않습니다. 예를 들어 ODAC 12.x는 Oracle Server 버전 9를 지원하지 않습니다.
 
 Microsoft Store에서 Power BI Desktop을 다운로드하면 Oracle 드라이버 문제로 인해 Oracle 데이터베이스에 연결할 수 없게 됩니다. 이 문제가 발생하면 ‘개체 참조가 설정되지 않음’ 오류 메시지가 반환됩니다. 문제를 해결하려면 다음 단계 중 하나를 수행합니다.
 

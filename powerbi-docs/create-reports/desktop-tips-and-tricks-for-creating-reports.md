@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 05/07/2020
 ms.author: davidi
-ms.openlocfilehash: ae9a3695c8db084d9c65871314edfef34cde1cb6
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e2615915503b0eb6d9d1ee08bd2a1fa8599bcf8c
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238482"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86953010"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Power BI Desktop에서 보고서를 만들기 위한 팁과 힌트
 데이터를 최대한 활용하려면 추가 도움이 필요하기도 합니다. Microsoft Power BI Desktop *및* 파워 피벗 추가 기능이 사용되고 파워 쿼리가 설치 및 사용되는 Microsoft Excel 2016 또는 Excel 2013 Pro-Plus 버전에서 보고서를 만들 때 사용할 수 있는 몇 가지 팁과 힌트를 모아두었습니다. 
@@ -54,7 +54,7 @@ Power BI에서 차트 축이나 슬라이서 또는 필터에 범주(문자열) 
 ## <a name="building-maps-more-easily-with-hints-to-bing"></a>Bing에 대한 힌트로 보다 쉽게 지도 만들기
 Power BI는 Bing과 통합되어 기본 지도 좌표를 제공(지오코딩이라는 프로세스)하므로 지도를 쉽게 만들 수 있습니다. Bing에서는 몇 가지 알고리즘과 힌트를 사용하여 올바른 위치를 가져오려고 하지만 이는 최상의 추측일 뿐입니다. 올바른 지오코딩의 가능성을 높이기 위해 다음과 같은 팁을 사용할 수 있습니다.
 
-지도를 만들 때 일반적으로 국가, 주 및 도시를 그립니다. Power BI Desktop에서 지리 지정 후 이름 열을 사용하면 Bing에서 사용자가 표시하려는 내용을 추측하는 데 도움이 됩니다. 예를 들어 "캘리포니아" 및 "워싱턴"과 같은 미국 주 이름 필드가 있는 경우 Bing은 "워싱턴"이라는 단어에 대해 워싱턴주 대신 워싱턴, DC의 위치를 반환할 수 있습니다. 열 "주"의 이름을 지정하면 지오코딩이 향상됩니다. “국가” 및 “도시”라는 열에 대해서도 마찬가지입니다. 
+지도를 만들 때 일반적으로 국가/지역, 주 및 도시를 그립니다. Power BI Desktop에서 지리 지정 후 이름 열을 사용하면 Bing에서 사용자가 표시하려는 내용을 추측하는 데 도움이 됩니다. 예를 들어 "캘리포니아" 및 "워싱턴"과 같은 미국 주 이름 필드가 있는 경우 Bing은 "워싱턴"이라는 단어에 대해 워싱턴주 대신 워싱턴, DC의 위치를 반환할 수 있습니다. 열 "주"의 이름을 지정하면 지오코딩이 향상됩니다. “국가” 및 “도시”라는 열에 대해서도 마찬가지입니다. 
 
 여러 국가/지역의 컨텍스트에서 고려할 경우 일부 지정은 모호합니다. 일부 경우 한 국가/지역에서 '주'로 간주하는 내용이 '도' 또는 '카운티'나 다른 지정으로 처리됩니다. 여러 필드를 함께 추가하여 데이터 위치를 그리는 데 사용하는 열을 만들어 지오코딩의 정확도를 높일 수 있습니다. "윌트셔"만 전달하는 대신 "윌트셔, 잉글랜드"를 전달하여 보다 정확한 지오코딩 결과를 얻는 경우를 예로 들 수 있습니다. 
 

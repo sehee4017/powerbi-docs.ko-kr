@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 07/16/2020
+ms.date: 07/28/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 5d6e3af615a73f8e4a3db42406bf94e33f16a2a3
-ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
+ms.openlocfilehash: 8a815f69d4f74ec925c3ac0cc8a84c2a13d80346
+ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "86459672"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87363965"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>XMLA 엔드포인트 연결 문제 해결
 
@@ -135,6 +135,10 @@ XMLA 엔드포인트를 사용하면 테이블 형식 모델뿐만 아니라 Pow
 Power BI에서 예약된 새로 고침 또는 요청 시 새로 고침을 트리거하는 경우 Power BI는 일반적으로 전체 데이터 세트를 새로 고칩니다. 대부분의 경우 더 선택적으로 새로 고침을 수행하는 것이 더 효율적입니다. 아래와 같이 SSMS(SQL Server Management Studio)에서 세분화된 처리 작업을 수행하거나 타사 도구 또는 스크립트를 사용할 수 있습니다.
 
 :::image type="content" source="media/troubleshoot-xmla-endpoint/process-tables.png" alt-text="SSMS의 프로세스 테이블":::
+
+### <a name="overrides-in-refresh-tmsl-command"></a>Refresh TMSL 명령의 재정의
+
+[ 명령(TMSL)](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl)의 재정의를 통해 사용자는 새로 고침 작업의 다른 파티션 쿼리 정의 또는 데이터 원본 정의를 선택할 수 있습니다. 현재 Power BI Premium에서는 **재정의가 지원되지 않습니다**. “Power BI Premium에서는 확장 바인딩이 허용되지 않습니다. 자세한 내용은 제품 설명서의 ‘XMLA 읽기/쓰기 지원’을 참조하세요.” 가 반환됩니다.
 
 ## <a name="see-also"></a>참고 항목
 

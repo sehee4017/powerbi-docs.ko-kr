@@ -10,12 +10,12 @@ ms.date: 05/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: a3df69e52614fba3152f6539b2c4cbcf4f5c87d2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8f79037c4117baaba1a50b6fe4e728b57fad362f
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227670"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252087"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>새 Microsoft 365 평가판으로 Power BI에 가입
 
@@ -25,7 +25,7 @@ ms.locfileid: "85227670"
 
 ## <a name="sign-up-for-a-microsoft-365-trial-of-office"></a>Office의 Microsoft 365 평가판 등록
 
-[Microsoft 365 웹 사이트](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans)에서 Microsoft 365 평가판에 가입합니다. 계정이 아직 없는 경우 계정을 만드는 단계를 안내해 드립니다. Hotmail 및 Gmail 같은 상업용 메일 계정은 Microsoft 365에서 사용할 수 없으므로 새 계정을 만듭니다.  해당 메일 계정은 *zalan@onmicrosoft.com* 과 같은 형식입니다.
+[Microsoft 365 웹 사이트](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans)에서 Microsoft 365 평가판에 가입합니다. 계정이 아직 없는 경우 계정을 만드는 단계를 안내해 드립니다. Hotmail 및 Gmail 같은 상업용 메일 계정은 Microsoft 365에서 사용할 수 없으므로 새 계정을 만듭니다.  해당 메일 계정은 *zalan\@onmicrosoft.com*과 같이 표시됩니다.
 
 ![체험하기 선택](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-try-free.png)
 

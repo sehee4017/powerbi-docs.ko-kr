@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 04/28/2020
-ms.openlocfilehash: 865b60800b68aed410f10964148afdf2791b1ae1
-ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
+ms.date: 07/27/2020
+ms.openlocfilehash: 4f4650d47e420313075509301e940bf7092d4d5a
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "83279161"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252846"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI 페이지를 매긴 보고서의 지원되는 데이터 원본
 
@@ -29,7 +29,7 @@ ms.locfileid: "83279161"
 | Azure SQL Managed Instance | 기본 | 퍼블릭 또는 프라이빗 엔드포인트를 통해(프라이빗 엔드포인트는 Enterprise Gateway를 통해 라우팅되어야 함)  |
 | Azure Analysis Services | SSO, OAuth2 | AAS 방화벽을 사용하지 않도록 설정하거나 모든 IP 범위를 허용하도록 구성해야 함.|
 | Power BI 데이터 세트 | SSO | 프리미엄 및 비프리미엄 Power BI 데이터 세트 읽기 권한 필요 |
-| Premium Power BI 데이터 세트(XMLA) | SSO |   |
+| Premium Power BI 데이터 세트(XMLA) | SSO | Power BI 데이터 세트는 포함된 페이지를 매긴 보고서의 데이터 원본으로 지원되지 않습니다.  |
 | 데이터 입력 | 해당 없음 | 데이터가 보고서에 포함됩니다. |
 
 Power BI 서비스에 보고서를 업로드한 후에는 Azure SQL Database를 제외한 모든 데이터 원본을 사용할 수 있습니다. 데이터 원본은 기본적으로 SSO(Single Sign-On)를 사용합니다(적용 가능한 경우). Azure Analysis Services의 경우 인증 형식을 OAuth2로 변경할 수 있습니다. 그러나 지정된 데이터 원본에 대한 인증 유형이 OAuth2로 변경되면 다시 SSO를 사용하도록 되돌릴 수 없습니다.  또한 이 변경 내용은 지정된 테넌트의 모든 작업 영역에서 해당 데이터 원본을 사용하는 모든 보고서에 적용됩니다.  사용자가 인증 유형으로 SSO를 선택하지 않은 한 페이지가 매겨진 보고서의 행 수준 보안은 작동하지 않습니다.

@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 05/27/2020
+ms.date: 07/28/2020
 ms.author: maggies
-ms.openlocfilehash: f4237379ffefeeb7ba9d105f5fbd61ff84959807
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1a9fbfc5d764a9dbda75bd60e0efb6da55efd202
+ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239507"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87364080"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>Azure 애플리케이션 프록시를 사용하여 Power BI Report Server 구성
 
@@ -110,7 +110,7 @@ Report Server 서비스 계정에 대한 위임 설정을 구성해야 합니다
 3. 프로토콜 전송을 사용하여 제한된 위임을 구성하려고 합니다. 제한된 위임을 사용하여 위임하려고 하는 서비스를 노출해야 합니다.
 4. **Report Server 서비스 계정**을 마우스 오른쪽 단추로 클릭하고 **속성**을 선택합니다.
 5. **위임** 탭을 선택합니다.
-6. **지정한 서비스에 대한 위임의 경우 이 컴퓨터 신뢰**를 선택합니다.
+6. **지정한 서비스에 대한 위임용으로만 이 사용자 트러스트**를 선택합니다.
 7. **모든 인증 프로토콜 사용**을 선택합니다.
 8. **이 계정이 위임된 자격 증명을 표시할 수 있는 서비스**에서 **추가**를 선택합니다.
 9. 새 대화 상자에서 **사용자 또는 컴퓨터**를 선택합니다.

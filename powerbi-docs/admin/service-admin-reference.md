@@ -1,5 +1,5 @@
 ---
-title: 관리자용 PowerShell cmdlet, REST API 및 .NET SDK
+title: 관리자용 PowerShell cmdlet, REST API 및 .NET 클라이언트 라이브러리
 description: 스크립트 및 프로그래밍 API를 통해 Power BI를 관리할 수 있는 방법에 대해 알아봅니다.
 author: kfollis
 ms.reviewer: ''
@@ -9,23 +9,23 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: b4f4227a53a87cd831962bc5c944a569531b8232
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: e1c95c330687131a29753359f5223e096bddab1d
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83136310"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86952619"
 ---
-# <a name="powershell-cmdlets-rest-apis-and-net-sdk-for-power-bi-administration"></a>Power BI 관리를 위한 PowerShell cmdlet, REST API 및 .NET SDK
-Power BI를 사용하면 관리자가 PowerShell cmdlet을 사용하여 일반적인 작업을 스크립팅할 수 있습니다. 또한 REST API를 노출하고 관리 솔루션을 개발하기 위해 .NET SDK를 제공합니다. 이 항목에서는 해당하는 SDK 메서드 및 REST API 엔드포인트의 cmdlet 목록을 보여줍니다. 자세한 내용은 다음을 참조하세요.
+# <a name="powershell-cmdlets-rest-apis-and-net-client-library-for-power-bi-administration"></a>Power BI 관리를 위한 PowerShell cmdlet, REST API 및 .NET 클라이언트 라이브러리
+Power BI를 사용하면 관리자가 PowerShell cmdlet을 사용하여 일반적인 작업을 스크립팅할 수 있습니다. 또한 REST API를 노출하고 관리 솔루션을 개발하기 위해 .NET 클라이언트 라이브러리를 제공합니다. 이 항목에서는 해당하는 API 및 REST API 엔드포인트의 cmdlet 목록을 보여 줍니다. 자세한 내용은 다음을 참조하세요.
 
 - PowerShell [다운로드](https://www.powershellgallery.com/packages/MicrosoftPowerBIMgmt/) 및 [설명서](https://docs.microsoft.com/powershell/power-bi/overview?view=powerbi-ps)
 - REST API [설명서](https://docs.microsoft.com/rest/api/power-bi/admin)
-- .NET SDK [다운로드](https://www.nuget.org/packages/Microsoft.PowerBI.Api/)
+- .NET 클라이언트 라이브러리 [다운로드](https://www.nuget.org/packages/Microsoft.PowerBI.Api/)
 
 > 관리를 위해 테넌트에 대해 작동하려면 `-Scope Organization`과 함께 아래의 Cmdlet을 호출해야 합니다.
 
-| **Cmdlet 이름** | **별칭** | **SDK 메서드** | **REST API 엔드포인트** | **설명** |
+| **Cmdlet 이름** | **별칭** | **API** | **REST API 엔드포인트** | **설명** |
 | --- | --- | --- | --- | --- |
 | `Get-PowerBIDatasource` | 해당 없음 | `Datasets_GetDataSourcesAsAdmin` | /v1.0/myorg/admin/datasets/{datasetkey}/datasources | 지정된 데이터 세트에 데이터 원본을 가져옵니다. |
 | `Get-PowerBIDataset` | 해당 없음 | `Datasets_GetDatasetsAsAdmin` | /v1.0/myorg/admin/datasets | Power BI 테넌트에서 데이터 세트의 전체 목록을 가져옵니다. |

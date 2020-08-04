@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/27/2020
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 305da7339159500a8e6de410bb4bf7f0b06d10e0
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a268247d13fdfe71e17e5c0a6fafeeb635b96984
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349635"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86953056"
 ---
 # <a name="get-samples-for-power-bi"></a>Power BI용 샘플 가져오기
 Power BI를 처음 접하고, 사용해 보고 싶지만 데이터가 없는 경우가 있습니다.  또는 Power BI 기능 중 일부를 보여 주는 보고서를 확인하기를 원할 수 있습니다. Microsoft가 도와 드립니다.
@@ -25,7 +25,7 @@ Power BI는 다양한 용도의 다양한 샘플을 제공합니다.
 - AppSource에서 다운로드하거나 Power BI 서비스에서 바로 다운로드하는 **[샘플 앱](#sample-app-from-appsource)** . 앱에는 대시보드, 보고서 및 데이터 세트가 포함됩니다. 이를 수정하여 동료에게 배포할 수 있습니다.
 - Power BI 서비스에서 대시보드, 보고서 및 데이터 세트를 포함하는 *콘텐츠 팩*으로 제공하는 **[8개 기본 제공 샘플](#eight-original-samples)** . 이들 샘플은 Power BI 서비스에서 바로 설치합니다. 기본 제공 샘플은 Power BI 보고서(.pbix) 및 Excel 통합 문서(.xlsx)로도 제공됩니다.
 - 데이터 모델 및 파워 뷰 시트를 포함하는 기본 제공 샘플의 **[Excel 통합 문서](#download-sample-excel-files)** 버전. Excel에서 데이터 모델을 탐색하거나 편집할 수 있으며 Excel 통합 문서를 Power BI 보고서의 데이터 원본으로 사용할 수 있습니다. 이 통합 문서를 Excel 파일로 업로드하고 Excel 시각적 개체와 피벗 테이블을 Power BI 보고서에 표시할 수도 있습니다. 
-- Excel 파일에서 다운로드할 수 있는 간단한 플랫 테이블인 **[재무 데이터 샘플 통합 문서](sample-financial-download.md)** . 이 통합 문서에는 가상 제품의 익명화된 데이터와 세그먼트 및 국가별 판매량이 들어 있습니다. Power BI 보고서용 기본 데이터 원본으로 유용하게 활용할 수 있습니다.
+- Excel 파일에서 다운로드할 수 있는 간단한 플랫 테이블인 **[재무 데이터 샘플 통합 문서](sample-financial-download.md)** . 통합 문서에는 가상 제품의 익명화된 데이터와 세그먼트 및 국가/지역별 판매량이 들어 있습니다. Power BI 보고서용 기본 데이터 원본으로 유용하게 활용할 수 있습니다.
 
 온라인 설명서에서는 자습서 및 예제에 동일한 샘플을 사용하므로 그대로 따라할 수 있습니다.
 

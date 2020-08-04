@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/15/2020
+ms.date: 07/24/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4d752a49587e611c3f42de3f40c68437f36fe3a9
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: c1d483b6a29d2463af05cd224ac6b03dd149eb33
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86411895"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252892"
 ---
 # <a name="using-external-tools-in-power-bi-desktop-preview"></a>Power BI Desktop에서 외부 도구 사용(미리 보기)
 
@@ -23,6 +23,13 @@ Power BI Desktop 2020년 7월 릴리스부터 외부 도구를 사용하여 Powe
 Power BI Desktop의 **외부 도구** 리본에는 머신에 설치되고 Power BI Desktop에 등록된 외부 도구에 대한 단추가 포함되어 있습니다. Power BI Desktop에서 시작되는 외부 도구는 Power BI Desktop의 일부로 작동하는 Analysis Services 엔진에 자동으로 연결되어 사용자에게 원활한 환경을 제공합니다.
 
 ![Power BI Desktop의 외부 도구 리본](media/desktop-external-tools/desktop-external-tools-01.png)
+
+주요 외부 도구에는 설치 위치의 링크와 함께 다음이 포함됩니다. 각 외부 도구는 해당 도구 작성자가 지원합니다.
+
+* [테이블 형식 편집기](https://tabulareditor.com/)
+* [DAX Studio](https://daxstudio.org)
+* [ALM 도구 키트](http://alm-toolkit.com)
+
 
 다음 섹션에서는 외부 도구에서 지원되는 작업, Power BI Desktop에 포함된 추천 도구 목록, 추가 도구를 등록하는 방법에 대한 지침을 설명합니다.
 
@@ -43,7 +50,7 @@ Power BI Desktop의 **외부 도구** 리본에는 머신에 설치되고 Power 
 
 ## <a name="featured-external-tools"></a>추천 외부 도구
 
-Power BI Desktop에서 작동하는 오픈 소스 커뮤니티 도구는 다음과 같습니다. 각 도구의 개별 설치 관리자가 설치 시 Power BI Desktop에 도구를 등록합니다.
+Power BI Desktop에서 작동하는 오픈 소스 커뮤니티 도구는 다음과 같습니다. 관련 도구는 해당 도구 작성자가 지원합니다. 각 도구의 개별 설치 관리자가 설치 시 Power BI Desktop에 도구를 등록합니다.
 
 * 테이블 형식 편집기
 * DAX Studio
@@ -122,6 +129,18 @@ Power BI Desktop을 사용하여 다른 외부 도구를 등록하려면 다음 
 * **Program Files (x86)\Common Files\Microsoft Shared\Power BI Desktop\External Tools**
 
 지정된 위치에서 확장명이 **.pbitool.json**인 파일은 시작할 때 Power BI Desktop에서 로드됩니다.
+
+## <a name="disabling-external-tools-using-the-registry"></a>레지스트리를 사용하여 외부 도구를 사용하지 않도록 설정
+
+**그룹 정책**을 사용하거나 레지스트리를 편집하여 외부 도구를 사용하지 않도록 설정할 수 있습니다. 해당 작업은 **사용자 지정 시각적 개체**를 사용하지 않도록 설정하는 프로세스와 비슷합니다.
+
+    Registry key: ```Software\Policies\Microsoft\Power BI Desktop\```
+
+    Registry value: ```EnableExternalTools```
+
+값이 1(10진수)이면 Power BI에서 외부 도구를 사용할 수 있습니다(기본값).
+
+값이 0(10진수)이면 Power BI에서 외부 도구를 사용할 수 없습니다.
 
 
 ## <a name="next-steps"></a>다음 단계

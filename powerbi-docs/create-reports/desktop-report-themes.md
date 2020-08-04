@@ -7,15 +7,15 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 06/01/2020
+ms.date: 07/28/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 48ff2852f2c7df3a1b005d730a3f91dc9e434f62
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: fdd08c32277dfaa9a619b024a7fb0ece0517f1cb
+ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232257"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87364103"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop에서 보고서 테마 사용
 
@@ -43,6 +43,9 @@ Power BI Desktop 보고서에 보고서 테마를 적용하려면 다음 옵션 
 * [사용자 지정 테마 JSON 파일을 가져옵니다](#import-custom-report-theme-files).
 
 이러한 각 옵션을 차례로 살펴보겠습니다.
+
+> [!NOTE]
+> Power BI Desktop을 사용하는 경우에만 테마를 적용할 수 있습니다. Power BI 서비스 내에서는 기존 보고서에 테마를 적용할 수 없습니다. 
 
 ### <a name="built-in-report-themes"></a>기본 제공 보고서 테마
 
@@ -198,6 +201,15 @@ Power BI 서비스에 보고서를 게시하는 경우 보고서 테마 색이 �
 이 예제에서는 세인트 패트릭스 데이 보고서 테마에서 다수의 녹색 및 갈색을 적용한 후 테마 색을 봅니다. 모두 녹색으로 보이십니까? 해당 색이 가져와서 적용한 보고서 테마의 일부이기 때문입니다.
 
 색상표의 색도 현재 테마를 기준으로 합니다. 예를 들어 데이터 요소에 대해 맨 위 행의 세 번째 색을 선택한다고 가정해보겠습니다. 나중에 다른 테마로 변경하는 경우 Microsoft Office에서 테마를 변경할 때와 마찬가지로 해당 데이터 요소의 색이 자동으로 새 테마에 있는 맨 위 행의 세 번째 색으로 업데이트됩니다.
+
+보고서 테마를 설정하면 보고서 전체에서 시각적 개체에 사용되는 기본 색이 변경됩니다. Power BI는 시각적 개체가 보고서에서 다양한 고유 색으로 표시되도록 수백 가지 색으로 구성된 목록을 유지 관리합니다. Power BI가 시각적 개체 계열에 색을 할당하면 계열 색이 할당될 때 색이 선착순으로 선택됩니다. 테마를 가져올 때 데이터 계열의 색 매핑이 초기화됩니다. 
+
+Power BI는 동적 계열의 색을 추적하고 다른 시각적 개체의 값에 동일한 색을 사용합니다. ‘동적 계열’에서 시각적 개체에 표시되는 계열 수는 측정값, 값 또는 기타 측면에 따라 변경될 수 있습니다. 예를 들어 보고서에 *Profit by Region*을 표시하면 보유한 판매 지역 수는 5개일 수도 있고 9개일 수도 있습니다. 지역 수는 동적이므로 동적 계열로 간주합니다. 
+
+반대로 ‘정적 계열’의 계열 수는 알려집니다. 예를 들어 *Profit* 및 *Revenue* 수익은 정적 계열입니다. 정적 계열에서 Power BI는 테마 색상표 내의 인덱스를 기준으로 색을 할당합니다. **데이터 색** 아래 서식 창에서 색을 선택하여 기본 색 할당을 재정의할 수 있습니다. 모든 잠재적 계열 값을 확인하고 색도 설정하려면 슬라이서 선택 항목을 변경해야 할 수 있습니다. **속성** 창을 사용하여 단일 시각적 개체를 명시적으로 설정하면 명시적으로 정의된 색에 가져온 테마가 적용되지 않습니다. 
+
+명시적으로 선택된 색에 해당 테마를 적용하려면 색이 명시적으로 설정된 시각적 개체의 **데이터 색** 섹션에서 **기본값으로 되돌리기**를 사용하여 명시적 색 적용을 실행 취소하고 테마가 적용되도록 허용합니다.
+
 
 ### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>보고서에 보고서 테마 색을 유지하지 않는 경우
 

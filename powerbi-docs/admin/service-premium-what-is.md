@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/13/2020
+ms.date: 07/28/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 83383b93d9f61c30c22afa30a5d092aa62ce3a10
-ms.sourcegitcommit: 94fc44928bff09d874793964b5d7443db40934cd
+ms.openlocfilehash: de5ab7b75967e752615bf7415c81ba7bb18c1a80
+ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "84754179"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87364057"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium이란?
 
@@ -85,7 +85,11 @@ Power BI Premium을 사용하면 *전용 용량*을 가져올 수 있습니다. 
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
 | P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
 | P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
+| P4/A7 <sup>[1](#limit)</sup>| 64 | 32 | 200 | 32 | 240 | 48 |
+| P5/A8 <sup>[1](#limit)</sup>| 128 | 64 | 400 | 64 | 480 | 96 |
 | | | | | | | |
+
+<a name="limit">1</a> - 특별 요청에 의해서만. 100GB 이상의 매우 큰 모델에 해당합니다.
 
 >[!NOTE]
 >더 큰 단일 SKU(예: P2 SKU 1개)를 사용하는 것이 두 개의 더 작은 SKU(예: P1 SKU 2개)를 결합하는 것보다 더 바람직할 수 있습니다. 예를 들어 더 큰 모델을 사용하고 P2를 사용하여 더 나은 병렬 처리를 달성할 수 있습니다.
