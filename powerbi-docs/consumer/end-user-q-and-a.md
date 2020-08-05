@@ -2,19 +2,19 @@
 title: Power BI 소비자를 위한 질문 및 답변
 description: Power BI 질문 및 답변 자연어 쿼리에 대한 설명서 개요 항목입니다.
 author: mihart
-ms.reviewer: mohammad ali
+ms.reviewer: mohammad.ali
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 07/11/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: acd13719aa6ff90f0f7fe297bf6bbc1674a5da22
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 496b47e259d4044f00fa6b7e74e9a4eec27942c8
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216035"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537208"
 ---
 # <a name="qa-for-power-bi-consumers"></a>Power BI 소비자를 위한 질문 및 답변
 

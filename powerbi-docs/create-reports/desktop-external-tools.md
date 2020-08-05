@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/24/2020
+ms.date: 07/29/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c1d483b6a29d2463af05cd224ac6b03dd149eb33
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 69929ff48428ebf73044c296eabc419f8e442b3b
+ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252892"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "87411960"
 ---
 # <a name="using-external-tools-in-power-bi-desktop-preview"></a>Power BI Desktop에서 외부 도구 사용(미리 보기)
 
@@ -42,8 +42,6 @@ Power BI Desktop의 **외부 도구** 리본에는 머신에 설치되고 Power 
 * 데이터 세트 메타데이터의 포커스가 있는 비즈니스 도메인별 보기를 정의하기 위한 [큐브 뷰](https://docs.microsoft.com/analysis-services/tabular-models/perspectives-ssas-tabular)
 
 외부 도구를 사용하여 메타데이터 번역을 관리할 수 있지만, 이 미리 보기 버전에서는 지원되지 않습니다. 현재 사용자의 로캘이 번역된 로캘인 경우 현재 버전의 Power BI Desktop에서는 필드 목록에서 개체 편집 기능이 제대로 작동하지 않습니다. 
-
-계산 그룹이 정의된 모델에 대해 보고서를 작성할 때 알려진 문제가 있습니다. 계산 그룹에서 선택된 계산/측정값에 따라 동적 서식을 정의하는 경우 해당 서식은 현재 테이블, 행렬 및 카드 시각적 개체에서만 사용할 수 있습니다.
 
 모든 [테이블 형식 개체 모델](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo) 데이터 세트 메타데이터는 읽기 전용으로 액세스할 수 있지만 [테이블 형식 개체 모델](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo) 문서에 설명된 목록에 포함되지 않은 개체는 아직 Power BI Desktop Analysis Services 인스턴스에서 편집할 수 없습니다.
 
@@ -134,9 +132,9 @@ Power BI Desktop을 사용하여 다른 외부 도구를 등록하려면 다음 
 
 **그룹 정책**을 사용하거나 레지스트리를 편집하여 외부 도구를 사용하지 않도록 설정할 수 있습니다. 해당 작업은 **사용자 지정 시각적 개체**를 사용하지 않도록 설정하는 프로세스와 비슷합니다.
 
-    Registry key: ```Software\Policies\Microsoft\Power BI Desktop\```
+    Registry key: *Software\Policies\Microsoft\Power BI Desktop\*
 
-    Registry value: ```EnableExternalTools```
+    Registry value: *EnableExternalTools*
 
 값이 1(10진수)이면 Power BI에서 외부 도구를 사용할 수 있습니다(기본값).
 

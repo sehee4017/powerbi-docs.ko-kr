@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/28/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 55f60facc281b49d4dc5e05fa1dbf157227d9374
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: a48f6aa12a1fd3f3a3dcea39524ed3d51251b062
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264228"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87536242"
 ---
 # <a name="show-data-with-power-bi-reports"></a>Power BI 보고서와 함께 데이터 표시
 

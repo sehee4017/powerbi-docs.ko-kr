@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: f8d5fd8eeece23b6491318f54064c19fe11a8c00
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: b20577dbd3c26a837310059ba665a47b624024b5
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264298"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87536334"
 ---
 # <a name="change-the-display-of-a-report-page"></a>보고서 페이지의 표시 변경
 

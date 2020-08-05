@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 02/20/2020
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: abed2729ff7630b0d5f96934fdbbd50697e99622
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: eebe5bcf2a4e75d9ff6ed526fbd8f9d362ff26ee
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220704"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537829"
 ---
 # <a name="export-data-from-a-visual"></a>시각적 개체에서 데이터 내보내기
 

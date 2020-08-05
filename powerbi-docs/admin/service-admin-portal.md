@@ -10,12 +10,12 @@ ms.date: 05/12/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 90cd12bc7d8d7261e25edd32c5afa7cf144e8202
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: ec521c256209c258604e13483a9f3159b24626ae
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252506"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537507"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
@@ -43,8 +43,8 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Micr
 * [테넌트 설정](#tenant-settings)
 * [용량 설정](#capacity-settings)
 * [embed 태그](#embed-codes)
-* [조직의 시각적 개체](#organizational-visuals)
-* [데이터 흐름 스토리지(미리 보기)](#dataflowStorage)
+* [조직의 시각적 개체](organizational-visuals.md#organizational-visuals)
+* [데이터 흐름 스토리지(미리 보기)](#dataflow-storage-preview)
 * [작업 영역](#workspaces)
 * [사용자 지정 브랜딩](#custom-branding)
 
@@ -386,55 +386,6 @@ Azure AD B2B 게스트 사용자는 조직의 콘텐츠를 편집하고 관리�
 
 [Teams에 Power BI 콘텐츠 공유](../collaborate-share/service-share-report-teams.md)에 관해 자세히 알아보세요.
 
-
-## <a name="power-bi-visuals-settings"></a>Power BI 시각적 개체 설정
-
-### <a name="add-and-use-power-bi-visuals"></a>Power BI 시각적 개체 추가 및 사용
-
-조직의 사용자는 Power BI 시각적 개체를 조작하고 공유할 수 있습니다. [자세히 알아보기](../developer/visuals/power-bi-custom-visuals.md)
-
-> [!NOTE]
-> 이 설정은 전체 조직에 적용하거나 특정 그룹으로 제한할 수 있습니다.
-
-Power BI Desktop(3월 19일 릴리스부터 시작)은 **그룹 정책**을 사용하여 조직의 배포된 컴퓨터에서 Power BI 시각화 개체를 사용하지 않도록 설정할 수 있습니다.
-
-<table>
-<tr><th>attribute</th><th>값</th>
-</tr>
-<td>key</td>
-    <td>Software\Policies\Microsoft\Power BI Desktop\</td>
-<tr>
-<td>valueName</td>
-<td>EnableCustomVisuals</td>
-</tr>
-</table>
-
-1의 값(십진수)을 사용하면 Power BI에서 Power BI 시각적 개체를 사용할 수 있습니다(기본값).
-
-0의 값(십진수)을 사용하면 Power BI에서 Power BI 시각적 개체를 사용할 수 없습니다.
-
-### <a name="allow-only-certified-visuals"></a>인증된 시각적 개체만 허용
-
-“Power BI 시각적 개체 추가 및 사용” 설정으로 표시된 Power BI 시각적 개체를 추가하고 사용할 수 있는 권한이 부여된 조직의 사용자는 [인증된 Power BI 시각적 개체](https://go.microsoft.com/fwlink/?linkid=2002010)만 사용할 수 있습니다(인증되지 않은 시각적 개체는 차단되고 사용 시 오류 메시지가 표시됨). 
-
-
-Power BI Desktop(3월 19일 릴리스부터 시작)은 **그룹 정책**을 사용하여 조직의 배포된 컴퓨터에서 인증되지 않은 Power BI 시각화 개체를 사용하지 않도록 설정할 수 있습니다.
-
-<table>
-<tr><th>특성</th><th>값</th>
-</tr>
-<td>key</td>
-    <td>Software\Policies\Microsoft\Power BI Desktop\</td>
-<tr>
-<td>valueName</td>
-<td>EnableUncertifiedVisuals</td>
-</tr>
-</table>
-
-1의 값(십진수)을 사용하면 Power BI에서 인증되지 않은 Power BI 시각적 개체를 사용할 수 있습니다(기본값).
-
-0의 값(십진수)은 Power BI에서 인증되지 않은 Power BI 시각적 개체를 비활성화합니다(이 옵션은 [인증된 Power BI 시각적 개체](https://go.microsoft.com/fwlink/?linkid=2002010)만 사용할 수 있음).
-
 ## <a name="r-visuals-settings"></a>R 시각적 개체 설정
 
 ### <a name="interact-with-and-share-r-visuals"></a>R 시각적 개체와 상호 작용 및 공유
@@ -540,67 +491,7 @@ Power BI Embedded(A SKU) 설정을 관리하는 방법은 [Azure의 Power BI Emb
 
 ![Power BI 관리 포털 내의 embed 태그](media/service-admin-portal/embed-codes.png)
 
- ## <a name=""></a><a name="organizational-visuals">조직의 시각적 개체</a> 
-
-**조직 시각적 개체** 탭에서는 조직 내부에서 Power BI 시각적 개체를 배포 및 관리할 수 있습니다. 조직 시각적 개체를 사용하면 조직에서 소유 시각적 개체를 쉽게 배포할 수 있으므로 이후 보고서 작성자가 Power BI Desktop에서 이를 검색하고 보고서로 가져올 수 있습니다. [자세히 알아보기](../developer/visuals/power-bi-custom-visuals-organization.md)
-
-> [!WARNING]
-> 사용자 지정 시각적 개체에는 보안 또는 개인 정보 관련 위험이 있는 코드가 포함될 수 있습니다. 조직의 리포지토리로 배포하기 전에 사용자 지정 시각적 개체의 작성자와 원본을 신뢰할 수 있는지 확인해야 합니다.
-
-다음 이미지는 조직의 리포지토리에 현재 배포된 모든 Power BI 시각적 개체를 보여 줍니다.
-
-![조직 관리의 시각적 개체](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
-
-### <a name="add-a-new-custom-visual"></a>새 사용자 지정 시각적 개체 추가
-
-목록에 새 사용자 지정 시각적 개체를 추가하려면 다음 단계를 수행합니다. 
-
-1. 오른쪽 창에서 **사용자 지정 시각적 개체 추가**를 선택합니다.
-
-    ![Power BI 시각적 개체 양식](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
-
-1. **사용자 지정 시각적 개체 추가** 양식을 채웁니다.
-
-    * **.pbiviz 파일 선택**(필수): 업로드할 사용자 지정 시각적 개체 파일을 선택합니다. 버전이 지정된 API Power BI 시각적 개체만 지원됩니다(여기 참조).
-
-    사용자 지정 시각적 개체를 업로드하기 전에 보안 및 개인 정보에 대해 사용자 지정 시각적 개체를 검토하여 조직의 표준에 적합한지 확인해야 합니다.
-
-    * **사용자 지정 시각적 개체 이름 지정**(필수): Power BI Desktop 사용자가 쉽게 이해할 수 있도록 시각적 개체에 간단한 제목을 지정합니다.
-
-    * **아이콘**: Power BI Desktop UI에 표시되는 아이콘 파일입니다.
-
-    * **설명**: 사용자에게 더 많은 컨텍스트와 교육을 제공하기 위한 시각적 개체에 대한 간단한 설명입니다.
-
-1. **적용**을 선택하여 업로드 요청을 시작합니다. 성공하면 목록에 새 항목이 표시됩니다. 실패하면 해당 오류 메시지가 표시됩니다.
-
-### <a name="delete-a-custom-visual-from-the-list"></a>목록에서 사용자 지정 시각적 개체 삭제
-
-시각적 개체를 영구적으로 삭제하려면 리포지토리에서 시각적 개체의 휴지통 아이콘을 선택합니다.
-
-> [!IMPORTANT]
-> 삭제는 되돌릴 수 없습니다. 삭제되면 시각적 개체는 기존 보고서에서 렌더링을 즉시 중지합니다. 동일한 시각적 개체를 다시 업로드하더라도 삭제된 이전 시각적 개체를 대체하지 않습니다. 그러나 사용자는 새 시각적 개체를 다시 가져오고 해당 보고서에 있는 인스턴스를 대체할 수 있습니다.
-
-### <a name="disable-a-custom-visual-in-the-list"></a>목록에서 사용자 지정 시각적 개체 사용 안 함
-
-조직의 저장소에서 시각적 개체를 사용하지 않으려면 기어 아이콘을 선택합니다. **액세스** 섹션에서 사용자 지정 시각적 개체를 사용 안 함으로 설정합니다.
-
-시각적 개체를 사용하지 않도록 설정하면 시각적 개체가 기존 보고서에 렌더링되지 않고 아래와 같은 오류 메시지가 표시됩니다.
-
-*이 사용자 지정 시각적 개체는 더 이상 사용할 수 없습니다. 자세한 내용은 관리자에게 문의하세요.*
-
-그러나 책갈피로 지정된 시각적 개체는 여전히 작동합니다.
-
-업데이트 후 또는 관리자가 변경한 후 Power BI Desktop 사용자는 애플리케이션을 다시 시작하거나 Power BI 서비스에서 브라우저를 새로 고쳐 업데이트를 확인해야 합니다.
-
-### <a name="update-a-visual"></a>시각적 개체 업데이트
-
-조직 저장소에서 시각적 개체를 업데이트하려면 기어 아이콘을 선택합니다. 시각적 개체의 새 버전을 찾아보고 업로드합니다.
-
-시각적 개체 ID가 변경되지 않았는지 확인합니다. 새 파일은 조직 전체의 모든 보고서에 대해 이전 파일을 대체합니다. 그러나 시각적 개체의 새 버전이 시각적 개체의 이전 버전에 대한 사용이나 데이터 구조를 중단하는 경우에는 이전 버전을 바꾸지 마세요. 대신에 시각적 개체의 새 버전에 대한 새 목록을 만들어야 합니다. 예를 들어 새 버전 번호(버전 X.X)를 새 나열된 시각적 개체의 제목에 추가합니다. 이렇게 하면 업데이트된 버전 번호를 가진 동일한 시각적 개체가 되므로 기존 보고서가 해당 기능을 중단하지 않습니다. 다시 한번 시각적 개체 ID가 변경되지 않았는지 확인합니다. 그러면 다음에 사용자가 Power BI Desktop에서 조직의 리포지토리에 들어갈 때 새 버전을 가져올 수 있으며, 보고서에 있는 현재 버전을 바꾸라는 메시지가 표시됩니다.
-
-자세한 내용은 [조직의 Power BI 시각적 개체에 대한 자주 묻는 질문](../developer/visuals/power-bi-custom-visuals-faq.md#organizational-power-bi-visuals)을 참조하세요.
-
-## <a name=""></a><a name="dataflowStorage">데이터 흐름 스토리지(미리 보기)</a>
+## <a name="dataflow-storage-preview"></a>데이터 흐름 스토리지(미리 보기)
 
 기본적으로 Power BI에 사용되는 데이터는 Power BI에서 제공하는 내부 스토리지에 저장됩니다. 데이터 흐름 및 ADLS Gen2(Azure Data Lake Storage Gen2)를 통합하면 조직의 Azure Data Lake Storage Gen2 계정에 데이터 흐름을 저장할 수 있습니다. 자세한 내용은 [데이터 흐름 및 Azure Data Lake 통합(미리 보기)](../transform-model/service-dataflows-azure-data-lake-integration.md)을 참조하세요.
 

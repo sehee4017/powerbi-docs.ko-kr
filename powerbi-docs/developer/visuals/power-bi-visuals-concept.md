@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: af3bf93469887a449f60fa051b7e7b5fb85060df
-ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
+ms.openlocfilehash: d5d075e3627ded01f7e47c1b073b60ff379bb506
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83407693"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537645"
 ---
-# <a name="visuals-in-power-bi"></a>Power BI의 시각적 개체
+# <a name="power-bi-visuals-system-integration"></a>Power BI 시각적 개체 시스템 통합
 
 이 문서에서는 시각적 개체가 Power BI와 통합되는 방법과 사용자가 Power BI의 시각적 개체와 상호 작용하는 방법을 설명합니다. 
 
