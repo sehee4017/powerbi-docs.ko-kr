@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: f352cbbd7c42aa54ae876e73c0ed821eccda59c8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ade84d1523d79e4e233604905627e8e862278fa1
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74700711"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537415"
 ---
 # <a name="dax-use-variables-to-improve-your-formulas"></a>DAX: 변수를 사용하여 수식 향상
 
@@ -113,5 +113,8 @@ RETURN
 
 이 문서에 대한 자세한 내용은 다음 리소스를 참조하세요.
 
+- [DAX(Data Analysis Expressions) 참조](/dax/)
 - [VAR](/dax/var-dax) DAX 문서
+- 학습 경로: [Power BI Desktop에서 DAX 사용](https://docs.microsoft.com/learn/paths/dax-power-bi/)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+- 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com)

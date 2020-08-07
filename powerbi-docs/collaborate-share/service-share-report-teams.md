@@ -9,19 +9,25 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
 LocalizationGroup: Share your work
-ms.date: 07/22/2020
-ms.openlocfilehash: 6305a41188c4416b62d5432823bb30946e5e524d
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.date: 07/31/2020
+ms.openlocfilehash: 0152f835f130eaea12addee1cc8daa15975d7aa1
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87254079"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478064"
 ---
 # <a name="share-directly-to-teams-from-the-power-bi-service"></a>Power BI 서비스에서 Teams에 직접 공유
 
 Power BI 서비스에서 Microsoft Teams에 직접 Power BI 대시보드, 보고서 및 시각적 개체를 공유할 수 있습니다. **Teams에 공유** 기능을 사용하여 Power BI 서비스에서 보고서와 대시보드를 볼 때 빠르게 대화를 시작할 수 있습니다.
 
-충족해야 하는 요구 사항을 포함하여 Power BI 및 Teams를 함께 사용하는 방법에 관한 자세한 내용은 [Power BI를 사용하여 Microsoft Teams에서 협업](service-collaborate-microsoft-teams.md)을 참조하세요.
+## <a name="requirements"></a>요구 사항
+
+Power BI에서 **Teams에 공유** 기능을 사용하려면 다음 설정을 확인합니다.
+
+- Power BI 관리자가 Power BI 관리 포털에서 **Teams에 공유** 테넌트 설정을 사용하지 않도록 설정하지 않았습니다. 해당 설정을 사용하면 조직이 **Teams에 공유** 단추를 숨길 수 있습니다. 자세한 내용은 [Power BI 관리 포털](../admin/service-admin-portal.md#share-to-teams-tenant-setting) 문서를 참조하세요.
+
+그 밖의 요구 사항을 포함하여 Power BI 및 Teams를 함께 사용하는 방법에 관한 자세한 내용은 [Power BI를 사용하여 Microsoft Teams에서 협업](service-collaborate-microsoft-teams.md)을 참조하세요.
 
 ## <a name="share-power-bi-content-to-teams"></a>Teams에 Power BI 콘텐츠 공유
 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/19/2020
+ms.date: 07/28/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9d20f9aa5311d8ee96246ab8b3ed832330742973
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: dcdd663ec9899f7623789915754087c4643c9806
+ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223934"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "87411983"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop의 데이터 원본
 
@@ -73,7 +73,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Access 데이터베이스
 * SQL Server Analysis Services 데이터베이스
 * Oracle 데이터베이스
-* IBM DB2 데이터베이스
+* IBM Db2 데이터베이스
 * IBM Informix 데이터베이스(베타)
 * IBM Netezza
 * MySQL 데이터베이스
@@ -116,7 +116,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Power BI 데이터 세트
 * Power BI 데이터 흐름
 * Common Data Service
-* Power Platform 데이터 흐름
+* Power Platform 데이터 흐름(베타)
 
 다음 그림은 **Power Platform**에 대한 **데이터 가져오기** 창을 보여 줍니다.
 
@@ -133,6 +133,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Azure Blob Storage
 * Azure Table Storage
 * Azure Cosmos DB
+* Azure Data Explorer(Kusto)
 * Azure Data Lake Storage Gen2
 * Azure Data Lake Storage Gen1
 * Azure HDInsight(HDFS)
@@ -171,21 +172,19 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Marketo(베타)
 * Mixpanel(베타)
 * Planview Enterprise One - PRM(베타)
-* Planview Projectplace(베타)
 * QuickBooks Online(베타)
 * Smartsheet
 * SparkPost(베타)
 * SweetIQ(베타)
 * Planview Enterprise One - CTM(베타)
 * Twilio(베타)
-* tyGraph(베타)
-* Webtrends(베타)
 * Zendesk(베타)
 * Asana(베타)
 * Dynamics 365 Customer Insights(베타)
 * Emigo 데이터 원본
 * Entersoft Business Suite(베타)
-* FactSet Analytics(베타)
+* FactSet Analytics
+* Palantir Foundry
 * Industrial App Store
 * Intune Data Warehouse(베타)
 * Microsoft Graph 보안(베타)
@@ -218,7 +217,10 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Python 스크립트
 * ODBC
 * OLE DB
+* Acterys : Model Automation & Planning(베타)
+* Automation Anywhere(베타)
 * Solver
+* Cherwell(베타)
 * Cognite Data Fusion(베타)
 * FHIR
 * Information Grid(베타)
@@ -233,6 +235,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Tenforce(스마트) 목록
 * TIBCO(R) 데이터 가상화(베타)
 * Vena(베타)
+* Vessel Insight(베타)
 * Workforce Dimensions(베타)
 * Zucchetti HR Infinity(베타)
 * 빈 쿼리

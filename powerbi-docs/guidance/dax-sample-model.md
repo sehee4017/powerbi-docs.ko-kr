@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/25/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 470bfcd4d9131c98412c504e4aba7daf6a995890
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 6e2fe331fa274305447266321893204dddcc3148
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85785256"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537461"
 ---
 # <a name="dax-sample-model"></a>DAX 샘플 모델
 
@@ -50,5 +50,6 @@ Power BI Desktop 샘플 모델 파일은 [여기](https://aka.ms/dax-docs-sample
 이 문서에 대한 자세한 내용은 다음 리소스를 참조하세요.
 
 - [DAX(Data Analysis Expressions) 참조](/dax/)
-- 질문이 있으십니까? [Power BI 커뮤니티에 질문하세요.](https://community.powerbi.com/)
-- 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com/)
+- 학습 경로: [Power BI Desktop에서 DAX 사용](https://docs.microsoft.com/learn/paths/dax-power-bi/)
+- 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+- 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com)

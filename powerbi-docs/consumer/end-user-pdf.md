@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: ff79017bd77dd63ce1aa50b9c5361bf82a060820
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ec45d971855aefe35161f2b10fecd483f0345a46
+ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236406"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "87768806"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>보고서를 Power BI에서 PDF로 내보내기
 
@@ -55,7 +55,7 @@ Power BI 서비스에서 보고서를 선택하여 캔버스에 표시합니다.
 * R 및 Python 시각적 개체는 현재 지원되지 않습니다. PDF에서 이들 시각적 개체는 공백이 되고 오류 메시지를 표시합니다. 
 * 인증된 Power BI 시각적 개체는 지원됩니다. Power BI 시각적 개체를 인증하는 방법을 비롯한 인증된 Power BI 시각적 개체에 대한 자세한 내용은 [Power BI 시각적 개체 인증받기](../developer/visuals/power-bi-custom-visuals-certified.md)를 참조하세요. 인증되지 않은 Power BI 시각적 개체는 지원되지 않습니다. 인증되지 않은 사용자 지정 시각적 개체는 PDF에서 오류 메시지와 함께 표시됩니다.
 * ESRI 시각적 개체는 지원되지 않습니다.
-* 30개 이상의 보고서 페이지를 포함하는 보고서는 현재 내보낼 수 없습니다.
+* 50개 이상의 보고서 페이지를 포함하는 보고서는 현재 내보낼 수 없습니다.
 * 보고서를 PDF로 내보내는 과정은 완료하는 데 몇 분 정도 걸릴 수 있으므로 잠시 기다려 주시기 바랍니다. 소요 시간에 영향을 줄 수 있는 요소에는 보고서의 구조, Power BI 서비스의 현재 부하 등이 있습니다.
 * **PDF로 내보내기** 메뉴 항목을 Power BI 서비스에서 사용할 수 없는 경우, 테넌트 관리자가 이 기능을 사용하지 않도록 설정했을 가능성이 큽니다. 자세한 내용은 테넌트 관리자에게 문의하세요.
 * 배경 이미지는 차트의 경계 영역에서 잘립니다. PDF로 내보내기 전에 배경 이미지를 제거하는 것이 좋습니다.

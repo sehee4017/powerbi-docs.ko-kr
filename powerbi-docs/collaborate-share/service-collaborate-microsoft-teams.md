@@ -9,17 +9,17 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 07/22/2020
-ms.openlocfilehash: 17a0879dac416a98d214ed11861947cb2c311487
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.date: 07/31/2020
+ms.openlocfilehash: 01e5b470e0beb189d64da18785a17e771bcaf59b
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87254211"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478041"
 ---
 # <a name="collaborate-in-microsoft-teams-with-power-bi"></a>Power BI를 사용하여 Microsoft Teams에서 협업
 
-Microsoft Teams 채널 및 채팅의 대화형 Power BI 콘텐츠를 공유하고 협업하기 위한 다양한 옵션이 있습니다. 
+여러 곳에 분포되어 원격으로 근무하는 직원들이 새로운 표준으로 부상하고 있는 지금, 갈수록 많은 조직들이 직원들의 업무 현황을 동기화하기 위해 Microsoft Teams를 사용하고 있습니다. Power BI에는 Microsoft Teams 채널 및 채팅에서 대화형 Power BI 콘텐츠를 공유하고 협업하기 위한 다양한 옵션이 있습니다. 
 
 - Microsoft Teams의 **Power BI** 탭을 사용하여 [Microsoft Teams 채널 및 채팅에 대화형 보고서를 포함](service-embed-report-microsoft-teams.md)할 수 있습니다. **Power BI** 탭에서는 동료가 팀의 데이터를 찾고 팀 채널 내에서 데이터에 대해 논의할 수 있습니다. 
 - 보고서, 대시보드 및 앱의 링크를 Microsoft Teams 메시지 상자에 붙여넣으면 [링크 미리 보기](service-teams-link-preview.md)를 만들 수 있습니다. 링크 미리 보기는 링크에 관한 정보를 표시합니다. 
@@ -34,17 +34,6 @@ Microsoft Teams 채널 및 채팅의 대화형 Power BI 콘텐츠를 공유하�
 - 사용자에게 Power BI Pro 라이선스가 있거나, 보고서가 Power BI 라이선스가 있는 [Power BI 프리미엄 용량(EM 또는 P SKU)](../admin/service-premium-what-is.md)에 포함되어 있습니다.
 - 사용자가 Power BI 서비스에 로그인하여 Power BI 라이선스를 활성화했습니다.
 - 사용자가 Microsoft Teams의 **Power BI** 탭을 사용하기 위한 요구 사항을 충족합니다.
-
-Microsoft Teams에서 **Power BI** 탭을 사용하려면 다음 요소를 확인합니다.
-
-- Microsoft Teams에 **Power BI** 탭이 있습니다.
-- **Power BI** 탭을 사용하여 Microsoft Teams에서 보고서를 추가하려면 보고서를 호스트하는 작업 영역에서 보기 권한자 이상의 역할이 있어야 합니다. 다른 역할에 대한 자세한 내용은 [새 작업 영역의 역할](service-new-workspaces.md#roles-in-the-new-workspaces)을 참조하세요.
-- Microsoft Teams의 **Power BI** 탭에서 보고서를 보려면 사용자에게 보고서를 볼 수 있는 권한이 있어야 합니다.
-- 사용자는 채널 및 채팅에 대한 액세스 권한이 있는 Microsoft Teams 사용자여야 합니다.
-
-Power BI에서 **Teams에 공유** 기능을 사용하려면 다음 설정을 확인합니다.
-
-- Power BI 관리자가 Power BI 관리 포털에서 **Teams에 공유** 테넌트 설정을 사용하지 않도록 설정하지 않았습니다. 해당 설정을 사용하면 조직이 **Teams에 공유** 단추를 숨길 수 있습니다. 자세한 내용은 [Power BI 관리 포털](../admin/service-admin-portal.md#share-to-teams-tenant-setting) 문서를 참조하세요.
 
 ## <a name="grant-access-to-reports"></a>보고서에 액세스 권한 부여
 

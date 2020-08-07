@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 07/01/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: d49d92261b141a66021bb0809c214e712bd687c8
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 3707399d21d15b16236e0e33da6c264fb6e364b4
+ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86263734"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "87768975"
 ---
 # <a name="export-reports-to-powerpoint"></a>PowerPoint로 보고서 내보내기
 
@@ -104,7 +104,7 @@ Power BI가 내보낸 PowerPoint 파일을 열면 훌륭하고 유용한 요소�
 * 일부 보고서는 내보낼 수 없습니다. 내용은 다음과 같습니다.
     - Power BI 테넌트 도메인 외부의 사용자가 소유한 보고서(예: 조직 외부 사람이 소유한 보고서 및 사용자와 공유한 보고서).
     - 조직 외부의 사람, 즉 Power BI 테넌트에 없는 사용자와 대시보드를 공유하면 해당 사용자는 공유 대시보드에 연결된 보고서를 PowerPoint로 내보낼 수 없습니다. 예를 들어 aaron@contoso.com은 david@cohowinery.com과 공유할 수 있지만, david@cohowinery.com은 연결된 보고서를 PowerPoint로 내보낼 수 없습니다.
-    - 30페이지를 초과하는 보고서. 처음 30페이지만 내보내집니다.
+    - 50페이지를 초과하는 보고서. 처음 50페이지만 내보내집니다.
     - 이전 버전의 PowerPoint로 내보내는 보고서.
     - 처리하는 데 1시간 이상 걸리는 보고서. 
     - 로드하는 데 6분 이상 걸리는 보고서 페이지. 

@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 07/27/2020
-ms.openlocfilehash: c91642a08642a52b333ccba14078068eaa9ba616
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.date: 07/28/2020
+ms.openlocfilehash: 44cfbeb85f30e2d84dc2c693ab4837606eb899eb
+ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252869"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "87412052"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Report Server 및 Power BI 서비스 비교
 
@@ -48,14 +48,15 @@ Power BI Report Server 및 Power BI 서비스에는 많은 유사성과 일부 �
 | 페이지를 매긴 보고서에 대한 메일 구독 | 예 | 예 | [Power BI 서비스의 페이지가 매겨진 보고서에 자신과 다른 사용자 구독](../consumer/paginated-reports-subscriptions.md)<br><br>[Reporting Services의 메일 전송](https://docs.microsoft.com/sql/reporting-services/working-with-subscriptions-web-portal)  |
 | 데이터 경고 | 아니요 | 예 | Power BI 서비스의 [데이터 경고](../create-reports/service-set-data-alerts.md)
 | 행 수준 보안(RLS) | 예 | 예 | DirectQuery(데이터 원본) 및 가져오기 모드에서 사용 가능 <br><br>[Power BI 서비스](../admin/service-admin-rls.md)의 행 수준 보안 <br><br>[Power BI Report Server](row-level-security-report-server.md)의 행 수준 보안 |
+| 다대다 관계 | 아니요 | 예 | Power BI Desktop의 [다 대 다 관계 적용](../transform-model/desktop-many-to-many-relationships.md) |
 | 교차 보고서 드릴스루 | 아니요 | 예 | [교차 보고서 드릴스루 사용](../create-reports/desktop-cross-report-drill-through.md) |
 | 전체 화면 모드 | 아니요 | 예 | Power BI 서비스의 [전체 화면 모드](../consumer/end-user-focus.md) |
 | 고급 Microsoft 365 협업 | 아니요 | 예 | Microsoft 365를 사용하여 [작업 영역에서 협업](../collaborate-share/service-collaborate-power-bi-workspace.md) |
-| R 스크립트 및 시각적 개체 | 아니요 | 예 | Power BI Desktop에서 [R 시각적 개체를 만들고](../create-reports/desktop-r-visuals.md), R 스크립트를 실행하며, Power BI 서비스에 게시합니다. R 스크립트 또는 시각적 개체를 포함하는 Power BI 보고서는 Power BI Report Server에 저장할 수 없습니다.  |
+| R 스크립트 및 시각적 개체 | 예 | yes | Power BI Desktop에서 [R 시각적 개체를 만들고](../create-reports/desktop-r-visuals.md), R 스크립트를 실행하며, Power BI 서비스에 게시합니다. R 스크립트 또는 시각적 개체를 포함하는 Power BI 보고서는 Power BI Report Server에 저장할 수 없습니다.  |
 | Python 스크립트 및 시각적 개체 | 아니요 | 예 | Power BI Desktop에서 [Python 스크립트 및 시각적 개체를 만들고](../connect-data/desktop-python-scripts.md) Power BI 서비스에 게시합니다. Python 스크립트 또는 시각적 개체를 포함하는 Power BI 보고서는 Power BI Report Server에 저장할 수 없습니다. |
-| 미리 보기 기능 | 아니요 | 예 | [Power BI 서비스 미리 보기 기능 옵트인](../consumer/end-user-preview-features.md) |
+| 미리 보기 기능 | 예 | 예 | [Power BI 서비스 미리 보기 기능 옵트인](../consumer/end-user-preview-features.md) |
 | Power BI 시각적 개체 | 예 | 예 | [Power BI 시각적 개체](../developer/visuals/power-bi-custom-visuals.md) |
-| 복합 모델 | 아니요 | 예 |
+| 복합 모델 | 예 | yes |
 | Power BI Desktop | 보고서 서버에 최적화된 버전으로, 보고서 서버로 다운로드할 수 있음 | Power BI 서비스에 최적화된 버전으로, Windows 스토어에서 사용 가능 | [보고서 서버용 Power BI Desktop](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI 서비스용 Power BI Desktop](https://aka.ms/pbidesktopstore) |
 
 ## <a name="next-steps"></a>다음 단계

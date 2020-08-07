@@ -1,6 +1,6 @@
 ---
 title: Power BI의 시각적 개체
-description: Power BI의 사용자 지정 시각화
+description: 이 문서에서는 사용자 지정 Power BI 시각적 개체에 대해 설명합니다.
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -8,20 +8,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: overview
-ms.date: 01/03/2019
+ms.date: 07/14/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e9dc53eb3f49a1ef62e4e3539ac7eb6d92b317af
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: e56b03eeccc3140709fb458d4e42a9065a4da5d4
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83561642"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87538013"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI의 시각적 개체
 
 Power BI에는 기본 제공되는 많은 Power BI 시각적 개체가 포함되어 있습니다. 이러한 시각적 개체는 [Power BI Desktop](https://powerbi.microsoft.com/desktop/) 및 [Power BI 서비스](https://app.powerbi.com)의 시각화 창에서 사용 가능하며 Power BI 콘텐츠를 만들고 편집하는 데 사용할 수 있습니다.
 
-![시각화](media/power-bi-custom-visuals/power-bi-visualizations.png)
+![Power BI Desktop 및 Power BI 서비스의 Power BI 시각화 창 스크린샷.](media/power-bi-custom-visuals/power-bi-visualizations.png)
 
 Microsoft [AppSource](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fappsource.microsoft.com%2Fen-us%2Fmarketplace%2Fapps%3Fpage%3D1%26product%3Dpower-bi-visuals&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C6d9286afacb3468d4cde08d740b76694%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637049028749147718&sdata=igWm0e1vXdgGcbyvngQBrHQVAkahPnxPC1ZhUPntGI8%3D&reserved=0) 또는 Power BI를 통해 더 많은 Power BI 시각적 개체를 사용할 수 있습니다. 이러한 시각적 개체는 Microsoft 및 Microsoft 파트너에서 만들며 AppSource 유효성 검사 팀에서 테스트하고 유효성을 검사합니다.
 
@@ -38,6 +38,11 @@ Power BI 시각적 개체를 시각화 창에서 고정 해제하려면 해당 �
 ## <a name="appsource-power-bi-visuals"></a>AppSource Power BI 시각적 개체
 
 Microsoft 및 커뮤니티 멤버는 공익을 위해 Power BI 시각적 개체 개발에 기여하며 [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)에 시각적 개체를 게시합니다. 이러한 시각적 개체를 다운로드하여 Power BI 보고서에 추가할 수 있습니다. Microsoft는 이들 Power BI 시각적 개체의 기능과 품질을 테스트하고 승인했습니다.
+
+>[!NOTE]
+>* Microsoft의 SDK로 만든 Power BI 시각적 개체를 사용하여 Power BI 테넌트의 지역, 규정 준수 경계 또는 국가별 클라우드 인스턴스 외부에 있는 타사 또는 기타 서비스에서 데이터를 가져오거나 해당 서비스로 데이터를 내보낼 수 있습니다.
+>* Power BI 인증 시각적 개체는 해당 시각적 개체가 외부 서비스나 리소스에 액세스할 수 없음을 확인하기 위해 추가로 테스트된 AppSource의 시각적 개체입니다.
+>* AppSource의 Power BI 시각적 개체를 가져온 후에는 해당 시각적 개체를 추가 고지 없이 자동으로 업데이트할 수 있습니다.
 
 ### <a name="what-is-appsource"></a>AppSource란?
 
@@ -74,10 +79,17 @@ Power BI 시각적 개체를 가져오려면 ‘시각화’ 창에서 **사용�
 
 ## <a name="next-steps"></a>다음 단계
 
-* 개발자인 경우 [Power BI 시각적 개체 개발](custom-visual-develop-tutorial.md) 자습서로 시작하세요.
+>[!div class="nextstepaction"]
+>[Power BI 시각적 개체 개발](custom-visual-develop-tutorial.md)
 
-* [Power BI 시각적 개체 프로젝트 구조화](visual-project-structure.md) 방법에 대해 알아봅니다.
+>[!div class="nextstepaction"]
+>[Power BI 시각적 개체 프로젝트 구조](visual-project-structure.md)
 
-* [Power BI 시각적 개체에 대한 지침](guidelines-powerbi-visuals.md)을 살펴봅니다.
+>[!div class="nextstepaction"]
+>[Power BI 시각적 개체에 대한 지침](guidelines-powerbi-visuals.md)
 
-궁금한 점이 더 있나요? [Power BI 시각적 개체에 대한 질문과 대답](power-bi-custom-visuals-faq.md) 페이지 또는 [Power BI 커뮤니티](https://community.powerbi.com/)를 방문해 보세요.
+>[!div class="nextstepaction"]
+>[질문과 대답](power-bi-custom-visuals-faq.md)
+
+>[!div class="nextstepaction"]
+>[Power BI 커뮤니티](https://community.powerbi.com/)

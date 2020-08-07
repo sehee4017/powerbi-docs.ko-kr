@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 07/23/2020
+ms.date: 07/30/2020
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: f901dcad1743383b85db3935ede8fddf8a4ed492
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: ccf8b5fa8f1c4d18a25767ff11f035304b339de0
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87251788"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478133"
 ---
 # <a name="tutorial-from-excel-workbook-to-a-report-in-the-power-bi-service-to-microsoft-teams"></a>자습서:  Excel 통합 문서를 통해 Power BI 서비스에서 보고서 작성 및 Microsoft Teams에서 공유
 오늘 업무가 끝나기 전에 최근 매출 및 이익 통계에 관한 보고서를 상사에게 제출해야 합니다. 하지만 최신 데이터는 다양한 타사 시스템과 노트북의 파일에 있습니다. 이전에는 시각적 개체를 만들고 보고서 서식을 지정하는 데 몇 시간이 걸렸으며, 걱정이 되기 시작합니다.
@@ -204,8 +204,6 @@ Microsoft Teams에서 동료에게 직접 보고서 및 대시보드를 공유�
 
 ## <a name="next-steps"></a>다음 단계
 
-* [Power BI 서비스 시작](../fundamentals/service-get-started.md)
-* [Power BI Desktop 시작](../fundamentals/desktop-getting-started.md)
-* [Power BI 서비스의 디자이너를 위한 기본 개념](../fundamentals/service-basic-concepts.md)
+* 이렇게 해서 Power BI 서비스에서 기본 보고서를 만들었습니다. 이번에는 Power BI Desktop에서 보고서를 만들어 보는 건 어떨까요? [Excel 통합 문서에서 Power BI Desktop의 깔끔한 보고서 만들기](desktop-excel-stunning-report.md) 자습서를 살펴보세요.
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용](https://community.powerbi.com/)하세요.

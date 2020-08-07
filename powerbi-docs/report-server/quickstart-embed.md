@@ -3,17 +3,17 @@ title: SharePoint Server에서 iFrame을 사용하여 Power BI Report Server 보
 description: 이 문서에서는 SharePoint Server의 iFrame에 Power BI Report Server 보고서를 포함하는 방법을 보여 줍니다.
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 08/12/2019
+ms.date: 07/28/2020
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 4e7616ec3ce6552130848bc0508bf8b9ac8ac965
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4f6382b78a02750c76987de4fa911eb8c7d33b50
+ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75762603"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "87412006"
 ---
 # <a name="embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>SharePoint Server에서 iFrame을 사용하여 Power BI Report Server 보고서 포함
 
@@ -24,7 +24,7 @@ ms.locfileid: "75762603"
 ## <a name="prerequisites"></a>필수 조건
 * [Power BI Report Server](https://powerbi.microsoft.com/report-server/)가 설치 및 구성되어 있습니다.
 * [Power BI Report Server에 최적화된 Power BI Desktop](install-powerbi-desktop.md)이 설치되어 있습니다.
-* [SharePoint](https://docs.microsoft.com/sharepoint/install/install) 환경이 설치 및 구성되어 있습니다.
+* [SharePoint 2013, 2016 또는 2019](https://docs.microsoft.com/sharepoint/install/install) 환경이 설치 및 구성되어 있습니다.
 * Internet Explorer 11은 문서 모드를 IE11(Edge) 모드로 설정한 경우 또는 SharePoint Online을 사용하는 경우에만 지원됩니다. SharePoint 온-프레미스와 SharePoint Online에서는 다른 지원되는 브라우저를 사용할 수 있습니다.
 
 ## <a name="create-the-power-bi-report-url"></a>Power BI 보고서 URL 만들기

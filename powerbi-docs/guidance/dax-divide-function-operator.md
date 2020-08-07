@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: b792c7d9f6200544188e9f9fe711cd1394e8b921
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2c3733f98c278895102165e9d2db52f0e9318903
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279575"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537530"
 ---
 # <a name="dax-divide-function-vs-divide-operator-"></a>DAX: 나누기 함수 및 나누기 연산자(/)
 
@@ -65,5 +65,6 @@ DIVIDE 함수에서 대체 값을 반환할지를 신중하게 고려해야 합�
 이 문서에 대한 자세한 내용은 다음 리소스를 참조하세요.
 
 - [DAX(Data Analysis Expressions) 참조](/dax/)
+- 학습 경로: [Power BI Desktop에서 DAX 사용](https://docs.microsoft.com/learn/paths/dax-power-bi/)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
-
+- 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com)

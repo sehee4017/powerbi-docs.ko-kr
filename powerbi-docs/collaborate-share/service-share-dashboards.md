@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 06/26/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d09ebee0cc22c7037db437e1c7a46a3d19ff36fd
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 68d6a399a5ecccf07aaa71f74b18fd4ddd6082f5
+ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485592"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "87768513"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>동료 및 다른 사용자와 Power BI 대시보드 및 보고서 공유
 공유는 Power BI 서비스에서 대시보드 및 보고서에 대한 액세스 권한을 사용자에게 부여하는 가장 쉬운 방법입니다. 조직 내부 사용자나 외부 사용자와 공유할 수 있습니다.
@@ -34,7 +34,7 @@ Power BI Desktop에서 직접 *공유*할 수 없습니다. Power BI 서비스�
 
 ## <a name="share-a-dashboard-or-report"></a>대시보드 또는 보고서 공유
 
-1. 대시보드 또는 보고서 목록이나 열린 대시보드 또는 보고서에서 **공유** 아이콘 ![공유 아이콘](media/service-share-dashboards/power-bi-share-icon.png)을 선택합니다.
+1. 대시보드 또는 보고서 목록이나 열린 대시보드 또는 보고서에서 **공유** :::image type="icon" source="../media/power-bi-share-icon.png" border="false":::를 선택합니다.
 
 2. 맨 위 상자에서 개인에 대한 전체 메일 주소, 메일 그룹 또는 보안 그룹을 입력합니다. 동적 메일 그룹과 공유할 수 없습니다. 
    
@@ -67,7 +67,7 @@ Power BI Desktop에서 직접 *공유*할 수 없습니다. Power BI 서비스�
 ## <a name="see-who-has-access-to-a-dashboard-or-report"></a>대시보드 또는 보고서에 액세스할 사람 보기
 경우에 따라 공유한 사용자를 확인하고 해당 사용자가 공유한 사람을 확인해야 합니다.
 
-1. 대시보드 및 보고서 목록 또는 대시보드나 보고서 자체에서 **공유** 아이콘 ![공유 아이콘](media/service-share-dashboards/power-bi-share-icon.png)을 선택합니다. 
+1. 대시보드 및 보고서 목록 또는 대시보드나 보고서 자체에서 **공유** :::image type="icon" source="../media/power-bi-share-icon.png" border="false":::를 선택합니다. 
 2. **대시보드 공유** 또는 **보고서 공유** 대화 상자에서 **액세스**를 선택합니다.
    
     ![대시보드 공유 대화 상자, 액세스 탭](media/service-share-dashboards/power-bi-share-dialog-access.png)
@@ -110,7 +110,7 @@ Power BI 관리자는 외부 게스트 사용자가 조직의 콘텐츠를 편�
 * 보내기 전에 초대장 맨 아래에 있는 **수신자가 대시보드(또는 보고서)를 공유하도록 허용** 확인란의 선택을 취소합니다.
 
 ### <a name="if-youve-already-shared-the-dashboard-or-report"></a>대시보드 또는 보고서를 이미 공유한 경우
-1. 대시보드 및 보고서 목록 또는 대시보드나 보고서 자체에서 **공유** 아이콘 ![공유 아이콘](media/service-share-dashboards/power-bi-share-icon.png)을 선택합니다. 
+1. 대시보드 및 보고서 목록 또는 대시보드나 보고서 자체에서 **공유** :::image type="icon" source="../media/power-bi-share-icon.png" border="false":::를 선택합니다. 
 2. **대시보드 공유** 또는 **보고서 공유** 대화 상자에서 **액세스**를 선택합니다.
    
     ![대시보드 공유 대화 상자, 액세스 탭](media/service-share-dashboards/power-bi-share-dialog-access.png)

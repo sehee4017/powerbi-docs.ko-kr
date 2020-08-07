@@ -9,19 +9,28 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 07/22/2020
-ms.openlocfilehash: 68459deb29c59af3b9e2b185d54cf4e523d555d8
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.date: 07/31/2020
+ms.openlocfilehash: 53126fe044f65740b9dac072422f749312b960da
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252570"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478018"
 ---
 # <a name="embed-power-bi-content-in-microsoft-teams"></a>Microsoft Teams에 Power BI 콘텐츠 포함
 
 Microsoft Teams 채널 및 채팅에 대화형 Power BI 보고서를 쉽게 포함할 수 있습니다. 
 
-충족해야 하는 요구 사항을 포함하여 Power BI 및 Teams를 함께 사용하는 방법에 관한 자세한 내용은 [Power BI를 사용하여 Microsoft Teams에서 협업](service-embed-report-microsoft-teams.md)을 참조하세요.
+## <a name="requirements"></a>요구 사항
+
+Microsoft Teams에서 **Power BI** 탭을 사용하려면 다음 요소를 확인합니다.
+
+- Microsoft Teams에 **Power BI** 탭이 있습니다.
+- **Power BI** 탭을 사용하여 Microsoft Teams에서 보고서를 추가하려면 보고서를 호스트하는 작업 영역에서 보기 권한자 이상의 역할이 있어야 합니다. 다른 역할에 대한 자세한 내용은 [새 작업 영역의 역할](service-new-workspaces.md#roles-in-the-new-workspaces)을 참조하세요.
+- Microsoft Teams의 **Power BI** 탭에서 보고서를 보려면 사용자에게 보고서를 볼 수 있는 권한이 있어야 합니다.
+- 사용자는 채널 및 채팅에 대한 액세스 권한이 있는 Microsoft Teams 사용자여야 합니다.
+
+그 밖의 요구 사항을 포함하여 Power BI 및 Teams를 함께 사용하는 방법에 관한 자세한 내용은 [Power BI를 사용하여 Microsoft Teams에서 협업](service-embed-report-microsoft-teams.md)을 참조하세요.
 
 ## <a name="embed-a-report-in-teams"></a>Teams에 보고서 포함
 

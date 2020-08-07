@@ -6,24 +6,26 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 07/24/2020
+ms.date: 07/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e39d2fe11a58691b259784c292fec6e5ee6cb322
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: c74c618eb4c748d94260573c1ddd4266d3cf5c0e
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87254228"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478087"
 ---
 # <a name="set-featured-tables-in-power-bi-desktop-preview"></a>Power BI Desktop에서 추천 테이블 설정(미리 보기)
 
 Excel의 데이터 형식 갤러리에서 사용자는 Power BI 데이터 세트의 ‘추천 테이블’에서 데이터를 찾을 수 있습니다. 이 문서에서는 테이블을 데이터 세트의 ‘추천’ 테이블로 설정하는 방법을 알아봅니다. 해당 태그를 사용하면 사용자가 Excel 시트에 엔터프라이즈 데이터를 더 쉽게 추가할 수 있습니다. 추천 테이블을 설정 및 공유하는 기본 단계는 다음과 같습니다.
 
-1. [Power BI에서 데이터 세트를 승격하거나 인증](../connect-data/service-datasets-promote.md)합니다. 
 1. Power BI Desktop에서 데이터 세트의 추천 테이블을 식별합니다(이 문서).
 1. 추천 테이블이 포함된 데이터 세트를 새 작업 영역 중 하나에 저장합니다. 보고서 작성자는 관련 추천 테이블을 사용하여 보고서를 만들 수 있습니다. 
 1. 조직의 나머지 부분은 관련되거나 새로 고칠 수 있는 데이터를 사용하기 위해 Excel에서 ‘데이터 형식’이라고도 하는 해당 추천 테이블에 연결할 수 있습니다. [Excel에서 Power BI 추천 테이블에 액세스(미리 보기)](service-excel-featured-tables.md) 문서에서는 Excel에서 해당 추천 테이블을 사용하는 방법을 설명합니다.
+
+> [!NOTE]
+> [Power BI에서 데이터 세트를 승격하거나 인증](../connect-data/service-datasets-promote.md)할 수 있습니다. 이를 ‘보증’이라고 합니다. Excel은 데이터 형식 갤러리에서 보증된 데이터 세트에 있는 테이블을 우선시합니다. Excel은 먼저 인증된 데이터 세트에 있는 주요 테이블을 나열한 후에 승격된 데이터 세트에 있는 테이블을 나열합니다. 그다음에 보증되지 않은 데이터 세트에 있는 주요 테이블을 나열합니다. 
 
 ## <a name="turn-on-the-featured-table-preview"></a>주요 테이블 미리 보기 설정
 
@@ -31,6 +33,8 @@ Excel의 데이터 형식 갤러리에서 사용자는 Power BI 데이터 세트
 2. **주요 테이블** 확인란을 선택합니다.
 
     :::image type="content" source="media/service-excel-featured-tables/power-bi-preview-featured-tables.png" alt-text="미리 보기 주요 테이블 옵션":::
+
+3. Power BI Desktop을 다시 시작합니다.
 
 ## <a name="select-a-table"></a>테이블 선택
 

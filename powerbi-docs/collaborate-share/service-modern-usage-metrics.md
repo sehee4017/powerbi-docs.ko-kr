@@ -10,14 +10,14 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7c8c1744c8ecbbf170ae073d2e302fe55faea55b
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 9aad77f162a49697466899afce44284c7f063746
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86953033"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478156"
 ---
-# <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>새 작업 영역 환경에서 사용량 메트릭 모니터링
+# <a name="monitor-usage-metrics-in-the-new-workspace-experience-preview"></a>새 작업 영역 환경에서 사용 현황 메트릭 모니터링(미리 보기)
 
 콘텐츠가 사용되는 방식을 알고 있으면 영향을 보여 주고 활동의 우선 순위를 정하는 데 도움이 됩니다. 사용 메트릭은 보고서 중 하나가 조직의 거대한 세그먼트에 의해 매일 사용되는 것을 보여 주고 사용자가 만든 대시보드를 전혀 보고 있지 않는 것을 보여 줄 수 있습니다. 이러한 유형의 피드백은 작업 활동 안내에 유용합니다.
 
@@ -81,7 +81,7 @@ ms.locfileid: "86953033"
 
 | **호출** | **메트릭** | **설명** |
 | --- | --- | --- |
-| 보고서 사용량 | 보고서 뷰 | 보고서 뷰는 누군가가 보고서를 열 때마다 기록됩니다. 뷰의 정의는 이전 사용량 메트릭 보고서와 다릅니다. 보고서 페이지를 변경하는 것은 더 이상 추가 뷰로 간주되지 않습니다. |
+| 보고서 사용량 | 보고서 뷰 | 보고서 뷰는 누군가가 보고서를 열 때마다 기록됩니다. 뷰의 정의는 이전 사용량 메트릭 보고서와 다릅니다. 보고서 페이지를 변경하는 것은 더 이상 추가 뷰로 간주되지 않습니다. 공유 및 고정과 같은 작업은 더 이상 사용 현황 메트릭에서 고려되지 않습니다.|
 | 보고서 사용량 | 고유한 뷰어 | 뷰어는 해당 기간 동안 한 번 이상 보고서를 연 사람입니다(AAD 사용자 계정 기준). |
 | 보고서 사용량 | 뷰 추세 | 뷰 추세는 시간 경과에 따른 뷰 수 변화를 반영합니다. 이 추세는 선택한 기간의 전반부와 후반부를 비교합니다. |
 | 보고서 사용량 | 날짜 슬라이서 | 보고서 사용량 페이지에서 주별 또는 격주 추세 등을 계산하기 위한 기간을 변경할 수 있습니다. 보고서 사용량 페이지의 왼쪽 아래 모서리에서 선택한 보고서에 사용할 수 있는 사용량 데이터에 대해 시작 날짜와 종료 날짜를 결정할 수 있습니다. |

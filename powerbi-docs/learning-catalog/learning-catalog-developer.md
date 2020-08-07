@@ -6,12 +6,12 @@ ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: edc2e40c219a8bbe1d57a5cfda774e7f9f87856d
-ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
+ms.openlocfilehash: 8825cf687d3d6dd754e520f5e452b2483e3f179b
+ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "84532629"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "87411868"
 ---
 # <a name="developer-learning-catalog"></a>개발자 학습 카탈로그
 
@@ -27,13 +27,17 @@ ms.locfileid: "84532629"
 ## <a name="embedded"></a>포함<a name="embedded"></a>
 | 콘텐츠 | 설명 | 서식  | 길이      |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|
-|[온라인 과정: Power BI 개발자 하루에 끝내기](developer-online-course.md)|Power BI 콘텐츠를 포함하는 데 필요한 기술 지식으로 앱 개발자의 역량을 강화하는 비디오 기반 과정입니다. 비디오 1부터 비디오 20까지 녹화된 순서대로 비디오를 시청하는 것이 좋습니다.|YouTube 재생 목록 및 자율 학습 키트|3시간 20분|
 | [다중 테넌트 배포용 Power BI Embedded Analytics 관리를 위한 모범 사례](https://info.microsoft.com/ww-landing-PBI-webinar-Best-Practices-for-Managing-Power-BI-Embedded-video.html) | Power BI Embedded는 사용자 고유의 애플리케이션에서 Power BI에 화이트 레이블을 지정할 수 있게 해주는 강력한 서비스입니다. Power BI Embedded 배포를 관리하는 방법을 알아보려면 이 웨비나를 시청하세요.   | 웹 세미나       |                |
 | [20분 이내에 Power BI Embedded에 대해 자세히 알아보기](https://info.microsoft.com/ww-ondemand-power-bi-embedded-in-20-min.html)  | 이 웨비나는 Power BI Embedded를 소개하기 위해 제공됩니다. 이 웨비나를 마친 사용자는 Power BI Embedded의 개념, 제품을 시작하기 위한 다음 단계 및 도움말/리소스가 있는 위치를 이해할 수 있습니다. | 웹 세미나       |                |
 | [Ted Pattison이 설명하는 Power BI 포함을 사용한 개발 - 2018년 4월 업데이트](https://www.youtube.com/watch?v=swnGlrRy588)  | Ted Pattison은 이 개발자 중심 웨비나에서 Power BI 포함 플랫폼의 최근 개선 사항과 ISV와 엔터프라이즈 개발자가 해당 개선 사항을 활용할 수 있는 방법을 설명합니다. | YouTube 비디오 | 59분 49초  |
 | [Power BI 포함 버전 2 – 전체 사례](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Embedding-Version-2-The-Full-Story/td-p/229527)    | 이 웨비나는 중요 경로 학습의 Power BI MVP인 Ted Pattison이 2017년 8월 10일에 발표했습니다. 웨비나에서는 Power BI Premium을 통해 제공되는 새로운 Power BI 포함 기능을 사용하여 개발하는 방법을 설명합니다.  | 웹 세미나       | 1시간 7분 23초 |
 | [자습서: 고객의 애플리케이션에 Power BI 콘텐츠 포함](https://docs.microsoft.com/power-bi/developer/embed-sample-for-customers#step-1-setup-your-embedded-analytics-development-environment) | Azure의 Power BI Embedded 또는 Office의 Power BI 포함을 통해 앱 소유 데이터를 사용하여 보고서, 대시보드 또는 타일을 애플리케이션에 포함할 수 있습니다.  | 설명서 |                |
 | [20분 이내에 Power BI Embedded에 대해 자세히 알아보기](https://info.microsoft.com/ww-ondemand-power-bi-embedded-in-20-min.html)  | 이 웨비나는 Power BI Embedded를 소개하기 위해 제공됩니다. 이 웨비나를 마친 사용자는 Power BI Embedded의 개념, 제품을 시작하기 위한 다음 단계 및 도움말/리소스가 있는 위치를 이해할 수 있습니다. | 웹 세미나       |                |
+## <a name="dax"></a>DAX<a name="dax"></a>
+| 콘텐츠 | 설명 | 서식  | 길이      |
+|--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|
+| [Phil Seamark가 설명하는 Power BI의 실용적인 DAX](https://www.youtube.com/watch?v=1fGfqzS37qs)                                                                                    | Phil Seamark는 본인의 새 저서와 함께 제공하기 위해 Power BI의 실용적인 DAX를 위한 몇 가지 모범 사례를 설명합니다.                                                                                                                                                                                                                 | YouTube 비디오 | 59분 41초 |
+| [Philip Seamark가 설명하는 독창적인 DAX 솔루션](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/10-2-18-Webinar-Creative-DAX-solutions-by-Philip-Seamark/td-p/516250) | DAX 언어가 단순히 열에서 SUM을 실행하거나 테이블의 행 개수를 계산하는 것보다 훨씬 강력한 언어라는 것을 알고 계십니까? DAX는 가장 빠른 데이터베이스 중 하나를 기반으로 합니다.  가능하다고 생각하지 못했을 몇 가지 특이하고 독창적인 시나리오를 Charles Sterling과 Philip Seamark가 소개합니다. | 웹 세미나       | 58분 12초 |
 ## <a name="development"></a>개발<a name="development"></a>
 | 콘텐츠 | 설명 | 서식  | 길이      |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|

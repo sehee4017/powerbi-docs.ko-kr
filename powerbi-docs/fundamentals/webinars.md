@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/15/2020
+ms.date: 08/03/2020
 ms.author: kfollis
-ms.openlocfilehash: 34c46f97128d1229f46eeed254bdecee58a32aaf
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: d7b36d7ecbbf9d046c02f275ca83d7f8c8a196d5
+ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86409470"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "87768404"
 ---
 # <a name="power-bi-webinars"></a>Power BI 웹 세미나
 [//]: # "Tatevik Tatero(tatevik.teroyan@simple-concepts.com)는 Chauncy Freels와 협력하고 이 웨비나 목록을 유지하는 데 도움을 주는 공급업체입니다."
@@ -27,6 +27,10 @@ ms.locfileid: "86409470"
 ## <a name="featured-webinars"></a>주요 웹 세미나
 
 인기 있는 주문형 웹 세미나 시작
+
+**BI 콘텐츠 관리 모범 사례를 사용하여 사용자 만족 향상**  
+작성자: Nimrod Shalit  
+[지금 보기](https://info.microsoft.com/ww-landing-Boost-User-Satisfaction-with-Best-Practices-for-Managing-BI-Content.html?lcid=en-us)
 
 **인사이트에서 작업까지: Power BI를 사용하여 데이터 문화 촉진**  
 작성자: Arun Ulagaratchagan 및 Amir Netz  
