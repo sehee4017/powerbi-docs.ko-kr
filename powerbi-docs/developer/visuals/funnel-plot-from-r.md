@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: cbc8f6366e23aa7fbfb447bbfe56909c09f3e3fd
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 2cc37d1296d7f170bf8c6280465e7a3f1aa52e33
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354481"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878686"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>자습서:  R 스크립트에서 R 시각적 개체로 깔대기형 그림 빌드
 이 문서에서는 R 시각적 개체에서 R 스크립트를 사용하여 깔때기형 그림을 빌드하는 방법을 단계별로 설명합니다.
@@ -75,7 +75,7 @@ ms.locfileid: "85354481"
 1. `pbiviz package` 명령을 사용하여 시각적 개체를 다시 패키지한 후 Power BI로 가져옵니다.
 
 > [!NOTE]
-> [PBIX](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter3-RCustomVisual/funnelPlot_RCustomVisual.pbix) 및 다운로드할 [소스 코드](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v01/)를 확인합니다.
+> [PBIX](https://github.com/microsoft/PowerBI-visuals/blob/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelPlot_RCustomVisual.pbix) 및 다운로드할 [소스 코드](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v01/)를 확인합니다.
 
 ## <a name="make-r-based-visual-improvements"></a>R 기반 시각적 기능 향상
 
@@ -274,7 +274,7 @@ ms.locfileid: "85354481"
 
 * 각 R 시각적 개체는 해당 입력 테이블에 `unique` 연산자를 적용합니다. 동일한 행이 제거되지 않도록 하려면 고유 ID를 사용하여 추가 입력 필드를 추가하고 R 코드에서는 무시하는 것이 좋습니다.   
 
-* Power BI 계정이 있는 경우 `pbiviz package` 명령으로 다시 패키지하는 대신 Power BI 서비스를 사용하여 [즉석에서](/PowerBI-visuals/docs/step-by-step-lab/creating-a-custom-visual/#testing-the-custom-visual) 시각적 개체를 개발합니다.
+* Power BI 계정이 있는 경우 `pbiviz package` 명령으로 다시 패키지하는 대신 Power BI 서비스를 사용하여 [즉석에서](/power-bi/developer/visuals/custom-visual-develop-tutorial/) 시각적 개체를 개발합니다.
 
 ### <a name="html-widgets-gallery"></a>HTML 위젯 갤러리
 [HTML 위젯 갤러리](http://gallery.htmlwidgets.org/)에서 다음 시각적 개체에 사용할 시각적 개체를 찾아봅니다. 쉽게 작업할 수 있도록 선택 가능한 대화형 HTML 시각적 개체를 20개 이상 사용하여 [시각적 개체 프로젝트 리포지토리](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/multipleRHTML)를 만들었습니다.

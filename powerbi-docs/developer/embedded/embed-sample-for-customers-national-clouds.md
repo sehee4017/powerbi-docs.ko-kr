@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 889f7359e0711ecafb44caa6cf98f8a4df6bb0fa
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: 5815ba5036da543fb51319e8a2af287cf6ce4ce7
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83794052"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878657"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>자습서:  내셔널 클라우드용 애플리케이션에 Power BI 콘텐츠 포함
 
@@ -116,7 +116,7 @@ Power BI는 [내셔널 클라우드](https://docs.microsoft.com/azure/active-dir
 
 * 중국 클라우드용 Power BI 매개 변수
 
-1. Cloud.config 파일을 [중국 클라우드용 Power BI](https://github.com/microsoft/PowerBI-Developer-Samples/blob/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData/CloudConfigs/Power%20BI%20operated%20by%2021Vianet%20in%20China/Cloud.config) 콘텐츠로 덮어씁니다.
+1. Cloud.config 파일을 [중국 클라우드용 Power BI](https://github.com/microsoft/PowerBI-Developer-Samples/blob/master/.NET%20Framework/Embed%20for%20your%20organization/CloudConfigs/Power%20BI%20operated%20by%2021Vianet%20in%20China/Cloud.config) 콘텐츠로 덮어씁니다.
 
 2. Web.config 파일에서 applicationId(네이티브 앱 applicationId), workspaceId, 사용자(마스터 사용자) 및 암호를 업데이트합니다.
 
@@ -143,7 +143,7 @@ REST API 호출을 실행하려면 Azure AD를 사용해 애플리케이션을 �
 
 * 중국 클라우드용 Power BI - ```https://app.powerbi.cn/apps```
 
-[고객에 대한 콘텐츠 포함 샘플](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData)을 다운로드했다면 Azure AD에서 샘플이 인증을 받을 수 있도록 얻은 **applicationId**를 사용합니다. 샘플을 구성하려면 *web.config* 파일에서 **applicationId**를 변경합니다.
+[고객에 대한 콘텐츠 포함 샘플](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/Embed%20for%20your%20customers/PowerBIEmbedded_AppOwnsData)을 다운로드했다면 Azure AD에서 샘플이 인증을 받을 수 있도록 얻은 **applicationId**를 사용합니다. 샘플을 구성하려면 *web.config* 파일에서 **applicationId**를 변경합니다.
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>2 단계-Azure AD로 액세스 토큰 가져오기
 
@@ -309,7 +309,7 @@ var embedConfig = new TileEmbedConfig()
 
 JavaScript를 사용하여 웹 페이지의 div 요소로 대시보드를 로드합니다. 샘플은 EmbedConfig/TileEmbedConfig 모델을 대시보드, 타일 또는 보고서에 대한 보기와 함께 사용합니다. JavaScript API 사용에 관한 전체 샘플인 경우 [Microsoft Power BI Embedded 샘플](https://microsoft.github.io/PowerBI-JavaScript/demo)을 사용할 수 있습니다.
 
-이 애플리케이션 샘플은 [조직에 대한 콘텐츠 포함 샘플](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData) 내에서 사용할 수 있습니다.
+이 애플리케이션 샘플은 [조직에 대한 콘텐츠 포함 샘플](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/Embed%20for%20your%20customers/PowerBIEmbedded_AppOwnsData) 내에서 사용할 수 있습니다.
 
 ### <a name="viewshomeembeddashboardcshtml"></a>Views\Home\EmbedDashboard.cshtml
 
@@ -436,7 +436,7 @@ JavaScript를 사용하여 웹 페이지의 div 요소로 대시보드를 로드
 
 ## <a name="next-steps"></a>다음 단계
 
-* 검토하기 위한 샘플 애플리케이션은 GitHub에서 사용할 수 있습니다. 위의 예제는 이 샘플을 기반으로 하고 있습니다. 자세한 내용은 [조직에 대한 콘텐츠 포함 샘플](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData)을 참조하세요.
+* 검토하기 위한 샘플 애플리케이션은 GitHub에서 사용할 수 있습니다. 위의 예제는 이 샘플을 기반으로 하고 있습니다. 자세한 내용은 [조직에 대한 콘텐츠 포함 샘플](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/Embed%20for%20your%20customers/PowerBIEmbedded_AppOwnsData)을 참조하세요.
 
 * JavaScript API에 대한 자세한 내용은 [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)를 참조하세요.
 

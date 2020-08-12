@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/25/2020
-ms.openlocfilehash: 2c27ccdc2e8703e532a105d0b833bcd5164d245e
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 1c348cbf74e6bc2999383bc5a5c031576a293ac2
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782852"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878750"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-organization"></a>자습서:  조직의 애플리케이션에 페이지를 매긴 Power BI 보고서 포함
 
@@ -185,7 +185,7 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport -Name "Sal
 
 조직 테넌트에 포함된 경우 URL( *https://login.microsoftonline.com/common/oauth2/authorize* )을 사용하세요.
 
-게스트에 포함된 경우 *report-owner-tenant-id*를 대체하여 보고서 소유자의 테넌트 ID를 추가하는 URL( *https://login.microsoftonline.com/report-owner-tenant-id* )을 사용하세요.
+게스트에 포함된 경우 *report-owner-tenant-id*를 대체하여 보고서 소유자의 테넌트 ID를 추가하는 URL( *`https://login.microsoftonline.com/report-owner-tenant-id`* )을 사용하세요.
 
 ### <a name="run-the-application"></a>애플리케이션 실행
 

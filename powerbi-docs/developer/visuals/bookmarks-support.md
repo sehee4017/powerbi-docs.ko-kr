@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: aed8317c36cdd118b03bff2db93788f493ac9ad2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 96e42eb8a4d958eb4ee090cedf12d2ebfe79f941
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380528"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878603"
 ---
 # <a name="add-bookmark-support-for-power-bi-visuals"></a>Power BI 시각적 개체에 대해 책갈피 지원 추가
 
@@ -49,9 +49,9 @@ Power BI 보고서 책갈피를 사용하면 구성된 보고서 페이지 뷰, 
 
 [선택 항목](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/Selection.md)을 사용하여 시각적 개체가 다른 시각적 개체와 상호 작용하는 경우, 다음 두 가지 방법 중 하나로 책갈피를 추가할 수 있습니다.
 
-* 시각적 개체가 [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md)를 아직 사용하지 않은 경우, `FilterManager.restoreSelectionIds` 메서드를 사용할 수 있습니다.
+* 시각적 개체가 [InteractivityService](https://github.com/microsoft/powerbi-visuals-utils-interactivityutils/blob/master/src/interactivityService.ts)를 아직 사용하지 않은 경우, `FilterManager.restoreSelectionIds` 메서드를 사용할 수 있습니다.
 
-* 시각적 개체가 이미 [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md)를 사용하여 선택 항목을 관리하는 경우에는 `InteractivityService` 인스턴스에서 `applySelectionFromFilter` 메서드를 사용해야 합니다.
+* 시각적 개체가 이미 [InteractivityService](https://github.com/microsoft/powerbi-visuals-utils-interactivityutils/blob/master/src/interactivityService.ts)를 사용하여 선택 항목을 관리하는 경우에는 `InteractivityService` 인스턴스에서 `applySelectionFromFilter` 메서드를 사용해야 합니다.
 
 #### <a name="use-iselectionmanagerregisteronselectcallback"></a>ISelectionManager.registerOnSelectCallback 사용
 

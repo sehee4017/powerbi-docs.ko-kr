@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/10/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: fdb3db1db1fe82743658f6a6073386701e7fe961
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 985c028ac2624bb95939d41239b34d2473b15232
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84121006"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878481"
 ---
 # <a name="managing-premium-capacities"></a>프리미엄 용량 관리
 
@@ -107,7 +107,7 @@ Power BI 관리 포털의 모니터링 기능은 주요 용량 메트릭에 대�
 
 ### <a name="power-bi-premium-capacity-metrics-app"></a>Power BI Premium 용량 메트릭 앱
 
-[Power BI Premium 용량 메트릭 앱](https://appsource.microsoft.com/product/power-bi/pbi_pcmm.pbi-premiumcapacitymonitoring?tab=Overview)은 용량 관리자가 사용할 수 있는 Power BI 앱이며 다른 Power BI 앱과 같이 설치됩니다. 대시보드 및 보고서가 포함되어 있습니다.
+[Power BI Premium 용량 메트릭 앱](https://appsource.microsoft.com/en-us/product/power-bi/pbi_pcmm.capacity-metrics-dxt?tab=Overview)은 용량 관리자가 사용할 수 있는 Power BI 앱이며 다른 Power BI 앱과 같이 설치됩니다. 대시보드 및 보고서가 포함되어 있습니다.
 
 ![Power BI Premium 용량 메트릭 앱](media/service-premium-capacity-manage/capacity-metrics-app.png)
 

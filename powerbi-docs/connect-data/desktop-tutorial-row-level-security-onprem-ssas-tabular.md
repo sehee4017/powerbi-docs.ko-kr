@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 972241228ca9fc669289d3c0efa0a357094f6f67
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4426960cefc23111740d0e930f7a9704e18f8bb6
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83286363"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878311"
 ---
 # <a name="implement-row-level-security-in-an-analysis-services-tabular-model"></a>Analysis Services 테이블 형식 모델에서 행 수준 보안 구현
 
@@ -64,7 +64,7 @@ ms.locfileid: "83286363"
 
 ## <a name="task-2-create-the-tabular-model-with-facts-and-dimension-tables"></a>작업 2: 팩트 및 차원 테이블을 사용하여 테이블 형식 모델 만들기
 
-관계형 데이터 웨어하우스가 준비되면 테이블 형식 모델을 정의해야 합니다. [SSDT(SQL Server Data Tools)](/sql/ssdt/sql-server-data-tools)를 사용하여 모델을 만들 수 있습니다. 자세한 내용은 [새 테이블 형식 모델 프로젝트 만들기](/sql/analysis-services/lesson-1-create-a-new-tabular-model-project)를 참조하세요.
+관계형 데이터 웨어하우스가 준비되면 테이블 형식 모델을 정의해야 합니다. [SSDT(SQL Server Data Tools)](/sql/ssdt/sql-server-data-tools)를 사용하여 모델을 만들 수 있습니다. 자세한 내용은 [새 테이블 형식 모델 프로젝트 만들기](/analysis-services/tutorial-tabular-1400/as-lesson-1-create-a-new-tabular-model-project)를 참조하세요.
 
 1. 아래와 같이 필요한 모든 테이블을 모델로 가져옵니다.
 
@@ -101,7 +101,7 @@ ms.locfileid: "83286363"
 
     이 수식은 모든 열이 `false`로 해결되도록 지정합니다. 즉 `DimUserSecurity` 테이블 열은 쿼리될 수 없습니다.
 
-이제 모델을 처리하고 배포해야 합니다. 자세한 내용은 [배포](/sql/analysis-services/lesson-13-deploy)를 참조하세요.
+이제 모델을 처리하고 배포해야 합니다. 자세한 내용은 [배포](/analysis-services/tutorial-tabular-1200/lesson-13-deploy)를 참조하세요.
 
 ## <a name="task-3-add-data-sources-within-your-on-premises-data-gateway"></a>작업 3: 온-프레미스 데이터 게이트웨이 내에서 데이터 원본 추가
 
@@ -164,9 +164,9 @@ Rita가 Power BI 서비스에 로그인하여 Grace가 만든 공유 대시보�
 이 작업은 온-프레미스 SSAS 테이블 형식 인스턴스에서 SQL Server 프로파일러 추적을 캡처해야 하므로 [SQL Server Profiler](/sql/tools/sql-server-profiler/sql-server-profiler)와 익숙하다고 가정합니다.
 
 세션은 사용자(Rita)가 Power BI 서비스의 대시보드에 액세스하는 즉시 초기화됩니다. **salesterritoryusers** 역할이 **<EffectiveUserName>rita@contoso.com</EffectiveUserName>** 의 유효 사용자 이름으로 즉시 적용되는 것을 볼 수 있습니다.
-
+```
        <PropertyList><Catalog>DefinedSalesTabular</Catalog><Timeout>600</Timeout><Content>SchemaData</Content><Format>Tabular</Format><AxisFormat>TupleFormat</AxisFormat><BeginRange>-1</BeginRange><EndRange>-1</EndRange><ShowHiddenCubes>false</ShowHiddenCubes><VisualMode>0</VisualMode><DbpropMsmdFlattened2>true</DbpropMsmdFlattened2><SspropInitAppName>PowerBI</SspropInitAppName><SecuredCellValue>0</SecuredCellValue><ImpactAnalysis>false</ImpactAnalysis><SQLQueryMode>Calculated</SQLQueryMode><ClientProcessID>6408</ClientProcessID><Cube>Model</Cube><ReturnCellProperties>true</ReturnCellProperties><CommitTimeout>0</CommitTimeout><ForceCommitTimeout>0</ForceCommitTimeout><ExecutionMode>Execute</ExecutionMode><RealTimeOlap>false</RealTimeOlap><MdxMissingMemberMode>Default</MdxMissingMemberMode><DisablePrefetchFacts>false</DisablePrefetchFacts><UpdateIsolationLevel>2</UpdateIsolationLevel><DbpropMsmdOptimizeResponse>0</DbpropMsmdOptimizeResponse><ResponseEncoding>Default</ResponseEncoding><DirectQueryMode>Default</DirectQueryMode><DbpropMsmdActivityID>4ea2a372-dd2f-4edd-a8ca-1b909b4165b5</DbpropMsmdActivityID><DbpropMsmdRequestID>2313cf77-b881-015d-e6da-eda9846d42db</DbpropMsmdRequestID><LocaleIdentifier>1033</LocaleIdentifier><EffectiveUserName>rita@contoso.com</EffectiveUserName></PropertyList>
-
+```
 유효한 사용자 이름 요청에 따라 Analysis Services는 로컬 Active Directory를 쿼리한 후 요청을 실제 `contoso\rita` 자격 증명으로 변환합니다. Analysis Services가 자격 증명을 가져오면 Analysis Services는 사용자가 보고 액세스할 수 있는 권한이 있는 데이터를 반환합니다.
 
 대시보드에서 더 많은 작업이 발생하는 경우, SQL 프로파일러를 사용하여 특정 쿼리가 Analysis Services 테이블 형식 모델에 DAX 쿼리로 돌아오는 것을 볼 수 있습니다. 예를 들어 Rita가 대시보드에서 기본 보고서로 이동하는 경우 다음 쿼리가 발생합니다.

@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: bf4a4ba9c816aaca19e04d0061df7316ffcc7a2b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2ef73377728703926ac6bc51f847a54451e1321e
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83287306"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878713"
 ---
 # <a name="tutorial-analyze-sales-data-from-excel-and-an-odata-feed"></a>자습서:  Excel 및 OData 피드의 판매 데이터 분석
 
@@ -273,6 +273,6 @@ Power BI Desktop에서 상호 강조 표시하고 서로를 필터링하여 추�
 ## <a name="next-steps"></a>다음 단계
 
 * [다른 Power BI Desktop 자습서 참고](/power-bi/guided-learning/)
-* [Power BI Desktop 동영상 시청](/power-bi/desktop-videos)
+* [Power BI Desktop 동영상 시청](/power-bi/fundamentals/desktop-videos)
 * [Power BI 포럼 방문](https://go.microsoft.com/fwlink/?LinkID=519326)
 * [Power BI 블로그 참고](https://go.microsoft.com/fwlink/?LinkID=519327)

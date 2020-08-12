@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
-ms.date: 06/28/2020
+ms.date: 08/11/2020
 ms.author: painbar
-ms.openlocfilehash: 436ef20a54312f2e169c428cf1d2914bc47eafb0
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 85ba8b893dfa6da7934aff6b7890530e0acb2961
+ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782665"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "88091688"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Surface Hub 및 Windows 10 디바이스에서 프레젠테이션 모드로 보고서 및 대시보드 보기
 프레젠테이션 모드를 사용하여 Windows 10 디바이스 및 Surface Hub에서 보고서와 대시보드를 전체 화면으로 표시할 수 있습니다. 프레젠테이션 모드는 모임이나 회의 또는 사무실의 전용 프로젝터에서 Power BI를 표시하거나 작은 화면 공간을 최대화하는 데 유용합니다.
@@ -73,4 +73,3 @@ Power BI 모바일 앱에서 **전체 화면** 아이콘을 탭하여 전체 화
 ## <a name="next-steps"></a>다음 단계
 * [Power BI 서비스에서 전체 화면 모드로 대시보드 및 보고서 표시](../end-user-focus.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
-

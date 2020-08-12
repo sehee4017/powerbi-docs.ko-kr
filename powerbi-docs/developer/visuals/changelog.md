@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/13/2019
-ms.openlocfilehash: 3cf415cbd14da28d523a042fdf4099fe464a4a8b
-ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
+ms.openlocfilehash: 95d2cec8cf731c403e204beeb6c013c2cfe0ce1d
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "84739187"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878583"
 ---
 # <a name="power-bi-visuals-api-changelog"></a>Power BI 시각적 개체 API 변경 로그
 이 페이지에는 API 버전에 대한 빠른 요약이 포함되어 있습니다. 여기에 나열된 버전은 안정적인 것으로 간주되며 변경되지 않습니다.
@@ -91,7 +91,7 @@ ms.locfileid: "84739187"
 
 ## <a name="api-v162"></a>API v1.6.2
 * 시각적 개체 내 편집 모드로 전환하는 시각적 개체용 **[편집 모드](./advanced-edit-mode.md)** 를 지원
-* Html을 기반으로 하는 **[대화형(html) R Power BI 시각적 개체](https://microsoft.github.io/PowerBI-visuals/tutorials/building-r-powered-custom-visual/creating-r-visuals.md)** 를 지원
+* Html을 기반으로 하는 **[대화형(html) R Power BI 시각적 개체](https://github.com/Microsoft/PowerBI-visuals/blob/master/RVisualTutorial/CreateRHTML.md)** 를 지원
 
 ## <a name="api-v150"></a>API v1.5.0
 * 시각적 상호 작용을 위해 **[상호 작용 허용](./visuals-interactions.md)** 을 지원
@@ -105,7 +105,7 @@ ms.locfileid: "84739187"
 ## <a name="api-v120"></a>API v1.2.0
 * 시각적 개체에 사용되는 색을 관리하기 위해 **colorPalette**를 추가합니다.
 * **다중 선택**을 지원 - selectionManager는 `SelectionId`의 배열을 허용할 수 있습니다.
-* R 스크립트를 사용하여 **[R 시각적 개체](https://microsoft.github.io/PowerBI-visuals/tutorials/building-r-powered-custom-visual/creating-r-visuals.md)** 를 지원합니다.
+* R 스크립트를 사용하여 **[R 시각적 개체](https://github.com/Microsoft/PowerBI-visuals/blob/master/RVisualTutorial/CreateRHTML.md)** 를 지원합니다.
 
 ## <a name="api-v110"></a>API v1.1.0
 * iFrame에서 시각적 개체 디버그를 지원

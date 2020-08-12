@@ -10,12 +10,12 @@ ms.date: 04/08/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 72e2744fc325f5e5b36f3abcf4a6d3d71767fbd4
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 899055ea26d1f36592c426ba402aa363b65bfa15
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227645"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878353"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Power BI Pro 사용자 라이선스 구매 및 할당
 
@@ -29,7 +29,7 @@ Power BI Pro는 다른 사용자가 Power BI 서비스 게시한 보고서 및 �
 이 문서에서는 Microsoft 365 관리 센터에서 Power BI Pro 사용자 라이선스를 구매하는 방법을 설명합니다. 라이선스를 구매한 후 Microsoft 365 관리 센터 또는 Azure Portal에서 사용자에게 라이선스를 할당할 수 있습니다.
 
 > [!NOTE]
-> 2020년 1월 14일부터 상용 클라우드 고객은 Power Platform 제품(Power BI, Power Apps, Power Automate)의 셀프 서비스 구매, 구독, 라이선스 관리 기능을 사용할 수 있습니다. 자세한 내용은 [셀프 서비스 구매 FAQ](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq)를 참조하세요. 셀프 서비스 구매 기능을 사용하거나 사용하지 않도록 설정하려면 [셀프 서비스 등록 및 구매 사용 또는 사용 안 함](/service-admin-disable-self-service.md)을 참조하세요.
+> 2020년 1월 14일부터 상용 클라우드 고객은 Power Platform 제품(Power BI, Power Apps, Power Automate)의 셀프 서비스 구매, 구독, 라이선스 관리 기능을 사용할 수 있습니다. 자세한 내용은 [셀프 서비스 구매 FAQ](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq)를 참조하세요. 셀프 서비스 구매 기능을 사용하거나 사용하지 않도록 설정하려면 [셀프 서비스 등록 및 구매 사용 또는 사용 안 함](/power-bi/admin/service-admin-disable-self-service)을 참조하세요.
 
 ### <a name="prerequisites"></a>필수 조건
 

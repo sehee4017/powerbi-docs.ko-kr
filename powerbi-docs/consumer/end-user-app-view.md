@@ -10,12 +10,12 @@ ms.date: 07/08/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7362eb683dae6318dc0e64de68afb8a8b57d62c6
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: bfda795e02ef53188c5125bc2f0674e859ebd450
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162158"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878811"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI에서 대시보드 및 보고서로 앱 설치 및 사용
 
@@ -76,7 +76,7 @@ Power BI 앱 마켓플레이스에서 앱을 찾아 설치할 수 있습니다. 
 
 **컴퓨터에서** 
 
-메일의 링크를 선택하면 Power BI 서비스([https://powerbi.com](https://app/powerbi.com))가 브라우저에서 앱을 엽니다. 
+메일의 링크를 선택하면 Power BI 서비스([https://app.powerbi.com](https://app.powerbi.com))가 브라우저에서 앱을 엽니다. 
 
 **iOS 또는 Android 모바일 디바이스에서** 
 

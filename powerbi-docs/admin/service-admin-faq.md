@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: aed09a9cd26452a03363e8606e45938715595558
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: f752544b48a8ba2fdce703475749e1a731089e7d
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161678"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878443"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI 관리 - 질문과 대답(FAQ)
 
@@ -55,7 +55,7 @@ ms.locfileid: "86161678"
 
 ### <a name="using-powershell"></a>PowerShell 사용
 
-이 섹션의 일부 절차에는 Windows PowerShell 스크립트가 필요합니다. PowerShell에 익숙하지 않은 경우 [PowerShell 시작 가이드](https://go.microsoft.com/fwlink/p/?LinkID=286814)를 사용하는 것이 좋습니다. 스크립트를 실행하려면 먼저 [그래프용 Azure Active Directory PowerShell](/powershell/azure/active-directory/)의 최신 64비트 버전을 설치합니다.
+이 섹션의 일부 절차에는 Windows PowerShell 스크립트가 필요합니다. PowerShell에 익숙하지 않은 경우 [PowerShell 시작 가이드](https://go.microsoft.com/fwlink/p/?LinkID=286814)를 사용하는 것이 좋습니다. 스크립트를 실행하려면 먼저 [그래프용 Azure Active Directory PowerShell](/powershell/azure/active-directory/overview)의 최신 64비트 버전을 설치합니다.
 
 ### <a name="how-do-users-sign-up-for-power-bi"></a>사용자가 Power BI에 등록하려면 어떻게 합니까?
 

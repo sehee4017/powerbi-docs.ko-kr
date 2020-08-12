@@ -1,21 +1,21 @@
 ---
-title: Power BI 모바일 앱에서 대시보드 및 보고서 보기
-description: Power BI 서비스에서 대시보드 및 보고서를 생성하거나 연결합니다. 그러면 Power BI 모바일 앱에 표시됩니다.
+title: Power BI 모바일 앱에서 대시보드 보기
+description: Power BI 서비스에서 대시보드를 생성하거나 연결합니다. 그러면 Power BI 모바일 앱에 표시됩니다.
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 08/10/2020
 ms.author: painbar
-ms.openlocfilehash: 5911d1ded5c2ccf780454c60b7a5867223801a49
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: db889c945a7ea6f674bcc95e8ccf2c2075d56094
+ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220405"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "88091717"
 ---
-# <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 대시보드 및 보고서 보기
+# <a name="view-dashboards-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 대시보드 보기
 적용 대상:
 
 | ![iPhone](./media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Android 휴대폰](./media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Android 태블릿](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | 
