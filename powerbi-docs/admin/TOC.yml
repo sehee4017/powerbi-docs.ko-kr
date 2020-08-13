@@ -114,6 +114,8 @@
               href: service-admin-premium-multi-geo.md
             - name: 사용자 고유의 암호화 키 가져오기
               href: service-encryption-byok.md
+            - name: 고객 관리형 키 사용
+              href: service-encryption-customer-managed-keys.md
             - name: 프리미엄 용량 다시 시작
               href: service-admin-premium-restart.md
             - name: XMLA 엔드포인트로 데이터 세트 연결
