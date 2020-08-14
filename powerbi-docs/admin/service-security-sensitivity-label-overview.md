@@ -6,15 +6,15 @@ manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
-ms.date: 07/05/2020
+ms.date: 08/10/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: ea161af0156aa0bee2fe92ab2f87fb82630f5589
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 4d719d7df5b982341b6377c41e448267197e769b
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252133"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049246"
 ---
 # <a name="sensitivity-labels-in-power-bi"></a>Power BI의 민감도 레이블
 
@@ -69,11 +69,23 @@ Power BI에서 Excel이나 PowerPoint 또는 PDF 파일로 데이터를 내보�
 
 Power BI에서 파일을 내보내는 사용자는 민감도 레이블 설정에 따라 해당 파일에 대한 액세스 및 편집 권한을 갖습니다. 파일에 대한 소유자 권한은 가지지 않습니다.
 
-데이터를 .csv 또는 .pbix 파일, Excel의 분석 또는 다른 내보내기 경로로 내보낼 때는 민감도 레이블 및 보호가 적용되지 않습니다.
+데이터를 .csv, .pbix 파일 또는 다른 내보내기 경로로 내보낼 때는 민감도 레이블 및 보호가 적용되지 않습니다.
 
 내보낸 파일에 민감도 레이블 및 보호를 적용해도 콘텐츠 표시가 파일에 추가되지 않습니다. 그러나 레이블이 콘텐츠 표시를 적용하도록 구성된 경우에는 Office 데스크톱 앱에서 해당 파일을 열 때 Azure Information Protection 통합 레이블 지정 클라이언트에 의해 표시가 자동으로 적용됩니다. 데스크톱, 모바일 또는 웹앱에 대해 기본 제공 레이블을 사용하는 경우 콘텐츠 표시가 자동으로 적용되지 않습니다. 자세한 내용은 [Office 앱에서 콘텐츠 표시 및 암호화를 적용할 때](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps?view=o365-worldwide#when-office-apps-apply-content-marking-and-encryption)를 참조하세요.
 
 데이터를 파일로 내보낼 때 레이블을 적용할 수 없는 경우 내보내기가 실패합니다. 레이블을 적용할 수 없어 내보내기가 실패했는지 확인하려면 제목 표시줄의 가운데에 있는 보고서 또는 대시보드 이름을 클릭하면 열리는 정보 드롭다운에 “민감도 레이블을 로드할 수 없습니다”라는 메시지가 표시되는지 확인합니다. 이는 임시 시스템 문제의 결과로 발생하거나 보안 관리자가 적용된 레이블을 게시 취소 또는 삭제한 경우 발생할 수 있습니다.
+
+## <a name="sensitivity-label-inheritance-in-analyze-in-excel"></a>Excel에서 분석의 민감도 레이블 상속
+
+Power BI 데이터 세트에 대한 라이브 연결을 사용하여 Excel에서 피벗 테이블을 만들 때([Excel에서 분석](../collaborate-share/service-analyze-in-excel.md)을 통한 Power BI 또는 [Excel](https://support.microsoft.com/office/create-a-pivottable-from-power-bi-datasets-31444a04-9c38-4dd7-9a45-22848c666884?ui=en-US&rs=en-US&ad=US)에서 할 수 있음) 데이터 세트의 민감도 레이블이 상속되고 관련된 보호와 함께 Excel 파일에 적용됩니다. 데이터 세트에 대한 레이블이 나중에 더 제한적으로 변경되면 연결된 Excel 파일에 적용된 레이블이 데이터 새로 고침 시 자동으로 업데이트됩니다.
+
+![라이브 연결을 통해 데이터 세트에서 상속된 민감도 레이블을 보여주는 Excel 스크린샷](media/service-security-sensitivity-label-overview/live-connection-inheritance.png)
+ 
+Excel에서 수동으로 설정된 민감도 레이블은 데이터 세트의 민감도 레이블로 자동으로 덮어쓰지 않습니다. 대신, 배너가 데이터 세트에 민감도 레이블이 있음을 알리고 이를 적용하는 것이 좋습니다.
+
+>[!NOTE]
+>데이터 세트의 민감도 레이블이 Excel 파일의 민감도 레이블보다 덜 제한적이면 레이블 상속 또는 업데이트가 수행되지 않습니다. Excel 파일은 덜 제한적인 민감도 레이블을 상속하지 않습니다.
+
 
 ## <a name="sensitivity-label-persistence-in-embedded-reports-and-dashboards"></a>포함된 보고서 및 대시보드의 민감도 레이블 지속성
 
@@ -83,7 +95,7 @@ Microsoft Teams 및 SharePoint 같은 비즈니스 애플리케이션이나 조�
 
 다음과 같은 포함 시나리오가 지원됩니다.
 * [조직에 포함](../developer/embedded/embed-sample-for-your-organization.md)
-* Microsoft 365 앱(예: [Teams](../collaborate-share/service-collaborate-microsoft-teams.md) 및 [SharePoint](../collaborate-share/service-embed-report-spo.md))
+* Microsoft 365 앱(예: [Teams](../collaborate-share/service-embed-report-microsoft-teams.md) 및 [SharePoint](../collaborate-share/service-embed-report-spo.md))
 * [보안 URL 포함](../collaborate-share/service-embed-secure.md)(Power BI 서비스에서 포함) 
 
 ## <a name="sensitivity-labels-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱의 민감도 레이블
@@ -95,18 +107,9 @@ Power BI 모바일 앱에서 보고서 및 대시보드에 대한 민감도 레�
 ## <a name="supported-clouds"></a>지원되는 클라우드
 민감도 레이블은 글로벌(퍼블릭) 클라우드에만 지원되고, 국가 클라우드와 같은 클라우드의 테넌트에서는 지원되지 않습니다.
 
-## <a name="requirements-for-using-sensitivity-labels-in-power-bi"></a>Power BI에서 민감도 레이블을 사용하기 위한 요구 사항
+## <a name="licensing-and-requirements"></a>라이선싱 및 요구 사항
 
-Power BI에서 민감도 레이블을 사용하도록 설정하고 사용하려면 먼저 다음 필수 조건을 충족해야 합니다.
-* [Microsoft 365 보안 센터](https://security.microsoft.com/) 또는 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에서 민감도 레이블을 정의했는지 확인합니다.
-* Power BI에서 [민감도 레이블을 사용](service-security-enable-data-sensitivity-labels.md)합니다.
-* 사용자에게 [적절한 라이선스](#licensing)가 있는지 확인합니다.
-
-## <a name="licensing"></a>라이선싱
-
-* Power BI에서 Microsoft Information Protection 민감도 레이블을 적용하고 보려면 Azure Information Protection Premium P1 또는 Premium P2 라이선스가 필요합니다. Microsoft Azure Information Protection은 독립 실행형으로 구입하거나 Microsoft 라이선스 제품군 중 하나를 통해 구입할 수 있습니다. 자세한 내용은 [Azure Information Protection 가격 책정](https://azure.microsoft.com/pricing/details/information-protection/)을 참조하세요.
-* Office 앱에서 레이블을 보고 적용하려면 [라이선스 요구 사항](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels)을 충족해야 합니다.
-* Power BI 콘텐츠에 레이블을 적용하려면 사용자에게 위에서 언급한 Azure Information Protection 라이선스 외에도 Power BI Pro 라이선스가 있어야 합니다.
+[라이선싱 및 요구 사항](service-security-enable-data-sensitivity-labels.md#licensing-and-requirements)을 참조하세요.
 
 ## <a name="sensitivity-label-creation-and-management"></a>민감도 레이블 만들기 및 관리
 

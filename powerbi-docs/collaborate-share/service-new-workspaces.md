@@ -6,20 +6,22 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/26/2020
+ms.date: 08/07/2020
 ms.author: maggies
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 77de9608978379cee83236b0c362bd2d7d57d5c6
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 56dd9e07e7c0647e7f92cc5d701b260483e2fbdf
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84120355"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049279"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Power BI의 새 작업 영역에서 작업 구성
 
-*작업 영역*은 동료와 협업하여 대시보드, 보고서, 데이터 세트 및 페이지를 매긴 보고서의 컬렉션을 만드는 공간입니다. 새 작업 영역 환경을 사용하면 콘텐츠에 대한 액세스를 더 잘 관리할 수 있습니다. 이 문서에서는 새 작업 영역에 대해 설명하고 클래식 작업 영역과 어떻게 다른지 설명합니다.  클래식 작업 영역과 마찬가지로 새 작업 영역을 사용하여 앱을 만들고 배포합니다. 새 작업 영역을 만들 준비가 되셨나요? [새 작업 영역 환경 만들기](service-create-the-new-workspaces.md)를 읽으세요.
+*작업 영역*은 동료와 협업하여 대시보드, 보고서, 데이터 세트 및 페이지를 매긴 보고서의 컬렉션을 만드는 공간입니다. 새 작업 영역 환경을 사용하면 콘텐츠에 대한 액세스를 더 잘 관리할 수 있습니다. 이 문서에서는 새 작업 영역에 대해 설명하고 클래식 작업 영역과 어떻게 다른지 설명합니다.  클래식 작업 영역과 마찬가지로 새 작업 영역을 사용하여 앱을 만들고 배포합니다. 
+
+새 작업 영역을 만들 준비가 되셨나요? [새 작업 영역 환경 만들기](service-create-the-new-workspaces.md)를 읽으세요.
 
 :::image type="content" source="media/service-new-workspaces/power-bi-workspace-opportunity.png" alt-text="Power BI 새 작업 영역 환경":::
 
@@ -86,8 +88,10 @@ Power BI는 Microsoft 365 그룹 멤버 자격과 새 작업 영역에 대한 �
 
 새 작업 영역이 Power BI Premium 용량에 있으면 뷰어 역할을 가진 사용자는 Power BI Pro 라이선스가 없어도 작업 영역에 액세스할 수 있습니다. 그러나 이 사용자에게 관리자, 구성원 또는 참가자와 같은 상위 역할을 할당하면 사용자가 작업 영역에 액세스할 때 Pro 평가판을 시작하라는 메시지가 표시됩니다. Pro 라이선스가 없는 사용자가 뷰어 역할을 사용하도록 하려면 다른 작업 영역 역할이 개인 또는 사용자 그룹의 일부로 포함되지 않도록 해야 합니다.
 
+보고서를 새 작업 영역 환경에 게시하는 경우에는 기존 라이선스 규칙이 더 엄격하게 적용됩니다. Pro 라이선스 없이 Power BI Desktop 또는 다른 클라이언트 도구에서 게시하려고 하면 “Power BI Pro 라이선스를 가진 사용자만 이 작업 영역에 게시할 수 있습니다.”라는 오류가 표시됩니다.
+
 > [!NOTE]
-> 보고서를 새 작업 영역 환경에 게시하는 경우에는 기존 라이선스 규칙이 더 엄격하게 적용됩니다. Pro 라이선스 없이 Power BI Desktop 또는 다른 클라이언트 도구에서 게시하려고 하면 “Power BI Pro 라이선스를 가진 사용자만 이 작업 영역에 게시할 수 있습니다.”라는 오류가 표시됩니다.
+> Power BI 미국 정부는 ‘무료’ 라이선스로 제공되지 않습니다. 라이선스에 대한 자세한 내용은 [미국 정부 기관 고객용 Power BI](../admin/service-govus-overview.md)를 참조하세요.
 
 ### <a name="guest-users"></a>게스트 사용자
 
@@ -95,7 +99,9 @@ Power BI는 Microsoft 365 그룹 멤버 자격과 새 작업 영역에 대한 �
 
 ### <a name="administering-new-workspace-experience-workspaces"></a>새 작업 영역 환경의 작업 영역 관리
 
-새 작업 영역 환경 작업 영역에 대한 관리는 Power BI 관리 포털에서 수행합니다. Power BI 관리자는 조직에서 누가 작업 영역을 만들고 앱을 배포할 수 있는지 결정합니다. 관리자는 조직의 모든 작업 영역에 대한 상태를 볼 수 있습니다. 작업 영역을 관리 및 복구할 수도 있습니다. 관리 포털 문서에서 [새 작업 영역 관리](../admin/service-admin-portal.md#create-the-new-workspaces)에 대해 자세히 알아보세요.
+새 작업 영역 환경 작업 영역에 대한 관리는 Power BI 관리 포털에서 수행합니다. Power BI 관리자는 조직에서 누가 작업 영역을 만들고 앱을 배포할 수 있는지 결정합니다. "관리 포털" 문서에서 [사용자의 작업 영역을 만들 수 있는 기능 관리](../admin/service-admin-portal.md#create-the-new-workspaces)에 대해 알아봅니다. 
+
+관리자는 또한 조직의 모든 작업 영역에 대한 상태를 볼 수 있습니다. 작업 영역을 관리, 복구 및 삭제할 수도 있습니다. "관리 포털" 문서에서 [작업 영역 자체 관리](../admin/service-admin-portal.md#workspaces)에 대해 알아봅니다.
 
 ### <a name="auditing"></a>감사
 

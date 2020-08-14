@@ -10,12 +10,12 @@ ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 195d1284fedc9f9c51c6fed2ff03cc0883b16405
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: e8e81c297841e32d1f4d966de23b5d752b654c20
+ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161724"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "88091621"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Power BI에서 사용자 활동 추적
 
@@ -318,6 +318,9 @@ Exchange Online에 연결하는 방법에 대한 자세한 내용은 [Exchange O
 | 요청된 Power BI 데이터 흐름 새로 고침               | RequestDataflowRefresh                      | 현재 사용되지 않음                       |
 | 요청된 Power BI 데이터 세트 새로 고침                | RefreshDataset                              |                                          |
 | 검색된 Power BI 작업 영역                     | GetWorkspaces                               |                                          |
+| 민감도 레이블 적용됨                         | SensitivityLabelApplied                     |                                          |
+| 민감도 레이블 변경됨                         | SensitivityLabelChanged                     |                                          |
+| 민감도 레이블 제거됨                         | SensitivityLabelRemoved                     |                                          |
 | 작업 영역의 데이터 흐름 스토리지 위치 설정됨     | SetDataflowStorageLocationForWorkspace      |                                          |
 | Power BI 데이터 흐름에서 예약된 새로 고침 설정        | SetScheduledRefreshOnDataflow               |                                          |
 | Power BI 데이터 세트에서 예약된 새로 고침 설정         | SetScheduledRefresh                         |                                          |

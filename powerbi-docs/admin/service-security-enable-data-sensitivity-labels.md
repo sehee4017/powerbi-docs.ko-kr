@@ -5,15 +5,15 @@ author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
-ms.date: 07/06/2020
+ms.date: 08/10/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 0fe1b7b1b8175511838005b7b63ca7543bbf939a
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: ebc4601f3575e84c248aef9204537a7d93c428ac
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034339"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049187"
 ---
 # <a name="enable-sensitivity-labels-in-power-bi"></a>Power BI에서 민감도 레이블 사용
 
@@ -24,7 +24,20 @@ ms.locfileid: "86034339"
 * 조직의 특정 사용자와 보안 그룹이 [민감도 레이블](./service-security-apply-data-sensitivity-labels.md)을 분류하고 Power BI 보고서, 대시보드, 데이터 세트 및 데이터 흐름에 적용할 수 있습니다.
 * 조직의 모든 구성원이 해당 레이블을 볼 수 있습니다.
 
-민감도 레이블을 사용하려면 Azure Information Protection 라이선스가 필요합니다. 자세한 내용은 [라이선스](service-security-sensitivity-label-overview.md#licensing)를 참조하세요.
+민감도 레이블을 사용하려면 Azure Information Protection 라이선스가 필요합니다. 자세한 내용은 [라이선스 및 요구 사항](#licensing-and-requirements)을 참조하세요.
+
+## <a name="licensing-and-requirements"></a>라이선싱 및 요구 사항
+
+* Power BI에서 Microsoft Information Protection 민감도 레이블을 적용하거나 보려면 Azure Information Protection 프리미엄 P1 또는 프리미엄 P2 라이선스가 필요합니다. Azure Information Protection은 독립 실행형으로 구입하거나 Microsoft 라이선스 제품군 중 하나를 통해 구입할 수 있습니다. 자세한 내용은 [Azure Information Protection 가격 책정](https://azure.microsoft.com/pricing/details/information-protection/)을 참조하세요.
+
+* Power BI 콘텐츠에 레이블을 적용할 수 있으려면 사용자에게 위에서 언급한 Azure Information Protection 라이선스 외에도 Power BI Pro 라이선스가 있어야 합니다.
+
+* Office 앱에는 [민감도 레이블을 보고 적용하기 위한 자체 라이선싱 요구 사항]( https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels )이 있습니다.
+
+* 테넌트에서 민감도 레이블을 사용하도록 설정하기 전에 민감도 레이블이 정의되고 관련 사용자 및 그룹에 대해 게시되었는지 확인합니다. 자세한 내용은 [민감도 레이블 및 해당 정책 만들기 및 구성](https://docs.microsoft.com/microsoft-365/compliance/create-sensitivity-labels?view=o365-worldwide)을 참조하세요.
+
+>[!NOTE]
+> 조직에서 Azure Information Protection 민감도 레이블을 사용하는 경우 Power BI에서 사용할 수 있도록 Microsoft Information Protection 통합 레이블 지정 플랫폼으로 마이그레이션해야 합니다. [민감도 레이블 마이그레이션에 대해 자세히 알아보세요](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels).
 
 ## <a name="enable-sensitivity-labels"></a>민감도 레이블 사용
 
@@ -52,9 +65,9 @@ Power BI **관리 포털**로 이동하여 **테넌트 설정** 창을 열고 **
 
 Power BI는 Microsoft Information Protection 민감도 레이블을 사용합니다. 따라서 민감도 레이블을 사용하도록 설정할 때 오류 메시지가 발생하는 경우 다음 중 하나 때문일 수 있습니다.
 
-* Azure Information Protection [라이선스](service-security-sensitivity-label-overview.md#licensing)가 없습니다.
-* 민감도 레이블이 Power BI에서 지원하는 Microsoft Information Protection 버전으로 마이그레이션되지 않았습니다. [민감도 레이블을 마이그레이션](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels)하는 방법을 자세히 알아보세요.
-* 조직에 Microsoft Information Protection 민감도 레이블이 정의되어 있지 않습니다. 게시된 정책에 포함된 레이블만 사용할 수 있습니다. [민감도 레이블에 대해 자세히 알아보거나](https://docs.microsoft.com/Office365/SecurityCompliance/sensitivity-labels), [Microsoft 보안 및 규정 준수 센터](https://sip.protection.office.com/sensitivity?flight=EnableMIPLabels)를 방문하여 조직의 레이블 및 게시 정책을 정의하는 방법을 알아보세요.
+* Azure Information Protection [라이선스](#licensing-and-requirements)가 없습니다.
+* 민감도 레이블이 Power BI에서 지원하는 Microsoft Information Protection 버전으로 [마이그레이션되지](#enable-sensitivity-labels) 않았습니다.
+* Microsoft Information Protection 민감도 레이블이 [조직에 정의](#enable-sensitivity-labels)되어 있지 않습니다.
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 

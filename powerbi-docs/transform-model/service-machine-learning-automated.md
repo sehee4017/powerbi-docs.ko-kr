@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 10/18/2019
+ms.date: 08/03/2020
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 3b4d7eb41e04a173f763dd09caf5fa94bfc444d4
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: caccfdede32e91aa6265db0d38e26e96f8a7852c
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232650"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878651"
 ---
 # <a name="automated-machine-learning-in-power-bi"></a>Power BI의 자동화된 Machine Learning
 
@@ -142,6 +142,10 @@ ML 모델을 적용하면 출력 엔터티에서 채점되는 각 행에 대한 
 
 ![쿼리 편집기](media/service-machine-learning-automated/automated-machine-learning-power-bi-11.png)
 
+PQO 함수 브라우저에서 AI 인사이트를 사용하여 동일한 작업 영역에 있는 모든 데이터 흐름의 엔터티에 Power BI AutoML 모델을 적용할 수도 있습니다. 이러한 방식으로 모델을 포함하는 데이터 흐름의 소유자가 아니어도 동일한 작업 영역에서 다른 사용자가 만든 모델을 사용할 수 있습니다. 파워 쿼리는 작업 영역에서 모든 Power BI ML 모델을 검색하고 동적 파워 쿼리 함수로 노출합니다. Power Query 편집기의 리본에서 함수에 액세스하거나 직접 M 함수를 호출하는 방법으로 해당 함수를 호출할 수 있습니다.이 기능은 현재 Power BI 데이터 흐름과 Power BI 서비스의 파워 쿼리 온라인에서만 지원됩니다. 이는 AutoML 마법사를 사용하여 데이터 흐름 내에서 ML 모델을 적용하는 것과 매우 다릅니다. 이 메서드를 사용하여 만든 설명 엔터티가 없으며 데이터 흐름의 소유자가 아닌 경우 모델 학습 보고서에 액세스하거나 모델을 다시 학습할 수 없습니다. 원본 모델을 편집(입력 필드 추가 또는 제거)하는 경우나 모델 또는 원본 데이터 흐름이 삭제된 경우 이 종속 데이터 흐름은 중단됩니다.
+
+![PQO 함수 브라우저를 사용하여 모델 적용](media/service-machine-learning-automated/automated-machine-learning-power-bi-20.png)
+
 모델을 적용한 후에는 데이터 흐름을 새로 고칠 때마다 AutoML에서 예측을 항상 최신 상태로 유지합니다.
 
 Power BI 보고서에서 ML 모델의 인사이트 및 예측을 사용하려면 **dataflows** 커넥터를 사용하여 Power BI Desktop에서 출력 엔터티에 연결할 수 있습니다.
@@ -166,7 +170,7 @@ Power BI 보고서에서 ML 모델의 인사이트 및 예측을 사용하려면
 
 이진 예측 모델은 레코드에서 목표 결과를 달성할 확률을 출력으로 생성합니다. 보고서에 확률 임계값 슬라이서가 포함되어 확률 임계값을 상회 또는 하회하는 점수를 해석하는 방법에 영향을 줍니다.
 
-이 보고서는 ‘진양성, 가양성, 참 부정 및 거짓 부정’을 기준으로 모델의 성능을 설명합니다.  참 긍정 및 참 부정이 결과 데이터의 두 클래스에 대해 올바르게 예측된 결과입니다. 가양성은 목표 결과가 있을 것으로 예측되었지만 실제로 없었던 레코드입니다. 반대로, 거짓 부정은 목표 결과가 있었지만 없을 것으로 예측된 레코드입니다.
+이 보고서는 ‘진양성, 가양성, 참 부정 및 거짓 부정’을 기준으로 모델의 성능을 설명합니다.__ 참 긍정 및 참 부정이 결과 데이터의 두 클래스에 대해 올바르게 예측된 결과입니다. 가양성은 목표 결과가 있을 것으로 예측되었지만 실제로 없었던 레코드입니다. 반대로, 거짓 부정은 목표 결과가 있었지만 없을 것으로 예측된 레코드입니다.
 
 정밀도 및 재현율과 같은 측정값은 예측된 결과에 대한 확률 임계값의 영향을 설명합니다. 확률 임계값 슬라이서를 사용하여 정밀도와 재현율 사이에서 균형 있게 타협한 임계값을 선택할 수 있습니다.
 

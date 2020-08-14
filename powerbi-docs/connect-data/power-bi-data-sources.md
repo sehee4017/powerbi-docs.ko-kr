@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/10/2020
+ms.date: 08/05/2020
 ms.author: davidi
-ms.openlocfilehash: 0bc6b844457f625d0287f2ec85f582a6ea874624
-ms.sourcegitcommit: 6d3a37eb636e1b71c7dcb9d1c3a9e495b78dec97
+ms.openlocfilehash: 6afc5dd36127390dd359d76fc8970d5ef6f7b590
+ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "84681862"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87837569"
 ---
 # <a name="power-bi-data-sources"></a>Power BI 데이터 원본
 
@@ -94,7 +94,7 @@ ms.locfileid: "84681862"
 | ODBC | 예 | 예 | 아니요 | 예 | 예 |
 | OleDb | 예 | 예 | 아니요 | 예 | 예 |
 | Oracle | 예 | 예 | 예 | 예 | 예 |
-| Paxata | 예 | 예 | 아니요 | 예 | 아니요 |
+| Paxata <sup>8</sup> | 예 | 예 | 아니요 | 예 | 아니요 |
 | PDF | 예 | 예 | 아니요 | 예 | 아니요 <sup>4</sup> |
 | Planview Enterprise One - CTM | 예 | 예 | 아니요 | 아니요 | 아니요 |
 | Planview Enterprise One - PRM | 예 | 예 | 아니요 | 아니요 | 아니요 |
@@ -155,6 +155,8 @@ ms.locfileid: "84681862"
 
 <sup>7</sup> Power BI 서비스는 인증이 필요한 OData 피드를 지원하지 않습니다.
 
+<sup>8</sup> Paxata는 Power BI Report Server에 최적화된 Power BI Desktop 버전에서 지원됩니다. Power BI Report Server에 게시된 Power BI 보고서에서는 지원되지 않습니다. 지원되는 데이터 원본 목록은 [Power BI Report Server에서 Power BI 보고서 데이터 원본](../report-server/data-sources.md)을 참조하세요.
+
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>DirectQuery 원본의 SSO(Single Sign-On)
 
 SSO 옵션이 활성화되어 있고 사용자가 데이터 원본을 기반으로 작성된 보고서에 액세스하면 Power BI는 쿼리에 인증된 Azure AD 자격 증명을 기본 데이터 원본으로 보냅니다. 그러면 Power BI가 데이터 원본 수준에서 구성된 보안 설정을 준수할 수 있습니다.
@@ -180,3 +182,4 @@ SSO 옵션은 이 데이터 원본을 사용하는 모든 데이터 세트에 �
 [Power BI의 DirectQuery 사용](desktop-directquery-about.md)  
 [Power BI의 SQL Server Analysis Services 라이브 데이터](sql-server-analysis-services-tabular-data.md)  
 [온-프레미스 데이터 게이트웨이란?](service-gateway-onprem.md)  
+[Power BI Report Server에서 Power BI 보고서 데이터 원본](../report-server/data-sources.md)

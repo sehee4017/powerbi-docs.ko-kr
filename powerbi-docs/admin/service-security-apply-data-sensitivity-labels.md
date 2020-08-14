@@ -5,15 +5,15 @@ author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
-ms.date: 07/06/2020
+ms.date: 08/10/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: f92d10fdff880049460d24c714201d9a433745d8
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: be2f98341abd581cd2df717d19b3a9110548a2ec
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86035147"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049210"
 ---
 # <a name="how-to-apply-sensitivity-labels-in-power-bi"></a>Power BI에서 민감도 레이블을 적용하는 방법
 
@@ -21,8 +21,8 @@ ms.locfileid: "86035147"
 
 Power BI에서 민감도 레이블을 적용할 수 있으려면:
 * Power BI Pro 라이선스와 레이블을 추가하려는 콘텐츠에 대한 편집 권한이 있어야 합니다.
-* [Power BI에서 민감도 레이블 사용](./service-security-enable-data-sensitivity-labels.md#enable-sensitivity-labels) 문서에 설명된 대로, 민감도 레이블을 적용할 수 있는 권한이 있는 보안 그룹에 속해 있어야 합니다.
-* 모든 [필수 구성 요소](./service-security-sensitivity-label-overview.md#requirements-for-using-sensitivity-labels-in-power-bi) 및 [라이선스 요구 사항](./service-security-data-protection-overview.md#licensing)을 충족해야 합니다.
+* [Power BI에서 민감도 레이블 사용](./service-security-enable-data-sensitivity-labels.md) 문서에 설명된 대로, 민감도 레이블을 적용할 수 있는 권한이 있는 보안 그룹에 속해 있어야 합니다.
+* 모든 [라이선싱 및 기타 요구 사항](./service-security-enable-data-sensitivity-labels.md#licensing-and-requirements)이 충족되었음이 분명합니다.
 
 Power BI의 민감도 레이블에 대한 자세한 내용은 [Power BI의 민감도 레이블](service-security-sensitivity-label-overview.md)을 참조하세요.
 

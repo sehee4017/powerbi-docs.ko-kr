@@ -1,39 +1,39 @@
 ---
 title: Power BI 관리 포털
-description: 관리 포털을 통해 조직에서 Power BI의 테넌트 관리를 사용할 수 있습니다. 사용 메트릭, Microsoft 365 관리 센터에 대한 액세스 및 설정과 같은 항목을 포함하고 있습니다.
+description: 관리 포털에서 Power BI에 대한 조직 차원의 설정을 구성할 수 있습니다. 사용 메트릭을 확인하고, 테넌트 설정을 구성하고, 용량을 사용하고, 작업 영역, 조직 시각적 개체 및 주요 콘텐츠를 볼 수 있습니다.
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 05/12/2020
+ms.date: 08/10/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: ec521c256209c258604e13483a9f3159b24626ae
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 19b4d64039333a18405ac57d98773e9e23857a18
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537507"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049802"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
-관리 포털을 통해 조직의 Power BI ‘테넌트’를 관리할 수 있습니다. 포털에는 사용 메트릭, Microsoft 365 관리 센터에 대한 액세스 및 설정과 같은 항목이 포함되어 있습니다.
+관리 포털을 통해 조직의 Power BI 설정을 관리할 수 있습니다. 포털에는 사용 현황 메트릭, Microsoft 365 관리 센터에 대한 액세스 및 테넌트 설정과 같은 항목이 포함되어 있습니다.
 
-전체 관리 포털은 전역 관리자이거나 Power BI 서비스 관리자 역할에 할당된 모든 사용자가 액세스할 수 있습니다. 이러한 역할 중 하나를 할당받지 않은 경우에는 포털에 **용량 설정**만 표시됩니다. Power BI 서비스 관리자 역할에 대한 자세한 내용은 [Power BI 관리자 역할 이해](service-admin-role.md)를 참조하세요.
+전역 관리자 및 Power BI 서비스 관리자 역할이 있는 사용자가 전체 관리 포털에 액세스할 수 있습니다. 이러한 역할 중 하나를 할당받지 않은 경우에는 포털에 **용량 설정**만 표시됩니다. Power BI 서비스 관리자 역할에 대한 자세한 내용은 [Power BI 관리자 역할 이해](service-admin-role.md)를 참조하세요.
 
 ## <a name="how-to-get-to-the-admin-portal"></a>관리 포털에 도달하는 방법
 
-Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Microsoft 365 또는 Azure AD(Azure Active Directory) 내에서 **전역 관리자**로 표시되거나 Power BI 서비스 관리자 역할이 할당되어야 합니다. Power BI 서비스 관리자 역할에 대한 자세한 내용은 [Power BI 관리자 역할 이해](service-admin-role.md)를 참조하세요. Power BI 관리 포털에 도달하려면 다음을 수행합니다.
+Power BI 관리 포털에 액세스하려면 전역 관리자 또는 Power BI 서비스 관리자여야 합니다. Power BI 서비스 관리자 역할에 대한 자세한 내용은 [Power BI 관리자 역할 이해](service-admin-role.md)를 참조하세요. Power BI 관리 포털로 이동하려면 다음 단계를 수행합니다.
 
-1. Power BI 서비스의 오른쪽 위에서 설정 아이콘을 선택합니다.
+1. 관리자 계정 자격 증명을 사용하여 [Power BI](https://app.powerbi.com)에 로그인합니다.
 
-1. **관리 포털**을 선택합니다.
+1. 페이지 헤더에서 **설정** > **관리 포털**을 선택합니다.
 
     ![관리 포털에 대한 설정](media/service-admin-portal/powerbi-admin-settings.png)
 
-포털에는 9개의 탭이 있습니다. 이 문서의 나머지 부분에서는 이러한 각 탭에 대한 정보를 제공합니다.
+관리 포털에는 여러 섹션이 있습니다. 이 문서의 나머지 부분에서는 이러한 각 섹션에 대한 정보를 제공합니다.
 
 ![관리 포털 탐색](media/service-admin-portal/powerbi-admin-landing-page.png)
 
@@ -44,18 +44,20 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Micr
 * [용량 설정](#capacity-settings)
 * [embed 태그](#embed-codes)
 * [조직의 시각적 개체](organizational-visuals.md#organizational-visuals)
-* [데이터 흐름 스토리지(미리 보기)](#dataflow-storage-preview)
+* [Azure 연결(미리 보기)](#azure-connections-preview)
 * [작업 영역](#workspaces)
 * [사용자 지정 브랜딩](#custom-branding)
+* [보호 메트릭](#protection-metrics)
+* [추천 콘텐츠](#featured-content)
 
 ## <a name="usage-metrics"></a>사용량 메트릭
 
-**사용량 메트릭**을 통해 조직의 Power BI 사용을 모니터링할 수 있습니다. 또한 조직을 위한 Power BI 내에서 가장 활발한 사용자 및 그룹이 누구인지 확인하는 기능을 제공합니다. 
+**사용 현황 메트릭**을 통해 조직의 Power BI 사용 현황을 모니터링할 수 있습니다. 또한 Power BI에서 조직 내 가장 활동적인 사용자 및 그룹을 보여 줍니다.
 
 > [!NOTE]
 > 대시보드에 처음 액세스할 때 또는 대시보드를 오랫동안 보지 않았다가 다시 방문한 후 대시보드를 로드하는 동안 로드 중 화면이 표시될 수 있습니다.
 
-대시보드가 로드된 후 타일 섹션 두 개가 표시됩니다. 첫 번째 섹션은 개별 사용자에 대한 사용량 데이터를 포함하고 있으며 두 번째 섹션은 조직의 그룹에 대해 유사한 정보를 포함하고 있습니다.
+대시보드가 로드된 후 타일 섹션 두 개가 표시됩니다. 첫 번째 섹션은 개별 사용자에 대한 사용 현황 데이터를 포함하고 있으며 두 번째 섹션은 그룹에 대해 유사한 정보를 포함하고 있습니다.
 
 다음은 각 타일에 표시되는 내용에 대한 요약입니다.
 
@@ -63,11 +65,13 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Micr
   
     ![대시보드, 보고서, 데이터 세트에 대한 고유한 개수](media/service-admin-portal/powerbi-admin-usage-metrics-number-tiles.png)
 
-* 액세스할 수 있는 사용자 수별로 가장 많이 사용한 대시보드입니다. 예를 들어 사용자 3명과 공유하는 대시보드가 있는데 서로 다른 두 사용자가 연결한 콘텐츠 팩에 이를 추가하면 개수는 6(1+3+2)개가 됩니다.
+
+* 액세스할 수 있는 사용자 수별로 가장 많이 사용한 대시보드입니다. 예: 세 명의 사용자와 공유하는 대시보드가 있습니다. 또한 두 명의 다른 사용자가 연결된 콘텐츠 팩에 대시보드를 추가했습니다. 대시보드의 수는 6(1+3+2)입니다.
   
     ![가장 많이 사용한 대시보드](media/service-admin-portal/powerbi-admin-usage-metrics-top-dashboards.png)
 
-* 사용자가 연결한 가장 인기 있는 콘텐츠입니다. 사용자가 데이터 가져오기 프로세스를 통해 도달할 수 있는 모든 것, 다시 말해서 SaaS 콘텐츠 팩, 조직 콘텐츠 팩, 파일 또는 데이터베이스가 이에 해당합니다.
+* 사용자가 연결한 가장 인기 있는 콘텐츠입니다. 콘텐츠는 SaaS 콘텐츠 팩, 조직 콘텐츠 팩, 파일 또는 데이터베이스와 같은 데이터 가져오기 프로세스를 통해 사용자가 연결할 수 있는 모든 항목입니다.
+
   
     ![가장 많이 사용한 패키지](media/service-admin-portal/powerbi-admin-usage-metrics-top-connections.png)
 
@@ -79,9 +83,9 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Micr
   
     ![최상위 사용자 - 보고서](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-reports.png)
 
-두 번째 섹션은 동일한 유형의 정보를 보여 주지만 그룹을 기반으로 합니다. 여기에서는 조직에서 가장 활발한 그룹 및 해당 그룹이 사용 중인 콘텐츠의 종류를 확인할 수 있습니다.
+두 번째 섹션은 동일한 유형의 정보를 보여 주지만 그룹을 기반으로 합니다. 이 섹션에서는 조직에서 가장 활동적인 그룹 및 해당 그룹이 사용 중인 콘텐츠의 종류를 확인할 수 있습니다.
 
-이 정보를 사용하여 조직의 사용자가 Power BI를 사용하는 방법을 실제로 파악할 수 있으며 조직에서 매우 활발한 사용자 및 그룹을 인식할 수 있습니다.
+이 정보를 사용하여 조직 전체에서 Power BI를 사용하는 방법에 대한 실질적인 정보를 얻을 수 있습니다.
 
 ## <a name="control-usage-metrics"></a>사용량 메트릭 제어
 
@@ -93,7 +97,7 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Micr
 
 ### <a name="usage-metrics-for-content-creators"></a>콘텐츠 작성자용 사용량 메트릭
 
-1. 관리 포털에서 **테넌트 설정** > **콘텐츠 작성자용 사용량 메트릭**을 선택합니다.
+1. 관리 포털에서 **테넌트 설정** > **감사 및 사용 현황 설정** > **콘텐츠 작성자의 사용 현황 메트릭**을 선택합니다.
 
     ![관리 포털 테넌트 설정 사용 메트릭](media/service-admin-portal/power-bi-admin-usage-metrics.png)
 
@@ -101,10 +105,9 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Micr
 
     ![설정된 사용 메트릭](../collaborate-share/media/service-usage-metrics/power-bi-tenant-settings-updated.png)
 
+### <a name="per-user-data-in-usage-metrics-for-content-creators"></a>콘텐츠 작성자에 대한 사용량 메트릭의 사용자별 데이터
 
-### <a name="per-user-data-in-usage-metrics"></a>사용량 메트릭의 사용자별 데이터
-
-기본적으로 사용자별 데이터는 사용량 메트릭에서 활성화되어 있고 메트릭 보고서에는 콘텐츠 소비자 계정 정보가 포함됩니다. 일부 또는 모든 사용자에게 이 정보를 포함하지 않으려는 경우 지정된 보안 그룹 또는 전체 조직에 기능을 사용하지 않도록 설정합니다. 그러면 계정 정보는 *이름 없음*으로 보고서에 표시됩니다.
+기본적으로 사용자별 데이터는 사용 현황 메트릭에 사용되도록 설정되고, 계정 정보는 메트릭 보고서에 포함됩니다. 일부 또는 모든 사용자에게 계정 정보를 포함하지 않으려는 경우 지정된 보안 그룹 또는 전체 조직에 기능을 사용하지 않도록 설정합니다. 그러면 계정 정보는 *이름 없음*으로 보고서에 표시됩니다.
 
 ![사용자별 사용량 현황 데이터](media/service-admin-portal/power-bi-admin-per-user-usage-data.png)
 
@@ -112,26 +115,26 @@ Power BI 관리 포털에 대한 액세스 권한을 얻으려면 계정이 Micr
 
 조직 전체의 사용량 메트릭을 비활성화할 때, 관리자는 다음 옵션 중 하나 또는 둘 모두를 선택할 수 있습니다.
 
-- **기존 사용량 메트릭 콘텐츠 모두 삭제** 옵션을 사용하여 사용량 메트릭 보고서 및 데이터 세트를 사용하여 빌드한 기존 보고서 및 대시보드 타일을 모두 삭제합니다. 이 옵션은 이미 사용량 메트릭을 사용 중일 수도 있는 조직의 모든 사용자에게서 사용량 메트릭 데이터에 대한 모든 액세스를 제거합니다. 
+- **기존 사용량 메트릭 콘텐츠 모두 삭제** 옵션을 사용하여 사용량 메트릭 보고서 및 데이터 세트를 사용하여 빌드한 기존 보고서 및 대시보드 타일을 모두 삭제합니다. 이 옵션은 이미 사용량 메트릭을 사용 중일 수도 있는 조직의 모든 사용자에게서 사용량 메트릭 데이터에 대한 모든 액세스를 제거합니다.
 - **현재 사용량 메트릭 콘텐츠의 모든 기존 사용자별 데이터 삭제** 이 옵션은 이미 사용량 메트릭을 사용 중인 사용자를 포함하여 조직의 모든 사용자에게서 사용자별 데이터에 대한 액세스를 모두 제거합니다. 
 
 기존 사용량 메트릭과 사용자별 메트릭 콘텐츠의 삭제는 되돌릴 수 없으므로 조심해야 합니다.
 
 ## <a name="users"></a>사용자
 
-Microsoft 365 관리 센터에서 Power BI 사용자, 그룹 및 관리자를 관리합니다. **사용자** 탭은 테넌트의 관리 센터에 대한 링크를 제공합니다.
+Microsoft 365 관리 센터에서 Power BI 사용자, 그룹 및 관리자를 관리합니다. **사용자** 탭은 관리 센터에 대한 링크를 제공합니다.
 
 ![Microsoft 365 관리 센터로 이동](media/service-admin-portal/powerbi-admin-manage-users.png)
 
 ## <a name="audit-logs"></a>감사 로그
 
-Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니다. **감사 로그** 탭은 테넌트의 보안 및 준수 센터에 대한 링크를 제공합니다. [자세히 알아보기](service-admin-auditing.md)
+Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니다. **감사 로그** 탭은 보안 및 준수 센터에 대한 링크를 제공합니다. 자세한 내용은 [Power BI에서 사용자 활동 추적](service-admin-auditing.md)을 참조하세요.
 
 감사 로그를 사용하려면 [**내부 활동 감사 및 규정 준수를 위해 감사 로그 만들기**](#create-audit-logs-for-internal-activity-auditing-and-compliance) 설정이 사용하도록 설정되어 있는지 확인합니다.
 
 ## <a name="tenant-settings"></a>테넌트 설정
 
-**테넌트 설정** 탭에서는 조직에서 사용할 수 있는 기능에 대한 세분화된 제어를 제공합니다. 중요한 데이터에 대한 우려가 있는 경우 일부 기능은 사용자의 조직에 적합하지 않을 수 있거나 특정 기능을 특정 그룹만 사용할 수 있도록 할 수 있습니다.
+**테넌트 설정**에서는 조직에서 사용할 수 있는 기능에 대한 세분화된 제어를 제공합니다. 중요한 데이터에 대한 우려가 있는 경우 일부 기능은 사용자의 조직에 적합하지 않을 수 있거나 특정 기능을 특정 그룹만 사용할 수 있도록 할 수 있습니다.
 
 > [!NOTE]
 > Power BI 사용자 인터페이스에서 기능의 가용성을 제어하는 테넌트 설정은 거버넌스 정책을 수립하는 데 도움이 될 수 있지만 보안 조치는 아닙니다. 예를 들어 **데이터 내보내기** 설정은 데이터 세트에 대한 Power BI 사용자의 권한을 제한하지 않습니다. 데이터 세트에 대한 읽기 권한이 있는 Power BI 사용자에게는 이 데이터 세트를 쿼리할 수 있는 권한이 있으며, Power BI 사용자 인터페이스에서 **데이터 내보내기** 기능을 사용하지 않고 결과를 유지할 수도 있습니다.
@@ -141,9 +144,9 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 ![테넌트 설정](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
 > [!NOTE]
-> 설정 변경 내용이 테넌트의 모든 사용자에게 적용되려면 최대 10분까지 걸릴 수 있습니다.
+> 설정 변경 내용이 조직의 모든 사용자에게 적용되려면 최대 15분이 걸릴 수 있습니다.
 
-설정에는 다음과 같은 세 가지 상태가 포함될 수 있습니다.
+설정의 상태는 다음 세 가지 중 하나입니다.
 
 * **전체 조직에서 사용하지 않도록 설정됨**: 조직의 누구도 이 기능을 사용할 수 없습니다.
 
@@ -153,13 +156,13 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 
     ![모두 사용 설정](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-* **조직 일부에서 사용하도록 설정됨**: 조직에서 사용자 또는 그룹의 특정 하위 세트만 이 기능을 사용할 수 있습니다.
+* **조직 일부에서 사용하도록 설정됨**: 전체 조직에 대한 기능을 사용하도록 설정하는 대신 이 기능을 사용할 수 있는 조직의 **특정 보안 그룹**에 설정을 적용할 수 있습니다.
 
-    특정 사용자 그룹을 제외하고 전체 조직에서 기능을 사용하도록 설정할 수 있습니다.
+    또한 **특정 사용자 그룹을 제외하고** 전체 조직에 대해 기능을 사용하도록 설정할 수 있습니다.
 
     ![하위 집합 사용 설정](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
 
-    또한 특정 사용자 그룹에만 기능을 사용하도록 설정하고 사용자 그룹에 대해 사용하지 않도록 설정할 수도 있습니다. 이 경우 특정 사용자가 허용되는 그룹에 있더라도 해당 기능에 액세스할 수 없게 됩니다.
+    또한 설정을 조합하여 특정 사용자 그룹에만 기능을 사용하도록 설정하고 사용자 그룹에 대해 사용하지 않도록 설정할 수도 있습니다. 이 경우 특정 사용자가 허용되는 그룹에 있더라도 해당 기능에 액세스할 수 없게 됩니다. 사용자에 대한 가장 제한적인 설정이 적용됩니다.
 
     ![제외 사용 설정](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
 
@@ -169,23 +172,47 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 
 ### <a name="publish-get-help-information"></a>"도움말 보기" 정보 게시
 
-조직의 사용자는 Power BI 도움말 메뉴에서 내부 도움말 및 지원 리소스로 이동할 수 있습니다. 특히 이러한 매개 변수는 학습, 커뮤니티 및 도움말 보기 메뉴 항목을 변경합니다.
+관리자는 내부 URL을 지정하여 Power BI 도움말 메뉴 및 라이선스 업그레이드에 대한 링크 대상을 재정의할 수 있습니다. 사용자 지정 URL이 설정된 경우 조직의 사용자는 기본 대상 대신 내부 도움말 및 지원 리소스로 이동합니다. 다음 대상 리소스를 사용자 지정할 수 있습니다.
 
-또한 라이선스 요청에 URL을 지정하여 **계정 업그레이드** 단추의 대상 URL을 사용자 지정합니다. Power BI Pro 라이선스가 없는 사용자는 **Power BI Pro 업데이트** 대화 상자와 **개인 스토리지 관리** 페이지에 이 단추가 표시됩니다. 또한 Power BI는 이 대화 상자나 스토리지 페이지에서 **무료로 Pro 사용해 보기** 단추를 더 이상 제공하지 않습니다. 이렇게 하면 Power BI에서 라이선스 관리 솔루션을 통해 조직에 정의된 프로세스를 사용자에게 안정적으로 안내할 수 있습니다.
+* **알아보기**. 기본적으로 이 도움말 메뉴 링크는 [모든 Power BI 학습 경로 및 모듈의 목록](https://docs.microsoft.com/learn/browse/?products=power-bi)을 대상으로 합니다. 대신 이 링크를 내부 학습 리소스에 전달하려면 **학습 설명서**에 대하여 사용자 지정 URL을 설정하세요.
 
-![제외 사용 설정](media/service-admin-portal/powerbi-admin-tenant-settings-gethelp.png)
+* **커뮤니티**. 도움말 메뉴에서 사용자를 내부 포럼으로 이동하려면 [Power BI 커뮤니티](https://community.powerbi.com/) 대신 **토론 포럼**에 대한 사용자 지정 URL을 설정합니다.
+
+* **라이선싱 업그레이드**. Power BI (무료) 라이선스를 사용하는 사용자에게는 서비스를 사용하는 동안 Power BI Pro로 계정을 업그레이드할 기회가 부여될 수 있습니다. **라이선싱 요청**에 대한 내부 URL을 지정하는 경우 내부 요청 및 구매 흐름으로 사용자를 리디렉션하고 셀프 서비스 구매를 방지합니다. 사용자가 라이선스를 구입하는 것을 방지하고 사용자가 Power BI Pro 평가판을 시작할 수 있도록 허용하는 경우 구입 및 체험 환경을 분리하려면 [사용자가 Power BI Pro를 사용해 볼 수 있도록 허용](#allow-users-to-try-power-bi-pro)을 참조하세요.
+
+* **도움말 보기**. 도움말 메뉴에서 사용자를 내부 지원 센터로 이동하려면 [Power BI 지원](https://powerbi.microsoft.com/support/) 대신 **지원 센터**에 대한 사용자 지정 URL을 설정합니다.
+
+![도움말 보기 정보 게시](media/service-admin-portal/powerbi-admin-tenant-settings-gethelp.png)
 
 ### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>서비스 중단 또는 인시던트에 대한 이메일 알림 받기
 
 이 테넌트가 서비스 중단 또는 인시던트의 영향을 받는 경우 메일 사용이 가능한 보안 그룹이 메일 알림을 받습니다. [서비스 중단 알림](service-interruption-notifications.md)에 대해 자세히 알아보세요.
 
+### <a name="allow-users-to-try-power-bi-pro"></a>사용자가 Power BI Pro를 사용해 볼 수 있도록 허용
+
+**사용자가 Power BI Pro를 사용해 볼 수 있도록 허용**은 기본적으로 사용하도록 설정되어 있으며 Power BI Pro 라이선스를 얻는 방법에 대한 사용자의 제어를 향상시킵니다. 셀프 서비스 구매를 차단한 시나리오에서는 이 설정을 통해 사용자가 Power BI Pro 평가판을 시작할 수 있습니다. 최종 사용자 환경은 라이선스 설정을 결합하는 방법에 따라 달라집니다. 다음 테이블에서는 Power BI(무료)에서 Power BI Pro로의 업그레이드 환경이 어떻게 다양한 설정 조합의 영향을 받는지 보여 줍니다.
+
+| 셀프 서비스 구매 설정 | 사용자가 Power BI Pro 설정을 사용해 볼 수 있도록 허용 | 최종 사용자 환경 |
+| ------ | ------ | ----- |
+| 사용 | 사용 안 함 | 사용자가 Pro 라이선스를 구입할 수 있지만 평가판을 시작할 수 없음 |
+| 사용 | 사용 | 사용자가 Pro 무료 평가판을 시작하고 유료 라이선스로 업그레이드할 수 있음 |
+| 사용 안 함 | 사용 안 함 | IT 관리자에게 라이선스를 요청하라는 메시지가 사용자에게 표시됨 |
+| 사용 안 함 | 사용 | 사용자가 Pro 평가판을 시작할 수 있지만 유료 라이선스를 얻으려면 IT 관리자에게 문의해야 함 |
+
+> [!NOTE]
+> [도움말 및 지원 설정](#help-and-support-settings)에서 라이선싱 요청에 대한 내부 URL을 추가할 수 있습니다. URL을 설정하는 경우 기본 구매 환경을 재정의합니다. 위의 테이블에 설명된 시나리오에서 라이선스를 구입할 수 있는 사용자는 내부 URL로 리디렉션됩니다.
+
+![사용자가 Power BI Pro 설정 UI를 사용해 볼 수 있도록 허용](media/service-admin-portal/allow-pro-trial.png)
+
+자세한 내용은 [셀프 서비스 등록 및 구매 사용 또는 사용 안 함](service-admin-disable-self-service.md)을 참조하세요.
+
 ## <a name="workspace-settings"></a>작업 영역 설정
 
-**테넌트 설정**에서 관리 포털에는 작업 영역을 제어하는 두 개의 섹션이 있습니다.
+**테넌트 설정**에서 관리 포털에는 작업 영역을 제어하는 세 개의 섹션이 있습니다.
 
-- 새 작업 영역 환경을 만듭니다.
-- 작업 영역에서 데이터 세트를 사용합니다.
-- 클래식 작업 영역 만들기를 차단합니다.
+- [새 작업 영역 환경 만들기](#create-the-new-workspaces)
+- [작업 영역에서 데이터 세트 사용](#use-datasets-across-workspaces)
+- [클래식 작업 영역 만들기 차단](#block-classic-workspace-creation).
 
 ### <a name="create-the-new-workspaces"></a>새 작업 영역 만들기
 
@@ -491,26 +518,48 @@ Power BI Embedded(A SKU) 설정을 관리하는 방법은 [Azure의 Power BI Emb
 
 ![Power BI 관리 포털 내의 embed 태그](media/service-admin-portal/embed-codes.png)
 
-## <a name="dataflow-storage-preview"></a>데이터 흐름 스토리지(미리 보기)
+## <a name="organizational-visuals"></a>조직의 시각적 개체
+
+Power BI 시각적 개체 테넌트 설정을 비롯한 모든 Power BI 시각적 개체 관리 설정은 [Power BI 시각적 개체 관리 설정 관리](organizational-visuals.md)에 설명되어 있습니다.
+
+## <a name="azure-connections-preview"></a>Azure 연결(미리 보기)
+
+### <a name="tenant-level-storage-preview"></a>테넌트 수준 스토리지(미리 보기)
 
 기본적으로 Power BI에 사용되는 데이터는 Power BI에서 제공하는 내부 스토리지에 저장됩니다. 데이터 흐름 및 ADLS Gen2(Azure Data Lake Storage Gen2)를 통합하면 조직의 Azure Data Lake Storage Gen2 계정에 데이터 흐름을 저장할 수 있습니다. 자세한 내용은 [데이터 흐름 및 Azure Data Lake 통합(미리 보기)](../transform-model/service-dataflows-azure-data-lake-integration.md)을 참조하세요.
 
+### <a name="workspace-level-storage-permissions-preview"></a>작업 영역 수준 스토리지 권한(미리 보기)
+
+기본적으로 작업 영역 관리자가 자체 스토리지 계정을 연결할 수 없습니다. 이 미리 보기 기능을 통해 작업 영역 관리자가 자신의 스토리지 계정을 연결하는 데 사용할 수 있는 설정을 켤 수 있습니다.
+
 ## <a name="workspaces"></a>작업 영역
 
-관리자는 테넌트에 있는 작업 영역을 볼 수 있습니다. 작업 영역 목록을 정렬 및 필터링하고 각 작업 영역에 대한 세부 정보를 표시할 수 있습니다. 테이블 열은 작업 영역에 대해 [Power BI 관리자 Rest API](/rest/api/power-bi/admin)에서 반환된 속성에 해당합니다. 개인 작업 영역은 **개인 그룹** 형식, 클래식 작업 영역은 **그룹** 형식, 새 작업 영역 환경은 **작업 영역** 형식입니다. 자세한 내용은 [새 작업 영역에서 작업 구성](../collaborate-share/service-new-workspaces.md)을 참조하세요.
+관리자는 **작업 영역** 탭에서 테넌트에 있는 작업 영역을 볼 수 있습니다. 이 탭에서 다음 작업을 수행할 수 있습니다.
+
+- 작업 영역 목록과 세부 정보를 새로 고칩니다.
+- 작업 영역에 대한 데이터를 .csv 파일로 내보냅니다. 
+- 해당 ID, 사용자 및 해당 역할, 대시보드, 보고서 및 데이터 세트를 포함하여 작업 영역에 대한 세부 정보를 확인합니다.
+- 액세스 권한이 있는 사용자 목록을 편집합니다. 즉, 작업 영역을 삭제할 수 있습니다. 작업 영역에 자신을 관리자 권한으로 추가한 다음 작업 영역을 열고 삭제할 수 있습니다.
+- 이름 및 설명 필드를 편집합니다.
+
+![작업 영역 목록](media/service-admin-portal/workspaces-list.png)
+
+또한 관리자는 사용자가 새 작업 영역 환경 작업 영역 및 클래식 작업 영역을 만드는 기능을 제어할 수 있습니다. 자세한 내용은 이 문서의 [작업 영역 설정](#workspace-settings)을 참조하세요. 
+
+**작업 영역** 탭의 테이블 열은 작업 영역에 대해 [Power BI 관리자 Rest API](/rest/api/power-bi/admin)에서 반환된 속성에 해당합니다. 개인 작업 영역은 **개인 그룹** 형식, 클래식 작업 영역은 **그룹** 형식, 새 작업 영역 환경은 **작업 영역** 형식입니다. 자세한 내용은 [새 작업 영역에서 작업 구성](../collaborate-share/service-new-workspaces.md)을 참조하세요.
+
+**작업 영역** 탭에 각 작업 영역의 *상태*가 표시됩니다. 다음 표에서 각 상태의 자세한 의미를 확인할 수 있습니다.
+
+|주  |Description  |
+|---------|---------|
+| **활성** | 일반 작업 영역입니다. 사용량이나 콘텐츠에 대한 정보는 알 수 없으며, 작업 영역 자체가 ‘일반’ 작업 영역이라는 사실만 알 수 있습니다. |
+| **분리됨** | 관리 사용자가 없는 작업 영역입니다. |
+| **삭제됨** | 삭제된 작업 영역입니다. 최대 90일 동안, 필요한 경우 작업 영역을 복원하기에 충분한 메타데이터가 유지됩니다. |
+| **제거 중** | 현재 삭제가 진행 중이지만 아직 완전히 삭제되지 않은 작업 영역입니다. 사용자는 ‘제거 중’으로 항목을 이동하고 궁극적으로 ‘삭제됨’으로 이동하여 작업 영역을 삭제할 수 있습니다. |
 
 관리자는 관리 포털 또는 PowerShell cmdlet을 사용하여 작업 영역을 관리하고 복구할 수도 있습니다. 
 
 ![작업 영역 목록](media/service-admin-portal/workspaces-list.png)
-
-**작업 영역** 탭에 각 작업 영역의 *상태*가 표시됩니다. 다음 표에서 각 상태의 자세한 의미를 확인할 수 있습니다.
-
-|주  |설명  |
-|---------|---------|
-| 활성 | 일반 작업 영역입니다. 사용량이나 콘텐츠에 대한 정보는 알 수 없으며, 작업 영역 자체가 ‘일반’ 작업 영역이라는 사실만 알 수 있습니다. |
-| 분리됨 | 관리 사용자가 없는 작업 영역입니다. |
-| 삭제됨 | 삭제된 작업 영역입니다. 최대 90일 동안, 필요한 경우 작업 영역을 복원하기에 충분한 메타데이터가 유지됩니다. |
-| 제거 중 | 현재 삭제가 진행 중이지만 아직 완전히 삭제되지 않은 작업 영역입니다. 사용자는 ‘제거 중’으로 항목을 이동하고 궁극적으로 ‘삭제됨’으로 이동하여 작업 영역을 삭제할 수 있습니다. |
 
 ## <a name="custom-branding"></a>사용자 지정 브랜딩
 
@@ -527,7 +576,9 @@ Power BI Embedded(A SKU) 설정을 관리하는 방법은 [Azure의 Power BI Emb
 
 자세한 내용은 [조직에 대한 사용자 지정 브랜딩](https://aka.ms/orgBranding)을 참조하세요.
 
-![작업 영역 목록](media/service-admin-portal/workspaces-list.png)
+## <a name="protection-metrics"></a>보호 메트릭
+
+Power BI에 대한 정보 보호를 사용하도록 설정하면 관리 포털에 데이터 보호 메트릭이 표시됩니다. 보고서는 민감도 레이블이 콘텐츠를 보호하는 방법을 보여 줍니다.
 
 ## <a name="manage-featured-content"></a>추천 콘텐츠 관리
 

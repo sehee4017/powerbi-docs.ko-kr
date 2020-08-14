@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/05/2020
+ms.date: 08/11/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 2c59cb593a236785346721cb5c3ac90c702c93ed
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: f778b4f0c6572084598eb07df0e89b7a30aed7b1
+ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252064"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "88091598"
 ---
 # <a name="connect-to-an-oracle-database-with-power-bi-desktop"></a>Power BI Desktop을 사용하여 Oracle 데이터베이스에 연결
 Power BI Desktop을 사용하여 Oracle 데이터베이스에 연결하려면 Power BI Desktop을 실행하는 컴퓨터에 올바른 Oracle 클라이언트 소프트웨어를 설치해야 합니다. 사용하는 Oracle 클라이언트 소프트웨어는 설치한 Power BI Desktop 버전이 32비트 또는 64비트인지에 따라 다릅니다. 또한 Oracle Server 버전에 따라 다릅니다.
@@ -50,16 +50,20 @@ Power BI Desktop을 사용하여 Oracle 데이터베이스에 연결하려면 Po
 2. 표시되는 **데이터 가져오기** 창에서 **자세히**(필요한 경우)를 선택하고 **데이터베이스** > **Oracle 데이터베이스**를 선택한 다음, **연결**을 선택합니다.
    
    ![Oracle 데이터베이스 연결](media/desktop-connect-oracle-database/connect-oracle-database_2.png)
-2. 표시되는 **Oracle 데이터베이스** 대화 상자에서 **서버** 이름을 입력하고 **확인**을 선택합니다. SID가 필요한 경우 *ServerName/SID* 형식으로 지정합니다. 여기서 *SID*는 데이터베이스의 고유 이름입니다. *ServerName/SID* 형식이 작동하지 않으면 *ServerName/ServiceName*을 사용합니다. 여기서 *ServiceName*은 연결 시 사용하는 별칭입니다.
+3. 표시되는 **Oracle 데이터베이스** 대화 상자에서 **서버** 이름을 입력하고 **확인**을 선택합니다. SID가 필요한 경우 *ServerName/SID* 형식으로 지정합니다. 여기서 *SID*는 데이터베이스의 고유 이름입니다. *ServerName/SID* 형식이 작동하지 않으면 *ServerName/ServiceName*을 사용합니다. 여기서 *ServiceName*은 연결 시 사용하는 별칭입니다.
 
 
    ![Oracle 서버 이름 입력](media/desktop-connect-oracle-database/connect-oracle-database_3.png)
 
+   > [!NOTE]
+   > 로컬 데이터베이스 또는 자치 데이터베이스 연결을 사용하는 경우 연결 오류를 방지하려면 서버 이름을 따옴표로 묶어야 합니다. 
       
-3. 네이티브 데이터베이스 쿼리를 사용하여 데이터를 가져오려는 경우 **Oracle 데이터베이스** 대화 상자의 **고급 옵션** 섹션을 확장할 때 표시되는 **SQL 문** 상자에 쿼리를 넣습니다.
+4. 네이티브 데이터베이스 쿼리를 사용하여 데이터를 가져오려는 경우 **Oracle 데이터베이스** 대화 상자의 **고급 옵션** 섹션을 확장할 때 표시되는 **SQL 문** 상자에 쿼리를 넣습니다.
    
    ![고급 옵션 확장](media/desktop-connect-oracle-database/connect-oracle-database_4.png)
-4. **Oracle 데이터베이스** 대화 상자에 SID 또는 네이티브 데이터베이스 쿼리와 같은 선택적 정보를 포함하여 Oracle 데이터베이스 정보를 입력한 후에 **확인**을 선택하여 연결합니다.
+
+
+5. **Oracle 데이터베이스** 대화 상자에 SID 또는 네이티브 데이터베이스 쿼리와 같은 선택적 정보를 포함하여 Oracle 데이터베이스 정보를 입력한 후에 **확인**을 선택하여 연결합니다.
 5. Oracle 데이터베이스에서 데이터베이스 사용자 자격 증명을 요구하는 경우 메시지가 표시되면 대화 상자에서 해당 자격 증명을 입력합니다.
 
 

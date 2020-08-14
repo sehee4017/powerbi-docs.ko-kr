@@ -7,15 +7,15 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 08/05/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: ec45d971855aefe35161f2b10fecd483f0345a46
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 4f02a98ca13bd5808bde987889c3f4404c9100f0
+ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768806"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87837500"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>보고서를 Power BI에서 PDF로 내보내기
 
@@ -52,6 +52,7 @@ Power BI 서비스에서 보고서를 선택하여 캔버스에 표시합니다.
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
 **PDF로 내보내기** 기능을 사용할 때 유의해야 할 고려 사항과 제한 사항이 있습니다.
 
+* PDF는 Power BI 캔버스에 표시되는 데이터와 시각화를 포함합니다. 시각적 개체에 스크롤 막대가 포함된 경우 PDF는 스크롤되지 않은 기본 상태의 시각적 개체를 포함합니다.  
 * R 및 Python 시각적 개체는 현재 지원되지 않습니다. PDF에서 이들 시각적 개체는 공백이 되고 오류 메시지를 표시합니다. 
 * 인증된 Power BI 시각적 개체는 지원됩니다. Power BI 시각적 개체를 인증하는 방법을 비롯한 인증된 Power BI 시각적 개체에 대한 자세한 내용은 [Power BI 시각적 개체 인증받기](../developer/visuals/power-bi-custom-visuals-certified.md)를 참조하세요. 인증되지 않은 Power BI 시각적 개체는 지원되지 않습니다. 인증되지 않은 사용자 지정 시각적 개체는 PDF에서 오류 메시지와 함께 표시됩니다.
 * ESRI 시각적 개체는 지원되지 않습니다.

@@ -7,15 +7,15 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
-ms.date: 03/29/2019
+ms.date: 08/03/2020
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2d65b63238009c5a743d83a13d596f36aad4b2a3
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9f25c9ffc294a1733a3dba5818dc00bd23124837
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83281694"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878882"
 ---
 # <a name="tutorial-build-a-machine-learning-model-in-power-bi"></a>자습서:  Power BI에서 Machine Learning 모델 빌드
 
@@ -154,6 +154,26 @@ Power BI에서 데이터 샘플의 예비 검색을 수행하고 더 정확한 �
 데이터 흐름 새로 고침이 완료되면 **Online Visitors enriched Purchase Intent Prediction** 엔터티를 선택하여 결과를 볼 수 있습니다.
 
 ![결과 보기](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-21.png)
+
+데이터 흐름의 Power Query 편집기에서 직접 작업 영역의 모든 AutoML 모델을 호출할 수도 있습니다. AutoML 모델에 액세스하려면 다음 이미지에 표시된 것처럼 AutoML 모델의 인사이트로 보강하려는 엔터티의 편집 단추를 선택합니다.
+
+![엔터티 편집](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-22.png)
+
+편집 단추를 선택하면 데이터 흐름의 엔터티에 대한 파워 쿼리 편집기가 열립니다. 리본에서 AI 인사이트 단추를 선택합니다.
+
+![AI 인사이트](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-23.png)
+
+ 탐색 창 메뉴에서 Power BI Machine Learning 모델 폴더를 선택합니다. 액세스 권한이 있는 모든 AutoML 모델이 여기에 파워 쿼리 함수로 나열됩니다. AutoML 모델에 대한 입력 매개 변수도 자동으로 해당 파워 쿼리 함수의 매개 변수로 매핑됩니다. 매개 변수의 자동 매핑은 매개 변수의 이름과 데이터 형식이 동일한 경우에만 발생합니다.
+ 
+AutoML 모델을 호출하려면 선택한 엔터티의 열을 드롭다운에서 입력으로 지정합니다. 입력 대화 상자 왼쪽으로 열 아이콘을 전환하여 입력으로 사용할 상수 값을 지정할 수도 있습니다.
+
+![PQO 함수 브라우저](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-24.png)
+
+AutoML 모델 출력 미리 보기를 엔터티 테이블에 새 열로 표시하려면 적용을 선택합니다. 모델 호출을 쿼리의 적용 단계로 표시할 수도 있습니다.
+
+![결과 보기](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-25.png)
+
+데이터 흐름을 저장하면 엔터티 테이블의 모든 새 행 또는 업데이트된 행에 대해 데이터 흐름을 새로 고치는 경우 자동으로 모델이 호출됩니다.
 
 ## <a name="using-the-scored-output-from-the-model-in-a-power-bi-report"></a>Power BI 보고서에서 모델의 점수가 매겨진 출력 사용
 

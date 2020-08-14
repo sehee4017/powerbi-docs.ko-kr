@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 07/15/2019
+ms.date: 08/07/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: dea1198519f59a81c49e2f7a95a903c37bd4fb11
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c171369cad8a311f91bd4b8542577cbd0c8e4657
+ms.sourcegitcommit: 154946ece829360cc0ff3be13276cd7a129f3388
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236609"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87988696"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이에서 사용자 지정 데이터 커넥터 사용
 
@@ -47,6 +47,7 @@ Power BI용 사용자 지정 데이터 커넥터를 개발하는 방법에 대�
 * 만든 폴더가 백그라운드 게이트웨이 서비스에 액세스할 수 있는지 확인합니다. 일반적으로 사용자의 Windows 폴더 또는 시스템 폴더 아래에 있는 폴더에는 액세스할 수 없습니다. 온-프레미스 데이터 게이트웨이 앱은 폴더에 액세스할 수 없는 경우 메시지를 표시합니다. 이 명령은 온-프레미스 데이터 게이트웨이(개인 모드)에는 적용되지 않습니다.
 * 사용자 지정 커넥터를 온-프레미스 데이터 게이트웨이에서 작업하려면 사용자 지정 커넥터의 코드에서 "TestConnection" 섹션을 구현해야 합니다. 이 섹션은 Power BI Desktop에서 사용자 지정 커넥터를 사용하는 경우에는 필요하지 않습니다. 따라서 커넥터가 Power BI Desktop에서는 작동하지만 게이트웨이에서는 작동하지 않을 수 있습니다. TestConnection 섹션을 구현하는 방법에 대한 자세한 내용은 [이 설명서](https://github.com/Microsoft/DataConnectors/blob/master/docs/m-extensions.md#implementing-testconnection-for-gateway-support)를 참조하세요.
 * 게이트웨이를 통한 사용자 지정 커넥터의 OAuth는 현재 게이트웨이 관리자만 지원하고 다른 데이터 원본 사용자는 지원하지 않습니다.
+* 사용자 지정 커넥터가 네트워크 드라이브에 있는 경우 온-프레미스 데이터 게이트웨이 앱에 완전히 정규화된 경로를 포함합니다.
 
 ## <a name="next-steps"></a>다음 단계
 

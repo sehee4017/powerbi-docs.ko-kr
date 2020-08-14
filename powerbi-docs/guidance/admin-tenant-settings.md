@@ -6,14 +6,14 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 08/10/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 7dd6c812116d9ba196b157bd12d6362c19ac64ec
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: eeb879fc70effa166d08c9a342f77ad614779751
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216712"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049302"
 ---
 # <a name="tenant-admin-settings-guidance"></a>테넌트 관리자 설정 지침
 
@@ -39,9 +39,13 @@ ms.locfileid: "86216712"
 이 URL은 Power BI 도움말 메뉴의 링크로 사용할 수 있습니다.
 
 > [!NOTE]
-> **라이선스 요청** URL을 제공하면 개별 사용자는 Power BI Pro 60일 무료 평가판에 등록할 수 없습니다. 대신 해당 사용자는 내부 사이트로 이동해 무료 또는 Pro 라이선스 취득 방법을 안내받게 됩니다.
+> **라이선싱 요청** URL을 제공하면 개별 사용자가 Power BI Pro 라이선스를 구입할 수 없습니다. 대신 해당 사용자는 내부 사이트로 이동해 라이선스 취득 방법을 안내받게 됩니다. **사용자가 Power BI Pro를 사용해 볼 수 있도록 허용**은 기본적으로 사용하도록 설정되어 있으며 구매 및 체험 환경을 구분합니다. 이러한 설정이 함께 작동하는 방법에 대한 자세한 내용은 [사용자가 Power BI Pro를 사용해 볼 수 있도록 허용](../admin/service-admin-portal.md#allow-users-to-try-power-bi-pro)을 참조하세요.
+>
+>
 
 ![도움말 및 지원 설정을 보여 주는 Power BI Desktop의 스크린샷.](media/admin-tenant-settings/publish-get-help-information.png)
+
+자세한 내용은 [도움말 및 지원 설정](../admin/service-admin-portal.md#help-and-support-settings)을 참조하세요.
 
 ## <a name="manage-risk"></a>위험 관리
 위험을 관리하는 설정은 Power BI 테넌트에서 거버넌스 정책을 설정하는 데 도움이 될 수 있습니다. 그러나 거버넌스 설정은 보안 측정값이 아닙니다. 예를 들어 **데이터 내보내기** 설정을 사용하지 않도록 설정하면 Power BI 사용자 인터페이스에서 기능을 제거하고 이런 식으로 Power BI 사용자가 조직의 거버넌스 정책을 준수하도록 하는 데에는 도움이 되지만, 결정된 사용자가 다른 옵션을 사용하여 데이터를 내보내지 못하도록 하지는 않습니다. 보안 측면에서 데이터 세트에 대한 읽기 권한이 있는 Power BI 사용자는 이 데이터 세트를 쿼리할 수 있는 권한을 가지며, Power BI 사용자 인터페이스에서 사용할 수 있는 기능에 관계없이 결과를 유지할 수 있습니다.
