@@ -9,12 +9,12 @@ ms.devlang: csharp, javascript
 ms.topic: how-to
 ms.reviewer: zakharb
 ms.date: 08/02/2020
-ms.openlocfilehash: 5a84c67a2efd57376afc289f965da9dc5dafd3c6
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 2f330b42e674f11f27d695fb65bc8d5de928eaae
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768662"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204827"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Azure Portal에서 Power BI Embedded 용량 만들기
 
@@ -56,7 +56,7 @@ Power BI Embedded 용량을 만들기 전에 최소 한 번 이상 Power BI 로�
 
     * **위치** - 테넌트에 대해 Power BI가 호스트되는 위치입니다. 기본 위치는 홈 지역이지만 [다중 지역 옵션](embedded-multi-geo.md)을 사용하여 위치를 변경할 수 있습니다.
 
-    * **크기** - 필요한 [A SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)입니다. 자세한 내용은 [SKU 메모리 및 컴퓨팅 성능](/embedded/embedded-capacity.md#sku-memory-and-computing-power)을 참조하세요.
+    * **크기** - 필요한 [A SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)입니다. 자세한 내용은 [SKU 메모리 및 컴퓨팅 성능](/power-bi/developer/embedded/embedded-capacity)을 참조하세요.
 
     * **Power BI 용량 관리자** - 용량 관리자입니다.
         >[!NOTE]
@@ -229,9 +229,10 @@ Azure 구독이 아직 없는 경우 시작하기 전에 [체험](https://azure.
 
     * **이름** - 용량 이름입니다.
 
-    * **위치** - 테넌트에 대해 Power BI가 호스트되는 위치입니다. 기본 위치는 홈 지역이지만 [다중 지역 옵션](/embedded/embedded-multi-geo.md)을 사용하여 위치를 변경할 수 있습니다.
+    * **위치** - 테넌트에 대해 Power BI가 호스트되는 위치입니다. 기본 위치는 홈 지역이지만 [다중 지역 옵션](https://docs.microsoft.com/power-bi/developer/embedded/embedded-multi-geo
+)을 사용하여 위치를 변경할 수 있습니다.
 
-    * **SKU** - 필요한 [A SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)입니다. 자세한 내용은 [SKU 메모리 및 컴퓨팅 성능](/embedded/embedded-capacity.md#sku-memory-and-computing-power)을 참조하세요.
+    * **SKU** - 필요한 [A SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)입니다. 자세한 내용은 [SKU 메모리 및 컴퓨팅 성능](/power-bi/developer/embedded/embedded-capacity)을 참조하세요.
 
     * **관리자** - 용량 관리자입니다.
         >[!NOTE]

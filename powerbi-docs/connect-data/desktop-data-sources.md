@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 07/28/2020
+ms.date: 08/12/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dcdd663ec9899f7623789915754087c4643c9806
-ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
+ms.openlocfilehash: 1e64ca5c94b180cf98cf8d8992681861281ca2ae
+ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87411983"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "88160398"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop의 데이터 원본
 
@@ -217,28 +217,31 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Python 스크립트
 * ODBC
 * OLE DB
-* Acterys : Model Automation & Planning(베타)
-* Automation Anywhere(베타)
 * Solver
-* Cherwell(베타)
-* Cognite Data Fusion(베타)
 * FHIR
 * Information Grid(베타)
 * Jamf Pro(베타)
-* Power BI용 MicroStrategy
 * Paxata
 * QubolePresto(베타)
 * Roamler(베타)
 * Shortcuts Business Insights(베타)
 * Siteimprove
-* SurveyMonkey(베타)
 * Tenforce(스마트) 목록
 * TIBCO(R) 데이터 가상화(베타)
-* Vena(베타)
 * Vessel Insight(베타)
 * Workforce Dimensions(베타)
 * Zucchetti HR Infinity(베타)
+* Cognite Data Fusion(베타)
+* Power BI용 MicroStrategy
+* SurveyMonkey(베타)
+* Vena(베타)
+* Acterys : Model Automation & Planning(베타)
+* Automation Anywhere(베타)
+* Cherwell(베타)
 * 빈 쿼리
+
+
+
 
 다음 그림은 **기타**에 대한 **데이터 가져오기** 창을 보여 줍니다.
 
