@@ -1,24 +1,24 @@
 ---
 title: 분석 기능을 사용하여 보고서 시각적 개체의 변동 설명
-description: Power BI Desktop에서 증가 또는 감소하는 정보 쉽게 파악
+description: Power BI 서비스에서 증가 또는 감소하는 정보 쉽게 파악
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/23/2019
+ms.date: 08/12/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 36f370adc68c6b6f8fc15261bfa107411043c65d
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: fe44b183b77cb1e58c89cfd229f3f76d3b06ce39
+ms.sourcegitcommit: 3268a9b630cf599c50592d83c70a87eeecf7838f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162301"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88168487"
 ---
-# <a name="use-the-analyze-feature-to-explain-fluctuations-in-report-visuals-preview"></a>분석 기능을 사용하여 보고서 시각적 개체의 변동 설명(미리 보기)
+# <a name="use-the-analyze-feature-to-explain-fluctuations-in-report-visuals"></a>분석 기능을 사용하여 보고서 시각적 개체의 변동 설명
 
-[!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
 종종 보고서 시각적 개체에서 값의 대폭 증가 후 대폭 하락을 보고 이러한 변동의 원인에 대해 궁금해합니다. **Power BI 서비스**의 **분석**을 사용하면 몇 번의 클릭으로 원인을 알 수 있습니다.
 
@@ -26,7 +26,7 @@ ms.locfileid: "86162301"
 
 ![증가 및 감소 정보가 있는 시각적 개체](media/end-user-analyze-visuals/power-bi-line-chart.png)
 
-Power BI 서비스를 통해 시각적 개체의 증가, 감소 또는 비정상적 분포를 설명하고, 데이터에 대한 빠르고 자동화된 통찰력 있는 분석을 얻을 수 있습니다. 데이터 요소를 마우스 오른쪽 단추로 클릭하고 **분석 > 감소 설명**(또는 이전 막대가 더 낮은 경우 증가)를 선택하거나 **분석 > 이 분포가 다른 경우 찾기**를 선택하면 사용하기 쉬운 창에 인사이트가 제공됩니다.
+Power BI 서비스를 통해 시각적 개체의 증가, 감소 또는 비정상적 분포를 설명하고, 데이터에 대한 빠르고 자동화된 통찰력 있는 분석을 얻을 수 있습니다. 데이터 요소를 마우스 오른쪽 단추로 클릭하고, **분석 > 감소에 대해 설명하세요**(또는 이전 막대가 더 낮은 경우 증가) 또는 **분석 > 이 분포가 다른 경우 찾기**를 선택하면 사용하기 쉬운 창에 인사이트가 제공됩니다.
 
 ![시각적 개체에 나타나는 인사이트](media/end-user-analyze-visuals/power-bi-decrease.png)
 
@@ -37,7 +37,7 @@ Power BI 서비스를 통해 시각적 개체의 증가, 감소 또는 비정상
 
 ### <a name="which-factors-and-categories-are-chosen"></a>선택된 요소 및 범주
 
-Power BI는 여러 열을 검사한 후 상대적 기여도의 가장 큰 변화를 보여 주는 열을 선택하고 표시합니다. 각 열에 대해 기여에 가장 의미 있는 변화가 있는 값이 설명에 나타나며, 또한 실제 증가 및 감소가 가장 큰 값도 제시됩니다.
+Power BI는 여러 열을 검사한 후 상대적 기여도의 가장 큰 변화를 보여 주는 요소를 선택하고 표시합니다. 각 열에 대해 기여에 가장 의미 있는 변화가 있는 값이 설명에 나타나며, 또한 실제 증가 및 감소가 가장 큰 값도 제시됩니다.
 
 Power BI가 생성하는 모든 인사이트를 보려면 스크롤 막대를 사용합니다. 가장 중요한 기여자가 제일 먼저 표시되도록 순서가 매겨집니다. 
 
@@ -71,6 +71,8 @@ Power BI가 생성하는 모든 인사이트를 보려면 스크롤 막대를 �
 
 ### <a name="the-scatter-plot"></a>산점도
 
+![선택한 산점도 아이콘을 보여 주는 작은 스크린샷](media/end-user-analyze-visuals/power-bi-scatter-icon.png)
+
 산점도 시각적 개체는 열(이 경우 주)의 각 값마다 두 번째 기간(y축)의 측정값 대비 첫 번째 기간(x축) 측정값을 보여 줍니다. 데이터 요소는 값이 증가한 경우 녹색 영역에, 감소한 경우 빨간색 영역에 위치합니다. 
 
 점선은 최적을 보여 주며 이 선 위의 데이터 요소는 전반적인 추세 이상으로 증가한 것을, 이 선 아래의 데이터 요소는 추세 미만으로 증가한 것을 나타냅니다.  
@@ -81,17 +83,23 @@ Power BI가 생성하는 모든 인사이트를 보려면 스크롤 막대를 �
 
 ### <a name="the-100-stacked-column-chart"></a>100% 누적 세로 막대형 차트
 
+![선택한 세로 막대형 차트 아이콘을 보여 주는 작은 스크린샷](media/end-user-analyze-visuals/power-bi-column-icon.png)
+
 100% 누적 세로 막대형 차트 시각적 개체는 선택한 데이터 요소 및 이전의 합계(100%)에 대한 기여도 값을 보여 줍니다. 이를 통해 각 데이터 요소의 기여도를 나란히 비교할 수 있습니다. 이 예에서 도구 설명은 선택한 값 텍사스의 실제 기여도를 보여 줍니다. 주 목록이 길기 때문에 도구 설명은 세부 정보를 보는 데 도움이 됩니다. 도구 설명을 사용하면 텍사스가 총 단위에 기여한 비율은 동일하지만(31% 및 32%) 총 단위의 실제 수는 89에서 71로 감소한 것을 볼 수 있습니다. Y축은 합계가 아니라 백분율이며, 각 열 밴드는 값이 아니라 백분율입니다. 
 
 ![100% 누적 세로 막대형 차트](media/end-user-analyze-visuals/power-bi-stacked.png)
 
 ### <a name="the-ribbon-chart"></a>리본 차트
 
-리본 차트 시각적 요소는 전과 후의 측정 값을 보여 줍니다. 특히 기여자의 순위가 변경된 경우 기여도의 변화를 보여 주는 데 유용합니다(예: *LA*는 2위 기여자에서 11위로 떨어졌습니다).  그리고 *TX*가 맨 위의 넓은 리본으로 표시되어 전과 후의 가장 중요한 기여자임을 보여 주지만 하락은 선택된 기간 중과 그 이후에 기여도 값이 하락했음을 보여 줍니다.
+![선택한 리본 차트 아이콘을 보여 주는 작은 스크린샷](media/end-user-analyze-visuals/power-bi-ribbon-icon.png)
+
+리본 차트 시각적 요소는 전과 후의 측정 값을 보여 줍니다. 특히 기여자의 *순위*가 변경된 경우 기여도의 변화를 보여 주는 데 유용합니다(예: *LA*는 2위 기여자에서 11위로 떨어졌습니다).  그리고 *TX*가 맨 위의 넓은 리본으로 표시되어 전과 후의 가장 중요한 기여자임을 보여 주지만 하락은 선택된 기간 중과 그 이후에 기여도 값이 하락했음을 보여 줍니다.
 
 ![리본 차트](media/end-user-analyze-visuals/power-bi-ribbon-tooltip.png)
 
 ### <a name="the-waterfall-chart"></a>폭포 차트
+
+![선택한 폭포 차트 아이콘을 보여 주는 작은 스크린샷](media/end-user-analyze-visuals/power-bi-waterfall-icon.png)
 
 네 번째 시각적 개체는 기간 사이의 실제 증가 또는 감소를 보여 주는 폭포 차트입니다. 이 시각적 개체는 2014년 6월의 감소에 대한 중요한 기여자 하나를 보여 줍니다(이 경우에는 **주**). **주**가 총 단위에 미친 상세한 영향은 루이지애나, 텍사스, 콜로라도에서의 하락이 가장 중요한 역할을 했다는 것입니다.      
 
@@ -120,6 +128,6 @@ Power BI가 생성하는 모든 인사이트를 보려면 스크롤 막대를 �
 
 ## <a name="next-steps"></a>다음 단계
 [폭포 차트](../visuals/power-bi-visualization-waterfall-charts.md)    
-[분산형 차트](../visuals/power-bi-visualization-scatter.md)
-[세로 막대형 차트](../visuals/power-bi-report-visualizations.md)
+[분산형 차트](../visuals/power-bi-visualization-scatter.md)    
+[세로 막대형 차트](../visuals/power-bi-report-visualizations.md)    
 [리본 차트](../visuals/desktop-ribbon-charts.md)

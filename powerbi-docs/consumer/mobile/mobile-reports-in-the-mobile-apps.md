@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
-ms.date: 08/11/2020
+ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: 5ca205bf2e82269140926ac69ccdead43b0cddd8
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: f53fb518df3c82f4570c81b7caa14c20eea8022c
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091644"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204959"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 보고서 탐색
 적용 대상:
@@ -53,7 +53,10 @@ Power BI 모바일 앱의 보고서를 위한 두 가지 아이콘이 있습니�
   
   모든 타일을 보고서로 열 수 있는 것은 아닙니다. 예를 들어 질문 및 답변 상자에서 질문을 할 때 만든 타일을 탭해도 보고서가 열리지 않습니다.
   
-## <a name="interact-with-reports"></a>보고서 조작
+## <a name="zoom-in-on-your-data"></a>데이터 확대   
+보고서를 확대하여 더 자세히 검토하려면 손가락 펴기 제스처를 사용합니다. 다시 축소하려면 손가락 모으기를 사용합니다. 확대/축소는 Android 및 iOS의 휴대폰과 태블릿에서 지원됩니다.
+
+## <a name="interact-with-reports"></a>보고서 사용
 앱에서 보고서를 연 후 보고서 작업을 시작할 수 있습니다. 보고서와 데이터를 사용하여 다양한 작업을 수행할 수 있습니다. 보고서 바닥글에서 보고서에 대해 수행할 수 있는 작업을 찾을 수 있습니다. 보고서에 표시된 데이터를 탭하거나 길게 탭하면 데이터를 조각화하고 분석할 수도 있습니다.
 
 ### <a name="single-tap-versus-double-tap-interaction"></a>단일 탭 및 두 번 탭 상호 작용
@@ -83,7 +86,7 @@ Power BI 모바일 앱을 다운로드하면 단일 탭 상호 작용이 설정�
 ### <a name="tooltip-and-drill-actions"></a>도구 설명 및 드릴 작업
 데이터 요소를 길게 탭(탭하고 유지)하면 이 데이터 요소가 나타내는 값을 제공하는 도구 설명이 표시됩니다.
 
-![도구 설명](./media/mobile-reports-in-the-mobile-apps/report-tooltip.png)
+![Tooltip](./media/mobile-reports-in-the-mobile-apps/report-tooltip.png)
 
 보고서 작성자가 보고서 페이지 도구 설명을 구성한 경우 기본 도구 설명이 보고서 페이지 도구 설명으로 바뀝니다.
 
@@ -127,7 +130,7 @@ Power BI 모바일 앱을 다운로드하면 단일 탭 상호 작용이 설정�
 ![모든 보고서 작업](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-all-actions.png)
 
 일부 작업은 특정 보고서 기능에 종속되므로 사용하지 않도록 설정될 수 있습니다.
-예:
+예를 들면 다음과 같습니다.
 
 **책갈피**는 보고서에 [책갈피](mobile-reports-in-the-mobile-apps.md#bookmarks)가 설정된 경우에만 표시됩니다. Power BI 서비스에서 정의할 수 있는 개인 책갈피와 보고서 작성자가 정의한 책갈피가 모두 표시됩니다. 책갈피 중 하나가 기본 책갈피로 정의된 경우에는 보고서가 로드 시 해당 뷰로 열립니다.
 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/21/2020
+ms.date: 08/12/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 0fdee37f682774e1dac2b1ac6a4fc7a6e8dabe91
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8dd6e64943ea05f2219efa471cd3fcfa4152650b
+ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238085"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "88160490"
 ---
 # <a name="let-users-personalize-visuals-in-a-report"></a>사용자가 보고서에서 시각적 개체를 개인 설정할 수 있습니다.
 
@@ -41,6 +41,59 @@ ms.locfileid: "85238085"
 - 보고서의 모든 변경 내용 다시 설정
 - 시각적 개체의 모든 변경 내용 다시 설정
 - 최근 변경 내용 지우기
+
+## <a name="use-perspectives-for-a-more-focused-view"></a>더 집중된 뷰를 위해 큐브 뷰 사용
+
+시각적 개체 개인 설정의 경우 더 집중된 뷰를 제공하는 모델의 하위 집합을 선택하려면 **큐브 뷰**를 사용할 수 있습니다. 하위 집합을 선택하면 큰 데이터 모델을 사용하여 작업할 때 유용할 수 있습니다. 관리가 용이한 필드의 하위 집합에 집중할 수 있고, 대규모 모델에 있는 전체 필드 모음으로 보고서를 읽는 사용자에게 부담을 주지 않을 수 있습니다. 
+
+![시각적 개체 개인 설정](media/power-bi-personalize-visuals/power-bi-personalize-perspective-01.png)
+
+큐브 뷰로 작업할 때 다음 사항을 고려해야 합니다.
+
+* 큐브 뷰는 보안 수단이 아니라 더 나은 최종 사용자 환경을 제공하기 위한 도구입니다. 큐브 뷰에 대한 모든 보안은 기본 모델에서 상속됩니다.
+
+* 테이블 형식 모델과 다차원 모델에서 모두 큐브 뷰가 지원됩니다. 그러나 다차원 모델의 큐브 뷰에서는 보고서에 대한 기본 큐브와 동일하게만 큐브 뷰를 설정할 수 있습니다.
+
+* 모델에서 큐브 뷰를 삭제하기 전에 시각적 개체 개인 설정 환경에서 큐브 뷰가 사용되고 있지 않은지 확인해야 합니다. 
+
+큐브 뷰를 사용하려면 보고서에 대해 시각적 개체 개인 설정을 사용하도록 설정해야 합니다. 또한 시각적 개체 개인 설정 환경에서 최종 사용자가 상호 작용할 차원과 측정값을 포함하는 큐브 뷰를 하나 이상 만들어야 합니다.
+
+큐브 뷰를 만들려면 다음 위치에서 다운로드할 수 있는 [테이블 형식 편집기](https://tabulareditor.com/)를 사용합니다. 테이블 형식 편집기 다운로드
+
+**테이블 형식 편집기**를 설치한 후에는 다음 그림에 나와 있는 것처럼 **Power BI Desktop**에서 보고서를 열고 리본의 **외부 도구** 탭에서 **테이블 형식 편집기**를 시작합니다.
+
+![외부 도구 리본의 테이블 형식 편집기](media/power-bi-personalize-visuals/power-bi-personalize-perspective-02.png)
+
+테이블 형식 편집기에서 **큐브 뷰** 폴더를 마우스 오른쪽 단추로 클릭하여 새 큐브 뷰를 만듭니다.
+
+![테이블 형식 편집기에서 새 큐브 뷰 폴더 만들기](media/power-bi-personalize-visuals/power-bi-personalize-perspective-03.png)
+
+텍스트를 두 번 클릭하여 큐브 뷰의 이름을 바꿀 수 있습니다.
+
+![큐브 뷰 이름 바꾸기](media/power-bi-personalize-visuals/power-bi-personalize-perspective-04.png)
+
+그런 다음 테이블 형식 편집기에서 **테이블** 폴더를 열고 큐브 뷰에 표시할 필드를 마우스 오른쪽 단추로 클릭하여 큐브 뷰에 필드를 추가합니다.
+
+![큐브 뷰에 필드 추가](media/power-bi-personalize-visuals/power-bi-personalize-perspective-05.png)
+
+큐브 뷰에 추가하려는 각 필드에 대해 이 프로세스를 반복합니다. 큐브 뷰에 중복된 필드를 추가할 수 없으므로 큐브 뷰에 이미 추가된 모든 필드에 대해서는 추가하는 옵션을 사용할 수 없습니다.
+
+원하는 필드를 모두 추가한 후에는 테이블 형식 편집기와 Power BI Desktop 모두에서 설정을 저장해야 합니다.
+
+![테이블 형식 편집기 및 Power BI Desktop에서 큐브 뷰 설정 저장](media/power-bi-personalize-visuals/power-bi-personalize-perspective-06.png)
+
+새 큐브 뷰를 모델에 저장하고 Power BI Desktop 보고서를 저장했으면 페이지에 대한 **형식** 창으로 이동합니다. 이 창에는 **시각적 개체 개인 설정**에 대한 새 섹션이 표시됩니다.
+
+![서식 창의 시각적 개체 개인 설정 섹션](media/power-bi-personalize-visuals/power-bi-personalize-perspective-07.png)
+
+*보고서-독자 큐브 뷰*에 대한 선택은 초기에 *기본 필드*로 설정되어 있습니다. 드롭다운 화살표를 선택하면 전에 만든 다른 큐브 뷰가 표시됩니다.
+
+![다른 큐브 뷰를 보려면 드롭다운 화살표를 선택합니다.](media/power-bi-personalize-visuals/power-bi-personalize-perspective-08.png)
+
+보고서 페이지에 대해 큐브 뷰를 설정하면 해당 페이지의 시각적 개체 개인 설정 환경이 선택한 큐브 뷰로 필터링됩니다. **모든 페이지에 적용**을 선택하면 보고서의 모든 기존 페이지에 큐브 뷰 설정을 적용할 수 있습니다.
+
+![전체 보고서에 적용하려면 큐브 뷰에 대해 모든 페이지에 적용을 선택합니다.](media/power-bi-personalize-visuals/power-bi-personalize-perspective-09.png)
+
 
 ## <a name="turn-on-the-preview-feature"></a>미리 보기 기능 설정
 

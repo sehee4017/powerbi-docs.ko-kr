@@ -6,16 +6,16 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 07/08/2020
+ms.date: 08/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Share your work
-ms.openlocfilehash: bfda795e02ef53188c5125bc2f0674e859ebd450
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: d7ad3722b609d76383a7a404ef94655ec9ef8711
+ms.sourcegitcommit: 7d505cb7cc9360211d67f1056cb488f7f15ffab4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878811"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "88578065"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI에서 대시보드 및 보고서로 앱 설치 및 사용
 
@@ -35,7 +35,7 @@ Power BI 모바일에서는 직접 링크를 통해서만 앱을 설치할 수 �
 
 ## <a name="apps-and-licenses"></a>앱 및 라이선스
 일부 Power BI 사용자는 앱을 보고 상호 작용할 수 없습니다. 
-- 평가판 라이선스가 있는 경우 사용자와 공유되고 프리미엄 용량의 작업 영역에 저장된 앱을 열 수 있습니다.
+- 무료 라이선스를 보유한 경우 프리미엄 용량에 저장되어 있고 지금까지 공유되어 온 앱을 열 수 있습니다.  
 - Pro 라이선스가 있는 경우 공유된 앱을 열 수 있습니다.
 
 ## <a name="get-the-app-from-the-power-bi-apps-marketplace"></a>Power BI 앱 마켓플레이스에서 앱 가져오기
@@ -47,7 +47,7 @@ Power BI 앱 마켓플레이스에서 앱을 찾아 설치할 수 있습니다. 
 
 1. 아직 로그인하지 않았으면 [Power BI 서비스에 로그인](./end-user-sign-in.md)합니다. 
 
-1. Power BI에서 **앱 > 앱 가져오기**를 선택합니다. 
+1. Power BI 서비스가 열리면 **앱 > 앱 가져오기**를 선택합니다. 
 
     ![앱 가져오기  ](./media/end-user-app-view/power-bi-get-apps.png)
 
@@ -65,11 +65,14 @@ Power BI 앱 마켓플레이스에서 앱을 찾아 설치할 수 있습니다. 
    검색 상자는 사용자가 연 탭에만 유효합니다. 즉, 선택한 유형의 앱만 반환됩니다. **모든 앱** 탭이 열려 있으면 조직 및 템플릿 앱이 모두 반환됩니다. 이 경우 조직 앱과 템플릿 앱의 이름이 같을 때 혼동될 수 있습니다. 템플릿 앱 타일의 오른쪽 위 모서리에는 쇼핑 백 아이콘이 있습니다.
 
 원하는 앱을 찾은 경우 **지금 가져오기**를 선택하여 설치합니다.
+
+   ![지금 가져오기 단추를 보여 주는 스크린샷](./media/end-user-app-view/power-bi-get-it.png)
+
 * 조직 앱을 설치하는 경우 앱 목록에 즉시 추가됩니다.
 * 템플릿 앱을 설치하는 경우 앱이 AppSource에서 템플릿 앱 제공으로 이동됩니다. Power BI 앱 마켓플레이스에서 샘플 템플릿 앱을 다운로드하고 설치하는 방법의 [예제](end-user-app-marketing.md)를 참조하세요. 앱은 동일한 이름의 작업 영역과 함께 설치됩니다.
 
    > [!NOTE]
-   > 평가판 사용자 라이선스를 사용하는 경우 Power BI Pro 계정으로 업그레이드하지 않거나 앱을 Premium 공유 용량에 저장하지 않으면 앱을 다운로드할 수 있지만 볼 수는 없습니다. 자세한 내용은 [소비자 라이선스](end-user-license.md)를 참조하세요.
+   > 평가판 사용자 라이선스를 사용하는 경우 Power BI Pro 계정으로 업그레이드하지 않거나 앱을 Premium 공유 용량에 저장하지 않으면 앱을 다운로드할 수 있지만 볼 수는 없습니다. 자세한 내용은 [비즈니스 사용자를 위한 라이선스](end-user-license.md)를 참조하세요.
 
 ## <a name="install-an-app-from-a-direct-link"></a>직접 링크에서 앱 설치
 앱 디자이너로부터 받은 전자 메일의 직접 링크를 통해 조직 앱을 설치할 수도 있습니다.  
@@ -112,9 +115,9 @@ Power BI 앱 마켓플레이스에서 앱을 찾아 설치할 수 있습니다. 
 1. 앱 탐색 창.  앱 이름 아래에는 보고서 페이지 목록이 있습니다. 보고서 페이지 이름을 선택하여 보고서 페이지를 엽니다. 현재 ‘반품 비율’ 페이지가 열려 있습니다. 
 1. 화살표를 선택하여 **필터** 창을 확장합니다.
 
-연결된 작업 영역을 탐색할 수도 있습니다. [작업 영역에 대한 자세한 정보](end-user-workspaces.md)
+연결된 작업 영역을 탐색할 수도 있습니다. [작업 영역에 대해 알아보기](end-user-workspaces.md) **Power BI**(2번)를 선택하여 **홈**으로 돌아가서 **작업 영역**을 선택합니다. 
 
-![보고서 하나 및 데이터 세트 하나를 보여 주는 판매 및 마케팅 작업 영역의 스크린샷. ](./media/end-user-app-view/power-bi-new-workspace.png)
+![보고서 하나 및 데이터 세트 하나를 보여 주는 판매 및 마케팅 작업 영역의 스크린샷. ](./media/end-user-app-view/power-bi-new-workspaces.png)
 
 ## <a name="update-an-app"></a>앱 업데이트 
 
@@ -136,8 +139,8 @@ Power BI 앱 마켓플레이스에서 앱을 찾아 설치할 수 있습니다. 
 
         ![이전 앱 버전 덮어쓰기](./media/end-user-app-view/power-bi-already-installed.png) 
 
-    > [!NOTE] 
-    > 새 버전을 설치하면 보고서와 대시보드에 있을 수 있는 변경 사항이 덮어 쓰입니다. 업데이트된 보고서와 대시보드를 유지하려면 다른 이름으로 저장하거나 다른 위치에 저장한 후 설치하면 됩니다. 
+     > [!NOTE] 
+     > 새 버전을 설치하면 보고서와 대시보드에 있을 수 있는 변경 사항이 덮어 쓰입니다. 업데이트된 보고서와 대시보드를 유지하려면 다른 이름으로 저장하거나 다른 위치에 저장한 후 설치하면 됩니다. 
 
     4. 업데이트된 버전이 설치되면 **앱 업데이트**를 선택하여 업데이트 프로세스를 완료합니다. 
 

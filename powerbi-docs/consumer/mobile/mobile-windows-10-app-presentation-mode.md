@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
-ms.date: 08/11/2020
+ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: 85ba8b893dfa6da7934aff6b7890530e0acb2961
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: c4453f1475ac2ab227294b0b3bd8ba5dba10de67
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091688"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204490"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Surface Hub 및 Windows 10 디바이스에서 프레젠테이션 모드로 보고서 및 대시보드 보기
 프레젠테이션 모드를 사용하여 Windows 10 디바이스 및 Surface Hub에서 보고서와 대시보드를 전체 화면으로 표시할 수 있습니다. 프레젠테이션 모드는 모임이나 회의 또는 사무실의 전용 프로젝터에서 Power BI를 표시하거나 작은 화면 공간을 최대화하는 데 유용합니다.
@@ -64,9 +64,24 @@ Power BI 모바일 앱에서 **전체 화면** 아이콘을 탭하여 전체 화
 
  컨트롤러는 현재 표시된 보기(페이지 또는 책갈피 및 페이지)의 이름을 표시합니다. 위의 이미지에서는 **Sales**라는 보고서에서 현재 **Sales Performance** 페이지의 **Asia Pacific** 책갈피를 보고 있습니다.
 
+기본적으로 슬라이드 쇼는 30초마다 한 페이지의 속도로 페이지를 순환합니다. 이는 [슬라이드 쇼 설정](#slideshow-settings)의 기본 동작입니다.
+
+
+### <a name="auto-play-a-slideshow-on-startup"></a>시작 시 슬라이드 쇼 자동 재생
+
+앱이 시작될 때마다 자동으로 슬라이드 쇼를 재생하도록 Power BI 모바일 앱을 설정할 수 있습니다. 이 옵션은 수동 개입 없이 공개 디스플레이에서 보고서를 실행하는 키오스크와 유사한 환경을 만드는 데 유용합니다. 자동 실행에 대한 보고서 설정과 관련된 자세한 내용은 [슬라이드 쇼 설정](#slideshow-settings)을 참조하세요.
+
 ### <a name="slideshow-settings"></a>슬라이드 쇼 설정
 
-기본적으로 슬라이드 쇼는 30초마다 한 페이지의 속도로 페이지를 순환합니다. 아래 그림과 같이 **설정 > 옵션**으로 이동하여 이러한 기본 설정을 변경할 수 있습니다.
+기본적으로 슬라이드 쇼는 30초마다 한 페이지의 속도로 페이지를 순환합니다. 아래 그림과 같이 **설정 > 옵션**으로 이동하여 이 기본 동작을 변경할 수 있습니다. 자동 실행을 설정하고 재생할 보고서를 선택할 수도 있습니다.
+
+1. 설정 아이콘을 선택합니다.
+
+1. 옵션 탭을 엽니다.
+
+1. 원하는 경우 슬라이드 쇼가 반복되는 항목(페이지, 책갈피 또는 둘 다) 및 슬라이드가 전환되는 빈도에 대한 기본 설정을 변경합니다.
+
+1. 앱이 시작될 때 보고서가 자동으로 재생되도록 하려면 토글을 설정하고 **보고서 선택**을 선택합니다. 액세스 가능한 보고서를 검색할 수 있습니다.
 
 ![슬라이드 쇼 설정 스크린샷](././media/mobile-windows-10-app-presentation-mode//power-bi-windows-10-slideshow-settings.png)
 

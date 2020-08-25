@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/11/2020
+ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: f580891be69e0c5478474496be6a6414867e662d
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: 84ceb5cd856986f2ff068395bac8bcac10baad96
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091667"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204906"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -24,6 +24,23 @@ ms.locfileid: "88091667"
 
 >[!NOTE]
 >**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="august-2020"></a>2020년 8월
+### <a name="weve-improved-how-you-navigate-to-your-content-ios-and-android"></a>콘텐츠를 탐색하는 방법이 개선됨(iOS 및 Android)
+이제 보고서, 대시보드 및 앱의 헤더 드롭다운에서 사용할 수 있는 **새 탐색 트리**를 통해 콘텐츠를 빠르고 쉽게 탐색할 수 있습니다. 콘텐츠의 위치 계층 구조를 한눈에 볼 수 있으며, 콘텐츠 계층 구조에서 손쉽게 위로 이동하거나, 형제 콘텐츠로 이동하거나, 홈 페이지로 빠르게 돌아갈 수도 있습니다. 현재 보고 있는 항목이 앱의 일부인 경우 트리에는 앱의 전체 콘텐츠(섹션, 링크 및 모든 보고서 및 대시보드)가 표시됩니다. 현재 보고 있는 항목이 보고서인 경우 볼 수 있는 모든 보고서 페이지의 목록도 찾을 수 있습니다. 한 페이지에서 다른 페이지로 매우 쉽게 이동할 수 있습니다. 확인해 보세요. 
+
+![Power BI 모바일 앱 탐색 트리의 스크린샷.](media/mobile-whats-new-in-the-mobile-apps/power-bi-mobile-nav-tree1.png)
+
+### <a name="share-from-power-bi-using-your-favorite-apps-ios-and-android"></a>좋아하는 앱을 사용하여 Power BI에서 공유(iOS 및 Android)
+이제 Power BI 콘텐츠에 대한 링크를 연락처와 공유할 수 있습니다. 헤더의 새 공유 작업을 사용하여 링크를 보낼 수 있으며, 이때 Microsoft Teams, 메일 앱 등 디바이스에 있는 공동 작업 앱을 사용합니다. 이 링크는 현재 보기를 캡처하므로, 필터링된 보고서 보기를 공유할 수도 있습니다.
+
+![Power BI 모바일 앱 공유 아이콘의 스크린샷.](media/mobile-whats-new-in-the-mobile-apps/power-bi-mobile-share.png)
+
+### <a name="pinch-and-zoom-is-now-available-in-all-report-views---on-both-phones-and-tablets-ios-and-android"></a>이제 휴대폰 및 태블릿의 모든 보고서 보기에서 확대 및 축소가 가능합니다(iOS 및 Android).   
+모든 보고서 보기의 확대 및 축소가 지원되므로, 휴대폰에서든 태블릿에서든 관계없이 보고서 콘텐츠를 더 쉽게 확대 및 축소할 수 있습니다.
+
+### <a name="auto-play-a-slideshow-on-startup-windows"></a>시작할 때 슬라이드 쇼 자동 재생(Windows)
+Power BI Windows 앱이 시작될 때 슬라이드 쇼에서 자동으로 재생할 보고서를 선택할 수 있습니다. 이는 수동 개입 없이 공개 디스플레이에서 보고서를 실행하는 키오스크와 유사한 환경을 만드는 데 유용합니다. [자세한 정보](mobile-windows-10-app-presentation-mode.md#auto-play-a-slideshow-on-startup)
 
 ## <a name="july-2020"></a>2020년 7월
 ### <a name="the-power-bi-mobile-app-for-windows-now-supports-organizational-branding"></a>이제 Windows용 Power BI 모바일 앱에서 조직 브랜딩을 지원함
@@ -173,7 +190,7 @@ Power BI 모바일 앱의 보고서 서버 액세스 설정의 원격 구성에 
 
 ### <a name="secured-access-with-azure-active-directory-ad-application-proxy-ios-and-android"></a>Azure AD(Active Directory) 애플리케이션 프록시를 사용한 보안 액세스(iOS 및 Android)
 
-Azure Active Directory 팀과 협력하여 Power BI 모바일 애플리케이션을 AAD(Azure Active Directory) 애플리케이션 프록시와 통합했습니다. 이 구성을 사용하면 복잡한 온-프레미스 구성을 설정하지 않고도 Power BI Mobile 앱에서 엔터프라이즈 경계 내에 호스트되는 보고서 서버에 연결할 수 있습니다. [Power BI Mobile 및 Azure AD 애플리케이션 프록시 통합](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/)에 대해 자세히 알아보세요. [Azure AD 애플리케이션 프록시 및 Power BI 구성 방법](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)을 알아보세요.
+Azure Active Directory 팀과 협력하여 Power BI 모바일 애플리케이션을 Azure AD(Azure Active Directory) 애플리케이션 프록시와 통합했습니다. 이 구성을 사용하면 복잡한 온-프레미스 구성을 설정하지 않고도 Power BI Mobile 앱에서 엔터프라이즈 경계 내에 호스트되는 보고서 서버에 연결할 수 있습니다. [Power BI Mobile 및 Azure AD 애플리케이션 프록시 통합](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/)에 대해 자세히 알아보세요. [Azure AD 애플리케이션 프록시 및 Power BI 구성 방법](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)을 알아보세요.
 
 ## <a name="july-2019"></a>2019년 7월
 
@@ -211,7 +228,7 @@ iOS 디바이스 검색(스포트라이트)과 Power BI 연결 iPhone 또는 iPa
 
 ### <a name="enhanced-conditional-access-protection-ios-android"></a>향상된 조건부 액세스 보호(iOS, Android)
 
-앱 정책이 적용되기 전에 Power BI에 대한 액세스를 제한하여 보안을 강화하도록 AAD [새 앱 보호 기반 조건부 액세스 기능](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)과 통합했습니다.
+앱 정책이 적용되기 전에 Power BI에 대한 액세스를 제한하여 보안을 강화하도록 Azure AD [새 앱 보호 기반 조건부 액세스 기능](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)과 통합했습니다.
 
 ### <a name="device-protection-ios"></a>디바이스 보호(iOS)
 
@@ -530,7 +547,7 @@ Power BI Desktop에서 휴대폰에 최적화된 페이지가 있는 보고서�
 시간 슬라이서에 대한 터치 상호 작용이 향상되었습니다.
 
 #### <a name="ios-devices"></a>iOS 디바이스
-**질문 및 답변으로 데이터에 대해 질문하고 의견 제출** 질문 및 답변으로 데이터에 대해 질문한 후 웃거나 찡그린 얼굴로 평가해 주세요.
+**질문 및 답변으로 데이터에 대해 질문하고 의견 제출** 질문 및 답변으로 데이터에 대해 질문한 후 웃는 얼굴이나 찡그린 얼굴로 평가해 주세요.
 
 **일반적인 작업에 3D 터치 사용** iPhone 6s 이상의 홈 화면에서 Power BI 앱 아이콘을 깊게 눌러 알림, 검색 및 최근 사용한 대시보드에 액세스할 수 있습니다.
 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 07/23/2020
+ms.date: 08/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: ab1dd7be867d886f4944e9771be5c9ff188d2037
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: c5c4c7b08f69bd91fc8a4e6ab13a05878936225d
+ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252639"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "88160214"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop 다운로드
 Power BI Desktop을 통해 데이터를 시각화하는 고급 쿼리, 모델 및 보고서를 빌드할 수 있습니다. Power BI Desktop에서 Power BI 서비스에 게시하여 데이터 모델을 빌드하고, 보고서를 만들고, 작업을 공유할 수 있습니다. Power BI Desktop은 무료로 다운로드할 수 있습니다.
@@ -97,6 +97,9 @@ Power BI Desktop을 처음 사용하는 경우(즉, 설치가 업그레이드되
 
 ## <a name="minimum-requirements"></a>최소 요구 사항
 다음 목록은 Power BI Desktop을 실행하기 위한 최소 요구 사항을 제공합니다.
+
+> [!IMPORTANT]
+> Power BI Desktop은 2021년 1월 31일 이후 Windows 7에서 더 이상 지원되지 않습니다. 이 날짜 이후 Power BI Desktop은 Windows 8 이상의 버전에서 Power BI Desktop의 최신 버전에 대해서만 지원됩니다. 
 
 * Windows 7/Windows Server 2008 R2 이상
 * .NET 4.5

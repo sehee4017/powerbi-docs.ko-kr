@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/27/2020
-ms.openlocfilehash: 4f4650d47e420313075509301e940bf7092d4d5a
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: d82026ddb3ae12d95aed94fc6f96f45b4861ec48
+ms.sourcegitcommit: 3268a9b630cf599c50592d83c70a87eeecf7838f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252846"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88168423"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI 페이지를 매긴 보고서의 지원되는 데이터 원본
 
@@ -27,7 +27,7 @@ ms.locfileid: "87252846"
 | --- | --- | --- |
 | Azure SQL Database <br>Azure SQL Data Warehouse | 기본, SSO(Single Sign-On), OAuth2 | Azure SQL DB에서 엔터프라이즈 게이트웨이를 사용할 수 있습니다. 그러나 이러한 시나리오에서는 SSO 또는 oAuth2를 사용하여 인증할 수 없습니다.   |
 | Azure SQL Managed Instance | 기본 | 퍼블릭 또는 프라이빗 엔드포인트를 통해(프라이빗 엔드포인트는 Enterprise Gateway를 통해 라우팅되어야 함)  |
-| Azure Analysis Services | SSO, OAuth2 | AAS 방화벽을 사용하지 않도록 설정하거나 모든 IP 범위를 허용하도록 구성해야 함.|
+| Azure Analysis Services | SSO, OAuth2 | AAS 방화벽을 사용하지 않도록 설정하거나 BlackForest 지역에서 모든 IP 범위를 허용하도록 구성해야 함. 이는 BlackForest 지역에서만 적용됩니다. |
 | Power BI 데이터 세트 | SSO | 프리미엄 및 비프리미엄 Power BI 데이터 세트 읽기 권한 필요 |
 | Premium Power BI 데이터 세트(XMLA) | SSO | Power BI 데이터 세트는 포함된 페이지를 매긴 보고서의 데이터 원본으로 지원되지 않습니다.  |
 | 데이터 입력 | 해당 없음 | 데이터가 보고서에 포함됩니다. |

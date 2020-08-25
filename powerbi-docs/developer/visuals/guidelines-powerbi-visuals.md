@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 07/16/2019
-ms.openlocfilehash: 1602743230f1a369fe3da48fa37a313b9d9bbea4
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.date: 08/12/2020
+ms.openlocfilehash: c9d6b10c05ac3e19c5ebdcb5a0f3a1ab9b989a10
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435884"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204937"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI 시각적 개체에 대한 지침
 다른 사용자가 검색하고 사용하도록 Microsoft AppSource에 Power BI 시각적 개체를 [게시](office-store.md)하기 전에 지침에 따라 사용자에게 적합한 환경을 만들어야 합니다.
@@ -59,6 +59,9 @@ Power BI 시각적 개체가 유효성이 검사되고 승인되면 IAP Power BI
 모든 Power BI 시각적 개체를 통해 상황에 맞는 메뉴에서 통합된 환경을 제공할 수 있습니다.
 상황에 맞는 메뉴를 추가하는 방법에 대해 알아보려면 [이 문서](https://github.com/Microsoft/PowerBI-visuals/blob/gh-pages/tutorials/building-bar-chart/adding-context-menu-to-the-bar.md)를 확인하세요.
 
+>[!div class="mx-imgBorder"]
+>![Power BI 시각적 개체 상황에 맞는 메뉴의 스크린샷.](media/guidelines-powerbi-visuals/context-menu.png)
+
 ## <a name="commercial-logo"></a>상업용 로고
 이 섹션에서는 상업용 로고를 Power BI 시각적 개체에 추가하는 방법을 설명합니다. 상업용 로고는 필수가 아닙니다. 추가된 경우 다음 지침을 따라야 합니다.
 
@@ -74,15 +77,15 @@ Power BI 시각적 개체가 유효성이 검사되고 승인되면 IAP Power BI
 상업용 로고에는 다음 세 가지 유형이 있습니다.
 * **로고** - 로고는 함께 사용되는 두 요소인 아이콘 및 이름으로 구성됩니다.
 
-    ![Microsoft 로고](media/guidelines-powerbi-visuals/microsoft-logo.png)
+    ![Microsoft 로고의 스크린샷.](media/guidelines-powerbi-visuals/microsoft-logo.png)
 
 * **기호** - 텍스트가 없는 그래픽입니다.
 
-    ![Microsoft 기호](media/guidelines-powerbi-visuals/microsoft-symbol.png)
+    ![Microsoft 기호의 스크린샷.](media/guidelines-powerbi-visuals/microsoft-symbol.png)
 
 * **로고 형식** - 텍스트로만 구성되고 아이콘이 없는 로고입니다.
 
-    ![Microsoft 기호](media/guidelines-powerbi-visuals/microsoft-logotype.png)
+    ![아이콘이 없는 Microsoft 로고의 스크린샷.](media/guidelines-powerbi-visuals/microsoft-logotype.png)
 
 ### <a name="commercial-logo-color"></a>상업용 로고 색상
 
@@ -90,15 +93,15 @@ Power BI 시각적 개체가 유효성이 검사되고 승인되면 IAP Power BI
 
 * **로고**
 
-    ![Microsoft 기호](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)
+    ![회색으로 된 Microsoft 로고의 스크린샷.](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)
 
 * **기호** - 텍스트가 없는 그래픽입니다.
 
-    ![Microsoft 기호](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)
+    ![회색으로 된 Microsoft 기호의 스크린샷.](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)
 
 * **로고 형식** - 텍스트로만 구성되고 아이콘이 없는 로고입니다.
 
-    ![Microsoft 기호](media/guidelines-powerbi-visuals/grey-microsoft-logotype.png)
+    ![아이콘 없이 회색으로 된 Microsoft 로고의 스크린샷.](media/guidelines-powerbi-visuals/grey-microsoft-logotype.png)
 
 > [!TIP]
 > * Power BI 시각적 개체에 그래픽이 포함되어 있는 경우 로고에 10px 여백이 있는 흰색 배경을 추가하는 것이 좋습니다.
@@ -110,13 +113,13 @@ Power BI 시각적 개체에는 큰 타일과 작은 타일을 위한 두 개의
 
 다음 표에서는 Power BI 시각적 개체의 크기에 대한 고려 사항을 설명합니다.
 
-|  |소형 Power BI 시각적 개체  |대형 Power BI 시각적 개체  |
+|설정  |소형 Power BI 시각적 개체  |대형 Power BI 시각적 개체  |
 |---------|---------|---------|
 |*로고 너비*    |최대 240px         |240px보다 큼         |
 |*로고 높이*     |최대 160px         |160px보다 큼         |
 |*경계 상자 크기*     |40 x 15px         |101 x 30px         |
-|*상업용 로고 예제*     |![Microsoft 기호](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)         |![Microsoft 로고](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)         |
-|*경계 상자 예*    |![작은 로고 예제](media/guidelines-powerbi-visuals/small-logo-box.png)         |![큰 로고 예제](media/guidelines-powerbi-visuals/big-logo-box.png)         |
+|*상업용 로고 예제*     |![Microsoft 상업용 로고의 작은 버전의 스크린샷.](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)         |![Microsoft 상업용 로고의 스크린샷.](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)         |
+|*경계 상자 예*    |![작은 로고의 차원의 스크린샷.](media/guidelines-powerbi-visuals/small-logo-box.png)         |![큰 로고의 차원의 스크린샷.](media/guidelines-powerbi-visuals/big-logo-box.png)         |
 |    |         |         |
 
 ### <a name="commercial-logo-behavior"></a>상업용 로고 동작
@@ -140,11 +143,11 @@ Power BI 시각적 개체에는 큰 타일과 작은 타일을 위한 두 개의
 
 * 컬러 또는 검정 상용 로고를 사용하지 마세요. 상업용 로고는 회색(16진수 색 #C8C8C8)이어야 합니다.
 
-    ![인증되지 않은 컬러 로고](media/guidelines-powerbi-visuals/no-color-logo.png) ![인증되지 않은 검정 로고](media/guidelines-powerbi-visuals/black-logo.png)
+    ![권한 없는 다채로운 Microsoft 로고의 스크린샷.](media/guidelines-powerbi-visuals/no-color-logo.png) ![권한 없는 Microsoft 검은색 로고의 스크린샷.](media/guidelines-powerbi-visuals/black-logo.png)
 
 * 그라데이션 또는 진한 그림자와 같은 효과가 적용된 상업용 로고입니다.
 
-    ![인증되지 않은 로고 스타일](media/guidelines-powerbi-visuals/no-style-logo.png)
+    ![권한 없는 Microsoft 로고 스타일의 예에 대한 스크린샷.](media/guidelines-powerbi-visuals/no-style-logo.png)
 
 ## <a name="best-practices"></a>모범 사례
 
@@ -164,4 +167,7 @@ Power BI 시각적 개체에 대한 자세한 내용은 [Power BI 시각적 개�
 
 ## <a name="next-steps"></a>다음 단계
 
-다른 사람이 검색하고 사용할 수 있도록 Power BI 시각적 개체를 [Microsoft AppSource](office-store.md)에 게시하는 방법을 알아봅니다.
+다른 사람이 검색하고 사용할 수 있도록 Power BI 시각적 개체를 Microsoft AppSource에 게시하는 방법을 알아봅니다.
+
+>[!div class="nextstepaction"]
+>[Power BI 시각적 개체 게시](office-store.md)

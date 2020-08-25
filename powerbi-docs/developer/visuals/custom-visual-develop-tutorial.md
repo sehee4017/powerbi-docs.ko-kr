@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/15/2019
-ms.openlocfilehash: d82f09fa4c545129bbd1032041dcfab6f4f67901
-ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
+ms.openlocfilehash: ebb0107b158e505a8095b4c8f6b6b32731e7e98d
+ms.sourcegitcommit: 642b0c04d3ff3aa4d5422ca5054a5a158fb01b22
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "84739348"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88512934"
 ---
 # <a name="tutorial-developing-a-power-bi-visual"></a>자습서:  Power BI 시각적 개체 개발
 
@@ -130,7 +130,7 @@ Power BI Desktop 보고서에서 카드는 Circle Card가 되도록 수정됩니
 4. 열려 있는 브라우저를 모두 닫습니다.
 
 > [!NOTE]
-> 인증서가 인식되지 않으면 컴퓨터를 다시 시작해야 합니다.
+> 인증서가 인식되지 않으면 컴퓨터를 다시 시작해야 합니다. Firefox와 같은 일부 브라우저에서는 자체 서명된 인증서를 신뢰해야 합니다. 이렇게 하려면 webpack 서버 페이지(https://localhost:8080/webpack-dev-server) 로 이동하여 위험에 동의합니다.
 
 ## <a name="creating-a-custom-visual"></a>사용자 지정 시각적 개체 만들기
 
@@ -434,7 +434,7 @@ PowerShell에서 실행 중인 사용자 지정 시각적 개체를 중지하려
 
     ![Visual.ts 파일 클래스 수준 속성](media/custom-visual-develop-tutorial/visual-ts-file-class-level-properties.png)
 
-4. 다음 코드를 ‘생성자’에 추가합니다. 
+4. 다음 코드를 ‘생성자’에 추가합니다.**
 
     ```typescript
     this.svg = d3.select(options.element)
@@ -492,7 +492,7 @@ PowerShell에서 실행 중인 사용자 지정 시각적 개체를 중지하려
         .style("font-size", fontSizeLabel + "px");
     ```
 
-    ‘이 코드는 시각적 개체의 너비와 높이를 설정한 다음, 시각적 요소의 속성과 스타일을 초기화합니다.’ 
+    ‘이 코드는 시각적 개체의 너비와 높이를 설정한 다음, 시각적 요소의 속성과 스타일을 초기화합니다.’**
 
 6. **visual.ts** 파일을 저장합니다.
 
