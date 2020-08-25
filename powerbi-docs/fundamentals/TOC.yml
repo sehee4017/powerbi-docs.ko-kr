@@ -15,6 +15,8 @@
           href: service-service-vs-desktop.md
     - name: 자습서
       items:
+        - name: Power BI Desktop 시작
+          href: desktop-getting-started.md
         - name: Power BI 서비스 시작
           href: service-get-started.md
     - name: 개념
@@ -41,8 +43,6 @@
       items:
         - name: Power BI Desktop 다운로드
           href: desktop-get-the-desktop.md
-        - name: Power BI Desktop 시작
-          href: desktop-getting-started.md
     - name: 참조
       items:
         - name: 지원되는 언어 및 국가/지역
