@@ -3,18 +3,19 @@ title: Power BI Desktop 시작
 description: Power BI Desktop을 시작합니다.
 author: davidiseminger
 ms.reviewer: ''
+ms.custom: contperfq1
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: how-to
-ms.date: 07/23/2020
+ms.topic: tutorial
+ms.date: 08/19/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 62f0f6d9bac3b8451f3c5efc70612c2ef067aed4
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: ec18bb94d7329d4b918f16465dd839a69c3fd973
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252800"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88638845"
 ---
 # <a name="get-started-with-power-bi-desktop"></a>Power BI Desktop 시작
 Power BI Desktop 시작 가이드를 시작합니다. 이 둘러보기에서는 Power BI Desktop의 작동 방식, 수행할 수 있는 작업, 강력한 데이터 모델 및 놀라운 보고서를 작성하여 비즈니스 인텔리전스를 강화하는 방법을 보여 줍니다.

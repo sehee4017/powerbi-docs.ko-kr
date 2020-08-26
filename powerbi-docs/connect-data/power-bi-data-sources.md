@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/05/2020
+ms.date: 08/21/2020
 ms.author: davidi
-ms.openlocfilehash: 6afc5dd36127390dd359d76fc8970d5ef6f7b590
-ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
+ms.openlocfilehash: ae4d51d9a40044ae939f5cb2b0b15442697df5fd
+ms.sourcegitcommit: ae6559f40e1735d53654cbe9425add6e18171295
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87837569"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88764954"
 ---
 # <a name="power-bi-data-sources"></a>Power BI 데이터 원본
 
@@ -35,7 +35,7 @@ ms.locfileid: "87837569"
 | Azure Blob Storage | 예 | 예 | 아니요 | 예 | 아니요 |
 | Azure Cosmos DB | 예 | 예 | 아니요 | 아니요 | 아니요 |
 | Azure Cost Management | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Azure Data Explorer(kusto) | 예 | 예 | 예 | 아니요 | 아니요 |
+| Azure Data Explorer(kusto) | 예 | 예 | 예 | 예 | 아니요 |
 | Azure Data Lake Storage Gen1 | 예 | 예 | 아니요 | 아니요 | 아니요 |
 | Azure Data Lake Storage Gen2 | 예 | 예 | 아니요 | 예 | 아니요 |
 | Azure DevOps | 예 | 예 | 아니요 | 아니요 | 아니요 |
