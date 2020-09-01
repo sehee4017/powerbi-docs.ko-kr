@@ -6,14 +6,14 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/02/2020
+ms.date: 08/19/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 9aab2afd9e3b4b86844c045ceb0346d57baa3e18
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: 477b6a1e29fc05da3004a2dcf8466ef969df4531
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85940212"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88638615"
 ---
 # <a name="establish-a-center-of-excellence"></a>최고 전문가 조직 설정
 
@@ -45,10 +45,10 @@ Microsoft에서는 COE를 BI 플랫폼이라고 합니다. 여기에는 회사 �
 
 BI 플랫폼을 설정하고 운영하려면 공유 기능이 필요합니다. 공유 기능은 플랫폼 자금을 조달하는 모든 관련자 그룹을 지원합니다. 이러한 그룹은 다음 팀으로 구성됩니다.
 
-- **핵심 플랫폼 엔지니어링:** 엔지니어링 마인드를 가지고 BI 플랫폼을 설계했습니다. BI 플랫폼은 데이터 수집, 데이터 보강 처리, 해당 데이터를 분석가가 사용하도록 데이터 모델로 제공하도록 지원하는 프레임워크 집합입니다. 엔지니어는 핵심 BI 플랫폼 기능의 기술적 설계와 구현을 담당합니다. 예를 들어 데이터 파이프라인을 설계하고 구현합니다.
+- **핵심 플랫폼 엔지니어링:** 엔지니어링 마인드를 가지고 BI 플랫폼을 설계했습니다. BI 플랫폼은 데이터 수집, 데이터 보강 처리, 해당 데이터를 분석가가 사용하도록 BI 의미 체계 모델로 제공하도록 지원하는 프레임워크 세트입니다. 엔지니어는 핵심 BI 플랫폼 기능의 기술적 설계와 구현을 담당합니다. 예를 들어 데이터 파이프라인을 설계하고 구현합니다.
 - **인프라 및 호스팅:** IT 엔지니어는 모든 Azure 서비스를 프로비전하고 관리하는 일을 담당합니다.
 - **지원 및 운영:** 이 팀은 플랫폼을 계속 실행합니다. 지원 팀은 데이터 권한과 같은 사용자 요구 사항을 처리합니다. 운영 팀은 플랫폼을 계속 실행하며 실행 상태로 유지하고 Service Level Agreement(SLA, 서비스 수준 약정)를 충족하며 지연 또는 실패를 전달합니다.
-- **릴리스 관리:** 기술 PM(프로그램 관리자) 릴리스 변경입니다. 변경은 플랫폼 프레임워크 업데이트부터 데이터 모델에 대한 변경 요청까지 다양할 수 있습니다. 이러한 항목은 변경으로 인해 아무것도 손상되지 않도록 하는 마지막 방어선입니다.
+- **릴리스 관리:** 기술 PM(프로그램 관리자) 릴리스 변경입니다. 변경은 플랫폼 프레임워크 업데이트부터 BI 의미 체계 모델에 대한 변경 요청까지 다양할 수 있습니다. 이러한 항목은 변경으로 인해 아무것도 손상되지 않도록 하는 마지막 방어선입니다.
 
 ### <a name="dedicated-deliveries"></a>전용 배달
 
@@ -60,13 +60,22 @@ Microsoft에서 BI 플랫폼은 확장성 있는 전문가 팀에 의해 운영�
 
 - **프로그램 관리자:** PM은 전용 리소스입니다. BI 팀과 관련자 간의 기본 연락처 역할을 합니다. 관련자 비즈니스 요구 사항을 기술 사양으로 변환하는 일을 합니다. 또한 관련자 결과물의 우선 순위를 관리합니다.
 - **데이터베이스 리드:** 중앙 집중식 데이터 웨어하우스에 새 데이터 세트를 온보딩하는 일을 담당하는 전용 리소스입니다. 데이터 세트를 온보딩하려면 일치하는 차원을 설정하고 비즈니스 논리와 사용자 지정 특성을 추가하고 표준 이름과 서식을 지정해야 할 수 있습니다.
-- **분석 리드:** 데이터 모델 설계 및 디자인을 담당하는 전용 리소스입니다. 표준 명명 및 서식 지정을 사용하여 일관된 아키텍처를 적용하기 위해 노력합니다. 성능 최적화는 역할의 중요한 부분입니다.
+- **분석 리드:** BI 의미 체계 모델 설계 및 디자인을 담당하는 전용 리소스입니다. 표준 명명 및 서식 지정을 사용하여 일관된 아키텍처를 적용하기 위해 노력합니다. 성능 최적화는 역할의 중요한 부분입니다.
 - **작업 및 인프라:** 작업 및 데이터 파이프라인 관리를 담당하는 공유 리소스입니다. 또한 Azure 구독, Power BI 용량, 가상 머신 및 데이터 게이트웨이를 관리하는 일도 담당합니다.
-- **지원:** 문서 작성, 교육 구성, 데이터 모델 변경 사항 전달, 사용자 질문에 대한 답변을 담당하는 공유 리소스입니다.
+- **지원:** 문서 작성, 교육 구성, BI 의미 체계 모델 변경 내용 전달, 사용자 질문에 대한 답변을 담당하는 공유 리소스입니다.
 
 ## <a name="governance-and-compliance"></a>거버넌스 및 규정 준수
 
 각 관련자 그룹에 대해 PM 리드는 프로그램 간 거버넌스 및 감독을 제공합니다. 최우선의 목표는 IT 투자가 비즈니스 가치를 창출하고 위험을 완화하는 것입니다. 운영 위원회 모임을 정기적으로 열어 프로세스를 검토하고 주요 이니셔티브를 승인합니다.
+
+## <a name="grow-your-own-community"></a>고유한 커뮤니티 확장
+
+다음을 수행하여 조직 내에서 커뮤니티를 설정하고 확장합니다.
+
+- 사용자가 질문하고, 제안하며, 아이디어를 공유하고, 항의할 수 있도록 BI 팀과 시간을 정하는 정기적인 “업무 시간” 이벤트를 포함합니다.
+- Teams 채널을 만들어 지원을 제공하고 누구나 질문하고 게시된 질문에 응답하도록 권장합니다.
+- 비공식적인 사용자 그룹을 실행하고 홍보하며 직원이 프레젠테이션 또는 참석하도록 권장합니다.
+- 특정 제품 및 BI 플랫폼 자체에서 더 공식적인 학습 이벤트를 실행합니다. 무료 과정 키트로 제공되고 직원에게 처음으로 Power BI를 소개하는 좋은 방법인 [Power BI 대시보드 1일 실습](https://powerbi.microsoft.com/diad/)을 제공하는 것이 좋습니다.
 
 ## <a name="next-steps"></a>다음 단계
 
@@ -75,3 +84,11 @@ Microsoft에서 BI 플랫폼은 확장성 있는 전문가 팀에 의해 운영�
 - [COE의 BI 솔루션 아키텍처](center-of-excellence-business-intelligence-solution-architecture.md)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 - 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com/)
+
+[시리즈의 다음 문서](center-of-excellence-business-intelligence-solution-architecture.md)에서는 COE의 BI 솔루션 아키텍처 및 사용되는 다양한 기술에 대해 알아봅니다.
+
+### <a name="professional-services"></a>전문 서비스
+
+인증된 Power BI 파트너는 조직이 COE를 설정할 때 성공하도록 도와줄 수 있습니다. 비용 효율적인 학습 또는 데이터 감사를 제공할 수 있습니다. Power BI 파트너와 협력하려면 [Power BI 파트너 포털](https://powerbi.microsoft.com/partners/)을 방문하세요.
+
+숙련된 컨설팅 파트너와 협업할 수도 있습니다. 해당 파트너는 Power BI를 [평가](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=assessment&country=ALL&region=ALL), [고려](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=proof-of-concept&country=ALL&region=ALL) 또는 [구현](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=implementation&country=ALL&region=ALL&page=1)하도록 도와줄 수 있습니다.

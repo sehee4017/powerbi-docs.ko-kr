@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 08/05/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4f02a98ca13bd5808bde987889c3f4404c9100f0
-ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
+ms.openlocfilehash: e1df6634492bbaa690e7efe601455fbae8b6094b
+ms.sourcegitcommit: 0f807d3c74e5202b6e6a95fad49f2787928b9613
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87837500"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "88702677"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>보고서를 Power BI에서 PDF로 내보내기
 
@@ -68,6 +68,7 @@ Power BI 서비스에서 보고서를 선택하여 캔버스에 표시합니다.
 * 사용자 지정 페이지 크기가 비정상적인 보고서는 내보내기 시나리오에서 문제가 발생할 수 있습니다. 최상의 결과를 위해서는 보고서의 표준 페이지 크기로 전환하는 것이 좋습니다.
 * PDF로 내보내는 경우, 사용자 지정 글꼴이 있는 테마를 사용하는 보고서에서 사용자 지정 글꼴이 기본 글꼴로 대체됩니다.
 * 일관된 환경을 제공하고자 하지만 Power BI 서비스에서 내보낸 PDF가 로컬 Power BI Desktop 파일에서 내보낸 PDF와 항상 일치한다고 보장할 수는 없습니다.
+* PDF로 내보내는 경우 PBIX 보고서의 완벽한 픽셀 정확도를 보장할 수 없습니다.
 
 ## <a name="next-steps"></a>다음 단계
 [보고서 인쇄](end-user-print.md)

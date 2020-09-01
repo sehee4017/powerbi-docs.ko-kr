@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/23/2019
 ms.author: kfollis
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: d2d28d8ea3f7e2e7217124483f90ecc28d44314f
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 0cc691e8987bf45f6c3028a5006955db1da72b0b
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161700"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88638799"
 ---
 # <a name="use-an-alternate-email-address"></a>대체 이메일 주소 사용
 
@@ -23,7 +23,7 @@ Power BI에 가입할 때 메일 주소를 제공합니다. 기본적으로 Powe
 필요한 경우 가입할 때 사용한 메일이 아닌 대체 메일 주소로 이러한 메일을 전달할 수 있습니다. 이 문서에서는 Microsoft 365 및 PowerShell에서 대체 주소를 지정하는 방법을 설명합니다. 또한 Azure AD(Azure Active Directory)에서 이메일 주소를 확인하는 방법을 설명합니다.
 
 > [!NOTE]
-> 대체 주소를 지정해도 Power BI에서 서비스 업데이트, 뉴스레터 및 기타 프로모션 정보에 사용하는 메일 주소에는 영향이 없습니다. 이러한 정보는 항상 Power BI에 가입할 때 사용한 이메일 주소로 전송됩니다.
+> 대체 주소를 지정해도 Power BI에서 메일 구독, 서비스 업데이트, 뉴스레터 및 기타 프로모션 통신에 사용하는 메일 주소에는 영향이 없습니다. 이러한 정보는 항상 Power BI에 가입할 때 사용한 이메일 주소로 전송됩니다.
 
 ## <a name="use-microsoft-365"></a>Microsoft 365 사용
 

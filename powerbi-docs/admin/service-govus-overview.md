@@ -10,12 +10,12 @@ ms.date: 06/02/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 3d50b8678abd54d2a4543b5a2d187f32b491b063
-ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
+ms.openlocfilehash: 75b05449de47f39fc95fd7cf42f9325b7a5d0ee9
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "84427123"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88638776"
 ---
 # <a name="power-bi-for-us-government-customers"></a>미국 정부 기관 고객용 Power BI
 
@@ -86,7 +86,7 @@ SQL 데이터베이스에 대한 방화벽을 설정하려면 [IP 방화벽 규�
 |  |Office 365 보안 및 준수 관리 센터를 통한 감사|사용 가능|사용 가능|사용 가능|
 |  |외부 사용자 공유|사용 가능|사용 가능|사용 가능|
 |  |보고서 및 대시보드의 사용량 메트릭|사용 가능|사용 가능|사용 가능|
-|  |GCC와 상용 클라우드 간 Azure B2B|사용 가능|사용 가능|사용 가능|
+|  |GCC와 상업용 클라우드 간 Azure B2B Collaboration<sup>1</sup>|사용 가능|사용할 수 없음|사용할 수 없음|
 |보고서 작성|대시보드 및 보고서 만들기 및 보기|사용 가능|사용 가능|사용 가능|
 |  |예약된 데이터 새로 고침|사용 가능|사용 가능|사용 가능|
 |  |새로 고칠 수 있는 팀 대시보드|사용 가능|사용 가능|사용 가능|
@@ -108,6 +108,8 @@ SQL 데이터베이스에 대한 방화벽을 설정하려면 [IP 방화벽 규�
 |  |자동화된 Machine Learning|사용할 수 없음|사용할 수 없음|사용할 수 없음|
 |  |Azure Cognitive Services|사용할 수 없음|사용할 수 없음|사용할 수 없음|
 |  |Azure Machine Learning|사용할 수 없음|사용할 수 없음|사용할 수 없음|
+
+<sup>1</sup> B2B Collaboration을 GCC에 사용할 수 있지만 외부 사용자는 해당 환경에서 라이선스를 발급받아야 합니다. 상업용 클라우드 라이선스는 GCC에서 유효하지 않습니다. 미국 정부용 B2B Collaboration의 알려진 제한 사항에 관한 자세한 내용은 [Azure Government 및 글로벌 Azure 비교](https://docs.microsoft.com/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2)를 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 

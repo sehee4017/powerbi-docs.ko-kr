@@ -6,14 +6,14 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/02/2020
+ms.date: 08/19/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 8e1e590f871e1840209e72eb611bde7b21610c6e
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 1b4f86a0e3316cc774b0f1562112f0d6e5b19a4f
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162370"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88638707"
 ---
 # <a name="microsofts-bi-transformation"></a>Microsoft의 BI 변환
 
@@ -53,9 +53,9 @@ ms.locfileid: "86162370"
 
 **Starlight**는 재무, 판매, 마케팅 및 엔지니어링을 지원하는 Microsoft 내부의 데이터 통합 및 분석 플랫폼의 이름입니다. 임무는 강력하고 확장성 있는 공유 데이터 플랫폼을 제공하는 것입니다. 이 플랫폼은 전적으로 재무 팀에 의해 구축되었으며 최신 Microsoft 제품을 사용하여 현재 계속 운영 중입니다.
 
-**KPI Lake**는 Azure Data Lake가 아닙니다. Starlight 기반의 테이블 형식 모델로, Microsoft SQL Server Analysis Services를 사용하여 Azure IaaS에서 호스트됩니다. 이 테이블 형식 모델은 100개 이상의 내부 원본에서 데이터를 제공하고 다양한 계층 구조와 KPI를 정의합니다. 임무는 재무, 마케팅 및 판매 전체에서 비즈니스 성과 보고 및 분석 팀을 지원하는 것입니다. 관련 원본에서 통합된 모델을 통해 적시에 정확하고 성과 높은 인사이트를 얻기 위한 것입니다.
+**KPI Lake**는 Azure Data Lake가 아닙니다. Starlight 기반의 테이블 형식 BI 의미 체계 모델로, Microsoft SQL Server Analysis Services를 사용하여 Azure IaaS에서 호스트됩니다. 이 BI 의미 체계 모델은 100개 이상의 내부 원본에서 데이터를 제공하고 다양한 계층 구조와 KPI를 정의합니다. 임무는 재무, 마케팅 및 판매 전체에서 비즈니스 성과 보고 및 분석 팀을 지원하는 것입니다. 관련 원본에서 통합된 BI 의미 체계 모델을 통해 적시에 정확하고 성과 높은 인사이트를 얻기 위한 것입니다.
 
-처음 배포했을 때 테이블 형식 모델이 즉각적이고 측정 가능한 이점을 제공했기 때문에 흥미로웠습니다. 첫 번째 버전은 C+E 재무 및 마케팅 BI 플랫폼을 중앙 집중화했습니다. 그런 다음, 지난 6년 동안 추가 비즈니스 인사이트 솔루션을 통합하도록 플랫폼이 확장되었습니다. 지금도 계속 변화하여 글로벌 및 상업적 비즈니스 검토뿐만 아니라 표준 보고 및 SSBI를 구동합니다. 릴리스 이후 플랫폼 채택이 5배 늘었으며, 이 수치는 초기 기대를 크게 넘어섭니다.
+처음 배포했을 때 테이블 형식 BI 의미 체계 모델이 즉각적이고 측정 가능한 이점을 제공했기 때문에 흥미로웠습니다. 첫 번째 버전은 C+E 재무 및 마케팅 BI 플랫폼을 중앙 집중화했습니다. 그런 다음, 지난 6년 동안 추가 비즈니스 인사이트 솔루션을 통합하도록 플랫폼이 확장되었습니다. 지금도 계속 변화하여 글로벌 및 상업적 비즈니스 검토뿐만 아니라 표준 보고 및 SSBI를 구동합니다. 릴리스 이후 플랫폼 채택이 5배 늘었으며, 이 수치는 초기 기대를 크게 넘어섭니다.
 
 주요 이점은 다음과 같이 요약할 수 있습니다.
 
@@ -71,8 +71,8 @@ ms.locfileid: "86162370"
 Starlight 플랫폼은 획득, 처리뿐 아니라 그 이후 게시까지 전체 데이터 흐름을 관리합니다.
 
 1. 강력하고 민첩한 데이터 통합이 예약된 일정에 따라 발생하여 100개가 넘는 개별 원시 원본의 데이터를 통합합니다. 원본 데이터 시스템에는 관계형 데이터베이스, Azure Data Lake Storage 및 Azure Synapse 데이터베이스가 포함됩니다. 주제 영역에는 재무, 마케팅, 판매 및 엔지니어링이 포함됩니다.
-2. 스테이징되면 데이터는 마스터 데이터 및 비즈니스 논리를 사용하여 일치 및 보강됩니다. 그런 다음 데이터 웨어하우스 테이블에 로드됩니다. 그런 다음 테이블 형식 모델을 새로 고칩니다.
-3. 회사 전체의 분석가는 Excel 및 Power BI를 사용하여 테이블 형식 모델에서 인사이트와 분석을 제공합니다. 비즈니스 소유자는 자시의 비즈니스에 대한 메트릭 정의를 지원할 수 있습니다. 필요한 경우 Azure IaaS를 사용하여 부하 분산을 통해 크기를 조정합니다.
+2. 스테이징되면 데이터는 마스터 데이터 및 비즈니스 논리를 사용하여 일치 및 보강됩니다. 그런 다음 데이터 웨어하우스 테이블에 로드됩니다. 그런 다음, 테이블 형식 BI 의미 체계 모델을 새로 고칩니다.
+3. 회사 전체의 분석가는 Excel 및 Power BI를 사용하여 테이블 형식 BI 의미 체계 모델에서 인사이트와 분석을 제공합니다. 비즈니스 소유자는 자시의 비즈니스에 대한 메트릭 정의를 지원할 수 있습니다. 필요한 경우 Azure IaaS를 사용하여 부하 분산을 통해 크기를 조정합니다.
 
 ## <a name="deliver-success"></a>성공 전달
 
@@ -86,10 +86,16 @@ Microsoft는 포괄적이고 강력한 COE가 가치 제공 및 비즈니스 성
 
 ## <a name="next-steps"></a>다음 단계
 
-[이 시리즈의 다음 문서](center-of-excellence-establish.md)에서 Microsoft가 COE를 통해 표준화된 분석 및 데이터 플랫폼을 구축하여 데이터에서 인사이트를 활용한 방법을 알아보세요.
-
 이 문서에 대한 자세한 내용은 다음 리소스를 참조하세요.
 
 - [최고 전문가 조직 설정](center-of-excellence-establish.md)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 - 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com/)
+
+[이 시리즈의 다음 문서](center-of-excellence-establish.md)에서 Microsoft가 COE를 통해 표준화된 분석 및 데이터 플랫폼을 구축하여 데이터에서 인사이트를 활용한 방법을 알아보세요.
+
+### <a name="professional-services"></a>전문 서비스
+
+인증된 Power BI 파트너는 조직이 COE를 설정할 때 성공하도록 도와줄 수 있습니다. 비용 효율적인 학습 또는 데이터 감사를 제공할 수 있습니다. Power BI 파트너와 협력하려면 [Power BI 파트너 포털](https://powerbi.microsoft.com/partners/)을 방문하세요.
+
+숙련된 컨설팅 파트너와 협업할 수도 있습니다. 해당 파트너는 Power BI를 [평가](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=assessment&country=ALL&region=ALL), [고려](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=proof-of-concept&country=ALL&region=ALL) 또는 [구현](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=implementation&country=ALL&region=ALL&page=1)하도록 도와줄 수 있습니다.

@@ -6,24 +6,31 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/02/2020
+ms.date: 08/19/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 81dda3c2bc3558ba68a16ee3f3070e748f76f15b
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: fe55c789f5af644a802bc5c5f648315744a074be
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85940345"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88638666"
 ---
 # <a name="bi-solution-architecture-in-the-center-of-excellence"></a>최고 전문가 조직(Center of Excellence, COE)의 BI 솔루션 아키텍처
 
 이 문서는 IT 전문가와 IT 관리자를 대상으로 합니다. COE의 BI 솔루션 아키텍처 및 사용되는 다양한 기술에 대해 알아봅니다. Azure, Power BI, Excel을 비롯한 이러한 기술을 함께 활용하여 확장성 있는 데이터 기반 클라우드 BI 플랫폼을 제공할 수 있습니다.
 
-강력한 BI 플랫폼을 설계하는 것은 교량을 건축하는 것과 비슷합니다. 변환되고 보강된 원본 데이터를 데이터 소비자에게 연결하는 교량과 같습니다. 이러한 복잡한 구조의 디자인은 엔지니어링 마인드를 요구하지만 가장 창의적이고 보람 있는 IT 아키텍처 중 하나일 수 있습니다.
+강력한 BI 플랫폼을 설계하는 것은 교량을 건축하는 것과 비슷합니다. 변환되고 보강된 원본 데이터를 데이터 소비자에게 연결하는 교량과 같습니다. 이러한 복잡한 구조의 디자인은 엔지니어링 마인드를 요구하지만 가장 창의적이고 보람 있는 IT 아키텍처 중 하나일 수 있습니다. 대규모 조직에서 BI 솔루션 아키텍처는 다음과 같이 구성될 수 있습니다.
+
+- 데이터 원본
+- 데이터 수집
+- 빅 데이터/데이터 준비
+- 데이터 웨어하우스
+- BI 의미 체계 모델
+- 보고서
+
+:::image type="content" source="media/center-of-excellence-business-intelligence-solution-architecture/azure-business-intelligence-platform.png" alt-text="데이터 원본에서 데이터 수집, 빅 데이터, 저장소, 데이터 웨어하우스, BI 의미 체계 모델링, 보고, 기계 학습까지 BI 플랫폼 아키텍처 다이어그램을 보여 주는 다이어그램.":::
 
 플랫폼은 특정 요구를 지원해야 합니다. 특히 비즈니스 서비스 및 데이터 소비자의 기대를 충족하기 위해 확장하고 수행해야 합니다. 이와 동시에, 처음부터 보안을 보장하도록 디자인해야 합니다. 또한 새로운 데이터와 주제 영역을 시간 내에 온라인으로 전환해야 하므로 변경에 맞게 조정되도록 충분한 복원력이 있어야 합니다.
-
-:::image type="content" source="media/center-of-excellence-business-intelligence-solution-architecture/azure-business-intelligence-platform.png" alt-text="이미지는 데이터 원본, 데이터 수집, 빅 데이터, 저장소, 데이터 웨어하우스, 보고, 기계 학습을 포함한 BI 플랫폼 아키텍처 다이어그램을 보여 줍니다.":::
 
 ## <a name="frameworks"></a>프레임워크
 
@@ -40,7 +47,7 @@ Microsoft는 처음부터 프레임워크 개발에 투자하여 시스템과 �
 BI 플랫폼은 다음과 같은 세 가지 유형의 모델을 제공할 수 있습니다.
 
 - 엔터프라이즈 모델
-- BI 모델
+- BI 의미 체계 모델
 - ML(기계 학습) 모델
 
 ### <a name="enterprise-models"></a>엔터프라이즈 모델
@@ -51,17 +58,15 @@ BI 플랫폼은 다음과 같은 세 가지 유형의 모델을 제공할 수 �
 
 클라우드 BI 플랫폼에서는 [Azure Synapse의 Synapse SQL 풀](/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-what-is#synapse-sql-pool-in-azure-synapse)에 엔터프라이즈 모델을 배포할 수 있습니다. 그러면 Synapse SQL 풀은 빠르고 강력한 인사이트를 위해 의존할 수 있는 조직의 단일 소스 버전이 됩니다.
 
-### <a name="bi-models"></a>BI 모델
+### <a name="bi-semantic-models"></a>BI 의미 체계 모델
 
-**BI 모델**은 엔터프라이즈 모델을 통해 의미 체계 계층을 나타냅니다. BI 개발자 및 비즈니스 사용자가 빌드하고 유지 관리합니다. BI 개발자는 엔터프라이즈 모델의 데이터를 원본으로 하는 핵심 BI 모델을 만듭니다. 비즈니스 사용자는 비교적 작은 규모의 독립적인 모델을 만들 수도 있고 부서별 원본이나 외부 원본으로 핵심 BI 모델을 확장할 수도 있습니다. BI 모델은 일반적으로 단일 주제 영역에 집중하며 널리 공유되는 경우가 많습니다.
+**BI 의미 체계 모델**은 엔터프라이즈 모델을 통해 의미 체계 계층을 나타냅니다. BI 개발자 및 비즈니스 사용자가 빌드하고 유지 관리합니다. BI 개발자는 엔터프라이즈 모델의 데이터를 원본으로 하는 핵심 BI 의미 체계 모델을 만듭니다. 비즈니스 사용자는 비교적 작은 규모의 독립적인 모델을 만들 수도 있고 부서별 원본이나 외부 원본으로 핵심 BI 의미 체계 모델을 확장할 수도 있습니다. BI 의미 체계 모델은 일반적으로 단일 주제 영역에 집중하며 널리 공유되는 경우가 많습니다.
 
-비즈니스 기능은 데이터만으로 사용할 수 없으며 개념, 관계, 규칙 및 표준을 설명하는 BI 모델에 의해 사용할 수 있게 됩니다. 이런 방식으로 데이터 관계를 정의하고 비즈니스 규칙을 계산으로 캡슐화하는 직관적이고 이해하기 쉬운 구조를 나타냅니다. 또한 적절한 사용자가 올바른 데이터에 액세스할 수 있도록 세분화된 데이터 권한을 적용할 수 있습니다. 중요한 점은 쿼리 성능을 가속화함으로써 테라바이트 수준의 데이터에 대해서도 응답성이 뛰어난 대화형 분석을 제공한다는 점입니다. BI 모델은 엔터프라이즈 모델과 마찬가지로 일관성을 보장하는 명명 규칙을 채택합니다.
+비즈니스 기능은 데이터만으로 사용할 수 없으며 개념, 관계, 규칙 및 표준을 설명하는 BI 의미 체계 모델에 의해 사용할 수 있게 됩니다. 이런 방식으로 데이터 관계를 정의하고 비즈니스 규칙을 계산으로 캡슐화하는 직관적이고 이해하기 쉬운 구조를 나타냅니다. 또한 적절한 사용자가 올바른 데이터에 액세스할 수 있도록 세분화된 데이터 권한을 적용할 수 있습니다. 중요한 점은 쿼리 성능을 가속화함으로써 테라바이트 수준의 데이터에 대해서도 응답성이 뛰어난 대화형 분석을 제공한다는 점입니다. BI 의미 체계 모델은 엔터프라이즈 모델과 마찬가지로 일관성을 보장하는 명명 규칙을 채택합니다.
 
-클라우드 BI 플랫폼에서 BI 개발자는 [Azure Analysis Services](/azure/analysis-services/) 또는 [Power BI Premium 용량](../admin/service-premium-what-is.md#dedicated-capacities)에 BI 모델을 배포할 수 있습니다. 보고 및 분석 계층으로 사용되는 경우 Power BI에 배포하는 것이 좋습니다. 이러한 제품은 서로 다른 스토리지 모드를 지원하므로, 데이터 모델 테이블이 데이터를 캐시하거나 기본 데이터 원본에 쿼리를 전달하는 기술인 [DirectQuery](directquery-model-guidance.md)를 사용할 수 있습니다. DirectQuery는 모델 테이블이 대규모 데이터 볼륨을 나타내는 경우나 거의 실시간으로 결과를 제공해야 하는 경우 이상적인 스토리지 모드입니다. 두 스토리지 모드를 결합할 수 있습니다. [복합 모델](composite-model-guidance.md)은 서로 다른 스토리지 모드를 사용하는 테이블을 단일 모델에 결합합니다.
+클라우드 BI 플랫폼에서 BI 개발자는 [Azure Analysis Services](/azure/analysis-services/) 또는 [Power BI Premium 용량](../admin/service-premium-what-is.md#dedicated-capacities)에 BI 의미 체계 모델을 배포할 수 있습니다. 보고 및 분석 계층으로 사용되는 경우 Power BI에 배포하는 것이 좋습니다. 이러한 제품은 서로 다른 스토리지 모드를 지원하므로, 데이터 모델 테이블이 데이터를 캐시하거나 기본 데이터 원본에 쿼리를 전달하는 기술인 [DirectQuery](directquery-model-guidance.md)를 사용할 수 있습니다. DirectQuery는 모델 테이블이 대규모 데이터 볼륨을 나타내는 경우나 거의 실시간으로 결과를 제공해야 하는 경우 이상적인 스토리지 모드입니다. 두 스토리지 모드를 결합할 수 있습니다. [복합 모델](composite-model-guidance.md)은 서로 다른 스토리지 모드를 사용하는 테이블을 단일 모델에 결합합니다.
 
-과도하게 쿼리되는 모델의 경우 [Azure Load Balancer](/azure/load-balancer/load-balancer-overview)를 사용하여 모델 복제본 간에 쿼리 로드를 균등하게 분산할 수 있습니다. 또한 애플리케이션 크기를 조정하고 가용성이 높은 BI 모델을 만들 수 있습니다.
-
-<!-- For more information on BI models, see [BI modeling and processing in the COE](https://TODO/).-->
+과도하게 쿼리되는 모델의 경우 [Azure Load Balancer](/azure/load-balancer/load-balancer-overview)를 사용하여 모델 복제본 간에 쿼리 로드를 균등하게 분산할 수 있습니다. 또한 애플리케이션 크기를 조정하고 가용성이 높은 BI 의미 체계 모델을 만들 수 있습니다.
 
 ### <a name="machine-learning-models"></a>기계 학습 모델
 
@@ -134,7 +139,7 @@ ADLS Gen2는 세분화된 액세스 권한으로 구성되는 Blob Storage 및 �
 
 보고 계층에서 비즈니스 서비스는 데이터 웨어하우스에서 제공된 엔터프라이즈 데이터를 사용하며 임시 분석 또는 데이터 과학 작업을 위해 데이터 레이크의 데이터에 직접 액세스합니다.
 
-세분화된 사용 권한은 데이터 레이크, 엔터프라이즈 모델 및 BI 모델의 모든 계층에서 적용됩니다. 사용 권한은 데이터 소비자가 액세스할 권한이 있는 데이터만 볼 수 있게 합니다.
+세분화된 사용 권한은 데이터 레이크, 엔터프라이즈 모델 및 BI 의미 체계 모델의 모든 계층에서 적용됩니다. 사용 권한은 데이터 소비자가 액세스할 권한이 있는 데이터만 볼 수 있게 합니다.
 
 Microsoft에서는 Power BI 보고서 및 대시보드 그리고 [Power BI 페이지를 매긴 보고서](../paginated-reports/paginated-reports-report-builder-power-bi.md)를 사용합니다. 특히 재무 보고를 위한 일부 보고 및 임시 분석은 Excel에서 처리됩니다.
 
@@ -142,11 +147,11 @@ Microsoft는 데이터 모델에 대한 참조 정보를 제공하는 데이터 
 
 일반적으로 데이터 사용 패턴은 역할에 따라 다릅니다.
 
-- **데이터 분석가**는 핵심 BI 모델에 직접 연결됩니다. 핵심 BI 모델에 필요한 모든 데이터와 논리가 포함되어 있으면 데이터 분석가는 라이브 연결을 사용하여 Power BI 보고서 및 대시보드를 만듭니다. 부서 데이터를 사용하여 모델을 확장해야 하는 경우에는 Power BI [복합 모델](composite-model-guidance.md)을 만듭니다. 스프레드시트 스타일의 보고서가 필요한 경우에는 Excel을 사용하여 핵심 BI 모델 또는 부서 BI 모델을 기반으로 보고서를 생성합니다.
-- **BI 개발자** 및 운영 보고서 작성자는 엔터프라이즈 모델에 직접 연결됩니다. Power BI Desktop을 사용하여 라이브 연결 분석 보고서를 만듭니다. 또한 Azure Synapse Analytics 엔터프라이즈 모델에서(T-SQL 사용) 또는 Power BI 모델에서(DAX 또는 MDX 사용) 데이터에 액세스하는 기본 SQL 쿼리를 작성함으로써 운영 형식 BI 보고서를 Power BI 페이지를 매긴 보고서로 작성할 수도 있습니다.
+- **데이터 분석가**는 핵심 BI 의미 체계 모델에 직접 연결됩니다. 핵심 BI 의미 체계 모델에 필요한 모든 데이터와 논리가 포함되어 있으면 데이터 분석가는 라이브 연결을 사용하여 Power BI 보고서 및 대시보드를 만듭니다. 부서 데이터를 사용하여 모델을 확장해야 하는 경우에는 Power BI [복합 모델](composite-model-guidance.md)을 만듭니다. 스프레드시트 스타일의 보고서가 필요한 경우에는 Excel을 사용하여 핵심 BI 의미 체계 모델 또는 부서 BI 의미 체계 모델을 기반으로 보고서를 생성합니다.
+- **BI 개발자** 및 운영 보고서 작성자는 엔터프라이즈 모델에 직접 연결됩니다. Power BI Desktop을 사용하여 라이브 연결 분석 보고서를 만듭니다. 또한 Azure Synapse Analytics 엔터프라이즈 모델에서(T-SQL 사용) 또는 Power BI 의미 체계 모델에서(DAX 또는 MDX 사용) 데이터에 액세스하는 기본 SQL 쿼리를 작성함으로써 운영 형식 BI 보고서를 Power BI 페이지를 매긴 보고서로 작성할 수도 있습니다.
 - **데이터 과학자**는 데이터 레이크의 데이터에 직접 연결됩니다. Azure Databricks 및 Python Notebook을 사용하여 ML 모델을 개발합니다. 이 방법은 종종 실험적이며 프로덕션 사용을 위해서는 전문 기술이 필요합니다.
 
-:::image type="content" source="media/center-of-excellence-business-intelligence-solution-architecture/azure-data-warehouse-consumption.png" alt-text="이미지는 Power BI 및 Azure Machine Learning과 함께 Azure Synapse Analytics 사용을 보여 줍니다.":::
+:::image type="content" source="media/center-of-excellence-business-intelligence-solution-architecture/azure-data-warehouse-consumption.png" alt-text="Power BI, Excel 및 Azure Machine Learning과 함께 Azure Synapse Analytics 사용을 보여 주는 이미지.":::
 
 ## <a name="next-steps"></a>다음 단계
 
@@ -155,3 +160,9 @@ Microsoft는 데이터 모델에 대한 참조 정보를 제공하는 데이터 
 - [Azure Synapse Analytics를 사용하는 Azure의 엔터프라이즈 BI](/azure/architecture/reference-architectures/data/enterprise-bi-synapse)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 - 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com/)
+
+### <a name="professional-services"></a>전문 서비스
+
+인증된 Power BI 파트너는 조직이 COE를 설정할 때 성공하도록 도와줄 수 있습니다. 비용 효율적인 학습 또는 데이터 감사를 제공할 수 있습니다. Power BI 파트너와 협력하려면 [Power BI 파트너 포털](https://powerbi.microsoft.com/partners/)을 방문하세요.
+
+숙련된 컨설팅 파트너와 협업할 수도 있습니다. 해당 파트너는 Power BI를 [평가](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=assessment&country=ALL&region=ALL), [고려](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=proof-of-concept&country=ALL&region=ALL) 또는 [구현](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=implementation&country=ALL&region=ALL&page=1)하도록 도와줄 수 있습니다.

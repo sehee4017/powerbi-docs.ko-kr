@@ -1,22 +1,23 @@
 ---
-title: Power BI 소비자를 위한 용어집
-description: Power BI에서는 많은 새 용어를 도입했으며 익숙한 용어가 새로운 방식으로 사용되고 있습니다. 용어집을 사용하여 Power BI 용어에 친숙해질 수 있습니다.
+title: Power BI 비즈니스 사용자 관련 용어집
+description: Power BI에서는 많은 새 용어를 도입했으며 익숙한 용어가 새로운 방식으로 사용되고 있습니다. 용어집을 사용하여 Power BI 서비스 용어에 친숙해질 수 있습니다.
 services: power-bi
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
-ms.date: 07/08/2020
+ms.topic: reference
+ms.date: 08/24/2020
+ms.custom: contperfq1
 ms.author: mihart
-ms.openlocfilehash: f5ed2252836ecda364ca53904c2cccbae9f9b7e6
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: cd562d8fe689c2ae82ee1cacfc9e02393a5992f9
+ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215610"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "88803046"
 ---
-# <a name="glossary-for-power-bi-service"></a>Power BI 서비스 관련 용어집    
+# <a name="glossary-for-business-users-of-the-power-bi-service"></a>Power BI 서비스의 비즈니스 사용자 관련 용어집    
 Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용되고 있습니다. 용어집은 용어를 조회할 수 있는 적절한 위치로, 책갈피를 지정할 수도 있습니다. Power BI 서비스의 구성 요소를 학습하기에 좋은 또 다른 유용한 리소스는 [기본 개념](end-user-basic-concepts.md)입니다. 기본 개념은 Power BI ‘부분’의 간략한 개요와 연결 방식을 설명합니다.
 
 이 용어집은 커뮤니티의 도움을 받아 작성한 것입니다.  찾는 단어가 여기에 없나요? 그렇다면 추가해 달라고 요청하세요. 이 문서 맨 아래에 있는 설명서 피드백 단추를 사용하면 됩니다.

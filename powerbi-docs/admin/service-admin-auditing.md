@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 05/11/2020
+ms.date: 08/20/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: e8e81c297841e32d1f4d966de23b5d752b654c20
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: 7b5a96f4b592789c04ebaca5418e470d546ff788
+ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091621"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "88802977"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Power BI에서 사용자 활동 추적
 
@@ -32,6 +32,10 @@ Power BI 테넌트의 어떤 항목에 누가 무슨 활동을 수행하는지�
 
 
 ## <a name="use-the-activity-log"></a>활동 로그 관리
+
+> [!NOTE]
+> Microsoft Cloud Deutschland에서는 활동 기록이 지원되지 않습니다. [독일 클라우드 고객을 위한 Power BI 관련 자주 묻는 질문](service-govde-faq.md)에서 독일 클라우드의 서비스 제한 사항을 자세히 알아봅니다.
+
 
 Power BI 서비스 관리자는 Power BI 활동 로그를 기반으로 하는 사용자 지정 보고서를 사용하여 테넌트 수준에서 모든 Power BI 리소스의 사용량을 분석할 수 있습니다. REST API 또는 PowerShell cmdlet을 사용하여 활동을 다운로드할 수 있습니다. 날짜 범위, 사용자, 활동 유형을 기준으로 활동 데이터를 필터링할 수도 있습니다.
 
@@ -73,6 +77,8 @@ completeListOfActivityEvents.AddRange(response.ActivityEventEntities);
 > 모든 이벤트가 표시되는 데 최대 24시간이 걸릴 수 있지만 일반적으로 전체 데이터를 더 빨리 사용할 수 있습니다.
 >
 >
+감사 활동 이벤트를 가져오는 방법의 예제를 포함하여 Power BI REST API를 사용하는 방법에 관한 자세한 내용은 Power BI REST API 참조 설명서의 [관리 - 활동 이벤트 가져오기](https://docs.microsoft.com/rest/api/power-bi/admin/getactivityevents)를 참조하세요.
+
 ### <a name="get-powerbiactivityevent-cmdlet"></a>Get-PowerBIActivityEvent cmdlet
 
 PowerShell용 Power BI 관리 cmdlet을 사용하여 활동 이벤트를 다운로드합니다. **Get-PowerBIActivityEvent** cmdlet은 자동으로 연속 토큰을 처리합니다. **Get-PowerBIActivityEvent** cmdlet은 **ActivityEvents** REST API와 동일한 제한 사항이 있는 StartDateTime 및 EndDateTime 매개 변수를 사용합니다. 즉, 한 번에 1일 분량의 활동 데이터만 검색할 수 있으므로 시작 날짜와 종료 날짜가 동일한 날짜 값을 참조해야 합니다.
@@ -113,7 +119,7 @@ Power BI와 Microsoft 365의 사용자 활동을 추적하려는 경우 Office 3
 
 감사 로그에 액세스하려면 이러한 요구 사항을 충족해야 합니다.
 
-- 감사 로그에 액세스하려면 전역 관리자이거나 Exchange Online에서 감사 로그 또는 보기 전용 감사 로그 역할을 할당받아야 합니다. 기본적으로 준수 관리 및 조직 관리 역할 그룹은 Exchange 관리 센터의 **사용 권한** 페이지에 대해 이러한 역할이 할당됩니다.
+- 감사 로그에 액세스하려면 전역 관리자이거나 Exchange Online에서 감사 로그 또는 보기 전용 감사 로그 역할을 할당받아야 합니다. 기본적으로 준수 관리 및 조직 관리 역할 그룹은 Exchange 관리 센터의 **사용 권한** 페이지에 대해 이러한 역할이 할당됩니다. 감사 로그를 볼 수 있는 역할에 관한 자세한 내용은 [감사 로그 검색 요구 사항](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#requirements-to-search-the-audit-log)을 참조하세요.
 
     관리자가 아닌 계정에 감사 로그 액세스 권한을 부여하려면 해당 사용자를 이러한 역할 그룹의 구성원으로 추가합니다. 다른 방법으로는 Exchange 관리 센터에서 사용자 지정 역할 그룹을 만들고 이 그룹에 감사 로그 또는 보기 전용 감사 로그 역할을 할당한 다음 액세스 권한이 필요한 계정을 새로 만든 역할 그룹에 추가할 수도 있습니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](/Exchange/permissions-exo/role-groups)를 참조하세요.
 
