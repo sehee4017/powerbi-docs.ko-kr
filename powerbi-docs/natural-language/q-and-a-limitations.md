@@ -1,4 +1,4 @@
-﻿---
+---
 title: Power BI 질문 및 답변의 제한 사항
 description: Power BI 질문 및 답변의 현재 제한 사항
 author: maggiesMSFT
@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/21/2020
 ms.author: maggies
-ms.openlocfilehash: b71fd2986fb79adf88493416ac8234f2656aefa9
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: eebb40d81e9b59b545b30ce55dbf4a362b826455
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866774"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937588"
 ---
 # <a name="limitations-of-power-bi-qa"></a>Power BI 질문 및 답변의 제한 사항
 
@@ -52,9 +52,9 @@ Power BI 질문 및 답변은 현재 다음과 같은 구성을 지원하지 않
 
 사용자는 **설정** > **일반**을 선택하고 **질문 및 답변에서 발화를 기록하도록 허용**의 선택을 취소하여 질문이 기록되지 않도록 할 수도 있습니다. 
 
-## <a name="teach-qa-limitations"></a>질문 및 답변 학습 제한 사항
+## <a name="teach-qa-limitations"></a>Q&A 교육 제한 사항
 
-질문 및 답변 학습을 사용하면 다음 두 가지 유형의 오류를 수정할 수 있습니다.
+Q&A 교육을 사용하면 다음 두 가지 유형의 오류를 수정할 수 있습니다.
 
 - 필드에 단어를 할당합니다.
 - 필터 조건에 단어를 할당합니다.
@@ -75,7 +75,6 @@ Power BI 질문 및 답변은 현재 다음과 같은 구성을 지원하지 않
 
 ### <a name="statements-not-supported"></a>지원되지 않는 문
 
-- 조건에 측정값을 사용하는 기능은 현재 지원되지 않습니다. 대신, 측정값을 계산 열로 변환하여 사용할 수 있습니다.
 - 다중 조건은 지원되지 않습니다. 대체 방법으로, 다중 조건 문 부울을 평가하는 DAX 계산 열을 만들고 이 필드를 대신 사용합니다.
 - 질문 및 답변에서 데이터 하위 집합을 묻는 메시지를 표시할 때 필터 조건을 지정하지 않으면, 전체 문에 빨간색 밑줄이 없더라도 정의를 저장할 수 없습니다.
 

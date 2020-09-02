@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 07/08/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 7b9f69607d2fef823ba67d5af035e1e2064a9a72
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: d40bda8ef6469e5dc826d36db3cc21cfe72f0da6
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162393"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092386"
 ---
 # <a name="tutorial-get-started-creating-in-the-power-bi-service"></a>자습서:  Power BI 서비스에서 만들기 시작
 이 자습서는 *Power BI 서비스* 기능 중 일부를 소개합니다. 자습서를 통해 데이터에 연결하고, 보고서 및 대시보드를 만들고, 데이터에 대해 질문할 수 있습니다. Power BI 서비스에서 훨씬 더 많은 작업을 수행할 수 있습니다. 이 자습서는 의욕을 높여줍니다. Power BI 서비스를 다른 Power BI 제품에 적용하는 방법을 이해하려면 [Power BI란?](power-bi-overview.md)을 읽어 보시기 바랍니다.
@@ -226,5 +226,5 @@ Power BI 보고서를 만들고자 하는 경우 Power BI Desktop에서 시작�
 
 Power BI에 관한 다음 Microsoft Learn 콘텐츠 컬렉션을 살펴봅니다.
 
-- [Power BI 학습](https://docs.microsoft.com/users/microsoftpowerplatform-5978/collections/r52to235xrjxk)
+- [Power BI 학습](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 - [Power BI 데이터 분석가 되기](https://docs.microsoft.com/users/microsoftpowerplatform-5978/collections/djwu3eywpk4nm)

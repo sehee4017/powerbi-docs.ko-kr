@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 669f05c03bd7a42d5b44f6ca2fa1b4d58680f71b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3e7bb33eae8be4a0eaa7eb4d92ca165c74b14ed5
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237738"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937381"
 ---
 # <a name="use-directquery-with-dataflows-in-power-bi-preview"></a>Power BI (미리 보기)에서 데이터 흐름와 함께 DirectQuery 사용
 
@@ -48,8 +48,6 @@ DirectQuery를 사용하여 데이터 흐름에 직접 연결할 수 있으므�
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 
 DirectQuery 및 데이터 흐름에는 다음 목록에 설명된 몇 가지 알려진 제한 사항이 있습니다.
-
-* **향상된 메타데이터 미리 보기** 기능을 사용하도록 설정한 경우 데이터 흐름에 DirectQuery를 사용할 수 없습니다. 이 제외는 Power BI Desktop의 다음 월별 릴리스에서 제거될 예정입니다.
 
 * 이 기능의 미리 보기 기간 중 데이터 흐름과 함께 DirectQuery를 사용하는 경우 일부 고객에게 시간 초과나 성능 문제가 발생할 수 있습니다. 이러한 문제는 미리 보기 기간 동안 적극적으로 해결됩니다.
 
