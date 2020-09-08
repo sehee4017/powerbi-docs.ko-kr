@@ -5,17 +5,17 @@ author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: how-to
-ms.date: 04/17/2020
+ms.topic: reference
+ms.date: 09/01/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: b6beb2115f664de12382933c8200b07b510bd083
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 75ee1ad31bc2f99964a8f79ea29efb499c2cc81e
+ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215887"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89286777"
 ---
 # <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>*소비자* 및 다른 무료 라이선스 사용자를 위한 Power BI 기능 목록
 
@@ -49,7 +49,7 @@ ms.locfileid: "86215887"
 
 - **무료 라이선스** - 일반적으로 조직 내의 *소비자*에게 할당됩니다(아래 첫 번째 이미지 참조). 개인으로 Power BI 서비스에 등록하고 [독립 실행형 모드로 Power BI 서비스](../fundamentals/service-self-service-signup-for-power-bi.md)를 시험적으로 사용해 보려는 사용자에게도 할당됩니다(아래 두 번째 이미지 참조). 
 
-    ![무료 사용자가 표시된 화면](media/end-user-features/power-bi-free-organization.png)
+    ![프리미엄 사용자임을 보여주는 화면](media/end-user-features/power-bi-free-organization.png)
 
     무료 사용자가 프리미엄 용량이 있는 조직의 구성원이 되면 고급 기능을 사용할 수 있게 됩니다. Pro 동료가 프리미엄 용량 작업 영역을 사용하여 콘텐츠를 공유하는 한, 무료 사용자도 콘텐츠를 확인하고 Pro 동료와 협업할 수 있습니다.  **이 경우 무료 사용자는 비즈니스 의사 결정을 위해 콘텐츠를 받고 공유할 수 있는 Power BI ‘소비자’가 됩니다.**  
  
@@ -129,7 +129,7 @@ ms.locfileid: "86215887"
 | 다른 사용자가 만든 책갈피 보기, 사용자 책갈피 추가  | ![주황색 x](media/end-user-features/orange-x.png)|![녹색 점](media/end-user-license/power-bi-green-dot.png)  |
 | 다른 사용자의 댓글 보기 및 응답: 새 댓글 추가  | ![주황색 x](media/end-user-features/orange-x.png)|![녹색 점](media/end-user-license/power-bi-green-dot.png)  |
 |표시 크기 변경   | ![녹색 myw](media/end-user-features/green-mwo.png) | ![녹색 점](media/end-user-license/power-bi-green-dot.png)  | 
-| 복사본 저장 |![주황색 x](media/end-user-features/orange-x.png) |![녹색 점](media/end-user-license/power-bi-green-dot.png)*  
+| 복사본 저장 |![주황색 x](media/end-user-features/orange-x.png) |![주황색 x](media/end-user-features/orange-x.png)  
 |시각적 개체를 이미지로 복사* |
 | 보고서 시각적 개체 교차 강조 표시 및 교차 필터링   |![녹색 myw](media/end-user-features/green-mwo.png) |![녹색 점](media/end-user-license/power-bi-green-dot.png)  |
 |  드릴   |![녹색 myw](media/end-user-features/green-mwo.png)  |![녹색 점](media/end-user-license/power-bi-green-dot.png)  |

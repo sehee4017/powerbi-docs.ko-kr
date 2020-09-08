@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 07/01/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2cffd2b9913773e7f29d1afa960209ddeddd3583
-ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
+ms.openlocfilehash: 1153b20e77958bbecce9284add3ae7eab21cd47d
+ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "88160421"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89040312"
 ---
 # <a name="export-reports-to-powerpoint"></a>PowerPoint로 보고서 내보내기
 
@@ -49,6 +49,8 @@ PowerPoint로 내보내려는 보고서가 캔버스에 표시되면 메뉴 모�
 ![내보낼 항목 선택](media/end-user-powerpoint/power-bi-current-values.png)
  
 또한 보고서의 숨겨진 탭을 내보낼지 여부를 선택하는 확인란이 있습니다. 브라우저에 표시되는 보고서 탭만 내보내려면 이 확인란을 선택합니다. 모든 숨겨진 탭을 보고서의 일부로 가져오려면 이 확인란을 선택하지 않은 상태로 둡니다. 확인란이 회색으로 표시되면 보고서에 숨겨진 탭이 포함되지 않습니다. 숨겨진 탭의 예로는 도구 설명 탭이 있습니다. [사용자 지정 도구 설명](../create-reports/desktop-tooltips.md)은 보고서 *디자이너*에서 만들어지고 *소비자*의 Power BI 서비스에서 보고서 탭으로 표시되지 않습니다. 
+
+"현재 페이지만 내보내기" 옵션을 선택하여 보고서에 표시 중인 현재 페이지만 내보내도록 선택할 수도 있습니다.  이는 기본적으로 선택되어 있지 않으며 보고서에서는 모든 페이지를 내보냅니다.
 
 항목을 선택한 후 **내보내기**를 선택하여 계속 진행합니다. Power BI 서비스 브라우저 창의 오른쪽 위 모서리에 보고서가 PowerPoint로 내보내지고 있다는 알림 배너가 표시됩니다. 
 

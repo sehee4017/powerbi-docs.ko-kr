@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: c4453f1475ac2ab227294b0b3bd8ba5dba10de67
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: c01169a514b1231f93df21a23dc8992e92353070
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204490"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937611"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Surface Hub 및 Windows 10 디바이스에서 프레젠테이션 모드로 보고서 및 대시보드 보기
 프레젠테이션 모드를 사용하여 Windows 10 디바이스 및 Surface Hub에서 보고서와 대시보드를 전체 화면으로 표시할 수 있습니다. 프레젠테이션 모드는 모임이나 회의 또는 사무실의 전용 프로젝터에서 Power BI를 표시하거나 작은 화면 공간을 최대화하는 데 유용합니다.
@@ -64,7 +64,7 @@ Power BI 모바일 앱에서 **전체 화면** 아이콘을 탭하여 전체 화
 
  컨트롤러는 현재 표시된 보기(페이지 또는 책갈피 및 페이지)의 이름을 표시합니다. 위의 이미지에서는 **Sales**라는 보고서에서 현재 **Sales Performance** 페이지의 **Asia Pacific** 책갈피를 보고 있습니다.
 
-기본적으로 슬라이드 쇼는 30초마다 한 페이지의 속도로 페이지를 순환합니다. 이는 [슬라이드 쇼 설정](#slideshow-settings)의 기본 동작입니다.
+기본적으로 슬라이드 쇼는 30초마다 한 페이지의 속도로 페이지를 순환합니다. [슬라이드 쇼 설정](#slideshow-settings)에서 기본 동작을 변경할 수 있습니다.
 
 
 ### <a name="auto-play-a-slideshow-on-startup"></a>시작 시 슬라이드 쇼 자동 재생

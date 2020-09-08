@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 06/25/2020
+ms.date: 08/25/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c70229a37a697fedba54cde1899073f20710f542
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 6147bc0ee725eb7adc7e1edb637a22bb7dc66558
+ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161770"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89040331"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Power BI 보고서에서 차트 정렬 방식 변경
 
@@ -24,24 +24,24 @@ ms.locfileid: "86161770"
 > [!IMPORTANT]
 > **이 문서는 보고서 또는 데이터 세트에 대한 편집 권한이 없고 온라인 버전의 Power BI(Power BI 서비스)에서만 작업하는 Power BI 사용자를 대상으로 작성되었습니다. 보고서 *디자이너*, *관리자* 또는 *소유자*인 경우 이 문서에 모든 필요한 정보가 포함되지 않았을 수 있습니다. 대신, [Power BI Desktop에서 열 기준 정렬](../create-reports/desktop-sort-by-column.md)** 을 참조하세요.
 
-Power BI 서비스에서 다양한 데이터 필드로 정렬하여 시각적 개체의 모양을 변경할 수 있습니다. 시각적 개체의 정렬 방법을 변경하여 전달하려는 정보를 강조 표시할 수 있습니다. 숫자 데이터(예: 판매 수치) 또는 텍스트 데이터(예: 주 이름) 중 어떤 데이터를 사용하든지 시각화를 원하는 대로 정렬할 수 있습니다. Power BI는 여러 가지 정렬 방법과 간편한 메뉴를 제공합니다. 
+Power BI 서비스에서 다양한 데이터 필드로 정렬하여 시각적 개체의 모양을 변경할 수 있습니다. 시각적 개체의 정렬 방법을 변경하여 전달하려는 정보를 강조 표시할 수 있습니다. 숫자 데이터(예: 판매 수치) 또는 텍스트 데이터(예: 주 이름) 중 어떤 데이터를 사용하든지 시각적 개체를 원하는 대로 정렬할 수 있습니다. Power BI는 여러 가지 정렬 방법과 간편한 메뉴를 제공합니다. 
 
-대시보드의 시각적 개체는 정렬할 수 없습니다. 하지만 Power BI 보고서에서는 대부분의 시각화를 한 번에 한 개, 경우에 따라 두 개의 필드를 기준으로 정렬할 수 있습니다. 특정 형식의 시각적 개체에는 정렬을 전혀 사용할 수 없습니다(트리 맵, 계기, 지도 등). 
+대시보드의 시각적 개체는 정렬할 수 없습니다. 하지만 Power BI 보고서에서는 대부분의 시각적 개체를 한 번에 한 개, 경우에 따라 두 개의 필드를 기준으로 정렬할 수 있습니다. 특정 형식의 시각적 개체에는 정렬을 전혀 사용할 수 없습니다(트리 맵, 계기, 지도 등). 
 
 ## <a name="get-started"></a>시작
 
-시작하려면 공유된 보고서를 엽니다. 정렬할 수 있는 시각적 개체를 선택하고 **추가 작업**(...)을 선택합니다.  정렬에 대해 세 가지 옵션이 있습니다. **내림차순 정렬**, **오름차순 정렬**, **정렬 기준**. 
+시작하려면 만들어 두었거나 공유해 둔 보고서를 엽니다. 정렬할 수 있는 시각적 개체를 선택하고 **추가 작업**(...)을 선택합니다.  정렬에 대해 세 가지 옵션이 있습니다. **내림차순 정렬**, **오름차순 정렬**, **정렬 기준**. 
     
 
-![X 축을 기준으로 사전순으로 정렬된 막대형 차트](media/end-user-change-sort/power-bi-more-actions.png)
+![Y축을 기준으로 사전순으로 정렬된 막대형 차트](media/end-user-change-sort/power-bi-actions.png)
 
 ### <a name="sort-alphabetically-or-numerically"></a>사전순 또는 숫자순으로 정렬
 
-시각적 개체 범주의 텍스트 이름 또는 각 범주의 숫자 값을 기준으로 시각적 개체를 사전순으로 정렬할 수 있습니다. 예를 들어 이 차트는 X 축 범주 매장 **이름**이 사전순으로 정렬되어 있습니다.
+시각적 개체의 범주 이름 또는 각 범주의 숫자 값을 기준으로 시각적 개체를 사전순으로 정렬할 수 있습니다. 예를 들어 이 차트는 X 축 범주 매장 **이름**이 사전순으로 정렬되어 있습니다.
 
 ![X 축을 기준으로 사전순으로 정렬된 막대형 차트](media/end-user-change-sort/powerbi-sort-category.png)
 
-정렬 기준을 범주(매장 이름)에서 값(평방 피트당 매출)으로 대신 변경하는 것은 쉽습니다. **기타 작업**(...)을 선택하고 **정렬 기준**을 선택합니다. 시각적 개체에 사용되는 숫자 값을 선택합니다.  이 예제에서는 **Sales Per Sq Ft**를 선택했습니다.
+정렬 기준을 범주(매장 이름)에서 값(평방피트당 매출)으로 변경하려면 **추가 작업**(...)을 선택한 다음 **정렬 기준**을 선택합니다. 시각적 개체에 사용되는 숫자 값을 선택합니다.  이 예제에서는 **Sales Per Sq Ft**를 선택했습니다.
 
 ![정렬 기준 및 값 선택을 보여 주는 스크린샷](media/end-user-change-sort/power-bi-sort-value.png)
 
@@ -55,14 +55,14 @@ Power BI 서비스에서 다양한 데이터 필드로 정렬하여 시각적 �
 ## <a name="sorting-by-multiple-columns"></a>여러 열을 기준으로 정렬
 이 테이블의 데이터는 **고객 수**를 기준으로 정렬됩니다.  단어 숫자 아래 있는 작은 화살표로 이를 알 수 있습니다. 화살표가 아래를 향하고 있는 것은 열이 내림차순으로 정렬되어 있음을 의미합니다.
 
-![정렬에 사용되는 첫 번째 열을 보여 주는 스크린샷](media/end-user-change-sort/power-bi-sort-first.png)
+![정렬에 사용되는 첫 번째 열을 보여 주는 스크린샷](media/end-user-change-sort/power-bi-sort-column.png)
 
 
 정렬 순서에 열을 더 추가하려면 정렬 순서 옆에서 추가하려는 열 머리글을 Shift를 누른 상태로 클릭합니다. 예를 들어 **고객 수**를 클릭한 다음 Shift를 누른 상태에서 **총 수익**을 클릭하면 테이블은 먼저 고객 기준으로 정렬된 다음 수익 기준으로 정렬됩니다. 빨간색 윤곽선은 정렬 순서가 변경된 영역을 표시합니다.
 
 ![정렬에 사용되는 두 번째 열을 보여 주는 스크린샷](media/end-user-change-sort/power-bi-sort-second.png)
 
-같은 열에서 Shift를 누른 상태로 다시 클릭하면 해당 열의 정렬 방향이 변경됩니다. 또한 이전에 정렬 순서에 추가한 열을 Shift를 누른 상태로 클릭하면 해당 열이 정렬 순서의 뒤로 이동합니다.
+Shift를 누른 상태로 같은 열을 다시 클릭하면 해당 열의 정렬 방향(오름차순, 내림차순)이 변경됩니다. 또한 이전에 정렬 순서에 추가한 열을 Shift를 누른 상태로 클릭하면 해당 열이 정렬 순서의 뒤로 이동합니다.
 
 
 ## <a name="saving-changes-you-make-to-sort-order"></a>정렬 순서에 적용한 변경 내용 저장
@@ -80,7 +80,7 @@ Power BI 보고서는 [읽기용 보기](end-user-reading-view.md)에서 작업�
 
 보고서를 설계한 사람만 이 변경 작업을 수행할 수 있습니다. *디자이너*의 연락처 정보는 머리글 표시줄에서 보고서 이름을 선택하여 확인할 수 있습니다.
 
-![연락처 정보를 표시하는 드롭다운](media/end-user-change-sort/power-bi-contact.png)
+![연락처 정보를 표시하는 드롭다운](media/end-user-change-sort/power-bi-header.png)
 
 콘텐츠에 대한 편집 권한이 있는 *디자이너*인 경우 [Power BI Desktop의 열 기준 정렬](../create-reports/desktop-sort-by-column.md)을 참조하여 데이터 세트를 업데이트하고 이러한 종류의 정렬을 설정하는 방법을 알아보세요.
 

@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 06/25/2020
-ms.openlocfilehash: 002a50fd2e8e55d5ec06d7f15420ae8299861b37
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.openlocfilehash: 69ad9fc76250e09c2cea5a8d5dc0d3b2c13f72bf
+ms.sourcegitcommit: 6d7d5e6b19e11d557dfa1b79b745728b4ee02b4e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86557213"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "89220886"
 ---
 # <a name="understand-the-deployment-process-preview"></a>배포 프로세스 이해(미리 보기)
 
@@ -154,7 +154,7 @@ ms.locfileid: "86557213"
 
 [![프로덕션 단계의 오른쪽 아래에 있는 앱 게시 단추를 강조 표시하는 스크린샷](media/deployment-pipelines-process/publish.png)](media/deployment-pipelines-process/publish.png#lightbox)
 
-프로덕션 단계에서 왼쪽 아래 모서리에 있는 주 작업 단추를 클릭하면 Power BI의 앱 업데이트 페이지가 열려 앱 사용자가 콘텐츠 업데이트를 사용할 수 있습니다.
+프로덕션 단계에서 오른쪽 아래 모서리에 있는 주 작업 단추를 클릭하면 Power BI의 앱 업데이트 페이지가 열려 앱 사용자가 콘텐츠 업데이트를 사용할 수 있습니다.
 
 [![프로덕션 단계의 오른쪽 아래에 있는 앱 업데이트 단추를 강조 표시하는 스크린샷](media/deployment-pipelines-process/update-app.png)](media/deployment-pipelines-process/update-app.png#lightbox)
 

@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 02/18/2020
+ms.date: 08/27/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: fbbda6edde0028a6d7ca21081f582ace7cb0cc94
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: e9b950d85d50727ed1e9ca5ec2f94498a37d1665
+ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216202"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89286813"
 ---
 # <a name="view-a-dashboard"></a>대시보드 보기
 
@@ -22,9 +22,9 @@ ms.locfileid: "86216202"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Power BI *소비자*는 대시보드를 보는 데 많은 시간을 사용합니다. 대시보드는 기본 보고서 및 데이터 세트에서 특정 정보를 강조 표시하도록 설계되었습니다. 또한 Power BI 소비자는 데이터 기반 비즈니스 의사 결정을 수행하기 위해 추적, 모니터링, 질문에 답변, 테스트 등에 해당 정보를 사용합니다.
+Power BI *비즈니스 사용자*는 대시보드를 보는 데 많은 시간을 사용합니다. 대시보드는 기본 보고서 및 데이터 세트에서 특정 정보를 강조 표시하도록 설계되었습니다. 또한 Power BI 비즈니스 사용자는 데이터 기반의 비즈니스 의사 결정을 내리기 위해 추적, 모니터링, 질문에 대한 답변 제공, 테스트 등에 해당 정보를 사용합니다.
 
-![대시보드](media/end-user-dashboard-open/power-bi-new-dash-new.png)
+![대시보드](media/end-user-dashboard-open/power-bi-new-dashboard.png)
 
 
 Power BI Pro 또는 Premium 라이선스는 대시보드를 공유하고 공유한 대시보드를 보는 데 필요합니다. [사용 중인 라이선스 확인](end-user-license.md). 
@@ -35,14 +35,14 @@ Power BI Pro 또는 Premium 라이선스는 대시보드를 공유하고 공유�
 
 |              |         |
 |------------|--------------------------------|
-|![대시보드 아이콘](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |대시보드는 Power BI 서비스의 여러 위치에서 열 수 있습니다. <br> 이 대시보드 아이콘을 찾아보세요. 대시보드를 식별하면 <br>쉽게 열 수 있고, 선택하기만 하면 대시보드가 Power BI 캔버스를 채웁니다. |
+|![대시보드 아이콘](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |대시보드는 Power BI 서비스의 여러 위치에서 열 수 있습니다. <br> 이 대시보드 아이콘을 찾아보세요. 대시보드를 식별하면 <br>선택해서 엽니다. 그러면 대시보드가 Power BI 캔버스를 채웁니다. |
 |                    |          |
 
 
 
 탐색 창에 있는 모든 컨테이너에서 대시보드를 찾을 수 있습니다. 
 
-![대시보드 아이콘](media/end-user-dashboard-open/power-bi-open-dashboards.gif)
+![대시보드를 찾을 수 있는 모든 위치를 보여 주는 동영상](media/end-user-dashboard-open/power-bi-open-dashboards.gif)
 
 - **홈** 
 - **즐겨찾기** - [대시보드를 즐겨찾기로 설정](end-user-favorite.md)한 경우
@@ -54,5 +54,7 @@ Power BI Pro 또는 Premium 라이선스는 대시보드를 공유하고 공유�
 
 
 ## <a name="next-steps"></a>다음 단계
+* [대시보드 개요](end-user-dashboards.md)로 돌아가기
+
 * [샘플 대시보드](../create-reports/sample-tutorial-connect-to-the-samples.md) 중 하나를 둘러보면 대시보드에 금방 익숙해 집니다.    
 * [대시보드 타일](end-user-tiles.md)과 선택할 경우 어떻게 되는지 알아보세요.

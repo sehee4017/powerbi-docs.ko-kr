@@ -6,17 +6,17 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/19/2020
+ms.date: 08/30/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5f8b2fd4c999853e09852e69406968cad2fb9490
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 2e2c4656c5436691df96b86f145e255153ff9f96
+ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216157"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89286698"
 ---
-# <a name="dashboards-for-power-bi-service-consumers"></a>Power BI 서비스 소비자에 대한 대시보드
+# <a name="dashboards-for-business-users-of-the-power-bi-service"></a>Power BI 서비스의 비즈니스 사용자 대시보드
 
 [!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
@@ -24,16 +24,16 @@ ms.locfileid: "86216157"
 
 Power BI ***대시보드***는 보통 캔버스라고도 하며 스토리를 전달하기 위해 시각화를 사용하는 단일 페이지입니다. 한 페이지로 제한되기 때문에 해당 스토리의 가장 중요한 요소만 포함할 경우 잘 디자인된 대시보드라 할 수 있습니다.
 
-![대시보드](media/end-user-dashboards/power-bi-dashboard2.png)
+![대시보드의 스크린샷](media/end-user-dashboards/power-bi-dashboard.png)
 
 대시보드에 표시되는 시각화를 *타일*이라고 합니다. 타일은 보고서 *디자이너*가 대시보드에 *고정*합니다. 대부분의 경우, 타일을 선택하면 시각화가 생성된 보고서 페이지로 이동합니다. Power BI를 처음 접하는 경우 [Power BI 기본 개념](end-user-basic-concepts.md)을 읽으면 적절한 기초 정보를 얻을 수 있습니다.
 
 > [!NOTE]
 > 대시보드를 [모바일 디바이스에서 보고 공유](mobile/mobile-apps-view-dashboard.md)할 수 있습니다.
 >
-> 공유된 대시보드를 보려면 Power BI Pro가 필요합니다.
+> 동료가 대시보드를 공유할 수 있도록 하려면 Power BI 버전이 "Pro" 또는 "Premium"이어야 합니다. 자세한 내용은 [Power BI 라이선스 유형](end-user-license.md)을 참조하세요.
 
-대시보드의 시각화는 보고서를 기반으로 하며 각 보고서는 한 개의 데이터 세트를 기반으로 합니다. 사실, 대시보드를 생각하는 한 가지 방법은 기본 보고서와 데이터 세트로 들어가는 입구로 여기는 것입니다. 시각화를 선택하면 이를 만드는 데 사용한 보고서(및 데이터 세트)로 이동합니다.
+대시보드의 시각화는 보고서를 기반으로 하며 각 보고서는 한 개의 데이터 세트를 기반으로 합니다. 사실, 대시보드를 생각하는 한 가지 방법은 기본 보고서와 데이터 세트로 들어가는 입구로 여기는 것입니다. 시각화를 선택하면 이를 만드는 데 사용한 보고서로 이동합니다.
 
 ![대시보드, 보고서, 데이터 세트 간의 관계를 보여주는 다이어그램](media/end-user-dashboards/power-bi-diagram.png)
 
@@ -42,21 +42,22 @@ Power BI ***대시보드***는 보통 캔버스라고도 하며 스토리를 전
 
 대시보드는 단순히 예쁜 그림이 아닙니다. 대시보드는 대화형이며 기본 데이터가 변경되면 타일이 업데이트됩니다.
 
-## <a name="dashboards-versus-reports-for-power-bi-consumers"></a>대시보드 및 Power BI ***소비자*** 보고서
-대개 보고서는 시각화로 채워진 캔버스이므로 대시보드와 혼동됩니다. 하지만 Power BI 소비자 관점과의 몇 가지 주요한 차이점이 있습니다. 
+## <a name="dashboards-versus-reports-for-power-bi-business-users"></a>대시보드와 Power BI ***비즈니스 사용자*** 보고서 비교
+대개 보고서는 시각화로 채워진 캔버스이므로 대시보드와 혼동됩니다. 하지만 Power BI *비즈니스 사용자* 관점과의 몇 가지 주요한 차이점이 있습니다.
 
 | **기능** | **대시보드** | **보고서** |
 | --- | --- | --- |
 | 페이지 |한 페이지 |한 페이지 이상 |
-| 데이터 소스 |대시보드당 보고서 및 데이터 세트 모두 하나 이상 |보고서당 단일 데이터 세트 |
-| 필터링 |필터링 또는 조각화 불가능 |필터링, 강조 표시 및 조각화를 위한 다양한 방법 |
-| 경고 설정 |특정 조건이 충족되는 경우 전자 메일 경고를 만들 수 있음 |아니요 |
-| 주요 |하나의 대시보드를 “주요” 대시보드로 설정할 수 있음 |주요 보고서를 만들 수 없음 |
+|상단의 **데이터에 대해 질문하기**(Power BI Q&A) 필드 |거의 항상 | no |
+| 데이터 원본 |대시보드당 보고서 및 데이터 세트 모두 하나 이상 |보고서당 단일 데이터 세트 |
+| Filtering |필터링 또는 조각화 불가능 |필터링, 강조 표시 및 조각화를 위한 다양한 방법 |
+| 경고 설정 |특정 조건이 충족되는 경우 전자 메일 경고를 만들 수 있음 |예 |
+| 추천 |한 대시보드를 “주천” 대시보드로 설정할 수 있음 |추천 보고서를 만들 수 없음 |
 | 기본 데이터 세트 테이블 및 필드를 볼 수 있음 |아니요. 데이터를 내보낼 수 있지만 대시보드 자체에서 테이블 및 필드를 볼 수 없음 |예. 데이터 세트 테이블 및 필드와 값을 볼 수 있습니다. |
 
 
-## <a name="dashboard-designers-and-dashboard-consumers"></a>대시보드 디자이너 및 대시보드 소비자
-Power BI ***소비자***는 *디자이너*로부터 대시보드를 받습니다. 이 항목에서 계속 대시보드에 대해 알아봅니다.
+## <a name="dashboard-designers-and-dashboard-business-users"></a>대시보드 디자이너 및 대시보드 비즈니스 사용자
+Power BI ***비즈니스 사용자***는 *디자이너*로부터 대시보드를 받습니다. 이 항목에서 계속 대시보드에 대해 알아봅니다.
 
 * [대시보드 보기](end-user-dashboard-open.md)
 * [대시보드 타일](end-user-tiles.md)과 선택할 경우 어떻게 되는지 알아보세요.

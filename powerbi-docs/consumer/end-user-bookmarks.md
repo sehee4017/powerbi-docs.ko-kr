@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 02/18/2020
+ms.date: 08/26/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: f8bd09bd55694bbd7c6a991d502dde45dad5f2e4
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: f865815c76df179c87c1487e1243c37108375167
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162069"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937717"
 ---
 # <a name="what-are-bookmarks"></a>책갈피란?
 
@@ -29,18 +29,24 @@ ms.locfileid: "86162069"
 
 책갈피의 컬렉션을 만들고, 원하는 순서로 정렬하고, 이후에 프레젠테이션에서 책갈피를 하나씩 보여주며 유기적인 스토리를 갖는 인사이트를 전달할 수도 있습니다.  
 
-![리본에서 책갈피 창을 선택하여 표시합니다.](media/end-user-bookmarks/power-bi-select-bookmark.png)
+![리본에서 책갈피 창을 선택하여 표시합니다.](media/end-user-bookmarks/power-bi-bookmark-icon.png)
 
 ## <a name="open-bookmarks"></a>책갈피 열기
-책갈피 창을 열려면 메뉴 모음에서 **책갈피** > **더 많은 책갈피 표시**를 선택합니다. 보고서의 원래 게시된 보기로 돌아가려면 **기본값으로 다시 설정**을 선택합니다.
+책갈피 창을 열려면 메뉴 모음에서 **책갈피** > **더 많은 책갈피 표시**를 선택합니다. 
+
+![책갈피 창이 열려 있는 보고서 캔버스의 스크린샷](media/end-user-bookmarks/power-bi-show-bookmarks.png)
+
+보고서의 기존 보기로 돌아가려면 **초기화** 아이콘을 선택합니다.
+
+![되돌리기 아이콘이 선택된 스크린샷](media/end-user-bookmarks/power-bi-revert.png)
 
 ### <a name="report-bookmarks"></a>보고서 책갈피
-보고서 *디자이너*가 보고서 책갈피를 포함해 둔 경우, **보고서 책갈피** 제목 아래에서 찾을 수 있습니다. 이 보고서 페이지에는 B1과 B2라는 두 개의 책갈피가 있습니다. 
+보고서 *디자이너*가 보고서 책갈피를 포함해 둔 경우, **보고서 책갈피** 제목 아래에서 찾을 수 있습니다. 이 보고서 페이지에는 4개의 책갈피 B1, B2, VanArsdel YTD, All YTD가 있습니다. 현재는 **All YTD**가 선택되어 있습니다.
 
 > [!NOTE]
 > 공유 보고서를 보려면 Power BI Pro 또는 Premium이 필요합니다. 
 
-![보고서 책갈피를 표시합니다.](media/end-user-bookmarks/power-bi-report.png)
+![보고서 책갈피를 표시합니다.](media/end-user-bookmarks/power-bi-bookmark-list.png)
 
 책갈피를 선택하여 해당 보고서 보기로 변경합니다. 
 
@@ -48,7 +54,7 @@ ms.locfileid: "86162069"
 
 ### <a name="personal-bookmarks"></a>개인 책갈피
 
-책갈피를 만들 때 책갈피에서 다음과 같은 요소가 저장됩니다.
+보고서를 볼 수 있다면 개인 책갈피도 추가할 수 있습니다.  책갈피를 만들 때 책갈피에서 다음과 같은 요소가 저장됩니다.
 
 * 현재 페이지
 * 필터
@@ -59,15 +65,21 @@ ms.locfileid: "86162069"
 * 표시 유형(**선택** 창을 사용하는 개체)
 * 표시 되는 개체의 포커스 또는 **스포트라이트** 모드
 
-책갈피에 표시하려는 대로 보고서 페이지를 구성합니다. 보고서 페이지 및 시각적 개체가 원하는 대로 정렬되면 **책갈피** 창에서 **추가**를 선택하여 책갈피를 추가합니다. 이 예제에서는 지역 및 날짜에 대해 몇 개의 필터를 추가했습니다. 
+책갈피에 표시하려는 대로 보고서 페이지를 구성합니다. 이 예제에 대한 설명:
 
-![개인 책갈피를 추가합니다.](media/end-user-bookmarks/power-bi-bookmark-personal.png)
+1. **필터** 창에서 기존 날짜 필터를 변경
+1. **필터** 창에서 기존 지역 필터를 변경
+1.  도넛형 차트 시각적 개채를 선택하여 보고서 캔버스를 교차 필터링 및 교차 강조 표시 
+
+보고서 페이지 및 시각적 개체가 원하는 대로 정렬되면 **책갈피** 창에서 **추가**를 선택하여 책갈피를 추가합니다. 
+
+![개인 책갈피를 추가합니다.](media/end-user-bookmarks/power-bi-personal.png)
 
 **Power BI**는 개인 책갈피를 만들고 일반 이름 또는 사용자가 입력한 이름으로 설정합니다. 책갈피 이름 옆에 있는 줄임표를 선택하고 표시되는 메뉴에서 작업을 선택하여 책갈피의 *이름을 바꾸*거나 책갈피를 *삭제* 또는 *업데이트*할 수 있습니다.
 
-책갈피를 만들면 **책갈피** 창에서 책갈피를 선택하여 표시할 수 있습니다. 
+책갈피를 만들고 나면 **책갈피** 창에서 책갈피를 선택하여 표시합니다. 
 
-![개인 책갈피를 추가합니다.](media/end-user-bookmarks/power-bi-bookmark-west.png)
+![특정 책갈피를 선택하여 표시](media/end-user-bookmarks/power-bi-selected.png)
 
 
 <!--
@@ -91,7 +103,7 @@ The order of your bookmarks can become important when you use the **View** featu
 - 책갈피 제목 표시줄에는 다음 또는 이전 책갈피로 이동할 수 있도록 화살표가 있습니다.
 - **책갈피** 창에서 **종료**를 선택하거나 책갈피 제목 표시줄에서 **X**를 선택하여 **보기** 모드를 종료할 수 있습니다.
 
-![책갈피 슬라이드 쇼](media/end-user-bookmarks/power-bi-slideshow.png)
+![책갈피 슬라이드 쇼](media/end-user-bookmarks/power-bi-view-bookmarks.png)
 
 **보기** 모드인 경우 (해당 창에 있는 X를 클릭하여) **책갈피** 창을 닫고 프레젠테이션을 위해 추가 공간을 제공할 수 있습니다. 또한 시각적 개체를 조작하는 경우와 마찬가지로 **보기** 모드인 모든 시각적 개체는 대화형이고 교차 강조 표시에 사용할 수 있습니다. 
 

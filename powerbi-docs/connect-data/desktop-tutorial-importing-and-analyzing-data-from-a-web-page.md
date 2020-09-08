@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 4321ed284a6db7b4ed021c51d9fa1abe6752b75a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 3778b1fcd4841902588df89ce785e65bec2bd3dc
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348623"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092363"
 ---
 # <a name="tutorial-analyze-webpage-data-by-using-power-bi-desktop"></a>자습서:  Power BI Desktop을 사용하여 웹 페이지 데이터 분석
 
@@ -169,7 +169,7 @@ ms.locfileid: "83348623"
 
 1. 시각화를 선택한 상태로 **서식** 아이콘을 선택한 다음, **데이터 색**을 선택하여 데이터 색 옵션을 확장합니다.
 
-   ![데이터 색 지정](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web15.png)
+   ![서식 아이콘 및 데이터 색 선택](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web15.png)
 
 1. **모두 표시**를 **설정**으로 변경한 다음 **West Germany** 옆의 드롭다운 메뉴를 선택하고 노란색을 선택합니다.
 
@@ -179,7 +179,7 @@ ms.locfileid: "83348623"
 
 1. **글꼴 색**을 빨간색으로 변경하고, **텍스트 크기**를 **12**로 변경하고, **글꼴 패밀리**를 **Segoe (Bold)** 로 변경합니다.
 
-   ![데이터 색 지정](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web17.png)
+   ![글꼴 색상, 크기 및 패밀리](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web17.png)
 
 이제 맵 시각화는 다음과 같이 표시됩니다.
 
@@ -201,7 +201,7 @@ Power BI Desktop은 다양한 데이터 원본에서 데이터를 가져오고 �
 
 ## <a name="see-also"></a>참고 항목
 
-* [다른 Power BI Desktop 자습서 참고](/power-bi/guided-learning/)
+* [Power BI를 위한 Microsoft Learn](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 * [Power BI Desktop 동영상 시청](../fundamentals/desktop-videos.md)
 * [Power BI 포럼 방문](https://go.microsoft.com/fwlink/?LinkID=519326)
 * [Power BI 블로그 참고](https://go.microsoft.com/fwlink/?LinkID=519327)

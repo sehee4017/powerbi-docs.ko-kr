@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 1e1e9afcbcae300e12580fb5f54bdb53e7822c03
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 1605e6108b990c95a995eadd9a6b3d03260001f5
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86952777"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937496"
 ---
 # <a name="analyze-in-excel"></a>Excel에서 분석
 **Excel에서 분석**을 사용하면 Power BI 데이터 세트를 Excel로 가져온 다음 피벗 테이블, 차트, 슬라이서 및 기타 Excel 기능을 사용하여 데이터 세트를 보고 상호 작용할 수 있습니다. **Excel에서 분석**을 사용하려면 먼저 Power BI에서 이 기능을 다운로드하여 설치한 후 Excel에서 사용할 데이터 세트를 하나 이상 선택해야 합니다. 
@@ -44,7 +44,7 @@ Power BI 서비스에서 제공하는 링크를 통해 **Excel에서 분석**을
 
 또는 Power BI 서비스에서 분석할 데이터 세트로 이동하여 데이터 세트, 보고서 또는 기타 Power BI 항목에 대한 **추가 옵션** 항목을 선택할 수 있습니다. 다음 이미지와 같이 표시되는 메뉴에서 **Excel에서 분석** 옵션을 선택합니다.
 
-![Excel에서 분석](media/service-analyze-in-excel/analyze-excel-01.png)
+![데이터 세트에서 Excel로 분석](media/service-analyze-in-excel/analyze-excel-01.png)
 
 어떤 방법이든 Power BI가 Excel에서 분석이 설치되어 있는지 검색하고, 그렇지 않은 경우 다운로드하라는 메시지가 표시됩니다. 
 
@@ -56,7 +56,7 @@ Power BI 서비스에서 제공하는 링크를 통해 **Excel에서 분석**을
 
 다운로드가 완료되면 설치 관리자(.msi)를 실행하여 Excel에서 분석을 설치합니다. 설치 프로세스의 이름은 Excel에서 분석과 다릅니다. 다음 이미지에 표시된 것처럼 이 이름은 **Microsoft Analysis Services OLE DB Provider**입니다(또는 이와 비슷함).
 
-![업데이트 설치 중](media/service-analyze-in-excel/analyze-excel-05.png)
+![Analysis Services OLE DB 공급자 설치 업데이트](media/service-analyze-in-excel/analyze-excel-05.png)
 
 설치가 완료되면 Power BI 서비스(또는 데이터 세트와 같은 다른 Power BI 데이터 요소)에서 보고서를 선택한 다음 Excel에서 분석할 수 있습니다.
 
@@ -80,6 +80,9 @@ Power BI 서비스에서 Excel로 분석할 데이터 세트 또는 보고서로
     ![Excel 파일 다운로드](media/service-analyze-in-excel/analyze-in-excel-download-xlsx.png)
 
     파일 이름은 파일이 파생된 데이터 세트(또는 보고서, 기타 데이터 원본)과 일치합니다. 따라서 보고서 이름이 *Quarterly Report*이면 다운로드된 파일은 **Quarterly Report.xlsx**가 됩니다.
+
+    >[!Note]
+    >Excel 분석 시 이제 ODC 파일 대신 Excel 파일을 다운로드합니다. 이를 통해 Power BI에서 내보낸 데이터에 대한 데이터 보호가 가능해집니다. 다운로드한 Excel 파일은 Excel 분석을 위해 선택한 데이터 세트의 민감도 레이블을 상속합니다.
 
 3. Excel 파일을 시작합니다.
 

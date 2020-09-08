@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 LocalizationGroup: Share your work
 ms.date: 06/28/2020
-ms.openlocfilehash: 94419bb25aa00645b22a1dad1f97fcc792c3d63d
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: 29aff96cc93de305ce78cb0cfa015954928309ff
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85939556"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937519"
 ---
 # <a name="embed-a-report-web-part-in-sharepoint-online"></a>SharePoint Online에 보고서 웹 파트 포함
 
@@ -30,6 +30,9 @@ SharePoint Online용 Power BI의 새로운 보고서 웹 파트를 사용하면 
 * Power BI Pro 라이선스 또는 Power BI 라이선스를 포함한 [Power BI Premium 용량(EM 또는 P SKU)](../admin/service-premium-what-is.md).
 * SharePoint Online용 Power BI 웹 파트는 [최신 페이지](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)가 필요합니다.
 * 포함된 보고서를 사용하려면 사용자가 Power BI 서비스에 로그인하여 Power BI 라이선스를 활성화해야 합니다.
+
+> [!Note]
+> Power BI 국가별 클라우드를 사용하는 조직의 경우 무료 라이선스가 없습니다. 이 환경에서는 Sharepoint의 포함된 보고서에 액세스하려는 모든 사용자에게 Power BI Pro 라이선스가 있어야 합니다.
 
 ## <a name="embed-your-report"></a>보고서 포함
 보고서를 SharePoint Online에 포함하려면 보고서 URL을 가져와 SharePoint Online의 Power BI 웹 파트와 함께 사용해야 합니다.

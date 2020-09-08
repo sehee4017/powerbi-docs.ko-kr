@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f7130b1565c85d8e18188c89c22dda3eda193018
-ms.sourcegitcommit: 0f807d3c74e5202b6e6a95fad49f2787928b9613
+ms.openlocfilehash: 9c5c430c09550ba9739c038aabb0dece5d88b1e1
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "88702631"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092340"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>독일 클라우드 고객을 위한 Power BI 관련 질문과 대답
 **Power BI 서비스**에는 EU/EFTA(유럽 연합/유럽 자유 무역 계약) 고객을 위해 제공되는 버전이 있는데, 주로 MCD(Microsoft Cloud Deutschland)라고 부릅니다. 이 문서에서 설명하는 **Power BI 서비스** 버전은 EU/EFTA 고객과 관련된 것이며 **Power BI 서비스** 상용 버전 또는 정부 고객에게 제공되는 Power BI 서비스와는 별개입니다.
@@ -65,7 +65,7 @@ ms.locfileid: "88702631"
 | Power BI 서비스 직접 로그인 |[https://app.powerbi.de/?noSignUpCheck=1](https://app.powerbi.de/?noSignUpCheck=1) |[https://app.powerbi.com/?noSignUpCheck=1](https://app.powerbi.com/?noSignUpCheck=1) |
 | 서비스 API |[https://api.powerbi.de/](https://api.powerbi.de/) |[https://api.powerbi.com/](https://api.powerbi.com/) |
 | 관리자의 사용자 라이선스 관리, 서비스 상태 및 지원 요청을 위한 Office 포털 |[https://portal.office.de/](https://portal.office.de/) |[https://portal.office.com/](https://portal.office.com/) |
-| AAD 인증 기관 URI |[https://login.microsoftonline.de/common/oauth2/authorize/](https://login.microsoftonline.de/common/oauth2/authorize/) |[https://login.microsoftonline.com/common/oauth2/authorize/](https://login.microsoftonline.com/common/oauth2/authorize/) |
+| Azure Active Directory 기관 URI |[https://login.microsoftonline.de/common/oauth2/authorize/](https://login.microsoftonline.de/common/oauth2/authorize/) |[https://login.microsoftonline.com/common/oauth2/authorize/](https://login.microsoftonline.com/common/oauth2/authorize/) |
 | Power BI 서비스 리소스 URI |[https://app.powerbi.com/apps](https://app.powerbi.com/apps) | |
 | Power BI 시각적 개체 라이브러리 |[https://app.powerbi.de/visuals/](https://app.powerbi.de/visuals/) |[https://app.powerbi.com/visuals/](https://app.powerbi.com/visuals/) |
 | Power BI용 애플리케이션 등록(Embedded용) |[https://app.powerbi.de/apps](https://app.powerbi.de/apps) |[https://app.powerbi.com/apps](https://app.powerbi.com/apps) |
@@ -75,6 +75,6 @@ ms.locfileid: "88702631"
 ## <a name="next-steps"></a>다음 단계
 Power BI에서는 모든 종류의 작업을 수행할 수 있습니다. 서비스에 등록하는 방법을 보여 주는 문서를 포함하여 자세한 정보 및 학습에 대해서는 다음 리소스를 확인해 보세요.
 
-* [Power BI 단계별 학습](../guided-learning/index.yml)
+* [Power BI 단계별 학습](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 * [Power BI 서비스 시작](../fundamentals/service-get-started.md)
 * [Power BI Desktop이란?](../fundamentals/desktop-what-is-desktop.md)

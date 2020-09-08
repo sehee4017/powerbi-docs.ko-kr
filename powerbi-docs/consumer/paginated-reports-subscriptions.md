@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
-ms.date: 12/03/2019
-ms.openlocfilehash: 0e4a62cf6216af49ef61651dc310c93de41664b7
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.date: 09/01/2020
+ms.openlocfilehash: 43b63da5a8107a2e30d729142e2d36f2a4f30c08
+ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87538128"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89286754"
 ---
 # <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>Power BI 서비스의 페이지를 매긴 보고서에 자신과 다른 사용자 구독 
 
@@ -27,7 +27,7 @@ ms.locfileid: "87538128"
 
 - 메일 본문에 보고서의 미리 보기 이미지를 포함할 수 있습니다.  이는 선택 사항이며, 선택한 첨부 파일 형식에 따라 첨부된 보고서의 첫 페이지와 약간 다를 수 있습니다. 
 
-- 최대 보고서 첨부 파일 크기는 25MB입니다. 
+- 최대 보고서 첨부 파일 크기는 24MB입니다. 
 
 - Azure Analysis Services 또는 Power BI 데이터 세트를 비롯하여 현재 지원되는 모든 데이터 원본에 연결된 페이지를 매긴 보고서에 대해 다른 사용자도 구독할 수 있습니다. 현재 SQL Server Reporting Services에서와 마찬가지로 보고서 첨부 파일도 사용 권한에 따라 데이터를 반영한다는 점에 유의합니다. 
 

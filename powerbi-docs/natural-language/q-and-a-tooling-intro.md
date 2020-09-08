@@ -7,12 +7,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 04/17/2020
 ms.author: maggies
-ms.openlocfilehash: 47ab35113bbf6564cbc824b48891cd9f58370c8a
-ms.sourcegitcommit: 7d505cb7cc9360211d67f1056cb488f7f15ffab4
+ms.openlocfilehash: aaa31851f338832a8c4f4fffb38f12414c859610
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "88578157"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937473"
 ---
 # <a name="intro-to-qa-tooling-to-train-power-bi-qa-preview"></a>Power BI Q&A 교육을 위한 질문 및 답변 도구 소개(미리 보기)
 
@@ -80,6 +80,11 @@ Q&A 교육 섹션에서 저장한 모든 항목이 여기에 표시되므로 정
 
 ### <a name="suggest-questions"></a>질문 제안
 
+> [!NOTE]
+> 질문 및 답변 시각적 개체의 모든 인스턴스에 대해 제안된 질문이 표시됩니다. 각 질문 및 답변 시각적 개체에 대해 별도의 제안 집합을 만들 수는 없습니다.
+> 
+> 
+
 설치를 수행하지 않고 질문 및 답변 시각적 개체는 시작하기 위한 몇 가지 질문을 제안합니다. 이러한 질문은 데이터 모델을 기반으로 자동 생성됩니다. **질문 제안**에서 자동 생성된 질문을 사용자의 질문으로 덮어쓸 수 있습니다.
 
 시작하려면 텍스트 상자에 추가할 질문을 입력합니다. 미리 보기 섹션에서 질문 및 답변 시각적 개체에 표시되는 결과를 볼 수 있습니다. 
@@ -91,11 +96,6 @@ Q&A 교육 섹션에서 저장한 모든 항목이 여기에 표시되므로 정
 :::image type="content" source="media/q-and-a-tooling-intro/power-bi-qna-save-suggest-questions.png" alt-text="제안된 질문 저장":::
  
 **저장**을 선택하여 질문 및 답변 시각적 개체에 제안된 질문의 목록을 표시합니다. 
-
-> [!NOTE]
-> 질문 및 답변 시각적 개체의 모든 인스턴스에 대해 제안된 질문이 표시됩니다. 각 질문 및 답변 시각적 개체에 대해 별도의 제안 집합을 만들 수는 없습니다.
-> 
-> 
 
 ## <a name="other-qa-settings"></a>기타 질문 및 답변 설정
 

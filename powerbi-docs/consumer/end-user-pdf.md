@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 08/05/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: e1df6634492bbaa690e7efe601455fbae8b6094b
-ms.sourcegitcommit: 0f807d3c74e5202b6e6a95fad49f2787928b9613
+ms.openlocfilehash: 72e7550666960948ff3a3155a328613c95fcf43f
+ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "88702677"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89040204"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>보고서를 Power BI에서 PDF로 내보내기
 
@@ -35,6 +35,8 @@ Power BI 서비스에서 보고서를 선택하여 캔버스에 표시합니다.
     **현재 값** 또는 **기본 값**을 선택할 수 있는 옵션이 있는 팝업이 표시됩니다. **현재 값**은 슬라이서 및 필터 값에 대한 활성 변경 내용을 포함하는 현재 상태의 보고서를 내보냅니다. 대부분의 사용자는 이 옵션을 선택합니다. 또는 **기본 값**을 선택하면 보고서가 원래 상태(*디자이너*가 공유한 대로)로 내보내지며, 변경 내용은 해당 원래 상태로 반영되지 않습니다.
     
     또한 보고서의 숨겨진 탭을 내보낼지 여부를 선택하는 확인란이 있습니다. 브라우저에 표시되는 보고서 탭만 내보내려면 이 확인란을 선택합니다. 모든 숨겨진 탭을 내보내기의 일부로 가져오려면 이 확인란을 선택 취소 상태로 둡니다. 확인란이 회색으로 표시되면 보고서에 숨겨진 탭이 포함되지 않습니다. 항목을 선택한 후 **내보내기**를 선택하여 계속 진행합니다.
+    
+    "현재 페이지만 내보내기" 옵션을 선택하여 보고서에 표시 중인 현재 페이지만 내보내도록 선택할 수도 있습니다.  이는 기본적으로 선택되어 있지 않으며 보고서에서는 모든 페이지를 내보냅니다.
     
     오른쪽 위 모서리에 진행률 표시줄이 표시됩니다. 내보내기가 완료되려면 몇 분 정도 걸릴 수 있습니다. 보고서를 내보내는 동안 Power BI에서 계속 작업을 진행할 수 있습니다.
 

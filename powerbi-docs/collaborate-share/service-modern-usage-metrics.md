@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 9aad77f162a49697466899afce44284c7f063746
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.openlocfilehash: ee51ea2bbca794730d35d1f21bc999adda3dcc98
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478156"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937542"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience-preview"></a>새 작업 영역 환경에서 사용 현황 메트릭 모니터링(미리 보기)
 
@@ -184,6 +184,10 @@ ms.locfileid: "87478156"
 1. 새 보고서가 현재 작업 영역의 보고서 탭에 저장되고 최근 콘텐츠 목록에 추가됩니다.
 
     ![보고서 탭의 새 보고서](media/service-modern-usage-metrics/power-bi-modern-usage-metrics-new-report.png)
+    
+> [!NOTE]
+> 사용 현황 메트릭 보고서의 복사본을 저장하면 일반 Power BI 보고서와 같이 처리됩니다. 뷰어 역할의 사용자를 포함하여 작업 영역에 확인 권한이 있는 모든 사용자가 액세스할 수 있게 됩니다.
+
 
 ### <a name="create-a-new-usage-report-in-power-bi-desktop"></a>Power BI Desktop에서 새 사용량 보고서 만들기
 
@@ -242,7 +246,14 @@ Excel에서 사용량 데이터에 연결하면 미리 정의된 측정값을 �
 
 ## <a name="usage-metrics-in-national-clouds"></a>국가별 클라우드의 사용 메트릭
 
-Power BI는 별도의 국가별 클라우드에서 사용할 수 있습니다. 이 클라우드는 서비스 제공, 데이터 보존, 액세스, 제어의 현지 규정을 위한 고유한 모델과 더불어 글로벌 버전의 Power BI와 동일한 수준의 보안, 개인 정보, 규정 준수, 투명성을 제공합니다. 지역 규정에 대한 이 고유한 모델로 인해 사용 메트릭을 국가별 클라우드에서 사용할 수 없습니다. 자세한 내용은 [국가별 클라우드](https://powerbi.microsoft.com/clouds/)를 참조하세요.
+Power BI는 별도의 국가별 클라우드에서 사용할 수 있습니다. 이 클라우드는 서비스 제공, 데이터 보존, 액세스, 제어의 현지 규정을 위한 고유한 모델과 더불어 글로벌 버전의 Power BI와 동일한 수준의 보안, 개인 정보, 규정 준수, 투명성을 제공합니다. 최신 사용 현황 메트릭은 현재 다음 국가별 클라우드에서 사용할 수 있습니다. 
+
+- 미국 정부 커뮤니티 클라우드
+- 미국 정부 커뮤니티 클라우드 High
+- 미국 국방부
+- 중국
+
+자세한 내용은 [국가별 클라우드](https://powerbi.microsoft.com/clouds/)를 참조하세요.
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 

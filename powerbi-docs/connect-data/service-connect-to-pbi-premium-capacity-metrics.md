@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 05/18/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 612c54a201c947309394c442ba8b8ec1ed567879
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: eb8d7d59e52414620aa888230af59ef98da9e5af
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229944"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937634"
 ---
 # <a name="connect-to-power-bi-premium-capacity-metrics"></a>Power BI Premium Capacity Metrics에 연결
 용량 모니터링은 프리미엄 용량 리소스를 최대한 활용하는 방법에 대한 합리적인 결정을 하는 데 필수적입니다. Power BI Premium Capacity Metrics 앱은 용량이 수행되는 방법에 대해 가장 심층적인 정보를 제공합니다.
@@ -63,6 +63,7 @@ ms.locfileid: "85229944"
 1. 나타나는 대화 상자에서 UTC 오프셋, 즉 협정 세계시와 위치의 시간 사이의 차이(시간)를 설정합니다. 그런 다음 **다음**을 클릭합니다.
   
    ![Power BI Premium Capacity Metrics 앱 UTC 설정 대화 상자](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-setutc-dialog.png)
+   **참고: 30분 단위는 소수 형식(예: 5.5, 2.5 등)으로 작성해야 합니다.**
 
 1. 나타나는 다음 대화 상자에서 필요한 작업은 없고, **로그인**만 선택하면 됩니다.
 

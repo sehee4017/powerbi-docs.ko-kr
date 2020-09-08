@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 07/02/2020
+ms.date: 08/28/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4083304a13b75df900e25204b54f62368be43e70
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: b31ddb3e3881f9002affcae9106b9e14bf85a964
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85939492"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092317"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Power BI Desktop에서 DirectQuery 사용
 *Power BI Desktop*을 사용하면 데이터 원본에 연결할 때 항상 데이터의 복사본을 Power BI Desktop으로 가져올 수 있습니다. 일부 데이터 원본의 경우 DirectQuery를 사용하여 데이터 원본에 직접 연결하는 것과 같은 다른 방법을 사용할 수 있습니다.
@@ -50,6 +50,8 @@ DirectQuery를 사용하는 경우 다음과 같은 몇 가지 이점이 있습�
 - **쿼리 편집기** 쿼리가 너무 복잡하면 오류가 발생합니다. 오류를 수정하려면 **쿼리 편집기**에서 문제가 되는 단계를 삭제하거나 DirectQuery를 사용하지 않고 데이터를 ‘가져옵니다’. SAP Business Warehouse와 같은 다차원 원본의 경우 **쿼리 편집기**가 없습니다.
 
 - 시간 인텔리전스 기능은 DirectQuery에서 사용할 수 없습니다. 예를 들어 DirectQuery 모드에서는 날짜 열(예: 년, 분기, 월 또는 일)에 대한 특별 작업이 지원되지 않습니다.
+
+- SSO(Single Sign-on) 인증으로 데이터 원본의 DirectQuery 테이블을 참조하는 계산된 테이블 및 계산된 열은 Power BI 서비스에서 지원되지 않습니다.
 
 - 기본 데이터 원본에 전송된 쿼리의 성능이 적절한지 확인하기 위해 측정값에서 허용되는 DAX 식에 제한 사항이 적용됩니다.
 

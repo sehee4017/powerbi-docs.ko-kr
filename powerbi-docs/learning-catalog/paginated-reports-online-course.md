@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: d4d5386a7e56618a761e541ba7942778a09a7008
-ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
+ms.openlocfilehash: 533dba01bb975d774741643771415aaafa8f155c
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "84427462"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092294"
 ---
 # <a name="power-bi-paginated-reports-in-a-day-course"></a>페이지를 매긴 Power BI 보고서 하루에 끝내기 과정
 
@@ -83,28 +83,29 @@ ms.locfileid: "84427462"
 
 프레젠테이션 콘텐츠와 8가지 실습 랩으로 구성된 자율 학습 키트를 다운로드하여 설정할 수 있습니다.
 
-1. [이 링크](https://aka.ms/priad-student)를 사용하여 자율 학습 키트(.zip)를 사용자 PC에 로컬로 다운로드합니다.
-1. 파일 속성을 열고 “차단 해제”를 선택합니다(Windows에서 잠재적으로 신뢰할 수 없는 것으로 파일에 플래그를 지정할 수 있음).
-1. 파일 시스템의 폴더에 파일 내용을 추출합니다. 쉽게 찾을 수 있는 폴더를 만들고 **Training**으로 이름을 지정하는 것이 좋습니다. 랩 문서에서는 해당 위치가 **&lt;CourseFolder&gt;** 입니다.
+1. [이 링크](https://aka.ms/priad-student)를 사용하여 자율 학습 키트(.zip)를 사용자 PC에 로컬로 다운로드합니다(Windows 7 이상).
+1. 압축 파일의 파일 속성을 열고 "차단 해제"를 선택합니다(Windows에서 잠재적으로 신뢰할 수 없는 것으로 파일에 플래그를 지정할 수 있음).
+1. 루트 과정 폴더를 만듭니다. "C:\Training"과 같은 이름을 지정하는 것이 좋습니다. 랩 중에 과정 파일에 액세스해야 하므로 이 위치를 잊지 마세요. 모든 랩 문서에서 이 위치를 **&lt;CourseFolder&gt;** 로 참조합니다.
+1. 루트 과정 폴더에 **PowerBIPRIAD-Student.zip** 파일의 콘텐츠를 압축 해제합니다.
+1. **&lt;CourseFolder&gt;\PowerBIPRIAD** 폴더에서 **ReadMe.txt** 파일을 열고 설치 지침을 따릅니다.
 
-압축을 풀면 **PowerBIPRIAD** 폴더가 표시되며, 여기서 다음 폴더를 찾을 수 있습니다.
-
-- **Lab01A**(및 기타 모든 랩 폴더). 랩 폴더에는 자산과 솔루션 파일을 포함할 수 있는 랩 문서와 랩 리소스가 들어 있습니다.
-- **MySolution**: 이 폴더에는 솔루션 파일이 저장됩니다. 랩 지침에서 해당 폴더를 사용해야 하는 경우를 알려줍니다.
-- **Presentation**: 이 폴더에는 PDF 문서로 제공되는 과정 프레젠테이션 파일이 들어 있습니다.
-
-### <a name="get-started-with-the-kit"></a>키트 시작
-
-먼저 온라인 과정을 시청하는 것이 좋습니다. **&lt;CourseFolder&gt;\PowerBIPRIAD\Presentation\PowerBIPRIAD_Presentation.pdf** 파일을 열어 프레젠테이션 이론을 다시 참조할 수 있습니다. 프레젠테이션에는 이론 실습 시간을 나타내는 8개의 랩 슬라이드가 포함되어 있습니다. 관련 콘텐츠를 찾는 데 도움이 되는 많은 리소스 링크도 포함되어 있습니다.
-
-첫 번째 랩을 시작할 준비가 되면 **&lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf** 파일을 엽니다. 이 문서에서는 Power BI 서비스에 로그인하고 데이터 세트를 업로드한 다음, [Power BI Report Builder](https://aka.ms/pbireportbuilder)를 설치하는 과정을 안내합니다.
+> [!TIP]
+> **ReadMe.txt** 파일, 랩 문서, 프레젠테이션 파일(PDF)은 영어를 비롯해 다음의 여덟 가지 언어로 제공됩니다.
+> - 독일어(de-DE)
+> - 스페인어(es-ES)
+> - 프랑스어(fr-FR)
+> - 이탈리아어(it-IT)
+> - 일본어(ja-JP)
+> - 한국어(ko-KR)
+> - 포르투갈어(브라질, pt-BR)
+> - 중국어 간체(zh-CN)
 
 > [!NOTE]
 > 고유의 Power BI 계정이 있어야 합니다. 계정이 없는 경우 [개인으로 Power BI 가입](../fundamentals/service-self-service-signup-for-power-bi.md)을 참조하세요.
 >
 > Power BI Desktop 파일을 작업 영역에 게시하려면 Power BI에 로그인해야 합니다. 게시하면 보고서 데이터 원본으로 사용되는 데이터 세트가 생성됩니다. 데이터 세트를 보고서 데이터 원본으로 사용하기 위해 Power BI Pro 라이선스 또는 Power BI Premium 구독이 필요하지는 않습니다.
 >
-> 일부 랩 작업에서는 페이지를 매긴 보고서를 작업 영역에 게시해야 합니다. 페이지를 매긴 보고서는 페이지를 매긴 보고서 워크로드가 사용하도록 설정된 [전용 용량](../admin/service-premium-what-is.md#dedicated-capacities)의 작업 영역에 저장된 경우에만 열 수 있습니다. 적절한 작업 영역에 대한 액세스 권한이 없는 경우 보고서 게시 데모 비디오를 볼 수 있는 링크가 대신 제공됩니다.
+> 일부 랩 작업에서는 페이지를 매긴 보고서를 작업 영역에 게시해야 합니다. 페이지를 매긴 보고서는 페이지를 매긴 보고서 워크로드가 사용하도록 설정된 [전용 용량](../admin/service-premium-what-is.md#dedicated-capacities)의 작업 영역에 저장된 경우에만 열 수 있습니다. 적절한 작업 영역에 대한 액세스 권한이 없는 경우 랩에서 보고서 게시 데모 동영상을 시청할 수 있는 링크가 대신 제공됩니다.
 
 ## <a name="instructor-kit"></a>강사 키트
 
