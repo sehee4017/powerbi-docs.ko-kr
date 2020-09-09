@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 58eb9af4975c0afeb12a71a880711ddd73e64d50
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 59f340e6325cf846d1b0453a94a1015b50a987c4
+ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803499"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89402005"
 ---
 # <a name="deploy-to-power-bi"></a>Power BI에 배포
 
@@ -87,7 +87,7 @@ IT 관리형 솔루션 또는 비즈니스 생산성에 중요한 솔루션의 �
 
 - **변경 관리:** 필요한 경우 배포하기 위한 승인을 구하고 표준 변경 관리 방법을 사용하여 사용자 집단에 배포를 전달합니다. 프로덕션 배포가 허용되는 동안 승인된 변경 관리 창이 표시될 수 있습니다. 일반적으로 IT 관리형 콘텐츠에 적용되며 셀프 서비스 콘텐츠에 적용되는 빈도는 훨씬 적습니다.
 - **롤백 계획:** 마이그레이션을 통해 처음으로 새 솔루션을 마이그레이션하는 것으로 예상됩니다. 콘텐츠가 이미 있으면 필요한 경우 이전 버전으로 되돌릴 계획을 세우는 것이 좋습니다. 이를 위해 이전 버전의 Power BI Desktop 파일을 포함할 수 있습니다(SharePoint 또는 OneDrive 버전 관리 사용).
-- **연결 문자열 및 매개 변수:** 테스트와 프로덕션 간에 데이터 원본이 다른 경우 데이터 세트 연결 문자열을 조정합니다. 이를 위해 [매개 변수화](/connect-data/service-parameters.md)를 효과적으로 사용할 수 있습니다.
+- **연결 문자열 및 매개 변수:** 테스트와 프로덕션 간에 데이터 원본이 다른 경우 데이터 세트 연결 문자열을 조정합니다. 이를 위해 [매개 변수화](../connect-data/service-parameters.md)를 효과적으로 사용할 수 있습니다.
 - **데이터 새로 고침:** 가져온 데이터 세트를 위한 [데이터 세트 새로 고침을 예약](../connect-data/refresh-scheduled-refresh.md)합니다.
 - **작업 영역 콘텐츠**: 프로덕션 작업 영역에 데이터 세트 및 보고서를 게시하고 대시보드를 만듭니다. 콘텐츠가 프리미엄 용량의 작업 영역에 게시된 경우 [배포 파이프라인](../create-reports/deployment-pipelines-overview.md)은 개발, 테스트 및 프로덕션 작업 영역에 배포하는 프로세스를 간소화할 수 있습니다.
 - **앱:** 앱이 콘텐츠 배포 전략의 일부인 경우 프로덕션 작업 영역의 콘텐츠를 사용하여 [앱](../consumer/end-user-apps.md)을 게시합니다.

@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 29b821dc44f7eacb07f0df31100df2ff837c2189
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 60a22946ccde642987e748904d0dc7fe636ec700
+ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803397"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89401982"
 ---
 # <a name="gather-requirements-to-migrate-to-power-bi"></a>Power BI로 마이그레이션하기 위한 요구 사항 수집
 
@@ -67,7 +67,7 @@ ms.locfileid: "88803397"
 - **데이터 구조 및 정리 요구 사항:** 각 필수 데이터 원본의 데이터 구조 및 [데이터 정리](../transform-model/desktop-query-overview.md) 작업이 필요한 범위를 결정합니다.
 - **데이터 통합:** 여러 데이터 원본이 있는 경우 데이터 통합을 처리하는 방법 및 각 모델 테이블 간에 [관계](../transform-model/desktop-create-and-manage-relationships.md)를 정의하는 방법을 평가합니다. 모델을 단순화하고 [크기를 줄이는](import-modeling-data-reduction.md) 데 필요한 특정 데이터 요소를 식별합니다.
 - **허용되는 데이터 대기 시간:** 각 데이터 원본의 데이터 대기 시간 요구 사항을 결정합니다. 사용할 [데이터 스토리지 모드](../transform-model/desktop-storage-mode.md)에 관한 결정에 영향을 줍니다. 가져오기 모델 테이블의 데이터 새로 고침 빈도도 알아야 합니다.
-- **데이터 볼륨 및 확장성:** [대규모 모델 지원](/admin/service-premium-large-models.md)과 DirectQuery 또는 [복합 모델](../transform-model/desktop-composite-models.md) 디자인에 관한 결정에 영향을 주는 데이터 볼륨 기대치를 평가합니다. 기록 데이터 요구 사항과 관련된 고려 사항도 알아야 합니다. 더 큰 데이터 세트의 경우 [증분 데이터 새로 고침](../admin/service-premium-incremental-refresh.md) 규칙도 결정해야 합니다.
+- **데이터 볼륨 및 확장성:** [대규모 모델 지원](../admin/service-premium-large-models.md)과 DirectQuery 또는 [복합 모델](../transform-model/desktop-composite-models.md) 디자인에 관한 결정에 영향을 주는 데이터 볼륨 기대치를 평가합니다. 기록 데이터 요구 사항과 관련된 고려 사항도 알아야 합니다. 더 큰 데이터 세트의 경우 [증분 데이터 새로 고침](../admin/service-premium-incremental-refresh.md) 규칙도 결정해야 합니다.
 - **측정값, KPI 및 비즈니스 규칙:** 측정값, KPI 및 비즈니스 규칙을 평가합니다. 해당 항목은 데이터 세트 또는 데이터 통합 프로세스에서 논리를 적용할 위치에 관한 결정에 영향을 줍니다.
 - **마스터 데이터 및 데이터 카탈로그:** 주의가 필요한 마스터 데이터 문제가 있는지를 고려합니다. 엔터프라이즈 데이터 카탈로그와 통합이 검색 기능 개선, 정의 액세스 또는 조직에서 허용되는 일관된 용어 생성에 적합한지 여부를 결정합니다.
 - **보안 및 데이터 프라이버시:** [행 수준 보안](../admin/service-admin-rls.md) 요구 사항을 포함하여 데이터 세트의 특정 보안 또는 데이터 프라이버시 고려 사항이 있는지를 확인합니다.

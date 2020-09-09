@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5d50f6dc1f1671ae8eb6695d9d39443367dfc20e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ef6fef8535e0fb6013e363a23f4736368a66720c
+ms.sourcegitcommit: d91c060913fcb526f9a01dc48e218485daf55b4e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85233468"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "89562447"
 ---
 # <a name="creating-a-relative-date-slicer-and-filter-in-power-bi"></a>Power BI에서 상대 날짜 슬라이서 및 필터 만들기
 
@@ -108,5 +108,5 @@ Power BI 동료와 보고서를 공유하려면 개별 Power BI Pro 라이선스
 
 ## <a name="next-steps"></a>다음 단계
 
-- [Power BI에서 상대 날짜 슬라이서 및 필터 사용](desktop-slicer-filter-date-range.md)
+- [Power BI에서 상대 시간 슬라이서 및 필터 사용](../create-reports/slicer-filter-relative-time.md)
 - [Power BI의 슬라이서](power-bi-visualization-slicers.md)

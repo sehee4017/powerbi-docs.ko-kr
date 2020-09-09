@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6683efbf9fa9dea9215914c097f249362fbffff2
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b969fa3dd04f25c8921db563a89b11125216c752
+ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278816"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89401959"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Power BI의 조직 시각적 개체
 
@@ -32,7 +32,7 @@ Power BI에서 Power BI 시각적 개체를 사용하여 사용자에게 맞는 
 
 ## <a name="administer-organizational-power-bi-visuals"></a>조직의 Power BI 시각적 개체 관리
 
-조직에서 조직의 Power BI 시각적 개체를 관리하고 배포하는 방법을 자세히 알아보려면 [조직의 Power BI 시각적 개체를 배포하고 관리하는 방법 자세히 알아보기](https://go.microsoft.com/fwlink/?linkid=866790)를 참조하세요.
+조직에서 조직의 Power BI 시각적 개체를 관리하고 배포하는 방법을 자세히 알아보려면 [조직의 Power BI 시각적 개체를 배포하고 관리하는 방법 자세히 알아보기](../../admin/organizational-visuals.md)를 참조하세요.
 
 > [!WARNING]
 > 파일에서 설치된 Power BI 시각적 개체는 보안 또는 개인 정보 위험이 있는 코드를 포함할 수 있습니다. 조직 리포지토리에 배포하기 전에 Power BI 시각적 개체의 작성자와 원본을 신뢰할 수 있는지 확인하세요.
