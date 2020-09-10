@@ -118,6 +118,8 @@
               href: report-performance-troubleshoot.md
             - name: 배포 파이프라인 모범 사례
               href: ../create-reports/deployment-pipelines-best-practices.md
+            - name: Power BI 활동 로그에 액세스
+              href: admin-activity-log.md
     - name: Power BI로 마이그레이션
       items:
         - name: 마이그레이션 개요
