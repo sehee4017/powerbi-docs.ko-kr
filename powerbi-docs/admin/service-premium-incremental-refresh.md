@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/22/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: a9045c5c088926b24bb9f71e2adf558da6ffa597
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 02716f895d84a7aa49ab7f1d48d60372b3546409
+ms.sourcegitcommit: b943ce58c2c079cb18fc5cf23cc609ead1dc9906
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227439"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "89443332"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Power BI의 증분 새로 고침
 
@@ -26,12 +26,11 @@ ms.locfileid: "85227439"
 > * **리소스 사용을 줄여줌** - 새로 고칠 데이터가 적어지므로 메모리 및 기타 리소스 사용을 전반적으로 줄여줍니다.
 
 > [!NOTE]
-> 이제 Power BI Pro, Premium 및 공유 구독과 데이터 세트에 증분 새로 고침을 사용할 수 있습니다. 
+> 이제 Power BI Pro, Premium 및 공유 구독과 데이터 세트에 증분 새로 고침을 사용할 수 있습니다.
 
 ## <a name="configure-incremental-refresh"></a>증분 새로 고침 구성
 
 증분 새로 고침 정책은 Power BI Desktop에서 정의되고, Power BI 서비스에 게시될 때 적용됩니다.
-
 
 ### <a name="filter-large-datasets-in-power-bi-desktop"></a>Power BI Desktop에서 큰 데이터 세트 필터링
 
@@ -99,18 +98,17 @@ ms.locfileid: "85227439"
 
 #### <a name="refresh-ranges"></a>범위 새로 고침
 
-다음 예제에서는 5년 동안의 전체 달력 연도의 데이터와 현재 연도의 현재 날짜까지의 데이터를 저장하고 10일간의 데이터를 증분 방식으로 새로 고치는 새로 고침 정책을 정의합니다. 첫 번째 새로 고침 작업은 데이터 기록을 로드합니다. 이후의 새로 고침은 증분 방식으로 이루어지며, (매일 실행되도록 예약된 경우) 다음 작업을 수행합니다.
+다음 예제에서는 5년 동안의 전체 달력 연도의 데이터와 현재 연도의 현재 날짜까지의 데이터를 저장하고 10일 전체의 데이터를 증분 방식으로 새로 고치는 새로 고침 정책을 정의합니다. 첫 번째 새로 고침 작업은 데이터 기록을 로드합니다. 이후의 새로 고침은 증분 방식으로 이루어지며, (매일 실행되도록 예약된 경우) 다음 작업을 수행합니다.
 
 - 새 날짜의 데이터를 추가합니다.
 
-- 현재 날짜까지 10일을 새로 고칩니다.
+- 현재 날짜까지 10일 전체를 새로 고칩니다.
 
 - 현재 날짜에서 5년을 초과하는 오래된 역년을 삭제합니다. 예를 들어 현재 날짜가 2019년 1월 1일이면 2013년이 제거됩니다.
 
 Power BI 서비스의 첫 번째 새로 고침에서 만 5년 동안의 데이터를 모두 가져오는 데 시간이 오래 걸릴 수 있습니다. 이후의 새로 고침은 짧은 시간 내에 완료될 수 있습니다.
 
 ![범위 새로 고침](media/service-premium-incremental-refresh/refresh-ranges.png)
-
 
 #### <a name="current-date"></a>현재 날짜
 

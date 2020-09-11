@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 08/10/2020
+ms.date: 09/03/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 19b4d64039333a18405ac57d98773e9e23857a18
-ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
+ms.openlocfilehash: e819902328f49ab06a65869066ab2b2dabce6610
+ms.sourcegitcommit: 1f56cdfc05801ffaf41e3b68dc1eb02142acdab3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "88049802"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "89490465"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
@@ -141,7 +141,7 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 
 다음 이미지에서는 **테넌트 설정** 탭의 여러 설정을 보여 줍니다.
 
-![테넌트 설정](media/service-admin-portal/powerbi-admin-tenant-settings.png)
+![테넌트 설정](media/service-admin-portal/powerbi-admin-tenant-settings-2.png)
 
 > [!NOTE]
 > 설정 변경 내용이 조직의 모든 사용자에게 적용되려면 최대 15분이 걸릴 수 있습니다.
@@ -251,18 +251,36 @@ Microsoft 365 그룹을 기반으로 하는 클래식 작업 영역의 경우 �
 
 ## <a name="export-and-sharing-settings"></a>내보내기 및 공유 설정
 
-### <a name="share-content-with-external-users"></a>외부 사용자와 콘텐츠 공유
+### <a name="allow-azure-active-directory-guest-users-to-access-power-bi"></a>Azure Active Directory 게스트 사용자가 Power BI에 액세스할 수 있도록 허용
 
-조직의 사용자는 조직 외부의 사용자와 대시보드, 보고서 및 앱을 공유할 수 있습니다. [외부 공유](../collaborate-share/service-share-dashboards.md#share-a-dashboard-or-report-outside-your-organization)에 관해 자세히 알아보세요.
+이 설정이 사용되면 Azure AD B2B(Azure Active Directory Business-to-Business) 게스트 사용자가 Power BI에 액세스할 수 있습니다. 이 설정이 사용되지 않으면 게스트 사용자가 Power BI에 액세스하려고 할 때 오류가 발생합니다. 전체 조직에서 이 설정이 사용되지 않으면 사용자가 자신의 조직에 게스트를 초대하거나 개별 게스트 사용자에게 사용 권한을 할당하지 못하게 됩니다. Power BI 액세스할 수 있는 게스트 사용자를 제어하려면 특정 보안 그룹 옵션을 사용하세요.
 
-![외부 사용자 설정](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
+![Azure Active Directory 게스트 사용자가 Power BI에 액세스할 수 있도록 허용](media/service-admin-portal/powerbi-admin-allow-aad-b2b-guests.png)
 
-다음 이미지는 외부 사용자와 공유할 때 표시되는 메시지를 보여 줍니다.
+### <a name="allow-giving-permissions-to-existing-azure-active-directory-guest-users"></a>기존 Azure Active Directory 게스트 사용자에게 사용 권한을 부여할 수 있도록 허용
 
-![외부 사용자와 공유](media/service-admin-portal/powerbi-admin-sharing-external.png)  
+이 설정이 사용되면 조직의 사용자가 Power BI에서 사용 권한 또는 공유 환경을 통해 개별 게스트 사용자에게 사용 권한을 부여할 수 있습니다. 특정 사용자에 대해 사용되지 않으면 해당 사용자는 게스트 사용자를 Power BI에 초대하거나 사용 권한을 할당할 수 없습니다.
+
+![기존 Azure Active Directory 게스트 사용자에게 사용 권한을 부여할 수 있도록 허용](media/service-admin-portal/powerbi-admin-allow-grant-access-to-aad-b2b-guests.png)
+
 
 > [!IMPORTANT]
-> 이 옵션은 Power BI 사용자가 조직에서 Power BI를 통해 외부 사용자를 Azure AD B2B(Azure Active Directory B2B) 게스트 사용자로 초대할 수 있는지 여부를 제어합니다. 사용하도록 설정된 경우, Azure AD에서 게스트 초대자 역할을 갖는 사용자는 보고서, 대시보드 및 Power BI 앱을 공유할 때 외부 메일 주소를 추가할 수 있습니다. 외부 수신자는 Azure AD B2B 게스트 사용자로 조직에 가입하라는 초대를 받게 됩니다. 이 설정을 비활성화할 경우 이 조직에서 기존에 Azure AD B2B 게스트 사용자가 된 외부 사용자는 계속해서 Power BI의 사용자 선택 UI에 표시되고 항목, 작업 영역 및 앱에 대한 액세스 권한을 부여받을 수 있습니다.
+>  이 설정은 모든 경우에 게스트 사용자에게 사용 권한을 할당하는 것을 방지하지 않습니다. 이 설정은 개별 게스트 사용자에게 액세스 권한을 부여하는 것만 방지합니다. 보안, Office 365 그룹 또는 배포 목록과 같은 사용자 그룹을 통해 여전히 게스트 사용자에게 액세스 권한을 부여할 수 있습니다. 
+
+게스트 사용자에게 사용 권한을 부여할 수 없는 사용자가 이 작업을 수행하려고 하면 UI에 오류 메시지가 표시됩니다. 또한 항목에 대한 권한을 변경할 때, 게스트에게 사용 권한을 부여할 수 없는 사용자는 항목에 대한 사용 권한을 부여하거나 변경하기 전에 액세스 목록에서 게스트 사용자를 제거해야 합니다. 
+
+### <a name="invite-external-users-to-your-organization"></a>조직에 외부 사용자 초대 
+
+조직에서 **조직에 외부 사용자 초대** 설정을 사용하면, Power BI 공유 및 사용 권한 환경을 통해 새 외부 사용자를 조직에 초대할 수 있는지를 선택할 수 있습니다. 이 설정이 사용되지 않으면, 외부 사용자가 아직 조직의 게스트 사용자가 아닌 경우 Power BI를 통해 조직에 추가할 수 없습니다. 
+
+![조직에 외부 사용자 초대](media/service-admin-portal/powerbi-admin-allow-invite-aad-b2b-guests.png)
+
+> [!IMPORTANT]
+> 이 설정의 이전 이름은 “외부 사용자와 콘텐츠 공유”였습니다. 수정된 이름은 설정이 수행하는 작업을 좀 더 정확하게 반영합니다.
+
+외부 사용자를 조직에 초대하려는 사용자에게는 Azure Active Directory 게스트 초대자 역할도 필요합니다. 이 설정은 Power BI를 통해 초대하는 기능만 제어합니다. 
+
+특정 사용자에 대해 **기존 Azure Active Directory 게스트 사용자에게 사용 권한을 부여할 수 있도록 허용** 설정이 사용되지 않는 경우, 해당 사용자는 Power BI를 통해 외부 사용자를 조직에 초대할 수도 없습니다.
 
 ### <a name="publish-to-web"></a>웹에 게시
 
@@ -550,7 +568,7 @@ Power BI 시각적 개체 테넌트 설정을 비롯한 모든 Power BI 시각�
 
 **작업 영역** 탭에 각 작업 영역의 *상태*가 표시됩니다. 다음 표에서 각 상태의 자세한 의미를 확인할 수 있습니다.
 
-|주  |Description  |
+|주  |설명  |
 |---------|---------|
 | **활성** | 일반 작업 영역입니다. 사용량이나 콘텐츠에 대한 정보는 알 수 없으며, 작업 영역 자체가 ‘일반’ 작업 영역이라는 사실만 알 수 있습니다. |
 | **분리됨** | 관리 사용자가 없는 작업 영역입니다. |

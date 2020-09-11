@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: b412af6899b9299fc4fde8ea217569747a445e45
-ms.sourcegitcommit: 52f365af6ea5359e39d4d4547f1d61e5e0d08c5f
+ms.openlocfilehash: e2e2f924f190b7c5904cfe29d1d3cae341974f38
+ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "84795142"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89402051"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded를 사용하는 행 수준 보안
 
@@ -66,11 +66,11 @@ RLS는 Power BI Desktop에서 작성됩니다. 데이터 세트 및 보고서를
 3. **District** 테이블에서 다음의 DAX 식을 입력합니다. **[District Manager] = USERNAME()**
 
     ![RLS 규칙의 DAX 문](media/embedded-row-level-security/powerbi-embedded-new-role-dax.png)
-4. 규칙이 작동하는지 확인하려면 **모델링** 탭에서 **역할로 보기**를 선택하고 앞서 만든 **관리자** 역할과 함께 **다른 사용자**를 선택합니다. **AndrewMa**를 사용자로 입력합니다.
+4. 규칙이 작동하는지 확인하려면 **모델링** 탭에서 **역할로 보기**를 선택하고 앞서 만든 **관리자** 역할과 함께 **다른 사용자**를 선택합니다. **Andrew Ma**를 사용자로 입력합니다.
 
     ![역할 대화 상자로 보기](media/embedded-row-level-security/powerbi-embedded-new-role-view.png)
 
-    보고서에 **AndrewMa**로 로그인한 경우처럼 데이터가 표시됩니다.
+    마치 **Andrew Ma**로 로그인한 것처럼 보고서에 데이터가 표시됩니다.
 
 필터링을 적용하면 여기에서 수행한 방식으로 **District**, **Store** 및 **Sales** 테이블에서 모든 레코드를 필터링합니다. 그러나 **Sales**와 **Time** 간 관계의 필터 방향으로 인해 **Sales**와 **Item** 및 **Item**과 **Time** 테이블이 필터링되지 않습니다. 양방향 교차 필터링에 대한 자세한 내용은 [SQL Server Analysis Services 2016 및 Power BI Desktop에서 양방향 교차 필터링](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) 백서를 다운로드합니다.
 

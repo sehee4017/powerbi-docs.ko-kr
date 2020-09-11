@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 05/20/2020
+ms.date: 09/04/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: c62ee84c919e5910d1c1c9e111f19c7b74889b04
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1b0f63d200a94cb7e6524602203864281efe51c0
+ms.sourcegitcommit: 1f56cdfc05801ffaf41e3b68dc1eb02142acdab3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227222"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "89490356"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>서비스 주체를 사용하여 Premium 작업 영역 및 데이터 세트 작업 자동화
 
@@ -63,11 +63,11 @@ Power BI **관리 포털** > **테넌트 설정**에서 **서비스 주체가 Po
 
 1. Power BI 서비스에서 작업 영역에 대해 **기타** > **작업 영역 액세스**를 선택합니다.
 
-    ![작업 영역 설정](media/service-premium-service-principal/workspace-access.png)
+    ![작업 영역 액세스 설정](media/service-premium-service-principal/workspace-access.png)
 
 2. 애플리케이션 이름으로 검색하고 서비스 주체를 **관리자** 또는 **멤버**로 작업 영역에 추가합니다.
 
-    ![작업 영역 관리자](media/service-premium-service-principal/add-service-principal-in-the-UI.png)
+    ![액세스 대화 상자](media/service-premium-service-principal/add-service-principal-in-the-UI.png)
 
 ## <a name="connection-strings-for-the-xmla-endpoint"></a>XMLA 엔드포인트의 연결 문자열
 
@@ -96,7 +96,7 @@ Invoke-ProcessTable -Server "powerbi://api.powerbi.com/v1.0/myorg/myworkspace" -
 
 ### <a name="amo-and-adomd"></a>AMO 및 ADOMD
 
-클라이언트 애플리케이션 및 웹앱에 연결할 때 NuGet의 [AMO 및 ADOMD 클라이언트 라이브러리](https://docs.microsoft.com/azure/analysis-services/analysis-services-data-providers) 버전 15.0.2 이상 설치 가능한 패키지는 다음 구문 `app:AppID` 및 암호 또는 `cert:thumbprint`를 사용하여 연결 문자열에서 서비스 사용자를 지원합니다.
+클라이언트 애플리케이션 및 웹앱에 연결할 때 NuGet의 [AMO 및 ADOMD 클라이언트 라이브러리](https://docs.microsoft.com/azure/analysis-services/analysis-services-data-providers) 버전 15.1.42.26(2020년 6월) 이상 설치 가능한 패키지는 다음 구문 `app:AppID` 및 암호 또는 `cert:thumbprint`를 사용하여 연결 문자열에서 서비스 사용자를 지원합니다.
 
 다음 예제에서는 `appID` 및 `password`가 모델 데이터베이스 새로 고침 작업을 수행하는 데 사용됩니다.
 

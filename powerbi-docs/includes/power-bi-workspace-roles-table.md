@@ -5,15 +5,15 @@ services: powerbi
 author: maggiesMSFT
 ms.service: powerbi
 ms.topic: include
-ms.date: 07/24/2020
+ms.date: 09/04/2020
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: 6a2fa7aca043c553c9174db81ff575853e526e06
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: b4b73b71a944fbb34d53be05cacc39c18e4226de
+ms.sourcegitcommit: 2cf8159535c114045e236c076a711638cfd7d2c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87260224"
+ms.lasthandoff: 09/07/2020
+ms.locfileid: "89512794"
 ---
 |기능   | 관리자  | 멤버  | 참가자  | 뷰어 |
 |---|---|---|---|---|
@@ -36,7 +36,7 @@ ms.locfileid: "87260224"
 | 항목을 보고 상호 작용합니다.<sup>5</sup> |  ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png) | ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png)  |
 | 작업 영역 데이터 흐름에 저장된 데이터 읽기 | ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png) | ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png) | ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png) | ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png) |
 
-<sup>1</sup> 참가자는 앱 메타데이터를 업데이트할 수 있지만 새 앱을 게시하거나 앱에 대한 권한이 있는 사용자를 변경할 수 없습니다([작업 영역 관리자가 이 권한을 참가자에게 위임](../collaborate-share/service-create-the-new-workspaces.md#security-settings)하는 경우).
+<sup>1</sup> 작업 영역 관리자가 권한을 위임하는 경우 참가자는 [작업 영역과 연결된 앱을 업데이트](../collaborate-share/service-create-the-new-workspaces.md#allow-contributors-to-update-the-app)할 수 있습니다. 그러나 새 앱을 게시하거나 권한이 있는 사용자를 변경할 수는 없습니다.
 
 <sup>2</sup> 다시 공유 권한이 있는 참가자 및 뷰어도 작업 영역에서 항목을 공유할 수 있습니다.
 

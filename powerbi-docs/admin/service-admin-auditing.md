@@ -10,12 +10,12 @@ ms.date: 08/20/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 7b5a96f4b592789c04ebaca5418e470d546ff788
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 27d74a4333add1feebc3522ce34d0a2bacaa69f7
+ms.sourcegitcommit: 2cf8159535c114045e236c076a711638cfd7d2c8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88802977"
+ms.lasthandoff: 09/07/2020
+ms.locfileid: "89512059"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Power BI에서 사용자 활동 추적
 
@@ -108,6 +108,9 @@ $activities.Count
 $activities[0]
 
 ```
+
+> [!NOTE]
+> PowerShell 샘플을 사용하면 Power BI 활동 로그 이벤트를 필터링 및 검색하는 방법을 배우는 데 도움이 됩니다. 자세한 내용은 [Power BI 활동 로그에 액세스](../guidance/admin-activity-log.md)를 참조하세요.
 
 ## <a name="use-the-audit-log"></a>감사 로그 사용
 
@@ -369,8 +372,8 @@ Exchange Online에 연결하는 방법에 대한 자세한 내용은 [Exchange O
 
 ## <a name="next-steps"></a>다음 단계
 
-[Power BI 관리란?](service-admin-administering-power-bi-in-your-organization.md)  
-
-[Power BI 관리 포털](service-admin-portal.md)  
-
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+- [Power BI 관리란?](service-admin-administering-power-bi-in-your-organization.md)
+- [Power BI 관리 포털](service-admin-portal.md)
+- [Power BI 활동 로그에 액세스](../guidance/admin-activity-log.md)
+- 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+- 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com/)

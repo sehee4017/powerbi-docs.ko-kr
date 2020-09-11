@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/02/2020
+ms.date: 09/02/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 75b05449de47f39fc95fd7cf42f9325b7a5d0ee9
-ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
+ms.openlocfilehash: 2b5481e3d0b84f81a9cdee827df27c90e32a7e84
+ms.sourcegitcommit: ae9e698b082598f37242080a3ad3dd0b3be08478
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88638776"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "89474819"
 ---
 # <a name="power-bi-for-us-government-customers"></a>미국 정부 기관 고객용 Power BI
 
@@ -33,6 +33,14 @@ Power BI 미국 정부 기관 구독을 획득하고 사용자에게 라이선�
 > 이미 상용 환경에 Power BI를 배포했고 미국 정부 클라우드로 마이그레이션하려는 경우 Microsoft 365 정부 플랜에 새로운 Power BI Pro 구독을 추가해야 합니다. 다음으로 상용 데이터를 미국 정부 기관용 Power BI 서비스에 복제하고 사용자 계정에서 상용 라이선스 할당을 제거한 다음 사용자 계정에 Power BI Pro 정부 기관 라이선스를 할당합니다.
 >
 >
+### <a name="buy-a-power-bi-pro-subscription-for-government-customers"></a>정부 고객용 Power BI Pro 구독 구입
+
+Microsoft 365를 배포한 후 Power BI Pro 구독을 추가할 수 있습니다. [미국 정부 기관 등록](service-govus-signup.md)의 단계별 지침에 따라 Power BI Pro 정부 서비스를 구매합니다. Power BI를 사용해야 하는 모든 사용자에게 충분한 라이선스를 구입한 다음 개별 사용자 계정에 할당합니다.
+
+> [!IMPORTANT]
+> Power BI 미국 정부는 ‘무료’ 라이선스로 제공되지 않습니다. 정부 커뮤니티 클라우드에 액세스하려면 각 사용자에게 ‘Pro’ 라이선스가 할당되어야 합니다. 무료 라이선스가 할당된 사용자 계정은 상용 클라우드에만 액세스할 권한이 있으며, 인증 및 액세스 문제가 발생합니다. Power BI Premium을 구매한 경우 사용자 액세스를 사용하기 위해 Pro 라이선스를 할당할 필요가 없습니다.  보고서가 프리미엄 용량에 게시되는 경우 조직의 사용자가 공유되는 보고서에 액세스할 수 있습니다. 라이선스 유형 간의 차이점을 검토하려면 [라이선스 유형별 Power BI 서비스 기능](../fundamentals/service-features-license-type.md)을 참조하세요.
+>
+
 ## <a name="government-cloud-instances"></a>정부 클라우드 인스턴스
 
 Microsoft 365는 다양한 규정 준수 요구 사항을 충족하기 위해 다양한 정부 기관용 환경을 제공합니다. 각 등록에 대한 자세한 내용은 다음을 참조하세요.
@@ -53,14 +61,6 @@ Power BI에 연결하기 위한 URL은 정부 사용자와 상용 사용자 간�
 
 계정이 둘 이상의 클라우드에 설정되어 있을 수 있습니다. 계정이 이런 방식으로 설정된 경우 Power BI Desktop에 로그인할 때 연결할 클라우드를 선택할 수 있습니다.
 
-## <a name="buy-a-power-bi-pro-subscription-for-government-customers"></a>정부 고객용 Power BI Pro 구독 구입
-
-Microsoft 365를 배포한 후 Power BI Pro 구독을 추가할 수 있습니다. [미국 정부 기관 등록](service-govus-signup.md)의 단계별 지침에 따라 Power BI Pro 정부 서비스를 구매합니다. Power BI를 사용해야 하는 모든 사용자에게 충분한 라이선스를 구입한 다음 개별 사용자 계정에 할당합니다.
-
-> [!IMPORTANT]
-> Power BI 미국 정부는 ‘무료’ 라이선스로 제공되지 않습니다. 정부 커뮤니티 클라우드에 액세스하려면 각 사용자에게 ‘Pro’ 라이선스가 할당되어야 합니다. 무료 라이선스가 할당된 사용자 계정은 상용 클라우드에만 액세스할 권한이 있으며, 인증 및 액세스 문제가 발생합니다. Power BI Premium을 구매한 경우 사용자 액세스를 사용하기 위해 Pro 라이선스를 할당할 필요가 없습니다.  보고서가 프리미엄 용량에 게시되는 경우 조직의 사용자가 공유되는 보고서에 액세스할 수 있습니다. 라이선스 유형 간의 차이점을 검토하려면 [라이선스 유형별 Power BI 서비스 기능](../fundamentals/service-features-license-type.md)을 참조하세요.
->
-
 ## <a name="connect-government-and-global-azure-cloud-services"></a>정부 및 글로벌 Azure 클라우드 서비스 연결
 
 Azure는 여러 클라우드에 분산되어 있습니다. 기본적으로 클라우드별 인스턴스와의 연결을 열도록 방화벽 규칙을 사용할 수 있지만 클라우드 간 네트워킹은 다릅니다.  퍼블릭 클라우드의 서비스와 정부 커뮤니티 클라우드의 서비스가 통신하려면 특정 방화벽 규칙을 구성해야 합니다. 예를 들어 Power BI의 정부 클라우드 배포에서 SQL 데이터베이스의 퍼블릭 클라우드 인스턴스에 액세스하려면 SQL 데이터베이스에 방화벽 규칙이 필요합니다. 다음 데이터 센터의 Azure Government 클라우드와의 연결을 허용하도록 SQL 데이터베이스에서 특정 방화벽 규칙을 구성합니다.
@@ -76,40 +76,31 @@ SQL 데이터베이스에 대한 방화벽을 설정하려면 [IP 방화벽 규�
 
 ## <a name="power-bi-feature-availability"></a>Power BI 기능 가용성
 
-정부 클라우드 고객의 요구 사항을 수용하기 위해 정부 플랜과 상용 플랜에는 몇 가지 차이점이 있습니다. 각 정부 환경에서 사용할 수 있는 기능을 확인하려면 다음 표를 참조하세요.
+정부 클라우드 고객의 요구 사항을 수용하기 위해 정부 플랜과 상용 플랜에는 몇 가지 차이점이 있습니다. Microsoft의 목표는 일반 공급 30일 이내에 정부 클라우드에서 모든 기능을 사용할 수 있도록 하는 것입니다. 경우에 따라 기본 종속성으로 인해 기능을 사용하지 못할 수 있습니다.
 
-|기능 |   |GCC |GCC High |DoD|
-|------|------|------|------|------|
-|관리|무료 라이선스|사용할 수 없음|사용할 수 없음|사용할 수 없음|
-|  |데이터 스토리지 제한 설정|사용 가능|사용 가능|사용 가능|
-|  |공유 및 액세스 제어에 Active Directory 그룹 사용|사용 가능|사용 가능|사용 가능|
-|  |Office 365 보안 및 준수 관리 센터를 통한 감사|사용 가능|사용 가능|사용 가능|
-|  |외부 사용자 공유|사용 가능|사용 가능|사용 가능|
-|  |보고서 및 대시보드의 사용량 메트릭|사용 가능|사용 가능|사용 가능|
-|  |GCC와 상업용 클라우드 간 Azure B2B Collaboration<sup>1</sup>|사용 가능|사용할 수 없음|사용할 수 없음|
-|보고서 작성|대시보드 및 보고서 만들기 및 보기|사용 가능|사용 가능|사용 가능|
-|  |예약된 데이터 새로 고침|사용 가능|사용 가능|사용 가능|
-|  |새로 고칠 수 있는 팀 대시보드|사용 가능|사용 가능|사용 가능|
-|  |페이지를 매긴 보고서|사용 가능|사용 가능|사용 가능|
-|  |템플릿 앱|사용할 수 없음|사용할 수 없음|사용할 수 없음|
-|데이터에 연결|Excel에서 데이터 및 보고서 가져오기|사용 가능|사용 가능|사용 가능|
-|  |CSV 파일에서 데이터 가져오기|사용 가능|사용 가능|사용 가능|
-|  |Power BI Desktop 파일에서 데이터 가져오기|사용 가능|사용 가능|사용 가능|
-|  |CDS 연결|사용 가능|사용할 수 없음|사용할 수 없음|
-|  |Azure Data Lake Storage Gen2 커넥터|사용 가능|사용할 수 없음|사용할 수 없음|
-|데이터 관리|데이터 관리 게이트웨이|사용 가능|사용 가능|사용 가능|
-|  |Azure SQL Database에서 데이터 암호화|사용 가능|사용 가능|사용 가능|
-|  |Power BI용 Blob Storage에서 데이터 암호화|사용 가능|사용 가능|사용 가능|
-|제품 간 통합|Power BI 웹 파트를 사용하여 SharePoint Online에 포함|사용 가능|사용할 수 없음|사용할 수 없음|
-|  |Embed 웹 파트를 사용하여 SharePoint Online에 포함|사용 가능|사용 가능|사용 가능|
-|  |데이터 흐름 및 AI 함수|사용할 수 없음|사용할 수 없음|사용할 수 없음|
-|  |데이터 기반 경고를 위한 Power Automate 연결|사용할 수 없음|사용할 수 없음|사용할 수 없음|
-|  |Teams의 Power BI 탭|사용 가능|사용할 수 없음|사용할 수 없음|
-|  |자동화된 Machine Learning|사용할 수 없음|사용할 수 없음|사용할 수 없음|
-|  |Azure Cognitive Services|사용할 수 없음|사용할 수 없음|사용할 수 없음|
-|  |Azure Machine Learning|사용할 수 없음|사용할 수 없음|사용할 수 없음|
+다음 표에서는 특정 정부 환경에서 사용할 수 없는 기능과 릴리스가 계획된 경우의 예상 가용성을 보여 줍니다.
+
+|기능 |GCC |GCC High |DoD|
+|------|------|------|------|
+|[정부와 상업용 클라우드 간 Azure B2B Collaboration](service-admin-azure-ad-b2b.md)<sup>1</sup>|![사용 가능](../media/yes.png)|![사용할 수 없음](../media/no.png)|![사용할 수 없음](../media/no.png)|
+|[Power BI 웹 파트를 사용하여 SharePoint Online에 포함](https://docs.microsoft.com/esharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![사용 가능](../media/yes.png)|![사용 가능](../media/yes.png)|![사용할 수 없음](../media/no.png)|
+|[데이터 기반 경고를 위한 Power Automate 연결](../connect-data/power-bi-data-sources.md)|![사용 가능](../media/yes.png)|![사용 가능](../media/yes.png)|![사용할 수 없음](../media/no.png)|
+|[Teams의 Power BI 탭](../collaborate-share/service-collaborate-microsoft-teams.md)<sup>2</sup>|![사용 가능](../media/yes.png)|![사용할 수 없음](../media/no.png)|![사용할 수 없음](../media/no.png)|
+|[용량 메트릭](../admin/service-admin-premium-monitor-portal.md)|2020 Q3 |2020 Q3|2020 Q3|
+|[대형 모델](service-premium-large-models.md) | 2020 Q4 |2020 Q4| ![사용할 수 없음](../media/no.png) |
+|[데이터 흐름 - SQL 컴퓨팅 엔진 최적화](../transform-model/service-dataflows-enhanced-compute-engine.md) | 2020 Q4 |2020 Q4| ![사용할 수 없음](../media/no.png) |
+|[데이터 흐름 - 직접 쿼리](../transform-model/service-dataflows-directquery.md) | 2020 Q4 |2020 Q4|![사용할 수 없음](../media/no.png)|
+|[서비스 중단 알림](service-premium-large-models.md)|2020 Q4 |2020 Q4|2020 Q4|
+|[데이터 보호(MIP 레이블)](service-security-sensitivity-label-overview.md)|2020 Q4|2020 Q4 |2020 Q4|
+|[템플릿 앱](../connect-data/service-template-apps-overview.md)<sup>3</sup>|2020 Q4 |2020 Q4| 2020 Q4|
+|[사용자 지정 시각적 개체](../developer/visuals/power-bi-custom-visuals.md)<sup>3</sup>|2020 Q4 |2020 Q4| 2020 Q4|
+|[QR 코드 생성](../create-reports/service-create-qr-code-for-tile.md)|![사용할 수 없음](../media/no.png)|![사용할 수 없음](../media/no.png)|![사용할 수 없음](../media/no.png)|
 
 <sup>1</sup> B2B Collaboration을 GCC에 사용할 수 있지만 외부 사용자는 해당 환경에서 라이선스를 발급받아야 합니다. 상업용 클라우드 라이선스는 GCC에서 유효하지 않습니다. 미국 정부용 B2B Collaboration의 알려진 제한 사항에 관한 자세한 내용은 [Azure Government 및 글로벌 Azure 비교](https://docs.microsoft.com/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2)를 참조하세요.
+
+<sup>2</sup> Teams for GCC의 Power BI 환경은 제한적이고, 클래식 작업 영역에서만 작동하며, [Microsoft Teams에 Power BI 콘텐츠 포함](../collaborate-share/service-embed-report-microsoft-teams.md)에 설명된 향상된 기능을 포함하지 않습니다.
+
+<sup>3</sup> 릴리스의 템플릿 앱 및 사용자 지정 시각적 개체에 대한 기능은 정부 클라우드에서 제한됩니다. 특정 제한 사항에 대한 자세한 내용은 릴리스에 게시될 예정입니다.
 
 ## <a name="next-steps"></a>다음 단계
 
