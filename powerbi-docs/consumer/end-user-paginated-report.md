@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: f0f2d57b1a60307cef2d848854355715dd74a412
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: b1f9dd6540707993696bddb4494fc73aa782d363
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537990"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008908"
 ---
 # <a name="paginated-reports-in-the-power-bi-service"></a>Power BI 서비스의 페이지를 매긴 보고서
 
@@ -97,5 +97,5 @@ ms.locfileid: "87537990"
 
 ## <a name="next-steps"></a>다음 단계
 - [Power BI 보고서](end-user-reports.md)
+- [Power BI의 페이지를 매긴 보고서: FAQ](../paginated-reports/paginated-reports-faq.md)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티](https://community.powerbi.com/)를 사용해 보세요.
-
