@@ -270,8 +270,6 @@
               href: service-connect-to-pbi-premium-capacity-metrics.md
             - name: 프로젝트 온라인
               href: service-connect-to-project-online.md
-            - name: QuickBooks Online
-              href: service-connect-to-quickbooks-online.md
             - name: 지역별 응급 대응 대시보드
               href: service-connect-to-regional-emergency-response.md
             - name: Salesforce
