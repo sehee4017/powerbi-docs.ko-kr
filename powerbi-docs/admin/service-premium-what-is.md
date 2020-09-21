@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/28/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: de5ab7b75967e752615bf7415c81ba7bb18c1a80
-ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+ms.openlocfilehash: 492ff2c21d285cba37f1bbf631869c84eafe4dc3
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87364057"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008563"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium이란?
 
@@ -205,7 +205,7 @@ Power BI Embedded A4 SKU는 P1 SKU, A5 = P2 및 A6 = P3과 같습니다.
 
 ## <a name="incremental-refresh"></a>증분 새로 고침
 
-증분 새로 고침은 Power BI Premium에서 큰 데이터 세트를 보유하고 유지 관리하는 데 필수적인 부분을 제공합니다. 증분 새로 고침에 많은 이점이 있습니다. 예를 들어 변경된 데이터만 새로 고치면 되기 때문에 새로 고침이 빠릅니다. 휘발성 데이터 원본에 대한 장기 실행 연결을 유지할 필요가 없기 때문에 새로 고침이 더 안정적입니다. 새로 고칠 데이터가 적어지면 메모리 및 기타 리소스 전체 사용량이 감소하기 때문에 리소스 사용이 줄어듭니다. 증분 새로 고침 정책은 **Power BI Desktop**에 정의되어 있으며, 프리미엄 용량의 작업 영역에 게시될 때 적용됩니다. 
+증분 새로 고침은 Power BI Premium 및 Power BI Pro에서 큰 데이터 세트를 보유하고 유지 관리하는 데 필수적인 부분을 제공합니다. 증분 새로 고침에 많은 이점이 있습니다. 예를 들어 변경된 데이터만 새로 고치면 되기 때문에 새로 고침이 빠릅니다. 휘발성 데이터 원본에 대한 장기 실행 연결을 유지할 필요가 없기 때문에 새로 고침이 더 안정적입니다. 새로 고칠 데이터가 적어지면 메모리 및 기타 리소스 전체 사용량이 감소하기 때문에 리소스 사용이 줄어듭니다. 증분 새로 고침 정책은 **Power BI Desktop**에 정의되어 있으며, 프리미엄 용량의 작업 영역에 게시될 때 적용됩니다. 
 
 ![세부 정보 새로 고침](media/service-premium-incremental-refresh/refresh-details.png)
 

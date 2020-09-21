@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2921ea9ff0e5e1fa6bc12c0ecd5dd047b703a937
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c97a303a5b3241f49e82aac41d9ed7984c3a5af1
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237620"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642307"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>데이터 원본 관리 - Analysis Services
 
@@ -36,7 +36,7 @@ Analysis Services에 대한 라이브 연결을 설정하는 방법에 대한 �
 **서버** 및 **데이터베이스**를 포함하는 데이터 원본에 대한 정보를 입력합니다. **사용자 이름** 및 **암호**에 대해 입력한 정보는 게이트웨이가 Analysis Services 인스턴스에 연결하는 데 사용합니다.
 
 > [!NOTE]
-> 입력하는 Windows 계정에는 연결할 인스턴스에 대한 서버 관리자 권한이 있어야 합니다. 이 계정의 암호가 만료되도록 설정되면 데이터 원본에 대한 암호를 업데이트하지 않은 경우 사용자에게 연결 오류가 발생할 수 있습니다. 자격 증명을 저장하는 방법에 대한 자세한 내용은 [클라우드에 암호화된 자격 증명 저장](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud)을 참조하세요.
+> 입력하는 Windows 계정은 연결 중인 Analysis Services 인스턴스에서 서버 관리자 역할의 멤버여야 합니다. 이 계정의 암호가 만료되도록 설정되면 데이터 원본에 대한 암호를 업데이트하지 않은 경우 사용자에게 연결 오류가 발생할 수 있습니다. 자격 증명을 저장하는 방법에 대한 자세한 내용은 [클라우드에 암호화된 자격 증명 저장](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud)을 참조하세요.
 
 ![데이터 원본 설정 입력](media/service-gateway-enterprise-manage-ssas/datasourcesettings3-ssas.png)
 

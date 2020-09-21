@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 42c21a99422e7a3c67cdb65b62d6c323f8c8aa0d
-ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
+ms.openlocfilehash: 4282b4fc5d59e2ff5e0def353ad444546dcf5f43
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "89092248"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008517"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Power BI Desktop의 새로운 기능
 
@@ -91,7 +91,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 비디오 및 기타 유용한 콘텐츠를 통한 Power BI 학습이 마음에 드시나요? 다음 비디오 원본과 콘텐츠 컬렉션을 확인합니다.
 
 -   [Power BI 채널](https://www.youtube.com/user/mspowerbi): YouTube의 Power BI 비디오 컬렉션입니다.
--   [Power BI 단계별 학습](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link): Power BI를 단계별로 순서대로 둘러보고 학습합니다.
+-   [Power BI용 Microsoft Learn](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link): Power BI를 단계별로 순서대로 둘러보고 학습합니다.
 
 ## <a name="updates-for-previous-months"></a>이전 월별 업데이트
 

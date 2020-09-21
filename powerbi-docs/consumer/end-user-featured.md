@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 02/19/2020
+ms.date: 09/03/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 022ce2c28ef41636c4530f93e7c2765784c24ff0
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 3cbd8acd2f32ea5fa0ccbb0fa3f91e45629cc079
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215860"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642429"
 ---
 # <a name="featured-dashboards-in-the-power-bi-service"></a>Power BI 서비스의 주요 대시보드
 
@@ -25,7 +25,7 @@ ms.locfileid: "86215860"
 ## <a name="create-a-featured-dashboard"></a>주요 대시보드 만들기
 대시보드를 *주요 대시보드*로 설정하면 Power BI 서비스를 열 때마다 해당 대시보드가 표시된 상태로 열립니다. 
 
-![추천으로 설정 아이콘](./media/end-user-featured/power-bi-dropdown.png)
+![추천으로 설정 아이콘](./media/end-user-featured/power-bi-dropbox.png)
 
 또한 몇 가지 대시보드를 선택하고 즐겨찾기로 설정할 수도 있습니다. [대시보드 즐겨찾기](end-user-favorite.md)를 참조하세요.
 
@@ -37,19 +37,19 @@ ms.locfileid: "86215860"
 1. 주요 대시보드로 설정하려는 대시보드를 엽니다. 
 2. 위쪽 메뉴 모음에서 **추가 옵션**(...)을 선택한 다음, **주요 대시보드로 설정**을 선택합니다. 
    
-    ![추천으로 설정 아이콘](./media/end-user-featured/power-bi-dropdown.png)
+    ![주요 대시보드로 설정 옵션이 있는 Dropbox를 보여 주는 스크린샷](./media/end-user-featured/power-bi-set-as-featured.png)
 3. 선택 사항을 확인합니다.
    
     ![주요 대시보드 설정](./media/end-user-featured/power-bi-featured-confirm.png)
 
 ## <a name="change-the-featured-dashboard"></a>주요 대시보드 변경
-나중에 마음이 바뀌면 새 대시보드를 추천 대시보드로 설정할 수 있습니다.
+나중에 마음이 바뀌면 새 대시보드를 추천 대시보드로 설정할 수 있습니다. 주요 대시보드에서 해제하더라도 Power BI에서 제거되지 않습니다. 
 
 1. 이전 1단계와 2단계를 수행합니다.
    
-2. **주요 대시보드로 설정**을 선택합니다. 주요 대시보드에서 해제하더라도 Power BI에서 제거되지 않습니다. 
+2. **주요 대시보드로 설정**을 선택합니다. 
    
-    ![성공 메시지](./media/end-user-featured/power-bi-unfeature-new.png)
+    ![성공 메시지](./media/end-user-featured/power-bi-unfeatured.png)
 
 ## <a name="remove-the-featured-dashboard"></a>주요 대시보드 제거
 어떠한 대시보드도 주요 대시보드로 지정되는 것을 원치 않을 경우 주요 대시보드를 해제하는 방법이 있습니다.

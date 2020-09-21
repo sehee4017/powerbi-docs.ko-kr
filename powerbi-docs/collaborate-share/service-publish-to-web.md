@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 07/08/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 26c27c8cd33929c7bb83a8ef5b1faed0fb12e502
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: f652d09d5d954123a47b45b30ab1076763018225
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216558"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642650"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI에서 웹에 게시
 
@@ -180,7 +180,7 @@ Power BI에 등록한 소규모 조직이나 개인의 경우 아직 Power BI �
 - [공유 및 인증된 데이터 세트](../connect-data/service-datasets-share.md).
 - 사용자에게 직접적으로 또는 조직 콘텐츠 팩을 통해 공유되는 보고서
 - 편집 멤버가 아닌 작업 영역의 보고서
-- "R" 시각적 개체는 현재 **웹에 게시** 보고서에서 지원되지 않음
+- “R” 및 Python 시각적 개체는 현재 **웹에 게시** 보고서에서 지원되지 않습니다.
 - 웹에 게시된 보고서의 시각적 개체에서 데이터 내보내기
 - ArcGIS Maps for Power BI 시각적 개체.
 - 보고서 수준 DAX 측정값을 포함하는 보고서.

@@ -347,6 +347,8 @@
               href: ../paginated-reports/paginated-reports-create-embedded-dataset.md
             - name: Power BI 공유 데이터 세트를 사용하여 보고서 만들기
               href: ../paginated-reports/report-builder-shared-datasets.md
+            - name: 페이지를 매긴 보고서에 관한 .rdl 다운로드
+              href: ../paginated-reports/paginated-reports-download-rdl.md
             - name: 매개 변수 만들기
               href: ../paginated-reports/paginated-reports-parameters.md
             - name: 보고서 뷰 설정

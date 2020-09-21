@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 264d3f4a0c611ca01de627b7656584ceb60e7b18
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 89d911680d46e159e446dbcf6bd06e2caf4b6b65
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214540"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642613"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Power BI Desktop의 DirectQuery 모델 지침
 
@@ -127,7 +127,7 @@ DirectQuery 모델을 복합 모델로 변환하여 수행할 수 있는 여러 
 
 ## <a name="educate-users"></a>사용자 교육
 
-DirectQuery 데이터 세트 기반의 보고서를 효율적으로 사용하는 방법에 대해 사용자를 교육하는 것이 중요합니다. 보고서 작성자는 [보고서 디자인 최적화](#optimize-report-designs section)에 설명된 내용을 학습해야 합니다.
+DirectQuery 데이터 세트 기반의 보고서를 효율적으로 사용하는 방법에 대해 사용자를 교육하는 것이 중요합니다. 보고서 작성자는 [보고서 디자인 최적화](#optimize-report-designs) 섹션에 설명된 내용을 학습해야 합니다.
 
 DirectQuery 데이터 세트를 기반으로 하는 보고서에 대해 보고서 사용자를 교육하는 것이 좋습니다. 이 문서에서 설명하는 관련 제한 사항을 포함하여 일반적인 데이터 아키텍처를 이해하는 것도 도움이 될 수 있습니다. 새로 고침 응답 및 대화형 필터링이 때때로 느려질 수 있다는 것을 알립니다. 보고서 사용자가 성능 저하 발생 이유를 이해하면 보고서와 데이터에 대한 신뢰를 잃을 가능성이 줄어듭니다.
 

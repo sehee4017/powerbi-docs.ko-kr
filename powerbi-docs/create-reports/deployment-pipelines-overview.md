@@ -6,19 +6,19 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 05/06/2020
-ms.openlocfilehash: 5522d84cab235270a2eb368be02cfa0fb4e5eaa9
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.date: 09/09/2020
+ms.openlocfilehash: 3994a5cdad4d80c87d4153ffe57af685d7a21d36
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86557144"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008586"
 ---
 # <a name="introduction-to-deployment-pipelines-preview"></a>배포 파이프라인 소개(미리 보기)
 
 오늘날의 세계에서 분석은 거의 모든 조직에서 의사 결정을 수립하는 데 중요한 부분입니다. 분석 도구로서의 사용이 증가함에 따라 Power BI는 더 많은 데이터를 사용하고 더 매력적으로 보이며 사용자에게 더 친숙해져야 합니다. 그러나 무엇보다 Power BI는 항상 사용 가능하고 신뢰할 수 있어야 합니다. 이러한 요구 사항을 충족하기 위해 BI 작성자는 효과적으로 공동 작업을 수행해야 합니다.
 
-배포 파이프라인은 엔터프라이즈의 BI 작성자가 프리미엄 용량을 사용하여 조직 콘텐츠의 수명 주기를 관리할 수 있도록 하는 효율적이고 재사용 가능한 도구입니다. 이를 통해 최종 사용자가 사용하기 전에 보고서, 대시보드 및 데이터 세트와 같은 Power BI 콘텐츠를 개발 및 테스트할 수 있습니다.
+BI 작성자는 배포 파이프라인 도구를 사용하여 조직 콘텐츠의 수명 주기를 관리할 수 있습니다. 프리미엄 용량이 있는 엔터프라이즈의 작성자에게는 이 도구가 효율적이며 재사용 가능합니다. 작성자는 이 도구를 사용하면 사용자가 콘텐츠를 사용하기 전에 Power BI 콘텐츠를 개발 및 테스트할 수 있습니다. 콘텐츠 형식에는 보고서, 대시보드 및 데이터 세트가 포함됩니다.
 
 이 도구는 다음 세 단계로 구성된 파이프라인으로 디자인되었습니다.
 
@@ -28,7 +28,7 @@ ms.locfileid: "86557144"
 
 * **<a name="test"></a>테스트**
 
-    콘텐츠를 업로드하고 개발 단계에서 모든 변경 내용을 적용한 후에는 테스트를 위해 콘텐츠를 이 단계로 이동할 수 있습니다. 다음은 테스트 환경에서 수행할 수 있는 작업의 세 가지 예입니다.
+    콘텐츠 변경을 모두 완료했으면 테스트 단계를 시작할 준비가 된 것입니다. 이 테스트 단계로 이동할 수 있도록 수정된 콘텐츠를 업로드합니다. 다음은 테스트 환경에서 수행할 수 있는 작업의 세 가지 예입니다.
 
     * 테스터 및 검토자와 콘텐츠 공유
 

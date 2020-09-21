@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/05/2020
+ms.date: 09/09/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: ef6fef8535e0fb6013e363a23f4736368a66720c
-ms.sourcegitcommit: d91c060913fcb526f9a01dc48e218485daf55b4e
+ms.openlocfilehash: 26e638e106f7bd11544d1d80dae543f06783bda7
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89562447"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008885"
 ---
 # <a name="creating-a-relative-date-slicer-and-filter-in-power-bi"></a>Power BI에서 상대 날짜 슬라이서 및 필터 만들기
 
@@ -45,9 +45,7 @@ Power BI 동료와 보고서를 공유하려면 개별 Power BI Pro 라이선스
 ![첫 번째 설정이 호출된 Relative 구성 옵션의 스크린샷.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04.png)
 
 * 마지막
-
 * 다음
-
 * 이번
 
 *상대 날짜 슬라이서*의 두 번째(가운데) 설정을 사용하면 상대 날짜 범위를 정의하는 숫자를 입력할 수 있습니다.
@@ -59,26 +57,19 @@ Power BI 동료와 보고서를 공유하려면 개별 Power BI Pro 라이선스
 ![세 번째 설정이 호출된 Relative 구성 옵션의 스크린샷.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-05.png)
 
 * 일
-
 * 주
-
 * 주(달력)
-
 * 개월
-
 * 개월(달력)
-
 * 년
-
 * 년(달력)
 
 해당 목록에서 **월**을 선택하고 가운데 설정에 *2*를 입력하면 다음과 같이 됩니다.
 
-* 오늘이 7월 20일인 경우
+* 오늘이 7월 20일인 경우:
 
-* 슬라이서에 의해 제한된 시각적 개체에 포함된 데이터는 이전 두 달 동안의 데이터를 보여줍니다.
-
-* 5월 21일부터 7월 20일까지(오늘 날짜)
+    - 슬라이서에 의해 제한된 시각적 개체에 포함된 데이터는 이전 두 달 동안의 데이터를 보여 줍니다.
+    - 5월 21일에 시작해서 7월 20일까지(오늘 날짜) 계속됩니다.
 
 이에 비해 *개월(달력)* 을 선택한 경우, 제한된 시각적 개체는 5월 1일부터 6월 30일(달력상의 최근 두 달)까지의 데이터를 보여줍니다.
 
@@ -100,10 +91,9 @@ Power BI 동료와 보고서를 공유하려면 개별 Power BI Pro 라이선스
 
 다음 제한 사항 및 고려 사항은 현재 **상대 날짜 범위 슬라이서**와 필터에 적용되는 것입니다.
 
+* 슬라이서의 필드에 대한 데이터 형식은 텍스트 기본값이 아니라 날짜여야 합니다. 아니면 슬라이서에 상대 옵션이 표시되지 않습니다.
 * **Power BI**의 데이터 모델에는 표준 시간대 정보가 포함되어 있지 않습니다. 모델에서 시간은 저장할 수 있지만 해당 표준 시간대가 표시되지 않습니다.
-
 * 슬라이서 및 필터는 항상 UTC의 시간을 기반으로 합니다. 보고서에 필터를 설정하고 다른 표준 시간대에 있는 동료에게 보내면 둘 다 같은 데이터를 볼 수 있습니다. UTC 표준 시간대가 아닌 경우 사용자와 동료는 발생하는 시간 오프셋을 고려해야 합니다.
-
 * **쿼리 편집기**를 사용하여 현지 표준 시간대에서 캡처된 데이터를 UTC로 변환할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계

@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 09/09/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 44b66c2c8245b7f9629ad36879e6f13a5e720687
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 7b5a935418aacb8de15ea6e7e942f2de440ecec1
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537760"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008739"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Power BI에서 지원되는 정보의 유형
 
@@ -27,7 +27,7 @@ Power BI에 데이터를 살펴보고 흥미로운 추세 및 패턴을 찾도�
 ![인사이트 집합](media/end-user-insight-types/power-bi-insight.png)
 
 ## <a name="how-does-insights-work"></a>정보는 어떻게 작동하나요?
-Power BI는 데이터 세트의 다른 하위 집합을 빠르게 검색합니다. 검색 시 Power BI는 정교한 알고리즘을 적용하여 관심을 가질 가능성이 높은 인사이트를 검색합니다. Power BI *소비자*는 대시보드 타일에서 인사이트를 실행할 수 있습니다.
+Power BI는 데이터 세트의 다른 하위 집합을 빠르게 검색합니다. 검색 시 Power BI는 정교한 알고리즘을 적용하여 관심을 가질 가능성이 높은 인사이트를 검색합니다. Power BI *비즈니스 사용자*는 대시보드 타일에서 인사이트를 실행할 수 있습니다.
 
 ## <a name="some-terminology"></a>일부 용어
 Power BI는 통계 알고리즘을 사용하여 인사이트를 파악합니다. 알고리즘은 이 문서의 다음 섹션에 나열되어 있습니다. 알고리즘에 대한 자세한 내용을 알아보기 전에 익숙하지 않은 용어에 대한 정의는 다음과 같습니다. 
@@ -44,49 +44,49 @@ Power BI가 사용하는 알고리즘입니다.
 ### <a name="category-outliers-topbottom"></a>범주 이상값(상한/하한)
 하나 또는 두개 범주에 다른 범주보다 훨씬 큰 값이 있는 경우를 강조 표시합니다.  
 
-![범주 이상값 예제](./media/end-user-insight-types/pbi-auto-insight-types-category-outliers.png)
+![범주 이상값 예제](./media/end-user-insight-types/pbi-auto-insight-type-category-outliers.png)
 
 ### <a name="change-points-in-a-time-series"></a>시계열의 변경 지점
 데이터의 시계열 추세에서 중요한 변경 내용이 있는 경우를 강조 표시합니다.
 
-![시계열의 변경 지점 예제](./media/end-user-insight-types/pbi-auto-insight-types-changepoint.png)
+![시계열의 변경 지점 예제](./media/end-user-insight-types/pbi-auto-insight-type-changepoint.png)
 
 ### <a name="correlation"></a>Correlation
 데이터 세트에 범주 또는 값에 대해 여러 측정값이 유사한 패턴이나 추세를 표시하는 경우를 검색합니다.
 
-![상관 관계 예제](./media/end-user-insight-types/pbi-auto-insight-types-correlation.png)
+![상관 관계 예제](./media/end-user-insight-types/pbi-auto-insight-type-correlation.png)
 
 ### <a name="low-variance"></a>하위 분산
 차원의 데이터 포인트가 평균에서 멀지 않아 "분산"이 낮은 경우를 검색합니다. "판매"라는 측정값과 "지역" 차원이 있다고 가정해 보겠습니다. 지역을 살펴보면 데이터 포인트와 (데이터 포인트의) 평균 간에 차이가 거의 없음을 알 수 있습니다. 이 인사이트는 모든 지역에서 판매의 분산이 임계값보다 낮은 경우 트리거됩니다. 다시 말해 판매가 모든 지역에서 상당히 비슷한 경우에 트리거됩니다.
 
-![하위 분산 예제](./media/end-user-insight-types/power-bi-low-variance.png)
+![하위 분산 예제](./media/end-user-insight-types/power-bi-insights-low-variance.png)
 
 ### <a name="majority-major-factors"></a>과반수(중요한 요인)
 다른 차원을 기준으로 분석할 때 전체 값의 과반수가 단일 요인으로 인한 경우를 찾습니다.  
 
-![주요 요소 예제](./media/end-user-insight-types/pbi-auto-insight-types-majority.png)
+![주요 요소 예제](./media/end-user-insight-types/pbi-auto-insight-type-majority.png)
 
 ### <a name="overall-trends-in-time-series"></a>시계열의 전반적인 추세
 시계열 데이터의 위쪽 또는 아래쪽 추세를 검색합니다.
 
-![시계열의 전반적인 추세 예제](./media/end-user-insight-types/pbi-auto-insight-types-trend.png)
+![시계열의 전반적인 추세 예제](./media/end-user-insight-types/pbi-auto-insight-type-trend.png)
 
 ### <a name="seasonality-in-time-series"></a>시계열의 계절성
 시계열 데이터에서 매주, 매월 또는 매년 계절성과 같은 주기적인 패턴을 찾습니다.
 
-![계절성 예제](./media/end-user-insight-types/pbi-auto-insight-types-seasonality-new.png)
+![계절성 예제](./media/end-user-insight-types/pbi-auto-insight-type-seasonality-new.png)
 
 ### <a name="steady-share"></a>안정적 지분
 연속 변수에서 부모의 전체 값과 자식 값의 지분 간에 부모-자식 상관 관계가 있는 경우를 강조 표시합니다. 안정적 지분 인사이트는 측정값, 차원 및 다른 날짜/시간 차원의 컨텍스트에 적용됩니다. 이 인사이트는 특정 차원 값(예: “북동부 지역”)이 해당 날짜/시간 차원에서 전체 판매 중 안정적 비율을 차지하는 경우 트리거됩니다.
 
 안정적 지분 인사이트와 하위 분산 인사이트는 둘 다 시간에 따른 값 분산의 부족과 관련이 있으므로 비슷합니다. 하지만 안정적 지분 인사이트는 시간에 따른 **전체 비율**의 분산 부족을 측정하는 반면 하위 분산 인사이트는 차원에서의 절대적 측정값 분산 부족을 측정합니다.
 
-![안정적 지분 예제](./media/end-user-insight-types/pbi-auto-insight-types-steadyshare.png)
+![안정적 지분 예제](./media/end-user-insight-types/pbi-auto-insight-type-steadyshare.png)
 
 ### <a name="time-series-outliers"></a>시계열 이상값
 시계열 데이터에서 값이 다른 날짜/시간 값과 크게 다른 특정 날짜 또는 시간이 있는 경우를 검색합니다.
 
-![시계열 이상값 예제](./media/end-user-insight-types/pbi-auto-insight-types-time-series-outliers.png)
+![시계열 이상값 예제](./media/end-user-insight-types/pbi-auto-insight-type-time-series-outliers-purple.png)
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI 정보](end-user-insights.md)

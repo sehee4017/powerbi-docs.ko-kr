@@ -5,14 +5,14 @@ author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/21/2020
+ms.date: 09/09/2020
 ms.author: maggies
-ms.openlocfilehash: eebb40d81e9b59b545b30ce55dbf4a362b826455
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: 7b02e1b1fb49eb1c43b12d204250eabec8eafe91
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937588"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642348"
 ---
 # <a name="limitations-of-power-bi-qa"></a>Power BI 질문 및 답변의 제한 사항
 
@@ -31,12 +31,17 @@ Power BI 질문 및 답변은 Power BI 서비스에서 다음과 같은 데이�
 
 이러한 각 구성에서 행 수준 보안도 지원됩니다.
 
+**질문 및 답변에 대한 DirectQuery 지원**(미리 보기)
+
+질문 및 답변은 이제 SQL Server 2019, Azure SQL Database 및 Azure Synapse Analytics를 비롯한 SQL DirectQuery 원본을 지원합니다. 질문 및 답변을 사용하여 이러한 데이터 원본을 대상으로 자연어로 질문할 수 있습니다. DirectQuery 모드에서는 질문 및 답변의 동작에 약간의 변화가 있습니다. 질문을 입력한 후 **제출** 단추를 선택합니다. 이러한 변화 때문에 입력 시 불필요한 쿼리로 DirectQuery 원본이 오버로드되는 것이 방지됩니다.
+
+다른 DirectQuery 원본에 대해서는 질문 및 답변이 지원되지 않습니다. 데이터 세트에 다른 DirectQuery 원본이 있는 경우 질문 및 답변을 모두 차단하지는 않지만, 일부 질문은 올바르게 답변되지 않거나 오류가 반환될 수 있습니다.
+
 ### <a name="data-sources-not-supported"></a>지원되지 않는 데이터 원본
 
 Power BI 질문 및 답변은 현재 다음과 같은 구성을 지원하지 않습니다.
 
 - 모든 데이터 원본 형식을 사용한 개체 수준 보안
-- 모든 원본에 대한 DirectQuery. 해결 방법은 DirectQuery를 사용하는 Azure Analysis Services와의 라이브 연결을 이용하는 것입니다.
 - 복합 모델
 - Reporting Services 
 

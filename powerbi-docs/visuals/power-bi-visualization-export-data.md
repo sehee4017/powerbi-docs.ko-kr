@@ -11,12 +11,12 @@ ms.topic: how-to
 ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f4d1bb58093ed3c78330370d5a44a3f98ee4aae7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1593cecf448b193ce2186be041da771bb8d6a09c
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238958"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008931"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>시각화를 생성하는 데 사용된 데이터 내보내기
 
@@ -268,7 +268,9 @@ Power BI 관리 포털 설정이 데이터 내보내기에 대한 보고서 설�
   
   1. 파일이 저장된 로컬 폴더로 이동하고 *.csv*를 선택합니다.
 
-- *.csv*로 내보낼 때 특정 문자는 선행 **'** 로 이스케이프됩니다.
+- *.csv*로 내보낼 경우, Excel에서 열 때 스크립트 실행을 방지하기 위해 특정 문자는 선행 **'** 로 이스케이프됩니다. 이런 상황은 다음과 같은 경우에 발생합니다.
+  - 데이터 모델에서 열이 “텍스트” 형식으로 정의되는 경우, **_그리고_**
+  - 텍스트의 첫 번째 문자가 **=, @, +,-** 중 하나인 경우
 
 - Power BI 관리자는 데이터 내보내기를 사용하지 않도록 설정할 수 있습니다.
 

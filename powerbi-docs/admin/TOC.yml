@@ -80,7 +80,9 @@
           href: desktop-admin-sign-in-form.md
         - name: 데이터 보호
           items:
-            - name: Power BI의 민감도 레이블
+            - name: Power BI의 데이터 보호
+              href: service-security-data-protection-overview.md
+            - name: 민감도 레이블 개요
               href: service-security-sensitivity-label-overview.md
             - name: 민감도 레이블 지정
               href: service-security-enable-data-sensitivity-labels.md

@@ -8,13 +8,13 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
-ms.date: 05/01/2020
-ms.openlocfilehash: 36c14ec0da3c7818a6c938e0fd47f4a6476470f6
-ms.sourcegitcommit: d91c060913fcb526f9a01dc48e218485daf55b4e
+ms.date: 09/09/2020
+ms.openlocfilehash: f81cf6625f02f71b1ccf8bcd2c442ded3329083d
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89562424"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642388"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Power BI에서 페이지를 매긴 보고서의 URL 매개 변수
 
@@ -91,9 +91,9 @@ URL에 보고서 매개 변수를 전달하는 예는  [URL에 보고서 매�
     - 'interactive'(기본값): 보고서를 대화형 모드로 로드합니다.
     - 'pageView': 보고서를 페이지 보기 모드로 로드합니다.
 
-**매개 변수 패널 상태** 보고서가 로드될 때 매개 변수 패널이 열려 있는지 닫혀 있는지 아니면 모두 숨겨져 있는지를 지정합니다.
+**매개 변수 패널** 보고서가 로드될 때 매개 변수 패널이 열려 있는지 닫혀 있는지 아니면 모두 숨겨져 있는지를 지정합니다.
 
--   rdl:parameterPanelState
+-   rdl:parameterPanel
 
     - ‘collapsed’: 매개 변수 패널이 닫힌 상태로 보고서를 로드합니다. 사용자가 단추를 클릭하여 확장할 수 있도록 매개 변수 단추가 사용 설정됩니다.
     - ‘hidden’: 매개 변수 패널이 닫혀 있고 매개 변수 단추가 비활성화된 상태로 보고서를 로드합니다.

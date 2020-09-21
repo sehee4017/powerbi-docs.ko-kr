@@ -6,22 +6,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/21/2020
+ms.date: 09/11/2020
 ms.author: davidi
-ms.openlocfilehash: ae4d51d9a40044ae939f5cb2b0b15442697df5fd
-ms.sourcegitcommit: ae6559f40e1735d53654cbe9425add6e18171295
+ms.openlocfilehash: 926569e783dad7a97b91e2e5c1752401d21d6612
+ms.sourcegitcommit: 376ea86f69545444f975378cbf63e54c2f75faa3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88764954"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "90084056"
 ---
 # <a name="power-bi-data-sources"></a>Power BI 데이터 원본
 
 다음 표에서는 DirectQuery 및 온-프레미스 데이터 게이트웨이에 대한 정보를 포함하여 Power BI가 데이터 집합으로 지원하는 데이터 원본을 보여 줍니다. 데이터 흐름에 대한 자세한 내용은 [Power BI 데이터 흐름용 데이터 원본에 연결](../transform-model/service-dataflows-data-sources.md)을 참조하세요.
-
-> [!NOTE]
-> 인증을 위해 Internet Explorer 10(또는 그 이상)이 요구되는 Power BI Desktop용 데이터 커넥터가 다수 존재합니다. 
-
 
 | 데이터 원본 | 데스크톱에서 연결 | 서비스에서 연결 및 새로 고침 | DirectQuery/라이브 연결 | 게이트웨이(지원됨) | 게이트웨이(필수) |
 |---|---|---|---|---|---|---|---|
@@ -156,6 +152,11 @@ ms.locfileid: "88764954"
 <sup>7</sup> Power BI 서비스는 인증이 필요한 OData 피드를 지원하지 않습니다.
 
 <sup>8</sup> Paxata는 Power BI Report Server에 최적화된 Power BI Desktop 버전에서 지원됩니다. Power BI Report Server에 게시된 Power BI 보고서에서는 지원되지 않습니다. 지원되는 데이터 원본 목록은 [Power BI Report Server에서 Power BI 보고서 데이터 원본](../report-server/data-sources.md)을 참조하세요.
+
+## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
+
+- 인증에 Internet Explorer 10 이상이 필요한 Power BI Desktop용 데이터 커넥터가 많습니다. 
+- 일부 데이터 원본은 Power BI Report Server에 최적화된 Power BI Desktop에서 사용할 수 있지만 Power BI Report Server에 게시된 경우 지원되지 않습니다. 지원되는 데이터 원본 목록은 [Power BI Report Server에서 Power BI 보고서 데이터 원본](../report-server/data-sources.md)을 참조하세요.
 
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>DirectQuery 원본의 SSO(Single Sign-On)
 

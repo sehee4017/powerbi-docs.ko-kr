@@ -7,15 +7,15 @@ featuredvideoid: et_MLSL2sA8
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/22/2020
+ms.date: 09/09/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5fa66f2ff3650e4b4578207c2c70b70041c2c3d5
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 21bccbd11f8d2060b648e22c8ed8aa9471c820f0
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537737"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642524"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Power BI로 대시보드 타일에서 데이터 인사이트 보기
 
@@ -23,7 +23,7 @@ ms.locfileid: "87537737"
 
 대시보드의 각 시각적 개체 [타일](end-user-tiles.md)은 데이터 검색에 사용됩니다. 타일을 선택하면 보고서가 열리거나 [질문 및 답변이 열립니다](end-user-q-and-a.md). 여기서 보고서의 기반이 되는 데이터 세트를 필터링 및 정렬하고 자세히 살펴볼 수 있습니다. 또한 인사이트를 실행하면 Power BI에서 데이터 탐색을 수행합니다.
 
-![줄임표 메뉴 모드](./media/end-user-insights/power-bi-insight.png)
+![인사이트 보기를 옵션으로 표시하는 줄임표 메뉴 모드](./media/end-user-insights/power-bi-insight.png)
 
 인사이트를 실행하여 데이터를 기준으로 흥미로운 대화형 시각적 개체를 생성합니다. 인사이트는 특정 대시보드 타일에서 실행할 수 있으며 특정 인사이트에 대해 인사이트를 실행할 수도 있습니다.
 
@@ -35,12 +35,12 @@ ms.locfileid: "87537737"
 1. [대시보드를 엽니다](end-user-dashboards.md).
 2. 타일을 마우스로 가리킵니다. **추가 옵션**(...)을 선택한 다음, **인사이트 보기**를 선택합니다. 
 
-    ![줄임표 메뉴 모드](./media/end-user-insights/power-bi-hovers.png)
+    ![줄임표를 선택할 때 드롭다운이 표시되는 것을 보여 주는 스크린샷](./media/end-user-insights/power-bi-hover.png)
 
 
 3. 타일이 오른쪽에 표시되는 인사이트 카드와 함께 [포커스 모드](end-user-focus.md)로 열립니다.    
    
-    ![포커스 모드](./media/end-user-insights/power-bi-insights-tile.png)    
+    ![포커스 모드](./media/end-user-insights/power-bi-insights-tiles.png)    
 4. 인사이트 하나로 호기심이 자극되나요? 자세히 알아보려면 해당 인사이트 카드를 선택합니다. 선택한 인사이트는 왼쪽에 나타나고 해당 단일 인사이트의 데이터에만 기초한 새 인사이트 카드는 오른쪽에 표시됩니다.    
 
  ## <a name="interact-with-the-insight-cards"></a>인사이트 카드와 상호 작용
@@ -48,15 +48,12 @@ ms.locfileid: "87537737"
 
    * 캔버스에서 시각적 개체를 필터링합니다.  필터를 표시하려면 오른쪽 위 모서리에 있는 화살표를 선택하여 필터 창을 확장합니다.
 
-      ![확장된 필터 메뉴](./media/end-user-insights/power-bi-filters.png)
+      ![필터 메뉴가 확장된 인사이트](./media/end-user-insights/power-bi-filter.png)
    
-   * 인사이트 카드 자체에 대한 인사이트를 실행합니다. 이것을 **관련된 인사이트**라고 합니다. 인사이트 카드를 선택하여 활성화합니다. 인사이트 카드가 보고서 캔버스에 표시됩니다.
+   * 인사이트 카드 자체에 대한 인사이트를 실행합니다. 이것을 **관련된 인사이트**라고 합니다. 인사이트 카드를 선택하여 활성화합니다. 인사이트 카드는 보고서 캔버스의 왼쪽으로 이동하며, 해당 단일 인사이트의 데이터만을 기반으로 새 카드는 오른쪽에 표시됩니다.
    
-      ![확장된 필터 메뉴](./media/end-user-insights/power-bi-insight-card.png)
+      ![확장된 관련 인사이트 및 필터 메뉴](./media/end-user-insights/power-bi-insights-card.png)
    
-   * 오른쪽 위 모서리에서 전구 모양 아이콘 ![인사이트 아이콘](./media/end-user-insights/power-bi-bulb-icon.png) 또는 **인사이트**를 선택합니다. 인사이트가 왼쪽에 표시되고 해당 단일 인사이트의 데이터에만 기초한 새 카드는 오른쪽에 표시됩니다.
-     
-     ![인사이트를 보여주는 메뉴 모음 아이콘](./media/end-user-insights/power-bi-related.png)
      
 보고서로 돌아가려면 왼쪽 위 모서리에서 **포커스 모드 종료**를 선택합니다.
 
@@ -67,5 +64,5 @@ ms.locfileid: "87537737"
 ## <a name="next-steps"></a>다음 단계
 
 [분석 기능을 사용](end-user-analyze-visuals.md)하여 보고서 시각적 개체에서 인사이트 실행    
-[사용 가능한 빠른 인사이트 유형](end-user-insight-types.md)에 대해 알아보기
+[사용 가능한 정보 활용 유형](end-user-insight-types.md)에 대해 알아보기
 
