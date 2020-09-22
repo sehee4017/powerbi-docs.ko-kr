@@ -137,7 +137,7 @@
             - name: 앱 설치 및 사용
               href: end-user-app-view.md
             - name: 서비스에 연결
-              href: end-user-connect-to-services.md
+              href: ../connect-data/service-connect-to-services.md
             - name: 앱 마켓플레이스에서 샘플 앱 가져오기
               href: end-user-app-marketing.md
         - name: 데이터에 대해 질문하기
@@ -153,6 +153,6 @@
         - name: 질문과 대답
           href: end-user-faq.md
         - name: 지원되는 브라우저
-          href: end-user-browsers.md
+          href: ../fundamentals/power-bi-browsers.md
         - name: 빠른 인사이트 형식
           href: end-user-insight-types.md

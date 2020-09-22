@@ -21,7 +21,7 @@
           href: whats-new.md
         - name: 관리자 개요
           href: admin-handbook-overview.md
-        - name: 변경 로그
+        - name: 로그 변경
           href: changelog.md
         - name: 지원 타임라인
           href: support-timeline.md
@@ -39,10 +39,10 @@
               href: data-sources.md
             - name: 페이지를 매긴 보고서 데이터 원본
               href: connect-data-sources.md
-            - name: Subscriptions
-              href: 'https://go.microsoft.com/fwlink/?linkid=851310'
+            - name: 구독
+              href: /sql/reporting-services/working-with-subscriptions-web-portal
             - name: 모바일 앱 사용
-              href: 'https://go.microsoft.com/fwlink/?linkid=848711'
+              href: ../consumer/mobile/mobile-apps-for-mobile-devices.md
             - name: 예약된 새로 고침 문제 해결
               href: scheduled-refresh-troubleshoot.md
         - name: 개발자용 보고서 서버
@@ -50,9 +50,9 @@
             - name: 개발자용 보고서 서버
               href: developer-handbook-overview.md
             - name: 보고서 뷰어 컨트롤
-              href: 'https://go.microsoft.com/fwlink/?linkid=848724'
+              href: /sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started
             - name: 확장 프로그램 개발
-              href: 'https://go.microsoft.com/fwlink/?linkid=848723'
+              href: /sql/reporting-services/extensions/reporting-services-extension-library
             - name: 보고서 포함
               href: quickstart-embed.md
     - name: 방법
@@ -74,7 +74,7 @@
             - name: 페이지를 매긴 보고서에 직접 데이터 입력
               href: ../paginated-reports/paginated-reports-enter-data.md
             - name: KPI 작업
-              href: 'https://go.microsoft.com/fwlink/?linkid=849021'
+              href: /sql/reporting-services/working-with-kpis-in-reporting-services
             - name: OData 피드로 공유 데이터 세트에 액세스
               href: access-dataset-odata.md
             - name: PowerShell을 사용하여 데이터 원본 연결 문자열 변경
@@ -102,7 +102,7 @@
             - name: Azure 애플리케이션 프록시를 사용하여 보고서 서버 구성
               href: azure-application-proxy.md
             - name: Azure AD를 사용하여 원격 모바일 액세스
-              href: 'https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi'
+              href: /azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi
             - name: Excel 통합 문서 호스트
               href: excel-oos.md
     - name: 참조
@@ -110,13 +110,13 @@
         - name: REST API
           href: rest-api.md
         - name: WMI
-          href: 'https://go.microsoft.com/fwlink/?linkid=848719'
+          href: /sql/reporting-services/wmi-provider-library-reference/reporting-services-wmi-provider-library-reference-ssrs
         - name: SOAP API
-          href: 'https://go.microsoft.com/fwlink/?linkid=848721'
+          href: /sql/reporting-services/report-server-web-service/net-framework/building-applications-using-the-web-service-and-the-net-framework
         - name: URL 액세스
-          href: 'https://go.microsoft.com/fwlink/?linkid=848722'
+          href: /sql/reporting-services/url-access-ssrs
         - name: 확장
-          href: 'https://go.microsoft.com/fwlink/?linkid=848723'
+          href: /sql/reporting-services/extensions/reporting-services-extension-library
     - name: 리소스
       items:
         - name: 용량 계획 백서
