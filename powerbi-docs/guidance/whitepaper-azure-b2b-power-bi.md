@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 2783f434e2bb1d6d45ed1a9442c60da7b09e7ae4
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 9125c87f96641852a16410d3f8287c714816fb4b
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782785"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965381"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Azure Active Directory B2B를 사용하여 외부 게스트 사용자에게 Power BI 콘텐츠 배포
 
@@ -31,7 +31,7 @@ ms.locfileid: "85782785"
 
 Power BI를 사용 하면 조직에서 비즈니스를 360 수준으로 볼 수 있으며, 이러한 조직의 모든 사용자가 데이터를 사용 하 여 지능적인 의사 결정을 내릴 수 있습니다. 이러한 조직 대부분은 외부 파트너, 클라이언트 및 계약자와 강력 하 고 신뢰할 수 있는 관계를 가집니다. 이러한 조직에서는 이러한 외부 파트너의 사용자에 게 Power BI 대시보드 및 보고서에 대 한 보안 액세스를 제공 해야 합니다.
 
-Power BI는 조직 외부의 게스트 사용자에 게 Power BI 콘텐츠를 안전 하 게 배포할 수 있도록 [Azure Active Directory b2b (AZURE AD B2B)](https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b) 와 통합 됩니다.
+Power BI는 조직 외부의 게스트 사용자에 게 Power BI 콘텐츠를 안전 하 게 배포할 수 있도록 [Azure Active Directory b2b (AZURE AD B2B)](/azure/active-directory/b2b/what-is-b2b) 와 통합 됩니다.
 
 이 백서에서는 Azure Active Directory B2B와의 통합 Power BI 이해 하는 데 필요한 모든 세부 정보에 대해 설명 합니다. 가장 일반적인 사용 사례, 설정, 라이선스 및 행 수준 보안을 다룹니다.
 
@@ -64,7 +64,7 @@ Contoso의 비즈니스 사용자는 비즈니스 목적에 따라 필요에 따
 
 Contoso는 하도급 업자와 함께 작동 하 여 radiators의 안정성 분석을 수행 합니다. 하도급 업자에는 Contoso의 Power BI 환경에서 데이터에 액세스 해야 하는 10 명의 팀이 있습니다. Contoso Azure AD 관리자는 모든 사용자를 초대 하 고 하도급 업자 변경 시 모든 추가/변경 내용을 처리 하는 데 관여 합니다. Azure AD 관리자는 하도급 업자의 모든 직원에 대 한 보안 그룹을 만듭니다. Contoso 직원은 보안 그룹을 사용 하 여 보고서에 대 한 액세스를 쉽게 관리 하 고 모든 필수 하도급 업자 직원이 필요한 모든 보고서, 대시보드 및 Power BI 앱에 액세스할 수 있도록 할 수 있습니다. Azure AD 관리자는 Contoso 또는 하도급 업자에서 신뢰할 수 있는 직원에 게 초대 권한을 위임 하 여 적시에 관리 하도록 선택 하 여 초대 프로세스에 참여 하지 않도록 할 수도 있습니다.
 
-일부 조직에서는 외부 사용자를 추가 하거나, 외부 조직에 많은 사용자를 초대 하거나, 많은 외부 조직을 추가로 제어 해야 합니다. 이러한 경우 계획 된 공유를 사용 하 여 공유 규모를 관리 하 고, 조직 정책을 적용 하며, 신뢰할 수 있는 개인에 게 외부 사용자를 초대 하 고 관리 하는 권한을 위임할 수도 있습니다. Azure AD B2B는 단일 작업으로 사용자 집합을 초대할 수 있는 [초대 관리자 API를 사용 하](https://docs.microsoft.com/azure/active-directory/b2b/customize-invitation-api) 여 IT 관리자 또는 PowerShell을 통해 [Azure Portal에서](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator)직접 전송 될 계획 된 초대를 지원 합니다. 조직에서는 계획 된 초대 방식을 사용 하 여 사용자를 초대 하 고 승인 프로세스를 구현할 수 있는 사용자를 제어할 수 있습니다. 동적 그룹과 같은 고급 Azure AD 기능을 사용 하면 보안 그룹 멤버 자격을 자동으로 쉽게 유지 관리할 수 있습니다.
+일부 조직에서는 외부 사용자를 추가 하거나, 외부 조직에 많은 사용자를 초대 하거나, 많은 외부 조직을 추가로 제어 해야 합니다. 이러한 경우 계획 된 공유를 사용 하 여 공유 규모를 관리 하 고, 조직 정책을 적용 하며, 신뢰할 수 있는 개인에 게 외부 사용자를 초대 하 고 관리 하는 권한을 위임할 수도 있습니다. Azure AD B2B는 단일 작업으로 사용자 집합을 초대할 수 있는 [초대 관리자 API를 사용 하](/azure/active-directory/b2b/customize-invitation-api) 여 IT 관리자 또는 PowerShell을 통해 [Azure Portal에서](/azure/active-directory/b2b/add-users-administrator)직접 전송 될 계획 된 초대를 지원 합니다. 조직에서는 계획 된 초대 방식을 사용 하 여 사용자를 초대 하 고 승인 프로세스를 구현할 수 있는 사용자를 제어할 수 있습니다. 동적 그룹과 같은 고급 Azure AD 기능을 사용 하면 보안 그룹 멤버 자격을 자동으로 쉽게 유지 관리할 수 있습니다.
 
 
 ![콘텐츠를 볼 수 있는 게스트 제어](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_02.png)
@@ -80,7 +80,7 @@ Contoso는 하도급 업자와 함께 작동 하 여 radiators의 안정성 분�
 
 Contoso에는 하나 이상의 공급 업체와 공유 해야 하는 보고서 및 대시보드 집합이 있습니다. 모든 필수 외부 사용자에 게이 콘텐츠에 대 한 액세스 권한이 있는지 확인 하기 위해 Power BI 앱으로 패키지 됩니다. 외부 사용자는 앱 액세스 목록 또는 보안 그룹을 통해 직접 추가 됩니다. 그런 다음 Contoso의 누군가가 모든 외부 사용자 (예: 전자 메일)에 앱 URL을 보냅니다. 외부 사용자가 링크를 열면 쉽게 탐색할 수 있는 단일 환경에서 모든 콘텐츠를 볼 수 있습니다.
 
-Power BI 앱을 사용 하면 Contoso가 해당 공급 업체에 대 한 BI 포털을 쉽게 빌드할 수 있습니다. 단일 액세스 목록은 불필요 한 시간을 확인 하 고 항목 수준 사용 권한을 설정 하는 데 필요한 모든 콘텐츠에 대 한 액세스를 제어 합니다. Azure AD B2B는 공급자의 기본 id를 사용 하 여 보안 액세스를 유지 하므로 사용자가 추가 로그인 자격 증명을 필요로 하지 않습니다. 보안 그룹이 포함 된 계획 된 초대를 사용 하는 경우 프로젝트에 대 한 순환 또는 외부로의 연결을 간소화 하기 위해 앱에 대 한 액세스 관리를 간소화 합니다. 수동으로 또는 [동적 그룹](https://docs.microsoft.com/azure/active-directory/b2b/use-dynamic-groups)을 사용 하 여 보안 그룹의 구성원 자격을 사용 하 여 공급자의 모든 외부 사용자가 적절 한 보안 그룹에 자동으로 추가 되도록 합니다.
+Power BI 앱을 사용 하면 Contoso가 해당 공급 업체에 대 한 BI 포털을 쉽게 빌드할 수 있습니다. 단일 액세스 목록은 불필요 한 시간을 확인 하 고 항목 수준 사용 권한을 설정 하는 데 필요한 모든 콘텐츠에 대 한 액세스를 제어 합니다. Azure AD B2B는 공급자의 기본 id를 사용 하 여 보안 액세스를 유지 하므로 사용자가 추가 로그인 자격 증명을 필요로 하지 않습니다. 보안 그룹이 포함 된 계획 된 초대를 사용 하는 경우 프로젝트에 대 한 순환 또는 외부로의 연결을 간소화 하기 위해 앱에 대 한 액세스 관리를 간소화 합니다. 수동으로 또는 [동적 그룹](/azure/active-directory/b2b/use-dynamic-groups)을 사용 하 여 보안 그룹의 구성원 자격을 사용 하 여 공급자의 모든 외부 사용자가 적절 한 보안 그룹에 자동으로 추가 되도록 합니다.
 
 
 ![AAD를 사용 하 여 콘텐츠 제어](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_03.png)
@@ -157,13 +157,13 @@ Contoso와 해당 radiator 공급자의 관계는 조직 간 직접 공동 작�
 
 두 번째 방법은 Power BI 콘텐츠 기능의 조직 간 편집 및 관리에 의존 합니다. 계열사의 사용자는 부모 조직을 통해 해당 Power BI에 액세스 하 고 권한을 통해 액세스할 수 있는 항목을 제어할 수 있습니다. 이를 통해 자회사의 사용자가 상위 조직의 테 넌 트에 있는 콘텐츠의 포괄적인 콘텐츠 목록을 볼 수 있는 Power BI 홈에 액세스할 수 있습니다. 그런 다음 부모 조직의 Power BI 환경에 대 한 URL이 자회사의 사용자에 게 제공 됩니다.
 
-최종 방법은 각 자회사에 대해 Power BI 테 넌 트 내에 생성 된 Power BI 앱을 사용 합니다. Power BI 앱은 [외부 링크 옵션으로 구성 된 타일이](https://docs.microsoft.com/power-bi/service-dashboard-edit-tile#hyperlink)포함 된 대시보드를 포함 합니다. 사용자가 타일을 누르면 부모 조직의 Power BI에서 적절 한 보고서, 대시보드 또는 앱으로 이동 됩니다. 이 접근 방식에는 자회사의 모든 사용자에 대해 앱을 자동으로 설치할 수 있으며 자신의 Power BI 환경에 로그인 할 때마다 사용할 수 있는 추가 이점이 있습니다. 이 방법의 추가 장점은 링크를 기본적으로 열 수 있는 Power BI 모바일 앱에서 잘 작동 한다는 것입니다. 또한이를 두 번째 방법으로 결합 하 여 Power BI 환경 간에 쉽게 전환할 수 있습니다.
+최종 방법은 각 자회사에 대해 Power BI 테 넌 트 내에 생성 된 Power BI 앱을 사용 합니다. Power BI 앱은 [외부 링크 옵션으로 구성 된 타일이](../create-reports/service-dashboard-edit-tile.md#hyperlink)포함 된 대시보드를 포함 합니다. 사용자가 타일을 누르면 부모 조직의 Power BI에서 적절 한 보고서, 대시보드 또는 앱으로 이동 됩니다. 이 접근 방식에는 자회사의 모든 사용자에 대해 앱을 자동으로 설치할 수 있으며 자신의 Power BI 환경에 로그인 할 때마다 사용할 수 있는 추가 이점이 있습니다. 이 방법의 추가 장점은 링크를 기본적으로 열 수 있는 Power BI 모바일 앱에서 잘 작동 한다는 것입니다. 또한이를 두 번째 방법으로 결합 하 여 Power BI 환경 간에 쉽게 전환할 수 있습니다.
 
 #### <a name="allowing-subsidiary-users-to-access-data-sources-hosted-by-the-parent-organization"></a>자회사 사용자가 상위 조직에서 호스트 하는 데이터 원본에 액세스할 수 있도록 허용
 
 자회사의 분석가가 상위 조직에서 제공 하는 데이터를 사용 하 여 고유한 분석을 만들어야 하는 경우가 많습니다. 이 경우 일반적으로 클라우드 데이터 원본을 사용 하 여 문제를 해결 합니다.
 
-첫 번째 방법은 다음 이미지와 같이 부모 및 계열사에서 분석가의 요구를 충족 하는 엔터프라이즈급 데이터 웨어하우스를 구축 하는 [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview) 활용 하는 것입니다. Contoso는 데이터를 호스팅하고 행 수준 보안과 같은 기능을 사용 하 여 각 자회사의 사용자가 자신의 데이터에만 액세스할 수 있도록 합니다. 각 조직의 분석가는 Power BI Desktop을 통해 데이터 웨어하우스에 액세스 하 고 결과 분석을 해당 Power BI 테 넌 트에 게시할 수 있습니다.
+첫 번째 방법은 다음 이미지와 같이 부모 및 계열사에서 분석가의 요구를 충족 하는 엔터프라이즈급 데이터 웨어하우스를 구축 하는 [Azure Analysis Services](/azure/analysis-services/analysis-services-overview) 활용 하는 것입니다. Contoso는 데이터를 호스팅하고 행 수준 보안과 같은 기능을 사용 하 여 각 자회사의 사용자가 자신의 데이터에만 액세스할 수 있도록 합니다. 각 조직의 분석가는 Power BI Desktop을 통해 데이터 웨어하우스에 액세스 하 고 결과 분석을 해당 Power BI 테 넌 트에 게시할 수 있습니다.
 
 ![Power BI 테 넌 트를 사용 하 여 공유를 수행 하는 방법](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_07.png)
 
@@ -257,7 +257,7 @@ Azure AD B2B와의 통합을 통해 게스트 사용자에 게 BI 포털에 대 
     > [!NOTE]
     > Azure Portal에서 게스트 사용자를 초대 하려면 테 넌 트의 Azure Active Directory에 대 한 관리자 권한이 필요 합니다.
 
-    Contoso에서 많은 게스트 사용자를 초대 하려는 경우 PowerShell을 사용 하 여이 작업을 수행할 수 있습니다. Contoso의 Azure AD 관리자는 모든 게스트 사용자의 메일 주소를 CSV 파일에 저장 합니다. [AZURE ACTIVE DIRECTORY B2B 공동 작업 코드 및 PowerShell 샘플](https://docs.microsoft.com/azure/active-directory/b2b/code-samples) 및 지침은 다음과 같습니다.
+    Contoso에서 많은 게스트 사용자를 초대 하려는 경우 PowerShell을 사용 하 여이 작업을 수행할 수 있습니다. Contoso의 Azure AD 관리자는 모든 게스트 사용자의 메일 주소를 CSV 파일에 저장 합니다. [AZURE ACTIVE DIRECTORY B2B 공동 작업 코드 및 PowerShell 샘플](/azure/active-directory/b2b/code-samples) 및 지침은 다음과 같습니다.
 
     초대 후에 게스트 사용자는 초대 링크를 포함 하는 전자 메일을 받게 됩니다.
 
@@ -267,7 +267,7 @@ Azure AD B2B와의 통합을 통해 게스트 사용자에 게 BI 포털에 대 
     게스트 사용자가 링크를 클릭 하면 Contoso Azure AD 테 넌 트의 콘텐츠에 액세스할 수 있습니다.
 
     > [!NOTE]
-    > [여기](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-invitation-email)에 설명 된 대로 Azure AD 브랜딩 기능을 사용 하 여 초대 전자 메일의 레이아웃을 변경할 수 있습니다.
+    > [여기](/azure/active-directory/active-directory-b2b-invitation-email)에 설명 된 대로 Azure AD 브랜딩 기능을 사용 하 여 초대 전자 메일의 레이아웃을 변경할 수 있습니다.
 
 
     **임시 초대**
@@ -331,12 +331,12 @@ Azure AD B2B와의 통합 Power BI 모든 비즈니스 메일 주소와 함께 �
 
 Azure ad 계정이 외부 파티의 Azure AD에서 사용 되거나 생성 되는 것을 인식 하는 것이 중요 합니다. 이렇게 하면 루시가 자신의 사용자 이름 및 암호를 사용할 수 있으며, 조직에서 Azure AD를 사용 하는 경우에는 루시가 회사를 떠날 때마다 다른 테 넌 트에서 해당 자격 증명이 자동으로 작동 하지 않습니다.
 
-## <a name="licensing"></a>라이선스
+## <a name="licensing"></a>라이선싱
 
 Contoso는 공급자 및 파트너 조직의 게스트 사용자에 게 Power BI 콘텐츠에 대 한 액세스를 허가 하는 세 가지 방법 중 하나를 선택할 수 있습니다.
 
 > [!NOTE]
-> Azure _Ad B2B's 무료 계층은 AZURE AD B2B와 Power BI를 사용 하기에 충분 합니다. 동적 그룹과 같은 일부 고급 Azure AD B2B 기능을 위해서는 추가 라이선스가 필요 합니다. 추가 정보는 Azure AD B2B 설명서를 참조 하세요._[_https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
+> Azure _Ad B2B's 무료 계층은 AZURE AD B2B와 Power BI를 사용 하기에 충분 합니다. 동적 그룹과 같은 일부 고급 Azure AD B2B 기능을 위해서는 추가 라이선스가 필요 합니다. 추가 정보는 Azure AD B2B 설명서를 참조 하세요._[_https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_](/azure/active-directory/b2b/licensing-guidance)
 
 ### <a name="approach-1-contoso-uses-power-bi-premium"></a>방법 1: Contoso에서 Power BI Premium 사용
 
@@ -463,7 +463,7 @@ Power BI는 Contoso에서 온 [-프레미스 데이터 게이트웨이](https://
 
 ![사용자 이름 매핑](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_40.png)
 
-이 방법은 Contoso에 소수의 사용자만 있거나 Contoso가 모든 외부 사용자를 단일 내부 계정에 매핑할 수 있는 경우에 적합 합니다. 각 사용자가 자신의 자격 증명을 요구 하는 보다 복잡 한 시나리오의 경우 [데이터 원본 관리-Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/)에 설명 된 대로 [사용자 지정 AD 특성](https://technet.microsoft.com/library/cc961737.aspx) 을 사용 하 여 매핑을 수행 하는 고급 방법이 있습니다. 이를 통해 Contoso 관리자는 Azure AD의 모든 사용자 (외부 B2B 사용자)에 대 한 매핑을 정의할 수 있습니다.  이러한 특성은 스크립트 또는 코드를 사용 하 여 AD 개체 모델을 통해 설정할 수 있으므로 Contoso에서 초대 또는 예약 된 흐름에 대 한 매핑을 완전히 자동화할 수 있습니다.
+이 방법은 Contoso에 소수의 사용자만 있거나 Contoso가 모든 외부 사용자를 단일 내부 계정에 매핑할 수 있는 경우에 적합 합니다. 각 사용자가 자신의 자격 증명을 요구 하는 보다 복잡 한 시나리오의 경우 [데이터 원본 관리-Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/)에 설명 된 대로 [사용자 지정 AD 특성](/previous-versions/windows/it-pro/windows-2000-server/cc961737(v=technet.10)) 을 사용 하 여 매핑을 수행 하는 고급 방법이 있습니다. 이를 통해 Contoso 관리자는 Azure AD의 모든 사용자 (외부 B2B 사용자)에 대 한 매핑을 정의할 수 있습니다.  이러한 특성은 스크립트 또는 코드를 사용 하 여 AD 개체 모델을 통해 설정할 수 있으므로 Contoso에서 초대 또는 예약 된 흐름에 대 한 매핑을 완전히 자동화할 수 있습니다.
 
 ## <a name="enabling-external-users-to-edit-and-manage-content-within-power-bi"></a>외부 사용자가 Power BI 내에서 콘텐츠를 편집 하 고 관리할 수 있도록 설정
 
@@ -490,7 +490,7 @@ Power BI 관리 포털에서 설정은 다음 그림에 표시 됩니다.
 
 이러한 사용자가 Power BI에 로그인 할 수 있도록 테 넌 트 URL을 제공 합니다. 테넌트 URL을 찾으려면 이 단계를 수행합니다.
 
-1. Power BI 서비스의 상단 메뉴에서 **도움말을 선택** 합니다. )를 **Power BI**합니다.
+1. Power BI 서비스의 상단 메뉴에서 **도움말을 선택** 합니다. )를  **Power BI**합니다.
 2. **테 넌 트 URL**옆에 있는 값을 찾습니다. 게스트 사용자와 공유할 수 있는 테 넌 트 URL입니다.
 
     ![테넌트 URL](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_42.png)
@@ -525,7 +525,7 @@ Azure AD B2B 공유를 사용 하는 경우 Azure Active Directory 관리자는 
 
 설정에 대 한 세부 정보는 여기에서 확인할 수 있습니다.
 
-[https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)
+[https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations](/azure/active-directory/b2b/delegate-invitations)
 
 > [!NOTE]
 > 기본적으로 게스트 사용자 권한은 제한 됨 옵션을 예로 설정 하므로, Power BI 내의 게스트 사용자는 이러한 사용자에 대 한 사용자 선택 Ui가 작동 하지 않는 경우 특히 서라운드 공유가 제한 됩니다. 적절 한 환경을 보장 하려면 아래와 같이 Azure AD 관리자와 협력 하 여이를 아니요로 설정 하는 것이 중요 합니다. * *
@@ -542,13 +542,13 @@ Power BI 관리자는 Power BI 관리 포털을 방문 하 여 Power BI에 대 �
 - 관리자, 게스트 초대자 역할 및 구성원은 초대 가능
 - 게스트를 포함한 모든 사용자가 초대를 수행할 수 있습니다.
 
-이러한 정책에 대 한 자세한 내용은 [AZURE ACTIVE DIRECTORY B2B 공동 작업을 위한 대리인 초대](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-delegate-invitations)에서 확인할 수 있습니다.
+이러한 정책에 대 한 자세한 내용은 [AZURE ACTIVE DIRECTORY B2B 공동 작업을 위한 대리인 초대](/azure/active-directory/active-directory-b2b-delegate-invitations)에서 확인할 수 있습니다.
 
 외부 사용자의 모든 Power BI 작업은 [감사 포털 에서도 감사](https://powerbi.microsoft.com/documentation/powerbi-admin-auditing/)됩니다.
 
 ### <a name="conditional-access-policies-for-guest-users"></a>게스트 사용자에 대 한 조건부 액세스 정책
 
-Contoso는 Contoso 테 넌 트의 콘텐츠에 액세스 하는 게스트 사용자에 대 한 조건부 액세스 정책을 적용할 수 있습니다. [B2B 공동 작업 사용자에 대 한 조건부 액세스](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-mfa-instructions)에서 자세한 지침을 찾을 수 있습니다.
+Contoso는 Contoso 테 넌 트의 콘텐츠에 액세스 하는 게스트 사용자에 대 한 조건부 액세스 정책을 적용할 수 있습니다. [B2B 공동 작업 사용자에 대 한 조건부 액세스](/azure/active-directory/active-directory-b2b-mfa-instructions)에서 자세한 지침을 찾을 수 있습니다.
 
 ## <a name="common-alternative-approaches"></a>일반적인 대체 방법
 
@@ -576,7 +576,7 @@ Azure AD B2B를 사용 하면 조직 전체에서 데이터와 보고서를 쉽�
 
 ### <a name="alternative-option-2-create-a-custom-power-bi-embedded-application-using-custom-authentication"></a>대체 옵션 2: 사용자 지정 인증을 사용 하 여 사용자 지정 Power BI Embedded 응용 프로그램 만들기
 
-Contoso의 또 다른 옵션은 사용자 지정 인증 ([' 앱 소유 데이터 '](https://docs.microsoft.com/power-bi/developer/embedded/embed-sample-for-customers))을 사용 하 여 고유한 사용자 지정 포함 Power BI 응용 프로그램을 빌드하는 것입니다. 많은 조직에서는 사용자 지정 응용 프로그램을 만들어 외부 파트너에 게 Power BI 콘텐츠를 배포 하는 데 필요한 시간 또는 리소스를 갖지 않지만, 일부 조직에서는이 방법이 가장 적합 하 고 심각한 고려 사항이 있습니다.
+Contoso의 또 다른 옵션은 사용자 지정 인증 ([' 앱 소유 데이터 '](../developer/embedded/embed-sample-for-customers.md))을 사용 하 여 고유한 사용자 지정 포함 Power BI 응용 프로그램을 빌드하는 것입니다. 많은 조직에서는 사용자 지정 응용 프로그램을 만들어 외부 파트너에 게 Power BI 콘텐츠를 배포 하는 데 필요한 시간 또는 리소스를 갖지 않지만, 일부 조직에서는이 방법이 가장 적합 하 고 심각한 고려 사항이 있습니다.
 
 조직에는 파트너를 위한 모든 조직 리소스에 대 한 액세스를 중앙 집중화 하 고, 내부 조직 리소스에서 격리를 제공 하 고, 많은 파트너와 개별 사용자를 지원할 수 있는 간소화 된 환경을 제공 하는 기존 파트너 포털이 있는 경우가 많습니다.
 
@@ -612,11 +612,11 @@ Contoso의 또 다른 옵션은 사용자 지정 인증 ([' 앱 소유 데이터
 
 최종 사용자는 콘텐츠에 액세스 하기 전에 항상 동의 경험을 클릭 해야 합니다.
 
-여러 게스트 사용자를 초대 하는 경우 [리소스 조직의 게스트 초대자 역할에 사용자를 추가](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-add-guest-to-role)하 여 핵심 Azure AD 관리자에서이를 위임 하는 것이 좋습니다. 이 사용자는 로그인 UI, PowerShell 스크립트 또는 API를 사용하여 파트너 조직의 다른 사용자를 초대할 수 있습니다. 이렇게 하면 Azure AD 관리자에서 파트너 조직의 사용자에 게 초대를 초대 하거나 다시 보낼 때의 관리 부담을 줄일 수 있습니다.
+여러 게스트 사용자를 초대 하는 경우 [리소스 조직의 게스트 초대자 역할에 사용자를 추가](/azure/active-directory/active-directory-b2b-add-guest-to-role)하 여 핵심 Azure AD 관리자에서이를 위임 하는 것이 좋습니다. 이 사용자는 로그인 UI, PowerShell 스크립트 또는 API를 사용하여 파트너 조직의 다른 사용자를 초대할 수 있습니다. 이렇게 하면 Azure AD 관리자에서 파트너 조직의 사용자에 게 초대를 초대 하거나 다시 보낼 때의 관리 부담을 줄일 수 있습니다.
 
 **Contoso에서 multi-factor authentication을 사용할 수 없는 경우 게스트 사용자에 대해 multi-factor authentication을 강제 적용할 수 있나요?**
 
-예. 자세한 내용은 [B2B 협업 사용자에 대한 조건부 액세스](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-mfa-instructions)를 참조하세요.
+예. 자세한 내용은 [B2B 협업 사용자에 대한 조건부 액세스](/azure/active-directory/active-directory-b2b-mfa-instructions)를 참조하세요.
 
 **초대된 파트너가 페더레이션을 사용하여 자체 온-프레미스 인증을 추가하면 B2B 협업이 어떻게 진행되나요?**
 
