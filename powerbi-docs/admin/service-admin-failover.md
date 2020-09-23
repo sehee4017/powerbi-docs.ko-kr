@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 56ace35adf6a005c4370bf692d8851dc015688c0
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: a9fca9f27baf51c4e4bafbf93244f0d745ba714b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782350"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857430"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI 고가용성, 장애 조치(failover) 및 재해 복구 FAQ
 
@@ -55,7 +55,7 @@ Power BI 지원 페이지에 알림이 게시됩니다([https://powerbi.microsof
 
 Power BI는 장애 조치가 필요한 것으로 식별된 후 다시 작동하는 데 15분 정도 걸립니다. 장애 조치가 필요한 것으로 식별하는 시간은 문제가 발생한 시나리오에 따라 달라집니다. 
 
-장애 조치를 수행한 후 Power BI는 Azure Storage 지역 복제를 사용하여 장애 조치를 수행합니다. 일반적으로 해당 복제의 반환 시점은 15분이지만, [Azure Storage는 SLA에서 이 시간 범위를 보장하지 않으므로](https://docs.microsoft.com/azure/storage/common/storage-redundancy) Power BI도 시간 범위를 보장할 수 없습니다. 
+장애 조치를 수행한 후 Power BI는 Azure Storage 지역 복제를 사용하여 장애 조치를 수행합니다. 일반적으로 해당 복제의 반환 시점은 15분이지만, [Azure Storage는 SLA에서 이 시간 범위를 보장하지 않으므로](/azure/storage/common/storage-redundancy) Power BI도 시간 범위를 보장할 수 없습니다. 
 
 ## <a name="what-happens-to-workspaces-and-reports-if-my-premium-capacity-becomes-unavailable"></a>프리미엄 용량을 사용할 수 없게 되면 작업 영역과 보고서는 어떻게 되나요? 
 

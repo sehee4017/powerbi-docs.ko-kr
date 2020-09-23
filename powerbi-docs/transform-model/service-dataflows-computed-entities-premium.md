@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 0b43864078e52381aa92e6e16366ba4fdf5fea29
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 79ab3a38a6f1df97b445c06adf13a4b53af30d87
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239743"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858028"
 ---
 # <a name="using-computed-entities-on-power-bi-premium"></a>Power BI Premium의 계산된 엔터티 사용
 
@@ -95,4 +95,4 @@ Power BI Premium 용량에서 작업 영역을 제거하면 연결된 데이터 
 * [예약된 새로 고침 구성](../connect-data/refresh-scheduled-refresh.md)
 
 공통 데이터 모델에 대한 자세한 내용은 해당 개요 문서를 참조할 수 있습니다.
-* [공통 데이터 모델 - 개요 ](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [공통 데이터 모델 - 개요 ](/powerapps/common-data-model/overview)

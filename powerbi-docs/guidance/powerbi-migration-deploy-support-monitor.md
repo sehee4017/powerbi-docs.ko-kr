@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 59f340e6325cf846d1b0453a94a1015b50a987c4
-ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
+ms.openlocfilehash: 23d207bb4f070c3c3a35f1e74dd281f012528c82
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89402005"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965013"
 ---
 # <a name="deploy-to-power-bi"></a>Power BI에 배포
 
@@ -100,7 +100,7 @@ IT 관리형 솔루션 또는 비즈니스 생산성에 중요한 솔루션의 �
 - **보고서 및 대시보드 설정:** 각 보고서 및 대시보드의 설정을 업데이트하고 확인합니다. 가장 중요한 설정은 다음과 같습니다.
   - 설명
   - 담당자 또는 그룹
-  - [민감도 레이블](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
+  - [민감도 레이블](../admin/service-security-apply-data-sensitivity-labels.md)
   - [추천 콘텐츠](https://powerbi.microsoft.com/blog/promote-your-reports-dashboards-and-apps-on-power-bi-home/)
 - **구독:** 필요한 경우 보고서 구독을 설정합니다.
 
@@ -136,7 +136,7 @@ IT 관리형 솔루션 또는 비즈니스 생산성에 중요한 솔루션의 �
 
 ## <a name="monitor-the-solution"></a>솔루션 모니터링
 
-[Power BI 활동 로그](../admin/service-admin-auditing.md)의 이벤트를 사용하여 새 솔루션의 사용 패턴을 이해할 수 있습니다(또는 Power BI Report Server에 배포된 콘텐츠의 [실행 로그 ](/sql/reporting-services/report-server/report-server-executionlog-and-the-executionlog3-view?view=sql-server-ver15)). 활동 로그를 분석하면 실제 사용이 예상과 다른지 여부를 확인할 수 있습니다. 솔루션이 적절히 지원되는지 유효성 검사할 수도 있습니다.
+[Power BI 활동 로그](../admin/service-admin-auditing.md)의 이벤트를 사용하여 새 솔루션의 사용 패턴을 이해할 수 있습니다(또는 Power BI Report Server에 배포된 콘텐츠의 [실행 로그 ](/sql/reporting-services/report-server/report-server-executionlog-and-the-executionlog3-view)). 활동 로그를 분석하면 실제 사용이 예상과 다른지 여부를 확인할 수 있습니다. 솔루션이 적절히 지원되는지 유효성 검사할 수도 있습니다.
 
 활동 로그를 검토하여 해결할 수 있는 몇 가지 질문은 다음과 같습니다.
 

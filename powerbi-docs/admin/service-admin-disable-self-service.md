@@ -10,12 +10,12 @@ ms.date: 04/08/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 216be5b7a72d32e78933c7b6ceb879ccfbb4dd92
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 966699f20e83a7ea34140486f97f4491c4ba35e2
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228475"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857453"
 ---
 # <a name="enable-or-disable-self-service-sign-up-and-purchasing"></a>셀프 서비스 등록 및 구매 사용 또는 사용 안 함
 
@@ -44,9 +44,9 @@ PowerShell 명령을 사용하여 셀프 서비스 등록 및 구매를 제어�
 
 ### <a name="before-you-begin"></a>시작하기 전에
 
-이러한 단계에서는 Azure Active Directory PowerShell 명령을 사용하여 **AllowAdHocSubscriptions** 설정의 값을 변경합니다. 이러한 명령을 사용하려면 Azure AD PowerShell 모듈을 설치해야 합니다. PowerShell에 대한 자세한 내용은 [Windows PowerShell 시작](https://docs.microsoft.com/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-7)을 참조하세요.
+이러한 단계에서는 Azure Active Directory PowerShell 명령을 사용하여 **AllowAdHocSubscriptions** 설정의 값을 변경합니다. 이러한 명령을 사용하려면 Azure AD PowerShell 모듈을 설치해야 합니다. PowerShell에 대한 자세한 내용은 [Windows PowerShell 시작](/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-7)을 참조하세요.
 
-Azure AD 모듈을 설치하려면 관리자 권한으로 Windows PowerShell을 시작합니다. 로컬 실행 정책에서 스크립트를 실행할 수 있는지 확인합니다. 문제가 발생하는 경우 [PowerShell 실행 정책](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7#powershell-execution-policies)을 참조하여 로컬 정책을 변경하는 방법에 대해 알아보세요.
+Azure AD 모듈을 설치하려면 관리자 권한으로 Windows PowerShell을 시작합니다. 로컬 실행 정책에서 스크립트를 실행할 수 있는지 확인합니다. 문제가 발생하는 경우 [PowerShell 실행 정책](/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7#powershell-execution-policies)을 참조하여 로컬 정책을 변경하는 방법에 대해 알아보세요.
 
 다음 명령을 실행하여 Azure AD 모듈을 설치합니다.
 
@@ -90,9 +90,9 @@ Set-MsolCompanySettings -AllowAdHocSubscriptions $false
 
 ### <a name="before-you-begin"></a>시작하기 전에
 
-이러한 단계에서는 MSCommerce PowerShell 명령을 사용하여 **AllowSelfServicePurchase** 설정 값을 변경합니다. 이러한 명령을 사용하려면 MSCommerce PowerShell 모듈을 설치해야 합니다. PowerShell에 대한 자세한 내용은 [Windows PowerShell 시작](https://docs.microsoft.com/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-7)을 참조하세요.
+이러한 단계에서는 MSCommerce PowerShell 명령을 사용하여 **AllowSelfServicePurchase** 설정 값을 변경합니다. 이러한 명령을 사용하려면 MSCommerce PowerShell 모듈을 설치해야 합니다. PowerShell에 대한 자세한 내용은 [Windows PowerShell 시작](/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-7)을 참조하세요.
 
-MSCommerce 모듈을 설치하려면 관리자 권한으로 Windows PowerShell을 시작합니다. 로컬 실행 정책에서 스크립트를 실행할 수 있는지 확인합니다. 문제가 발생하는 경우 [PowerShell 실행 정책](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7#powershell-execution-policies)을 참조하여 로컬 정책을 변경하는 방법에 대해 알아보세요.
+MSCommerce 모듈을 설치하려면 관리자 권한으로 Windows PowerShell을 시작합니다. 로컬 실행 정책에서 스크립트를 실행할 수 있는지 확인합니다. 문제가 발생하는 경우 [PowerShell 실행 정책](/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7#powershell-execution-policies)을 참조하여 로컬 정책을 변경하는 방법에 대해 알아보세요.
 
 다음 명령을 실행하여 MSCommerce 모듈을 설치합니다.
 
@@ -128,5 +128,5 @@ Update-MSCommerceProductPolicy -PolicyId AllowSelfServicePurchase -ProductId CFQ
 
 Power BI의 셀프 서비스 구매 및 나머지 Power Platform에 대한 자세한 내용은 다음 문서를 참조하세요.
 
-- [셀프 서비스 구매 FAQ](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq?view=o365-worldwide#admin-capabilities)
-- [MSCommerce PowerShell 모듈에 AllowSelfServicePurchase 사용](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell?view=o365-worldwide)
+- [셀프 서비스 구매 FAQ](/microsoft-365/commerce/subscriptions/self-service-purchase-faq?view=o365-worldwide#admin-capabilities)
+- [MSCommerce PowerShell 모듈에 AllowSelfServicePurchase 사용](/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell?view=o365-worldwide)

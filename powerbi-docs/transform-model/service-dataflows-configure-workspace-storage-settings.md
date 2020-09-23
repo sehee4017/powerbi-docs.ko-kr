@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e43edb3241140024241ab78af1236d9551a35f1a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ad3684bbf285ff85fa3dec6b0cdc807dc05eca05
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239764"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857913"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>작업 영역 데이터 흐름 설정 구성(미리 보기)
 
@@ -128,13 +128,13 @@ Power BI Pro, Premium 및 Embedded 작업 영역:
 
 Azure Storage에 대한 자세한 내용은 다음 문서를 참조하세요.
 
-* [Azure Storage 보안 가이드](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
+* [Azure Storage 보안 가이드](/azure/storage/common/storage-security-guide)
 * [Azure Data Services의 github 샘플 시작](https://aka.ms/cdmadstutorial)
 
 공통 데이터 모델에 대한 자세한 내용은 해당 개요 문서를 참조할 수 있습니다.
 
-* [공통 데이터 모델 - 개요 ](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [CDM 폴더](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [CDM 모델 파일 정의](https://go.microsoft.com/fwlink/?linkid=2045521)
+* [공통 데이터 모델 - 개요 ](/powerapps/common-data-model/overview)
+* [CDM 폴더](/common-data-model/data-lake)
+* [CDM 모델 파일 정의](/common-data-model/model-json)
 
 또한 언제든지 [Power BI 커뮤니티에 질문](https://community.powerbi.com/)할 수 있습니다.

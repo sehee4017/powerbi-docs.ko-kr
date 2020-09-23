@@ -10,22 +10,22 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: preetikr
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9f434d27a11d171509645594a6f7f67e62c16faa
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: 5d7fbe9e302c7b1460bc285af140a50304c468da
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86409309"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858534"
 ---
 # <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>Power BI Desktop에서 Microsoft Graph Security API에 연결
 
-Power BI Desktop의 Microsoft Graph Security 커넥터를 사용하여 [Microsoft Graph Security API](https://aka.ms/graphsecuritydocs)에 연결합니다. 그런 다음, 대시보드 및 보고서를 빌드하여 보안 관련 [경고](https://docs.microsoft.com/graph/api/resources/alert?view=graph-rest-1.0) 및 [보안 점수](https://docs.microsoft.com/graph/api/resources/securescores?view=graph-rest-beta)에 대한 인사이트를 얻을 수 있습니다.
+Power BI Desktop의 Microsoft Graph Security 커넥터를 사용하여 [Microsoft Graph Security API](/graph/security-concept-overview)에 연결합니다. 그런 다음, 대시보드 및 보고서를 빌드하여 보안 관련 [경고](/graph/api/resources/alert?view=graph-rest-1.0) 및 [보안 점수](/graph/api/resources/securescores?view=graph-rest-beta)에 대한 인사이트를 얻을 수 있습니다.
 
-Microsoft Graph Security API는 Microsoft 및 해당 에코 시스템 파트너의 [여러 보안 솔루션](https://aka.ms/graphsecurityalerts)을 연결하여 경고의 상관 관계를 쉽게 설정합니다. 이 조합은 풍부한 컨텍스트 정보에 대한 액세스 권한을 제공하고 자동화를 간소화합니다. 이를 통해 조직은 비용과 복잡성을 줄이면서 여러 보안 제품에 대한 인사이트와 동작을 신속하게 얻을 수 있습니다.
+Microsoft Graph Security API는 Microsoft 및 해당 에코 시스템 파트너의 [여러 보안 솔루션](/graph/api/resources/security-api-overview#alerts)을 연결하여 경고의 상관 관계를 쉽게 설정합니다. 이 조합은 풍부한 컨텍스트 정보에 대한 액세스 권한을 제공하고 자동화를 간소화합니다. 이를 통해 조직은 비용과 복잡성을 줄이면서 여러 보안 제품에 대한 인사이트와 동작을 신속하게 얻을 수 있습니다.
 
 ## <a name="prerequisites-to-use-the-microsoft-graph-security-connector"></a>Microsoft Graph 보안 커넥터를 사용하기 위한 필수 구성 요소
 
-Microsoft Graph 보안 커넥터를 사용하려면 Azure AD(Azure Active Directory) 테넌트 관리자가 *명시적으로* 동의해야 합니다. [Microsoft Graph 보안 인증 요구 사항](https://aka.ms/graphsecurityauth)을 참조하세요.
+Microsoft Graph 보안 커넥터를 사용하려면 Azure AD(Azure Active Directory) 테넌트 관리자가 *명시적으로* 동의해야 합니다. [Microsoft Graph 보안 인증 요구 사항](/graph/security-authorization)을 참조하세요.
 동의에는 다음에 인용된 [Azure Portal](https://portal.azure.com)에서 사용할 수 있는 커넥터의 애플리케이션 ID 및 이름이 필요합니다.
 
 | 속성 | 값 |
@@ -37,11 +37,11 @@ Microsoft Graph 보안 커넥터를 사용하려면 Azure AD(Azure Active Direct
 
 커넥터에 대한 동의를 얻기 위해 Azure AD 테넌트 관리자는 다음 방법 중 하나를 사용할 수 있습니다.
 
-* [Azure AD 애플리케이션 대한 동의 부여](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent)
+* [Azure AD 애플리케이션 대한 동의 부여](/azure/active-directory/develop/v2-permissions-and-consent)
 
-* [애플리케이션-동의 환경](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience)을 통해 처음 실행하는 동안 논리 앱이 제출한 요청에 응답합니다.
+* [애플리케이션-동의 환경](/azure/active-directory/develop/application-consent-experience)을 통해 처음 실행하는 동안 논리 앱이 제출한 요청에 응답합니다.
    
-사용자가 *보안 관리자* 역할의 구성원이 **아닌 경우** Microsoft Graph 보안 커넥터에 로그인하는 사용자 계정에 Azure AD 보안 읽기 권한자 역할을 할당해야 합니다. [사용자에게 Azure AD 역할 할당](https://docs.microsoft.com/graph/security-authorization#assign-azure-ad-roles-to-users)을 참조하세요.
+사용자가 *보안 관리자* 역할의 구성원이 **아닌 경우** Microsoft Graph 보안 커넥터에 로그인하는 사용자 계정에 Azure AD 보안 읽기 권한자 역할을 할당해야 합니다. [사용자에게 Azure AD 역할 할당](/graph/security-authorization#assign-azure-ad-roles-to-users)을 참조하세요.
 
 ## <a name="using-the-microsoft-graph-security-connector"></a>Microsoft Graph 보안 커넥터 사용
 
@@ -69,13 +69,13 @@ Microsoft Graph 보안 커넥터를 사용하려면 Azure AD(Azure Active Direct
 
     !["현재 로그인되어 있음" 대화 상자](media/desktop-connect-graph-security/SignedIn.PNG)
     
-8. 연결하면 4단계에서 선택한 버전에 대한 [Microsoft Graph Security API](https://aka.ms/graphsecuritydocs)에서 사용할 수 있는 경고, 보안 점수 및 기타 엔터티가 **Navigator** 창에 표시됩니다. Power BI Desktop에서 가져오고 사용할 하나 이상의 엔터티를 선택합니다. 그런 다음, **로드**를 선택하여 9단계 이후에 표시되는 결과 보기를 가져옵니다.
+8. 연결하면 4단계에서 선택한 버전에 대한 [Microsoft Graph Security API](/graph/security-concept-overview)에서 사용할 수 있는 경고, 보안 점수 및 기타 엔터티가 **Navigator** 창에 표시됩니다. Power BI Desktop에서 가져오고 사용할 하나 이상의 엔터티를 선택합니다. 그런 다음, **로드**를 선택하여 9단계 이후에 표시되는 결과 보기를 가져옵니다.
 
     ![탐색기 대화 상자](media/desktop-connect-graph-security/NavTable.PNG)
     
-9. Microsoft Graph Security API에서 고급 쿼리를 사용하려면 **사용자 지정 Microsoft Graph Security URL을 지정하여 결과 필터링**을 선택합니다. 이 함수를 사용하여 [OData.Feed](https://docs.microsoft.com/power-bi/desktop-connect-odata) 쿼리를 필요한 권한이 있는 Microsoft Graph Security API에 발급합니다.
+9. Microsoft Graph Security API에서 고급 쿼리를 사용하려면 **사용자 지정 Microsoft Graph Security URL을 지정하여 결과 필터링**을 선택합니다. 이 함수를 사용하여 [OData.Feed](./desktop-connect-odata.md) 쿼리를 필요한 권한이 있는 Microsoft Graph Security API에 발급합니다.
 
-   다음 예제에서는 `https://graph.microsoft.com/v1.0/security/alerts?$filter=Severity eq 'High'` *serviceUri*를 사용합니다. 가장 최근 결과를 필터링, 순서 지정 또는 검색하기 위해 쿼리를 빌드하는 방법을 보려면 [OData 시스템 쿼리 옵션](https://docs.microsoft.com/graph/query-parameters)을 참조하세요.
+   다음 예제에서는 `https://graph.microsoft.com/v1.0/security/alerts?$filter=Severity eq 'High'` *serviceUri*를 사용합니다. 가장 최근 결과를 필터링, 순서 지정 또는 검색하기 위해 쿼리를 빌드하는 방법을 보려면 [OData 시스템 쿼리 옵션](/graph/query-parameters)을 참조하세요.
 
    ![OdataFeed 예제](media/desktop-connect-graph-security/ODataFeed.PNG)
     

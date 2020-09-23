@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 11/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 91b0bba3b8e3fc221a05e6ccb2de1ec9b888d1ef
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 61eb4fc54966545858a7ebc85044696064027acd
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349313"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858396"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>자습서:  Power BI Desktop에서 고유한 측정값 만들기
 측정값을 사용하여 Power BI Desktop에서 가장 강력한 데이터 분석 솔루션 중 일부를 만들 수 있습니다. 측정값은 보고서를 조작할 때 데이터에서 계산을 수행하여 도움을 줍니다. 이 자습서에서는 Power BI Desktop에서 고유한 기본 측정값을 이해하고 만드는 과정을 안내합니다.
@@ -245,4 +245,4 @@ Power BI Desktop의 2018년 2월 릴리스부터 많은 일반적인 계산이 �
   
 - DAX 수식을 잘 이해하고 고급 측정값을 만들려면 [Power BI Desktop의 DAX 기본 사항](desktop-quickstart-learn-dax-basics.md)을 참조하세요. 이 문서에서는 구문, 함수 및 컨텍스트에 대한 보다 철저한 이해와 같은 DAX의 기본 개념에 중점을 둡니다.
   
-- 잊지 말고 [DAX(Data Analysis Expressions) 참조](https://docs.microsoft.com/dax/index)를 즐겨찾기에 추가하세요. 이 참조에서는 DAX 구문, 연산자 및 200개가 넘는 DAX 함수에 대한 자세한 내용을 확인할 수 있습니다.
+- 잊지 말고 [DAX(Data Analysis Expressions) 참조](/dax/index)를 즐겨찾기에 추가하세요. 이 참조에서는 DAX 구문, 연산자 및 200개가 넘는 DAX 함수에 대한 자세한 내용을 확인할 수 있습니다.

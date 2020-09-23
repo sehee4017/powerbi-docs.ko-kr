@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 05/08/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 2fcb9b7a7571513eac8fb97b12e60f67a5ac9cb3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c7dceceaaf063ffe4b379595cfc010e4eda2ae53
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230882"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858153"
 ---
 # <a name="azure-and-power-bi"></a>Azure 및 Power BI
 
@@ -66,4 +66,4 @@ Azure와 Power BI를 사용하여 필요한 만큼 확장할 수 있습니다. �
 
 ## <a name="what-could-you-do-with-azure-and-power-bi"></a>Azure 및 Power BI로 수행할 수 있는 작업은 무엇인가요?
 
-**Azure** 및 **Power BI**를 결합할 수 있는 모든 종류의 시나리오가 있습니다. 여기서 가능성 및 기회는 비즈니스만큼 고유합니다. **Azure 서비스**에 대한 자세한 내용은 **Azure를 사용한 데이터 분석 시나리오**를 설명하는 이 [개요 페이지](https://docs.microsoft.com/azure/machine-learning/team-data-science-process/plan-your-environment)에서 확인하고, 데이터 소스를 인텔리전스로 변환하는 방법을 알아봅니다.
+**Azure** 및 **Power BI**를 결합할 수 있는 모든 종류의 시나리오가 있습니다. 여기서 가능성 및 기회는 비즈니스만큼 고유합니다. **Azure 서비스**에 대한 자세한 내용은 **Azure를 사용한 데이터 분석 시나리오**를 설명하는 이 [개요 페이지](/azure/machine-learning/team-data-science-process/plan-your-environment)에서 확인하고, 데이터 소스를 인텔리전스로 변환하는 방법을 알아봅니다.

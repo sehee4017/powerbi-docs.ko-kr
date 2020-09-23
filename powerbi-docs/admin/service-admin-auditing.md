@@ -10,12 +10,12 @@ ms.date: 08/20/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 27d74a4333add1feebc3522ce34d0a2bacaa69f7
-ms.sourcegitcommit: 2cf8159535c114045e236c076a711638cfd7d2c8
+ms.openlocfilehash: 0c1c113f100c3ae1db0902c90833c44788fa7ec6
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/07/2020
-ms.locfileid: "89512059"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857706"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Power BI에서 사용자 활동 추적
 
@@ -77,7 +77,7 @@ completeListOfActivityEvents.AddRange(response.ActivityEventEntities);
 > 모든 이벤트가 표시되는 데 최대 24시간이 걸릴 수 있지만 일반적으로 전체 데이터를 더 빨리 사용할 수 있습니다.
 >
 >
-감사 활동 이벤트를 가져오는 방법의 예제를 포함하여 Power BI REST API를 사용하는 방법에 관한 자세한 내용은 Power BI REST API 참조 설명서의 [관리 - 활동 이벤트 가져오기](https://docs.microsoft.com/rest/api/power-bi/admin/getactivityevents)를 참조하세요.
+감사 활동 이벤트를 가져오는 방법의 예제를 포함하여 Power BI REST API를 사용하는 방법에 관한 자세한 내용은 Power BI REST API 참조 설명서의 [관리 - 활동 이벤트 가져오기](/rest/api/power-bi/admin/getactivityevents)를 참조하세요.
 
 ### <a name="get-powerbiactivityevent-cmdlet"></a>Get-PowerBIActivityEvent cmdlet
 
@@ -122,7 +122,7 @@ Power BI와 Microsoft 365의 사용자 활동을 추적하려는 경우 Office 3
 
 감사 로그에 액세스하려면 이러한 요구 사항을 충족해야 합니다.
 
-- 감사 로그에 액세스하려면 전역 관리자이거나 Exchange Online에서 감사 로그 또는 보기 전용 감사 로그 역할을 할당받아야 합니다. 기본적으로 준수 관리 및 조직 관리 역할 그룹은 Exchange 관리 센터의 **사용 권한** 페이지에 대해 이러한 역할이 할당됩니다. 감사 로그를 볼 수 있는 역할에 관한 자세한 내용은 [감사 로그 검색 요구 사항](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#requirements-to-search-the-audit-log)을 참조하세요.
+- 감사 로그에 액세스하려면 전역 관리자이거나 Exchange Online에서 감사 로그 또는 보기 전용 감사 로그 역할을 할당받아야 합니다. 기본적으로 준수 관리 및 조직 관리 역할 그룹은 Exchange 관리 센터의 **사용 권한** 페이지에 대해 이러한 역할이 할당됩니다. 감사 로그를 볼 수 있는 역할에 관한 자세한 내용은 [감사 로그 검색 요구 사항](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#requirements-to-search-the-audit-log)을 참조하세요.
 
     관리자가 아닌 계정에 감사 로그 액세스 권한을 부여하려면 해당 사용자를 이러한 역할 그룹의 구성원으로 추가합니다. 다른 방법으로는 Exchange 관리 센터에서 사용자 지정 역할 그룹을 만들고 이 그룹에 감사 로그 또는 보기 전용 감사 로그 역할을 할당한 다음 액세스 권한이 필요한 계정을 새로 만든 역할 그룹에 추가할 수도 있습니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](/Exchange/permissions-exo/role-groups)를 참조하세요.
 

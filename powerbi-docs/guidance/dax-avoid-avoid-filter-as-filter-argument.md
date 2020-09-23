@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 5120b1ec0ce1acbe746dabe2b11b5653a34a4603
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: abff4eafc741ea776180752147019cae3c744e2c
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537599"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90964977"
 ---
 # <a name="dax-avoid-using-filter-as-a-filter-argument"></a>DAX: FILTER를 필터 인수로 사용하지 마세요.
 
@@ -103,6 +103,6 @@ CALCULATE(
 
 - [DAX(Data Analysis Expressions) 참조](/dax/)
 - [필터 함수(DAX)](/dax/filter-function-dax)
-- 학습 경로: [Power BI Desktop에서 DAX 사용](https://docs.microsoft.com/learn/paths/dax-power-bi/)
+- 학습 경로: [Power BI Desktop에서 DAX 사용](/learn/paths/dax-power-bi/)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 - 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com)

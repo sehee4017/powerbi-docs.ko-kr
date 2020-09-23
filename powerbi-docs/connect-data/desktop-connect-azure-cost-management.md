@@ -10,18 +10,18 @@ ms.topic: how-to
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 53606f52752bcc6f7c790b5e2cccaf26f0d10006
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3ae0a9605391ca1230fb0080490e1ef0eadf3d72
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224713"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858489"
 ---
 # <a name="create-visuals-and-reports-with-the-azure-cost-management-connector-in-power-bi-desktop"></a>Power BI Desktop에서 Azure Cost Management 커넥터를 사용하여 시각적 개체 및 보고서 만들기
 
 Power BI Desktop용 Azure Cost Management 커넥터를 사용하여 Azure 지출을 보다 잘 이해할 수 있는 사용자 지정된 강력한 시각화와 보고서가 가능해집니다. Azure Cost Management 커넥터는 현재 [Microsoft 고객 계약](https://azure.microsoft.com/pricing/purchase-options/microsoft-customer-agreement/) 또는 [기업계약(EA)](https://azure.microsoft.com/pricing/enterprise-agreement/)으로 고객을 지원합니다.  
 
-Azure Cost Management 커넥터는 Azure 인증에 OAuth 2.0을 사용하며, 커넥터를 사용하려는 사용자를 확인합니다. 이 프로세스에서 생성된 토큰은 일정 기간 동안 유효합니다. Power BI는 다음 로그인을 위해 토큰을 유지합니다. OAuth 2.0은 이러한 사용 권한을 안전하게 처리하기 위해 백그라운드에서 실행되는 프로세스의 표준입니다. 연결하기 위해, 기업계약을 위한 [엔터프라이즈 관리자](https://docs.microsoft.com/azure/billing/billing-understand-ea-roles) 계정 또는 Microsoft 고객 계약을 위한 [청구 계정 소유자](https://docs.microsoft.com/azure/billing/billing-understand-mca-roles)를 사용해야 합니다. 
+Azure Cost Management 커넥터는 Azure 인증에 OAuth 2.0을 사용하며, 커넥터를 사용하려는 사용자를 확인합니다. 이 프로세스에서 생성된 토큰은 일정 기간 동안 유효합니다. Power BI는 다음 로그인을 위해 토큰을 유지합니다. OAuth 2.0은 이러한 사용 권한을 안전하게 처리하기 위해 백그라운드에서 실행되는 프로세스의 표준입니다. 연결하기 위해, 기업계약을 위한 [엔터프라이즈 관리자](/azure/billing/billing-understand-ea-roles) 계정 또는 Microsoft 고객 계약을 위한 [청구 계정 소유자](/azure/billing/billing-understand-mca-roles)를 사용해야 합니다. 
 
 > [!NOTE]
 > 이 커넥터는 이전에 제공된 [Azure Consumption Insights 및 Azure Cost Management(베타)](desktop-connect-azure-consumption-insights.md) 커넥터를 대체합니다. 이전 커넥터를 사용하여 만든 모든 보고서는 이 커넥터를 사용하여 다시 만들어야 합니다.
@@ -108,4 +108,4 @@ Power BI Desktop을 사용하여 다양한 데이터 원본에 연결할 수 있
 * [Power BI Desktop의 데이터 원본](desktop-data-sources.md)
 * [Power BI Desktop에서 데이터 셰이핑 및 결합](desktop-shape-and-combine-data.md)
 * [Power BI Desktop에서 Excel 통합 문서에 연결](desktop-connect-excel.md)   
-* [Power BI Desktop에 데이터 직접 연결](desktop-enter-data-directly-into-desktop.md)   
+* [Power BI Desktop에 데이터 직접 연결](desktop-enter-data-directly-into-desktop.md)

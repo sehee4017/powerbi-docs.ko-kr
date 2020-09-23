@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 75c1d76d5fbdfc0d844e69ef0f76ced7cd2e302d
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 75753886930a4b9c2e109f36b5cc01ccbaec49e6
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83292941"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858327"
 ---
 # <a name="work-with-multidimensional-models-in-power-bi"></a>Power BI에서 다차원 모델 작업
 
 Power BI에서 다차원 모델에 연결하고 해당 모델 내에 모든 종류의 데이터를 시각화하는 보고서를 만들 수 있습니다. 다차원 모델을 사용하는 경우 Power BI는 ‘기본 멤버’로 정의되는 열을 기준으로 데이터 처리 방법에 규칙을 적용합니다.  
 
-다차원 모델을 사용하는 경우 Power BI는 **DefaultMember**를 포함하는 열이 사용되는 위치를 기준으로 모델의 데이터를 처리합니다. *DefaultMember* 특성은 다차원 모델에서 특정 열에 대한 CSDL(개념 스키마 정의 언어)로 설정됩니다. [특성 속성 문서](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/attribute-properties-define-a-default-member?view=sql-server-2017)에서 기본 멤버에 대해 자세히 알아볼 수 있습니다. DAX 쿼리를 실행하는 경우 모델에 지정된 기본 멤버가 자동으로 적용됩니다.
+다차원 모델을 사용하는 경우 Power BI는 **DefaultMember**를 포함하는 열이 사용되는 위치를 기준으로 모델의 데이터를 처리합니다. *DefaultMember* 특성은 다차원 모델에서 특정 열에 대한 CSDL(개념 스키마 정의 언어)로 설정됩니다. [특성 속성 문서](/sql/analysis-services/multidimensional-models/attribute-properties-define-a-default-member?view=sql-server-2017)에서 기본 멤버에 대해 자세히 알아볼 수 있습니다. DAX 쿼리를 실행하는 경우 모델에 지정된 기본 멤버가 자동으로 적용됩니다.
 
 이 문서에서는 ‘기본 멤버’가 있는 위치를 기준으로 다차원 모델을 사용하는 다양한 상황에서 Power BI의 작동 방식을 설명했습니다.  
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: ca0a33f42c1b2fd466df9af59bb649ae73d7d594
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 4a38ca35e6955bc92f52492e657a9e00bad05ea3
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161379"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857614"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B에서 외부 게스트 사용자에게 Power BI 콘텐츠 배포
 
@@ -151,7 +151,7 @@ Azure Portal에서 초대를 보내려면 다음 단계를 수행합니다.
 
 * 외부 게스트 사용자가 전체 조직 내에서 수행할 수 있는 작업을 제한하는 Azure Active Directory 설정이 있습니다. 이러한 설정은 Power BI 환경에도 적용됩니다. 다음 설명서에는 설정에 대해 설명되어 있습니다.
   * [외부 협업 설정 관리](/azure/active-directory/b2b/delegate-invitations#configure-b2b-external-collaboration-settings)
-  * [특정 조직의 B2B 사용자 초대 허용 또는 차단](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)
+  * [특정 조직의 B2B 사용자 초대 허용 또는 차단](/azure/active-directory/b2b/allow-deny-list)
   * [조건부 액세스를 사용하여 액세스 허용 또는 차단](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps)
 
 * GCC와 같은 정부 클라우드의 콘텐츠를 외부 상용 클라우드 사용자에게 공유할 수 있습니다. 그러나 게스트 사용자는 자신의 라이선스를 사용할 수 없습니다. 액세스를 사용하려면 콘텐츠가 프리미엄에 할당된 용량에 있어야 합니다. 또는 게스트 계정에 Power BI Pro 라이선스를 할당할 수 있습니다.
@@ -162,6 +162,6 @@ Azure Portal에서 초대를 보내려면 다음 단계를 수행합니다.
 
 ## <a name="next-steps"></a>다음 단계
 
-행 수준 보안 작동 방식을 포함한 자세한 내용은 다음 백서를 참조하세요. [Azure AD B2B를 사용하여 외부 게스트 사용자에게 Power BI 콘텐츠 배포](https://aka.ms/powerbi-b2b-whitepaper).
+행 수준 보안 작동 방식을 포함한 자세한 내용은 다음 백서를 참조하세요. [Azure AD B2B를 사용하여 외부 게스트 사용자에게 Power BI 콘텐츠 배포](../guidance/whitepaper-azure-b2b-power-bi.md).
 
 Azure AD B2B에 대한 자세한 내용은 [Azure AD B2B 협업이란?](/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b/)을 참조하세요.

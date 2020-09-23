@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/01/2020
-ms.openlocfilehash: 4b112c3522a35f86f74481a79f3fff919a0e9e33
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: ef981c63aaa1cdececbe03f187d25ee09073f61f
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87544844"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857752"
 ---
 # <a name="manage-power-bi-visuals-admin-settings"></a>Power BI 시각적 개체 관리 설정 관리
 
@@ -64,7 +64,7 @@ UI 테넌트 설정은 Power BI 서비스에만 영향을 줍니다. 이 설정�
 
 ![파일 또는 AppSource의 시각적 개체](media/organizational-visuals/tenant-settings.png)
 
-테넌트 설정에 대한 UI 변경은 Power BI 서비스에만 적용됩니다. 조직의 사용자가 .pbiviz 파일을 업로드하고 AppSource의 시각적 개체를 Power BI Desktop의 시각화 창에 추가할 수 있도록 하려면 [Azure AD 그룹 정책](https://docs.microsoft.com/azure/active-directory-domain-services/manage-group-policy)을 사용합니다.
+테넌트 설정에 대한 UI 변경은 Power BI 서비스에만 적용됩니다. 조직의 사용자가 .pbiviz 파일을 업로드하고 AppSource의 시각적 개체를 Power BI Desktop의 시각화 창에 추가할 수 있도록 하려면 [Azure AD 그룹 정책](/azure/active-directory-domain-services/manage-group-policy)을 사용합니다.
 
 |키  |값 이름  |값  |
 |---------|---------|---------|
@@ -83,7 +83,7 @@ UI 테넌트 설정은 Power BI 서비스에만 영향을 줍니다. 이 설정�
 
 ![인증된 시각적 개체](media/organizational-visuals/certified-visuals.png)
 
-테넌트 설정에 대한 UI 변경은 Power BI 서비스에만 적용됩니다. Power BI Desktop에서 인증된 시각적 개체 테넌트 설정을 관리하려면 [Azure AD 그룹 정책](https://docs.microsoft.com/azure/active-directory-domain-services/manage-group-policy)을 사용합니다.
+테넌트 설정에 대한 UI 변경은 Power BI 서비스에만 적용됩니다. Power BI Desktop에서 인증된 시각적 개체 테넌트 설정을 관리하려면 [Azure AD 그룹 정책](/azure/active-directory-domain-services/manage-group-policy)을 사용합니다.
 
 |키  |값 이름  |값  |
 |---------|---------|---------|

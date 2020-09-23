@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/11/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f778b4f0c6572084598eb07df0e89b7a30aed7b1
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: b77543a7601cf4f8522c333137802e71ce41a41c
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091598"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858373"
 ---
 # <a name="connect-to-an-oracle-database-with-power-bi-desktop"></a>Power BI Desktop을 사용하여 Oracle 데이터베이스에 연결
 Power BI Desktop을 사용하여 Oracle 데이터베이스에 연결하려면 Power BI Desktop을 실행하는 컴퓨터에 올바른 Oracle 클라이언트 소프트웨어를 설치해야 합니다. 사용하는 Oracle 클라이언트 소프트웨어는 설치한 Power BI Desktop 버전이 32비트 또는 64비트인지에 따라 다릅니다. 또한 Oracle Server 버전에 따라 다릅니다.
@@ -24,7 +24,7 @@ Power BI Desktop을 사용하여 Oracle 데이터베이스에 연결하려면 Po
 - ODAC(Oracle Data Access Client) 소프트웨어 11.2 이상
 
 > [!NOTE]
-> Power BI Desktop, 온-프레미스 데이터 게이트웨이 또는 Power BI Report Server용 Oracle 데이터베이스를 구성하는 경우 [Oracle 연결 형식](https://docs.microsoft.com/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15) 문서의 정보를 참조하세요. 
+> Power BI Desktop, 온-프레미스 데이터 게이트웨이 또는 Power BI Report Server용 Oracle 데이터베이스를 구성하는 경우 [Oracle 연결 형식](/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15) 문서의 정보를 참조하세요. 
 
 
 ## <a name="determining-which-version-of-power-bi-desktop-is-installed"></a>설치된 Power BI Desktop의 버전 확인
@@ -89,4 +89,4 @@ Microsoft Store에서 Power BI Desktop을 다운로드하면 Oracle 드라이버
 
 Oracle 데이터베이스에 연결할 때 Power BI Gateway에 ‘개체 참조가 설정되지 않음’ 오류 메시지가 표시되면 [데이터 원본 관리 - Oracle](service-gateway-onprem-manage-oracle.md)의 지침을 따르세요.
 
-Power BI Report Server를 사용하는 경우 [Oracle 연결 형식](https://docs.microsoft.com/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15) 문서의 지침을 참조하세요.
+Power BI Report Server를 사용하는 경우 [Oracle 연결 형식](/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15) 문서의 지침을 참조하세요.

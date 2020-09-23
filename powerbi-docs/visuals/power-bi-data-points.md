@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 97bccec3ec0e92ebfcc6b9251cf5c17f176fbed1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5efe83cfa43c6fcb156501774bbaeae79381ab85
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240141"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857729"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>시각적 개체 유형별 데이터 요소 제한 및 전략 적용
 
@@ -41,7 +41,7 @@ Power BI에서 시각적 개체를 렌더링할 경우 시각화가 빠르고 �
 ## <a name="statistics"></a>통계
 특정 모델은 특정 열의 값 수에 대한 통계를 제공할 수 있습니다. 해당 정보가 있으면 해당 정보를 이용하여 시각적 개체가 전략의 값 수를 명시적으로 재정의하지 않는 경우 여러 계층 구조에서 향상된 분산을 제공합니다.
 
-자세한 내용은 [Analysis Services의 새로운 기능](https://docs.microsoft.com/sql/analysis-services/what-s-new-in-analysis-services?view=sql-server-2017)을 참조하세요.
+자세한 내용은 [Analysis Services의 새로운 기능](/sql/analysis-services/what-s-new-in-analysis-services)을 참조하세요.
 
 ## <a name="dynamic-limits"></a>동적 제한
 위의 전략 외에도 그룹화 열의 2개 계층 구조(축과 범례 또는 범주와 계열)가 있는 시각적 개체는 ‘동적 제한’이라는 하나의 추가 전략을 사용합니다.   동적 제한은 데이터 요소를 더 잘 분산하도록 설계되었습니다. 
@@ -50,7 +50,7 @@ Power BI에서 시각적 개체를 렌더링할 경우 시각화가 빠르고 �
 
 동적 제한은 다음 설명과 같이 서버가 가능할 때 자동으로 적용됩니다.
 
-* [서버의 SuperDax 기능을 활용](https://blogs.msdn.microsoft.com/analysisservices/2015/09/02/whats-new-in-microsoft-sql-server-analysis-services-tabular-models-in-sql-server-2016-ctp-2-3/)하는 온-프레미스 SSAS 버전 2016 이상의 Power BI Desktop에서
+* [서버의 SuperDax 기능을 활용](/archive/blogs/analysisservices/whats-new-in-microsoft-sql-server-analysis-services-tabular-models-in-sql-server-2016-ctp-2-3)하는 온-프레미스 SSAS 버전 2016 이상의 Power BI Desktop에서
 
 * 가져온 모델, 직접 쿼리 서비스 실시간 연결 또는 AS PaaS 실시간 연결을 사용할 경우 데스크톱 및 Power BI 서비스에서. 
 
@@ -132,7 +132,7 @@ Power BI에서 시각적 개체를 렌더링할 경우 시각화가 빠르고 �
 - 값: 한 번에 200개 행의 창을 사용하여 가상화
 
 ### <a name="scatter-chart-high-density"></a>분산형 차트(고밀도)
-[고밀도 분산형](https://docs.microsoft.com/power-bi/visuals/desktop-high-density-scatter-charts) 참조
+[고밀도 분산형](./desktop-high-density-scatter-charts.md) 참조
 
 ### <a name="pie"></a>원형
 - 최대 요소: 3,500
