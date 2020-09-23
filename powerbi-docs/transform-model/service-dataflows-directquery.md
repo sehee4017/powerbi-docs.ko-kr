@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 3e7bb33eae8be4a0eaa7eb4d92ca165c74b14ed5
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: 76c42c52ba877b3e6477a2baee11aef4a531161c
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937381"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861570"
 ---
 # <a name="use-directquery-with-dataflows-in-power-bi-preview"></a>Power BI (미리 보기)에서 데이터 흐름와 함께 DirectQuery 사용
 
@@ -70,7 +70,7 @@ DirectQuery 및 데이터 흐름에는 다음 목록에 설명된 몇 가지 알
 * [데이터 흐름 및 Azure Data Lake 통합(미리 보기)](service-dataflows-azure-data-lake-integration.md)
 
 공통 데이터 모델에 대한 자세한 내용은 해당 개요 문서를 참조할 수 있습니다.
-* [공통 데이터 모델 - 개요 ](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [공통 데이터 모델 - 개요 ](/powerapps/common-data-model/overview)
 * [GitHub에서 공통 데이터 모델 스키마 및 엔터티에 대해 자세히 알아보기](https://github.com/Microsoft/CDM)
 
 관련된 Power BI Desktop 문서는 다음과 같습니다.

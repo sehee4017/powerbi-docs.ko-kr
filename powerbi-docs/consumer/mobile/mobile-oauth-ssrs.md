@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 06/01/2020
-ms.openlocfilehash: 1e45e3292499d0eb827b6b03c63ab839a520da97
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f9d54df0369b28eafc08a0e4f84599aac66c299e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220267"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856096"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth를 사용하여 Power BI Report Server 및 SSRS에 연결
 
@@ -72,7 +72,7 @@ Kerberos 인증을 사용하는 보고서 서버를 사용하려면 보고서 �
 
 ## <a name="active-directory-federation-services-adfs-configuration"></a>ADFS(Active Directory Federation Services) 구성
 
-사용자 환경 내의 Windows 2016 서버에서 ADFS를 구성해야 합니다. [서버 관리자] 및 [관리] 아래의 [역할 및 기능 추가]를 선택하여 이 구성을 수행할 수 있습니다. 자세한 내용은 [Active Directory Federation Services](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services)를 참조하세요.
+사용자 환경 내의 Windows 2016 서버에서 ADFS를 구성해야 합니다. [서버 관리자] 및 [관리] 아래의 [역할 및 기능 추가]를 선택하여 이 구성을 수행할 수 있습니다. 자세한 내용은 [Active Directory Federation Services](/windows-server/identity/active-directory-federation-services)를 참조하세요.
 
 ### <a name="create-an-application-group"></a>애플리케이션 그룹 만들기
 
@@ -136,7 +136,7 @@ AD FS 관리 화면 내에 Power BI 모바일 앱에 대한 정보가 포함된 
 
 ## <a name="web-application-proxy-wap-configuration"></a>WAP(웹 애플리케이션 프록시) 구성
 
-사용자 환경의 서버에서 웹 애플리케이션 프록시(역할) Windows 역할을 사용하도록 설정하려고 합니다. Windows 2016 서버에 있어야 합니다. 자세한 내용은 [Windows Server 2016의 웹 애플리케이션 프록시](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server) 및 [AD FS 사전 인증을 사용하여 애플리케이션 게시](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)를 참조하세요.
+사용자 환경의 서버에서 웹 애플리케이션 프록시(역할) Windows 역할을 사용하도록 설정하려고 합니다. Windows 2016 서버에 있어야 합니다. 자세한 내용은 [Windows Server 2016의 웹 애플리케이션 프록시](/windows-server/remote/remote-access/web-application-proxy/web-application-proxy-windows-server) 및 [AD FS 사전 인증을 사용하여 애플리케이션 게시](/windows-server/remote/remote-access/web-application-proxy/Publishing-Applications-using-AD-FS-Preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)를 참조하세요.
 
 ### <a name="constrained-delegation-configuration"></a>제한된 위임 구성
 
@@ -228,7 +228,7 @@ Power BI 모바일 앱 내에서 Reporting Services 인스턴스에 연결하려
 
 ## <a name="multi-factor-authentication"></a>Multi-Factor Authentication
 
-Multi-Factor Authentication을 사용하여 사용자 환경에 대한 추가 보안을 사용할 수 있습니다. 자세한 내용은 [AD FS 2016 및 Azure MFA 구성](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa)을 참조하세요.
+Multi-Factor Authentication을 사용하여 사용자 환경에 대한 추가 보안을 사용할 수 있습니다. 자세한 내용은 [AD FS 2016 및 Azure MFA 구성](/windows-server/identity/ad-fs/operations/configure-ad-fs-and-azure-mfa)을 참조하세요.
 
 ## <a name="troubleshooting"></a>문제 해결
 
@@ -245,8 +245,8 @@ Fiddler를 사용할 경우 로그인이 성공적으로 작동하면 WAP 애플
 [보고서 서버에 SPN(서비스 주체 이름) 등록](/sql/reporting-services/report-server/register-a-service-principal-name-spn-for-a-report-server)  
 [Reporting Services 구성 파일 수정](/sql/reporting-services/report-server/modify-a-reporting-services-configuration-file-rsreportserver-config)  
 [보고서 서버에서 Windows 인증 구성](/sql/reporting-services/security/configure-windows-authentication-on-the-report-server)  
-[Active Directory Federation Services](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services)  
-[Windows Server 2016의 웹 애플리케이션 프록시](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server)  
-[AD FS 사전 인증을 사용하여 애플리케이션 게시](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)  
-[AD FS 2016 및 Azure MFA구성](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa)  
+[Active Directory Federation Services](/windows-server/identity/active-directory-federation-services)  
+[Windows Server 2016의 웹 애플리케이션 프록시](/windows-server/remote/remote-access/web-application-proxy/web-application-proxy-windows-server)  
+[AD FS 사전 인증을 사용하여 애플리케이션 게시](/windows-server/remote/remote-access/web-application-proxy/Publishing-Applications-using-AD-FS-Preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)  
+[AD FS 2016 및 Azure MFA구성](/windows-server/identity/ad-fs/operations/configure-ad-fs-and-azure-mfa)  
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

@@ -6,15 +6,16 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 09/09/2020
-ms.openlocfilehash: 3994a5cdad4d80c87d4153ffe57af685d7a21d36
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.custom: contperfq1
+ms.date: 09/15/2020
+ms.openlocfilehash: 58d1adef9a9b2a8a4f818f94da2cb34e6529db83
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008586"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855498"
 ---
-# <a name="introduction-to-deployment-pipelines-preview"></a>배포 파이프라인 소개(미리 보기)
+# <a name="introduction-to-deployment-pipelines"></a>배포 파이프라인 소개
 
 오늘날의 세계에서 분석은 거의 모든 조직에서 의사 결정을 수립하는 데 중요한 부분입니다. 분석 도구로서의 사용이 증가함에 따라 Power BI는 더 많은 데이터를 사용하고 더 매력적으로 보이며 사용자에게 더 친숙해져야 합니다. 그러나 무엇보다 Power BI는 항상 사용 가능하고 신뢰할 수 있어야 합니다. 이러한 요구 사항을 충족하기 위해 BI 작성자는 효과적으로 공동 작업을 수행해야 합니다.
 

@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3cb41d7d9d1e85957ebf02ce2742d3e32670d0cc
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 35c20a11c4b446bd3a2636deaeb4c5ee9c2d797b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83281717"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861018"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-classic-model-in-power-bi-preview"></a>자습서:  Power BI에서 Machine Learning Studio(클래식) 모델 호출(미리 보기)
 
@@ -31,11 +31,11 @@ ms.locfileid: "83281717"
 
 ## <a name="create-and-publish-an-azure-ml-model"></a>Azure ML 모델 만들기 및 게시
 
-[연습 1단계: Machine Learning Studio(클래식) 작업 영역 만들기](https://docs.microsoft.com/azure/machine-learning/studio/walkthrough-1-create-ml-workspace)의 지침에 따라 **Machine Learning** 작업 영역을 만듭니다.
+[연습 1단계: Machine Learning Studio(클래식) 작업 영역 만들기](/azure/machine-learning/studio/walkthrough-1-create-ml-workspace)의 지침에 따라 **Machine Learning** 작업 영역을 만듭니다.
 
-이미 있는 Azure ML 모델 또는 데이터 세트와 해당 단계를 함께 사용할 수 있습니다. 게시된 모델이 없는 경우, 자동차 가격 예측을 위한 Azure ML 모델을 설정하는 [Azure Machine Learning Studio(클래식)에서 첫 번째 데이터 과학 실험 만들기](https://docs.microsoft.com/azure/machine-learning/studio/create-experiment)를 참조하여 몇 분 내에 모델을 만들 수 있습니다.
+이미 있는 Azure ML 모델 또는 데이터 세트와 해당 단계를 함께 사용할 수 있습니다. 게시된 모델이 없는 경우, 자동차 가격 예측을 위한 Azure ML 모델을 설정하는 [Azure Machine Learning Studio(클래식)에서 첫 번째 데이터 과학 실험 만들기](/azure/machine-learning/studio/create-experiment)를 참조하여 몇 분 내에 모델을 만들 수 있습니다.
 
-[Azure Machine Learning Studio(클래식) 웹 서비스 배포](https://docs.microsoft.com/azure/machine-learning/studio/tutorial-part3-credit-risk-deploy)의 단계에 따라 Azure ML 모델을 웹 서비스로 게시합니다.
+[Azure Machine Learning Studio(클래식) 웹 서비스 배포](/azure/machine-learning/studio/tutorial-part3-credit-risk-deploy)의 단계에 따라 Azure ML 모델을 웹 서비스로 게시합니다.
 
 ## <a name="grant-a-power-bi-user-access"></a>Power BI 사용자에게 액세스 권한 부여
 

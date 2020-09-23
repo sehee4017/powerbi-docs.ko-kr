@@ -8,15 +8,15 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 06/26/2020
 ms.author: maggies
-ms.openlocfilehash: 531c0ab2bb797e1ad5aaa4d974e51963f7c3e2ad
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: fcf0a286487922fcfc217b4d293aa731ad1564a6
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485395"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861225"
 ---
 # <a name="paginated-report-data-sources--in-power-bi-report-server"></a>Power BI Report Server의 페이지를 매긴 보고서 데이터 원본
-Power BI Report Server의 Reporting Services 페이지를 매긴 보고서는 SQL Server Reporting Services에서 지원되는 동일한 데이터 원본을 지원합니다. [Reporting Services에서 지원하는 데이터 원본](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs) 목록을 참조하세요.
+Power BI Report Server의 Reporting Services 페이지를 매긴 보고서는 SQL Server Reporting Services에서 지원되는 동일한 데이터 원본을 지원합니다. [Reporting Services에서 지원하는 데이터 원본](/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs) 목록을 참조하세요.
 
 ## <a name="connect-to-oracle-data-sources-with-useinstalleduiculture"></a>UseInstalledUICulture를 사용하여 Oracle 데이터 원본에 연결
 

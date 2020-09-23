@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: eb46c35c4040ead37b132cf2c34a22663ee72b6d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9030d7ebacad92780a7dcafe33ae5bdded842b01
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220290"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856149"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>휴대폰에 대해 최적화된 Power BI 보고서 보기
 
@@ -115,7 +115,7 @@ Power BI 보고서의 다른 모든 기능은 휴대폰에 최적화된 보고�
 
 ## <a name="drill-through-from-a-value"></a>값에서 드릴스루
 드릴스루는 하나의 보고서 페이지에 있는 값을 다른 보고서 페이지에 연결합니다. 하나의 데이터 요소에서 다른 보고서 페이지로 드릴스루하면, 데이터 요소 값이 드릴스루된 페이지를 필터링하는 데 사용되거나 선택한 데이터의 컨텍스트에서 표시됩니다.
-보고서 작성자는 보고서를 만들 때 [드릴스루를 정의](https://docs.microsoft.com/power-bi/desktop-drillthrough)할 수 있습니다.
+보고서 작성자는 보고서를 만들 때 [드릴스루를 정의](../../create-reports/desktop-drillthrough.md)할 수 있습니다.
 
 1. 시각적 개체에서 데이터 요소를 길게 탭합니다.
 2. 도구 설명이 표시됩니다. 드릴스루가 정의되어 있다면 도구 설명 바닥글에 드릴스루 화살표가 표시됩니다.

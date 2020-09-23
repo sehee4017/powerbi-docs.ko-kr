@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: fd0f9db041fb4862831630249e847c63572263b0
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2ac06bb288077a15a7227e2eb439762bc182e1a8
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240246"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861662"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>Power BI에서 데이터 흐름 만들기 및 사용
 
@@ -77,7 +77,7 @@ ms.locfileid: "85240246"
 
 데이터 흐름 엔터티에는 쉽게 비즈니스 데이터를 Common Data Model(Microsoft의 표준화된 스키마)에 매핑하고, Microsoft 및 타사 데이터를 보강하며, 기계 학습에 간편하게 액세스할 수 있는 새로운 도구가 포함되어 있습니다. 이러한 새 기능을 활용하여 비즈니스 데이터에 관한 실행 가능 인텔리전트 인사이트를 제공할 수 있습니다. 쿼리 편집 단계에서 변환을 완료했으면 데이터 원본 테이블의 열을 Common Data Model에서 정의한 대로 표준 엔터티 필드로 매핑할 수 있습니다. 표준 엔터티에는 공통 데이터 모델에서 정의한 알려진 스키마가 있습니다.
 
-이 접근 방식과 공통 데이터 모델에 대한 자세한 내용은 [공통 데이터 모델이란](https://docs.microsoft.com/powerapps/common-data-model/overview) 문서에서 알아보세요.
+이 접근 방식과 공통 데이터 모델에 대한 자세한 내용은 [공통 데이터 모델이란](/powerapps/common-data-model/overview) 문서에서 알아보세요.
 
 데이터 흐름에서 공통 데이터 모델을 활용하려면 **쿼리 편집** 대화 상자에서 **표준에 매핑** 변환을 클릭하세요. 표시되는 **엔터티 매핑** 화면에서 매핑할 표준 엔터티를 선택할 수 있습니다.
 
@@ -175,7 +175,7 @@ Power BI 데이터 흐름은 Power BI 데이터 새로 고침 프로세스를 �
 * [데이터 흐름 및 Azure Data Lake 통합(미리 보기)](service-dataflows-azure-data-lake-integration.md)
 
 공통 데이터 모델에 대한 자세한 내용은 해당 개요 문서를 참조할 수 있습니다.
-* [공통 데이터 모델 - 개요 ](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [공통 데이터 모델 - 개요 ](/powerapps/common-data-model/overview)
 * [GitHub에서 공통 데이터 모델 스키마 및 엔터티에 대해 자세히 알아보기](https://github.com/Microsoft/CDM)
 
 관련된 Power BI Desktop 문서는 다음과 같습니다.

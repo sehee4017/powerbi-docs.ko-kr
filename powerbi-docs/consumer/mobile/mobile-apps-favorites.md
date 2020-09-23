@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: ee2ce1161f5afbdc39520a0102d3289f00792207
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 553beb5f30625ce416ea778ba6b5fde63526065c
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240217"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856474"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 즐겨찾기 만들기 및 보기
 적용 대상:
@@ -23,7 +23,7 @@ ms.locfileid: "85240217"
 | iPhone |iPad |Android 휴대폰 |Android 태블릿 |Windows 10 디바이스 |
 
 >[!NOTE]
->**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](https://go.microsoft.com/fwlink/?linkid=2121400)
+>**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 모바일 앱에서 즐겨 찾는 온-프레미스 Power BI Report Server, Reporting Services KPI 및 보고서와 함께 즐겨 찾는 Power BI 대시보드, 보고서, 앱을 만들고 보는 방법에 대해 알아보세요.
 
@@ -76,4 +76,3 @@ Power BI 모바일 앱에서 즐겨 찾는 Power BI Report Server 및 Reporting 
 ## <a name="next-steps"></a>다음 단계
 * [Power BI 서비스의 즐겨 찾는 대시보드](../end-user-favorite.md) 
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
-

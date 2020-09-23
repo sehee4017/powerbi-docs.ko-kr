@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: f80c683e3e9134bff8d3c24d4f64d43da405aa36
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: d4b23039d8516375e98233254c92b2f7bbeb648d
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83307454"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861616"
 ---
 # <a name="dataflows-best-practice"></a>데이터 흐름 모범 사례
 
@@ -74,9 +74,9 @@ SharePoint를 사용하고 여러 파일에 연결하는 경우 간헐적으로 
 * [온-프레미스 데이터 원본으로 만든 데이터 흐름 사용](service-dataflows-on-premises-gateways.md)
 
 CDM 개발 및 자습서 리소스에 대한 내용은 다음을 참조하세요.
-* [공통 데이터 모델 - 개요 ](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [CDM 폴더](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [CDM 모델 파일 정의](https://go.microsoft.com/fwlink/?linkid=2045521)
+* [공통 데이터 모델 - 개요 ](/powerapps/common-data-model/overview)
+* [CDM 폴더](/common-data-model/data-lake)
+* [CDM 모델 파일 정의](/common-data-model/model-json)
 
 
 파워 쿼리 및 예약된 새로 고침에 대한 자세한 내용은 다음 문서를 참조하세요.

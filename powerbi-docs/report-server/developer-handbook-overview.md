@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.openlocfilehash: 773533fee8fc4fada0cc33d9a6d2188118135797
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1f7a04ca8920ef56e0e7de4efad47afa894e76d7
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73859790"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861179"
 ---
 # <a name="developer-handbook-overview-power-bi-report-server"></a>개발자 안내서 개요, Power BI Report Server
 
@@ -29,15 +29,15 @@ URL에 쿼리 문자열 매개 변수 `?rs:Embed=true`를 추가하여 Power BI 
 
 ### <a name="report-viewer-control"></a>보고서 뷰어 컨트롤
 
-페이지를 매긴 보고서에서 보고서 뷰어 컨트롤을 활용할 수 있습니다. 이를 통해 .NET 창 또는 웹 애플리케이션 내에 컨트롤을 배치할 수 있습니다. 자세한 내용은 [보고서 뷰어 컨트롤 시작](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)을 참조하세요.
+페이지를 매긴 보고서에서 보고서 뷰어 컨트롤을 활용할 수 있습니다. 이를 통해 .NET 창 또는 웹 애플리케이션 내에 컨트롤을 배치할 수 있습니다. 자세한 내용은 [보고서 뷰어 컨트롤 시작](/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)을 참조하세요.
 
 ## <a name="apis"></a>API
 
 Power BI Report Server를 조작하는 몇 가지 API 옵션이 있습니다. 이 기술에는 다음이 포함됩니다.
 
 * [REST API](rest-api.md)
-* [URL 액세스](https://docs.microsoft.com/sql/reporting-services/url-access-ssrs)
-* [WMI 공급자](https://docs.microsoft.com/sql/reporting-services/wmi-provider-library-reference/reporting-services-wmi-provider-library-reference-ssrs)
+* [URL 액세스](/sql/reporting-services/url-access-ssrs)
+* [WMI 공급자](/sql/reporting-services/wmi-provider-library-reference/reporting-services-wmi-provider-library-reference-ssrs)
 
 오픈 소스 [PowerShell 유틸리티](https://github.com/Microsoft/ReportingServicesTools)를 사용하여 보고서 서버를 관리할 수도 있습니다.
 
@@ -55,14 +55,14 @@ Power BI Report Server를 조작하는 몇 가지 API 옵션이 있습니다. �
 * 페이지를 매긴 보고서의 확장 렌더링
 * 보안 확장 프로그램
 
-자세한 내용은 [확장 라이브러리](https://docs.microsoft.com/sql/reporting-services/extensions/reporting-services-extension-library)을 참조하세요.
+자세한 내용은 [확장 라이브러리](/sql/reporting-services/extensions/reporting-services-extension-library)을 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 
-[보고서 뷰어 컨트롤 시작](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)  
-[웹 서비스 및 .NET Framework를 사용하여 애플리케이션 빌드](https://docs.microsoft.com/sql/reporting-services/report-server-web-service/net-framework/building-applications-using-the-web-service-and-the-net-framework)  
-[URL 액세스](https://docs.microsoft.com/sql/reporting-services/url-access-ssrs)  
-[확장 라이브러리](https://docs.microsoft.com/sql/reporting-services/extensions/reporting-services-extension-library)  
-[WMI 공급자](https://docs.microsoft.com/sql/reporting-services/wmi-provider-library-reference/reporting-services-wmi-provider-library-reference-ssrs)
+[보고서 뷰어 컨트롤 시작](/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)  
+[웹 서비스 및 .NET Framework를 사용하여 애플리케이션 빌드](/sql/reporting-services/report-server-web-service/net-framework/building-applications-using-the-web-service-and-the-net-framework)  
+[URL 액세스](/sql/reporting-services/url-access-ssrs)  
+[확장 라이브러리](/sql/reporting-services/extensions/reporting-services-extension-library)  
+[WMI 공급자](/sql/reporting-services/wmi-provider-library-reference/reporting-services-wmi-provider-library-reference-ssrs)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

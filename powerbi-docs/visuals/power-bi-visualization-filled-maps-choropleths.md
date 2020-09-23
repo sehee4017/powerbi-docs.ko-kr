@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 12/05/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d53721b6a759410b873cc04deb919dd37ebc5b07
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 45069a4a575659d44e41f1010d9941f21caa1ad1
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240285"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861639"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Power BI의 등치 지역도(단계구분도) 만들기 및 사용
 
@@ -129,12 +129,10 @@ Power BI Desktop의 데이터 세트를 편집할 수 있는 권한이 있는 �
 
 위도 및 경도 데이터에 액세스할 수 없지만 데이터 세트에 대한 편집 액세스 권한이 있는 경우 [이 지침을 따라 데이터 세트를 업데이트하세요](https://support.office.com/article/Maps-in-Power-View-8A9B2AF3-A055-4131-A327-85CC835271F7).
 
-지도 시각화에 대한 자세한 도움말은 [지도 시각화를 위한 팁과 힌트](../power-bi-map-tips-and-tricks.md)를 참조하세요.
+지도 시각화에 대한 자세한 도움말은 [지도 시각화를 위한 팁과 힌트](./power-bi-map-tips-and-tricks.md)를 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 
 [도형 맵](desktop-shape-map.md)
 
 [Power BI의 시각화 유형](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-

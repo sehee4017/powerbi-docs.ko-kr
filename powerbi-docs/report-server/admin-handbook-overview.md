@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: maggies
-ms.openlocfilehash: 8f292b8474c478c178b85f2c015781ead1fa503c
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 172bc4cb677ffb4df5719e3c77f12ad10160c247
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86213808"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861271"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>관리 개요, Power BI Report Server
 이 아티클은 Power BI, 모바일 및 페이지가 매겨진 보고서를 저장하고 관리하는 온-프레미스 위치인 Power BI Report Server의 관리 개요입니다. 이 문서에서는 Power BI Report Server를 계획, 배포 및 관리하는 개념을 소개하고 추가 정보 링크를 제공합니다.
@@ -38,17 +38,16 @@ SQL Server Reporting Services를 현재 위치 업그레이드할 수 없습니�
 ## <a name="configuring-your-report-server"></a>Report Server 구성
 Report Server를 구성할 때 여러 가지 옵션이 있습니다. SSL을 사용하시겠습니까? 이메일 서버를 구성하시겠습니까? Power BI 서비스와 통합하여 시각화를 고정하시겠습니까?
 
-대부분의 구성은 Report Server 구성 관리자 내에서 발생합니다. 자세한 내용은 [구성 관리자](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode) 설명서를 확인합니다.
+대부분의 구성은 Report Server 구성 관리자 내에서 발생합니다. 자세한 내용은 [구성 관리자](/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode) 설명서를 확인합니다.
 
 ## <a name="security"></a>보안
-보안 및 보호는 모든 조직에 중요합니다. [보안](https://docs.microsoft.com/sql/reporting-services/security/reporting-services-security-and-protection) 설명서를 통해 인증, 권한 부여, 역할 및 사용 권한에 대해 알아볼 수 있습니다.
+보안 및 보호는 모든 조직에 중요합니다. [보안](/sql/reporting-services/security/reporting-services-security-and-protection) 설명서를 통해 인증, 권한 부여, 역할 및 사용 권한에 대해 알아볼 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI Report Server 설치](install-report-server.md)  
 [보고서 서버 제품 키 확인](find-product-key.md)  
 [Power BI Report Server에 최적화된 Power BI Desktop 설치](install-powerbi-desktop.md)  
 [보고서 작성기 다운로드](https://www.microsoft.com/download/details.aspx?id=53613)  
-[SSDT(SQL Server Data Tools) 다운로드](https://go.microsoft.com/fwlink/?LinkID=616714)
+[SSDT(SQL Server Data Tools) 다운로드](/sql/ssdt/download-sql-server-data-tools-ssdt)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
-

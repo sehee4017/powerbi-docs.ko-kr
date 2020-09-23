@@ -9,16 +9,16 @@ ms.topic: how-to
 ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 18d94702cad6f770aaf078f1d692c96d48ce50ac
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b898b205ef9d85f8c0a4951f147339f8d315db1e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229019"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855406"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Power BI Desktop에서 사용자 지정 열 추가
 
-Power BI Desktop에서 쿼리 편집기를 사용하여 새 사용자 지정 데이터 열을 모델에 쉽게 추가할 수 있습니다. 쿼리 편집기를 사용하면 사용자 지정 열을 만들고 이름을 바꾸어 사용자 지정 열을 정의하는 [PowerQuery M 수식 쿼리](https://docs.microsoft.com/powerquery-m/quick-tour-of-the-power-query-m-formula-language)를 만들 수 있습니다. PowerQuery M 수식 쿼리에는 [포괄적인 함수 참조 콘텐츠 집합](https://docs.microsoft.com/powerquery-m/power-query-m-function-reference)이 있습니다. 
+Power BI Desktop에서 쿼리 편집기를 사용하여 새 사용자 지정 데이터 열을 모델에 쉽게 추가할 수 있습니다. 쿼리 편집기를 사용하면 사용자 지정 열을 만들고 이름을 바꾸어 사용자 지정 열을 정의하는 [PowerQuery M 수식 쿼리](/powerquery-m/quick-tour-of-the-power-query-m-formula-language)를 만들 수 있습니다. PowerQuery M 수식 쿼리에는 [포괄적인 함수 참조 콘텐츠 집합](/powerquery-m/power-query-m-function-reference)이 있습니다. 
 
 쿼리 편집기에서 사용자 지정 열을 만들면, Power BI Desktop에서 쿼리의 **쿼리 설정**에 **적용된 단계**로 추가합니다. 사용자 지정 열은 언제든지 변경, 이동 또는 수정할 수 있습니다.
 
@@ -49,7 +49,7 @@ Power BI Desktop에서 쿼리 편집기를 사용하여 새 사용자 지정 데
 
 - **새 열 이름** 상자에 있는 사용자 지정 열의 초기 이름. 이 열의 이름은 바꿀 수 있습니다.
 
-- [사용자 지정 열 수식](https://docs.microsoft.com/powerquery-m/power-query-m-function-reference) 상자에 있는 **PowerQuery M 수식 쿼리**. 이러한 쿼리는 새 사용자 지정 열이 정의되는 수식을 작성하여 만듭니다. 
+- [사용자 지정 열 수식](/powerquery-m/power-query-m-function-reference) 상자에 있는 **PowerQuery M 수식 쿼리**. 이러한 쿼리는 새 사용자 지정 열이 정의되는 수식을 작성하여 만듭니다. 
 
    ![사용자 지정 열 추가 페이지](media/desktop-add-custom-column/add-custom-column_03.png)
 
@@ -95,4 +95,3 @@ Power BI Desktop에서 쿼리 편집기를 사용하여 새 사용자 지정 데
 - 쿼리 편집기에 제공한 예제를 기준으로 열을 만드는 등 다른 방법으로 사용자 지정 열을 만들 수 있습니다. 자세한 내용은 [Power BI Desktop에서 예제의 열 추가](desktop-add-column-from-example.md)를 참조하세요.
 
 - 파워 쿼리 M 참조 정보는 [파워 쿼리 M 함수 참조](/powerquery-m/power-query-m-function-reference)를 참조하세요.
-

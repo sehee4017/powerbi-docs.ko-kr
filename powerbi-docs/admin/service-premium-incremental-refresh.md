@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/22/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: 02716f895d84a7aa49ab7f1d48d60372b3546409
-ms.sourcegitcommit: b943ce58c2c079cb18fc5cf23cc609ead1dc9906
+ms.openlocfilehash: 51aa05d49f0691c7ebb916ff84e3a8cbb0416096
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "89443332"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855015"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Power BI의 증분 새로 고침
 
@@ -112,7 +112,7 @@ Power BI 서비스의 첫 번째 새로 고침에서 만 5년 동안의 데이�
 
 #### <a name="current-date"></a>현재 날짜
 
-‘현재 날짜’는 새로 고침 시간의 시스템 날짜를 기준으로 합니다. Power BI 서비스의 데이터 세트에 예약된 새로 고침을 사용하는 경우에는 현재 날짜를 결정할 때 지정된 표준 시간대가 고려됩니다. Power BI 서비스를 통해 수동으로 호출된 새로 고침 또는 예약된 새로 고침은 모두 표준 시간대를 준수할 수 있습니다(사용 가능한 경우). 예를 들어 표준 시간대가 지정된 오후 8시(태평양 표준시(미국 및 캐나다))에 발생하는 새로 고침은 GMT(태평양 표준시와 다르게 다음 날이 됨)가 아닌 태평양 표준시를 기준으로 현재 날짜를 결정합니다. [TMSL refresh 명령](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current) 같이 Power BI 서비스를 통해 호출되지 않은 새로 고침 작업은 예약된 새로 고침 표준 시간대를 고려하지 않습니다.
+‘현재 날짜’는 새로 고침 시간의 시스템 날짜를 기준으로 합니다. Power BI 서비스의 데이터 세트에 예약된 새로 고침을 사용하는 경우에는 현재 날짜를 결정할 때 지정된 표준 시간대가 고려됩니다. Power BI 서비스를 통해 수동으로 호출된 새로 고침 또는 예약된 새로 고침은 모두 표준 시간대를 준수할 수 있습니다(사용 가능한 경우). 예를 들어 표준 시간대가 지정된 오후 8시(태평양 표준시(미국 및 캐나다))에 발생하는 새로 고침은 GMT(태평양 표준시와 다르게 다음 날이 됨)가 아닌 태평양 표준시를 기준으로 현재 날짜를 결정합니다. [TMSL refresh 명령](/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current) 같이 Power BI 서비스를 통해 호출되지 않은 새로 고침 작업은 예약된 새로 고침 표준 시간대를 고려하지 않습니다.
 
 ![표준 시간대](media/service-premium-incremental-refresh/time-zone2.png)
 
@@ -153,7 +153,7 @@ Power BI 서비스의 첫 번째 새로 고침에서 만 5년 동안의 데이�
 
 ## <a name="query-timeouts"></a>쿼리 시간 제한
 
-[새로 고침 문제 해결](../connect-data/refresh-troubleshooting-refresh-scenarios.md) 문서에서는 Power BI 서비스의 새로 고침 작업 시간을 제한할 수 있다고 설명합니다. 쿼리도 데이터 원본에 대한 기본 시간 제한으로 제한할 수 있습니다. 대부분의 관계형 원본은 M 식에서 시간 제한을 재정의할 수 있습니다. 예를 들어 아래 식에서는 [SQL Server 데이터 액세스 함수](https://docs.microsoft.com/powerquery-m/sql-database)를 사용하여 시간 제한을 2시간으로 설정합니다. 정책 범위로 정의된 각 기간에는 명령 시간 제한 설정을 준수하는 쿼리가 제출됩니다.
+[새로 고침 문제 해결](../connect-data/refresh-troubleshooting-refresh-scenarios.md) 문서에서는 Power BI 서비스의 새로 고침 작업 시간을 제한할 수 있다고 설명합니다. 쿼리도 데이터 원본에 대한 기본 시간 제한으로 제한할 수 있습니다. 대부분의 관계형 원본은 M 식에서 시간 제한을 재정의할 수 있습니다. 예를 들어 아래 식에서는 [SQL Server 데이터 액세스 함수](/powerquery-m/sql-database)를 사용하여 시간 제한을 2시간으로 설정합니다. 정책 범위로 정의된 각 기간에는 명령 시간 제한 설정을 준수하는 쿼리가 제출됩니다.
 
 ```powerquery-m
 let
@@ -176,7 +176,7 @@ XMLA 엔드포인트가 읽기/쓰기에 사용하도록 설정되면 SSMS를 �
 
 #### <a name="override-incremental-refresh-behavior"></a>증분 새로 고침 동작 재정의
 
-SSMS에서는 [TMSL(테이블 형식 모델 스크립팅 언어)](https://docs.microsoft.com/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current) 및 [TOM(테이블 형식 개체 모델)](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo?view=power-bi-premium-current)을 사용하여 증분 새로 고침을 호출하는 방법을 보다 세밀하게 제어할 수도 있습니다. 예를 들어 SSMS의 개체 탐색기에서 테이블을 마우스 오른쪽 단추로 클릭한 다음 **테이블 처리** 메뉴 옵션을 선택합니다. 그런 다음 **스크립트** 단추를 클릭하여 TMSL refresh 명령을 생성합니다.
+SSMS에서는 [TMSL(테이블 형식 모델 스크립팅 언어)](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current) 및 [TOM(테이블 형식 개체 모델)](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo?view=power-bi-premium-current)을 사용하여 증분 새로 고침을 호출하는 방법을 보다 세밀하게 제어할 수도 있습니다. 예를 들어 SSMS의 개체 탐색기에서 테이블을 마우스 오른쪽 단추로 클릭한 다음 **테이블 처리** 메뉴 옵션을 선택합니다. 그런 다음 **스크립트** 단추를 클릭하여 TMSL refresh 명령을 생성합니다.
 
 ![테이블 처리 대화 상자의 스크립트 단추](media/service-premium-incremental-refresh/ssms-process-table.png)
 
@@ -204,7 +204,7 @@ SSMS에서는 [TMSL(테이블 형식 모델 스크립팅 언어)](https://docs.m
 }
 ```
 
-TMSL을 사용하여 기본 증분 새로 고침 동작을 재정의하는 방법에 대한 자세한 내용은 [Refresh 명령](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current)을 참조하세요.
+TMSL을 사용하여 기본 증분 새로 고침 동작을 재정의하는 방법에 대한 자세한 내용은 [Refresh 명령](/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current)을 참조하세요.
 
 ### <a name="custom-queries-for-detect-data-changes"></a>데이터 변경 내용을 검색하기 위한 사용자 지정 쿼리
 
@@ -247,4 +247,4 @@ Power BI Desktop에서 Power BI Premium의 작업 영역에 새 버전의 PBIX �
 ## <a name="see-also"></a>참고 항목
 
 [XMLA 엔드포인트로 데이터 세트 연결](service-premium-connect-tools.md)   
-[새로 고침 시나리오 문제 해결](../connect-data/refresh-troubleshooting-refresh-scenarios.md)   
+[새로 고침 시나리오 문제 해결](../connect-data/refresh-troubleshooting-refresh-scenarios.md)

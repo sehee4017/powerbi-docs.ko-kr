@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/29/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 69929ff48428ebf73044c296eabc419f8e442b3b
-ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
+ms.openlocfilehash: 7a7988ba9bb9efd4b2dec20fd2dc88478af439a2
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87411960"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855291"
 ---
 # <a name="using-external-tools-in-power-bi-desktop-preview"></a>Power BI Desktop에서 외부 도구 사용(미리 보기)
 
@@ -37,13 +37,13 @@ Power BI Desktop의 **외부 도구** 리본에는 머신에 설치되고 Power 
 
 외부 도구는 Power BI Desktop 데이터 세트(Analysis Services 모델)에 연결하여 다음 개체를 편집할 수 있습니다. PBIT(Power BI Desktop 템플릿) 파일 편집은 지원되지 않습니다.
 
-* 계산 [측정값](https://docs.microsoft.com/analysis-services/tabular-models/measures-ssas-tabular)
-* 복잡한 모델에서 계산을 재사용하기 위한 [계산 그룹](https://docs.microsoft.com/analysis-services/tabular-models/calculation-groups)
-* 데이터 세트 메타데이터의 포커스가 있는 비즈니스 도메인별 보기를 정의하기 위한 [큐브 뷰](https://docs.microsoft.com/analysis-services/tabular-models/perspectives-ssas-tabular)
+* 계산 [측정값](/analysis-services/tabular-models/measures-ssas-tabular)
+* 복잡한 모델에서 계산을 재사용하기 위한 [계산 그룹](/analysis-services/tabular-models/calculation-groups)
+* 데이터 세트 메타데이터의 포커스가 있는 비즈니스 도메인별 보기를 정의하기 위한 [큐브 뷰](/analysis-services/tabular-models/perspectives-ssas-tabular)
 
 외부 도구를 사용하여 메타데이터 번역을 관리할 수 있지만, 이 미리 보기 버전에서는 지원되지 않습니다. 현재 사용자의 로캘이 번역된 로캘인 경우 현재 버전의 Power BI Desktop에서는 필드 목록에서 개체 편집 기능이 제대로 작동하지 않습니다. 
 
-모든 [테이블 형식 개체 모델](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo) 데이터 세트 메타데이터는 읽기 전용으로 액세스할 수 있지만 [테이블 형식 개체 모델](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo) 문서에 설명된 목록에 포함되지 않은 개체는 아직 Power BI Desktop Analysis Services 인스턴스에서 편집할 수 없습니다.
+모든 [테이블 형식 개체 모델](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo) 데이터 세트 메타데이터는 읽기 전용으로 액세스할 수 있지만 [테이블 형식 개체 모델](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo) 문서에 설명된 목록에 포함되지 않은 개체는 아직 Power BI Desktop Analysis Services 인스턴스에서 편집할 수 없습니다.
 
 
 ## <a name="featured-external-tools"></a>추천 외부 도구
@@ -147,5 +147,3 @@ Power BI Desktop을 사용하여 다른 외부 도구를 등록하려면 다음 
 
 * [Power BI 보고서에서 보고서 간 드릴스루 사용](desktop-cross-report-drill-through.md)
 * [Power BI Desktop에서 슬라이서 사용](../visuals/power-bi-visualization-slicers.md)
-
-

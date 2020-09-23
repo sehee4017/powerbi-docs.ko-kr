@@ -10,12 +10,12 @@ ms.date: 04/07/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 885490554acfec10503ba8ce7bc1db6937ec8fce
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 776120f9781f05376e767175a795943ab58243d3
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485464"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855035"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Power BI 서비스에 미국 정부 기관 등록
 
@@ -77,4 +77,4 @@ Power BI 미국 정부 기관에 등록한 후에는 계정 팀과 협력하여 
 ## <a name="next-steps"></a>다음 단계
 
 * [미국 정부 기관용 Power BI 개요](service-govus-overview.md)
-- [Microsoft 365 정부는 어떻게 구입하나요?](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/microsoft-365-government-how-to-buy#how-do-i-buy-microsoft-365-government)
+- [Microsoft 365 정부는 어떻게 구입하나요?](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/microsoft-365-government-how-to-buy#how-do-i-buy-microsoft-365-government)

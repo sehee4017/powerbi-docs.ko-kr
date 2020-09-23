@@ -10,16 +10,16 @@ ms.topic: tutorial
 ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4c19965def178d4260527032820c4109c4fe235f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 6511afb499b12d379957ac37ebfe19890c111282
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83281579"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861041"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>자습서:  Power BI에서 Cognitive Services 사용
 
-Power BI를 사용하면 Azure Cognitive Services의 다양한 함수에 액세스하여 데이터 흐름을 위한 셀프 서비스 데이터 준비에서 데이터를 보강할 수 있습니다. 현재 지원되는 서비스는 [감정 분석](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis), [핵심 구 추출](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction), [언어 감지](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection) 및 [이미지 태그 지정](https://docs.microsoft.com/azure/cognitive-services/computer-vision/concept-tagging-images)입니다. 변환은 Power BI 서비스에서 실행되므로 Azure Cognitive Services 구독이 필요하지 않습니다. 이 기능을 사용하려면 Power BI Premium이 필요합니다.
+Power BI를 사용하면 Azure Cognitive Services의 다양한 함수에 액세스하여 데이터 흐름을 위한 셀프 서비스 데이터 준비에서 데이터를 보강할 수 있습니다. 현재 지원되는 서비스는 [감정 분석](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis), [핵심 구 추출](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction), [언어 감지](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection) 및 [이미지 태그 지정](/azure/cognitive-services/computer-vision/concept-tagging-images)입니다. 변환은 Power BI 서비스에서 실행되므로 Azure Cognitive Services 구독이 필요하지 않습니다. 이 기능을 사용하려면 Power BI Premium이 필요합니다.
 
 Cognitive Services 변환은 [데이터 흐름을 위한 셀프 서비스 데이터 준비](https://powerbi.microsoft.com/blog/introducing-power-bi-data-prep-wtih-dataflows/)에서 지원됩니다. 시작하려면 아래의 텍스트 분석 및 이미지 태그 지정에 대한 단계별 예제를 사용하세요.
 
@@ -174,7 +174,7 @@ in
 
 이 자습서에서는 감정 점수 매기기 및 이미지 태그 지정 함수를 Power BI 데이터 흐름에 적용했습니다. Power BI에서 Cognitive Services를 사용하는 방법을 자세히 알아보려면 다음 문서를 읽어보세요.
 
-* [Azure의 Cognitive Services](https://docs.microsoft.com/azure/cognitive-services/)
+* [Azure의 Cognitive Services](/azure/cognitive-services/)
 * [데이터 흐름에 대한 셀프 서비스 데이터 준비](../transform-model/service-dataflows-overview.md) 시작하기
 * [Power BI Premium](https://powerbi.microsoft.com/power-bi-premium/)에 대한 자세한 정보
 

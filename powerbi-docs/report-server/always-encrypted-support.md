@@ -8,16 +8,16 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2020
 ms.author: maggies
-ms.openlocfilehash: f8d711bba8dc7570f2d470554fd1d971639bbb7b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f921d9dbeb16d1b960e22f228f7833c8fbf184b4
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76710209"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861248"
 ---
 # <a name="always-encrypted-in-power-bi-report-server"></a>Power BI Report Server에서 항상 암호화
 
-이 문서에서는 Microsoft SQL Server 및 Microsoft Azure SQL Database와 같은 데이터 원본 유형을 사용할 때 Power BI Report Server에서 제공하는 Always Encrypted 지원에 대해 설명합니다. SQL Server의 Always Encrypted 기능에 대한 자세한 내용은 [Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine) 문서를 참조하세요.
+이 문서에서는 Microsoft SQL Server 및 Microsoft Azure SQL Database와 같은 데이터 원본 유형을 사용할 때 Power BI Report Server에서 제공하는 Always Encrypted 지원에 대해 설명합니다. SQL Server의 Always Encrypted 기능에 대한 자세한 내용은 [Always Encrypted](/sql/relational-databases/security/encryption/always-encrypted-database-engine) 문서를 참조하세요.
 
 ## <a name="always-encrypted-user-isolation"></a>Always Encrypted 사용자 격리
 
@@ -37,8 +37,8 @@ ms.locfileid: "76710209"
 
 인증서에 액세스해야 하는 계정은 서비스 계정입니다. 인증서는 로컬 컴퓨터 인증서 저장소에 저장해야 합니다. 자세한 내용은 다음을 참조하세요.
 
-- [보고서 서버 서비스 계정 구성](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)(구성 관리자)
-- SQL Server 문서 “Always Encrypted용 열 마스터 키 생성 및 저장”의 [애플리케이션 및 사용자가 인증서를 사용할 수 있도록 설정](https://docs.microsoft.com/sql/relational-databases/security/encryption/create-and-store-column-master-keys-always-encrypted#making-certificates-available-to-applications-and-users) 섹션입니다.
+- [보고서 서버 서비스 계정 구성](/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)(구성 관리자)
+- SQL Server 문서 “Always Encrypted용 열 마스터 키 생성 및 저장”의 [애플리케이션 및 사용자가 인증서를 사용할 수 있도록 설정](/sql/relational-databases/security/encryption/create-and-store-column-master-keys-always-encrypted#making-certificates-available-to-applications-and-users) 섹션입니다.
 
 ### <a name="column-encryption-strategy"></a>열 암호화 전략
 
@@ -51,7 +51,7 @@ Power BI Report Server에서 열 암호화 전략은 *결정적*이거나 *임�
 |COUNT와 DISTINCT를 제외하고 집계 필드로 사용할 수 있습니다. | COUNT와 DISTINCT를 제외하고 아닙니다. | 아니요 |
 |보고서 매개 변수로 사용할 수 있습니다. | 예 | 아니요 |
 
-[결정적 및 임의 암호화](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption)에 대해 자세히 알아보세요.
+[결정적 및 임의 암호화](/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption)에 대해 자세히 알아보세요.
 
 ### <a name="parameter-usage"></a>매개 변수 사용
 
@@ -65,7 +65,7 @@ Power BI Report Server에서 열 암호화 전략은 *결정적*이거나 *임�
 
 - 모든 Always Encrypted 열은 결정적 전략을 사용하여 항상 암호화되어야 합니다.
 - Always Encrypted 열에 사용되는 모든 매개 변수는 단일 값 매개 변수입니다.
-- 모든 SQL 비교는 등호(=) 연산자를 사용합니다.
+- 모든 SQL 비교는 Equals(=) 연산자를 사용합니다.
 
 ## <a name="datatype-support"></a>데이터 형식 지원
 
@@ -73,7 +73,7 @@ Power BI Report Server에서 열 암호화 전략은 *결정적*이거나 *임�
 | --- | --- | --- | --- | --- | --- |
 | 정수 | 예 | 예 | COUNT, DISTINCT | 예, 정수로 |   |
 | float | 예 | 예 | COUNT, DISTINCT | 예, 부동으로 |   |
-| nvarchar | 예 | 예 | COUNT, DISTINCT | 예, 텍스트로 | 결정적 암호화에서는 문자 열에 대해 binary2 정렬 순서를 적용하는 열 데이터 정렬을 사용해야 합니다. 자세한 내용은 SQL Server의 [Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption) 문서를 참조하세요.  |
+| nvarchar | 예 | 예 | COUNT, DISTINCT | 예, 텍스트로 | 결정적 암호화에서는 문자 열에 대해 binary2 정렬 순서를 적용하는 열 데이터 정렬을 사용해야 합니다. 자세한 내용은 SQL Server의 [Always Encrypted](/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption) 문서를 참조하세요.  |
 | varchar | 예 | 예 | COUNT, DISTINCT | 아니요 |   |
 | decimal | 예 | 예 | COUNT, DISTINCT | 아니요 |   |
 | numeric | 예 | 예 | COUNT, DISTINCT | 아니요 |   |
@@ -86,11 +86,10 @@ Power BI Report Server에서 열 암호화 전략은 *결정적*이거나 *임�
 
 ## <a name="always-encrypted-in-connection-strings"></a>연결 문자열에서 항상 암호화
 
-SQL Server 데이터 원본에 대한 연결 문자열에서 Always Encrypted를 사용하도록 설정해야 합니다. [애플리케이션 쿼리에서 Always Encrypted를 사용하도록 설정](https://docs.microsoft.com/sql/relational-databases/security/encryption/develop-using-always-encrypted-with-net-framework-data-provider#enabling-always-encrypted-for-application-queries)하는 방법에 대해 자세히 알아보세요.
+SQL Server 데이터 원본에 대한 연결 문자열에서 Always Encrypted를 사용하도록 설정해야 합니다. [애플리케이션 쿼리에서 Always Encrypted를 사용하도록 설정](/sql/relational-databases/security/encryption/develop-using-always-encrypted-with-net-framework-data-provider#enabling-always-encrypted-for-application-queries)하는 방법에 대해 자세히 알아보세요.
 
 ## <a name="next-steps"></a>다음 단계
 
-SQL Server 및 Azure SQL Database의 [Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine)
+SQL Server 및 Azure SQL Database의 [Always Encrypted](/sql/relational-databases/security/encryption/always-encrypted-database-engine)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
-

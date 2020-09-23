@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 7a08b41f7307881a75573cadbeca984840300032
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 68bfe1a97d9db0b12f3942961c4e50e5c535fd84
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264868"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856188"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 타일 탐색
 적용 대상:
@@ -87,7 +87,7 @@ ms.locfileid: "86264868"
 ## <a name="tiles-in-the-windows-10-mobile-app"></a>Windows 10 모바일 앱의 타일
 
 >[!NOTE]
->**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](https://go.microsoft.com/fwlink/?linkid=2121400)
+>**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 1. Windows 10용 [Power BI 모바일 앱에서 대시보드](mobile-apps-view-dashboard.md)를 엽니다.
 2. 타일의 세로 줄임표(...)를 탭합니다. 여기에서는 다음과 같은 작업을 할 수 있습니다. 

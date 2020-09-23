@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 999e146d459fbff541e3655d97ddb841972ec62c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: dddc90ee30ff58269c723d247a6c0a9fe3718683
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227710"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855084"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Power BI Premium 메트릭 앱
 
@@ -342,10 +342,9 @@ ms.locfileid: "85227710"
 ## <a name="next-steps"></a>다음 단계
 
 * [Power BI 프리미엄이란?](service-premium-what-is.md)
-* [Power BI 프리미엄 릴리스 정보](../service-premium-release-notes.md)
 * [Microsoft Power BI 프리미엄 백서](https://aka.ms/pbipremiumwhitepaper)
 * [Power BI 엔터프라이즈 배포 계획 백서](https://aka.ms/pbienterprisedeploy)
-* [Extended Pro 평가판 활성화](../service-extended-pro-trial.md)
+* [Extended Pro 평가판 활성화](../fundamentals/service-self-service-signup-for-power-bi.md)
 * [Power BI Embedded FAQ](../developer/embedded/embedded-faq.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

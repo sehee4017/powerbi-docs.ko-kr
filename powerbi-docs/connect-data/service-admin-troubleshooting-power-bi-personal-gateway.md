@@ -5,16 +5,16 @@ author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: how-to
+ms.topic: troubleshooting
 ms.date: 5/06/2019
 ms.author: arthii
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 108a50017a55a2ac87bb8db2adf4f92bd5dca58f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9c5e241cee86b9f7ea21607128f5c32099dd0415
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231065"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861501"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>Power BI Gateway 문제 해결(개인 모드)
 
@@ -31,7 +31,7 @@ ms.locfileid: "85231065"
 ## <a name="installation"></a>설치
 **게이트웨이(개인 모드)는 64비트 버전에서 작동합니다.** 머신이 32비트 버전인 경우 게이트웨이(개인 모드)를 설치할 수 없습니다. 운영 체제가 64비트 버전이어야 합니다. Windows 64비트 버전을 설치하거나 64비트 머신에 개인 게이트웨이(개인 모드)를 설치해야 합니다.
 
-**컴퓨터의 로컬 관리자이지만 게이트웨이(개인 모드)가 서비스로 설치되지 않습니다.** 사용자가 컴퓨터의 로컬 관리자 그룹에 속하더라도 그룹 정책에서 사용 사용자 이름의 서비스 로그인을 허용하지 않는 경우 설치에 실패할 수 있습니다. 그룹 정책에서 사용자의 서비스 로그인을 허용하는지 확인하세요. 이 문제에 대한 수정 중입니다. 자세한 내용은 [계정에 서비스로 로그온 권한 추가](https://technet.microsoft.com/library/cc739424.aspx)를 참조하세요.
+**컴퓨터의 로컬 관리자이지만 게이트웨이(개인 모드)가 서비스로 설치되지 않습니다.** 사용자가 컴퓨터의 로컬 관리자 그룹에 속하더라도 그룹 정책에서 사용 사용자 이름의 서비스 로그인을 허용하지 않는 경우 설치에 실패할 수 있습니다. 그룹 정책에서 사용자의 서비스 로그인을 허용하는지 확인하세요. 이 문제에 대한 수정 중입니다. 자세한 내용은 [계정에 서비스로 로그온 권한 추가](/previous-versions/windows/it-pro/windows-server-2003/cc739424(v=ws.10))를 참조하세요.
 
 **작업 시간이 초과됨:** 이 메시지는 일반적으로 게이트웨이(개인 모드)를 설치하는 컴퓨터(물리적 컴퓨터 또는 VM)에 단일 코어 프로세서가 있는 경우에 흔히 나타납니다. 애플리케이션을 닫고 필수가 아닌 모든 프로세스를 해제하고 다시 설치해 보세요.
 

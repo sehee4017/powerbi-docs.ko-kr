@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/07/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 193463978e3c4d80980a15e154dbeef05aa1a2a0
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 66e94ed2af0b9dc9cf3600594fc6679bd7261b12
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238911"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861087"
 ---
 # <a name="connect-to-data-created-by-power-platform-dataflows-in-power-bi-desktop"></a>Power BI Desktop에서 Power Platform 데이터 흐름을 통해 만든 데이터에 연결
 **Power BI Desktop**에서 Power BI Desktop의 다른 데이터 원본처럼 **Power Platform 데이터 흐름**에서 만든 데이터에 연결할 수 있습니다.
@@ -47,7 +47,7 @@ ms.locfileid: "85238911"
 
     ![데이터 흐름을 사용하는 중 오류 발생](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 
-이 문제를 해결하려면 Ben에게 CDM 폴더 및 해당 파일의 독자 권한이 부여되어야 합니다. [이 문서](https://go.microsoft.com/fwlink/?linkid=2029121)에서 CDM 폴더의 액세스 권한을 부여하는 방법을 자세히 알아볼 수 있습니다.
+이 문제를 해결하려면 Ben에게 CDM 폴더 및 해당 파일의 독자 권한이 부여되어야 합니다. [이 문서](./service-dataflows-azure-data-lake-integration.md)에서 CDM 폴더의 액세스 권한을 부여하는 방법을 자세히 알아볼 수 있습니다.
 
 
 
@@ -72,4 +72,4 @@ Azure Data Lake Storage Gen2와 통합에 대한 자세한 내용은 다음 문�
 
 * [Power BI Desktop의 데이터 원본](../connect-data/desktop-data-sources.md)
 * [Power BI Desktop에서 데이터 셰이핑 및 결합](../connect-data/desktop-shape-and-combine-data.md)
-* [Power BI Desktop에 데이터 직접 연결](../connect-data/desktop-enter-data-directly-into-desktop.md)   
+* [Power BI Desktop에 데이터 직접 연결](../connect-data/desktop-enter-data-directly-into-desktop.md)

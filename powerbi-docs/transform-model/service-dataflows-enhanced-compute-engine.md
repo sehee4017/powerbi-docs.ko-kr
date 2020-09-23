@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: f003a62fb8e2b3495dee8dac7b553a2ff72bd6b1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7623be9f4eea3bd4d1a8c6fa7b4d1add3d41c783
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240008"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861524"
 ---
 # <a name="the-enhanced-compute-engine"></a>향상된 컴퓨팅 엔진
 
@@ -83,4 +83,4 @@ Power BI의 향상된 컴퓨팅 엔진을 사용하면 Power BI Premium 구독�
 * [예약된 새로 고침 구성](../connect-data/refresh-scheduled-refresh.md)
 
 공통 데이터 모델에 대한 자세한 내용은 해당 개요 문서를 참조할 수 있습니다.
-* [공통 데이터 모델 - 개요 ](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [공통 데이터 모델 - 개요 ](/powerapps/common-data-model/overview)

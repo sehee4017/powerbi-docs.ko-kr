@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 37687ab23d44821a51779d4e03663bd79189865f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 608389e10e225517d6e50c14058732cf5fedb16f
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239980"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861064"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi"></a>Power BI의 데이터 흐름 간에 엔터티 연결
 
@@ -99,4 +99,4 @@ Power BI 서비스의 **엔터티 추가** 메뉴 항목에서 **연결된 엔�
 * [예약된 새로 고침 구성](../connect-data/refresh-scheduled-refresh.md)
 
 공통 데이터 모델에 대한 자세한 내용은 해당 개요 문서를 참조할 수 있습니다.
-* [공통 데이터 모델 - 개요 ](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [공통 데이터 모델 - 개요 ](/powerapps/common-data-model/overview)

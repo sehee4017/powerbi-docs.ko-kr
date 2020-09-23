@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 11/25/2019
 ms.author: painbar
-ms.openlocfilehash: e3b0fba18250853eec7eef85b5cfc9161290bacb
-ms.sourcegitcommit: c006d7aabf90c7b29fb05641d1f94f1ee7132943
+ms.openlocfilehash: 003543579e26262194668f94bdf78b8b002cb114
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "84685313"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856164"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>빠른 시작: Power BI 모바일 앱에서 대시보드 및 보고서 살펴보기
 이 빠른 시작에서는 Power BI Mobile 앱을 둘러보고 샘플 대시보드와 보고서를 살펴봅니다. iOS용 Power BI 앱이 표시되지만, 다른 디바이스에서도 쉽게 작업을 수행할 수 있습니다.
@@ -25,7 +25,7 @@ ms.locfileid: "84685313"
 | iPhone | iPad | Android | Windows 10 |
 
 >[!NOTE]
->**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](https://go.microsoft.com/fwlink/?linkid=2121400)
+>**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 대시보드는 회사의 수명 주기 및 프로세스 포털로, 비즈니스의 현재 상태를 한곳에서 모니터링할 수 있는 개요입니다. 보고서는 해당 데이터의 다양한 결과 및 인사이트를 나타내는 시각적 개체가 포함된 대화형 데이터 뷰입니다. 
 
@@ -112,4 +112,3 @@ ms.locfileid: "84685313"
 
 > [!div class="nextstepaction"]
 > [빠른 시작: Power BI 서비스 살펴보기](../end-user-experience.md)
-

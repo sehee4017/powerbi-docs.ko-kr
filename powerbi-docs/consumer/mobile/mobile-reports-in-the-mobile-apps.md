@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: f53fb518df3c82f4570c81b7caa14c20eea8022c
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: bdea7bbadc9e974e6b71122775408f50cfe33de3
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204959"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855958"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 보고서 탐색
 적용 대상:
@@ -23,7 +23,7 @@ ms.locfileid: "88204959"
 | iPhone |iPad |Android 휴대폰 |Android 태블릿 |Windows 10 디바이스 |
 
 >[!NOTE]
->**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](https://go.microsoft.com/fwlink/?linkid=2121400)
+>**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 Power BI 보고서는 해당 데이터의 다양한 결과 및 인사이트를 나타내는 시각적 개체가 포함된 데이터의 대화형 뷰입니다. 3단계 프로세스 중 다음의 세 번째 단계는 Power BI 모바일 앱에서 보고서 보기입니다.
 
@@ -134,13 +134,13 @@ Power BI 모바일 앱을 다운로드하면 단일 탭 상호 작용이 설정�
 
 **책갈피**는 보고서에 [책갈피](mobile-reports-in-the-mobile-apps.md#bookmarks)가 설정된 경우에만 표시됩니다. Power BI 서비스에서 정의할 수 있는 개인 책갈피와 보고서 작성자가 정의한 책갈피가 모두 표시됩니다. 책갈피 중 하나가 기본 책갈피로 정의된 경우에는 보고서가 로드 시 해당 뷰로 열립니다.
 
-Power BI 모바일 앱의 공유를 금지하는 [Intune 보호 정책](https://docs.microsoft.com/intune/app-protection-policies)을 조직에서 적용 중인 경우 **주석 달기 및 공유**를 끄도록 설정할 수 있습니다.
+Power BI 모바일 앱의 공유를 금지하는 [Intune 보호 정책](/intune/app-protection-policies)을 조직에서 적용 중인 경우 **주석 달기 및 공유**를 끄도록 설정할 수 있습니다.
 
 다른 사용자와 보고서를 공유할 권한이 있는 경우에만 **초대**가 사용하도록 설정됩니다. 보고서 소유자이거나 소유자가 다시 공유 권한을 부여한 경우에만 권한이 있습니다.
 
-보고서 작성자가 보고서를 지리 데이터로 분류한 경우 **현재 위치로 필터링**이 사용하도록 설정됩니다. 자세한 내용은 [보고서에서 지리 데이터 식별](https://docs.microsoft.com/power-bi/desktop-mobile-geofiltering)을 참조하세요.
+보고서 작성자가 보고서를 지리 데이터로 분류한 경우 **현재 위치로 필터링**이 사용하도록 설정됩니다. 자세한 내용은 [보고서에서 지리 데이터 식별](../../transform-model/desktop-mobile-geofiltering.md)을 참조하세요.
 
-보고서의 데이터 세트에 **바코드** 태그가 지정된 경우 **바코드로 보고서를 필터링하려면 검사**가 사용하도록 설정됩니다. 자세한 내용은 [Power BI Desktop의 바코드 태깅](https://docs.microsoft.com/power-bi/desktop-mobile-barcodes)을 참조하세요.
+보고서의 데이터 세트에 **바코드** 태그가 지정된 경우 **바코드로 보고서를 필터링하려면 검사**가 사용하도록 설정됩니다. 자세한 내용은 [Power BI Desktop의 바코드 태깅](../../transform-model/desktop-mobile-barcodes.md)을 참조하세요.
 
 ### <a name="bookmarks"></a>책갈피
 
@@ -154,7 +154,7 @@ Power BI 모바일 앱은 보고서 작성자가 정의한 보고서 책갈피�
 
 ![책갈피 뷰](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-title.png)
 
-[Power BI 서비스의 책갈피에 대해 자세히 알아보세요](https://docs.microsoft.com/power-bi/consumer/end-user-bookmarks).
+[Power BI 서비스의 책갈피에 대해 자세히 알아보세요](../end-user-bookmarks.md).
 
 ## <a name="configure-your-experience-with-reports"></a>보고서를 사용하여 환경 구성
 Power BI 모바일 앱에는 보고서 환경을 제어할 수 있는 다양한 설정이 있습니다. 현재 다음을 구성할 수 있습니다.

@@ -6,15 +6,15 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 05/06/2020
-ms.openlocfilehash: a1a30dc09e61e29053a5a1d95cde3d5a339c5a3d
-ms.sourcegitcommit: 6d7d5e6b19e11d557dfa1b79b745728b4ee02b4e
+ms.date: 09/15/2020
+ms.openlocfilehash: ea2fa0625ece88d8da2848dbe6a108d98a55a0d0
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "89220863"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855562"
 ---
-# <a name="deployment-pipelines-best-practices-preview"></a>배포 파이프라인 모범 사례(미리 보기)
+# <a name="deployment-pipelines-best-practices"></a>배포 파이프라인 모범 사례
 
 이 문서에서는 콘텐츠를 수명 주기 전체에서 관리하는 BI 작성자를 위한 지침을 제공합니다. 여기서는 배포 파이프라인을 BI 콘텐츠 수명 주기 관리 도구로 활용하는 방법을 집중적으로 설명합니다.
 
@@ -79,7 +79,7 @@ ms.locfileid: "89220863"
 
 ### <a name="use-parameters-in-your-model"></a>모델에 매개 변수 사용
 
-Power BI 서비스에서는 데이터 세트 데이터 원본을 편집할 수 없기 때문에 정적 연결 문자열을 사용하는 대신 [매개 변수](https://docs.microsoft.com/power-query/power-query-query-parameters)를 사용하여 인스턴스 이름 및 데이터베이스 이름과 같은 연결 정보를 저장하는 것이 좋습니다. 이렇게 하면 이후 단계에서 Power BI 서비스 웹 포털을 통해 또는 [API를 사용하여](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup) 연결을 관리할 수 있습니다.
+Power BI 서비스에서는 데이터 세트 데이터 원본을 편집할 수 없기 때문에 정적 연결 문자열을 사용하는 대신 [매개 변수](/power-query/power-query-query-parameters)를 사용하여 인스턴스 이름 및 데이터베이스 이름과 같은 연결 정보를 저장하는 것이 좋습니다. 이렇게 하면 이후 단계에서 Power BI 서비스 웹 포털을 통해 또는 [API를 사용하여](/rest/api/power-bi/datasets/updateparametersingroup) 연결을 관리할 수 있습니다.
 
 배포 파이프라인에서 매개 변수 규칙을 구성하여 개발, 테스트 및 프로덕션 단계에 특정 값을 설정할 수 있습니다.
 

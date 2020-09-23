@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/14/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 5cd0dd3b91109e63e5481e2f5e5516fd9ecd245c
-ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
+ms.openlocfilehash: cd9295e26de50714a15afb672814893317fb8e3b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "86385978"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861409"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Power BI 서비스에서 Power BI Desktop으로 보고서 다운로드(미리 보기)
       
@@ -30,7 +30,7 @@ Power BI Desktop에서 로컬 컴퓨터의 보고서( *.pbix* 파일)를 Power B
 
 .Pbix 파일을 다운로드하려면 다음 단계를 따르세요.
 
-1. Power BI 서비스에서 다운로드하려는 보고서를 [편집용 보기](https://docs.microsoft.com/power-bi/service-interact-with-a-report-in-editing-view)로 엽니다.
+1. Power BI 서비스에서 다운로드하려는 보고서를 [편집용 보기](./service-interact-with-a-report-in-editing-view.md)로 엽니다.
 
 2. 위쪽 탐색 창에서 **파일 > 보고서 다운로드**를 선택합니다.
    
