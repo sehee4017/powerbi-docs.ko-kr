@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: d3ffa51cfc991f7cd51c0c465d67d238998958cb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 374b9eb1becb5c343600521efc2d493f7d83e677
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219761"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854050"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 대시보드 또는 보고서 공유
 적용 대상:
@@ -23,7 +23,7 @@ ms.locfileid: "85219761"
 | iPhone |iPad |Android 휴대폰 |Android 태블릿 |Windows 10 디바이스 |
 
 >[!NOTE]
->**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](https://go.microsoft.com/fwlink/?linkid=2121400)
+>**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 [Power BI Pro 라이선스](../../fundamentals/service-features-license-type.md)를 사용하면 Power BI 모바일 앱에서 링크를 공유하여 다른 사용자가 대시보드 및 보고서를 보도록 초대할 수 있습니다. 회사 메일 계정을 사용하거나 사용하지 않고 조직 내외부에서 다른 사용자와 공유할 수 있습니다. 다른 사용자도 Power BI Pro 라이선스가 필요합니다. 또는 콘텐츠가 [프리미엄 용량](../../admin/service-premium-what-is.md)에 있어야 합니다.
 

@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 07/23/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: c8d4671d55e09ca6e60599bbc0ac9802258f63ba
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 09e51c46a11c41008f77d3a7597807b35b57d297
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252731"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860788"
 ---
 # <a name="what-is-power-bi-desktop"></a>Power BI Desktop이란?
 
@@ -66,7 +66,7 @@ Power BI Desktop을 시작하는 첫 번째 단계는 데이터에 연결하는 
 
 ## <a name="transform-and-clean-data-create-a-model"></a>데이터 변환 및 정리, 모델 만들기
 
-Power BI Desktop에서는 기본 제공 [Power Query 편집기](https://docs.microsoft.com/power-bi/desktop-query-overview)를 사용하여 데이터를 정리하고 변환할 수 있습니다. Power Query 편집기를 통해 데이터 형식 변경, 열 제거 또는 여러 원본의 데이터 결합과 같은 작업을 수행하여 데이터를 변경합니다. 이 과정은 조각과 비슷합니다. 큰 점토(또는 데이터) 블록으로 시작한 후 데이터 셰이프가 원하는 모양이 될 때까지 필요에 따라 조각을 깎아내거나 다른 조각을 추가합니다. 
+Power BI Desktop에서는 기본 제공 [Power Query 편집기](../transform-model/desktop-query-overview.md)를 사용하여 데이터를 정리하고 변환할 수 있습니다. Power Query 편집기를 통해 데이터 형식 변경, 열 제거 또는 여러 원본의 데이터 결합과 같은 작업을 수행하여 데이터를 변경합니다. 이 과정은 조각과 비슷합니다. 큰 점토(또는 데이터) 블록으로 시작한 후 데이터 셰이프가 원하는 모양이 될 때까지 필요에 따라 조각을 깎아내거나 다른 조각을 추가합니다. 
 
 Power Query 편집기를 시작하려면 다음을 수행합니다.
 
@@ -134,4 +134,3 @@ Power BI Desktop을 시작하려면 먼저 애플리케이션을 다운로드하
 
 * [Windows 스토어에서 Power BI Desktop 가져오기](https://aka.ms/pbidesktopstore)
 * [웹에서 Power BI Desktop 다운로드](https://www.microsoft.com/download/details.aspx?id=58494)
-

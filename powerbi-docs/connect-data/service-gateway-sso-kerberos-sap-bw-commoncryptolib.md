@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: how-to
 ms.date: 12/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: a10370647a6079fc0d58307d30ffdc3f427e9f81
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3aa107dca6e4d1764bf8355eb0c79a8e113ee910
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231458"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860650"
 ---
 # <a name="use-kerberos-single-sign-on-for-sso-to-sap-bw-using-commoncryptolib-sapcryptodll"></a>CommonCryptoLib(sapcrypto.dll)를 사용하여 SAP BW에 대한 SSO에 Kerberos Single Sign-On 사용
 
@@ -95,7 +95,7 @@ Power BI 서비스에서 보고서를 새로 고칠 수 없는 경우 게이트�
 
 1. 문제를 재현합니다.
 
-2. [게이트웨이 앱](https://docs.microsoft.com/data-integration/gateway/service-gateway-app)을 열고 **진단** 탭에서 **로그 내보내기**를 선택합니다.
+2. [게이트웨이 앱](/data-integration/gateway/service-gateway-app)을 열고 **진단** 탭에서 **로그 내보내기**를 선택합니다.
 
       ![게이트웨이 로그 내보내기](media/service-gateway-sso-kerberos/export-gateway-logs.png)
 

@@ -11,12 +11,12 @@ ms.author: kfollis
 ms.custom: MC
 ROBOTS: NOINDEX
 LocalizationGroup: Admin
-ms.openlocfilehash: 13bbf23c075fb1f58c2af71ae0a082d4e539d023
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 19933ccbf18003e293e823c2b1f201e953c7bde0
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537691"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854785"
 ---
 # <a name="power-bi-planned-maintenance"></a>Power BI 계획된 유지 관리
 
@@ -42,4 +42,4 @@ Power BI 서비스에 대한 계획된 유지 관리는 고객에게 신뢰할 �
 ## <a name="next-steps"></a>다음 단계
 
 * [서비스 중단 알림 사용](service-interruption-notifications.md)
-* [메시지 센터에서 예정된 변경 내용 추적](https://docs.microsoft.com/microsoft-365/admin/manage/message-center?view=o365-worldwide)
+* [메시지 센터에서 예정된 변경 내용 추적](/microsoft-365/admin/manage/message-center?view=o365-worldwide)

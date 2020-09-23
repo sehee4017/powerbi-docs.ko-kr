@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: how-to
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 772a9c0d171c2391a137f2e8a97f262f59df5cfe
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 38aee727245cd7a33aefe1ee64a8a5be8b062cd7
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231366"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859776"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI에서 온-프레미스 데이터 원본으로 SSO에 SAML(Security Assertion Markup Language)을 사용합니다.
 
@@ -26,7 +26,7 @@ SSO를 사용하도록 설정하면 Power BI 보고서 및 대시보드가 온-�
 
 [Kerberos](service-gateway-sso-kerberos.md)(SAP HANA 포함)를 사용하여 추가 데이터 원본이 지원됩니다.
 
-SAP HANA의 경우 SAML SSO 연결을 만들기 전에 암호화를 사용하도록 설정하는 것이 좋습니다. 암호화를 사용하도록 설정하려면 암호화된 연결을 허용하도록 HANA 서버를 구성하고, 암호화를 사용하여 HANA 서버와 통신하도록 게이트웨이를 구성합니다. HANA ODBC 드라이버는 기본적으로 SAML 어설션을 암호화하지 않으므로, 서명된 SAML 어설션이 ‘일반 텍스트로’ 게이트웨이에서 HANA 서버로 전송되며 제3자의 인터셉션 및 재사용에 취약합니다.  OpenSSL 라이브러리를 통해 HANA에 암호화를 사용하도록 설정하는 방법에 대한 지침은 [SAP HANA에 암호화 사용](/power-bi/desktop-sap-hana-encryption)을 참조하세요.
+SAP HANA의 경우 SAML SSO 연결을 만들기 전에 암호화를 사용하도록 설정하는 것이 좋습니다. 암호화를 사용하도록 설정하려면 암호화된 연결을 허용하도록 HANA 서버를 구성하고, 암호화를 사용하여 HANA 서버와 통신하도록 게이트웨이를 구성합니다. HANA ODBC 드라이버는 기본적으로 SAML 어설션을 암호화하지 않으므로, 서명된 SAML 어설션이 ‘일반 텍스트로’ 게이트웨이에서 HANA 서버로 전송되며 제3자의 인터셉션 및 재사용에 취약합니다.  OpenSSL 라이브러리를 통해 HANA에 암호화를 사용하도록 설정하는 방법에 대한 지침은 [SAP HANA에 암호화 사용](./desktop-sap-hana-encryption.md)을 참조하세요.
 
 ## <a name="configuring-the-gateway-and-data-source"></a>게이트웨이 및 데이터 원본 구성
 

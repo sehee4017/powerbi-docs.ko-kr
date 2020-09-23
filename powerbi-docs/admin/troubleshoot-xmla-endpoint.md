@@ -10,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 07/28/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 8a815f69d4f74ec925c3ac0cc8a84c2a13d80346
-ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+ms.openlocfilehash: bd2b8c4af1fc36fabc863aa1c67ed5af40265de2
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87363965"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854084"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>XMLA 엔드포인트 연결 문제 해결
 
@@ -138,11 +138,11 @@ Power BI에서 예약된 새로 고침 또는 요청 시 새로 고침을 트리
 
 ### <a name="overrides-in-refresh-tmsl-command"></a>Refresh TMSL 명령의 재정의
 
-[ 명령(TMSL)](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl)의 재정의를 통해 사용자는 새로 고침 작업의 다른 파티션 쿼리 정의 또는 데이터 원본 정의를 선택할 수 있습니다. 현재 Power BI Premium에서는 **재정의가 지원되지 않습니다**. “Power BI Premium에서는 확장 바인딩이 허용되지 않습니다. 자세한 내용은 제품 설명서의 ‘XMLA 읽기/쓰기 지원’을 참조하세요.” 가 반환됩니다.
+[ 명령(TMSL)](/analysis-services/tmsl/refresh-command-tmsl)의 재정의를 통해 사용자는 새로 고침 작업의 다른 파티션 쿼리 정의 또는 데이터 원본 정의를 선택할 수 있습니다. 현재 Power BI Premium에서는 **재정의가 지원되지 않습니다**. “Power BI Premium에서는 확장 바인딩이 허용되지 않습니다. 자세한 내용은 제품 설명서의 ‘XMLA 읽기/쓰기 지원’을 참조하세요.” 가 반환됩니다.
 
 ## <a name="see-also"></a>참고 항목
 
 [XMLA 엔드포인트로 데이터 세트 연결](service-premium-connect-tools.md)   
 [서비스 주체를 사용하여 Premium 작업 영역 및 데이터 세트 작업 자동화](service-premium-service-principal.md)   
 [Excel에서 분석 문제 해결](../collaborate-share/desktop-troubleshooting-analyze-in-excel.md)   
-[테이블 형식 모델 솔루션 배포](https://docs.microsoft.com/analysis-services/deployment/tabular-model-solution-deployment?view=power-bi-premium-current)
+[테이블 형식 모델 솔루션 배포](/analysis-services/deployment/tabular-model-solution-deployment?view=power-bi-premium-current)

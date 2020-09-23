@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 07/08/2020
-ms.openlocfilehash: af737472b85dcfa05935aefa9ddd7a6fcbb746f2
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 9c92383dee3cb435c57238be545ccd9e59923b8e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214363"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859983"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Report Server의 새로운 기능
 
@@ -206,7 +206,7 @@ Microsoft 보고서 작성기 또는 SSDT(SQL Server Data Tools) 중 하나를 �
 
 #### <a name="azure-active-directory-application-proxy-support"></a>Azure Active Directory 애플리케이션 프록시 지원
 
-Azure Active Directory 애플리케이션 프록시를 사용하면 더 이상 웹 또는 모바일 앱을 통한 보안 액세스를 허용하기 위해 웹 애플리케이션 프록시를 관리할 필요가 없습니다. 자세한 내용은 [Azure Active Directory 애플리케이션 프록시를 통해 온-프레미스 애플리케이션에 원격 액세스](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy)를 참조하세요.
+Azure Active Directory 애플리케이션 프록시를 사용하면 더 이상 웹 또는 모바일 앱을 통한 보안 액세스를 허용하기 위해 웹 애플리케이션 프록시를 관리할 필요가 없습니다. 자세한 내용은 [Azure Active Directory 애플리케이션 프록시를 통해 온-프레미스 애플리케이션에 원격 액세스](/azure/active-directory/manage-apps/application-proxy)를 참조하세요.
 
 #### <a name="custom-headers"></a>사용자 지정 헤더
 
@@ -572,7 +572,7 @@ reader에게 보고서에 대한 액세스 권한을 부여하려고 하지만 �
 
 #### <a name="export-to-accessible-pdf"></a>액세스할 수 있는 PDF로 내보내기
 
-이제 페이지 매긴 보고서(RDL)를 PDF로 내보내면 액세스할 수 있는/태그가 지정된 PDF 파일을 가져올 수 있습니다. 크기가 크지만 화면 판독기 및 기타 보조 기술에서 쉽게 읽고 탐색할 수 있습니다. **AccessiblePDF** 디바이스 정보 설정을 **True**로 설정하여 액세스할 수 있는 PDF를 활성화합니다. [PDF 디바이스 정보 설정](https://docs.microsoft.com/sql/reporting-services/pdf-device-information-settings) 및 [디바이스 정보 설정 변경](https://docs.microsoft.com/sql/reporting-services/customize-rendering-extension-parameters-in-rsreportserver-config#changing-device-information-settings)을 참조하세요.
+이제 페이지 매긴 보고서(RDL)를 PDF로 내보내면 액세스할 수 있는/태그가 지정된 PDF 파일을 가져올 수 있습니다. 크기가 크지만 화면 판독기 및 기타 보조 기술에서 쉽게 읽고 탐색할 수 있습니다. **AccessiblePDF** 디바이스 정보 설정을 **True**로 설정하여 액세스할 수 있는 PDF를 활성화합니다. [PDF 디바이스 정보 설정](/sql/reporting-services/pdf-device-information-settings) 및 [디바이스 정보 설정 변경](/sql/reporting-services/customize-rendering-extension-parameters-in-rsreportserver-config#changing-device-information-settings)을 참조하세요.
 
 ### <a name="other-improvements"></a>기타 개선 기능
 
@@ -639,7 +639,7 @@ Swagger의 Power BI Report Server 버전에서 업데이트될 큰 파일에 대
 
 ### <a name="sql-server-analysis-services-ssas-and-the-power-bi-report-server-memory-footprint"></a>SSAS(SQL Server Analysis Services) 및 Power BI Report Server 메모리 사용 공간
 
-Power BI Report Server는 이제 SSAS(SQL Server Analysis Services)를 내부적으로 호스팅합니다. 예약된 새로 고침과 관련이 없습니다. SSAS 호스팅은 보고서 서버 메모리 사용 공간을 크게 확장합니다. AS.ini 구성 파일을 서버 노드에서 사용할 수 있으므로 SSAS에 익숙한 경우 최대 메모리 제한 및 디스크 캐싱 등을 포함하여 설정을 업데이트할 수 있습니다. 자세한 내용은 [Analysis Services에서 서버 속성](https://docs.microsoft.com/sql/analysis-services/server-properties/server-properties-in-analysis-services)을 참조하세요.
+Power BI Report Server는 이제 SSAS(SQL Server Analysis Services)를 내부적으로 호스팅합니다. 예약된 새로 고침과 관련이 없습니다. SSAS 호스팅은 보고서 서버 메모리 사용 공간을 크게 확장합니다. AS.ini 구성 파일을 서버 노드에서 사용할 수 있으므로 SSAS에 익숙한 경우 최대 메모리 제한 및 디스크 캐싱 등을 포함하여 설정을 업데이트할 수 있습니다. 자세한 내용은 [Analysis Services에서 서버 속성](/sql/analysis-services/server-properties/server-properties-in-analysis-services)을 참조하세요.
 
 ### <a name="viewing-and-interacting-with-excel-workbooks"></a>Excel 통합 문서 보기 및 상호 작용
 

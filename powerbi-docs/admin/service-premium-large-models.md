@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 03/03/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 7ea6601514d77f9f7e2e416b358194e871f6445b
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: 4f0a34f990613ab57a95d1f299392d77c7c1f625
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204310"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854670"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Power BI Premium의 대형 모델(미리 보기)
 
@@ -94,7 +94,7 @@ Power BI는 동적 메모리 관리를 사용하여 메모리에서 비활성 �
 
 ## <a name="checking-dataset-size"></a>데이터 세트 크기 확인
 
-기록 데이터를 로드한 후 [XMLA 엔드포인트](service-premium-connect-tools.md)를 통해 [SSMS](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms)를 사용하여 모델 속성 창에서 예상 데이터 세트 크기를 확인할 수 있습니다.
+기록 데이터를 로드한 후 [XMLA 엔드포인트](service-premium-connect-tools.md)를 통해 [SSMS](/sql/ssms/download-sql-server-management-studio-ssms)를 사용하여 모델 속성 창에서 예상 데이터 세트 크기를 확인할 수 있습니다.
 
 ![예상 데이터 세트 크기](media/service-premium-large-models/estimated-dataset-size.png)
 
@@ -122,7 +122,7 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 
 ## <a name="availability-in-regions"></a>지역에서의 가용성
 
-Power BI의 대형 모델은 [Azure Premium Files Storage](https://docs.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers)를 지원하는 일부 Azure 지역에서만 사용할 수 있습니다.
+Power BI의 대형 모델은 [Azure Premium Files Storage](/azure/storage/files/storage-files-planning#storage-tiers)를 지원하는 일부 Azure 지역에서만 사용할 수 있습니다.
 
 다음 목록에는 Power BI의 대형 모델을 사용할 수 있는 지역이 나와 있습니다. 다음 목록에 없는 지역에서는 대형 모델이 지원되지 않습니다.
 
@@ -155,7 +155,7 @@ Power BI의 대형 모델은 [Azure Premium Files Storage](https://docs.microsof
 
 다음 링크는 대형 모델 작업 시 유용할 수 있는 정보를 제공합니다.
 
-* [Azure Premium Files Storage](https://docs.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers)
+* [Azure Premium Files Storage](/azure/storage/files/storage-files-planning#storage-tiers)
 * [Power BI Premium에 대한 다중 지역 지원 구성](service-admin-premium-multi-geo.md)
 * [Power BI의 BYOK(Bring Your Own Encryption Key)](service-encryption-byok.md)
 * [용량 함수 작동 방법](service-premium-what-is.md#how-capacities-function)

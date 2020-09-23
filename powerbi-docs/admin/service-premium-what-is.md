@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/28/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 492ff2c21d285cba37f1bbf631869c84eafe4dc3
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.openlocfilehash: 7f90840284c5b17a118b414db606902789657b7a
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008563"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854693"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium이란?
 
@@ -98,7 +98,7 @@ Power BI Premium을 사용하면 *전용 용량*을 가져올 수 있습니다. 
 
 용량 워크로드는 사용자가 사용할 수 있도록 만든 서비스입니다. 기본적으로 프리미엄 및 Azure 용량은 Power BI 쿼리 실행과 관련된 데이터 세트 워크로드만 지원합니다. 데이터 세트 워크로드를 비활성화할 수 없습니다. 추가 워크로드는 [AI(Cognitive Services)](https://powerbi.microsoft.com/blog/easy-access-to-ai-in-power-bi-preview/), [데이터 흐름](../transform-model/service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium) 및 [페이지를 매긴 보고서](../paginated-reports/paginated-reports-save-to-power-bi-service.md)에 대해 활성화할 수 있습니다. 이러한 워크로드는 프리미엄 구독에서만 지원됩니다. 
 
-각 추가 워크로드는 워크로드에서 사용할 수 있는 최대 메모리(사용 가능한 총 메모리의 백분율)를 구성할 수 있습니다. 최대 메모리의 기본값은 SKU에 의해 결정됩니다. 해당 추가 워크로드만 사용할 수 있도록 설정하여 용량의 사용 가능한 리소스를 최대화할 수 있습니다. 또한 기본 설정이 용량 리소스 요구 사항을 충족하지 않는다고 결정한 경우에만 메모리 설정을 변경합니다. [관리 포털](service-admin-portal.md)에서 **용량 설정**을 사용하거나 [용량 REST API](https://docs.microsoft.com/rest/api/power-bi/capacities)를 사용하여 워크로드를 사용하도록 설정하고 구성할 수 있습니다.  
+각 추가 워크로드는 워크로드에서 사용할 수 있는 최대 메모리(사용 가능한 총 메모리의 백분율)를 구성할 수 있습니다. 최대 메모리의 기본값은 SKU에 의해 결정됩니다. 해당 추가 워크로드만 사용할 수 있도록 설정하여 용량의 사용 가능한 리소스를 최대화할 수 있습니다. 또한 기본 설정이 용량 리소스 요구 사항을 충족하지 않는다고 결정한 경우에만 메모리 설정을 변경합니다. [관리 포털](service-admin-portal.md)에서 **용량 설정**을 사용하거나 [용량 REST API](/rest/api/power-bi/capacities)를 사용하여 워크로드를 사용하도록 설정하고 구성할 수 있습니다.  
 
 ![워크로드 활성화](media/service-admin-premium-workloads/admin-portal-workloads.png)
 
@@ -173,7 +173,7 @@ Power BI Premium을 사용하면 *전용 용량*을 가져올 수 있습니다. 
 
 ### <a name="capacities-rest-apis"></a>용량 REST API
 
-Power BI REST API에는 [용량 API](https://docs.microsoft.com/rest/api/power-bi/capacities)의 컬렉션이 포함됩니다. API를 통해 관리자는 워크로드 활성화 및 비활성화, 용량에 작업 영역 할당 등을 비롯한 프리미엄 용량에 대한 다양한 측면을 프로그래밍 방식으로 관리할 수 있습니다.
+Power BI REST API에는 [용량 API](/rest/api/power-bi/capacities)의 컬렉션이 포함됩니다. API를 통해 관리자는 워크로드 활성화 및 비활성화, 용량에 작업 영역 할당 등을 비롯한 프리미엄 용량에 대한 다양한 측면을 프로그래밍 방식으로 관리할 수 있습니다.
 
 ## <a name="large-datasets"></a>대규모 데이터 세트
 
@@ -252,5 +252,3 @@ Premium을 사용하면 조직의 내외에 있는 누구나 개별 라이선스
 > [프리미엄 용량 관리](service-premium-capacity-manage.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
-
-

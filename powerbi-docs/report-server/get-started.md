@@ -9,12 +9,12 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: a1d62ad9cd8475e217a0ae051919792970dbb34d
-ms.sourcegitcommit: b66c913a50a5100082e1c8ff7cd1c4f76f514fe7
+ms.openlocfilehash: 4b2b29effb1d9b4b2d8e743990dd3dd0d27470f8
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/30/2020
-ms.locfileid: "84219592"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859845"
 ---
 # <a name="what-is-power-bi-report-server"></a>Power BI Report Server란?
 
@@ -38,9 +38,9 @@ Power BI Report Server에 대한 진입점은 최신 브라우저에서 볼 수 
 
 ![Power BI Report Server 웹 포털](media/get-started/web-portal.png)
 
-권한에 따라 웹 포털에서 콘텐츠를 관리할 수 있습니다. 보고서 처리를 예약하고, 요청 시 보고서에 액세스하고, 게시된 보고서를 구독할 수 있습니다. 웹 포털에 사용자 고유의 사용자 지정 [브랜딩](https://docs.microsoft.com/sql/reporting-services/branding-the-web-portal)을 적용할 수도 있습니다. 
+권한에 따라 웹 포털에서 콘텐츠를 관리할 수 있습니다. 보고서 처리를 예약하고, 요청 시 보고서에 액세스하고, 게시된 보고서를 구독할 수 있습니다. 웹 포털에 사용자 고유의 사용자 지정 [브랜딩](/sql/reporting-services/branding-the-web-portal)을 적용할 수도 있습니다. 
 
-[Power BI Report Server 웹 포털](https://docs.microsoft.com/sql/reporting-services/web-portal-ssrs-native-mode)에 대해 자세히 알아보세요.
+[Power BI Report Server 웹 포털](/sql/reporting-services/web-portal-ssrs-native-mode)에 대해 자세히 알아보세요.
 
 ## <a name="power-bi-reports"></a>Power BI 보고서
 보고서 서버에 최적화된 Power BI Desktop 버전으로 Power BI 보고서(.pbix)를 만듭니다. 그런 다음, 자체 환경의 웹 포털에서 보고서를 게시하고 봅니다.
@@ -56,17 +56,17 @@ Power BI 보고서는 데이터 모델의 다양한 결과 및 인사이트를 �
 
 ![Power BI Report Server의 페이지를 매긴 보고서](media/get-started/paginated-reports.png)
 
-[SSDT(SQL Server Data Tools)](https://docs.microsoft.com/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt)에서 [보고서 작성기](https://docs.microsoft.com/sql/reporting-services/report-builder/report-builder-in-sql-server-2016) 또는 보고서 디자이너를 사용하여 페이지가 매겨진 보고서를 만들 수 있습니다.
+[SSDT(SQL Server Data Tools)](/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt)에서 [보고서 작성기](/sql/reporting-services/report-builder/report-builder-in-sql-server-2016) 또는 보고서 디자이너를 사용하여 페이지가 매겨진 보고서를 만들 수 있습니다.
 
 ## <a name="reporting-services-mobile-reports"></a>Reporting Services 모바일 보고서
 모바일 보고서는 온-프레미스 데이터에 연결되고 보유한 다양한 디바이스 및 방법에 맞게 조정되는 반응형 레이아웃을 포함합니다. SQL Server 모바일 보고서 게시자를 사용하여 이 보고서를 만듭니다.
 
-[Reporting Services 모바일 보고서](https://docs.microsoft.com/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher)에 대해 자세히 알아보세요. 
+[Reporting Services 모바일 보고서](/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher)에 대해 자세히 알아보세요. 
 
 ## <a name="report-server-programming-features"></a>Report Server 프로그래밍 기능
 Power BI Report Server 프로그래밍 기능을 활용하여 API를 통해 보고서를 확장하고 사용자 지정하여 사용자 지정 애플리케이션에서 데이터 및 보고서 처리를 통합하거나 확장합니다.
 
-더 많은 [Report Server 개발자 설명서](https://docs.microsoft.com/sql/reporting-services/reporting-services-developer-documentation)가 있습니다.
+더 많은 [Report Server 개발자 설명서](/sql/reporting-services/reporting-services-developer-documentation)가 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI Report Server 설치](install-report-server.md)  

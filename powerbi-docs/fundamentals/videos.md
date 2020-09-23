@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/03/2020
 ms.author: davidi
-ms.openlocfilehash: 6bb0039c873dccec318fa9d16c7cf0c96e44b34e
-ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
+ms.openlocfilehash: 7848ac9539b324dd4b572445877297294dbe8236
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "89092225"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860052"
 ---
 # <a name="power-bi-videos"></a>Power BI 동영상
 Power BI에 대한 YouTube 채널을 제공합니다. Power BI에 익숙하지 않다면 [채널](https://www.youtube.com/user/mspowerbi/videos)을 방문할 수 있으며 [Power BI 재생 목록으로 데이터 분석 및 시각화](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP)부터 시작하는 것이 좋습니다.
@@ -42,7 +42,7 @@ Power BI에 대한 YouTube 채널을 제공합니다. Power BI에 익숙하지 �
 ## <a name="more-videos"></a>비디오 더 보기
 더 많은 비디오는 다음 원본 및 콘텐츠의 컬렉션을 확인하세요.
 
-* [[Power BI용 Microsoft Learn](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
+* [[Power BI용 Microsoft Learn](/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI란?](power-bi-overview.md)

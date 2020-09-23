@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/10/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d3539da05aed1fda28ca6e93c96e1e2f7793c3d6
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: 7439eff964340d3eba20b5d67d2aec992394505f
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878507"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860098"
 ---
 # <a name="use-ai-insights-in-power-bi-desktop"></a>Power BI Desktop에서 AI 인사이트 사용
 
@@ -40,10 +40,10 @@ Power BI의 Text Analytics 및 Vision을 사용하면 [Azure Cognitive Services]
 
 현재 지원되는 서비스는 다음과 같습니다.
 
-* [감정 분석](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis)
-* [핵심 구 추출](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction)
-* [언어 감지](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection)
-* [이미지 태그 지정](https://docs.microsoft.com/azure/cognitive-services/computer-vision/concept-tagging-images) 
+* [감정 분석](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis)
+* [핵심 구 추출](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction)
+* [언어 감지](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection)
+* [이미지 태그 지정](/azure/cognitive-services/computer-vision/concept-tagging-images) 
 
 변환은 Power BI 서비스에서 실행되므로 Azure Cognitive Services 구독이 필요하지 않습니다. 
 
@@ -63,7 +63,7 @@ Cognitive Services는 프리미엄 용량 노드 EM2, A2 또는 P1 이상에서 
 
 언어 감지 함수는 텍스트 입력을 평가하고 각 필드의 언어 이름 및 ISO 식별자를 반환합니다. 이 함수는 언어가 알려지지 않은, 임의 텍스트를 수집하는 데이터 열에 유용합니다. 이 함수에는 텍스트 형식의 데이터가 입력으로 사용되어야 합니다.
 
-Text Analytics에서는 최대 120개의 언어를 인식합니다. 자세한 내용은 [지원되는 언어](https://docs.microsoft.com/azure/cognitive-services/text-analytics/text-analytics-supported-languages)를 참조하세요.
+Text Analytics에서는 최대 120개의 언어를 인식합니다. 자세한 내용은 [지원되는 언어](/azure/cognitive-services/text-analytics/text-analytics-supported-languages)를 참조하세요.
 
 #### <a name="extract-key-phrases"></a>핵심 구 추출
 
@@ -79,7 +79,7 @@ Text Analytics는 기계 학습 분류 알고리즘을 사용하여 0에서 1 �
 
 감정 분석은 전체 입력 필드에서 수행되는 반면, 감정 추출은 텍스트의 특정 엔터티에 대해 수행됩니다. 실제로 문서에 크기가 큰 텍스트 블록이 아닌, 한 개 또는 두 개의 문장이 포함된 경우 점수 매기기 정확도가 향상되는 경향이 있습니다. 객관성 평가 단계에서는 하나의 입력 필드 전체가 객관적인지 감정이 포함되어 있는지를 모델이 결정합니다. 대부분 객관적인 입력 필드는 감정 감지 단계로 진행되지 않으며 추가 처리 없이 .50 점수를 받습니다. 파이프라인에서 계속 진행되는 입력 필드는 입력 필드에서 감지된 감정의 정도에 따라 .50을 초과 또는 미달하는 점수를 다음 단계에서 생성합니다.
 
-현재는 영어, 독일어, 스페인어 및 프랑스어가 감정 분석에서 지원됩니다. 다른 언어는 미리 보기 상태입니다. 자세한 내용은 [지원되는 언어](https://docs.microsoft.com/azure/cognitive-services/text-analytics/text-analytics-supported-languages)를 참조하세요.
+현재는 영어, 독일어, 스페인어 및 프랑스어가 감정 분석에서 지원됩니다. 다른 언어는 미리 보기 상태입니다. 자세한 내용은 [지원되는 언어](/azure/cognitive-services/text-analytics/text-analytics-supported-languages)를 참조하세요.
 
 #### <a name="tag-images"></a>이미지 태그 지정
 
@@ -87,7 +87,7 @@ Text Analytics는 기계 학습 분류 알고리즘을 사용하여 0에서 1 �
 
 이미지를 업로드하거나 이미지 URL을 지정하면 Computer Vision 알고리즘이 이미지에서 식별된 사물, 생물 및 동작을 기준으로 태그를 출력합니다. 태그 지정은 주요 대상(예: 전경에 있는 인물)으로 제한되지 않으며 설정(실내 또는 옥외), 가구, 도구, 식물, 동물, 액세서리, 장치 등도 포함합니다.
 
-이 함수는 입력으로 이미지 URL 또는 base-64 필드가 필요합니다. 현재, 이미지 태그 지정에서는 영어, 스페인어, 일본어, 포르투갈어 및 중국어 간체가 지원됩니다. 자세한 내용은 [지원되는 언어](https://docs.microsoft.com/rest/api/cognitiveservices/computervision/tagimage/tagimage#uri-parameters)를 참조하세요.
+이 함수는 입력으로 이미지 URL 또는 base-64 필드가 필요합니다. 현재, 이미지 태그 지정에서는 영어, 스페인어, 일본어, 포르투갈어 및 중국어 간체가 지원됩니다. 자세한 내용은 [지원되는 언어](/rest/api/cognitiveservices/computervision/tagimage/tagimage#uri-parameters)를 참조하세요.
 
 ### <a name="invoking-text-analytics-or-vision-functions-in-power-query"></a>파워 쿼리에서 Text Analytics 또는 Vision 함수 호출
 
@@ -162,8 +162,8 @@ Text Analytics를 사용하는 경우 유의해야 할 몇 가지 고려 사항 
 
 Azure Machine Learning에 대해 자세히 알아보려면 다음 문서를 참조하세요.
 
-- 개요: [Azure Machine Learning이란 무엇인가요?](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)
-- Azure Machine Learning 빠른 시작 및 자습서: [Azure Machine Learning 설명서](https://docs.microsoft.com/azure/machine-learning/)
+- 개요: [Azure Machine Learning이란 무엇인가요?](/azure/machine-learning/service/overview-what-is-azure-ml)
+- Azure Machine Learning 빠른 시작 및 자습서: [Azure Machine Learning 설명서](/azure/machine-learning/)
 
 ### <a name="granting-access-to-an-azure-ml-model"></a>Azure Machine Learning 모델에 대한 액세스 권한 부여
 
@@ -172,7 +172,7 @@ Power BI에서 Azure ML 모델에 액세스하려면 사용자에게 Azure 구�
 - Machine Learning Studio(클래식) 모델의 경우 Machine Learning Studio(클래식) 웹 서비스에 대한 **읽기** 권한
 - Machine Learning 모델의 경우 Machine Learning 작업 영역에 대한 **읽기** 권한
 
-이 섹션에서는 Power BI 사용자에게 Azure Machine Learning Service에 호스트된 모델에 대한 액세스 권한을 부여하는 방법을 설명합니다. 설명된 단계를 수행하면 Power BI 사용자가 파워 쿼리 함수로 이러한 모델에 액세스할 수 있습니다. 자세한 내용은 [RBAC 및 Azure Portal을 사용하여 액세스 관리](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal)를 참조하세요.
+이 섹션에서는 Power BI 사용자에게 Azure Machine Learning Service에 호스트된 모델에 대한 액세스 권한을 부여하는 방법을 설명합니다. 설명된 단계를 수행하면 Power BI 사용자가 파워 쿼리 함수로 이러한 모델에 액세스할 수 있습니다. 자세한 내용은 [RBAC 및 Azure Portal을 사용하여 액세스 관리](/azure/role-based-access-control/role-assignments-portal)를 참조하세요.
 
 1. [Azure Portal](https://portal.azure.com/)에 로그인합니다.
 2. **구독** 페이지로 이동합니다. **구독** 페이지는 Azure Portal의 왼쪽 탐색 메뉴에 있는 **모든 서비스** 목록에서 찾을 수 있습니다.
@@ -186,7 +186,7 @@ Power BI에서 Azure ML 모델에 액세스하려면 사용자에게 Azure 구�
 
 데이터 과학자는 주로 Python을 사용하여 Machine Learning의 기계 학습 모델을 개발하고 배포합니다. 모델의 스키마 파일을 만드는 작업을 자동화하는 데 도움이 되는 Machine Learning Studio(클래식)와 달리, Machine Learning의 경우 데이터 과학자가 Python을 사용하여 스키마 파일을 명시적으로 생성해야 합니다.
 
-이 스키마 파일은 Machine Learning 모델용으로 배포된 웹 서비스에 포함되어야 합니다. 웹 서비스용 스키마를 자동으로 생성하려면 배포된 모델의 항목 스크립트에 입/출력 샘플을 제공해야 합니다. [Azure Machine Learning Service 설명서를 사용하여 배포 모델의 (선택 사항) 자동 Swagger 스키마 생성](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where#optional-define-model-web-service-schema) 하위 섹션을 참조하세요. 이 링크에는 스키마 생성을 위한 명령문이 있는 예제 항목 스크립트가 포함됩니다.
+이 스키마 파일은 Machine Learning 모델용으로 배포된 웹 서비스에 포함되어야 합니다. 웹 서비스용 스키마를 자동으로 생성하려면 배포된 모델의 항목 스크립트에 입/출력 샘플을 제공해야 합니다. [Azure Machine Learning Service 설명서를 사용하여 배포 모델의 (선택 사항) 자동 Swagger 스키마 생성](/azure/machine-learning/how-to-deploy-and-where#optional-define-model-web-service-schema) 하위 섹션을 참조하세요. 이 링크에는 스키마 생성을 위한 명령문이 있는 예제 항목 스크립트가 포함됩니다.
 
 특히 항목 스크립트의 _@input\_schema_ 및 _@output\_schema_ 함수는 _input\_sample_ 및 _output\_sample_ 변수에서 입력 및 출력 샘플 형식을 참조하고, 이러한 샘플을 사용하여 배포 중에 웹 서비스에 대한 OpenAPI(Swagger) 사양을 생성합니다.
 

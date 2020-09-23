@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/27/2020
-ms.openlocfilehash: cdce9ead296a25aad95ab504d6da38f06f681b72
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.openlocfilehash: f433a90580034495b4f7b1f6201c4481ffc627c5
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008632"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859868"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI 페이지를 매긴 보고서의 지원되는 데이터 원본
 
@@ -67,11 +67,10 @@ Azure SQL Database 데이터 원본의 경우 지원되는 인증 형식은 다�
 - SSO(Single Sign-On)
 - OAuth2(저장된 AAD 토큰)
 
-SSO 및 OAuth2가 제대로 작동하려면 데이터 원본이 연결된 Azure SQL Database 서버에서 [AAD 인증 지원을 사용하도록 설정](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication-configure)해야 합니다. OAuth2 인증 방법의 경우 AAD는 토큰을 생성하고 향후 데이터 원본 액세스를 위해 저장합니다. [SSO 인증 방법](https://docs.microsoft.com/power-bi/service-azure-sql-database-with-direct-connect#single-sign-on)을 대신 사용하려면 바로 아래에서 SSO 옵션인 **최종 사용자가 DirectQuery를 통해 이 데이터 원본에 액세스할 때 자신의 OAuth2 자격 증명을 사용합니다.** 를 선택합니다.
+SSO 및 OAuth2가 제대로 작동하려면 데이터 원본이 연결된 Azure SQL Database 서버에서 [AAD 인증 지원을 사용하도록 설정](/azure/sql-database/sql-database-aad-authentication-configure)해야 합니다. OAuth2 인증 방법의 경우 AAD는 토큰을 생성하고 향후 데이터 원본 액세스를 위해 저장합니다. [SSO 인증 방법](../connect-data/service-azure-sql-database-with-direct-connect.md#single-sign-on)을 대신 사용하려면 바로 아래에서 SSO 옵션인 **최종 사용자가 DirectQuery를 통해 이 데이터 원본에 액세스할 때 자신의 OAuth2 자격 증명을 사용합니다.** 를 선택합니다.
   
 ## <a name="next-steps"></a>다음 단계
 
 [Power BI 서비스에서 페이지를 매긴 보고서 보기](../consumer/paginated-reports-view-power-bi-service.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
-

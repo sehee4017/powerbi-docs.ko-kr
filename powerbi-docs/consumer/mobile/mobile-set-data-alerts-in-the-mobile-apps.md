@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/11/2019
 ms.author: painbar
-ms.openlocfilehash: 6cddfd820da45de6141b698b8cb6e3c2bfc68069
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: a0fdc83db8d24f4733d3eb8402a4ea9ccce15869
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264897"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860604"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 데이터 경고 설정
 적용 대상:
@@ -105,7 +105,7 @@ Power BI 모바일 앱에서 개별 경고를 관리하거나 [Power BI 서비�
 ## <a name="data-alerts-on-a-windows-device"></a>Windows 디바이스의 데이터 경고
 
 >[!NOTE]
->**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](https://go.microsoft.com/fwlink/?linkid=2121400)
+>**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ### <a name="set-data-alerts-on-a-windows-device"></a>Windows 디바이스의 데이터 경고 설정
 1. 대시보드에서 번호 또는 계기 타일을 탭하여 엽니다.  

@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/16/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 4188a5570dfe15658e13d3358f3e192ac842cbfb
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: 10049517ff1d9313838f72270c34091e2a0d3f73
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937335"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854716"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI 프리미엄 FAQ
 
@@ -84,10 +84,9 @@ Power BI Premium을 사용하면 클라우드의 조직 프로비저닝에서 �
 **다음 단계**
 
 * [Power BI 프리미엄이란?](service-premium-what-is.md)
-* [Power BI 프리미엄 릴리스 정보](../service-premium-release-notes.md)
 * [Microsoft Power BI 프리미엄 백서](https://aka.ms/pbipremiumwhitepaper)
 * [Power BI 엔터프라이즈 배포 계획 백서](https://aka.ms/pbienterprisedeploy)
-* [Extended Pro 평가판 활성화](../service-extended-pro-trial.md)
+* [Extended Pro 평가판 활성화](../fundamentals/service-self-service-signup-for-power-bi.md)
 * [Power BI Embedded FAQ](../developer/embedded/embedded-faq.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

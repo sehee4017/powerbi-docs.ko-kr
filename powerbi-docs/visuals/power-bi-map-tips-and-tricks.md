@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 87509a4a2415a8f7a2a7a27d34dc2a6f3a39b92f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0c28d95c5275f5778b1ae646b8e5fb65489eb072
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232405"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860121"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI Map 시각화를 위한 팁과 힌트
 
@@ -50,7 +50,7 @@ Power BI 서비스 및 Power BI Desktop은 지도 시각화를 만드는 데 필
 
 **1. Power BI Desktop에 지리적 필드 재분류**
 
-Power BI Desktop에서 데이터 필드에 *데이터 범주*를 설정하면 필드가 올바르게 지오코딩되도록 보장할 수 있습니다. 데이터 뷰에서 원하는 열을 선택합니다. 리본에서 **모델링** 탭을 선택한 다음, **데이터 범주**를 **주소**, **도시**, **대륙**, **국가/지역**, **국가**, **우편 번호**, **시**/**도**로 설정합니다. 이러한 데이터 범주는 Bing에서 날짜를 올바르게 인코딩하는 데 도움이 됩니다. 자세히 알아보려면 [Power BI Desktop의 데이터 분류](../transform-model/desktop-data-categorization.md)를 참조하세요. SQL Server Analysis Services에 라이브로 연결하는 경우 [SSDT(SQL Server Data Tools)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt)를 사용하여 Power BI 외부에서 데이터 분류를 설정해야 합니다.
+Power BI Desktop에서 데이터 필드에 *데이터 범주*를 설정하면 필드가 올바르게 지오코딩되도록 보장할 수 있습니다. 데이터 뷰에서 원하는 열을 선택합니다. 리본에서 **모델링** 탭을 선택한 다음, **데이터 범주**를 **주소**, **도시**, **대륙**, **국가/지역**, **국가**, **우편 번호**, **시**/**도**로 설정합니다. 이러한 데이터 범주는 Bing에서 날짜를 올바르게 인코딩하는 데 도움이 됩니다. 자세히 알아보려면 [Power BI Desktop의 데이터 분류](../transform-model/desktop-data-categorization.md)를 참조하세요. SQL Server Analysis Services에 라이브로 연결하는 경우 [SSDT(SQL Server Data Tools)](/sql/ssdt/download-sql-server-data-tools-ssdt)를 사용하여 Power BI 외부에서 데이터 분류를 설정해야 합니다.
 
 **2. 둘 이상의 위치 열을 사용합니다.**     
  경우에 따라서는 매핑에 대한 데이터 범주를 설정하는 것이 Bing에서 의도를 올바르게 추측하는 데 부족할 수 있습니다. 여러 국가나 지역에서는 위치가 존재하기 때문에 일부 지정이 모호해집니다. 예를 들어, 영국, 펜실베니아, 뉴욕에 ***사우샘프턴***이 있습니다.

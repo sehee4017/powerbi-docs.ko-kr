@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 01/17/2019
-ms.openlocfilehash: 898e2bc688e9d3e819511288484f07511c809fb8
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 650984e7bd7effca8fff222f828eaa9c7e42dce1
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238019"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860142"
 ---
 # <a name="migrate-a-report-server-installation"></a>Report Server 설치 마이그레이션
 
@@ -97,6 +97,6 @@ Power BI Report Server에서 마이그레이션하는 작업은 SSRS(기본 모�
 
 [관리자 개요](admin-handbook-overview.md)  
 [Power BI Report Server 설치](install-report-server.md)  
-[rs.exe 유틸리티 및 웹 서비스를 사용하는 스크립트](https://docs.microsoft.com/sql/reporting-services/tools/script-with-the-rs-exe-utility-and-the-web-service)
+[rs.exe 유틸리티 및 웹 서비스를 사용하는 스크립트](/sql/reporting-services/tools/script-with-the-rs-exe-utility-and-the-web-service)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

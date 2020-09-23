@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: 03b361c56bd545036a8d706ae01e2bfa2ec30222
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: bce23ecdc99f6428ecefc28580e3ae0ec05fac6a
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921243"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859707"
 ---
 # <a name="pagination-in-power-bi-paginated-reports"></a>Power BI 페이지를 매긴 보고서의 페이지 매김
 
@@ -34,7 +34,7 @@ ms.locfileid: "78921243"
   
  기본적으로 페이지 크기는 8.5 x 11인치이지만, 이 크기는 **보고서 속성** 창 또는 **페이지 설정** 대화 상자에서 변경하거나 **속성** 창에서 PageHeight 및 PageWidth 속성을 변경하여 크기를 조정할 수 있습니다. 페이지 크기는 보고서 본문의 내용에 맞게 커지거나 축소되지 않습니다. 보고서를 한 페이지에 표시하려면 보고서 본문의 모든 내용이 물리적 페이지 크기에 맞아야 합니다. 맞지 않지만 하드 페이지 나누기 형식을 사용하는 경우 보고서에 추가 페이지가 필요합니다. 보고서 본문이 너무 커서 물리적 페이지의 오른쪽 가장자리를 벗어나면 가로 방향으로 페이지 나누기가 삽입됩니다. 보고서 본문이 실제 페이지의 맨 아래 가장자리를 벗어나면 세로 방향으로 페이지 나누기가 삽입됩니다.  
   
- 보고서에 정의된 실제 페이지 크기를 재정의하려는 경우 보고서를 내보내는 데 사용하는 특정 렌더러의 디바이스 정보 설정을 사용하여 실제 페이지 크기를 지정할 수 있습니다. 전체 목록은 SQL Server Reporting Services 설명서에서 [렌더링 확장 프로그램의 디바이스 정보](https://docs.microsoft.com/sql/reporting-services/device-information-settings-for-rendering-extensions-reporting-services?view=sql-server-2017)를 참조하세요.  
+ 보고서에 정의된 실제 페이지 크기를 재정의하려는 경우 보고서를 내보내는 데 사용하는 특정 렌더러의 디바이스 정보 설정을 사용하여 실제 페이지 크기를 지정할 수 있습니다. 전체 목록은 SQL Server Reporting Services 설명서에서 [렌더링 확장 프로그램의 디바이스 정보](/sql/reporting-services/device-information-settings-for-rendering-extensions-reporting-services)를 참조하세요.  
   
 ### <a name="margins"></a>여백
 
@@ -77,13 +77,13 @@ ms.locfileid: "78921243"
   
  상수 및 단순한 식이나 복잡한 식을 사용하여 Disabled 및 ResetPageNumber 속성의 값을 설정할 수 있습니다. 그러나 BreakLocation 속성과는 식을 사용할 수 없습니다. 식 작성 및 사용에 관한 자세한 내용은 [Power BI 보고서 작성기의 식](report-builder-expressions.md)을 참조하세요.  
   
- 보고서에서 **Globals** 컬렉션을 사용하여 현재 페이지 이름과 페이지 번호를 참조하는 식을 쓸 수 있습니다. 자세한 내용은 보고서 작성기 및 보고 서비스 문서의 [기본 제공 글로벌 및 사용자 참조서](https://docs.microsoft.com/sql/reporting-services/report-design/built-in-collections-built-in-globals-and-users-references-report-builder?view=sql-server-2017)를 확인하세요.
+ 보고서에서 **Globals** 컬렉션을 사용하여 현재 페이지 이름과 페이지 번호를 참조하는 식을 쓸 수 있습니다. 자세한 내용은 보고서 작성기 및 보고 서비스 문서의 [기본 제공 글로벌 및 사용자 참조서](/sql/reporting-services/report-design/built-in-collections-built-in-globals-and-users-references-report-builder)를 확인하세요.
   
 ### <a name="naming-excel-worksheet-tabs"></a>Excel 워크시트 탭 이름 지정
 
  이러한 속성은 보고서를 Excel 통합 문서로 내보낼 때 유용합니다. InitialPage 속성을 사용하여 보고서를 내보낼 때 기본 워크시트 탭 이름을 지정하고, 페이지 나누기 및 PageName 속성을 사용하여 각 워크시트에 대해 다른 이름을 제공합니다. 페이지 나누기로 정의되는 각각의 새 보고서 페이지를 PageName 속성값으로 명명된 다른 워크시트로 내보냅니다. PageName이 비어 있지만 보고서에 초기 페이지 이름이 있으면 Excel 통합 문서의 모든 워크시트가 같은 이름(초기 페이지 이름)을 사용합니다.  
   
- 보고서를 Excel로 내보낼 때 이러한 속성이 작동하는 방식에 관한 자세한 내용은 보고서 작성기 및 보고 서비스 문서의 [Microsoft Excel로 내보내기](https://docs.microsoft.com/sql/reporting-services/report-builder/exporting-to-microsoft-excel-report-builder-and-ssrs)를 참조하세요.  
+ 보고서를 Excel로 내보낼 때 이러한 속성이 작동하는 방식에 관한 자세한 내용은 보고서 작성기 및 보고 서비스 문서의 [Microsoft Excel로 내보내기](/sql/reporting-services/report-builder/exporting-to-microsoft-excel-report-builder-and-ssrs)를 참조하세요.  
   
 ## <a name="next-steps"></a>다음 단계
 

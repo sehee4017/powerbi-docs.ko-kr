@@ -10,12 +10,12 @@ ms.topic: reference
 ms.date: 08/24/2020
 ms.custom: contperfq1
 ms.author: mihart
-ms.openlocfilehash: cd562d8fe689c2ae82ee1cacfc9e02393a5992f9
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 012fad9cd566018a6fd0d96fb172fadd816e3420
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803046"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860857"
 ---
 # <a name="glossary-for-business-users-of-the-power-bi-service"></a>Power BI 서비스의 비즈니스 사용자 관련 용어집    
 Power BI 서비스에서는 익숙하지 않거나 혼동되는 용어가 사용되고 있습니다. 용어집은 용어를 조회할 수 있는 적절한 위치로, 책갈피를 지정할 수도 있습니다. Power BI 서비스의 구성 요소를 학습하기에 좋은 또 다른 유용한 리소스는 [기본 개념](end-user-basic-concepts.md)입니다. 기본 개념은 Power BI ‘부분’의 간략한 개요와 연결 방식을 설명합니다.
@@ -97,7 +97,7 @@ Power BI 서비스의 콘텐츠는 일반적으로 대시보드, 보고서 및 �
 앱의 콘텐츠 인덱스입니다.
 
 **content pack**(콘텐츠 팩)    
- 사전 패키지된 데이터 세트, 보고서 및 대시보드의 모음입니다. 콘텐츠 팩은 **앱**으로 대체됩니다. [새로운 작업 영역 환경에 대해](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces) 알아보세요. 
+ 사전 패키지된 데이터 세트, 보고서 및 대시보드의 모음입니다. 콘텐츠 팩은 **앱**으로 대체됩니다. [새로운 작업 영역 환경에 대해](../collaborate-share/service-create-the-new-workspaces.md) 알아보세요. 
 
 **content view (콘텐츠 보기)**
 

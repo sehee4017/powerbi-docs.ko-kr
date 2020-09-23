@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: 5705b0eaa861b01c7f04f4da9f85985af5f3934e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d32e1223a335fc6bf2fdf52598f1e1bdf3d7a685
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235631"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860535"
 ---
 # <a name="update-delete-and-extract-template-app"></a>템플릿 앱 업데이트, 삭제 및 추출
 
@@ -46,7 +46,7 @@ Power BI Desktop에서 변경을 수행한 경우 (1)단계에서 시작합니�
 
    링크가 이제 활성화됩니다. **사전 프로덕션 단계에서 [앱 수준 올리기] 단추는 회색으로 표시됩니다**. 이는 Cloud 파트너 포털이 새 앱 버전의 유효성을 검사하고 해당 버전을 승인하기 전에 현재 앱 버전의 라이브 프로덕션 링크를 실수로 덮어쓰는 것을 방지하기 위한 것입니다.
 
-1. [Power BI 앱 제품 업데이트](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer)의 단계를 따라 CPP(Cloud 파트너 포털)에 링크를 다시 제출합니다. Cloud 파트너 포털에서 제품을 다시 **게시**한 다음, 유효성을 다시 검사하고 승인해야 합니다.
+1. [Power BI 앱 제품 업데이트](/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer)의 단계를 따라 CPP(Cloud 파트너 포털)에 링크를 다시 제출합니다. Cloud 파트너 포털에서 제품을 다시 **게시**한 다음, 유효성을 다시 검사하고 승인해야 합니다.
 
    제품이 승인되면 [앱 수준 올리기] 단추가 다시 활성화됩니다. 
 1. 프로덕션 단계로 앱 수준을 올립니다.
@@ -84,4 +84,4 @@ Power BI Desktop에서 변경을 수행한 경우 (1)단계에서 시작합니�
 
 [조직의 템플릿 앱 설치, 사용자 지정 및 배포](service-template-apps-install-distribute.md)에서 고객이 템플릿 앱과 상호 작용하는 방법을 참조하세요.
 
-앱 배포에 대한 자세한 내용은 [Power BI 애플리케이션 제안](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer)을 참조하세요.
+앱 배포에 대한 자세한 내용은 [Power BI 애플리케이션 제안](/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer)을 참조하세요.

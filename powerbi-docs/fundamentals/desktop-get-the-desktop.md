@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: c5c4c7b08f69bd91fc8a4e6ab13a05878936225d
-ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
+ms.openlocfilehash: e95b51d5d50900b8e09de8f5bf62bf31d5578ad1
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "88160214"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860213"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop 다운로드
 Power BI Desktop을 통해 데이터를 시각화하는 고급 쿼리, 모델 및 보고서를 빌드할 수 있습니다. Power BI Desktop에서 Power BI 서비스에 게시하여 데이터 모델을 빌드하고, 보고서를 만들고, 작업을 공유할 수 있습니다. Power BI Desktop은 무료로 다운로드할 수 있습니다.
@@ -38,7 +38,7 @@ Microsoft Store에서 최신 버전의 Power BI Desktop에 액세스하는 방�
 
    - 브라우저를 열고 Microsoft Store의 [Power BI Desktop 페이지](https://aka.ms/pbidesktopstore)로 직접 이동합니다.
 
-    - [Power BI 서비스](https://docs.microsoft.com/power-bi/service-get-started)에서 오른쪽 위에 있는 **다운로드** 아이콘을 선택한 다음, **Power BI Desktop**을 선택합니다.
+    - [Power BI 서비스](./service-get-started.md)에서 오른쪽 위에 있는 **다운로드** 아이콘을 선택한 다음, **Power BI Desktop**을 선택합니다.
 
       ![Power BI Desktop 다운로드 옵션을 보여 주는 Microsoft Store의 스크린샷.](media/desktop-get-the-desktop/getpbid_downloads.png)
 
@@ -203,4 +203,4 @@ Power BI Desktop을 설치한 후에 빠르게 시작하고 실행하는 데 도
 * [Power BI Desktop의 데이터 원본](../connect-data/desktop-data-sources.md)
 * [Power BI Desktop에서 데이터에 연결](../connect-data/desktop-connect-to-data.md)
 * [Power BI Desktop에서 데이터 셰이핑 및 결합](../connect-data/desktop-shape-and-combine-data.md)
-* [Power BI Desktop의 일반적인 쿼리 작업](../transform-model/desktop-common-query-tasks.md)   
+* [Power BI Desktop의 일반적인 쿼리 작업](../transform-model/desktop-common-query-tasks.md)

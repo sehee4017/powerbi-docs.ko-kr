@@ -8,18 +8,18 @@ ms.topic: how-to
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: fa4c8102eeb41fb754604eb646c11f44891413c9
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 037a4c28f7b70cdd6bc546014a0b9218e89a7e3d
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236248"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860719"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Power BI로 사용하는 서비스에 연결
 Power BI를 통해 비즈니스 운영에 사용하는 다양한 서비스(예: Salesforce, Microsoft Dynamics, Google 애널리틱스)에 연결할 수 있습니다. Power BI는 자격 증명을 사용하여 서비스에 연결하면 시작됩니다. 자동으로 데이터를 표시하고 비즈니스에 대한 시각적 인사이트를 제공하는 대시보드를 포함한 Power BI *작업 영역* 및 Power BI 보고서 집합을 만듭니다.
 
 >[!IMPORTANT]
->서비스 콘텐츠 팩이 [템플릿 앱](https://docs.microsoft.com/power-bi/service-template-apps-overview)으로 바뀝니다. 2019년 9월 25일부터 많은 콘텐츠 팩이 이미 사용되지 않습니다. 설치한 사용되지 않는 콘텐츠 팩은 계정에 그대로 남아 있지만, 설명서나 지원이 제공되지 않거나 다시 설치할 수 없습니다.
+>서비스 콘텐츠 팩이 [템플릿 앱](./service-template-apps-overview.md)으로 바뀝니다. 2019년 9월 25일부터 많은 콘텐츠 팩이 이미 사용되지 않습니다. 설치한 사용되지 않는 콘텐츠 팩은 계정에 그대로 남아 있지만, 설명서나 지원이 제공되지 않거나 다시 설치할 수 없습니다.
 
 [연결할 수 있는 Power BI](https://app.powerbi.com/getdata/services)를 모두 보려면 Power BI에 로그인합니다. 
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/15/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9a3e393fa02d0bccc3e966c467b41883e72ae05e
-ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
+ms.openlocfilehash: 019a881b384fafa51a8b1886b450f18f72bf640e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "86459649"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859960"
 ---
 # <a name="using-dataflows-with-on-premises-data-sources"></a>온-프레미스 데이터 원본으로 만든 데이터 흐름 사용
 
@@ -86,4 +86,4 @@ ms.locfileid: "86459649"
 * [예약된 새로 고침 구성](../connect-data/refresh-scheduled-refresh.md)
 
 공통 데이터 모델에 대한 자세한 내용은 해당 개요 문서를 참조할 수 있습니다.
-* [공통 데이터 모델 - 개요 ](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [공통 데이터 모델 - 개요 ](/powerapps/common-data-model/overview)

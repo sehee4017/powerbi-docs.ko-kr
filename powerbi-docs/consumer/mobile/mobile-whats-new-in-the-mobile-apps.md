@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: 84ceb5cd856986f2ff068395bac8bcac10baad96
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: c8daa87bca6fb5ed47899f804c0710f58b559ff1
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204906"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860236"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -23,7 +23,7 @@ ms.locfileid: "88204906"
 * [Power BI 서비스의 새로운 기능](../../fundamentals/service-whats-new.md)
 
 >[!NOTE]
->**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](https://go.microsoft.com/fwlink/?linkid=2121400)
+>**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="august-2020"></a>2020년 8월
 ### <a name="weve-improved-how-you-navigate-to-your-content-ios-and-android"></a>콘텐츠를 탐색하는 방법이 개선됨(iOS 및 Android)
@@ -153,19 +153,19 @@ Android 사용자로부터 보고서를 사용하는 환경이 최적이 아님�
 
 ### <a name="android-support-for-remote-configuration-of-report-server-access-settings"></a>보고서 서버 액세스 설정의 원격 구성에 대한 Android 지원
 
-Power BI 모바일 앱의 보고서 서버 액세스 설정의 원격 구성에 대한 Android 지원이 추가되었습니다. IT 관리자는 이제 조직의 MDM 도구를 사용하여 iOS 및 Android 디바이스에서 해당 설정을 원격으로 구성할 수 있습니다. 자세한 내용은 [원격으로 보고서 서버에 대한 Power BI 모바일 앱 액세스 권한 구성](https://docs.microsoft.com/power-bi/report-server/configure-powerbi-mobile-apps-remote)을 참조하세요.
+Power BI 모바일 앱의 보고서 서버 액세스 설정의 원격 구성에 대한 Android 지원이 추가되었습니다. IT 관리자는 이제 조직의 MDM 도구를 사용하여 iOS 및 Android 디바이스에서 해당 설정을 원격으로 구성할 수 있습니다. 자세한 내용은 [원격으로 보고서 서버에 대한 Power BI 모바일 앱 액세스 권한 구성](../../report-server/configure-powerbi-mobile-apps-remote.md)을 참조하세요.
 
 ### <a name="cross-report-drillthrough"></a>교차 보고서 드릴스루
 
 이번 달에 교차 보고서 드릴스루에 대한 지원이 추가되었습니다. 이제 데이터 요소를 탭하고 드릴스루하여 다른 보고서와 보고서 페이지에 액세스할 수 있습니다. 대상 페이지로 드릴스루할 때 해당 페이지의 콘텐츠는 드릴스루 설정에 따라 필터링됩니다.
 
 > [!NOTE]
-> 보고서를 만드는 동안 보고서를 사용하도록 설정한 경우에만 교차 보고서 드릴스루를 사용할 수 있습니다. [교차 보고서 드릴스루에 대해 자세히 알아보세요](https://docs.microsoft.com/power-bi/desktop-cross-report-drill-through).
+> 보고서를 만드는 동안 보고서를 사용하도록 설정한 경우에만 교차 보고서 드릴스루를 사용할 수 있습니다. [교차 보고서 드릴스루에 대해 자세히 알아보세요](../../create-reports/desktop-cross-report-drill-through.md).
 
 
 ### <a name="data-sensitivity-labels"></a>데이터 민감도 레이블
 
-이제 콘텐츠 소유자가 보고서, 대시보드, 데이터 세트 및 데이터 흐름에 대해 설정한 민감도 레이블을 보고 해당 데이터의 민감도를 분류할 수 있습니다. 민감도 레이블에 따라 다른 사용자와 콘텐츠를 공유할 수 있는 방법이 결정됩니다. [Power BI의 데이터 민감도 레이블에 대해 자세히 알아보세요](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview).
+이제 콘텐츠 소유자가 보고서, 대시보드, 데이터 세트 및 데이터 흐름에 대해 설정한 민감도 레이블을 보고 해당 데이터의 민감도를 분류할 수 있습니다. 민감도 레이블에 따라 다른 사용자와 콘텐츠를 공유할 수 있는 방법이 결정됩니다. [Power BI의 데이터 민감도 레이블에 대해 자세히 알아보세요](../../admin/service-security-data-protection-overview.md).
 
 ### <a name="support-for-custom-app-navigation-windows"></a>사용자 지정 앱 탐색 지원(Windows)
 
@@ -190,7 +190,7 @@ Power BI 모바일 앱의 보고서 서버 액세스 설정의 원격 구성에 
 
 ### <a name="secured-access-with-azure-active-directory-ad-application-proxy-ios-and-android"></a>Azure AD(Active Directory) 애플리케이션 프록시를 사용한 보안 액세스(iOS 및 Android)
 
-Azure Active Directory 팀과 협력하여 Power BI 모바일 애플리케이션을 Azure AD(Azure Active Directory) 애플리케이션 프록시와 통합했습니다. 이 구성을 사용하면 복잡한 온-프레미스 구성을 설정하지 않고도 Power BI Mobile 앱에서 엔터프라이즈 경계 내에 호스트되는 보고서 서버에 연결할 수 있습니다. [Power BI Mobile 및 Azure AD 애플리케이션 프록시 통합](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/)에 대해 자세히 알아보세요. [Azure AD 애플리케이션 프록시 및 Power BI 구성 방법](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)을 알아보세요.
+Azure Active Directory 팀과 협력하여 Power BI 모바일 애플리케이션을 Azure AD(Azure Active Directory) 애플리케이션 프록시와 통합했습니다. 이 구성을 사용하면 복잡한 온-프레미스 구성을 설정하지 않고도 Power BI Mobile 앱에서 엔터프라이즈 경계 내에 호스트되는 보고서 서버에 연결할 수 있습니다. [Power BI Mobile 및 Azure AD 애플리케이션 프록시 통합](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/)에 대해 자세히 알아보세요. [Azure AD 애플리케이션 프록시 및 Power BI 구성 방법](/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)을 알아보세요.
 
 ## <a name="july-2019"></a>2019년 7월
 
@@ -228,11 +228,11 @@ iOS 디바이스 검색(스포트라이트)과 Power BI 연결 iPhone 또는 iPa
 
 ### <a name="enhanced-conditional-access-protection-ios-android"></a>향상된 조건부 액세스 보호(iOS, Android)
 
-앱 정책이 적용되기 전에 Power BI에 대한 액세스를 제한하여 보안을 강화하도록 Azure AD [새 앱 보호 기반 조건부 액세스 기능](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)과 통합했습니다.
+앱 정책이 적용되기 전에 Power BI에 대한 액세스를 제한하여 보안을 강화하도록 Azure AD [새 앱 보호 기반 조건부 액세스 기능](/azure/active-directory/conditional-access/app-protection-based-conditional-access)과 통합했습니다.
 
 ### <a name="device-protection-ios"></a>디바이스 보호(iOS)
 
-사용자는 디바이스 기본 제공 보호를 사용하여 Power BI에 대한 액세스를 위해 Face ID, Touch ID 또는 암호를 요청하여 Power BI를 보호할 수 있습니다. 이는 앱 설정을 사용하여 사용자 뿐만 아니라 Intune 및 다른 MDM 도구를 사용하여 관리자가 제어할 수 있습니다. [자세히 알아봅니다](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-ios-native-secure-access).
+사용자는 디바이스 기본 제공 보호를 사용하여 Power BI에 대한 액세스를 위해 Face ID, Touch ID 또는 암호를 요청하여 Power BI를 보호할 수 있습니다. 이는 앱 설정을 사용하여 사용자 뿐만 아니라 Intune 및 다른 MDM 도구를 사용하여 관리자가 제어할 수 있습니다. [자세히 알아봅니다](./mobile-native-secure-access.md).
 
 ### <a name="one-page-report-slideshow-windows"></a>한 페이지 보고서 슬라이드 쇼(Windows)
 
@@ -274,7 +274,7 @@ iOS 디바이스 검색(스포트라이트)과 Power BI 연결 iPhone 또는 iPa
 ![단일 탭 상호 작용](./media/mobile-whats-new-in-the-mobile-apps/single-tap-2.gif)
 
 > [!NOTE]
-> 기존 사용자는 앱 설정에서 이 동작을 설정해야 합니다. 자세한 내용은 [단일 탭 보고서 상호 작용을 구성하는 방법](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-app-single-tap) 문서를 참조하세요.
+> 기존 사용자는 앱 설정에서 이 동작을 설정해야 합니다. 자세한 내용은 [단일 탭 보고서 상호 작용을 구성하는 방법](./mobile-app-interaction-settings.md) 문서를 참조하세요.
 
 ## <a name="january---february-2019"></a>2019년 1~2월
  
@@ -304,11 +304,11 @@ Surface Hub 및 Windows 10 디바이스에 대해 향상된 프레젠테이션 �
 
 ### <a name="portrait-report-layout-in-tablets-ios-and-android"></a>태블릿의 세로 보고서 레이아웃(iOS 및 Android)
 
-이제 휴대폰 보고서 레이아웃이 있는 경우 이를 사용하여 태블릿에서 보고서를 세로 모드 방향으로 표시할 수 있습니다. [Power BI 서비스 또는 데스크톱에서 휴대폰 레이아웃을 만드는 방법](https://docs.microsoft.com/power-bi/desktop-create-phone-report/)에 대해 자세히 알아보세요.
+이제 휴대폰 보고서 레이아웃이 있는 경우 이를 사용하여 태블릿에서 보고서를 세로 모드 방향으로 표시할 수 있습니다. [Power BI 서비스 또는 데스크톱에서 휴대폰 레이아웃을 만드는 방법](/power-bi/desktop-create-phone-report/)에 대해 자세히 알아보세요.
 
 ### <a name="supporting-report-query-string"></a>보고서 쿼리 문자열 지원 
 
-쿼리 문자열이 포함된 보고서 열기 링크가 이제 모바일 앱에서 열리고 쿼리 문자열에 정의된 조건에 따라 미리 필터링됩니다. [쿼리 문자열을 사용하여 보고서 URL을 만드는 방법](https://docs.microsoft.com/power-bi/service-url-filters/)에 대해 자세히 알아보세요.  
+쿼리 문자열이 포함된 보고서 열기 링크가 이제 모바일 앱에서 열리고 쿼리 문자열에 정의된 조건에 따라 미리 필터링됩니다. [쿼리 문자열을 사용하여 보고서 URL을 만드는 방법](/power-bi/service-url-filters/)에 대해 자세히 알아보세요.  
 
 ### <a name="shared-credentials-now-in-android"></a>공유 자격 증명(현재 Android)
 

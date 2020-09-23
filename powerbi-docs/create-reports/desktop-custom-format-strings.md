@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f095eb351797c228bb5f6e9b70c741ca078e7f67
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2864e82d5ddc1eb4a70976375cd4da8e57db7e58
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221665"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859914"
 ---
 # <a name="use-custom-format-strings-in-power-bi-desktop"></a>Power BI Desktop에서 사용자 지정 서식 문자열 사용
 
@@ -68,7 +68,7 @@ ms.locfileid: "85221665"
 | _ss_ | 00-59(분별 초, 선행 0 있음) |
 
 
-사용자 지정 값 문자열의 서식 지정 방법 [예제](https://docs.microsoft.com/office/vba/language/reference/user-interface-help/format-function-visual-basic-for-applications#example)를 참조할 수 있습니다.
+사용자 지정 값 문자열의 서식 지정 방법 [예제](/office/vba/language/reference/user-interface-help/format-function-visual-basic-for-applications#example)를 참조할 수 있습니다.
 
 숫자에 대한 사용자 정의 서식 식은 세미콜론으로 구분된 1~3개 섹션을 포함할 수 있습니다. 세미콜론 사이에 아무 것도 포함하지 않으면 누락된 섹션이 표시되지 않습니다(&quot;&quot;). 세미콜론을 지정하지 않으면 긍정 서식이 사용됩니다.
 
@@ -151,7 +151,7 @@ ms.locfileid: "85221665"
 ## <a name="next-steps"></a>다음 단계
 다음 문서에도 관심이 있을 수 있습니다.
 
-* [VBA 형식 문자열](https://docs.microsoft.com/office/vba/language/reference/user-interface-help/format-function-visual-basic-for-applications#example)
+* [VBA 형식 문자열](/office/vba/language/reference/user-interface-help/format-function-visual-basic-for-applications#example)
 * [Power BI Desktop의 측정값](../transform-model/desktop-measures.md)
 * [Power BI Desktop의 데이터 형식](../connect-data/desktop-data-types.md)
 * [테이블에서 조건부 서식 지정](desktop-conditional-table-formatting.md)

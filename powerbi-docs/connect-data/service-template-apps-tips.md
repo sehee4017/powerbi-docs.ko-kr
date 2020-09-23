@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: f5c8f763b1f02d055d39c62ef2e2902b6efca439
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ff1fb59a59f72483bab5ec55c9b2cf9805f83b81
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235538"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860282"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Power BI에서 템플릿 앱 작성 팁
 
@@ -124,15 +124,15 @@ Power BI Desktop에서 [매개 변수](https://powerbi.microsoft.com/blog/deep-d
 템플릿 앱을 AppSource에 게시할 수 있으며, 앱을 AppSource에 제출하기 전에 다음 지침을 따르세요.
 
 * 설치 프로그램이 앱이 수행할 수 있는 기능을 이해하는 데 도움을 줄 수 있는 관련성 있는 샘플 데이터가 포함된 템플릿 앱을 만들어야 합니다(빈 보고서 및 대시보드는 승인되지 않음).
-템플릿 앱은 샘플 데이터 전용 앱을 지원하므로, 정적 앱 확인란을 선택해야 합니다. [자세히 알아보기](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
+템플릿 앱은 샘플 데이터 전용 앱을 지원하므로, 정적 앱 확인란을 선택해야 합니다. [자세히 알아보기](./service-template-apps-create.md#define-the-properties-of-the-template-app)
 * 데이터에 연결하는 데 필요한 자격 증명 및 매개 변수가 포함된 지침을 유효성 검사 팀이 준수하도록 합니다.
-* 애플리케이션에는 Power BI 및 제공하는 CPP에 앱 아이콘이 있어야 합니다. [자세히 알아보기](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* 랜딩 페이지를 구성합니다. [자세히 알아보기](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* [파트너 센터 -> Power BI 앱 제품](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)에 대한 설명서를 따라야 합니다.
+* 애플리케이션에는 Power BI 및 제공하는 CPP에 앱 아이콘이 있어야 합니다. [자세히 알아보기](./service-template-apps-create.md#define-the-properties-of-the-template-app)
+* 랜딩 페이지를 구성합니다. [자세히 알아보기](./service-template-apps-create.md#define-the-properties-of-the-template-app)
+* [파트너 센터 -> Power BI 앱 제품](/azure/marketplace/partner-center-portal/create-power-bi-app-offer)에 대한 설명서를 따라야 합니다.
 * 대시보드가 앱의 일부인 경우 비어 있지 않은지 확인합니다.
 * 앱을 제출하기 전에 앱 링크를 사용하여 앱을 설치합니다. 데이터 세트와 앱 환경을 계획대로 연결할 수 있는지 확인합니다.
 * pbix를 템플릿 작업 영역에 업로드하기 전에 불필요한 연결을 언로드해야 합니다.
-* 사용자에게 미치는 최대한의 영향을 획득하고 배포 승인을 받을 수 있도록, Power BI [보고서 및 시각적 개체 모범 디자인 사례](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices)를 따릅니다.
+* 사용자에게 미치는 최대한의 영향을 획득하고 배포 승인을 받을 수 있도록, Power BI [보고서 및 시각적 개체 모범 디자인 사례](../visuals/power-bi-report-visualizations.md)를 따릅니다.
 <!--- * In general, only application with valuable functionality can be approved for general use on AppSource. Application with sample data content only must have either a guidance or statistical value.) -->
 
 ## <a name="create-a-download-link-for-the-app"></a>앱 다운로드 링크 만들기

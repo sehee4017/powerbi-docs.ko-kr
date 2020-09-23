@@ -6,20 +6,20 @@ manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
-ms.date: 06/15/2020
+ms.date: 08/16/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 0452dabef54cc899abf7a6cbbd6ab718bf22524e
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: ea4aa1772712fbfff67ab749a379638ba698f554
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034316"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854509"
 ---
 # <a name="data-protection-metrics-report"></a>데이터 보호 메트릭 보고서
 
 ## <a name="what-is-the-data-protection-metrics-report"></a>데이터 보호 메트릭 보고서란?
-데이터 보호 메트릭 보고서는 [Power BI 관리자](../service-admin-role.md)가 테넌트의 민감도 레이블 사용 및 도입을 모니터링하고 추적하는 데 사용할 수 있는 전용 보고서입니다.
+데이터 보호 메트릭 보고서는 [Power BI 관리자](./service-admin-role.md)가 테넌트의 민감도 레이블 사용 및 도입을 모니터링하고 추적하는 데 사용할 수 있는 전용 보고서입니다.
 
 ![데이터 보호 메트릭 보고서](./media/service-security-data-protection-metrics-report/protection-metrics-seven-days-1.png)
  
@@ -32,7 +32,7 @@ ms.locfileid: "86034316"
 
 ## <a name="viewing-the-data-protection-metrics-report"></a>데이터 보호 메트릭 보고서 보기
 
-보고서를 열고 보려면 [Power BI 관리자 역할](../service-admin-role.md)이 있어야 합니다.
+보고서를 열고 보려면 [Power BI 관리자 역할](./service-admin-role.md)이 있어야 합니다.
 보고서를 보려면 **설정 > 관리 포털**로 이동한 다음 **보호 메트릭**을 선택합니다.
 
 ![보호 메트릭 관리 포털](./media/service-security-data-protection-metrics-report/protection-metrics-admin-portal.png)
@@ -48,10 +48,10 @@ ms.locfileid: "86034316"
 향상된 버전의 데이터 보호 메트릭 보고서는 정기적으로 릴리스됩니다. 보고서를 열 때 새 버전을 사용할 수 있는 경우 새 버전을 열 것인지 묻는 메시지가 표시됩니다. “예”라고 대답하면 새 버전의 보고서를 로드하고 이전 버전을 덮어씁니다. 이전 보고서 및/또는 데이터 세트에 대한 모든 변경 내용이 사라집니다. 새 버전을 열지 않도록 선택할 수 있지만, 그럴 경우 새 버전의 향상된 기능의 이점을 활용할 수 없습니다. 
 ## <a name="notes-and-considerations"></a>참고 사항 및 고려 사항
 * 데이터 보호 메트릭 보고서를 성공적으로 생성하려면 테넌트에서 [정보 보호](./service-security-enable-data-sensitivity-labels.md)를 사용하도록 설정하고 [민감도 레이블을 적용해야 합니다](./service-security-apply-data-sensitivity-labels.md). 
-* Cloud App Security 정보에 액세스하려면 조직에 적절한 [Cloud App Security 라이선스](https://docs.microsoft.com/power-bi/admin/service-security-using-microsoft-cloud-app-security-controls#microsoft-cloud-app-security-licensing)가 있어야 합니다.
+* Cloud App Security 정보에 액세스하려면 조직에 적절한 [Cloud App Security 라이선스](./service-security-using-microsoft-cloud-app-security-controls.md#cloud-app-security-licensing)가 있어야 합니다.
 * Power BI 관리자가 아닌 사용자로 데이터 보호 메트릭 보고서의 정보를 공유하려는 경우 이 보고서에는 조직에 대한 중요한 정보가 포함되어 있다는 점에 유의해주세요.
 * 데이터 보호 메트릭 보고서는 특별한 종류의 보고서이며 “공유한 항목”, “최근” 및 “즐겨찾기” 목록에 표시되지 않습니다.
-* [외부 사용자(Azure Active Directory B2B 게스트 사용자)](../service-admin-azure-ad-b2b.md)는 데이터 보호 메트릭 보고서를 사용할 수 없습니다.
+* [외부 사용자(Azure Active Directory B2B 게스트 사용자)](./service-admin-azure-ad-b2b.md)는 데이터 보호 메트릭 보고서를 사용할 수 없습니다.
 ## <a name="next-steps"></a>다음 단계
 * [Power BI의 민감도 레이블](./service-security-sensitivity-label-overview.md)
 * [Power BI에서 Microsoft Cloud App Security 제어 사용](service-security-using-microsoft-cloud-app-security-controls.md)

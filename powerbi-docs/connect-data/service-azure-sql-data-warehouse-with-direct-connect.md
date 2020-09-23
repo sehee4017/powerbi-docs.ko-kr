@@ -10,12 +10,12 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/03/2020
 LocalizationGroup: Data from databases
-ms.openlocfilehash: ae7d19858feaf30c8263c0fc24c180781783d851
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f5c8a47ece5d4bc072c5518a12a553b7967059de
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230658"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859937"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>DirectQuery를 사용한 Azure SQL Data Warehouse
 
@@ -75,7 +75,7 @@ Power BI Desktop의 **데이터 가져오기** 단추를 사용하여 SQL Data W
 ![Azure Portal](media/service-azure-sql-data-warehouse-with-direct-connect/azureportal.png)
 
 > [!NOTE]
-> Power BI 테넌트가 Azure SQL Data Warehouse와 동일한 영역에 있는 경우 송신 요금이 청구되지 않습니다. [이 지침](https://docs.microsoft.com/power-bi/service-admin-where-is-my-tenant-located)을 사용하여 Power BI 테넌트의 위치를 찾을 수 있습니다.
+> Power BI 테넌트가 Azure SQL Data Warehouse와 동일한 영역에 있는 경우 송신 요금이 청구되지 않습니다. [이 지침](../admin/service-admin-where-is-my-tenant-located.md)을 사용하여 Power BI 테넌트의 위치를 찾을 수 있습니다.
 
 [!INCLUDE [direct-query-sso](../includes/direct-query-sso.md)]
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 92244304bcffc3544ca8616fd0b16226361d58c8
-ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
+ms.openlocfilehash: ee24e4aaa54fdbc60c631dc319caf6b1465aed28
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "86385955"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859822"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>데이터 흐름 스토리지를 위해 Azure Data Lake Storage Gen2 연결
 
@@ -46,13 +46,13 @@ Azure Data Lake Storage Gen2 계정으로 Power BI를 구성하려면 먼저 스
 2. 스토리지 계정은 Power BI 테넌트와 동일한 AAD 테넌트에서 만들어야 합니다.
 3. 스토리지 계정은 Power BI 테넌트와 동일한 지역에 만들어야 합니다. Power BI 테넌트의 위치를 확인하려면 [내 Power BI 테넌트는 어디에 있나요?](../admin/service-admin-where-is-my-tenant-located.md) 문서를 참조하세요.
 4. 스토리지 계정에서 ‘계층 구조 네임스페이스’ 기능이 사용 가능해야 합니다.
-5. 현재 사용자가 스토리지 계정을 만들지 않은 경우에는 현재 사용자에게 [Storage Blob 데이터 소유자](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#storage-blob-data-owner) 및 [소유자](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#owner) 권한이 할당되었는지 확인하세요. (소유자에게는 데이터 수준 권한이 없으므로 Blob 데이터 소유자가 필요합니다.)
+5. 현재 사용자가 스토리지 계정을 만들지 않은 경우에는 현재 사용자에게 [Storage Blob 데이터 소유자](/azure/role-based-access-control/built-in-roles#storage-blob-data-owner) 및 [소유자](/azure/role-based-access-control/built-in-roles#owner) 권한이 할당되었는지 확인하세요. (소유자에게는 데이터 수준 권한이 없으므로 Blob 데이터 소유자가 필요합니다.)
 
 다음 섹션에서는 Azure Data Lake Storage Gen2 계정을 구성하는 데 필요한 단계를 자세히 설명합니다.
 
 ### <a name="create-the-storage-account"></a>스토리지 계정 만들기
 
-[Create an Azure Data Lake Storage Gen2 storage account](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-quickstart-create-account)(Azure Data Lake Storage Gen2 스토리지 계정 만들기) 문서의 단계를 따릅니다.
+[Create an Azure Data Lake Storage Gen2 storage account](/azure/storage/blobs/data-lake-storage-quickstart-create-account)(Azure Data Lake Storage Gen2 스토리지 계정 만들기) 문서의 단계를 따릅니다.
 
 1. Power BI 테넌트와 동일한 위치를 선택하고 스토리지를 **StorageV2(범용 v2)** 로 설정해야 합니다.
 2. 계층 구조 네임스페이스 기능을 사용하도록 설정해야 합니다.
@@ -62,7 +62,7 @@ Azure Data Lake Storage Gen2 계정으로 Power BI를 구성하려면 먼저 스
 
 그런 다음 생성된 스토리지 계정에서 Power BI 서비스에 판독기 및 데이터 액세스 역할을 부여해야 합니다. 모두 기본 제공 역할이므로 단계는 간단합니다. 
 
-[기본 제공 RBAC 역할 할당](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role)의 단계를 따르세요.
+[기본 제공 RBAC 역할 할당](/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role)의 단계를 따르세요.
 
 **역할 할당 추가** 창에서 **Reader and Data Access**(읽기 권한자 및 데이터 액세스) 역할을 선택합니다. 그런 다음, 검색을 사용하여 **Power BI 서비스** 애플리케이션을 찾습니다.
 **Storage Blob 데이터 소유자** 역할에 대해서 동일한 단계를 반복한 후 **Power BI 서비스**와 **Power BI Premium** 애플리케이션에 역할을 할당합니다.
@@ -155,11 +155,11 @@ Azure Portal에서 Azure Data Lake Storage Gen2 계정을 설정했으면, **Pow
 * [Power BI 데이터 흐름에 사용할 수 있는 개발자 리소스](service-dataflows-developer-resources.md)
 
 Azure Storage에 대한 자세한 내용은 다음 문서를 참조하세요.
-* [Azure Storage 보안 가이드](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
+* [Azure Storage 보안 가이드](/azure/storage/common/storage-security-guide)
 
 공통 데이터 모델에 대한 자세한 내용은 해당 개요 문서를 참조할 수 있습니다.
-* [공통 데이터 모델 - 개요 ](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [CDM 폴더](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [CDM 모델 파일 정의](https://go.microsoft.com/fwlink/?linkid=2045521)
+* [공통 데이터 모델 - 개요 ](/powerapps/common-data-model/overview)
+* [CDM 폴더](/common-data-model/data-lake)
+* [CDM 모델 파일 정의](/common-data-model/model-json)
 
 또한 언제든지 [Power BI 커뮤니티에 질문](https://community.powerbi.com/)할 수 있습니다.

@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: 6033ba7442e7993edbbc68aa36922a2efddd1f83
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bf51270a39f2f07518aaa6d83902519e08f7ab45
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235646"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860581"
 ---
 # <a name="what-are-power-bi-template-apps"></a>Power BI 템플릿 앱이란?
 
@@ -49,7 +49,7 @@ Power BI 템플릿 앱을 사용하면 Power BI Pro 또는 Power BI Premium 사�
 
 템플릿 앱을 만들려면 템플릿 앱을 만들 수 있는 권한이 있어야 합니다. 자세한 내용은 Power BI 관리 포털, 템플릿 앱 설정을 참조하세요. 
 
-템플릿 앱을 Power BI 서비스 및 AppSource에 게시하려면 [파트너 센터 게시자가 되기](https://docs.microsoft.com/azure/marketplace/become-publisher) 위한 요구 사항을 충족해야 합니다.
+템플릿 앱을 Power BI 서비스 및 AppSource에 게시하려면 [파트너 센터 게시자가 되기](/azure/marketplace/become-publisher) 위한 요구 사항을 충족해야 합니다.
  
 ## <a name="high-level-steps"></a>대략적인 단계
 
@@ -67,7 +67,7 @@ Power BI 템플릿 앱을 사용하면 Power BI Pro 또는 Power BI Premium 사�
 
 6. 테스트 앱을 사전 프로덕션으로 승격하여 AppSource에서 유효성 검사를 위한 앱을 제출하고, 자신의 테넌트 외부에서 테스트합니다. 
 
-7. 게시를 위해 [파트너 센터](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)에 콘텐츠를 제출합니다. 
+7. 게시를 위해 [파트너 센터](/azure/marketplace/partner-center-portal/create-power-bi-app-offer)에 콘텐츠를 제출합니다. 
 
 8. 제안을 AppSource에서 '라이브'로 이동하고 Power BI에서 앱을 프로덕션으로 이동합니다.
 
@@ -77,9 +77,9 @@ Power BI 템플릿 앱을 사용하면 Power BI Pro 또는 Power BI Premium 사�
 
 템플릿 앱을 만들려면 템플릿 앱을 만들 수 있는 권한이 있어야 합니다. 자세한 내용은 Power BI [관리 포털, 템플릿 앱 설정](../admin/service-admin-portal.md#template-apps-settings) 을 참조하세요.
 
-템플릿 앱을 Power BI 서비스 및 AppSource에 게시하려면 [파트너 센터 게시자가 되기](https://docs.microsoft.com/azure/marketplace/become-publisher) 위한 요구 사항을 충족해야 합니다.
+템플릿 앱을 Power BI 서비스 및 AppSource에 게시하려면 [파트너 센터 게시자가 되기](/azure/marketplace/become-publisher) 위한 요구 사항을 충족해야 합니다.
  > [!NOTE] 
- > 템플릿 앱 제출은 [파트너 센터](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)에서 관리합니다. 동일한 Microsoft 개발자 센터 등록 계정을 사용하여 로그인합니다. AppSource 제품에는 Microsoft 계정이 하나만 있어야 합니다. 계정은 개별 서비스나 제품에 특정되어서는 안됩니다.
+ > 템플릿 앱 제출은 [파트너 센터](/azure/marketplace/partner-center-portal/create-power-bi-app-offer)에서 관리합니다. 동일한 Microsoft 개발자 센터 등록 계정을 사용하여 로그인합니다. AppSource 제품에는 Microsoft 계정이 하나만 있어야 합니다. 계정은 개별 서비스나 제품에 특정되어서는 안됩니다.
 
 ## <a name="tips"></a>팁 
 

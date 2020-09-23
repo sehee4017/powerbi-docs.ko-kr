@@ -8,29 +8,29 @@ ms.topic: how-to
 ms.date: 04/24/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3cf846ef7fa7b47b0eaa90c850885af65a4bab80
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a6cb38d17a84ab41acda96f0564b12188c719254
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229661"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860742"
 ---
 # <a name="connect-to-the-regional-emergency-response-dashboard"></a>지역별 응급 대응 대시보드에 연결
-지역별 응급 대응 대시보드는 [Microsoft Power Platform 지역별 응급 대응 솔루션](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview)의 보고 구성 요소입니다. 지역별 조직 관리자는 Power BI 테넌트에서 대시보드를 볼 수 있으므로 효율적인 의사 결정에 도움이 되는 중요한 데이터 및 메트릭을 빠르게 볼 수 있습니다.
+지역별 응급 대응 대시보드는 [Microsoft Power Platform 지역별 응급 대응 솔루션](/powerapps/sample-apps/regional-emergency-response/overview)의 보고 구성 요소입니다. 지역별 조직 관리자는 Power BI 테넌트에서 대시보드를 볼 수 있으므로 효율적인 의사 결정에 도움이 되는 중요한 데이터 및 메트릭을 빠르게 볼 수 있습니다.
 
 ![지역별 응급 대응 대시보드 앱 보고서](media/service-connect-to-regional-emergency-response/service-regional-emergency-response-app-report.png)
 
 이 문서에서는 지역별 응급 대응 대시보드 템플릿 앱을 사용하여 지역별 응급 대응 앱을 설치하는 방법과 데이터 원본에 연결하는 방법에 대해 설명합니다.
 
-대시보드에 표시되는 항목에 대한 자세한 내용은 [인사이트 가져오기](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights)를 참조하세요.
+대시보드에 표시되는 항목에 대한 자세한 내용은 [인사이트 가져오기](/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights)를 참조하세요.
 
 템플릿 앱을 설치하고 데이터 원본에 연결할 후에는 필요에 맞게 보고서를 사용자 지정할 수 있습니다. 그런 다음, 조직의 동료들에게 이 보고서를 앱으로 배포할 수 있습니다.
 
 ## <a name="prerequisites"></a>필수 조건
 
-이 템플릿 앱을 설치하기 전에 먼저 [지역별 응급 대응 솔루션](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/deploy)을 설치하고 설정해야 합니다. 이 솔루션을 설치하면 앱에 데이터를 채우는 데 필요한 데이터 원본 참조가 만들어집니다.
+이 템플릿 앱을 설치하기 전에 먼저 [지역별 응급 대응 솔루션](/powerapps/sample-apps/regional-emergency-response/deploy)을 설치하고 설정해야 합니다. 이 솔루션을 설치하면 앱에 데이터를 채우는 데 필요한 데이터 원본 참조가 만들어집니다.
 
-지역별 응급 대응 솔루션을 설치하는 경우 [Common Data Service 환경 인스턴스에 대한 URL](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/deploy#step-5-configure-and-publish-power-bi-dashboard)을 적어 두세요. 데이터에 템플릿 앱을 연결할 때 이 URL이 필요합니다.
+지역별 응급 대응 솔루션을 설치하는 경우 [Common Data Service 환경 인스턴스에 대한 URL](/powerapps/sample-apps/regional-emergency-response/deploy#step-5-configure-and-publish-power-bi-dashboard)을 적어 두세요. 데이터에 템플릿 앱을 연결할 때 이 URL이 필요합니다.
 
 ## <a name="install-the-app"></a>앱 설치
 
@@ -62,7 +62,7 @@ ms.locfileid: "85229661"
 
    ![지역별 응급 대응 대시보드 앱의 데이터 연결 링크](media/service-connect-to-regional-emergency-response/service-regional-emergency-response-app-connect-data.png)
 
-1. 표시되는 대화 상자에서[Common Data Service 환경 인스턴스 URL](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard)을 입력합니다. 예: https://[myenv].crm.dynamics.com. 완료하면 **다음**을 클릭합니다.
+1. 표시되는 대화 상자에서[Common Data Service 환경 인스턴스 URL](/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard)을 입력합니다. 예: https://[myenv].crm.dynamics.com. 완료하면 **다음**을 클릭합니다.
 
    ![지역별 응급 대응 대시보드 앱의 URL 대화 상자](media/service-connect-to-regional-emergency-response/service-regional-emergency-response-app-url-dialog.png)
 
@@ -92,11 +92,11 @@ ms.locfileid: "85229661"
 
 ## <a name="customize-and-share"></a>사용자 지정 및 공유
 
-자세한 내용은 [앱 사용자 지정 및 공유](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app)를 참조하세요. 앱을 게시하거나 배포하기 전에 반드시 [보고서 고지 사항](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview#disclaimer)을 검토하세요.
+자세한 내용은 [앱 사용자 지정 및 공유](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app)를 참조하세요. 앱을 게시하거나 배포하기 전에 반드시 [보고서 고지 사항](/powerapps/sample-apps/regional-emergency-response/overview#disclaimer)을 검토하세요.
 
 ## <a name="next-steps"></a>다음 단계
-* [지역별 응급 대응 대시보드 이해](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights)
-* [Power Apps에서 재난 안내 샘플 템플릿 설정 및 알아보기](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
+* [지역별 응급 대응 대시보드 이해](/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights)
+* [Power Apps에서 재난 안내 샘플 템플릿 설정 및 알아보기](/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 * [Power BI 템플릿 앱이란?](../connect-data/service-template-apps-overview.md)
 * [조직에 템플릿 앱 설치 및 배포](../connect-data/service-template-apps-install-distribute.md)

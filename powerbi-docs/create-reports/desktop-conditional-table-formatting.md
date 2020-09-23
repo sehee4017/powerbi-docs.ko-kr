@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2ae57fb5a3d2ff38a29e0c1e3c24af23582af43a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1273030bc1fd8664e854eb2b59939cf271b017fa
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222262"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860029"
 ---
 # <a name="use-conditional-formatting-in-tables"></a>테이블에서 조건부 서식 지정 사용 
 
@@ -181,9 +181,9 @@ Power BI Desktop에서 테이블에 조건부 서식 지정을 사용하면 필�
 
 - 조건부 서식 지정은 테이블 또는 행렬 시각적 개체의 값에만 적용되며 소계, 총합계 또는 **합계** 행에는 적용되지 않습니다. 
 - 그룹화가 없는 테이블은 모두 조건부 서식 지정이 지원되지 않는 단일 행으로 표시됩니다.
-- 데이터에 *NAN* 값이 포함되어 있으면 자동 최대/최소 값을 사용하는 그라데이션 서식 지정이나 백분율 규칙을 사용하는 규칙 기반 서식 지정을 적용할 수 없습니다. NAN은 “숫자가 아님”을 의미하며, 0으로 나누기 오류에 의해 발생하는 경우가 가장 많습니다. 이 오류를 피하기 위해 [DIVIDE() DAX 함수](https://docs.microsoft.com/dax/divide-function-dax)를 사용할 수 있습니다.
+- 데이터에 *NAN* 값이 포함되어 있으면 자동 최대/최소 값을 사용하는 그라데이션 서식 지정이나 백분율 규칙을 사용하는 규칙 기반 서식 지정을 적용할 수 없습니다. NAN은 “숫자가 아님”을 의미하며, 0으로 나누기 오류에 의해 발생하는 경우가 가장 많습니다. 이 오류를 피하기 위해 [DIVIDE() DAX 함수](/dax/divide-function-dax)를 사용할 수 있습니다.
 - 조건부 서식 지정에는 값에 적용할 집계 또는 측정값이 있어야 합니다. 그래서 **값 기준 색 지정** 예제에 ‘첫 번째’ 또는 ‘마지막’이 표시됩니다. 분석 서비스 다차원 큐브에 대해 보고서를 작성하는 경우 큐브 소유자가 값을 제공하는 측정값을 작성했어야 조건부 서식 지정에 특성을 사용할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 
-색 서식 지정에 대한 자세한 내용은 [Power BI의 색 서식 지정을 위한 팁과 요령](../visuals/service-tips-and-tricks-for-color-formatting.md)을 참조하세요.  
+색 서식 지정에 대한 자세한 내용은 [Power BI의 색 서식 지정을 위한 팁과 요령](../visuals/service-tips-and-tricks-for-color-formatting.md)을 참조하세요.

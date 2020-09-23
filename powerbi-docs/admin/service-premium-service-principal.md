@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 09/04/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 1b0f63d200a94cb7e6524602203864281efe51c0
-ms.sourcegitcommit: 1f56cdfc05801ffaf41e3b68dc1eb02142acdab3
+ms.openlocfilehash: e4f2db2c5b0220215c9c71cc62349c2255cf046d
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "89490356"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854624"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>서비스 주체를 사용하여 Premium 작업 영역 및 데이터 세트 작업 자동화
 
@@ -40,14 +40,14 @@ Power BI Premium은 Power BI Embedded와 동일한 서비스 주체 기능을 �
 
 서비스 주체는 Azure Portal에서 또는 PowerShell을 사용하여 앱 등록으로 만듭니다. 서비스 주체를 만들 때는 앱 이름, 애플리케이션(클라이언트) ID, 디렉터리(테넌트) ID 및 클라이언트 암호를 별도로 복사하고 저장해야 합니다. 서비스 주체를 만드는 방법의 단계는 다음을 참조하세요.
 
-[서비스 사용자 만들기 - Azure Portal](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)   
-[서비스 사용자 만들기 - PowerShell](https://docs.microsoft.com/azure/active-directory/develop/howto-authenticate-service-principal-powershell)
+[서비스 사용자 만들기 - Azure Portal](/azure/active-directory/develop/howto-create-service-principal-portal)   
+[서비스 사용자 만들기 - PowerShell](/azure/active-directory/develop/howto-authenticate-service-principal-powershell)
 
 ## <a name="create-an-azure-ad-security-group"></a>Azure AD 보안 그룹 만들기
 
 기본적으로 서비스 주체는 사용하도록 설정된 모든 테넌트 설정에 액세스할 수 있습니다. 관리자 설정에 따라 액세스가 특정 보안 그룹으로 제한되거나 전체 조직으로 확대될 수 있습니다.
 
-서비스 주체 액세스를 특정 테넌트 설정으로 제한하려면 특정 보안 그룹에만 액세스를 허용할 수 있습니다. 또는 서비스 주체에 대한 전용 보안 그룹을 만들고 원하는 테넌트 설정에서 제외할 수 있습니다. 보안 그룹을 만들고 서비스 주체를 추가하는 방법의 단계는 [Azure Active Directory를 사용하여 기본 그룹 만들기 및 멤버 추가](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)를 참조하세요.
+서비스 주체 액세스를 특정 테넌트 설정으로 제한하려면 특정 보안 그룹에만 액세스를 허용할 수 있습니다. 또는 서비스 주체에 대한 전용 보안 그룹을 만들고 원하는 테넌트 설정에서 제외할 수 있습니다. 보안 그룹을 만들고 서비스 주체를 추가하는 방법의 단계는 [Azure Active Directory를 사용하여 기본 그룹 만들기 및 멤버 추가](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)를 참조하세요.
 
 ## <a name="enable-service-principals"></a>서비스 주체를 사용하도록 설정
 
@@ -59,7 +59,7 @@ Power BI **관리 포털** > **테넌트 설정**에서 **서비스 주체가 Po
 
 ## <a name="workspace-access"></a>작업 영역 액세스
 
-서비스 주체가 Premium 작업 영역 및 데이터 세트 작업을 수행하는 데 필요한 권한을 갖도록 하려면 서비스 주체를 작업 영역 멤버 또는 관리자로 추가해야 합니다. Power BI 서비스에서 작업 영역 액세스를 사용하는 방법은 여기에 설명되어 있지만 [그룹 사용자 추가 REST API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser)를 사용할 수도 있습니다.
+서비스 주체가 Premium 작업 영역 및 데이터 세트 작업을 수행하는 데 필요한 권한을 갖도록 하려면 서비스 주체를 작업 영역 멤버 또는 관리자로 추가해야 합니다. Power BI 서비스에서 작업 영역 액세스를 사용하는 방법은 여기에 설명되어 있지만 [그룹 사용자 추가 REST API](/rest/api/power-bi/groups/addgroupuser)를 사용할 수도 있습니다.
 
 1. Power BI 서비스에서 작업 영역에 대해 **기타** > **작업 영역 액세스**를 선택합니다.
 
@@ -96,7 +96,7 @@ Invoke-ProcessTable -Server "powerbi://api.powerbi.com/v1.0/myorg/myworkspace" -
 
 ### <a name="amo-and-adomd"></a>AMO 및 ADOMD
 
-클라이언트 애플리케이션 및 웹앱에 연결할 때 NuGet의 [AMO 및 ADOMD 클라이언트 라이브러리](https://docs.microsoft.com/azure/analysis-services/analysis-services-data-providers) 버전 15.1.42.26(2020년 6월) 이상 설치 가능한 패키지는 다음 구문 `app:AppID` 및 암호 또는 `cert:thumbprint`를 사용하여 연결 문자열에서 서비스 사용자를 지원합니다.
+클라이언트 애플리케이션 및 웹앱에 연결할 때 NuGet의 [AMO 및 ADOMD 클라이언트 라이브러리](/azure/analysis-services/analysis-services-data-providers) 버전 15.1.42.26(2020년 6월) 이상 설치 가능한 패키지는 다음 구문 `app:AppID` 및 암호 또는 `cert:thumbprint`를 사용하여 연결 문자열에서 서비스 사용자를 지원합니다.
 
 다음 예제에서는 `appID` 및 `password`가 모델 데이터베이스 새로 고침 작업을 수행하는 데 사용됩니다.
 
@@ -115,6 +115,6 @@ db.Model.SaveChanges();
 ## <a name="next-steps"></a>다음 단계
 
 [XMLA 엔드포인트로 데이터 세트 연결](service-premium-connect-tools.md)  
-[Azure Automation](https://docs.microsoft.com/azure/automation)  
-[Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/)  
-[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)
+[Azure Automation](/azure/automation)  
+[Azure Logic Apps](/azure/logic-apps/)  
+[Power BI REST API](/rest/api/power-bi/)

@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: Create reports
-ms.openlocfilehash: b9161813c291a3feb8c01e4201972337f8e96fcb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 23873d53aa0d472247f2e8d850dc3b1e9b3bf065
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221751"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853796"
 ---
 # <a name="optimize-power-bi-reports-for-the-mobile-app"></a>모바일 앱에 맞게 Power BI 보고서 최적화
 모바일 사용자는 Power BI 보고서 페이지를 가로 방향으로 볼 수 있습니다. 하지만 보고서 작성자는 모바일 디바이스에 최적화되고 세로 방향으로 표시되는 추가 보기를 만들 수 있습니다. Power BI Desktop과 Power BI 서비스에서 모두 사용할 수 있는 이 디자인 옵션을 통해 작성자는 이동 중인 모바일 사용자에게 적합한 시각적 개체를 선택하고 다시 정렬할 수 있습니다.
@@ -120,5 +120,5 @@ Power BI 모바일 앱에서 모바일에 최적화된 보고서는 특수 아�
 ## <a name="next-steps"></a>다음 단계
 * [Power BI에서 대시보드 휴대폰 보기 만들기](service-create-dashboard-mobile-phone-view.md)
 * [휴대폰에 대해 최적화된 Power BI 보고서 보기](../consumer/mobile/mobile-apps-view-phone-report.md)
-* [보고서 및 대시보드 만들기에 대한 Power BI 설명서](https://docs.microsoft.com/power-bi/create-reports/).
+* [보고서 및 대시보드 만들기에 대한 Power BI 설명서](./index.yml).
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다](https://community.powerbi.com/).

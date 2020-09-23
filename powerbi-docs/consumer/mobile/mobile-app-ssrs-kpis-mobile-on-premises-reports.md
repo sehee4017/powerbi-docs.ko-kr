@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/05/2019
 ms.author: painbar
-ms.openlocfilehash: 2327349928b481e51217b360587470f7f44b78d1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2f6d02d6128a2896a19d87f30f46f26f101385f6
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85233264"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860995"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 온-프레미스 보고서 서버 보고서 및 KPI 보기
 
@@ -32,8 +32,8 @@ Power BI Report Server 및 SQL Server 2016 Reporting Services(SSRS)에서 Power 
 **모바일 앱은 Power BI 콘텐츠를 만드는 위치가 아닌 보는 위치에 있습니다.**
 
 * 사용자 및 조직의 다른 보고서 작성자는 [Power BI Desktop을 사용하여 Power BI 보고서를 만든 다음 Power BI Report Server 웹 포털에 게시합니다](../../report-server/quickstart-create-powerbi-report.md). 
-* [웹 포털에서 바로 KPI](https://docs.microsoft.com/sql/reporting-services/working-with-kpis-in-reporting-services)를 만들어 폴더에 정리하고 즐겨찾기로 표시하여 쉽게 찾을 수 있습니다. 
-* SQL Server 2016 Enterprise Edition 모바일 보고서 게시자를 사용하여 [Reporting Services 모바일 보고서를 만들고](https://docs.microsoft.com/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher)[Reporting Services 웹 포털](https://docs.microsoft.com/sql/reporting-services/web-portal-ssrs-native-mode)에 게시합니다.  
+* [웹 포털에서 바로 KPI](/sql/reporting-services/working-with-kpis-in-reporting-services)를 만들어 폴더에 정리하고 즐겨찾기로 표시하여 쉽게 찾을 수 있습니다. 
+* SQL Server 2016 Enterprise Edition 모바일 보고서 게시자를 사용하여 [Reporting Services 모바일 보고서를 만들고](/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher)[Reporting Services 웹 포털](/sql/reporting-services/web-portal-ssrs-native-mode)에 게시합니다.  
 
 그런 다음 Power BI 모바일 앱은 최대 5개의 Report Server에 연결하여 폴더에 정리되어 있거나 즐겨찾기로 모아놓은 Power BI 보고서와 KPI를 봅니다. 
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: how-to
 ms.date: 02/20/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: cea54821c7a2a31d8ee362559e29a3f79fa40b6c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 598b41362cb510f8e5bbc60c7ca263c57fa0403e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231544"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859799"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>Power BI 서비스에서 온-프레미스 데이터 원본으로 Kerberos 기반 SSO 구성
 
@@ -59,7 +59,7 @@ SPN 및 Kerberos 위임 설정을 구성하기 위해 도메인 관리자가 도
 
 4. **속성** 대화 상자에 **위임** 탭이 표시되는 경우 SPN이 이미 생성된 것이므로 [사용할 Kerberos 제한 위임 유형 결정](#decide-on-the-type-of-kerberos-constrained-delegation-to-use)으로 건너뛰어도 됩니다.
 
-5. **속성** 대화 상자에 **위임** 탭이 없는 경우, 계정에서 SPN을 수동으로 만들어 사용하도록 설정할 수 있습니다. Windows와 함께 제공되는 [setspn 도구](https://technet.microsoft.com/library/cc731241.aspx)를 사용합니다(SPN을 만드는 도메인 관리자 권한 필요).
+5. **속성** 대화 상자에 **위임** 탭이 없는 경우, 계정에서 SPN을 수동으로 만들어 사용하도록 설정할 수 있습니다. Windows와 함께 제공되는 [setspn 도구](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc731241(v=ws.11))를 사용합니다(SPN을 만드는 도메인 관리자 권한 필요).
 
    예를 들어 게이트웨이 서비스 계정이 **Contoso\GatewaySvc**이고, 게이트웨이 서비스가 **MyGatewayMachine**이라는 머신에서 실행되고 있다고 가정합니다. 게이트웨이 서비스 계정의 SPN을 설정하려면 다음 명령을 실행합니다.
 
