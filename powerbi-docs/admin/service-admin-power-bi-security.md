@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: 6e006bc858ad9d82073ced7929c87920da6559ab
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: ee7954cff7863ff58370bbe1e58f26c64644c8e8
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034163"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857062"
 ---
 # <a name="power-bi-security"></a>Power BI 보안
 
@@ -61,10 +61,10 @@ Power BI의 플랫폼 보안에는 다중 테넌트 환경 보안, 네트워킹 
 
 ## <a name="enforcing-tls-version-usage"></a>TLS 버전 사용 적용
 
-네트워크 및 IT 관리자는 네트워크에서 보안 통신을 위해 현재 TLS(전송 계층 보안)를 사용하도록 요구 사항을 적용할 수 있습니다. Windows에서는 [TLS Schannel SSP 문서에 설명](https://docs.microsoft.com/windows/desktop/SecAuthN/protocols-in-tls-ssl--schannel-ssp-)된 대로 Microsoft Schannel 공급자에 대한 TLS 버전 지원을 제공합니다.
+네트워크 및 IT 관리자는 네트워크에서 보안 통신을 위해 현재 TLS(전송 계층 보안)를 사용하도록 요구 사항을 적용할 수 있습니다. Windows에서는 [TLS Schannel SSP 문서에 설명](/windows/desktop/SecAuthN/protocols-in-tls-ssl--schannel-ssp-)된 대로 Microsoft Schannel 공급자에 대한 TLS 버전 지원을 제공합니다.
 
-이 적용은 관리상 설정 레지스트리 키를 통해 수행할 수 있습니다. 적용 방법은 [AD FS 문서의 SSL 프로토콜 관리](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/manage-ssl-protocols-in-ad-fs)에서 설명합니다. 
+이 적용은 관리상 설정 레지스트리 키를 통해 수행할 수 있습니다. 적용 방법은 [AD FS 문서의 SSL 프로토콜 관리](/windows-server/identity/ad-fs/operations/manage-ssl-protocols-in-ad-fs)에서 설명합니다. 
 
 **Power BI Desktop**은 그러한 문서에 설명된 레지스트리 키 설정과 해당 레지스트리 설정에 따라 허용되는 TLS 버전을 사용하여 만든 연결만을 따릅니다.
 
-이러한 레지스트리 키 설정에 대한 자세한 내용은 [TLS 레지스트리 설정](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings) 문서를 참조하세요.
+이러한 레지스트리 키 설정에 대한 자세한 내용은 [TLS 레지스트리 설정](/windows-server/security/tls/tls-registry-settings) 문서를 참조하세요.

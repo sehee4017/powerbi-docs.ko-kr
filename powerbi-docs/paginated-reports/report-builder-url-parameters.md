@@ -9,12 +9,12 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 09/09/2020
-ms.openlocfilehash: f81cf6625f02f71b1ccf8bcd2c442ded3329083d
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: fc54d60be34cd9d40cf1ea715aa84f2f1ef6f9de
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642388"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859408"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Power BI에서 페이지를 매긴 보고서의 URL 매개 변수
 
@@ -170,7 +170,7 @@ XML:
 - rdl:Encoding=string
 - rdl:Schema=true/false
 
-**동일한 브라우저 창에서 하이퍼링크 열기** 보고서의 하이퍼링크 URL에 ‘rdl:targetSameWindow=true’를 추가하여 Power BI가 동일한 브라우저 창에서 이 하이퍼링크를 열도록 할 수 있습니다. 보고서에 하이퍼링크를 추가하는 방법에 대한 자세한 내용은 SQL Server Reporting Services 설명서에서 [URL에 하이퍼링크 추가](https://docs.microsoft.com/sql/reporting-services/report-design/add-a-hyperlink-to-a-url-report-builder-and-ssrs)를 참조하세요.
+**동일한 브라우저 창에서 하이퍼링크 열기** 보고서의 하이퍼링크 URL에 ‘rdl:targetSameWindow=true’를 추가하여 Power BI가 동일한 브라우저 창에서 이 하이퍼링크를 열도록 할 수 있습니다. 보고서에 하이퍼링크를 추가하는 방법에 대한 자세한 내용은 SQL Server Reporting Services 설명서에서 [URL에 하이퍼링크 추가](/sql/reporting-services/report-design/add-a-hyperlink-to-a-url-report-builder-and-ssrs)를 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 

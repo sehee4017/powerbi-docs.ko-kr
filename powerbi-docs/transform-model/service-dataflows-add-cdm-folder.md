@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 05dcae0a2277ee84e6c8bfbdb51532252c50c896
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 23c15b49bfd6b069181b5d860637e00315376059
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238897"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861708"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>CDM 폴더를 Power BI에 데이터 흐름으로 추가(미리 보기)
 
@@ -26,7 +26,7 @@ Power BI에서 조직의 Azure Data Lake Store Gen2에 저장된 CDM(공통 데�
 
 * 관리자는 Power BI 내부에서 ADLS Gen2 스토리지 계정을 연결해야 사용할 수 있습니다. ADLS Gen2 계정을 Power BI에 연결하는 방법에 대한 자세한 내용은 [데이터 흐름 스토리지를 위해 Azure Data Lake Storage Gen2 연결](service-dataflows-connect-azure-data-lake-storage-gen2.md)을 참조하세요.
 * CDM 폴더에서 데이터 흐름을 만드는 기능은 [새 작업 영역 환경](../collaborate-share/service-create-the-new-workspaces.md)에서’만’ 사용할 수 있습니다.  
-* CDM 폴더를 Power BI에 추가하려면 폴더를 추가하는 사용자에게 [CDM 폴더 및 해당 파일의 권한](https://go.microsoft.com/fwlink/?linkid=2029121)이 있어야 합니다.
+* CDM 폴더를 Power BI에 추가하려면 폴더를 추가하는 사용자에게 [CDM 폴더 및 해당 파일의 권한](./service-dataflows-azure-data-lake-integration.md)이 있어야 합니다.
 * Power BI에 CDM 폴더의 모든 파일 및 폴더를 추가하려면 이에 대한 읽기 및 실행 권한을 부여 받아야 합니다.
 
 다음 섹션에서는 CDM 폴더에서 데이터 흐름을 만드는 방법을 설명합니다.
@@ -86,7 +86,7 @@ Power BI Desktop:
 
   ![데이터 흐름을 사용하는 중 오류 발생](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 
-이 문제를 해결하려면 Ben에게 CDM 폴더 및 해당 파일의 독자 권한이 부여되어야 합니다. [이 문서](https://go.microsoft.com/fwlink/?linkid=2029121)에서 CDM 폴더의 액세스 권한을 부여하는 방법을 자세히 알아볼 수 있습니다.
+이 문제를 해결하려면 Ben에게 CDM 폴더 및 해당 파일의 독자 권한이 부여되어야 합니다. [이 문서](./service-dataflows-azure-data-lake-integration.md)에서 CDM 폴더의 액세스 권한을 부여하는 방법을 자세히 알아볼 수 있습니다.
 
 
 ## <a name="next-steps"></a>다음 단계
@@ -107,13 +107,13 @@ Power BI Desktop:
 * [Power BI 데이터 흐름에 사용할 수 있는 개발자 리소스](service-dataflows-developer-resources.md)
 
 Azure Storage에 대한 자세한 내용은 다음 문서를 참조하세요.
-* [Azure Storage 보안 가이드](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
+* [Azure Storage 보안 가이드](/azure/storage/common/storage-security-guide)
 * [예약된 새로 고침 구성](../connect-data/refresh-scheduled-refresh.md)
 * [Azure Data Services의 github 샘플 시작](https://aka.ms/cdmadstutorial)
 
 공통 데이터 모델에 대한 자세한 내용은 해당 개요 문서를 참조할 수 있습니다.
-* [공통 데이터 모델 - 개요 ](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [CDM 폴더](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [CDM 모델 파일 정의](https://go.microsoft.com/fwlink/?linkid=2045521)
+* [공통 데이터 모델 - 개요 ](/powerapps/common-data-model/overview)
+* [CDM 폴더](/common-data-model/data-lake)
+* [CDM 모델 파일 정의](/common-data-model/model-json)
 
 또한 언제든지 [Power BI 커뮤니티에 질문](https://community.powerbi.com/)할 수 있습니다.

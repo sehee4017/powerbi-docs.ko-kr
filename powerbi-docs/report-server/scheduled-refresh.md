@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/09/2020
 ms.author: maggies
-ms.openlocfilehash: 7052b0f045b98ce8e25822f76fe0b8391e298a47
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 89adff51d70be24e4f42c379a729fd1123ca10a5
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75837608"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861777"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Power BI Report Server에서 Power BI 보고서 예약된 새로 고침
 Power BI 보고서에 대해 예약된 새로 고침을 통해 보고서에 대한 데이터를 최신 상태로 유지할 수 있습니다.
@@ -57,9 +57,9 @@ Power BI 보고서 렌더링뿐만 아니라 예약된 새로 고침을 수행�
 ### <a name="memory-limits"></a>메모리 제한
 보고서 서버에 대한 기존의 작업은 웹 애플리케이션과 유사했습니다. 가져온 데이터 또는 DirectQuery를 사용하여 보고서를 로드하는 기능 및 예약된 새로 고침을 수행하는 기능은 보고서 서버와 함께 호스팅되는 Analysis Services 인스턴스를 사용합니다. 결과적으로, 서버에서 예기치 않은 메모리 부족이 발생할 수 있습니다. Analysis Services에서 보고서 서버와 함께 메모리를 사용할 수 있다는 것을 아는 것에 따라 서버 배포를 계획합니다.
 
-Analysis Services 인스턴스를 모니터링하는 방법에 대한 자세한 내용은 [Analysis Services 인스턴스 모니터링](https://docs.microsoft.com/sql/analysis-services/instances/monitor-an-analysis-services-instance)을 참조하세요.
+Analysis Services 인스턴스를 모니터링하는 방법에 대한 자세한 내용은 [Analysis Services 인스턴스 모니터링](/sql/analysis-services/instances/monitor-an-analysis-services-instance)을 참조하세요.
 
-Analysis Services 내의 메모리 설정에 대한 자세한 내용은 [메모리 속성](https://docs.microsoft.com/sql/analysis-services/server-properties/memory-properties)을 참조하세요.
+Analysis Services 내의 메모리 설정에 대한 자세한 내용은 [메모리 속성](/sql/analysis-services/server-properties/memory-properties)을 참조하세요.
 
 ### <a name="data-model-size-limit"></a>데이터 모델 크기 제한
 예약된 새로 고침이 진행되는 동안 내부 Analysis Services 엔진으로 로드되는 데이터 모델에는 최대 2,000MB(2GB)의 크기 제한이 있습니다. 이 최대 크기는 변경할 수 없습니다. 데이터 모델이 2GB보다 커질 경우 새로 고침 오류 “결과의 크기가 큰 유형의 대상 제한 길이(2GB)를 초과합니다”가 표시됩니다. 이 경우 모델을 Analysis Services 인스턴스에 호스트하고 보고서에서 모델에 대한 라이브 연결을 사용하는 것이 좋습니다.

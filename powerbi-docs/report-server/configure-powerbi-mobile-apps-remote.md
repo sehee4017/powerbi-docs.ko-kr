@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 11/07/2019
 ms.author: painbar
-ms.openlocfilehash: c8dd2a4313f3b78eac7bd0b9863d5403c31adc08
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 996e3835337ce8aa1002abce7682d707daec032e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236142"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859132"
 ---
 # <a name="configure-power-bi-mobile-app-access-to-report-server-remotely"></a>원격으로 보고서 서버에 대한 Power BI 모바일 앱 액세스 권한 구성
 
@@ -69,9 +69,8 @@ Intune을 사용하여 구성 정책 설정하는 예제는 다음과 같습니�
 
 ## <a name="next-steps"></a>다음 단계
 
-- [Azure AD 애플리케이션 프록시를 사용하여 Power BI Mobile에 대한 원격 액세스 설정](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)
+- [Azure AD 애플리케이션 프록시를 사용하여 Power BI Mobile에 대한 원격 액세스 설정](/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)
 - [관리자 개요](admin-handbook-overview.md)  
 - [Power BI Report Server 설치](install-report-server.md)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
-

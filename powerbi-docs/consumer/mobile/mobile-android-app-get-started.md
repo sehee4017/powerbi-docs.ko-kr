@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 06/06/2020
 ms.author: painbar
-ms.openlocfilehash: 725890e3650ff05e0b90e7678bb83e0bc5d01050
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 941bd2adc63a06089ddf4fb79752557b8c688f71
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86263005"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856809"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Android 디바이스에서 Power BI 모바일 앱 시작
 Microsoft Power BI용 Android 앱은 Power BI, Power BI Report Server 및 Reporting Services에 대한 모바일 BI 환경을 제공합니다. 실시간 터치 가능한 모바일 액세스를 사용하여 어디에서나 온-프레미스 및 클라우드에 있는 회사 대시보드를 쉽게 보고 상호작용할 수 있습니다. 대시보드의 데이터를 살펴보고 메일 또는 문자 메시지로 동료와 공유합니다. 
@@ -112,7 +112,7 @@ Power BI의 대시보드 및 보고서와 Power BI Report Server 또는 Reportin
 
 ### <a name="reports-and-kpis-on-the-power-bi-report-server-and-reporting-services-web-portals"></a>Power BI Report Server 및 Reporting Services 웹 포털의 보고서 및 KPI
 * Android 디바이스용 Power BI 모바일 앱의 [웹 포털에서 보고서 및 KPI를 봅니다](mobile-app-ssrs-kpis-mobile-on-premises-reports.md).
-* [웹 포털에 KPI](https://docs.microsoft.com/sql/reporting-services/working-with-kpis-in-reporting-services)를 만듭니다.
+* [웹 포털에 KPI](/sql/reporting-services/working-with-kpis-in-reporting-services)를 만듭니다.
 * [Power BI Desktop에서 보고서를 만들고 Power BI Report Server 웹 포털에 게시합니다](../../report-server/quickstart-create-powerbi-report.md).
 
 ### <a name="see-also"></a>참고 항목

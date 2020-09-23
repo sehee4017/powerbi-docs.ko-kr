@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 11/01/2017
 ms.author: maggies
-ms.openlocfilehash: a9dd66d726a2417c936204898eb2cdfb749fcc94
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: b60c56e7b8dfde9c46a784c5f57ca07ca9ca3fa0
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216505"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859178"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Power BI 보고서를 사용하도록 Kerberos 구성
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -71,7 +71,7 @@ RSWindowsNegotiate가 표시되어 있고 인증 형식 목록에서 첫 번째�
 
 구성 파일을 변경해야 하는 경우 변경 내용이 적용되도록 Report Server를 중지하고 시작하려고 합니다.
 
-자세한 내용은 [Report Server에서 Windows 인증 구성](https://docs.microsoft.com/sql/reporting-services/security/configure-windows-authentication-on-the-report-server)을 참조하세요.
+자세한 내용은 [Report Server에서 Windows 인증 구성](/sql/reporting-services/security/configure-windows-authentication-on-the-report-server)을 참조하세요.
 
 ## <a name="spns-for-the-report-server-service-account"></a>Report Server 서비스 계정의 SPN
 다음으로, Report Server에서 유효한 SPN을 사용할 수 있는지 확인해야 합니다. 이 항목은 Report Server에 구성된 서비스 계정에 기반합니다.
@@ -218,4 +218,3 @@ Active Directory 사용자 및 컴퓨터 내에서 Report Server 서비스 계�
 [Power BI Report Server 설치](install-report-server.md)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
-

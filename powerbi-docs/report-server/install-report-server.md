@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 01/16/2020
-ms.openlocfilehash: a6c668ad08b3b56eeb92919f37b021a77100ceee
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 049f6f563c9ac6e7494b0680b69e0df8909304d4
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239037"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861892"
 ---
 # <a name="install-power-bi-report-server"></a>Power BI Report Server 설치
 
@@ -93,9 +93,9 @@ Power BI Report Server를 간단히 설치할 수 있습니다. 몇 가지 단�
 
 ## <a name="configure-your-report-server"></a>보고서 서버 구성
 
-설치 시에 **보고서 서버 구성**을 선택하면 Reporting Services 구성 관리자에 표시됩니다. 자세한 내용은 [Reporting Services 구성 관리자](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode)를 참조하세요.
+설치 시에 **보고서 서버 구성**을 선택하면 Reporting Services 구성 관리자에 표시됩니다. 자세한 내용은 [Reporting Services 구성 관리자](/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode)를 참조하세요.
 
-Reporting Services의 초기 구성을 완료해야 하려면 [보고서 서버 데이터베이스를 만들어야](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database) 합니다. 이 단계를 완료하기 위해서는 SQL Server 데이터베이스 서버가 필요합니다.
+Reporting Services의 초기 구성을 완료해야 하려면 [보고서 서버 데이터베이스를 만들어야](/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database) 합니다. 이 단계를 완료하기 위해서는 SQL Server 데이터베이스 서버가 필요합니다.
 
 ### <a name="creating-a-database-on-a-different-server"></a>다른 서버에 데이터베이스 만들기
 
@@ -109,7 +109,7 @@ Reporting Services의 초기 구성을 완료해야 하려면 [보고서 서버 
 
 ![Report Server 서비스 계정 구성](media/install-report-server/pbireportserver-configure-account.png)
 
-자세한 내용은 [보고서 서버 서비스 계정 구성](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)을 참조하세요.
+자세한 내용은 [보고서 서버 서비스 계정 구성](/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)을 참조하세요.
 
 ## <a name="windows-service"></a>Windows 서비스
 
@@ -143,23 +143,23 @@ URL 예약은 접두사, 호스트 이름, 포트 및 가상 디렉터리로 구
 
 ## <a name="additional-configuration"></a>추가 구성
 
-* 보고서 항목을 Power BI 대시보드에 고정할 수 있도록 Power BI 서비스와 통합을 구성하려면 [Power BI 서비스와 통합](https://docs.microsoft.com/sql/reporting-services/install-windows/power-bi-report-server-integration-configuration-manager)을 참조하세요.
-* 구독 처리를 위해 전자 메일을 구성하려면 [전자 메일 설정](https://docs.microsoft.com/sql/reporting-services/install-windows/e-mail-settings-reporting-services-native-mode-configuration-manager) 및 [보고서 서버에서 전자 메일 배달](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)을 참조하세요.
-* 보고서를 보고 관리하기 위해 보고서 컴퓨터에 액세스할 수 있도록 웹 포털을 구성하려면 [Report Server 액세스를 위한 방화벽 구성](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-firewall-for-report-server-access) 및 [원격 관리를 위한 Report Server 구성](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-report-server-for-remote-administration)을 참조하세요.
-* SQL Server Management Studio에서 보고서 서버 시스템 속성을 설정하는 방법에 대한 자세한 내용은 [서버 속성 고급 페이지](https://docs.microsoft.com/sql/reporting-services/tools/server-properties-advanced-page-reporting-services)를 참조하세요. 달리 지정하지 않는 한 옵션은 Power BI Report Server와 SQL Server Reporting Services 모두에 적용됩니다.
+* 보고서 항목을 Power BI 대시보드에 고정할 수 있도록 Power BI 서비스와 통합을 구성하려면 [Power BI 서비스와 통합](/sql/reporting-services/install-windows/power-bi-report-server-integration-configuration-manager)을 참조하세요.
+* 구독 처리를 위해 전자 메일을 구성하려면 [전자 메일 설정](/sql/reporting-services/install-windows/e-mail-settings-reporting-services-native-mode-configuration-manager) 및 [보고서 서버에서 전자 메일 배달](/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services)을 참조하세요.
+* 보고서를 보고 관리하기 위해 보고서 컴퓨터에 액세스할 수 있도록 웹 포털을 구성하려면 [Report Server 액세스를 위한 방화벽 구성](/sql/reporting-services/report-server/configure-a-firewall-for-report-server-access) 및 [원격 관리를 위한 Report Server 구성](/sql/reporting-services/report-server/configure-a-report-server-for-remote-administration)을 참조하세요.
+* SQL Server Management Studio에서 보고서 서버 시스템 속성을 설정하는 방법에 대한 자세한 내용은 [서버 속성 고급 페이지](/sql/reporting-services/tools/server-properties-advanced-page-reporting-services)를 참조하세요. 달리 지정하지 않는 한 옵션은 Power BI Report Server와 SQL Server Reporting Services 모두에 적용됩니다.
 
 ## <a name="next-steps"></a>다음 단계
 
 [관리자 개요](admin-handbook-overview.md)  
 [보고서 서버 제품 키를 확인하는 방법](find-product-key.md)  
 [Power BI Report Server에 최적화된 Power BI Desktop 설치](install-powerbi-desktop.md)  
-[Reporting Services 설치 확인](https://docs.microsoft.com/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
-[Report Server 서비스 계정 구성](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)  
-[Report Server URL 구성](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-report-server-urls-ssrs-configuration-manager)  
-[Report Server 데이터베이스 연결 구성](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager)  
-[Report Server 초기화](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-encryption-keys-initialize-a-report-server)  
-[Report Server에서 SSL 연결 구성](https://docs.microsoft.com/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server)  
-[Windows 서비스 계정 및 사용 권한 구성](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions)  
+[Reporting Services 설치 확인](/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
+[Report Server 서비스 계정 구성](/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)  
+[Report Server URL 구성](/sql/reporting-services/install-windows/configure-report-server-urls-ssrs-configuration-manager)  
+[Report Server 데이터베이스 연결 구성](/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager)  
+[Report Server 초기화](/sql/reporting-services/install-windows/ssrs-encryption-keys-initialize-a-report-server)  
+[Report Server에서 SSL 연결 구성](/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server)  
+[Windows 서비스 계정 및 사용 권한 구성](/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions)  
 [Power BI Report Server에 대한 브라우저 지원](browser-support.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

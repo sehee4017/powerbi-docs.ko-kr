@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 829de249b71076ccd1ed2a60348170e93b68e507
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: 8e8f1c143f65b1974364a8a1c9c55e132a4131c4
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204427"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857039"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>프리미엄 용량에서 워크로드 구성
 
@@ -198,7 +198,7 @@ Power BI 보고서에서는 용량에 대한 각 쿼리에 훨씬 적은 시간 
 
 ### <a name="rest-api"></a>REST API
 
-[용량](https://docs.microsoft.com/rest/api/power-bi/capacities) REST API를 사용하여 워크로드를 사용하도록 설정하고 용량에 할당할 수 있습니다.
+[용량](/rest/api/power-bi/capacities) REST API를 사용하여 워크로드를 사용하도록 설정하고 용량에 할당할 수 있습니다.
 
 ## <a name="monitoring-workloads"></a>워크로드 모니터링
 

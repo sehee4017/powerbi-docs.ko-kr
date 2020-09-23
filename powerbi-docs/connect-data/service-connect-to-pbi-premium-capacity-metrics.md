@@ -8,19 +8,19 @@ ms.topic: how-to
 ms.date: 05/18/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: eb8d7d59e52414620aa888230af59ef98da9e5af
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: 2db7cce57408fa988c9a32057d6f1f880bc55126
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937634"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861961"
 ---
 # <a name="connect-to-power-bi-premium-capacity-metrics"></a>Power BI Premium Capacity Metrics에 연결
 용량 모니터링은 프리미엄 용량 리소스를 최대한 활용하는 방법에 대한 합리적인 결정을 하는 데 필수적입니다. Power BI Premium Capacity Metrics 앱은 용량이 수행되는 방법에 대해 가장 심층적인 정보를 제공합니다.
 
 ![Power BI Premium Capacity Metrics 앱 보고서](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-report.png)
 
-이 문서에서는 앱을 설치하고 데이터 원본에 연결하는 방법을 설명합니다. 보고서의 내용 및 사용 방법에 대한 자세한 내용은 [앱을 사용하여 프리미엄 용량 모니터링](../service-admin-premium-monitor-capacity.md) 및 [프리미엄 용량 메트릭 앱 블로그 게시물](https://powerbi.microsoft.com/blog/premium-capacity-metrics-app-new-health-center-with-kpis-to-explore-relevant-metrics-and-steps-to-mitigate-issues/)을 참조하세요.
+이 문서에서는 앱을 설치하고 데이터 원본에 연결하는 방법을 설명합니다. 보고서의 내용 및 사용 방법에 대한 자세한 내용은 [앱을 사용하여 프리미엄 용량 모니터링](../admin/service-admin-premium-monitor-capacity.md) 및 [프리미엄 용량 메트릭 앱 블로그 게시물](https://powerbi.microsoft.com/blog/premium-capacity-metrics-app-new-health-center-with-kpis-to-explore-relevant-metrics-and-steps-to-mitigate-issues/)을 참조하세요.
 
 앱을 설치하고 데이터 원본에 연결할 후에는 필요에 맞게 보고서를 사용자 지정할 수 있습니다. 그런 다음, 조직의 동료에게 이 보고서를 배포할 수 있습니다.
 

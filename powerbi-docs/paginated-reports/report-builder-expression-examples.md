@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 48e81c91a4555b4c8ea847ddffb1413058bbb152
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3a24724e67a931860296983fe3a116137d3b5361
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921151"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859524"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Power BI 보고서 작성기의 식 예제
 식은 Power BI 보고서 작성기의 페이지를 매긴 보고서에 자주 사용되어 보고서의 내용과 모양을 제어합니다. 식은 Microsoft Visual Basic으로 작성되며, 기본 제공 함수, 사용자 지정 코드, 보고서와 그룹 변수 및 사용자 정의 변수를 사용할 수 있습니다. 식은 등호(=)로 시작됩니다.   
@@ -38,7 +38,7 @@ ms.locfileid: "78921151"
  보고서의 많은 식에는 함수가 포함되어 있습니다. 이러한 함수를 사용하여 데이터의 형식을 지정하고, 논리를 적용하고, 보고서 메타데이터에 액세스할 수 있습니다. Microsoft Visual Basic 런타임 라이브러리, `xref:System.Convert` 및 `xref:System.Math` 네임스페이스에서 함수를 사용하는 식을 작성할 수 있습니다. 사용자 지정 코드에서 함수에 대한 참조를 추가할 수 있습니다. `xref:System.Text.RegularExpressions`를 포함하여 Microsoft .NET Framework의 클래스를 사용할 수도 있습니다.  
   
 ##  <a name="visual-basic-functions"></a><a name="VisualBasicFunctions"></a> Visual Basic 함수  
- Visual Basic 함수를 사용하여 텍스트 상자에 표시되거나 보고서의 매개 변수, 속성 또는 다른 영역에 사용되는 데이터를 조작할 수 있습니다. 이 섹션에서는 이러한 함수 중 일부를 보여 주는 예제를 제공합니다. 자세한 내용은 MSDN의 [Visual Basic 런타임 라이브러리 멤버](https://go.microsoft.com/fwlink/?LinkId=198941) 를 참조하세요.  
+ Visual Basic 함수를 사용하여 텍스트 상자에 표시되거나 보고서의 매개 변수, 속성 또는 다른 영역에 사용되는 데이터를 조작할 수 있습니다. 이 섹션에서는 이러한 함수 중 일부를 보여 주는 예제를 제공합니다. 자세한 내용은 MSDN의 [Visual Basic 런타임 라이브러리 멤버](/dotnet/visual-basic/language-reference/runtime-library-members) 를 참조하세요.  
   
  .NET Framework는 특정 날짜 형식과 같은 다양한 사용자 지정 형식 옵션을 제공합니다. 자세한 내용은 [형식 유형](/dotnet/standard/base-types/formatting-types)을 참조하세요.  
   
@@ -517,4 +517,3 @@ ms.locfileid: "78921151"
 ## <a name="next-steps"></a>다음 단계
 
 - [Power BI Premium에서 페이지를 매긴 보고서란?](paginated-reports-report-builder-power-bi.md)
-  

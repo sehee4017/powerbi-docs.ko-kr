@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 2590e5fad227027f7cc2fddf2f93a18b92f39ae3
-ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
+ms.openlocfilehash: b414457c15155053ff6d316d1147536ec9ca5a8e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "85393790"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856648"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱의 특정 위치에 대한 링크 만들기
 링크를 사용하여 Power BI의 보고서, 대시보드 및 타일에 직접 액세스할 수 있습니다.
@@ -100,7 +100,7 @@ https://app.powerbi.com/groups/**groupid comes here**/reports/**reportid comes h
 
 Power BI 내의 링크는 Power BI 서비스에서와 동일한 방식으로 모바일 앱에서 작동합니다.
 
-보고서에 다른 Power BI 항목을 가리키는 링크를 추가하려면 브라우저 주소 표시줄에서 항목 URL을 복사하면 됩니다. [보고서에 있는 텍스트 상자에 하이퍼링크를 추가하는 방법](https://docs.microsoft.com/power-bi/service-add-hyperlink-to-text-box)을 자세히 알아보세요.
+보고서에 다른 Power BI 항목을 가리키는 링크를 추가하려면 브라우저 주소 표시줄에서 항목 URL을 복사하면 됩니다. [보고서에 있는 텍스트 상자에 하이퍼링크를 추가하는 방법](../../create-reports/service-add-hyperlink-to-text-box.md)을 자세히 알아보세요.
 
 ## <a name="use-report-url-with-filter"></a>필터가 있는 보고서 URL 사용
 Power BI Mobile 앱은 Power BI 서비스와 마찬가지로 필터 쿼리 매개 변수를 포함하는 보고서 URL을 지원합니다. Power BI Mobile 앱에서 보고서를 열어서 특정 상태로 필터링할 수도 있습니다. 예를 들어, 다음 URL은 판매 보고서를 열고 지역을 기준으로 필터링합니다.
@@ -109,7 +109,7 @@ Power BI Mobile 앱은 Power BI 서비스와 마찬가지로 필터 쿼리 매�
 https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSection3?ctid=**organization id comes here**&filter=Store/Territory eq 'NC'
 ```
 
-[보고서를 필터링하는 쿼리 매개 변수를 작성하는 방법](https://docs.microsoft.com/power-bi/service-url-filters)을 자세히 알아보세요.
+[보고서를 필터링하는 쿼리 매개 변수를 작성하는 방법](../../collaborate-share/service-url-filters.md)을 자세히 알아보세요.
 
 ## <a name="next-steps"></a>다음 단계
 사용자 의견은 나중에 구현할 사항을 결정하는 데 도움이 됩니다. 따라서 Power BI 모바일 앱에서 참조하고자 하는 다른 기능에 대해 꼭 투표해주세요. 
@@ -118,4 +118,3 @@ https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSecti
 * Twitter에서 @MSPowerBI 팔로우
 * [Power BI 커뮤니티](https://community.powerbi.com/)에서 대화에 참여
 * [Power BI란?](../../fundamentals/power-bi-overview.md)
-

@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
-ms.openlocfilehash: 724bd7a9a11c42520c520019f1c4a67415aa5487
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 264eb0c9079e1f54d53aeb41a1ef73016c2bf1b4
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73874300"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859277"
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Power BI Report Server에 대한 브라우저 지원
 Power BI Report Server 및 보고서 뷰어 컨트롤을 관리하고 보기 위해 지원되는 브라우저 버전에 대해 알아봅니다.
@@ -91,12 +91,12 @@ Your browser does not support scripts or has been configured to not allow script
  스크립트 지원 없이 보고서를 보도록 선택하면 보고서는 보고서 도구 모음과 문서 구조와 같은 보고서 뷰어 기능 없이 HTML로 렌더링됩니다.
 
 > [!NOTE]
-> 보고서 도구 모음은 HTML 뷰어 구성 요소의 일부입니다. 기본적으로 브라우저 창에서 렌더링되는 모든 보고서의 상단에 도구 모음이 표시됩니다. 보고서 뷰어는 정보에 대한 보고서를 검색하고, 특정 페이지로 스크롤하며 보기 편하게 페이지 크기를 조정하는 기능을 제공합니다. 보고서 도구 모음 또는 HTML 뷰어에 대한 자세한 내용은 [HTML Viewer and the Report Toolbar](https://docs.microsoft.com/sql/reporting-services/html-viewer-and-the-report-toolbar)을 참조하세요.
+> 보고서 도구 모음은 HTML 뷰어 구성 요소의 일부입니다. 기본적으로 브라우저 창에서 렌더링되는 모든 보고서의 상단에 도구 모음이 표시됩니다. 보고서 뷰어는 정보에 대한 보고서를 검색하고, 특정 페이지로 스크롤하며 보기 편하게 페이지 크기를 조정하는 기능을 제공합니다. 보고서 도구 모음 또는 HTML 뷰어에 대한 자세한 내용은 [HTML Viewer and the Report Toolbar](/sql/reporting-services/html-viewer-and-the-report-toolbar)을 참조하세요.
 > 
 > 
 
 ## <a name="browser-support-for-report-viewer-web-server-controls-in-visual-studio"></a>Visual Studio에서 보고서 뷰어 웹 서버 컨트롤에 대한 브라우저 지원
-보고서 뷰어 웹 서버 컨트롤은 ASP.NET 웹 애플리케이션에서 보고서 기능을 포함하는 데 사용됩니다. 보고서 뷰어 컨트롤을 가져오는 방법에 대한 자세한 내용은 [보고서 뷰어 컨트롤을 사용하여 Reporting Services 통합 - 시작](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)을 참조하세요.
+보고서 뷰어 웹 서버 컨트롤은 ASP.NET 웹 애플리케이션에서 보고서 기능을 포함하는 데 사용됩니다. 보고서 뷰어 컨트롤을 가져오는 방법에 대한 자세한 내용은 [보고서 뷰어 컨트롤을 사용하여 Reporting Services 통합 - 시작](/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)을 참조하세요.
 
 스크립트 지원을 사용하는 브라우저를 사용합니다. 브라우저에서 스크립트를 실행할 수 없는 경우 보고서를 볼 수 없습니다.
 
@@ -114,7 +114,6 @@ Your browser does not support scripts or has been configured to not allow script
 [관리자 개요](admin-handbook-overview.md)  
 [Power BI Report Server 설치](install-report-server.md)  
 [보고서 작성기 다운로드](https://www.microsoft.com/download/details.aspx?id=53613)  
-[SSDT(SQL Server Data Tools) 다운로드](https://go.microsoft.com/fwlink/?LinkID=616714)
+[SSDT(SQL Server Data Tools) 다운로드](/sql/ssdt/download-sql-server-data-tools-ssdt)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
-

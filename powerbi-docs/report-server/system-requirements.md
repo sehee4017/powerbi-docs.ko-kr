@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 02/20/2020
-ms.openlocfilehash: 20b41762f7b38bd4ed26add97abb4eec1da0c000
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.date: 09/17/2020
+ms.openlocfilehash: 4579296568524304f416d8e353dcbccac77bfc63
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77558572"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861754"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Power BI Report Server를 설치하기 위한 하드웨어 및 소프트웨어 요구 사항
 
@@ -23,12 +23,12 @@ ms.locfileid: "77558572"
 
 | 구성 요소 | 요구 사항 |
 | --- | --- |
-| .NET Framework |4.7<br><br>[Windows용 Microsoft .NET Framework 4.7(웹 설치 관리자)](https://support.microsoft.com/en-us/kb/3186500)에서 .NET Framework를 수동으로 설치할 수 있습니다.<br/><br/> .NET Framework 4.7에 대한 자세한 정보, 권장 사항 및 지침은 [개발자를 위한 .NET Framework 배포 가이드](https://docs.microsoft.com/dotnet/framework/deployment/deployment-guide-for-developers)를 참조하세요.<br/><br/>.NET Framework 4.7을 설치하기 전에 Windows 8.1 및 Windows Server 2012 R2에는 [KB2919355](https://support.microsoft.com/kb/2919355)가 필요합니다. |
+| .NET Framework |4.7<br><br>[Windows용 Microsoft .NET Framework 4.7(웹 설치 관리자)](https://support.microsoft.com/en-us/kb/3186500)에서 .NET Framework를 수동으로 설치할 수 있습니다.<br/><br/> .NET Framework 4.7에 대한 자세한 정보, 권장 사항 및 지침은 [개발자를 위한 .NET Framework 배포 가이드](/dotnet/framework/deployment/deployment-guide-for-developers)를 참조하세요.<br/><br/>.NET Framework 4.7을 설치하기 전에 Windows 8.1 및 Windows Server 2012 R2에는 [KB2919355](https://support.microsoft.com/kb/2919355)가 필요합니다. |
 | 하드 디스크 |Power BI Report Server에는 최소 1GB의 하드 디스크 여유 공간이 필요합니다.<br><br>Report Server 데이터베이스를 호스팅하는 데이터베이스 서버에 추가 공간이 필요합니다. |
 | 메모리 |**최소값:** 1GB<br/><br/> **권장:** 최소 4GB |
 | 프로세서 속도 |**최소:** x64 프로세서: 1.4GHz<br/><br/> **권장:** 2.0GHz 이상 |
-| 프로세서 형식 |x64 프로세서: AMD Opteron, AMD Athlon 64, Intel EM64T가 지원되는 Intel Xeon, EM64T가 지원되는 Intel Pentium IV |
-| 운영 체제 |Windows Server 2019 Datacenter<br><br>Windows Server 2019 Standard<br><br>Windows Server 2016 Datacenter<br><br>Windows Server 2016 Standard<br><br>Windows Server 2012 R2 Datacenter<br><br>Windows Server 2012 R2 Standard<br><br>Windows Server 2012 R2 Essentials<br><br>Windows Server 2012 R2 Foundation<br><br>Windows Server 2012 데이터 센터<br><br>Windows Server 2012 Standard<br><br>Windows Server 2012 Essentials<br><br>Windows Server 2012 Foundation<br><br>Windows 10 Home<br><br>Windows 10 Professional<br><br>Windows 10 Enterprise<br><br>Windows 8.1<br><br>Windows 8.1 Pro<br><br>Windows 8.1 Enterprise<br><br>Windows 8<br><br>Windows 8 Pro<br><br>Windows 8 Enterprise |
+| 프로세서 형식 |x64 프로세서: AMD Opteron, AMD Athlon 64, Intel EM64T를 지원하는 Intel Xeon, Intel EM64T를 지원하는 Intel Pentium IV |
+| 운영 체제 |Windows Server 2019 Datacenter<br><br>Windows Server 2019 Standard<br><br>Windows Server 2016 Datacenter<br><br>Windows Server 2016 Standard<br><br>Windows 10 Home<br><br>Windows 10 Professional<br><br>Windows 10 Enterprise<br> |
 
 > [!NOTE]
 > Power BI Report Server는 x64 설치는 프로세서에서만 지원됩니다.
@@ -45,7 +45,7 @@ ms.locfileid: "77558572"
 * SQL Server 2014
 * SQL Server 2012
 
-원격 컴퓨터에서 보고서 서버 데이터베이스를 만들 때 네트워크 액세스 권한을 가진 도메인 사용자 계정 또는 서비스 계정을 사용하도록 연결을 구성해야 합니다. 원격 SQL Server 인스턴스를 사용하려는 경우 보고서 서버가 SQL Server 인스턴스에 연결하는 데 사용해야 하는 자격 증명을 신중하게 선택하는 것이 좋습니다. 자세한 내용은 [Report Server 데이터베이스 연결 구성](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager)을 참조하세요.
+원격 컴퓨터에서 보고서 서버 데이터베이스를 만들 때 네트워크 액세스 권한을 가진 도메인 사용자 계정 또는 서비스 계정을 사용하도록 연결을 구성해야 합니다. 원격 SQL Server 인스턴스를 사용하려는 경우 보고서 서버가 SQL Server 인스턴스에 연결하는 데 사용해야 하는 자격 증명을 신중하게 선택하는 것이 좋습니다. 자세한 내용은 [Report Server 데이터베이스 연결 구성](/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager)을 참조하세요.
 
 ## <a name="considerations"></a>고려 사항
 
@@ -53,7 +53,7 @@ Power BI Report Server는 Report Server를 작동하는 데 필요한 핵심 설
 
 * Power BI Report Server에 대해 지원되는 언어 - 영어, 독일어, 스페인어, 일본어, 이탈리아어, 프랑스어, 러시아어, 중국어 간체, 중국어 번체, 포르투갈어(브라질), 한국어
 * 설치한 이후 및 Report Server 데이터베이스를 구성하기 전에 SQL Server 데이터베이스 엔진을 사용할 수 있어야 합니다. 데이터베이스 엔진 인스턴스는 Reporting Services 구성 관리자가 만들 Report Server 데이터베이스를 호스팅합니다. 데이터베이스 엔진은 실제 설치 환경에 필요하지 않습니다.
-* [SQL Server 버전에서 지원되는 Reporting Services 기능](https://docs.microsoft.com/sql/reporting-services/reporting-services-features-supported-by-the-editions-of-sql-server-2016)에서는 SQL Server 버전 간의 차이점을 설명합니다.
+* [SQL Server 버전에서 지원되는 Reporting Services 기능](/sql/reporting-services/reporting-services-features-supported-by-the-editions-of-sql-server-2016)에서는 SQL Server 버전 간의 차이점을 설명합니다.
 * 설치 프로그램을 실행하는 사용자 계정은 로컬 관리자 그룹의 멤버여야 합니다.
 * Reporting Services 구성 관리자를 실행하는 사용자 계정에는 보고서 서버 데이터베이스를 호스트하는 데이터베이스 엔진 인스턴스에 있는 데이터베이스에 액세스하고 해당 데이터베이스를 만들 권한이 있어야 합니다.
 * 설치 마법사는 기본값을 사용하여 Report Server와 웹 포털에 대한 액세스를 제공하는 URL을 예약할 수 있어야 합니다. 기본값은 포트 80, 강력한 와일드 카드 및 **ReportServer** 및 **Reports** 형식의 가상 디렉터리 이름입니다.
@@ -78,6 +78,6 @@ Power BI Report Server는 Report Server를 작동하는 데 필요한 핵심 설
 [관리자 개요](admin-handbook-overview.md)  
 [Power BI Report Server 설치](install-report-server.md)  
 [보고서 작성기 다운로드](https://www.microsoft.com/download/details.aspx?id=53613)  
-[SSDT(SQL Server Data Tools) 다운로드](https://go.microsoft.com/fwlink/?LinkID=616714)
+[SSDT(SQL Server Data Tools) 다운로드](/sql/ssdt/download-sql-server-data-tools-ssdt)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

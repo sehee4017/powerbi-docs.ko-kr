@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 2b1570176138a38e9856691af7d81f201b055db1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 955e32e99c4f208bbf3582c32b9e5efee95a8f3a
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238521"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861938"
 ---
 # <a name="create-report-templates-for-power-bi-desktop"></a>Power BI Desktop의 보고서 템플릿 만들기
 
@@ -70,7 +70,7 @@ Power BI 보고서 템플릿을 사용하려면 Power BI Desktop에서 템플릿
 
 ## <a name="next-steps"></a>다음 단계
 **쿼리 매개 변수**:
-* [Power BI Desktop에서 쿼리 매개 변수를 사용하는 방법](https://docs.microsoft.com/power-query/power-query-query-parameters)에 관해 자세히 알아보고 싶을 수 있습니다.
+* [Power BI Desktop에서 쿼리 매개 변수를 사용하는 방법](/power-query/power-query-query-parameters)에 관해 자세히 알아보고 싶을 수 있습니다.
 
 또한, Power BI Desktop에서 모든 종류의 작업을 수행할 수 있습니다. 해당 기능에 대한 자세한 내용은 다음 리소스를 확인하세요.
 
@@ -78,4 +78,4 @@ Power BI 보고서 템플릿을 사용하려면 Power BI Desktop에서 템플릿
 * [Power BI Desktop을 사용한 쿼리 개요](../transform-model/desktop-query-overview.md)
 * [Power BI Desktop의 데이터 형식](../connect-data/desktop-data-types.md)
 * [Power BI Desktop에서 데이터 셰이핑 및 결합](../connect-data/desktop-shape-and-combine-data.md)
-* [Power BI Desktop의 일반적인 쿼리 작업](../transform-model/desktop-common-query-tasks.md)    
+* [Power BI Desktop의 일반적인 쿼리 작업](../transform-model/desktop-common-query-tasks.md)

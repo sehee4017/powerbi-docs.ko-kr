@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 07/08/2020
-ms.openlocfilehash: 1263de975319b7b0e2ef5123d985fa50a126d680
-ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
+ms.openlocfilehash: 3be821bfaad91ede2a7348e35c06850c81ddf1b4
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "86459603"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859247"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI Report Server에 대한 변경 로그
 
@@ -32,7 +32,7 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
             - 쿼리를 병합하는 데 유사 일치를 사용했을 때 새로 고침이 실패하는 문제를 해결했습니다.
     - *‘버전: 1.8.7450.37410(빌드 15.0.1103.227), 릴리스 날짜: 2020년 5월 27일*
          - 기능
-            -  사용자 지정 가능한 카탈로그 연결 풀 크기에 대한 지원이 추가되었습니다(자세한 내용은 [MaxCatalogConnectionPoolSizePerProcess 설정](https://docs.microsoft.com/sql/reporting-services/report-server/rsreportserver-config-configuration-file?view=sql-server-ver15#bkmk_service) 참조).
+            -  사용자 지정 가능한 카탈로그 연결 풀 크기에 대한 지원이 추가되었습니다(자세한 내용은 [MaxCatalogConnectionPoolSizePerProcess 설정](/sql/reporting-services/report-server/rsreportserver-config-configuration-file#bkmk_service) 참조).
             -  새로 고침 작업 중에 보고서를 볼 때의 동작이 향상되었습니다.
         - 보안 업데이트
         - 버그 수정
@@ -65,7 +65,7 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
            -  특정 데이터 원본에 대해 업로드하지 못하는 Power BI 보고서를 수정
            -  포털의 Power BI Report Server Desktop 링크 다운로드 위치를 수정
            -  Excel 렌더링을 위한 DynamicImageDPI를 수정
-           -  특정 다중 사용자 시나리오에서 잘못된 스레드 문화권을 사용하는 Oracle 연결 수정(자세한 내용은 [UseInstalledUICulture 설명서](https://docs.microsoft.com/power-bi/report-server/connect-data-sources) 참조)
+           -  특정 다중 사용자 시나리오에서 잘못된 스레드 문화권을 사용하는 Oracle 연결 수정(자세한 내용은 [UseInstalledUICulture 설명서](./connect-data-sources.md) 참조)
            -  보고서 포함 오류를 발생시키는 CustomHeaders 기본값을 수정
            -  특정 경우에 잘못 생성되는 SQL 매개 변수 이름을 수정
     - *‘버전: 1.6.7327.3007(빌드 15.0.1102.759), 릴리스 날짜: 2020년 1월 23일*
@@ -351,7 +351,7 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
 
     - *‘빌드 14.0.600.305, 릴리스 날짜: 2017년 9월 19일’*  
         - 버그 픽스
-            - 최신 [Bing Maps 웹 컨트롤](https://msdn.microsoft.com/library/mt712542.aspx)로 업데이트
+            - 최신 [Bing Maps 웹 컨트롤](/bingmaps/v8-web-control/)로 업데이트
 
     - *‘빌드 14.0.600.301, 릴리스 날짜: 2017년 7월 11일’*
         - 버그 픽스
@@ -373,6 +373,6 @@ Power BI 보고서 서버에 대한 이 변경 로그는 각 릴리스 빌드에
 [관리자 개요](admin-handbook-overview.md)  
 [Power BI Report Server 설치](install-report-server.md)  
 [보고서 작성기 다운로드](https://www.microsoft.com/download/details.aspx?id=53613)  
-[SSDT(SQL Server Data Tools) 다운로드](https://go.microsoft.com/fwlink/?LinkID=616714)
+[SSDT(SQL Server Data Tools) 다운로드](/sql/ssdt/download-sql-server-data-tools-ssdt)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

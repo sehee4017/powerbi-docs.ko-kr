@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/3/2019
 ms.author: gepopell
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 05db20b2f83f10409339fad949874fc1076a6b98
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 06b117a271671092a94aa8e7994269344b444178
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83285972"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859615"
 ---
 # <a name="trusted-third-party-connectors"></a>신뢰할 수 있는 타사 커넥터
 
@@ -24,7 +24,7 @@ Power BI에서는 대개 Microsoft에서 인증하지 않은 코드가 로드되
 
 해당 커넥터의 개발자가 인증서를 사용하여 커넥터에 서명한 후 보안 설정을 낮추지 않고 안전하게 커넥터를 로드하는 데 필요한 정보를 제공할 수 있습니다.
 
-보안 설정에 대한 자세한 내용을 보려면 [여기](https://docs.microsoft.com/power-bi/desktop-connector-extensibility)에서 확인하세요.
+보안 설정에 대한 자세한 내용을 보려면 [여기](./desktop-connector-extensibility.md)에서 확인하세요.
 
 ## <a name="using-the-registry-to-trust-third-party-connectors"></a>레지스트리를 사용하여 타사 커넥터 신뢰
 
@@ -46,4 +46,4 @@ Power BI에서 타사 커넥터 신뢰를 수행하려면 지정된 레지스트
 
 ## <a name="how-to-sign-connectors"></a>커넥터에 서명하는 방법
 
-사용자나 개발자가 서명해야 하는 커넥터가 있는 경우 [여기](https://docs.microsoft.com/power-query/handlingconnectorsigning)의 파워 쿼리 문서에서 이에 대해 알아볼 수 있습니다.
+사용자나 개발자가 서명해야 하는 커넥터가 있는 경우 [여기](/power-query/handlingconnectorsigning)의 파워 쿼리 문서에서 이에 대해 알아볼 수 있습니다.

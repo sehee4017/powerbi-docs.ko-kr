@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: troubleshooting
 ms.date: 11/01/2017
 ms.author: maggies
-ms.openlocfilehash: dd7d6a140dd9828a188f22144e31ea89e342c370
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3ad1488869980c56bfe8dd4973fe60806781510a
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74698696"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861800"
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>Power BI Report Server에서 예약된 새로 고침 문제 해결
 이 문서에서는 Power BI Report Server에서 예약된 새로 고침의 문제 해결에 사용할 수 있는 리소스를 설명합니다.
@@ -35,9 +35,9 @@ ms.locfileid: "74698696"
 
 메모리 부족이 지속적으로 발생하는 경우 리소스의 부하를 분산시키기 위해 보고서 서버의 확장된 배포를 살펴볼 가치가 있습니다. 지정된 보고서 서버가 rsreportserver.config 내의 `IsDataModelRefreshService` 설정으로 데이터 새로 고침에 대해 사용되는지 정의할 수도 있습니다. 이 설정을 사용하여 하나 이상의 서버를 요청 시 보고서를 처리할 프런트 엔드 서버가 되도록 정의하고 다른 서버 집합을 예약된 새로 고침에만 사용하도록 할 수 있습니다.
 
-Analysis Services 인스턴스를 모니터링하는 방법에 대한 자세한 내용은 [Analysis Services 인스턴스 모니터링](https://docs.microsoft.com/sql/analysis-services/instances/monitor-an-analysis-services-instance)을 참조하세요.
+Analysis Services 인스턴스를 모니터링하는 방법에 대한 자세한 내용은 [Analysis Services 인스턴스 모니터링](/sql/analysis-services/instances/monitor-an-analysis-services-instance)을 참조하세요.
 
-Analysis Services 내의 메모리 설정에 대한 자세한 내용은 [메모리 속성](https://docs.microsoft.com/sql/analysis-services/server-properties/memory-properties)을 참조하세요.
+Analysis Services 내의 메모리 설정에 대한 자세한 내용은 [메모리 속성](/sql/analysis-services/server-properties/memory-properties)을 참조하세요.
 
 ### <a name="kerberos-configuration"></a>Kerberos 구성
 Windows 자격 증명으로 데이터 원본에 연결할 때 성공적으로 연결하기 위해 Kerberos 제한된 위임을 구성해야 할 수 있습니다. Kerberos 제한된 위임을 구성하는 방법에 대한 자세한 내용은 [Kerberos를 구성하여 Power BI 보고서 사용](configure-kerberos-powerbi-reports.md)을 참조하세요.
@@ -180,7 +180,7 @@ Power BI Report Server 및 Analysis Services에 대한 기본 위치는 다음�
 ### <a name="profiling-the-local-analysis-services-process"></a>로컬 Analysis Services 프로세스 프로파일링
 SQL 프로파일러 추적을 진단 용도로 로컬 Analysis Services 프로세스에서 실행할 수 있습니다. 로컬 Analysis Services 인스턴스에 연결하려면 다음을 수행합니다.
 
-SQL Server Profiler 추적은 [SSMS(SQL Server Management Studio) 다운로드](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms)와 함께 포함됩니다.
+SQL Server Profiler 추적은 [SSMS(SQL Server Management Studio) 다운로드](/sql/ssms/download-sql-server-management-studio-ssms)와 함께 포함됩니다.
 
 1. 관리자 권한으로 **SQL Server Profiler**를 시작합니다.
 2. **새 추적** 단추를 선택합니다.
@@ -188,7 +188,6 @@ SQL Server Profiler 추적은 [SSMS(SQL Server Management Studio) 다운로드](
 4. **추적 속성** 대화 상자에서 캡처하려는 이벤트를 선택하고 **실행**을 선택합니다.
 
 ## <a name="lock-pages-in-memory-windows-privilege"></a>메모리의 페이지 잠금 Windows 권한
-Power BI 보고서를 렌더링할 수 없다는 것을 알게 된 경우 **메모리의 페이지 잠금** 권한을 Power BI Report Server를 실행 중인 서비스 계정에 할당하는 것은 도움이 될 수 있습니다. **메모리의 페이지 잠금**을 구성하는 방법에 대한 자세한 내용은 [Analysis Services 서비스 계정에 할당된 Windows 권한](https://docs.microsoft.com/sql/analysis-services/instances/configure-service-accounts-analysis-services#bkmk_winpriv)을 참조하세요.
+Power BI 보고서를 렌더링할 수 없다는 것을 알게 된 경우 **메모리의 페이지 잠금** 권한을 Power BI Report Server를 실행 중인 서비스 계정에 할당하는 것은 도움이 될 수 있습니다. **메모리의 페이지 잠금**을 구성하는 방법에 대한 자세한 내용은 [Analysis Services 서비스 계정에 할당된 Windows 권한](/sql/analysis-services/instances/configure-service-accounts-analysis-services#bkmk_winpriv)을 참조하세요.
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
-

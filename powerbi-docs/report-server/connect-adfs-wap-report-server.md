@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 01/14/2020
-ms.openlocfilehash: 2bc2e026acf0f895796158408afa6449c93ce254
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e9e2c44bdcbeabc28a95bd62bf6ba6763ae61442
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236182"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859063"
 ---
 # <a name="use-web-application-proxy-and-active-directory-federated-services---power-bi-report-server"></a>웹 애플리케이션 프록시 및 Active Directory Federated Services 사용 - Power BI Report Server
 
@@ -40,7 +40,7 @@ WAP 애플리케이션 및 AD FS 서버에 대한 인증서를 구성해야 합�
 
 SPN은 Kerberos 인증을 사용하는 서비스에 대한 고유한 식별자입니다. 보고서 서버에 대한 적절한 HTTP SPN이 있는지 확인합니다.
 
-보고서 서버에 대한 적절한 SPN(서비스 주체 이름)을 구성하는 방법에 대한 자세한 내용은 [보고서 서버에 SPN(서비스 주체 이름) 등록](https://docs.microsoft.com/sql/reporting-services/report-server/register-a-service-principal-name-spn-for-a-report-server)을 참조하세요.
+보고서 서버에 대한 적절한 SPN(서비스 주체 이름)을 구성하는 방법에 대한 자세한 내용은 [보고서 서버에 SPN(서비스 주체 이름) 등록](/sql/reporting-services/report-server/register-a-service-principal-name-spn-for-a-report-server)을 참조하세요.
 
 ### <a name="enabling-negotiate-authentication"></a>협상 인증 사용
 
@@ -56,11 +56,11 @@ Kerberos 인증을 사용하는 보고서 서버를 사용하려면 보고서 �
 </AuthenticationTypes>
 ```
 
-자세한 내용은 [Reporting Services 구성 파일 수정](https://docs.microsoft.com/sql/reporting-services/report-server/modify-a-reporting-services-configuration-file-rsreportserver-config) 및 [보고서 서버에서 Windows 인증 구성](https://docs.microsoft.com/sql/reporting-services/security/configure-windows-authentication-on-the-report-server)을 참조하세요.
+자세한 내용은 [Reporting Services 구성 파일 수정](/sql/reporting-services/report-server/modify-a-reporting-services-configuration-file-rsreportserver-config) 및 [보고서 서버에서 Windows 인증 구성](/sql/reporting-services/security/configure-windows-authentication-on-the-report-server)을 참조하세요.
 
 ## <a name="2-configure-active-directory-federation-services-ad-fs"></a>2. Active Directory Federation Services(AD FS) 구성
 
-사용자 환경 내의 Windows 2016 서버에서 AD FS를 구성해야 합니다. [서버 관리자] 및 [관리] 아래의 [역할 및 기능 추가]를 선택하여 이 구성을 수행할 수 있습니다. 자세한 내용은 [Active Directory Federation Services](https://docs.microsoft.com/windows-server/identity/active-directory-federation-services)를 참조하세요.
+사용자 환경 내의 Windows 2016 서버에서 AD FS를 구성해야 합니다. [서버 관리자] 및 [관리] 아래의 [역할 및 기능 추가]를 선택하여 이 구성을 수행할 수 있습니다. 자세한 내용은 [Active Directory Federation Services](/windows-server/identity/active-directory-federation-services)를 참조하세요.
 
 AD FS 서버에서 AD FS 관리 앱을 사용하여 다음 단계를 완료합니다.
 
@@ -93,7 +93,7 @@ AD FS 서버에서 AD FS 관리 앱을 사용하여 다음 단계를 완료합�
 
 ## <a name="3-configure-web-application-proxy-wap"></a>3. 웹 애플리케이션 프록시(WAP) 구성
 
-사용자 환경의 서버에서 웹 애플리케이션 프록시(역할) Windows 역할을 사용하도록 설정하려고 합니다. Windows 2016 서버에 있어야 합니다. 자세한 내용은 [Windows Server 2016의 웹 애플리케이션 프록시](https://docs.microsoft.com/windows-server/remote/remote-access/web-application-proxy/web-application-proxy-windows-server) 및 [AD FS 사전 인증을 사용하여 애플리케이션 게시](https://docs.microsoft.com/windows-server/remote/remote-access/web-application-proxy/Publishing-Applications-using-AD-FS-Preauthentication)를 참조하세요.
+사용자 환경의 서버에서 웹 애플리케이션 프록시(역할) Windows 역할을 사용하도록 설정하려고 합니다. Windows 2016 서버에 있어야 합니다. 자세한 내용은 [Windows Server 2016의 웹 애플리케이션 프록시](/windows-server/remote/remote-access/web-application-proxy/web-application-proxy-windows-server) 및 [AD FS 사전 인증을 사용하여 애플리케이션 게시](/windows-server/remote/remote-access/web-application-proxy/Publishing-Applications-using-AD-FS-Preauthentication)를 참조하세요.
 
 ### <a name="configure-constrained-delegation"></a>제한된 위임 구성
 
@@ -174,4 +174,3 @@ Active Directory 내의 WAP 서버 컴퓨터 계정에서 제한된 위임을 �
 *[Power BI Report Server란?](get-started.md)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
-

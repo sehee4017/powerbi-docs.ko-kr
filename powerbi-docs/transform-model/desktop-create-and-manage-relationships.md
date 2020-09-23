@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/28/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: f241315eecdbb600a798630167913aa1be0079a3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5b2e9cc5cb07eebf3befebd1be1686fdbb0f653b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239056"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861823"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Power BI Desktop에서 관계 만들기 및 관리
 여러 테이블을 가져올 때 이러한 모든 테이블의 데이터를 사용하여 분석을 수행하려는 경우가 있습니다. 결과를 정확하게 계산하고 보고서에 올바른 정보를 표시하려면 테이블 간의 관계가 필요합니다. Power BI Desktop에서는 이러한 관계를 쉽게 만들 수 있습니다. 실제로 아무 작업도 수행할 필요가 없는 경우가 대부분입니다. 자동 검색 기능이 자동으로 작업을 수행합니다. 그러나 관계를 직접 만들거나 관계를 변경해야 하는 경우도 있습니다. 어떤 경우든지 Power BI Desktop에서의 관계 및 관계를 만들고 편집하는 방법을 이해하는 것이 중요합니다.
@@ -45,7 +45,7 @@ ms.locfileid: "85239056"
 * **중복 제거**를 사용하여 고유한 값을 가진 열을 만듭니다. 이 방법의 단점은 중복 행이 제거될 때 정보도 손실될 수 있다는 것이며, 이 때문에 키(행)가 복제되기도 합니다.
 * 별개의 키 값 목록으로 만들어진 중간 테이블을 모델에 추가하면 관계의 원래 두 열 모두에 연결됩니다.
 
-자세한 내용은 이 [블로그 게시물](https://blogs.technet.microsoft.com/cansql/2016/12/19/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message/)을 참조하세요.
+자세한 내용은 이 [블로그 게시물](/archive/blogs/cansql/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message)을 참조하세요.
 
 
 ## <a name="edit-a-relationship"></a>관계 편집
@@ -65,7 +65,7 @@ ms.locfileid: "85239056"
 
 **일 대 다(1:*)** : 일 대 다 관계에서 한 테이블의 열은 특정 값의 인스턴스를 하나만 가질 수 있고, 다른 관련 테이블은 값의 인스턴스를 하나 이상 가질 수 있음을 의미합니다.
 
-**다 대 다(\*:\*)** : 복합 모델을 사용하여 테이블 간에 다 대 다 관계를 설정할 수 있습니다. 그러면 테이블의 고유한 값에 대한 요구 사항이 제거됩니다. 또한 관계 설정 목적으로만 새 테이블을 도입하는 것과 같은 이전 해결 방법을 제거합니다. 자세한 내용은 [다 대 다 카디널리티와의 관계](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships)를 참조하세요. 
+**다 대 다(\*:\*)** : 복합 모델을 사용하여 테이블 간에 다 대 다 관계를 설정할 수 있습니다. 그러면 테이블의 고유한 값에 대한 요구 사항이 제거됩니다. 또한 관계 설정 목적으로만 새 테이블을 도입하는 것과 같은 이전 해결 방법을 제거합니다. 자세한 내용은 [다 대 다 카디널리티와의 관계](./desktop-many-to-many-relationships.md)를 참조하세요. 
 
 카디널리티를 변경하는 시점에 대한 자세한 내용은 [추가 옵션 이해](#understanding-additional-options)를 참조하세요.
 
@@ -358,4 +358,3 @@ Power BI Desktop이 자동으로 관계를 만들 때 두 테이블 간에 둘 �
 경우에 따라 모델에 여러 테이블이 있고 테이블 간의 관계가 복잡할 수 있습니다. Power BI Desktop의 **관계** 보기는 모델의 모든 관계, 방향 및 카디널리티를 이해하기 쉽고 사용자 지정할 수 있는 다이어그램으로 보여 줍니다. 
 
 자세한 내용은 [Power BI Desktop의 관계 보기와 작업](desktop-relationship-view.md)을 참조하세요.
-

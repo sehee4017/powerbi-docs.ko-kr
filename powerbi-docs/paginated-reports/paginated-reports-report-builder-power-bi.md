@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 05/19/2020
-ms.openlocfilehash: 0f07c27cf9c69c07ae7b05c0cbf2573605647252
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 16fcc18492b371accaaf3c447d7a88978051f8c3
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264816"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859661"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Power BI Premium의 페이지를 매긴 보고서란?
 
@@ -87,7 +87,7 @@ Report Builder에서 보고서를 미리 본 후 Power BI 서비스, app.powerbi
 
 초기 릴리스에서 지원되지 않는 몇 가지 다른 기능은 다음과 같습니다.
 
-- 보고서 페이지 또는 시각적 개체를 Power BI 대시보드에 고정. 사용자는 여전히 Power BI Report Server 또는 Reporting Services 보고서 서버의 온-프레미스 페이지를 매긴 보고서에서 Power BI 대시보드로 시각화를 고정할 수 있습니다. 자세한 내용은 [Power BI 대시보드에 Reporting Services 항목 고정](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)을 참조하세요.
+- 보고서 페이지 또는 시각적 개체를 Power BI 대시보드에 고정. 사용자는 여전히 Power BI Report Server 또는 Reporting Services 보고서 서버의 온-프레미스 페이지를 매긴 보고서에서 Power BI 대시보드로 시각화를 고정할 수 있습니다. 자세한 내용은 [Power BI 대시보드에 Reporting Services 항목 고정](/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)을 참조하세요.
 - 문서 구조.
 - 드릴스루 보고서.  드릴스루 시나리오를 위해서는 URL 매개 변수를 페이지를 매긴 보고서와 함께 사용합니다.
 - 공유 데이터 원본 및 공유 데이터 세트.

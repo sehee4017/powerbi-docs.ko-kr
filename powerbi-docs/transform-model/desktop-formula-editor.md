@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 8cbc5d3018f16cecd5013dab2d4da01b0a69ef9f
-ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+ms.openlocfilehash: b813b35daea8fae546780179c9a30998621a39b6
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87363942"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861685"
 ---
 # <a name="formula-editor-in-power-bi-desktop"></a>Power BI Desktop의 수식 편집기
 
@@ -61,5 +61,5 @@ ms.locfileid: "87363942"
 다음 문서에서는 Power BI Desktop의 수식 및 DAX에 대한 정보를 제공합니다.
 
 * [Power BI Desktop의 DAX 기본 사항](desktop-quickstart-learn-dax-basics.md)
-* [Power BI Desktop의 DAX](https://docs.microsoft.com/learn/paths/dax-power-bi/) Microsoft Learn 과정
+* [Power BI Desktop의 DAX](/learn/paths/dax-power-bi/) Microsoft Learn 과정
 * [DAX 참조](/dax/)

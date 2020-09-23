@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 01/22/2019
-ms.openlocfilehash: ba0cf6b450720e0564b5d476f57d91a4f070391c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: eb06bc41aaaeea9790c34bb808548506963b8cb8
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238063"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861846"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Power BI Report Server의 RLS(행 수준 보안)
 
@@ -31,7 +31,7 @@ Power BI Desktop으로 Power BI로 가져온 보고서에 대한 RLS를 구성�
 
     ![보안 필터 적용](media/row-level-security-report-server/rls-apply-security-filter.png)
 
-사용자 이름 또는 로그인 ID를 기반으로 하는 [동적 행 수준 보안](https://docs.microsoft.com/analysis-services/tutorial-tabular-1200/supplemental-lesson-implement-dynamic-security-by-using-row-filters)을 구현할 때 이 상자를 선택합니다. 
+사용자 이름 또는 로그인 ID를 기반으로 하는 [동적 행 수준 보안](/analysis-services/tutorial-tabular-1200/supplemental-lesson-implement-dynamic-security-by-using-row-filters)을 구현할 때 이 상자를 선택합니다. 
 
 자세한 내용은 [Power BI Desktop에서 DirectQuery를 사용하여 양방향 교차 필터링](../transform-model/desktop-bidirectional-filtering.md) 및 [테이블 형식 BI 의미 체계 모델 보안](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) 기술 백서를 참조하세요.
 
@@ -122,4 +122,3 @@ DirectQuery와 함께 통합 보안을 사용하는 경우 다음과 같은 사�
 [관리자 안내서](admin-handbook-overview.md)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
-

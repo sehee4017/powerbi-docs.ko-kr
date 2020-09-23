@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 08/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: a6513bdf7451db7068fe2540d32546df4d42ae8e
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: 737a8df2f8f7e5d4da50259112ad1afd6ec2ecff
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204574"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856833"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi"></a>Power BI에 대한 사용자 고유의 암호화 키 가져오기
 
@@ -39,7 +39,7 @@ BYOK는 데이터 세트에만 적용됩니다. 사용자가 서비스에 업로
 ```PS C:\> Get-PowerBIWorkspace -Scope Organization -Include All```
 
 > [!NOTE]
-> 이 cmdlet에 Power BI 관리 모듈 v1.0.840이 필요합니다. Get-InstalledModule -Name MicrosoftPowerBIMgmt를 실행하여 보유한 버전을 확인할 수 있습니다. Install-Module -Name MicrosoftPowerBIMgmt를 실행하여 최신 버전을 설치합니다. [Power BI PowerShell cmdlet 모듈](https://docs.microsoft.com/powershell/power-bi/overview)에서 Power BI cmdlet 및 해당 매개 변수에 대한 자세한 정보를 확인할 수 있습니다.
+> 이 cmdlet에 Power BI 관리 모듈 v1.0.840이 필요합니다. Get-InstalledModule -Name MicrosoftPowerBIMgmt를 실행하여 보유한 버전을 확인할 수 있습니다. Install-Module -Name MicrosoftPowerBIMgmt를 실행하여 최신 버전을 설치합니다. [Power BI PowerShell cmdlet 모듈](/powershell/power-bi/overview)에서 Power BI cmdlet 및 해당 매개 변수에 대한 자세한 정보를 확인할 수 있습니다.
 
 ## <a name="configure-azure-key-vault"></a>Azure Key Vault 구성
 
@@ -193,7 +193,7 @@ Power BI는 테넌트에서 BYOK를 관리할 수 있는 추가 cmdlet을 제공
 
 ## <a name="next-steps"></a>다음 단계
 
-* [Power BI PowerShell cmdlet 모듈](https://docs.microsoft.com/powershell/power-bi/overview) 
+* [Power BI PowerShell cmdlet 모듈](/powershell/power-bi/overview) 
 
 * [Power BI에서 작업을 공유하는 방법](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md)
 
@@ -202,4 +202,3 @@ Power BI는 테넌트에서 BYOK를 관리할 수 있는 추가 cmdlet을 제공
 * [SharePoint Online에 보고서 웹 파트 포함](../collaborate-share/service-embed-report-spo.md)
 
 * [Power BI에서 웹에 게시](../collaborate-share/service-publish-to-web.md)
-

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 4f6382b78a02750c76987de4fa911eb8c7d33b50
-ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
+ms.openlocfilehash: 9e639c4a22cc4e01c04374289026a7006f33143b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87412006"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861869"
 ---
 # <a name="embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>SharePoint Server에서 iFrame을 사용하여 Power BI Report Server 보고서 포함
 
@@ -24,7 +24,7 @@ ms.locfileid: "87412006"
 ## <a name="prerequisites"></a>필수 조건
 * [Power BI Report Server](https://powerbi.microsoft.com/report-server/)가 설치 및 구성되어 있습니다.
 * [Power BI Report Server에 최적화된 Power BI Desktop](install-powerbi-desktop.md)이 설치되어 있습니다.
-* [SharePoint 2013, 2016 또는 2019](https://docs.microsoft.com/sharepoint/install/install) 환경이 설치 및 구성되어 있습니다.
+* [SharePoint 2013, 2016 또는 2019](/sharepoint/install/install) 환경이 설치 및 구성되어 있습니다.
 * Internet Explorer 11은 문서 모드를 IE11(Edge) 모드로 설정한 경우 또는 SharePoint Online을 사용하는 경우에만 지원됩니다. SharePoint 온-프레미스와 SharePoint Online에서는 다른 지원되는 브라우저를 사용할 수 있습니다.
 
 ## <a name="create-the-power-bi-report-url"></a>Power BI 보고서 URL 만들기
@@ -101,4 +101,4 @@ URL이 있으면 SharePoint 페이지 내에서 보고서를 호스트할 iFrame
 - [Power BI Report Server용 Power BI 보고서 만들기](quickstart-create-powerbi-report.md)  
 - [Power BI Report Server용 페이지를 매긴 보고서 만들기](quickstart-create-paginated-report.md)  
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용](https://community.powerbi.com/)하세요. 
+궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용](https://community.powerbi.com/)하세요.
