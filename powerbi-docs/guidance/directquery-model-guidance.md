@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 89d911680d46e159e446dbcf6bd06e2caf4b6b65
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: d32d931a2778cc1041da327eee323c8b44914f0f
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642613"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965317"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Power BI Desktop의 DirectQuery 모델 지침
 
@@ -41,11 +41,11 @@ Power BI Desktop을 사용하여 모든 DirectQuery 모델을 만들고 관리�
 > 일부 모델러는 관계형 데이터베이스를 최적화할 수 있는 권한이나 기술이 없다는 것을 알고 있습니다. DirectQuery 모델에 맞게 데이터를 준비하는 것이 좋지만, 원본 데이터베이스를 수정하지 않고도 모델 디자인에서 일부 최적화를 수행할 수 있습니다. 그러나 최상의 최적화 결과를 얻으려면 원본 데이터베이스에 최적화를 적용해야 하는 경우가 많습니다.
 
 - **데이터 무결성이 완전한지 확인:** 차원 유형 테이블에 팩트 유형 테이블로 매핑되는 고유 값(차원 키) 열이 있어야 합니다. 또한 팩트 유형 차원 열에 유효한 차원 키 값이 포함되어야 합니다. 그러면 관계의 양쪽 값이 일치하는 보다 효율적인 모델 관계를 구성할 수 있습니다. 원본 데이터에 무결성이 없는 경우, 데이터를 효과적으로 복구하기 위해 “알 수 없음” 차원 레코드를 추가하는 것이 좋습니다. 예를 들어 **Product** 테이블에 알 수 없는 제품을 나타내는 행을 추가하고 -1과 같은 범위 밖의 키를 할당할 수 있습니다. **Sales** 테이블의 행에서 제품 키 값이 누락된 경우 -1로 대체합니다. 그러면 모든 **Sales** 제품 키 값에 해당하는 행이 **Product** 테이블에 있습니다.
-- **인덱스 추가:** 테이블이나 뷰에 적절한 인덱스를 정의하여 필요한 보고서 시각적 개체 필터링 및 그룹화에 효율적인 데이터 검색을 지원합니다. SQL Server, Azure SQL Database 또는 Azure SQL Data Warehouse 원본의 경우, 인덱스 디자인 지침에 대한 유용한 정보는 [SQL Server 인덱스 아키텍처 및 디자인 가이드](/sql/relational-databases/sql-server-index-design-guide?view=sql-server-2017)를 참조하세요. SQL Server 또는 Azure SQL Database 휘발성 원본의 경우 [실시간 운영 분석을 위해 Columnstore 시작](/sql/relational-databases/indexes/get-started-with-columnstore-for-real-time-operational-analytics?view=sql-server-2017)을 참조하세요.
+- **인덱스 추가:** 테이블이나 뷰에 적절한 인덱스를 정의하여 필요한 보고서 시각적 개체 필터링 및 그룹화에 효율적인 데이터 검색을 지원합니다. SQL Server, Azure SQL Database 또는 Azure SQL Data Warehouse 원본의 경우, 인덱스 디자인 지침에 대한 유용한 정보는 [SQL Server 인덱스 아키텍처 및 디자인 가이드](/sql/relational-databases/sql-server-index-design-guide)를 참조하세요. SQL Server 또는 Azure SQL Database 휘발성 원본의 경우 [실시간 운영 분석을 위해 Columnstore 시작](/sql/relational-databases/indexes/get-started-with-columnstore-for-real-time-operational-analytics)을 참조하세요.
 - **분산 테이블 디자인:** MPP(대규모 병렬 처리) 아키텍처를 활용하는 Azure SQL Data Warehouse 원본의 경우, 큰 팩트 유형 테이블을 해시 분산 차원 유형 테이블로 구성하여 모든 컴퓨팅 노드에 복제하는 것이 좋습니다. 자세한 내용은 [Azure SQL Data Warehouse의 분산 테이블 디자인 지침](/azure/sql-data-warehouse/sql-data-warehouse-tables-distribute#what-is-a-distributed-table)을 참조하세요.
-- **필요한 데이터 변환이 구체화되었는지 확인:** SQL Server 관계형 데이터베이스 원본 및 기타 관계형 데이터베이스 원본의 경우 테이블에 계산 열을 추가할 수 있습니다. 이러한 열은 **Quantity**에 **UnitPrice** 곱하기 등의 식을 기반으로 합니다. 계산 열은 지속(구체화) 가능하며, 일반 열과 같이 인덱싱할 수 있는 경우도 있습니다. 자세한 내용은 [계산 열의 인덱스](/sql/relational-databases/indexes/indexes-on-computed-columns?view=sql-server-2017)를 참조하세요.
+- **필요한 데이터 변환이 구체화되었는지 확인:** SQL Server 관계형 데이터베이스 원본 및 기타 관계형 데이터베이스 원본의 경우 테이블에 계산 열을 추가할 수 있습니다. 이러한 열은 **Quantity**에 **UnitPrice** 곱하기 등의 식을 기반으로 합니다. 계산 열은 지속(구체화) 가능하며, 일반 열과 같이 인덱싱할 수 있는 경우도 있습니다. 자세한 내용은 [계산 열의 인덱스](/sql/relational-databases/indexes/indexes-on-computed-columns)를 참조하세요.
 
-    팩트 테이블 데이터를 상위 수준에서 미리 집계할 수 있는 인덱싱된 뷰도 고려합니다. 예를 들어 **Sales** 테이블이 주문 라인 수준의 데이터를 저장하는 경우, 이 데이터를 요약하는 뷰를 만들 수 있습니다. 뷰는 **Sales** 테이블 데이터를 날짜(월 수준), 고객, 제품별로 그룹화하고 매출, 수량 등의 측정값을 요약하는 SELECT 문을 기반으로 할 수 있습니다. 그런 다음, 뷰를 인덱싱할 수 있습니다. SQL Server 또는 Azure SQL Database 원본의 경우 [인덱싱된 뷰 만들기](/sql/relational-databases/views/create-indexed-views?view=sql-server-2017)를 참조하세요.
+    팩트 테이블 데이터를 상위 수준에서 미리 집계할 수 있는 인덱싱된 뷰도 고려합니다. 예를 들어 **Sales** 테이블이 주문 라인 수준의 데이터를 저장하는 경우, 이 데이터를 요약하는 뷰를 만들 수 있습니다. 뷰는 **Sales** 테이블 데이터를 날짜(월 수준), 고객, 제품별로 그룹화하고 매출, 수량 등의 측정값을 요약하는 SELECT 문을 기반으로 할 수 있습니다. 그런 다음, 뷰를 인덱싱할 수 있습니다. SQL Server 또는 Azure SQL Database 원본의 경우 [인덱싱된 뷰 만들기](/sql/relational-databases/views/create-indexed-views)를 참조하세요.
 - **날짜 테이블 구체화:** 일반적인 모델링 요구 사항으로, 시간 기반 필터링을 지원하기 위해 날짜 테이블을 추가해야 합니다. 조직에서 알려진 시간 기반 필터를 지원하려면 원본 데이터베이스에 테이블을 만들고 팩트 테이블 날짜를 포함하는 날짜 범위와 함께 로드되도록 합니다. 또한 연도, 분기, 월, 주 등의 유용한 기간 열이 포함되어야 합니다.
 
 ## <a name="optimize-model-design"></a>모델 디자인 최적화
@@ -87,7 +87,7 @@ Power BI Desktop을 사용하여 모든 DirectQuery 모델을 만들고 관리�
 
     **데이터 원본당 최대 연결 수** 값을 늘리면 지정된 최대 개수까지 더 많은 쿼리를 기본 데이터 원본으로 보낼 수 있으므로, 단일 페이지에 많은 시각적 개체가 있거나 많은 사용자가 동시에 보고서에 액세스할 때 유용합니다. 최대 연결 수에 도달하면 추가 쿼리는 연결을 사용할 수 있게 될 때까지 대기합니다. 이 한도를 늘리면 기본 데이터 원본의 부하가 증가하므로, 설정 시 전반적인 성능 향상이 보장되지 않습니다.
     
-    Power BI에 모델을 게시할 때 기본 데이터 원본으로 전송되는 최대 동시 쿼리 수는 환경에 따라 달라집니다. Power BI, Power BI Premium, Power BI Report Server 등의 환경에 따라 각기 다른 처리량 제약 조건이 적용될 수 있습니다. Power BI Premium 용량 리소스 제한 사항에 대한 자세한 내용은 [Power BI Premium 용량 배포 및 관리](https://docs.microsoft.com/power-bi/whitepaper-powerbi-premium-deployment)를 참조하세요.
+    Power BI에 모델을 게시할 때 기본 데이터 원본으로 전송되는 최대 동시 쿼리 수는 환경에 따라 달라집니다. Power BI, Power BI Premium, Power BI Report Server 등의 환경에 따라 각기 다른 처리량 제약 조건이 적용될 수 있습니다. Power BI Premium 용량 리소스 제한 사항에 대한 자세한 내용은 [Power BI Premium 용량 배포 및 관리](./whitepaper-powerbi-premium-deployment.md)를 참조하세요.
 
 ## <a name="optimize-report-designs"></a>보고서 디자인 최적화
 

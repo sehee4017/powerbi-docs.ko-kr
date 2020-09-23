@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 21a4075861bfa37407ef8ffc73e2beabe50ff095
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 1a49531c9c7e525371c3c92b7bf116bfa7e99fd3
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537553"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965536"
 ---
 # <a name="dax-use-countrows-instead-of-count"></a>DAX: COUNT 대신 COUNTROWS 사용
 
@@ -52,6 +52,6 @@ COUNTROWS(Sales)
 이 문서에 대한 자세한 내용은 다음 리소스를 참조하세요.
 
 - [DAX(Data Analysis Expressions) 참조](/dax/)
-- 학습 경로: [Power BI Desktop에서 DAX 사용](https://docs.microsoft.com/learn/paths/dax-power-bi/)
+- 학습 경로: [Power BI Desktop에서 DAX 사용](/learn/paths/dax-power-bi/)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 - 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com)

@@ -7,15 +7,15 @@ featuredvideoid: bZMSv5KAlcE
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/17/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6c500c7bf0548d115bc658cab868b8f415bbda90
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: dda0b61f1b74624f13003f57ffb29d99165f126c
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537967"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763894"
 ---
 # <a name="view-power-bi-notifications"></a>Power BI 알림 보기
 
@@ -35,13 +35,13 @@ Amanda가 알림을 검토, 관리 및 응답하는 과정을 봅니다. 그런 
 ## <a name="view-your-notifications"></a>알림 보기
 1. Power BI에 로그인하면 오프라인 상태인 동안 전송된 모든 새 알림이 피드에 추가됩니다. 새로운 알림이 있는 경우 Power BI는 새 항목의 수와 함께 노란색 거품을 표시합니다.
    
-   ![새 알림 아이콘](./media/end-user-notification-center/power-bi-new-notification.png)
+   ![새 알림 아이콘](./media/end-user-notification-center/power-bi-new-notifications.png)
 2. Power BI 메뉴 모음에서 **알림** 아이콘을 선택합니다.
    
-   ![알림 아이콘이 선택된 상위 메뉴 모음](./media/end-user-notification-center/power-bi-notifications-icon.png)
+   ![알림 아이콘이 선택된 상위 메뉴 모음](./media/end-user-notification-center/power-bi-notification-icon.png)
 3. 알림은 가장 최근 메시지부터 읽지 않은 메시지를 강조하여 표시됩니다. 알림은 곧 삭제하거나 최대 제한인 100개에 도달하지 않는 한 90일 동안 유지됩니다.
    
-   ![알림 센터](./media/end-user-notification-center/power-bi-notification-center.png)
+   ![알림 센터](./media/end-user-notification-center/power-bi-notifications-center.png)
 4. 알림을 해제하려면 X 아이콘을 선택합니다.
 
 ## <a name="next-steps"></a>다음 단계

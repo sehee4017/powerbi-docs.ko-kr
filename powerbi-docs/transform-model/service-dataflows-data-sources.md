@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/20/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b4d1b969e82ef4f6a911f7adc79bf0d9308e7560
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a3659a2d39faad1d975a5e3c989cb40e800deb76
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240122"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853497"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows"></a>Power BI 데이터 흐름에 대한 데이터 원본에 연결
 
@@ -186,4 +186,4 @@ Power BI 데이터 흐름에서 데이터 원본에 연결하는 데 필요한 �
 * [예약된 새로 고침 구성](../connect-data/refresh-scheduled-refresh.md)
 
 공통 데이터 모델에 대한 자세한 내용은 해당 개요 문서를 참조할 수 있습니다.
-* [공통 데이터 모델 - 개요 ](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [공통 데이터 모델 - 개요 ](/powerapps/common-data-model/overview)

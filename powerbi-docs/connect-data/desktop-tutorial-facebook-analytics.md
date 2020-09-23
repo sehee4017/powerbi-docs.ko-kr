@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 2add0d99ac9b8aab7ad60f51a89df5910b9ce8af
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 02ffd0881344c8f2bef45301c25e363981d64646
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83286156"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965346"
 ---
 # <a name="tutorial-analyze-facebook-data-by-using-power-bi-desktop"></a>자습서:  Power BI Desktop을 사용하여 Facebook 데이터 분석
 
@@ -114,7 +114,7 @@ Power Query 편집기에서 데이터를 셰이핑하고 변환할 때 각 단�
    ![적용된 단계](media/desktop-tutorial-facebook-analytics/applied-steps.png)
    
    >[!TIP]
-   >**적용된 단계**의 기초는 [파워 쿼리 M 수식 언어](https://docs.microsoft.com/powerquery-m/quick-tour-of-the-power-query-m-formula-language)로 작성된 수식입니다. 수식을 보고 편집하려면 리본 메뉴의 **홈** 탭에 있는 **쿼리** 그룹에서 **고급 편집기**를 선택합니다. 
+   >**적용된 단계**의 기초는 [파워 쿼리 M 수식 언어](/powerquery-m/quick-tour-of-the-power-query-m-formula-language)로 작성된 수식입니다. 수식을 보고 편집하려면 리본 메뉴의 **홈** 탭에 있는 **쿼리** 그룹에서 **고급 편집기**를 선택합니다. 
 
 ### <a name="import-the-transformed-data"></a>변환된 데이터 가져오기
 
@@ -251,7 +251,6 @@ Power Query 편집기에서 데이터를 셰이핑하고 변환할 때 각 단�
 Power BI Desktop은 다양한 데이터 원본에서 데이터를 가져오고 이 데이터를 풍부한 대화형 방식으로 시각화하기 위해 분석 요구 사항에 맞게 모양을 지정하는 원활한 엔드투엔드 환경을 제공합니다. 보고서가 준비되면 [Power BI 서비스로 업로드](../create-reports/desktop-upload-desktop-files.md)하고, 보고서에 따라 대시보드를 만든 후, 다른 Power BI 사용자와 공유할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
-* [다른 Power BI Desktop 자습서 참고](https://go.microsoft.com/fwlink/?LinkID=521937)
-* [Power BI Desktop 동영상 시청](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [Power BI를 위한 Microsoft Learn](/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 * [Power BI 포럼 방문](https://go.microsoft.com/fwlink/?LinkID=519326)
 * [Power BI 블로그 참고](https://go.microsoft.com/fwlink/?LinkID=519327)

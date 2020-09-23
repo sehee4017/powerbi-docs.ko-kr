@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: aa05ffa7ba07ea1daf162f8ebb2baa3d18f64b29
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7dadfd405eb13acd9b1db757e6123278fbfcfeef
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75256359"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857212"
 ---
 # <a name="migrate-your-subscription-to-the-new-go-local-german-regions"></a>새 “Go Local” 독일어 지역으로 구독 마이그레이션
 
-기존 Microsoft Cloud Germany(Microsoft Cloud Deutschland) 고객은 곧 Power BI 사용자를 새 “Go Local” 독일어 지역으로 마이그레이션할 수 있게 됩니다. 마이그레이션 프로세스를 시작하는 첫 번째 단계는 새 독일어 데이터 센터 지역으로 [Microsoft 지원 마이그레이션을 옵트인(opt in)](https://aka.ms/office365germanymoveoptin)하는 것입니다.
+기존 Microsoft Cloud Germany(Microsoft Cloud Deutschland) 고객은 곧 Power BI 사용자를 새 “Go Local” 독일어 지역으로 마이그레이션할 수 있게 됩니다. 마이그레이션 프로세스를 시작하는 첫 번째 단계는 새 독일어 데이터 센터 지역으로 [Microsoft 지원 마이그레이션을 옵트인(opt in)](/microsoft-365/enterprise/ms-cloud-germany-migration-opt-in)하는 것입니다.
 
 조직이 옵트인하면 2020년에 마이그레이션이 시작됩니다. 핵심 고객 데이터와 구독이 새 “Go Local” 독일어 지역으로 마이그레이션 됩니다.
 

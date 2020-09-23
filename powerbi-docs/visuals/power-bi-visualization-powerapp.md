@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 06/01/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 079689fe9c068f433eb39d5363e253fecfc39968
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 78d9d59455a86c5499bc8b01deeacb331bbe7a8b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85233204"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858925"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>자습서:  Power BI 보고서에 Power Apps 시각적 개체 포함
 
@@ -32,8 +32,8 @@ Power Apps 구독이 없는 경우 시작하기 전에 [무료 계정을 만듭�
 ## <a name="prerequisites"></a>필수 조건
 
 * [Google Chrome](https://www.google.com/chrome/browser/) 또는 [Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge) 브라우저
-* [기회 분석 샘플](https://docs.microsoft.com/power-bi/sample-opportunity-analysis#get-the-content-pack-for-this-sample)이 설치된 [Power BI 구독](https://docs.microsoft.com/power-bi/service-self-service-signup-for-power-bi)
-* [Power Apps에서 앱을 만드는 방법](https://docs.microsoft.com/powerapps/maker/canvas-apps/data-platform-create-app-scratch) 및 [Power BI 보고서를 편집하는 방법](https://docs.microsoft.com/power-bi/service-the-report-editor-take-a-tour)에 대한 이해
+* [기회 분석 샘플](../create-reports/sample-opportunity-analysis.md#get-the-content-pack-for-this-sample)이 설치된 [Power BI 구독](../fundamentals/service-self-service-signup-for-power-bi.md)
+* [Power Apps에서 앱을 만드는 방법](/powerapps/maker/canvas-apps/data-platform-create-app-scratch) 및 [Power BI 보고서를 편집하는 방법](../create-reports/service-the-report-editor-take-a-tour.md)에 대한 이해
 
 
 
@@ -105,8 +105,8 @@ Power BI 보고서의 슬라이서에서 **1월**을 선택합니다. 이 경우
 기회 분석 샘플을 더 이상 사용하지 않으려는 경우 대시보드, 보고서 및 데이터 세트를 삭제할 수 있습니다.
 
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
-문제 해결 정보는 [Power BI용 Power Apps 시각적 개체](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visual#limitations-of-the-power-apps-visual)를 참조하세요.
+문제 해결 정보는 [Power BI용 Power Apps 시각적 개체](/powerapps/maker/canvas-apps/powerapps-custom-visual#limitations-of-the-power-apps-visual)를 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 [질문 및 답변 시각적 개체](power-bi-visualization-types-for-reports-and-q-and-a.md)    
-[자습서: Power BI 보고서에 Power Apps 시각적 개체 포함](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visual)    
+[자습서: Power BI 보고서에 Power Apps 시각적 개체 포함](/powerapps/maker/canvas-apps/powerapps-custom-visual)

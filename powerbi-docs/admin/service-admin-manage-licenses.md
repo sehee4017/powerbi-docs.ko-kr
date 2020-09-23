@@ -10,12 +10,12 @@ ms.date: 04/08/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: af58a79c5c81e8f04e5d0ba714703c202f9c8000
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 6eb123ec9a9549c54e311682fdccce451d8552a9
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161356"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857269"
 ---
 # <a name="view-and-manage-power-bi-user-licenses"></a>Power BI 사용자 라이선스 보기 및 관리
 
@@ -37,11 +37,11 @@ ms.locfileid: "86161356"
 
   ![무료 구독을 보여 주는 Power BI 구독의 스크린샷.](media/service-admin-manage-licenses/power-bi-free-user-activated.png)
 
-이 구독 유형은 사용자가 셀프 서비스 등록을 활용할 때 생성됩니다. 자세한 내용은 [조직의 Power BI](https://docs.microsoft.com/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide)를 참조하세요.
+이 구독 유형은 사용자가 셀프 서비스 등록을 활용할 때 생성됩니다. 자세한 내용은 [조직의 Power BI](/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide)를 참조하세요.
 
 ## <a name="manage-user-licenses-in-microsoft-365"></a>Microsoft 365에서 사용자 라이선스 관리
 
-Microsoft 365 관리 센터를 사용하여 사용자 라이선스를 관리하려면 [비즈니스 구독 및 청구 설명서](https://docs.microsoft.com/microsoft-365/commerce/?view=o365-worldwide)를 참조하세요.
+Microsoft 365 관리 센터를 사용하여 사용자 라이선스를 관리하려면 [비즈니스 구독 및 청구 설명서](/microsoft-365/commerce/?view=o365-worldwide)를 참조하세요.
 
 ## <a name="manage-user-licenses-in-azure-portal"></a>Azure Portal에서 사용자 라이선스 관리
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 01/07/2020
 ms.author: maggies
-ms.openlocfilehash: d8e36a9eba34b2c27c9ce6f86edfafa568bccf90
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: cf205603a4807b814e56904151e0ce8db66cfab1
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236313"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853543"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Power BI Report Server에 페이지를 매긴 보고서 만들기
 이 문서에서는 몇 가지 간단한 단계를 거쳐 Power BI Report Server에 페이지를 매긴 보고서를 만듭니다.
@@ -60,7 +60,7 @@ SSRS 서버에 보고서를 만들기 위해 보고서 작성기를 이미 설�
    
     ![차트 마법사: 데이터 세트 선택](media/quickstart-create-paginated-report/reportserver-paginated-choose-dataset.png)
    
-     데이터 세트를 만들어야 하나요? [공유 또는 포함된 데이터 세트 만들기](https://docs.microsoft.com/sql/reporting-services/report-data/create-a-shared-dataset-or-embedded-dataset-report-builder-and-ssrs)를 참조하세요.
+     데이터 세트를 만들어야 하나요? [공유 또는 포함된 데이터 세트 만들기](/sql/reporting-services/report-data/create-a-shared-dataset-or-embedded-dataset-report-builder-and-ssrs)를 참조하세요.
 2. 이 경우에는 차트 유형에서 가로 막대형 차트를 선택합니다.
    
     ![차트 마법사: 차트 종류](media/quickstart-create-paginated-report/reportserver-paginated-choose-chart-type.png)
@@ -81,7 +81,7 @@ SSRS 서버에 보고서를 만들기 위해 보고서 작성기를 이미 설�
 
 방금 만든 차트를 수정하여 레이아웃, 값, 범례 등 무엇이든지 변경할 수 있습니다.
 
-계기, 테이블, 행렬, 테이블, 맵 등 모든 종류의 다른 시각화를 추가할 수 있습니다. 여러 페이지에서 머리글과 바닥글을 추가할 수 있습니다. [보고서 작성기 자습서](https://docs.microsoft.com/sql/reporting-services/report-builder-tutorials)를 참조하여 사용해보세요.
+계기, 테이블, 행렬, 테이블, 맵 등 모든 종류의 다른 시각화를 추가할 수 있습니다. 여러 페이지에서 머리글과 바닥글을 추가할 수 있습니다. [보고서 작성기 자습서](/sql/reporting-services/report-builder-tutorials)를 참조하여 사용해보세요.
 
 ![보고서 작성기 디자인 보기](media/quickstart-create-paginated-report/reportserver-paginated-finished-design-report.png)
 
@@ -96,8 +96,7 @@ SSRS 서버에 보고서를 만들기 위해 보고서 작성기를 이미 설�
 ## <a name="next-steps"></a>다음 단계
 SQL Server Data Tools의 보고서 작성기 및 보고서 디자이너에서 보고서를 디자인하기 위한 많은 유용한 리소스가 있습니다. 보고서 작성기 자습서를 시작하는 것이 좋습니다.
 
-* [보고서 작성기 자습서](https://docs.microsoft.com/sql/reporting-services/report-builder-tutorials)
+* [보고서 작성기 자습서](/sql/reporting-services/report-builder-tutorials)
 * [Power BI Report Server란?](get-started.md)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
-

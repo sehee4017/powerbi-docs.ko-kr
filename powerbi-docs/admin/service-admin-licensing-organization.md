@@ -10,12 +10,12 @@ ms.date: 06/24/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 276770b677d85e0e125e7dd87bb0a800248d71c2
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 825b336a96b998c04b019195ad3f3beea96d0a19
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161476"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857292"
 ---
 # <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>조직의 사용자에 대한 Power BI 서비스 라이선스 부여
 
@@ -27,7 +27,7 @@ ms.locfileid: "86161476"
 
 ## <a name="who-can-purchase-and-assign-licenses"></a>라이선스는 누가 구매하고 할당할 수 있나요?
 
-조직의 라이선스를 구매하거나 할당하려면 관리자 역할이 할당되어야 합니다. 관리자 역할은 Azure Active Directory 관리 센터 또는 Microsoft 365 관리 센터를 사용하여 할당됩니다. 다음 표에서는 구매 및 라이선싱과 관련된 작업을 수행하는 데 필요한 역할을 보여 줍니다. Azure Active Directory의 관리자 역할 할당에 대한 자세한 내용은 [Azure Active Directory에서 관리자 역할 보기 및 할당](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal)을 참조하세요. 모범 사례를 포함하여 Microsoft 365의 관리자 역할에 대한 자세한 내용은 [관리자 역할 정보](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)를 참조하세요.
+조직의 라이선스를 구매하거나 할당하려면 관리자 역할이 할당되어야 합니다. 관리자 역할은 Azure Active Directory 관리 센터 또는 Microsoft 365 관리 센터를 사용하여 할당됩니다. 다음 표에서는 구매 및 라이선싱과 관련된 작업을 수행하는 데 필요한 역할을 보여 줍니다. Azure Active Directory의 관리자 역할 할당에 대한 자세한 내용은 [Azure Active Directory에서 관리자 역할 보기 및 할당](/azure/active-directory/users-groups-roles/directory-manage-roles-portal)을 참조하세요. 모범 사례를 포함하여 Microsoft 365의 관리자 역할에 대한 자세한 내용은 [관리자 역할 정보](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)를 참조하세요.
 
 | 서비스 및 라이선스는 누가 구매할 수 있나요? | 사용자 라이선스는 누가 관리할 수 있나요? |
 | --------------- | --------------- |

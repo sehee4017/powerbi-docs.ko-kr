@@ -10,12 +10,12 @@ ms.date: 05/13/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 8f5fd85887a7866513c06c984c5207527400a67c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 99d1f9543625ab564db305b50b196b1e6fcdebef
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228228"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857246"
 ---
 # <a name="get-a-power-bi-service-subscription-for-your-organization"></a>조직의 Power BI 서비스 구독 가져오기
 
@@ -55,7 +55,7 @@ Microsoft 365 관리 센터에서 Power BI Pro 라이선스를 구매하려면 �
 
 8. 구매를 확인하려면 **청구** > **제품 및 서비스**로 이동해 **Power BI Pro**를 찾습니다.
 
-조직에서 Power BI 서비스를 제어 및 획득하는 방법에 대한 자세한 내용은 [조직의 Power BI](https://docs.microsoft.com/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide)를 참조하세요.
+조직에서 Power BI 서비스를 제어 및 획득하는 방법에 대한 자세한 내용은 [조직의 Power BI](/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide)를 참조하세요.
 
 ## <a name="more-ways-to-get-power-bi-for-your-organization"></a>조직용 Power BI를 얻는 기타 방법
 
@@ -98,4 +98,4 @@ Power BI 구독에 등록하려면 회사 또는 학교 계정이 필요합니�
 
 - [사용자 라이선스 보기 및 관리](service-admin-manage-licenses.md)
 - [셀프 서비스 등록 및 구매 사용 또는 사용 안 함](service-admin-disable-self-service.md)
-- [비즈니스 구독 및 청구 설명서](https://docs.microsoft.com/microsoft-365/commerce/?view=o365-worldwide)
+- [비즈니스 구독 및 청구 설명서](/microsoft-365/commerce/?view=o365-worldwide)

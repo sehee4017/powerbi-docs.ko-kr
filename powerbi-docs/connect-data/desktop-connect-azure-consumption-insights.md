@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5e76cdfc2fd8ad4a90290ecaa559d502d5f847e6
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: a8d2284a24bb04b175a00a69339ba9e6ac260c10
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034431"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858628"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Power BI Desktop에서 Azure Consumption Insights 데이터에 연결
 
@@ -178,7 +178,7 @@ Azure Consumption Insights를 사용하면 Azure Enterprise Agreement 청구 계
 또한 Azure는 [**ACI(Azure 소비 및 정보) API**](https://azure.microsoft.com/blog/announcing-general-availability-of-consumption-and-charge-apis-for-enterprise-azure-customers/)를 제공합니다. ACI API를 사용하여 Azure 사용량 정보를 수집, 보고 및 시각화하도록 고유한 사용자 지정 솔루션을 만들 수 있습니다.
 
 ### <a name="mapping-names-and-usage-details-between-the-portal-the-connector-and-the-api"></a>포털, 커넥터 및 API 간에 이름 및 사용 세부 정보 매핑
-Azure Portal의 열 및 세부 정보 이름은 API와 커넥터에서 비슷하지만 항상 동일하지는 않습니다. 다음 표에서는 명확한 설명을 위해 매핑을 제공합니다. 또한 열이 사용되지 않았는지 여부를 표시합니다. 자세한 내용과 용어 정의는 [Azure 청구 데이터 사전](https://docs.microsoft.com/azure/billing/billing-enterprise-api-usage-detail)을 참조하세요.
+Azure Portal의 열 및 세부 정보 이름은 API와 커넥터에서 비슷하지만 항상 동일하지는 않습니다. 다음 표에서는 명확한 설명을 위해 매핑을 제공합니다. 또한 열이 사용되지 않았는지 여부를 표시합니다. 자세한 내용과 용어 정의는 [Azure 청구 데이터 사전](/azure/billing/billing-enterprise-api-usage-detail)을 참조하세요.
 
 | ACI 커넥터/ContentPack ColumnName | ACI API 열 이름 | EA 열 이름 | 사용되지 않음/이전 버전과의 호환성 표시 |
 | --- | --- | --- | --- |
@@ -238,4 +238,4 @@ Power BI Desktop을 사용하여 다양한 데이터 원본에 연결할 수 있
 * [Power BI Desktop의 데이터 원본](desktop-data-sources.md)
 * [Power BI Desktop에서 데이터 셰이핑 및 결합](desktop-shape-and-combine-data.md)
 * [Power BI Desktop에서 Excel 통합 문서에 연결](desktop-connect-excel.md)   
-* [Power BI Desktop에 데이터 직접 연결](desktop-enter-data-directly-into-desktop.md)   
+* [Power BI Desktop에 데이터 직접 연결](desktop-enter-data-directly-into-desktop.md)

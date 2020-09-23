@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/11/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 0d09fd8c931a92828d11b5813e57e0691c848dc0
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: abd12abf852a220399847bee7903ea83cff1386b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214146"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853612"
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Power BI Desktop을 사용한 쿼리 개요
 Power BI Desktop을 사용하면 데이터 세계에 연결하여 강력하고 근본적인 보고서를 만들고, 다른 사용자와 작업을 공유할 수 있습니다. 이러한 사용자는 해당 작업을 기반으로 하여 비즈니스 인텔리전스 작업을 확장할 수 있습니다.
@@ -81,7 +81,7 @@ Power Query 편집기의 리본 메뉴는 다음 네 개의 탭으로 구성됩�
 
 ![홈 탭을 보여 주는 Power BI Desktop의 스크린샷.](media/desktop-query-overview/queryoverview_transformribbon.png)
 
-데이터를 변환하는 방법에 대한 자세한 내용과 예제는 다음 [자습서를 참조하세요. Power BI Desktop에서 데이터를 셰이핑하고 결합합니다](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data).
+데이터를 변환하는 방법에 대한 자세한 내용과 예제는 다음 [자습서를 참조하세요. Power BI Desktop에서 데이터를 셰이핑하고 결합합니다](../connect-data/desktop-shape-and-combine-data.md).
 
 **열 추가** 탭에서는 열 추가, 열 데이터 형식 지정 및 사용자 지정 열 추가와 관련된 추가 작업을 제공합니다. 다음 그림은 **열 추가** 탭을 보여 줍니다.  
 
@@ -145,4 +145,4 @@ Power BI Desktop에서 모든 종류의 작업을 수행할 수 있습니다. �
 * [Power BI Desktop의 데이터 원본](../connect-data/desktop-data-sources.md)
 * [Power BI Desktop에서 데이터에 연결](../connect-data/desktop-connect-to-data.md)
 * [자습서: Power BI Desktop에서 데이터 셰이핑 및 결합](../connect-data/desktop-shape-and-combine-data.md)
-* [Power BI Desktop의 일반적인 쿼리 작업 수행](desktop-common-query-tasks.md)   
+* [Power BI Desktop의 일반적인 쿼리 작업 수행](desktop-common-query-tasks.md)

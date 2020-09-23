@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/28/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6f9661b6cda8782e83e64e30f55ae4b0d8bf6fa2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bb55342974bcd64e7d5871b7b84977105b7467fa
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224871"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858695"
 ---
 # <a name="connect-to-analysis-services-tabular-data-in-power-bi-desktop"></a>Power BI Desktop의 Analysis Services 표 형식 데이터에 연결
 Power BI Desktop에서 SQL Server Analysis Services 테이블 형식 모델의 데이터에 연결하여 데이터를 가져올 수 있는 방법은 다음 두 가지입니다. 라이브 연결을 사용하여 탐색하거나, 항목을 선택하고 Power BI Desktop으로 가져옵니다.
@@ -81,7 +81,7 @@ Power BI Desktop에 동적 보고서를 만들 경우 Power BI 사이트에 게�
 **답변:** 예. 테이블 형식 모델에서 사용하는 기능에 따라 Power BI Desktop의 환경이 변경될 수 있습니다. 일부 사례:
 * 모델의 측정값이 열과 함께 테이블이 아니라 **필드** 창 목록 맨 위에 그룹화될 수도 있습니다. 걱정하지 마세요. 정상적으로 계속 사용할 수 있으며, 이 방식으로 측정값을 찾는 것이 더 간편합니다.
 
-* 테이블 형식 모델에 계산 그룹이 정의되어 있을 경우 모델 측정값과 함께 사용해야 하며 시각적 개체에 숫자 필드를 추가하여 만든 암시적 측정값과 함께 사용할 수 없습니다. 모델에 동일한 효과를 가진 **DiscourageImplicitMeasures** 플래그가 수동으로 설정되어 있을 수도 있습니다. 자세한 내용은 [Analysis Services의 계산 그룹](https://docs.microsoft.com/analysis-services/tabular-models/calculation-groups#benefits)을 참조하세요.
+* 테이블 형식 모델에 계산 그룹이 정의되어 있을 경우 모델 측정값과 함께 사용해야 하며 시각적 개체에 숫자 필드를 추가하여 만든 암시적 측정값과 함께 사용할 수 없습니다. 모델에 동일한 효과를 가진 **DiscourageImplicitMeasures** 플래그가 수동으로 설정되어 있을 수도 있습니다. 자세한 내용은 [Analysis Services의 계산 그룹](/analysis-services/tabular-models/calculation-groups#benefits)을 참조하세요.
 
 ## <a name="to-change-the-server-name-after-initial-connection"></a>최초 연결 후 서버 이름을 변경하려면
 탐색 라이브 연결이 있는 Power BI Desktop 파일을 만든 후 다른 서버로 연결 전환이 필요한 상황이 발생할 수 있습니다. 예를 들어, 개발 서버에 연결할 때 Power BI Desktop 파일을 만들었으며 Power BI 서비스에 게시하기 전에 프러덕션 서버로 연결을 전환하려는 경우가 있습니다.
@@ -97,4 +97,3 @@ Power BI Desktop에 동적 보고서를 만들 경우 Power BI 사이트에 게�
 다음 목록에서는 SSAS(SQL Server Analysis Services) 또는 Azure Analysis Services에 연결하는 경우에 발생하는 알려진 모든 문제를 설명합니다. 
 
 * **오류: 모델 스키마를 로드할 수 없습니다.** Analysis Services에 연결 중인 사용자가 데이터베이스/모델에 액세스할 수 없는 경우에 일반적으로 이 오류가 발생합니다.
-

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: ac5eb41aa248eeebf2cbfb6d53e327e2a3e83fdd
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 0717ad71d3065043a3bff8305c051cdce40e7329
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537622"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965069"
 ---
 # <a name="dax-avoid-converting-blanks-to-values"></a>DAX: 공백을 값으로 변환하지 마세요.
 
@@ -79,6 +79,6 @@ DIVIDE([Profit], [Sales])
 이 문서에 대한 자세한 내용은 다음 리소스를 참조하세요.
 
 - [DAX(Data Analysis Expressions) 참조](/dax/)
-- 학습 경로: [Power BI Desktop에서 DAX 사용](https://docs.microsoft.com/learn/paths/dax-power-bi/)
+- 학습 경로: [Power BI Desktop에서 DAX 사용](/learn/paths/dax-power-bi/)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 - 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com)
