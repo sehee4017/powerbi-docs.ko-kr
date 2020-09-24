@@ -28,7 +28,9 @@
           href: mobile-apps-data-in-real-world-context.md
         - name: 모바일 앱에서 오프라인 데이터 보기
           href: mobile-apps-offline-data.md
-        - name: 혼합 현실용 Power BI 앱(미리 보기)
+        - name: HoloLens 2용 Power BI
+          href: mobile-hololens2-app.md
+        - name: HoloLens용 Power BI(1세대)
           href: mobile-mixed-reality-app.md
     - name: 방법
       items:

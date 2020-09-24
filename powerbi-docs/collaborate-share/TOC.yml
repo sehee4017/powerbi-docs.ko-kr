@@ -51,7 +51,9 @@
           items:
             - name: Teams에서 협업
               href: service-collaborate-microsoft-teams.md
-            - name: Teams에 보고서 포함
+            - name: Teams에 Power BI 앱 추가
+              href: service-microsoft-teams-app.md
+            - name: Teams 탭에 보고서 포함
               href: service-embed-report-microsoft-teams.md
             - name: Teams에 직접 공유
               href: service-share-report-teams.md

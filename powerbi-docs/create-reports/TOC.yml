@@ -269,6 +269,8 @@
               href: ../visuals/power-bi-visualization-combo-chart.md
             - name: 분해 트리 시각적 개체
               href: ../visuals/power-bi-visualization-decomposition-tree.md
+            - name: 스마트 설명
+              href: ../visuals/power-bi-visualization-smart-narrative.md
             - name: 도넛형 차트
               href: ../visuals/power-bi-visualization-doughnut-charts.md
             - name: 등치 지역도(코로플레스)
