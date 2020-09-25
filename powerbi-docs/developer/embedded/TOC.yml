@@ -28,6 +28,8 @@
           href: embedded-capacity.md
         - name: 용량 계획
           href: embedded-capacity-planning.md
+        - name: embed 토큰을 생성하기 위한 고려 사항
+          href: generate-embed-token.md
         - name: 성능 모범 사례
           href: embedded-performance-best-practices.md
         - name: 행 수준 보안
