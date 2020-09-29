@@ -6,15 +6,16 @@ ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 05/06/2020
-ms.openlocfilehash: 8ce11c0ac6a5098c49f4d8aba0b0a09f28be975b
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.custom: contperfq1
+ms.date: 09/15/2020
+ms.openlocfilehash: 8f486d1f872aec8eaec096bf01d5d36a314c5cef
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86557259"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855777"
 ---
-# <a name="get-started-with-deployment-pipelines-preview"></a>배포 파이프라인 시작(미리 보기)
+# <a name="get-started-with-deployment-pipelines"></a>배포 파이프라인 시작
 
 이 문서에서는 배포 파이프라인을 사용하는 데 필요한 기본 설정을 안내합니다.
 
@@ -35,13 +36,31 @@ ms.locfileid: "86557259"
 
 ## <a name="step-1---create-a-deployment-pipeline"></a>1단계 - 배포 파이프라인 만들기
 
-배포 파이프라인을 만들려면 다음을 수행합니다.
-
-1. Power BI 서비스의 탐색 창에서 **배포 파이프라인**을 선택하고 **파이프라인 만들기**를 클릭합니다.
-
-2. ‘배포 파이프라인 만들기’ 대화 상자에서 파이프라인의 이름 및 설명을 입력하고 **만들기**를 클릭합니다.
+배포 파이프라인 탭 또는 작업 영역에서 파이프라인을 만들 수 있습니다.
 
 파이프라인이 생성되면 다른 사용자와 공유하거나 삭제할 수 있습니다. 다른 사용자와 파이프라인을 공유하는 경우 파이프라인을 공유하는 사용자에게 [파이프라인 액세스 권한](deployment-pipelines-process.md#user-with-pipeline-access)이 제공됩니다. 파이프라인 액세스 권한이 있는 사용자는 파이프라인을 보고, 공유하고, 편집하고, 삭제할 수 있습니다.
+
+### <a name="create-a-pipeline-from-the-deployment-pipelines-tab"></a>배포 파이프라인 탭에서 파이프라인 만들기
+
+배포 파이프라인 탭에서 파이프라인을 만들려면 다음을 수행합니다.
+
+1. Power BI 서비스의 탐색 창에서 **배포 파이프라인**을 선택한 다음 **파이프라인 만들기**를 선택합니다.
+
+2. 배포 파이프라인 만들기 대화 상자에서 파이프라인의 이름 및 설명을 입력하고 **만들기**를 선택합니다.
+
+### <a name="create-a-pipeline-from-a-workspace"></a>작업 영역에서 파이프라인 만들기
+
+[새 작업 영역 환경](../collaborate-share/service-create-the-new-workspaces.md)의 관리자라면 기존 작업 영역에서 파이프라인을 만들 수 있습니다.
+
+1. 작업 영역에서 **파이프라인 만들기**를 선택합니다.
+
+    > [!div class="mx-imgBorder"]
+    > ![작업 영역의 파이프라인 만들기 단추 스크린샷](media/deployment-pipelines-get-started/workspace-deploy.png)
+
+2. 배포 파이프라인 만들기 대화 상자에서 파이프라인의 이름 및 설명을 입력하고 **만들기**를 선택합니다.
+
+>[!NOTE]
+>작업 영역이 조직의 프리미엄 용량에 할당되지 않은 경우 [용량에 할당](../admin/service-admin-premium-manage.md#assign-a-workspace-to-a-capacity)하라는 알림을 받게 됩니다.  
 
 ## <a name="step-2---assign-a-workspace-to-a-deployment-pipeline"></a>2단계 - 배포 파이프라인에 작업 영역 할당
 
@@ -51,9 +70,12 @@ ms.locfileid: "86557259"
 
 배포 파이프라인에서 작업 영역을 할당하려면 다음 단계를 수행합니다.
 
-1. 새로 만든 배포 파이프라인에서 **작업 영역**할당을 클릭합니다.
+1. 새로 만든 배포 파이프라인에서 **작업 영역 할당**을 선택합니다.
 
 2. ‘작업 영역 선택’ 드롭다운 메뉴에서 파이프라인에 할당할 작업 영역을 선택합니다.
+
+    >[!NOTE]
+    >작업 영역에서 파이프라인을 만드는 경우 작업 영역이 이미 선택되어 있으므로 이 단계를 건너뛸 수 있습니다.
 
 3. 작업 영역을 할당하려는 단계를 선택합니다.
 
@@ -82,13 +104,13 @@ ms.locfileid: "86557259"
 
 ### <a name="deploying-all-content"></a>모든 콘텐츠 배포
 
-배포할 단계를 선택하고 배포 단추를 클릭합니다. 배포 프로세스가 대상 단계에서 중복 작업 영역을 만듭니다. 이 작업 영역에는 현재 단계의 기존 콘텐츠가 모두 포함됩니다.
+배포할 단계를 선택한 다음 배포 단추를 선택합니다. 배포 프로세스가 대상 단계에서 중복 작업 영역을 만듭니다. 이 작업 영역에는 현재 단계의 기존 콘텐츠가 모두 포함됩니다.
 
 [![배포 파이프라인의 개발 및 테스트 단계에 대한 배포 단추를 보여주는 스크린샷](media/deployment-pipelines-get-started/deploy.png)](media/deployment-pipelines-get-started/deploy.png#lightbox)
 
 ### <a name="selective-deployment"></a>선택적 배포
 
-특정 항목만 배포하려면 **자세히 표시** 링크를 클릭하고 배포하려는 항목을 선택합니다. 배포 단추를 클릭하면 선택한 항목만 다음 단계에 배포됩니다.
+특정 항목만 배포하려면 **자세히 표시** 링크를 선택한 다음 배포할 항목을 선택합니다. 배포 단추를 클릭하면 선택한 항목만 다음 단계에 배포됩니다.
 
 대시보드, 보고서 및 데이터 세트는 서로 관련되어 있고 종속성이 있으므로 관련 항목 선택 단추를 사용하여 해당 항목이 종속된 모든 항목을 확인할 수 있습니다. 예를 들어 보고서를 다음 단계에 배포하려는 경우 관련 항목 선택 단추를 클릭하면 보고서가 연결된 데이터 세트가 표시되므로 두 항목을 모두 한 번에 배포하고 보고서가 중단되지 않습니다.
 
@@ -119,7 +141,7 @@ ms.locfileid: "86557259"
 
 ### <a name="create-a-dataset-rule"></a>데이터 세트 규칙 만들기
 
-1. 데이터 세트 규칙을 만들려는 파이프라인 단계에서 **배포 설정**를 클릭합니다.
+1. 데이터 세트 규칙을 만들려는 파이프라인 단계에서 **배포 설정**을 선택합니다.
 
     ![각 배포 파이프라인 단계의 오른쪽 위에 있는 배포 설정 단추의 스크린샷](media/deployment-pipelines-get-started/deployment-settings.png)
 
@@ -127,7 +149,7 @@ ms.locfileid: "86557259"
 
     [![데이터 세트 규칙을 만들기 위한 데이터 세트 선택을 보여주는 스크린샷](media/deployment-pipelines-get-started/dataset-rules.png)](media/deployment-pipelines-get-started/dataset-rules.png#lightbox)
 
-3. 만들려는 규칙의 유형을 선택하고 목록을 확장 한 다음 **규칙 추가**를 클릭합니다.
+3. 만들려는 규칙의 유형을 선택하고 목록을 확장한 다음 **규칙 추가**를 선택합니다.
 
      [![데이터 원본 규칙을 선택하고 규칙 추가 옵션을 클릭하는 것을 보여주는 스크린샷](media/deployment-pipelines-get-started/add-rule.png)](media/deployment-pipelines-get-started/add-rule.png#lightbox)
 
@@ -139,7 +161,7 @@ ms.locfileid: "86557259"
 
     1. 목록에서 선택합니다.
 
-    2. **기타**를 클릭하고 새 데이터 원본을 수동으로 추가합니다. 동일한 형식의 데이터 원본으로만 변경할 수 있습니다.
+    2. **기타**를 선택하고 새 데이터 원본을 수동으로 추가합니다. 동일한 형식의 데이터 원본으로만 변경할 수 있습니다.
 
 * **매개 변수 규칙** 매개 변수 목록에서 매개 변수를 선택합니다. 현재 값이 표시됩니다. 값을 각 배포 후 적용하려는 값으로 편집합니다.
 
@@ -153,7 +175,7 @@ ms.locfileid: "86557259"
 
 * 규칙에 정의된 데이터 원본 또는 매개 변수가 원본 데이터 세트에서 변경되거나 제거되면 규칙이 유효하지 않게 되고 배포가 실패합니다.
 
-* 형식이 *Any* 또는 *Binary*인 매개 변수에 대해서는 매개 변수 규칙을 정의할 수 없습니다. 자세한 내용은 [데이터 세트 업데이트 매개 변수 제한](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparameters)을 참조하세요.
+* 형식이 *Any* 또는 *Binary*인 매개 변수에 대해서는 매개 변수 규칙을 정의할 수 없습니다. 자세한 내용은 [데이터 세트 업데이트 매개 변수 제한](/rest/api/power-bi/datasets/updateparameters)을 참조하세요.
 
 * 데이터 원본 규칙은 다음 데이터 원본에 대해서만 정의할 수 있습니다.
     * Azure Analysis Services
@@ -172,7 +194,7 @@ ms.locfileid: "86557259"
 
 콘텐츠를 한 파이프라인 단계에 배포했으면 이를 다음 단계에 배포할 수 있습니다. 다른 단계에 콘텐츠를 배포하는 작업은 일반적으로 파이프라인에서 일부 작업을 수행한 후에 진행됩니다. 예를 들어 개발 단계에서 콘텐츠를 변경하거나 테스트 단계에서 콘텐츠를 테스트하는 등의 작업입니다. 단계 간에 콘텐츠를 이동하는 일반적인 워크플로는 개발 단계에서 테스트 단계로, 그런 다음 테스트 단계에서 프로덕션 단계로의 이동입니다. 이 프로세스에 대한 자세한 내용은 [기존 작업 영역에 콘텐츠 배포](deployment-pipelines-process.md#deploy-content-to-an-existing-workspace) 섹션에서 확인할 수 있습니다.
 
-배포 파이프라인의 다음 단계에 콘텐츠를 배포하려면 단계의 아래쪽에서 배포 단추를 클릭합니다.
+배포 파이프라인의 다음 단계에 콘텐츠를 배포하려면 단계의 아래쪽에서 배포 단추를 선택합니다.
 
 테스트 및 프로덕션 단계 카드를 검토할 때 마지막 배포 시간을 확인할 수 있습니다. 이는 콘텐츠가 단계에 배포된 마지막 시간을 나타냅니다.
 

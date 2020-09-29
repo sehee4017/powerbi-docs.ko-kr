@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: cecb78ec986ddf672a9560598ccf68c95fa5d659
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: ab3b250734e2c2c2b4d97d952357669761da9095
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034224"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854166"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi"></a>Power BI에서 Microsoft Cloud App Security 제어 사용
 
@@ -22,7 +22,7 @@ Power BI에서 Cloud App Security를 사용하면 의도하지 않은 유출이�
 
 ![Cloud App Security 제어 창 사용](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-01.png)
 
-Power BI뿐만 아니라 모든 종류의 앱과 서비스에 대해 Cloud App Security를 구성할 수 있습니다. Power BI 데이터 및 분석에 Cloud App Security 보호 기능을 활용하려면 Power BI에서 작동하도록 Cloud App Security를 구성해야 합니다. 작동 방식 개요, 대시보드, 앱 위험 점수를 포함한 Cloud App Security에 대한 자세한 내용은 [Cloud App Security](https://docs.microsoft.com/cloud-app-security/) 설명서를 참조하세요.
+Power BI뿐만 아니라 모든 종류의 앱과 서비스에 대해 Cloud App Security를 구성할 수 있습니다. Power BI 데이터 및 분석에 Cloud App Security 보호 기능을 활용하려면 Power BI에서 작동하도록 Cloud App Security를 구성해야 합니다. 작동 방식 개요, 대시보드, 앱 위험 점수를 포함한 Cloud App Security에 대한 자세한 내용은 [Cloud App Security](/cloud-app-security/) 설명서를 참조하세요.
 
 
 ## <a name="using-cloud-app-security-with-power-bi"></a>Power BI에서 Cloud App Security 사용
@@ -41,17 +41,17 @@ Power BI에서 Cloud App Security를 사용하려면 관련된 Microsoft 보안 
 ### <a name="set-session-policies-in-azure-ad-required"></a>Azure AD에서 세션 정책 설정(필수)
 세션 제어를 설정하는 데 필요한 단계는 Azure AD 및 Cloud App Security 포털에서 수행합니다. Azure AD 포털에서 Power BI에 대한 조건부 액세스 정책을 만들고, Cloud App Security 서비스를 통해 Power BI에서 사용되는 세션을 라우팅합니다. 
 
-Cloud App Security는 역방향 프록시 아키텍처를 사용하여 작동하며, Azure AD 조건부 액세스와 통합되어 Power BI 사용자 활동을 실시간으로 모니터링합니다. 다음 단계는 프로세스에 대한 이해를 돕기 위해 여기에 제공되었으며, 자세한 단계별 지침은 각 단계에 연결된 콘텐츠에서 제공됩니다. 전체 프로세스를 설명하는 [Cloud App Security 문서](https://docs.microsoft.com/cloud-app-security/proxy-deployment-aad)를 참조할 수도 있습니다.
+Cloud App Security는 역방향 프록시 아키텍처를 사용하여 작동하며, Azure AD 조건부 액세스와 통합되어 Power BI 사용자 활동을 실시간으로 모니터링합니다. 다음 단계는 프로세스에 대한 이해를 돕기 위해 여기에 제공되었으며, 자세한 단계별 지침은 각 단계에 연결된 콘텐츠에서 제공됩니다. 전체 프로세스를 설명하는 [Cloud App Security 문서](/cloud-app-security/proxy-deployment-aad)를 참조할 수도 있습니다.
 
-1.  [Azure AD 조건부 액세스 테스트 정책 만들기](https://docs.microsoft.com/cloud-app-security/proxy-deployment-aad#add-azure-ad)
-2.  [정책으로 범위가 지정된 사용자를 사용하여 각 앱에 로그인](https://docs.microsoft.com/cloud-app-security/proxy-deployment-aad#sign-in-scoped)
-3.  [앱이 액세스 및 세션 제어를 사용하도록 구성되었는지 확인](https://docs.microsoft.com/cloud-app-security/proxy-deployment-aad#portal)
-4.  [배포 테스트](https://docs.microsoft.com/cloud-app-security/proxy-deployment-aad#step-4-test-the-deployment)
+1.  [Azure AD 조건부 액세스 테스트 정책 만들기](/cloud-app-security/proxy-deployment-aad#add-azure-ad)
+2.  [정책으로 범위가 지정된 사용자를 사용하여 각 앱에 로그인](/cloud-app-security/proxy-deployment-aad#sign-in-scoped)
+3.  [앱이 액세스 및 세션 제어를 사용하도록 구성되었는지 확인](/cloud-app-security/proxy-deployment-aad#portal)
+4.  [배포 테스트](/cloud-app-security/proxy-deployment-aad#step-4-test-the-deployment)
 
-세션 정책 설정 프로세스는 [세션 정책](https://docs.microsoft.com/cloud-app-security/session-policy-aad) 문서에서 자세히 설명합니다. 
+세션 정책 설정 프로세스는 [세션 정책](/cloud-app-security/session-policy-aad) 문서에서 자세히 설명합니다. 
 
 ### <a name="set-anomaly-detection-policies-to-monitor-power-bi-activities-recommended"></a>변칙 검색 정책을 설정하여 Power BI 활동 모니터링(권장)
-정책에 포함하고 제외하려는 사용자 및 그룹에만 적용되도록 개별적으로 범위를 지정할 수 있는 Power BI 변칙 검색 정책을 정의할 수 있습니다. [자세히 알아봅니다](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy#scope-anomaly-detection-policies).
+정책에 포함하고 제외하려는 사용자 및 그룹에만 적용되도록 개별적으로 범위를 지정할 수 있는 Power BI 변칙 검색 정책을 정의할 수 있습니다. [자세히 알아봅니다](/cloud-app-security/anomaly-detection-policy#scope-anomaly-detection-policies).
 
 Cloud App Security에는 Power BI 전용의 두 가지 기본 제공 검색도 있습니다. [자세한 내용은 이 문서의 뒷부분에 있는 섹션을 참조하세요](#built-in-cloud-app-security-detections-for-power-bi).
 
@@ -69,7 +69,7 @@ Cloud App Security 검색을 통해 관리자는 모니터링되는 앱의 특�
 
 * **대량 보고서 공유** – 사용자가 단일 세션에서 대량의 보고서를 공유하는 경우를 검색합니다.
 
-이러한 검색의 설정은 Cloud App Security 포털에서 구성합니다. [자세히 알아봅니다](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy#unusual-activities-by-user). 
+이러한 검색의 설정은 Cloud App Security 포털에서 구성합니다. [자세히 알아봅니다](/cloud-app-security/anomaly-detection-policy#unusual-activities-by-user). 
 
 ## <a name="power-bi-admin-role-in-cloud-app-security"></a>Cloud App Security의 Power BI 관리자 역할
 
@@ -80,10 +80,9 @@ Power BI에서 Cloud App Security를 사용하면 사용자 세션 및 해당 �
 
 * Cloud App Security는 Excel, PowerPoint 및 PDF 파일에만 적용할 수 있습니다.
 * Power BI에 대한 세션 정책에 민감도 레이블 기능을 사용하려는 경우 Azure Information Protection Premium P1 또는 Premium P2 라이선스가 있어야 합니다. Microsoft Azure Information Protection은 독립 실행형으로 구입하거나 Microsoft 라이선스 제품군 중 하나를 통해 구입할 수 있습니다. 자세한 내용은 [Azure Information Protection 가격 책정](https://azure.microsoft.com/pricing/details/information-protection/)을 참조하세요. 또한 Power BI 자산에 민감도 레이블이 적용되어 있어야 합니다.
-* 모든 운영 체제의 모든 주요 플랫폼에 있는 모든 브라우저에서 세션 컨트롤을 사용할 수 있습니다. Internet Explorer 11, Microsoft Edge(최신 버전), Google Chrome(최신 버전), Mozilla Firefox(최신 버전) 또는 Apple Safari(최신 버전)를 사용하는 것이 좋습니다. Power BI 퍼블릭 API 호출 및 브라우저 기반이 아닌 기타 세션은 Cloud App Security 세션 컨트롤의 일부로 지원되지 않습니다. [자세한 내용을 참조하세요](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad#supported-apps-and-clients).
+* 모든 운영 체제의 모든 주요 플랫폼에 있는 모든 브라우저에서 세션 컨트롤을 사용할 수 있습니다. Internet Explorer 11, Microsoft Edge(최신 버전), Google Chrome(최신 버전), Mozilla Firefox(최신 버전) 또는 Apple Safari(최신 버전)를 사용하는 것이 좋습니다. Power BI 퍼블릭 API 호출 및 브라우저 기반이 아닌 기타 세션은 Cloud App Security 세션 컨트롤의 일부로 지원되지 않습니다. [자세한 내용을 참조하세요](/cloud-app-security/proxy-intro-aad#supported-apps-and-clients).
 
 > [!CAUTION]
-> * 현재 Cloud App Security의 ‘콘텐츠 검사’ 정책은 Excel 파일 정책을 적용할 때 Power BI에서 사용할 수 없으므로, Power BI에 대해 이 정책을 설정하면 안됩니다.
 > * 세션 정책의 “작업” 부분에서 “보호” 기능은 항목에 레이블이 없는 경우에만 적용됩니다. 레이블이 이미 있으면 “보호” 작업이 적용되지 않습니다. Power BI에서 항목에 이미 적용된 기존 레이블은 재정의할 수 없습니다.
 
 ## <a name="example"></a>예제
@@ -110,7 +109,7 @@ Power BI에서 Cloud App Security를 사용하면 사용자 세션 및 해당 �
 
       **활동 원본** 섹션에서 적절한 차단 정책을 선택합니다. 비관리형 디바이스와 비규격 디바이스를 차단하는 것이 좋습니다. 세션이 Power BI에 있을 때 다운로드를 차단하려면 선택합니다.
 
-        ![세션 정책 만들기](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-05.png)
+        ![세션 정책 만들기 - 다운로드 차단.](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-05.png)
 
         아래로 스크롤하면 더 많은 옵션이 표시됩니다. 다음 이미지는 이러한 옵션과 추가 예제를 보여 줍니다. 
 
@@ -119,28 +118,25 @@ Power BI에서 Cloud App Security를 사용하면 사용자 세션 및 해당 �
   6. 요구 사항에 맞는 **차단** 옵션을 선택합니다.
   7. 이러한 작업에 대한 경고를 만들어야 합니다.
 
-        ![세션 정책 설정 선택](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-06.png)
+        ![세션 정책 설정 선택.](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-06.png)
 
         
 
   8. 최종적으로, **만들기** 단추를 선택하여 세션 정책을 만들어야 합니다.
 
-        ![세션 정책 만들기](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-07.png)
-
-> [!CAUTION]
-> Power BI Excel 파일에 대해 **콘텐츠 검사** 정책을 만들면 안 됩니다. 이 기능의 알려진 제한 사항입니다.
+        ![세션 정책 만들기.](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-07.png)
 
 ## <a name="next-steps"></a>다음 단계
 이 문서에서는 Cloud App Security를 통해 Power BI에 데이터 및 콘텐츠 보호 기능을 제공할 수 있는 방법을 설명합니다. Power BI에 대한 데이터 보호 기능과 이 기능을 사용하도록 설정하는 Azure 서비스에 대한 지원 콘텐츠를 설명하는 다음 문서를 참조할 수도 있습니다.
 
 * [Power BI의 민감도 레이블 개요](service-security-sensitivity-label-overview.md)
 * [Power BI에서 민감도 레이블 사용](service-security-enable-data-sensitivity-labels.md)
-* [Power BI에서 민감도 레이블을 적용하는 방법](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
+* [Power BI에서 민감도 레이블을 적용하는 방법](service-security-apply-data-sensitivity-labels.md)
 
 다음 Azure 및 보안 문서도 유용할 수 있습니다.
 
-* [Microsoft Cloud App Security 조건부 액세스 앱 제어를 사용하여 앱 보호](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad)
-* [추천 앱을 위한 조건부 액세스 앱 제어 배포](https://docs.microsoft.com/cloud-app-security/proxy-deployment-aad)
-* [세션 정책](https://docs.microsoft.com/cloud-app-security/session-policy-aad)
-* [민감도 레이블 개요](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)
+* [Microsoft Cloud App Security 조건부 액세스 앱 제어를 사용하여 앱 보호](/cloud-app-security/proxy-intro-aad)
+* [추천 앱을 위한 조건부 액세스 앱 제어 배포](/cloud-app-security/proxy-deployment-aad)
+* [세션 정책](/cloud-app-security/session-policy-aad)
+* [민감도 레이블 개요](/microsoft-365/compliance/sensitivity-labels)
 * [데이터 보호 메트릭 보고서](service-security-data-protection-metrics-report.md)

@@ -1,5 +1,5 @@
 ---
-title: Power BI 소비자의 라이선스 유형
+title: Power BI 비즈니스 사용자의 라이선스 유형
 description: 다양한 라이선스 유형 및 보유한 라이선스를 확인하는 방법을 알아봅니다.
 author: mihart
 ms.reviewer: lukasz
@@ -7,22 +7,22 @@ ms.service: powerbi
 ms.subservice: powerbi-consumer
 Ms.custom: css_fy20Q4
 ms.topic: how-to
-ms.date: 07/15/2020
+ms.date: 09/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: 6e84158d01f1e257743052df4d621485497379fd
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: c46da515a4f0f58c0e9fe92f01a3a0eaeb68a1de
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86409493"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763945"
 ---
-# <a name="licenses-and-subscriptions-for-consumers"></a>소비자용 라이선스 및 구독
+# <a name="licenses-and-subscriptions-for-business-users"></a>비즈니스 사용자용 라이선스 및 구독
 
 [!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
-[‘소비자’](end-user-consumer.md)는 데이터 기반의 비즈니스 의사 결정을 내릴 수 있도록 보고서 및 대시보드를 탐색하는 데 Power BI 서비스를 사용할 수 있습니다. 한동안 Power BI를 사용해 왔거나 디자이너 동료와 얘기를 나눠 왔다면 특정 라이선스, 구독 또는 권한 유형을 보유한 경우에만 작동하는 특정 기능이 있다는 것을 알 수 있었을 것입니다.
+[비즈니스 사용자](end-user-consumer.md)는 데이터에 기반한 비즈니스 의사 결정을 내릴 수 있도록 Power BI 서비스를 사용하여 보고서 및 대시보드를 탐색할 수 있습니다. 한동안 Power BI를 사용해 왔거나 디자이너 동료와 얘기를 나눠 왔다면 특정 라이선스, 구독 또는 권한 유형을 보유한 경우에만 작동하는 특정 기능이 있다는 것을 알 수 있었을 것입니다.
 
 Power BI 서비스에서 수행할 수 있는 작업은 다음 세 가지 사항에 따라 다릅니다.
 -    사용하고 있는 라이선스 및 구독 유형
@@ -36,13 +36,13 @@ Power BI 서비스에서 수행할 수 있는 작업은 다음 세 가지 사항
 
 ## <a name="licenses"></a>라이선스
 
-각 Power BI 서비스 사용자는 *무료* 라이선스 또는 *Pro* 라이선스를 보유합니다. Power BI 소비자인 경우 Power BI 테넌트 관리자가 관리하는 라이선스를 사용하고 있을 것입니다.
+각 Power BI 서비스 사용자는 무료 라이선스 또는  라이선스를 보유합니다. Power BI 비즈니스 사용자인 경우 Power BI 테넌트 관리자가 관리하는 라이선스를 사용하고 있을 것입니다.
 
 동시에 둘 이상의 라이선스를 보유할 수 있습니다.  이 서비스는 항상 현재 보유한 최대로 허용되는 라이선스와 동일한 환경을 제공합니다.
 
 ## <a name="power-bi-premium-capacity"></a>Power BI 프리미엄 용량
 
-프리미엄은 전용 용량으로 콘텐츠를 저장하는 다양한 방법을 제공하는 조직 단위 구독입니다. 프리미엄을 사용하면 조직 내부 또는 외부 상관없이 권한이 있는 누구나 개별 Power BI Pro 라이선스를 구입하지 않고도 Power BI 콘텐츠를 볼 수 있습니다. 
+프리미엄은 전용 용량으로 콘텐츠를 저장하는 다양한 방법을 제공하는 조직 단위 구독입니다. 프리미엄을 사용하면 조직 내부 또는 외부 상관없이 권한이 있는 누구나 개별 Power BI Pro 라이선스를 구입하지 않고도 이 프리미엄 용량에 저장된 콘텐츠를 볼 수 있습니다. 
 
 프리미엄을 통해 콘텐츠를 보는 수신자에게 Pro 라이선스를 요구하지 않고도 Pro 사용자별 콘텐츠를 광범위하게 배포할 수 있습니다. 콘텐츠 디자이너에게는 Pro 라이선스가 필요합니다. 디자이너는 데이터 원본, 모델 데이터에 연결하여 작업 영역 앱으로 패키징된 보고서와 대시보드를 만듭니다. Pro 라이선스가 없는 사용자도 [해당 작업 영역에서 역할](end-user-workspaces.md)이 할당되어 있는 한 Power BI Premium 용량에 있는 작업 영역에 계속 액세스할 수 있습니다.
 
@@ -57,7 +57,7 @@ Power BI 서비스에서 수행할 수 있는 작업은 다음 세 가지 사항
 
 첫 번째 사용자인 Pradtanna에게는 Power BI Pro 라이선스를 포함하는 Office 365 E5가 있습니다.
 
-![Office 포털 구독 탭](media/end-user-license/power-bi-license-office.png)
+![Office 365 E5 구독을 보여 주는 Office 포털 구독 탭](media/end-user-license/power-bi-license-office.png)
 
 두 번째 사용자인 Zalan에게는 Power BI 무료 라이선스가 있습니다. 
 
@@ -91,9 +91,9 @@ Pro 사용자는 이미 Zalan을 사용하여 작업 영역을 공유하고 있�
 
 ## <a name="putting-it-all-together"></a>모든 항목 요약
 
-조직에서 프리미엄 구독을 구매하는 경우 일반적으로 관리자는 프리미엄 용량에서 작업하고 콘텐츠를 만들며 공유하는 직원에게 Pro 라이선스를 할당합니다. Pro 사용자는 [작업 영역](end-user-workspaces.md)을 만들고 콘텐츠(대시보드, 보고서, 앱)를 해당 작업 영역에 추가합니다. 무료 사용자가 해당 작업 영역에서 공동 작업할 수 있도록 하기 위해 관리자 또는 Pro 사용자는 작업 영역을 *전용 용량*에 할당합니다.  
+조직에서 프리미엄 구독을 구매하는 경우 일반적으로 관리자는 프리미엄 용량에서 작업하여 콘텐츠를 만들고 공유하는 직원에게 Pro 라이선스를 할당합니다. Pro 사용자는 [작업 영역](end-user-workspaces.md)을 만들고 콘텐츠(대시보드, 보고서, 앱)를 해당 작업 영역에 추가합니다. 무료 사용자가 해당 작업 영역에서 공동 작업할 수 있도록 하기 위해 관리자 또는 Pro 사용자는 작업 영역을 *전용 용량*에 할당합니다.  
 
-|라이선스 유형  |공유 용량  |전용 용량  |
+|라이선스 유형  |공유 용량 |전용 프리미엄 용량  |
 |---------|---------|---------|
 |**Free**     |  사용자 자신을 위한 콘텐츠를 만들고 해당 콘텐츠와 상호 작용하는 개인 샌드박스로 사용합니다. 체험용 라이선스는 Power BI 서비스를 시험적으로 사용해 볼 수 있는 좋은 방법입니다. 다른 사람의 콘텐츠를 사용하거나 본인의 콘텐츠를 다른 사용자와 공유할 수 없습니다. <sup>1</sup>     |   전용 용량에 할당되어 사용자와 공유되는 콘텐츠와 상호 작용합니다. 무료 사용자에게 Pro 계정이 없어도 Free 및 Pro 사용자가 협업을 수행할 수 있습니다.      |
 |**Pro**     |  콘텐츠를 만들고 공유하여 다른 Pro 사용자와 협업합니다.        |  콘텐츠를 만들고 공유하여 Free 및 Pro 사용자와 협업합니다.       |
@@ -109,7 +109,7 @@ Pro 사용자는 이미 Zalan을 사용하여 작업 영역을 공유하고 있�
 
     ![세 개의 작업 영역 이미지](media/end-user-license/power-bi-dedicated.jpg)
 
-Power BI Pro 디자이너는 각 작업 영역에서 다른 Pro 사용자와 공유하고 협업할 수 있습니다. 그러나 Power BI Pro 사용자가 무료 사용자와 공유하고 협업을 수행할 수 있는 유일한 방법은 프리미엄 전용 용량에 있는 작업 영역 B를 사용하는 것입니다.  해당 작업 영역 내에서 디자이너는 협업자에게 역할을 할당합니다. 역할은 작업 영역 내에서 수행할 수 있는 작업을 결정합니다. Power BI *소비자*에게는 일반적으로 *보기 권한자* 역할이 할당됩니다. 역할에 대한 자세한 내용은 [Power BI 소비자용 작업 영역](end-user-workspaces.md)을 참조하세요.
+Power BI Pro 디자이너는 각 작업 영역에서 다른 Pro 사용자와 공유하고 협업할 수 있습니다. 그러나 Power BI Pro 사용자가 무료 사용자와 공유하고 협업을 수행할 수 있는 유일한 방법은 프리미엄 전용 용량에 있는 작업 영역 B를 사용하는 것입니다.  해당 작업 영역 내에서 디자이너는 협업자에게 역할을 할당합니다. 역할은 작업 영역 내에서 수행할 수 있는 작업을 결정합니다. Power BI 비즈니스 사용자에게는 일반적으로 뷰어 역할이 할당됩니다. 역할에 대한 자세한 내용은 [Power BI 비즈니스 사용자용 작업 영역](end-user-workspaces.md)을 참조하세요.
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
 
@@ -129,6 +129,6 @@ Power BI Pro 디자이너는 각 작업 영역에서 다른 Pro 사용자와 공
 
 ## <a name="next-steps"></a>다음 단계
 
-- [저는 Power BI *소비자*인가요?](end-user-consumer.md)    
+- [제가 Power BI 비즈니스 사용자인가요?](end-user-consumer.md)    
 - [작업 영역에 대한 자세한 정보](end-user-workspaces.md)    
-- [라이선스 유형별 Power BI 서비스 기능 보기](end-user-features.md)
+- [라이선스 유형별 Power BI 비즈니스 사용자 보기](end-user-features.md)

@@ -10,12 +10,12 @@ ms.date: 09/03/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f6527b326c2c779dda5a6d4b1c1276c84d3ec320
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: f52993c3876db5c8f0453fb2e6a25ce0b78af017
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642804"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857959"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
@@ -116,7 +116,7 @@ Power BI 관리 포털에 액세스하려면 전역 관리자 또는 Power BI �
 조직 전체의 사용량 메트릭을 비활성화할 때, 관리자는 다음 옵션 중 하나 또는 둘 모두를 선택할 수 있습니다.
 
 - **기존 사용량 메트릭 콘텐츠 모두 삭제** 옵션을 사용하여 사용량 메트릭 보고서 및 데이터 세트를 사용하여 빌드한 기존 보고서 및 대시보드 타일을 모두 삭제합니다. 이 옵션은 이미 사용량 메트릭을 사용 중일 수도 있는 조직의 모든 사용자에게서 사용량 메트릭 데이터에 대한 모든 액세스를 제거합니다.
-- **현재 사용량 메트릭 콘텐츠의 모든 기존 사용자별 데이터 삭제** 이 옵션은 이미 사용량 메트릭을 사용 중인 사용자를 포함하여 조직의 모든 사용자에게서 사용자별 데이터에 대한 액세스를 모두 제거합니다. 
+- **현재 사용량 메트릭 콘텐츠의 모든 기존 사용자별 데이터 삭제**는 이미 사용량 메트릭을 사용 중인 사용자를 포함하여 조직의 모든 사용자에게서 사용자별 데이터에 대한 액세스 권한을 모두 제거합니다.
 
 기존 사용량 메트릭과 사용자별 메트릭 콘텐츠의 삭제는 되돌릴 수 없으므로 조심해야 합니다.
 
@@ -156,7 +156,7 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 
     ![모두 사용 설정](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-* **조직 일부에서 사용하도록 설정됨**: 전체 조직에 대한 기능을 사용하도록 설정하는 대신 이 기능을 사용할 수 있는 조직의 **특정 보안 그룹**에 설정을 적용할 수 있습니다.
+* **조직 일부에서 사용하도록 설정됨**: 이 기능은 조직의 특정 보안 그룹이 사용할 수 있습니다.
 
     또한 **특정 사용자 그룹을 제외하고** 전체 조직에 대해 기능을 사용하도록 설정할 수 있습니다.
 
@@ -172,9 +172,11 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 
 ### <a name="publish-get-help-information"></a>"도움말 보기" 정보 게시
 
+![도움말 보기 정보 게시](media/service-admin-portal/powerbi-admin-tenant-settings-gethelp.png)
+
 관리자는 내부 URL을 지정하여 Power BI 도움말 메뉴 및 라이선스 업그레이드에 대한 링크 대상을 재정의할 수 있습니다. 사용자 지정 URL이 설정된 경우 조직의 사용자는 기본 대상 대신 내부 도움말 및 지원 리소스로 이동합니다. 다음 대상 리소스를 사용자 지정할 수 있습니다.
 
-* **알아보기**. 기본적으로 이 도움말 메뉴 링크는 [모든 Power BI 학습 경로 및 모듈의 목록](https://docs.microsoft.com/learn/browse/?products=power-bi)을 대상으로 합니다. 대신 이 링크를 내부 학습 리소스에 전달하려면 **학습 설명서**에 대하여 사용자 지정 URL을 설정하세요.
+* **알아보기**. 기본적으로 이 도움말 메뉴 링크는 [모든 Power BI 학습 경로 및 모듈의 목록](/learn/browse/?products=power-bi)을 대상으로 합니다. 대신 이 링크를 내부 학습 리소스에 전달하려면 **학습 설명서**에 대하여 사용자 지정 URL을 설정하세요.
 
 * **커뮤니티**. 도움말 메뉴에서 사용자를 내부 포럼으로 이동하려면 [Power BI 커뮤니티](https://community.powerbi.com/) 대신 **토론 포럼**에 대한 사용자 지정 URL을 설정합니다.
 
@@ -182,15 +184,15 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 
 * **도움말 보기**. 도움말 메뉴에서 사용자를 내부 지원 센터로 이동하려면 [Power BI 지원](https://powerbi.microsoft.com/support/) 대신 **지원 센터**에 대한 사용자 지정 URL을 설정합니다.
 
-![도움말 보기 정보 게시](media/service-admin-portal/powerbi-admin-tenant-settings-gethelp.png)
-
 ### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>서비스 중단 또는 인시던트에 대한 이메일 알림 받기
 
 이 테넌트가 서비스 중단 또는 인시던트의 영향을 받는 경우 메일 사용이 가능한 보안 그룹이 메일 알림을 받습니다. [서비스 중단 알림](service-interruption-notifications.md)에 대해 자세히 알아보세요.
 
 ### <a name="allow-users-to-try-power-bi-pro"></a>사용자가 Power BI Pro를 사용해 볼 수 있도록 허용
 
-**사용자가 Power BI Pro를 사용해 볼 수 있도록 허용**은 기본적으로 사용하도록 설정되어 있으며 Power BI Pro 라이선스를 얻는 방법에 대한 사용자의 제어를 향상시킵니다. 셀프 서비스 구매를 차단한 시나리오에서는 이 설정을 통해 사용자가 Power BI Pro 평가판을 시작할 수 있습니다. 최종 사용자 환경은 라이선스 설정을 결합하는 방법에 따라 달라집니다. 다음 테이블에서는 Power BI(무료)에서 Power BI Pro로의 업그레이드 환경이 어떻게 다양한 설정 조합의 영향을 받는지 보여 줍니다.
+![사용자가 Power BI Pro 설정 UI를 사용해 볼 수 있도록 허용](media/service-admin-portal/allow-pro-trial.png)
+
+**사용자가 Power BI Pro를 사용해 볼 수 있도록 허용** 설정은 기본적으로 사용하도록 설정되어 있습니다. 이 설정은 사용자가 Power BI Pro 라이선스를 얻는 방법에 대한 제어를 향상시킵니다. 셀프 서비스 구매를 차단한 시나리오에서는 이 설정을 통해 사용자가 Power BI Pro 평가판을 시작할 수 있습니다. 최종 사용자 환경은 라이선스 설정을 결합하는 방법에 따라 달라집니다. 다음 테이블에서는 Power BI(무료)에서 Power BI Pro로의 업그레이드 환경이 어떻게 다양한 설정 조합의 영향을 받는지 보여 줍니다.
 
 | 셀프 서비스 구매 설정 | 사용자가 Power BI Pro 설정을 사용해 볼 수 있도록 허용 | 최종 사용자 환경 |
 | ------ | ------ | ----- |
@@ -200,9 +202,7 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 | 사용 안 함 | 사용 | 사용자가 Pro 평가판을 시작할 수 있지만 유료 라이선스를 얻으려면 IT 관리자에게 문의해야 함 |
 
 > [!NOTE]
-> [도움말 및 지원 설정](#help-and-support-settings)에서 라이선싱 요청에 대한 내부 URL을 추가할 수 있습니다. URL을 설정하는 경우 기본 구매 환경을 재정의합니다. 위의 테이블에 설명된 시나리오에서 라이선스를 구입할 수 있는 사용자는 내부 URL로 리디렉션됩니다.
-
-![사용자가 Power BI Pro 설정 UI를 사용해 볼 수 있도록 허용](media/service-admin-portal/allow-pro-trial.png)
+> [도움말 및 지원 설정](#help-and-support-settings)에서 라이선싱 요청에 대한 내부 URL을 추가할 수 있습니다. URL을 설정하면 기본 셀프 서비스 환경이 재정의됩니다. Power BI Pro 라이선스 평가판 등록은 리디렉션되지 않습니다. 위의 테이블에 설명된 시나리오에서 라이선스를 구입할 수 있는 사용자는 내부 URL로 리디렉션됩니다.
 
 자세한 내용은 [셀프 서비스 등록 및 구매 사용 또는 사용 안 함](service-admin-disable-self-service.md)을 참조하세요.
 
@@ -216,7 +216,7 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 
 ### <a name="create-the-new-workspaces"></a>새 작업 영역 만들기
 
-작업 영역은 사용자가 대시보드, 보고서 및 기타 콘텐츠에 대해 공동 작업할 수 있는 장소입니다. 관리자는 **작업 영역(새 작업 영역 환경) 만들기** 설정을 사용하여 조직에서 작업 영역을 만들 수 있는 사용자를 표시합니다. 관리자는 조직의 모든 사용자가 새 작업 영역 환경 작업 영역을 만들도록 허용 또는 금지할 수 있습니다. 특정 보안 그룹의 구성원으로만 만들기를 제한할 수도 있습니다. [작업 영역](../collaborate-share/service-new-workspaces.md)에 대해 자세히 알아보세요.
+작업 영역은 사용자가 대시보드, 보고서 및 기타 콘텐츠에 대해 협업할 수 있는 장소입니다. 관리자는 **작업 영역(새 작업 영역 환경) 만들기** 설정을 사용하여 조직에서 작업 영역을 만들 수 있는 사용자를 표시합니다. 관리자는 조직의 모든 사용자가 새 작업 영역 환경 작업 영역을 만들도록 허용 또는 금지할 수 있습니다. 특정 보안 그룹의 구성원으로만 만들기를 제한할 수도 있습니다. [작업 영역](../collaborate-share/service-new-workspaces.md)에 대해 자세히 알아보세요.
 
 :::image type="content" source="media/service-admin-portal/power-bi-admin-workspace-settings.png" alt-text="새 작업 영역 환경 만들기":::
 
@@ -237,7 +237,7 @@ Microsoft 365 그룹을 기반으로 하는 클래식 작업 영역의 경우 �
 
 관리자는 조직에서 작업 영역의 데이터 세트를 사용할 수 있는 사용자를 제어할 수 있습니다. 이 설정을 활성화하면 사용자는 특정 데이터 세트에 대해 필수 빌드 권한이 계속 필요합니다.
 
-:::image type="content" source="media/service-admin-portal/power-bi-admin-datasets-workspaces.png" alt-text="작업 영역에서 데이터 세트 사용":::
+:::image type="content" source="media/service-admin-portal/power-bi-admin-datasets-workspaces.png" alt-text="새 작업 영역 환경 만들기":::
 
 자세한 내용은 [작업 영역 데이터 세트 소개](../connect-data/service-datasets-across-workspaces.md)를 참조하세요.
 
@@ -253,13 +253,13 @@ Microsoft 365 그룹을 기반으로 하는 클래식 작업 영역의 경우 �
 
 ### <a name="allow-azure-active-directory-guest-users-to-access-power-bi"></a>Azure Active Directory 게스트 사용자가 Power BI에 액세스할 수 있도록 허용
 
-이 설정이 사용되면 Azure AD B2B(Azure Active Directory Business-to-Business) 게스트 사용자가 Power BI에 액세스할 수 있습니다. 이 설정이 사용되지 않으면 게스트 사용자가 Power BI에 액세스하려고 할 때 오류가 발생합니다. 전체 조직에서 이 설정이 사용되지 않으면 사용자가 자신의 조직에 게스트를 초대하지 못하게 됩니다. Power BI 액세스할 수 있는 게스트 사용자를 제어하려면 특정 보안 그룹 옵션을 사용하세요.
+이 설정이 사용되면 Azure AD B2B(Azure Active Directory Business-to-Business) 게스트 사용자가 Power BI에 액세스할 수 있습니다. 이 설정이 사용되지 않으면 게스트 사용자가 Power BI에 액세스하려고 할 때 오류가 발생합니다. 전체 조직에서 이 설정이 사용되지 않으면 사용자가 조직에 게스트를 초대할 수 없습니다. Power BI 액세스할 수 있는 게스트 사용자를 제어하려면 특정 보안 그룹 옵션을 사용하세요.
 
 ![Azure Active Directory 게스트 사용자가 Power BI에 액세스할 수 있도록 허용](media/service-admin-portal/powerbi-admin-allow-aad-b2b-guests.png)
 
 ### <a name="invite-external-users-to-your-organization"></a>조직에 외부 사용자 초대 
 
-조직에서 **조직에 외부 사용자 초대** 설정을 사용하면, Power BI 공유 및 사용 권한 환경을 통해 새 외부 사용자를 조직에 초대할 수 있는지를 선택할 수 있습니다. 이 설정이 사용되지 않으면, 외부 사용자가 아직 조직의 게스트 사용자가 아닌 경우 Power BI를 통해 조직에 추가할 수 없습니다. 
+조직에서 **조직에 외부 사용자 초대** 설정을 사용하면, Power BI 공유 및 사용 권한 환경을 통해 새 외부 사용자를 조직에 초대할 수 있는지를 선택할 수 있습니다. 이 설정이 사용되지 않으면 아직 조직의 게스트 사용자가 아닌 외부 사용자를 Power BI를 통해 조직에 추가할 수 없습니다.
 
 ![조직에 외부 사용자 초대](media/service-admin-portal/powerbi-admin-allow-invite-aad-b2b-guests.png)
 
@@ -298,7 +298,7 @@ Microsoft 365 그룹을 기반으로 하는 클래식 작업 영역의 경우 �
 
 ### <a name="export-data"></a>데이터 내보내기
 
-조직의 사용자는 타일 또는 시각화에서 데이터를 내보낼 수 있습니다. 이 컨트롤은 Excel에서 분석, .csv로 내보내기, 데이터 세트 다운로드(.pbix) 및 Power BI 서비스 라이브 연결 기능을 제어합니다. [타일 또는 시각적 기체에서 데이터를 내보내는](../visuals/power-bi-visualization-export-data.md) 방법에 대해 자세히 알아보세요.
+조직의 사용자는 타일 또는 시각화에서 데이터를 내보낼 수 있습니다. 이 설정은 Excel에서 분석, .csv로 내보내기, 데이터 세트 다운로드(.pbix) 및 Power BI 서비스 라이브 연결 기능을 제어합니다. [타일 또는 시각적 기체에서 데이터를 내보내는](../visuals/power-bi-visualization-export-data.md) 방법에 대해 자세히 알아보세요.
 
 >[!NOTE]
 > Excel로 내보내기 설정이 도입되기 전에 이 설정은 Excel 파일로 데이터 내보내기도 제어했습니다. 자세한 내용은 [Excel로 내보내기 아래의 참고](#export-to-excel)를 참조하세요.
@@ -403,7 +403,7 @@ Azure AD B2B 게스트 사용자는 조직의 콘텐츠를 편집하고 관리�
 
 **테넌트 설정** 아래의 **주요 테이블에 대한 연결 허용** 테넌트 설정을 사용하면 Power BI 관리자가 조직에서 Excel 데이터 형식 갤러리의 주요 테이블을 사용할 수 있는 사용자를 제어할 수 있습니다. 
 
-:::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="주요 테이블에 대한 모든 연결":::
+:::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="새 작업 영역 환경 만들기":::
 
 **데이터 내보내기** 테넌트 설정이 **사용 안 함**으로 설정되면 주요 테이블에 대한 연결도 사용할 수 없습니다.
 
@@ -488,19 +488,19 @@ Azure AD(Azure Active Directory)에 등록된 웹앱은 할당된 서비스 주�
 
 조직의 사용자가 템플릿 앱 작업 영역을 만들 수 있습니다. [AppSource](https://appsource.microsoft.com) 또는 다른 배포 메서드를 통해 템플릿 앱을 게시하거나 조직 외부의 클라이언트에 배포할 수 있는 사용자를 제어합니다.
 
-![Power BI 관리 포털, 템플릿 앱 설정 만들기](media/service-admin-portal/power-bi-admin-portal-template-app-settings.png)
+![전체 조직에 사용하도록 설정된 템플릿 앱 설정 게시](media/service-admin-portal/power-bi-admin-portal-template-app-settings.png)
 
 ### <a name="install-template-apps-listed-on-appsource"></a>AppSource에 나열된 템플릿 앱 설치
 
 조직의 사용자는 [AppSource](https://appsource.microsoft.com)의 템플릿 앱**만** 다운로드하고 설치할 수 있습니다. AppSource에서 템플릿 앱을 설치할 수 있는 특정 사용자 또는 보안 그룹을 제어합니다.
 
-![Power BI 관리 포털, 템플릿 앱 설정 설치](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-appsource.png)
+![템플릿 앱 설치 설정](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-appsource.png)
 
 ### <a name="install-template-apps-not-listed-on-appsource"></a>AppSource에 나열되지 않은 템플릿 앱 설치
 
 조직에서 **[AppSource](https://appsource.microsoft.com)에 나열되지 않은** 템플릿 앱을 다운로드하고 설치할 수 있는 사용자를 제어합니다.
 
-![Power BI 관리 포털, 템플릿 앱 설정 설치](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-nonappsource.png)
+![AppSource에 나열되지 않은 템플릿 앱 설치 설정](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-nonappsource.png)
 
 ## <a name="capacity-settings"></a>용량 설정
 
@@ -554,7 +554,7 @@ Power BI 시각적 개체 테넌트 설정을 비롯한 모든 Power BI 시각�
 
 **작업 영역** 탭에 각 작업 영역의 *상태*가 표시됩니다. 다음 표에서 각 상태의 자세한 의미를 확인할 수 있습니다.
 
-|주  |Description  |
+|주  |설명  |
 |---------|---------|
 | **활성** | 일반 작업 영역입니다. 사용량이나 콘텐츠에 대한 정보는 알 수 없으며, 작업 영역 자체가 ‘일반’ 작업 영역이라는 사실만 알 수 있습니다. |
 | **분리됨** | 관리 사용자가 없는 작업 영역입니다. |

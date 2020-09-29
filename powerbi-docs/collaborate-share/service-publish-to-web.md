@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 07/08/2020
+ms.date: 09/18/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: f652d09d5d954123a47b45b30ab1076763018225
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: 7009b4b195c89659c032b578ada130e12389b496
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642650"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858856"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI에서 웹에 게시
 
@@ -183,6 +183,7 @@ Power BI에 등록한 소규모 조직이나 개인의 경우 아직 Power BI �
 - “R” 및 Python 시각적 개체는 현재 **웹에 게시** 보고서에서 지원되지 않습니다.
 - 웹에 게시된 보고서의 시각적 개체에서 데이터 내보내기
 - ArcGIS Maps for Power BI 시각적 개체.
+- Power BI 시각적 개체 Q&A.
 - 보고서 수준 DAX 측정값을 포함하는 보고서.
 - Single Sign-On 데이터 쿼리 모델.
 - 보안 기밀 또는 소유 정보.

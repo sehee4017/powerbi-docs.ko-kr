@@ -6,15 +6,15 @@ ms.reviewer: christopher.finlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/09/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: b1f9dd6540707993696bddb4494fc73aa782d363
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.openlocfilehash: 95b4b423b1dffb51d00760a97d21f2bf52df39d8
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008908"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860328"
 ---
 # <a name="paginated-reports-in-the-power-bi-service"></a>Power BI 서비스의 페이지를 매긴 보고서
 
@@ -36,7 +36,7 @@ ms.locfileid: "90008908"
 
 ![1개의 매개 변수가 있는 간단한 보고서](./media/end-user-paginated-report/power-bi-report-simple.png)
 
-페이지를 매신 보고서와 비교해 보면 Power BI 보고서는 훨씬 더 많은 상호 작용이 수반됩니다. Power BI 보고서는 임시 보고를 지원하며, Power BI 시각적 개체를 비롯해 훨씬 더 많은 유형의 시각적 개체를 지원합니다.
+페이지를 매신 보고서와 비교해 보면 Power BI 보고서는 훨씬 더 많은 상호 작용이 수반됩니다. Power BI 보고서는 임시 보고를 지원하며, 사용자 지정 시각적 개체를 비롯해 훨씬 더 많은 유형의 시각적 개체를 지원합니다.
 
 ## <a name="identify-a-paginated-report"></a>페이지를 매긴 보고서 식별하기
 
@@ -78,7 +78,7 @@ ms.locfileid: "90008908"
 ### <a name="export-the-paginated-report"></a>페이지를 매긴 보고서 내보내기
 페이지를 매긴 보고서는 PDF, Word, XML, PowerPoint, Excel과 같은 다양한 형식으로 내보낼 수 있습니다. 보고서를 내보낼 때는 서식의 되도록 많은 부분이 그대로 유지됩니다. Excel, Word, PowerPoint, MHTML, PDF로 내보내진 페이지를 매긴 보고서는 “픽셀 수준까지 완벽한” 서식을 유지합니다. 
 
-![새로운 판매 주문](./media/end-user-paginated-report/power-bi-exporting.png)
+![내보내기된 페이지가 매겨진 보고서를 보여 주는 스크린샷](./media/end-user-paginated-report/power-bi-exporting.png)
 
 ![4가지 내보내기 유형](./media/end-user-paginated-report/power-bi-four.png)
 

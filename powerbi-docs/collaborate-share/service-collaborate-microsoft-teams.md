@@ -1,6 +1,6 @@
 ---
 title: Power BI를 사용하여 Microsoft Teams에서 협업
-description: Microsoft Teams 채널 및 채팅에서 대화형 Power BI 콘텐츠를 쉽게 공유하고 협업할 수 있습니다.
+description: 분산된 인력이 표준이 되면서 갈수록 많은 조직이 Microsoft Teams로 원격 작업을 사용하고 직원들을 연결하고 있습니다.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -9,23 +9,24 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 07/31/2020
-ms.openlocfilehash: 01e5b470e0beb189d64da18785a17e771bcaf59b
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.date: 09/15/2020
+ms.openlocfilehash: d0510a3c8caf2e07034b9410d4338431670833e5
+ms.sourcegitcommit: b3d32b8a4ce26fba7fdb5f1c5954d2b2e426503c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478041"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91005494"
 ---
 # <a name="collaborate-in-microsoft-teams-with-power-bi"></a>Power BI를 사용하여 Microsoft Teams에서 협업
 
-여러 곳에 분포되어 원격으로 근무하는 직원들이 새로운 표준으로 부상하고 있는 지금, 갈수록 많은 조직들이 직원들의 업무 현황을 동기화하기 위해 Microsoft Teams를 사용하고 있습니다. Power BI에는 Microsoft Teams 채널 및 채팅에서 대화형 Power BI 콘텐츠를 공유하고 협업하기 위한 다양한 옵션이 있습니다. 
+분산된 인력이 표준이 되면서 갈수록 많은 조직이 Microsoft Teams로 원격 작업을 사용하고 직원들을 연결하고 있습니다. 이 문서에서는 Microsoft Teams 채널 및 채팅의 대화형 Power BI 콘텐츠를 공유하고 협업하기 위한 옵션을 설명합니다. 
 
-- Microsoft Teams의 **Power BI** 탭을 사용하여 [Microsoft Teams 채널 및 채팅에 대화형 보고서를 포함](service-embed-report-microsoft-teams.md)할 수 있습니다. **Power BI** 탭에서는 동료가 팀의 데이터를 찾고 팀 채널 내에서 데이터에 대해 논의할 수 있습니다. 
+- Microsoft Teams의 **Power BI** 탭을 사용하여 [Microsoft Teams 채널 및 채팅에 대화형 보고서를 포함](service-embed-report-microsoft-teams.md)할 수 있습니다. Power BI 탭에서는 동료가 팀의 데이터를 찾고 팀 채널 내에서 데이터에 대해 논의할 수 있습니다. 
 - 보고서, 대시보드 및 앱의 링크를 Microsoft Teams 메시지 상자에 붙여넣으면 [링크 미리 보기](service-teams-link-preview.md)를 만들 수 있습니다. 링크 미리 보기는 링크에 관한 정보를 표시합니다. 
-- Power BI 서비스에서 보고서 및 대시보드를 볼 때 [Teams에 공유](service-share-report-teams.md)를 사용하여 Teams에서 빠르게 대화를 시작합니다.
+- Power BI 서비스에서 보고서 및 대시보드를 볼 때 [Microsoft Teams에 공유](service-share-report-teams.md)를 사용하여 Microsoft Teams에서 빠르게 대화를 시작합니다.
+- [Microsoft Teams의 Power BI 앱](service-microsoft-teams-app.md)을 사용하여 기본 Power BI 서비스 환경 전체를 Microsoft Teams로 가져옵니다.
  
-:::image type="content" source="media/service-collaborate-microsoft-teams/power-bi-embed-teams-report.png" alt-text="Teams 채널에 포함된 Power BI 보고서의 스크린샷.":::
+:::image type="content" source="media/service-collaborate-microsoft-teams/power-bi-embed-teams-report.png" alt-text="Microsoft Teams 채널에 포함된 Power BI 보고서의 스크린샷":::
 
 ## <a name="requirements"></a>요구 사항
 
@@ -56,10 +57,19 @@ Microsoft Teams에 보고서를 포함하거나 항목에 대한 링크를 보�
 - 링크 미리 보기 서비스에서 Single Sign-On이 지원되지 않습니다.
 - 링크 미리 보기는 모임 채팅 또는 프라이빗 채널에서 작동하지 않습니다.
 
+## <a name="microsoft-power-platform-in-microsoft-teams"></a>Microsoft Teams의 Microsoft Power Platform
+
+다른 Microsoft Power Platform 앱도 Microsoft Teams와 통합됩니다.
+
+- [Power Platform 관리 환경](/power-platform/admin/about-teams-environment)
+- [Power Automate](/power-automate/teams/overview)
+- [Power Apps](/powerapps/teams/overview)
+- [Power Virtual Agents](/power-virtual-agents/)
+
 ## <a name="next-steps"></a>다음 단계
 
 - [Microsoft Teams에 Power BI 콘텐츠 포함](service-embed-report-microsoft-teams.md)
 - [Microsoft Teams에서 Power BI 링크 미리 보기 가져오기](service-teams-link-preview.md)
-- [Power BI 서비스에서 Teams에 직접 공유](service-share-report-teams.md)
+- [Power BI 서비스에서 Microsoft Teams에 직접 공유](service-share-report-teams.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다](https://community.powerbi.com/).

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 06/01/2020
+ms.date: 09/22/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 91b19fd5e357f4ab020b72b259ab5053c36af8f7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4405ab8d3e0db949ec825f3eea436183512f862d
+ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238426"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91019914"
 ---
 # <a name="publish-datasets-and-reports-from-power-bi-desktop"></a>Power BI Desktop에서 데이터 세트 및 보고서 게시
 Power BI Desktop 파일을 Power BI 서비스에 게시하면 모델의 데이터가 Power BI 작업 영역에 게시됩니다. **보고서** 보기에서 만든 모든 보고서의 경우에도 마찬가지입니다. 작업 영역 탐색기에서 동일한 이름의 새 데이터 세트와 모든 보고서를 볼 수 있습니다.
@@ -30,8 +30,8 @@ Power BI Desktop에서 게시하는 것은 Power BI의 **데이터 가져오기*
    ![게시 단추](media/desktop-upload-desktop-files/pbid_publish_publishbutton.png)
 
 
-2. Power BI에 로그인합니다.
-3. 대상을 선택합니다.
+2. 아직 로그인하지 않았다면 Power BI에 로그인합니다.
+3. 대상을 선택합니다. 2020년 9월 릴리스부터 사용 가능한 작업 영역 목록을 검색하여 게시할 작업 영역을 찾을 수 있습니다. 검색 상자를 사용하여 작업 영역을 필터링할 수 있습니다. 작업 영역을 선택한 다음 **선택** 단추를 클릭하여 게시합니다.
 
    ![게시 대상 선택](media/desktop-upload-desktop-files/pbid_publish_select_destination.png)
 
@@ -58,3 +58,13 @@ Power BI Desktop 파일을 게시할 때 Power BI Desktop에서 만든 데이터
 > [!NOTE]
 > Power BI 보고서의 일부 데이터 연결에는 Power BI 서비스 가져온 데이터 세트의 데이터 대신 데이터에 대한 링크가 들어 있을 수 있습니다. 예를 들어 DirectQuery 연결은 데이터 자체를 가져오는 대신 업데이트나 상호 작용이 발생하면 데이터에 연결됩니다. 보고서의 연결된 데이터 원본이 온-프레미스인 경우 Power BI에서 액세스하기 위한 게이트웨이가 필요할 수 있습니다. 자세한 내용은 [온-프레미스 데이터 게이트웨이란?](../connect-data/service-gateway-onprem.md)을 참조하세요.
 > 
+
+## <a name="next-steps"></a>다음 단계
+
+Power BI Desktop으로 모든 종류의 작업을 수행할 수 있습니다. 해당 기능에 대한 자세한 내용은 다음 리소스를 확인하세요.
+
+* [Power BI Desktop이란?](../fundamentals/desktop-what-is-desktop.md)
+* [Power BI Desktop을 사용한 쿼리 개요](../transform-model/desktop-query-overview.md)
+* [Power BI Desktop의 데이터 형식](../connect-data/desktop-data-types.md)
+* [자습서: Power BI Desktop에서 데이터 셰이핑 및 결합](../connect-data/desktop-shape-and-combine-data.md)
+* [Power BI Desktop의 일반적인 쿼리 작업](../transform-model/desktop-common-query-tasks.md)

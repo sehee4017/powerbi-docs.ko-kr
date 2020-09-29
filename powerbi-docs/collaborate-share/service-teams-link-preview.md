@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 07/22/2020
-ms.openlocfilehash: 06bd8271904b9c44de6c71e287f0560c54f6d031
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: fb79358bb9149498a39cca32db618cb6971121de
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87254055"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90964776"
 ---
 # <a name="get-a-power-bi-link-preview-in-microsoft-teams"></a>Microsoft Teams에서 Power BI 링크 미리 보기 가져오기
 
@@ -27,7 +27,7 @@ ms.locfileid: "87254055"
 
 링크 미리 보기 서비스를 사용하려면 사용자가 로그인해야 합니다. 로그아웃하려면 메시지 상자 아래쪽에서 **Power BI** 아이콘을 선택합니다. 그런 다음 **로그아웃**을 선택합니다.
 
-충족해야 하는 요구 사항을 포함하여 Power BI 및 Teams를 함께 사용하는 방법에 관한 자세한 내용은 [Power BI를 사용하여 Microsoft Teams에서 협업](service-collaborate-microsoft-teams.md)을 참조하세요.
+충족해야 하는 요구 사항을 포함하여 Power BI와 Microsoft Teams를 함께 사용하는 방법에 대한 배경 지식은 [Power BI를 사용하여 Microsoft Teams에서 협업](service-collaborate-microsoft-teams.md)을 참조하세요.
 
 ## <a name="get-a-link-preview"></a>링크 미리 보기 가져오기
 

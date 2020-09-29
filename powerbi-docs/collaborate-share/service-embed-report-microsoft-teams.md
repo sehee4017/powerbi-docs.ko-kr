@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 07/31/2020
-ms.openlocfilehash: 53126fe044f65740b9dac072422f749312b960da
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.date: 09/21/2020
+ms.openlocfilehash: 0abaf886806ea783bb478f47d020daeea7829da5
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478018"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965126"
 ---
 # <a name="embed-power-bi-content-in-microsoft-teams"></a>Microsoft Teams에 Power BI 콘텐츠 포함
 
@@ -30,9 +30,9 @@ Microsoft Teams에서 **Power BI** 탭을 사용하려면 다음 요소를 확�
 - Microsoft Teams의 **Power BI** 탭에서 보고서를 보려면 사용자에게 보고서를 볼 수 있는 권한이 있어야 합니다.
 - 사용자는 채널 및 채팅에 대한 액세스 권한이 있는 Microsoft Teams 사용자여야 합니다.
 
-그 밖의 요구 사항을 포함하여 Power BI 및 Teams를 함께 사용하는 방법에 관한 자세한 내용은 [Power BI를 사용하여 Microsoft Teams에서 협업](service-embed-report-microsoft-teams.md)을 참조하세요.
+다른 요구 사항을 포함하여 Power BI와 Microsoft Teams를 함께 사용하는 방법에 대한 배경 지식은 [Power BI를 사용하여 Microsoft Teams에서 협업](service-embed-report-microsoft-teams.md)을 참조하세요.
 
-## <a name="embed-a-report-in-teams"></a>Teams에 보고서 포함
+## <a name="embed-a-report-in-microsoft-teams"></a>Microsoft Teams에 보고서 포함
 
 다음 단계에 따라 Microsoft Teams 채널 또는 채팅에 보고서를 포함합니다.
 
@@ -62,7 +62,7 @@ Microsoft Teams에서 **Power BI** 탭을 사용하려면 다음 요소를 확�
 
 ## <a name="start-a-conversation"></a>대화 시작
 
-Power BI 보고서 탭을 Microsoft Teams에 추가하면 Teams에서 보고서에 대한 탭 대화를 자동으로 만듭니다.
+Power BI 보고서 탭을 Microsoft Teams에 추가하면 Microsoft Teams에서 보고서에 대한 탭 대화를 자동으로 만듭니다.
 
 - 오른쪽 위 모서리에서 **탭 대화 표시**를 선택합니다.
 
@@ -74,6 +74,7 @@ Power BI 보고서 탭을 Microsoft Teams에 추가하면 Teams에서 보고서�
 
 ## <a name="known-issues-and-limitations"></a>알려진 문제 및 제한 사항
 
+- Microsoft Teams에서는 Power BI 보고서의 시각적 개체에서 내보낸 데이터가 자동으로 다운로드 폴더에 저장됩니다. 이 파일은 "data(*n*).xlsx"라는 Excel 파일입니다. 여기서 *n*은 데이터를 동일한 폴더로 내보낸 횟수입니다.
 - Power BI 대시보드는 Microsoft Teams의 **Power BI** 탭에 포함할 수 없습니다.
 - [URL 필터](service-url-filters.md)는 Microsoft Teams의 **Power BI** 탭에서 지원되지 않습니다.
 - 국가 클라우드에서는 새 **Power BI** 탭을 사용할 수 없습니다. 새 작업 영역 환경 또는 보고서를 지원하지 않는 이전 버전을 Power BI 앱에서 사용할 수 있습니다.

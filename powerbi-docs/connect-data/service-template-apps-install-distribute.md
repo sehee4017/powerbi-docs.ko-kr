@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
-ms.date: 05/19/2020
+ms.date: 09/17/2020
 ms.author: painbar
-ms.openlocfilehash: e66d1b8b57af9ee04239e7222db742b64cc25883
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e152743c243e1af02650d919168dee0969e3a89e
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235704"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763774"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>조직에 템플릿 앱 설치 및 배포
 
@@ -75,13 +75,9 @@ Power BI 분석가인가요? 그렇다면 이 문서에서는 Salesforce, Micros
 
    ![GitHub 앱 데이터 연결 링크](media/service-template-apps-install-distribute/power-bi-template-app-connect-data.png)
 
+    이렇게 하면 데이터 원본을 샘플 데이터에서 자체 데이터 원본으로 변경하는 매개 변수 대화 상자([알려진 제한 사항 ](service-template-apps-overview.md#known-limitations) 참조)가 열린 다음 인증 방법 대화 상자가 열립니다. 이러한 대화 상자에서 값을 다시 정의해야 할 수도 있습니다. 자세한 내용은 설치 중인 특정 템플릿 앱의 설명서를 참조하세요.
 
-    
-    데이터 원본을 샘플 데이터에서 사용자 고유의 데이터 원본으로 변경하는 대화 상자 또는 일련의 대화 상자가 열립니다. 일반적으로 데이터 세트 매개 변수 및 데이터 원본 자격 증명이 다시 정의됩니다. [알려진 제한 사항](service-template-apps-overview.md#known-limitations)을 참조하세요.
-    
-    아래 예제에서는 데이터에 연결하는 데 두 개의 대화 상자가 사용됩니다.
-
-   ![데이터에 연결 대화 상자](media/service-template-apps-install-distribute/power-bi-template-app-connect-to-data-dialogs.png)
+   ![데이터에 연결 대화 상자의 스크린샷](media/service-template-apps-install-distribute/power-bi-template-app-connect-to-data-dialogs.png)
 
     연결 대화 상자 입력을 완료하면 연결 프로세스가 시작됩니다. 배너에서는 데이터가 새로 고쳐지고 있고 그동안 샘플 데이터가 표시된다고 알려줍니다.
 
@@ -110,11 +106,11 @@ Power BI 분석가인가요? 그렇다면 이 문서에서는 Salesforce, Micros
 
 처음에 AppSource에서 앱을 다운로드한 경우 새 버전의 템플릿 앱을 사용할 수 있게 되면 다음 두 가지 방법으로 알림이 표시됩니다.
 * 새 앱 버전을 사용할 수 있음을 알리는 업데이트 배너가 Power BI 서비스에 나타납니다.
-  ![템플릿 앱 업데이트 알림](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-banner.png)
+  ![템플릿 앱 업데이트 알림 배너](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-banner.png)
 * Power BI 알림 창에서 알림을 받습니다.
 
 
-  ![템플릿 앱 업데이트 알림](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-pane.png)
+  ![템플릿 앱 업데이트 알림 창](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-pane.png)
 
 >[!NOTE]
 >처음에 AppSource가 아닌 직접 링크를 통해 앱을 다운로드한 경우 새 버전을 사용할 수 있는 시기를 알 수 있는 유일한 방법은 템플릿 앱 작성자에게 문의하는 것입니다.

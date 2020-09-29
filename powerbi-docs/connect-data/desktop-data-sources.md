@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 08/12/2020
+ms.date: 09/22/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1e64ca5c94b180cf98cf8d8992681861281ca2ae
-ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
+ms.openlocfilehash: 56825599a6b566a93f18e6fea16d995dc8bdda8f
+ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "88160398"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91020047"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop의 데이터 원본
 
@@ -95,12 +95,13 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Denodo
 * Dremio
 * Exasol
-* Indexima(베타)
+* Indexima
 * InterSystems IRIS(베타)
 * Jethro(베타)
 * Kyligence
 * Linkar PICK Style/MultiValue 데이터베이스(베타)
 * MarkLogic
+* MariaDB(베타)
 
 > [!NOTE]
 > 일부 데이터베이스 커넥터는 **파일 > 옵션 및 설정 > 옵션**을 선택한 다음 **미리 보기 기능**을 선택하고 커넥터를 사용하도록 설정하여 사용해야 합니다. 위에서 언급한 커넥터 중 일부를 표시하지 않고 사용하지 않으려는 경우 **미리 보기 기능** 설정을 확인합니다. *베타* 또는 *미리 보기*로 표시된 모든 데이터 원본은 제한된 지원 및 기능을 가지며 프로덕션 환경에서는 사용할 수 없습니다.
@@ -127,7 +128,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 **Azure** 범주는 다음과 같은 데이터 연결을 제공합니다.
 
 * Azure SQL Database
-* Azure SQL Data Warehouse
+* Azure Synapse Analytics(SQL DW)
 * Azure Analysis Services 데이터베이스
 * Azure Database for PostgreSQL
 * Azure Blob Storage
@@ -139,9 +140,9 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Azure HDInsight(HDFS)
 * Azure HDInsight Spark
 * HDInsight 대화형 쿼리
-* Azure Data Explorer(Kusto)
 * Azure Cost Management
 * Azure Time Series Insights(베타)
+* Azure Databricks
 
 
 다음 그림은 **Azure**에 대한 **데이터 가져오기** 창을 보여 줍니다.
@@ -194,8 +195,10 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * TeamDesk(베타)
 * Webtrends Analytics(베타)
 * Witivio(베타)
-* Workplace Analytics(베타)
 * Zoho Creator(베타)
+* Workplace Analytics(베타)
+* Hexagon PPM Smart API
+
 
 다음 그림은 **온라인 서비스**에 대한 **데이터 가져오기** 창을 보여 줍니다.
 
@@ -217,29 +220,27 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Python 스크립트
 * ODBC
 * OLE DB
+* Acterys : Model Automation & Planning(베타)
+* Automation Anywhere(베타)
 * Solver
+* Cherwell(베타)
+* Cognite Data Fusion(베타)
 * FHIR
 * Information Grid(베타)
 * Jamf Pro(베타)
+* Power BI용 MicroStrategy
 * Paxata
 * QubolePresto(베타)
 * Roamler(베타)
 * Shortcuts Business Insights(베타)
 * Siteimprove
+* SurveyMonkey(베타)
 * Tenforce(스마트) 목록
 * TIBCO(R) 데이터 가상화(베타)
-* Vessel Insight(베타)
-* Workforce Dimensions(베타)
-* Zucchetti HR Infinity(베타)
-* Cognite Data Fusion(베타)
-* Power BI용 MicroStrategy
-* SurveyMonkey(베타)
 * Vena(베타)
-* Acterys : Model Automation & Planning(베타)
-* Automation Anywhere(베타)
-* Cherwell(베타)
+* Zucchetti HR Infinity(베타)
+* Vessel Insight(베타)
 * 빈 쿼리
-
 
 
 
@@ -288,7 +289,7 @@ PBIDS 파일을 만들려면 관리자가 단일 연결에 필요한 입력을 �
 
 PBIDS 파일은 인증 정보와 테이블 및 스키마 정보를 포함하지 *않습니다*.  
 
-다음 코드 조각은 PBIDS 파일의 몇 가지 일반적인 예이지만 완전하거나 포괄적이지는 않습니다. 다른 데이터 원본에 대해서는 [프로토콜 및 주소 정보를 위한 DSR(데이터 원본 참조) 서식](https://docs.microsoft.com/azure/data-catalog/data-catalog-dsr#data-source-reference-specification)을 참조할 수 있습니다.
+다음 코드 조각은 PBIDS 파일의 몇 가지 일반적인 예이지만 완전하거나 포괄적이지는 않습니다. 다른 데이터 원본에 대해서는 [프로토콜 및 주소 정보를 위한 DSR(데이터 원본 참조) 서식](/azure/data-catalog/data-catalog-dsr#data-source-reference-specification)을 참조할 수 있습니다.
 
 이러한 예는 편의를 위한 것으로, 포괄적이지 않으며, 지원되는 모든 커넥터를 DSR 서식에 포함하지는 않습니다. 관리자 또는 조직은 이러한 예를 자체 데이터 원본 파일을 만들고 지원할 수 있는 가이드로 사용하여 자체 데이터 원본을 만들 수 있습니다.
 

@@ -1,22 +1,22 @@
 ---
-title: 혼합 현실용 Power BI 앱(미리 보기)
+title: HoloLens(1세대)용 Power BI
 description: 가상 환경 또는 사용자 환경 컨텍스트에서 사용하는 동안 혼합 현실용 Power BI 앱(미리 보기)에서 대시보드 및 보고서를 봅니다.
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 09/22/2020
 ms.author: painbar
-ms.openlocfilehash: 99e9c407a92d126ddc4c6f4822106cfa6458dbac
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b0288bf3980ac54b960160f011531f3667d8edff
+ms.sourcegitcommit: b3d32b8a4ce26fba7fdb5f1c5954d2b2e426503c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205921"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91005517"
 ---
-# <a name="power-bi-for-mixed-reality-app-preview"></a>혼합 현실용 Power BI 앱(미리 보기)
-가상 환경을 사용하는 동안 혼합 현실용 Power BI 앱(미리 보기)에서 대시보드 및 보고서를 확인하거나 사용자 환경 컨텍스트의 특정 위치에 배치합니다. 
+# <a name="power-bi-for-hololens-1st-gen"></a>HoloLens(1세대)용 Power BI
+가상 환경을 사용하는 동안 HoloLens용 Power BI 앱에서 대시보드 및 보고서를 확인하거나 사용자 환경 컨텍스트의 특정 위치에 배치합니다. 
 
 Windows 스토어에서 [혼합 현실용 Power BI 앱 다운로드](https://www.microsoft.com/p/power-bi-mobile/9nblgggzlxn1?activetab=pivot%3aoverviewtab): Windows 스토어에서는 "Power BI 모바일"이라고 합니다. 가상 환경에서 대시보드 및 보고서와 상호 작용한 다음, 배치하려는 항목을 선택합니다. 
 

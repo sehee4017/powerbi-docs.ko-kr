@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/03/2020
+ms.date: 09/22/2020
 ms.author: kfollis
-ms.openlocfilehash: d7b36d7ecbbf9d046c02f275ca83d7f8c8a196d5
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 76f0963da1a7cecec6f97fc7e0ab534f7d4bcb8a
+ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768404"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91020024"
 ---
 # <a name="power-bi-webinars"></a>Power BI 웹 세미나
 [//]: # "Tatevik Tatero(tatevik.teroyan@simple-concepts.com)는 Chauncy Freels와 협력하고 이 웨비나 목록을 유지하는 데 도움을 주는 공급업체입니다."
@@ -22,11 +22,23 @@ ms.locfileid: "87768404"
 
 ## <a name="upcoming-webinars"></a>예정된 웹 세미나
 
+**Power BI로 빠른 준비 및 실행**  
+작성자: Miguel Martinez, Microsoft  
+[2020년 11월 5일 오전 10:00~오전 11:00 PDT(태평양 일광 절약 시간)에 시청 등록](https://info.microsoft.com/ww-landing-get-up-and-running-quickly-with-power-bi.html?lcid=en-us)
+
 [Power BI 커뮤니티의 예정된 웹 세미나](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>주요 웹 세미나
 
 인기 있는 주문형 웹 세미나 시작
+
+**Microsoft Power BI로 데이터를 실시간으로 모니터링**  
+작성자: Miguel Martinez 및 Peter Myers  
+[지금 보기](https://info.microsoft.com/ww-landing-Monitor-Your-Data-in-Real-time-with-Microsoft-Power-BI.html?lcid=en-us)
+
+**Power BI와 Snowflake를 사용하여 확장 가능한 BI 솔루션 빌드**  
+작성자: Chris Webb, Craig Collier,Chris Holliday  
+[지금 보기](https://info.microsoft.com/ww-landing-build-scalable-BI-solutions-using-power-BI-and-snowflake.html?lcid=en-us)
 
 **BI 콘텐츠 관리 모범 사례를 사용하여 사용자 만족 향상**  
 작성자: Nimrod Shalit  

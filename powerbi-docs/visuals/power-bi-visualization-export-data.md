@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/20/2020
+ms.date: 09/09/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1593cecf448b193ce2186be041da771bb8d6a09c
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.openlocfilehash: 7ab0a093dfd41034aa79d2934ad23cf373fd0474
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008931"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861593"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>시각화를 생성하는 데 사용된 데이터 내보내기
 
@@ -228,7 +228,7 @@ Power BI 관리 포털 설정이 데이터 내보내기에 대한 보고서 설�
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
 이 제한 사항과 고려 사항은 Power BI Pro 및 프리미엄을 포함한 Power BI 서비스 및 Power BI Desktop에 적용됩니다.
 
-- 시각적 개체에서 데이터를 내보내려면 [기본 데이터 세트에 대한 빌드 권한](https://docs.microsoft.com/power-bi/service-datasets-build-permissions)이 있어야 합니다.
+- 시각적 개체에서 데이터를 내보내려면 [기본 데이터 세트에 대한 빌드 권한](../connect-data/service-datasets-build-permissions.md)이 있어야 합니다.
 
 -  **Power BI Desktop** 및 **Power BI 서비스**가 **가져오기 모드 보고서**에서 *.csv* 파일로 내보낼 수 있는 최대 행 수는 30,000개입니다.
 
@@ -269,7 +269,7 @@ Power BI 관리 포털 설정이 데이터 내보내기에 대한 보고서 설�
   1. 파일이 저장된 로컬 폴더로 이동하고 *.csv*를 선택합니다.
 
 - *.csv*로 내보낼 경우, Excel에서 열 때 스크립트 실행을 방지하기 위해 특정 문자는 선행 **'** 로 이스케이프됩니다. 이런 상황은 다음과 같은 경우에 발생합니다.
-  - 데이터 모델에서 열이 “텍스트” 형식으로 정의되는 경우, **_그리고_**
+  - 데이터 모델에서 열이 “텍스트” 형식으로 정의되는 경우, **그리고**
   - 텍스트의 첫 번째 문자가 **=, @, +,-** 중 하나인 경우
 
 - Power BI 관리자는 데이터 내보내기를 사용하지 않도록 설정할 수 있습니다.

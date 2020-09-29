@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ea519b4f120bb643e88d29fba79a5ca464030797
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 9124322dbf7656b05c4cd174207e074cd4f807fe
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537369"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763968"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>Power BI 보고서에서 시각적 개체가 서로 교차 필터링되는 방식
 
@@ -52,7 +52,7 @@ Power BI의 뛰어난 기능 중 하나는 보고서 페이지의 모든 시각�
     
 - 시각적 개체 수준 필터는 보고서 페이지의 다른 시각적 개체를 교차 필터링 및 교차 강조 표시할 때 유지됩니다. 따라서 보고서 디자이너나 사용자가 VisualA에 시각적 개체 수준 필터를 적용했으며 visualA를 사용하여 visualB를 조작하는 경우 visualA의 시각적 개체 수준 필터가 visualB에 적용됩니다.
 
-    ![도넛형 차트의 조정 세그먼트를 선택한 후의 보고서 페이지](media/end-user-interactions/power-bi-visual-filters.png)
+    ![이미 설정된 필터가 표시된 보고서 페이지](media/end-user-interactions/power-bi-visual-filters.png)
 
 ## <a name="next-steps"></a>다음 단계
 [보고서 필터를 사용하는 방법](../consumer/end-user-report-filter.md)

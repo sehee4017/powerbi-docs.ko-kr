@@ -6,15 +6,15 @@ ms.author: kesharab
 ms.topic: troubleshooting
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 05/06/2020
-ms.openlocfilehash: b911af4c7137aac9352c16985aac3a79a7eec87e
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.date: 09/15/2020
+ms.openlocfilehash: f7b37392581ad532093b0a543fe75cdb969d2c86
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86557167"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855373"
 ---
-# <a name="deployment-pipelines-troubleshooting-preview"></a>배포 파이프라인 문제 해결(미리 보기)
+# <a name="deployment-pipelines-troubleshooting"></a>배포 파이프라인 문제 해결
 
 이 문서를 사용하여 배포 파이프라인의 문제를 해결할 수 있습니다.
 
@@ -39,6 +39,13 @@ Power BI의 배포 파이프라인을 이해하려면 [배포 파이프라인 �
 * 작업 영역은 단일 파이프라인에만 할당될 수 있습니다.
 
 * 새 작업 영역의 관리자입니다.
+
+### <a name="why-cant-i-see-the-pipeline-stage-tag-in-my-workspace"></a>내 작업 영역에서 파이프라인 단계 태그를 볼 수 없는 이유
+
+배포 파이프라인은 파이프라인에 할당된 작업 영역에 파이프라인 단계 태그를 표시합니다. 개발 및 테스트 단계의 태그는 항상 표시됩니다. 하지만 [파이프라인에 대한 액세스 권한](deployment-pipelines-process.md#user-with-pipeline-access)이 있거나 [작업 영역 관리자](deployment-pipelines-process.md#workspace-admin)인 경우에는 프로덕션 태그만 표시됩니다.
+
+> [!div class="mx-imgBorder"]
+> ![프로덕션 파이프라인 작업 영역에 있는 프로덕션 태그의 스크린샷](media/deployment-pipelines-troubleshooting/production-tag.png)
 
 ## <a name="licensing"></a>라이선싱
 
@@ -112,7 +119,7 @@ Power BI의 배포 파이프라인을 이해하려면 [배포 파이프라인 �
 
 ![끊어진 링크로 인해 배포가 실패하는 경우에 표시되는 잘못된 규칙 오류의 스크린샷](media/deployment-pipelines-troubleshooting/broken-rule.png)
 
-이전에 성공한 배포가 끊어진 링크로 인해 실패할 경우 경고가 표시됩니다. **규칙 구성**을 클릭하여 실패한 데이터 세트가 표시되는 배포 설정 창으로 이동할 수 있습니다. 데이터 세트를 클릭하면 손상된 규칙이 표시됩니다.
+이전에 성공한 배포가 끊어진 링크로 인해 실패할 경우 경고가 표시됩니다. **규칙 구성**을 선택하여 실패한 데이터 세트가 표시된 배포 설정 창으로 이동할 수 있습니다. 데이터 세트를 선택하면 손상된 규칙이 표시됩니다.
 
 성공적으로 배포하려면 손상된 규칙을 수정하거나 제거한 후 다시 배포합니다.
 
@@ -120,9 +127,9 @@ Power BI의 배포 파이프라인을 이해하려면 [배포 파이프라인 �
 
 Power BI 서비스에서는 데이터 원본 연결을 변경할 수 없습니다.
 
-테스트 또는 프로덕션 단계의 데이터 원본을 변경하려는 경우 [데이터 세트 규칙](deployment-pipelines-get-started.md#step-4---create-dataset-rules) 또는 [API](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup)를 사용할 수 있습니다. 데이터 세트 규칙은 다음 배포 이후에만 적용됩니다.
+테스트 또는 프로덕션 단계의 데이터 원본을 변경하려는 경우 [데이터 세트 규칙](deployment-pipelines-get-started.md#step-4---create-dataset-rules) 또는 [API](/rest/api/power-bi/datasets/updateparametersingroup)를 사용할 수 있습니다. 데이터 세트 규칙은 다음 배포 이후에만 적용됩니다.
 
-### <a name="i-fixed-a-bug-in-production-but-now-i-cant-click-the-deploy-to-previous-stage-button-why-is-it-greyed-out"></a>프로덕션에서 버그를 수정했지만 이제 '이전 단계에 배포' 단추를 클릭할 수 없습니다. 이 단추가 회색으로 표시되는 이유는 무엇인가요?
+### <a name="i-fixed-a-bug-in-production-but-now-i-cant-select-the-deploy-to-previous-stage-button-why-is-it-greyed-out"></a>프로덕션에서 버그를 수정했지만 이제 '이전 단계에 배포' 단추를 선택할 수 없습니다. 이 단추가 회색으로 표시되는 이유는 무엇인가요?
 
 빈 단계에 대해서만 이전 단계 배포가 가능합니다. 테스트 단계에 콘텐츠가 있는 경우 프로덕션에서 이전 단계 배포를 할 수 없습니다.
 

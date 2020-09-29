@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7b5a935418aacb8de15ea6e7e942f2de440ecec1
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.openlocfilehash: 8e8411ea29436a5ee19802d2a970b760062fe59e
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008739"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763991"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Power BI에서 지원되는 정보의 유형
 
@@ -77,7 +77,7 @@ Power BI가 사용하는 알고리즘입니다.
 ![계절성 예제](./media/end-user-insight-types/pbi-auto-insight-type-seasonality-new.png)
 
 ### <a name="steady-share"></a>안정적 지분
-연속 변수에서 부모의 전체 값과 자식 값의 지분 간에 부모-자식 상관 관계가 있는 경우를 강조 표시합니다. 안정적 지분 인사이트는 측정값, 차원 및 다른 날짜/시간 차원의 컨텍스트에 적용됩니다. 이 인사이트는 특정 차원 값(예: “북동부 지역”)이 해당 날짜/시간 차원에서 전체 판매 중 안정적 비율을 차지하는 경우 트리거됩니다.
+연속 변수에서 부모의 전체 값과 자식 값의 지분 간에 부모-자식 상관 관계가 있는 경우를 강조 표시합니다. 안정적 지분 인사이트는 측정값, 차원 및 다른 날짜/시간 차원의 컨텍스트에 적용됩니다. 이 인사이트는 특정 차원 값(예: “동부 지역”)이 해당 날짜/시간 차원에서 전체 판매 중 안정적 비율을 차지하는 경우 트리거됩니다.
 
 안정적 지분 인사이트와 하위 분산 인사이트는 둘 다 시간에 따른 값 분산의 부족과 관련이 있으므로 비슷합니다. 하지만 안정적 지분 인사이트는 시간에 따른 **전체 비율**의 분산 부족을 측정하는 반면 하위 분산 인사이트는 차원에서의 절대적 측정값 분산 부족을 측정합니다.
 

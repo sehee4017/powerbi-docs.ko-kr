@@ -8,16 +8,16 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 07/28/2020
 ms.author: maggies
-ms.openlocfilehash: 1a9fbfc5d764a9dbda75bd60e0efb6da55efd202
-ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+ms.openlocfilehash: 53f8a0a2d634ebcbd0023f560f8ee35e629d4d09
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87364080"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861294"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>Azure 애플리케이션 프록시를 사용하여 Power BI Report Server 구성
 
-이 문서에서는 Azure Active Directory 애플리케이션 프록시를 사용하여 Power BI Report Server 및 SSRS(SQL Server Reporting Services) 2016 이상에 연결하는 방법을 알아봅니다. 회사 네트워크에서 멀리 떨어진 사용자는 이 통합을 통해 클라이언트 브라우저에서 Power BI Report Server 및 Reporting Services에 액세스하고 Azure AD(Active Directory)로 보호될 수 있습니다. [Azure Active Directory 애플리케이션 프록시](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy)를 통해 온-프레미스 애플리케이션 원격으로 액세스하는 방법을 자세히 알아보세요.
+이 문서에서는 Azure Active Directory 애플리케이션 프록시를 사용하여 Power BI Report Server 및 SSRS(SQL Server Reporting Services) 2016 이상에 연결하는 방법을 알아봅니다. 회사 네트워크에서 멀리 떨어진 사용자는 이 통합을 통해 클라이언트 브라우저에서 Power BI Report Server 및 Reporting Services에 액세스하고 Azure AD(Active Directory)로 보호될 수 있습니다. [Azure Active Directory 애플리케이션 프록시](/azure/active-directory/manage-apps/application-proxy)를 통해 온-프레미스 애플리케이션 원격으로 액세스하는 방법을 자세히 알아보세요.
 
 ## <a name="environment-details"></a>환경 세부 정보
 
@@ -125,7 +125,7 @@ Report Server 서비스 계정에 대한 위임 설정을 구성해야 합니다
 
 ## <a name="configure-azure-application-proxy-connector"></a>Azure 애플리케이션 프록시 커넥터 구성
 
-[애플리케이션 프록시 커넥터와 관련된 구성](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-add-on-premises-application#add-an-on-premises-app-to-azure-ad)에 대한 문서를 참조하세요.
+[애플리케이션 프록시 커넥터와 관련된 구성](/azure/active-directory/manage-apps/application-proxy-add-on-premises-application#add-an-on-premises-app-to-azure-ad)에 대한 문서를 참조하세요.
 
 Power BI Report Server에 애플리케이션 프록시 커넥터를 설치했지만 별도의 서버에서 구성하고 위임이 올바르게 설정되어 있는지 확인할 수 있습니다.
 
@@ -150,14 +150,14 @@ KCD를 구성하려면 각 커넥터 컴퓨터에 대해 다음 단계를 반복
 
 이제 Azure AD 애플리케이션 프록시를 구성할 준비가 되었습니다.
 
-다음 설정을 사용하여 애플리케이션 프록시를 통해 Power BI Report Server를 게시합니다. 애플리케이션 프록시를 통해 애플리케이션을 게시하는 방법에 대한 단계별 지침은 [Azure AD 애플리케이션 프록시를 사용하여 애플리케이션 게시](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-add-on-premises-application#add-an-on-premises-app-to-azure-ad)를 참조하세요.
+다음 설정을 사용하여 애플리케이션 프록시를 통해 Power BI Report Server를 게시합니다. 애플리케이션 프록시를 통해 애플리케이션을 게시하는 방법에 대한 단계별 지침은 [Azure AD 애플리케이션 프록시를 사용하여 애플리케이션 게시](/azure/active-directory/manage-apps/application-proxy-add-on-premises-application#add-an-on-premises-app-to-azure-ad)를 참조하세요.
 
 - **내부 URL**: 커넥터가 회사 네트워크에서 연결할 수 있는 보고서 서버의 URL을 입력합니다. 커넥터가 설치된 서버에서 이 URL에 연결할 수 있는지 확인합니다. 애플리케이션 프록시를 통해 게시된 하위 경로 문제를 방지하기 위해 `https://servername/`과 같은 최상위 도메인을 사용하는 것이 가장 좋습니다. 예를 들어, `https://servername/`을 사용하고, `https://servername/reports/` 또는 `https://servername/reportserver/`는 사용하지 않습니다. `https://pbirsazureapp.eastus.cloudapp.azure.com/`를 사용하여 환경을 구성했습니다.
 
     > [!NOTE]
-    > 보고서 서버에 대한 보안 HTTPS 연결을 사용하는 것이 좋습니다. 자세한 내용은 [기본 모드 보고서 서버에서 SSL 연결 구성](https://docs.microsoft.com/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server?view=sql-server-2017)을 참조하세요.
+    > 보고서 서버에 대한 보안 HTTPS 연결을 사용하는 것이 좋습니다. 자세한 내용은 [기본 모드 보고서에서 SSL 연결 구성](/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server)을 참조하세요.
 
-- **외부 URL** : Power BI 모바일 앱에서 연결할 퍼블릭 URL을 입력합니다. 예를 들어, 사용자 지정 도메인을 사용하는 경우 `https://reports.contoso.com`처럼 보일 수 있습니다. 사용자 지정 도메인을 사용하려면 해당 도메인에 대한 인증서를 업로드하고, DNS 레코드로 애플리케이션의 기본 msappproxy.net 도메인을 가리킵니다. 자세한 내용은 [Azure AD 애플리케이션 프록시에서 사용자 지정 도메인 작업](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-configure-custom-domain)을 참조하세요.
+- **외부 URL** : Power BI 모바일 앱에서 연결할 퍼블릭 URL을 입력합니다. 예를 들어, 사용자 지정 도메인을 사용하는 경우 `https://reports.contoso.com`처럼 보일 수 있습니다. 사용자 지정 도메인을 사용하려면 해당 도메인에 대한 인증서를 업로드하고, DNS 레코드로 애플리케이션의 기본 msappproxy.net 도메인을 가리킵니다. 자세한 내용은 [Azure AD 애플리케이션 프록시에서 사용자 지정 도메인 작업](/azure/active-directory/manage-apps/application-proxy-configure-custom-domain)을 참조하세요.
 
 외부 URL을 환경에 대한 `https://pbirsazureapp-umacontoso2410.msappproxy.net/`으로 구성했습니다.
 
@@ -184,7 +184,7 @@ KCD를 구성하려면 각 커넥터 컴퓨터에 대해 다음 단계를 반복
     - Kerberos 티켓이 만들어지도록 보고서를 실행 하거나 데이터 원본에 대한 테스트 연결을 수행합니다.
     - 보고서/테스트 연결을 성공적으로 실행한 후 명령 프롬프트를 열고 `klist` 명령을 실행합니다. 결과 섹션에 `http/` SPN이 포함된 티켓이 표시됩니다. 이 SPN이 Power BI Report Server로 구성한 SPN과 동일한 경우 이 섹션에서 해당 SPN을 사용합니다.
 
-1. 커넥터에 대한 **위임된 로그인 ID**를 선택하여 사용자를 대신하여 사용합니다. 자세한 내용은 [다른 온-프레미스 및 클라우드 ID로 작업](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-configure-single-sign-on-with-kcd#working-with-different-on-premises-and-cloud-identities)을 참조하세요.
+1. 커넥터에 대한 **위임된 로그인 ID**를 선택하여 사용자를 대신하여 사용합니다. 자세한 내용은 [다른 온-프레미스 및 클라우드 ID로 작업](/azure/active-directory/manage-apps/application-proxy-configure-single-sign-on-with-kcd#working-with-different-on-premises-and-cloud-identities)을 참조하세요.
 
     사용자 계정 이름을 사용하는 것이 좋습니다. 이 샘플에서는 **사용자 계정 이름** 옵션을 사용하도록 구성했습니다.
 
@@ -216,7 +216,7 @@ KCD를 구성하려면 각 커넥터 컴퓨터에 대해 다음 단계를 반복
 1. 먼저 로그인에 사용할 사용자 지정 도메인을 구성하고 확인해야 합니다.
 2. 이 경우 umacontoso.com이라는 도메인을 구매하고 항목을 사용하여 DNS 영역을 구성했습니다. `onmicrosoft.com` 도메인을 사용하여 온-프레미스 AD와 동기화할 수도 있습니다.
 
-    [자습서: Azure App Service에 기존 사용자 지정 DNS 이름 매핑](https://docs.microsoft.com/Azure/app-service/app-service-web-tutorial-custom-domain)을 참조하세요.
+    [자습서: Azure App Service에 기존 사용자 지정 DNS 이름 매핑](/Azure/app-service/app-service-web-tutorial-custom-domain)을 참조하세요.
 
 1. 사용자 지정 도메인에 대한 DNS 항목을 성공적으로 확인한 후에는 포털에서 도메인에 해당하는 상태가 **확인됨**으로 표시되는 것을 볼 수 있습니다.
 
@@ -295,8 +295,6 @@ Power BI 모바일 앱이 Power BI Report Server에 연결되고 액세스할 �
 
 ## <a name="next-steps"></a>다음 단계
 
-[Azure AD 애플리케이션 프록시를 사용하여 Power BI Mobile에 대한 원격 액세스 설정](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)
+[Azure AD 애플리케이션 프록시를 사용하여 Power BI Mobile에 대한 원격 액세스 설정](/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
-
-                

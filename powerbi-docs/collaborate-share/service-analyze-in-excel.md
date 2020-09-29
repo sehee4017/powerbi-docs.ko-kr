@@ -7,15 +7,15 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/26/2020
+ms.date: 09/22/2020
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 1605e6108b990c95a995eadd9a6b3d03260001f5
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: 845fb523e9045e7a1062d11eebbb5e34bcc29ce3
+ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937496"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91020070"
 ---
 # <a name="analyze-in-excel"></a>Excel에서 분석
 **Excel에서 분석**을 사용하면 Power BI 데이터 세트를 Excel로 가져온 다음 피벗 테이블, 차트, 슬라이서 및 기타 Excel 기능을 사용하여 데이터 세트를 보고 상호 작용할 수 있습니다. **Excel에서 분석**을 사용하려면 먼저 Power BI에서 이 기능을 다운로드하여 설치한 후 Excel에서 사용할 데이터 세트를 하나 이상 선택해야 합니다. 
@@ -92,6 +92,15 @@ Power BI 서비스에서 Excel로 분석할 데이터 세트 또는 보고서로
     >![제한된 보기 편집 사용 배너의 스크린샷](media/service-analyze-in-excel/protected-view-enable-editing-banner.png)
     >
     >![신뢰할 수 있는 문서 콘텐츠 사용 배너의 스크린샷](media/service-analyze-in-excel/trusted-document-enable-content-banner.png)
+
+Excel에서 피벗 테이블을 사용하여 Power BI를 분석하면 Power BI는 민감도 레이블 상속을 Excel까지 확장합니다. Excel에서 피벗 테이블을 만들 때 Power BI 데이터 세트에 적용되는 민감도 레이블은 Excel 파일에 자동으로 적용됩니다. 
+
+데이터 세트에 대한 레이블이 나중에 더 제한적으로 변경되면 Excel 파일에 적용된 레이블은 Excel에서 데이터 새로 고침 시 자동으로 업데이트됩니다. 데이터 세트가 덜 제한적으로 변경되면 레이블 상속 또는 업데이트가 발생하지 않습니다.
+
+Excel에서 수동으로 설정된 민감도 레이블은 데이터 세트의 레이블로 자동으로 덮어쓰기되지 않습니다. Excel 파일에 수동으로 설정된 민감도 레이블이 있는 경우 레이블 업그레이드 권장 사항이 있는 정책 팁이 표시됩니다. 
+
+자세한 내용은 [Power BI에서 민감도 레이블을 적용하는 방법](../admin/service-security-apply-data-sensitivity-labels.md)을 참조하세요.
+
 
 ## <a name="use-excel-to-analyze-the-data"></a>Excel을 사용하여 데이터 분석
 
@@ -177,4 +186,4 @@ Excel에서 분석을 사용할 때 예기치 않은 결과를 얻거나 기능�
 * [Power BI Desktop에서 슬라이서 사용](../visuals/power-bi-visualization-slicers.md)
 * [Excel에서 분석 문제 해결](desktop-troubleshooting-analyze-in-excel.md)
 * [Excel에서 Power BI 주요 테이블에 액세스(미리 보기)](service-excel-featured-tables.md).
-
+* [Power BI에서 민감도 레이블을 적용하는 방법](../admin/service-security-apply-data-sensitivity-labels.md)

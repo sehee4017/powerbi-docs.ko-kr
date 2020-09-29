@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 4172fc2ff4a1da409a1f5586e8b3579e4745fe99
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 193247aaf610d1712b7986394e08d3c21055d2fa
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273457"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965468"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>별모양 스키마 및 Power BI에서의 중요성 이해
 
@@ -65,7 +65,7 @@ Power BI 모델에 적용할 수 있는, 별모양 스키마 디자인과 관련
 
 별모양 스키마 디자인에서 **측정값**은 요약할 값을 저장하는 팩트 테이블 열입니다.
 
-Power BI 모델의 **측정값** 정의는 다르지만 비슷합니다. 요약을 수행하는, [DAX(Data Analysis Expressions)](https://docs.microsoft.com/dax/data-analysis-expressions-dax-reference)로 작성된 수식입니다. 측정값 식은 SUM, MIN, MAX, AVERAGE 등의 DAX 집계 함수를 활용하여 쿼리 시간에 스칼라 값 결과를 생성하는 경우가 많습니다(값은 모델에 저장되지 않음). 측정값 식은 간단한 열 집계부터 필터 컨텍스트 및/또는 관계 전파를 재정의하는 더 복잡한 수식까지 다양할 수 있습니다. 자세한 내용은 [Power BI Desktop의 DAX 기본 사항](https://docs.microsoft.com/power-bi/desktop-quickstart-learn-dax-basics) 문서를 참조하세요.
+Power BI 모델의 **측정값** 정의는 다르지만 비슷합니다. 요약을 수행하는, [DAX(Data Analysis Expressions)](/dax/data-analysis-expressions-dax-reference)로 작성된 수식입니다. 측정값 식은 SUM, MIN, MAX, AVERAGE 등의 DAX 집계 함수를 활용하여 쿼리 시간에 스칼라 값 결과를 생성하는 경우가 많습니다(값은 모델에 저장되지 않음). 측정값 식은 간단한 열 집계부터 필터 컨텍스트 및/또는 관계 전파를 재정의하는 더 복잡한 수식까지 다양할 수 있습니다. 자세한 내용은 [Power BI Desktop의 DAX 기본 사항](../transform-model/desktop-quickstart-learn-dax-basics.md) 문서를 참조하세요.
 
 Power BI 모델은 요약을 수행하는 다른 방법을 지원한다는 점을 이해하는 것이 중요합니다. 모든 열과 일반적으로 숫자 열은 보고서 시각적 개체 또는 질문 및 답변을 통해 요약할 수 있습니다. 이러한 열을 _‘암시적 측정값’_ 이라고 합니다. 대부분의 경우 측정값을 만들 필요가 없기 때문에 이러한 열은 모델 개발자의 편의를 위해 제공됩니다. 예를 들어 가능한 각 집계 유형에 사용할 측정값을 만들 필요 없이 여러 가지 방법(sum, count, average, median, min, max 등)으로 Adventure Works Reseller Sales의 **Sales Amount** 열을 요약할 수 있습니다.
 
@@ -73,7 +73,7 @@ Power BI 모델은 요약을 수행하는 다른 방법을 지원한다는 점�
 
 그러나 간단한 열 수준 요약의 경우에도 측정값을 만들어야 하는 세 가지 중요한 이유가 있습니다.
 
-- 보고서 작성자가 [MDX(Multidimensional Expressions)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017)를 사용하여 모델을 쿼리할 것을 알고 있다면 모델에 _명시적 측정값_을 포함해야 합니다. 명시적 측정값은 DAX를 사용하여 정의됩니다. 이 디자인 방법은 MDX를 사용하여 Power BI 데이터 세트를 쿼리하는 경우와 관련성이 매우 높은데, MDX는 열 값을 요약할 수 없기 때문입니다. 특히 MDX는 [Excel에서 분석](https://docs.microsoft.com/power-bi/service-analyze-in-excel)을 수행할 때 사용됩니다(PivotTables에서 MDX 쿼리를 실행하기 때문).
+- 보고서 작성자가 [MDX(Multidimensional Expressions)](/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query)를 사용하여 모델을 쿼리할 것을 알고 있다면 모델에 _명시적 측정값_을 포함해야 합니다. 명시적 측정값은 DAX를 사용하여 정의됩니다. 이 디자인 방법은 MDX를 사용하여 Power BI 데이터 세트를 쿼리하는 경우와 관련성이 매우 높은데, MDX는 열 값을 요약할 수 없기 때문입니다. 특히 MDX는 [Excel에서 분석](../collaborate-share/service-analyze-in-excel.md)을 수행할 때 사용됩니다(PivotTables에서 MDX 쿼리를 실행하기 때문).
 - 보고서 작성자가 MDX 쿼리 디자이너를 사용하여 Power BI 페이지를 매긴 보고서를 만들 것임을 알고 있다면 모델에 명시적 측정값을 포함해야 합니다. MDX 쿼리 디자이너만 [서버 집계](/sql/reporting-services/report-design/report-builder-functions-aggregate-function)를 지원합니다. 따라서 보고서 작성자가 페이지를 매긴 보고서 엔진 대신 Power BI를 통해 측정값을 평가해야 하는 경우에는 MDX 쿼리 디자이너를 사용해야 합니다.
 - 보고서 작성자가 특정 방식으로만 열을 요약할 수 있도록 해야 하는 경우입니다. 예를 들어 Reseller Sales의 **Unit Price** 열(단가를 나타냄)은 특정 집계 함수를 사용해서 요약해야 합니다. 즉, 합계는 계산하면 안 되지만 다른 집계 함수(min, max, average 등)를 사용하여 요약할 수 있습니다. 이 경우에는 모델러가 **Unit Price** 열을 숨기고 적절한 모든 집계 함수에 사용할 측정값을 만들 수 있습니다.
 
@@ -83,7 +83,7 @@ Power BI 모델은 요약을 수행하는 다른 방법을 지원한다는 점�
 
 **서로게이트 키**는 별모양 스키마 모델링을 지원하기 위해 테이블에 추가하는 고유 식별자입니다. 정의에 따라 원본 데이터에서 정의되거나 저장되지 않습니다. 일반적으로, 서로게이트 키는 각 차원 테이블 행의 고유 식별자를 제공하기 위해 관계형 데이터 웨어하우스 차원 테이블에 추가됩니다.
 
-Power BI 모델 관계는 한 테이블의 단일 고유 열을 기반으로 하며, 이 열이 다른 테이블의 단일 열에 필터를 전파합니다. 모델의 차원 유형 테이블에 단일 고유 열이 없는 경우 관계의 “일” 쪽에 사용할 고유 식별자를 추가해야 합니다. Power BI Desktop에서 [파워 쿼리 인덱스 열](https://docs.microsoft.com/powerquery-m/table-addindexcolumn)을 만들면 쉽게 이 요구 사항을 충족할 수 있습니다.
+Power BI 모델 관계는 한 테이블의 단일 고유 열을 기반으로 하며, 이 열이 다른 테이블의 단일 열에 필터를 전파합니다. 모델의 차원 유형 테이블에 단일 고유 열이 없는 경우 관계의 “일” 쪽에 사용할 고유 식별자를 추가해야 합니다. Power BI Desktop에서 [파워 쿼리 인덱스 열](/powerquery-m/table-addindexcolumn)을 만들면 쉽게 이 요구 사항을 충족할 수 있습니다.
 
 ![파워 쿼리 도구 모음에서 인덱스 열 만들기](media/star-schema/toolbar-index.png)
 
@@ -150,12 +150,12 @@ Power BI 모델에서는 두 테이블 간에 여러 관계를 만들어 이 디
 
 ![단일 롤플레잉 차원 및 관계 예제](media/star-schema/relationships.png)
 
-비활성 관계를 사용하는 방법은 [USERELATIONSHIP 함수](https://docs.microsoft.com/dax/userelationship-function-dax)를 사용하는 DAX 식을 정의하는 것뿐입니다. 이 예제에서는 모델 개발자가 발송 날짜 및 배송 날짜별로 Reseller Sales를 분석할 수 있도록 측정값을 만들어야 합니다. 이 작업은 특히 Reseller Sales 테이블에서 많은 측정값을 정의하는 경우 번거로울 수 있습니다. 또한 많은 측정값으로 인해 **필드** 창이 혼잡해집니다. 다른 제한 사항도 있습니다.
+비활성 관계를 사용하는 방법은 [USERELATIONSHIP 함수](/dax/userelationship-function-dax)를 사용하는 DAX 식을 정의하는 것뿐입니다. 이 예제에서는 모델 개발자가 발송 날짜 및 배송 날짜별로 Reseller Sales를 분석할 수 있도록 측정값을 만들어야 합니다. 이 작업은 특히 Reseller Sales 테이블에서 많은 측정값을 정의하는 경우 번거로울 수 있습니다. 또한 많은 측정값으로 인해 **필드** 창이 혼잡해집니다. 다른 제한 사항도 있습니다.
 
 - 보고서 작성자가 측정값을 정의하는 대신 열 요약을 사용하는 경우, 보고서 수준 측정값을 작성하지 않으면 비활성 관계를 요약할 수 없습니다. 보고서 수준 측정값은 Power BI Desktop에서 보고서를 작성하는 경우에만 정의할 수 있습니다.
 - 날짜와 Reseller Sales 간에 활성 관계 경로가 하나뿐이므로, 서로 다른 날짜 유형을 기준으로 Reseller Sales를 동시에 필터링할 수 없습니다. 예를 들어 발송된 판매를 기준으로 주문 날짜 판매를 그리는 시각적 개체를 생성할 수 없습니다.
 
-이러한 제한을 극복하기 위한 일반적인 Power BI 모델링 방법은 각 롤플레잉 인스턴스의 차원 유형 테이블을 만드는 것입니다. 일반적으로 DAX를 사용하여 [계산된 테이블](https://docs.microsoft.com/dax/calculatetable-function-dax)로 추가 차원 테이블을 만듭니다. 계산된 테이블을 사용하여 모델에 **Date** 테이블, **Ship Date** 테이블, **Delivery Date** 테이블을 포함할 수 있으며, 각 테이블은 해당 Reseller Sales의 테이블 열과 단일 활성 관계를 갖습니다.
+이러한 제한을 극복하기 위한 일반적인 Power BI 모델링 방법은 각 롤플레잉 인스턴스의 차원 유형 테이블을 만드는 것입니다. 일반적으로 DAX를 사용하여 [계산된 테이블](/dax/calculatetable-function-dax)로 추가 차원 테이블을 만듭니다. 계산된 테이블을 사용하여 모델에 **Date** 테이블, **Ship Date** 테이블, **Delivery Date** 테이블을 포함할 수 있으며, 각 테이블은 해당 Reseller Sales의 테이블 열과 단일 활성 관계를 갖습니다.
 
 ![롤플레잉 차원 및 관계 예제](media/star-schema/relationships2.png)
 
@@ -174,7 +174,7 @@ Power BI 모델에서는 두 테이블 간에 여러 관계를 만들어 이 디
 
 정크 차원의 디자인 목표는 많은 “작은” 차원을 단일 차원으로 통합하여 모델 스토리지 크기를 줄이는 동시에, 표시되는 모델 테이블 수를 줄여 **필드** 창을 깔끔하게 정리하는 것입니다.
 
-정크 차원 테이블은 일반적으로 모든 차원 특성 멤버의 카티전 곱이며, 서로게이트 키 열이 있습니다. 서로게이트 키는 테이블의 각 행에 대한 고유 참조를 제공합니다. 데이터 웨어하우스에서 차원을 작성하거나, 파워 쿼리를 통해 [전체 외부 쿼리 조인](https://docs.microsoft.com/powerquery-m/table-join)을 수행한 다음, 서로게이트 키(인덱스 열)를 추가하는 쿼리를 만들어 차원을 작성할 수 있습니다.
+정크 차원 테이블은 일반적으로 모든 차원 특성 멤버의 카티전 곱이며, 서로게이트 키 열이 있습니다. 서로게이트 키는 테이블의 각 행에 대한 고유 참조를 제공합니다. 데이터 웨어하우스에서 차원을 작성하거나, 파워 쿼리를 통해 [전체 외부 쿼리 조인](/powerquery-m/table-join)을 수행한 다음, 서로게이트 키(인덱스 열)를 추가하는 쿼리를 만들어 차원을 작성할 수 있습니다.
 
 ![정크 차원 예제](media/star-schema/junk-dimension.png)
 
@@ -216,5 +216,3 @@ Power BI 모델에서 판매 주문 번호를 기준으로 필터링하거나 �
 - [활성 및 비활성 관계 지침](relationships-active-inactive.md)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 - 제안? [Power BI 개선을 위한 아이디어 제공](https://ideas.powerbi.com/)
-
-

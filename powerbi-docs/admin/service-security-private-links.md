@@ -7,15 +7,15 @@ ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.author: davidi
-ms.date: 09/14/2020
+ms.date: 09/17/2020
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: 612fa923f45b427cb9c4fea4ecc1b18ad8580004
-ms.sourcegitcommit: 376ea86f69545444f975378cbf63e54c2f75faa3
+ms.openlocfilehash: 3b8eb9c5e4211097cd6f11d233165ccaf197ddbe
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "90084033"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854371"
 ---
 # <a name="private-links-for-accessing-power-bi"></a>Power BI 액세스를 위한 프라이빗 링크
 
@@ -158,7 +158,7 @@ ARM 템플릿 만들기
     |크기 | 기본값인 **표준 DS1 v2**를 그대로 둡니다. |
     |관리자 계정 ||
     |사용자 이름 |선택한 사용자 이름을 입력합니다. |
-    |암호 | 선택한 암호를 입력합니다. 암호는 12자 이상이어야 하며 [정의된 복잡성 요구 사항](https://docs.microsoft.com/azure/virtual-machines/windows/faq?toc=/azure/virtual-network/toc.json#what-are-the-password-requirements-when-creating-a-vm)을 충족해야 합니다. |
+    |암호 | 선택한 암호를 입력합니다. 암호는 12자 이상이어야 하며 [정의된 복잡성 요구 사항](/azure/virtual-machines/windows/faq#what-are-the-password-requirements-when-creating-a-vm)을 충족해야 합니다. |
     |암호 확인 | 암호를 다시 입력합니다. |
     |인바운드 포트 규칙 ||
     |공용 인바운드 포트 | 기본값인 **없음**을 그대로 둡니다. |
@@ -284,6 +284,7 @@ Power BI에서 프라이빗 링크를 사용하여 작업하는 동안 유의해
 * 프라이빗 링크 환경을 사용하는 동안에는 외부 이미지 또는 테마를 사용할 수 없으며, 사용 시 사용자 지정 시각적 개체에 영향이 미칠 수 있습니다.
 * 프라이빗 링크 환경을 사용하는 동안에는 PDF로 내보내기, 보고서에서 Excel로 내보내기 등의 내보내기 서비스 및 기타 내보내기 서비스가 작동하지 않습니다.
 * 일반적으로 RDL 파일(*.rdl 형식 파일)이라고 알려진 SQL Server Reporting Services 보고서는 프라이빗 링크 환경에서 렌더링되지 않습니다.
+* 인터넷 액세스를 사용하지 않고 데이터 세트 또는 데이터 흐름이 데이터 원본인 Power BI 데이터 세트 또는 데이터 흐름에 연결하는 경우 연결이 실패합니다.
 
 
 ## <a name="next-steps"></a>다음 단계

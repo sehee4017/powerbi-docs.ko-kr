@@ -6,15 +6,16 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 06/25/2020
-ms.openlocfilehash: 69ad9fc76250e09c2cea5a8d5dc0d3b2c13f72bf
-ms.sourcegitcommit: 6d7d5e6b19e11d557dfa1b79b745728b4ee02b4e
+ms.custom: contperfq1
+ms.date: 09/22/2020
+ms.openlocfilehash: a364d3dd2d2175e4509d05f4c34eec31a1a371b6
+ms.sourcegitcommit: 37ec0e9e356b6d773d7d56133fb8ed6c06b65fd3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "89220886"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "91024038"
 ---
-# <a name="understand-the-deployment-process-preview"></a>배포 프로세스 이해(미리 보기)
+# <a name="understand-the-deployment-process"></a>배포 프로세스 이해
 
 배포 프로세스를 사용하여 파이프라인의 한 단계에서 다른 단계로(일반적으로 개발에서 테스트로, 테스트에서 프로덕션으로) 콘텐츠를 복제할 수 있습니다.
 
@@ -90,7 +91,7 @@ ms.locfileid: "89220886"
 
 * 지원되지 않는 데이터 세트를 기반으로 한 보고서
 
-* 작업 영역은 템플릿 앱을 사용할 수 없음
+* [템플릿 앱 작업 영역](../connect-data/service-template-apps-create.md#create-the-template-workspace)
 
 * 페이지를 매긴 보고서
 
@@ -137,14 +138,60 @@ ms.locfileid: "89220886"
 다음 데이터 세트 속성도 배포하는 동안 복사되지 않습니다.
 
 * 역할 할당
-    
+
 * 새로 고침 일정
-    
+
 * 데이터 원본 자격 증명
-    
+
 * 쿼리 캐싱 설정(용량에서 상속 가능)
-    
+
 * 인증 설정
+
+## <a name="incremental-refresh"></a>증분 새로 고침
+
+배포 파이프라인은 [증분 새로 고침](../admin/service-premium-incremental-refresh.md)을 지원합니다. 이 기능을 사용하면 리소스 소비를 줄이면서 더 빠르고 안정적으로 큰 데이터 세트를 새로 고칠 수 있습니다.
+
+배포 파이프라인은 데이터와 파티션을 모두 유지하면서 증분 새로 고침을 사용하여 데이터 세트 업데이트를 수행할 수 있습니다. 데이터 세트를 배포하면 정책이 함께 복사됩니다.
+
+### <a name="activating-incremental-refresh-in-a-pipeline"></a>파이프라인에서 증분 새로 고침 활성화
+
+증분 새로 고침을 사용하도록 설정하려면 [Power BI Desktop에서 설정](../admin/service-premium-incremental-refresh.md#configure-incremental-refresh)한 다음 데이터 세트를 게시합니다. 게시한 후 증분 새로 고침 정책은 파이프라인 전체에서 비슷하며 Power BI Desktop에서만 작성할 수 있습니다.
+
+파이프라인이 증분 새로 고침으로 구성된 후에는 다음 흐름을 사용하는 것이 좋습니다.
+
+1. Power BI Desktop에서 PBIX 파일을 변경합니다. 긴 대기 시간을 방지하려면 데이터 샘플을 사용하여 변경할 수 있습니다.
+
+2. PBIX 파일을 개발 단계에 업로드합니다.
+
+3. 테스트 단계에 콘텐츠를 배포합니다. 배포 후에는 변경한 내용이 사용 중인 전체 데이터 세트에 적용됩니다.
+
+4. 테스트 단계에서 변경한 내용을 검토하고 확인한 후 프로덕션 단계에 배포합니다.
+
+### <a name="usage-examples"></a>사용 예
+
+다음은 증분 새로 고침을 배포 파이프라인과 통합할 수 있는 방법의 몇 가지 예입니다.
+
+* [새 파이프라인을 만들고](deployment-pipelines-get-started.md#step-1---create-a-deployment-pipeline) 증분 새로 고침을 사용하도록 설정된 데이터 세트가 있는 작업 영역에 연결합니다.
+
+* 이미 개발 작업 영역에 있는 데이터 세트에서 증분 새로 고침을 사용하도록 설정합니다.  
+
+* 증분 새로 고침을 사용하는 데이터 세트가 있는 프로덕션 작업 영역에서 파이프라인을 만듭니다. 이 작업을 수행하려면 작업 영역을 새 파이프라인의 프로덕션 단계에 할당하고 [이전 단계 배포](deployment-pipelines-get-started.md#backwards-deployment)를 사용하여 테스트 단계에 배포한 다음 개발 단계에 배포합니다.
+
+* 증분 새로 고침을 사용하는 데이터 세트를 기존 파이프라인의 일부인 작업 영역에 게시합니다.
+
+### <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
+
+증분 새로 고침의 경우 배포 파이프라인은 [향상된 데이터 세트 메타데이터](../connect-data/desktop-enhanced-dataset-metadata.md)를 사용하는 데이터 세트만 지원합니다. Power BI Desktop 2020년 9월 릴리스부터 Power BI Desktop을 사용하여 만들거나 수정한 모든 데이터 세트는 향상된 데이터 세트 메타데이터를 자동으로 구현합니다.
+
+증분 새로 고침을 사용하도록 설정된 활성 파이프라인에 데이터 세트를 다시 게시하는 경우 데이터 손실 가능성으로 인해 배포에 실패하게 되는 변경은 다음과 같습니다.
+
+* 증분 새로 고침을 사용하지 않는 데이터 세트를 다시 게시하여 증분 새로 고침을 사용하는 데이터 세트를 대체.
+
+* 증분 새로 고침을 사용하도록 설정된 테이블 이름 바꾸기.
+
+* 증분 새로 고침을 사용하도록 설정된 테이블에서 계산되지 않은 열의 이름 바꾸기.
+
+열 추가, 열 제거, 계산 열 이름 바꾸기 등의 다른 변경은 허용됩니다. 하지만 변경이 표시에 영향을 주는 경우에는 변경 내용이 표시되기 전에 새로 고쳐야 합니다.
 
 ## <a name="deploying-power-bi-apps"></a>Power BI 앱 배포
 
@@ -170,9 +217,9 @@ ms.locfileid: "89220886"
 파이프라인 액세스 권한이 있는 사용자에게는 다음 권한이 있습니다.
 
 * 파이프라인 보기
-    
+
 * 다른 사용자와 파이프라인 공유
-    
+
 * 파이프라인 편집 및 삭제
 
 >[!NOTE]
@@ -202,9 +249,9 @@ ms.locfileid: "89220886"
 ‘파이프라인 액세스 권한’이 있는 작업 영역 구성원은 다음 작업도 수행할 수 있습니다.
 
 * 작업 영역 콘텐츠 보기
-    
+
 * 단계 비교
-    
+
 * 보고서 및 대시보드 배포
 
 * 작업 영역 제거
@@ -222,7 +269,7 @@ ms.locfileid: "89220886"
 작업 영역 구성원 또는 관리자인 데이터 세트 소유자는 다음 작업도 수행할 수 있습니다.
 
 * 데이터 세트 업데이트
-    
+
 * 규칙 구성
 
 >[!NOTE]
@@ -244,13 +291,11 @@ ms.locfileid: "89220886"
 
 ### <a name="dataset-limitations"></a>데이터 세트 제한 사항
 
-* [증분 새로 고침](../admin/service-premium-incremental-refresh.md)을 사용하여 구성된 데이터 세트는 배포할 수 없습니다.
-
 * 실시간 데이터 연결을 사용하는 데이터 세트는 배포할 수 없습니다.
 
 * 배포하는 동안 대상 데이터 세트가 [라이브 연결](../connect-data/desktop-report-lifecycle-datasets.md)을 사용하는 경우 원본 데이터 세트도 이 연결 모드를 사용해야 합니다.
 
-* 배포 후에는 (데이터 세트가 배포된 단계로부터의) 데이터 세트 다운로드가 지원되지 않습니다.
+* 배포 후에는 데이터 세트가 배포된 단계에서 데이터 세트를 다운로드할 수 없습니다.
 
 * 데이터 세트 규칙 제한 사항의 목록은 [데이터 세트 규칙 제한 사항](deployment-pipelines-get-started.md#dataset-rule-limitations)을 참조하세요.
 

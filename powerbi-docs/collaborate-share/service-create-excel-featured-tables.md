@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 07/30/2020
+ms.date: 09/17/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c74c618eb4c748d94260573c1ddd4266d3cf5c0e
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.openlocfilehash: efddfbdb70b2c20ad650eda6a16a5d7defb758e8
+ms.sourcegitcommit: fa0a1561aba2a392fb56e7030e1a0537806a9260
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478087"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "90811854"
 ---
 # <a name="set-featured-tables-in-power-bi-desktop-preview"></a>Power BI Desktop에서 추천 테이블 설정(미리 보기)
 
@@ -40,11 +40,11 @@ Excel의 데이터 형식 갤러리에서 사용자는 Power BI 데이터 세트
 
 1. Power BI Desktop에서 모델 뷰로 이동합니다.
 
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-model-view.png" alt-text="모델 뷰":::
+    :::image type="content" source="media/service-excel-featured-tables/power-bi-model-view.png" alt-text="미리 보기 주요 테이블 옵션":::
  
 2. 테이블을 선택하고 **주요 테이블**을 **예**로 설정합니다.
 
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-featured-table-yes.png" alt-text="주요 테이블을 예로 설정":::
+    :::image type="content" source="media/service-excel-featured-tables/power-bi-featured-table-yes.png" alt-text="미리 보기 주요 테이블 옵션":::
 
 4. **이 주요 테이블 설정**에서 필수 필드를 제공합니다.
 
@@ -54,7 +54,7 @@ Excel의 데이터 형식 갤러리에서 사용자는 Power BI 데이터 세트
     - **행 레이블** 필드 값은 사용자가 행을 쉽게 식별할 수 있도록 Excel에서 사용됩니다. 이 값은 **데이터 선택기** 창 및 **정보** 카드에 연결된 셀의 셀 값으로 표시됩니다. 
     - **키 열** 필드 값은 행의 고유 ID를 제공합니다. Excel이 이 값을 사용하여 셀을 테이블의 특정 행에 연결할 수 있습니다.
 
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-set-up-featured-table.png" alt-text="주요 테이블 설정":::
+    :::image type="content" source="media/service-excel-featured-tables/power-bi-set-up-featured-table.png" alt-text="미리 보기 주요 테이블 옵션":::
 
 1. 데이터 세트를 Power BI 서비스에 게시하거나 가져오면 Excel 데이터 형식 갤러리에 추천 테이블이 표시됩니다. 사용자 및 기타 보고서 작성자는 해당 데이터 세트를 기반으로 작성되는 보고서를 만들 수도 있습니다.
 
@@ -66,19 +66,13 @@ Excel의 데이터 형식 갤러리에서 사용자는 Power BI 데이터 세트
 
 초기 미리 보기의 제한 사항은 다음과 같습니다.
 
-- 다음 기능을 사용하는 Power BI 데이터 세트의 주요 테이블은 Excel에 표시되지 않습니다. 
+- 다음 기능을 사용하는 Power BI 데이터 세트의 주요 테이블은 Excel에 표시되지 않습니다.
 
-    - 행 수준 보안 데이터 세트
-    - Microsoft Information Protection 설정 데이터 세트
     - DirectQuery 데이터 세트
     - 라이브 연결을 사용하는 데이터 세트
 
-- Excel에서는 주요 테이블의 열 및 계산 열의 데이터만 표시합니다. 다음은 초기 미리 보기에서 제공하지 않습니다.
-
-    - 추천 테이블에 정의된 측정값
-    - 관련 테이블에 정의된 측정값 및 관계에서 계산된 암시적 측정값
-
-- Excel에서는 새 Power BI 작업 영역에 저장된 주요 테이블만 표시합니다. 클래식 작업 영역 또는 내 작업 영역에 저장된 주요 테이블은 Excel에서 데이터 형식으로 표시되지 않습니다. Power BI에서 [클래식 작업 영역을 새 작업 영역으로 업그레이드](service-upgrade-workspaces.md)할 수 있습니다.
+- Excel에서는 주요 테이블의 열 및 계산 열의 데이터만 표시합니다. 관련 테이블에 정의된 측정값 및 관계에서 계산된 암시적 측정값은 초기 미리 보기에서 제공되지 않습니다.
+- Excel에서는 새 Power BI 작업 영역에 저장된 주요 테이블만 표시합니다. 클래식 작업 영역에 저장된 추천 테이블은 Excel에서 데이터 형식으로 표시되지 않습니다. Power BI에서 [클래식 작업 영역을 새 작업 영역으로 업그레이드](service-upgrade-workspaces.md)할 수 있습니다.
 - 기타 Excel 고려 사항을 확인하려면 “Excel에서 Power BI 추천 테이블에 액세스” 문서에서 [고려 사항 및 제한 사항](service-excel-featured-tables.md#considerations-and-limitations)을 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
