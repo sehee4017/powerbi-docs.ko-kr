@@ -108,7 +108,7 @@
               href: migrate-ssrs-reports-to-power-bi.md
         - name: 관리 및 배포
           items:
-            - name: 테넌트 관리 설정
+            - name: 테넌트 설정
               href: admin-tenant-settings.md
             - name: 온-프레미스 데이터 게이트웨이 크기 조정
               href: gateway-onprem-sizing.md
