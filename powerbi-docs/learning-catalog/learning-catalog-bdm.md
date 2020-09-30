@@ -6,12 +6,12 @@ ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: f41699791ee79ae963978f69974e91f336ccd193
-ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
+ms.openlocfilehash: af44ca4674d66c8415b9919c9c83e3fbfda391b1
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "84532767"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528025"
 ---
 # <a name="business-and-technical-decision-makers-learning-catalog"></a>비즈니스 및 기술 의사 결정권자 학습 카탈로그
 
@@ -22,6 +22,6 @@ ms.locfileid: "84532767"
 ## <a name="get-started"></a>시작<a name="get-started"></a>
 | 콘텐츠  | 설명  | 형식  | 길이     |
 |---------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|------------|
-| [Power BI의 비즈니스 가치에 대한 자세한 정보](https://docs.microsoft.com/learn/modules/introduction-power-bi/) | Power BI를 활용하여 대화형 시각화를 통해 보고서와 대시보드를 편리하게 작성하는 방법을 알아보고, 다른 조직에서 어떻게 이 솔루션을 사용하여 실행 가능한 인사이트로 비즈니스 결과를 유도했는지 확인하세요. | 무료 자기 주도적 온라인 학습 경로 | 21분 |
-| [Microsoft Power Platform 기본 사항](https://docs.microsoft.com/learn/paths/power-plat-fundamentals/)      | Power Platform의 비즈니스 가치 및 제품 기능에 대해 알아보세요. 간단한 PowerApp을 만들고, CDS와 데이터를 연결하고, Power BI 대시보드를 빌드하고, Microsoft Flow를 사용하여 프로세스를 자동화할 수 있습니다.                          | 무료 자기 주도적 온라인 학습 경로 | 2시간 42분  |
+| [Power BI의 비즈니스 가치에 대한 자세한 정보](/learn/modules/introduction-power-bi/) | Power BI를 활용하여 대화형 시각화를 통해 보고서와 대시보드를 편리하게 작성하는 방법을 알아보고, 다른 조직에서 어떻게 이 솔루션을 사용하여 실행 가능한 인사이트로 비즈니스 결과를 유도했는지 확인하세요. | 무료 자기 주도적 온라인 학습 경로 | 21분 |
+| [Microsoft Power Platform 기본 사항](/learn/paths/power-plat-fundamentals/)      | Power Platform의 비즈니스 가치 및 제품 기능에 대해 알아보세요. 간단한 PowerApp을 만들고, CDS와 데이터를 연결하고, Power BI 대시보드를 빌드하고, Microsoft Flow를 사용하여 프로세스를 자동화할 수 있습니다.                          | 무료 자기 주도적 온라인 학습 경로 | 2시간 42분  |
 | [Microsoft Power BI YouTube 채널](https://www.youtube.com/user/mspowerbi/videos)  | Microsoft Power BI 제품 팀의 콘텐츠를 포함하는 YouTube 채널입니다.  | 비디오   |            |
