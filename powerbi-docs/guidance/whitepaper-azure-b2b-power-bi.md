@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 9125c87f96641852a16410d3f8287c714816fb4b
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: df6b3bd29089f37b11064216568523f442169794
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965381"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528393"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Azure Active Directory B2B를 사용하여 외부 게스트 사용자에게 Power BI 콘텐츠 배포
 
@@ -535,7 +535,7 @@ Azure AD B2B 공유를 사용 하는 경우 Azure Active Directory 관리자는 
 
 ### <a name="control-guest-invites"></a>게스트 초대 제어
 
-Power BI 관리자는 Power BI 관리 포털을 방문 하 여 Power BI에 대 한 외부 공유만 제어할 수 있습니다. 그러나 테 넌 트 관리자는 다양 한 Azure AD 정책을 통해 외부 공유를 제어할 수도 있습니다.  이러한 정책을 사용 하면 테 넌 트 관리자가
+Power BI 관리자는 Power BI 관리 포털을 방문 하 여 Power BI에 대 한 외부 공유만 제어할 수 있습니다. 하지만 관리자는 다양 한 Azure AD 정책으로 외부 공유를 제어할 수도 있습니다.  이러한 정책을 통해 관리자는 다음을 수행할 수 있습니다.
 
 - 최종 사용자의 초대 해제
 - 관리자 및 게스트 초대자 역할의 사용자만 초대 가능
