@@ -7,15 +7,15 @@ ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.author: davidi
-ms.date: 09/17/2020
+ms.date: 09/24/2020
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: 3b8eb9c5e4211097cd6f11d233165ccaf197ddbe
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: dee055f53302ef6e7884463b8e0feb113aa9bd5a
+ms.sourcegitcommit: 3655521f7d6e70d25cbe72006aada69ba08e7dec
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854371"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "91224213"
 ---
 # <a name="private-links-for-accessing-power-bi"></a>Power BI 액세스를 위한 프라이빗 링크
 
@@ -226,10 +226,7 @@ ARM 템플릿 만들기
     |서브넷 |*mySubnet*을 선택합니다. |
     |**프라이빗 DNS 통합** ||
     |프라이빗 DNS 영역과 통합|   **예**를 선택합니다. |
-    |프라이빗 DNS 영역   |선택 <br><br>
-    *(New)privatelink.analysis.windows.net* <br>
-    *(New)privatelink.pbidedicated.windows.net* <br>
-    *(New)privatelink.tip1.powerquery.microsoft.com* |
+    |프라이빗 DNS 영역   |선택 <br> *(New)privatelink.analysis.windows.net* <br> *(New)privatelink.pbidedicated.windows.net* <br> *(New)privatelink.tip1.powerquery.microsoft.com* |
     
     다음 이미지는 **프라이빗 엔드포인트 만들기 - 구성** 창을 보여 줍니다.
     

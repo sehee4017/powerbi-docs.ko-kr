@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 04/11/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 971c699170103d5521763679c93d3641c094cc58
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: f2b9ee2093889fc9a60d621ad09b3b52d2e90474
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277436"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525941"
 ---
 # <a name="separate-reports-from-models-in-power-bi-desktop"></a>Power BI Desktop의 모델에서 보고서 분리
 
@@ -37,7 +37,7 @@ _단일 파일 솔루션_은 모델을 기반으로 하는 단일 보고서만 �
 - 데이터 모델러와 보고서 작성자가 서로 다른 사람인 경우.
 - 모델은 현재 또는 나중에 여러 보고서에 대한 원본이 되는 것으로 이해되는 경우.
 
-:::image type="content" source="media/report-separate-from-model/separate-report-files.png" alt-text="다음과 같은 세 가지 PBIX 파일이 있습니다. 첫 번째 파일에는 모델만 포함됩니다. 다른 두 파일은 보고서만 포함하고 Power BI 서비스에 호스트된 모델에 라이브 연결합니다. 보고서는 다른 사람이 개발합니다." border="true":::
+:::image type="content" source="media/report-separate-from-model/separate-report-files.png" alt-text="단일 파일에는 동일한 사람이 개발한 모델 및 보고서가 포함되어 있습니다." border="true":::
 
 데이터 모델러는 여전히 Power BI Desktop 보고서 제작 환경을 사용하여 모델 디자인을 테스트하고 유효성을 검사할 수 있습니다. 그러나 Power BI 서비스에 파일을 게시한 직후에는 작업 영역에서 보고서를 제거해야 합니다. 그리고 데이터 세트를 다시 게시하여 덮어쓸 때마다 보고서를 제거해야 한다는 점에 주의해야 합니다.
 
@@ -56,7 +56,7 @@ _단일 파일 솔루션_은 모델을 기반으로 하는 단일 보고서만 �
 
 모델에 대한 주요 변경 내용을 적용해야 하는 경우 다음 중 하나를 수행하는 것이 좋습니다.
 
-- Power BI 서비스에서 [데이터 세트에 대한 관련 콘텐츠를 봅니다](../consumer/end-user-related.md#view-related-content-for-a-dataset).
+- Power BI 서비스에서 [데이터 세트에 대한 관련 콘텐츠를 봅니다](../consumer/end-user-related.md).
 - Power BI 서비스에서 [데이터 계보](../collaborate-share/service-data-lineage.md) 보기를 탐색합니다.
 
 두 옵션 모두 관련 보고서 및 대시보드를 신속하게 식별할 수 있습니다. 관련된 각 아티팩트에 대한 연락처를 쉽게 볼 수 있으므로 데이터 계보 보기를 선택하는 것이 더 나을 수 있습니다. 실제로 이는 연락처에 주소가 지정된 전자 메일 메시지를 여는 하이퍼링크입니다.

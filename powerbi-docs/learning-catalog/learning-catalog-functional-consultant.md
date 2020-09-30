@@ -6,12 +6,12 @@ ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: 11150686d1ff922877081a672290069f85b1afc5
-ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
+ms.openlocfilehash: 3ebfa0e13293f65d5399aafb7071d4eaad63cc6f
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87411914"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527796"
 ---
 # <a name="functional-application-consultant-learning-catalog"></a>기능 애플리케이션 컨설턴트 학습 카탈로그
 
@@ -34,8 +34,8 @@ Microsoft가 진행한 작업-태스크 분석 연구는 기능 컨설턴트의 
 | [Power BI: 제대로 된 분석](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_02OnDemandRegistration-ForminBody.html)  | 분석 및 Excel의 비전을 내다보는 모든 전문가로부터 잘 구성된 매력적인 보고서를 만들고, 이해하기 쉬운 유용한 인사이트를 공유하며, 안전한 방식으로 복잡한 데이터의 흐름을 원활하게 하여 이러한 데이터에 쉽게 액세스하는 방법을 배워 보세요. 새로운 제품 혁신 사항과 최신 엔터프라이즈 BI 및 셀프 서비스 BI 비전을 공유하여 데이터 기반 조직 문화를 조성하는 데 도움을 드립니다.   | 웹 세미나       |                   |
 | [AI가 BI를 변경하는 세 가지 방법](https://info.microsoft.com/ww-landing-Three-Ways-AI-Is-Changing-BI-OnDemand.html)  | 분석가는 데이터를 조사하고 시각화하여 관련자가 빠르고 효과적으로 인사이트를 찾을 수 있도록 지원하는 것이 중요합니다. 비즈니스 요구는 임원이 어떤 일이 발생했고 언제 발생했는지를 질문하는 것에서 왜 발생했고 향후에 어떤 일이 발생할지를 묻는 것으로 발전했습니다. AI와 BI(비즈니스 인텔리전스)를 함께 사용하는 세 가지 데이터 인사이트 기회에 대해 알아보려면 이 웨비나에 등록하세요.   | 웹 세미나       |                   |
 | [Power BI 기능 활용 - Philip Seamark의 팁과 요령](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/6-22-2017-Unleash-the-Power-of-Power-BI-tips-and-tricks-by/td-p/161490) | Philip Seamark가 남반구에서 가장 큰 Power BI 배포의 몇 가지 세부 정보, 사용되는 방식, BI 요구를 충족하는 방법을 설명합니다. 이 세션에서는 Power BI 보고서를 개선하는 데 도움이 되는 다양한 팁과 요령을 제공합니다.   | 웹 세미나       | 53분 47초       |
-| [Power BI란?](https://docs.microsoft.com/power-bi/fundamentals/power-bi-overview)  | Power BI 개요   | 웹 사이트       | 읽는 데 3분 소요 |
-| [Power BI Desktop에서 DAX 사용](https://docs.microsoft.com/learn/paths/dax-power-bi/) | 이 학습 경로는 DAX(Data Analysis Expressions)를 소개하고 계산을 사용하여 데이터 모델을 향상하는 데 필요한 기본 기술을 제공합니다.  | 무료 자기 주도적 온라인 학습 경로 | 4시간 30분 |
+| [Power BI란?](../fundamentals/power-bi-overview.md)  | Power BI 개요   | 웹 사이트       | 읽는 데 3분 소요 |
+| [Power BI Desktop에서 DAX 사용](/learn/paths/dax-power-bi/) | 이 학습 경로는 DAX(Data Analysis Expressions)를 소개하고 계산을 사용하여 데이터 모델을 향상하는 데 필요한 기본 기술을 제공합니다.  | 무료 자기 주도적 온라인 학습 경로 | 4시간 30분 |
 ## <a name="best-practices"></a>모범 사례<a name="best-practices"></a>
 | 콘텐츠   | 설명  | 서식   | 길이   |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|-------------------|

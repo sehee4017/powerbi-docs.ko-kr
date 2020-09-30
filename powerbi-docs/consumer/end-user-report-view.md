@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/27/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: b20577dbd3c26a837310059ba665a47b624024b5
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 290af971972bf3ece31283b22cedbf824e9f8c1e
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87536334"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526957"
 ---
 # <a name="change-the-display-of-a-report-page"></a>보고서 페이지의 표시 변경
 
@@ -28,7 +28,7 @@ ms.locfileid: "87536334"
 
 ## <a name="explore-the-view-menu"></a>보기 메뉴 탐색
 
-![보기 드롭다운 옵션의 스크린샷.](media/end-user-report-view/power-bi-viewmenu.png)
+![보기 드롭다운 옵션의 스크린샷.](media/end-user-report-view/power-bi-menu-view.png)
 
 
 **보기** 메뉴의 옵션을 사용하면 선택한 크기와 너비로 보고서 페이지를 유연하게 표시할 수 있습니다.
