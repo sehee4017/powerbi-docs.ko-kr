@@ -5,25 +5,25 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.subservice: powerbi-premium
 ms.topic: conceptual
 ms.date: 03/06/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: db5f123f0ab0eba373aca97fd975645cd38b4cd9
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: e24b9949eeaaf488f88677fc1171fae5ece5d383
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349428"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600378"
 ---
 # <a name="deploying-and-managing-power-bi-premium-capacities"></a>Power BI Premium 용량 배포 및 관리
 
 별도의 문서에서 최신 정보를 제공 하기 위해 Power BI Premium 백서를 사용 중지 했습니다. 다음 표를 사용 하 여 백서에서 콘텐츠를 찾을 수 있습니다. 
 
-| 아티클 | 설명 |
+| 문서 | Description |
 |-----|----|
 | [Power BI 서비스의 디자이너를 위한 기본 개념](../fundamentals/service-basic-concepts.md)</br>[Power BI 서비스의 데이터 세트](../connect-data/service-datasets-understand.md)</br>[Power BI 서비스의 데이터 세트 모드](../connect-data/service-dataset-modes-understand.md) | Power BI 서비스 용량, 작업 영역, 대시보드, 보고서, 통합 문서, 데이터 집합 및 데이터 흐름에 대 한 배경 정보입니다. |
-| [Power BI Premium이란?](../admin/service-premium-what-is.md) | 전용 용량, 지원 되는 작업, 무제한 콘텐츠 공유 및 기타 기능에 대 한 기본 사항을 다루는 Power BI Premium의 개요입니다.  |
+| [Power BI 프리미엄이란?](../admin/service-premium-what-is.md) | 전용 용량, 지원 되는 작업, 무제한 콘텐츠 공유 및 기타 기능에 대 한 기본 사항을 다루는 Power BI Premium의 개요입니다.  |
 | [프리미엄 용량 관리](../admin/service-premium-capacity-manage.md)</br>[Power BI Premium에서 용량 구성 및 관리](../admin/service-admin-premium-manage.md)
 </br>[프리미엄 용량에서 워크로드 구성](../admin/service-admin-premium-workloads.md) | 전용 용량 및 워크 로드를 구성 하 고 관리 하는 방법에 대 한 자세한 정보입니다. |
 | [프리미엄 용량 최적화](../admin/service-premium-capacity-optimize.md) | 성능 최적화, 모델 최적화, 용량 계획 및 테스트 방법에 대 한 모범 사례입니다. |
