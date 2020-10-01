@@ -259,8 +259,6 @@
               href: ../visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
             - name: Power BI 시각화 개체에서 ArcGIS 맵과 상호 작용
               href: ../visuals/power-bi-visualizations-arcgis.md
-            - name: Power BI 시각적 개체를 위한 ArcGIS 맵 만들기
-              href: ../visuals/power-bi-visualization-arcgis.md
             - name: 기본 영역형 차트
               href: ../visuals/power-bi-visualization-basic-area-chart.md
             - name: 카드 시각적 개체 만들기(큰 숫자 타일)
