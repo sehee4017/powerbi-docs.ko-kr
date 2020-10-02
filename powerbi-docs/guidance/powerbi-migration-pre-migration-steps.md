@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 9a5ed3d2a4798332de2394e1ad5be6fdbdb6eeae
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: fba37d9f73ea0f61d8a43dc46cd13a5835d4d2a9
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803380"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525803"
 ---
 # <a name="prepare-to-migrate-to-power-bi"></a>Power BI로 마이그레이션 준비
 
@@ -73,7 +73,7 @@ Power BI 구현 초기에 해결할 몇 가지 주요 항목은 다음과 같습
 
 Power BI 구현 초기에 처리할 일부 중요한 항목은 다음과 같습니다.
 
-- 문서화해야 하는 [Power BI 테넌트 관리자 설정](admin-tenant-settings.md) 결정
+- 문서화해야 하는 [Power BI 테넌트 설정](admin-tenant-settings.md) 결정 사항.
 - 문서화해야 하는 [작업 영역 관리](../collaborate-share/service-new-workspaces.md) 결정
 - 앱, 작업 영역, 공유, 구독 및 콘텐츠 포함과 같은 데이터 및 [콘텐츠 배포 방법](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md)과 관련된 고려 사항 및 기본 설정
 - 가져오기 모드 또는 DirectQuery 모드를 사용하거나 [복합 모델](composite-model-guidance.md)에서 두 모드를 결합하는 것과 같이 [데이터 세트 모드](../connect-data/service-dataset-modes-understand.md)와 관련된 기본 설정
@@ -96,7 +96,7 @@ Power BI 구현 초기에 처리할 일부 중요한 항목은 다음과 같습�
 - Power BI 테넌트 설정 Azure Active Directory와 통합
 - [Power BI 관리자](../admin/service-admin-role.md) 정의
 - 초기 [사용자 라이선스](../admin/service-admin-licensing-organization.md) 구매 및 할당
-- [Power BI 테넌트 관리자 설정](admin-tenant-settings.md) 구성 및 검토
+- [Power BI 테넌트 설정](admin-tenant-settings.md)을 구성하고 검토합니다.
 - [작업 영역 역할](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces) 설정 및 Azure Active Directory 보안 그룹과 사용자에게 액세스 권한 할당
 - 정기적인 업데이트 계획을 통해 초기 [데이터 게이트웨이](../connect-data/service-gateway-deployment-guidance.md) 클러스터 구성
 - 초기 [프리미엄 용량 라이선스](../admin/service-admin-premium-purchase.md) 구매(해당하는 경우)

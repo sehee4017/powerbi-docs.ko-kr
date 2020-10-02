@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: c97a303a5b3241f49e82aac41d9ed7984c3a5af1
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: 521c1cbc60c6d616c06bde6b6826bb270d3ddba0
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642307"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375307"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>데이터 원본 관리 - Analysis Services
 
@@ -219,7 +219,9 @@ Analysis Services에서 연결되어 있는 사용자가 데이터 읽기 권한
 
 사용자 UPN이 무엇인지 알 수 없으며 도메인 관리자가 되지 못할 수도 있습니다. 워크스테이션에서 다음 명령을 사용하여 계정에 대한 UPN을 알아볼 수 있습니다.
 
-    whoami /upn
+```dos
+whoami /upn
+```
 
 결과는 메일 주소와 유사하지만 도메인 계정에 있는 UPN입니다. 라이브 연결에 대해 Analysis Services 데이터 원본을 사용하고 이 UPN이 Power BI에 로그인하는 메일 주소와 일치하지 않는 경우 [사용자 이름 매핑](#map-user-names-for-analysis-services-data-sources) 방법을 살펴볼 수 있습니다.
 
@@ -235,7 +237,7 @@ Analysis Services 라이브 연결을 사용하려는 경우 로컬 Active Direc
 
 - [Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis) 도구를 사용하여 로컬 계정을 Azure AD 테넌트와 동기화할 수 있습니다.
 
-   Azure AD Connect 도구는 디렉터리 동기화 및 인증 설정에 대한 옵션을 제공합니다. 옵션에는 암호 해시 동기화, 통과 인증 및 페더레이션이 포함됩니다. 테넌트 관리자 또는 로컬 도메인 관리자가 아닌 경우 IT 관리자에게 이 구성에 관해 문의하세요.
+   Azure AD Connect 도구는 디렉터리 동기화 및 인증 설정에 대한 옵션을 제공합니다. 옵션에는 암호 해시 동기화, 통과 인증 및 페더레이션이 포함됩니다. 관리자 또는 로컬 도메인 관리자가 아닌 경우 IT 관리자에게 이 구성에 관해 문의하세요.
 
    Azure AD Connect를 사용하면 UPN이 Azure AD와 로컬 Active Directory 인스턴스 간에 일치하게 할 수 있습니다.
 
