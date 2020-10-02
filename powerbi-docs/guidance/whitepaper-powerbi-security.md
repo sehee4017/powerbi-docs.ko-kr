@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 19548729f4ae85334fea14584e78ad4ee05a5c24
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: 432f8a7a39e6902c679c83d447039519f90d0dac
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965325"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635703"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI 보안 백서
 
@@ -171,12 +171,11 @@ Power BI 서비스에서 데이터는 _저장_ 데이터(현재 사용하고 있
 
 다음 표에서는 사용 중인 쿼리 형식을 기반으로 하는 Power BI 데이터를 설명합니다. **X**는 연결된 쿼리 형식을 사용할 때 Power BI 데이터가 있음을 표시합니다.
 
-
-|  |가져오기  |DirectQuery  |라이브 연결  |
-|---------|---------|---------|---------|
-|스키마     |     X    |    X     |         |
-|행 데이터     |    X     |         |         |
-|시각적 개체 데이터 캐싱     |    X     |     X    |    X     |
+|                         | 가져오기   | DirectQuery | 라이브 연결  |
+|-------------------------|----------|-------------|---------------|
+|**스키마**               | X        | X           |               |
+|**행 데이터**             | X        |             |               |
+|**시각적 개체 데이터 캐싱** | X        | X           | X             |
 
 DirectQuery와 다른 쿼리의 차이점은 Power BI 서비스에서 저장 데이터를 처리하는 방법과 쿼리 자체가 암호화되는지 여부를 결정합니다. 다음 섹션에서는 저장/이동 중 데이터, 데이터 처리에 대한 암호화, 위치 및 프로세스에 대해 설명합니다.
 
