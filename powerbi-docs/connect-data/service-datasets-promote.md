@@ -9,19 +9,19 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 984ac0bc0e89ff1be5281039f4f4586025d7973e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ac0b032d8f20610dff97fb112d3ac54d5cc43889
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236758"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374295"
 ---
 # <a name="promote-your-dataset---power-bi"></a>데이터 세트 승격 - Power BI
 
 이제 Power BI 보고서 작성자는 다양한 데이터 세트에 액세스할 수 있으므로 엔터프라이즈는 신뢰할 수 있는 고품질 데이터 세트로 안내해야 합니다. Power BI에서는 데이터 세트를 *보증*하는 두 가지 방법을 제공합니다.
 
 - **승격**: 데이터 세트 소유자는 광범위한 사용 준비가 되면 사용자 고유의 데이터 세트를 승격할 수 있습니다. 쓰기 권한이 있는 모든 작업 영역 멤버는 데이터 세트를 승격할 수 있습니다. 데이터 세트를 승격할 수 있는 사용자에 대한 제한은 없습니다. 승격은 조직 내에서 데이터 세트의 협업 확산을 지원합니다. 이 문서는 데이터 세트를 승격하는 방법에 대한 것입니다.
-- **인증**: 승격된 데이터 세트에 대한 인증을 요청할 수 있습니다. **데이터 세트 인증** 테넌트 관리자 설정에 정의된 선택된 사용자 그룹이 인증할 데이터 세트를 결정합니다. 자세한 내용은 [데이터 세트 인증](service-datasets-certify.md)을 참조하세요.
+- **인증**: 승격된 데이터 세트에 대한 인증을 요청할 수 있습니다. **데이터 세트 인증** 테넌트 설정에 정의된 선택된 사용자 그룹이 인증할 데이터 세트를 결정합니다. 자세한 내용은 [데이터 세트 인증](service-datasets-certify.md)을 참조하세요.
 
 ## <a name="promote-a-dataset"></a>데이터 세트 승격
 
@@ -41,7 +41,7 @@ ms.locfileid: "85236758"
 
 ## <a name="request-dataset-certification"></a>데이터 세트 인증 요청
 
-테넌트 관리자가 데이터 세트를 인증할 수 있는 조직의 사용자를 식별했습니다. 데이터 세트를 인증하도록 요청할 수 있습니다.
+Power BI 관리자가 데이터 세트를 인증할 수 있는 조직의 사용자를 식별했습니다. 데이터 세트를 인증하도록 요청할 수 있습니다.
 
 1. 데이터 세트가 있는 작업 영역에 대한 인증자 멤버 권한을 제공해야 합니다.
 
@@ -49,7 +49,7 @@ ms.locfileid: "85236758"
 
 1. **자세히 알아보기** 링크를 선택합니다.
 
-    Power BI 테넌트 관리자는 **자세히 알아보기** 링크를 구성하여 테넌트의 인증 프로세스에 대한 세부 정보가 포함된 지정된 위치로 이동할 수 있습니다.   **자세히 알아보기** 링크를 사용자 지정하지 않은 경우 기본적으로 [데이터 세트 인증](service-datasets-certify.md) 문서를 가리킵니다.
+    Power BI 관리자는 **자세한 정보** 링크를 구성하여 테넌트의 인증 프로세스에 대한 세부 정보가 포함된 지정된 위치로 이동할 수 있습니다.   **자세히 알아보기** 링크를 사용자 지정하지 않은 경우 기본적으로 [데이터 세트 인증](service-datasets-certify.md) 문서를 가리킵니다.
 
 ## <a name="next-steps"></a>다음 단계
 

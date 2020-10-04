@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e95b51d5d50900b8e09de8f5bf62bf31d5578ad1
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: ec4bd8788d3c0421118a8e96287b36497683c4b2
+ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860213"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91136146"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop 다운로드
 Power BI Desktop을 통해 데이터를 시각화하는 고급 쿼리, 모델 및 보고서를 빌드할 수 있습니다. Power BI Desktop에서 Power BI 서비스에 게시하여 데이터 모델을 빌드하고, 보고서를 만들고, 작업을 공유할 수 있습니다. Power BI Desktop은 무료로 다운로드할 수 있습니다.
@@ -105,9 +105,12 @@ Power BI Desktop을 처음 사용하는 경우(즉, 설치가 업그레이드되
 * .NET 4.5
 * Internet Explorer 10 이상
 * 메모리(RAM): 최소 1GB, 1.5GB 이상 권장.
-* 디스플레이: 최소 1440x900 또는 1600x900(16:9)을 권장합니다. 1024x768 또는 1280x800처럼 낮은 해상도는 권장되지 않습니다. 시작 화면 닫기와 같은 특정 컨트롤이 해상도 밖에 표시되기 때문입니다.
+* 디스플레이: 1440x900 또는 1600x900(16:9) 이상이 필요합니다. 1024x768 또는 1280x800처럼 낮은 해상도는 지원되지 않습니다. 시작 화면 닫기와 같은 특정 컨트롤이 해상도 밖에 표시되기 때문입니다.
 * Windows 디스플레이 설정: 디스플레이 설정을 통해 텍스트, 앱, 기타 항목의 크기를 100% 이상으로 변경하면 Power BI Desktop을 계속 사용하기 위해 조작해야 하는 특정 대화 상자가 표시되지 않을 수 있습니다. 이 문제가 발생할 경우 Windows에서 **설정** > **시스템** > **디스플레이**로 이동하여 디스플레이 설정을 확인한 다음, 슬라이더를 사용하여 디스플레이 설정을 100%로 되돌립니다.
-* CPU: 1GHz 이상의 32비트 또는 64비트 x86 프로세서가 권장됩니다.
+* CPU: 1GHz(기가헤르츠) 64비트(x64) 프로세서 권장.
+
+> [!NOTE]
+> Windows Server 대신 Windows 10과 같은 클라이언트 버전의 Windows를 사용하는 것이 좋습니다. 예를 들어 Power BI Desktop은 Power BI Desktop이 Power BI 서비스에 로그인하는 것을 중지하므로 Internet Explorer 보안 강화 구성을 지원하지 않습니다.
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 

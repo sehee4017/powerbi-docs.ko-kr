@@ -11,12 +11,12 @@ ms.date: 09/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: c46da515a4f0f58c0e9fe92f01a3a0eaeb68a1de
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: bfa2faaa95c58541e44dd858f8d544d06d86ba25
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90763945"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527947"
 ---
 # <a name="licenses-and-subscriptions-for-business-users"></a>비즈니스 사용자용 라이선스 및 구독
 
@@ -36,7 +36,7 @@ Power BI 서비스에서 수행할 수 있는 작업은 다음 세 가지 사항
 
 ## <a name="licenses"></a>라이선스
 
-각 Power BI 서비스 사용자는 무료 라이선스 또는  라이선스를 보유합니다. Power BI 비즈니스 사용자인 경우 Power BI 테넌트 관리자가 관리하는 라이선스를 사용하고 있을 것입니다.
+각 Power BI 서비스 사용자는 무료 라이선스 또는  라이선스를 보유합니다. Power BI *비즈니스 사용자*인 경우 Power BI 관리자가 관리하는 무료 라이선스를 사용하고 있을 것입니다.
 
 동시에 둘 이상의 라이선스를 보유할 수 있습니다.  이 서비스는 항상 현재 보유한 최대로 허용되는 라이선스와 동일한 환경을 제공합니다.
 

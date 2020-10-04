@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: b02d8d61a4580e70a72aa4da66c4409f04b7f6bb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ee7efb9dd8b81b5ea1df308f9cacc0d12db308ca
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240080"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528255"
 ---
 # <a name="add-drill-down-support"></a>드릴다운 지원 추가
 
@@ -222,11 +222,11 @@ button {
 
 Power BI Desktop에서 계층 구조를 만듭니다.
 
-![새 계층 구조 만들기](media/drill-down-support/create-new-hierarchy.png)
+![스크린샷은 상황에 맞는 메뉴에서 선택한 새 계층이 있는 Power BI Desktop을 보여줍니다.](media/drill-down-support/create-new-hierarchy.png)
 
 새 계층 구조에 모든 범주 열(H1, H2, H3)을 포함합니다.
 
-![새 계층 구조 만들기](media/drill-down-support/new-hierarchy.png)
+![스크린샷은 새 계층에 추가할 수 있는 범주 열을 보여줍니다.](media/drill-down-support/new-hierarchy.png)
 
 이 단계를 수행하면 다음과 같은 시각적 개체가 생성됩니다.
 
@@ -305,11 +305,11 @@ export class Visual implements IVisual {
 
 데이터를 시각적 개체에 적용합니다.
 
-![데이터가 포함된 시각적 개체](media/drill-down-support/dev-visual-drilldown-data.png)
+![스크린샷은 H2가 호출된 계층 구조를 보여줍니다.](media/drill-down-support/dev-visual-drilldown-data.png)
 
 최종 단계에서 선택 항목 및 상황에 맞는 메뉴를 사용하여 시각적 개체를 가져와야 합니다.
 
-![드릴다운 지원이 포함된 시각적 개체](media/drill-down-support/dev-visual-drilldown-demo.gif)
+![애니메이션은 시각적 상황에 맞는 메뉴에서 드릴다운 및 드릴업을 선택하는 것을 보여줍니다.](media/drill-down-support/dev-visual-drilldown-demo.gif)
 
 ## <a name="add-drill-down-support-for-matrix-data-view-mapping"></a>행렬 데이터 뷰 매핑의 드릴다운 지원 추가
 
@@ -389,7 +389,7 @@ export class Visual implements IVisual {
 
 데이터를 시각적 개체에 적용합니다.
 
-![데이터가 포함된 시각적 개체](media/drill-down-support/dev-matrix-visual-drilldown-data.png)
+![스크린샷은 열 및 행 계층 구조와 해당 멤버가 선택된 MatrixHierarchy를 보여줍니다.](media/drill-down-support/dev-matrix-visual-drilldown-data.png)
 
 행렬 데이터 뷰 매핑을 처리하는 데 필요한 인터페이스를 가져옵니다.
 
@@ -614,7 +614,7 @@ public update(options: VisualUpdateOptions) {
 
 마지막 단계에서는 상황에 맞는 메뉴를 사용하여 시각적 개체를 가져와야 합니다.
 
-![드릴다운 지원이 포함된 시각적 개체](media\drill-down-support\dev-visual-drilldown-demo.gif)
+![애니메이션은 드릴다운 또는 드릴업 옵션이 포함된 시각적 개체에 대한 상황에 맞는 메뉴를 보여줍니다.](media\drill-down-support\dev-visual-drilldown-demo.gif)
 
 ## <a name="next-steps"></a>다음 단계
 

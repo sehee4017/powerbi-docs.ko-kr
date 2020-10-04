@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/09/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 38c14aa33504e7a3bb21cf68c6466a829d0653a7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 931c500cd2c2dbbf750eb3699ac5290a2977c21b
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238861"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526263"
 ---
 # <a name="perform-common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop의 일반적인 쿼리 작업 수행
 
@@ -87,7 +87,7 @@ Power Query 편집기에서 여러 행의 값을 단일 값으로 그룹화할 �
 
 각 주에 있는 기관 수를 확인해 보겠습니다. (기관에는 학군, 지역 서비스 기관과 같은 기타 교육 기관 등이 포함될 수 있습니다.) **Agency ID - NCES Assigned \[District\] Latest available year** 열을 선택한 다음 리본 메뉴의 **변환** 탭 또는 **홈** 탭에서 **그룹화** 단추를 선택합니다. (**그룹화**은 두 탭 모두에서 사용할 수 있습니다.)
 
-![그룹화 방법 대화 상자, Power Query 편집기, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_groupby.png)
+![스크린샷은 테이블에서 행을 그룹화하는 방법을 보여줍니다.](media/desktop-common-query-tasks/commonquerytasks_groupby.png)
 
 **그룹화 방법** 대화 상자가 나타납니다. Power Query 편집기는 행을 그룹화할 때 **그룹화** 결과를 배치할 새 열을 만듭니다. 다음과 같은 방법으로 **그룹화** 작업을 조정할 수 있습니다.
 
@@ -98,7 +98,7 @@ Power Query 편집기에서 여러 행의 값을 단일 값으로 그룹화할 �
 
 **그룹화 추가** 또는 **집계 추가**를 선택하여 **그룹화 방법** 작업에 그룹화 또는 집계를 추가합니다. 그룹화 또는 집계를 제거하려면 행 오른쪽에 있는 줄임표 아이콘( **...** )을 선택한 다음 **삭제**를 선택합니다. 계속해서 기본값을 사용하여 **그룹화 방법** 작업을 시도하고 어떻게 되는지 확인합니다.
 
-![그룹화 방법 대화 상자, Power Query 편집기, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_groupbynumbered.png)
+![스크린샷은 그룹화 추가 및 집계 추가가 호출된 그룹화 방법 대화 상자를 보여줍니다.](media/desktop-common-query-tasks/commonquerytasks_groupbynumbered.png)
 
 **확인**을 선택하면 쿼리가 **그룹화 방법** 작업을 수행하고 결과를 반환합니다. 이제 Ohio, Illinois, Texas, California에 각각 교육 기관이 1,000개 이상 있습니다.
 

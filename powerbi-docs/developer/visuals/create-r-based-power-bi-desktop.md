@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 05/11/2020
-ms.openlocfilehash: a3cb8d6ae8d8b872d00b3b4ce1aad13105f3b1e4
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 248e641488edb2523a2fa7102bd7a9a4829ee29b
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232821"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527772"
 ---
 # <a name="tutorial-create-an-r-powered-power-bi-visual"></a>자습서:  R 지원 Power BI 시각적 개체 만들기
 
@@ -78,7 +78,7 @@ ms.locfileid: "85232821"
 
 1. Power BI Desktop에서 **R 스크립트 시각적 개체**를 선택합니다.
 
-   ![시각화 창의 R 시각적 개체](./media/create-r-based-power-bi-desktop/r-script-icon.png)
+   ![스크린샷은 Power BI Desktop의 R 스크립트 시각적 컨트롤을 보여줍니다.](./media/create-r-based-power-bi-desktop/r-script-icon.png)
 
 1. 이 R 코드를 **R 스크립트 편집기**에 붙여넣습니다.
 
@@ -94,7 +94,7 @@ ms.locfileid: "85232821"
 
 1. **스크립트 실행** 아이콘을 선택하여 결과를 확인합니다.
 
-    ![시각화 창의 R 시각적 개체](./media/create-r-based-power-bi-desktop/run-r-script.png)
+    ![스크린샷은 줄 플롯인 스크립트를 실행한 결과를 보여줍니다.](./media/create-r-based-power-bi-desktop/run-r-script.png)
 
 1. R 스크립트가 준비되면 이전 단계 중 하나에서 만든 시각적 개체 프로젝트의 `script.r` 파일에 복사합니다.
 
@@ -176,7 +176,7 @@ ms.locfileid: "85232821"
 
 `corrplot` 패키지를 사용한 결과는 다음 예제와 같습니다.
 
-![시각화 창의 R 시각적 개체](./media/create-r-based-power-bi-desktop/r-corrplot-result.png)
+![이 스크린샷은 corrplot에 의해 생성된 네 개의 타원이 있는 시각화 창을 보여줍니다.](./media/create-r-based-power-bi-desktop/r-corrplot-result.png)
 
 ## <a name="adding-a-static-property-to-the-property-pane"></a>속성 창에 정적 속성 추가
 

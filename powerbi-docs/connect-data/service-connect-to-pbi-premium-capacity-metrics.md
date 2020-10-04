@@ -8,14 +8,15 @@ ms.topic: how-to
 ms.date: 05/18/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2db7cce57408fa988c9a32057d6f1f880bc55126
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 42526dbae857c6488fe129cc7781672691782de1
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861961"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375238"
 ---
 # <a name="connect-to-power-bi-premium-capacity-metrics"></a>Power BI Premium Capacity Metrics에 연결
+
 용량 모니터링은 프리미엄 용량 리소스를 최대한 활용하는 방법에 대한 합리적인 결정을 하는 데 필수적입니다. Power BI Premium Capacity Metrics 앱은 용량이 수행되는 방법에 대해 가장 심층적인 정보를 제공합니다.
 
 ![Power BI Premium Capacity Metrics 앱 보고서](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-report.png)
@@ -25,7 +26,7 @@ ms.locfileid: "90861961"
 앱을 설치하고 데이터 원본에 연결할 후에는 필요에 맞게 보고서를 사용자 지정할 수 있습니다. 그런 다음, 조직의 동료에게 이 보고서를 배포할 수 있습니다.
 
 > [!NOTE]
-> 템플릿 앱을 설치하려면 [권한](./service-template-apps-install-distribute.md#prerequisites)이 있어야 합니다. 권한이 없는 경우 테넌트 관리자에게 문의하세요.
+> 템플릿 앱을 설치하려면 [권한](./service-template-apps-install-distribute.md#prerequisites)이 있어야 합니다. 충분한 권한이 없는 경우 Power BI 관리자에게 문의하세요.
 
 ## <a name="install-the-app"></a>앱 설치
 
@@ -83,7 +84,7 @@ ms.locfileid: "90861961"
 
 앱 사용자 지정을 시작하려면 오른쪽 위 모서리의 연필 아이콘을 클릭합니다.
 
- ![Microsoft 로그인 화면](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-customize.png)
+ ![편집 아이콘](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-customize.png)
 
 자세한 내용은 [앱 사용자 지정 및 공유](./service-template-apps-install-distribute.md#customize-and-share-the-app)를 참조하세요.
 

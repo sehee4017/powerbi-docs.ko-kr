@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 09/03/2020
+ms.date: 09/25/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f52993c3876db5c8f0453fb2e6a25ce0b78af017
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: ae904f203c3f5b9437fd01b9306cc160e6feff1b
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857959"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375261"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
@@ -270,7 +270,7 @@ Microsoft 365 그룹을 기반으로 하는 클래식 작업 영역의 경우 �
 
 ### <a name="publish-to-web"></a>웹에 게시
 
-**웹에 게시** 설정은 Power BI 테넌트 관리자에게 사용자가 embed 태그를 만들어 보고서를 웹에 게시할 수 있는 옵션을 제공합니다. 이 기능을 통해 웹상의 모든 사용자가 보고서 및 해당 데이터를 사용할 수 있습니다. [웹에 게시하는 방법](../collaborate-share/service-publish-to-web.md)에 대해 자세히 알아보세요.
+Power BI 관리자로서, **웹에 게시** 설정을 사용하면 사용자가 embed 태그를 만들어 보고서를 웹에 게시할 수 있는 옵션을 제공합니다. 이 기능을 통해 웹상의 모든 사용자가 보고서 및 해당 데이터를 사용할 수 있습니다. [웹에 게시하는 방법](../collaborate-share/service-publish-to-web.md)에 대해 자세히 알아보세요.
 
 > [!NOTE]
 > Power BI 관리자만 새 웹에 게시 embed 태그를 만들 수 있습니다. 조직에 기존 embed 태그가 있을 수 있습니다. 현재 게시된 보고서를 검토하려면 관리 포털의 [embed 태그](service-admin-portal.md#embed-codes) 섹션을 참조하세요.
@@ -319,7 +319,7 @@ Microsoft 365 그룹을 기반으로 하는 클래식 작업 영역의 경우 �
 ![Excel로 내보내기 설정](media/service-admin-portal/powerbi-admin-portal-export-to-excel-setting.png)
 
 >[!IMPORTANT]
-> Excel로 내보내기 설정이 도입되기 전에 Excel 파일로 내보내기는 데이터 내보내기 설정에 의해 제어되었습니다. 따라서 Excel로 내보내기 설정이 도입되기 전에 존재한 테넌트에서는 테넌트 관리자가 Excel로 내보내기 설정을 처음 볼 때 ‘적용되지 않은 변경 내용’이 있음을 알게 됩니다. 새 설정을 적용하려면 이러한 변경 내용을 적용해야 합니다. 그렇지 않으면 Excel 파일로 내보내기는 데이터 내보내기 설정에 의해 계속 제어됩니다.
+> Excel로 내보내기 설정이 도입되기 전에 Excel 파일로 내보내기는 데이터 내보내기 설정에 의해 제어되었습니다. 따라서 Excel로 내보내기 설정이 도입되기 전에 존재했던 테넌트에서는 Power BI 관리자가 Excel로 내보내기 설정을 처음 볼 때 *적용되지 않은 변경 내용*이 있음을 알게 됩니다. 새 설정을 적용하려면 이러한 변경 내용을 적용해야 합니다. 그렇지 않으면 Excel 파일로 내보내기는 데이터 내보내기 설정에 의해 계속 제어됩니다.
 
 ### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>PowerPoint 프레젠테이션 또는 PDF 문서로 보고서 내보내기
 
@@ -401,11 +401,11 @@ Azure AD B2B 게스트 사용자는 조직의 콘텐츠를 편집하고 관리�
 
 ## <a name="featured-tables-settings"></a>주요 테이블 설정
 
-**테넌트 설정** 아래의 **주요 테이블에 대한 연결 허용** 테넌트 설정을 사용하면 Power BI 관리자가 조직에서 Excel 데이터 형식 갤러리의 주요 테이블을 사용할 수 있는 사용자를 제어할 수 있습니다. 
+**테넌트 설정** 아래의 **주요 테이블에 대한 연결 허용** 설정을 사용하면 Power BI 관리자가 조직에서 Excel 데이터 형식 갤러리의 주요 테이블을 사용할 수 있는 사용자를 제어할 수 있습니다. 
 
 :::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="새 작업 영역 환경 만들기":::
 
-**데이터 내보내기** 테넌트 설정이 **사용 안 함**으로 설정되면 주요 테이블에 대한 연결도 사용할 수 없습니다.
+**데이터 내보내기** 설정이 **사용 안 함**으로 설정되면 주요 테이블에 대한 연결도 사용할 수 없습니다.
 
 [Excel의 Power BI 주요 테이블](../collaborate-share/service-excel-featured-tables.md)에 대해 자세히 알아보세요.
 
@@ -586,7 +586,7 @@ Power BI에 대한 정보 보호를 사용하도록 설정하면 관리 포털�
 
 ## <a name="manage-featured-content"></a>추천 콘텐츠 관리
 
-테넌트 관리자는 조직 전체에서 Power BI 홈의 추천 섹션으로 승격된 모든 보고서, 대시보드 및 앱을 관리할 수 있습니다.
+Power BI 관리자로서, 조직 전체에서 Power BI 홈의 추천 섹션으로 승격된 모든 보고서, 대시보드 및 앱을 관리할 수 있습니다.
 
 - 관리 포털에서 **추천 콘텐츠**를 선택합니다.
 

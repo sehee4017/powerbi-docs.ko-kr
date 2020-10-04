@@ -8,18 +8,18 @@ ms.topic: how-to
 ms.date: 05/15/2020
 ms.author: painbar
 LocalizationGroup: Share your work
-ms.openlocfilehash: 41247a6dbee2ba6c4c5181a4646df735e43f8b18
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 11079e2ab1578cfe5db352e7e3286d491bdfca2c
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227530"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374916"
 ---
 # <a name="set-up-dataset-and-dataflow-certification-preview"></a>데이터 세트 및 데이터 흐름 인증 설정(미리 보기)
 
 조직은 중요한 정보의 신뢰할 수 있는 소스인 데이터 세트와 데이터 흐름을 인증할 수 있습니다.
 
-Power BI 테넌트 관리자가 조직의 인증 프로세스를 설정해야 합니다. 이것은 다음을 의미합니다.
+Power BI 관리자는 조직의 인증 프로세스를 설정해야 합니다. 이것은 다음을 의미합니다.
 * 테넌트에서 인증 사용
 * 데이터 세트와 데이터 흐름을 인증할 수 있는 권한이 있는 그룹 및 사용자 목록 정의
 * 데이터 세트의 경우 조직의 데이터 세트 인증 정책 URL 제공(있는 경우)

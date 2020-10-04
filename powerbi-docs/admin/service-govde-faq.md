@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5fcffd39e9a341478657b63770201ad722b8c291
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 97164fe1db72cac28096b1fde5130cfccec29be2
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855130"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374809"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>독일 클라우드 고객을 위한 Power BI 관련 질문과 대답
 **Power BI 서비스**에는 EU/EFTA(유럽 연합/유럽 자유 무역 계약) 고객을 위해 제공되는 버전이 있는데, 주로 MCD(Microsoft Cloud Deutschland)라고 부릅니다. 이 문서에서 설명하는 **Power BI 서비스** 버전은 EU/EFTA 고객과 관련된 것이며 **Power BI 서비스** 상용 버전 또는 정부 고객에게 제공되는 Power BI 서비스와는 별개입니다.
@@ -34,7 +34,7 @@ ms.locfileid: "90855130"
    [Power BI 독일 클라우드 홈 페이지](https://powerbi.microsoft.com/power-bi-germany/)에서 가격 책정 정보를 포함한 많은 정보를 찾을 수 있습니다. 이 페이지에서는 또한 25개의 사용자 라이선스가 포함된 **Power BI Pro 서비스** 30일 평가판 등록 링크도 찾을 수 있습니다. 평가판을 등록할 때 필요에 따라 추가 라이선스를 구매하거나 추가할 수 있습니다. 또한 EA(엔터프라이즈 계약), 정부 및 비영리 기관용 가격도 제공합니다. 자세한 내용은 Microsoft 고객 담당자에게 문의하세요.
 3. **현재 Azure Germany 및/또는 Office 365 Germany 구독에 독일 클라우드 테넌트가 포함되어 있습니다. 기존 테넌트를 사용하여 Power BI Germany에 등록할 수 있습니까?**
    
-   예. 등록 프로세스의 일환으로, 기존 독일 클라우드 테넌트 관리자 계정으로 로그인하고 독일 클라우드에서 기존 테넌트에 Power BI Pro 서비스 라이선스를 추가하는 옵션이 있습니다. 독일 클라우드 테넌트와 사용자 계정은 독일 클라우드용 Power BI 서비스와 다릅니다.
+   예. 등록 프로세스의 일환으로, 기존 독일 클라우드 관리자 계정으로 로그인하고 독일 클라우드에서 기존 테넌트에 Power BI Pro 서비스 라이선스를 추가하는 옵션이 있습니다. 독일 클라우드 테넌트와 사용자 계정은 독일 클라우드용 Power BI 서비스와 다릅니다.
 4. **독일 클라우드용 Power BI 서비스에 무료 서비스가 있습니까?**
    
    아니요. 독일 클라우드용 Power BI 서비스에는 무료 라이선스 버전이 제공되지 않습니다. 그러나 Power BI 무료 솔루션으로 비즈니스 요구 사항이 충족된다면 [퍼블릭 클라우드의 무료 Power BI 솔루션](https://powerbi.microsoft.com/get-started/)에 등록하는 것이 좋습니다.

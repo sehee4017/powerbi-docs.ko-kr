@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/01/2020
-ms.openlocfilehash: ef981c63aaa1cdececbe03f187d25ee09073f61f
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 30ab225230784d19bd2aa4eb2f5ea775684b2afb
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857752"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91524791"
 ---
 # <a name="manage-power-bi-visuals-admin-settings"></a>Power BI 시각적 개체 관리 설정 관리
 
@@ -148,11 +148,11 @@ AppSource Power BI 시각적 개체는 자동으로 업로드됩니다. 조직�
 
 1. 추가하려는 시각적 개체의 행에서 **설정**을 클릭합니다.
 
-    ![조직 창](media/organizational-visuals/organizational-pane.png)조직 창
+    ![스크린샷은 조직 시각적 개체가 선택되고 설정 아이콘이 호출된 관리 포털을 보여줍니다.](media/organizational-visuals/organizational-pane.png)조직 창
 
 2. 시각화 창 설정을 사용하도록 설정하고 **업데이트**를 클릭합니다.
 
-    ![업데이트-조직-창](media/organizational-visuals/update-organizational-pane.png)
+    ![스크린샷은 전체 조직에 표시되는 시각적 개체를 활성화할 수 있는 시각적 설정 대화 상자를 보여줍니다.](media/organizational-visuals/update-organizational-pane.png)
 
 ### <a name="delete-a-visual-uploaded-from-a-file"></a>파일에서 업로드한 시각적 개체 삭제
 

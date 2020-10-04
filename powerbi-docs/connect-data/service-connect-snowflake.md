@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/26/2020
 ms.author: gepopell
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3ff8a504a9043c28d9064ad186005200165c232e
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 950868252bb1002a31cb0868308d2337e03d03e9
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485783"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375215"
 ---
 # <a name="connect-to-snowflake-in-power-bi-service"></a>Power BI 서비스에서 Snowflake에 연결
 
@@ -38,7 +38,7 @@ SSO를 사용하도록 설정하려면 전역 관리자가 Power BI 관리 포�
 1. 페이지 머리글 메뉴에서 **설정**을 선택한 다음 **관리 포털**을 선택합니다.
 1. **테넌트 설정**을 선택한 다음 스크롤하여 **통합 설정**를 찾습니다.
 
-   ![Snowflake SSO의 테넌트 관리자 설정](media/service-connect-snowflake/snowflake-sso-tenant.png)
+   ![Snowflake SSO에 대한 테넌트 설정](media/service-connect-snowflake/snowflake-sso-tenant.png)
 
 4. **Snowflake SSO**를 확장하고 설정을 **사용**으로 전환한 다음 **적용**을 선택합니다.
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/17/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 8fc61a1aee263b40afb8ae95f365477b4104ca71
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: dfc682e867b65ba9da2b2eee87f52d7fd5d0961c
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90763347"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528131"
 ---
 # <a name="personalize-visuals-in-a-report"></a>보고서에서 시각적 개체 개인 설정
 
@@ -117,7 +117,7 @@ ms.locfileid: "90763347"
 
 현재 이 기능에는 몇 가지 주의 사항이 있습니다.
 
-- **이 시각적 개체 개인 설정**은 전체 보고서 또는 특정 시각적 개체에 대해 해제할 수 있습니다. 시각적 개체를 개인 설정할 수 있는 옵션이 없는 경우 테넌트 관리자 또는 보고서 소유자에게 문의하세요. 보고서 소유자의 연락처 정보를 표시하려면 Power BI 메뉴 모음에서 보고서 이름을 선택합니다.
+- **이 시각적 개체 개인 설정**은 전체 보고서 또는 특정 시각적 개체에 대해 해제할 수 있습니다. 시각적 개체를 개인 설정할 수 있는 옵션이 없는 경우 Power BI 관리자 또는 보고서 소유자에게 문의하세요. 보고서 소유자의 연락처 정보를 표시하려면 Power BI 메뉴 모음에서 보고서 이름을 선택합니다.
 - 사용자 탐색은 자동으로 유지되지 않습니다. 변경 내용을 캡처하려면 개인 책갈피로 보기를 저장해야 합니다.
 - 이 기능은 iOS/Android 태블릿용 Power BI 모바일 앱 및 Power BI Windows 앱에서 지원됩니다. 휴대폰용 Power BI 모바일 앱에서는 지원되지 않습니다. 그러나 Power BI 서비스 중에 개인 책갈피에 저장한 시각적 개체 변경 내용은 전부 모든 Power BI 모바일 앱에서 적용됩니다.
 

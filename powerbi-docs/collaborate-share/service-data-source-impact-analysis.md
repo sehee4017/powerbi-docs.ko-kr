@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/20/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: 2c9834310179d8936cda8b769e3b7e3f80d328e6
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 71c214e265c84eb7436d384a98f793eefe2f6a23
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87254184"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526230"
 ---
 # <a name="data-source-impact-analysis"></a>데이터 원본 영향 분석
 
@@ -42,6 +42,17 @@ ms.locfileid: "87254184"
  
 * **영향 요약**: 잠재적으로 영향을 받는 작업 영역, 데이터 흐름 및 데이터 세트의 수를 표시합니다. 해당 개수는 액세스할 수 없는 작업 영역을 포함합니다.
 * **사용량 분석**: 각 작업 영역에서 영향을 받는 데이터 흐름 및 데이터 세트의 이름을 표시합니다. 특정 작업 영역에 미치는 영향을 자세히 살펴보려면 작업 영역 이름을 클릭하여 작업 영역을 엽니다. 영향을 받은 작업 영역에서 [데이터 세트 영향 분석](service-dataset-impact-analysis.md)을 사용하여 연결된 보고서 및 대시보드에 관한 사용량 세부 정보를 확인합니다.
+
+## <a name="notify-contacts"></a>연락처에 알림
+
+데이터 원본을 변경했거나 변경을 고려 중인 경우 관련 사용자에게 알리는 것이 좋습니다. 연락처에 알릴 때 영향을 받는 모든 작업 영역의 [연락처 목록](service-create-the-new-workspaces.md#create-a-contact-list)에 이메일이 전송됩니다(클래식 작업 영역의 경우 이메일이 작업 영역 관리자에게 전송됨). 사용자 이름이 메일에 표시되므로 연락처는 새 메일 스레드에서 사용자를 찾아 회신할 수 있습니다. 
+
+1. 영향 분석 사이드 창에서 **연락처에 알림**을 클릭합니다. 연락처에 알림 대화 상자가 표시됩니다.
+
+   ![데이터 원본 알림 연락처 대화 상자의 스크린샷.](media/service-data-source-impact-analysis/notify-contacts-dialog.png)
+
+1. 텍스트 상자에 변경 내용에 대한 몇 가지 세부 정보를 입력합니다.
+1. 메시지가 준비되면 **보내기**를 클릭합니다.
 
 ## <a name="privacy"></a>개인 정보
 

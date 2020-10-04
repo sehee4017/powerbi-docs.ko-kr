@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 43905b05bfe796c416bb8d91901497f6ca1e573e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 7e10cfa5c99eb1750829150fd0a25347a4da1880
+ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278264"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91136261"
 ---
 # <a name="one-to-one-relationship-guidance"></a>일 대 일 관계 지침
 
@@ -131,13 +131,13 @@ ms.locfileid: "83278264"
 
 ![필드 창에는 Marketing이라는 표시 폴더 안에 Category 필드가 표시됩니다.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-display-folder.png)
 
-모델에서 일 대 일 내부 아일랜드 관계를 정의하기로 결정하는 경우, 가능하면 연결된 테이블에 일치하는 행이 있어야 합니다. 일 대 일 내부 아일랜드 관계는 [강력한 관계](../transform-model/desktop-relationships-understand.md#strong-relationships)로 평가되므로 데이터 무결성 문제는 보고서 시각적 개체에 BLANK로 표시될 수 있습니다. (이 문서에 나오는 첫 번째 테이블 시각적 개체에서 BLANK 그룹화의 예를 볼 수 있습니다.)
+모델에서 일 대 일 내부 아일랜드 관계를 정의하기로 결정하는 경우, 가능하면 연결된 테이블에 일치하는 행이 있어야 합니다. 일 대 일 내부 아일랜드 관계는 [일반 관계](../transform-model/desktop-relationships-understand.md#regular-relationships)로 평가되므로 데이터 무결성 문제는 보고서 시각적 개체에 BLANK로 표시될 수 있습니다. (이 문서에 나오는 첫 번째 테이블 시각적 개체에서 BLANK 그룹화의 예를 볼 수 있습니다.)
 
 ### <a name="inter-island-one-to-one-relationship"></a>교차 아일랜드 일 대 일 관계
 
-테이블 사이에 일 대 일 _교차 아일랜드_ 관계가 있는 경우 데이터 원본에서 데이터를 미리 통합하지 않는 한 대체 모델 디자인이 없습니다. Power BI는 일 대 일 모델 관계를 [약한 관계](../transform-model/desktop-relationships-understand.md#weak-relationships)로 평가합니다. 따라서 연결된 테이블에 일치하는 행이 있어야 합니다. 쿼리 결과에서 일치하지 않는 행이 제거되기 때문입니다.
+테이블 사이에 일 대 일 _교차 아일랜드_ 관계가 있는 경우 데이터 원본에서 데이터를 미리 통합하지 않는 한 대체 모델 디자인이 없습니다. Power BI는 일 대 일 모델 관계를 [제한된 관계](../transform-model/desktop-relationships-understand.md#limited-relationships)로 평가합니다. 따라서 연결된 테이블에 일치하는 행이 있어야 합니다. 쿼리 결과에서 일치하지 않는 행이 제거되기 때문입니다.
 
-두 테이블의 필드가 테이블 시각적 개체에 추가되고 테이블 간에 약한 관계가 있는 경우 어떻게 되는지 살펴보겠습니다.
+두 테이블의 필드가 테이블 시각적 개체에 추가되고 테이블 간에 제한된 관계가 있는 경우 어떻게 되는지 살펴보겠습니다.
 
 ![테이블 시각적 개체에는 다음 4개의 열이 포함됩니다. SKU, Product, Color 및 Category. 테이블에는 2개의 행만 있습니다.](media/relationships-one-to-one/product-to-product-category-table-visual-weak-relationship.png)
 

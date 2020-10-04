@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 09/17/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: add9e4e5c5a68354eb3e2d1b9c9b86a3b8c4e614
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: 7eb55555efa6fe3eb9acad5c67e05288f0e55f21
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90763820"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527427"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>보고서를 Power BI에서 PDF로 내보내기
 
@@ -60,7 +60,7 @@ Power BI 서비스에서 보고서를 선택하여 캔버스에 표시합니다.
 * ESRI 시각적 개체는 지원되지 않습니다.
 * 50개 이상의 보고서 페이지를 포함하는 보고서는 현재 내보낼 수 없습니다.
 * 보고서를 PDF로 내보내는 과정은 완료하는 데 몇 분 정도 걸릴 수 있으므로 잠시 기다려 주시기 바랍니다. 소요 시간에 영향을 줄 수 있는 요소에는 보고서의 구조, Power BI 서비스의 현재 부하 등이 있습니다.
-* **PDF로 내보내기** 메뉴 항목을 Power BI 서비스에서 사용할 수 없는 경우, 테넌트 관리자가 이 기능을 사용하지 않도록 설정했을 가능성이 큽니다. 자세한 내용은 테넌트 관리자에게 문의하세요.
+* **PDF로 내보내기** 메뉴 항목을 Power BI 서비스에서 사용할 수 없는 경우, Power BI 관리자가 이 기능을 사용하지 않도록 설정했기 때문일 수 있습니다. 자세한 내용은 관리자에게 문의하세요.
 * 배경 이미지는 차트의 경계 영역에서 잘립니다. PDF로 내보내기 전에 배경 이미지를 제거하는 것이 좋습니다.
 * Power BI 테넌트 도메인 외부의 사용자가 소유한 보고서(예: 조직 외부 사람이 소유한 보고서 및 사용자와 공유한 보고서)는 PDF에 게시할 수 없습니다.
 * 조직 외부의 사람, 즉 Power BI 테넌트에 없는 사용자와 대시보드를 공유하면 해당 사용자는 공유 대시보드에 연결된 보고서를 PDF로 내보낼 수 없습니다. 예를 들어 aaron@contoso.com은 cassie@northwinds.com과 공유할 수 있지만, cassie@northwinds.com은 연결된 보고서를 PDF로 내보낼 수 없습니다.

@@ -1,5 +1,5 @@
 ---
-title: 테넌트 관리자 설정 지침
+title: 테넌트 설정 지침
 description: Power BI 테넌트 설정에 대한 지침입니다.
 author: peter-myers
 ms.reviewer: asaxton
@@ -8,14 +8,14 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/10/2020
 ms.author: v-pemyer
-ms.openlocfilehash: eeb879fc70effa166d08c9a342f77ad614779751
-ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
+ms.openlocfilehash: fdde090d4fe6e154482e1223b16215fdeca9f56f
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "88049302"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528347"
 ---
-# <a name="tenant-admin-settings-guidance"></a>테넌트 관리자 설정 지침
+# <a name="tenant-settings-guidance"></a>테넌트 설정 지침
 
 이 문서는 조직 내 Power BI 환경 설정과 구성을 담당하는 Power BI 관리자를 대상으로 작성되었습니다.
 

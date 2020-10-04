@@ -10,12 +10,12 @@ ms.date: 05/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: e8a5d3b4bf8200e6e990c1bced2920383398b6cf
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 29dad4db6843f0895ea9de791992b3f70ce57e66
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857085"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91524745"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>새 Microsoft 365 평가판으로 Power BI에 가입
 
@@ -35,7 +35,7 @@ ms.locfileid: "90857085"
 
     새 메일 주소가 필요한 경우 단계별로 안내해 드립니다. 첫 번째 단계로 새 계정을 만듭니다. **계정 설정**을 선택합니다.
 
-    ![새 계정에 가입하도록 선택](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-email.png)
+    ![새 계정에 등록하도록 선택합니다.](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-email.png)
 
 2. 새 계정의 세부 정보를 입력합니다.
 
@@ -43,7 +43,7 @@ ms.locfileid: "90857085"
 
 3. 새 메일 주소 및 암호를 만듭니다. you@yourcompany.onmicrosoft.com과 비슷한 새 로그인 이름을 만듭니다. 이 로그인은 새 회사 또는 학교 계정 및 Power BI에 사용 됩니다.
 
-    ![새 계정에 가입하도록 선택](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-create-account.png)
+    ![스크린샷은 비즈니스 ID 만들기 옵션을 보여줍니다.](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-create-account.png)
 
 4. 이것으로 끝입니다.  이제 Power BI에 가입하는 데 사용할 수 있는 이메일 주소가 있습니다. [개별적으로 Power BI 서비스에 가입](../fundamentals/service-self-service-signup-for-power-bi.md)으로 이동합니다.
 

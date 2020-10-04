@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 08/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 737a8df2f8f7e5d4da50259112ad1afd6ec2ecff
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 404e613f3e30bda3115ec0a9a3b71907b115bbcc
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90856833"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374893"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi"></a>Power BI에 대한 사용자 고유의 암호화 키 가져오기
 
@@ -67,7 +67,7 @@ BYOK는 데이터 세트에만 적용됩니다. 사용자가 서비스에 업로
 
 1. **키 권한**에서 **키 래핑 해제** 및 **키 래핑**을 선택합니다.
 
-    ![PBIX 파일 구성 요소](media/service-encryption-byok/service-principal.png)
+    ![P B I X 파일 선택 서비스 사용자 및 암호화 작업](media/service-encryption-byok/service-principal.png)
 
 1. **확인**과 **저장**을 차례로 선택합니다.
 
@@ -80,7 +80,7 @@ BYOK는 데이터 세트에만 적용됩니다. 사용자가 서비스에 업로
 
 1. **키 유형**은 RSA를 선택하고 **RSA 키 크기**는 4096을 선택합니다.
 
-    ![PBIX 파일 구성 요소](media/service-encryption-byok/create-rsa-key.png)
+    ![키 유형과 크기가 강조 표시된 키 만들기](media/service-encryption-byok/create-rsa-key.png)
 
 1. **만들기**를 선택합니다.
 
@@ -90,7 +90,7 @@ BYOK는 데이터 세트에만 적용됩니다. 사용자가 서비스에 업로
 
 1. **키 래핑**과 **키 래핑 해제**가 둘 다 선택되어 있는지 확인합니다. Power BI에서 BYOK를 사용하도록 설정할 때 사용할 **키 식별자**를 복사합니다.
 
-    ![PBIX 파일 구성 요소](media/service-encryption-byok/key-properties.png)
+    ![키 식별자 및 허용된 작업이 강조 표시된 속성](media/service-encryption-byok/key-properties.png)
 
 ### <a name="soft-delete-option"></a>일시 삭제 옵션
 
@@ -114,7 +114,7 @@ BYOK를 사용하도록 설정하기 전에, 다음 사항을 고려해야 합�
 
 ### <a name="enable-byok"></a>BYOK를 사용하도록 설정
 
-BYOK를 사용하려면 `Connect-PowerBIServiceAccount` cmdlet을 사용하여 로그인한 Power BI 서비스의 테넌트 관리자여야 합니다. 그런 다음, [`Add-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/Add-PowerBIEncryptionKey)를 사용하여 아래 예제와 같이 BYOK를 사용하도록 설정합니다.
+BYOK를 사용하도록 설정하려면 `Connect-PowerBIServiceAccount` cmdlet을 사용하여 로그인한 Power BI 관리자여야 합니다. 그런 다음, [`Add-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/Add-PowerBIEncryptionKey)를 사용하여 아래 예제와 같이 BYOK를 사용하도록 설정합니다.
 
 ```powershell
 Add-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'

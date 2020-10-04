@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 12/19/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 5bcc2123c5e22cb5b0ff91122a30ce3d7beb51fe
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 17006405a495798618bf7562e6b94864b795a224
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83325578"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528048"
 ---
 # <a name="apply-many-many-relationships-in-power-bi-desktop"></a>Power BI Desktop에서 다 대 다 관계 적용
 
@@ -93,7 +93,7 @@ Power BI Desktop의 2018년 7월 릴리스 전에는 이러한 테이블 간에 
 
 **State**(**CityData** 테이블에 포함됨)를 총 ‘인구’ 및 총 ‘판매액’과 함께 표시하는 시각적 개체는 다음과 같이 표시됩니다. **** ****
 
-![State, Population 및 Sales 테이블, Power BI Desktop](media/desktop-many-to-many-relationships/many-to-many-relationships_09.png)
+![스크린샷은 주, 인구 및 판매 데이터가 있는 테이블을 보여줍니다.](media/desktop-many-to-many-relationships/many-to-many-relationships_09.png)
 
 > [!NOTE]
 > 이 해결 방법에서는 **CityData** 테이블의 주가 사용되기 때문에 해당 테이블의 주만 나열되므로 TX는 제외됩니다. 또한, ‘다 대 일’ 관계와 달리, 합계 행에는 모든 **판매**(TX의 판매 포함)가 포함되지만 세부 정보에는 이러한 불일치 행을 다루는 빈 행이 포함되지 않습니다.  마찬가지로, **State**에 Null 값이 있는 **판매**를 다루는 빈 행도 없습니다.

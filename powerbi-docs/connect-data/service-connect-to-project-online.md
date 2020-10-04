@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/25/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 25a0ddaaf72e185d795d819e8c2cb990d2823ed2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 99a8cf5081274f922d210a140d333814b80fd01f
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229790"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527749"
 ---
 # <a name="connect-to-project-web-app-with-power-bi"></a>Power BI를 사용하여 Project Web App에 연결
 Microsoft Project Web App은 PPM(프로젝트 포트폴리오 관리) 및 일상 업무를 위한 유연한 온라인 솔루션입니다. Project Web App을 사용하면 조직이 프로젝트 포트폴리오 투자를 시작하고 우선순위를 지정할 수 있으며 의도한 비즈니스 가치를 제공할 수 있습니다. Power BI용 Project Web App 템플릿 앱을 사용하면 프로젝트, 포트폴리오 및 리소스를 관리할 수 있도록 Project Web App에서 인사이트의 잠금을 해제할 수 있습니다.
@@ -29,7 +29,7 @@ Power BI용 [Project Web App 템플릿 앱](https://appsource.microsoft.com/prod
 
 2. **서비스** 상자에서 **가져오기**를 선택합니다.
    
-   ![AppSource](media/service-connect-to-project-online/AppSource.png)
+   ![스크린샷은 5개의 앱을 사용할 수 있는 AppSource 창을 보여줍니다.](media/service-connect-to-project-online/AppSource.png)
 3. AppSource에서 **앱** 탭을 선택하고 **Microsoft Project Web App**을 검색/선택합니다.
    
 4. **이 Power BI 앱을 설치하시겠습니까?** 라는 메시지가 표시되면 **설치**를 선택합니다. 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 528fc40427a1cb242d9154028d1a7c6617c8a14e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 840e4dc92164de2ebfd1bdef6bee941124f6e906
+ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279688"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91136215"
 ---
 # <a name="composite-model-guidance-in-power-bi-desktop"></a>Power BI Desktop의 복합 모델 지침
 
@@ -54,8 +54,8 @@ ms.locfileid: "83279688"
 Power BI가 복합 모델을 쿼리할 수 있는 몇 가지 시나리오는 다음과 같습니다.
 
 - **가져오기 또는 이중 테이블만 쿼리**: 모든 데이터가 모델 캐시에서 검색됩니다. 가능한 가장 빠른 성능을 제공합니다. 이 시나리오는 필터 또는 슬라이서 시각적 개체가 쿼리하는 차원 유형 테이블에 일반적입니다.
-- **동일한 원본에서 이중 테이블 또는 DirectQuery 테이블을 쿼리**: 모든 데이터는 하나 이상의 기본 쿼리를 DirectQuery 원본에 전송하여 검색됩니다. 특히 원본 테이블에 적절한 인덱스가 있을 때 가능한 가장 빠른 성능을 제공합니다. 이 시나리오는 이중 차원 유형 테이블 및 DirectQuery 팩트 유형 테이블과 관련된 쿼리에 일반적입니다. 이러한 쿼리는 _내부 아일랜드_이며, 따라서 모든 일 대 일 또는 일 대 다 관계는 [강력한 관계](../transform-model/desktop-relationships-understand.md#strong-relationships)로 평가됩니다.
-- **다른 모든 쿼리**: 이러한 쿼리는 교차 아일랜드 관계를 포함합니다. 이는 가져오기 테이블이 DirectQuery 테이블과 관련이 있거나, 이중 테이블이 다른 원본의 DirectQuery 테이블과 관련되어 있기 때문입니다(이 경우에는 가져오기 테이블로 동작함). 모든 관계는 [약한 관계](../transform-model/desktop-relationships-understand.md#weak-relationships)로 평가됩니다. 이는 DirectQuery가 아닌 테이블에 적용된 그룹화를 DirectQuery 원본에 가상 테이블로 보내야 함을 의미하기도 합니다. 이 경우 기본 쿼리는 특히, 대규모 그룹화 집합에서는 비효율적일 수 있습니다. 그리고 기본 쿼리에서 중요한 데이터가 노출될 가능성이 있습니다.
+- **동일한 원본에서 이중 테이블 또는 DirectQuery 테이블을 쿼리**: 모든 데이터는 하나 이상의 기본 쿼리를 DirectQuery 원본에 전송하여 검색됩니다. 특히 원본 테이블에 적절한 인덱스가 있을 때 가능한 가장 빠른 성능을 제공합니다. 이 시나리오는 이중 차원 유형 테이블 및 DirectQuery 팩트 유형 테이블과 관련된 쿼리에 일반적입니다. 이러한 쿼리는 _내부 아일랜드_이므로 모든 일 대 일 또는 일 대 다 관계는 [일반 관계](../transform-model/desktop-relationships-understand.md#regular-relationships)로 평가됩니다.
+- **다른 모든 쿼리**: 이러한 쿼리는 교차 아일랜드 관계를 포함합니다. 이는 가져오기 테이블이 DirectQuery 테이블과 관련이 있거나, 이중 테이블이 다른 원본의 DirectQuery 테이블과 관련되어 있기 때문입니다(이 경우에는 가져오기 테이블로 동작함). 모든 관계는 [제한된 관계](../transform-model/desktop-relationships-understand.md#limited-relationships)로 평가됩니다. 이는 DirectQuery가 아닌 테이블에 적용된 그룹화를 DirectQuery 원본에 가상 테이블로 보내야 함을 의미하기도 합니다. 이 경우 기본 쿼리는 특히, 대규모 그룹화 집합에서는 비효율적일 수 있습니다. 그리고 기본 쿼리에서 중요한 데이터가 노출될 가능성이 있습니다.
 
 요약하면, 다음과 같이 하는 것이 좋습니다.
 
@@ -63,7 +63,7 @@ Power BI가 복합 모델을 쿼리할 수 있는 몇 가지 시나리오는 다
 - 테이블이 대규모 데이터 볼륨을 저장하는 팩트 유형 테이블인 경우 또는 거의 실시간 결과를 제공해야 하는 경우 스토리지 모드를 **DirectQuery**로 설정합니다.
 - 테이블이 차원 유형 테이블이고 동일한 원본을 기반으로 하는 **DirectQuery** 팩트 유형 테이블과 함께 쿼리되는 경우 스토리지 모드를 **이중**으로 설정합니다.
 - 원본 데이터베이스와 동기화된 이중 테이블(및 모든 계산된 종속 테이블)에 대한 모델 캐시를 유지하기 위해 적절한 새로 고침 빈도를 구성합니다.
-- 데이터 원본(모델 캐시 포함) 간 데이터 무결성을 보장하도록 노력합니다. 관련된 열 값이 일치하지 않을 경우 약한 관계가 해당 행을 제거합니다.
+- 데이터 원본(모델 캐시 포함) 간 데이터 무결성을 보장하도록 노력합니다. 관련된 열 값이 일치하지 않을 경우 제한된 관계가 해당 행을 제거합니다.
 - 효율적인 조인, 필터링 및 그룹화를 위해 적절한 인덱스를 사용하여 DirectQuery 데이터 원본을 최적화합니다.
 - 기본 쿼리를 가로챌 위험이 있는 경우에는 중요한 데이터를 가져오기 또는 이중 테이블로 로드하지 않습니다. 자세한 내용은 [Power BI Desktop에서 복합 모델 사용(보안 사항)](../transform-model/desktop-composite-models.md#security-implications)을 참조하세요.
 

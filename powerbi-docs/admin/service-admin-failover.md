@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: a9fca9f27baf51c4e4bafbf93244f0d745ba714b
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c83565582a47c75e4f55e516afe3be0d9fbe7847
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857430"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374226"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI 고가용성, 장애 조치(failover) 및 재해 복구 FAQ
 
@@ -74,4 +74,8 @@ Power BI는 장애 조치가 필요한 것으로 식별된 후 다시 작동하�
 
 ## <a name="will-gateways-function-when-in-failover-mode"></a>장애 조치(failover) 모드에 있을 때 게이트웨이가 작동하나요?
 
-아니요. 온-프레미스 데이터 원본(직접 쿼리 및 Live Connect를 기반으로 하는 모든 보고서 및 대시보드)에서 필요한 데이터는 장애 조치(failover) 중에는 작동하지 않습니다. 게이트웨이 구성은 변경되지 않습니다. Power BI 인스턴스가 원래 상태로 돌아오면 게이트웨이는 일반 함수로 돌아갑니다.
+아니요. 온-프레미스 데이터 원본(직접 쿼리 및 Live Connect를 기반으로 하는 모든 보고서 및 대시보드)에서 필요한 데이터는 장애 조치(failover) 중에는 작동하지 않습니다. 그러나 게이트웨이 구성은 변경되지 않습니다. Power BI 인스턴스가 원래 상태로 돌아오면 게이트웨이는 일반 함수로 돌아갑니다.
+
+상당한 기간 동안 다시 온라인 상태로 전환할 수 없는 주 지역에 심각한 재해가 발생하는 경우 장애 조치(failover)된 주 지역에서는 읽기 및 쓰기 작업을 모두 수행할 수 있으며, 고객은 새 지역에 대해 게이트웨이를 다시 배포하고 구성할 수 있습니다.
+
+고객은 다른 머신에 새 게이트웨이를 설치하거나 기존 게이트웨이를 사용하도록 선택할 수 있습니다. 이전 게이트웨이와 관련된 모든 데이터 원본이 새 게이트웨이로 전달되기 때문에 기존 게이트웨이를 사용하는 것이 더 간단합니다.
