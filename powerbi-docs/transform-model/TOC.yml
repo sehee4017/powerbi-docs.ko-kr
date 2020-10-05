@@ -35,6 +35,22 @@
           href: desktop-bidirectional-filtering.md
         - name: Power BI에서 다차원 모델 작업
           href: ../connect-data/desktop-default-member-multidimensional-models.md
+    - name: 데이터 흐름
+      items:
+        - name: 데이터 흐름 소개
+          href: dataflows/dataflows-introduction-self-service.md
+        - name: 데이터 흐름 만들기
+          href: dataflows/dataflows-create.md
+        - name: 데이터 흐름 구성 및 사용
+          href: dataflows/dataflows-configure-consume.md
+        - name: 데이터 흐름 및 Azure Data Lake Gen2
+          href: dataflows/dataflows-azure-data-lake-storage-integration.md
+        - name: 데이터 흐름의 프리미엄 기능
+          href: dataflows/dataflows-premium-features.md
+        - name: 데이터 흐름에 Machine Learning 및 Cognitive Services 사용
+          href: dataflows/dataflows-machine-learning-integration.md
+        - name: 데이터 흐름 제한 사항 및 고려 사항
+          href: dataflows/dataflows-features-limitations.md
     - name: 방법 가이드
       items:
         - name: 일반적인 쿼리 작업 수행
