@@ -5,7 +5,7 @@
     - name: 개요
       expanded: true
       items:
-        - name: Power BI API로 무엇을 할 수 있나요?
+        - name: Power BI API를 사용하려면 어떻게 해야 합니까?
           href: overview-of-power-bi-rest-api.md
     - name: 자습서
       expanded: true
@@ -39,7 +39,7 @@
     - name: 참조
       items:
         - name: REST API
-          href: 'https://docs.microsoft.com/rest/api/power-bi'
+          href: /rest/api/power-bi
         - name: Power BI REST API 참조
           href: rest-api-reference.md
         - name: 전체 코드 목록
@@ -48,7 +48,7 @@
       items:
         - name: 개발자 센터
           href: 'https://powerbi.microsoft.com/en-us/developers/'
-        - name: 'Power BI C# Git 리포지토리'
+        - name: Power BI C# Git 리포지토리
           href: 'https://go.microsoft.com/fwlink/?linkid=848273'
         - name: .NET SDK 다운로드
           href: 'https://go.microsoft.com/fwlink/?linkid=848274'

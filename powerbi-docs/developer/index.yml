@@ -13,12 +13,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 57dbd3c64265ba532167db806d714054767bc506
-  ms.sourcegitcommit: 52f365af6ea5359e39d4d4547f1d61e5e0d08c5f
+  ms.openlocfilehash: a4ff9cfe0cb12dbbbd6df79a69f5637609957920
+  ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 06/16/2020
-  ms.locfileid: "84795050"
+  ms.lasthandoff: 10/06/2020
+  ms.locfileid: "91748497"
 highlightedContent:
   items:
   - title: Power BI를 사용한 임베디드 분석
@@ -83,13 +83,13 @@ additionalContent:
   - items:
     - title: Power BI REST API
       summary: Power BI REST API는 포함, 관리 및 사용자 리소스를 위한 서비스 엔드포인트를 제공합니다.
-      url: https://docs.microsoft.com/rest/api/power-bi/
+      url: /rest/api/power-bi/
     - title: Azure Resource Manager REST API
       summary: RESTful 웹 서비스 세트를 제공하는 API를 사용하여 Power BI 전용 용량을 생성 및 검색하고, 업데이트 및 삭제할 수 있습니다.
-      url: https://docs.microsoft.com/rest/api/power-bi-embedded/
+      url: /rest/api/power-bi-embedded/
     - title: Power Platform 설명서
       summary: Power BI, Power Apps, Power Automate 및 Power Virtual Agents가 함께 작동하여 서로에게 도움이 되는 방법을 알아봅니다.
-      url: https://docs.microsoft.com/power-platform/
+      url: /power-platform/
     - title: Power BI 개발자 센터
       summary: Power BI를 사용하여 빌드하세요.
       url: https://powerbi.microsoft.com/developers/
