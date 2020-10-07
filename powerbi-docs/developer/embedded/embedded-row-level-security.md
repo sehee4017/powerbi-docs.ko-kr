@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: e2e2f924f190b7c5904cfe29d1d3cae341974f38
-ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
+ms.openlocfilehash: ea7eaf8f7fc36ee1b9dc987ee571dc29dc5b222f
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89402051"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748911"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded를 사용하는 행 수준 보안
 
@@ -78,7 +78,7 @@ RLS는 Power BI Desktop에서 작성됩니다. 데이터 세트 및 보고서를
 
 이제 Power BI Desktop 역할을 구성했으므로 역할을 활용하기 위해 애플리케이션에서 몇 가지 작업을 수행해야 합니다.
 
-사용자가 애플리케이션에 의해 인증되고 권한을 부여 받고 포함된 토큰을 사용하여 특정 Power BI Embedded 보고서에 대한 사용자 액세스 권한을 부여합니다. Power BI Embedded에는 사용자에 대한 특정 정보가 없습니다. RLS가 작동하려면 ID 양식에서 포함 토큰의 일부로 몇 가지 추가 컨텍스트를 통과해야 합니다. [포함 토큰](https://docs.microsoft.com/rest/api/power-bi/embedtoken) API를 사용하여 ID를 전달할 수 있습니다.
+사용자가 애플리케이션에 의해 인증되고 권한을 부여 받고 포함된 토큰을 사용하여 특정 Power BI Embedded 보고서에 대한 사용자 액세스 권한을 부여합니다. Power BI Embedded에는 사용자에 대한 특정 정보가 없습니다. RLS가 작동하려면 ID 양식에서 포함 토큰의 일부로 몇 가지 추가 컨텍스트를 통과해야 합니다. [포함 토큰](/rest/api/power-bi/embedtoken) API를 사용하여 ID를 전달할 수 있습니다.
 
 API는 관련 데이터 세트가 표시된 ID 목록을 수락합니다. RLS를 실행하려면 ID의 일부로 다음 내용을 전달해야 합니다.
 
@@ -134,7 +134,7 @@ var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "r
 사용자 이름 속성에 제공되는 유효한 ID는 Analysis Services 서버에 대한 사용 권한이 있는 Windows 사용자여야 합니다.
 
 >[!NOTE]
-> [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview) 데이터 원본과 함께 서비스 주체를 사용하는 경우 서비스 주체 자체에 Azure Analysis Services 인스턴스 권한이 있어야 합니다. 서비스 주체가 포함된 보안 그룹을 이 목적으로 사용할 수는 없습니다.
+> [Azure Analysis Services](/azure/analysis-services/analysis-services-overview) 데이터 원본과 함께 서비스 주체를 사용하는 경우 서비스 주체 자체에 Azure Analysis Services 인스턴스 권한이 있어야 합니다. 서비스 주체가 포함된 보안 그룹을 이 목적으로 사용할 수는 없습니다.
 
 ### <a name="on-premises-data-gateway-configuration"></a>온-프레미스 데이터 게이트웨이 구성
 
@@ -195,7 +195,7 @@ REST API를 호출하는 경우 각 ID 내에 사용자 지정 데이터를 추�
 
 다음은 Power BI Embedded 애플리케이션을 사용하여 CustomData() 기능을 설정하기 위한 단계입니다.
 
-1. Azure Analysis Services 데이터베이스를 만듭니다. 그런 다음, [SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017)를 통해 Azure Analysis Services 서버에 로그인합니다.
+1. Azure Analysis Services 데이터베이스를 만듭니다. 그런 다음, [SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017)를 통해 Azure Analysis Services 서버에 로그인합니다.
 
     ![Azure Analysis Services 데이터베이스 만들기](media/embedded-row-level-security/azure-analysis-services-database-create.png)
 
@@ -245,7 +245,7 @@ REST API를 호출하는 경우 각 ID 내에 사용자 지정 데이터를 추�
 
 * [Power BI 보고서에서 역할을 구성](../../create-reports/desktop-rls.md).
 * 데이터 원본 수준(Analysis Services 실시간 연결 전용)에서 역할을 구성합니다.
-* `EffectiveIdentity`를 사용하여 [포함 토큰](https://docs.microsoft.com/rest/api/power-bi/embedtoken/datasets_generatetokeningroup)을 통해 프로그래밍 방식으로 필터링. 포함 토큰을 사용하는 경우, 실제 필터는 특정 세션에서 포함 토큰을 통과합니다.
+* `EffectiveIdentity`를 사용하여 [포함 토큰](/rest/api/power-bi/embedtoken/datasets_generatetokeningroup)을 통해 프로그래밍 방식으로 필터링. 포함 토큰을 사용하는 경우, 실제 필터는 특정 세션에서 포함 토큰을 통과합니다.
 
 [JavaScript 필터](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Filters#page-level-and-visual-level-filters)는 사용자가 축소되고 범위가 지정되고 필터링된 데이터 보기를 사용하도록 허용하기 위해 사용됩니다. 그러나 사용자는 여전히 모델 스키마 테이블, 열 및 측정값에 대한 액세스 권한을 가지고 있으며 데이터에도 액세스할 수 있습니다. 데이터에 대한 제한된 액세스는 클라이언트 측 필터링 API를 통해서가 아니라 RLS로만 적용할 수 있습니다.
 
@@ -261,7 +261,7 @@ Azure SQL에서 각 사용자의 보기를 관리하거나 다중 테넌트 DB�
 
 이러한 유효 ID 문제는 Azure SQL Server의 RLS 규칙에 직접 적용됩니다. Power BI Embedded는 Azure SQL Server에서 데이터를 쿼리할 때 제공된 액세스 토큰을 사용합니다. 액세스 토큰이 제공된 사용자의 UPN은 USER_NAME() SQL 함수의 결과로 액세스할 수 있습니다.
 
-토큰 기반 ID는 AAD 인증을 허용하도록 구성된 Azure SQL Database에 연결된 전용 용량의 DirectQuery 모델에서만 작동합니다([Azure SQL Database의 AAD 인증에 대한 자세한 정보](https://docs.microsoft.com/azure/sql-database/sql-database-manage-logins)). 데이터 세트의 데이터 원본은 토큰 기반 ID를 사용하기 위해 최종 사용자의 OAuth2 자격 증명을 사용하도록 구성해야 합니다.
+토큰 기반 ID는 AAD 인증을 허용하도록 구성된 Azure SQL Database에 연결된 전용 용량의 DirectQuery 모델에서만 작동합니다([Azure SQL Database의 AAD 인증에 대한 자세한 정보](/azure/sql-database/sql-database-manage-logins)). 데이터 세트의 데이터 원본은 토큰 기반 ID를 사용하기 위해 최종 사용자의 OAuth2 자격 증명을 사용하도록 구성해야 합니다.
 
    ![Azure SQL Server 구성](media/embedded-row-level-security/token-based-configure-azure-sql-db.png)
 
@@ -322,11 +322,11 @@ ID Blob에 제공된 값은 Azure SQL Server에 유효한 액세스 토큰이어
 
 SSAS(SQL Server Analysis Services) 온-프레미스 라이브 연결 데이터 원본을 사용하여 RLS(행 수준 보안)를 구성하는 고객은 **Power BI Embedded**와 통합할 때 SSAS에서 사용자와 해당 데이터 액세스를 관리할 수 있는 새로운 [서비스 주체](embed-service-principal.md) 기능을 사용할 수 있습니다.
 
-[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)를 통해 [서비스 주체 개체](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object)를 사용하여 포함 토큰에 대한 SSAS 온-프레미스 라이브 연결을 위한 유효한 ID를 지정할 수 있습니다.
+[Power BI REST API](/rest/api/power-bi/)를 통해 [서비스 주체 개체](/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object)를 사용하여 포함 토큰에 대한 SSAS 온-프레미스 라이브 연결을 위한 유효한 ID를 지정할 수 있습니다.
 
 지금까지 SSAS 온-프레미스 라이브 연결을 위한 유효한 ID를 지정하려면 포함 토큰을 생성하는 마스터 사용자가 게이트웨이 관리자여야 했습니다. 이제 사용자를 게이트웨이 관리자로 요구하는 대신 게이트웨이 관리자는 사용자가 포함 토큰을 생성할 때 유효한 ID를 재정의할 수 있도록 해당 데이터 원본에 대한 전용 권한을 사용자에게 부여할 수 있습니다. 이 새로운 기능을 통해 라이브 SSAS 연결에 서비스 주체를 포함시킬 수 있습니다.
 
-이 시나리오를 사용하기 위해 게이트웨이 관리자는 [데이터 원본 사용자 REST API 추가](https://docs.microsoft.com/rest/api/power-bi/gateways/adddatasourceuser)를 사용하여 서비스 주체에게 Power BI Embedded에 대한 *ReadOverrideEffectiveIdentity* 권한을 부여합니다.
+이 시나리오를 사용하기 위해 게이트웨이 관리자는 [데이터 원본 사용자 REST API 추가](/rest/api/power-bi/gateways/adddatasourceuser)를 사용하여 서비스 주체에게 Power BI Embedded에 대한 *ReadOverrideEffectiveIdentity* 권한을 부여합니다.
 
 관리 포털을 사용하여 이 권한을 설정할 수 없습니다. 이 사용 권한은 API로만 설정됩니다. 관리 포털에서 이러한 사용 권한이 있는 사용자 및 SPN에 대한 표시를 볼 수 있습니다.
 

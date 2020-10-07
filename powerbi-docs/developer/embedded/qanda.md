@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 11/20/2017
-ms.openlocfilehash: 5a3a7b91b0c97a75923876caff205ffb9abfce70
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0106cc9ddb0e82a7b40e362342fce5196ef655c5
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114385"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749279"
 ---
 # <a name="qa-in-power-bi-embedded"></a>Power BI Embedded의 질문 및 답변
 
@@ -96,7 +96,7 @@ qna.on("visualRendered", function(event) {
 
 ## <a name="embed-token"></a>embed 토큰
 
-질문 및 답변 부분을 시작하려면 데이터 세트에서 embed 토큰 끄기를 만듭니다. 자세한 내용은 [토큰 생성](https://docs.microsoft.com/rest/api/power-bi/embedtoken)을 참조하세요.
+질문 및 답변 부분을 시작하려면 데이터 세트에서 embed 토큰 끄기를 만듭니다. 자세한 내용은 [토큰 생성](/rest/api/power-bi/embedtoken)을 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 

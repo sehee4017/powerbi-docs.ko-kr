@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: 362c765fb5e739563b8d21eaed53304eddce8acc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cc64338ed40fcdc6433fdcf231004b4946335c72
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79495806"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748796"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Azure의 Power BI Embedded에 대한 진단 로깅
 
-[Azure 리소스 진단 로그](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs)를 사용하면 용량에서 많은 이벤트를 기록하고, 분석 도구에 추가하고, 리소스 동작에 대한 인사이트를 얻을 수 있습니다.
+[Azure 리소스 진단 로그](/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs)를 사용하면 용량에서 많은 이벤트를 기록하고, 분석 도구에 추가하고, 리소스 동작에 대한 인사이트를 얻을 수 있습니다.
 
 진단을 사용하여 다음과 같은 몇 가지 시나리오에 응답할 수 있습니다.
 
@@ -36,12 +36,12 @@ ms.locfileid: "79495806"
 
     * **이름** - 만들 진단 설정의 이름을 입력합니다.
 
-    * **스토리지 계정에 보관** - 이 옵션을 사용하려면 기존 스토리지 계정에 연결해야 합니다. [스토리지 계정 만들기](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account)를 참조하고 지침에 따라 스토리지 계정을 만듭니다. 그런 다음, 포털에서 이 페이지로 돌아가서 스토리지 계정을 선택합니다. 새로 만든 스토리지 계정이 드롭다운 메뉴에 나타나기까지 몇 분 정도 걸릴 수 있습니다. 로그 파일 스토리지는 JSON 형식입니다.
-    * **이벤트 허브로의 스트림** - 이 옵션을 사용하려면 기존 이벤트 허브 네임스페이스 및 이벤트 허브에 연결해야 합니다. 자세한 내용은 [Azure Portal을 사용하여 이벤트 허브 네임스페이스 및 이벤트 허브 만들기](https://docs.microsoft.com/azure/event-hubs/event-hubs-create)를 참조하세요.
-    * **Log Analytics에 보내기** - 이 옵션을 사용하려면 기존 작업 영역을 사용하거나 포털에서 [새 작업 영역을 만드는](https://docs.microsoft.com/azure/log-analytics/log-analytics-quick-collect-azurevm#create-a-workspace) 단계에 따라 새 Log Analytics 작업 영역을 만듭니다. 이 작업에는 기본 제공 분석, 대시보드 및 알림 기능을 제공하는 [Azure Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-overview)를 이용합니다. Log Analytics를 사용하면 다른 리소스의 추가 데이터를 연결하고 모든 애플리케이션의 리소스 전체에서 데이터의 단일 및 전체 보기를 가져올 수 있습니다. [단일 클릭으로 Power BI](https://docs.microsoft.com/azure/log-analytics/log-analytics-powerbi)에 연결할 수도 있습니다.
-    Log Analytics에서 로그를 보는 방법에 대한 자세한 내용은 [Log Analytics의 로그 보기](https://docs.microsoft.com/azure/log-analytics/log-analytics-activity)를 참조하세요.
+    * **스토리지 계정에 보관** - 이 옵션을 사용하려면 기존 스토리지 계정에 연결해야 합니다. [스토리지 계정 만들기](/azure/storage/common/storage-create-storage-account)를 참조하고 지침에 따라 스토리지 계정을 만듭니다. 그런 다음, 포털에서 이 페이지로 돌아가서 스토리지 계정을 선택합니다. 새로 만든 스토리지 계정이 드롭다운 메뉴에 나타나기까지 몇 분 정도 걸릴 수 있습니다. 로그 파일 스토리지는 JSON 형식입니다.
+    * **이벤트 허브로의 스트림** - 이 옵션을 사용하려면 기존 이벤트 허브 네임스페이스 및 이벤트 허브에 연결해야 합니다. 자세한 내용은 [Azure Portal을 사용하여 이벤트 허브 네임스페이스 및 이벤트 허브 만들기](/azure/event-hubs/event-hubs-create)를 참조하세요.
+    * **Log Analytics에 보내기** - 이 옵션을 사용하려면 기존 작업 영역을 사용하거나 포털에서 [새 작업 영역을 만드는](/azure/log-analytics/log-analytics-quick-collect-azurevm#create-a-workspace) 단계에 따라 새 Log Analytics 작업 영역을 만듭니다. 이 작업에는 기본 제공 분석, 대시보드 및 알림 기능을 제공하는 [Azure Log Analytics](/azure/log-analytics/log-analytics-overview)를 이용합니다. Log Analytics를 사용하면 다른 리소스의 추가 데이터를 연결하고 모든 애플리케이션의 리소스 전체에서 데이터의 단일 및 전체 보기를 가져올 수 있습니다. [단일 클릭으로 Power BI](/azure/log-analytics/log-analytics-powerbi)에 연결할 수도 있습니다.
+    Log Analytics에서 로그를 보는 방법에 대한 자세한 내용은 [Log Analytics의 로그 보기](/azure/log-analytics/log-analytics-activity)를 참조하세요.
     * **Engine** - 아래에 [나열된 엔진 이벤트](#whats-logged) 집합을 기록하려면 이 옵션을 선택합니다.
-    * **AllMetrics** - [메트릭](https://docs.microsoft.com/azure/analysis-services/analysis-services-monitor#server-metrics)에 자세한 정보 데이터를 저장하려면 이 옵션을 선택합니다. 스토리지 계정으로 보관하려는 경우 진단 로그의 보존 기간을 선택할 수 있습니다. 보존 기간이 만료되면 로그가 자동으로 삭제됩니다.
+    * **AllMetrics** - [메트릭](/azure/analysis-services/analysis-services-monitor#server-metrics)에 자세한 정보 데이터를 저장하려면 이 옵션을 선택합니다. 스토리지 계정으로 보관하려는 경우 진단 로그의 보존 기간을 선택할 수 있습니다. 보존 기간이 만료되면 로그가 자동으로 삭제됩니다.
 
 3. **저장**을 선택합니다.
 
@@ -87,11 +87,11 @@ PowerShell을 사용하여 메트릭 및 진단 로깅을 사용하도록 설정
 
 ### <a name="rest-api"></a>REST API
 
-[Azure Monitor REST API를 사용하여 진단 설정을 변경](https://docs.microsoft.com/rest/api/monitor/)하는 방법을 알아봅니다. 
+[Azure Monitor REST API를 사용하여 진단 설정을 변경](/rest/api/monitor/)하는 방법을 알아봅니다. 
 
 ### <a name="resource-manager-template"></a>Resource Manager 템플릿
 
-[Resource Manager 템플릿을 사용하여 리소스 생성 시 진단 설정을 사용하도록 설정](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-enable-diagnostic-logs-using-template)하는 방법을 알아봅니다.
+[Resource Manager 템플릿을 사용하여 리소스 생성 시 진단 설정을 사용하도록 설정](/azure/monitoring-and-diagnostics/monitoring-enable-diagnostic-logs-using-template)하는 방법을 알아봅니다.
 
 ## <a name="whats-logged"></a>다음이 로깅됩니다.
 
@@ -174,11 +174,11 @@ Log Analytics에서 진단 데이터를 보려면 아래와 같이 관리 영역
 
 **EventClass\_s** 또는 이벤트 이름 중 하나를 선택하면 Log Analytics가 쿼리를 계속 생성합니다. 나중에 다시 사용하려면 쿼리를 저장해야 합니다.
 
-수집된 데이터에 대한 향상된 쿼리, 대시보드 및 경고 기능을 포함하는 웹 사이트를 제공하는 [Log Analytics](https://docs.microsoft.com/azure/log-analytics/)를 확인합니다.
+수집된 데이터에 대한 향상된 쿼리, 대시보드 및 경고 기능을 포함하는 웹 사이트를 제공하는 [Log Analytics](/azure/log-analytics/)를 확인합니다.
 
 ### <a name="queries"></a>쿼리
 
-사용할 수 있는 수백 개의 쿼리가 있습니다. 시작하는 몇 가지 방법은 다음과 같습니다. 새 로그 검색 쿼리 언어를 사용하는 방법에 대한 자세한 내용은 [Log Analytics의 로그 검색 이해](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-search)를 참조하세요.
+사용할 수 있는 수백 개의 쿼리가 있습니다. 시작하는 몇 가지 방법은 다음과 같습니다. 새 로그 검색 쿼리 언어를 사용하는 방법에 대한 자세한 내용은 [Log Analytics의 로그 검색 이해](/azure/log-analytics/log-analytics-log-search)를 참조하세요.
 
 * 완료하는 데 5분(300,000밀리초) 미만이 걸린 쿼리 반환입니다.
 
@@ -206,7 +206,7 @@ Log Analytics에서 진단 데이터를 보려면 아래와 같이 관리 영역
 Azure 리소스 진단 로깅을 자세히 알아볼 수 있습니다.
 
 > [!div class="nextstepaction"]
-> [Azure 리소스 진단 로깅](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs)
+> [Azure 리소스 진단 로깅](/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs)
 
 > [!div class="nextstepaction"]
-> [Set-AzureRmDiagnosticSetting](https://docs.microsoft.com/powershell/module/azurerm.insights/Set-AzureRmDiagnosticSetting)
+> [Set-AzureRmDiagnosticSetting](/powershell/module/azurerm.insights/Set-AzureRmDiagnosticSetting)

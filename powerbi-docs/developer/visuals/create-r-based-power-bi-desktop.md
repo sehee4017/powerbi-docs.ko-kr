@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 05/11/2020
-ms.openlocfilehash: 248e641488edb2523a2fa7102bd7a9a4829ee29b
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 2046dc389b859ce71c4d26cc31cc686f812e461e
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91527772"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749325"
 ---
 # <a name="tutorial-create-an-r-powered-power-bi-visual"></a>자습서:  R 지원 Power BI 시각적 개체 만들기
 
@@ -31,9 +31,9 @@ ms.locfileid: "91527772"
 ## <a name="prerequisites"></a>필수 조건
 
 * **Power BI Pro** 계정. 시작하기 전에 [무료 평가판에 등록](https://powerbi.microsoft.com/pricing/)하세요.
-* R 엔진. [Revolution Open 다운로드 페이지](https://mran.revolutionanalytics.com/download/) 및 [CRAN 리포지토리](https://cran.r-project.org/bin/windows/base/)를 포함한 여러 위치에서 무료로 다운로드할 수 있습니다. 자세한 내용은 [R을 사용하여 Power BI 시각적 개체 만들기](../../desktop-r-visuals.md)를 참조하세요.
+* R 엔진. [Revolution Open 다운로드 페이지](https://mran.revolutionanalytics.com/download/) 및 [CRAN 리포지토리](https://cran.r-project.org/bin/windows/base/)를 포함한 여러 위치에서 무료로 다운로드할 수 있습니다. 자세한 내용은 [R을 사용하여 Power BI 시각적 개체 만들기](../../create-reports/desktop-r-visuals.md)를 참조하세요.
 * [Power BI Desktop](../../fundamentals/desktop-get-the-desktop.md).
-* Windows 사용자의 경우 [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell?view=powershell-6) 버전 4 이상, OSX 사용자의 경우 [터미널](https://macpaw.com/how-to/use-terminal-on-mac)
+* Windows 사용자의 경우 [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell?view=powershell-6) 버전 4 이상, OSX 사용자의 경우 [터미널](https://macpaw.com/how-to/use-terminal-on-mac)
 
 ## <a name="getting-started"></a>시작
 
@@ -283,6 +283,6 @@ ms.locfileid: "91527772"
 
 ## <a name="next-steps"></a>다음 단계
 
-R 지원 시각적 개체에 대해 자세히 알아보려면 [Power BI에서 R 지원 Power BI 시각적 개체 사용](../../desktop-r-powered-custom-visuals.md)을 참조하세요.
+R 지원 시각적 개체에 대해 자세히 알아보려면 [Power BI에서 R 지원 Power BI 시각적 개체 사용](../../create-reports/desktop-r-powered-custom-visuals.md)을 참조하세요.
 
-Power BI Desktop의 R 지원 시각적 개체에 대한 자세한 내용은 [R을 사용하여 Power BI 시각적 개체 만들기](../../desktop-r-visuals.md)를 참조하세요.
+Power BI Desktop의 R 지원 시각적 개체에 대한 자세한 내용은 [R을 사용하여 Power BI 시각적 개체 만들기](../../create-reports/desktop-r-visuals.md)를 참조하세요.

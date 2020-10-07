@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b969fa3dd04f25c8921db563a89b11125216c752
-ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
+ms.openlocfilehash: b1ae402f8e8712920cc93248828603d1087c8c4a
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89401959"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749233"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Power BI의 조직 시각적 개체
 
@@ -49,7 +49,7 @@ Power BI에서 Power BI 시각적 개체를 사용하여 사용자에게 맞는 
 
 최종 사용자:
 
-* 조직의 Power BI 시각적 개체는 조직 리포지토리에서 가져온 프라이빗 시각적 개체입니다. 모든 프라이빗 시각적 개체처럼 이 시각적 개체는 [PowerPoint에 내보내거나](https://docs.microsoft.com/power-bi/consumer/end-user-powerpoint) 사용자가 [보고서 페이지를 구독](https://docs.microsoft.com/power-bi/consumer/end-user-subscribe)할 때 받은 메일에 표시할 수 있습니다. Marketplace에서 직접 가져온 [인증된 Power BI 시각적 개체](power-bi-custom-visuals-certified.md)만 이러한 기능을 지원합니다.
+* 조직의 Power BI 시각적 개체는 조직 리포지토리에서 가져온 프라이빗 시각적 개체입니다. 모든 프라이빗 시각적 개체처럼 이 시각적 개체는 [PowerPoint에 내보내거나](../../consumer/end-user-powerpoint.md) 사용자가 [보고서 페이지를 구독](../../consumer/end-user-subscribe.md)할 때 받은 메일에 표시할 수 있습니다. Marketplace에서 직접 가져온 [인증된 Power BI 시각적 개체](power-bi-custom-visuals-certified.md)만 이러한 기능을 지원합니다.
 
 * AppSource Marketplace의 GlobeMap 시각적 개체, Visio 시각적 개체, PowerApps 시각적 개체 및 Map box 시각적 개체는 조직 리포지토리를 통해 배포된 경우 렌더링되지 않습니다.
 

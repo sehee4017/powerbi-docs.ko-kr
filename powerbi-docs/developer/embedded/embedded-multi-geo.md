@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 02/05/2019
-ms.openlocfilehash: 9c99d48a0b9d50312d2ae5ce152826fcf1ab9319
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 23e71d08b344fc27edca26372b7781b9e0d3d6d1
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238775"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749118"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>Power BI Embedded에 대한 다중 지역 지원
 
@@ -65,11 +65,11 @@ Power BI 콘텐츠를 다른 지역으로 이동하려면 다음 단계를 따�
 
 API를 통해 다중 지역을 사용한 용량 관리를 지원하기 위해 기존 API를 약간 변경했습니다.
 
-1. **[용량 가져오기](https://docs.microsoft.com/rest/api/power-bi/capacities/getcapacities)** - API에서 사용자에 대한 액세스 권한이 포함된 용량 목록을 반환합니다. 이제 응답에는 용량의 위치를 지정하는 ‘지역’이라는 추가 속성이 포함됩니다.
+1. **[용량 가져오기](/rest/api/power-bi/capacities/getcapacities)** - API에서 사용자에 대한 액세스 권한이 포함된 용량 목록을 반환합니다. 이제 응답에는 용량의 위치를 지정하는 ‘지역’이라는 추가 속성이 포함됩니다.
 
-2. **[용량에 할당](https://docs.microsoft.com/rest/api/power-bi/capacities)** - API를 통해 용량에 지정된 작업 영역을 할당할 수 있습니다. 이 작업으로는 홈 지역 외부의 용량에 작업 영역을 할당하거나 다른 지역의 용량 간에 작업 영역을 이동할 수 없습니다. 이 작업을 수행하려면 사용자 또는 [서비스 주체](embed-service-principal.md)가 여전히 작업 영역에 대한 관리자 권한이 필요하며, 관리 또는 대상 용량에 대한 사용 권한을 할당해야 합니다.
+2. **[용량에 할당](/rest/api/power-bi/capacities)** - API를 통해 용량에 지정된 작업 영역을 할당할 수 있습니다. 이 작업으로는 홈 지역 외부의 용량에 작업 영역을 할당하거나 다른 지역의 용량 간에 작업 영역을 이동할 수 없습니다. 이 작업을 수행하려면 사용자 또는 [서비스 주체](embed-service-principal.md)가 여전히 작업 영역에 대한 관리자 권한이 필요하며, 관리 또는 대상 용량에 대한 사용 권한을 할당해야 합니다.
 
-3. **[Azure Resource Manager API](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities)** - ‘만들기’ 및 ‘삭제’를 포함하여 모든 Azure Resource Manager API 작업에서 다중 지역을 지원합니다. 
+3. **[Azure Resource Manager API](/rest/api/power-bi-embedded/capacities)** - ‘만들기’ 및 ‘삭제’를 포함하여 모든 Azure Resource Manager API 작업에서 다중 지역을 지원합니다. 
 
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
 

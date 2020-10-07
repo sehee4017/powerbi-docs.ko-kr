@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/23/2020
+ms.date: 10/05/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: acfe54479ae02b950dcc8521807add7c06071207
-ms.sourcegitcommit: 3655521f7d6e70d25cbe72006aada69ba08e7dec
+ms.openlocfilehash: 7460967e12ee13f5aff03c8058c318741c26aa86
+ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "91224190"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "91780095"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Power BI Desktop의 새로운 기능
 
@@ -46,45 +46,38 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 다음은 이번 달의 Power BI Desktop 업데이트입니다.
 
-https://www.youtube.com/watch?v=gPGy18Yo0Go https://youtu.be/TPsV7N4bZZg?t=15
-
-
-https://www.youtube.com/watch?v=gPGy18Yo0Go
-
-https://www.youtube.com/watch?v=TPsV7N4bZZg?t=448
-
 ### <a name="analytics"></a>분석
-* 스마트 설명(미리 보기) [[동영상]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=51)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#_Smart_narratives_(preview)) 
-* Q&A가 이제 산술 연산 지원 [[동영상]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=333)   [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#QA_arithmetic) 
+* 스마트 설명(미리 보기) [[동영상]](https://youtu.be/gPGy18Yo0Go?t=51)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#_Smart_narratives_(preview)) 
+* Q&A가 이제 산술 연산 지원 [[동영상]](https://youtu.be/gPGy18Yo0Go?t=333)   [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#QA_arithmetic) 
 
 
 ### <a name="reporting"></a>보고
-* 추가 차트를 위한 데이터 요소 사각형 선택 [[동영상]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=370)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Data_point_rectangle_select) 
-* 계층 순서 유지를 위한 일반 시각적 옵션 추가 [[동영상]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=405)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Maintain_layer_order) 
-* 게시 중 작업 영역 검색 [[동영상]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=615)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Search_workspace) 
-* 누적 시각적 개체를 위한 합계 레이블 [[동영상]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=630)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Total_labels_stacked) 
-* 모바일 작성 개선 [[동영상]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=786)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Mobile_authoring_enhancements) 
+* 추가 차트를 위한 데이터 요소 사각형 선택 [[동영상]](https://youtu.be/gPGy18Yo0Go?t=370)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Data_point_rectangle_select) 
+* 계층 순서 유지를 위한 일반 시각적 옵션 추가 [[동영상]](https://youtu.be/gPGy18Yo0Go?t=405)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Maintain_layer_order) 
+* 게시 중 작업 영역 검색 [[동영상]](https://youtu.be/gPGy18Yo0Go?t=615)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Search_workspace) 
+* 누적 시각적 개체를 위한 합계 레이블 [[동영상]](https://youtu.be/gPGy18Yo0Go?t=630)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Total_labels_stacked) 
+* 모바일 작성 개선 [[동영상]](https://youtu.be/gPGy18Yo0Go?t=786)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Mobile_authoring_enhancements) 
 
 
 ### <a name="modeling"></a>모델링
-* 향상된 데이터 세트 메타데이터 출시 [[동영상]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1200)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Enhanced_Dataset_Metadata)
-* 통화 데이터 형식의 열을 포함하는 집계 식의 성능 개선 [[동영상]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1220)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Performance_improvements_to_agg)
+* 향상된 데이터 세트 메타데이터 출시 [[동영상]](https://youtu.be/gPGy18Yo0Go?t=1200)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Enhanced_Dataset_Metadata)
+* 통화 데이터 형식의 열을 포함하는 집계 식의 성능 개선 [[동영상]](https://youtu.be/gPGy18Yo0Go?t=1220)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Performance_improvements_to_agg)
 
 
 ### <a name="data-connectivity"></a>데이터 연결
-* Azure Databricks [[동영상]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1342)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Azure_Databricks)
-* MariaDB [[동영상]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1365)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#MariaDB)
-* Hexagon PPM Smart API [[동영상]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1386)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Hexagon_PPM_Smart)
-* 기타 데이터 연결 업데이트 [[동영상]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1411)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Other_data_connectivity)
+* Azure Databricks [[동영상]](https://youtu.be/gPGy18Yo0Go?t=1342)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Azure_Databricks)
+* MariaDB [[동영상]](https://youtu.be/gPGy18Yo0Go?t=1365)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#MariaDB)
+* Hexagon PPM Smart API [[동영상]](https://youtu.be/gPGy18Yo0Go?t=1386)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Hexagon_PPM_Smart)
+* 기타 데이터 연결 업데이트 [[동영상]](https://youtu.be/gPGy18Yo0Go?t=1411)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Other_data_connectivity)
 
 
 ### <a name="visuals"></a>시각적 개체
-* 다양한 공급자의 새 시각적 개체 [[동영상]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1228)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Visualizations)
+* 다양한 공급자의 새 시각적 개체 [[동영상]](https://youtu.be/gPGy18Yo0Go?t=1228)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Visualizations)
 
 
 ### <a name="template-apps"></a>템플릿 앱
-* 다중 채널 특성 대시보드 [[동영상]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1290)   [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Multichannel_Attribution_Dashboard) 
-* 작업 영역 분석 대시보드 [[동영상]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1290)   [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Workspace_Analytics_Dashboard) 
+* 다중 채널 특성 대시보드 [[동영상]](https://youtu.be/gPGy18Yo0Go?t=1290)   [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Multichannel_Attribution_Dashboard) 
+* 작업 영역 분석 대시보드 [[동영상]](https://youtu.be/gPGy18Yo0Go?t=1290)   [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Workspace_Analytics_Dashboard) 
 
 
 각각의 새로운 기능에 대한 자세한 내용은 [Power BI Desktop 기능 요약 블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/)을 참조하세요.

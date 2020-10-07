@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 05/28/2019
-ms.openlocfilehash: f592b7927d713e343f1d3ad11453cbbacc17fffd
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 03ba0a3090a4224cdc97a2f5bdcf80dc4b59dc64
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354941"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748773"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Power BI에서 사용할 Azure Active Directory 테넌트 만들기
 
@@ -27,7 +27,7 @@ Azure AD 테넌트가 있다면 애플리케이션을 정의하고 [Power BI RES
 
 ## <a name="create-an-azure-active-directory-tenant"></a>Azure Active Directory 테넌트 만들기
 
-Power BI를 사용자 지정 애플리케이션에 통합하려면 Azure AD 내에서 애플리케이션을 정의해야 하며, Azure AD 디렉터리가 필요합니다. 이 디렉터리는 사용자 *테넌트*입니다. 조직에서 Power BI 또는 Microsoft 365를 사용하지 않아서 아직 테넌트가 없는 경우 [개발 환경을 설정해야 합니다](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). 애플리케이션을 조직의 테넌트와 혼합하여 사용하지 않으려는 경우에도 테넌트를 만들어 격리된 상태로 유지할 수 있어야 합니다. 또는 테스트 용도로 테넌트를 만들려고 할 수 있습니다.
+Power BI를 사용자 지정 애플리케이션에 통합하려면 Azure AD 내에서 애플리케이션을 정의해야 하며, Azure AD 디렉터리가 필요합니다. 이 디렉터리는 사용자 *테넌트*입니다. 조직에서 Power BI 또는 Microsoft 365를 사용하지 않아서 아직 테넌트가 없는 경우 [개발 환경을 설정해야 합니다](/azure/active-directory/develop/active-directory-howto-tenant). 애플리케이션을 조직의 테넌트와 혼합하여 사용하지 않으려는 경우에도 테넌트를 만들어 격리된 상태로 유지할 수 있어야 합니다. 또는 테스트 용도로 테넌트를 만들려고 할 수 있습니다.
 
 새 Azure AD 테넌트를 만들려면 다음을 수행합니다.
 
@@ -93,8 +93,8 @@ Power BI를 사용자 지정 애플리케이션에 통합하려면 Azure AD 내�
 
 이제 Azure AD 테넌트가 있으므로 이 테넌트를 사용하여 Power BI 내에서 항목을 테스트할 수 있습니다. 또한 애플리케이션에서 Power BI 대시보드 및 보고서를 포함할 수도 있습니다. 자세한 내용은 [Power BI 대시보드, 보고서 및 타일을 포함하는 방법](embed-sample-for-customers.md)을 참조하세요.
 
-[Azure Active Directory란?](https://docs.microsoft.com/azure/active-directory/active-directory-whatis) 
+[Azure Active Directory란?](/azure/active-directory/active-directory-whatis) 
  
-[빠른 시작: 개발 환경 설정](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)  
+[빠른 시작: 개발 환경 설정](/azure/active-directory/develop/active-directory-howto-tenant)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

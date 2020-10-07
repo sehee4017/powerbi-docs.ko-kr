@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 96e42eb8a4d958eb4ee090cedf12d2ebfe79f941
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: aeea5ea3a9d1d2bd375c44b6c6b7eac57eb65aff
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878603"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749003"
 ---
 # <a name="add-bookmark-support-for-power-bi-visuals"></a>Power BI 시각적 개체에 대해 책갈피 지원 추가
 
 Power BI 보고서 책갈피를 사용하면 구성된 보고서 페이지 뷰, 시각적 개체의 선택 상태 및 필터링 상태를 캡처할 수 있습니다. 그러나 책갈피를 지원하고 변경 내용에 올바르게 대응하려면 Power BI 시각적 개체 쪽의 추가 작업이 필요합니다.
 
-책갈피에 대한 자세한 내용은 [책갈피를 사용하여 Power BI에서 정보 공유 및 스토리 빌드](https://docs.microsoft.com/power-bi/desktop-bookmarks)를 참조하세요.
+책갈피에 대한 자세한 내용은 [책갈피를 사용하여 Power BI에서 정보 공유 및 스토리 빌드](../../create-reports/desktop-bookmarks.md)를 참조하세요.
 
 ## <a name="report-bookmarks-support-in-your-visual"></a>시각적 개체의 보고서 책갈피 지원
 

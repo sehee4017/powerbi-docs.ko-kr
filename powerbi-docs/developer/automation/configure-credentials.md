@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/23/2020
-ms.openlocfilehash: dd85f44057c0e4069a903293ec162028b1cbd66e
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: d2cd9786a635aed79f334706f53c21fe87e723a4
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034063"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748957"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Power BI에 대한 자격 증명을 프로그래밍 방식으로 구성
 
@@ -25,7 +25,7 @@ Power BI에 대한 자격 증명을 프로그래밍 방식으로 구성하려면
 
 ## <a name="update-credentials-flow-for-data-sources"></a>데이터 원본에 대한 자격 증명 흐름 업데이트
 
-1. [데이터 원본 가져오기](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasourcesingroup)를 호출하여 데이터 세트의 데이터 원본을 검색합니다. 각 데이터 원본의 응답 본문에는 형식, 연결 세부 정보, 게이트웨이 및 데이터 원본 ID가 있습니다.
+1. [데이터 원본 가져오기](/rest/api/power-bi/datasets/getdatasourcesingroup)를 호출하여 데이터 세트의 데이터 원본을 검색합니다. 각 데이터 원본의 응답 본문에는 형식, 연결 세부 정보, 게이트웨이 및 데이터 원본 ID가 있습니다.
 
     ```csharp
     // Select a datasource
@@ -33,7 +33,7 @@ Power BI에 대한 자격 증명을 프로그래밍 방식으로 구성하려면
     var datasource = datasources.First();
     ```
 
-2. 자격 증명 형식과 [데이터 원본 업데이트 예제](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource)에 따라 자격 증명 문자열을 빌드합니다.
+2. 자격 증명 형식과 [데이터 원본 업데이트 예제](/rest/api/power-bi/gateways/updatedatasource)에 따라 자격 증명 문자열을 빌드합니다.
 
     # <a name="net-sdk-v3"></a>[.NET SDK v3](#tab/sdk3)
 
@@ -50,9 +50,9 @@ Power BI에 대한 자격 증명을 프로그래밍 방식으로 구성하려면
     ---
 
     >[!NOTE]
-    >클라우드 데이터 원본을 사용 중인 경우에는 이 섹션의 다음 단계를 수행하지 마세요. 1단계에서 얻은 게이트웨이 ID 및 데이터 원본 ID를 사용해 [데이터 원본 업데이트](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource)를 호출하여 자격 증명을 설정합니다. 
+    >클라우드 데이터 원본을 사용 중인 경우에는 이 섹션의 다음 단계를 수행하지 마세요. 1단계에서 얻은 게이트웨이 ID 및 데이터 원본 ID를 사용해 [데이터 원본 업데이트](/rest/api/power-bi/gateways/updatedatasource)를 호출하여 자격 증명을 설정합니다. 
 
-3. [게이트웨이 가져오기](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways)를 호출하여 게이트웨이 공용 키를 검색합니다.
+3. [게이트웨이 가져오기](/rest/api/power-bi/gateways/getgateways)를 호출하여 게이트웨이 공용 키를 검색합니다.
 
     ```csharp
     var gateway = pbiClient.Gateways.GetGatewayById(datasource.GatewayId);
@@ -104,7 +104,7 @@ Power BI에 대한 자격 증명을 프로그래밍 방식으로 구성하려면
 
     ---
 
-6. [데이터 원본 업데이트](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource)를 호출하여 자격 증명을 설정합니다.
+6. [데이터 원본 업데이트](/rest/api/power-bi/gateways/updatedatasource)를 호출하여 자격 증명을 설정합니다.
 
     ```csharp
     pbiClient.Gateways.UpdateDatasource(gatewayId, datasourceId, credentialDetails);
@@ -114,7 +114,7 @@ Power BI에 대한 자격 증명을 프로그래밍 방식으로 구성하려면
 
 1. 머신에 [온-프레미스 데이터 게이트웨이](https://powerbi.microsoft.com/gateway/)를 설치합니다.
 
-2. [게이트웨이 가져오기](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways)를 호출하여 게이트웨이 ID 및 공용 키를 검색합니다.
+2. [게이트웨이 가져오기](/rest/api/power-bi/gateways/getgateways)를 호출하여 게이트웨이 ID 및 공용 키를 검색합니다.
 
     ```csharp
     // Select a gateway
@@ -134,7 +134,7 @@ Power BI에 대한 자격 증명을 프로그래밍 방식으로 구성하려면
             dataSourceName: "my sql datasource");
     ```
 
-5. [데이터 원본 만들기](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource) API를 호출합니다.
+5. [데이터 원본 만들기](/rest/api/power-bi/gateways/createdatasource) API를 호출합니다.
 
     ```csharp
     pbiClient.Gateways.CreateDatasource(gateway.Id, request);
@@ -142,7 +142,7 @@ Power BI에 대한 자격 증명을 프로그래밍 방식으로 구성하려면
 
 ## <a name="credential-types"></a>자격 증명 유형
 
-[Power BI Rest API](https://docs.microsoft.com/rest/api/power-bi/)를 사용하여 **엔터프라이즈 온-프레미스 게이트웨이**에서 [데이터 원본 만들기](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource) 또는 [데이터 원본 업데이트](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource)를 호출할 때, 자격 증명 값이 게이트웨이의 공개 키를 사용하여 암호화해야 합니다.
+[Power BI Rest API](/rest/api/power-bi/)를 사용하여 **엔터프라이즈 온-프레미스 게이트웨이**에서 [데이터 원본 만들기](/rest/api/power-bi/gateways/createdatasource) 또는 [데이터 원본 업데이트](/rest/api/power-bi/gateways/updatedatasource)를 호출할 때, 자격 증명 값이 게이트웨이의 공개 키를 사용하여 암호화해야 합니다.
 
 >[!NOTE]
 >.NET SDK v3 역시 아래에 나열된 .NET SDK v2 예제를 실행할 수 있습니다.
@@ -233,6 +233,6 @@ var credentials = "{\"credentialData\":\"\"}";
 
 데이터 세트를 만든 후에는 데이터 세트와 적절한 게이트웨이 간에 자동 바인딩이 만들어집니다. 이 게이트웨이에는 모든 연결에 대해 일치하는 데이터 원본이 포함되어 있습니다. 이러한 게이트웨이나 여러 개의 적합한 게이트웨이가 없으면 자동 바인딩이 실패합니다.
 
-온-프레미스 데이터 세트를 사용하는 경우 누락된 온-프레미스 데이터 원본을 만들고 [게이트웨이에 바인딩](https://docs.microsoft.com/rest/api/power-bi/datasets/bindtogateway)을 사용하여 수동으로 데이터 세트를 게이트웨이에 바인딩합니다.
+온-프레미스 데이터 세트를 사용하는 경우 누락된 온-프레미스 데이터 원본을 만들고 [게이트웨이에 바인딩](/rest/api/power-bi/datasets/bindtogateway)을 사용하여 수동으로 데이터 세트를 게이트웨이에 바인딩합니다.
 
-바인딩될 수 있는 게이트웨이를 검색하려면 [게이트웨이 검색](https://docs.microsoft.com/rest/api/power-bi/datasets/discovergateways)을 사용합니다.
+바인딩될 수 있는 게이트웨이를 검색하려면 [게이트웨이 검색](/rest/api/power-bi/datasets/discovergateways)을 사용합니다.

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: reference
 ms.date: 05/25/2018
-ms.openlocfilehash: e7f7a94eb94054510046e5e873281cf68eb3bf3d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9624195458c965a652b889089ce7ef8521281c95
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79079373"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748934"
 ---
 # <a name="power-bi-rest-api-reference"></a>Power BI REST API 참조
 
@@ -30,6 +30,6 @@ Power BI REST API는 다음과 같은 작업을 제공합니다.
 * 행 작업: 행을 추가하고 행을 삭제합니다.
 * 그룹 작업: 그룹을 가져옵니다.
 
-Power BI REST API에 대한 자세한 내용은 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)를 참조하세요.
+Power BI REST API에 대한 자세한 내용은 [Power BI REST API](/rest/api/power-bi/)를 참조하세요.
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

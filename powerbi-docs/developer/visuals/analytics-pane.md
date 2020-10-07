@@ -9,23 +9,23 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 06/18/2019
-ms.openlocfilehash: e9d1479b596f563edc37f0c7a72b29c3343fed1e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5f8b2a54ac7882c02f1ece63ce1362c97ad027af
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239910"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749026"
 ---
 # <a name="the-analytics-pane-in-power-bi-visuals"></a>Power BI 시각적 개체의 분석 창
 
-**분석** 창은 2018년 11월에 [네이티브 시각적 개체](https://docs.microsoft.com/power-bi/desktop-analytics-pane)에 대해 도입되었습니다.
+**분석** 창은 2018년 11월에 [네이티브 시각적 개체](../../transform-model/desktop-analytics-pane.md)에 대해 도입되었습니다.
 이 문서에서는 API v2.5.0을 사용하는 Power BI 시각적 개체가 **분석 창**에 해당 속성을 제공하고 관리할 수 있는 방법을 설명합니다.
 
 ![분석 창](media/analytics-pane/visualization-pane-analytics-tab.png)
 
 ## <a name="manage-the-analytics-pane"></a>분석 창 관리
 
-[**서식** 창](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial-format-options)에서 속성을 관리하는 것과 동일한 방법으로, 시각적 개체의 **capabilities.json** 파일에서 개체를 정의하여 *분석* 창을 관리합니다.
+[**서식** 창](./custom-visual-develop-tutorial-format-options.md)에서 속성을 관리하는 것과 동일한 방법으로, 시각적 개체의 **capabilities.json** 파일에서 개체를 정의하여 *분석* 창을 관리합니다.
 
 **분석** 창의 차이점은 다음과 같습니다.
 

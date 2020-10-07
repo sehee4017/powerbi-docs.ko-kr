@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: 76947b1e311bbd1a21e09ce39461a70bed61d926
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: d8ab94bd33aa2f0674f6dc45a93da0d2f42b1647
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79079603"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749302"
 ---
 # <a name="data-model-versioning"></a>데이터 모델 버전 관리
 
@@ -39,4 +39,4 @@ Power BI 데이터 모델 등 OData 서비스에서 노출하는 데이터 모�
 OData 데이터 모델 표준에 대한 자세한 내용은 [OData 버전 4.0 1부: 프로토콜 및 Errata 02](https://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html)를 참조하세요.  
   
 ## <a name="see-also"></a>참고 항목
-[Power BI REST API 개요](https://docs.microsoft.com/rest/api/power-bi/)
+[Power BI REST API 개요](/rest/api/power-bi/)
