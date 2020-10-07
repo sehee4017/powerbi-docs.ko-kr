@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 11/01/2017
 ms.author: maggies
-ms.openlocfilehash: b60c56e7b8dfde9c46a784c5f57ca07ca9ca3fa0
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d4890cf864334951982a8b6d7acc8fc8338016d6
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859178"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634967"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Power BI 보고서를 사용하도록 Kerberos 구성
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -29,13 +29,17 @@ Power BI Report Server는 Power BI 보고서를 호스트하는 기능을 포함
 ## <a name="error-running-report"></a>오류 실행 보고서
 Report Server가 제대로 구성되지 않은 경우 다음과 같은 오류가 나타날 수 있습니다.
 
-    Something went wrong.
+```output
+Something went wrong.
 
-    We couldn't run the report because we couldn't connect to its data source. The report or data source might not be configured correctly. 
+We couldn't run the report because we couldn't connect to its data source. The report or data source might not be configured correctly. 
+```
 
 기술 세부 정보 내에서 다음과 같은 메시지가 표시됩니다.
 
-    We couldn't connect to the Analysis Services server. The server forcibly closed the connection. To connect as the user viewing the report, your organization must have configured Kerberos constrained delegation.
+```output
+We couldn't connect to the Analysis Services server. The server forcibly closed the connection. To connect as the user viewing the report, your organization must have configured Kerberos constrained delegation.
+```
 
 ![Analysis Services 서버 연결 문제와 관련된 오류 메시지를 보여 주는 Power BI 보고서의 스크린샷.](media/configure-kerberos-powerbi-reports/powerbi-report-config-error.png)
  
@@ -91,7 +95,9 @@ Report Server가 도메인 사용자 계정을 사용하도록 구성된 경우 
 
 두 개의 SPN을 만드는 것이 좋습니다. 하나는 NetBIOS 이름을 갖고 다른 하나는 FQDN(정규화된 도메인 이름)을 갖습니다. SPN은 다음과 같은 형식이어야 합니다.
 
-    <Service>/<Host>:<port>
+```console
+<Service>/<Host>:<port>
+```
 
 Power BI Report Server는 HTTP 서비스를 사용합니다. HTTP SPN의 경우 포트를 나열하지 않습니다. 여기에서 관심이 있는 서비스는 HTTP입니다. SPN의 호스트는 URL에서 사용하는 이름이 됩니다. 일반적으로 컴퓨터 이름입니다. 부하 분산 장치 뒤에 있다면 가상 이름일 수 있습니다.
 
@@ -119,13 +125,17 @@ SetSPN 도구를 사용하여 SPN을 추가할 수 있습니다. 컴퓨터 계�
 
 FQDN과 NetBIOS SPN의 경우 컴퓨터 계정에 SPN을 배치하면 contosoreports라는 가상 URL을 사용하는 경우 다음과 비슷하게 표시됩니다.
 
-      Setspn -a HTTP/contosoreports.contoso.com ContosoRS
-      Setspn -a HTTP/contosoreports ContosoRS
+```console
+Setspn -a HTTP/contosoreports.contoso.com ContosoRS
+Setspn -a HTTP/contosoreports ContosoRS
+```
 
 FQDN과 NetBIOS SPN의 경우 도메인 사용자 계정에 SPN을 배치하면 SPN의 호스트에 컴퓨터 이름을 사용하는 경우 다음과 비슷하게 표시됩니다.
 
-      Setspn -a HTTP/ContosoRS.contoso.com RSService
-      Setspn -a HTTP/ContosoRS RSService
+```console
+Setspn -a HTTP/ContosoRS.contoso.com RSService
+Setspn -a HTTP/ContosoRS RSService
+```
 
 ## <a name="spns-for-the-analysis-services-service"></a>Analysis Services 서비스의 SPN
 Analysis Services의 SPN은 Power BI Report Server를 사용한 작업과 비슷합니다. 명명된 인스턴스가 있는 경우 SPN의 형식은 약간 다릅니다.
@@ -146,13 +156,17 @@ SetSPN 도구를 사용하여 SPN을 추가할 수 있습니다. 이 예제에�
 
 FQDN과 NetBIOS SPN의 경우 컴퓨터 계정에 SPN을 배치하면 다음과 비슷하게 표시됩니다.
 
-    Setspn -a MSOLAPSvc.3/ContosoAS.contoso.com ContosoAS
-    Setspn -a MSOLAPSvc.3/ContosoAS ContosoAS
+```console
+Setspn -a MSOLAPSvc.3/ContosoAS.contoso.com ContosoAS
+Setspn -a MSOLAPSvc.3/ContosoAS ContosoAS
+```
 
 FQDN과 NetBIOS SPN의 경우 도메인 사용자 계정에 SPN을 배치하면 다음과 비슷하게 표시됩니다.
 
-    Setspn -a MSOLAPSvc.3/ContosoAS.contoso.com OLAPService
-    Setspn -a MSOLAPSvc.3/ContosoAS OLAPService
+```console
+Setspn -a MSOLAPSvc.3/ContosoAS.contoso.com OLAPService
+Setspn -a MSOLAPSvc.3/ContosoAS OLAPService
+```
 
 ## <a name="spns-for-the-sql-browser-service"></a>SQL Browser 서비스의 SPN
 Analysis Services 명명된 인스턴스가 있는 경우 브라우저 서비스의 SPN이 있는지 확인해야 합니다. Analysis Services에 대해 고유합니다.
@@ -164,8 +178,10 @@ SQL Browser의 경우 MSOLAPDisco.3이라는 서비스를 사용합니다. SPN�
 
 Analysis Services SPN의 예는 다음과 같습니다.
 
-    MSOLAPDisco.3/ContosoAS.contoso.com
-    MSOLAPDisco.3/ContosoAS
+```console
+MSOLAPDisco.3/ContosoAS.contoso.com
+MSOLAPDisco.3/ContosoAS
+```
 
 SPN의 배치는 Power BI Report Server에 언급된 작업과 비슷합니다. 여기서 차이점은 SQL Browser가 항상 로컬 시스템 계정으로 실행된다는 것입니다. 즉, 해당 SPN은 컴퓨터 계정에서 지속됩니다. 
 
@@ -174,8 +190,10 @@ SetSPN 도구를 사용하여 SPN을 추가할 수 있습니다. 이 예제에�
 
 FQDN과 NetBIOS SPN의 경우 컴퓨터 계정에 SPN을 배치하면 다음과 비슷하게 표시됩니다.
 
-    Setspn -a MSOLAPDisco.3/ContosoAS.contoso.com ContosoAS
-    Setspn -a MSOLAPDisco.3/ContosoAS ContosoAS
+```console
+Setspn -a MSOLAPDisco.3/ContosoAS.contoso.com ContosoAS
+Setspn -a MSOLAPDisco.3/ContosoAS ContosoAS
+```
 
 자세한 내용은 [SQL Server Browser 서비스의 SPN이 필요합니다.](https://support.microsoft.com/kb/950599)를 참조하세요.
 

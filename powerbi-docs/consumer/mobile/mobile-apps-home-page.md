@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 12/16/2019
 ms.author: painbar
-ms.openlocfilehash: 16d62af90855c99f9d50c35dd411ef50f2a9a4e6
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: d06478acf53ead63b48afcf58cb2316ff4c5a3bc
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565172"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635312"
 ---
 # <a name="a-quick-tour-of-the-mobile-app-home-page"></a>모바일 앱 홈페이지 둘러보기
 이 둘러보기에서는 Power BI 모바일 앱의 홈페이지와 필요한 항목에 빠르게 액세스할 수 있도록 제공되는 탐색 도우미를 살펴봅니다.
@@ -52,7 +52,7 @@ Power BI Mobile 앱을 열면 자주 또는 최근에 방문한 보고서, 대�
 
 페이지 맨 아래에는 탐색 모음이 있습니다.
 
-![작업 피드](./media/mobile-apps-home-page/powerbi-mobile-app-navbar.png)
+![탐색 모음](./media/mobile-apps-home-page/powerbi-mobile-app-navbar.png)
 
 탐색 모음을 통해 다음 항목을 빠르게 액세스할 수 있습니다.
 

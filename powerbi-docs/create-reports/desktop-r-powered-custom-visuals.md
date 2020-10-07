@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7abbfce4254359c95efe1ef91511672b0aa98be6
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e4e65c26c9d1b5598ecf6b523649dc70722b7d79
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229366"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634990"
 ---
 # <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>Power BI에서 R 지원 Power BI 시각적 개체 사용
 
@@ -125,20 +125,25 @@ Power BI 팀은 사용자에게 도달하기 전에 이러한 문제를 완화�
 
 3. 모든 R 콘솔을 사용하여 R 패키지를 직접 설치합니다. 이 방법의 단계는 다음과 같습니다.
 
-   a.  R 지원 시각적 개체 설치 스크립트를 다운로드하고 로컬 드라이브에 해당 파일을 저장합니다.
+   a. R 지원 시각적 개체 설치 스크립트를 다운로드하고 로컬 드라이브에 해당 파일을 저장합니다.
 
-   b.  R 콘솔에서 다음을 실행합니다.
+   b. R 콘솔에서 다음을 실행합니다.
 
-       source("C:/Users/david/Downloads/ScriptInstallPackagesForForecastWithWorkarounds.R")
+      ```console
+      source("C:/Users/david/Downloads/ScriptInstallPackagesForForecastWithWorkarounds.R")
+      ```
 
    일반적인 기본 설치 위치는 다음과 같습니다.
 
+   ```console
        c:\Program Files\R\R-3.3.x\bin\x64\Rterm.exe (for CRAN-R)
        c:\Program Files\R\R-3.3.x\bin\x64\Rgui.exe (for CRAN-R)
        c:\Program Files\R\R-3.3.x\bin\R.exe (for CRAN-R)
        c:\Program Files\Microsoft\MRO-3.3.x\bin\R.exe (for MRO)
        c:\Program Files\Microsoft\MRO-3.3.x\bin\x64\Rgui.exe (for MRO)
        c:\Program Files\RStudio\bin\rstudio.exe (for RStudio)
+   ```
+
 4. 이전 단계가 작동하지 않으면 다음과 같이 하세요.
 
    a. **R 스튜디오**를 사용하고 위의 3.b항에 설명된 단계를 따릅니다 (R 콘솔에서 스크립트 줄 실행).

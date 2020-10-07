@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 6b0b2ae2ca98b7dd3b9940319fc68a7effba4782
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 56a181da60e2a20c08a8c03dd826276d350ec81f
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349773"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635197"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Power BI의 보고서 편집기 둘러보기
 
@@ -122,9 +122,14 @@ Power BI 서비스의 분석 창에서 시각적 개체에 동적 참조선을 �
 ## <a name="5-the-fields-pane"></a>5. 필드 창
 필드 창은 시각화를 만드는 데 사용할 수 있는 데이터의 테이블, 폴더 및 필드를 표시합니다.
 
-|  |  |
-| --- | --- |
-| ![필드 창](media/service-the-report-editor-take-a-tour/power-bi-fields-list.png) |<ul><li>필드를 페이지로 끌어 새 시각화를 시작합니다.  필드를 기존 시각화로 끌어 필드를 해당 시각화에 추가할 수도 있습니다.<br><br></li> <li>필드 옆에 있는 확인 표시를 추가하면 Power BI가 해당 필드를 활성(또는 새) 시각화에 추가합니다. 또한 해당 필드에 배치할 버킷도 결정됩니다.  예를 들어 필드가 범례, 축 또는 값에서 사용되어야 하나요? Power BI가 최적 사항을 제안하며 필요한 경우 사용자가 버킷에서 해당 항목을 움직일 수 있습니다. <br><br></li><li>어떤 방법을 사용하든 선택한 각 필드가 보고서 편집기의 시각화 창에 추가됩니다.</li></ul> |
+:::row:::
+    :::column:::
+        ![필드 창](media/service-the-report-editor-take-a-tour/power-bi-fields-list.png)
+    :::column-end:::
+    :::column:::
+        <ul><li>필드를 페이지로 끌어 새 시각화를 시작합니다.  필드를 기존 시각화로 끌어 필드를 해당 시각화에 추가할 수도 있습니다.<br><br></li> <li>필드 옆에 있는 확인 표시를 추가하면 Power BI가 해당 필드를 활성(또는 새) 시각화에 추가합니다. 또한 해당 필드에 배치할 버킷도 결정됩니다.  예를 들어 필드가 범례, 축 또는 값에서 사용되어야 하나요? Power BI가 최적 사항을 제안하며 필요한 경우 사용자가 버킷에서 해당 항목을 움직일 수 있습니다. <br><br></li><li>어떤 방법을 사용하든 선택한 각 필드가 보고서 편집기의 시각화 창에 추가됩니다.</li></ul>
+    :::column-end:::
+:::row-end:::
 
 Power BI Desktop에는 필드 표시/숨기기, 계산 추가 등의 옵션도 있습니다.
 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/22/2020
+ms.date: 09/30/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: d718b83e5c6ee5966bb882bcbf37feb58657f7cb
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 2464d95fd9d2cc7a5e3bb42479c1ba96bf5285a8
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525403"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600540"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop으로 이전 월별 업데이트
 
@@ -1392,7 +1392,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 ### <a name="reporting"></a>보고
 
 * 페이지에서 개체를 정렬하기 위한 스마트 안내선  [[동영상]](https://youtu.be/AHNlkjRFdYI?t=11)  [[문서]](../create-reports/power-bi-reports-filters-and-highlighting.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) 
-* ArcGIS Maps for Power BI 업데이트  [[동영상]](https://youtu.be/AHNlkjRFdYI?t=84)  [[문서]](../visuals/power-bi-visualization-arcgis.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#arcGIS) 
+* ArcGIS Maps for Power BI 업데이트  [[동영상]](https://youtu.be/AHNlkjRFdYI?t=84)  [[문서]](../visuals/power-bi-visualizations-arcgis.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#arcGIS) 
 * 필드 목록 접근성 지원 [[동영상]](https://youtu.be/AHNlkjRFdYI?t=464)  [[문서]](../create-reports/desktop-report-view.md#copy-and-paste-between-reports)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)
 * 페이지에서 개체의 탭 순서 설정 [[동영상]](https://youtu.be/AHNlkjRFdYI?t=643)   [[문서]](../create-reports/power-bi-reports-filters-and-highlighting.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#tabOrder)
 * 단추 시각적 개체 도구 설명 [[동영상]](https://youtu.be/AHNlkjRFdYI?t=884)  [[문서]](../create-reports/desktop-accessibility-overview.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#tooltips)

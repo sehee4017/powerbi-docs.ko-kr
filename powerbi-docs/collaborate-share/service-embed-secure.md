@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: e1925c57869a58f111b77c6a50a1289224440ecb
-ms.sourcegitcommit: 01b5fb05f723eab2557e0e420bfde23197987a96
+ms.openlocfilehash: 52593cbcbdc0a67709735a06eca493fefb18e1a0
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "86301002"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633702"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>보안 포털 또는 웹 사이트에 보고서 포함
 
@@ -60,10 +60,10 @@ Power BI 서비스에서 포함된 보고서를 액세스해야 하는 사용자
 
 포함 URL의 입력 설정을 사용하여 사용자 환경을 사용자 지정할 수 있습니다. 제공된 iFrame에서 URL의 **src** 설정을 업데이트할 수 있습니다.
 
-| 속성  | 설명  |  |  |  |
-|--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|---|---|
-| pageName  | **pageName** 쿼리 문자열 매개 변수를 사용하여 어떤 보고서 페이지를 열지 설정할 수 있습니다. 아래 그림과 같이 Power BI 서비스에 있는 보고서를 볼 때 보고서 URL의 끝에서 이 값을 확인할 수 있습니다. |  |  |  |
-| URL 필터  | Power BI UI로부터 받은 포함 URL의 [URL 필터](service-url-filters.md)를 사용하여 포함된 내용을 필터링할 수 있습니다. 이러한 방식으로 기본 HTML 및 JavaScript 환경만으로 로우 코드 통합을 빌드할 수 있습니다.  |  |  |  |
+| 속성  | 설명  |
+|-----------|--------------|
+| pageName  | **pageName** 쿼리 문자열 매개 변수를 사용하여 어떤 보고서 페이지를 열지 설정할 수 있습니다. 아래 그림과 같이 Power BI 서비스에 있는 보고서를 볼 때 보고서 URL의 끝에서 이 값을 확인할 수 있습니다. |
+| URL 필터  | Power BI UI로부터 받은 포함 URL의 [URL 필터](service-url-filters.md)를 사용하여 포함된 내용을 필터링할 수 있습니다. 이러한 방식으로 기본 HTML 및 JavaScript 환경만으로 로우 코드 통합을 빌드할 수 있습니다.  |
 
 ## <a name="set-which-page-opens-for-an-embedded-report"></a>포함된 보고서에 대해 열리는 페이지를 설정합니다. 
 

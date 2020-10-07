@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 05/07/2020
 ms.author: davidi
-ms.openlocfilehash: e2615915503b0eb6d9d1ee08bd2a1fa8599bcf8c
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 336dbad3ac77fb333b52cd3f4c4c0b104573314a
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86953010"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633541"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Power BI Desktop에서 보고서를 만들기 위한 팁과 힌트
 데이터를 최대한 활용하려면 추가 도움이 필요하기도 합니다. Microsoft Power BI Desktop *및* 파워 피벗 추가 기능이 사용되고 파워 쿼리가 설치 및 사용되는 Microsoft Excel 2016 또는 Excel 2013 Pro-Plus 버전에서 보고서를 만들 때 사용할 수 있는 몇 가지 팁과 힌트를 모아두었습니다. 
@@ -44,7 +44,9 @@ Power BI Desktop에 있는 쿼리 편집기의 탐색기에서 쿼리 중 하나
 ## <a name="reference-lines-in-your-report"></a>보고서의 참조선
 Power BI Desktop에서 계산 열을 사용하여 참조선을 정의할 수 있습니다. 참조선을 만들 테이블 및 열을 식별합니다. 리본에서 "새 열"을 선택하고 수식 입력줄에서 다음 수식을 입력합니다.
 
-    Target Value = 100
+```console
+Target Value = 100
+```
 
 이 계산 열은 사용된 위치와 관계없이 값 100을 반환합니다. 필드 목록에 새 열이 표시됩니다. 대상 값 계산 열을 꺾은선형 차트에 추가하여 해당 특정 참조선과 모든 계열이 어떻게 관련되는지를 표시합니다. 
 
@@ -66,7 +68,9 @@ Power BI 서비스 또는 Desktop에서 항상 특정 위도 및 경도 위치�
 ## <a name="better-geocoding-with-more-specific-locations"></a>보다 구체적인 위치를 사용하여 지오코딩 향상
 경우에 따라서는 매핑을 위한 데이터 범주 설정만으로는 부족할 수 있습니다. Power BI Desktop의 쿼리 편집기를 사용하여 주소와 같은 보다 구체적인 위치를 만듭니다. 열 추가 기능을 사용하여 사용자 지정 열을 만듭니다. 그런 다음, 다음과 같이 원하는 위치를 만듭니다. 
 
-    = [Field1] & " " & [Field2]
+```console
+= [Field1] & " " & [Field2]
+```
 
 그런 다음 지도 시각화에서 이 결과 필드를 사용합니다. 이 기능은 데이터 집합에 공통적인 배송지 주소 필드에서 주소를 만드는 데 매우 유용합니다. 한 가지 주의할 점은 연결은 텍스트 필드에만 작동한다는 사실입니다. 필요한 경우 주소를 만드는 데 번지를 사용하기 전에 번지를 텍스트 데이터 형식으로 변환합니다.
 
@@ -77,11 +81,13 @@ Power BI Desktop에서 히스토그램을 만드는 방법에는 여러 가지�
 
 버킷을 정의하여 히스토그램 만들기 - 히스토그램을 만들려는 필드가 포함된 쿼리를 결정합니다. 쿼리에 대한 "참조" 옵션을 사용하여 새 쿼리를 만들고 이름을 "FieldName"으로 지정합니다. 이제 규칙을 사용하여 버킷을 정의합니다. 열 추가 리본에서 사용자 지정 열 추가 옵션을 사용하여 사용자 지정 규칙을 만듭니다. 간단한 버킷팅 규칙은 다음과 같을 수 있습니다.
 
-    if([FieldName] \< 2) then "\<2 min" else
-    if([FieldName] \< 5) then "\<5 min" else
-    if([FieldName] \< 10) then "\<10 min" else
-    if([FieldName] \< 30) then "\<30 min" else
-    "longer")
+```console
+if([FieldName] \< 2) then "\<2 min" else
+if([FieldName] \< 5) then "\<5 min" else
+if([FieldName] \< 10) then "\<10 min" else
+if([FieldName] \< 30) then "\<30 min" else
+"longer")
+```
 
 결과 집계 열의 데이터 형식이 숫자인지 확인합니다. 이제 가장 간단한 히스토그램에 설명된 그룹화 기술을 사용하여 히스토그램을 만들 수 있습니다. 이 옵션은 더 많은 데이터 요소를 처리하지만 여전히 브러시에는 도움이 되지 않습니다.
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: ba582003008e1355156b189b5753f4e4c0a8353c
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 5ef68bac75daf25e48cbd4d24279627d4b494764
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861478"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634369"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Windows 10용 Power BI 모바일 앱 시작
 Windows 10용 Power BI Mobile 앱은 태블릿이나 휴대폰으로 Power BI를 가져옵니다. 터치 사용이 가능한 최신 모바일 방식으로 비즈니스 정보에 액세스할 수 있습니다. 어디서든 [Windows 시작 화면](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)에서 회사 대시보드를 보고 조작할 수 있습니다.
@@ -106,7 +106,7 @@ Power BI 대시보드 샘플을 검토하고 조작할 수 있지만, 샘플로 
 
 자세한 내용은 [Power BI 모바일 앱의 즐겨찾기](mobile-apps-favorites.md)를 읽어보세요.
 
-## <a name="next-steps"></a>다음 단계
+## <a name="other-tasks"></a>기타 작업
 다음은 Power BI의 대시보드 및 보고서나 Reporting Services 웹 포털의 Reporting Services 모바일 보고서 및 KPI를 사용하여 Windows 10 디바이스용 Power BI 앱에서 수행할 수 있는 다른 몇 가지 작업입니다.
 
 ### <a name="power-bi-dashboards-and-reports"></a>Power BI 대시보드 및 보고서

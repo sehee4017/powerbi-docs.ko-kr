@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: 3ac4c28b3f07cb1a19e241089b54ee4594a7a7dd
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b36a5f819ba39d5a77dafc670e440f3577014570
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79378297"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635128"
 ---
 # <a name="automatic-retention-policy-for-real-time-data"></a>실시간 데이터에 대한 자동 보존 정책
 
@@ -26,5 +26,7 @@ Power BI 서비스의 자동 보존 정책은 쿼리 문자열 매개 변수로,
 </center>
 
 데이터 세트를 처음 만들 때 보존 정책이 사용하도록 설정됩니다. POST 데이터 세트에 “기본 보존 정책” 쿼리 매개 변수를 추가하고 *basicFIFO*와 동일하게 설정하기만 하면 됩니다.  
-  
-    POST https://api.powerbi.com/v1.0/myorg/datasets?defaultRetentionPolicy={None | basicFIFO}
+
+```console
+POST https://api.powerbi.com/v1.0/myorg/datasets?defaultRetentionPolicy={None | basicFIFO}
+```

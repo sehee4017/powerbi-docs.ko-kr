@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 07/13/2020
-ms.openlocfilehash: 8e3ca6d9615a348fec928f13a561fbb97e719d6a
-ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
+ms.openlocfilehash: f024959c0d7e8bd0b51893a277161c67b5f4dfc6
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "88160375"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746128"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>파일로 Power BI 보고서 내보내기(미리 보기)
 
@@ -22,7 +22,7 @@ ms.locfileid: "88160375"
 * **.png**
     * .png로 내보내는 경우 여러 페이지가 포함된 보고서는 .zip 파일로 압축됩니다.
     * .zip에 포함된 각 파일은 보고서 페이지를 나타냅니다.
-    * 페이지 이름은 [페이지 가져오기](https://docs.microsoft.com/rest/api/power-bi/reports/getpages) 또는 [그룹의 페이지 가져오기](https://docs.microsoft.com/rest/api/power-bi/reports/getpagesingroup) API의 반환값과 동일합니다.
+    * 페이지 이름은 [페이지 가져오기](/rest/api/power-bi/reports/getpages) 또는 [그룹의 페이지 가져오기](/rest/api/power-bi/reports/getpagesingroup) API의 반환값과 동일합니다.
 
 ## <a name="usage-examples"></a>사용 예
 
@@ -38,17 +38,17 @@ API를 사용하기 전에 다음 [관리자 테넌트 설정](../../admin/servi
 * **PowerPoint 프레젠테이션 또는 PDF 문서로 보고서 내보내기** - 기본적으로 사용하도록 설정됩니다.
 * **이미지 파일로 보고서 내보내기** - *.png*에만 필요하며 기본적으로 사용되지 않습니다.
 
-이 API는 비동기식입니다. [exportToFile](https://docs.microsoft.com/rest/api/power-bi/reports/exporttofile) API를 호출하면 내보내기 작업을 트리거합니다. 내보내기 작업을 트리거한 후 [폴링](https://docs.microsoft.com/rest/api/power-bi/reports/getexporttofilestatus)을 사용하여 완료될 때까지 작업을 추적합니다.
+이 API는 비동기식입니다. [exportToFile](/rest/api/power-bi/reports/exporttofile) API를 호출하면 내보내기 작업을 트리거합니다. 내보내기 작업을 트리거한 후 [폴링](/rest/api/power-bi/reports/getexporttofilestatus)을 사용하여 완료될 때까지 작업을 추적합니다.
 
 폴링을 수행하는 동안 API는 완료된 작업량을 나타내는 숫자를 반환합니다. 각 내보내기 작업의 작업은 보고서에 포함된 페이지 수에 따라 계산됩니다. 모든 페이지는 가중치가 동일합니다. 예를 들어 10개 페이지를 포함하는 보고서를 내보내고 폴링을 통해 70이 반환되는 경우 API가 내보내기 작업에서 10개 페이지 중 7개를 처리했다는 의미입니다.
 
-내보내기가 완료되면 폴링 API 호출이 파일을 가져오기 위한 [Power BI URL](https://docs.microsoft.com/rest/api/power-bi/reports/getfileofexporttofile)을 반환합니다. URL은 24시간 동안 제공됩니다.
+내보내기가 완료되면 폴링 API 호출이 파일을 가져오기 위한 [Power BI URL](/rest/api/power-bi/reports/getfileofexporttofile)을 반환합니다. URL은 24시간 동안 제공됩니다.
 
 ## <a name="supported-features"></a>지원되는 기능
 
 ### <a name="selecting-which-pages-to-print"></a>인쇄할 페이지 선택
 
-[페이지 가져오기](https://docs.microsoft.com/rest/api/power-bi/reports/getpages) 또는 [그룹의 페이지 가져오기](https://docs.microsoft.com/rest/api/power-bi/reports/getpagesingroup) 반환 값에 따라 인쇄할 페이지를 지정합니다. 내보낼 페이지의 순서를 지정할 수도 있습니다.
+[페이지 가져오기](/rest/api/power-bi/reports/getpages) 또는 [그룹의 페이지 가져오기](/rest/api/power-bi/reports/getpagesingroup) 반환 값에 따라 인쇄할 페이지를 지정합니다. 내보낼 페이지의 순서를 지정할 수도 있습니다.
 
 ### <a name="bookmarks"></a>책갈피
 

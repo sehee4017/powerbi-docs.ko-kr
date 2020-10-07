@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/17/2020
-ms.openlocfilehash: 1e2426b12bf6205e5ed2fc6cfb0540c67740df7d
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: 762cc2d3d170f5418616da46806f8a445490ee8d
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813626"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635220"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Power BI 임베디드 분석의 용량 및 SKU
 
@@ -68,10 +68,9 @@ Power BI Premium은 두 가지 SKU, 즉 *P*와 *EM*을 제공합니다.
 
 이 표에서 사용자 지정 앱은 포함된 분석을 사용하여 만든 웹앱을 말합니다. (JavaScript 또는 .NET SDK나 REST API를 사용하여) 사용자 지정 웹앱에 개발자로 포함하는 경우 UX를 제어하고 사용자 지정할 수 있습니다. Power BI 서비스, Power BI Mobile 등의 다른 포함 옵션을 사용하는 경우에는 이 기능을 사용할 수 없습니다.
 
-
-|         |         |         |
-|---------|---------|---------|
-|**시나리오**</br><p></p>|**Azure**</br>(SKU)|**Office**</br>(P 및 EM SKU)|
+| 시나리오 | Azure   | Office          |
+|----------|---------|-----------------|
+|          | (SKU) | (P 및 EM SKU) |
 |[고객에 대한 콘텐츠 포함](embed-sample-for-customers.md)</br>(앱이 데이터 소유)     |✔        |✔        |
 |[조직에 포함](embed-sample-for-your-organization.md)</br>(사용자가 데이터 소유)     |✖        |✔         |
 |Microsoft 365 앱</br>(이전에는 Office 365 앱이라고 함)<ul><li>[에 포함](../../collaborate-share/service-embed-report-microsoft-teams.md)</li><li>[SharePoint에 포함](../../collaborate-share/service-embed-report-spo.md)</li></ul>     |✖        |✔        |

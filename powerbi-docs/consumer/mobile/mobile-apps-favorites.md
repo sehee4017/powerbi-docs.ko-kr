@@ -8,17 +8,17 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: 553beb5f30625ce416ea778ba6b5fde63526065c
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 3a89f6e050684e193ea915b2d6bd26acb7fd85ab
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90856474"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635910"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 즐겨찾기 만들기 및 보기
 적용 대상:
 
-| ![iPhone](./media/mobile-apps-favorites/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-favorites/ipad-logo-50-px.png) | ![Android 휴대폰](./media/mobile-apps-favorites/android-phone-logo-50-px.png) | ![Android 태블릿](./media/mobile-apps-favorites/android-tablet-logo-50-px.png) | ![Android 태블릿](./media/mobile-apps-favorites/win-10-logo-50-px.png) |
+| ![iPhone](./media/mobile-apps-favorites/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-favorites/ipad-logo-50-px.png) | ![Android 휴대폰](./media/mobile-apps-favorites/android-phone-logo-50-px.png) | ![Android 태블릿](./media/mobile-apps-favorites/android-tablet-logo-50-px.png) | ![Windows 10 디바이스](./media/mobile-apps-favorites/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Android 휴대폰 |Android 태블릿 |Windows 10 디바이스 |
 

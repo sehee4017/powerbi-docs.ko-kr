@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: 978a257ccd5916f14bc3dfa6916f9315b755c12e
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 2a0c326902063759d10f49f3c5d745c22f477ec2
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860259"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634806"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Surface Hub 및 Windows 10 디바이스에서 프레젠테이션 모드로 보고서 및 대시보드 보기
 프레젠테이션 모드를 사용하여 Windows 10 디바이스 및 Surface Hub에서 보고서와 대시보드를 전체 화면으로 표시할 수 있습니다. 프레젠테이션 모드는 모임이나 회의 또는 사무실의 전용 프로젝터에서 Power BI를 표시하거나 작은 화면 공간을 최대화하는 데 유용합니다.
@@ -36,8 +36,8 @@ Power BI 모바일 앱에서 **전체 화면** 아이콘을 탭하여 전체 화
 
 도구 모음에서 탭하여 수행할 수 있는 작업은 다음과 같습니다.
 
-|||
-|-|-|
+| 아이콘 | 작업 |
+|------|--------|
 |![뒤로 아이콘을 탭하여](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png)|이전 페이지로 **돌아갑니다**. 아이콘을 길게 탭하면 이동 경로 창이 열려 보고서나 대시보드가 있는 폴더로 이동할 수 있습니다.|
 |![페이지 매김 아이콘](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png)|프레젠테이션에서 보고서의 다른 페이지로 **페이지를 전환**합니다.|
 |![책갈피 아이콘](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-bookmarks-icon.png)|**책갈피를 적용**하여 해당 책갈피가 캡처하는 데이터의 특정 보기를 표시합니다. 개인 책갈피와 보고서 책갈피를 모두 적용할 수 있습니다.|

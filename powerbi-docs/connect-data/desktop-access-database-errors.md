@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: f27bfb97d175c962d6eaf281ac061fdc60765781
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 6d3279a8fa8421dbe466d7d165e1cb3d96ab926f
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225103"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634760"
 ---
 # <a name="troubleshoot-importing-access-and-excel-xls-files-in-power-bi-desktop"></a>Power BI Desktop에서 Access 및 Excel .xls 파일 가져오기 문제 해결
 
@@ -74,10 +74,12 @@ Access 데이터베이스 엔진 비트 버전을 모두 설치하려면 다음 
 1. [다운로드 페이지](https://www.microsoft.com/download/details.aspx?id=13255)에서 Access 데이터베이스 엔진 비트 버전을 모두 설치합니다. 
 
 1. */passive* 스위치를 사용하여 각 버전의 Access 데이터베이스 엔진을 실행합니다. 예:
-   
-       c:\users\joe\downloads\AccessDatabaseEngine.exe /passive
-   
-       c:\users\joe\downloads\AccessDatabaseEngine_x64.exe /passive
+
+   ```console
+   c:\users\joe\downloads\AccessDatabaseEngine.exe /passive
+
+   c:\users\joe\downloads\AccessDatabaseEngine_x64.exe /passive
+   ```
 
 ## <a name="situation-3-trouble-using-access-or-xls-files-with-a-microsoft-365-subscription"></a>상황 3: Microsoft 365 구독으로 Access 또는 XLS 파일을 사용하는 문제
 

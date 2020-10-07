@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: ee7efb9dd8b81b5ea1df308f9cacc0d12db308ca
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 054d7a4f96c83b97fbd5e96e7a3cf66d58a74823
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91528255"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635933"
 ---
 # <a name="add-drill-down-support"></a>드릴다운 지원 추가
 
@@ -26,7 +26,9 @@ Power BI 드릴다운에 대한 자세한 내용은 [여기](./../../consumer/en
 
 시각적 개체에서 드릴다운을 지원하려면 하나의 속성이 있는 "드릴다운"이라는 `capabilities.json`에 새 필드를 추가합니다.
 
-    *roles - the name of the dataRole you want to enable drill-down on.
+```json
+*roles - the name of the dataRole you want to enable drill-down on.
+```
 
 > [!NOTE]
 > 드릴다운 dataRole은 `Grouping` 형식이어야 합니다.

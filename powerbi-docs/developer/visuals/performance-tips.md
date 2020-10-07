@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 04/20/2020
-ms.openlocfilehash: 7ebc02b2c459517957425e78438e12e89dc2e1bb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c22c634ef59a1aae2994dcacaae62dc8ebed7474
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82196563"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746081"
 ---
 # <a name="how-to-build-a-high-performance-power-bi-visual"></a>고성능 Power BI 시각적 개체를 빌드하는 방법
 이 문서에서는 시각적 개체를 렌더링할 때 개발자가 고성능을 달성할 수 있는 방법에 대한 기술을 설명합니다. 
@@ -104,7 +104,7 @@ JQuery의 `show`, `hide`, `addClass` 등과 같은 함수에 대한 대체 예�
 ### <a name="use-canvas-or-webgl"></a>캔버스 또는 WebGL 사용 
 애니메이션을 반복적으로 사용하려면 SVG 대신 **Canvas** 또는 **WebGL**을 사용하는 것이 좋습니다. SVG와 달리 이러한 옵션을 사용하면 성능이 콘텐츠가 아니라 크기에 따라 결정됩니다. 
 
-[SVG 및 canvas: 선택 방법](https://msdn.microsoft.com/library/gg193983(v=vs.85).aspx)에서 차이점에 대해 자세히 알아볼 수 있습니다. 
+[SVG 및 canvas: 선택 방법](/previous-versions/windows/internet-explorer/ie-developer/samples/gg193983(v=vs.85))에서 차이점에 대해 자세히 알아볼 수 있습니다. 
 
 ### <a name="use-requestanimationframe-instead-of-settimeout"></a>setTimeout 대신 requestAnimationFrame 사용 
 [requestAnimationFrame](https://www.w3.org/TR/animation-timing/)을 사용하여 화상 애니메이션을 업데이트하는 경우 브라우저에서 다른 다시 그리기를 호출하기 **전에** 애니메이션 함수가 호출됩니다.
@@ -113,4 +113,4 @@ JQuery의 `show`, `hide`, `addClass` 등과 같은 함수에 대한 대체 예�
 
 ## <a name="next-steps"></a>다음 단계
 
-[Power BI 최적화 가이드](/power-bi/guidance/power-bi-optimization)에서 최적화 기술에 대해 자세히 알아보세요.
+[Power BI 최적화 가이드](../../guidance/power-bi-optimization.md)에서 최적화 기술에 대해 자세히 알아보세요.

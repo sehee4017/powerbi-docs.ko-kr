@@ -10,17 +10,19 @@ ms.date: 05/08/2020
 ms.author: davidi
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: acce77e3c3e41ec5b711a6a1c79628b2a47cd47f
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 49af2febbecb5061c4acb9ee20c3b707e3b81dff
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485855"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634898"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>새로 고침을 지원하지 않는 데이터 소스 문제 해결
 예약된 새로 고침에 대해 데이터 세트를 구성할 때 오류가 발생할 수 있습니다.
 
-        You cannot schedule refresh for this dataset because it gets data from sources that currently don’t support refresh.
+```output
+You cannot schedule refresh for this dataset because it gets data from sources that currently don’t support refresh.
+```
 
 이러한 오류는 Power BI Desktop에서 사용한 데이터 원본이 새로 고침을 지원하지 않을 때 발생합니다. 사용 중인 데이터 원본을 찾아 [Power BI에서 데이터 새로 고침](refresh-data.md)의 지원되는 데이터 원본 목록과 비교해야 합니다. 
 
