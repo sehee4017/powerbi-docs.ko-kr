@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/13/2019
-ms.openlocfilehash: 95d2cec8cf731c403e204beeb6c013c2cfe0ce1d
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: 7624e51bf8c1ee49f2b7e7a0682e12b24bcdfa98
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878583"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748474"
 ---
 # <a name="power-bi-visuals-api-changelog"></a>Power BI 시각적 개체 API 변경 로그
 이 페이지에는 API 버전에 대한 빠른 요약이 포함되어 있습니다. 여기에 나열된 버전은 안정적인 것으로 간주되며 변경되지 않습니다.
@@ -62,7 +62,7 @@ ms.locfileid: "87878583"
 * `proto` 속성이 dataView 내부에서 숨겨진 metadata\data를 더 이상 저장하지 않습니다. `proto`를 통해 속성에 액세스하는 시각적 개체는 이 업데이트로 인해 중단될 수 있습니다.
 
 ## <a name="api-v1130"></a>API v1.13.0
-* **[슬라이서 동기화](./enable-sync-slicers.md)** 를 지원. 이 기능은 PBI 현재 코드 상태로 인한 단일 필드 슬라이서에 대해서만 유효합니다. [자세히 알아보기](/power-bi/desktop-slicers)
+* **[슬라이서 동기화](./enable-sync-slicers.md)** 를 지원. 이 기능은 PBI 현재 코드 상태로 인한 단일 필드 슬라이서에 대해서만 유효합니다. [자세히 알아보기](../../visuals/power-bi-visualization-slicers.md)
 * 접근성: [고대비 지원](./high-contrast-support.md) 
 * 접근성: 키보드 포커스 플래그 허용
 

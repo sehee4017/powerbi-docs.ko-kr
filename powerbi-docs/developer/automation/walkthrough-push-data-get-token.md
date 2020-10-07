@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/29/2019
-ms.openlocfilehash: cb50e887b7821ed23a928c6eb28d0c8bb3a28cb1
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: b66c87d88e08a4c1f9ee4f9aebdbf44516d9cb43
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86213835"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746519"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>2단계: 인증 액세스 토큰 가져오기
 
@@ -184,6 +184,6 @@ namespace walkthrough_push_data
 
 * 이 시리즈의 다음 문서는 [Power BI에서 데이터 세트 만들기](walkthrough-push-data-create-dataset.md)입니다.
 * [Power BI REST API 개요](overview-of-power-bi-rest-api.md)  
-* [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)  
+* [Power BI REST API](/rest/api/power-bi/)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 38db00f51a333b754267d52aaf3e3eabccc3e6b6
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: 7a93260aab9d8195478949ea8044378ea5cfae83
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84273026"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746404"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>자습서:  조직의 애플리케이션에 Power BI 콘텐츠 포함
 
@@ -50,7 +50,7 @@ Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.
 
 ### <a name="register-an-application-in-azure-active-directory"></a>Azure Active Directory에서 애플리케이션 등록
 
-Azure Active Directory로 [애플리케이션을 등록](register-app.md)하여 애플리케이션에서 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)에 액세스할 수 있도록 합니다. 애플리케이션을 등록하면 애플리케이션의 ID를 설정하고 Power BI REST 리소스에 대한 권한을 지정할 수 있습니다.
+Azure Active Directory로 [애플리케이션을 등록](register-app.md)하여 애플리케이션에서 [Power BI REST API](/rest/api/power-bi/)에 액세스할 수 있도록 합니다. 애플리케이션을 등록하면 애플리케이션의 ID를 설정하고 Power BI REST 리소스에 대한 권한을 지정할 수 있습니다.
 
 **서버 쪽 웹 애플리케이션** 앱 등록 작업을 진행해야 합니다. 서버 사이드 웹 애플리케이션을 등록하여 응용 프로그램 암호를 만듭니다.
 
@@ -190,9 +190,9 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 ## <a name="embed-your-content-within-your-application"></a>애플리케이션 내에서 콘텐츠 포함
 
-콘텐츠를 포함하는 단계가 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)를 사용하여 수행할 수 있더라도 이 아티클에 설명된 예제 코드는 .NET SDK를 사용하여 만듭니다.
+콘텐츠를 포함하는 단계가 [Power BI REST API](/rest/api/power-bi/)를 사용하여 수행할 수 있더라도 이 아티클에 설명된 예제 코드는 .NET SDK를 사용하여 만듭니다.
 
-보고서를 웹앱에 통합하려면 Power BI REST API 또는 Power BI C# SDK를 사용합니다. Azure Active Directory 권한 부여 액세스 토큰을 사용하여 보고서를 가져올 수도 있습니다. 그런 다음, 동일한 액세스 토큰을 사용하여 보고서를 로드합니다. Power BI Rest API는 특정 Power BI 리소스에 대한 프로그래밍 방식 액세스를 제공합니다. 자세한 내용은 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 및 [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)를 참조하세요.
+보고서를 웹앱에 통합하려면 Power BI REST API 또는 Power BI C# SDK를 사용합니다. Azure Active Directory 권한 부여 액세스 토큰을 사용하여 보고서를 가져올 수도 있습니다. 그런 다음, 동일한 액세스 토큰을 사용하여 보고서를 로드합니다. Power BI Rest API는 특정 Power BI 리소스에 대한 프로그래밍 방식 액세스를 제공합니다. 자세한 내용은 [Power BI REST API](/rest/api/power-bi/) 및 [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)를 참조하세요.
 
 ### <a name="get-an-access-token-from-azure-ad"></a>Azure AD에서 액세스 토큰 가져오기
 
@@ -200,11 +200,11 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 ### <a name="get-a-report"></a>보고서 가져오기
 
-Power BI 또는 페이지를 매긴 보고서를 가져오려면, Power BI 및 페이지를 매긴 보고서 목록을 가져오는 [보고서 가져오기](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) 작업을 사용합니다. 보고서 목록에서 보고서 ID를 가져올 수 있습니다.
+Power BI 또는 페이지를 매긴 보고서를 가져오려면, Power BI 및 페이지를 매긴 보고서 목록을 가져오는 [보고서 가져오기](/rest/api/power-bi/reports/getreports) 작업을 사용합니다. 보고서 목록에서 보고서 ID를 가져올 수 있습니다.
 
 ### <a name="get-reports-by-using-an-access-token"></a>액세스 토큰을 사용하여 보고서 가져오기
 
-[보고서 가져오기](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) 작업은 보고서 목록을 반환합니다. 보고서 목록에서 단일 보고서를 가져올 수 있습니다.
+[보고서 가져오기](/rest/api/power-bi/reports/getreports) 작업은 보고서 목록을 반환합니다. 보고서 목록에서 단일 보고서를 가져올 수 있습니다.
 
 REST API를 호출하려면 *권한 부여* 헤더를 *Bearer {access token}* 형식으로 포함해야 합니다.
 

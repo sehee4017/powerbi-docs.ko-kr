@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/22/2019
-ms.openlocfilehash: 932e458c90b248e01a88d45a849838cff27f6dcb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 792afe42cf302ae552b7f8f1c14d5f232ade320f
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79488203"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746703"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Power BI 데이터 세트에 데이터 푸시
 
@@ -33,14 +33,14 @@ Power BI API를 사용하면 데이터를 Power BI 데이터 세트에 푸시할
 
 ## <a name="power-bi-api-operations-to-push-data"></a>데이터를 푸시하는 Power BI API 작업
 
-Power BI REST API를 사용하여 데이터 원본을 Power BI로 푸시할 수 있습니다. 앱이 데이터 세트에 행을 추가하면 대시보드 타일이 자동으로 새 데이터로 업데이트됩니다. 데이터를 푸시하려면 [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset) 및 [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 작업을 사용합니다. 데이터 세트를 찾으려면 [데이터 세트 가져오기](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) 작업을 사용합니다. 이러한 작업에서는 그룹 ID를 전달하여 그룹으로 작업할 수 있습니다. 그룹 ID 목록을 가져오려면 [그룹 가져오기](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups) 작업을 사용합니다.
+Power BI REST API를 사용하여 데이터 원본을 Power BI로 푸시할 수 있습니다. 앱이 데이터 세트에 행을 추가하면 대시보드 타일이 자동으로 새 데이터로 업데이트됩니다. 데이터를 푸시하려면 [PostDataset](/rest/api/power-bi/pushdatasets/datasets_postdataset) 및 [PostRows](/rest/api/power-bi/pushdatasets/datasets_postrows) 작업을 사용합니다. 데이터 세트를 찾으려면 [데이터 세트 가져오기](/rest/api/power-bi/datasets/getdatasets) 작업을 사용합니다. 이러한 작업에서는 그룹 ID를 전달하여 그룹으로 작업할 수 있습니다. 그룹 ID 목록을 가져오려면 [그룹 가져오기](/rest/api/power-bi/groups/getgroups) 작업을 사용합니다.
 
 데이터 세트에 데이터를 푸시하는 작업은 다음과 같습니다.
 
-* [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset)
-* [데이터 세트 가져오기](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)
-* [행 게시](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows)
-* [그룹 가져오기](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)
+* [PostDataset](/rest/api/power-bi/pushdatasets/datasets_postdataset)
+* [데이터 세트 가져오기](/rest/api/power-bi/datasets/getdatasets)
+* [행 게시](/rest/api/power-bi/pushdatasets/datasets_postrows)
+* [그룹 가져오기](/rest/api/power-bi/groups/getgroups)
 
 Power BI에서 데이터 세트를 만들려면 Power BI 서비스에 JSON(JavaScript Object Notation) 문자열을 전달합니다. JSON에 대한 자세한 내용은 [JSON 소개](https://json.org/)를 참조하세요.
 
@@ -48,54 +48,58 @@ Power BI에서 데이터 세트를 만들려면 Power BI 서비스에 JSON(JavaS
 
 **Power BI 데이터 세트 JSON 개체**
 
-    {"name": "dataset_name", "tables":
-        [{"name": "", "columns":
-            [{ "name": "column_name1", "dataType": "data_type"},
-             { "name": "column_name2", "dataType": "data_type"},
-             { ... }
-            ]
-          }
+```json
+{"name": "dataset_name", "tables":
+    [{"name": "", "columns":
+        [{ "name": "column_name1", "dataType": "data_type"},
+         { "name": "column_name2", "dataType": "data_type"},
+         { ... }
         ]
-    }
+      }
+    ]
+}
+```
 
 Sales Marketing 데이터 세트 예제에서는 아래와 같은 JSON 문자열을 전달합니다. 이 예제에서 **SalesMarketing**은 데이터 세트의 이름이고 **Product**는 테이블의 이름입니다. 테이블을 정의한 후 테이블 스키마를 정의합니다. **SalesMarketing** 데이터 세트의 경우 테이블 스키마는 다음 열을 포함합니다. ProductID, Manufacturer, Category, Segment, Product 및 IsCompete.
 
 **예제 데이터 세트 개체 JSON**
 
-    {
-        "name": "SalesMarketing",
-        "tables": [
+```json
+{
+    "name": "SalesMarketing",
+    "tables": [
+        {
+            "name": "Product",
+            "columns": [
+            {
+                "name": "ProductID",
+                "dataType": "int"
+            },
+            {
+                "name": "Manufacturer",
+                "dataType": "string"
+            },
+            {
+                "name": "Category",
+                "dataType": "string"
+            },
+            {
+                "name": "Segment",
+                "dataType": "string"
+            },
             {
                 "name": "Product",
-                "columns": [
-                {
-                    "name": "ProductID",
-                    "dataType": "int"
-                },
-                {
-                    "name": "Manufacturer",
-                    "dataType": "string"
-                },
-                {
-                    "name": "Category",
-                    "dataType": "string"
-                },
-                {
-                    "name": "Segment",
-                    "dataType": "string"
-                },
-                {
-                    "name": "Product",
-                    "dataType": "string"
-                },
-                {
-                    "name": "IsCompete",
-                    "dataType": "bool"
-                }
-                ]
+                "dataType": "string"
+            },
+            {
+                "name": "IsCompete",
+                "dataType": "bool"
             }
-        ]
-    }
+            ]
+        }
+    ]
+}
+```
 
 Power BI 테이블 스키마에는 다음과 같은 데이터 형식을 사용할 수 있습니다.
 

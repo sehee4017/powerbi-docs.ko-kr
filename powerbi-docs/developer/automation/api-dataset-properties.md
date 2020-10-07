@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: 7dad7071fbf887c36443cacdb9be83d83e0b89be
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: e0092003cbf019bcf720eeb7aa32e8a9e800f143
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83561504"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747301"
 ---
 # <a name="dataset-properties"></a>데이터 세트 속성
 
 데이터 세트 API의 현재 v1은 이름과 테이블의 컬렉션을 사용하여 데이터 세트를 만듭니다. 각 테이블에는 이름과 행의 컬렉션이 있습니다. 각 열에는 이름 및 datatype이 있습니다. 테이블 간의 측정값 및 관계를 지원함으로써 특히 이러한 속성을 확장했습니다. 이 릴리스에 대해 지원되는 속성의 전체 목록은 아래와 같습니다.
 
 > [!IMPORTANT]
-> [데이터 세트 작업 그룹](https://docs.microsoft.com/rest/api/power-bi/datasets) 페이지에서 액세스할 수 있습니다.
+> [데이터 세트 작업 그룹](/rest/api/power-bi/datasets) 페이지에서 액세스할 수 있습니다.
 
 ## <a name="dataset"></a>데이터 세트
 

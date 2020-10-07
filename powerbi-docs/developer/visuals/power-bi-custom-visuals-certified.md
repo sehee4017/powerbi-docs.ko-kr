@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: ee79a2f74714322e6ff7b4ec965060b7c9291060
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 84c33cfc1d9163ff631c11d285b5441dd301578e
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237435"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748129"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Power BI 시각적 개체 인증받기
 
@@ -84,7 +84,7 @@ Power BI 시각적 리포지토리가 어떻게 보이는지 이해하려면 [Po
 
 ### <a name="source-code-requirements"></a>소스 코드 요구 사항
 
-[Power BI 시각적 개체 추가 인증](https://docs.microsoft.com/legal/marketplace/certification-policies#1200-power-bi-visuals-additional-certification) 정책 목록을 따르는지 확인합니다. 제출이 이러한 지침을 따르지 않는 경우, 파트너 센터의 거부 전자 메일에는 이 링크에 나열된 정책 번호가 포함됩니다.
+[Power BI 시각적 개체 추가 인증](/legal/marketplace/certification-policies#1200-power-bi-visuals-additional-certification) 정책 목록을 따르는지 확인합니다. 제출이 이러한 지침을 따르지 않는 경우, 파트너 센터의 거부 전자 메일에는 이 링크에 나열된 정책 번호가 포함됩니다.
 
 코드가 Power BI 인증 정책에 맞도록 하려면 아래 나열된 코드 요구 사항에 따르세요.  
 

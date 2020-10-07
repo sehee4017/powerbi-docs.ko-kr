@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: ba0a85958fad500bd27f4697a7f46961ca430f49
-ms.sourcegitcommit: 0b1e96de184caf2371adedcc3ee43bcb88048187
+ms.openlocfilehash: 2d33ed5a707a3b4bc3e0a77a38128e7e00154798
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "85299575"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746680"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Power BI Embedded 성능에 대한 모범 사례
 
@@ -53,7 +53,7 @@ ms.locfileid: "85299575"
 동일한 iframe에 여러 보고서를 포함하는 경우 각 보고서에 대해 새 iframe을 생성하지 마세요. 대신, 새 보고서를 포함하는 다른 구성의 `powerbi.embed(element, config)`를 사용합니다.
 
 > [!NOTE]
-> 고객을 위해 포함('앱 소유 데이터' 시나리오라고도 함)할 때 보고서 간에 전환하려면 모든 보고서 및 데이터 세트에 대한 권한이 있는 포함 토큰을 사용해야 합니다. 자세한 내용은 [토큰 API 생성](https://docs.microsoft.com/rest/api/power-bi/embedtoken/generatetoken)을 참조하세요.
+> 고객을 위해 포함('앱 소유 데이터' 시나리오라고도 함)할 때 보고서 간에 전환하려면 모든 보고서 및 데이터 세트에 대한 권한이 있는 포함 토큰을 사용해야 합니다. 자세한 내용은 [토큰 API 생성](/rest/api/power-bi/embedtoken/generatetoken)을 참조하세요.
 
 ## <a name="query-caching"></a>쿼리 캐싱
 

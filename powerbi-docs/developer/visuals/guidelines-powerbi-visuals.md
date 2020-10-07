@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 08/12/2020
-ms.openlocfilehash: c9d6b10c05ac3e19c5ebdcb5a0f3a1ab9b989a10
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: 6e9da6e16d32f0093bc0e4be35415f1a23f7fa41
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204937"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748567"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI 시각적 개체에 대한 지침
 다른 사용자가 검색하고 사용하도록 Microsoft AppSource에 Power BI 시각적 개체를 [게시](office-store.md)하기 전에 지침에 따라 사용자에게 적합한 환경을 만들어야 합니다.
@@ -28,7 +28,7 @@ Marketplace(Microsoft AppSource)에 무료로 제공되는 Power BI 시각적 �
 
 IAP Power BI 시각적 개체는 *무료 기능*을 제공하는 *무료* 시각적 개체입니다. 추가 요금이 부과될 수 있는 일부 고급 기능도 포함되어 있습니다. Power BI 시각적 개체의 설명에서 개발자는 작동을 위해 추가 구매가 필요한 기능이 있으면 사용자에게 알려야 합니다. 현재 Microsoft는 앱 및 추가 기능 구매를 지원하는 네이티브 API를 제공하지 않습니다.
 
-개발자는 이러한 구매를 위해 타사 결제 시스템을 사용할 수 있습니다. 자세한 내용은 [our store policy](https://docs.microsoft.com/legal/marketplace/certification-policies#11002-displaying-ads)(스토어 정책)를 참조하세요.
+개발자는 이러한 구매를 위해 타사 결제 시스템을 사용할 수 있습니다. 자세한 내용은 [our store policy](/legal/marketplace/certification-policies#11002-displaying-ads)(스토어 정책)를 참조하세요.
 
 
 >[!IMPORTANT]  

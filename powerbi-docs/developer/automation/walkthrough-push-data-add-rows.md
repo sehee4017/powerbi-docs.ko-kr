@@ -8,20 +8,20 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: ba37d9fc79405518a59ff188fdb5890e6af8043c
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: b43e9c93499f60039a924051c30b0ed631c85e8e
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85355033"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748382"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>5단계: Power BI 테이블에 행 추가
 
 이 문서는 [데이터 세트에 데이터를 푸시](walkthrough-push-data.md)하는 단계별 연습의 일부입니다.
 
-데이터 세트에 데이터 푸시의 **4단계**인 [Power BI 테이블에 행을 추가할 데이터 세트 가져오기](walkthrough-push-data-get-datasets.md)에서는 [데이터 세트 가져오기](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) 작업 및 Newtonsoft.Json을 사용하여 데이터 세트 ID를 가져왔습니다. 이 단계에서는 [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 작업에 데이터 세트 ID를 사용하여 **Power BI** 데이터 세트에 행을 추가합니다. 
+데이터 세트에 데이터 푸시의 **4단계**인 [Power BI 테이블에 행을 추가할 데이터 세트 가져오기](walkthrough-push-data-get-datasets.md)에서는 [데이터 세트 가져오기](/rest/api/power-bi/datasets/getdatasets) 작업 및 Newtonsoft.Json을 사용하여 데이터 세트 ID를 가져왔습니다. 이 단계에서는 [PostRows](/rest/api/power-bi/pushdatasets/datasets_postrows) 작업에 데이터 세트 ID를 사용하여 **Power BI** 데이터 세트에 행을 추가합니다. 
 
-[PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 작업을 호출하면 데이터 세트에 행이 추가됩니다.
+[PostRows](/rest/api/power-bi/pushdatasets/datasets_postrows) 작업을 호출하면 데이터 세트에 행이 추가됩니다.
 
 ![행 추가](media/walkthrough-push-data-add-rows/powerbi-developer-add-rows.png)
 
@@ -105,9 +105,7 @@ Program.cs에 이 코드를 추가합니다.
     #endregion
 ```
 
-다음은 [전체 코드 목록](#code)입니다.
-
-<a name="code"/>
+다음은 전체 코드 목록입니다.
 
 ## <a name="complete-code-listing"></a>전체 코드 목록
 
@@ -315,5 +313,5 @@ Program.cs에 이 코드를 추가합니다.
 ## <a name="next-steps"></a>다음 단계
 [Power BI 대시보드에 데이터 푸시](walkthrough-push-data.md)  
 [Power BI REST API 개요](overview-of-power-bi-rest-api.md)  
-[Power BI REST API 참조](https://docs.microsoft.com/rest/api/power-bi/)  
+[Power BI REST API 참조](/rest/api/power-bi/)  
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

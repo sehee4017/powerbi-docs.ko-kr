@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 5c364713ec7e0328e8278694985950266734c91d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4e9989bb7a34a89cb6244a2378d6660a5079fc82
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238398"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748106"
 ---
 # <a name="sync-slicers-in-power-bi-visuals"></a>Power BI 시각적 개체의 슬라이서 동기화
 
-[슬라이서 동기화](https://docs.microsoft.com/power-bi/desktop-slicers) 기능을 지원하려면 사용자 지정 슬라이서 시각적 개체가 API 버전 1.13.0 이상을 사용해야 합니다.
+[슬라이서 동기화](../../visuals/power-bi-visualization-slicers.md) 기능을 지원하려면 사용자 지정 슬라이서 시각적 개체가 API 버전 1.13.0 이상을 사용해야 합니다.
 
 또한 다음 코드와 같이 *capabilities.json* 파일에서 옵션을 사용하도록 설정해야 합니다.
 

@@ -9,18 +9,18 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 9c0927eb46177726c4277b2fa697003d7f0fdc56
-ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
+ms.openlocfilehash: c5a902a8de8449290d52974063b25f51ff92dd9d
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89402028"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747577"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>자습서:  내셔널 클라우드용 애플리케이션에 Power BI 콘텐츠 포함
 
 내셔널 클라우드용 비즈니스 프로세스 애플리케이션 내에 분석 콘텐츠를 포함하는 방법을 알아봅니다. Power BI JavaScript API와 함께 Power BI .NET SDK를 사용하여 보고서, 대시보드 또는 타일을 웹 애플리케이션에 포함할 수 있습니다.
 
-Power BI는 [내셔널 클라우드](https://docs.microsoft.com/azure/active-directory/develop/authentication-national-cloud)도 지원합니다.
+Power BI는 [내셔널 클라우드](/azure/active-directory/develop/authentication-national-cloud)도 지원합니다.
 
 다른 내셔널 클라우드는 다음과 같습니다.
 
@@ -43,7 +43,7 @@ Power BI는 [내셔널 클라우드](https://docs.microsoft.com/azure/active-dir
 > [!NOTE]
 > 대신 조직의 대시보드를 포함하려고 하십니까? [조직의 앱에 대시보드 통합](embed-sample-for-your-organization.md)을 참조하세요.
 
-대시보드를 웹앱에 통합하려면 **Power BI** API와 Azure Active Directory(AD) 인증 **액세스 토큰**을 사용하여 대시보드를 가져옵니다. 그런 다음 포함 토큰을 사용하여 대시보드를 로드합니다. **Power BI** API는 특정 **Power BI** 리소스에 대한 프로그래밍 방식 액세스를 제공합니다. 자세한 내용은 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/), [Power BI .NET SDK] 및 [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)를 참조하세요.
+대시보드를 웹앱에 통합하려면 **Power BI** API와 Azure Active Directory(AD) 인증 **액세스 토큰**을 사용하여 대시보드를 가져옵니다. 그런 다음 포함 토큰을 사용하여 대시보드를 로드합니다. **Power BI** API는 특정 **Power BI** 리소스에 대한 프로그래밍 방식 액세스를 제공합니다. 자세한 내용은 [Power BI REST API](/rest/api/power-bi/), [Power BI .NET SDK] 및 [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)를 참조하세요.
 
 ## <a name="download-the-sample"></a>샘플 다운로드
 
@@ -238,10 +238,10 @@ Tile tile = tiles.Value.FirstOrDefault();
 
 ### <a name="create-the-embed-token"></a>포함 토큰을 만듭니다.
 
-JavaScript API를 사용하여 포함 토큰을 생성할 수 있습니다. 포함 토큰은 포함한 항목에 한정됩니다. Power BI 콘텐츠의 구성 요소를 포함하는 경우 이에 대한 새 포함 토큰을 만들어야 합니다. 어떤 **accessLevel**을 사용할지를 포함한 자세한 내용은 [포함 토큰](https://docs.microsoft.com/rest/api/power-bi/embedtoken)을 참조하세요.
+JavaScript API를 사용하여 포함 토큰을 생성할 수 있습니다. 포함 토큰은 포함한 항목에 한정됩니다. Power BI 콘텐츠의 구성 요소를 포함하는 경우 이에 대한 새 포함 토큰을 만들어야 합니다. 어떤 **accessLevel**을 사용할지를 포함한 자세한 내용은 [포함 토큰](/rest/api/power-bi/embedtoken)을 참조하세요.
 
 > [!IMPORTANT]
-> 포함 토큰은 개발자 테스트 전용이므로 Power BI 마스터 계정에서 생성할 수 있는 포함 토큰의 수는 제한적입니다. 프로덕션 포함 시나리오를 위해 [용량을 구입해야](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) 합니다. 용량을 구입할 때 토큰 생성은 제한 없이 포함시킬 수 있습니다.
+> 포함 토큰은 개발자 테스트 전용이므로 Power BI 마스터 계정에서 생성할 수 있는 포함 토큰의 수는 제한적입니다. 프로덕션 포함 시나리오를 위해 [용량을 구입해야](./embedded-faq.md#technical) 합니다. 용량을 구입할 때 토큰 생성은 제한 없이 포함시킬 수 있습니다.
 
 샘플은 [조직에 대한 콘텐츠 포함 샘플](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/Embed%20for%20your%20customers/PowerBIEmbedded_AppOwnsData)의 **Controllers\HomeController.cs** 내에서 찾을 수 있습니다.
 
@@ -440,7 +440,7 @@ JavaScript를 사용하여 웹 페이지의 div 요소로 대시보드를 로드
 
 * JavaScript API에 대한 자세한 내용은 [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)를 참조하세요.
 
-* 독일 클라우드용 Power BI에 대한 자세한 내용은 [독일 클라우드용 Power BI FAQ](https://docs.microsoft.com/power-bi/service-govde-faq)를 참조하세요.
+* 독일 클라우드용 Power BI에 대한 자세한 내용은 [독일 클라우드용 Power BI FAQ](../../admin/service-govde-faq.md)를 참조하세요.
 
 * [Power BI 작업 영역 컬렉션 콘텐츠를 Power BI로 마이그레이션하는 방법](migrate-from-powerbi-embedded.md)
 

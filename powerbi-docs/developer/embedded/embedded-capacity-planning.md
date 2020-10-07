@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/03/2020
-ms.openlocfilehash: 23018dce94efad6c63a22b6ee3a2c0919475adb5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 9158dfccecd42d13a133a49097b2f85cb3713f00
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83145138"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746749"
 ---
 # <a name="capacity-planning-in-power-bi-embedded-analytics"></a>Power BI Embedded 분석의 용량 계획
 
@@ -42,7 +42,7 @@ Power BI Embedded 분석 배포에 필요한 용량의 유형을 계산하는 �
 다음은 계획 도구를 사용하는 방법에 대한 몇 가지 예입니다.
 
 * 용량 관리자는 지정된 시간 프레임 내에 용량이 처리할 수 있는 사용자 수를 보다 잘 이해할 수 있습니다.
-* 보고서 작성자는 Power BI 데스크톱의 [성능 분석기](https://docs.microsoft.com/power-bi/desktop-performance-analyzer)를 통해 측정한 사용자 부하 효과를 이해할 수 있습니다.
+* 보고서 작성자는 Power BI 데스크톱의 [성능 분석기](../../create-reports/desktop-performance-analyzer.md)를 통해 측정한 사용자 부하 효과를 이해할 수 있습니다.
 * 브라우저에서 실시간으로 렌더링이 발생하는 것을 볼 수 있습니다.
 * SQL Server Profiler를 사용하여 측정된 용량의 [XMLA 엔드포인트에 연결](https://powerbi.microsoft.com/blog/power-bi-open-platform-connectivity-with-xmla-endpoints-public-preview/)하여 실행되는 쿼리를 볼 수 있습니다.
 * 부하 테스트 효과는 Premium 용량 메트릭 앱의 데이터 세트 페이지에 표시됩니다. 용량 관리자는 이 도구를 사용하여 부하를 생성하고 해당 로드가 어떻게 표시되는지 확인할 수 있습니다.

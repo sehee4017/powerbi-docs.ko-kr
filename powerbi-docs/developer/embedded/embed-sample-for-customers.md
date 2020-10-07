@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 06/02/2020
-ms.openlocfilehash: bb693b1b46e193a87365537492c83aa2eb8a479a
-ms.sourcegitcommit: b2c60781da6f756102f91346b35a7651fb5dcda3
+ms.openlocfilehash: 6ba5cd95f3e8b788ca7ee8939dff6616c5610573
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "86092242"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746634"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>자습서:  고객의 애플리케이션에 Power BI 콘텐츠 포함
 
@@ -46,7 +46,7 @@ ms.locfileid: "86092242"
 
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Azure AD(Azure Active Directory)에서 애플리케이션 등록
 
-Azure Active Directory로 [애플리케이션을 등록](register-app.md)하여 애플리케이션에서 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)에 액세스할 수 있도록 합니다. 애플리케이션을 등록하면 애플리케이션의 ID를 설정하고 [Power BI REST 리소스에 대한 권한](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent)을 지정할 수 있습니다. 마스터 계정 또는 [서비스 주체](embed-service-principal.md)를 사용할지에 따라 애플리케이션 등록을 시작하는 방법을 결정합니다.
+Azure Active Directory로 [애플리케이션을 등록](register-app.md)하여 애플리케이션에서 [Power BI REST API](/rest/api/power-bi/)에 액세스할 수 있도록 합니다. 애플리케이션을 등록하면 애플리케이션의 ID를 설정하고 [Power BI REST 리소스에 대한 권한](/azure/active-directory/develop/v2-permissions-and-consent)을 지정할 수 있습니다. 마스터 계정 또는 [서비스 주체](embed-service-principal.md)를 사용할지에 따라 애플리케이션 등록을 시작하는 방법을 결정합니다.
 
 취하는 메서드에 따라 Azure에 등록하는 애플리케이션 유형에 영향을 줍니다.
 
@@ -62,7 +62,7 @@ Azure Active Directory로 [애플리케이션을 등록](register-app.md)하여 
 
 ### <a name="create-and-publish-your-reports"></a>보고서 만들기 및 게시
 
-Power BI Desktop을 사용하여 보고서 및 데이터 세트를 만든 다음, 이러한 보고서를 작업 영역에 게시할 수 있습니다. 이 작업을 수행하는 방법에는 두 가지가 있습니다. 최종 사용자는 마스터 계정(Power BI Pro 라이선스)을 사용하여 기존 작업 영역에 보고서를 게시할 수 있습니다. 서비스 주체를 사용하는 경우 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/imports/postimportingroup)를 사용하여 새 작업 영역에 보고서를 게시할 수 있습니다.
+Power BI Desktop을 사용하여 보고서 및 데이터 세트를 만든 다음, 이러한 보고서를 작업 영역에 게시할 수 있습니다. 이 작업을 수행하는 방법에는 두 가지가 있습니다. 최종 사용자는 마스터 계정(Power BI Pro 라이선스)을 사용하여 기존 작업 영역에 보고서를 게시할 수 있습니다. 서비스 주체를 사용하는 경우 [Power BI REST API](/rest/api/power-bi/imports/postimportingroup)를 사용하여 새 작업 영역에 보고서를 게시할 수 있습니다.
 
 다음 단계는 PBIX 보고서를 Power BI 작업 영역에 게시하는 방법을 안내합니다.
 
@@ -224,11 +224,11 @@ Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
 
 ## <a name="embed-content-within-your-application"></a>애플리케이션 내에서 콘텐츠 포함
 
-콘텐츠를 포함하는 단계는 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)를 사용하여 수행되지만 이 문서에 설명된 예제 코드는 **.NET SDK**를 사용하여 만듭니다.
+콘텐츠를 포함하는 단계는 [Power BI REST API](/rest/api/power-bi/)를 사용하여 수행되지만 이 문서에 설명된 예제 코드는 **.NET SDK**를 사용하여 만듭니다.
 
-애플리케이션 내에서 고객을 포함시키려면 **Azure AD**에서 마스터 계정에 대한 **액세스 토큰** 또는 [서비스 주체](embed-service-principal.md)를 가져와야 합니다. [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)를 호출하기 전에 Power BI 애플리케이션에 대한 [Azure AD 액세스 토큰](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)을 가져와야 합니다.
+애플리케이션 내에서 고객을 포함시키려면 **Azure AD**에서 마스터 계정에 대한 **액세스 토큰** 또는 [서비스 주체](embed-service-principal.md)를 가져와야 합니다. [Power BI REST API](/rest/api/power-bi/)를 호출하기 전에 Power BI 애플리케이션에 대한 [Azure AD 액세스 토큰](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)을 가져와야 합니다.
 
-**액세스 토큰**을 사용하여 Power BI 클라이언트를 만들려면 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)와 상호 작용할 수 있는 Power BI 클라이언트 개체를 만들 수 있습니다. ***Microsoft.Rest.TokenCredentials*** 개체로 **AccessToken**을 래핑하여 Power BI 클라이언트 개체를 만듭니다.
+**액세스 토큰**을 사용하여 Power BI 클라이언트를 만들려면 [Power BI REST API](/rest/api/power-bi/)와 상호 작용할 수 있는 Power BI 클라이언트 개체를 만들 수 있습니다. ***Microsoft.Rest.TokenCredentials*** 개체로 **AccessToken**을 래핑하여 Power BI 클라이언트 개체를 만듭니다.
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -269,11 +269,11 @@ JavaScript API에서 사용할 수 있는 포함 토큰을 생성합니다. API�
 **특정 항목의 포함 토큰을 생성하기 위한 API**
 
 이 API를 통해 만든 포함 토큰은 포함하는 항목에 연결됩니다. 이 API를 사용하여 Power BI 항목(예: 보고서, 대시보드 또는 타일)을 포함할 때마다 해당 항목의 포함 토큰을 새로 만들어야 합니다.
-* [대시보드 GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/dashboards_generatetokeningroup)
-* [데이터 세트 GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/datasets_generatetokeningroup)
-* [보고서 GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup)
-* [보고서 GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup)
-* [타일 GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/tiles_generatetokeningroup)
+* [대시보드 GenerateTokenInGroup](/rest/api/power-bi/embedtoken/dashboards_generatetokeningroup)
+* [데이터 세트 GenerateTokenInGroup](/rest/api/power-bi/embedtoken/datasets_generatetokeningroup)
+* [보고서 GenerateTokenForCreateInGroup](/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup)
+* [보고서 GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup)
+* [타일 GenerateTokenInGroup](/rest/api/power-bi/embedtoken/tiles_generatetokeningroup)
 
 보고서, 대시보드 또는 타일의 포함 토큰을 만드는 샘플은 [샘플 애플리케이션](https://github.com/Microsoft/PowerBI-Developer-Samples)의 다음 파일에서 확인할 수 있습니다.
 * Services\EmbedService.cs
@@ -300,7 +300,7 @@ var embedConfig = new EmbedConfig()
 
 **여러 항목의 포함 토큰을 생성하기 위한 API**<a id="multiEmbedToken"></a>
 
-[토큰 생성](https://docs.microsoft.com/rest/api/power-bi/embedtoken/generatetoken) 포함 API는 여러 항목을 포함하는 데 사용할 수 있는 토큰을 생성합니다.
+[토큰 생성](/rest/api/power-bi/embedtoken/generatetoken) 포함 API는 여러 항목을 포함하는 데 사용할 수 있는 토큰을 생성합니다.
 
 보고서를 포함하는 동안 데이터 세트를 동적으로 선택하는 데에도 사용할 수 있습니다. 이 API 사용에 대한 자세한 내용은 [동적 바인딩](embed-dynamic-binding.md)을 참조하세요.
 
@@ -414,7 +414,7 @@ JavaScript API 사용에 대한 전체 샘플의 경우 [Playground 도구](http
 > [!NOTE]
 > A SKU에서는 무료 Power BI 라이선스를 사용하여 Power BI 콘텐츠에 액세스할 수 없습니다.
 
-아래 표에서는 각 SKU의 리소스 및 한도를 설명합니다. 요구 사항에 가장 적합한 용량을 확인하려면 [내 시나리오를 위해 구입해야 하는 SKU](https://docs.microsoft.com/power-bi/developer/embedded-faq#which-solution-should-i-choose) 표를 참조하세요.
+아래 표에서는 각 SKU의 리소스 및 한도를 설명합니다. 요구 사항에 가장 적합한 용량을 확인하려면 [내 시나리오를 위해 구입해야 하는 SKU](./embedded-faq.md#which-solution-should-i-choose) 표를 참조하세요.
 
 | 용량 노드 | 총 V 코어 | 백 엔드 V 코어 | RAM(GB) | 프런트 엔드 V 코어 | DirectQuery/Live Connection(초당) | 모델 새로 고침 병렬 처리 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -430,7 +430,7 @@ JavaScript API 사용에 대한 전체 샘플의 경우 [Playground 도구](http
 
 개발 테스트를 위해 Pro 라이선스에 평가판 포함 토큰을 사용할 수 있습니다. 프로덕션 환경에 포함하려면 전용 용량을 사용합니다.
 
-Power BI 서비스 주체 계정 또는 마스터 계정이 생성할 수 있는 평가판 포함 토큰의 수는 제한됩니다. [사용 가능한 기능](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) API를 사용하여 현재 포함된 사용의 비율을 확인합니다. 사용량은 서비스 주체 계정 또는 마스터 계정별로 표시됩니다.
+Power BI 서비스 주체 계정 또는 마스터 계정이 생성할 수 있는 평가판 포함 토큰의 수는 제한됩니다. [사용 가능한 기능](/rest/api/power-bi/availablefeatures/getavailablefeatures) API를 사용하여 현재 포함된 사용의 비율을 확인합니다. 사용량은 서비스 주체 계정 또는 마스터 계정별로 표시됩니다.
 
 테스트하는 중에 포함 토큰이 부족해지는 경우 Power BI Embedded 또는 Premium [용량](embedded-capacity.md)을 구매해야 합니다. 전용 용량으로 생성할 수 있는 포함 토큰 수에는 제한이 없습니다.
 
@@ -441,7 +441,7 @@ Power BI 서비스 주체 계정 또는 마스터 계정이 생성할 수 있는
 
 포함된 콘텐츠(데이터 세트, 보고서, 대시보드 포함)와 관련된 Power BI 리소스를 포함하는 모든 작업 영역을 전용 용량에 할당해야 합니다. 예를 들어 포함된 보고서 및 보고서에 바인딩된 데이터 세트가 서로 다른 작업 영역에 있을 경우 두 작업 영역을 모두 전용 용량에 할당해야 합니다.
 
-[서비스 주체](embed-service-principal.md)를 사용하여 작업 영역에 전용 용량을 할당하려면 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity)를 사용합니다. Power BI REST API를 사용할 때는 [서비스 주체 개체 ID](embed-service-principal.md)를 사용해야 합니다.
+[서비스 주체](embed-service-principal.md)를 사용하여 작업 영역에 전용 용량을 할당하려면 [Power BI REST API](/rest/api/power-bi/capacities/groups_assigntocapacity)를 사용합니다. Power BI REST API를 사용할 때는 [서비스 주체 개체 ID](embed-service-principal.md)를 사용해야 합니다.
 
 아래 단계에 따라 **마스터 계정**을 사용하여 작업 영역에 전용 용량을 할당합니다.
 

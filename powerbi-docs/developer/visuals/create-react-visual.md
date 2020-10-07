@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/30/2020
-ms.openlocfilehash: 2b1b28608799616f4bc75837f82521ae345cf186
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 0160bf604b23102bcb6e21232a64a776f3bb8290
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83148951"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746266"
 ---
 # <a name="tutorial-create-a-react-based-visual"></a>자습서:  React 기반 시각적 개체 만들기
 
@@ -36,7 +36,7 @@ ms.locfileid: "83148951"
 
 * **Power BI Pro** 계정. 시작하기 전에 [무료 평가판에 등록](https://powerbi.microsoft.com/pricing/)하세요.
 * [Visual Studio Code](https://www.visualstudio.com/)
-* Windows 사용자의 경우 [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell?view=powershell-6) 버전 4 이상, OSX 사용자의 경우 [터미널](https://macpaw.com/how-to/use-terminal-on-mac)
+* Windows 사용자의 경우 [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell?view=powershell-6) 버전 4 이상, OSX 사용자의 경우 [터미널](https://macpaw.com/how-to/use-terminal-on-mac)
 * [개발자 환경 설정](custom-visual-develop-tutorial.md#setting-up-the-developer-environment)에 설명된 환경
 
 ## <a name="getting-started"></a>시작

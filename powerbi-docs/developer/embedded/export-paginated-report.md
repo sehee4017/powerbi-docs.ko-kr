@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 04/05/2020
-ms.openlocfilehash: 2b4715a388250e00cced8a0164a7dcf687887d8a
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.openlocfilehash: bb06f5b0a170189c3c98b734a09259645a650c55
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86556891"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748175"
 ---
 # <a name="export-paginated-report-to-file-preview"></a>페이지를 매긴 보고서를 파일로 내보내기(미리 보기)
 
@@ -38,9 +38,9 @@ ms.locfileid: "86556891"
 
 ## <a name="using-the-api"></a>API 사용
 
-이 API는 비동기식입니다. [exportToFile](https://docs.microsoft.com/rest/api/power-bi/reports/exporttofile) API를 호출하면 내보내기 작업을 트리거합니다. 내보내기 작업을 트리거한 후 [폴링](https://docs.microsoft.com/rest/api/power-bi/reports/getexporttofilestatus)을 사용하여 완료될 때까지 작업을 추적합니다.
+이 API는 비동기식입니다. [exportToFile](/rest/api/power-bi/reports/exporttofile) API를 호출하면 내보내기 작업을 트리거합니다. 내보내기 작업을 트리거한 후 [폴링](/rest/api/power-bi/reports/getexporttofilestatus)을 사용하여 완료될 때까지 작업을 추적합니다.
 
-내보내기가 완료되면 폴링 API 호출이 파일을 가져오기 위한 [Power BI URL](https://docs.microsoft.com/rest/api/power-bi/reports/getfileofexporttofile)을 반환합니다. URL은 24시간 동안 제공됩니다.
+내보내기가 완료되면 폴링 API 호출이 파일을 가져오기 위한 [Power BI URL](/rest/api/power-bi/reports/getfileofexporttofile)을 반환합니다. URL은 24시간 동안 제공됩니다.
 
 ## <a name="supported-features"></a>지원되는 기능
 

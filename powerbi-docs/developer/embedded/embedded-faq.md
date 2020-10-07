@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: fe1eb36a63d504497f15bef8316e96d120439793
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 86ac6bebf6373f14ac343721a8594ee9f45b0e89
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83145105"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746197"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded에 대한 질문과 대답
 
@@ -51,7 +51,7 @@ Power BI Embedded는 애플리케이션에 시각적 개체를 포함하려는 I
 
 ### <a name="how-many-embed-tokens-can-i-create"></a>얼마나 많은 포함 토큰을 만들 수 있습니까?
 
-PRO 라이선스가 있는 포함 토큰은 개발 테스트용이므로 Power BI 마스터 계정 또는 [서비스 주체](embed-service-principal.md)는 제한된 수의 토큰만 생성할 수 있습니다. 프로덕션 환경에 포함하려면 [용량을 구입](#technical)합니다. 용량 구입 시 생성할 수 있는 포함 토큰 수에는 제한이 없습니다. [사용 가능한 기능](https://docs.microsoft.com/rest/api/power-bi/availablefeatures)으로 이동하여 현재 포함된 사용 현황을 백분율로 표시하는 사용 값을 확인합니다.
+PRO 라이선스가 있는 포함 토큰은 개발 테스트용이므로 Power BI 마스터 계정 또는 [서비스 주체](embed-service-principal.md)는 제한된 수의 토큰만 생성할 수 있습니다. 프로덕션 환경에 포함하려면 [용량을 구입](#technical)합니다. 용량 구입 시 생성할 수 있는 포함 토큰 수에는 제한이 없습니다. [사용 가능한 기능](/rest/api/power-bi/availablefeatures)으로 이동하여 현재 포함된 사용 현황을 백분율로 표시하는 사용 값을 확인합니다.
 
 ## <a name="technical"></a>기술
 
@@ -69,7 +69,7 @@ PRO 라이선스가 있는 포함 토큰은 개발 테스트용이므로 Power B
 
 * [Power BI 관리 포털](../../admin/service-admin-portal.md#power-bi-embedded) 사용
 
-* Power BI에서 [메트릭 앱](https://docs.microsoft.com/power-bi/service-admin-premium-monitor-capacity) 다운로드
+* Power BI에서 [메트릭 앱](../../admin/service-admin-premium-monitor-capacity.md) 다운로드
 
 * [Azure 진단 로깅](azure-pbie-diag-logs.md) 사용
 
@@ -79,7 +79,7 @@ PRO 라이선스가 있는 포함 토큰은 개발 테스트용이므로 Power B
 
 ### <a name="why-creatingscalingresuming-a-capacity-results-in-putting-the-capacity-into-a-suspended-state"></a>용량을 만들기/크기 조정/다시 시작하면 용량을 일시 중단된 상태로 전환하는 이유는 무엇인가요?
 
-용량 프로비저닝(확장/다시 시작/만들기)에 실패할 수 있습니다. Get Details API를 사용하여 용량의 ProvisioningState를 확인할 수 있습니다. [용량 - 세부 정보 가져오기](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails).
+용량 프로비저닝(확장/다시 시작/만들기)에 실패할 수 있습니다. Get Details API를 사용하여 용량의 ProvisioningState를 확인할 수 있습니다. [용량 - 세부 정보 가져오기](/rest/api/power-bi-embedded/capacities/getdetails).
 
 ### <a name="can-i-only-create-power-bi-embedded-capacities-in-a-specific-region"></a>특정 지역에서만 Power BI Embedded 용량을 만들 수 있나요?
 
@@ -89,7 +89,7 @@ PRO 라이선스가 있는 포함 토큰은 개발 테스트용이므로 Power B
 
 작업 영역, 앱 또는 아티팩트에 대한 권한이 사용자에게 부여되더라도 API 호출을 통해 즉시 사용하지 못할 수도 있습니다.
 결과는 'GET' API 응답에서 아티팩트가 누락되거나 아티팩트를 사용하려고 할 때 오류가 발생할 수 있습니다.
-사용자는 [refreshUserPermissions API](https://docs.microsoft.com/rest/api/power-bi/users/refreshuserpermissions)를 호출하여 이 문제를 해결할 수 있습니다. 이 API는 사용자 권한을 업데이트합니다.
+사용자는 [refreshUserPermissions API](/rest/api/power-bi/users/refreshuserpermissions)를 호출하여 이 문제를 해결할 수 있습니다. 이 API는 사용자 권한을 업데이트합니다.
 
 
 ### <a name="how-can-i-find-my-pbi-tenant-region"></a>내 PBI 테넌트 지역을 어떻게 찾을 수 있나요?
@@ -114,8 +114,8 @@ Power BI에서는 조직 계정에 등록해야 합니다. Microsoft 계정을 �
 
 예, PBIE 리소스를 만들고 관리하는 데 사용할 수 있는 PowerShell cmdlet 및 Azure Resource Manager REST API가 있습니다.
 
-* [Rest API](https://docs.microsoft.com/rest/api/power-bi-embedded/) 
-* [Powershell cmdlet](https://docs.microsoft.com/powershell/module/azurerm.powerbiembedded/)
+* [Rest API](/rest/api/power-bi-embedded/) 
+* [Powershell cmdlet](/powershell/module/azurerm.powerbiembedded/)
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded 솔루션에 포함된 PBI Embedded 전용 용량 역할이란?
 
@@ -145,7 +145,7 @@ Power BI Embedded는 마스터 사용자 인증(지정된 Power BI Pro 라이선
 
 Azure AD 테넌트가 이미 있는 경우 기존 디렉터리를 사용할 수 있습니다. 포함된 애플리케이션 콘텐츠 보안을 위해 새로운 Azure AD 테넌트를 만들 수도 있습니다.
 
-AAD 토큰을 가져오려면 [Azure Active Directory 인증 라이브러리](https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-libraries) 중 하나를 사용할 수 있습니다. 여러 플랫폼에서 사용할 수 있는 클라이언트 라이브러리가 있습니다.
+AAD 토큰을 가져오려면 [Azure Active Directory 인증 라이브러리](/azure/active-directory/develop/active-directory-authentication-libraries) 중 하나를 사용할 수 있습니다. 여러 플랫폼에서 사용할 수 있는 클라이언트 라이브러리가 있습니다.
 
 ### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>내 애플리케이션은 사용자 인증에 이미 AAD를 사용합니다. "사용자 소유 데이터" 시나리오에서 Power BI에 인증할 때 이 ID를 사용하려면 어떻게 하나요?
 
@@ -194,7 +194,7 @@ RLS의 경우 ISV 개발자는 모델 및 포함 토큰 생성의 일부로 데�
 
 서비스 주체는 해당 보안 그룹의 모든 Power BI 테넌트 설정에 대한 사용 권한을 상속받습니다. 사용 권한을 제한하려면 서비스 주체에 대한 전용 보안 그룹을 만들어서, 활성화된 해당 Power BI 설정에 대한 **특정 보안 그룹 제외** 목록에 추가합니다.
 
-이 경우는 서비스 주체를 **관리자**로 새 작업 영역에 추가할 때 중요합니다. 이 작업은 [API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) 또는 Power BI 서비스를 통해 관리할 수 있습니다.
+이 경우는 서비스 주체를 **관리자**로 새 작업 영역에 추가할 때 중요합니다. 이 작업은 [API](/rest/api/power-bi/groups/addgroupuser) 또는 Power BI 서비스를 통해 관리할 수 있습니다.
 
 ### <a name="when-to-use-an-application-id-vs-a-service-principal-object-id"></a>애플리케이션 ID 및 서비스 주체 개체 ID를 사용하는 시기는?
 
@@ -283,7 +283,7 @@ Power BI Embedded는 [내셔널 클라우드](embed-sample-for-customers-nationa
     > [!Note]
     > **Power BI Embedded** 솔루션과 병렬로 빌드하는 동안 **Power BI 작업 영역 컬렉션**을 계속 사용할 수 있습니다. 준비가 되면 고객을 새 **Power BI Embedded** 솔루션으로 이동하고 **Power BI 작업 영역 컬렉션** 솔루션을 사용 중지할 수 있습니다.
 
-자세한 내용은 [Power BI 작업 영역 컬렉션 콘텐츠를 Power BI Embedded로 마이그레이션하는 방법](https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded)을 참조하세요.
+자세한 내용은 [Power BI 작업 영역 컬렉션 콘텐츠를 Power BI Embedded로 마이그레이션하는 방법](./migrate-from-powerbi-embedded.md)을 참조하세요.
 
 ### <a name="is-power-bi-workspace-collection-on-a-deprecation-path"></a>Power BI 작업 영역 컬렉션이 사용 중단 경로에 있나요?
 
@@ -327,11 +327,11 @@ Power BI Embedded는 [내셔널 클라우드](embed-sample-for-customers-nationa
 
 ### <a name="how-can-i-edit-my-registered-application"></a>등록된 애플리케이션을 편집할 수 있는 방법
 
-Azure AD에 등록된 애플리케이션을 편집하는 방법을 알아보려면 [빠른 시작: Azure Active Directory에서 애플리케이션 업데이트](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app)를 참조하세요.
+Azure AD에 등록된 애플리케이션을 편집하는 방법을 알아보려면 [빠른 시작: Azure Active Directory에서 애플리케이션 업데이트](/azure/active-directory/develop/quickstart-v1-update-azure-ad-app)를 참조하세요.
 
 ### <a name="how-can-i-edit-my-power-bi-user-profile-or-data"></a>내 Power BI 사용자 프로필 또는 데이터를 편집할 수 있는 방법
 
-[여기](https://docs.microsoft.com/power-bi/service-basic-concepts)에서 Power BI 데이터를 편집하는 방법을 알아볼 수 있습니다.
+[여기](../../fundamentals/service-basic-concepts.md)에서 Power BI 데이터를 편집하는 방법을 알아볼 수 있습니다.
 
 자세한 내용은 [포함된 애플리케이션 문제 해결](embedded-troubleshoot.md)을 참조하세요.
 

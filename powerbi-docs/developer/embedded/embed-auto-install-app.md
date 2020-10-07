@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.custom: ''
 ms.date: 04/16/2019
-ms.openlocfilehash: 646a09545a06dfa65bd73a666fa2419d82e4da33
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: eb9476b3f21d1149492982a8dcae3d8ce89e9629
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236917"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748658"
 ---
 # <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>조직에 포함할 때 Power BI 앱 자동 설치
 
@@ -29,7 +29,7 @@ ms.locfileid: "85236917"
 
 ![앱 등록으로 콘텐츠 생성](media/embed-auto-install-app/register-app-create-content.png)
 
-그런 다음, 포함 URL에 앱 ID를 제공해야 합니다. 앱 ID를 제공하려면 앱 작성자가 먼저 앱을 설치한 다음, 지원되는 [Power BI Rest API](https://docs.microsoft.com/rest/api/power-bi/) 호출([보고서 가져오기](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) 또는 [대시보드 가져오기](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards)) 중 하나를 사용해야 합니다. 그런 다음, 앱 작성자는 REST API 응답에서 포함 Url을 가져와야 합니다. 앱에서 가져온 콘텐츠인 경우 URL에 앱 ID가 나타납니다.  포함 URL을 설정한 후에는 이를 사용하여 정기적으로 포함할 수 있습니다.
+그런 다음, 포함 URL에 앱 ID를 제공해야 합니다. 앱 ID를 제공하려면 앱 작성자가 먼저 앱을 설치한 다음, 지원되는 [Power BI Rest API](/rest/api/power-bi/) 호출([보고서 가져오기](/rest/api/power-bi/reports/getreports) 또는 [대시보드 가져오기](/rest/api/power-bi/dashboards/getdashboards)) 중 하나를 사용해야 합니다. 그런 다음, 앱 작성자는 REST API 응답에서 포함 Url을 가져와야 합니다. 앱에서 가져온 콘텐츠인 경우 URL에 앱 ID가 나타납니다.  포함 URL을 설정한 후에는 이를 사용하여 정기적으로 포함할 수 있습니다.
 
 ## <a name="secure-embed"></a>보안 포함
 

@@ -16,12 +16,12 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: ade60bf8b786f70002f0af0672acf951348fee49
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7c90093fefb98c6b385328e8dd207760e3207cbf
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80487853"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746220"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Power BI를 사용한 임베디드 분석
 
@@ -43,7 +43,7 @@ Power BI 콘텐츠를 포함하는 두 가지 주요 시나리오가 있습니�
  
 - Power BI 라이선스 없이 사용자 및 고객을 위한 포함. 
 
-두 시나리오 모두에 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)를 사용할 수 있습니다.
+두 시나리오 모두에 [Power BI REST API](/rest/api/power-bi/)를 사용할 수 있습니다.
 
 Power BI 라이선스가 없는 고객 및 사용자의 경우 조직 또는 고객에게 서비스를 제공할 때 사용하는 것과 동일한 API를 사용하여 대시보드 및 보고서를 사용자 지정 애플리케이션에 포함할 수 있습니다. 고객은 애플리케이션 관리 데이터를 볼 수 있습니다. 또한 조직의 Power BI 사용자는 Power BI에서 직접 또는 포함된 애플리케이션의 컨텍스트에서 *해당 데이터*를 볼 수 있는 추가 옵션을 가지고 있습니다. 포함 필요에 따라 JavaScript 및 REST API를 완벽하게 활용할 수 있습니다.
 
@@ -53,7 +53,7 @@ Power BI 라이선스가 없는 고객 및 사용자의 경우 조직 또는 고
 
 **조직에 대한 콘텐츠를 포함하면** Power BI 서비스를 확장할 수 있습니다. 이 유형의 임베딩은 애플리케이션의 사용자가 콘텐츠를 보기 위해 Power BI 서비스에 로그인해야 합니다. 조직 내 사용자가 로그인하면 본인이 소유하거나 Power BI 서비스에서 사용자가 공유한 대시보드 및 보고서에만 액세스할 수 있습니다.
 
-조직 포함 예제에는 [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Microsoft Teams 통합(관리자 권한 필요)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) 및 [Microsoft Dynamics](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)와 같은 내부 애플리케이션이 포함됩니다.
+조직 포함 예제에는 [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Microsoft Teams 통합(관리자 권한 필요)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) 및 [Microsoft Dynamics](/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)와 같은 내부 애플리케이션이 포함됩니다.
 
 조직에 대한 콘텐츠를 포함하려면 [자습서: 조직의 애플리케이션에 Power BI 콘텐츠 포함](embed-sample-for-your-organization.md)을 참조하세요.
 

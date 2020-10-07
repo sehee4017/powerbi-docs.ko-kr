@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 03/12/2019
-ms.openlocfilehash: 38e6ac3be143381304f1fdfc8e1427b91f398a9a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 99df7a301a1025d50c82c5cc7f5966325a6a6a6f
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82196632"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747531"
 ---
 # <a name="how-to-create-mobile-friendly-power-bi-visuals"></a>모바일 친화적인 Power BI 시각적 개체를 만드는 방법
 모바일 사용은 Power BI에서 중요한 역할을 합니다. 그 장점 중 하나는 언제 어디서나 데이터에 연결되어 있다는 것입니다.
 
 Power BI 시각적 개체를 만드는 개발자는 가능한 한 많은 사용자에게 도달하고 최상의 모바일 환경을 제공하기 위해 각 모바일 디바이스의 고유한 제약 조건을 처리해야 합니다.
 
-[Windows, iOS 및 Android용 Power BI 앱](/power-bi/consumer/mobile/mobile-apps-for-mobile-devices)을 사용하여 비즈니스 사용자가 손가락 끝 터치를 통해 이동 중인 데이터를 포괄적으로 볼 수 있습니다.
+[Windows, iOS 및 Android용 Power BI 앱](../../consumer/mobile/mobile-apps-for-mobile-devices.md)을 사용하여 비즈니스 사용자가 손가락 끝 터치를 통해 이동 중인 데이터를 포괄적으로 볼 수 있습니다.
 
 ## <a name="requirements"></a>요구 사항
 
@@ -63,7 +63,7 @@ Power BI 시각적 개체를 만드는 개발자는 가능한 한 많은 사용�
   데스크톱 브라우저의 시각적 개체에도 동일한 설정을 적용할 수 있으며, 필요한 경우 시각적 개체를 더 작은 화면으로 조정하도록 재정의할 수 있습니다.
 
   > [!NOTE]
-  > **포커스** 모드에서 시각적 개체를 최적화하려면 세로 및 가로 화면 크기 방향을 모두 고려해야 합니다. [포커스 모드에서 콘텐츠 표시](/power-bi/consumer/end-user-focus)를 참조하세요.
+  > **포커스** 모드에서 시각적 개체를 최적화하려면 세로 및 가로 화면 크기 방향을 모두 고려해야 합니다. [포커스 모드에서 콘텐츠 표시](../../consumer/end-user-focus.md)를 참조하세요.
 
 - 대화형
 
@@ -74,9 +74,9 @@ Power BI 시각적 개체를 만드는 개발자는 가능한 한 많은 사용�
   모바일 디바이스에서 렌더링할 수 없는 경우 시각적 개체에 설명이 포함된 오류가 표시됩니다.
 
 ## <a name="supported-browsers-and-devices"></a>지원되는 브라우저 및 디바이스
-Power BI 시각적 개체는 Power BI 앱을 지원하는 모든 디바이스에서 렌더링해야 합니다. 자세한 내용은 [Power BI에 지원되는 브라우저](/power-bi/power-bi-browsers) 및 [Power BI 모바일 앱](/power-bi/consumer/mobile/mobile-apps-for-mobile-devices)을 참조하세요.
+Power BI 시각적 개체는 Power BI 앱을 지원하는 모든 디바이스에서 렌더링해야 합니다. 자세한 내용은 [Power BI에 지원되는 브라우저](../../fundamentals/power-bi-browsers.md) 및 [Power BI 모바일 앱](../../consumer/mobile/mobile-apps-for-mobile-devices.md)을 참조하세요.
 
 최신 Windows, iOS 및 Android 디바이스 모델을 테스트할 때 개발자는 이러한 품질 측면의 대부분을 고려해야 합니다.
 
 ## <a name="next-steps"></a>다음 단계
-시작하려면 [자습서: Power BI 시각적 개체 개발](/power-bi/developer/visuals/custom-visual-develop-tutorial)을 참조하세요.
+시작하려면 [자습서: Power BI 시각적 개체 개발](./custom-visual-develop-tutorial.md)을 참조하세요.
