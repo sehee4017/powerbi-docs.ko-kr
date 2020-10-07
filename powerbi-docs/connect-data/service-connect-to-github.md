@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 05/19/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 706e4221c131f1743ff00bb9a7b6c0812394cbb8
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 2e482c6efd60352721e1788a7929128af1b8cf89
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782435"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633633"
 ---
 # <a name="connect-to-github-with-power-bi"></a>Power BI로 GitHub에 연결
 이 문서에서는 Power BI 템플릿 앱을 사용하여 GitHub 계정에서 데이터를 가져오는 과정을 안내합니다. 템플릿 앱은 대시보드, 보고서 세트 및 데이터 세트로 구성되고 GitHub 데이터를 탐색할 수 있게 해주는 작업 영역을 생성합니다. Power BI용 GitHub 앱은 기여, 이슈, 끌어오기 요청 및 활성 사용자와 관련된 데이터가 포함된 GitHub 리포지토리(리포라고도 함)의 인사이트를 표시합니다.
@@ -125,7 +125,9 @@ GitHub의 리포지토리 자체를 보면 소유자와 리포지토리를 확�
 
 첫 번째 부분 "Azure"는 소유자이고 두 번째 부분 "azure-sdk-for-php"는 리포지토리 자체입니다.  리포지토리의 URL에도 동일한 두 항목이 표시됩니다.
 
-    <https://github.com/Azure/azure-sdk-for-php> .
+```console
+<https://github.com/Azure/azure-sdk-for-php> .
+```
 
 ## <a name="troubleshooting"></a>문제 해결
 필요한 경우 GitHub 자격 증명을 확인할 수 있습니다.  

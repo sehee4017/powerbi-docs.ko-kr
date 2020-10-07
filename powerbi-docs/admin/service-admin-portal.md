@@ -10,12 +10,12 @@ ms.date: 09/25/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: ae904f203c3f5b9437fd01b9306cc160e6feff1b
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 62c463972d4811bac0c5400da96a88264273a873
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91375261"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600262"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
@@ -393,7 +393,7 @@ Azure AD B2B 게스트 사용자는 조직의 콘텐츠를 편집하고 관리�
 
 ### <a name="use-arcgis-maps-for-power-bi"></a>ArcGIS Maps for Power BI 사용
 
-조직의 사용자는 Esri에서 제공하는 ArcGIS Maps for Power BI 시각화를 사용할 수 있습니다. [자세히 알아보기](../visuals/power-bi-visualization-arcgis.md)
+조직의 사용자는 Esri에서 제공하는 ArcGIS Maps for Power BI 시각화를 사용할 수 있습니다. [자세히 알아보기](../visuals/power-bi-visualizations-arcgis.md)
 
 ### <a name="use-global-search-for-power-bi-preview"></a>Power BI(미리 보기)용 전역 검색 사용
 

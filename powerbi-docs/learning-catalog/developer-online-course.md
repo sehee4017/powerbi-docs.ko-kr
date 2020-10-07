@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/01/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 82f9ffaeb98610dd9ae5986031638c5086749937
-ms.sourcegitcommit: 7fba2caf3bd7ed93a7ecb6a6b9ba2da26de27395
+ms.openlocfilehash: bb5e2d0accd2db339666e23c449164103bb26ac8
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2020
-ms.locfileid: "84467036"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527887"
 ---
 # <a name="power-bi-developer-in-a-day-course"></a>Power BI 개발자 하루에 끝내기 과정
 
@@ -85,7 +85,7 @@ Power BI에 대한 지식은 도움이 되지만 반드시 필요한 것은 아�
 
 - 최신 버전의 [Power BI Desktop](../fundamentals/desktop-get-the-desktop.md)
 - Visual Studio 2015 이상. [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/)를 권장합니다. **커뮤니티** 버전을 사용할 수 있습니다. 이 버전은 무료이며 학습 시나리오에 적합합니다. **ASP.NET 및 웹 개발** 워크로드가 설치되어 있어야 합니다.
-- [Power BI에서 지원](../power-bi-browsers.md)하는 웹 브라우저. Microsoft Edge를 권장합니다.
+- [Power BI에서 지원](../fundamentals/power-bi-browsers.md)하는 웹 브라우저. Microsoft Edge를 권장합니다.
 
 시작하려면 다음 단계를 수행하세요.
 
@@ -106,7 +106,7 @@ Power BI에 대한 지식은 도움이 되지만 반드시 필요한 것은 아�
 첫 번째 랩을 시작할 준비가 되면 **&lt;CourseFolder&gt;\PowerBIDevIAD\Lab01A\PowerBIDevIAD_Lab01A.pdf** 파일을 엽니다. 이 문서에서는 Power BI 서비스에 로그인하여 Power BI 보고서를 작성하는 방법을 안내합니다.
 
 > [!NOTE]
-> 고유의 Power BI 계정이 있어야 합니다. 계정이 없는 경우 [개인으로 Power BI 가입](../service-self-service-signup-for-power-bi.md)을 참조하세요.
+> 고유의 Power BI 계정이 있어야 합니다. 계정이 없는 경우 [개인으로 Power BI 가입](../fundamentals/service-self-service-signup-for-power-bi.md)을 참조하세요.
 >
 > 계정에 Power BI Pro 라이선스가 있거나 Power BI Pro 평가판 라이선스를 수락할 수 있습니다(한 번만 수락할 수 있음). 또한 계정은 Power BI Pro 라이선스에서 사용할 수 있는 무료 포함 토큰을 소진해서는 안됩니다.
 >

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 09/28/2020
-ms.openlocfilehash: 3a755b2b4eeba407178d7afa0a0250b6897e6dac
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: aa4df6db3058ef3d6f8c399e1bf20f0edf17ebc8
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526355"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600491"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Power BI 서비스에서 페이지를 매긴 보고서에 대한 매개 변수 만들기
 
@@ -62,11 +62,6 @@ ms.locfileid: "91526355"
   
 9. **확인**을 선택합니다. 
 
-## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
-
-- Power BI 데이터 세트 또는 Analysis Services 모델을 데이터 원본으로 사용하는 경우 1000개가 넘는 매개 변수 값을 단일 요청으로 전달할 수 없습니다. DAX는 매개 변수를 1,000개의 값으로 제한합니다. 
-
- 
 ## <a name="next-steps"></a>다음 단계
 
 Power BI 서비스에서 매개 변수가 표시되는 방법을 확인하려면 [페이지를 매긴 보고서에 대한 매개 변수 보기](../consumer/paginated-reports-view-parameters.md)를 참조하세요.

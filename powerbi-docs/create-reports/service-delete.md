@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: ff31548801f372fa1e20949e5c109cc9214f55e1
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: b2263a1eddfdbc51f0e345443f7bbb75b11da6e7
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264488"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632735"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Power BI 서비스에서 거의 모든 요소 삭제
 이 문서에서는 Power BI 서비스에서 대시보드, 보고서, 통합 문서, 데이터 세트, 앱, 시각화 및 작업 영역을 삭제하는 방법을 안내합니다.
@@ -28,7 +28,7 @@ ms.locfileid: "86264488"
 
 ### <a name="to-delete-a-dashboard"></a>대시보드를 삭제하려면
 1. 작업 영역에서 **대시보드** 탭을 선택합니다.
-2. 삭제할 대시보드를 찾은 후 삭제 아이콘 ![삭제 아이콘](media/service-delete/power-bi-delete-icon.png).
+2. 삭제할 대시보드를 찾은 후 삭제 아이콘 :::image type="icon" source="media/service-delete/power-bi-delete-icon.png" border="false":::을 선택합니다.
 
     ![비디오](media/service-delete/power-bi-delete-dash.gif)
 
@@ -37,7 +37,7 @@ ms.locfileid: "86264488"
 
 ### <a name="to-delete-a-report"></a>보고서를 삭제하려면
 1. 내 작업 영역에서 **보고서** 탭을 선택합니다.
-2. 삭제할 보고서를 찾은 후 삭제 아이콘   ![삭제 아이콘](media/service-delete/power-bi-delete-icon.png).   
+2. 삭제할 보고서를 찾은 후 삭제 아이콘 :::image type="icon" source="media/service-delete/power-bi-delete-icon.png" border="false":::을 선택합니다.   
 
     ![작업 영역의 보고서 탭](media/service-delete/power-bi-delete-reportnew.png)
 3. 삭제를 확인합니다.
@@ -56,7 +56,7 @@ ms.locfileid: "86264488"
 
 ### <a name="to-delete-a-workbook"></a>통합 문서를 삭제하려면
 1. 내 작업 영역에서 **통합 문서** 탭을 선택합니다.
-2. 삭제할 통합 문서를 찾은 후 삭제 아이콘 ![삭제 아이콘](media/service-delete/power-bi-delete-report2.png) 을 선택합니다.
+2. 삭제할 통합 문서를 찾은 후 삭제 아이콘 :::image type="icon" source="media/service-delete/power-bi-delete-report2.png" border="false":::을 선택합니다.
 
     ![통합 문서 탭](media/service-delete/power-bi-delete-workbooknew.png)
 3. 삭제를 확인합니다.
@@ -111,7 +111,7 @@ ms.locfileid: "86264488"
 
 2. 오른쪽 위에 있는 **추가 옵션**(...)을 선택한 다음, **작업 영역 나가기** > **나가기**를 선택합니다.
 
-      ![작업 영역 나가기](media/service-delete/power-bi-leave-workspace.png)
+      :::image type="icon" source="media/service-delete/power-bi-leave-workspace.png" border="false":::
 
    > [!NOTE]
    > 드롭다운에 표시되는 옵션은 해당 작업 영역의 관리자인지 또는 구성원인지에 따라 달라집니다.
@@ -125,7 +125,7 @@ ms.locfileid: "86264488"
 앱 목록 페이지에서 앱을 삭제해도 다른 구성원에 대한 앱은 삭제되지 않습니다.
 
 1. 탐색 창에서 **앱**을 선택하여 앱 목록 페이지를 엽니다.
-2. 삭제할 앱을 가리키고 삭제 ![휴지통 아이콘](media/service-delete/power-bi-delete-report2.png)  아이콘을 선택합니다.
+2. 삭제할 앱에 마우스를 올려 놓은 후 삭제 아이콘 :::image type="icon" source="media/service-delete/power-bi-delete-report2.png" border="false":::을 선택합니다.
 
    ![앱 선택](media/service-delete/power-bi-delete-app.png)
 

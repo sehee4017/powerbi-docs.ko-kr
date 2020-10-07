@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 ms.date: 07/28/2020
-ms.openlocfilehash: 18629f38db7d8b88c47d4a1af3a5c3f6512433b4
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 02d5b30f4e3f769e3c20cc7faa8b051e8114e5c5
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859155"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91599964"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Report Server 및 Power BI 서비스 비교
 
@@ -43,7 +43,7 @@ Power BI Report Server 및 Power BI 서비스에는 많은 유사성과 일부 �
 | Excel에서 분석 | 아니요 | 예 | [Excel에서 분석](../collaborate-share/service-analyze-in-excel.md) 
 | 페이지를 매긴 보고서 | 예 | 예 | 프리미엄 용량에서 [Power BI 서비스에서 페이지를 매긴 보고서를 미리 보기로 사용할 수 있음](../paginated-reports/paginated-reports-report-builder-power-bi.md) |
 | Power BI 모바일 앱 | 예 | 예 | [Power BI 모바일 앱 개요](../consumer/mobile/mobile-apps-for-mobile-devices.md) |
-| ARC GIS 지도 | 아니요 | 예 | [Power BI 서비스 및 Power BI Desktop에서 Esri로 ArcGIS 지도 만들기](../visuals/power-bi-visualization-arcgis.md) |
+| ARC GIS 지도 | 아니요 | 예 | [Power BI 서비스 및 Power BI Desktop에서 Esri로 ArcGIS 지도 만들기](../visuals/power-bi-visualizations-arcgis.md) |
 | Power BI 보고서에 대한 메일 구독 | 아니요 | 예 | Power BI 서비스의 보고서 또는 대시보드에 [자신이나 다른 사용자 구독](../collaborate-share/service-report-subscribe.md) |
 | 페이지를 매긴 보고서에 대한 메일 구독 | 예 | 예 | [Power BI 서비스의 페이지가 매겨진 보고서에 자신과 다른 사용자 구독](../consumer/paginated-reports-subscriptions.md)<br><br>[Reporting Services의 메일 전송](/sql/reporting-services/working-with-subscriptions-web-portal)  |
 | 데이터 경고 | 아니요 | 예 | Power BI 서비스의 [데이터 경고](../create-reports/service-set-data-alerts.md)

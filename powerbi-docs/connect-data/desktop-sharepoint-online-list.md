@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 74dbd1207a39f44f761c5068af41db1f40acabe3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f6bcd67d41f2c04cedd7c66eb5989f2a6919b030
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222681"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91598663"
 ---
 # <a name="create-a-report-on-a-sharepoint-list"></a>SharePoint 목록에서 보고서 만들기
 
@@ -30,7 +30,7 @@ ms.locfileid: "85222681"
 2. Power BI Desktop을 열고 리본에 있는 홈 탭에서 **데이터 가져오기** > **추가**를 선택합니다.
 3. **Online Services**을 선택한 다음 **SharePoint Online 목록**을 선택합니다.  
 
-    <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-getdata.png" alt="get data" width="350"/>
+    <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-getdata.png" alt="Screenshot shows the Get Data dialog box with Online Services selected." width="350"/>
 
 4. **연결**을 선택합니다.
 4. 목록이 포함된 SharePoint Online 사이트의 주소(또는 URL)를 찾습니다.  SharePoint Online의 페이지에서는, 일반적으로 탐색 창에서 **홈**을 선택하거나, 맨 위에 있는 사이트의 아이콘을 선택하고 웹 브라우저의 주소 표시줄에서 주소를 복사하여 사이트 주소를 가져올 수 있습니다.
@@ -52,7 +52,7 @@ ms.locfileid: "85222681"
 
 9. 탐색기의 왼쪽에서 연결하려는 SharePoint 목록 옆에 있는 확인란을 선택합니다.
 
-    <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-select-list.png" alt="get data" width="450"/>
+    <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-select-list.png" alt="Screenshot shows the Navigator page with BudgetRequests selected." width="450"/>
 
 10. **로드**를 선택합니다.  Power BI에서 목록 데이터를 새 보고서로 로드합니다.
 
