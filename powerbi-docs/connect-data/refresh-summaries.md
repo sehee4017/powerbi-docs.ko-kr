@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/27/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 44aeb5030008d17a9998e8357f23d47524f11512
-ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
+ms.openlocfilehash: 469e2de86d18b9adeb4a7c8aeabeaae1db2a28de
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89040227"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600454"
 ---
 # <a name="refresh-summaries-for-power-bi"></a>Power BI의 새로 고침 요약
 
@@ -53,11 +53,11 @@ Power BI 관리 포털에 있는 Power BI **새로 고침 요약** 페이지에�
 
 새로 고침 요약에서 **일정**을 클릭하여 **일정** 보기를 선택할 수 있습니다. 일정 보기에서는 주의 일정 정보를 30분 시간 슬롯으로 분할해서 표시합니다. 
 
-![일정 보기](media/refresh-summaries/refresh-summaries-02a.jpg)
+![스크린샷은 새로 고침 일정 페이지의 일정 탭을 자세히 보여 줍니다.](media/refresh-summaries/refresh-summaries-02a.jpg)
 
 일정 보기는 모든 새로 고침이 겹치지 않고 완료될 수 있도록 예약된 새로 고침 이벤트가 올바른 간격으로 설정되었는지 여부나 너무 오래 걸리고 리소스 경합을 일으키는 새로 고침 이벤트를 예약했는지 여부를 확인하는 데 유용합니다. 이러한 리소스 경합이 있는 경우 예약된 새로 고침이 완료될 수 있도록 새로 고침 일정을 조정하여 충돌이나 겹침을 방지해야 합니다. 
 
-![일정 보기](media/refresh-summaries/refresh-summaries-02.jpg)
+![스크린샷은 새로 고침 일정 페이지의 일정 탭을 보여 줍니다.](media/refresh-summaries/refresh-summaries-02.jpg)
 
 *새로 고침 예약 시간(분)* 열은 연관된 각 데이터 세트의 최대 60개 레코드의 평균을 계산한 값입니다. 각 30분 시간 슬롯의 숫자 값은 시간 슬롯에서 시작하도록 예약된 모든 새로 고침 **및** *이전* 시간 슬롯에서 시작하도록 설정되었지만 평균 기간이 선택된 시간 슬롯으로 오버플로되는 모든 예약된 새로 고침에 대해 계산된 시간(분)의 합계입니다.
 
@@ -67,7 +67,7 @@ Power BI 관리 포털에 있는 Power BI **새로 고침 요약** 페이지에�
 
 작동 방식을 알아보기 위해 예를 살펴보겠습니다. 일요일 오후 8시 30분 시간 슬롯을 선택하고 **세부 정보**를 클릭하면 다음과 같은 대화 상자가 표시됩니다.
 
-![일정 보기](media/refresh-summaries/refresh-summaries-04.jpg)
+![스크린샷은 선택한 시간에 대한 새로 고침 세부 정보를 보여 줍니다.](media/refresh-summaries/refresh-summaries-04.jpg)
 
 이 시간 슬롯에서는 3개의 예약된 새로 고침 이벤트가 발생합니다. 
 

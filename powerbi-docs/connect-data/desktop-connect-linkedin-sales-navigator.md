@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 11/11/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b87e176338552f0a90c4789d35f531fd7b12d44a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: dd8e453a0cec6c404cad077a85f68044fa57ba1f
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224751"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600256"
 ---
 # <a name="connect-to-linkedin-sales-navigator-in-power-bi-desktop"></a>Power BI Desktop에서 LinkedIn Sales Navigator에 연결
 
@@ -86,7 +86,7 @@ LinkedIn Sales Navigator 데이터를 사용하여 원하는 모든 보고서를
 
 **사용량** 탭은 전체 LinkedIn Sales Navigator 데이터를 표시합니다.
 
-![LinkedIn Sales Navigator 사용량 탭](media/desktop-connect-linkedin-sales-navigator/linkedin-sales-navigator-12.png)
+![LinkedIn Sales Navigator 사용량 탭은 전체 LinkedIn Sales Navigator 데이터를 표시합니다.](media/desktop-connect-linkedin-sales-navigator/linkedin-sales-navigator-12.png)
 
 **검색** 탭을 사용하여 검색 결과를 심층적으로 드릴할 수 있습니다.
 

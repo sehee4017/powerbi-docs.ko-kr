@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: troubleshooting
-ms.date: 07/15/2019
+ms.date: 09/25/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4d106a2bd2c11d049307a2b6f752d9486cd5aa20
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 045d7df36deefae5c323e88d0ddf3053ea56682e
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860696"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634645"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>게이트웨이 문제 해결 - Power BI
 
@@ -32,9 +32,11 @@ ms.locfileid: "90860696"
 
 ### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>오류: 연결할 수 없습니다. 세부 정보: “잘못된 연결 자격 증명입니다.”
 
-**세부 정보 표시**에 데이터 원본에서 받은 오류 메시지가 표시됩니다. SQL Server의 경우 다음과 유사한 출력이 표시됩니다.
+**세부 정보 표시**에 데이터 원본에서 받은 오류 메시지가 표시됩니다. SQL Server의 경우 다음과 같은 메시지가 표시됩니다.
 
-    Login failed for user 'username'.
+```output
+Login failed for user 'username'.
+```
 
 사용자 이름과 암호가 올바른지 확인합니다. 또한 해당 자격 증명을 데이터 원본에 연결할 수 있는지 확인합니다. 사용 중인 계정이 인증 방법과 일치하는지 확인합니다.
 
@@ -44,7 +46,9 @@ ms.locfileid: "90860696"
 
 **세부 정보 표시**에 데이터 원본에서 받은 오류 메시지가 표시됩니다. SQL Server의 경우 다음과 유사한 출력이 표시됩니다.
 
-    Cannot open database "AdventureWorks" requested by the login. The login failed. Login failed for user 'username'.
+```output
+Cannot open database "AdventureWorks" requested by the login. The login failed. Login failed for user 'username'.
+```
 
 ### <a name="error-unable-to-connect-details-unknown-error-in-data-gateway"></a>오류: 연결할 수 없습니다. 세부 정보: “데이터 게이트웨이에서 알 수 없는 오류 발생”
 
@@ -62,11 +66,15 @@ ms.locfileid: "90860696"
 
 기본 오류 메시지가 다음과 유사한 경우 데이터 원본에 사용하는 계정이 해당 Analysis Services 인스턴스에 대한 서버 관리자가 아니라는 뜻입니다. 자세한 내용은 [Analysis Services 인스턴스에 서버 관리 권한 부여](/sql/analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance)를 참조하세요.
 
-    The 'CONTOSO\account' value of the 'EffectiveUserName' XML for Analysis property is not valid.
+```output
+The 'CONTOSO\account' value of the 'EffectiveUserName' XML for Analysis property is not valid.
+```
 
 기본 오류 메시지가 다음과 유사한 경우 Analysis Services에 대한 서비스 계정에서 TGGAU([token-groups-global-and-universal](/windows/win32/adschema/a-tokengroupsglobalanduniversal)) 디렉터리 특성이 누락되었을 수 있습니다.
 
-    The username or password is incorrect.
+```output
+The username or password is incorrect.
+```
 
 Windows 2000 이전 호환성 액세스 권한이 있는 도메인에는 TGGAU 특성이 설정되어 있습니다. 최근 새로 만든 도메인에는 기본적으로 이 특성이 설정되어 있지 않습니다. 자세한 내용은 [일부 애플리케이션 및 API에서 계정 개체에 대한 인증 정보에 액세스권한이 필요함](https://support.microsoft.com/kb/331951)을 참조하세요.
 
@@ -75,13 +83,17 @@ Windows 2000 이전 호환성 액세스 권한이 있는 도메인에는 TGGAU �
 1. SQL Server Management Studio 내에서 Analysis Services 컴퓨터에 연결합니다. 고급 연결 속성 내에서 문제의 사용자에 대한 EffectiveUserName을 포함하고 이와 같이 추가한 결과 오류가 생성되는지 확인합니다.
 2. dsacls Active Directory 도구를 사용하여 특성이 나열되는지 여부를 확인할 수 있습니다. 이 도구는 도메인 컨트롤러에 있습니다. 계정에 해당하는 고유 도메인 이름을 알아야 하며 이 이름을 도구에 전달해야 합니다.
 
-        dsacls "CN=John Doe,CN=UserAccounts,DC=contoso,DC=com"
+   ```console
+   dsacls "CN=John Doe,CN=UserAccounts,DC=contoso,DC=com"
+   ```
 
     다음과 유사한 결과를 얻으려 합니다.
 
-            Allow BUILTIN\Windows Authorization Access Group
-                                          SPECIAL ACCESS for tokenGroupsGlobalAndUniversal
-                                          READ PROPERTY
+   ```console
+   Allow BUILTIN\Windows Authorization Access Group
+                                   SPECIAL ACCESS for tokenGroupsGlobalAndUniversal
+                                   READ PROPERTY
+   ```
 
 이 문제를 해결하려면 Analysis Services Windows 서비스에 사용되는 계정에서 TGGAU를 사용하도록 설정해야 합니다.
 
@@ -139,7 +151,9 @@ Windows 2000 이전 호환성 액세스 권한이 있는 도메인에는 TGGAU �
 1. [게이트웨이 로그](/data-integration/gateway/service-gateway-tshoot#collect-logs-from-the-on-premises-data-gateway-app) 내에서 유효한 사용자 이름을 찾습니다.
 2. 값이 전달된 후에는 값이 정확한지 확인합니다. 자신의 사용자인 경우 명령 프롬프트에서 다음 명령을 사용하여 UPN을 확인할 수 있습니다. UPN은 이메일 주소와 유사합니다.
 
-        whoami /upn
+   ```console
+   whoami /upn
+   ```
 
 필요에 따라 Power BI가 Azure Active Directory에서 가져오는 것을 확인할 수 있습니다.
 
@@ -147,10 +161,13 @@ Windows 2000 이전 호환성 액세스 권한이 있는 도메인에는 TGGAU �
 2. 오른쪽 위 모퉁이에서 **로그인**을 선택합니다.
 3. 다음 쿼리를 실행합니다. 큰 JSON 응답이 표시됩니다.
 
-        https://graph.windows.net/me?api-version=1.5
+   ```http
+   https://graph.windows.net/me?api-version=1.5
+   ```
+
 4. **userPrincipalName**을 찾습니다.
 
-Azure Active Directory UPN이 로컬 Active Directory UPN과 일치하지 않는 경우 [사용자 이름 매핑](service-gateway-enterprise-manage-ssas.md#map-user-names-for-analysis-services-data-sources) 기능을 사용하여 올바른 값으로 바꿀 수 있습니다. 또는 테넌트 관리자, 로컬 Active Directory 관리자와 작업하여 UPN을 변경할 수 있습니다.
+Azure Active Directory UPN이 로컬 Active Directory UPN과 일치하지 않는 경우 [사용자 이름 매핑](service-gateway-enterprise-manage-ssas.md#map-user-names-for-analysis-services-data-sources) 기능을 사용하여 올바른 값으로 바꿀 수 있습니다. 또는 Power BI 관리자나 로컬 Active Directory 관리자와 작업하여 UPN을 변경할 수 있습니다.
 
 ## <a name="kerberos"></a>Kerberos
 
@@ -192,11 +209,11 @@ FailedToImpersonateUserException은 다른 사용자를 대신해서 가장할 �
 
 * SAP HANA를 사용하려면 가장된 사용자가 Active Directory(사용자 별칭)에 sAMAccountName 특성을 사용해야 합니다. 이 특성이 올바르지 않으면 1033 오류가 표시됩니다.
 
-    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount.png)
+    ![특성 편집기](media/service-gateway-onprem-tshoot/sAMAccount.png)
 
 * 로그에는 UPN이 아닌 sAMAccountName(별칭)이 표시됩니다. 이 별칭 뒤에는 도메인(alias@doimain.com)이 표시됩니다.
 
-    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
+    ![로그의 계정 정보](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
 
 ```xml
       <setting name="ADUserNameReplacementProperty" serializeAs="String">

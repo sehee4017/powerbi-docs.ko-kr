@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 78aac3b12abc0e055094078c59f39911a026e797
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8e794ecc67f7873efb1ee5750f55aefb3d93b40b
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238498"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600312"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Power BI Desktop의 보고서 페이지에 기반한 도구 설명 만들기
 **Power BI Desktop**에서 만든 보고서 페이지에 기반을 둔 시각적 개체를 가리키면 나타나는 **보고서 도구 설명**을 시각적으로 풍부하게 만들 수 있습니다. 도구 설명으로 사용되는 보고서 페이지를 만들면 사용자 지정 도구 설명에 시각적 개체, 이미지 및 기타 보고서 페이지에서 만든 항목 컬렉션을 포함할 수 있습니다. 
@@ -46,7 +46,7 @@ ms.locfileid: "85238498"
 
 여기에서 도구 설명에 표시할 시각적 개체를 만들 수 있습니다. 다음 이미지에는 도구 설명 페이지에 두 개의 카드와 하나의 클러스터된 막대형 차트가 있고 페이지 자체의 배경색, 각 시각적 개체의 배경색으로 원하는 모양을 지정했습니다.
 
-![Power BI Desktop의 보고서 도구 설명](media/desktop-tooltips/desktop-tooltips_06.png)
+![스크린샷은 사용자 지정된 보고서 도구 설명을 보여 줍니다.](media/desktop-tooltips/desktop-tooltips_06.png)
 
 도구 설명 보고서 페이지가 도구 설명으로 작동하려면 더 많은 단계를 완료해야 합니다. 다음 섹션에 설명된 대로 몇 가지 방법으로 도구 설명 페이지를 구성해야 합니다. 
 

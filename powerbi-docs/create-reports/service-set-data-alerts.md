@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/02/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: dab2e4b7bdc3da8278db6765e7233d98d7dba473
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 55d196a9b041f52632300f6e10c00d753ca02a14
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85218726"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635082"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Power BI 서비스의 데이터 경고
 
@@ -46,7 +46,7 @@ Amanda가 대시보드의 타일에 몇 가지 경고를 추가하는 과정을 
 
 1. 먼저 **+경고 규칙 추가**를 선택하고 **활성** 슬라이더가 **켜기**로 설정되어 있는지 확인한 다음, 경고 제목을 입력합니다. 제목은 경고를 쉽게 인식하는 데 도움이 됩니다.
 
-   ![경고 관리 창](media/service-set-data-alerts/powerbi-alert-title.png)
+   ![스크린샷은 경고 규칙 추가, 전체 매장에 대한 경고 및 경고 제목이 호출된 경고 관리 창을 보여 줍니다.](media/service-set-data-alerts/powerbi-alert-title.png)
 
 1. 아래로 스크롤하여 경고 세부 정보를 입력합니다.  이 예제에서는 총 매장 수가 100개를 넘으면 하루에 한 번 알려주는 경고를 만듭니다.
 
@@ -93,7 +93,7 @@ Amanda가 대시보드의 타일에 몇 가지 경고를 추가하는 과정을 
 
     Power BI에서 해당 타일에 대해 설정된 경고를 표시합니다.
 
-    ![경고 관리 창](media/service-set-data-alerts/powerbi-see-alerts.png)
+    ![스크린샷은 경고 관리 창을 보여 줍니다.](media/service-set-data-alerts/powerbi-see-alerts.png)
 
 1. 경고를 수정하려면, 경고 이름 왼쪽에 있는 화살표를 선택합니다.
 

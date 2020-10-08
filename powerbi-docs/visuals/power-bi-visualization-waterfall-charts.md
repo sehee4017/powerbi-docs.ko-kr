@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 12/5/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2e0aa8c5845c7f87f15e9b152bcaa20094e83ade
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 148fe66039cb273d4ee20521762d5720252c7492
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237793"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635726"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI의 폭포 차트
 
@@ -96,7 +96,7 @@ ms.locfileid: "85237793"
 
 1.  **매장** > **지역**을 선택하면 **분석** 버킷에 **지역**이 추가됩니다.
 
-    ![분석 버킷의 매장 표시](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
+    ![스크린샷은 지역을 분석 결과 영역에 추가하는 것을 보여 줍니다.](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
 
     Power BI는 **분석**의 값을 사용하여 시각화에 데이터를 추가합니다. 각 회계 월에 대해 증가하거나 감소하는 상위 5개 요인을 추가합니다. 예를 들어, 2월에는 1개가 아닌, 6개의 데이터 요소가 있음을 의미합니다.  
 
