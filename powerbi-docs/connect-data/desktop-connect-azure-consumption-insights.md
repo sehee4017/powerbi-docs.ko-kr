@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a8d2284a24bb04b175a00a69339ba9e6ac260c10
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 7d036af591ae9c5fc44370085480c9266e328745
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858628"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632598"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Power BI Desktop에서 Azure Consumption Insights 데이터에 연결
 
@@ -110,9 +110,7 @@ Azure Consumption Insights를 사용하면 Azure Enterprise Agreement 청구 계
 1. 왼쪽 **쿼리** 창에서 마우스 오른쪽 단추를 클릭합니다. 
 2. 표시되는 메뉴에서 **새 쿼리 > 빈 쿼리**를 선택합니다.
 
-**수식 입력줄**에 다음을 입력합니다.
-
-    = MicrosoftAzureConsumptionInsights.Contents
+**수식 입력줄**에서 *= MicrosoftAzureConsumptionInsights.Contents*를 입력합니다.
 
 다음 그림은 표시되는 샘플 컬렉션을 보여 줍니다.
 
@@ -141,12 +139,14 @@ Azure Consumption Insights를 사용하면 Azure Enterprise Agreement 청구 계
 ### <a name="step-2-create-a-query-in-advanced-editor"></a>2단계: 고급 편집기에서 쿼리 만들기
 **쿼리 편집기**에서 **홈** 리본의 **쿼리** 섹션에 있는 **고급 편집기**를 선택합니다. **고급 편집기** 창이 나타나면 다음 쿼리를 입력합니다.
 
-    let    
-        enrollmentNumber = "100",
-        optionalParameters = [ numberOfMonth = 6, dataType="DetailCharges" ],
-        data = MicrosoftAzureConsumptionInsights.Contents(enrollmentNumber, optionalParameters)   
-    in     
-        data
+```console
+let    
+    enrollmentNumber = "100",
+    optionalParameters = [ numberOfMonth = 6, dataType="DetailCharges" ],
+    data = MicrosoftAzureConsumptionInsights.Contents(enrollmentNumber, optionalParameters)   
+in     
+    data
+```
 
 ![고급 편집기의 쿼리 만들기 대화 상자의 스크린샷](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_10.png)
 

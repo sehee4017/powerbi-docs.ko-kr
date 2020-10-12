@@ -7,21 +7,24 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 10/10/2019
+ms.date: 09/25/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: d6f43b3ef48946b9206343107767d2a4cb8cdc28
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9dc24d853ee363c75eca811d068288bc375b1f88
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237673"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374249"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-to-sap-bw-using-gx64krb5"></a>gx64krb5를 사용하는 SAP BW로의 SSO(Single Sign-On)에 Kerberos 사용
 
 이 문서에서는 gx64krb5를 사용하여 Power BI 서비스에서 SSO를 사용하도록 SAP BW 데이터 원본을 구성하는 방법을 설명합니다.
 
+> [!IMPORTANT]
+> SAP는 더 이상 gx64krb5을 지원하지 않으므로 Microsoft도 지원을 중단했습니다. 기존 연결과 새 연결은 2020년 말까지 계속 제대로 작동하지만 2021년 1월부터는 작동하지 않습니다. 대신 CommonCryptoLib를 사용합니다. 
+
 > [!NOTE]
-> Power BI 서비스에서 SAP BW 애플리케이션 서버 기반 보고서에 대한 SSO 기반 새로 고침을 사용하도록 설정하려면 [Kerberos SSO 구성](service-gateway-sso-kerberos.md)의 단계 이외에 이 문서의 단계를 완료할 수 있습니다. 그러나 Microsoft는 gx64krb5가 아닌 SNC 라이브러리로 CommonCryptoLib을 사용할 것을 권장합니다. SAP는 더 이상 gx64krb5를 지원하지 않으며, 게이트웨이에 구성하는 데 필요한 단계는 CommonCryptoLib에 비해 훨씬 더 복잡합니다. CommonCryptoLib를 사용하여 SSO를 구성하는 방법에 대한 자세한 내용은 [CommonCryptoLib를 사용하여 SSO에 대해 SAP BW 구성](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md)을 참조하세요. CommonCryptoLib _또는_ gx64krb5를 SNC 라이브러리로 사용해야 합니다. 두 라이브러리에 대한 구성 단계를 모두 완료하지 마세요.
+> Power BI 서비스에서 SAP BW 애플리케이션 서버 기반 보고서에 대한 SSO 기반 새로 고침을 사용하도록 설정하려면 [Kerberos SSO 구성](service-gateway-sso-kerberos.md)의 단계 이외에 이 문서의 단계를 완료할 수 있습니다. 그러나 Microsoft는 gx64krb5가 아닌 SNC 라이브러리로 CommonCryptoLib을 사용할 것을 권장합니다. SAP는 더 이상 gx64krb5를 지원하지 않으며, 게이트웨이에 구성하는 데 필요한 단계는 CommonCryptoLib에 비해 훨씬 더 복잡합니다. CommonCryptoLib를 사용하여 SSO를 구성하는 방법에 대한 자세한 내용은 [CommonCryptoLib를 사용하여 SSO에 대해 SAP BW 구성](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md)을 참조하세요. CommonCryptoLib ‘또는’ gx64krb5 중 하나만 SNC 라이브러리로 사용합니다. 두 라이브러리에 대한 구성 단계를 모두 완료하지 마세요.
 
 이 가이드는 포괄적입니다. 설명된 단계 중 일부를 이미 완료한 경우에는 건너뛰어도 됩니다. 예를 들어 gx64krb5를 사용하여 SSO에 대한 SAP BW 서버를 이미 구성했을 수 있습니다.
 

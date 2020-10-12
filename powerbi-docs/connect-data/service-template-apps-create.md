@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 09/15/2020
 ms.author: painbar
-ms.openlocfilehash: e3b6ada10138e6964240c5eb5c53399507170b79
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 2f663c8e47e9a66ec3f4ee3eb70646239be6126a
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860673"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375008"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Power BI에서 템플릿 앱 만들기
 
@@ -21,7 +21,7 @@ Power BI *템플릿 앱*을 사용하면 Power BI 파트너는 코딩이 거의 
 
 Power BI 보고서 및 대시보드를 만들 수 있는 사용자는 *템플릿 앱 작성자*가 될 수 있으며 분석 콘텐츠를 빌드하고 *앱*에 패키징할 수 있습니다. AppSource와 같은 사용 가능한 플랫폼을 통해 또는 자체 웹 서비스에서 사용하여 다른 Power BI 테넌트에 앱을 배포할 수 있습니다. 작성기는 배포를 위한 보호 분석 패키지를 만들 수 있습니다.
 
-Power BI 테넌트 관리자는 조직에서 템플릿 앱을 만들 수 있는 사람과 설치할 수 있는 사람을 관리하고 제어합니다. 권한이 있는 사용자는 템플릿 앱을 설치한 다음, 이를 수정하여 조직의 Power BI 소비자에게 배포할 수 있습니다.
+Power BI 관리자는 조직에서 템플릿 앱을 만들 수 있는 사람과 설치할 수 있는 사람을 관리하고 제어합니다. 권한이 있는 사용자는 템플릿 앱을 설치한 다음, 이를 수정하여 조직의 Power BI 소비자에게 배포할 수 있습니다.
 
 ## <a name="prerequisites"></a>필수 조건
 
@@ -163,7 +163,7 @@ URL은 릴리스 단계 간을 전환할 때 변경되지 않습니다. 승격�
 
     ![릴리스 관리 아이콘](media/service-template-apps-create/power-bi-release-management-icon.png)
 
-2. 위의 **테스트 템플릿 앱 만들기** 섹션에서 테스트 앱을 만든 경우 **링크 가져오기**를 선택합니다(그 결과 **테스트** 옆의 노란색 점이 이미 채워짐).
+2. 위의 **템플릿 앱의 속성 정의** 섹션에서 테스트 앱을 만든 경우 **링크 가져오기**를 선택합니다(그 결과 **테스트** 옆의 노란색 점이 이미 채워짐).
 
     앱을 아직 만들지 않은 경우 **앱 만들기**를 선택합니다. 그러면 템플릿 앱 만들기 프로세스로 돌아가게 됩니다.
 

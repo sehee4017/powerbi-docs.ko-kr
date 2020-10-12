@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 81ba595be7262c81cdb68f2a1ed052c45663d7a7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 108c7cea815475c98a7529a53b9a177ff5fbf405
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234370"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600154"
 ---
 # <a name="publish-to-power-bi-from-microsoft-excel"></a>Microsoft Excel에서 Power BI에 게시
 Microsoft Excel 2016 이상에서는 [Power BI](https://powerbi.microsoft.com) 작업 영역에 직접 Excel 통합 문서를 게시할 수 있습니다. 그러면 통합 문서의 데이터를 기반으로 대화형 보고서 및 대시보드를 만들 수 있습니다. 그러면 조직에서 다른 사용자와 정보를 공유할 수 있습니다.
@@ -44,11 +44,11 @@ Excel은 로컬 Excel 파일의 게시를 지원합니다. 비즈니스용 OneDr
 
 **게시**를 선택하는 경우 게시하려는 작업 영역을 선택할 수 있습니다. Excel 파일이 비즈니스용 OneDrive에 있는 경우 *내 작업 영역*에만 게시할 수 있습니다. Excel 파일이 로컬 드라이브에 있는 경우 *내 작업 영역* 또는 액세스 권한이 있는 공유 작업 영역에 게시할 수 있습니다.
 
-![Power BI에 게시](media/service-publish-from-excel/pbi_choose_workspace.png)
+![내 작업 영역이 선택된 Power BI에 게시를 보여 주는 스크린샷.](media/service-publish-from-excel/pbi_choose_workspace.png)
 
 통합 문서를 Power BI로 가져오는 두 가지 옵션.
 
-![Power BI에 게시](media/service-publish-from-excel/pbi_uploadexport3.png)
+![내 작업 영역이 선택된 게시를 보여 주는 스크린샷.](media/service-publish-from-excel/pbi_uploadexport3.png)
 
 통합 문서가 게시되면 게시하는 통합 문서 콘텐츠는 로컬 파일과 별도로 Power BI로 가져옵니다. Power BI에서 파일을 업데이트하려는 경우 업데이트된 버전을 다시 게시해야 합니다. 또는 통합 문서 또는 Power BI의 데이터 세트에서 예약된 새로 고침을 구성하여 데이터를 새로 고칠 수 있습니다.
 

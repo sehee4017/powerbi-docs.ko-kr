@@ -1,6 +1,6 @@
 ---
 title: 데이터 원본 관리 - SQL
-description: 해당 게이트웨이에 속한 온-프레미스 데이터 게이트웨이 및 데이터 원본을 관리하는 방법입니다.
+description: 해당 게이트웨이에 속한 온-프레미스 데이터 게이트웨이 및 SQL Server 데이터 원본을 관리하는 방법입니다.
 author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 851b7645a9e0b5aa09ba9fff4f71abeb79b67dfc
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bc14eb31aed256b4e70b66cad6243ca317cd0ac6
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237001"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749463"
 ---
 # <a name="manage-your-data-source---sql-server"></a>데이터 원본 관리 - SQL Server
 

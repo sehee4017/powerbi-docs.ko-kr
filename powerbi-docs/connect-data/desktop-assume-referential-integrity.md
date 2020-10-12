@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c0a7ef3ef7ce62ca1939791c3dcf198428f1353c
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: 698abf814b9b93635ba425b2c9d1d30a292714ab
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034362"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91599893"
 ---
 # <a name="apply-the-assume-referential-integrity-setting-in-power-bi-desktop"></a>Power BI Desktop의 참조 무결성 설정 가정 적용
 **DirectQuery**를 사용하여 데이터 원본에 연결할 때 **참조 무결성 가정** 선택 항목을 사용하여 데이터 원본에 대해 더 효율적인 쿼리를 실행할 수 있습니다. 이 기능에는 기본 데이터의 몇 가지 요구 사항이 있으며 **DirectQuery**를 사용하는 경우에만 사용 가능합니다.
@@ -39,7 +39,7 @@ ms.locfileid: "86034362"
    ![Orders 테이블 및 Products 테이블의 스크린샷](media/desktop-assume-referential-integrity/assume-referential-integrity_2.png)
 2. 다음 이미지에서 **DepotID**가 일부 *Orders* 에 대해 *Null* 이므로 **Orders[DepotID]** 및 **Depots[DepotID]** 사이에 참조 무결성이 없습니다. 따라서 **참조 무결성 가정**은 설정되지 *않아야* 합니다.
    
-   ![Orders 테이블 및 Products 테이블의 스크린샷](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
+   ![Orders 테이블 및 Depots 테이블의 스크린샷.](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
 3. 마지막으로 다음 테이블에서 **Orders[CustomerID]** 및 **Customers[CustID]** 사이에 참조 무결성이 없습니다. **CustomerID**는 *Customers* 테이블에 존재하지 않는 일부 값(이 경우 *CustX*)을 포함합니다. 따라서 **참조 무결성 가정**은 설정되지 *않아야* 합니다.
    
    ![Orders 테이블 및 Customers 테이블의 스크린샷](media/desktop-assume-referential-integrity/assume-referential-integrity_4.png)

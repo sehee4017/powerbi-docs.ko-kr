@@ -1,6 +1,6 @@
 ---
 title: Azure 및 Power BI
-description: Azure 및 Power BI
+description: Azure 및 Power BI를 사용하여 비즈니스에 대한 실시간 인사이트를 제공하는 분석 및 보고서로 데이터 처리 작업을 전환하는 방법을 알아봅니다.
 author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 05/08/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: c7dceceaaf063ffe4b379595cfc010e4eda2ae53
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: dd119abd50450d6090d952d0727f672dc7072abf
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858153"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749440"
 ---
 # <a name="azure-and-power-bi"></a>Azure 및 Power BI
 

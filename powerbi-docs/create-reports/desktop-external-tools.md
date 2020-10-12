@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/29/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7a7988ba9bb9efd4b2dec20fd2dc88478af439a2
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 47b5df4c07f21282b14bae8bdfd63e5c271d53a6
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855291"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635151"
 ---
 # <a name="using-external-tools-in-power-bi-desktop-preview"></a>Power BI Desktop에서 외부 도구 사용(미리 보기)
 
@@ -132,9 +132,9 @@ Power BI Desktop을 사용하여 다른 외부 도구를 등록하려면 다음 
 
 **그룹 정책**을 사용하거나 레지스트리를 편집하여 외부 도구를 사용하지 않도록 설정할 수 있습니다. 해당 작업은 **사용자 지정 시각적 개체**를 사용하지 않도록 설정하는 프로세스와 비슷합니다.
 
-    Registry key: *Software\Policies\Microsoft\Power BI Desktop\*
+* 레지스트리 키: *Software\Policies\Microsoft\Power BI Desktop\\*
 
-    Registry value: *EnableExternalTools*
+* 레지스트리 값: *EnableExternalTools*
 
 값이 1(10진수)이면 Power BI에서 외부 도구를 사용할 수 있습니다(기본값).
 

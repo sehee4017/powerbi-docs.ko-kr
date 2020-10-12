@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 02ffd0881344c8f2bef45301c25e363981d64646
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: e8c6ed4476a1bd5236d838610da624f5dde4fb4c
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965346"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600476"
 ---
 # <a name="tutorial-analyze-facebook-data-by-using-power-bi-desktop"></a>자습서:  Power BI Desktop을 사용하여 Facebook 데이터 분석
 
@@ -128,7 +128,7 @@ Power Query 편집기에서 데이터를 셰이핑하고 변환할 때 각 단�
    
    데이터가 로드되면 **보고서** 뷰의 **필드** 창에 새 쿼리로 표시됩니다.
    
-   ![새 쿼리](media/desktop-tutorial-facebook-analytics/fb-newquery.png)
+   ![Query1이라는 쿼리에 사용할 수 있는 필드를 보여 주는 스크린샷.](media/desktop-tutorial-facebook-analytics/fb-newquery.png)
    
 ## <a name="use-the-data-in-report-visualizations"></a>보고서 시각화에 데이터 사용 
 
@@ -138,7 +138,7 @@ Power Query 편집기에서 데이터를 셰이핑하고 변환할 때 각 단�
 
 1. Power BI Desktop **보고서** 뷰의 **필드** 창에서 **message**를 선택하거나 보고서 캔버스로 끌어서 놓습니다. 모든 게시 메시지를 보여주는 테이블이 캔버스에 나타납니다. 
    
-   ![새 쿼리](media/desktop-tutorial-facebook-analytics/table-viz.png)
+   ![메시지 목록이 포함된 보고서 뷰를 보여 주는 스크린샷.](media/desktop-tutorial-facebook-analytics/table-viz.png)
    
 2. 해당 테이블을 선택한 채 **필드** 창에서 **Number of comments**를 선택하거나 테이블로 끌어서 놓습니다. 
    

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f56acb7859b04f77ca403725740cb7ce472ccb7d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c056a48c78ae2e46ccd6419ad1b9d1e1a6693847
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223053"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91598806"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Power BI Desktop에서 Power BI 서비스의 데이터 세트에 연결
 
@@ -32,7 +32,7 @@ Power BI가 각광 받는 한 가지 비결은 보고서, 대시보드 및 기�
 
 비즈니스 분석가 Anna가 팀에 있다고 가정해 보겠습니다. Anna는 데이터 세트라고 하는 데이터 모델을 만드는 데 능숙합니다. Anna는 데이터 세트 및 보고서를 만든 다음 해당 보고서를 Power BI 서비스에서 공유할 수 있습니다.
 
-![Power BI 서비스에 게시](media/desktop-report-lifecycle-datasets/report-lifecycle_02a.png)
+![Power BI 서비스의 게시 단추를 보여 주는 스크린샷.](media/desktop-report-lifecycle-datasets/report-lifecycle_02a.png)
 
 모두가 Anna의 보고서와 데이터 세트를 좋아합니다. 여기서 문제가 시작됩니다. Anna의 모든 팀원이 해당 데이터 세트의 *자체 버전*을 만들고 자체 보고서를 팀과 공유하려고 합니다. 갑자기 Power BI 서비스의 팀 작업 영역에 데이터 세트가 서로 다른 수많은 보고서가 만들어집니다. 어떤 보고서가 최신인가요? 데이터 세트는 동일한가요? 다른가요? 차이점은 무엇인가요? Power BI 서비스 라이브 연결 기능을 사용하면 이 모든 문제를 개선할 수 있습니다. 다음 섹션에서는 다른 사용자가 자신의 고유한 작업 영역에서 자신의 고유한 보고서에 Anna가 게시한 데이터 세트를 어떻게 사용하며, 모든 사람이 동일하게 일치하고 심사 및 게시된 데이터 세트를 사용하여 자신의 고유한 보고서를 어떻게 작성하는지 알아봅니다.
 

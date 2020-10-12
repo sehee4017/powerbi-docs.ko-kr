@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/14/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 4ee0db7cae34f9592824e4f315255ff4fcff077b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3ffa26c0999857df1b249d2866eb5f327e600a82
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83339792"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600335"
 ---
 # <a name="use-aggregations-in-power-bi-desktop"></a>Power BI Desktop에서 집계 사용
 
@@ -53,7 +53,7 @@ Power BI의 *집계*를 사용하면 테이블 크기를 줄여 중요한 데이
 - Sum
 - 테이블 행 수 계산
 
-![집계 관리 대화 상자](media/desktop-aggregations/aggregations_07.jpg)
+![집계 관리 대화 상자를 보여 주는 스크린샷.](media/desktop-aggregations/aggregations_07.jpg)
 
 이 관계 기반 집계 예제에서 GroupBy 항목은 선택 사항입니다. DISTINCTCOUNT를 제외하고는 집계 동작에 영향을 주지 않으며 주로 가독성을 높이기 위한 것입니다. GroupBy 항목이 없는 경우에도 집계는 관계를 기반으로 하여 계속 적중합니다. 해당 내용은 이 문서 뒷부분에 있는 GroupBy 항목이 필요한 [빅 데이터 예제](#aggregation-based-on-groupby-columns)와 다릅니다.
 
@@ -144,11 +144,11 @@ RLS(행 수준 보안) 식이 집계에 대해 올바르게 작동하려면 집�
 
 이중 스토리지 모드에 대한 자세한 내용은 [Power BI Desktop의 스토리지 모드 관리](desktop-storage-mode.md)를 참조하세요.
 
-### <a name="strong-vs-weak-relationships"></a>강력 관계 대 약한 관계
+### <a name="regular-vs-limited-relationships"></a>일반 관계 및 제한된 관계 비교
 
-관계를 기반으로 하는 집계 적중은 강력한 관계가 필요합니다.
+관계를 기반으로 하는 집계 적중은 일반 관계가 필요합니다.
 
-강력한 관계에는 두 테이블이 모두 단일 원본에 있는 다음과 같은 스토리지 모드 조합이 포함됩니다.
+일반 관계에는 두 테이블이 모두 단일 원본에 있는 다음과 같은 스토리지 모드 조합이 포함됩니다.
 
 | *다* 쪽의 테이블 | ‘일’ 쪽의 테이블  |
 | ------------- |----------------------| 
@@ -156,7 +156,7 @@ RLS(행 수준 보안) 식이 집계에 대해 올바르게 작동하려면 집�
 | 가져오기        | 가져오기 또는 이중       | 
 | DirectQuery   | DirectQuery 또는 이중  | 
 
-*cross-source* 관계가 강력한 것으로 간주되는 유일한 경우는 두 테이블이 모두 가져오기로 설정된 경우입니다. 다 대 다 관계는 항상 약한 관계로 간주됩니다.
+*cross-source* 관계를 일반적인 것으로 간주하는 유일한 경우는 두 테이블이 모두 가져오기로 설정된 경우입니다. 다 대 다 관계는 항상 제한된 관계로 간주합니다.
 
 관계에 의존하지 않는 *cross-source* 집계 적중의 경우 [GroupBy 열 기반 집계](#aggregation-based-on-groupby-columns)를 참조하세요. 
 
@@ -244,11 +244,11 @@ GroupBy 열을 기반으로 하는 집계에서 **GroupBy** 항목은 선택 사
 
 집계 테이블에서 **CalendarDay**를 포함하지 않으므로 다음 쿼리는 집계에 적중하지 않습니다.
 
-![집계에 적중하지 않는 쿼리 예제](media/desktop-aggregations/aggregations-code_10.jpg)
+![CalendarDay를 포함하는 쿼리 텍스트를 보여 주는 스크린샷.](media/desktop-aggregations/aggregations-code_10.jpg)
 
 DATESYTD 함수가 **CalendarDay** 값의 테이블을 생성하고 집계 테이블이 **CalendarDay**를 포함하지 않으므로 다음 시간 인텔리전스 쿼리는 집계에 적중하지 않습니다.
 
-![집계에 적중하지 않는 쿼리 예제](media/desktop-aggregations/aggregations-code_11.jpg)
+![DATESYTD 함수를 포함하는 쿼리 텍스트를 보여 주는 스크린샷.](media/desktop-aggregations/aggregations-code_11.jpg)
 
 ## <a name="aggregation-precedence"></a>집계 우선 순위
 
@@ -271,7 +271,7 @@ DATESYTD 함수가 **CalendarDay** 값의 테이블을 생성하고 집계 테�
 
 연결된 집계가 허용되지 않으므로 **세부 정보 테이블** 열에 지정된 테이블은 **드라이버 작업 집계**가 아니라 **드라이버 작업**입니다.
 
-![집계 관리 대화 상자](media/desktop-aggregations/aggregations_14.jpg)
+![우선 순위가 호출된 집계 관리 대화 상자를 보여 주는 스크린샷.](media/desktop-aggregations/aggregations_14.jpg)
 
 다음 표에는 **Driver Activity Agg2** 테이블에 대한 집계가 나와 있습니다.
 

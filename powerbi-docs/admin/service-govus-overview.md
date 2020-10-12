@@ -1,21 +1,21 @@
 ---
 title: 미국 정부 기관 고객용 Power BI - 개요
-description: 미국 정부 고객은 Microsoft 365 정부 플랜에 Power BI Pro 구독을 추가할 수 있습니다. 이 서비스 설명에서 가입 방법을 알아보고 기능 가용성을 검토하세요.
+description: 미국 정부 고객은 Microsoft 365 정부 플랜에 Power BI Pro 구독을 추가할 수 있습니다. 이 서비스 설명에서 기능 가용성을 등록, 연결, 검토하는 방법을 알아봅니다.
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/02/2020
+ms.date: 09/23/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 948e0260f13aa243a45ba5bdf6fe59c9699d47a0
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: eecc36377ab79e4af4ea7882c24f4eb5a6e376c7
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855107"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91524630"
 ---
 # <a name="power-bi-for-us-government-customers"></a>미국 정부 기관 고객용 Power BI
 
@@ -51,7 +51,8 @@ Microsoft 365는 다양한 규정 준수 요구 사항을 충족하기 위해 �
 
 * [Microsoft 365 DoD 환경](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod)은 미국 국방부 전용으로 설계되었습니다.
 
-## <a name="connect-to-power-bi-for-us-government"></a>미국 정부 기관용 Power BI에 연결
+
+## <a name="sign-in-to-power-bi-for-us-government"></a>미국 정부 기관용 Power BI에 로그인
 
 Power BI에 연결하기 위한 URL은 정부 사용자와 상용 사용자 간에 다릅니다. Power BI에 로그인하려면 다음 URL을 사용하세요.
 
@@ -61,6 +62,38 @@ Power BI에 연결하기 위한 URL은 정부 사용자와 상용 사용자 간�
 
 계정이 둘 이상의 클라우드에 설정되어 있을 수 있습니다. 계정이 이런 방식으로 설정된 경우 Power BI Desktop에 로그인할 때 연결할 클라우드를 선택할 수 있습니다.
 
+## <a name="allow-connections-to-power-bi"></a>Power BI에 대한 연결 허용
+
+Power BI 서비스를 사용하려면 인터넷에서 필요한 엔드포인트에 대한 연결을 허용해야 합니다. 자체 네트워크, Power BI 및 기타 종속 서비스 간에 통신을 가능하게 하려면 해당 대상에 연결할 수 있어야 합니다.
+
+아래 표에서는 일반 사이트 사용을 위해 Power BI 서비스에 대한 연결을 가능하게 하는 허용 목록에 추가할 필요한 엔드포인트를 나열합니다. 해당 엔드포인트는 미국 정부 클라우드에 고유합니다. Power BI 서비스에서는 TCP 포트 443이 나열된 엔드포인트에 대해 열려야 합니다. 데이터, 대시보드 및 보고서 통합, Power BI 시각적 개체 및 기타 선택적 서비스를 가져오기 위한 엔드포인트는 미국 정부 클라우드에 고유하지 않습니다. 관련 URL을 허용 목록에 추가하려면 [허용 목록에 Power BI URL 추가](power-bi-whitelist-urls.md)를 참조하세요.
+
+Power BI의 인증, ID 및 관리는 Microsoft 365 서비스에 대한 연결에 따라 달라집니다. 또한 감사 로그를 보려면 Microsoft 365에 연결해야 합니다. 해당 서비스의 엔드포인트를 식별하려면 아래 표에서 Microsoft 365 통합을 참조하세요.
+
+### <a name="power-bi-urls-for-general-site-usage"></a>일반 사이트 사용을 위한 Power BI URL
+
+|  목적 | 대상 |
+| ---- | ----- |
+| 백 엔드 API | **GCC**: api.powerbigov.us |
+| | **GCC-High**: api.high.powerbigov.us |
+| | **DoD**: api.mil.powerbi.gov.us |
+| 백 엔드 API | **GCC**: *analysis.usgovcloudapi.net |
+| | **GCC High**: *.high.analysis.usgovcloudapi.net |
+| | **DoD**: *.mil.analysis.usgovcloudapi.net |
+| 백 엔드 API | **All**: *.pbidedicated.usgovcloudapi.net |
+| CDN(콘텐츠 전송 네트워크) | **GCC**: gov.content.powerapps.us |
+| | **GCC High**: high.content.powerapps.us |
+| | **DoD**: mil.content.powerapps.us |
+| Microsoft 365 통합 | **GCC**: [전 세계 엔드포인트](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges) |
+| | **GCC High**: [미국 정부 GCC High 엔드포인트](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints) |
+| | **DoD**: [미국 정부 DOD 엔드포인트](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-u-s-government-dod-endpoints) |
+| 포털 |**GCC**: *.powerbigov.us |
+| | **GCC-High**: *.high.powerbigov.us |
+| | **DoD**: *.mil.powerbigov.us |
+| 서비스 원격 분석 | **All**: dc.services.visualstudio.us |
+| 정보 메시지(선택) | **All**: dynmsg.modpim.com |
+| NPS 설문 조사(선택 사항) | **All**: nps.onyx.azure.net |
+
 ## <a name="connect-government-and-global-azure-cloud-services"></a>정부 및 글로벌 Azure 클라우드 서비스 연결
 
 Azure는 여러 클라우드에 분산되어 있습니다. 기본적으로 클라우드별 인스턴스와의 연결을 열도록 방화벽 규칙을 사용할 수 있지만 클라우드 간 네트워킹은 다릅니다.  퍼블릭 클라우드의 서비스와 정부 커뮤니티 클라우드의 서비스가 통신하려면 특정 방화벽 규칙을 구성해야 합니다. 예를 들어 Power BI의 정부 클라우드 배포에서 SQL 데이터베이스의 퍼블릭 클라우드 인스턴스에 액세스하려면 SQL 데이터베이스에 방화벽 규칙이 필요합니다. 다음 데이터 센터의 Azure Government 클라우드와의 연결을 허용하도록 SQL 데이터베이스에서 특정 방화벽 규칙을 구성합니다.
@@ -69,8 +102,12 @@ Azure는 여러 클라우드에 분산되어 있습니다. 기본적으로 클�
 * USGov 버지니아
 * USGov 텍사스
 * USGov 애리조나
+* US DoD 동부
+* US DoD 중부
 
-퍼블릭 클라우드에서는 IP 범위를 사용할 수 있습니다. 미국 정부 클라우드 IP 범위를 얻으려면 [Azure IP 범위 및 서비스 태그 - 미국 정부 클라우드](https://www.microsoft.com/download/details.aspx?id=57063) 파일을 다운로드합니다.
+미국 정부 클라우드 IP 범위를 얻으려면 [Azure IP 범위 및 서비스 태그 - 미국 정부 클라우드](https://www.microsoft.com/download/details.aspx?id=57063) 파일을 다운로드합니다. Power BI 및 파워 쿼리의 범위가 둘 다 나열됩니다.
+
+Microsoft Azure Government 클라우드 서비스에 관한 자세한 내용은 [Azure Government 설명서](https://docs.microsoft.com/azure/azure-government/)를 참조하세요.
 
 SQL 데이터베이스에 대한 방화벽을 설정하려면 [IP 방화벽 규칙 만들기 및 관리](/azure/sql-database/sql-database-firewall-configure#create-and-manage-ip-firewall-rules)를 참조하세요.
 
@@ -78,12 +115,12 @@ SQL 데이터베이스에 대한 방화벽을 설정하려면 [IP 방화벽 규�
 
 정부 클라우드 고객의 요구 사항을 수용하기 위해 정부 플랜과 상용 플랜에는 몇 가지 차이점이 있습니다. Microsoft의 목표는 일반 공급 30일 이내에 정부 클라우드에서 모든 기능을 사용할 수 있도록 하는 것입니다. 경우에 따라 기본 종속성으로 인해 기능을 사용하지 못할 수 있습니다.
 
-다음 표에서는 특정 정부 환경에서 사용할 수 없는 기능과 릴리스가 계획된 경우의 예상 가용성을 보여 줍니다.
+다음 표에는 특정 정부 환경에서 사용할 수 없는 기능이 나와 있습니다. 릴리스가 계획된 경우 예상 가용성이 포함됩니다.
 
 |기능 |GCC |GCC High |DoD|
 |------|------|------|------|
 |[정부와 상업용 클라우드 간 Azure B2B Collaboration](service-admin-azure-ad-b2b.md)<sup>1</sup>|![사용 가능](../media/yes.png)|![사용할 수 없음](../media/no.png)|![사용할 수 없음](../media/no.png)|
-|[Power BI 웹 파트를 사용하여 SharePoint Online에 포함](/esharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![사용 가능](../media/yes.png)|![사용 가능](../media/yes.png)|![사용할 수 없음](../media/no.png)|
+|[Power BI 웹 파트를 사용하여 SharePoint Online에 포함](/sharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![사용 가능](../media/yes.png)|![사용 가능](../media/yes.png)|![사용할 수 없음](../media/no.png)|
 |[데이터 기반 경고를 위한 Power Automate 연결](../connect-data/power-bi-data-sources.md)|![사용 가능](../media/yes.png)|![사용 가능](../media/yes.png)|![사용할 수 없음](../media/no.png)|
 |[Teams의 Power BI 탭](../collaborate-share/service-collaborate-microsoft-teams.md)<sup>2</sup>|![사용 가능](../media/yes.png)|![사용할 수 없음](../media/no.png)|![사용할 수 없음](../media/no.png)|
 |[용량 메트릭](../admin/service-admin-premium-monitor-portal.md)|2020 Q3 |2020 Q3|2020 Q3|

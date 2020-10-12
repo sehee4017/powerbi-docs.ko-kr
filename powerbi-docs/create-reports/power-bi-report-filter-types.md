@@ -1,6 +1,6 @@
 ---
 title: Power BI 보고서의 필터 유형
-description: Power BI의 보고서에 페이지 필터, 시각화 필터 또는 보고서 필터 추가
+description: 페이지 필터, 시각화 필터 또는 보고서 필터를 비롯하여 Power BI의 보고서 필터 유형에 관해 알아봅니다.
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 05a14f850907dddcbfbb3a2af4dc53806bcfceb8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 0dfd55a710ed13f9f17ad2f4e1f01ed5101f189a
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83305453"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749394"
 ---
 # <a name="types-of-filters-in-power-bi-reports"></a>Power BI 보고서의 필터 유형
 

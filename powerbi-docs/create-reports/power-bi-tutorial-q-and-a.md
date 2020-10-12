@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 4269ccb5f86a364d2bf4abf89e3184096a368ff3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c1dc3da67cf6160360833e8702fdc492fa97b803
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234707"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633495"
 ---
 # <a name="use-power-bi-qa-to-explore-your-data-and-create-visuals"></a>Power BI 질문 및 답변을 사용하여 데이터 탐색 및 시각적 개체 만들기
 
@@ -33,7 +33,7 @@ Power BI 서비스(app.powerbi.com)의 대시보드에는 하나 이상의 데�
 
 질문 및 답변 질문하기 상자는 대시보드의 왼쪽 위에 있으며, 자연어를 사용하여 질문을 입력할 수 있습니다. 질문 및 답변 상자가 보이지 않나요? **소비자를 위한 질문 및 답변** 문서의 [고려 사항 및 문제 해결](../consumer/end-user-q-and-a.md#considerations-and-troubleshooting)을 참조하세요.  질문 및 답변은 사용자가 입력하는 단어를 인식하고 답변이 있는 위치(데이터 세트)를 찾아냅니다. 또한 자동 완성, 재작성, 기타 텍스트 및 시각적 보조 기능으로 질문을 만들 수 있도록 지원합니다.
 
-![질문 및 답변 질문하기 상자](media/power-bi-tutorial-q-and-a/powerbi-qna.png)
+![데이터에 대해 질문하기 옵션이 있는 Power BI 대시보드를 보여 주는 스크린샷.](media/power-bi-tutorial-q-and-a/powerbi-qna.png)
 
 질문에 대한 답변이 대화형 시각화로 표시되고 질문을 수정함에 따라 업데이트됩니다.
 
@@ -87,7 +87,7 @@ Power BI 서비스(app.powerbi.com)의 대시보드에는 하나 이상의 데�
 
 2. 질문 및 답변 질문 상자는 보고서 캔버스에 표시됩니다. 아래 예에서는 질문 상자가 다른 시각화 위에 표시됩니다. 그래도 문제는 없지만 질문을 하기 전에 보고서에 빈 페이지를 추가하는 것이 더 좋을 것 같습니다.
 
-    ![질문 및 답변 질문하기 상자](media/power-bi-tutorial-q-and-a/power-bi-ask-question.png)
+    ![시각화에 Q&A 질문 상자가 있는 캔버스를 보여 주는 스크린샷.](media/power-bi-tutorial-q-and-a/power-bi-ask-question.png)
 
 3. 질문 상자에 커서를 놓습니다. 사용자가 입력하면 질문 및 답변에서는 질문을 쉽게 완성할 수 있도록 제안 사항을 표시합니다.
 

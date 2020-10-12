@@ -1,6 +1,6 @@
 ---
 title: Power BI 페이지를 매긴 보고서의 하위 보고서 문제 해결
-description: 이 문서에서는 Power BI 서비스의 페이지를 매긴 보고서에서 지원되는 데이터 원본 및 Azure SQL Database 데이터 원본에 연결하는 방법을 알아봅니다.
+description: 페이지를 매긴 보고서 내부의 보고서 항목인 하위 보고서를 사용하는 경우 일반적인 문제의 해결 방법에 관해 알아봅니다.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: troubleshooting
 ms.date: 04/29/2020
-ms.openlocfilehash: 49a4143fe3dbf55b31b4d30473fe6af3c047dda4
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 6a0e90036b759c409a9f5b3e994571c2a0eb510c
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485924"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747508"
 ---
 # <a name="troubleshoot-subreports-in-power-bi-paginated-reports"></a>Power BI 페이지를 매긴 보고서의 하위 보고서 문제 해결
 

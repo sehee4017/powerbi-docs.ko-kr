@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: fe44b183b77cb1e58c89cfd229f3f76d3b06ce39
-ms.sourcegitcommit: 3268a9b630cf599c50592d83c70a87eeecf7838f
+ms.openlocfilehash: f5b930ade7e0ae4e58977ba33dc725c6f1e34695
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88168487"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635887"
 ---
 # <a name="use-the-analyze-feature-to-explain-fluctuations-in-report-visuals"></a>분석 기능을 사용하여 보고서 시각적 개체의 변동 설명
 
@@ -50,7 +50,7 @@ Power BI가 생성하는 모든 인사이트를 보려면 스크롤 막대를 �
 
 폭포 시각적 개체의 맨 아래에 있는 작은 아이콘을 선택하여 정보를 분산형 차트, 누적 세로 막대형 차트 또는 리본 차트로 표시하도록 선택할 수 있습니다.
 
-![인사이트 시각적 개체의 세 가지 요소](media/end-user-analyze-visuals/power-bi-options.png)
+![시각적 개체의 아래쪽에 있는 아이콘을 보여 주는 스크린샷.](media/end-user-analyze-visuals/power-bi-options.png)
 
 시각적 개체 및 기능에 대한 피드백을 제공하려면 페이지 맨 위에 있는 좋아요 및 싫어요 아이콘을 사용하세요.   
 
@@ -59,7 +59,7 @@ Power BI가 생성하는 모든 인사이트를 보려면 스크롤 막대를 �
 
 보고서가 읽기 또는 편집 보기인 경우 인사이트를 사용할 수 있습니다. 그러면 데이터를 분석하고 보고서에 쉽게 추가할 수 있는 시각적 개체를 만드는 데 유용하게 사용할 수 있습니다. 보고서를 편집 보기에서 연 경우 엄지 손가락 아이콘 옆에 더하기 기호가 표시됩니다. 보고서에 시각적 개체로 인사이트를 추가하려면 더하기 아이콘을 선택하세요. 
 
-![인사이트 시각적 개체의 세 가지 요소](media/end-user-analyze-visuals/power-bi-add-visual.png)
+![인사이트를 추가하는 데 사용되는 더하기 아이콘을 보여 주는 스크린샷.](media/end-user-analyze-visuals/power-bi-add-visual.png)
 
 ## <a name="details-of-the-results-returned"></a>반환된 결과의 세부 정보
 

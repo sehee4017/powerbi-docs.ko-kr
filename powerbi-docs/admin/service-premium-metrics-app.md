@@ -5,16 +5,16 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: dddc90ee30ff58269c723d247a6c0a9fe3718683
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: ddaafaf175e2cb083e8e8eb494c156f0e9de8e0f
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855084"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633165"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Power BI Premium 메트릭 앱
 
@@ -61,7 +61,7 @@ ms.locfileid: "90855084"
 
 페이지에서 **시나리오 1** 또는 **시나리오 2**를 선택하여 보고서 페이지에 표시할 수 있는 두 가지 시나리오가 설명되어 있습니다. 
 
-![활성 메모리 세부 정보 페이지](media/service-premium-metrics-app/premium-metrics-app-03.png)
+![활성 메모리 세부 정보 페이지를 보여 주는 스크린샷.](media/service-premium-metrics-app/premium-metrics-app-03.png)
 
 각 시나리오에 연결된 문제 해결 가이드는 메트릭의 의미에 관한 자세한 설명을 제공하므로 용량의 상태 및 문제를 완화하기 위해 할 수 있는 작업을 더 잘 이해할 수 있습니다. 
 
@@ -116,7 +116,7 @@ ms.locfileid: "90855084"
 
 워크로드를 완료하기에 충분한 메모리가 용량에 있는지 확인하려면 페이지 맨 위의 **A: 사용된 메모리 백분율**을 참조할 수 있습니다. 여기에는 현재 처리 중인 데이터 세트에서 사용 중이므로 제거될 수 없는 메모리가 표시됩니다. 검은색 점선은 추세를 강조 표시합니다. 메모리 압력을 겪고 있는 용량에서는 동일한 시각적 개체에 상승하는 메모리 추세선(검은색 점선)이 명확히 표시되며, 해당 시점에 추가 데이터 세트가 메모리에 로드되지 않을 수 있음을 뜻합니다. 검은색 점선인 추세선은 7일 동안의 데이터를 기반으로 증가 추세를 보여 줍니다. 
 
-![활성 메모리 세부 정보 페이지](media/service-premium-metrics-app/premium-metrics-app-07.png)
+![시나리오 2의 활성 메모리 세부 정보 페이지를 보여 주는 스크린샷.](media/service-premium-metrics-app/premium-metrics-app-07.png)
 
 #### <a name="diagnosing-scenario-two"></a>시나리오 2 진단
 
@@ -267,7 +267,7 @@ ms.locfileid: "90855084"
 
 시나리오 1을 진단하려면 먼저 제한이 메모리 부족으로 인 한 것인지 확인합니다. 이 작업을 수행하는 단계는 다음과 같습니다.
 
-1.    **테이블 A**에서 원하는 데이터 세트를 클릭하여 선택합니다. 
+1. **테이블 A**에서 원하는 데이터 세트를 클릭하여 선택합니다. 
 
     ![테이블 A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 
@@ -310,7 +310,7 @@ ms.locfileid: "90855084"
 
 시나리오 2를 진단하려면 먼저 제한이 동시 최대 새로 고침으로 인한 것인지 확인합니다. 이 작업을 수행하는 단계는 다음과 같습니다.
 
-1.    **테이블 A**에서 원하는 데이터 세트를 클릭하여 선택합니다. 
+1. **테이블 A**에서 원하는 데이터 세트를 클릭하여 선택합니다. 
 
     ![테이블 A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 

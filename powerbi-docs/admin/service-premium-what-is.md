@@ -5,17 +5,17 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.subservice: powerbi-premium
 ms.topic: conceptual
 ms.date: 07/28/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 7f90840284c5b17a118b414db606902789657b7a
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 7c81f3b624de0692d597cfb6c79f2159a6133593
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854693"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91598997"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium이란?
 
@@ -30,7 +30,7 @@ Power BI Premium을 사용하여 조직 전용의 향상된 리소스를 가져�
 > * 사용자별 라이선스를 구입하지 않고 다른 사용자와 데이터 공유
 
 
-![관리 포털](media/service-premium-what-is/premium-admin-portal.png) 
+![Power BI 관리 포털을 보여 주는 스크린샷.](media/service-premium-what-is/premium-admin-portal.png) 
 
 이 문서에서는 Power BI Premium의 주요 기능을 소개합니다. 필요한 경우 보다 자세한 정보가 포함된 추가 문서에 대한 링크를 제공합니다. Power BI Pro 및 Power BI Premium에 대한 자세한 내용은 [Power BI 가격](https://powerbi.microsoft.com/pricing/)의 _Power BI 기능 비교_ 섹션을 참조하세요.
 
@@ -139,11 +139,11 @@ Power BI Premium을 사용하면 *전용 용량*을 가져올 수 있습니다. 
 
 용량이 생성되면 대부분의 관리 작업은 [관리 포털](service-admin-portal.md)에서 완료됩니다.
 
-![관리 포털](media/service-premium-what-is/premium-admin-portal.png)
+![내 작업 영역이 선택된 Power BI 관리 포털을 보여 주는 스크린샷.](media/service-premium-what-is/premium-admin-portal.png)
 
 용량 관리자는 작업 영역을 용량에 할당하고, 사용자 권한을 관리하고, 다른 관리자를 할당할 수 있습니다. 용량 관리자는 워크로드를 구성하고, 메모리 할당을 조정하고, 필요한 경우 용량을 다시 시작하여 용량이 오버로드될 경우 작업을 재설정할 수도 있습니다.
 
-![관리 포털](media/service-premium-what-is/premium-admin-portal-mgmt.png)
+![Power BI 관리 포털의 용량 관리를 보여 주는 스크린샷.](media/service-premium-what-is/premium-admin-portal-mgmt.png)
 
 용량 관리자는 용량이 원활하게 실행되고 있는지도 확인할 수 있습니다. 관리 포털에서 또는 프리미엄 용량 메트릭 앱을 사용하여 용량 상태를 모니터링할 수 있습니다.
 
@@ -155,7 +155,7 @@ Power BI Premium을 사용하면 *전용 용량*을 가져올 수 있습니다. 
 
 포털에서 모니터링하면 지난 7일 동안 배치된 로드 및 용량에 의해 평균적으로 사용된 리소스를 나타내는 높은 수준의 메트릭을 신속하게 볼 수 있습니다. 
 
-![관리 포털](media/service-premium-what-is/premium-admin-portal-health.png)
+![Power BI 관리 포털의 용량 상태를 보여 주는 스크린샷.](media/service-premium-what-is/premium-admin-portal-health.png)
 
 **Power BI Premium Capacity Metrics** 앱은 용량이 수행되는 방법에 대해 가장 심층적인 정보를 제공합니다. 이 앱은 높은 수준의 대시보드와 보다 상세한 보고서를 제공합니다.
 

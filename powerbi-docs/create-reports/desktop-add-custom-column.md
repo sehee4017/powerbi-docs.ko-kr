@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b898b205ef9d85f8c0a4951f147339f8d315db1e
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 2074094f910efa36d449d8f54ada097d253bb2dd
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855406"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91598913"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Power BI Desktop에서 사용자 지정 열 추가
 
@@ -22,7 +22,7 @@ Power BI Desktop에서 쿼리 편집기를 사용하여 새 사용자 지정 데
 
 쿼리 편집기에서 사용자 지정 열을 만들면, Power BI Desktop에서 쿼리의 **쿼리 설정**에 **적용된 단계**로 추가합니다. 사용자 지정 열은 언제든지 변경, 이동 또는 수정할 수 있습니다.
 
-![사용자 지정 열 추가 페이지](media/desktop-add-custom-column/add-custom-column_01.png)
+![사용자 지정 열 추가 대화 상자를 보여 주는 스크린샷.](media/desktop-add-custom-column/add-custom-column_01.png)
 
 ## <a name="use-query-editor-to-add-a-custom-column"></a>쿼리 편집기를 사용하여 사용자 지정 열 추가
 
@@ -51,7 +51,7 @@ Power BI Desktop에서 쿼리 편집기를 사용하여 새 사용자 지정 데
 
 - [사용자 지정 열 수식](/powerquery-m/power-query-m-function-reference) 상자에 있는 **PowerQuery M 수식 쿼리**. 이러한 쿼리는 새 사용자 지정 열이 정의되는 수식을 작성하여 만듭니다. 
 
-   ![사용자 지정 열 추가 페이지](media/desktop-add-custom-column/add-custom-column_03.png)
+   ![선택할 수 있는 열을 포함하는 사용자 지정 열 추가 대화 상자를 보여 주는 스크린샷.](media/desktop-add-custom-column/add-custom-column_03.png)
 
 ## <a name="create-formulas-for-your-custom-column"></a>사용자 지정 열의 수식 만들기
 

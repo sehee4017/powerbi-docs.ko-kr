@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: d32e1223a335fc6bf2fdf52598f1e1bdf3d7a685
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c5bed13799824a0222b2961595108536f66133ee
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860535"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634944"
 ---
 # <a name="update-delete-and-extract-template-app"></a>템플릿 앱 업데이트, 삭제 및 추출
 
@@ -23,11 +23,11 @@ ms.locfileid: "90860535"
 Power BI Desktop에서 변경을 수행한 경우 (1)단계에서 시작합니다. Power BI Desktop에서 변경을 수행하지 않은 경우 (4)단계에서 시작합니다.
 
 1. 업데이트된 데이터 세트를 업로드하고 기존 데이터 세트를 덮어씁니다. **정확히 동일한 데이터 세트 이름을 사용해야 합니다.** 다른 이름을 사용하면 앱을 업데이트하는 사용자를 위한 새 데이터 세트가 생성됩니다.
-![데이터 세트 덮어쓰기](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset.png)
+![데이터 세트가 선택된 템플릿 앱을 업데이트하는 Power BI를 보여 주는 스크린샷.](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset.png)
 1. 컴퓨터에서 pbix 파일을 가져옵니다.
-![데이터 세트 덮어쓰기](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset2.png)
+![파일에서 Get이 호출된 데이터 가져오기 페이지를 보여 주는 스크린샷.](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset2.png)
 1. 덮어쓰기를 확인합니다.
-![데이터 세트 덮어쓰기](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset3.png)
+![이름이 같은 데이터 세트가 있는 확인 메시지 및 해당 데이터 세트를 바꾸는 옵션을 보여 주는 스크린샷.](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset3.png)
 
 1. **릴리스 관리** 창에서 **앱 만들기**를 선택합니다.
 1. 앱 만들기 프로세스로 돌아갑니다.
@@ -64,7 +64,8 @@ Power BI Desktop에서 변경을 수행한 경우 (1)단계에서 시작합니�
 
 1. [릴리스 관리] 창에서 자세히 **(...)** , **추출**을 차례로 누릅니다.
 
-    ![템플릿 앱 버전 추출](media/service-template-apps-update-extract-delete/power-bi-template-app-extract.png) ![템플릿 앱 버전 추출](media/service-template-apps-update-extract-delete/power-bi-template-app-extract-dialog.png)
+    ![메뉴에서 추출이 선택된 릴리스 관리 창을 보여 주는 스크린샷.](media/service-template-apps-update-extract-delete/power-bi-template-app-extract.png)
+    ![이 앱을 추출하기 위한 확인 메시지를 보여 주는 스크린샷.](media/service-template-apps-update-extract-delete/power-bi-template-app-extract-dialog.png)
 2. 대화 상자에서 추출된 작업 영역의 이름을 입력합니다. 새 작업 영역이 추가됩니다.
 
 새 작업 영역 버전 관리가 다시 설정되며 새로 추출된 작업 영역에서 템플릿 앱을 계속 개발 및 배포할 수 있습니다.
@@ -73,9 +74,9 @@ Power BI Desktop에서 변경을 수행한 경우 (1)단계에서 시작합니�
 템플릿 작업 영역은 배포된 활성 템플릿 앱의 원본입니다. 템플릿 앱 사용자를 보호하려는 경우 먼저 작업 영역에서 생성된 모든 앱 버전을 제거해야 작업 영역을 삭제할 수 있습니다.
 앱 버전을 삭제하면 더 이상 작동하지 않는 앱 URL도 삭제됩니다.
 
-1. [릴리스 관리] 창에서 줄임표 **(...)** , **삭제**를 차례로 눌러 선택합니다.
- ![템플릿 앱 버전 삭제](media/service-template-apps-update-extract-delete/power-bi-template-app-delete.png)
- ![템플릿 앱 버전 삭제](media/service-template-apps-update-extract-delete/power-bi-template-app-delete-dialog.png)
+1. [릴리스 관리] 창에서 줄임표 **(...)**, **삭제**를 차례로 눌러 선택합니다.
+ ![메뉴에서 삭제가 선택된 릴리스 관리 창을 보여 주는 스크린샷.](media/service-template-apps-update-extract-delete/power-bi-template-app-delete.png)
+ ![이 앱을 삭제하기 위한 확인 메시지를 보여 주는 스크린샷.](media/service-template-apps-update-extract-delete/power-bi-template-app-delete-dialog.png)
 
 >[!NOTE]
 >고객 또는 **AppSource**가 사용 중인 앱 버전을 삭제하지 않아야 합니다. 삭제하면 더 이상 작동하지 않습니다.

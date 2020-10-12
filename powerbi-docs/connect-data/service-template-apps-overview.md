@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: bf51270a39f2f07518aaa6d83902519e08f7ab45
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c647f376502e2575b9eef46e9e2a72d5d76e8053
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860581"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635174"
 ---
 # <a name="what-are-power-bi-template-apps"></a>Power BI 템플릿 앱이란?
 
@@ -29,10 +29,20 @@ Power BI 파트너로서 고객이 즉시 사용할 수 있는 콘텐츠 세트�
 
 Power BI 템플릿 앱을 사용하면 Power BI Pro 또는 Power BI Premium 사용자가 실시간 데이터 원본에 연결할 수 있는 미리 패키지된 대시보드 및 보고서를 통해 즉각적인 인사이트를 얻을 수 있습니다. 많은 Power BI 앱은 [Power BI 앱 마켓플레이스](https://app.powerbi.com/getdata/services)에서 이미 사용할 수 있습니다.
 
-|  |
-|     :---:      |
-| [![Microsoft Project 웹앱](./media/service-template-apps-overview/project-web.png)](https://app.powerbi.com/groups/me/getapps/services/pbi_msprojectonline.pbi-microsoftprojectwebapp) [![Microsoft 365 Usage Analytics 웹앱](./media/service-template-apps-overview/microsoft365-usage-analytics.png)](https://app.powerbi.com/groups/me/getapps/services/cia_microsoft365.microsoft-365-usage-analytics) [![Dynamic 365 Business Central - Sales 웹앱](./media/service-template-apps-overview/dynamics-sales.png)](https://app.powerbi.com/groups/me/getapps/services/microsoftdynsmb.businesscentral_sales) [![Microsoft Forms Pro Customer Satisfaction 웹앱](./media/service-template-apps-overview/forms-pro.png)](https://app.powerbi.com/groups/me/getapps/services/msfp.formsprocustomersatisfaction) |
-|  |
+:::row:::
+    :::column:::
+        [![Microsoft Project 웹앱](./media/service-template-apps-overview/project-web.png)](https://app.powerbi.com/groups/me/getapps/services/pbi_msprojectonline.pbi-microsoftprojectwebapp)
+    :::column-end:::
+    :::column:::
+        [![Microsoft 365 사용량 현황 분석 웹앱](./media/service-template-apps-overview/microsoft365-usage-analytics.png)](https://app.powerbi.com/groups/me/getapps/services/cia_microsoft365.microsoft-365-usage-analytics)
+    :::column-end:::
+    :::column:::
+        [![Dynamic 365 Business Central - 판매 웹앱](./media/service-template-apps-overview/dynamics-sales.png)](https://app.powerbi.com/groups/me/getapps/services/microsoftdynsmb.businesscentral_sales)
+    :::column-end:::
+    :::column:::
+        [![Microsoft Forms Pro 고객 만족도 웹앱](./media/service-template-apps-overview/forms-pro.png)](https://app.powerbi.com/groups/me/getapps/services/msfp.formsprocustomersatisfaction)
+    :::column-end:::
+:::row-end:::
 
 ## <a name="process"></a>프로세스
 템플릿 앱을 개발하고 제출하는 일반적인 프로세스는 여러 단계로 구성됩니다. 일부 단계는 동시에 둘 이상의 작업을 포함할 수 있습니다.
@@ -43,7 +53,7 @@ Power BI 템플릿 앱을 사용하면 Power BI Pro 또는 Power BI Premium 사�
 | **1단계** | .pbix 파일에서 데이터 모델 및 보고서 빌드 |  | 작업 영역을 만듭니다. .pbix 파일을 가져옵니다. 보완 대시보드 만들기  |  | 파트너로 등록 |
 | **2단계** |  |  | 테스트 패키지 만들기 및 내부 유효성 검사 실행        |  | |
 | **3단계** | |  | 테스트 패키지를 Power BI 테넌트 외부의 유효성 검사를 위한 사전 프로덕션으로 승격하고 AppSource에 제출합니다.  |  | 사전 프로덕션 패키지를 사용하여 Power BI 템플릿 앱 제안을 만들고 유효성 검사 프로세스를 시작합니다. |
-| **4단계** | |  | 사전 프로덕션 패키지를 프로덕션으로 승격 |  | 라이브로 전환 |
+| **4단계** | |  | 사전 프로덕션 패키지를 프로덕션으로 승격 |  | 실시간 전송 |
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -79,7 +89,7 @@ Power BI 템플릿 앱을 사용하면 Power BI Pro 또는 Power BI Premium 사�
 
 템플릿 앱을 Power BI 서비스 및 AppSource에 게시하려면 [파트너 센터 게시자가 되기](/azure/marketplace/become-publisher) 위한 요구 사항을 충족해야 합니다.
  > [!NOTE] 
- > 템플릿 앱 제출은 [파트너 센터](/azure/marketplace/partner-center-portal/create-power-bi-app-offer)에서 관리합니다. 동일한 Microsoft 개발자 센터 등록 계정을 사용하여 로그인합니다. AppSource 제품에는 Microsoft 계정이 하나만 있어야 합니다. 계정은 개별 서비스나 제품에 특정되어서는 안됩니다.
+ > 템플릿 앱 제출은 [파트너 센터](/azure/marketplace/partner-center-portal/create-power-bi-app-offer)에서 관리합니다. 동일한 Microsoft 개발자 센터 등록 계정을 사용하여 로그인합니다. AppSource 제안에는 하나의 Microsoft 계정만 있어야 합니다. 계정은 개별 서비스나 제품에 특정되어서는 안됩니다.
 
 ## <a name="tips"></a>팁 
 

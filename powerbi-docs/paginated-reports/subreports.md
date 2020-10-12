@@ -1,6 +1,6 @@
 ---
 title: Power BI 페이지를 매긴 보고서의 하위 보고서
-description: 이 문서에서는 Power BI 서비스의 페이지를 매긴 보고서에서 지원되는 데이터 원본 및 Azure SQL Database 데이터 원본에 연결하는 방법을 알아봅니다.
+description: 이 문서에서는 Power BI 서비스에서 페이지를 매긴 보고서의 지원되는 데이터 원본에 관해 알아봅니다.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 04/29/2020
-ms.openlocfilehash: fbe60bab0d1c8d95cec1a3fda1d4b23fe919ea31
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 9da6268e90e3f70797c2cfff19bb1d5c4b633e9a
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861386"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746588"
 ---
 # <a name="subreports-in-power-bi-paginated-reports"></a>Power BI 페이지를 매긴 보고서의 하위 보고서
 
@@ -33,7 +33,7 @@ Power BI Report Builder는 컴퓨터의 페이지를 매긴 보고서(로컬 보
 
 로그인하면 **파일** 메뉴의 **열기** 및 **다른 이름으로 저장** 옵션에 대한 Power BI Report Builder의 **PowerBI 서비스** 옵션이 표시됩니다. **Power BI 서비스** 옵션을 선택하여 보고서를 저장하면 Power BI Report Builder와 Power BI 서비스 간에 라이브 연결이 만들어집니다. 
 
-:::image type="content" source="media/subreports/report-builder-subreport-open-service.png" alt-text="Power BI 서비스에서 열기":::
+:::image type="content" source="media/subreports/report-builder-subreport-open-service.png" alt-text="Power BI에 로그인":::
 
 ## <a name="save-a-local-report-to-the-power-bi-service"></a>Power BI 서비스에 로컬 보고서 저장
 
@@ -48,7 +48,7 @@ Power BI Report Builder는 컴퓨터의 페이지를 매긴 보고서(로컬 보
 
 3. **다른 이름으로 저장** 대화 상자에서 페이지를 매긴 보고서를 저장할 수 있는 Power BI Premium 작업 영역을 선택합니다.  Premium 작업 영역에는 이름 옆에 다이아몬드 아이콘(![Premium 다이아몬드 아이콘](media/subreports/report-builder-premium-diamond.png))이 있습니다.
 
-    :::image type="content" source="media/subreports/report-builder-subreport-save-as-service.png" alt-text="Power BI 서비스에 다른 이름으로 저장":::
+    :::image type="content" source="media/subreports/report-builder-subreport-save-as-service.png" alt-text="Power BI에 로그인":::
 
 4. **저장**을 선택합니다.
 
@@ -58,7 +58,7 @@ Power BI Report Builder는 컴퓨터의 페이지를 매긴 보고서(로컬 보
 
 1. **삽입** 리본에서 **하위 보고서** 단추를 선택하거나 보고서 캔버스를 마우스 오른쪽 단추로 클릭하고 **삽입** > **하위 보고서**를 선택합니다.
 
-    :::image type="content" source="media/subreports/report-builder-insert-subreport.png" alt-text="보고서에 하위 보고서 삽입":::
+    :::image type="content" source="media/subreports/report-builder-insert-subreport.png" alt-text="Power BI에 로그인":::
 
     **하위 보고서 속성** 대화 상자가 열립니다.  
 

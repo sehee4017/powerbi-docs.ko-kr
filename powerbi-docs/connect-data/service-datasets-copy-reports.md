@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b6f5b1250604f435a49fe6310193eeb80da16763
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 86c663e7b9ba035af6592dc10972d868344df7f7
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236804"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633211"
 ---
 # <a name="copy-reports-from-other-workspaces"></a>다른 작업 영역에서 보고서 복사
 
@@ -82,7 +82,7 @@ ms.locfileid: "85236804"
 
 1. 보고서 목록 보기에서 **관련 항목 보기**를 선택합니다.
 
-    ![상위 메뉴 모음에서 관련 항목 보기 아이콘을](media/service-datasets-copy-reports/power-bi-dataset-view-related.png)
+    ![작업 아래 관련 항목 보기 아이콘을 보여 주는 스크린샷.](media/service-datasets-copy-reports/power-bi-dataset-view-related.png)
 
 1. **관련 콘텐츠** 대화 상자에 모든 관련 항목이 표시됩니다. 이 목록에서 데이터 세트는 다른 것처럼 보입니다. 다른 작업 영역에 있는지 알 수 없습니다. 이 문제는 알려져 있습니다.
  
@@ -98,7 +98,7 @@ ms.locfileid: "85236804"
 
 2. 데이터 세트 목록에서, 공유 데이터 세트에 **삭제** 아이콘이 없는 것을 볼 수 있습니다. 페이지를 새로 고치거나 다른 페이지로 이동한 다음 다시 돌아옵니다. 이렇게 하면 데이터 세트가 사라진 것을 볼 수 있습니다. 사라지지 않았다면 **관련 항목 보기**를 확인합니다. 데이터 세트가 작업 영역의 다른 테이블과 관련이 있을 수 있습니다.
 
-    ![상위 메뉴 모음에서 관련 항목 보기 아이콘을](media/service-datasets-across-workspaces/power-bi-dataset-view-related-icon.png)
+    ![관련 테이블을 확인하기 위한 관련 항목 보기 옵션이 있는 데이터 세트를 보여 주는 스크린샷.](media/service-datasets-across-workspaces/power-bi-dataset-view-related-icon.png)
 
     > [!NOTE]
     > 이 작업 영역에서 공유 데이터 세트를 삭제하면 데이터 세트 자체가 삭제되는 것이 아니라 데이터 세트에 대한 참조가 삭제되는 것입니다.

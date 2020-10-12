@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0e21c4397708b289d7eccfbdbaa839cbf16c1f0b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 716439417a0e9cc57188c544f984f4936a424a47
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224052"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632460"
 ---
 # <a name="get-webpage-data-by-providing-examples"></a>예제를 제공하여 웹 페이지 데이터 가져오기
 
@@ -36,7 +36,9 @@ ms.locfileid: "85224052"
 
 따라 하려는 경우 이 문서에서 사용하는 [Microsoft Store URL](https://www.microsoft.com/store/top-paid/games/xbox?category=classics)을 사용하면 됩니다.
 
-    https://www.microsoft.com/store/top-paid/games/xbox?category=classics
+```http
+https://www.microsoft.com/store/top-paid/games/xbox?category=classics
+```
 
 ![웹 대화 상자](media/desktop-connect-to-web-by-example/web-by-example_04.png)
 
@@ -48,14 +50,14 @@ ms.locfileid: "85224052"
 
 이 예제에서는 페이지의 각 게임에 대한 ‘이름’ 및 ‘가격’을 추출합니다.   각 열에 대한 페이지에서 몇 가지 예제를 지정하여 작업을 수행할 수 있습니다. 예제를 입력할 때 *파워 쿼리*는 스마트 데이터 추출 알고리즘을 사용하여 예제 항목의 패턴에 맞는 데이터를 추출합니다.
 
-![예제별 데이터](media/desktop-connect-to-web-by-example/web-by-example_06.png)
+![인터넷의 데이터를 보여 주는 스크린샷.](media/desktop-connect-to-web-by-example/web-by-example_06.png)
 
 > [!NOTE]
 > 값 제안에는 길이가 128자보다 작거나 같은 값만 포함됩니다.
 
 웹 페이지에서 추출된 데이터에 만족하는 경우 **확인**을 선택하여 Power Query 편집기로 이동합니다. 이 데이터를 다른 데이터 원본과 결합하는 등 더 많은 변형을 적용하거나 데이터의 모양을 지정할 수 있습니다.
 
-![예제별 데이터](media/desktop-connect-to-web-by-example/web-by-example_07.png)
+![Power Query 편집기의 인터넷에서 추출된 데이터를 보여 주는 스크린샷.](media/desktop-connect-to-web-by-example/web-by-example_07.png)
 
 여기서 시각적 개체를 만들거나 Power BI Desktop 보고서를 만들 때 웹 페이지 데이터를 사용할 수 있습니다.
 

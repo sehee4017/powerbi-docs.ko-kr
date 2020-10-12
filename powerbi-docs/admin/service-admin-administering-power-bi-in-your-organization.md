@@ -7,15 +7,15 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: overview
-ms.date: 05/29/2020
+ms.date: 09/25/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 791b5efce0489e837cb75ed1ae6632dcc240fc1c
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: bd003bd8662a60a67b2bc13f228d165859b38e5c
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857591"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374663"
 ---
 # <a name="what-is-power-bi-administration"></a>Power BI 관리란?
 
@@ -25,7 +25,7 @@ Power BI 관리는 Power BI의 작동 방식을 제어하는 조직 전체 설�
 
 ## <a name="administrator-roles-related-to-power-bi"></a>Power BI와 관련된 관리자 역할
 
-조직의 Power BI를 관리하기 위해 함께 동작하는 여러 역할이 있습니다. 대부분의 관리자 역할은 Microsoft 365 관리 센터에서 또는 PowerShell을 사용하여 할당됩니다. 용량을 만들 때 Power BI Premium 용량 및 Power BI Embedded 용량 관리자 역할이 할당됩니다. 각 관리자 역할에 대한 자세한 내용은 [관리자 역할 정보](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)를 참조하세요. 관리자 역할을 할당하는 방법에 대한 자세한 내용은 [관리자 역할 할당](/microsoft-365/admin/add-users/assign-admin-roles?view=o365-worldwide)을 참조하세요.
+조직의 Power BI를 관리하기 위해 함께 동작하는 여러 역할이 있습니다. 대부분의 관리자 역할은 Microsoft 365 관리 센터에서 또는 PowerShell을 사용하여 할당됩니다. 용량을 만들 때 Power BI Premium 용량 및 Power BI Embedded 용량 관리자 역할이 할당됩니다. 각 관리자 역할에 대한 자세한 내용은 [관리자 역할 정보](/microsoft-365/admin/add-users/about-admin-roles)를 참조하세요. 관리자 역할을 할당하는 방법에 대한 자세한 내용은 [관리자 역할 할당](/microsoft-365/admin/add-users/assign-admin-roles)을 참조하세요.
 
 | **관리자 유형** | **관리 범위** | **Power BI 작업** |
 | --- | --- | --- |
@@ -68,7 +68,7 @@ Power BI 관리자는 주로 Power BI 관리 포털에서 작업합니다. 그�
 | | 데이터 분류 및 추적 |
 | | 데이터 손실 방지 정책 |
 | | 정보 거버넌스 |
-| [Azure Portal의 AAD(Azure Active Directory)](https://aad.portal.azure.com) | Power BI 리소스에 대한 조건부 액세스 구성 |
+| [Azure Portal의 Azure Active Directory](https://aad.portal.azure.com) | Power BI 리소스에 대한 조건부 액세스 구성 |
 | | Power BI Embedded 용량 프로비전 |
 | [PowerShell cmdlet](/powershell/power-bi/overview) | 스크립트를 통해 Power BI의 작업 영역 및 기타 측면 관리 |
 | [관리 API 및 SDK](service-admin-reference.md) | 사용자 지정 관리 도구를 빌드합니다. 예를 들어 Power BI Desktop에서는 이러한 API를 사용하여 관리와 관련된 데이터 기반 보고서를 빌드할 수 있습니다. |
@@ -78,7 +78,7 @@ Power BI 관리자는 주로 Power BI 관리 포털에서 작업합니다. 그�
 Power BI 관리와 관련된 기본 사항을 배웠으므로 다음 문서에서 자세한 내용을 확인하세요.
 
 - [Power BI 관리 포털 사용](service-admin-portal.md)
-- [테넌트 관리자 설정 지침](../guidance/admin-tenant-settings.md)
+- [테넌트 설정 지침](../guidance/admin-tenant-settings.md)
 - [PowerShell cmdlet 사용](/powershell/power-bi/overview)
 - [Power BI 관리 FAQ](service-admin-faq.md)
 - [조직의 사용자에 대한 Power BI 서비스 라이선스 부여](service-admin-licensing-organization.md)

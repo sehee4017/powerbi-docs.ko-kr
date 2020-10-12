@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 09/18/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7009b4b195c89659c032b578ada130e12389b496
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: cea4af4a8c265e5195a8239bd592c8734e332255
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858856"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375169"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI에서 웹에 게시
 
@@ -161,14 +161,14 @@ Power BI 시각적 개체는 **웹에 게시**에서 지원됩니다. **웹에 �
 
 Power BI 관리 포털에는 웹에 게시할 수 있는 사용자를 제어할 수 있는 설정이 있습니다. 조직의 [Power BI 관리자](../admin/service-admin-role.md)와 협력하여 관리 포털에서 [웹에 게시 테넌트 설정](../admin/service-admin-portal.md#publish-to-web)을 변경합니다.
 
-Power BI에 등록한 소규모 조직이나 개인의 경우 아직 Power BI 관리자가 없을 수 있습니다. [테넌트 관리자 인수 프로세스](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover)를 따릅니다. Power BI 관리자가 생기면 embed 태그를 만들 수 있습니다.
+Power BI에 등록한 소규모 조직이나 개인의 경우 아직 Power BI 관리자가 없을 수 있습니다. [관리자 인수 프로세스](/azure/active-directory/users-groups-roles/domains-admin-takeover)를 따릅니다. Power BI 관리자가 생기면 embed 태그를 만들 수 있습니다.
 
 일반적으로 기존 조직에는 이미 Power BI 관리자가 있습니다. 다음 역할의 사람들이 Power BI 관리자 역할을 할 수 있습니다.
 
 - 전역 관리자
 - Azure Active Directory에서 Power BI 서비스 관리자 역할이 있는 사용자
 
-조직에서 [이러한 사용자 중 하나를 찾아서](https://docs.microsoft.com/office365/admin/admin-overview/admin-overview#who-has-admin-permissions-in-my-business) 관리 포털에서 [웹에 게시 테넌트 설정](../admin/service-admin-portal.md#publish-to-web)을 업데이트하도록 요청해야 합니다.
+조직에서 [이러한 사용자 중 하나를 찾아서](/office365/admin/admin-overview/admin-overview#who-has-admin-permissions-in-my-business) 관리 포털에서 [웹에 게시 테넌트 설정](../admin/service-admin-portal.md#publish-to-web)을 업데이트하도록 요청해야 합니다.
 
 ## <a name="limitations"></a>제한 사항
 
@@ -196,5 +196,3 @@ Power BI에 등록한 소규모 조직이나 개인의 경우 아직 Power BI �
 - [보안 포털 또는 웹 사이트에 보고서 포함](service-embed-secure.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
-
-

@@ -1,6 +1,6 @@
 ---
 title: 조직의 애플리케이션에 페이지를 매긴 Power BI 보고서 포함
-description: Power BI API를 사용하여 애플리케이션에 페이지를 매긴 Power BI 보고서를 통합하거나 포함하는 방법을 알아봅니다.
+description: 이 자습서에서는 Power BI API를 사용하여 애플리케이션에 페이지를 매긴 Power BI 보고서를 통합하거나 포함하는 방법을 알아봅니다.
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,19 +9,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/25/2020
-ms.openlocfilehash: 1c348cbf74e6bc2999383bc5a5c031576a293ac2
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: 0d52dd7df774dd834d0356e6de57b9c80beab801
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878750"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747623"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-organization"></a>자습서:  조직의 애플리케이션에 페이지를 매긴 Power BI 보고서 포함
 
 **Power BI**에서 사용자 소유 데이터 시나리오를 사용하여 페이지를 매긴 보고서를 조직의 애플리케이션에 포함할 수 있습니다.
 
 페이지를 매긴 보고서는 고품질 인쇄를 위해 디자인된 보고서입니다. 일반적으로 이러한 보고서는 많은 데이터를 포함하며, 인쇄된 페이지에 맞게 렌더링됩니다.
-Power BI가 페이지를 매긴 보고서를 어떻게 지원하는지 이해하려면 [Power BI Premium의 페이지를 매긴 보고서란?](https://docs.microsoft.com/power-bi/paginated-reports-report-builder-power-bi)을 참조하세요.
+Power BI가 페이지를 매긴 보고서를 어떻게 지원하는지 이해하려면 [Power BI Premium의 페이지를 매긴 보고서란?](../../paginated-reports/paginated-reports-report-builder-power-bi.md)을 참조하세요.
 
 **사용자 소유 데이터**를 사용하면 애플리케이션에서 Power BI 서비스를 확장할 수 있으므로 임베디드 분석을 사용할 수 있습니다. 이 자습서는 페이지를 매긴 보고서를 애플리케이션에 통합하는 방법을 보여 줍니다.
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6df5c0310fca47dfd590671766c47349ebb47f7f
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: 3cc9277b567a58b60dc86c41b7ae56ad5c678d6b
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83793961"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600600"
 ---
 # <a name="use-the-updated-ribbon-in-power-bi-desktop"></a>Power BI Desktop에서 업데이트된 리본 사용
 
@@ -30,7 +30,7 @@ Power BI Desktop은 모양과 경험을 다른 Microsoft 제품(예: Microsoft O
 
 리본을 업데이트하여 얻으려는 이점은 Power BI Desktop과 다른 Microsoft 제품 사이에 환경을 쉽고 친숙하게 만드는 것입니다. 
 
-![Power BI Desktop의 새 리본](media/desktop-ribbon/desktop-ribbon-03.png)
+![Power BI Desktop 리본의 클로즈업을 보여 주는 스크린샷.](media/desktop-ribbon/desktop-ribbon-03.png)
 
 이러한 이점은 다음과 같은 범주로 그룹화할 수 있습니다.
 

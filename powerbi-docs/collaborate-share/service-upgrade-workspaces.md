@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/07/2020
+ms.date: 09/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 432c526479465da5d22e17172582c7f1d2cceb0c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8e2b6c8d916cc3c180ab9adb9b6ea6af8eaefea4
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225271"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633058"
 ---
 # <a name="upgrade-classic-workspaces-to-the-new-workspaces-in-power-bi"></a>Power BI에서 클래식 작업 영역을 새 작업 영역으로 업그레이드
 
@@ -27,7 +27,7 @@ ms.locfileid: "85225271"
 
 그러나 미리 숙지하여 계획을 수립해야 하는 작업 영역 변경 사항이 있을 수 있습니다. 예를 들어 콘텐츠 팩은 새 작업 영역 환경에서 지원되지 않습니다. 이 문서의 뒷부분에 나오는 [업그레이드 고려 사항 및 제한 사항](#upgrade-considerations-and-limitations) 섹션을 참조하세요.
 
-## <a name="things-to-do-after-upgrading"></a>업그레이드 후 수행할 작업
+## <a name="things-to-plan-before-upgrading"></a>업그레이드하기 전에 계획할 항목
 
 업그레이드 *후에* 몇 가지 작업을 수행해야 합니다. 업그레이드 *전에* 이러한 작업을 계획하는 것이 가장 좋습니다.
 - 액세스 목록을 검토하고 [업그레이드 후 사용 권한](#permissions-after-upgrade)을 이해합니다.
@@ -48,11 +48,11 @@ ms.locfileid: "85225271"
 
 1. 대화 상자 정보를 검토합니다. 작업 영역에 콘텐츠 팩을 게시했거나 설치한 경우 경고가 표시됩니다. 준비가 되면 **이 작업 영역을 업그레이드할 준비가 되었습니다.** 를 선택하고 **업그레이드**를 선택합니다.
 
-    ![업그레이드를 위한 읽기](media/service-upgrade-workspaces/power-bi-ready-upgrade.png)
+    ![업그레이드 준비](media/service-upgrade-workspaces/power-bi-ready-upgrade.png)
 
 2. 업그레이드하는 동안 **업그레이드 중** 메시지가 표시됩니다. 작업 영역을 업그레이드하는 데는 보통 1분 미만이 걸립니다.
 
-1. 업그레이드가 완료되면 **성공** 대화 상자가 표시됩니다. 새 작업 영역이 클래식 작업 영역과 어떻게 다른지 익숙해지도록 [Power BI의 새 작업 영역에서 작업 구성](service-new-workspaces.md)을 읽는 것이 좋습니다.
+1. 업그레이드가 완료되면 **성공** 대화 상자가 표시됩니다. 동일한 이름 및 콘텐츠가 포함된 새 작업 영역 환경이 표시됩니다. 새 작업 영역이 클래식 작업 영역과 어떻게 다른지 익숙해지도록 [Power BI의 새 작업 영역에서 작업 구성](service-new-workspaces.md)을 읽는 것이 좋습니다.
 
 ### <a name="impact-on-other-workspace-users"></a>다른 작업 영역 사용자에 대한 영향
 
@@ -62,6 +62,7 @@ ms.locfileid: "85225271"
 
 ## <a name="upgrade-considerations-and-limitations"></a>업그레이드 고려 사항 및 제한 사항
 
+- 업그레이드한 후 클래식 작업 영역의 콘텐츠가 새 작업 영역에 나타납니다. **공유한 항목**에도 나열됩니다.
 - 작업 영역의 URL 및 ID, 작업 영역에 포함된 콘텐츠, 작업 영역에서 게시된 앱은 변경되지 않습니다. 작업 영역에 설치된 콘텐츠 팩의 콘텐츠는 개별적으로 처리됩니다. 자세한 내용은 이 문서에서 [업그레이드 도중 콘텐츠 팩](#content-packs-during-upgrade)을 참조하세요.
 - 콘텐츠 팩은 새 작업 영역 환경에서 지원되지 않습니다. [게시된 콘텐츠 팩](#published-content-packs) 또는 [설치된 콘텐츠 팩](#installed-content-packs)에 대한 섹션을 참조하여 업그레이드하는 동안 콘텐츠 팩이 처리되는 방식에 대해 알아보세요. 업그레이드하기 전에 작업 영역에 설치 또는 게시된 콘텐츠 팩을 삭제하는 것이 좋습니다.
 - 클래식 작업 영역에 대한 Microsoft 365 그룹은 Power BI 작업 영역 업그레이드의 영향을 받지 않습니다. Microsoft 365에서 관리되는 모든 팀, SharePoint 사이트, 사서함 또는 기타 리소스는 변경되지 않습니다. Power BI 작업 영역을 업그레이드한 후 그대로 유지됩니다. Microsoft 365 그룹은 이전과 같이 존재합니다.
@@ -111,7 +112,7 @@ Microsoft 365 그룹은 작업 영역에서 역할을 부여하므로 업그레�
 
 1. 작업 영역 콘텐츠 목록의 맨 위에 있는 메뉴 모음에서 **설정**을 선택하여 작업 영역 설정에 액세스합니다.
 
-    ![작업 영역 설정](media/service-upgrade-workspaces/power-bi-new-workspace-settings.png)
+    ![메뉴 모음에서 설정 선택을 보여 주는 스크린샷.](media/service-upgrade-workspaces/power-bi-new-workspace-settings.png)
 
 2. **고급**에서 작업 영역 **연락처 목록**이 작업 영역을 업그레이드한 Microsoft 365 그룹으로 구성됩니다. 연락처 목록에 사용자 또는 그룹을 추가하거나 작업 영역 관리자로 전환할 수 있습니다.
 
@@ -123,7 +124,7 @@ Microsoft 365 그룹은 작업 영역에서 역할을 부여하므로 업그레�
 
 ## <a name="content-packs-during-upgrade"></a>업그레이드 도중 콘텐츠 팩
 
-새 작업 영역 환경은 콘텐츠 팩을 지원하지 않습니다. 대신, 앱 및 공유 데이터 집합을 사용하여 작업 영역에 콘텐츠를 배포합니다. 업그레이드하기 전에 작업 영역에서 게시 또는 설치된 콘텐츠 팩을 제거하는 것이 좋습니다. 그러나 업그레이드할 때 게시 또는 설치된 콘텐츠 팩이 있는 경우 업그레이드 프로세스는 아래에 설명된 대로 콘텐츠를 유지하려고 시도합니다.  업그레이드 후에는 콘텐츠 팩 또는 콘텐츠와 콘텐츠 팩 간 연결을 복원할 수 있는 방법이 없습니다.
+새 작업 영역 환경은 콘텐츠 팩을 지원하지 않습니다. 대신, 앱 및 공유 데이터 집합을 사용하여 작업 영역에 콘텐츠를 배포합니다. 업그레이드하기 전에 작업 영역에서 게시 또는 설치된 콘텐츠 팩을 제거하는 것이 좋습니다. 그러나 업그레이드할 때 게시 또는 설치된 콘텐츠 팩이 있는 경우 업그레이드 프로세스는 이 문서에서 나중에 설명되는 것처럼 콘텐츠를 유지하려고 시도합니다.  업그레이드 후에는 콘텐츠 팩 또는 콘텐츠와 콘텐츠 팩 간 연결을 복원할 수 있는 방법이 없습니다.
 
 ### <a name="published-content-packs"></a>게시된 콘텐츠 팩
 
@@ -148,7 +149,7 @@ Microsoft 365 그룹은 작업 영역에서 역할을 부여하므로 업그레�
 
 1. 작업 영역 콘텐츠 목록에서 **추가 옵션**( **...** ) > **작업 영역 설정**을 선택합니다.
 
-    ![작업 영역 설정](media/service-upgrade-workspaces/power-bi-workspace-settings-more-options.png)
+    ![기타 옵션(…) > 작업 영역 설정을 보여 주는 스크린샷.](media/service-upgrade-workspaces/power-bi-workspace-settings-more-options.png)
 
 1. **고급**을 확장하고 **클래식으로 다시 전환**을 선택합니다. 이 옵션을 사용할 수 없는 경우 이 문서에서 [클래식으로 다시 전환 시 고려 사항](#considerations-for-switching-back-to-classic)을 참조하세요.
 
@@ -202,10 +203,10 @@ Microsoft 365 그룹은 작업 영역에서 역할을 부여하므로 업그레�
    
 ## <a name="known-issues"></a>알려진 문제
 
-여러 가지 알려진 문제가 발생할 수 있습니다.
-- 업그레이드 후 사용자에게 “모델 로드 실패” 경고 대화 상자가 표시될 수 있습니다. 이 메시지는 잘못 표시되는 것으로 무시해도 됩니다. 
-- 업그레이드 후 일부 작업 영역 이름이 업그레이드 전과 다릅니다. 이런 경우 작업 영역 이름이 작업 영역에 대한 이전 이름으로 되돌아가거나 작업 영역 이름이 비어 있게 됩니다. 이 문제를 해결하려면 작업 영역 이름을 원하는 이름으로 바꿉니다.
-- 콘텐츠 팩이 설치된 작업 영역을 업그레이드하면 업그레이드 전에 표시되지 않은 추가 대시보드가 작업 영역에 표시될 수 있습니다. 이 문제는 콘텐츠 팩이 최근에 업데이트되지 않은 경우에 발생합니다. 이러한 대시보드는 제거해도 됩니다.
+업그레이드한 후 여러 가지 알려진 문제가 발생할 수 있습니다.
+- “모델 로드 실패” 경고 대화 상자가 표시될 수 있습니다. 이 메시지는 잘못 표시되는 것으로 무시해도 됩니다. 
+- 일부 작업 영역 이름이 업그레이드 전과 다릅니다. 이 경우 작업 영역 이름이 작업 영역에 대한 이전 이름으로 되돌아갔거나 작업 영역 이름이 비어 있게 됩니다. 이 문제를 해결하려면 작업 영역 이름을 원하는 이름으로 바꿉니다.
+- 콘텐츠 팩이 설치된 작업 영역에서 업그레이드 전에 표시되지 않은 추가 대시보드가 표시될 수 있습니다. 이 경우 콘텐츠 팩이 최근에 업데이트되지 않았을 수 있습니다. 이러한 대시보드는 제거해도 됩니다.
 
 ## <a name="next-steps"></a>다음 단계
 

@@ -9,18 +9,18 @@ ms.topic: how-to
 ms.date: 09/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2864e82d5ddc1eb4a70976375cd4da8e57db7e58
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d4036bb6a2fdc8db7c251a39f5527c54ae1c578b
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859914"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600578"
 ---
 # <a name="use-custom-format-strings-in-power-bi-desktop"></a>Power BI Desktop에서 사용자 지정 서식 문자열 사용
 
 **Power BI Desktop**에서 사용자 지정 서식 문자열을 사용하여 시각적 개체에서 필드가 표시되는 방식을 사용자 지정하고 보고서가 원하는 모양으로 표시되도록 할 수 있습니다.
 
-![사용자 지정 서식 문자열 사용](media/desktop-custom-format-strings/custom-format-strings-01.png)
+![사용자 지정 형식이 선택된 Power BI Desktop을 보여 주는 스크린샷. ](media/desktop-custom-format-strings/custom-format-strings-01.png)
 
 
 ## <a name="how-to-use-custom-format-strings"></a>사용자 지정 서식 문자열을 사용하는 방법
@@ -31,7 +31,7 @@ ms.locfileid: "90859914"
 
 **서식** 드롭다운에서 **사용자 지정**을 선택하면 일반적으로 사용되는 서식 문자열 목록 중에서 선택할 수 있습니다. 
 
-![사용자 지정 서식 문자열 사용](media/desktop-custom-format-strings/custom-format-strings-03.png)
+![사용자 지정 형식의 세부 정보를 보여 주는 스크린샷.](media/desktop-custom-format-strings/custom-format-strings-03.png)
 
 
 ## <a name="supported-custom-format-syntax"></a>지원되는 사용자 지정 서식 구문

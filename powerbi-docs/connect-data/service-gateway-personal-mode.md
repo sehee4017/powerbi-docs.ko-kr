@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: e2c65adfaee96eee61e1494f730b752d12020ab4
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 96c7a12e556fde805178bceabfe86f9eff8b9d5c
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236167"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632575"
 ---
 # <a name="use-personal-gateways-in-power-bi"></a>Power BI에서 개인 게이트웨이 사용
 
@@ -31,13 +31,13 @@ ms.locfileid: "85236167"
 
 |   |온-프레미스 데이터 게이트웨이 | 온-프레미스 데이터 게이트웨이(개인 모드) |
 | ---- | ---- | ---- |
-|지원되는 클라우드 서비스 |Power BI, PowerApps, Azure Logic Apps, Power Automate, Azure Analysis Services, 데이터 흐름 |Power BI |
-|실행 |게이트웨이에 액세스할 수 있는 사용자가 구성한 대로 |관리자로 Windows 인증의 경우 다른 인증 유형에 대해 구성한 대로 |
-|컴퓨터 관리자로만 설치할 수 있음 |예 |아니요 |
-|중앙 집중화된 게이트웨이 및 데이터 원본 관리 |예 |아니요 |
-|데이터 가져오기 및 새로 고침 예약 |예 |예 |
-|DirectQuery 지원 |예 |아니요 |
-|Analysis Services에 대한 LiveConnect 지원 |예 |아니요 |
+|**지원되는 클라우드 서비스** |Power BI, PowerApps, Azure Logic Apps, Power Automate, Azure Analysis Services, 데이터 흐름 |Power BI |
+|**실행** |게이트웨이에 액세스할 수 있는 사용자가 구성한 대로 |관리자로 Windows 인증의 경우 다른 인증 유형에 대해 구성한 대로 |
+|**컴퓨터 관리자로만 설치할 수 있음** |예 |아니요 |
+|**중앙 집중화된 게이트웨이 및 데이터 원본 관리** |예 |아니요 |
+|**데이터 가져오기 및 새로 고침 예약** |예 |예 |
+|**DirectQuery 지원** |예 |아니요 |
+|**Analysis Services에 대한 LiveConnect 지원** |예 |아니요 |
 
 ## <a name="install-the-on-premises-data-gateway-personal-mode"></a>온-프레미스 데이터 게이트웨이(개인 모드) 설치
 

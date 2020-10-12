@@ -9,23 +9,23 @@ ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
 ms.date: 06/01/2020
-ms.openlocfilehash: 7caa39ca6fbf196aaa2be4492ab132ad05983f94
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 521c705587c10c76dedb731aeae34221244f3a83
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231834"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749187"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-a-certificate"></a>서비스 주체 및 인증서를 사용하여 Power BI 콘텐츠 포함
 
 [!INCLUDE[service principal overview](../../includes/service-principal-overview.md)]
 
 >[!NOTE]
->비밀 키가 아닌 인증서를 사용하여 백 엔드 서비스를 보호하는 것이 좋습니다. [비밀 키 또는 인증서를 사용하여 Azure AD에서 액세스 토큰을 가져오는 방법에 대해 자세히 알아보세요.](https://docs.microsoft.com/azure/architecture/multitenant-identity/client-assertion)
+>비밀 키가 아닌 인증서를 사용하여 백 엔드 서비스를 보호하는 것이 좋습니다. [비밀 키 또는 인증서를 사용하여 Azure AD에서 액세스 토큰을 가져오는 방법에 대해 자세히 알아보세요.](/azure/architecture/multitenant-identity/client-assertion)
 
 ## <a name="certificate-based-authentication"></a>인증서 기반 인증
 
-인증서 기반 인증을 사용하면 Windows, Android 또는 iOS 디바이스의 클라이언트 인증서를 사용하여 Azure AD(Azure Active Directory)에서 인증을 받거나 [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/basic-concepts)에 보관할 수 있습니다.
+인증서 기반 인증을 사용하면 Windows, Android 또는 iOS 디바이스의 클라이언트 인증서를 사용하여 Azure AD(Azure Active Directory)에서 인증을 받거나 [Azure Key Vault](/azure/key-vault/basic-concepts)에 보관할 수 있습니다.
 
 이 인증 방법을 사용하면 중앙에서 CA를 사용하여 순환 또는 해지를 위해 인증서를 관리할 수 있습니다.
 
@@ -49,7 +49,7 @@ Azure AD의 인증서에 대한 자세한 내용은 [클라이언트 자격 증�
 
 신뢰할 수 있는 ‘인증 기관’에서 인증서를 구하거나 인증서를 직접 생성할 수 있습니다.
 
-이 섹션에서는 [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/create-certificate)를 사용하여 인증서를 만들고 공개 키가 포함된 *.cer* 파일을 다운로드하는 방법을 설명합니다.
+이 섹션에서는 [Azure Key Vault](/azure/key-vault/create-certificate)를 사용하여 인증서를 만들고 공개 키가 포함된 *.cer* 파일을 다운로드하는 방법을 설명합니다.
 
 1. [Microsoft Azure](https://ms.portal.azure.com/#allservices)에 로그인합니다.
 
@@ -63,11 +63,11 @@ Azure AD의 인증서에 대한 자세한 내용은 [클라이언트 자격 증�
 
 4. **인증서**를 클릭합니다.
 
-    ![certificates](media/embed-service-principal-certificate/certificates.png)
+    ![인증서가 호출된 키 자격 증명 모음 페이지를 보여 주는 스크린샷.](media/embed-service-principal-certificate/certificates.png)
 
 5. **생성/가져오기**를 클릭합니다.
 
-    ![generate](media/embed-service-principal-certificate/generate.png)
+    ![생성/가져오기가 호출된 인증서 창을 보여 주는 스크린샷.](media/embed-service-principal-certificate/generate.png)
 
 6. 다음과 같이 **인증서 만들기** 필드를 구성합니다.
 
@@ -107,7 +107,7 @@ Azure AD의 인증서에 대한 자세한 내용은 [클라이언트 자격 증�
 
 1. Azure AD 애플리케이션에서 **인증서 및 암호** 탭을 클릭합니다.
 
-     ![애플리케이션 ID](media/embed-service-principal/certificates-and-secrets.png)
+     ![Azure Portal에서 앱의 인증서 및 비밀 창을 보여 주는 스크린샷.](media/embed-service-principal/certificates-and-secrets.png)
 
 2. **인증서 업로드**를 클릭하고 이 자습서의 [1단계](#step-1---create-a-certificate)에서 만들고 다운로드한 *.cer* 파일을 업로드합니다. *.cer* 파일에는 공개 키가 들어 있습니다.
 
@@ -175,7 +175,7 @@ public async Task<AuthenticationResult> DoAuthentication(){
 
 ## <a name="configure-visual-studio-to-use-msi"></a>MSI를 사용하도록 Visual Studio 구성
 
-포함된 솔루션을 만들 때 MSI(관리 서비스 ID)를 사용하도록 Visual Studio를 구성하는 것이 유용할 수 있습니다. [MSI](https://docs.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview)는 Azure AD ID를 관리할 수 있는 기능입니다. 구성된 후에는 Visual Studio가 Azure Key Vault에 대해 인증을 수행하도록 합니다.
+포함된 솔루션을 만들 때 MSI(관리 서비스 ID)를 사용하도록 Visual Studio를 구성하는 것이 유용할 수 있습니다. [MSI](/azure/active-directory/managed-identities-azure-resources/overview)는 Azure AD ID를 관리할 수 있는 기능입니다. 구성된 후에는 Visual Studio가 Azure Key Vault에 대해 인증을 수행하도록 합니다.
 
 1. Visual Studio에서 새 프로젝트를 엽니다.
 
@@ -200,7 +200,7 @@ public async Task<AuthenticationResult> DoAuthentication(){
 >[고객을 위한 Power BI Embedded](embed-sample-for-customers.md)
 
 >[!div class="nextstepaction"]
->[Azure Active Directory의 애플리케이션 및 서비스 주체 개체](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+>[Azure Active Directory의 애플리케이션 및 서비스 주체 개체](/azure/active-directory/develop/app-objects-and-service-principals)
 
 >[!div class="nextstepaction"]
 >[서비스 주체가 있는 온-프레미스 데이터 게이트웨이를 사용하는 행 수준 보안](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)

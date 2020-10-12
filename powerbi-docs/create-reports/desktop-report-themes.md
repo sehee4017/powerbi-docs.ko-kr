@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 07/28/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fdd08c32277dfaa9a619b024a7fb0ece0517f1cb
-ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+ms.openlocfilehash: ed8d93ef905cca6e934ac2100093475136595c9a
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87364103"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634737"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop에서 보고서 테마 사용
 
@@ -53,11 +53,11 @@ Power BI Desktop 보고서에 보고서 테마를 적용하려면 다음 옵션 
 
 1. **보기** 리본에서 **테마** 드롭다운 화살표 단추 **테마 전환**을 선택합니다.
 
-   ![보고서 테마 선택](media/desktop-report-themes/report-themes-02.png)
+   ![여러 테마를 제공하는 보기 리본이 선택된 것을 보여 주는 스크린샷.](media/desktop-report-themes/report-themes-02.png)
 
 2. 표시되는 드롭다운 메뉴에서 포함된 테마 중 하나를 선택합니다.
 
-   ![보고서 테마 선택](media/desktop-report-themes/report-themes-03.png)
+   ![선택할 수 있도록 확장된 Power BI 테마를 보여 주는 스크린샷.](media/desktop-report-themes/report-themes-03.png)
 
    이제 보고서 테마가 보고서에 적용됩니다.
 
@@ -600,7 +600,9 @@ Booleans은 true 또는 false입니다. 문자열은 "문자열입니다."와 �
 
 색은 다음 서식을 사용합니다. 다음 예제에서 “FFFFFF”는 사용자 지정 16진수 코드로 바뀝니다.
 
-    { "solid": { "color": "#FFFFFF" } }
+```json
+{ "solid": { "color": "#FFFFFF" } }
+```
 
 드롭다운 서식 지정 옵션에 가장 일반적으로 사용되는 열거는 창에 표시되는 어떤 옵션으로도 값이 설정될 수 있음을 의미합니다. 예를 들어 범례 위치로 “RightCenter”를 설정하거나 원형 데이터 레이블로 “데이터 값, 총계에 대한 비율”을 설정할 수 있습니다. 열거 옵션은 속성 목록 아래에 표시됩니다.
 

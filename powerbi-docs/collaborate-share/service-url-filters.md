@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 07/16/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 59e99bc44b9b438c76b72addf49beee2b69b8623
-ms.sourcegitcommit: 8b8d54d46470a311d8654abe92b5a223b696af28
+ms.openlocfilehash: 5d5647216caee4eae648d0be0ebf3f453cd17d71
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86437267"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633004"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL에 쿼리 문자열 매개 변수를 사용하여 보고서 필터링
 
@@ -37,7 +37,7 @@ Power BI Desktop에서 작업 중이라고 가정합니다. 다른 Power BI 보�
 
 *URL*?filter=*Table*/*Field* eq '*value*'
 
-![필터가 있는 URL의 스크린샷](media/service-url-filters/power-bi-filter-urls7b.png)
+![필터가 있는 URL의 스크린샷.](media/service-url-filters/power-bi-filter-urls7b.png)
 
 * **테이블** 및 **필드** 이름은 대소문자를 구분하고, **값**은 구분하지 않습니다.
 * 보고서 보기에서 숨겨진 필드는 계속 필터링할 수 있습니다.
@@ -64,7 +64,7 @@ North Carolina에 매장이 있다는 것을 위의 맵 시각화에서 확인�
 ?filter=Store/Territory eq 'NC'
 ```
 
-![필터가 있는 URL의 스크린샷](media/service-url-filters/power-bi-filter-urls7.png)
+![노스캐롤라이나의 필터가 있는 URL의 스크린샷.](media/service-url-filters/power-bi-filter-urls7.png)
 
 이제 보고서는 North Carolina에 대해 필터링되며 보고서에 있는 모든 시각화는 North Carolina에 대한 데이터만 표시합니다.
 
@@ -155,10 +155,10 @@ V3와 V4 사이에는 다른 점이 있습니다. OData V3는 날짜를 지원�
 |**[Column]**     |  [는 0x005B이며, ]는 0x005D입니다.       |  _x005B_Column_x005D_       |
 |**Column+Plus**     | +는 0x2B입니다.        |  Column_x002B_Plus       |
 
-Table_x0020_Name/Column_x002B_Plus eq 3 ![특수 문자를 렌더링하는 테이블 시각적 개체의 스크린샷](media/service-url-filters/power-bi-special-characters1.png)
+Table_x0020_Name/Column_x002B_Plus eq 3 ![유니코드용 특수 문자를 렌더링하는 테이블 시각적 개체의 스크린샷.](media/service-url-filters/power-bi-special-characters1.png)
 
 
-Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![특수 문자를 렌더링하는 테이블 시각적 개체의 스크린샷](media/service-url-filters/power-bi-special-characters2.png)
+Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![Power BI 코딩용 특수 문자를 렌더링하는 테이블 시각적 개체의 스크린샷.](media/service-url-filters/power-bi-special-characters2.png)
 
 ### <a name="special-characters-in-values"></a>값의 특수 문자
 
@@ -172,11 +172,11 @@ URL 필터는 작은따옴표(')를 제외하고 필드 값의 모든 특수 문
 
 - `?filter=Table/Name eq 'Lee''s Summit'`은 다음과 같습니다.
 
-    :::image type="content" source="media/service-url-filters/power-bi-url-filter-lees.png" alt-text="Lee 's Summit":::
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-lees.png" alt-text="Name is O'Brien":::
 
 - `in` 연산자는 이 이스케이프도 지원합니다. `?filter=Table/Name in ('Lee''s Summit', 'O''Brien')`은 다음과 같습니다.
 
-    :::image type="content" source="media/service-url-filters/power-bi-url-filter-in.png" alt-text="Lee's Summit 또는 O'Brien":::
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-in.png" alt-text="Name is O'Brien":::
 
 ## <a name="use-dax-to-filter-on-multiple-values"></a>DAX를 사용하여 여러 값을 필터링
 

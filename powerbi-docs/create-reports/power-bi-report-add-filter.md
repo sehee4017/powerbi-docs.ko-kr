@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/20/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: bf7fad8195f28303ae0ab73fb957db87861755e6
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bf81ec873b822fbb1604378aa508b3ffeb408511
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237377"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635841"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>Power BI의 보고서에 필터 추가
 
@@ -77,7 +77,7 @@ Power BI에서는 수동과 자동, 드릴스루 및 통과 등 다양한 종류
    
     시각적 개체가 바뀌면서 새 필터가 반영됩니다. 필터와 함께 보고서를 저장할 경우 보고서 구독자는 시작 문자로 필터링된 시각적 개체를 볼 수 있고 읽기용 보기에서 필터를 조작하여 값을 선택하거나 지울 수 있습니다.
      
-    ![필터링된 시각적 개체](media/power-bi-report-add-filter/power-bi-search-visual-filter-results.png)
+    ![필터링된 값을 반영하는 가로 막대형 차트를 보여 주는 스크린샷.](media/power-bi-report-add-filter/power-bi-search-visual-filter-results.png)
     
     시각적 개체에서 사용된 필드에 필터를 사용하고 해당 필드가 집계(예: 합계, 평균 또는 개수)된 경우 각 데이터 요소의 ‘집계된’ 값을 필터링하게 됩니다.  따라서 위에서 **올해 판매액 > 500000**인 시각적 개체를 필터링하도록 요청하면 **13 - Charleston Fashion Direct** 데이터 요소만 결과에 표시됩니다. [모델 측정값](../transform-model/desktop-measures.md) 필터는 항상 데이터 요소의 집계된 값에 적용됩니다.
 
@@ -95,7 +95,7 @@ Power BI에서는 수동과 자동, 드릴스루 및 통과 등 다양한 종류
 
     또한 이제 시각화 자체가 필터링되어 특정 매장에서 올해 해당 관리자의 판매만 표시합니다.
      
-    ![필터링된 시각적 개체](media/power-bi-report-add-filter/power-bi-search-visual-filter-results-2.png)
+    ![새 필드를 기준으로 필터링된 값을 반영하는 가로 막대형 차트를 보여 주는 스크린샷.](media/power-bi-report-add-filter/power-bi-search-visual-filter-results-2.png)
 
     필터와 함께 보고서를 저장할 경우 보고서 구독자는 읽기용 보기에서 **구역 관리자** 필터를 조작하여 값을 선택하거나 지울 수 있습니다.
     

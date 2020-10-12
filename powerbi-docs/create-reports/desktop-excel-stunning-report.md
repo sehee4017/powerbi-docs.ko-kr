@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 07/21/2020
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: b628502ad5658388065a197c1c722a59dd9ad2b4
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 275a83c8588bb9489361d467c6c6ab458abc86b2
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86973388"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635335"
 ---
 # <a name="tutorial-from-excel-workbook-to-stunning-report-in-power-bi-desktop"></a>자습서:  Power BI Desktop에서 Excel 통합 문서를 통해 깔끔한 보고서 작성
 
@@ -58,39 +58,39 @@ ms.locfileid: "86973388"
 
 1. **Financials** 테이블을 선택하고 **데이터 변환**을 선택합니다. 
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-financial-navigator.png" alt-text="재무 샘플 데이터가 포함된 Power BI 탐색기의 스크린샷."::: 
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-financial-navigator.png" alt-text="Power BI 서비스의 Power BI 보고서 스크린샷."::: 
 
 1. **Units Sold** 열을 선택합니다. **홈** 탭에서 **데이터 형식**을 선택한 다음, **정수**를 선택합니다. **현재 전환 바꾸기**를 선택하여 열 형식을 변경합니다. 
 
     사용자가 가장 자주 수행하는 데이터 정리 단계는 데이터 형식 변경입니다. 이 경우 판매 단위는 10진수 형식입니다. 판매 단위의 0.2 또는 0.5를 포함하는 것은 적절하지 않습니다. 따라서 판매 단위를 정수로 변경하겠습니다. 
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-query-whole-number.png" alt-text="10진수를 정수로 변경하는 스크린샷."::: 
+    :::image type="content" source="media/desktop-excel-stunning-report/power-query-whole-number.png" alt-text="Power BI 서비스의 Power BI 보고서 스크린샷."::: 
 
 1. **Segment** 열을 선택합니다. **변환** 탭에서 **형식**을 선택한 다음, **대문자**를 선택합니다.
 
     나중에 차트에서 세그먼트를 더 쉽게 확인할 수 있도록 설정하려고 합니다. Segment 열에 서식을 지정하겠습니다. 
 
-     :::image type="content" source="media/desktop-excel-stunning-report/power-query-upper-case.png" alt-text="제목을 소문자에서 대문자로 변경하는 스크린샷.":::
+     :::image type="content" source="media/desktop-excel-stunning-report/power-query-upper-case.png" alt-text="Power BI 서비스의 Power BI 보고서 스크린샷.":::
 
 1. 열 이름을 **Month Name**에서 **Month**로 줄이겠습니다. **Month Name** 열을 두 번 클릭하고 **Month**로 바꾸면 됩니다.  
 
-     :::image type="content" source="media/desktop-excel-stunning-report/power-query-month-name.png" alt-text="열 이름을 줄이는 스크린샷.":::
+     :::image type="content" source="media/desktop-excel-stunning-report/power-query-month-name.png" alt-text="Power BI 서비스의 Power BI 보고서 스크린샷.":::
 
 1. **Product** 열에서 드롭다운을 선택하고 **Montana** 옆에 있는 확인란의 선택을 취소합니다. 
 
      Montana 제품이 지난달에 중단되었다는 것을 알고 있으므로 보고서에서 해당 데이터를 필터링하여 혼동을 피하려고 합니다. 
 
-     :::image type="content" source="media/desktop-excel-stunning-report/power-query-montana.png" alt-text="Montana 값을 삭제하는 스크린샷.":::
+     :::image type="content" source="media/desktop-excel-stunning-report/power-query-montana.png" alt-text="Power BI 서비스의 Power BI 보고서 스크린샷.":::
 
 1. **적용된 단계**의 **쿼리 설정** 아래 목록에 변환이 추가된 것을 확인할 수 있습니다.
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-query-applied-steps.png" alt-text="적용된 단계 목록의 스크린샷.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-query-applied-steps.png" alt-text="Power BI 서비스의 Power BI 보고서 스크린샷.":::
 
 1. **홈**으로 돌아가서 **닫기 및 적용**을 선택합니다. 보고서를 작성할 데이터가 거의 준비되었습니다. 
 
     필드 목록에 시그마 기호가 표시됩니까? Power BI는 해당 필드가 숫자임을 검색했습니다. 또한 Power BI는 일정 기호가 있는 날짜 필드를 표시합니다.
 
-     :::image type="content" source="media/desktop-excel-stunning-report/power-bi-fields-list-sigmas-date.png" alt-text="숫자 필드 및 날짜 필드가 있는 필드 목록의 스크린샷.":::
+     :::image type="content" source="media/desktop-excel-stunning-report/power-bi-fields-list-sigmas-date.png" alt-text="Power BI 서비스의 Power BI 보고서 스크린샷.":::
 
 ### <a name="extra-credit-write-a-measure-in-dax"></a>추가 혜택: DAX로 측정값 작성
 
@@ -98,11 +98,11 @@ ms.locfileid: "86973388"
 
 1. 왼쪽에서 **데이터 보기**를 선택합니다. 
  
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-data-view.png" alt-text="데이터 보기 아이콘의 스크린샷":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-data-view.png" alt-text="Power BI 서비스의 Power BI 보고서 스크린샷.":::
 
 1. **홈** 리본에서 **새 테이블**을 선택합니다. 
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-new-table.png" alt-text="새 테이블 아이콘의 스크린샷.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-new-table.png" alt-text="Power BI 서비스의 Power BI 보고서 스크린샷.":::
 
 1. 이 측정값을 입력하여 2013년 1월 1일과 2014년 12월 31일 사이 모든 날짜의 Calendar 테이블을 생성합니다.  
 
@@ -110,15 +110,15 @@ ms.locfileid: "86973388"
 
 2. 커밋할 확인 표시를 선택합니다.
 
-     :::image type="content" source="media/desktop-excel-stunning-report/power-bi-dax-expression.png" alt-text="DAX 식의 스크린샷.":::
+     :::image type="content" source="media/desktop-excel-stunning-report/power-bi-dax-expression.png" alt-text="Power BI 서비스의 Power BI 보고서 스크린샷.":::
 
 1. 이제 왼쪽에서 **모델 뷰**를 선택합니다. 
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-model-view.png" alt-text="모델 뷰 아이콘의 스크린샷.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-model-view.png" alt-text="Power BI 서비스의 Power BI 보고서 스크린샷.":::
 
 1. Financials 테이블의 **Date** 필드를 Calendar 테이블의 **Date** 필드로 끌어 테이블을 조인하고 두 테이블 간에 ‘관계’를 만듭니다.  
 
-     :::image type="content" source="media/desktop-excel-stunning-report/power-bi-date-relationship.png" alt-text="날짜 필드 간 관계의 스크린샷.":::
+     :::image type="content" source="media/desktop-excel-stunning-report/power-bi-date-relationship.png" alt-text="Power BI 서비스의 Power BI 보고서 스크린샷.":::
 
 ## <a name="build-your-report"></a>보고서 작성 
 
@@ -126,14 +126,14 @@ ms.locfileid: "86973388"
 
 한 번에 하나의 시각적 개체를 작성하여 최종 보고서를 작성합니다. 
 
-:::image type="content" source="media/desktop-excel-stunning-report/power-bi-report-by-numbers.png" alt-text="숫자별 모든 보고서 요소의 스크린샷.":::
+:::image type="content" source="media/desktop-excel-stunning-report/power-bi-report-by-numbers.png" alt-text="Power BI 서비스의 Power BI 보고서 스크린샷.":::
 
 ### <a name="visual-1-add-a-title"></a>시각적 개체 1: 제목 추가 
 
 1. **삽입** 리본에서 **텍스트 상자**를 선택합니다. “Executive Summary – Finance Report”를 입력합니다. 
 1. 입력한 텍스트를 선택합니다. 글꼴 크기를 20으로 설정하고 굵게를 설정합니다. 
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-title-executive-summary.png" alt-text="제목 서식 지정의 스크린샷.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-title-executive-summary.png" alt-text="Power BI 서비스의 Power BI 보고서 스크린샷.":::
 
 1. 시각화 창에서 **배경**을 **끄기**로 전환합니다. 
 1. 상자 크기를 한 줄에 맞게 조정합니다. 
@@ -145,19 +145,19 @@ ms.locfileid: "86973388"
 1. 필드 창에서 **Profit** 필드를 보고서 캔버스의 빈 영역으로 끌어서 놓습니다. 기본적으로 Power BI는 Profit 열을 포함하는 세로 막대형 차트를 표시합니다. 
 1. **Date** 필드를 동일한 시각적 개체로 끌어서 놓습니다. Power BI는 세로 막대형 차트를 업데이트하여 2년 기준 수익을 표시합니다.
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-column-year.png" alt-text="수익 세로 막대형 차트의 스크린샷.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-column-year.png" alt-text="Power BI 서비스의 Power BI 보고서 스크린샷.":::
 
 1. 시각화 창의 **필드** 섹션에서 **축** 값의 드롭다운을 선택합니다. **Date**를 **Date Hierarchy**에서 **Date**로 변경합니다.
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-date-hierarchy.png" alt-text="날짜 계층 구조를 날짜로 변경하는 스크린샷.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-date-hierarchy.png" alt-text="Power BI 서비스의 Power BI 보고서 스크린샷.":::
 
     Power BI는 세로 막대형 차트를 업데이트하여 매월 수익을 표시합니다.
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-column-month.png" alt-text="월별 세로 막대형 차트의 스크린샷.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-column-month.png" alt-text="Power BI 서비스의 Power BI 보고서 스크린샷.":::
 
 1. 시각화 창에서 시각화 유형을 **꺾은선형 차트**로 변경합니다. 
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-profit-date-line-chart.png" alt-text="열을 가로 막대형 차트로 변경하는 스크린샷.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-profit-date-line-chart.png" alt-text="Power BI 서비스의 Power BI 보고서 스크린샷.":::
 
     이제 2014년 12월의 수익이 가장 높았음을 쉽게 알 수 있습니다.
 
@@ -170,7 +170,7 @@ ms.locfileid: "86973388"
 
     Power BI가 각 위치의 상대 수익을 나타내는 거품이 포함된 맵 시각적 개체를 만듭니다. 
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-map-visual.png" alt-text="지도 차트 만들기의 스크린샷.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-map-visual.png" alt-text="Power BI 서비스의 Power BI 보고서 스크린샷.":::
 
     유럽이 북아메리카보다 성과가 더 좋은 것 같습니다. 
 
@@ -187,7 +187,7 @@ ms.locfileid: "86973388"
 
 1. 차트를 끌어서 놓습니다. 그러면 차트가 위쪽 두 개의 차트 아래 공간에 맞는 넓이로 채워집니다.
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-clustered-column-chart.png" alt-text="묶은 세로 막대형 차트의 스크린샷.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-clustered-column-chart.png" alt-text="Power BI 서비스의 Power BI 보고서 스크린샷.":::
 
     회사는 계속해서 Paseo 제품에 투자하고 중소기업 및 정부 세그먼트를 대상으로 해야 하는 것 같습니다.  
 
@@ -199,11 +199,11 @@ ms.locfileid: "86973388"
 2. 시각화 창에서 **슬라이서**를 선택합니다. 
 3. 시각화 창의 필드 섹션에서 **필드**의 드롭다운을 선택합니다. Year 및 Month만 남아 있도록 Quarter 및 Day를 제거합니다. 
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-date-hierarchy-trim.png" alt-text="날짜 계층 구조를 변경하는 스크린샷.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-date-hierarchy-trim.png" alt-text="Power BI 서비스의 Power BI 보고서 스크린샷.":::
 
 4. 각 연도를 확장하고 시각적 개체의 크기를 조정합니다. 그러면 모든 월이 표시됩니다.
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-hierarchy-date-slicer.png" alt-text="날짜 계층 구조 슬라이서의 스크린샷.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-hierarchy-date-slicer.png" alt-text="Power BI 서비스의 Power BI 보고서 스크린샷.":::
 
 이제 관리자가 2013년 데이터를 확인하도록 요청하면 슬라이서를 사용하여 연도 간에 전환하거나 각 연도의 특정 월 간에 전환할 수 있습니다. 
 
@@ -215,13 +215,13 @@ ms.locfileid: "86973388"
 
 - **보기** 리본에서 테마를 **Executive**로 변경합니다.  
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-theme-executive.png" alt-text="Executive 테마 선택의 스크린샷."::: 
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-theme-executive.png" alt-text="Power BI 서비스의 Power BI 보고서 스크린샷."::: 
 
 **시각적 개체 꾸미기** 
 
 시각화 창의 **서식** 탭에서 다음과 같이 변경합니다.
 
-:::image type="content" source="media/desktop-excel-stunning-report/power-bi-format-tab-visualizations.png" alt-text="시각화 창, 서식 탭의 스크린샷.":::
+:::image type="content" source="media/desktop-excel-stunning-report/power-bi-format-tab-visualizations.png" alt-text="Power BI 서비스의 Power BI 보고서 스크린샷.":::
 
 1. 시각적 개체 2를 선택합니다. **제목** 섹션에서 **제목 텍스트**를 “Profit by Month and Year”로 변경하고 **텍스트 크기**를 **16pt**로 변경합니다. **그림자**를 **켜기**로 전환합니다. 
 
@@ -237,7 +237,7 @@ ms.locfileid: "86973388"
 1. **도형 서식** 창의 **선** 섹션에서 **투명도**를 **100%** 로 변경합니다. 
 1. **채우기** 섹션에서 **채우기 색**을 **테마 색 5 #6B91C9**(파란색)로 변경합니다. 
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-theme-color-5.png" alt-text="테마 색 5의 스크린샷":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-theme-color-5.png" alt-text="Power BI 서비스의 Power BI 보고서 스크린샷.":::
 
 1. **서식** 탭에서 **뒤로 보내기** > **맨 뒤로 보내기**를 선택합니다. 
 1. 시각적 개체 1, 제목에서 텍스트를 선택하고 글꼴 색을 **흰색**으로 변경합니다. 
@@ -252,7 +252,7 @@ ms.locfileid: "86973388"
 
 다음은 세련된 최종 보고서의 모양입니다.  
 
-:::image type="content" source="media/desktop-excel-stunning-report/power-bi-excel-formatted-report.png" alt-text="서식이 지정된 최종 보고서의 스크린샷.":::
+:::image type="content" source="media/desktop-excel-stunning-report/power-bi-excel-formatted-report.png" alt-text="Power BI 서비스의 Power BI 보고서 스크린샷.":::
 
 요약하면, 해당 보고서는 다음과 같은 관리자의 가장 중요한 질문에 답을 제공합니다. 
 
@@ -283,7 +283,7 @@ ms.locfileid: "86973388"
 1. Power BI 서비스에서 **내 작업 영역**과 같은 대상을 선택한 다음, **선택**을 선택합니다.
 1. **Power BI에서 '파일 이름' 열기**를 선택합니다.
 
-    :::image type="content" source="media/desktop-excel-stunning-report/open-power-bi.png" alt-text="Power BI 서비스에서 보고서를 여는 스크린샷.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/open-power-bi.png" alt-text="Power BI 서비스의 Power BI 보고서 스크린샷.":::
 
     완성된 보고서가 브라우저에서 열립니다.
 
@@ -291,7 +291,7 @@ ms.locfileid: "86973388"
 
 1. 보고서 위쪽에서 **공유**를 선택하여 보고서를 다른 사용자와 공유합니다.
 
-    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-share-report.png" alt-text="Power BI 서비스에서 보고서를 공유하는 스크린샷.":::
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-share-report.png" alt-text="Power BI 서비스의 Power BI 보고서 스크린샷.":::
 
 ## <a name="next-steps"></a>다음 단계
 

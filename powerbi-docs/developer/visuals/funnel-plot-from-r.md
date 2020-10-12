@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: 2cc37d1296d7f170bf8c6280465e7a3f1aa52e33
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: e0bdb5174c1392e1a2f81a101a62798f82e2b191
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878686"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747715"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>자습서:  R 스크립트에서 R 시각적 개체로 깔대기형 그림 빌드
 이 문서에서는 R 시각적 개체에서 R 스크립트를 사용하여 깔때기형 그림을 빌드하는 방법을 단계별로 설명합니다.
@@ -66,11 +66,11 @@ ms.locfileid: "87878686"
 
 1. *capabilities.json*을 편집하고 `Values` 문자열을 `dataset`로 바꿉니다. 이렇게 하면 템플릿의 “역할”의 이름이 R 코드에서와같이 바뀝니다.
 
-   ![이전 및 이후](./samples/funnel-plot/chapter-3/funnel-r-visual-v01/capabilities-changes.PNG)
+   ![json 파일에서 변경 내용의 diff 비교를 보여 주는 스크린샷.](./samples/funnel-plot/chapter-3/funnel-r-visual-v01/capabilities-changes.PNG)
 
 1. (선택 사항) *dependencies.json*을 편집하고 R 스크립트에 필요한 각 R 패키지의 섹션을 추가합니다. 이렇게 하면 시각적 개체를 처음 로드할 때 이러한 패키지를 자동으로 가져오도록 Power BI에 지시합니다.
 
-   ![이전 및 이후](./samples/funnel-plot/chapter-3/funnel-r-visual-v01/dependencies-changes.PNG)
+   ![cranPackages 항목에 콘텐츠가 추가된 경우 diff 비교를 보여 주는 스크린샷.](./samples/funnel-plot/chapter-3/funnel-r-visual-v01/dependencies-changes.PNG)
 
 1. `pbiviz package` 명령을 사용하여 시각적 개체를 다시 패키지한 후 Power BI로 가져옵니다.
 
@@ -119,7 +119,7 @@ ms.locfileid: "87878686"
 
 1. 사용자가 UI의 내부 매개 변수를 포함하여 시각적 요소의 색과 크기를 제어할 수 있는 기능을 추가합니다.
 
-   ![CV02to03](./media/funnel-plot/diagram-two.PNG)
+   ![오른쪽에 옵션이 버전에 추가된 두 가지 버전의 도구 창을 보여 주는 스크린샷.](./media/funnel-plot/diagram-two.PNG)
 
 1. *capabilities.json*을 편집하고 `objects` 섹션을 업데이트합니다. 여기서는 각 매개 변수의 이름, 도구 설명 및 유형을 정의하고 매개 변수 파티션을 그룹으로 결정합니다(이 경우 세 개의 그룹).
 
@@ -274,7 +274,7 @@ ms.locfileid: "87878686"
 
 * 각 R 시각적 개체는 해당 입력 테이블에 `unique` 연산자를 적용합니다. 동일한 행이 제거되지 않도록 하려면 고유 ID를 사용하여 추가 입력 필드를 추가하고 R 코드에서는 무시하는 것이 좋습니다.   
 
-* Power BI 계정이 있는 경우 `pbiviz package` 명령으로 다시 패키지하는 대신 Power BI 서비스를 사용하여 [즉석에서](/power-bi/developer/visuals/custom-visual-develop-tutorial/) 시각적 개체를 개발합니다.
+* Power BI 계정이 있는 경우 `pbiviz package` 명령으로 다시 패키지하는 대신 Power BI 서비스를 사용하여 [즉석에서](./custom-visual-develop-tutorial.md) 시각적 개체를 개발합니다.
 
 ### <a name="html-widgets-gallery"></a>HTML 위젯 갤러리
 [HTML 위젯 갤러리](http://gallery.htmlwidgets.org/)에서 다음 시각적 개체에 사용할 시각적 개체를 찾아봅니다. 쉽게 작업할 수 있도록 선택 가능한 대화형 HTML 시각적 개체를 20개 이상 사용하여 [시각적 개체 프로젝트 리포지토리](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/multipleRHTML)를 만들었습니다.
@@ -291,15 +291,15 @@ ms.locfileid: "87878686"
 1. *pbiviz.json*에서 메타데이터를 변경합니다(`guid` 필드가 가장 중요).
 1. 필요에 따라 시각적 개체를 다시 패키지하고 계속 사용자 지정합니다. 
 
-![CV02to03](./media/funnel-plot/diagram-four.PNG)
+![이 문서 앞부분에서 설명한 6개 위젯을 보여 주는 스크린샷.](./media/funnel-plot/diagram-four.PNG)
 
-![CV02to03](./media/funnel-plot/diagram-five.PNG)
+![이 문서의 앞부분에서 설명한 6개 추가 위젯을 보여 주는 스크린샷.](./media/funnel-plot/diagram-five.PNG)
 
 > [!NOTE]
 > 이 프로젝트의 모든 위젯이 서비스에서 지원되지는 않습니다.
 
 ## <a name="next-steps"></a>다음 단계
 
-자세한 내용은 [Power BI 시각적 개체](./custom-visual-develop-tutorial.md) 및 [R 시각적 개체](/power-bi/visuals/service-r-visuals)에 대한 추가 자습서를 확인하세요.
+자세한 내용은 [Power BI 시각적 개체](./custom-visual-develop-tutorial.md) 및 [R 시각적 개체](../../visuals/service-r-visuals.md)에 대한 추가 자습서를 확인하세요.
 
 [시각적 개체를 개발하여](https://powerbi.microsoft.com/documentation/powerbi-developer-office-store/) [Office Store(갤러리)](https://store.office.com/appshome.aspx?ui=en-US&rs=en-US&ad=US&clickedfilter=OfficeProductFilter%3aPowerBI&productgroup=PowerBI)에 제출하는 방법을 알아보고, 추가 예제는 [R 스크립트 쇼케이스](https://community.powerbi.com/t5/R-Script-Showcase/bd-p/RVisuals)를 참조하세요.

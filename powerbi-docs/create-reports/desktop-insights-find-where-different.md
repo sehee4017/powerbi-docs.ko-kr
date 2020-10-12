@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 975a7304e61042e408d732aa1c85bfed184f75f5
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3db27630da230ee1805386b039916181e993d412
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239154"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632529"
 ---
 # <a name="apply-insights-in-power-bi-desktop-to-discover-where-distributions-vary-preview"></a>Power BI Desktop에서 인사이트를 적용하여 분포가 다른 곳 찾기(미리 보기)
 
@@ -110,18 +110,20 @@ ms.locfileid: "85239154"
 
 모델의 모든 열을 가능한 시간에 반드시 자세히 살펴볼 필요는 없으므로, 가장 영향력 있는 열과 값이 표시된다고 보장할 수는 없습니다. 그러나 가장 가능성 있는 열을 가장 먼저 자세히 살펴볼 수 있도록 다양한 추론이 적용됩니다. 예를 들어 모든 열을 자세히 살펴본 후에 다음 열/값이 가장 영향력이 높은 것에서 가장 낮은 것까지 분포에 가장 큰 영향을 미치는 것으로 확인되었다고 말할 수 있습니다.
 
-    Subcategory = Touring Bikes
-    Channel = Direct
-    Subcategory = Mountain Bikes
-    Subcategory = Road Bikes
-    Subcategory = Kids Bikes
-    Channel = Store
+```console
+Subcategory = Touring Bikes
+Channel = Direct
+Subcategory = Mountain Bikes
+Subcategory = Road Bikes
+Subcategory = Kids Bikes
+Channel = Store
+```
 
 다음과 같은 열 순서로 산출될 수 있습니다.
 
-    Subcategory: Touring Bikes, Mountain Bikes, Road Bikes (only three listed, with the text including “...amongst others” to indicate that more than three have a significant impact) 
+* 하위 범주: Touring Bikes, Mountain Bikes, Road Bikes(나열된 세 개만, 세 개를 초과하면 상당한 영향이 있음을 나타내려면 “...그중에서”를 포함하는 텍스트 사용) 
 
-    Channel = Direct (only Direct listed, if it’s level of impact was much greater than Store)
+* Channel = Direct(나열된 Direct만, 영향 수준이 Store보다 훨씬 큰 경우)
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 다음 목록은 **정보**에 현재 지원되지 않는 시나리오의 컬렉션입니다.
