@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
-ms.date: 12/17/2018
-ms.openlocfilehash: 8003d7ed6d6b455860ed5ed3bc4ada06c0a35c5f
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.date: 09/30/2020
+ms.openlocfilehash: 10790ef963a11fd78c41a28b54e7d177bd96a157
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537806"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747922"
 ---
 # <a name="power-bi-visuals-faq"></a>Power BI 시각적 개체 FAQ
 
@@ -32,9 +32,9 @@ ms.locfileid: "87537806"
 
 사용자는 기본 제공 Power BI Desktop 및 Power BI 서비스 조직 스토어의 *내 조직* 탭에서 조직의 Power BI 시각적 개체를 찾을 수 있습니다. 
 
-### <a name="if-an-admin-uploads-a-power-bi-visual-from-the-public-marketplace-to-the-organization-store-is-it-automatically-updated-once-a-vendor-updates-the-visual-in-the-public-marketplace"></a>관리자가 Power BI 시각적 개체를 공용 마켓플레이스에서 조직 스토어로 업로드하는 경우 공급업체가 공용 마켓플레이스에서 시각적 개체를 업데이트하면 해당 시각적 개체가 자동으로 업데이트되나요?
+### <a name="if-an-admin-uploads-a-power-bi-visual-from-the-public-marketplace-to-the-organization-store-using-add-visual--from-appsource-is-it-automatically-updated-once-a-vendor-updates-the-visual-in-the-public-marketplace"></a>관리자가 시각적 개체 추가 > AppSource에서를 사용하여 공개 마켓플레이스에서 조직 스토어로 Power BI 시각적 개체를 업로드하는 경우 공급업체가 공개 마켓플레이스에서 시각적 개체를 업데이트하면 해당 시각적 개체가 자동으로 업데이트되나요?
 
-아니요, 공용 마켓플레이스에서는 자동으로 업데이트되지 않습니다. 관리자가 조직의 Power BI 시각적 개체 버전을 업데이트해야 합니다.
+예, 시각적 개체는 공개 마켓플레이스에서 자동으로 업데이트됩니다. 시각적 개체가 인증되면 PDF 또는 PowerPoint로 내보내기와 같은 추가 기능을 포함하여 인증이 유지됩니다.
 
 ### <a name="is-there-a-way-to-disable-the-organization-store"></a>조직 스토어를 사용하지 않도록 설정하는 방법이 있나요?
 
@@ -135,7 +135,7 @@ IAP 시각적 개체는 고급 기능에 대한 앱 내 구매 옵션을 제공�
 
 ### <a name="what-is-changing-in-the-submission-process"></a>제출 프로세스는 어떻게 변경되었나요?
 
-마켓플레이스에 IAP Power BI 시각적 개체를 제출하는 프로세스는 무료 Power BI 시각적 개체와 동일합니다. [파트너 센터](https://docs.microsoft.com/partner-center/)를 사용하여 인증할 Power BI 시각적 개체를 제출할 수 있습니다.
+마켓플레이스에 IAP Power BI 시각적 개체를 제출하는 프로세스는 무료 Power BI 시각적 개체와 동일합니다. [파트너 센터](/partner-center/)를 사용하여 인증할 Power BI 시각적 개체를 제출할 수 있습니다.
 
 
 Power BI 시각적 개체를 등록하는 경우 *제품 설정* 탭으로 이동하여 *내 제품에 서비스 구매가 필요합니다* 확인란을 선택합니다.

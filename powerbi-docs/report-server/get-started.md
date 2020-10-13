@@ -9,18 +9,18 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 4b2b29effb1d9b4b2d8e743990dd3dd0d27470f8
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 3f44353fc562793037d80a2aa7f0a1d42d207bc6
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859845"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634047"
 ---
 # <a name="what-is-power-bi-report-server"></a>Power BI Report Server란?
 
 Power BI Report Server는 보고서와 KPI를 표시하고 관리하는 웹 포털이 있는 온-프레미스 보고서 서버입니다. 이와 함께 Power BI 보고서, 페이지를 매긴 보고서, 모바일 보고서 및 KPI를 만들 수 있는 도구가 제공됩니다. 사용자는 웹 브라우저 또는 모바일 디바이스에서 보거나 받은 편지함에서 메일로 보는 등의 다양한 방법으로 해당 보고서에 액세스할 수 있습니다.
 
-![Power BI Report Server 웹 포털](media/get-started/power-bi-report-server-overview.png)
+![Power BI Report Server 웹 포털을 보여 주는 스크린샷.](media/get-started/power-bi-report-server-overview.png)
 
 ## <a name="comparing-power-bi-report-server"></a>Power BI Report Server 비교 
 Power BI Report Server는 SQL Server Reporting Services 및 Power BI 온라인 서비스와 비슷하지만 방식이 서로 다릅니다. Power BI 서비스와 마찬가지로 Power BI Report Server는 Power BI 보고서(.pbix), Excel 파일 및 페이지가 매겨진 보고서(.rdl)를 호스트합니다. Reporting Services와 마찬가지로 Power BI Report Server는 온-프레미스입니다. Power BI Report Server 기능은 Reporting Services의 상위 집합입니다. Reporting Services에서 수행할 수 있는 모든 작업은 Power BI 보고서에 대한 지원과 함께 Power BI Report Server를 통해 수행할 수 있습니다. 자세한 내용은 [Power BI Report Server 및 Power BI 서비스 비교](compare-report-server-service.md)를 참조하세요.
@@ -36,7 +36,7 @@ Power BI Report Server에 Power BI 보고서를 게시하는 경우 Power BI Pro
 ## <a name="web-portal"></a>웹 포털
 Power BI Report Server에 대한 진입점은 최신 브라우저에서 볼 수 있는 보안 웹 포털입니다. 여기에서 모든 보고서 및 KPI에 액세스할 수 있습니다. 웹 포털의 콘텐츠는 기존 폴더 계층 구조에서 구성됩니다. 폴더에서 콘텐츠는 다음 유형별로 그룹화됩니다. Power BI 보고서, 모바일 보고서, 페이지를 매긴 보고서, KPI 및 Excel 통합 문서. 공유 데이터 세트 및 공유 데이터 원본은 보고서의 구성 요소로 사용하기 위해 자체 폴더에 있습니다. 즐겨찾기에 태그를 지정하여 단일 폴더에서 볼 수 있습니다. 그리고 웹 포털에서 바로 KPI를 만들 수 있습니다. 
 
-![Power BI Report Server 웹 포털](media/get-started/web-portal.png)
+![Power BI Report Server 웹 포털이 표시된 노트북을 보여 주는 사진.](media/get-started/web-portal.png)
 
 권한에 따라 웹 포털에서 콘텐츠를 관리할 수 있습니다. 보고서 처리를 예약하고, 요청 시 보고서에 액세스하고, 게시된 보고서를 구독할 수 있습니다. 웹 포털에 사용자 고유의 사용자 지정 [브랜딩](/sql/reporting-services/branding-the-web-portal)을 적용할 수도 있습니다. 
 

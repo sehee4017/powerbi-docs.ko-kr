@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/05/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e7f36ada69f1ee98c7392d05eb169947c600774e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0e5687f9bb3f27af7bdfee28cd9753fbda4fa44f
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221639"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635772"
 ---
 # <a name="create-ribbon-charts-in-power-bi"></a>Power BI에서 리본 차트 만들기
 
@@ -24,7 +24,7 @@ ms.locfileid: "85221639"
 
 리본 차트를 만들어서 데이터를 시각화하고, 가장 높은 순위(가장 큰 값)를 가진 데이터 범주를 신속하게 검색할 수 있습니다. 리본 차트는 각 기간에 가장 높은 범위(값)가 항상 위쪽에 표시되어 순위 변경 내용을 효과적으로 표시합니다. 
 
-![리본 차트](media/desktop-ribbon-charts/ribbon-charts-01.png)
+![연도 및 분기별로 표시된 오디오, 휴대폰, 기타 범주의 데이터가 포함된 리본 차트를 보여 주는 스크린샷.](media/desktop-ribbon-charts/ribbon-charts-01.png)
 
 > [!NOTE]
 > Power BI 동료와 보고서를 공유하려면 개별 Power BI Pro 라이선스가 있거나 보고서가 Premium 용량에 저장되어 있어야 합니다. [보고서 공유](../collaborate-share/service-share-reports.md)를 참조하세요.
@@ -57,12 +57,12 @@ ms.locfileid: "85221639"
 
 3. 리본 차트는 모든 달의 순위를 보여줍니다. 시간 경과에 따라 순위가 어떻게 변하는지 확인합니다. 예를 들어 홈 범주는 2월에서 3월까지 2일에서 5일로 이동합니다.
 
-    ![리본 차트](media/desktop-ribbon-charts/power-bi-ribbon.png)
+    ![일부 데이터를 호출하여 만든 리본 차트를 보여 주는 스크린샷.](media/desktop-ribbon-charts/power-bi-ribbon.png)
 
 ## <a name="format-a-ribbon-chart"></a>리본 차트 서식 지정
 리본 차트를 만들 경우 **시각화** 창의 **서식** 섹션에서 사용할 수 있는 서식 지정 옵션이 있습니다. 리본 차트에 대한 서식 지정 옵션은 리본에 지정된 추가 서식 지정 옵션을 포함하는 누적 세로 막대형 차트의 해당 옵션과 유사합니다.
 
-![시각화 창의 리본 템플릿](media/desktop-ribbon-charts/power-bi-format-ribbon.png)
+![서식 지정 아이콘이 선택되고 리본 영역이 확장된 것을 보여 주는 스크린샷.](media/desktop-ribbon-charts/power-bi-format-ribbon.png)
 
 리본 차트의 이러한 서식 옵션을 통해 조정 작업을 수행할 수 있습니다.
 
@@ -77,7 +77,7 @@ ms.locfileid: "85221639"
 
 데이터 레이블의 서식 지정 옵션을 설정합니다. 이 예제에서는 텍스트 색을 흰색으로, 표시 단위를 천으로 설정했습니다.
 
-![시각화 창의 리본 템플릿](media/desktop-ribbon-charts/power-bi-data-labels.png)
+![서식 지정된 최종 리본 차트를 보여 주는 스크린샷.](media/desktop-ribbon-charts/power-bi-data-labels.png)
 
 ## <a name="next-steps"></a>다음 단계
 

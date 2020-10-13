@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: beb744e1293db077111df8212c0861154aa86242
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: e96431aaa17b1ae79d940d768a7e160e402c0af3
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354711"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635864"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Power BI에서 행렬 시각화 만들기
 
@@ -207,7 +207,7 @@ ms.locfileid: "85354711"
 
 웹 사이트 URL이 포함된 열 또는 측정값이 있는 경우 조건부 서식 지정을 사용하여 해당 URL을 필드에 활성 링크로 적용할 수 있습니다. 서식 창의 **조건부 서식 지정** 카드에서 이 옵션을 찾을 수 있습니다.
 
-![선택한 행을 표시하는 필터 카드](media/desktop-matrix-visual/power-bi-web-url.png)
+![웹 URL에 연결된 서식 지정 아이콘을 보여 주는 스크린샷.](media/desktop-matrix-visual/power-bi-web-url.png)
 
 **웹 URL**을 설정하고 열에 대한 URL로 사용할 필드를 선택합니다. 적용된 후에는 해당 필드(열)의 값이 활성 링크가 됩니다. 마우스로 가리켜 이 링크를 선택하여 해당 페이지로 이동합니다. 
 

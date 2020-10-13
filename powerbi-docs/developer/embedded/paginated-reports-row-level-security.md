@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.openlocfilehash: a929374e3d974606d27defed4a7faa99e5450c87
-ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
+ms.openlocfilehash: 4066911e90090fe770ca0d33f7e0d9a18d9dde71
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "84427862"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746312"
 ---
 # <a name="implementing-row-level-security-in-embedded-paginated-reports"></a>포함된 페이지를 매긴 보고서에서 행 수준 보안 구현
 
@@ -28,7 +28,7 @@ ms.locfileid: "84427862"
 
 페이지를 매긴 Power BI 보고서에 행 수준 보안을 적용하는 경우 **UserID** 특성에 [매개 변수](../../paginated-reports/report-builder-parameters.md)를 할당해야 합니다. 이 매개 변수는 보고서가 포함되기 전에 데이터 세트에서 가져온 데이터를 제한합니다.
 
-**UserID**에 매개 변수를 할당한 후 [보고서 GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup) API를 사용하여 포함 토큰을 가져옵니다.
+**UserID**에 매개 변수를 할당한 후 [보고서 GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup) API를 사용하여 포함 토큰을 가져옵니다.
 
 ## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>보고서 또는 쿼리 수준에서 필터로 UserID 사용
 
@@ -42,7 +42,7 @@ ms.locfileid: "84427862"
 
 2. **식** 드롭다운 메뉴에서 데이터를 필터링하는 데 사용할 매개 변수를 선택합니다.
 
-     ![Power BI 보고서 작성기 식](media/paginated-reports-row-level-security/expression.png)
+     ![식 메뉴에서 값 Color가 선택된 것을 보여 주는 스크린샷.](media/paginated-reports-row-level-security/expression.png)
 
 3. **값** 함수 단추를 클릭합니다. 
 
@@ -50,7 +50,7 @@ ms.locfileid: "84427862"
 
 4. **식** 창의 **범주** 목록에서 **기본 제공 필드**를 선택합니다.
 
-    ![Power BI 보고서 작성기 식](media/paginated-reports-row-level-security/built-in-fields.png)
+    ![기본 제공 필드가 범주로 선택되고 ExecutionTime이 항목으로 선택된 식 창을 보여 주는 스크린샷.](media/paginated-reports-row-level-security/built-in-fields.png)
 
 5. **항목** 목록에서 **UserID**를 선택하고 **확인**을 클릭합니다.
 
@@ -78,7 +78,7 @@ ms.locfileid: "84427862"
 
 ## <a name="passing-the-configured-parameter-using-the-embed-token"></a>포함 토큰을 사용하여 구성된 매개 변수 전달
 
-고객을 위해 페이지를 매긴 보고서를 포함할 때 [보고서 GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup) API를 사용하여 포함 토큰을 가져옵니다. 이 토큰을 사용하여 페이지를 매긴 보고서에서 가져온 일부 데이터를 필터링할 수도 있습니다.
+고객을 위해 페이지를 매긴 보고서를 포함할 때 [보고서 GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup) API를 사용하여 포함 토큰을 가져옵니다. 이 토큰을 사용하여 페이지를 매긴 보고서에서 가져온 일부 데이터를 필터링할 수도 있습니다.
 
 일부 데이터만 표시하려면 표시할 정보가 들어 있는 `username` 필드를 할당합니다. 예를 들어, 색 매개 변수가 있는 페이지를 매긴 보고서에서 `username` 필드에 *녹색*을 입력하면 포함 토큰이 색 열에 *녹색* 값이 있는 데이터만 표시하도록 포함된 데이터를 제한합니다.
 

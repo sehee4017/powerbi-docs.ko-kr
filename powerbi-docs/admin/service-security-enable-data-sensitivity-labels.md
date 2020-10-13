@@ -8,16 +8,16 @@ ms.topic: how-to
 ms.date: 08/10/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: afe81469bc3ce67979602eedbf49b00cf7a3f1e6
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 96e51d41c39ccc11d4e3816883193132531bb730
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854316"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374318"
 ---
 # <a name="enable-sensitivity-labels-in-power-bi"></a>Power BI에서 민감도 레이블 사용
 
-[Microsoft Information Protection 민감도 레이블](/microsoft-365/compliance/sensitivity-labels)을 Power BI에서 사용할 수 있도록 하려면 테넌트에서 사용하도록 설정해야 합니다. 이 문서에서는 이 작업을 수행하는 방법을 Power BI 테넌트 관리자에게 보여 줍니다. Power BI의 민감도 레이블에 대한 자세한 개요를 보려면 [Power BI의 민감도 레이블](service-security-sensitivity-label-overview.md)을 참조하세요. Power BI에서 민감도 레이블을 적용하는 방법에 대한 자세한 내용은 [민감도 레이블 적용](./service-security-apply-data-sensitivity-labels.md)을 참조하세요. 
+[Microsoft Information Protection 민감도 레이블](/microsoft-365/compliance/sensitivity-labels)을 Power BI에서 사용할 수 있도록 하려면 테넌트에서 사용하도록 설정해야 합니다. 이 문서는 이 작업을 수행하는 방법을 Power BI 관리자에게 보여 줍니다. Power BI의 민감도 레이블에 대한 자세한 개요를 보려면 [Power BI의 민감도 레이블](service-security-sensitivity-label-overview.md)을 참조하세요. Power BI에서 민감도 레이블을 적용하는 방법에 대한 자세한 내용은 [민감도 레이블 적용](./service-security-apply-data-sensitivity-labels.md)을 참조하세요. 
 
 민감도 레이블을 사용하도록 설정한 경우:
 
@@ -34,7 +34,7 @@ ms.locfileid: "90854316"
 
 * Office 앱에는 [민감도 레이블을 보고 적용하기 위한 자체 라이선싱 요구 사항]( https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels )이 있습니다.
 
-* 테넌트에서 민감도 레이블을 사용하도록 설정하기 전에 민감도 레이블이 정의되고 관련 사용자 및 그룹에 대해 게시되었는지 확인합니다. 자세한 내용은 [민감도 레이블 및 해당 정책 만들기 및 구성](/microsoft-365/compliance/create-sensitivity-labels?view=o365-worldwide)을 참조하세요.
+* 테넌트에서 민감도 레이블을 사용하도록 설정하기 전에 민감도 레이블이 정의되고 관련 사용자 및 그룹에 대해 게시되었는지 확인합니다. 자세한 내용은 [민감도 레이블 및 해당 정책 만들기 및 구성](/microsoft-365/compliance/create-sensitivity-labels)을 참조하세요.
 
 >[!NOTE]
 > 조직에서 Azure Information Protection 민감도 레이블을 사용하는 경우 Power BI에서 사용할 수 있도록 Microsoft Information Protection 통합 레이블 지정 플랫폼으로 마이그레이션해야 합니다. [민감도 레이블 마이그레이션에 대해 자세히 알아보세요](/azure/information-protection/configure-policy-migrate-labels).

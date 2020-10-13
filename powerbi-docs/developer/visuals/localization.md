@@ -1,6 +1,6 @@
 ---
-title: Power BI 시각적 개체의 데이터 뷰 매핑 이해
-description: 이 문서에서는 시각적 개체에 전달하기 전에 Power BI에서 데이터를 변환하는 방법을 설명합니다.
+title: Power BI 시각적 개체에 대한 Power BI에 로캘 추가
+description: 시각적 개체가 Power BI 로캘을 검색하여 해당 콘텐츠를 관련 언어로 지역화하는 방법을 알아봅니다.
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: fece594fa6236f01c707f0b84ddca977fb32dede
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 7492b70b9a82fe6c5579c4251000e9af7509e8fb
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349290"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746059"
 ---
 # <a name="add-the-locale-in-power-bi-for-power-bi-visuals"></a>Power BI 시각적 개체에 대한 Power BI에 로캘 추가
 

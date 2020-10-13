@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/08/2020
 ms.author: painbar
-ms.openlocfilehash: f7e88a09f2b48bcfe53256f0da976378a5d87e2c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 67f34bfe04599ffa7d9f9f2c2c3d13545b4306ac
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221365"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635266"
 ---
 # <a name="configure-report-interaction-settings"></a>보고서 상호 작용 설정 구성
 
@@ -21,13 +21,12 @@ ms.locfileid: "85221365"
 
 Power BI 모바일 앱에는 사용자가 데이터를 조작하는 방법을 제어하고 Power BI 모바일 앱의 일부 요소가 작동하는 방식을 정의할 수 있는 여러 가지 구성 가능한 “상호 작용” 설정이 있습니다. 아래 표에서는 현재 사용할 수 있는 상호 작용 설정과 해당 설정을 포함하는 디바이스를 보여 줍니다.
 
-|| Android 휴대폰 | iPhone | Android 태블릿  | iPad |
-|-|:-:|:-:|:-:|:-:|
+| Setting | Android 휴대폰 | iPhone | Android 태블릿  | iPad |
+|---------|:-:|:-:|:-:|:-:|
 | [보고서 시각적 개체에서 한 번 대 두 번 탭 상호 작용](#single-tap) |✔|✔|||
 | [보고서 시각적 개체의 데이터 요소 다중 선택 및 단일 선택](#multi-select) |✔|✔|✔|✔|
 | [고정 및 동적 보고서 바닥글](#docked-report-footer) |✔|✔|||
 | [단추로 시작되는 보고서 새로 고침과 당겨서 새로 고침](#report-refresh) |✔||||
-|
 
 상호 작용 설정에 대한 자세한 내용을 보려면 프로필 사진을 탭하여 [사이드 패널](./mobile-apps-home-page.md#header)을 열고 **설정**을 선택한 다음 **상호 작용** 섹션을 찾습니다.
 

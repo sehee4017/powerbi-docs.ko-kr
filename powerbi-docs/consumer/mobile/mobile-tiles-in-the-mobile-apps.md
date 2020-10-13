@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 68bfe1a97d9db0b12f3942961c4e50e5c535fd84
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 23f1ab7fb7ae5e143084042699db708c0827114f
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90856188"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668554"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 타일 탐색
 적용 대상:
@@ -57,7 +57,7 @@ ms.locfileid: "90856188"
     ![Power BI가 내부 브라우저에서 링크를 열도록 허용하는 기능을 보여 주는 대화 상자 스크린샷.](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
     Power BI 앱에서 링크를 연 후 링크를 복사하고 대신 브라우저 창에서 열 수 있습니다.
-7. 타일의 기반이 되는 [보고서를 엽니다](mobile-reports-in-the-mobile-apps.md) ![보고서 열기 아이콘](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png).
+7. 타일의 기반이 되는 [보고서](mobile-reports-in-the-mobile-apps.md) ![iOS의 보고서 열기 아이콘](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png)를 엽니다.
 8. 타일 포커스 모드에서 나오려면 타일 이름을 탭한 다음 대시보드 이름 또는 **내 작업 영역**을 탭합니다.
    
     ![내 작업 영역 및 기회 분석 샘플의 포인터를 보여 주는 대시보드의 스크린샷.](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-breadcrumb.png)
@@ -72,7 +72,7 @@ ms.locfileid: "90856188"
    
    * 차트를 눌러서 꺾은선형, 가로 막대형, 열 또는 거품 차트에서 가로 막대를 이동하거나 시각화에서 특정 지점에 대한 값을 봅니다.  
    * 연필 아이콘 ![연필 아이콘](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-annotate-icon.png)을 탭하여 [타일에 주석을 달고](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual) 스냅샷 공유 아이콘 ![스냅샷 공유 아이콘](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png)을 탭하여 다른 사용자와 [공유](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual)합니다.
-   * 보고서 열기 아이콘 ![보고서 열기 아이콘](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png)을 탭하여 모바일 앱에서 [보고서를 봅니다](mobile-reports-in-the-mobile-apps.md).
+   * 보고서 열기 아이콘 ![Android의 보고서 열기 아이콘](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png)을 탭하여 모바일 앱에서 [보고서를 봅니다](mobile-reports-in-the-mobile-apps.md).
 3. 경우에 따라 대시보드 작성자는 타일에 대한 링크를 추가합니다. 그러면 세로 줄임표( **...** )를 탭할 때 **링크 열기** ![링크 아이콘](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png)가 표시됩니다.
    
     ![링크 열기를 가리키는 세로 줄임표를 보여 주는 대시보드의 스크린샷.](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)

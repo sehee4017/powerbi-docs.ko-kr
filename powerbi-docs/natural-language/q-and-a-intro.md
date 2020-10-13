@@ -1,18 +1,18 @@
 ---
 title: 자연어를 사용하여 Power BI 질문 및 답변을 통해 데이터 탐색
-description: Power BI 질문 및 답변을 사용하여 데이터를 탐색하는 방법
+description: 쿼리에 자연어를 사용하여 Power BI 질문 및 답변을 통해 데이터를 탐색하고 시각화를 만드는 방법입니다.
 author: mohaali
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/01/2020
 ms.author: mohaali
-ms.openlocfilehash: de16ddbbaca69aea5283c7ab61c462493a6da1d0
-ms.sourcegitcommit: 7d505cb7cc9360211d67f1056cb488f7f15ffab4
+ms.openlocfilehash: d9339c0005f7f2af9fedd5cc5bfcce40469afb8c
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "88578108"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749164"
 ---
 # <a name="intro-to-power-bi-qa"></a>Power BI 질문 및 답변 소개
 

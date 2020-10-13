@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b273b5ea265815f26e58010356790186163c4aa8
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: e896b3aeabc6a22c98563d0836984cd2d8a644de
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354619"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633840"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Power BI의 색 서식을 위한 팁과 힌트
 
@@ -130,15 +130,15 @@ Power BI는 대시보드 및 보고서를 사용자 지정할 수 있는 다양�
 ## <a name="add-color-to-table-rows"></a>테이블 행에 색 추가
 테이블 및 행렬은 색 서식 지정을 위한 다양한 옵션을 제공합니다. 
 
-![기본 테이블](media/service-tips-and-tricks-for-color-formatting/power-bi-table.png)
+![흰색 행과 회색 행이 교대로 반복되는 테이블을 보여 주는 스크린샷.](media/service-tips-and-tricks-for-color-formatting/power-bi-table.png)
 
 테이블 또는 행렬에 색을 적용하는 가장 빠른 방법 중 하나는 서식 탭을 열고 **스타일**을 선택하는 것입니다.  아래 이미지에서는 **굵은 헤더 현란한 행**을 선택했습니다.
 
-![기본 테이블](media/service-tips-and-tricks-for-color-formatting/power-bi-table-style.png)
+![헤더 행을 검은색으로 만들고 다른 행을 연한 녹색과 진한 녹색으로 만드는 굵은 헤더 현란한 행 스타일 옵션을 보여 주는 스크린샷.](media/service-tips-and-tricks-for-color-formatting/power-bi-table-style.png)
 
 다른 색 서식 옵션을 사용하여 실험해 보세요. 이 이미지에서는 **열 머리글**의 배경색을 변경하고 **값**(행)의 **배경색**과 **다른 배경색**을 모두 변경했습니다.
 
-![기본 테이블](media/service-tips-and-tricks-for-color-formatting/power-bi-table-rows.png)
+![배경색 및 다른 배경색의 값 선택기를 보여 주는 스크린샷.](media/service-tips-and-tricks-for-color-formatting/power-bi-table-rows.png)
 
 ## <a name="how-to-undo-in-power-bi"></a>Power BI에서 실행 취소 방법
 다른 여러 Microsoft 서비스 및 소프트웨어와 마찬가지로 Power BI는 마지막 명령을 손쉽게 실행 취소하는 방법을 제공합니다. 예를 들어, 한 개의 데이터 요소 또는 복수의 데이터 요소 색을 변경했으나 시각화에 그 색을 표시했을 때 마음에 들지 않는다고 가정해 보세요. 이전에 어떤 색이었는지 정확히 기억나지는 않지만 색을 되돌리고 싶을 수 있습니다.
@@ -149,7 +149,7 @@ Power BI는 대시보드 및 보고서를 사용자 지정할 수 있는 다양�
 
 ![맨 아래에 기본값으로 되돌리기가 표시된 서식 카드](media/service-tips-and-tricks-for-color-formatting/power-bi-revert.png)
 
-## <a name="feedback"></a>피드백
+## <a name="give-us-your-feedback"></a>피드백 보내기
 공유하고 싶은 팁이 있나요? 팁을 보내주시면 여기에 포함하는 것을 고려해 보겠습니다.
 
 ## <a name="next-steps"></a>다음 단계

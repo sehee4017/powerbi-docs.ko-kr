@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/22/2020
+ms.date: 10/5/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 59ea8bf0ffa3b4b871c26758fd7433525e1eecd3
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 0b6ccdf2e5caad141ef0c33ae70b9c2f2b604462
+ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537944"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "91780186"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>나와 공유한 대시보드 및 보고서 표시
 
@@ -22,9 +22,9 @@ ms.locfileid: "87537944"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-동료가 콘텐츠를 공유하는 경우 **공유** 단추를 사용하면 **공유한 항목** 컨테이너에 표시됩니다. 대시보드 또는 보고서는 **공유한 항목**에서만 사용 가능하며, **앱**에서는 사용할 수 없습니다.
+동료가 공유한 대시보드 또는 보고서는 **공유한 항목** 컨테이너에 표시됩니다. 동료가 앱을 공유하면 **앱** 컨테이너에 앱이 표시됩니다.   
 
-![공유 아이콘](./media/end-user-shared-with-me/power-bi-share-dashboard.png)
+![공유 아이콘](./media/end-user-shared-with-me/power-bi-shared-with-me.png)
 
 Amanda가 **공유한 항목** 콘텐츠 목록을 설명하고 목록을 탐색하고 필터링하는 방법을 보여 주는 비디오를 시청하세요. 그런 다음, 비디오 아래에 있는 단계별 지침을 따라서 직접 시도해 볼 수 있습니다. 공유된 대시보드를 보려면 Power BI Pro 라이선스가 필요합니다. 자세한 내용은 [Power BI 프리미엄이란?](../admin/service-premium-what-is.md)을 참조하세요.
     
@@ -37,24 +37,10 @@ Amanda가 **공유한 항목** 콘텐츠 목록을 설명하고 목록을 탐색
 
 ## <a name="interact-with-shared-content"></a>공유 콘텐츠 조작
 
-*디자이너*가 제공하는 권한에 따라 공유 대시보드 및 보고서를 조작하는 옵션이 제공됩니다. 이러한 옵션에는 대시보드 사본 만들기, [읽기 보기에서](end-user-reading-view.md) 보고서 열기, 다른 동료와 다시 공유 등이 있습니다.
-
-![공유한 항목 컨테이너](./media/end-user-shared-with-me/power-bi-shared.png)
-
-### <a name="actions-available-from-the-shared-with-me-container"></a>**공유한 항목** 컨테이너에서 사용 가능한 작업
-사용 가능한 동작은 콘텐츠 *디자이너*가 할당한 설정에 따라 달라집니다. 옵션에는 다음이 포함될 수 있습니다.
-* 별 아이콘을 선택하여 [대시보드 또는 보고서를 즐겨찾기에 추가](end-user-favorite.md) ![별 아이콘](./media/end-user-shared-with-me/power-bi-star-icon.png)
-* 대시보드 또는 보고서 제거  ![휴지통 아이콘](./media/end-user-shared-with-me/power-bi-delete-icon.png).
-* 일부 대시보드 및 보고서는 다시 공유할 수 있음  ![공유 아이콘](./media/end-user-shared-with-me/power-bi-share-icon-new.png).
-* [Excel에서 보고서 열기](end-user-export.md) ![Excel로 내보내기 아이콘](./media/end-user-shared-with-me/power-bi-excel.png) 
-* Power BI가 데이터에서 찾은 [인사이트 보기](end-user-insights.md)![인사이트 아이콘](./media/end-user-shared-with-me/power-bi-insights.png)
-  
-  > [!NOTE]
-  > EGRC 분류에 대한 자세한 내용을 보려면 **분류** 단추를 선택하거나 [대시보드 데이터 분류](../create-reports/service-data-classification.md)를 방문하세요.
-  > 
+디자이너가 제공하는 권한에 따라 공유 대시보드 및 보고서 상호 작용 옵션이 제공됩니다. 이러한 옵션에는 대시보드 복사본 만들기, 구독, [읽기용 보기에서](end-user-reading-view.md) 보고서 열기, 다른 동료와 다시 공유 등이 있습니다. 보고서나 대시보드를 선택하여 엽니다.
 
 
-## <a name="search-and-sort-shared-dashboards"></a>공유 대시보드 검색 및 정렬
-콘텐츠 목록이 길어지면 필요한 항목을 찾기 위해 몇 가지 옵션을 사용할 수 있습니다. 검색 필드를 사용하거나, 날짜로 정렬하거나, **소유자** 열에서 선택할 수 있습니다.    
+## <a name="search-and-sort-shared-dashboards-and-reports"></a>공유 대시보드 및 보고서 검색 및 정렬
+**공유한 항목** 콘텐츠 목록이 길어지면 필요한 항목을 찾기 위해 몇 가지 옵션을 사용할 수 있습니다. 검색 필드(1)를 사용하거나 열(2) 중 하나를 기준으로 정렬하거나 필터 창을 사용할 수 있습니다. 필터 창을 열려면 오른쪽 위 모서리에서 **필터**를 선택합니다.    
 
-![대시보드 소유자 및 검색](./media/end-user-shared-with-me/power-bi-sort.png)
+![대시보드 소유자 및 검색](./media/end-user-shared-with-me/power-bi-filter.png)

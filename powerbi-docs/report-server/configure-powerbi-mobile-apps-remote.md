@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 11/07/2019
 ms.author: painbar
-ms.openlocfilehash: 996e3835337ce8aa1002abce7682d707daec032e
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d5f55c005f34bc1e3aa9ab5351b816616f4f7664
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859132"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668347"
 ---
 # <a name="configure-power-bi-mobile-app-access-to-report-server-remotely"></a>원격으로 보고서 서버에 대한 Power BI 모바일 앱 액세스 권한 구성
 
@@ -63,7 +63,7 @@ Intune을 사용하여 구성 정책 설정하는 예제는 다음과 같습니�
 
 3. 인증하기 위해 암호를 입력한 다음, **로그인**을 누릅니다. 
 
-    ![보고서 서버 세부 정보 입력](media/configure-powerbi-mobile-apps-remote/power-bi-config-server-address.png)
+    ![암호 입력과 로그인 단추를 보여 주는 스크린샷.](media/configure-powerbi-mobile-apps-remote/power-bi-config-server-address.png)
 
 이제 보고서 서버에 저장된 KPI 및 Power BI 보고서를 확인하고 상호 작용할 수 있습니다.
 

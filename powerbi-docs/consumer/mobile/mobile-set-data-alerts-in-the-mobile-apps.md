@@ -8,17 +8,17 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/11/2019
 ms.author: painbar
-ms.openlocfilehash: a0fdc83db8d24f4733d3eb8402a4ea9ccce15869
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 71fb659ba102e139c7a1679b0c58c07c47a38bf0
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860604"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668669"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 데이터 경고 설정
 적용 대상:
 
-| ![iPhone](./media/mobile-set-data-alerts-in-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](./media/mobile-set-data-alerts-in-the-mobile-apps/ipad-logo-50-px.png) | ![Android 휴대폰](./media/mobile-set-data-alerts-in-the-mobile-apps/android-phone-logo-50-px.png) | ![Android 태블릿](./media/mobile-set-data-alerts-in-the-mobile-apps/android-tablet-logo-50-px.png) | ![Android 태블릿](./media/mobile-set-data-alerts-in-the-mobile-apps/win-10-logo-50-px.png) |
+| ![iPhone](./media/mobile-set-data-alerts-in-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](./media/mobile-set-data-alerts-in-the-mobile-apps/ipad-logo-50-px.png) | ![Android 휴대폰](./media/mobile-set-data-alerts-in-the-mobile-apps/android-phone-logo-50-px.png) | ![Android 태블릿](./media/mobile-set-data-alerts-in-the-mobile-apps/android-tablet-logo-50-px.png) | ![Windows 10 디바이스.](./media/mobile-set-data-alerts-in-the-mobile-apps/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Android 휴대폰 |Android 태블릿 |Windows 10 디바이스 |
 
@@ -38,7 +38,7 @@ Power BI Pro 라이선스가 있거나 공유 대시보드가 프리미엄 용�
 1. 대시보드에서 번호 또는 계기 타일을 탭하여 포커스 모드로 엽니다.  
    
    ![포커스 모드의 계기 타일을 보여 주는 대시보드의 스크린샷.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual.png)
-2. 벨 아이콘 ![벨 아이콘](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-icon.png) 을 탭하여 경고를 추가합니다.  
+2. 종 모양 아이콘 :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-icon.png" border="false":::을 눌러서 경고를 추가합니다.  
 3. **경고 규칙 추가**를 탭합니다.
    
    ![설정된 경고 없음을 보여 주는 경고 규칙의 스크린샷.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-alert-rule.png)
@@ -62,9 +62,9 @@ Power BI Pro 라이선스가 있거나 공유 대시보드가 프리미엄 용�
 
 1. 대시보드에서 경고가 포함된 번호 또는 계기 타일을 탭합니다.  
    
-   ![경고가 있는 숫자 타일을 보여 주는 대시보드의 스크린샷.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual_has_alert.png)
+   ![경고가 있는 숫자 타일을 보여 주는 iPhone 또는 iPad 대시보드의 스크린샷.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual_has_alert.png)
 
-2. 벨 아이콘 ![클릭하거나 누릅니다.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-has-alert-icon.png).  
+2. 종 모양 아이콘 :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-has-alert-icon.png" border="false":::을 탭합니다.  
 3. 경고 이름을 탭하여 편집하거나, 슬라이더를 탭하여 메일 경고를 해제하거나, 휴지통을 탭하여 경고를 삭제합니다.
    
     ![경고 이름, 경고를 삭제할 휴지통 및 경고를 끄는 슬라이더를 리키는 경고의 스크린샷.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-edit-delete-alert.png)
@@ -72,9 +72,9 @@ Power BI Pro 라이선스가 있거나 공유 대시보드가 프리미엄 용�
 ## <a name="data-alerts-on-an-android-device"></a>Android 디바이스의 데이터 경고
 ### <a name="set-an-alert-on-an-android-device"></a>Android 디바이스의 경고 설정
 1. Power BI 대시보드에서 번호 또는 계기 타일을 탭하여 엽니다.  
-2. 벨 아이콘 ![벨 아이콘](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-alert-icon.png) 을 탭하여 경고를 추가합니다.  
+2. 종 모양 아이콘 :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-alert-icon.png" border="false":::을 눌러서 경고를 추가합니다.  
    
-   ![경고가 있는 숫자 타일을 보여 주는 대시보드의 스크린샷.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-tap-alert.png)
+   ![경고가 있는 숫자 타일을 보여 주는 Android 디바이스 대시보드의 스크린샷.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-tap-alert.png)
 3. 더하기 아이콘(+)을 탭합니다.
    
    ![더하기 아이콘의 포인터를 보여 주는 경고 관리의 스크린샷.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-plus-alert.png)
@@ -95,12 +95,12 @@ Power BI Pro 라이선스가 있거나 공유 대시보드가 프리미엄 용�
 Power BI 모바일 앱에서 개별 경고를 관리하거나 [Power BI 서비스에서 모든 경고를 관리](../../create-reports/service-set-data-alerts.md)할 수 있습니다.
 
 1. 대시보드에서 경고가 포함된 카드 또는 계기 타일을 탭합니다.  
-2. 단색 벨 아이콘 탭하기 ![벨 아이콘](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-filled-alert-bell.png).  
+2. 단색 벨 아이콘 :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-filled-alert-bell.png" border="false":::을 탭합니다.  
 3. 경고를 탭하여 값을 변경하거나, 해제합니다.
    
     ![경고를 추가하는 더하기 아이콘을 보여 주는 경고 관리 타일의 스크린샷.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-manage-alerts.png)
 4. 같은 타일에 또 다른 경고를 추가하려면 더하기 아이콘(+)을 탭합니다.
-5. 경고를 모두 삭제하려면 휴지통 아이콘 ![휴지통 아이콘](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-delete-alert-icon.png)을 탭합니다.
+5. 경고를 모두 삭제하려면 휴지통 아이콘 ![휴지통 아이콘](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-delete-alert-icon.png).
 
 ## <a name="data-alerts-on-a-windows-device"></a>Windows 디바이스의 데이터 경고
 
@@ -109,9 +109,9 @@ Power BI 모바일 앱에서 개별 경고를 관리하거나 [Power BI 서비�
 
 ### <a name="set-data-alerts-on-a-windows-device"></a>Windows 디바이스의 데이터 경고 설정
 1. 대시보드에서 번호 또는 계기 타일을 탭하여 엽니다.  
-2. 벨 아이콘 ![벨 아이콘](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-off.png) 을 탭하여 경고를 추가합니다.  
+2. 종 모양 아이콘 :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-off.png" border="false":::을 눌러서 경고를 추가합니다.  
    
-   ![경고가 있는 숫자 타일을 보여 주는 대시보드의 스크린샷.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-tap-alert.png)
+   ![경고가 있는 숫자 타일을 보여 주는 Windows 디바이스 대시보드의 스크린샷.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-tap-alert.png)
 3. 더하기 아이콘(+)을 탭합니다.
    
    ![설정된 경고가 없음을 보여 주는 경고 관리의 스크린샷.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-no-alerts-yet.png)
@@ -134,7 +134,7 @@ Power BI 모바일 앱에서 개별 경고를 관리하거나 [Power BI 서비�
 Power BI 모바일 앱에서 개별 경고를 관리하거나 [Power BI 서비스에서 모든 경고를 관리](../../create-reports/service-set-data-alerts.md)할 수 있습니다.
 
 1. 대시보드에서 경고가 포함된 카드 또는 계기 타일을 탭합니다.  
-2. 벨 아이콘 ![클릭하거나 누릅니다.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-on.png).  
+2. 종 모양 아이콘 :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-on.png" border="false":::을 탭합니다.  
    
    ![경고가 있는 숫자 타일을 보여 주는 대시보드의 스크린샷.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-has-alerts.png)
 3. 경고를 탭하여 값을 변경하거나, 해제합니다.
@@ -153,10 +153,10 @@ Power BI 모바일 앱에서 개별 경고를 관리하거나 [Power BI 서비�
 2. 전자 메일을 보내도록 경고를 설정해 놓으면, 다음과 같은 내용을 받은 편지함에서 찾을 수 있습니다.
    
    ![경고를 보여 주는 메일 알림의 스크린샷.](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alerts-email.png)
-3. Power BI가 [알림 센터](mobile-apps-notification-center.md)에 메시지를 추가하고, 제목 표시줄의 벨 아이콘 ![벨 아이콘](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png)(iOS 및 Android) 또는 전역 탐색 단추 ![전역 탐색 단추](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png)(Windows 10 디바이스)에 노란색 점을 추가합니다.
+3. Power BI가 [알림 센터](mobile-apps-notification-center.md)에 메시지를 추가하고, 제목 표시줄의 벨 아이콘 :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png" border="false":::(iOS 및 Android) 또는 전역 탐색 단추 ![전역 탐색 단추](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png)(Windows 10 디바이스)에 노란색 점을 추가합니다.
 
 
-4. 벨 아이콘 ![벨 아이콘](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png) 또는 전역 탐색 단추 ![전역 탐색 단추](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png)를 탭하여 [**알림 센터**를 열고](mobile-apps-notification-center.md) 경고 정보를 확인합니다.
+4. 벨 아이콘 :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png" border="false"::: 또는 전역 탐색 단추 ![전역 탐색 단추](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png)를 탭하여 [**알림 센터**를 열고](mobile-apps-notification-center.md) 경고 정보를 확인합니다.
    
      
 

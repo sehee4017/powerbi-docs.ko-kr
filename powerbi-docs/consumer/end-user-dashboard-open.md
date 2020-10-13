@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/27/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e9b950d85d50727ed1e9ca5ec2f94498a37d1665
-ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
+ms.openlocfilehash: f447856ac387bdabdbd29e1d1ebf47caef22677a
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89286813"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633955"
 ---
 # <a name="view-a-dashboard"></a>대시보드 보기
 
@@ -31,14 +31,11 @@ Power BI Pro 또는 Premium 라이선스는 대시보드를 공유하고 공유�
 
 ## <a name="open-a-dashboard"></a>대시보드 열기
 
+대시보드는 Power BI 서비스의 여러 위치에서 열 수 있습니다.
 
+![대시보드 아이콘](media/end-user-dashboard-open/power-bi-dashboard-icon.png)
 
-|              |         |
-|------------|--------------------------------|
-|![대시보드 아이콘](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |대시보드는 Power BI 서비스의 여러 위치에서 열 수 있습니다. <br> 이 대시보드 아이콘을 찾아보세요. 대시보드를 식별하면 <br>선택해서 엽니다. 그러면 대시보드가 Power BI 캔버스를 채웁니다. |
-|                    |          |
-
-
+이 대시보드 아이콘을 찾아보세요. 대시보드를 식별한 후 선택하여 열면 대시보드가 Power BI 캔버스를 채웁니다.
 
 탐색 창에 있는 모든 컨테이너에서 대시보드를 찾을 수 있습니다. 
 

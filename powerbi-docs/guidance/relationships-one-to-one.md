@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 7e10cfa5c99eb1750829150fd0a25347a4da1880
-ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
+ms.openlocfilehash: cbcf7fc1890ae1455f1f6ec7c8604e275f60b2d5
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "91136261"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668416"
 ---
 # <a name="one-to-one-relationship-guidance"></a>일 대 일 관계 지침
 
@@ -82,7 +82,7 @@ ms.locfileid: "91136261"
 
 **필드** 창에서 보고서 작성자는 다음 두 테이블에서 제품 관련 필드를 찾습니다. **Product** 및 **Product Category**.
 
-![필드 창에 확장된 테이블이 모두 표시되고 열이 필드로 나열됩니다.](media/relationships-one-to-one/product-to-product-category-fields-pane.png)
+![필드 창에는 확장된 두 테이블이 모두 표시되며, 열은 Product 및 Product Category가 호출된 필드로 나열됩니다.](media/relationships-one-to-one/product-to-product-category-fields-pane.png)
 
 두 테이블의 필드가 테이블 시각적 개체에 추가될 때 어떤 일이 발생하는지 알아보겠습니다. 이 예제에서 **SKU** 열의 원본은 **Product** 테이블입니다.
 
@@ -112,7 +112,7 @@ ms.locfileid: "91136261"
 
     이 예제에서 보고서 작성자는 이제 **필드** 창에 **Product**라는 단일 테이블을 찾을 수 있습니다. 이 테이블이 모든 제품 관련 필드를 포함합니다.
 
-    ![필드 창에 확장된 테이블이 모두 표시되고 열이 필드로 나열됩니다.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated.png)
+    ![필드 창에는 확장된 두 테이블이 모두 표시되며, 열은 Product가 호출된 필드로 나열됩니다.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated.png)
 3. **누락 값 바꾸기**: 두 번째 쿼리에 일치하지 않는 행이 있는 경우 해당 행에서 파생된 열에 NULL이 표시됩니다. 해당하는 경우 NULL을 토큰 값으로 대체하는 것이 좋습니다. 보고서 작성자가 열 값을 기준으로 필터링하거나 그룹화하는 경우 보고서 시각적 개체에 BLANK가 표시될 수 있기 때문에 누락 값을 바꾸는 것이 특히 중요합니다.
 
     다음 테이블 시각적 개체에서 제품 SKU CL-02의 범주가 이제 _[Undefined]_ 로 표시됩니다. 쿼리에서 null 범주가 이 토큰 텍스트 값으로 바꼈습니다.
@@ -123,7 +123,7 @@ ms.locfileid: "91136261"
 
     이 예제에서 보고서 작성자는 이제 다음 두 가지 수준이 있는 계층 구조를 사용할 수 있습니다. **Category** 및 **Product**.
 
-    ![필드 창에 확장된 테이블이 모두 표시되고 열이 필드로 나열됩니다.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-with-hierarchy.png)
+    ![필드 창에는 확장된 두 테이블이 모두 표시되며, 열은 Products가 호출된 필드로 나열됩니다.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-with-hierarchy.png)
 
 개별 테이블이 필드를 구성하는 데 도움이 되는 경우에도 단일 테이블로 통합하는 것이 좋습니다. 필드를 계속 구성할 수는 있지만, 대신 _표시 폴더_를 사용합니다.
 

@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 05/08/2020
-ms.openlocfilehash: 37bd8f15dcf17cd0f967e819338a719edf2a3054
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 8eeca13acb1568a671618dca75d20cb7667b538b
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276378"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747554"
 ---
 # <a name="create-an-ssl-certificate"></a>SSL 인증서 만들기
 
 이 문서에서는 Power BI 시각적 개체용 SSL(Secure Sockets Layer) 인증서를 생성하고 설치하는 방법을 설명합니다.
 
-Windows, macOS X 및 Linux 절차의 경우 Power BI 시각적 도구 **.pbiviz** 패키지가 설치되어 있어야 합니다. 자세한 내용은 [개발자 환경 설정](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial#setting-up-the-developer-environment)을 참조하세요. 
+Windows, macOS X 및 Linux 절차의 경우 Power BI 시각적 도구 **.pbiviz** 패키지가 설치되어 있어야 합니다. 자세한 내용은 [개발자 환경 설정](./custom-visual-develop-tutorial.md#setting-up-the-developer-environment)을 참조하세요. 
 
 ## <a name="create-a-certificate-on-windows"></a>Windows에서 인증서 만들기
 
@@ -31,7 +31,7 @@ pbiviz --install-cert
 
 Windows 7의 경우 `pbiviz` 도구를 사용하려면 명령줄에서 OpenSSL 유틸리티를 사용해야 합니다. OpenSSL을 설치하려면 [OpenSSL](https://www.openssl.org) 또는 [OpenSSL Binaries](https://wiki.openssl.org/index.php/Binaries)로 이동합니다.
 
-인증서에 대한 자세한 내용 및 설치 지침은 [Windows용 인증서 만들기 및 설치](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial#windows)를 참조하세요.
+인증서에 대한 자세한 내용 및 설치 지침은 [Windows용 인증서 만들기 및 설치](./custom-visual-develop-tutorial.md#windows)를 참조하세요.
 
 ## <a name="create-a-certificate-on-macos-x"></a>macOS X에서 인증서 만들기
 
@@ -58,7 +58,7 @@ OpenSSL 유틸리티를 설치한 후 다음 명령을 실행하여 새 인증�
 pbiviz --install-cert
 ```
 
-자세한 내용 및 지침은 [OS X용 인증서 만들기 및 설치](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial#osx)를 참조하세요.
+자세한 내용 및 지침은 [OS X용 인증서 만들기 및 설치](./custom-visual-develop-tutorial.md#osx)를 참조하세요.
 
 ## <a name="create-a-certificate-on-linux"></a>Linux에서 인증서 만들기
 
@@ -184,7 +184,7 @@ PFX 인증서 파일에 암호가 필요한 경우
    \PowerBI-visuals-tools\config.json
    ```
    
-1. `server` 섹션에서 \<YOUR PASSPHRASE> 자리 표시자에 암호를 지정합니다.
+1. `server` 섹션에서 \<YOUR PASSPHRASE> 자리 표시자를 바꿔 암호를 지정합니다.
 
     ```cmd
     "server":{

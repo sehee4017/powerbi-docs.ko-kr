@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a3e213107f84f81aef78a52cdb282b70379c7465
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8ee29bcfb85c627ed6e9bb4c33c48b941ded7dd7
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237526"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526829"
 ---
 # <a name="create-card-visualizations"></a>카드 시각화 만들기
 
@@ -102,7 +102,8 @@ Power BI 대시보드 또는 보고서에서 총 매출, 연간 시장 점유율
 5. 카드가 원하는 대로 정확하게 표시될 때까지 서식 옵션을 계속 살펴봅니다. 
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
-질문 상자가 전혀 표시되지 않으면 시스템 또는 테넌트 관리자에게 문의합니다.    
+
+질문 상자가 전혀 표시되지 않으면 Power BI 관리자에게 문의하세요.
 
 ## <a name="next-steps"></a>다음 단계
 [Power BI의 콤보 차트](power-bi-visualization-combo-chart.md)

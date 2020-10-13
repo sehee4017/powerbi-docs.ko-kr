@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 58d595ff5e7d3947117aa9663e761a6f98f10c7f
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: a8a38790b606fa5f700f2b9389ebad5338919d28
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861317"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635289"
 ---
 # <a name="create-key-influencers-visualizations"></a>주요 영향 요인 시각화 만들기
 
@@ -231,13 +231,13 @@ ms.locfileid: "90861317"
 -   오른쪽 창의 산점도에는 테이블의 각 고유 값에 대한 평균 주택 가격이 표시됩니다.
 -   거품형의 값은 평균 연도가 해당 표준 편차(이 경우 30년)만큼 증가하면 상승되는 평균 주택 가격(이 경우 1,350달러)을 보여 줍니다.
 
-![숫자 대상 측정값 인플루언서](media/power-bi-visualization-influencers/power-bi-ki-numeric-measures.png)
+![왼쪽에 영향 요인, 오른쪽에 산점도가 있는 주택 가격의 주요 영향 요인을 보여 주는 스크린샷.](media/power-bi-visualization-influencers/power-bi-ki-numeric-measures.png)
 
 ## <a name="interpret-the-results-top-segments"></a>결과 해석: 상위 세그먼트
 
 숫자 표적의 상위 세그먼트는 평균적으로 주택 가격이 전체 데이터 세트보다 높은 그룹을 보여 줍니다. 예를 들어 아래에서 **세그먼트 1**은 **GarageCars**(차고에서 수용할 수 있는 자동차 수)가 2보다 크고 **RoofStyle**이 Hip(추녀마루)인 주택으로 구성되어 있음을 확인할 수 있습니다. 이러한 특성이 있는 주택의 평균 가격은 데이터 전체의 평균인 180,000달러와 비교하여 355,000달러입니다.
 
-![숫자 대상 측정값 인플루언서](media/power-bi-visualization-influencers/power-bi-ki-numeric-segments.png)
+![주택 가격의 상위 세그먼트를 보여 주는 스크린샷.](media/power-bi-visualization-influencers/power-bi-ki-numeric-segments.png)
 
 ## <a name="analyze-a-metric-that-is-a-measure-or-a-summarized-column"></a>측정값 또는 요약된 열 메트릭 분석
 
@@ -245,19 +245,19 @@ ms.locfileid: "90861317"
 
 요약되지 않은 열의 경우, 분석은 항상 테이블 수준에서 실행됩니다. 위의 주택 가격 예제에서는 **주택 가격** 메트릭을 분석하여 주택 가격의 상승/하락에 영향을 주는 요인을 확인했습니다. 분석은 자동으로 테이블 수준에서 실행됩니다. 테이블에 각 주택의 고유 ID가 있으므로, 분석은 주택 수준에서 실행됩니다.
 
-![측정값 테이블](media/power-bi-visualization-influencers/power-bi-ki-measures-table.png)
+![주택 가격 예제의 테이블 수준 분석을 보여 주는 스크린샷.](media/power-bi-visualization-influencers/power-bi-ki-measures-table.png)
 
 측정값과 요약된 열의 경우 분석할 수준을 즉시 알 수 없습니다. **주택 가격**이 **평균**으로 요약된 경우 이 평균 주택 가격을 계산하려는 수준을 고려해야 합니다. 동네 수준의 평균 주택 가격인가요? 또는 지역 수준인가요?
 
 측정값 및 요약된 열은 사용된 **설명 기준** 필드 수준에서 자동으로 분석됩니다. **설명 기준**에 관련 필드 3개(**Kitchen Quality**, **Building Type**, **Air Conditioning**)가 있다고 가정해 보겠습니다. **평균 주택 가격**은 이러한 세 필드의 고유한 조합에 대해 계산됩니다. 테이블 뷰로 전환하여 평가할 데이터의 모양을 살펴보면 도움이 되는 경우가 많습니다.
 
-![측정값 테이블](media/power-bi-visualization-influencers/power-bi-ki-measures-table2.png)
+![3개의 열과 평균 주택 가격을 보여 주는 스크린샷.](media/power-bi-visualization-influencers/power-bi-ki-measures-table2.png)
 
 이 분석은 매우 요약되어 있으므로, 회귀 모델이 학습할 수 있는 데이터 패턴을 찾기 어렵습니다. 더 나은 결과를 얻으려면 자세한 수준에서 분석을 실행해야 합니다. 주택 수준에서 주택 가격을 분석하려면 **ID** 필드를 분석에 명시적으로 추가해야 합니다. 하지만 주택 ID를 영향 요인으로 간주하지는 않으려고 합니다. 주택 ID가 증가함에 따라 주택 가격이 상승함을 아는 것은 유용하지 않습니다. 이 경우에는 **확장 기준** 필드 웰 옵션이 유용합니다. **확장 기준**을 사용하여 새 영향 요인을 찾지 않고 분석 수준을 설정하는 데 사용할 필드를 추가할 수 있습니다.
 
 **확장 기준**에 **ID**를 추가하면 시각화가 어떻게 표시되는지 살펴보겠습니다. 측정값을 평가할 수준을 정의한 후의 영향 요인 해석은 [요약되지 않은 숫자 열](#analyze-a-metric-that-is-numeric)의 경우와 동일합니다.
 
-![측정값 테이블](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
+![이 섹션에서 설명한 3개의 열에 따라 달라지는 주택 가격 시각화를 보여 주는 스크린샷.](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
 
 주요 영향 요인 시각화를 사용하여 측정값을 분석하는 방법을 자세히 알아보려면 다음 자습서를 시청하세요.
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: tutorial
 ms.date: 11/26/2019
 ms.author: painbar
-ms.openlocfilehash: f946c3b10f9d4922c227dd92a748af91266c040e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3b84cf4969df05d4e9570b12a80436bca3e280be
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75221812"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668324"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>자습서:  Power BI iOS 앱의 질문 및 답변 가상 분석가를 통해 데이터에 대해 질문하기
 
@@ -92,13 +92,13 @@ ms.locfileid: "75221812"
 
 3. 대시보드 탭을 클릭한 다음, 기회 분석 샘플 줄에서 휴지통을 클릭합니다.
 
-    ![삭제 아이콘 선택](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample.png)
+    ![대시보드가 선택되고 삭제 아이콘이 호출된 Power BI 작업 영역을 보여 주는 스크린샷.](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample.png)
 
     이제 보고서 탭을 선택하고 동일한 작업을 수행합니다.
 
 4. 이제 데이터 세트 탭을 선택하고 **기타 옵션**(...)을 클릭한 다음, **삭제**를 선택합니다.
 
-    ![삭제 아이콘 선택](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample-datasets.png)
+    ![데이터 세트가 선택되고 추가 옵션 메뉴에서 삭제가 선택된 Power BI 작업 영역을 보여 주는 스크린샷.](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample-datasets.png)
 
 ## <a name="next-steps"></a>다음 단계
 

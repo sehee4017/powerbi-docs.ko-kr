@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 05/22/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: a888d9010a418aa51534b94350cc3f6d82385772
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 74f6d14ed96e7e33929aafe315965c04b2f78863
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860972"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633978"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>소비자용 Power BI 서비스
 
@@ -24,17 +24,17 @@ ms.locfileid: "90860972"
  
 동료들은 각종 보고서, 스프레드시트, 차트를 포함하는 메일, 유인물도 보내줄 것입니다. 데이터가 점점 쌓여가면서 필요한 데이터를 찾기가 더 어려워지며, 최신 정보를 사용하고 있지 않을까 하는 걱정도 들게 됩니다.  
  
-![Power BI 대시보드](media/end-user-consumer/power-bi-consumer-pipes.png)
+![보고서, 차트, 이메일, 스프레드시트로 레이블이 지정된 형식으로 데이터를 수신하는 소비자를 보여 주는 다이어그램.](media/end-user-consumer/power-bi-consumer-pipes.png)
 
 ## <a name="the-power-bi-service-for-consumers"></a>*소비자*용 Power BI 서비스
 
 Power BI를 사용하면 작업을 더 쉬우면서 효율적으로 수행할 수 있습니다. 이러한 모든 데이터는 데이터를 시각화하는 차트 및 그래프가 됩니다. 데이터 인사이트가 긴 목록이나 숫자와 단어의 테이블 대신, 데이터의 인사이트를 알려주는 다채롭고 멋진 시각적 요소를 사용해서 ***보기 좋게*** 표시됩니다. 
 
-![Power BI 대시보드](media/end-user-consumer/power-bi-consumer-examples.png)
+![다양한 종류의 차트가 있는 Power BI 보고서를 보여 주는 스크린샷.](media/end-user-consumer/power-bi-consumer-examples.png)
  
 브라우저 또는 모바일 디바이스에서 Power BI 서비스를 엽니다. 사용자와 동료가 자동으로 업데이트되고 새로 고쳐지는 신뢰할 수 있는 동일한 대시보드 및 보고서를 사용할 수 있으므로 항상 최신 콘텐츠로 작업하게 됩니다.   
 
-![Power BI 대시보드](media/end-user-consumer/power-bi-funnel.png)
+![Power BI에 병합되고 컴퓨터 화면과 휴대용 디바이스에 표시되는 여러 형식의 데이터를 보여 주는 다이어그램.](media/end-user-consumer/power-bi-funnel.png)
 
 콘텐츠가 고정되어 있지 않으므로 추세, 인사이트 및 기타 비즈니스 인텔리전스를 찾아볼 수 있습니다. 콘텐츠를 조각화 및 분석하고 원하는 표현을 사용해서 질문을 할 수도 있습니다. 또는 데이터가 자동으로 흥미로운 인사이트를 제공할 때까지 기다립니다. 데이터가 변경되면 경고가 표시되고, 설정한 일정에 따라 메일로 보고서가 전송됩니다. 어떤 디바이스에서도, 클라우드나 온-프레미스 모두에서, 언제든지 모든 데이터를 사용할 수 있습니다. 이것은 Power BI로 수행할 수 있는 작업의 일부에 불과합니다. 
 
@@ -56,7 +56,7 @@ Power BI를 조작하는 방식은 작업 역할에 따라 다릅니다. 최종 
  
 그렇다고 해서 변경 내용을 저장할 수 없다는 의미는 아닙니다. 하지만 이러한 변경 내용은 사용자가 보는 콘텐츠 모습에만 영향을 줍니다. 그리고 단추를 클릭하기만 하면 기본 보기로 되돌릴수 있습니다.  
 
-![Power BI 대시보드](media/end-user-consumer/power-bi-reset.png)
+![기본값으로 다시 설정 단추를 보여 주는 스크린샷.](media/end-user-consumer/power-bi-reset.png)
 
 
 ## <a name="next-steps"></a>다음 단계

@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 04/02/2019
-ms.openlocfilehash: 92bccc80c36fdf6de0972dd67b33a4f1f9c85c0c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: eac2f6d1bcb79ccf25f69eb79b73ae884898ec58
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240162"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748681"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Power BI와 함께 사용할 Azure AD 애플리케이션 등록
 
 Power BI 콘텐츠 포함에 사용하기 위해 Azure AD(Azure Active Directory) 내에서 애플리케이션을 등록하는 방법에 대해 알아봅니다.
 
-Azure AD에 애플리케이션을 등록하면 애플리케이션에서 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)에 액세스할 수 있습니다. 애플리케이션을 등록하면 애플리케이션의 ID를 설정하고 Power BI REST 리소스에 대한 권한을 지정할 수 있습니다.
+Azure AD에 애플리케이션을 등록하면 애플리케이션에서 [Power BI REST API](/rest/api/power-bi/)에 액세스할 수 있습니다. 애플리케이션을 등록하면 애플리케이션의 ID를 설정하고 Power BI REST 리소스에 대한 권한을 지정할 수 있습니다.
 
 > [!IMPORTANT]
 > Power BI 앱을 등록하려면 먼저 [Azure Active Directory 테넌트 및 조직 사용자](create-an-azure-active-directory-tenant.md)가 있어야 합니다. 테넌트의 사용자를 Power BI에 아직 등록하지 않은 경우 앱 등록이 성공적으로 완료되지 않습니다.
@@ -54,7 +54,7 @@ Power BI 앱 등록 도구를 사용하여 애플리케이션을 등록하는 �
 
 5. 애플리케이션 유형으로 **서버 쪽 웹 애플리케이션**을 선택한 경우 **홈 페이지 URL** 및 **리디렉션 URL**에 대한 값을 계속 입력합니다. **리디렉션 URL**은 임의의 올바른 URL로 작동하며 사용자가 만든 애플리케이션과 일치해야 합니다. **네이티브**를 선택한 경우 6단계를 계속 진행합니다.
 
-6. 애플리케이션에 필요한 Power BI API를 선택합니다. Power BI 액세스 권한에 대한 자세한 내용은 [Microsoft ID 플랫폼 엔드포인트의 권한 및 동의](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent)를 참조하세요. 그런 다음, **등록**을 선택합니다.
+6. 애플리케이션에 필요한 Power BI API를 선택합니다. Power BI 액세스 권한에 대한 자세한 내용은 [Microsoft ID 플랫폼 엔드포인트의 권한 및 동의](/azure/active-directory/develop/v2-permissions-and-consent)를 참조하세요. 그런 다음, **등록**을 선택합니다.
 
     ![등록할 API 선택](media/register-app/register-app-new-app-registration-apis-register.png)
 
@@ -86,7 +86,7 @@ Power BI 앱 등록 도구를 사용하여 애플리케이션을 등록하는 �
 
 5. 메시지에 따라 새 애플리케이션을 만듭니다.
 
-   Azure Active Directory에 애플리케이션을 등록하는 방법에 대한 자세한 내용은 [Azure Active Directory에 앱 등록](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v2-register-an-app)을 참조하세요.
+   Azure Active Directory에 애플리케이션을 등록하는 방법에 대한 자세한 내용은 [Azure Active Directory에 앱 등록](/azure/active-directory/develop/quickstart-v2-register-an-app)을 참조하세요.
 
 ## <a name="how-to-get-the-application-id"></a>애플리케이션 ID를 가져오는 방법
 
@@ -94,7 +94,7 @@ Power BI 앱 등록 도구를 사용하여 애플리케이션을 등록하는 �
 
 ## <a name="how-to-get-the-service-principal-object-id"></a>서비스 주체 개체 ID를 가져오는 방법
 
-[Power BI API](https://docs.microsoft.com/rest/api/power-bi/)를 사용하는 경우 서비스 주체를 참조하기 위해 [서비스 주체 개체 ID](embed-service-principal.md)를 사용하여 작업을 정의해야 합니다(예: 서비스 주체를 작업 영역에 관리자로 적용).
+[Power BI API](/rest/api/power-bi/)를 사용하는 경우 서비스 주체를 참조하기 위해 [서비스 주체 개체 ID](embed-service-principal.md)를 사용하여 작업을 정의해야 합니다(예: 서비스 주체를 작업 영역에 관리자로 적용).
 
 ## <a name="apply-permissions-to-your-application-within-azure-ad"></a>Azure AD 에서 애플리케이션에 권한 적용
 
@@ -120,7 +120,7 @@ Power BI 앱 등록 도구를 사용하여 애플리케이션을 등록하는 �
 
 ### <a name="applying-permissions-programmatically"></a>프로그래밍 방식으로 권한 적용
 
-1. 테넌트 내에서 기존 서비스 주체(사용자)를 가져와야 합니다. 이 작업을 수행하는 방법에 대한 자세한 내용은 [servicePrincipal](https://docs.microsoft.com/graph/api/resources/serviceprincipal?view=graph-rest-beta)을 참조하세요.
+1. 테넌트 내에서 기존 서비스 주체(사용자)를 가져와야 합니다. 이 작업을 수행하는 방법에 대한 자세한 내용은 [servicePrincipal](/graph/api/resources/serviceprincipal?view=graph-rest-beta)을 참조하세요.
 
     {ID} 없이 *Get servicePrincipal* API를 호출하면 테넌트 내의 모든 서비스 주체를 가져옵니다.
 
@@ -141,11 +141,11 @@ Power BI 앱 등록 도구를 사용하여 애플리케이션을 등록하는 �
 
 4. Power BI API에 앱 권한 부여
 
-   기존 테넌트를 사용하고 있고 모든 테넌트 사용자를 대신하여 권한을 부여하는 데 관심이 없는 경우 **contentType**의 값을 **Principal**로 바꾸면 특정 사용자에게 권한을 부여할 수 있습니다.
+   기존 테넌트를 사용하고 있고 모든 테넌트 사용자를 대신하여 권한을 부여하는 데 관심이 없는 경우 **consentType**의 값을 **Principal**로 바꾸면 특정 사용자에게 권한을 부여할 수 있습니다.
 
    **consentType**의 값은 **AllPrincipals** 또는 **Principal** 중 하나를 제공할 수 있습니다.
 
-   * **AllPrincipals**는 테넌트 관리자가 테넌트의 모든 사용자를 대신하여 권한을 부여하는 데만 사용할 수 있습니다.
+   * **AllPrincipals**는 Power BI 관리자가 테넌트의 모든 사용자를 대신하여 권한을 부여하는 데만 사용할 수 있습니다.
    * **Principal**은 특정 사용자를 대신하여 권한을 부여하는 데 사용됩니다. 이 경우 요청 본문에 추가 속성을 추가해야 합니다(*principalId = {User_ObjectId}* ).
 
      비대화형 로그인을 수행할 때 불가능한 Azure AD의 동의 요청을 피하기 위해 마스터 계정에 *사용 권한을 부여*해야 합니다.
@@ -164,18 +164,18 @@ Power BI 앱 등록 도구를 사용하여 애플리케이션을 등록하는 �
      }
      ```
 
-    **resourceId** *c78a3685-1ce7-52cd-95f7-dc5aea8ec98e*는 범용이 아니라 테넌트에 종속됩니다. 이 값은 AAD(Azure Active Directory) 테넌트에서 “Power BI 서비스” 애플리케이션의 objectId입니다.
+    **resourceId** *c78a3685-1ce7-52cd-95f7-dc5aea8ec98e*는 범용이 아니라 테넌트에 종속됩니다. 이 값은 Azure Active Directory에서 "Power BI 서비스" 애플리케이션의 objectId입니다.
 
     사용자는 Azure Portal에서 이 값을 신속하게 가져올 수 있습니다.
     1. https://portal.azure.com/#blade/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/AllApps
 
     2. 검색 상자에서 “Power BI 서비스” 검색
 
-5. AAD(Azure Active Directory)에 앱 사용 권한 부여
+5. Azure Active Directory에 앱 권한 부여
 
    **consentType**의 값은 **AllPrincipals** 또는 **Principal** 중 하나를 제공할 수 있습니다.
 
-   * **AllPrincipals**는 테넌트 관리자가 테넌트의 모든 사용자에게 권한을 부여하는 데만 사용할 수 있습니다.
+   * **AllPrincipals**는 Power BI 관리자가 테넌트의 모든 사용자에게 권한을 부여하는 데만 사용할 수 있습니다.
    * **Principal**은 특정 사용자에게 권한을 부여하는 데 사용됩니다. 이 경우 요청 본문에 추가 속성을 추가해야 합니다(*principalId = {User_ObjectId}* ).
 
    비대화형 로그인을 수행할 때 불가능한 Azure AD의 동의 요청을 피하기 위해 마스터 계정에 *사용 권한을 부여*해야 합니다.

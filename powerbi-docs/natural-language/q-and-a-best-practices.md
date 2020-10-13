@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: a94f4bda1f7ebc4a612da65623f539e820c8c333
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 249e3cd56359a54c358341f463d049435f407515
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240432"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635795"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>Power BI에서 질문 및 답변을 최적화하는 모범 사례
 일반적인 구 및 자연어를 사용하여 데이터에 대해 질문하는 것은 강력한 기능입니다. 데이터가 응답할 때 더욱 강력해지며, Power BI의 질문 및 답변은 바로 이 기능을 수행합니다.
@@ -116,11 +116,11 @@ Power BI는 적극적으로 기본적으로 숫자 열을 집계하기 때문에
 
 **작업 필요**
 
-![질문 및 답변에 여러 테이블 사용](media/q-and-a-best-practices/desktop-qna-09.png)
+![연락처 정보가 포함된 Suppliers 테이블을 보여 주는 스크린샷.](media/q-and-a-best-practices/desktop-qna-09.png)
 
 **Q&A에 대해 준비됨**
 
-![질문 및 답변에 여러 테이블 사용](media/q-and-a-best-practices/desktop-qna-10.png)
+![Suppliers 테이블 하나와 Contacts 테이블 하나를 보여 주는 스크린샷.](media/q-and-a-best-practices/desktop-qna-10.png)
 
 ### <a name="pivot-to-eliminate-property-bags"></a>속성 모음을 제거하는 피벗
 
@@ -134,7 +134,7 @@ Power BI는 적극적으로 기본적으로 숫자 열을 집계하기 때문에
 
 **Q&A에 대해 준비됨**
 
-![질문 및 답변에 여러 테이블 사용](media/q-and-a-best-practices/desktop-qna-12.png)
+![Age, MartialStatus, City, Gender 속성이 있는 4개의 열을 다양한 고객의 값이 포함된 열로 보여 주는 스크린샷.](media/q-and-a-best-practices/desktop-qna-12.png)
 
 ### <a name="union-to-eliminate-partitioning"></a>병합하여 분할 제거
 
@@ -148,7 +148,7 @@ Power BI는 적극적으로 기본적으로 숫자 열을 집계하기 때문에
 
 **Q&A에 대해 준비됨**
 
-![질문 및 답변에 여러 테이블 사용](media/q-and-a-best-practices/desktop-qna-14.png)
+![여행을 위한 책 및 저자 정보가 포함된 테이블 하나와 여행 관련 도시가 포함된 테이블 하나를 보여 주는 스크린샷.](media/q-and-a-best-practices/desktop-qna-14.png)
 
 ### <a name="split-formatted-columns"></a>서식이 지정된 열 분할
 
@@ -160,7 +160,7 @@ Power BI는 적극적으로 기본적으로 숫자 열을 집계하기 때문에
 
 **Q&A에 대해 준비됨**
 
-![질문 및 답변에 여러 테이블 사용](media/q-and-a-best-practices/desktop-qna-16.png)
+![고객, 전체 주소 줄, 주소를 거리, 도시, 국가로 나누는 3개의 줄이 포함된 테이블을 보여 주는 스크린샷.](media/q-and-a-best-practices/desktop-qna-16.png)
 
 마찬가지로 사람의 전체 이름 열이 있다면, 부분 이름을 사용하여 질문하려는 경우를 위해 **이름** 및 **성** 열을 추가합니다. 
 
@@ -175,7 +175,7 @@ Power BI는 적극적으로 기본적으로 숫자 열을 집계하기 때문에
 
 **Q&A에 대해 준비됨**
 
-![질문 및 답변에 여러 테이블 사용](media/q-and-a-best-practices/desktop-qna-18.png)
+![이름과 장르가 포함된 테이블 하나와 작곡가가 포함된 테이블 하나를 보여 주는 스크린샷.](media/q-and-a-best-practices/desktop-qna-18.png)
 
 ### <a name="denormalize-to-eliminate-inactive-relationships"></a>비정규화로 비활성 관계 제거
 

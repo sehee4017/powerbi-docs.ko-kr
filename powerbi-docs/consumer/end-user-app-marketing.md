@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f8020e68db6b0baaabdde626d1b17674fe995ca2
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: c3019abae20aec5e71d6b4cbae94c77426a151bd
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88205040"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635818"
 ---
 # <a name="install-and-use-the-sample-sales-and-marketing-app-in-the-power-bi-service"></a>Power BI 서비스에서 샘플 영업 및 마케팅 앱 설치 및 사용
 
@@ -53,11 +53,11 @@ ms.locfileid: "88205040"
 
 6. 자신의 고유한 데이터를 연결할지, 샘플 데이터를 탐색할지 또는 새 앱을 사용자 지정하고 공유할지를 선택합니다. Microsoft 샘플 앱을 선택했으므로 먼저 살펴보겠습니다. 
 
-    ![샘플 데이터와 함께 탐색](./media/end-user-app-marketing/power-bi-explore-app.png)
+    ![샘플 데이터로 탐색 옵션이 호출된 새 앱 시작을 보여 주는 스크린샷.](./media/end-user-app-marketing/power-bi-explore-app.png)
 
 7.  새 앱이 대시보드를 사용하여 열립니다. 앱 *디자이너*가 대신 보고서로 열리도록 앱을 설정했을 수 있습니다.  
 
-    ![샘플 데이터와 함께 탐색](./media/end-user-app-marketing/power-bi-app-new.png)
+    ![앱의 대시보드를 보여 주는 스크린샷.](./media/end-user-app-marketing/power-bi-app-new.png)
 
 
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e2245861e37a67e023efde1e6fc7c68a551f2944
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: e2ad8867117977cb7f53fbd295a2f560d65b0d76
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83814017"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600531"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI의 시각화 유형
 ## <a name="power-bi-visualizations"></a>Power BI 시각화
@@ -113,7 +113,7 @@ ms.locfileid: "83814017"
 ### <a name="maps-arcgis-maps"></a>지도: ArcGIS 맵
 ![ArcGIS 지도](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
-자세한 내용은 [Power BI의 ArcGIS 지도](power-bi-visualization-arcgis.md)를 참조하세요.
+자세한 내용은 [Power BI의 ArcGIS 지도](power-bi-visualizations-arcgis.md)를 참조하세요.
 
 ### <a name="maps-filled-maps-choropleth"></a>지도: 등치 지역도
 ![등치 지역도](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
@@ -133,7 +133,7 @@ ms.locfileid: "83814017"
 
 
 ### <a name="matrix"></a>행렬
-![행렬](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
+![행렬 시각적 개체의 스크린샷](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
 
 >[!TIP]
 >테이블은 두 개의 차원을 지원하지만 행렬을 사용하면 여러 차원에 걸쳐(계단형 레이아웃 지원) 데이터를 유의미하게 표시하기가 더 쉽습니다. 행렬이 자동으로 데이터를 집계하고 드릴다운을 활성화합니다. 
@@ -232,7 +232,7 @@ Power BI 질문 및 답변을 사용하여 자연어 쿼리를 입력할 때 쿼
 
 "***sales by state as a treemap***"
 
-대시보드에 질문 및 대답 필드가 없는 경우 테넌트 관리자가 이를 사용하지 않도록 설정했을 수 있습니다. 
+대시보드에 질문 및 답변 필드가 없는 경우 Power BI 관리자가 이를 사용하지 않도록 설정했을 수 있습니다. 
 
 ![지정된 시각화 유형을 표시하는 Q&A 질문 상자](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 

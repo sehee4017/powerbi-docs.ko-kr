@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 07/28/2020
 ms.author: maggies
-ms.openlocfilehash: 53f8a0a2d634ebcbd0023f560f8ee35e629d4d09
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 60287bfde79c918250037ccc03781e7cb47d6320
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861294"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634231"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>Azure 애플리케이션 프록시를 사용하여 Power BI Report Server 구성
 
@@ -201,7 +201,7 @@ KCD를 구성하려면 각 커넥터 컴퓨터에 대해 다음 단계를 반복
     - 새 리디렉션 URL을 만들고 **형식** = **웹** 및 **리디렉션 URI** = `https://pbirsazureapp-umacontoso2410.msappproxy.net/`을 지정하여 구성합니다.
     - **고급 설정** 섹션에서 **로그아웃 URL**을 `https://pbirsazureapp-umacontoso2410.msappproxy.net/?Appproxy=logout`로 구성합니다.
 
-    ![인증 설정](media/azure-application-proxy/azure-report-server-authentication-1.png)
+    ![리디렉션 URI와 고급 설정이 있는 PBIRS 인증 창을 보여 주는 스크린샷.](media/azure-application-proxy/azure-report-server-authentication-1.png)
 
 1. **암시적 권한 부여**, **기본 클라이언트 유형** 및 **지원되는 계정 유형**에 대해 다음을 지정하여 Power BI Report Server 애플리케이션에 대한 앱 등록 **인증** 섹션을 계속 구성합니다.
 
@@ -209,7 +209,7 @@ KCD를 구성하려면 각 커넥터 컴퓨터에 대해 다음 단계를 반복
     - **기본 클라이언트 유형**을 **아니요**로 설정합니다.
     - **지원되는 계정 유형**을 **이 조직 디렉터리의 계정만(UmaContoso만 – 단일 테넌트)** 으로 설정합니다.
 
-    ![인증 설정](media/azure-application-proxy/azure-report-server-authentication-2.png)
+    ![설명된 대로 설정이 포함된 PBIRS 인증 창을 보여 주는 스크린샷.](media/azure-application-proxy/azure-report-server-authentication-2.png)
 
 1. Single Sign-On이 설정되고 URL `https://pbirsazureapp-umacontoso2410.msappproxy.net`이 작동하면 로그인하는 데 사용한 계정이 Power BI Report Server에서 사용 권한이 제공된 계정과 동기화되었는지 확인해야 합니다.
 

@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 02/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 11ccbdd3a5586aa10c051e6bfed820ed7f0ae48b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 45f5ff81e8ab11c2082af7f570f02bd3671719c6
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237547"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634687"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI 보고서 및 대시보드의 테이블
 
@@ -157,7 +157,7 @@ ms.locfileid: "85237547"
 
 1. **복사** > **값 복사**를 선택합니다.
 
-    ![복사 옵션](media/power-bi-visualization-tables/power-bi-copy-value.png)
+    ![값 복사 옵션이 선택된 복사 선택을 보여 주는 스크린샷.](media/power-bi-visualization-tables/power-bi-copy-value.png)
 
     클립보드에 서식 없는 셀 값이 있으면 다른 애플리케이션에 이 값을 붙여넣을 수 있습니다.
 
@@ -169,7 +169,7 @@ ms.locfileid: "85237547"
 
 1. **복사** > **선택 영역 복사**를 선택합니다.
 
-    ![복사 옵션](media/power-bi-visualization-tables/power-bi-copy-selection.png)
+    ![선택 영역 복사 옵션이 선택된 복사 선택을 보여 주는 스크린샷.](media/power-bi-visualization-tables/power-bi-copy-selection.png)
 
 ## <a name="adjust-the-column-width-of-a-table"></a>테이블의 열 너비 조정
 

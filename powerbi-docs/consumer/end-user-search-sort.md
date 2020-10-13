@@ -7,17 +7,17 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 07/09/2020
+ms.date: 10/01/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 799cbe00274e14709e6987df1f9c4abe664f9b55
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 1fbfa8a85ada8512aff54526407799a00fbfa891
+ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87536265"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "91780346"
 ---
-# <a name="navigation-for-power-bi-consumers-global-search"></a>Power BI 소비자를 위한 탐색: 전역 검색
+# <a name="navigation-for-power-bi-business-users-global-search"></a>Power BI 비즈니스 사용자를 위한 탐색: 전역 검색
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
@@ -31,7 +31,7 @@ Power BI 서비스를 처음 사용하는 경우 몇 개의 콘텐츠(대시보�
 
  검색 필드에 대시보드, 보고서, 통합 문서, 작업 영역, 앱 또는 소유자의 이름을 전부 또는 일부 입력합니다. Power BI가 모든 콘텐츠를 검색합니다. 
 
- ![보고서 검색](./media/end-user-search-sort/power-bi-search-field.png) 
+ ![Procurement가 입력된 검색 필드를 보여 주는 스크린샷.](./media/end-user-search-sort/power-bi-search-field.png) 
 
  작업 영역과 같은 Power BI의 일부 영역에는 두 가지 검색 필드가 있습니다. 메뉴 모음의 검색 필드는 모든 콘텐츠를 검색하는 반면, 작업 영역 캔버스의 검색 필드는 해당 작업 영역만 검색합니다.
 
@@ -39,24 +39,27 @@ Power BI 서비스를 처음 사용하는 경우 몇 개의 콘텐츠(대시보�
 
 ## <a name="sorting-content-lists"></a>콘텐츠 목록 정렬
 
-콘텐츠가 몇 개 없는 경우에는 정렬이 필요하지 않을 수 있습니다.  그러나 긴 목록의 대시보드 및 보고서가 있으면 정렬을 통해 필요한 항목을 찾을 수 있습니다. 예를 들어 이 **공유한 항목** 콘텐츠 목록에는 257개 항목이 있습니다. 
+콘텐츠가 몇 개 없는 경우에는 정렬이 필요하지 않을 수 있습니다.  그러나 긴 목록의 대시보드 및 보고서가 있으면 정렬을 통해 필요한 항목을 찾을 수 있습니다. 예를 들어 **공유한 항목** 콘텐츠 목록에는 70개의 항목이 있습니다. 
 
-![공유한 항목 콘텐츠 목록](./media/end-user-search-sort/power-bi-all-shared.png)
+![공유한 항목 콘텐츠 목록](./media/end-user-search-sort/power-bi-a-to-z.png)
 
 현재 이 콘텐츠 목록은 A에서 Z까지 이름순으로 정렬됩니다. 정렬 기준을 변경하려면 **이름(A-Z)** 오른쪽에 있는 화살표를 선택합니다.
 
-![정렬 드롭다운 메뉴](./media/end-user-search-sort/power-bi-sort-date.png)
+![정렬 드롭다운 메뉴](./media/end-user-search-sort/power-bi-sort-z-to-a.png)
 
 
-정렬은 작업 영역에서도 사용할 수 있습니다. 이 예제에서 콘텐츠는 **새로 고친** 날짜를 기준으로 정렬됩니다. 작업 영역에 대한 정렬 기준을 설정하려면 열 머리글을 선택하고 한 번 선택하여 해당 머리글을 선택한 다음 다시 선택하여 정렬 방향을 변경합니다. 
+정렬은 작업 영역에서도 사용할 수 있습니다. 이 예제에서 콘텐츠는 **새로 고친** 날짜를 기준으로 정렬됩니다. 작업 영역의 정렬 기준을 설정하려면 열 머리글을 선택하고 다시 선택하여 정렬 방향을 변경합니다. 
 
-![보고서 검색](./media/end-user-search-sort/power-bi-workspace-sort.png)
+
+![보고서 검색](./media/end-user-search-sort/power-bi-refreshed.png)
 
 모든 열을 정렬할 수 있는 것은 아닙니다. 열 제목을 마우스로 가리켜 정렬 가능한 열을 확인합니다.
 
+## <a name="filtering-content-lists"></a>콘텐츠 목록 필터링
+콘텐츠를 빠르게 찾을 수 있는 또 다른 방법은 **필터**를 사용하는 것입니다. 오른쪽 위 모서리에서 **필터**를 선택하여 필터를 표시합니다. 사용 가능한 필터는 Power BI 서비스에서의 위치에 따라 달라집니다.  아래 예제는 **최근** 콘텐츠 목록에서 가져온 것입니다.  콘텐츠 유형을 기준으로 목록을 필터링할 수 있습니다.  **공유한 항목** 콘텐츠 목록에서 사용 가능한 **필터**에는 콘텐츠 유형뿐 아니라 소유자도 포함됩니다.
 
-## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
-* 데이터 세트의 경우 **정렬 기준**에서 소유자별 기준은 사용할 수 없습니다.
+![콘텐츠 목록의 필터 스크린샷.](./media/end-user-search-sort/power-bi-sort-filters.png)
+
 
 ## <a name="next-steps"></a>다음 단계
 [보고서에서 시각적 개체 정렬](end-user-change-sort.md)

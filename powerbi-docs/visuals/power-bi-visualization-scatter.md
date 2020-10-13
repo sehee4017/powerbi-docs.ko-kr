@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 11/21/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b4a5733e0c4b8617dc93edb1e7fe35a0a76a3338
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 963bd77568db4390bca73a4ec4e9ce97ee616a58
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238160"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632897"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI의 분산형 차트, 거품형 차트 및 점 그림 차트
 
@@ -143,7 +143,7 @@ X축에 따라 범주 데이터를 포함하려는 경우 좋은 선택입니다
 
         a. **총 판매액 차이 %** 필드를 **작년 매출 총이익 %** 로 변경합니다.
 
-        ![중앙값이 추가된 거품형 차트의 스크린샷](media/power-bi-visualization-scatter/power-bi-format-symmetry.png)
+        ![작년 매출 총이익 %가 선택된 세부 정보의 스크린샷.](media/power-bi-visualization-scatter/power-bi-format-symmetry.png)
 
         b. 분석 창에서 **대칭 음영**을 추가합니다. Hosiery(분홍색 음영 영역의 녹색 거품)가 매장 제곱 피트당 판매액보다 총이익이 선호되는 유일한 범주임을 음영을 통해 알 수 있습니다. 
 
@@ -151,7 +151,7 @@ X축에 따라 범주 데이터를 포함하려는 경우 좋은 선택입니다
 
     - 분석 창을 계속 탐색하여 데이터에 대한 흥미로운 인사이트를 검색합니다. 
 
-        ![대칭 음영이 추가된 거품형 차트의 스크린샷](media/power-bi-visualization-scatter/power-bi-analytics-example.png)
+        ![분석 창의 스크린샷.](media/power-bi-visualization-scatter/power-bi-analytics-example.png)
 
 ## <a name="create-a-dot-plot-chart"></a>점 그림 차트 만들기
 

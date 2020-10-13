@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9d74733e6baad4f84d52e8bc8749fe0295eedb2e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b7aebef72952c75ed6ec406c6f3f9e888f047086
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239836"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632828"
 ---
 # <a name="create-and-view-decomposition-tree-visuals-in-power-bi"></a>Power BI에서 분해 트리 시각적 개체 만들기 및 보기
 
@@ -53,7 +53,7 @@ https://github.com/microsoft/powerbi-desktop-samples/blob/master/Sample%20Report
 
 다음 단계는 드릴다운할 차원을 하나 이상 가져오는 것입니다. **설명 기준** 버킷에 이러한 필드를 추가합니다. 루트 노드 옆에 더하기 기호가 표시됩니다. +를 선택하면 드릴하려는 필드를 선택할 수 있습니다. 원하는 순서로 필드를 드릴할 수 있습니다.
 
-![분해 트리 메뉴](media/power-bi-visualization-decomposition-tree/tree-menu.png)
+![설명 기준 목록에서 옵션을 표시하는 더하기 아이콘이 선택된 것을 보여 주는 스크린샷.](media/power-bi-visualization-decomposition-tree/tree-menu.png)
 
 **Forecast bias**를 선택하면 트리가 확장되고 측정값이 열의 값을 기준으로 분류됩니다. 드릴할 다른 노드를 선택하여 이 프로세스를 반복할 수 있습니다.
 
@@ -61,7 +61,7 @@ https://github.com/microsoft/powerbi-desktop-samples/blob/master/Sample%20Report
 
 마지막 수준에서 노드를 선택하면 데이터가 교차 필터링됩니다. 이전 수준에서 노드를 선택하면 경로가 변경됩니다.
 
-![분해 트리 메뉴](media/power-bi-visualization-decomposition-tree/tree-interaction.gif)
+![이전 수준에서 노드를 선택하고 자식 노드를 표시하도록 노드가 변경되는 것을 보여 주는 애니메이션.](media/power-bi-visualization-decomposition-tree/tree-interaction.gif)
 
 다른 시각적 개체와 상호 작용하면 분해 트리가 교차 필터링됩니다. 그 결과로 수준 내의 노드 순서가 변경될 수 있습니다.
 아래 예제에서는 Ubisoft를 기준으로 트리를 교차 필터링했습니다. 경로가 업데이트되고 Xbox 판매가 첫 번째 위치에서 두 번째 위치로 이동합니다(PlayStation이 추월함). 
@@ -70,7 +70,7 @@ https://github.com/microsoft/powerbi-desktop-samples/blob/master/Sample%20Report
 
 경로가 사라지더라도 기존 수준(이 경우 게임 장르)은 트리에 고정된 상태로 유지됩니다. 따라서 Nintendo 노드를 선택하면 자동으로 트리가 게임 장르로 확장됩니다.
 
-![분해 트리 메뉴](media/power-bi-visualization-decomposition-tree/tree-interaction-2.gif)
+![표시되는 노드에 영향을 주는 교차 필터를 선택하는 것을 보여 주는 애니메이션.](media/power-bi-visualization-decomposition-tree/tree-interaction-2.gif)
 
 
 ## <a name="ai-splits"></a>AI 분할
@@ -132,11 +132,11 @@ vs.
 
 다른 시각적 개체를 통해 분해 트리를 교차 필터링하는 경우 AI 수준도 다시 계산됩니다. 아래 예제에서는 공장 #0477에 대한 이월 주문 %가 가장 높은 것을 볼 수 있습니다.
 
-![분해 트리 교차 필터링](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter1.png)
+![모든 달이 선택된 근본 원인 분석을 보여 주는 스크린샷.](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter1.png)
 
 그러나 가로 막대형 차트에서 **4월**을 선택하면 최대값이 **Product Type 이 Advanced Surgical**로 바뀝니다. 이 경우 노드가 다시 정렬되었을 뿐만 아니라 완전히 다른 열이 선택되었습니다. 
 
-![분해 트리 교차 필터링](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter2.png)
+![4월만 선택된 근본 원인 분석을 보여 주는 스크린샷.](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter2.png)
 
 AI 수준이 비 AI 수준처럼 동작하게 하려면 전구를 선택하여 동작을 기본값으로 되돌립니다. 
 

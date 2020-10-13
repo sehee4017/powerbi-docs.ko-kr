@@ -1,6 +1,6 @@
 ---
 title: Power BI Report Server에서 Power BI 보고서 예약된 새로 고침
-description: Power BI 보고서는 다른 데이터 원본에 연결할 수 있습니다. 데이터 사용 방법에 따라 다른 데이터 원본을 사용할 수 있습니다.
+description: Power BI 보고서 예약된 새로 고침을 사용하면 모델이 포함된 보고서 데이터를 최신 상태로 유지할 수 있습니다.
 author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/09/2020
 ms.author: maggies
-ms.openlocfilehash: 89adff51d70be24e4f42c379a729fd1123ca10a5
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 710df5f4159f49884d9eee1044b2c077c7edcb88
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861777"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749095"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Power BI Report Server에서 Power BI 보고서 예약된 새로 고침
 Power BI 보고서에 대해 예약된 새로 고침을 통해 보고서에 대한 데이터를 최신 상태로 유지할 수 있습니다.
@@ -29,7 +29,7 @@ Power BI 보고서에 대해 예약된 새로 고침을 사용하는 경우 몇 
 
 * 예약된 이벤트를 생성하는 타이머로서의 SQL Server 에이전트
 * 예약된 작업이 보고서 서버 데이터베이스에서 이벤트의 큐 및 알림에 추가됩니다. 스케일 아웃 배포에서는 배포의 모든 보고서 서버에서 큐가 공유됩니다.
-* 이벤트 예약의 결과로 발생하는 모든 보고서 처리는 백그라운드 프로세스로 수행됩니다.
+* 일정 이벤트의 결과로 발생하는 모든 보고서 처리는 백그라운드 프로세스로 수행됩니다.
 * 데이터 모델은 Analysis Services 인스턴스 내에서 로드됩니다.
 * 일부 데이터 원본의 경우 파워 쿼리 매시업 엔진은 데이터 원본에 연결하고 데이터를 변환하는 데 사용됩니다. 다른 데이터 원본은 Power BI Report Server에 대한 데이터 모델을 호스팅하는 데 사용되는 Analysis Services 서비스에서 직접 연결될 수 있습니다.
 * 새 데이터는 Analysis Services 내에서 데이터 모델로 로드됩니다.
@@ -43,7 +43,7 @@ Power BI 보고서 렌더링뿐만 아니라 예약된 새로 고침을 수행�
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 ### <a name="when-scheduled-refresh-cant-be-used"></a>예약된 새로 고침을 사용할 수 없는 경우
-모든 Power BI 보고서에 예약된 새로 고침 계획을 만들 수 있는 것은 아닙니다. 다음은 예약된 새로 고침 계획을 만들 수 없는 Power BI 보고서의 목록입니다.
+모든 Power BI 보고서에 생성된 예약된 새로 고침 계획이 있을 수 없습니다. 다음은 예약된 새로 고침 계획을 만들 수 없는 Power BI 보고서의 목록입니다.
 
 * 보고서는 라이브 연결을 사용하는 하나 이상의 Analysis Services 데이터 원본을 포함합니다.
 * 보고서에는 DirectQuery를 사용하는 하나 이상의 데이터 원본이 포함되어 있습니다.

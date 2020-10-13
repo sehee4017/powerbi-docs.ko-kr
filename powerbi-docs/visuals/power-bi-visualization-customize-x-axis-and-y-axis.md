@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 332c1c1b6c3e4888f0177bab284e6b4902987be2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0da34397c1b707eeece6fdf127c2c4e96f5ab6a5
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219784"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635680"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>X축 및 Y축 속성 사용자 지정
 
@@ -75,7 +75,7 @@ X축 레이블은 차트의 세로 막대 아래에 표시됩니다. 현재는 �
 
 3. **X축** 슬라이더를 **켜기**로 이동합니다.
 
-    ![켜기 슬라이더의 스크린샷](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-slider-on.png)
+    ![X축의 켜기 슬라이더 스크린샷.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-slider-on.png)
 
     X축을 **끄기**로 설정해야 하는 몇 가지 이유는 시각화에 레이블 없이 별도의 설명이 필요하지 않거나 보고서 페이지가 복잡하고 더 많은 데이터를 표시할 공간을 만들어야 하기 때문입니다.
 
@@ -139,7 +139,7 @@ Y축 레이블은 기본적으로 왼쪽에 표시됩니다. 현재는 밝은 �
 
 1. **Y축** 슬라이더를 **켜기**로 이동합니다.  
 
-    ![켜기 슬라이더의 스크린샷](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-y-axis-on.png)
+    ![Y축의 켜기 슬라이더 스크린샷.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-y-axis-on.png)
 
     Y축 옵션을 해제하는 한 가지 이유는 더 많은 데이터를 위해 공간을 절약하는 것입니다.
 

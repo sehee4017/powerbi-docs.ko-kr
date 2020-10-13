@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 04/21/2020
 ms.author: maggies
 LocalizationGroup: Ask questions of your datadefintion
-ms.openlocfilehash: 8f0d4c970de1724f47a016cbe063f1cc3df20178
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b2eff10484a7e05a9e51dfc09d44598de034ee88
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239921"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635243"
 ---
 # <a name="teach-qa-to-understand-questions-and-terms-in-power-bi-qa"></a>Power BI 질문 및 답변에서 질문과 용어를 이해하도록 질문 및 답변 학습
 
@@ -61,7 +61,7 @@ ms.locfileid: "85239921"
 
 데이터의 용어를 상자에 채웁니다.
 
-![Q&A 교육 동의어 프롬프트](media/q-and-a-tooling-teach-q-and-a/qna-tooling-synonym-prompt.png)
+![단어 Revenue가 포함된 질문 및 답변 상자 일부와 Revenue가 텍스트 상자 옆을 가리킨다는 프롬프트를 보여 주는 스크린샷.](media/q-and-a-tooling-teach-q-and-a/qna-tooling-synonym-prompt.png)
 
 데이터 모델에서 필드가 아닌 다른 항목을 제공하는 경우 원치 않는 결과가 나타날 수 있습니다.
 
@@ -73,7 +73,7 @@ ms.locfileid: "85239921"
 
 상자에 조건을 채웁니다.
 
-![Q&A 교육 동의어 프롬프트](media/q-and-a-tooling-teach-q-and-a/qna-tooling-adjectives.png)
+![단어 Awesome Publishers가 있는 질문 및 답변 상자의 일부와 텍스트 상자 옆에 있고 단어가 awesome인 프롬프트 Publishers를 보여 주는 스크린샷.](media/q-and-a-tooling-teach-q-and-a/qna-tooling-adjectives.png)
 
 정의할 수 있는 몇 가지 예제 조건은 다음과 같습니다.
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 60f49775db1f461ff5105ada63920686e5ab5cbf
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 323ea88f3a8843dd663985abac5552be1de71584
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264921"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634415"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>iOS 앱의 질문 및 답변 가상 분석가 - Power BI
 
@@ -52,7 +52,7 @@ iOS용 Power BI 앱을 지원하는 버전은 다음과 같습니다.
 4. 키워드에서 **by**를 탭한 다음, 제안 목록에서 **item** > **보내기** ![보내기 아이콘](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) 탭합니다.
 
     ![항목별 판매](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-sale-by-item.png)
-5. 키워드에서 **as**를 탭하고, 세로 막대형 차트 아이콘 ![차트 아이콘](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png)을 탭한 다음, **보내기** ![보내기 아이콘](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)를 탭합니다.
+5. 키워드에서 **as**를 탭하고, 세로 막대형 차트 아이콘 :::image type="icon" source="./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png" border="false":::을 탭한 다음 **보내기** ![보내기 아이콘](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)를 탭합니다.
 6. 결과 차트를 길게 누른 다음 **확장**을 누릅니다.
 
     ![확장의 포인터를 보여 주는 세로 막대형 차트의 스크린샷.](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-expand-feedback.png)
@@ -68,7 +68,7 @@ iOS용 Power BI 앱을 지원하는 버전은 다음과 같습니다.
 10. 키워드에서 **by**를 선택하고 맨 위에 있는 제안 목록에서 **time** > **보내기** ![보내기 아이콘](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)를 탭합니다.
 
      ![시간별 단위당 평균 금액 기준 상위 판매를 보여 주는 차트의 스크린샷.](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-by-time.png)
-11. **as**를 입력하고, 제안 목록에서 꺾은선형 차트 아이콘 ![차트 아이콘](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png) > **보내기** ![보내기 아이콘](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)를 선택합니다.
+11. **as**를 입력하고 제안 목록에서 꺾은선형 차트 아이콘 :::image type="icon" source="./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png" border="false"::: > **보내기** ![보내기 아이콘](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)를 선택합니다.
 
     ![세로 막대형 차트에서 꺾은선형 차트로 연결된 포인터를 보여 주는 세로 막대형 및 꺾은선형 차트의 스크린샷.](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-as-line.png)
 

@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 06/30/2018
-ms.openlocfilehash: 6b8d02984fdd6af467b0df5acb6c1455a6e93172
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f3f76bd7c422d07cb2b390c2aebd92a2d7fe4ef3
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221049"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749049"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI 작업 영역 컬렉션 콘텐츠를 Power BI Embedded로 마이그레이션하는 방법
 
@@ -48,7 +48,7 @@ Power BI 작업 영역 컬렉션에서 Power BI Embedded로 마이그레이션�
    * 애플리케이션을 위한 별도 테넌트를 사용하나요?
    * 고객별로 별도 테넌트를 사용하나요?
 
-     애플리케이션 또는 각 고객에 대해 새 테넌트를 만들도록 결정한 경우 [Azure Active Directory 테넌트 만들기](create-an-azure-active-directory-tenant.md) 또는 [Azure Active Directory 테넌트를 가져오는 방법](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)을 참조하세요.
+     애플리케이션 또는 각 고객에 대해 새 테넌트를 만들도록 결정한 경우 [Azure Active Directory 테넌트 만들기](create-an-azure-active-directory-tenant.md) 또는 [Azure Active Directory 테넌트를 가져오는 방법](/azure/active-directory/develop/active-directory-howto-tenant)을 참조하세요.
 2. 애플리케이션 "마스터" 계정으로 작동할 이 새 테넌트 내에서 사용자를 만듭니다. 해당 계정은 Power BI에 등록해야 하며 할당된 Power BI Pro 라이선스가 있어야 합니다.
 
 ## <a name="accounts-within-azure-ad"></a>Azure AD 내 계정
@@ -58,7 +58,7 @@ Power BI 작업 영역 컬렉션에서 Power BI Embedded로 마이그레이션�
 > [!NOTE]
 > 이러한 계정이 작업 영역을 사용하려면 Power BI Pro 라이선스가 있어야 합니다.
 
-1. 테넌트 관리 사용자.
+1. Power BI 관리자.
 
     이 사용자는 포함 목적으로 만들어진 모든 작업 영역의 구성원을 지정하는 것이 좋습니다.
 
@@ -168,7 +168,7 @@ Power BI 작업 영역 컬렉션에서 마이그레이션한 콘텐츠뿐 아니
 ## <a name="rebuild-your-application"></a>애플리케이션 다시 빌드
 
 1. powerbi.com 내에서 보고서 위치와 Power BI REST API를 사용하려면 애플리케이션을 수정해야 합니다.
-2. 애플리케이션에 대한 *마스터* 계정을 사용하여 AuthN/AuthZ 인증을 다시 빌드하세요. [Embed 토큰](https://docs.microsoft.com/rest/api/power-bi/embedtoken)을 사용하여 이 사용자가 다른 사용자 대신 작업하도록 할 수 있습니다.
+2. 애플리케이션에 대한 *마스터* 계정을 사용하여 AuthN/AuthZ 인증을 다시 빌드하세요. [Embed 토큰](/rest/api/power-bi/embedtoken)을 사용하여 이 사용자가 다른 사용자 대신 작업하도록 할 수 있습니다.
 3. 애플리케이션에 powerbi.com에서 보고서를 포함 합니다.
 
 ## <a name="map-your-users-to-a-power-bi-user"></a>사용자를 Power BI 사용자로 매핑
@@ -180,7 +180,7 @@ Power BI 작업 영역 컬렉션에서 마이그레이션한 콘텐츠뿐 아니
 프로덕션으로 전환할 준비가 되면 다음 사항을 수행해야 합니다.
 
 * 개발에 별도 테넌트를 사용하는 경우 대시보드 및 보고서와 함께 작업 영역을 프로덕션 환경에서 사용할 수 있는지 확인해야 합니다. 또한 Azure AD에 프로덕션 테넌트에 대한 애플리케이션을 만들고 1단계에서 표시된 대로 적절한 앱 사용 권한을 할당했는지 확인해야 합니다.
-* 필요에 맞는 용량을 구입합니다. 필요한 용량 및 형식을 더 잘 이해하려면 [Power BI Embedded 분석 용량 계획 백서](https://aka.ms/pbiewhitepaper)를 참조하세요. Azure에서 [용량을 구입](https://portal.azure.com/#create/Microsoft.PowerBIDedicated)할 수 있습니다.
+* 필요에 맞는 용량을 구입합니다. 필요한 용량 및 형식을 더 잘 이해하려면 [Power BI Embedded 분석 용량 계획 백서](./embedded-capacity-planning.md)를 참조하세요. Azure에서 [용량을 구입](https://portal.azure.com/#create/Microsoft.PowerBIDedicated)할 수 있습니다.
 * 작업 영역을 편집하고 고급에서 프리미엄 용량에 할당합니다.
 
     ![프리미엄 용량](media/migrate-from-powerbi-embedded/powerbi-embedded-premium-capacity02.png)
@@ -204,7 +204,7 @@ Azure 내에서 몇 가지 정리를 수행해야 합니다.
 [JavaScript Git 리포지토리](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git 리포지토리](https://github.com/Microsoft/PowerBI-CSharp)  
 [JavaScript 포함 샘플](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
-[작업 영역 컬렉션 분석 용량 계획 백서](https://aka.ms/pbiewhitepaper)  
+[작업 영역 컬렉션 분석 용량 계획 백서](./embedded-capacity-planning.md)  
 [Power BI 프리미엄 백서](https://aka.ms/pbipremiumwhitepaper)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

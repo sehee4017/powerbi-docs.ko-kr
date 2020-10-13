@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 08/05/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3e34a736148a5d962c1f2d56782d38f31c15b9b6
-ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
+ms.openlocfilehash: 22d9baaf50ce32c4a9d3644cff455b474bdd1549
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "88049578"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525334"
 ---
 # <a name="tutorial-set-alerts-on-power-bi-dashboards"></a>자습서:  Power BI 대시보드에서 경고 설정
 
@@ -86,7 +86,7 @@ ms.locfileid: "88049578"
    
 1. **경고 관리** 창에서 **+ 경고 규칙 추가**를 선택합니다.  슬라이더가 **켜기**로 설정되어 있는지 확인하고, 경고 제목을 입력합니다. 제목은 경고를 쉽게 인식하는 데 도움이 됩니다.
    
-   ![경고 관리 창](media/end-user-alerts/power-bi-alert-manage.png)
+   ![경고 규칙 창 추가](media/end-user-alerts/power-bi-alert-manage.png)
 4. 아래로 스크롤하여 경고 세부 정보를 입력합니다.  이 예제에서는 시장 점유율이 40 이상으로 증가하는 경우 하루에 한 번 알리는 경고를 만듭니다. 경고는 [알림 센터](end-user-notification-center.md)에 표시됩니다. Power BI에서 전자 메일도 전송됩니다.
    
    ![경고 관리 창, 임계값 설정](media/end-user-alerts/power-bi-manage-alert-detail.png)
@@ -142,7 +142,7 @@ ms.locfileid: "88049578"
 
 ## <a name="tips-and-troubleshooting"></a>팁 및 문제 해결 
 
-* 계기, KPI 또는 카드에 경고를 설정할 수 없는 경우 테넌트 관리자 또는 IT 지원 센터에 도움을 요청하세요. 대시보드 또는 특정 유형의 대시보드 타일에 대해 경고가 꺼져 있거나 사용할 수 없는 경우도 있습니다.
+* 계기, KPI 또는 카드에 경고를 설정할 수 없는 경우 Power BI 관리자 또는 IT 지원 센터에 도움을 요청하세요. 대시보드 또는 특정 유형의 대시보드 타일에 대해 경고가 꺼져 있거나 사용할 수 없는 경우도 있습니다.
 * 경고는 새로 고쳐지는 데이터에만 적용됩니다. 정적 데이터에 대해서는 적용되지 않습니다. Microsoft에서 제공하는 대부분의 샘플은 정적입니다. 
 * 공유 콘텐츠를 받고 보려면 Power BI Pro 또는 Premium 라이선스가 필요합니다. 자세한 내용은 [사용 중인 라이선스 확인](end-user-license.md)을 참조하세요.
 * 보고서에서 대시보드로 고정한 스트리밍 데이터 세트에서 만든 시각적 개체에 경고를 설정할 수 있습니다. **타일 추가** > **사용자 지정 스트리밍 데이터**를 사용하여 대시보드에서 직접 만든 스트리밍 타일에는 경고를 설정할 수 없습니다.

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 374b9eb1becb5c343600521efc2d493f7d83e677
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 5656e4b708cb52519b6dee25a8142b3c49af6532
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854050"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668439"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 대시보드 또는 보고서 공유
 적용 대상:
@@ -61,7 +61,7 @@ iOS 및 Android용 Power BI 모바일 앱에서 다른 사람과 함께 [타일,
  
 2. 이메일 주소 및 대시보드 초대와 함께 보낼 메시지를 입력합니다. 그렇지 않으면 Power BI가 기본 메시지를 송신합니다. 재공유를 허용하려면 **받는 사람이 이 대시보드를 공유할 수 있도록 허용**을 선택된 채로 둡니다. 재공유는 동료가 조직 내부의 다른 사람에게 브라우저나 모바일 앱을 통해 전자 메일 초대를 전송할 수 있도록 해줍니다.
    
-3. 오른쪽 위 모퉁이에 있는 **보내기** 아이콘 ![보내기 아이콘](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-send-icon.png)을 눌러 이메일을 송신합니다.
+3. 오른쪽 위 모서리의 **보내기** 아이콘 :::image type="icon" source="./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-send-icon.png" border="false":::을 탭하여 이메일을 보냅니다.
    
     받는 사람은 대시보드 또는 보고서의 직접 링크가 포함된 메일 초대를 받게 됩니다. 이 초대는 한 달 후에 만료됩니다. 동료가 Power BI 서비스 또는 Power BI 모바일 앱에서 링크를 열면 Power BI 계정의 **공유한 항목** 섹션에 추가됩니다. 공유한 항목 섹션에 액세스하려면 다음을 수행합니다.
    * Power BI 모바일 앱에서 탐색 모음에 있는 **기타 옵션**(...)을 탭하고 ![공유한 항목](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **공유한 항목**을 선택합니다.
@@ -90,7 +90,7 @@ iOS 및 Android용 Power BI 모바일 앱에서 다른 사람과 함께 [타일,
 
 2. 초대와 함께 보낼 이메일 주소 및 메시지를 입력합니다. 그렇지 않으면 Power BI가 기본 메시지를 송신합니다. 재공유를 허용하려면 **받는 사람이 이 대시보드를 공유할 수 있도록 허용**을 선택된 채로 둡니다. 재공유는 동료가 조직 내부의 다른 사람에게 브라우저나 모바일 앱을 통해 공유할 수 있도록 해줍니다.
    
-3. **보내기** 아이콘 ![보내기 아이콘](./media/mobile-share-dashboard-from-the-mobile-apps/pbi_win10ph_sendicon.png)을 누릅니다.
+3. **보내기** 아이콘 :::image type="icon" source="./media/mobile-share-dashboard-from-the-mobile-apps/pbi_win10ph_sendicon.png" border="false":::을 탭합니다.
    
     받는 사람은 대시보드 또는 보고서의 직접 링크가 포함된 메일 초대를 받게 됩니다. 이 초대는 한 달 후에 만료됩니다. 동료가 Power BI 서비스 또는 Power BI 모바일 앱에서 링크를 열면 Power BI 계정의 **공유한 항목** 섹션에 추가됩니다. 공유한 항목 섹션에 액세스하려면 다음을 수행합니다.
    

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: 245a23f0477b542ecd402a5028cffebe2d1142ad
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 3016cce1e4dd8fb1be5b5ab95ebcc73bdcb56ac1
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485694"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749072"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>포함된 애플리케이션 문제 해결
 
@@ -75,27 +75,27 @@ Azure Portal 또는 Power BI 앱 등록 페이지 내에서 표시되는 오류 
 
 추가 조사를 위해 fiddler 캡처가 필요할 수 있습니다. 403 오류는 다음과 같은 여러 가지 이유로 발생할 수 있습니다.
 
-* 사용자가 공유 용량에 생성될 수 있는 포함 토큰의 양을 초과했습니다. Azure 용량을 구입하여 포함 토큰을 생성하고 해당 용량에 작업 영역을 할당합니다. [Azure Portal에서 Power BI Embedded 용량 만들기](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)를 참조하세요.
+* 사용자가 공유 용량에 생성될 수 있는 포함 토큰의 양을 초과했습니다. Azure 용량을 구입하여 포함 토큰을 생성하고 해당 용량에 작업 영역을 할당합니다. [Azure Portal에서 Power BI Embedded 용량 만들기](/azure/power-bi-embedded/create-capacity)를 참조하세요.
 * Azure AD 인증 토큰이 만료되었습니다.
 * 인증된 사용자가 그룹(작업 영역)의 구성원이 아닙니다.
 * 인증된 사용자가 그룹(작업 영역)의 관리자가 아닙니다.
-* 인증된 사용자에게 권한이 없습니다. 사용 권한은 [refreshUserPermissions API](https://docs.microsoft.com/rest/api/power-bi/users/refreshuserpermissions)를 사용하여 업데이트할 수 있습니다.
+* 인증된 사용자에게 권한이 없습니다. 사용 권한은 [refreshUserPermissions API](/rest/api/power-bi/users/refreshuserpermissions)를 사용하여 업데이트할 수 있습니다.
 * 권한 부여 헤더가 올바르게 표시되지 않을 수 있습니다. 오타가 없는지 확인합니다.
 
 GenerateToken 호출 전에 애플리케이션의 백 엔드가 인증 토큰을 새로 고침해야 할 수 있습니다.
 
-    ```
-    GET https://wabi-us-north-central-redirect.analysis.windows.net/metadata/cluster HTTP/1.1
-    Host: wabi-us-north-central-redirect.analysis.windows.net
-    ...
-    Authorization: Bearer eyJ0eXAiOi...
-    ...
+```console
+GET https://wabi-us-north-central-redirect.analysis.windows.net/metadata/cluster HTTP/1.1
+Host: wabi-us-north-central-redirect.analysis.windows.net
+...
+Authorization: Bearer eyJ0eXAiOi...
+...
 
-    HTTP/1.1 403 Forbidden
-    ...
+HTTP/1.1 403 Forbidden
+...
 
-    {"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
-    ```
+{"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
+```
 
 ## <a name="authentication"></a>인증
 
@@ -113,13 +113,13 @@ GenerateToken 호출 전에 애플리케이션의 백 엔드가 인증 토큰을
 
 Power BI Embedded를 사용하고 Azure AD 직접 인증을 활용하는 경우 다음과 같은 로그인 메시지를 받습니다. ***오류: unauthorized_client, error_description:AADSTS70002: 자격 증명의 유효성 검사 오류입니다. AADSTS50053: 잘못된 사용자 ID 또는 암호를 사용하여 로그인을 너무 많이 시도했습니다.*** 이는 2018년 6월 14일부터 직접 인증이 기본적으로 더 이상 사용되지 않기 때문입니다.
 
-범위가 조직 또는 [서비스 주체](https://docs.microsoft.com/azure/active-directory/develop/active-directory-application-objects#service-principal-object)로 지정된 [Azure AD 정책](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications)을 사용하여 이 기능을 다시 설정하는 방법이 있습니다.
+범위가 조직 또는 [서비스 주체](/azure/active-directory/develop/active-directory-application-objects#service-principal-object)로 지정된 [Azure AD 정책](/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications)을 사용하여 이 기능을 다시 설정하는 방법이 있습니다.
 
 이 정책은 앱별 기준으로만 사용하도록 설정하는 것이 좋습니다.
 
 이 정책을 만들려면 정책을 만들고 할당하는 디렉터리에서 **전역 관리자**여야 합니다. 정책을 만들고 이 애플리케이션에 SP를 할당하기 위한 샘플 스크립트는 다음과 같습니다.
 
-1. [Azure AD 미리 보기 PowerShell 모듈](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)을 설치합니다.
+1. [Azure AD 미리 보기 PowerShell 모듈](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)을 설치합니다.
 
 2. 다음 PowerShell 명령을 한 줄씩 실행합니다(결과적으로 $sp 변수에 둘 이상의 애플리케이션이 없는지 확인).
 
@@ -153,7 +153,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 해당 이유를 확인하려면 다음 단계를 시도합니다.
 
-* [get dataset](https://docs.microsoft.com/rest/api/power-bi/datasets)를 실행합니다. IsEffectiveIdentityRequired 속성이 true인지 확인합니다.
+* [get dataset](/rest/api/power-bi/datasets)를 실행합니다. IsEffectiveIdentityRequired 속성이 true인지 확인합니다.
 * Username은 모든 EffectiveIdentity의 필수 항목입니다.
 * IsEffectiveIdentityRolesRequired가 true이면 역할이 필요합니다.
 * DatasetId는 모든 EffectiveIdentity의 필수 항목입니다.
@@ -270,37 +270,43 @@ Power BI Desktop 또는 powerbi.com에서 파일을 열고, 성능이 애플리�
 
 **권한 부여**를 선택하는 경우(권한 부여 단계) 다음과 같은 오류가 발생합니다.
 
-    AADSTS70001: Application with identifier <client ID> wasn't found in the directory <directory ID>
+```output
+AADSTS70001: Application with identifier <client ID> wasn't found in the directory <directory ID>
+```
 
 솔루션은 팝업을 닫는 것입니다. 몇 초 정도 기다린 후에 다시 시도하세요. 이 작업을 여러 번 반복해야 합니다. 애플리케이션 등록 프로세스의 완료에서 외부 API에 사용할 수 있을 때까지의 시간 간격으로 인해 문제가 발생합니다.
 
 샘플 앱을 실행하는 경우 다음과 같은 오류 메시지가 표시됩니다.
 
-    Password is empty. Please fill password of Power BI username in web.config.
+```output
+Password is empty. Please fill password of Power BI username in web.config.
+```
 
 샘플 애플리케이션에 삽입되지 않는 유일한 값이 사용자 암호이기 때문에 이 오류가 발생합니다. 솔루션에서 Web.config 파일을 열고 사용자의 암호로 pbiPassword 필드를 채웁니다.
 
 AADSTS50079 오류가 발생하는 경우: 사용자가 다단계 인증을 사용해야 합니다.
 
-    Need to use an AAD account that doesn't have MFA enabled.
+MFA를 사용하도록 설정되지 않은 AAD 계정을 사용해야 합니다.
 
-#### <a name="using-the-embed-for-your-organization-sample-application"></a>조직에 대한 콘텐츠 포함 사용 샘플 애플리케이션
+#### <a name="using-the-embed-for-your-organization-sample-application"></a>조직 샘플 애플리케이션에 Embed 사용
 
 **조직에 대한 콘텐츠 포함** 환경을 사용하는 경우 *PowerBI-Developer-Samples.zip* 파일을 저장하고 압축을 풉니다. 그런 다음, *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* 폴더를 열고, *pbi-saas-embed-report.sln* 파일을 실행합니다.
 
 **조직에 대한 콘텐츠 포함** 샘플 앱을 실행하는 경우 다음과 같은 오류가 발생합니다.
 
-    AADSTS50011: The reply URL specified in the request doesn't match the reply URLs configured for the application: <client ID>
+```output
+AADSTS50011: The reply URL specified in the request doesn't match the reply URLs configured for the application: <client ID>
+```
 
 웹 서버 애플리케이션에 지정된 리디렉션 URL이 샘플의 URL과 다르기 때문에 이 오류가 발생합니다. 샘플 애플리케이션을 등록하려면 리디렉션 URL로 `https://localhost:13526/`을 사용합니다.
 
-등록된 애플리케이션을 편집하려는 경우 애플리케이션이 웹 API에 대한 액세스 권한을 제공할 수 있도록 [Azure AD에 등록된 애플리케이션을 업데이트](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app)하는 방법을 알아봅니다.
+등록된 애플리케이션을 편집하려는 경우 애플리케이션이 웹 API에 대한 액세스 권한을 제공할 수 있도록 [Azure AD에 등록된 애플리케이션을 업데이트](/azure/active-directory/develop/quickstart-v1-update-azure-ad-app)하는 방법을 알아봅니다.
 
-Power BI 사용자 프로필 또는 데이터를 편집하려는 경우 [Power BI 데이터](https://docs.microsoft.com/power-bi/service-basic-concepts)를 편집하는 방법을 알아봅니다.
+Power BI 사용자 프로필 또는 데이터를 편집하려는 경우 [Power BI 데이터](../../fundamentals/service-basic-concepts.md)를 편집하는 방법을 알아봅니다.
 
-AADSTS50079 오류가 발생하는 경우: 사용자가 다단계 인증을 사용해야 합니다.
+오류 - AADSTS50079가 표시되는 경우: 사용자가 다단계 인증을 사용해야 합니다.
 
-    Need to use an AAD account that doesn't have MFA enabled.
+MFA를 사용하도록 설정되지 않은 AAD 계정을 사용해야 합니다.
 
 자세한 내용은 [Power BI Embedded FAQ](embedded-faq.md)를 참조하세요.
 

@@ -11,12 +11,12 @@ ms.topic: quickstart
 ms.date: 01/31/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 49ed6bd0ae8021936c327aede83d0e6a8539179a
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: b9b299207a95091244d1f9ff7ab5f7a0d5460fc8
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216134"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634117"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>빠른 시작 - Power BI 서비스 살펴보기
 
@@ -47,12 +47,12 @@ ms.locfileid: "86216134"
 
 1. 앱이 설치되면 탐색 창에서 **앱**을 선택합니다. 
 
-   ![처음으로 열린 Power BI 서비스](./media/end-user-experience/power-bi-home-steps.png)
+   ![환영 메시지가 있는 Power BI 홈 화면을 보여 주는 스크린샷.](./media/end-user-experience/power-bi-home-steps.png)
 
 
 2. **앱** 화면에서 **영업 및 마케팅 샘플** 앱을 선택합니다.
 
-    ![처음으로 열린 Power BI 서비스](./media/end-user-experience/power-bi-sample-app.png)
+    ![영업 및 마케팅 샘플이라는 앱이 있는 Power BI 앱 화면을 보여 주는 스크린샷.](./media/end-user-experience/power-bi-sample-app.png)
 
 2. **앱 탐색**을 선택합니다.
 

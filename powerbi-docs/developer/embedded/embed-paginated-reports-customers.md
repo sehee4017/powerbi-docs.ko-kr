@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: 78487f52df9f62e85e80f02d9653c9ac2f5b52c7
-ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
+ms.openlocfilehash: 771c41b896a6b886e8c72fa3d88ca8842e8ebffe
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84337122"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748842"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>자습서:  고객을 위해 애플리케이션에 페이지를 매긴 Power BI 보고서 포함
 
@@ -57,7 +57,7 @@ Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.
 * **Power BI Premium** - 페이지를 매긴 보고서를 포함하려면 *P* SKU 용량이 필요합니다. Power BI 콘텐츠를 포함하는 경우 이 솔루션을 *Power BI 포함*이라고 합니다. 이 구독과 관련된 자세한 내용은 [Power BI Premium이란?](../../admin/service-premium-what-is.md)을 참조하세요.
 * **Azure Power BI Embedded** - [Microsoft Azure Portal](https://portal.azure.com)에서 전용 용량을 구입할 수 있습니다. 이 구독은 *A* SKU를 사용합니다. 페이지를 매긴 보고서를 포함하려면 최소 *A4* 구독이 필요합니다. Power BI Embedded 용량을 만드는 방법에 대한 자세한 내용은 [Azure Portal에서 Power BI Embedded 용량 만들기](azure-pbie-create-capacity.md)를 참조하세요.
 
-아래 표에서는 각 SKU의 리소스 및 한도를 설명합니다. 요구 사항에 가장 적합한 용량을 확인하려면 [내 시나리오를 위해 구입해야 하는 SKU](https://docs.microsoft.com/power-bi/developer/embedded-faq#which-solution-should-i-choose) 표를 참조하세요.
+아래 표에서는 각 SKU의 리소스 및 한도를 설명합니다. 요구 사항에 가장 적합한 용량을 확인하려면 [내 시나리오를 위해 구입해야 하는 SKU](./embedded-faq.md#which-solution-should-i-choose) 표를 참조하세요.
 
 | 용량 노드 | 총 V 코어 | 백 엔드 V 코어 | RAM(GB) | 프런트 엔드 V 코어 | 
 | --- | --- | --- | --- | --- |
@@ -70,13 +70,13 @@ Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.
 
 전용 용량을 만들면 해당 전용 용량에 앱 작업 영역을 할당할 수 있습니다.
 
-[서비스 주체](embed-service-principal.md)를 사용하여 작업 영역에 전용 용량을 할당하려면 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity)를 사용합니다. Power BI REST API를 사용할 때는 [서비스 주체 개체 ID](embed-service-principal.md)를 사용해야 합니다.
+[서비스 주체](embed-service-principal.md)를 사용하여 작업 영역에 전용 용량을 할당하려면 [Power BI REST API](/rest/api/power-bi/capacities/groups_assigntocapacity)를 사용합니다. Power BI REST API를 사용할 때는 [서비스 주체 개체 ID](embed-service-principal.md)를 사용해야 합니다.
 
 ### <a name="create-and-upload-your-paginated-reports"></a>페이지를 매긴 보고서 만들기 및 업로드
 
 [Power BI 보고서 작성기](../../paginated-reports/paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder)를 사용하여 페이지를 매긴 보고서를 만들고 [서비스에 업로드](../../paginated-reports/paginated-reports-quickstart-aw.md#upload-the-report-to-the-service)할 수 있습니다.
 
-[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/imports/postimportingroup)를 사용하여 페이지를 매긴 보고서를 새 작업 영역으로 가져올 수 있습니다.
+[Power BI REST API](/rest/api/power-bi/imports/postimportingroup)를 사용하여 페이지를 매긴 보고서를 새 작업 영역으로 가져올 수 있습니다.
 
 ## <a name="embed-content-using-the-sample-application"></a>샘플 애플리케이션을 사용하여 콘텐츠 포함
 
@@ -119,7 +119,7 @@ Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.
 
 3. **applicationId**가 필요한 응용 프로그램을 선택합니다.
 
-    ![앱 선택](media/embed-paginated-reports-for-customers/display-name.png)
+    ![애플리케이션 ID가 필요한 애플리케이션이 선택된 애플리케이션 표시 이름을 보여 주는 스크린샷.](media/embed-paginated-reports-for-customers/display-name.png)
 
 4. GUID로 나열된 **애플리케이션 ID**가 있습니다. 이 **응용 프로그램 ID**를 애플리케이션의 **applicationId**로 사용합니다.
 
@@ -171,7 +171,7 @@ Get-PowerBIworkspace -name "Paginated Report Embed" | Get-PowerBIReport
 
 3. **ApplicationSecret**을 사용해야 하는 애플리케이션을 선택합니다.
 
-    ![앱 선택](media/embed-paginated-reports-for-customers/display-name-2.png)
+    ![애플리케이션 암호가 필요한 애플리케이션이 선택된 애플리케이션 표시 이름을 보여 주는 스크린샷.](media/embed-paginated-reports-for-customers/display-name-2.png)
 
 4. **관리** 아래의 **인증서 및 비밀**을 선택합니다.
 
@@ -201,11 +201,11 @@ Get-PowerBIworkspace -name "Paginated Report Embed" | Get-PowerBIReport
 
 ## <a name="embed-power-bi-paginated-reports-within-your-application"></a>애플리케이션 내에 페이지를 매긴 Power BI 보고서 포함
 
-페이지를 매긴 Power BI 보고서를 포함하는 단계는 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)를 사용하여 수행되지만 이 문서에 설명된 예제 코드는 **.NET SDK**를 사용하여 만듭니다.
+페이지를 매긴 Power BI 보고서를 포함하는 단계는 [Power BI REST API](/rest/api/power-bi/)를 사용하여 수행되지만 이 문서에 설명된 예제 코드는 **.NET SDK**를 사용하여 만듭니다.
 
-고객용 Power BI 페이지를 매긴 보고서를 애플리케이션 내에 포함하려면 **Azure AD** [서비스 주체](embed-service-principal.md)가 있어야 하며, [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)를 호출하기 전에 Power BI 애플리케이션을 위한 [Azure AD 액세스 토큰](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)을 가져와야 합니다.
+고객용 Power BI 페이지를 매긴 보고서를 애플리케이션 내에 포함하려면 **Azure AD** [서비스 주체](embed-service-principal.md)가 있어야 하며, [Power BI REST API](/rest/api/power-bi/)를 호출하기 전에 Power BI 애플리케이션을 위한 [Azure AD 액세스 토큰](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)을 가져와야 합니다.
 
-**액세스 토큰**을 사용하여 Power BI 클라이언트를 만들려면 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)와 상호 작용할 수 있는 Power BI 클라이언트 개체를 만듭니다. ***Microsoft.Rest.TokenCredentials*** 개체로 **AccessToken**을 래핑하여 Power BI 클라이언트 개체를 만듭니다.
+**액세스 토큰**을 사용하여 Power BI 클라이언트를 만들려면 [Power BI REST API](/rest/api/power-bi/)와 상호 작용할 수 있는 Power BI 클라이언트 개체를 만듭니다. ***Microsoft.Rest.TokenCredentials*** 개체로 **AccessToken**을 래핑하여 Power BI 클라이언트 개체를 만듭니다.
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -242,7 +242,7 @@ Report report = reports.Value.FirstOrDefault();
 
 ### <a name="create-the-embed-token"></a>포함 토큰을 만듭니다.
 
-JavaScript API에서 사용할 수 있는 포함 토큰을 생성합니다. 페이지를 매긴 Power BI 보고서를 포함하기 위한 포함 토큰을 만들려면 [보고서 GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup) API를 사용합니다.
+JavaScript API에서 사용할 수 있는 포함 토큰을 생성합니다. 페이지를 매긴 Power BI 보고서를 포함하기 위한 포함 토큰을 만들려면 [보고서 GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup) API를 사용합니다.
 
 포함 토큰을 만드는 샘플은 [샘플 애플리케이션](https://github.com/Microsoft/PowerBI-Developer-Samples)의  *Services\EmbedService.cs* 파일 내에서 사용할 수 있습니다.
 

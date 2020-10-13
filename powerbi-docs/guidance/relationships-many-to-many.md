@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 7c9b5c753b262900d61a1a71b4c9a8167c943121
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 3c94c25f5f1ba717f68a0c2a5ec661be10f70135
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216688"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668531"
 ---
 # <a name="many-to-many-relationship-guidance"></a>다 대 다 관계 지침
 
@@ -48,7 +48,7 @@ ms.locfileid: "86216688"
 > [!NOTE]
 > Power BI Desktop 모델 다이어그램에는 테이블 행을 표시할 수 없습니다. 이 문서에서는 명확한 예제로 설명을 지원하기 위해 표시한 것입니다.
 
-![이제 모델에 테이블 행이 표시됨을 보여 주는 다이어그램. 행 세부 정보는 다음 단락에서 설명합니다.](media/relationships-many-to-many/bank-account-customer-model-related-tables-2.png)
+![이제 모델에 테이블 행이 표시됨을 보여 주는 다이어그램. 네 테이블의 행 세부 정보는 다음 단락에 설명되어 있습니다.](media/relationships-many-to-many/bank-account-customer-model-related-tables-2.png)
 
 네 테이블의 행 세부 정보는 다음 글머리 기호 목록에 설명되어 있습니다.
 
@@ -137,7 +137,7 @@ ms.locfileid: "86216688"
 
 이제 테이블 행을 살펴봅시다. **Fulfillment** 테이블에서 주문 라인이 여러 배송을 통해 처리될 수 있음을 확인합니다. 주문 라인이 없으면 주문이 아직 처리되지 않은 것입니다.
 
-![이제 모델에 테이블 행이 표시됨을 보여 주는 다이어그램. 행 세부 정보는 다음 단락에서 설명합니다.](media/relationships-many-to-many/order-fulfillment-model-related-tables.png)
+![이제 모델에 테이블 행이 표시됨을 보여 주는 다이어그램. 두 테이블의 행 세부 정보는 다음 단락에 설명되어 있습니다.](media/relationships-many-to-many/order-fulfillment-model-related-tables.png)
 
 두 테이블의 행 세부 정보는 다음 글머리 기호 목록에 설명되어 있습니다.
 
@@ -161,7 +161,7 @@ ms.locfileid: "86216688"
 
 ### <a name="relate-many-to-many-facts-guidance"></a>다 대 다 팩트 연결 지침
 
-일반적으로 다 대 다 카디널리티를 사용하여 두 팩트 유형 테이블을 직접 연결하지 않는 것이 좋습니다. 주요 이유는 이 모델을 사용할 경우 시각적 개체 필터 또는 그룹을 다양한 방식으로 보고할 수 없기 때문입니다. 이 예제에서는 시각적 개체가 **Order** 테이블의 **OrderID** 열로만 필터링하거나 그룹화할 수 있습니다. 추가 이유는 데이터 품질과 관련이 있습니다. 데이터에 무결성 문제가 있을 경우 ‘약한 관계’의 특성으로 인해 쿼리 중에 일부 행이 생략될 수 있습니다. 자세한 내용은 [Power BI Desktop의 모델 관계(관계 평가)](../transform-model/desktop-relationships-understand.md#relationship-evaluation)를 참조하세요.
+일반적으로 다 대 다 카디널리티를 사용하여 두 팩트 유형 테이블을 직접 연결하지 않는 것이 좋습니다. 주요 이유는 이 모델을 사용할 경우 시각적 개체 필터 또는 그룹을 다양한 방식으로 보고할 수 없기 때문입니다. 이 예제에서는 시각적 개체가 **Order** 테이블의 **OrderID** 열로만 필터링하거나 그룹화할 수 있습니다. 추가 이유는 데이터 품질과 관련이 있습니다. 데이터에 무결성 문제가 있을 경우 제한적 관계의 특성으로 인해 쿼리 중에 일부 행이 생략될 수 있습니다. 자세한 내용은 [Power BI Desktop의 모델 관계(관계 평가)](../transform-model/desktop-relationships-understand.md#relationship-evaluation)를 참조하세요.
 
 팩트 유형 테이블을 직접 연결하는 대신, [별모양 스키마](star-schema.md) 디자인 원칙을 채택하는 것이 좋습니다. 차원 유형 테이블을 추가하면 됩니다. 그러면 차원 유형 테이블이 일 대 다 관계를 사용하여 팩트 유형 테이블에 연결됩니다. 이 디자인 방법은 유연성 있는 보고 옵션을 제공하므로 강력합니다. 이 방법을 사용하면 차원 유형 열 중 하나로 필터링하거나 그룹화하고 관련 팩트 유형 테이블을 요약할 수 있습니다.
 
@@ -184,7 +184,7 @@ ms.locfileid: "86216688"
 - 보고서 시각적 개체가 차원 유형 테이블의 보이는 열을 기준으로 ‘필터링하거나 그룹화’할 수 있습니다.
 - 보고서 시각적 개체가 팩트 유형 테이블의 보이는 열을 ‘요약’할 수 있습니다.
 - **OrderLine**, **OrderDate** 또는 **Product** 테이블에 적용된 필터가 두 팩트 유형 테이블에 모두 전달됩니다.
-- 모든 관계는 일 대 다이고, 각 관계는 ‘강력한 관계’입니다. 데이터 무결성 문제가 마스킹 되지 않습니다. 자세한 내용은 [Power BI Desktop의 모델 관계(관계 평가)](../transform-model/desktop-relationships-understand.md#relationship-evaluation)를 참조하세요.
+- 모든 관계는 일 대 다이고 각 관계는 일반 관계입니다. 데이터 무결성 문제가 마스킹 되지 않습니다. 자세한 내용은 [Power BI Desktop의 모델 관계(관계 평가)](../transform-model/desktop-relationships-understand.md#relationship-evaluation)를 참조하세요.
 
 ## <a name="relate-higher-grain-facts"></a>상위 세분성 팩트 연결
 
@@ -228,7 +228,7 @@ IF(
 
 이제 다음 행렬 시각적 개체가 **Target Quantity** 측정값을 사용합니다. 모든 월별 목표 수량이 BLANK임을 보여 줍니다.
 
-![2020년 목표 수량을 270으로 공개하는 행렬 시각적 개체를 보여 주는 다이어그램.](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-good.png)
+![비어 있는 월별 값과 함께 2020년 목표 수량을 270으로 공개하는 행렬 시각적 개체를 보여 주는 다이어그램.](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-good.png)
 
 ### <a name="relate-higher-grain-non-date"></a>상위 세분성 연결(날짜 아님)
 

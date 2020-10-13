@@ -10,12 +10,12 @@ ms.date: 05/20/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Consumers
-ms.openlocfilehash: ebc402bf317eb99294137260fcd0cd1e9178d9eb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5e1da5cc99cbc12b9cbcc41544569f8f0ede9590
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237311"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634024"
 ---
 # <a name="collaborate-in-workspaces"></a>작업 영역에서 공동 작업
 
@@ -25,7 +25,7 @@ ms.locfileid: "85237311"
 
  작업 영역은 Power BI **홈**에서 보거나 왼쪽 탐색 창에서 **작업 영역** 또는 **내 작업 영역**을 선택하여 볼 수 있습니다.
 
- ![두 가지 유형의 작업 영역을 보여 주는 탐색 창](media/end-user-workspaces/power-bi-home.png)
+ ![두 가지 유형의 작업 영역이 표시된 탐색 창을 보여 주는 스크린샷.](media/end-user-workspaces/power-bi-home.png)
 
 ## <a name="types-of-workspaces"></a>작업 영역 유형
 **내 작업 영역**에는 소유하고 만드는 모든 콘텐츠가 저장됩니다. 고유한 콘텐츠에 대한 개인 샌드박스 또는 작업 영역으로 생각하면 됩니다. 대부분의 Power BI ‘소비자'는 새 콘텐츠를 만드는 일이 업무에 포함되어 있지 않으므로 **내 작업 영역**이 비어 있는 상태로 유지됩니다. 정의상 ‘소비자'는 다른 사용자가 만든 데이터를 사용하고 해당 데이터를 이용해 비즈니스 의사 결정을 내립니다. 콘텐츠를 만드는 경우 대신 [디자이너를 위한 Power BI 문서](../create-reports/index.yml)를 읽어 보시기 바랍니다.
@@ -34,7 +34,7 @@ ms.locfileid: "85237311"
 
 아래의 Fig sales 작업 영역에는 세 개의 보고서와 하나의 대시보드가 있습니다. 
 
-![두 가지 유형의 작업 영역을 보여 주는 탐색 창](media/end-user-workspaces/power-bi-app-workspace.png)
+![작업 영역 메뉴 아래 표시되는 작업 영역에 보고서와 대시보드가 포함된 것을 보여 주는 스크린샷.](media/end-user-workspaces/power-bi-app-workspace.png)
 
 ## <a name="roles-in-the-workspaces"></a>작업 영역의 역할
 

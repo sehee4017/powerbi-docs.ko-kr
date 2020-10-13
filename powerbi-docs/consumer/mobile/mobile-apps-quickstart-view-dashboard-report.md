@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 11/25/2019
 ms.author: painbar
-ms.openlocfilehash: 003543579e26262194668f94bdf78b8b002cb114
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 52728d6cb2daa1bb2753454e8b19a7e06800d080
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90856164"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668508"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>빠른 시작: Power BI 모바일 앱에서 대시보드 및 보고서 살펴보기
 이 빠른 시작에서는 Power BI Mobile 앱을 둘러보고 샘플 대시보드와 보고서를 살펴봅니다. iOS용 Power BI 앱이 표시되지만, 다른 디바이스에서도 쉽게 작업을 수행할 수 있습니다.
@@ -68,7 +68,7 @@ ms.locfileid: "90856164"
 
 10. 위로 살짝 밀어 아래쪽에 도구 모음을 표시하고 **기타 옵션(...)** 을 탭합니다.
 
-    ![연필 탭하기](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-tap-pencil.png)
+    ![오른쪽 아래 모서리의 추가 옵션 위치를 보여 주는 스크린샷.](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-tap-pencil.png)
 
 
 11. 목록 아래로 스크롤하고 **주석 달기**를 선택합니다.

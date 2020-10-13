@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3154becb2f496c0bbb0f84d1c1e7316868251c36
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3340225ccd4c6457e25013b6c347769d848b104c
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226037"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374939"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>동료 Power BI 홈페이지의 추천 콘텐츠
 
@@ -24,7 +24,7 @@ ms.locfileid: "85226037"
 
 ## <a name="who-can-feature-content"></a>콘텐츠를 추천할 수 있는 사용자
 
-테넌트에서 콘텐츠를 추천하는 기능을 사용하도록 설정하는 작업은 Power BI 테넌트 관리자가 수행합니다. 또한 관리자는 콘텐츠를 추천할 수 있는 사용자를 선택합니다. 자세한 내용은 [관리 포털](../admin/service-admin-portal.md#featured-content) 문서를 참조하세요.
+테넌트에서 콘텐츠를 추천하는 기능을 사용하도록 설정하는 작업은 Power BI 관리자가 수행합니다. 또한 관리자는 콘텐츠를 추천할 수 있는 사용자를 선택합니다. 자세한 내용은 [관리 포털](../admin/service-admin-portal.md#featured-content) 문서를 참조하세요.
 
 조직에서 해당 책임이 있는 선택 그룹 중 하나인 경우 Power BI Pro 라이선스가 있어야 합니다. 대시보드 및 보고서를 추천하려면 작업 영역에서 관리자, 구성원 또는 참가자 역할이 필요합니다. 앱 자체를 추천하려면 작업 영역에서 관리자 또는 구성원 역할이 있어야 합니다. 자세한 내용은 [새 작업 영역의 역할](service-new-workspaces.md#roles-in-the-new-workspaces)을 참조하세요.
 
@@ -38,13 +38,13 @@ ms.locfileid: "85226037"
 
 1. 작업 영역의 **대시보드** 또는 **보고서** 목록에서 **설정** 아이콘을 선택합니다.
 
-    :::image type="content" source="media/service-featured-content/power-bi-settings-icon.png" alt-text="보고서 설정 아이콘":::
+    :::image type="content" source="media/service-featured-content/power-bi-settings-icon.png" alt-text="홈의 Power BI 추천 콘텐츠":::
 
 2. **설정** 창에서 이름을 확인하거나 변경합니다. **설명**을 추가하고 원하는 경우 **스냅샷**을 업로드합니다. 이 유용한 항목은 사용자가 콘텐츠를 찾는 데 도움이 됩니다.
 
 3. **추천**을 선택합니다.
 
-    :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="추천 콘텐츠 설정":::
+    :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="홈의 Power BI 추천 콘텐츠":::
 
 4. **저장**을 선택합니다.
 

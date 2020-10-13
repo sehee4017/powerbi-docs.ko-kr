@@ -9,12 +9,12 @@ ms.devlang: csharp, javascript
 ms.topic: how-to
 ms.reviewer: zakharb
 ms.date: 08/02/2020
-ms.openlocfilehash: 2f330b42e674f11f27d695fb65bc8d5de928eaae
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: 99943f30aa0c31223eae2058aff8b4d34d49bf1d
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204827"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748865"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Azure Portal에서 Power BI Embedded 용량 만들기
 
@@ -26,11 +26,11 @@ ms.locfileid: "88204827"
 
 * **Azure 구독:** [Azure 평가판](https://azure.microsoft.com/free/)에 방문하여 계정을 만듭니다.
 
-* **Azure Active Directory:** 구독은 Azure AD(Azure Active Directory) 테넌트와 연결되어 있어야 합니다. 또한 ***해당 테넌트에 계정이 있는 Azure에 로그인해야 합니다***. Microsoft 계정은 지원되지 않습니다. 자세한 내용은 [인증 및 사용자 권한](https://docs.microsoft.com/azure/analysis-services/analysis-services-manage-users)을 참조하세요.
+* **Azure Active Directory:** 구독은 Azure AD(Azure Active Directory) 테넌트와 연결되어 있어야 합니다. 또한 ***해당 테넌트에 계정이 있는 Azure에 로그인해야 합니다***. Microsoft 계정은 지원되지 않습니다. 자세한 내용은 [인증 및 사용자 권한](/azure/analysis-services/analysis-services-manage-users)을 참조하세요.
 
 * **Power BI 테넌트:** Azure AD 테넌트에서 하나 이상의 계정이 Power BI에 등록되어 있어야 합니다.
 
-* **리소스 그룹:** 이미 있는 리소스 그룹을 사용하거나 [새로 만듭니다](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview).
+* **리소스 그룹:** 이미 있는 리소스 그룹을 사용하거나 [새로 만듭니다](/azure/azure-resource-manager/resource-group-overview).
 
 ## <a name="create-a-capacity"></a>용량 만들기
 
@@ -46,17 +46,17 @@ Power BI Embedded 용량을 만들기 전에 최소 한 번 이상 Power BI 로�
 
 4. 필요한 정보를 입력하고 **검토 + 만들기**를 클릭합니다.
 
-    ![Azure Portal에서 새 용량을 만들기 위해 작성해야 하는 필드의 스크린샷](media/azure-pbie-create-capacity/azure-create-capacity.png)
+    ![Azure Portal에서 새 용량을 만드는 Power BI Embedded 페이지의 기본 사항 탭을 보여 주는 스크린샷.](media/azure-pbie-create-capacity/azure-create-capacity.png)
 
     * **구독** - 용량을 만들려는 구독입니다.
 
-    * **리소스 그룹** - 이 새 용량을 포함하는 리소스 그룹입니다. 기존 리소스 그룹에서 선택하거나 새로 만듭니다. 자세한 내용은 [Azure Resource Manager 개요](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview)를 참조하세요.
+    * **리소스 그룹** - 이 새 용량을 포함하는 리소스 그룹입니다. 기존 리소스 그룹에서 선택하거나 새로 만듭니다. 자세한 내용은 [Azure Resource Manager 개요](/azure/azure-resource-manager/resource-group-overview)를 참조하세요.
 
     * **리소스 이름** - 용량의 리소스 이름입니다.
 
     * **위치** - 테넌트에 대해 Power BI가 호스트되는 위치입니다. 기본 위치는 홈 지역이지만 [다중 지역 옵션](embedded-multi-geo.md)을 사용하여 위치를 변경할 수 있습니다.
 
-    * **크기** - 필요한 [A SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)입니다. 자세한 내용은 [SKU 메모리 및 컴퓨팅 성능](/power-bi/developer/embedded/embedded-capacity)을 참조하세요.
+    * **크기** - 필요한 [A SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)입니다. 자세한 내용은 [SKU 메모리 및 컴퓨팅 성능](./embedded-capacity.md)을 참조하세요.
 
     * **Power BI 용량 관리자** - 용량 관리자입니다.
         >[!NOTE]
@@ -114,7 +114,7 @@ Power BI Embedded 용량 명령을 사용하려면 Azure CLI 버전 2.3.1 이상
 
 ### <a name="create-a-capacity-with-azure-cli"></a>Azure CLI를 사용하여 용량 만들기
 
-[az Power BI embedded-capacity create](https://docs.microsoft.com/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-create) 명령을 사용하여 용량을 만듭니다.
+[az Power BI embedded-capacity create](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-create) 명령을 사용하여 용량을 만듭니다.
 
 ```azurecli
 az powerbi embedded-capacity create --location westeurope
@@ -126,7 +126,7 @@ az powerbi embedded-capacity create --location westeurope
 
 ### <a name="delete-a-capacity-with-azure-cli"></a>Azure CLI를 사용하여 용량 삭제
 
-Azure CLI를 사용하여 용량을 삭제하려면 [az powerbi embedded-capacity delete](https://docs.microsoft.com/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-delete) 명령을 사용합니다.
+Azure CLI를 사용하여 용량을 삭제하려면 [az powerbi embedded-capacity delete](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-delete) 명령을 사용합니다.
 
 ```azurecli
 az powerbi embedded-capacity delete --name
@@ -135,13 +135,13 @@ az powerbi embedded-capacity delete --name
 
 ### <a name="manage-your-capacity-with-azure-cli"></a>Azure CLI를 사용하여 용량 관리
 
-[az powerbi](https://docs.microsoft.com/cli/azure/ext/powerbidedicated/powerbi?view=azure-cli-latest)에서 모든 Power BI Embedded Azure CLI 명령을 볼 수 있습니다.
+[az powerbi](/cli/azure/ext/powerbidedicated/powerbi?view=azure-cli-latest)에서 모든 Power BI Embedded Azure CLI 명령을 볼 수 있습니다.
 
 # <a name="arm-template"></a>[ARM 템플릿](#tab/ARM-template)
 
 ### <a name="use-resource-manager-template"></a>Resource Manager 템플릿 사용
 
-[Resource Manager 템플릿](https://docs.microsoft.com/azure/azure-resource-manager/templates/overview)은 프로젝트에 대한 인프라 및 구성을 정의하는 JSON(JavaScript Object Notation) 파일입니다. 이 템플릿은 대상을 만들기 위한 프로그래밍 명령 시퀀스를 작성하지 않고도 배포하려는 대상을 설명할 수 있는 선언적 구문입니다. Resource Manager 템플릿 개발에 대한 자세한 내용은 [Resource Manager 설명서](https://docs.microsoft.com/azure/azure-resource-manager/) 및 [템플릿 참조](https://docs.microsoft.com/azure/templates/)에서 확인할 수 있습니다.
+[Resource Manager 템플릿](/azure/azure-resource-manager/templates/overview)은 프로젝트에 대한 인프라 및 구성을 정의하는 JSON(JavaScript Object Notation) 파일입니다. 이 템플릿은 대상을 만들기 위한 프로그래밍 명령 시퀀스를 작성하지 않고도 배포하려는 대상을 설명할 수 있는 선언적 구문입니다. Resource Manager 템플릿 개발에 대한 자세한 내용은 [Resource Manager 설명서](/azure/azure-resource-manager/) 및 [템플릿 참조](/azure/templates/)에서 확인할 수 있습니다.
 
 Azure 구독이 아직 없는 경우 시작하기 전에 [체험](https://azure.microsoft.com/free/) 계정을 만듭니다.
 
@@ -209,7 +209,7 @@ Azure 구독이 아직 없는 경우 시작하기 전에 [체험](https://azure.
 }
 ```
 
-템플릿 [Microsoft.PowerBIDedicated/capacities Az](https://docs.microsoft.com/azure/templates/microsoft.powerbidedicated/allversions) - Power BI Embedded 용량 만들기에 하나의 Azure 리소스가 정의되어 있습니다.
+템플릿 [Microsoft.PowerBIDedicated/capacities Az](/azure/templates/microsoft.powerbidedicated/allversions) - Power BI Embedded 용량 만들기에 하나의 Azure 리소스가 정의되어 있습니다.
 
 ### <a name="deploy-the-template"></a>템플릿 배포
 
@@ -219,20 +219,20 @@ Azure 구독이 아직 없는 경우 시작하기 전에 [체험](https://azure.
 
 2. 필요한 정보를 입력하고 **검토 + 만들기**를 클릭합니다.
 
-    ![Azure Portal에서 새 용량을 만들기 위해 작성해야 하는 필드의 스크린샷](media/azure-pbie-create-capacity/arm-template.png)
+    ![Azure Portal에서 새 용량을 만드는 Power BI Embedded 용량 페이지의 기본 사항 탭을 보여 주는 스크린샷.](media/azure-pbie-create-capacity/arm-template.png)
 
     * **구독** - 용량을 만들려는 구독입니다.
 
-    * **리소스 그룹** - 이 새 용량을 포함하는 리소스 그룹입니다. 기존 리소스 그룹에서 선택하거나 새로 만듭니다. 자세한 내용은 [Azure Resource Manager 개요](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview)를 참조하세요.
+    * **리소스 그룹** - 이 새 용량을 포함하는 리소스 그룹입니다. 기존 리소스 그룹에서 선택하거나 새로 만듭니다. 자세한 내용은 [Azure Resource Manager 개요](/azure/azure-resource-manager/resource-group-overview)를 참조하세요.
 
     * **지역** - 용량이 속하게 될 지역입니다.
 
     * **이름** - 용량 이름입니다.
 
-    * **위치** - 테넌트에 대해 Power BI가 호스트되는 위치입니다. 기본 위치는 홈 지역이지만 [다중 지역 옵션](https://docs.microsoft.com/power-bi/developer/embedded/embedded-multi-geo
+    * **위치** - 테넌트에 대해 Power BI가 호스트되는 위치입니다. 기본 위치는 홈 지역이지만 [다중 지역 옵션](./embedded-multi-geo.md
 )을 사용하여 위치를 변경할 수 있습니다.
 
-    * **SKU** - 필요한 [A SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)입니다. 자세한 내용은 [SKU 메모리 및 컴퓨팅 성능](/power-bi/developer/embedded/embedded-capacity)을 참조하세요.
+    * **SKU** - 필요한 [A SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)입니다. 자세한 내용은 [SKU 메모리 및 컴퓨팅 성능](./embedded-capacity.md)을 참조하세요.
 
     * **관리자** - 용량 관리자입니다.
         >[!NOTE]

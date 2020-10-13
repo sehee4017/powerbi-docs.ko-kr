@@ -1,17 +1,17 @@
 ---
 title: 보고서 작성자 학습 카탈로그
-description: Power BI와 관련된 모든 학습 옵션 찾기
+description: 보고서 디자이너를 위한 기초부터 고급까지 Power BI의 모든 학습 옵션을 찾아보세요.
 author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: 6b12b5333f852a62cc4e6232169fe353ace25fc3
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 3774de30309b2e1b3a8b086ee1d7605d1cba256d
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526111"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749371"
 ---
 # <a name="report-creator-learning-catalog"></a>보고서 작성자 학습 카탈로그
 

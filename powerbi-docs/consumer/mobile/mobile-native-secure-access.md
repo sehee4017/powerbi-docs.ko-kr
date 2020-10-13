@@ -7,12 +7,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 04/07/2020
 ms.author: painbar
-ms.openlocfilehash: 634252979129353ac628c574acb23bb184782ffa
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a32ac9b1631a23502d9752ed9f96355fa36b90da
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220014"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668600"
 ---
 # <a name="protect-power-bi-app-with-face-id-touch-id-passcode-or-biometric-data"></a>Face ID, Touch ID, 암호 또는 생체 인식 데이터로 Power BI 앱 보호 
 
@@ -48,7 +48,7 @@ Android용 Power BI 모바일 앱에서 추가 ID를 사용하려면 **개인 �
 
 아래 이미지에서는 지문 인증 화면을 보여 줍니다.
 
-![Power BI iOS Face ID](./media/mobile-native-secure-access/mobile-android-native-secured-fingerprint-id.png)
+![Android 휴대폰에서 추가 ID가 필요하다는 메시지를 보여 주는 스크린샷.](./media/mobile-native-secure-access/mobile-android-native-secured-fingerprint-id.png)
 
 >[!NOTE]
 >모바일 앱의 생체 인식 인증 필요 설정을 사용하려면 먼저 Android 디바이스에서 생체 인식을 설정해야 합니다. 디바이스가 생체 인식을 지원하지 않을 경우 이 모바일 앱 설정을 사용하여 Power BI 데이터에 대한 액세스를 보호할 수 없습니다.

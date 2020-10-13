@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7d1ecb8f15cc6d10bc2e04d43796874efb161a83
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 6d35d19a1d47adc6a918f01a71c2009d71692fbd
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537921"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633909"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI의 대시보드 타일
 
@@ -41,15 +41,15 @@ Power BI의 구성 요소를 이해하는 데 도움이 필요한 경우  [Power
 
     - 질문 및 답변을 사용하여 만든 타일
    
-        ![줄임표 아이콘](./media/end-user-tiles/power-bi-options-1.png)
+        ![여섯 가지 옵션이 있는 메뉴를 보여 주는 스크린샷.](./media/end-user-tiles/power-bi-options-1.png)
 
     - 통합 문서에서 만든 타일
    
-        ![줄임표 아이콘](./media/end-user-tiles/power-bi-options-2.png)
+        ![세 가지 옵션이 있는 메뉴를 보여 주는 스크린샷.](./media/end-user-tiles/power-bi-options-2.png)
 
     - 보고서에서 만든 타일
    
-        ![줄임표 아이콘](./media/end-user-tiles/power-bi-options-3.png)
+        ![다섯 가지 옵션이 있는 메뉴를 보여 주는 스크린샷.](./media/end-user-tiles/power-bi-options-3.png)
    
     여기에서 다음과 같은 작업을 할 수 있습니다.
    

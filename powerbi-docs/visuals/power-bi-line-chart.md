@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9f7cd6c277a02ce4e44db40930184cce955e5948
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 59cede1cae716661be8d3796330bde7da44170eb
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274193"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634599"
 ---
 # <a name="line-charts-in-power-bi"></a>Power BI의 꺾은선형 차트
 
@@ -67,11 +67,11 @@ ms.locfileid: "83274193"
 ### <a name="use-two-y-axes"></a>두 개의 Y축 사용
 총판매액 및 총 단위를 동일한 차트에서 보려는 경우 어떻게 해야 할까요? 판매 수치는 단위 수보다 훨씬 더 높으므로, 꺾은선형 차트를 사용할 수 없게 됩니다. 실제로 전체 단위에 해당하는 빨간 선은 0으로 표시됩니다.
 
-   ![고도로 분산된 값](media/power-bi-line-charts/power-bi-diverging.png)
+   ![단일 Y축을 사용하면 기본적으로 전체 단위가 플랫으로 표시되고 판매량 수치와의 비교가 쓸모없음을 보여 주는 스크린샷.](media/power-bi-line-charts/power-bi-diverging.png)
 
 고도로 분산된 값을 하나의 차트에 표시하려면 콤보 차트를 사용합니다. [Power BI의 콤보 차트](power-bi-visualization-combo-chart.md)를 읽어 보면 콤보 차트에 대해 모두 알아볼 수 있습니다. 아래 예에서 두 번째 Y축을 추가하여 하나의 차트에 판매량 및 전체 단위를 함께 표시할 수 있습니다. 
 
-   ![고도로 분산된 값](media/power-bi-line-charts/power-bi-dual-axes.png)
+   ![왼쪽에 Y축이 있는 막대형 차트로 판매량 값을, 오른쪽에 Y축이 있는 선으로 전체 단위를 보여 주는 스크린샷.](media/power-bi-line-charts/power-bi-dual-axes.png)
 
 ## <a name="highlighting-and-cross-filtering"></a>강조 표시 및 교차 필터링
 필터 창 사용 방법에 대한 자세한 내용은 [보고서에 필터 추가](../create-reports/power-bi-report-add-filter.md)를 참조하세요.

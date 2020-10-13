@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: c362a8012635becb68200a9d513157c05310edaf
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: e9c25089c5141f16cc3f993039dc69bece9231f1
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215156"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668623"
 ---
 # <a name="bi-directional-relationship-guidance"></a>양방향 관계 지침
 
@@ -77,7 +77,7 @@ ms.locfileid: "86215156"
 
 이제 **Product** 슬라이서에 단일 항목 T-shirt가 나열됩니다. 이 항목은 오스트레일리아 고객에게 판매되는 유일한 제품을 나타냅니다.
 
-![시각적 개체 세 개가 포함된 보고서 페이지를 보여 주는 다이어그램. 세부 정보는 다음 단락에서 설명합니다.](media/relationships-bidirectional-filtering/sales-report-bi-directional-filter.png)
+![Product가 호출되고 세 개의 시각적 개체가 포함된 보고서 페이지를 보여 주는 다이어그램. 세부 정보는 다음 단락에서 설명합니다.](media/relationships-bidirectional-filtering/sales-report-bi-directional-filter.png)
 
 먼저 보고서 사용자에 대해 이 디자인이 작동하는지 신중하게 고려하는 것이 좋습니다. 일부 보고서 사용자에게는 이 환경이 혼란스러울 수 있습니다. 이들은 슬라이서와 상호 작용할 때 다른 슬라이서 항목이 동적으로 표시되거나 사라지는 이유를 이해하지 못합니다.
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 93679c3abcebfee31e1fc5dc20b463a6ef3df549
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d67ab7a28a0975ccac436f57e98c527fae392baf
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239191"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633266"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>Apple Watch에서 Power BI 모바일 앱의 데이터 탐색
 Power BI Apple Watch 앱을 사용하여 시계에 있는 Power BI 대시보드에서 KPI 및 타일 카드을 볼 수 있습니다. KPI 및 카드 타일은 작은 화면에서 하트비트 측정값을 제공하는 데 가장 적합합니다. iPhone이나 Watch 자체에서 대시보드를 새로 고칠 수 있습니다.
@@ -24,16 +24,16 @@ Power BI Apple Watch 앱은 iOS용 Power BI 앱과 번들로 제공되므로 App
 ## <a name="use-the-power-bi-app-on-the-apple-watch"></a>Apple Watch에서 Power BI 앱 사용
 시계의 Springboard에서 또는 시계 화면(구성된 경우)에서 직접 Power BI 위젯을 클릭하여 Power BI Apple Watch 앱으로 이동합니다.
 
-![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_complicatn240arrow.png)
+![Power BI 앱이 있는 Apple Watch를 보여 주는 사진.](./media/mobile-apple-watch/pbi_aplwatch_complicatn240arrow.png)
 
 Power BI Apple Watch 앱은 두 부분으로 구성됩니다.
 
 * **인덱스 화면**을 사용하면 대시보드에서 모든 KPI 및 카드 타일의 빠른 개요를 허용합니다.
   
-  ![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_indexscreen240.png)
+  ![인덱스 화면이 있는 Apple Watch를 보여 주는 사진.](./media/mobile-apple-watch/pbi_aplwatch_indexscreen240.png)
 * **포커스 타일**: 특정 타일의 세부적인 보기에 대한 인덱스 화면에서 타일을 클릭합니다.
   
-  ![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_kpi.png)
+  ![타일을 표시하는 Apple Watch를 보여 주는 사진.](./media/mobile-apple-watch/pbi_aplwatch_kpi.png)
 
 ## <a name="refresh-a-dashboard-from-your-apple-watch"></a>Apple Watch에서 대시보드 새로 고침
 Watch에서 직접 동기화된 대시보드를 새로 고칠 수 있습니다.
@@ -75,7 +75,7 @@ Apple Watch 화면의 작은 공간에 맞게 Power BI Apple Watch 앱을 통해
 
 * iPhone에서 Apple Watch 제어 앱으로 이동하고 Power BI를 선택하며 위젯 이름 필드로 이동하고 새 이름을 입력합니다.
   
-  ![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_oniphone.png)
+  ![My Watch 앱이 열려 있고 Power BI 아이콘이 표시된 iPhone을 보여 주는 사진.](./media/mobile-apple-watch/pbi_aplwatch_oniphone.png)
 
 > [!NOTE]
 > 이름을 변경하지 않으면 Power BI 위젯은 시계 화면의 작은 공간에 맞는 문자 수로 이름을 단축합니다. 
