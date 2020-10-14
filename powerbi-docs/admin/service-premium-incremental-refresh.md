@@ -4,17 +4,17 @@ description: Power BI에서 매우 큰 데이터 세트를 사용하는 방법�
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 06/22/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: 51aa05d49f0691c7ebb916ff84e3a8cbb0416096
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 0e55aa6fbfc1fadb529c6c321d7d97d3f48d569d
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855015"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91599053"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Power BI의 증분 새로 고침
 

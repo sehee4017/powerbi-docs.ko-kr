@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 02/13/2020
+ms.date: 09/29/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 55b08d608e30b8a1f4b06319f1de835a12f7ca77
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 87bb15829936c452999872f95f49f35c2b60af77
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234828"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525660"
 ---
 # <a name="add-hyperlinks-urls-to-a-table-or-matrix"></a>테이블 또는 행렬에 하이퍼링크(URL) 추가
 이 토픽에서는 테이블에 하이퍼링크(URL)를 추가하는 방법을 배웁니다. Power BI Desktop을 사용하여 데이터 세트에 하이퍼링크(URL)를 추가합니다. Power BI Desktop 또는 Power BI 서비스에서 보고서 테이블 및 행렬에 하이퍼링크를 추가할 수 있습니다. 그런 다음 URL 또는 링크 아이콘을 표시하거나 다른 열을 링크 텍스트로 서식 지정할 수 있습니다.
@@ -136,7 +136,6 @@ URL은 다음 중 하나로 시작해야 합니다.
 - http
 - https
 - -mailto
-- file
 - ftp
 - news
 - telnet

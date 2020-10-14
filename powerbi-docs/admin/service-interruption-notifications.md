@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/25/2020
 ms.author: kfollis
-ms.openlocfilehash: aa69be7cabae3abeeaf1888272389a791909cae7
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 20fb1f117432d5c36bfe0c536bc0803871134c95
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374870"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91981530"
 ---
 # <a name="service-interruption-notifications"></a>서비스 중단 알림
 
@@ -70,7 +70,7 @@ Power BI 관리자는 관리 포털에서 알림을 사용하도록 설정합니
 
 ## <a name="service-health-in-microsoft-365"></a>Microsoft 365의 서비스 상태
 
-이 문서에서는 Power BI를 통해 서비스 알림을 받는 방법을 설명합니다. Microsoft 365를 통해 Power BI 서비스 상태를 모니터링할 수도 있습니다. Microsoft 365에서 서비스 상태에 대한 이메일 알림을 받도록 옵트인합니다. [Microsoft 365 서비스 상태를 확인하는 방법](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health)에서 자세히 알아봅니다.
+이 문서에서는 Power BI를 통해 서비스 알림을 받는 방법을 설명합니다. Microsoft 365를 통해 Power BI 서비스 상태를 모니터링할 수도 있습니다. Microsoft 365에서 서비스 상태에 대한 이메일 알림을 받도록 옵트인합니다. [Microsoft 365 서비스 상태를 확인하는 방법](/microsoft-365/enterprise/view-service-health)에서 자세히 알아봅니다.
 
 ## <a name="next-steps"></a>다음 단계
 
