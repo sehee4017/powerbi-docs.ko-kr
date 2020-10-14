@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/04/2020
+ms.date: 10/06/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: d684ab319a61c932f851e76322af758a4188c5e0
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 51f98bd5bc22609aba01a775678c5dccf6cf0d0c
+ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87536012"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "91830211"
 ---
 # <a name="add-spotlights-to-power-bi-reports"></a>Power BI 보고서에 스포트라이트 추가
 
@@ -32,7 +32,7 @@ ms.locfileid: "87536012"
 
 3. **스포트라이트**에 대한 옵션을 선택합니다. 선택한 시각적 개체가 강조 표시되어 페이지의 다른 모든 시각적 개체가 거의 투명하게 페이드됩니다. 
 
-    ![스포트라이트 모드](media/end-user-spotlight/power-bi-spotlighted.png)
+    ![스포트라이트 모드](media/end-user-spotlight/power-bi-spotlighted-treemap.png)
 
 
 

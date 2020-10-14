@@ -8,12 +8,12 @@ ms.topic: include
 ms.date: 09/04/2020
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: b4b73b71a944fbb34d53be05cacc39c18e4226de
-ms.sourcegitcommit: 2cf8159535c114045e236c076a711638cfd7d2c8
+ms.openlocfilehash: 0bf9f1a6eb918e55ab3811b9c6fde2628bdd91ad
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/07/2020
-ms.locfileid: "89512794"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983745"
 ---
 |기능   | 관리자  | 멤버  | 참가자  | 뷰어 |
 |---|---|---|---|---|
@@ -42,6 +42,6 @@ ms.locfileid: "89512794"
 
 <sup>3</sup> 보고서를 복사하고 다른 작업 영역에서 이 작업 영역의 데이터 세트를 기반으로 하는 보고서를 만들려면 [데이터 세트에 대한 빌드 권한](../connect-data/service-datasets-build-permissions.md)이 있어야 합니다. 이 작업 영역의 데이터 세트에 대해 관리자, 구성원 및 기여자 역할이 있는 사용자는 해당 작업 영역 역할을 통해 자동으로 빌드 권한을 갖습니다.
 
-<sup>4</sup> 게이트웨이에 대한 권한도 필요합니다. 이러한 권한은 작업 영역 역할 및 권한에 관계없이 다른 곳에서 관리됩니다. 자세한 내용은 [온-프레미스 게이트웨이 관리](https://docs.microsoft.com/data-integration/gateway/service-gateway-manage)를 참조하세요.
+<sup>4</sup> 게이트웨이에 대한 권한도 필요합니다. 이러한 권한은 작업 영역 역할 및 권한에 관계없이 다른 곳에서 관리됩니다. 자세한 내용은 [온-프레미스 게이트웨이 관리](/data-integration/gateway/service-gateway-manage)를 참조하세요.
 
 <sup>5</sup> Power BI Pro 라이선스가 없더라도 항목이 프리미엄 용량의 작업 영역에 있는 경우 Power BI 서비스에서 항목을 보고 상호 작용할 수 있습니다.

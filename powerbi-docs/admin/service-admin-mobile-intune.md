@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/25/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 214ef5072808decc4c153a28cf231e070c20508d
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: a7a3e0382b80d46ddb41b3f5677763a1a08bf26d
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91524722"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91981553"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Microsoft Intune으로 모바일 앱 구성
 
@@ -58,8 +58,8 @@ Power BI 앱에 대한 앱 보호 정책을 만들고 할당하려면 [앱 보�
 관리되는 앱은 해당 앱에서 액세스할 수 있는 회사 데이터를 보호하기 위해 회사 지원팀이 설정할 수 있는 앱입니다. 디바이스에서 관리되는 앱에서 회사 데이터에 액세스하는 경우 앱이 예상과 약간 다르게 작동하는 것을 알 수 있습니다. 예를 들어 보호된 회사 데이터를 복사하고 붙여넣을 수 없거나, 해당 데이터를 특정 위치에 저장할 수 없습니다.
 
 최종 사용자가 디바이스에서 Power BI 앱을 사용하는 방법을 이해하려면 다음 문서에서 제공하는 단계를 검토하세요.
-- [iOS 디바이스에서 관리되는 앱 사용](https://docs.microsoft.com/intune-user-help/use-managed-apps-on-your-device-ios#how-do-i-get-managed-apps)
-- [Android 디바이스에서 관리되는 앱 사용](https://docs.microsoft.com/intune-user-help/use-managed-apps-on-your-device-android)
+- [iOS 디바이스에서 관리되는 앱 사용](/intune-user-help/use-managed-apps-on-your-device-ios#how-do-i-get-managed-apps)
+- [Android 디바이스에서 관리되는 앱 사용](/intune-user-help/use-managed-apps-on-your-device-android)
 
 ## <a name="next-steps"></a>다음 단계
 
@@ -67,4 +67,4 @@ Power BI 앱에 대한 앱 보호 정책을 만들고 할당하려면 [앱 보�
 
 [모바일 디바이스용 Power BI 앱](../consumer/mobile/mobile-apps-for-mobile-devices.md)  
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)  
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

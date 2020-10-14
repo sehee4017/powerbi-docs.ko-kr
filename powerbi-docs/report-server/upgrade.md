@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.custom: ''
 ms.date: 09/22/2020
-ms.openlocfilehash: 9267d6318bd951fdff41cb51786a4a519fa75917
-ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
+ms.openlocfilehash: 890b3c8124cc1711e08415cdcfda1f51b548fa63
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "91136054"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983071"
 ---
 # <a name="upgrade-power-bi-report-server"></a>Power BI Report Server 업그레이드
 
@@ -30,7 +30,7 @@ Report Server를 업그레이드하기 전에 다음 단계에 따라 Report Ser
 
 ### <a name="backing-up-the-encryption-keys"></a>암호화 키 백업
 
-처음으로 Report Server 설치를 구성하는 경우 암호화 키를 백업해야 합니다. 또한 서비스 계정의 ID를 변경하거나 컴퓨터 이름을 바꿀 때는 항상 키를 백업하세요. 자세한 내용은 [Back Up and Restore Reporting Services Encryption Keys](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-encryption-keys-back-up-and-restore-encryption-keys)을 참조하세요.
+처음으로 Report Server 설치를 구성하는 경우 암호화 키를 백업해야 합니다. 또한 서비스 계정의 ID를 변경하거나 컴퓨터 이름을 바꿀 때는 항상 키를 백업하세요. 자세한 내용은 [Back Up and Restore Reporting Services Encryption Keys](/sql/reporting-services/install-windows/ssrs-encryption-keys-back-up-and-restore-encryption-keys)을 참조하세요.
 
 ### <a name="backing-up-the-report-server-databases"></a>보고서 서버 데이터베이스 백업
 
