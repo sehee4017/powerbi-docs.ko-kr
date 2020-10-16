@@ -10,8 +10,8 @@
     - name: 자습서
       expanded: true
       items:
-        - name: Power BI의 시각적 개체 개발
-          href: custom-visual-develop-tutorial.md
+        - name: '자습서:  Power BI 원 카드 시각적 개체 개발'
+          href: develop-circle-card.md
         - name: 반응 기반 시각적 개체 만들기
           href: create-react-visual.md
         - name: 가로 막대형 차트 작성
@@ -54,6 +54,8 @@
           href: power-bi-custom-visuals-certified.md
         - name: AppSource에 Power BI 시각적 개체 게시하기
           href: office-store.md
+        - name: Power BI 시각적 개체 개발을 위한 환경 설정
+          href: environment-setup.md
         - name: R 지원 시각적 개체 만들기
           href: create-r-based-power-bi-desktop.md
         - name: Power BI 시각적 개체 테스트
