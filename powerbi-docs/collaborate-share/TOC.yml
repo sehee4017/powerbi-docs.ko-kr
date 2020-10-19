@@ -26,11 +26,13 @@
             - name: 작업 영역용 새 디자인 옵트인
               href: service-workspaces-new-look.md
             - name: 클래식 작업 영역 업그레이드
-              href: ../collaborate-share/service-upgrade-workspaces.md
+              href: service-upgrade-workspaces.md
             - name: 클래식 작업 영역 만들기
               href: service-create-workspaces.md
             - name: 작업 영역에서 앱 게시
               href: service-create-distribute-apps.md
+            - name: 작업 영역용 OneDrive에 파일 저장
+              href: service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: 작업 영역에서 데이터 스토리지 관리
               href: ../admin/service-admin-manage-your-data-storage-in-power-bi.md
             - name: 데이터 계보
@@ -41,8 +43,6 @@
               href: service-data-source-impact-analysis.md
             - name: 데이터 민감도 레이블 적용
               href: ../admin/service-security-apply-data-sensitivity-labels.md
-            - name: 그룹의 OneDrive의 파일에 연결
-              href: ../connect-data/service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: 클래식 작업 영역에서 공동 작업
               href: service-collaborate-power-bi-workspace.md
             - name: Power BI 및 Microsoft 365에서 그룹 관리
