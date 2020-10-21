@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 08/12/2020
+ms.date: 10/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: ec4bd8788d3c0421118a8e96287b36497683c4b2
-ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
+ms.openlocfilehash: d53e7a3205d8e1915f8dd0969fe35d5c32d25cf5
+ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "91136146"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92256392"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop 다운로드
 Power BI Desktop을 통해 데이터를 시각화하는 고급 쿼리, 모델 및 보고서를 빌드할 수 있습니다. Power BI Desktop에서 Power BI 서비스에 게시하여 데이터 모델을 빌드하고, 보고서를 만들고, 작업을 공유할 수 있습니다. Power BI Desktop은 무료로 다운로드할 수 있습니다.
@@ -80,7 +80,7 @@ Microsoft Store에서 Power BI Desktop을 설치할 때 적용되는 고려 사�
 
 설치 패키지를 시작하면 Power BI Desktop이 애플리케이션으로 설치되고 데스크톱에서 실행됩니다.
 
-![설치 마법사를 보여 주는 Power BI Desktop 설치의 스크린샷.](media/desktop-get-the-desktop/designer_gsg_install.png)
+![설치 마법사를 보여 주는 Power BI Desktop 설치의 스크린샷.](media/desktop-get-the-desktop/desktop-install-01.png)
 
 > [!NOTE]
 > 다운로드한(MSI) 버전(사용되지 않음) 및 Microsoft Store 버전의 Power BI Desktop을 동일한 컴퓨터에 설치하는 기능(‘Side-by-Side’ 설치라고도 함)은 지원되지 않습니다. Microsoft Store에서 다운로드하기 전에 Power BI Desktop을 수동으로 제거합니다.
@@ -89,7 +89,7 @@ Microsoft Store에서 Power BI Desktop을 설치할 때 적용되는 고려 사�
 ## <a name="using-power-bi-desktop"></a>Power BI Desktop 사용
 Power BI Desktop을 시작하면 시작 화면이 표시됩니다.
 
-![시작 화면을 보여 주는 Power BI Desktop 설치의 스크린샷.](media/desktop-get-the-desktop/getpbid_05.png)
+![시작 화면을 보여 주는 Power BI Desktop 설치의 스크린샷.](media/desktop-get-the-desktop/desktop-splash-screen.png)
 
 Power BI Desktop을 처음 사용하는 경우(즉, 설치가 업그레이드되지 않은 경우), 계속하기 전에 양식을 작성하거나 Power BI 서비스에 로그인하라는 메시지가 표시됩니다.
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/14/2020
-ms.openlocfilehash: 67470ec405806f44fdb483e857d222ad4ff05a45
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 69650982bd3e71c235ffb09b00a99959bc02c231
+ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379171"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "92197636"
 ---
 # <a name="tooltip-utils"></a>도구 설명 유틸리티
 이 문서는 도구 설명 유틸리티를 설치하고, 가져오고, 사용하는 데 도움이 됩니다. 이 유틸리티는 Power BI 시각적 개체의 도구 설명 사용자 지정에 유용합니다.
@@ -29,7 +29,7 @@ ms.locfileid: "79379171"
 패키지를 설치하려면 현재 시각적 개체가 있는 디렉터리에서 다음 명령을 실행해야 합니다.
 
 ```bash
-npm install powerbi-visuals-utils-colorutils --save
+npm install powerbi-visuals-utils-tooltiputils --save
 ```
 이 명령은 패키지를 설치하고 ```package.json```에 대한 종속성으로 패키지를 추가합니다.
 

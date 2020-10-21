@@ -8,12 +8,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 35a62923ba69520c1197e7bb80114a22ec1d9a20
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: f239622d8b6012913298212790f7f9aa8c3115a5
+ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214103"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "92197659"
 ---
 # <a name="use-cascading-parameters-in-paginated-reports"></a>페이지를 매긴 보고서에서 연계 매개 변수 사용
 
@@ -128,7 +128,7 @@ ms.locfileid: "86214103"
 >
 > 일반적으로 저장 프로시저가 더 나은 디자인 방법입니다. 쿼리 계획을 캐시하여 더 빨리 실행할 수 있고 필요할 때 더 정교한 논리를 개발할 수 있기 때문입니다. 하지만 SQL Server, Oracle, Teradata 등 게이트웨이 관계형 데이터 원본에서는 현재 지원되지 않습니다.
 >
-> 마지막으로 효율적인 데이터 검색을 지원하기 위해서는 항상 적절한 인덱스가 있는지 확인해야 합니다. 그렇지 않을 경우, 보고서 매개 변수가 채워지는 속도가 느려지고 데이터베이스에 과도한 부담이 될 수 있습니다. SQL Server 인덱싱에 대한 자세한 내용은 [SQL Server 인덱스 아키텍처 및 디자인 가이드](/sql/relational-databases/sql-server-index-design-guide?view=sql-server-2017)를 참조하세요.
+> 마지막으로 효율적인 데이터 검색을 지원하기 위해서는 항상 적절한 인덱스가 있는지 확인해야 합니다. 그렇지 않을 경우, 보고서 매개 변수가 채워지는 속도가 느려지고 데이터베이스에 과도한 부담이 될 수 있습니다. SQL Server 인덱싱에 대한 자세한 내용은 [SQL Server 인덱스 아키텍처 및 디자인 가이드](/sql/relational-databases/sql-server-index-design-guide)를 참조하세요.
 
 ### <a name="filter-by-a-grouping-column"></a>그룹화 열을 기준으로 필터링
 
@@ -220,7 +220,7 @@ GO
 > [!TIP]
 > 보고서 사용자가 더 많은 것을 제어할 수 있도록 이 디자인을 개선할 수 있습니다. 이를 통해 보고서 사용자는 자체 패턴 일치 값을 정의할 수 있습니다. 예를 들어 검색 값 "red%"는 이름이 문자 “red”로 _시작_하는 재판매인으로 필터링합니다.
 >
-> 자세한 내용은 [LIKE(Transact-SQL)](/sql/t-sql/language-elements/like-transact-sql?view=sql-server-ver15#using-the--wildcard-character)를 참조하세요.
+> 자세한 내용은 [LIKE(Transact-SQL)](/sql/t-sql/language-elements/like-transact-sql#using-the--wildcard-character)를 참조하세요.
 
 보고서 사용자가 자체 패턴을 정의할 수 있도록 하는 방법은 다음과 같습니다.
 

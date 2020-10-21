@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 01/12/2020
-ms.openlocfilehash: ce0f22c17ed718d3e2ad4e4fa9d9514edd315583
-ms.sourcegitcommit: 21b06e49056c2f69a363d3a19337374baa84c83f
+ms.openlocfilehash: 74fec4e7fae2fc8630592c435adb42b34c93ef43
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "83407427"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049364"
 ---
 # <a name="power-bi-visual-project-structure"></a>Power BI 시각적 개체 프로젝트 구조
 
@@ -174,4 +174,4 @@ Power BI 시각적 개체 도구는 이 폴더에서 다음 파일을 만듭니�
 
 * 시각적 개체, 사용자, Power BI 간의 상호 작용을 이해하려면 [Power BI 시각적 개체 개념](./power-bi-visuals-concept.md)을 참조하세요.
 
-* [단계별 가이드를 사용](./custom-visual-develop-tutorial.md)하여 처음부터 자체 Power BI 시각적 개체 개발을 시작합니다.
+* [단계별 가이드를 사용](./develop-circle-card.md)하여 처음부터 자체 Power BI 시각적 개체 개발을 시작합니다.

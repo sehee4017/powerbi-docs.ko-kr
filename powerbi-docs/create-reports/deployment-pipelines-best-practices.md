@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 09/15/2020
-ms.openlocfilehash: ea2fa0625ece88d8da2848dbe6a108d98a55a0d0
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 01cb4c5de2863250f083320e7005c0d589a2da0b
+ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855562"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "92116480"
 ---
 # <a name="deployment-pipelines-best-practices"></a>배포 파이프라인 모범 사례
 
@@ -103,7 +103,7 @@ Power BI Desktop을 로컬 개발 환경으로 볼 수 있습니다. Power BI De
 
 ### <a name="version-control-for-pbix-files"></a>.pbix 파일 버전 제어
 
-보고서 및 데이터 세트의 버전 기록을 관리하려면 [Power BI와 OneDrive 간 자동 동기화](../connect-data/service-connect-to-files-in-app-workspace-onedrive-for-business.md)를 사용합니다. 그러면 파일이 항상 최신 버전으로 업데이트됩니다. 또한 필요한 경우 이전 버전을 검색할 수 있습니다.
+보고서 및 데이터 세트의 버전 기록을 관리하려면 [Power BI와 OneDrive 간 자동 동기화](../collaborate-share/service-connect-to-files-in-app-workspace-onedrive-for-business.md)를 사용합니다. 그러면 파일이 항상 최신 버전으로 업데이트됩니다. 또한 필요한 경우 이전 버전을 검색할 수 있습니다.
 
 >[!NOTE]
 >배포 파이프라인 개발 단계에서는 .pbix 파일에만 OneDrive(또는 다른 리포지토리)와의 자동 동기화를 사용합니다. 배포 파이프라인 테스트 및 프로덕션 단계에서는 .pbix 파일을 동기화하지 않습니다. 그럴 경우 파이프라인 전체에서 콘텐츠를 배포하는 데 문제가 발생합니다.
