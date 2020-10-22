@@ -217,7 +217,7 @@
               href: service-aggregates.md
             - name: 보고서에 대한 QR 코드 만들기
               href: service-create-qr-code-for-report.md
-            - name: 소비자가 시각적 개체를 사용자 지정할 수 있도록 허용(미리 보기)
+            - name: 사용자가 시각적 개체를 사용자 지정할 수 있도록 허용
               href: power-bi-personalize-visuals.md
             - name: Power BI Desktop으로 보고서 내보내기(미리 보기)
               href: service-export-to-pbix.md
