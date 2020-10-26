@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 04/30/2020
-ms.openlocfilehash: 6ad986308fb82f8191829d29654bb96b55d0fbd0
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 091bdeb4eeb4c979ccf0e79476eb081895fae2e1
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83272698"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049410"
 ---
 # <a name="use-the-supportsmultivisualselection-feature"></a>supportsMultiVisualSelection 기능 사용
 
@@ -21,7 +21,7 @@ ms.locfileid: "83272698"
 
 ## <a name="example"></a>예제
 
-둘 이상의 시각적 개체를 포함하는 보고서에서 두 값을 선택하여 다른 시각적 개체에 해당 값이 적용되도록 합니다. 예를 들어 [소매점 분석 샘플](../../create-reports/sample-retail-analysis.md)에서 한 시각적 개체에서 **패션 직판**을 선택합니다. Ctrl 키를 선택하고 다른 시각적 개체에서 **1월**을 선택합니다. 보고서에서 선택 항목이 이 기능 사용을 지원하는 다른 시각적 개체에 적용됩니다. 다른 시각적 개체는 이제 **패션 직판** 및 **1월**로 범위가 지정됩니다.
+둘 이상의 시각적 개체를 포함하는 보고서에서 두 값을 선택하여 다른 시각적 개체에 해당 값이 적용되도록 합니다. 예를 들어 [소매점 분석 샘플](../../create-reports/sample-retail-analysis.md)에서 한 시각적 개체에서 **패션 직판** 을 선택합니다. Ctrl 키를 선택하고 다른 시각적 개체에서 **1월** 을 선택합니다. 보고서에서 선택 항목이 이 기능 사용을 지원하는 다른 시각적 개체에 적용됩니다. 다른 시각적 개체는 이제 **패션 직판** 및 **1월** 로 범위가 지정됩니다.
 
 ## <a name="requirements"></a>요구 사항
 
@@ -45,4 +45,4 @@ ms.locfileid: "83272698"
 
 Power BI 개념에 대한 자세한 내용은 [Power BI의 시각적 개체](power-bi-visuals-concept.md)를 참조하세요.
 
-Power BI 개발을 시도하려면 [Power BI 시각적 개체 개발](custom-visual-develop-tutorial.md)을 참조하세요.
+Power BI 개발을 수행하려면 [Power BI 원 카드 개발](develop-circle-card.md)을 참조하세요.

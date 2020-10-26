@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
 ms.date: 03/25/2019
-ms.openlocfilehash: 43480006b775aa7b8444f099b783f0d7f45a98c8
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: fd9d9991b55ec6611504c96a30cb6383b8ac1296
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748980"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049272"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>개발자는 Power BI API로 무엇을 할 수 있나요?
 
@@ -56,7 +56,7 @@ Power BI API를 사용하여 [데이터를 데이터 세트에 푸시](walkthrou
 ## <a name="next-steps"></a>다음 단계
 
 * [데이터 세트에 데이터 푸시](walkthrough-push-data.md)
-* [Power BI 시각적 개체 개발](../visuals/custom-visual-develop-tutorial.md)
+* [Power BI 원 카드 시각적 개체 개발](../visuals/develop-circle-card.md)
 * [Power BI REST API 참조](rest-api-reference.md)
 * [Power BI REST API](/rest/api/power-bi/)
 

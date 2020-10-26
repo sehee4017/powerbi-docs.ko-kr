@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/17/2019
-ms.openlocfilehash: b6b56e57bdc7815b7db1afc3cde79831523c1129
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 076ad6549cb68660313dcd8da5ccf8eb1f8f26c7
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634254"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049157"
 ---
 # <a name="samples-of-power-bi-visuals"></a>Power BI 시각적 개체 샘플
 
@@ -73,4 +73,4 @@ WebGL을 통해 웹 콘텐츠가 OpenGL ES 2.0을 기반으로 하는 API를 사
 
 ## <a name="next-steps"></a>다음 단계
 
-Power BI 시각적 개체 만들어 보려면 [자습서: Power BI 시각적 개체 개발](custom-visual-develop-tutorial.md)을 참조하세요.
+Power BI 시각적 개체 만들기를 수행하려면 [Power BI 원 카드 시각적 개체 개발](develop-circle-card.md)을 참조하세요.

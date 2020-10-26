@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: ea7eaf8f7fc36ee1b9dc987ee571dc29dc5b222f
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 09489c3dbb33e1c5fb289cc1cc132eae0083a95f
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748911"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91981738"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded를 사용하는 행 수준 보안
 
@@ -29,7 +29,7 @@ RLS를 활용하려면 세 가지 주요 개념인 사용자, 역할 및 규칙�
 
 **사용자** – 아티팩트(대시보드, 타일, 보고서 또는 데이터 세트)를 보는 최종 사용자입니다. 사용자는 Power BI Embedded에서 포함된 토큰에 있는 사용자 이름 속성에 의해 식별됩니다.
 
-**역할** - 사용자 역할에 속합니다. 역할은 규칙에 대한 컨테이너로써 *판매 관리자* 또는 *영업 담당자*와 같은 이름을 지정할 수 있습니다. Power BI Desktop 내에서 역할을 만듭니다. 자세한 내용은 [Power BI Desktop에서 RLS(행 수준 보안)](../../create-reports/desktop-rls.md)을 참조하세요.
+**역할** - 사용자 역할에 속합니다. 역할은 규칙에 대한 컨테이너로써 *판매 관리자* 또는 *영업 담당자* 와 같은 이름을 지정할 수 있습니다. Power BI Desktop 내에서 역할을 만듭니다. 자세한 내용은 [Power BI Desktop에서 RLS(행 수준 보안)](../../create-reports/desktop-rls.md)을 참조하세요.
 
 **규칙** – 역할에는 규칙이 있고 이러한 규칙은 데이터에 적용되는 실제 필터입니다. 규칙은 “국가 = 미국”처럼 간단하거나 훨씬 동적일 수 있습니다.
 이 문서의 나머지 부분에는 RLS를 작성하고 포함된 애플리케이션 내에서 사용하는 예제가 있습니다. 예제에서는 [소매점 분석 샘플](https://go.microsoft.com/fwlink/?LinkID=780547) PBIX 파일을 사용합니다.
@@ -38,7 +38,7 @@ RLS를 활용하려면 세 가지 주요 개념인 사용자, 역할 및 규칙�
 
 ## <a name="adding-roles-with-power-bi-desktop"></a>Power BI Desktop에서 규칙 추가
 
-**소매점 분석 샘플**에서는 소매 체인에 있는 모든 상점의 판매량을 보여줍니다. RLS를 사용하지 않으면 어떤 구역 관리자가 로그인하고 보고서를 보는지에 상관없이 동일한 데이터가 표시됩니다. 고위 경영진은 각 지역 관리자가 자신이 관리하는 매장의 매출만 볼 수 있어야 한다고 결정했습니다. 고위 경영진은 RLS를 사용하여 지역 관리자를 기준으로 데이터를 제한할 수 있습니다.
+**소매점 분석 샘플** 에서는 소매 체인에 있는 모든 상점의 판매량을 보여줍니다. RLS를 사용하지 않으면 어떤 구역 관리자가 로그인하고 보고서를 보는지에 상관없이 동일한 데이터가 표시됩니다. 고위 경영진은 각 지역 관리자가 자신이 관리하는 매장의 매출만 볼 수 있어야 한다고 결정했습니다. 고위 경영진은 RLS를 사용하여 지역 관리자를 기준으로 데이터를 제한할 수 있습니다.
 
 RLS는 Power BI Desktop에서 작성됩니다. 데이터 세트 및 보고서를 열 때 스키마를 보려면 다이어그램 뷰로 전환할 수 있습니다.
 
@@ -46,8 +46,8 @@ RLS는 Power BI Desktop에서 작성됩니다. 데이터 세트 및 보고서를
 
 이 스키마에서 기억해야 할 몇 가지 사항은 다음과 같습입니다.
 
-* **Total Sales**과 같은 모든 측정값 **Sales** 팩트 테이블에 저장됩니다.
-* 관련 추가 차원 테이블에는 **Item**, **Time**, **Store** 및 **District**이라는 네 가지 항목이 있습니다.
+* **Total Sales** 과 같은 모든 측정값 **Sales** 팩트 테이블에 저장됩니다.
+* 관련 추가 차원 테이블에는 **Item** , **Time** , **Store** 및 **District** 이라는 네 가지 항목이 있습니다.
 * 관계선의 화살표는 필터가 테이블 간에 이동할 수 있는 방식을 나타냅니다. 예를 들어, 필터가 **Time[Date]** 에 배치되면 현재 스키마에서는 **Sales** 테이블에 있는 값만을 필터링합니다. 관계선에 있는 모든 화살표가 다른 방향이 아닌 판매 테이블을 가리키기 때문에 다른 테이블은 이 필터의 영향을 받지 않습니다.
 * **District** 테이블은 각 지역에 있는 관리자를 나타냅니다.
   
@@ -57,22 +57,22 @@ RLS는 Power BI Desktop에서 작성됩니다. 데이터 세트 및 보고서를
 
 방법은 다음과 같습니다.
 
-1. **모델링** 탭에서 **역할 관리**를 선택합니다.
+1. **모델링** 탭에서 **역할 관리** 를 선택합니다.
 
     ![Power BI Desktop 내의 모델링 탭](media/embedded-row-level-security/powerbi-embedded-manage-roles.png)
-2. **관리자**라는 새 역할을 만듭니다.
+2. **관리자** 라는 새 역할을 만듭니다.
 
     ![새 역할 만들기](media/embedded-row-level-security/powerbi-embedded-new-role.png)
 3. **District** 테이블에서 다음의 DAX 식을 입력합니다. **[District Manager] = USERNAME()**
 
     ![RLS 규칙의 DAX 문](media/embedded-row-level-security/powerbi-embedded-new-role-dax.png)
-4. 규칙이 작동하는지 확인하려면 **모델링** 탭에서 **역할로 보기**를 선택하고 앞서 만든 **관리자** 역할과 함께 **다른 사용자**를 선택합니다. **Andrew Ma**를 사용자로 입력합니다.
+4. 규칙이 작동하는지 확인하려면 **모델링** 탭에서 **역할로 보기** 를 선택하고 앞서 만든 **관리자** 역할과 함께 **다른 사용자** 를 선택합니다. **Andrew Ma** 를 사용자로 입력합니다.
 
     ![역할 대화 상자로 보기](media/embedded-row-level-security/powerbi-embedded-new-role-view.png)
 
-    마치 **Andrew Ma**로 로그인한 것처럼 보고서에 데이터가 표시됩니다.
+    마치 **Andrew Ma** 로 로그인한 것처럼 보고서에 데이터가 표시됩니다.
 
-필터링을 적용하면 여기에서 수행한 방식으로 **District**, **Store** 및 **Sales** 테이블에서 모든 레코드를 필터링합니다. 그러나 **Sales**와 **Time** 간 관계의 필터 방향으로 인해 **Sales**와 **Item** 및 **Item**과 **Time** 테이블이 필터링되지 않습니다. 양방향 교차 필터링에 대한 자세한 내용은 [SQL Server Analysis Services 2016 및 Power BI Desktop에서 양방향 교차 필터링](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) 백서를 다운로드합니다.
+필터링을 적용하면 여기에서 수행한 방식으로 **District** , **Store** 및 **Sales** 테이블에서 모든 레코드를 필터링합니다. 그러나 **Sales** 와 **Time** 간 관계의 필터 방향으로 인해 **Sales** 와 **Item** 및 **Item** 과 **Time** 테이블이 필터링되지 않습니다. 양방향 교차 필터링에 대한 자세한 내용은 [SQL Server Analysis Services 2016 및 Power BI Desktop에서 양방향 교차 필터링](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) 백서를 다운로드합니다.
 
 ## <a name="applying-user-and-role-to-an-embed-token"></a>포함된 토큰에 사용자 및 역할 적용
 
@@ -86,7 +86,7 @@ API는 관련 데이터 세트가 표시된 ID 목록을 수락합니다. RLS를
 * **역할(필수)** – 행 수준 보안 규칙을 적용할 때 선택하는 역할을 포함하는 문자열입니다. 둘 이상의 역할을 전달하는 경우 문자열 배열로 전달되어야 합니다.
 * **데이터 세트(필수)** - 포함하는 아티팩트에 적용할 수 있는 데이터 집합입니다.
 
-**PowerBIClient.Reports**에서 **GenerateTokenInGroup** 메서드를 사용하여 포함된 토큰을 만들 수 있습니다.
+**PowerBIClient.Reports** 에서 **GenerateTokenInGroup** 메서드를 사용하여 포함된 토큰을 만들 수 있습니다.
 
 예를 들어 *[PowerBI-Developer-Samples](https://github.com/Microsoft/PowerBI-Developer-Samples) > .NET Framework > 고객에 대한 콘텐츠 포함 > **PowerBIEmbedded_AppOwnsData*** 샘플을 변경할 수 있습니다.
 
@@ -108,7 +108,7 @@ var generateTokenRequestParameters = new GenerateTokenRequest("View", null, iden
 var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "reportId", generateTokenRequestParameters);
 ```
 
-이제 REST API를 호출하는 경우 업데이트된 API는 **identities**라는 추가 JSON 배열을 수용하고 사용자 이름, 문자열 역할 목록 및 문자열 데이터 세트 목록을 포함합니다. 
+이제 REST API를 호출하는 경우 업데이트된 API는 **identities** 라는 추가 JSON 배열을 수용하고 사용자 이름, 문자열 역할 목록 및 문자열 데이터 세트 목록을 포함합니다. 
 
 다음 코드를 예제로 사용하세요.
 
@@ -146,16 +146,16 @@ var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "r
 
 ### <a name="using-the-customdata-feature"></a>CustomData 기능 사용
 
-CustomData 기능은 **Azure Analysis Services**에 상주하는 모델에 대해서만 작동하고 **라이브 연결** 모드에서만 작동합니다. 사용자 및 역할과 달리 .pbix 파일 내에 사용자 지정 데이터 기능을 설정할 수 없습니다. 사용자 지정 데이터 기능을 사용하여 토큰을 생성할 때 사용자 이름이 필요합니다.
+CustomData 기능은 **Azure Analysis Services** 에 상주하는 모델에 대해서만 작동하고 **라이브 연결** 모드에서만 작동합니다. 사용자 및 역할과 달리 .pbix 파일 내에 사용자 지정 데이터 기능을 설정할 수 없습니다. 사용자 지정 데이터 기능을 사용하여 토큰을 생성할 때 사용자 이름이 필요합니다.
 
 >[!NOTE]
 >CustomData 사용자 이름은 최대 256자입니다.
 
-CustomData 기능을 사용하면 **Azure Analysis Services**를 데이터 원본으로 사용하여 애플리케이션에서 Power BI 데이터를 볼 때(애플리케이션의 Azure Analysis Services에 연결된 Power BI 데이터 보기) 행 필터를 추가할 수 있습니다.
+CustomData 기능을 사용하면 **Azure Analysis Services** 를 데이터 원본으로 사용하여 애플리케이션에서 Power BI 데이터를 볼 때(애플리케이션의 Azure Analysis Services에 연결된 Power BI 데이터 보기) 행 필터를 추가할 수 있습니다.
 
 CustomData 기능을 사용하면 CustomData 연결 문자열 속성을 사용하여 일반 텍스트(문자열)를 전달할 수 있습니다. Analysis Services는 *CUSTOMDATA()* 함수를 통해 이 값을 사용합니다.
 
-**Azure Analysis Services**에서 동적 RLS(필터 평가에 동적 값을 사용)를 사용하는 유일한 방법은 *CUSTOMDATA()* 함수를 사용하는 것입니다.
+**Azure Analysis Services** 에서 동적 RLS(필터 평가에 동적 값을 사용)를 사용하는 유일한 방법은 *CUSTOMDATA()* 함수를 사용하는 것입니다.
 
 역할 DAX 쿼리 내에서 사용할 수 있고 측정값 DAX 쿼리에서 역할 없이 사용할 수 있습니다.
 CustomData 기능은 대시보드, 보고서 및 타일과 같은 아티팩트에서 토큰 생성 기능의 일부입니다. 대시보드에는 여러 CustomData ID가 있을 수 있습니다(타일/모델 당 하나씩).
@@ -195,7 +195,7 @@ REST API를 호출하는 경우 각 ID 내에 사용자 지정 데이터를 추�
 
 다음은 Power BI Embedded 애플리케이션을 사용하여 CustomData() 기능을 설정하기 위한 단계입니다.
 
-1. Azure Analysis Services 데이터베이스를 만듭니다. 그런 다음, [SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017)를 통해 Azure Analysis Services 서버에 로그인합니다.
+1. Azure Analysis Services 데이터베이스를 만듭니다. 그런 다음, [SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms)를 통해 Azure Analysis Services 서버에 로그인합니다.
 
     ![Azure Analysis Services 데이터베이스 만들기](media/embedded-row-level-security/azure-analysis-services-database-create.png)
 
@@ -205,7 +205,7 @@ REST API를 호출하는 경우 각 ID 내에 사용자 지정 데이터를 추�
 
     ![역할 만들기](media/embedded-row-level-security/azure-analysis-services-database-create-role.png)
 
-3. **일반** 설정을 지정합니다.  여기서 **역할 이름**을 지정하고 데이터베이스 권한을 **읽기** 전용으로 설정합니다.
+3. **일반** 설정을 지정합니다.  여기서 **역할 이름** 을 지정하고 데이터베이스 권한을 **읽기** 전용으로 설정합니다.
 
     ![역할 만들기 - 일반 설정 지정](media/embedded-row-level-security/azure-analysis-services-database-create-role-general-settings.png)
 
@@ -217,7 +217,7 @@ REST API를 호출하는 경우 각 ID 내에 사용자 지정 데이터를 추�
 
     ![역할 만들기 - 행 필터 설정](media/embedded-row-level-security/azure-analysis-services-database-create-role-row-filters.png)
 
-6. PBI 보고서를 빌드하고 전용 용량이 있는 작업 영역에 게시합니다.
+6. PBI 보고서를 빌드하고 용량이 있는 작업 영역에 게시합니다.
 
     ![PBI 보고서 샘플](media/embedded-row-level-security/rls-sample-pbi-report.png)
 
@@ -239,7 +239,7 @@ REST API를 호출하는 경우 각 ID 내에 사용자 지정 데이터를 추�
 
 ## <a name="using-rls-vs-javascript-filters"></a>RLS 대 JavaScript 필터 사용
 
-보고서에서 데이터 필터링을 결정할 때 **RLS(행 수준 보안)** 또는 **JavaScript 필터**를 사용할 수 있습니다.
+보고서에서 데이터 필터링을 결정할 때 **RLS(행 수준 보안)** 또는 **JavaScript 필터** 를 사용할 수 있습니다.
 
 [행 수준 보안](../../admin/service-admin-rls.md)은 데이터 모델 수준에서 데이터를 필터링하는 기능입니다. 백엔드 데이터 원본이 RLS 설정을 제어합니다. 데이터 모델에 따라 포함 토큰 생성이 사용자 이름과 세션의 역할을 설정합니다. 클라이언트 쪽 코드로 이를 대체, 제거 또는 제어할 수 없으므로 안전한 것으로 간주됩니다. 데이터를 안전하게 필터링하기 위해 RLS를 사용할 것을 권장합니다. 아래 옵션 중 하나를 사용하여 RLS로 데이터를 필터링할 수 있습니다.
 
@@ -251,9 +251,9 @@ REST API를 호출하는 경우 각 ID 내에 사용자 지정 데이터를 추�
 
 ## <a name="token-based-identity-with-azure-sql-database"></a>Azure SQL Database를 사용한 토큰 기반 ID
 
-**토큰 기반 ID**를 사용하면 **Azure SQL Database**에 **AAD(Azure Active Directory)** 액세스 토큰을 사용하여 포함 토큰에 유효한 ID를 지정할 수 있습니다.
+**토큰 기반 ID** 를 사용하면 **Azure SQL Database** 에 **AAD(Azure Active Directory)** 액세스 토큰을 사용하여 포함 토큰에 유효한 ID를 지정할 수 있습니다.
 
-데이터를 **Azure SQL Database**에 저장하는 고객은 이제 **Power BI Embedded**와 통합될 때 Azure SQL에서 사용자 및 데이터 액세스 권한을 관리하는 새로운 기능을 사용할 수 있습니다.
+데이터를 **Azure SQL Database** 에 저장하는 고객은 이제 **Power BI Embedded** 와 통합될 때 Azure SQL에서 사용자 및 데이터 액세스 권한을 관리하는 새로운 기능을 사용할 수 있습니다.
 
 포함 토큰을 생성하는 경우 Azure SQL에서 사용자의 유효 ID를 지정할 수 있습니다. 서버에 AAD 액세스 토큰을 전달하여 사용자의 유효 ID를 지정할 수 있습니다. 액세스 토큰은 해당 특정 세션을 위해 Azure SQL에서 해당 사용자의 관련 데이터를 끌어오는 데만 사용됩니다.
 
@@ -261,7 +261,7 @@ Azure SQL에서 각 사용자의 보기를 관리하거나 다중 테넌트 DB�
 
 이러한 유효 ID 문제는 Azure SQL Server의 RLS 규칙에 직접 적용됩니다. Power BI Embedded는 Azure SQL Server에서 데이터를 쿼리할 때 제공된 액세스 토큰을 사용합니다. 액세스 토큰이 제공된 사용자의 UPN은 USER_NAME() SQL 함수의 결과로 액세스할 수 있습니다.
 
-토큰 기반 ID는 AAD 인증을 허용하도록 구성된 Azure SQL Database에 연결된 전용 용량의 DirectQuery 모델에서만 작동합니다([Azure SQL Database의 AAD 인증에 대한 자세한 정보](/azure/sql-database/sql-database-manage-logins)). 데이터 세트의 데이터 원본은 토큰 기반 ID를 사용하기 위해 최종 사용자의 OAuth2 자격 증명을 사용하도록 구성해야 합니다.
+토큰 기반 ID는 AAD 인증을 허용하도록 구성된 Azure SQL Database에 연결된 용량의 DirectQuery 모델에서만 작동합니다([Azure SQL Database의 AAD 인증에 대한 자세한 정보](/azure/sql-database/sql-database-manage-logins)). 데이터 세트의 데이터 원본은 토큰 기반 ID를 사용하기 위해 최종 사용자의 OAuth2 자격 증명을 사용하도록 구성해야 합니다.
 
    ![Azure SQL Server 구성](media/embedded-row-level-security/token-based-configure-azure-sql-db.png)
 
@@ -320,7 +320,7 @@ ID Blob에 제공된 값은 Azure SQL Server에 유효한 액세스 토큰이어
 
 ## <a name="on-premises-data-gateway-with-service-principal"></a>서비스 주체가 있는 온-프레미스 데이터 게이트웨이
 
-SSAS(SQL Server Analysis Services) 온-프레미스 라이브 연결 데이터 원본을 사용하여 RLS(행 수준 보안)를 구성하는 고객은 **Power BI Embedded**와 통합할 때 SSAS에서 사용자와 해당 데이터 액세스를 관리할 수 있는 새로운 [서비스 주체](embed-service-principal.md) 기능을 사용할 수 있습니다.
+SSAS(SQL Server Analysis Services) 온-프레미스 라이브 연결 데이터 원본을 사용하여 RLS(행 수준 보안)를 구성하는 고객은 **Power BI Embedded** 와 통합할 때 SSAS에서 사용자와 해당 데이터 액세스를 관리할 수 있는 새로운 [서비스 주체](embed-service-principal.md) 기능을 사용할 수 있습니다.
 
 [Power BI REST API](/rest/api/power-bi/)를 통해 [서비스 주체 개체](/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object)를 사용하여 포함 토큰에 대한 SSAS 온-프레미스 라이브 연결을 위한 유효한 ID를 지정할 수 있습니다.
 
@@ -336,13 +336,13 @@ SSAS(SQL Server Analysis Services) 온-프레미스 라이브 연결 데이터 �
 * Power BI 서비스는 편집 권한이 있는 관리자나 구성원에게 RLS 설정을 적용하지 않는 반면, 포함 토큰을 사용하여 ID를 제공할 경우 데이터에 적용합니다.
 * 온-프레미스 서버에 대해 Analysis Services 라이브 연결이 지원됩니다.
 * Azure Analysis Services 라이브 연결은 역할별 필터링을 지원합니다. CustomData를 사용하여 동적 필터링을 수행할 수 있습니다.
-* 기본 데이터 세트에서 RLS가 필요하지 않은 경우 GenerateToken 요청은 유효 ID를 포함하지 **않아야**합니다.
+* 기본 데이터 세트에서 RLS가 필요하지 않은 경우 GenerateToken 요청은 유효 ID를 포함하지 **않아야** 합니다.
 * 기본 데이터 세트가 클라우드 모델(캐시된 모델 또는 DirectQuery)이면 유효 ID는 하나 이상의 역할을 포함해야 합니다. 그렇지 않으면 역할 할당이 이루어지지 않습니다.
 * ID 목록은 대시보드 포함을 위한 여러 ID 토큰을 구현합니다. 다른 모든 아티팩트는 목록에 단일 ID가 포함됩니다.
 
 ### <a name="token-based-identity-limitations"></a>토큰 기반 ID 제한 사항
 
-* 전용 용량이 있는 경우에만 RLS를 사용할 수 있습니다.
+* 용량이 있는 경우에만 RLS를 사용할 수 있습니다.
 * RLS는 SQL Server 온-프레미스에서 작동하지 않습니다.
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

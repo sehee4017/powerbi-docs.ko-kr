@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 04/30/2020
-ms.openlocfilehash: c8cf0f4e896b8a44764d1c363c597182f55d30b3
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 1e5a4cf8c80d8123d39fd2ab76898abc0c439ad9
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276516"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049387"
 ---
 # <a name="use-the-supportskeyboardfocus-feature"></a>supportsKeyboardFocus 기능 사용
 
@@ -52,4 +52,4 @@ ms.locfileid: "83276516"
 
 접근성 기능에 대한 자세한 내용은 [접근성을 지원하는 Power BI 보고서 디자인](../../create-reports/desktop-accessibility-creating-reports.md)을 참조하세요.
 
-Power BI 개발을 시도하려면 [Power BI 시각적 개체 개발](custom-visual-develop-tutorial.md)을 참조하세요.
+Power BI 개발을 수행하려면 [Power BI 원 카드 시각적 개체 개발](develop-circle-card.md)을 참조하세요.

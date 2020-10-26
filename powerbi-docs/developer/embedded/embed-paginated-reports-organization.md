@@ -9,21 +9,21 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/25/2020
-ms.openlocfilehash: 0d52dd7df774dd834d0356e6de57b9c80beab801
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 41c7ba43d16b6d77ecf6324d3cd175dbbabc51a1
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747623"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983406"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-organization"></a>자습서:  조직의 애플리케이션에 페이지를 매긴 Power BI 보고서 포함
 
-**Power BI**에서 사용자 소유 데이터 시나리오를 사용하여 페이지를 매긴 보고서를 조직의 애플리케이션에 포함할 수 있습니다.
+**Power BI** 에서 사용자 소유 데이터 시나리오를 사용하여 페이지를 매긴 보고서를 조직의 애플리케이션에 포함할 수 있습니다.
 
 페이지를 매긴 보고서는 고품질 인쇄를 위해 디자인된 보고서입니다. 일반적으로 이러한 보고서는 많은 데이터를 포함하며, 인쇄된 페이지에 맞게 렌더링됩니다.
 Power BI가 페이지를 매긴 보고서를 어떻게 지원하는지 이해하려면 [Power BI Premium의 페이지를 매긴 보고서란?](../../paginated-reports/paginated-reports-report-builder-power-bi.md)을 참조하세요.
 
-**사용자 소유 데이터**를 사용하면 애플리케이션에서 Power BI 서비스를 확장할 수 있으므로 임베디드 분석을 사용할 수 있습니다. 이 자습서는 페이지를 매긴 보고서를 애플리케이션에 통합하는 방법을 보여 줍니다.
+**사용자 소유 데이터** 를 사용하면 애플리케이션에서 Power BI 서비스를 확장할 수 있으므로 임베디드 분석을 사용할 수 있습니다. 이 자습서는 페이지를 매긴 보고서를 애플리케이션에 통합하는 방법을 보여 줍니다.
 
 Power BI .NET SDK를 Power BI JavaScript API와 함께 사용하여 Power BI를 조직의 애플리케이션에 포함합니다.
 
@@ -43,7 +43,7 @@ Power BI .NET SDK를 Power BI JavaScript API와 함께 사용하여 Power BI를 
 
 * P1 용량 이상이 필요합니다. [페이지를 매긴 보고서에는 어떤 크기의 프리미엄 용량이 필요한가요?](../../paginated-reports/paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)를 참조하세요.
 
-아직 **Power BI Pro**에 등록하지 않은 경우 시작하기 전에 [평가판에 등록](https://powerbi.microsoft.com/pricing/)합니다.
+아직 **Power BI Pro** 에 등록하지 않은 경우 시작하기 전에 [평가판에 등록](https://powerbi.microsoft.com/pricing/)합니다.
 
 ## <a name="set-up-your-power-bi-environment"></a>Power BI 환경 설정
 
@@ -58,11 +58,11 @@ Power BI .NET SDK를 Power BI JavaScript API와 함께 사용하여 Power BI를 
 >* 애플리케이션 비밀 가져오기
 >* 앱에 **Report.ReadAll** 권한(범위)을 적용합니다.
 
-### <a name="create-a-dedicated-capacity"></a>전용 용량 만들기
+### <a name="create-a-capacity"></a>용량 만들기
 
-전용 용량을 만들면 앱 작업 영역의 콘텐츠 전용 리소스의 혜택을 활용할 수 있습니다. 페이지를 매긴 보고서의 경우 최소 P1 용량을 사용하여 앱 작업 영역을 백업해야 합니다. [Power BI Premium](../../admin/service-premium-what-is.md)을 사용하여 전용 용량을 만들 수 있습니다.
+용량을 만들면 앱 작업 영역의 콘텐츠에 대한 리소스의 혜택을 활용할 수 있습니다. 페이지를 매긴 보고서의 경우 최소 P1 용량을 사용하여 앱 작업 영역을 백업해야 합니다. [Power BI Premium](../../admin/service-premium-what-is.md)을 사용하여 용량을 만들 수 있습니다.
 
-다음 표는 [Microsoft Office 365](../../admin/service-admin-premium-purchase.md)에서 페이지를 매긴 보고서의 전용 용량을 만드는 데 사용할 수 있는 Power BI Premium SKU를 보여 줍니다.
+다음 표는 [Microsoft Office 365](../../admin/service-admin-premium-purchase.md)에서 페이지를 매긴 보고서의 용량을 만드는 데 사용할 수 있는 Power BI Premium SKU를 보여 줍니다.
 
 | 용량 노드 | 총 vCore<br/>(백 엔드 + 프런트 엔드) | 백 엔드 vCore | 프런트 엔드 vCore | DirectQuery/라이브 연결 제한 |
 | --- | --- | --- | --- | --- | --- |
@@ -75,7 +75,7 @@ Power BI .NET SDK를 Power BI JavaScript API와 함께 사용하여 Power BI를 
 
 ### <a name="enable-paginated-reports-workload"></a>페이지를 매긴 보고서 워크로드 사용
 
-전용 용량에서 페이지를 매긴 보고서 워크로드를 사용하도록 설정해야 합니다.
+용량에서 페이지를 매긴 보고서 워크로드를 사용하도록 설정해야 합니다.
 
 1. [Power BI > 관리 포털 > 용량 설정](https://app.powerbi.com/admin-portal/capacities)에 로그인합니다.
 
@@ -83,7 +83,7 @@ Power BI .NET SDK를 Power BI JavaScript API와 함께 사용하여 Power BI를 
 
     ![용량 선택](media/embed-paginated-reports-organization/select-capacity.png)
 
-3. **워크로드**를 확장합니다.
+3. **워크로드** 를 확장합니다.
 
     ![워크로드 확장](media/embed-paginated-reports-organization/expand-workloads.png)
 
@@ -91,19 +91,19 @@ Power BI .NET SDK를 Power BI JavaScript API와 함께 사용하여 Power BI를 
 
     ![페이지를 매긴 보고서 워크로드](media/embed-paginated-reports-organization/paginated-reports-workload.png)
 
-### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>전용 용량에 앱 작업 영역 할당
+### <a name="assign-an-app-workspace-to-a-capacity"></a>용량에 앱 작업 영역 할당
 
-전용 용량을 만들면 해당 전용 용량에 앱 작업 영역을 할당할 수 있습니다. 이 프로세스를 완료하려면 다음 단계를 수행합니다.
+용량을 만든 후 해당 용량에 앱 작업 영역을 할당할 수 있습니다. 이 프로세스를 완료하려면 다음 단계를 수행합니다.
 
-1. Power BI 서비스 내에서 작업 영역을 확장하고, 콘텐츠를 포함하는 데 사용하는 작업 영역에 대한 **더 보기**를 선택합니다. 그런 다음 **작업 영역 설정**을 선택합니다.
+1. Power BI 서비스 내에서 작업 영역을 확장하고, 콘텐츠를 포함하는 데 사용하는 작업 영역에 대한 **더 보기** 를 선택합니다. 그런 다음 **작업 영역 설정** 을 선택합니다.
 
     ![작업 영역 편집](media/embed-paginated-reports-organization/workspace-settings.png)
 
-2. **프리미엄**을 선택하고 **전용 용량**을 사용하도록 설정합니다. 만든 전용 용량을 선택합니다. 그런 다음, **저장**을 선택합니다.
+2. **프리미엄** 을 선택하고 **용량** 을 사용하도록 설정합니다. 만든 용량을 선택합니다. 그런 다음, **저장** 을 선택합니다.
 
-    ![전용 용량 할당](media/embed-paginated-reports-organization/dedicated-capacity.png)
+    ![용량 할당](media/embed-paginated-reports-organization/capacity.png)
 
-3. **저장**을 선택하면 앱 작업 영역 이름 옆에 다이아몬드가 표시됩니다.
+3. **저장** 을 선택하면 앱 작업 영역 이름 옆에 다이아몬드가 표시됩니다.
 
     ![용량에 연결된 앱 작업 영역](media/embed-paginated-reports-organization/diamond.png)
 
@@ -119,7 +119,7 @@ Power BI .NET SDK를 Power BI JavaScript API와 함께 사용하여 Power BI를 
 
 1. [Visual Studio](https://www.visualstudio.com/)(버전 2013 이상)를 다운로드합니다. 최신 [NuGet 패키지](https://www.nuget.org/profiles/powerbi)를 다운로드해야 합니다.
 
-2. [PowerBI-Developer-Samples](https://github.com/Microsoft/PowerBI-Developer-Samples)를 다운로드하고 .NET Framework > 조직을 위해 포함 > integrate-web-app > **PBIWebApp**을 엽니다.
+2. [PowerBI-Developer-Samples](https://github.com/Microsoft/PowerBI-Developer-Samples)를 다운로드하고 .NET Framework > 조직을 위해 포함 > integrate-web-app > **PBIWebApp** 을 엽니다.
 
     ![PowerBI-Developer-Samples](media/embed-paginated-reports-organization/powerbi-developer-sample.png)
 
@@ -133,19 +133,19 @@ Power BI .NET SDK를 Power BI JavaScript API와 함께 사용하여 Power BI를 
 
 ### <a name="application-id"></a>애플리케이션 ID
 
-**Azure**의 **애플리케이션 ID**를 사용하여 **applicationId** 정보를 입력합니다. **applicationId**는 응용 프로그램에서 권한을 요청 중인 사용자에게 응용 프로그램을 인식시키는 데 사용됩니다.
+**Azure** 의 **애플리케이션 ID** 를 사용하여 **applicationId** 정보를 입력합니다. **applicationId** 는 응용 프로그램에서 권한을 요청 중인 사용자에게 응용 프로그램을 인식시키는 데 사용됩니다.
 
-**applicationId**를 가져오려면 다음 단계를 수행합니다.
+**applicationId** 를 가져오려면 다음 단계를 수행합니다.
 
 1. [Azure Portal](https://portal.azure.com)에 로그인합니다.
 
-2. 왼쪽 탐색 창에서 **모든 서비스**를 선택하고 **앱 등록**을 선택합니다.
+2. 왼쪽 탐색 창에서 **모든 서비스** 를 선택하고 **앱 등록** 을 선택합니다.
 
-3. **applicationId**가 필요한 응용 프로그램을 선택합니다.
+3. **applicationId** 가 필요한 응용 프로그램을 선택합니다.
 
     ![앱 선택](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
 
-4. GUID로 나열된 **애플리케이션 ID**가 있습니다. 이 **응용 프로그램 ID**를 애플리케이션의 **applicationId**로 사용합니다.
+4. GUID로 나열된 **애플리케이션 ID** 가 있습니다. 이 **응용 프로그램 ID** 를 애플리케이션의 **applicationId** 로 사용합니다.
 
     ![applicationId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-043.png)
 
@@ -185,15 +185,15 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport -Name "Sal
 
 조직 테넌트에 포함된 경우 URL( *https://login.microsoftonline.com/common/oauth2/authorize* )을 사용하세요.
 
-게스트에 포함된 경우 *report-owner-tenant-id*를 대체하여 보고서 소유자의 테넌트 ID를 추가하는 URL( *`https://login.microsoftonline.com/report-owner-tenant-id`* )을 사용하세요.
+게스트에 포함된 경우 *report-owner-tenant-id* 를 대체하여 보고서 소유자의 테넌트 ID를 추가하는 URL( *`https://login.microsoftonline.com/report-owner-tenant-id`* )을 사용하세요.
 
 ### <a name="run-the-application"></a>애플리케이션 실행
 
-1. **Visual Studio**에서 **실행**을 선택합니다.
+1. **Visual Studio** 에서 **실행** 을 선택합니다.
 
     ![애플리케이션 실행](media/embed-sample-for-your-organization/embed-sample-for-your-organization-033.png)
 
-2. 그런 다음, **보고서 포함**을 선택합니다. 테스트하기 위해 선택한 콘텐츠(보고서, 대시보드 또는 타일)에 따라 애플리케이션에서 해당 옵션을 선택합니다.
+2. 그런 다음, **보고서 포함** 을 선택합니다. 테스트하기 위해 선택한 콘텐츠(보고서, 대시보드 또는 타일)에 따라 애플리케이션에서 해당 옵션을 선택합니다.
 
     ![콘텐츠 선택](media/embed-sample-for-your-organization/embed-sample-for-your-organization-034.png)
 

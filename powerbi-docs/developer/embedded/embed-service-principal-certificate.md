@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
-ms.date: 06/01/2020
-ms.openlocfilehash: 521c705587c10c76dedb731aeae34221244f3a83
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.date: 10/15/2020
+ms.openlocfilehash: 3d25fe925b98dbdd74d61fd70320bd4275db35e3
+ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749187"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "92197774"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-a-certificate"></a>서비스 주체 및 인증서를 사용하여 Power BI 콘텐츠 포함
 
@@ -35,17 +35,48 @@ Azure AD의 인증서에 대한 자세한 내용은 [클라이언트 자격 증�
 
 서비스 주체 및 인증서를 임베디드 분석과 함께 사용하려면 다음 단계를 수행합니다.
 
-1. 인증서 만들기
+1. Azure AD 애플리케이션을 만듭니다.
 
-2. Azure AD 애플리케이션을 만듭니다.
+2. Azure AD 보안 그룹을 만듭니다.
 
-3. 인증서 인증을 설정합니다.
+3. Power BI 서비스 관리자 설정을 사용하도록 설정합니다.
 
-4. Azure Key Vault에서 인증서를 가져옵니다.
+4. 작업 영역에 서비스 주체를 추가합니다.
 
-5. 서비스 주체 및 인증서를 사용하여 인증합니다.
+5. 인증서 만들기
 
-## <a name="step-1---create-a-certificate"></a>1단계 - 인증서 만들기
+6. 인증서 인증을 설정합니다.
+
+7. Azure Key Vault에서 인증서를 가져옵니다.
+
+8. 서비스 주체 및 인증서를 사용하여 인증합니다.
+
+## <a name="step-1---create-an-azure-ad-application"></a>1단계 - Azure AD 애플리케이션 만들기
+
+[!INCLUDE[service principal create app](../../includes/service-principal-create-app.md)]
+
+### <a name="creating-an-azure-ad-app-using-powershell"></a>PowerShell을 사용하여 Azure AD 앱 만들기
+
+이 섹션에는 [PowerShell](/powershell/azure/create-azure-service-principal-azureps)을 사용하여 새 Azure AD 앱을 만드는 샘플 스크립트가 포함되어 있습니다.
+
+```powershell
+# The app ID - $app.appid
+# The service principal object ID - $sp.objectId
+# The app key - $key.value
+
+# Sign in as a user that's allowed to create an app
+Connect-AzureAD
+
+# Create a new Azure AD web application
+$app = New-AzureADApplication -DisplayName "testApp1" -Homepage "https://localhost:44322" -ReplyUrls "https://localhost:44322"
+
+# Creates a service principal
+$sp = New-AzureADServicePrincipal -AppId $app.AppId
+```
+
+[!INCLUDE[service create steps two, three and four](../../includes/service-principal-create-steps.md)]
+
+## <a name="step-5---create-a-certificate"></a>5단계 - 인증서 만들기
 
 신뢰할 수 있는 ‘인증 기관’에서 인증서를 구하거나 인증서를 직접 생성할 수 있습니다.
 
@@ -53,21 +84,21 @@ Azure AD의 인증서에 대한 자세한 내용은 [클라이언트 자격 증�
 
 1. [Microsoft Azure](https://ms.portal.azure.com/#allservices)에 로그인합니다.
 
-2. **Key Vaults**를 검색하고 **Key Vaults** 링크를 클릭합니다.
+2. **Key Vaults** 를 검색하고 **Key Vaults** 링크를 클릭합니다.
 
-    ![키 자격 증명 모음](media/embed-service-principal-certificate/key-vault.png)
+    ![Azure Portal의 키 자격 증명 모음에 대한 링크를 보여주는 스크린샷.](media/embed-service-principal-certificate/key-vault.png)
 
 3. 인증서를 추가하려는 키 자격 증명 모음을 클릭합니다.
 
-    ![키 자격 증명 모음 선택](media/embed-service-principal-certificate/select-key-vault.png)
+    ![Azure Portal에서 흐리게 표시된 키 자격 증명 모음 목록을 보여주는 스크린샷.](media/embed-service-principal-certificate/select-key-vault.png)
 
-4. **인증서**를 클릭합니다.
+4. **인증서** 를 클릭합니다.
 
-    ![인증서가 호출된 키 자격 증명 모음 페이지를 보여 주는 스크린샷.](media/embed-service-principal-certificate/certificates.png)
+    ![인증서가 호출된 키 자격 증명 모음 페이지를 보여주는 스크린샷.](media/embed-service-principal-certificate/certificates.png)
 
-5. **생성/가져오기**를 클릭합니다.
+5. **생성/가져오기** 를 클릭합니다.
 
-    ![생성/가져오기가 호출된 인증서 창을 보여 주는 스크린샷.](media/embed-service-principal-certificate/generate.png)
+    ![생성/가져오기가 호출된 인증서 창을 보여주는 스크린샷.](media/embed-service-principal-certificate/generate.png)
 
 6. 다음과 같이 **인증서 만들기** 필드를 구성합니다.
 
@@ -91,27 +122,23 @@ Azure AD의 인증서에 대한 자세한 내용은 [클라이언트 자격 증�
 
     * **고급 정책 구성** - 구성되지 않음
 
-7. **만들기**를 클릭합니다. 새로 만든 인증서는 기본적으로 사용되지 않도록 설정되어 있습니다. 사용하도록 설정하는 데 최대 5분이 걸릴 수 있습니다.
+7. **만들기** 를 클릭합니다. 새로 만든 인증서는 기본적으로 사용되지 않도록 설정되어 있습니다. 사용하도록 설정하는 데 최대 5분이 걸릴 수 있습니다.
 
 8. 만든 인증서를 선택합니다.
 
-9. **CER 형식으로 다운로드**를 클릭합니다. 다운로드한 파일에는 공개 키가 들어 있습니다.
+9. **CER 형식으로 다운로드** 를 클릭합니다. 다운로드한 파일에는 공개 키가 들어 있습니다.
 
-    ![cer로 다운로드](media/embed-service-principal-certificate/download-cer.png)
+    ![CER 형식으로 다운로드 단추를 표시하는 스크린샷.](media/embed-service-principal-certificate/download-cer.png)
 
-## <a name="step-2---create-an-azure-ad-application"></a>2단계 - Azure AD 애플리케이션 만들기
-
-[!INCLUDE[service principal create app](../../includes/service-principal-create-app.md)]
-
-## <a name="step-3---set-up-certificate-authentication"></a>3단계 - 인증서 인증 설정
+## <a name="step-6---set-up-certificate-authentication"></a>6단계 - 인증서 인증 설정
 
 1. Azure AD 애플리케이션에서 **인증서 및 암호** 탭을 클릭합니다.
 
-     ![Azure Portal에서 앱의 인증서 및 비밀 창을 보여 주는 스크린샷.](media/embed-service-principal/certificates-and-secrets.png)
+     ![Azure Portal에서 앱의 인증서 및 비밀 창을 보여주는 스크린샷.](media/embed-service-principal/certificates-and-secrets.png)
 
-2. **인증서 업로드**를 클릭하고 이 자습서의 [1단계](#step-1---create-a-certificate)에서 만들고 다운로드한 *.cer* 파일을 업로드합니다. *.cer* 파일에는 공개 키가 들어 있습니다.
+2. **인증서 업로드** 를 클릭하고 이 자습서의 [1단계](#step-5---create-a-certificate)에서 만들고 다운로드한 *.cer* 파일을 업로드합니다. *.cer* 파일에는 공개 키가 들어 있습니다.
 
-## <a name="step-4---get-the-certificate-from-azure-key-vault"></a>4단계 - Azure Key Vault에서 인증서 가져오기
+## <a name="step-7---get-the-certificate-from-azure-key-vault"></a>7단계 - Azure Key Vault에서 인증서 가져오기
 
 MSI(관리 서비스 ID)를 사용하여 Azure Key Vault에서 인증서를 가져옵니다. 이 프로세스에는 퍼블릭 키와 프라이빗 키가 둘 다 들어 있는 *.pfx* 인증서를 가져오는 과정이 포함됩니다.
 
@@ -138,7 +165,7 @@ private X509Certificate2 ReadCertificateFromVault(string certName)
 }
 ```
 
-## <a name="step-5---authenticate-using-service-principal-and-a-certificate"></a>5단계 - 서비스 주체 및 인증서를 사용하여 인증
+## <a name="step-8---authenticate-using-service-principal-and-a-certificate"></a>8단계 - 서비스 주체 및 인증서를 사용하여 인증
 
 Azure Key Vault에 연결하여 Azure Key Vault에 저장된 인증서 및 서비스 주체를 사용하여 앱을 인증할 수 있습니다.
 
@@ -179,13 +206,13 @@ public async Task<AuthenticationResult> DoAuthentication(){
 
 1. Visual Studio에서 새 프로젝트를 엽니다.
 
-2. **도구** > **옵션**을 클릭합니다.
+2. **도구** > **옵션** 을 클릭합니다.
 
-     ![Visual Studio 옵션](media/embed-service-principal-certificate/visual-studio-options.png)
+     ![Visual Studio의 도구 메뉴에 있는 옵션 단추를 보여주는 스크린샷.](media/embed-service-principal-certificate/visual-studio-options.png)
 
-3. **계정 선택**를 검색하고 **계정 선택**을 클릭합니다.
+3. **계정 선택** 를 검색하고 **계정 선택** 을 클릭합니다.
 
-    ![계정 선택](media/embed-service-principal-certificate/account-selection.png)
+    ![Visual Studio 옵션 창의 계정 선택 옵션을 보여주는 스크린샷.](media/embed-service-principal-certificate/account-selection.png)
 
 4. Azure Key Vault에 대한 액세스 권한이 있는 계정을 추가합니다.
 

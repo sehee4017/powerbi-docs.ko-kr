@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: 2a0c326902063759d10f49f3c5d745c22f477ec2
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: a47af4b96e80508a6ea21de2d8d3e0b40f907d8d
+ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634806"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92025936"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Surface Hub 및 Windows 10 디바이스에서 프레젠테이션 모드로 보고서 및 대시보드 보기
 프레젠테이션 모드를 사용하여 Windows 10 디바이스 및 Surface Hub에서 보고서와 대시보드를 전체 화면으로 표시할 수 있습니다. 프레젠테이션 모드는 모임이나 회의 또는 사무실의 전용 프로젝터에서 Power BI를 표시하거나 작은 화면 공간을 최대화하는 데 유용합니다.
@@ -26,7 +26,7 @@ ms.locfileid: "91634806"
 * 페이지 간, 책갈피 간 또는 페이지와 책갈피 간에 자동 순환하는 슬라이드 쇼를 재생할 수 있습니다.
 
 >[!NOTE]
->**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
+>**Windows 10 Mobile을 사용하는 휴대폰** 용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="use-presentation-mode"></a>프레젠테이션 모드 사용
 Power BI 모바일 앱에서 **전체 화면** 아이콘을 탭하여 전체 화면 모드로 이동합니다.
@@ -38,17 +38,17 @@ Power BI 모바일 앱에서 **전체 화면** 아이콘을 탭하여 전체 화
 
 | 아이콘 | 작업 |
 |------|--------|
-|![뒤로 아이콘을 탭하여](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png)|이전 페이지로 **돌아갑니다**. 아이콘을 길게 탭하면 이동 경로 창이 열려 보고서나 대시보드가 있는 폴더로 이동할 수 있습니다.|
-|![페이지 매김 아이콘](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png)|프레젠테이션에서 보고서의 다른 페이지로 **페이지를 전환**합니다.|
-|![책갈피 아이콘](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-bookmarks-icon.png)|**책갈피를 적용**하여 해당 책갈피가 캡처하는 데이터의 특정 보기를 표시합니다. 개인 책갈피와 보고서 책갈피를 모두 적용할 수 있습니다.|
-|![잉크 아이콘](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png)|Surface 펜으로 보고서 페이지에 그리거나 주석을 달 때 **잉크 색을 선택**합니다.|
-|![지우개 아이콘](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-eraser-icon.png)|보고서 페이지에 그리거나 주석을 달기 위해 Surface 펜으로 만든 **잉크 표시를 지웁니다**.          |
-|![초기화 아이콘](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-reset-icon.png)|**기본 보기로 초기화**하고 프레젠테이션 중에 수행된 필터, 슬라이서 또는 기타 데이터 보기 변경 내용을 지웁니다.|
-|![공유 아이콘](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-share-icon.png)|프레젠테이션 보기의 이미지를 동료와 **공유**합니다. 이 이미지에는 프레젠테이션 중에 Surface 펜으로 작성된 주석이 포함됩니다.|
-|![새로 고침 아이콘](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-refresh-icon.png)|보고서를 **새로 고칩니다**.|
-|![재생 아이콘](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png)|**슬라이드 쇼를 재생**하여 작업 모음을 숨기고 슬라이드 쇼를 시작합니다. 선택기를 사용하여 페이지 간, 책갈피 간 또는 페이지와 책갈피 간 자동 순환을 선택할 수 있습니다. 기본적으로 슬라이드 쇼는 30초마다 페이지 간 자동 순환합니다. 이러한 설정은 [**설정 > 옵션**](#slideshow-settings)에서 변경할 수 있습니다. 슬라이드 쇼에 대한 [자세한 내용](#slideshows)을 참조하세요.|
-|![전체 화면 모드 끝내기](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png)|프레젠테이션 모드를 **종료**합니다.|
-|![검색 아이콘](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png)|Power BI에서 다른 아티팩트를 **검색**합니다.|
+|![뒤로 아이콘을 탭하여](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png)|이전 페이지로 **돌아갑니다** . 아이콘을 길게 탭하면 이동 경로 창이 열려 보고서나 대시보드가 있는 폴더로 이동할 수 있습니다.|
+|![페이지 매김 아이콘](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png)|프레젠테이션에서 보고서의 다른 페이지로 **페이지를 전환** 합니다.|
+|![책갈피 아이콘](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-bookmarks-icon.png)|**책갈피를 적용** 하여 해당 책갈피가 캡처하는 데이터의 특정 보기를 표시합니다. 개인 책갈피와 보고서 책갈피를 모두 적용할 수 있습니다.|
+|![잉크 아이콘](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png)|Surface 펜으로 보고서 페이지에 그리거나 주석을 달 때 **잉크 색을 선택** 합니다.|
+|![지우개 아이콘](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-eraser-icon.png)|보고서 페이지에 그리거나 주석을 달기 위해 Surface 펜으로 만든 **잉크 표시를 지웁니다** .          |
+|![초기화 아이콘](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-reset-icon.png)|**기본 보기로 초기화** 하고 프레젠테이션 중에 수행된 필터, 슬라이서 또는 기타 데이터 보기 변경 내용을 지웁니다.|
+|![공유 아이콘](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-share-icon.png)|프레젠테이션 보기의 이미지를 동료와 **공유** 합니다. 이 이미지에는 프레젠테이션 중에 Surface 펜으로 작성된 주석이 포함됩니다.|
+|![새로 고침 아이콘](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-refresh-icon.png)|보고서를 **새로 고칩니다** .|
+|![재생 아이콘](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png)|**슬라이드 쇼를 재생** 하여 작업 모음을 숨기고 슬라이드 쇼를 시작합니다. 선택기를 사용하여 페이지 간, 책갈피 간 또는 페이지와 책갈피 간 자동 순환을 선택할 수 있습니다. 기본적으로 슬라이드 쇼는 30초마다 페이지 간 자동 순환합니다. 이러한 설정은 [**설정 > 옵션**](#slideshow-settings)에서 변경할 수 있습니다. 슬라이드 쇼에 대한 [자세한 내용](#slideshows)을 참조하세요.|
+|![전체 화면 모드 끝내기](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png)|프레젠테이션 모드를 **종료** 합니다.|
+|![검색 아이콘](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png)|Power BI에서 다른 아티팩트를 **검색** 합니다.|
 
 도구 모음을 도킹 해제하고 끌어 화면 어디에나 놓을 수 있습니다. 이는 보고서의 특정 영역에 집중하고 그 옆에 사용할 수 있는 도구를 배치하려는 대형 화면에 유용합니다. 도구 모음 위에 손가락을 놓고 보고서 캔버스로 살짝 밀면 됩니다.
 
@@ -56,13 +56,13 @@ Power BI 모바일 앱에서 **전체 화면** 아이콘을 탭하여 전체 화
 
 ## <a name="slideshows"></a>슬라이드 쇼
 
-슬라이드 쇼를 재생하여 프레젠테이션을 자동으로 순환할 수 있습니다. 페이지나 책갈피 또는 페이지와 책갈피를 순환하도록 슬라이드 쇼를 설정할 수 있습니다.
+슬라이드 쇼를 재생하여 프레젠테이션을 자동으로 순환할 수 있습니다. 페이지나 책갈피 또는 페이지와 책갈피를 순환하도록 슬라이드 쇼를 설정할 수 있습니다. 슬라이드 쇼 중에 [자동 페이지 새로 고침](../../create-reports/desktop-automatic-page-refresh.md) 기능이 있는 보고서 페이지는 구성된 대로 계속 자동으로 새로 고쳐져 최신 데이터가 항상 표시되도록 합니다.
 
 작업 도구 모음에서 **재생** 단추를 선택하면 슬라이드 쇼가 시작됩니다. 슬라이드 쇼를 일시 중지하거나 재생 중인 항목(페이지나 책갈피 또는 페이지 및 책갈피)을 변경할 수 있는 컨트롤러가 나타납니다.
 
 ![슬라이드 쇼 선택기의 스크린샷](././media/mobile-windows-10-app-presentation-mode//power-bi-windows-10-slideshow-selector.png)
 
- 컨트롤러는 현재 표시된 보기(페이지 또는 책갈피 및 페이지)의 이름을 표시합니다. 위의 이미지에서는 **Sales**라는 보고서에서 현재 **Sales Performance** 페이지의 **Asia Pacific** 책갈피를 보고 있습니다.
+ 컨트롤러는 현재 표시된 보기(페이지 또는 책갈피 및 페이지)의 이름을 표시합니다. 위의 이미지에서는 **Sales** 라는 보고서에서 현재 **Sales Performance** 페이지의 **Asia Pacific** 책갈피를 보고 있습니다.
 
 기본적으로 슬라이드 쇼는 30초마다 한 페이지의 속도로 페이지를 순환합니다. [슬라이드 쇼 설정](#slideshow-settings)에서 기본 동작을 변경할 수 있습니다.
 
@@ -73,7 +73,7 @@ Power BI 모바일 앱에서 **전체 화면** 아이콘을 탭하여 전체 화
 
 ### <a name="slideshow-settings"></a>슬라이드 쇼 설정
 
-기본적으로 슬라이드 쇼는 30초마다 한 페이지의 속도로 페이지를 순환합니다. 아래 그림과 같이 **설정 > 옵션**으로 이동하여 이 기본 동작을 변경할 수 있습니다. 자동 실행을 설정하고 재생할 보고서를 선택할 수도 있습니다.
+기본적으로 슬라이드 쇼는 30초마다 한 페이지의 속도로 페이지를 순환합니다. 아래 그림과 같이 **설정 > 옵션** 으로 이동하여 이 기본 동작을 변경할 수 있습니다. 자동 실행을 설정하고 재생할 보고서를 선택할 수도 있습니다.
 
 1. 설정 아이콘을 선택합니다.
 
@@ -81,7 +81,7 @@ Power BI 모바일 앱에서 **전체 화면** 아이콘을 탭하여 전체 화
 
 1. 원하는 경우 슬라이드 쇼가 반복되는 항목(페이지, 책갈피 또는 둘 다) 및 슬라이드가 전환되는 빈도에 대한 기본 설정을 변경합니다.
 
-1. 앱이 시작될 때 보고서가 자동으로 재생되도록 하려면 토글을 설정하고 **보고서 선택**을 선택합니다. 액세스 가능한 보고서를 검색할 수 있습니다.
+1. 앱이 시작될 때 보고서가 자동으로 재생되도록 하려면 토글을 설정하고 **보고서 선택** 을 선택합니다. 액세스 가능한 보고서를 검색할 수 있습니다.
 
 ![슬라이드 쇼 설정 스크린샷](././media/mobile-windows-10-app-presentation-mode//power-bi-windows-10-slideshow-settings.png)
 

@@ -6,19 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/30/2020
+ms.date: 10/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2464d95fd9d2cc7a5e3bb42479c1ba96bf5285a8
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: bab09647b324e9be8b1de6f27865511b4f2b1a02
+ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600540"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92256342"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop으로 이전 월별 업데이트
 
-이 문서는 **Power BI Desktop**에 대한 이전 업데이트를 설명합니다. 가장 최근 달의 릴리스의 경우 [**Power BI Desktop** 최신 업데이트](desktop-latest-update.md)를 확인합니다.
+이 문서는 **Power BI Desktop** 에 대한 이전 업데이트를 설명합니다. 가장 최근 달의 릴리스의 경우 [**Power BI Desktop** 최신 업데이트](desktop-latest-update.md)를 확인합니다.
 
 [다운로드 센터](https://www.microsoft.com/download/details.aspx?id=58494)에서 최신 버전의 Power BI Desktop을 가져옵니다. Windows 10을 실행하는 경우 Windows 10의 Microsoft Store에서도 Power BI Desktop을 가져올 수 있습니다. Power BI Desktop 설치 방법과 관계없이, 월별 버전은 버전 번호가 다르더라도 동일합니다. Power BI Desktop 다운로드 및 설치 방법에 대한 자세한 내용은 [Power BI Desktop 가져오기](desktop-get-the-desktop.md)를 참조하세요. 
 
@@ -36,7 +36,94 @@ ms.locfileid: "91600540"
 
 처음부터 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
 
-다음 섹션은 이전 달들의 **Power BI Desktop**에 대한 업데이트를 설명합니다.
+다음 섹션은 이전 달들의 **Power BI Desktop** 에 대한 업데이트를 설명합니다.
+
+
+## <a name="september-2020-update-2852840"></a>2020년 9월 업데이트(2.85.284.0)
+
+Power BI Desktop 9월 업데이트는 다가오는 가을과 단풍처럼 멋지고 산뜻합니다. 
+
+이번 달에 새로워진 점은 Power BI Desktop 월간 블로그 및 동영상 업데이트에 이제 Power BI 모바일 및 Power BI 서비스의 새로운 기능도 포함된다는 것입니다. 이 문서에서는 Power BI Desktop에 대한 업데이트를 설명합니다. 모바일 및 Power BI 서비스 업데이트에 대해 알아보려면 해당하는 새로운 기능 문서를 확인하세요.
+
+* [Power BI 서비스의 새로운 기능](service-whats-new.md)
+* [Power BI용 모바일 앱의 새로운 기능](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
+
+[다운로드 센터](https://www.microsoft.com/download/details.aspx?id=58494)에서 최신 버전의 Power BI Desktop을 가져옵니다. Windows 10을 실행하는 경우 [Microsoft Store](https://aka.ms/pbidesktopstore)에서도 Power BI Desktop을 구할 수 있습니다. Power BI Desktop 설치 방법과 관계없이, 월별 버전은 버전 번호가 다르더라도 동일합니다. Power BI Desktop 다운로드 및 설치 방법에 대한 자세한 내용은 [Power BI Desktop 가져오기](desktop-get-the-desktop.md)를 참조하세요. 
+
+> [!IMPORTANT]
+> Power BI Desktop은 매월 고객 피드백과 새로운 기능을 통합하여 업데이트되고 릴리스됩니다. 최신 버전의 Power BI Desktop만 지원되며, Power BI Desktop 지원을 문의하는 고객에게는 최신 버전으로 업그레이드할지 묻는 메시지가 표시됩니다. 최신 버전의 Power BI Desktop은 [Microsoft Store](https://aka.ms/pbidesktopstore)에서 가져오거나 컴퓨터에 [다운로드](https://www.microsoft.com/download/details.aspx?id=58494)하여 설치하는 지원되는 모든 언어를 포함하는 단일 실행 파일로 가져옵니다.
+
+Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 다음과 같이 해석됩니다.
+
+* \[블로그\]: 대부분의 기능은 월별 업데이트 블로그 게시물에 설명되어 있습니다.
+* \[비디오\]: 일부 기능에는 새 브라우저 탭의 기능을 설명하는 비디오 발췌가 있습니다.
+* \[문서\]: 일부 기능에는 세부 정보를 제공하는 문서가 있습니다.
+* 나머지 기능은 설명 없이도 바로 이해할 수 있으며 문서 또는 동영상이 필요하지 않습니다.
+
+전체 [Power BI 월별 업데이트 동영상](#power-bi-desktop-monthly-update-video)도 시청할 수 있습니다.
+
+> [!IMPORTANT]
+> Power BI Desktop은 2021년 1월 31일 이후 Windows 7에서 더 이상 지원되지 않습니다. 이 날짜 이후 Power BI Desktop은 Windows 8 이상의 버전에서 Power BI Desktop의 최신 버전에 대해서만 지원됩니다. 
+
+다음은 이번 달의 Power BI Desktop 업데이트입니다.
+
+### <a name="analytics"></a>분석
+* 스마트 설명(미리 보기) [[동영상]](https://youtu.be/gPGy18Yo0Go?t=51)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#_Smart_narratives_(preview)) 
+* Q&A가 이제 산술 연산 지원 [[동영상]](https://youtu.be/gPGy18Yo0Go?t=333)   [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#QA_arithmetic) 
+
+
+### <a name="reporting"></a>보고
+* 추가 차트를 위한 데이터 요소 사각형 선택 [[동영상]](https://youtu.be/gPGy18Yo0Go?t=370)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Data_point_rectangle_select) 
+* 계층 순서 유지를 위한 일반 시각적 옵션 추가 [[동영상]](https://youtu.be/gPGy18Yo0Go?t=405)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Maintain_layer_order) 
+* 게시 중 작업 영역 검색 [[동영상]](https://youtu.be/gPGy18Yo0Go?t=615)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Search_workspace) 
+* 누적 시각적 개체를 위한 합계 레이블 [[동영상]](https://youtu.be/gPGy18Yo0Go?t=630)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Total_labels_stacked) 
+* 모바일 작성 개선 [[동영상]](https://youtu.be/gPGy18Yo0Go?t=786)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Mobile_authoring_enhancements) 
+
+
+### <a name="modeling"></a>모델링
+* 향상된 데이터 세트 메타데이터 출시 [[동영상]](https://youtu.be/gPGy18Yo0Go?t=1200)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Enhanced_Dataset_Metadata)
+* 통화 데이터 형식의 열을 포함하는 집계 식의 성능 개선 [[동영상]](https://youtu.be/gPGy18Yo0Go?t=1220)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Performance_improvements_to_agg)
+
+
+### <a name="data-connectivity"></a>데이터 연결
+* Azure Databricks [[동영상]](https://youtu.be/gPGy18Yo0Go?t=1342)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Azure_Databricks)
+* MariaDB [[동영상]](https://youtu.be/gPGy18Yo0Go?t=1365)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#MariaDB)
+* Hexagon PPM Smart API [[동영상]](https://youtu.be/gPGy18Yo0Go?t=1386)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Hexagon_PPM_Smart)
+* 기타 데이터 연결 업데이트 [[동영상]](https://youtu.be/gPGy18Yo0Go?t=1411)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Other_data_connectivity)
+
+
+### <a name="visuals"></a>시각적 개체
+* 다양한 공급자의 새 시각적 개체 [[동영상]](https://youtu.be/gPGy18Yo0Go?t=1228)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Visualizations)
+
+
+### <a name="template-apps"></a>템플릿 앱
+* 다중 채널 특성 대시보드 [[동영상]](https://youtu.be/gPGy18Yo0Go?t=1290)   [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Multichannel_Attribution_Dashboard) 
+* 작업 영역 분석 대시보드 [[동영상]](https://youtu.be/gPGy18Yo0Go?t=1290)   [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Workspace_Analytics_Dashboard) 
+
+
+각각의 새로운 기능에 대한 자세한 내용은 [Power BI Desktop 기능 요약 블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/)을 참조하세요.
+
+
+> [!NOTE]
+> [Power BI Desktop에서 사용할 수 있는 데이터 원본](../connect-data/desktop-data-sources.md)을 참조하세요. 목록에 새로운 항목이 계속 추가되고 있으므로 자주 확인하세요.
+
+
+### <a name="power-bi-desktop-monthly-update-video"></a>Power BI Desktop 월별 업데이트 비디오
+다음 동영상에서는 이러한 업데이트를 각각 설명합니다. 이 동영상은 블로그 게시물에서도 시청할 수 있습니다.
+
+> [!VIDEO https://www.youtube.com/embed/gPGy18Yo0Go]
+
+조직에 필요한 경우 이전 버전의 Power BI Desktop을 다운로드할 수도 있습니다. 이전 버전보다는 최신 버전의 Power BI Desktop을 사용하는 것이 좋습니다. 모든 이전 버전에는 다음과 같은 제한이 있습니다.
+
+* Power BI Desktop의 이전 릴리스에는 서비스가 제공되지 않으므로 최신 기능 및 업데이트를 사용하려면 항상 최신 릴리스를 사용해야 합니다.
+* Power BI Desktop의 최신 릴리스에서 만들거나 저장한 파일을 이전 버전의 Power BI Desktop에서 열지 못할 수 있습니다. 
+* Power BI Desktop의 최신 릴리스에서 저장한 보고서를 로드할 때 경고가 표시되어 이전 버전에 해당 보고서를 저장하는 경우 새 기능과 관련된 정보가 모두 손실됩니다.
+* Power BI Desktop의 영어 버전만 보관됩니다.
+
+이전 버전을 다운로드하려면 아래 링크를 선택하세요. 
+
+* [Power BI Desktop 2020년 9월 버전 - 32비트](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-09.exe)
+* [Power BI Desktop 2020년 9월 버전 - 64비트](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-09_x64.exe)
 
 
 
@@ -761,7 +848,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 10월 업데이트는 펌킨패치 행사만큼 재미있고, 유령의 저택을 둘러보는 것보다 더 흥미로웠습니다. 
 
-이제 지원되는 모든 언어를 포함하는 단일 .exe 파일로 제공되는 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다. Windows 10을 실행 중인 경우 Windows Store에서도 **Power BI Desktop**을 구할 수 있습니다. **Power BI Desktop**을 설치하는 방법과 관계없이 버전 번호 매기기가 두 곳에서 다를 수 있지만 월별 버전은 동일합니다. 자세한 내용은 [이 문서](desktop-get-the-desktop.md)를 참조하세요. 
+이제 지원되는 모든 언어를 포함하는 단일 .exe 파일로 제공되는 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다. Windows 10을 실행 중인 경우 Windows Store에서도 **Power BI Desktop** 을 구할 수 있습니다. **Power BI Desktop** 을 설치하는 방법과 관계없이 버전 번호 매기기가 두 곳에서 다를 수 있지만 월별 버전은 동일합니다. 자세한 내용은 [이 문서](desktop-get-the-desktop.md)를 참조하세요. 
 
 > [!IMPORTANT]
 > 2019년 9월 릴리스부터 Power BI Desktop은 지원되는 모든 언어를 포함하는 단일 .exe 파일로만 릴리스됩니다. .msi 버전은 더 이상 릴리스되지 않습니다.
@@ -839,7 +926,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 9월 업데이트를 신나게 학교로 돌아올 때로 비유할 수 있습니다. 새로 배워야 할 내용, 여름 동안 그리웠던 친구들의 업데이트, 알게 된 정보를 더 개선된 향후 보고서에 적용할 기회라고 표현할 수 있습니다. 
 
-이제 지원되는 모든 언어를 포함하는 단일 .exe 파일로 제공되는 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다. Windows 10을 실행 중인 경우 Windows Store에서도 **Power BI Desktop**을 구할 수 있습니다. **Power BI Desktop**을 설치하는 방법과 관계없이 버전 번호 매기기가 두 곳에서 다를 수 있지만 월별 버전은 동일합니다. 자세한 내용은 [이 문서](desktop-get-the-desktop.md)를 참조하세요. 
+이제 지원되는 모든 언어를 포함하는 단일 .exe 파일로 제공되는 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다. Windows 10을 실행 중인 경우 Windows Store에서도 **Power BI Desktop** 을 구할 수 있습니다. **Power BI Desktop** 을 설치하는 방법과 관계없이 버전 번호 매기기가 두 곳에서 다를 수 있지만 월별 버전은 동일합니다. 자세한 내용은 [이 문서](desktop-get-the-desktop.md)를 참조하세요. 
 
 > [!IMPORTANT]
 > 2019년 9월 릴리스부터 Power BI Desktop은 지원되는 모든 언어를 포함하는 단일 .exe 파일로만 릴리스됩니다. .msi 버전은 더 이상 릴리스되지 않습니다.
@@ -904,7 +991,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 8월 업데이트에는 Power BI Desktop에서 만들 수 있는 다양한 보고서가 제공되었습니다. 
 
-이제 지원되는 모든 언어를 포함하는 단일 .exe 파일로 제공되는 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다. Windows 10을 실행 중인 경우 Windows Store에서도 **Power BI Desktop**을 구할 수 있습니다. **Power BI Desktop**을 설치하는 방법과 관계없이 버전 번호 매기기가 두 곳에서 다를 수 있지만 월별 버전은 동일합니다. 자세한 내용은 [이 문서](desktop-get-the-desktop.md)를 참조하세요. 
+이제 지원되는 모든 언어를 포함하는 단일 .exe 파일로 제공되는 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다. Windows 10을 실행 중인 경우 Windows Store에서도 **Power BI Desktop** 을 구할 수 있습니다. **Power BI Desktop** 을 설치하는 방법과 관계없이 버전 번호 매기기가 두 곳에서 다를 수 있지만 월별 버전은 동일합니다. 자세한 내용은 [이 문서](desktop-get-the-desktop.md)를 참조하세요. 
 
 각 업데이트 옆의 링크는 다음을 의미합니다.
 
@@ -915,7 +1002,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 처음부터 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
 
-이번 달에 다음과 같은 업데이트가 **Power BI Desktop**에 새로 제공되었습니다.
+이번 달에 다음과 같은 업데이트가 **Power BI Desktop** 에 새로 제공되었습니다.
 
 ### <a name="reporting"></a>보고
 * 시각적 개체 그룹화 [[동영상]](https://youtu.be/sf4n7VXoQHY?t=10)  [[문서]](../create-reports/desktop-grouping-visuals.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2019-feature-summary/#grouping) 
@@ -967,7 +1054,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 7월 업데이트에는 Power BI Desktop의 다양한 새로운 기능이 제공되었습니다. 
 
-이제 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다. Windows 10을 실행 중인 경우 Windows Store에서도 **Power BI Desktop**을 구할 수 있습니다. **Power BI Desktop**을 설치하는 방법과 관계없이 버전 번호 매기기가 두 곳에서 다를 수 있지만 월별 버전은 동일합니다. 자세한 내용은 [이 문서](desktop-get-the-desktop.md)를 참조하세요. 
+이제 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다. Windows 10을 실행 중인 경우 Windows Store에서도 **Power BI Desktop** 을 구할 수 있습니다. **Power BI Desktop** 을 설치하는 방법과 관계없이 버전 번호 매기기가 두 곳에서 다를 수 있지만 월별 버전은 동일합니다. 자세한 내용은 [이 문서](desktop-get-the-desktop.md)를 참조하세요. 
 
 각 업데이트 옆의 링크는 다음을 의미합니다.
 
@@ -978,7 +1065,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 처음부터 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
 
-이번 달에 다음과 같은 업데이트가 **Power BI Desktop**에 새로 제공되었습니다.
+이번 달에 다음과 같은 업데이트가 **Power BI Desktop** 에 새로 제공되었습니다.
 
 ### <a name="reporting"></a>보고
 * 테이블 및 행렬 아이콘 세트 [[동영상]](https://youtu.be/l7OMRUF9UYg?t=11)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2019-feature-summary/#iconSets) 
@@ -1032,7 +1119,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 6월 업데이트는 Power BI Desktop을 위한 상쾌하고 밝은 새로운 색 구성표와 다양한 개선 사항을 제공하여 보고서를 더욱 훌륭하게 만듭니다. 
 
-이제 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다. Windows 10을 실행 중인 경우 Windows Store에서도 **Power BI Desktop**을 구할 수 있습니다. **Power BI Desktop**을 설치하는 방법과 관계없이 버전 번호 매기기가 두 곳에서 다를 수 있지만 월별 버전은 동일합니다. 자세한 내용은 [이 문서](desktop-get-the-desktop.md)를 참조하세요. 
+이제 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다. Windows 10을 실행 중인 경우 Windows Store에서도 **Power BI Desktop** 을 구할 수 있습니다. **Power BI Desktop** 을 설치하는 방법과 관계없이 버전 번호 매기기가 두 곳에서 다를 수 있지만 월별 버전은 동일합니다. 자세한 내용은 [이 문서](desktop-get-the-desktop.md)를 참조하세요. 
 
 각 업데이트 옆의 링크는 다음을 의미합니다.
 
@@ -1043,7 +1130,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 처음부터 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
 
-이번 달에 다음과 같은 업데이트가 **Power BI Desktop**에 새로 제공되었습니다.
+이번 달에 다음과 같은 업데이트가 **Power BI Desktop** 에 새로 제공되었습니다.
 
 ### <a name="reporting"></a>보고
 * 업데이트된 창 디자인 [[동영상]](https://youtu.be/7k-nP38uHyQ?t=8)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2019-feature-summary/#panes) 
@@ -1103,7 +1190,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 5월 업데이트는 매혹적인 새 기능과 화려하고 아름다운 시각적 개체로 가득한 화분을 가지고 훌륭한 보고서의 정원에서 꽃을 피웠습니다. 
 
-이제 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다. Windows 10을 실행 중인 경우 Windows Store에서도 **Power BI Desktop**을 구할 수 있습니다. **Power BI Desktop**을 설치하는 방법과 관계없이 버전 번호 매기기가 두 곳에서 다를 수 있지만 월별 버전은 동일합니다. 자세한 내용은 [이 문서](desktop-get-the-desktop.md)를 참조하세요. 
+이제 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다. Windows 10을 실행 중인 경우 Windows Store에서도 **Power BI Desktop** 을 구할 수 있습니다. **Power BI Desktop** 을 설치하는 방법과 관계없이 버전 번호 매기기가 두 곳에서 다를 수 있지만 월별 버전은 동일합니다. 자세한 내용은 [이 문서](desktop-get-the-desktop.md)를 참조하세요. 
 
 각 업데이트 옆의 링크는 다음을 의미합니다.
 
@@ -1114,7 +1201,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 처음부터 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
 
-이번 달에 다음과 같은 업데이트가 **Power BI Desktop**에 새로 제공되었습니다.
+이번 달에 다음과 같은 업데이트가 **Power BI Desktop** 에 새로 제공되었습니다.
 
 ### <a name="reporting"></a>보고
 * 성능 분석기 창  [[동영상]](https://youtu.be/O8GlHDz8xUQ?t=10)  [[문서]](../create-reports/desktop-performance-analyzer.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2019-feature-summary/#perfAnalyzer) 
@@ -1168,7 +1255,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 4월 업데이트는 매우 기대하셨던 업데이트로 가득 차 있습니다. 
 
-이제 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다. Windows 10을 실행 중인 경우 Windows Store에서도 **Power BI Desktop**을 구할 수 있습니다. **Power BI Desktop**을 설치하는 방법과 관계없이 버전 번호 매기기가 두 곳에서 다를 수 있지만 월별 버전은 동일합니다. 자세한 내용은 [이 문서](desktop-get-the-desktop.md)를 참조하세요. 
+이제 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다. Windows 10을 실행 중인 경우 Windows Store에서도 **Power BI Desktop** 을 구할 수 있습니다. **Power BI Desktop** 을 설치하는 방법과 관계없이 버전 번호 매기기가 두 곳에서 다를 수 있지만 월별 버전은 동일합니다. 자세한 내용은 [이 문서](desktop-get-the-desktop.md)를 참조하세요. 
 
 각 업데이트 옆의 링크는 다음을 의미합니다.
 
@@ -1179,7 +1266,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 처음부터 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
 
-이번 달에 다음과 같은 업데이트가 **Power BI Desktop**에 새로 제공되었습니다.
+이번 달에 다음과 같은 업데이트가 **Power BI Desktop** 에 새로 제공되었습니다.
 
 ### <a name="reporting"></a>보고
 * 필터 창 개선  [[동영상]](https://youtu.be/vih35kSrEHU?t=9)  [[문서]](../create-reports/power-bi-report-filter.md)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-april-2019-feature-summary/#filterPane) 
@@ -1240,7 +1327,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 3월 업데이트는 매력적이고 유용한 업데이트로 가득하며, 이러한 향상된 기능으로 네 잎 클로버를 찾은 것처럼 행운이라고 느끼게 되기를 바랍니다. 
 
-이제 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다. Windows 10을 실행 중인 경우 Windows Store에서도 **Power BI Desktop**을 구할 수 있습니다. **Power BI Desktop**을 설치하는 방법과 관계없이 버전 번호 매기기가 두 곳에서 다를 수 있지만 월별 버전은 동일합니다. 자세한 내용은 [이 문서](desktop-get-the-desktop.md)를 참조하세요. 
+이제 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다. Windows 10을 실행 중인 경우 Windows Store에서도 **Power BI Desktop** 을 구할 수 있습니다. **Power BI Desktop** 을 설치하는 방법과 관계없이 버전 번호 매기기가 두 곳에서 다를 수 있지만 월별 버전은 동일합니다. 자세한 내용은 [이 문서](desktop-get-the-desktop.md)를 참조하세요. 
 
 각 업데이트 옆의 링크는 다음을 의미합니다.
 
@@ -1251,7 +1338,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 처음부터 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
 
-3월에 업데이트되는 **Power BI Desktop**의 새 기능은 다음과 같습니다.
+3월에 업데이트되는 **Power BI Desktop** 의 새 기능은 다음과 같습니다.
 
 ### <a name="reporting"></a>보고
 * 단일 선택 슬라이서  [[동영상]](https://youtu.be/rBPGH6eYlT0?t=10)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2019-feature-summary/#singleSelectSlicer) 
@@ -1308,7 +1395,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 고객들은 2월 업데이트를 통해 크게 향상된 새 데이터 커넥터와 기능, 분석을 모두 아주 좋아해 주셨습니다. 마치 초콜릿 상자처럼 앞으로 무엇을 얻게 될지는 아무도 모르지만, 올해 2월 업데이트를 통해 얻게 된 모든 변화는 아주 놀라운 것이었습니다. 
 
 
-사용자는 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다. Windows 10을 실행 중인 경우 Windows Store에서도 **Power BI Desktop**을 구할 수 있습니다. **Power BI Desktop**을 설치하는 방법과 관계없이 버전 번호 매기기가 두 곳에서 다를 수 있지만 월별 버전은 동일합니다. 자세한 내용은 [이 문서](desktop-get-the-desktop.md)를 참조하세요. 
+사용자는 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다. Windows 10을 실행 중인 경우 Windows Store에서도 **Power BI Desktop** 을 구할 수 있습니다. **Power BI Desktop** 을 설치하는 방법과 관계없이 버전 번호 매기기가 두 곳에서 다를 수 있지만 월별 버전은 동일합니다. 자세한 내용은 [이 문서](desktop-get-the-desktop.md)를 참조하세요. 
 
 
 각 업데이트 옆의 링크는 다음을 의미합니다.
@@ -1376,7 +1463,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 12월 업데이트를 통해 고객이 만족할 수 있는 매력적이고 강력한 데이터 기반 시각적 개체를 만들었습니다. 
 
-이제 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다. Windows 10을 실행 중인 경우 Windows Store에서도 **Power BI Desktop**을 구할 수 있습니다. **Power BI Desktop**을 설치하는 방법과 관계없이 버전 번호 매기기가 두 곳에서 다를 수 있지만 월별 버전은 동일합니다. 자세한 내용은 [이 문서](desktop-get-the-desktop.md)를 참조하세요. 
+이제 [최신 버전의 Power BI Desktop을 다운로드](https://powerbi.microsoft.com/desktop)할 수 있습니다. Windows 10을 실행 중인 경우 Windows Store에서도 **Power BI Desktop** 을 구할 수 있습니다. **Power BI Desktop** 을 설치하는 방법과 관계없이 버전 번호 매기기가 두 곳에서 다를 수 있지만 월별 버전은 동일합니다. 자세한 내용은 [이 문서](desktop-get-the-desktop.md)를 참조하세요. 
 
 각 업데이트 옆의 링크는 다음을 의미합니다.
 
@@ -1501,7 +1588,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 10월 업데이트는 이전보다 훨씬 유용하고 많은 도움이 되었습니다. 
 
-10월에 업데이트된 **Power BI Desktop**의 새 기능은 다음과 같습니다.
+10월에 업데이트된 **Power BI Desktop** 의 새 기능은 다음과 같습니다.
 
 ### <a name="reporting"></a>보고
 
@@ -1560,7 +1647,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 9월 업데이트는 흥미롭게 새로운 강의실에 들어가는 것과 비슷합니다. 이러한 업데이트가 도움이 되기를 바랍니다. 2번 연필처럼 유용하게 사용되기를 바랍니다. 
 
-이번 달에 다음과 같은 업데이트가 **Power BI Desktop**에 새로 제공되었습니다.
+이번 달에 다음과 같은 업데이트가 **Power BI Desktop** 에 새로 제공되었습니다.
 
 ### <a name="reporting"></a>보고
 
@@ -1608,7 +1695,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 8월 업데이트는 7월의 대규모 릴리스 직후 빠르게 이어졌습니다. 해변의 화창한 날씨처럼 이러한 업데이트를 마주하기를 바랍니다. 먼저 살짝 사용해 보면 이러한 업데이트가 적절하다고 느낄 것입니다. 
 
-8월에 업데이트되는 **Power BI Desktop**의 새 기능은 다음과 같습니다.
+8월에 업데이트되는 **Power BI Desktop** 의 새 기능은 다음과 같습니다.
 
 ### <a name="modeling"></a>모델링
 
@@ -1815,9 +1902,9 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 ## <a name="april-2018-update-2575068501"></a>2018년 4월 업데이트(2.57.5068.501)
 
-**Power BI Desktop**에 대한 4월 업데이트가 출시되었습니다. 몇몇 영역에서 업데이트를 출시했으므로 아름답고 뛰어난 시각적 개체를 사용하여 향후 보고서를 만들 수 있습니다. 
+**Power BI Desktop** 에 대한 4월 업데이트가 출시되었습니다. 몇몇 영역에서 업데이트를 출시했으므로 아름답고 뛰어난 시각적 개체를 사용하여 향후 보고서를 만들 수 있습니다. 
 
-4월에 업데이트되는 **Power BI Desktop**의 새 기능은 다음과 같습니다.
+4월에 업데이트되는 **Power BI Desktop** 의 새 기능은 다음과 같습니다.
 
 ### <a name="reporting"></a>보고
 
@@ -1862,7 +1949,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 ## <a name="march-2018-update-"></a>2018년 3월 업데이트()
 
-**Power BI Desktop**에 대한 3월 업데이트가 출시되었습니다. 3월에 업데이트되는 **Power BI Desktop**의 새 기능은 다음과 같습니다.
+**Power BI Desktop** 에 대한 3월 업데이트가 출시되었습니다. 3월에 업데이트되는 **Power BI Desktop** 의 새 기능은 다음과 같습니다.
 
 ### <a name="reporting"></a>보고
 
@@ -1971,7 +2058,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 ## <a name="january-2018-update-2544970761"></a>2018년 1월 업데이트(2.54.4970.761)
 
-Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해를 시작하며, 새해 결심은 업데이트를 계속 제공하는 것입니다.
+Microsoft는 **Power BI Desktop** 에 대한 업데이트 컬렉션으로 새해를 시작하며, 새해 결심은 업데이트를 계속 제공하는 것입니다.
 
 각 업데이트 옆의 링크는 다음을 의미합니다.
 
@@ -2032,7 +2119,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 
 처음부터 업데이트 목록 아래에 있는 비디오 이미지의 **재생** 아이콘을 클릭하여 이 문서 내의 **최신 업데이트** 비디오를 시청할 수도 있습니다.
 
-12월에 업데이트되었던 **Power BI Desktop**의 새 기능은 다음과 같습니다.
+12월에 업데이트되었던 **Power BI Desktop** 의 새 기능은 다음과 같습니다.
 
 ### <a name="reporting"></a>보고
 
@@ -2076,7 +2163,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 
 ## <a name="november-2017-update-2524921202"></a>2017년 11월 업데이트(2.52.4921.202)
 
-11월에는 **Power BI Desktop**의 전체 업데이트가 있었습니다. 
+11월에는 **Power BI Desktop** 의 전체 업데이트가 있었습니다. 
 
 각 업데이트 옆의 링크는 다음을 의미합니다.
 
@@ -2135,7 +2222,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 
 ## <a name="october-2017-update-2514885543"></a>2017년 10월 업데이트(2.51.4885.543)
 
-10월에는 **Power BI Desktop**에 매우 유용한 업데이트가 있었습니다. 
+10월에는 **Power BI Desktop** 에 매우 유용한 업데이트가 있었습니다. 
 
 각 업데이트 옆의 링크는 다음을 의미합니다.
 
@@ -2190,7 +2277,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 
 ## <a name="september-2017-update-2504859502"></a>2017년 9월 업데이트(2.50.4859.502)
 
-9월에 업데이트되는 **Power BI Desktop**의 새 기능은 다음과 같습니다.
+9월에 업데이트되는 **Power BI Desktop** 의 새 기능은 다음과 같습니다.
 
 ### <a name="report-view"></a>보고서 보기:
 
@@ -2230,7 +2317,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 
 ## <a name="august-2017-update-2494831222"></a>2017년 8월 업데이트(2.49.4831.222)
 
-8월에 업데이트되는 **Power BI Desktop**의 새 기능은 다음과 같습니다.
+8월에 업데이트되는 **Power BI Desktop** 의 새 기능은 다음과 같습니다.
 
 ### <a name="report-view"></a>보고서 보기:
 
@@ -2342,7 +2429,7 @@ Microsoft는 **Power BI Desktop**에 대한 업데이트 컬렉션으로 새해�
 ### <a name="data-connectivity"></a>데이터 연결:
 
 -   사용자 지정 데이터 커넥터 지원 [[동영상]](https://youtu.be/YlNVE5dgcSI?t=25m53s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#customConnectors)
--   **Power BI 서비스**의 온-프레미스 및 푸시 스트리밍 데이터 세트 Live Connect [[동영상]](https://youtu.be/YlNVE5dgcSI?t=26m42s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#liveConnect)
+-   **Power BI 서비스** 의 온-프레미스 및 푸시 스트리밍 데이터 세트 Live Connect [[동영상]](https://youtu.be/YlNVE5dgcSI?t=26m42s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#liveConnect)
 -   Impala 커넥터 출시 [[동영상]](https://youtu.be/YlNVE5dgcSI?t=27m20s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#impala)
 -   Amazon Redshift 커넥터 출시 [[동영상]](https://youtu.be/YlNVE5dgcSI?t=27m20s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#redshift)
 -   SAP BW 커넥터 - DirectQuery 지원 [[동영상]](https://youtu.be/YlNVE5dgcSI?t=27m45s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-feature-summary/#sapBW)
@@ -2607,7 +2694,7 @@ Power BI Desktop 11월 업데이트의 새 기능은 다음과 같습니다.
 ### <a name="analytics"></a>분석
 
 -   클러스터링(미리 보기) [[동영상]](https://youtu.be/kERJ_WOLuLk?t=8m52s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#clustering)
--   예측(현재는 **Power BI 서비스**) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#forecasting)
+-   예측(현재는 **Power BI 서비스** ) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#forecasting)
 -   그룹(리본에 제공) [[동영상]](https://youtu.be/kERJ_WOLuLk?t=13m29s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#groups)
 
 
@@ -2624,7 +2711,7 @@ Power BI Desktop 11월 업데이트의 새 기능은 다음과 같습니다.
 
 -   향상된 ‘함수 작성’ 환경 [[동영상]](https://youtu.be/kERJ_WOLuLk?t=18m3s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#functionAuthoring)
 -   ‘백분율’ 데이터 형식 지원 [[동영상]](https://youtu.be/kERJ_WOLuLk?t=18m36s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#percentage)
--   **탐색기** 및 **쿼리 종속성**에 추가된 **최대화** 및 **복원** 단추 [[동영상]](https://youtu.be/kERJ_WOLuLk?t=19m16s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#maximize)
+-   **탐색기** 및 **쿼리 종속성** 에 추가된 **최대화** 및 **복원** 단추 [[동영상]](https://youtu.be/kERJ_WOLuLk?t=19m16s) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-feature-summary/#maximize)
 
 
 > [!NOTE]
@@ -2730,12 +2817,12 @@ Power BI Desktop 11월 업데이트의 새 기능은 다음과 같습니다.
 -   추가 함수 호출 열 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
 -   확장 및 집계 열 - *더 많이 로드하기* 값에 대한 지원 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
 -   새 변환-테이블 열 목록으로 변환할 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
--   키보드 사용 - 드롭 다운 메뉴에서 *스마트 입력*에 대한 지원 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
+-   키보드 사용 - 드롭 다운 메뉴에서 *스마트 입력* 에 대한 지원 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/)
 
 
 ### <a name="other-improvements"></a>기타 개선 기능
 
--   **Power BI 커뮤니티**에 대한 제품 내 링크 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/) [[동영상]](https://youtu.be/0VvG7Eqoke8?t=16m9s)
+-   **Power BI 커뮤니티** 에 대한 제품 내 링크 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-september-feature-summary/) [[동영상]](https://youtu.be/0VvG7Eqoke8?t=16m9s)
 
 
 > [!NOTE]
@@ -2945,7 +3032,7 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
     -   쿼리를 매개 변수(또는 그 반대로) 변환하는 기능
     -   **웹** 커넥터에서 URL 매개 변수화 및 여러 부분으로 구성된 URL에 대한 지원
     -   **조건부 열** 대화 상자에서 매개 변수화에 대한 지원
--   Power BI 템플릿을 **다른 이름으로 저장**하는 기능 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
+-   Power BI 템플릿을 **다른 이름으로 저장** 하는 기능 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
 -   끌어서 놓기를 사용하여 쿼리 단계 다시 정렬에 대한 지원 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
 -   **조건부 열** 대화 입력 날짜 필드에서 날짜 선택 지원 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
 -   **쿼리** 창에서 새 쿼리를 만드는 새 상황에 맞는 메뉴 항목 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-update-feature-summary/)
@@ -3049,7 +3136,7 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
 -   **로캘로 형식 변경** 대화 상자에서 샘플 입력 값에 대한 힌트 포함
 -   **탐색기** 창에 대한 기능 향상:
     -   ODBC 원본에 대한 탐색 계층 구조에 스키마 정보 추가
-    -   **탐색기**에서 미리 보기를 사용하지 않도록 설정하는 기능
+    -   **탐색기** 에서 미리 보기를 사용하지 않도록 설정하는 기능
     -   기술 이름 지원
 -   로드: 충돌하는 열 이름(대/소문자 구분 없는 비교)을 명확히 구분하는 자동 단계
 -   이제 **쿼리** 창에서 직접 쿼리의 이름을 바꿀 수 있습니다.
@@ -3083,7 +3170,7 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
 -   향상된 리본 레이아웃 기능: 상황별 **보고서 도구** 리본 탭
 -   새로운 KPI 시각적 개체
 -   저장할 때 표시되는 동일한 페이지에 보고서 열기
--   필드 창의 테이블 컨텍스트 메뉴의 **쿼리 편집** 옵션(**보고서** & **데이터** 뷰)
+-   필드 창의 테이블 컨텍스트 메뉴의 **쿼리 편집** 옵션( **보고서** & **데이터** 뷰)
 -   리본 메뉴의 **페이지 복제**
 
 
@@ -3095,7 +3182,7 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
 ### <a name="data-connectivity"></a>데이터 연결:
 
 -   Oracle 및 Teradata용 **DirectQuery** 지원
--   **DirectQuery**에서 계산 열 만들기 지원
+-   **DirectQuery** 에서 계산 열 만들기 지원
 -   Analysis Services 라이브 보고서 게시 지원
 -   JSON 파일 커넥터
 -   SQL Sentry 커넥터
@@ -3109,8 +3196,8 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
 -   SAP HANA – **필드** 레이블 지원
 -   **열 선택** 작성기에서 사전순으로 열 정렬
 -   열의 이름 변경/제거/재정렬의 성능 개선
--   **쿼리 편집기**의 미리 보기 가상화
--   **쿼리 편집기**에서 로드되지 않은 쿼리에 대한 시각적 표시기
+-   **쿼리 편집기** 의 미리 보기 가상화
+-   **쿼리 편집기** 에서 로드되지 않은 쿼리에 대한 시각적 표시기
 -   원 클릭 백분율 변환
 
 이러한 업데이트에 대한 자세한 정보가 필요하신가요? 각각의 새로운 기능에 대한 자세한 정보를 읽을 수 있는 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-update-lots-of-new-authoring-features-and-a-new-power-bi-desktop-update/)을 살펴보세요.
@@ -3172,7 +3259,7 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
     - 시각적 개체에 표시된 소수 자릿수 변경
     - 시각적 개체의 텍스트 크기 변경
     - 시각적 개체를 정확하게 배치하는 기능: 맞춤, 분포, 크기, 위치
-    - **서식 복사**를 통해 여러 시각적 개체의 스타일 설정
+    - **서식 복사** 를 통해 여러 시각적 개체의 스타일 설정
     - 최적화된 **홈** 리본 레이아웃
 
 
@@ -3203,7 +3290,7 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
 -   [SSAS 다차원 지원 - 계층 지원](../connect-data/desktop-ssas-multidimensional.md)
 -   Stripe 커넥터
 -   Smartsheet 커넥터
--   **데이터 입력**: 데이터를 붙여넣거나 입력하여 테이블 생성
+-   **데이터 입력** : 데이터를 붙여넣거나 입력하여 테이블 생성
 -   DirectQuery 개선: 모든 유형의 T-SQL 및 SAP HANA를 지원하여 결과적으로 성능 개선
 -   ODBC 커넥터: 사용자/시스템 DSN 선택 지원
 -   CSV 커넥터: 원본 대화 상자에서 열 구분 기호를 지정하는 기능
@@ -3434,11 +3521,11 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
 
 이 업데이트에는 다음과 같은 기능이 추가되었습니다.
 
--   **새 데이터 커넥터**: appFigures, Quickbooks Online, Zendesk, GitHub, Twilio 및 SweetIQ.
+-   **새 데이터 커넥터** : appFigures, Quickbooks Online, Zendesk, GitHub, Twilio 및 SweetIQ.
 
--   **새 변환**: [텍스트 열]에서 첫 번째 문자/마지막 문자/문자 범위를 추출하는 기능, [쿼리 병합] 대화 상자에 있는 조인 유형을 지정하는 옵션, [구분 기호로 열 분할] 대화 상자에서 인용 스타일을 사용자 지정하는 기능
+-   **새 변환** : [텍스트 열]에서 첫 번째 문자/마지막 문자/문자 범위를 추출하는 기능, [쿼리 병합] 대화 상자에 있는 조인 유형을 지정하는 옵션, [구분 기호로 열 분할] 대화 상자에서 인용 스타일을 사용자 지정하는 기능
 
--   **향상된 보고서 작성 기능**: 새 시각화(영역형 차트, 폭포 차트, 도넛형 차트 및 행렬), 새 시각적 서식 지정 및 사용자 지정 옵션(레이블, 제목, 배경, 범례, 색 등), 보고서의 텍스트 상자 및 그림 삽입, 보고서 및 보고서 테이블에 대한 하이퍼링크 지원, 실행 취소/다시 실행 작업
+-   **향상된 보고서 작성 기능** : 새 시각화(영역형 차트, 폭포 차트, 도넛형 차트 및 행렬), 새 시각적 서식 지정 및 사용자 지정 옵션(레이블, 제목, 배경, 범례, 색 등), 보고서의 텍스트 상자 및 그림 삽입, 보고서 및 보고서 테이블에 대한 하이퍼링크 지원, 실행 취소/다시 실행 작업
 
 -   Analysis Services 테이블 형식 모델에 대한 **직접 보고서 탐색**
 
@@ -3450,7 +3537,7 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
 
 -   Exchange 커넥터에서 Exchange UPN 자격 증명에 대한 지원
 
-이러한 모든 새 기능 외에 **Power BI Desktop을 42개 언어로 제공**할 예정입니다. [Microsoft 공식 다운로드 페이지](https://www.microsoft.com/download/details.aspx?id=45331)에서 전체 언어 목록을 확인하고 원하는 언어 버전을 설치하세요.
+이러한 모든 새 기능 외에 **Power BI Desktop을 42개 언어로 제공** 할 예정입니다. [Microsoft 공식 다운로드 페이지](https://www.microsoft.com/download/details.aspx?id=45331)에서 전체 언어 목록을 확인하고 원하는 언어 버전을 설치하세요.
 
 자세한 내용은 다음 동영상을 참조하세요.
 
@@ -3519,9 +3606,9 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
 
 -   빈 행 제거
 
--   **그룹화 기준** 및 **집계 열**에 사용할 수 있는 중앙값 연산
+-   **그룹화 기준** 및 **집계 열** 에 사용할 수 있는 중앙값 연산
 
--   **DateTimeZone** 값을 **현지 시간**으로 변환
+-   **DateTimeZone** 값을 **현지 시간** 으로 변환
 
 **성능 개선**
 
@@ -3539,13 +3626,13 @@ Power BI Desktop에 대한 더 강력한 여러 업데이트를 제공합니다.
 
 -   **Google 분석** 커넥터
 
--   **쿼리 뷰에서의 데이터 필터링**을 위한 추가 연산자
+-   **쿼리 뷰에서의 데이터 필터링** 을 위한 추가 연산자
 
 -   **자동 모델 관계 검색**
 
 -   향상된 **관계 추가** 대화 상자
 
--   **보고서 페이지 다시 정렬**(끌어서 놓기)
+-   **보고서 페이지 다시 정렬** (끌어서 놓기)
 
 -   필터/변환 없이 데이터베이스 테이블 채우기 **성능** 40~50% **개선**
 

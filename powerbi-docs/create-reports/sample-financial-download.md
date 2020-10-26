@@ -2,26 +2,36 @@
 title: Power BI용 재무 샘플 Excel 통합 문서 다운로드
 description: Power BI용 재무 샘플 통합 문서 다운로드
 author: maggiesMSFT
-ms.reviewer: ''
+ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: sample
-ms.date: 07/21/2020
+ms.date: 10/13/2020
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 99d4b7a2fa51673688c3e673fddf67664f3231d9
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 46f6179edc63b0a865043674b22ffe88e813a3b4
+ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86953079"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92255965"
 ---
 # <a name="download-the-financial-sample-excel-workbook-for-power-bi"></a>Power BI용 재무 샘플 Excel 통합 문서 다운로드
-Power BI Desktop 및 Power BI 서비스에서 사용해 볼 데이터가 필요합니까? 샘플 재무 데이터의 간단한 Excel 통합 문서를 다운로드할 수 있습니다. [재무 샘플 Excel 통합 문서](https://go.microsoft.com/fwlink/?LinkID=521962).
+Power BI 서비스를 사용해 볼 데이터가 필요하나요? 샘플 재무 데이터의 간단한 Excel 통합 문서가 있습니다. 이 통합 문서에는 시장 부문과 국가별로 정렬된 판매 및 수익 데이터가 있습니다. 
 
-이 통합 문서에는 시장 부문과 국가별로 정렬된 판매 및 수익 데이터가 있습니다.
+## <a name="download-it-directly"></a>직접 다운로드
 
-### <a name="next-steps"></a>다음 단계
+직접 다운로드할 수 있습니다. [재무 샘플 Excel 통합 문서](https://go.microsoft.com/fwlink/?LinkID=521962).
+
+## <a name="get-the-sample-in-power-bi-desktop"></a>Power BI Desktop에서 샘플 가져오기
+
+Power BI Desktop에서 다운로드할 수도 있습니다. 노란색 시작 화면 또는 빈 캔버스에서 **샘플 데이터 세트** 를 선택합니다.
+
+:::image type="content" source="media/desktop-excel-stunning-report/power-bi-desktop-canvas-sample-dataset.png" alt-text="캔버스에서 샘플 데이터 세트 사용해 보기의 스크린샷."::: 
+
+샘플 데이터 세트 대화 상자에서 이 자습서를 배치한 경우 계속하여 **데이터** 로드를 선택합니다.
+
+## <a name="next-steps"></a>다음 단계
 
 해당 재무 샘플 데이터를 사용하는 두 가지 자습서는 다음과 같습니다.
 

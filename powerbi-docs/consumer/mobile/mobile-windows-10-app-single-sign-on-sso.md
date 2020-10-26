@@ -8,23 +8,23 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 4202d2c7e4c87f8085a04af9922cf7cc6c55fbfd
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 41ddc6e0c9a4f4f2c9b5687194e043bb1ef80bec
+ms.sourcegitcommit: 6b436f6ed872cbc040ed6e2d3ac089c08fc78daf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860190"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "91928266"
 ---
 # <a name="single-sign-on-in-the-power-bi-mobile-windows-app"></a>Power BI 모바일 Windows 앱의 Single Sign-On
 
 Power BI 모바일 Windows 앱의 SSO(Single Sign-On)에 대해 읽어 보세요. SSO는 단일 사용자 계정으로 한 번만 로그인하여 비즈니스를 수행하는 데 필요한 모든 애플리케이션 및 리소스에 액세스하는 것을 의미합니다. 로그인하면 다시 인증하지 않고도 모든 애플리케이션에 액세스할 수 있습니다. 
 
-Power BI Windows 앱은 Azure Active Directory에 통합되어 있으므로 기본 조직 계정을 사용하여 도메인에 가입된 디바이스에 로그인할 뿐 아니라 Power BI 서비스에도 로그인할 수 있습니다. Windows 휴대폰에서 Power BI를 보는 경우 Power BI에 사용하는 계정은 디바이스 설정에서 회사 또는 학교 계정으로 구성되어야 합니다.  
+Power BI Windows 앱은 Azure Active Directory에 통합되어 있으므로 기본 조직 계정을 사용하여 도메인에 가입된 디바이스에 로그인할 뿐 아니라 Power BI 서비스에도 로그인할 수 있습니다. Windows 휴대폰에서 Power BI를 보는 경우 Power BI에 사용하는 계정이 디바이스 설정에서 회사 또는 학교 계정으로 구성되어 있는지 확인합니다.  
 
-SSO는 Microsoft Azure Active Directory에서 관리하는 Windows 디바이스에만 사용할 수 있습니다.
+SSO는 Azure Active Directory에서 관리하는 Windows 디바이스에만 사용할 수 있습니다.
 
 >[!NOTE]
->**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
+>**Windows 10 Mobile을 사용하는 휴대폰** 용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="sign-in-with-sso"></a>SSO로 로그인
 
@@ -32,7 +32,7 @@ SSO는 Microsoft Azure Active Directory에서 관리하는 Windows 디바이스�
 
 이미 Windows용 Power BI 모바일 앱을 사용하고 있는 경우 새 버전의 앱으로 업그레이드하면 SSO를 사용할 수도 있습니다. 앱에서 로그아웃하고 앱을 닫았다가 다시 엽니다. 앱이 다시 열리면 앱은 현재 Windows 자격 증명을 사용하여 Power BI 서비스에 자동으로 인증을 시도합니다. 
 
-Power BI에 로그인하는 데 현재 Windows 활성 세션 자격 증명을 사용하지 않으려면 **설정**으로 이동하고, 로그아웃한 후, 다른 자격 증명으로 로그인하면 됩니다. 
+Power BI에 로그인하는 데 현재 Windows 활성 세션 자격 증명을 사용하지 않으려면 **설정** 으로 이동하고, 로그아웃한 후, 다른 자격 증명으로 로그인하면 됩니다. 
  
 ## <a name="next-steps"></a>다음 단계
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 03/27/2020
-ms.openlocfilehash: 3f3574545d82ac11c762b7011afdc49cbe855224
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 3a68f3dedbef9e97b6c29d3a0923d43872a5f01a
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83141160"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92048812"
 ---
 # <a name="add-colors-to-your-power-bi-visuals"></a>Power BI 시각적 개체에 색 추가
 
@@ -23,7 +23,7 @@ ms.locfileid: "83141160"
 이 문서의 예제 코드는 [SampleBarChart 시각적 개체](https://github.com/microsoft/PowerBI-visuals-sampleBarChart)를 수정합니다.
 소스 코드는 [barChart.ts](https://github.com/microsoft/PowerBI-visuals-sampleBarChart/blob/master/src/barChart.ts)를 참조하세요.
 
-시각적 개체 만들기를 시작하려면 [Power BI 시각적 개체 개발](custom-visual-develop-tutorial.md)을 참조하세요.
+시각적 개체 만들기를 시작하려면 [Power BI 원 카드 시각적 개체 개발](develop-circle-card.md)을 참조하세요.
 
 ## <a name="add-color-to-data-points"></a>데이터 요소에 색 추가
 

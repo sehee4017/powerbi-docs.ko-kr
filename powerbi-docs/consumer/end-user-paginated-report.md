@@ -6,43 +6,54 @@ ms.reviewer: christopher.finlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 09/09/2020
+ms.date: 10/11/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 95b4b423b1dffb51d00760a97d21f2bf52df39d8
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 15482b575d7fc923059964ea47a173fda6c7f600
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860328"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983181"
 ---
 # <a name="paginated-reports-in-the-power-bi-service"></a>Power BI 서비스의 페이지를 매긴 보고서
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
-지금까지 [Power BI 보고서](end-user-reports.md)에 대해 알아보았습니다. Power BI 보고서는 사용자가 가장 자주 사용하게 되는 유형의 보고서입니다. 이 외에도 *페이지를 매긴 보고서*라는 유형의 보고서가 있습니다. 보고서 *디자이너*가 프리미엄 용량 작업 영역에서 또는 이 작업 영역에 있는 앱에서 사용자에게 페이지를 매긴 보고서를 공유하는 경우가 있습니다. 
+지금까지 [Power BI 보고서](end-user-reports.md)에 대해 알아보았습니다. Power BI 보고서는 사용자가 가장 자주 사용하게 되는 유형의 보고서입니다. Power BI 보고서는 탐색 및 대화형 작업에 최적화되어 있습니다. 여러 영업 사원이 특정 지역/산업/고객에 대해 동일한 보고서의 데이터를 분할하여 수치가 어떻게 변경되는지 확인하려는 영업 보고서로는 Power BI 보고서가 가장 적합합니다.
 
-## <a name="what-is-a-paginated-report"></a>페이지를 매긴 보고서란?
-
-이러한 보고서를 *‘페이지를 매긴’* 보고서라고 하는 이유는 인쇄된 페이지에 잘 맞춰지도록 서식이 지정되었기 때문입니다. 페이지를 매긴 보고서는 테이블이 여러 페이지에 걸쳐 나타나는 경우에도 테이블의 모든 데이터가 표시된다는 장점이 있습니다. 페이지를 매긴 보고서는 보고서 *디자이너*가 보고서 페이지 레이아웃을 정확하게 제어할 수 있기 때문에 이러한 보고서를 “픽셀 수준까지 완벽하다”라고도 합니다.
-
-보고서 *디자이너*가 페이지를 매긴 보고서를 만든다는 것은 실제로는 *보고서 정의*를 만든다는 것과 같습니다. 보고서 정의는 데이터를 포함하지 않습니다. 데이터를 가져올 위치, 가져올 데이터 및 데이터 표시 방법을 지정합니다. 보고서를 실행하면 보고서 처리기가 보고서 정의를 받아서 데이터를 가져오고 이를 보고서 레이아웃과 결합하여 보고서를 생성합니다. 보고서가 기본 데이터를 표시하는 경우도 있고 보고서가 데이터를 표시하려면 사용자가 먼저 매개 변수를 입력해야 하는 경우도 있습니다. 
-
-   ![보고서의 매개 변수](./media/end-user-paginated-report/power-bi-report-parameters.png)
-
-이처럼 매개 변수를 설정하는 것이 페이지를 매긴 보고서에서 요구되는 상호 작용의 범위입니다. 청구 분석가는 페이지를 매긴 보고서를 사용하여 청구서를 만들거나 인쇄할 수 있습니다. 판매 관리자는 페이지를 매긴 보고서를 사용하여 매장이나 판매원을 기준으로 주문을 확인할 수 있습니다. 
-
-아래의 간단한 페이지를 매긴 보고서는 사용자가 **Year**(연도) 매개 변수를 선택하면 해당 연도의 이익을 표시합니다. 
-
-![1개의 매개 변수가 있는 간단한 보고서](./media/end-user-paginated-report/power-bi-report-simple.png)
-
-페이지를 매신 보고서와 비교해 보면 Power BI 보고서는 훨씬 더 많은 상호 작용이 수반됩니다. Power BI 보고서는 임시 보고를 지원하며, 사용자 지정 시각적 개체를 비롯해 훨씬 더 많은 유형의 시각적 개체를 지원합니다.
+이 외에도 *페이지를 매긴 보고서* 라는 유형의 보고서가 있습니다. 페이지가 매겨진 보고서를 받고 보려면 보고서를 프리미엄 용량으로 저장하기 위한 Power BI Pro 라이선스가 필요합니다.  [라이선스에 대해 알아봅니다](end-user-license.md).  
 
 ## <a name="identify-a-paginated-report"></a>페이지를 매긴 보고서 식별하기
 
-콘텐츠 목록과 홈 시작 페이지에서는 아이콘 ![페이지를 매긴 보고서 아이콘](media/end-user-paginated-report/power-bi-report-icon.png)을 보고 페이지를 매긴 보고서를 식별할 수 있습니다.  페이지를 매긴 보고서는 사용자에게 직접 공유될 수도 있고 [Power BI 앱](end-user-apps.md)의 일부로 공유될 수도 있습니다. 보고서 *디자이너*가 권한을 부여한 경우, 페이지를 매긴 보고서를 다시 공유하고 본인과 다른 사용자가 구독하도록 할 수 있습니다.
+콘텐츠 목록과 홈 시작 페이지에서는 아이콘 ![페이지를 매긴 보고서 아이콘](media/end-user-paginated-report/power-bi-report-icon.png)을 보고 페이지를 매긴 보고서를 식별할 수 있습니다.  페이지를 매긴 보고서는 사용자에게 직접 공유될 수도 있고 [Power BI 앱](end-user-apps.md)의 일부로 공유될 수도 있습니다. 보고서 *디자이너* 가 권한을 부여한 경우, 페이지를 매긴 보고서를 다시 공유하고 본인과 다른 사용자가 구독하도록 할 수 있습니다.
 
-![여러 아이콘이 표시된 보고서 목록](./media/end-user-paginated-report/power-bi-report-list.png)
+
+![하나의 표준 보고서와 하나의 페이지가 매겨진 보고서가 있는 보고서 목록입니다.](./media/end-user-paginated-report/power-bi-report-lists.png)
+
+## <a name="what-is-a-paginated-report"></a>페이지를 매긴 보고서란?
+
+이러한 보고서를 *‘페이지를 매긴’* 보고서라고 하는 이유는 인쇄된 페이지에 잘 맞춰지도록 서식이 지정되었기 때문입니다. 페이지를 매긴 보고서는 테이블이 여러 페이지에 걸쳐 나타나는 경우에도 테이블의 모든 데이터가 표시된다는 장점이 있습니다. 페이지를 매긴 보고서는 보고서 *디자이너* 가 보고서 페이지 레이아웃을 정확하게 제어하기 때문에 이러한 보고서를 “픽셀 수준까지 완벽하다”라고도 합니다.
+
+페이지를 매긴 보고서는 인쇄 또는 PDF 생성에 최적화된 정교한 서식의 완벽한 픽셀 출력이 요구되는 시나리오에 가장 적합합니다. 손익 계산서는 페이지를 매긴 보고서로 보려는 보고서 종류의 좋은 예입니다.
+
+## <a name="how-do-paginated-reports-work"></a>페이지를 매긴 보고서는 어떻게 작동하나요?
+
+보고서 *디자이너* 가 페이지를 매긴 보고서를 만든다는 것은 실제로는 *보고서 정의* 를 만든다는 것과 같습니다. 보고서 정의는 데이터를 포함하지 않습니다. 데이터를 가져올 위치, 가져올 데이터 및 데이터 표시 방법을 지정합니다. 보고서를 실행하면 보고서 처리기가 보고서 정의를 받아서 데이터를 가져오고 이를 보고서 레이아웃과 결합하여 보고서를 생성합니다. 경우에 따라 보고서에 기본 데이터가 표시됩니다. 보고서가 데이터를 표시하려면 사용자가 먼저 매개 변수를 입력해야 하는 경우도 있습니다. 
+
+페이지를 매긴 보고서를 선택하여 Power BI 서비스에서 엽니다. 매개 변수가 있는 경우 보고서를 보려면 먼저 매개 변수를 선택해야 합니다.
+
+   ![보고서의 매개 변수](./media/end-user-paginated-report/power-bi-select-parameters.png)
+
+이처럼 매개 변수를 설정하는 것이 페이지를 매긴 보고서에서 요구되는 상호 작용의 범위입니다. 청구 분석가는 페이지를 매긴 보고서를 사용하여 청구서를 만들거나 인쇄할 수 있습니다. 판매 관리자는 페이지를 매긴 보고서를 사용하여 매장이나 판매원을 기준으로 주문을 확인할 수 있습니다. 
+
+아래의 간단한 페이지를 매긴 보고서는 사용자가 **Year** (연도) 매개 변수를 선택하면 해당 연도의 이익을 표시합니다. 
+
+![1개의 매개 변수가 있는 간단한 보고서](./media/end-user-paginated-report/power-bi-one-parameter.png)
+
+페이지를 매신 보고서와 비교해 보면 Power BI 보고서는 훨씬 더 많은 상호 작용이 수반됩니다. Power BI 보고서는 임시 보고를 지원하며, 사용자 지정 시각적 개체를 비롯해 훨씬 더 많은 유형의 시각적 개체를 지원합니다.
+
+
 
 ## <a name="interact-with-a-paginated-report"></a>페이지를 매긴 보고서에서 상호 작용하기
 
@@ -61,35 +72,35 @@ ms.locfileid: "90860328"
 
 아래 판매 주문 보고서에는 Business type(비즈니스 유형), Reseller(재판매인), Order number(주문 번호)라는 3개의 매개 변수가 있습니다. 
 
-![3개의 매개 변수가 있는 보고서](./media/end-user-paginated-report/power-bi-parameter.png)
+![3개의 매개 변수가 있는 보고서](./media/end-user-paginated-report/power-bi-parameter-bar.png)
 
-표시되는 정보를 변경하려면 3개의 매개 변수에 다른 값을 입력하고 **보고서 보기**를 선택합니다. 여기서는 **Specialty bike shop**(전문 자전거 상점), **Alpine Ski House**(알파인 스키하우스), 주문 번호 **SO46085**를 선택했습니다. **보고서 보기**를 선택하면 보고서 캔버스가 새로운 판매 주문으로 새로 고침됩니다.
+표시되는 정보를 변경하려면 3개의 매개 변수에 다른 값을 입력하고 **보고서 보기** 를 선택합니다. 여기서는 **Specialty bike shop** (전문 자전거 상점), **Alpine Ski House** (알파인 스키하우스), 주문 번호 **SO46085** 를 선택했습니다. **보고서 보기** 를 선택하면 보고서 캔버스가 새로운 판매 주문으로 새로 고침됩니다.
 
-![매개 변수 변경](./media/end-user-paginated-report/power-bi-order.png)
+![매개 변수 변경](./media/end-user-paginated-report/power-bi-orders.png)
 
 앞에서 선택한 매개 변수를 바탕으로 새로운 판매 주문이 표시됩니다. 
 
-![새로운 판매 주문](./media/end-user-paginated-report/power-bi-new-order.png)
+![새로운 판매 주문](./media/end-user-paginated-report/power-bi-new-orders.png)
 
 페이지가 여러 개인 페이지를 매긴 보고서도 있습니다.  페이지 컨트롤을 사용하여 보고서를 탐색합니다. 
 
-![페이지 컨트롤](./media/end-user-paginated-report/power-bi-page.png)
+![페이지 컨트롤](./media/end-user-paginated-report/power-bi-page-control.png)
 
 ### <a name="export-the-paginated-report"></a>페이지를 매긴 보고서 내보내기
 페이지를 매긴 보고서는 PDF, Word, XML, PowerPoint, Excel과 같은 다양한 형식으로 내보낼 수 있습니다. 보고서를 내보낼 때는 서식의 되도록 많은 부분이 그대로 유지됩니다. Excel, Word, PowerPoint, MHTML, PDF로 내보내진 페이지를 매긴 보고서는 “픽셀 수준까지 완벽한” 서식을 유지합니다. 
 
-![내보내기된 페이지가 매겨진 보고서를 보여 주는 스크린샷](./media/end-user-paginated-report/power-bi-exporting.png)
+![내보내기된 페이지가 매겨진 보고서를 보여 주는 스크린샷](./media/end-user-paginated-report/power-bi-export-choices.png)
 
 ![4가지 내보내기 유형](./media/end-user-paginated-report/power-bi-four.png)
 
 ### <a name="subscribe-to-the-paginated-report"></a>페이지를 매긴 보고서 구독하기
 페이지를 매긴 보고서를 구독하면 Power BI에서 보고서가 파일로 첨부된 메일이 발송됩니다. 구독을 설정할 때 매일, 매주, 매시간, 매월 중에서 메일을 받아 볼 빈도를 선택할 수 있습니다. 구독은 전체 보고서 출력을 최대 25MB까지 첨부 파일로 포함합니다. 전체 보고서를 내보내거나 미리 매개 변수를 선택할 수 있습니다. Excel, PDF, PowerPoint와 같은 여러 첨부 파일 유형을 선택할 수 있습니다.  
 
-![구독 형식](./media/end-user-paginated-report/power-bi-export-list.png)
+![구독 형식](./media/end-user-paginated-report/power-bi-export-choices.png)
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
 
-- 페이지를 매긴 보고서는 사용자가 매개 변수를 선택하고 **보고서 보기**를 선택하기 전까지 빈 상태로 표시될 수 있습니다.
+- 페이지를 매긴 보고서는 사용자가 매개 변수를 선택하고 **보고서 보기** 를 선택하기 전까지 빈 상태로 표시될 수 있습니다.
 
 - 페이지를 매긴 보고서가 없다면 나에게 페이지를 매긴 보고서를 공유한 사람이 없기 때문일 수 있습니다. 또는 내가 페이지를 매긴 보고서를 볼 수 있도록 시스템 관리자가 설정하지 않았기 때문일 수도 있습니다. 
 

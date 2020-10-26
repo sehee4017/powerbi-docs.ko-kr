@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/30/2020
-ms.openlocfilehash: 0160bf604b23102bcb6e21232a64a776f3bb8290
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 653724c6028b5be950c09c9361cdb43edc930e3a
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746266"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049065"
 ---
 # <a name="tutorial-create-a-react-based-visual"></a>자습서:  React 기반 시각적 개체 만들기
 
@@ -36,8 +36,8 @@ ms.locfileid: "91746266"
 
 * **Power BI Pro** 계정. 시작하기 전에 [무료 평가판에 등록](https://powerbi.microsoft.com/pricing/)하세요.
 * [Visual Studio Code](https://www.visualstudio.com/)
-* Windows 사용자의 경우 [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell?view=powershell-6) 버전 4 이상, OSX 사용자의 경우 [터미널](https://macpaw.com/how-to/use-terminal-on-mac)
-* [개발자 환경 설정](custom-visual-develop-tutorial.md#setting-up-the-developer-environment)에 설명된 환경
+* Windows 사용자의 경우 [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell) 버전 4 이상, OSX 사용자의 경우 [터미널](https://macpaw.com/how-to/use-terminal-on-mac)
+* [Power BI 시각적 개체 개발을 위한 환경 설정](environment-setup.md)에 설명된 환경입니다.
 
 ## <a name="getting-started"></a>시작
 
@@ -51,7 +51,7 @@ ms.locfileid: "91746266"
    pbiviz new ReactCircleCard
    ```
 
-   이 명령은 *ReactCircleCard*라는 폴더를 만듭니다.
+   이 명령은 *ReactCircleCard* 라는 폴더를 만듭니다.
 
 1. 디렉터리를 해당 폴더로 변경하고 Visual Studio Code를 엽니다.
 
@@ -86,7 +86,7 @@ ms.locfileid: "91746266"
    npm i @types/react @types/react-dom
    ```
 
-1. React 구성 요소 클래스를 만듭니다. Visual Studio Code에서 **파일** > **새 파일**을 선택합니다. 다음 코드를 파일에 복사합니다.
+1. React 구성 요소 클래스를 만듭니다. Visual Studio Code에서 **파일** > **새 파일** 을 선택합니다. 다음 코드를 파일에 복사합니다.
 
     ```typescript
     import * as React from "react";
@@ -104,9 +104,9 @@ ms.locfileid: "91746266"
     export default ReactCircleCard;
     ```
 
-1. **다른 이름으로 저장**을 선택합니다. *src* 디렉터리로 이동합니다. ‘구성 요소’ 이름을 입력합니다. **파일 형식**에서 **TypeScript React**를 선택합니다.
+1. **다른 이름으로 저장** 을 선택합니다. *src* 디렉터리로 이동합니다. ‘구성 요소’ 이름을 입력합니다. **파일 형식** 에서 **TypeScript React** 를 선택합니다.
 
-1. *src/visual.ts*를 엽니다. 현재 코드를 다음 코드로 바꿉니다.
+1. *src/visual.ts* 를 엽니다. 현재 코드를 다음 코드로 바꿉니다.
 
     ```typescript
     "use strict";
@@ -179,7 +179,7 @@ ms.locfileid: "91746266"
     ```
 
    > [!NOTE]
-   > 이전에 `pbiviz`를 실행한 경우에는 다시 시작하여 *tsconfig.json*에서 변경 내용을 적용해야 합니다.
+   > 이전에 `pbiviz`를 실행한 경우에는 다시 시작하여 *tsconfig.json* 에서 변경 내용을 적용해야 합니다.
 
   ![시각적 개체의 hello React 메시지](./media/create-react-visual/hello-react-message-visual.png)
 
@@ -232,7 +232,7 @@ ms.locfileid: "91746266"
 
 React를 사용하여 데이터를 렌더링할 수 있습니다. 구성 요소는 자체 상태의 데이터를 표시할 수 있습니다.
 
-1. *src/component.tsx*를 수정합니다.
+1. *src/component.tsx* 를 수정합니다.
 
     ```javascript
     export interface State {
@@ -267,7 +267,7 @@ React를 사용하여 데이터를 렌더링할 수 있습니다. 구성 요소�
     }
     ```
 
-1. *styles/visual.less*를 편집하여 새 태그의 스타일을 추가합니다.
+1. *styles/visual.less* 를 편집하여 새 태그의 스타일을 추가합니다.
 
     ```css
     .circleCard {
@@ -291,7 +291,7 @@ React를 사용하여 데이터를 렌더링할 수 있습니다. 구성 요소�
     }
     ```
 
-1. 시각적 개체는 현재 데이터를 `update` 메서드의 인수로 받습니다. *src/visual.ts*를 열고 `ReactCircleCard.update`에 코드를 추가합니다.
+1. 시각적 개체는 현재 데이터를 `update` 메서드의 인수로 받습니다. *src/visual.ts* 를 열고 `ReactCircleCard.update`에 코드를 추가합니다.
 
     ```typescript
     //...
@@ -355,7 +355,7 @@ React를 사용하여 데이터를 렌더링할 수 있습니다. 구성 요소�
 
 `options` 개체에서 시각적 개체 뷰포트의 현재 크기를 가져옵니다.
 
-1. *src/visual.ts*를 엽니다. `IViewport` 인터페이스를 가져오고 `viewport` 속성을 `visual` 클래스에 추가합니다.
+1. *src/visual.ts* 를 엽니다. `IViewport` 인터페이스를 가져오고 `viewport` 속성을 `visual` 클래스에 추가합니다.
 
     ```typescript
     import IViewport = powerbi.IViewport;
@@ -385,7 +385,7 @@ React를 사용하여 데이터를 렌더링할 수 있습니다. 구성 요소�
       }
     ```
 
-1. *src/component.tsx*에서 `State` 인터페이스에 속성을 추가합니다.
+1. *src/component.tsx* 에서 `State` 인터페이스에 속성을 추가합니다.
 
     ```typescript
     export interface State {
@@ -399,7 +399,7 @@ React를 사용하여 데이터를 렌더링할 수 있습니다. 구성 요소�
     }
     ```
 
-1. *src/component.tsx*에서 `render` 메서드를 다음과 같이 변경합니다.
+1. *src/component.tsx* 에서 `render` 메서드를 다음과 같이 변경합니다.
 
     ```typescript
         render() {
@@ -415,7 +415,7 @@ React를 사용하여 데이터를 렌더링할 수 있습니다. 구성 요소�
         }
     ```
 
-1. *style/visual.less*의 `width` 및 `height` 규칙을 `min-width` 및 `min-height`으로 바꿉니다.
+1. *style/visual.less* 의 `width` 및 `height` 규칙을 `min-width` 및 `min-height`으로 바꿉니다.
 
     ```css
         min-width: 200px;
@@ -428,7 +428,7 @@ React를 사용하여 데이터를 렌더링할 수 있습니다. 구성 요소�
 
 이 섹션에서는 시각적 개체를 사용자 지정할 수 있도록 설정합니다.
 
-1. *capabilities.json*을 엽니다. `objects` 속성에 다음 설정을 추가합니다.
+1. *capabilities.json* 을 엽니다. `objects` 속성에 다음 설정을 추가합니다.
 
     ```json
     //...
@@ -460,7 +460,7 @@ React를 사용하여 데이터를 렌더링할 수 있습니다. 구성 요소�
     //...
     ```
 
-1. *src/settings.ts*의 기존 코드를 다음 코드로 바꿉니다.
+1. *src/settings.ts* 의 기존 코드를 다음 코드로 바꿉니다.
 
     ```typescript
     "use strict";
@@ -478,7 +478,7 @@ React를 사용하여 데이터를 렌더링할 수 있습니다. 구성 요소�
     }
     ```
 
-1. *src/visual.ts*의 맨 위에 다음 `import` 문을 추가합니다.
+1. *src/visual.ts* 의 맨 위에 다음 `import` 문을 추가합니다.
 
     ```typescript
     import VisualObjectInstance = powerbi.VisualObjectInstance;
@@ -489,7 +489,7 @@ React를 사용하여 데이터를 렌더링할 수 있습니다. 구성 요소�
 
     ```
 
-1. *src/visual.ts*에 `enumerateObjectInstances` 메서드를 추가합니다. 이 메서드는 시각적 개체 설정을 적용하는 데 사용됩니다.
+1. *src/visual.ts* 에 `enumerateObjectInstances` 메서드를 추가합니다. 이 메서드는 시각적 개체 설정을 적용하는 데 사용됩니다.
 
     ```typescript
     export class Visual implements IVisual {
@@ -526,7 +526,7 @@ React를 사용하여 데이터를 렌더링할 수 있습니다. 구성 요소�
     }
     ```
 
-1. 먼저 `State`에 다음 값을 추가하여 *src/component.tsx*에 해당 변경 내용을 적용합니다.
+1. 먼저 `State`에 다음 값을 추가하여 *src/component.tsx* 에 해당 변경 내용을 적용합니다.
 
     ```typescript
     export interface State {

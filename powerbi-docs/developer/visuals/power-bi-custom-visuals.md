@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: overview
 ms.date: 07/14/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e56b03eeccc3140709fb458d4e42a9065a4da5d4
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 62a88a8267ae38b1dbfc0bbb0ee1d9020e7f9408
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87538013"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049249"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI의 시각적 개체
 
@@ -29,11 +29,11 @@ Microsoft [AppSource](https://nam06.safelinks.protection.outlook.com/?url=https%
 
 ## <a name="default-power-bi-visuals"></a>기본 Power BI 시각적 개체
 
-기본 제공되는 Power BI 시각적 개체는 *Power BI Desktop* 및 *Power BI 서비스*의 시각화 창에서 사용할 수 있습니다.
+기본 제공되는 Power BI 시각적 개체는 *Power BI Desktop* 및 *Power BI 서비스* 의 시각화 창에서 사용할 수 있습니다.
 
-Power BI 시각적 개체를 시각화 창에서 고정 해제하려면 해당 시각적 개체를 마우스 오른쪽 단추로 클릭하고 **고정 해제**를 선택합니다.
+Power BI 시각적 개체를 시각화 창에서 고정 해제하려면 해당 시각적 개체를 마우스 오른쪽 단추로 클릭하고 **고정 해제** 를 선택합니다.
 
-시각화 창에서 기본 Power BI 시각적 개체를 복원하려면 **사용자 지정 시각적 개체 가져오기**를 클릭하고 **기본 시각적 개체 복원**을 선택합니다. 
+시각화 창에서 기본 Power BI 시각적 개체를 복원하려면 **사용자 지정 시각적 개체 가져오기** 를 클릭하고 **기본 시각적 개체 복원** 을 선택합니다. 
 
 ## <a name="appsource-power-bi-visuals"></a>AppSource Power BI 시각적 개체
 
@@ -56,13 +56,13 @@ Microsoft 및 커뮤니티 멤버는 공익을 위해 Power BI 시각적 개체 
 
 ### <a name="samples-for-power-bi-visuals"></a>Power BI 시각적 개체의 샘플
 
-AppSource에 있는 각각의 Power BI 시각적 개체에는 해당 시각적 개체의 작동 방식을 보여 주는 데이터 샘플이 있습니다. 샘플을 다운로드하려면 [AppSource](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fappsource.microsoft.com%2Fen-us%2Fmarketplace%2Fapps%3Fpage%3D1%26product%3Dpower-bi-visuals&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C6d9286afacb3468d4cde08d740b76694%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637049028749147718&sdata=igWm0e1vXdgGcbyvngQBrHQVAkahPnxPC1ZhUPntGI8%3D&reserved=0)에서 Power BI 시각적 개체를 선택하고 ‘샘플 사용해 보기’ 섹션에서 **샘플 보고서**를 클릭합니다.
+AppSource에 있는 각각의 Power BI 시각적 개체에는 해당 시각적 개체의 작동 방식을 보여 주는 데이터 샘플이 있습니다. 샘플을 다운로드하려면 [AppSource](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fappsource.microsoft.com%2Fen-us%2Fmarketplace%2Fapps%3Fpage%3D1%26product%3Dpower-bi-visuals&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C6d9286afacb3468d4cde08d740b76694%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637049028749147718&sdata=igWm0e1vXdgGcbyvngQBrHQVAkahPnxPC1ZhUPntGI8%3D&reserved=0)에서 Power BI 시각적 개체를 선택하고 ‘샘플 사용해 보기’ 섹션에서 **샘플 보고서** 를 클릭합니다.
 
 ## <a name="organizational-store"></a>조직의 저장소
 
 Power BI 관리자는 Power BI 시각적 개체를 승인하고 조직에 배포합니다. 이렇게 하면 보고서 작성자가 쉽게 Power BI 시각적 개체를 발견하고, 업데이트하고, 사용할 수 있습니다. 관리자는 버전을 업데이트하고 Power BI 시각적 개체를 사용하도록 설정하거나 사용하지 않도록 설정하는 등의 작업을 통해 쉽게 시각적 개체를 관리할 수 있습니다.
 
-조직의 저장소에 액세스하려면 ‘시각화’ 창에서 **사용자 지정 시각적 개체 가져오기**를 클릭하고 **마켓플레이스에서 가져오기**를 선택한 후 ‘Power BI 시각적 개체’ 창 맨 위에 있는 **내 조직** 탭을 선택합니다. 
+조직의 저장소에 액세스하려면 ‘시각화’ 창에서 **사용자 지정 시각적 개체 가져오기** 를 클릭하고 **마켓플레이스에서 가져오기** 를 선택한 후 ‘Power BI 시각적 개체’ 창 맨 위에 있는 **내 조직** 탭을 선택합니다. 
 
 [조직 시각적 개체에 대해 자세히 알아봅니다](power-bi-custom-visuals-organization.md).
 
@@ -70,9 +70,9 @@ Power BI 관리자는 Power BI 시각적 개체를 승인하고 조직에 배포
 
 Power BI 시각적 개체는 제공되는 데이터를 렌더링하기 위한 코드가 포함된 패키지입니다. 누구나 사용자 지정 시각적 개체를 만들고 단일 `.pbiviz` 파일로 패키지화한 다음, Power BI 보고서로 가져올 수 있습니다.
 
-Power BI 시각적 개체를 가져오려면 ‘시각화’ 창에서 **사용자 지정 시각적 개체 가져오기**를 클릭하고 **파일에서 가져오기**를 선택합니다.
+Power BI 시각적 개체를 가져오려면 ‘시각화’ 창에서 **사용자 지정 시각적 개체 가져오기** 를 클릭하고 **파일에서 가져오기** 를 선택합니다.
 
-고유한 시각적 개체를 만들어 AppSource에 추가하려는 웹 개발자인 경우 [Power BI 시각적 개체를 개발](custom-visual-develop-tutorial.md)하고 [Power BI 시각적 개체를 AppSource에 게시](office-store.md)하는 방법을 배울 수 있습니다.
+고유한 시각적 개체를 만들어 AppSource에 추가하려는 웹 개발자인 경우 [Power BI 원 카드 시각적 개체를 개발](develop-circle-card.md)하고 [Power BI 시각적 개체를 AppSource에 게시](office-store.md)하는 방법을 배울 수 있습니다.
 
 > [!WARNING]
 > Power BI 시각적 개체에는 보안 또는 개인 정보 위험이 있는 코드가 포함되어 있을 수 있습니다. 보고서로 가져오기 전에 작성자 및 Power BI 시각적 개체 원본을 신뢰할 수 있는지 확인합니다.
@@ -80,7 +80,7 @@ Power BI 시각적 개체를 가져오려면 ‘시각화’ 창에서 **사용�
 ## <a name="next-steps"></a>다음 단계
 
 >[!div class="nextstepaction"]
->[Power BI 시각적 개체 개발](custom-visual-develop-tutorial.md)
+>[Power BI 원 카드 시각적 개체 개발](develop-circle-card.md)
 
 >[!div class="nextstepaction"]
 >[Power BI 시각적 개체 프로젝트 구조](visual-project-structure.md)

@@ -1,21 +1,21 @@
 ---
-title: 소비자를 위한 Power BI의 시각적 개체 유형
+title: 비즈니스 사용자를 위한 Power BI의 시각적 개체 유형
 description: Power BI 서비스의 시각적 개체 유형
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 06/24/2020
+ms.date: 10/07/2020
 ms.author: mihart
 ms.custom: contperfq4
 LocalizationGroup: Consumer
-ms.openlocfilehash: 05aab15b3807429c20b0ff72a7bfce21b3e25b12
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 6d2ded8060ebe663989fd4f91fc22e4163f60c93
+ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526884"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "91830646"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI의 시각적 개체 유형
 
@@ -25,18 +25,20 @@ ms.locfileid: "91526884"
 
 이 페이지에서 설명하는 시각적 개체는 Power BI와 함께 패키징된 시각적 개체입니다. 이러한 시각적 개체 유형을 자주 보게 될 것입니다. 이 페이지에서는 미리 패키징된 이러한 시각적 개체의 간략한 개요를 제공합니다. 이러한 시각적 개체에 대한 자세한 내용은 [시각적 개체 유형에 대한 Power BI 보고서 디자이너 설명서](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)를 참조하세요.
 
-Power BI에 자동으로 포함되지 않는 시각적 개체는 사용자 지정 시각적 개체라고 합니다. 사용자 지정 시각적 개체는 Microsoft AppSource와 같은 외부 웹 사이트 또는 조직 저장소와 같은 내부 원본에서 Power BI로 가져올 수 있습니다. 사용자 지정 시각적 개체를 가져오려면 보고서에 대한 편집 권한이 필요합니다. 이러한 추가 시각적 개체에 대한 자세한 내용은 [Power BI의 시각적 개체](../developer/visuals/power-bi-custom-visuals.md)를 참조하세요.
+Power BI에 자동으로 포함되지 않는 시각적 개체는 사용자 지정 시각적 개체라고 합니다. 사용자 지정 시각적 개체는 Microsoft AppSource와 같은 외부 웹 사이트 또는 조직 저장소와 같은 내부 원본에서 Power BI로 가져올 수 있습니다. 사용자 지정 시각적 개체를 가져오려면 보고서에 대한 편집 권한이 필요합니다. 이러한 추가 시각적 개체에 대한 자세한 내용은 [Power BI의 사용자 지정 시각적 개체](../developer/visuals/power-bi-custom-visuals.md)를 참조하세요.
 
 
 
 ## <a name="list-of-visuals-available-in-power-bi"></a>Power BI에서 사용할 수 있는 시각적 개체 목록
 이러한 모든 시각적 개체는 Power BI 대시보드와 보고서에서 찾을 수 있으며, [질문 및 답변에서 지정](end-user-q-and-a.md)할 수 있습니다. 시각적 개체를 조작하는 방법에 대한 자세한 내용은 [보고서, 대시보드 및 앱에서 시각적 개체 조작](end-user-visualizations.md)을 참조하세요.
 
+## <a name="a"></a>A
 ### <a name="area-charts-basic-layered-and-stacked"></a>영역형 차트: 기본(겹침) 및 누적
 ![영역 차트](media/end-user-visual-type/basic-area-map-small.png)
 
 기본 영역 차트는 축과 선 사이의 영역이 채워진 꺾은선형 차트를 기반으로 합니다. 영역형 차트는 시간에 따른 변경 크기를 강조하며 추세 간의 총 가치에 주목하도록 하는 데 사용할 수 있습니다. 예를 들어, 시간에 따른 수익을 나타내는 데이터를 영역형 차트에 그려 총 수익을 강조할 수 있습니다.
 
+## <a name="b"></a>B
 ### <a name="bar-and-column-charts"></a>가로 막대형 및 세로 막대형 차트
 ![세로 막대형 차트](media/end-user-visual-type/pbi-nancy-viz-bar.png)
 
@@ -44,6 +46,7 @@ Power BI에 자동으로 포함되지 않는 시각적 개체는 사용자 지�
 
 여러 범주의 특정 값을 살펴보는 데는 가로 막대형 차트가 표준입니다.
 
+## <a name="c"></a>C
 ### <a name="cards-single-number"></a>카드: 단일 숫자
 ![단일 숫자 카드](media/end-user-visual-type/pbi-nancy-viz-card.png)
 
@@ -67,7 +70,7 @@ Power BI에 자동으로 포함되지 않는 시각적 개체는 사용자 지�
 - 하나의 측정값이 다른 측정값으로 정의된 목표를 충족하는지 확인하는 경우
 - 캔버스 공간을 절약하려는 경우
 
-
+## <a name="d"></a>D    
 ### <a name="decomposition-tree"></a>분해 트리
 ![분해 트리](media/end-user-visual-type/power-bi-decomposition.png)
 
@@ -78,6 +81,7 @@ Power BI에 자동으로 포함되지 않는 시각적 개체는 사용자 지�
 
 도넛형 차트는 원형 차트와 비슷합니다.  이 차트는 전체에 대한 부분의 관계를 보여 줍니다. 가운데가 비어 있고 레이블 또는 아이콘이 들어갈 공간이 있다는 점만 다릅니다.
 
+## <a name="f"></a>F
 ### <a name="funnel-charts"></a>깔대기형 차트
 ![깔데기형 차트](media/end-user-visual-type/pbi-nancy-viz-funnel.png)
 
@@ -86,7 +90,7 @@ Power BI에 자동으로 포함되지 않는 시각적 개체는 사용자 지�
 예를 들어 다음 단계를 통해 고객을 추적하는 영업 깔때기가 있습니다. 잠재 고객 > 적격 잠재 고객 > 예측 > 계약 > 닫기. 깔때기의 모양은 추적 중인 프로세스의 상태를 한눈에 보여줍니다.
 각 깔때기 단계는 합계의 백분율을 나타냅니다. 따라서 대부분의 경우 깔때기형 차트는 깔때기 모양으로, 첫 단계가 가장 크고 뒤로 갈수록 점점 작아집니다. 서양배 모양의 깔때기도 유용합니다. 프로세스의 문제를 식별할 수 있기 때문입니다. 하지만 일반적으로 첫 번째 단계인 "유입" 단계가 가장 큽니다.
 
-
+## <a name="g"></a>G
 ### <a name="gauge-charts"></a>계기 차트
 ![계기 차트](media/end-user-visual-type/gauge-m.png)
 
@@ -100,12 +104,13 @@ Power BI에 자동으로 포함되지 않는 시각적 개체는 사용자 지�
 - 단일 측정값의 상태 표시
 - 빠르게 훑어보고 이해할 수 있는 정보 표시
 
+## <a name="k"></a>K
  ### <a name="key-influencers-chart"></a>주요 영향 요인 차트
 ![주요 영향 요인](media/end-user-visual-type/power-bi-influencer.png)
 
 주요 영향 요인 차트는 선택한 결과 또는 값에 대한 주요 기여자를 표시합니다.
 
-주요 영향 요인을 통해 주요 메트릭에 영향을 주는 요인을 이해하도록 도울 수 있습니다. 예: *두 번째 주문하는 고객에게 영향을 주는 요인*또는*지난 6월 매출이 높은 이유* 
+주요 영향 요인을 통해 주요 메트릭에 영향을 주는 요인을 이해하도록 도울 수 있습니다. 예: *두 번째 주문하는 고객에게 영향을 주는 요인 *또는* 지난 6월 매출이 높은 이유* 
 
 ### <a name="kpis"></a>KPI
 ![KPI](media/end-user-visual-type/power-bi-kpi.png)
@@ -116,11 +121,13 @@ KPI(핵심 성과 지표)는 측정 가능한 목표에 대해 만든 진행률�
 - 진행률 측정(앞 또는 뒤 개체 확인)
 - 목표에 대한 거리 측정(초과 또는 미만 정도)
 
+## <a name="l"></a>L
 ### <a name="line-charts"></a>꺽은선형 차트
 ![꺾은선형 차트](media/end-user-visual-type/pbi-nancy-viz-line.png)
 
 꺾은선형 차트는 일반적으로 시간 경과에 따른 전체 값의 전체적인 모양을 강조합니다.
 
+## <a name="m"></a>M
 ### <a name="maps-basic-maps"></a>지도: 기본 지도
 ![기본 지도](media/end-user-visual-type/pbi-nancy-viz-map.png)
 
@@ -146,6 +153,7 @@ ArcGIS 지도와 Power BI의 조합은 지도에서 요소의 표현을 넘어�
 
 행렬 시각적 개체는 계단형 레이아웃을 지원하는 테이블 시각적 개체의 한 유형(아래 "표" 참조)입니다. 종종 보고서 디자이너는 보고서 및 대시보드에 행렬을 포함하여 사용자가 행렬에서 하나 이상의 요소(행, 열, 셀)를 선택하여 보고서에서 다른 시각적 개체를 교차 강조 표시할 수 있도록 합니다.  
 
+## <a name="p"></a>P
 ### <a name="pie-charts"></a>원형 차트
 ![원형 차트](media/end-user-visual-type/pbi-nancy-viz-pie.png)
 
@@ -154,8 +162,9 @@ ArcGIS 지도와 Power BI의 조합은 지도에서 요소의 표현을 넘어�
 ### <a name="power-apps-visual"></a>Power Apps 시각적 개체
 ![Power Apps 시각적 개체](media/end-user-visual-type/power-bi-powerapps-visual.png)
 
-보고서 디자이너는 Power App을 만들어 Power BI 보고서에 포함할 수 있습니다. 소비자는 Power BI 보고서 내에서 해당 시각적 개체와 상호 작용할 수 있습니다. 
+보고서 디자이너는 Power App을 만들어 Power BI 보고서에 포함할 수 있습니다. *비즈니스 사용자* 는 Power BI 보고서 내에서 해당 시각적 개체와 상호 작용할 수 있습니다. 
 
+## <a name="q"></a>Q
 ### <a name="qa-visual"></a>Q&A 시각적 개체
 ![질문 및 답변 시각적 개체](media/end-user-visual-type/power-bi-q-and-a.png)
 
@@ -164,13 +173,14 @@ ArcGIS 지도와 Power BI의 조합은 지도에서 요소의 표현을 넘어�
 
 자세한 내용은 [Power BI의 질문 및 답변 시각적 개체](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md)를 참조하세요.
 
+## <a name="r"></a>R
 ### <a name="ribbon-chart"></a>리본 차트
 ![리본 차트](media/end-user-visual-type/power-bi-ribbon.png)
 
 리본 차트는 가장 높은 순위를 가지는 데이터 범주(가장 큰 값)를 보여줍니다. 리본 차트는 각 기간에 가장 높은 범위(값)가 항상 위쪽에 표시되어 순위 변경 내용을 효과적으로 표시합니다.
 
+## <a name="s"></a>S
 ### <a name="scatter-bubble-and-dot-plot-charts"></a>분산형, 거품형 및 점 그림 차트
-
 
 분산형 차트에는 항상 가로 축을 따라 하나의 숫자 데이터 집합을 표시하고 세로 축을 따라 다른 숫자 값 집합을 표시하는 두 개의 값 축이 있습니다. 차트에서 x 및 y 숫자 값의 교차점에 점이 표시되고 이러한 값이 단일 데이터 요소로 결합됩니다. 데이터에 따라 가로 축에 균등 또는 불균등하게 이러한 데이터 요소를 배포할 수 있습니다.
 
@@ -202,12 +212,18 @@ X축을 따라 숫자 또는 범주 데이터를 그릴 수 있다는 점을 제
 - 데이터 테이블에서 불필요하고 숨겨진 열을 필터링하는 경우
 - 중요한 시각적 개체 옆에 슬라이서를 배치하여 더 집중된 보고서를 만드는 경우
 
+
+### <a name="smart-narrative"></a>스마트 설명
+![스마트 설명](media/end-user-visual-type/power-bi-smart-narrative.png)
+
+스마트 설명은 보고서에 텍스트를 추가하여 추세, 주요 내용을 파악하고 설명 및 컨텍스트를 추가합니다. 텍스트를 통해 사용자는 데이터를 이해하고 중요한 결과를 신속하게 식별할 수 있습니다.
+
 ### <a name="standalone-images"></a>독립 실행형 이미지
 ![독립 실행형 이미지](media/end-user-visual-type/pbi-nancy-viz-image.png)
 
 독립 실행형 이미지는 보고서 또는 대시보드에 추가된 그래픽입니다. 
 
-
+## <a name="t"></a>T
 ### <a name="tables"></a>테이블
 ![테이블 차트](media/end-user-visual-type/table-type.png)
 
@@ -231,6 +247,7 @@ X축을 따라 숫자 또는 범주 데이터를 그릴 수 있다는 점을 제
 - 크기 및 색 구분을 사용하여 특성을 표시하는 경우
 - 패턴, 이상값, 가장 중요한 기여자 및 예외를 강조하는 경우
 
+## <a name="w"></a>W
 ### <a name="waterfall-charts"></a>폭포 차트
 ![폭포 차트](media/end-user-visual-type/waterfall-small.png)
 
@@ -249,7 +266,7 @@ X축을 따라 숫자 또는 범주 데이터를 그릴 수 있다는 점을 제
 Power BI 질문 및 답변을 사용하여 자연어 쿼리를 입력할 때 쿼리에 시각적 개체 유형을 지정할 수 있습니다.  예:
 
 
-"****** 주별 매출을 트리맵으로"
+"  주별 매출을 트리맵으로"
 
 ![질문 및 답변 세션](media/end-user-visual-type/qa-treemap.png)
 

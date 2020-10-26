@@ -6,23 +6,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/05/2020
+ms.date: 10/13/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 7460967e12ee13f5aff03c8058c318741c26aa86
-ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
+ms.openlocfilehash: 8670659ff44a0f0e14688a8a898704823f272891
+ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "91780095"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92255998"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Power BI Desktop의 새로운 기능
 
-## <a name="september-2020-update-2852840"></a>2020년 9월 업데이트(2.85.284.0)
+## <a name="october-2020-update-2863210"></a>2020년 10월 업데이트(2.86.321.0)
 
-Power BI Desktop 9월 업데이트는 다가오는 가을과 단풍처럼 멋지고 산뜻합니다. 
+10월 Power BI Desktop 업데이트는 앞으로 몇 주 동안 정렬하고 즐길 수 있는 훨씬 유용한 버킷입니다. 
 
-이번 달에 새로워진 점은 Power BI Desktop 월간 블로그 및 동영상 업데이트에 이제 Power BI 모바일 및 Power BI 서비스의 새로운 기능도 포함된다는 것입니다. 이 문서에서는 Power BI Desktop에 대한 업데이트를 설명합니다. 모바일 및 Power BI 서비스 업데이트에 대해 알아보려면 해당하는 새로운 기능 문서를 확인하세요.
+이제 Power BI Desktop의 월간 블로그 및 동영상 업데이트에는 Power BI 모바일 및 Power BI 서비스의 새로운 기능도 포함됩니다. 이 문서에서는 Power BI Desktop에 대한 업데이트를 설명합니다. 모바일 및 Power BI 서비스 업데이트에 대해 알아보려면 해당하는 새로운 기능 문서를 확인하세요.
 
 * [Power BI 서비스의 새로운 기능](service-whats-new.md)
 * [Power BI용 모바일 앱의 새로운 기능](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)
@@ -46,41 +46,49 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 다음은 이번 달의 Power BI Desktop 업데이트입니다.
 
-### <a name="analytics"></a>분석
-* 스마트 설명(미리 보기) [[동영상]](https://youtu.be/gPGy18Yo0Go?t=51)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#_Smart_narratives_(preview)) 
-* Q&A가 이제 산술 연산 지원 [[동영상]](https://youtu.be/gPGy18Yo0Go?t=333)   [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#QA_arithmetic) 
 
 
 ### <a name="reporting"></a>보고
-* 추가 차트를 위한 데이터 요소 사각형 선택 [[동영상]](https://youtu.be/gPGy18Yo0Go?t=370)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Data_point_rectangle_select) 
-* 계층 순서 유지를 위한 일반 시각적 옵션 추가 [[동영상]](https://youtu.be/gPGy18Yo0Go?t=405)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Maintain_layer_order) 
-* 게시 중 작업 영역 검색 [[동영상]](https://youtu.be/gPGy18Yo0Go?t=615)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Search_workspace) 
-* 누적 시각적 개체를 위한 합계 레이블 [[동영상]](https://youtu.be/gPGy18Yo0Go?t=630)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Total_labels_stacked) 
-* 모바일 작성 개선 [[동영상]](https://youtu.be/gPGy18Yo0Go?t=786)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Mobile_authoring_enhancements) 
+* 캔버스 워터마크 [[비디오]](https://youtu.be/LveNuQqV5xk?t=17) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195557) 
+* 이제 시각적 개체 개인 설정이 일반 공급됨 [[비디오]](https://youtu.be/LveNuQqV5xk?t=115) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195558) [[문서]](../create-reports/power-bi-personalize-visuals.md)
+* 트리맵에 대한 데이터 요소 사각형(미리 보기) [[비디오]](https://youtu.be/LveNuQqV5xk?t=292) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195559) [[문서]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
+
+### <a name="analytics"></a>분석
+* Q&A 시각적 개체에서 데이터 내보내기 [[비디오]](https://youtu.be/LveNuQqV5xk?t=308) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270582) 
 
 
 ### <a name="modeling"></a>모델링
-* 향상된 데이터 세트 메타데이터 출시 [[동영상]](https://youtu.be/gPGy18Yo0Go?t=1200)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Enhanced_Dataset_Metadata)
-* 통화 데이터 형식의 열을 포함하는 집계 식의 성능 개선 [[동영상]](https://youtu.be/gPGy18Yo0Go?t=1220)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Performance_improvements_to_agg)
+* IF 및 SWITCH 함수의 성능 향상 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270584)
 
+
+### <a name="data-preparation"></a>데이터 준비
+* 동적 M 쿼리 매개 변수(미리 보기) [[비디오]](https://youtu.be/LveNuQqV5xk?t=329) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc51665421) [[문서]](../connect-data/desktop-dynamic-m-query-parameters.md)
+* Excel 파일에서 자동 테이블 검색 [[비디오]](https://youtu.be/LveNuQqV5xk?t=615) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195566)
+* JSON 파일에서 자동 테이블 검색 [[비디오]](https://youtu.be/LveNuQqV5xk?t=650) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc51665423)
 
 ### <a name="data-connectivity"></a>데이터 연결
-* Azure Databricks [[동영상]](https://youtu.be/gPGy18Yo0Go?t=1342)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Azure_Databricks)
-* MariaDB [[동영상]](https://youtu.be/gPGy18Yo0Go?t=1365)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#MariaDB)
-* Hexagon PPM Smart API [[동영상]](https://youtu.be/gPGy18Yo0Go?t=1386)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Hexagon_PPM_Smart)
-* 기타 데이터 연결 업데이트 [[동영상]](https://youtu.be/gPGy18Yo0Go?t=1411)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Other_data_connectivity)
+* Power Platform 데이터 흐름 커넥터에 대한 광범위한 지리적 지원 [[비디오]](https://youtu.be/LveNuQqV5xk?t=675) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270590)
+* 이제 MariaDB는 DirectQuery를 지원함 [[비디오]](https://youtu.be/LveNuQqV5xk?t=694) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195570)
+* 업데이트된 SharePoint Online 목록 커넥터 [[비디오]](https://youtu.be/LveNuQqV5xk?t=707) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270592)
+* 새 데이터 커넥터 - Spigit 및 eWay-CRM [[비디오]](https://youtu.be/LveNuQqV5xk?t=736) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195572)
 
 
 ### <a name="visuals"></a>시각적 개체
-* 다양한 공급자의 새 시각적 개체 [[동영상]](https://youtu.be/gPGy18Yo0Go?t=1228)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Visualizations)
+* 이제 확장된 관리자 기능이 일반 공급됨 [[비디오]](https://youtu.be/LveNuQqV5xk?t=997) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270604)
+* 다양한 공급자의 새 시각적 개체 [[동영상]](https://youtu.be/LveNuQqV5xk?t=1039)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195582)
 
 
 ### <a name="template-apps"></a>템플릿 앱
-* 다중 채널 특성 대시보드 [[동영상]](https://youtu.be/gPGy18Yo0Go?t=1290)   [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Multichannel_Attribution_Dashboard) 
-* 작업 영역 분석 대시보드 [[동영상]](https://youtu.be/gPGy18Yo0Go?t=1290)   [[블로그]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Workspace_Analytics_Dashboard) 
+* 템플릿 앱 설치 간소화 [[비디오]](https://youtu.be/LveNuQqV5xk?t=1127) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270613) 
+* Power BI Desktop에서 템플릿 앱 찾기 [[비디오]](https://youtu.be/LveNuQqV5xk?t=1164) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195591) 
+
+### <a name="other"></a>기타
+* Power BI Desktop의 PBIDS로 데이터 원본 내보내기 [[비디오]](https://youtu.be/LveNuQqV5xk?t=1255) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195594) [[문서]](../connect-data/desktop-data-sources.md#how-to-create-a-pbids-connection-file)
+* Power BI용 아이콘 업데이트 [[비디오]](https://youtu.be/LveNuQqV5xk?t=1295) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270618) 
+* Power BI Desktop 시작 화면 해제 [[비디오]](https://youtu.be/LveNuQqV5xk?t=1313) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195596)
 
 
-각각의 새로운 기능에 대한 자세한 내용은 [Power BI Desktop 기능 요약 블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/)을 참조하세요.
+각각의 새로운 기능에 대한 자세한 내용은 [Power BI Desktop 기능 요약 블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/)을 참조하세요.
 
 
 > [!NOTE]
@@ -90,7 +98,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 ### <a name="power-bi-desktop-monthly-update-video"></a>Power BI Desktop 월별 업데이트 비디오
 다음 동영상에서는 이러한 업데이트를 각각 설명합니다. 이 비디오는 블로그 게시물에서도 시청할 수 있습니다.
 
-> [!VIDEO https://www.youtube.com/embed/gPGy18Yo0Go]
+> [!VIDEO https://www.youtube.com/embed/LveNuQqV5xk]
 
 ## <a name="more-videos"></a>비디오 더 보기
 

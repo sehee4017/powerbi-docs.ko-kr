@@ -1,22 +1,22 @@
 ---
-title: Power BI "소비자"란?
-description: 소비자용 Power BI 개요(최종 사용자 또는 비즈니스 사용자라고도 함)
+title: Power BI "비즈니스 사용자"란 무엇인가요?
+description: 비즈니스 사용자용 Power BI 개요(최종 사용자 또는 비즈니스 사용자라고도 함).
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: overview
-ms.date: 05/22/2020
+ms.date: 10/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 74f6d14ed96e7e33929aafe315965c04b2f78863
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 7616d84ca93c336e606b3a96e7a362a1b57e6a96
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633978"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91982064"
 ---
-# <a name="the-power-bi-service-for-consumers"></a>소비자용 Power BI 서비스
+# <a name="the-power-bi-service-for-business-users"></a>비즈니스 사용자용 Power BI 서비스
 
 [!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
@@ -24,9 +24,9 @@ ms.locfileid: "91633978"
  
 동료들은 각종 보고서, 스프레드시트, 차트를 포함하는 메일, 유인물도 보내줄 것입니다. 데이터가 점점 쌓여가면서 필요한 데이터를 찾기가 더 어려워지며, 최신 정보를 사용하고 있지 않을까 하는 걱정도 들게 됩니다.  
  
-![보고서, 차트, 이메일, 스프레드시트로 레이블이 지정된 형식으로 데이터를 수신하는 소비자를 보여 주는 다이어그램.](media/end-user-consumer/power-bi-consumer-pipes.png)
+![다이어그램은 보고서, 차트, 이메일, 스프레드시트로 레이블이 지정된 형식으로 데이터를 수신하는 비즈니스 사용자를 보여줍니다.](media/end-user-consumer/power-bi-consumer-pipes.png)
 
-## <a name="the-power-bi-service-for-consumers"></a>*소비자*용 Power BI 서비스
+## <a name="the-power-bi-service-for-business-users"></a>*비즈니스 사용자* 용 Power BI 서비스
 
 Power BI를 사용하면 작업을 더 쉬우면서 효율적으로 수행할 수 있습니다. 이러한 모든 데이터는 데이터를 시각화하는 차트 및 그래프가 됩니다. 데이터 인사이트가 긴 목록이나 숫자와 단어의 테이블 대신, 데이터의 인사이트를 알려주는 다채롭고 멋진 시각적 요소를 사용해서 ***보기 좋게*** 표시됩니다. 
 
@@ -38,15 +38,19 @@ Power BI를 사용하면 작업을 더 쉬우면서 효율적으로 수행할 �
 
 콘텐츠가 고정되어 있지 않으므로 추세, 인사이트 및 기타 비즈니스 인텔리전스를 찾아볼 수 있습니다. 콘텐츠를 조각화 및 분석하고 원하는 표현을 사용해서 질문을 할 수도 있습니다. 또는 데이터가 자동으로 흥미로운 인사이트를 제공할 때까지 기다립니다. 데이터가 변경되면 경고가 표시되고, 설정한 일정에 따라 메일로 보고서가 전송됩니다. 어떤 디바이스에서도, 클라우드나 온-프레미스 모두에서, 언제든지 모든 데이터를 사용할 수 있습니다. 이것은 Power BI로 수행할 수 있는 작업의 일부에 불과합니다. 
 
-## <a name="am-i-a-power-bi-consumer"></a>내가 Power BI *소비자*인가요?
+## <a name="am-i-a-power-bi-business-user"></a>제가 Power BI 비즈니스 사용자인가요?
 
-Power BI를 조작하는 방식은 작업 역할에 따라 다릅니다. 최종 사용자 또는 *소비자*는 동료로부터 콘텐츠(대시보드, 보고서 및 앱)을 받는 사람입니다. Power BI 서비스라고 하는 Power BI의 온라인 또는 모바일 버전에서 이 콘텐츠를 검토하고 상호 작용하면서 비즈니스 의사 결정을 내립니다. 
+Power BI를 조작하는 방식은 작업 역할에 따라 다릅니다. 소비자 또는 *비즈니스 사용자* 는 동료로부터 콘텐츠(대시보드, 보고서 및 앱)를 받는 사람입니다. Power BI 서비스라고 하는 Power BI의 온라인 또는 모바일 버전에서 이 콘텐츠를 검토하고 상호 작용하면서 비즈니스 의사 결정을 내립니다. 
    
-소비자는 Power BI의 전체 기능에 액세스할 수는 없지만 대시보드 및 보고서를 빌드하지 않으므로 상관이 없습니다. 사용자는 Power BI 서비스를 사용하여 분석, 모니터링, 탐색 및 의사 결정을 수행합니다. 
+비즈니스 사용자는 Power BI의 모든 기능에 액세스할 수는 없지만 대시보드 및 보고서를 빌드하지 않으므로 상관이 없습니다. 사용자는 Power BI 서비스를 사용하여 분석, 모니터링, 탐색 및 의사 결정을 수행합니다. 
 
-“Power BI Desktop” 또는 “Desktop”이라는 용어는 분명히 들어보셨을 것입니다. 이는 대시보드와 보고서를 빌드하고 소비자와 함께 공유하는 *설계자*가 사용하는 독립형 도구입니다.  소비자는 Power BI 서비스만 사용하게 되므로 다른 Power BI 도구가 있다는 것만 알아두면 됩니다. 
+“Power BI Desktop” 또는 “Desktop”이라는 용어는 분명히 들어보셨을 것입니다. 이는 대시보드와 보고서를 빌드하고 소비자와 함께 공유하는 *설계자* 가 사용하는 독립형 도구입니다.  *비즈니스 사용자* 는 Power BI 서비스만 사용하게 되므로 다른 Power BI 도구가 있다는 것만 알아두면 됩니다. 
 
-그리고 *공유* 콘텐츠를 사용하고 **프리미엄** 용량을 사용하는 조직에서 작업하고 있으므로 **평가판** 라이선스만 있으면 됩니다. [사용 중인 라이선스 확인](end-user-license.md)
+*공유* 콘텐츠를 사용하기 때문에 다음 중 하나가 필요합니다.
+- Power BI Pro 라이선스
+- 조직에서 Power BI Premium 구독을 보유하고 Premium 용량에서 콘텐츠를 공유할 수 있습니다. 
+
+라이선스 및 구독에 대한 자세한 내용은 [사용 중인 라이선스 확인](end-user-license.md)을 참조하세요.
 
 
 ## <a name="safely-interact-with-content"></a>콘텐츠와 안전하게 상호 작용 
@@ -61,6 +65,6 @@ Power BI를 조작하는 방식은 작업 역할에 따라 다릅니다. 최종 
 
 ## <a name="next-steps"></a>다음 단계
 
-[소비자용 Power BI 서비스 둘러보기](end-user-reading-view.md)    
-[소비자용 Power BI 서비스 교육](/learn/paths/consume-data-with-power-bi/)    
-[Power BI ‘소비자’에 대한 용어 및 개념](end-user-basic-concepts.md) 
+[비즈니스 사용자용 Power BI 서비스 둘러보기](end-user-reading-view.md)    
+[비즈니스 사용자용 Power BI 서비스 학습](/learn/paths/consume-data-with-power-bi/)    
+[Power BI *비즈니스 사용자* 에 대한 용어 및 개념](end-user-basic-concepts.md)

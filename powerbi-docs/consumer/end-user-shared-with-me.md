@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 10/5/2020
+ms.date: 10/09/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0b6ccdf2e5caad141ef0c33ae70b9c2f2b604462
-ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
+ms.openlocfilehash: 0e13a7bd273121429cd186c99ef8110b38e839fb
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "91780186"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983347"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>나와 공유한 대시보드 및 보고서 표시
 
@@ -22,7 +22,7 @@ ms.locfileid: "91780186"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-동료가 공유한 대시보드 또는 보고서는 **공유한 항목** 컨테이너에 표시됩니다. 동료가 앱을 공유하면 **앱** 컨테이너에 앱이 표시됩니다.   
+동료가 공유한 대시보드 또는 보고서는 **공유한 항목** 컨테이너에 표시됩니다. 동료가 앱을 공유하는 경우 앱이 **앱** 컨테이너에 표시되고 앱의 보고서 및 대시보드가 **공유한 항목** 컨테이너에 표시됩니다.   
 
 ![공유 아이콘](./media/end-user-shared-with-me/power-bi-shared-with-me.png)
 
@@ -41,6 +41,6 @@ Amanda가 **공유한 항목** 콘텐츠 목록을 설명하고 목록을 탐색
 
 
 ## <a name="search-and-sort-shared-dashboards-and-reports"></a>공유 대시보드 및 보고서 검색 및 정렬
-**공유한 항목** 콘텐츠 목록이 길어지면 필요한 항목을 찾기 위해 몇 가지 옵션을 사용할 수 있습니다. 검색 필드(1)를 사용하거나 열(2) 중 하나를 기준으로 정렬하거나 필터 창을 사용할 수 있습니다. 필터 창을 열려면 오른쪽 위 모서리에서 **필터**를 선택합니다.    
+**공유한 항목** 콘텐츠 목록이 길어지면 필요한 항목을 찾기 위해 몇 가지 옵션을 사용할 수 있습니다. 검색 필드(1)를 사용하거나 열(2) 중 하나를 기준으로 정렬하거나 필터 창을 사용합니다. 필터 창을 열려면 오른쪽 위 모서리에서 **필터** 를 선택합니다.    
 
 ![대시보드 소유자 및 검색](./media/end-user-shared-with-me/power-bi-filter.png)

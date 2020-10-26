@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 04/06/2020
+ms.date: 10/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7e74bb6b2d3414e37924319016a0fab421dd096e
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: bbcac4eb3adf8fe47ff6576e15d8d1334a8c13f0
+ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87536104"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "91830409"
 ---
 # <a name="slicers-in-the-power-bi-service"></a>Power BI 서비스의 슬라이서
 
@@ -29,7 +29,7 @@ ms.locfileid: "87536104"
 보고서를 만들 때 ‘디자이너’는 슬라이서를 추가하여 사례를 알리고 데이터 탐색 도구를 제공합니다. 
 
 ### <a name="numeric-range-slicer"></a>숫자 범위 슬라이서
- 위의 숫자 범위 슬라이서는 지리, 재고 단위, 주문 날짜를 기준으로 총판매량을 살펴보는 데 도움이 됩니다. 핸들을 사용하여 범위를 선택합니다. 
+ 숫자 범위 슬라이서는 지리, 재고 단위 및 주문 날짜별 총판매량과 같은 정량적 데이터를 살펴보는 데 도움이 됩니다. 핸들을 사용하여 범위를 선택합니다. 
 
 ![범위 슬라이서의 핸들](media/end-user-slicer/power-bi-handles.png)
 

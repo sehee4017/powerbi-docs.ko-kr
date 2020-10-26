@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 05/08/2020
-ms.openlocfilehash: 8eeca13acb1568a671618dca75d20cb7667b538b
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: f6f458d2fe82668074d7cfb046cb5a72afa35c38
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747554"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92048789"
 ---
 # <a name="create-an-ssl-certificate"></a>SSL 인증서 만들기
 
 이 문서에서는 Power BI 시각적 개체용 SSL(Secure Sockets Layer) 인증서를 생성하고 설치하는 방법을 설명합니다.
 
-Windows, macOS X 및 Linux 절차의 경우 Power BI 시각적 도구 **.pbiviz** 패키지가 설치되어 있어야 합니다. 자세한 내용은 [개발자 환경 설정](./custom-visual-develop-tutorial.md#setting-up-the-developer-environment)을 참조하세요. 
+Windows, macOS X 및 Linux 절차의 경우 Power BI 시각적 도구 **.pbiviz** 패키지가 설치되어 있어야 합니다. 자세한 내용은 [Power BI 시각적 개체 개발을 위한 환경 설정](./environment-setup.md)을 참조하세요. 
 
 ## <a name="create-a-certificate-on-windows"></a>Windows에서 인증서 만들기
 
@@ -31,7 +31,7 @@ pbiviz --install-cert
 
 Windows 7의 경우 `pbiviz` 도구를 사용하려면 명령줄에서 OpenSSL 유틸리티를 사용해야 합니다. OpenSSL을 설치하려면 [OpenSSL](https://www.openssl.org) 또는 [OpenSSL Binaries](https://wiki.openssl.org/index.php/Binaries)로 이동합니다.
 
-인증서에 대한 자세한 내용 및 설치 지침은 [Windows용 인증서 만들기 및 설치](./custom-visual-develop-tutorial.md#windows)를 참조하세요.
+인증서에 대한 자세한 내용 및 설치 지침은 [Windows용 인증서 만들기 및 설치](./environment-setup.md#create-and-install-a-certificate)를 참조하세요.
 
 ## <a name="create-a-certificate-on-macos-x"></a>macOS X에서 인증서 만들기
 
@@ -46,7 +46,7 @@ OpenSSL 유틸리티는 일반적으로 macOS X 운영 체제에서 사용할 �
   brew link openssl --force
   ```
 
-- *MacPorts*를 사용하는 경우:
+- *MacPorts* 를 사용하는 경우:
   
   ```cmd
   sudo port install openssl
@@ -58,7 +58,7 @@ OpenSSL 유틸리티를 설치한 후 다음 명령을 실행하여 새 인증�
 pbiviz --install-cert
 ```
 
-자세한 내용 및 지침은 [OS X용 인증서 만들기 및 설치](./custom-visual-develop-tutorial.md#osx)를 참조하세요.
+자세한 내용 및 지침은 [인증서 만들기 및 설치](./environment-setup.md#create-and-install-a-certificate)의 OSX 탭을 참조하세요.
 
 ## <a name="create-a-certificate-on-linux"></a>Linux에서 인증서 만들기
 
@@ -75,7 +75,7 @@ which certutil
 
 ### <a name="create-the-ssl-configuration-file"></a>SSL 구성 파일 만들기
 
-다음 텍스트를 포함하는 */tmp/openssl.cnf*라는 파일을 만듭니다.
+다음 텍스트를 포함하는 */tmp/openssl.cnf* 라는 파일을 만듭니다.
 
 ```
 authorityKeyIdentifier=keyid,issuer
@@ -99,7 +99,7 @@ openssl x509 -outform pem -in /tmp/local-root-ca.pem -out /tmp/local-root-ca.crt
 
 ### <a name="generate-a-certificate-for-localhost"></a>localhost용 인증서 생성 
 
-생성된 CA 및 *openssl.cnf*를 사용하여 `localhost`용 인증서를 생성하려면 다음 명령을 실행합니다.
+생성된 CA 및 *openssl.cnf* 를 사용하여 `localhost`용 인증서를 생성하려면 다음 명령을 실행합니다.
 
 ```sh
 PBIVIZ=`which pbiviz`
@@ -170,11 +170,11 @@ openssl req -x509 -newkey rsa:4096 -keyout PowerBIVisualTest_private.key -out Po
 
 ### <a name="pem-format"></a>PEM 형식
 
-PEM(Privacy Enhanced Mail) 인증서 형식을 사용하는 경우 인증서 파일을 *PowerBIVisualTest_public.crt*로 저장하고 프라이빗 키를 *PowerBIVisualTest_private.key*로 저장합니다.
+PEM(Privacy Enhanced Mail) 인증서 형식을 사용하는 경우 인증서 파일을 *PowerBIVisualTest_public.crt* 로 저장하고 프라이빗 키를 *PowerBIVisualTest_private.key* 로 저장합니다.
 
 ### <a name="pfx-format"></a>PFX 형식
 
-PFX(Personal Information Exchange) 인증서 형식을 사용하는 경우 인증서 파일을 *PowerBIVisualTest_public.pfx*에 저장합니다.
+PFX(Personal Information Exchange) 인증서 형식을 사용하는 경우 인증서 파일을 *PowerBIVisualTest_public.pfx* 에 저장합니다.
 
 PFX 인증서 파일에 암호가 필요한 경우
 
@@ -199,6 +199,6 @@ PFX 인증서 파일에 암호가 필요한 경우
     ```
 
 ## <a name="next-steps"></a>다음 단계
-- [Power BI 시각적 개체 개발](custom-visual-develop-tutorial.md)
+- [Power 원 카드 BI 시각적 개체 개발](develop-circle-card.md)
 - [Power BI 시각적 개체 샘플](samples.md)
 - [AppSource에 Power BI 시각적 개체 게시](office-store.md)

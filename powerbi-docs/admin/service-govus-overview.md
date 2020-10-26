@@ -10,12 +10,12 @@ ms.date: 09/23/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: eecc36377ab79e4af4ea7882c24f4eb5a6e376c7
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 45d89fe7a224d56e710765e533a7c075c24b8a66
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91524630"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91981507"
 ---
 # <a name="power-bi-for-us-government-customers"></a>미국 정부 기관 고객용 Power BI
 
@@ -74,25 +74,25 @@ Power BI의 인증, ID 및 관리는 Microsoft 365 서비스에 대한 연결에
 
 |  목적 | 대상 |
 | ---- | ----- |
-| 백 엔드 API | **GCC**: api.powerbigov.us |
-| | **GCC-High**: api.high.powerbigov.us |
-| | **DoD**: api.mil.powerbi.gov.us |
-| 백 엔드 API | **GCC**: *analysis.usgovcloudapi.net |
-| | **GCC High**: *.high.analysis.usgovcloudapi.net |
-| | **DoD**: *.mil.analysis.usgovcloudapi.net |
-| 백 엔드 API | **All**: *.pbidedicated.usgovcloudapi.net |
-| CDN(콘텐츠 전송 네트워크) | **GCC**: gov.content.powerapps.us |
-| | **GCC High**: high.content.powerapps.us |
-| | **DoD**: mil.content.powerapps.us |
-| Microsoft 365 통합 | **GCC**: [전 세계 엔드포인트](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges) |
-| | **GCC High**: [미국 정부 GCC High 엔드포인트](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints) |
-| | **DoD**: [미국 정부 DOD 엔드포인트](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-u-s-government-dod-endpoints) |
-| 포털 |**GCC**: *.powerbigov.us |
-| | **GCC-High**: *.high.powerbigov.us |
-| | **DoD**: *.mil.powerbigov.us |
-| 서비스 원격 분석 | **All**: dc.services.visualstudio.us |
-| 정보 메시지(선택) | **All**: dynmsg.modpim.com |
-| NPS 설문 조사(선택 사항) | **All**: nps.onyx.azure.net |
+| 백 엔드 API | **GCC** : api.powerbigov.us |
+| | **GCC-High** : api.high.powerbigov.us |
+| | **DoD** : api.mil.powerbi.gov.us |
+| 백 엔드 API | **GCC** : *analysis.usgovcloudapi.net |
+| | **GCC High** : *.high.analysis.usgovcloudapi.net |
+| | **DoD** : *.mil.analysis.usgovcloudapi.net |
+| 백 엔드 API | **All** : *.pbidedicated.usgovcloudapi.net |
+| CDN(콘텐츠 전송 네트워크) | **GCC** : gov.content.powerapps.us |
+| | **GCC High** : high.content.powerapps.us |
+| | **DoD** : mil.content.powerapps.us |
+| Microsoft 365 통합 | **GCC** : [전 세계 엔드포인트](/microsoft-365/enterprise/urls-and-ip-address-ranges) |
+| | **GCC High** : [미국 정부 GCC High 엔드포인트](/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints) |
+| | **DoD** : [미국 정부 DOD 엔드포인트](/microsoft-365/enterprise/microsoft-365-u-s-government-dod-endpoints) |
+| 포털 |**GCC** : *.powerbigov.us |
+| | **GCC-High** : *.high.powerbigov.us |
+| | **DoD** : *.mil.powerbigov.us |
+| 서비스 원격 분석 | **All** : dc.services.visualstudio.us |
+| 정보 메시지(선택) | **All** : dynmsg.modpim.com |
+| NPS 설문 조사(선택 사항) | **All** : nps.onyx.azure.net |
 
 ## <a name="connect-government-and-global-azure-cloud-services"></a>정부 및 글로벌 Azure 클라우드 서비스 연결
 
@@ -107,7 +107,7 @@ Azure는 여러 클라우드에 분산되어 있습니다. 기본적으로 클�
 
 미국 정부 클라우드 IP 범위를 얻으려면 [Azure IP 범위 및 서비스 태그 - 미국 정부 클라우드](https://www.microsoft.com/download/details.aspx?id=57063) 파일을 다운로드합니다. Power BI 및 파워 쿼리의 범위가 둘 다 나열됩니다.
 
-Microsoft Azure Government 클라우드 서비스에 관한 자세한 내용은 [Azure Government 설명서](https://docs.microsoft.com/azure/azure-government/)를 참조하세요.
+Microsoft Azure Government 클라우드 서비스에 관한 자세한 내용은 [Azure Government 설명서](/azure/azure-government/)를 참조하세요.
 
 SQL 데이터베이스에 대한 방화벽을 설정하려면 [IP 방화벽 규칙 만들기 및 관리](/azure/sql-database/sql-database-firewall-configure#create-and-manage-ip-firewall-rules)를 참조하세요.
 
@@ -123,7 +123,6 @@ SQL 데이터베이스에 대한 방화벽을 설정하려면 [IP 방화벽 규�
 |[Power BI 웹 파트를 사용하여 SharePoint Online에 포함](/sharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![사용 가능](../media/yes.png)|![사용 가능](../media/yes.png)|![사용할 수 없음](../media/no.png)|
 |[데이터 기반 경고를 위한 Power Automate 연결](../connect-data/power-bi-data-sources.md)|![사용 가능](../media/yes.png)|![사용 가능](../media/yes.png)|![사용할 수 없음](../media/no.png)|
 |[Teams의 Power BI 탭](../collaborate-share/service-collaborate-microsoft-teams.md)<sup>2</sup>|![사용 가능](../media/yes.png)|![사용할 수 없음](../media/no.png)|![사용할 수 없음](../media/no.png)|
-|[용량 메트릭](../admin/service-admin-premium-monitor-portal.md)|2020 Q3 |2020 Q3|2020 Q3|
 |[대형 모델](service-premium-large-models.md) | 2020 Q4 |2020 Q4| ![사용할 수 없음](../media/no.png) |
 |[데이터 흐름 - SQL 컴퓨팅 엔진 최적화](../transform-model/service-dataflows-enhanced-compute-engine.md) | 2020 Q4 |2020 Q4| ![사용할 수 없음](../media/no.png) |
 |[데이터 흐름 - 직접 쿼리](../transform-model/service-dataflows-directquery.md) | 2020 Q4 |2020 Q4|![사용할 수 없음](../media/no.png)|
@@ -131,6 +130,7 @@ SQL 데이터베이스에 대한 방화벽을 설정하려면 [IP 방화벽 규�
 |[데이터 보호(MIP 레이블)](service-security-sensitivity-label-overview.md)|2020 Q4|2020 Q4 |2020 Q4|
 |[템플릿 앱](../connect-data/service-template-apps-overview.md)<sup>3</sup>|2020 Q4 |2020 Q4| 2020 Q4|
 |[사용자 지정 시각적 개체](../developer/visuals/power-bi-custom-visuals.md)<sup>3</sup>|2020 Q4 |2020 Q4| 2020 Q4|
+|[통화 품질 데이터 커넥터](/microsoftteams/cqd-power-bi-connector)|![사용할 수 없음](../media/no.png)|![사용할 수 없음](../media/no.png)|![사용할 수 없음](../media/no.png)|
 |[QR 코드 생성](../create-reports/service-create-qr-code-for-tile.md)|![사용할 수 없음](../media/no.png)|![사용할 수 없음](../media/no.png)|![사용할 수 없음](../media/no.png)|
 
 <sup>1</sup> B2B Collaboration을 GCC에 사용할 수 있지만 외부 사용자는 해당 환경에서 라이선스를 발급받아야 합니다. 상업용 클라우드 라이선스는 GCC에서 유효하지 않습니다. 미국 정부용 B2B Collaboration의 알려진 제한 사항에 관한 자세한 내용은 [Azure Government 및 글로벌 Azure 비교](/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2)를 참조하세요.

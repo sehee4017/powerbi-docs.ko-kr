@@ -1,20 +1,20 @@
 ---
-title: 보고서에서 시각적 개체 개인 설정(미리 보기)
+title: 보고서에서 시각적 개체 개인 설정
 description: 보고서를 편집하지 않고 고유한 보고서 보기를 만듭니다.
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 09/17/2020
+ms.date: 10/13/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: dfc682e867b65ba9da2b2eee87f52d7fd5d0961c
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 718363da3bd1f66de199db8d854d8d23d6de3eb5
+ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91528131"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92256760"
 ---
 # <a name="personalize-visuals-in-a-report"></a>보고서에서 시각적 개체 개인 설정
 
@@ -45,7 +45,7 @@ ms.locfileid: "91528131"
 - 최근 변경 내용 지우기
 
 > [!IMPORTANT]
-> 시각적 개체 개인 설정 기능은 보고서 디자이너에서 사용하도록 설정해야 하는 미리 보기 기능입니다. **시각적 개체 개인 설정** ![시각적 개체 개인 설정 아이콘](media/end-user-personalize-visuals/power-bi-personalize-visual-icon.png) 아이콘이 표시되지 않으면 보고서 디자이너가 현재 보고서에 이 기능을 사용하도록 설정하지 않은 것입니다. 
+> 시각적 개체를 개인 설정하는 기능은 보고서 *디자이너* 에 의해 활성화되어야 합니다. **시각적 개체 개인 설정** ![시각적 개체 개인 설정 아이콘](media/end-user-personalize-visuals/power-bi-personalize-visual-icon.png) 아이콘이 표시되지 않으면 보고서 디자이너가 현재 보고서에 이 기능을 사용하도록 설정하지 않은 것입니다. 이 기능을 사용하도록 설정하려면 보고서 소유자 또는 Power BI 관리자에게 문의하세요. 보고서 소유자의 연락처 정보를 표시하려면 Power BI 메뉴 모음에서 보고서 이름을 선택합니다.
 
 ## <a name="personalize-visuals-in-the-power-bi-service"></a>Power BI 서비스에서 시각적 개체 개인 설정
 
@@ -55,11 +55,9 @@ ms.locfileid: "91528131"
 
 2. 시각적 개체의 메뉴 모음에서 **이 시각적 개체 개인 설정** ![이 시각적 개체 개인 설정 아이콘](media/end-user-personalize-visuals/power-bi-personalize-visual-icon.png) 아이콘을 선택합니다. 
 
-3. **개인 설정** 필드를 모두 제거하려면 **추가 옵션(...)** 을 선택하고 **필드 제거**를 선택합니다.
-
 ### <a name="change-the-visualization-type"></a>시각화 유형 변경
 
-데이터를 누적 세로 막대형 차트로 표시하는 것이 더 적절하다고 생각되나요? **시각화 유형**을 변경하세요.
+데이터를 누적 세로 막대형 차트로 표시하는 것이 더 적절하다고 생각되나요? **시각화 유형** 을 변경하세요.
 
 :::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-visual-type.png" alt-text="시각적 개체 개인 설정":::
  
@@ -73,8 +71,18 @@ ms.locfileid: "91528131"
 
 :::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-legend.png" alt-text="시각적 개체 개인 설정":::
 
+### <a name="change-the-placement-of-fields"></a>필드 배치 변경
+
+끌어서 놓기를 사용하여 동일한 시각적 개체 속성 내에서 또는 다른 시각적 개체 속성 간에 필드 배치를 변경할 수 있습니다. 예를 들어 범례의 필드를 시각적 개체의 축으로 신속하게 이동할 수 있습니다.
+
+:::image type="content" source="media/end-user-personalize-visuals/personalize-drag-and-drop.png" alt-text="시각적 개체 개인 설정":::
+
+테이블 또는 행렬의 열을 신속하게 다시 정렬할 수도 있습니다.
+
+:::image type="content" source="media/end-user-personalize-visuals/personalize-reorder-columns.png" alt-text="시각적 개체 개인 설정":::
+
 ### <a name="compare-two-or-more-different-measures"></a>두 개 이상의 다른 측정값 비교
-\+ 아이콘으로 시각적 개체에 대한 여러 측정값을 추가하여 여러 측정값에 대한 및 대비 값을 비교합니다. 측정값을 제거하려면 **추가 옵션(...)** 을 선택하고 **필드 제거**를 선택합니다.
+\+ 아이콘으로 시각적 개체에 대한 여러 측정값을 추가하여 여러 측정값에 대한 및 대비 값을 비교합니다. 측정값을 제거하려면 **추가 옵션(...)** 을 선택하고 **필드 제거** 를 선택합니다.
 
 :::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-compare-measures.png" alt-text="시각적 개체 개인 설정":::
 
@@ -84,7 +92,7 @@ ms.locfileid: "91528131"
 :::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-aggregation.png" alt-text="시각적 개체 개인 설정":::
 
 ### <a name="capture-changes"></a>변경 내용 캡처 
-개인 책갈피를 사용하여 개인 설정된 보기로 돌아갈 수 있도록 변경 내용을 캡처합니다. **책갈피** > **개인 책갈피**를 선택하고 책갈피에 이름을 지정합니다. 
+개인 책갈피를 사용하여 개인 설정된 보기로 돌아갈 수 있도록 변경 내용을 캡처합니다. **책갈피** > **개인 책갈피** 를 선택하고 책갈피에 이름을 지정합니다. 
 
 :::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-bookmark.png" alt-text="시각적 개체 개인 설정":::
  
@@ -97,13 +105,13 @@ ms.locfileid: "91528131"
  
 ### <a name="reset-all-your-changes-to-a-report"></a>보고서에 대한 모든 변경 내용 재설정
 
-보고서 캔버스의 오른쪽 위 모서리에서 **기본값으로 다시 설정**을 선택합니다. 그러면 보고서의 모든 변경 내용이 제거되고 작성자가 해당 보고서를 마지막으로 저장한 보기로 다시 설정됩니다.
+보고서 캔버스의 오른쪽 위 모서리에서 **기본값으로 다시 설정** 을 선택합니다. 그러면 보고서의 모든 변경 내용이 제거되고 작성자가 해당 보고서를 마지막으로 저장한 보기로 다시 설정됩니다.
 
 :::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-reset-all.png" alt-text="시각적 개체 개인 설정":::
  
 ### <a name="reset-all-your-changes-to-a-visual"></a>시각적 개체에 대한 모든 변경 내용 재설정
 
-시각적 개체의 메뉴 모음에서 **이 시각적 개체 재설정**을 선택하여 특정 시각적 개체에 대한 변경 내용을 모두 제거하고 작성자가 해당 시각적 개체를 마지막으로 저장한 보기로 재설정합니다.
+시각적 개체의 메뉴 모음에서 **이 시각적 개체 재설정** 을 선택하여 특정 시각적 개체에 대한 변경 내용을 모두 제거하고 작성자가 해당 시각적 개체를 마지막으로 저장한 보기로 재설정합니다.
 
 :::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-reset-visual.png" alt-text="시각적 개체 개인 설정":::
  
@@ -113,20 +121,14 @@ ms.locfileid: "91528131"
 
 :::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-revert-changes.png" alt-text="시각적 개체 개인 설정":::
 
-## <a name="limitations-and-known-issues"></a>제한 사항 및 알려진 문제
+## <a name="limitations"></a>제한 사항
 
 현재 이 기능에는 몇 가지 주의 사항이 있습니다.
 
-- **이 시각적 개체 개인 설정**은 전체 보고서 또는 특정 시각적 개체에 대해 해제할 수 있습니다. 시각적 개체를 개인 설정할 수 있는 옵션이 없는 경우 Power BI 관리자 또는 보고서 소유자에게 문의하세요. 보고서 소유자의 연락처 정보를 표시하려면 Power BI 메뉴 모음에서 보고서 이름을 선택합니다.
+- **이 시각적 개체 개인 설정** 은 전체 보고서 또는 특정 시각적 개체에 대해 해제할 수 있습니다. 시각적 개체를 개인 설정할 수 있는 옵션이 없는 경우 Power BI 관리자 또는 보고서 소유자에게 문의하세요. 보고서 소유자의 연락처 정보를 표시하려면 Power BI 메뉴 모음에서 보고서 이름을 선택합니다.
 - 사용자 탐색은 자동으로 유지되지 않습니다. 변경 내용을 캡처하려면 개인 책갈피로 보기를 저장해야 합니다.
 - 이 기능은 iOS/Android 태블릿용 Power BI 모바일 앱 및 Power BI Windows 앱에서 지원됩니다. 휴대폰용 Power BI 모바일 앱에서는 지원되지 않습니다. 그러나 Power BI 서비스 중에 개인 책갈피에 저장한 시각적 개체 변경 내용은 전부 모든 Power BI 모바일 앱에서 적용됩니다.
-
-또한 해결 중인 알려진 문제가 몇 가지 있습니다.
-
-- 계층 구조 추가는 지원되지 않습니다. 개별 자식 항목을 각각 추가해야 합니다.
-- 개인 책갈피를 사용하면 선택한 시퀀스에 따라 약간 다른 결과를 얻을 수 있습니다. 보고서의 전체 상태가 아닌 수정된 내용만 캡처하기 때문에 불일치가 발생할 수 있습니다. 해결 방법으로 **기본으로 재설정**을 선택하고 볼 책갈피를 선택합니다. 
 
 ## <a name="next-steps"></a>다음 단계
 [보고서 시각적 개체를 정적 이미지로 복사](../visuals/power-bi-visualization-copy-paste.md)    
 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)
-

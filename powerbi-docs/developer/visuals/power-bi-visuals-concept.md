@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: d5d075e3627ded01f7e47c1b073b60ff379bb506
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 94926ccf0fa214ca4c65808a7476842c22308359
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537645"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92048858"
 ---
 # <a name="power-bi-visuals-system-integration"></a>Power BI 시각적 개체 시스템 통합
 
@@ -130,5 +130,5 @@ Power BI에서의 작업 및 후속 업데이트는 다음 세 가지 패턴 중
 
 시각화를 만들어 Microsoft AppSource에 추가하는 데 관심이 있으신가요? 아래 문서를 참조하세요.
 
-* [Power BI 시각적 개체 개발](./custom-visual-develop-tutorial.md)
+* [Power BI 원 카드 시각적 개체 개발](./develop-circle-card.md)
 * [파트너 센터에 Power BI 시각적 개체 게시](office-store.md)

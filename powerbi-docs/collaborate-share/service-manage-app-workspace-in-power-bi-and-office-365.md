@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/02/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 63acae99f0abd4fc91f4ae51b33786a3e01093ea
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c05cb79d0996ad1819f0145193760ab16a031ffb
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226022"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526723"
 ---
 # <a name="manage-your-workspace-in-power-bi-and-microsoft-365"></a>Power BI 및 Microsoft 365에서 작업 영역 관리
 
@@ -23,13 +23,13 @@ Microsoft 365 또는 [Power BI의 작업 영역](service-create-distribute-apps.
 > [!NOTE]
 > 새 작업 영역 환경에서 Power BI 작업 영역과 Microsoft 365 그룹 간의 관계를 변경합니다. 새 작업 영역 중 하나를 만들 때마다 Microsoft 365 그룹이 자동으로 만들어지지는 않습니다. [새 작업 영역 만들기](service-create-the-new-workspaces.md)를 참조하세요.
 
-**Power BI**에서 다음을 수행할 수 있습니다.
+**Power BI** 에서 다음을 수행할 수 있습니다.
 
 * 작업 영역 구성원을 관리자로 만드는 것을 포함하여 작업 영역 구성원 추가 또는 제거
 * 작업 영역 이름 편집
 * 작업 영역을 삭제합니다. 그러면 Microsoft 365 그룹도 삭제됩니다.
 
-**Microsoft 365**에서 다음 작업을 수행할 수 있습니다.
+**Microsoft 365** 에서 다음 작업을 수행할 수 있습니다.
 
 * 구성원을 소유자로 설정하는 것을 포함하여 작업 영역의 그룹 구성원 추가 또는 제거
 * 그룹 이름, 이미지, 설명 및 기타 설정 편집
@@ -40,18 +40,18 @@ Microsoft 365 또는 [Power BI의 작업 영역](service-create-distribute-apps.
 
 ## <a name="edit-your-workspace-in-power-bi"></a>Power BI에서 작업 영역 편집
 
-1. Power BI 서비스에서 **작업 영역** 옆에 있는 화살표를 선택하고 > 작업 영역 이름 옆에 있는 **추가 옵션**(…)을 선택한 다음 > **이 작업 영역 편집**을 선택합니다.
+1. Power BI 서비스에서 **작업 영역** 옆에 있는 화살표를 선택하고 > 작업 영역 이름 옆에 있는 **추가 옵션** (…)을 선택한 다음 > **이 작업 영역 편집** 을 선택합니다.
 
-   ![Power BI에서 작업 영역 편집](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
+   ![스크린샷은 작업 영역이 선택된 Power BI 홈 및 추가 옵션 메뉴에서 선택된 이 작업 영역 편집을 보여줍니다.](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
 
    > [!NOTE]
-   > 작업 영역 관리자인 경우에만 **이 작업 영역 편집**이 표시됩니다.
+   > 작업 영역 관리자인 경우에만 **이 작업 영역 편집** 이 표시됩니다.
 
 1. 여기서 작업 영역의 이름을 바꾸거나, 구성원을 추가 또는 제거하거나, 작업 영역을 삭제할 수 있습니다.
 
    ![작업 영역 대화 상자 편집](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-edit-workspace.png)
 
-1. **저장** 또는 **취소**를 선택합니다.
+1. **저장** 또는 **취소** 를 선택합니다.
 
 ## <a name="edit-power-bi-workspace-properties-in-microsoft-365"></a>Microsoft 365에서 Power BI 작업 영역 속성 편집
 
@@ -59,13 +59,13 @@ Microsoft 365용 Outlook에서 직접 작업 영역의 기능을 편집할 수�
 
 ### <a name="edit-the-members-of-the-workspace-group"></a>작업 영역 그룹의 구성원 편집
 
-1. Power BI 서비스에서 **작업 영역** 옆에 있는 화살표를 선택하고 > 작업 영역 이름 옆에 있는 **추가 옵션**(…)을 선택한 다음 > **구성원**을 선택합니다.
+1. Power BI 서비스에서 **작업 영역** 옆에 있는 화살표를 선택하고 > 작업 영역 이름 옆에 있는 **추가 옵션** (…)을 선택한 다음 > **구성원** 을 선택합니다.
 
-   ![Power BI에서 작업 영역 편집](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis-members.png)
+   ![스크린샷은 작업 영역이 선택되고 추가 옵션 메뉴에서 멤버가 선택된 Power BI 홈을 보여줍니다.](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis-members.png)
 
    그러면 작업 영역의 Microsoft 365용 Outlook 그룹 보기가 열립니다. 회사 계정에 로그인해야 할 수도 있습니다.
 
-1. 팀 구성원의 이름 옆에 있는 역할을 선택하여 해당 사용자를 **구성원** 또는 **소유자**로 만듭니다. 그룹에서 사용자를 제거하려면 **X**를 선택합니다.
+1. 팀 구성원의 이름 옆에 있는 역할을 선택하여 해당 사용자를 **구성원** 또는 **소유자** 로 만듭니다. 그룹에서 사용자를 제거하려면 **X** 를 선택합니다.
 
    ![Microsoft 365에서 그룹 편집](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
 
@@ -73,14 +73,14 @@ Microsoft 365용 Outlook에서 직접 작업 영역의 기능을 편집할 수�
 
 작업 영역에서 앱을 배포하는 경우, 여기서 추가한 이미지가 앱 이미지가 됩니다. **새 작업 영역 만들기** 문서의 [Microsoft 365 작업 영역에 이미지 추가](service-create-workspaces.md#add-an-image-to-your-microsoft-365-workspace-optional)를 참조하세요.
 
-1. 작업 영역의 Microsoft 365용 Outlook 보기에서 **정보** 탭으로 이동하여 **편집**을 선택합니다.
+1. 작업 영역의 Microsoft 365용 Outlook 보기에서 **정보** 탭으로 이동하여 **편집** 을 선택합니다.
 
     ![그룹 편집 아이콘](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgroupo365.png)
 1. 그룹 관련 알림의 이름, 설명 및 언어를 편집할 수 있습니다. 여기에서 이미지를 추가하고 다른 속성을 설정할 수도 있습니다.
 
    ![그룹 편집 대화 상자](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgrpo365dialog.png)
 
-1. **저장** 또는 **취소**를 선택합니다.
+1. **저장** 또는 **취소** 를 선택합니다.
 
 ## <a name="next-steps"></a>다음 단계
 

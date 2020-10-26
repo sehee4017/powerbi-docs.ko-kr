@@ -6,27 +6,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 08/12/2020
+ms.date: 09/25/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 8dd6e64943ea05f2219efa471cd3fcfa4152650b
-ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
+ms.openlocfilehash: 4eae96dbdddae82a7f74f27c835874a19b04a69f
+ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "88160490"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92256842"
 ---
 # <a name="let-users-personalize-visuals-in-a-report"></a>사용자가 보고서에서 시각적 개체를 개인 설정할 수 있습니다.
 
 [!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-desktop](../includes/yes-desktop.md)] [!INCLUDE [yes-service](../includes/yes-service.md)]
 
-광범위한 대상 그룹과 보고서를 공유하는 경우 일부 사용자는 특정 시각적 개체를 약간 다르게 보고 싶어 할 수 있습니다. 축에 있는 항목을 교환하거나, 시각적 개체 유형을 변경하거나, 도구 설명에 항목을 추가하려고 합니다. 모든 사용자의 요구 사항을 충족하는 하나의 시각적 개체를 만드는 것은 어렵습니다. 이 새로운 기능을 사용하면 보고서 읽기용 보기에서 시각적 개체를 탐색하고 개인 설정할 수 있습니다. 시각적 개체를 원하는 방식으로 조정하고, 책갈피로 저장하여 다시 돌아올 수 있습니다. 보고서에 대한 편집 권한이 필요 없거나, 변경하기 위해 보고서 작성자에게 다시 돌아갈 필요가 없습니다.
+광범위한 대상 그룹과 보고서를 공유하는 경우 일부 사용자는 특정 시각적 개체를 약간 다르게 보고 싶어 할 수 있습니다. 축에 있는 항목을 교환하거나, 시각적 개체 유형을 변경하거나, 도구 설명에 항목을 추가하려고 합니다. 모든 사용자의 요구 사항을 충족하는 하나의 시각적 개체를 만드는 것은 어렵습니다. 이 새로운 기능을 사용하면 비즈니스 사용자가 보고서 읽기용 보기에서 시각적 개체를 탐색하고 개인 설정할 수 있습니다. 시각적 개체를 원하는 방식으로 조정하고, 책갈피로 저장하여 다시 돌아올 수 있습니다. 보고서에 대한 편집 권한이 필요 없거나, 변경하기 위해 보고서 작성자에게 다시 돌아갈 필요가 없습니다.
 
 :::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-visual.png" alt-text="시각적 개체 개인 설정":::
  
-## <a name="what-report-consumers-can-change"></a>보고서 소비자가 변경할 수 있는 내용
+## <a name="what-report-users-can-change"></a>보고서 사용자가 변경할 수 있는 내용
 
-이 기능을 통해 소비자는 Power BI 보고서에서 시각적 개체의 임시 탐색을 통해 추가 정보를 얻을 수 있습니다. 소비자로 이 기능을 사용하는 방법을 알아보려면 [보고서에서 시각적 개체 개인 설정](../consumer/end-user-personalize-visuals.md)을 참조하세요. 이 기능은 보고서 읽기 권한자가 기본 탐색 시나리오를 사용하도록 허용하려는 보고서 작성자에게 적합합니다. 보고서 읽기 권한자는 다음과 같은 수정 작업을 수행할 수 있습니다.
+이 기능을 사용하면 비즈니스 사용자가 Power BI 보고서에서 시각적 개체를 임시로 탐색하여 추가 인사이트를 얻을 수 있습니다. 사용자로서 이 기능을 사용하는 방법을 알아보려면 [보고서에서 시각적 개체 개인 설정](../consumer/end-user-personalize-visuals.md)을 참조하세요. 이 기능은 보고서 읽기 권한자가 기본 탐색 시나리오를 사용하도록 허용하려는 보고서 작성자에게 적합합니다. 보고서 읽기 권한자는 다음과 같은 수정 작업을 수행할 수 있습니다.
 
 - 시각화 유형 변경
 - 측정값 또는 차원 교환
@@ -34,7 +34,7 @@ ms.locfileid: "88160490"
 - 두 개 이상의 측정값 비교
 - 집계 변경 등
 
-이 기능을 통해 새로운 탐색 기능을 사용할 수 있습니다. 또한 소비자가 변경 내용을 캡처 및 공유하는 방법도 포함되어 있습니다.
+이 기능을 통해 새로운 탐색 기능을 사용할 수 있습니다. 사용자가 변경 내용을 캡처하고 공유하는 방법도 포함되어 있습니다.
 
 - 변경 내용 캡처
 - 변경 내용 공유
@@ -44,7 +44,7 @@ ms.locfileid: "88160490"
 
 ## <a name="use-perspectives-for-a-more-focused-view"></a>더 집중된 뷰를 위해 큐브 뷰 사용
 
-시각적 개체 개인 설정의 경우 더 집중된 뷰를 제공하는 모델의 하위 집합을 선택하려면 **큐브 뷰**를 사용할 수 있습니다. 하위 집합을 선택하면 큰 데이터 모델을 사용하여 작업할 때 유용할 수 있습니다. 관리가 용이한 필드의 하위 집합에 집중할 수 있고, 대규모 모델에 있는 전체 필드 모음으로 보고서를 읽는 사용자에게 부담을 주지 않을 수 있습니다. 
+시각적 개체 개인 설정의 경우 더 집중된 뷰를 제공하는 모델의 하위 집합을 선택하려면 **큐브 뷰** 를 사용할 수 있습니다. 하위 집합을 선택하면 큰 데이터 모델을 사용하여 작업할 때 유용할 수 있습니다. 관리가 용이한 필드의 하위 집합에 집중할 수 있고, 대규모 모델에 있는 전체 필드 모음으로 보고서를 읽는 사용자에게 부담을 주지 않을 수 있습니다. 
 
 ![시각적 개체 개인 설정](media/power-bi-personalize-visuals/power-bi-personalize-perspective-01.png)
 
@@ -60,7 +60,7 @@ ms.locfileid: "88160490"
 
 큐브 뷰를 만들려면 다음 위치에서 다운로드할 수 있는 [테이블 형식 편집기](https://tabulareditor.com/)를 사용합니다. 테이블 형식 편집기 다운로드
 
-**테이블 형식 편집기**를 설치한 후에는 다음 그림에 나와 있는 것처럼 **Power BI Desktop**에서 보고서를 열고 리본의 **외부 도구** 탭에서 **테이블 형식 편집기**를 시작합니다.
+**테이블 형식 편집기** 를 설치한 후에는 다음 그림에 나와 있는 것처럼 **Power BI Desktop** 에서 보고서를 열고 리본의 **외부 도구** 탭에서 **테이블 형식 편집기** 를 시작합니다.
 
 ![외부 도구 리본의 테이블 형식 편집기](media/power-bi-personalize-visuals/power-bi-personalize-perspective-02.png)
 
@@ -82,75 +82,68 @@ ms.locfileid: "88160490"
 
 ![테이블 형식 편집기 및 Power BI Desktop에서 큐브 뷰 설정 저장](media/power-bi-personalize-visuals/power-bi-personalize-perspective-06.png)
 
-새 큐브 뷰를 모델에 저장하고 Power BI Desktop 보고서를 저장했으면 페이지에 대한 **형식** 창으로 이동합니다. 이 창에는 **시각적 개체 개인 설정**에 대한 새 섹션이 표시됩니다.
+새 큐브 뷰를 모델에 저장하고 Power BI Desktop 보고서를 저장했으면 페이지에 대한 **형식** 창으로 이동합니다. 이 창에는 **시각적 개체 개인 설정** 에 대한 새 섹션이 표시됩니다.
 
 ![서식 창의 시각적 개체 개인 설정 섹션](media/power-bi-personalize-visuals/power-bi-personalize-perspective-07.png)
 
-*보고서-독자 큐브 뷰*에 대한 선택은 초기에 *기본 필드*로 설정되어 있습니다. 드롭다운 화살표를 선택하면 전에 만든 다른 큐브 뷰가 표시됩니다.
+*보고서-독자 큐브 뷰* 에 대한 선택은 초기에 *기본 필드* 로 설정되어 있습니다. 드롭다운 화살표를 선택하면 전에 만든 다른 큐브 뷰가 표시됩니다.
 
 ![다른 큐브 뷰를 보려면 드롭다운 화살표를 선택합니다.](media/power-bi-personalize-visuals/power-bi-personalize-perspective-08.png)
 
-보고서 페이지에 대해 큐브 뷰를 설정하면 해당 페이지의 시각적 개체 개인 설정 환경이 선택한 큐브 뷰로 필터링됩니다. **모든 페이지에 적용**을 선택하면 보고서의 모든 기존 페이지에 큐브 뷰 설정을 적용할 수 있습니다.
+보고서 페이지에 대해 큐브 뷰를 설정하면 해당 페이지의 시각적 개체 개인 설정 환경이 선택한 큐브 뷰로 필터링됩니다. **모든 페이지에 적용** 을 선택하면 보고서의 모든 기존 페이지에 큐브 뷰 설정을 적용할 수 있습니다.
 
 ![전체 보고서에 적용하려면 큐브 뷰에 대해 모든 페이지에 적용을 선택합니다.](media/power-bi-personalize-visuals/power-bi-personalize-perspective-09.png)
 
-
-## <a name="turn-on-the-preview-feature"></a>미리 보기 기능 설정
-
-이 기능은 미리 보기 상태이므로 먼저 기능 스위치를 설정해야 합니다. **파일** > **옵션 및 설정** > **옵션**으로 이동합니다. **전역** 설정 > **미리 보기 기능**에서 **시각적 개체 개인 설정**을 선택했는지 확인합니다.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-preview-personalize-visual.png" alt-text="시각적 개체 개인 설정 사용":::
-
-현재 파일의 설정에서 Power BI Desktop을 다시 시작해야 할 수도 있습니다.
-
 ## <a name="enable-personalization-in-a-report"></a>보고서에서 개인 설정 사용
-
-미리 보기 스위치를 설정한 후에는 소비자가 시각적 개체를 개인 설정하도록 하려는 보고서에 대해 특별히 사용하도록 설정해야 합니다.
 
 Power BI Desktop 또는 Power BI 서비스에서 기능을 사용하도록 설정할 수 있습니다.
 
 ### <a name="in-power-bi-desktop"></a>Power BI Desktop
 
-Power BI Desktop에서 이 기능을 사용하도록 설정하려면 **파일** > **옵션 및 설정** > **옵션** > **현재 파일** > **보고서 설정**으로 이동합니다. **시각적 개체 개인 설정(미리 보기)** 이 설정되어 있는지 확인합니다.
+Power BI Desktop에서 이 기능을 사용하도록 설정하려면 **파일** > **옵션 및 설정** > **옵션** > **현재 파일** > **보고서 설정** 으로 이동합니다. **시각적 개체 개인 설정** 이 설정되어 있는지 확인합니다.
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-report-settings-personalize-visual.png" alt-text="보고서에서 개인 설정 사용":::
+:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-desktop.png" alt-text="시각적 개체 개인 설정":::
 
 ### <a name="in-the-power-bi-service"></a>Power BI 서비스에서 다음을 수행합니다.
 
-대신 Power BI 서비스 기능을 사용하도록 설정하려면 보고서의 **설정**으로 이동합니다.
+대신 Power BI 서비스 기능을 사용하도록 설정하려면 보고서의 **설정** 으로 이동합니다.
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-report-service-settings-personalize-visual.png" alt-text="Power BI 서비스의 보고서 설정":::
+:::image type="content" source="media/power-bi-personalize-visuals/power-bi-report-service-settings-personalize-visual.png" alt-text="시각적 개체 개인 설정":::
 
-**시각적 개체 개인 설정(미리 보기)**  > **저장**을 설정합니다.
+**시각적 개체 개인 설정** > **저장** 을 설정합니다.
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-report-service-personalize-visual.png" alt-text="서비스에서 시각적 개체 개인 설정 사용":::
+:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-service.png" alt-text="시각적 개체 개인 설정":::
 
-## <a name="select-visuals-that-can-be-personalized"></a>개인 설정할 수 있는 시각적 개체 선택
+## <a name="turn-the-feature-on-or-off-at-a-page-or-visual-level"></a>페이지 또는 시각적 수준에서 기능 설정 또는 해제
 
-지정된 보고서에 이 설정을 사용하도록 하면 기본적으로 해당 보고서의 모든 시각적 개체를 개인 설정할 수 있습니다. 모든 시각적 개체를 개인 설정하지 않으려면 시각적 개체에 대한 설정을 사용하거나 해제할 수 있습니다.
+지정된 보고서에 대해 시각적 개체 개인 설정을 활성화하면 기본적으로 해당 보고서의 모든 시각적 개체를 개인 설정할 수 있습니다. 모든 시각적 개체를 개인 설정하지 않으려면 페이지 또는 시각적 개체별로 설정을 켜거나 끌 수 있습니다.
 
-시각적 개체를 선택하고 > **시각화** 창에서 **서식**을 선택한 다음 > **시각적 개체 헤더**를 확장합니다.
+### <a name="per-page"></a>페이지당
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-header-personalize.png" alt-text="시각적 개체 헤더 선택":::
+페이지 탭 선택 > **시각화** 창에서 **서식** 을 선택합니다.
+
+:::image type="content" source="media/power-bi-personalize-visuals/personalize-page-level-setting.png" alt-text="시각적 개체 개인 설정":::
  
-**시각적 개체 개인 설정** >  을 **사용** 또는 **해제**로 밉니다.
+**시각적 개체 개인 설정** >  을 **사용** 또는 **해제** 로 밉니다.
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-personalize-on-off.png" alt-text="시각적 개체 개인 설정 사용 또는 해제로 밀기":::
+### <a name="per-visual"></a>시각적 개체당
+
+시각적 개체를 선택하고 > **시각화** 창에서 **서식** 을 선택한 다음 > **시각적 개체 헤더** 를 확장합니다.
+
+:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-header-personalize.png" alt-text="시각적 개체 개인 설정":::
+ 
+**시각적 개체 개인 설정** >  을 **사용** 또는 **해제** 로 밉니다.
+
+:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-personalize-on-off.png" alt-text="시각적 개체 개인 설정":::
 
 
-## <a name="limitations-and-known-issues"></a>제한 사항 및 알려진 문제
+## <a name="limitations"></a>제한 사항
 
 현재 이 기능에는 몇 가지 주의 사항이 있습니다.
 
-- 이 기능은 웹에 게시와 같은 포함 시나리오에 대해 지원되지 않습니다.
+- 이 기능은 웹에 게시하는 데 지원되지 않습니다.
 - 사용자 탐색은 자동으로 유지되지 않습니다. 변경 내용을 캡처하려면 개인 책갈피로 보기를 저장해야 합니다.
 - 이 기능은 iOS/Android 태블릿용 Power BI 모바일 앱 및 Power BI Windows 앱에서 지원됩니다. 휴대폰용 Power BI 모바일 앱에서는 지원되지 않습니다. 그러나 Power BI 서비스 중에 개인 책갈피에 저장한 시각적 개체 변경 내용은 전부 모든 Power BI 모바일 앱에서 적용됩니다.
-
-또한 해결 중인 알려진 문제가 몇 가지 있습니다.
-
-- 계층 구조 추가는 지원되지 않습니다. 개별 자식 항목을 추가해야 합니다.
-- 날짜 계층 구조를 날짜로 변경하거나 그 반대로 변경할 수 없습니다. 
-- 개인 책갈피를 사용하면 선택한 시퀀스에 따라 약간 다른 결과를 얻을 수 있습니다. 보고서의 전체 상태가 아닌 수정된 내용만 캡처하기 때문에 불일치가 발생할 수 있습니다. 해결 방법으로 **기본으로 재설정**을 선택하고 볼 책갈피를 선택합니다. 
 
 ## <a name="next-steps"></a>다음 단계
 

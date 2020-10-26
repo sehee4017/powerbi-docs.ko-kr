@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 84c33cfc1d9163ff631c11d285b5441dd301578e
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 8dd6a33ab19e692d9dc04138d53b04e8e49da2bf
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748129"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049180"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Power BI 시각적 개체 인증받기
 
@@ -45,7 +45,7 @@ GitHub에서 공개적으로 코드를 공유할 필요는 없지만 Power BI �
 
 리포지토리에는 다음이 포함되어야 합니다.
 * Power BI 시각적 개체 단 하나의 코드. 여러 Power BI 시각적 개체의 코드나 관계가 없는 코드는 포함할 수 없습니다.
-* **certification**(소문자 필수)이라는 분기. 이 분기의 소스 코드는 제출된 패키지와 일치해야 합니다. 이 코드는 Power BI 시각적 개체를 다시 제출하는 경우, 다음 제출 프로세스 중에만 업데이트할 수 있습니다.
+* **certification** (소문자 필수)이라는 분기. 이 분기의 소스 코드는 제출된 패키지와 일치해야 합니다. 이 코드는 Power BI 시각적 개체를 다시 제출하는 경우, 다음 제출 프로세스 중에만 업데이트할 수 있습니다.
 
 Power BI 시각적 개체가 비공개 npm 패키지 또는 git 하위 모듈을 사용하는 경우, 이 코드가 포함된 추가 리포지토리에 대한 액세스 권한을 제공해야 합니다.
 
@@ -56,10 +56,10 @@ Power BI 시각적 리포지토리가 어떻게 보이는지 이해하려면 [Po
 최신 버전의 API를 사용하여 Power BI 시각적 개체를 작성합니다.
 
 리포지토리에는 다음 파일이 포함되어야 합니다.
-* **.gitignore** - 이 파일에 `node_modules`, `.tmp` 및 `dist`를 추가합니다. 코드에는 *node_modules*, *.tmp* 또는 *dist* 폴더가 포함될 수 없습니다.
+* **.gitignore** - 이 파일에 `node_modules`, `.tmp` 및 `dist`를 추가합니다. 코드에는 *node_modules* , *.tmp* 또는 *dist* 폴더가 포함될 수 없습니다.
 * **capabilities.json** - 이 파일의 속성이 변경된 새 버전의 Power BI 시각적 개체를 제출하는 경우, 기존 사용자의 보고서를 중단하지 않는지 확인합니다.
 * **pbiviz.json** 
-* **package.json**. 시각적 개체에는 다음 패키지가 설치되어 있어야 합니다.
+* **package.json** . 시각적 개체에는 다음 패키지가 설치되어 있어야 합니다.
    * ["tslint"](https://www.npmjs.com/package/tslint) - 버전 5.18.0 이상
    * ["typescript"](https://www.npmjs.com/package/typescript) - 버전 3.0.0 이상
    * ["tslint-microsoftcontrib"](https://www.npmjs.com/package/tslint-microsoft-contrib) - 버전 6.2.0 이상
@@ -111,7 +111,7 @@ Power BI 시각적 리포지토리가 어떻게 보이는지 이해하려면 [Po
 Power BI 인증을 요청하려면
 
 1. 파트너 센터에 로그인합니다.
-2. **개요 페이지**에서 Power BI 시각적 개체를 선택하고 **제품 설정** 페이지로 이동합니다.
+2. **개요 페이지** 에서 Power BI 시각적 개체를 선택하고 **제품 설정** 페이지로 이동합니다.
 3. **Power BI 인증 요청** 확인란을 선택합니다.
 4. **검토 및 게시** 페이지의 **인증에 대한 참고 사항** 텍스트 상자에 소스 코드 및 액세스 자격 증명에 대한 링크를 제공합니다.
 
@@ -137,7 +137,7 @@ Power BI 시각적 개체가 인증되면 인증되었음을 나타내는 지정
 
     ![AppSource 인증 Power BI 시각적 개체](media/power-bi-custom-visuals-certified/certified-visual-yellow-small.png)
 
-* AppSource에서 Power BI 시각적 카드를 클릭하면 *PBI 인증*이라는 노란색 배지에 이 Power BI 시각적 개체가 인증되었다고 표시됩니다.
+* AppSource에서 Power BI 시각적 카드를 클릭하면 *PBI 인증* 이라는 노란색 배지에 이 Power BI 시각적 개체가 인증되었다고 표시됩니다.
 
     ![앱 페이지 인증된 Power BI 시각적 개체](media/power-bi-custom-visuals-certified/certified-visual-yellow-big.png)
 
@@ -170,11 +170,9 @@ AppSource에 배포하는 프로세스는 다소 시간이 걸릴 수 있습니�
 
 ## <a name="next-steps"></a>다음 단계
 
-* 자체 Power BI 시각적 개체를 만들어  [Microsoft AppSource](https://appsource.microsoft.com)에 추가하는 데 관심이 있는 웹 개발자라면  [Power BI 시각적 개체 개발](custom-visual-develop-tutorial.md) 자습서로 시작할 수 있습니다.
+* 자체 Power BI 시각적 개체를 만들어  [Microsoft AppSource](https://appsource.microsoft.com)에 추가하는 데 관심이 있는 웹 개발자라면  [Power BI 원 카드 시각적 개체 개발](develop-circle-card.md) 자습서를 시작하세요.
 
 * 시각적 개체에 대한 자세한 내용은 [인증된 시각적 개체에 관한 자주 묻는 질문](power-bi-custom-visuals-faq.md#certified-power-bi-visuals)을 참조하세요.
-
-* [Power BI 시각적 개체 개발](custom-visual-develop-tutorial.md)
 
 * [Microsoft의 Power BI 시각적 개체 YouTube 재생 목록](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)
 

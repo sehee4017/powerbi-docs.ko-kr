@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 09/22/2020
+ms.date: 10/12/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 56825599a6b566a93f18e6fea16d995dc8bdda8f
-ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
+ms.openlocfilehash: 8565f6ef18192110688d01127129dcc19919cb0f
+ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91020047"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92256670"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop의 데이터 원본
 
@@ -24,12 +24,12 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 
 ![가장 일반적 데이터 형식 메뉴, Power BI Desktop의 데이터 가져오기](media/desktop-data-sources/data-sources-01.png)
 
-**데이터 가져오기** 대화 상자로 이동하려면 **가장 일반적** 데이터 형식 메뉴를 표시하고 **자세히**를 선택합니다. **데이터 가져오기** 아이콘을 직접 선택하여 **데이터 가져오기** 대화 상자를 표시할 수도 있습니다(**가장 일반적** 메뉴 무시).
+**데이터 가져오기** 대화 상자로 이동하려면 **가장 일반적** 데이터 형식 메뉴를 표시하고 **자세히** 를 선택합니다. **데이터 가져오기** 아이콘을 직접 선택하여 **데이터 가져오기** 대화 상자를 표시할 수도 있습니다( **가장 일반적** 메뉴 무시).
 
 ![데이터 가져오기 단추, Power BI Desktop](media/desktop-data-sources/data-sources-02.png)
 
 > [!NOTE]
-> Power BI 팀은 Power BI Desktop 및 Power BI 서비스에 사용할 수 있는 데이터 원본을 지속적으로 확장하고 있습니다. 따라서 **베타** 또는 **미리 보기**로 표시된 작업 진행 데이터 원본의 초기 버전을 자주 볼 수 있습니다. **베타** 또는 **미리 보기**로 표시된 모든 데이터 원본은 지원 및 기능이 제한되며, 프로덕션 환경에서 사용하면 안 됩니다. 또한 Power BI Desktop에서 **베타** 또는 **미리 보기**로 표시된 데이터 원본은 데이터 원본이 GA(일반 공급) 상태가 될 때까지 Power BI 서비스 또는 기타 Microsoft 서비스에서 사용하지 못할 수 있습니다.
+> Power BI 팀은 Power BI Desktop 및 Power BI 서비스에 사용할 수 있는 데이터 원본을 지속적으로 확장하고 있습니다. 따라서 **베타** 또는 **미리 보기** 로 표시된 작업 진행 데이터 원본의 초기 버전을 자주 볼 수 있습니다. **베타** 또는 **미리 보기** 로 표시된 모든 데이터 원본은 지원 및 기능이 제한되며, 프로덕션 환경에서 사용하면 안 됩니다. 또한 Power BI Desktop에서 **베타** 또는 **미리 보기** 로 표시된 데이터 원본은 데이터 원본이 GA(일반 공급) 상태가 될 때까지 Power BI 서비스 또는 기타 Microsoft 서비스에서 사용하지 못할 수 있습니다.
 
 > [!NOTE]
 > 인증에 Internet Explorer 10 이상이 필요한 Power BI Desktop용 데이터 커넥터가 많습니다. 
@@ -61,7 +61,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * PDF
 * SharePoint 폴더
 
-다음 그림은 **파일**에 대한 **데이터 가져오기** 창을 보여 줍니다.
+다음 그림은 **파일** 에 대한 **데이터 가져오기** 창을 보여 줍니다.
 
 ![파일 데이터 원본, 데이터 가져오기 대화 상자, Power BI Desktop](media/desktop-data-sources/data-sources-03.png)
 
@@ -104,9 +104,9 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * MariaDB(베타)
 
 > [!NOTE]
-> 일부 데이터베이스 커넥터는 **파일 > 옵션 및 설정 > 옵션**을 선택한 다음 **미리 보기 기능**을 선택하고 커넥터를 사용하도록 설정하여 사용해야 합니다. 위에서 언급한 커넥터 중 일부를 표시하지 않고 사용하지 않으려는 경우 **미리 보기 기능** 설정을 확인합니다. *베타* 또는 *미리 보기*로 표시된 모든 데이터 원본은 제한된 지원 및 기능을 가지며 프로덕션 환경에서는 사용할 수 없습니다.
+> 일부 데이터베이스 커넥터는 **파일 > 옵션 및 설정 > 옵션** 을 선택한 다음 **미리 보기 기능** 을 선택하고 커넥터를 사용하도록 설정하여 사용해야 합니다. 위에서 언급한 커넥터 중 일부를 표시하지 않고 사용하지 않으려는 경우 **미리 보기 기능** 설정을 확인합니다. *베타* 또는 *미리 보기* 로 표시된 모든 데이터 원본은 제한된 지원 및 기능을 가지며 프로덕션 환경에서는 사용할 수 없습니다.
 
-다음 그림은 **데이터베이스**에 대한 **데이터 가져오기** 창을 보여 줍니다.
+다음 그림은 **데이터베이스** 에 대한 **데이터 가져오기** 창을 보여 줍니다.
 
 ![데이터베이스 데이터 원본, 데이터 가져오기 대화 상자, Power BI Desktop](media/desktop-data-sources/data-sources-04.png)
 
@@ -119,7 +119,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Common Data Service
 * Power Platform 데이터 흐름(베타)
 
-다음 그림은 **Power Platform**에 대한 **데이터 가져오기** 창을 보여 줍니다.
+다음 그림은 **Power Platform** 에 대한 **데이터 가져오기** 창을 보여 줍니다.
 
 ![Power Platform 데이터 원본, 데이터 가져오기 대화 상자, Power BI Desktop](media/desktop-data-sources/data-sources-05.png)
 
@@ -145,7 +145,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Azure Databricks
 
 
-다음 그림은 **Azure**에 대한 **데이터 가져오기** 창을 보여 줍니다.
+다음 그림은 **Azure** 에 대한 **데이터 가져오기** 창을 보여 줍니다.
 
 ![Azure 데이터 원본, 데이터 가져오기 대화 상자, Power BI Desktop](media/desktop-data-sources/data-sources-06.png)
 
@@ -185,22 +185,24 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Emigo 데이터 원본
 * Entersoft Business Suite(베타)
 * FactSet Analytics
-* Palantir Foundry
-* Industrial App Store
+* Hexagon PPM Smart API
 * Intune Data Warehouse(베타)
 * Microsoft Graph 보안(베타)
-* Power BI용 Projectplace(베타)
 * Product Insights(베타)
 * Quick Base
 * TeamDesk(베타)
 * Webtrends Analytics(베타)
 * Witivio(베타)
-* Zoho Creator(베타)
 * Workplace Analytics(베타)
-* Hexagon PPM Smart API
+* Zoho Creator(베타)
+* Palantir Foundry
+* Industrial App Store
+* Power BI용 Projectplace
+* eWay-CRM(베타)
+* Spigit(베타)
 
 
-다음 그림은 **온라인 서비스**에 대한 **데이터 가져오기** 창을 보여 줍니다.
+다음 그림은 **온라인 서비스** 에 대한 **데이터 가져오기** 창을 보여 줍니다.
 
 ![온라인 서비스 데이터 원본, 데이터 가져오기 대화 상자, Power BI Desktop](media/desktop-data-sources/data-sources-07.png)
 
@@ -238,22 +240,30 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Tenforce(스마트) 목록
 * TIBCO(R) 데이터 가상화(베타)
 * Vena(베타)
-* Zucchetti HR Infinity(베타)
 * Vessel Insight(베타)
+* Zucchetti HR Infinity(베타)
 * 빈 쿼리
 
 
 
-다음 그림은 **기타**에 대한 **데이터 가져오기** 창을 보여 줍니다.
+다음 그림은 **기타** 에 대한 **데이터 가져오기** 창을 보여 줍니다.
 
-![기타 데이터 원본, 데이터 가져오기 대화 상자, Power BI Desktop](media/desktop-data-sources/data-sources-08.png)
+![Power BI Desktop의 기타 데이터 원본](media/desktop-data-sources/data-sources-08.png)
 
 > [!NOTE]
 > 지금은 Azure Active Directory를 사용하여 보호되는 사용자 지정 데이터 원본에 연결할 수 없습니다.
 
+### <a name="template-apps"></a>템플릿 앱
+
+**데이터 가져오기** 창 하단 근처에 있는 **템플릿 앱** 링크를 선택하여 조직에 대한 템플릿 앱을 찾을 수 있습니다. 
+
+![Power BI Desktop의 기타 데이터 원본에 대한 데이터 가져오기 대화 상자](media/desktop-data-sources/data-sources-12.png)
+
+사용 가능한 템플릿 앱은 조직에 따라 다를 수 있습니다.
+
 ## <a name="connecting-to-a-data-source"></a>데이터 원본에 연결
 
-데이터 원본에 연결하려면 **데이터 가져오기** 창에서 데이터 원본을 선택한 다음 **연결**을 선택합니다. 다음 그림에서는 **기타** 데이터 연결 범주에서 **웹**이 선택됩니다.
+데이터 원본에 연결하려면 **데이터 가져오기** 창에서 데이터 원본을 선택한 다음 **연결** 을 선택합니다. 다음 그림에서는 **기타** 데이터 연결 범주에서 **웹** 이 선택됩니다.
 
 ![웹에 연결, 데이터 가져오기 대화 상자, Power BI Desktop](media/desktop-data-sources/data-sources-08.png)
 
@@ -261,7 +271,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 
 ![입력 URL, 웹에서 대화 상자, Power BI Desktop](media/desktop-data-sources/datasources-fromwebbox.png)
 
-URL 또는 리소스 연결 정보를 입력한 다음 **확인**을 선택합니다. Power BI Desktop이 데이터 원본에 연결하고 **탐색기**에 사용 가능한 데이터 원본을 제공합니다.
+URL 또는 리소스 연결 정보를 입력한 다음 **확인** 을 선택합니다. Power BI Desktop이 데이터 원본에 연결하고 **탐색기** 에 사용 가능한 데이터 원본을 제공합니다.
 
 ![탐색기 대화 상자, Power BI Desktop](media/desktop-data-sources/datasources-fromnavigatordialog.png)
 
@@ -273,25 +283,43 @@ Power BI Desktop에서 데이터 원본에 연결하는 데 필요한 작업을 
 
 PBIDS 파일은 특정 구조가 있는 Power BI Desktop 파일이며, Power BI 데이터 원본 파일임을 식별하기 위한 .PBIDS 확장명이 있습니다.
 
-PBIDS 파일을 만들어 조직에서 보고서 작성자의 **데이터 가져오기** 환경을 간소화할 수 있습니다. 관리자는 새 보고서 작성자가 보다 쉽게 PBIDS 파일을 사용할 수 있도록 일반적으로 사용되는 연결을 위해 이러한 파일을 만드는 것이 좋습니다.
+PBIDS 파일을 만들어 조직의 신규 또는 초급 보고서 작성자를 위한 **데이터 가져오기** 환경을 간소화할 수 있습니다. 기존 보고서에서 PBIDS 파일을 만드는 경우 보고서 작성자를 시작할 때 동일한 데이터에서 새 보고서를 빌드하는 것이 더 쉽습니다.
 
-작성자가 PBIDS 파일을 열면 Power BI Desktop이 열리고 인증을 위해 자격 증명을 입력하라는 메시지를 사용자에게 표시하고 파일에 지정되어 있는 데이터 원본에 연결합니다. **탐색** 대화 상자가 나타나면 사용자가 해당 데이터 원본에서 테이블을 선택하여 모델에 로드해야 합니다. PBIDS 파일에서 데이터베이스가 지정되지 않은 경우 사용자가 데이터베이스를 선택해야 할 수도 있습니다.
+작성자가 PBIDS 파일을 열면 Power BI Desktop이 열리고 인증을 위해 자격 증명을 입력하라는 메시지를 사용자에게 표시하고 파일에 지정되어 있는 데이터 원본에 연결합니다. **탐색** 대화 상자가 나타나면 사용자가 해당 데이터 원본에서 테이블을 선택하여 모델에 로드해야 합니다. PBIDS 파일에 지정된 데이터베이스가 없는 경우 사용자가 데이터베이스 및 연결 모드를 선택해야 할 수도 있습니다.
 
-선택한 후에는 사용자가 시각화를 빌드하거나 **최근 원본**을 선택하여 새 테이블 집합을 모델에 로드할 수 있습니다.
+선택한 후에는 사용자가 시각화를 빌드하거나 **최근 원본** 을 선택하여 새 테이블 집합을 모델에 로드할 수 있습니다.
 
 현재 PBIDS 파일은 한 파일에서 하나의 데이터 원본만 지원합니다. 둘 이상의 데이터 원본을 지정하면 오류가 발생합니다.
 
-PBIDS 파일을 만들려면 관리자가 단일 연결에 필요한 입력을 지정해야 합니다. 연결 모드를 DirectQuery 또는 가져오기로 지정할 수도 있습니다. 파일에 **모드**가 없거나 null인 경우, Power BI Desktop에서 파일을 여는 사용자에게 **DirectQuery** 또는 **가져오기**를 선택하라는 메시지가 표시됩니다.
+
+### <a name="how-to-create-a-pbids-connection-file"></a>PBIDS 연결 파일을 만드는 방법
+
+관심 있는 데이터에 이미 연결된 기존 Power BI Desktop(.PBIX) 파일이 있는 경우 Power BI Desktop 내에서 이러한 연결 파일을 간단히 내보낼 수 있습니다. PBIDS 파일은 데스크톱에서 자동 생성될 수 있으므로 이는 권장되는 방법입니다. 또한 텍스트 편집기에서 계속 파일을 편집하거나 수동으로 만들 수 있습니다. 
+
+PBIDS 파일을 만들려면 **파일 > 옵션 및 설정 > 데이터 원본 설정** 을 선택합니다.
+
+![데이터 원본 설정 메뉴 옵션](media/desktop-data-sources/data-sources-09.png)
+
+표시되는 대화 상자에서 PBIDS로 내보낼 데이터 원본을 선택한 다음, **PBIDS 내보내기** 를 선택합니다.
+
+![데이터 원본 설정 대화 상자](media/desktop-data-sources/data-sources-10.png)
+
+**PBIDS 내보내기** 단추를 선택하면 Power BI Desktop에서 이름을 바꾸고, 디렉터리에 저장하고, 다른 사용자와 공유할 수 있는 PBIDS 파일을 생성합니다. 텍스트 편집기에서 파일을 열고 다음 이미지에 표시된 대로 파일 자체의 연결 모드를 지정하는 등 파일을 추가로 수정할 수도 있습니다. 
+
+![텍스트 편집기를 사용하여 PBIDS 파일 수정](media/desktop-data-sources/data-sources-11.png)
+
+텍스트 편집기에서 PBIDS 파일을 수동으로 만들려면 단일 연결에 필요한 입력을 지정하고 PBIDS 확장명으로 파일을 저장해야 합니다. 필요에 따라 연결 모드를 DirectQuery 또는 가져오기로 지정할 수도 있습니다. 파일에 **모드** 가 없거나 null인 경우, Power BI Desktop에서 파일을 여는 사용자에게 **DirectQuery** 또는 **가져오기** 를 선택하라는 메시지가 표시됩니다.
+
 
 ### <a name="pbids-file-examples"></a>PBIDS 파일 예제
 
-이 섹션에서는 일반적으로 사용되는 데이터 원본의 몇 가지 예를 제공합니다. PBIDS 파일 형식은 Power BI Desktop에서도 지원되는 데이터 연결만 지원합니다. 단, Live Connect 및 빈 쿼리의 경우는 예외입니다.
+이 섹션에서는 일반적으로 사용되는 데이터 원본의 몇 가지 예를 제공합니다. PBIDS 파일 형식은 Power BI Desktop에서도 지원되는 데이터 연결만 지원합니다. 단, Wiki URLS, Live Connect 및 빈 쿼리는 예외입니다.
 
-PBIDS 파일은 인증 정보와 테이블 및 스키마 정보를 포함하지 *않습니다*.  
+PBIDS 파일은 인증 정보와 테이블 및 스키마 정보를 포함하지 *않습니다* .  
 
 다음 코드 조각은 PBIDS 파일의 몇 가지 일반적인 예이지만 완전하거나 포괄적이지는 않습니다. 다른 데이터 원본에 대해서는 [프로토콜 및 주소 정보를 위한 DSR(데이터 원본 참조) 서식](/azure/data-catalog/data-catalog-dsr#data-source-reference-specification)을 참조할 수 있습니다.
 
-이러한 예는 편의를 위한 것으로, 포괄적이지 않으며, 지원되는 모든 커넥터를 DSR 서식에 포함하지는 않습니다. 관리자 또는 조직은 이러한 예를 자체 데이터 원본 파일을 만들고 지원할 수 있는 가이드로 사용하여 자체 데이터 원본을 만들 수 있습니다.
+연결 파일을 편집하거나 수동으로 만드는 경우 이러한 예는 편의를 위한 것으로, 포괄적이지 않으며, 지원되는 모든 커넥터를 DSR 서식에 포함하지는 않습니다.
 
 #### <a name="azure-as"></a>Azure AS
 

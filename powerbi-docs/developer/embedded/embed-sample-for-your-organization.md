@@ -9,16 +9,16 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 7a93260aab9d8195478949ea8044378ea5cfae83
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 9a38533e76fec134d667ae4026258a2a3c07f410
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746404"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983117"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>자습서:  조직의 애플리케이션에 Power BI 콘텐츠 포함
 
-**Power BI**에서 사용자 소유 데이터를 사용하여 애플리케이션에 보고서(Power BI 또는 페이지 매김), 대시보드 또는 타일을 포함할 수 있습니다. **사용자 소유 데이터**를 사용하면 애플리케이션에서 Power BI 서비스를 확장할 수 있으므로 임베디드 분석을 사용할 수 있습니다. 이 자습서는 보고서(Power BI 또는 페이지 매김)를 애플리케이션에 통합하는 방법을 보여 줍니다. Power BI .NET SDK를 Power BI JavaScript API와 함께 사용하여 Power BI를 조직의 애플리케이션에 포함합니다.
+**Power BI** 에서 사용자 소유 데이터를 사용하여 애플리케이션에 보고서(Power BI 또는 페이지 매김), 대시보드 또는 타일을 포함할 수 있습니다. **사용자 소유 데이터** 를 사용하면 애플리케이션에서 Power BI 서비스를 확장할 수 있으므로 임베디드 분석을 사용할 수 있습니다. 이 자습서는 보고서(Power BI 또는 페이지 매김)를 애플리케이션에 통합하는 방법을 보여 줍니다. Power BI .NET SDK를 Power BI JavaScript API와 함께 사용하여 Power BI를 조직의 애플리케이션에 포함합니다.
 
 ![Power BI 포함 보고서](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
 
@@ -36,7 +36,7 @@ ms.locfileid: "91746404"
 * 고유한 [Azure Active Directory 테넌트 ](create-an-azure-active-directory-tenant.md) 설정이 필요합니다.
 * 페이지를 매긴 보고서를 포함하려면 최소 P1 용량이 필요합니다. [페이지를 매긴 보고서에 필요한 크기의 프리미엄 용량은 무엇인가요? 참조](../../paginated-reports/paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)
 
-아직 **Power BI Pro**에 등록하지 않은 경우 시작하기 전에 [평가판에 등록](https://powerbi.microsoft.com/pricing/)합니다.
+아직 **Power BI Pro** 에 등록하지 않은 경우 시작하기 전에 [평가판에 등록](https://powerbi.microsoft.com/pricing/)합니다.
 
 Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)을 만듭니다.
 
@@ -54,7 +54,7 @@ Azure Active Directory로 [애플리케이션을 등록](register-app.md)하여 
 
 **서버 쪽 웹 애플리케이션** 앱 등록 작업을 진행해야 합니다. 서버 사이드 웹 애플리케이션을 등록하여 응용 프로그램 암호를 만듭니다.
 
-Azure에서 애플리케이션을 만들었으면 Azure에서 애플리케이션을 열고 ‘인증’으로 이동한 후 ‘리디렉션 URI’에서 **/Redirect**를 ‘리디렉션 URI’에 추가합니다.  
+Azure에서 애플리케이션을 만들었으면 Azure에서 애플리케이션을 열고 ‘인증’으로 이동한 후 ‘리디렉션 URI’에서 **/Redirect** 를 ‘리디렉션 URI’에 추가합니다.  
 
 ## <a name="set-up-your-power-bi-environment"></a>Power BI 환경 설정
 
@@ -113,19 +113,19 @@ Power BI Desktop을 사용하여 보고서와 데이터 세트를 만들 수 있
 
 ### <a name="application-id"></a>애플리케이션 ID
 
-**Azure**의 **애플리케이션 ID**를 사용하여 **applicationId** 정보를 입력합니다. **applicationId**는 응용 프로그램에서 권한을 요청 중인 사용자에게 응용 프로그램을 인식시키는 데 사용됩니다.
+**Azure** 의 **애플리케이션 ID** 를 사용하여 **applicationId** 정보를 입력합니다. **applicationId** 는 응용 프로그램에서 권한을 요청 중인 사용자에게 응용 프로그램을 인식시키는 데 사용됩니다.
 
-**applicationId**를 가져오려면 다음 단계를 수행합니다.
+**applicationId** 를 가져오려면 다음 단계를 수행합니다.
 
 1. [Azure Portal](https://portal.azure.com)에 로그인합니다.
 
-2. 왼쪽 탐색 창에서 **모든 서비스**를 선택하고 **앱 등록**을 선택합니다.
+2. 왼쪽 탐색 창에서 **모든 서비스** 를 선택하고 **앱 등록** 을 선택합니다.
 
-3. **applicationId**가 필요한 응용 프로그램을 선택합니다.
+3. **applicationId** 가 필요한 응용 프로그램을 선택합니다.
 
     ![앱 선택](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
 
-4. GUID로 나열된 **애플리케이션 ID**가 있습니다. 이 **응용 프로그램 ID**를 애플리케이션의 **applicationId**로 사용합니다.
+4. GUID로 나열된 **애플리케이션 ID** 가 있습니다. 이 **응용 프로그램 ID** 를 애플리케이션의 **applicationId** 로 사용합니다.
 
     ![applicationId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-043.png)
 
@@ -172,15 +172,15 @@ Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
 
 조직 테넌트에 포함된 경우 URL( *https://login.microsoftonline.com/common/oauth2/authorize* )을 사용하세요.
 
-게스트에 포함된 경우 *report-owner-tenant-id*를 대체하여 보고서 소유자의 테넌트 ID를 추가하는 URL(`https://login.microsoftonline.com/report-owner-tenant-id`)을 사용하세요.
+게스트에 포함된 경우 *report-owner-tenant-id* 를 대체하여 보고서 소유자의 테넌트 ID를 추가하는 URL(`https://login.microsoftonline.com/report-owner-tenant-id`)을 사용하세요.
 
 ### <a name="run-the-application"></a>애플리케이션 실행
 
-1. **Visual Studio**에서 **실행**을 선택합니다.
+1. **Visual Studio** 에서 **실행** 을 선택합니다.
 
     ![애플리케이션 실행](media/embed-sample-for-your-organization/embed-sample-for-your-organization-033.png)
 
-2. 그런 다음, **보고서 포함**을 선택합니다. 테스트하기 위해 선택한 콘텐츠(보고서, 대시보드 또는 타일)에 따라 애플리케이션에서 해당 옵션을 선택합니다.
+2. 그런 다음, **보고서 포함** 을 선택합니다. 테스트하기 위해 선택한 콘텐츠(보고서, 대시보드 또는 타일)에 따라 애플리케이션에서 해당 옵션을 선택합니다.
 
     ![콘텐츠 선택](media/embed-sample-for-your-organization/embed-sample-for-your-organization-034.png)
 
@@ -375,13 +375,13 @@ function updateEmbedReport() {
 }
 ```
 
-## <a name="using-a-power-bi-premium-dedicated-capacity"></a>Power BI Premium 전용 용량 사용
+## <a name="using-a-power-bi-premium-capacity"></a>Power BI Premium 용량 사용
 
-이제 애플리케이션 개발을 완료했으므로 전용 용량으로 작업 영역을 백업해야 합니다.
+이제 애플리케이션 개발을 완료했으므로 용량으로 작업 영역을 백업해야 합니다.
 
-### <a name="create-a-dedicated-capacity"></a>전용 용량 만들기
+### <a name="create-a-capacity"></a>용량 만들기
 
-전용 용량을 만들면 작업 영역의 콘텐츠 전용 리소스를 활용할 수 있습니다. 페이지를 매긴 보고서의 경우 최소 P1 용량을 사용하여 작업 영역을 백업해야 합니다. [Power BI Premium](../../admin/service-premium-what-is.md)을 사용하여 전용 용량을 만들 수 있습니다.
+용량을 만들면 작업 영역의 콘텐츠에 대한 리소스의 혜택을 활용할 수 있습니다. 페이지를 매긴 보고서의 경우 최소 P1 용량을 사용하여 작업 영역을 백업해야 합니다. [Power BI Premium](../../admin/service-premium-what-is.md)을 사용하여 용량을 만들 수 있습니다.
 
 다음 표에는 [Microsoft 365](../../admin/service-admin-premium-purchase.md) 내에서 사용할 수 있는 Power BI Premium SKU가 나와 있습니다.
 
@@ -400,19 +400,19 @@ function updateEmbedReport() {
 > - Microsoft Office 앱에 포함하려는 경우 EM SKU를 사용하여 무료 Power BI 라이선스로 콘텐츠에 액세스할 수 있습니다. 하지만 Powerbi.com 또는 Power BI Mobile을 사용하는 경우 무료 Power BI 라이선스를 사용하여 콘텐츠에 액세스할 수 없습니다.
 > - Powerbi.com 또는 Power BI Mobile을 사용하여 Microsoft Office 앱에 포함하려는 경우 무료 Power BI 라이선스로 콘텐츠에 액세스할 수 있습니다.
 
-### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>전용 용량에 작업 영역 할당
+### <a name="assign-a-workspace-to-a-capacity"></a>용량에 작업 영역 할당
 
-전용 용량을 만든 후에 작업 영역을 전용 용량에 할당할 수 있습니다. 이 프로세스를 완료하려면 다음 단계를 수행합니다.
+용량을 만든 후 해당 용량에 작업 영역을 할당할 수 있습니다. 이 프로세스를 완료하려면 다음 단계를 수행합니다.
 
-1. Power BI 서비스 내에서 작업 영역을 확장하고 콘텐츠를 포함하는 데 사용하는 작업 영역에 대한 줄임표를 선택합니다. 그런 다음, **작업 영역 편집**을 선택합니다.
+1. Power BI 서비스 내에서 작업 영역을 확장하고 콘텐츠를 포함하는 데 사용하는 작업 영역에 대한 줄임표를 선택합니다. 그런 다음, **작업 영역 편집** 을 선택합니다.
 
     ![작업 영역 편집](media/embed-sample-for-your-organization/embed-sample-for-your-organization-036.png)
 
-2. **고급**을 확장하고 **전용 용량**을 사용하도록 설정합니다. 만든 전용 용량을 선택합니다. 그런 다음, **저장**을 선택합니다.
+2. **고급** 을 확장하고 **용량** 을 사용하도록 설정합니다. 만든 용량을 선택합니다. 그런 다음, **저장** 을 선택합니다.
 
-    ![전용 용량 할당](media/embed-sample-for-your-organization/embed-sample-for-your-organization-024.png)
+    ![용량 할당](media/embed-sample-for-your-organization/embed-sample-for-your-organization-024.png)
 
-3. **저장**을 선택하면 작업 영역 이름 옆에 다이아몬드가 표시됩니다.
+3. **저장** 을 선택하면 작업 영역 이름 옆에 다이아몬드가 표시됩니다.
 
     ![용량에 연결된 작업 영역](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
 

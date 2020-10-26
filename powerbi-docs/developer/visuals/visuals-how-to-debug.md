@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 02/14/2020
-ms.openlocfilehash: 2978401c7ec949c8c8df7c813395b3d84db18b72
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f3a3551db1d7d995db0194ff7fa9b7141415c9eb
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232669"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525550"
 ---
 # <a name="how-to-debug-power-bi-visuals"></a>Power BI 시각적 개체를 디버그하는 방법
 
@@ -76,9 +76,9 @@ Catch된 예외에서 중단하도록 브라우저를 설정할 수도 있습니
 1. 개발자 도구(F12)를 엽니다.
 2. **디버거** 탭으로 이동합니다.
 3. **예외에서 중단** 아이콘(일시 중지 기호가 있는 육각형)을 클릭합니다.
-4. **모든 예외에서 중단**을 선택합니다.
+4. **모든 예외에서 중단** 을 선택합니다.
 
-![데이터 역할 필드](media/visuals-how-to-debug/how-to-debug-edge.png)
+![스크린샷은 모든 예외에서 중단이 선택된 디버거 탭을 보여줍니다.](media/visuals-how-to-debug/how-to-debug-edge.png)
 
 ## <a name="chrome"></a>Chrome
 
@@ -87,7 +87,7 @@ Catch된 예외에서 중단하도록 브라우저를 설정할 수도 있습니
 3. **예외에서 중단** 아이콘을 클릭합니다(일시 중지 기호가 있는 일단 정지 표지).
 4. **Catch된 예외에서 일시 중지** 확인란을 선택합니다.
 
-![데이터 역할 필드](media/visuals-how-to-debug/how-to-debug-chrome.png)
+![스크린샷은 Catch된 예외에 대해 일시 중지가 선택된 원본 탭을 보여줍니다.](media/visuals-how-to-debug/how-to-debug-chrome.png)
 
 ## <a name="next-steps"></a>다음 단계
 * [Power BI 시각적 개체 문제 해결](power-bi-custom-visuals-troubleshoot.md)

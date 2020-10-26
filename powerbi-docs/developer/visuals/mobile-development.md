@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 03/12/2019
-ms.openlocfilehash: 99df7a301a1025d50c82c5cc7f5966325a6a6a6f
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: dca16fd29dc89fc2e67ce1e8f5c6abfc0adcb9a6
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747531"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049295"
 ---
 # <a name="how-to-create-mobile-friendly-power-bi-visuals"></a>모바일 친화적인 Power BI 시각적 개체를 만드는 방법
 모바일 사용은 Power BI에서 중요한 역할을 합니다. 그 장점 중 하나는 언제 어디서나 데이터에 연결되어 있다는 것입니다.
@@ -34,7 +34,7 @@ Power BI 시각적 개체를 만드는 개발자는 가능한 한 많은 사용�
 
   대화형 기능은 데스크톱 디바이스에 제공되는 것과 동일한 방식으로 제공되어야 합니다. 데스크톱 브라우저에서 처리되는 모든 이벤트를 지원하거나 모바일 디바이스와 비슷한 이벤트 처리기가 있어야 합니다.
   
-  예를 들어 기본 탐색 및 데이터 요소 선택은 데스크톱 브라우저의 기능과 동일해야 합니다. 시각적 개체에서 **Ctrl**을 사용하여 다중 선택을 지원하는 경우 개발자는 비슷한 이벤트 처리기를 모바일 디바이스에 추가하는 것을 고려해야 합니다.
+  예를 들어 기본 탐색 및 데이터 요소 선택은 데스크톱 브라우저의 기능과 동일해야 합니다. 시각적 개체에서 **Ctrl** 을 사용하여 다중 선택을 지원하는 경우 개발자는 비슷한 이벤트 처리기를 모바일 디바이스에 추가하는 것을 고려해야 합니다.
 
   다음 표에는 모바일 디바이스에 해당하는 이벤트 목록이 나와 있습니다.
 
@@ -79,4 +79,4 @@ Power BI 시각적 개체는 Power BI 앱을 지원하는 모든 디바이스에
 최신 Windows, iOS 및 Android 디바이스 모델을 테스트할 때 개발자는 이러한 품질 측면의 대부분을 고려해야 합니다.
 
 ## <a name="next-steps"></a>다음 단계
-시작하려면 [자습서: Power BI 시각적 개체 개발](./custom-visual-develop-tutorial.md)을 참조하세요.
+시작하려면 [Power BI 원 카드 시각적 개체 개발](./develop-circle-card.md)을 참조하세요.

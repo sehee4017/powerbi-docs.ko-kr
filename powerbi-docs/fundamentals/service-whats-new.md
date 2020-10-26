@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: a36c377a7faf82e6aeb544859b72ac973305a3b3
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 0f4b84067389e93de0e5c5c2b5008b08cd78151f
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860167"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525205"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 서비스의 새로운 기능
-**Power BI 서비스**의 알려진 문제 및 최근에 릴리스된 기능에 대해서는 이 페이지를 확인하세요. 관련된 "새로운 기능"은 다음을 참조하세요.
+**Power BI 서비스** 의 알려진 문제 및 최근에 릴리스된 기능에 대해서는 이 페이지를 확인하세요. 관련된 "새로운 기능"은 다음을 참조하세요.
 
 - Microsoft Business Applications 그룹에서 [비즈니스 인텔리전스 '18년 10월의 새로운 기능](/business-applications-release-notes/October18/intelligence-platform/planned-features) 릴리스 정보: 비즈니스 애플리케이션에 대한 최신 업데이트
 - [Power BI Desktop의 새로운 기능](desktop-latest-update.md)  
@@ -80,7 +80,7 @@ ms.locfileid: "90860167"
 * 다른 사람에게 새로 고침 알림 보내기
 * Power BI Premium 용량의 [테스트 도구](https://powerbi.microsoft.com/blog/power-bi-premium-know-what-your-premium-capacity-can-handle/)
 * [서비스 가용성 알림](https://powerbi.microsoft.com/blog/power-bi-introduces-service-availability-notifications/) 공개 미리 보기
-* Power BI 보고서의 [새 모양](https://powerbi.microsoft.com/blog/introducing-the-new-look-for-power-bi-service/) 공개 미리 보기
+* Power BI 보고서의 [새 모양](https://powerbi.microsoft.com/blog/introducing-the-new-look-of-workspaces-in-the-power-bi-service/) 공개 미리 보기
 * 남아프리카 공화국의 새 Power BI 지역
 
 ### <a name="june-2019"></a>2019년 6월
@@ -312,7 +312,7 @@ ms.locfileid: "90860167"
 
 ***행 수준 보안(RLS)***
 
-* AAD(Azure Active Directory) 그룹 지원: 사용자는 이제 AAD 그룹(보안 그룹 및 배포 목록)을 역할에 할당할 수 있습니다. 이렇게 하면 한 번에 쉽게 역할을 사용자의 큰 그룹에 할당할 수 있습니다.
+* Azure AD(Azure Active Directory) 그룹 지원: 이제 사용자는 Azure AD 그룹(보안 그룹)을 역할에 할당할 수 있습니다. 이렇게 하면 한 번에 쉽게 역할을 사용자의 큰 그룹에 할당할 수 있습니다.
 * [제 위치에 RLS가 있는 데이터에서 지원하는 보고서와 함께 RLS 역할을 테스트](../admin/service-admin-rls.md#validate-the-roles-within-power-bi-desktop): 데이터 세트를 특정 역할로 테스트할 수 있는 RLS 미리 보기에 기능을 추가했습니다. 어떤 사용자가 자신의 대시보드를 가지기 전에 예상대로 작동하는지 확인할 수 있습니다.
 * 직접 쿼리를 기반으로 RLS를 정의하고 클라우드 모델에 적용: 이제 직접 쿼리 데이터 원본에 대해 RLS 규칙을 만들어 적용할 수 있습니다.
 
@@ -405,7 +405,7 @@ ms.locfileid: "90860167"
 ***대시보드***
 
 * 전체 화면 모드: 먼저 전체 화면 모드를 종료하지 않고 인쇄
-* 전체 화면 모드: 타일을 확장하여 전체 캔버스를 채우고 **너비에 맞춤**을 선택하여 남는 공백 제거
+* 전체 화면 모드: 타일을 확장하여 전체 캔버스를 채우고 **너비에 맞춤** 을 선택하여 남는 공백 제거
 * 타일 흐름을 사용하여 캔버스의 왼쪽 위 모서리에 타일을 자동으로 맞춥니다.
 
 ***Quick Insights (신속한 정보 활용)***
@@ -646,7 +646,7 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 * 이번 주 서비스 업데이트에서는 새 보고서를 만들 때 이제 여러 페이지 크기 중에서 선택할 수 있을 뿐만 아니라 고유한 페이지 크기를 정의할 수 있습니다. 보고서에서 각 페이지의 크기 및 가로 세로 비율을 제어합니다.
 * 이미지 및 거품형 차트에 대한 추가 시각적 서식 지원을 추가했습니다. 이미지 왜곡을 방지하려면 이미지 크기를 조정하는 동안 측면을 잠글 수 있고 분산형 차트 거품이 채워지거나 채워지지 않게 구성될 수 있습니다.
 * 현재 Power BI는 대체 전자 메일 주소에 초대를 공유하도록 전송합니다. 대시보드를 사용자와 공유하면 원래 전자 메일 주소 및 대체 전자 메일 주소(구성된 경우) 모두에 초대 링크를 공유하도록 전송합니다.
-* Power BI는 다중 테넌트(DonMT) Microsoft 365 아키텍처 전용에서 해당 프로그램을 포함하여 모든 고객이 사용할 수 있습니다. Power BI를 다중 테넌트 모드에서 공유 서비스로 사용합니다. 대부분의 경우에 [셀프 서비스 등록 프로세스](https://powerbi.microsoft.com/)에 따라 Power BI를 등록할 수 있습니다. – 회사 전자 메일 주소를 입력하고 시작할 이름 및 암호를 입력합니다. 테넌트 관리자인 경우 [여기](/microsoft-365/admin/add-users/add-users?redirectSourcePath=%252fen-us%252farticle%252fAssign-or-unassign-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc)에 있는 지침을 사용하여 사용자에게 라이선스를 할당할 수 있습니다.
+* Power BI는 다중 테넌트(DonMT) Microsoft 365 아키텍처 전용에서 해당 프로그램을 포함하여 모든 고객이 사용할 수 있습니다. Power BI를 다중 테넌트 모드에서 공유 서비스로 사용합니다. 대부분의 경우에 [셀프 서비스 등록 프로세스](https://powerbi.microsoft.com/)에 따라 Power BI를 등록할 수 있습니다. – 회사 전자 메일 주소를 입력하고 시작할 이름 및 암호를 입력합니다. 라이선스 관리자인 경우 [여기](/microsoft-365/admin/add-users/add-users?redirectSourcePath=%252fen-us%252farticle%252fAssign-or-unassign-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc)에 있는 지침을 사용하여 사용자에게 라이선스를 할당할 수 있습니다.
 * Azure 감사 로그를 사용하면 Azure 구독에서 제어 평면 작업 로그를 볼 수 있습니다. Power BI Azure 감사 로그 콘텐츠 팩은 이러한 로그에 포함된 다양한 정보를 쉽게 분석하고 시각화합니다. 콘텐츠 팩을 사용하면 기본적인 대시보드 및 보고서를 사용하여 데이터에 연결하고 정보를 검색하기 시작할 수 있습니다. 자세한 내용은 [블로그](https://powerbi.microsoft.com/blog/monitor-azure-audit-logs-with-power-bi/) 및 [온라인 설명서](../connect-data/service-connect-to-services.md)를 읽습니다.
 
 [블로그에서 자세한 내용을 알아보세요](https://powerbi.microsoft.com/blog/power-bi-weekly-service-update-0929/).
@@ -747,7 +747,7 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 
 **2015년 5월 13일**
 
-* **Azure SQL 데이터베이스**에 저장된 데이터에 직접 연결할 수 있습니다. 쿼리를 동적으로 생성하여 원본으로 보내어 데이터베이스를 통해 직접 대화형 보고서를 만들 수 있습니다. 자세한 내용은 [블로그 게시물](https://powerbi.microsoft.com/blog/using-power-bi-to-visualize-and-explore-azure-sql-databases/) 및 [설명서](../connect-data/service-azure-sql-database-with-direct-connect.md)에 나와 있습니다.
+* **Azure SQL 데이터베이스** 에 저장된 데이터에 직접 연결할 수 있습니다. 쿼리를 동적으로 생성하여 원본으로 보내어 데이터베이스를 통해 직접 대화형 보고서를 만들 수 있습니다. 자세한 내용은 [블로그 게시물](https://powerbi.microsoft.com/blog/using-power-bi-to-visualize-and-explore-azure-sql-databases/) 및 [설명서](../connect-data/service-azure-sql-database-with-direct-connect.md)에 나와 있습니다.
 
 **2015년 5월 7일**
 
@@ -755,7 +755,7 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 
 **2015년 4월 28일**
 
-* Power BI는 이제 **44개의 언어**로 출시되었습니다. 전체 목록을 보려면 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-preview-now-available-in-your-language/)을 읽어보세요.
+* Power BI는 이제 **44개의 언어** 로 출시되었습니다. 전체 목록을 보려면 [블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-preview-now-available-in-your-language/)을 읽어보세요.
 
 **2015년 4월 23일**
 
@@ -764,15 +764,15 @@ Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 
 **2015년 4월 15일**
 
 * 이제 새 콘텐츠 팩을 사용하여 **Google 분석** 데이터를 시각화 및 탐색할 수 있습니다! Google 분석 콘텐츠 팩을 사용하면 대시보드, 보고서 및 데이터 세트를 가져와 지난 6개월 동안 사이트의 사용에 대한 이해력을 넓힐 수 있습니다. [블로그 게시물](https://powerbi.microsoft.com/blog/visualize-and-explore-your-google-analytics-data-with-power-bi/)을 읽을 수 있습니다.
-* 이제 질문 및 답변 및 보고서의 KPI 및 이미지가 포함된 **모든 카드를 고정**할 수 있습니다.
-* 이제 쿼리의 끝에 'as card'라는 문구를 사용하여 **질문 및 답변에서 카드**를 사용할 수 있습니다.
+* 이제 질문 및 답변 및 보고서의 KPI 및 이미지가 포함된 **모든 카드를 고정** 할 수 있습니다.
+* 이제 쿼리의 끝에 'as card'라는 문구를 사용하여 **질문 및 답변에서 카드** 를 사용할 수 있습니다.
 
 **2015년 3월 31일**
 
 * **GitHub** 대시보드에는 커뮤니티 구축, 향상된 계산 및 향상된 레이아웃에 집중된 새로운 시각 효과가 있습니다.
 * **SendGrid** 대시보드에는 보다 잘 이해할 수 있는 새로운 시각 효과 및 레이아웃이 있습니다.
-* 이제 쿼리의 끝에 'as treemap'이라는 문구를 사용하여 **treemaps in Q&A**를 사용할 수 있습니다.
-* 이제 질문 및 답변 및 보고서로부터 **트리맵을 고정**할 수 있습니다. 
+* 이제 쿼리의 끝에 'as treemap'이라는 문구를 사용하여 **treemaps in Q&A** 를 사용할 수 있습니다.
+* 이제 질문 및 답변 및 보고서로부터 **트리맵을 고정** 할 수 있습니다. 
 * 많은 버그 수정!
 
 **2015년 2월 25일**

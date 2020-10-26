@@ -6,18 +6,18 @@ ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 07/13/2020
-ms.openlocfilehash: f024959c0d7e8bd0b51893a277161c67b5f4dfc6
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.date: 10/01/2020
+ms.openlocfilehash: f997547bb61bf203f7806dbe68d45beb29c6538b
+ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746128"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "92116457"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>파일로 Power BI 보고서 내보내기(미리 보기)
 
 `exportToFile` API를 사용하면 REST 호출을 통해 Power BI 보고서를 내보낼 수 있습니다. 지원되는 파일 형식은 다음과 같습니다.
-* **.pptx**(PowerPoint)
+* **.pptx** (PowerPoint)
 * **.pdf**
 * **.png**
     * .png로 내보내는 경우 여러 페이지가 포함된 보고서는 .zip 파일로 압축됩니다.
@@ -36,7 +36,7 @@ ms.locfileid: "91746128"
 
 API를 사용하기 전에 다음 [관리자 테넌트 설정](../../admin/service-admin-portal.md#tenant-settings)이 사용하도록 설정되었는지 확인합니다.
 * **PowerPoint 프레젠테이션 또는 PDF 문서로 보고서 내보내기** - 기본적으로 사용하도록 설정됩니다.
-* **이미지 파일로 보고서 내보내기** - *.png*에만 필요하며 기본적으로 사용되지 않습니다.
+* **이미지 파일로 보고서 내보내기** - *.png* 에만 필요하며 기본적으로 사용되지 않습니다.
 
 이 API는 비동기식입니다. [exportToFile](/rest/api/power-bi/reports/exporttofile) API를 호출하면 내보내기 작업을 트리거합니다. 내보내기 작업을 트리거한 후 [폴링](/rest/api/power-bi/reports/getexporttofilestatus)을 사용하여 완료될 때까지 작업을 추적합니다.
 
@@ -52,11 +52,18 @@ API를 사용하기 전에 다음 [관리자 테넌트 설정](../../admin/servi
 
 ### <a name="bookmarks"></a>책갈피
 
- `exportToFile` API를 사용하여 필터를 적용한 후 특정 상태에서 보고서를 프로그래밍 방식으로 내보낼 수 있습니다. 이 동작은 [책갈피](../../consumer/end-user-bookmarks.md) 기능을 사용하여 수행합니다. 책갈피를 사용하여 보고서를 내보내려면 [bookmarks JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Bookmarks)를 사용합니다.
+[책갈피](../../consumer/end-user-bookmarks.md)는 적용된 필터 및 보고서 시각적 개체의 상태를 포함하여 특정 구성으로 보고서를 저장하는 데 사용할 수 있습니다. [exportToFile](https://docs.microsoft.com/rest/api/power-bi/reports/exporttofile) API를 사용하여 다음과 같은 두 가지 방법으로 보고서의 책갈피를 프로그래밍 방식으로 내보낼 수 있습니다.
 
- 예를 들어 책갈피의 `capturedBookmark.state` 메서드를 사용하여 특정 사용자가 보고서에 대해 만든 변경 내용을 캡처한 다음 현재 상태로 내보낼 수 있습니다.
+* **기존 책갈피 내보내기**
 
-[개인 책갈피](../../consumer/end-user-bookmarks.md#personal-bookmarks) 및 [영구 필터](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)는 지원되지 않습니다.
+    기존 [보고서 책갈피](../../consumer/end-user-bookmarks.md#report-bookmarks)를 내보내려면 [책갈피 JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Bookmarks)를 사용하여 가져올 수 있는 고유한(대/소문자 구분) 식별자인 `name` 속성을 사용합니다.
+
+* **보고서의 상태 내보내기**
+
+    보고서의 현재 상태를 내보내려면 `state` 속성을 사용합니다. 예를 들어 책갈피의 `bookmarksManager.capture` 메서드를 사용하여 특정 사용자가 보고서에 대해 만든 변경 내용을 캡처한 다음, `capturedBookmark.state`를 사용하여 현재 상태로 내보낼 수 있습니다.
+
+>[!NOTE]
+>[개인 책갈피](../../consumer/end-user-bookmarks.md#personal-bookmarks) 및 [영구 필터](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/)는 지원되지 않습니다.
 
 ### <a name="authentication"></a>인증
 

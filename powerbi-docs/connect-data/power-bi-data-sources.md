@@ -6,140 +6,138 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/11/2020
+ms.date: 10/07/2020
 ms.author: davidi
-ms.openlocfilehash: 926569e783dad7a97b91e2e5c1752401d21d6612
-ms.sourcegitcommit: 376ea86f69545444f975378cbf63e54c2f75faa3
+ms.openlocfilehash: 918b9a98d66a1c739421433d35f593dc74d19773
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "90084056"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91981484"
 ---
 # <a name="power-bi-data-sources"></a>Power BI 데이터 원본
 
 다음 표에서는 DirectQuery 및 온-프레미스 데이터 게이트웨이에 대한 정보를 포함하여 Power BI가 데이터 집합으로 지원하는 데이터 원본을 보여 줍니다. 데이터 흐름에 대한 자세한 내용은 [Power BI 데이터 흐름용 데이터 원본에 연결](../transform-model/service-dataflows-data-sources.md)을 참조하세요.
 
-| 데이터 원본 | 데스크톱에서 연결 | 서비스에서 연결 및 새로 고침 | DirectQuery/라이브 연결 | 게이트웨이(지원됨) | 게이트웨이(필수) |
+| 데이터 원본 | 데스크톱에서 연결 | 서비스에서 연결 및 새로 고침 | DirectQuery/라이브 연결 | 게이트웨이(지원됨) | 게이트웨이(필수) | Power BI 데이터 흐름 |
 |---|---|---|---|---|---|---|---|
-| Access 데이터베이스 | 예 | 예 | 아니요 | 예 <sup>1</sup> | 예 |
-| ActiveDirectory | 예 | 예 | 아니요 | 예 | 예 |
-| Adobe Analytics | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Amazon Redshift | 예 | 예 | 예 | 예 | 아니요 |
-| appFigures | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| AtScale 큐브 | 예 | 예 | 예 | 예 | 아니요 |
-| Azure Analysis Services | 예 | 예 | 예 | 아니요 | 아니요 |
-| Azure Blob Storage | 예 | 예 | 아니요 | 예 | 아니요 |
-| Azure Cosmos DB | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Azure Cost Management | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Azure Data Explorer(kusto) | 예 | 예 | 예 | 예 | 아니요 |
-| Azure Data Lake Storage Gen1 | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Azure Data Lake Storage Gen2 | 예 | 예 | 아니요 | 예 | 아니요 |
-| Azure DevOps | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Azure DevOps Server | 예 | 예 | 아니요 | 예 | 예 |
-| Azure HDInsight(HDFS) | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Azure HDInsight Spark | 예 | 예 | 예 | 아니요 | 아니요 |
-| Azure SQL Database | 예 | 예 | 예 | 예 <sup>2</sup> | 아니요 |
-| Azure SQL Data Warehouse | 예 | 예 | 예 | 예 <sup>2</sup> | 아니요 |
-| Azure Table Storage | 예 | 예 | 아니요 | 예 | 아니요 |
-| BI Connector | 예 | 예 | 예 | 예 | 예 |
-| BI360 - Budgeting &amp; Financial Reporting | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Common Data Service | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Data.World - 데이터 세트 가져오기 | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Denodo | 예 | 예 | 예 | 예 | 예 |
-| Dremio | 예 | 예 | 예 | 예 | 예 |
-| Dynamics 365(온라인) | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Dynamics 365 Business Central | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Dynamics 365 Business Central(온-프레미스) | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Dynamics 365 Customer Insights | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Dynamics NAV | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Emigo 데이터 원본 | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Entersoft Business Suite | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Essbase | 예 | 예 | 예 | 예 | 예 |
-| Exasol | 예 | 예 | 예 | 예 | 예 |
-| Excel | 예 <sup>3</sup> | 예 <sup>3</sup> | 아니요 | 예 <sup>3</sup> | 아니요 <sup>4</sup> |
-| Facebook | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| 파일 | 예 | 예 | 아니요 | 예 | 예 |
-| 폴더 | 예 | 예 | 아니요 | 예 | 예 |
-| GitHub | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Google 웹로그 분석 | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Google BigQuery | 예 | 예 | 예 | 아니요 | 아니요 |
-| HDFS(Hadoop 파일) | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
-| HDInsight 대화형 쿼리 | 예 | 예 | 예 | 아니요 | 아니요 |
-| IBM DB2 | 예 | 예 | 예 | 예 | 아니요 |
-| IBM Informix 데이터베이스 | 예 | 예 | 아니요 | 예 | 아니요 |
-| IBM Netezza | 예 | 예 | 예 | 예 | 예 |
-| Impala | 예 | 예 | 예 | 예 | 예 |
-| Indexima | 예 | 예 | 예 | 예 | 예 |
-| Industrial App Store | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Information Grid | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Intersystems IRIS | 예 | 예 | 예 | 예 | 예 |
-| Intune 데이터 웨어하우스 | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Jethro ODBC | 예 | 예 | 예 | 예 | 예 |
-| JSON | 예 | 예 | 아니요 | 예** | 아니요 <sup>4</sup> |
-| Kyligence Enterprise | 예 | 예 | 예 | 예 | 예 |
-| MailChimp | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Marketo | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| MarkLogic ODBC | 예 | 예 | 예 | 예 | 예 |
-| Microsoft Azure Consumption Insights | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Microsoft Exchange | 예 | 예 | 아니요 | 예 | 아니요 |
-| Microsoft Exchange Online | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Microsoft Graph 보안 | 예 | 예 | 아니요 | 예 | 아니요 |
-| Mixpanel | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| MySQL | 예 | 예 | 아니요 | 예 | 예 |
-| OData | 예 | 예 <sup>7</sup> | 아니요 | 예 | 아니요 |
-| ODBC | 예 | 예 | 아니요 | 예 | 예 |
-| OleDb | 예 | 예 | 아니요 | 예 | 예 |
-| Oracle | 예 | 예 | 예 | 예 | 예 |
-| Paxata <sup>8</sup> | 예 | 예 | 아니요 | 예 | 아니요 |
-| PDF | 예 | 예 | 아니요 | 예 | 아니요 <sup>4</sup> |
-| Planview Enterprise One - CTM | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Planview Enterprise One - PRM | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Planview Projectplace | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| PostgreSQL | 예 | 예 | 예 | 예 | 아니요 |
-| Power BI 데이터 흐름 | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Power BI 데이터 세트 | 예 | 예 | 예 | 아니요 | 아니요 |
-| Power Platform 데이터 흐름 | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Python 스크립트 | 예 | 예 <sup>5</sup> | 아니요 | 예 <sup>5</sup> | 예 |
-| QubolePresto | 예 | 예 | 예 | 예 | 예 |
-| Quick Base | 예 | 예 | 아니요 | 예 | 예 |
-| QuickBooks Online | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| R 스크립트 | 예 | 예 <sup>5</sup> | 아니요 | 예 <sup>5</sup> | 아니요 |
-| Roamler | 예 | 예 | 아니요 | 예 | 아니요 |
-| Salesforce 개체 | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Salesforce 보고서 | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| SAP Business Warehouse 메시지 서버 | 예 | 예 | 예 | 예 | 예 |
-| SAP Business Warehouse 서버 | 예 | 예 | 예 | 예 | 예 |
-| SAP HANA | 예 | 예 | 예 | 예 | 예 |
-| SharePoint 폴더 | 예 | 예 | 아니요 | 예 | 아니요 <sup>4</sup> |
-| SharePoint 목록 | 예 | 예 | 아니요 | 예 | 아니요 <sup>4</sup> |
-| SharePoint Online 목록 | 예 | 예 | 아니요 | 예 <sup>2</sup> | 아니요 |
-| Smartsheet | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Snowflake | 예 | 예 | 예 | 예 | 아니요 |
-| Spark | 예 | 예 | 예 | 예 | 아니요 |
-| SparkPost | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| SQL Server | 예 | 예 | 예 | 예 | 예 |
-| SQL Server Analysis Services | 예 | 예 | 예 | 예 | 예 |
-| Stripe | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| SurveyMonkey | 예 | 예 | 아니요 | 예 | 아니요 |
-| SweetIQ | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Sybase | 예 | 예 | 아니요 | 예 | 예 |
-| TeamDesk | 예 | 예 | 아니요 | 예 | 아니요 |
-| Tenforce | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Teradata | 예 | 예 | 예 | 예 | 예 |
-| 텍스트/CSV | 예 | 예 | 아니요 | 예 | 아니요 <sup>4</sup> |
-| Twilio | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| tyGraph | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Vertica | 예 | 예 | 예 | 예 | 예 |
-| 웹 | 예 | 예 | 아니요 | 예 | 예 <sup>6</sup> |
-| Webtrends | 예 | 예 | 아니요 | 아니요 | 아니요 |
-| Workforce Dimensions | 예 | 예 | 아니요 | 예 | 아니요 |
-| XML | 예 | 예 | 아니요 | 예 | 아니요 <sup>4</sup> |
-| Zendesk | 예 | 예 | 아니요 | 아니요 | 아니요 |
+| Access 데이터베이스 | 예 | 예 | 아니요 | 예 <sup>1</sup> | 예 | 예 |
+| ActiveDirectory | 예 | 예 | 아니요 | 예 | 예 | 예 |
+| Adobe Analytics | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
+| Amazon Redshift | 예 | 예 | 예 | 예 | 아니요 | 예 |
+| appFigures | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
+| AtScale 큐브 | 예 | 예 | 예 | 예 | 아니요 | 아니요 |
+| Azure Analysis Services | 예 | 예 | 예 | 아니요 | 아니요 | 아니요 |
+| Azure Blob Storage | 예 | 예 | 아니요 | 예 | 아니요 | 예 |
+| Azure Cosmos DB | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
+| Azure Cost Management | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
+| Azure Data Explorer(kusto) | 예 | 예 | 예 | 예 | 아니요 | 예 |
+| Azure Data Lake Storage Gen1 | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
+| Azure Data Lake Storage Gen2 | 예 | 예 | 아니요 | 예 | 아니요 | 예 |
+| Azure DevOps | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
+| Azure DevOps Server | 예 | 예 | 아니요 | 예 | 예 | 아니요 |
+| Azure HDInsight(HDFS) | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
+| Azure HDInsight Spark | 예 | 예 | 예 | 아니요 | 아니요 | 예 |
+| Azure SQL Database | 예 | 예 | 예 | 예 | 아니요 | 예 |
+| Azure SQL Data Warehouse | 예 | 예 | 예 | 예 | 아니요 | 예 |
+| Azure Table Storage | 예 | 예 | 아니요 | 예 | 아니요 | 예 |
+| BI Connector | 예 | 예 | 예 | 예 | 예 | 아니요 |
+| BI360 - Budgeting &amp; Financial Reporting | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
+| Common Data Service | 예 | 예 | 아니요 | 아니요 | 아니요 | 예 |
+| Data.World - 데이터 세트 가져오기 | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
+| Denodo | 예 | 예 | 예 | 예 | 예 | 아니요 |
+| Dremio | 예 | 예 | 예 | 예 | 예 | 아니요 |
+| Dynamics 365(온라인) | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
+| Dynamics 365 Business Central | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
+| Dynamics 365 Business Central(온-프레미스) | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
+| Dynamics 365 Customer Insights | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
+| Dynamics NAV | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
+| Emigo 데이터 원본 | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
+| Entersoft Business Suite | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
+| Essbase | 예 | 예 | 예 | 예 | 예 | 아니요 |
+| Exasol | 예 | 예 | 예 | 예 | 예 | 아니요 |
+| Excel | 예 <sup>3</sup> | 예 <sup>3</sup> | 아니요 | 예 <sup>3</sup> | 아니요 <sup>4</sup> | 예 |
+| Facebook | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
+| 파일 | 예 | 예 | 아니요 | 예 | 예 | 예 |
+| 폴더 | 예 | 예 | 아니요 | 예 | 예 | 예 |
+| GitHub | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
+| Google 웹로그 분석 | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
+| Google BigQuery | 예 | 예 | 예 | 아니요 | 아니요 | 예 |
+| HDFS(Hadoop 파일) | 예 | 아니요 | 아니요 | 아니요 | 아니요 | 아니요 |
+| HDInsight 대화형 쿼리 | 예 | 예 | 예 | 아니요 | 아니요 | 아니요 |
+| IBM DB2 | 예 | 예 | 예 | 예 | 아니요 | 예 |
+| IBM Informix 데이터베이스 | 예 | 예 | 아니요 | 예 | 아니요 | 아니요 |
+| IBM Netezza | 예 | 예 | 예 | 예 | 예 | 예 |
+| Impala | 예 | 예 | 예 | 예 | 예 | 예 |
+| Indexima | 예 | 예 | 예 | 예 | 예 | 아니요 |
+| Industrial App Store | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
+| Information Grid | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
+| Intersystems IRIS | 예 | 예 | 예 | 예 | 예 | 아니요 |
+| Intune 데이터 웨어하우스 | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
+| Jethro ODBC | 예 | 예 | 예 | 예 | 예 | 아니요 |
+| JSON | 예 | 예 | 아니요 | 예** | 아니요 <sup>4</sup> | 예 |
+| Kyligence Enterprise | 예 | 예 | 예 | 예 | 예 | 아니요 |
+| MailChimp | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
+| Marketo | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
+| MarkLogic ODBC | 예 | 예 | 예 | 예 | 예 | 아니요 |
+| Microsoft Azure Consumption Insights | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
+| Microsoft Exchange | 예 | 예 | 아니요 | 예 | 아니요 | 아니요 |
+| Microsoft Exchange Online | 예 | 예 | 아니요 | 아니요 | 아니요 | 예 |
+| Microsoft Graph 보안 | 예 | 예 | 아니요 | 예 | 아니요 | 아니요 |
+| Mixpanel | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
+| MySQL | 예 | 예 | 아니요 | 예 | 예 | 예 |
+| OData | 예 | 예 <sup>7</sup> | 아니요 | 예 | 아니요 | 예 |
+| ODBC | 예 | 예 | 아니요 | 예 | 예 | 예 |
+| OleDb | 예 | 예 | 아니요 | 예 | 예 | 예 |
+| Oracle | 예 | 예 | 예 | 예 | 예 | 예 |
+| Paxata <sup>8</sup> | 예 | 예 | 아니요 | 예 | 아니요 | 아니요 |
+| PDF | 예 | 예 | 아니요 | 예 | 아니요 <sup>4</sup> | 예 |
+| Planview Enterprise One - CTM | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
+| Planview Enterprise One - PRM | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
+| Planview Projectplace | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
+| PostgreSQL | 예 | 예 | 예 | 예 | 아니요 | 예 |
+| Power BI 데이터 흐름 | 예 | 예 | 아니요 | 아니요 | 아니요 | 예 |
+| Power BI 데이터 세트 | 예 | 예 | 예 | 아니요 | 아니요 | 아니요 |
+| Power Platform 데이터 흐름 | 예 | 예 | 아니요 | 아니요 | 아니요 | 예 |
+| Python 스크립트 | 예 | 예 <sup>5</sup> | 아니요 | 예 <sup>5</sup> | 예 | 아니요 |
+| QubolePresto | 예 | 예 | 예 | 예 | 예 | 아니요 |
+| Quick Base | 예 | 예 | 아니요 | 예 | 예 | 아니요 |
+| QuickBooks Online | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
+| R 스크립트 | 예 | 예 <sup>5</sup> | 아니요 | 예 <sup>5</sup> | 아니요 | 아니요 |
+| Roamler | 예 | 예 | 아니요 | 예 | 아니요 | 아니요 |
+| Salesforce 개체 | 예 | 예 | 아니요 | 아니요 | 아니요 | 예 |
+| Salesforce 보고서 | 예 | 예 | 아니요 | 아니요 | 아니요 | 예 |
+| SAP Business Warehouse 메시지 서버 | 예 | 예 | 예 | 예 | 예 | 예 |
+| SAP Business Warehouse 서버 | 예 | 예 | 예 | 예 | 예 | 예 |
+| SAP HANA | 예 | 예 | 예 | 예 | 예 | 예 |
+| SharePoint 폴더 | 예 | 예 | 아니요 | 예 | 아니요 <sup>4</sup> | 예 |
+| SharePoint 목록 | 예 | 예 | 아니요 | 예 | 아니요 <sup>4</sup> | 예 |
+| SharePoint Online 목록 | 예 | 예 | 아니요 | 예 | 아니요 | 예 |
+| Smartsheet | 예 | 예 | 아니요 | 아니요 | 아니요 | 예 |
+| Snowflake | 예 | 예 | 예 | 예 | 아니요 | 예 |
+| Spark | 예 | 예 | 예 | 예 | 아니요 | 예 |
+| SparkPost | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
+| SQL Server | 예 | 예 | 예 | 예 | 예 | 예 |
+| SQL Server Analysis Services | 예 | 예 | 예 | 예 | 예 | 아니요 |
+| Stripe | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
+| SurveyMonkey | 예 | 예 | 아니요 | 예 | 아니요 | 아니요 |
+| SweetIQ | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
+| Sybase | 예 | 예 | 아니요 | 예 | 예 | 예 |
+| TeamDesk | 예 | 예 | 아니요 | 예 | 아니요 | 아니요 |
+| Tenforce | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
+| Teradata | 예 | 예 | 예 | 예 | 예 | 예 |
+| 텍스트/CSV | 예 | 예 | 아니요 | 예 | 아니요 <sup>4</sup> | 예 |
+| Twilio | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
+| tyGraph | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
+| Vertica | 예 | 예 | 예 | 예 | 예 | 예 |
+| 웹 | 예 | 예 | 아니요 | 예 | 예 <sup>6</sup> | 예 |
+| Webtrends | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
+| Workforce Dimensions | 예 | 예 | 아니요 | 예 | 아니요 | 아니요 |
+| XML | 예 | 예 | 아니요 | 예 | 아니요 <sup>4</sup> | 예 |
+| Zendesk | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
 | | | | | | | | |
 
 <sup>1</sup> 게이트웨이와 동일한 머신에 설치된 [ACE OLEDB 공급자](https://www.microsoft.com/download/details.aspx?id=54920)에서 지원됩니다.
-
-<sup>2</sup> 온-프레미스 버전과 동일한 M 함수로 지원되므로 제한된 인증 옵션(게이트웨이에서 OAuth를 지원하지 않음)이 적용됩니다.
 
 <sup>3</sup> Excel 1997~2003 파일(.xls)에 [ACE OLEDB 공급자](https://www.microsoft.com/download/details.aspx?id=54920)가 필요합니다.
 

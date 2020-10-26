@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: c8daa87bca6fb5ed47899f804c0710f58b559ff1
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d2e229dda05c1761fdaa5c7336c0eca5db538e46
+ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860236"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92026051"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -23,11 +23,25 @@ ms.locfileid: "90860236"
 * [Power BI 서비스의 새로운 기능](../../fundamentals/service-whats-new.md)
 
 >[!NOTE]
->**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
+>**Windows 10 Mobile을 사용하는 휴대폰** 용 Power BI 모바일 앱 지원은 2021년 3월 16일에 중단될 예정입니다. [자세히 알아보기](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
+
+## <a name="october-2020"></a>2020년 10월
+### <a name="automatic-page-refresh-is-now-supported-windows"></a>이제 자동 페이지 새로 고침이 지원됩니다(Windows).
+
+이제 [자동 페이지 새로 고침](../../create-reports/desktop-automatic-page-refresh.md)을 통해 구성된 보고서 페이지는 Windows 디바이스용 Power BI 앱에서도 자동으로 새로 고쳐집니다. 이는 일반 보고서 보기에서만 의미가 있는 것은 아닙니다. 자동 페이지 새로 고침을 사용하면 [프레젠테이션 및 슬라이드 쇼](mobile-windows-10-app-presentation-mode.md#slideshows)도 실시간으로 업데이트되어 항상 최신 비즈니스 데이터와 인사이트를 표시할 수 있습니다.
+
+### <a name="support-for-notch-displays-ios"></a>노치 표시 지원(iOS)
+iPhone 및 iPad의 노치 표시에 대한 지원을 추가하여 보고서 및 대시보드를 위한 추가 화면 공간을 제공합니다. 
+
+## <a name="september-2020"></a>2020년 9월
+### <a name="power-bi-app-preview-for-hololens-2-is-out-in-the-stores"></a>HoloLens 2용 Power BI 앱(미리 보기)이 스토어에 출시되었습니다.
+
+HoloLens 2용 Power BI 앱은 완전 몰입형 환경을 제공합니다. HoloLens 2의 손 제스처 시스템을 사용하면 도구 벨트에서 즐겨 찾는 보고서와 대시보드를 가져와 크기를 조정하여 필요한 공간에 배치하고 보고서의 페이지를 탐색할 수도 있습니다. 앱 사용 중에 보고서 및 대시보드가 업데이트되므로 데이터가 변경되면 해당 변경 내용이 바로 표시됩니다. [설명서](mobile-hololens2-app.md) 및 [블로그](https://powerbi.microsoft.com/blog/power-bi-app-for-mixed-reality-now-available-for-hololens-2/)에서 자세히 알아보세요.
+
 
 ## <a name="august-2020"></a>2020년 8월
 ### <a name="weve-improved-how-you-navigate-to-your-content-ios-and-android"></a>콘텐츠를 탐색하는 방법이 개선됨(iOS 및 Android)
-이제 보고서, 대시보드 및 앱의 헤더 드롭다운에서 사용할 수 있는 **새 탐색 트리**를 통해 콘텐츠를 빠르고 쉽게 탐색할 수 있습니다. 콘텐츠의 위치 계층 구조를 한눈에 볼 수 있으며, 콘텐츠 계층 구조에서 손쉽게 위로 이동하거나, 형제 콘텐츠로 이동하거나, 홈 페이지로 빠르게 돌아갈 수도 있습니다. 현재 보고 있는 항목이 앱의 일부인 경우 트리에는 앱의 전체 콘텐츠(섹션, 링크 및 모든 보고서 및 대시보드)가 표시됩니다. 현재 보고 있는 항목이 보고서인 경우 볼 수 있는 모든 보고서 페이지의 목록도 찾을 수 있습니다. 한 페이지에서 다른 페이지로 매우 쉽게 이동할 수 있습니다. 확인해 보세요. 
+이제 보고서, 대시보드 및 앱의 헤더 드롭다운에서 사용할 수 있는 **새 탐색 트리** 를 통해 콘텐츠를 빠르고 쉽게 탐색할 수 있습니다. 콘텐츠의 위치 계층 구조를 한눈에 볼 수 있으며, 콘텐츠 계층 구조에서 손쉽게 위로 이동하거나, 형제 콘텐츠로 이동하거나, 홈 페이지로 빠르게 돌아갈 수도 있습니다. 현재 보고 있는 항목이 앱의 일부인 경우 트리에는 앱의 전체 콘텐츠(섹션, 링크 및 모든 보고서 및 대시보드)가 표시됩니다. 현재 보고 있는 항목이 보고서인 경우 볼 수 있는 모든 보고서 페이지의 목록도 찾을 수 있습니다. 한 페이지에서 다른 페이지로 매우 쉽게 이동할 수 있습니다. 확인해 보세요. 
 
 ![Power BI 모바일 앱 탐색 트리의 스크린샷.](media/mobile-whats-new-in-the-mobile-apps/power-bi-mobile-nav-tree1.png)
 
@@ -96,7 +110,7 @@ Power BI 앱 필터의 기능과 디자인이 새로워졌습니다. 보고서 �
 
 ### <a name="report-footer-can-now-always-be-visible-in-the-mobile-app-for-iphones"></a>이제 보고서 바닥글은 iPhone용 모바일 앱에 항상 표시될 수 있습니다.
 
-Android 휴대폰에서와 같이 iPhone에서 보고서 페이지의 아래쪽에 보고서 바닥글을 고정하기로 결정할 수 있습니다. 그러면 보고서 바닥글은 페이지의 작업에 관계없이 항상 표시되고 사용할 수 있습니다. 이 경우 제공되는 모든 옵션을 쉽게 사용할 수 있습니다. 바닥글을 고정하려면 [모바일 앱 설정](./mobile-app-interaction-settings.md) 페이지에서 **고정된 보고서 바닥글**을 전환합니다.
+Android 휴대폰에서와 같이 iPhone에서 보고서 페이지의 아래쪽에 보고서 바닥글을 고정하기로 결정할 수 있습니다. 그러면 보고서 바닥글은 페이지의 작업에 관계없이 항상 표시되고 사용할 수 있습니다. 이 경우 제공되는 모든 옵션을 쉽게 사용할 수 있습니다. 바닥글을 고정하려면 [모바일 앱 설정](./mobile-app-interaction-settings.md) 페이지에서 **고정된 보고서 바닥글** 을 전환합니다.
 
 ### <a name="support-for-pbirs-reports-preview-windows"></a>PBIRS 보고서 지원(미리 보기)(Windows)
 
@@ -477,7 +491,7 @@ Intune 모바일 디바이스 관리를 사용하여 조건부 액세스를 지�
 
 #### <a name="auto-installed-apps"></a>자동 설치된 앱
 
-일부 앱은 Power BI에 설치할 필요가 없습니다. 조직의 Power BI 응용 프로그램 작성자는 대시보드 및 보고서 컬렉션을 포함하는 *앱*을 만들 수 있습니다. 그런 다음 앱을 게시하여 Power BI 서비스 및 Power BI 모바일 앱에 자동으로 설치하도록 설정할 수 있습니다. 앱이 설치되도록 설정되면 **앱** 메뉴에 앱이 자동으로 표시됩니다.
+일부 앱은 Power BI에 설치할 필요가 없습니다. 조직의 Power BI 응용 프로그램 작성자는 대시보드 및 보고서 컬렉션을 포함하는 *앱* 을 만들 수 있습니다. 그런 다음 앱을 게시하여 Power BI 서비스 및 Power BI 모바일 앱에 자동으로 설치하도록 설정할 수 있습니다. 앱이 설치되도록 설정되면 **앱** 메뉴에 앱이 자동으로 표시됩니다.
 
 ![Power BI 모바일 앱의 앱](./media/mobile-whats-new-in-the-mobile-apps/power-bi-apps-mobile-apps.png)
 
@@ -510,7 +524,7 @@ Power BI Desktop에서 휴대폰에 최적화된 페이지가 있는 보고서�
 **iOS에서 새로운 질문 및 답변 환경(미리 보기)** 이제 단순히 질문에 대한 답변을 받는 대신, 자연어를 사용하여 지정된 범위의 신속한 정보 활용이 가능합니다. 원하는 정보가 확실하지 않더라도 질문 및 답변은 사용자 데이터와 관련된 유용한 정보를 사전에 노출합니다. Microsoft Research 팀과 협업으로 개발된 모바일 기반 새로운 질문 및 답변 환경은 제품 내에서 강력한 기술을 선보입니다. [iOS 모바일 앱의 데이터에 대해 질문하기(자습서)](mobile-apps-ios-qna.md)를 시도해 보세요.
 
 ### <a name="responsive-visuals"></a>반응형 시각적 개체
-**휴대폰 보고서 및 대시보드를 위한 반응형 시각적 개체**대시보드 또는 보고서에서 시각적 개체를 *반응형*으로 설정하여 화면 크기와 상관없이 최대 데이터 양 및 정보를 표시하도록 동적으로 변경할 수 있습니다. [반응형 시각적 개체에 대한 블로그](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals)를 읽어 보세요.
+**휴대폰 보고서 및 대시보드를 위한 반응형 시각적 개체** 대시보드 또는 보고서에서 시각적 개체를 *반응형* 으로 설정하여 화면 크기와 상관없이 최대 데이터 양 및 정보를 표시하도록 동적으로 변경할 수 있습니다. [반응형 시각적 개체에 대한 블로그](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals)를 읽어 보세요.
 
 ### <a name="june-2107"></a>2017년 6월
 #### <a name="all-devices"></a>All 디바이스
@@ -578,7 +592,7 @@ Power BI Desktop에서 휴대폰에 최적화된 페이지가 있는 보고서�
 이제 최대 5개의 SQL Server Reporting Services(SSRS) 서버에 동시에 연결할 수 있습니다.
 
 #### <a name="android-tablets"></a>Android 태블릿
-이제 전 세계에서 Android 태블릿용 **Power BI 모바일 앱**을 사용할 수 있습니다. [Android 태블릿에서 Power BI](mobile-android-app-get-started.md)를 시작합니다.
+이제 전 세계에서 Android 태블릿용 **Power BI 모바일 앱** 을 사용할 수 있습니다. [Android 태블릿에서 Power BI](mobile-android-app-get-started.md)를 시작합니다.
 
 #### <a name="ios-and-android-devices"></a>iOS 및 Android 디바이스
 **대시보드 타일의 새 메뉴** 대시보드의 타일에 있는 메뉴에서 직접 원본 보고서로 이동하거나 타일을 확장하거나 경고를 관리하세요. 
@@ -756,10 +770,10 @@ Power BI 모바일 앱의 알림 센터에서는 사용자와 공유한 새 데�
 
 ### <a name="may-2016"></a>2016년 5월
 #### <a name="ios-devices-and-android-phones"></a>iOS 디바이스 및 Android 휴대폰
-* **QR 코드**는 **보고서에**도 제공됩니다. 관련된 보고서도 직접 이동하려면 탐색 또는 검색이 필요 없이 Power BI 앱을 사용하여 코드를 스캔합니다.
-* SQL Server 2016 Reporting Services에 대한 **데이터 관리 개선**: 디바이스의 로드 시간 및 데이터 사용이 감소되었습니다.
-* **SQL Server 2016 테마가 지정된 모바일 보고서**: 디바이스에서 모바일 보고서에 대한 테마를 확인합니다.
-* **지역 필터링**: 현재 위치에 따라 보고서를 필터링합니다.
+* **QR 코드** 는 **보고서에** 도 제공됩니다. 관련된 보고서도 직접 이동하려면 탐색 또는 검색이 필요 없이 Power BI 앱을 사용하여 코드를 스캔합니다.
+* SQL Server 2016 Reporting Services에 대한 **데이터 관리 개선** : 디바이스의 로드 시간 및 데이터 사용이 감소되었습니다.
+* **SQL Server 2016 테마가 지정된 모바일 보고서** : 디바이스에서 모바일 보고서에 대한 테마를 확인합니다.
+* **지역 필터링** : 현재 위치에 따라 보고서를 필터링합니다.
 
 ### <a name="april-2016"></a>2016년 4월
 자세한 내용은 [4월 Power BI Mobile Apps 블로그](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-april-2016/)를 참조하세요.
@@ -770,12 +784,12 @@ Power BI 모바일 앱의 알림 센터에서는 사용자와 공유한 새 데�
 #### <a name="android-mobile-app"></a>Android 모바일 앱
 * **SQL Server 2016 [Reporting Services 모바일 보고서](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)** 가 이제 Android 장치에 제공됩니다.
 * **보고서 갤러리** 보고서 갤러리에서 직접 보고서를 엽니다.
-* **NTLM 인증**은 SQL Server 2016 Reporting Services에서 모바일 보고서를 지원합니다.
+* **NTLM 인증** 은 SQL Server 2016 Reporting Services에서 모바일 보고서를 지원합니다.
 
 #### <a name="power-bi-app-for-windows-10-devices"></a>Windows 10 디바이스용 Power BI 앱
 * **프레젠테이션 모드** Power BI 대시보드 및 보고서를 Power BI 앱의 프레젠테이션 모드로 표시합니다.
 * **SQL Server 2016 [Reporting Services 모바일 보고서](mobile-app-windows-10-ssrs-kpis-mobile-reports.md)** 가 이제 Windows 10 디바이스에 제공됩니다.
-* 대시보드 타일 위에 마우스를 가져가면 **데이터 도구 설명**이 표시됩니다.
+* 대시보드 타일 위에 마우스를 가져가면 **데이터 도구 설명** 이 표시됩니다.
 
 ### <a name="march-2016"></a>2016년 3월
 [2016년 3월에 대한 Power BI Mobile Apps 블로그](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-march-2016/)를 참고합니다.

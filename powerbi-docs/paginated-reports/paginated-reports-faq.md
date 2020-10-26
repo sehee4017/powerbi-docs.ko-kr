@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 07/08/2020
-ms.openlocfilehash: acde398c1d8954b815c86cce77a6be0cfcf1553f
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.date: 10/19/2020
+ms.openlocfilehash: 2a0490106d5954a57abea1dd5de61f26f2fe2377
+ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216663"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92257024"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI의 페이지를 매긴 보고서: FAQ 
 
@@ -72,11 +72,11 @@ ReportType 필드에는 Power BI 보고서가 아닌 페이지를 매긴 보고�
 
 페이지를 매긴 보고서에 대한 각 Premium SKU의 기본 메모리는 다음과 같습니다.
 
-- **P1/A4**: 기본값 20%, 최솟값 10%
-- **P2/A5**: 기본값 20%, 최솟값 5%
-- **P3/A6**: 기본값 20%, 최솟값 2.5%
+- **P1/A4** : 기본값 20%, 최솟값 10%
+- **P2/A5** : 기본값 20%, 최솟값 5%
+- **P3/A6** : 기본값 20%, 최솟값 2.5%
 
-Power BI 테넌트 관리자는 관리 포털에서 기본 최대 메모리 비율을 수정할 수 있습니다. **용량 설정** 탭의 **Power BI Premium**에서 **페이지를 매긴 보고서** 워크로드 섹션을 참조하세요.
+Power BI 관리자는 관리 포털에서 기본 최대 메모리 비율을 수정할 수 있습니다. **용량 설정** 탭의 **Power BI Premium** 에서 **페이지를 매긴 보고서** 워크로드 섹션을 참조하세요.
 
 :::image type="content" source="media/paginated-reports-faq/paginated-reports-capacity-settings.png" alt-text="페이지를 매긴 보고서 용량 설정 탭":::
 
@@ -178,6 +178,12 @@ Microsoft Excel, Microsoft Word, Microsoft PowerPoint, PDF, .CSV, XML 및 MHTML�
 페이지를 매긴 보고서에서 DateTime 필드를 사용할 때 주의해야 하는 사항은 다음과 같습니다.
 
 - 현재 DateTime 매개 변수와 관련된 몇 가지 세계화 제한 사항이 있습니다. Power BI 서비스의 모든 DateTime 매개 변수는 Power BI Report Builder에서 DataTime을 설계하는 방법에 관계없이 미국 형식(MM/DD/YYYY)으로 가져옵니다.
+
+Power BI 서비스에서 페이지가 매겨진 보고서를 볼 때 세션 시간이 초과되어 사용자에게 다음 알림이 표시될 수 있습니다.
+
+:::image type="content" source="media/paginated-reports-faq/expired-session-notification.png" alt-text="페이지를 매긴 보고서 용량 설정 탭":::
+
+- 세션은 60분 동안 비활성된 후 또는 디바이스가 잠겨 있거나, 비활성화 상태이거나, 보고서가 브라우저의 활성 탭에 보고서가 표시되지 않을 때 시간이 초과됩니다.
 
 ## <a name="next-steps"></a>다음 단계
 

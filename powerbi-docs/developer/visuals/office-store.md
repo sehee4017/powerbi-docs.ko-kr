@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/14/2020
-ms.openlocfilehash: 891f4d57e1c2754f4c98916b2824ef2283d8298a
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 55661d8faa39d26d19d15696252cf46b74c84a50
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747968"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049433"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>파트너 센터에 Power BI 시각적 개체 게시
 
-Power BI 시각적 개체를 만든 후에는 다른 사람이 검색하고 사용할 수 있도록 AppSource에 게시할 수 있습니다. Power BI 시각적 개체를 만드는 방법에 대한 자세한 내용은 [Power BI 시각적 개체 개발](custom-visual-develop-tutorial.md)을 참조하세요.
+Power BI 시각적 개체를 만든 후에는 다른 사람이 검색하고 사용할 수 있도록 AppSource에 게시할 수 있습니다. Power BI 시각적 개체를 만드는 방법에 대한 자세한 내용은 [Power BI 원 카드 시각적 개체 개발](develop-circle-card.md)을 참조하세요.
 
 ## <a name="what-is-appsource"></a>AppSource란?
 
@@ -54,7 +54,7 @@ Power BI 시각적 개체를 제출하려면 Power BI 팀의 앱 패키지 XML�
 * name
 * 이메일
 
-이메일에 **pbiviz 파일**과 **샘플 보고서 pbix 파일**을 첨부합니다. Power BI 팀이 지침 및 업로드할 앱 패키지 XML 파일이 포함된 회신을 보냅니다. XML 앱 패키지는 Office 개발자 센터를 통해 시각적 개체를 제출하기 위해 필요합니다.
+이메일에 **pbiviz 파일** 과 **샘플 보고서 pbix 파일** 을 첨부합니다. Power BI 팀이 지침 및 업로드할 앱 패키지 XML 파일이 포함된 회신을 보냅니다. XML 앱 패키지는 Office 개발자 센터를 통해 시각적 개체를 제출하기 위해 필요합니다.
 
 > [!NOTE]
 > 품질을 개선하고 기존 보고서가 중단되지 않도록 하기 위한 기존의 시각적 개체에 대한 업데이트는 스토어에서 승인 후 프로덕션 환경에 도달하기까지 추가로 2주가 걸립니다.
@@ -74,35 +74,35 @@ Power BI 팀은 파일에서 새 Power BI 시각적 개체 제출, 기존 Power 
 파트너 센터에 Power BI 시각적 개체를 제출하려면 파트너 센터에 등록되어 있어야 합니다. 아직 등록하지 않은 경우 [파트너 센터에서 개발자 계정을 개설](/office/dev/store/open-a-developer-account)합니다.
 
 >[!NOTE]
->**개별 게시자**는 다음 중 한 가지 방법을 사용하여 Power BI 시각적 개체를 제출할 수 있습니다.
+>**개별 게시자** 는 다음 중 한 가지 방법을 사용하여 Power BI 시각적 개체를 제출할 수 있습니다.
 >* 이전 판매자 대시보드 계정이 있는 경우 해당 계정의 자격 증명을 계속 사용하여 파트너 센터에 로그인할 수 있습니다.
 >* 이전 판매자 대시보드 계정이 없고 파트너 센터에 등록되지 않은 경우 회사 메일을 사용하여 [파트너 센터에서 개발자 계정을 열어야](/office/dev/store/open-a-developer-account) 합니다.
 
 파트너 센터에 Power BI 시각적 개체를 제출하려면 다음 단계를 수행합니다. 제출 프로세스에 대한 자세한 내용은 [파트너 센터를 통해 AppSource에 Office 솔루션 제출](/office/dev/store/use-partner-center-to-submit-to-appsource)을 참조하세요.
 
-1. **파트너 센터**에 로그인합니다.
+1. **파트너 센터** 에 로그인합니다.
 
-2. 왼쪽 창에서 **OFFICE 스토어**를 선택합니다.
+2. 왼쪽 창에서 **OFFICE 스토어** 를 선택합니다.
 
-3. **개요**를 선택합니다.
+3. **개요** 를 선택합니다.
 
-4. **새로 만들기**를 선택하고 드롭다운 메뉴에서 **Power BI 시각적 개체**를 선택합니다.
+4. **새로 만들기** 를 선택하고 드롭다운 메뉴에서 **Power BI 시각적 개체** 를 선택합니다.
 
     ![파트너 센터의 Office 스토어 탭에서 새 Power BI 시각적 개체를 만드는 스크린샷](media/office-store/power-bi-visual.png)
 
-5. **새 Power BI 시각적 개체 만들기** 창에서 Power BI 시각적 개체의 이름을 입력하고 **만들기**를 선택합니다.
+5. **새 Power BI 시각적 개체 만들기** 창에서 Power BI 시각적 개체의 이름을 입력하고 **만들기** 를 선택합니다.
 
-6. **패키지**를 선택하고 Power BI 시각적 개체 XML 앱 패키지를 업로드합니다.
+6. **패키지** 를 선택하고 Power BI 시각적 개체 XML 앱 패키지를 업로드합니다.
 
-7. **속성**을 선택하고 필요한 정보를 제공합니다.
+7. **속성** 을 선택하고 필요한 정보를 제공합니다.
 
-8. 제품에 추가 구매가 필요한 경우 **제품 설정**을 선택하고 **연결된 서비스 구매** 확인란을 선택합니다.
+8. 제품에 추가 구매가 필요한 경우 **제품 설정** 을 선택하고 **연결된 서비스 구매** 확인란을 선택합니다.
 
-9. (선택 사항) 시각적 개체를 [인증](power-bi-custom-visuals-certified.md)하려는 경우 **제품 설정**을 선택하고 **Power BI 인증** 확인란을 선택합니다.
+9. (선택 사항) 시각적 개체를 [인증](power-bi-custom-visuals-certified.md)하려는 경우 **제품 설정** 을 선택하고 **Power BI 인증** 확인란을 선택합니다.
     >[!TIP]
     >Power BI 인증 프로세스는 시간이 걸릴 수 있습니다. 새 Power BI 시각적 개체를 만드는 경우 Power BI 인증을 요청하기 전에 파트너 센터를 통해 Power BI 시각적 개체를 게시하는 것이 좋습니다. 이렇게 하면 시각적 개체의 게시가 지연되지 않습니다.
 
-10. **제품 설정**을 선택하고 **검토 및 게시**를 클릭합니다.
+10. **제품 설정** 을 선택하고 **검토 및 게시** 를 클릭합니다.
 
 
 ## <a name="tracking-submission-status-and-usage"></a>제출 상태 및 사용 현황 추적
@@ -119,7 +119,7 @@ Power BI 팀은 파일에서 새 Power BI 시각적 개체 제출, 기존 Power 
 
 ## <a name="next-steps"></a>다음 단계
 
-* [Power BI 사용자 지정 시각적 개체 개발](custom-visual-develop-tutorial.md)
+* [Power BI 원 카드 시각적 개체 개발](develop-circle-card.md)
 
 * [Power BI의 시각화](../../visuals/power-bi-report-visualizations.md)  
 
