@@ -43,6 +43,8 @@
           href: dataflows/dataflows-create.md
         - name: 데이터 흐름 구성 및 사용
           href: dataflows/dataflows-configure-consume.md
+        - name: Power BI Premium 데이터 흐름 워크로드 구성
+          href: dataflows/dataflows-premium-workload-configuration.md
         - name: 데이터 흐름 및 Azure Data Lake Gen2
           href: dataflows/dataflows-azure-data-lake-storage-integration.md
         - name: 데이터 흐름의 프리미엄 기능
