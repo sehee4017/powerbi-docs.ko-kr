@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: fba37d9f73ea0f61d8a43dc46cd13a5835d4d2a9
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 01d1e48537b2d373be3897259f8ac6e97886f268
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525803"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92680967"
 ---
 # <a name="prepare-to-migrate-to-power-bi"></a>Power BI로 마이그레이션 준비
 
@@ -79,7 +79,7 @@ Power BI 구현 초기에 처리할 일부 중요한 항목은 다음과 같습�
 - 가져오기 모드 또는 DirectQuery 모드를 사용하거나 [복합 모델](composite-model-guidance.md)에서 두 모드를 결합하는 것과 같이 [데이터 세트 모드](../connect-data/service-dataset-modes-understand.md)와 관련된 기본 설정
 - [데이터 및 액세스 보호](../admin/service-admin-power-bi-security.md)
 - 재사용 가능성을 위해 [공유 데이터 세트](../connect-data/service-datasets-share.md) 사용
-- 신뢰할 수 있는 데이터 사용을 촉진하기 위해 [데이터 인증](../connect-data/service-datasets-certify.md) 적용
+- 신뢰할 수 있는 데이터 사용을 촉진하기 위해 [데이터 인증](../collaborate-share/service-endorsement-overview.md) 적용
 - 다양한 사용 사례 또는 사업부의 Power BI 보고서, Excel 보고서 또는 페이지를 매긴 보고서를 포함한 다양한 [보고서 유형](../create-reports/index.yml) 사용
 - 중앙 집중화된 BI 아티팩트 및 비즈니스 관리형 BI 아티팩트를 관리하기 위한 변경 관리 접근 방식
 - 소비자, 데이터 모델러, 보고서 작성자 및 관리자를 위한 학습 계획

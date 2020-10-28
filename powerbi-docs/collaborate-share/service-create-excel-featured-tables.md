@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/17/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: efddfbdb70b2c20ad650eda6a16a5d7defb758e8
-ms.sourcegitcommit: fa0a1561aba2a392fb56e7030e1a0537806a9260
+ms.openlocfilehash: 20a81ed4675f6392f28a20f7b741d0c0ad1076eb
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "90811854"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92680764"
 ---
 # <a name="set-featured-tables-in-power-bi-desktop-preview"></a>Power BI Desktop에서 추천 테이블 설정(미리 보기)
 
@@ -25,11 +25,11 @@ Excel의 데이터 형식 갤러리에서 사용자는 Power BI 데이터 세트
 1. 조직의 나머지 부분은 관련되거나 새로 고칠 수 있는 데이터를 사용하기 위해 Excel에서 ‘데이터 형식’이라고도 하는 해당 추천 테이블에 연결할 수 있습니다. [Excel에서 Power BI 추천 테이블에 액세스(미리 보기)](service-excel-featured-tables.md) 문서에서는 Excel에서 해당 추천 테이블을 사용하는 방법을 설명합니다.
 
 > [!NOTE]
-> [Power BI에서 데이터 세트를 승격하거나 인증](../connect-data/service-datasets-promote.md)할 수 있습니다. 이를 ‘보증’이라고 합니다. Excel은 데이터 형식 갤러리에서 보증된 데이터 세트에 있는 테이블을 우선시합니다. Excel은 먼저 인증된 데이터 세트에 있는 주요 테이블을 나열한 후에 승격된 데이터 세트에 있는 테이블을 나열합니다. 그다음에 보증되지 않은 데이터 세트에 있는 주요 테이블을 나열합니다. 
+> [Power BI에서 데이터 세트를 승격하거나 인증](../collaborate-share/service-endorse-content.md)할 수 있습니다. 이를 ‘보증’이라고 합니다. Excel은 데이터 형식 갤러리에서 보증된 데이터 세트에 있는 테이블을 우선시합니다. Excel은 먼저 인증된 데이터 세트에 있는 주요 테이블을 나열한 후에 승격된 데이터 세트에 있는 테이블을 나열합니다. 그다음에 보증되지 않은 데이터 세트에 있는 주요 테이블을 나열합니다. 
 
 ## <a name="turn-on-the-featured-table-preview"></a>주요 테이블 미리 보기 설정
 
-1. Power BI Desktop에서 **파일** > **옵션 및 설정** > **옵션** > **미리 보기 기능**을 선택합니다.
+1. Power BI Desktop에서 **파일** > **옵션 및 설정** > **옵션** > **미리 보기 기능** 을 선택합니다.
 2. **주요 테이블** 확인란을 선택합니다.
 
     :::image type="content" source="media/service-excel-featured-tables/power-bi-preview-featured-tables.png" alt-text="미리 보기 주요 테이블 옵션":::
@@ -42,13 +42,13 @@ Excel의 데이터 형식 갤러리에서 사용자는 Power BI 데이터 세트
 
     :::image type="content" source="media/service-excel-featured-tables/power-bi-model-view.png" alt-text="미리 보기 주요 테이블 옵션":::
  
-2. 테이블을 선택하고 **주요 테이블**을 **예**로 설정합니다.
+2. 테이블을 선택하고 **주요 테이블** 을 **예** 로 설정합니다.
 
     :::image type="content" source="media/service-excel-featured-tables/power-bi-featured-table-yes.png" alt-text="미리 보기 주요 테이블 옵션":::
 
-4. **이 주요 테이블 설정**에서 필수 필드를 제공합니다.
+4. **이 주요 테이블 설정** 에서 필수 필드를 제공합니다.
 
-    - **설명**. 
+    - **설명** . 
         > [!TIP]
         > Power BI 보고서 작성자가 식별하는 데 도움이 되도록 “추천 테이블”로 설명을 시작합니다.
     - **행 레이블** 필드 값은 사용자가 행을 쉽게 식별할 수 있도록 Excel에서 사용됩니다. 이 값은 **데이터 선택기** 창 및 **정보** 카드에 연결된 셀의 셀 값으로 표시됩니다. 

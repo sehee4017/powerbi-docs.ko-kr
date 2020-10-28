@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e943324106148bdbff1edba36650d494fdd9db8c
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 23d520815c47c9ff9f1ec045ec67921141e8eb7a
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374272"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92681149"
 ---
 # <a name="intro-to-datasets-across-workspaces"></a>작업 영역의 데이터 세트 소개
 
@@ -47,7 +47,7 @@ Power BI에서 데이터 세트 작성자는 [빌드 권한](service-datasets-bu
 
 ## <a name="promotion-and-certification"></a>승격 및 인증
 
-데이터 세트를 만드는 경우, 다른 사용자가 활용할 수 있는 데이터 세트를 만들 때는 [데이터 세트를 승격](service-datasets-promote.md)하여 데이터 세트의 간편한 검색을 지원할 수 있습니다. 조직의 전문가에게 [데이터 세트를 인증](service-datasets-certify.md)하도록 요청할 수도 있습니다.
+데이터 세트를 만드는 경우, 다른 사용자가 활용할 수 있는 데이터 세트를 만들 때는 [데이터 세트를 승격](../collaborate-share/service-endorse-content.md#promote-content)하여 데이터 세트의 간편한 검색을 지원할 수 있습니다. 조직의 전문가에게 [데이터 세트를 인증](../collaborate-share/service-endorse-content.md#request-content-certification)하도록 요청할 수도 있습니다.
 
 ## <a name="licensing"></a>라이선싱
 
@@ -69,7 +69,8 @@ Power BI에서 데이터 세트 작성자는 [빌드 권한](service-datasets-bu
 
 ## <a name="next-steps"></a>다음 단계
 
-- [데이터 세트 승격](service-datasets-promote.md)
-- [데이터 세트 인증](service-datasets-certify.md)
+- [데이터 세트 승격](../collaborate-share/service-endorse-content.md#promote-content)
+- [데이터 세트 인증](../collaborate-share/service-endorse-content.md#certify-content)
+- [데이터 세트 인증 요청](../collaborate-share/service-endorse-content.md#request-content-certification)
 - [작업 영역에서 데이터 세트 사용 제어](service-datasets-admin-across-workspaces.md)
 - 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

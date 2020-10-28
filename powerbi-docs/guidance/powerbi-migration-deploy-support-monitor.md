@@ -8,16 +8,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 23d207bb4f070c3c3a35f1e74dd281f012528c82
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: f9268409977b3aa78e1ebda6f1f6b2e732451455
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965013"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92681030"
 ---
 # <a name="deploy-to-power-bi"></a>Power BI에 배포
 
-이 문서에서는 Power BI로 마이그레이션할 때 콘텐츠를 배포, 지원 및 모니터링하는 작업과 관련된 **5단계**를 설명합니다.
+이 문서에서는 Power BI로 마이그레이션할 때 콘텐츠를 배포, 지원 및 모니터링하는 작업과 관련된 **5단계** 를 설명합니다.
 
 :::image type="content" source="media/powerbi-migration-deploy-support-monitor/migrate-to-powerbi-stage-5.png" alt-text="Power BI 마이그레이션의 단계를 보여 주는 이미지. 이 문서에서는 5단계가 강조됩니다.":::
 
@@ -42,7 +42,7 @@ IT 관리형 솔루션 또는 비즈니스 생산성에 중요한 솔루션의 �
 일반적으로 테스트 작업 영역에 배포하는 동안 주요 활동은 다음과 같습니다.
 
 - **연결 문자열 및 매개 변수:** 개발 및 테스트 간에 데이터 원본이 다른 경우 데이터 세트 연결 문자열을 조정합니다. [매개 변수화](../connect-data/service-parameters.md)를 사용하여 연결 문자열을 효과적으로 관리할 수 있습니다.
-- **작업 영역 콘텐츠**: 테스트 작업 영역에 데이터 세트 및 보고서를 게시하고 대시보드를 만듭니다.
+- **작업 영역 콘텐츠** : 테스트 작업 영역에 데이터 세트 및 보고서를 게시하고 대시보드를 만듭니다.
 - **앱:** UAT 프로세스의 일부를 구성하는 경우 테스트 작업 영역의 콘텐츠를 사용하여 [앱](../consumer/end-user-apps.md)을 게시합니다. 일반적으로 앱 권한은 UAT와 관련된 소수의 사용자로 제한됩니다.
 - **데이터 새로 고침:** UAT가 활발히 발생하는 기간 동안 데이터 세트 가져오기를 위해 [데이터 세트 새로 고침을 예약](../connect-data/refresh-scheduled-refresh.md)합니다.
 - **보안:** [작업 영역 역할](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces)을 업데이트하거나 확인합니다. 테스트 작업 영역 액세스에는 UAT와 관련된 소수의 사용자가 포함됩니다.
@@ -76,7 +76,7 @@ IT 관리형 솔루션 또는 비즈니스 생산성에 중요한 솔루션의 �
 - **게이트웨이 유지 관리:** 데이터 게이트웨이의 [새 데이터 원본](../connect-data/service-gateway-data-sources.md) 등록이 필요할 수 있습니다.
 - **게이트웨이 드라이버 및 커넥터:** 새로운 전용 데이터 원본을 사용하려면 게이트웨이 클러스터의 각 서버에 새 드라이버 또는 사용자 지정 커넥터를 설치해야 할 수 있습니다.
 - **새 프리미엄 용량 만들기:** 기존 [프리미엄 용량](../admin/service-premium-capacity-manage.md)을 사용할 수 있습니다. 또는 새 프리미엄 용량이 보장되는 상황이 있을 수 있습니다. 예를 들어 부서별 워크로드를 분리하려는 경우일 수 있습니다.
-- **Power BI 데이터 흐름 설정:** 데이터 준비 활동은 파워 쿼리 온라인을 사용하여 [Power BI 데이터 흐름 ](../transform-model/service-dataflows-overview.md)에서 한 번 설정될 수 있습니다. 이렇게 하면 많은 다양한 Power BI Desktop 파일에서 데이터 준비 작업을 복제하지 않을 수 있습니다.
+- **Power BI 데이터 흐름 설정:** 데이터 준비 활동은 파워 쿼리 온라인을 사용하여 [Power BI 데이터 흐름](../transform-model/service-dataflows-overview.md)에서 한 번 설정될 수 있습니다. 이렇게 하면 많은 다양한 Power BI Desktop 파일에서 데이터 준비 작업을 복제하지 않을 수 있습니다.
 - **새 조직 시각적 개체 등록:** [조직 시각적 개체](../developer/visuals/power-bi-custom-visuals-organization.md) 등록은 AppSource에서 시작되지 않은 사용자 지정 시각적 개체를 위해 관리 포털에서 수행될 수 있습니다.
 - **추천 콘텐츠 설정:** Power BI 서비스 홈페이지에서 [콘텐츠를 추천](https://powerbi.microsoft.com/blog/promote-your-reports-dashboards-and-apps-on-power-bi-home/)할 수 있는 사용자를 제어하는 테넌트 설정이 있습니다.
 - **민감도 레이블 설정:** 모든 [민감도 레이블](../admin/service-security-data-protection-overview.md)은 Microsoft Information Protection과 통합됩니다.
@@ -89,11 +89,11 @@ IT 관리형 솔루션 또는 비즈니스 생산성에 중요한 솔루션의 �
 - **롤백 계획:** 마이그레이션을 통해 처음으로 새 솔루션을 마이그레이션하는 것으로 예상됩니다. 콘텐츠가 이미 있으면 필요한 경우 이전 버전으로 되돌릴 계획을 세우는 것이 좋습니다. 이를 위해 이전 버전의 Power BI Desktop 파일을 포함할 수 있습니다(SharePoint 또는 OneDrive 버전 관리 사용).
 - **연결 문자열 및 매개 변수:** 테스트와 프로덕션 간에 데이터 원본이 다른 경우 데이터 세트 연결 문자열을 조정합니다. 이를 위해 [매개 변수화](../connect-data/service-parameters.md)를 효과적으로 사용할 수 있습니다.
 - **데이터 새로 고침:** 가져온 데이터 세트를 위한 [데이터 세트 새로 고침을 예약](../connect-data/refresh-scheduled-refresh.md)합니다.
-- **작업 영역 콘텐츠**: 프로덕션 작업 영역에 데이터 세트 및 보고서를 게시하고 대시보드를 만듭니다. 콘텐츠가 프리미엄 용량의 작업 영역에 게시된 경우 [배포 파이프라인](../create-reports/deployment-pipelines-overview.md)은 개발, 테스트 및 프로덕션 작업 영역에 배포하는 프로세스를 간소화할 수 있습니다.
+- **작업 영역 콘텐츠** : 프로덕션 작업 영역에 데이터 세트 및 보고서를 게시하고 대시보드를 만듭니다. 콘텐츠가 프리미엄 용량의 작업 영역에 게시된 경우 [배포 파이프라인](../create-reports/deployment-pipelines-overview.md)은 개발, 테스트 및 프로덕션 작업 영역에 배포하는 프로세스를 간소화할 수 있습니다.
 - **앱:** 앱이 콘텐츠 배포 전략의 일부인 경우 프로덕션 작업 영역의 콘텐츠를 사용하여 [앱](../consumer/end-user-apps.md)을 게시합니다.
 - **보안:** 콘텐츠 배포 및 협업 전략에 따라 [작업 영역 역할](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces)을 업데이트하고 확인합니다.
 - **데이터 세트 설정:** 다음을 포함하여 각 데이터 세트의 설정을 업데이트하고 확인합니다.
-  - [보증](../connect-data/service-datasets-certify.md)(예: 인증됨 또는 승격됨)
+  - [보증](../collaborate-share/service-endorse-content.md)(예: 인증됨 또는 승격됨)
   - 게이트웨이 연결 또는 데이터 원본 자격 증명
   - 예약된 새로 고침
   - [질문 및 답변 추천 질문:](../create-reports/service-q-and-a-create-featured-questions.md)
