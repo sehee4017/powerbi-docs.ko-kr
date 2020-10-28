@@ -134,8 +134,6 @@
               href: utils-test.md
             - name: 도구 설명 유틸리티
               href: utils-tooltip.md
-            - name: 데이터 보기 유틸리티
-              href: utils-dataview.md
     - name: 리소스
       items:
         - name: 개발자 센터
