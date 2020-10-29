@@ -16,6 +16,8 @@
           href: service-usage-metrics.md
         - name: 새 작업 영역에서 사용량 모니터링
           href: service-modern-usage-metrics.md
+        - name: 콘텐츠 인증
+          href: service-endorsement-overview.md
     - name: 방법 가이드
       expanded: true
       items:
@@ -73,6 +75,8 @@
               href: service-url-filters.md
             - name: 직접 및 다른 사용자 구독
               href: service-report-subscribe.md
+            - name: 콘텐츠 인증
+              href: service-endorse-content.md
             - name: 홈의 기능 콘텐츠
               href: service-featured-content.md
             - name: SharePoint Online에 보고서 포함

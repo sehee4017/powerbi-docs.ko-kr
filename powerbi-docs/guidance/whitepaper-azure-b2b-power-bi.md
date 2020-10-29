@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: df6b3bd29089f37b11064216568523f442169794
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: cc4387c3c1c0f83347823bbc6b95beb437b235e9
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91528393"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916892"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Azure Active Directory B2B를 사용하여 외부 게스트 사용자에게 Power BI 콘텐츠 배포
 
@@ -25,7 +25,7 @@ ms.locfileid: "91528393"
 **기술 검토자:** Adam Wilson, Sheng Liu, Qian Liang, Sergei Gundorov, Jacob Grimm, Adam Saxton, Maya Shenhav, Nimrod Shalit, Elisabeth Olson
 
 > [!NOTE]
-> 브라우저에서 **인쇄** 를 선택한 다음 **PDF로 저장**을 선택 하 여이 백서를 저장 하거나 인쇄할 수 있습니다.
+> 브라우저에서 **인쇄** 를 선택한 다음 **PDF로 저장** 을 선택 하 여이 백서를 저장 하거나 인쇄할 수 있습니다.
 
 ## <a name="introduction"></a>소개
 
@@ -288,7 +288,7 @@ Azure AD B2B와의 통합을 통해 게스트 사용자에 게 BI 포털에 대 
     이제 Contoso의 BI 팀이 BI 포털 및 초대 된 게스트 사용자를 만들었으므로 게스트 사용자에 게 앱에 대 한 액세스 권한을 부여 하 고 게시 하 여 최종 사용자에 게 포털을 배포할 수 있습니다. Power BI 이전에 Contoso 테 넌 트에 추가 된 게스트 사용자의 이름을 자동으로 완성 합니다. 이 시점에서 다른 게스트 사용자에 대 한 임시 초대를 추가할 수도 있습니다.
 
     > [!NOTE]
-    > 보안 그룹을 사용 하 여 외부 사용자에 대 한 앱 액세스를 관리 하는 경우 계획 된 초대 방법을 사용 하 고 액세스 해야 하는 각 외부 사용자와 직접 앱 링크를 공유 합니다. 그렇지 않으면 외부 사용자가 앱 내에서 콘텐츠를 설치 하거나 볼 수 없습니다.
+    > 보안 그룹을 사용 하 여 외부 사용자에 대 한 앱 액세스를 관리 하는 경우 계획 된 초대 방법을 사용 하 고 액세스 해야 하는 각 외부 사용자와 직접 앱 링크를 공유 합니다. 그렇지 않으면 외부 사용자가 app._ 내에서 콘텐츠를 설치 하거나 볼 수 없게 됩니다.
 
     게스트 사용자는 앱에 대 한 링크가 포함 된 전자 메일을 받습니다.
 
@@ -344,7 +344,7 @@ Contoso는 공급자 및 파트너 조직의 게스트 사용자에 게 Power BI
 
 또한 외부 사용자는 Power BI Premium 내에서 콘텐츠를 사용 하는 경우 Power BI의 "무료" 사용자에 게 제공 되는 사용 전용 환경에 영향을 받습니다.
 
-또한 Contoso는 새로 고침 속도, 전용 용량 및 큰 모델 크기와 같은 앱에 대 한 다른 Power BI 프리미엄 기능을 활용할 수 있습니다.
+또한 Contoso는 새로 고침 속도, 용량 및 큰 모델 크기와 같은 앱에 대 한 다른 Power BI 프리미엄 기능을 활용할 수 있습니다.
 
 ![추가 기능](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_24.png)
 
@@ -457,7 +457,7 @@ Azure AD에서이를 해결 하면 Contoso는 추가할 준비가 된 창에 표
 Power BI는 Contoso에서 온 [-프레미스 데이터 게이트웨이](https://powerbi.microsoft.com/documentation/powerbi-gateway-onprem/)를 통해 [SQL Server Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/) 또는 [SQL Server](https://powerbi.microsoft.com/documentation/powerbi-gateway-kerberos-for-sso-pbi-to-on-premises-data/) 와 같은 온-프레미스 데이터 원본을 활용할 수 있는 기능을 제공 합니다. Power BI와 함께 사용 하는 것과 동일한 자격 증명을 사용 하 여 해당 데이터 원본에 로그온 할 수도 있습니다.
 
 > [!NOTE]
-> 게이트웨이를 설치 하 여 Power BI 테 넌 트에 연결 하는 경우 테 넌 트 내에서 만든 사용자를 사용 해야 합니다. 외부 사용자는 게이트웨이를 설치 하 고 테 넌 트에 연결할 수 없습니다.
+> 게이트웨이를 설치 하 여 Power BI 테 넌 트에 연결 하는 경우 테 넌 트 내에서 만든 사용자를 사용 해야 합니다. 외부 사용자는 게이트웨이를 설치 하 고 tenant._에 연결할 수 없습니다.
 
 외부 사용자의 경우 외부 사용자가 일반적으로 온-프레미스 AD에 알려지지 않기 때문에이 방법이 더 복잡할 수 있습니다. 이에 대 한 해결 방법은 [데이터 원본 관리-Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/)에 설명 된 대로 Contoso 관리자가 외부 사용자 이름을 내부 사용자 이름에 매핑하는 것을 허용 하 여 해결 방법을 제공 합니다. Power BI 예를 들어,를 [lucy@supplier1.com](mailto:lucy@supplier1.com) [루시 \_ supplier1 \_ com # EXT@contoso.com ](mailto:lucy_supplier1_com)에 매핑할 수 있습니다.
 
@@ -490,8 +490,8 @@ Power BI 관리 포털에서 설정은 다음 그림에 표시 됩니다.
 
 이러한 사용자가 Power BI에 로그인 할 수 있도록 테 넌 트 URL을 제공 합니다. 테넌트 URL을 찾으려면 이 단계를 수행합니다.
 
-1. Power BI 서비스의 상단 메뉴에서 **도움말을 선택** 합니다. )를  **Power BI**합니다.
-2. **테 넌 트 URL**옆에 있는 값을 찾습니다. 게스트 사용자와 공유할 수 있는 테 넌 트 URL입니다.
+1. Power BI 서비스의 상단 메뉴에서 **도움말을 선택** 합니다. )를  **Power BI** 합니다.
+2. **테 넌 트 URL** 옆에 있는 값을 찾습니다. 게스트 사용자와 공유할 수 있는 테 넌 트 URL입니다.
 
     ![테넌트 URL](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_42.png)
 
