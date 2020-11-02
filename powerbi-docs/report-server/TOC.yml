@@ -79,6 +79,8 @@
               href: access-dataset-odata.md
             - name: PowerShell을 사용하여 데이터 원본 연결 문자열 변경
               href: connect-data-source-apis.md
+            - name: 2020년 10월 이전 버전 PowerShell을 사용하여 데이터 원본 연결 문자열 변경
+              href: connect-data-source-apis-pre-oct-2020.md
             - name: 예약된 새로 고침 구성
               href: configure-scheduled-refresh.md
             - name: 보고서에 주석 추가
