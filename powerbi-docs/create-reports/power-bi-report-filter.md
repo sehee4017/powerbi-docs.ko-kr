@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/15/2020
+ms.date: 10/23/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 926334f5708914b30277ac0c855937dfb6b79bfb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 358d0575c2de3297614bfed0656d953945b2ed13
+ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85233928"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "92502159"
 ---
 # <a name="design-filters-in-power-bi-reports"></a>Power BI 보고서에서 필터 디자인
 
@@ -38,38 +38,16 @@ ms.locfileid: "85233928"
 
 ![시각적 개체의 필터 목록](media/power-bi-report-filter/power-bi-filter-visual.png)
 
-## <a name="turn-on-new-filters-in-existing-reports"></a>기존 보고서에서 새 필터 설정 
-
-새 보고서의 경우 새 필터 환경이 기본적으로 설정되어 있습니다. Power BI Desktop 또는 Power BI 서비스에서 기존 보고서에 대해 새 환경을 사용하도록 설정할 수 있습니다.
-
-### <a name="turn-on-new-filters-for-an-existing-report-in-power-bi-desktop"></a>Power BI Desktop에서 기존 보고서에 대해 새 필터 켜기
-
-1. 기존 보고서의 Power BI Desktop에서 **파일** > **옵션 및 설정** > **옵션**을 선택합니다.
-2. 탐색 창의 **현재 파일**에서 **보고서 설정**을 선택합니다.
-3. **필터링 환경**에서 **업데이트된 필터 창을 사용하고 이 보고서의 시각적 개체 머리글에 필터 표시**를 선택합니다.
-
-### <a name="turn-on-new-filters-for-an-existing-report-in-the-service"></a>서비스에서 기존 보고서에 대해 새 필터 켜기
-
-**새 디자인**을 Power BI 서비스 ![새 디자인 설정](media/power-bi-report-filter/power-bi-new-look-on.png)에서 설정하면, 새 필터 환경이 자동으로 켜집니다. [Power BI 서비스의 새 디자인](../consumer/service-new-look.md)에 대해 자세히 알아보세요.
-
-새 디자인을 설정하지 않은 경우에도 다음 단계에 따라 새 필터 환경을 계속 볼 수 있습니다.
-
-1. Power BI 서비스에서 작업 영역의 콘텐츠 목록을 엽니다.
-2. 사용하려는 보고서를 찾고 **추가 옵션(...)** 을 선택한 다음, 해당 보고서의 **설정**을 선택합니다.
-
-    ![보고서 설정](media/power-bi-report-filter/power-bi-filter-options.png)
-
-3. **필터링 환경**에서 **업데이트된 필터 창을 사용하고 이 보고서의 시각적 개체 머리글에 필터 표시**를 선택합니다.
-
-    ![업데이트된 필터 창 사용](media/power-bi-report-filter/power-bi-service-filter-enable.png)
+보고서에서 [보고서 읽기 권한자가 필터를 사용하는 방법](../consumer/end-user-report-filter.md)에 대해 알아보세요.
 
 ## <a name="view-filters-for-a-visual-in-reading-mode"></a>읽기 모드에 시각적 개체의 필터 보기
 
-읽기 모드에서 시각적 개체의 필터 아이콘 위로 마우스를 올려놓으면 해당 시각적 개체에 영향을 주는 모든 필터, 슬라이서 등이 포함된 팝업 필터 목록이 표시됩니다. 팝업 필터 목록의 서식은 필터 창 서식과 동일합니다. 
+읽기 모드에서 시각적 개체의 필터 아이콘 위로 마우스를 올려놓으면 해당 시각적 개체에 영향을 주는 모든 필터, 슬라이서 등이 포함된 팝업 필터 목록이 표시됩니다. 팝업 필터 목록의 서식은 필터 창 서식과 동일합니다.
 
 ![시각적 개체에 영향을 주는 필터](media/power-bi-report-filter/power-bi-filter-per-visual.png)
 
-다음은 이 보기에서 표시하는 필터 유형입니다. 
+다음은 이 보기에서 표시하는 필터 유형입니다.
+
 - 기본 필터
 - 슬라이서
 - 교차 강조 표시 
@@ -80,6 +58,8 @@ ms.locfileid: "85233928"
 - 슬라이서 동기화
 - 포함/제외 필터
 - URL을 통해 전달된 필터
+
+[읽기 모드에서 필터 조작](../consumer/end-user-report-filter.md)에 대해 자세히 알아보세요.
 
 ## <a name="build-the-filters-pane"></a>필터 창 빌드
 
@@ -136,14 +116,14 @@ Power BI Desktop에는 미리 보기로 제공되는 새 리본이 있습니다.
 
 ### <a name="format-the-filters-pane-and-cards"></a>필터 창 및 카드의 서식 지정
 
-1. 보고서에서 보고서 자체를 클릭하거나 배경(‘배경 화면’)을 클릭하고 **시각화** 창에서 **서식**을 선택합니다. 
+1. 보고서에서 보고서 자체를 클릭하거나 배경(‘배경 화면’)을 클릭하고 **시각화** 창에서 **서식** 을 선택합니다. 
     보고서 페이지, 배경 화면, 필터 창 및 필터 카드에 서식을 지정하는 옵션이 표시됩니다.
 
-1. **필터 창**을 확장하여 배경, 아이콘 및 왼쪽 테두리의 색을 설정하여 보고서 페이지를 보완합니다.
+1. **필터 창** 을 확장하여 배경, 아이콘 및 왼쪽 테두리의 색을 설정하여 보고서 페이지를 보완합니다.
 
     ![필터 창 확장](media/power-bi-report-filter/power-bi-format-filter-pane.png)
 
-1. **필터 카드**를 확장하여 **사용 가능** 및 **적용됨** 색과 테두리를 설정합니다. 사용 가능한 카드와 적용된 카드의 색을 다르게 만들면 적용되는 필터가 명확해집니다. 
+1. **필터 카드** 를 확장하여 **사용 가능** 및 **적용됨** 색과 테두리를 설정합니다. 사용 가능한 카드와 적용된 카드의 색을 다르게 만들면 적용되는 필터가 명확해집니다. 
   
     ![필터 카드 확장](media/power-bi-report-filter/power-bi-format-filter-cards.png)
 
@@ -248,31 +228,39 @@ Power BI Desktop에는 미리 보기로 제공되는 새 리본이 있습니다.
 
 ![검색 상자 서식 지정](media/power-bi-report-filter/power-bi-filter-format-search.png)
 
-이 필터 창 검색 기능은 기본적으로 켜지지만, 옵션 대화 상자의 보고서 설정에서 **필터 창 검색 사용**을 선택하여 켜거나 끄도록 선택할 수도 있습니다.
+이 필터 창 검색 기능은 기본적으로 켜져 있지만, **옵션** 대화 상자의 **보고서** 설정에서 **필터 창 검색 사용** 을 선택하여 켜거나 끄도록 선택할 수도 있습니다.
 
 ![검색 켜기 또는 끄기](media/power-bi-report-filter/power-bi-enable-search-filter.png)
 
 ## <a name="restrict-changes-to-filter-type"></a>변경을 필터 유형으로 제한
 
-보고서 설정의 **필터링 환경** 섹션에는 사용자가 필터 유형을 변경할 수 있는지 여부를 제어하는 옵션이 있습니다.
+**보고서** 설정의 **필터링 환경** 섹션에는 사용자가 필터 형식을 변경할 수 있는지 여부를 제어하는 옵션이 있습니다.
 
 ![필터 유형 변경 제한](media/power-bi-report-filter/power-bi-enable-change-filter-type.png)
 
-## <a name="apply-filters-button-preview"></a>필터 적용 단추(미리 보기)
+## <a name="allow-saving-filters"></a>필터 저장 허용
+
+기본적으로 보고서 읽기 권한자는 보고서에 대한 필터를 저장할 수 있습니다. 필터 저장을 허용하지 않도록 선택할 수 있습니다.
+
+- **옵션** 대화 상자에 있는 **보고서** 설정의 **영구 필터** 에서 **Don't allow end users to save filters on this report** (최종 사용자가 이 보고서에서 필터를 저장하도록 허용 안 함)를 선택합니다.
+
+    :::image type="content" source="media/power-bi-report-filter/power-bi-persistent-filters.png" alt-text="최종 사용자가 이 보고서에서 필터를 저장하도록 허용 안 함 스크린샷":::
+
+## <a name="apply-filters-apply-button-preview"></a>필터 적용 적용 단추(미리 보기)
 
 필터 창에 단일 **적용** 단추를 추가할 수 있습니다. 그러면 사용자 및 최종 사용자가 모든 필터 수정을 한 번에 적용할 수 있습니다. 이 단추는 필터 변경 내용 적용을 지연시키려는 경우에 유용할 수 있습니다. 보고서 또는 시각적 개체에 모든 필터 변경 내용을 적용할 준비가 되면 한 번만 기다리면 됩니다.
 
-:::image type="content" source="media/power-bi-report-filter/apply-filter-button.png" alt-text="필터 적용 단추":::
+:::image type="content" source="media/power-bi-report-filter/apply-filter-button.png" alt-text="최종 사용자가 이 보고서에서 필터를 저장하도록 허용 안 함 스크린샷":::
 
 ### <a name="turn-on-apply"></a>적용 설정
 
 이 기능을 보고서 수준에서 설정할 수 있습니다. 그러나 이 기능은 기본적으로 해제되어 있습니다.
 
-1. **파일** > **옵션 및 설정** > **옵션** > **쿼리 감소**로 이동합니다.
+1. **파일** > **옵션 및 설정** > **옵션** > **쿼리 감소** 로 이동합니다.
 
 1. **한 번에 변경 내용을 적용하려면 필터 창에 단일 적용 단추를 추가합니다.** 를 선택합니다.
 
-    :::image type="content" source="media/power-bi-report-filter/turn-on-apply-filter-button.png" alt-text="필터 적용 단추 설정":::
+    :::image type="content" source="media/power-bi-report-filter/turn-on-apply-filter-button.png" alt-text="최종 사용자가 이 보고서에서 필터를 저장하도록 허용 안 함 스크린샷":::
 
 ### <a name="format-the-apply-button"></a>적용 단추 서식 지정
 
@@ -282,7 +270,7 @@ Power BI Desktop에는 미리 보기로 제공되는 새 리본이 있습니다.
 - **머리글 텍스트 크기** - 텍스트 크기를 제어합니다.
 - **글꼴 패밀리** - 글꼴을 제어합니다.
 
-    :::image type="content" source="media/power-bi-report-filter/format-apply-filter.gif" alt-text="필터 적용 단추 텍스트 서식 지정":::
+    :::image type="content" source="media/power-bi-report-filter/format-apply-filter.gif" alt-text="최종 사용자가 이 보고서에서 필터를 저장하도록 허용 안 함 스크린샷":::
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 

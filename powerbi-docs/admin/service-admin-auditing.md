@@ -10,12 +10,12 @@ ms.date: 08/20/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 0c1c113f100c3ae1db0902c90833c44788fa7ec6
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 330f844e9c97a3a59ff854ac14612c328b7cb9b6
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857706"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92680995"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Power BI에서 사용자 활동 추적
 
@@ -136,13 +136,13 @@ Power BI와 Microsoft 365의 사용자 활동을 추적하려는 경우 Office 3
 
 Power BI 감사 로그는 [Office 365 보안 및 준수 센터](https://sip.protection.office.com/#/unifiedauditlog)를 통해 직접 사용할 수 있습니다. Power BI 관리 포털의 링크도 있습니다.
 
-1. Power BI에서 오른쪽 위 모서리의 **기어 아이콘**을 선택한 후 **관리 포털**을 선택합니다.
+1. Power BI에서 오른쪽 위 모서리의 **기어 아이콘** 을 선택한 후 **관리 포털** 을 선택합니다.
 
    ![관리 포털 옵션이 표시된 기어 드롭다운 메뉴의 스크린샷.](media/service-admin-auditing/powerbi-admin.png)
 
-1. **감사 로그**를 선택합니다.
+1. **감사 로그** 를 선택합니다.
 
-1. **Microsoft 365 관리 센터로 이동**을 선택합니다.
+1. **Microsoft 365 관리 센터로 이동** 을 선택합니다.
 
    ![감사 로그 옵션 및 Microsoft 365 관리 센터로 이동 옵션이 표시된 관리 포털의 스크린샷.](media/service-admin-auditing/audit-log-o365-admin-center.png)
 
@@ -150,9 +150,9 @@ Power BI 감사 로그는 [Office 365 보안 및 준수 센터](https://sip.prot
 
 다음 단계를 수행하여 결과를 Power BI 활동으로만 제한합니다. 활동 목록은 이 문서의 뒷부분에 나오는 [Power BI에서 감사하는 활동](#operations-available-in-the-audit-and-activity-logs) 목록을 참조하세요.
 
-1. **감사 로그 검색** 페이지의 **검색** 아래에서 **활동**에 해당하는 드롭다운을 선택합니다.
+1. **감사 로그 검색** 페이지의 **검색** 아래에서 **활동** 에 해당하는 드롭다운을 선택합니다.
 
-2. **Power BI 활동**을 선택합니다.
+2. **Power BI 활동** 을 선택합니다.
 
    ![Power BI 작업이 호출된 감사 로그 검색의 스크린샷.](media/service-admin-auditing/audit-log-search-filter-by-powerbi.png)
 
@@ -162,9 +162,9 @@ Power BI 감사 로그는 [Office 365 보안 및 준수 센터](https://sip.prot
 
 ### <a name="search-the-audit-logs-by-date"></a>날짜별 감사 로그 검색
 
-**시작 날짜**와 **종료 날짜** 필드를 사용하면 날짜 범위로 로그를 검색할 수 있습니다. 기본 선택은 과거 7일입니다. 날짜 및 시간은 UTC(협정 세계시) 형식으로 표시됩니다. 지정할 수 있는 최대 날짜 범위는 90일입니다. 
+**시작 날짜** 와 **종료 날짜** 필드를 사용하면 날짜 범위로 로그를 검색할 수 있습니다. 기본 선택은 과거 7일입니다. 날짜 및 시간은 UTC(협정 세계시) 형식으로 표시됩니다. 지정할 수 있는 최대 날짜 범위는 90일입니다. 
 
-선택한 날짜 범위가 90일을 초과하면 오류가 표시됩니다. 최대 날짜 범위인 90일을 사용하는 경우 **시작 날짜**에 현재 시간을 선택합니다. 그렇지 않으면 시작 날짜가 종료 날짜보다 빠르다는 오류가 표시됩니다. 90일이 지나기 전에 감사를 사용하도록 설정하는 경우, 날짜 범위가 감사를 켠 날짜 이전에 시작되도록 설정할 수 없습니다.
+선택한 날짜 범위가 90일을 초과하면 오류가 표시됩니다. 최대 날짜 범위인 90일을 사용하는 경우 **시작 날짜** 에 현재 시간을 선택합니다. 그렇지 않으면 시작 날짜가 종료 날짜보다 빠르다는 오류가 표시됩니다. 90일이 지나기 전에 감사를 사용하도록 설정하는 경우, 날짜 범위가 감사를 켠 날짜 이전에 시작되도록 설정할 수 없습니다.
 
 ![시작 날짜 및 종료 날짜 옵션이 호출된 감사 로그 검색의 스크린샷.](media/service-admin-auditing/search-audit-log-by-date.png)
 
@@ -176,11 +176,11 @@ Power BI 감사 로그는 [Office 365 보안 및 준수 센터](https://sip.prot
 
 ### <a name="view-search-results"></a>검색 결과 보기
 
-**검색**을 선택하면 검색 결과가 로드됩니다. 잠시 후 **결과** 아래에 표시됩니다. 검색이 완료되면 찾은 결과 수가 표시됩니다. **감사 로그 검색**은 최대 1,000개 이벤트까지 표시합니다. 1,000개 이상의 이벤트가 검색 조건을 충족하는 경우 앱은 최신 이벤트 1,000개를 표시합니다.
+**검색** 을 선택하면 검색 결과가 로드됩니다. 잠시 후 **결과** 아래에 표시됩니다. 검색이 완료되면 찾은 결과 수가 표시됩니다. **감사 로그 검색** 은 최대 1,000개 이벤트까지 표시합니다. 1,000개 이상의 이벤트가 검색 조건을 충족하는 경우 앱은 최신 이벤트 1,000개를 표시합니다.
 
 #### <a name="view-the-main-results"></a>기본 결과 보기
 
-**결과** 영역에는 검색을 통해 반환된 각 이벤트에 대한 다음과 같은 정보가 포함됩니다. 결과를 정렬하려면 **결과**에서 열 머리글을 선택합니다.
+**결과** 영역에는 검색을 통해 반환된 각 이벤트에 대한 다음과 같은 정보가 포함됩니다. 결과를 정렬하려면 **결과** 에서 열 머리글을 선택합니다.
 
 | **열** | **정의** |
 | --- | --- |
@@ -195,7 +195,7 @@ Power BI 감사 로그는 [Office 365 보안 및 준수 센터](https://sip.prot
 
 이벤트에 대한 세부 정보를 보려면 검색 결과 목록에서 이벤트 레코드를 선택합니다. 이벤트 레코드의 상세한 속성이 표함된 **세부 정보** 페이지가 표시됩니다. **세부 정보** 페이지는 이벤트가 발생하는 Microsoft 365 서비스에 따라 속성을 표시합니다.
 
-이러한 세부 정보를 표시하려면 **추가 정보**를 선택합니다. 모든 Power BI 항목에는 RecordType 속성에 대해 20이라는 값이 있습니다. 기타 속성에 대한 자세한 내용은 [감사 로그의 자세한 속성](/office365/securitycompliance/detailed-properties-in-the-office-365-audit-log/)을 참조하세요.
+이러한 세부 정보를 표시하려면 **추가 정보** 를 선택합니다. 모든 Power BI 항목에는 RecordType 속성에 대해 20이라는 값이 있습니다. 기타 속성에 대한 자세한 내용은 [감사 로그의 자세한 속성](/office365/securitycompliance/detailed-properties-in-the-office-365-audit-log/)을 참조하세요.
 
    ![추가 정보 옵션이 표시된 감사 세부 정보 대화 상자의 스크린샷.](media/service-admin-auditing/audit-details.png)
 
@@ -203,9 +203,9 @@ Power BI 감사 로그는 [Office 365 보안 및 준수 센터](https://sip.prot
 
 Power BI 감사 로그를 CSV 파일로 내보내려면 다음 단계를 수행합니다.
 
-1. **결과 내보내기**를 선택합니다.
+1. **결과 내보내기** 를 선택합니다.
 
-1. **로드된 결과 저장** 또는 **모든 결과 다운로드**를 선택합니다.
+1. **로드된 결과 저장** 또는 **모든 결과 다운로드** 를 선택합니다.
 
     ![모든 결과 다운로드가 호출된 결과 내보내기 옵션의 스크린샷.](media/service-admin-auditing/export-auditing-results.png)
 
@@ -310,6 +310,7 @@ Exchange Online에 연결하는 방법에 대한 자세한 내용은 [Exchange O
 | 데이터 흐름 사용 권한을 제거하지 못함             | FailedToRemoveDataflowPermissions           | 현재 사용되지 않음                       |
 | Power BI 데이터 흐름 SAS 토큰 생성됨             | GenerateDataflowSasToken                    |                                          |
 | Power BI Embed 토큰 생성됨                    | GenerateEmbedToken                          |                                          |
+| 스크린샷 생성                       | GenerateScreenshot |                     |
 | Power BI로 파일 가져옴                         | 가져오기                                      |                                          |
 | Power BI 앱 설치됨                            | InstallApp                                  |                                          |
 | 용량에 작업 영역 마이그레이션됨                  | MigrateWorkspaceIntoCapacity                |                                          |

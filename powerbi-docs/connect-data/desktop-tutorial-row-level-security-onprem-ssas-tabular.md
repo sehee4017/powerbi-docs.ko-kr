@@ -1,6 +1,6 @@
 ---
 title: Analysis Services 테이블 형식 모델을 사용하여 동적 행 수준 보안
-description: Analysis Services 테이블 형식 모델을 사용하여 동적 행 수준 보안
+description: 온-프레미스 Analysis Services 테이블 형식 모델을 사용하여 동적 행 수준 보안
 author: davidiseminger
 ms.reviewer: davidi
 editor: davidi
@@ -10,23 +10,23 @@ ms.topic: tutorial
 ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4426960cefc23111740d0e930f7a9704e18f8bb6
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: 047c4e7d71cbbae95f4b1f8067548d807421385d
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878311"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349601"
 ---
-# <a name="implement-row-level-security-in-an-analysis-services-tabular-model"></a>Analysis Services 테이블 형식 모델에서 행 수준 보안 구현
+# <a name="implement-row-level-security-in-an-on-premises-analysis-services-tabular-model"></a>온-프레미스 Analysis Services 테이블 형식 모델에서 행 수준 보안 구현
 
-샘플 데이터 세트를 사용하여 아래 단계를 진행하기 위해 이 자습서는 *Analysis Services 테이블 형식 모델*에서 [**행 수준 보안**](../admin/service-admin-rls.md)을 구현하고 Power BI 보고서에서 사용하는 방법을 보여줍니다.
+샘플 데이터 세트를 사용하여 아래 단계를 진행하기 위해 이 자습서는 온-프레미스 *Analysis Services 테이블 형식 모델* 에서 [**행 수준 보안**](../admin/service-admin-rls.md)을 구현하고 Power BI 보고서에서 사용하는 방법을 보여 줍니다.
 
 * [AdventureworksDW2012 데이터베이스](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks)에서 새 보안 테이블 만들기
 * 필요한 팩트 및 차원 테이블을 사용하여 테이블 형식 모델 빌드
 * 사용자 역할 및 사용 권한 정의
 * *Analysis Services 테이블 형식* 인스턴스에 모델 배포
 * 보고서에 액세스하는 사용자에게 맞는 데이터를 표시하는 Power BI Desktop 보고서 작성
-* *Power BI 서비스*에 보고서 배포
+* *Power BI 서비스* 에 보고서 배포
 * 보고서를 기반으로 새 대시보드 만들기
 * 동료와 대시보드 공유
 
@@ -44,23 +44,23 @@ ms.locfileid: "87878311"
 
 1. 테이블을 만들고 저장한 후에는 아래와 같이 `DimUserSecurity` 테이블의 `SalesTerritoryID` 열과 `DimSalesTerritory` 테이블의 `SalesTerritoryKey` 열 간의 관계를 설정해야 합니다.
 
-   SSMS에서 **DimUserSecurity**를 마우스 오른쪽 단추로 클릭하고 **디자인**을 선택합니다. 그런 다음 **테이블 디자이너** > **관계...** 를 선택합니다. 완료되면 테이블을 저장합니다.
+   SSMS에서 **DimUserSecurity** 를 마우스 오른쪽 단추로 클릭하고 **디자인** 을 선택합니다. 그런 다음 **테이블 디자이너** > **관계...** 를 선택합니다. 완료되면 테이블을 저장합니다.
 
    ![외래 키 관계](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_keys.png)
 
-1. 테이블에 사용자를 추가하세요. **DimUserSecurity**를 마우스 오른쪽 단추로 클릭하고 **상위 200개의 행 편집**을 선택합니다. 사용자를 추가하면 `DimUserSecurity` 테이블은 다음 예제와 유사하게 표시됩니다.
+1. 테이블에 사용자를 추가하세요. **DimUserSecurity** 를 마우스 오른쪽 단추로 클릭하고 **상위 200개의 행 편집** 을 선택합니다. 사용자를 추가하면 `DimUserSecurity` 테이블은 다음 예제와 유사하게 표시됩니다.
 
    ![예제 사용자를 포함한 DimUserSecurity 테이블](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_users.png)
 
    이후 작업에서 이러한 사용자를 볼 수 있습니다.
 
-1. 다음으로 사용자 관련 지역 세부 정보를 보여 주는 `DimSalesTerritory` 테이블을 사용하여 *내부 조인*을 수행합니다. 여기에서 SQL 코드는 내부 조인을 수행하고, 이미지는 테이블이 나타나는 방법을 보여줍니다.
+1. 다음으로 사용자 관련 지역 세부 정보를 보여 주는 `DimSalesTerritory` 테이블을 사용하여 *내부 조인* 을 수행합니다. 여기에서 SQL 코드는 내부 조인을 수행하고, 이미지는 테이블이 나타나는 방법을 보여줍니다.
 
     ```sql
     select b.SalesTerritoryCountry, b.SalesTerritoryRegion, a.EmployeeID, a.FirstName, a.LastName, a.UserName from [dbo].[DimUserSecurity] as a join [dbo].[DimSalesTerritory] as b on a.[SalesTerritoryID] = b.[SalesTerritoryKey]
     ```
 
-   조인된 테이블은 2단계에서 만든 관계 덕분에 각 영업 영역에 대한 책임이 있는 사람을 보여 줍니다. 예를 들어 *Rita Santos*가 *오스트레일리아* 담당임을 알 수 있습니다.
+   조인된 테이블은 2단계에서 만든 관계 덕분에 각 영업 영역에 대한 책임이 있는 사람을 보여 줍니다. 예를 들어 *Rita Santos* 가 *오스트레일리아* 담당임을 알 수 있습니다.
 
 ## <a name="task-2-create-the-tabular-model-with-facts-and-dimension-tables"></a>작업 2: 팩트 및 차원 테이블을 사용하여 테이블 형식 모델 만들기
 
@@ -70,9 +70,9 @@ ms.locfileid: "87878311"
 
     ![데이터 도구와 함께 사용하기 위해 가져온 SQL Server](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/ssdt_model.png)
 
-1. 필요한 테이블을 가져오면 읽기 권한으로 *SalesTerritoryUsers*라는 역할을 정의해야 합니다. SQL Server Data Tools에서 **모델** 메뉴를 선택한 다음, **역할**을 선택합니다. **역할 관리자**에서 **새로 만들기**를 선택합니다.
+1. 필요한 테이블을 가져오면 읽기 권한으로 *SalesTerritoryUsers* 라는 역할을 정의해야 합니다. SQL Server Data Tools에서 **모델** 메뉴를 선택한 다음, **역할** 을 선택합니다. **역할 관리자** 에서 **새로 만들기** 를 선택합니다.
 
-1. **역할 관리자** 안의 **멤버**에서 [작업 1단계](#task-1-create-the-user-security-table-and-define-data-relationship)의 `DimUserSecurity` 테이블에서 정의한 사용자를 추가합니다.
+1. **역할 관리자** 안의 **멤버** 에서 [작업 1단계](#task-1-create-the-user-security-table-and-define-data-relationship)의 `DimUserSecurity` 테이블에서 정의한 사용자를 추가합니다.
 
     ![역할 관리자에서 사용자 추가](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/rolemanager.png)
 
@@ -117,29 +117,29 @@ ms.locfileid: "87878311"
 
 ## <a name="task-4-create-report-based-on-analysis-services-tabular-model-using-power-bi-desktop"></a>작업 4: Power BI Desktop을 사용하여 Analysis Services 테이블 형식 모델 기반 보고서 만들기
 
-1. Power BI Desktop을 시작하고, **데이터 가져오기** > **데이터베이스**를 선택합니다.
+1. Power BI Desktop을 시작하고, **데이터 가져오기** > **데이터베이스** 를 선택합니다.
 
-1. 데이터 원본 목록에서 **SQL Server Analysis Services 데이터베이스**를 선택하고 **연결**을 선택합니다.
+1. 데이터 원본 목록에서 **SQL Server Analysis Services 데이터베이스** 를 선택하고 **연결** 을 선택합니다.
 
    ![SQL Server Analysis Services 데이터베이스에 연결](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata.png)
 
-1. Analysis Services 테이블 형식 인스턴스 세부 정보를 입력하고 **라이브 연결**을 선택합니다. 그런 다음, **확인**을 선택합니다.
+1. Analysis Services 테이블 형식 인스턴스 세부 정보를 입력하고 **라이브 연결** 을 선택합니다. 그런 다음, **확인** 을 선택합니다.
   
    ![Analysis Services 세부 정보](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata_connectlive.png)
 
    Power BI에서 동적 보안은 라이브 연결만을 사용하여 작동합니다.
 
-1. Analysis Services 인스턴스에 배포된 모델이 표시됩니다. 해당 모델을 선택한 다음, **확인**을 선택합니다.
+1. Analysis Services 인스턴스에 배포된 모델이 표시됩니다. 해당 모델을 선택한 다음, **확인** 을 선택합니다.
 
    Power BI Desktop은 이제 **필드** 창의 캔버스 오른쪽에 사용할 수 있는 모든 필드를 표시합니다.
 
 1. **필드** 창에서 **FactInternetSales** 테이블의 **SalesAmount** 측정값 및 **SalesTerritory** 테이블의 **SalesTerritoryRegion** 차원을 선택합니다.
 
-1. 이 보고서를 간단하게 유지하기 위해 지금 더 많은 열을 추가하지 않습니다. 좀 더 의미 있는 데이터 표현을 위해 시각화를 **도넛형 차트**로 변경합니다.
+1. 이 보고서를 간단하게 유지하기 위해 지금 더 많은 열을 추가하지 않습니다. 좀 더 의미 있는 데이터 표현을 위해 시각화를 **도넛형 차트** 로 변경합니다.
 
    ![도넛형 차트 시각화](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/donut_chart.png)
 
-1. 보고서가 준비되면 Power BI 포털에 직접 게시할 수 있습니다. Power BI Desktop의 리본 메뉴 **홈** 탭에서 **게시**를 선택합니다.
+1. 보고서가 준비되면 Power BI 포털에 직접 게시할 수 있습니다. Power BI Desktop의 리본 메뉴 **홈** 탭에서 **게시** 를 선택합니다.
 
 ## <a name="task-5-create-and-share-a-dashboard"></a>작업 5: 대시보드 만들기 및 공유
 
@@ -147,7 +147,7 @@ ms.locfileid: "87878311"
 
 *판매 관리자* 역할의 사용자 Grace는 다른 모든 판매 지역의 데이터를 볼 수 있습니다. Grace가 이 보고서를 만들고 Power BI 서비스에 게시합니다. 이 보고서는 이전 작업에서 만들었습니다.
 
-Grace가 보고서를 게시한 후 다음 단계는 해당 보고서를 기준으로 Power BI 서비스에서 *TabularDynamicSec*라는 대시보드를 만드는 것입니다. 다음 그림에서 Grace는 모든 판매 지역에 해당하는 데이터를 볼 수 있습니다.
+Grace가 보고서를 게시한 후 다음 단계는 해당 보고서를 기준으로 Power BI 서비스에서 *TabularDynamicSec* 라는 대시보드를 만드는 것입니다. 다음 그림에서 Grace는 모든 판매 지역에 해당하는 데이터를 볼 수 있습니다.
 
    ![Power BI 서비스 대시보드](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/donut_chart_1.png)
 

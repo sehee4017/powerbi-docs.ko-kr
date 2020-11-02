@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 10/13/2020
+ms.date: 10/22/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b2fd8375e105769ed0c9a81e7d894cc0f31f08b0
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 104692fff7f94168a505dc6e1f2c513d647554ce
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92258272"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349647"
 ---
 # <a name="dynamic-m-query-parameters-in-power-bi-desktop-preview"></a>Power BI Desktop의 동적 M 쿼리 매개 변수(미리 보기)
 
@@ -28,7 +28,12 @@ ms.locfileid: "92258272"
 
 ![미리 보기 기능 사용](media/desktop-dynamic-m-query-parameters/dynamic-m-query-parameters-01.png)
 
-이 기능을 사용하기 위한 필수 구성 요소로, 하나 이상의 직접 쿼리 테이블에서 생성되어 참조되는 유효한 [M 쿼리 매개 변수](/power-query/power-query-query-parameters)가 있어야 합니다. **단일 값** 을 매개 변수에 동적으로 전달하는 예제를 단계별로 살펴보겠습니다.
+이 기능을 사용하기 위한 필수 구성 요소로, 하나 이상의 직접 쿼리 테이블에서 생성되어 참조되는 유효한 [M 쿼리 매개 변수](/power-query/power-query-query-parameters)가 있어야 합니다. 
+
+> [!NOTE]
+> 일부 DirectQuery 원본이 이 기능에서 지원되지 않으므로 이 문서의 [고려 사항 및 제한 사항](#considerations-and-limitations) 섹션을 확인해야 합니다.
+
+**단일 값** 을 매개 변수에 동적으로 전달하는 예제를 단계별로 살펴보겠습니다.
 
 1. Power BI Desktop의 **데이터** 탭에서 **파워 쿼리** 를 시작하고, 리본의 **매개 변수 관리** 단추 아래에서 **새 매개 변수** 를 선택합니다.
 
@@ -147,7 +152,13 @@ Products
 동적 M 쿼리 매개 변수를 사용할 때 생각해야 할 몇 가지 고려 사항 및 제한 사항이 있습니다.
 
 * 한 매개 변수를 여러 필드에 바인딩할 수 없으며 그 반대의 경우도 마찬가지입니다.
-* 이 기능은 M 기반 데이터 원본에만 지원되며 기본 SQL 쿼리에 대한 지원은 제외됩니다.
+* 이 기능은 M 기반 데이터 원본에 대해서만 지원됩니다. 다음 DirectQuery 원본은 지원되지 않습니다.
+    * T-SQL 기반 데이터 원본: SQL Server, Azure SQL Database, Synapse SQL 풀(즉, Azure SQL Data Warehouse) 및 Synapse SQL OnDemand 풀
+    * 라이브 연결 데이터 원본: Azure Analysis Services, SQL Server Analysis Services, Power BI 데이터 세트
+    * 기타 지원되지 않는 데이터 원본: Oracle, Teradata 및 관계형 SAP Hana
+    * XMLA/TOM 엔드포인트 프로그래밍 기능을 통해 부분적으로 지원됨: SAP BW 및 SAP Hana 
+
+
 * 지원되지 않는 기본 매개 변수 형식은 다음과 같습니다.
   * 모두
   * Duration

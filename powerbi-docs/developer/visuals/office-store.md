@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/14/2020
-ms.openlocfilehash: 55661d8faa39d26d19d15696252cf46b74c84a50
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 1809b1f539c82de4bf98689dbb259594a603b90c
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049433"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349693"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>파트너 센터에 Power BI 시각적 개체 게시
 
@@ -62,6 +62,9 @@ Power BI 시각적 개체를 제출하려면 Power BI 팀의 앱 패키지 XML�
 ## <a name="submitting-to-appsource"></a>AppSource에 제출
 
 Power BI 시각적 개체를 AppSource에 제출하려면 Power BI 팀에서 앱 패키지를 얻은 후 파트너 센터에 제출해야 합니다.
+
+>[!IMPORTANT]
+>시각적 개체를 다시 제출하는 경우 GUID를 변경할 수 없습니다.
 
 ### <a name="getting-the-app-package"></a>앱 패키지 얻기
 

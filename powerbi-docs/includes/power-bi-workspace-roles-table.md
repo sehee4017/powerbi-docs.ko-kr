@@ -5,15 +5,15 @@ services: powerbi
 author: maggiesMSFT
 ms.service: powerbi
 ms.topic: include
-ms.date: 09/04/2020
+ms.date: 10/21/2020
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: 0bf9f1a6eb918e55ab3811b9c6fde2628bdd91ad
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 87c35df25a17090f1788abbeb979afab3ad9d6a9
+ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983745"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "92462227"
 ---
 |기능   | 관리자  | 멤버  | 참가자  | 뷰어 |
 |---|---|---|---|---|
@@ -31,6 +31,7 @@ ms.locfileid: "91983745"
 | 작업 영역에 보고서 게시, 콘텐츠 삭제  |  ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png) | ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |
 | 이 작업 영역의 데이터 세트를 기반으로 다른 작업 영역에 보고서 만들기<sup>2</sup> |  ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png) | ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |
 | 보고서를 복사합니다.<sup>3</sup> | ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png) | ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png) | ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png) |  |
+| 데이터 세트 권한을 관리합니다.<sup>3</sup> | ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png) | ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png) | ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png) |  |
 | 온-프레미스 게이트웨이를 통해 데이터 새로 고침을 예약합니다.<sup>4</sup> | ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png) | ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png) | ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png) |  |
 | 게이트웨이 연결 설정을 수정합니다.<sup>4</sup> | ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png) | ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png) | ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png) |  |
 | 항목을 보고 상호 작용합니다.<sup>5</sup> |  ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png) | ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png)  |

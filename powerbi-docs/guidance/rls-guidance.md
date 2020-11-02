@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 60bb1ef7421d4ebcedd49d2e973cf245edec0381
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: 644e4499a335f18febadf33c371bd15e01499701
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965041"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349624"
 ---
 # <a name="row-level-security-rls-guidance-in-power-bi-desktop"></a>Power BI Desktop의 행 수준 보안(RLS) 지침
 
@@ -32,22 +32,22 @@ RLS는 테이블 행을 필터링한다는 것을 이해하는 것이 중요합�
 
 보고서 사용자가 여러 역할에 할당되면 RLS 필터는 가산적이 됩니다. 즉, 보고서 사용자는 이러한 필터의 합집합을 나타내는 테이블 행을 볼 수 있습니다. 또한 일부 시나리오에서는 보고서 사용자에게 테이블의 행이 표시되지 않는다고 보장할 수 없습니다. 따라서 SQL Server 데이터베이스 개체(및 기타 권한 모델)에 적용되는 권한과 달리 "한 번 거부되면 항상 거부됨" 원칙이 적용되지 않습니다.
 
-두 역할이 있는 모델을 고려해 보세요. **작업자**라는 첫 번째 역할은 다음 규칙 식을 사용하여 모든 **Payroll** 테이블 행에 대한 액세스를 제한합니다.
+두 역할이 있는 모델을 고려해 보세요. **작업자** 라는 첫 번째 역할은 다음 규칙 식을 사용하여 모든 **Payroll** 테이블 행에 대한 액세스를 제한합니다.
 
 ```dax
 FALSE()
 ```
 
 > [!NOTE]
-> 규칙은 식이 **false**로 계산되면 테이블 행을 반환하지 않습니다.
+> 규칙은 식이 **false** 로 계산되면 테이블 행을 반환하지 않습니다.
 
-하지만 **관리자**라는 두 번째 역할은 다음 규칙 식을 사용하여 모든 **Payroll** 테이블 행에 대한 액세스를 허용합니다.
+하지만 **관리자** 라는 두 번째 역할은 다음 규칙 식을 사용하여 모든 **Payroll** 테이블 행에 대한 액세스를 허용합니다.
 
 ```dax
 TRUE()
 ```
 
-다음에 유의하세요. 보고서 사용자가 두 역할 모두에 매핑되는 경우 모든 **Salary** 테이블 행을 볼 수 있습니다.
+다음에 유의하세요. 보고서 사용자가 두 역할 모두에 매핑되는 경우 모든 **Payroll** 테이블 행을 볼 수 있습니다.
 
 ## <a name="optimize-rls"></a>RLS 최적화
 
@@ -117,7 +117,7 @@ DAX 식이 RLS를 재정의하는 것은 불가능하지만(사실 RLS가 적용
 - **Salesperson** 테이블은 영업 사원당 행 하나를 저장합니다. 여기에는 각 영업 사원의 이메일 주소를 저장하는 **EmailAddress** 열이 포함됩니다. 이 테이블은 숨겨져 있습니다.
 - **Sales** 테이블은 주문당 행 하나를 저장합니다. 여기에는 모든 지역의 획득 수익 대비 보고서 사용자 지역 획득 수익의 비율을 반환하도록 설계된 **Revenue % All Region** 측정값이 포함되어 있습니다.
 - **Date** 테이블은 날짜당 행 하나를 저장하며, 연도 및 월 필터링과 그룹화를 허용합니다.
-- **SalesRevenueSummary**는 계산된 테이블입니다. 이 테이블은 각 주문 날짜의 총 수익을 저장합니다. 이 테이블은 숨겨져 있습니다.
+- **SalesRevenueSummary** 는 계산된 테이블입니다. 이 테이블은 각 주문 날짜의 총 수익을 저장합니다. 이 테이블은 숨겨져 있습니다.
 
 다음 식은 **SalesRevenueSummary** 계산된 테이블을 정의합니다.
 

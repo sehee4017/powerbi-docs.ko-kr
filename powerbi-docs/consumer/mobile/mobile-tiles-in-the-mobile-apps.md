@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 23f1ab7fb7ae5e143084042699db708c0827114f
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 1afde236dd4fc9698efe4391cb2d9e095ade37a4
+ms.sourcegitcommit: 5fdb45736ca0c8070124279fed4dab1ced8b7b27
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668554"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92683371"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 타일 탐색
 적용 대상:
@@ -35,7 +35,7 @@ ms.locfileid: "91668554"
    
     ![올해 매출 및 작년 매출의 선택된 값을 보여 주는 꺾은선형 차트의 스크린샷.](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   *예를 들어 이 꺾은선형 차트에서 선택한 값은 **금년 매출** 및 **작년 매출**의 **8월** 값입니다.*  
+   *예를 들어 이 꺾은선형 차트에서 선택한 값은 **금년 매출** 및 **작년 매출** 의 **8월** 값입니다.*  
    
    원형 차트에서는 원형 차트의 위에 조각의 값을 표시하려면 원형 차트의 조각을 누릅니다.  
    
@@ -58,7 +58,7 @@ ms.locfileid: "91668554"
    
     Power BI 앱에서 링크를 연 후 링크를 복사하고 대신 브라우저 창에서 열 수 있습니다.
 7. 타일의 기반이 되는 [보고서](mobile-reports-in-the-mobile-apps.md) ![iOS의 보고서 열기 아이콘](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png)를 엽니다.
-8. 타일 포커스 모드에서 나오려면 타일 이름을 탭한 다음 대시보드 이름 또는 **내 작업 영역**을 탭합니다.
+8. 타일 포커스 모드에서 나오려면 타일 이름을 탭한 다음 대시보드 이름 또는 **내 작업 영역** 을 탭합니다.
    
     ![내 작업 영역 및 기회 분석 샘플의 포인터를 보여 주는 대시보드의 스크린샷.](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-breadcrumb.png)
 
@@ -87,7 +87,7 @@ ms.locfileid: "91668554"
 ## <a name="tiles-in-the-windows-10-mobile-app"></a>Windows 10 모바일 앱의 타일
 
 >[!NOTE]
->**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
+>**Windows 10 Mobile을 사용하는 휴대폰** 용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 1. Windows 10용 [Power BI 모바일 앱에서 대시보드](mobile-apps-view-dashboard.md)를 엽니다.
 2. 타일의 세로 줄임표(...)를 탭합니다. 여기에서는 다음과 같은 작업을 할 수 있습니다. 
@@ -111,10 +111,10 @@ ms.locfileid: "91668554"
    
    *이 막대형 차트에서 **Decor** 바에 대한 값은 차트의 위쪽에 표시됩니다.*
    
-   탐색 및 메뉴 모음 없이, **전체 화면** 아이콘 ![전체 화면 아이콘](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png)을 탭하여 타일을 전체 화면 모드로 엽니다.
+   **프레젠테이션 모드로 전환** 아이콘 ![프레젠테이션으로 전환 아이콘 이미지](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png)을 탭하여 탐색 및 메뉴 모음이 없는 프레젠테이션 모드로 타일을 엽니다.
    
    > [!NOTE]
-   > Windows 10용 Power BI 모바일 앱에서 [전체 화면 모드로 대시보드와 보고서를 볼 수](mobile-windows-10-app-presentation-mode.md)도 있습니다.
+   > Windows 10용 Power BI 모바일 앱에서 [프레젠테이션 모드로 대시보드와 보고서를 볼 수](mobile-windows-10-app-presentation-mode.md)도 있습니다.
    > 
    > 
    
@@ -129,4 +129,4 @@ ms.locfileid: "91668554"
 
 ## <a name="next-steps"></a>다음 단계
 * [Power BI란?](../../fundamentals/power-bi-overview.md)
-* 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+* 질문이 있으신가요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

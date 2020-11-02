@@ -8,21 +8,25 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/13/2019
-ms.openlocfilehash: 7624e51bf8c1ee49f2b7e7a0682e12b24bcdfa98
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: c43542bc6c2bb0699403062f68024f9718bbbb60
+ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748474"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "92501952"
 ---
 # <a name="power-bi-visuals-api-changelog"></a>Power BI 시각적 개체 API 변경 로그
 이 페이지에는 API 버전에 대한 빠른 요약이 포함되어 있습니다. 여기에 나열된 버전은 안정적인 것으로 간주되며 변경되지 않습니다.
+
+
+## <a name="api-v340"></a>API v3.4.0
+  * `fetchMoreData`: 새로운 `aggregateSegments` 매개 변수(기본값: true), 집계 없음 fetchMoreData 지원
 
 ## <a name="api-v320"></a>API v3.2.0
   * **[supportsMultiVisualSelection](./supportsmultivisualselection-feature.md)** 지원
 
 ## <a name="api-v260"></a>API v2.6.0
-  * 업데이트 옵션에 **isInFocus**를 추가하고 시각적 개체에 **switchFocusModeState** 메서드를 추가
+  * 업데이트 옵션에 **isInFocus** 를 추가하고 시각적 개체에 **switchFocusModeState** 메서드를 추가
   * **부분합** 사용자 지정을 지원
 
 ## <a name="api-v250"></a>API v2.5.0
@@ -68,7 +72,7 @@ ms.locfileid: "91748474"
 
 ## <a name="api-v1120"></a>API v1.12.0
 * 테마를 지원
-* **[fetchMoreData](./fetch-more-data.md)** 를 지원. **더 많은 데이터 가져오기 API**는 하드 한도인 30,000개 데이터 요소에 구애되지 않습니다.
+* **[fetchMoreData](./fetch-more-data.md)** 를 지원. **더 많은 데이터 가져오기 API** 는 하드 한도인 30,000개 데이터 요소에 구애되지 않습니다.
 * **[캔버스 도구 설명 API](./add-tooltips.md#add-report-page-tooltips)**
 
 ## <a name="api-v1110"></a>API v1.11.0
@@ -83,7 +87,7 @@ ms.locfileid: "91748474"
 * **[launchUrl API](./launch-url.md)**
 
 ## <a name="api-v180"></a>API v1.8.0
-* 기능 스키마에서 새 형식 **fillRule**(그라데이션)을 지원
+* 기능 스키마에서 새 형식 **fillRule** (그라데이션)을 지원
 * 개체 속성용 기능 스키마에서 **규칙** 속성을 지원
 
 ## <a name="api-v170"></a>API v1.7.0
@@ -103,8 +107,8 @@ ms.locfileid: "91748474"
 * **[도구 설명](./add-tooltips.md)** 을 지원
 
 ## <a name="api-v120"></a>API v1.2.0
-* 시각적 개체에 사용되는 색을 관리하기 위해 **colorPalette**를 추가합니다.
-* **다중 선택**을 지원 - selectionManager는 `SelectionId`의 배열을 허용할 수 있습니다.
+* 시각적 개체에 사용되는 색을 관리하기 위해 **colorPalette** 를 추가합니다.
+* **다중 선택** 을 지원 - selectionManager는 `SelectionId`의 배열을 허용할 수 있습니다.
 * R 스크립트를 사용하여 **[R 시각적 개체](https://github.com/Microsoft/PowerBI-visuals/blob/master/RVisualTutorial/CreateRHTML.md)** 를 지원합니다.
 
 ## <a name="api-v110"></a>API v1.1.0
@@ -116,8 +120,8 @@ ms.locfileid: "91748474"
 * API v1.2.0의 알파 릴리스를 지원
 
 **시각적 개체 호스트**
-* 데이터 선택에 사용되는 고유 식별자를 만드는 **createSelectionIdBuilder**를 추가
-* 시각적 개체의 선택 상태를 관리하고 변경 내용을 시각적 개체 호스트에 전달하는 **createSelectionManager**를 추가
+* 데이터 선택에 사용되는 고유 식별자를 만드는 **createSelectionIdBuilder** 를 추가
+* 시각적 개체의 선택 상태를 관리하고 변경 내용을 시각적 개체 호스트에 전달하는 **createSelectionManager** 를 추가
 * 시각적 개체에서 사용할 기본 **색** 배열을 추가
 
 ## <a name="api-v100"></a>API v1.0.0

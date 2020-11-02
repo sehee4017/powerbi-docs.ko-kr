@@ -7,19 +7,22 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 07/26/2019
+ms.date: 10/22/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 83e1725b7ce7d38a00d0564702977c3a8eef7c1d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9aaa89db53e22fcefe55a53ec7a5414a8835255b
+ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222872"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "92501906"
 ---
 # <a name="enable-encryption-for-sap-hana"></a>SAP HANA에 대한 암호화 사용
 
-Power BI Desktop 및 Power BI 서비스에서 SAP HANA 서버로의 연결을 암호화하는 것이 좋습니다. OpenSSL 및 SAP 소유 CommonCryptoLib(이전의 sapcrypto) 라이브러리를 사용하여 HANA 암호화를 설정할 수 있습니다. SAP는 CommonCryptoLib 사용을 권장하지만, 두 라이브러리에서 모두 기본 암호화 기능을 사용할 수 있습니다.
+Power BI Desktop 및 Power BI 서비스에서 SAP HANA 서버로의 연결을 암호화하는 것이 좋습니다. SAP 소유 CommonCryptoLib(이전의 sapcrypto) 라이브러리를 사용하여 HANA 암호화를 설정할 수 있습니다. SAP는 CommonCryptoLib 사용을 권장합니다.
+
+> [!IMPORTANT]
+> SAP가 OpenSSL을 더 이상 지원하지 않으므로 Microsoft도 지원을 중단했습니다. 기존 연결과 새 연결은 2020년 말까지 계속 제대로 작동하지만 2021년 1월 1일부터는 작동하지 않습니다. 대신 CommonCryptoLib를 사용합니다.
 
 이 문서에서는 OpenSSL을 사용하여 암호화를 설정하는 방법을 간략하게 설명하고 SAP 설명서의 일부 특정 영역을 참조합니다. 콘텐츠와 링크를 주기적으로 업데이트하지만, 종합적인 지침 및 지원은 항상 공식 SAP 설명서를 참조하세요. OpenSSL 대신 CommonCryptoLib를 사용하여 암호화를 설정하려는 경우 [SAP HANA 2.0에서 TLS/SSL을 구성하는 방법](https://blogs.sap.com/2018/11/13/how-to-configure-tlsssl-in-sap-hana-2.0/)을 참조하세요. OpenSSL에서 CommonCryptoLib로 마이그레이션하는 단계는 [SAP Note 2093286](https://launchpad.support.sap.com/#/notes/2093286)(s-user가 필요함)을 참조하세요.
 
@@ -40,7 +43,7 @@ HANA 서버에 대한 X509 인증서 서명 요청을 만듭니다.
 
 1. SSH를 사용하여 HANA 서버가 실행되는 Linux 머신에 \<sid\>adm으로 연결합니다.
 
-1. 홈 디렉터리 _/__usr/sap/\<sid\>/home_으로 이동합니다.
+1. 홈 디렉터리 _/_ _usr/sap/\<sid\>/home_ 으로 이동합니다.
 
 1. 아직 없는 경우 이름이 _.__ssl_ 인 숨겨진 디렉터리를 만듭니다.
 
@@ -98,7 +101,7 @@ HANA 서버에 연결하는 데 사용할 클라이언트가 신뢰하는 CA(인
 
 Power BI Desktop 또는 Power BI 서비스에서 연결을 테스트합니다.
 
-1. SAP HANA 서버에 연결하기 전에 Power BI Desktop 또는 Power BI 서비스의 **게이트웨이 관리** 페이지에서 **서버 인증서 유효성 검사**가 사용하도록 설정되었는지 확인합니다. **SSL 암호화 공급자**에서 OpenSSL 설정 단계를 따른 경우 mscrypto를 선택하고, commoncrypto 라이브러리를 암호화 공급자로 구성한 경우 commoncrypto를 선택합니다. SSL 키 저장소 및 SSL 신뢰 저장소 필드는 비워 둡니다.
+1. SAP HANA 서버에 연결하기 전에 Power BI Desktop 또는 Power BI 서비스의 **게이트웨이 관리** 페이지에서 **서버 인증서 유효성 검사** 가 사용하도록 설정되었는지 확인합니다. **SSL 암호화 공급자** 에서 OpenSSL 설정 단계를 따른 경우 mscrypto를 선택하고, commoncrypto 라이브러리를 암호화 공급자로 구성한 경우 commoncrypto를 선택합니다. SSL 키 저장소 및 SSL 신뢰 저장소 필드는 비워 둡니다.
 
     - Power BI Desktop
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0caaf46956656c141992482ae39773d19e8fc550
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 6cc602b96207b1662f0738c0936ca816bbfd0a03
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374153"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92681042"
 ---
 # <a name="control-the-use-of-datasets-across-workspaces"></a>작업 영역에서 데이터 세트 사용 제어
 
@@ -32,9 +32,9 @@ ms.locfileid: "91374153"
 
 ## <a name="provide-a-link-for-the-certification-process"></a>인증 프로세스에 대한 링크 제한
 
-Power BI 관리자로서 **보증** 설정 페이지에서 **자세한 정보** 링크에 대한 URL을 제공할 수 있습니다.  이 링크는 인증 프로세스에 대한 설명서로 이동할 수 있습니다. **자세한 정보** 링크의 대상을 제공하지 않은 경우 기본적으로 [데이터 세트 인증](service-datasets-certify.md) 문서를 가리킵니다.
+Power BI 관리자로서 **보증** 설정 페이지에서 **자세한 정보** 링크에 대한 URL을 제공할 수 있습니다.  자세한 내용은 [콘텐츠 인증 사용](../admin/service-admin-setup-certification.md)을 참조하세요. 이 링크는 인증 프로세스에 대한 설명서로 이동할 수 있습니다. **자세한 정보** 링크의 대상을 제공하지 않는 경우 기본적으로 [콘텐츠 보증](../collaborate-share/service-endorse-content.md) 문서를 가리킵니다.
 
-![데이터 세트 인증 자세히 알아보기](media/service-datasets-certify-promote/power-bi-dataset-learn-more-certification.png)
+![데이터 세트 인증 자세히 알아보기](media/service-datasets-admin-across-workspaces/service-admin-certification-setup-dialog.png)
 
 ## <a name="next-steps"></a>다음 단계
 

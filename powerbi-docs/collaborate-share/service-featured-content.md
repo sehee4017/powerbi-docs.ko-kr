@@ -6,19 +6,21 @@ ms.reviewer: nikhilga
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 03/16/2020
+ms.date: 10/14/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3340225ccd4c6457e25013b6c347769d848b104c
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: eef0ba24347bd46cc86325cac494937e3f95086a
+ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374939"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "92462458"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>동료 Power BI 홈페이지의 추천 콘텐츠
 
-대시보드, 보고서 및 앱이 동료 Power BI 홈페이지의 추천 섹션에 표시되도록 추천할 수 있습니다. 콘텐츠 추천 기능은 특히 Power BI에 새 직원을 온보딩하는 데 유용합니다. 먼저 표시되는 콘텐츠를 결정할 수 있습니다. 사용자가 필요한 항목을 찾을 수 있도록 설명 및 작은 썸네일 이미지를 추가할 수 있습니다. 콘텐츠는 새 작업 영역에 있어야 합니다.
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)]
+
+대시보드, 보고서 및 앱이 동료 Power BI 홈페이지의 추천 섹션에 표시되도록 추천할 수 있습니다. 콘텐츠 추천 기능은 특히 Power BI에 새 직원을 온보딩하는 데 유용합니다. 먼저 표시되는 콘텐츠를 결정합니다. 사용자가 필요한 항목을 찾을 수 있도록 설명 및 작은 미리 보기 이미지를 추가합니다. 콘텐츠는 새 작업 영역에 있어야 합니다.
 
 :::image type="content" source="media/service-featured-content/power-bi-featured-home.png" alt-text="홈의 Power BI 추천 콘텐츠":::
 
@@ -30,7 +32,7 @@ ms.locfileid: "91374939"
 
 ## <a name="who-sees-featured-content"></a>추천 콘텐츠를 보는 사용자
 
-작업 영역에서 대시보드 또는 보고서를 추천하면 해당 작업 영역에서 최소한의 보기 권한자 역할이 있는 사용자가 추천 콘텐츠를 볼 수 있습니다. 앱의 대시보드 또는 보고서를 추천하거나 앱 자체를 추천하는 경우 해당 앱이 배포되는 사용자가 추천 콘텐츠를 볼 수 있습니다.
+작업 영역의 대시보드 또는 보고서를 추천할 수 있습니다. 그러면 해당 작업 영역에서 뷰어 이상의 역할이 있는 사용자에게 추천 항목이 표시됩니다. 앱의 대시보드나 보고서 또는 앱 자체를 추천할 수도 있습니다. 이 경우 앱을 배포하는 사용자에게 추천 항목이 표시됩니다.
 
 ## <a name="feature-a-dashboard-or-report"></a>대시보드 또는 보고서 추천
 
@@ -40,21 +42,21 @@ ms.locfileid: "91374939"
 
     :::image type="content" source="media/service-featured-content/power-bi-settings-icon.png" alt-text="홈의 Power BI 추천 콘텐츠":::
 
-2. **설정** 창에서 이름을 확인하거나 변경합니다. **설명**을 추가하고 원하는 경우 **스냅샷**을 업로드합니다. 이 유용한 항목은 사용자가 콘텐츠를 찾는 데 도움이 됩니다.
+2. **설정** 창에서 이름을 확인하거나 변경합니다. **설명** 을 추가하고 원하는 경우 **스냅샷** 을 업로드합니다. 이 유용한 항목은 사용자가 콘텐츠를 찾는 데 도움이 됩니다.
 
-3. **추천**을 선택합니다.
+3. **추천** 을 선택합니다.
 
     :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="홈의 Power BI 추천 콘텐츠":::
 
-4. **저장**을 선택합니다.
+4. **저장** 을 선택합니다.
 
-    이제 이 대시보드 또는 보고서에 액세스할 수 있는 모든 사용자가 **홈**의 **추천** 섹션에서 볼 수 있습니다.
+    이제 이 대시보드 또는 보고서에 액세스할 수 있는 모든 사용자가 **홈** 의 **추천** 섹션에서 볼 수 있습니다.
 
 ## <a name="feature-an-app"></a>앱 추천
 
-- 앱을 추천하려면 앱의 작업 영역을 열고 **옵션** 메뉴( **...** ) > **홈에서 이 앱 추천**을 선택합니다.
+- 앱을 추천하려면 앱의 작업 영역을 열고 **옵션** 메뉴( **...** ) > **홈에서 이 앱 추천** 을 선택합니다.
 
-이제 이 앱에 액세스할 수 있는 모든 사용자가 **홈**의 **추천** 섹션에서 볼 수 있습니다.
+이제 이 앱에 액세스할 수 있는 모든 사용자가 **홈** 의 **추천** 섹션에서 볼 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 

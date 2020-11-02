@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: edf49ba9fa85ab2c46040fdac74691bea8b5b960
-ms.sourcegitcommit: 6b436f6ed872cbc040ed6e2d3ac089c08fc78daf
+ms.openlocfilehash: 68698d51b074102a8d8e556101fcfaf6a39c2c62
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91928312"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349417"
 ---
 # <a name="connect-to-a-google-bigquery-database-in-power-bi-desktop"></a>Power BI Desktop에서 Google BigQuery 데이터베이스에 연결
 Power BI Desktop에서 Google **BigQuery** 데이터베이스에 연결하고 Power BI Desktop의 다른 데이터 원본처럼 기본 데이터를 사용할 수 있습니다.
@@ -49,7 +49,7 @@ Google **BigQuery** 커넥터에서 유의해야 하는 몇 가지 제한 및 �
   Source = GoogleBigQuery.Database([BillingProject="Include-Billing-Project-Id-Here"])
   ```
 
-  2020년 9월 릴리스부터 [Google BigQuery Storage API](https://cloud.google.com/bigquery/docs/reference/storage)에 대한 지원이 활성화되었습니다. 일부 고객은 세부적인 사용 권한을 사용하는 경우 이 기능과 관련된 문제가 발생할 수 있습니다. 이 시나리오에서는 다음과 같은 오류 메시지가 표시될 수 있습니다.
+  2020년 9월 릴리스부터 [Google BigQuery Storage API](https://cloud.google.com/bigquery/docs/reference/storage)에 대한 지원이 활성화되었습니다. 이 기능은 기본적으로 사용하도록 설정되어 있으며 “UseStorageApi” 라는 선택적 부울 인수로 제어됩니다. 일부 고객은 세부적인 사용 권한을 사용하는 경우 이 기능과 관련된 문제가 발생할 수 있습니다. 이 시나리오에서는 다음과 같은 오류 메시지가 표시될 수 있습니다.
 
   `ERROR [HY000] [Microsoft][BigQuery] (131) Unable to authenticate with Google BigQuery Storage API. Check your account permissions`
 
@@ -60,7 +60,15 @@ Google **BigQuery** 커넥터에서 유의해야 하는 몇 가지 제한 및 �
   - `bigquery.readsessions.update` - BigQuery Storage API를 통해 읽기 세션을 업데이트합니다.
 
   이러한 권한은 일반적으로 BigQuery.User에서 제공됩니다. 자세한 내용은 [Google BigQuery 미리 정의된 역할 및 권한](https://cloud.google.com/bigquery/docs/access-control)을 참조하세요.
-
+  
+  위의 단계를 수행해도 문제가 해결되지 않거나 스토리지 API에 대한 지원을 사용하지 않도록 설정하려는 경우 다음과 같이 쿼리를 변경합니다.
+  ```
+  Source = GoogleBigQuery.Database([UseStorageApi=false])
+  ```
+  또는 청구 프로젝트를 이미 사용하고 있는 경우 쿼리를 다음과 같이 변경합니다.
+  ```
+  Source = GoogleBigQuery.Database([BillingProject="Include-Billing-Project-Id-Here", UseStorageApi=false])
+  ```
 
 ## <a name="next-steps"></a>다음 단계
 Power BI Desktop을 사용하여 연결할 수 있는 모든 종류의 데이터가 있습니다. 데이터 원본에 대한 자세한 내용은 다음 리소스를 확인하세요.

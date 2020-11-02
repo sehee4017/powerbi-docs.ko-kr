@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 09/25/2020
+ms.date: 10/21/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9dc24d853ee363c75eca811d068288bc375b1f88
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 6fc8dba8e4cdcb8d8ff38c00f3e477902fe8234e
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374249"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349463"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-to-sap-bw-using-gx64krb5"></a>gx64krb5를 사용하는 SAP BW로의 SSO(Single Sign-On)에 Kerberos 사용
 
 이 문서에서는 gx64krb5를 사용하여 Power BI 서비스에서 SSO를 사용하도록 SAP BW 데이터 원본을 구성하는 방법을 설명합니다.
 
 > [!IMPORTANT]
-> SAP는 더 이상 gx64krb5을 지원하지 않으므로 Microsoft도 지원을 중단했습니다. 기존 연결과 새 연결은 2020년 말까지 계속 제대로 작동하지만 2021년 1월부터는 작동하지 않습니다. 대신 CommonCryptoLib를 사용합니다. 
+> SAP는 더 이상 gx64krb5을 지원하지 않으므로 Microsoft도 지원을 중단했습니다. 기존 연결과 새 연결은 2020년 말까지 계속 제대로 작동하지만 2021년 1월 1일부터는 작동하지 않습니다. 대신 CommonCryptoLib를 사용합니다. 
 
 > [!NOTE]
 > Power BI 서비스에서 SAP BW 애플리케이션 서버 기반 보고서에 대한 SSO 기반 새로 고침을 사용하도록 설정하려면 [Kerberos SSO 구성](service-gateway-sso-kerberos.md)의 단계 이외에 이 문서의 단계를 완료할 수 있습니다. 그러나 Microsoft는 gx64krb5가 아닌 SNC 라이브러리로 CommonCryptoLib을 사용할 것을 권장합니다. SAP는 더 이상 gx64krb5를 지원하지 않으며, 게이트웨이에 구성하는 데 필요한 단계는 CommonCryptoLib에 비해 훨씬 더 복잡합니다. CommonCryptoLib를 사용하여 SSO를 구성하는 방법에 대한 자세한 내용은 [CommonCryptoLib를 사용하여 SSO에 대해 SAP BW 구성](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md)을 참조하세요. CommonCryptoLib ‘또는’ gx64krb5 중 하나만 SNC 라이브러리로 사용합니다. 두 라이브러리에 대한 구성 단계를 모두 완료하지 마세요.
@@ -60,25 +60,25 @@ gx64krb5를 사용하여 SNC 통신(예: SSO)에 대해 SAP BW 서버를 구성�
 
         ![컴퓨터 관리 프로그램](media/service-gateway-sso-kerberos/computer-management.png)
 
-    1. 로컬 관리자 그룹을 두 번 클릭하고, **추가**를 선택하여 그룹에 서비스 사용자를 추가합니다. 
+    1. 로컬 관리자 그룹을 두 번 클릭하고, **추가** 를 선택하여 그룹에 서비스 사용자를 추가합니다. 
 
-    1. **이름 확인**을 선택하여 이름을 올바르게 입력했는지 확인하고 **확인**을 선택합니다.
+    1. **이름 확인** 을 선택하여 이름을 올바르게 입력했는지 확인하고 **확인** 을 선택합니다.
 
 1. SAP BW 서버의 서비스 사용자를 SAP BW 서버 머신에서 SAP BW 서버 서비스를 시작하는 사용자로 설정합니다.
 
-    1. **실행**을 열고 **Services.msc**를 입력합니다. 
+    1. **실행** 을 열고 **Services.msc** 를 입력합니다. 
 
-    1. SAP BW 애플리케이션 서버 인스턴스에 해당하는 서비스를 찾아서 마우스 오른쪽 단추로 클릭한 다음, **속성**을 선택합니다.
+    1. SAP BW 애플리케이션 서버 인스턴스에 해당하는 서비스를 찾아서 마우스 오른쪽 단추로 클릭한 다음, **속성** 을 선택합니다.
 
         ![속성이 강조 표시된 서비스의 스크린샷](media/service-gateway-sso-kerberos/server-properties.png)
 
     1. **로그온** 탭으로 전환하고, 사용자를 자신의 SAP BW 서비스 사용자로 변경합니다. 
 
-    1. 사용자의 암호를 입력하고 **확인**을 선택합니다.
+    1. 사용자의 암호를 입력하고 **확인** 을 선택합니다.
 
 1. SAP 로그온에서 서버에 로그인한 다음, RZ10 트랜잭션을 사용하여 다음 프로필 매개 변수를 설정합니다.
 
-    1. **snc/identity/as** 프로필 매개 변수를 *p:&lt;직접 만든 SAP BW 서비스 사용자&gt;* 로 설정합니다. 예를 들어 *p:BWServiceUser\@MYDOMAIN.COM*으로 설정합니다. CommonCryptoLib를 SNC 라이브러리로 사용할 때는 UPN 앞에 *p:CN=* 이 오는 것과 달리, 서비스 사용자의 UPN 앞에 *p:* 가 옵니다.
+    1. **snc/identity/as** 프로필 매개 변수를 *p:&lt;직접 만든 SAP BW 서비스 사용자&gt;* 로 설정합니다. 예를 들어 *p:BWServiceUser\@MYDOMAIN.COM* 으로 설정합니다. CommonCryptoLib를 SNC 라이브러리로 사용할 때는 UPN 앞에 *p:CN=* 이 오는 것과 달리, 서비스 사용자의 UPN 앞에 *p:* 가 옵니다.
 
     1. **snc/gssapi\_lib** 프로필 매개 변수를 *&lt;BW 서버의 gx64krb5.dll 경로&gt;* 로 설정합니다. SAP BW 애플리케이션 서버가 액세스할 수 있는 위치에 라이브러리를 저장합니다.
 
@@ -107,13 +107,13 @@ gx64krb5를 사용하여 SNC 통신(예: SSO)에 대해 SAP BW 서버를 구성�
 
 1. SAP 로그온을 사용하여 SAP BW 서버에 로그인합니다. 트랜잭션 SU01을 실행합니다.
 
-1. **사용자**에 SSO 연결을 사용하도록 설정할 SAP BW 사용자를 입력합니다. SAP 로그온 창의 왼쪽 위에 있는 **편집** 아이콘(펜 이미지)을 선택합니다.
+1. **사용자** 에 SSO 연결을 사용하도록 설정할 SAP BW 사용자를 입력합니다. SAP 로그온 창의 왼쪽 위에 있는 **편집** 아이콘(펜 이미지)을 선택합니다.
 
     ![SAP BW 사용자 유지 관리 화면](media/service-gateway-sso-kerberos/user-maintenance.png)
 
 1. **SNC** 탭을 선택합니다. SNC 이름 입력란에 *p:&lt;Active Directory 사용자&gt;@&lt;도메인&gt;* 을 입력합니다. SNC 이름의 경우 Active Directory 사용자의 UPN 앞에 *p:* 가 와야 합니다. UPN은 대/소문자를 구분합니다.
 
-   지정하는 Active Directory 사용자는 SAP BW 애플리케이션 서버에 대한 SSO 액세스를 활성화하려는 개인이나 조직에 속해 있어야 합니다. 예를 들어 testuser\@TESTDOMAIN.COM 사용자에 대해 SSO 액세스를 사용하도록 설정하려면 *p:testuser\@TESTDOMAIN.COM*을 입력합니다.
+   지정하는 Active Directory 사용자는 SAP BW 애플리케이션 서버에 대한 SSO 액세스를 활성화하려는 개인이나 조직에 속해 있어야 합니다. 예를 들어 testuser\@TESTDOMAIN.COM 사용자에 대해 SSO 액세스를 사용하도록 설정하려면 *p:testuser\@TESTDOMAIN.COM* 을 입력합니다.
 
     ![SAP BW 유지 관리 사용자 화면](media/service-gateway-sso-kerberos/maintain-users.png)
 
@@ -129,15 +129,15 @@ SSO 액세스를 사용하도록 설정한 Active Directory 사용자로, SSO를
 
 1. SAP 로그온을 시작하고 새 연결을 만듭니다.
 
-1. **새 시스템 항목 만들기** 화면에서 **사용자 지정 시스템**을 선택하고 **다음**을 선택합니다.
+1. **새 시스템 항목 만들기** 화면에서 **사용자 지정 시스템** 을 선택하고 **다음** 을 선택합니다.
 
     ![새 시스템 항목 만들기 화면](media/service-gateway-sso-kerberos/new-system-entry.png)
 
-1. 다음 화면에서 애플리케이션 서버, 인스턴스 번호 및 시스템 ID를 비롯한 적절한 세부 정보를 입력합니다. **마침**을 선택합니다.
+1. 다음 화면에서 애플리케이션 서버, 인스턴스 번호 및 시스템 ID를 비롯한 적절한 세부 정보를 입력합니다. **마침** 을 선택합니다.
 
-1. 새 연결을 마우스 오른쪽 단추로 클릭하고 **속성**을 선택한 다음, **네트워크** 탭을 선택합니다. 
+1. 새 연결을 마우스 오른쪽 단추로 클릭하고 **속성** 을 선택한 다음, **네트워크** 탭을 선택합니다. 
 
-1. **SNC 이름** 상자에 *p:&lt;SAP BW 서비스 사용자의 UPN&gt;* 을 입력합니다. 예를 들어 *p:BWServiceUser\@MYDOMAIN.COM*으로 설정합니다. **확인**을 선택합니다.
+1. **SNC 이름** 상자에 *p:&lt;SAP BW 서비스 사용자의 UPN&gt;* 을 입력합니다. 예를 들어 *p:BWServiceUser\@MYDOMAIN.COM* 으로 설정합니다. **확인** 을 선택합니다.
 
     ![시스템 항목 속성 화면](media/service-gateway-sso-kerberos/system-entry-properties.png)
 
@@ -155,13 +155,13 @@ Power BI Desktop에서 연결하려는 머신 및 게이트웨이가 설치된 �
 
 ## <a name="add-a-new-sap-bw-application-server-data-source-to-the-power-bi-service-or-edit-an-existing-one"></a>Power BI 서비스에 새 SAP BW 애플리케이션 서버 데이터 원본 추가 또는 기존 데이터 원본 편집
 
-1. Power BI Desktop에서 SAP BW 서버에 로그인할 때와 마찬가지로, SAP BW 애플리케이션 서버의 **호스트 이름**, **시스템 번호** 및 **클라이언트 ID**를 데이터 원본 구성 창에 입력합니다.
+1. Power BI Desktop에서 SAP BW 서버에 로그인할 때와 마찬가지로, SAP BW 애플리케이션 서버의 **호스트 이름** , **시스템 번호** 및 **클라이언트 ID** 를 데이터 원본 구성 창에 입력합니다.
 
-1. **SNC 파트너 이름** 필드에 *p:&lt;SAP BW 서비스 사용자에 매핑한 SPN&gt;* 을 입력합니다. 예를 들어 SPN이 SAP/BWServiceUser\@MYDOMAIN.COM인 경우 **SNC 파트너 이름** 필드에 *p:SAP/BWServiceUser\@MYDOMAIN.COM*을 입력합니다.
+1. **SNC 파트너 이름** 필드에 *p:&lt;SAP BW 서비스 사용자에 매핑한 SPN&gt;* 을 입력합니다. 예를 들어 SPN이 SAP/BWServiceUser\@MYDOMAIN.COM인 경우 **SNC 파트너 이름** 필드에 *p:SAP/BWServiceUser\@MYDOMAIN.COM* 을 입력합니다.
 
-1. SNC 라이브러리의 경우 **SNC\_LIB** 또는 **SNC\_LIB\_64**를 선택합니다. 게이트웨이 컴퓨터의 **SNC\_LIB\_64**가 gx64krb5.dll을 가리키는지 확인합니다. 또는 **사용자 지정** 옵션을 선택하고 게이트웨이 머신에 있는 gx64krb5.dll의 절대 경로를 입력할 수 있습니다.
+1. SNC 라이브러리의 경우 **SNC\_LIB** 또는 **SNC\_LIB\_64** 를 선택합니다. 게이트웨이 컴퓨터의 **SNC\_LIB\_64** 가 gx64krb5.dll을 가리키는지 확인합니다. 또는 **사용자 지정** 옵션을 선택하고 게이트웨이 머신에 있는 gx64krb5.dll의 절대 경로를 입력할 수 있습니다.
 
-1. **DirectQuery 쿼리에 Kerberos를 통한 SSO 사용**을 선택한 다음, **적용**을 선택합니다. 테스트 연결이 실패할 경우 이전의 설정 및 구성 단계가 올바르게 완료되었는지 확인합니다.
+1. **DirectQuery 쿼리에 Kerberos를 통한 SSO 사용** 을 선택한 다음, **적용** 을 선택합니다. 테스트 연결이 실패할 경우 이전의 설정 및 구성 단계가 올바르게 완료되었는지 확인합니다.
 
 1. [Power BI 보고서 실행](service-gateway-sso-kerberos.md#run-a-power-bi-report)
 
@@ -185,21 +185,21 @@ Power BI Desktop에서 연결하려는 머신 및 게이트웨이가 설치된 �
 
 ### <a name="troubleshoot-gateway-connectivity-issues"></a>게이트웨이 연결 문제 해결
 
-1. 게이트웨이 로그를 확인합니다. 게이트웨이 구성 애플리케이션을 열고 **진단**, **로그 내보내기**를 차례로 선택합니다. 가장 최근 오류는 검사하는 로그 파일의 끝에 있습니다.
+1. 게이트웨이 로그를 확인합니다. 게이트웨이 구성 애플리케이션을 열고 **진단** , **로그 내보내기** 를 차례로 선택합니다. 가장 최근 오류는 검사하는 로그 파일의 끝에 있습니다.
 
     ![진단이 강조 표시된 온-프레미스 데이터 게이트웨이 애플리케이션](media/service-gateway-sso-kerberos/gateway-diagnostics.png)
 
 1. SAP BW 추적을 켜고 생성된 로그 파일을 살펴봅니다. 사용할 수 있는 SAP BW 추적(예: CPIC 추적)에는 몇 가지 유형이 있습니다.
 
-   a. CPIC 추적을 사용하도록 설정하려면 두 가지 환경 변수 **CPIC\_TRACE** 및 **CPIC\_TRACE\_DIR**을 설정합니다.
+   a. CPIC 추적을 사용하도록 설정하려면 두 가지 환경 변수 **CPIC\_TRACE** 및 **CPIC\_TRACE\_DIR** 을 설정합니다.
 
       첫 번째 변수는 추적 수준을 설정하고, 두 번째 변수는 추적 파일 디렉터리를 설정합니다. 이 디렉터리는 인증된 사용자 그룹의 구성원이 쓸 수 있는 위치여야 합니다. 
  
-    b. **CPIC\_TRACE**를 *3*으로 설정하고, **CPIC\_TRACE\_DIR**을 추적하려는 파일이 기록된 디렉터리로 설정합니다. 예:
+    b. **CPIC\_TRACE** 를 *3* 으로 설정하고, **CPIC\_TRACE\_DIR** 을 추적하려는 파일이 기록된 디렉터리로 설정합니다. 예:
 
       ![CPIC 추적](media/service-gateway-sso-kerberos/cpic-tracing.png)
 
-    c. 문제를 재현하고, **CPIC\_TRACE\_DIR**에 추적 파일이 있는지 확인합니다. 
+    c. 문제를 재현하고, **CPIC\_TRACE\_DIR** 에 추적 파일이 있는지 확인합니다. 
     
     d. 추적 파일의 내용을 검사하여 차단 문제를 확인합니다. 예를 들어 gx64krb5.dll이 제대로 로드되지 않았거나 예상하지 않은 Active Directory 사용자가 SSO 연결 시도를 시작한 것을 확인할 수 있습니다.
 

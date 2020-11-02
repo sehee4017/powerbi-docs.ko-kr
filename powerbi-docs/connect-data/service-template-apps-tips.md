@@ -8,19 +8,19 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: ff1fb59a59f72483bab5ec55c9b2cf9805f83b81
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d23062a5b8fe4a1a68be372865746a1a7d497c26
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860282"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349670"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Power BI에서 템플릿 앱 작성 팁
 
 Power BI에서 [템플릿 앱을 작성](service-template-apps-create.md)할 때, 그 중 일부는 작업 영역 생성, 테스트 및 프로덕션의 계획입니다. 하지만 다른 중요한 부분은 분명히 보고서와 대시보드를 작성하는 것입니다. 작성 프로세스를 네 가지 주요 구성 요소로 나눌 수 있습니다. 이러한 구성 요소로 작업하면 최상의 템플릿 앱을 만들 수 있습니다.
 
-* **쿼리**를 사용하면 데이터를 [연결](desktop-connect-to-data.md) 및 [변환](../transform-model/desktop-query-overview.md)하고 [매개 변수](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/)를 정의할 수 있습니다. 
-* **데이터 모델**에서 [관계](../transform-model/desktop-create-and-manage-relationships.md), [측정값](../transform-model/desktop-measures.md) 및 Q&A 개선 사항을 생성합니다.  
+* **쿼리** 를 사용하면 데이터를 [연결](desktop-connect-to-data.md) 및 [변환](../transform-model/desktop-query-overview.md)하고 [매개 변수](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/)를 정의할 수 있습니다. 
+* **데이터 모델** 에서 [관계](../transform-model/desktop-create-and-manage-relationships.md), [측정값](../transform-model/desktop-measures.md) 및 Q&A 개선 사항을 생성합니다.  
 * **[보고서 페이지](../create-reports/desktop-report-view.md)** 에는 데이터에 대한 인사이트를 제공하는 시각적 개체 및 필터가 포함되어 있습니다.  
 * **[대시보드](../consumer/end-user-dashboards.md)** 및 [타일](../create-reports/service-dashboard-create.md)은 포함된 인사이트에 대한 개요를 제공합니다.
 * 샘플 데이터를 사용하면 설치 후 즉시 앱을 검색할 수 있습니다.
@@ -30,7 +30,7 @@ Power BI에서 [템플릿 앱을 작성](service-template-apps-create.md)할 때
 <a name="queries"></a>
 
 ## <a name="queries"></a>쿼리
-템플릿 앱의 경우 Power BI Desktop에서 개발된 쿼리를 사용하여 데이터 원본에 연결하고 데이터를 가져옵니다. 이러한 쿼리는 일관된 스키마를 반환하는 데 필요하며 예약된 데이터 새로 고침에 대해 지원됩니다(DirectQuery는 지원되지 않음).
+템플릿 앱의 경우 Power BI Desktop에서 개발된 쿼리를 사용하여 데이터 원본에 연결하고 데이터를 가져옵니다. 이러한 쿼리는 일관된 스키마를 반환하는 데 필요하며 예약된 데이터 새로 고침에 대해 지원됩니다.
 
 ### <a name="connect-to-your-api"></a>API에 연결
 시작하려면 Power BI Desktop에서 API에 연결하여 쿼리 작성을 시작해야 합니다.

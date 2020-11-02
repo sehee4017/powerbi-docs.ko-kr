@@ -1,6 +1,6 @@
 ---
 title: Surface Hub 및 Windows 10에서 프레젠테이션 모드 보기 - Power BI
-description: Surface Hub에서 Power BI 보고서를 표시하고 Windows 10 디바이스에서 전체 화면 모드로 Power BI 대시보드, 보고서 및 타일을 표시하는 방법을 알아보세요.
+description: Surface Hub에서 Power BI 보고서를 표시하고 Windows 10 디바이스에서 프레젠테이션 모드로 Power BI 대시보드, 보고서, 타일을 표시하는 방법을 알아보세요.
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
@@ -8,17 +8,17 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: a47af4b96e80508a6ea21de2d8d3e0b40f907d8d
-ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
+ms.openlocfilehash: a982374bbf713d4e0c970da601fdca3249120cbe
+ms.sourcegitcommit: 5fdb45736ca0c8070124279fed4dab1ced8b7b27
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92025936"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92683325"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Surface Hub 및 Windows 10 디바이스에서 프레젠테이션 모드로 보고서 및 대시보드 보기
 프레젠테이션 모드를 사용하여 Windows 10 디바이스 및 Surface Hub에서 보고서와 대시보드를 전체 화면으로 표시할 수 있습니다. 프레젠테이션 모드는 모임이나 회의 또는 사무실의 전용 프로젝터에서 Power BI를 표시하거나 작은 화면 공간을 최대화하는 데 유용합니다.
 
-![전체 화면 모드의 보고서](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode-2.png)
+![프레젠테이션 모드의 보고서 스크린샷](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode-2.png)
 
 프레젠테이션 모드:
 * 모든 "chrome"(예: 탐색 및 메뉴 모음)이 사라져 보고서의 데이터에 더 쉽게 집중할 수 있습니다.
@@ -29,7 +29,7 @@ ms.locfileid: "92025936"
 >**Windows 10 Mobile을 사용하는 휴대폰** 용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="use-presentation-mode"></a>프레젠테이션 모드 사용
-Power BI 모바일 앱에서 **전체 화면** 아이콘을 탭하여 전체 화면 모드로 이동합니다.
+Power BI 모바일 앱에서 **프레젠테이션 모드로 전환** 아이콘을 탭합니다.
 ![전체 화면 아이콘](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png) chrome 앱이 사라지고 작업 도구 모음이 화면 아래쪽 또는 오른쪽과 왼쪽에 표시됩니다(화면 크기에 따라 다름).
 
 [![측면 도구 모음이 있는 전체 화면 모드의 보고서](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode-toolbar.png)](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode-toolbar-expanded.png#lightbox)

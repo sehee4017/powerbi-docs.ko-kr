@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 10/10/2019
+ms.date: 10/22/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 38aee727245cd7a33aefe1ee64a8a5be8b062cd7
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 1879dbd53f08b3dff7dac2f4050be078ed44ead8
+ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859776"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "92502089"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI에서 온-프레미스 데이터 원본으로 SSO에 SAML(Security Assertion Markup Language)을 사용합니다.
 
@@ -26,111 +26,172 @@ SSO를 사용하도록 설정하면 Power BI 보고서 및 대시보드가 온-�
 
 [Kerberos](service-gateway-sso-kerberos.md)(SAP HANA 포함)를 사용하여 추가 데이터 원본이 지원됩니다.
 
-SAP HANA의 경우 SAML SSO 연결을 만들기 전에 암호화를 사용하도록 설정하는 것이 좋습니다. 암호화를 사용하도록 설정하려면 암호화된 연결을 허용하도록 HANA 서버를 구성하고, 암호화를 사용하여 HANA 서버와 통신하도록 게이트웨이를 구성합니다. HANA ODBC 드라이버는 기본적으로 SAML 어설션을 암호화하지 않으므로, 서명된 SAML 어설션이 ‘일반 텍스트로’ 게이트웨이에서 HANA 서버로 전송되며 제3자의 인터셉션 및 재사용에 취약합니다.  OpenSSL 라이브러리를 통해 HANA에 암호화를 사용하도록 설정하는 방법에 대한 지침은 [SAP HANA에 암호화 사용](./desktop-sap-hana-encryption.md)을 참조하세요.
+SAP HANA의 경우 SAML SSO 연결을 만들기 전에 암호화를 사용하도록 설정하는 것이 좋습니다. 암호화를 사용하도록 설정하려면 암호화된 연결을 허용하도록 HANA 서버를 구성하고, 암호화를 사용하여 HANA 서버와 통신하도록 게이트웨이를 구성합니다. HANA ODBC 드라이버는 기본적으로 SAML 어설션을 암호화하지 않으므로, 서명된 SAML 어설션이 ‘일반 텍스트로’ 게이트웨이에서 HANA 서버로 전송되며 제3자의 인터셉션 및 재사용에 취약합니다. 
+
+> [!IMPORTANT]
+> SAP가 OpenSSL을 더 이상 지원하지 않으므로 Microsoft도 지원을 중단했습니다. 기존 연결과 새 연결은 2020년 말까지 계속 제대로 작동하지만 2021년 1월 1일부터는 작동하지 않습니다. 대신 CommonCryptoLib를 사용합니다.
 
 ## <a name="configuring-the-gateway-and-data-source"></a>게이트웨이 및 데이터 원본 구성
 
-SAML을 사용하려면 SSO와 게이트웨이를 사용하도록 설정할 HANA 서버 간에 트러스트 관계를 설정해야 합니다. 이 시나리오에서 게이트웨이는 SAML IdP(ID 공급자) 역할을 합니다. 게이트웨이 IdP의 x509 인증서를 HANA 서버 트러스트 저장소로 가져오거나 HANA 서버에서 신뢰하는 루트 CA(인증 기관)가 서명한 게이트웨이의 X509 인증서를 가져오는 등 이 관계를 설정하는 방법에는 여러 가지가 있습니다. 이 가이드에서는 두 번째 방법을 설명하지만, 더 편리한 경우 다른 방법을 사용해도 됩니다.
+SAML을 사용하려면 SSO와 게이트웨이를 사용하도록 설정할 HANA 서버 간에 트러스트 관계를 설정해야 합니다. 이 시나리오에서 게이트웨이는 SAML IdP(ID 공급자) 역할을 합니다. 다양한 방법으로 이 관계를 설정할 수 있습니다. SAP는 SAP 암호화 라이브러리(CommonCryptoLib 또는 sapcrypto라고도 함)를 사용하여 트러스트 관계를 설정하는 설정 단계를 완료하도록 권장합니다. 자세한 내용은 공식 SAP 설명서를 참조하세요.
 
-이 가이드에서는 HANA 서버의 암호화 공급자로 OpenSSL을 사용하지만, SAP는 OpenSSL 대신 SAP 암호화 라이브러리(CommonCryptoLib 또는 sapcrypto라고도 함)를 사용하여 트러스트 관계를 설정하는 설정 단계를 완료하도록 권장합니다. 자세한 내용은 공식 SAP 설명서를 참조하세요.
+다음 단계에서는 HANA 서버에서 신뢰하는 루트 CA로 게이트웨이 IdP의 X509 인증서에 서명하여 HANA 서버와 게이트웨이 IdP 간의 트러스트 관계를 설정하는 방법을 설명합니다. 
 
-다음 단계에서는 HANA 서버에서 신뢰하는 루트 CA로 게이트웨이 IdP의 X509 인증서에 서명하여 HANA 서버와 게이트웨이 IdP 간의 트러스트 관계를 설정하는 방법을 설명합니다. 다음 루트 CA를 만듭니다.
+### <a name="create-the-certificates"></a>인증서 만들기
 
-1. 루트 CA의 X509 인증서 및 프라이빗 키를 만듭니다. 예를 들어 루트 CA의 X509 인증서 및 프라이빗 키를 .pem 형식으로 만들려면 다음 명령을 입력합니다.
+인증서를 만들려면 다음 단계를 수행합니다.
 
-   ```
-   openssl req -new -x509 -newkey rsa:2048 -days 3650 -sha256 -keyout CA_Key.pem -out CA_Cert.pem -extensions v3_ca
-   ```
-
-    루트 CA의 프라이빗 키가 제대로 보호되는지 확인합니다. 제3자가 이 인증서를 획득할 경우 HANA 서버에 무단으로 액세스하는 데 사용할 수 있습니다. 
-
- 1. HANA 서버에서 사용자가 만든 루트 CA로 서명된 인증서를 신뢰하도록 HANA 서버의 트러스트 저장소에 인증서(예: CA_Cert.pem)를 추가합니다. 
-
-    HANA 서버의 트러스트 저장소 위치는 **ssltruststore** 구성 설정을 검사하여 확인할 수 있습니다. OpenSSL 구성 방법을 설명하는 SAP 설명서의 지침을 따른 경우, HANA 서버에서 사용자가 재사용할 수 있는 루트 CA를 이미 신뢰할 가능성이 큽니다. 자세한 내용은 [How to Configure Open SSL for SAP HANA Studio to SAP HANA Server](https://archive.sap.com/documents/docs/DOC-39571)(SAP HANA Studio-SAP HANA 서버 연결에 대해 Open SSL을 구성하는 방법)를 참조하세요. SAML SSO를 사용하도록 설정할 HANA 서버가 여러 개 있는 경우, 각 서버에서 이 루트 CA를 신뢰하는지 확인합니다.
-
-1. 게이트웨이 IdP의 X509 인증서를 만듭니다. 
-
-   예를 들어 1년간 유효한 인증서 서명 요청(IdP_Req.pem) 및 프라이빗 키(IdP_Key.pem)를 만들려면 다음 명령을 실행합니다.
+1. SAP HANA가 실행되는 디바이스에서 인증서를 저장할 빈 폴더를 만든 다음 해당 폴더로 이동합니다.
+2. 다음 명령을 실행하여 루트 인증서를 만듭니다.
 
    ```
-   openssl req -newkey rsa:2048 -days 365 -sha256 -keyout IdP_Key.pem -out IdP_Req.pem -nodes
+   openssl req -new -x509 -newkey rsa:2048 -days 3650 -sha256 -keyout CA_Key.pem -out CA_Cert.pem -extensions v3_ca'''
    ```
 
- 1. HANA 서버에서 신뢰하도록 구성한 루트 CA를 사용하여 인증서 서명 요청에 서명합니다. 
+    이 인증서를 사용하여 다른 인증서에 서명하려면 암호를 기억해야 합니다.
+    *CA_Cert.pem* 및 *CA_Key.pem* 을 만들어야 합니다.
 
-    예를 들어 CA_Cert.pem 및 CA_Key.pem(루트 CA의 인증서 및 키)을 사용하여 IdP_Req.pem에 서명하려면 다음 명령을 실행합니다.
+   
+3. 다음 명령을 실행하여 IdP 인증서를 만듭니다.
+ 
+    ```
+    openssl req -newkey rsa:2048 -days 365 -sha256 -keyout IdP_Key.pem -out IdP_Req.pem -nodes
+    ```
+    *IdP_Key.pem* 및 *IdP_Req.pem* 을 만들어야 합니다.
+
+4. 루트 인증서를 사용하여 IdP 인증서에 서명합니다.
 
     ```
     openssl x509 -req -days 365 -in IdP_Req.pem -sha256 -extensions usr_cert -CA CA_Cert.pem -CAkey CA_Key.pem -CAcreateserial -out IdP_Cert.pem
     ```
+    *CA_Cert.srl* 및 *IdP_Cert.pem* 을 만들어야 합니다.
+    *IdP_Cert.pem* 에 대해서만 우려합니다.    
 
-     생성된 IdP 인증서는 1년간 유효합니다(-days 옵션 참조). 
+### <a name="create-saml-identity-provider-certificate-mapping"></a>SAML ID 공급자 인증서 매핑 만들기
 
-HANA Studio에서 IdP 인증서를 가져와 새 SAML ID 공급자를 만듭니다.
+다음 단계를 사용하여 SAML ID 공급자 인증서 매핑을 만듭니다.
 
-1. SAP HANA Studio에서 SAP HANA 서버 이름을 마우스 오른쪽 단추로 클릭한 다음, **보안** &gt; **보안 콘솔 열기** &gt; **SAML ID 공급 기업** &gt; **OpenSSL 암호화 라이브러리**로 이동합니다.
+1. **SAP HANA Studio** 에서 SAP HANA 서버 이름을 마우스 오른쪽 단추로 클릭한 다음, **보안 > 보안 콘솔 열기 > SAML ID 공급자** 로 이동합니다.
+2. SAP 암호화 라이브러리를 선택하지 않은 경우 선택합니다. OpenSSL 암호화 라이브러리(다음 이미지의 왼쪽에 있는 선택 항목)가 SAP에서 지원되지 않는 경우 사용하지 ‘마세요’.
 
-    ![ID 공급자](media/service-gateway-sso-saml/identity-providers.png)
+    ![SAP 암호화 라이브러리 선택](media/service-gateway-sso-saml/service-gateway-sso-saml-01.png)
 
-1. **가져오기**를 선택하고 IdP_Cert.pem으로 이동하여 가져옵니다.
+3. 다음 이미지에 표시된 파란색 가져오기 단추를 클릭하여 서명된 인증서 *IdP_Cert.pem* 을 가져옵니다.
 
-1. SAP HANA Studio에서 **보안** 폴더를 선택합니다.
+    ![파란색 가져오기 단추 선택](media/service-gateway-sso-saml/service-gateway-sso-saml-02.png)
 
-    ![보안 폴더](media/service-gateway-sso-saml/security-folder.png)
+*ID 공급자 이름* 에 이름을 할당해야 합니다.
 
-1. **사용자**를 펼친 다음, Power BI 사용자를 매핑할 사용자를 선택합니다.
+### <a name="import-and-create-the-signed-certificates-in-hana"></a>HANA에서 서명된 인증서 가져오기 및 만들기
 
-1. **SAML**을 선택한 다음, **구성**을 선택합니다.
+다음으로, HANA에서 서명된 인증서를 가져오고 만듭니다. 다음 단계를 수행하세요.
 
-    ![SAML 구성](media/service-gateway-sso-saml/configure-saml.png)
+1. **HANA Studio** 에서 다음 쿼리를 실행합니다.
 
-1. 2단계에서 만든 ID 공급자를 선택합니다. **외부 ID**에 Power BI 사용자의 UPN(일반적으로 사용자가 Power BI에 로그인하는 데 사용하는 메일 주소)을 입력하고 **추가**를 선택합니다. *ADUserNameReplacementProperty* 구성 옵션을 사용하도록 게이트웨이를 구성한 경우, Power BI 사용자의 원래 UPN을 대체할 값을 입력합니다. 
+    ```
+    CREATE CERTIFICATE FROM '<idp_cert_pem_certificate_content>'
+    ```
+    
+    예를 들면 다음과 같습니다.
 
-   예를 들어 *ADUserNameReplacementProperty*를 **SAMAccountName**으로 설정하는 경우 사용자의 **SAMAccountName**을 입력해야 합니다.
+    ```
+    CREATE CERTIFICATE FROM
+    '-----BEGIN CERTIFICATE-----
+    MIIDyDCCArCgA...veryLongString...0WkC5deeawTyMje6
+    -----END CERTIFICATE-----
+    '
+    ```
 
-    ![ID 공급자 선택](media/service-gateway-sso-saml/select-identity-provider.png)
+2. PSEwith SAML 용도가 없는 경우 **HANA Studio** 에서 다음 쿼리를 실행 하여 만듭니다.
+    
+    ```
+    CREATE PSE SAMLCOLLECTION;<br>set pse SAMLCOLLECTION purpose SAML;<br>
+    ```
 
-게이트웨이의 인증서와 ID를 구성했으므로, 이제 인증서를 pfx 형식으로 변환하고 인증서를 사용하도록 게이트웨이를 구성합니다.
+3. 다음 명령을 사용하여 새로 만든 서명된 인증서를 PSE에 추가합니다.
 
-1. 다음 명령을 실행하여 인증서를 pfx 형식으로 변환합니다. 이 명령은 생성된 .pfx 파일의 이름을 samlcert.pfx로 지정하고 *root*를 암호로 설정합니다.
+    ```
+    alter pse SAMLCOLLECTION add CERTIFICATE <certificate_id>;
+    ```
+
+    예를 들면 다음과 같습니다.
+    ```
+    alter pse SAMLCOLLECTION add CERTIFICATE 1978320;
+    ```
+
+    다음 쿼리를 사용하여 만든 인증서 목록을 확인할 수 있습니다.
+    ```
+    select * from PUBLIC"."CERTIFICATES"
+    ```
+
+    이제 인증서가 제대로 설치됩니다. 다음 쿼리를 실행하여 확인할 수 있습니다.
+    ```
+    select * from "PUBLIC"."PSE_CERTIFICATES"
+    ```
+
+### <a name="map-the-user"></a>사용자 매핑
+
+사용자를 매핑하려면 다음 단계를 수행합니다.
+
+1. **SAP HANA Studio** 에서 **보안** 폴더를 선택합니다.
+
+    ![보안 폴더 선택](media/service-gateway-sso-saml/service-gateway-sso-saml-03.png)
+
+2. **사용자** 를 확장한 다음, Power BI 사용자를 매핑할 사용자를 선택합니다.
+
+3. **SAML** 확인란을 선택하고 다음 이미지에 강조 표시된 **구성** 를 선택합니다.
+
+    ![SAML 다음 구성 링크 선택](media/service-gateway-sso-saml/service-gateway-sso-saml-04.png)
+
+4. 이 문서의 앞부분에 있는 [SAML ID 공급자 인증서 매핑 만들기](#create-saml-identity-provider-certificate-mapping) 섹션에서 만든 ID 공급자를 선택합니다. 외부 ID에 Power BI 사용자의 UPN(일반적으로 사용자가 Power BI에 로그인하는 데 사용하는 메일 주소)을 입력하고 **추가** 를 선택합니다.  다음 이미지에서는 옵션 및 선택 항목을 보여 줍니다.
+
+    ![SAML ID 구성 창](media/service-gateway-sso-saml/service-gateway-sso-saml-05.png)
+
+    *ADUserNameReplacementProperty* 구성 옵션을 사용하도록 게이트웨이를 구성한 경우, Power BI 사용자의 원래 UPN을 대체할 값을 입력합니다. 예를 들어 *ADUserNameReplacementProperty* 를 *SAMAccountName* 으로 설정하는 경우 사용자의 *SAMAccountName* 을 입력합니다.
+
+### <a name="configure-the-gateway"></a>게이트웨이 구성
+
+게이트웨이의 인증서와 ID를 구성했으므로, 이제 다음 단계를 사용하여 인증서를 pfx 형식으로 변환하고 인증서를 사용하도록 게이트웨이를 구성합니다.
+
+1. 다음 명령을 실행하여 인증서를 pfx 형식으로 변환합니다. 이 명령은 생성된 .pfx 파일의 이름을 samlcert.pfx로 지정하고 *root* 를 암호로 설정합니다.
 
     ```
     openssl pkcs12 -export -out samltest.pfx -in IdP_Cert.pem -inkey IdP_Key.pem -passin pass:root -passout pass:root
     ```
 
-1. 게이트웨이 머신에 pfx 파일을 복사합니다.
+2. 게이트웨이 머신에 pfx 파일을 복사합니다.
 
-    1. samltest.pfx를 두 번 클릭하고 **로컬 머신** &gt; **다음**을 선택합니다.
+    1. *samltest.pfx* 를 두 번 클릭한 다음, **로컬 머신** > **다음** 을 선택합니다.
 
-    1. 암호를 입력한 후 **다음**을 선택합니다.
+    2. 암호를 입력한 후 **다음** 을 선택합니다.
 
-    1. **모든 인증서를 다음 저장소에 저장**을 선택한 다음, **찾아보기** &gt; **개인** &gt; **확인**을 선택합니다.
+    3. **모든 인증서를 다음 저장소에 저장** 을 선택한 다음, **찾아보기** > **개인** > **확인** 을 선택합니다.
 
-    1. **다음**, **마침**을 차례로 선택합니다.
+    4. **다음** , **마침** 을 차례로 선택합니다.
 
-       ![인증서 가져오기](media/service-gateway-sso-saml/import-certificate.png)
+       ![인증서 가져오기](media/service-gateway-sso-saml/service-gateway-sso-saml-06.png)
 
-1. 인증서의 프라이빗 키에 게이트웨이 서비스 계정 액세스 권한을 부여합니다.
+3. 다음 단계를 사용하여 인증서의 프라이빗 키에 게이트웨이 서비스 계정 액세스 권한을 부여합니다.
 
     1. 게이트웨이 머신에서 MMC(Microsoft Management Console)를 실행합니다.
 
         ![MMC 실행](media/service-gateway-sso-saml/run-mmc.png)
 
-    1. **파일**에서 **스냅인 추가/제거**를 선택합니다.
+    2. **파일** 에서 **스냅인 추가/제거** 를 선택합니다.
 
         ![스냅인 추가](media/service-gateway-sso-saml/add-snap-in.png)
 
-    1. **인증서** &gt; **추가**를 선택한 다음, **컴퓨터 계정** &gt; **다음**을 선택합니다.
+    3. **인증서** > **추가** 를 선택한 다음, **컴퓨터 계정** > **다음** 을 선택합니다.
 
-    1. **로컬 컴퓨터** &gt; **마침** &gt; **확인**을 선택합니다.
+    4. **로컬 컴퓨터** > **마침** > **확인** 을 선택합니다.
 
-    1. **인증서** &gt; **개인** &gt; **인증서**를 확장하고 인증서를 찾습니다.
+    5. **인증서** > **개인** > **인증서** 를 확장하고 인증서를 찾습니다.
 
-    1. 인증서를 마우스 오른쪽 단추로 클릭하고 **모든 작업** &gt; **프라이빗 키 관리**로 이동합니다.
+    6. 인증서를 마우스 오른쪽 단추로 클릭하고 **모든 작업** &gt; **프라이빗 키 관리** 로 이동합니다.
 
         ![프라이빗 키 관리](media/service-gateway-sso-saml/manage-private-keys.png)
 
-    1. 게이트웨이 서비스 계정을 목록에 추가합니다. 기본적으로 계정은 **NT SERVICE\PBIEgwService**입니다. **services.msc**를 실행하고 **온-프레미스 데이터 게이트웨이 서비스**를 찾아 게이트웨이 서비스를 실행 중인 계정을 확인할 수 있습니다.
+    1. 게이트웨이 서비스 계정을 목록에 추가합니다. 기본적으로 계정은 **NT SERVICE\PBIEgwService** 입니다. **services.msc** 를 실행하고 **온-프레미스 데이터 게이트웨이 서비스** 를 찾아 게이트웨이 서비스를 실행 중인 계정을 확인할 수 있습니다.
 
         ![게이트웨이 서비스](media/service-gateway-sso-saml/gateway-service.png)
 
@@ -142,17 +203,17 @@ HANA Studio에서 IdP 인증서를 가져와 새 SAML ID 공급자를 만듭니�
     Get-ChildItem -path cert:\LocalMachine\My
     ```
 
-1. 만든 인증서의 지문을 복사합니다.
+2. 만든 인증서의 지문을 복사합니다.
 
-1. 게이트웨이 디렉터리(기본적으로 C:\Program Files\On-premises data gateway임)로 이동합니다.
+3. 게이트웨이 디렉터리(기본적으로 *C:\Program Files\On-premises data gateway* 임)로 이동합니다.
 
-1. PowerBI.DataMovement.Pipeline.GatewayCore.dll.config를 열고 *SapHanaSAMLCertThumbprint* 섹션을 찾습니다. 복사한 지문을 붙여넣습니다.
+4. *PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* 를 열고 *SapHanaSAMLCertThumbprint* 섹션을 찾습니다. 복사한 지문을 붙여넣습니다.
 
-1. 게이트웨이 서비스를 다시 시작합니다.
+5. 게이트웨이 서비스를 다시 시작합니다.
 
 ## <a name="running-a-power-bi-report"></a>Power BI 보고서 실행
 
-이제 Power BI에서 **게이트웨이 관리** 페이지를 사용하여 SAP HANA 데이터 원본을 구성할 수 있습니다. **고급 설정**에서 SAML을 통해 SSO를 사용하도록 설정합니다. 이렇게 하면 해당 데이터 원본에 보고서와 데이터 세트 바인딩을 게시할 수 있습니다.
+이제 Power BI에서 **게이트웨이 관리** 페이지를 사용하여 SAP HANA 데이터 원본을 구성할 수 있습니다. **고급 설정** 에서 SAML을 통해 SSO를 사용하도록 설정합니다. 이렇게 하면 해당 데이터 원본에 보고서와 데이터 세트 바인딩을 게시할 수 있습니다.
 
    ![고급 설정](media/service-gateway-sso-saml/advanced-settings.png)
 
@@ -172,7 +233,7 @@ SAML 기반 SSO를 구성한 후에 Power BI 포털에서 다음과 같은 오�
 
 1. HANA Studio에서 관리 콘솔을 열고 **진단 파일** 탭을 선택합니다.
 
-1. 최신 인덱스 서버 추적을 열고 *SAMLAuthenticator.cpp*를 검색합니다.
+1. 최신 인덱스 서버 추적을 열고 *SAMLAuthenticator.cpp* 를 검색합니다.
 
     근본 원인을 나타내는 자세한 오류 메시지를 찾아야 합니다. 예를 들면 다음과 같습니다.
 
