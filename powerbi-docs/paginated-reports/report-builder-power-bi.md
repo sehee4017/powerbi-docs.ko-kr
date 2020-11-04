@@ -9,16 +9,18 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: f74fb596fb2a080922d0e62a4492ef6c8ccd4e0d
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 6a0a72015a66abc9425dc467703a5044ea0c8116
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216741"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297861"
 ---
 # <a name="power-bi-report-builder"></a>Power BI 보고서 작성기
 
- Power BI Report Builder는 Power BI 서비스에 게시할 수 있는 페이지를 매긴 보고서를 만들기 위한 도구입니다.  페이지를 매긴 보고서를 디자인할 때 검색할 데이터, 가져올 위치 및 표시 방법을 지정하는 보고서 정의를 만듭니다. 보고서를 실행할 때 보고서 처리기는 지정한 보고서 정의를 사용하고, 데이터를 검색하고, 보고서 레이아웃과 결합하여 보고서를 생성합니다. 보고서 작성기에서 보고서를 미리 봅니다. 그런 다음, Power BI 서비스에 보고서를 게시합니다.
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
+
+Power BI Report Builder는 Power BI 서비스에 게시할 수 있는 페이지를 매긴 보고서를 만들기 위한 도구입니다.  페이지를 매긴 보고서를 디자인할 때 검색할 데이터, 가져올 위치 및 표시 방법을 지정하는 보고서 정의를 만듭니다. 보고서를 실행할 때 보고서 처리기는 지정한 보고서 정의를 사용하고, 데이터를 검색하고, 보고서 레이아웃과 결합하여 보고서를 생성합니다. 보고서 작성기에서 보고서를 미리 봅니다. 그런 다음, Power BI 서비스에 보고서를 게시합니다.
  
 작성을 시작할 준비가 되셨나요? Microsoft 다운로드 센터에서 [Power BI Report Builder를 설치](https://aka.ms/pbireportbuilder)합니다.
 
@@ -30,9 +32,9 @@ ms.locfileid: "86216741"
 
 ##  <a name="jump-start-report-creation"></a><a name="JumpStartReptCreation"></a> 빠른 보고서 만들기  
  
--   **테이블, 행렬 또는 차트 마법사를 사용하여 시작**합니다. 데이터 원본 연결을 만들고, 필드를 끌어서 놓아 데이터 세트 쿼리를 만들고, 레이아웃 및 스타일을 선택하고, 보고서를 사용자 지정합니다.  
+-   **테이블, 행렬 또는 차트 마법사를 사용하여 시작** 합니다. 데이터 원본 연결을 만들고, 필드를 끌어서 놓아 데이터 세트 쿼리를 만들고, 레이아웃 및 스타일을 선택하고, 보고서를 사용자 지정합니다.  
   
--   **지도 마법사를 시작**하여 지리적 또는 기하학적 배경에 집계된 데이터를 표시하는 보고서를 만듭니다. 지도 데이터는 Transact-SQL 쿼리 또는 ESRI(Environmental Systems Research Institute, Inc.) 셰이프 파일의 공간 데이터일 수 있습니다. Microsoft Bing 지도 타일 배경을 추가할 수도 있습니다.  
+-   **지도 마법사를 시작** 하여 지리적 또는 기하학적 배경에 집계된 데이터를 표시하는 보고서를 만듭니다. 지도 데이터는 Transact-SQL 쿼리 또는 ESRI(Environmental Systems Research Institute, Inc.) 셰이프 파일의 공간 데이터일 수 있습니다. Microsoft Bing 지도 타일 배경을 추가할 수도 있습니다.  
 
 ##  <a name="design-your-report"></a><a name="DesignRept"></a> 보고서 디자인  
   
@@ -52,7 +54,7 @@ ms.locfileid: "86216741"
   
 ##  <a name="manage-your-report"></a><a name="ManageRpt"></a> 보고서 관리  
   
--   컴퓨터 또는 보고서에 **보고서의 정의를 저장**합니다. 여기서 관리하고 다른 사용자와 공유할 수 있습니다.  
+-   컴퓨터 또는 보고서에 **보고서의 정의를 저장** 합니다. 여기서 관리하고 다른 사용자와 공유할 수 있습니다.  
   
 -   보고서를 열거나 보고서를 연 후 **표시 형식을 선택합니다**. 웹 지향, 페이지 지향 및 데스크톱 애플리케이션 형식을 선택할 수 있습니다. 형식에는 MHTML, PDF, XML, CSV, Word 및 Excel이 포함됩니다.  
   

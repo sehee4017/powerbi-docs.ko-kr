@@ -4,22 +4,22 @@ description: Power BI의 SQL Server Analysis Services 라이브 데이터입니�
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-author: Minewiskan
-ms.author: owend
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: ''
 ms.date: 08/10/2017
 LocalizationGroup: Data from databases
-ms.openlocfilehash: c88c0d56d24f12edf30c2c79ddebb13fa941695a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2c32ceb1db154cd7647402593051e4230c75c07f
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238194"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916754"
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Power BI의 SQL Server Analysis Services 라이브 데이터
 
-Power BI에서는 두 가지 방법으로 라이브 SQL Server Analysis Services 서버에 연결할 수 있습니다. **데이터 가져오기**에서 SQL Server Analysis Services 서버에 연결하거나 이미 Analysis Services 서버에 연결된 [Power BI Desktop 파일](service-desktop-files.md) 또는 [Excel 통합 문서](service-excel-workbook-files.md)에 연결할 수 있습니다. Power BI Desktop 파일의 백업 복사본을 로컬에서 유지 관리하는 다양한 도구 집합 및 기능 때문에 Power BI Desktop을 사용하는 것이 좋습니다.
+Power BI에서는 두 가지 방법으로 라이브 SQL Server Analysis Services 서버에 연결할 수 있습니다. **데이터 가져오기** 에서 SQL Server Analysis Services 서버에 연결하거나 이미 Analysis Services 서버에 연결된 [Power BI Desktop 파일](service-desktop-files.md) 또는 [Excel 통합 문서](service-excel-workbook-files.md)에 연결할 수 있습니다. Power BI Desktop 파일의 백업 복사본을 로컬에서 유지 관리하는 다양한 도구 집합 및 기능 때문에 Power BI Desktop을 사용하는 것이 좋습니다.
 
 >[!IMPORTANT]
 > * 라이브 Analysis Services 서버에 연결하려면 관리자가 온-프레미스 데이터 게이트웨이를 설치하고 구성해야 합니다. 자세한 내용은 [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)를 참조하세요.
@@ -28,15 +28,15 @@ Power BI에서는 두 가지 방법으로 라이브 SQL Server Analysis Services
 
 ## <a name="to-connect-to-a-model-from-get-data"></a>데이터 가져오기에서 모델에 연결하려면
 
-1. **내 작업 영역**에서 **데이터 가져오기**를 선택합니다. 사용 가능한 경우에 그룹 작업 영역으로 변경할 수도 있습니다.
+1. **내 작업 영역** 에서 **데이터 가져오기** 를 선택합니다. 사용 가능한 경우에 그룹 작업 영역으로 변경할 수도 있습니다.
 
    ![연결하여 데이터 가져오기 단추](media/sql-server-analysis-services-tabular-data/connecttoas_getdatabutton.png)
 
-2. **데이터베이스 및 기타**를 선택합니다.
+2. **데이터베이스 및 기타** 를 선택합니다.
 
    ![연결하여 데이터 가져오기 1](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_1.png)
 
-3. **SQL Server Analysis Services** > **연결**을 선택합니다.
+3. **SQL Server Analysis Services** > **연결** 을 선택합니다.
 
    ![연결하여 데이터 가져오기 2](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_2.png)
 
@@ -44,7 +44,7 @@ Power BI에서는 두 가지 방법으로 라이브 SQL Server Analysis Services
 
 5. 연결하려는 모델을 선택합니다. 테이블 형식 또는 다차원일 수 있습니다.
 
-모델에 연결하면 Power BI 사이트의 **내 작업 영역/데이터 세트**에 나타납니다. 그룹 작업 영역으로 전환된 경우 데이터 세트는 그룹 내에 표시됩니다.
+모델에 연결하면 Power BI 사이트의 **내 작업 영역/데이터 세트** 에 나타납니다. 그룹 작업 영역으로 전환된 경우 데이터 세트는 그룹 내에 표시됩니다.
 
 ![데이터 세트에 연결](media/sql-server-analysis-services-tabular-data/connecttoas_dataset_5.png)
 

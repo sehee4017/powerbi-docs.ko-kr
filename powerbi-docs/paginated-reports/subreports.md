@@ -8,16 +8,18 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 04/29/2020
-ms.openlocfilehash: 9da6268e90e3f70797c2cfff19bb1d5c4b633e9a
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: d2cd4e9f5d6cb8872e266fabacb9f8a5a3e318cb
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746588"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93298006"
 ---
 # <a name="subreports-in-power-bi-paginated-reports"></a>Power BI 페이지를 매긴 보고서의 하위 보고서
 
-*하위 보고서*는 페이지를 매긴 주 보고서의 본문 안에 페이지를 매긴 다른 보고서를 표시하는 페이지를 매긴 보고서 항목입니다. 보고서의 하위 보고서는 개념적 측면에서 웹 페이지의 프레임과 유사하며 보고서 내에 다른 보고서를 포함하는 데 사용합니다. 모든 보고서를 하위 보고서로 사용할 수 있습니다. 하위 보고서로 표시되는 보고서를 부모 보고서와 같은 Premium 작업 영역에 저장합니다. 하위 보고서에 부모 보고서가 매개 변수를 전달하도록 디자인할 수 있습니다. 하위 보고서의 각 인스턴스에 데이터 필터링 매개 변수를 사용하여 하위 보고서를 데이터 영역 내에서 반복할 수 있습니다.  
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
+
+*하위 보고서* 는 페이지를 매긴 주 보고서의 본문 안에 페이지를 매긴 다른 보고서를 표시하는 페이지를 매긴 보고서 항목입니다. 보고서의 하위 보고서는 개념적 측면에서 웹 페이지의 프레임과 유사하며 보고서 내에 다른 보고서를 포함하는 데 사용합니다. 모든 보고서를 하위 보고서로 사용할 수 있습니다. 하위 보고서로 표시되는 보고서를 부모 보고서와 같은 Premium 작업 영역에 저장합니다. 하위 보고서에 부모 보고서가 매개 변수를 전달하도록 디자인할 수 있습니다. 하위 보고서의 각 인스턴스에 데이터 필터링 매개 변수를 사용하여 하위 보고서를 데이터 영역 내에서 반복할 수 있습니다.  
   
  ![페이지를 매긴 보고서의 하위 보고서](media/subreports/paginated-report-subreport.png "페이지를 매긴 보고서 하위 보고서")  
   
@@ -27,38 +29,38 @@ Power BI Report Builder에서 페이지가 매겨진 보고서 정의(.rdl) 파�
   
 ## <a name="work-with-report-builder-and-the-power-bi-service"></a>Report Builder 및 Power BI 서비스 사용
 
-Power BI Report Builder는 컴퓨터의 페이지를 매긴 보고서(로컬 보고서라고 함) 또는 Power BI 서비스 보고서에서 사용할 수 있습니다.  Report Builder를 처음으로 열면 Power BI 계정에 로그인하라는 메시지가 표시됩니다. 표시되지 않으면 오른쪽 위 모서리에서 **로그인**을 선택합니다.
+Power BI Report Builder는 컴퓨터의 페이지를 매긴 보고서(로컬 보고서라고 함) 또는 Power BI 서비스 보고서에서 사용할 수 있습니다.  Report Builder를 처음으로 열면 Power BI 계정에 로그인하라는 메시지가 표시됩니다. 표시되지 않으면 오른쪽 위 모서리에서 **로그인** 을 선택합니다.
 
 :::image type="content" source="media/subreports/report-builder-sign-in.png" alt-text="Power BI에 로그인":::
 
 로그인하면 **파일** 메뉴의 **열기** 및 **다른 이름으로 저장** 옵션에 대한 Power BI Report Builder의 **PowerBI 서비스** 옵션이 표시됩니다. **Power BI 서비스** 옵션을 선택하여 보고서를 저장하면 Power BI Report Builder와 Power BI 서비스 간에 라이브 연결이 만들어집니다. 
 
-:::image type="content" source="media/subreports/report-builder-subreport-open-service.png" alt-text="Power BI에 로그인":::
+:::image type="content" source="media/subreports/report-builder-subreport-open-service.png" alt-text="Power BI 서비스에서 열기":::
 
 ## <a name="save-a-local-report-to-the-power-bi-service"></a>Power BI 서비스에 로컬 보고서 저장
 
 주 보고서에 하위 보고서를 추가하려면 먼저 보고서 두 개를 만들고 같은 Power BI Premium 작업 영역에 저장해야 합니다. 
 
-1. 기존 로컬 보고서를 열려면 **파일** 메뉴에서 **열기** > **이 PC**를 선택하고 .rdl 파일을 선택합니다.  
+1. 기존 로컬 보고서를 열려면 **파일** 메뉴에서 **열기** > **이 PC** 를 선택하고 .rdl 파일을 선택합니다.  
 
-2. **파일** 메뉴에서 **다른 이름으로 저장** > **Power BI 서비스**를 선택합니다.  자세한 내용은 [Power BI 서비스에 페이지를 매긴 보고서 게시](paginated-reports-save-to-power-bi-service.md)를 참조하세요.
+2. **파일** 메뉴에서 **다른 이름으로 저장** > **Power BI 서비스** 를 선택합니다.  자세한 내용은 [Power BI 서비스에 페이지를 매긴 보고서 게시](paginated-reports-save-to-power-bi-service.md)를 참조하세요.
 
     > [!NOTE]
     > Power BI 서비스에서 시작하여 보고서를 업로드할 수도 있습니다. 자세한 내용은 [Power BI 서비스에 페이지를 매긴 보고서 게시](paginated-reports-save-to-power-bi-service.md)를 참조하세요.
 
 3. **다른 이름으로 저장** 대화 상자에서 페이지를 매긴 보고서를 저장할 수 있는 Power BI Premium 작업 영역을 선택합니다.  Premium 작업 영역에는 이름 옆에 다이아몬드 아이콘(![Premium 다이아몬드 아이콘](media/subreports/report-builder-premium-diamond.png))이 있습니다.
 
-    :::image type="content" source="media/subreports/report-builder-subreport-save-as-service.png" alt-text="Power BI에 로그인":::
+    :::image type="content" source="media/subreports/report-builder-subreport-save-as-service.png" alt-text="Power BI 서비스에 다른 이름으로 저장":::
 
-4. **저장**을 선택합니다.
+4. **저장** 을 선택합니다.
 
 ## <a name="add-a-subreport-to-a-report"></a>보고서에 하위 보고서 추가
 
 같은 Premium 작업 영역에 보고서를 모두 저장했으므로 다른 보고서를 하위 보고서로 추가할 수 있습니다. 하위 보고서를 추가하는 방법에는 두 가지가 있습니다. 
 
-1. **삽입** 리본에서 **하위 보고서** 단추를 선택하거나 보고서 캔버스를 마우스 오른쪽 단추로 클릭하고 **삽입** > **하위 보고서**를 선택합니다.
+1. **삽입** 리본에서 **하위 보고서** 단추를 선택하거나 보고서 캔버스를 마우스 오른쪽 단추로 클릭하고 **삽입** > **하위 보고서** 를 선택합니다.
 
-    :::image type="content" source="media/subreports/report-builder-insert-subreport.png" alt-text="Power BI에 로그인":::
+    :::image type="content" source="media/subreports/report-builder-insert-subreport.png" alt-text="보고서에 하위 보고서 삽입":::
 
     **하위 보고서 속성** 대화 상자가 열립니다.  
 
@@ -80,7 +82,7 @@ Power BI Report Builder는 컴퓨터의 페이지를 매긴 보고서(로컬 보
 
 Report Builder에서 보고서를 미리 볼 수 있습니다.
 
-- **홈** 리본에서 **실행**을 선택합니다. 
+- **홈** 리본에서 **실행** 을 선택합니다. 
 
 Report Builder는 디자인 도구이므로 보고서 미리 보기가 Power BI 서비스에서 보고서를 렌더링하는 것과 다르게 보일 수 있습니다.
 

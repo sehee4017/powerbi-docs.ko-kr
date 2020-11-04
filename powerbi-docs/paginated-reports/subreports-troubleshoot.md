@@ -8,16 +8,18 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: troubleshooting
 ms.date: 04/29/2020
-ms.openlocfilehash: 6a0e90036b759c409a9f5b3e994571c2a0eb510c
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 06d9b0fc60d9b44f98108cf46bc35c5de15316d6
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747508"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297995"
 ---
 # <a name="troubleshoot-subreports-in-power-bi-paginated-reports"></a>Power BI 페이지를 매긴 보고서의 하위 보고서 문제 해결
 
-페이지를 매긴 보고서에서 하위 보고서를 사용하는 경우 예기치 않은 결과를 얻거나 기능이 예상대로 작동하지 않을 수 있습니다. 이 문서에서는 하위 보고서를 사용할 때 발생하는 일반적인 문제의 솔루션을 제공합니다. *하위 보고서*는 페이지를 매긴 주 보고서의 본문 안에 다른 보고서를 표시하는 보고서 항목입니다. 자세한 배경 정보는 [Power BI 페이지를 매긴 보고서의 하위 보고서](subreports.md)를 참조하세요.
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
+
+페이지를 매긴 보고서에서 하위 보고서를 사용하는 경우 예기치 않은 결과를 얻거나 기능이 예상대로 작동하지 않을 수 있습니다. 이 문서에서는 하위 보고서를 사용할 때 발생하는 일반적인 문제의 솔루션을 제공합니다. *하위 보고서* 는 페이지를 매긴 주 보고서의 본문 안에 다른 보고서를 표시하는 보고서 항목입니다. 자세한 배경 정보는 [Power BI 페이지를 매긴 보고서의 하위 보고서](subreports.md)를 참조하세요.
 
 ## <a name="subreport-couldnt-be-found"></a>하위 보고서를 찾을 수 없음
 

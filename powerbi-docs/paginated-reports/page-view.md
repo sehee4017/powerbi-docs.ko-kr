@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: ''
 ms.topic: how-to
 ms.date: 05/14/2020
-ms.openlocfilehash: 5ed7f3a05be1e600fc67e5162b496309ce315f94
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 41d59f12ad95430e13eb4d856bc1b7d321f7006f
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230969"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297342"
 ---
 # <a name="set-report-views-for-paginated-reports-in-the-power-bi-service"></a>Power BI 서비스에서 페이지를 매긴 보고서의 보고서 뷰 설정
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 Power BI 서비스에서 페이지를 매긴 보고서를 렌더링할 때 기본 보기는 HTML 기반의 대화형 보기입니다. PDF 등의 고정 페이지 형식을 위한 다른 보고서 뷰는 새로운 페이지 보기 옵션입니다.
 
@@ -35,19 +37,19 @@ Power BI 서비스에서 페이지를 매긴 보고서를 렌더링할 때 기�
 
 페이지를 매긴 보고서를 열면 기본적으로 대화형 보기에서 렌더링됩니다. 보고서에 매개 변수가 있는 경우에는 매개 변수를 선택한 다음 보고서를 봅니다.
 
-1. 도구 모음에서 **보기** > **페이지 보기**를 선택합니다.
+1. 도구 모음에서 **보기** > **페이지 보기** 를 선택합니다.
 
     ![페이지 보기로 전환](media/page-view/power-bi-paginated-page-view-dropdown.png)
 
-2. 도구 모음의 **보기** 메뉴에서 **페이지 설정**을 선택하여 페이지 보기의 설정을 변경할 수 있습니다. 
+2. 도구 모음의 **보기** 메뉴에서 **페이지 설정** 을 선택하여 페이지 보기의 설정을 변경할 수 있습니다. 
 
     ![페이지 설정 선택](media/page-view/power-bi-paginated-page-settings-dropdown.png)
     
-    **페이지 설정** 대화 상자에는 페이지 보기의 **페이지 크기** 및 **방향**을 설정하는 옵션이 있습니다. 페이지 설정을 적용한 후에는 나중에 페이지를 인쇄할 때 같은 옵션이 적용됩니다.
+    **페이지 설정** 대화 상자에는 페이지 보기의 **페이지 크기** 및 **방향** 을 설정하는 옵션이 있습니다. 페이지 설정을 적용한 후에는 나중에 페이지를 인쇄할 때 같은 옵션이 적용됩니다.
    
     ![페이지 설정 대화 상자](media/page-view/power-bi-paginated-page-settings-dialog.png)
 
-3. 대화형 보기로 다시 전환하려면 **보기** 드롭다운 상자에서 **기본값**을 선택합니다.
+3. 대화형 보기로 다시 전환하려면 **보기** 드롭다운 상자에서 **기본값** 을 선택합니다.
 
 ## <a name="browser-support"></a>브라우저 지원
 

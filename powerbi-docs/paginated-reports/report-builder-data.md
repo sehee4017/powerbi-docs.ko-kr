@@ -9,14 +9,16 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.custom: seodec18
 ms.date: 08/04/2020
-ms.openlocfilehash: fe6ca733a5498c0e576ec30e6992ffbf26d54319
-ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
+ms.openlocfilehash: 97b93f23c8070af1b514032cea122b257097d664
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87837592"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297935"
 ---
 # <a name="report-data-in-power-bi-report-builder"></a>Power BI 보고서 작성기의 보고서 데이터
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 보고서 데이터는 조직에서 데이터의 여러 원본에서 가져올 수 있습니다. Power BI 보고서 작성기 보고서 디자인의 첫 번째 단계는 기본 보고서 데이터를 나타내는 데이터 원본 및 데이터 세트를 만드는 것입니다. 각 데이터 원본은 데이터 연결 정보를 포함합니다. 각 데이터 세트는 데이터 원본에서 데이터로 사용할 필드 세트를 정의하는 쿼리 명령을 포함합니다. 각 데이터 세트의 데이터를 시각화하려면 테이블, 행렬, 차트 또는 지도와 같은 데이터 영역을 추가합니다. 보고서를 처리하면 데이터 원본에 대한 쿼리가 실행되고 각 데이터 영역이 필요에 따라 확장되어 데이터 세트에 대한 쿼리 결과를 표시합니다.  
 
@@ -25,14 +27,14 @@ ms.locfileid: "87837592"
 
 ##  <a name="terms"></a><a name="BkMk_ReportDataTerms"></a> 용어  
   
-- **데이터 연결** *데이터 원본*이라고도 합니다. 데이터 연결은 연결 형식에 종속된 이름 및 연결 속성을 포함합니다. 기본적으로 데이터 연결은 자격 증명을 포함하지 않습니다. 데이터 연결은 외부 데이터 원본에서 검색할 데이터를 지정하지 않습니다. 이렇게 하려면 데이터 세트를 만들 때 쿼리를 지정합니다.  
+- **데이터 연결** *데이터 원본* 이라고도 합니다. 데이터 연결은 연결 형식에 종속된 이름 및 연결 속성을 포함합니다. 기본적으로 데이터 연결은 자격 증명을 포함하지 않습니다. 데이터 연결은 외부 데이터 원본에서 검색할 데이터를 지정하지 않습니다. 이렇게 하려면 데이터 세트를 만들 때 쿼리를 지정합니다.  
   
 - **연결 문자열.** 연결 문자열은 데이터 원본에 연결하는 데 필요한 연결 속성의 문자열 버전입니다. 연결 속성은 데이터 연결 형식에 따라 다릅니다. 
 
     > [!NOTE]
     > 데이터 원본 연결 문자열은 식 기반일 수 없습니다.
   
-- **포함된 데이터 원본.** *보고서별 데이터 원본*이라고도 합니다. 보고서에서 정의되어 해당 보고서에서만 사용되는 데이터 원본입니다.  
+- **포함된 데이터 원본.** *보고서별 데이터 원본* 이라고도 합니다. 보고서에서 정의되어 해당 보고서에서만 사용되는 데이터 원본입니다.  
   
 - **자격 증명.** 자격 증명은 외부 데이터 액세스를 위해 제공해야 하는 인증 정보입니다.  
   

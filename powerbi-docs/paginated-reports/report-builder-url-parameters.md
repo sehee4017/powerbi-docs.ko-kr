@@ -9,14 +9,16 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 09/09/2020
-ms.openlocfilehash: 7b12f6f6db864fb7b6af4df0d1019dc2eeed2617
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 0816ba6f3ff606a73c835ac71af66655fd49acfd
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747485"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93298069"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Power BI에서 페이지를 매긴 보고서의 URL 매개 변수
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 URL에 매개 변수를 추가하여 Power BI에서 페이지를 매긴 보고서에 명령을 보낼 수 있습니다. 예를 들어, 특정 보고서 매개 변수 값을 사용하여 보고서를 보았을 수 있습니다. 미리 정의된 URL 액세스 매개 변수를 사용하여 이 정보를 URL에 캡슐화합니다. 형식을 렌더링하거나 보고서 도구 모음의 모양과 느낌을 바꾸기 위한 매개 변수를 포함하여 Power BI에서 보고서를 처리하는 방법을 추가로 사용자 지정할 수 있습니다. 그런 다음, 이 URL을 메일이나 웹 페이지에 직접 붙여넣어 다른 사용자의 브라우저에서도 같은 방식으로 보고서를 표시할 수 있습니다. 
 

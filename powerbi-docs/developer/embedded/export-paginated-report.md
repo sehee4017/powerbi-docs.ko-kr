@@ -7,20 +7,20 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 04/05/2020
-ms.openlocfilehash: bb06f5b0a170189c3c98b734a09259645a650c55
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: d0d9472ef767a67b3b75be4c9eb5d6922d9cdf81
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748175"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93045148"
 ---
 # <a name="export-paginated-report-to-file-preview"></a>페이지를 매긴 보고서를 파일로 내보내기(미리 보기)
 
 `exportToFile` API를 사용하면 REST 호출을 통해 Power BI 페이지를 매긴 보고서를 내보낼 수 있습니다. 지원되는 파일 형식은 다음과 같습니다.
-* **.pptx**(PowerPoint)
+* **.pptx** (PowerPoint)
 * **.pdf**
-* **.xlsx**(Excel)
-* **.dox**(Word)
+* **.xlsx** (Excel)
+* **.dox** (Word)
 * **.csv**
 * **.xml**
 * **.mhtml**
@@ -117,7 +117,7 @@ RLS를 사용하여 내보내려면, 보고서에서 데이터 원본으로 사�
       "format": "PDF",
       "paginatedReportConfiguration":{
             "identities": [
-                  {"username": "john@contoso.com"}            
+                  {"username": "john@contoso.com"}
             ]
       }
 }
@@ -153,13 +153,13 @@ private async Task<string> PostExportRequest(
             {"PageHeight", "14in"},
             {"PageWidth", "8.5in" },
             {"StartPage", "1"},
-            {"EndPage", "4"}
+            {"EndPage", "4"},
         },
         ParameterValues = new List<ParameterValue>()
         {
             { new ParameterValue() {Name = "State", Value = "WA"} },
-            { new ParameterValue() {Name = "City", Value = "Redmond"} }
-        }
+            { new ParameterValue() {Name = "City", Value = "Redmond"} },
+        },
     };
 
     var exportRequest = new ExportReportRequest

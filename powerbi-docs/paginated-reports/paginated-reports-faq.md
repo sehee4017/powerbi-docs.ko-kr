@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 10/19/2020
-ms.openlocfilehash: 2a0490106d5954a57abea1dd5de61f26f2fe2377
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 7cba43ff6339ce890ca2f4f1744282648eaf877b
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92257024"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297903"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI의 페이지를 매긴 보고서: FAQ 
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 이 문서에서는 페이지를 매긴 보고서에 대한 질문과 대답을 제공합니다. 이러한 보고서는 인쇄 또는 PDF 생성에 최적화되어 있고 정교하게 형식 지정된 완벽한 픽셀 출력입니다. 이러한 보고서가 “페이지를 매긴” 보고서로 불리는 이유는 여러 페이지에 적합하게 형식 지정되어 있기 때문입니다. 페이지를 매긴 보고서는 SQL Server Reporting Services의 RDL 보고서 기술을 기반으로 합니다. 
 
@@ -181,7 +183,7 @@ Microsoft Excel, Microsoft Word, Microsoft PowerPoint, PDF, .CSV, XML 및 MHTML�
 
 Power BI 서비스에서 페이지가 매겨진 보고서를 볼 때 세션 시간이 초과되어 사용자에게 다음 알림이 표시될 수 있습니다.
 
-:::image type="content" source="media/paginated-reports-faq/expired-session-notification.png" alt-text="페이지를 매긴 보고서 용량 설정 탭":::
+:::image type="content" source="media/paginated-reports-faq/expired-session-notification.png" alt-text="페이지를 매긴 보고서 세션 만료 알림":::
 
 - 세션은 60분 동안 비활성된 후 또는 디바이스가 잠겨 있거나, 비활성화 상태이거나, 보고서가 브라우저의 활성 탭에 보고서가 표시되지 않을 때 시간이 초과됩니다.
 
