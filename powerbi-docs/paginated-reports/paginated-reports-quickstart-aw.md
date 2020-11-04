@@ -8,16 +8,18 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 778ce3c810cb0d59559940f489dfeda34f366fda
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: baccdcae82fb56b2f7f7a9d6cb4839e941e99bf0
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90853980"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297537"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>자습서:  페이지를 매긴 보고서를 만들어 Power BI 서비스에 업로드
 
-이 자습서에서 사용자는 샘플 Azure SQL Database에 연결합니다. 그런 다음 Power BI 보고서 작성기에서 마법사를 사용하여 여러 페이지에 걸쳐 있는 테이블을 사용하여 페이지를 매긴 보고서를 만듭니다. 그런 다음, Power BI 서비스에 있는 프리미엄 용량의 작업 영역에 페이지를 매긴 보고서를 업로드합니다.
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
+
+이 자습서에서는 사용자가 샘플 Azure SQL Database에 연결합니다. 그런 다음 Power BI 보고서 작성기에서 마법사를 사용하여 여러 페이지에 걸쳐 있는 테이블을 사용하여 페이지를 매긴 보고서를 만듭니다. 그런 다음, Power BI 서비스에 있는 프리미엄 용량의 작업 영역에 페이지를 매긴 보고서를 업로드합니다.
 
 ![Power BI 서비스의 페이지를 매긴 보고서](media/paginated-reports-quickstart-aw/power-bi-paginated-report-service.png)
 
@@ -30,13 +32,13 @@ ms.locfileid: "90853980"
 > * 통화 형식을 지정합니다.
 > * Power BI 서비스에 보고서를 업로드합니다.
 
-Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)을 만듭니다.
+Azure 구독이 아직 없는 경우 시작하기 전에 [체험 계정](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)을 만듭니다.
  
-## <a name="prerequisites"></a>필수 조건  
+## <a name="prerequisites"></a>사전 요구 사항  
 
 페이지를 매긴 보고서를 만드는 데 필요한 필수 조건은 다음과 같습니다.
 
-- [Power BI 보고서 작성기는 Microsoft 다운로드 센터에서](https://aka.ms/pbireportbuilder) 설치합니다. 
+- [Power BI 보고서 작성기는 Microsoft 다운로드 센터에서](https://aka.ms/pbireportbuilder) 설치할 수 있습니다. 
 
 - 빠른 시작 [Azure Portal에서 Azure SQL Database 샘플 만들기](/azure/sql-database/sql-database-get-started-portal)를 따릅니다. **개요** 탭에 있는 **서버 이름** 상자의 값을 복사하여 저장합니다. Azure에서 만든 사용자 이름과 암호를 기억하세요.
 
@@ -53,51 +55,51 @@ Power BI 서비스로 페이지를 매긴 보고서를 업로드하는 데 필�
   
      ![보고서 작성기 시작](media/paginated-reports-create-embedded-dataset/power-bi-paginated-get-started.png)
   
-1.  왼쪽 창에서 **새 보고서**가 선택되어 있는지 확인하고, 오른쪽 창에서 **테이블 또는 행렬 마법사**를 선택합니다.  
+1.  왼쪽 창에서 **새 보고서** 가 선택되어 있는지 확인하고, 오른쪽 창에서 **테이블 또는 행렬 마법사** 를 선택합니다.  
   
-4.  **데이터 세트 선택** 페이지에서 **데이터 세트 만들기** > **다음**을 선택합니다.  
+4.  **데이터 세트 선택** 페이지에서 **데이터 세트 만들기** > **다음** 을 선택합니다.  
 
     ![데이터 세트 만들기](media/paginated-reports-quickstart-aw/power-bi-paginated-create-dataset.png)
   
-5.  **데이터 원본에 대한 연결 선택** 페이지에서 **새로 만들기**를 선택합니다. 
+5.  **데이터 원본에 대한 연결 선택** 페이지에서 **새로 만들기** 를 선택합니다. 
 
     ![새 데이터 원본](media/paginated-reports-quickstart-aw/power-bi-paginated-new-data-source-connection.png)
   
      **데이터 원본 속성** 대화 상자가 열립니다.  
   
-6.  문자 및 밑줄을 사용하여 원하는 대로 데이터 원본의 이름을 지정할 수 있습니다. 이 자습서에서는 **이름** 상자에 **MyAzureDataSource**를 입력합니다.  
+6.  문자 및 밑줄을 사용하여 원하는 대로 데이터 원본의 이름을 지정할 수 있습니다. 이 자습서에서는 **이름** 상자에 **MyAzureDataSource** 를 입력합니다.  
   
-7.  **연결 형식 선택** 상자에서 **Microsoft Azure SQL Database**를 선택합니다.  
+7.  **연결 형식 선택** 상자에서 **Microsoft Azure SQL Database** 를 선택합니다.  
   
-8.  **연결 문자열** 상자 옆에 있는 **작성**을 선택합니다. 
+8.  **연결 문자열** 상자 옆에 있는 **작성** 을 선택합니다. 
 
     ![데이터 원본 속성 - 빌드](media/paginated-reports-quickstart-aw/power-bi-paginated-data-source-properties-build.png)
 
-9. **Azure에서:** Azure Portal로 다시 돌아가 **SQL 데이터베이스**를 선택합니다.
+9. **Azure에서:** Azure Portal로 다시 돌아가 **SQL 데이터베이스** 를 선택합니다.
 
 1. 이 문서의 **필수 조건** 섹션에 있는 빠른 시작 “Azure Portal에서 Azure SQL Database 샘플 만들기”에서 만든 Azure SQL Database를 선택합니다.
 
 1. **개요** 탭에서 **서버 이름** 상자에 값을 복사합니다.
 
-2. **보고서 작성기에서**: **연결 속성** 대화 상자의 **서버 이름** 아래에 복사한 서버 이름을 붙여넣습니다. 
+2. **보고서 작성기에서** : **연결 속성** 대화 상자의 **서버 이름** 아래에 복사한 서버 이름을 붙여넣습니다. 
 
-1. **서버에 로그온**하려면 **SQL Server 인증 사용**이 선택되어 있는지 확인하고 Azure에서 샘플 데이터베이스에 대해 만든 사용자 이름과 암호를 입력합니다.
+1. **서버에 로그온** 하려면 **SQL Server 인증 사용** 이 선택되어 있는지 확인하고 Azure에서 샘플 데이터베이스에 대해 만든 사용자 이름과 암호를 입력합니다.
 
 1. **데이터베이스에 연결** 아래에서 드롭다운 화살표를 선택하고 Azure에서 만든 데이터베이스 이름을 선택합니다.
  
     ![데이터 원본 연결 속성](media/paginated-reports-quickstart-aw/power-bi-paginated-connection-properties.png)
 
-1. **연결 테스트**를 선택합니다. **연결 테스트에 성공했습니다.** **테스트 결과** 메시지가 표시됩니다.
+1. **연결 테스트** 를 클릭합니다. **연결 테스트에 성공했습니다.****테스트 결과** 메시지가 표시됩니다.
 
-1. **확인** > **확인**을 선택합니다. 
+1. **확인** > **확인** 을 선택합니다. 
 
    이제 보고서 작성기는 **연결 문자열** 상자에 방금 만든 연결 문자열을 표시합니다. 
 
     ![데이터 원본 연결 문자열](media/paginated-reports-quickstart-aw/power-bi-paginated-data-source-properties-connection-string.png)
 
-1. **확인**을 선택합니다.
+1. **확인** 을 선택합니다.
   
-9. **데이터 원본에 대한 연결 선택** 페이지에 있는 방금 만든 데이터 원본 연결 아래에 “(이 보고서)”가 표시됩니다. 해당 데이터 원본 > **다음**을 선택합니다.  
+9. **데이터 원본에 대한 연결 선택** 페이지에 있는 방금 만든 데이터 원본 연결 아래에 “(이 보고서)”가 표시됩니다. 해당 데이터 원본 > **다음** 을 선택합니다.  
 
     ![내 Azure 데이터 원본](media/paginated-reports-quickstart-aw/power-bi-paginated-my-azure-data-source.png)
 
@@ -105,24 +107,24 @@ Power BI 서비스로 페이지를 매긴 보고서를 업로드하는 데 필�
   
 10. **쿼리 디자인** 페이지에서 SalesLT, 테이블을 차례로 확장하고 다음 테이블을 선택합니다.
 
-    - Address
+    - 주소
     - Customer
     - Product
     - ProductCategory
     - SalesOrderDetail
     - SalesOrderHeader
 
-     **관계** > **자동 검색**이 선택되어 있으므로 보고서 작성기가 해당 테이블 간 관계를 검색합니다. 
+     **관계** > **자동 검색** 이 선택되어 있으므로 보고서 작성기가 해당 테이블 간 관계를 검색합니다. 
     
     ![쿼리 디자인](media/paginated-reports-quickstart-aw/power-bi-paginated-design-query.png)
  
-1.  **쿼리 실행**을 선택합니다. 보고서 작성기가 **쿼리 결과**를 표시합니다. 
+1.  **쿼리 실행** 을 선택합니다. 보고서 작성기가 **쿼리 결과** 를 표시합니다. 
  
      ![쿼리 결과](media/paginated-reports-quickstart-aw/power-bi-paginated-query-results.png)
 
-18. **다음**을 선택합니다. 
+18. **다음** 을 선택합니다. 
 
-19. **데이터 집합 선택** 페이지에서 방금 만든 데이터 세트를 선택하고 > **다음**을 선택합니다.
+19. **데이터 세트 선택** 페이지에서 방금 만든 데이터 세트 > **다음** 을 선택합니다.
 
     ![데이터 세트 선택](media/paginated-reports-quickstart-aw/power-bi-paginated-choose-dataset.png)
 
@@ -135,16 +137,16 @@ Power BI 서비스로 페이지를 매긴 보고서를 업로드하는 데 필�
 1. **사용 가능한 필드** 상자에서 **값** 상자로 다음 필드를 끌어 옵니다.
 
     - OrderQty
-    - UnitPrice
+    - 단가
     - LineTotal
 
     보고서 작성기가 자동으로 **값** 상자에 있는 필드의 합계를 냅니다.
 
     ![필드 정렬](media/paginated-reports-quickstart-aw/power-bi-paginated-drag-fields.png)
 
-24. **레이아웃 선택** 페이지에서 모든 기본 설정을 유지하되 **그룹 확장/축소**는 선택 취소합니다. 일반적으로 그룹 확장/축소 기능은 매우 유용하지만 여기에서는 테이블이 여러 페이지로 래핑되도록 하려고 합니다.
+24. **레이아웃 선택** 페이지에서 모든 기본 설정을 유지하되 **그룹 확장/축소** 는 선택 취소합니다. 일반적으로 그룹 확장/축소 기능은 매우 유용하지만 여기에서는 테이블이 여러 페이지로 래핑되도록 하려고 합니다.
 
-1. **다음** > **마침**을 선택합니다. 테이블이 디자인 화면에 표시됩니다.
+1. **다음** > **마침** 을 선택합니다. 테이블이 디자인 화면에 표시됩니다.
  
 ## <a name="what-youve-created"></a>만든 항목
 
@@ -160,13 +162,13 @@ Power BI 서비스로 페이지를 매긴 보고서를 업로드하는 데 필�
 
     실제 데이터 값은 아직 표시되지 않습니다. 해당 값을 보려면 보고서를 실행해야 합니다.
 
-4. 속성 창에서 선택한 행렬은 Tablix1이라고 합니다. 보고서 작성기의 ‘테이블릭스’는 행과 열로 데이터를 표시하는 데이터 영역입니다.  테이블이거나 행렬입니다.
+4. 속성 창에서 선택한 행렬은 Tablix1이라고 합니다. 보고서 작성기의 ‘테이블릭스’는 행과 열로 데이터를 표시하는 데이터 영역입니다. 테이블이거나 행렬입니다.
 
 5. 그룹화 창에는 마법사에서 만든 다음 세 개의 행 그룹이 표시됩니다. 
 
     - CompanyName
-    - SalesOrderNumber
-    - Product_Name
+    - Sales Order
+    - 제품 이름
 
     이 매트릭스에는 열 그룹이 없습니다.
 
@@ -174,19 +176,19 @@ Power BI 서비스로 페이지를 매긴 보고서를 업로드하는 데 필�
 
 실제 값을 보려면 보고서를 실행해야 합니다.
 
-1. **홈** 도구 모음에서 **실행**을 선택합니다.
+1. **홈** 도구 모음에서 **실행** 을 선택합니다.
 
-   이제 값이 표시됩니다. 행렬에는 디자인 뷰에 표시되는 것보다 훨씬 더 많은 행이 있습니다. 보고서 작성기에 **1**/**2?** 페이지로 표시된 것에 유의하세요. 보고서 작성기는 가능한 한 빠르게 보고서를 로드하므로 소수의 페이지를 표시하는 데 충분한 데이터만 한 번에 검색합니다. 물음표는 보고서 작성기가 아직 일부 데이터를 로드하지 않았음을 나타냅니다.
+   이제 값이 표시됩니다. 행렬에는 디자인 뷰에 표시되는 것보다 훨씬 더 많은 행이 있습니다. 보고서 작성기에 **1** / **2?** 페이지로 표시된 것에 유의하세요. 보고서 작성기는 가능한 한 빠르게 보고서를 로드하므로 소수의 페이지를 표시하는 데 충분한 데이터만 한 번에 검색합니다. 물음표는 보고서 작성기가 아직 일부 데이터를 로드하지 않았음을 나타냅니다.
 
    ![보고서 실행](media/paginated-reports-quickstart-aw/power-bi-paginated-run-report.png)
 
-2. **인쇄 레이아웃**을 선택합니다. 보고서를 인쇄하면 해당 형식이 됩니다. 이제 보고서 작성기는 보고서에 33페이지가 있음을 알고 있으며 바닥글에 날짜 및 시간 스탬프를 자동으로 추가했습니다.
+2. **인쇄 레이아웃** 을 선택합니다. 보고서를 인쇄하면 해당 형식이 됩니다. 이제 보고서 작성기는 보고서에 33페이지가 있음을 알고 있으며 바닥글에 날짜 및 시간 스탬프를 자동으로 추가했습니다.
 
 ## <a name="format-the-report"></a>보고서 형식 지정
 
 이제 33페이지로 래핑된 행렬이 있는 보고서가 있습니다. 몇 가지 다른 기능을 추가하여 보고서 모양을 개선해 보겠습니다. 각 단계를 마칠 때마다 보고서를 실행하여 각 단계가 보고서에 어떻게 적용되었는지 확인할 수 있습니다.
 
-- 리본의 **실행** 탭에서 **디자인**을 선택하여 수정을 계속할 수 있습니다.  
+- 리본의 **실행** 탭에서 **디자인** 을 선택하여 수정을 계속할 수 있습니다.  
 
 ### <a name="set-page-width"></a>페이지 너비 설정
 
@@ -196,17 +198,17 @@ Power BI 서비스로 페이지를 매긴 보고서를 업로드하는 데 필�
 
 1. 디자인 화면 주위의 회색 영역을 클릭하여 **보고서** 속성을 표시합니다.
 
-    속성 창이 표시되지 않으면 **보기** 탭 > **속성**을 클릭합니다.
+    속성 창이 표시되지 않으면 **보기** 탭 > **속성** 을 클릭합니다.
 
-2. **여백**을 확장하고 **왼쪽** 및 **오른쪽**을 1인치에서 0.75인치로 변경합니다. 
+2. **여백** 을 확장하고 **왼쪽** 및 **오른쪽** 을 1인치에서 0.75인치로 변경합니다. 
 
     ![페이지 여백 설정](media/paginated-reports-quickstart-aw/power-bi-paginated-set-margins.png)
   
 ### <a name="add-a-report-title"></a>보고서 제목 추가  
 
-1. 페이지 맨 위에서 **제목을 추가하려면 클릭**을 선택하고 **회사별 판매액**을 입력합니다.  
+1. 페이지 맨 위에서 **제목을 추가하려면 클릭** 을 선택하고 **회사별 판매액** 을 입력합니다.  
 
-2. 제목 텍스트를 선택하고 **글꼴** 아래 속성 창에서 **색**을 **파란색**으로 변경합니다.
+2. 제목 텍스트를 선택하고 **글꼴** 아래 속성 창에서 **색** 을 **파란색** 으로 변경합니다.
   
 ### <a name="add-a-page-number"></a>페이지 번호 추가
 
@@ -214,15 +216,15 @@ Power BI 서비스로 페이지를 매긴 보고서를 업로드하는 데 필�
 
 1. 디자인 화면 아래쪽 바닥글의 오른쪽에 [&ExecutionTime]이 표시되어 있습니다. 
 
-2. 보고서 데이터 창에서 기본 제공 필드 폴더를 확장합니다. **페이지 번호**를 바닥글 왼쪽 [&ExecutionTime]과 같은 높이로 끌어 옵니다.
+2. 보고서 데이터 창에서 기본 제공 필드 폴더를 확장합니다. **페이지 번호** 를 바닥글 왼쪽 [&ExecutionTime]과 같은 높이로 끌어 옵니다.
 
 3. [&PageNumber] 상자 오른쪽을 끌어 정사각형으로 만듭니다.
 
-4. **삽입** 탭에서 **입력란**을 선택합니다
+4. **삽입** 탭에서 **입력란** 을 선택합니다
 
 5. [&PageNumber] 오른쪽을 클릭하고 “/”를 입력한 후 텍스트 상자를 정사각형으로 지정합니다.
 
-6. **전체 페이지 수**를 바닥글 “/” 오른쪽으로 끌어온 후 오른쪽 측면을 끌어 정사각형으로 만듭니다.
+6. **전체 페이지 수** 를 바닥글 “/” 오른쪽으로 끌어온 후 오른쪽 측면을 끌어 정사각형으로 만듭니다.
 
     ![페이지 번호 끌기](media/paginated-reports-quickstart-aw/power-bi-paginated-add-page-numbers.png)
 
@@ -260,23 +262,23 @@ Power BI 서비스로 페이지를 매긴 보고서를 업로드하는 데 필�
 
 Power BI 서비스에 보고서를 게시하기 전에 한 가지 더 형식 지정 사항을 개선하여 열 머리글이 보고서의 각 페이지에 표시되도록 하겠습니다.
 
-1. 그룹화 창 위쪽 막대 맨 오른쪽 끝에서 드롭다운 화살표 > **고급 모드**를 선택합니다.
+1. 그룹화 창 위쪽 막대 맨 오른쪽 끝에서 드롭다운 화살표 > **고급 모드** 를 선택합니다.
 
     ![고급 모드 켜기](media/paginated-reports-quickstart-aw/power-bi-paginated-advanced-mode.png)
 
-2. **행 그룹**에서 맨 위 **정적** 막대를 선택합니다. 행렬에서 회사 이름 셀이 선택되어 있는 것을 알 수 있습니다.
+2. **행 그룹** 에서 맨 위 **정적** 막대를 선택합니다. 행렬에서 회사 이름 셀이 선택되어 있는 것을 알 수 있습니다.
 
    ![정적 그룹 선택](media/paginated-reports-quickstart-aw/power-bi-paginated-static-group.png)
 
-3. **속성** 창에 **테이블릭스 멤버** 속성이 표시되어 있습니다. **KeepWithGroup**을 **After**로 설정하고 **RepeatOnNewPage**를 **True**로 설정합니다.
+3. **속성** 창에 **테이블릭스 멤버** 속성이 표시되어 있습니다. **KeepWithGroup** 을 **After** 로 설정하고 **RepeatOnNewPage** 를 **True** 로 설정합니다.
 
     ![RepeatOnNewPage 설정](media/paginated-reports-quickstart-aw/power-bi-paginated-repeat-on-new-page.png)
 
     이제 보고서를 실행하여 어떻게 표시되는지 확인합니다.
 
-5. **홈** 탭에서 **실행**을 선택합니다.
+5. **홈** 탭에서 **실행** 을 선택합니다.
 
-6. **인쇄 레이아웃**이 아직 선택되어 있지 않은 경우 선택합니다. 이제 보고서는 29페이지로 구성되어 있습니다. 몇 페이지를 스크롤합니다. 통화가 형식 지정되었고, 모든 페이지의 열에 제목이 있고, 보고서의 모든 페이지에 페이지 번호와 날짜 및 시간 스탬프로 된 바닥글이 있는 것을 볼 수 있습니다.
+6. **인쇄 레이아웃** 이 아직 선택되어 있지 않은 경우 선택합니다. 이제 보고서는 29페이지로 구성되어 있습니다. 몇 페이지를 스크롤합니다. 통화가 형식 지정되었고, 모든 페이지의 열에 제목이 있고, 보고서의 모든 페이지에 페이지 번호와 날짜 및 시간 스탬프로 된 바닥글이 있는 것을 볼 수 있습니다.
  
     ![완료된 페이지](media/paginated-reports-quickstart-aw/power-bi-paginated-finished-page.png)
 
@@ -286,27 +288,27 @@ Power BI 서비스에 보고서를 게시하기 전에 한 가지 더 형식 지
 
 페이지를 매긴 보고서를 만들었으므로 이제 Power BI 서비스에 이 보고서를 업로드합니다.
 
-1. Power BI 서비스(`https://app.powerbi.com`)의 탐색 창에서 **작업 영역** > **작업 영역 만들기**를 선택합니다.
+1. Power BI 서비스(`https://app.powerbi.com`)의 탐색 창에서 **작업 영역** > **작업 영역 만들기** 를 선택합니다.
 
 2. 작업 영역 이름을 **Azure AW** 또는 다른 고유한 이름으로 지정합니다. 지금까지는 사용자가 유일한 구성원입니다. 
 
-3. **고급** 옆에 있는 화살표를 선택하고 **전용 용량**을 켭니다. 
+3. **고급** 옆에 있는 화살표를 선택하고 **전용 용량** 을 켭니다. 
 
     ![프리미엄 용량에 작업 영역 만들기](media/paginated-reports-quickstart-aw/power-bi-paginated-create-workspace-premium-capacity.png)
 
     켤 수 없는 경우 전용 프리미엄 용량에 작업 영역을 추가할 수 있는 권한을 부여해 달라고 Power BI 관리자에게 요청해야 합니다.
 
-4. **이 작업 영역에 사용 가능한 전용 용량**을 선택하고 필요한 경우 > **저장**을 선택합니다.
+4. **이 작업 영역에 사용 가능한 전용 용량** 을 선택하고 필요한 경우 > **저장** 을 선택합니다.
     
     ![Premium 다이아몬드 아이콘](media/paginated-reports-quickstart-aw/power-bi-paginated-diamond-icon.png)
 
     작업 영역이 프리미엄 용량에 없는 경우 보고서를 업로드하려고 하면 “페이지를 매긴 보고서를 업로드할 수 없음” 메시지가 표시됩니다. Power BI 관리자에게 문의하여 작업 영역을 이동하세요.
 
-1. 새 작업 영역에서 **데이터 가져오기**를 선택합니다.
+1. 새 작업 영역에서 **데이터 가져오기** 를 선택합니다.
 
-2. **파일** 상자에서 > **가져오기**를 선택합니다.
+2. **파일** 상자에서 > **가져오기** 를 선택합니다.
 
-3. **로컬 파일**을 선택하고 파일을 저장한 위치로 이동하여 > **열기**를 선택합니다.
+3. **로컬 파일** 을 선택하고 파일을 저장한 위치로 이동하여 > **열기** 를 선택합니다.
 
    Power BI가 파일을 가져오면 앱 목록 페이지의 **보고서** 아래에 표시됩니다.
 
@@ -318,7 +320,7 @@ Power BI 서비스에 보고서를 게시하기 전에 한 가지 더 형식 지
 
     ![보고서 관리](media/paginated-reports-quickstart-aw/power-bi-paginated-manage-report.png)
 
-6. **자격 증명 편집**을 선택하고 Azure 데이터베이스를 만들 때 Azure에서 사용한 자격 증명을 입력합니다.
+6. **자격 증명 편집** 을 선택하고 Azure 데이터베이스를 만들 때 Azure에서 사용한 자격 증명을 입력합니다.
 
     ![보고서 자격 증명 편집](media/paginated-reports-quickstart-aw/power-bi-paginated-edit-credentials.png)
 
