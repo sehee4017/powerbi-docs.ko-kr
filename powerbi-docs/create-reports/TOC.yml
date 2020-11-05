@@ -85,6 +85,8 @@
           items:
             - name: Power BI의 보고서 작성기
               href: ../paginated-reports/report-builder-power-bi.md
+            - name: Power BI 페이지를 매긴 보고서 샘플
+              href: ../paginated-reports/paginated-reports-samples.md
             - name: 보고서 디자인 뷰 다루기
               href: ../paginated-reports/paginated-reports-report-design-view.md
             - name: 보고서 계획
