@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: b2638c3fdb483f45b6f4b3f9363f42ee36e57f0b
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: ed8f44e7dd1a7e713a9b2bd75dc33f259cb52f2a
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747761"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916340"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Power BI 임베디드 분석을 사용하여 다중 테넌트 관리
 
@@ -104,7 +104,7 @@ Power BI Embedded는 다중 지역 배포(미리 보기 기능)를 지원합니�
 
 ### <a name="cost"></a>비용
 
-[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)에는 리소스 기반 구매 모델이 있습니다(예: **Power BI Premium**). 컴퓨팅 성능 및 메모리가 고정된 용량을 하나 이상 구매합니다. 이 용량은 **Power BI Embedded**를 사용할 때 발생하는 주요 비용 항목입니다. 용량을 사용하는 사용자 수에는 제한이 없습니다. 유일한 제한은 용량의 성능입니다. [Power BI Pro 라이선스](../../admin/service-admin-licensing-organization.md)는 각 ‘마스터’ 사용자에게 필요하거나 Power BI 포털에 액세스해야 하는 특정 사용자에게 필요합니다. 
+[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)에는 리소스 기반 구매 모델이 있습니다(예: **Power BI Premium** ). 컴퓨팅 성능 및 메모리가 고정된 용량을 하나 이상 구매합니다. 이 용량은 **Power BI Embedded** 를 사용할 때 발생하는 주요 비용 항목입니다. 용량을 사용하는 사용자 수에는 제한이 없습니다. 유일한 제한은 용량의 성능입니다. [Power BI Pro 라이선스](../../admin/service-admin-licensing-organization.md)는 각 ‘마스터’ 사용자에게 필요하거나 Power BI 포털에 액세스해야 하는 특정 사용자에게 필요합니다. 
 
 라이브 환경 및 사용량을 시뮬레이트하고 용량에 대한 부하 테스트를 실행하여 용량의 예상 부하를 테스트하고 측정하는 것이 좋습니다. Azure 용량 또는 [프리미엄 용량 메트릭 앱](../../admin/service-admin-premium-monitor-capacity.md)에서 제공하는 다양한 메트릭을 사용하여 부하와 성능을 측정할 수 있습니다.
 
@@ -246,7 +246,7 @@ Power BI에는 RLS 역할 및 규칙을 수정하거나 만들 수 있는 API가
 
 * 각 용량은 [구매한 SKU](../../admin/service-premium-what-is.md)에 따라 할당된 메모리 및 V 코어만 사용할 수 있습니다.
 * 각 SKU의 권장 데이터 세트 크기는 [프리미엄 대규모 데이터 세트](../../admin/service-premium-what-is.md#large-datasets)를 참조하세요.
-* 전용 용량의 최대 데이터 세트 크기는 10GB입니다.
+* 용량의 최대 데이터 세트 크기는 10GB입니다.
 * 일별 ‘가져오기 모드’ 데이터 세트의 예약된 새로 고침 횟수는 48회입니다. 
 * ‘가져오기 모드’ 데이터 세트의 예약된 새로 고침 간 시간은 30분입니다. 
 * 용량에서 동시에 실행될 수 있는 새로 고침 횟수는 [리소스 관리 및 최적화](../../admin/service-premium-what-is.md#capacity-nodes)를 참조하세요.

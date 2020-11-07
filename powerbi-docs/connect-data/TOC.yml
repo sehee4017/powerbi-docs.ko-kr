@@ -284,7 +284,7 @@
               href: service-gateway-personal-mode.md
             - name: 게이트웨이 데이터 원본 관리
               items:
-                - name: 데이터 원본 관리
+                - name: 게이트웨이 데이터 원본 추가 또는 제거
                   href: service-gateway-data-sources.md
                 - name: 엔터프라이즈 데이터 원본 관리 - Analysis Services
                   href: service-gateway-enterprise-manage-ssas.md

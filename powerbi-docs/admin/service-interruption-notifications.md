@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/25/2020
 ms.author: kfollis
-ms.openlocfilehash: 20fb1f117432d5c36bfe0c536bc0803871134c95
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 8b9c10c8b3faa87cfc19c3c1d8f87a36de0307dd
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91981530"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916133"
 ---
 # <a name="service-interruption-notifications"></a>서비스 중단 알림
 
@@ -21,16 +21,16 @@ ms.locfileid: "91981530"
 
 ![알림 메일 새로 고침](media/service-interruption-notifications/refresh-notification-email.png)
 
-현재 Microsoft는 다음 _안정성 시나리오_에 대한 메일을 보냅니다.
+현재 Microsoft는 다음 _안정성 시나리오_ 에 대한 메일을 보냅니다.
 
 - 보고서 열기 안정성
 - 모델 새로 고침 안정성
 - 쿼리 새로 고침 안정성
 
-보고서 열기, 데이터 세트 새로 고침, 쿼리 실행 등의 작업에 _확장 지연_이 있는 경우 알림이 전송됩니다. 인시던트가 해결되면 후속 메일을 받게 됩니다.
+보고서 열기, 데이터 세트 새로 고침, 쿼리 실행 등의 작업에 _확장 지연_ 이 있는 경우 알림이 전송됩니다. 인시던트가 해결되면 후속 메일을 받게 됩니다.
 
 > [!NOTE]
-> 이 기능은 현재 Power BI Premium의 전용 용량에만 사용할 수 있습니다. 공유 용량이나 포함된 용량에는 사용할 수 없습니다.
+> 이 기능은 현재 Power BI Premium의 용량에만 사용할 수 있습니다. 공유 용량이나 포함된 용량에는 사용할 수 없습니다.
 
 ## <a name="capacity-and-reliability-notifications"></a>용량 및 안정성 알림
 
@@ -59,9 +59,9 @@ Power BI 관리자는 관리 포털에서 알림을 사용하도록 설정합니
 
 1. 알림을 받아야 하는 메일 사용 보안 그룹을 식별하거나 만듭니다.
 
-1. 관리 포털에서 **테넌트 설정**을 선택합니다. **도움말 및 지원 설정**에서 **서비스 중단 또는 인시던트에 대한 메일 알림 받기**를 확장합니다.
+1. 관리 포털에서 **테넌트 설정** 을 선택합니다. **도움말 및 지원 설정** 에서 **서비스 중단 또는 인시던트에 대한 메일 알림 받기** 를 확장합니다.
 
-1. 알림을 사용하도록 설정하고, 보안 그룹을 입력한 다음, **적용**을 선택합니다.
+1. 알림을 사용하도록 설정하고, 보안 그룹을 입력한 다음, **적용** 을 선택합니다.
 
     ![서비스 알림 사용](media/service-interruption-notifications/enable-notifications.png)
 

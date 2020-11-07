@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 86ac6bebf6373f14ac343721a8594ee9f45b0e89
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 85622b457d1c2eda0af51e0c7190d2691c259a82
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746197"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916501"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded에 대한 질문과 대답
 
@@ -117,7 +117,7 @@ Power BI에서는 조직 계정에 등록해야 합니다. Microsoft 계정을 �
 * [Rest API](/rest/api/power-bi-embedded/) 
 * [Powershell cmdlet](/powershell/module/azurerm.powerbiembedded/)
 
-### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded 솔루션에 포함된 PBI Embedded 전용 용량 역할이란?
+### <a name="what-is-the-pbi-embedded-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded 솔루션에 포함된 PBI Embedded 용량 역할이란?
 
 [솔루션 수준을 프로덕션으로 올리려면](embed-sample-for-customers.md#move-to-production) 애플리케이션에서 사용되는 Power BI 콘텐츠(작업 영역)를 Power BI Embedded(SKU) 용량에 할당해야 합니다.
 
@@ -160,7 +160,7 @@ var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAss
 
 ### <a name="what-object-id-is-the-service-principal-object-id"></a>어떤 개체 ID가 서비스 주체 개체 ID인가요?
 
-등록된 앱의 주 화면에 있는 *개체 ID*는 앱에 대한 개체 ID입니다.
+등록된 앱의 주 화면에 있는 *개체 ID* 는 앱에 대한 개체 ID입니다.
 
 *로컬 디렉터리의 관리형 애플리케이션 > 속성* 섹션에 있는 개체 ID가 사용해야 하는 서비스 주체 개체 ID입니다. 이 개체 ID는 작업에 대한 서비스 주체를 참조하거나 서비스 주체 개체 ID를 변경하는 데 사용됩니다. 예를 들면 서비스 주체를 작업 영역에 관리자로 적용하는 경우입니다.
 
@@ -176,7 +176,7 @@ PowerBI.com을 사용하여 Power BI Embedded 용량에 작업 영역을 할당/
 
 ### <a name="what-content-pack-data-types-can-you-embed"></a>어떤 콘텐츠 팩 데이터 형식을 포함할 수 있나요?
 
-콘텐츠 팩 데이터 세트에서 만든 **대시보드** 및 **타일**은 포함할 수 없습니다.  단, 콘텐츠 팩 데이터 세트에서 만든 **보고서**는 포함할 수 있습니다. 
+콘텐츠 팩 데이터 세트에서 만든 **대시보드** 및 **타일** 은 포함할 수 없습니다.  단, 콘텐츠 팩 데이터 세트에서 만든 **보고서** 는 포함할 수 있습니다. 
 
 ### <a name="what-is-the-difference-between-using-row-level-security-rls-vs-javascript-filters"></a>RLS(행 수준 보안)를 사용하는 것과 JavaScript 필터를 사용하는 차이는 무엇인가요?
 
@@ -194,7 +194,7 @@ RLS의 경우 ISV 개발자는 모델 및 포함 토큰 생성의 일부로 데�
 
 서비스 주체는 해당 보안 그룹의 모든 Power BI 테넌트 설정에 대한 사용 권한을 상속받습니다. 사용 권한을 제한하려면 서비스 주체에 대한 전용 보안 그룹을 만들어서, 활성화된 해당 Power BI 설정에 대한 **특정 보안 그룹 제외** 목록에 추가합니다.
 
-이 경우는 서비스 주체를 **관리자**로 새 작업 영역에 추가할 때 중요합니다. 이 작업은 [API](/rest/api/power-bi/groups/addgroupuser) 또는 Power BI 서비스를 통해 관리할 수 있습니다.
+이 경우는 서비스 주체를 **관리자** 로 새 작업 영역에 추가할 때 중요합니다. 이 작업은 [API](/rest/api/power-bi/groups/addgroupuser) 또는 Power BI 서비스를 통해 관리할 수 있습니다.
 
 ### <a name="when-to-use-an-application-id-vs-a-service-principal-object-id"></a>애플리케이션 ID 및 서비스 주체 개체 ID를 사용하는 시기는?
 
@@ -208,7 +208,7 @@ RLS의 경우 ISV 개발자는 모델 및 포함 토큰 생성의 일부로 데�
 
 마스터 계정을 사용하여 게이트웨이를 설치하고, 사용자를 게이트웨이에 추가하고, 데이터 원본에 연결하고, 기타 관리 작업을 수행할 수 있습니다.
 
-서비스 주체를 사용하면 SSAS(SQL Server Analysis Services) 온-프레미스 라이브 연결 데이터 원본을 통해 [RLS(행 수준 보안)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)를 구성할 수 있습니다. 이러한 방식으로 서비스 주체를 사용하여 **Power BI Embedded**와 통합할 때 SSAS에서 사용자와 데이터 액세스를 관리할 수 있습니다.
+서비스 주체를 사용하면 SSAS(SQL Server Analysis Services) 온-프레미스 라이브 연결 데이터 원본을 통해 [RLS(행 수준 보안)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)를 구성할 수 있습니다. 이러한 방식으로 서비스 주체를 사용하여 **Power BI Embedded** 와 통합할 때 SSAS에서 사용자와 데이터 액세스를 관리할 수 있습니다.
 
 ### <a name="can-you-sign-into-the-power-bi-service-with-service-principal"></a>서비스 주체를 사용하여 Power BI 서비스에 로그인할 수 있나요?
 
@@ -270,7 +270,7 @@ Power BI Embedded는 [내셔널 클라우드](embed-sample-for-customers-nationa
 
 ### <a name="what-is-power-bi-workspace-collection"></a>Power BI 작업 영역 컬렉션이란?
 
-**Power BI 작업 영역 컬렉션**( **Power BI Embedded** 버전 1)은 **Power BI 작업 영역 컬렉션** Azure 리소스에 기반한 솔루션입니다. 이 솔루션을 사용하면 애플리케이션을 Power BI에 대해 인증하는 데 **Power BI 작업 영역 컬렉션** 솔루션의 Power BI 콘텐츠, 전용 API 및 작업 영역 컬렉션 키를 사용하는 고객의 **Power BI Embedded** 애플리케이션을 만들 수 있습니다.
+**Power BI 작업 영역 컬렉션** ( **Power BI Embedded** 버전 1)은 **Power BI 작업 영역 컬렉션** Azure 리소스에 기반한 솔루션입니다. 이 솔루션을 사용하면 애플리케이션을 Power BI에 대해 인증하는 데 **Power BI 작업 영역 컬렉션** 솔루션의 Power BI 콘텐츠, 전용 API 및 작업 영역 컬렉션 키를 사용하는 고객의 **Power BI Embedded** 애플리케이션을 만들 수 있습니다.
 
 ### <a name="can-i-migrate-from-power-bi-workspace-collection-to-power-bi-embedded"></a>Power BI 작업 영역 컬렉션에서 Power BI Embedded로 마이그레이션할 수 있나요?
 
@@ -278,10 +278,10 @@ Power BI Embedded는 [내셔널 클라우드](embed-sample-for-customers-nationa
 
 2. Power BI 콘텐츠를 사용하는 **Power BI Embedded** 애플리케이션 POC를 시작합니다.
 
-3. 프로덕션 준비가 되면 **Power BI Embedded** 전용 용량을 구매하고 해당 용량에 Power BI 콘텐츠(작업 영역)를 할당합니다.
+3. 프로덕션 준비가 되면 **Power BI Embedded** 용량을 구매하고 해당 용량에 Power BI 콘텐츠(작업 영역)를 할당합니다.
 
     > [!Note]
-    > **Power BI Embedded** 솔루션과 병렬로 빌드하는 동안 **Power BI 작업 영역 컬렉션**을 계속 사용할 수 있습니다. 준비가 되면 고객을 새 **Power BI Embedded** 솔루션으로 이동하고 **Power BI 작업 영역 컬렉션** 솔루션을 사용 중지할 수 있습니다.
+    > **Power BI Embedded** 솔루션과 병렬로 빌드하는 동안 **Power BI 작업 영역 컬렉션** 을 계속 사용할 수 있습니다. 준비가 되면 고객을 새 **Power BI Embedded** 솔루션으로 이동하고 **Power BI 작업 영역 컬렉션** 솔루션을 사용 중지할 수 있습니다.
 
 자세한 내용은 [Power BI 작업 영역 컬렉션 콘텐츠를 Power BI Embedded로 마이그레이션하는 방법](./migrate-from-powerbi-embedded.md)을 참조하세요.
 
@@ -301,7 +301,7 @@ Power BI Embedded는 [내셔널 클라우드](embed-sample-for-customers-nationa
 
 ### <a name="why-should-i-migrate-from-pbi-workspace-collection-to-power-bi-embedded"></a>PBI 작업 영역 컬렉션에서 Power BI Embedded로 마이그레이션해야 하는 이유는 무엇인가요?
 
-일부 새로운 **Power BI Embedded** 솔루션 기능과 역량은 **Power BI 작업 영역 컬렉션**에서 수행할 수 없습니다.
+일부 새로운 **Power BI Embedded** 솔루션 기능과 역량은 **Power BI 작업 영역 컬렉션** 에서 수행할 수 없습니다.
 
 일부 기능은 다음과 같습니다.
 * PBI 데이터 원본은 모두 지원됩니다. **Power BI 작업 영역 컬렉션** 데이터 원본은 두 가지만 지원됩니다. 
