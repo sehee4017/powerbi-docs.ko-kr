@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 08/04/2020
+ms.date: 10/29/2020
 ms.author: maggies
-ms.openlocfilehash: cedabd613e177aa9a3645e80db38b74d799b8799
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 52d38fd0705a6f9335f0ddd965acb0d9f56d38ee
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861202"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93045077"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI Report Server에서 Power BI 보고서 데이터 원본
 Power BI 보고서는 여러 데이터 원본에 연결할 수 있습니다. 데이터 사용 방법에 따라 다른 데이터 원본을 사용할 수 있습니다. DirectQuery 또는 SQL Server Analysis Services에 대한 라이브 연결을 사용하여 데이터를 가져오거나 데이터를 직접 쿼리할 수 있습니다. 일부 데이터 원본은 Power BI Report Server에 최적화된 Power BI Desktop에서 사용할 수 있지만 Power BI Report Server에 게시된 경우 지원되지 않습니다.
@@ -190,20 +190,22 @@ Power BI Report Server는 모델 새로 고침을 위한 OAuth 기반 인증을 
 
 **Teradata에서 LDAP 인증을 사용하는 것(Power BI Desktop에서 명령 프롬프트 명령 ‘setx PBI_EnableTeradataLdap true’를 사용하여 설정)은 모델 새로 고침에서 지원되지 않습니다.
 
+Power BI Report Server에는 웹 데이터를 사용하는 경우 웹의 데이터 파일만 새로 고칠 수 있다는 제한 사항이 있습니다. 페이지를 기반으로 하는 데이터나 예제별 데이터는 새로 고칠 수 없습니다. 이러한 제한 사항은 Web.BrowserContents 및 Web.Page로 만든 M 식을 새로 고칠 수 없기 때문에 적용되는 것입니다. Power BI Report Server는 Web.Contents 데이터 원본만 새로 고칠 수 있습니다.
+
 ## <a name="list-of-supported-authentication-methods-for-directquery"></a>DirectQuery를 위해 지원되는 인증 방법 목록
 
 Power BI Report Server는 DirectQuery를 위한 OAuth 기반 인증을 지원하지 않습니다.
 
 | **데이터 원본** | **익명 인증** | **키 인증** | **사용자 이름 및 암호** | **Windows 인증** | **Windows 통합 인증** |
 | --- | --- | --- | --- | --- | --- |
-| SQL Server 데이터베이스 |예 |예 |예 |예 |예 |
-| SQL Server Analysis Services |예 |예 |예 |예 |예 |
-| Azure SQL Database |예 |예 |예 |예 |아니요 |
-| Azure SQL Data Warehouse |예 |예 |예 |예 |아니요 |
-| Oracle 데이터베이스 |예 |예 |예 |예 |예 |
-| SAP Business Warehouse 서버 |예 |예 |예 |예 |아니요 |
-| SAP HANA 데이터베이스 |예 |예 |예 |예 |예** |
-| Teradata |예 |예 |예 |예 |예 |
+| SQL Server 데이터베이스 |예 |아니요 |예 |예 |예 |
+| SQL Server Analysis Services |예 |아니요 |예 |예 |예 |
+| Azure SQL Database |아니요 |아니요 |예 |예 |아니요 |
+| Azure SQL Data Warehouse |아니요 |아니요 |예 |예 |아니요 |
+| Oracle 데이터베이스 |예 |아니요 |예 |예 |예 |
+| SAP Business Warehouse 서버 |아니요 |아니요 |예 |예 |아니요 |
+| SAP HANA 데이터베이스 |예 |아니요 |예 |예 |예** |
+| Teradata |예 |아니요 |예 |예 |예 |
 
 **SAP HANA는 게시된 Power BI Desktop 파일(.pbix)에서 관계형 데이터베이스로 사용하는 경우에만 Windows 통합 인증을 사용하여 DirectQuery를 지원합니다.
 

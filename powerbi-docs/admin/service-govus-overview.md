@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/23/2020
+ms.date: 10/30/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 45d89fe7a224d56e710765e533a7c075c24b8a66
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: fe4f9c54b45035cc22f2e582a75ba98d648c549d
+ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91981507"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132370"
 ---
 # <a name="power-bi-for-us-government-customers"></a>미국 정부 기관 고객용 Power BI
 
@@ -126,11 +126,11 @@ SQL 데이터베이스에 대한 방화벽을 설정하려면 [IP 방화벽 규�
 |[대형 모델](service-premium-large-models.md) | 2020 Q4 |2020 Q4| ![사용할 수 없음](../media/no.png) |
 |[데이터 흐름 - SQL 컴퓨팅 엔진 최적화](../transform-model/service-dataflows-enhanced-compute-engine.md) | 2020 Q4 |2020 Q4| ![사용할 수 없음](../media/no.png) |
 |[데이터 흐름 - 직접 쿼리](../transform-model/service-dataflows-directquery.md) | 2020 Q4 |2020 Q4|![사용할 수 없음](../media/no.png)|
-|[서비스 중단 알림](service-premium-large-models.md)|2020 Q4 |2020 Q4|2020 Q4|
 |[데이터 보호(MIP 레이블)](service-security-sensitivity-label-overview.md)|2020 Q4|2020 Q4 |2020 Q4|
 |[템플릿 앱](../connect-data/service-template-apps-overview.md)<sup>3</sup>|2020 Q4 |2020 Q4| 2020 Q4|
 |[사용자 지정 시각적 개체](../developer/visuals/power-bi-custom-visuals.md)<sup>3</sup>|2020 Q4 |2020 Q4| 2020 Q4|
 |[통화 품질 데이터 커넥터](/microsoftteams/cqd-power-bi-connector)|![사용할 수 없음](../media/no.png)|![사용할 수 없음](../media/no.png)|![사용할 수 없음](../media/no.png)|
+|[Bring Your Own Storage(Azure Data Lake Gen 2)](../transform-model/dataflows/dataflows-azure-data-lake-storage-integration.md)|![사용할 수 없음](../media/no.png)|![사용할 수 없음](../media/no.png)|![사용할 수 없음](../media/no.png)|
 |[QR 코드 생성](../create-reports/service-create-qr-code-for-tile.md)|![사용할 수 없음](../media/no.png)|![사용할 수 없음](../media/no.png)|![사용할 수 없음](../media/no.png)|
 
 <sup>1</sup> B2B Collaboration을 GCC에 사용할 수 있지만 외부 사용자는 해당 환경에서 라이선스를 발급받아야 합니다. 상업용 클라우드 라이선스는 GCC에서 유효하지 않습니다. 미국 정부용 B2B Collaboration의 알려진 제한 사항에 관한 자세한 내용은 [Azure Government 및 글로벌 Azure 비교](/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2)를 참조하세요.

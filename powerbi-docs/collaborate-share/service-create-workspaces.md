@@ -1,24 +1,24 @@
 ---
 title: Power BI에서 클래식 작업 영역 만들기
-description: 작업 영역과 조직에 대한 주요 메트릭을 제공하도록 빌드된 대시보드, 보고서 및 페이지를 매긴 보고서 컬렉션을 만드는 방법을 알아봅니다.
+description: 조직에 대한 주요 메트릭을 제공하도록 빌드된 대시보드, 보고서 및 페이지를 매긴 보고서 컬렉션과 클래식 작업 영역을 만드는 방법을 알아봅니다.
 author: maggiesMSFT
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/07/2020
+ms.date: 10/29/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 44d4c24edbb6ebece8b07ed9fb99261f7f1f0408
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5a5aced331ff8f66fdd0cb58fd7625a68acf9331
+ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226512"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132393"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>Power BI에서 클래식 작업 영역 만들기
 
-Power BI에서 대시보드, 보고서 및 페이지를 매긴 보고서 컬렉션을 만들고 구체화하기 위해 동료와 협업하는 공간인 ‘작업 영역’을 만들 수 있습니다. 그런 다음, 컬렉션을 전체 조직 또는 특정 사용자나 그룹에 배포할 수 있는 ‘앱’으로 묶을 수 있습니다. 
+Power BI에서 대시보드, 보고서 및 페이지를 매긴 보고서 컬렉션을 만들고 구체화하기 위해 동료와 협업하는 공간인 ‘작업 영역’을 만들 수 있습니다. Power BI에는 원본 또는 ‘클래식’ 작업 영역과 새 작업 영역이 있습니다. 이 문서에서는 클래식 작업 영역 만들기에 대해 설명합니다.
 
 **알고 계십니까?** Power BI는 현재 기본값인 새 작업 영역 환경을 제공합니다. 새 작업 영역에 대한 자세한 내용은 [새 작업 영역에서 작업 구성](service-new-workspaces.md)을 참조하세요. 클래식 작업 영역을 마이그레이션할 준비가 되셨나요? 자세한 내용은 [Power BI에서 클래식 작업 영역을 새 작업 영역으로 업그레이드](service-upgrade-workspaces.md)를 참조하세요.
 
@@ -38,7 +38,7 @@ Power BI에서 대시보드, 보고서 및 페이지를 매긴 보고서 컬렉�
 ### <a name="add-an-image-to-your-microsoft-365-workspace-optional"></a>Microsoft 365 작업 영역에 이미지 추가(선택 사항)
 기본적으로 Power BI는 해당 앱에 앱의 이니셜이 포함된 작은 컬러 원을 만듭니다. 하지만 이미지로 사용자 지정할 수도 있습니다. 이미지를 추가하려면 Exchange Online 라이선스가 필요합니다.
 
-1. **작업 영역**을 선택하고 작업 영역 이름 옆에 있는 **추가 옵션**(...)을 선택한 다음, **구성원**을 선택합니다. 
+1. **작업 영역** 을 선택하고 작업 영역 이름 옆에 있는 **추가 옵션** (...)을 선택한 다음, **구성원** 을 선택합니다. 
    
      ![작업 영역 구성원 선택](media/service-create-workspaces/power-bi-workspace-old-members.png)
    
@@ -52,7 +52,7 @@ Power BI에서 대시보드, 보고서 및 페이지를 매긴 보고서 컬렉�
 
      이미지는 .png, .jpg 또는 .bmp 파일일 수 있습니다. 파일 크기는 최대 3MB일 수 있습니다. 
 
-4. **확인**과 **저장**을 차례로 선택합니다.
+4. **확인** 과 **저장** 을 차례로 선택합니다.
    
     이미지는 Microsoft 365 Outlook 창에서 색상이 있는 원을 대체합니다.
    

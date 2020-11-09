@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/07/2020
 ms.author: davidi
-ms.openlocfilehash: 918b9a98d66a1c739421433d35f593dc74d19773
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: ae6047950256a783172ef871c2bd58dc15ff033a
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91981484"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297598"
 ---
 # <a name="power-bi-data-sources"></a>Power BI 데이터 원본
 
@@ -64,9 +64,10 @@ ms.locfileid: "91981484"
 | Google 웹로그 분석 | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
 | Google BigQuery | 예 | 예 | 예 | 아니요 | 아니요 | 예 |
 | HDFS(Hadoop 파일) | 예 | 아니요 | 아니요 | 아니요 | 아니요 | 아니요 |
+| Hive LLAP | 예 | 예 | 예 | 예 | 아니요 | 아니요 |
 | HDInsight 대화형 쿼리 | 예 | 예 | 예 | 아니요 | 아니요 | 아니요 |
 | IBM DB2 | 예 | 예 | 예 | 예 | 아니요 | 예 |
-| IBM Informix 데이터베이스 | 예 | 예 | 아니요 | 예 | 아니요 | 아니요 |
+| IBM Informix 데이터베이스 | 예 | 예 | 아니요 | 예 | 아니요 | 예 |
 | IBM Netezza | 예 | 예 | 예 | 예 | 예 | 예 |
 | Impala | 예 | 예 | 예 | 예 | 예 | 예 |
 | Indexima | 예 | 예 | 예 | 예 | 예 | 아니요 |

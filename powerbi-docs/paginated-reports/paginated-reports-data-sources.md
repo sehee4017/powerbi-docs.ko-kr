@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/27/2020
-ms.openlocfilehash: f433a90580034495b4f7b1f6201c4481ffc627c5
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d6f436477a8226dec870d039c8fe10491456a325
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859868"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93298194"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI 페이지를 매긴 보고서의 지원되는 데이터 원본
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 이 문서에서는 Power BI 서비스의 페이지를 매긴 보고서에서 지원되는 데이터 원본 및 Azure SQL Database 데이터 원본에 연결하는 방법을 자세히 설명합니다. 일부 데이터 원본은 기본적으로 지원됩니다. 데이터 게이트웨이를 통해 다른 데이터 원본에 연결할 수 있습니다.
 
@@ -53,7 +55,7 @@ Azure SQL Database 데이터 원본의 경우 보고서를 실행하기 전에 �
 
 ![Power BI에 게시하는 중](media/paginated-reports-data-sources/power-bi-paginated-publishing.png)
 
-자격 증명을 제공하지 않으면 보고서를 실행할 때 오류가 발생합니다. **계속**을 선택하여 방금 업로드한 보고서에 대한 **데이터 원본 자격 증명** 페이지로 이동합니다.
+자격 증명을 제공하지 않으면 보고서를 실행할 때 오류가 발생합니다. **계속** 을 선택하여 방금 업로드한 보고서에 대한 **데이터 원본 자격 증명** 페이지로 이동합니다.
 
 ![Azure SQL Database 설정](media/paginated-reports-data-sources/power-bi-paginated-settings-azure-sql.png)
 
@@ -65,9 +67,9 @@ Azure SQL Database 데이터 원본의 경우 지원되는 인증 형식은 다�
 
 - 기본(사용자 이름 및 암호)
 - SSO(Single Sign-On)
-- OAuth2(저장된 AAD 토큰)
+- OAuth2(저장된 Azure Active Directory 토큰)
 
-SSO 및 OAuth2가 제대로 작동하려면 데이터 원본이 연결된 Azure SQL Database 서버에서 [AAD 인증 지원을 사용하도록 설정](/azure/sql-database/sql-database-aad-authentication-configure)해야 합니다. OAuth2 인증 방법의 경우 AAD는 토큰을 생성하고 향후 데이터 원본 액세스를 위해 저장합니다. [SSO 인증 방법](../connect-data/service-azure-sql-database-with-direct-connect.md#single-sign-on)을 대신 사용하려면 바로 아래에서 SSO 옵션인 **최종 사용자가 DirectQuery를 통해 이 데이터 원본에 액세스할 때 자신의 OAuth2 자격 증명을 사용합니다.** 를 선택합니다.
+SSO 및 OAuth2가 제대로 작동하려면 데이터 원본이 연결된 Azure SQL Database 서버에서 [Azure Active Directory 인증 지원을 사용하도록 설정](/azure/sql-database/sql-database-aad-authentication-configure)해야 합니다. OAuth2 인증 방법에서 Azure Active Directory는 토큰을 생성하고 향후 데이터 원본 액세스를 위해 저장합니다. [SSO 인증 방법](../connect-data/service-azure-sql-database-with-direct-connect.md#single-sign-on)을 대신 사용하려면 바로 아래에서 SSO 옵션인 **최종 사용자가 DirectQuery를 통해 이 데이터 원본에 액세스할 때 자신의 OAuth2 자격 증명을 사용합니다.** 를 선택합니다.
   
 ## <a name="next-steps"></a>다음 단계
 

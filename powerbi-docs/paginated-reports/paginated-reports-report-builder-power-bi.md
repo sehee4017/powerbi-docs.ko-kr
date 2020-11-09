@@ -8,17 +8,26 @@ featuredvideoid: jXTiYJKw1Rs
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 05/19/2020
-ms.openlocfilehash: 16fcc18492b371accaaf3c447d7a88978051f8c3
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 10/16/2020
+ms.openlocfilehash: 2c136f4d81a9cb1c1904c3a06b58271391c76c23
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859661"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297760"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Power BI Premium의 페이지를 매긴 보고서란?
 
-페이지를 매긴 보고서는 인쇄 또는 공유하도록 디자인된 보고서입니다. 이러한 보고서가 페이지를 매긴 보고서로 불리는 이유는 페이지에 적합하게 형식 지정되어 있기 때문입니다. 이러한 보고서에는 테이블이 여러 페이지에 걸쳐 있는 경우에도 테이블의 모든 데이터가 표시됩니다. 보고서 페이지 레이아웃을 정확하게 제어할 수 있기 때문에 *pixel perfect*라고도 합니다. Power BI Report Builder는 페이지를 매긴 보고서를 작성하기 위한 독립 실행형 도구입니다. 페이지를 매긴 보고서는 SQL Server Reporting Services의 표준 보고서 형식인 RDL 보고서 기술을 기반으로 합니다. 
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
+
+페이지를 매긴 보고서는 인쇄 또는 공유하도록 디자인된 보고서입니다. 이러한 보고서가 페이지를 매긴 보고서로 불리는 이유는 페이지에 적합하게 형식 지정되어 있기 때문입니다. 이러한 보고서에는 테이블이 여러 페이지에 걸쳐 있는 경우에도 테이블의 모든 데이터가 표시됩니다. 보고서 페이지 레이아웃을 정확하게 제어할 수 있기 때문에 *pixel perfect* 라고도 합니다. Power BI Report Builder는 Power BI 서비스를 위해 페이지를 매긴 보고서를 작성하기 위한 독립 실행형 도구입니다. 
+
+다음은 시작할 준비가 된 경우 유용한 몇 가지 빠른 링크입니다.
+
+- [Microsoft 다운로드 센터에서 Power BI 보고서 작성기 설치](https://aka.ms/pbireportbuilder)
+- [자습서: 페이지를 매긴 보고서 만들기](paginated-reports-quickstart-aw.md)
+- [Power BI 페이지를 매긴 보고서 샘플](paginated-reports-samples.md)
+- Power BI Report Server용 Report Builder 또는 SQL Server Reporting Services에 대한 정보를 찾고 있나요? [Report Builder 설치 - Power BI Report Server](../report-server/install-report-builder.md)를 참조하세요.
 
 페이지를 매긴 보고서에는 흔히 여러 페이지가 있습니다. 예를 들어 이 보고서에는 563페이지가 있습니다. 각 페이지는 청구서당 한 페이지가 정확하게 배치되고 머리글과 바닥글이 반복됩니다.
 
@@ -98,5 +107,6 @@ Report Builder에서 보고서를 미리 본 후 Power BI 서비스, app.powerbi
 - [Microsoft 다운로드 센터에서 Power BI 보고서 작성기 설치](https://aka.ms/pbireportbuilder)
 - [자습서: 페이지를 매긴 보고서 만들기](paginated-reports-quickstart-aw.md)
 - [온라인 과정: Power BI 페이지를 매긴 보고서 하루에 끝내기](../learning-catalog/paginated-reports-online-course.md)
+- [Power BI 페이지를 매긴 보고서 샘플](paginated-reports-samples.md)
 - [페이지를 매긴 보고서에 직접 데이터 입력](paginated-reports-enter-data.md)
 - [자습서: 고객을 위해 애플리케이션에 페이지를 매긴 Power BI 보고서 포함](../developer/embedded/embed-paginated-reports-customers.md)

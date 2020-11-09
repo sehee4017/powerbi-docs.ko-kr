@@ -6,17 +6,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/19/2020
+ms.date: 10/30/2020
 ms.author: kfollis
 ms.custom: MC
 ROBOTS: NOINDEX
 LocalizationGroup: Admin
-ms.openlocfilehash: 19933ccbf18003e293e823c2b1f201e953c7bde0
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 68cd001995603fec3a64e4b2c79ee2216bfe9ac0
+ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854785"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132301"
 ---
 # <a name="power-bi-planned-maintenance"></a>Power BI 계획된 유지 관리
 
@@ -38,8 +38,14 @@ Power BI 서비스에 대한 계획된 유지 관리는 고객에게 신뢰할 �
 * 로컬에서 또는 OneDrive 및 SharePoint 위치에서 조직의 시각적 개체를 사용하는 보고서를 편집하거나 게시한 고객은 조직 시각적 개체 저장소를 통해 시각적 개체를 다시 가져오거나 업데이트된 PBIX를 다운로드한 후 다시 게시해야 합니다. 조직 시각적 개체에 대한 자세한 내용은 [조직 시각적 개체](organizational-visuals.md)를 참조하세요.
 * Excel에서 분석 기능을 사용하는 Excel 통합 문서가 새로 고쳐지지 않는 경우 연결 문자열을 업데이트하거나 해당 데이터 세트에 대한 ODC 연결을 다시 다운로드해야 할 수 있습니다. 자세한 내용은 [Excel에서 분석](../collaborate-share/service-analyze-in-excel.md#connect-to-power-bi-data)을 참조하세요.
 * 유지 관리가 완료되면 콘텐츠에 포함된 Power BI에 대한 링크가 연결되지 않을 수 있습니다. 예를 들어 SharePoint 또는 Teams의 포함된 링크를 사용하면 사용자 오류가 발생할 수 있습니다. 이 문제를 해결하려면 Power BI에서 포함된 링크를 다시 생성한 다음 해당 링크를 사용하는 위치를 업데이트해야 합니다. 포함된 링크에 대한 자세한 내용은 [SharePoint Online에 보고서 웹 파트 포함](../collaborate-share/service-embed-report-spo.md) 및 [Power BI를 사용하여 Microsoft Teams에서 협업](../collaborate-share/service-collaborate-microsoft-teams.md)을 참조하십시오.
+* 유지 관리 전에 수집된 일부 사용량 현황 데이터는 유지 관리가 완료된 후에 사용할 수 없습니다. 이러한 사용량 현황 데이터는 다음과 같습니다.
+
+  * [Power BI 활동 로그](service-admin-auditing.md#use-the-activity-log). 사용자는 유지 관리 전에 활동 로그를 다운로드해야 합니다. [Office 365 감사 로그 데이터](service-admin-auditing.md#access-your-audit-logs)를 사용하여 동일한 활동 세부 정보를 가져올 수도 있습니다.
+  * [계보 보기](../collaborate-share/service-data-lineage.md#explore-lineage-view)의 보기 수
+  * [데이터 보호 메트릭 보고서](service-security-data-protection-metrics-report.md)
+  * [사용 현황 메트릭(미리 보기)](../collaborate-share/service-modern-usage-metrics.md)
 
 ## <a name="next-steps"></a>다음 단계
 
 * [서비스 중단 알림 사용](service-interruption-notifications.md)
-* [메시지 센터에서 예정된 변경 내용 추적](/microsoft-365/admin/manage/message-center?view=o365-worldwide)
+* [메시지 센터에서 예정된 변경 내용 추적](/microsoft-365/admin/manage/message-center)

@@ -7,22 +7,24 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
-ms.date: 08/07/2019
+ms.date: 10/30/2020
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: cf79a5ecf4d98595a033733824a41002a7cd38e0
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 805b7805d932468e973805d9496a5b25d4391fdd
+ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860558"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132623"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>자습서:  Power BI를 사용하여 GitHub 리포지토리에 연결
-이 자습서에서는 Power BI를 사용하여 GitHub 서비스의 실제 데이터에 연결하고, Power BI는 대시보드와 보고서를 자동으로 만듭니다. ower BI 콘텐츠 공용 저장소(*리포지토리*라고도 하는)에 연결하여 다음과 같은 질문에 대한 답변을 볼 수 있습니다:  얼마나 많은 사람들이 Power BI 공개 콘텐츠에 기여하나요?  가장 많이 기여하는 사람은 누구인가요? 어떤 요일에 기여가 가장 많은가요? 그리고 기타 질문들이 있습니다. 
+이 자습서에서는 GitHub 서비스의 Power BI 콘텐츠 퍼블릭 리포지토리와 같은 실제 데이터에 연결합니다. Power BI는 이 데이터를 사용하여 대시보드와 보고서를 자동으로 만듭니다. 다음과 같은 질문에 대한 대답을 확인할 수 있습니다. 얼마나 많은 사람들이 Power BI 퍼블릭 리포지토리에 기여하나요? 가장 많이 기여한 사람은 누구인가요? 어떤 요일이 가장 많이 기여하는가요? 그리고 기타 질문들이 있습니다. 
+
+자신만의 프라이빗 또는 퍼블릭 GitHub 리포지토리에도 연결할 수 있습니다. [Power BI로 GitHub에 연결](service-connect-to-github.md) 문서에서는 Power BI ‘템플릿 앱’을 사용하여 리포지토리에 연결하는 방법에 대해 설명합니다.
 
 ![Power BI의 GitHub 보고서](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-punch-card.png)
 
-이 자습서에서 수행하는 단계는 다음과 같습니다.
+이 자습서에서는 다음 단계를 완료합니다.
 
 > [!div class="checklist"]
 > * GitHub 계정이 아직 없는 경우 이 계정에 등록 
@@ -44,27 +46,27 @@ ms.locfileid: "90860558"
 
 ## <a name="how-to-connect"></a>연결 방법
 1. Power BI 서비스(`https://app.powerbi.com`)에 로그인합니다. 
-2. 탐색 창에서 **앱**, **앱 가져오기**를 선택합니다.
+2. 탐색 창에서 **앱** , **앱 가져오기** 를 선택합니다.
    
    ![Power BI 앱 가져오기](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial.png) 
 
-3. **앱**을 선택하고, 검색 상자에 **GitHub**를 입력하고 > **지금 받기** 합니다.
+3. **앱** 을 선택하고, 검색 상자에 **GitHub** 를 입력하고 > **지금 받기** 합니다.
    
    ![Power BI - GitHub 가져오기](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-app-source.png) 
 
-4. **이 Power BI 앱을 설치하겠습니까?** 에서 **설치**를 선택합니다.
-5. **새 앱이 준비되었습니다.** 가 표시되면 **앱으로 이동**을 선택합니다.
-6. **새 앱 시작**에서 **데이터**를 선택합니다.
+4. **이 Power BI 앱을 설치하겠습니까?** 에서 **설치** 를 선택합니다.
+5. **새 앱이 준비되었습니다.** 가 표시되면 **앱으로 이동** 을 선택합니다.
+6. **새 앱 시작** 에서 **데이터** 를 선택합니다.
 
     ![새 앱 시작](media/service-tutorial-connect-to-github/power-bi-new-app-connect-get-started.png)
 
-7. 리포지토리의 리포지토리 이름과 리포지토리 소유자를 입력합니다. 이 리포지토리에 대한 URL은 https://github.com/MicrosoftDocs/powerbi-docs 이므로 **리포지토리 소유자**는 **MicrosoftDocs**이고 **리포지토리**는 **powerbi-docs**입니다. 
+7. 리포지토리의 리포지토리 이름과 리포지토리 소유자를 입력합니다. 이 리포지토리에 대한 URL은 https://github.com/MicrosoftDocs/powerbi-docs이므로 **리포지토리 소유자** 는 **MicrosoftDocs** 이고 **리포지토리** 는 **powerbi-docs** 입니다. 
    
     ![Power BI - GitHub 리포지토리 이름](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-connect.png)
 
 5. 만든 GitHub 자격 증명을 입력합니다. 브라우저에서 GitHub에 이미 로그인되어 있으면 Power BI에서 이 단계를 건너뛸 수 있습니다. 
 
-6. **인증 방법**에 대해서는, 선택된 **oAuth2**를 유지하고 \>**로그인**합니다.
+6. **인증 방법** 에 대해서는, 선택된 **oAuth2** 를 유지하고 \> **로그인** 합니다.
 
 7. GitHub 인증 화면을 따릅니다. GitHub 데이터에 대한 Power BI 권한을 부여합니다.
    
@@ -75,7 +77,7 @@ ms.locfileid: "90860558"
 
     ![탐색 창의 앱](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
 
-10. 대시보드 이름 옆에 있는 **추가 옵션**(...)을 선택한 다음 > **이름 바꾸기**를 선택하고 > **GitHub 대시보드**를 입력합니다.
+10. 대시보드 이름 옆에 있는 **추가 옵션** (...)을 선택한 다음 > **이름 바꾸기** 를 선택하고 > **GitHub 대시보드** 를 입력합니다.
  
     ![Power BI - GitHub 타일](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav.png) 
 
@@ -93,20 +95,20 @@ ms.locfileid: "90860558"
 
 ## <a name="ask-a-question"></a>질문하기
 
-1. **데이터에 대해 질문하기**에 커서를 놓습니다. Power BI는 **시작할 질문**을 제공합니다. 
+1. **데이터에 대해 질문하기** 에 커서를 놓습니다. Power BI는 **시작할 질문** 을 제공합니다. 
 
-1. **포함된 사용자 수**를 선택합니다.
+1. **포함된 사용자 수** 를 선택합니다.
  
     ![포함된 사용자 수](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-qna-how-many-users.png)
 
-13. **수**와 **포함된 사용자** 사이에 **단위당 끌어오기 요청**을 입력합니다. 
+13. **수** 와 **포함된 사용자** 사이에 **단위당 끌어오기 요청** 을 입력합니다. 
 
      Power BI에서 사용자별 끌어오기 요청 수를 나타내는 가로 막대형 차트를 만듭니다.
 
     ![포함된 사용자별 끌어오기 요청 수](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-qna-how-many-prs.png)
 
 
-13. 그런 다음 대시보드에 고정하려면 핀을 선택하고 **질문 및 답변을 종료**합니다.
+13. 그런 다음 대시보드에 고정하려면 핀을 선택하고 **질문 및 답변을 종료** 합니다.
 
 ## <a name="view-the-github-report"></a>GitHub 보고서 보기 
 
@@ -122,13 +124,13 @@ ms.locfileid: "90860558"
  
     ![Power BI - GitHub 보고서 펀치 카드](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-tues-3pm.png)
 
-    분명히 화요일 오후 3시는 사람들이 자신의 업무를 확인하는 *커밋*에 대한 가장 일반적인 시간과 요일입니다.
+    분명히 화요일 오후 3시는 사람들이 자신의 업무를 확인하는 *커밋* 에 대한 가장 일반적인 시간과 요일입니다.
 
 ## <a name="clean-up-resources"></a>리소스 정리
 
 자습서를 완료했으므로 GitHub 앱을 삭제할 수 있습니다. 
 
-1. 탐색 창에서 **앱**을 선택합니다.
+1. 탐색 창에서 **앱** 을 선택합니다.
 2. GitHub 타일 위를 마우스로 가리키고 **삭제** 휴지통을 선택합니다.
 
     ![GitHub 앱 삭제](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-delete.png)
@@ -138,4 +140,4 @@ ms.locfileid: "90860558"
 이 자습서에서는 GitHub 공용 리포지토리에 연결하고 데이터를 가져와서 Power BI의 대시보드 및 보고서에서 서식을 지정했습니다. 대시보드 및 보고서를 탐색하여 데이터에 대한 몇 가지 질문에 답변했습니다. 이제 Salesforce, Microsoft Dynamics 및 Google Analytics와 같은 다른 서비스에 연결하는 방법에 대해 자세히 알아볼 수 있습니다. 
  
 > [!div class="nextstepaction"]
-> [사용하는 온라인 서비스에 연결](service-connect-to-services.md)
+> [Power BI 템플릿 앱을 사용하여 GitHub에 연결](service-connect-to-github.md)

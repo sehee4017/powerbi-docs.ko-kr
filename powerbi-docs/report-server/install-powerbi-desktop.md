@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 07/24/2020
-ms.openlocfilehash: d361430387d9c24b8b4ef0b673c50cf4cec5a24b
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.date: 10/16/2020
+ms.openlocfilehash: 62add0b1268b06bb227bdc1b8ec2e4ae59358c57
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252606"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93044754"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Report Server에 최적화된 Power BI Desktop 설치
 
@@ -25,29 +25,29 @@ Power BI Report Server에 대한 Power BI 보고서를 만들려면 Power BI Rep
 
 Power BI Report Server에 최적화된 최신 버전의 Power BI Desktop을 유지하는 가장 쉬운 방법은 보고서 서버의 웹 포털에서 시작하는 것입니다.
 
-1. 보고서 서버 웹 포털에서 **다운로드** 화살표 > **Power BI Desktop**을 선택합니다.
+1. 보고서 서버 웹 포털에서 **다운로드** 화살표 > **Power BI Desktop** 을 선택합니다.
 
     ![웹 포털에서 Power BI Desktop 다운로드](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    또는 [Power BI Report Server](https://powerbi.microsoft.com/report-server/) 홈페이지로 이동하고 **고급 다운로드 옵션**을 선택합니다.
+    또는 [Power BI Report Server](https://powerbi.microsoft.com/report-server/) 홈페이지로 이동하고 **고급 다운로드 옵션** 을 선택합니다.
 
-2. 다운로드 센터 페이지에서 언어를 선택한 다음 **다운로드**를 선택합니다.
+2. 다운로드 센터 페이지에서 언어를 선택한 다음 **다운로드** 를 선택합니다.
 
 3. 컴퓨터에 따라 다음 중에서 선택합니다. 
 
-    - **PBIDesktopRS.msi**(32비트 버전) 또는
-    - **PBIDesktopRS_x64.msi**(64비트 버전).
+    - **PBIDesktopRS.msi** (32비트 버전) 또는
+    - **PBIDesktopRS_x64.msi** (64비트 버전).
 
 1. 설치 관리자를 다운로드한 후 Power BI Desktop 설치 마법사를 실행합니다.
 
-2. 설치가 끝나면 **Power BI Desktop 시작**을 선택합니다.
+2. 설치가 끝나면 **Power BI Desktop 시작** 을 선택합니다.
 
     그러면 자동으로 시작되어 사용할 준비가 됩니다.
 
 ## <a name="verify-youre-using-the-correct-version"></a>올바른 버전을 사용하는지 확인
-올바른 Power BI Desktop을 사용하는지 쉽게 확인할 수 있습니다. Power BI Desktop 내에서 시작 화면 또는 제목 표시줄을 확인하세요. 제목 표시줄에 **Power BI Desktop(2020년 5월)** 이 표시되면 올바른 버전이 준비된 것입니다. 또한 Power BI 로고 색은 역으로 노란색 바탕에 검은색이 아닌 검은색 바탕에 노란색입니다.
+올바른 Power BI Desktop을 사용하는지 쉽게 확인할 수 있습니다. Power BI Desktop 내에서 시작 화면 또는 제목 표시줄을 확인하세요. 제목 표시줄에 **Power BI Desktop(2020년 10월)** 이라고 표시되면 올바른 버전이 준비된 것입니다. 또한 Power BI 로고 색은 역으로 노란색 바탕에 검은색이 아닌 검은색 바탕에 노란색입니다.
 
-![Power BI Desktop 2020년 5월](media/install-powerbi-desktop/power-bi-report-server-desktop-may-2020.png)
+![Power BI Desktop 2020년 10월](media/install-powerbi-desktop/power-bi-report-server-desktop-may-2020.png)
 
 Power BI 서비스용 Power BI Desktop 버전은 제목 표시줄에 월 및 연도가 없습니다.
 

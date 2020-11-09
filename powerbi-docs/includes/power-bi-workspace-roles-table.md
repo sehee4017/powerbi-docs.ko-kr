@@ -8,12 +8,12 @@ ms.topic: include
 ms.date: 10/21/2020
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: 87c35df25a17090f1788abbeb979afab3ad9d6a9
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: 3828a11f4b4447f6484e121fec84fb44d702c86a
+ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462227"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93135721"
 ---
 |기능   | 관리자  | 멤버  | 참가자  | 뷰어 |
 |---|---|---|---|---|
@@ -21,7 +21,7 @@ ms.locfileid: "92462227"
 | 다른 관리자를 비롯한 사람 추가/제거  |  ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png) |   |   |   |
 | 참가자가 작업 영역의 앱을 업데이트하도록 허용  |  ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png) |   |   |   |
 | 낮은 권한을 가진 구성원 또는 다른 사용자 추가  |  ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png) | ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |   |
-| 앱에 대한 권한 게시 및 변경 |  ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png) | ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |   |
+| 앱에 대한 게시, 게시 취소 및 변경 권한 |  ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png) | ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |   |
 | 앱을 업데이트합니다. |  ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png) | ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png)  |  허용되는 경우 <sup>1</sup>  |   |
 | 항목을 공유하거나 앱을 공유합니다.<sup>2</sup> |  ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png) | ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |   |
 | 다른 사용자가 항목을 다시 공유하도록 허용합니다.<sup>2</sup> |  ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png) | ![예 확인 표시](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |   |

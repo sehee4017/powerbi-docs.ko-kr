@@ -1,25 +1,147 @@
 ---
 title: Power BI Report Server의 새로운 기능
-description: Power BI Report Server의 새로운 기능에 대해 알아봅니다. 이 아티클에서는 주요 기능 영역을 설명하고 새 항목이 릴리스될 때 업데이트됩니다.
+description: 최신 버전 Power BI Report Server의 새로운 기능에 대해 알아봅니다. 이 문서는 주요 기능 영역에 대해 설명하며 새 버전이 릴리스될 때 업데이트됩니다.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 07/08/2020
-ms.openlocfilehash: 9c92383dee3cb435c57238be545ccd9e59923b8e
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 10/30/2020
+ms.openlocfilehash: 14b629eed17eca2d1e016913dcfffb5858d4ddc3
+ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859983"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132416"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Report Server의 새로운 기능
 
-Power BI Report Server 및 Power BI Report Server에 최적화된 Power BI Desktop의 새로운 기능을 알아봅니다. 이 문서에서는 주요 기능 영역을 설명합니다. 이 문서는 신규 릴리스가 공개될 때마다 업데이트됩니다. Power BI Report Server의 새로운 기능에 관한 자세한 내용은 [Power BI Report Server 변경 로그](changelog.md)를 참조하세요.
+최신 버전의 Power BI Report Server 및 Power BI Report Server에 최적화된 Power BI Desktop의 새로운 기능에 대해 알아봅니다. 이 문서에서는 주요 기능 영역을 설명합니다. 이 문서는 신규 릴리스가 공개될 때마다 업데이트됩니다. Power BI Report Server의 새로운 기능에 관한 자세한 내용은 [Power BI Report Server 변경 로그](changelog.md)를 참조하세요.
 
 [Power BI Report Server 및 Power BI Report Server에 최적화된 Power BI Desktop](https://powerbi.microsoft.com/report-server/)을 다운로드합니다.
+
+## <a name="october-2020"></a>2020년 10월
+
+다음은 새로운 기능 및 업데이트된 기능의 전체 목록입니다. 자세한 내용은 [2020년 10월 Power BI Report Server 블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-report-server-october-2020-feature-summary/)을 참조하세요. 
+
+### <a name="power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Report Server에 최적화된 Power BI Desktop
+
+다음은 몇 가지 주요한 새로운 기능입니다.
+
+**최신 리본**  
+
+최신 리본이 Power BI Report Server에 최적화된 Power BI Desktop에 제공되었습니다. 계속해서 추가 작업을 수행하고 리본에 더 많은 기능을 추가할 예정입니다. 변경 내용 및 이점에 대해 자세히 알아보려면 [Power BI Desktop에서 업데이트된 리본 사용](../create-reports/desktop-ribbon.md)을 참조하세요.
+
+:::image type="content" source="media/whats-new/report-server-new-ribbon.png" alt-text="Power BI Report Server에 최적화된 Power BI Desktop의 새 리본 스크린샷":::
+
+**계층 구조 슬라이서**
+
+‘계층 구조 슬라이서’를 빌드하여 단일 슬라이서에서 여러 관련 필드를 필터링할 수 있습니다. 이제 일반 공급되므로 추가된 기능을 활용할 수 있습니다.
+
+- 확장/축소 아이콘의 새 옵션.
+- 글꼴 크기로 조정되는 아이콘.
+- 자식 항목의 사용자 지정 가능한 들여쓰기.
+- 슬라이서 머리글 텍스트의 추가 사용자 지정.
+
+:::image type="content" source="media/whats-new/report-server-slicer-hierarchy.png" alt-text="Power BI Report Server에 최적화된 Power BI Desktop의 계층 구조 슬라이서":::
+
+자세한 내용은 설명서에서 [Power BI의 슬라이서](../visuals/power-bi-visualization-slicers.md)를 참조하세요.
+
+**모바일 제작 기능 향상** 
+
+이 릴리스에서는 향상된 모바일 레이아웃 제작 환경 및 추가 모바일 레이아웃 기능이 도입되었습니다. 점점 더 많은 조직에서 Power BI 모바일 앱을 채택하면서 모바일 제작 환경에 대한 추가 기능 및 개선을 요청하는 피드백을 받았습니다. 이 릴리스의 향상된 기능을 통해 모바일 디바이스에 최적화된 매력적인 대화형 보고서를 보다 쉽게 작성할 수 있습니다.
+
+다음은 모바일에 최적화된 보고서를 작성하기 위한 새로운 환경 및 기능입니다.  
+
+- 새로운 휴대폰 에뮬레이터  
+- 업데이트된 시각화 창  
+- 오버레이된 시각적 개체 지원  
+- 모바일 레이아웃 보기에서 사용 가능한 책갈피  
+- 눈금선 및 모눈에 맞춤 끄기  
+
+:::image type="content" source="media/whats-new/report-server-mobile-layout.png" alt-text="Power BI Report Server에 최적화된 Power BI Desktop의 향상된 모바일 레이아웃":::
+
+자세한 내용은 블로그 게시물 [Enhancements to mobile authoring](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_mobile)(향상된 모바일 제작 기능)을 참조하세요.
+
+**데이터 준비: Excel 파일에서 자동 테이블 검색**
+
+Excel 커넥터의 이 새로운 기능은 각 Excel 스프레드시트의 섹션을 자동으로 식별하여 테이블로 추출합니다. 이러한 테이블은 탐색기의 “추천 테이블” 그룹 아래에 표시됩니다. 이전에는 Excel에서 데이터의 형식을 테이블이나 명명된 범위로 지정해야 했습니다. 그렇지 않으면 다음 예제의 Sheet1에서처럼 워크시트 개체에서 행 건너뛰기 및 열 제거와 같은 특정 변환으로 관련 행/열을 스크랩해야 했습니다. 이 기능을 사용하려면 **설정** 대화 상자에서 사용하도록 설정해야 합니다.
+
+:::image type="content" source="media/whats-new/report-server-excel-table.png" alt-text="Power BI Report Server에 최적화된 Power BI Desktop에서 Excel 테이블 인식":::
+
+**모델링: 향상된 데이터 세트 메타데이터**
+
+이전에는 Power Query에서 생성된 로드 가능한 쿼리만 데이터 모델에 매핑되었습니다. 이제 모든 쿼리가 데이터 모델의 개체에 매핑됩니다. 쿼리는 해당 PBIX 파일을 열 때 데이터 모델을 기반으로 다시 생성됩니다.
+
+이 백 엔드 업데이트는 향후 기능 개선을 제공하며 계속해서 제공할 예정입니다. 
+
+예를 들면 다음과 같습니다.
+
+- Power BI Desktop(현재 미리 보기)에서 외부 도구를 추가하면 이러한 외부 도구를 통해 추가되는 테이블이 보고서를 다시 열 때 쿼리로 표시됩니다.
+- PBIT 파일을 내보내고 파일의 압축을 풀려고 하면 모델이 JSON에 표시되고 손상된 파일에 대한 오류가 더 이상 표시되지 않습니다. 
+
+자동으로 업데이트할 수 없는 이전 PBIX가 있는 경우 적용되지 않은 변경 내용과 같은 이유로 모델을 업그레이드한 후에야 모델링을 추가로 변경할 수 있습니다. 
+
+**Windows 7 지원 종료**
+
+10년의 기간 끝에 Windows 7에 대한 지원이 2020년 1월 14일에 종료되었습니다. 이에 따라 Windows 7의 Power BI Desktop에 대한 지원도 2021년 1월 31일에 중지할 예정입니다. 이후에는 Power BI Desktop이 Windows 8 이상에서만 지원됩니다. Report Server에 최적화된 Power BI Desktop의 2021년 1월 릴리스는 최신 수명 주기 정책에 따라 지원됩니다. 즉, 다음 릴리스(현재 2021년 5월로 예약됨)까지 완벽하게 지원됩니다. 2021년 5월 이후 2022년 1월까지는 보안 업데이트만 받게 됩니다. 2022년 1월 이후에는 모든 지원이 중지됩니다. 자세한 내용은 [Power BI Report Server support timeline](support-timeline.md)(Power BI Report Server 지원 타임라인)을 참조하세요. 
+
+**전체 업데이트 목록**
+
+다음은 Power BI Report Server에 최적화된 Power BI Desktop 10월 버전의 전체 업데이트 목록입니다. 
+
+**보고**
+
+- 최신 리본
+- 캔버스 워터마크
+- 누적 시각적 개체에 대한 합계 레이블
+- 계층 순서 유지를 위해 일반 시각적 개체 옵션 추가
+- 그라데이션 범례
+- 상대 시간 필터
+- 슬라이서 머리글 텍스트를 추가로 사용자 지정할 수 있는 기능
+- 계층 구조 슬라이서 기능 향상
+
+    - 확장/축소 아이콘의 새 옵션
+    - 글꼴 크기로 조정되는 아이콘
+    - 자식 항목의 들여쓰기를 사용자 지정하는 기능
+
+- 모바일 제작 기능 향상
+
+    - 새로운 휴대폰 에뮬레이터
+    - 업데이트된 시각화 창
+    - 오버레이된 시각적 개체 지원
+    - 모바일 레이아웃 보기에서 사용 가능한 책갈피
+    - 눈금선 및 모눈에 맞춤 끄기  
+
+**시각화**
+
+- 꺾은선형 차트 점 서식 지정 옵션 
+
+**모델링**
+
+- 향상된 데이터 세트 메타데이터
+- IF 및 SWITCH 함수의 성능 향상
+- Excel 재무 함수 지원
+- 라이브 연결에 대해 사용 설정된 모델 보기
+- 모델 보기 업데이트 
+
+**데이터 준비**
+
+- Excel 파일에서 자동 테이블 검색  
+- JSON 파일에서 자동 테이블 검색  
+- 자동 유형 검색을 사용하지 않도록 설정하는 전역 옵션 
+
+**기타**  
+
+- Power BI Desktop에서 PBIDS로 데이터 원본 내보내기
+- 데스크톱 시작 화면 해제 
+
+### <a name="power-bi-report-server"></a>Power BI Report Server
+
+**PowerShell을 사용하여 Power BI 보고서에서 데이터 원본 연결 문자열 변경**
+
+Power BI Report Server 10월 릴리스에서는 DirectQuery 및 새로 고침을 위해 Power BI 보고서에 대한 연결을 업데이트하는 기능을 사용할 수 있습니다. 이 기능은 이전 릴리스에서 설정하는 방법에 관한 호환성이 손상되는 변경이기도 합니다. 자세히 알아보려면 [PowerShell을 사용하여 Power BI 보고서에서 데이터 원본 연결 문자열 변경 - Power BI Report Server](connect-data-source-apis.md)를 참조하세요. 
 
 ## <a name="may-2020"></a>2020년 5월
 
@@ -572,7 +694,7 @@ reader에게 보고서에 대한 액세스 권한을 부여하려고 하지만 �
 
 #### <a name="export-to-accessible-pdf"></a>액세스할 수 있는 PDF로 내보내기
 
-이제 페이지 매긴 보고서(RDL)를 PDF로 내보내면 액세스할 수 있는/태그가 지정된 PDF 파일을 가져올 수 있습니다. 크기가 크지만 화면 판독기 및 기타 보조 기술에서 쉽게 읽고 탐색할 수 있습니다. **AccessiblePDF** 디바이스 정보 설정을 **True**로 설정하여 액세스할 수 있는 PDF를 활성화합니다. [PDF 디바이스 정보 설정](/sql/reporting-services/pdf-device-information-settings) 및 [디바이스 정보 설정 변경](/sql/reporting-services/customize-rendering-extension-parameters-in-rsreportserver-config#changing-device-information-settings)을 참조하세요.
+이제 페이지 매긴 보고서(RDL)를 PDF로 내보내면 액세스할 수 있는/태그가 지정된 PDF 파일을 가져올 수 있습니다. 크기가 크지만 화면 판독기 및 기타 보조 기술에서 쉽게 읽고 탐색할 수 있습니다. **AccessiblePDF** 디바이스 정보 설정을 **True** 로 설정하여 액세스할 수 있는 PDF를 활성화합니다. [PDF 디바이스 정보 설정](/sql/reporting-services/pdf-device-information-settings) 및 [디바이스 정보 설정 변경](/sql/reporting-services/customize-rendering-extension-parameters-in-rsreportserver-config#changing-device-information-settings)을 참조하세요.
 
 ### <a name="other-improvements"></a>기타 개선 기능
 
@@ -653,7 +775,7 @@ Excel 및 Power BI에는 업계에서 고유한 도구의 포트폴리오가 포
 
 ### <a name="support-for-new-table-and-matrix-visuals"></a>새 테이블 및 행렬 시각화 개체에 대한 지원
 
-Power BI Report Server는 이제 새 Power BI 테이블 및 행렬 시각적 개체를 지원합니다. 이러한 시각적 개체를 사용하여 보고서를 작성하려면 2017년 10월 릴리스에 대해 업데이트된 Power BI Desktop 릴리스가 필요합니다. Power BI Desktop(2017년 6월) 릴리스와 함께 설치할 수는 없습니다. Power BI Desktop의 최신 버전은 [Power BI Report Server 다운로드 페이지](https://powerbi.microsoft.com/report-server/)에서 **고급 다운로드 옵션**을 선택합니다.
+Power BI Report Server는 이제 새 Power BI 테이블 및 행렬 시각적 개체를 지원합니다. 이러한 시각적 개체를 사용하여 보고서를 작성하려면 2017년 10월 릴리스에 대해 업데이트된 Power BI Desktop 릴리스가 필요합니다. Power BI Desktop(2017년 6월) 릴리스와 함께 설치할 수는 없습니다. Power BI Desktop의 최신 버전은 [Power BI Report Server 다운로드 페이지](https://powerbi.microsoft.com/report-server/)에서 **고급 다운로드 옵션** 을 선택합니다.
 
 ## <a name="june-2017"></a>2017년 6월
 
