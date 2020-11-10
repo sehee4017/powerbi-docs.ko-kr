@@ -8,7 +8,7 @@
         - name: 쿼리 편집기 개요
           href: desktop-query-overview.md
         - name: 데이터 흐름을 사용하여 셀프 서비스 데이터 준비
-          href: service-dataflows-overview.md
+          href: ./dataflows/dataflows-introduction-self-service.md
     - name: 자습서
       expanded: true
       items:
@@ -98,39 +98,39 @@
         - name: 셀프 서비스 데이터 준비
           items:
             - name: 데이터 흐름 만들기 및 사용
-              href: service-dataflows-create-use.md
+              href: ./dataflows/dataflows-create.md
             - name: Power BI (미리 보기)에서 데이터 흐름와 함께 DirectQuery 사용
-              href: service-dataflows-directquery.md
+              href: ./dataflows/dataflows-configure-consume.md
             - name: 데이터 흐름에 향상된 컴퓨팅 엔진 사용
-              href: service-dataflows-enhanced-compute-engine.md
+              href: ./dataflows/dataflows-premium-features.md
             - name: Power BI Premium의 컴퓨팅된 엔터티
-              href: service-dataflows-computed-entities-premium.md
+              href: ./dataflows/dataflows-premium-features.md
             - name: 데이터 흐름을 사용하여 데이터 원본에 연결
-              href: service-dataflows-data-sources.md
+              href: ./dataflows/dataflows-configure-consume.md
             - name: 온-프레미스 데이터 원본으로 만든 데이터 흐름 사용
-              href: service-dataflows-on-premises-gateways.md
+              href: ./dataflows/dataflows-configure-consume.md
             - name: 데이터 흐름 간에 엔터티 연결
-              href: service-dataflows-linked-entities.md
+              href: ./dataflows/dataflows-premium-features.md
             - name: 데이터 흐름에 증분 새로 고침 사용
-              href: service-dataflows-incremental-refresh.md
+              href: ./dataflows/dataflows-premium-features.md
             - name: 데이터 흐름에 사용할 수 있는 개발자 리소스
-              href: service-dataflows-developer-resources.md
+              href: ./dataflows/dataflows-configure-consume.md
             - name: Power BI Desktop에서 데이터 흐름에 연결
               href: desktop-connect-dataflows.md
             - name: 데이터 흐름 및 Azure Data Lake 통합(미리 보기)
-              href: service-dataflows-azure-data-lake-integration.md
+              href: ./dataflows/dataflows-azure-data-lake-storage-integration.md
             - name: 데이터 흐름 스토리지를 위해 Azure Data Lake Storage Gen2 연결
-              href: service-dataflows-connect-azure-data-lake-storage-gen2.md
+              href: ./dataflows/dataflows-azure-data-lake-storage-integration.md
             - name: 작업 영역 데이터 흐름 설정 구성(미리 보기)
-              href: service-dataflows-configure-workspace-storage-settings.md
+              href: ./dataflows/dataflows-configure-consume.md
             - name: CDM 폴더를 Power BI에 데이터 흐름으로 추가(미리 보기)
-              href: service-dataflows-add-cdm-folder.md
+              href: ./dataflows/dataflows-machine-learning-integration.md
             - name: Power BI에서 Machine Learning 통합
-              href: service-machine-learning-integration.md
+              href: ./dataflows/dataflows-machine-learning-integration.md
             - name: Power BI에서 Cognitive Services 사용
-              href: service-cognitive-services.md
+              href: ./dataflows/dataflows-machine-learning-integration.md
             - name: Power BI의 자동화된 Machine Learning
-              href: service-machine-learning-automated.md
+              href: ./dataflows/dataflows-machine-learning-integration.md
     - name: 참조
       items:
         - name: 수식 편집기 바로 가기

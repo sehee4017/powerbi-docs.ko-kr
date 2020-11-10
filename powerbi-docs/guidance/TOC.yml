@@ -21,7 +21,7 @@
             - name: 파워 쿼리 백그라운드 새로 고침 사용 안 함
               href: power-query-background-refresh.md
             - name: 데이터 흐름에 관한 모범 사례
-              href: ../transform-model/service-dataflows-best-practices.md
+              href: ../transform-model/dataflows/dataflows-introduction-self-service.md
         - name: 데이터 모델링
           items:
             - name: 별모양 스키마란?
