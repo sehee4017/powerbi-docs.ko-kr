@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: bab09647b324e9be8b1de6f27865511b4f2b1a02
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 01d7a433650eb8c74ace37b548ba8d7bf2c570ea
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92256342"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396176"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop으로 이전 월별 업데이트
 
@@ -418,7 +418,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 
 ### <a name="data-preparation"></a>데이터 준비
-* 데이터 흐름의 DirectQuery [[비디오]](https://youtu.be/JtuHIslowxk?t=1883)[[문서]](../transform-model/service-dataflows-directquery.md)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_DQ_Dataflows) 
+* 데이터 흐름의 DirectQuery [[비디오]](https://youtu.be/JtuHIslowxk?t=1883)[[문서]](../transform-model/dataflows/dataflows-configure-consume.md)[[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_DQ_Dataflows) 
 * Web by example에서 이제 기본적으로 테이블을 자동으로 제안 [[비디오]](https://youtu.be/JtuHIslowxk?t=1916)[[블로그] ](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Web_by_example) 
 * 쿼리 진단의 향상된 기능: 개인 정보 수준 파티션 [[비디오]](https://youtu.be/JtuHIslowxk?t=1931)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2020-feature-summary/#_Query_Diag) 
 
@@ -548,8 +548,8 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 이전 버전을 다운로드하려면 아래 링크를 선택하세요. 
 
-* [Power BI Desktop 2020년 4월 버전 - 32비트](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-04.exe)
-* [Power BI Desktop 2020년 4월 버전 - 64비트](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-04_x64.exe)
+* [Power BI Desktop 2020년 4월 버전 - 32비트](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup.exe)
+* [Power BI Desktop 2020년 4월 버전 - 64비트](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup_x64.exe)
 
 
 

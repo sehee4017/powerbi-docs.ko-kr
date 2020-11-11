@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f96fa15981de8d86007c6e1fa768f95a77921280
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 21d619c42648f90746af9961475bb531dc24d5ab
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92680949"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396659"
 ---
 # <a name="gather-requirements-to-migrate-to-power-bi"></a>Power BI로 마이그레이션하기 위한 요구 사항 수집
 
@@ -74,7 +74,7 @@ ms.locfileid: "92680949"
 - **미해결 문제 및 백로그 항목:** 현재 알려진 문제, 알려진 데이터 품질 결함, 향후 유지 관리 또는 지연된 요청을 백로그에 추가합니다.
 
 > [!IMPORTANT]
-> [공유 데이터 세트](../connect-data/service-datasets-share.md)를 사용하여 데이터 재사용성을 달성할 수 있으며, 데이터 재사용성은 필요한 경우 신뢰성을 나타내고 검색 기능을 개선하기 위해 [보증](../collaborate-share/service-endorse-content.md)될 수 있습니다. [데이터 흐름](../transform-model/service-dataflows-overview.md)을 통해 데이터 준비 재사용을 달성하여 여러 데이터 세트에서 반복적인 논리를 줄일 수 있습니다. 데이터 검색 빈도가 비교적 적으므로 데이터 흐름은 원본 시스템에 대한 부하를 상당히 줄일 수 있으며, 이후 여러 데이터 세트가 해당 데이터 흐름에서 데이터를 가져올 수 있습니다.
+> [공유 데이터 세트](../connect-data/service-datasets-share.md)를 사용하여 데이터 재사용성을 달성할 수 있으며, 데이터 재사용성은 필요한 경우 신뢰성을 나타내고 검색 기능을 개선하기 위해 [보증](../collaborate-share/service-endorse-content.md)될 수 있습니다. [데이터 흐름](../transform-model/dataflows/dataflows-introduction-self-service.md)을 통해 데이터 준비 재사용을 달성하여 여러 데이터 세트에서 반복적인 논리를 줄일 수 있습니다. 데이터 검색 빈도가 비교적 적으므로 데이터 흐름은 원본 시스템에 대한 부하를 상당히 줄일 수 있으며, 이후 여러 데이터 세트가 해당 데이터 흐름에서 데이터를 가져올 수 있습니다.
 
 ## <a name="identify-improvement-opportunities"></a>개선 기회 식별
 

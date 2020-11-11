@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4af8f9edd3d51214aaa766219e4903eb4b26b813
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 93ccb8c02e71165dfd23bcd82b21ae2758e03d43
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252547"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396199"
 ---
 # <a name="ways-to-collaborate-and-share-in-power-bi"></a>Power BI에서 협업 및 공유하는 방법
 
@@ -37,7 +37,7 @@ ms.locfileid: "87252547"
 - 작업 영역의 대시보드 및 보고서를 앱으로 번들링하고 더 큰 규모의 그룹이나 전체 조직에 배포합니다.
 - 보안 포털 또는 공용 웹 사이트에 보고서를 포함합니다.
 - 보고서를 인쇄합니다.
-- Microsoft AppSource를 통해 외부 Power BI 사용자에게 배포할 수 있는 *템플릿 앱*을 만듭니다.
+- Microsoft AppSource를 통해 외부 Power BI 사용자에게 배포할 수 있는 *템플릿 앱* 을 만듭니다.
  
 **데이터 공유**
 
@@ -101,7 +101,7 @@ iOS 및 Android 디바이스용 Power BI 모바일 앱에서 타일, 보고서 �
 
 ## <a name="distribute-insights-in-an-app"></a>앱의 인사이트 배포
 
-조직의 광범위한 대상에 대시보드를 배포하려 한다고 가정해 봅시다. 사용자는 동료와 *작업 영역*을 만든 다음, 작업 영역에서 대시보드, 보고서 및 데이터 세트를 만들고 다듬었습니다. 이제 그룹이나 전체 조직에 대해 앱으로 게시할 대시보드 및 보고서를 선택합니다.
+조직의 광범위한 대상에 대시보드를 배포하려 한다고 가정해 봅시다. 사용자는 동료와 *작업 영역* 을 만든 다음, 작업 영역에서 대시보드, 보고서 및 데이터 세트를 만들고 다듬었습니다. 이제 그룹이나 전체 조직에 대해 앱으로 게시할 대시보드 및 보고서를 선택합니다.
 
 ![앱 게시 아이콘](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-publish-app.png)
 
@@ -120,12 +120,12 @@ iOS 및 Android 디바이스용 Power BI 모바일 앱에서 타일, 보고서 �
 Power BI 보고서를 사용자가 볼 것으로 예상되는 포털 또는 웹 사이트에 포함할 수 있습니다.  
 Power BI 서비스의 **SharePoint Online에 포함** 및 **포함** 옵션을 사용하면 내부 사용자를 위해 보고서를 안전하게 포함할 수 있습니다. 선택하는 옵션에 관계없이 Power BI는 사용자가 콘텐츠를 보기 전에 모든 사용 권한 및 데이터 보안을 적용합니다. 보고서를 보는 사람은 적절한 라이선스가 필요합니다.  
 
-- **SharePoint Online에 포함**은 SharePoint Online용 Power BI 웹 파트에서 작동합니다. 보고서가 포함되는 방법에 대한 제어를 사용하여 Single Sign-On 환경을 제공합니다. 자세한 내용은 [SharePoint Online에 포함](service-embed-report-spo.md)을 참조하세요.
-- **포함**은 URL 또는 iFrame을 사용하여 포함 콘텐츠를 지원하는 모든 포털 또는 웹 사이트에서 작동합니다. 자세한 내용은 [포함](service-embed-secure.md) 옵션을 참조하세요.
+- **SharePoint Online에 포함** 은 SharePoint Online용 Power BI 웹 파트에서 작동합니다. 보고서가 포함되는 방법에 대한 제어를 사용하여 Single Sign-On 환경을 제공합니다. 자세한 내용은 [SharePoint Online에 포함](service-embed-report-spo.md)을 참조하세요.
+- **포함** 은 URL 또는 iFrame을 사용하여 포함 콘텐츠를 지원하는 모든 포털 또는 웹 사이트에서 작동합니다. 자세한 내용은 [포함](service-embed-secure.md) 옵션을 참조하세요.
 
 ### <a name="publish-to-public-web-sites"></a>공용 웹 사이트에 게시
 
-**웹에 게시**를 사용하면 블로그 게시물, 웹 사이트, 소셜 미디어 및 기타 온라인 통신에 시각화를 포함하여 전체 인터넷에 Power BI 보고서를 게시할 수 있습니다. 보고서는 인터넷 상의 누구든지 볼 수 있으며, 자신이 게시한 것을 볼 수 있는 사람을 제어할 수는 없습니다. 보는 사람은 Power BI 라이선스가 필요하지 않습니다. 자신이 편집할 수 있는 보고서만 웹에 게시할 수 있습니다. 자신과 공유되지 않았거나 앱에 없는 보고서는 웹에 게시할 수 없습니다. [웹에 게시](service-publish-to-web.md)하는 방법을 자세히 알아보세요.
+**웹에 게시** 를 사용하면 블로그 게시물, 웹 사이트, 소셜 미디어 및 기타 온라인 통신에 시각화를 포함하여 전체 인터넷에 Power BI 보고서를 게시할 수 있습니다. 보고서는 인터넷 상의 누구든지 볼 수 있으며, 자신이 게시한 것을 볼 수 있는 사람을 제어할 수는 없습니다. 보는 사람은 Power BI 라이선스가 필요하지 않습니다. 자신이 편집할 수 있는 보고서만 웹에 게시할 수 있습니다. 자신과 공유되지 않았거나 앱에 없는 보고서는 웹에 게시할 수 없습니다. [웹에 게시](service-publish-to-web.md)하는 방법을 자세히 알아보세요.
 
 >[!Warning]
 >[웹에 게시](service-publish-to-web.md)를 사용해야만 콘텐츠를 내부가 아닌 공개적으로 공유합니다.
@@ -146,7 +146,7 @@ Power BI 보고서는 한 번에 한 페이지만 인쇄할 수 있습니다. �
 
 ## <a name="create-and-deploy-template-apps"></a>템플릿 앱 만들기 및 배포
 
-*템플릿 앱*은 공개적으로, 종종 Microsoft AppSource에 배포되도록 설계되었습니다. 앱을 구축하고, 거의 또는 전혀 코딩을 사용하지 않고 모든 Power BI 고객에게 배포할 수 있습니다. 고객은 자신의 데이터에 연결하고 자신의 계정을 인스턴스화합니다. [Power BI 템플릿 앱](../connect-data/service-template-apps-overview.md)에 대해 자세히 알아봅니다.
+*템플릿 앱* 은 공개적으로, 종종 Microsoft AppSource에 배포되도록 설계되었습니다. 앱을 구축하고, 거의 또는 전혀 코딩을 사용하지 않고 모든 Power BI 고객에게 배포할 수 있습니다. 고객은 자신의 데이터에 연결하고 자신의 계정을 인스턴스화합니다. [Power BI 템플릿 앱](../connect-data/service-template-apps-overview.md)에 대해 자세히 알아봅니다.
 
 ## <a name="share-a-dataset"></a>데이터 세트 공유
 
@@ -158,7 +158,7 @@ Power BI 보고서는 한 번에 한 페이지만 인쇄할 수 있습니다. �
 
 ## <a name="create-dataflows"></a>데이터 흐름 만들기
 
-데이터 흐름은 개별 원본의 데이터를 통합하고 모델링을 준비하는 셀프서비스 방식입니다. 분석가는 빅 데이터를 수집, 변환, 통합 및 보강하기 위한 데이터 흐름을 만듭니다. Power BI 서비스의 작업 영역에서 데이터 흐름을 만들고 관리합니다. [데이터 흐름을 사용하여 셀프서비스 데이터 준비](../transform-model/service-dataflows-overview.md)에 대해 자세히 알아보세요.
+데이터 흐름은 개별 원본의 데이터를 통합하고 모델링을 준비하는 셀프서비스 방식입니다. 분석가는 빅 데이터를 수집, 변환, 통합 및 보강하기 위한 데이터 흐름을 만듭니다. Power BI 서비스의 작업 영역에서 데이터 흐름을 만들고 관리합니다. [데이터 흐름을 사용하여 셀프서비스 데이터 준비](../transform-model/dataflows/dataflows-introduction-self-service.md)에 대해 자세히 알아보세요.
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/28/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 6ff1f445172c553116148ffb212129b96f34b1da
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: cb8ac0ad558f15219829e9f32111cacf9f27eb25
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916018"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483745"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium이란?
 
@@ -96,7 +96,7 @@ Power BI Premium을 사용하면 *전용 용량* 을 가져올 수 있습니다.
 
 ### <a name="capacity-workloads"></a>용량 워크로드
 
-용량 워크로드는 사용자가 사용할 수 있도록 만든 서비스입니다. 기본적으로 프리미엄 및 Azure 용량은 Power BI 쿼리 실행과 관련된 데이터 세트 워크로드만 지원합니다. 데이터 세트 워크로드를 비활성화할 수 없습니다. 추가 워크로드는 [AI(Cognitive Services)](https://powerbi.microsoft.com/blog/easy-access-to-ai-in-power-bi-preview/), [데이터 흐름](../transform-model/service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium) 및 [페이지를 매긴 보고서](../paginated-reports/paginated-reports-save-to-power-bi-service.md)에 대해 활성화할 수 있습니다. 이러한 워크로드는 프리미엄 구독에서만 지원됩니다. 
+용량 워크로드는 사용자가 사용할 수 있도록 만든 서비스입니다. 기본적으로 프리미엄 및 Azure 용량은 Power BI 쿼리 실행과 관련된 데이터 세트 워크로드만 지원합니다. 데이터 세트 워크로드를 비활성화할 수 없습니다. 추가 워크로드는 [AI(Cognitive Services)](https://powerbi.microsoft.com/blog/easy-access-to-ai-in-power-bi-preview/), [데이터 흐름](../transform-model/dataflows/dataflows-introduction-self-service.md) 및 [페이지를 매긴 보고서](../paginated-reports/paginated-reports-save-to-power-bi-service.md)에 대해 활성화할 수 있습니다. 이러한 워크로드는 프리미엄 구독에서만 지원됩니다. 
 
 각 추가 워크로드는 워크로드에서 사용할 수 있는 최대 메모리(사용 가능한 총 메모리의 백분율)를 구성할 수 있습니다. 최대 메모리의 기본값은 SKU에 의해 결정됩니다. 해당 추가 워크로드만 사용할 수 있도록 설정하여 용량의 사용 가능한 리소스를 최대화할 수 있습니다. 또한 기본 설정이 용량 리소스 요구 사항을 충족하지 않는다고 결정한 경우에만 메모리 설정을 변경합니다. [관리 포털](service-admin-portal.md)에서 **용량 설정** 을 사용하거나 [용량 REST API](/rest/api/power-bi/capacities)를 사용하여 워크로드를 사용하도록 설정하고 구성할 수 있습니다.  
 
@@ -235,7 +235,7 @@ Premium을 사용하면 조직의 내외에 있는 누구나 개별 라이선스
 
 자세한 내용은 [Power BI 라이선스](service-admin-licensing-organization.md)를 참조하세요.
 
-## <a name="analysis-services-in-power-bi-premium-preview"></a>Power BI Premium의 Analysis Services(미리 보기)
+## <a name="analysis-services-in-power-bi-premium"></a>Power BI 프리미엄의 Analysis Services
 
 내부적으로 엔터프라이즈에서 입증된 Microsoft **Analysis Services Vertipaq 엔진** 은 Power BI Premium 작업 영역 및 데이터 세트를 구동합니다. Analysis Services는 개방형 표준 XMLA 프로토콜을 지원하는 클라이언트 라이브러리 및 API를 통해 프로그래밍 기능과 클라이언트 애플리케이션 및 도구 지원을 제공합니다. 기본적으로 Power BI Premium 용량 데이터 세트 워크로드는 **XMLA 엔드포인트** 를 통해 Microsoft 및 타사 클라이언트 애플리케이션 및 도구에서 *읽기 전용* 작업을 지원합니다. 또한 용량 관리자는 엔드포인트를 통해 *읽기/쓰기* 작업을 사용하지 않도록 설정하거나 허용하도록 선택할 수 있습니다.
 

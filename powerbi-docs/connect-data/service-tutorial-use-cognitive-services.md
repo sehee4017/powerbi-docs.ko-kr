@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 934ffa649885b270dd7f321f45168723f53bc379
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 406a2aebbf5d043ce74ca189c18b384f6c70e716
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600351"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397188"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>자습서:  Power BI에서 Cognitive Services 사용
 
@@ -48,17 +48,17 @@ Cognitive Services 변환은 [데이터 흐름을 위한 셀프 서비스 데이
 
 ![만들기, 대시보드가 차례로 선택된 Power BI 작업 영역을 보여 주는 스크린샷.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_01.png)
 
-데이터 흐름 대화 상자에 새 데이터 흐름 만들기를 위한 옵션이 표시되면 **새 엔터티 추가**를 선택합니다. 그런 다음, 데이터 원본 메뉴에서 **텍스트/CSV**를 선택합니다.
+데이터 흐름 대화 상자에 새 데이터 흐름 만들기를 위한 옵션이 표시되면 **새 엔터티 추가** 를 선택합니다. 그런 다음, 데이터 원본 메뉴에서 **텍스트/CSV** 를 선택합니다.
 
 ![텍스트/CSV를 포함하는 데이터 원본 선택을 보여 주는 스크린샷.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_02.png)
 
-URL [https://pbiaitutorials.blob.core.windows.net/textanalytics/FabrikamComments.csv](https://pbiaitutorials.blob.core.windows.net/textanalytics/FabrikamComments.csv)를 URL 필드에 붙여넣고 **다음**을 클릭합니다.
+URL [https://pbiaitutorials.blob.core.windows.net/textanalytics/FabrikamComments.csv](https://pbiaitutorials.blob.core.windows.net/textanalytics/FabrikamComments.csv)를 URL 필드에 붙여넣고 **다음** 을 클릭합니다.
 
 ![URL을 입력하는 데이터 원본에 연결을 보여 주는 스크린샷.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_03.png)
 
 이제 데이터를 텍스트 분석에 사용할 준비가 되었습니다. 고객 의견 열에서 감정 점수 매기기 및 핵심 구 추출을 사용할 수 있습니다.
 
-파워 쿼리 편집기에서 **AI 인사이트**를 선택합니다.
+파워 쿼리 편집기에서 **AI 인사이트** 를 선택합니다.
 
 ![모든 인사이트가 선택된 쿼리 편집을 보여 주는 스크린샷.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_04.png)
 
@@ -70,13 +70,13 @@ URL [https://pbiaitutorials.blob.core.windows.net/textanalytics/FabrikamComments
 
 ![텍스트 드롭다운 메뉴가 있는 함수 호출 대화 상자를 보여 주는 스크린샷.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_06.png)
 
-이제 **호출**을 선택하여 함수를 실행합니다. 각 행의 감정 점수가 포함된 새 열이 테이블에 추가됩니다. **AI 인사이트**로 다시 돌아가 동일한 방식으로 리뷰 텍스트의 핵심 구를 추출할 수 있습니다.
+이제 **호출** 을 선택하여 함수를 실행합니다. 각 행의 감정 점수가 포함된 새 열이 테이블에 추가됩니다. **AI 인사이트** 로 다시 돌아가 동일한 방식으로 리뷰 텍스트의 핵심 구를 추출할 수 있습니다.
 
-변환이 완료되면 쿼리 이름을 ‘고객 의견’으로 변경하고 **완료**를 선택합니다.
+변환이 완료되면 쿼리 이름을 ‘고객 의견’으로 변경하고 **완료** 를 선택합니다.
 
 ![이름이 호출된 쿼리 편집을 보여 주는 스크린샷.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_07.png)
 
-그런 다음, 이 데이터 흐름을 **저장**하고 Fabrikam으로 이름을 지정합니다. 데이터 흐름을 저장한 후 표시되는 **지금 새로 고침** 단추를 선택합니다.
+그런 다음, 이 데이터 흐름을 **저장** 하고 Fabrikam으로 이름을 지정합니다. 데이터 흐름을 저장한 후 표시되는 **지금 새로 고침** 단추를 선택합니다.
 
 ![저장 단추를 보여 주는 스크린샷.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_08.png)
 
@@ -84,9 +84,9 @@ URL [https://pbiaitutorials.blob.core.windows.net/textanalytics/FabrikamComments
 
 ### <a name="step-2-connect-from-power-bi-desktop"></a>2단계: Power BI Desktop에서 연결
 
-Power BI Desktop을 엽니다. 홈 리본에서 **데이터 가져오기**를 선택합니다.
+Power BI Desktop을 엽니다. 홈 리본에서 **데이터 가져오기** 를 선택합니다.
 
-Power BI 섹션의 **Power BI 데이터 흐름(베타**)으로 이동하여 **연결**을 선택합니다.
+Power BI 섹션의 **Power BI 데이터 흐름(베타** )으로 이동하여 **연결** 을 선택합니다.
 
 ![Power BI 데이터 흐름이 선택된 데이터 가져오기 창을 보여 주는 스크린샷.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_09.png)
 
@@ -94,7 +94,7 @@ Power BI 섹션의 **Power BI 데이터 흐름(베타**)으로 이동하여 **�
 
 ![조직 계정의 로그인 메시지를 보여 주는 스크린샷.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_10.png)
 
-방금 만든 데이터 흐름을 선택합니다. 고객 의견 테이블로 이동하여 **로드**를 클릭합니다.
+방금 만든 데이터 흐름을 선택합니다. 고객 의견 테이블로 이동하여 **로드** 를 클릭합니다.
 
 ![고객 의견 테이블이 선택된 탐색기를 보여 주는 스크린샷.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_11.png)
 
@@ -106,11 +106,11 @@ Power BI 섹션의 **Power BI 데이터 흐름(베타**)으로 이동하여 **�
 
 ![만들기, 데이터 흐름이 차례로 선택된 Power BI 작업 영역을 보여 주는 스크린샷.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_12.png)
 
-**새 엔터티 추가**를 선택합니다.
+**새 엔터티 추가** 를 선택합니다.
 
 ![워크플로 만들기를 시작하기 위해 새 엔터티를 추가하는 옵션을 보여 주는 스크린샷.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_13.png)
 
-데이터 원본을 선택하라는 요청을 받으면 **빈 쿼리**를 선택합니다.
+데이터 원본을 선택하라는 요청을 받으면 **빈 쿼리** 를 선택합니다.
 
 ![빈 쿼리를 포함하는 데이터 원본 선택을 보여 주는 스크린샷.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_14.png)
 
@@ -138,15 +138,15 @@ in
 
 각각의 개별 웹 페이지에 대한 자격 증명을 묻는 메시지가 표시됩니다.
 
-쿼리 편집기에서 **AI 인사이트**를 선택합니다.
+쿼리 편집기에서 **AI 인사이트** 를 선택합니다.
 
 ![모든 인사이트가 선택되고 하나의 경고가 표시된 쿼리 편집을 보여 주는 스크린샷.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_18.png)
 
-그런 다음, **조직 계정**으로 로그인합니다.
+그런 다음, **조직 계정** 으로 로그인합니다.
 
 ![조직 계정을 지정할 수 있는 자격 증명 입력 대화 상자를 보여 주는 스크린샷.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_19.png)
 
-이미지 태그 지정 함수를 선택하고 열 필드에 _[이진]_ , 문화권 정보 필드 _en_을 입력합니다. 
+이미지 태그 지정 함수를 선택하고 열 필드에 _[이진]_ , 문화권 정보 필드 _en_ 을 입력합니다. 
 
 > [!NOTE]
 > 현재는 드롭다운을 사용하여 열을 선택할 수 없습니다. 이 문제는 프라이빗 미리 보기 기간에 최대한 신속하게 해결될 것입니다.
@@ -164,22 +164,22 @@ in
 
 ![두 개의 반대 방향 화살표가 있는 확장 단추를 보여 주는 스크린샷.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_22.png)
 
-**완료**를 선택하고 데이터 흐름을 저장합니다. 데이터 흐름 하나를 새로 고친 후에는 Power BI Desktop에서 데이터 흐름 커넥터를 사용하여 해당 데이터 흐름에 연결할 수 있습니다. 이 문서 5페이지의 단계를 참조하세요.
+**완료** 를 선택하고 데이터 흐름을 저장합니다. 데이터 흐름 하나를 새로 고친 후에는 Power BI Desktop에서 데이터 흐름 커넥터를 사용하여 해당 데이터 흐름에 연결할 수 있습니다. 이 문서 5페이지의 단계를 참조하세요.
 
 ## <a name="clean-up-resources"></a>리소스 정리
 
-쿼리가 더 이상 필요하지 않은 경우 파워 쿼리 편집기에서 쿼리 이름을 마우스 오른쪽 단추로 클릭하고 **삭제**를 선택하여 쿼리를 삭제합니다.
+쿼리가 더 이상 필요하지 않은 경우 파워 쿼리 편집기에서 쿼리 이름을 마우스 오른쪽 단추로 클릭하고 **삭제** 를 선택하여 쿼리를 삭제합니다.
 
 ## <a name="next-steps"></a>다음 단계
 
 이 자습서에서는 감정 점수 매기기 및 이미지 태그 지정 함수를 Power BI 데이터 흐름에 적용했습니다. Power BI에서 Cognitive Services를 사용하는 방법을 자세히 알아보려면 다음 문서를 읽어보세요.
 
 * [Azure의 Cognitive Services](/azure/cognitive-services/)
-* [데이터 흐름에 대한 셀프 서비스 데이터 준비](../transform-model/service-dataflows-overview.md) 시작하기
+* [데이터 흐름에 대한 셀프 서비스 데이터 준비](../transform-model/dataflows/dataflows-introduction-self-service.md) 시작하기
 * [Power BI Premium](https://powerbi.microsoft.com/power-bi-premium/)에 대한 자세한 정보
 
 다음 문서에도 관심이 있을 수 있습니다.
 
 * [자습서: Power BI에서 Machine Learning Studio(클래식) 모델 호출(미리 보기)](service-tutorial-invoke-machine-learning-model.md)
-* [Power BI에서 Azure Machine Learning 통합(미리 보기)](../transform-model/service-machine-learning-integration.md)
-* [Power BI에서 Cognitive Services 사용(미리 보기)](../transform-model/service-cognitive-services.md)
+* [Power BI에서 Azure Machine Learning 통합(미리 보기)](../transform-model/dataflows/dataflows-machine-learning-integration.md)
+* [Power BI에서 Cognitive Services 사용(미리 보기)](../transform-model/dataflows/dataflows-machine-learning-integration.md)

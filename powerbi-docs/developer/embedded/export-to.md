@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 10/01/2020
-ms.openlocfilehash: f997547bb61bf203f7806dbe68d45beb29c6538b
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.openlocfilehash: b1d0a94e3dd0ae68231720bc69d2537568efd19f
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116457"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396797"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>파일로 Power BI 보고서 내보내기(미리 보기)
 
@@ -52,7 +52,7 @@ API를 사용하기 전에 다음 [관리자 테넌트 설정](../../admin/servi
 
 ### <a name="bookmarks"></a>책갈피
 
-[책갈피](../../consumer/end-user-bookmarks.md)는 적용된 필터 및 보고서 시각적 개체의 상태를 포함하여 특정 구성으로 보고서를 저장하는 데 사용할 수 있습니다. [exportToFile](https://docs.microsoft.com/rest/api/power-bi/reports/exporttofile) API를 사용하여 다음과 같은 두 가지 방법으로 보고서의 책갈피를 프로그래밍 방식으로 내보낼 수 있습니다.
+[책갈피](../../consumer/end-user-bookmarks.md)는 적용된 필터 및 보고서 시각적 개체의 상태를 포함하여 특정 구성으로 보고서를 저장하는 데 사용할 수 있습니다. [exportToFile](/rest/api/power-bi/reports/exporttofile) API를 사용하여 다음과 같은 두 가지 방법으로 보고서의 책갈피를 프로그래밍 방식으로 내보낼 수 있습니다.
 
 * **기존 책갈피 내보내기**
 

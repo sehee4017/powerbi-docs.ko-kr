@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7e2019d3b554bc4e033c7aee36c41216ba910a9f
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 4124799f15bbccd7c82428d1290ae2ae6420311f
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916846"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397119"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-classic-model-in-power-bi-preview"></a>자습서:  Power BI에서 Machine Learning Studio(클래식) 모델 호출(미리 보기)
 
@@ -180,4 +180,4 @@ Azure ML 모델 출력 미리 보기를 엔터티 테이블에 새 열로 표시
 - 데이터 흐름 만들기
 - Azure ML 모델의 인사이트를 데이터 흐름에 적용
 
-Power BI에서 Azure Machine Learning을 통합하는 작업에 대한 자세한 내용을 보려면 [Power BI에서 Azure Machine Learning 통합(미리 보기)](../transform-model/service-machine-learning-integration.md)을 참조하세요.
+Power BI에서 Azure Machine Learning을 통합하는 작업에 대한 자세한 내용을 보려면 [Power BI에서 Azure Machine Learning 통합(미리 보기)](../transform-model/dataflows/dataflows-machine-learning-integration.md)을 참조하세요.

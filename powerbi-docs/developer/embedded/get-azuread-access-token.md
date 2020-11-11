@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/04/2019
-ms.openlocfilehash: 8b20ee4fbac3c4b22bd420e49df0bc1fbfd6e300
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 0743a7ac0d12cba8bbde54464a275a78f7c88eff
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746611"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396705"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>Power BI 애플리케이션의 Azure AD 액세스 토큰 얻기
 
 이 문서에서는 Power BI 애플리케이션에서 사용자를 인증하고 [Power BI REST API](/rest/api/power-bi/)와 함께 사용할 액세스 토큰을 검색하는 방법을 보여줍니다.
 
-앱에서 REST API를 호출하기 전에 Azure AD(Azure Active Directory) **인증 액세스 토큰**을 가져와야 합니다. 앱은 토큰을 사용하여 Power BI 대시보드, 타일 및 보고서에 액세스합니다. 자세한 내용은 [OAuth 2.0 코드 부여 흐름을 사용하여 Azure Active Directory 웹 애플리케이션에 대한 액세스 권한 부여](/azure/active-directory/develop/v1-protocols-oauth-code)를 참조하세요.
+앱에서 REST API를 호출하기 전에 Azure AD(Azure Active Directory) **인증 액세스 토큰** 을 가져와야 합니다. 앱은 토큰을 사용하여 Power BI 대시보드, 타일 및 보고서에 액세스합니다. 자세한 내용은 [OAuth 2.0 코드 부여 흐름을 사용하여 Azure Active Directory 웹 애플리케이션에 대한 액세스 권한 부여](/azure/active-directory/develop/v1-protocols-oauth-code)를 참조하세요.
 
 콘텐츠를 포함하는 방법에 따라 액세스 토큰이 다르게 검색됩니다. 이 문서에서는 두 가지 다른 방법을 보여줍니다.
 
@@ -29,7 +29,7 @@ ms.locfileid: "91746611"
 
 ### <a name="get-an-azure-ad-authorization-code"></a>Azure AD 인증 코드 가져오기
 
-**액세스 토큰**을 가져오는 첫 번째 단계는 **Azure AD**에서 인증 코드를 가져오는 것입니다. 다음 속성을 포함하는 쿼리 문자열을 생성하고 **Azure AD**에 리디렉션합니다.
+**액세스 토큰** 을 가져오는 첫 번째 단계는 **Azure AD** 에서 인증 코드를 가져오는 것입니다. 다음 속성을 포함하는 쿼리 문자열을 생성하고 **Azure AD** 에 리디렉션합니다.
 
 #### <a name="authorization-code-query-string"></a>인증 코드 쿼리 문자열
 
@@ -53,9 +53,9 @@ var @params = new NameValueCollection
 };
 ```
 
-쿼리 문자열을 생성한 후에 **Azure AD**를 리디렉션하여 **인증 코드**를 가져옵니다.  다음은 **인증 코드** 쿼리 문자열을 생성하고 **Azure AD**에 리디렉션하는 전체 C# 메서드입니다. 그런 다음, **권한 부여 코드**를 사용하여 **액세스 토큰**을 가져옵니다.
+쿼리 문자열을 생성한 후에 **Azure AD** 를 리디렉션하여 **인증 코드** 를 가져옵니다.  다음은 **인증 코드** 쿼리 문자열을 생성하고 **Azure AD** 에 리디렉션하는 전체 C# 메서드입니다. 그런 다음, **권한 부여 코드** 를 사용하여 **액세스 토큰** 을 가져옵니다.
 
-redirect.aspx.cs 내의 [AuthenticationContext.AcquireTokenByAuthorizationCode](/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenbyauthorizationcodeasync?view=azure-dotnet#Microsoft_IdentityModel_Clients_ActiveDirectory_AuthenticationContext_AcquireTokenByAuthorizationCodeAsync_System_String_System_Uri_Microsoft_IdentityModel_Clients_ActiveDirectory_ClientCredential_System_String_)가 토큰을 생성하기 위해 호출됩니다.
+redirect.aspx.cs 내의 [AuthenticationContext.AcquireTokenByAuthorizationCode](/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenbyauthorizationcodeasync#Microsoft_IdentityModel_Clients_ActiveDirectory_AuthenticationContext_AcquireTokenByAuthorizationCodeAsync_System_String_System_Uri_Microsoft_IdentityModel_Clients_ActiveDirectory_ClientCredential_System_String_)가 토큰을 생성하기 위해 호출됩니다.
 
 #### <a name="get-authorization-code"></a>인증 코드 가져오기
 
@@ -97,7 +97,7 @@ protected void signInButton_Click(object sender, EventArgs e)
 
 ### <a name="get-an-access-token-from-authorization-code"></a>인증 코드에서 액세스 토큰 가져오기
 
-**Azure AD**가 **권한 부여 코드**를 사용하여 웹앱에 다시 리디렉션되면, 이를 사용하여 액세스 토큰을 가져올 수 있습니다. 다음은 리디렉션 페이지와 default.aspx의 `Page_Load` 이벤트에 사용할 수 있는 C# 샘플입니다.
+**Azure AD** 가 **권한 부여 코드** 를 사용하여 웹앱에 다시 리디렉션되면, 이를 사용하여 액세스 토큰을 가져올 수 있습니다. 다음은 리디렉션 페이지와 default.aspx의 `Page_Load` 이벤트에 사용할 수 있는 C# 샘플입니다.
 
 **Microsoft.IdentityModel.Clients.ActiveDirectory** 네임스페이스는 [Active Directory 인증 라이브러리](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/) NuGet 패키지에서 검색할 수 있습니다.
 
@@ -177,7 +177,7 @@ protected void Page_Load(object sender, EventArgs e)
 #### <a name="embedservicecs"></a>EmbedService.cs
 
 ```csharp
-var AuthorityURL  = "https://login.microsoftonline.com/common/"
+var AuthorityURL  = "https://login.microsoftonline.com/<TenantId>/"
 var ResourceURL  = "https://analysis.windows.net/powerbi/api"
 var authenticationContext = new AuthenticationContext(AuthorityUrl);
        AuthenticationResult authenticationResult = null;

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b8811d9b869d4aa3592c9ed3531d067701b544a8
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 89de77e65d8eb675d9e80c3b2497f39af7c32d33
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91638366"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396590"
 ---
 # <a name="dataflows-limitations-and-considerations"></a>데이터 흐름 제한 사항 및 고려 사항
 
@@ -24,7 +24,7 @@ ms.locfileid: "91638366"
 
 데이터 흐름을 작성할 때 사용자는 다음 고려 사항에 유의해야 합니다.
 
-* 데이터 흐름의 작성은 PQO(Power Query Online) 환경에서 수행됩니다. [파워 쿼리 제한](https://docs.microsoft.com/power-query/power-query-online-limits)에 설명된 제한 사항을 참조하세요.
+* 데이터 흐름의 작성은 PQO(Power Query Online) 환경에서 수행됩니다. [파워 쿼리 제한](/power-query/power-query-online-limits)에 설명된 제한 사항을 참조하세요.
 데이터 흐름 작성은 PQO(Power Query Online) 환경에서 수행되기 때문에 데이터 흐름 워크로드 구성에서 수행되는 업데이트는 새로 고침에만 영향을 주며 작성 환경에는 영향을 주지 않습니다.
 
 * 데이터 흐름은 소유자만 수정할 수 있습니다.
@@ -37,7 +37,7 @@ ms.locfileid: "91638366"
 
 ## <a name="api-considerations"></a>API 고려 사항
 
-지원되는 데이터 흐름 REST API에 관한 자세한 내용은 [REST API 참조](https://docs.microsoft.com/rest/api/power-bi/dataflows)에서 찾을 수 있습니다. 유의해야 하는 몇 가지 고려 사항은 다음과 같습니다.
+지원되는 데이터 흐름 REST API에 관한 자세한 내용은 [REST API 참조](/rest/api/power-bi/dataflows)에서 찾을 수 있습니다. 유의해야 하는 몇 가지 고려 사항은 다음과 같습니다.
 
 * 데이터 흐름 내보내기 및 가져오기를 수행하면 해당 데이터 흐름에 새 ID가 제공됩니다.
 
@@ -75,7 +75,7 @@ ms.locfileid: "91638366"
 
 * 온-프레미스 데이터 원본에서 해당 데이터를 가져오는 일반 엔터티를 사용하여 연결된 엔터티를 조인할 수 없습니다.
 
-* 데이터 흐름에서 하나의 쿼리(예: 쿼리 *A*)가 다른 쿼리(쿼리 *B*)의 계산에 사용되는 경우, 쿼리 *B*는 계산된 엔터티가 됩니다. 계산된 엔터티는 온-프레미스 원본을 참조할 수 없습니다.
+* 데이터 흐름에서 하나의 쿼리(예: 쿼리 *A* )가 다른 쿼리(쿼리 *B* )의 계산에 사용되는 경우, 쿼리 *B* 는 계산된 엔터티가 됩니다. 계산된 엔터티는 온-프레미스 원본을 참조할 수 없습니다.
 
 
 **컴퓨팅 엔진:**
@@ -111,4 +111,3 @@ ms.locfileid: "91638366"
 * [Azure Data Lake Gen 2를 사용하도록 데이터 흐름 스토리지 구성](dataflows-azure-data-lake-storage-integration.md)
 * [데이터 흐름의 프리미엄 기능](dataflows-premium-features.md)
 * [데이터 흐름에서 AI 사용](dataflows-machine-learning-integration.md)
-

@@ -10,12 +10,12 @@ ms.date: 10/30/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: fe4f9c54b45035cc22f2e582a75ba98d648c549d
-ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
+ms.openlocfilehash: c90d15c20b54a25ccea5865302753e0189359be2
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "93132370"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396107"
 ---
 # <a name="power-bi-for-us-government-customers"></a>미국 정부 기관 고객용 Power BI
 
@@ -124,8 +124,8 @@ SQL 데이터베이스에 대한 방화벽을 설정하려면 [IP 방화벽 규�
 |[데이터 기반 경고를 위한 Power Automate 연결](../connect-data/power-bi-data-sources.md)|![사용 가능](../media/yes.png)|![사용 가능](../media/yes.png)|![사용할 수 없음](../media/no.png)|
 |[Teams의 Power BI 탭](../collaborate-share/service-collaborate-microsoft-teams.md)<sup>2</sup>|![사용 가능](../media/yes.png)|![사용할 수 없음](../media/no.png)|![사용할 수 없음](../media/no.png)|
 |[대형 모델](service-premium-large-models.md) | 2020 Q4 |2020 Q4| ![사용할 수 없음](../media/no.png) |
-|[데이터 흐름 - SQL 컴퓨팅 엔진 최적화](../transform-model/service-dataflows-enhanced-compute-engine.md) | 2020 Q4 |2020 Q4| ![사용할 수 없음](../media/no.png) |
-|[데이터 흐름 - 직접 쿼리](../transform-model/service-dataflows-directquery.md) | 2020 Q4 |2020 Q4|![사용할 수 없음](../media/no.png)|
+|[데이터 흐름 - SQL 컴퓨팅 엔진 최적화](../transform-model/dataflows/dataflows-premium-features.md) | 2020 Q4 |2020 Q4| ![사용할 수 없음](../media/no.png) |
+|[데이터 흐름 - 직접 쿼리](../transform-model/dataflows/dataflows-configure-consume.md) | 2020 Q4 |2020 Q4|![사용할 수 없음](../media/no.png)|
 |[데이터 보호(MIP 레이블)](service-security-sensitivity-label-overview.md)|2020 Q4|2020 Q4 |2020 Q4|
 |[템플릿 앱](../connect-data/service-template-apps-overview.md)<sup>3</sup>|2020 Q4 |2020 Q4| 2020 Q4|
 |[사용자 지정 시각적 개체](../developer/visuals/power-bi-custom-visuals.md)<sup>3</sup>|2020 Q4 |2020 Q4| 2020 Q4|

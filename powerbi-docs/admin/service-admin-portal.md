@@ -10,12 +10,12 @@ ms.date: 10/22/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 464fdce94b41c3dc413088da6395520fea32c601
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: eb7a2dfeb78e60c78b1b3f17306aec91a8a55330
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462641"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397027"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
@@ -180,13 +180,13 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 
 관리자는 내부 URL을 지정하여 Power BI 도움말 메뉴 및 라이선스 업그레이드에 대한 링크 대상을 재정의할 수 있습니다. 사용자 지정 URL이 설정된 경우 조직의 사용자는 기본 대상 대신 내부 도움말 및 지원 리소스로 이동합니다. 다음 대상 리소스를 사용자 지정할 수 있습니다.
 
-* **알아보기** . 기본적으로 이 도움말 메뉴 링크는 [모든 Power BI 학습 경로 및 모듈의 목록](/learn/browse/?products=power-bi)을 대상으로 합니다. 대신 이 링크를 내부 학습 리소스에 전달하려면 **학습 설명서** 에 대하여 사용자 지정 URL을 설정하세요.
+* **알아보기**. 기본적으로 이 도움말 메뉴 링크는 [모든 Power BI 학습 경로 및 모듈의 목록](/learn/browse/?products=power-bi)을 대상으로 합니다. 대신 이 링크를 내부 학습 리소스에 전달하려면 **학습 설명서** 에 대하여 사용자 지정 URL을 설정하세요.
 
-* **커뮤니티** . 도움말 메뉴에서 사용자를 내부 포럼으로 이동하려면 [Power BI 커뮤니티](https://community.powerbi.com/) 대신 **토론 포럼** 에 대한 사용자 지정 URL을 설정합니다.
+* **커뮤니티**. 도움말 메뉴에서 사용자를 내부 포럼으로 이동하려면 [Power BI 커뮤니티](https://community.powerbi.com/) 대신 **토론 포럼** 에 대한 사용자 지정 URL을 설정합니다.
 
-* **라이선싱 업그레이드** . Power BI (무료) 라이선스를 사용하는 사용자에게는 서비스를 사용하는 동안 Power BI Pro로 계정을 업그레이드할 기회가 부여될 수 있습니다. **라이선싱 요청** 에 대한 내부 URL을 지정하는 경우 내부 요청 및 구매 흐름으로 사용자를 리디렉션하고 셀프 서비스 구매를 방지합니다. 사용자가 라이선스를 구입하는 것을 방지하고 사용자가 Power BI Pro 평가판을 시작할 수 있도록 허용하는 경우 구입 및 체험 환경을 분리하려면 [사용자가 Power BI Pro를 사용해 볼 수 있도록 허용](#allow-users-to-try-power-bi-pro)을 참조하세요.
+* **라이선싱 업그레이드**. Power BI (무료) 라이선스를 사용하는 사용자에게는 서비스를 사용하는 동안 Power BI Pro로 계정을 업그레이드할 기회가 부여될 수 있습니다. **라이선싱 요청** 에 대한 내부 URL을 지정하는 경우 내부 요청 및 구매 흐름으로 사용자를 리디렉션하고 셀프 서비스 구매를 방지합니다. 사용자가 라이선스를 구입하는 것을 방지하고 사용자가 Power BI Pro 평가판을 시작할 수 있도록 허용하는 경우 구입 및 체험 환경을 분리하려면 [사용자가 Power BI Pro를 사용해 볼 수 있도록 허용](#allow-users-to-try-power-bi-pro)을 참조하세요.
 
-* **도움말 보기** . 도움말 메뉴에서 사용자를 내부 지원 센터로 이동하려면 [Power BI 지원](https://powerbi.microsoft.com/support/) 대신 **지원 센터** 에 대한 사용자 지정 URL을 설정합니다.
+* **도움말 보기**. 도움말 메뉴에서 사용자를 내부 지원 센터로 이동하려면 [Power BI 지원](https://powerbi.microsoft.com/support/) 대신 **지원 센터** 에 대한 사용자 지정 URL을 설정합니다.
 
 ### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>서비스 중단 또는 인시던트에 대한 이메일 알림 받기
 
@@ -222,7 +222,7 @@ Office 365 보안 및 준수 센터에서 Power BI 감사 로그를 관리합니
 
 작업 영역은 사용자가 대시보드, 보고서 및 기타 콘텐츠에 대해 협업할 수 있는 장소입니다. 관리자는 **작업 영역(새 작업 영역 환경) 만들기** 설정을 사용하여 조직에서 작업 영역을 만들 수 있는 사용자를 표시합니다. 관리자는 조직의 모든 사용자가 새 작업 영역 환경 작업 영역을 만들도록 허용 또는 금지할 수 있습니다. 특정 보안 그룹의 구성원으로만 만들기를 제한할 수도 있습니다. [작업 영역](../collaborate-share/service-new-workspaces.md)에 대해 자세히 알아보세요.
 
-:::image type="content" source="media/service-admin-portal/power-bi-admin-workspace-settings.png" alt-text="관리 포털의 새 디자인 사용 안 함 옵션 스크린샷":::
+:::image type="content" source="media/service-admin-portal/power-bi-admin-workspace-settings.png" alt-text="새 작업 영역 환경 만들기":::
 
 Microsoft 365 그룹을 기반으로 하는 클래식 작업 영역의 경우 관리 포털 및 Azure Active Directory에서 관리가 계속 수행됩니다.
 
@@ -241,7 +241,7 @@ Microsoft 365 그룹을 기반으로 하는 클래식 작업 영역의 경우 �
 
 관리자는 조직에서 작업 영역의 데이터 세트를 사용할 수 있는 사용자를 제어할 수 있습니다. 이 설정을 활성화하면 사용자는 특정 데이터 세트에 대해 필수 빌드 권한이 계속 필요합니다.
 
-:::image type="content" source="media/service-admin-portal/power-bi-admin-datasets-workspaces.png" alt-text="관리 포털의 새 디자인 사용 안 함 옵션 스크린샷":::
+:::image type="content" source="media/service-admin-portal/power-bi-admin-datasets-workspaces.png" alt-text="작업 영역에서 데이터 세트 사용":::
 
 자세한 내용은 [작업 영역 데이터 세트 소개](../connect-data/service-datasets-across-workspaces.md)를 참조하세요.
 
@@ -407,7 +407,7 @@ Azure AD B2B 게스트 사용자는 조직의 콘텐츠를 편집하고 관리�
 
 **테넌트 설정** 아래의 **주요 테이블에 대한 연결 허용** 설정을 사용하면 Power BI 관리자가 조직에서 Excel 데이터 형식 갤러리의 주요 테이블을 사용할 수 있는 사용자를 제어할 수 있습니다. 
 
-:::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="관리 포털의 새 디자인 사용 안 함 옵션 스크린샷":::
+:::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="주요 테이블에 대한 모든 연결":::
 
 **데이터 내보내기** 설정이 **사용 안 함** 으로 설정되면 주요 테이블에 대한 연결도 사용할 수 없습니다.
 
@@ -477,7 +477,7 @@ Azure AD(Azure Active Directory)에 등록된 웹앱은 할당된 서비스 주�
 
 ### <a name="create-and-use-dataflows"></a>데이터 흐름 만들기 및 사용
 
-조직의 사용자가 데이터 흐름을 만들고 사용할 수 있습니다. 데이터 흐름 개요는 [Power BI의 셀프 서비스 데이터 준비](../transform-model/service-dataflows-overview.md)를 참조하세요. 프리미엄 용량에 대한 데이터 흐름을 사용하려면 [워크로드 구성](service-admin-premium-workloads.md)을 참조하세요.
+조직의 사용자가 데이터 흐름을 만들고 사용할 수 있습니다. 데이터 흐름 개요는 [Power BI의 셀프 서비스 데이터 준비](../transform-model/dataflows/dataflows-introduction-self-service.md)를 참조하세요. 프리미엄 용량에 대한 데이터 흐름을 사용하려면 [워크로드 구성](service-admin-premium-workloads.md)을 참조하세요.
 
 > [!NOTE]
 > 이 설정은 전체 조직에 적용되며 특정 그룹에 제한될 수 없습니다.
@@ -534,7 +534,7 @@ Power BI 시각적 개체 테넌트 설정을 비롯한 모든 Power BI 시각�
 
 ### <a name="tenant-level-storage-preview"></a>테넌트 수준 스토리지(미리 보기)
 
-기본적으로 Power BI에 사용되는 데이터는 Power BI에서 제공하는 내부 스토리지에 저장됩니다. 데이터 흐름 및 ADLS Gen2(Azure Data Lake Storage Gen2)를 통합하면 조직의 Azure Data Lake Storage Gen2 계정에 데이터 흐름을 저장할 수 있습니다. 자세한 내용은 [데이터 흐름 및 Azure Data Lake 통합(미리 보기)](../transform-model/service-dataflows-azure-data-lake-integration.md)을 참조하세요.
+기본적으로 Power BI에 사용되는 데이터는 Power BI에서 제공하는 내부 스토리지에 저장됩니다. 데이터 흐름 및 ADLS Gen2(Azure Data Lake Storage Gen2)를 통합하면 조직의 Azure Data Lake Storage Gen2 계정에 데이터 흐름을 저장할 수 있습니다. 자세한 내용은 [데이터 흐름 및 Azure Data Lake 통합(미리 보기)](../transform-model/dataflows/dataflows-azure-data-lake-storage-integration.md)을 참조하세요.
 
 ### <a name="workspace-level-storage-permissions-preview"></a>작업 영역 수준 스토리지 권한(미리 보기)
 

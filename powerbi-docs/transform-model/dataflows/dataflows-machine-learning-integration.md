@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a2622d2d3da5e4149e93a2b4b6f04dc87b55d9e1
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 5834230a59f6473624e955827dad36cdd75c04e5
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92917030"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397510"
 ---
 # <a name="ai-with-dataflows"></a>데이터 흐름에서 AI 사용
 
@@ -28,7 +28,7 @@ ms.locfileid: "92917030"
 
 Power BI에서 Cognitive Services를 사용하면 [Azure Cognitive Services](https://azure.microsoft.com/services/cognitive-services/)의 다양한 알고리즘을 적용하여 데이터 흐름을 위한 셀프 서비스 데이터 준비에서 데이터를 보강할 수 있습니다.
 
-현재 지원되는 서비스는 [감정 분석](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis), [핵심 구 추출](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction), [언어 감지](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection) 및 [이미지 태그 지정](https://docs.microsoft.com/azure/cognitive-services/computer-vision/concept-tagging-images)입니다. 변환은 Power BI 서비스에서 실행되므로 Azure Cognitive Services 구독이 필요하지 않습니다. 이 기능을 사용하려면 Power BI Premium이 필요합니다.
+현재 지원되는 서비스는 [감정 분석](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis), [핵심 구 추출](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction), [언어 감지](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection) 및 [이미지 태그 지정](/azure/cognitive-services/computer-vision/concept-tagging-images)입니다. 변환은 Power BI 서비스에서 실행되므로 Azure Cognitive Services 구독이 필요하지 않습니다. 이 기능을 사용하려면 Power BI Premium이 필요합니다.
 
 ### <a name="enabling-ai-features"></a>**AI 기능 사용**
 
@@ -72,7 +72,7 @@ Cognitive Services 변환은 [데이터 흐름을 위한 셀프 서비스 데이
 
 언어 감지 함수는 텍스트 입력을 평가하고 각 필드의 언어 이름 및 ISO 식별자를 반환합니다. 이 함수는 언어가 알려지지 않은, 임의 텍스트를 수집하는 데이터 열에 유용합니다. 이 함수에는 텍스트 형식의 데이터가 입력으로 사용되어야 합니다.
 
-Text Analytics에서는 최대 120개의 언어를 인식합니다. 자세한 내용은 [지원되는 언어](https://docs.microsoft.com/azure/cognitive-services/text-analytics/text-analytics-supported-languages)를 참조하세요.
+Text Analytics에서는 최대 120개의 언어를 인식합니다. 자세한 내용은 [지원되는 언어](/azure/cognitive-services/text-analytics/text-analytics-supported-languages)를 참조하세요.
 
 #### <a name="extract-key-phrases"></a>**핵심 구 추출**
 
@@ -88,7 +88,7 @@ Text Analytics는 기계 학습 분류 알고리즘을 사용하여 0에서 1 �
 
 감정 분석은 전체 입력 필드에서 수행되는 반면, 감정 추출은 텍스트의 특정 엔터티에 대해 수행됩니다. 실제로 문서에 크기가 큰 텍스트 블록이 아닌, 한 개 또는 두 개의 문장이 포함된 경우 점수 매기기 정확도가 향상되는 경향이 있습니다. 객관성 평가 단계에서는 하나의 입력 필드 전체가 객관적인지 감정이 포함되어 있는지를 모델이 결정합니다. 대부분 객관적인 입력 필드는 감정 감지 단계로 진행되지 않으며 추가 처리 없이 .50 점수를 받습니다. 파이프라인에서 계속 진행되는 입력 필드는 입력 필드에서 감지된 감정의 정도에 따라 .50을 초과 또는 미달하는 점수를 다음 단계에서 생성합니다.
 
-현재는 영어, 독일어, 스페인어 및 프랑스어가 감정 분석에서 지원됩니다. 다른 언어는 미리 보기 상태입니다. 자세한 내용은 [지원되는 언어](https://docs.microsoft.com/azure/cognitive-services/text-analytics/text-analytics-supported-languages)를 참조하세요.
+현재는 영어, 독일어, 스페인어 및 프랑스어가 감정 분석에서 지원됩니다. 다른 언어는 미리 보기 상태입니다. 자세한 내용은 [지원되는 언어](/azure/cognitive-services/text-analytics/text-analytics-supported-languages)를 참조하세요.
 
 #### <a name="tag-images"></a>**이미지 태그 지정**
 
@@ -96,7 +96,7 @@ Text Analytics는 기계 학습 분류 알고리즘을 사용하여 0에서 1 �
 
 이미지를 업로드하거나 이미지 URL을 지정하면 Computer Vision 알고리즘이 이미지에서 식별된 사물, 생물 및 동작을 기준으로 태그를 출력합니다. 태그 지정은 주요 대상(예: 전경에 있는 인물)으로 제한되지 않으며 설정(실내 또는 옥외), 가구, 도구, 식물, 동물, 액세서리, 장치 등도 포함합니다.
 
-이 함수는 입력으로 이미지 URL 또는 Base 64 필드가 필요합니다. 현재, 이미지 태그 지정에서는 영어, 스페인어, 일본어, 포르투갈어 및 중국어 간체가 지원됩니다. 자세한 내용은 [지원되는 언어](https://docs.microsoft.com/rest/api/cognitiveservices/computervision/tagimage/tagimage#uri-parameters)를 참조하세요.
+이 함수는 입력으로 이미지 URL 또는 Base 64 필드가 필요합니다. 현재, 이미지 태그 지정에서는 영어, 스페인어, 일본어, 포르투갈어 및 중국어 간체가 지원됩니다. 자세한 내용은 [지원되는 언어](/rest/api/cognitiveservices/computervision/tagimage/tagimage#uri-parameters)를 참조하세요.
 
 ## <a name="automated-machine-learning-in-power-bi"></a>Power BI의 자동화된 Machine Learning
 
@@ -114,7 +114,7 @@ Power BI의 AutoML을 사용하면 데이터 분석가가 Power BI 기술만 사
 
 AutoML은 데이터 흐름에 대한 **이진 예측** , **분류** 및 **회귀 모델** 생성을 지원합니다. 이러한 감독된 기계 학습 기술 유형은 이전 관찰에서 알려진 결과를 학습하여 다른 관찰의 결과를 예측할 수 있음을 의미합니다. AutoML 모델 학습을 위한 입력 데이터 세트는 알려진 결과로 **레이블이 지정된** 레코드 집합입니다.
 
-Power BI의 AutoML은 [Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)의 [자동화된 ML](https://docs.microsoft.com/azure/machine-learning/service/concept-automated-ml)을 통합하여 ML 모델을 만듭니다. 그러나 Power BI에서 AutoML을 사용하기 위해 Azure 구독이 필요하지는 않습니다. ML 모델을 학습 및 호스팅하는 프로세스는 전적으로 Power BI 서비스에 의해 관리됩니다.
+Power BI의 AutoML은 [Azure Machine Learning](/azure/machine-learning/service/overview-what-is-azure-ml)의 [자동화된 ML](/azure/machine-learning/service/concept-automated-ml)을 통합하여 ML 모델을 만듭니다. 그러나 Power BI에서 AutoML을 사용하기 위해 Azure 구독이 필요하지는 않습니다. ML 모델을 학습 및 호스팅하는 프로세스는 전적으로 Power BI 서비스에 의해 관리됩니다.
 
 ML 모델을 학습한 후 AutoML은 ML 모델의 성능에 대해 설명하는 Power BI 보고서를 자동으로 생성합니다. AutoML은 사용자 입력 중 모델에서 반환되는 예측에 영향을 주는 주요 영향 요인을 강조 표시하여 설명 기능을 강조합니다. 보고서에는 모델의 주요 메트릭도 포함됩니다.
 
@@ -374,8 +374,8 @@ Power BI 보고서에서 ML 모델의 인사이트 및 예측을 사용하려면
 
 Azure Machine Learning에 대해 자세히 알아보려면 다음을 참조하세요.
 
-- 개요:  [Azure Machine Learning이란 무엇인가요?](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)
-- Azure Machine Learning 빠른 시작 및 자습서:  [Azure Machine Learning 설명서](https://docs.microsoft.com/azure/machine-learning/)
+- 개요:  [Azure Machine Learning이란 무엇인가요?](/azure/machine-learning/service/overview-what-is-azure-ml)
+- Azure Machine Learning 빠른 시작 및 자습서:  [Azure Machine Learning 설명서](/azure/machine-learning/)
 
 > [!NOTE]
 > Azure Machine Learning 통합을 사용하려면 Power BI Premium 구독이 필요합니다.
@@ -387,7 +387,7 @@ Power BI에서 Azure ML 모델에 액세스하려면 사용자에게 Azure 구�
 - Machine Learning Studio(클래식) 모델의 경우 Machine Learning Studio(클래식) 웹 서비스에 대한 **읽기** 권한
 - Machine Learning 모델의 경우 Machine Learning 작업 영역에 대한 **읽기** 권한
 
-이 문서에서는 Power BI 사용자에게 Azure ML Service에 호스트된 모델에 대한 액세스 권한을 부여하는 방법을 설명합니다. 설명된 단계를 수행하면 Power BI 사용자가 파워 쿼리 함수로 이러한 모델에 액세스할 수 있습니다.  자세한 내용은 [RBAC 및 Azure Portal을 사용하여 액세스 관리](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal)를 참조하세요.
+이 문서에서는 Power BI 사용자에게 Azure ML Service에 호스트된 모델에 대한 액세스 권한을 부여하는 방법을 설명합니다. 설명된 단계를 수행하면 Power BI 사용자가 파워 쿼리 함수로 이러한 모델에 액세스할 수 있습니다.  자세한 내용은 [RBAC 및 Azure Portal을 사용하여 액세스 관리](/azure/role-based-access-control/role-assignments-portal)를 참조하세요.
 
 1. [Azure Portal](https://portal.azure.com)에 로그인합니다.
 
@@ -415,7 +415,7 @@ Power BI에서 Azure ML 모델에 액세스하려면 사용자에게 Azure 구�
 
 데이터 과학자는 주로 Python을 사용하여 Machine Learning의 기계 학습 모델을 개발하고 배포합니다.  모델의 스키마 파일을 만드는 작업을 자동화하는 데 도움이 되는 Machine Learning Studio(클래식)와 달리, Machine Learning의 경우 데이터 과학자가 Python을 사용하여 스키마 파일을 명시적으로 생성해야 합니다.
 
-이 스키마 파일은 Machine Learning 모델용으로 배포된 웹 서비스에 포함되어야 합니다. 웹 서비스용 스키마를 자동으로 생성하려면 배포된 모델의 항목 스크립트에 입/출력 샘플을 제공해야 합니다. [Azure Machine Learning Service 설명서를 사용하여 배포 모델의 (선택 사항) 자동 Swagger 스키마 생성](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where#optional-define-model-web-service-schema) 하위 섹션을 참조하세요. 이 링크에는 스키마 생성을 위한 명령문이 있는 예제 항목 스크립트가 포함됩니다. 
+이 스키마 파일은 Machine Learning 모델용으로 배포된 웹 서비스에 포함되어야 합니다. 웹 서비스용 스키마를 자동으로 생성하려면 배포된 모델의 항목 스크립트에 입/출력 샘플을 제공해야 합니다. [Azure Machine Learning Service 설명서를 사용하여 배포 모델의 (선택 사항) 자동 Swagger 스키마 생성](/azure/machine-learning/how-to-deploy-and-where#optional-define-model-web-service-schema) 하위 섹션을 참조하세요. 이 링크에는 스키마 생성을 위한 명령문이 있는 예제 항목 스크립트가 포함됩니다. 
 
 특히 항목 스크립트의 *\@input_schema* 및 *\@output_schema* 함수는 *input_sample* 및 *output_sample* 변수에서 입력 및 출력 샘플 형식을 참조하고, 이러한 샘플을 사용하여 배포 중에 웹 서비스에 대한 OpenAPI(Swagger) 사양을 생성합니다.
 
@@ -465,4 +465,4 @@ Azure ML 모델 출력 미리 보기를 엔터티 테이블에 새 열로 표시
 * [데이터 흐름 구성 및 사용](dataflows-configure-consume.md)
 * [Azure Data Lake Gen 2를 사용하도록 데이터 흐름 스토리지 구성](dataflows-azure-data-lake-storage-integration.md)
 * [데이터 흐름의 프리미엄 기능](dataflows-premium-features.md)
-* [데이터 흐름 제한 사항 및 고려 사항](dataflows-features-limitations.md) 
+* [데이터 흐름 제한 사항 및 고려 사항](dataflows-features-limitations.md)

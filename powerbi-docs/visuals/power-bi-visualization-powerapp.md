@@ -8,20 +8,20 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 06/01/2020
-ms.author: rien
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 78d9d59455a86c5499bc8b01deeacb331bbe7a8b
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c46410caff373eb8474a4b687e834b822f2da8ac
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858925"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397533"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>자습서:  Power BI 보고서에 Power Apps 시각적 개체 포함
 
 이 자습서에서는 Power Apps 시각적 개체를 사용하여 Power BI 보고서에 포함되는 새 앱을 만듭니다. 이 앱은 해당 보고서의 다른 시각적 개체와 상호 작용합니다.
 
-Power Apps 구독이 없는 경우 시작하기 전에 [무료 계정을 만듭니다](https://web.powerapps.com/signup?redirect=marketing&email=).
+Power Apps 구독이 없는 경우 시작하기 전에 [무료 계정을 만듭니다](https://make.powerapps.com/signup?redirect=marketing&email=).
 
 이 자습서에서는 다음 작업을 수행하는 방법을 알아봅니다.
 > [!div class="checklist"]
@@ -51,21 +51,21 @@ Power Apps 구독이 없는 경우 시작하기 전에 [무료 계정을 만듭�
 
     ![Power Apps 아이콘이 선택된 시각화 창](media/power-bi-visualization-powerapp/power-bi-powerapps-icon.jpg)
 
-3. **필드** 창에서 **이름**, **제품 코드** 및 **영업 스테이지**를 선택합니다. 
+3. **필드** 창에서 **이름** , **제품 코드** 및 **영업 스테이지** 를 선택합니다. 
 
     ![필드 선택](media/power-bi-visualization-powerapp/power-bi-fields.png)
 
-4. Power Apps 시각적 개체에서 앱을 만들려는 Power Apps 환경을 선택한 다음 **새로 만들기**를 선택합니다.
+4. Power Apps 시각적 개체에서 앱을 만들려는 Power Apps 환경을 선택한 다음 **새로 만들기** 를 선택합니다.
 
     ![새 앱 만들기](media/power-bi-visualization-powerapp/power-bi-create-new-powerapp.png)
 
-    Power Apps Studio를 통해 Power BI에서 선택한 필드 중 하나를 표시하는 *갤러리*가 있는 기본 앱이 만들어졌음을 알 수 있습니다.
+    Power Apps Studio를 통해 Power BI에서 선택한 필드 중 하나를 표시하는 *갤러리* 가 있는 기본 앱이 만들어졌음을 알 수 있습니다.
 
     ![Power Apps 열림](media/power-bi-visualization-powerapp/power-bi-power-app.png)
 
 5.  화면의 절반만 차지하도록 갤러리의 크기를 조정합니다. 
 
-6. 왼쪽 창에서 **Screen1**을 선택한 다음 화면의 **채우기** 속성을 "LightBlue"로 설정합니다(보고서에 더 잘 표시되도록).
+6. 왼쪽 창에서 **Screen1** 을 선택한 다음 화면의 **채우기** 속성을 "LightBlue"로 설정합니다(보고서에 더 잘 표시되도록).
 
     ![색상표](media/power-bi-visualization-powerapp/power-bi-powerapps-fill.png)
 
@@ -74,7 +74,7 @@ Power Apps 구독이 없는 경우 시작하기 전에 [무료 계정을 만듭�
     ![갤러리 크기 변경](media/power-bi-visualization-powerapp/power-bi-powerapps-gallery.png)
 
 
-8. **갤러리**에서 텍스트 레이블 컨트롤을 삽입합니다.
+8. **갤러리** 에서 텍스트 레이블 컨트롤을 삽입합니다.
 
    ![레이블 컨트롤](media/power-bi-visualization-powerapp/power-bi-label.png)
 
@@ -94,7 +94,7 @@ Power Apps 구독이 없는 경우 시작하기 전에 [무료 계정을 만듭�
 
 ![Power BI 보고서의 앱](media/power-bi-visualization-powerapp/power-bi-powerapps-visual.png)
 
-Power BI 보고서의 슬라이서에서 **1월**을 선택합니다. 이 경우 앱의 데이터를 포함하여 전체 보고서가 필터링됩니다.
+Power BI 보고서의 슬라이서에서 **1월** 을 선택합니다. 이 경우 앱의 데이터를 포함하여 전체 보고서가 필터링됩니다.
 
 ![필터링된 보고서](media/power-bi-visualization-powerapp/power-bi-last.png)
 

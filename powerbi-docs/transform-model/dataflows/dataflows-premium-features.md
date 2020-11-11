@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: ffd11a57267ef69aab7b999a29949c33163e52e8
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: e052816cb3d633ba5c01d0331e00572a9b51a579
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91638408"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397303"
 ---
 # <a name="premium-features-of-dataflows"></a>데이터 흐름의 프리미엄 기능
 
@@ -146,7 +146,7 @@ Power BI Premium 구독과 함께 사용할 때 기존 데이터 흐름을 참�
 
 ![증분 새로 고침](media/dataflows-premium-features/incremental-refresh.png)
 
-증분 새로 고침을 설정하면 날짜 범위를 지정하는 매개 변수가 데이터 흐름에 추가됩니다. 증분 새로 고침을 설정하는 방법에 대한 자세한 내용은 [증분 새로 고침](https://docs.microsoft.com/power-query/dataflows/incremental-refresh) 문서를 참조하세요.
+증분 새로 고침을 설정하면 날짜 범위를 지정하는 매개 변수가 데이터 흐름에 추가됩니다. 증분 새로 고침을 설정하는 방법에 대한 자세한 내용은 [증분 새로 고침](/power-query/dataflows/incremental-refresh) 문서를 참조하세요.
 
 ### <a name="considerations-for-when-not-to-set-incremental-refresh"></a>증분 새로 고침을 설정하지 않을 때의 고려 사항
 

@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 06/30/2018
-ms.openlocfilehash: f3f76bd7c422d07cb2b390c2aebd92a2d7fe4ef3
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 7d4a548ab24e8493cef340026642021a2f923ee1
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749049"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397418"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI 작업 영역 컬렉션 콘텐츠를 Power BI Embedded로 마이그레이션하는 방법
 
@@ -32,9 +32,9 @@ Power BI Embedded를 사용하면 단일 API 표면, 일관성 있는 기능 집
 새 Power BI Embedded에 마이그레이션을 시작하기 전에 [포함 설정 도구](https://aka.ms/embedsetup)를 사용하여 새 Power BI Embedded 환경을 설정할 수 있는 연습을 신속하게 설명할 수 있습니다.
 
 사용자에게 적합한 솔루션을 선택합니다.
-* **고객에 대한 콘텐츠 포함** - [앱 소유 데이터](https://aka.ms/embedsetup/AppOwnsData) 솔루션에 관심이 있는 경우입니다. [고객에 대한 콘텐츠를 포함](embedding.md#embedding-for-your-customers)하면 Power BI에 대한 계정이 없는 사용자에게 대시보드 및 보고서를 포함하는 기능을 제공합니다. 
+* **고객에 대한 콘텐츠 포함** - *앱 소유 데이터* 솔루션에 관심이 있는 경우입니다. [고객에 대한 콘텐츠를 포함](embedding.md#embedding-for-your-customers)하면 Power BI에 대한 계정이 없는 사용자에게 대시보드 및 보고서를 포함하는 기능을 제공합니다. 
 
-* **조직에 대한 콘텐츠 포함** - [사용자 소유 데이터](https://aka.ms/embedsetup/UserOwnsData) 솔루션에 관심이 있는 경우입니다. [조직에 대한 콘텐츠를 포함하면](embedding.md#embedding-for-your-organization) Power BI 서비스를 확장할 수 있습니다.
+* **조직에 대한 콘텐츠 포함** - *사용자 소유 데이터* 솔루션에 관심이 있는 경우입니다. [조직에 대한 콘텐츠를 포함하면](embedding.md#embedding-for-your-organization) Power BI 서비스를 확장할 수 있습니다.
 
 ## <a name="prepare-for-the-migration"></a>마이그레이션 준비
 
@@ -99,7 +99,7 @@ Power BI 내에서 작업 영역을 만들려면 Pro 라이선스가 있는 사�
 
 작업 영역 컬렉션에서 Power BI Embedded로 콘텐츠를 마이그레이션하는 것은 현재 솔루션과 동시에 수행할 수 있으며 가동 중지 시간이 필요하지 않습니다.
 
-**마이그레이션 도구**는 Power BI 작업 영역 컬렉션에서 Power BI Embedded로 콘텐츠 복사를 지원하기 위해 사용할 수 있습니다. 특히 콘텐츠가 많은 경우입니다. 자세한 내용은 [Power BI Embedded 마이그레이션 도구](migrate-tool.md)를 참조하세요.
+**마이그레이션 도구** 는 Power BI 작업 영역 컬렉션에서 Power BI Embedded로 콘텐츠 복사를 지원하기 위해 사용할 수 있습니다. 특히 콘텐츠가 많은 경우입니다. 자세한 내용은 [Power BI Embedded 마이그레이션 도구](migrate-tool.md)를 참조하세요.
 
 콘텐츠 마이그레이션은 주로 두 개의 API에 의존합니다.
 

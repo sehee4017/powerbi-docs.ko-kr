@@ -9,16 +9,16 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: c4cf0c4fbdde52181dbc5307a9d97d17344c7c26
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 3454a10269937d6e03151a64bba6695cc37fcd66
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91632851"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396337"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>프리미엄 용량에서 워크로드 구성
 
-이 문서에서는 Power BI Premium 용량에 대한 워크로드를 사용하도록 설정하고 구성하는 방법을 설명합니다. 기본적으로 용량은 Power BI 쿼리 실행과 관련된 워크로드만 지원합니다. **[AI(Cognitive Services)](../transform-model/service-cognitive-services.md)** , **[데이터 흐름](../transform-model/service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)** 및 **[페이지를 매긴 보고서](../paginated-reports/paginated-reports-save-to-power-bi-service.md)** 에 대해 추가 워크로드를 사용하도록 설정하고 구성할 수도 있습니다.
+이 문서에서는 Power BI Premium 용량에 대한 워크로드를 사용하도록 설정하고 구성하는 방법을 설명합니다. 기본적으로 용량은 Power BI 쿼리 실행과 관련된 워크로드만 지원합니다. **[AI(Cognitive Services)](../transform-model/dataflows/dataflows-machine-learning-integration.md)** , **[데이터 흐름](../transform-model/dataflows/dataflows-introduction-self-service.md)** 및 **[페이지를 매긴 보고서](../paginated-reports/paginated-reports-save-to-power-bi-service.md)** 에 대해 추가 워크로드를 사용하도록 설정하고 구성할 수도 있습니다.
 
 ## <a name="default-memory-settings"></a>기본 메모리 설정
 
@@ -41,7 +41,7 @@ AI 워크로드를 통해 Power BI에서 인식 서비스 및 자동화된 기�
 |---------------------------------|----------------------------------------|
 | **최대 메모리(%)** | AI 프로세스에서 용량으로 사용할 수 있는 사용 가능한 메모리의 최대 비율입니다. |
 | **Power BI Desktop에서 사용 허용** | 이 설정은 나중에 사용하기 위해 예약되어 있으므로, 일부 테넌트에서는 표시되지 않습니다. |
-| **기계 학습 모델 빌드 허용** | 비즈니스 분석가가 Power BI에서 직접 기계 학습 모델을 교육하고, 유효성을 검사하고, 호출할 수 있는지를 지정합니다. 자세한 내용은 [Power BI의 자동화된 기계 학습(미리 보기)](../transform-model/service-machine-learning-automated.md)을 참조하세요. |
+| **기계 학습 모델 빌드 허용** | 비즈니스 분석가가 Power BI에서 직접 기계 학습 모델을 교육하고, 유효성을 검사하고, 호출할 수 있는지를 지정합니다. 자세한 내용은 [Power BI의 자동화된 기계 학습(미리 보기)](../transform-model/dataflows/dataflows-machine-learning-integration.md)을 참조하세요. |
 | **AI 요청에 대한 병렬 처리 사용** | AI 요청을 병렬로 실행할 수 있는지를 지정합니다. |
 |  |  |
 
@@ -185,13 +185,13 @@ Power BI 보고서에서는 용량에 대한 각 쿼리에 훨씬 적은 시간 
 
 ### <a name="to-configure-workloads-in-the-power-bi-admin-portal"></a>Power BI 관리 포털에서 워크로드를 구성하려면
 
-1. **용량 설정** > **프리미엄 용량**에서 용량을 선택합니다.
+1. **용량 설정** > **프리미엄 용량** 에서 용량을 선택합니다.
 
-1. **추가 옵션**에서 **워크로드**를 확장합니다.
+1. **추가 옵션** 에서 **워크로드** 를 확장합니다.
 
 1. 하나 이상의 워크로드를 사용하도록 설정하고 **최대 메모리** 및 기타 설정의 값을 지정합니다.
 
-1. **적용**을 선택합니다.
+1. **적용** 을 선택합니다.
 
 ### <a name="rest-api"></a>REST API
 
@@ -209,7 +209,7 @@ Power BI 보고서에서는 용량에 대한 각 쿼리에 훨씬 적은 시간 
 ## <a name="next-steps"></a>다음 단계
 
 [Power BI Premium 용량 최적화](service-premium-capacity-optimize.md)
-[데이터 흐름을 사용한 Power BI의 셀프 서비스 데이터 준비](../transform-model/service-dataflows-overview.md)
+[데이터 흐름을 사용한 Power BI의 셀프 서비스 데이터 준비](../transform-model/dataflows/dataflows-introduction-self-service.md)
 [Power BI Premium에서 페이지를 매긴 보고서란?](../paginated-reports/paginated-reports-report-builder-power-bi.md)
 [Power BI Desktop의 자동 페이지 새로 고침(미리 보기)](../create-reports/desktop-automatic-page-refresh.md)
 

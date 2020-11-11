@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 09/02/2020
-ms.openlocfilehash: 48a9196dbcf5106ed01e55be8285450ecfc7ca77
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 6c4b39fff9513143c946cc2e92294ae4cbe81427
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92051030"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397464"
 ---
 # <a name="tutorial-develop-a-power-bi-circle-card-visual"></a>자습서:  Power BI 원 카드 시각적 개체 개발
 
@@ -35,7 +35,7 @@ Power BI 시각적 개체 개발을 시작하기 전에, 이 섹션에 나열된
 
 * [VS Code(Visual Studio Code)](https://www.visualstudio.com/) VS Code는 JavaScript 및 TypeScript 애플리케이션 개발에 적합한 IDE(통합 개발 환경)입니다.
 
-* [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell) 버전 4 이상(Windows인 경우). 또는 [터미널](https://macpaw.com/how-to/use-terminal-on-mac)(OSX인 경우).
+* [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell) 버전 4 이상(Windows인 경우). 또는 [터미널](https://macpaw.com/how-to/use-terminal-on-mac)(OSX인 경우).
 
 * Power BI 시각적 개체를 개발할 준비가 완료된 환경. [Power BI 시각적 개체 개발을 위한 환경을 설정하세요](environment-setup.md).
 
@@ -103,7 +103,7 @@ Power BI 서비스에서 원 카드 시각적 개체를 테스트하기 위해 *
     update 메서드가 호출된 횟수를 표시하는 간단한 시각적 개체입니다. 이 단계에서는 시각적 개체가 아직 데이터를 검색하지 않습니다.
 
     >[!NOTE]
-    >시각적 개체가 연결 오류 메시지를 표시하면 브라우저에서 새 탭을 열고 [https://localhost:8080/assets/status](https://localhost:8080/assets/status)로 이동한 다음, 이 주소를 사용하도록 브라우저에 권한을 부여합니다.
+    >시각적 개체가 연결 오류 메시지를 표시하면 브라우저에서 새 탭을 열고 `https://localhost:8080/assets/status`로 이동한 다음, 이 주소를 사용하도록 브라우저에 권한을 부여합니다.
     >
     >![연결 오류를 표시하는 새 시각적 개체의 스크린샷](media/develop-circle-card/connection-error.png)
 
@@ -194,7 +194,7 @@ D3 SVG(Scalable Vector Graphics)를 추가합니다. 이렇게 하면 3개의 �
 
 1. VS Code에서 **visual.ts** 를 엽니다.
 
-2. 다음 코드를 ‘생성자’에 추가합니다. 
+2. 다음 코드를 ‘생성자’에 추가합니다.
 
     ```typescript
     this.svg = d3.select(options.element)

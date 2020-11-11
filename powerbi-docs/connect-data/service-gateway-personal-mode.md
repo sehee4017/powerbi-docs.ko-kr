@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 07/15/2019
+ms.date: 11/09/2020
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 96c7a12e556fde805178bceabfe86f9eff8b9d5c
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: ae41c393d6c2a7db869627eedea3dafe3b618a78
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91632575"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483653"
 ---
 # <a name="use-personal-gateways-in-power-bi"></a>Power BI에서 개인 게이트웨이 사용
 
@@ -45,7 +45,7 @@ ms.locfileid: "91632575"
 
 1. [온-프레미스 데이터 게이트웨이를 다운로드합니다](https://go.microsoft.com/fwlink/?LinkId=820925&clcid=0x409).
 
-2. 설치 관리자에서 온-프레미스 데이터 게이트웨이(개인 모드)를 선택하고 **다음**을 선택합니다.
+2. 설치 관리자에서 온-프레미스 데이터 게이트웨이(개인 모드)를 선택하고 **다음** 을 선택합니다.
 
    ![온-프레미스 데이터 게이트웨이(개인 모드) 선택](media/service-gateway-personal-mode/personal-gateway-select.png)
 
@@ -87,7 +87,7 @@ ms.locfileid: "91632575"
 
 **질문:** 왜 내 자격 증명 업데이트를 요청해야 합니까?
   
-**답변:** 대부분의 경우 자격 증명에 대한 요청을 트리거할 수 있습니다. 온-프레미스 데이터 게이트웨이(개인 모드)를 Power BI - 개인 게이트웨이와 다른 컴퓨터에 다시 설치하는 것이 가장 일반적입니다. 데이터 원본에서 문제가 되어 Power BI가 테스트 연결을 수행하지 못하거나 제한 시간 또는 시스템 오류가 발생할 수도 있습니다. Power BI 서비스에서 자격 증명을 업데이트하려면 기어 아이콘을 선택하고 **설정** > **데이터 세트**를 선택합니다. 문제의 데이터 세트를 찾고 **데이터 원본 자격 증명**을 선택합니다.
+**답변:** 대부분의 경우 자격 증명에 대한 요청을 트리거할 수 있습니다. 온-프레미스 데이터 게이트웨이(개인 모드)를 Power BI - 개인 게이트웨이와 다른 컴퓨터에 다시 설치하는 것이 가장 일반적입니다. 데이터 원본에서 문제가 되어 Power BI가 테스트 연결을 수행하지 못하거나 제한 시간 또는 시스템 오류가 발생할 수도 있습니다. Power BI 서비스에서 자격 증명을 업데이트하려면 기어 아이콘을 선택하고 **설정** > **데이터 세트** 를 선택합니다. 문제의 데이터 세트를 찾고 **데이터 원본 자격 증명** 을 선택합니다.
 
 **질문:** 업그레이드하는 동안 내 이전 개인 게이트웨이는 얼마 동안 오프라인 상태가 되나요?
   
@@ -99,6 +99,7 @@ ms.locfileid: "91632575"
 
 ## <a name="next-steps"></a>다음 단계
 
+* [게이트웨이 데이터 원본 추가 또는 제거](service-gateway-data-sources.md)
 * [온-프레미스 데이터 게이트웨이에 대한 프록시 설정 구성](/data-integration/gateway/service-gateway-proxy)  
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티](https://community.powerbi.com/)를 사용해 보세요.

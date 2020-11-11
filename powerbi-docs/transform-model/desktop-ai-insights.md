@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/10/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 48e8788ca81365e1f46dbe6d3c4804c10f3f308a
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 8de033c673d9d08833fdc5a935b92490db369104
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525504"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396751"
 ---
 # <a name="use-ai-insights-in-power-bi-desktop"></a>Power BI Desktop에서 AI 인사이트 사용
 
@@ -158,7 +158,7 @@ Text Analytics를 사용하는 경우 유의해야 할 몇 가지 고려 사항 
 
 이 기능은 Power BI Desktop, Power BI 데이터 흐름과 Power BI 서비스의 파워 쿼리 온라인에서 지원됩니다.
 
-데이터 흐름에 대한 자세한 내용은 [Power BI의 셀프 서비스 데이터 준비](service-dataflows-overview.md)를 참조하세요.
+데이터 흐름에 대한 자세한 내용은 [Power BI의 셀프 서비스 데이터 준비](./dataflows/dataflows-introduction-self-service.md)를 참조하세요.
 
 Azure Machine Learning에 대해 자세히 알아보려면 다음 문서를 참조하세요.
 
@@ -225,7 +225,7 @@ Power BI Desktop에서 Azure Machine Learning에 적용되는 고려 사항 및 
 
 - [자습서: Power BI에서 Machine Learning Studio(클래식) 모델 호출](../connect-data/service-tutorial-invoke-machine-learning-model.md)
 - [자습서: Power BI에서 Cognitive Services 사용](../connect-data/service-tutorial-use-cognitive-services.md)
-- [Power BI의 Cognitive Services](service-cognitive-services.md)
-- [Power BI에서 Azure Machine Learning 통합](service-machine-learning-integration.md)
+- [Power BI의 Cognitive Services](./dataflows/dataflows-machine-learning-integration.md)
+- [Power BI에서 Azure Machine Learning 통합](./dataflows/dataflows-machine-learning-integration.md)
 - [앱을 사용하여 프리미엄 용량 모니터링](../admin/service-admin-premium-monitor-capacity.md)
 - [프리미엄 용량 메트릭 앱의 AI 메트릭](https://powerbi.microsoft.com/blog/ai-metrics-now-available-in-power-bi-premium-capacity-metrics-app/)

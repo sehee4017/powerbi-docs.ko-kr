@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f9268409977b3aa78e1ebda6f1f6b2e732451455
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 3e0bb00042b869061b7cb7cebf624e324db7e916
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92681030"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396130"
 ---
 # <a name="deploy-to-power-bi"></a>Power BI에 배포
 
@@ -76,7 +76,7 @@ IT 관리형 솔루션 또는 비즈니스 생산성에 중요한 솔루션의 �
 - **게이트웨이 유지 관리:** 데이터 게이트웨이의 [새 데이터 원본](../connect-data/service-gateway-data-sources.md) 등록이 필요할 수 있습니다.
 - **게이트웨이 드라이버 및 커넥터:** 새로운 전용 데이터 원본을 사용하려면 게이트웨이 클러스터의 각 서버에 새 드라이버 또는 사용자 지정 커넥터를 설치해야 할 수 있습니다.
 - **새 프리미엄 용량 만들기:** 기존 [프리미엄 용량](../admin/service-premium-capacity-manage.md)을 사용할 수 있습니다. 또는 새 프리미엄 용량이 보장되는 상황이 있을 수 있습니다. 예를 들어 부서별 워크로드를 분리하려는 경우일 수 있습니다.
-- **Power BI 데이터 흐름 설정:** 데이터 준비 활동은 파워 쿼리 온라인을 사용하여 [Power BI 데이터 흐름](../transform-model/service-dataflows-overview.md)에서 한 번 설정될 수 있습니다. 이렇게 하면 많은 다양한 Power BI Desktop 파일에서 데이터 준비 작업을 복제하지 않을 수 있습니다.
+- **Power BI 데이터 흐름 설정:** 데이터 준비 활동은 파워 쿼리 온라인을 사용하여 [Power BI 데이터 흐름](../transform-model/dataflows/dataflows-introduction-self-service.md)에서 한 번 설정될 수 있습니다. 이렇게 하면 많은 다양한 Power BI Desktop 파일에서 데이터 준비 작업을 복제하지 않을 수 있습니다.
 - **새 조직 시각적 개체 등록:** [조직 시각적 개체](../developer/visuals/power-bi-custom-visuals-organization.md) 등록은 AppSource에서 시작되지 않은 사용자 지정 시각적 개체를 위해 관리 포털에서 수행될 수 있습니다.
 - **추천 콘텐츠 설정:** Power BI 서비스 홈페이지에서 [콘텐츠를 추천](https://powerbi.microsoft.com/blog/promote-your-reports-dashboards-and-apps-on-power-bi-home/)할 수 있는 사용자를 제어하는 테넌트 설정이 있습니다.
 - **민감도 레이블 설정:** 모든 [민감도 레이블](../admin/service-security-data-protection-overview.md)은 Microsoft Information Protection과 통합됩니다.

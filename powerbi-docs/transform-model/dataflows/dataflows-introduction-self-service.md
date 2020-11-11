@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b603c0a2ad300145db6342acac3473a2f4a567c6
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 23ead6afd508cc0e61ae29d65926372561a6375a
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91638001"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396291"
 ---
 # <a name="introduction-to-dataflows-and-self-service-data-prep"></a>데이터 흐름 및 셀프 서비스 데이터 준비 소개
 
@@ -52,4 +52,4 @@ ms.locfileid: "91638001"
 
 
 공통 데이터 모델에 대한 자세한 내용은 해당 개요 문서를 참조할 수 있습니다.
-* [Common Data Model - 개요](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [Common Data Model - 개요](/powerapps/common-data-model/overview)

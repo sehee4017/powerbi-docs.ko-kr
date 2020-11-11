@@ -8,16 +8,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 590e28c727cab88b008d7a05e7df22244e8dabf0
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: fd57d893a0c381c345364306e04d4897597b36f1
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803375"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396981"
 ---
-# <a name="plandeploymenttomigratetopowerbi"></a>Power BI로 마이그레이션하기 위해 배포 계획
+# <a name="plan-deployment-to-migrate-to-power-bi"></a>Power BI로 마이그레이션하기 위해 배포 계획
 
-이 문서에서는 단일 Power BI 솔루션의 마이그레이션 계획과 관련된 **2단계**를 설명합니다.
+이 문서에서는 단일 Power BI 솔루션의 마이그레이션 계획과 관련된 **2단계** 를 설명합니다.
 
 :::image type="content" source="media/powerbi-migration-planning/migrate-to-powerbi-stage-2.png" alt-text="Power BI 마이그레이션의 단계를 보여 주는 이미지. 이 문서에서는 2단계가 강조됩니다.":::
 
@@ -40,7 +40,7 @@ ms.locfileid: "88803375"
 
 첫 번째 결정 중 하나는 Power BI 제품을 선택하는 것입니다. [Power BI 서비스](../fundamentals/power-bi-service-overview.md) 또는 [Power BI Report Server](../report-server/get-started.md) 중에 결정하는 것입니다. 콘텐츠가 게시된 후 포함, 모바일 전송 및 메일 구독과 같은 다양한 추가 옵션을 사용할 수 있습니다.
 
-아키텍처 고려 사항에 관한 자세한 내용은 **Power BI 엔터프라이즈 배포 백서**의 [섹션 3](https://aka.ms/PBIEnterpriseDeploymentWP)을 참조하세요.
+아키텍처 고려 사항에 관한 자세한 내용은 **Power BI 엔터프라이즈 배포 백서** 의 [섹션 3](https://aka.ms/PBIEnterpriseDeploymentWP)을 참조하세요.
 
 > [!CAUTION]
 > 파일 시스템에 저장된 Power BI Desktop 파일을 사용할 생각이 있다면 이것은 최적의 접근 방식이 아니라는 것을 알아야 합니다. Power BI 서비스(또는 Power BI Report Server) 사용하면 보안, 콘텐츠 배포 및 협업에 상당한 이점이 있습니다. 활동을 감사 및 모니터링하는 기능은 Power BI 서비스에서 사용하도록 설정할 수도 있습니다.
@@ -75,7 +75,7 @@ ms.locfileid: "88803375"
 - 소비자가 보고서를 사용자 지정하려는 경우 해당 보고서의 [복사본을 저장](../connect-data/service-datasets-copy-reports.md)하고 필요에 맞게 개인 설정할 수 있나요?
 
 > [!CAUTION]
-> _복사본 저장_ 기능은 멋진 기능이지만 보고서에 특정 그래픽 또는 머리글/바닥글 메시지가 포함되는 경우 주의해서 사용해야 합니다. 로고, 아이콘 및 텍스트 메시지는 종종 브랜딩 요구 사항 또는 규정 준수와 관련이 있으므로 해당 항목을 제공하고 배포하는 방법을 신중하게 제어해야 합니다. _복사본 저장_이 사용되지만 새 작성자가 원래 그래픽 또는 머리글/바닥글 메시지를 변경하지 않는 경우에는 실제로 누가 보고서를 생성했는지 혼동될 수 있습니다. 브랜딩의 중요함이 감소할 수도 있습니다.
+> _복사본 저장_ 기능은 멋진 기능이지만 보고서에 특정 그래픽 또는 머리글/바닥글 메시지가 포함되는 경우 주의해서 사용해야 합니다. 로고, 아이콘 및 텍스트 메시지는 종종 브랜딩 요구 사항 또는 규정 준수와 관련이 있으므로 해당 항목을 제공하고 배포하는 방법을 신중하게 제어해야 합니다. _복사본 저장_ 이 사용되지만 새 작성자가 원래 그래픽 또는 머리글/바닥글 메시지를 변경하지 않는 경우에는 실제로 누가 보고서를 생성했는지 혼동될 수 있습니다. 브랜딩의 중요함이 감소할 수도 있습니다.
 
 ## <a name="evaluate-needs-for-premium-capacity"></a>프리미엄 용량의 요구 사항 평가
 
@@ -96,7 +96,7 @@ ms.locfileid: "88803375"
 - 추가 요구 사항을 충족하기 위해 새 데이터 또는 측정값으로 기존 공유 데이터 세트를 보강해야 하나요?
 - 가장 적합한 [데이터 스토리지 모드](../transform-model/desktop-storage-mode.md)는 무엇인가요? 옵션에는 가져오기, DirectQuery, 복합 또는 라이브 연결이 포함됩니다.
 - 쿼리 성능을 개선하기 위해 [집계](../transform-model/desktop-aggregations.md)를 사용해야 하나요?
-- [데이터 흐름](../transform-model/service-dataflows-overview.md)을 만드는 것이 유용하고 데이터 흐름을 수많은 데이터 세트의 원본으로 사용할 수 있나요?
+- [데이터 흐름](../transform-model/dataflows/dataflows-introduction-self-service.md)을 만드는 것이 유용하고 데이터 흐름을 수많은 데이터 세트의 원본으로 사용할 수 있나요?
 - 새 [게이트웨이 데이터 원본](../connect-data/service-gateway-data-sources.md)을 등록해야 하나요?
 
 ## <a name="decide-where-original-content-will-be-stored"></a>원래 콘텐츠를 저장할 위치 결정
