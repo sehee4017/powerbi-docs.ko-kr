@@ -1,21 +1,21 @@
 ---
 title: X축 및 Y축 속성 사용자 지정
 description: X축 및 Y축 속성 사용자 지정
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/06/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0da34397c1b707eeece6fdf127c2c4e96f5ab6a5
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: b327ca5f4c19638f4afe72abce763601e68fc943
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635680"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93413157"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>X축 및 Y축 속성 사용자 지정
 
@@ -53,9 +53,9 @@ Amanda가 X축과 Y축을 사용자 지정하는 방법을 시청하세요. 여�
 
     ![시각화 창 및 빈 누적 세로 막대형 차트의 스크린샷](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-column-chart.png)
 
-1. X축 값을 설정하려면 **필드** 창에서 **시간** > **FiscalMonth**를 차례로 선택합니다.
+1. X축 값을 설정하려면 **필드** 창에서 **시간** > **FiscalMonth** 를 차례로 선택합니다.
 
-1. Y축 값을 설정하려면 **필드** 창에서 **판매** > **작년 매출** 및 **판매** > **금년 매출** > **값**을 차례로 선택합니다.
+1. Y축 값을 설정하려면 **필드** 창에서 **판매** > **작년 매출** 및 **판매** > **금년 매출** > **값** 을 차례로 선택합니다.
 
     ![채워진 누적 세로 막대형 차트의 스크린샷](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-build-visual.png)
 
@@ -67,63 +67,63 @@ X축에 대해 사용자 지정할 수 있는 다양한 기능이 있습니다. 
 ### <a name="customize-the-x-axis-labels"></a>X축 레이블 사용자 지정
 X축 레이블은 차트의 세로 막대 아래에 표시됩니다. 현재는 밝은 회색이고, 작고, 읽기가 어렵습니다. 이제 변경해 보겠습니다.
 
-1. **시각화** 창에서 **서식**(페인트 롤러 아이콘 ![페인트 롤러 아이콘의 스크린샷](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-paintroller-icon.png))을 선택합니다. 사용자 지정 옵션을 표시합니다.
+1. **시각화** 창에서 **서식** (페인트 롤러 아이콘 ![페인트 롤러 아이콘의 스크린샷](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-paintroller-icon.png))을 선택합니다. 사용자 지정 옵션을 표시합니다.
 
 2. X축 옵션을 펼칩니다.
 
    ![X축 옵션의 스크린샷](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-axis-x.png)
 
-3. **X축** 슬라이더를 **켜기**로 이동합니다.
+3. **X축** 슬라이더를 **켜기** 로 이동합니다.
 
     ![X축의 켜기 슬라이더 스크린샷.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-slider-on.png)
 
-    X축을 **끄기**로 설정해야 하는 몇 가지 이유는 시각화에 레이블 없이 별도의 설명이 필요하지 않거나 보고서 페이지가 복잡하고 더 많은 데이터를 표시할 공간을 만들어야 하기 때문입니다.
+    X축을 **끄기** 로 설정해야 하는 몇 가지 이유는 시각화에 레이블 없이 별도의 설명이 필요하지 않거나 보고서 페이지가 복잡하고 더 많은 데이터를 표시할 공간을 만들어야 하기 때문입니다.
 
 4. 텍스트 색, 크기 및 글꼴의 서식을 지정합니다.
 
-    - **색**: 검정 선택
+    - **색** : 검정 선택
 
-    - **텍스트 크기**: *14* 입력
+    - **텍스트 크기** : *14* 입력
 
-    - **글꼴 제품군**: **Arial Black** 선택
+    - **글꼴 제품군** : **Arial Black** 선택
 
-    - **안쪽 여백**: *40%* 입력
+    - **안쪽 여백** : *40%* 입력
 
         ![비스듬한 레이블이 있는 스크린샷](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-formatting-x.png)
     
 5. X축 텍스트가 대각선으로 표시되는 방식이 마음에 들지 않을 수도 있습니다. 이 경우 몇 가지 옵션이 있습니다. 
     - 텍스트 크기를 14보다 작은 값으로 변경합니다.
     - 시각화를 더 크게 만듭니다. 
-    - **최소 범주 너비**를 늘려 더 작은 수의 열을 표시하고 스크롤 막대를 추가합니다. 
+    - **최소 범주 너비** 를 늘려 더 작은 수의 열을 표시하고 스크롤 막대를 추가합니다. 
     
     여기서는 두 번째 옵션을 선택하고, 크기 조정 막대 중 하나를 사용하여 시각화를 더 넓게 만들었습니다. 이제 비스듬히 표시할 필요 없이 스크롤 막대를 사용하여 14포인트 텍스트를 수용할 수 있습니다. 
 
    ![가로 레이블이 있는 평인 차트 및 서식 창](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-stretch.png)
 
 ### <a name="customize-the-x-axis-title"></a>X축 제목 사용자 지정
-X축 제목이 **켜기**이면 X축 제목이 X축 레이블 아래에 표시됩니다. 
+X축 제목이 **켜기** 이면 X축 제목이 X축 레이블 아래에 표시됩니다. 
 
-1. 먼저 X축 제목을 **켜기**로 설정합니다.  
+1. 먼저 X축 제목을 **켜기** 로 설정합니다.  
 
     ![제목 슬라이더](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-title-on.png)
 
-    이제 시각화에 기본 X 축 제목이 있다는 것을 가장 먼저 알 수 있습니다.  이 경우에는 **FiscalMonth**입니다.
+    이제 시각화에 기본 X 축 제목이 있다는 것을 가장 먼저 알 수 있습니다.  이 경우에는 **FiscalMonth** 입니다.
 
    ![제목이 아래쪽에 표시된 차트](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-x-title.png)
 
 1. 제목 텍스트 색, 크기 및 글꼴의 서식을 지정합니다.
 
-    - **제목 색**: 주황색 선택
+    - **제목 색** : 주황색 선택
 
-    - **축 제목**: *회계 월*(공백 포함) 입력
+    - **축 제목** : *회계 월* (공백 포함) 입력
 
-    - **제목 텍스트 크기**: *18* 입력
+    - **제목 텍스트 크기** : *18* 입력
 
     사용자 지정이 완료되면 누적 세로 막대형 차트가 다음과 같습니다.
 
     ![사용자 지정된 누적 세로 막대형 차트의 스크린샷](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-x-title-formatted.png)
 
-1. 변경 내용을 저장하고 다음 섹션으로 이동합니다. 모든 변경 내용을 되돌려야 하는 경우 **X축** 사용자 지정 창 맨 아래에 있는 **기본값으로 되돌리기**를 선택합니다. 다음으로, Y축을 사용자 지정합니다.
+1. 변경 내용을 저장하고 다음 섹션으로 이동합니다. 모든 변경 내용을 되돌려야 하는 경우 **X축** 사용자 지정 창 맨 아래에 있는 **기본값으로 되돌리기** 를 선택합니다. 다음으로, Y축을 사용자 지정합니다.
 
 ## <a name="customize-the-y-axis"></a>Y축 사용자 지정
 Y축에 대해 사용자 지정할 수 있는 다양한 기능이 있습니다. 데이터 레이블, Y축 제목 및 눈금선을 추가하고 수정할 수 있습니다. 값의 경우 표시 단위, 소수 자릿수, 시작점 및 엔드포인트를 수정할 수 있습니다. 그리고 범주의 경우 막대, 세로 막대, 선 및 영역의 너비, 크기 및 안쪽 여백을 수정할 수 있습니다. 
@@ -137,7 +137,7 @@ Y축 레이블은 기본적으로 왼쪽에 표시됩니다. 현재는 밝은 �
 
    ![Y축 옵션의 스크린샷](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-axis-y.png)
 
-1. **Y축** 슬라이더를 **켜기**로 이동합니다.  
+1. **Y축** 슬라이더를 **켜기** 로 이동합니다.  
 
     ![Y축의 켜기 슬라이더 스크린샷.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-y-axis-on.png)
 
@@ -145,23 +145,23 @@ Y축 레이블은 기본적으로 왼쪽에 표시됩니다. 현재는 밝은 �
 
 1. 텍스트 색, 크기 및 글꼴의 서식을 지정합니다.
 
-    - **색**: 검정 선택
+    - **색** : 검정 선택
 
-    - **텍스트 크기**: *10* 입력
+    - **텍스트 크기** : *10* 입력
 
-    - **표시 단위**: **백만**을 선택합니다.
+    - **표시 단위** : **백만** 을 선택합니다.
 
     ![Y축 서식 지정 후의 차트](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-formatting-y.png)
 
 ### <a name="customize-the-y-axis-title"></a>Y축 제목 사용자 지정
-Y축 제목이 **켜기**이면 Y축 제목이 Y축 레이블 옆에 표시됩니다. 이 시각화의 경우 Y축 제목이 있더라도 시각적 개체가 달라지지 않으므로 **제목**을 **해제**한 채로 둡니다. Y축 제목은 이 자습서의 뒷부분에서 이중 축 시각적 개체에 추가합니다. 
+Y축 제목이 **켜기** 이면 Y축 제목이 Y축 레이블 옆에 표시됩니다. 이 시각화의 경우 Y축 제목이 있더라도 시각적 개체가 달라지지 않으므로 **제목** 을 **해제** 한 채로 둡니다. Y축 제목은 이 자습서의 뒷부분에서 이중 축 시각적 개체에 추가합니다. 
 
 ### <a name="customize-the-gridlines"></a>눈금선 사용자 지정
 색을 변경하고 스트로크를 증가시켜 눈금선을 강조하겠습니다.
 
-- **색**: 주황색 선택
+- **색** : 주황색 선택
 
-- **스트로크**: *2* 입력
+- **스트로크** : *2* 입력
 
 이러한 사용자 지정 후 세로 막대형 차트는 이렇게 보여야 합니다.
 
@@ -196,19 +196,19 @@ Y축 제목이 **켜기**이면 Y축 제목이 Y축 레이블 옆에 표시됩�
 
 1. Y축 옵션을 확장합니다.
 
-1. **보조 표시** 옵션을 찾을 때까지 아래로 스크롤합니다. **켜기**로 설정되어 있는지 확인합니다. 두 번째 Y축은 꺾은선형 차트를 나타냅니다.
+1. **보조 표시** 옵션을 찾을 때까지 아래로 스크롤합니다. **켜기** 로 설정되어 있는지 확인합니다. 두 번째 Y축은 꺾은선형 차트를 나타냅니다.
 
    ![보조 표시 옵션의 스크린샷](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-show-secondary.png)
 
-1. (선택 사항) 두 축의 글꼴 색, 크기 및 표시 단위를 사용자 지정합니다. 열 축 또는 행 축에 대한 **위치**를 전환하면 두 축은 서로의 위치를 전환합니다.
+1. (선택 사항) 두 축의 글꼴 색, 크기 및 표시 단위를 사용자 지정합니다. 열 축 또는 행 축에 대한 **위치** 를 전환하면 두 축은 서로의 위치를 전환합니다.
 
 ### <a name="add-titles-to-both-axes"></a>두 축에 제목 추가
 
 복잡한 시각화를 사용하면 축 제목을 추가하는 데 도움이 됩니다.  제목은 동료들이 시각화의 내용을 이해하는 데 도움이 됩니다.
 
-1. **제목**을 **Y축 (열)** 과 **Y축 (선)** 에 대해 **켜기**를 설정합니다.
+1. **제목** 을 **Y축 (열)** 과 **Y축 (선)** 에 대해 **켜기** 를 설정합니다.
 
-1. 두 축 모두에 대해 **스타일**을 **제목만 표시**로 설정합니다.
+1. 두 축 모두에 대해 **스타일** 을 **제목만 표시** 로 설정합니다.
 
    ![제목 및 스타일 옵션의 스크린샷](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-show-title.png)
 
@@ -218,7 +218,7 @@ Y축 제목이 **켜기**이면 Y축 제목이 Y축 레이블 옆에 표시됩�
 
 1. 제목의 서식을 지정합니다. 이 예에서는 제목 중 하나를 짧게 만들고, 두 제목의 글꼴 크기를 모두 줄였습니다. 
     - 글꼴 크기: **9**
-    - 첫 번째 Y 축(세로 막대형 차트)의 **축 제목**을 줄입니다. 금년 및 작년 판매. 
+    - 첫 번째 Y 축(세로 막대형 차트)의 **축 제목** 을 줄입니다. 금년 및 작년 판매. 
     
      ![전체 제목이 표시된 콤보 차트의 스크린샷](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual.png)
 

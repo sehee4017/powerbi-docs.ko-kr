@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.custom: ''
 ms.date: 04/16/2019
-ms.openlocfilehash: eb9476b3f21d1149492982a8dcae3d8ce89e9629
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: f84527a189be0f78f73470cbc475f45206dd8cf1
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748658"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412398"
 ---
 # <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>조직에 포함할 때 Power BI 앱 자동 설치
 
@@ -25,7 +25,7 @@ ms.locfileid: "91748658"
 
 ## <a name="embed-for-power-bi-users-user-owns-data"></a>Power BI 사용자(사용자 소유 데이터)를 위한 포함
 
-사용자에게 앱의 자동 설치를 허용하려면 [애플리케이션을 등록](register-app.md#register-with-the-power-bi-application-registration-tool)할 때 애플리케이션에 '콘텐츠 만들기' 권한을 부여하거나 이미 앱을 등록한 경우 추가해야 합니다.
+사용자에게 앱의 자동 설치를 허용하려면 [애플리케이션을 등록](register-app.md#register-an-azure-ad-app)할 때 애플리케이션에 '콘텐츠 만들기' 권한을 부여하거나 이미 앱을 등록한 경우 추가해야 합니다.
 
 ![앱 등록으로 콘텐츠 생성](media/embed-auto-install-app/register-app-create-content.png)
 

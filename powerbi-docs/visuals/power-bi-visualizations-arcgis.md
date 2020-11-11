@@ -1,21 +1,21 @@
 ---
 title: 사용자와 공유한 ArcGIS 지도와 상호 작용
 description: 읽기용 보기에서 보고서 소비자로 ArcGIS Map for Power BI 시각적 개체 사용
-author: mihart
+author: msftrien
 ms.reviewer: willt, lukasz
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 09/30/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 751d36489590b92c1e03804f100a711b44e028ff
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 7b81ecbc23418fec4bd264e5cb20126f871c7e52
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600286"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93413122"
 ---
 # <a name="create-arcgis-maps-in-power-bi"></a>Power BI에서 ArcGIS 지도 만들기
 
@@ -39,7 +39,7 @@ ArcGIS 지도와 Power BI의 조합은 지도에서 요소의 표현을 넘어�
 ![ArcGIS 시작 이미지](media/power-bi-visualizations-arcgis/arcgis-tutorial-01.png)
 
 > [!TIP]
-> [**Esri의 ArcGIS Maps for Power BI 페이지**](https://www.esri.com/powerbi)를 방문하여 다양한 예제를 참조하고 후기를 확인하세요. Esri의 **[ArcGIS Maps for Power BI 온라인](https://doc.arcgis.com/en/maps-for-powerbi/get-started/about-maps-for-power-bi.htm) 도움말**도 확인하세요.
+> [**Esri의 ArcGIS Maps for Power BI 페이지**](https://www.esri.com/powerbi)를 방문하여 다양한 예제를 참조하고 후기를 확인하세요. Esri의 **[ArcGIS Maps for Power BI 온라인](https://doc.arcgis.com/en/maps-for-powerbi/get-started/about-maps-for-power-bi.htm) 도움말** 도 확인하세요.
 
 ## <a name="user-consent"></a>사용자 승인
 
@@ -49,9 +49,9 @@ ArcGIS Maps for Power BI는 Esri([https://www.esri.com](https://www.esri.com/))�
 
 이 자습서는 Power BI Desktop 및 PBIX [소매점 분석 샘플](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 사용합니다. Power BI 서비스를 사용하여 ArcGIS Maps for Power BI를 만들 수도 있습니다.
 
-1. 메뉴 모음의 왼쪽 위 섹션에서 **파일** > **보고서 열기**를 선택합니다.
-2. 로컬 머신에 저장된 **소매점 분석 샘플 PBIX 파일**을 찾습니다.
-3. 보고서 뷰 ![보고서 뷰 아이콘](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-01.png)에서 **소매점 분석 샘플**을 엽니다.
+1. 메뉴 모음의 왼쪽 위 섹션에서 **파일** > **보고서 열기** 를 선택합니다.
+2. 로컬 머신에 저장된 **소매점 분석 샘플 PBIX 파일** 을 찾습니다.
+3. 보고서 뷰 ![보고서 뷰 아이콘](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-01.png)에서 **소매점 분석 샘플** 을 엽니다.
 4. 선택 ![새 페이지 아이콘 추가](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-02.png) 보고서에 새 페이지를 추가합니다.
 
 ## <a name="create-an-arcgis-maps-for-power-bi-map-visualization"></a>ArcGIS Maps for Power BI 지도 시각화 만들기
@@ -66,14 +66,14 @@ ArcGIS Maps for Power BI는 Esri([https://www.esri.com](https://www.esri.com/))�
 
     ![ArcGIS 로그인](media/power-bi-visualizations-arcgis/arcgis-tutorial-03.png)
 
-3. **필드** 창에서 데이터 필드를 **위치** 필드로 끌거나 좌표를 **위도** 및/또는 **경도** 버킷으로 끕니다. 이 예제에서는 **Store > City**를 사용합니다.
+3. **필드** 창에서 데이터 필드를 **위치** 필드로 끌거나 좌표를 **위도** 및/또는 **경도** 버킷으로 끕니다. 이 예제에서는 **Store > City** 를 사용합니다.
 
     > [!NOTE]
     > ArcGIS Maps for Power BI는 선택한 필드가 지도상에서 도형으로 가장 적절하게 표시되는지 점으로 가장 적절하게 표시되는지 자동으로 감지합니다. 설정에서 기본값을 조정할 수 있습니다([ArcGIS Maps for Power BI 시각화 서식 지정](#format-the-arcgis-maps-for-power-bi-visualization) 참조).
 
     ![ArcGIS City 필드](media/power-bi-visualizations-arcgis/arcgis-tutorial-04.png)
 
-4. **필드** 창에서 측정값을 **크기** 버킷으로 끌어 데이터가 표시되는 모양을 조정합니다. 이 예제에서는 **Sales > Last Year Sales**를 사용합니다.
+4. **필드** 창에서 측정값을 **크기** 버킷으로 끌어 데이터가 표시되는 모양을 조정합니다. 이 예제에서는 **Sales > Last Year Sales** 를 사용합니다.
 
     ![ArcGIS 크기 필드](media/power-bi-visualizations-arcgis/arcgis-tutorial-05.png)
 
@@ -150,11 +150,11 @@ ArcGIS Maps for Power BI는 강력한 지리 지원 기술을 사용하여 지�
 데이터의 위치 유형을 수정하려면 다음 단계를 수행합니다.
 
 1. 계층 목록에서 작업하려는 데이터 레이어를 선택합니다.
-2. **계층 옵션** 단추를 클릭하고 **위치 유형**을 선택합니다.
+2. **계층 옵션** 단추를 클릭하고 **위치 유형** 을 선택합니다.
 
     ![위치 유형 선택](media/power-bi-visualizations-arcgis/arcgis-tutorial-10.png)
 
-    기본값을 사용하여 위치를 지도상의 점으로 렌더링하고 **한 국가 > 미국**을 지정합니다.
+    기본값을 사용하여 위치를 지도상의 점으로 렌더링하고 **한 국가 > 미국** 을 지정합니다.
 
     ![위치 유형 선택적 값](media/power-bi-visualizations-arcgis/arcgis-tutorial-11.png)
 
@@ -168,7 +168,7 @@ ArcGIS Maps for Power BI는 필드 창의 값을 사용하여 지도에서 위�
 
 1. 계층 목록에서 작업하려는 데이터 레이어를 선택합니다.
 
-2. **계층 옵션** 단추를 클릭하고 **기호**를 선택합니다.
+2. **계층 옵션** 단추를 클릭하고 **기호** 를 선택합니다.
 
 지도 테마 범주가 확장된 기호 창이 표시됩니다.
 
@@ -206,7 +206,7 @@ ArcGIS Maps for Power BI는 필드 창의 값을 사용하여 지도에서 위�
 
 2. 기호 설정을 원하는 대로 변경합니다. 기호 모양, 색, 투명도, 윤곽선 색, 두께, 투명도를 선택합니다. 기호 크기 범주를 확장하여 이러한 옵션을 변경합니다. 데이터의 특성과 선택한 지도 테마에 따라 표시되는 옵션이 달라집니다.
 
-    아래 예제는 **크기**로 설정된 지도 테마와 투명도, 스타일, 크기의 몇 가지 기호 스타일 조정을 보여 줍니다.
+    아래 예제는 **크기** 로 설정된 지도 테마와 투명도, 스타일, 크기의 몇 가지 기호 스타일 조정을 보여 줍니다.
 
     ![지도 크기 및 기호](media/power-bi-visualizations-arcgis/arcgis-tutorial-13.png)
 
@@ -256,7 +256,7 @@ ArcGIS Maps for Power BI는 지도상의 위치를 선택할 수 있는 다양�
 
     키워드에는 주소, 장소 또는 관심 지점이 포함될 수 있습니다. 입력할 때 유사한 키워드를 기준으로 유사한 최근 검색 또는 제안이 표시됩니다.
 
-3. 결과 목록에서 **Pittsburgh International Airport**를 선택하고 **닫기**를 클릭합니다.
+3. 결과 목록에서 **Pittsburgh International Airport** 를 선택하고 **닫기** 를 클릭합니다.
 
     지도에 기호가 나타나고 지도는 위치에 자동으로 확대합니다. 핀은 현재 세션 중에만 지도에 그대로 남아 있습니다. 고정된 위치를 지도와 함께 저장할 수는 없습니다. 고정된 위치는 계층 목록에도 계층으로 표시됩니다. 다른 계층을 사용할 때와 마찬가지로 계층의 이름을 바꾸거나, 계층을 표시하거나 숨기거나, 지도에서 제거할 수 있습니다.
 
@@ -282,9 +282,9 @@ Standard ArcGIS Maps for Power BI 계정에는 Power BI에서 상황에 맞게 �
 
     **참조 계층** 창이 나타나고 **인구 통계** 탭과 해당 계층 선택이 표시됩니다.
 
-3. 갤러리를 스크롤하여 지도에 추가하려는 계층의 썸네일에서 **추가**를 클릭합니다.
+3. 갤러리를 스크롤하여 지도에 추가하려는 계층의 썸네일에서 **추가** 를 클릭합니다.
 
-    이 예제에서는 **2016년 미국 평균 가구 소득** 계층을 찾아 **추가**를 클릭합니다.
+    이 예제에서는 **2016년 미국 평균 가구 소득** 계층을 찾아 **추가** 를 클릭합니다.
     
     지도가 업데이트되어 새 계층이 표시됩니다.
     
@@ -300,7 +300,7 @@ ArcGIS 참조 계층을 추가하려면 다음 단계를 수행합니다.
 
 1. 참조 창에서 **ArcGIS** 탭을 클릭합니다.
 
-2. 검색 필드에 **USA Congressional districts**를 입력하고 **Enter** 키를 누릅니다.
+2. 검색 필드에 **USA Congressional districts** 를 입력하고 **Enter** 키를 누릅니다.
 
     몇 가지 가능한 결과로 갤러리가 채워집니다.
 
@@ -327,8 +327,8 @@ ArcGIS 참조 계층은 대화형입니다. 영역을 클릭하면 추가 정보
     **운전 시간** 창이 표시됩니다.
 
 3. 단일 선택 도구를 클릭하고 지도에서 앞서 고정한 **피츠버그 국제 공항** 위치를 선택합니다.
-4. **검색 영역** 드롭다운 메뉴에서 **반경**을 선택하고 **100**마일의 거리를 지정합니다.
-5. **확인**을 클릭합니다.
+4. **검색 영역** 드롭다운 메뉴에서 **반경** 을 선택하고 **100** 마일의 거리를 지정합니다.
+5. **확인** 을 클릭합니다.
 
     고정된 공항 위치를 둘러싼 원이 지도에 표시됩니다. 운전 시간 창이 확장되어 운전 거리 영역의 스타일 옵션이 표시됩니다.
     
@@ -355,12 +355,12 @@ Esri는 ArcGIS Maps for Power BI에 대한 종합적인 설명서를 제공하�
 1. 지도 도구에서 **설정** 단추 ![설정 아이콘](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-15.png)를 클릭합니다.
 
 2. **설정** 창에서 **도움말** 단추를 클릭합니다.
-3. 표시되는 확인 창에서 **확인**을 클릭합니다.
+3. 표시되는 확인 창에서 **확인** 을 클릭합니다.
 
     ArcGIS Maps for Power BI 온라인 도움말이 브라우저 창에서 열립니다.
     
     - ArcGIS Maps for Power BI 온라인 도움말의 [질문과 대답](https://doc.arcgis.com/en/maps-for-powerbi/get-started/pbi-faq.htm#anchor5)에서 대답을 찾습니다.
-    - **ArcGIS Maps for Power BI**와 관련된 Power BI [커뮤니티 스레드](https://go.microsoft.com/fwlink/?LinkID=828771)에서 질문하고 최신 정보를 찾고 문제를 보고하고 대답을 찾을 수 있습니다.
+    - **ArcGIS Maps for Power BI** 와 관련된 Power BI [커뮤니티 스레드](https://go.microsoft.com/fwlink/?LinkID=828771)에서 질문하고 최신 정보를 찾고 문제를 보고하고 대답을 찾을 수 있습니다.
     - 개선을 위해 제안할 사항이 있으면 [Power BI 아이디어 목록](https://ideas.powerbi.com/)에 제출해 주십시오.
     
 ### <a name="manage-the-use-of-arcgis-maps-for-power-bi-within-your-organization"></a>조직 내 ArcGIS Maps for Power BI 사용 관리
@@ -369,19 +369,19 @@ Esri는 ArcGIS Maps for Power BI에 대한 종합적인 설명서를 제공하�
 
 #### <a name="designer-options"></a>디자이너 옵션
 
-디자이너는 Power BI Desktop의 보안 탭에서 ArcGIS Maps for Power BI를 사용하지 않도록 설정할 수 있습니다. **파일**  >  **옵션 및 설정**을 선택한 다음 **옵션**  >  **보안**을 선택합니다. 기본적으로 ArcGIS Maps는 사용할 수 없게 되는 경우 로드되지 않습니다.
+디자이너는 Power BI Desktop의 보안 탭에서 ArcGIS Maps for Power BI를 사용하지 않도록 설정할 수 있습니다. **파일**  >  **옵션 및 설정** 을 선택한 다음 **옵션**  >  **보안** 을 선택합니다. 기본적으로 ArcGIS Maps는 사용할 수 없게 되는 경우 로드되지 않습니다.
 
 ![디자이너 옵션](media/power-bi-visualizations-arcgis/arcgis-tutorial-17.png)
 
 #### <a name="administrator-options"></a>관리자 옵션
 
-관리자는 Power BI 서비스에서 모든 사용자에 대해 ArcGIS Maps for Power BI를 끌 수 있습니다. **설정** > **관리 포털** > **테넌트 설정**을 선택합니다. 사용하지 않도록 설정된 경우 Power BI의 시각화 창에 ArcGIS Maps for Power BI 아이콘이 더 이상 표시되지 않습니다.
+관리자는 Power BI 서비스에서 모든 사용자에 대해 ArcGIS Maps for Power BI를 끌 수 있습니다. **설정** > **관리 포털** > **테넌트 설정** 을 선택합니다. 사용하지 않도록 설정된 경우 Power BI의 시각화 창에 ArcGIS Maps for Power BI 아이콘이 더 이상 표시되지 않습니다.
 
 ![관리자 옵션](media/power-bi-visualizations-arcgis/arcgis-tutorial-18.png)
 
 #### <a name="user-administrator-options"></a>사용자 관리자 옵션
 
-Power BI Desktop에서 **그룹 정책**을 사용하여 조직에 배포된 컴퓨터 전체에서 ArcGIS Maps for Power BI를 사용하지 않도록 설정할 수 있습니다.
+Power BI Desktop에서 **그룹 정책** 을 사용하여 조직에 배포된 컴퓨터 전체에서 ArcGIS Maps for Power BI를 사용하지 않도록 설정할 수 있습니다.
 
 | **Attribute** | **값** |
 | --- | --- |

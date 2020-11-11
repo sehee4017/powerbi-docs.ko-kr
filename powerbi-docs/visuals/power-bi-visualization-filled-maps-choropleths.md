@@ -1,8 +1,8 @@
 ---
 title: Power BI의 등치 지역도(단계구분도)
 description: Power BI에서 등치 지역도(단계구분도)를 만드는 방법에 대한 설명서
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 12/05/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 45069a4a575659d44e41f1010d9941f21caa1ad1
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: ce0adb6d5115ece1b228690c496d022f8dfc9e56
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861639"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412996"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Power BI의 등치 지역도(단계구분도) 만들기 및 사용
 
@@ -28,7 +28,7 @@ ms.locfileid: "90861639"
 ![미국 맵](media/power-bi-visualization-filled-maps-choropleths/large-map.png)
 
 ## <a name="what-is-sent-to-bing"></a>Bing에 전달되는 내용
-Power BI는 Bing과 통합되어 기본 맵 좌표를 제공합니다(지오코딩이라는 프로세스). Power BI 서비스 또는 Power BI Desktop에서 맵 시각화를 만드는 경우 **위치**, **위도** 및 **경도** 버킷의 데이터(해당 시각화를 만드는 데 사용되는)가 Bing에 전송됩니다.
+Power BI는 Bing과 통합되어 기본 맵 좌표를 제공합니다(지오코딩이라는 프로세스). Power BI 서비스 또는 Power BI Desktop에서 맵 시각화를 만드는 경우 **위치** , **위도** 및 **경도** 버킷의 데이터(해당 시각화를 만드는 데 사용되는)가 Bing에 전송됩니다.
 
 사용자 또는 사용자의 관리자는 지오코딩에 URL Bing을 사용할 수 있도록 방화벽을 업데이트해야 할 수 있습니다.  이러한 URL은 다음과 같습니다.
 - https://dev.virtualearth.net/REST/V1/Locations    
@@ -49,11 +49,11 @@ Bing에 전송되는 데이터에 대한 자세한 내용 및 지오코딩 성�
 
 ### <a name="prerequisites"></a>필수 조건
 이 자습서는 [영업 및 마케팅 샘플 PBIX 파일](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)을 사용합니다.
-1. 메뉴 모음의 왼쪽 위 섹션에서 **파일** > **열기**를 선택합니다.
+1. 메뉴 모음의 왼쪽 위 섹션에서 **파일** > **열기** 를 선택합니다.
    
-2. **영업 및 마케팅 샘플 PBIX 파일**의 복사본을 찾습니다.
+2. **영업 및 마케팅 샘플 PBIX 파일** 의 복사본을 찾습니다.
 
-1. 보고서 보기 ![보고서 뷰 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)에서 **영업 및 마케팅 샘플 PBIX 파일**을 엽니다.
+1. 보고서 보기 ![보고서 뷰 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)에서 **영업 및 마케팅 샘플 PBIX 파일** 을 엽니다.
 
 1. 새 페이지를 추가하기 위해 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
 
@@ -64,24 +64,24 @@ Bing에 전송되는 데이터에 대한 자세한 내용 및 지오코딩 성�
 1. 필드 창에서 **Geo** \> **State** 필드를 선택합니다.    
 
    ![상태 옆에 있는 노란색 확인란](media/power-bi-visualization-filled-maps-choropleths/power-bi-state.png)
-2. 등치 지역도로 [차트를 변환](power-bi-report-change-visualization-type.md)합니다. **State**는 현재 **위치** 영역에 있습니다. Bing 지도는 **위치** 영역의 필드를 사용하여 지도를 만듭니다.  위치는 국가, 시/도, 지방, 구/군, 우편번호 등 다양한 유효한 위치가 될 수 있습니다. Bing 지도에서는 전 세계 여러 위치에 대한 등치 지역도 셰이프를 제공합니다. 위치 영역에 유효한 항목이 없으면 Power BI가 등치 지역도를 만들 수 없습니다.  
+2. 등치 지역도로 [차트를 변환](power-bi-report-change-visualization-type.md)합니다. **State** 는 현재 **위치** 영역에 있습니다. Bing 지도는 **위치** 영역의 필드를 사용하여 지도를 만듭니다.  위치는 국가, 시/도, 지방, 구/군, 우편번호 등 다양한 유효한 위치가 될 수 있습니다. Bing 지도에서는 전 세계 여러 위치에 대한 등치 지역도 셰이프를 제공합니다. 위치 영역에 유효한 항목이 없으면 Power BI가 등치 지역도를 만들 수 없습니다.  
 
    ![등치 지역도의 아이콘을 강조 표시한 템플릿](media/power-bi-visualization-filled-maps-choropleths/img003.png)
 3. 미국 대륙만 표시하려면 지도를 필터링하세요.
 
    a.  시각화 창 왼쪽에서 **필터** 창을 찾습니다. 최소화된 경우 확장
 
-   b.  **State**를 마우스로 가리키고 확장 펼침 버튼을 선택합니다.  
+   b.  **State** 를 마우스로 가리키고 확장 펼침 버튼을 선택합니다.  
    ![상태(모두)를 보여주는 시각적 수준 필터](media/power-bi-visualization-filled-maps-choropleths/img004.png)
 
    c.  **모두** 옆의 확인 표시를 표시하고 **AK** 옆에 있는 확인 표시를 제거합니다.
 
    ![모두 및 AK를 선택하지 않은 상태 드롭다운](media/power-bi-visualization-filled-maps-choropleths/img005.png)
-4. 페인트 롤러 아이콘을 선택하여 서식 창을 열고 **데이터 색**을 선택합니다.
+4. 페인트 롤러 아이콘을 선택하여 서식 창을 열고 **데이터 색** 을 선택합니다.
 
     ![데이터 색 옵션을 표시하는 서식 지정 창](media/power-bi-visualization-filled-maps-choropleths/power-bi-colors-data.png)
 
-5. 세 개의 세로 점을 선택하고 **조건부 서식 지정**을 선택합니다.
+5. 세 개의 세로 점을 선택하고 **조건부 서식 지정** 을 선택합니다.
 
     ![데이터 색 조건부 서식 지정 단추](media/power-bi-visualization-filled-maps-choropleths/power-bi-conditional.png)
 
@@ -89,7 +89,7 @@ Bing에 전송되는 데이터에 대한 자세한 내용 및 지오코딩 성�
 
     ![감정이 선택된 기본 색 창](media/power-bi-visualization-filled-maps-choropleths/power-bi-sentiment-field.png)
 
-7. 등치 지역도는 녹색과 빨간색으로 채워지며, 빨간색은 낮은 인지 수를 나타내고 녹색은 더 높고 더 긍정적인 인지를 나타냅니다.  추가 세부 정보를 표시하려면 도구 설명으로 필드를 끌어다 놓습니다.  여기서는 **SalesFact** > **Sentiment gap**을 추가했습니다. 아이다호(ID)의 상태를 강조 표시하면 감정 차이가 낮음(6)을 나타냅니다.
+7. 등치 지역도는 녹색과 빨간색으로 채워지며, 빨간색은 낮은 인지 수를 나타내고 녹색은 더 높고 더 긍정적인 인지를 나타냅니다.  추가 세부 정보를 표시하려면 도구 설명으로 필드를 끌어다 놓습니다.  여기서는 **SalesFact** > **Sentiment gap** 을 추가했습니다. 아이다호(ID)의 상태를 강조 표시하면 감정 차이가 낮음(6)을 나타냅니다.
    ![Idaho 도구 설명을 표시하는 등치 지역도](media/power-bi-visualization-filled-maps-choropleths/power-bi-idaho-filled-map.png)
 
 10. [보고서를 저장합니다](../create-reports/service-report-save.md).
@@ -101,7 +101,7 @@ Power BI를 사용하면 등치 지역도의 모양을 다양한 방식으로 �
 
 보고서 페이지에서 다른 시각화 요소를 교차 필터링하는 등치 지역도에서 위치를 강조 표시하고 그 반대의 경우도 마찬가지입니다.
 
-1. 이를 수행하려면 먼저 **파일 > 저장**을 선택하여 이 보고서를 저장합니다. 
+1. 이를 수행하려면 먼저 **파일 > 저장** 을 선택하여 이 보고서를 저장합니다. 
 
 2. Ctrl+C를 사용하여 등치 지역도를 복사합니다.
 
@@ -113,7 +113,7 @@ Power BI를 사용하면 등치 지역도의 모양을 다양한 방식으로 �
 
    ![등치 지역도가 Sentiment 페이지에 추가됨](media/power-bi-visualization-filled-maps-choropleths/power-bi-map.png)
 
-5. 등치 지역도에서 시/도를 선택합니다.  이는 페이지의 다른 시각화 요소를 교차 강조 및 교차 필터링합니다. 예를 들어 **텍사스**를 선택하면 카드를 교차 필터링하고 가로 막대형 차트를 교차 강조 표시합니다. 이를 통해 감정이 75이고 텍사스가 Central District #23에 있음을 알 수 있습니다.   
+5. 등치 지역도에서 시/도를 선택합니다.  이는 페이지의 다른 시각화 요소를 교차 강조 및 교차 필터링합니다. 예를 들어 **텍사스** 를 선택하면 카드를 교차 필터링하고 가로 막대형 차트를 교차 강조 표시합니다. 이를 통해 감정이 75이고 텍사스가 Central District #23에 있음을 알 수 있습니다.   
    ![텍사스 선택됨](media/power-bi-visualization-filled-maps-choropleths/power-bi-filter.png)
 2. VanArsdel - Sentiment by Month 꺾은선형 차트에서 데이터 요소를 선택합니다. 이는 등치 지역도를 필터링하여 경쟁 대상이 아닌 VanArsdel에 대한 감정 데이터를 표시합니다.  
    ![새 음영](media/power-bi-visualization-filled-maps-choropleths/power-bi-vanarsdel.png)

@@ -1,8 +1,8 @@
 ---
 title: Power BI의 분산형, 거품형 및 점 그림 차트
 description: Power BI의 분산형 차트, 점 그림 차트 및 거품형 차트
-author: mihart
-ms.reviewer: amac
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 11/21/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 963bd77568db4390bca73a4ec4e9ce97ee616a58
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: b3b2dc8892b2b9b875621c6925c6f3c652da44c6
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91632897"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412697"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI의 분산형 차트, 거품형 차트 및 점 그림 차트
 
@@ -74,11 +74,11 @@ X축에 따라 범주 데이터를 포함하려는 경우 좋은 선택입니다
 
 이 자습서는 [소매점 분석 샘플 PBIX 파일](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 사용합니다.
 
-1. 메뉴 모음의 왼쪽 위 섹션에서 **파일** > **열기**를 선택합니다.
+1. 메뉴 모음의 왼쪽 위 섹션에서 **파일** > **열기** 를 선택합니다.
    
-2. **소매점 분석 샘플 PBIX 파일**을 찾습니다.
+2. **소매점 분석 샘플 PBIX 파일** 을 찾습니다.
 
-1. **소매점 분석 샘플 PBIX 파일**을 보고서 보기 아이콘 ![보고서 보기 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
+1. **소매점 분석 샘플 PBIX 파일** 을 보고서 보기 아이콘 ![보고서 보기 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
 
 1. 새 페이지를 추가하기 위해 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
 
@@ -101,9 +101,9 @@ X축에 따라 범주 데이터를 포함하려는 경우 좋은 선택입니다
 
    ![묶은 세로 막대형 차트를 분산형 차트로 변환한 스크린샷](media/power-bi-visualization-scatter/power-bi-scatter-new.png)
 
-1. **자세히**에서 **범례**로 **구역**를 끌어다 놓습니다.
+1. **자세히** 에서 **범례** 로 **구역** 를 끌어다 놓습니다.
 
-    그러면 Power BI가 Y축에 **총매출 분산 %** 를 그리고 X축에 **평방 미터당 매출**을 그리는 분산형 차트를 표시합니다. 데이터 요소 색은 구역을 나타냅니다. 데이터 요소 색은 구역을 나타냅니다.
+    그러면 Power BI가 Y축에 **총매출 분산 %** 를 그리고 X축에 **평방 미터당 매출** 을 그리는 분산형 차트를 표시합니다. 데이터 요소 색은 구역을 나타냅니다. 데이터 요소 색은 구역을 나타냅니다.
 
     ![분산형 차트의 스크린샷](media/power-bi-visualization-scatter/power-bi-scatter2.png)
 
@@ -111,15 +111,15 @@ X축에 따라 범주 데이터를 포함하려는 경우 좋은 선택입니다
 
 ## <a name="create-a-bubble-chart"></a>거품형 차트 만들기
 
-1. **필드** 창에서 **판매량** > **올해 판매액** > **값**을 **크기** 영역으로 끌어다 놓습니다. 데이터 요소는 판매 값과 비례하는 볼륨으로 확장합니다.
+1. **필드** 창에서 **판매량** > **올해 판매액** > **값** 을 **크기** 영역으로 끌어다 놓습니다. 데이터 요소는 판매 값과 비례하는 볼륨으로 확장합니다.
 
    ![판매 값을 크기 웰에 추가하여 분산형 차트가 거품형 차트가 된 스크린샷](media/power-bi-visualization-scatter/power-bi-scatter-chart-size.png)
 
-1. 거품을 마우스로 가리킵니다. 거품 크기는 **This Year Sales**의 값을 반영합니다.
+1. 거품을 마우스로 가리킵니다. 거품 크기는 **This Year Sales** 의 값을 반영합니다.
 
     ![도구 설명 표시](media/power-bi-visualization-scatter/pbi-scatter-chart-hover.png)
 
-1. 거품형 차트에 표시할 데이터 요소의 수를 설정하려면 **시각화** 창의 **서식** 섹션에서 **일반**을 확장하고 **데이터 볼륨**을 조정합니다.
+1. 거품형 차트에 표시할 데이터 요소의 수를 설정하려면 **시각화** 창의 **서식** 섹션에서 **일반** 을 확장하고 **데이터 볼륨** 을 조정합니다.
 
     ![서식 아이콘 및 일반 드롭다운이 있고 데이터 볼륨 옵션이 호출된 시각화 창의 스크린샷](media/power-bi-visualization-scatter/pbi-scatter-data-volume.png)
 
@@ -128,14 +128,14 @@ X축에 따라 범주 데이터를 포함하려는 경우 좋은 선택입니다
     > [!NOTE]
     > 더 많은 데이터 요소는 더 긴 로드 시간을 의미할 수 있습니다. 보다 높은 눈금 끝 값을 한도로 하여 보고서를 게시하도록 선택하는 경우 웹 및 모바일에서도 보고서를 테스트하여 차트의 성능이 사용자의 기대에 부합하는지 확인해야 합니다.
 
-1. 시각화 색, 레이블, 제목, 배경 등의 서식을 계속 지정합니다. [액세스 가능성을 향상시키려면](../create-reports/desktop-accessibility-overview.md) 각 줄에 표식 모양을 추가하는 것이 좋습니다. 표식 모양을 선택하려면 **셰이프**를 확장하고 **표식 모양**을 선택한 후 모양을 선택합니다.
+1. 시각화 색, 레이블, 제목, 배경 등의 서식을 계속 지정합니다. [액세스 가능성을 향상시키려면](../create-reports/desktop-accessibility-overview.md) 각 줄에 표식 모양을 추가하는 것이 좋습니다. 표식 모양을 선택하려면 **셰이프** 를 확장하고 **표식 모양** 을 선택한 후 모양을 선택합니다.
 
     ![표식 모양 옵션이 호출된 셰이프 드롭다운의 스크린샷](media/power-bi-visualization-scatter/pbi-scatter-marker.png)
 
     표식 모양을 다이아몬드, 삼각형 또는 사각형으로 변경합니다. 각 선에 다양한 표식 모양을 사용하면 보고서 소비자가 선(또는 영역)을 보다 쉽게 구분할 수 있습니다.
 
 1. 분석 창 ![분석 창 아이콘의 스크린샷](media/power-bi-visualization-scatter/power-bi-analytics.png) 을 열어 시각화에 정보를 더 추가합니다.  
-    - 중앙값 선을 추가합니다. **중앙값 선** > **추가**를 선택합니다. 기본적으로 Power BI는 ‘제곱 피트당 판매액’에 대한 중앙값 선을 추가합니다.  이는 10개의 데이터 요소가 있고 각 측면에서 5개의 데이터 요소가 있으면 중앙값이 생성된다는 것을 알고 있기 때문에 그다지 유용하지 않습니다. 대신 **측정값**을 *‘총 판매액 차이 %’* 로 전환합니다.  
+    - 중앙값 선을 추가합니다. **중앙값 선** > **추가** 를 선택합니다. 기본적으로 Power BI는 ‘제곱 피트당 판매액’에 대한 중앙값 선을 추가합니다.  이는 10개의 데이터 요소가 있고 각 측면에서 5개의 데이터 요소가 있으면 중앙값이 생성된다는 것을 알고 있기 때문에 그다지 유용하지 않습니다. 대신 **측정값** 을 *‘총 판매액 차이 %’* 로 전환합니다.  
 
         ![중앙값이 추가된 거품형 차트의 스크린샷](media/power-bi-visualization-scatter/power-bi-analytics-median.png)
 
@@ -145,7 +145,7 @@ X축에 따라 범주 데이터를 포함하려는 경우 좋은 선택입니다
 
         ![작년 매출 총이익 %가 선택된 세부 정보의 스크린샷.](media/power-bi-visualization-scatter/power-bi-format-symmetry.png)
 
-        b. 분석 창에서 **대칭 음영**을 추가합니다. Hosiery(분홍색 음영 영역의 녹색 거품)가 매장 제곱 피트당 판매액보다 총이익이 선호되는 유일한 범주임을 음영을 통해 알 수 있습니다. 
+        b. 분석 창에서 **대칭 음영** 을 추가합니다. Hosiery(분홍색 음영 영역의 녹색 거품)가 매장 제곱 피트당 판매액보다 총이익이 선호되는 유일한 범주임을 음영을 통해 알 수 있습니다. 
 
         ![대칭 음영이 추가된 거품형 차트의 스크린샷](media/power-bi-visualization-scatter/power-bi-symmetry.png)
 
@@ -157,7 +157,7 @@ X축에 따라 범주 데이터를 포함하려는 경우 좋은 선택입니다
 
 점 그림 차트를 만들려면 숫자 **X축** 필드를 범주 필드로 바꿉니다.
 
-**X축** 창에서 **제곱 피트당 판매액**을 제거하고 **구역** > **구역 관리자**로 바꿉니다.
+**X축** 창에서 **제곱 피트당 판매액** 을 제거하고 **구역** > **구역 관리자** 로 바꿉니다.
 
 ![새 점 그림 차트의 스크린샷](media/power-bi-visualization-scatter/power-bi-dot-plot-squares.png)
 

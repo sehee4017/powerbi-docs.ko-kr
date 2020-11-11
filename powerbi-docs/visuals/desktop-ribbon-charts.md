@@ -1,20 +1,20 @@
 ---
 title: Power BI에서 리본 차트 사용
 description: Power BI Desktop에서 리본 차트 만들기 및 사용
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/05/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0e5687f9bb3f27af7bdfee28cd9753fbda4fa44f
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: e89712dea5d9f932669141d8fe4129727166a342
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635772"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93413134"
 ---
 # <a name="create-ribbon-charts-in-power-bi"></a>Power BI에서 리본 차트 만들기
 
@@ -33,27 +33,27 @@ ms.locfileid: "91635772"
 
 이 자습서는 [소매점 분석 샘플 PBIX 파일](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 사용합니다.
 
-1. 메뉴 모음의 왼쪽 위 섹션에서 **파일** > **열기**를 선택합니다.
+1. 메뉴 모음의 왼쪽 위 섹션에서 **파일** > **열기** 를 선택합니다.
    
-2. **소매점 분석 샘플 PBIX 파일**을 찾습니다.
+2. **소매점 분석 샘플 PBIX 파일** 을 찾습니다.
 
-1. **소매점 분석 샘플 PBIX 파일**을 보고서 보기 아이콘 ![보고서 보기 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
+1. **소매점 분석 샘플 PBIX 파일** 을 보고서 보기 아이콘 ![보고서 보기 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
 
 1. 새 페이지를 추가하기 위해 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
 
 ## <a name="create-a-ribbon-chart"></a>리본 차트 만들기
 
-1. 리본 차트를 만들려면 **시각화** 패널에서 **리본 차트**를 선택합니다.
+1. 리본 차트를 만들려면 **시각화** 패널에서 **리본 차트** 를 선택합니다.
 
     ![시각화 템플릿](media/desktop-ribbon-charts/power-bi-template.png)
 
     리본 차트는 리본을 사용하여 시각화된 시간 연속체에 데이터의 범주를 연결하므로 차트의 x-축(일반적으로 타임라인)의 범위에서 지정된 범주 순위가 지정되는 방법을 표시할 수 있습니다.
 
-2. **축**, **범례** 및 **값**에 대한 필드를 선택합니다.  이 예에서는 다음을 선택했습니다. **Store** > **OpenDate**, **Item** > **Category** 및 **Sales** > **This year sales** > **값**.  
+2. **축** , **범례** 및 **값** 에 대한 필드를 선택합니다.  이 예에서는 다음을 선택했습니다. **Store** > **OpenDate** , **Item** > **Category** 및 **Sales** > **This year sales** > **값**.  
 
     ![선택한 필드](media/desktop-ribbon-charts/power-bi-ribbon-values.png)
 
-    데이터 세트는 1년 동안의 데이터만 포함하므로 **축**에서도 **연도** 및 **분기** 필드를 제거했습니다.
+    데이터 세트는 1년 동안의 데이터만 포함하므로 **축** 에서도 **연도** 및 **분기** 필드를 제거했습니다.
 
 3. 리본 차트는 모든 달의 순위를 보여줍니다. 시간 경과에 따라 순위가 어떻게 변하는지 확인합니다. 예를 들어 홈 범주는 2월에서 3월까지 2일에서 5일로 이동합니다.
 
@@ -66,12 +66,12 @@ ms.locfileid: "91635772"
 
 리본 차트의 이러한 서식 옵션을 통해 조정 작업을 수행할 수 있습니다.
 
-* **간격**을 통해 리본 간에 표시되는 공간을 조정할 수 있습니다. 번호는 열 최대 높이의 백분율입니다.
-* **계열 색 일치**를 사용하면 계열 색과 리본 메뉴의 색을 일치시킬 수 있습니다. **끄기**로 설정하면 리본이 회색으로 표시됩니다.
-* **투명도**는 기본값이 30으로 설정된 투명도 리본을 지정합니다.
-* **테두리**를 통해 리본의 위쪽 및 아래쪽에 어두운 테두리를 배치할 수 있습니다. 테두리는 기본적으로 꺼져 있습니다.
+* **간격** 을 통해 리본 간에 표시되는 공간을 조정할 수 있습니다. 번호는 열 최대 높이의 백분율입니다.
+* **계열 색 일치** 를 사용하면 계열 색과 리본 메뉴의 색을 일치시킬 수 있습니다. **끄기** 로 설정하면 리본이 회색으로 표시됩니다.
+* **투명도** 는 기본값이 30으로 설정된 투명도 리본을 지정합니다.
+* **테두리** 를 통해 리본의 위쪽 및 아래쪽에 어두운 테두리를 배치할 수 있습니다. 테두리는 기본적으로 꺼져 있습니다.
 
-리본 차트에는 y축 레이블이 없으므로 데이터 레이블을 추가하는 것이 좋습니다. 서식 창에서 **데이터 레이블**을 선택합니다. 
+리본 차트에는 y축 레이블이 없으므로 데이터 레이블을 추가하는 것이 좋습니다. 서식 창에서 **데이터 레이블** 을 선택합니다. 
 
 ![데이터 레이블의 서식 지정 옵션](media/desktop-ribbon-charts/power-bi-labels.png)
 

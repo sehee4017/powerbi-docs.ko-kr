@@ -1,20 +1,20 @@
 ---
 title: Power BI에서 시각적 요소 복사 및 붙여넣기
 description: Power BI에서 시각적 요소 복사 및 붙여넣기
-author: mihart
+author: msftrien
 ms.reviewer: maggie tsang
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 09/18/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 785f16b84dee1509ab04255587724e5ce39a043c
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: fd5fc361431268c37639a336923a4067176f1761
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90763132"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93411064"
 ---
 # <a name="copy-and-paste-a-report-visualization"></a>보고서 시각화 복사 및 붙여넣기
 
@@ -30,7 +30,7 @@ Power BI 보고서의 시각적 개체를 보고서의 한 페이지에서 동�
 
 시각화를 복사하고 붙여 넣으려면 보고서에 대한 편집 권한이 필요합니다. Power BI 서비스에서 이는 [편집용 보기](../consumer/end-user-reading-view.md)에서 보고서를 연다는 의미입니다. 
 
-*대시보드*의 시각화는 Power BI 보고서 또는 다른 대시보드에 복사하여 붙여넣을 수 없습니다.
+*대시보드* 의 시각화는 Power BI 보고서 또는 다른 대시보드에 복사하여 붙여넣을 수 없습니다.
 
 1. 하나 이상의 시각화가 있는 보고서를 엽니다.  
 
@@ -54,11 +54,11 @@ Power BI 보고서 또는 대시보드에서 이미지를 공유하려고 했습
 
 1. Power BI 서비스를 열고 복사하려는 대시보드로 이동합니다.
 
-2. 시각적 개체의 오른쪽 위 모퉁이에서 **기타 옵션(...)** 을 선택하고 **시각적 개체를 이미지로 복사**를 선택합니다. 
+2. 시각적 개체의 오른쪽 위 모퉁이에서 **기타 옵션(...)** 을 선택하고 **시각적 개체를 이미지로 복사** 를 선택합니다. 
 
     ![시각적 개체를 표시되는 이미지 아이콘으로 복사](media/power-bi-visualization-copy-paste/power-bi-copy-dashboard.png)
 
-3. **시각적 개체를 복사할 준비가 되고** 대화 상자가 표시되면 **클립보드로 복사**를 선택합니다.
+3. **시각적 개체를 복사할 준비가 되고** 대화 상자가 표시되면 **클립보드로 복사** 를 선택합니다.
 
     ![클립보드로 복사 옵션을 사용하는 대화 상자](media/power-bi-visualization-copy-paste/power-bi-copied.png)
 
@@ -74,7 +74,7 @@ Power BI 보고서 또는 대시보드에서 이미지를 공유하려고 했습
 
     ![시각적 개체를 이미지로 복사 아이콘을 보여 주는 스크린샷](media/power-bi-visualization-copy-paste/power-bi-copy-icon.png)
 
-3. **시각적 개체를 복사할 준비가 되고** 대화 상자가 표시되면 **클립보드로 복사**를 선택합니다.
+3. **시각적 개체를 복사할 준비가 되고** 대화 상자가 표시되면 **클립보드로 복사** 를 선택합니다.
 
     ![클립보드로 복사 옵션을 사용하는 대화 상자](media/power-bi-visualization-copy-paste/power-bi-copied.png)
 
@@ -99,11 +99,11 @@ Power BI 보고서 또는 대시보드에서 이미지를 공유하려고 했습
 1. 페인트 롤러 아이콘을 선택하여 서식 창을 엽니다. 
 
 1. **시각적 서식 지정** 카드를 엽니다.
-1. **시각적 개체 헤더**로 아래로 스크롤하여 카드를 확장하고 **복사 아이콘**을 해제합니다.
+1. **시각적 개체 헤더** 로 아래로 스크롤하여 카드를 확장하고 **복사 아이콘** 을 해제합니다.
 
     ![페인트 롤러 선택됨 및 복사 아이콘 선택됨](media/power-bi-visualization-copy-paste/power-bi-visual-header.png)
 
-1. **시각적 개체 헤더** 설정을 찾을 수 없는 경우 **보고서 설정**에서 최신 시각적 개체 헤더 옵션을 설정합니다. 
+1. **시각적 개체 헤더** 설정을 찾을 수 없는 경우 **보고서 설정** 에서 최신 시각적 개체 헤더 옵션을 설정합니다. 
 
     ![선택된 최신 시각적 개체 헤더 사용](media/power-bi-visualization-copy-paste/power-bi-use-modern.png)
 
@@ -111,17 +111,17 @@ Power BI 보고서 또는 대시보드에서 이미지를 공유하려고 했습
 
 #### <a name="disable-copy-as-an-image-for-a-group-of-users"></a>사용자 그룹에 대한 이미지로 복사 사용 안 함
 
-콘텐츠를 소유하거나 테넌트의 관리자인 경우 시각적 개체를 복사할 수 있는 사용자를 제어할 수 있습니다. 이 설정은 사용자가 Power BI 테넌트에서 액세스하는 모든 콘텐츠에 대해 *시각적 개체를 이미지로 복사*를 사용하지 않도록 설정합니다.
+콘텐츠를 소유하거나 테넌트의 관리자인 경우 시각적 개체를 복사할 수 있는 사용자를 제어할 수 있습니다. 이 설정은 사용자가 Power BI 테넌트에서 액세스하는 모든 콘텐츠에 대해 *시각적 개체를 이미지로 복사* 를 사용하지 않도록 설정합니다.
   
 1. 관리 포털로 이동합니다.
 
-1. **테넌트 설정**에서 **내보내기 및 공유 설정**을 선택합니다. 
+1. **테넌트 설정** 에서 **내보내기 및 공유 설정** 을 선택합니다. 
 
     ![시각적 개체 복사 및 붙여넣기 사용](media/power-bi-visualization-copy-paste/power-bi-enable.png)
 
-1. 선택한 사용자 그룹에 대한 **시각적 개체 복사 및 붙여넣기**를 사용하지 않도록 설정합니다. 
+1. 선택한 사용자 그룹에 대한 **시각적 개체 복사 및 붙여넣기** 를 사용하지 않도록 설정합니다. 
 
-1. 변경 내용을 저장하고, 지정된 그룹은 Power BI 전체에서 **시각적 개체를 이미지로 복사**를 사용할 수 없습니다. 
+1. 변경 내용을 저장하고, 지정된 그룹은 Power BI 전체에서 **시각적 개체를 이미지로 복사** 를 사용할 수 없습니다. 
   
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결

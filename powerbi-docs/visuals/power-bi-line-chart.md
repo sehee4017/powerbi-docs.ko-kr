@@ -1,20 +1,20 @@
 ---
 title: Power BI의 꺾은선형 차트
 description: Power BI의 꺾은선형 차트
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 59cede1cae716661be8d3796330bde7da44170eb
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: acbd6e40a351885b8644aca48edf41db81462864
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634599"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93411984"
 ---
 # <a name="line-charts-in-power-bi"></a>Power BI의 꺾은선형 차트
 
@@ -34,7 +34,7 @@ ms.locfileid: "91634599"
 
 1. 빈 보고서 페이지에서 시작합니다. Power BI 서비스를 사용하는 경우 [편집용 보기](../create-reports/service-interact-with-a-report-in-editing-view.md)에서 보고서를 엽니다.
 
-2. 필드 창에서 **SalesFact** \> **전체 단위**를 선택하고 **날짜**  >  **월**을 선택합니다.  Power BI는 보고서 캔버스에 세로 막대형 차트를 만듭니다.
+2. 필드 창에서 **SalesFact** \> **전체 단위** 를 선택하고 **날짜**  >  **월** 을 선택합니다.  Power BI는 보고서 캔버스에 세로 막대형 차트를 만듭니다.
 
     ![필드 창에서 선택](media/power-bi-line-charts/power-bi-step1.png)
 
@@ -43,11 +43,11 @@ ms.locfileid: "91634599"
     ![꺾은선형 차트로 변환](media/power-bi-line-charts/power-bi-convert-to-line.png)
    
 
-4. 꺾은선형 차트를 필터링하여 연도 2012-2014에 대한 데이터를 표시합니다. 필터 창이 축소된 경우 지금 확장합니다. 필드 창에서 **날짜** \> **연도**를 선택하고 필터 창으로 끌어 **이 시각적 개체의 필터** 머리글 아래에 놓습니다. 
+4. 꺾은선형 차트를 필터링하여 연도 2012-2014에 대한 데이터를 표시합니다. 필터 창이 축소된 경우 지금 확장합니다. 필드 창에서 **날짜** \> **연도** 를 선택하고 필터 창으로 끌어 **이 시각적 개체의 필터** 머리글 아래에 놓습니다. 
      
     ![필드 창 옆의 선](media/power-bi-line-charts/power-bi-year-filter.png)
 
-    **고급 필터**를 **기본 필터**로 변경하고 **2012**, **2013** 및 **2014**를 선택합니다.
+    **고급 필터** 를 **기본 필터** 로 변경하고 **2012** , **2013** 및 **2014** 를 선택합니다.
 
     ![연도 필터](media/power-bi-line-charts/power-bi-filter-year.png)
 
@@ -59,7 +59,7 @@ ms.locfileid: "91634599"
 꺾은선형 차트에는 다수의 선이 있을 수 있습니다. 또한 일부 경우에는 선의 값이 매우 다양하고 함께 잘 표시되지 않을 수도 있습니다. 현재 차트에 선을 더 추가한 후 살펴보면서 선이 표시하는 값이 매우 다를 때 차트의 서식을 지정하는 방법을 알아보세요. 
 
 ### <a name="add-additional-lines"></a>선 추가
-모든 지역의 전체 단위를 차트상의 단일 선으로 살펴보는 대신 전체 단위를 지역별로 분할해 보겠습니다. **지역** > **지역**을 범례 웰로 끌어 선을 추가합니다.
+모든 지역의 전체 단위를 차트상의 단일 선으로 살펴보는 대신 전체 단위를 지역별로 분할해 보겠습니다. **지역** > **지역** 을 범례 웰로 끌어 선을 추가합니다.
 
    ![각 지역에 대해 선 하나](media/power-bi-line-charts/power-bi-line-regions.png)
 

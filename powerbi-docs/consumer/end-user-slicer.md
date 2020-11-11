@@ -1,20 +1,20 @@
 ---
 title: Power BI 서비스에서 슬라이서 사용
 description: Power BI 슬라이서는 보고서의 다른 시각화에 표시되는 데이터 세트의 부분을 좁히는 대체 필터링 방법입니다.
-author: v-thepet
-ms.reviewer: mihart
+author: mihart
+ms.reviewer: v-thepet
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 10/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bbcac4eb3adf8fe47ff6576e15d8d1334a8c13f0
-ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
+ms.openlocfilehash: 291da6ec949dd6cfb83f26be573e592e1141e99a
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "91830409"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412145"
 ---
 # <a name="slicers-in-the-power-bi-service"></a>Power BI 서비스의 슬라이서
 

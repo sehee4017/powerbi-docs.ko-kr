@@ -1,20 +1,20 @@
 ---
 title: 카드 시각화(큰 숫자 타일)
 description: Power BI에서 카드 시각화 만들기
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8ee29bcfb85c627ed6e9bb4c33c48b941ded7dd7
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: c8d9691ce515bc7c216c7d3f1bb764ca8b511971
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526829"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93411041"
 ---
 # <a name="create-card-visualizations"></a>카드 시각화 만들기
 
@@ -22,7 +22,7 @@ ms.locfileid: "91526829"
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
-Power BI 대시보드 또는 보고서에서 총 매출, 연간 시장 점유율, 총 영업 기회와 같이 한 가지 가장 중요한 숫자만 추적하려는 경우가 있습니다. 이 시각화 유형을 *카드*라고 합니다. 거의 모든 네이티브 Power BI 시각화와 마찬가지로 카드도 보고서 편집기 또는 질문과 대답을 사용하여 만들 수 있습니다.
+Power BI 대시보드 또는 보고서에서 총 매출, 연간 시장 점유율, 총 영업 기회와 같이 한 가지 가장 중요한 숫자만 추적하려는 경우가 있습니다. 이 시각화 유형을 *카드* 라고 합니다. 거의 모든 네이티브 Power BI 시각화와 마찬가지로 카드도 보고서 편집기 또는 질문과 대답을 사용하여 만들 수 있습니다.
 
 ![카드 시각화](media/power-bi-visualization-card/pbi-opptuntiescard.png)
 
@@ -33,11 +33,11 @@ Power BI 대시보드 또는 보고서에서 총 매출, 연간 시장 점유율
 
 이 자습서는 [소매점 분석 샘플 PBIX 파일](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 사용합니다.
 
-1. 메뉴 모음의 왼쪽 위 섹션에서 **파일** \> **열기**를 선택합니다.
+1. 메뉴 모음의 왼쪽 위 섹션에서 **파일** \> **열기** 를 선택합니다.
    
-2. **소매점 분석 샘플 PBIX 파일**을 찾습니다.
+2. **소매점 분석 샘플 PBIX 파일** 을 찾습니다.
 
-1. **소매점 분석 샘플 PBIX 파일**을 보고서 보기 아이콘 ![보고서 보기 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
+1. **소매점 분석 샘플 PBIX 파일** 을 보고서 보기 아이콘 ![보고서 보기 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
 
 1. 새 페이지를 추가하기 위해 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
 
@@ -87,15 +87,15 @@ Power BI 대시보드 또는 보고서에서 총 매출, 연간 시장 점유율
 
     ![페인트 롤러가 윤곽선으로 표시된 카드](media/power-bi-visualization-card/power-bi-format-card-2.png)
 
-2. 카드를 선택한 상태에서 **데이터 레이블**을 확장하고 색, 크기 및 글꼴 패밀리를 변경합니다. 수천 개의 매장이 있는 경우 **표시 단위**를 사용하여 천 단위까지 매장 수를 표시하고 소수 자릿수도 제어할 수 있습니다. 예를 들어 125,832.00 대신 125.8K로 표시합니다.
+2. 카드를 선택한 상태에서 **데이터 레이블** 을 확장하고 색, 크기 및 글꼴 패밀리를 변경합니다. 수천 개의 매장이 있는 경우 **표시 단위** 를 사용하여 천 단위까지 매장 수를 표시하고 소수 자릿수도 제어할 수 있습니다. 예를 들어 125,832.00 대신 125.8K로 표시합니다.
 
     ![데이터 서식이 있는 카드 예](media/power-bi-visualization-card/power-bi-card-format-2.png)
 
-3.  **범주 레이블**을 확장하고 색과 크기를 변경합니다.
+3.  **범주 레이블** 을 확장하고 색과 크기를 변경합니다.
 
     ![범주가 있는 카드 예](media/power-bi-visualization-card/power-bi-card-format-category.png)
 
-4. **배경**을 확장하고 슬라이더를 설정으로 이동합니다.  이제 배경색과 투명도를 변경할 수 있습니다.
+4. **배경** 을 확장하고 슬라이더를 설정으로 이동합니다.  이제 배경색과 투명도를 변경할 수 있습니다.
 
     ![슬라이더가 켜짐으로 설정됨](media/power-bi-visualization-card/power-bi-format-color-2.png)
 

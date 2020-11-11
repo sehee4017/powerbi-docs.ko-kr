@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: d23062a5b8fe4a1a68be372865746a1a7d497c26
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: 4530a6579a3109a2696c77a79a3a5a1c6b8092dd
+ms.sourcegitcommit: 1b3a626c5ca612a7f23058f8e5cc0147a94db51c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349670"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "94348062"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Power BI에서 템플릿 앱 작성 팁
 
@@ -141,7 +141,7 @@ AppSource에 템플릿 앱을 게시한 후에는 웹 사이트에서 다음 중
 * AppSource 다운로드 페이지 - 공개적으로 볼 수 있습니다. AppSource 페이지에서 링크를 가져옵니다.
 * Power BI - Power BI 사용자가 볼 수 있습니다.
 
-Power BI의 앱 다운로드 링크로 사용자를 리디렉션하려면 다음 코드 예제를 참조하세요. [GitHub 리포지토리](https://github.com/microsoft/Template-apps-examples/tree/master/src)
+Power BI의 앱 다운로드 링크로 사용자를 리디렉션하려면 다음 코드 예제를 참조하세요. [GitHub 리포지토리](https://github.com/microsoft/Template-apps-examples)
 
 [![앱 다운로드 링크](media/service-template-apps-tips/service-template-apps-tips-download.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
 

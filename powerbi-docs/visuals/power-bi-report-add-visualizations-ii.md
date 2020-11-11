@@ -1,20 +1,20 @@
 ---
 title: 2부, Power BI 보고서에 시각화 추가
 description: 2부, Power BI 보고서에 시각화 추가
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/06/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0bcfcf9ef84ae8b2d59d1c004e2e00c6cf6b3eef
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 79c613b33ccadacc7ce24d9eb744e66014218b52
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232200"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93411708"
 ---
 # <a name="add-visuals-to-a-power-bi-report-part-2"></a>Power BI 보고서에 시각적 개체 추가(2부)
 
@@ -32,11 +32,11 @@ ms.locfileid: "85232200"
 
 이 자습서는 [소매점 분석 샘플 PBIX 파일](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 사용합니다.
 
-1. Power BI Desktop 메뉴 모음의 왼쪽 위 섹션에서 **파일** > **열기**를 선택합니다.
+1. Power BI Desktop 메뉴 모음의 왼쪽 위 섹션에서 **파일** > **열기** 를 선택합니다.
    
-2. **소매점 분석 샘플 PBIX 파일**을 찾습니다.
+2. **소매점 분석 샘플 PBIX 파일** 을 찾습니다.
 
-1. **소매점 분석 샘플 PBIX 파일**을 보고서 보기 아이콘 ![보고서 보기 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
+1. **소매점 분석 샘플 PBIX 파일** 을 보고서 보기 아이콘 ![보고서 보기 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
 
 1. 새 페이지를 추가하기 위해 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
 
@@ -47,16 +47,16 @@ ms.locfileid: "85232200"
 
 ### <a name="add-an-area-chart-that-looks-at-this-years-sales-compared-to-last-year"></a>올해와 작년의 매출을 비교하는 영역 차트를 추가합니다.
 
-1. **Sales** 테이블에서 **This Year Sales** > **Value** 및 **Last Year Sales**를 선택합니다. Power BI에 세로 막대형 차트가 만들어집니다.  이 차트는 흥미로우며, 자세히 살펴보는 것이 좋습니다. 월별 매출이 어떻게 보이나요?  
+1. **Sales** 테이블에서 **This Year Sales** > **Value** 및 **Last Year Sales** 를 선택합니다. Power BI에 세로 막대형 차트가 만들어집니다.  이 차트는 흥미로우며, 자세히 살펴보는 것이 좋습니다. 월별 매출이 어떻게 보이나요?  
    
    ![세로 막대형 차트를 보여 주는 스크린샷](media/power-bi-report-add-visualizations-ii/power-bi-start.png)
 
-2. Time 테이블에서 **FiscalMonth**를 **축** 영역으로 끌어옵니다.  
+2. Time 테이블에서 **FiscalMonth** 를 **축** 영역으로 끌어옵니다.  
    ![축이 FiscalMonth인 세로 막대형 차트를 보여 주는 스크린샷](media/power-bi-report-add-visualizations-ii/power-bi-fiscalmonth.png)
 
 3. 영역 차트로 [시각화를 변경](power-bi-report-change-visualization-type.md)합니다.  선택할 수 있는 다양한 시각화 유형이 있습니다. 사용할 유형을 결정하는 데 도움이 필요하면 [각 유형에 대한 설명, 모범 사례 팁 및 자습서](power-bi-visualization-types-for-reports-and-q-and-a.md)를 참조하세요. 시각화 창에서 영역 차트 아이콘 ![시각화 창의 영역 차트 아이콘](media/power-bi-report-add-visualizations-ii/power-bi-area-chart.png)을 선택합니다.
 
-4. **추가 작업**(...)을 선택한 다음, **정렬 기준** >  **FiscalMonth**를 선택하여 시각화를 정렬합니다.
+4. **추가 작업** (...)을 선택한 다음, **정렬 기준** >  **FiscalMonth** 를 선택하여 시각화를 정렬합니다.
 
 5. 시각화를 선택하고 윤곽 원 중 하나를 클릭한 다음 끌어서 [시각화의 크기를 조정](power-bi-visualization-move-and-resize.md)합니다. 스크롤 막대가 보이지 않도록 넓게 만들고 다른 시각화를 추가할 만큼의 공간을 남겨둡니다.
    
@@ -65,10 +65,10 @@ ms.locfileid: "85232200"
 
 ### <a name="add-a-map-visualization-that-looks-at-sales-by-location"></a>위치별 매출을 볼 수 있는 맵 시각화 추가
 
-1. **Store** 테이블에서 **Territory**를 선택합니다. **Total Stores**를 크기 영역으로 끌어 놓습니다. Power BI는 해당 지역이 위치인 것을 인식하고 맵 시각화를 만듭니다.  
+1. **Store** 테이블에서 **Territory** 를 선택합니다. **Total Stores** 를 크기 영역으로 끌어 놓습니다. Power BI는 해당 지역이 위치인 것을 인식하고 맵 시각화를 만듭니다.  
    ![영역 차트](media/power-bi-report-add-visualizations-ii/power-bi-map1.png)
 
-2. 범례를 추가합니다.  매장 이름별로 데이터를 보려면 **Store** > **Chain**을 범례 영역으로 끌어 놓습니다.  
+2. 범례를 추가합니다.  매장 이름별로 데이터를 보려면 **Store** > **Chain** 을 범례 영역으로 끌어 놓습니다.  
    ![필드 목록의 체인에서 범례 버킷의 체인까지 화살표가 있는 보고서 캔버스](media/power-bi-report-add-visualizations-ii/power-bi-chain.png)
 
 > [!NOTE]

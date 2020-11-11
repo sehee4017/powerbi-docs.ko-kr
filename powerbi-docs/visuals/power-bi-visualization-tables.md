@@ -1,7 +1,7 @@
 ---
 title: Power BI 보고서 및 대시보드의 테이블 시각화
 description: Power BI 보고서와 대시보드에서 열 너비 크기를 조정하는 방법을 비롯하여 테이블 시각화를 사용하여 작업하는 방법에 대한 자습서입니다.
-author: mihart
+author: msftrien
 ms.reviewer: willt
 featuredvideoid: ''
 ms.service: powerbi
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 02/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8730860a63d8d78dad7cfaafa11fb411ec8422fe
-ms.sourcegitcommit: 220427415e2fdc9337244b1ee23e734854179d43
+ms.openlocfilehash: 127e8b7033e60c70a4d541cfc4725e7340a514e6
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91862965"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412881"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI 보고서 및 대시보드의 테이블
 
@@ -180,7 +180,7 @@ ms.locfileid: "91862965"
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
 
-* 열 서식 지정을 적용할 때 다음 중에 하나의 열당 맞춤 옵션을 선택할 수 있습니다. **자동** , **왼쪽** , **가운데** , **오른쪽** . 일반적으로 열은 모두 텍스트 또는 숫자만을 포함하고 섞지 않습니다. 열에 숫자와 텍스트가 모두 포함되어 있는 경우 **자동** 은 텍스트의 경우 왼쪽에 정렬하고, 번호의 경우 오른쪽에 정렬합니다. 이 동작은 왼쪽에서 오른쪽으로 읽는 언어를 지원합니다.
+* 열 서식 지정을 적용할 때 다음 중에 하나의 열당 맞춤 옵션을 선택할 수 있습니다. **자동** , **왼쪽** , **가운데** , **오른쪽**. 일반적으로 열은 모두 텍스트 또는 숫자만을 포함하고 섞지 않습니다. 열에 숫자와 텍스트가 모두 포함되어 있는 경우 **자동** 은 텍스트의 경우 왼쪽에 정렬하고, 번호의 경우 오른쪽에 정렬합니다. 이 동작은 왼쪽에서 오른쪽으로 읽는 언어를 지원합니다.
 
 * 테이블의 셀 또는 헤더에 있는 텍스트 데이터에 줄 바꿈 문자가 포함된 경우, 요소의 연결된 서식 창 카드에서 '자동 줄 바꿈' 옵션을 설정/해제하지 않는 한 이러한 문자는 무시됩니다. 
 

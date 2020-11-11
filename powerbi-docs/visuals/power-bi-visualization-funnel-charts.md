@@ -1,8 +1,8 @@
 ---
 title: 깔대기형 차트
 description: Power BI의 깔때기형 차트
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b0680df9a75d42f637632916bfd648943ba7517b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2719127825dc94f1f1bd83fe4d36dc47dfc355f7
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235841"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412904"
 ---
 # <a name="create-and-use-funnel-charts"></a>깔때기형 차트 만들기 및 사용
 
@@ -59,11 +59,11 @@ ms.locfileid: "85235841"
 이 자습서는 [기회 분석 샘플 PBIX 파일](https://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix
 )을 사용합니다.
 
-1. 메뉴 모음의 왼쪽 위 섹션에서 **파일** > **열기**를 선택합니다.
+1. 메뉴 모음의 왼쪽 위 섹션에서 **파일** > **열기** 를 선택합니다.
    
-2. **기회 분석 샘플 PBIX 파일**을 찾습니다.
+2. **기회 분석 샘플 PBIX 파일** 을 찾습니다.
 
-1. **기회 분석 샘플 PBIX 파일**을 보고서 보기 아이콘 ![보고서 보기 아이콘의 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
+1. **기회 분석 샘플 PBIX 파일** 을 보고서 보기 아이콘 ![보고서 보기 아이콘의 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
 
 1. 새 페이지를 추가하기 위해 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
 
@@ -82,7 +82,7 @@ ms.locfileid: "85235841"
 
 1. 깔때기 아이콘 ![깔때기형 차트 아이콘](media/power-bi-visualization-funnel-charts/power-bi-funnel-icon.png) 을 선택하여 세로 막대형 차트를 깔때기형 차트로 변환합니다.
 
-2. **필드** 창에서 **Fact** \> **Opportunity Count**를 선택합니다.
+2. **필드** 창에서 **Fact** \> **Opportunity Count** 를 선택합니다.
    
     ![깔때기형 차트 빌드](media/power-bi-visualization-funnel-charts/power-bi-funnel-2.png)
 4. 막대를 마우스로 가리키면 다양한 정보가 표시됩니다.

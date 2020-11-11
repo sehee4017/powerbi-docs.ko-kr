@@ -1,8 +1,8 @@
 ---
 title: Power BI의 폭포 차트
 description: Power BI의 폭포 차트
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 12/5/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 148fe66039cb273d4ee20521762d5720252c7492
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: ce3c52774326bd9fc66fecde7496fefb1cf6888c
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635726"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412122"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI의 폭포 차트
 
@@ -45,11 +45,11 @@ ms.locfileid: "91635726"
 
 이 자습서는 [소매점 분석 샘플 PBIX 파일](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 사용합니다.
 
-1. 메뉴 모음의 왼쪽 위 섹션에서 **파일** > **열기**를 선택합니다.
+1. 메뉴 모음의 왼쪽 위 섹션에서 **파일** > **열기** 를 선택합니다.
    
-2. **소매점 분석 샘플 PBIX 파일**을 찾습니다.
+2. **소매점 분석 샘플 PBIX 파일** 을 찾습니다.
 
-1. **소매점 분석 샘플 PBIX 파일**을 보고서 보기 아이콘 ![보고서 보기 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
+1. **소매점 분석 샘플 PBIX 파일** 을 보고서 보기 아이콘 ![보고서 보기 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
 
 1. 새 페이지를 추가하기 위해 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
 
@@ -62,7 +62,7 @@ ms.locfileid: "91635726"
 
 ### <a name="build-the-waterfall-chart"></a>폭포 차트 만들기
 
-1. **필드** 창에서 **판매량** > **총판매액 차이**를 선택합니다.
+1. **필드** 창에서 **판매량** > **총판매액 차이** 를 선택합니다.
 
    ![선택된 판매량 > 총판매액 차이에 해당하는 시각적 개체의 스크린샷](media/power-bi-visualization-waterfall-charts/power-bi-bar.png)
 
@@ -70,19 +70,19 @@ ms.locfileid: "91635726"
 
     ![시각화 템플릿](media/power-bi-visualization-waterfall-charts/convert-waterfall.png)
 
-1. **시간** > **FiscalMonth**를 선택하여 **범주** 영역에 추가합니다.
+1. **시간** > **FiscalMonth** 를 선택하여 **범주** 영역에 추가합니다.
 
     ![폭포](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-month.png)
 
 ### <a name="sort-the-waterfall-chart"></a>폭포 차트 정렬
 
-1. Power BI에서 폭포 차트가 시간(월)순으로 정렬되도록 합니다. 차트의 오른쪽 위에서 **추가 옵션**(...)을 선택합니다.
+1. Power BI에서 폭포 차트가 시간(월)순으로 정렬되도록 합니다. 차트의 오른쪽 위에서 **추가 옵션** (...)을 선택합니다.
 
-    이 예에서는**정렬 기준**을 선택하고 **FiscalMonth**를 선택합니다. 선택 항목 옆에 있는 노란색 표시기는 선택 옵션이 적용 중인 경우에 나타납니다.
+    이 예에서는 **정렬 기준** 을 선택하고 **FiscalMonth** 를 선택합니다. 선택 항목 옆에 있는 노란색 표시기는 선택 옵션이 적용 중인 경우에 나타납니다.
 
     ![정렬 기준 > FiscalMonth 선택](media/power-bi-visualization-waterfall-charts/power-bi-sort-by-fiscalmonth.png)
     
-    월을 시간순으로 표시하려면 **오름차순 정렬**을 선택합니다. 이전 단계와 마찬가지로, **오름차순 정렬** 왼쪽 옆에 노란색 표시기가 있는지 확인합니다. 이는 선택한 옵션이 적용되고 있음을 나타냅니다.
+    월을 시간순으로 표시하려면 **오름차순 정렬** 을 선택합니다. 이전 단계와 마찬가지로, **오름차순 정렬** 왼쪽 옆에 노란색 표시기가 있는지 확인합니다. 이는 선택한 옵션이 적용되고 있음을 나타냅니다.
 
     ![정렬 기준 > 오름차순 선택](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-ascending.png)
 
@@ -94,17 +94,17 @@ ms.locfileid: "91635726"
 
 조금 더 세부적으로 들어가 월간 편차의 가장 큰 요인을 살펴봅니다.
 
-1.  **매장** > **지역**을 선택하면 **분석** 버킷에 **지역**이 추가됩니다.
+1.  **매장** > **지역** 을 선택하면 **분석** 버킷에 **지역** 이 추가됩니다.
 
     ![스크린샷은 지역을 분석 결과 영역에 추가하는 것을 보여 줍니다.](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
 
-    Power BI는 **분석**의 값을 사용하여 시각화에 데이터를 추가합니다. 각 회계 월에 대해 증가하거나 감소하는 상위 5개 요인을 추가합니다. 예를 들어, 2월에는 1개가 아닌, 6개의 데이터 요소가 있음을 의미합니다.  
+    Power BI는 **분석** 의 값을 사용하여 시각화에 데이터를 추가합니다. 각 회계 월에 대해 증가하거나 감소하는 상위 5개 요인을 추가합니다. 예를 들어, 2월에는 1개가 아닌, 6개의 데이터 요소가 있음을 의미합니다.  
 
     ![분석 버킷의 매장 표시](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-default.png)
 
     상위 2개 요인에만 관심이 있는 경우입니다.
 
-1. **서식** 창에서 **분석 결과**를 선택하고 **최대 분석 결과**를 **2**로 설정합니다.
+1. **서식** 창에서 **분석 결과** 를 선택하고 **최대 분석 결과** 를 **2** 로 설정합니다.
 
     ![서식 > 분석 결과](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-two.png)
 

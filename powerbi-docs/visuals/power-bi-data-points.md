@@ -1,7 +1,7 @@
 ---
 title: 큰 데이터 세트, 데이터 요소 제한 및 데이터 전략
 description: 시각적 개체 및 데이터 감소 전략에 대한 데이터 제한
-author: mihart
+author: msftrien
 ms.reviewer: justyna
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5efe83cfa43c6fcb156501774bbaeae79381ab85
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 89bfba0dc679ddb7a9142c83e863cddaf1400063
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857729"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412053"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>시각적 개체 유형별 데이터 요소 제한 및 전략 적용
 
@@ -30,10 +30,10 @@ Power BI에서 시각적 개체를 렌더링할 경우 시각화가 빠르고 �
 ## <a name="strategies"></a>전략
 각 전략에는 시각화되는 데이터의 셰이프 및 형식을 기반으로 하는 기본값이 있습니다. 그러나 Power BI 서식 지정 창에서 기본값을 재정의하여 적합한 사용자 환경을 제공할 수 있습니다. 
 
-* **데이터 창**(구분): 사용자가 전체 데이터 세트의 조각을 점진적으로 로드하여 시각적 개체에서 데이터를 스크롤할 수 있도록 합니다.
-* **TopN**: 처음 N개 항목만 표시합니다.
-* **간단한 샘플**: 사이에 있는 처음, 마지막 및 N개 균등 분산 항목을 표시합니다.
-* **BottomN**: 마지막 N개 항목만 표시합니다.  자주 업데이트되는 데이터를 모니터링하는 데 유용합니다.
+* **데이터 창** (구분): 사용자가 전체 데이터 세트의 조각을 점진적으로 로드하여 시각적 개체에서 데이터를 스크롤할 수 있도록 합니다.
+* **TopN** : 처음 N개 항목만 표시합니다.
+* **간단한 샘플** : 사이에 있는 처음, 마지막 및 N개 균등 분산 항목을 표시합니다.
+* **BottomN** : 마지막 N개 항목만 표시합니다.  자주 업데이트되는 데이터를 모니터링하는 데 유용합니다.
 * **고밀도 샘플링** - 이상값 및/또는 곡선 셰이프를 더욱 잘 준수하는 향상된 샘플링 알고리즘입니다.
     * **범주화된 선 샘플링** - 축에서 Bin의 이상값을 기반으로 하는 샘플 데이터 요소입니다.
     * **겹치는 요소 샘플링** - 이상값을 보존하기 위해 겹치는 값을 기반으로 하는 샘플 데이터 요소입니다.
@@ -52,7 +52,7 @@ Power BI에서 시각적 개체를 렌더링할 경우 시각화가 빠르고 �
 
 * [서버의 SuperDax 기능을 활용](/archive/blogs/analysisservices/whats-new-in-microsoft-sql-server-analysis-services-tabular-models-in-sql-server-2016-ctp-2-3)하는 온-프레미스 SSAS 버전 2016 이상의 Power BI Desktop에서
 
-* 가져온 모델, 직접 쿼리 서비스 실시간 연결 또는 AS PaaS 실시간 연결을 사용할 경우 데스크톱 및 Power BI 서비스에서. 
+* 가져온 모델, 직접 쿼리 서비스 실시간 연결 또는 AS PaaS 실시간 연결을 사용할 경우 데스크톱 및 Power BI 서비스에서. 
 
 * Power BI 서비스에서 온-프레미스 SSAS에 온-프레미스 게이트웨이를 통해 연결할 경우에는 동적 제한을 사용할 수 없습니다. 온-프레미스 게이트웨이는 온-프레미스 SSAS와 다른 결과 세트 구조를 반환하는 동적 제한 전략을 완전히 지원하지 않습니다.  
 
@@ -74,7 +74,7 @@ Power BI에서 시각적 개체를 렌더링할 경우 시각화가 빠르고 �
 - 값: 한 번에 200개 행의 창을 사용하여 가상화
 
 ### <a name="combo-chart"></a>콤보 차트
- 세로 막대형 차트와 동일한 전략을 사용합니다. **콤보 차트**의 선은 **꺾은선형 차트**에서 사용하는 고밀도 알고리즘을 사용하지 않습니다.
+ 세로 막대형 차트와 동일한 전략을 사용합니다. **콤보 차트** 의 선은 **꺾은선형 차트** 에서 사용하는 고밀도 알고리즘을 사용하지 않습니다.
 
 ### <a name="power-bi-visuals"></a>Power BI 시각적 개체
 최대 30,000개를 가져올 수 있지만 어떤 전략을 사용할지는 시각적 개체 작성자의 마음입니다. 기본 제한은 1,000개이지만 시각적 개체 생성자가 이를 최대 30,000개까지로 변경할 수 있습니다.

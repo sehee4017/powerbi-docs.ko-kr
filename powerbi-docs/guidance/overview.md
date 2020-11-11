@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/27/2019
 ms.author: asaxton
-ms.openlocfilehash: 441400a5d32ea776288f976aa1d2155a971f3c72
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a501e1b379958836e339628e904b36125c9b9ce3
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279000"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94395624"
 ---
 # <a name="guidance-for-power-bi"></a>Power BI에 대한 지침
 
@@ -36,6 +36,6 @@ ms.locfileid: "83279000"
 
 | 지침 | 설명 |
 | --- | --- |
-| [데이터 흐름 모범 사례](../transform-model/service-dataflows-best-practices.md) | Power BI 데이터 흐름 디자인에 대한 모범 사례를 설명합니다. |
+| [데이터 흐름 모범 사례](../transform-model/dataflows/dataflows-introduction-self-service.md) | Power BI 데이터 흐름 디자인에 대한 모범 사례를 설명합니다. |
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

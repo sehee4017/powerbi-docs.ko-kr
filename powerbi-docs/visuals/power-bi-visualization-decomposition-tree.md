@@ -1,8 +1,7 @@
 ---
 title: 분해 트리
 description: '자습서:  Power BI에서 분해 트리 시각화 만들기'
-author: mihart
-manager: kvivek
+author: msftrien
 ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b7aebef72952c75ed6ec406c6f3f9e888f047086
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 0a8bc86217dac8f0c2b70e300f08b1667ee63568
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91632828"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93413088"
 ---
 # <a name="create-and-view-decomposition-tree-visuals-in-power-bi"></a>Power BI에서 분해 트리 시각적 개체 만들기 및 보기
 
@@ -55,7 +54,7 @@ https://github.com/microsoft/powerbi-desktop-samples/blob/master/Sample%20Report
 
 ![설명 기준 목록에서 옵션을 표시하는 더하기 아이콘이 선택된 것을 보여 주는 스크린샷.](media/power-bi-visualization-decomposition-tree/tree-menu.png)
 
-**Forecast bias**를 선택하면 트리가 확장되고 측정값이 열의 값을 기준으로 분류됩니다. 드릴할 다른 노드를 선택하여 이 프로세스를 반복할 수 있습니다.
+**Forecast bias** 를 선택하면 트리가 확장되고 측정값이 열의 값을 기준으로 분류됩니다. 드릴할 다른 노드를 선택하여 이 프로세스를 반복할 수 있습니다.
 
 ![분해 트리 확장](media/power-bi-visualization-decomposition-tree/tree-expansion.png)
 
@@ -82,7 +81,7 @@ https://github.com/microsoft/powerbi-desktop-samples/blob/master/Sample%20Report
  - **높은 값** 사용 가능한 모든 필드를 고려하고 분석할 측정값에서 가장 높은 값을 얻기 위해 드릴할 필드를 결정합니다.  
  - **낮은 값** 사용 가능한 모든 필드를 고려하고 분석할 측정값에서 가장 낮은 값을 얻기 위해 드릴할 필드를 결정합니다.  
 
-이월 주문 예제에서 **높은 값**을 선택하면 다음과 같은 결과가 나타납니다.
+이월 주문 예제에서 **높은 값** 을 선택하면 다음과 같은 결과가 나타납니다.
 
 ![분해 트리 AI 분할](media/power-bi-visualization-decomposition-tree/tree-ai-split.png)
 
@@ -90,17 +89,17 @@ https://github.com/microsoft/powerbi-desktop-samples/blob/master/Sample%20Report
 
 전구 위로 마우스를 가져가면 도구 설명이 표시됩니다. 이 예제에서 도구 설명은 "제품 유형이 환자 모니터링일 때 이월 주문 %가 최대값"입니다.
 
-**절대**와는 반대로 **상대** AI 분할을 찾도록 시각적 개체를 구성할 수 있습니다. 
+**절대** 와는 반대로 **상대** AI 분할을 찾도록 시각적 개체를 구성할 수 있습니다. 
 
 상대 모드는 두드러지는 높은 값을 찾습니다(열의 나머지 데이터와 비교). 이를 설명하기 위해 예제를 살펴보겠습니다.
 
 ![분해 트리 절대 분할](media/power-bi-visualization-decomposition-tree/tree-ai-absolute.png)
 
-위의 스크린샷에는 북아메리카 지역 비디오 게임 판매가 나와 있습니다. 먼저 **Publisher Name**을 기준으로 트리를 분할한 다음 Nintendo로 드릴합니다. **높은 값**을 선택하면 **Platform이 Nintendo**가 확장됩니다. Nintendo(제작사)만 Nintendo 콘솔 게임을 개발하므로 값은 하나뿐이고 당연히 이것이 최대값입니다.
+위의 스크린샷에는 북아메리카 지역 비디오 게임 판매가 나와 있습니다. 먼저 **Publisher Name** 을 기준으로 트리를 분할한 다음 Nintendo로 드릴합니다. **높은 값** 을 선택하면 **Platform이 Nintendo** 가 확장됩니다. Nintendo(제작사)만 Nintendo 콘솔 게임을 개발하므로 값은 하나뿐이고 당연히 이것이 최대값입니다.
 
-그럼에도 더 흥미로운 분할은 같은 열에 있는 다른 값을 기준으로 하는 상위 값을 확인하는 것입니다. 분석 유형을 **절대**에서 **상대**로 변경하면 Nintendo에 대해 다음과 같은 결과를 얻을 수 있습니다. ![분해 트리 상대 분할](media/power-bi-visualization-decomposition-tree/tree-ai-relative.png)
+그럼에도 더 흥미로운 분할은 같은 열에 있는 다른 값을 기준으로 하는 상위 값을 확인하는 것입니다. 분석 유형을 **절대** 에서 **상대** 로 변경하면 Nintendo에 대해 다음과 같은 결과를 얻을 수 있습니다. ![분해 트리 상대 분할](media/power-bi-visualization-decomposition-tree/tree-ai-relative.png)
 
-이번에는 제안된 값이 **Game Genre 내 Platform**입니다.  Platform에는 Nintendo보다 큰 절대값이 없습니다($19,950,000와 $46,950,000). 그럼에도 불구하고 이것은 두드러지는 값입니다.
+이번에는 제안된 값이 **Game Genre 내 Platform** 입니다.  Platform에는 Nintendo보다 큰 절대값이 없습니다($19,950,000와 $46,950,000). 그럼에도 불구하고 이것은 두드러지는 값입니다.
 
 보다 정확하게는 10개의 게임 장르 값이 있으므로 균일하게 분할할 경우 Platform에서 예상되는 값은 $4.6M이 됩니다. Platform은 값이 거의 $20M이기 때문에 예상 결과보다 4배 더 높은 흥미로운 결과를 얻을 수 있습니다.
 
@@ -134,7 +133,7 @@ vs.
 
 ![모든 달이 선택된 근본 원인 분석을 보여 주는 스크린샷.](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter1.png)
 
-그러나 가로 막대형 차트에서 **4월**을 선택하면 최대값이 **Product Type 이 Advanced Surgical**로 바뀝니다. 이 경우 노드가 다시 정렬되었을 뿐만 아니라 완전히 다른 열이 선택되었습니다. 
+그러나 가로 막대형 차트에서 **4월** 을 선택하면 최대값이 **Product Type 이 Advanced Surgical** 로 바뀝니다. 이 경우 노드가 다시 정렬되었을 뿐만 아니라 완전히 다른 열이 선택되었습니다. 
 
 ![4월만 선택된 근본 원인 분석을 보여 주는 스크린샷.](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter2.png)
 

@@ -1,20 +1,20 @@
 ---
 title: 기본 영역형 차트
 description: 기본 영역형 차트입니다.
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/16/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dd0cfbcb2b4e4d18a7aa69fb65063f9d81e0a14a
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 4cc08398821d019d55475e0d4ed66a7633c49ca1
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354803"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93411432"
 ---
 # <a name="create-and-use-basic-area-charts"></a>기본 영역형 차트 만들기 및 사용
 
@@ -40,11 +40,11 @@ ms.locfileid: "85354803"
 ### <a name="prerequisites"></a>필수 조건
 이 자습서는 [소매점 분석 샘플 PBIX 파일](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 사용합니다.
 
-1. 메뉴 모음의 왼쪽 위 섹션에서 **파일** > **열기**를 선택합니다.
+1. 메뉴 모음의 왼쪽 위 섹션에서 **파일** > **열기** 를 선택합니다.
    
-2. **소매점 분석 샘플 PBIX 파일**을 찾습니다.
+2. **소매점 분석 샘플 PBIX 파일** 을 찾습니다.
 
-1. **소매점 분석 샘플 PBIX 파일**을 보고서 보기 아이콘 ![보고서 보기 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
+1. **소매점 분석 샘플 PBIX 파일** 을 보고서 보기 아이콘 ![보고서 보기 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
 
 1. 새 페이지를 추가하기 위해 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
 
@@ -54,7 +54,7 @@ ms.locfileid: "85354803"
 
 1. 이들 단계는 올해 판매액과 지난 해 판매액을 월별로 보여주는 영역형 차트를 만드는데 도움이 될 것입니다.
    
-   a. 필드 창에서 **판매 \> 지난해 판매액** 및 **올해 판매액 > 값**을 선택합니다.
+   a. 필드 창에서 **판매 \> 지난해 판매액** 및 **올해 판매액 > 값** 을 선택합니다.
 
    ![영역형 차트 데이터 값](media/power-bi-visualization-basic-area-chart/power-bi-bar-chart.png)
 
@@ -62,10 +62,10 @@ ms.locfileid: "85354803"
 
    ![영역형 차트 아이콘](media/power-bi-visualization-basic-area-chart/convertchart.png)
    
-   c.  **Time \> FiscalMonth**를 선택하여 **축**에 추가합니다.   
+   c.  **Time \> FiscalMonth** 를 선택하여 **축** 에 추가합니다.   
    ![영역형 차트 축 값](media/power-bi-visualization-basic-area-chart/powerbi-area-chartnew.png)
    
-   d.  월별 차트를 표시하려면 줄임표(시각적 개체의 오른쪽 위 모서리)를 선택 하고 **월별 정렬**을 선택합니다. 정렬 순서를 변경하려면 줄임표를 다시 선택하고 **오름차순 정렬** 또는 **내림차순 정렬**을 선택합니다.
+   d.  월별 차트를 표시하려면 줄임표(시각적 개체의 오른쪽 위 모서리)를 선택 하고 **월별 정렬** 을 선택합니다. 정렬 순서를 변경하려면 줄임표를 다시 선택하고 **오름차순 정렬** 또는 **내림차순 정렬** 을 선택합니다.
 
 ## <a name="highlighting-and-cross-filtering"></a>강조 표시 및 교차 필터링
 필터 창 사용 방법에 대한 자세한 내용은 [보고서에 필터 추가](../create-reports/power-bi-report-add-filter.md)를 참조하세요.

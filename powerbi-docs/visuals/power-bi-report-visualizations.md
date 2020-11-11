@@ -1,21 +1,21 @@
 ---
 title: Power BI 서비스 및 Desktop의 보고서 시각화 개요
 description: Microsoft Power BI의 보고서 시각화(시각적 개체)에 대한 개요입니다.
-author: mihart
-ms.author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.author: rien
+ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/05/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c94990f3126191cf568c2cc20fb5db0c954a6424
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: be7249411f4e90d99dde38a1da3b6a6656674ea0
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049456"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93411340"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Power BI 보고서의 시각화
 

@@ -1,8 +1,8 @@
 ---
 title: Power BI의 방사형 계기 차트
 description: Power BI의 방사형 계기 차트
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/17/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 24f69255ae12400c23cd9ca506e5b103e14e7ffb
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: d7fcef8294d1e4ba4b3336d4a2456e0ccac787fb
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354895"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412329"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Power BI의 방사형 계기 차트
 
@@ -48,15 +48,15 @@ ms.locfileid: "85354895"
 
 이 자습서에서는 [재무 샘플 Excel 파일](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 사용합니다.
 
-1. 메뉴 모음의 왼쪽 위 섹션에서 **데이터 가져오기** > **Excel**을 선택합니다.
+1. 메뉴 모음의 왼쪽 위 섹션에서 **데이터 가져오기** > **Excel** 을 선택합니다.
    
-2. **재무 샘플 Excel 파일**을 찾습니다.
+2. **재무 샘플 Excel 파일** 을 찾습니다.
 
-1. **재무 샘플 Excel 파일**을 보고서 보기 아이콘 ![보고서 보기 아이콘의 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
+1. **재무 샘플 Excel 파일** 을 보고서 보기 아이콘 ![보고서 보기 아이콘의 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png)으로 엽니다.
 
-1. **재무** 및 **Sheet1**을 선택합니다.
+1. **재무** 및 **Sheet1** 을 선택합니다.
 
-1. **로드**를 클릭합니다.
+1. **로드** 를 클릭합니다.
 
 1. 새 페이지를 추가하기 위해 ![노란색 탭 스크린샷](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) 탭을 선택합니다.
 
@@ -68,11 +68,11 @@ ms.locfileid: "85354895"
 
 1. 빈 보고서 페이지에서 시작합니다.
 
-1. **필드** 창에서 **총 판매액**을 선택합니다.
+1. **필드** 창에서 **총 판매액** 을 선택합니다.
 
    ![재무 테이블 확장됨, 총 판매액 선택됨](media/power-bi-visualization-radial-gauge-charts/grosssalesvalue-new.png)
 
-1. 집계를 **평균**으로 변경합니다.
+1. 집계를 **평균** 으로 변경합니다.
 
    ![총매출액 및 평균 집계가 호출된 필드 창의 스크린샷](media/power-bi-visualization-radial-gauge-charts/changetoaverage-new.png)
 
@@ -83,15 +83,15 @@ ms.locfileid: "85354895"
     **재무 샘플** 파일을 다운로드하는 시점에 따라 이러한 수치와 일치하지 않는 숫자가 표시될 수 있습니다.
 
     > [!TIP]
-    > 기본적으로 Power BI는 현재 값(이 경우, **평균 총 판매액**)이 계기에 중간 지점으로 간주되는 계기 차트를 만듭니다. **평균 총 판매액** 값이 $182.76K이므로 시작 값(최소)은 0으로 설정하고 끝 값(최대)은 현재 값의 두 배로 설정됩니다.
+    > 기본적으로 Power BI는 현재 값(이 경우, **평균 총 판매액** )이 계기에 중간 지점으로 간주되는 계기 차트를 만듭니다. **평균 총 판매액** 값이 $182.76K이므로 시작 값(최소)은 0으로 설정하고 끝 값(최대)은 현재 값의 두 배로 설정됩니다.
 
 ### <a name="step-3-set-a-target-value"></a>3단계: 대상 값 설정
 
-1. **필드** 창에서 **대상 값**으로 **COGS**를 끕니다.
+1. **필드** 창에서 **대상 값** 으로 **COGS** 를 끕니다.
 
-1. 집계를 **평균**으로 변경합니다.
+1. 집계를 **평균** 으로 변경합니다.
 
-   Power BI가 바늘을 추가하여 대상 값이 **$145.48K**임을 나타냅니다.
+   Power BI가 바늘을 추가하여 대상 값이 **$145.48K** 임을 나타냅니다.
 
    ![COGS의 평균이 추가된 계기 차트의 스크린샷](media/power-bi-visualization-radial-gauge-charts/gaugeinprogress-new.png)
 
@@ -104,9 +104,9 @@ ms.locfileid: "85354895"
 
 2단계에서 Power BI는 **값** 필드를 사용하여 최솟값과 최댓값을 자동으로 설정했습니다. 사용자가 스스로 최댓값을 설정하려는 경우 어떻게 해야 할까요? 가능한 최댓값으로 현재 값을 두 배로 사용하는 대신, 데이터 세트에서 가장 높은 총매출액 수로 설정하는 것을 가정해 보겠습니다.
 
-1. **필드** 창에서 **최댓값** 웰로 **총매출액**을 끕니다.
+1. **필드** 창에서 **최댓값** 웰로 **총매출액** 을 끕니다.
 
-1. 집계를 **최대값**으로 변경합니다.
+1. 집계를 **최대값** 으로 변경합니다.
 
    ![총매출액 및 최대 집계가 호출된 필드 창의 스크린샷](media/power-bi-visualization-radial-gauge-charts/setmaximum-new.png)
 
@@ -120,13 +120,13 @@ ms.locfileid: "85354895"
 
 ## <a name="use-manual-format-options-to-set-minimum-maximum-and-target-values"></a>수동 서식 옵션을 사용하여 최솟값, 최댓값 및 대상 값 설정
 
-1. **최댓값**에서 **최대 총 판매량**을 제거합니다.
+1. **최댓값** 에서 **최대 총 판매량** 을 제거합니다.
 
 1. 페인트 롤러 아이콘을 선택하여 **서식** 창을 엽니다.
 
    ![계기 차트 및 페인트 롤러 아이콘이 호출된 서식 창의 스크린샷](media/power-bi-visualization-radial-gauge-charts/power-bi-roller.png)
 
-1. **게이지 축**을 확장하고 **최솟값** 및 **최댓값**에 값을 입력합니다.
+1. **게이지 축** 을 확장하고 **최솟값** 및 **최댓값** 에 값을 입력합니다.
 
     ![게이지 축 옵션의 스크린샷](media/power-bi-visualization-radial-gauge-charts/power-bi-gauge-axis.png)
 

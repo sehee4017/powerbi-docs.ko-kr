@@ -1,26 +1,26 @@
 ---
 title: R 스크립트를 사용하여 고급 분석 및 시각화 만들기
 description: Power BI Desktop에서 R 스크립트를 사용하여 고급 분석 및 고급 시각화 만들기
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 11/14/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 91ca05a144166abbc903d42ba30a5c70b839987d
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 3b43d644a0bb7ecd2800b99d3ffb5d7c7d26bf96
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782810"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412099"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>Power BI에서 R 시각적 개체 만들기 및 사용
 
 [!INCLUDE[consumer-appliesto-nnyn](../includes/consumer-appliesto-nnyn.md)]
 
-R 시각적 개체는 현재 **Power BI Desktop**에서 만든 다음 Power BI 서비스에 게시할 수 있습니다. R 시각적 개체 만들기에 대한 자세한 내용은 [R을 사용하여 Power BI 시각적 개체 만들기](../create-reports/desktop-r-visuals.md)를 참조하세요.
+R 시각적 개체는 현재 **Power BI Desktop** 에서 만든 다음 Power BI 서비스에 게시할 수 있습니다. R 시각적 개체 만들기에 대한 자세한 내용은 [R을 사용하여 Power BI 시각적 개체 만들기](../create-reports/desktop-r-visuals.md)를 참조하세요.
 
 ## <a name="viewing-r-visuals-in-the-power-bi-service"></a>Power BI 서비스에서 R 시각적 개체 보기
 Power BI 서비스는 R 스크립트를 사용하여 만든 시각적 개체 보기 및 상호 작용을 지원합니다. 일반적으로 *R 시각적 개체* 라고 하는 R 스크립트를 사용하여 만든 시각적 개체는 R의 풍부한 분석 및 시각화 기능을 사용하여 예측과 같은 고급 데이터 셰이핑 및 분석을 제공할 수 있습니다.
@@ -38,13 +38,13 @@ R 시각적 개체는 다음 그림에 표시된 보고서와 같이 [Power BI D
 
 ![2개의 시각적 개체가 있는 데스크톱 보고서](media/service-r-visuals/power-bi-r-visual-desktop.png)
 
-**Power BI Desktop**에서 보고서가 만들어지면 하나 이상의 R 시각적 개체를 포함하는 보고서를 Power BI 서비스에 게시할 수 있습니다. 
+**Power BI Desktop** 에서 보고서가 만들어지면 하나 이상의 R 시각적 개체를 포함하는 보고서를 Power BI 서비스에 게시할 수 있습니다. 
 
  서비스에서 R 패키지 중 일부만 지원됩니다. Power BI 서비스에서 현재 지원되는 패키지 목록은 이 문서의 끝에 지원되는 패키지를 참조하세요.
 
 몇 가지 R 시각적 개체를 포함하는 이 [샘플 Power BI Desktop 파일](https://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample%20SL.pbix)(.pbix 파일)을 다운로드하여 작동 방법을 확인하고 실험할 수 있습니다.
 
-**Power BI Desktop**에서 만들어진 다음 Power BI 서비스에 게시되는 대부분의 R 시각적 개체는 Power BI 서비스에서 다른 시각적 개체처럼 작동합니다. 상호 작용, 필터링, 분할 및 대시보드에 고정하거나 다른 사용자와 공유할 수 있습니다. 대시보드 및 시각적 개체 공유에 대한 자세한 내용은 [동료 및 다른 사용자와 대시보드 공유](../collaborate-share/service-share-dashboards.md)를 참조하세요. 다른 시각적 개체와의 한 가지 차이점은 R 시각적 개체는 도구 설명을 표시할 수 없고 다른 시각적 개체 필터링에 사용될 수 없다는 것입니다.
+**Power BI Desktop** 에서 만들어진 다음 Power BI 서비스에 게시되는 대부분의 R 시각적 개체는 Power BI 서비스에서 다른 시각적 개체처럼 작동합니다. 상호 작용, 필터링, 분할 및 대시보드에 고정하거나 다른 사용자와 공유할 수 있습니다. 대시보드 및 시각적 개체 공유에 대한 자세한 내용은 [동료 및 다른 사용자와 대시보드 공유](../collaborate-share/service-share-dashboards.md)를 참조하세요. 다른 시각적 개체와의 한 가지 차이점은 R 시각적 개체는 도구 설명을 표시할 수 없고 다른 시각적 개체 필터링에 사용될 수 없다는 것입니다.
 
 다음 그림에서 볼 수 있듯이 대시보드 또는 보고서의 Power BI 서비스에서 R 시각적 개체는 크게 나타나고 다른 시각적 개체처럼 작동하며 사용자는 시각적 개체를 만든 기본 R 스크립트를 알아야 할 필요는 없습니다.
 
@@ -78,8 +78,8 @@ Power BI의 무료 사용자만 프리미엄 작업 영역에서 다른 사용�
 
 |  |Power BI Desktop에서 R 시각적 개체 작성  | R 시각적 개체로 PBI 서비스 보고서 만들기 |보고서의 R 시각적 개체 보기  | 대시보드의 R 타일 보기 |
 |---------|---------|---------|---------|--------|
-|**게스트**(Power BI embedded)     |  지원됨|  지원되지 않음      | 프리미엄/Azure 용량에서만 지원됨  | 프리미엄/Azure 용량에서만 지원됨 |
-|**관리되지 않는 테넌트**(도메인 확인되지 않음) | 지원됨 | 지원되지 않음 |  지원되지 않음 |지원됨(B2B 시나리오) |
+|**게스트** (Power BI embedded)     |  지원됨|  지원되지 않음      | 프리미엄/Azure 용량에서만 지원됨  | 프리미엄/Azure 용량에서만 지원됨 |
+|**관리되지 않는 테넌트** (도메인 확인되지 않음) | 지원됨 | 지원되지 않음 |  지원되지 않음 |지원됨(B2B 시나리오) |
 |무료 라이선스로 **관리되는 테넌트**    |  지원됨       |  지원되지 않음       |    프리미엄 용량에서만 지원됨    | 지원됨 |
 Pro 라이선스로 **관리되는 테넌트**     |   지원됨      | 지원됨      | 지원됨    |지원됨|
 
@@ -96,7 +96,7 @@ Power BI 서비스의 R 시각적 개체에는 몇 가지 제한 사항이 있�
 * 데이터 업데이트, 필터링 및 강조 표시가 발생하면 R 시각적 개체가 새로 고쳐집니다. 그러나 이미지 자체는 대화형이 아니며 도구 설명을 지원하지 않습니다.
 * 다른 시각적 개체를 강조 표시하면 R 시각적 개체가 그에 응답하지만 R 시각적 개체의 요소를 클릭하여 다른 요소를 교차 필터링할 수는 없습니다.
 * *시간* 데이터 형식에 대해 R 시각적 개체는 현재 지원되지 않습니다. 날짜/시간을 대신 사용하세요.
-* **웹에 게시**를 사용하는 경우 R 시각적 개체는 표시되지 않습니다.
+* **웹에 게시** 를 사용하는 경우 R 시각적 개체는 표시되지 않습니다.
 * R 시각적 개체는 입력 열의 이름 바꾸기를 지원하지 않습니다. 열은 스크립트 실행 중에 원래 이름으로 참조됩니다.
 * R 시각적 개체는 현재 대시보드 및 보고서 인쇄를 인쇄하지 않습니다.
 * R 시각적 개체는 현재 Analysis Services의 DirectQuery 모드에서 지원되지 않습니다.
@@ -108,7 +108,7 @@ Power BI 서비스의 R 시각적 개체에는 몇 가지 제한 사항이 있�
 
 * 한국어, 중국어, 일본어 글꼴이 Power BI 서비스에서 제대로 작동하려면 다음 추가 단계가 모두 필요합니다.
   
-  * 먼저 R 패키지 *showtext*와 모든 종속성을 설치합니다. 다음 스크립트를 실행하면 됩니다.
+  * 먼저 R 패키지 *showtext* 와 모든 종속성을 설치합니다. 다음 스크립트를 실행하면 됩니다.
     
 ```install.packages("showtext")```
 
@@ -121,16 +121,16 @@ powerbi_rEnableShowTextForCJKLanguages =  1
 ## <a name="overview-of-r-packages"></a>R 패키지 개요
 R 패키지는 잘 정의된 형식으로 결합된 R 함수, 데이터 및 컴파일된 코드의 컬렉션입니다. R을 설치할 경우 패키지의 표준 집합과 함께 제공되며 다른 패키지를 다운로드 및 설치할 수 있습니다. 설치되면 사용할 세션으로 R 패키지를 로드해야 합니다. R 패키지의 주 원본은 CRAN([Comprehensive R Archive Network](https://cran.r-project.org/web/packages/available_packages_by_name.html))입니다.
 
-**Power BI Desktop**은 제한 없이 모든 유형의 R 패키지를 사용할 수 있습니다. 예를 들어, **RStudio IDE**를 사용하여 [Power BI Desktop](https://www.rstudio.com/)에서 사용할 R 패키지를 직접 설치할 수 있습니다.
+**Power BI Desktop** 은 제한 없이 모든 유형의 R 패키지를 사용할 수 있습니다. 예를 들어, **RStudio IDE** 를 사용하여 [Power BI Desktop](https://www.rstudio.com/)에서 사용할 R 패키지를 직접 설치할 수 있습니다.
 
-**Power BI 서비스**의 R 시각화 개체는 **이 문서**에 나오는 [지원 패키지](../connect-data/service-r-packages-support.md) 섹션에 있는 패키지에서 지원됩니다. 지원 되는 패키지 목록에서 관심이 있는 패키지를 찾을 수 없는 경우 패키지의 지원을 요청할 수 있습니다. 지원을 요청하는 방법에 대한 내용은 [Power BI 서비스의 R 패키지](../connect-data/service-r-packages-support.md)를 참조하세요.
+**Power BI 서비스** 의 R 시각화 개체는 **이 문서** 에 나오는 [지원 패키지](../connect-data/service-r-packages-support.md) 섹션에 있는 패키지에서 지원됩니다. 지원 되는 패키지 목록에서 관심이 있는 패키지를 찾을 수 없는 경우 패키지의 지원을 요청할 수 있습니다. 지원을 요청하는 방법에 대한 내용은 [Power BI 서비스의 R 패키지](../connect-data/service-r-packages-support.md)를 참조하세요.
 
 ### <a name="requirements-and-limitations-of-r-packages"></a>R 패키지의 요구 사항 및 제한 사항
 R 패키지에 대한 몇 가지 요구 사항 및 제한 사항이 있습니다.
 
 * 대부분의 경우에 Power BI 서비스에서는 GPL-2, GPL-3, MIT+ 등과 같은 무료 오픈 소스 소프트웨어 라이선스를 포함한 R 패키지를 지원합니다.
 * Power BI 서비스는 CRAN에 게시된 패키지를 지원합니다. 서비스는 프라이빗 또는 사용자 지정 R 패키지를 지원하지 않습니다. 사용자가 Power BI 서비스에서 사용할 수 있는 패키지를 요청하기 전에 CRAN에서 자신의 프라이빗 패키지를 사용할 수 있도록 만드는 것이 좋습니다.
-* **Power BI Desktop**에는 R 패키지에 대한 두 가지 변형이 있습니다.
+* **Power BI Desktop** 에는 R 패키지에 대한 두 가지 변형이 있습니다.
   
   * R 시각적 개체의 경우 사용자 지정 R 패키지를 포함한 모든 패키지를 설치할 수 있습니다.
   * 사용자 지정 R 시각적 개체의 경우 CRAN 패키지에만 패키지의 자동 설치를 지원합니다.

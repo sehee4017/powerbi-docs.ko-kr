@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18, devx-track-js
 ms.date: 02/05/2019
-ms.openlocfilehash: faacbe602a8c80dc036583cca599b24b072df315
-ms.sourcegitcommit: 702ababd71c38846303bf49990b51afc73f9ebb8
+ms.openlocfilehash: c831118a14c1dc453acb81b866013dcb085d9f6d
+ms.sourcegitcommit: 1b3a626c5ca612a7f23058f8e5cc0147a94db51c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "92795661"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "94348200"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>자습서:  내셔널 클라우드용 애플리케이션에 Power BI 콘텐츠 포함
 
@@ -143,7 +143,7 @@ REST API 호출을 실행하려면 Azure AD를 사용해 애플리케이션을 �
 
 * 중국 클라우드용 Power BI - ```https://app.powerbi.cn/apps```
 
-[고객에 대한 콘텐츠 포함 샘플](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/Embed%20for%20your%20customers/PowerBIEmbedded_AppOwnsData)을 다운로드했다면 Azure AD에서 샘플이 인증을 받을 수 있도록 얻은 **applicationId** 를 사용합니다. 샘플을 구성하려면 *web.config* 파일에서 **applicationId** 를 변경합니다.
+[고객에 대한 콘텐츠 포함 샘플](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Core/Embed%20for%20your%20customers/AppOwnsData)을 다운로드했다면 Azure AD에서 샘플이 인증을 받을 수 있도록 얻은 **applicationId** 를 사용합니다. 샘플을 구성하려면 *web.config* 파일에서 **applicationId** 를 변경합니다.
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>2 단계-Azure AD로 액세스 토큰 가져오기
 
@@ -187,7 +187,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 
 Power BI 클라이언트 개체를 사용하여 포함하려는 항목에 참조를 검색할 수 있습니다. 대시보드, 타일 또는 보고서를 포함할 수 있습니다. 다음은 주어진 작업 영역에서 첫 번째 대시보드, 타일 또는 보고서를 검색하는 방법을 보여 주는 예제입니다.
 
-샘플은 [앱 소유 데이터 샘플](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/Embed%20for%20your%20customers/PowerBIEmbedded_AppOwnsData)의 **Controllers\HomeController.cs** 에서 찾을 수 있습니다.
+샘플은 [앱 소유 데이터 샘플](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Core/Embed%20for%20your%20customers/AppOwnsData)의 **Controllers\HomeController.cs** 에서 찾을 수 있습니다.
 
 #### <a name="reports"></a>보고서
 
@@ -243,7 +243,7 @@ JavaScript API를 사용하여 포함 토큰을 생성할 수 있습니다. 포�
 > [!IMPORTANT]
 > 포함 토큰은 개발자 테스트 전용이므로 Power BI 마스터 계정에서 생성할 수 있는 포함 토큰의 수는 제한적입니다. 프로덕션 포함 시나리오를 위해 [용량을 구입해야](./embedded-faq.md#technical) 합니다. 용량을 구입할 때 토큰 생성은 제한 없이 포함시킬 수 있습니다.
 
-샘플은 [조직에 대한 콘텐츠 포함 샘플](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/Embed%20for%20your%20customers/PowerBIEmbedded_AppOwnsData)의 **Controllers\HomeController.cs** 내에서 찾을 수 있습니다.
+샘플은 [조직에 대한 콘텐츠 포함 샘플](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Core/Embed%20for%20your%20customers/AppOwnsData)의 **Controllers\HomeController.cs** 내에서 찾을 수 있습니다.
 
 **EmbedConfig** 및 **TileEmbedConfig** 에 대한 클래스가 만들어집니다. 샘플은 **Models\EmbedConfig.cs** 및 **Models\TileEmbedConfig.cs** 내에서 찾아볼 수 있습니다.
 
@@ -309,7 +309,7 @@ var embedConfig = new TileEmbedConfig()
 
 JavaScript를 사용하여 웹 페이지의 div 요소로 대시보드를 로드합니다. 샘플은 EmbedConfig/TileEmbedConfig 모델을 대시보드, 타일 또는 보고서에 대한 보기와 함께 사용합니다. JavaScript API 사용에 관한 전체 샘플인 경우 [Microsoft Power BI Embedded 샘플](https://microsoft.github.io/PowerBI-JavaScript/demo)을 사용할 수 있습니다.
 
-이 애플리케이션 샘플은 [조직에 대한 콘텐츠 포함 샘플](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/Embed%20for%20your%20customers/PowerBIEmbedded_AppOwnsData) 내에서 사용할 수 있습니다.
+이 애플리케이션 샘플은 [조직에 대한 콘텐츠 포함 샘플](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Core/Embed%20for%20your%20customers/AppOwnsData) 내에서 사용할 수 있습니다.
 
 ### <a name="viewshomeembeddashboardcshtml"></a>Views\Home\EmbedDashboard.cshtml
 
@@ -436,7 +436,7 @@ JavaScript를 사용하여 웹 페이지의 div 요소로 대시보드를 로드
 
 ## <a name="next-steps"></a>다음 단계
 
-* 검토하기 위한 샘플 애플리케이션은 GitHub에서 사용할 수 있습니다. 위의 예제는 이 샘플을 기반으로 하고 있습니다. 자세한 내용은 [조직에 대한 콘텐츠 포함 샘플](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/Embed%20for%20your%20customers/PowerBIEmbedded_AppOwnsData)을 참조하세요.
+* 검토하기 위한 샘플 애플리케이션은 GitHub에서 사용할 수 있습니다. 위의 예제는 이 샘플을 기반으로 하고 있습니다. 자세한 내용은 [조직에 대한 콘텐츠 포함 샘플](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Core/Embed%20for%20your%20customers/AppOwnsData)을 참조하세요.
 
 * JavaScript API에 대한 자세한 내용은 [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)를 참조하세요.
 
