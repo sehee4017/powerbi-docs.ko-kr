@@ -10,12 +10,12 @@ ms.date: 09/02/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: dca1b3bb107c8a2e02b48db9d22a4fe6c2875a4c
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c604bec5213b14f91e514c9a1552acb99ac5d0aa
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860926"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916800"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI에 대한 질문과 대답
 
@@ -37,7 +37,7 @@ Power BI를 조작하는 방식은 작업 역할에 따라 다릅니다. 최종 
 
 Power BI Pro는 Power BI 서비스의 모든 콘텐츠 및 기능에 액세스할 수 있는 개별 사용자 라이선스입니다. 콘텐츠를 공유하고 다른 Pro 사용자와 협업할 수도 있습니다. Pro 사용자만 기타 작업 영역에 콘텐츠를 게시하고, 대시보드를 공유하며, 대시보드 및 보고서를 구독할 수 있습니다. 
 
-Power BI Premium은 보다 일관된 성능을 제공할 수 있는 전용 용량을 제공합니다. Power BI에서 더 큰 데이터 볼륨도 지원합니다. 개별 사용자의 경우, Premium을 통해 Pro 사용자 단위 콘텐츠를 광범위하게 배포할 수 있으며 콘텐츠를 보는 수신자에게 Pro 사용자 단위 라이선스를 요구하지 않습니다. 즉, ‘비즈니스 사용자’는 동료와 협업하고, 공유된 대시보드, 보고서 및 앱을 보고 상호 작용할 수 있습니다. 
+Power BI Premium은 보다 일관된 성능을 제공할 수 있는 용량을 제공합니다. Power BI에서 더 큰 데이터 볼륨도 지원합니다. 개별 사용자의 경우, Premium을 통해 Pro 사용자 단위 콘텐츠를 광범위하게 배포할 수 있으며 콘텐츠를 보는 수신자에게 Pro 사용자 단위 라이선스를 요구하지 않습니다. 즉, ‘비즈니스 사용자’는 동료와 협업하고, 공유된 대시보드, 보고서 및 앱을 보고 상호 작용할 수 있습니다. 
 
 자세한 내용은 [사용 중인 라이선스 유형](end-user-license.md)을 참조하세요.
 
@@ -108,7 +108,7 @@ Power BI 서비스를 무료로 사용하려면 웹 브라우저와 메일만 �
 
 다른 여러 Microsoft 서비스 및 소프트웨어와 마찬가지로 Power BI는 마지막 명령을 손쉽게 실행 취소하는 방법을 제공합니다.
 
-* 마지막 작업 또는 마지막 몇 가지 작업을 **취소**하려면 CTRL + Z 키를 누릅니다.
+* 마지막 작업 또는 마지막 몇 가지 작업을 **취소** 하려면 CTRL + Z 키를 누릅니다.
 
 ## <a name="next-steps"></a>다음 단계
 

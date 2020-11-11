@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: ee123bed8940b52a66f3b0f860671a87210c261f
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 268594b54186ca319eca6a7577dcfaa17c066fd4
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86952688"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916110"
 ---
 # <a name="where-is-my-power-bi-tenant-located"></a>내 Power BI 테넌트는 어디에 있습니까?
 
@@ -26,9 +26,9 @@ Power BI 테넌트의 위치와 해당 위치를 선택하는 방법에 대해 �
 
 테넌트가 있는 지역을 찾으려면 다음 단계를 수행합니다.
 
-1. Power BI 서비스의 맨 위 메뉴에서 도움말( **?** )을 선택한 후 **Power BI 정보**를 선택합니다.
+1. Power BI 서비스의 맨 위 메뉴에서 도움말( **?** )을 선택한 후 **Power BI 정보** 를 선택합니다.
 
-1. **데이터 저장 위치** 옆에 있는 값을 확인합니다. 테넌트가 위치한 지역입니다. 작업 영역의 다른 영역에서 전용 용량을 사용하지 않는 한, 이 값은 데이터가 저장되는 영역이기도 합니다.
+1. **데이터 저장 위치** 옆에 있는 값을 확인합니다. 테넌트가 위치한 지역입니다. 작업 영역의 다른 영역에서 용량을 사용하지 않는 한, 이 값은 데이터가 저장되는 영역이기도 합니다.
 
     ![데이터 영역](media/service-admin-where-is-my-tenant-located/power-bi-data-region.png)
 

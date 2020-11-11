@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: aca67da12bd1a80337a269c779691401161a4e83
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: a2622d2d3da5e4149e93a2b4b6f04dc87b55d9e1
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91638016"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92917030"
 ---
 # <a name="ai-with-dataflows"></a>데이터 흐름에서 AI 사용
 
@@ -50,7 +50,7 @@ Cognitive Services 변환은 [데이터 흐름을 위한 셀프 서비스 데이
 
 ![함수 선택](media/service-cognitive-services/cognitive-services-04.png)
 
-**Cultureinfo**는 텍스트 언어를 지정하는 선택적 입력입니다. 이 필드에는 ISO 코드를 사용해야 합니다. Cultureinfo 또는 정적 필드에 대한 입력으로 열을 사용할 수 있습니다. 이 예제에서는 전체 열의 언어가 영어(en)로 지정됩니다. 이 필드를 비워 두면 Power BI가 함수를 적용하기 전에 자동으로 언어를 감지합니다. 그런 다음, **호출**을 선택합니다.
+**Cultureinfo** 는 텍스트 언어를 지정하는 선택적 입력입니다. 이 필드에는 ISO 코드를 사용해야 합니다. Cultureinfo 또는 정적 필드에 대한 입력으로 열을 사용할 수 있습니다. 이 예제에서는 전체 열의 언어가 영어(en)로 지정됩니다. 이 필드를 비워 두면 Power BI가 함수를 적용하기 전에 자동으로 언어를 감지합니다. 그런 다음, **호출** 을 선택합니다.
 
 ![호출 선택](media/service-cognitive-services/cognitive-services-05.png)
 
@@ -76,7 +76,7 @@ Text Analytics에서는 최대 120개의 언어를 인식합니다. 자세한 �
 
 #### <a name="extract-key-phrases"></a>**핵심 구 추출**
 
-**핵심 구 추출** 함수는 비구조적 텍스트를 평가하여 각 텍스트 필드의 핵심 구 목록을 반환합니다. 함수는 입력으로 텍스트 필드가 있어야 하며 **Cultureinfo**에 대한 선택적 입력을 허용합니다. 이 문서 앞부분에 있는 **시작하기** 섹션을 참조하세요.
+**핵심 구 추출** 함수는 비구조적 텍스트를 평가하여 각 텍스트 필드의 핵심 구 목록을 반환합니다. 함수는 입력으로 텍스트 필드가 있어야 하며 **Cultureinfo** 에 대한 선택적 입력을 허용합니다. 이 문서 앞부분에 있는 **시작하기** 섹션을 참조하세요.
 
 핵심 구 추출은 작업하도록 제공하는 텍스트 청크의 크기가 더 큰 경우 가장 효과적으로 이루어집니다. 이와는 대조적으로 감정 분석은 텍스트 블록 크기가 작을수록 더 잘 수행됩니다. 두 작업 모두에서 최상의 결과를 얻으려면 적절하게 입력을 재구성하는 것을 고려해보세요.
 
@@ -112,7 +112,7 @@ Text Analytics는 기계 학습 분류 알고리즘을 사용하여 0에서 1 �
 
 Power BI의 AutoML을 사용하면 데이터 분석가가 Power BI 기술만 사용하여 간소화된 환경에서 데이터 흐름를 사용해 기계 학습 모델을 빌드할 수 있습니다. ML 모델 생성의 기반이 되는 데이터 과학은 대부분 Power BI를 통해 자동화됩니다. 우수한 품질의 모델이 생성되도록 하고, ML 모델을 만드는 데 사용되는 프로세스를 확인할 수 있게 해주는 기능이 있습니다.
 
-AutoML은 데이터 흐름에 대한 **이진 예측**, **분류** 및 **회귀 모델** 생성을 지원합니다. 이러한 감독된 기계 학습 기술 유형은 이전 관찰에서 알려진 결과를 학습하여 다른 관찰의 결과를 예측할 수 있음을 의미합니다. AutoML 모델 학습을 위한 입력 데이터 세트는 알려진 결과로 **레이블이 지정된** 레코드 집합입니다.
+AutoML은 데이터 흐름에 대한 **이진 예측** , **분류** 및 **회귀 모델** 생성을 지원합니다. 이러한 감독된 기계 학습 기술 유형은 이전 관찰에서 알려진 결과를 학습하여 다른 관찰의 결과를 예측할 수 있음을 의미합니다. AutoML 모델 학습을 위한 입력 데이터 세트는 알려진 결과로 **레이블이 지정된** 레코드 집합입니다.
 
 Power BI의 AutoML은 [Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)의 [자동화된 ML](https://docs.microsoft.com/azure/machine-learning/service/concept-automated-ml)을 통합하여 ML 모델을 만듭니다. 그러나 Power BI에서 AutoML을 사용하기 위해 Azure 구독이 필요하지는 않습니다. ML 모델을 학습 및 호스팅하는 프로세스는 전적으로 Power BI 서비스에 의해 관리됩니다.
 
@@ -134,7 +134,7 @@ AutoML에는 기계 학습 모델을 학습하기 위한 특정 데이터 요구
 
 #### <a name="configuring-the-ml-model-inputs"></a>ML 모델 입력 구성
 
-AutoML 모델을 만들려면 데이터 흐름 엔터티의 **작업** 열에서 ML 아이콘을 선택한 다음, **기계 학습 모델 추가**를 선택합니다.
+AutoML 모델을 만들려면 데이터 흐름 엔터티의 **작업** 열에서 ML 아이콘을 선택한 다음, **기계 학습 모델 추가** 를 선택합니다.
 
 ![기계 학습 모델 추가](media/service-machine-learning-automated/automated-machine-learning-power-bi-02.png)
 
@@ -182,13 +182,13 @@ AutoML은 제공된 기록 데이터를 학습 및 테스트 데이터 세트로
 
 AutoML은 데이터 형식 및 통계 속성에 따라 선택한 각 입력 필드에 여러 변환을 적용합니다. AutoML은 이러한 변환을 사용하여 ML 모델 학습에 사용할 기능을 추출합니다.
 
-AutoML 모델에 대한 학습 프로세스는 최상의 성능을 가진 모델을 찾기 위해 다양한 모델링 알고리즘 및 하이퍼 매개 변수 설정을 사용하는 최대 50회 반복으로 구성됩니다. AutoML에서 관찰된 성능 향상이 없다고 알리면 반복 횟수를 줄여 학습이 조기 종료될 수 있습니다. 이러한 각 모델의 성능은 홀드아웃 테스트 데이터 세트를 사용하여 유효성 검사를 통해 평가됩니다. 이 학습 단계 중 AutoML은 이러한 반복의 학습 및 유효성 검사를 위한 여러 파이프라인을 만듭니다. 모델 성능을 평가하는 프로세스는 데이터 세트 크기 및 사용 가능한 전용 용량 리소스에 따라 몇 분에서 몇 시간 또는 마법사를 통해 구성된 학습 시간까지 걸릴 수 있습니다.
+AutoML 모델에 대한 학습 프로세스는 최상의 성능을 가진 모델을 찾기 위해 다양한 모델링 알고리즘 및 하이퍼 매개 변수 설정을 사용하는 최대 50회 반복으로 구성됩니다. AutoML에서 관찰된 성능 향상이 없다고 알리면 반복 횟수를 줄여 학습이 조기 종료될 수 있습니다. 이러한 각 모델의 성능은 홀드아웃 테스트 데이터 세트를 사용하여 유효성 검사를 통해 평가됩니다. 이 학습 단계 중 AutoML은 이러한 반복의 학습 및 유효성 검사를 위한 여러 파이프라인을 만듭니다. 모델 성능을 평가하는 프로세스는 데이터 세트 크기 및 사용 가능한 용량 리소스에 따라 몇 분에서 몇 시간 또는 마법사를 통해 구성된 학습 시간까지 걸릴 수 있습니다.
 
 경우에 따라 생성되는 최종 모델은 여러 모델을 사용하여 더 나은 예측 성능을 제공하는 앙상블 학습을 사용할 수 있습니다.
 
 #### <a name="automl-model-explainability"></a>AutoML 모델 설명성
 
-모델을 학습한 후 AutoML은 입력 기능과 모델 출력 간의 관계를 분석합니다. 각 입력 기능의 홀드아웃 테스트 데이터 세트에 대한 모델 출력의 변화 크기를 평가합니다. 이를 _기능 중요도_라고 합니다. 이 작업은 학습이 완료된 후 새로 고침 중에 수행됩니다. 따라서 새로 고침이 마법사에서 구성된 학습 시간보다 더 오래 걸릴 수도 있습니다.
+모델을 학습한 후 AutoML은 입력 기능과 모델 출력 간의 관계를 분석합니다. 각 입력 기능의 홀드아웃 테스트 데이터 세트에 대한 모델 출력의 변화 크기를 평가합니다. 이를 _기능 중요도_ 라고 합니다. 이 작업은 학습이 완료된 후 새로 고침 중에 수행됩니다. 따라서 새로 고침이 마법사에서 구성된 학습 시간보다 더 오래 걸릴 수도 있습니다.
 
 ![기능 중요도](media/service-machine-learning-automated/automated-machine-learning-power-bi-07.png)
 
@@ -220,11 +220,11 @@ AutoML은 전역 기능 중요도와 함께 유효성 검사 중 모델의 성�
 
 ML 모델을 적용하려면 해당 모델을 적용해야 하는 엔터티의 이름과 모델 출력에서 이 엔터티에 추가될 열에 대한 접두사를 지정해야 합니다. 열 이름에 대한 기본 접두사는 모델 이름입니다. _적용_ 함수는 모델 유형과 관련된 추가 매개 변수를 포함할 수 있습니다.
 
-ML 모델을 적용하면 출력 엔터티에서 채점되는 각 행에 대한 예측 및 개별적인 설명이 포함된 두 개의 새 데이터 흐름 엔터티가 생성됩니다. 예를 들어 _OnlineShoppers_ 엔터티에 _PurchaseIntent_ 모델을 적용하면 출력에 **OnlineShoppers enriched PurchaseIntent** 및 **OnlineShoppers enriched PurchaseIntent explanations**가 생성됩니다. 보강 엔터티의 각 행에서 **Explanations**는 입력 기능에 따라 보강 설명 엔터티의 여러 행으로 분할됩니다. **ExplanationIndex**를 사용하면 보강 설명 엔터티의 행을 보강 엔터티의 행에 매핑할 수 있습니다.
+ML 모델을 적용하면 출력 엔터티에서 채점되는 각 행에 대한 예측 및 개별적인 설명이 포함된 두 개의 새 데이터 흐름 엔터티가 생성됩니다. 예를 들어 _OnlineShoppers_ 엔터티에 _PurchaseIntent_ 모델을 적용하면 출력에 **OnlineShoppers enriched PurchaseIntent** 및 **OnlineShoppers enriched PurchaseIntent explanations** 가 생성됩니다. 보강 엔터티의 각 행에서 **Explanations** 는 입력 기능에 따라 보강 설명 엔터티의 여러 행으로 분할됩니다. **ExplanationIndex** 를 사용하면 보강 설명 엔터티의 행을 보강 엔터티의 행에 매핑할 수 있습니다.
 
 ![쿼리 편집기](media/service-machine-learning-automated/automated-machine-learning-power-bi-11.png)
 
-PQO 함수 브라우저에서 AI 인사이트를 사용하여 동일한 작업 영역에 있는 모든 데이터 흐름의 엔터티에 Power BI AutoML 모델을 적용할 수도 있습니다. 이러한 방식으로 모델을 포함하는 데이터 흐름의 소유자가 아니어도 동일한 작업 영역에서 다른 사용자가 만든 모델을 사용할 수 있습니다. 파워 쿼리는 작업 영역에서 모든 Power BI ML 모델을 검색하고 동적 파워 쿼리 함수로 노출합니다. Power Query 편집기의 리본에서 함수에 액세스하거나 직접 M 함수를 호출하는 방법으로 해당 함수를 호출할 수 있습니다.이 기능은 현재 Power BI 데이터 흐름과 Power BI 서비스의 파워 쿼리 온라인에서만 지원됩니다. 이는 AutoML 마법사를 사용하여 데이터 흐름 내에서 ML 모델을 적용하는 것과 매우 다릅니다. 이 메서드를 사용하여 만든 설명 엔터티가 없으며 데이터 흐름의 소유자가 아닌 경우 모델 학습 보고서에 액세스하거나 모델을 다시 학습할 수 없습니다. 원본 모델을 편집(입력 필드 추가 또는 제거)하는 경우나 모델 또는 원본 데이터 흐름이 삭제된 경우 이 종속 데이터 흐름은 중단됩니다.
+PQO 함수 브라우저에서 AI 인사이트를 사용하여 동일한 작업 영역에 있는 모든 데이터 흐름의 엔터티에 Power BI AutoML 모델을 적용할 수도 있습니다. 이러한 방식으로 모델을 포함하는 데이터 흐름의 소유자가 아니어도 동일한 작업 영역에서 다른 사용자가 만든 모델을 사용할 수 있습니다. 파워 쿼리는 작업 영역에서 모든 Power BI ML 모델을 검색하고 동적 파워 쿼리 함수로 노출합니다.  Power Query 편집기의 리본에서 함수에 액세스하거나 직접 M 함수를 호출하는 방법으로 해당 함수를 호출할 수 있습니다. 이 기능은 현재 Power BI 데이터 흐름과 Power BI 서비스의 파워 쿼리 온라인에서만 지원됩니다. 이는 AutoML 마법사를 사용하여 데이터 흐름 내에서 ML 모델을 적용하는 것과 매우 다릅니다. 이 메서드를 사용하여 만든 설명 엔터티가 없으며 데이터 흐름의 소유자가 아닌 경우 모델 학습 보고서에 액세스하거나 모델을 다시 학습할 수 없습니다. 원본 모델을 편집(입력 필드 추가 또는 제거)하는 경우나 모델 또는 원본 데이터 흐름이 삭제된 경우 이 종속 데이터 흐름은 중단됩니다.
 
 ![PQO 함수 브라우저를 사용하여 모델 적용](media/service-machine-learning-automated/automated-machine-learning-power-bi-20.png)
 
@@ -234,7 +234,7 @@ Power BI 보고서에서 ML 모델의 인사이트 및 예측을 사용하려면
 
 ### <a name="binary-prediction-models"></a>이진 예측 모델
 
-보다 공식적으로는 **이진 분류 모델**로 알려진 이진 예측 모델은 데이터 세트를 두 그룹으로 분류하는 데 사용됩니다. 이진 결과를 가질 수 있는 이벤트를 예측하는 데 사용됩니다. 예를 들어 영업 기회의 전환 여부, 계정 이탈 여부, 기간 내 청구서 지불 여부, 거래의 사기 여부 등입니다.
+보다 공식적으로는 **이진 분류 모델** 로 알려진 이진 예측 모델은 데이터 세트를 두 그룹으로 분류하는 데 사용됩니다. 이진 결과를 가질 수 있는 이벤트를 예측하는 데 사용됩니다. 예를 들어 영업 기회의 전환 여부, 계정 이탈 여부, 기간 내 청구서 지불 여부, 거래의 사기 여부 등입니다.
 
 이진 예측 모델의 출력은 목표 결과가 달성될 가능성을 나타내는 확률 점수입니다.
 
@@ -252,7 +252,7 @@ Power BI 보고서에서 ML 모델의 인사이트 및 예측을 사용하려면
 
 이진 예측 모델은 레코드에서 목표 결과를 달성할 확률을 출력으로 생성합니다. 보고서에 확률 임계값 슬라이서가 포함되어 확률 임계값을 상회 또는 하회하는 점수를 해석하는 방법에 영향을 줍니다.
 
-이 보고서는 ‘진양성, 가양성, 참 부정 및 거짓 부정’을 기준으로 모델의 성능을 설명합니다.__ 참 긍정 및 참 부정이 결과 데이터의 두 클래스에 대해 올바르게 예측된 결과입니다. 가양성은 목표 결과가 있을 것으로 예측되었지만 실제로 없었던 레코드입니다. 반대로, 거짓 부정은 목표 결과가 있었지만 없을 것으로 예측된 레코드입니다.
+이 보고서는 ‘진양성, 가양성, 참 부정 및 거짓 부정’을 기준으로 모델의 성능을 설명합니다. 참 긍정 및 참 부정이 결과 데이터의 두 클래스에 대해 올바르게 예측된 결과입니다. 가양성은 목표 결과가 있을 것으로 예측되었지만 실제로 없었던 레코드입니다. 반대로, 거짓 부정은 목표 결과가 있었지만 없을 것으로 예측된 레코드입니다.
 
 정밀도 및 재현율과 같은 측정값은 예측된 결과에 대한 확률 임계값의 영향을 설명합니다. 확률 임계값 슬라이서를 사용하여 정밀도와 재현율 사이에서 균형 있게 타협한 임계값을 선택할 수 있습니다.
 
@@ -272,13 +272,13 @@ Power BI 보고서에서 ML 모델의 인사이트 및 예측을 사용하려면
 
 ![예측 입력](media/service-machine-learning-automated/automated-machine-learning-power-bi-16.png)
 
-이진 예측 모델을 적용하면 보강 출력 엔터티에 **Outcome**, **PredictionScore**, **PredictionExplanation**, **ExplanationIndex**라는 4개의 출력 열이 추가됩니다. 모델을 적용할 때 엔터티의 열 이름에 접두사가 지정됩니다.
+이진 예측 모델을 적용하면 보강 출력 엔터티에 **Outcome** , **PredictionScore** , **PredictionExplanation** , **ExplanationIndex** 라는 4개의 출력 열이 추가됩니다. 모델을 적용할 때 엔터티의 열 이름에 접두사가 지정됩니다.
 
-**PredictionScore**는 목표 결과가 달성될 가능성을 나타내는 백분율 확률입니다.
+**PredictionScore** 는 목표 결과가 달성될 가능성을 나타내는 백분율 확률입니다.
 
 **Outcome** 열에는 예측된 결과 레이블이 포함됩니다. 확률이 임계값을 초과하는 레코드는 목표 결과를 달성할 가능성이 있는 것으로 예측되며 True로 레이블이 지정됩니다. 임계값 아래의 레코드는 결과를 달성할 가능성이 없는 것으로 예측되며 False로 레이블이 지정됩니다.
 
-**PredictionExplanation** 열에는 입력 기능이 **PredictionScore**에 미치는 특정 영향에 대한 설명이 포함되어 있습니다.
+**PredictionExplanation** 열에는 입력 기능이 **PredictionScore** 에 미치는 특정 영향에 대한 설명이 포함되어 있습니다.
 
 ### <a name="classification-models"></a>분류 모델
 
@@ -314,15 +314,15 @@ Power BI 보고서에서 ML 모델의 인사이트 및 예측을 사용하려면
 
 분류 ML 모델을 적용하려면 입력 데이터를 포함하는 엔터티와 출력 열 이름 접두사를 지정해야 합니다.
 
-분류 모델을 적용하면 보강 출력 엔터티에 **ClassificationScore**, **ClassificationResult**, **ClassificationExplanation**, **ClassProbabilities**, **ExplanationIndex**라는 5개의 출력 열이 추가됩니다. 모델을 적용할 때 엔터티의 열 이름에 접두사가 지정됩니다.
+분류 모델을 적용하면 보강 출력 엔터티에 **ClassificationScore** , **ClassificationResult** , **ClassificationExplanation** , **ClassProbabilities** , **ExplanationIndex** 라는 5개의 출력 열이 추가됩니다. 모델을 적용할 때 엔터티의 열 이름에 접두사가 지정됩니다.
 
 **ClassProbabilities** 열에는 가능한 각 클래스에 대한 레코드의 확률 점수가 포함됩니다.
 
-**ClassificationScore**는 레코드가 지정된 클래스의 조건을 달성할 가능성을 나타내는 백분율 확률입니다.
+**ClassificationScore** 는 레코드가 지정된 클래스의 조건을 달성할 가능성을 나타내는 백분율 확률입니다.
 
 **ClassificationResult** 열에는 레코드에 대한 가장 가능성이 높은 예측 클래스가 포함됩니다.
 
-**ClassificationExplanation** 열에는 입력 기능이 **ClassificationScore**에 미치는 특정 영향에 대한 설명이 포함됩니다.
+**ClassificationExplanation** 열에는 입력 기능이 **ClassificationScore** 에 미치는 특정 영향에 대한 설명이 포함됩니다.
 
 ### <a name="regression-models"></a>회귀 모델
 
@@ -358,9 +358,9 @@ Power BI 보고서에서 ML 모델의 인사이트 및 예측을 사용하려면
 
 ![회귀 적용](media/service-machine-learning-automated/automated-machine-learning-power-bi-19.png)
 
-회귀 모델을 적용하면 보강 출력 엔터티에 **RegressionResult**, **RegressionExplanation**, **ExplanationIndex**라는 3개의 출력 열이 추가됩니다. 모델을 적용할 때 엔터티의 열 이름에 접두사가 지정됩니다.
+회귀 모델을 적용하면 보강 출력 엔터티에 **RegressionResult** , **RegressionExplanation** , **ExplanationIndex** 라는 3개의 출력 열이 추가됩니다. 모델을 적용할 때 엔터티의 열 이름에 접두사가 지정됩니다.
 
-**RegressionResult** 열에는 입력 필드를 기반으로 하는 레코드의 예측 값이 포함됩니다. **RegressionExplanation** 열에는 입력 기능이 **RegressionResult**에 미치는 특정 영향에 대한 설명이 포함됩니다.
+**RegressionResult** 열에는 입력 필드를 기반으로 하는 레코드의 예측 값이 포함됩니다. **RegressionExplanation** 열에는 입력 기능이 **RegressionResult** 에 미치는 특정 영향에 대한 설명이 포함됩니다.
 
 ## <a name="azure-machine-learning-integration-in-power-bi"></a>Power BI에서 Azure Machine Learning 통합
 
@@ -403,11 +403,11 @@ Power BI에서 Azure ML 모델에 액세스하려면 사용자에게 Azure 구�
 
     [ ![액세스 제어 AIM](media/service-machine-learning-integration/machine-learning-integration-03.png) ](media/service-machine-learning-integration/machine-learning-integration-03.png#lightbox)
 
-5. **읽기 권한자**를 역할로 선택합니다. Azure ML 모델에 대한 액세스 권한을 부여할 Power BI 사용자를 선택합니다.
+5. **읽기 권한자** 를 역할로 선택합니다. Azure ML 모델에 대한 액세스 권한을 부여할 Power BI 사용자를 선택합니다.
 
     [ ![읽기 권한자를 역할로 선택](media/service-machine-learning-integration/machine-learning-integration-04.png) ](media/service-machine-learning-integration/machine-learning-integration-04.png#lightbox)
 
-6. **저장**을 선택합니다.
+6. **저장** 을 선택합니다.
 
 7. 3단계부터 6단계까지 반복하여 특정 Machine Learning Studio(클래식) 웹 서비스 ‘또는’ 모델을 호스팅하는 Machine Learning 작업 영역 사용자에게 **읽기 권한자** 권한을 부여합니다.
 
@@ -440,7 +440,7 @@ Azure ML 모델을 호출하려면 선택한 엔터티의 열을 드롭다운에
 
 [ ![열 선택](media/service-machine-learning-integration/machine-learning-integration-07.png) ](media/service-machine-learning-integration/machine-learning-integration-07.png#lightbox)
 
-Azure ML 모델 출력 미리 보기를 엔터티 테이블에 새 열로 표시하려면 **호출**을 선택합니다. 모델 호출을 쿼리의 적용 단계로 표시할 수도 있습니다.
+Azure ML 모델 출력 미리 보기를 엔터티 테이블에 새 열로 표시하려면 **호출** 을 선택합니다. 모델 호출을 쿼리의 적용 단계로 표시할 수도 있습니다.
 
 [ ![호출 선택](media/service-machine-learning-integration/machine-learning-integration-08.png) ](media/service-machine-learning-integration/machine-learning-integration-08.png#lightbox)
 

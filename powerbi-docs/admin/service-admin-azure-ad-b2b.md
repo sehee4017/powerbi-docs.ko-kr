@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 4a38ca35e6955bc92f52492e657a9e00bad05ea3
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c78be4dbd32d243dfaa392a1ac5ebd4d46c23d94
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857614"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916179"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Azure AD B2B에서 외부 게스트 사용자에게 Power BI 콘텐츠 배포
 
@@ -33,7 +33,7 @@ Power BI에서는 Azure AD B2B(Azure Active Directory Business-to-Business)를 �
 
 ## <a name="who-can-you-invite"></a>누구를 초대할 수 있나요?
 
-gmail.com, outlook.com, hotmail.com과 같은 개인 이메일 계정을 포함하여 게스트 사용자 초대를 위해 대부분의 이메일 주소가 지원됩니다. Azure AD B2B에서는 이러한 주소를 *소셜 ID*라고 합니다.
+gmail.com, outlook.com, hotmail.com과 같은 개인 이메일 계정을 포함하여 게스트 사용자 초대를 위해 대부분의 이메일 주소가 지원됩니다. Azure AD B2B에서는 이러한 주소를 *소셜 ID* 라고 합니다.
 
 [미국 정부용 Power BI](service-govus-overview.md)와 같이 정부 클라우드와 관련된 사용자는 초대할 수 없습니다.
 
@@ -54,21 +54,21 @@ gmail.com, outlook.com, hotmail.com과 같은 개인 이메일 계정을 포함�
 
 Azure Portal에서 초대를 보내려면 다음 단계를 수행합니다.
 
-1. [Azure Portal](https://portal.azure.com)에서 **Azure Active Directory**를 선택합니다.
+1. [Azure Portal](https://portal.azure.com)에서 **Azure Active Directory** 를 선택합니다.
 
-1. **관리** 아래에서 **사용자** > **모든 사용자** > **새 게스트 사용자**를 선택합니다.
+1. **관리** 아래에서 **사용자** > **모든 사용자** > **새 게스트 사용자** 를 선택합니다.
 
     ![새 게스트 사용자 옵션이 표시된 Azure Portal의 스크린샷.](media/service-admin-azure-ad-b2b/azure-ad-portal-new-guest-user.png)
 
-1. **메일 주소** 및 **개인 메시지**를 입력합니다.
+1. **메일 주소** 및 **개인 메시지** 를 입력합니다.
 
     ![메일 및 메시지 필드가 호출된 새 게스트 사용자 대화 상자의 스크린샷.](media/service-admin-azure-ad-b2b/azure-ad-portal-invite-message.png)
 
-1. **초대**를 선택합니다.
+1. **초대** 를 선택합니다.
 
 둘 이상의 게스트 사용자를 초대하려면 PowerShell을 사용하거나 Azure AD에서 일괄 초대를 만듭니다. 일괄 초대를 위해 PowerShell을 사용하려면 [자습서: PowerShell을 사용하여 Azure AD B2B Collaboration 사용자 일괄 초대](/azure/active-directory/b2b/bulk-invite-powershell/)의 단계를 수행합니다. 일괄 초대를 위해 Azure Portal을 사용하려면 [자습서: Azure AD B2B Collaboration 사용자 일괄 초대](/azure/active-directory/b2b/tutorial-bulk-invite/)의 단계를 따르세요.
 
-게스트 사용자는 받은 이메일 초대에서 **시작**을 선택해야 합니다. 그러면 게스트 사용자가 조직에 추가됩니다.
+게스트 사용자는 받은 이메일 초대에서 **시작** 을 선택해야 합니다. 그러면 게스트 사용자가 조직에 추가됩니다.
 
 ![시작이 호출된 게스트 사용자 메일 초대의 스크린샷.](media/service-admin-azure-ad-b2b/guest-user-invite-email.png)
 
@@ -92,7 +92,7 @@ Azure Portal에서 초대를 보내려면 다음 단계를 수행합니다.
 
 ### <a name="use-power-bi-premium"></a>Power BI Premium 사용
 
-작업 영역을 [Power BI Premium 용량](service-premium-what-is.md)에 할당하면 게스트 사용자가 Power BI Pro 라이선스 없이도 앱을 사용할 수 있습니다. Power BI Premium에서는 앱이 새로 고침 비율 증대, 전용 용량, 대규모 모델 크기 등과 같은 다른 기능도 활용할 수 있습니다.
+작업 영역을 [Power BI Premium 용량](service-premium-what-is.md)에 할당하면 게스트 사용자가 Power BI Pro 라이선스 없이도 앱을 사용할 수 있습니다. Power BI Premium에서는 앱이 새로 고침 비율 증대 및 대규모 모델 크기 등과 같은 다른 기능도 활용할 수 있습니다.
 
 ![Power BI Premium을 사용한 경우 게스트 사용자 환경의 다이어그램.](media/service-admin-azure-ad-b2b/license-approach-1.png)
 
@@ -114,7 +114,7 @@ Azure Portal에서 초대를 보내려면 다음 단계를 수행합니다.
 
 허용된 게스트가 Power BI에 로그인할 수 있도록 지원하려면 테넌트 URL을 제공하세요. 테넌트 URL을 찾으려면 이 단계를 수행합니다.
 
-1. Power BI 서비스의 머리글 메뉴에서 도움말( **?** )을 선택한 다음 **Power BI 정보**를 선택합니다.
+1. Power BI 서비스의 머리글 메뉴에서 도움말( **?** )을 선택한 다음 **Power BI 정보** 를 선택합니다.
 
 2. **테넌트 URL** 옆에 있는 값을 찾습니다. 허용된 게스트 사용자와 테넌트 URL을 공유합니다.
 

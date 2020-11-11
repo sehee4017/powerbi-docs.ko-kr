@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f189ea2944f86a3caabfbc51ae5b2887bc7c89bb
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3a541c46f78c5e5cd25b47a94394a011fd61954f
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278610"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916547"
 ---
 # <a name="optimization-guide-for-power-bi"></a>Power BI 최적화 가이드
 
@@ -26,7 +26,7 @@ ms.locfileid: "83278610"
 
 ## <a name="optimizing-the-data-model"></a>데이터 모델 최적화
 
-데이터 모델은 전체 시각화 환경을 지원합니다. 데이터 모델은 외부 또는 내부에서 호스트되며 Power BI에서는 _데이터 세트_라고 부릅니다. 옵션을 이해하고 솔루션에 적합한 데이터 세트 유형을 선택하는 것이 중요합니다. 세 가지 데이터 세트 모드는 가져오기, DirectQuery 및 복합입니다. 자세한 내용은 [Power BI 서비스의 데이터 세트](../connect-data/service-datasets-understand.md)와 [Power BI 서비스의 데이터 세트 모드](../connect-data/service-dataset-modes-understand.md)를 참조하세요.
+데이터 모델은 전체 시각화 환경을 지원합니다. 데이터 모델은 외부 또는 내부에서 호스트되며 Power BI에서는 _데이터 세트_ 라고 부릅니다. 옵션을 이해하고 솔루션에 적합한 데이터 세트 유형을 선택하는 것이 중요합니다. 세 가지 데이터 세트 모드는 가져오기, DirectQuery 및 복합입니다. 자세한 내용은 [Power BI 서비스의 데이터 세트](../connect-data/service-datasets-understand.md)와 [Power BI 서비스의 데이터 세트 모드](../connect-data/service-dataset-modes-understand.md)를 참조하세요.
 
 구체적인 데이터 세트 모드 지침은 다음을 참조하세요.
 
@@ -83,7 +83,7 @@ Power BI 보고서 디자인을 최적화하기 위한 몇 가지 권장 사항�
 
 ### <a name="capacity-settings"></a>용량 설정
 
-전용 용량(Power BI Premium(P SKU) 또는 Power BI Embedded(A SKU, A4-A6)에서 사용 가능)을 사용하는 경우, 용량 설정을 관리할 수 있습니다. 자세한 내용은 [프리미엄 용량 관리](../admin/service-premium-capacity-manage.md)를 참조하세요. 용량을 최적화하는 방법에 대한 지침은 [프리미엄 용량 최적화](../admin/service-premium-capacity-optimize.md)를 참조하세요.
+용량(Power BI Premium(P SKU) 또는 Power BI Embedded(A SKU, A4-A6)를 사용하는 경우, 용량 설정을 관리할 수 있습니다. 자세한 내용은 [프리미엄 용량 관리](../admin/service-premium-capacity-manage.md)를 참조하세요. 용량을 최적화하는 방법에 대한 지침은 [프리미엄 용량 최적화](../admin/service-premium-capacity-optimize.md)를 참조하세요.
 
 ### <a name="gateway-sizing"></a>게이트웨이 크기 조정
 

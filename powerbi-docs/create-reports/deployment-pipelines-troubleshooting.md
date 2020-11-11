@@ -7,12 +7,12 @@ ms.topic: troubleshooting
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 09/15/2020
-ms.openlocfilehash: 0a90c03c516b64e5a0a81c6a2bbdf0049d48b76f
-ms.sourcegitcommit: be0971576a3f1af7a064371c9cf27dd462dfca82
+ms.openlocfilehash: 929a79d7e940f729b90d0cdf6d3ebd905a621f6a
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "92080257"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916823"
 ---
 # <a name="deployment-pipelines-troubleshooting"></a>배포 파이프라인 문제 해결
 
@@ -55,7 +55,7 @@ Power BI의 배포 파이프라인을 이해하려면 [배포 파이프라인 �
 
 ### <a name="what-type-of-capacity-can-i-assign-to-a-workspace-in-a-pipeline"></a>파이프라인의 작업 영역에 할당할 수 있는 용량 유형은 무엇인가요?
 
-파이프라인이 작동하려면 배포 파이프라인의 모든 작업 영역이 전용 용량에 있어야 합니다. 그러나 파이프라인의 작업 영역마다 다른 용량을 사용할 수 있습니다. 동일한 파이프라인에서 작업 영역마다 다른 용량 유형을 사용할 수도 있습니다.
+파이프라인이 작동하려면 배포 파이프라인의 모든 작업 영역이 용량에 있어야 합니다. 그러나 파이프라인의 작업 영역마다 다른 용량을 사용할 수 있습니다. 동일한 파이프라인에서 작업 영역마다 다른 용량 유형을 사용할 수도 있습니다.
 
 개발 및 테스트를 위해 각 사용자에 대해 Pro Power BI 계정과 함께 A 또는 EM 용량을 사용할 수 있습니다.
 

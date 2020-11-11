@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/17/2020
-ms.openlocfilehash: 762cc2d3d170f5418616da46806f8a445490ee8d
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 4102ed7307c9b7be40fb682befc4056094cbe6ad
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635220"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916938"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Power BI 임베디드 분석의 용량 및 SKU
 
-프로덕션으로 전환 시 Power BI 임베디드 분석에는 임베디드 Power BI 콘텐츠 게시를 위해 전용 용량(*A*, *EM* 또는 *P* SKU)이 필요합니다.
+프로덕션으로 전환 시 Power BI 임베디드 분석에는 임베디드 Power BI 콘텐츠 게시를 위해 용량( *A* , *EM* 또는 *P* SKU)이 필요합니다.
 
 용량은 독점적 사용을 위해 예약된 전용 리소스 집합입니다. 이 용량을 보유하면 사용자별 라이선스를 구매할 필요 없이 사용자에게 대시보드, 보고서 및 데이터 세트를 게시할 수 있습니다. 또한 콘텐츠에 대해 신뢰할 수 있는 일관된 성능을 제공합니다.
 
@@ -28,7 +28,7 @@ ms.locfileid: "91635220"
 
 Power BI 임베디드 분석에는 두 솔루션이 포함됩니다.
 * *Power BI Embedded*  - Azure 제품
-* Power BI를 *Power BI Premium*에 포함  - Office 제품
+* Power BI를 *Power BI Premium* 에 포함  - Office 제품
 
 ### <a name="power-bi-embedded"></a>Power BI Embedded
 
@@ -58,7 +58,7 @@ Power BI Embedded는 [*a* SKU](../../admin/service-admin-premium-purchase.md#pur
 
 ### <a name="power-bi-premium-skus"></a>Power BI Premium SKU
 
-Power BI Premium은 두 가지 SKU, 즉 *P*와 *EM*을 제공합니다.
+Power BI Premium은 두 가지 SKU, 즉 *P* 와 *EM* 을 제공합니다.
 * [*P* 및 *EM* SKU](../../admin/service-premium-what-is.md#subscriptions-and-licensing)의 차이점 이해
 * [Premium SKU 구매](../../admin/service-admin-premium-purchase.md)
 
@@ -78,7 +78,7 @@ Power BI Premium은 두 가지 SKU, 즉 *P*와 *EM*을 제공합니다.
 
 >[!NOTE]
 >* Power BI 앱 작업 영역에 콘텐츠를 게시하려면 [Power BI Pro 라이선스](../../admin/service-admin-purchasing-power-bi-pro.md)가 필요합니다.
->* **P SKU**를 사용해야만 Power BI 사용자가 Power BI 서비스에서 Power BI 앱 및 공유 콘텐츠를 사용할 수 있습니다.
+>* **P SKU** 를 사용해야만 Power BI 사용자가 Power BI 서비스에서 Power BI 앱 및 공유 콘텐츠를 사용할 수 있습니다.
 
 ### <a name="capacity-considerations"></a>용량 고려 사항
 

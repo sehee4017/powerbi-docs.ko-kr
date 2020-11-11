@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: conceptual
 ms.date: 09/16/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: d97c1a4be226d81ca20ef2f31a1f535174cb6c5b
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 82237286fa4d6ac3713ca6674a541b7d59c20a49
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599111"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92915903"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI 프리미엄 FAQ
 
@@ -32,7 +32,7 @@ Power BI Premium은 다음이 포함된 용량 기반 제품입니다.
 * 하나의 API 표면, 기능의 일관된 집합 및 포함된 분석을 위한 최신 기능에 대한 액세스.
 
 **Power BI 프리미엄의 기능은? 어떻게 작동합니까?**  
-Power BI Premium은 각 조직에 독점적으로 할당되는 Power BI 서비스의 용량으로 구성됩니다. 이 용량은 Microsoft에서 완전히 관리되는 전용 하드웨어에서 지원됩니다. 조직은 전용 용량을 광범위하게 적용하거나, 사용자 수, 워크로드 요구 또는 기타 요소에 따라 할당된 작업 영역에 할당하도록 선택할 수 있습니다. 요구 사항 변화에 따라 규모를 확장 또는 축소할 수 있습니다.
+Power BI Premium은 각 조직에 독점적으로 할당되는 Power BI 서비스의 용량으로 구성됩니다. 이 용량은 Microsoft에서 완전히 관리되는 전용 하드웨어에서 지원됩니다. 조직은 용량을 광범위하게 적용하거나, 사용자 수, 워크로드 요구 또는 기타 요소에 따라 할당된 작업 영역에 할당하도록 선택할 수 있습니다. 요구 사항 변화에 따라 규모를 확장 또는 축소할 수 있습니다.
 
 **Power BI Pro와 Power BI 프리미엄은 어떻게 다릅니까?**  
 Power BI 프리미엄은 용량 기반 라이선스인 반면, Power BI Pro는 사용자 기반 라이선스입니다. Power BI Pro는 사용자가 보고서를 게시하고, 대시보드를 공유하고, 작업 영역에서 동료와 공동 작업하며, 다음과 같은 기타 관련된 작업을 수행하기 위한 것입니다.

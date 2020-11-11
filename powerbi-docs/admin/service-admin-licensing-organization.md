@@ -10,12 +10,12 @@ ms.date: 06/24/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 825b336a96b998c04b019195ad3f3beea96d0a19
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 86a28c1d89537a59bf96d82fb3df87a4a0ccf391
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857292"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916087"
 ---
 # <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>조직의 사용자에 대한 Power BI 서비스 라이선스 부여
 
@@ -52,10 +52,10 @@ ms.locfileid: "90857292"
 셀프 서비스 등록 기능을 해제하면 사용자는 데이터 시각화 및 분석을 위해 Power BI를 탐색할 수 없습니다. 개별 등록을 차단하는 경우 조직의 Power BI (무료) 라이선스를 얻어 모든 사용자에게 할당하는 것이 좋습니다. 모든 기존 사용자에게 Power BI (무료) 라이선스를 자동으로 할당하려면 다음 단계를 따르세요.
 
 1. 전역 관리자 또는 청구 관리자 자격 증명을 사용하여 [Microsoft 365 관리 센터](https://admin.microsoft.com)에 로그인합니다.
-1. 왼쪽 사이드바 메뉴에서 **청구** > **서비스 구입**을 선택합니다.
-1. 검색하거나 스크롤하여 Power BI (무료) 제품을 찾습니다. 제품을 선택한 다음 **지금 가져오기**를 선택합니다.
+1. 왼쪽 사이드바 메뉴에서 **청구** > **서비스 구입** 을 선택합니다.
+1. 검색하거나 스크롤하여 Power BI (무료) 제품을 찾습니다. 제품을 선택한 다음 **지금 가져오기** 를 선택합니다.
 1. 모든 사용자를 포함하는 데 필요한 라이선스 수를 입력합니다.
-1. **라이선스가 없는 모든 사용자에게 자동으로 할당**을 선택하고 체크 아웃합니다.
+1. **라이선스가 없는 모든 사용자에게 자동으로 할당** 을 선택하고 체크 아웃합니다.
 
   ![셀프 서비스 가입을 보여 주는 Power BI 무료 자동 할당 구독의 스크린샷.](media/service-admin-licensing-organization/m365-auto-assign.png)
 
@@ -65,7 +65,7 @@ ms.locfileid: "90857292"
 
 Power BI 사용자별 라이선스에는 무료와 Pro 두 가지 종류가 있습니다. 사용자에게 필요한 라이선스 유형은 콘텐츠가 저장되는 위치와 해당 콘텐츠와 상호 작용하는 방법에 따라 결정됩니다. 콘텐츠를 저장할 수 있는 위치는 조직의 [구독 유형](#subscription-types)에 따라 결정됩니다.
 
-구독의 한 가지 유형인 [Power BI Premium](service-admin-premium-purchase.md)을 사용하면 무료 라이선스를 가진 사용자는 프리미엄 용량에 할당된 작업 영역의 콘텐츠에 대해 작업을 수행할 수 있습니다. 체험용 라이선스를 가진 사용자는 프리미엄 용량 외에 Power BI 서비스를 사용하여 데이터에 연결하고 **내 작업 영역**에서 보고서 및 대시보드를 만들기만 할 수 있습니다. 다른 사용자와 콘텐츠를 공유하거나 다른 작업 영역에 콘텐츠를 게시할 수 없습니다. 작업 영역 유형에 대한 자세한 내용은 [작업 영역 유형](../consumer/end-user-workspaces.md#types-of-workspaces)을 참조하세요.
+구독의 한 가지 유형인 [Power BI Premium](service-admin-premium-purchase.md)을 사용하면 무료 라이선스를 가진 사용자는 프리미엄 용량에 할당된 작업 영역의 콘텐츠에 대해 작업을 수행할 수 있습니다. 체험용 라이선스를 가진 사용자는 프리미엄 용량 외에 Power BI 서비스를 사용하여 데이터에 연결하고 **내 작업 영역** 에서 보고서 및 대시보드를 만들기만 할 수 있습니다. 다른 사용자와 콘텐츠를 공유하거나 다른 작업 영역에 콘텐츠를 게시할 수 없습니다. 작업 영역 유형에 대한 자세한 내용은 [작업 영역 유형](../consumer/end-user-workspaces.md#types-of-workspaces)을 참조하세요.
 
 표준 Power BI 구독은 공유 용량을 사용합니다. 콘텐츠가 공유 용량에 저장되는 경우 Power BI Pro 라이선스가 할당된 사용자는 다른 Power BI Pro 사용자와만 협업할 수 있습니다. 다른 사용자가 공유한 콘텐츠를 사용하고, 앱 작업 영역에 콘텐츠를 게시하고, 대시보드를 공유하며, 대시보드 및 보고서를 구독할 수 있습니다.  작업 영역이 프리미엄 용량에 있는 경우 Pro 사용자는 Power BI Pro 라이선스가 없는 사용자에게 콘텐츠를 배포할 수 있습니다.
 
@@ -84,7 +84,7 @@ Microsoft의 모든 사용자 기반 상용 라이선스 구독은 Azure Active 
 
 관리자는 표준 셀프 서비스 Power BI Pro 구독을 사용하여 사용자별 라이선스를 할당합니다. Power BI Pro 라이선스에는 사용자당 월 요금이 부과됩니다. 이 라이선스 유형을 사용하면 협업, 게시, 공유 및 임시 분석을 수행할 수 있습니다. 콘텐츠는 Microsoft 완전 관리형 공유 스토리지 용량에 저장됩니다.
 
-Power BI Premium 구독은 조직에 전용 용량을 할당합니다. 엔터프라이즈 BI, 빅 데이터 분석, 클라우드 및 온-프레미스 보고에 적합한 Premium은 고급 관리 및 배포 제어를 제공합니다. 전용 컴퓨팅 및 스토리지 리소스는 조직의 용량 관리자가 관리합니다. 이 전용 환경에 대해 월별 비용이 발생합니다. 프리미엄 용량에 저장된 콘텐츠는 기타 Premium 장점 외에도 Power BI Pro 라이선스가 없는 사용자가 액세스할 수 있으며 Power BI Pro 라이선스가 없는 사용자에게 배포할 수 있습니다. Premium을 사용하려면 하나 이상의 사용자에게 Power BI Pro 라이선스가 할당되어야 하며, 콘텐츠 작성자 및 개발자에게는 여전히 Power BI Pro 라이선스가 필요합니다.
+Power BI Premium 구독은 조직에 용량을 할당합니다. 엔터프라이즈 BI, 빅 데이터 분석, 클라우드 및 온-프레미스 보고에 적합한 Premium은 고급 관리 및 배포 제어를 제공합니다. 전용 컴퓨팅 및 스토리지 리소스는 조직의 용량 관리자가 관리합니다. 이 전용 환경에 대해 월별 비용이 발생합니다. 프리미엄 용량에 저장된 콘텐츠는 기타 Premium 장점 외에도 Power BI Pro 라이선스가 없는 사용자가 액세스할 수 있으며 Power BI Pro 라이선스가 없는 사용자에게 배포할 수 있습니다. Premium을 사용하려면 하나 이상의 사용자에게 Power BI Pro 라이선스가 할당되어야 하며, 콘텐츠 작성자 및 개발자에게는 여전히 Power BI Pro 라이선스가 필요합니다.
 
 두 가지 유형의 구독은 상호 배타적이지 않습니다. Power BI Premium과 Power BI Pro를 모두 사용할 수 있습니다. 이 구성에서는 프리미엄 용량에 저장된 콘텐츠를 모든 사용자와 공유할 수 있으며 공유 용량도 사용할 수 있습니다. 용량 한도에 대한 자세한 내용은 [Power BI 작업 영역에서 데이터 스토리지 관리](service-admin-manage-your-data-storage-in-power-bi.md)를 참조하세요.
 
