@@ -44,6 +44,8 @@
               href: service-premium-capacity-scenarios.md
             - name: Power BI 프리미엄 FAQ
               href: service-premium-faq.md
+            - name: 사용자 당 Power BI Premium FAQ
+              href: service-premium-per-user-faq.md
     - name: 방법
       items:
         - name: 라이선싱 및 등록
@@ -106,6 +108,8 @@
               href: service-admin-premium-manage.md
             - name: 워크로드 구성
               href: service-admin-premium-workloads.md
+            - name: 테스트용 Power BI Premium 구매
+              href: service-admin-premium-testing.md
             - name: 앱을 사용하여 용량 모니터링
               href: service-admin-premium-monitor-capacity.md
             - name: 프리미엄 워크 로드 메트릭 모니터링
