@@ -133,5 +133,7 @@
               href: ./dataflows/dataflows-machine-learning-integration.md
     - name: 참조
       items:
+        - name: Power BI Desktop(미리 보기)의 필드 목록 사용
+          href: desktop-field-list.md
         - name: 수식 편집기 바로 가기
           href: desktop-formula-editor.md
