@@ -16,12 +16,12 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: 32fb26faa42f0ce6128a4a4cc0e491f78f270d36
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 4dba33e2ae800198d4840139d43893a7dca77e4f
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91982197"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396820"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Power BI를 사용한 임베디드 분석
 
@@ -31,8 +31,8 @@ Power BI 서비스(SaaS) 및 Azure의 Power BI Embedded(PaaS)에는 대시보드
 
 사용자에게 적합한 솔루션을 선택합니다.
 
-* [조직에 대한 콘텐츠를 포함하면](embedding.md#embedding-for-your-organization) Power BI 서비스를 확장할 수 있습니다. 이렇게 하려면 [조직에 대한 콘텐츠 포함](https://aka.ms/embedsetup/UserOwnsData) 솔루션을 구현합니다.
-* [고객에 대한 콘텐츠 포함](embedding.md#embedding-for-your-customers)을 통해 Power BI 계정이 없는 사용자에게 대시보드 및 보고서를 포함할 수 있습니다. 이렇게 하려면 [고객에 대한 콘텐츠 포함](https://aka.ms/embedsetup/AppOwnsData) 솔루션을 구현합니다.
+* [조직에 대한 콘텐츠를 포함하면](embedding.md#embedding-for-your-organization) Power BI 서비스를 확장할 수 있습니다. 이렇게 하려면 [포함 설정 도구](https://app.powerbi.com/embedsetup)에서 ‘조직에 대한 콘텐츠 포함’ 솔루션을 구현합니다.
+* [고객에 대한 콘텐츠 포함](embedding.md#embedding-for-your-customers)을 통해 Power BI 계정이 없는 사용자에게 대시보드 및 보고서를 포함할 수 있습니다. 이렇게 하려면 [포함 설정 도구](https://app.powerbi.com/embedsetup)에서 ‘고객에 대한 콘텐츠 포함’ 솔루션을 구현합니다.
 
 ![PBIE 샘플](media/embedding/what-can-you-do-02.png)
 
@@ -59,7 +59,7 @@ Power BI 라이선스가 없는 고객 및 사용자의 경우 조직 또는 고
 
 편집, 저장 등과 같은 셀프 서비스 기능은 Power BI 사용자에 대해 포함하는 경우 [JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)를 통해 사용할 수 있습니다.
 
-[포함 설정 도구](https://aka.ms/embedsetup/UserOwnsData)를 통해 조직에 대한 보고서를 통합하는 방법을 설명하는 샘플 애플리케이션을 시작 및 다운로드할 수 있습니다.
+[포함 설정 도구](https://app.powerbi.com/embedsetup)를 통해 조직에 대한 보고서를 통합하는 방법을 설명하는 샘플 애플리케이션을 시작 및 다운로드할 수 있습니다.
 
 ## <a name="embedding-for-your-customers"></a>고객에 대한 콘텐츠 포함
 

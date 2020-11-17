@@ -1,20 +1,20 @@
 ---
 title: 보고서 시각화 서식 지정 시작
 description: 보고서 시각화를 사용하여 서식 지정 옵션 시작
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/17/2020
-ms.author: mihart
+ms.date: 11/09/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e4f5007d60f7634b671f1178a7279fe5cc35be89
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 3e61521ec7ac518aaa374cec328639a849b21bd5
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354596"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483849"
 ---
 # <a name="getting-started-with-the-formatting-pane"></a>서식 창을 사용하여 시작
 
@@ -22,7 +22,7 @@ ms.locfileid: "85354596"
 
 보고서에 대한 편집 권한이 있는 경우 다양한 서식 옵션을 사용할 수 있습니다. Power BI 보고서에서 데이터 계열, 데이터 요소 및 시각화의 배경까지도 변경할 수 있습니다. X축과 Y축이 표시되는 방식을 변경할 수 있습니다. 시각화, 셰이프 및 제목의 글꼴 속성을 지정할 수도 있습니다. Power BI에서 보고서가 표시되는 방식을 완전히 제어할 수 있습니다.
 
-시작하려면 Power BI Desktop 또는 Power BI 서비스에서 보고서를 엽니다. 둘 다 거의 동일한 서식 옵션을 제공합니다. Power BI 서비스에서 보고서를 여는 경우 메뉴 모음에서 **편집**을 선택하세요. 
+시작하려면 Power BI Desktop 또는 Power BI 서비스에서 보고서를 엽니다. 둘 다 거의 동일한 서식 옵션을 제공합니다. Power BI 서비스에서 보고서를 여는 경우 메뉴 모음에서 **편집** 을 선택하세요. 
 
 ![편집 옵션이 표시되는 메뉴 모음](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-edit.png)
 
@@ -30,7 +30,7 @@ ms.locfileid: "85354596"
 
 ![필드 아이콘이 선택된 시각화 창](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format.png)
 
-**서식**을 선택하면 아이콘 아래 영역에 현재 선택한 시각화에 사용할 수 있는 사용자 지정이 표시됩니다.  
+**서식** 을 선택하면 아이콘 아래 영역에 현재 선택한 시각화에 사용할 수 있는 사용자 지정이 표시됩니다.  
 
 ![서식 아이콘이 선택된 시각화 창](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-format-selected.png)
 
@@ -41,6 +41,7 @@ ms.locfileid: "85354596"
 * Y축
 * 데이터 색
 * 데이터 레이블
+* 합계 레이블
 * 도형
 * 플롯 영역
 * title
@@ -58,7 +59,7 @@ ms.locfileid: "85354596"
 >  
 > 각 시각화 유형의 이러한 요소가 모두 표시되지 않습니다. 선택한 시각화에 따라 사용 가능한 사용자 지정이 달라집니다. 예를 들어 원형 차트에는 X축이 없으므로 원형 차트를 선택한 경우 X축이 표시되지 않습니다.
 
-또한 선택한 시각화가 없는 경우 아이콘이 있는 위치에 **필터**가 나타나며 필터를 페이지의 모든 시각화에 적용할 수 있습니다.
+또한 선택한 시각화가 없는 경우 아이콘이 있는 위치에 **필터** 가 나타나며 필터를 페이지의 모든 시각화에 적용할 수 있습니다.
 
 서식 옵션 사용 방법을 배우려면 직접 사용해 보는 것이 가장 좋습니다. 언제든 변경 내용을 취소하거나 기본값으로 되돌릴 수 있습니다. 사용할 수 있는 옵션은 상당히 많으며 새 옵션이 계속 추가됩니다. 한 문서에서 모든 서식 옵션을 설명할 수는 없지만, 시작하는 데 도움이 되도록 몇 가지를 함께 검토해 보겠습니다. 
 
@@ -66,6 +67,7 @@ ms.locfileid: "85354596"
 2. 스타일 적용    
 3. 축 속성 변경    
 4. 데이터 레이블 추가    
+1. 합계 레이블 추가
 
 
 
@@ -80,21 +82,21 @@ ms.locfileid: "85354596"
 
     ![서식 창 탭이 선택된 차트](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-formatting.png)
 
-3. **데이터 색**을 선택하여 사용 가능한 사용자 지정을 확장합니다.  
+3. **데이터 색** 을 선택하여 사용 가능한 사용자 지정을 확장합니다.  
 
     ![서식 창이 열려 있고 데이터 색이 확장된 차트](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-data-colors.png)
 
-4. **모두 표시**를 켜기로 변경하고 열의 색을 다르게 선택합니다.
+4. **모두 표시** 를 켜기로 변경하고 열의 색을 다르게 선택합니다.
 
     ![일부 열에 새 색이 적용된 차트](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-change-colors.png)
 
 색 작업을 위한 몇 가지 유용한 팁은 다음과 같습니다. 다음 목록에 있는 숫자는 다음 화면에도 표시되며 이러한 유용한 요소에 액세스하거나 변경할 수 있는 위치를 나타냅니다.
 
-1. 색이 마음에 들지 않나요? 걱정하지 마세요. **기본값으로 되돌리기**를 선택하면 선택 항목이 기본 설정으로 되돌려집니다. 
+1. 색이 마음에 들지 않나요? 걱정하지 마세요. **기본값으로 되돌리기** 를 선택하면 선택 항목이 기본 설정으로 되돌려집니다. 
 
-2. 색 변경이 모두 마음에 들지 않나요? **데이터 색** 섹션의 아래쪽에서 **기본값으로 되돌리기**를 선택하면 색이 기본 설정으로 되돌려집니다. 
+2. 색 변경이 모두 마음에 들지 않나요? **데이터 색** 섹션의 아래쪽에서 **기본값으로 되돌리기** 를 선택하면 색이 기본 설정으로 되돌려집니다. 
 
-3. 색상표에 없는 색을 원하시나요? **사용자 지정 색**을 선택하고 스펙트럼에서 선택하면 됩니다.  
+3. 색상표에 없는 색을 원하시나요? **사용자 지정 색** 을 선택하고 스펙트럼에서 선택하면 됩니다.  
 
    ![색상표가 열린 데이터 색 섹션](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-color-extras.png)
 
@@ -104,7 +106,7 @@ ms.locfileid: "85354596"
 일부 Power BI 시각화에는 **스타일** 옵션이 있습니다. 한 번의 클릭으로 시각화에 전체 서식 옵션 집합을 모두 적용할 수 있습니다. 
 
 1. 테이블이나 행렬을 선택하여 활성화합니다.   
-1. 서식 탭을 열고 **스타일**을 선택합니다.
+1. 서식 탭을 열고 **스타일** 을 선택합니다.
 
    ![서식 탭에서 스타일 선택](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-style.png)
 
@@ -141,20 +143,41 @@ X축 또는 Y축을 수정하는 것이 유용할 때가 있습니다. 색 작�
 
 ## <a name="adding-data-labels"></a>데이터 레이블 추가    
 
-직접 살펴보기 전에 마지막 서식 지정 예제로  영역 차트에 데이터 레이블을 추가해 보겠습니다. 
+영역 차트에 데이터 레이블을 추가해 보겠습니다. 
 
-다음은 *추가 전*의 그림입니다. 
+다음은 *추가 전* 의 그림입니다. 
 
 ![서식 없는 영역 차트](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-area-chart.png)
 
 
-다음은 *추가 후*의 그림입니다.
+다음은 *추가 후* 의 그림입니다.
 
 ![서식 지정된 영역 차트](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-data-labels.png)
 
-시각화를 선택하여 활성화하고 서식 탭을 열었습니다.  **데이터 레이블**을 선택하고 켜기로 설정했습니다. 그런 다음 글꼴을 12로 늘리고, 글꼴 패밀리를 Arial Black으로 변경하고, **배경 표시**를 켜고, 배경색을 투명도 5%의 흰색으로 설정했습니다.
+시각화를 선택하여 활성화하고 서식 탭을 열었습니다.  **데이터 레이블** 을 선택하고 켜기로 설정했습니다. 그런 다음 글꼴을 12로 늘리고, 글꼴 패밀리를 Arial Black으로 변경하고, **배경 표시** 를 켜고, 배경색을 투명도 5%의 흰색으로 설정했습니다.
 
 가능한 서식 작업의 일부만 살펴본 것입니다. 보고서를 편집 모드로 열고 서식 창을 통해 멋지면서도 유용한 시각화를 재미있게 만들어 보세요.
+
+## <a name="adding-total-labels"></a>합계 레이블 추가    
+
+직접 살펴보기 전에 마지막 서식 지정 예제로  누적 세로 막대형 차트에 합계 레이블을 추가해 보겠습니다. 누적 차트, 콤보 차트 및 영역 차트에는 합계 레이블을 사용할 수 있습니다.
+
+합계 레이블을 설정하면 Power BI에서 데이터의 집계 또는 합계가 표시됩니다. 예를 살펴보겠습니다. 
+
+다음은 각 전체 스택의 각 부분의 값을 표시하는 데이터 레이블이 있는 누적 세로 막대형 차트입니다.  기본 보기입니다. 
+
+![데이터 레이블이 있는 세로 막대형 차트](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-column-charts.png)
+
+
+시각적 개체를 편집용 보기에서 열어 데이터 레이블 및 합계 레이블에 대한 표시를 변경할 수 있습니다. 활성화할 시각적 개체를 선택하고 서식 창을 엽니다. **데이터 레이블** 및 **합계 레이블** 로 스크롤합니다. **데이터 레이블** 이 설정되어 있고 **합계 레이블** 이 해제되어 있습니다. 
+
+![서식 없는 세로 막대형 차트](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-total-label.png)
+
+**데이터 레이블** 을 해제하고 **합계 레이블** 을 설정합니다. 이제 Power BI에서 각 열에 대한 집계가 표시됩니다.    
+![서식 있는 세로 막대형 차트](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-totals.png)
+
+가능한 서식 작업의 일부만 살펴본 것입니다. 보고서를 편집 모드로 열고 서식 창을 통해 멋지면서도 유용한 시각화를 재미있게 만들어 보세요.
+
 
 ## <a name="next-steps"></a>다음 단계
 자세한 내용은 다음 아티클을 참조하세요. 

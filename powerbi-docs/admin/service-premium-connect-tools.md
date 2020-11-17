@@ -1,5 +1,5 @@
 ---
-title: Power BI Premium에서 XMLA 엔드포인트를 사용하여 데이터 세트 연결 및 관리(미리 보기)
+title: Power BI에서 XMLA 엔드포인트를 사용하여 데이터 세트 연결 및 관리
 description: 클라이언트 애플리케이션 및 도구에서 Power BI Premium의 데이터 세트에 연결하는 방법에 대해 설명합니다.
 author: minewiskan
 ms.author: owend
@@ -7,26 +7,23 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 10/14/2020
+ms.date: 11/05/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: f13c6990ae1cc0842cd490f88dfdb8fb382d7900
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 4645434e5d556695868d028a5694b6cd0b8bd68c
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916064"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483768"
 ---
-# <a name="dataset-connectivity-with-the-xmla-endpoint-preview"></a>XMLA 엔드포인트로 데이터 세트 연결(미리 보기)
+# <a name="dataset-connectivity-with-the-xmla-endpoint"></a>XMLA 엔드포인트로 데이터 세트 연결
 
 1500 이상 호환성 수준에서 Power BI Premium 작업 영역 및 데이터 세트는 *XMLA 엔드포인트* 를 사용하여 Microsoft 및 타사 클라이언트 애플리케이션/도구로부터의 오픈 플랫폼 연결을 지원합니다.
 
-> [!NOTE]
-> 이 기능은 **미리 보기** 로 제공됩니다. 미리 보기 기능은 프로덕션 환경에서 사용하면 안됩니다. 특정 기능, 지원 및 설명서는 제한적입니다.  자세한 내용은 [Microsoft OST(온라인 서비스 사용 약관)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)를 참조하세요.
-
 ## <a name="whats-an-xmla-endpoint"></a>XMLA 엔드포인트란?
 
-Power BI Premium은 클라이언트 애플리케이션과 Power BI 작업 영역 및 데이터 세트를 관리하는 엔진 간의 통신을 위해 [XMLA(XML for Analysis)](/analysis-services/xmla/xml-for-analysis-xmla-reference?view=power-bi-premium-current) 프로토콜을 사용합니다. 이러한 통신은 일반적으로 XMLA 엔드포인트라고 하는 것을 통해 이루어집니다. XMLA는 내부적으로 Power BI의 의미 체계 모델링, 거버넌스, 수명 주기 및 데이터 관리를 실행하는 Microsoft Analysis Services 엔진에서 사용되는 것과 동일한 통신 프로토콜입니다.
+Power BI Premium은 클라이언트 애플리케이션과 Power BI 작업 영역 및 데이터 세트를 관리하는 엔진 간의 통신을 위해 [XMLA(XML for Analysis)](/analysis-services/xmla/xml-for-analysis-xmla-reference?view=power-bi-premium-current&preserve-view=true) 프로토콜을 사용합니다. 이러한 통신은 일반적으로 XMLA 엔드포인트라고 하는 것을 통해 이루어집니다. XMLA는 내부적으로 Power BI의 의미 체계 모델링, 거버넌스, 수명 주기 및 데이터 관리를 실행하는 Microsoft Analysis Services 엔진에서 사용되는 것과 동일한 통신 프로토콜입니다.
 
 기본적으로 엔드포인트를 사용한 *읽기 전용* 연결은 용량의 **데이터 세트 워크로드** 에 대해 사용하도록 설정됩니다. 읽기 전용에서 데이터 시각화 애플리케이션 및 도구는 데이터 세트 모델 데이터, 메타데이터, 이벤트 및 스키마를 쿼리할 수 있습니다. 엔드포인트를 사용한 *읽기/쓰기* 작업을 사용하도록 설정하여 추가 데이터 세트 관리, 거버넌스, 고급 의미 체계 모델링, 디버깅 및 모니터링을 제공할 수 있습니다. 읽기/쓰기를 사용하는 경우 Power BI Premium 데이터 세트에는 Azure Analysis Services 및 SQL Server Analysis Services 엔터프라이즈급 테이블 형식 모델링 도구와 프로세스에 대한 더 많은 패리티가 있습니다.
 
@@ -37,15 +34,15 @@ Power BI Premium은 클라이언트 애플리케이션과 Power BI 작업 영역
 
 이들은 Azure Analysis Services 및 SQL Server Analysis Services에서 사용되는 가장 일반적인 도구이며 이제 Power BI Premium 데이터 세트에서 지원됩니다.
 
-**Analysis Services 프로젝트 포함 Visual Studio** - SQL Server Data Tools 또는 간단히 **SSDT** 라고도 하며, Analysis Services 테이블 형식 모델을 위한 엔터프라이즈급 모델 작성 도구입니다. Analysis Services 프로젝트 확장은 무료 Community 버전을 포함하여 모든 Visual Studio 2017 이상 버전에서 지원됩니다. Premium 작업 영역에 테이블 형식 모델을 배포하려면 확장 버전 2.9.6 이상이 필요합니다. Premium 작업 영역에 배포하는 경우 모델은 1500 이상 호환성 수준에 있어야 합니다. 데이터 세트 워크로드에 XMLA 읽기/쓰기가 필요합니다. 더 자세히 알아보려면 [Analysis Services용 도구](/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current)를 참조하세요.
+**Analysis Services 프로젝트 포함 Visual Studio** - SQL Server Data Tools 또는 간단히 **SSDT** 라고도 하며, Analysis Services 테이블 형식 모델을 위한 엔터프라이즈급 모델 작성 도구입니다. Analysis Services 프로젝트 확장은 무료 Community 버전을 포함하여 모든 Visual Studio 2017 이상 버전에서 지원됩니다. Premium 작업 영역에 테이블 형식 모델을 배포하려면 확장 버전 2.9.6 이상이 필요합니다. Premium 작업 영역에 배포하는 경우 모델은 1500 이상 호환성 수준에 있어야 합니다. 데이터 세트 워크로드에 XMLA 읽기/쓰기가 필요합니다. 더 자세히 알아보려면 [Analysis Services용 도구](/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current&preserve-view=true)를 참조하세요.
 
 **SSMS(SQL Server Management Studio)**  - DAX, MDX 및 XMLA 쿼리를 지원합니다. TMSL([테이블 형식 모델 스크립팅 언어](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference))을 사용하여 세밀한 새로 고침 작업 및 데이터 세트 메타데이터 스크립팅을 수행합니다. 쿼리 작업에는 읽기 전용이 필요합니다. 메타데이터 스크립팅에는 읽기/쓰기가 필요합니다. SSMS 버전 18.4 이상이 필요합니다.  [여기](/sql/ssms/download-sql-server-management-studio-ssms)에서 다운로드하세요.
 
-**SQL Server Profiler** – SSMS와 함께 설치되는 이 도구는 데이터 세트 이벤트를 추적 및 디버그하는 기능을 제공합니다. 공식적으로는 SQL Server에 사용되지 않지만 Profiler는 SSMS에 계속 포함되며 Analysis Services 및 Power BI Premium에서 계속 지원됩니다. XMLA 읽기 전용이 필요합니다. 자세한 내용은  [Analysis Services용 SQL Server Profiler](/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services?view=power-bi-premium-current)를 참조하세요.
+**SQL Server Profiler** – SSMS와 함께 설치되는 이 도구는 데이터 세트 이벤트를 추적 및 디버그하는 기능을 제공합니다. 공식적으로는 SQL Server에 사용되지 않지만 Profiler는 SSMS에 계속 포함되며 Analysis Services 및 Power BI Premium에서 계속 지원됩니다. XMLA 읽기 전용이 필요합니다. 자세한 내용은  [Analysis Services용 SQL Server Profiler](/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services?view=power-bi-premium-current&preserve-view=true)를 참조하세요.
 
-**Analysis Services 배포 마법사** – SSMS와 함께 설치되는 이 도구는 Visual Studio에서 작성된 테이블 형식 모델 프로젝트를 Analysis Services 및 Power BI Premium 작업 영역에 배포하는 기능을 제공합니다. 대화형으로 실행하거나 자동화를 위해 명령줄에서 실행할 수 있습니다. XMLA 읽기/쓰기가 필요합니다. 더 자세히 알아보려면 [Analysis Services 배포 마법사](/analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard?view=power-bi-premium-current)를 참조하세요.
+**Analysis Services 배포 마법사** – SSMS와 함께 설치되는 이 도구는 Visual Studio에서 작성된 테이블 형식 모델 프로젝트를 Analysis Services 및 Power BI Premium 작업 영역에 배포하는 기능을 제공합니다. 대화형으로 실행하거나 자동화를 위해 명령줄에서 실행할 수 있습니다. XMLA 읽기/쓰기가 필요합니다. 더 자세히 알아보려면 [Analysis Services 배포 마법사](/analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard?view=power-bi-premium-current&preserve-view=true)를 참조하세요.
 
-**PowerShell cmdlet** – Analysis Services cmdlet을 사용하여 새로 고침 작업과 같은 데이터 세트 관리 작업을 자동화할 수 있습니다. XMLA 읽기/쓰기가 필요합니다. **21.1.18221** 이상 버전의 [SqlServer PowerShell 모듈](https://www.powershellgallery.com/packages/SqlServer/)이 필요합니다. Az.AnalysisServices 모듈의 Azure Analysis Services cmdlet은 Power BI Premium에서 지원되지 않습니다. 더 자세히 알아보려면 [Analysis Services PowerShell 참조](/analysis-services/powershell/analysis-services-powershell-reference?view=power-bi-premium-current)를 참조하세요.
+**PowerShell cmdlet** – Analysis Services cmdlet을 사용하여 새로 고침 작업과 같은 데이터 세트 관리 작업을 자동화할 수 있습니다. XMLA 읽기/쓰기가 필요합니다. **21.1.18221** 이상 버전의 [SqlServer PowerShell 모듈](https://www.powershellgallery.com/packages/SqlServer/)이 필요합니다. Az.AnalysisServices 모듈의 Azure Analysis Services cmdlet은 Power BI Premium에서 지원되지 않습니다. 더 자세히 알아보려면 [Analysis Services PowerShell 참조](/analysis-services/powershell/analysis-services-powershell-reference?view=power-bi-premium-current&preserve-view=true)를 참조하세요.
 
 **Power BI Report Builder** - 페이지를 매긴 보고서를 작성하기 위한 도구입니다. 검색할 데이터, 가져올 위치 및 표시 방법을 지정하는 보고서 정의를 만듭니다. Report Builder에서 보고서를 미리 본 후 Power BI 서비스에 게시할 수 있습니다. XMLA 읽기 전용이 필요합니다. 더 자세히 알아보려면 [Power BI Report Builder](../paginated-reports/report-builder-power-bi.md)를 참조하세요.
 
@@ -63,19 +60,7 @@ Power BI Premium은 클라이언트 애플리케이션과 Power BI 작업 영역
 
 클라이언트 애플리케이션은 XMLA 엔드포인트와 직접 통신하지 않습니다. 대신 *클라이언트 라이브러리* 를 추상화 계층으로 사용합니다. 이러한 클라이언트 라이브러리는 애플리케이션이 Azure Analysis Services 및 SQL Server Analysis Services에 연결하는 데 사용하는 것과 동일합니다. Visual Studio용 Excel, SSMS(SQL Server Management Studio) 및 Analysis Services 프로젝트 확장과 같은 Microsoft 애플리케이션은 세 가지 클라이언트 라이브러리를 모두 설치하고 일반 애플리케이션 및 확장 업데이트와 함께 업데이트합니다. 또한 개발자는 클라이언트 라이브러리를 사용하여 사용자 지정 애플리케이션을 빌드할 수 있습니다. 애플리케이션과 함께 설치되지 않은 경우, 특히 타사 애플리케이션을 사용하는 경우에는 최신 버전의 클라이언트 라이브러리를 설치해야 할 수 있습니다. 클라이언트 라이브러리는 매월 업데이트됩니다. 자세한 내용은 [Analysis Services에 연결하기 위한 클라이언트 라이브러리](/azure/analysis-services/analysis-services-data-providers)를 참조하세요.
 
-## <a name="supported-write-operations"></a>지원되는 쓰기 작업
-
-개발자가 사용자 지정 애플리케이션을 빌드할 수 있도록 TOM(테이블 형식 개체 모델)을 기반으로 하는 클라이언트 라이브러리를 통해 데이터 세트 메타데이터가 노출됩니다. 이를 통해 Visual Studio 또는 테이블 형식 편집기와 같은 오픈 소스 커뮤니티 도구를 사용하여 Analysis Services 엔진에서는 지원되지만 Power BI Desktop에서는 아직 지원되지 않는 추가 데이터 모델링 및 배포 기능을 제공할 수 있습니다. 추가 데이터 모델링 기능에는 다음이 포함됩니다.
-
-- 계산을 다시 사용하고 복잡한 모델을 간편하게 사용하기 위한 [계산 그룹](/analysis-services/tabular-models/calculation-groups?view=power-bi-premium-current).
-
-- 다국어 보고서 및 데이터 세트를 지원하는 [메타데이터 번역](/analysis-services/tabular-models/translations-in-tabular-models-analysis-services?view=power-bi-premium-current).
-
-- 데이터 세트 메타데이터의 포커스가 있는 비즈니스 도메인별 보기를 정의하기 위한 [큐브 뷰](/analysis-services/tabular-models/perspectives-ssas-tabular?view=power-bi-premium-current).
-
-OLS(개체 수준 보안)는 Power BI Premium 데이터 세트에서 아직 지원되지 않습니다.
-
-## <a name="optimize-datasets-for-write-operations"></a>쓰기 작업을 위한 데이터 세트 최적화
+## <a name="optimize-datasets-for-write-operations-by-enabling-large-models"></a>대형 모델을 사용하도록 설정하여 쓰기 작업을 위한 데이터 세트 최적화
 
 쓰기 작업을 통해 데이터 세트 관리에 XMLA 엔드포인트를 사용하는 경우에는 대형 모델에 데이터 세트를 사용하도록 설정하는 것이 좋습니다. 이렇게 하면 쓰기 작업의 오버헤드를 줄여 작업 속도를 훨씬 높일 수 있습니다. 크기(압축 후)가 1GB를 초과하는 데이터 세트라면 그 차이가 클 수 있습니다. 더 자세히 알아보려면 [Power BI Premium에서의 대형 모델](service-premium-large-models.md)을 참조하세요.
 
@@ -92,20 +77,23 @@ OLS(개체 수준 보안)는 Power BI Premium 데이터 세트에서 아직 지�
 
 ## <a name="connecting-to-a-premium-workspace"></a>프리미엄 작업 영역에 연결
 
-용량에 할당된 작업 영역에는 `powerbi://api.powerbi.com/v1.0/[tenant name]/[workspace name]`과 같은 URL 형식의 연결 문자열이 있습니다.
+용량에 할당된 작업 영역에는 다음과 같은 URL 형식의 연결 문자열이 있습니다.  
+`powerbi://api.powerbi.com/v1.0/[tenant name]/[workspace name]`.
 
-작업 영역에 연결하는 애플리케이션은 이 URL을 Analysis Services 서버 이름으로 사용합니다. 예를 들어 `powerbi://api.powerbi.com/v1.0/contoso.com/Sales Workspace`.
+작업 영역에 연결하는 애플리케이션은 이 URL을 Analysis Services 서버 이름으로 사용합니다. 예를 들면 다음과 같습니다.  
+`powerbi://api.powerbi.com/v1.0/contoso.com/Sales Workspace`.
 
-동일한 테넌트(B2B가 아님)의 UPN을 가진 사용자는 테넌트 이름을 `myorg`로 바꿀 수 있습니다. 예를 들면  `powerbi://api.powerbi.com/v1.0/myorg/Sales Workspace`입니다.
+동일한 테넌트(B2B가 아님)의 UPN을 가진 사용자는 테넌트 이름을 `myorg`로 바꿀 수 있습니다. 예를 들면   
+`powerbi://api.powerbi.com/v1.0/myorg/Sales Workspace`입니다.
 
-B2B 사용자는 테넌트 이름에서 해당 조직 UPN을 지정해야 합니다. 예를 들면  `powerbi://api.powerbi.com/v1.0/fabrikam.com/Sales Workspace`입니다.
+B2B 사용자는 테넌트 이름에서 해당 조직 UPN을 지정해야 합니다. 예를 들면 다음과 같습니다.  
+`powerbi://api.powerbi.com/v1.0/fabrikam.com/Sales Workspace`.
 
 ### <a name="to-get-the-workspace-connection-url"></a>작업 영역 연결 URL을 가져오려면
 
 작업 영역 **설정** > **Premium** > **작업 영역 연결** 에서 **복사** 를 클릭합니다.
 
 ![작업 영역 연결 문자열](media/service-premium-connect-tools/xmla-endpoint-workspace-connection.png)
-
 
 ## <a name="connection-requirements"></a>연결 요구 사항
 
@@ -149,19 +137,23 @@ XMLA 엔드포인트를 통한 액세스는 작업 영역/앱 수준에서 설�
 
 작업 영역 참가자 이상은 데이터 세트에 대한 쓰기 권한이 있으며, 따라서 Analysis Services 데이터베이스 관리자와 동등합니다. 이들은 Visual Studio에서 새 데이터 세트를 배포하고 SSMS에서 TMSL 스크립트를 실행할 수 있습니다.
 
-[EffectiveUserName](/analysis-services/instances/connection-string-properties-analysis-services?view=power-bi-premium-current#bkmk_auth) 연결 문자열 속성을 사용한 서버 수준 추적 및 사용자 가장과 같이 Analysis Services 서버 관리자 권한이 필요한 작업은 현재 Power BI Premium에서 지원되지 않습니다.
+[EffectiveUserName](/analysis-services/instances/connection-string-properties-analysis-services?view=power-bi-premium-current&preserve-view=true#bkmk_auth) 연결 문자열 속성을 사용한 서버 수준 추적 및 사용자 가장과 같이 Analysis Services 서버 관리자 권한이 필요한 작업은 현재 Power BI Premium에서 지원되지 않습니다.
 
 데이터 세트에 대한 [빌드 권한](../connect-data/service-datasets-build-permissions.md)이 있는 다른 사용자는 Analysis Services 데이터베이스 독자와 동등합니다. 이들은 데이터 세트에 연결하고 검색하여 데이터를 사용하고 시각화할 수 있습니다. RLS(행 수준 보안) 규칙이 적용되며 내부 데이터 세트 메타데이터를 볼 수 없습니다.
 
 ### <a name="model-roles"></a>모델 역할
 
-XMLA 엔드포인트를 통한 데이터 세트 메타데이터는 RLS(행 수준 보안) 필터 설정을 포함하여 데이터 세트에서 모델 역할을 생성, 수정 또는 삭제할 수 있습니다. Power BI의 모델 역할은 RLS에만 사용됩니다. Power BI 보안 모델을 사용하여 RLS를 초과하는 권한을 제어합니다.
+XMLA 엔드포인트를 사용하면 데이터 세트에 대한 역할을 정의할 수 있으며 AAD(Azure Active Directory) 사용자에 대해 역할 멤버 자격을 정의할 수 있고 RLS(행 수준 보안) 필터를 정의할 수 있습니다. Power BI의 모델 역할은 RLS에만 사용됩니다. Power BI 보안 모델을 사용하여 RLS를 초과하는 권한을 제어합니다.
+
+Visual Studio에서 작성되는 테이블 형식 모델 프로젝트의 경우 모델 디자이너에서 역할 관리자를 사용하여 역할을 정의할 수 있습니다. Power BI의 데이터 세트에 대해 SSMS를 사용하여 역할을 정의하여 역할 개체를 만들고 역할 속성을 정의할 수 있습니다. 그러나 대부분의 경우에는 TMSL을 통해 역할 개체 정의를 스크립팅하여 [역할 개체](/analysis-services/tmsl/roles-object-tmsl?view=power-bi-premium-current&preserve-view=true)를 만들거나 수정할 수 있습니다. TMSL 스크립트는 SSMS에서 실행하거나 [Invoke-ASCmd](/powershell/module/sqlserver/invoke-ascmd?view=sqlserver-ps&preserve-view=true) PowerShell cmdlet을 사용하여 실행할 수 있습니다.
 
 XMLA 엔드포인트를 통해 데이터 세트 역할로 작업할 때 다음과 같은 제한 사항이 적용됩니다.
 
-- **공개 미리 보기 동안에는 XMLA 엔드포인트를 사용하여 데이터 세트에 대한 역할 멤버 자격을 지정할 수 없습니다.** 대신 Power BI 서비스의 데이터 세트에 대한 행 수준 보안 페이지에서 역할 멤버를 지정합니다.
-- Power BI 데이터 세트에 대해 설정할 수 있는 역할에 대한 권한은 읽기 권한이 유일합니다. 데이터 세트 역할이 있는지 관계없이 XMLA 엔드포인트를 통한 읽기 액세스에는 데이터 세트에 대한 빌드 권한이 필요합니다. Power BI 보안 모델을 사용하여 RLS를 초과하는 권한을 제어합니다.
+- Power BI 데이터 세트에 대해 설정할 수 있는 ‘역할’에 대한 권한은 읽기 권한이 유일합니다. Power BI 보안 모델을 사용하여 다른 사용 권한을 부여합니다.
+- 데이터 세트 역할이 있는지 관계없이 XMLA 엔드포인트를 통한 읽기 액세스에는 데이터 세트에 대한 빌드 권한이 필요합니다.
 - OLS(개체 수준 보안) 규칙은 현재 Power BI에서 지원되지 않습니다.
+
+자세한 내용은 [테이블 형식 모델의 역할](/analysis-services/tabular-models/roles-ssas-tabular)을 참조하세요.
 
 ### <a name="setting-data-source-credentials"></a>데이터 원본 자격 증명 설정
 
@@ -169,14 +161,20 @@ XMLA 엔드포인트를 통해 지정된 메타데이터는 데이터 원본에 
 
 ### <a name="service-principals"></a>서비스 주체
 
-Azure 서비스 주체를 사용하여 무인 리소스 및 서비스 수준 작업을 수행할 수 있습니다. 자세한 내용은 [서비스 주체를 사용하여 Premium 작업 영역 및 데이터 세트 작업 자동화](service-premium-service-principal.md)를 참조하세요.
+서비스 주체는 리소스 및 서비스 수준의 무인 작업을 수행하기 위해 테넌트 내에서 만드는 Azure Active Directory 앱 등록입니다. 이 고유한 사용자 ID 유형에는 앱 이름, 애플리케이션 ID, 테넌트 ID 및 암호용 클라이언트 암호 또는 인증서가 있습니다. Power BI Premium은 Power BI Embedded와 동일한 서비스 주체 기능을 사용합니다.
+
+Power BI Premium에서 서비스 주체를 XMLA 엔드포인트와 함께 사용하여 작업 영역 프로비저닝, 모델 배포, 데이터 세트 새로 고침 등의 데이터 세트 관리 작업을 자동화할 수도 있습니다.
+
+- PowerShell
+- Azure Automation
+- Azure Logic Apps
+- 사용자 지정 클라이언트 애플리케이션
+
+자세한 내용은 [서비스 주체를 사용하여 Premium 작업 영역 및 데이터 세트 작업 자동화](service-premium-service-principal.md)를 참조하세요.
 
 ## <a name="deploy-model-projects-from-visual-studio-ssdt"></a>Visual Studio에서 모델 프로젝트 배포(SSDT)
 
 Visual Studio에서 Power BI Premium 작업 영역에 테이블 형식 모델 프로젝트를 배포하는 것은 Azure 또는 SQL Server Analysis Services 서버에 배포하는 것과 거의 동일합니다. 차이점이라면 프로젝트에 지정된 배포 서버 속성과 처리 작업이 데이터 원본에서 작업 영역에 있는 새 데이터 세트로 데이터를 가져올 수 있도록 데이터 원본 자격 증명이 지정된 방식입니다.
-
-> [!IMPORTANT]
-> 공개 미리 보기 동안에는 XMLA 엔드포인트를 사용하여 도구에서 역할 멤버 자격을 지정할 수 없습니다. 모델 프로젝트를 배포하는 데 실패한 경우 어떤 역할에도 지정된 사용자가 없는지 확인합니다. 모델이 성공적으로 배포되면 Power BI 서비스에서 데이터 세트 역할에 대한 사용자를 지정합니다. 자세한 내용은 이 문서의 앞부분에 나오는 [모델 역할](#model-roles)을 참조하세요.
 
 Visual Studio에서 작성된 테이블 형식 모델 프로젝트를 배포하려면 먼저 프로젝트 **배포 서버** 속성에서 작업 영역 연결 URL을 설정해야 합니다. Visual Studio의 **솔루션 탐색기** 에서 프로젝트를 마우스 오른쪽 단추로 클릭하고 **속성** 을 클릭합니다. **서버** 속성에 작업 영역 연결 URL을 붙여넣습니다.
 
@@ -210,7 +208,7 @@ SSMS를 사용하여 작업 영역에 연결하는 것은 Azure 또는 SQL Serve
 
 ![SSMS](media/service-premium-connect-tools/xmla-endpoint-ssms.png)
 
-SSMS를 사용하여 메타데이터를 스크립팅하는 방법에 대한 자세한 내용은 [Analysis Services 스크립트 만들기](/analysis-services/instances/create-analysis-services-scripts-in-management-studio?view=power-bi-premium-current) 및 [TMSL(테이블 형식 모델 스크립팅 언어)](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current)을 참조하세요.
+SSMS를 사용하여 메타데이터를 스크립팅하는 방법에 대한 자세한 내용은 [Analysis Services 스크립트 만들기](/analysis-services/instances/create-analysis-services-scripts-in-management-studio?view=power-bi-premium-current&preserve-view=true) 및 [TMSL(테이블 형식 모델 스크립팅 언어)](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current&preserve-view=true)을 참조하세요.
 
 ## <a name="dataset-refresh"></a>데이터 세트 새로 고침
 
@@ -248,9 +246,6 @@ Power BI Desktop은 라이브 연결을 사용하여 Power BI Premium 데이터 
 ![Analysis Services 데이터 세트에 라이브 연결](media/service-premium-connect-tools/as-live-connect.png)
 
 기존 보고서가 Power BI Premium 데이터 세트로 마이그레이션하려는 Analysis Services 데이터 모델에 라이브 연결된 조직은 **데이터 변환** > **데이터 원본 설정** 에서 서버 이름 URL을 변경하기만 하면 됩니다.
-
-> [!NOTE]
-> XMLA 읽기/쓰기 공개 미리 보기 중에 Power BI Desktop에서 **데이터 가져오기** > **Analysis Services** 를 사용하고 **라이브 연결** 옵션을 선택하여 Power BI Premium 데이터 세트에 연결하는 경우, 아직 Power BI 서비스에 보고서를 게시할 수 없습니다.
 
 ## <a name="audit-logs"></a>감사 로그
 

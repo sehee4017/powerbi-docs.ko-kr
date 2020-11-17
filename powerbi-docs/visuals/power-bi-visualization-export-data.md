@@ -1,7 +1,7 @@
 ---
 title: Power BI 시각화에서 데이터 내보내기
 description: 보고서 시각화 및 대시보드 시각화에서 데이터를 내보내고 Excel에서 봅니다.
-author: mihart
+author: msftrien
 manager: kvivek
 ms.reviewer: tessa
 featuredvideoid: jtlLGRKBvXY
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 09/09/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7ab0a093dfd41034aa79d2934ad23cf373fd0474
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: bbeabcd3cbdc04378ea90908703744489371b11f
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861593"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412973"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>시각화를 생성하는 데 사용된 데이터 내보내기
 
@@ -58,19 +58,19 @@ Will이 보고서의 시각화 중 하나에서 데이터를 내보내고 *.xlsx
 
 ### <a name="create-a-stacked-column-chart"></a>누적 세로 막대형 차트를 만듭니다.
 
-1. 새로운 **누적 세로 막대형 차트**를 만듭니다.
+1. 새로운 **누적 세로 막대형 차트** 를 만듭니다.
 
     ![묶은 세로 막대형 차트 템플릿의 스크린샷](media/power-bi-visualization-export-data/power-bi-clustered.png)
 
-1. **필드** 창에서 **Location > City**, **Location > Country/Region** 및 **Invoice > Discount Percent**를 선택합니다.  **Discount Percent**를 **값** 영역으로 이동해야 할 수 있습니다.
+1. **필드** 창에서 **Location > City**, **Location > Country/Region** 및 **Invoice > Discount Percent** 를 선택합니다.  **Discount Percent** 를 **값** 영역으로 이동해야 할 수 있습니다.
 
     ![City 및 Count of Discount Percent를 호출하여 빌드되는 시각화의 스크린샷](media/power-bi-visualization-export-data/power-bi-build.png)
 
-1. **할인율**에 대한 집계를 **개수**에서 **평균**으로 변경합니다. **값** 영역에서 **Discount Percent**(**Count of Discount Percent**로 표시될 수 있음)의 오른쪽에 있는 화살표를 선택하고 **평균**을 선택합니다.
+1. **할인율** 에 대한 집계를 **개수** 에서 **평균** 으로 변경합니다. **값** 영역에서 **Discount Percent**(**Count of Discount Percent** 로 표시될 수 있음)의 오른쪽에 있는 화살표를 선택하고 **평균** 을 선택합니다.
 
     ![Average 옵션이 호출된 집계 목록의 스크린샷](media/power-bi-visualization-export-data/power-bi-export-data6.png)
 
-1. **City**에 필터를 추가하고 모든 도시를 선택한 후 **Atlanta**를 제거합니다.
+1. **City** 에 필터를 추가하고 모든 도시를 선택한 후 **Atlanta** 를 제거합니다.
 
     ![지워진 Atlanta, GA 확인란이 호출된 City 필터의 스크린샷](media/power-bi-visualization-export-data/power-bi-filter.png)
 
@@ -81,14 +81,14 @@ Will이 보고서의 시각화 중 하나에서 데이터를 내보내고 *.xlsx
 
 이제 데이터를 내보내기 위한 옵션을 모두 사용할 준비가 되었습니다.
 
-### <a name="export-summarized-data"></a>***요약*** 데이터 내보내기
-해당 시각적 개체에 표시되는 내용에 대한 데이터를 내보내려면 **요약된 데이터** 옵션을 선택합니다.  이 형식의 내보내기에서는 시각적 개체를 만들도록 선택된 데이터(열 및 측정값)만을 보여줍니다.  시각적 개체에 집계가 있는 경우 집계된 데이터를 내보냅니다. 예를 들어 4개의 막대를 보여 주는 막대형 차트가 있는 경우 4개의 Excel 데이터 행을 얻게 됩니다. 요약된 데이터는 Power BI 서비스에서 *.xlsx* 및 .csv로, Power BI Desktop에서 .csv로 사용할 수 있습니다.
+### <a name="export-_summarized__-data"></a>‘요약된’ 데이터 내보내기
+해당 시각적 개체에 표시되는 내용에 대한 데이터를 내보내려면 ‘요약된 데이터’ 옵션을 선택합니다.  이 형식의 내보내기에서는 시각적 개체를 만들도록 선택된 데이터(열 및 측정값)만을 보여줍니다.  시각적 개체에 집계가 있는 경우 집계된 데이터를 내보냅니다. 예를 들어 4개의 막대를 보여 주는 막대형 차트가 있는 경우 4개의 Excel 데이터 행을 얻게 됩니다. 요약된 데이터는 Power BI 서비스에서 *.xlsx* 및 .csv로, Power BI Desktop에서 .csv로 사용할 수 있습니다.
 
-1. 시각화의 오른쪽 위 모서리에 있는 줄임표를 선택합니다. **데이터 내보내기**를 선택합니다.
+1. 시각화의 오른쪽 위 모서리에 있는 줄임표를 선택합니다. **데이터 내보내기** 를 선택합니다.
 
     ![줄임표 단추와 데이터 내보내기 옵션이 호출된 오른쪽 위 모서리의 스크린샷](media/power-bi-visualization-export-data/power-bi-export-data2.png)
 
-    Power BI 서비스에는 시각화에 집계가 있으므로(**개수**를 *평균*으로 변경함) 두 가지 옵션이 있습니다.
+    Power BI 서비스에는 시각화에 집계가 있으므로(**개수** 를 *평균* 으로 변경함) 두 가지 옵션이 있습니다.
 
     - **요약된 데이터**
 
@@ -101,11 +101,11 @@ Will이 보고서의 시각화 중 하나에서 데이터를 내보내고 *.xlsx
     > Power BI Desktop에는 요약된 데이터를 .csv 파일로 내보내는 옵션만 있습니다. 
     
     
-1. **데이터 내보내기**에서 **요약된 데이터**를 선택하고, *.xlsx* 또는 *.csv*를 선택한 다음, **내보내기**를 선택합니다. Power BI 데이터를 내보냅니다.
+1. **데이터 내보내기** 에서 **요약된 데이터** 를 선택하고, *.xlsx* 또는 *.csv* 를 선택한 다음, **내보내기** 를 선택합니다. Power BI 데이터를 내보냅니다.
 
     ![요약된 데이터, xlsx 및 내보내기 옵션이 호출된 데이터 내보내기의 스크린샷](media/power-bi-visualization-export-data/power-bi-export-data5.png)
 
-1. **내보내기**를 선택하면 브라우저에서 파일을 저장할 것인지 묻는 메시지를 표시 합니다. 저장한 후 Excel에서 파일을 엽니다.
+1. **내보내기** 를 선택하면 브라우저에서 파일을 저장할 것인지 묻는 메시지를 표시 합니다. 저장한 후 Excel에서 파일을 엽니다.
 
     ![Excel 출력의 스크린샷.](media/power-bi-visualization-export-data/power-bi-export-data9.png)
 
@@ -115,19 +115,19 @@ Will이 보고서의 시각화 중 하나에서 데이터를 내보내고 *.xlsx
 
     - 내보낸 데이터가 집계됩니다. 각 도시마다 총 한 행이 표시됩니다.
 
-    - 시각화에 필터를 적용했으므로 내보낸 데이터는 필터링된 상태로 내보냅니다. 첫 번째 행은 **적용된 필터를 표시합니다. 조지아주 애틀랜타**가 아닙니다. 
+    - 시각화에 필터를 적용했으므로 내보낸 데이터는 필터링된 상태로 내보냅니다. 첫 번째 행은 **적용된 필터를 표시합니다. 조지아주 애틀랜타** 가 아닙니다. 
 
-### <a name="export-underlying-data"></a>***기본*** 데이터 내보내기
+### <a name="export-_underlying__-data"></a>‘기본’ 데이터 내보내기
 
-모델의 시각적 개체 ***및*** 추가 데이터에서 데이터 세트를 확인하려면 이 옵션을 선택합니다(자세한 내용은 아래 차트 참조). 시각화에 집계가 있으면 **기본 데이터**를 선택하여 집계를 제거합니다. 이 예제에서 Excel 내보내기는 데이터 세트의 모든 단일 도시 행에 대해 한 행 및 해당 단일 항목에 대한 할인율을 보여 줍니다. Power BI는 데이터를 평면화하지만 집계하지는 않습니다.  
+모델의 시각적 개체 및 추가 데이터에서 데이터 세트를 확인하려면 이 옵션을 선택합니다(자세한 내용은 아래 차트 참조). 시각화에 집계가 있으면 ‘기본 데이터’를 선택하여 집계를 제거합니다. 이 예제에서 Excel 내보내기는 데이터 세트의 모든 단일 도시 행에 대해 한 행 및 해당 단일 항목에 대한 할인율을 보여 줍니다. Power BI는 데이터를 평면화하지만 집계하지는 않습니다.  
 
-**내보내기**를 선택하면 Power BI가 데이터를 *.xlsx* 파일로 내보내고 브라우저에는 파일을 저장할지 묻는 메시지가 표시됩니다. 저장한 후 Excel에서 파일을 엽니다.
+**내보내기** 를 선택하면 Power BI가 데이터를 *.xlsx* 파일로 내보내고 브라우저에는 파일을 저장할지 묻는 메시지가 표시됩니다. 저장한 후 Excel에서 파일을 엽니다.
 
-1. 시각화의 오른쪽 위 모서리에서 줄임표를 선택합니다. **데이터 내보내기**를 선택합니다.
+1. 시각화의 오른쪽 위 모서리에서 줄임표를 선택합니다. **데이터 내보내기** 를 선택합니다.
 
     ![줄임표 단추와 데이터 내보내기 옵션이 호출된 오른쪽 위 모서리의 스크린샷](media/power-bi-visualization-export-data/power-bi-export-data2.png)
 
-    Power BI 서비스에는 시각화에 집계가 있으므로(**개수**를 **평균**으로 변경함) 두 가지 옵션이 있습니다.
+    Power BI 서비스에는 시각화에 집계가 있으므로(**개수** 를 **평균** 으로 변경함) 두 가지 옵션이 있습니다.
 
     - **요약된 데이터**
 
@@ -140,11 +140,11 @@ Will이 보고서의 시각화 중 하나에서 데이터를 내보내고 *.xlsx
     > Power BI Desktop에서는 요약된 데이터를 내보낼 수 있는 옵션만 있습니다. 
     
     
-1. **데이터 내보내기**에서 **기본 데이터**를 선택한 다음 **내보내기**를 선택합니다. Power BI 데이터를 내보냅니다.
+1. **데이터 내보내기** 에서 **기본 데이터** 를 선택한 다음 **내보내기** 를 선택합니다. Power BI 데이터를 내보냅니다.
 
     ![데이터 내보내기의 스크린샷 불러온 기본 데이터 스크린샷](media/power-bi-visualization-export-data/power-bi-underlying.png)
 
-1. **내보내기**를 선택하면 브라우저에서 파일을 저장할 것인지 묻는 메시지를 표시 합니다. 저장한 후 Excel에서 파일을 엽니다.
+1. **내보내기** 를 선택하면 브라우저에서 파일을 저장할 것인지 묻는 메시지를 표시 합니다. 저장한 후 Excel에서 파일을 엽니다.
 
     ![내보낸 데이터가 표시된 .xlsx 파일의 스크린샷](media/power-bi-visualization-export-data/power-bi-excel.png)
     
@@ -152,7 +152,7 @@ Will이 보고서의 시각화 중 하나에서 데이터를 내보내고 *.xlsx
     
     - 시각적 개체의 현재 드릴 수준에 사용되는 데이터뿐 아니라 계층 구조에 사용되는 모든 데이터를 내보냅니다. 예를 들어 도시 수준까지 드릴다운 했지만 내보내기에는 국가 데이터도 포함됩니다.  
 
-    - 시각화에 필터를 적용했으므로 내보낸 데이터는 필터링된 상태로 내보냅니다. 첫 번째 행은 **적용된 필터를 표시합니다. 조지아주 애틀랜타**가 아닙니다. 
+    - 시각화에 필터를 적용했으므로 내보낸 데이터는 필터링된 상태로 내보냅니다. 첫 번째 행은 **적용된 필터를 표시합니다. 조지아주 애틀랜타** 가 아닙니다. 
 
 ## <a name="customize-the-export-data-user-experience"></a>데이터 내보내기 사용자 환경 사용자 지정
 
@@ -177,7 +177,7 @@ Will이 보고서의 시각화 중 하나에서 데이터를 내보내고 *.xlsx
 
 ## <a name="export-underlying-data-details"></a>기본 데이터 세부 정보 내보내기
 
-**기본 데이터**를 선택하면 표시되는 내용은 달라질 수 있습니다. 이 세부 정보를 이해하려면 관리자 또는 IT 부서의 지원을 받아야 할 수 있습니다. 
+**기본 데이터** 를 선택하면 표시되는 내용은 달라질 수 있습니다. 이 세부 정보를 이해하려면 관리자 또는 IT 부서의 지원을 받아야 할 수 있습니다. 
 
 
 >
@@ -194,7 +194,7 @@ Will이 보고서의 시각화 중 하나에서 데이터를 내보내고 *.xlsx
 | 측정값만 해당 | 모든 관련된 테이블에서 숨겨지지 않은 모든 열(측정값을 확장하기 위해) |
 | 측정값만 해당 | 모델 측정값의 중복 행에 대한 요약된 데이터 |
 
-\*Power BI Desktop 또는 서비스의 보고서 보기에서 *측정값*은 계산기 아이콘![아이콘 표시](media/power-bi-visualization-export-data/power-bi-calculator-icon.png)과 함께 **필드** 목록에 표시됩니다. Power BI Desktop에서 측정값을 만들 수 있습니다.
+\*Power BI Desktop 또는 서비스의 보고서 보기에서 *측정값* 은 계산기 아이콘![아이콘 표시](media/power-bi-visualization-export-data/power-bi-calculator-icon.png)과 함께 **필드** 목록에 표시됩니다. Power BI Desktop에서 측정값을 만들 수 있습니다.
 
 ### <a name="set-the-export-options"></a>내보내기 옵션 설정
 
@@ -213,9 +213,9 @@ Power BI 보고서 디자이너는 소비자가 사용할 수 있는 데이터 �
 
 1. Power BI Desktop에서 시작합니다.
 
-1. 왼쪽 위 모서리에서 **파일** > **옵션 및 설정** > **옵션**을 선택합니다.
+1. 왼쪽 위 모서리에서 **파일** > **옵션 및 설정** > **옵션** 을 선택합니다.
 
-1. **현재 파일**에서 **보고서 설정**을 선택합니다.
+1. **현재 파일** 에서 **보고서 설정** 을 선택합니다.
 
     ![데스크톱 보고서 설정](media/power-bi-visualization-export-data/desktop-report-settings.png)
 
@@ -230,9 +230,9 @@ Power BI 관리 포털 설정이 데이터 내보내기에 대한 보고서 설�
 
 - 시각적 개체에서 데이터를 내보내려면 [기본 데이터 세트에 대한 빌드 권한](../connect-data/service-datasets-build-permissions.md)이 있어야 합니다.
 
--  **Power BI Desktop** 및 **Power BI 서비스**가 **가져오기 모드 보고서**에서 *.csv* 파일로 내보낼 수 있는 최대 행 수는 30,000개입니다.
+-  **Power BI Desktop** 및 **Power BI 서비스** 가 **가져오기 모드 보고서** 에서 *.csv* 파일로 내보낼 수 있는 최대 행 수는 30,000개입니다.
 
-- 애플리케이션이 **가져오기 모드 보고서**에서 *.xlsx* 파일로 내보낼 수 있는 최대 행 수는 150,000개입니다.
+- 애플리케이션이 **가져오기 모드 보고서** 에서 *.xlsx* 파일로 내보낼 수 있는 최대 행 수는 150,000개입니다.
 
 - 다음과 같은 경우 ‘기본 데이터’를 사용한 내보내기가 작동하지 않습니다.
 
@@ -258,17 +258,17 @@ Power BI 관리 포털 설정이 데이터 내보내기에 대한 보고서 설�
 
 - Power BI에서 필드를 두 번 클릭하고 새 이름을 입력하여 필드(열)의 이름을 바꿀 수 있습니다. Power BI는 ‘새 이름을 별칭’으로 참조합니다. Power BI 보고서가 중복 필드 이름으로 끝나지만 Excel이 중복을 허용하지 않을 수 있습니다. 따라서 Power BI가 데이터를 Excel로 내보낼 때 필드 별칭은 원래 필드(열) 이름으로 되돌립니다.  
 
-- *.csv* 파일에 유니코드 문자가 있는 경우 Excel의 텍스트가 제대로 표시되지 않을 수 있습니다. 유니코드 문자의 예로 통화 기호 및 외국어 단어가 있습니다. 메모장에서 파일을 열면 유니코드가 올바르게 표시됩니다. Excel에서 파일을 열려면 *.csv*를 가져오면 문제가 해결됩니다. 파일을 Excel로 가져오려면 다음을 수행합니다.
+- *.csv* 파일에 유니코드 문자가 있는 경우 Excel의 텍스트가 제대로 표시되지 않을 수 있습니다. 유니코드 문자의 예로 통화 기호 및 외국어 단어가 있습니다. 메모장에서 파일을 열면 유니코드가 올바르게 표시됩니다. Excel에서 파일을 열려면 *.csv* 를 가져오면 문제가 해결됩니다. 파일을 Excel로 가져오려면 다음을 수행합니다.
 
   1. Excel을 엽니다.
 
   1. **데이터** 탭으로 이동합니다.
   
-  1. **외부 데이터 가져오기** > **텍스트에서**를 선택합니다.
+  1. **외부 데이터 가져오기** > **텍스트에서** 를 선택합니다.
   
-  1. 파일이 저장된 로컬 폴더로 이동하고 *.csv*를 선택합니다.
+  1. 파일이 저장된 로컬 폴더로 이동하고 *.csv* 를 선택합니다.
 
-- *.csv*로 내보낼 경우, Excel에서 열 때 스크립트 실행을 방지하기 위해 특정 문자는 선행 **'** 로 이스케이프됩니다. 이런 상황은 다음과 같은 경우에 발생합니다.
+- *.csv* 로 내보낼 경우, Excel에서 열 때 스크립트 실행을 방지하기 위해 특정 문자는 선행 **'** 로 이스케이프됩니다. 이런 상황은 다음과 같은 경우에 발생합니다.
   - 데이터 모델에서 열이 “텍스트” 형식으로 정의되는 경우, **그리고**
   - 텍스트의 첫 번째 문자가 **=, @, +,-** 중 하나인 경우
 

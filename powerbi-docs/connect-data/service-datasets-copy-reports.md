@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4b9573d0a24efdbb4c0b5a4130f973a0dfac0f10
-ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
+ms.openlocfilehash: 4fcfe4038b8fa14b0c1640680aaf7657e92bb9bb
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "93132324"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397372"
 ---
 # <a name="copy-reports-from-other-workspaces"></a>다른 작업 영역에서 보고서 복사
 
@@ -56,7 +56,7 @@ ms.locfileid: "93132324"
 ## <a name="copy-a-report-in-an-app"></a>앱에서 보고서 복사
 
 1. 앱에서 복사할 보고서를 엽니다.
-2. 메뉴 모음에서 **추가 옵션** ( **...** ) > **복사본 저장** 을 선택합니다.
+2. 메뉴 모음에서 **추가 옵션**( **...** ) > **복사본 저장** 을 선택합니다.
 
     ![보고서 복사본 저장](media/service-datasets-copy-reports/power-bi-save-copy.png)
 

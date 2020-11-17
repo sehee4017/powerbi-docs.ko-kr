@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 06/02/2020
-ms.openlocfilehash: 9af0edbe63841f6fb0e0de2e628784c89a5e44f1
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 21f497a7c88134232a86afb9d16142719a6b711e
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983370"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483791"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>자습서:  고객의 애플리케이션에 Power BI 콘텐츠 포함
 
@@ -40,7 +40,7 @@ ms.locfileid: "91983370"
 
 애플리케이션에 보고서, 대시보드 또는 타일 포함을 시작하기 전에 사용자 환경이 Power BI에 포함을 허용하도록 설정해야 합니다.
 
-[포함 설정 도구](https://aka.ms/embedsetup/AppOwnsData)를 통해 환경을 만들고 보고서를 포함하는 방법을 설명할 수 있는 샘플 애플리케이션을 신속하게 시작하고 다운로드할 수 있습니다.
+[포함 설정 도구](https://app.powerbi.com/embedsetup)를 통해 환경을 만들고 보고서를 포함하는 방법을 설명할 수 있는 샘플 애플리케이션을 신속하게 시작하고 다운로드할 수 있습니다.
 
 그러나 환경을 수동으로 설정하도록 선택하면 아래를 계속할 수 있습니다.
 
@@ -228,7 +228,7 @@ Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
 
 애플리케이션 내에서 고객을 포함시키려면 **Azure AD** 에서 마스터 계정에 대한 **액세스 토큰** 또는 [서비스 주체](embed-service-principal.md)를 가져와야 합니다. [Power BI REST API](/rest/api/power-bi/)를 호출하기 전에 Power BI 애플리케이션에 대한 [Azure AD 액세스 토큰](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)을 가져와야 합니다.
 
-**액세스 토큰** 을 사용하여 Power BI 클라이언트를 만들려면 [Power BI REST API](/rest/api/power-bi/)와 상호 작용할 수 있는 Power BI 클라이언트 개체를 만들 수 있습니다. ***Microsoft.Rest.TokenCredentials*** 개체로 **AccessToken** 을 래핑하여 Power BI 클라이언트 개체를 만듭니다.
+**액세스 토큰** 을 사용하여 Power BI 클라이언트를 만들려면 [Power BI REST API](/rest/api/power-bi/)와 상호 작용할 수 있는 Power BI 클라이언트 개체를 만들 수 있습니다. **_Microsoft.Rest.TokenCredentials_* _ 개체로 **AccessToken** 을 래핑하여 Power BI 클라이언트 개체를 만듭니다.
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -250,7 +250,7 @@ Power BI 클라이언트 개체를 사용하여 포함하려는 항목에 대한
 
 지정된 작업 영역에서 첫 번째 보고서를 검색하는 방법을 보여주는 코드 샘플은 다음과 같습니다.
 
-*포함하려는 보고서, 대시보드 또는 타일에 관계없이 콘텐츠 항목을 가져오는 샘플은 [샘플 애플리케이션](https://github.com/Microsoft/PowerBI-Developer-Samples)의 Services\EmbedService.cs 파일 내에서 사용할 수 있습니다.*
+포함하려는 보고서, 대시보드 또는 타일에 관계없이 콘텐츠 항목을 가져오는 샘플은 [애플리케이션 예제](https://github.com/Microsoft/PowerBI-Developer-Samples)의 Services\EmbedService.cs 파일 내에서 사용할 수 있습니다.
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;

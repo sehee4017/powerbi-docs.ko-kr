@@ -1,5 +1,5 @@
 ---
-title: Power BI Premium에서 XMLA 엔드포인트 연결 문제 해결(미리 보기)
+title: Power BI에서 XMLA 엔드포인트 연결 문제 해결
 description: Power BI Premium에서 XMLA 엔드포인트를 통한 연결 문제를 해결하는 방법을 설명합니다.
 author: minewiskan
 ms.author: owend
@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 10/14/2020
+ms.date: 10/20/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: c8f0683e0789ec29577322424a4187a42ff5679f
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.openlocfilehash: 5426c91f2ab0c4de1f9f2bc335ac21ea3a90c0e2
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116572"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483676"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>XMLA 엔드포인트 연결 문제 해결
 
@@ -27,7 +27,7 @@ XMLA 엔드포인트 시나리오의 문제를 해결하기 전에 [XMLA 엔드�
 
 ## <a name="enabling-the-xmla-endpoint"></a>XMLA 엔드포인트 사용
 
-Power BI Premium 및 Power BI Embedded 용량 모두에서 XMLA 엔드포인트를 사용하도록 설정할 수 있습니다. 2\.5GB 메모리를 사용하는 A1 용량과 같이 더 작은 용량에서는 XMLA 엔드포인트를 **읽기/쓰기**로 설정하고 **적용**을 선택하려고 하면 용량 설정 오류가 발생할 수 있습니다. 오류는 "워크로드 설정에 문제가 있습니다. 잠시 후에 다시 시도하세요."입니다.
+Power BI Premium 및 Power BI Embedded 용량 모두에서 XMLA 엔드포인트를 사용하도록 설정할 수 있습니다. 2\.5GB 메모리를 사용하는 A1 용량과 같이 더 작은 용량에서는 XMLA 엔드포인트를 **읽기/쓰기** 로 설정하고 **적용** 을 선택하려고 하면 용량 설정 오류가 발생할 수 있습니다. 오류는 "워크로드 설정에 문제가 있습니다. 잠시 후에 다시 시도하세요."입니다.
 
 시도해 볼 수 있는 작업은 다음과 같습니다.
 
@@ -77,9 +77,9 @@ Power BI가 새 데이터 세트를 데이터 원본 자격 증명에 바인딩�
 
 :::image type="content" source="media/troubleshoot-xmla-endpoint/deploy-refresh-error.png" alt-text="모델 배포 오류":::
 
-처리 실패를 방지하려면 다음 그림에 표시된 것처럼 **배포 옵션** > **처리 옵션**을 **처리 안 함**으로 설정합니다. 그러면 Visual Studio에서 메타데이터만 배포합니다. 그런 다음 데이터 원본 자격 증명을 구성하고 Power BI 사용자 인터페이스의 데이터 세트에 대해 **지금 새로 고침**을 클릭할 수 있습니다. 처리 문제를 해결하는 방법에 대한 자세한 내용은 이 문서의 뒷부분에 나오는 [데이터 세트 새로 고침](#refreshing-a-dataset) 섹션을 참조하세요.
+처리 실패를 방지하려면 다음 그림에 표시된 것처럼 **배포 옵션** > **처리 옵션** 을 **처리 안 함** 으로 설정합니다. 그러면 Visual Studio에서 메타데이터만 배포합니다. 그런 다음 데이터 원본 자격 증명을 구성하고 Power BI 사용자 인터페이스의 데이터 세트에 대해 **지금 새로 고침** 을 클릭할 수 있습니다. 처리 문제를 해결하는 방법에 대한 자세한 내용은 이 문서의 뒷부분에 나오는 [데이터 세트 새로 고침](#refreshing-a-dataset) 섹션을 참조하세요.
 
-:::image type="content" source="media/troubleshoot-xmla-endpoint/do-not-process.png" alt-text="모델 배포 오류":::
+:::image type="content" source="media/troubleshoot-xmla-endpoint/do-not-process.png" alt-text="처리 안 함 옵션":::
 
 ### <a name="new-project-from-an-existing-dataset"></a>기존 데이터 세트의 새 프로젝트
 
@@ -126,15 +126,15 @@ XMLA 엔드포인트를 사용하면 테이블 형식 모델뿐만 아니라 Pow
 
 ### <a name="data-sources-and-impersonation"></a>데이터 원본 및 가장
 
-공급자 데이터 원본에 대해 정의할 수 있는 가장 설정은 Power BI와 관련이 없습니다. Power BI는 데이터 세트 설정에 따라 다른 메커니즘을 사용하여 데이터 원본 자격 증명을 관리합니다. 따라서 공급자 데이터 원본을 만드는 경우 **서비스 계정**을 선택해야 합니다.
+공급자 데이터 원본에 대해 정의할 수 있는 가장 설정은 Power BI와 관련이 없습니다. Power BI는 데이터 세트 설정에 따라 다른 메커니즘을 사용하여 데이터 원본 자격 증명을 관리합니다. 따라서 공급자 데이터 원본을 만드는 경우 **서비스 계정** 을 선택해야 합니다.
 
-:::image type="content" source="media/troubleshoot-xmla-endpoint/impersonate-services-account.png" alt-text="모델 배포 오류":::
+:::image type="content" source="media/troubleshoot-xmla-endpoint/impersonate-services-account.png" alt-text="서비스 계정 가장":::
 
 ### <a name="fine-grained-processing"></a>세분화된 처리
 
 Power BI에서 예약된 새로 고침 또는 요청 시 새로 고침을 트리거하는 경우 Power BI는 일반적으로 전체 데이터 세트를 새로 고칩니다. 대부분의 경우 더 선택적으로 새로 고침을 수행하는 것이 더 효율적입니다. 아래와 같이 SSMS(SQL Server Management Studio)에서 세분화된 처리 작업을 수행하거나 타사 도구 또는 스크립트를 사용할 수 있습니다.
 
-:::image type="content" source="media/troubleshoot-xmla-endpoint/process-tables.png" alt-text="모델 배포 오류":::
+:::image type="content" source="media/troubleshoot-xmla-endpoint/process-tables.png" alt-text="SSMS의 프로세스 테이블":::
 
 ### <a name="overrides-in-refresh-tmsl-command"></a>Refresh TMSL 명령의 재정의
 
@@ -142,7 +142,7 @@ Power BI에서 예약된 새로 고침 또는 요청 시 새로 고침을 트리
 
 ## <a name="see-also"></a>참고 항목
 
-[XMLA 엔드포인트로 데이터 세트 연결](service-premium-connect-tools.md)   
-[서비스 주체를 사용하여 Premium 작업 영역 및 데이터 세트 작업 자동화](service-premium-service-principal.md)   
-[Excel에서 분석 문제 해결](../collaborate-share/desktop-troubleshooting-analyze-in-excel.md)   
-[테이블 형식 모델 솔루션 배포](/analysis-services/deployment/tabular-model-solution-deployment?view=power-bi-premium-current)
+[XMLA 엔드포인트로 데이터 세트 연결](service-premium-connect-tools.md)  
+[서비스 주체를 사용하여 Premium 작업 영역 및 데이터 세트 작업 자동화](service-premium-service-principal.md)  
+[Excel에서 분석 문제 해결](../collaborate-share/desktop-troubleshooting-analyze-in-excel.md)  
+[테이블 형식 모델 솔루션 배포](/analysis-services/deployment/tabular-model-solution-deployment?view=power-bi-premium-current&preserve-view=true)

@@ -1,19 +1,19 @@
 ---
 title: Power BI 보고서 작성기의 식 예제
 description: 식은 Power BI 보고서 작성기의 페이지를 매긴 보고서에 자주 사용되어 보고서의 내용과 모양을 제어합니다.
-ms.date: 10/21/2019
+ms.date: 11/08/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 042221e3836aae72568df7eadaacfeeeac90d215
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 762949dcce178628d387cd8f88c60080f74c5bae
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297779"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397349"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Power BI 보고서 작성기의 식 예제
 
@@ -180,7 +180,7 @@ ms.locfileid: "93297779"
   
      입력란에 날짜 또는 숫자만 있는 경우 입력란 내에서 **Format** 함수 대신 서식을 적용하려면 입력란의 Format 속성을 사용해야 합니다.  
   
--   **Right** , **Len** 및 **InStr** 함수는 하위 문자열을 반환하는 데 유용합니다. 예를 들어 *DOMAIN*\\*username* 에서 사용자 이름만 잘라서 반환할 수 있습니다. 다음 식에서는\\User *라는 매개 변수에서 백슬래시(* ) 문자의 오른쪽에 있는 문자열 부분을 반환합니다.  
+-   **Right**, **Len** 및 **InStr** 함수는 하위 문자열을 반환하는 데 유용합니다. 예를 들어 *DOMAIN*\\*username* 에서 사용자 이름만 잘라서 반환할 수 있습니다. 다음 식에서는\\User *라는 매개 변수에서 백슬래시(* ) 문자의 오른쪽에 있는 문자열 부분을 반환합니다.  
   
     ```  
     =Right(Parameters!User.Value, Len(Parameters!User.Value) - InStr(Parameters!User.Value, "\"))  
@@ -205,7 +205,7 @@ ms.locfileid: "93297779"
   
     ```  
   
--   .NET Framework `xref:System.Text.RegularExpressions`의 **Regex** 함수는 기존 문자열의 형식(예: 전화 번호 형식 지정)을 변경하는 데 유용합니다. 다음 식에서는 **Replace** 함수를 사용하여 필드의 10자리 전화 번호 서식을 " *nnn*-*nnn*-*nnnn* "에서 "( *nnn* ) *nnn*-*nnnn* "으로 변경합니다.  
+-   .NET Framework `xref:System.Text.RegularExpressions`의 **Regex** 함수는 기존 문자열의 형식(예: 전화 번호 형식 지정)을 변경하는 데 유용합니다. 다음 식에서는 **Replace** 함수를 사용하여 필드의 10자리 전화 번호 서식을 "*nnn*-*nnn*-*nnnn*"에서 "(*nnn*) *nnn*-*nnnn*"으로 변경합니다.  
   
     ```  
     =System.Text.RegularExpressions.Regex.Replace(Fields!Phone.Value, "(\d{3})[ -.]*(\d{3})[ -.]*(\d{4})", "($1) $2-$3")  
@@ -275,13 +275,13 @@ ms.locfileid: "93297779"
     =IIF(DateDiff("d",Fields!ImportantDate.Value, Now())>7,"Red","Blue")  
     ```  
   
--   `PhoneNumber` 필드의 값을 테스트하고, **null** (Visual Basic의 **Nothing** )이면 "No Value(값 없음)"를 반환하고, 그렇지 않으면 전화 번호 값을 반환합니다. 이 식은 보고서 항목에 있는 입력란의 값을 제어하는 데 사용할 수 있습니다.  
+-   `PhoneNumber` 필드의 값을 테스트하고, **null**(Visual Basic의 **Nothing**)이면 "No Value(값 없음)"를 반환하고, 그렇지 않으면 전화 번호 값을 반환합니다. 이 식은 보고서 항목에 있는 입력란의 값을 제어하는 데 사용할 수 있습니다.  
   
     ```  
     =IIF(Fields!PhoneNumber.Value Is Nothing,"No Value",Fields!PhoneNumber.Value)  
     ```  
   
--   `Department` 필드의 값을 테스트하고, 하위 보고서 이름 또는 **null** (Visual Basic의 **Nothing** )을 반환합니다. 이 식은 포함된 조건부 드릴스루 하위 보고서에 사용할 수 있습니다.  
+-   `Department` 필드의 값을 테스트하고, 하위 보고서 이름 또는 **null**(Visual Basic의 **Nothing**)을 반환합니다. 이 식은 포함된 조건부 드릴스루 하위 보고서에 사용할 수 있습니다.  
   
     ```  
     =IIF(Fields!Department.Value = "Development", "EmployeeReport", Nothing)  
@@ -454,6 +454,9 @@ ms.locfileid: "93297779"
     =IIF(Parameters!IncludeURLs.Value,"https://adventure-works.com/productcatalog",Nothing)  
     ```  
   
+> [!NOTE]
+>  Power BI 페이지를 매긴 보고서는 **Go To URL** 식에서 JavaScript를 사용하는 것을 지원하지 않습니다.  
+  
 ##  <a name="report-data"></a><a name="ReportData"></a> 보고서 데이터  
  식을 사용하여 보고서에 사용되는 데이터를 조작할 수 있습니다. 매개 변수 및 다른 보고서 정보를 참조할 수 있습니다. 보고서 데이터 검색에 사용하는 쿼리를 변경할 수도 있습니다.  
   
@@ -495,7 +498,7 @@ ms.locfileid: "93297779"
     =IIF(Field!B.Value=0, 0, Field!A.Value / IIF(Field!B.Value =0, 1, Field!B.Value))  
     ```  
   
--   사용자 지정 코드 함수를 사용하여 식의 값을 반환합니다. 다음 예에서는 현재 값과 이전 값의 차이를 백분율로 반환합니다. 이는 두 개의 연속 값 사이의 차이를 계산하는 데 사용할 수 있으며, 첫 번째 비교의 경계 사례(이전 값이 없는 경우)와 이전 값 또는 현재 값 중 하나가 **null** (Visual Basic의 **Nothing** )인지 여부를 처리합니다.  
+-   사용자 지정 코드 함수를 사용하여 식의 값을 반환합니다. 다음 예에서는 현재 값과 이전 값의 차이를 백분율로 반환합니다. 이는 두 개의 연속 값 사이의 차이를 계산하는 데 사용할 수 있으며, 첫 번째 비교의 경계 사례(이전 값이 없는 경우)와 이전 값 또는 현재 값 중 하나가 **null**(Visual Basic의 **Nothing**)인지 여부를 처리합니다.  
   
     ```  
     Public Function GetDeltaPercentage(ByVal PreviousValue, ByVal CurrentValue) As Object  

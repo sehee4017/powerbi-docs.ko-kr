@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 09/02/2020
-ms.openlocfilehash: ca9c18cbd51737a5e4b05f3504c6ac2760006281
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 447f73601362c9ee205fe64119d0c251e7b4eb9a
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92050859"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412283"
 ---
 # <a name="set-up-your-environment-for-developing-a-power-bi-visual"></a>Power BI 시각적 개체 개발을 위한 환경 설정
 
@@ -62,7 +62,7 @@ JavaScript를 사용하여 작성된 *pbiviz* 도구는 *pbiviz* 패키지의 �
 이 프로세스에서는 **인증서 가져오기 마법사** 를 실행하는 PowerShell 명령을 실행하는 방법에 대해 설명합니다. 아래 단계에 따라 마법사에서 인증서를 구성합니다.
 
 >[!IMPORTANT]
->이 절차 중에는 PowerSell 창을 닫지 마세요.
+>이 절차 중에는 PowerShell 창을 닫지 마세요.
 
 1. Windows PowerShell을 열고 다음 명령을 입력합니다.
 

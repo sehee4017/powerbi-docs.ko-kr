@@ -7,13 +7,13 @@ ms.reviewer: swgupt
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 11/01/2020
-ms.openlocfilehash: cf0e6a6e7cd40a5b8bb97560caf94b71c1b48e7a
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.date: 11/10/2020
+ms.openlocfilehash: cfa4b46e521079802ec87b63d6323e01213625c3
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93324054"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483868"
 ---
 # <a name="sample-power-bi-paginated-reports"></a>Power BI 페이지를 매긴 보고서 샘플
 
@@ -27,8 +27,25 @@ ms.locfileid: "93324054"
 - 이러한 보고서는 편집하지 않고 온라인으로 공유할 수 있습니다. 이렇게 하려면 Power BI Pro 라이선스가 필요합니다. [Power BI Pro 라이선스 평가판](../fundamentals/service-self-service-signup-for-power-bi.md#sign-up-for-an-individual-trial-of-power-bi-pro)에 가입합니다.
 - [프리미엄 용량](../admin/service-premium-what-is.md)의 Power BI 작업 영역에 대한 액세스 권한도 필요합니다.
 - 이러한 보고서를 편집하려면 Microsoft 다운로드 센터에서 [Power BI Report Builder를 설치](https://aka.ms/pbireportbuilder)해야 합니다.
-- 이제 GitHub에서 [페이지를 매긴 보고서 샘플을 다운로드](https://github.com/microsoft/Reporting-Services/tree/master/PaginatedReportSamples)할 수 있습니다. GitHub 계정이 필요하지는 않습니다. 
+- 이제 GitHub에서 페이지를 매긴 보고서 샘플을 다운로드할 수 있습니다. GitHub 계정이 필요하지는 않습니다. 
 
+## <a name="download-the-reports"></a>보고서 다운로드
+
+보고서를 성공적으로 다운로드하려면 리포지토리를 zip 파일로 다운로드한 다음 압축을 풀어야 합니다. 페이지를 매긴 보고서는 .rdl 파일입니다.
+
+1. [Reporting Services GitHub 리포지토리](https://github.com/microsoft/Reporting-Services)를 엽니다.
+1. 녹색 **Code** 단추 > **ZIP 다운로드** 를 선택합니다.
+
+    :::image type="content" source="media/paginated-reports-samples/paginated-report-download-zip.png" alt-text="Power BI 페이지 매긴 보고서 샘플이 포함된 GitHub 리포지토리의 스크린샷":::
+    
+1. 파일을 열고 **모두 추출** 을 선택하고 파일의 위치를 선택합니다. 기본적으로 폴더 이름은 **Reporting-Services-master** 가 됩니다.
+1. **Reporting-Services-master** 폴더를 연 다음 **PaginatedReportSamples** 폴더를 엽니다.
+
+    >[!NOTE]
+    >**Reporting-Services-master** 폴더에 있는 다른 폴더를 모두 삭제할 수 있습니다. 필요하지 않은 다른 샘플이 포함되어 있습니다.
+
+1. .rdl 파일 중 하나를 선택하여 Power BI Report Builder에서 엽니다.
+1. 이제 [페이지를 매긴 보고서를 Power BI 서비스에 게시](paginated-reports-save-to-power-bi-service.md)할 수 있습니다.
 
 ## <a name="invoice"></a>송장
 

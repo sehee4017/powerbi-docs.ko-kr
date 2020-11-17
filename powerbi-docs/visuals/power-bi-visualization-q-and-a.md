@@ -1,19 +1,19 @@
 ---
 title: Power BI 질문 및 답변 시각적 개체 사용
 description: Power BI 질문 및 답변 시각적 개체를 설정하는 방법
-author: rien
+author: msftrien
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 11/19/2019
 ms.author: mohaali
-ms.openlocfilehash: 22ce23b408f87c8c792f75a543fd0c29a9d13281
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 96773bc256ba8563147c7dc7c19e2558125b48fc
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232299"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412352"
 ---
 # <a name="introduction-to-power-bi-qa-visualizations"></a>Power BI 질문 및 답변 시각화 소개
 
@@ -42,9 +42,9 @@ ms.locfileid: "85232299"
 
 1. 이 자습서는 [영업 및 마케팅 샘플 PBIX 파일](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)을 사용합니다. 
 
-1. Power BI Desktop 메뉴 모음의 왼쪽 위 섹션에서 **파일** > **열기**를 선택합니다.
+1. Power BI Desktop 메뉴 모음의 왼쪽 위 섹션에서 **파일** > **열기** 를 선택합니다.
    
-2. **영업 및 마케팅 샘플 PBIX 파일**의 복사본을 찾습니다.
+2. **영업 및 마케팅 샘플 PBIX 파일** 의 복사본을 찾습니다.
 
 1. 보고서 뷰에서 파일을 엽니다. ![보고서 뷰 아이콘 스크린샷](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
@@ -66,7 +66,7 @@ ms.locfileid: "85232299"
 
     ![보고서 캔버스의 질문 및 답변 시각적 개체](media/power-bi-visualization-q-and-a/power-bi-qna.png)
 
-3. 시각적 개체를 만들려면 제안된 질문 중 하나를 선택하거나 질문 상자에 입력을 시작합니다. 이 예제에서는 **top geo states by sum of revenue**를 선택했습니다. Power BI는 최선을 다해 사용할 시각적 개체 유형을 선택합니다. 이 예제에서는 지도입니다.
+3. 시각적 개체를 만들려면 제안된 질문 중 하나를 선택하거나 질문 상자에 입력을 시작합니다. 이 예제에서는 **top geo states by sum of revenue** 를 선택했습니다. Power BI는 최선을 다해 사용할 시각적 개체 유형을 선택합니다. 이 예제에서는 지도입니다.
 
     ![질문 및 답변 시각적 개체 지도](media/power-bi-visualization-q-and-a/power-bi-map.png)
 
@@ -77,7 +77,7 @@ ms.locfileid: "85232299"
 ## <a name="create-a-qa-visual-using-a-natural-language-query"></a>자연어 쿼리를 사용하여 질문 및 답변 시각적 개체 만들기
 위 예제에서는 제안된 질문 중 하나를 선택하여 질문 및 답변 시각적 개체를 만들었습니다.  이 연습에서는 고유한 질문을 입력합니다. 질문을 입력할 때 Power BI에서 자동 완성, 제안 및 피드백으로 지원합니다.
 
-질문 유형이나 사용할 용어를 잘 모르겠으면 **모든 제안 표시**를 펼치거나, 캔버스 오른쪽에 있는 필드 창을 살펴봅니다. 이렇게 하면 영업 및 마케팅 데이터 세트의 용어와 콘텐츠에 익숙해질 것입니다.
+질문 유형이나 사용할 용어를 잘 모르겠으면 **모든 제안 표시** 를 펼치거나, 캔버스 오른쪽에 있는 필드 창을 살펴봅니다. 이렇게 하면 영업 및 마케팅 데이터 세트의 용어와 콘텐츠에 익숙해질 것입니다.
 
 ![모든 제안 표시 및 필드 창의 윤곽선이 표시된 캔버스](media/power-bi-visualization-q-and-a/power-bi-terminology.png)
 
@@ -109,13 +109,13 @@ ms.locfileid: "85232299"
 ### <a name="apply-a-theme"></a>테마 적용
 테마를 선택하면 전체 보고서 페이지에 해당 테마가 적용됩니다. 선택할 수 있는 다양한 테마가 있으므로, 원하는 모양을 얻을 때까지 시험해 볼 수 있습니다. 
 
-1. 메뉴 모음에서 **홈** 탭을 선택한 다음, **테마 전환**을 선택합니다. 
+1. 메뉴 모음에서 **홈** 탭을 선택한 다음, **테마 전환** 을 선택합니다. 
 
     ![테마 전환이 선택된 바탕 화면](media/power-bi-visualization-q-and-a/power-bi-themes.png)
 
     
     
-2. 이 예제에서는 **더 많은 테마** > **색맹 안전**을 선택했습니다.
+2. 이 예제에서는 **더 많은 테마** > **색맹 안전** 을 선택했습니다.
 
     ![색맹 테마가 적용된 질문 및 답변 시각적 개체](media/power-bi-visualization-q-and-a/power-bi-color-blind.png)
 
@@ -133,7 +133,7 @@ ms.locfileid: "85232299"
 
 이 시각적 개체는 더 이상 질문 및 답변 시각적 개체가 아니라 표준 세로 막대형 차트이며, 대시보드에 고정할 수 있습니다. 보고서에서 이 시각적 개체는 다른 표준 시각적 개체와 동일하게 동작합니다. 시각화 창에서 질문 및 답변 시각적 개체 아이콘 대신 세로 막대형 차트 아이콘이 선택된 상태로 표시됩니다.
 
-***Power BI 서비스***를 사용하는 경우, 이제 고정 아이콘을 선택하여 시각적 개체를 대시보드에 고정할 수 있습니다. 
+‘Power BI 서비스’를 사용하는 경우, 이제 고정 아이콘을 선택하여 시각적 개체를 대시보드에 고정할 수 있습니다. 
 
 
 ![고정 아이콘의 윤곽선이 표시된 Power BI 서비스](media/power-bi-visualization-q-and-a/power-bi-pin.png)
@@ -155,5 +155,5 @@ ms.locfileid: "85232299"
 
 자연어를 통합하는 방법에는 여러 가지가 있습니다. 자세한 내용은 다음 문서를 참조하세요.
 
-* [질문 및 답변 도구](../natural-language/q-and-a-tooling-intro.md)
+[질문 및 답변 도구](../natural-language/q-and-a-tooling-intro.md)
 * [질문 및 답변 모범 사례](../natural-language/q-and-a-best-practices.md)

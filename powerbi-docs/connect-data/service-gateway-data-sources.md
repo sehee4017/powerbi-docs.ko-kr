@@ -1,23 +1,23 @@
 ---
-title: 데이터 원본 관리
-description: Power BI에서 데이터 원본을 관리하는 방법을 알아봅니다.
+title: 게이트웨이 데이터 원본 추가 또는 제거
+description: Power BI에서 온-프레미스 게이트웨이에 데이터 원본을 추가하는 방법을 알아봅니다.
 author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 07/22/2020
+ms.date: 11/03/2020
 ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 92c3a65b11435403b61a06324f534e6d82e4b7cb
-ms.sourcegitcommit: efe11c819be75887c4242afa64d32bb0698da569
+ms.openlocfilehash: 58fb6fbe48ef1552052f93fd56b35512b7bf84d7
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2020
-ms.locfileid: "87123491"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412492"
 ---
-# <a name="manage-data-sources"></a>데이터 원본 관리
+# <a name="add-or-remove-a-gateway-data-source"></a>게이트웨이 데이터 원본 추가 또는 제거
 
 [!INCLUDE [gateway-rewrite](../includes/gateway-rewrite.md)]
 
@@ -25,47 +25,51 @@ Power BI는 다양한 [온-프레미스 데이터 원본](power-bi-data-sources.
 
 API를 사용하여 대부분의 데이터 원본 관리 작업을 수행할 수도 있습니다. 자세한 내용은 [Rest API(게이트웨이)](/rest/api/power-bi/gateways)를 참조하세요.
 
+게이트웨이를 아직 설치하지 않은 경우 시작하려면 [온-프레미스 데이터 게이트웨이 설치](/data-integration/gateway/service-gateway-install)를 참조하세요.
+
 ## <a name="add-a-data-source"></a>데이터 원본 추가
 
-1. Power BI 서비스의 오른쪽 위 모서리에서 기어 아이콘 ![설정 기어 아이콘](media/service-gateway-data-sources/icon-gear.png) > **게이트웨이 관리**를 선택합니다.
+1. Power BI 서비스 페이지 머리글에서 **설정** ![설정 톱니 바퀴 아이콘](media/service-gateway-data-sources/icon-gear.png) > **게이트웨이 관리** 를 선택합니다.
 
     ![게이트웨이 관리](media/service-gateway-data-sources/manage-gateways.png)
 
-2. 게이트웨이를 선택하고 **데이터 원본 추가**를 선택합니다. 또는 **게이트웨이** > **데이터 원본 추가**로 이동합니다.
+2. 게이트웨이를 선택하고 **데이터 원본 추가** 를 선택합니다. 머리글 텍스트 **데이터 원본 추가** 를 선택하거나 게이트웨이 항목 옆에 커서를 가져가 추가 옵션 메뉴를 표시할 수 있습니다.
 
     ![데이터 원본 추가](media/service-gateway-data-sources/add-data-source.png)
 
-3. **데이터 원본 유형**을 선택합니다.
+3. 데이터 원본에 이름을 할당하고 **데이터 원본 유형** 을 선택합니다. 이 예제에서는 SQL Server를 선택합니다.
 
     ![SQL Server 선택](media/service-gateway-data-sources/select-sql-server.png)
 
-4. 데이터 원본에 대한 정보를 입력합니다. 이 예제에서는 **서버**, **데이터베이스** 및 기타 정보입니다. 
+4. 데이터 원본에 대한 정보를 입력합니다. SQL Server의 경우 **서버** 및 **데이터베이스** 를 제공합니다.
 
     ![데이터 원본 설정](media/service-gateway-data-sources/data-source-settings.png)
 
-5. SQL Server의 경우 **Windows** 또는 **기본**(SQL 인증)의 **인증 방법**을 선택합니다. **기본**을 선택하는 경우 데이터 원본에 대한 자격 증명을 입력합니다.
+5. 데이터 원본에 연결할 때 사용할 **인증 방법** 을 선택합니다. SQL Server의 경우 **Windows** 또는 **기본**(SQL 인증)을 선택합니다. 데이터 원본에 대한 자격 증명을 입력합니다.
+
+   :::image type="content" source="media/service-gateway-data-sources/basic-auth.png" alt-text="기본 인증 설정.":::
 
     > [!NOTE]
     > 선택한 인증 방법이 OAuth인 경우 OAuth 토큰 만료 정책보다 오래 실행되는 모든 쿼리가 실패할 수 있습니다.
 
-6. **고급 설정**에서 데이터 원본에 대해 [SSO(Single Sign-on)](service-gateway-sso-overview.md)를 구성할 수 있습니다. 
+6. **고급 설정** 에서 데이터 원본에 대해 [SSO(Single Sign-on)](service-gateway-sso-overview.md)를 구성할 수 있습니다. 
 
     ![고급 설정](media/service-gateway-data-sources/advanced-settings-02.png)
 
-DirectQuery 기반 보고서의 경우 **DirectQuery 쿼리에 Kerberos를 통한 SSO 사용** 또는 **DirectQuery를 위해 Kerberos를 통한 SSO 사용 및 쿼리 가져오기**를 구성하고 새로 고침 기반 보고서의 경우 **DirectQuery를 위해 Kerberos를 통한 SSO 사용 및 쿼리 가져오기**를 구성할 수 있습니다.
+    DirectQuery 기반 보고서의 경우 **DirectQuery 쿼리에 Kerberos를 통한 SSO 사용** 또는 **DirectQuery를 위해 Kerberos를 통한 SSO 사용 및 쿼리 가져오기** 를 구성하고 새로 고침 기반 보고서의 경우 **DirectQuery를 위해 Kerberos를 통한 SSO 사용 및 쿼리 가져오기** 를 구성할 수 있습니다.
 
-**DirectQuery 쿼리에 Kerberos를 통한 SSO 사용**을 사용하고 DirectQuery 기반 보고서에 이 데이터 원본을 사용하는 경우에는 Power BI 서비스에 로그인하는 (Azure) Active Directory 사용자에 매핑된 사용자가 보고서에 사용됩니다. 새로 고침 기반 보고서의 경우 **사용자 이름** 및 **암호** 필드에 입력하는 자격 증명이 사용됩니다.
+    **DirectQuery 쿼리에 Kerberos를 통한 SSO 사용** 을 사용하고 DirectQuery 기반 보고서에 이 데이터 원본을 사용하는 경우에는 Power BI 서비스에 로그인하는 사용자의 자격 증명이 사용됩니다. 새로 고침 기반 보고서의 경우 **사용자 이름** 및 **암호** 필드에 입력하는 자격 증명이 사용됩니다.
 
-**DirectQuery를 위해 Kerberos를 통한 SSO 사용 및 쿼리 가져오기**를 사용하는 경우에는 자격 증명을 제공할 필요가 없습니다. DirectQuery 기반 보고서에 이 데이터 원본을 사용하는 경우에는 Power BI 서비스에 로그인하는 (Azure) Active Directory 사용자에 매핑된 사용자가 보고서에 사용됩니다.  새로 고침 기반 보고서의 경우 데이터 세트 소유자의 보안 컨텍스트가 사용됩니다.
+    **DirectQuery를 위해 Kerberos를 통한 SSO 사용 및 쿼리 가져오기** 를 사용하는 경우에는 자격 증명을 제공할 필요가 없습니다. DirectQuery 기반 보고서에 이 데이터 원본을 사용하는 경우에는 Power BI 서비스에 로그인하는 (Azure) Active Directory 사용자에 매핑된 사용자가 보고서에 사용됩니다.  새로 고침 기반 보고서의 경우 데이터 세트 소유자의 보안 컨텍스트가 사용됩니다.
 
-> [!NOTE]
->쿼리 가져오기의 SSO는 [Kerberos 제한 위임](service-gateway-sso-kerberos.md)을 사용하는 SSO 데이터 원본 목록에서만 사용할 수 있습니다.
+    > [!NOTE]
+    >쿼리 가져오기의 SSO는 [Kerberos 제한 위임](service-gateway-sso-kerberos.md)을 사용하는 SSO 데이터 원본 목록에서만 사용할 수 있습니다.
 
-7. **고급 설정**에서 선택적으로 데이터 원본에 대한 [개인 정보 수준](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)을 구성합니다([DirectQuery](desktop-directquery-about.md)에 적용되지 않음).
+7. **고급 설정** 에서 선택적으로 데이터 원본에 대한 [개인 정보 수준](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)을 구성합니다([DirectQuery](desktop-directquery-about.md)에 적용되지 않음).
 
-    ![고급 설정](media/service-gateway-data-sources/advanced-settings.png)
+    :::image type="content" source="media/service-gateway-data-sources/privacy-level.png" alt-text="개인 정보 수준 선택.":::
 
-8. **추가**를 선택합니다. 프로세스가 성공하면 ‘연결 성공’이 표시됩니다.
+8. **추가** 를 선택합니다. 프로세스가 성공하면 ‘연결 성공’이 표시됩니다.
 
     ![연결 성공](media/service-gateway-data-sources/connection-successful.png)
 
@@ -75,18 +79,18 @@ DirectQuery 기반 보고서의 경우 **DirectQuery 쿼리에 Kerberos를 통�
 
 더 이상 사용하지 않는 경우 데이터 원본을 제거할 수 있습니다. 데이터 원본을 제거하면 해당 데이터 원본을 사용하는 모든 대시보드와 보고서가 제거됩니다.
 
-데이터 원본을 제거하려면 데이터 원본으로 이동한 다음, **제거**를 선택합니다.
+데이터 원본을 제거하려면 데이터 원본으로 이동한 다음, 추가 옵션 메뉴에서 **제거** 를 선택합니다. 데이터 원본 이름 옆에 커서를 가져가면 추가 옵션 메뉴가 나타납니다.
 
 ![데이터 원본 제거](media/service-gateway-data-sources/remove-data-source.png)
 
 ## <a name="use-the-data-source-for-scheduled-refresh-or-directquery"></a>예약된 새로 고침 또는 DirectQuery에 데이터 원본 사용
 
-데이터 원본을 만든 후 DirectQuery 연결 또는 예약된 새로 고침을 통해 사용할 수 있습니다.
+데이터 원본을 만든 후 DirectQuery 연결 또는 예약된 새로 고침을 통해 사용할 수 있습니다. [예약된 새로 고침 구성](refresh-scheduled-refresh.md)에서 예약된 새로 고침을 설정하는 방법에 대해 알아볼 수 있습니다.
 
 > [!NOTE]
->서버 및 데이터베이스 이름은 온-프레미스 데이터 게이트웨이 내에서 Power BI Desktop 및 데이터 원본 간에 일치해야 합니다.
+>서버 및 데이터베이스 이름은 온-프레미스 데이터 게이트웨이에 추가된 Power BI Desktop 및 데이터 원본 간에 일치해야 합니다.
 
-게이트웨이에서 데이터 세트 및 데이터 원본 간의 링크는 서버 이름 및 데이터베이스 이름을 기반으로 합니다. 해당 이름은 서로 일치해야 합니다. 예를 들어 Power BI Desktop에서 서버 이름에 대한 IP 주소를 제공하는 경우 게이트웨이 구성에서 데이터 원본에 대한 IP 주소를 사용해야 합니다. Power BI Desktop에서 *SERVER\INSTANCE*를 사용하는 경우 게이트웨이에 대해 구성된 데이터 원본에서 동일한 것을 사용해야 합니다.
+게이트웨이에서 데이터 세트 및 데이터 원본 간의 링크는 서버 이름 및 데이터베이스 이름을 기반으로 합니다. 해당 이름은 서로 일치해야 합니다. 예를 들어 Power BI Desktop에서 서버 이름에 대한 IP 주소를 제공하는 경우 게이트웨이 구성에서 데이터 원본에 대한 IP 주소를 사용해야 합니다. Power BI Desktop에서 *SERVER\INSTANCE* 를 사용하는 경우 게이트웨이에 대해 구성된 데이터 원본에서 동일한 것을 사용해야 합니다.
 
 게이트웨이에서 구성된 데이터 원본의 **사용자** 탭에 나열되고 서버 및 데이터베이스 이름이 일치하는 경우 예약된 새로 고침으로 사용하기 위한 옵션으로 게이트웨이가 표시됩니다.
 
@@ -101,7 +105,7 @@ OAuth는 온-프레미스 데이터 게이트웨이를 통해 사용자 지정 �
 
 ## <a name="manage-users"></a>사용자 관리
 
-게이트웨이에 데이터 원본을 추가한 후 사용자 및 이메일 사용 보안 그룹에 특정 데이터 원본(전체 게이트웨이가 아님)에 대한 액세스 권한을 부여합니다. 데이터 원본 사용자 목록은 데이터 원본의 데이터를 포함하는 보고서를 게시할 수 있는 사용자만 제어합니다. 보고서 소유자는 대시보드, 콘텐츠 팩 또는 앱을 만든 다음, 이 항목을 다른 사용자와 공유할 수 있습니다.
+게이트웨이에 데이터 원본을 추가한 후 사용자 및 이메일 사용 보안 그룹에 특정 데이터 원본(전체 게이트웨이가 아님)에 대한 액세스 권한을 부여합니다. 데이터 원본의 액세스 목록은 데이터 원본의 데이터를 포함하는 보고서를 게시할 수 있는 사용자만 제어합니다. 보고서 소유자는 대시보드, 콘텐츠 팩 또는 앱을 만든 다음, 이 항목을 다른 사용자와 공유할 수 있습니다.
 
 사용자 및 보안 그룹에게 게이트웨이에 대한 관리 권한을 부여할 수도 있습니다.
 
@@ -110,15 +114,11 @@ OAuth는 온-프레미스 데이터 게이트웨이를 통해 사용자 지정 �
 
 ### <a name="add-users-to-a-data-source"></a>데이터 원본에 사용자 추가
 
-1. Power BI 서비스의 오른쪽 위 모서리에서 기어 아이콘 ![설정 기어 아이콘](media/service-gateway-data-sources/icon-gear.png) > **게이트웨이 관리**를 선택합니다.
+1. Power BI 서비스 페이지 머리글에서 **설정** ![설정 톱니 바퀴 아이콘](media/service-gateway-data-sources/icon-gear.png) > **게이트웨이 관리** 를 선택합니다.
 
 2. 사용자를 추가할 데이터 원본을 선택합니다.
 
-3. **사용자**를 선택하고 선택한 데이터 원본에 대한 액세스 권한을 부여하려는 조직 내 사용자를 입력합니다. 예를 들어 다음 화면에서는 Maggie와 Adam을 추가하고 있습니다.
-
-    ![사용자 탭](media/service-gateway-data-sources/users-tab.png)
-
-4. **추가**를 선택하면 추가된 구성원의 이름이 상자에 표시됩니다.
+3. **사용자** 를 선택한 후 선택한 데이터 원본에 액세스할 조직의 사용자 및 메일 사용 보안 그룹을 입력합니다. **추가** 를 선택하면 추가된 구성원의 이름이 이 데이터 원본이 사용되는 보고서를 게시할 수 있는 사용자의 목록에 추가됩니다.
 
     ![사용자 추가](media/service-gateway-data-sources/add-user.png)
 

@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/12/2020
+ms.date: 11/01/2020
 ms.author: painbar
-ms.openlocfilehash: d2e229dda05c1761fdaa5c7336c0eca5db538e46
-ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
+ms.openlocfilehash: 83a280b94a6db937133e0d7ab1e6d7ad64af06f4
+ms.sourcegitcommit: 29cafa1602efb56cfa8dbd0010dd04ad3fcdd02c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92026051"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "93355937"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -24,6 +24,10 @@ ms.locfileid: "92026051"
 
 >[!NOTE]
 >**Windows 10 Mobile을 사용하는 휴대폰** 용 Power BI 모바일 앱 지원은 2021년 3월 16일에 중단될 예정입니다. [자세히 알아보기](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
+
+## <a name="november-2020"></a>2020년 11월
+### <a name="maximize-the-view-with-full-screen-mode-android-tablets"></a>전체 화면 모드를 사용하여 뷰 최대화(Android 태블릿)
+Android 태블릿용 모바일 앱에 앱 머리글 및 바닥글을 제거하여 콘텐츠를 볼 수 있는 최대 공간을 제공하는 새 단추를 추가했습니다. 화면 오른쪽 위 모서리에서 전체 화면 토글 단추를 탭하여 모드 간에 전환합니다.
 
 ## <a name="october-2020"></a>2020년 10월
 ### <a name="automatic-page-refresh-is-now-supported-windows"></a>이제 자동 페이지 새로 고침이 지원됩니다(Windows).
@@ -771,9 +775,9 @@ Power BI 모바일 앱의 알림 센터에서는 사용자와 공유한 새 데�
 ### <a name="may-2016"></a>2016년 5월
 #### <a name="ios-devices-and-android-phones"></a>iOS 디바이스 및 Android 휴대폰
 * **QR 코드** 는 **보고서에** 도 제공됩니다. 관련된 보고서도 직접 이동하려면 탐색 또는 검색이 필요 없이 Power BI 앱을 사용하여 코드를 스캔합니다.
-* SQL Server 2016 Reporting Services에 대한 **데이터 관리 개선** : 디바이스의 로드 시간 및 데이터 사용이 감소되었습니다.
-* **SQL Server 2016 테마가 지정된 모바일 보고서** : 디바이스에서 모바일 보고서에 대한 테마를 확인합니다.
-* **지역 필터링** : 현재 위치에 따라 보고서를 필터링합니다.
+* SQL Server 2016 Reporting Services에 대한 **데이터 관리 개선**: 디바이스의 로드 시간 및 데이터 사용이 감소되었습니다.
+* **SQL Server 2016 테마가 지정된 모바일 보고서**: 디바이스에서 모바일 보고서에 대한 테마를 확인합니다.
+* **지역 필터링**: 현재 위치에 따라 보고서를 필터링합니다.
 
 ### <a name="april-2016"></a>2016년 4월
 자세한 내용은 [4월 Power BI Mobile Apps 블로그](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-update-april-2016/)를 참조하세요.

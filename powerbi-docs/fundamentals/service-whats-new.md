@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 0f4b84067389e93de0e5c5c2b5008b08cd78151f
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 3052119ed4abd4e752ab14a5eb9a2087148f4997
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525205"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397073"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 서비스의 새로운 기능
 **Power BI 서비스** 의 알려진 문제 및 최근에 릴리스된 기능에 대해서는 이 페이지를 확인하세요. 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -97,7 +97,7 @@ ms.locfileid: "91525205"
 * 서비스에서 Power BI 보고서에 [주석 달기](https://powerbi.microsoft.com/blog/announcing-report-commenting-for-power-bi-service-and-mobile/)
 
 ### <a name="april-2019"></a>2019년 4월
-* Power BI [데이터 흐름](../transform-model/service-dataflows-overview.md)의 일반 공급.
+* Power BI [데이터 흐름](../transform-model/dataflows/dataflows-introduction-self-service.md)의 일반 공급.
 * 새 작업 영역 환경의 일반 공급입니다.
 * 프랑스 및 대한민국의 새 Power BI 지역.
 * 업데이트된 질문 및 답변 대시보드 환경.
@@ -120,12 +120,12 @@ ms.locfileid: "91525205"
 * 관리 포털의 대량 작업입니다.
 * PPT 및 PDF에서 필터링된 내보내기
 * 관리 포털에서 [도움말 및 지원 설정](https://powerbi.microsoft.com/blog/tailoring-help-and-support-for-power-bi-users/)
-* [데이터 흐름](../transform-model/service-dataflows-overview.md)에 대한 데이터 계보 환경
+* [데이터 흐름](../transform-model/dataflows/dataflows-introduction-self-service.md)에 대한 데이터 계보 환경
 * 관리 포털에서 인증된 Power BI 시각적 개체 설정
 
 ### <a name="january-2019"></a>2019년 1월
 * 내부 포털 또는 웹 사이트의 [보안 Power BI 보고서 포함](../collaborate-share/service-embed-report-spo.md).
-* [데이터 흐름](../transform-model/service-dataflows-overview.md) 편집기를 새 커넥터로 업데이트하고 네이티브 SQL 쿼리 및 파워 쿼리 온라인 변환을 지원합니다.
+* [데이터 흐름](../transform-model/dataflows/dataflows-introduction-self-service.md) 편집기를 새 커넥터로 업데이트하고 네이티브 SQL 쿼리 및 파워 쿼리 온라인 변환을 지원합니다.
 * Power BI 서비스의 [개인 책갈피](https://powerbi.microsoft.com/blog/announcing-personal-bookmarks-in-the-power-bi-service/).
 * 이메일 구독을 통한 시간 기반 일정.
 
@@ -133,11 +133,11 @@ ms.locfileid: "91525205"
 ### <a name="december-2018"></a>2018년 12월
 * Power BI 홈의 AI 기반 [권장 앱](https://powerbi.microsoft.com/blog/announcing-ai-powered-app-recommendations-getting-the-right-insights-to-the-right-people/).
 * 관리 포털의 [작업 영역 관리](https://powerbi.microsoft.com/blog/workspace-management-in-the-admin-portal/).
-* [데이터 흐름](../transform-model/service-dataflows-overview.md)의 Power BI 데이터 흐름 및 Azure Data Lake Storage Gen2 미리 보기 통합.
+* [데이터 흐름](../transform-model/dataflows/dataflows-introduction-self-service.md)의 Power BI 데이터 흐름 및 Azure Data Lake Storage Gen2 미리 보기 통합.
 * Power BI 솔루션 템플릿이 오픈 소스가 되었습니다.
 
 ### <a name="november-2018"></a>2018년 11월
-* [데이터 흐름](../transform-model/service-dataflows-overview.md) 공개 미리 보기로 사용 가능한 Power BI 데이터 준비.
+* [데이터 흐름](../transform-model/dataflows/dataflows-introduction-self-service.md) 공개 미리 보기로 사용 가능한 Power BI 데이터 준비.
 * Power BI Premium의 [페이지를 매긴 보고서](../paginated-reports/paginated-reports-report-builder-power-bi.md) 공개 미리 보기.
 * [용량 모니터링 앱](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/)의 메모리에 있는 데이터 세트의 데이터 크기 및 수.
 
@@ -283,46 +283,46 @@ ms.locfileid: "91525205"
 * [텍스트 열을 도구 설명으로](https://powerbi.microsoft.com/blog/tech-tip-thursday-displaying-text-columns-in-tool-tips/) 표시합니다.
 
 ### <a name="july-2016"></a>2016년 7월
-***미리 보기에서 RLS 졸업생***
+**미리 보기에서 RLS 졸업생***
 
-* RLS(행 수준 보안)를 통해 액세스하는 사용자에 따라 데이터 액세스를 제한할 수 있습니다. 최근에 Power BI Desktop의 역할 및 규칙을 노출하여 RLS를 구성하는 과정을 간소화했습니다. 오늘 RLS는 이제 일반적으로 모든 Power BI Pro 사용자에게 사용 가능하게 되었음을 알려 드립니다.
+RLS(행 수준 보안)를 통해 액세스하는 사용자에 따라 데이터 액세스를 제한할 수 있습니다. 최근에 Power BI Desktop의 역할 및 규칙을 노출하여 RLS를 구성하는 과정을 간소화했습니다. 오늘 RLS는 이제 일반적으로 모든 Power BI Pro 사용자에게 사용 가능하게 되었음을 알려 드립니다.
 
-***데이터 분류***
+**데이터 분류***
 
-* 이제 어떤 수준의 보안을 사용해야 하는지에 대한 대시보드 보기의 인식을 높이도록 회사의 IT 부서에서 정의한 분류로 대시보드를 태그할 수 있습니다.
+이제 어떤 수준의 보안을 사용해야 하는지에 대한 대시보드 보기의 인식을 높이도록 회사의 IT 부서에서 정의한 분류로 대시보드를 태그할 수 있습니다.
 
-***Excel에서 온-프레미스 데이터 분석***
+**Excel에서 온-프레미스 데이터 분석***
 
-* Excel에서 분석 기능은 온-프레미스 데이터 세트를 지원하도록 확장되었습니다. Excel에서 분석할 수 있도록 온-프레미스 데이터 세트에 안전한 직접 연결을 설정합니다. 또한 관리자가 온-프레미스 원본에 대한 Excel에서 분석 기능을 해제하기 위한 설정을 도입했습니다.  
+Excel에서 분석 기능은 온-프레미스 데이터 세트를 지원하도록 확장되었습니다. Excel에서 분석할 수 있도록 온-프레미스 데이터 세트에 안전한 직접 연결을 설정합니다. 또한 관리자가 온-프레미스 원본에 대한 Excel에서 분석 기능을 해제하기 위한 설정을 도입했습니다.  
 
 자세한 내용은 [Power BI 팀 블로그를 방문](https://powerbi.microsoft.com/blog/power-bi-july-update-for-service-and-mobile/)하세요.
 
 ### <a name="june-2016"></a>2016년 6월
-***Quick Insights (신속한 정보 활용)***
+**빠른 인사이트***
 
-* 빠른 인사이트가 복잡한 필터와 함께 작동: 단일 타일에 대해 범위가 지정된 빠른 인사이트가 이제 복잡한 필터를 이해하게 되었습니다.
+빠른 인사이트가 복잡한 필터와 함께 작동: 단일 타일에 대해 범위가 지정된 빠른 인사이트가 이제 복잡한 필터를 이해하게 되었습니다.
 
 자세한 내용은 [Power BI 팀 블로그를 방문](https://powerbi.microsoft.com/blog/smarter-auto-generated-insights-with-complex-filters/)하세요.
 
 ### <a name="may-2016"></a>2016년 5월
-***데이터 가져오기***
+**데이터 가져오기***
 
-* 파일 크기 제한이 1GB로 증가: Excel 통합 문서 및 Power BI Desktop 파일의 파일 크기 제한이 1GB까지 증가되었습니다.
+파일 크기 제한이 1GB로 증가: Excel 통합 문서 및 Power BI Desktop 파일의 파일 크기 제한이 1GB까지 증가되었습니다.
 * 엔터프라이즈 게이트웨이 및 다른 게이트웨이 업데이트로 설정된 SSAS 서버 찾기: 이제 엔터프라이즈 게이트웨이를 설정하면 회사의 사용자는 데이터 가져오기 페이지를 통해 Power BI 서비스에서 이러한 서버에 액세스할 수 있습니다. 또한 게이트웨이와 함께 Analysis Services를 사용하는 경우, 게이트웨이를 사용하여 UPN 매핑 규칙을 만드는 SAP 비즈니스 웨어하우스 서버의 데이터를 포함하는 데이터 세트에 대한 새로 고침 지원을 추가했습니다.
 
-***행 수준 보안(RLS)***
+**RLS(행 수준 보안)** *
 
-* Azure AD(Azure Active Directory) 그룹 지원: 이제 사용자는 Azure AD 그룹(보안 그룹)을 역할에 할당할 수 있습니다. 이렇게 하면 한 번에 쉽게 역할을 사용자의 큰 그룹에 할당할 수 있습니다.
+Azure AD(Azure Active Directory) 그룹 지원: 이제 사용자는 Azure AD 그룹(보안 그룹)을 역할에 할당할 수 있습니다. 이렇게 하면 한 번에 쉽게 역할을 사용자의 큰 그룹에 할당할 수 있습니다.
 * [제 위치에 RLS가 있는 데이터에서 지원하는 보고서와 함께 RLS 역할을 테스트](../admin/service-admin-rls.md#validate-the-roles-within-power-bi-desktop): 데이터 세트를 특정 역할로 테스트할 수 있는 RLS 미리 보기에 기능을 추가했습니다. 어떤 사용자가 자신의 대시보드를 가지기 전에 예상대로 작동하는지 확인할 수 있습니다.
 * 직접 쿼리를 기반으로 RLS를 정의하고 클라우드 모델에 적용: 이제 직접 쿼리 데이터 원본에 대해 RLS 규칙을 만들어 적용할 수 있습니다.
 
-***대시보드***
+**대시보드***
 
-* 대시보드를 즐겨찾기에 추가: 대시보드를 최대한 이용할 수 있도록 대시보드를 즐겨찾기에 추가하여 모든 작업 영역에서 쉽게 액세스할 수 있는 방법을 추가했습니다.
+대시보드를 즐겨찾기에 추가: 대시보드를 최대한 이용할 수 있도록 대시보드를 즐겨찾기에 추가하여 모든 작업 영역에서 쉽게 액세스할 수 있는 방법을 추가했습니다.
 
-***Excel에서 분석***
+**Excel에서 분석***
 
-* 향상된 다운로드 환경: 새로운 대화 환경을 통해 Excel의 분석 기능에 쉽게 업데이트를 다운로드합니다.
+향상된 다운로드 환경: 새로운 대화 환경을 통해 Excel의 분석 기능에 쉽게 업데이트를 다운로드합니다.
 * RLS 지원: RLS가 설정되면 사용자가 Excel에서 데이터를 분석할 때 데이터에 적용하는 규칙이 적용됩니다.
 * 온-프레미스 Analysis Services 데이터베이스의 향상된 오류 메시지 제공 기능: 이전에는 지원되지 않는 데이터 원본에 대해 Excel에서 분석을 선택한 경우, ODC 파일을 다운로드하고 Power BI에 연결한 이후까지 오류 메시지가 나타나지 않습니다. 지원되지 않는 데이터 소스에 대해 Excel에서 분석을 선택하면, 해당 데이터 소스는 아직 지원되지 않음을 알려주는 메시지가 나타납니다.
 
@@ -351,49 +351,49 @@ ms.locfileid: "91525205"
 
 **2016년 4월 14일**
 
-***엔터프라이즈***
+엔터프라이즈*
 
-* [RLS에 대한 콘텐츠 팩 지원](../admin/service-admin-rls.md)(미리 보기): RLS가 콘텐츠 팩의 일부로 배포된 해당 대시보드와 보고서에 정의된 경우 해당 콘텐츠 팩에 보안 규칙을 적용합니다.
+[RLS에 대한 콘텐츠 팩 지원](../admin/service-admin-rls.md)(미리 보기): RLS가 콘텐츠 팩의 일부로 배포된 해당 대시보드와 보고서에 정의된 경우 해당 콘텐츠 팩에 보안 규칙을 적용합니다.
 
-***대시보드***
+**대시보드***
 
-* [Vimeo 비디오 타일](../create-reports/service-dashboard-add-widget.md):  대시보드에서 Vimeo 플레이어가 포함된 타일을 추가합니다.
+[Vimeo 비디오 타일](../create-reports/service-dashboard-add-widget.md):  대시보드에서 Vimeo 플레이어가 포함된 타일을 추가합니다.
 
-***Excel에서 분석***
+**Excel에서 분석***
 
-* 모든 사용자가 사용 가능한 [Excel에서 분석](../collaborate-share/service-analyze-in-excel.md): Excel에서 Power BI 데이터 모델에 액세스하는 기능은 할당된 라이선스에 상관 없이 모든 사용자에게 확장되었습니다.
+모든 사용자가 사용 가능한 [Excel에서 분석](../collaborate-share/service-analyze-in-excel.md): Excel에서 Power BI 데이터 모델에 액세스하는 기능은 할당된 라이선스에 상관없이 모든 사용자에게 확장되었습니다.
 * 다중 사용자 계정 환경 개선: 둘 이상의 Power BI 사용자 계정이 있는 경우 더 쉽게 로그인할 수 있습니다.
 
 자세한 내용은 [Power BI 팀 블로그를 방문](https://powerbi.microsoft.com/blog/power-bi-service-april-update-expressroute-for-power-bi/)하세요.
 
 **2016년 3월 31일** 많은 업데이트가 Microsoft Data Insights Summit에서 발표되었습니다.
 
-***대시보드***
+대시보드*
 
-* 추천 대시보드: 가장 관심있는 대시보드에 도달하기가 쉬워집니다.
+추천 대시보드: 가장 관심 있는 대시보드에 도달하기가 쉬워집니다.
 * 필터 대시보드 목록: 모두 표시, 만든 콘텐츠 표시, 공유된 콘텐츠 표시 기능이 있습니다.
 
-***엔터프라이즈 기능***
+**엔터프라이즈 기능***
 
-* 관리자 사용 현황 보고: Power BI 관리 센터에 사용 현황 보고서를 추가했습니다.
+관리자 사용 현황 보고: Power BI 관리 센터에 사용 현황 보고서를 추가했습니다.
 * 행 수준 보안: Power BI 데이터 세트에 사용 권한을 설정할 수 있는 미리 보기 기능입니다.
 * 데이터 내보내기 사용 안 함: 테넌트의 사용자는 더 이상 타일 및 시각적 데이터를 .csv 파일로 내보낼 수 없습니다.
 
-***질문 및 답변***
+**질문 및 답변***
 
-* “is”에 대한 자동 완성: 질문 및 답변에서는 “is” 뒤에 열 이름을 입력하면 값을 제안합니다.
+“is”에 대한 자동 완성: 질문 및 답변에서는 “is” 뒤에 열 이름을 입력하면 값을 제안합니다.
 
-***모바일***
+**모바일***
 
-* Apple Watch의 KPI: Power BI 앱을 열 필요 없이 KPI 및 카드 타일을 모니터링합니다.
+Apple Watch의 KPI: Power BI 앱을 열 필요 없이 KPI 및 카드 타일을 모니터링합니다.
 
-***Excel***
+***Excel** _
 
-* Excel에서 분석: Excel에 Power BI 데이터 모델을 연결하고 Power BI 대신 Excel 내에서 분석을 수행합니다.
+Excel에서 분석: Excel에 Power BI 데이터 모델을 연결하고 Power BI 대신 Excel 내에서 분석을 수행합니다.
 
-***기타***
+**기타***
 
-* 오스트레일리아의 Power BI: 오스트레일리아의 모든 사용자(조직 또는 개인)는 이제 powerbi.microsoft.com에서 Power BI에 등록할 수 있습니다.
+오스트레일리아의 Power BI: 오스트레일리아의 모든 사용자(조직 또는 개인)는 이제 powerbi.microsoft.com에서 Power BI에 등록할 수 있습니다.
 * 언어 설정: 자동 언어 검색을 재정의하고 Power BI에 언어를 설정합니다.
 
 자세한 내용은 [Power BI 팀 블로그를 방문](https://powerbi.microsoft.com/blog/power-bi-service-march-update-part-two/)하세요.
@@ -402,19 +402,19 @@ ms.locfileid: "91525205"
 
 이번 달에 대시보드, 신속한 정보 활용 및 질문 및 답변을 업데이트했습니다.
 
-***대시보드***
+대시보드*
 
-* 전체 화면 모드: 먼저 전체 화면 모드를 종료하지 않고 인쇄
+전체 화면 모드: 먼저 전체 화면 모드를 종료하지 않고 인쇄
 * 전체 화면 모드: 타일을 확장하여 전체 캔버스를 채우고 **너비에 맞춤** 을 선택하여 남는 공백 제거
 * 타일 흐름을 사용하여 캔버스의 왼쪽 위 모서리에 타일을 자동으로 맞춥니다.
 
-***Quick Insights (신속한 정보 활용)***
+**빠른 인사이트***
 
-* 추세 및 상관 관계 인사이트에는 데이터의 패턴을 쉽게 확인할 수 있도록 하는 추세선이 제공됩니다.
+추세 및 상관관계 인사이트에는 데이터의 패턴을 쉽게 확인할 수 있도록 하는 추세선이 제공됩니다.
 
-***질문 및 답변***
+**질문 및 답변***
 
-* 질문 및 답변에 계기 및 영역 차트 지정할 수 있음
+질문 및 답변에 계기 및 영역 차트 지정할 수 있음
 * 질문 및 답변에 향상된 자동 완성 - 몇 글자만 입력하면 곧 질문 및 답변이 시각적 개체를 자동으로 완성하고 제안하기 시작
 
 자세한 내용은 [Power BI 팀 블로그를 방문](https://powerbi.microsoft.com/blog/power-bi-service-march-update/)하세요.
@@ -423,31 +423,31 @@ ms.locfileid: "91525205"
 
 오늘 가장 많은 요청을 받은 여러 기능을 발표했습니다. [블로그 게시물 읽기](https://powerbi.microsoft.com/blog/power-bi-february-service-update/).
 
-***공유***
+공유*
 
-* 조직 외부 사용자와 공유
+조직 외부 사용자와 공유
 * 대시보드에 대한 액세스 요청
 
-***관리 포털***
+**관리 포털***
 
-* Microsoft 365 관리 센터에 대한 링크를 통해 간편한 사용자 관리
+Microsoft 365 관리 센터에 대한 링크를 통해 간편한 사용자 관리
 * 웹에 게시를 사용하지 않도록 설정하는 기능
 * 사용자가 전체 조직에 콘텐츠 팩을 게시하지 않도록 방지
 * 외부 사용자에게 콘텐츠 공유하지 않도록 설정하는 기능
 
-***신속한 정보 활용***
+**빠른 인사이트***
 
-* Power BI Desktop 파일을 게시할 때 신속한 정보 활용
+Power BI Desktop 파일을 게시할 때 빠른 인사이트 활용
 
-***대시보드***
+**대시보드***
 
-* 대시보드에 웹 콘텐츠 추가(위젯을 통해)
+대시보드에 웹 콘텐츠 추가(위젯을 통해)
 * 대시보드에 동영상 콘텐츠(위젯을 통해)
 * 대시보드에서 확대/축소
 
-***연결***
+**연결***
 
-* URL을 통해 팀 SharePoint 사이트의 파일에 연결
+URL을 통해 팀 SharePoint 사이트의 파일에 연결
 
 자세한 내용은 [Power BI 팀 블로그를 방문](https://powerbi.microsoft.com/blog/power-bi-february-service-update/)하세요.
 
@@ -466,37 +466,37 @@ ms.locfileid: "91525205"
 
 Power BI 팀은 바쁜 연휴를 보냈습니다. 자세한 내용은 [Power BI 팀 블로그를 방문](https://powerbi.microsoft.com/blog/power-bi-service-update-0106/)하세요.
 
-***대시보드***
+대시보드*
 
-* 타일 데이터 내보내기
+타일 데이터 내보내기
 * 대시보드에 이미지 또는 텍스트 상자 위젯 추가
 * 대시보드 인쇄
 * 타일의 시간 새로 고침
 * 대시보드 타일의 도구 설명
 
-***협업***
+**협업***
 
-* 공유 대시보드 알림
+공유 대시보드 알림
 * 공유 또는 조직 대시보드 소유자에게 문의
 
-***보고서***
+**보고서***
 
-* 현재 보고서 페이지 인쇄
+현재 보고서 페이지 인쇄
 * 보고서 시각적 데이터 내보내기
 
-***연결***
+**연결***
 
-* SharePoint 팀 사이트의 파일에 연결
+SharePoint 팀 사이트의 파일에 연결
 
-***Excel 보고서***
+**Excel 보고서***
 
-* Excel 데스크톱에서 Excel 보고서 열기
+Excel 데스크톱에서 Excel 보고서 열기
 * Excel 차트 고정
 * Excel 타일의 형식 개선 사항
 
-***기타***
+**기타***
 
-* 브라질의 Power BI
+브라질의 Power BI
 * 히브리어 및 아랍어 지원
 
 자세한 내용은 [Power BI 팀 블로그를 방문](https://powerbi.microsoft.com/blog/power-bi-service-update-0106/)하세요.

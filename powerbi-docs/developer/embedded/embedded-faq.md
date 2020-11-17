@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 85622b457d1c2eda0af51e0c7190d2691c259a82
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 1166f51c21e765e5710d33ad45a47057ea773bd8
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916501"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397441"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded에 대한 질문과 대답
 
@@ -270,7 +270,7 @@ Power BI Embedded는 [내셔널 클라우드](embed-sample-for-customers-nationa
 
 ### <a name="what-is-power-bi-workspace-collection"></a>Power BI 작업 영역 컬렉션이란?
 
-**Power BI 작업 영역 컬렉션** ( **Power BI Embedded** 버전 1)은 **Power BI 작업 영역 컬렉션** Azure 리소스에 기반한 솔루션입니다. 이 솔루션을 사용하면 애플리케이션을 Power BI에 대해 인증하는 데 **Power BI 작업 영역 컬렉션** 솔루션의 Power BI 콘텐츠, 전용 API 및 작업 영역 컬렉션 키를 사용하는 고객의 **Power BI Embedded** 애플리케이션을 만들 수 있습니다.
+**Power BI 작업 영역 컬렉션**( **Power BI Embedded** 버전 1)은 **Power BI 작업 영역 컬렉션** Azure 리소스에 기반한 솔루션입니다. 이 솔루션을 사용하면 애플리케이션을 Power BI에 대해 인증하는 데 **Power BI 작업 영역 컬렉션** 솔루션의 Power BI 콘텐츠, 전용 API 및 작업 영역 컬렉션 키를 사용하는 고객의 **Power BI Embedded** 애플리케이션을 만들 수 있습니다.
 
 ### <a name="can-i-migrate-from-power-bi-workspace-collection-to-power-bi-embedded"></a>Power BI 작업 영역 컬렉션에서 Power BI Embedded로 마이그레이션할 수 있나요?
 
@@ -312,12 +312,12 @@ Power BI Embedded는 [내셔널 클라우드](embed-sample-for-customers-nationa
 
 ### <a name="what-is-the-embedding-setup-tool"></a>포함 설정 도구란 무엇인가요?
 
-[포함 설정 도구](https://aka.ms/embedsetup)를 사용하면 샘플 애플리케이션을 신속하게 시작하고 다운로드하여 Power BI에서 포함을 시작할 수 있습니다.
+[포함 설정 도구](https://app.powerbi.com/embedsetup)를 사용하면 샘플 애플리케이션을 신속하게 시작하고 다운로드하여 Power BI에서 포함을 시작할 수 있습니다.
 
 ### <a name="which-solution-should-i-choose"></a>어떤 솔루션을 선택해야 하나요?
 
-* [고객에 대한 콘텐츠를 포함하면](embedding.md#embedding-for-your-customers) Power BI에 대한 계정이 없는 사용자에게 대시보드 및 보고서를 포함하는 기능을 제공합니다. [고객에 대한 콘텐츠 포함](https://aka.ms/embedsetup/AppOwnsData) 솔루션을 실행합니다.
-* [조직에 대한 콘텐츠를 포함하면](embedding.md#embedding-for-your-organization) Power BI 서비스를 확장할 수 있습니다. [조직에 대한 콘텐츠 포함](https://aka.ms/embedsetup/UserOwnsData) 솔루션을 실행합니다.
+* [고객에 대한 콘텐츠를 포함하면](embedding.md#embedding-for-your-customers) Power BI에 대한 계정이 없는 사용자에게 대시보드 및 보고서를 포함하는 기능을 제공합니다. [포함 설정 도구](https://app.powerbi.com/embedsetup)에서 ‘고객에 대한 콘텐츠 포함’ 솔루션을 실행합니다.
+* [조직에 대한 콘텐츠를 포함하면](embedding.md#embedding-for-your-organization) Power BI 서비스를 확장할 수 있습니다. [포함 설정 도구](https://app.powerbi.com/embedsetup)에서 ‘조직에 대한 콘텐츠 포함’ 솔루션을 실행합니다.
 
 ### <a name="ive-downloaded-the-sample-app-which-solution-do-i-choose"></a>샘플 앱을 다운로드했다면 어떤 솔루션을 선택해야 하나요?
 

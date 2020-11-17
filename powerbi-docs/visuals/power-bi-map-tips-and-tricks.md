@@ -1,21 +1,21 @@
 ---
 title: 지도(Bing 지도 통합 포함)의 팁과 힌트
 description: 'Power BI Map 시각화, 시각적 개체, 위치, 경도 및 위도, Bing Maps로 작동하는 방법 등에 대한 팁과 요령. '
-author: mihart
-ms.reviewer: rien
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: ajTPGNpthcg
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/05/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0c28d95c5275f5778b1ae646b8e5fb65489eb072
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: ec2e097dd829760c331ff8f045af00176b0c302b
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860121"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93411869"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI Map 시각화를 위한 팁과 힌트
 
@@ -50,16 +50,16 @@ Power BI 서비스 및 Power BI Desktop은 지도 시각화를 만드는 데 필
 
 **1. Power BI Desktop에 지리적 필드 재분류**
 
-Power BI Desktop에서 데이터 필드에 *데이터 범주*를 설정하면 필드가 올바르게 지오코딩되도록 보장할 수 있습니다. 데이터 뷰에서 원하는 열을 선택합니다. 리본에서 **모델링** 탭을 선택한 다음, **데이터 범주**를 **주소**, **도시**, **대륙**, **국가/지역**, **국가**, **우편 번호**, **시**/**도**로 설정합니다. 이러한 데이터 범주는 Bing에서 날짜를 올바르게 인코딩하는 데 도움이 됩니다. 자세히 알아보려면 [Power BI Desktop의 데이터 분류](../transform-model/desktop-data-categorization.md)를 참조하세요. SQL Server Analysis Services에 라이브로 연결하는 경우 [SSDT(SQL Server Data Tools)](/sql/ssdt/download-sql-server-data-tools-ssdt)를 사용하여 Power BI 외부에서 데이터 분류를 설정해야 합니다.
+Power BI Desktop에서 데이터 필드에 *데이터 범주* 를 설정하면 필드가 올바르게 지오코딩되도록 보장할 수 있습니다. 데이터 뷰에서 원하는 열을 선택합니다. 리본에서 **모델링** 탭을 선택한 다음, **데이터 범주** 를 **주소**, **도시**, **대륙**, **국가/지역**, **국가**, **우편 번호**, **시**/**도** 로 설정합니다. 이러한 데이터 범주는 Bing에서 날짜를 올바르게 인코딩하는 데 도움이 됩니다. 자세히 알아보려면 [Power BI Desktop의 데이터 분류](../transform-model/desktop-data-categorization.md)를 참조하세요. SQL Server Analysis Services에 라이브로 연결하는 경우 [SSDT(SQL Server Data Tools)](/sql/ssdt/download-sql-server-data-tools-ssdt)를 사용하여 Power BI 외부에서 데이터 분류를 설정해야 합니다.
 
 **2. 둘 이상의 위치 열을 사용합니다.**     
- 경우에 따라서는 매핑에 대한 데이터 범주를 설정하는 것이 Bing에서 의도를 올바르게 추측하는 데 부족할 수 있습니다. 여러 국가나 지역에서는 위치가 존재하기 때문에 일부 지정이 모호해집니다. 예를 들어, 영국, 펜실베니아, 뉴욕에 ***사우샘프턴***이 있습니다.
+ 경우에 따라서는 매핑에 대한 데이터 범주를 설정하는 것이 Bing에서 의도를 올바르게 추측하는 데 부족할 수 있습니다. 여러 국가나 지역에서는 위치가 존재하기 때문에 일부 지정이 모호해집니다. 예를 들어, 영국, 펜실베니아, 뉴욕에 ‘사우샘프턴’이 있습니다.
 
 Power BI는 Bing의 [구조화되지 않은 URL 템플릿 서비스](/bingmaps/rest-services/locations/find-a-location-by-address)를 사용하여 국가에 대한 주소 값 집합에 따라 위도 및 경도 좌표를 얻습니다. 데이터에 위치 데이터가 충분하지 않은 경우 그러한 열을 추가하고 적절하게 분류합니다.
 
  예를 들어 *도시* 열만 있는 경우 Bing에서 지오코딩하기 어려울 수 있습니다. 추가적으로 *지역* 열을 추가하여 위치를 명확하게 합니다.  경우에 따라 데이터 세트에 둘 이상의 위치 열만 추가하면 됩니다(이 경우 시/도). 필드 분류를 잊지 마세요. 위 #1을 참조하세요.
 
-각 필드에 하나의 위치 범주만 있는지 확인합니다. 예를 들어 도시 위치 필드는 **뉴욕주 사우샘프턴**이 아니라 **사우샘프턴**이어야 합니다.  그리고 주소 위치 필드는 **1 Microsoft Way, Redmond, WA**가 아니라 **1 Microsoft Way**여야 합니다.
+각 필드에 하나의 위치 범주만 있는지 확인합니다. 예를 들어 도시 위치 필드는 **뉴욕주 사우샘프턴** 이 아니라 ‘사우샘프턴’이어야 합니다.  그리고 주소 위치 필드는 **1 Microsoft Way, Redmond, WA** 가 아니라 **1 Microsoft Way** 여야 합니다.
 
 **3. 특정 위도 및 경도 사용**
 
@@ -69,7 +69,7 @@ Power BI는 Bing의 [구조화되지 않은 URL 템플릿 서비스](/bingmaps/r
 
 **4. 전체 위치 정보가 있는 열에는 장소 범주 사용**
 
-지도에는 지리적 계층을 사용하는 것이 좋지만 전체 지리적 정보가 있는 단일 위치 열을 사용해야 할 경우 데이터 분류를 **장소**로 설정할 수 있습니다. 예를 들어 열의 데이터가 전체 주소(예: 1 Microsoft Way, Redmond Washington 98052)일 경우 이처럼 일반화된 데이터 범주는 Bing에서 최적으로 작동합니다. 
+지도에는 지리적 계층을 사용하는 것이 좋지만 전체 지리적 정보가 있는 단일 위치 열을 사용해야 할 경우 데이터 분류를 **장소** 로 설정할 수 있습니다. 예를 들어 열의 데이터가 전체 주소(예: 1 Microsoft Way, Redmond Washington 98052)일 경우 이처럼 일반화된 데이터 범주는 Bing에서 최적으로 작동합니다. 
 
 ## <a name="in-power-bi-tips-to-get-better-results-when-using-map-visualizations"></a>Power BI: 맵 시각화를 사용할 때 보다 나은 결과를 얻는 팁
 **1. 위도 및 경도 필드 사용(있는 경우)**
@@ -79,7 +79,7 @@ Power BI에서 사용하는 데이터 세트에 위도 및 경도 필드가 있�
 ![위도 및 경도](./media/power-bi-map-tips-and-tricks/pbi_latitude.png) 
 
 ## <a name="use-geo-hierarchies-so-you-can-drill-down-to-different-levels-of-location"></a>서로 다른 "수준"의 위치로 드릴다운할 수 있도록 지역 계층 구조를 사용합니다.
-데이터 세트에 이미 서로 다른 수준의 위치 데이터가 있는 경우 사용자와 동료가 Power BI를 사용하여 *지역 계층*을 만들 수 있습니다. 이를 수행하려면 둘 이상의 필드를 **위치** 버킷으로 끕니다. 이러한 방식을 함께 사용하면 필드는 지역 계층이 됩니다. 아래 예제에서는 다음 지역 필드를 추가했습니다. 국가/지역, 시/도 및 도시. Power BI에서 사용자와 동료는 이 지역 계층 구조를 사용하여 드릴업 및 드릴다운할 수 있습니다.
+데이터 세트에 이미 서로 다른 수준의 위치 데이터가 있는 경우 사용자와 동료가 Power BI를 사용하여 *지역 계층* 을 만들 수 있습니다. 이를 수행하려면 둘 이상의 필드를 **위치** 버킷으로 끕니다. 이러한 방식을 함께 사용하면 필드는 지역 계층이 됩니다. 아래 예제에서는 다음 지역 필드를 추가했습니다. 국가/지역, 시/도 및 도시. Power BI에서 사용자와 동료는 이 지역 계층 구조를 사용하여 드릴업 및 드릴다운할 수 있습니다.
 
   ![위치 필드](./media/power-bi-map-tips-and-tricks/power-bi-hierarchy.png)
 

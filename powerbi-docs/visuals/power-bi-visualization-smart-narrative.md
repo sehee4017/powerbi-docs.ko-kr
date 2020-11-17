@@ -2,19 +2,20 @@
 title: 스마트 설명 자습서
 description: '자습서:  Power BI에서 스마트 설명 요약 시각화 만들기'
 author: aphilip94
-ms.reviewer: aphilip94
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 09/14/2020
+ms.date: 11/06/2020
 ms.author: anphil
+ms.custom: video
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4417d66b4afc3c3848667364bdca47150afdf04a
-ms.sourcegitcommit: 220427415e2fdc9337244b1ee23e734854179d43
+ms.openlocfilehash: 92ebd3015296dc0b6a61f3b7dd2a8b0d163a4383
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91862923"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397211"
 ---
 # <a name="create-smart-narrative-summaries-preview"></a>스마트 설명 요약 만들기(미리 보기)
 
@@ -33,9 +34,12 @@ ms.locfileid: "91862923"
 >
 >![Power BI 옵션을 보여주는 스크린샷. 스마트 설명 시각적 개체 옵션이 선택되어 있습니다.](media/power-bi-visualization-smart-narratives/2.png)
 
-이 자습서를 진행하려면 온라인 판매 시나리오의 [샘플 파일](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Monthly%20Desktop%20Blog%20Samples/2020/2020SU09%20Blog%20Demo%20-%20September.pbix)을 다운로드하세요.
+
 
 ## <a name="get-started"></a>시작 
+Justyna에서 스마트 설명을 사용하는 방법을 확인하고 아래의 자습서를 참조하여 직접 사용해 보세요.  이 자습서를 진행하려면 온라인 판매 시나리오의 [샘플 파일](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Monthly%20Desktop%20Blog%20Samples/2020/2020SU09%20Blog%20Demo%20-%20September.pbix)을 다운로드하세요.
+
+> [!VIDEO https://youtu.be/01UrT-z37sw]
 
 **시각화 창** 에서 **스마트 설명** 아이콘을 선택하여 요약을 자동으로 생성합니다.
 
@@ -95,9 +99,10 @@ ms.locfileid: "91862923"
 - 동적 값 및 조건부 서식 지정 사용(예: 데이터 바인딩된 제목)
 - Azure Analysis Services, 온-프레미스 AS
 - KPI, 카드, 여러 행 카드, 지도, 테이블, 행렬, R 시각적 개체 또는 Python 시각적 개체, 사용자 지정 시각적 개체 
-- 열이 다른 열을 기준으로 그룹화되고 시각적 개체와 데이터 그룹 필드에서 빌드된 시각적 개체의 요약 
+- 열이 다른 열을 기준으로 그룹화되고 시각적 개체와 데이터 그룹 필드에서 빌드된 시각적 개체의 요약 
 - 시각적 개체에서 교차 필터링
 - 동적 값 이름 변경 또는 자동 생성된 동적 값 편집
 - QnA 산술 및 총합계 비율과 같은 즉석 계산이 포함된 시각적 개체 요약 
+- [계산 그룹](/analysis-services/tabular-models/calculation-groups)
    
 

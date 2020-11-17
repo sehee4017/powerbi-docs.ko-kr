@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 9a38533e76fec134d667ae4026258a2a3c07f410
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: e4d1c625d86234c97305c705b2feeead8efacb61
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983117"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397280"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>자습서:  조직의 애플리케이션에 Power BI 콘텐츠 포함
 
@@ -44,7 +44,7 @@ Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.
 
 애플리케이션에 보고서, 대시보드 또는 타일 포함을 시작하기 전에 사용자 환경이 Power BI에 포함을 허용하도록 설정해야 합니다.
 
-[포함 설정 도구](https://aka.ms/embedsetup/UserOwnsData)를 통해 환경을 만들고 보고서를 포함하는 방법을 설명할 수 있는 샘플 애플리케이션을 신속하게 시작하고 다운로드할 수 있습니다. 페이지를 매긴 보고서를 포함하는 경우, 만든 작업 영역에 P1 이상의 용량을 할당해야 합니다.
+[포함 설정 도구](https://app.powerbi.com/embedsetup)를 통해 환경을 만들고 보고서를 포함하는 방법을 설명할 수 있는 샘플 애플리케이션을 신속하게 시작하고 다운로드할 수 있습니다. 페이지를 매긴 보고서를 포함하는 경우, 만든 작업 영역에 P1 이상의 용량을 할당해야 합니다.
 
 환경을 수동으로 설정하도록 선택하면 아래를 계속할 수 있습니다.
 
@@ -52,9 +52,9 @@ Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.
 
 Azure Active Directory로 [애플리케이션을 등록](register-app.md)하여 애플리케이션에서 [Power BI REST API](/rest/api/power-bi/)에 액세스할 수 있도록 합니다. 애플리케이션을 등록하면 애플리케이션의 ID를 설정하고 Power BI REST 리소스에 대한 권한을 지정할 수 있습니다.
 
-**서버 쪽 웹 애플리케이션** 앱 등록 작업을 진행해야 합니다. 서버 사이드 웹 애플리케이션을 등록하여 응용 프로그램 암호를 만듭니다.
-
-Azure에서 애플리케이션을 만들었으면 Azure에서 애플리케이션을 열고 ‘인증’으로 이동한 후 ‘리디렉션 URI’에서 **/Redirect** 를 ‘리디렉션 URI’에 추가합니다.  
+>[!NOTE]
+>고유의 애플리케이션에서 *인증* 으로 이동하여 *리디렉션 URI* 필드에 리디렉션 주소를 삽입합니다.
+리디렉션에 대해 자세히 알아보려면 [Redirect URI (reply URL) restrictions and limitations](https://docs.microsoft.com/azure/active-directory/develop/reply-url)(리디렉션 URI(회신 URL) 제한 사항)를 참조하세요.
 
 ## <a name="set-up-your-power-bi-environment"></a>Power BI 환경 설정
 
