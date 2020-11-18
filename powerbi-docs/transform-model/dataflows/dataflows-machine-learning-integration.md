@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5834230a59f6473624e955827dad36cdd75c04e5
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 703e87847f2f6dfb24040cc6532052b17d39086c
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397510"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668537"
 ---
 # <a name="ai-with-dataflows"></a>데이터 흐름에서 AI 사용
 
@@ -112,7 +112,7 @@ Text Analytics는 기계 학습 분류 알고리즘을 사용하여 0에서 1 �
 
 Power BI의 AutoML을 사용하면 데이터 분석가가 Power BI 기술만 사용하여 간소화된 환경에서 데이터 흐름를 사용해 기계 학습 모델을 빌드할 수 있습니다. ML 모델 생성의 기반이 되는 데이터 과학은 대부분 Power BI를 통해 자동화됩니다. 우수한 품질의 모델이 생성되도록 하고, ML 모델을 만드는 데 사용되는 프로세스를 확인할 수 있게 해주는 기능이 있습니다.
 
-AutoML은 데이터 흐름에 대한 **이진 예측** , **분류** 및 **회귀 모델** 생성을 지원합니다. 이러한 감독된 기계 학습 기술 유형은 이전 관찰에서 알려진 결과를 학습하여 다른 관찰의 결과를 예측할 수 있음을 의미합니다. AutoML 모델 학습을 위한 입력 데이터 세트는 알려진 결과로 **레이블이 지정된** 레코드 집합입니다.
+AutoML은 데이터 흐름에 대한 **이진 예측**, **분류** 및 **회귀 모델** 생성을 지원합니다. 이러한 감독된 기계 학습 기술 유형은 이전 관찰에서 알려진 결과를 학습하여 다른 관찰의 결과를 예측할 수 있음을 의미합니다. AutoML 모델 학습을 위한 입력 데이터 세트는 알려진 결과로 **레이블이 지정된** 레코드 집합입니다.
 
 Power BI의 AutoML은 [Azure Machine Learning](/azure/machine-learning/service/overview-what-is-azure-ml)의 [자동화된 ML](/azure/machine-learning/service/concept-automated-ml)을 통합하여 ML 모델을 만듭니다. 그러나 Power BI에서 AutoML을 사용하기 위해 Azure 구독이 필요하지는 않습니다. ML 모델을 학습 및 호스팅하는 프로세스는 전적으로 Power BI 서비스에 의해 관리됩니다.
 
@@ -272,7 +272,7 @@ Power BI 보고서에서 ML 모델의 인사이트 및 예측을 사용하려면
 
 ![예측 입력](media/service-machine-learning-automated/automated-machine-learning-power-bi-16.png)
 
-이진 예측 모델을 적용하면 보강 출력 엔터티에 **Outcome** , **PredictionScore** , **PredictionExplanation** , **ExplanationIndex** 라는 4개의 출력 열이 추가됩니다. 모델을 적용할 때 엔터티의 열 이름에 접두사가 지정됩니다.
+이진 예측 모델을 적용하면 보강 출력 엔터티에 **Outcome**, **PredictionScore**, **PredictionExplanation**, **ExplanationIndex** 라는 4개의 출력 열이 추가됩니다. 모델을 적용할 때 엔터티의 열 이름에 접두사가 지정됩니다.
 
 **PredictionScore** 는 목표 결과가 달성될 가능성을 나타내는 백분율 확률입니다.
 
@@ -314,7 +314,7 @@ Power BI 보고서에서 ML 모델의 인사이트 및 예측을 사용하려면
 
 분류 ML 모델을 적용하려면 입력 데이터를 포함하는 엔터티와 출력 열 이름 접두사를 지정해야 합니다.
 
-분류 모델을 적용하면 보강 출력 엔터티에 **ClassificationScore** , **ClassificationResult** , **ClassificationExplanation** , **ClassProbabilities** , **ExplanationIndex** 라는 5개의 출력 열이 추가됩니다. 모델을 적용할 때 엔터티의 열 이름에 접두사가 지정됩니다.
+분류 모델을 적용하면 보강 출력 엔터티에 **ClassificationScore**, **ClassificationResult**, **ClassificationExplanation**, **ClassProbabilities**, **ExplanationIndex** 라는 5개의 출력 열이 추가됩니다. 모델을 적용할 때 엔터티의 열 이름에 접두사가 지정됩니다.
 
 **ClassProbabilities** 열에는 가능한 각 클래스에 대한 레코드의 확률 점수가 포함됩니다.
 
@@ -358,7 +358,7 @@ Power BI 보고서에서 ML 모델의 인사이트 및 예측을 사용하려면
 
 ![회귀 적용](media/service-machine-learning-automated/automated-machine-learning-power-bi-19.png)
 
-회귀 모델을 적용하면 보강 출력 엔터티에 **RegressionResult** , **RegressionExplanation** , **ExplanationIndex** 라는 3개의 출력 열이 추가됩니다. 모델을 적용할 때 엔터티의 열 이름에 접두사가 지정됩니다.
+회귀 모델을 적용하면 보강 출력 엔터티에 **RegressionResult**, **RegressionExplanation**, **ExplanationIndex** 라는 3개의 출력 열이 추가됩니다. 모델을 적용할 때 엔터티의 열 이름에 접두사가 지정됩니다.
 
 **RegressionResult** 열에는 입력 필드를 기반으로 하는 레코드의 예측 값이 포함됩니다. **RegressionExplanation** 열에는 입력 기능이 **RegressionResult** 에 미치는 특정 영향에 대한 설명이 포함됩니다.
 
@@ -466,3 +466,4 @@ Azure ML 모델 출력 미리 보기를 엔터티 테이블에 새 열로 표시
 * [Azure Data Lake Gen 2를 사용하도록 데이터 흐름 스토리지 구성](dataflows-azure-data-lake-storage-integration.md)
 * [데이터 흐름의 프리미엄 기능](dataflows-premium-features.md)
 * [데이터 흐름 제한 사항 및 고려 사항](dataflows-features-limitations.md)
+* [데이터 흐름 모범 사례](dataflows-best-practices.md)

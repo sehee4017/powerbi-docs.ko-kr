@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dfb9a263b0e8fa1555cab9f0d2a0915c367fbd4c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2cd345baff9b03573773599f6026f0be48fdcab2
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235716"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94718871"
 ---
 # <a name="create-visuals-by-using-r-packages-in-the-power-bi-service"></a>Power BI 서비스에서 R 패키지를 사용하여 시각적 개체 만들기
 강력한 [R 프로그래밍 언어](https://www.r-project.org/)를 사용하여 Power BI 서비스에서 시각적 개체를 만들 수 있습니다. 많은 R 패키지가 Power BI 서비스에서 지원되며(및 더 많은 패키지가 항상 지원되고 있음) 일부 패키지는 지원되지 않습니다.
@@ -23,7 +23,7 @@ ms.locfileid: "85235716"
 다음 섹션에서는 Power BI에서 지원되고, 지원되지 않는 알파벳 순서로 정렬된 R 패키지의 테이블을 제공합니다. Power BI에서 R에 대한 자세한 내용은 [R 시각적 개체](../visuals/service-r-visuals.md) 문서를 참조하세요.
 
 ## <a name="request-support-for-a-new-r-package"></a>새 R 패키지에 대한 지원 요청
-**Power BI 서비스**에 지원되는 R 패키지는 **지원 패키지**라는 다음 섹션에서 찾을 수 있습니다. 이 목록에서 찾을 수 없는 R 패키지에 대한 지원을 요청하려면 [Power BI Ideas](https://ideas.powerbi.com)에 대한 요청을 제출하세요.
+**Power BI 서비스** 에 지원되는 R 패키지는 **지원 패키지** 라는 다음 섹션에서 찾을 수 있습니다. 이 목록에서 찾을 수 없는 R 패키지에 대한 지원을 요청하려면 [Power BI Ideas](https://ideas.powerbi.com)에 대한 요청을 제출하세요.
 
 ## <a name="requirements-and-limitations-of-r-packages"></a>R 패키지의 요구 사항 및 제한 사항
 R 패키지에 대한 몇 가지 요구 사항 및 제한 사항이 있습니다.
@@ -31,7 +31,7 @@ R 패키지에 대한 몇 가지 요구 사항 및 제한 사항이 있습니다
 * 현재 R 런타임: Microsoft R 3.4.4
 * 대부분의 경우에 Power BI 서비스에서는 GPL-2, GPL-3, MIT+ 등과 같은 무료 오픈 소스 소프트웨어 라이선스를 포함한 R 패키지를 지원합니다.
 * Power BI 서비스는 CRAN에 게시된 패키지를 지원합니다. 서비스는 프라이빗 또는 사용자 지정 R 패키지를 지원하지 않습니다. 사용자가 Power BI 서비스에서 사용할 수 있는 패키지를 요청하기 전에 CRAN에서 자신의 프라이빗 패키지를 사용할 수 있도록 만드는 것이 좋습니다.
-* **Power BI Desktop**에는 R 패키지에 대한 두 가지 변형이 있습니다.
+* **Power BI Desktop** 에는 R 패키지에 대한 두 가지 변형이 있습니다.
 
   * R 시각적 개체의 경우 사용자 지정 R 패키지를 포함한 모든 패키지를 설치할 수 있습니다.
   * 사용자 지정 R 시각적 개체의 경우 CRAN 패키지에만 패키지의 자동 설치를 지원합니다.
@@ -192,7 +192,6 @@ R 패키지에 대한 몇 가지 요구 사항 및 제한 사항이 있습니다
 |curl|3.2|https://cran.r-project.org/web/packages/curl/index.html|
 |CVST|0.2-1|https://cran.r-project.org/web/packages/CVST/index.html|
 |cvTools|0.3.2|https://cran.r-project.org/web/packages/cvTools/index.html|
-|d3heatmap|0.6.1.2|https://cran.r-project.org/web/packages/d3heatmap/index.html|
 |d3Network|0.5.2.1|https://cran.r-project.org/web/packages/d3Network/index.html|
 |d3r|0.8.0|https://cran.r-project.org/web/packages/d3r/index.html|
 |data.table|1.10.4-3|https://cran.r-project.org/web/packages/data.table/index.html|

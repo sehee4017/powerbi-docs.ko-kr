@@ -6,14 +6,14 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/19/2020
+ms.date: 11/11/2020
 ms.author: v-pemyer
-ms.openlocfilehash: fe55c789f5af644a802bc5c5f648315744a074be
-ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
+ms.openlocfilehash: d84f6a4fcf7ff531b76b6e731f165aa6e0df764f
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88638666"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512128"
 ---
 # <a name="bi-solution-architecture-in-the-center-of-excellence"></a>최고 전문가 조직(Center of Excellence, COE)의 BI 솔루션 아키텍처
 
@@ -52,7 +52,7 @@ BI 플랫폼은 다음과 같은 세 가지 유형의 모델을 제공할 수 �
 
 ### <a name="enterprise-models"></a>엔터프라이즈 모델
 
-**엔터프라이즈 모델**은 IT 설계자가 빌드하고 유지 관리합니다. 차원 모델 또는 데이터 마트라고도 합니다. 일반적으로 데이터는 차원 테이블 및 팩트 테이블로 관계형 형식으로 저장됩니다. 이러한 테이블은 많은 시스템에서 통합된 데이터를 정리 및 보강하여 저장하고 보고 및 분석을 위한 신뢰할 수 있는 원본을 나타냅니다.
+**엔터프라이즈 모델** 은 IT 설계자가 빌드하고 유지 관리합니다. 차원 모델 또는 데이터 마트라고도 합니다. 일반적으로 데이터는 차원 테이블 및 팩트 테이블로 관계형 형식으로 저장됩니다. 이러한 테이블은 많은 시스템에서 통합된 데이터를 정리 및 보강하여 저장하고 보고 및 분석을 위한 신뢰할 수 있는 원본을 나타냅니다.
 
 엔터프라이즈 모델은 보고 및 BI를 위한 일관된 단일 데이터 원본을 제공합니다. 한 번 빌드되고 회사 표준으로 공유됩니다. 거버넌스 정책은 고객 정보나 재무 같은 중요한 데이터 세트에 대한 액세스가 요구에 따라 제한되도록 하여 데이터를 안전하게 보호합니다. 일관성을 보장하는 명명 규칙을 채택하여 데이터 신뢰도와 품질을 더욱 확고히 합니다.
 
@@ -60,11 +60,11 @@ BI 플랫폼은 다음과 같은 세 가지 유형의 모델을 제공할 수 �
 
 ### <a name="bi-semantic-models"></a>BI 의미 체계 모델
 
-**BI 의미 체계 모델**은 엔터프라이즈 모델을 통해 의미 체계 계층을 나타냅니다. BI 개발자 및 비즈니스 사용자가 빌드하고 유지 관리합니다. BI 개발자는 엔터프라이즈 모델의 데이터를 원본으로 하는 핵심 BI 의미 체계 모델을 만듭니다. 비즈니스 사용자는 비교적 작은 규모의 독립적인 모델을 만들 수도 있고 부서별 원본이나 외부 원본으로 핵심 BI 의미 체계 모델을 확장할 수도 있습니다. BI 의미 체계 모델은 일반적으로 단일 주제 영역에 집중하며 널리 공유되는 경우가 많습니다.
+**BI 의미 체계 모델** 은 엔터프라이즈 모델을 통해 의미 체계 계층을 나타냅니다. BI 개발자 및 비즈니스 사용자가 빌드하고 유지 관리합니다. BI 개발자는 엔터프라이즈 모델의 데이터를 원본으로 하는 핵심 BI 의미 체계 모델을 만듭니다. 비즈니스 사용자는 비교적 작은 규모의 독립적인 모델을 만들 수도 있고 부서별 원본이나 외부 원본으로 핵심 BI 의미 체계 모델을 확장할 수도 있습니다. BI 의미 체계 모델은 일반적으로 단일 주제 영역에 집중하며 널리 공유되는 경우가 많습니다.
 
 비즈니스 기능은 데이터만으로 사용할 수 없으며 개념, 관계, 규칙 및 표준을 설명하는 BI 의미 체계 모델에 의해 사용할 수 있게 됩니다. 이런 방식으로 데이터 관계를 정의하고 비즈니스 규칙을 계산으로 캡슐화하는 직관적이고 이해하기 쉬운 구조를 나타냅니다. 또한 적절한 사용자가 올바른 데이터에 액세스할 수 있도록 세분화된 데이터 권한을 적용할 수 있습니다. 중요한 점은 쿼리 성능을 가속화함으로써 테라바이트 수준의 데이터에 대해서도 응답성이 뛰어난 대화형 분석을 제공한다는 점입니다. BI 의미 체계 모델은 엔터프라이즈 모델과 마찬가지로 일관성을 보장하는 명명 규칙을 채택합니다.
 
-클라우드 BI 플랫폼에서 BI 개발자는 [Azure Analysis Services](/azure/analysis-services/) 또는 [Power BI Premium 용량](../admin/service-premium-what-is.md#dedicated-capacities)에 BI 의미 체계 모델을 배포할 수 있습니다. 보고 및 분석 계층으로 사용되는 경우 Power BI에 배포하는 것이 좋습니다. 이러한 제품은 서로 다른 스토리지 모드를 지원하므로, 데이터 모델 테이블이 데이터를 캐시하거나 기본 데이터 원본에 쿼리를 전달하는 기술인 [DirectQuery](directquery-model-guidance.md)를 사용할 수 있습니다. DirectQuery는 모델 테이블이 대규모 데이터 볼륨을 나타내는 경우나 거의 실시간으로 결과를 제공해야 하는 경우 이상적인 스토리지 모드입니다. 두 스토리지 모드를 결합할 수 있습니다. [복합 모델](composite-model-guidance.md)은 서로 다른 스토리지 모드를 사용하는 테이블을 단일 모델에 결합합니다.
+클라우드 BI 플랫폼에서 BI 개발자는 [Azure Analysis Services](/azure/analysis-services/) 또는 [Power BI Premium 용량](../admin/service-premium-what-is.md#reserved-capacities)에 BI 의미 체계 모델을 배포할 수 있습니다. 보고 및 분석 계층으로 사용되는 경우 Power BI에 배포하는 것이 좋습니다. 이러한 제품은 서로 다른 스토리지 모드를 지원하므로, 데이터 모델 테이블이 데이터를 캐시하거나 기본 데이터 원본에 쿼리를 전달하는 기술인 [DirectQuery](directquery-model-guidance.md)를 사용할 수 있습니다. DirectQuery는 모델 테이블이 대규모 데이터 볼륨을 나타내는 경우나 거의 실시간으로 결과를 제공해야 하는 경우 이상적인 스토리지 모드입니다. 두 스토리지 모드를 결합할 수 있습니다. [복합 모델](composite-model-guidance.md)은 서로 다른 스토리지 모드를 사용하는 테이블을 단일 모델에 결합합니다.
 
 과도하게 쿼리되는 모델의 경우 [Azure Load Balancer](/azure/load-balancer/load-balancer-overview)를 사용하여 모델 복제본 간에 쿼리 로드를 균등하게 분산할 수 있습니다. 또한 애플리케이션 크기를 조정하고 가용성이 높은 BI 의미 체계 모델을 만들 수 있습니다.
 
@@ -86,8 +86,8 @@ Microsoft에서 데이터 웨어하우스는 ADLS Gen2([Azure Data Lake Storage 
 
 :::image type="content" source="media/center-of-excellence-business-intelligence-solution-architecture/azure-data-warehouse.png" alt-text="이미지는 Azure Data Lake Storage Gen2에 연결하는 Azure Synapse Analytics를 보여 줍니다.":::
 
-- **ADLS Gen2**는 Azure에서 Azure Storage를 엔터프라이즈 데이터 레이크를 구축하기 위한 기반으로 만듭니다. 수백 기가비트의 처리량을 유지하는 동시에 여러 페타바이트의 정보를 처리하도록 설계되었습니다. 또한 낮은 비용의 스토리지 용량 및 트랜잭션을 제공합니다. 추가로, Hadoop 호환 액세스를 지원하여 HDFS(Hadoop 분산 파일 시스템)를 사용하는 것처럼 데이터를 관리하고 액세스할 수 있게 합니다. 실제로 [Azure HDInsight](/azure/hdinsight/), [Azure Databricks](/azure/azure-databricks/what-is-azure-databricks) 및 Azure Synapse Analytics는 모두 ADLS Gen2에 저장된 데이터에 액세스할 수 있습니다. 따라서 BI 플랫폼에서는 원시 원본 데이터, 부분적으로 처리되었거나 스테이징된 데이터, 프로덕션 준비가 된 데이터를 저장하는 것이 좋습니다. Microsoft는 이 플랫폼을 사용하여 모든 비즈니스 데이터를 저장합니다.
-- **Azure Synapse Analytics**는 엔터프라이즈 데이터 웨어하우징과 빅 데이터 분석을 결합한 분석 서비스입니다. 또한 서버리스 주문형 리소스 또는 프로비저닝된 리소스를 규모에 맞게 사용하여 사용자의 용어로 데이터를 자유롭게 쿼리할 수 있습니다. Azure Synapse Analytics의 구성 요소인 Synapse SQL은 완벽한 T-SQL 기반 분석을 지원하므로 차원 테이블 및 팩트 테이블을 구성하는 엔터프라이즈 모델을 호스트하는 것이 적합합니다. 간단한 [Polybase T-SQL](/sql/relational-databases/polybase/polybase-guide) 쿼리를 사용하여 ADLS Gen2에서 테이블을 효율적으로 로드할 수 있습니다. 그런 다음 [MPP](/azure/synapse-analytics/sql-data-warehouse/massively-parallel-processing-mpp-architecture#synapse-sql-mpp-architecture-components)의 기능을 통해 고성능 분석을 실행합니다.
+- **ADLS Gen2** 는 Azure에서 Azure Storage를 엔터프라이즈 데이터 레이크를 구축하기 위한 기반으로 만듭니다. 수백 기가비트의 처리량을 유지하는 동시에 여러 페타바이트의 정보를 처리하도록 설계되었습니다. 또한 낮은 비용의 스토리지 용량 및 트랜잭션을 제공합니다. 추가로, Hadoop 호환 액세스를 지원하여 HDFS(Hadoop 분산 파일 시스템)를 사용하는 것처럼 데이터를 관리하고 액세스할 수 있게 합니다. 실제로 [Azure HDInsight](/azure/hdinsight/), [Azure Databricks](/azure/azure-databricks/what-is-azure-databricks) 및 Azure Synapse Analytics는 모두 ADLS Gen2에 저장된 데이터에 액세스할 수 있습니다. 따라서 BI 플랫폼에서는 원시 원본 데이터, 부분적으로 처리되었거나 스테이징된 데이터, 프로덕션 준비가 된 데이터를 저장하는 것이 좋습니다. Microsoft는 이 플랫폼을 사용하여 모든 비즈니스 데이터를 저장합니다.
+- **Azure Synapse Analytics** 는 엔터프라이즈 데이터 웨어하우징과 빅 데이터 분석을 결합한 분석 서비스입니다. 또한 서버리스 주문형 리소스 또는 프로비저닝된 리소스를 규모에 맞게 사용하여 사용자의 용어로 데이터를 자유롭게 쿼리할 수 있습니다. Azure Synapse Analytics의 구성 요소인 Synapse SQL은 완벽한 T-SQL 기반 분석을 지원하므로 차원 테이블 및 팩트 테이블을 구성하는 엔터프라이즈 모델을 호스트하는 것이 적합합니다. 간단한 [Polybase T-SQL](/sql/relational-databases/polybase/polybase-guide) 쿼리를 사용하여 ADLS Gen2에서 테이블을 효율적으로 로드할 수 있습니다. 그런 다음 [MPP](/azure/synapse-analytics/sql-data-warehouse/massively-parallel-processing-mpp-architecture#synapse-sql-mpp-architecture-components)의 기능을 통해 고성능 분석을 실행합니다.
 
 ### <a name="business-rules-engine-framework"></a>비즈니스 규칙 엔진 프레임워크
 
@@ -115,7 +115,7 @@ Microsoft에서는 ADF([Azure Data Factory](/azure/data-factory/introduction))�
 
 ### <a name="ingestion-framework"></a>데이터 수집 프레임워크
 
-**데이터 수집 프레임워크**를 구성 테이블 및 절차 집합으로 개발했습니다. 최소한의 코드를 사용하고 빠른 속도로 대량의 데이터를 얻는 데이터 기반 접근 방식을 지원합니다. 간단히 말해서 이 프레임워크는 데이터 웨어하우스를 로드하는 데이터 취득 프로세스를 간소화합니다.
+**데이터 수집 프레임워크** 를 구성 테이블 및 절차 집합으로 개발했습니다. 최소한의 코드를 사용하고 빠른 속도로 대량의 데이터를 얻는 데이터 기반 접근 방식을 지원합니다. 간단히 말해서 이 프레임워크는 데이터 웨어하우스를 로드하는 데이터 취득 프로세스를 간소화합니다.
 
 이 프레임워크는 데이터 원본 및 데이터 대상 관련 정보(예: 원본 유형, 서버, 데이터베이스, 스키마 및 테이블 관련 세부 정보)를 저장하는 구성 테이블에 의존합니다. 이 디자인 접근 방식을 사용하면 특정 ADF 파이프라인 또는 [SSIS(SQL Server Integration Services)](/sql/integration-services/sql-server-integration-services) 패키지를 개발할 필요가 없습니다. 대신, 선택한 언어로 프로시저가 작성되고 런타임에 동적으로 생성되고 실행되는 ADF 파이프라인을 만듭니다. 따라서 데이터 취득은 쉽게 조작 가능한 구성 연습이 됩니다. 일반적으로 하드 코드된 ADF 또는 SSIS 패키지를 만들려면 광범위한 개발 리소스가 필요합니다.
 
@@ -123,7 +123,7 @@ Microsoft에서는 ADF([Azure Data Factory](/azure/data-factory/introduction))�
 
 ### <a name="orchestration-framework"></a>오케스트레이션 프레임워크
 
-데이터 파이프라인을 운영하고 오케스트레이션하는 **오케스트레이션 프레임워크**를 개발했습니다. 이 프레임워크는 구성 테이블 집합에 의존하는 데이터 기반 디자인을 사용합니다. 이러한 테이블은 파이프라인 종속성 및 원본 데이터를 대상 데이터 구조에 매핑하는 방법을 설명하는 메타데이터를 저장합니다. 이 적응형 프레임워크의 개발에 대한 투자는 그 이상의 이점을 가져왔습니다. 각 데이터 이동을 하드 코드해야 하는 요구 사항이 더 이상 적용되지 않습니다.
+데이터 파이프라인을 운영하고 오케스트레이션하는 **오케스트레이션 프레임워크** 를 개발했습니다. 이 프레임워크는 구성 테이블 집합에 의존하는 데이터 기반 디자인을 사용합니다. 이러한 테이블은 파이프라인 종속성 및 원본 데이터를 대상 데이터 구조에 매핑하는 방법을 설명하는 메타데이터를 저장합니다. 이 적응형 프레임워크의 개발에 대한 투자는 그 이상의 이점을 가져왔습니다. 각 데이터 이동을 하드 코드해야 하는 요구 사항이 더 이상 적용되지 않습니다.
 
 ## <a name="data-storage"></a>데이터 스토리지
 
@@ -147,9 +147,9 @@ Microsoft는 데이터 모델에 대한 참조 정보를 제공하는 데이터 
 
 일반적으로 데이터 사용 패턴은 역할에 따라 다릅니다.
 
-- **데이터 분석가**는 핵심 BI 의미 체계 모델에 직접 연결됩니다. 핵심 BI 의미 체계 모델에 필요한 모든 데이터와 논리가 포함되어 있으면 데이터 분석가는 라이브 연결을 사용하여 Power BI 보고서 및 대시보드를 만듭니다. 부서 데이터를 사용하여 모델을 확장해야 하는 경우에는 Power BI [복합 모델](composite-model-guidance.md)을 만듭니다. 스프레드시트 스타일의 보고서가 필요한 경우에는 Excel을 사용하여 핵심 BI 의미 체계 모델 또는 부서 BI 의미 체계 모델을 기반으로 보고서를 생성합니다.
+- **데이터 분석가** 는 핵심 BI 의미 체계 모델에 직접 연결됩니다. 핵심 BI 의미 체계 모델에 필요한 모든 데이터와 논리가 포함되어 있으면 데이터 분석가는 라이브 연결을 사용하여 Power BI 보고서 및 대시보드를 만듭니다. 부서 데이터를 사용하여 모델을 확장해야 하는 경우에는 Power BI [복합 모델](composite-model-guidance.md)을 만듭니다. 스프레드시트 스타일의 보고서가 필요한 경우에는 Excel을 사용하여 핵심 BI 의미 체계 모델 또는 부서 BI 의미 체계 모델을 기반으로 보고서를 생성합니다.
 - **BI 개발자** 및 운영 보고서 작성자는 엔터프라이즈 모델에 직접 연결됩니다. Power BI Desktop을 사용하여 라이브 연결 분석 보고서를 만듭니다. 또한 Azure Synapse Analytics 엔터프라이즈 모델에서(T-SQL 사용) 또는 Power BI 의미 체계 모델에서(DAX 또는 MDX 사용) 데이터에 액세스하는 기본 SQL 쿼리를 작성함으로써 운영 형식 BI 보고서를 Power BI 페이지를 매긴 보고서로 작성할 수도 있습니다.
-- **데이터 과학자**는 데이터 레이크의 데이터에 직접 연결됩니다. Azure Databricks 및 Python Notebook을 사용하여 ML 모델을 개발합니다. 이 방법은 종종 실험적이며 프로덕션 사용을 위해서는 전문 기술이 필요합니다.
+- **데이터 과학자** 는 데이터 레이크의 데이터에 직접 연결됩니다. Azure Databricks 및 Python Notebook을 사용하여 ML 모델을 개발합니다. 이 방법은 종종 실험적이며 프로덕션 사용을 위해서는 전문 기술이 필요합니다.
 
 :::image type="content" source="media/center-of-excellence-business-intelligence-solution-architecture/azure-data-warehouse-consumption.png" alt-text="Power BI, Excel 및 Azure Machine Learning과 함께 Azure Synapse Analytics 사용을 보여 주는 이미지.":::
 

@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 10/22/2020
+ms.date: 11/13/2020
 ms.author: davidi
 ms.custom: references_regions
 LocalizationGroup: Data from files
-ms.openlocfilehash: f2efd4410af62425f599b1addd0f792f495120e0
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: e5d2e1f65ef326ac12f15ff14c8d07c22c2950fe
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397257"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94667985"
 ---
 # <a name="configure-power-bi-premium-dataflow-workloads"></a>Power BI Premium 데이터 흐름 워크로드 구성
 

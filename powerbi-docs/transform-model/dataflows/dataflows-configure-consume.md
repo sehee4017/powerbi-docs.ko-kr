@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 47b1647732c1977e6e8a3992b617e2a35c803c50
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 82d5981d885f97d48dec180e692a4a44c0bbe781
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396397"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668261"
 ---
 # <a name="configure-and-consume-a-dataflow"></a>데이터 흐름 구성 및 사용
 
@@ -106,3 +106,4 @@ DirectQuery 모드에서는 로컬에서 대규모 데이터 세트를 신속하
 * [데이터 흐름의 프리미엄 기능](dataflows-premium-features.md)
 * [데이터 흐름에서 AI 사용](dataflows-machine-learning-integration.md)
 * [데이터 흐름 제한 사항 및 고려 사항](dataflows-features-limitations.md)
+* [데이터 흐름 모범 사례](dataflows-best-practices.md)
