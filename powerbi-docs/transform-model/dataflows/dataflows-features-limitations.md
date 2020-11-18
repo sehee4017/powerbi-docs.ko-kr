@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 89de77e65d8eb675d9e80c3b2497f39af7c32d33
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 2d58fe71b7ceb27afe5d52a55ed57ae162622b06
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396590"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668169"
 ---
 # <a name="dataflows-limitations-and-considerations"></a>데이터 흐름 제한 사항 및 고려 사항
 
@@ -75,7 +75,7 @@ ms.locfileid: "94396590"
 
 * 온-프레미스 데이터 원본에서 해당 데이터를 가져오는 일반 엔터티를 사용하여 연결된 엔터티를 조인할 수 없습니다.
 
-* 데이터 흐름에서 하나의 쿼리(예: 쿼리 *A* )가 다른 쿼리(쿼리 *B* )의 계산에 사용되는 경우, 쿼리 *B* 는 계산된 엔터티가 됩니다. 계산된 엔터티는 온-프레미스 원본을 참조할 수 없습니다.
+* 데이터 흐름에서 하나의 쿼리(예: 쿼리 *A*)가 다른 쿼리(쿼리 *B*)의 계산에 사용되는 경우, 쿼리 *B* 는 계산된 엔터티가 됩니다. 계산된 엔터티는 온-프레미스 원본을 참조할 수 없습니다.
 
 
 **컴퓨팅 엔진:**
@@ -111,3 +111,4 @@ ms.locfileid: "94396590"
 * [Azure Data Lake Gen 2를 사용하도록 데이터 흐름 스토리지 구성](dataflows-azure-data-lake-storage-integration.md)
 * [데이터 흐름의 프리미엄 기능](dataflows-premium-features.md)
 * [데이터 흐름에서 AI 사용](dataflows-machine-learning-integration.md)
+* [데이터 흐름 모범 사례](dataflows-best-practices.md)
