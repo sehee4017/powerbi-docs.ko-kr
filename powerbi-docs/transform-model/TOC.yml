@@ -99,6 +99,8 @@
           items:
             - name: 데이터 흐름 만들기 및 사용
               href: ./dataflows/dataflows-create.md
+            - name: 데이터 흐름 모범 사례
+              href: ./dataflows/dataflows-best-practices.md
             - name: Power BI (미리 보기)에서 데이터 흐름와 함께 DirectQuery 사용
               href: ./dataflows/dataflows-configure-consume.md
             - name: 데이터 흐름에 향상된 컴퓨팅 엔진 사용
