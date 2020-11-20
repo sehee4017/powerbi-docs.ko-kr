@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 09/25/2020
+ms.date: 11/13/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4eae96dbdddae82a7f74f27c835874a19b04a69f
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 624da63259dcb09d0ebbb35079ef0d8e1340b04c
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92256842"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668514"
 ---
 # <a name="let-users-personalize-visuals-in-a-report"></a>사용자가 보고서에서 시각적 개체를 개인 설정할 수 있습니다.
 
@@ -96,23 +96,23 @@ ms.locfileid: "92256842"
 
 ## <a name="enable-personalization-in-a-report"></a>보고서에서 개인 설정 사용
 
-Power BI Desktop 또는 Power BI 서비스에서 기능을 사용하도록 설정할 수 있습니다.
+Power BI Desktop 또는 Power BI 서비스에서 기능을 사용하도록 설정할 수 있습니다. 포함된 보고서에서도 설정할 수 있습니다.
 
 ### <a name="in-power-bi-desktop"></a>Power BI Desktop
 
 Power BI Desktop에서 이 기능을 사용하도록 설정하려면 **파일** > **옵션 및 설정** > **옵션** > **현재 파일** > **보고서 설정** 으로 이동합니다. **시각적 개체 개인 설정** 이 설정되어 있는지 확인합니다.
 
-:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-desktop.png" alt-text="시각적 개체 개인 설정":::
+:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-desktop.png" alt-text="보고서에서 개인 설정 사용":::
 
 ### <a name="in-the-power-bi-service"></a>Power BI 서비스에서 다음을 수행합니다.
 
 대신 Power BI 서비스 기능을 사용하도록 설정하려면 보고서의 **설정** 으로 이동합니다.
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-report-service-settings-personalize-visual.png" alt-text="시각적 개체 개인 설정":::
+:::image type="content" source="media/power-bi-personalize-visuals/power-bi-report-service-settings-personalize-visual.png" alt-text="Power BI 서비스의 보고서 설정":::
 
 **시각적 개체 개인 설정** > **저장** 을 설정합니다.
 
-:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-service.png" alt-text="시각적 개체 개인 설정":::
+:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-service.png" alt-text="서비스에서 시각적 개체 개인 설정 사용":::
 
 ## <a name="turn-the-feature-on-or-off-at-a-page-or-visual-level"></a>페이지 또는 시각적 수준에서 기능 설정 또는 해제
 
@@ -122,7 +122,7 @@ Power BI Desktop에서 이 기능을 사용하도록 설정하려면 **파일** 
 
 페이지 탭 선택 > **시각화** 창에서 **서식** 을 선택합니다.
 
-:::image type="content" source="media/power-bi-personalize-visuals/personalize-page-level-setting.png" alt-text="시각적 개체 개인 설정":::
+:::image type="content" source="media/power-bi-personalize-visuals/personalize-page-level-setting.png" alt-text="페이지의 시각적 개체 개인 설정을 선택합니다.":::
  
 **시각적 개체 개인 설정** >  을 **사용** 또는 **해제** 로 밉니다.
 
@@ -130,11 +130,11 @@ Power BI Desktop에서 이 기능을 사용하도록 설정하려면 **파일** 
 
 시각적 개체를 선택하고 > **시각화** 창에서 **서식** 을 선택한 다음 > **시각적 개체 헤더** 를 확장합니다.
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-header-personalize.png" alt-text="시각적 개체 개인 설정":::
+:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-header-personalize.png" alt-text="시각적 개체 헤더 선택":::
  
 **시각적 개체 개인 설정** >  을 **사용** 또는 **해제** 로 밉니다.
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-personalize-on-off.png" alt-text="시각적 개체 개인 설정":::
+:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-personalize-on-off.png" alt-text="시각적 개체 개인 설정 사용 또는 해제로 밀기":::
 
 
 ## <a name="limitations"></a>제한 사항

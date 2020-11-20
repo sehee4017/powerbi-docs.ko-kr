@@ -8,14 +8,14 @@ ms.subservice: ''
 ms.devlang: csharp, javascript
 ms.topic: how-to
 ms.reviewer: zakharb
-ms.custom: subject-armqs
+ms.custom: subject-armqs, devx-track-azurecli
 ms.date: 08/02/2020
-ms.openlocfilehash: 0f7a6c72a393aa398996f7b4e818d6288b746583
-ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
+ms.openlocfilehash: 42dfe1a2032c7afe9eff354829fcc564e69e0d36
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92025959"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94718940"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Azure Portal에서 Power BI Embedded 용량 만들기
 
@@ -27,9 +27,9 @@ ms.locfileid: "92025959"
 
 * **Azure 구독:** [Azure 평가판](https://azure.microsoft.com/free/)에 방문하여 계정을 만듭니다.
 
-* **Azure Active Directory:** 구독은 Azure AD(Azure Active Directory) 테넌트와 연결되어 있어야 합니다. 또한 ***해당 테넌트에 계정이 있는 Azure에 로그인해야 합니다***. Microsoft 계정은 지원되지 않습니다. 자세한 내용은 [인증 및 사용자 권한](/azure/analysis-services/analysis-services-manage-users)을 참조하세요.
+* **Azure Active Directory:** 구독은 Azure AD(Azure Active Directory) 테넌트와 연결되어 있어야 합니다. 또한 해당 테넌트에 계정이 있는 Azure에 로그인해야 합니다. Microsoft 계정은 지원되지 않습니다. 자세한 내용은 [인증 및 사용자 권한](/azure/analysis-services/analysis-services-manage-users)을 참조하세요.
 
-* **Power BI 테넌트:** Azure AD 테넌트에서 하나 이상의 계정이 Power BI에 등록되어 있어야 합니다.
+_ **Power BI 테넌트:** Azure AD 테넌트에서 하나 이상의 계정이 Power BI에 등록되어 있어야 합니다.
 
 * **리소스 그룹:** 이미 있는 리소스 그룹을 사용하거나 [새로 만듭니다](/azure/azure-resource-manager/resource-group-overview).
 
@@ -41,11 +41,11 @@ Power BI Embedded 용량을 만들기 전에 최소 한 번 이상 Power BI 로�
 
 1. [Azure Portal](https://portal.azure.com/)에 로그인합니다.
 
-2. 검색 상자에서 *Power BI Embedded*를 검색합니다.
+2. 검색 상자에서 *Power BI Embedded* 를 검색합니다.
 
-3. Power BI Embedded 내에서 **추가**를 선택합니다.
+3. Power BI Embedded 내에서 **추가** 를 선택합니다.
 
-4. 필요한 정보를 입력하고 **검토 + 만들기**를 클릭합니다.
+4. 필요한 정보를 입력하고 **검토 + 만들기** 를 클릭합니다.
 
     ![Azure Portal에서 새 용량을 만드는 Power BI Embedded 페이지의 기본 사항 탭을 보여 주는 스크린샷.](media/azure-pbie-create-capacity/azure-create-capacity.png)
 
@@ -75,7 +75,7 @@ Azure Cloud Shell을 시작하려면 다음을 수행합니다.
 
 | 옵션 | 예제/링크 |
 |-----------------------------------------------|---|
-| 코드 블록의 오른쪽 위 모서리에서 **사용**을 선택합니다. **사용해보기**를 선택하면 코드가 Cloud Shell에 자동으로 복사되지 않습니다. | ![Azure Cloud Shell에 대한 사용 예제](./media/azure-pbie-create-capacity/azure-cli-try-it.png) |
+| 코드 블록의 오른쪽 위 모서리에서 **사용** 을 선택합니다. **사용해보기** 를 선택하면 코드가 Cloud Shell에 자동으로 복사되지 않습니다. | ![Azure Cloud Shell에 대한 사용 예제](./media/azure-pbie-create-capacity/azure-cli-try-it.png) |
 | [https://shell.azure.com](https://shell.azure.com)으로 이동하거나 **Cloud Shell 시작** 버튼을 선택하여 브라우저에서 Cloud Shell을 엽니다. | [![새 창에서 Cloud Shell 시작](media/azure-pbie-create-capacity/launch-cloud-shell.png)](https://shell.azure.com) |
 | [Azure Portal](https://portal.azure.com)의 오른쪽 위에 있는 메뉴 모음에서 **Cloud Shell** 단추를 선택합니다. | ![Azure Portal의 Cloud Shell 단추](./media/azure-pbie-create-capacity/cloud-shell-menu.png) |
 
@@ -85,9 +85,9 @@ Azure Cloud Shell을 시작하려면 다음을 수행합니다.
 
 2. 코드 블록의 **복사** 단추를 선택하여 코드를 복사합니다.
 
-3. Windows 및 Linux에서 **Ctrl**+**Shift**+**V**를 선택하거나 macOS에서 **Cmd**+**Shift**+**V**를 선택하여 코드를 Cloud Shell 세션에 붙여넣습니다.
+3. Windows 및 Linux에서 **Ctrl**+**Shift**+**V** 를 선택하거나 macOS에서 **Cmd**+**Shift**+**V** 를 선택하여 코드를 Cloud Shell 세션에 붙여넣습니다.
 
-4. **Enter**를 선택하여 코드를 실행합니다.
+4. **Enter** 를 선택하여 코드를 실행합니다.
 
 ## <a name="prepare-your-environment"></a>환경 준비
 
@@ -218,7 +218,7 @@ Azure 구독이 아직 없는 경우 시작하기 전에 [체험](https://azure.
 
     [![Azure에 배포 링크](media/azure-pbie-create-capacity/deploy-to-azure.svg)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3a%2f%2fraw.githubusercontent.com%2fAzure%2fazure-quickstart-templates%2fmaster%2f101-power-bi-embedded%2fazuredeploy.json)
 
-2. 필요한 정보를 입력하고 **검토 + 만들기**를 클릭합니다.
+2. 필요한 정보를 입력하고 **검토 + 만들기** 를 클릭합니다.
 
     ![Azure Portal에서 새 용량을 만드는 Power BI Embedded 용량 페이지의 기본 사항 탭을 보여 주는 스크린샷.](media/azure-pbie-create-capacity/arm-template.png)
 
@@ -247,7 +247,7 @@ Azure 구독이 아직 없는 경우 시작하기 전에 [체험](https://azure.
 
 1. [Azure Portal](https://portal.azure.com/)에 로그인합니다.
 
-2. 검색 상자에서 *Power BI Embedded*를 검색합니다.
+2. 검색 상자에서 *Power BI Embedded* 를 검색합니다.
 
 3. Power BI Embedded 용량 목록을 검토하여 새로 만든 용량이 나열되어 있는지 확인합니다.
 
@@ -259,13 +259,13 @@ Azure 구독이 아직 없는 경우 시작하기 전에 [체험](https://azure.
 
 1. [Azure Portal](https://portal.azure.com/)에 로그인합니다.
 
-2. 검색 상자에서 *Power BI Embedded*를 검색합니다.
+2. 검색 상자에서 *Power BI Embedded* 를 검색합니다.
 
-3. 만든 용량의 상황에 맞는 메뉴를 열고 **삭제**를 클릭합니다.
+3. 만든 용량의 상황에 맞는 메뉴를 열고 **삭제** 를 클릭합니다.
 
     ![각 용량 목록 오른쪽의 상황에 맞는 메뉴에서 사용할 수 있는 용량 삭제 옵션의 스크린샷](media/azure-pbie-create-capacity/delete-capacity.png)
 
-4. 확인 페이지에서 용량 이름을 입력하고 **삭제**를 클릭합니다.
+4. 확인 페이지에서 용량 이름을 입력하고 **삭제** 를 클릭합니다.
 
     ![Azure Portal의 용량 삭제 경고 및 확인 페이지 스크린샷](media/azure-pbie-create-capacity/confirm-delete-capacity.png)
 
