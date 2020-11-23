@@ -7,22 +7,25 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 08/13/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 449721a13a126344f3ef8334e63f64579a98ec20
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 9331fe3e207162db0215b62aa89b04f2e4be3d95
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916156"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512703"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi"></a>Power BI에 대한 사용자 고유의 암호화 키 가져오기
 
-Power BI는 미사용( _at-rest_ ) 및 처리 중( _in process_ )인 데이터를 암호화합니다. 기본적으로 Power BI는 Microsoft 관리형 키를 사용하여 데이터를 암호화합니다. Power BI Premium에서는 데이터 세트로 가져온 미사용 데이터에 대해 자신의 키를 사용할 수도 있습니다. (자세한 내용은 [데이터 원본 및 스토리지 고려 사항](#data-source-and-storage-considerations)을 참조하세요.) 이러한 방식은 BYOK( _bring your own key_ )라고 하는 경우가 많습니다.
+Power BI는 미사용(_at-rest_) 및 처리 중(_in process_)인 데이터를 암호화합니다. 기본적으로 Power BI는 Microsoft 관리형 키를 사용하여 데이터를 암호화합니다. Power BI Premium에서는 데이터 세트로 가져온 미사용 데이터에 대해 자신의 키를 사용할 수도 있습니다. (자세한 내용은 [데이터 원본 및 스토리지 고려 사항](#data-source-and-storage-considerations)을 참조하세요.) 이러한 방식은 BYOK(_bring your own key_)라고 하는 경우가 많습니다.
 
 ## <a name="why-use-byok"></a>BYOK를 사용하는 이유?
 
 BYOK를 사용하면 클라우드 서비스 공급자(이 경우 Microsoft)와의 키 정렬을 지정하는 규정 준수 요구 사항을 더 쉽게 충족할 수 있습니다. BYOK를 사용하면 애플리케이션 수준에서 Power BI 미사용 데이터에 대한 암호화 키를 제공하고 제어할 수 있습니다. 결과적으로, 서비스를 종료하기로 결정한 경우, 조직의 키를 제어하고 철회할 수 있습니다. 키를 취소하면 30분 동안 서비스에서 데이터를 읽을 수 없습니다.
+
+> [!IMPORTANT]
+> Power BI Premium은 최근 **Premium Gen2** 라는 새 버전의 Premium을 출시했으며, 이 버전은 현재 미리 보기로 제공됩니다. 미리 보기 Gen2 용량은 미리 보기 중에는 BYOK를 지원하지 **않습니다**.
 
 ## <a name="data-source-and-storage-considerations"></a>데이터 원본 및 스토리지 고려 사항
 
@@ -54,7 +57,7 @@ BYOK는 데이터 세트에만 적용됩니다. 사용자가 서비스에 업로
     > [!IMPORTANT]
     > Power BI BYOK는 4096비트 길이의 RSA 키만 지원합니다.
 
-1. 권장: 키 자격 증명 모음에 일시 삭제( _soft delete_ ) 옵션을 사용하도록 설정되어 있는지 확인합니다.
+1. 권장: 키 자격 증명 모음에 일시 삭제(_soft delete_) 옵션을 사용하도록 설정되어 있는지 확인합니다.
 
 ### <a name="add-the-service-principal"></a>서비스 주체 추가
 
@@ -183,7 +186,7 @@ Power BI는 테넌트에서 BYOK를 관리할 수 있는 추가 cmdlet을 제공
 
     암호화는 용량 수준에서 사용하도록 설정되지만 암호화 상태는 지정된 작업 영역에 대한 데이터 세트 수준에서 가져옵니다.
 
-- 암호화에 사용되는 키 버전을 전환(또는 _회전_ )하려면 [`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey)를 사용합니다. cmdlet은 단지 키 `-Name`에 대한 `-KeyVaultKeyUri`를 업데이트합니다.
+- 암호화에 사용되는 키 버전을 전환(또는 _회전_)하려면 [`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey)를 사용합니다. cmdlet은 단지 키 `-Name`에 대한 `-KeyVaultKeyUri`를 업데이트합니다.
 
     ```powershell
     Switch-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'
@@ -202,3 +205,14 @@ Power BI는 테넌트에서 BYOK를 관리할 수 있는 추가 cmdlet을 제공
 * [SharePoint Online에 보고서 웹 파트 포함](../collaborate-share/service-embed-report-spo.md)
 
 * [Power BI에서 웹에 게시](../collaborate-share/service-publish-to-web.md)
+
+
+Power BI는 Power BI Premium Gen2를 미리 보기 버전으로 소개했습니다. 이 버전은 다음과 같은 향상된 기능을 통해 Power BI Premium 환경을 개선합니다.
+* 성능
+* 사용자 단위 라이선싱
+* 더 큰 규모
+* 개선된 메트릭
+* 자동 확장
+* 관리 오버헤드 감소
+
+Power BI Premium Gen2에 대한 자세한 내용은 [Power BI Premium 2세대(미리 보기)](service-premium-what-is.md#power-bi-premium-generation-2-preview)를 참조하세요.

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/25/2020
-ms.openlocfilehash: 41c7ba43d16b6d77ecf6324d3cd175dbbabc51a1
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 447fad076d9d171a2bdcb8e9f5aafe9c63555d79
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983406"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668675"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-organization"></a>자습서:  조직의 애플리케이션에 페이지를 매긴 Power BI 보고서 포함
 
@@ -44,6 +44,9 @@ Power BI .NET SDK를 Power BI JavaScript API와 함께 사용하여 Power BI를 
 * P1 용량 이상이 필요합니다. [페이지를 매긴 보고서에는 어떤 크기의 프리미엄 용량이 필요한가요?](../../paginated-reports/paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)를 참조하세요.
 
 아직 **Power BI Pro** 에 등록하지 않은 경우 시작하기 전에 [평가판에 등록](https://powerbi.microsoft.com/pricing/)합니다.
+
+>[!NOTE]
+>[PPU(사용자 단위 Premium)](../../admin/service-premium-per-user-faq.md)가 지원됩니다. 그러나 PPU를 사용 중인 경우 조직의 PPU 사용자만 솔루션에 액세스할 수 있습니다.
 
 ## <a name="set-up-your-power-bi-environment"></a>Power BI 환경 설정
 

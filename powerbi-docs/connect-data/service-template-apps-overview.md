@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: 432f05ed7efe8438d21a285b732ead08d93b8732
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: 773f812ebaeabf02e9a21f09ac5a143d431fbeb0
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349394"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94718917"
 ---
 # <a name="what-are-power-bi-template-apps"></a>Power BI 템플릿 앱이란?
 
@@ -111,7 +111,7 @@ Power BI 템플릿 앱을 사용하면 Power BI Pro 또는 Power BI Premium 사�
 |파일의 내용 | PBIX 파일만 허용됩니다. <br>지원되지 않음: .rdl 파일(페이지를 매긴 보고서), Excel 통합 문서   |
 | 데이터 원본 | 클라우드 예약 데이터 새로 고침에 대해 지원되는 데이터 원본은 허용됩니다. <br>지원되지 않음: <li>라이브 연결(Azure AS 제외)</li> <li>온-프레미스 데이터 원본(개인 및 엔터프라이즈 게이트웨이는 지원되지 않음)</li> <li>실시간(푸시 데이터 세트에 대한 지원 없음)</li> <li>복합 모델</li></ul> |
 | 데이터 세트: 작업 영역 간 | 작업 영역 간 데이터 세트는 허용되지 않습니다.  |
-| 쿼리 매개 변수 | 지원되지 않음: 데이터 세트를 위한 "Any" 또는 "Binary" 형식 블록 새로 고침 작업의 매개 변수 |
+| 쿼리 매개 변수 | 지원되지 않음: 데이터 세트를 위한 “Any”, “Date” 또는 “Binary” 형식 블록 새로 고침 작업의 매개 변수 |
 | Power BI 시각적 개체 | 공개적으로 사용할 수 있는 Power BI 시각적 개체만 지원됩니다. [조직 Power BI 시각적 개체](../developer/visuals/power-bi-custom-visuals-organization.md)는 지원되지 않습니다. |
 | 소버린 클라우드 | 소버린 클라우드에서는 템플릿 앱을 사용할 수 없습니다. |
 

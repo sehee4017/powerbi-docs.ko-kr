@@ -10,12 +10,12 @@ ms.date: 09/16/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: ddd63a4f18c9994e0a89f4028bcdec96eda21600
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 8bfdcd9ba87dd6a4fa12a3750b517a09844d3d6e
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916708"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668491"
 ---
 # <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>*소비자* 및 다른 무료 라이선스 사용자를 위한 Power BI 기능 목록
 
@@ -51,7 +51,7 @@ ms.locfileid: "92916708"
 
     ![프리미엄 사용자임을 보여주는 화면](media/end-user-features/power-bi-free-organization.png)
 
-    무료 사용자가 프리미엄 용량이 있는 조직의 구성원이 되면 고급 기능을 사용할 수 있게 됩니다. Pro 동료가 프리미엄 용량 작업 영역을 사용하여 콘텐츠를 공유하는 한, 무료 사용자도 콘텐츠를 확인하고 Pro 동료와 협업할 수 있습니다.  **이 방법으로 무료 사용자는 다른 사용자가 만든 콘텐츠를 사용할 수 있습니다. 비즈니스 사용자는 Pro 사용자를 비롯한 동료와 함께 동일한 대시보드, 보고서, 앱을 수신, 공유, 협업하여 비즈니스 의사 결정을 내립니다.** 
+    무료 사용자가 프리미엄 용량이 있는 조직의 구성원이 되면 고급 기능을 사용할 수 있게 됩니다. Pro 동료가 프리미엄 용량 작업 영역을 사용하여 콘텐츠를 공유하는 한, 무료 사용자도 콘텐츠를 확인하고 Pro 동료와 협업할 수 있습니다.  이 방법으로 무료 사용자는 다른 사용자가 만든 콘텐츠를 사용할 수 있습니다. 무료 사용자는 Pro 사용자를 비롯한 동료와 함께 동일한 대시보드, 보고서, 앱에서 수신, 공유, 협업을 통해 비즈니스 의사 결정을 내립니다. 
  
     ![무료 사용자가 표시된 화면](media/end-user-features/power-bi-free-user.png)
 

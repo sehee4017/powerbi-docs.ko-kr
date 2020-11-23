@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 03/12/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 0f237efece8403730ea7790d45bca6f5169e53fd
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: ac0935dd6f2239ab96b9e7689a4f8e5bc013efa1
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599530"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512519"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>Power BI Premium 용량 다시 시작
 
@@ -28,6 +28,9 @@ Power BI 공유 용량은 파일 크기, 새로 고침 일정 및 기타 서비�
 
 Power BI는 프리미엄 용량 사용자를 이러한 문제로부터 보호하는 방법을 지속적으로 개선하고 있습니다. 또한 용량이 초과될 때와 그 이유를 분석할 수 있는 도구를 통해 관리자에게 권한을 부여하고 있습니다. 자세한 내용은 [단기 교육 세션](https://www.youtube.com/watch?v=UgsjMbhi_Bk&feature=youtu.be) 및 [긴 교육 세션](https://powerbi.tips/2018/07/)을 참조하세요. 동시에, 중요한 문제가 발생하는 경우 이를 완화하는 기능이 필요합니다. 이러한 문제를 완화하는 가장 빠른 방법은 용량을 다시 시작하는 것입니다.
 
+> [!NOTE]
+> Power BI Premium은 최근 **Premium Gen2** 라는 새 버전의 Premium을 출시했으며, 이 버전은 현재 미리 보기로 제공됩니다. 미리 보기 Gen2 용량은 다시 시작을 요구하지 않으므로, 이 기능은 Premium Gen2에서 사용할 수 없습니다.
+
 ## <a name="is-the-restart-process-safe-will-i-lose-any-data"></a>다시 시작 프로세스는 안전한가요? 데이터가 손실되나요?
 
 용량에 저장된 모든 데이터, 정의, 보고서 및 대시보드는 다시 시작한 후에도 완전히 그대로 유지됩니다. 용량을 다시 시작하는 경우 새로 고침 엔진에서 진행 중인 예약 및 임시 새로 고침이 일시적으로 중지되었다가 대부분의 경우 Power BI에서 기본 제공되는 새로 고침 재시도 논리로 인해 다시 시작됩니다. 용량을 사용할 수 있게 되면 서비스가 영향을 받는 새로 고침을 다시 시도합니다. 다시 시작 프로세스 중에 사용자 인터페이스에서 새로 고침 상태가 변경되지 않을 수 있습니다. 
@@ -40,13 +43,13 @@ Power BI는 프리미엄 용량 사용자를 이러한 문제로부터 보호하
 
 1. Power BI 관리 포털의 **용량 설정** 탭에서 용량으로 이동합니다. 
 
-1. **CapacityRestart** *기능 플래그*를 용량 URL에 추가합니다. `https://app.powerbi.com/admin-portal/capacities/<YourCapacityId>?capacityRestartButton=true`.
+1. **CapacityRestart** *기능 플래그* 를 용량 URL에 추가합니다. `https://app.powerbi.com/admin-portal/capacities/<YourCapacityId>?capacityRestartButton=true`.
 
-1. **고급 설정** > **용량 다시 시작**에서 **용량 다시 시작**을 선택합니다.
+1. **고급 설정** > **용량 다시 시작** 에서 **용량 다시 시작** 을 선택합니다.
 
     ![용량 다시 시작](media/service-admin-premium-restart/restart-capacity.png)
 
-1. **용량 다시 시작** 대화 상자에서 **예, 용량 다시 시작**을 선택합니다.
+1. **용량 다시 시작** 대화 상자에서 **예, 용량 다시 시작** 을 선택합니다.
 
     ![다시 시작 확인](media/service-admin-premium-restart/confirm-restart.png)
 
@@ -58,6 +61,6 @@ Power BI는 프리미엄 용량 사용자를 이러한 문제로부터 보호하
 
 ## <a name="next-steps"></a>다음 단계
 
-[Power BI Premium이란?](service-premium-what-is.md)
+[Power BI 프리미엄이란?](service-premium-what-is.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 03/03/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 3095cfbfd4ed1a965e0a54f1cee0907cb468170d
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 57b1de80112e68849d21e7c34570d9754eaf0058
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91598826"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512818"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Power BI Premium의 대형 모델(미리 보기)
 
@@ -160,3 +160,14 @@ Power BI의 대형 모델은 [Azure Premium Files Storage](/azure/storage/files/
 * [Power BI의 BYOK(Bring Your Own Encryption Key)](service-encryption-byok.md)
 * [용량 함수 작동 방법](service-premium-what-is.md#how-capacities-function)
 * [증분 새로 고침](service-premium-incremental-refresh.md).
+
+
+Power BI는 Power BI Premium Gen2를 미리 보기 버전으로 소개했습니다. 이 버전은 다음과 같은 향상된 기능을 통해 Power BI Premium 환경을 개선합니다.
+* 성능
+* 사용자 단위 라이선싱
+* 더 큰 규모
+* 개선된 메트릭
+* 자동 확장
+* 관리 오버헤드 감소
+
+Power BI Premium Gen2에 대한 자세한 내용은 [Power BI Premium 2세대(미리 보기)](service-premium-what-is.md#power-bi-premium-generation-2-preview)를 참조하세요.

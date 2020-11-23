@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 04/09/2019
-ms.custom: seodec18
+ms.date: 11/11/2020
+ms.custom: ''
 LocalizationGroup: Premium
-ms.openlocfilehash: 21aa643c82887ec9beaca659d9e2e97a0f1cdcc9
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: ec9ef81a4a8f4da0ffdf651d08b307e13212635a
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599306"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512841"
 ---
 # <a name="optimizing-premium-capacities"></a>프리미엄 용량 최적화
 
@@ -27,6 +27,11 @@ ms.locfileid: "91599306"
 - 새 프리미엄 용량 추가
 
 마지막으로, 이 문서의 끝 부분에서는 테스트 접근 방법 및 프리미엄 용량 크기 조정에 대해 설명합니다.
+
+> [!NOTE]
+> Power BI Premium은 최근 **Premium Gen2** 라는 새 버전의 Premium을 출시했으며, 이 버전은 현재 미리 보기로 제공됩니다. Premium Gen2는 프리미엄 용량 관리를 간소화하고 관리 오버헤드를 줄입니다. 자세한 내용은 [Power BI Premium 2세대(미리 보기)](service-premium-what-is.md#power-bi-premium-generation-2-preview)를 참조하세요.
+
+이 문서의 권장 사항 및 모범 사례는 각 데이터 세트의 CPU 사용률과 기타 Power BI 아티팩트가 최적화되어 있음을 전제로 합니다.
 
 ## <a name="best-practices"></a>모범 사례
 
@@ -258,7 +263,7 @@ Azure 용량에 생성된 작업 영역에 테스트 콘텐츠를 추가하고, 
 
 더 복잡한 테스트를 생성하려면 실제 워크로드를 시뮬레이트하는 부하 테스트 애플리케이션을 개발하는 것이 좋습니다. 자세한 내용은 웨비나 [Load Testing Power BI Applications with Visual Studio Load Test](https://powerbi.microsoft.com/blog/week-4-11-webinars-load-testing-power-bi-applications-with-visual-studio-load-test-and-getting-started-with-cds-for-apps-based-model-driven-apps/)(Visual Studio 부하 테스트를 사용하여 Power BI 애플리케이션 부하 테스트)를 참조하세요.
 
-## <a name="acknowledgements"></a>승인
+## <a name="acknowledgments"></a>승인
 
 이 문서는 데이터 플랫폼 MVP이자 [Bitwise Solutions](https://www.bitwisesolutions.com.au/)의 독립 BI 전문가인 Peter Myers가 작성한 것입니다.
 
@@ -268,3 +273,13 @@ Azure 용량에 생성된 작업 영역에 테스트 콘텐츠를 추가하고, 
 > [프리미엄 용량 시나리오](service-premium-capacity-scenarios.md)   
   
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+
+Power BI는 Power BI Premium Gen2를 미리 보기 버전으로 소개했습니다. 이 버전은 다음과 같은 향상된 기능을 통해 Power BI Premium 환경을 개선합니다.
+* 성능
+* 사용자 단위 라이선싱
+* 더 큰 규모
+* 개선된 메트릭
+* 자동 확장
+* 관리 오버헤드 감소
+
+Power BI Premium Gen2에 대한 자세한 내용은 [Power BI Premium 2세대(미리 보기)](service-premium-what-is.md#power-bi-premium-generation-2-preview)를 참조하세요.

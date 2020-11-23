@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 10/01/2020
+ms.date: 11/13/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e052816cb3d633ba5c01d0331e00572a9b51a579
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: eb5b4b37e59a771d65917df5706a7ebbca488d21
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397303"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94669089"
 ---
 # <a name="premium-features-of-dataflows"></a>데이터 흐름의 프리미엄 기능
 
@@ -34,10 +34,10 @@ Power BI Pro 및 Power BI Premium 사용자에 대해 데이터 흐름이 지원
 
 Power BI의 향상된 컴퓨팅 엔진을 사용하면 Power BI Premium 구독자가 할당된 용량을 사용하여 데이터 흐름의 사용을 최적화할 수 있습니다. 향상된 컴퓨팅 엔진을 사용하면 다음과 같은 이점이 제공됩니다.
 
-* *join* , *distinct* , *filter,* *group by* 를 수행하는 작업과 같이 계산된 엔터티에 대해 실행이 오래 걸리는 ETL 단계에 필요한 새로 고침 시간을 대폭 줄여 줍니다.
+* *join*, *distinct*, *filter,* *group by* 를 수행하는 작업과 같이 계산된 엔터티에 대해 실행이 오래 걸리는 ETL 단계에 필요한 새로 고침 시간을 대폭 줄여 줍니다.
 * 엔터티에 대해 DirectQuery 쿼리 수행
 
-향상된 컴퓨팅 엔진을 사용하도록 설정하는 방법은 일반적인 질문에 대한 답변과 함께 다음에 설명됩니다.
+기본적으로 향상된 컴퓨팅 엔진은 **켜짐** 으로 설정되어 있습니다. 향상된 컴퓨팅 엔진이 켜져 있지 않은 경우 향상된 컴퓨팅 엔진을 사용하도록 설정하는 방법은 일반적인 질문에 대한 답과 함께 다음 섹션에 설명되어 있습니다.
 
 ### <a name="using-the-enhanced-compute-engine"></a>향상된 컴퓨팅 엔진 사용
 
@@ -158,6 +158,8 @@ Power BI Premium 구독과 함께 사용할 때 기존 데이터 흐름을 참�
 ## <a name="next-steps"></a>다음 단계
 다음 문서에서는 데이터 흐름 및 Power BI에 관한 자세한 정보를 제공합니다.
 
+* [데이터 흐름 모범 사례](dataflows-best-practices.md)
+* [Power BI Premium 데이터 흐름 워크로드 구성](dataflows-premium-workload-configuration.md)
 * [데이터 흐름 및 셀프 서비스 데이터 준비 소개](dataflows-introduction-self-service.md)
 * [데이터 흐름 만들기](dataflows-create.md)
 * [데이터 흐름 구성 및 사용](dataflows-configure-consume.md)

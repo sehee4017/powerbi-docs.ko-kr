@@ -7,19 +7,19 @@ ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.author: davidi
-ms.date: 10/21/2020
+ms.date: 11/12/2020
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: 0166e7a452c01f7b9dbec294d8087fcd035cb586
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: 7faa8a360a30091c599e8b633fa8f03dc008a3ed
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349440"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668192"
 ---
 # <a name="private-links-for-accessing-power-bi"></a>Power BI 액세스를 위한 프라이빗 링크
 
-Azure 네트워킹은 Power BI에서 보안 액세스를 제공할 수 있도록 하는 두 가지 보안 기능인 Azure Private Links 및 Private Endpoints를 제공합니다. Azure Private Links 및 Private Endpoints를 사용하면 데이터 트래픽이 Microsoft의 백본 네트워크 인프라를 사용하여 비공개로 전송되므로 데이터가 인터넷을 트래버스하지 않습니다. 
+Azure 네트워킹은 Power BI가 Azure 네트워킹 프라이빗 엔드포인트를 통해 보안 액세스를 제공할 수 있도록 하는 Azure Private Link 기능을 제공합니다. Azure Private Links 및 Private Endpoints를 사용하면 데이터 트래픽이 Microsoft의 백본 네트워크 인프라를 사용하여 비공개로 전송되므로 데이터가 인터넷을 트래버스하지 않습니다. 
 
 Private links는 Power BI 서비스의 리소스로 이동할 때 Power BI 사용자가 Microsoft 프라이빗 네트워크 백본을 사용하도록 합니다.
 
@@ -310,6 +310,8 @@ Power BI에서 프라이빗 링크를 사용하여 작업하는 동안 유의해
 * 프라이빗 링크 환경을 사용하는 동안에는 PDF로 내보내기, 보고서에서 Excel로 내보내기 등의 내보내기 서비스 및 기타 내보내기 서비스가 작동하지 않습니다.
 * 일반적으로 RDL 파일(*.rdl 형식 파일)이라고 알려진 SQL Server Reporting Services 보고서는 프라이빗 링크 환경에서 렌더링되지 않습니다.
 * 인터넷 액세스를 사용하지 않고 데이터 세트 또는 데이터 흐름이 데이터 원본인 Power BI 데이터 세트 또는 데이터 흐름에 연결하는 경우 연결이 실패합니다.
+* Private Link가 사용되는 경우 사용 현황 메트릭이 작동하지 *않음*
+* Power BI에서 **Block Public Internet access(퍼블릭 인터넷 액세스 차단)** 를 사용하도록 설정하는 경우 웹에 게시가 지원되지 않습니다(회색으로 표시됨).
 
 
 ## <a name="next-steps"></a>다음 단계

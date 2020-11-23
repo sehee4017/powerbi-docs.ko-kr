@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 09/16/2019
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 82237286fa4d6ac3713ca6674a541b7d59c20a49
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 41db895494c32918fedba7c27664354e45ae2f1c
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92915903"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94511967"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI 프리미엄 FAQ
 
@@ -30,6 +30,11 @@ Power BI Premium은 다음이 포함된 용량 기반 제품입니다.
 * Power BI 서비스의 공유 용량보다 더 커진 규모 및 성능.
 * Power BI Report Server로 BI 자산 온-프레미스를 유지 관리할 수 있는 기능.
 * 하나의 API 표면, 기능의 일관된 집합 및 포함된 분석을 위한 최신 기능에 대한 액세스.
+
+**Power BI Premium 2세대란 무엇인가요?**
+
+Power BI Premium은 최근 **Premium Gen2** 라고 하는 Premium의 새 버전을 출시했으며, 현재 미리 보기로 제공됩니다. Premium Gen2는 프리미엄 용량 관리를 간소화하고 관리 오버헤드를 줄입니다. Premium Gen2에 대한 자세한 내용은 [Power BI Premium 2세대(미리 보기)](service-premium-what-is.md#power-bi-premium-generation-2-preview)를 참조하세요.
+
 
 **Power BI 프리미엄의 기능은? 어떻게 작동합니까?**  
 Power BI Premium은 각 조직에 독점적으로 할당되는 Power BI 서비스의 용량으로 구성됩니다. 이 용량은 Microsoft에서 완전히 관리되는 전용 하드웨어에서 지원됩니다. 조직은 용량을 광범위하게 적용하거나, 사용자 수, 워크로드 요구 또는 기타 요소에 따라 할당된 작업 영역에 할당하도록 선택할 수 있습니다. 요구 사항 변화에 따라 규모를 확장 또는 축소할 수 있습니다.
@@ -59,7 +64,7 @@ Power BI 프리미엄은 용량 기반 라이선스인 반면, Power BI Pro는 �
 Power BI Premium은 가상 코어 수에 따라 구입할 수 있습니다. 가격은 [Power BI 가격 책정 페이지](https://powerbi.microsoft.com/pricing/)에서 확인할 수 있습니다. 노드 및 v 코어에 자세한 내용은 [Microsoft Power BI 프리미엄 백서](https://aka.ms/pbipremiumwhitepaper)를 참조하세요. 또한 이 [계산기](https://powerbi.microsoft.com/calculator/)를 사용하여 필요한 프리미엄 용량을 예측해 보세요.
 
 **“용량”이란 무엇을 의미합니까?**  
-용량이란 Power BI Premium 용량 관리 포털을 통해 관리자에 의해 프로비전되는 하나 이상의 노드 그룹을 가리킵니다. 자세한 내용은 [Microsoft Power BI 프리미엄 백서](https://aka.ms/pbipremiumwhitepaper)를 참조하세요.
+용량은 Power BI 사용을 위해 조직에 예약된 컴퓨팅 성능의 양입니다. 서비스 관리자가 Power BI Premium 관리 포털의 **용량 관리** 페이지에서 용량을 프로비저닝합니다.
 
 **Power BI 프리미엄의 청구는 어떻게 이루어집니까?**  
 Power BI 프리미엄은 연간 약정으로 월별 요금이 청구됩니다.

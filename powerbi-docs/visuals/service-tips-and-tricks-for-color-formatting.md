@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/29/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bce798e07a3bdac0ba52f56e9ddf7eac72087924
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.openlocfilehash: 6f64db7be452cf5873a862f378f558bc4f177c56
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483957"
+ms.locfileid: "94513128"
 ---
 # <a name="tips-and-tricks-for-formatting-in-reports"></a>보고서의 서식을 위한 팁과 힌트
 
@@ -40,12 +40,12 @@ Power BI는 보고서를 사용자 지정할 수 있는 다양한 방법을 제�
 
 보고서 캔버스 오른쪽에 **필터** 및 **시각화** 창이 나타나면 사용자 지정을 시작할 준비가 된 것입니다. 창이 표시되지 않으면 오른쪽 위 모서리의 화살표를 선택하여 창을 엽니다.
 
-![편집용 보기에서 캔버스 보고](media/service-tips-and-tricks-for-color-formatting/power-bi-edit.png)
+![편집용 보기에서 캔버스 보고](media/service-tips-and-tricks-for-color-formatting/power-bi-edit-filter.png)
 
 ## <a name="apply-a-theme"></a>테마 적용
 보고서 테마를 사용하여 전체 보고서에 디자인 변경 내용을 적용할 수 있습니다. 예를 들어, 회사 색을 사용하거나 아이콘 세트를 변경하거나 새로운 기본 시각적 서식을 적용할 수 있습니다. 보고서 테마를 적용하면 보고서의 모든 시각적 개체는 선택한 테마의 색과 서식을 사용합니다. 자세히 알아보려면 [보고서 테마 사용](../create-reports/desktop-report-themes.md)을 참조하세요.
 
-![메뉴 모음에서 테마 아이콘 전환](media/service-tips-and-tricks-for-color-formatting/power-bi-theme.png)
+![메뉴 모음에서 테마 아이콘 전환](media/service-tips-and-tricks-for-color-formatting/power-bi-themes.png)
 
 여기에서 판매 및 마케팅 보고서에 **혁신** 테마를 적용했습니다.
 
@@ -56,13 +56,13 @@ Power BI는 보고서를 사용자 지정할 수 있는 다양한 방법을 제�
 
 다음 시각화는 제품 세그먼트별로 판매된 단위의 순위를 보여 줍니다. 
 
-![데이터 색을 회색으로 변경](media/service-tips-and-tricks-for-color-formatting/power-bi-data.png)
+![데이터 색을 회색으로 변경](media/service-tips-and-tricks-for-color-formatting/power-bi-format.png)
 
 이제 색을 사용하여 이 브랜드의 새 세그먼트가 얼마나 잘 운영되는지 보여 주기 위해 **Convenience** 세그먼트를 살펴보겠습니다. 수행하는 단계는 다음과 같습니다.
 
 **데이터 색** 카드를 확장하고 **모두 표시** 의 슬라이더를 켜기로 전환합니다. 그러면 시각화에서 각 데이터 요소에 대한 색이 표시됩니다. 이제 데이터 요소를 수정할 수 있습니다.
 
-![모두 표시가 켜기로 설정된 서식 창](media/service-tips-and-tricks-for-color-formatting/power-bi-show.png)
+![모두 표시가 켜기로 설정된 서식 창](media/service-tips-and-tricks-for-color-formatting/power-bi-show-all.png)
 
 **Convenience** 를 주황색으로 설정합니다. 
 
@@ -84,9 +84,9 @@ Power BI는 보고서를 사용자 지정할 수 있는 다양한 방법을 제�
 다음 섹션에서는 숫자 값을 기준으로 색을 지정하는 다양한 방법을 보여줍니다.
 
 ### <a name="base-the-color-of-data-points-on-a-value"></a>값 기준 데이터 요소 색
-값을 기준으로 색을 변경하려면 시각화를 선택하여 활성 상태로 만듭니다. 페인트 롤러 아이콘을 선택하여 서식 창을 연 다음 **데이터 색** 카드를 확장합니다. 카드를 마우스로 가리킨 후 표시되는 세로 점 세 개를 선택하고 **조건부 서식** 을 선택합니다.  
+값을 기준으로 색을 변경하려면 시각화를 선택하여 활성 상태로 만듭니다. 페인트 롤러 아이콘을 선택하여 서식 창을 연 다음 **데이터 색** 카드를 선택합니다. **기본 색** 아래에서 fx 아이콘을 선택합니다.  
 
-![세 개의 세로 점을 클릭하여 조건부 서식 지정 옵션 선택](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-formatting.gif)
+![세 개의 세로 점을 클릭하여 조건부 서식 지정 옵션 선택](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional.png)
 
 **기본 색** 창에서 드롭다운을 사용하여 조건부 서식 지정에 사용할 필드를 식별합니다. 이 예제에서는 **Sales 팩트** > **총 단위** 필드를 선택하고 **최솟값** 에 대해 밝은 파란색과 **최댓값** 에 대해 진한 파란색을 선택합니다. 
 

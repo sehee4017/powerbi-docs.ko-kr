@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 06/02/2020
-ms.openlocfilehash: 21f497a7c88134232a86afb9d16142719a6b711e
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.openlocfilehash: dab16218406a4b97c9e2aa01974380ba09dde003
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483791"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94719009"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>자습서:  고객의 애플리케이션에 Power BI 콘텐츠 포함
 
@@ -35,6 +35,9 @@ ms.locfileid: "94483791"
 * 고유한 [Azure Active Directory 테넌트 ](create-an-azure-active-directory-tenant.md) 설정이 필요합니다.
 
 아직 **Power BI Pro** 에 등록하지 않은 경우 시작하기 전에 [평가판에 등록](https://powerbi.microsoft.com/pricing/)합니다.
+
+>[!NOTE]
+>[PPU(사용자 단위 Premium)](../../admin/service-premium-per-user-faq.md)가 지원되지 않습니다. PPU를 사용하여 *고객에 대한 콘텐츠 포함* 솔루션을 실험할 수는 있지만 [프로덕션으로 이동](embed-sample-for-customers.md#move-to-production)할 수는 없습니다.
 
 ## <a name="set-up-your-embedded-analytics-development-environment"></a>임베디드 분석 개발 환경 설정
 
@@ -340,9 +343,9 @@ var targetWorkspaces = new List<GenerateTokenRequestV2TargetWorkspace>()
 
 var request = new GenerateTokenRequestV2()
 {
-    Datasets = datasetsRequestDetails ?? null,
-    Reports = reportsRequestDetails,
-    TargetWorkspaces = targetWSRequestdetials ?? null,
+    Datasets = datasets,
+    Reports = reports,
+    TargetWorkspaces = targetWorkspaces,
 };
 
 var token = client.GetClient().EmbedToken.GenerateToken(request);

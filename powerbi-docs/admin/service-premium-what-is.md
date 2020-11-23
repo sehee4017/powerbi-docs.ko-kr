@@ -7,32 +7,81 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 07/28/2020
+ms.date: 11/12/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: cb8ac0ad558f15219829e9f32111cacf9f27eb25
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.openlocfilehash: d5879d6a8469b23f6e31e48345ac3ccb5f378cbb
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483745"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668215"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium이란?
 
-Power BI Premium을 사용하여 조직 전용의 향상된 리소스를 가져올 수 있으므로 조직 내 사용자는 더 나은 성능 및 응답성으로 Power BI 서비스를 사용할 수 있습니다. 예를 들어 Power BI Premium 구독을 사용하면 사용자와 조직 내 사용자가 다음에 액세스할 수 있습니다.
+Power BI Premium을 사용하면 Premium에서만 사용 가능한 기능에 액세스하고 조직의 Power BI 콘텐츠에 더 큰 규모와 성능을 제공할 수 있습니다. 조직의 사용자는 Power BI Premium을 사용하면 더 나은 성능과 응답성으로 Power BI를 최대한 활용할 수 있습니다. 예를 들어 Power BI Premium을 사용하면 다음과 같은 이점을 얻을 수 있습니다.
 
 > [!div class="checklist"]
-> * 더 커진 규모 및 성능
+> * Power BI 보고서에 대한 스케일링 및 성능 향상
 > * 용량별 라이선스 유연성
-> * 셀프 서비스 및 엔터프라이즈 BI 통합
-> * Power BI Report Server를 사용하여 온-프레미스 BI 확장
-> * 지역별 데이터 상주 지원(다중 지역)
-> * 사용자별 라이선스를 구입하지 않고 다른 사용자와 데이터 공유
+> * AI 기반 분석, 구성 가능하고 재사용 가능한 데이터 흐름, 페이지를 매긴 보고서 등 데이터 시각화 및 인사이트 추출을 위한 동급 최고의 기능
+> * 더 과중한 워크로드를 지원하고 엔터프라이즈 규모를 요구하는 다양한 Premium 전용 기능으로 셀프 서비스 및 엔터프라이즈 BI 통합
+> * Power BI Report Server를 사용하여 온-프레미스 BI를 확장하는 기본 제공 라이선스
+> * 지역별 데이터 상주(Multi-Geo) 및 미사용 데이터에 대한 고객 관리형 암호화 키(BYOK) 지원
+> * 사용자 단위 라이선스를 구매하지 않고 Power BI 콘텐츠를 모든 사용자(조직 외부 사용자 포함)와 공유하는 기능
 
 
 ![Power BI 관리 포털을 보여 주는 스크린샷.](media/service-premium-what-is/premium-admin-portal.png) 
 
 이 문서에서는 Power BI Premium의 주요 기능을 소개합니다. 필요한 경우 보다 자세한 정보가 포함된 추가 문서에 대한 링크를 제공합니다. Power BI Pro 및 Power BI Premium에 대한 자세한 내용은 [Power BI 가격](https://powerbi.microsoft.com/pricing/)의 _Power BI 기능 비교_ 섹션을 참조하세요.
+
+## <a name="power-bi-premium-generation-2-preview"></a>Power BI Premium 2세대(미리 보기)
+
+Power BI Premium은 Power BI Premium의 새 버전인 **Power BI Premium 2세대** 를 출시했습니다. 이를 편의상 **Premium Gen2** 라고 합니다. Premium Gen2는 현재 미리 보기 상태이며, Premium 구독자는 미리 보기 기간에 사용할 수 있습니다. Premium의 원래 버전을 사용하도록 선택하거나 Premium Gen2를 사용하도록 전환할 수 있습니다. 프리미엄 용량에 대해서는 하나만 사용할 수 있습니다. 
+
+Premium Gen2는 다음과 같은 업데이트 또는 개선된 환경을 제공합니다.
+
+* 용량 기준 외에 **사용자 단위 Premium** 라이선스를 부여하는 기능
+
+* 용량 크기와 상관없이 언제든 **성능** 향상 분석 작업은 Premium Gen2에서 16배 더 빠르게 실행됩니다. 작업은 항상 최고 속도로 수행되며 용량의 부하가 용량 제한에 도달할 경우 속도가 저하되지 않습니다.
+
+* **더 큰 규모**:
+    * 새로 고침 동시성에 *제한이 없으며*, 더 이상 사용자의 용량에서 새로 고쳐지는 데이터 세트에 대한 일정을 추적할 필요가 없음
+    * 메모리 제한 감소
+    * 보고서 상호 작용 및 예약된 새로 고침 간의 완전한 분리
+
+* 용량이 수행하는 분석 작업의 복잡성에만 의존하며 크기, 수행하는 동안 시스템의 부하 수준 등에 의존하지 않는 정규화된 명확한 용량 사용률 데이터로 **개선된 메트릭**. 메트릭이 개선되어 사용률 분석, 예산 계획, 차지백, 업그레이드 필요성 등이 기본 제공 보고 기능에서 명확하게 표시됩니다. 개선된 메트릭은 미리 보기 기간 내내 사용 가능하며 계속해서 향상됩니다. 
+
+* **자동 스케일링** 을 사용하면 용량의 부하가 한도를 초과할 때 24시간 동안 한 번에 하나씩 v 코어를 *자동으로 추가* 할 수 있으므로 과부하로 인한 속도 저하를 방지할 수 있습니다. 유휴 시간이 감지되면 v 코어가 자동으로 제거됩니다. 추가 v 코어는 종량제 기준으로 Azure 구독에 청구됩니다. 자동 스케일링은 미리 보기 기간에 사용할 수 있습니다. 
+
+* 용량 사용률 수준 및 부하 증가에 대한 관리자 알림을 사전에 구성할 수 있으므로 **관리 오버헤드가 크게 감소** 됩니다.
+
+
+### <a name="using-premium-gen2"></a>Premium Gen2 사용
+
+업데이트를 활용하려면 Premium Gen2를 사용하도록 설정해야 합니다. Premium Gen2를 사용하도록 설정하려면:
+
+1. 관리 포털에서 **용량 설정** 으로 이동합니다.
+2. **Power BI Premium** 을 선택합니다.
+3. **Premium 2세대(미리 보기)** 라는 제목의 섹션이 표시되며, 해당 섹션에는 Premium 2세대(미리 보기)를 사용하도록 설정하는 슬라이더가 있습니다. 
+4. 슬라이더를 **사용** 으로 이동합니다.
+
+다음 이미지는 Premium Gen2를 사용하도록 설정하는 방법을 보여 줍니다. 
+
+![Premium 2세대를 사용하도록 설정](media/service-premium-what-is/enable-premium-gen2.gif#lightbox) 
+
+### <a name="known-limitations-in-premium-gen2"></a>Premium Gen2의 알려진 제한 사항
+
+현재 Premium Gen2에는 다음과 같은 알려진 제한 사항이 적용됩니다.
+
+1.  Premium Gen2 용량 사용률은 메트릭 앱에서 추적할 수 없습니다.
+
+2.  특정 워크로드에 대한 Premium Gen2 용량 설정은 관리 포털의 Premium Gen2 용량 설정 페이지에 아직 표시되지 않습니다. 설정을 변경하려면 용량을 Premium의 원래 버전으로 전환하고, 설정을 변경한 다음, 다시 한 번 Premium Gen2를 사용하도록 용량을 설정합니다. 메모리 할당 설정은 Premium Gen2 용량에 적용되지 않습니다.
+
+3.  ADLS Gen2 데이터 원본이 있는 데이터 흐름은 현재 Premium Gen2 용량에서 작동하지 않습니다.  
+
+4.  Premium Gen2에서 XMLA를 사용하는 경우 최신 버전의 [데이터 모델링 및 관리 도구](service-premium-connect-tools.md#data-modeling-and-management-tools)를 사용하고 있는지 확인하세요. 
+
 
 ## <a name="subscriptions-and-licensing"></a>구독 및 라이선스
 
@@ -42,19 +91,22 @@ Power BI Premium은 두 개의 SKU(Stock Keeping Unit) 제품군에서 사용할
 
 - _조직_ 포함에 대한 **EM** SKU(EM1-EM3)는 매월 청구되며 연간 약정이 필요합니다. EM1 및 EM2 SKU는 볼륨 라이선스 계획을 통해서만 사용할 수 있습니다. 직접 구입할 수는 없습니다.
 
-또 다른 방법은 Azure에서 **Power BI Embedded** 구독을 구매하는 것입니다. 약정이 필요 없고 시간 단위로 청구되는 단일 **A** (A1-A6) SKU 제품군이 있으며 애플리케이션, 포털 및 웹 사이트에서 Power BI 화이트 라벨링을 사용하거나 P 또는 EM 용량을 테스트하기 위한 방법으로 사용됩니다. 모든 SKU는 v 코어를 제공하여 용량을 만들지만 EM SKU는 소규모 포함용으로 제한됩니다. 4개 미만의 V 코어를 가진 EM1, EM2, A1 및 A2 SKU는 전용 인프라에서 실행되지 않습니다.
+### <a name="updates-for-premium-gen2-preview"></a>Premium Gen2 업데이트(미리 보기)
+Premium Gen2는 현재 **P** 및 **EM** SKU에 대해서만 완전히 지원되는 미리 보기 기능으로 제공됩니다. **A** SKU 용량은 Premium Gen2 미리 보기 업데이트에 도입된 모든 추가 혜택을 아직 제공하지 않습니다.
 
-이 문서의 초점은 P SKU에 맞춰져 있지만 설명된 내용의 대부분은 A SKU와 관련이 있습니다. 프리미엄 구독 SKU와 달리 Azure SKU는 시간 약정 없이 시간당 청구됩니다. 규모 확장, 규모 축소, 일시 중지, 다시 시작 및 삭제를 가능하게 하는 완벽한 탄력성을 제공합니다. 
-
-Azure Power BI Embedded는 이 문서의 범위를 크게 벗어나지만 워크로드를 테스트하고 측정하기 위한 실용적이고 경제적인 옵션으로 Optimizing Premium 용량 문서의 [Testing Approaches](service-premium-capacity-optimize.md#testing-approaches) 섹션에 설명되어 있습니다. Azure SKU에 대한 자세한 내용은 [Azure Power BI Embedded 설명서](https://azure.microsoft.com/services/power-bi-embedded/)를 참조하세요.
 
 ### <a name="purchasing"></a>구매
 
 Power BI Premium 구독은 Microsoft 365 관리 센터에서 관리자가 구입합니다. 구체적으로 전역 관리자 또는 대금 청구 관리자만 SKU를 구입할 수 있습니다. 구매 시 테넌트는 *v 코어 풀링* 으로 알려진 용량에 할당할 해당 v 코어 수를 받습니다. 예를 들어 P3 SKU를 구매하면 32 V 코어의 테넌트를 제공합니다. 자세히 알아보려면 [Power BI Premium 구매 방법](service-admin-premium-purchase.md)을 참조하세요.
 
-## <a name="dedicated-capacities"></a>전용 용량
+#### <a name="power-bi-premium-per-user-preview"></a>사용자 단위 Power BI Premium(미리 보기)
 
-Power BI Premium을 사용하면 *전용 용량* 을 가져올 수 있습니다. 워크로드가 다른 고객과 공유되는 계산 리소스에서 실행되는 공유 용량과는 달리 전용 용량은 조직에서 단독으로 사용하는 것입니다. 호스팅된 콘텐츠에 대해 신뢰할 수 있고 일관된 성능을 제공하는 전용 계산 리소스로 격리됩니다. 다음 리소스는 전용 용량이 아닌 공유 용량에 저장됩니다.
+**사용자 단위 Power BI Premium** 을 사용하면 조직에서 사용자 단위로 Premium 기능의 라이선스를 부여할 수 있습니다. PPU(사용자 단위 Premium)는 모든 Power BI Pro 라이선스 기능을 포함하며, 페이지를 매긴 보고서와 AI 같은 기능 및 Premium 구독자만 사용할 수 있는 기타 기능을 추가합니다. 사용자 단위 Premium은 현재 미리 보기로 제공됩니다. 기능 비교 및 미리 보기 릴리스에 대한 기타 정보를 포함하여 사용자 단위 Premium에 대한 자세한 내용은 [사용자 단위 Power BI Premium FAQ(미리 보기)](service-premium-per-user-faq.md) 문서를 참조하세요. 
+
+
+## <a name="reserved-capacities"></a>예약된 용량
+
+Power BI Premium에서는 *예약된 용량* 이 제공됩니다. 워크로드의 분석 처리가 다른 고객과 공유되는 계산 리소스에서 실행되는 공유 용량과는 달리 예약된 용량은 조직에서 단독으로 사용하는 것입니다. 호스트된 콘텐츠에 대해 신뢰할 수 있고 일관된 성능을 제공하는 예약된 계산 리소스로 격리됩니다. 다음 유형의 Power BI 콘텐츠 처리는 예약된 용량이 아닌 공유 용량에 저장됩니다.
 
 * Excel 통합 문서(데이터를 Power BI Desktop으로 먼저 가져오는 경우 제외)
 * [푸시 데이터 세트](/rest/api/power-bi/pushdatasets)
@@ -62,6 +114,12 @@ Power BI Premium을 사용하면 *전용 용량* 을 가져올 수 있습니다.
 * [질문 및 답변](../create-reports/power-bi-tutorial-q-and-a.md)
 
 작업 영역은 용량 내에 상주합니다. 각 Power BI 사용자는 **내 작업 영역** 이라는 개인 작업 영역을 갖습니다. 협업을 사용하도록 설정하기 위해 **작업 영역** 이라는 추가 작업 영역을 만들 수 있습니다. 기본적으로 개인 작업 영역을 포함한 작업 영역은 공유 용량에서 생성됩니다. 프리미엄 용량이 있는 경우 내 작업 영역 및 작업 영역을 모두 프리미엄 용량에 할당할 수 있습니다.
+
+용량 관리자가 자동으로 내 작업 영역을 프리미엄 용량에 할당합니다.
+
+### <a name="updates-for-premium-gen2-preview"></a>Premium Gen2 업데이트(미리 보기)
+Premium Gen2 노드는 더 이상 예약된 인프라를 사용하지 않습니다. 대신, 이 서비스는 고성능 컴퓨팅 노드의 공유 풀에서 충분한 리소스를 할당하여 실행 중인 각 워크로드에서 충분한 컴퓨팅 성능을 사용할 수 있도록 합니다.
+
 
 ### <a name="capacity-nodes"></a>용량 노드
 
@@ -82,17 +140,22 @@ Power BI Premium을 사용하면 *전용 용량* 을 가져올 수 있습니다.
 | EM1/A1 | 1 | 0.5 | 3 | 0.5 | 3.75 | 1 |
 | EM2/A2 | 2 | 1 | 5 | 1 | 7.5 | 2 |
 | EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
-| P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
-| P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
-| P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
-| P4/A7 <sup>[1](#limit)</sup>| 64 | 32 | 200 | 32 | 240 | 48 |
-| P5/A8 <sup>[1](#limit)</sup>| 128 | 64 | 400 | 64 | 480 | 96 |
+| P1 | 8 | 4 | 25 | 4 | 30 | 6 |
+| P2 | 16 | 8 | 50 | 8 | 60 | 12 |
+| P3 | 32 | 16 | 100 | 16 | 120 | 24 |
+| P4 <sup>[1](#limit)</sup>| 64 | 32 | 200 | 32 | 240 | 48 |
+| P5 <sup>[1](#limit)</sup>| 128 | 64 | 400 | 64 | 480 | 96 |
 | | | | | | | |
 
 <a name="limit">1</a> - 특별 요청에 의해서만. 100GB 이상의 매우 큰 모델에 해당합니다.
 
 >[!NOTE]
 >더 큰 단일 SKU(예: P2 SKU 1개)를 사용하는 것이 두 개의 더 작은 SKU(예: P1 SKU 2개)를 결합하는 것보다 더 바람직할 수 있습니다. 예를 들어 더 큰 모델을 사용하고 P2를 사용하여 더 나은 병렬 처리를 달성할 수 있습니다.
+
+#### <a name="updates-for-premium-gen2-preview"></a>Premium Gen2 업데이트(미리 보기)
+
+**Premium Gen2** 에서는 각 노드 크기에서 사용할 수 있는 메모리의 양이 메모리의 누적 소비가 아니라 단일 아티팩트의 메모리 공간 제한으로 설정됩니다. 예를 들어, 동시에 처리되는 데이터 세트의 총 메모리 공간이 25GB로 제한되었던 원래 Premium과 비교할 때 Premium Gen2에서는 단일 데이터 세트 크기만 25GB로 제한됩니다.
+
 
 ### <a name="capacity-workloads"></a>용량 워크로드
 
@@ -123,6 +186,10 @@ Power BI Premium을 사용하면 *전용 용량* 을 가져올 수 있습니다.
 모델을 메모리에 로드해야 하므로 가져오기 모델의 새로 고침은 항상 메모리 집약적입니다. 처리를 위해 추가 메모리가 필요합니다. 전체 새로 고침은 모델에 필요한 메모리 양의 약 두 배를 사용할 수 있습니다. 이렇게 하면 새로 고침이 완료되고 새 모델 데이터를 사용할 수 있을 때까지 쿼리가 기존 모델로 전송되기 때문에 모델을 처리할 때도 쿼리할 수 있습니다. 증분 새로 고침은 메모리가 적게 필요하며 더 빠르게 완료할 수 있으므로 용량 리소스에 대한 부담을 크게 줄일 수 있습니다. 새로 고침은 모델, 특히 복잡한 Power Query 변환이 있는 복잡하거나 큰 테이블을 기반으로 계산된 테이블/열에 대해 CPU가 많이 사용될 수 있습니다.
 
 쿼리와 마찬가지로 새로 고침은 모델을 메모리에 로드해야 합니다. 메모리가 부족한 경우 Power BI 서비스는 비활성 모델을 제거하려고 시도하며, 이것이 불가능한 경우(모든 모델이 활성 상태이므로) 새로 고침 작업이 대기합니다. 새로 고침은 일반적으로 CPU 집약적이며 쿼리보다 더 많이 사용합니다. 이러한 이유로 동시 새로 고침 수에 대한 용량 제한이 있으며 백 엔드 v 코어 수를 1.5를 곱하고 반올림해서 설정합니다. 동시 새로 고침이 너무 많으면 예약된 새로 고침이 대기합니다. 이러한 상황이 발생하면 새로 고침을 완료하는 데 시간이 오래 걸립니다. 사용자 요청 또는 API 호출에 의해 트리거된 것과 같은 주문형 새로 고침은 \[[1](#endnote-1)\] 세 번 다시 시도합니다. 여전히 리소스가 충분하지 않으면 새로 고침이 실패합니다.
+
+#### <a name="updates-for-premium-gen2-preview"></a>Premium Gen2 업데이트(미리 보기)
+Premium Gen2에는 누적된 메모리 제한이 필요하지 않으므로 새로 고치면 항상 충분한 메모리를 사용할 수 있습니다. 또한 v 코어당 1.5배 새로 고침 실행의 제한이 없습니다. 사용자는 언제든지 새로 고침을 필요한 만큼 예약하고 실행할 수 있으며 Power BI 서비스는 최상의 노력으로 예약된 시간에 새로 고침을 실행합니다.
+
 
 섹션 참고 사항:   
 <a name="endnote-1"></a>\[1\] 변경될 수 있습니다.
@@ -157,6 +224,10 @@ Power BI Premium을 사용하면 *전용 용량* 을 가져올 수 있습니다.
 
 ![Power BI 관리 포털의 용량 상태를 보여 주는 스크린샷.](media/service-premium-what-is/premium-admin-portal-health.png)
 
+> [!NOTE]
+> **Premium Gen2(미리 보기)** - Premium Gen2는 한 가지 측면, 즉 언제든지 용량이 부하를 처리하는 데 필요한 CPU 시간만 모니터링하면 됩니다. 구매한 SKU 크기당 CPU 시간을 초과하는 경우에는 요구에 맞게 용량을 자동으로 스케일링하거나 구성 설정에 따라 대화형 작업을 제한할 수 있습니다.
+
+
 **Power BI Premium Capacity Metrics** 앱은 용량이 수행되는 방법에 대해 가장 심층적인 정보를 제공합니다. 이 앱은 높은 수준의 대시보드와 보다 상세한 보고서를 제공합니다.
 
 ![메트릭 앱 대시보드](media/service-admin-premium-monitor-capacity/app-dashboard.png)
@@ -166,6 +237,10 @@ Power BI Premium을 사용하면 *전용 용량* 을 가져올 수 있습니다.
 ![쿼리 대기 시간 카운트의 주기적인 피크는 잠재적인 CPU 포화 상태를 나타냅니다.](media/service-premium-capacity-scenarios/peak-query-wait-times.png)
 
 용량 모니터링에 대한 자세한 내용은 [Power BI 관리 포털에서 모니터링](service-admin-premium-monitor-portal.md) 및 [Power BI Premium 용량 메트릭 앱을 통한 모니터링](service-admin-premium-monitor-capacity.md)을 참조하세요.
+
+#### <a name="updates-for-premium-gen2-preview"></a>Premium Gen2 업데이트(미리 보기)
+**Premium Gen2** 용량은 메트릭 앱을 사용하지 않으며, 미리 보기 중에 사용할 수 있게 되는 용량 사용률 앱을 사용 합니다. 각 용량에 대한 **관리 포털** 의 용량 관리 페이지에서 용량 사용률 앱을 시작할 수 있습니다.
+
 
 ### <a name="optimizing-capacities"></a>용량 최적화
 
@@ -187,9 +262,9 @@ SKU에 따라 Power BI Premium은 최대 **10GB** 크기까지 Power BI Desktop(
 
    |SKU  |.pbix의 크기   |
    |---------|---------|
-   |P1/A4    | < 3GB        |
-   |P2/A5    | < 6GB        |
-   |P3/A6, P4, P5    | 최대 10GB   |
+   |P1    | < 3GB        |
+   |P2    | < 6GB        |
+   |P3, P4, P5    | 최대 10GB   |
 
 Power BI Embedded A4 SKU는 P1 SKU, A5 = P2 및 A6 = P3과 같습니다.
 
@@ -216,6 +291,21 @@ Power BI Embedded A4 SKU는 P1 SKU, A5 = P2 및 A6 = P3과 같습니다.
 P1-P3 및 A4_A6 SKU에서 지원되는 페이지를 매긴 보고서는 SQL Server Reporting Services의 RDL(Report Definition Language) 기술을 기반으로 합니다. RDL 기술을 기반으로 하지만, Power BI Premium에도 포함된 온-프레미스에 설치할 수 있는 다운로드 가능한 보고 플랫폼인 Power BI Report Server와는 다릅니다. 페이지를 매긴 보고서는 인쇄하거나 공유할 수 있는 페이지에 잘 맞도록 형식이 지정됩니다. 테이블이 여러 페이지에 걸쳐 있더라도 데이터는 테이블에 표시됩니다. 무료 [**Power BI 보고서 작성기**](https://aka.ms/pbireportbuilder) Windows Desktop 애플리케이션을 사용하여 사용자가 페이지를 매긴 보고서를 작성하여 서비스에 게시합니다.
 
 Power BI Premium에서 페이지를 매긴 보고서는 관리 포털을 사용하여 용량을 활성화해야 하는 워크로드입니다. 용량 관리자는 용량 전체 메모리 리소스의 백분율로 메모리 양을 활성화한 다음, 지정할 수 있습니다. 다른 유형의 워크로드와 달리 프리미엄은 용량 내 포함된 공간에서 페이지를 매긴 보고서를 실행합니다. 워크로드가 활성 상태인지 여부와 관계없이 이 공간에 지정하는 최대 메모리가 사용됩니다. 기본값은 20%입니다. 
+
+> [!NOTE]
+> **Premium Gen2(미리 보기)** 에서는 페이지를 매긴 보고서에 대한 메모리 관리가 없습니다. Premium Gen2에서는 페이지를 매긴 보고서가 EM1-EM3 SKU에서 지원됩니다.
+
+### <a name="paginated-reports-and-premium-gen2"></a>페이지를 매긴 보고서 및 Premium Gen2
+
+Premium Gen2를 사용하는 경우, Power BI의 페이지를 매긴 보고서는 Premium Gen2에 반영된 아키텍처 및 엔지니어링 개선 사항의 이점을 활용합니다. 다음 섹션에서는 페이지를 매긴 보고서에 대한 Premium Gen2의 이점에 대해 설명합니다.
+
+**더 넓은 SKU 가용성** - Premium Gen2에서 실행되는 페이지를 매긴 보고서는 사용 가능한 모든 포함된 SKU 및 Premium SKU 전체에서 보고서를 실행할 수 있습니다. 청구는 24시간 동안 CPU 시간별로 계산됩니다. 이를 통해 페이지를 매긴 보고서를 지원하는 SKU가 크게 확장됩니다.
+
+**동적 스케일링** - Premium Gen2에서는 활동 급증 또는 리소스 요구와 관련된 문제를 필요에 따라 동적으로 처리할 수 있습니다. 
+
+**향상된 캐싱** - Premium Gen2 이전에는 워크로드의 용량에 할당된 메모리 컨텍스트에서 많은 작업을 수행하기 위해 페이지를 매긴 보고서가 필요했습니다. 이제 Premium Gen2를 사용하면 많은 작업에 필요한 메모리가 감소되므로 다른 사용자 세션에 영향을 주지 않고 장기 실행 작업을 수행하는 고객의 능력이 향상됩니다. 
+
+**향상된 보안 및 코드 격리** - Premium Gen2에서는 원래 Premium 제품의 경우와 마찬가지로 용량 단위가 아니라 사용자 단위 수준에서 코드 격리가 발생할 수 있습니다. 
 
 자세한 내용은 [Power BI Premium의 페이지를 매긴 보고서](../paginated-reports/paginated-reports-report-builder-power-bi.md)를 참조하세요. 페이지를 매긴 보고서 워크로드를 사용하도록 설정하는 방법에 대한 자세한 내용은 [워크로드 구성](service-admin-premium-workloads.md)을 참조하세요.
 
@@ -249,6 +339,7 @@ Premium을 사용하면 조직의 내외에 있는 누구나 개별 라이선스
 ## <a name="next-steps"></a>다음 단계
 
 > [!div class="nextstepaction"]
-> [프리미엄 용량 관리](service-premium-capacity-manage.md)
+> [Premium 용량 관리](service-premium-capacity-manage.md)
+> [Azure Power BI Embedded 설명서](https://azure.microsoft.com/services/power-bi-embedded/)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

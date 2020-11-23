@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 07/15/2019
+ms.date: 11/17/2020
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: b3f3dd39953ad382ab934bf87021123b949733fd
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bb61f752891205a0e8997592d522efb2022a562b
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237051"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94719032"
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>데이터 원본 관리 - 가져오기/예약된 새로 고침
 
@@ -39,7 +39,7 @@ ms.locfileid: "85237051"
 
 예약된 새로 고침에 사용할 수 있는 데이터 원본 유형 목록은 [사용 가능한 데이터 원본 유형 목록](service-gateway-data-sources.md#list-of-available-data-source-types)을 참조하세요.
 
-모든 항목을 입력한 후 **추가**를 선택합니다. 이제 온-프레미스 데이터에 대한 예정된 새로 고침에 이 데이터 원본을 사용할 수 있습니다. 성공한 경우 *연결 성공*이 표시됩니다.
+모든 항목을 입력한 후 **추가** 를 선택합니다. 이제 온-프레미스 데이터에 대한 예정된 새로 고침에 이 데이터 원본을 사용할 수 있습니다. 성공한 경우 *연결 성공* 이 표시됩니다.
 
 ![연결 상태 표시](media/service-gateway-enterprise-manage-scheduled-refresh/datasourcesettings4.png)
 
@@ -56,18 +56,17 @@ ms.locfileid: "85237051"
 > [!NOTE]
 > 서버 및 데이터베이스 이름은 온-프레미스 데이터 게이트웨이 내에서 Power BI Desktop 및 데이터 원본 간에 일치해야 합니다.
 
-게이트웨이 내에서 데이터 세트 및 데이터 원본 간의 링크는 서버 이름 및 데이터베이스 이름을 기반으로 합니다. 해당 이름은 서로 일치해야 합니다. 예를 들어 Power BI Desktop 내에서 서버 이름에 대한 IP 주소를 제공하는 경우 게이트웨이 구성 내에서 데이터 원본에 대한 IP 주소를 사용해야 합니다. Power BI Desktop에서 *SERVER\INSTANCE*를 사용하는 경우 게이트웨이에 대해 구성된 데이터 원본에서 이를 사용해야 합니다.
+게이트웨이 내에서 데이터 세트 및 데이터 원본 간의 링크는 서버 이름 및 데이터베이스 이름을 기반으로 합니다. 해당 이름은 서로 일치해야 합니다. 예를 들어 Power BI Desktop 내에서 서버 이름에 대한 IP 주소를 제공하는 경우 게이트웨이 구성 내에서 데이터 원본에 대한 IP 주소를 사용해야 합니다. Power BI Desktop에서 *SERVER\INSTANCE* 를 사용하는 경우 게이트웨이에 대해 구성된 데이터 원본에서 이를 사용해야 합니다.
 
 게이트웨이 내에서 구성된 데이터 원본의 **사용자** 탭에 나열되고 서버 이름 및 데이터베이스 이름이 일치하는 경우 예약된 새로 고침으로 사용하기 위한 옵션으로 게이트웨이가 표시됩니다.
 
 ![사용자 표시](media/service-gateway-enterprise-manage-scheduled-refresh/powerbi-gateway-enterprise-schedule-refresh.png)
 
+> [!IMPORTANT]
+> 다시 게시할 때 데이터 세트 소유자는 데이터 세트를 게이트웨이 및 해당 데이터 원본에 다시 연결해야 합니다. 다시 게시할 때 이전 연결은 유지되지 않습니다. 
+
 > [!WARNING]
 > 데이터 세트에 여러 데이터 원본이 포함된 경우 각 데이터 원본을 게이트웨이 내부에 추가해야 합니다. 게이트웨이에 하나 이상의 데이터 원본을 추가하지 않으면 예약된 새로 고침에 사용 가능한 게이트웨이가 표시되지 않습니다.
-
-## <a name="limitations"></a>제한 사항
-
-OAuth는 온-프레미스 데이터 게이트웨이와 함께 지원되는 인증 체계가 아닙니다. OAuth가 필요한 데이터 원본을 추가할 수 없습니다. OAuth가 필요한 데이터 원본이 데이터 세트에 있으면 예약된 새로 고침에 게이트웨이를 사용할 수 없습니다.
 
 ## <a name="next-steps"></a>다음 단계
 

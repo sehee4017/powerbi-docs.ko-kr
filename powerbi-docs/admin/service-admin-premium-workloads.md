@@ -7,18 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 05/11/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 3454a10269937d6e03151a64bba6695cc37fcd66
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 36bbf9fcc8bcd74c46f15ebcf9bd04e86cc4a2c9
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396337"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512335"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>프리미엄 용량에서 워크로드 구성
 
 이 문서에서는 Power BI Premium 용량에 대한 워크로드를 사용하도록 설정하고 구성하는 방법을 설명합니다. 기본적으로 용량은 Power BI 쿼리 실행과 관련된 워크로드만 지원합니다. **[AI(Cognitive Services)](../transform-model/dataflows/dataflows-machine-learning-integration.md)** , **[데이터 흐름](../transform-model/dataflows/dataflows-introduction-self-service.md)** 및 **[페이지를 매긴 보고서](../paginated-reports/paginated-reports-save-to-power-bi-service.md)** 에 대해 추가 워크로드를 사용하도록 설정하고 구성할 수도 있습니다.
+
+> [!NOTE]
+> Power BI Premium은 최근 **Premium Gen2** 라는 새 버전의 Premium을 출시했으며, 이 버전은 현재 미리 보기로 제공됩니다. Premium Gen2는 프리미엄 용량 관리를 간소화하고 관리 오버헤드를 줄입니다. 자세한 내용은 [Power BI Premium 2세대(미리 보기)](service-premium-what-is.md#power-bi-premium-generation-2-preview)를 참조하세요.
 
 ## <a name="default-memory-settings"></a>기본 메모리 설정
 
@@ -31,7 +34,13 @@ ms.locfileid: "94396337"
 | **데이터 흐름**         | 기본값 40%, 최소값 40%  | 기본값 24%, 최소값 24%  | 기본값 20%, 최소값 12%  | 기본값 20%, 최솟값 5%  | 기본값 20%, 최소값 3%  | 기본값 20%, 최솟값 2%   |
 | **페이지를 매긴 보고서** | 지원되지 않음               | 지원되지 않음               | 지원되지 않음               | 기본값 20%, 최솟값 10% | 기본값 20%, 최솟값 5%  | 기본값 20%, 최솟값 2.5% |
 
+> [!NOTE]
+> 현재 미리 보기로 제공되는 **Premium Gen2** 는 메모리 설정 변경을 요구하지 않습니다. Premium Gen2의 메모리는 기본 시스템에 의해 자동으로 관리됩니다. 
+
+
 ## <a name="workload-settings"></a>워크로드 설정
+
+다음 섹션에서는 위의 표에 나와 있는 워크로드 설정에 대해 자세히 설명합니다. 
 
 ### <a name="ai-preview"></a>AI(미리 보기)
 
@@ -214,3 +223,13 @@ Power BI 보고서에서는 용량에 대한 각 쿼리에 훨씬 적은 시간 
 [Power BI Desktop의 자동 페이지 새로 고침(미리 보기)](../create-reports/desktop-automatic-page-refresh.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 문의](https://community.powerbi.com/)
+
+Power BI는 Power BI Premium Gen2를 미리 보기 버전으로 소개했습니다. 이 버전은 다음과 같은 향상된 기능을 통해 Power BI Premium 환경을 개선합니다.
+* 성능
+* 사용자 단위 라이선싱
+* 더 큰 규모
+* 개선된 메트릭
+* 자동 확장
+* 관리 오버헤드 감소
+
+Power BI Premium Gen2에 대한 자세한 내용은 [Power BI Premium 2세대(미리 보기)](service-premium-what-is.md#power-bi-premium-generation-2-preview)를 참조하세요.

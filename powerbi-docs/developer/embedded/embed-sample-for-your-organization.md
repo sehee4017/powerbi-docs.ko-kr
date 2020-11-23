@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: e4d1c625d86234c97305c705b2feeead8efacb61
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: f84270d76265da2877ae5d2e16289373235271b6
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397280"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668698"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>자습서:  조직의 애플리케이션에 Power BI 콘텐츠 포함
 
@@ -39,6 +39,9 @@ ms.locfileid: "94397280"
 아직 **Power BI Pro** 에 등록하지 않은 경우 시작하기 전에 [평가판에 등록](https://powerbi.microsoft.com/pricing/)합니다.
 
 Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)을 만듭니다.
+
+>[!NOTE]
+>[PPU(사용자 단위 Premium)](../../admin/service-premium-per-user-faq.md)가 지원됩니다. 그러나 PPU를 사용 중인 경우 조직의 PPU 사용자만 솔루션에 액세스할 수 있습니다.
 
 ## <a name="set-up-your-embedded-analytics-development-environment"></a>임베디드 분석 개발 환경 설정
 

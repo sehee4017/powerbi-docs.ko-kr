@@ -7,20 +7,20 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 04/05/2020
-ms.openlocfilehash: d0d9472ef767a67b3b75be4c9eb5d6922d9cdf81
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
+ms.openlocfilehash: 908aa715c31396485bcebfaa7227f3241cb02fb8
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93045148"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668560"
 ---
 # <a name="export-paginated-report-to-file-preview"></a>페이지를 매긴 보고서를 파일로 내보내기(미리 보기)
 
 `exportToFile` API를 사용하면 REST 호출을 통해 Power BI 페이지를 매긴 보고서를 내보낼 수 있습니다. 지원되는 파일 형식은 다음과 같습니다.
-* **.pptx** (PowerPoint)
+* **.pptx**(PowerPoint)
 * **.pdf**
-* **.xlsx** (Excel)
-* **.dox** (Word)
+* **.xlsx**(Excel)
+* **.dox**(Word)
 * **.csv**
 * **.xml**
 * **.mhtml**
@@ -122,6 +122,8 @@ RLS를 사용하여 내보내려면, 보고서에서 데이터 원본으로 사�
       }
 }
 ```
+## <a name="ppu-concurrent-requests"></a>PPU 동시 요청
+`exportToFile` API는 PPU([사용자 단위 Premium)](../../admin/service-premium-per-user-faq.md) 사용 시 5분에 요청 하나를 허용합니다. 5분 내에 여러 요청(둘 이상)이 제공되면 *요청이 너무 많음*(429) 오류가 발생합니다.
 
 ## <a name="code-examples"></a>코드 예제
 

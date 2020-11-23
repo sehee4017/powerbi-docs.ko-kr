@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: f1a792c7ad25600f04ca9834b1e5019d4e27efb4
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: a8268af76472c91474f2f67bc256fcc0ddcc9768
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86409516"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94669227"
 ---
 # <a name="use-a-relative-time-slicer-and-filter-in-power-bi"></a>Power BI에서 상대 시간 슬라이서 및 필터 사용
 
@@ -43,11 +43,11 @@ ms.locfileid: "86409516"
 
 ### <a name="create-a-filter"></a>필터 만들기
  
-- **이 시각적 개체**, **이 페이지** 또는 **모든 페이지**에 대해 날짜 또는 시간 필드를 필터 창으로 끌어옵니다.
+- **이 시각적 개체**, **이 페이지** 또는 **모든 페이지** 에 대해 날짜 또는 시간 필드를 필터 창으로 끌어옵니다.
 
 ### <a name="set-relative-time"></a>상대 시간 설정 
 
-다음으로 필터 형식을 **상대 시간**으로 변경합니다.
+다음으로 필터 형식을 **상대 시간** 으로 변경합니다.
 
 :::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-set.png" alt-text="상대 시간으로 변경하는 스크린샷":::
  
@@ -59,7 +59,7 @@ ms.locfileid: "86409516"
 
 :::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-filter.png" alt-text="필터의 상대 시간 스크린샷":::
  
-이 새 필터 형식을 사용하면 **마지막**, **다음** 또는 **이 기간**을 기준으로 필터링할 수 있습니다. 
+이 새 필터 형식을 사용하면 **마지막**, **다음** 또는 **이 기간** 을 기준으로 필터링할 수 있습니다. 
 
 :::image type="content" source="media/slicer-filter-relative-time/power-bi-relative-time-last-next.png" alt-text="마지막, 다음 또는 이 기간을 선택하는 스크린샷":::
  
@@ -73,7 +73,7 @@ ms.locfileid: "86409516"
  
 ## <a name="understanding-anchor-time"></a>앵커 시간 이해
 
-페이지 또는 보고서 수준에 필터를 적용하면 해당 페이지 또는 보고서의 모든 시각적 개체가 정확히 같은 시간 범위로 동기화됩니다. 이러한 쿼리는 *앵커 시간*이라는 시간에 대해 모두 발급됩니다. 앵커 시간은 다음 조건에서 자동으로 새로 고쳐집니다.
+페이지 또는 보고서 수준에 필터를 적용하면 해당 페이지 또는 보고서의 모든 시각적 개체가 정확히 같은 시간 범위로 동기화됩니다. 이러한 쿼리는 *앵커 시간* 이라는 시간에 대해 모두 발급됩니다. 앵커 시간은 다음 조건에서 자동으로 새로 고쳐집니다.
 
 - 초기 페이지 로드
 - 수동 새로 고침
@@ -90,10 +90,7 @@ ms.locfileid: "86409516"
 다음 제한 사항 및 고려 사항은 현재 상대 시간 슬라이서와 필터에 적용되는 것입니다.
 
 - **표준 시간대 고려 사항**: Power BI의 데이터 모델에는 표준 시간대 정보가 포함되어 있지 않습니다. 모델에서 시간은 저장할 수 있지만 해당 표준 시간대가 표시되지 않습니다. 슬라이서 및 필터는 항상 UTC의 시간을 기반으로 합니다. 보고서에 필터를 설정하고 다른 표준 시간대에 있는 동료에게 보내면 둘 다 같은 데이터를 볼 수 있습니다. 사용자와 동료가 UTC 표준 시간대에 있지 않은 경우 둘 다 발생하는 시간 오프셋을 고려해야 합니다. 쿼리 편집기를 사용하여 현지 표준 시간대에서 캡처된 데이터를 UTC로 변환합니다.
-- 이 새 필터 형식은 Power BI Desktop, Power BI 서비스, Power BI Embedded 및 Power BI 모바일 앱에서 지원됩니다. 그러나 다음과 같은 몇 가지 알려진 지원 제한이 있습니다.
-
-    - 포함 API를 통해 지원되지 않습니다.
-    - 웹에 게시는 지원되지 않습니다.
+- 이 새 필터 형식은 Power BI Desktop, Power BI 서비스, Power BI Embedded 및 Power BI 모바일 앱에서 지원됩니다. 그러나 웹에 게시는 지원되지 않습니다.
 
 - **쿼리 캐싱**: 클라이언트 캐시를 사용합니다. "최근 1분" 및 "지난 5분"을 차례로 지정한 다음 "지난 1분"으로 다시 지정한다고 가정합니다. 이때 페이지를 수동 또는 자동으로 새로 고치는 경우가 아니면 처음 실행했을 때와 같은 결과가 표시됩니다.
 

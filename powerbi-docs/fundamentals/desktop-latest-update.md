@@ -6,21 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/13/2020
+ms.date: 11/11/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 8670659ff44a0f0e14688a8a898704823f272891
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 34882258e9a3f05f08dd1340941b216f8679fc39
+ms.sourcegitcommit: 029aacd09061a8aa45b57f05d0dc95c93dd16a74
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92255998"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94560060"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Power BI Desktop의 새로운 기능
 
-## <a name="october-2020-update-2863210"></a>2020년 10월 업데이트(2.86.321.0)
+## <a name="november-2020-update-2872610"></a>2020년 11월 업데이트(2.87.261.0)
 
-10월 Power BI Desktop 업데이트는 앞으로 몇 주 동안 정렬하고 즐길 수 있는 훨씬 유용한 버킷입니다. 
+11월 Power BI Desktop 업데이트는 새로운 기능과 향상된 기능을 모두 제공하므로 매우 유용합니다. 
 
 이제 Power BI Desktop의 월간 블로그 및 동영상 업데이트에는 Power BI 모바일 및 Power BI 서비스의 새로운 기능도 포함됩니다. 이 문서에서는 Power BI Desktop에 대한 업데이트를 설명합니다. 모바일 및 Power BI 서비스 업데이트에 대해 알아보려면 해당하는 새로운 기능 문서를 확인하세요.
 
@@ -47,48 +47,29 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 다음은 이번 달의 Power BI Desktop 업데이트입니다.
 
 
-
 ### <a name="reporting"></a>보고
-* 캔버스 워터마크 [[비디오]](https://youtu.be/LveNuQqV5xk?t=17) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195557) 
-* 이제 시각적 개체 개인 설정이 일반 공급됨 [[비디오]](https://youtu.be/LveNuQqV5xk?t=115) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195558) [[문서]](../create-reports/power-bi-personalize-visuals.md)
-* 트리맵에 대한 데이터 요소 사각형(미리 보기) [[비디오]](https://youtu.be/LveNuQqV5xk?t=292) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195559) [[문서]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
+* 새 필드 목록(미리 보기) [[비디오]](https://youtu.be/DT_tOas5YIo?t=15)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467053) 
+* 새 모델 뷰(미리 보기) [[비디오]](https://youtu.be/DT_tOas5YIo?t=61)   [[블로그]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467054) [[문서]](../create-reports/power-bi-personalize-visuals.md)
+* 현재 일반 공급되는 모든 필터 적용 [[비디오]](https://youtu.be/DT_tOas5YIo?t=98)   [[블로그]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467055)  [[문서]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
+* 시각적 개체 확대/축소 슬라이더 [[비디오]](https://youtu.be/DT_tOas5YIo?t=160)   [[블로그]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467056)  [[문서]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
+* 지도 시각적 개체로 확장된 데이터 요소 사각형 선택 [[비디오]](https://youtu.be/DT_tOas5YIo?t=185)   [[블로그]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467057)  [[문서]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
+* 웹 연결에 대한 인증서 해지 확인 [[비디오]](https://youtu.be/DT_tOas5YIo?t=292)   [[블로그]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467058)  [[문서]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
+* 페이지를 매긴 보고서 업데이트 [[비디오]](https://youtu.be/DT_tOas5YIo?t=292)   [[블로그]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467059)  [[문서]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
 
 ### <a name="analytics"></a>분석
-* Q&A 시각적 개체에서 데이터 내보내기 [[비디오]](https://youtu.be/LveNuQqV5xk?t=308) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270582) 
-
-
-### <a name="modeling"></a>모델링
-* IF 및 SWITCH 함수의 성능 향상 [[블로그]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270584)
-
-
-### <a name="data-preparation"></a>데이터 준비
-* 동적 M 쿼리 매개 변수(미리 보기) [[비디오]](https://youtu.be/LveNuQqV5xk?t=329) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc51665421) [[문서]](../connect-data/desktop-dynamic-m-query-parameters.md)
-* Excel 파일에서 자동 테이블 검색 [[비디오]](https://youtu.be/LveNuQqV5xk?t=615) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195566)
-* JSON 파일에서 자동 테이블 검색 [[비디오]](https://youtu.be/LveNuQqV5xk?t=650) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc51665423)
+* 변칙 검색(미리 보기) [[비디오]](https://youtu.be/DT_tOas5YIo?t=199)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467061) 
+* Q&A에서 이제 부분 일치 데이터 값 지원 [[비디오]](https://youtu.be/DT_tOas5YIo?t=438)   [[블로그]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467062)  [[문서]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
 
 ### <a name="data-connectivity"></a>데이터 연결
-* Power Platform 데이터 흐름 커넥터에 대한 광범위한 지리적 지원 [[비디오]](https://youtu.be/LveNuQqV5xk?t=675) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270590)
-* 이제 MariaDB는 DirectQuery를 지원함 [[비디오]](https://youtu.be/LveNuQqV5xk?t=694) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195570)
-* 업데이트된 SharePoint Online 목록 커넥터 [[비디오]](https://youtu.be/LveNuQqV5xk?t=707) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270592)
-* 새 데이터 커넥터 - Spigit 및 eWay-CRM [[비디오]](https://youtu.be/LveNuQqV5xk?t=736) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195572)
+* Hive LLAP 커넥터가 이제 일반 공급됨 [[동영상]](https://youtu.be/DT_tOas5YIo?t=461)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467064)
+* 새 데이터 커넥터 - Actian, Anaplan, Starburst Presto [[비디오]](https://youtu.be/DT_tOas5YIo?t=487)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467065)
 
 
 ### <a name="visuals"></a>시각적 개체
-* 이제 확장된 관리자 기능이 일반 공급됨 [[비디오]](https://youtu.be/LveNuQqV5xk?t=997) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270604)
-* 다양한 공급자의 새 시각적 개체 [[동영상]](https://youtu.be/LveNuQqV5xk?t=1039)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195582)
+* 다양한 공급자의 새 시각적 개체 [[동영상]](https://youtu.be/DT_tOas5YIo?t=688)  [[블로그]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467072)
 
 
-### <a name="template-apps"></a>템플릿 앱
-* 템플릿 앱 설치 간소화 [[비디오]](https://youtu.be/LveNuQqV5xk?t=1127) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270613) 
-* Power BI Desktop에서 템플릿 앱 찾기 [[비디오]](https://youtu.be/LveNuQqV5xk?t=1164) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195591) 
-
-### <a name="other"></a>기타
-* Power BI Desktop의 PBIDS로 데이터 원본 내보내기 [[비디오]](https://youtu.be/LveNuQqV5xk?t=1255) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195594) [[문서]](../connect-data/desktop-data-sources.md#how-to-create-a-pbids-connection-file)
-* Power BI용 아이콘 업데이트 [[비디오]](https://youtu.be/LveNuQqV5xk?t=1295) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270618) 
-* Power BI Desktop 시작 화면 해제 [[비디오]](https://youtu.be/LveNuQqV5xk?t=1313) [[블로그]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195596)
-
-
-각각의 새로운 기능에 대한 자세한 내용은 [Power BI Desktop 기능 요약 블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/)을 참조하세요.
+각각의 새로운 기능에 대한 자세한 내용은 [Power BI Desktop 기능 요약 블로그 게시물](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/)을 참조하세요.
 
 
 > [!NOTE]
@@ -98,7 +79,7 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 ### <a name="power-bi-desktop-monthly-update-video"></a>Power BI Desktop 월별 업데이트 비디오
 다음 동영상에서는 이러한 업데이트를 각각 설명합니다. 이 비디오는 블로그 게시물에서도 시청할 수 있습니다.
 
-> [!VIDEO https://www.youtube.com/embed/LveNuQqV5xk]
+> [!VIDEO https://www.youtube.com/embed/DT_tOas5YIo]
 
 ## <a name="more-videos"></a>비디오 더 보기
 

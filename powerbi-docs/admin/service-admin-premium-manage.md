@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 05/11/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 8edc24e62524834e74fb8334875cc27a259207d1
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 5cce18c2ec4a24b06f4cf48d5fd2b542109d70c6
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916386"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512496"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>Power BI Premium에서 용량 구성 및 관리
 
@@ -25,6 +25,9 @@ Power BI Premium 관리에는 Premium 용량을 만들고, 관리하고, 모니�
 ![Power BI 용량 설정 화면](media/service-admin-premium-manage/premium-capacity-management.png)
 
 *용량* 은 Power BI Premium 및 Power BI Embedded 제품의 핵심입니다. 용량은 조직이 독점적으로 사용하도록 예약된 리소스의 집합입니다. 용량을 보유하면 사용자별 라이선스를 구입할 필요 없이 조직 전체에서 사용자에게 대시보드, 보고서 및 데이터 세트를 게시할 수 있습니다. 또한 용량에서 호스팅되는 콘텐츠에 대해 신뢰할 수 있는 일관된 성능을 제공합니다. 자세한 내용은 [Power BI 프리미엄이란?](service-premium-what-is.md)을 참조하세요.
+
+> [!NOTE]
+> Power BI Premium은 최근 **Premium Gen2** 라는 새 버전의 Premium을 출시했으며, 이 버전은 현재 미리 보기로 제공됩니다. Premium Gen2는 프리미엄 용량 관리를 간소화하고 관리 오버헤드를 줄입니다. 자세한 내용은 [Power BI Premium 2세대(미리 보기)](service-premium-what-is.md#power-bi-premium-generation-2-preview)를 참조하세요.
 
 ## <a name="manage-capacity"></a>용량 관리
 
@@ -40,7 +43,7 @@ Microsoft 365에서 용량 노드를 구입한 후 Power BI 관리 포털에서 
 
 ### <a name="setting-up-a-new-capacity-power-bi-premium"></a>새 용량 설정(Power BI Premium)
 
-관리 포털에서는 이미 사용했거나 아직 사용 가능한 *가상 코어* (V 코어)의 개수가 표시됩니다. V 코어의 총 수는 구입한 Premium SKU를 기반으로 합니다. 예를 들어 P3 및 P2를 구매하면 48개의 코어를 사용 가능합니다(P3에서 32개, P2에서 16개).
+관리 포털에서는 이미 사용했거나 아직 사용 가능한 *가상 코어*(V 코어)의 개수가 표시됩니다. V 코어의 총 수는 구입한 Premium SKU를 기반으로 합니다. 예를 들어 P3 및 P2를 구매하면 48개의 코어를 사용 가능합니다(P3에서 32개, P2에서 16개).
 
 ![Power BI Premium에 사용된 및 사용 가능한 V 코어](media/service-admin-premium-manage/admin-portal-v-cores.png)
 
@@ -172,3 +175,13 @@ Power BI 관리 포털의 **용량 설정** 탭에서 Power BI Report Server 제
 [프리미엄 용량 관리](service-premium-capacity-manage.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+
+Power BI는 Power BI Premium Gen2를 미리 보기 버전으로 소개했습니다. 이 버전은 다음과 같은 향상된 기능을 통해 Power BI Premium 환경을 개선합니다.
+* 성능
+* 사용자 단위 라이선싱
+* 더 큰 규모
+* 개선된 메트릭
+* 자동 확장
+* 관리 오버헤드 감소
+
+Power BI Premium Gen2에 대한 자세한 내용은 [Power BI Premium 2세대(미리 보기)](service-premium-what-is.md#power-bi-premium-generation-2-preview)를 참조하세요.

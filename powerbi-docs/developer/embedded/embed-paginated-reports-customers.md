@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: 2c06464999192e71c2d398f41b7b96e8fa4a169b
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 58d1112dfccda798a32b2a3cb95d72c37b7a16ec
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983485"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668399"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>자습서:  고객을 위해 애플리케이션에 페이지를 매긴 Power BI 보고서 포함
 
@@ -40,6 +40,7 @@ Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.
 
 > [!IMPORTANT]
 > * **서비스 주체** 를 사용해야 합니다. 마스터 사용자는 지원되지 않습니다.
+>* [PPU(사용자 단위 Premium)](../../admin/service-premium-per-user-faq.md)가 지원되지 않습니다. PPU를 사용하여 솔루션을 실험할 수는 있지만 [프로덕션으로 이동](embed-sample-for-customers.md#move-to-production)할 수는 없습니다.
 > * SSO(Single Sign-On)가 필요한 데이터 원본은 지원되지 않습니다. 지원되는 데이터 세트 및 해당 인증 방법의 목록은 [Power BI 페이지를 매긴 보고서의 지원되는 데이터 원본](../../paginated-reports/paginated-reports-data-sources.md)을 참조하세요. 
 > * Power BI 데이터 세트는 [데이터 원본](../../connect-data/service-get-data.md)으로 지원되지 않습니다.
 
@@ -205,7 +206,7 @@ Get-PowerBIworkspace -name "Paginated Report Embed" | Get-PowerBIReport
 
 고객용 Power BI 페이지를 매긴 보고서를 애플리케이션 내에 포함하려면 **Azure AD** [서비스 주체](embed-service-principal.md)가 있어야 하며, [Power BI REST API](/rest/api/power-bi/)를 호출하기 전에 Power BI 애플리케이션을 위한 [Azure AD 액세스 토큰](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)을 가져와야 합니다.
 
-**액세스 토큰** 을 사용하여 Power BI 클라이언트를 만들려면 [Power BI REST API](/rest/api/power-bi/)와 상호 작용할 수 있는 Power BI 클라이언트 개체를 만듭니다. ***Microsoft.Rest.TokenCredentials*** 개체로 **AccessToken** 을 래핑하여 Power BI 클라이언트 개체를 만듭니다.
+**액세스 토큰** 을 사용하여 Power BI 클라이언트를 만들려면 [Power BI REST API](/rest/api/power-bi/)와 상호 작용할 수 있는 Power BI 클라이언트 개체를 만듭니다. **_Microsoft.Rest.TokenCredentials_* _ 개체로 **AccessToken** 을 래핑하여 Power BI 클라이언트 개체를 만듭니다.
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -227,7 +228,7 @@ Power BI 클라이언트 개체를 사용하여 포함하려는 항목에 대한
 
 지정된 작업 영역에서 첫 번째 보고서를 검색하는 방법을 보여주는 코드 샘플은 다음과 같습니다.
 
-*포함하려는 보고서, 대시보드 또는 타일에 관계없이 콘텐츠 항목을 가져오는 샘플은 [샘플 애플리케이션](https://github.com/Microsoft/PowerBI-Developer-Samples)의 Services\EmbedService.cs 파일 내에서 사용할 수 있습니다.*
+포함하려는 보고서, 대시보드 또는 타일에 관계없이 콘텐츠 항목을 가져오는 샘플은 [애플리케이션 예제](https://github.com/Microsoft/PowerBI-Developer-Samples)의 Services\EmbedService.cs 파일 내에서 사용할 수 있습니다.
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;
@@ -244,7 +245,7 @@ Report report = reports.Value.FirstOrDefault();
 
 JavaScript API에서 사용할 수 있는 포함 토큰을 생성합니다. 페이지를 매긴 Power BI 보고서를 포함하기 위한 포함 토큰을 만들려면 [보고서 GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup) API를 사용합니다.
 
-포함 토큰을 만드는 샘플은 [샘플 애플리케이션](https://github.com/Microsoft/PowerBI-Developer-Samples)의  *Services\EmbedService.cs* 파일 내에서 사용할 수 있습니다.
+포함 토큰을 만드는 샘플은 [샘플 애플리케이션](https://github.com/Microsoft/PowerBI-Developer-Samples)의 *Services\EmbedService.cs* 파일 내에서 사용할 수 있습니다.
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;

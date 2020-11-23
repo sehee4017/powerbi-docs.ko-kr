@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 10/23/2020
+ms.date: 11/11/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 358d0575c2de3297614bfed0656d953945b2ed13
-ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
+ms.openlocfilehash: 653ab67828c055d2846a698bf12f14eec304a2bf
+ms.sourcegitcommit: 029aacd09061a8aa45b57f05d0dc95c93dd16a74
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92502159"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94560118"
 ---
 # <a name="design-filters-in-power-bi-reports"></a>Power BI 보고서에서 필터 디자인
 
@@ -242,17 +242,17 @@ Power BI Desktop에는 미리 보기로 제공되는 새 리본이 있습니다.
 
 기본적으로 보고서 읽기 권한자는 보고서에 대한 필터를 저장할 수 있습니다. 필터 저장을 허용하지 않도록 선택할 수 있습니다.
 
-- **옵션** 대화 상자에 있는 **보고서** 설정의 **영구 필터** 에서 **Don't allow end users to save filters on this report** (최종 사용자가 이 보고서에서 필터를 저장하도록 허용 안 함)를 선택합니다.
+- **옵션** 대화 상자에 있는 **보고서** 설정의 **영구 필터** 에서 **Don't allow end users to save filters on this report**(최종 사용자가 이 보고서에서 필터를 저장하도록 허용 안 함)를 선택합니다.
 
     :::image type="content" source="media/power-bi-report-filter/power-bi-persistent-filters.png" alt-text="최종 사용자가 이 보고서에서 필터를 저장하도록 허용 안 함 스크린샷":::
 
-## <a name="apply-filters-apply-button-preview"></a>필터 적용 적용 단추(미리 보기)
+## <a name="apply-filters-button"></a>필터 적용 단추
 
 필터 창에 단일 **적용** 단추를 추가할 수 있습니다. 그러면 사용자 및 최종 사용자가 모든 필터 수정을 한 번에 적용할 수 있습니다. 이 단추는 필터 변경 내용 적용을 지연시키려는 경우에 유용할 수 있습니다. 보고서 또는 시각적 개체에 모든 필터 변경 내용을 적용할 준비가 되면 한 번만 기다리면 됩니다.
 
-:::image type="content" source="media/power-bi-report-filter/apply-filter-button.png" alt-text="최종 사용자가 이 보고서에서 필터를 저장하도록 허용 안 함 스크린샷":::
+:::image type="content" source="media/power-bi-report-filter/apply-filter-button.png" alt-text="필터 적용 단추":::
 
-### <a name="turn-on-apply"></a>적용 설정
+### <a name="turn-on-the-apply-button"></a>적용 단추 켜기
 
 이 기능을 보고서 수준에서 설정할 수 있습니다. 그러나 이 기능은 기본적으로 해제되어 있습니다.
 
@@ -260,17 +260,18 @@ Power BI Desktop에는 미리 보기로 제공되는 새 리본이 있습니다.
 
 1. **한 번에 변경 내용을 적용하려면 필터 창에 단일 적용 단추를 추가합니다.** 를 선택합니다.
 
-    :::image type="content" source="media/power-bi-report-filter/turn-on-apply-filter-button.png" alt-text="최종 사용자가 이 보고서에서 필터를 저장하도록 허용 안 함 스크린샷":::
+    :::image type="content" source="media/power-bi-report-filter/apply-all-filters.png" alt-text="필터 적용 단추 설정":::
 
 ### <a name="format-the-apply-button"></a>적용 단추 서식 지정
 
 단추의 **적용** 텍스트에 대해 일부 서식을 제어할 수 있습니다. **서식** 창의 **필터 창** 섹션에서 다음 옵션을 설정합니다.
 
+- **확인란 및 색 적용** - 채우기 색을 제어합니다. 
 - **글꼴 및 아이콘 색** - 텍스트 색을 제어합니다.
 - **머리글 텍스트 크기** - 텍스트 크기를 제어합니다.
 - **글꼴 패밀리** - 글꼴을 제어합니다.
 
-    :::image type="content" source="media/power-bi-report-filter/format-apply-filter.gif" alt-text="최종 사용자가 이 보고서에서 필터를 저장하도록 허용 안 함 스크린샷":::
+    :::image type="content" source="media/power-bi-report-filter/format-apply-filter.gif" alt-text="필터 적용 단추 텍스트 서식 지정":::
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 

@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/07/2020
+ms.date: 11/17/2020
 ms.author: davidi
-ms.openlocfilehash: 3cce51ad577c700a0f9595a2b92694e5e1b61cc5
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 11f9db0282cd0b302c5293ca59dd44c87dcdb955
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397395"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94719055"
 ---
 # <a name="power-bi-data-sources"></a>Power BI 데이터 원본
 
@@ -62,7 +62,7 @@ ms.locfileid: "94397395"
 | 폴더 | 예 | 예 | 아니요 | 예 | 예 | 예 |
 | GitHub | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
 | Google 웹로그 분석 | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
-| Google BigQuery | 예 | 예 | 예 | 아니요 | 아니요 | 예 |
+| Google BigQuery | 예 | 예 | 예 | 예 | 아니요 | 예 |
 | HDFS(Hadoop 파일) | 예 | 아니요 | 아니요 | 아니요 | 아니요 | 아니요 |
 | Hive LLAP | 예 | 예 | 예 | 예 | 아니요 | 아니요 |
 | HDInsight 대화형 쿼리 | 예 | 예 | 예 | 아니요 | 아니요 | 아니요 |
@@ -148,7 +148,7 @@ ms.locfileid: "94397395"
 
 <sup>6</sup> .html, .xls 및 Access 데이터베이스에 필요합니다.
 
-<sup>7</sup> Power BI 서비스는 인증이 필요한 OData 피드를 지원하지 않습니다.
+<sup>7</sup> Power BI 서비스는 일반 OAuth2를 지원하지 않습니다.
 
 <sup>8</sup> Paxata는 Power BI Report Server에 최적화된 Power BI Desktop 버전에서 지원됩니다. Power BI Report Server에 게시된 Power BI 보고서에서는 지원되지 않습니다. 지원되는 데이터 원본 목록은 [Power BI Report Server에서 Power BI 보고서 데이터 원본](../report-server/data-sources.md)을 참조하세요.
 

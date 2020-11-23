@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 10/12/2020
+ms.date: 11/11/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8565f6ef18192110688d01127129dcc19919cb0f
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 143d4a51a403563b337c753055fa56e9c25edc26
+ms.sourcegitcommit: 029aacd09061a8aa45b57f05d0dc95c93dd16a74
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92256670"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94560037"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop의 데이터 원본
 
@@ -24,7 +24,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 
 ![가장 일반적 데이터 형식 메뉴, Power BI Desktop의 데이터 가져오기](media/desktop-data-sources/data-sources-01.png)
 
-**데이터 가져오기** 대화 상자로 이동하려면 **가장 일반적** 데이터 형식 메뉴를 표시하고 **자세히** 를 선택합니다. **데이터 가져오기** 아이콘을 직접 선택하여 **데이터 가져오기** 대화 상자를 표시할 수도 있습니다( **가장 일반적** 메뉴 무시).
+**데이터 가져오기** 대화 상자로 이동하려면 **가장 일반적** 데이터 형식 메뉴를 표시하고 **자세히** 를 선택합니다. **데이터 가져오기** 아이콘을 직접 선택하여 **데이터 가져오기** 대화 상자를 표시할 수도 있습니다(**가장 일반적** 메뉴 무시).
 
 ![데이터 가져오기 단추, Power BI Desktop](media/desktop-data-sources/data-sources-02.png)
 
@@ -90,7 +90,6 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Snowflake
 * Essbase
 * AtScale 큐브
-* BI Connector 
 * Data Virtuality LDW(베타)
 * Denodo
 * Dremio
@@ -100,8 +99,10 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Jethro(베타)
 * Kyligence
 * Linkar PICK Style/MultiValue 데이터베이스(베타)
-* MarkLogic
 * MariaDB(베타)
+* MarkLogic
+* BI Connector
+* Actian(베타)
 
 > [!NOTE]
 > 일부 데이터베이스 커넥터는 **파일 > 옵션 및 설정 > 옵션** 을 선택한 다음 **미리 보기 기능** 을 선택하고 커넥터를 사용하도록 설정하여 사용해야 합니다. 위에서 언급한 커넥터 중 일부를 표시하지 않고 사용하지 않으려는 경우 **미리 보기 기능** 설정을 확인합니다. *베타* 또는 *미리 보기* 로 표시된 모든 데이터 원본은 제한된 지원 및 기능을 가지며 프로덕션 환경에서는 사용할 수 없습니다.
@@ -141,8 +142,8 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Azure HDInsight Spark
 * HDInsight 대화형 쿼리
 * Azure Cost Management
-* Azure Time Series Insights(베타)
 * Azure Databricks
+* Azure Time Series Insights(베타)
 
 
 다음 그림은 **Azure** 에 대한 **데이터 가져오기** 창을 보여 줍니다.
@@ -185,21 +186,21 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Emigo 데이터 원본
 * Entersoft Business Suite(베타)
 * FactSet Analytics
-* Hexagon PPM Smart API
+* Palantir Foundry
+* Industrial App Store
 * Intune Data Warehouse(베타)
 * Microsoft Graph 보안(베타)
+* Power BI용 Projectplace
 * Product Insights(베타)
 * Quick Base
+* Spigit(베타)
 * TeamDesk(베타)
 * Webtrends Analytics(베타)
 * Witivio(베타)
 * Workplace Analytics(베타)
 * Zoho Creator(베타)
-* Palantir Foundry
-* Industrial App Store
-* Power BI용 Projectplace
 * eWay-CRM(베타)
-* Spigit(베타)
+* Hexagon PPM Smart API
 
 
 다음 그림은 **온라인 서비스** 에 대한 **데이터 가져오기** 창을 보여 줍니다.
@@ -217,7 +218,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Microsoft Exchange
 * HDFS(Hadoop 파일)
 * Spark
-* Hive LLAP(베타)
+* Hive LLAP
 * R 스크립트
 * Python 스크립트
 * ODBC
@@ -242,6 +243,8 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 * Vena(베타)
 * Vessel Insight(베타)
 * Zucchetti HR Infinity(베타)
+* Anaplan Connector v1.0(베타)
+* Starburst Enterprise Presto(베타)
 * 빈 쿼리
 
 
@@ -315,7 +318,7 @@ PBIDS 파일을 만들려면 **파일 > 옵션 및 설정 > 데이터 원본 설
 
 이 섹션에서는 일반적으로 사용되는 데이터 원본의 몇 가지 예를 제공합니다. PBIDS 파일 형식은 Power BI Desktop에서도 지원되는 데이터 연결만 지원합니다. 단, Wiki URLS, Live Connect 및 빈 쿼리는 예외입니다.
 
-PBIDS 파일은 인증 정보와 테이블 및 스키마 정보를 포함하지 *않습니다* .  
+PBIDS 파일은 인증 정보와 테이블 및 스키마 정보를 포함하지 *않습니다*.  
 
 다음 코드 조각은 PBIDS 파일의 몇 가지 일반적인 예이지만 완전하거나 포괄적이지는 않습니다. 다른 데이터 원본에 대해서는 [프로토콜 및 주소 정보를 위한 DSR(데이터 원본 참조) 서식](/azure/data-catalog/data-catalog-dsr#data-source-reference-specification)을 참조할 수 있습니다.
 

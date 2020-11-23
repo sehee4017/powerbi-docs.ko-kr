@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: troubleshooting
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 09/15/2020
-ms.openlocfilehash: 929a79d7e940f729b90d0cdf6d3ebd905a621f6a
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.date: 11/11/2020
+ms.openlocfilehash: 141364664b6608b252fc2be8620226ae8d9ce39b
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916823"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668629"
 ---
 # <a name="deployment-pipelines-troubleshooting"></a>배포 파이프라인 문제 해결
 
@@ -32,15 +32,15 @@ Power BI의 배포 파이프라인을 이해하려면 [배포 파이프라인 �
 
 다음 조건이 충족되지 않으면 배포 파이프라인 단추를 볼 수 없습니다.
 
-* Power BI [Pro 사용자](../admin/service-admin-purchasing-power-bi-pro.md)입니다.
+* 다음의 Premium 라이선스 중 하나를 사용하고 있습니다.
 
-* 프리미엄 용량을 보유한 조직에 속해 있습니다.
+    * Power BI [Pro 사용자](../admin/service-admin-purchasing-power-bi-pro.md)이며 프리미엄 용량이 있는 조직에 속해 있습니다.
 
-* 작업 영역은 단일 파이프라인에만 할당될 수 있습니다.
+    * [PPU(사용자 단위 Premium)](../admin/service-premium-per-user-faq.md).
 
-* 새 작업 영역의 관리자입니다.
+* [새 작업 영역 환경](../collaborate-share/service-create-the-new-workspaces.md)의 관리자입니다.
 
-### <a name="why-cant-i-see-the-pipeline-stage-tag-in-my-workspace"></a>내 작업 영역에서 파이프라인 단계 태그를 볼 수 없는 이유
+### <a name="why-cant-i-see-the-pipeline-stage-tag-in-my-workspace"></a>내 작업 영역에서 파이프라인 단계 태그를 볼 수 없는 이유는 무엇인가요?
 
 배포 파이프라인은 파이프라인에 할당된 작업 영역에 파이프라인 단계 태그를 표시합니다. 개발 및 테스트 단계의 태그는 항상 표시됩니다. 하지만 [파이프라인에 대한 액세스 권한](deployment-pipelines-process.md#user-with-pipeline-access)이 있거나 [작업 영역 관리자](deployment-pipelines-process.md#workspace-admin)인 경우에는 프로덕션 태그만 표시됩니다.
 
@@ -51,15 +51,24 @@ Power BI의 배포 파이프라인을 이해하려면 [배포 파이프라인 �
 
 ### <a name="what-licenses-are-needed-to-work-with-deployment-pipelines"></a>배포 파이프라인을 사용하는 데 필요한 라이선스는 무엇입니까?
 
-배포 파이프라인을 사용하려면 [프리미엄 용량](../admin/service-premium-what-is.md)을 사용하는 [Pro 사용자](../admin/service-admin-purchasing-power-bi-pro.md)여야 합니다. 자세한 내용은 [배포 파이프라인 액세스](deployment-pipelines-get-started.md#accessing-deployment-pipelines)를 참조하세요.
+배포 파이프라인을 사용하려면 다음 라이선스 중 하나가 있어야 합니다.
+
+* [Pro 사용자](../admin/service-admin-purchasing-power-bi-pro.md) 라이선스([프리미엄 용량](../admin/service-premium-what-is.md)에 상주하는 작업 영역 포함).
+
+* [PPU(사용자 단위 Premium)](../admin/service-premium-per-user-faq.md).
+
+자세한 내용은 [배포 파이프라인 액세스](deployment-pipelines-get-started.md#accessing-deployment-pipelines)를 참조하세요.
 
 ### <a name="what-type-of-capacity-can-i-assign-to-a-workspace-in-a-pipeline"></a>파이프라인의 작업 영역에 할당할 수 있는 용량 유형은 무엇인가요?
 
 파이프라인이 작동하려면 배포 파이프라인의 모든 작업 영역이 용량에 있어야 합니다. 그러나 파이프라인의 작업 영역마다 다른 용량을 사용할 수 있습니다. 동일한 파이프라인에서 작업 영역마다 다른 용량 유형을 사용할 수도 있습니다.
 
-개발 및 테스트를 위해 각 사용자에 대해 Pro Power BI 계정과 함께 A 또는 EM 용량을 사용할 수 있습니다.
+개발 및 테스트를 위해 각 사용자에 대해 Pro Power BI 계정과 함께 A 또는 EM 용량을 사용할 수 있습니다. 개발 및 테스트 단계에서 각 사용자에 대해 PPU를 사용할 수도 있습니다.
 
-프로덕션 작업 영역에는 P 용량이 필요합니다. 포함된 애플리케이션을 통해 콘텐츠를 배포하는 ISV의 경우 프로덕션에 A 또는 EM 용량을 사용할 수도 있습니다.
+프로덕션 작업 영역에는 P 용량이 필요합니다. 포함된 애플리케이션을 통해 콘텐츠를 배포하는 ISV의 경우 프로덕션에 A 또는 EM 용량을 사용할 수도 있습니다. PPU는 프로덕션 작업 영역에도 사용할 수 있습니다.
+
+>[!NOTE]
+>한 사용자가 PPU를 사용하여 작업 영역을 만들면, 다른 PPU 사용자들만 작업 영역에 액세스하여 해당 콘텐츠를 사용할 수 있습니다.
 
 ## <a name="technical"></a>기술
 
@@ -87,7 +96,7 @@ Power BI의 배포 파이프라인을 이해하려면 [배포 파이프라인 �
 
 |Error  |작업  |
 |---------|---------|
-|[프리미엄 용량 권한](deployment-pipelines-process.md#creating-a-premium-capacity-workspace)이 없습니다.     |프리미엄 용량 권한을 얻으려면 용량 관리자에게 작업 영역을 용량에 추가하도록 요청하거나 해당 용량에 대한 할당 권한을 요청하세요. 작업 영역이 용량에 할당된 후 다시 배포하세요.        |
+|[프리미엄 용량 권한](deployment-pipelines-process.md#creating-a-premium-capacity-workspace)이 없습니다.     |프리미엄 용량이 있는 조직에서 작업하는 경우, 용량 관리자에게 작업 영역을 용량에 추가하도록 요청하거나 해당 용량에 대한 할당 권한을 요청하세요. 작업 영역이 용량에 할당된 후 다시 배포하세요.</br></br>프리미엄 용량을 사용하는 조직에서 작업하지 않는 경우 [PPU(사용자 단위 Premium)](../admin/service-premium-per-user-faq.md)를 구매하는 것이 좋습니다.        |
 |작업 영역 권한이 없습니다.     |배포하려면 작업 영역 구성원이어야 합니다. 작업 영역 관리자에게 적절한 권한을 부여하도록 요청하세요.         |
 |Power BI 관리자가 작업 영역 만들기를 사용하지 않도록 설정했습니다.     |Power BI 관리자에게 지원을 요청하세요.         |
 |작업 영역이 [새 작업 영역 환경](../collaborate-share/service-create-the-new-workspaces.md)이 아닙니다.     |새 작업 영역 환경에서 콘텐츠를 만드세요. 클래식 작업 영역에 콘텐츠가 있는 경우 새 작업 영역 환경으로 [업그레이드](../collaborate-share/service-upgrade-workspaces.md)할 수 있습니다.         |
@@ -152,9 +161,9 @@ Power BI 서비스에서는 데이터 원본 연결을 변경할 수 없습니�
 
 콘텐츠는 빈 단계 또는 콘텐츠가 포함된 단계에 배포할 수 있습니다. 콘텐츠는 [프리미엄 용량](../admin/service-premium-what-is.md)에 있어야 합니다.
 
-* **빈 단계에 배포** - 원본 작업 영역에서 구성원 또는 관리자인 모든 [Pro 사용자](../admin/service-admin-purchasing-power-bi-pro.md).
+* **빈 단계에 배포** - 원본 작업 영역에서 구성원 또는 관리자인 모든 [Pro](../admin/service-admin-purchasing-power-bi-pro.md) 또는 [PPU](../admin/service-premium-per-user-faq.md) 사용자.
 
-* **콘텐츠가 포함된 단계에 배포** - 원본 및 대상 배포 단계에서 두 작업 영역의 구성원 또는 관리자인 모든 [Pro 사용자](../admin/service-admin-purchasing-power-bi-pro.md).
+* **콘텐츠가 포함된 단계에 배포** - 원본 및 대상 배포 단계에서 두 작업 영역의 구성원 또는 관리자인 모든 [Pro](../admin/service-admin-purchasing-power-bi-pro.md) 또는 [PPU](../admin/service-premium-per-user-faq.md) 사용자.
 
 * **데이터 세트 재정의** - 데이터 세트가 변경되지 않은 경우에도 배포가 대상 단계에 포함된 각 데이터 세트를 재정의합니다. 사용자는 배포에 지정된 모든 대상 단계 데이터 세트의 소유자여야 합니다.
 

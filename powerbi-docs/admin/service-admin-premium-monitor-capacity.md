@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 05/18/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: e13e3ec52ab9eecf3f98b5610df9d83243d7c092
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 46e2684b468e480da5db5287ffc40466d71c8f22
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599802"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512220"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>앱을 사용하여 프리미엄 용량 모니터링
 
@@ -24,6 +24,9 @@ ms.locfileid: "91599802"
 
 > [!IMPORTANT]
 > Power BI Premium 용량의 리소스 사용률이 높아서 성능 또는 안정성 문제가 발생할 경우 문제를 식별하고 해결할 수 있도록 알림 메일을 받을 수 있습니다. 이는 오버로드된 용량 문제를 해결하는 간소화된 방법이 될 수 있습니다. 자세한 내용은 [용량 및 안정성 알림](service-interruption-notifications.md#capacity-and-reliability-notifications)을 참조하세요.
+
+> [!NOTE]
+> Power BI Premium은 최근 **Premium Gen2** 라는 새 버전의 Premium을 출시했으며, 이 버전은 현재 미리 보기로 제공됩니다. Premium Gen2는 프리미엄 용량 관리를 간소화하고 관리 오버헤드를 줄입니다. 자세한 내용은 [Power BI Premium 2세대(미리 보기)](service-premium-what-is.md#power-bi-premium-generation-2-preview)를 참조하세요.
 
 ## <a name="install-the-app"></a>앱 설치
 
@@ -41,7 +44,7 @@ ms.locfileid: "91599802"
 
    ![새로 고침 예약 단추](media/service-admin-premium-monitor-capacity/schedule-refresh.png)
 
-   마지막 새로 고침이 표시됩니다. **새로 고침 기록**을 클릭하여 예약된 새로 고침과 요청 시 새로 고침을 확인합니다.
+   마지막 새로 고침이 표시됩니다. **새로 고침 기록** 을 클릭하여 예약된 새로 고침과 요청 시 새로 고침을 확인합니다.
 
    ![마지막 새로 고침](media/service-admin-premium-monitor-capacity/settings-last-refresh.png)
 
@@ -51,7 +54,7 @@ ms.locfileid: "91599802"
 
 ### <a name="dashboard"></a>대시보드
 
-관리자인 용량의 주요 메트릭을 요약하는 대시보드를 보려면 **대시보드**에서 **Power BI Premium 용량 매트릭**을 클릭합니다. 대시보드가 표시됩니다.
+관리자인 용량의 주요 메트릭을 요약하는 대시보드를 보려면 **대시보드** 에서 **Power BI Premium 용량 매트릭** 을 클릭합니다. 대시보드가 표시됩니다.
 
 ![메트릭 앱 대시보드](media/service-admin-premium-monitor-capacity/app-dashboard.png)
 
@@ -147,9 +150,9 @@ ms.locfileid: "91599802"
 
 ### <a name="reports"></a>보고서
 
-보고서에서는 더 자세한 메트릭을 제공합니다. 사용자가 관리자인 용량의 보고서를 보려면 **보고서**에서 **Power BI Premium 용량 매트릭**을 클릭합니다. 또는 대시보드에서 메트릭 셀을 클릭하여 기본 보고서로 이동합니다. 
+보고서에서는 더 자세한 메트릭을 제공합니다. 사용자가 관리자인 용량의 보고서를 보려면 **보고서** 에서 **Power BI Premium 용량 매트릭** 을 클릭합니다. 또는 대시보드에서 메트릭 셀을 클릭하여 기본 보고서로 이동합니다. 
 
-보고서의 하단에는 다음과 같은 다섯 개의 *탭*이 있습니다.
+보고서의 하단에는 다음과 같은 다섯 개의 *탭* 이 있습니다.
 
 [**데이터 세트**](#datasets) - 용량에 있는 Power BI 데이터 세트의 상태에 관한 자세한 메트릭을 제공합니다.
 [**페이지를 매긴 보고서**](#paginated-reports) - 용량에 있는 페이지를 매긴 보고서의 상태에 관한 자세한 메트릭을 제공합니다.
@@ -162,7 +165,7 @@ ms.locfileid: "91599802"
 
 ### <a name="datasets"></a>데이터 세트
 
-데이터 세트 페이지에는 **새로 고침**, **쿼리 기간**, **쿼리 대기** 및 **데이터 세트**를 비롯한 여러 *영역*이 있습니다. 이 페이지 위쪽에 있는 단추를 사용하여 다른 영역으로 이동할 수 있습니다.
+데이터 세트 페이지에는 **새로 고침**, **쿼리 기간**, **쿼리 대기** 및 **데이터 세트** 를 비롯한 여러 *영역* 이 있습니다. 이 페이지 위쪽에 있는 단추를 사용하여 다른 영역으로 이동할 수 있습니다.
 
 #### <a name="refreshes-area"></a>새로 고침 영역
 
@@ -304,3 +307,15 @@ Power BI Premium 용량 메트릭 앱을 사용하여 Power BI Embedded의 *A SK
 
 > [!div class="nextstepaction"]
 > [Power BI Premium 용량 최적화](service-premium-capacity-optimize.md)
+
+궁금한 점이 더 있나요? [Power BI 커뮤니티에 문의](https://community.powerbi.com/)
+
+Power BI는 Power BI Premium Gen2를 미리 보기 버전으로 소개했습니다. 이 버전은 다음과 같은 향상된 기능을 통해 Power BI Premium 환경을 개선합니다.
+* 성능
+* 사용자 단위 라이선싱
+* 더 큰 규모
+* 개선된 메트릭
+* 자동 확장
+* 관리 오버헤드 감소
+
+Power BI Premium Gen2에 대한 자세한 내용은 [Power BI Premium 2세대(미리 보기)](service-premium-what-is.md#power-bi-premium-generation-2-preview)를 참조하세요.

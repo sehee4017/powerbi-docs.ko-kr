@@ -7,13 +7,13 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: contperfq1
-ms.date: 09/22/2020
-ms.openlocfilehash: a364d3dd2d2175e4509d05f4c34eec31a1a371b6
-ms.sourcegitcommit: 37ec0e9e356b6d773d7d56133fb8ed6c06b65fd3
+ms.date: 10/21/2020
+ms.openlocfilehash: 6c1e4212cb991ff7eb3d0f8a5e336010499bcd1c
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "91024038"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668606"
 ---
 # <a name="understand-the-deployment-process"></a>배포 프로세스 이해
 
@@ -38,6 +38,8 @@ ms.locfileid: "91024038"
 용량 권한이 있는 경우에는 대상 단계에 작업 영역의 콘텐츠가 복사되고 해당 단계에 대한 새 작업 영역이 프리미엄 용량에 생성됩니다.
 
 용량 권한이 없는 경우 작업 영역이 생성되지만 콘텐츠가 복사되지 않습니다. 용량 관리자에게 작업 영역을 용량에 추가하도록 요청하거나 해당 용량에 대한 할당 권한을 요청할 수 있습니다. 나중에 작업 영역이 용량에 할당되면 이 작업 영역에 콘텐츠를 배포할 수 있습니다.
+
+PPU([사용자 단위 Premium)](../admin/service-premium-per-user-faq.md)를 사용하는 경우 PPU와 연결된 용량에 작업 영역이 자동으로 만들어집니다. 이러한 경우에는 용량 권한이 필요하지 않습니다. 그러나 한 PPU 사용자가 만든 작업 영역에는 다른 PPU 사용자들만 액세스할 수 있습니다. 또한 이러한 작업 영역에서 만든 콘텐츠는 PPU 사용자들만 사용할 수 있습니다.
 
 ### <a name="workspace-and-content-ownership"></a>작업 영역 및 콘텐츠 소유권
 
@@ -67,7 +69,7 @@ ms.locfileid: "91024038"
 
 배포된 콘텐츠가 [프리미엄 용량](../admin/service-premium-what-is.md)에 있는 한, 다음 조건을 충족하는 사용자는 기존 작업 영역이 포함된 스테이지에 배포할 수 있습니다.
 
-* 원본 및 대상 배포 단계의 두 작업 영역 모두에 속하는 구성원인 [Pro 사용자](../admin/service-admin-purchasing-power-bi-pro.md).
+* 원본 및 대상 배포 단계의 두 작업 영역 모두에 속하는 구성원인 [Pro 라이선스](../admin/service-admin-purchasing-power-bi-pro.md)가 있는 사용자 또는 [PPU 사용자](../admin/service-premium-per-user-faq.md).
 
 * 배포하려는 대상 작업 영역에 있는 모든 데이터 세트의 소유자.
 
@@ -87,7 +89,7 @@ ms.locfileid: "91024038"
 
 배포 파이프라인은 다음 항목을 지원하지 않습니다.
 
-* .pbix에서 시작하지 않은 데이터 세트
+* PBIX에서 시작하지 않은 데이터 세트
 
 * 지원되지 않는 데이터 세트를 기반으로 한 보고서
 

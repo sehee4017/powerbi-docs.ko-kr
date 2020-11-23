@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/22/2020
 ms.author: painbar
-ms.openlocfilehash: 22f70e393987552276cc19b90c8b360b1a1a1d80
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 8e9205ca12efebbfa5c0338e2f501e59aed779e8
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049216"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94718618"
 ---
 # <a name="power-bi-for-hololens-2-preview"></a>HoloLens 2용 Power BI(미리 보기)
 HoloLens 2용 Power BI 앱은 Power BI 보고서 및 대시보드를 실제 환경과 혼합하여 실제 세계를 이동하고 필요한 경우 관련 데이터를 얻을 수 있는 몰입형 3D 핸즈프리 환경을 만듭니다.
@@ -23,6 +23,8 @@ HoloLens 2용 Power BI 앱은 Power BI 보고서 및 대시보드를 실제 환�
 ## <a name="get-the-power-bi-app-for-hololens-2"></a>HoloLens 2용 Power BI 앱 다운로드 
 
 HoloLens 2용 Power BI 앱은 [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=526478)에서 다운로드할 수 있습니다.
+
+앱은 Single Sign On을 사용하여 작동합니다. 즉, 앱은 HoloLens 2 디바이스에 현재 로그인한 사용자의 ID를 사용하여 Power BI 서비스에 대해 인증합니다.
 
 HoloLens 2 디바이스에 앱을 설치하는 방법에 대해 [자세히 알아보세요](/hololens/holographic-store-apps).
 

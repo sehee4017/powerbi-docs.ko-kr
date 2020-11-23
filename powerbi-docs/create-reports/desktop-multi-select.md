@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2020
+ms.date: 11/11/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1c1e6ec9c6f6195f69af67da4ffbf1d0428b0fc2
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 7fcda945c374ba5384bd936b94db67a3ccd3ace1
+ms.sourcegitcommit: 029aacd09061a8aa45b57f05d0dc95c93dd16a74
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92257056"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94559807"
 ---
 # <a name="multi-select-data-elements-data-points-and-visuals-in-power-bi-desktop"></a>Power BI Desktop의 데이터 요소, 데이터 포인트 및 시각적 개체 다중 선택
 
@@ -56,7 +56,7 @@ lasso 선택을 수행하는 동안 *Shift* 키를 사용하면 이전 선택 �
 
 시각적 개체 내에서 데이터 요소를 여러 개 선택하기 위한 몇 가지 제한 사항 및 고려 사항은 다음과 같습니다.
 
-* 선, 영역, 분산형 차트 및 트리맵 지원 lasso 선택
+* 선, 영역, 분산형 차트, 트리맵, 지도에서 올가미 선택 도구 지원
 * 한 번에 선택할 수 있는 최대 데이터 요소 수는 300개입니다.
 * Power BI 서비스에서 보고서를 볼 때 보고서를 저장하고 게시하면 lasso 선택 기능이 활성화된 경우에만 사각형 선택이 활성화됩니다.
 

@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 10/20/2020
+ms.date: 11/16/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 5426c91f2ab0c4de1f9f2bc335ac21ea3a90c0e2
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.openlocfilehash: 5100a2a693bbabacd5659c6e805031339d188555
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483676"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668123"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>XMLA 엔드포인트 연결 문제 해결
 
@@ -139,6 +139,36 @@ Power BI에서 예약된 새로 고침 또는 요청 시 새로 고침을 트리
 ### <a name="overrides-in-refresh-tmsl-command"></a>Refresh TMSL 명령의 재정의
 
 [ 명령(TMSL)](/analysis-services/tmsl/refresh-command-tmsl)의 재정의를 통해 사용자는 새로 고침 작업의 다른 파티션 쿼리 정의 또는 데이터 원본 정의를 선택할 수 있습니다. 현재 Power BI Premium에서는 **재정의가 지원되지 않습니다**. “Power BI Premium에서는 확장 바인딩이 허용되지 않습니다. 자세한 내용은 제품 설명서의 ‘XMLA 읽기/쓰기 지원’을 참조하세요.” 가 반환됩니다.
+
+## <a name="errors-in-ssms---premium-gen-2"></a>SSMS의 오류 - Premium Gen2
+
+### <a name="query-execution"></a>쿼리 실행
+
+[Premium Gen2](service-premium-what-is.md#power-bi-premium-generation-2-preview) 용량의 작업 영역에 연결된 경우 SQL Server Management Studio에 다음 오류가 표시될 수 있습니다.
+
+```
+Executing the query ...
+Error -1052311437:
+```
+
+이는 SSMS v18.7.1과 함께 설치된 클라이언트 라이브러리가 세션 추적을 지원하지 않기 때문에 발생합니다. 이 문제는 SSMS의 향후 릴리스에서 해결될 예정입니다.
+
+### <a name="refresh-operations"></a>새로 고침 작업
+
+SSMS v18.7.1 이하를 사용하여 Premium Gen2 용량의 데이터 세트에서 장기 실행(1분 초과) 새로 고침 작업을 수행하는 경우, 새로 고침 작업이 성공하더라도 SSMS에서 다음과 같은 오류를 표시할 수 있습니다.
+
+```
+Executing the query ...
+Error -1052311437:
+The remote server returned an error: (400) Bad Request.
+
+Technical Details:
+RootActivityId: 3716c0f7-3d01-4595-8061-e6b2bd9f3428
+Date (UTC): 11/13/2020 7:57:16 PM
+Run complete
+```
+
+이는 새로 고침 요청의 상태가 올바르지 않게 추적되는 클라이언트 라이브러리의 알려진 문제 때문입니다. 이 문제는 SSMS의 향후 릴리스에서 해결될 예정입니다.
 
 ## <a name="see-also"></a>참고 항목
 

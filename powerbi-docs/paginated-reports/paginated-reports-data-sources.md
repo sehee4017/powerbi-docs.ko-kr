@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 07/27/2020
-ms.openlocfilehash: d6f436477a8226dec870d039c8fe10491456a325
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.date: 11/12/2020
+ms.openlocfilehash: 263992e760afe01eb44f41b80c2297cbd4b34163
+ms.sourcegitcommit: 7ee9398b30ab4ba40459cbb97e129e7dc853c93c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93298194"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "94575310"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI 페이지를 매긴 보고서의 지원되는 데이터 원본
 
@@ -27,7 +27,7 @@ ms.locfileid: "93298194"
 
 | 데이터 원본 | 인증 | 참고 |
 | --- | --- | --- |
-| Azure SQL Database <br>Azure SQL Data Warehouse | 기본, SSO(Single Sign-On), OAuth2 | Azure SQL DB에서 엔터프라이즈 게이트웨이를 사용할 수 있습니다. 그러나 이러한 시나리오에서는 SSO 또는 oAuth2를 사용하여 인증할 수 없습니다.   |
+| Azure SQL Database <br>Azure SQL Data Warehouse | 기본, SSO(Single Sign-On), OAuth2 | Azure SQL Database에서 엔터프라이즈 게이트웨이를 사용할 수 있습니다. 그러나 이러한 시나리오에서는 SSO 또는 oAuth2를 사용하여 인증할 수 없습니다.   |
 | Azure SQL Managed Instance | 기본 | 퍼블릭 또는 프라이빗 엔드포인트를 통해(프라이빗 엔드포인트는 Enterprise Gateway를 통해 라우팅되어야 함)  |
 | Azure Analysis Services | SSO, OAuth2 | AAS 방화벽을 사용하지 않도록 설정하거나 BlackForest 지역에서 모든 IP 범위를 허용하도록 구성해야 함. 이는 BlackForest 지역에서만 적용됩니다.  외부 테넌트의 SSO는 지원되지 않습니다. |
 | Power BI 데이터 세트 | SSO | 프리미엄 및 비프리미엄 Power BI 데이터 세트 읽기 권한 필요 |
@@ -40,14 +40,14 @@ Azure SQL Database 데이터 원본의 경우 [Azure SQL Database 인증](#azure
 
 ## <a name="other-data-sources"></a>기타 데이터 원본
 
-[Power BI 데이터 게이트웨이](../connect-data/service-gateway-onprem.md)를 통해 위의 기본적으로 지원되는 데이터 원본 외에도 다음 데이터 원본에 액세스할 수 있습니다.
+[Power BI 엔터프라이즈 게이트웨이](../connect-data/service-gateway-onprem.md)를 통해 위의 기본적으로 지원되는 데이터 원본 외에도 다음 데이터 원본에 액세스할 수 있습니다.
 
 - SQL Server
 - SQL Server Analysis Services
 - Oracle
 - Teradata
 
-페이지를 매긴 보고서의 경우 현재는 Power BI 데이터 게이트웨이를 통해 Azure SQL Database 및 Azure Analysis Services에 액세스할 수 없습니다.
+페이지를 매긴 보고서의 경우 현재 Power BI 엔터프라이즈 게이트웨이를 통해 Azure Analysis Services에 액세스할 수 없습니다.
 
 ## <a name="azure-sql-database-authentication"></a>Azure SQL Database 인증
 

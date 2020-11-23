@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 04/10/2019
-ms.custom: seodec18
+ms.date: 11/11/2020
+ms.custom: ''
 LocalizationGroup: Premium
-ms.openlocfilehash: def44a5cc7847d64daab466346f85f0b369d3634
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: cfde7ab3fb40885b298afeb8751525e417b487ea
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599415"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512864"
 ---
 # <a name="managing-premium-capacities"></a>프리미엄 용량 관리
 
@@ -24,6 +24,9 @@ Power BI Premium 관리에는 Premium 용량을 만들고, 관리하고, 모니�
 ## <a name="creating-and-managing-capacities"></a>용량 만들기 및 관리
 
 Power BI 관리 포털의 **용량 설정** 페이지에는 구매한 V 코어 수와 사용 가능한 Premium 용량이 표시됩니다. 이 페이지에서 전역 관리자 또는 Power BI 서비스 관리자는 사용 가능한 V 코어에서 프리미엄 용량을 만들거나 기존 프리미엄 용량을 수정할 수 있습니다.
+
+> [!NOTE]
+> Power BI Premium은 최근 **Premium Gen2** 라는 새 버전의 Premium을 출시했으며, 이 버전은 현재 미리 보기로 제공됩니다. Premium Gen2는 프리미엄 용량 관리를 간소화하고 관리 오버헤드를 줄입니다. 자세한 내용은 [Power BI Premium 2세대(미리 보기)](service-premium-what-is.md#power-bi-premium-generation-2-preview)를 참조하세요.
 
 Premium 용량을 만들 때 관리자는 다음을 정의해야 합니다.
 
@@ -97,7 +100,7 @@ Premium 용량 모니터링을 통해 관리자는 용량의 작동 방식을 �
 - **CPU 사용률** - 평균 CPU 사용률을 용량에 대해 사용 가능한 총 CPU의 백분율로 제공합니다.  
 - **메모리 사용** - 평균 메모리 사용량(GB)을 용량의 총 가용 메모리로 제공합니다. 
 
-사용하도록 설정된 각 워크로드에 대해 CPU 사용률 및 메모리 사용뿐만 아니라 다양한 워크로드별 메트릭이 제공됩니다. 예를 들어 데이터 흐름 워크로드의 경우 **총 개수**는 각 데이터 흐름에 대한 총 새로 고침 수를 표시하고, **평균 기간**은 데이터 흐름의 평균 새로 고침 기간을 보여 줍니다.
+사용하도록 설정된 각 워크로드에 대해 CPU 사용률 및 메모리 사용뿐만 아니라 다양한 워크로드별 메트릭이 제공됩니다. 예를 들어 데이터 흐름 워크로드의 경우 **총 개수** 는 각 데이터 흐름에 대한 총 새로 고침 수를 표시하고, **평균 기간** 은 데이터 흐름의 평균 새로 고침 기간을 보여 줍니다.
 
 ![포털의 용량 상태 탭](media/service-premium-capacity-manage/admin-portal-health-dataflows.png)
 
@@ -133,9 +136,9 @@ Power BI 관리 포털의 모니터링 기능은 주요 용량 메트릭에 대�
 
 일반적으로 보고서가 느리게 표시되는 것은 용량이 과열되고 있다는 징후일 수 있습니다. 보고서를 로드하지 못한다면 이는 용량이 과열되었음을 나타냅니다. 어느 경우든 근본 원인은 다음을 비롯한 다양한 요인으로 인해 발생할 수 있습니다.
 
-- **실패한 쿼리**는 메모리 부족 때문에 모델을 메모리에 로드하지 못한 것을 확실히 나타냅니다. Power BI 서비스는 실패하기 전에 30초 동안 모델을 로드하려고 시도합니다.
+- **실패한 쿼리** 는 메모리 부족 때문에 모델을 메모리에 로드하지 못한 것을 확실히 나타냅니다. Power BI 서비스는 실패하기 전에 30초 동안 모델을 로드하려고 시도합니다.
 
-- **과도한 쿼리 대기 시간**은 여러 가지 이유로 발생할 수 있습니다.
+- **과도한 쿼리 대기 시간** 은 여러 가지 이유로 발생할 수 있습니다.
   - Power BI 서비스가 먼저 모델을 제거하고 쿼리 가능한 모델을 로드해야 합니다(메모리 쓰래싱을 나타내는 긴 쿼리 대기 시간이 수반되지 않는 한 데이터 세트 제거 비율 증가가 용량 스트레스를 나타내는 것은 아니라는 것에 주의).
   - 모델 로드 시간(특히 대형 모델을 메모리로 로드할 때까지 대기).
   - 장기 실행 쿼리.
@@ -143,12 +146,12 @@ Power BI 관리 포털의 모니터링 기능은 주요 용량 메트릭에 대�
   - CPU가 포화 상태입니다.
   - 페이지에 너무 많은 시각적 개체를 포함하는 복잡한 보고서 디자인(각 시각적 개체는 쿼리라는 사실에 주의).
 
-- **긴 쿼리 기간**은 모델 디자인이 최적화되지 않았음을 나타낼 수 있습니다. 특히 한 용량 내에서 여러 데이터 세트가 활성화되고 하나의 데이터 세트만 긴 쿼리 기간을 보이는 경우에 해당합니다. 이는 용량이 충분한 리소스를 갖고 있으며 문제의 데이터 세트가 최적화되지 않았거나 속도가 느리다는 것을 암시합니다. 장기 실행 쿼리는 다른 프로세스에 필요한 리소스에 대한 액세스를 차단할 수 있으므로 문제가 될 수 있습니다.
-- **긴 새로 고침 대기 시간**은 메모리를 소비하는 여러 활성 모델 때문에 메모리가 부족하거나 문제가 있는 새로 고침이 다른 새로 고침을 차단하는 것을 의미합니다(병렬 새로 고침 제한 초과).
+- **긴 쿼리 기간** 은 모델 디자인이 최적화되지 않았음을 나타낼 수 있습니다. 특히 한 용량 내에서 여러 데이터 세트가 활성화되고 하나의 데이터 세트만 긴 쿼리 기간을 보이는 경우에 해당합니다. 이는 용량이 충분한 리소스를 갖고 있으며 문제의 데이터 세트가 최적화되지 않았거나 속도가 느리다는 것을 암시합니다. 장기 실행 쿼리는 다른 프로세스에 필요한 리소스에 대한 액세스를 차단할 수 있으므로 문제가 될 수 있습니다.
+- **긴 새로 고침 대기 시간** 은 메모리를 소비하는 여러 활성 모델 때문에 메모리가 부족하거나 문제가 있는 새로 고침이 다른 새로 고침을 차단하는 것을 의미합니다(병렬 새로 고침 제한 초과).
 
 메트릭을 사용하는 방법에 대한 자세한 설명은 [Premium 용량 최적화](service-premium-capacity-optimize.md) 문서에서 설명합니다.
 
-## <a name="acknowledgements"></a>승인
+## <a name="acknowledgments"></a>승인
 
 이 문서는 데이터 플랫폼 MVP이자 [Bitwise Solutions](https://www.bitwisesolutions.com.au/)의 독립 BI 전문가인 Peter Myers가 작성한 것입니다.
 
@@ -161,3 +164,12 @@ Power BI 관리 포털의 모니터링 기능은 주요 용량 메트릭에 대�
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
 
+Power BI는 Power BI Premium Gen2를 미리 보기 버전으로 소개했습니다. 이 버전은 다음과 같은 향상된 기능을 통해 Power BI Premium 환경을 개선합니다.
+* 성능
+* 사용자 단위 라이선싱
+* 더 큰 규모
+* 개선된 메트릭
+* 자동 확장
+* 관리 오버헤드 감소
+
+Power BI Premium Gen2에 대한 자세한 내용은 [Power BI Premium 2세대(미리 보기)](service-premium-what-is.md#power-bi-premium-generation-2-preview)를 참조하세요.

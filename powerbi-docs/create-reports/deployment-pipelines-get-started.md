@@ -7,13 +7,13 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: contperfq1
-ms.date: 09/15/2020
-ms.openlocfilehash: 8f486d1f872aec8eaec096bf01d5d36a314c5cef
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 11/11/2020
+ms.openlocfilehash: ca588c50052ed4950b2f283ee8294098dd36a8ef
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855777"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94669135"
 ---
 # <a name="get-started-with-deployment-pipelines"></a>배포 파이프라인 시작
 
@@ -23,9 +23,11 @@ ms.locfileid: "90855777"
 
 다음 조건이 충족되는 경우 배포 파이프라인 기능에 액세스할 수 있습니다.
 
-* Power BI [Pro 사용자](../admin/service-admin-purchasing-power-bi-pro.md)입니다.
+* 다음의 Premium 라이선스 중 하나를 사용하고 있습니다.
 
-* 프리미엄 용량을 보유한 조직에 속해 있습니다.
+    * Power BI [Pro 사용자](../admin/service-admin-purchasing-power-bi-pro.md)이며 프리미엄 용량이 있는 조직에 속해 있습니다.
+
+    * [PPU(사용자 단위 Premium)](../admin/service-premium-per-user-faq.md).
 
 * [새 작업 영역 환경](../collaborate-share/service-create-the-new-workspaces.md)의 관리자입니다.
 
@@ -44,23 +46,23 @@ ms.locfileid: "90855777"
 
 배포 파이프라인 탭에서 파이프라인을 만들려면 다음을 수행합니다.
 
-1. Power BI 서비스의 탐색 창에서 **배포 파이프라인**을 선택한 다음 **파이프라인 만들기**를 선택합니다.
+1. Power BI 서비스의 탐색 창에서 **배포 파이프라인** 을 선택한 다음 **파이프라인 만들기** 를 선택합니다.
 
-2. 배포 파이프라인 만들기 대화 상자에서 파이프라인의 이름 및 설명을 입력하고 **만들기**를 선택합니다.
+2. 배포 파이프라인 만들기 대화 상자에서 파이프라인의 이름 및 설명을 입력하고 **만들기** 를 선택합니다.
 
 ### <a name="create-a-pipeline-from-a-workspace"></a>작업 영역에서 파이프라인 만들기
 
 [새 작업 영역 환경](../collaborate-share/service-create-the-new-workspaces.md)의 관리자라면 기존 작업 영역에서 파이프라인을 만들 수 있습니다.
 
-1. 작업 영역에서 **파이프라인 만들기**를 선택합니다.
+1. 작업 영역에서 **파이프라인 만들기** 를 선택합니다.
 
     > [!div class="mx-imgBorder"]
     > ![작업 영역의 파이프라인 만들기 단추 스크린샷](media/deployment-pipelines-get-started/workspace-deploy.png)
 
-2. 배포 파이프라인 만들기 대화 상자에서 파이프라인의 이름 및 설명을 입력하고 **만들기**를 선택합니다.
+2. 배포 파이프라인 만들기 대화 상자에서 파이프라인의 이름 및 설명을 입력하고 **만들기** 를 선택합니다.
 
 >[!NOTE]
->작업 영역이 조직의 프리미엄 용량에 할당되지 않은 경우 [용량에 할당](../admin/service-admin-premium-manage.md#assign-a-workspace-to-a-capacity)하라는 알림을 받게 됩니다.  
+>작업 영역이 조직의 프리미엄 용량 또는 자신의 PPU 용량에 할당되지 않은 경우 [용량에 할당](../admin/service-admin-premium-manage.md#assign-a-workspace-to-a-capacity)하라는 알림을 받게 됩니다.  
 
 ## <a name="step-2---assign-a-workspace-to-a-deployment-pipeline"></a>2단계 - 배포 파이프라인에 작업 영역 할당
 
@@ -70,7 +72,7 @@ ms.locfileid: "90855777"
 
 배포 파이프라인에서 작업 영역을 할당하려면 다음 단계를 수행합니다.
 
-1. 새로 만든 배포 파이프라인에서 **작업 영역 할당**을 선택합니다.
+1. 새로 만든 배포 파이프라인에서 **작업 영역 할당** 을 선택합니다.
 
 2. ‘작업 영역 선택’ 드롭다운 메뉴에서 파이프라인에 할당할 작업 영역을 선택합니다.
 
@@ -124,7 +126,7 @@ ms.locfileid: "90855777"
 
 이전 단계에 배포하도록 선택할 수 있습니다. 예를 들어 기존 작업 영역을 프로덕션 단계에 할당한 다음, 먼저 테스트 단계에 배포하고 그런 다음에 개발 단계에 배포하는 시나리오입니다.
 
-이전 단계 배포는 이전 단계에 콘텐츠가 없는 경우에만 가능합니다. 이전 단계에 배포할 때는 특정 항목을 선택할 수 없습니다. 해당 단계의 모든 콘텐츠가 배포됩니다.
+이전 단계 배포는 이전 단계가 비어 있는 경우에만 가능합니다. 이전 단계에 배포할 때는 특정 항목을 선택할 수 없습니다. 해당 단계의 모든 콘텐츠가 배포됩니다.
 
 [![테스트 또는 프로덕션 단계 메뉴에서 사용할 수 있는 이전 스테이지에 배포 단추를 보여주는 스크린샷](media/deployment-pipelines-get-started/deploy-back.png)](media/deployment-pipelines-get-started/deploy-back.png#lightbox)
 
@@ -141,7 +143,7 @@ ms.locfileid: "90855777"
 
 ### <a name="create-a-dataset-rule"></a>데이터 세트 규칙 만들기
 
-1. 데이터 세트 규칙을 만들려는 파이프라인 단계에서 **배포 설정**을 선택합니다.
+1. 데이터 세트 규칙을 만들려는 파이프라인 단계에서 **배포 설정** 을 선택합니다.
 
     ![각 배포 파이프라인 단계의 오른쪽 위에 있는 배포 설정 단추의 스크린샷](media/deployment-pipelines-get-started/deployment-settings.png)
 
@@ -149,7 +151,7 @@ ms.locfileid: "90855777"
 
     [![데이터 세트 규칙을 만들기 위한 데이터 세트 선택을 보여주는 스크린샷](media/deployment-pipelines-get-started/dataset-rules.png)](media/deployment-pipelines-get-started/dataset-rules.png#lightbox)
 
-3. 만들려는 규칙의 유형을 선택하고 목록을 확장한 다음 **규칙 추가**를 선택합니다.
+3. 만들려는 규칙의 유형을 선택하고 목록을 확장한 다음 **규칙 추가** 를 선택합니다.
 
      [![데이터 원본 규칙을 선택하고 규칙 추가 옵션을 클릭하는 것을 보여주는 스크린샷](media/deployment-pipelines-get-started/add-rule.png)](media/deployment-pipelines-get-started/add-rule.png#lightbox)
 
@@ -161,7 +163,7 @@ ms.locfileid: "90855777"
 
     1. 목록에서 선택합니다.
 
-    2. **기타**를 선택하고 새 데이터 원본을 수동으로 추가합니다. 동일한 형식의 데이터 원본으로만 변경할 수 있습니다.
+    2. **기타** 를 선택하고 새 데이터 원본을 수동으로 추가합니다. 동일한 형식의 데이터 원본으로만 변경할 수 있습니다.
 
 * **매개 변수 규칙** 매개 변수 목록에서 매개 변수를 선택합니다. 현재 값이 표시됩니다. 값을 각 배포 후 적용하려는 값으로 편집합니다.
 
@@ -175,7 +177,7 @@ ms.locfileid: "90855777"
 
 * 규칙에 정의된 데이터 원본 또는 매개 변수가 원본 데이터 세트에서 변경되거나 제거되면 규칙이 유효하지 않게 되고 배포가 실패합니다.
 
-* 형식이 *Any* 또는 *Binary*인 매개 변수에 대해서는 매개 변수 규칙을 정의할 수 없습니다. 자세한 내용은 [데이터 세트 업데이트 매개 변수 제한](/rest/api/power-bi/datasets/updateparameters)을 참조하세요.
+* 형식이 *Any* 또는 *Binary* 인 매개 변수에 대해서는 매개 변수 규칙을 정의할 수 없습니다. 자세한 내용은 [데이터 세트 업데이트 매개 변수 제한](/rest/api/power-bi/datasets/updateparameters)을 참조하세요.
 
 * 데이터 원본 규칙은 다음 데이터 원본에 대해서만 정의할 수 있습니다.
     * Azure Analysis Services

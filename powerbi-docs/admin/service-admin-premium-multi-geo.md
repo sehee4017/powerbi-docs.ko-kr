@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 10/29/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 93d982c684014430009a80112da841820e7b0fc9
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: b0132996be1ed70f228ce96d413c4925dc1a3e48
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396396"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512772"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>Power BI Premium에 대한 다중 지역 지원 구성
 
@@ -35,9 +35,12 @@ Power BI Germany, Power BI China(21Vianet에서 운영) 또는 Power BI(미국 �
 
 이제 Power BI Embedded에서도 다중 지역을 사용할 수 있습니다. [Power BI Embedded의 다중 지역 지원](../developer/embedded/embedded-multi-geo.md)에서 자세히 알아보세요.
 
+> [!NOTE]
+> Power BI Premium은 최근 **Premium Gen2** 라는 새 버전의 Premium을 출시했으며, 이 버전은 현재 미리 보기로 제공됩니다. Premium Gen2는 프리미엄 용량 관리를 간소화하고 관리 오버헤드를 줄입니다. 자세한 내용은 [Power BI Premium 2세대(미리 보기)](service-premium-what-is.md#power-bi-premium-generation-2-preview)를 참조하세요.
+
 ## <a name="enable-and-configure"></a>사용 및 구성
 
-새 용량의 경우 드롭다운에서 기본 지역이 아닌 다른 지역을 선택하여 다중 지역을 사용하도록 설정합니다.  각 사용 가능한 용량은 현재 위치한 지역을 표시합니다(예: **미국 중서부** ).
+새 용량의 경우 드롭다운에서 기본 지역이 아닌 다른 지역을 선택하여 다중 지역을 사용하도록 설정합니다.  각 사용 가능한 용량은 현재 위치한 지역을 표시합니다(예: **미국 중서부**).
 
 ![용량 크기: 지역을 선택합니다. Power BI 다중 지역](media/service-admin-premium-multi-geo/power-bi-multi-geo-capacity-size.png)
 
@@ -107,3 +110,13 @@ Power BI Germany, Power BI China(21Vianet에서 운영) 또는 Power BI(미국 �
 - [Power BI Embedded 용량에 대한 다중 지역](../developer/embedded/embedded-multi-geo.md)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+
+Power BI는 Power BI Premium Gen2를 미리 보기 버전으로 소개했습니다. 이 버전은 다음과 같은 향상된 기능을 통해 Power BI Premium 환경을 개선합니다.
+* 성능
+* 사용자 단위 라이선싱
+* 더 큰 규모
+* 개선된 메트릭
+* 자동 확장
+* 관리 오버헤드 감소
+
+Power BI Premium Gen2에 대한 자세한 내용은 [Power BI Premium 2세대(미리 보기)](service-premium-what-is.md#power-bi-premium-generation-2-preview)를 참조하세요.
