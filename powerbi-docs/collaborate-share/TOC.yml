@@ -99,8 +99,16 @@
               href: desktop-troubleshooting-analyze-in-excel.md
             - name: '오류: Excel 통합 문서에서 데이터를 찾을 수 없음'
               href: ../connect-data/service-admin-troubleshoot-excel-workbook-data.md
-        - name: Power Automate 및 Power BI
-          href: service-flow-integration.md
+        - name: Power BI 및 Power Automate
+          items:
+            - name: Power Automate와 데이터 경고 통합
+              href: service-flow-integration.md
+            - name: Power Automate를 사용하여 페이지가 매겨진 보고서 내보내기
+              href: service-automate-paginated-integration.md
+            - name: 페이지를 매긴 보고서를 OneDrive 또는 SharePoint Online에 저장
+              href: service-automate-paginated-onedrive-sharepoint.md
+            - name: Excel Online 또는 SharePoint 목록에서 페이지가 매겨진 보고서 내보내기
+              href: service-automate-paginated-excel-sharepoint-list.md
         - name: 타사 앱 사용
           href: service-power-bi-get-started-third-party-apps.md
         - name: 조직 콘텐츠 팩
