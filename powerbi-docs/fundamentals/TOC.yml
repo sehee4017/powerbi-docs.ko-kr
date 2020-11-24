@@ -39,6 +39,10 @@
               href: service-self-service-purchase-help.md
             - name: Power BI 등록 지원 받기
               href: service-self-service-sign-up-help.md
+        - name: 보안
+          items:
+            - name: 보안 기준
+              href: security-baseline.md
     - name: 방법 가이드
       items:
         - name: Power BI Desktop 다운로드
