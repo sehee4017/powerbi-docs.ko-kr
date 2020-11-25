@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/23/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 9a8486a24ab7daa23e35f762c6830e400392963f
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: a4ef051f4e4a24901599036c80a52bf200348df1
+ms.sourcegitcommit: b2693047fce6a4e0c3ea07013404e99fc9cc1901
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91375284"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "94893686"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Power BI Q&A에서 질문하기 위한 팁
 
@@ -23,14 +23,14 @@ ms.locfileid: "91375284"
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Q&A에서 인식하는 단어 및 용어
 이 페이지에 안내되지 않은 키워드도 있습니다.  Power BI가 키워드를 인식하는지 확인하는 가장 좋은 방법은 질문 상자에 입력하여 테스트하는 것입니다.  회색으로 표시되는 단어 또는 용어는 Power BI가 인식하지 못하는 것입니다.
 
-아래 목록은 현재 시제를 사용하지만 대부분의 경우에서 모든 시제가 인식됩니다. 예를 들어 “is”는 **are**, **was**, **were**, **will be**, **have**, **has**, **had**, **will have**, **has got**, **do**, **does**, **did**를 포함합니다.  그리고 “sort”는 **sorted**와 **sorting**을 포함합니다.  Power BI는 단어의 단수와 복수도 모두 인식하고 포함합니다. 
+아래 목록은 현재 시제를 사용하지만 대부분의 경우에서 모든 시제가 인식됩니다. 예를 들어 “is”는 **are**, **was**, **were**, **will be**, **have**, **has**, **had**, **will have**, **has got**, **do**, **does**, **did** 를 포함합니다.  그리고 “sort”는 **sorted** 와 **sorting** 을 포함합니다.  Power BI는 단어의 단수와 복수도 모두 인식하고 포함합니다. 
 
 > [!NOTE]
 > Q&amp;A는 [iPads, iPhones, iPod Touch 디바이스에서 iOS용 Microsoft Power BI 앱](mobile/mobile-apps-ios-qna.md)에서도 사용할 수 있습니다.
 >  
 
 
-|범주  |키워드  |Column3  |
+|범주  |키워드  |
 |---------|---------|---------|
 |**집계**     | total, sum, amount, number, quantity, count, average, most, least, fewest, largest, smallest, highest, biggest, maximum, max, greatest, lowest, littlest, minimum, min          |
 |     |         |         

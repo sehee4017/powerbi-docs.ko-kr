@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/17/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d7fcef8294d1e4ba4b3336d4a2456e0ccac787fb
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: de9e2004d7802b5f3eb7684678984a84a077ce89
+ms.sourcegitcommit: b2693047fce6a4e0c3ea07013404e99fc9cc1901
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412329"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "94893732"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Power BI의 방사형 계기 차트
 
@@ -46,7 +46,7 @@ ms.locfileid: "93412329"
 
 ## <a name="prerequisites"></a>필수 조건
 
-이 자습서에서는 [재무 샘플 Excel 파일](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)을 사용합니다.
+이 자습서에서는 [재무 샘플 Excel 파일](https://go.microsoft.com/fwlink/?LinkID=521962)을 사용합니다.
 
 1. 메뉴 모음의 왼쪽 위 섹션에서 **데이터 가져오기** > **Excel** 을 선택합니다.
    
@@ -83,7 +83,7 @@ ms.locfileid: "93412329"
     **재무 샘플** 파일을 다운로드하는 시점에 따라 이러한 수치와 일치하지 않는 숫자가 표시될 수 있습니다.
 
     > [!TIP]
-    > 기본적으로 Power BI는 현재 값(이 경우, **평균 총 판매액** )이 계기에 중간 지점으로 간주되는 계기 차트를 만듭니다. **평균 총 판매액** 값이 $182.76K이므로 시작 값(최소)은 0으로 설정하고 끝 값(최대)은 현재 값의 두 배로 설정됩니다.
+    > 기본적으로 Power BI는 현재 값(이 경우, **평균 총 판매액**)이 계기에 중간 지점으로 간주되는 계기 차트를 만듭니다. **평균 총 판매액** 값이 $182.76K이므로 시작 값(최소)은 0으로 설정하고 끝 값(최대)은 현재 값의 두 배로 설정됩니다.
 
 ### <a name="step-3-set-a-target-value"></a>3단계: 대상 값 설정
 

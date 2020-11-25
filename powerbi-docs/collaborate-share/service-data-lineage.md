@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: d08ddeddc0a0feee82b02549db819a901f944c2d
-ms.sourcegitcommit: 1b79577006a2f6583a0a249f1920ae1e2b6b0ace
+ms.openlocfilehash: 76dd059d59daed5916e9d28692ef018dd7465749
+ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "94529031"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94946981"
 ---
 # <a name="data-lineage"></a>데이터 계보
 최신 BI(비즈니스 인텔리전스) 프로젝트에서 데이터 원본에서 대상까지 이동하는 데이터 흐름을 이해하는 것이 중요합니다. 여러 데이터 원본, 아티팩트 및 종속성에 걸쳐 있는 고급 분석 프로젝트를 구성한 경우 중요성은 더 커집니다. "이 데이터를 변경하면 어떻게 되나요?" 또는 “이 보고서가 최신 상태가 아닌 이유는 무엇인가요?”와 같은 질문은 대답하기 어려울 수 있습니다. 이러한 질문들은 전문가 팀이나 이해를 위한 세부적인 조사가 필요할 수 있습니다. 질문에 대답하는 데 도움이 되는 데이터 계보 보기를 설계했습니다.
@@ -24,6 +24,10 @@ ms.locfileid: "94529031"
 Power BI에는 대시보드, 보고서, 데이터 세트, 데이터 흐름 등 다양한 아티팩트 형식이 있습니다. 대부분의 데이터 세트 및 데이터 흐름은 SQL Server 같은 외부 데이터 원본 및 다른 작업 영역의 외부 데이터 세트에 연결됩니다. 사용자 소유 작업 영역의 외부에 있는 데이터 세트가 IT 직원 또는 다른 분석가가 소유한 작업 영역에 있을 수 있습니다. 외부 데이터 원본 및 데이터 세트를 사용하면 궁극적으로 데이터의 출처를 파악하기 어려워집니다. 복잡한 프로젝트와 더 간단한 프로젝트를 위한 계보 보기를 소개합니다.
 
 계보 보기에는 작업 영역에 있는 모든 아티팩트와 모든 외부 종속 항목 간의 계보 관계가 표시됩니다. 데이터 흐름(업스트림 및 다운스트림 모두)에 대한 연결을 비롯하여 모든 작업 영역 아티팩트 간 연결을 보여 줍니다.    
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rUj06dqB98g" frameborder="0" allowfullscreen></iframe>
+
+
 
 > [!VIDEO https://youtu.be/rUj06dqB98g]
 

@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/23/2020
-ms.openlocfilehash: d2cd9786a635aed79f334706f53c21fe87e723a4
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: df5e82af012f4d85fd81399d6e31fde3b7539ce6
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748957"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95513829"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Power BI에 대한 자격 증명을 프로그래밍 방식으로 구성
 
 Power BI에 대한 자격 증명을 프로그래밍 방식으로 구성하려면 이 문서의 단계를 따르세요.
 
 >[!NOTE]
->* 호출하는 사용자는 데이터 세트 소유자 또는 게이트웨이 관리자여야 합니다. [서비스 주체](../embedded/embed-service-principal-certificate.md)를 사용할 수도 있습니다. 예를 들어 서비스 주체는 데이터 세트 소유자일 수 있습니다.
+>* 호출하는 사용자는 데이터 세트 소유자 또는 게이트웨이 관리자여야 합니다. [서비스 주체](../embedded/embed-service-principal.md)를 사용할 수도 있습니다. 예를 들어 서비스 주체는 데이터 세트 소유자일 수 있습니다.
 >* 클라우드 데이터 원본과 해당 자격 증명은 사용자 수준에서 관리됩니다.
 
 ## <a name="update-credentials-flow-for-data-sources"></a>데이터 원본에 대한 자격 증명 흐름 업데이트
@@ -80,7 +80,7 @@ Power BI에 대한 자격 증명을 프로그래밍 방식으로 구성하려면
 
     # <a name="net-sdk-v3"></a>[.NET SDK v3](#tab/sdk3)
 
-    **3단계**에서 검색된 공개 키를 사용하여 AssymetricKeyEncriptor 클래스를 사용합니다.
+    **3단계** 에서 검색된 공개 키를 사용하여 AssymetricKeyEncriptor 클래스를 사용합니다.
 
     ```csharp
     var credentialDetails = new CredentialDetails(
@@ -122,7 +122,7 @@ Power BI에 대한 자격 증명을 프로그래밍 방식으로 구성하려면
     var gateway = gateways.First();
     ```
 
-3. **2단계**에서 검색된 게이트웨이 공개 키를 사용하여 [데이터 원본에 대한 자격 증명 흐름 업데이트](#update-credentials-flow-for-data-sources)에 설명된 것과 동일한 방법으로 자격 증명 정보를 빌드합니다.
+3. **2단계** 에서 검색된 게이트웨이 공개 키를 사용하여 [데이터 원본에 대한 자격 증명 흐름 업데이트](#update-credentials-flow-for-data-sources)에 설명된 것과 동일한 방법으로 자격 증명 정보를 빌드합니다.
 
 4. 요청 본문을 빌드합니다.
 
@@ -142,7 +142,7 @@ Power BI에 대한 자격 증명을 프로그래밍 방식으로 구성하려면
 
 ## <a name="credential-types"></a>자격 증명 유형
 
-[Power BI Rest API](/rest/api/power-bi/)를 사용하여 **엔터프라이즈 온-프레미스 게이트웨이**에서 [데이터 원본 만들기](/rest/api/power-bi/gateways/createdatasource) 또는 [데이터 원본 업데이트](/rest/api/power-bi/gateways/updatedatasource)를 호출할 때, 자격 증명 값이 게이트웨이의 공개 키를 사용하여 암호화해야 합니다.
+[Power BI Rest API](/rest/api/power-bi/)를 사용하여 **엔터프라이즈 온-프레미스 게이트웨이** 에서 [데이터 원본 만들기](/rest/api/power-bi/gateways/createdatasource) 또는 [데이터 원본 업데이트](/rest/api/power-bi/gateways/updatedatasource)를 호출할 때, 자격 증명 값이 게이트웨이의 공개 키를 사용하여 암호화해야 합니다.
 
 >[!NOTE]
 >.NET SDK v3 역시 아래에 나열된 .NET SDK v2 예제를 실행할 수 있습니다.
