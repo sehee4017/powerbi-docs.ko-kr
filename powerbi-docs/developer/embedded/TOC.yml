@@ -44,10 +44,10 @@
           href: embedded-faq.md
     - name: 방법
       items:
-        - name: 인증서와 함께 서비스 주체를 사용하여 포함합니다.
-          href: embed-service-principal-certificate.md
-        - name: 앱 암호와 함께 서비스 주체를 사용하여 포함합니다.
+        - name: 서비스 주체를 사용하여 포함
           href: embed-service-principal.md
+        - name: 서비스 주체와 인증서를 사용하여 포함
+          href: embed-service-principal-certificate.md
         - name: 앱에서 포함
           href: embed-from-apps.md
         - name: 파일로 보고서 내보내기

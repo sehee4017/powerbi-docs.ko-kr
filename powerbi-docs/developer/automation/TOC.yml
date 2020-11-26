@@ -20,6 +20,8 @@
           href: walkthrough-push-data-get-datasets.md
         - name: 테이블에 행 추가
           href: walkthrough-push-data-add-rows.md
+        - name: 템플릿 앱 구성 자동화
+          href: ../template-apps/template-apps-auto-install-tutorial.md
     - name: 개념
       items:
         - name: 실시간 데이터에 대한 자동 보존 정책
@@ -32,10 +34,14 @@
               href: api-dataset-properties.md
             - name: 데이터 모델 버전 관리
               href: api-data-model-versioning.md
+        - name: 자동화된 템플릿 앱 구성
+          href: ../template-apps/template-apps-auto-install.md
     - name: 방법
       items:
         - name: 자격 증명 구성
           href: configure-credentials.md
+        - name: 템플릿 앱 구성 자동화
+          href: ../template-apps/template-apps-auto-install.md
     - name: 참조
       items:
         - name: REST API
