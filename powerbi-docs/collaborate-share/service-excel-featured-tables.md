@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/04/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 099e3aa11662232c5362895e93f0433620ce2ba9
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 42d7cae62084cf2cfbf6f10e49489d35e4557c85
+ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768903"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94947050"
 ---
 # <a name="access-power-bi-featured-tables-in-excel-preview"></a>Excel에서 Power BI 주요 테이블에 액세스(미리 보기)
 
@@ -31,7 +31,7 @@ Power BI 데이터 세트의 추천 테이블은 **데이터** 리본에 있는 
 
 :::image type="content" source="media/service-excel-featured-tables/excel-data-ribbon.png" alt-text="Excel 데이터 리본에 있는 데이터 형식 갤러리의 스크린샷.":::
 
-확장된 갤러리에는 **주식** 및 **지리**와 같은 일반 데이터 형식과 Power BI 데이터 세트의 추천 테이블인 사용 가능한 상위 10개 **조직** 데이터 형식이 표시됩니다.
+확장된 갤러리에는 **주식** 및 **지리** 와 같은 일반 데이터 형식과 Power BI 데이터 세트의 추천 테이블인 사용 가능한 상위 10개 **조직** 데이터 형식이 표시됩니다.
 
 :::image type="content" source="media/service-excel-featured-tables/excel-data-types-gallery.png" alt-text="Excel 데이터 형식 갤러리의 스크린샷.":::
 
@@ -41,7 +41,7 @@ Power BI 추천 테이블에서 데이터를 검색하려면 추천 테이블의
 
 :::image type="content" source="media/service-excel-featured-tables/excel-data-types-more.png" alt-text="Excel 데이터 형식 갤러리의 자세히 아이콘 스크린샷.":::
 
-찾고 있는 테이블이 보이면 선택합니다. 보이지 않으면 **조직의 더 많은 항목**을 선택합니다. Excel은 액세스 권한이 있는 모든 추천 테이블을 검색하여 일치 항목을 찾습니다.
+찾고 있는 테이블이 보이면 선택합니다. 보이지 않으면 **조직의 더 많은 항목** 을 선택합니다. Excel은 액세스 권한이 있는 모든 추천 테이블을 검색하여 일치 항목을 찾습니다.
 
 :::image type="content" source="media/service-excel-featured-tables/excel-more-your-organization.png" alt-text="조직에서 선택(미리 보기) 스크린샷.":::
  
@@ -53,7 +53,7 @@ Excel이 신뢰도가 높은 일치하는 행을 찾으면 셀이 해당 행에 
 
 :::image type="content" source="media/service-excel-featured-tables/excel-linked-card-icon.png" alt-text="연결된 항목 아이콘의 스크린샷.":::
 
-셀에 잠재적으로 일치하는 행이 두 개 이상 있는 경우 셀에 물음표 아이콘이 표시되고 **데이터 선택기** 창이 열립니다. 다음 예제에서는 B3:B9의 범위를 선택하고 Power BI 주요 테이블 **Store**를 선택합니다. 셀 B9 “508 - Pasadena Lindseys”를 제외한 모든 행에 일치 항목이 있습니다. **데이터 선택기**는 두 개의 일치 가능한 항목을 보여 줍니다. 이는 두 개의 테이블에 있는 값과 동일합니다.
+셀에 잠재적으로 일치하는 행이 두 개 이상 있는 경우 셀에 물음표 아이콘이 표시되고 **데이터 선택기** 창이 열립니다. 다음 예제에서는 B3:B9의 범위를 선택하고 Power BI 주요 테이블 **Store** 를 선택합니다. 셀 B9 “508 - Pasadena Lindseys”를 제외한 모든 행에 일치 항목이 있습니다. **데이터 선택기** 는 두 개의 일치 가능한 항목을 보여 줍니다. 이는 두 개의 테이블에 있는 값과 동일합니다.
 
 :::image type="content" source="media/service-excel-featured-tables/excel-question-mark-featured-table.png" alt-text="Excel 데이터 선택기 창의 스크린샷.":::
  
@@ -61,7 +61,7 @@ Excel이 신뢰도가 높은 일치하는 행을 찾으면 셀이 해당 행에 
 
 :::image type="content" source="media/service-excel-featured-tables/excel-data-selector-multiple.png" alt-text="여러 가능성이 있는 Excel 데이터 선택기 창의 스크린샷.":::
  
-올바른 행을 선택할 수 있도록 각 제안에서 **데이터 선택기** 창의 행 이름을 선택하여 행 세부 정보를 확인합니다. 행을 찾았으면 **선택**을 눌러 Excel의 셀에 행을 연결합니다. 
+올바른 행을 선택할 수 있도록 각 제안에서 **데이터 선택기** 창의 행 이름을 선택하여 행 세부 정보를 확인합니다. 행을 찾았으면 **선택** 을 눌러 Excel의 셀에 행을 연결합니다. 
 
 :::image type="content" source="media/service-excel-featured-tables/excel-data-selector-details.png" alt-text="데이터 선택기 세부 정보의 스크린샷.":::
 
@@ -106,7 +106,7 @@ Excel 테이블에서는 연결된 테이블 열을 참조한 다음 `.`(마침�
 
 :::image type="content" source="media/service-excel-featured-tables/excel-right-click-data-type.png" alt-text="마우스 오른쪽 단추 클릭, 텍스트로 변환의 스크린샷.":::
  
-**텍스트로 변환**은 Power BI 주요 테이블의 행에 대한 링크를 제거합니다. 중요한 점은 셀의 텍스트가 연결된 셀의 행 레이블 값이라는 것입니다. 셀을 의도하지 않는 행에 연결한 경우 Excel에서 **실행 취소**를 선택하여 초기 셀 값을 복원합니다.
+**텍스트로 변환** 은 Power BI 주요 테이블의 행에 대한 링크를 제거합니다. 중요한 점은 셀의 텍스트가 연결된 셀의 행 레이블 값이라는 것입니다. 셀을 의도하지 않는 행에 연결한 경우 Excel에서 **실행 취소** 를 선택하여 초기 셀 값을 복원합니다.
  
 ## <a name="data-caching-and-refresh"></a>데이터 캐싱 및 새로 고침
 
@@ -116,7 +116,7 @@ Excel이 셀을 Power BI 주요 테이블의 행에 연결할 때 Excel 파일�
 
 :::image type="content" source="media/service-excel-featured-tables/excel-refresh-all.png" alt-text="모두 새로 고침의 스크린샷.":::
  
-개별 셀을 새로 고칠 수도 있습니다. 셀을 마우스 오른쪽 단추로 클릭하고 **데이터 형식** > **새로 고침**을 선택합니다.
+개별 셀을 새로 고칠 수도 있습니다. 셀을 마우스 오른쪽 단추로 클릭하고 **데이터 형식** > **새로 고침** 을 선택합니다.
 
 ## <a name="licensing"></a>라이선싱
 
@@ -132,7 +132,7 @@ Power BI 데이터 세트에 행 수준 보안 또는 Microsoft Information Prot
 
 ## <a name="administrative-control"></a>관리 제어
 
-Power BI 관리자는 조직에서 Excel 데이터 형식 갤러리의 주요 테이블을 사용할 수 있는 사용자를 제어할 수 있습니다. 자세한 내용은 관리 포털 문서의 [주요 테이블 설정](../admin/service-admin-portal.md#featured-tables-settings)을 참조하세요. 
+Power BI 관리자는 조직에서 Excel 데이터 형식 갤러리의 주요 테이블을 사용할 수 있는 사용자를 제어할 수 있습니다. 자세한 내용은 관리 포털 문서의 [주요 테이블에 대한 연결 허용](../admin/service-admin-portal.md#allow-connections-to-featured-tables)을 참조하세요. 
  
 ### <a name="auditing"></a>감사
 
