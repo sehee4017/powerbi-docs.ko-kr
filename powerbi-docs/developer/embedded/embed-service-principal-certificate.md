@@ -3,29 +3,22 @@ title: 서비스 주체 및 인증서를 사용하여 Power BI 콘텐츠 포함
 description: Azure Active Directory 애플리케이션 서비스 주체 및 인증서를 사용하여 임베디드 분석을 인증하는 방법을 알아봅니다.
 author: KesemSharabi
 ms.author: kesharab
-ms.reviewer: nishalit
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
-ms.date: 10/15/2020
-ms.openlocfilehash: 3d25fe925b98dbdd74d61fd70320bd4275db35e3
-ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
+ms.date: 11/23/2020
+ms.openlocfilehash: 990e3787927cb483b37d7bc456a46201876fcbed
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92197774"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95514427"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-a-certificate"></a>서비스 주체 및 인증서를 사용하여 Power BI 콘텐츠 포함
 
-[!INCLUDE[service principal overview](../../includes/service-principal-overview.md)]
-
->[!NOTE]
->비밀 키가 아닌 인증서를 사용하여 백 엔드 서비스를 보호하는 것이 좋습니다. [비밀 키 또는 인증서를 사용하여 Azure AD에서 액세스 토큰을 가져오는 방법에 대해 자세히 알아보세요.](/azure/architecture/multitenant-identity/client-assertion)
-
-## <a name="certificate-based-authentication"></a>인증서 기반 인증
-
-인증서 기반 인증을 사용하면 Windows, Android 또는 iOS 디바이스의 클라이언트 인증서를 사용하여 Azure AD(Azure Active Directory)에서 인증을 받거나 [Azure Key Vault](/azure/key-vault/basic-concepts)에 보관할 수 있습니다.
+인증서 기반 인증을 사용하면 Windows, Android 또는 iOS 디바이스의 클라이언트 인증서를 사용하여 Azure AD(Azure Active Directory)에서 인증을 받거나 [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/basic-concepts)에 보관할 수 있습니다.
 
 이 인증 방법을 사용하면 중앙에서 CA를 사용하여 순환 또는 해지를 위해 인증서를 관리할 수 있습니다.
 
@@ -33,50 +26,24 @@ Azure AD의 인증서에 대한 자세한 내용은 [클라이언트 자격 증�
 
 ## <a name="method"></a>메서드
 
-서비스 주체 및 인증서를 임베디드 분석과 함께 사용하려면 다음 단계를 수행합니다.
+1. [서비스 주체를 사용하여 콘텐츠를 포함](embed-service-principal.md)합니다.
 
-1. Azure AD 애플리케이션을 만듭니다.
+2. [인증서를 만듭니다](embed-service-principal-certificate.md#step-2---create-a-certificate).
 
-2. Azure AD 보안 그룹을 만듭니다.
+3. [인증서 인증을 설정](embed-service-principal-certificate.md#step-3---set-up-certificate-authentication)합니다.
 
-3. Power BI 서비스 관리자 설정을 사용하도록 설정합니다.
+4. [Azure Key Vault에서 인증서를 가져옵니다](embed-service-principal-certificate.md#step-4---get-the-certificate-from-azure-key-vault).
 
-4. 작업 영역에 서비스 주체를 추가합니다.
+5. [서비스 주체 및 인증서를 사용하여 인증](embed-service-principal-certificate.md#step-5---authenticate-using-service-principal-and-a-certificate)합니다.
 
-5. 인증서 만들기
+## <a name="step-1---embed-your-content-with-service-principal"></a>1단계 - 서비스 주체를 사용하여 콘텐츠 포함
 
-6. 인증서 인증을 설정합니다.
+서비스 주체를 사용하여 콘텐츠를 포함하려면 [서비스 주체 및 애플리케이션 암호를 사용하여 Power BI 콘텐츠 포함](embed-service-principal.md)의 지침을 따르세요.
 
-7. Azure Key Vault에서 인증서를 가져옵니다.
+>[!NOTE]
+>서비스 주체를 사용하여 포함된 콘텐츠가 이미 있는 경우 이 단계를 건너뛰고 [2단계](embed-service-principal-certificate.md#step-2---create-a-certificate)로 진행합니다.
 
-8. 서비스 주체 및 인증서를 사용하여 인증합니다.
-
-## <a name="step-1---create-an-azure-ad-application"></a>1단계 - Azure AD 애플리케이션 만들기
-
-[!INCLUDE[service principal create app](../../includes/service-principal-create-app.md)]
-
-### <a name="creating-an-azure-ad-app-using-powershell"></a>PowerShell을 사용하여 Azure AD 앱 만들기
-
-이 섹션에는 [PowerShell](/powershell/azure/create-azure-service-principal-azureps)을 사용하여 새 Azure AD 앱을 만드는 샘플 스크립트가 포함되어 있습니다.
-
-```powershell
-# The app ID - $app.appid
-# The service principal object ID - $sp.objectId
-# The app key - $key.value
-
-# Sign in as a user that's allowed to create an app
-Connect-AzureAD
-
-# Create a new Azure AD web application
-$app = New-AzureADApplication -DisplayName "testApp1" -Homepage "https://localhost:44322" -ReplyUrls "https://localhost:44322"
-
-# Creates a service principal
-$sp = New-AzureADServicePrincipal -AppId $app.AppId
-```
-
-[!INCLUDE[service create steps two, three and four](../../includes/service-principal-create-steps.md)]
-
-## <a name="step-5---create-a-certificate"></a>5단계 - 인증서 만들기
+## <a name="step-2---create-a-certificate"></a>2단계 - 인증서 만들기
 
 신뢰할 수 있는 ‘인증 기관’에서 인증서를 구하거나 인증서를 직접 생성할 수 있습니다.
 
@@ -130,15 +97,15 @@ $sp = New-AzureADServicePrincipal -AppId $app.AppId
 
     ![CER 형식으로 다운로드 단추를 표시하는 스크린샷.](media/embed-service-principal-certificate/download-cer.png)
 
-## <a name="step-6---set-up-certificate-authentication"></a>6단계 - 인증서 인증 설정
+## <a name="step-3---set-up-certificate-authentication"></a>3단계 - 인증서 인증 설정
 
 1. Azure AD 애플리케이션에서 **인증서 및 암호** 탭을 클릭합니다.
 
      ![Azure Portal에서 앱의 인증서 및 비밀 창을 보여주는 스크린샷.](media/embed-service-principal/certificates-and-secrets.png)
 
-2. **인증서 업로드** 를 클릭하고 이 자습서의 [1단계](#step-5---create-a-certificate)에서 만들고 다운로드한 *.cer* 파일을 업로드합니다. *.cer* 파일에는 공개 키가 들어 있습니다.
+2. **인증서 업로드** 를 클릭하고 이 자습서의 [2단계](#step-2---create-a-certificate)에서 만들고 다운로드한 *.cer* 파일을 업로드합니다. *.cer* 파일에는 공개 키가 들어 있습니다.
 
-## <a name="step-7---get-the-certificate-from-azure-key-vault"></a>7단계 - Azure Key Vault에서 인증서 가져오기
+## <a name="step-4---get-the-certificate-from-azure-key-vault"></a>4단계 - Azure Key Vault에서 인증서 가져오기
 
 MSI(관리 서비스 ID)를 사용하여 Azure Key Vault에서 인증서를 가져옵니다. 이 프로세스에는 퍼블릭 키와 프라이빗 키가 둘 다 들어 있는 *.pfx* 인증서를 가져오는 과정이 포함됩니다.
 
@@ -165,7 +132,7 @@ private X509Certificate2 ReadCertificateFromVault(string certName)
 }
 ```
 
-## <a name="step-8---authenticate-using-service-principal-and-a-certificate"></a>8단계 - 서비스 주체 및 인증서를 사용하여 인증
+## <a name="step-5---authenticate-using-service-principal-and-a-certificate"></a>5단계 - 서비스 주체 및 인증서를 사용하여 인증
 
 Azure Key Vault에 연결하여 Azure Key Vault에 저장된 인증서 및 서비스 주체를 사용하여 앱을 인증할 수 있습니다.
 
@@ -216,14 +183,12 @@ public async Task<AuthenticationResult> DoAuthentication(){
 
 4. Azure Key Vault에 대한 액세스 권한이 있는 계정을 추가합니다.
 
-[!INCLUDE[service principal limitations](../../includes/service-principal-limitations.md)]
-
 ## <a name="next-steps"></a>다음 단계
 
 >[!div class="nextstepaction"]
 >[앱 등록](register-app.md)
 
->[!div class="nextstepaction"]
+> [!div class="nextstepaction"]
 >[고객을 위한 Power BI Embedded](embed-sample-for-customers.md)
 
 >[!div class="nextstepaction"]
@@ -231,6 +196,3 @@ public async Task<AuthenticationResult> DoAuthentication(){
 
 >[!div class="nextstepaction"]
 >[서비스 주체가 있는 온-프레미스 데이터 게이트웨이를 사용하는 행 수준 보안](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
-
->[!div class="nextstepaction"]
->[서비스 주체 및 애플리케이션 암호를 사용하여 Power BI 콘텐츠 포함](embed-service-principal.md)

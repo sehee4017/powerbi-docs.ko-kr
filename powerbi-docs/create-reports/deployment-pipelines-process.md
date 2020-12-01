@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: contperfq1
 ms.date: 10/21/2020
-ms.openlocfilehash: 6c1e4212cb991ff7eb3d0f8a5e336010499bcd1c
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 5799b0367c903eea55357969a2d4383a5f4c0c7b
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668606"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95514335"
 ---
 # <a name="understand-the-deployment-process"></a>배포 프로세스 이해
 
@@ -286,6 +286,8 @@ PPU([사용자 단위 Premium)](../admin/service-premium-per-user-faq.md)를 사
 * Power BI [민감도 레이블](../admin/service-security-sensitivity-label-overview.md)을 포함하는 보고서 및 대시보드와 같은 Power BI 항목은 배포할 수 없습니다.
 
 * 단일 배포로 배포할 수 있는 Power BI 항목은 최대 300개입니다.
+
+* 배포 후 PBIX파일 다운로드는 지원되지 않습니다.
 
 * 작업 영역 제한 사항의 목록은 [작업 영역 할당 제한 사항](deployment-pipelines-get-started.md#workspace-assignment-limitations)을 참조하세요.
 

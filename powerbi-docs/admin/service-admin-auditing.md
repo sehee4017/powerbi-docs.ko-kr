@@ -10,12 +10,12 @@ ms.date: 08/20/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 330f844e9c97a3a59ff854ac14612c328b7cb9b6
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 178b79ba4ae76288794f7bb67afba11c0595de7f
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92680995"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95513852"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Power BI에서 사용자 활동 추적
 
@@ -276,6 +276,9 @@ Exchange Online에 연결하는 방법에 대한 자세한 내용은 [Exchange O
 | Power BI Gateway 만들어짐                          | CreateGateway                               |                                          |
 | Power BI 그룹 만듦                            | CreateGroup                                 |                                          |
 | Power BI 보고서 만듦                           | CreateReport <sup>1</sup>                                |                                          |
+| Power BI 템플릿 앱 작업 영역 만들기 | CreateTemplateApp   |
+| Power BI 템플릿 앱 설치 티켓 만들기 | CreateTemplateAppInstallTicket |
+| Power BI 템플릿 앱 패키지 만들기 | CreateTemplateAppPackage |
 | 사용자 지정 시각적 개체가 Azure AD 액세스 토큰 요청                           | GenerateCustomVisualAADAccessToken                                |                                          |
 | 사용자 지정 시각적 개체가 Office Web Apps 액세스 토큰 요청                           | GenerateCustomVisualWACAccessToken                                |                                          |
 | 외부 스토리지 계정으로 데이터 흐름 마이그레이션     | DataflowMigratedToExternalStorageAccount    | 현재 사용되지 않음                       |
@@ -294,6 +297,8 @@ Exchange Online에 연결하는 방법에 대한 자세한 내용은 [Exchange O
 | Power BI Gateway 삭제됨                          | DeleteGateway                               |                                          |
 | Power BI 그룹 삭제됨                            | DeleteGroup                                 |                                          |
 | Power BI 보고서 삭제됨                           | DeleteReport                                |                                          |
+| Power BI 템플릿 앱 작업 영역 삭제됨 | DeleteTemplateApp |
+| Power BI 템플릿 앱 패키지 삭제됨 | DeleteTemplateAppPackage |
 | 파이프라인 단계에 배포됨                           | DeployAlmPipeline                                |                                          |
 | 검색된 Power BI 데이터 세트의 데이터 원본          | GetDatasources                              |                                          |
 | 다운로드한 Power BI 보고서                        | DownloadReport                              |                                          |
@@ -306,6 +311,7 @@ Exchange Online에 연결하는 방법에 대한 자세한 내용은 [Exchange O
 | Power BI 데이터 흐름 내보냄                        | ExportDataflow                              |                                          |
 | Power BI 보고서 시각적 데이터 내보냄              | ExportReport                                |                                          |
 | Power BI 데이터 타일 데이터 내보냄                       | ExportTile                                  |                                          |
+| Power BI 템플릿 앱 패키지가 작업 영역에 추출됨 | ExtractTemplateAppPackage |
 | 데이터 흐름 사용 권한을 추가하지 못함                | FailedToAddDataflowPermissions              | 현재 사용되지 않음                       |
 | 데이터 흐름 사용 권한을 제거하지 못함             | FailedToRemoveDataflowPermissions           | 현재 사용되지 않음                       |
 | Power BI 데이터 흐름 SAS 토큰 생성됨             | GenerateDataflowSasToken                    |                                          |
@@ -313,10 +319,12 @@ Exchange Online에 연결하는 방법에 대한 자세한 내용은 [Exchange O
 | 스크린샷 생성                       | GenerateScreenshot |                     |
 | Power BI로 파일 가져옴                         | 가져오기                                      |                                          |
 | Power BI 앱 설치됨                            | InstallApp                                  |                                          |
+| Power BI 템플릿 앱 설치됨 | InstallTemplateApp |
 | 용량에 작업 영역 마이그레이션됨                  | MigrateWorkspaceIntoCapacity                |                                          |
 | Power BI 주석 게시됨                           | PostComment                                 |                                          |
 | Power BI 대시보드 인쇄됨                        | PrintDashboard                              |                                          |
 | Power BI 보고서 페이지 인쇄됨                      | PrintReport                                 |                                          |
+| Power BI 템플릿 앱 패키지 승격됨 | PromoteTemplateAppPackage |
 | 웹에 Power BI 보고서 게시됨                  | PublishToWebReport <sup>2</sup>                         |                                          |
 | 주요 테이블을 게시 또는 업데이트함 | UpdateFeaturedTables <sup>3</sup>   | |
 | Key Vault에서 Power BI 데이터 흐름 비밀 수신됨  | ReceiveDataflowSecretFromKeyVault           |                                          |
@@ -348,6 +356,7 @@ Exchange Online에 연결하는 방법에 대한 자세한 내용은 [Exchange O
 | 용량 표시 이름 업데이트됨                     | UpdateCapacityDisplayName                   |                                          |
 | 데이터 흐름 스토리지 할당 권한 업데이트됨   | UpdatedDataflowStorageAssignmentPermissions |                                          |
 | 배포 파이프라인 업데이트됨   | UpdateAlmPipelineAccess |                                          |
+| 설치된 Power BI 템플릿 앱 매개 변수 업데이트됨 | UpdateInstalledTemplateAppParameters |
 | 배포 파이프라인 구성 업데이트됨   | SetConfigurationAlmPipeline |                                          |
 | 조직의 Power BI 설정 업데이트됨          | UpdatedAdminFeatureSwitch                   |                                          |
 | Power BI 앱 업데이트됨                              | UpdateApp                                   |                                          |
@@ -358,6 +367,8 @@ Exchange Online에 연결하는 방법에 대한 자세한 내용은 [Exchange O
 | Power BI 폴더 업데이트됨                           | UpdateFolder                                |                                          |
 | Power BI 폴더 액세스 권한 업데이트됨                    | UpdateFolderAccess                          |                                          |
 | Power BI 게이트웨이 데이터 원본 자격 증명 업데이트됨  | UpdateDatasourceCredentials                 |                                          |
+| Power BI 템플릿 앱 설정 업데이트됨 | UpdateTemplateAppSettings |
+| Power BI 템플릿 앱 테스트 액세스 권한 업데이트됨 | UpdateTemplateAppTestPackagePermissions |
 | Power BI 대시보드 표시됨                         | ViewDashboard                               |                                          |
 | Power BI 데이터 흐름 표시됨                          | ViewDataflow                                |                                          |
 | Power BI 보고서 표시됨                            | ViewReport                                  |                                          |

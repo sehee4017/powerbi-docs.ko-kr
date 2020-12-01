@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 11/12/2020
+ms.date: 11/20/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: d5879d6a8469b23f6e31e48345ac3ccb5f378cbb
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: fe1714fd0249bba429c705b70e9eb157bffae44b
+ms.sourcegitcommit: 8afdd3601209636c9ab92d75f967d4ee0a2cab26
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668215"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "95012030"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium이란?
 
-Power BI Premium을 사용하면 Premium에서만 사용 가능한 기능에 액세스하고 조직의 Power BI 콘텐츠에 더 큰 규모와 성능을 제공할 수 있습니다. 조직의 사용자는 Power BI Premium을 사용하면 더 나은 성능과 응답성으로 Power BI를 최대한 활용할 수 있습니다. 예를 들어 Power BI Premium을 사용하면 다음과 같은 이점을 얻을 수 있습니다.
+Power BI Premium을 사용하면 Premium에서만 사용 가능한 기능에 액세스하고 조직의 Power BI 콘텐츠에 더 큰 규모와 성능을 제공할 수 있습니다. 조직의 사용자는 Power BI Premium을 사용하면 더 나은 성능과 응답성으로 Power BI를 최대한 활용할 수 있습니다. 예를 들어 Power BI Premium을 사용하면 다음과 같은 기능을 활용할 수 있습니다.
 
 > [!div class="checklist"]
 > * Power BI 보고서에 대한 스케일링 및 성능 향상
@@ -50,16 +50,16 @@ Premium Gen2는 다음과 같은 업데이트 또는 개선된 환경을 제공�
     * 메모리 제한 감소
     * 보고서 상호 작용 및 예약된 새로 고침 간의 완전한 분리
 
-* 용량이 수행하는 분석 작업의 복잡성에만 의존하며 크기, 수행하는 동안 시스템의 부하 수준 등에 의존하지 않는 정규화된 명확한 용량 사용률 데이터로 **개선된 메트릭**. 메트릭이 개선되어 사용률 분석, 예산 계획, 차지백, 업그레이드 필요성 등이 기본 제공 보고 기능에서 명확하게 표시됩니다. 개선된 메트릭은 미리 보기 기간 내내 사용 가능하며 계속해서 향상됩니다. 
+* 용량이 수행하는 분석 작업의 복잡성에만 의존하며 크기, 분석을 수행하는 동안 시스템의 부하 수준 또는 기타 요인에 의존하지 않는 정규화된 명확한 용량 사용률 데이터로 **개선된 메트릭** 메트릭이 개선되어 사용률 분석, 예산 계획, 차지백, 업그레이드 필요성 등이 기본 제공 보고 기능에서 명확하게 표시됩니다. 개선된 메트릭은 미리 보기 기간 내내 사용 가능하며 계속해서 향상됩니다.
 
 * **자동 스케일링** 을 사용하면 용량의 부하가 한도를 초과할 때 24시간 동안 한 번에 하나씩 v 코어를 *자동으로 추가* 할 수 있으므로 과부하로 인한 속도 저하를 방지할 수 있습니다. 유휴 시간이 감지되면 v 코어가 자동으로 제거됩니다. 추가 v 코어는 종량제 기준으로 Azure 구독에 청구됩니다. 자동 스케일링은 미리 보기 기간에 사용할 수 있습니다. 
 
-* 용량 사용률 수준 및 부하 증가에 대한 관리자 알림을 사전에 구성할 수 있으므로 **관리 오버헤드가 크게 감소** 됩니다.
+* 용량 사용률 수준 및 부하 증가에 대한 관리자 알림을 사전에 구성할 수 있으므로 **관리 오버헤드가 감소** 됩니다.
 
 
 ### <a name="using-premium-gen2"></a>Premium Gen2 사용
 
-업데이트를 활용하려면 Premium Gen2를 사용하도록 설정해야 합니다. Premium Gen2를 사용하도록 설정하려면:
+업데이트를 활용하려면 Premium Gen2를 사용하도록 설정합니다. Premium Gen2를 사용하도록 설정하려면:
 
 1. 관리 포털에서 **용량 설정** 으로 이동합니다.
 2. **Power BI Premium** 을 선택합니다.
@@ -78,10 +78,15 @@ Premium Gen2는 다음과 같은 업데이트 또는 개선된 환경을 제공�
 
 2.  특정 워크로드에 대한 Premium Gen2 용량 설정은 관리 포털의 Premium Gen2 용량 설정 페이지에 아직 표시되지 않습니다. 설정을 변경하려면 용량을 Premium의 원래 버전으로 전환하고, 설정을 변경한 다음, 다시 한 번 Premium Gen2를 사용하도록 용량을 설정합니다. 메모리 할당 설정은 Premium Gen2 용량에 적용되지 않습니다.
 
-3.  ADLS Gen2 데이터 원본이 있는 데이터 흐름은 현재 Premium Gen2 용량에서 작동하지 않습니다.  
+3.  Premium Gen2에서 XMLA를 사용하는 경우 최신 버전의 [데이터 모델링 및 관리 도구](service-premium-connect-tools.md#data-modeling-and-management-tools)를 사용하고 있는지 확인하세요. 
 
-4.  Premium Gen2에서 XMLA를 사용하는 경우 최신 버전의 [데이터 모델링 및 관리 도구](service-premium-connect-tools.md#data-modeling-and-management-tools)를 사용하고 있는지 확인하세요. 
+4.  Premium Gen2의 Analysis Services 기능은 최신 클라이언트 라이브러리 에서만 지원됩니다. 이 요구 사항을 지원할 종속 도구의 예상 릴리스 날짜는 다음과 같습니다.
 
+    |도구|필요한 최소 버전|예상 릴리스 날짜|
+    |---|---|---|
+    |SSMS(SQL Server Management Studio)|18.8|2020년 12월 8일|
+    |SSDT(SQL Server Data Tools)|2.9.15|일반 공급 2020년 11월 30일|
+    | AS PowerShell| 21.1.18229 이상|2020년 11월 26일|
 
 ## <a name="subscriptions-and-licensing"></a>구독 및 라이선스
 

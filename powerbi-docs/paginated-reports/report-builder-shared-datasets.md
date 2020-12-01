@@ -1,18 +1,18 @@
 ---
 title: Power BI Report Builder에서 Power BI 공유 데이터 세트로 페이지가 매겨진 보고서 만들기
 description: Power BI 공유 데이터 세트 기반의 Power BI Report Builder에서 페이지가 매겨진 보고서를 만듭니다.
-ms.date: 07/08/2020
+ms.date: 11/18/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 44f1c1280e176d99ab909402a77804074e7d8cbd
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 9b8e7ac37b42e74835cde120ad1465df586a8fe3
+ms.sourcegitcommit: b2693047fce6a4e0c3ea07013404e99fc9cc1901
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93298108"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "94893709"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Power BI 공유 데이터 세트 기반의 페이지가 매겨진 보고서 만들기
 
@@ -110,7 +110,7 @@ Power BI 보고서와 보고서 작성기 보고서의 데이터를 동일하게
     > [!NOTE]
     > 쿼리에 TOPN 함수가 포함된 경우에는 쿼리에서 해당 함수를 삭제합니다.
 
-1. **쿼리 실행** (빨간색 느낌표, !)을 선택하여 쿼리가 작동하는지 확인합니다. 
+1. **쿼리 실행**(빨간색 느낌표, !)을 선택하여 쿼리가 작동하는지 확인합니다. 
 
     ![쿼리 실행](media/report-builder-shared-datasets/power-bi-report-builder-run-query.png)
 
@@ -222,6 +222,7 @@ Power BI 보고서와 보고서 작성기 보고서의 데이터를 동일하게
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항 
 
 - Analysis Services에 대한 라이브 연결을 사용하는 데이터 세트의 경우 공유 데이터 세트 대신 기본 Analysis Services 연결을 사용하여 직접 연결할 수 있습니다.
+- Power BI Report Builder에서 DirectQuery를 사용하는 Power BI 데이터 세트를 사용하려는 경우 보고서에 측정값을 표시할 계획이 없더라도 데이터 세트에 측정값을 포함해야 합니다. 측정값이 없으면 데이터 세트는 적절한 데이터 결과를 반환하지 않습니다.
 - 승격 또는 공인 인증을 사용하는 데이터 세트는 사용 가능한 데이터 세트 목록에 나타나지만 이러한 데이터 세트로 표시되지 않습니다. 
 - Power BI 공유 데이터 세트를 기반으로 하는 페이지를 매긴 보고서를 “앱 소유 데이터” 시나리오에 포함할 수 없습니다.
 

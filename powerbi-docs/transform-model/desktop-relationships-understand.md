@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 472f2ecce2e28fcb7d50356ec1322f67f2395411
-ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
+ms.openlocfilehash: d162f4c4bb481eadc01fc1fac09c8b25e084fdbf
+ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "91136008"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94946961"
 ---
 # <a name="model-relationships-in-power-bi-desktop"></a>Power BI Desktop의 모델 관계
 
@@ -32,9 +32,9 @@ ms.locfileid: "91136008"
 
 애니메이션 예를 사용하여 관계에서 필터를 전파하는 방법을 살펴보겠습니다.
 
-![관계 필터 전파의 애니메이션 예](media/desktop-relationships-understand/animation-filter-propagation.gif)
+:::image type="content" source="media/desktop-relationships-understand/animation-filter-propagation.gif" alt-text="관계 필터 전파의 애니메이션 예":::
 
-이 예에서 모델은 **Category** , **Product** , **Year** 및 **Sales** 의 네 가지 테이블로 구성되어 있습니다. **Category** 테이블은 **Product** 테이블과 관계되며, **Product** 테이블은 **Sales** 테이블과 관계됩니다. **Year** 테이블은 **Sales** 테이블과도 관계됩니다. 모든 관계는 일대다입니다(자세한 내용은 이 문서의 뒷부분에서 설명함).
+이 예에서 모델은 **Category**, **Product**, **Year** 및 **Sales** 의 네 가지 테이블로 구성되어 있습니다. **Category** 테이블은 **Product** 테이블과 관계되며, **Product** 테이블은 **Sales** 테이블과 관계됩니다. **Year** 테이블은 **Sales** 테이블과도 관계됩니다. 모든 관계는 일대다입니다(자세한 내용은 이 문서의 뒷부분에서 설명함).
 
 Power BI 카드 시각적 개체에서 생성하는 쿼리는 **Cat-A** 단일 범주 및 **CY2018** 단일 연도에 이루어진 판매 주문의 총 판매량을 요청합니다. 이렇게 하면 **Category** 및 **Year** 테이블에 적용된 필터를 볼 수 있습니다. **Category** 테이블의 필터가 **Product** 테이블로 전파되어 **Cat-A** 범주에 할당된 두 제품을 격리합니다. 그런 다음, **Product** 테이블 필터가 **Sales** 테이블로 전파되어 이러한 제품에 대한 두 개의 판매 행만 격리합니다. 이러한 두 개의 판매 행은 **Cat-A** 범주에 할당된 제품의 판매량을 나타냅니다. 결합된 수량은 14단위입니다. 이와 동시에 **Sales** 테이블을 추가로 필터링하기 위해 **Year** 테이블 필터가 전파되어 **Cat-A** 범주에 할당되고 **CY2018** 년에 주문된 제품에 대한 하나의 판매 행이 생성됩니다. 쿼리에서 반환한 수량 값은 11단위입니다. 이 예의 **Sales** 테이블과 같이 여러 필터가 테이블에 적용되는 경우 항상 AND 연산이므로 모든 조건이 참이어야 합니다.
 
@@ -69,7 +69,7 @@ Power BI Desktop에서 관계를 만들면 디자이너에서 카디널리티 �
 
 **일대다** 및 **다대일** 카디널리티 옵션은 기본적으로 동일하며, 가장 일반적인 카디널리티 유형이기도 합니다.
 
-일대일 또는 다대일 관계를 구성하는 경우 열과 관계된 순서와 일치하는 관계를 선택합니다. 각 테이블에 있는 **ProductID** 열을 사용하여 **Product** 테이블에서 **Sales** 테이블로의 관계를 구성하는 방법을 고려합니다. **Product** 테이블의 **ProductID** 열에 고유 값이 포함되어 있으므로 카디널리티 유형은 _일대다_ 입니다. 테이블의 관계를 역방향으로( **Sales** 에서 **Product** 으로) 구성하는 경우 카디널리티는 _다대일_ 입니다.
+일대일 또는 다대일 관계를 구성하는 경우 열과 관계된 순서와 일치하는 관계를 선택합니다. 각 테이블에 있는 **ProductID** 열을 사용하여 **Product** 테이블에서 **Sales** 테이블로의 관계를 구성하는 방법을 고려합니다. **Product** 테이블의 **ProductID** 열에 고유 값이 포함되어 있으므로 카디널리티 유형은 _일대다_ 입니다. 테이블의 관계를 역방향으로(**Sales** 에서 **Product** 으로) 구성하는 경우 카디널리티는 _다대일_ 입니다.
 
 **일대일** 관계는 두 열에 고유 값이 포함되어 있음을 의미합니다. 이 카디널리티 유형은 일반적이지 않으며, 중복 데이터가 저장되므로 최적이 아닌 모델 설계를 나타낼 가능성이 높습니다. 이 카디널리티 유형을 사용하는 자세한 내용은 [일 대 일 관계 지침](../guidance/relationships-one-to-one.md)을 참조하세요.
 
@@ -150,7 +150,7 @@ _참조 무결성 가정_ 속성은 동일한 데이터 원본을 기반으로 �
 
 복합 모델의 예를 살펴보겠습니다.
 
-![두 개의 아일랜드로 구성된 복합 모델의 예](media/desktop-relationships-understand/data-island-example.png)
+:::image type="content" source="media/desktop-relationships-understand/data-island-example.png" alt-text="두 개의 아일랜드로 구성된 복합 모델의 예":::
 
 이 예의 복합 모델은 Vertipaq 데이터 아일랜드와 DirectQuery 원본 데이터 아일랜드라는 두 개의 아일랜드로 구성됩니다. Vertipaq 데이터 아일랜드에는 세 개의 테이블이 있고, DirectQuery 원본 데이터 아일랜드에는 두 개의 테이블이 있습니다. Vertipaq 데이터 아일랜드의 테이블을 DirectQuery 원본 데이터 아일랜드의 테이블과 관계시키는 하나의 교차 아일랜드 관계가 있습니다.
 
@@ -158,13 +158,13 @@ _참조 무결성 가정_ 속성은 동일한 데이터 원본을 기반으로 �
 
 쿼리 엔진에서 관계의 "일" 쪽을 확인할 수 있는 경우 모델 관계는 _일반_ 입니다. "일" 쪽 열에 고유 값이 포함되어 있음을 확인했습니다. 모든 일대다 내부 아일랜드 관계는 일반 관계입니다.
 
-다음 예에는 둘 다 **S** 로 표시된 두 개의 일반 관계가 있습니다. 관계에는 Vertipaq 아일랜드 내에 포함된 일대다 관계와 DirectQuery 원본에 포함된 일대다 관계가 있습니다.
+다음 예에는 둘 다 **R** 로 표시된 두 개의 일반 관계가 있습니다. 관계에는 Vertipaq 아일랜드 내에 포함된 일대다 관계와 DirectQuery 원본에 포함된 일대다 관계가 있습니다.
 
-![일반 관계가 표시된 두 개의 아일랜드로 구성된 복합 모델의 예](media/desktop-relationships-understand/data-island-example-strong.png)
+:::image type="content" source="media/desktop-relationships-understand/data-island-example-regular.png" alt-text="일반 관계가 표시된 두 개의 아일랜드로 구성된 복합 모델의 예":::
 
 모든 데이터가 Vertipaq 캐시에 저장되는 가져오기 모델의 경우 데이터를 새로 고치면 각 일반 관계에 대한 데이터 구조가 만들어집니다. 데이터 구조는 모든 열-열 값이 인덱싱된 매핑으로 구성되며, 이 매핑은 쿼리 시 테이블 조인을 가속화하기 위한 것입니다.
 
-쿼리 시 일반 관계를 사용하면 _테이블 확장_ 을 수행할 수 있습니다. 테이블 확장은 기본 테이블의 네이티브 열을 포함시킨 다음, 관계 테이블로 확장하여 가상 테이블을 만듭니다. 가져오기 테이블의 경우 이 작업은 쿼리 엔진에서 수행하고, DirectQuery 테이블의 경우 원본 데이터베이스에 보낸 네이티브 쿼리에서 수행합니다( **참조 무결성 가정** 속성이 사용하지 않도록 설정된 경우). 그런 다음, 쿼리 엔진에서 확장된 테이블에 작용하여 필터를 적용하고, 확장된 테이블 열의 값을 기준으로 그룹화합니다.
+쿼리 시 일반 관계를 사용하면 _테이블 확장_ 을 수행할 수 있습니다. 테이블 확장은 기본 테이블의 네이티브 열을 포함시킨 다음, 관계 테이블로 확장하여 가상 테이블을 만듭니다. 가져오기 테이블의 경우 이 작업은 쿼리 엔진에서 수행하고, DirectQuery 테이블의 경우 원본 데이터베이스에 보낸 네이티브 쿼리에서 수행합니다(**참조 무결성 가정** 속성이 사용하지 않도록 설정된 경우). 그런 다음, 쿼리 엔진에서 확장된 테이블에 작용하여 필터를 적용하고, 확장된 테이블 열의 값을 기준으로 그룹화합니다.
 
 > [!NOTE]
 > 계산에서 관계를 사용하지 않는 경우에도 비활성 관계가 확장됩니다. 양방향 관계는 테이블 확장에 영향을 주지 않습니다.
@@ -177,9 +177,9 @@ _참조 무결성 가정_ 속성은 동일한 데이터 원본을 기반으로 �
 
 애니메이션 예를 사용하여 테이블 확장이 작동하는 방식을 살펴보겠습니다.
 
-![테이블 확장의 애니메이션 예](media/desktop-relationships-understand/animation-expanded-table.gif)
+:::image type="content" source="media/desktop-relationships-understand/animation-expanded-table.gif" alt-text="테이블 확장의 애니메이션 예":::
 
-이 예의 모델은 **Category** , **Product** 및 **Sales** 의 세 개 테이블로 구성됩니다. **Category** 테이블은 일대다 관계가 있는 **Product** 테이블과 관계되고, **Product** 테이블은 일대다 관계가 있는 **Sales** 테이블과 관계됩니다. **Category** 테이블에는 두 개의 행이 있고, **Product** 테이블에는 세 개의 행이 있으며, **Sales** 테이블에는 다섯 개의 행이 있습니다. 모든 관계의 양쪽에 일치하는 값이 있으며, 이는 참조 무결성 위반이 없음을 의미합니다. 쿼리 시에 확장된 테이블이 표시됩니다. 이 테이블은 세 테이블의 열로 구성되어 있습니다. 이는 실질적으로 세 개의 테이블에 포함된 데이터의 비정규화된 관점입니다. 새 행이 **Sales** 테이블에 추가되고, **Product** 테이블에 일치하는 값이 없는 프로덕션 식별자 값(9)이 있습니다. 이는 참조 무결성 위반입니다. 확장된 테이블의 새 행에는 **Category** 및 **Product** 테이블 열에 대한 Blank(비어 있음) 값이 있습니다.
+이 예의 모델은 **Category**, **Product** 및 **Sales** 의 세 개 테이블로 구성됩니다. **Category** 테이블은 일대다 관계가 있는 **Product** 테이블과 관계되고, **Product** 테이블은 일대다 관계가 있는 **Sales** 테이블과 관계됩니다. **Category** 테이블에는 두 개의 행이 있고, **Product** 테이블에는 세 개의 행이 있으며, **Sales** 테이블에는 다섯 개의 행이 있습니다. 모든 관계의 양쪽에 일치하는 값이 있으며, 이는 참조 무결성 위반이 없음을 의미합니다. 쿼리 시에 확장된 테이블이 표시됩니다. 이 테이블은 세 테이블의 열로 구성되어 있습니다. 이는 실질적으로 세 개의 테이블에 포함된 데이터의 비정규화된 관점입니다. 새 행이 **Sales** 테이블에 추가되고, **Product** 테이블에 일치하는 값이 없는 프로덕션 식별자 값(9)이 있습니다. 이는 참조 무결성 위반입니다. 확장된 테이블의 새 행에는 **Category** 및 **Product** 테이블 열에 대한 Blank(비어 있음) 값이 있습니다.
 
 ### <a name="limited-relationships"></a>제한된 관계
 
@@ -188,9 +188,9 @@ _참조 무결성 가정_ 속성은 동일한 데이터 원본을 기반으로 �
 - 관계에서 다대다 카디널리티 유형을 사용합니다(하나 또는 두 열에 고유 값이 포함되어 있는 경우에도).
 - 관계가 교차 아일랜드입니다(복합 모델의 경우만 해당될 수 있음).
 
-다음 예에는 둘 다 **W** 로 표시된 두 개의 제한된 관계가 있습니다. 두 관계에는 Vertipaq 아일랜드 내에 포함된 다대다 관계와 일대다 교차 아일랜드 관계가 있습니다.
+다음 예에는 둘 다 **L** 로 표시된 두 개의 제한된 관계가 있습니다. 두 관계에는 Vertipaq 아일랜드 내에 포함된 다대다 관계와 일대다 교차 아일랜드 관계가 있습니다.
 
-![제한된 관계가 표시된 두 개의 아일랜드로 구성된 복합 모델의 예](media/desktop-relationships-understand/data-island-example-weak.png)
+:::image type="content" source="media/desktop-relationships-understand/data-island-example-limited.png" alt-text="제한된 관계가 표시된 두 개의 아일랜드로 구성된 복합 모델의 예":::
 
 가져오기 모델의 경우 제한된 관계에 대한 데이터 구조가 만들어지지 않습니다. 즉, 쿼리 시에 테이블 조인을 확인해야 합니다.
 

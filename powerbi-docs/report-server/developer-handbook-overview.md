@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.openlocfilehash: 1f7a04ca8920ef56e0e7de4efad47afa894e76d7
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d485c7ab7583d2604cd9da9e4c122c6cceeeb4fe
+ms.sourcegitcommit: 8afdd3601209636c9ab92d75f967d4ee0a2cab26
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861179"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "95012014"
 ---
 # <a name="developer-handbook-overview-power-bi-report-server"></a>개발자 안내서 개요, Power BI Report Server
 
@@ -42,7 +42,13 @@ Power BI Report Server를 조작하는 몇 가지 API 옵션이 있습니다. �
 오픈 소스 [PowerShell 유틸리티](https://github.com/Microsoft/ReportingServicesTools)를 사용하여 보고서 서버를 관리할 수도 있습니다.
 
 > [!NOTE]
-> 현재 PowerShell 유틸리티는 Power BI Desktop 파일(.pbix)을 지원하지 않습니다.
+> PowerShell 유틸리티는 -RsRest* 명령을 통해 Power BI Desktop 파일(.pbix)을 지원하지 않습니다.
+
+다음 명령을 실행하여 ReportingServicesTools PowerShell 모듈에서 Power BI Desktop 파일(.pbix)을 지원하는 명령을 찾습니다.
+
+```powershell
+Get-Command -Module ReportingServicesTools -Noun RsRest*
+```
 
 ## <a name="custom-extensions"></a>사용자 지정 확장
 
@@ -50,7 +56,7 @@ Power BI Report Server를 조작하는 몇 가지 API 옵션이 있습니다. �
 
 여러 종류의 확장을 빌드할 수 있습니다.
 
-* 데이터 처리 확장
+* 데이터 처리 확장 프로그램
 * 배달 확장 프로그램
 * 페이지를 매긴 보고서의 확장 렌더링
 * 보안 확장 프로그램
@@ -60,9 +66,9 @@ Power BI Report Server를 조작하는 몇 가지 API 옵션이 있습니다. �
 ## <a name="next-steps"></a>다음 단계
 
 [보고서 뷰어 컨트롤 시작](/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)  
-[웹 서비스 및 .NET Framework를 사용하여 애플리케이션 빌드](/sql/reporting-services/report-server-web-service/net-framework/building-applications-using-the-web-service-and-the-net-framework)  
+[웹 서비스와 .NET Framework를 사용하여 애플리케이션 빌드](/sql/reporting-services/report-server-web-service/net-framework/building-applications-using-the-web-service-and-the-net-framework)  
 [URL 액세스](/sql/reporting-services/url-access-ssrs)  
 [확장 라이브러리](/sql/reporting-services/extensions/reporting-services-extension-library)  
-[WMI 공급자](/sql/reporting-services/wmi-provider-library-reference/reporting-services-wmi-provider-library-reference-ssrs)
+[WMI Provider](/sql/reporting-services/wmi-provider-library-reference/reporting-services-wmi-provider-library-reference-ssrs)
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 10/15/2020
-ms.openlocfilehash: 24442f20a0c713deb489cd2461839f2b5da39a30
-ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
+ms.openlocfilehash: cea97f16cf06e80b7b16ef7740fcf3103b2f1eb4
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92197705"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95513783"
 ---
 # <a name="considerations-when-generating-an-embed-token"></a>embed 토큰 생성 시 고려 사항
 
@@ -25,7 +25,7 @@ ms.locfileid: "92197705"
 인증에 성공하면 관련 데이터에 대한 액세스 권한이 부여됩니다.
 
 >[!NOTE]
->토큰 생성은 [*고객에 대한 콘텐츠가 포함*](embed-sample-for-customers.md)되는 경우에만 적용됩니다( *앱 소유 데이터* 시나리오라고도 함).
+>토큰 생성은 [*고객에 대한 콘텐츠가 포함*](embed-sample-for-customers.md)되는 경우에만 적용됩니다(*앱 소유 데이터* 시나리오라고도 함).
 
 다음 API를 사용하여 토큰을 생성할 수 있습니다.
 
@@ -98,7 +98,7 @@ RLS 접근 방식을 사용하려는 경우 이 문서의 끝에 있는 [RLS 고
 
 [RLS(행 수준 보안)](embedded-row-level-security.md)를 사용하면 토큰을 생성하는 데 사용하는 서비스 주체 또는 마스터 사용자의 ID와 다른 ID를 사용하도록 선택할 수 있습니다. 이 옵션을 사용하면 대상으로 지정된 사용자에 따라 포함된 정보를 표시할 수 있습니다. 예를 들어 애플리케이션에서 사용자에게 로그인을 요청한 다음, 로그인한 사용자가 영업 직원인 경우 판매 정보만 포함된 보고서를 표시할 수 있습니다.
 
-RLS를 사용하는 경우, 경우에 따라 사용자 ID( *EffectiveIdentity* 매개 변수)를 생략할 수 있습니다. 이를 통해 토큰은 전체 데이터베이스에 액세스할 수 있습니다. 이 메서드는 전체 데이터 세트를 볼 수 있는 권한이 있는 관리자 및 관리자와 같은 사용자에게 액세스 권한을 부여하는 데 사용할 수 있습니다. 그러나 모든 시나리오에서 이 메서드를 사용할 수는 없습니다. 아래 표에는 여러 RLS 유형이 나열되어 있으며 사용자의 ID를 지정하지 않고 사용할 수 있는 인증 방법이 나와 있습니다.
+RLS를 사용하는 경우, 경우에 따라 사용자 ID(*EffectiveIdentity* 매개 변수)를 생략할 수 있습니다. 이를 통해 토큰은 전체 데이터베이스에 액세스할 수 있습니다. 이 메서드는 전체 데이터 세트를 볼 수 있는 권한이 있는 관리자 및 관리자와 같은 사용자에게 액세스 권한을 부여하는 데 사용할 수 있습니다. 그러나 모든 시나리오에서 이 메서드를 사용할 수는 없습니다. 아래 표에는 여러 RLS 유형이 나열되어 있으며 사용자의 ID를 지정하지 않고 사용할 수 있는 인증 방법이 나와 있습니다.
 
 이 표에는 각 RLS 유형에 적용되는 고려 사항 및 제한 사항도 나와 있습니다.
 
@@ -106,7 +106,7 @@ RLS를 사용하는 경우, 경우에 따라 사용자 ID( *EffectiveIdentity* �
 |---------|---------|---------|
 |클라우드 RLS(클라우드 행 수준 보안)      |✔ 마스터 사용자<br/>✖ 서비스 주체          |         |
 |RDL(페이지를 매긴 보고서)     |✖ 마스터 사용자<br/>✔ 서비스 주체        |마스터 사용자를 사용하여 RDL용 embed 토큰을 생성할 수 없습니다.         |
-|온-프레미스 라이브 연결의 AS(Analysis Services)    |✔ 마스터 사용자<br/>✖ 서비스 주체         |embed 토큰을 생성하는 사용자에게는 다음 사용 권한 중 하나가 필요합니다.<li>게이트웨이 관리자 권한</li><li>Datasource impersonate 권한( *ReadOverrideEffectiveIdentity* )</li>         |
+|온-프레미스 라이브 연결의 AS(Analysis Services)    |✔ 마스터 사용자<br/>✖ 서비스 주체         |embed 토큰을 생성하는 사용자에게는 다음 사용 권한 중 하나가 필요합니다.<li>게이트웨이 관리자 권한</li><li>Datasource impersonate 권한(*ReadOverrideEffectiveIdentity*)</li>         |
 |AS(Analysis Services) Azure 라이브 연결    |✔ 마스터 사용자<br/>✖ 서비스 주체         |embed 토큰을 생성하는 사용자의 ID는 재정의할 수 없습니다. 사용자 지정 데이터를 사용하여 동적 RLS 또는 보안 필터링을 구현할 수 있습니다.<br/><br/>**참고:** 서비스 주체는 개체 ID를 유효한 ID(RLS 사용자 이름)로 제공해야 합니다.         |
 |SSO(Single Sign-On)     |✔ 마스터 사용자<br/>✖ 서비스 주체         |유효한 ID 개체에서 ID Blob 속성을 사용하여 명시적 (SSO) ID를 제공할 수 있습니다.         |
 |SSO 및 클라우드 RLS     |✔ 마스터 사용자<br/>✖ 서비스 주체         |다음을 제공해야 합니다.<li>유효한 ID 개체의 ID Blob 속성이 있는 명시적 (SSO) ID</li><li>유효한 (RLS) ID(사용자 이름)</li>         |
@@ -131,4 +131,4 @@ RLS를 사용하는 경우, 경우에 따라 사용자 ID( *EffectiveIdentity* �
 >[서비스 주체가 있는 온-프레미스 데이터 게이트웨이를 사용하는 행 수준 보안](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
 
 >[!div class="nextstepaction"]
->[서비스 주체 및 인증서를 사용하여 Power BI 콘텐츠 포함](embed-service-principal-certificate.md)
+>[서비스 주체를 사용하여 Power BI 콘텐츠 포함](embed-service-principal.md)

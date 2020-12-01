@@ -10,12 +10,12 @@ ms.date: 10/22/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 38df6680f2f4d0031ec26a1935e01c849c285909
-ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
+ms.openlocfilehash: 0abdaab48516b91624a0945d32c4f81ed024a468
+ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94719078"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94947242"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>관리 포털에서 Power BI 관리
 
@@ -272,6 +272,16 @@ Microsoft 365 그룹을 기반으로 하는 클래식 작업 영역의 경우 �
 
 외부 사용자를 조직에 초대하려는 사용자에게는 Azure Active Directory 게스트 초대자 역할도 필요합니다. 이 설정은 Power BI를 통해 초대하는 기능만 제어합니다. 
 
+### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>외부 게스트 사용자가 조직의 콘텐츠를 편집 및 관리하도록 허용
+
+Azure AD B2B 게스트 사용자는 조직의 콘텐츠를 편집하고 관리할 수 있습니다. [자세히 알아보기](service-admin-azure-ad-b2b.md)
+
+다음 이미지는 외부 게스트 사용자가 조직의 콘텐츠를 편집 및 관리하도록 허용하는 옵션을 보여줍니다.
+
+![외부 게스트 사용자가 조직의 콘텐츠를 편집 및 관리하도록 허용](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
+
+관리 포털에서 조직으로 외부 사용자를 초대할 권한을 갖는 사용자를 제어할 수 있습니다. 자세한 내용은 이 문서의 [외부 사용자와 콘텐츠 공유](#export-and-sharing-settings)를 참조하세요.
+
 ### <a name="publish-to-web"></a>웹에 게시
 
 Power BI 관리자로서, **웹에 게시** 설정을 사용하면 사용자가 embed 태그를 만들어 보고서를 웹에 게시할 수 있는 옵션을 제공합니다. 이 기능을 통해 웹상의 모든 사용자가 보고서 및 해당 데이터를 사용할 수 있습니다. [웹에 게시하는 방법](../collaborate-share/service-publish-to-web.md)에 대해 자세히 알아보세요.
@@ -300,60 +310,73 @@ Power BI 관리자로서, **웹에 게시** 설정을 사용하면 사용자가 
 |관리자 포털 내의 **embed 태그**|상태는 다음 중 하나를 반영합니다.<br>* 활성<br>* 지원되지 않음<br>* 차단됨|상태에 **사용 안 함** 이 표시됨|상태는 다음 중 하나를 반영합니다.<br>* 활성<br>* 지원되지 않음<br>* 차단됨<br><br>테넌트 설정에 따라 사용자에게 권한이 부여되지 않으면 **침해됨** 이라는 상태가 표시됩니다.|
 |게시된 기존 보고서|모두 사용|모두 사용 안 함|보고서가 모든 사용자에 대해 계속 렌더링합니다.|
 
-### <a name="export-data"></a>데이터 내보내기
+### <a name="copy-and-paste-visuals"></a>시각적 개체 복사 및 붙여넣기
 
-조직의 사용자는 타일 또는 시각화에서 데이터를 내보낼 수 있습니다. 이 설정은 Excel에서 분석, .csv로 내보내기, 데이터 세트 다운로드(.pbix) 및 Power BI 서비스 라이브 연결 기능을 제어합니다. [타일 또는 시각적 기체에서 데이터를 내보내는](../visuals/power-bi-visualization-export-data.md) 방법에 대해 자세히 알아보세요.
+조직의 사용자는 타일 또는 보고서 시각적 개체에서 시각적 개체를 복사하여 외부 애플리케이션에 정적 이미지로 붙여넣을 수 있습니다.
 
->[!NOTE]
-> Excel로 내보내기 설정이 도입되기 전에 이 설정은 Excel 파일로 데이터 내보내기도 제어했습니다. 자세한 내용은 [Excel로 내보내기 아래의 참고](#export-to-excel)를 참조하세요.
-
-![데이터 내보내기 설정](media/service-admin-portal/powerbi-admin-portal-export-data-setting.png)
-
-다음 이미지는 타일에서 데이터를 내보내는 옵션을 보여 줍니다.
-
-![타일에서 데이터 내보내기](media/service-admin-portal/powerbi-admin-export-data.png)
-
-> [!NOTE]
-> **데이터 내보내기** 를 사용하지 않도록 설정하면 사용자는 Power BI 서비스 라이브 연결과 함께 [Excel에서 분석](../collaborate-share/service-analyze-in-excel.md) 기능을 사용할 수 없습니다.
+![시각적 개체 복사 및 붙여넣기 사용 설정 스위치의 스크린샷](media/service-admin-portal/powerbi-admin-portal-copy-paste-visuals-setting.png)
 
 ### <a name="export-to-excel"></a>Excel로 내보내기
 
 조직의 사용자가 시각화에서 Excel 파일로 데이터를 내보낼 수 있습니다.
 
-![Excel로 내보내기 설정](media/service-admin-portal/powerbi-admin-portal-export-to-excel-setting.png)
+![Excel로 내보내기 설정의 스크린샷](media/service-admin-portal/powerbi-admin-portal-export-to-excel-setting.png)
 
->[!IMPORTANT]
-> Excel로 내보내기 설정이 도입되기 전에 Excel 파일로 내보내기는 데이터 내보내기 설정에 의해 제어되었습니다. 따라서 Excel로 내보내기 설정이 도입되기 전에 존재했던 테넌트에서는 Power BI 관리자가 Excel로 내보내기 설정을 처음 볼 때 *적용되지 않은 변경 내용* 이 있음을 알게 됩니다. 새 설정을 적용하려면 이러한 변경 내용을 적용해야 합니다. 그렇지 않으면 Excel 파일로 내보내기는 데이터 내보내기 설정에 의해 계속 제어됩니다.
+### <a name="export-to-csv"></a>.csv로 내보내기
+
+조직의 사용자는 타일, 시각화 또는 페이지를 매긴 보고서에서 .csv 파일로 데이터를 내보낼 수 있습니다.
+
+![.csv로 내보내기 설정의 스크린샷](media/service-admin-portal/powerbi-admin-portal-export-to-csv-setting.png)
+
+### <a name="download-reports"></a>보고서 다운로드
+
+조직의 사용자는 .pbix 파일과 페이지를 매긴 보고서를 다운로드할 수 있습니다.
+
+![보고서 다운로드 설정의 스크린샷](media/service-admin-portal/powerbi-admin-portal-download-reports-setting.png)
+
+### <a name="allow-live-connections"></a>라이브 연결 허용
+
+조직의 사용자는 Power BI 서비스 Live Connect를 사용할 수 있습니다. 여기에는 Excel의 분석이 포함됩니다.
+
+![라이브 연결 허용 설정의 스크린샷](media/service-admin-portal/powerbi-admin-portal-allow-live-connections-setting.png)
 
 ### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>PowerPoint 프레젠테이션 또는 PDF 문서로 보고서 내보내기
 
-조직의 사용자가 Power BI 보고서를 PowerPoint 파일 또는 PDF 문서로 내보낼 수 있습니다. [자세히 알아보기](../consumer/end-user-powerpoint.md)
+조직의 사용자는 보고서를 PowerPoint 파일 또는 PDF 문서로 내보낼 수 있습니다.
 
-다음 이미지는 **보고서를 PowerPoint 프레젠테이션 또는 PDF 문서로 내보내기** 설정을 사용하도록 설정한 경우 보고서의 **파일** 메뉴를 보여줍니다.
+![PowerPoint 또는 PDF 문서로 보고서 내보내기의 스크린샷](media/service-admin-portal/powerbi-admin-portal-export-pptx-pdf-setting.png)
 
-![보고서를 PowerPoint 프레젠테이션으로 내보내기](media/service-admin-portal/powerbi-admin-powerpoint.png)
+### <a name="export-reports-as-mhtml-documents"></a>보고서를 MHTML 문서로 내보내기
+
+조직의 사용자는 페이지를 매긴 보고서를 MHTML 문서로 내보낼 수 있습니다.
+
+![MHTML로 내보내기 설정의 스크린샷](media/service-admin-portal/powerbi-admin-portal-export-mhtml-setting.png)
+
+### <a name="export-reports-as-word-documents"></a>보고서를 Word 문서로 내보내기
+
+조직의 사용자는 페이지를 매긴 보고서를 Word 문서로 내보낼 수 있습니다.
+
+![Word로 내보내기 설정의 스크린샷](media/service-admin-portal/powerbi-admin-portal-export-word-setting.png)
+
+### <a name="export-reports-as-xml-documents"></a>보고서를 XML 문서로 내보내기
+
+조직의 사용자는 페이지를 매긴 보고서를 XML 문서로 내보낼 수 있습니다.
+
+![XML로 내보내기 설정의 스크린샷](media/service-admin-portal/powerbi-admin-portal-export-xml-setting.png)
+
+### <a name="export-reports-as-image-files-preview"></a>보고서를 이미지 파일로 내보내기(미리 보기)
+
+조직의 사용자는 파일로 보고서 내보내기 API를 사용하여 보고서를 이미지 파일로 내보낼 수 있습니다.
+
+![이미지로 내보내기 설정의 스크린샷](media/service-admin-portal/powerbi-admin-portal-export-as-image-setting.png)
 
 ### <a name="print-dashboards-and-reports"></a>대시보드 및 보고서 인쇄
 
-조직의 사용자는 대시보드 및 보고서를 인쇄할 수 있습니다. [자세히 알아보기](../consumer/end-user-print.md)
 
-다음 이미지는 대시보드를 인쇄하는 옵션을 보여 줍니다.
+![인쇄 대시보드 및 보고서 설정의 스크린샷](media/service-admin-portal/powerbi-admin-portal-print-dashboards-reports-setting.png)
 
-![대시보드 인쇄](media/service-admin-portal/powerbi-admin-print-dashboard.png)
-
-다음 이미지는 **대시보드 및 보고서 인쇄** 설정을 사용할 수 있을 때 보고서의 **파일** 메뉴를 보여 줍니다.
-
-![보고서 인쇄](media/service-admin-portal/powerbi-admin-print-report.png)
-
-### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>외부 게스트 사용자가 조직의 콘텐츠를 편집 및 관리하도록 허용
-
-Azure AD B2B 게스트 사용자는 조직의 콘텐츠를 편집하고 관리할 수 있습니다. [자세히 알아보기](service-admin-azure-ad-b2b.md)
-
-다음 이미지는 외부 게스트 사용자가 조직의 콘텐츠를 편집 및 관리하도록 허용하는 옵션을 보여줍니다.
-
-![외부 게스트 사용자가 조직의 콘텐츠를 편집 및 관리하도록 허용](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
-
-관리 포털에서 조직으로 외부 사용자를 초대할 권한을 갖는 사용자를 제어할 수 있습니다. 자세한 내용은 이 문서의 [외부 사용자와 콘텐츠 공유](#export-and-sharing-settings)를 참조하세요.
+### <a name="certification"></a>인증
+이 조직의 사용자가 데이터 세트, 데이터 흐름, 보고서 및 앱을 인증할 수 있도록 허용합니다. 자세한 내용은 [콘텐츠 인증 사용](service-admin-setup-certification.md)을 참조하세요.
 
 ### <a name="email-subscriptions"></a>메일 구독
 조직의 사용자가 메일 구독을 만들 수 있습니다. [구독](../collaborate-share/service-publish-to-web.md)에 대해 자세히 알아보세요.
@@ -367,6 +390,25 @@ Azure AD B2B 게스트 사용자는 조직의 콘텐츠를 편집하고 관리�
 먼저 작은 프로모터 세트로 시작하는 것이 좋습니다. 전체 조직이 홈에서 콘텐츠를 추천하도록 허용하면 모든 승격된 콘텐츠를 추적하기가 어려울 수 있습니다. 
 
 추천 콘텐츠를 사용하도록 설정한 후 관리 포털에서 관리할 수도 있습니다. 도메인에서 추천 콘텐츠를 제어하는 방법에 대한 자세한 내용은 이 문서의 [추천 콘텐츠 관리](#manage-featured-content)를 참조하세요.
+
+### <a name="allow-connections-to-featured-tables"></a>주요 테이블에 대한 연결 허용
+
+이 설정을 통해 Power BI 관리자는 조직에서 Excel 데이터 형식 갤러리의 주요 테이블을 사용할 수 있는 사용자를 제어할 수 있습니다. 
+
+![주요 테이블에 대한 연결 허용 설정의 스크린샷](media/service-admin-portal/powerbi-admin-portal-allow-connections-featured-tables-setting.png)
+
+>[!NOTE]
+>[라이브 연결 허용](#allow-live-connections) 설정이 사용 안 함으로 설정된 경우에는 주요 테이블에 대한 연결도 사용하지 않도록 설정됩니다.
+
+[Excel의 Power BI 주요 테이블](../collaborate-share/service-excel-featured-tables.md)에 대해 자세히 알아보세요.
+
+### <a name="share-to-teams"></a>Teams에 공유
+
+이 설정을 사용하면 조직이 Power BI 서비스에서 **Teams에 공유** 단추를 숨길 수 있습니다. 사용 안 함으로 설정하면 사용자가 Power BI 서비스에서 보고서와 대시보드를 볼 때 작업 모음 또는 상황에 맞는 메뉴에서 **Teams에 공유** 단추가 표시되지 않습니다.
+
+![Power BI 관리 포털에 있는 Teams에 공유 테넌트 설정의 스크린샷.](media/service-admin-portal/service-teams-share-to-teams-tenant-setting.png)
+
+[Teams에 Power BI 콘텐츠 공유](../collaborate-share/service-share-report-teams.md)에 관해 자세히 알아보세요.
 
 ## <a name="content-pack-and-app-settings"></a>콘텐츠 팩 및 앱 설정
 
@@ -388,12 +430,9 @@ Azure AD B2B 게스트 사용자는 조직의 콘텐츠를 편집하고 관리�
 
 ## <a name="integration-settings"></a>통합 설정
 
-### <a name="use-analyze-in-excel-with-on-premises-datasets"></a>온-프레미스 데이터 세트를 통해 Excel에서 분석 사용
+### <a name="allow-xmla-endpoints-and-analyze-in-excel-with-on-premises-datasets"></a>온-프레미스 데이터 세트를 사용하여 XMLA 엔드포인트 및 Excel의 분석 허용
 
-조직의 사용자는 Excel을 사용하여 온-프레미스 Power BI 데이터 세트를 보고 상호 작용할 수 있습니다. [자세히 알아보기](../collaborate-share/service-analyze-in-excel.md)
-
-> [!NOTE]
-> **데이터 내보내기** 를 사용하지 않도록 설정하면 사용자는 **Excel에서 분석** 기능을 사용할 수 없습니다.
+조직의 사용자는 Excel을 사용하여 온-프레미스 Power BI 데이터 세트를 보고 상호 작용할 수 있습니다. 또한 XMLA 엔드포인트에 대한 연결을 허용합니다. [자세한 정보](../collaborate-share/service-analyze-in-excel.md)
 
 ### <a name="use-arcgis-maps-for-power-bi"></a>ArcGIS Maps for Power BI 사용
 
@@ -402,24 +441,6 @@ Azure AD B2B 게스트 사용자는 조직의 콘텐츠를 편집하고 관리�
 ### <a name="use-global-search-for-power-bi-preview"></a>Power BI(미리 보기)용 전역 검색 사용
 
 조직의 사용자는 Azure Search에 의존하는 외부 검색 기능을 사용할 수 있습니다.
-
-## <a name="featured-tables-settings"></a>주요 테이블 설정
-
-**테넌트 설정** 아래의 **주요 테이블에 대한 연결 허용** 설정을 사용하면 Power BI 관리자가 조직에서 Excel 데이터 형식 갤러리의 주요 테이블을 사용할 수 있는 사용자를 제어할 수 있습니다. 
-
-:::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="주요 테이블에 대한 모든 연결":::
-
-**데이터 내보내기** 설정이 **사용 안 함** 으로 설정되면 주요 테이블에 대한 연결도 사용할 수 없습니다.
-
-[Excel의 Power BI 주요 테이블](../collaborate-share/service-excel-featured-tables.md)에 대해 자세히 알아보세요.
-
-## <a name="share-to-teams-tenant-setting"></a>Teams에 공유 테넌트 설정
-
-**Teams에 공유** 설정은 Power BI 관리 포털의 **테넌트 설정** 섹션에 있습니다. 이 설정을 사용하면 조직이 Power BI 서비스에서 **Teams에 공유** 단추를 숨길 수 있습니다. 사용 안 함으로 설정하면 사용자가 Power BI 서비스에서 보고서와 대시보드를 볼 때 작업 모음 또는 상황에 맞는 메뉴에서 **Teams에 공유** 단추가 표시되지 않습니다.
-
-![Power BI 관리 포털에 있는 Teams에 공유 테넌트 설정의 스크린샷.](media/service-admin-portal/service-teams-share-to-teams-tenant-setting.png)
-
-[Teams에 Power BI 콘텐츠 공유](../collaborate-share/service-share-report-teams.md)에 관해 자세히 알아보세요.
 
 ## <a name="r-visuals-settings"></a>R 시각적 개체 설정
 
@@ -462,7 +483,7 @@ Azure AD B2B 게스트 사용자는 조직의 콘텐츠를 편집하고 관리�
 
 ### <a name="web-content-on-dashboard-tiles"></a>대시보드 타일의 웹 콘텐츠
 
-조직의 사용자는 Power BI 대시보드에서 웹 콘텐츠 타일을 추가하고 볼 수 있습니다. [자세한 정보](../create-reports/service-dashboard-add-widget.md)
+조직의 사용자는 Power BI 대시보드에서 웹 콘텐츠 타일을 추가하고 볼 수 있습니다. [자세히 알아보기](../create-reports/service-dashboard-add-widget.md)
 
 > [!NOTE]
 > 이 경우 악의적인 웹 콘텐츠를 통해 조직이 보안 위험에 노출될 수 있습니다.
@@ -565,7 +586,7 @@ Power BI 시각적 개체 테넌트 설정을 비롯한 모든 Power BI 시각�
 
 **작업 영역** 탭에 각 작업 영역의 *상태* 가 표시됩니다. 다음 표에서 각 상태의 자세한 의미를 확인할 수 있습니다.
 
-|주  |설명  |
+|주  |Description  |
 |---------|---------|
 | **활성** | 일반 작업 영역입니다. 사용량이나 콘텐츠에 대한 정보는 알 수 없으며, 작업 영역 자체가 ‘일반’ 작업 영역이라는 사실만 알 수 있습니다. |
 | **분리됨** | 관리 사용자가 없는 작업 영역입니다. |
