@@ -2,18 +2,18 @@
 title: Power BI용 백서
 description: 백서를 통해 Power BI 항목을 보다 자세히 탐색할 수 있습니다.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 06/03/2020
-ms.author: maggies
-ms.openlocfilehash: e514bf77900031af2f32bdad5717e82b33a88623
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: 9b98e2a5e7cb881e1a58280b1cd6fe6851ec5057
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965294"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96398525"
 ---
 # <a name="whitepapers-for-power-bi"></a>Power BI용 백서
 

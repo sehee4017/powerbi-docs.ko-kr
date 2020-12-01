@@ -1,22 +1,22 @@
 ---
-title: Power BI enterprise 배포 백서
+title: Power BI 엔터프라이즈 배포 백서
 description: 엔터프라이즈의 Power BI 배포에 대 한 모범 사례를 설명 하는 백서 링크 개요 및 링크
 author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-deployment
 ms.topic: conceptual
 ms.date: 05/19/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 7b7a3e457c21ce050b7c4a624771be1823cf2fe2
-ms.sourcegitcommit: 250242fd6346b60b0eda7a314944363c0bacaca8
+ms.openlocfilehash: 2299f10c8ee249c62c5dc9209b60a4627c835fdc
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83694270"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416488"
 ---
-# <a name="power-bi-enterprise-deployment-whitepaper"></a>Power BI enterprise 배포 백서
+# <a name="power-bi-enterprise-deployment-whitepaper"></a>Power BI 엔터프라이즈 배포 백서
 
 대기업에 Power BI를 배포 하는 것은 많은 생각 및 계획이 필요한 복잡 한 작업입니다. 적절 한 지침 및 모범 사례를 활용 하면 사용자가 선택 하는 항목을 이해 하 고, 요구 사항을 수집 하 고, Power BI 엔터프라이즈 배포에 성공 하 게 만들 수 있는 모범 사례를 이해 하는 데 도움이 됩니다. 이러한 단계를 용이 하 게 하기 위해 Microsoft는 Power BI 엔터프라이즈 배포 백서를 제공 합니다.
 
@@ -35,5 +35,5 @@ Power BI에 대 한 자세한 내용은 다음 리소스를 참조 하세요.
 
 - [Power BI용 백서](whitepapers.md)
 - [Power BI 보안 백서](whitepaper-powerbi-security.md)
-- [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
+- [Power BI 프리미엄](https://aka.ms/pbipremiumwhitepaper)
 
