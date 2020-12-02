@@ -2,19 +2,19 @@
 title: Power BI에서 크기를 조정할 수 있는 반응형 슬라이서 만들기
 description: 보고서에 맞게 크기를 조정할 수 있는 반응형 슬라이서를 만드는 방법을 알아봅니다.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 04/06/2020
-ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 94d55f92a6be47d6a53cbdaad4d9ff657d572957
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5fde91f2cfabd1f5a7727d3ec8a80d8ecddc7fc6
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235877"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96393442"
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi"></a>Power BI에서 크기를 조정할 수 있는 반응형 슬라이서 만들기
 
@@ -29,14 +29,14 @@ ms.locfileid: "85235877"
 동적 슬라이서를 만드는 첫 번째 단계는 기본 슬라이서를 만드는 것입니다. 
 
 1. **시각화** 창에서 **슬라이서** 아이콘 ![슬라이서 아이콘](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-0-slicer-icon.png)을 선택합니다.
-2. 필터링할 필드를 **필드**로 끌어옵니다.
+2. 필터링할 필드를 **필드** 로 끌어옵니다.
 
     ![슬라이서에 필드 추가](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-1-create.png)
 
 ## <a name="convert-to-a-horizontal-slicer"></a>가로 슬라이서로 변환
 
 1. 선택한 슬라이서를 사용하여 **시각화** 창에서 **서식** 탭을 선택합니다.
-2. **일반** 섹션을 확장한 다음 **방향**에서 **가로**를 선택합니다.
+2. **일반** 섹션을 확장한 다음 **방향** 에서 **가로** 를 선택합니다.
 
     ![슬라이서를 가로로 설정](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-2-horizontal.png) 
 
@@ -48,7 +48,7 @@ ms.locfileid: "85235877"
 
 이 단계는 쉽습니다. 
 
-1. **서식** 탭의 **일반** 섹션에 있는 **방향** 바로 아래에서 **반응형**을 **켜기**로 밉니다.  
+1. **서식** 탭의 **일반** 섹션에 있는 **방향** 바로 아래에서 **반응형** 을 **켜기** 로 밉니다.  
 
     ![슬라이서가 이제 반응함](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-4-responsive-on.png)
 
@@ -60,7 +60,7 @@ ms.locfileid: "85235877"
 
 Power BI Desktop에서는 보고서의 각 페이지에 대한 휴대폰 레이아웃을 만들 수 있습니다. 페이지에 휴대폰 레이아웃이 있는 경우 휴대폰에서 세로 보기로 표시됩니다. 그렇지 않은 경우 가로 보기로 봐야 합니다. 
 
-1. **보기** 탭에서 **휴대폰 레이아웃**을 선택합니다.
+1. **보기** 탭에서 **휴대폰 레이아웃** 을 선택합니다.
 
      ![휴대폰 레이아웃 아이콘, 보기 메뉴](media/power-bi-slicer-filter-responsive/power-bi-slicer-filter-responsive-6-phone-layout-button.png)
     
@@ -72,7 +72,7 @@ Power BI Desktop에서는 보고서의 각 페이지에 대한 휴대폰 레이�
 
 ## <a name="make-a-time-or-range-slicer-responsive"></a>타일 또는 범위 슬라이서를 반응형으로 만들기
 
-동일한 단계에 따라 시간 또는 범위 슬라이서를 반응형으로 만들 수 있습니다. **반응형**을 **켜기**로 설정한 후 다음과 같은 몇 가지를 확인할 수 있습니다.
+동일한 단계에 따라 시간 또는 범위 슬라이서를 반응형으로 만들 수 있습니다. **반응형** 을 **켜기** 로 설정한 후 다음과 같은 몇 가지를 확인할 수 있습니다.
 
 - 시각적 개체는 캔버스에서 허용되는 크기에 따라 입력란의 순서를 최적화합니다. 
 - 데이터 요소 표시는 캔버스에서 허용된 크기에 따라 슬라이서를 최대한 사용 가능하게 만들도록 최적화되었습니다. 

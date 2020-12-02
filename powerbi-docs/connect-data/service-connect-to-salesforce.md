@@ -1,20 +1,20 @@
 ---
 title: Power BI로 Salesforce에 연결
 description: Power BI용 Salesforce
-author: SarinaJoan
+author: paulinbar
+ms.author: painbar
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/30/2019
-ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 9fcf67a52bde69e62816af09a8fed69c8383927d
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: f43d60a22d436cc0be5aa57bc9b383d535dbfc0d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216176"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392890"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Power BI로 Salesforce에 연결
 Power BI를 사용하면 Salesforce.com 계정에 쉽게 연결할 수 있습니다. 이 연결을 통해 Salesforce 데이터를 검색하고 대시보드와 보고서를 자동으로 제공받을 수 있습니다.
@@ -22,19 +22,19 @@ Power BI를 사용하면 Salesforce.com 계정에 쉽게 연결할 수 있습니
 Power BI와 [Salesforce 통합](https://powerbi.microsoft.com/integrations/salesforce)에 대해 자세히 알아보세요.
 
 ## <a name="how-to-connect"></a>연결 방법
-1. Power BI의 탐색 창 아래쪽에서 **데이터 가져오기**를 선택합니다.
+1. Power BI의 탐색 창 아래쪽에서 **데이터 가져오기** 를 선택합니다.
    
    ![탐색 창의 데이터 가져오기 단추를 보여 주는 스크린샷.](media/service-connect-to-salesforce/pbi_getdata.png) 
-2. **서비스** 상자에서 **가져오기**를 선택합니다.
+2. **서비스** 상자에서 **가져오기** 를 선택합니다.
    
    ![가져오기 단추를 보여 주는 서비스 대화 상자의 스크린샷.](media/service-connect-to-salesforce/pbi_getservices.png) 
-3. **Salesforce에 대한 분석**을 선택하고 **가져오기**를 선택합니다.  
+3. **Salesforce에 대한 분석** 을 선택하고 **가져오기** 를 선택합니다.  
    
    ![지금 가져오기 링크를 보여 주는 Salesforce에 대한 분석 대화 상자의 스크린샷.](media/service-connect-to-salesforce/salesforce.png)
-4. **로그인**을 선택하여 로그인 흐름을 시작합니다.
+4. **로그인** 을 선택하여 로그인 흐름을 시작합니다.
    
     ![로그인 단추를 보여 주는 Salesforce에 연결 대화 상자의 스크린샷.](media/service-connect-to-salesforce/dialog.png)
-5. 메시지가 표시되면 Salesforce 자격 증명을 입력합니다. **허용**을 선택하여 Power BI가 기본 Salesforce 정보 및 데이터에 액세스할 수 있게 합니다.
+5. 메시지가 표시되면 Salesforce 자격 증명을 입력합니다. **허용** 을 선택하여 Power BI가 기본 Salesforce 정보 및 데이터에 액세스할 수 있게 합니다.
    
    ![Power BI가 정보에 액세스할 권한을 요청하고 있음을 보여 주는 Salesforce 자격 증명의 스크린샷.](media/service-connect-to-salesforce/sf_authorize.png)
 6. 드롭다운 옵션을 사용하여 Power BI로 가져오려는 항목을 구성합니다.
@@ -52,7 +52,7 @@ Power BI와 [Salesforce 통합](https://powerbi.microsoft.com/integrations/sales
      
      보고서가 표시되지 않는 경우 Salesforce 계정에서 추가하거나 만든 후 다시 연결합니다.
 
-7. **연결**을 선택하여 가져오기 프로세스를 시작합니다. 가져오는 동안 가져오기가 진행 중임을 보여 주는 알림이 표시됩니다. 가져오기가 완료되면 탐색 창에 나열된 Salesforce 데이터에 대한 대시보드, 보고서 및 데이터 세트가 표시됩니다.
+7. **연결** 을 선택하여 가져오기 프로세스를 시작합니다. 가져오는 동안 가져오기가 진행 중임을 보여 주는 알림이 표시됩니다. 가져오기가 완료되면 탐색 창에 나열된 Salesforce 데이터에 대한 대시보드, 보고서 및 데이터 세트가 표시됩니다.
    
    ![대시보드, 보고서 및 데이터 세트를 보여 주는 판매 관리자 대시보드의 스크린샷.](media/service-connect-to-salesforce/pbi_getdatasalesforcedash.png)
 
@@ -63,7 +63,7 @@ Power BI와 [Salesforce 통합](https://powerbi.microsoft.com/integrations/sales
 * 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](../consumer/end-user-q-and-a.md)합니다.
 * 대시보드에서 [타일을 편집 또는 제거](../create-reports/service-dashboard-edit-tile.md)합니다.
 * [타일을 선택](../create-reports/service-dashboard-tiles.md)하여 원본 보고서를 엽니다.
-* 데이터 세트를 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
+* 데이터 세트를 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침** 을 사용하여 필요할 때 새로 고칠 수 있습니다.
 
 ## <a name="system-requirements-and-considerations"></a>시스템 요구 사항 및 고려 사항
 

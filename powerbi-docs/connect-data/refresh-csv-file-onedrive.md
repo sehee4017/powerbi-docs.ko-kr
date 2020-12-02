@@ -2,20 +2,20 @@
 title: OneDrive에 있는 .csv 파일에서 만든 데이터 세트 새로 고침
 description: OneDrive에서 쉼표로 구분된 값(.csv) 파일로부터 만들어진 데이터 세트 새로 고침
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 09/12/2019
-ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 765e21aae6c68741ecba41ef24b691deeb2a403f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: fabb694caadcd108c009471897738da6f403b49c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235299"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392757"
 ---
 # <a name="refresh-a-dataset-created-from-a-csv-file-on-onedrive-or-sharepoint-online"></a>OneDrive 또는 SharePoint Online에 있는 .CSV 파일에서 만든 데이터 세트 새로 고침
 ## <a name="what-are-the-advantages"></a>장점은 무엇인가요?
@@ -40,7 +40,7 @@ Microsoft 계정으로 로그인하는 경우 로그인 유지를 선택해야 �
 Microsoft 계정 자격 증명이 변경되어 Power BI의 데이터 세트와 동기화할 수 없는 OneDrive에서 .csv 파일을 변경한 경우 파일에 연결하고 개인 OneDrive에서 다시 가져와야 합니다.
 
 ## <a name="when-things-go-wrong"></a>오류가 발생할 때
-OneDrive에 있는 .csv 파일의 데이터가 변경되고 해당 변경 내용이 Power BI에 반영되지 않는 경우 Power BI가 OneDrive에 연결할 수 없기 때문일 수 있습니다. 파일에 연결하고 다시 가져오기를 시도합니다. 로그인할지 묻는 메시지가 표시되면 **로그인 상태 유지**를 선택해야 합니다.
+OneDrive에 있는 .csv 파일의 데이터가 변경되고 해당 변경 내용이 Power BI에 반영되지 않는 경우 Power BI가 OneDrive에 연결할 수 없기 때문일 수 있습니다. 파일에 연결하고 다시 가져오기를 시도합니다. 로그인할지 묻는 메시지가 표시되면 **로그인 상태 유지** 를 선택해야 합니다.
 
 ## <a name="next-steps"></a>다음 단계
 [새로 고침 문제 해결 도구](service-gateway-onprem-tshoot.md)

@@ -2,19 +2,19 @@
 title: 계층 구조 슬라이서에 여러 필드 추가
 description: 계층 구조에 여러 필드를 포함하는 계층 구조 슬라이서를 만드는 방법을 알아봅니다.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 07/06/2020
-ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5fbaeaafb14fc935e26b4a2d13acf9dc09ea188f
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: cadb8d45af40c91e7008e771f2a52ef2ea508341
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86409578"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96393465"
 ---
 # <a name="add-multiple-fields-to-a-hierarchy-slicer"></a>계층 구조 슬라이서에 여러 필드 추가
 
@@ -49,7 +49,7 @@ ms.locfileid: "86409578"
 
 :::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-title.png" alt-text="유형, 플랫폼 및 이름 필드를 포함하는 계층 구조 슬라이서의 스크린샷":::
 
-이름을 변경하려면 슬라이서를 선택하고 **서식** 창을 선택합니다. **슬라이서 헤더**에서 **제목 텍스트** 상자에 슬라이서의 현재 이름이 표시됩니다.
+이름을 변경하려면 슬라이서를 선택하고 **서식** 창을 선택합니다. **슬라이서 헤더** 에서 **제목 텍스트** 상자에 슬라이서의 현재 이름이 표시됩니다.
 
 :::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-edit-title.png" alt-text="현재 제목이 있는 서식 창의 스크린샷":::
 
@@ -62,8 +62,8 @@ ms.locfileid: "86409578"
 
 계층 구조 슬라이서에는 그 밖의 몇 가지 서식 지정 옵션이 있습니다. 기본 화살표에서 확장/축소 아이콘을 더하기/빼기 기호 또는 캐럿으로 변경할 수 있습니다.
 
-1. 슬라이서를 선택한 다음 **형식**을 선택합니다.
-1. **항목**을 확장하고 **확장/축소 아이콘**을 선택합니다.
+1. 슬라이서를 선택한 다음 **형식** 을 선택합니다.
+1. **항목** 을 확장하고 **확장/축소 아이콘** 을 선택합니다.
 1. **펼침 단추**, **더하기/빼기** 또는 **캐럿** 중에서 선택합니다.
  
     :::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy-caret.png" alt-text="계층 구조 슬라이서의 확장/축소 아이콘 선택 스크린샷":::
@@ -72,8 +72,8 @@ ms.locfileid: "86409578"
 
 보고서에 공간 여유가 없으면 자식 요소의 들여쓰기 크기를 줄이는 것이 좋습니다. 기본적으로 들여쓰기는 15픽셀이지만 늘리거나 줄일 수 있습니다. 
 
-1. 슬라이서를 선택한 다음 **형식**을 선택합니다.
-1. **항목**을 확장한 다음 **계단형 레이아웃 들여쓰기**를 끌어 작게 또는 크게 조정합니다. 상자에 숫자를 입력할 수도 있습니다.
+1. 슬라이서를 선택한 다음 **형식** 을 선택합니다.
+1. **항목** 을 확장한 다음 **계단형 레이아웃 들여쓰기** 를 끌어 작게 또는 크게 조정합니다. 상자에 숫자를 입력할 수도 있습니다.
 
     :::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-indentation.png" alt-text="계층 구조 슬라이서 들여쓰기 설정 스크린샷":::
 

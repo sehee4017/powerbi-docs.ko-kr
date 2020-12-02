@@ -1,20 +1,20 @@
 ---
 title: Azure 사용자를 위한 Power BI
 description: Microsoft Azure에서 데이터 작업을 하거나, 인프라를 관리하거나, 애플리케이션을 빌드하시나요?
+author: willthom
+ms.author: willthom
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: landing-page
 ms.date: 12/12/2019
-ms.author: willthom
-author: MI77
 layout: LandingPage
 LocalizationGroup: Get started
-ms.openlocfilehash: f8c92f54a1dbe0e35b3cb377adfd58e6ac494577
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 73d6b90736045dc436d49889e6b22df29d15cfa0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396866"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392844"
 ---
 # <a name="power-bi-for-microsoft-azure-users"></a>Microsoft Azure 사용자를 위한 Power BI 
 
