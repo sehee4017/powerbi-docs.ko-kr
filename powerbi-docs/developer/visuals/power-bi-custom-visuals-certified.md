@@ -6,15 +6,15 @@ ms.author: kesharab
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
+ms.topic: how-to
 ms.date: 03/08/2020
-ms.openlocfilehash: 8dd6a33ab19e692d9dc04138d53b04e8e49da2bf
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: bbca1802b1136c4e9e16e70ab87ab7554612c037
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049180"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96386712"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Power BI 시각적 개체 인증받기
 
@@ -45,7 +45,7 @@ GitHub에서 공개적으로 코드를 공유할 필요는 없지만 Power BI �
 
 리포지토리에는 다음이 포함되어야 합니다.
 * Power BI 시각적 개체 단 하나의 코드. 여러 Power BI 시각적 개체의 코드나 관계가 없는 코드는 포함할 수 없습니다.
-* **certification** (소문자 필수)이라는 분기. 이 분기의 소스 코드는 제출된 패키지와 일치해야 합니다. 이 코드는 Power BI 시각적 개체를 다시 제출하는 경우, 다음 제출 프로세스 중에만 업데이트할 수 있습니다.
+* **certification**(소문자 필수)이라는 분기. 이 분기의 소스 코드는 제출된 패키지와 일치해야 합니다. 이 코드는 Power BI 시각적 개체를 다시 제출하는 경우, 다음 제출 프로세스 중에만 업데이트할 수 있습니다.
 
 Power BI 시각적 개체가 비공개 npm 패키지 또는 git 하위 모듈을 사용하는 경우, 이 코드가 포함된 추가 리포지토리에 대한 액세스 권한을 제공해야 합니다.
 
@@ -56,10 +56,10 @@ Power BI 시각적 리포지토리가 어떻게 보이는지 이해하려면 [Po
 최신 버전의 API를 사용하여 Power BI 시각적 개체를 작성합니다.
 
 리포지토리에는 다음 파일이 포함되어야 합니다.
-* **.gitignore** - 이 파일에 `node_modules`, `.tmp` 및 `dist`를 추가합니다. 코드에는 *node_modules* , *.tmp* 또는 *dist* 폴더가 포함될 수 없습니다.
+* **.gitignore** - 이 파일에 `node_modules`, `.tmp` 및 `dist`를 추가합니다. 코드에는 *node_modules*, *.tmp* 또는 *dist* 폴더가 포함될 수 없습니다.
 * **capabilities.json** - 이 파일의 속성이 변경된 새 버전의 Power BI 시각적 개체를 제출하는 경우, 기존 사용자의 보고서를 중단하지 않는지 확인합니다.
 * **pbiviz.json** 
-* **package.json** . 시각적 개체에는 다음 패키지가 설치되어 있어야 합니다.
+* **package.json**. 시각적 개체에는 다음 패키지가 설치되어 있어야 합니다.
    * ["tslint"](https://www.npmjs.com/package/tslint) - 버전 5.18.0 이상
    * ["typescript"](https://www.npmjs.com/package/typescript) - 버전 3.0.0 이상
    * ["tslint-microsoftcontrib"](https://www.npmjs.com/package/tslint-microsoft-contrib) - 버전 6.2.0 이상

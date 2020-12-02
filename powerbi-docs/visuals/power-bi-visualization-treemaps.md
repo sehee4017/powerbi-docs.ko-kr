@@ -1,20 +1,20 @@
 ---
 title: Power BI의 트리맵
 description: Power BI의 트리맵
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 05/05/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3cc14a9b873d86b3e9d62655d41d152cb3348252
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 11dbfceaf38cef74b4ea2190f805353a7723b0d8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93411455"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96387416"
 ---
 # <a name="treemaps-in-power-bi"></a>Power BI의 트리맵
 
@@ -26,7 +26,7 @@ ms.locfileid: "93411455"
 
 ![범주별 제품 수 및 제조업체 트리맵의 스크린샷](media/power-bi-visualization-treemaps/pbi-nancy-viz-treemap.png)
 
-예를 들어, 판매량을 분석하는 경우 의류 범주에 대한 최상위 분기가 있을 수 있습니다. **Urban** , **Rural** , **Youth** 및 **Mix**. Power BI는 범주 내의 의류 제조업체에서 범주 사각형을 리프로 분할합니다. 이 리프는 판매 수치를 기준으로 크기가 조정되고 음영으로 표시됩니다.
+예를 들어, 판매량을 분석하는 경우 의류 범주에 대한 최상위 분기가 있을 수 있습니다. **Urban**, **Rural**, **Youth** 및 **Mix**. Power BI는 범주 내의 의류 제조업체에서 범주 사각형을 리프로 분할합니다. 이 리프는 판매 수치를 기준으로 크기가 조정되고 음영으로 표시됩니다.
 
 위의 **Urban** 분기에서는 많은 **VanArsdel** 의류가 판매되었고 **Natura** 와 **Fama** 는 더 적게 판매되었습니다. 그리고 **Leo** 는 몇 개만 판매되었습니다. 따라서 트리맵의 **Urban** 분기는 다음과 같이 구성됩니다.
 

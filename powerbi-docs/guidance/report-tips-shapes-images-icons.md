@@ -2,19 +2,19 @@
 title: Power BI 보고서에서 셰이프, 이미지 및 아이콘을 사용하여 분석을 향상하기 위한 팁
 description: Power BI Desktop 또는 Power BI 서비스에서 Power BI 보고서 시각적 개체의 셰이프, 이미지 및 아이콘을 사용하여 분석을 향상하기 위한 4가지 팁입니다.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 featuredvideoid: -gLwXonWNsI
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 03/25/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 863f5f55eb4fb5d2427585bd2d792097ac1c6630
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: c9587fdbf7154bf61f174d1d193b93ca7f991ae0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278931"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96386020"
 ---
 # <a name="tips-to-improve-analysis-with-shapes-images-and-icons-in-power-bi-reports"></a>Power BI 보고서에서 셰이프, 이미지 및 아이콘을 사용하여 분석을 향상하기 위한 팁
 

@@ -2,19 +2,19 @@
 title: Power BI 보고서에서 데이터 플롯 정렬 및 배포 팁
 description: Power BI Desktop 또는 Power BI 서비스에서 Power BI 보고서 시각적 개체의 데이터 플롯 정렬 및 배포에 관한 9가지 팁입니다.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 featuredvideoid: BnhA4qa-9Jk
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 03/25/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 639999044da94c3f31abdf63737a876b63dc83c9
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 1c954e2365ccf5cf12a1acd9f8c966885ce20324
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278908"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96385877"
 ---
 # <a name="tips-to-sort-and-distribute-data-plots-in-power-bi-reports"></a>Power BI 보고서에서 데이터 플롯 정렬 및 배포 팁
 

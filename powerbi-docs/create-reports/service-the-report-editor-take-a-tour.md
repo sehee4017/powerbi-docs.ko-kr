@@ -2,20 +2,20 @@
 title: 보고서 편집기 둘러보기
 description: Power BI Desktop 및 Power BI 서비스의 보고서 편집기에서는 최종 사용자에게 표시되는 보고서를 디자인합니다. 보고서 편집기는 두 환경에서 비슷합니다.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 08/14/2019
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 56a181da60e2a20c08a8c03dd826276d350ec81f
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 26a98609481ce45a6e432c8006d80f9becdd9f3b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635197"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96387784"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Power BI의 보고서 편집기 둘러보기
 
@@ -54,19 +54,19 @@ Power BI 보고서 편집기는 다음과 같은 몇 개의 주요 섹션으로 
 
 ![Power BI 보고서 편집기](media/service-the-report-editor-take-a-tour/power-bi-report-editor-panes.png)
 
-**필터 창**에는 시각적 개체, 페이지 또는 모든 페이지의 필터가 표시됩니다. 이 경우에는 페이지 수준 필터만 있고 시각적 수준 필터는 없습니다.
+**필터 창** 에는 시각적 개체, 페이지 또는 모든 페이지의 필터가 표시됩니다. 이 경우에는 페이지 수준 필터만 있고 시각적 수준 필터는 없습니다.
 
-**시각화 창의 맨 위**에서는 사용 중인 시각적 개체의 유형을 확인합니다. 이 예제에서는 묶은 세로 막대형 차트입니다. 
+**시각화 창의 맨 위** 에서는 사용 중인 시각적 개체의 유형을 확인합니다. 이 예제에서는 묶은 세로 막대형 차트입니다. 
 
-**시각화 창의 맨 아래**에는 다음 세 개의 탭이 있습니다.
+**시각화 창의 맨 아래** 에는 다음 세 개의 탭이 있습니다.
 
-![시각화의 필드](media/service-the-report-editor-take-a-tour/power-bi-fields-visualization-pane.png) **필드**에는 시각적 개체의 필드가 표시됩니다. 모든 세부 정보를 보려면 아래로 스크롤해야 할 수도 있습니다. 이 차트는 StoreNumberName 및 This Year Sales를 사용합니다.
+![시각화의 필드](media/service-the-report-editor-take-a-tour/power-bi-fields-visualization-pane.png) **필드** 에는 시각적 개체의 필드가 표시됩니다. 모든 세부 정보를 보려면 아래로 스크롤해야 할 수도 있습니다. 이 차트는 StoreNumberName 및 This Year Sales를 사용합니다.
 
 ![페인트 롤러 아이콘](media/service-the-report-editor-take-a-tour/power-bi-paint-roller.png) **서식** 선택한 시각화의 서식 창을 표시하려면 페인트 롤러 아이콘을 선택합니다.
 
 ![돋보기 아이콘](media/service-the-report-editor-take-a-tour/power-bi-magnifying-glass.png) **분석** 분석 창을 표시하려면 돋보기 아이콘을 선택합니다.
 
-**필드 창**에는 데이터 모델에서 사용 가능한 모든 테이블이 나열됩니다. 테이블을 펼치면 해당 테이블의 필드가 표시됩니다. 노란색 확인 표시는 해당 테이블의 필드가 시각화에 하나 이상 있음을 나타냅니다.
+**필드 창** 에는 데이터 모델에서 사용 가능한 모든 테이블이 나열됩니다. 테이블을 펼치면 해당 테이블의 필드가 표시됩니다. 노란색 확인 표시는 해당 테이블의 필드가 시각화에 하나 이상 있음을 나타냅니다.
 
 각 창에 대한 세부 정보를 계속 읽어 보세요.
 
@@ -95,7 +95,7 @@ Power BI 보고서 편집기는 다음과 같은 몇 개의 주요 섹션으로 
 
 ![시각화 창의 맨 아래](media/service-the-report-editor-take-a-tour/power-bi-visualization-field-manager.png)
 
-이 창의 버킷(*웰*이라고도 함)은 선택한 시각화 유형에 따라 달라집니다.  예를 들어 가로 막대형 차트를 선택한 경우 축, 범례, 값이 표시됩니다. 필드를 선택하거나 캔버스로 끌어오면, Power BI는 해당 필드를 버킷 중 하나에 추가합니다.  필드 목록의 필드를 직접 버킷으로 끌어갈 수도 있습니다.  일부 버킷은 특정 형식의 데이터로 제한됩니다.  예를 들어 **값**은 숫자가 아닌 필드를 허용하지 않습니다. 따라서 **Category** 필드를 **값** 버킷으로 끌어오면, Power BI에서 해당 필드를 **Count of Category**로 변경합니다.
+이 창의 버킷(*웰* 이라고도 함)은 선택한 시각화 유형에 따라 달라집니다.  예를 들어 가로 막대형 차트를 선택한 경우 축, 범례, 값이 표시됩니다. 필드를 선택하거나 캔버스로 끌어오면, Power BI는 해당 필드를 버킷 중 하나에 추가합니다.  필드 목록의 필드를 직접 버킷으로 끌어갈 수도 있습니다.  일부 버킷은 특정 형식의 데이터로 제한됩니다.  예를 들어 **값** 은 숫자가 아닌 필드를 허용하지 않습니다. 따라서 **Category** 필드를 **값** 버킷으로 끌어오면, Power BI에서 해당 필드를 **Count of Category** 로 변경합니다.
 
 자세한 내용은 [Power BI 보고서에 시각화 추가](../visuals/power-bi-report-add-visualizations-i.md)를 참조하세요.
 

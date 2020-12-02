@@ -2,26 +2,26 @@
 title: Power BI 서비스에서 데이터 경고 설정
 description: 대시보드의 데이터가 Microsoft Power BI 서비스에서 설정한 한도를 넘어 변경되면 알리도록 경고를 설정하는 방법을 알아봅니다.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 04/02/2020
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 55d196a9b041f52632300f6e10c00d753ca02a14
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: cce9e351d468289b37f000159f846a5b2942b36a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635082"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96387738"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Power BI 서비스의 데이터 경고
 
 대시보드의 데이터가 설정해 놓은 한도를 넘어 변경되면 알리도록 경고를 설정합니다.
 
-내 작업 영역의 타일에 경고를 설정할 수 있습니다. 누군가가 [Premium 용량](../admin/service-premium-what-is.md)에 있는 대시보드를 공유하는 경우에도 경고를 설정할 수 있습니다. Power BI Pro 라이선스가 있는 경우 다른 작업 영역의 타일에도 경고를 설정할 수 있습니다. 경고는 보고서 시각적 개체에서 고정된 타일과 계기, KPI 및 카드에만 설정할 수 있습니다. 보고서에서 대시보드로 고정하는 스트리밍 데이터 세트에서 만든 시각적 개체에 경고를 설정할 수 있습니다. **타일 추가** > **사용자 지정 스트리밍 데이터**를 사용하여 대시보드에서 직접 만든 스트리밍 타일에는 경고를 설정할 수 없습니다.
+내 작업 영역의 타일에 경고를 설정할 수 있습니다. 누군가가 [Premium 용량](../admin/service-premium-what-is.md)에 있는 대시보드를 공유하는 경우에도 경고를 설정할 수 있습니다. Power BI Pro 라이선스가 있는 경우 다른 작업 영역의 타일에도 경고를 설정할 수 있습니다. 경고는 보고서 시각적 개체에서 고정된 타일과 계기, KPI 및 카드에만 설정할 수 있습니다. 보고서에서 대시보드로 고정하는 스트리밍 데이터 세트에서 만든 시각적 개체에 경고를 설정할 수 있습니다. **타일 추가** > **사용자 지정 스트리밍 데이터** 를 사용하여 대시보드에서 직접 만든 스트리밍 타일에는 경고를 설정할 수 없습니다.
 
 대시보드를 공유하더라도 자신이 설정한 경고만 볼 수 있습니다. 대시보드 소유자도 대시보드 보기에서 설정된 경고를 볼 수 없습니다. 데이터 경고는 플랫폼 전반에서 완전히 동기화되며 [Power BI 모바일 앱](../consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md) 및 Power BI 서비스에서 데이터 경고를 설정하고 봅니다. Power BI Desktop에서는 사용할 수 없습니다. 경고를 자동화하고 Power Automate와 통합할 수도 있습니다. [Power Automate 및 Power BI](../collaborate-share/service-flow-integration.md) 문서에서 직접 사용해 볼 수 있습니다.
 
@@ -42,9 +42,9 @@ Amanda가 대시보드의 타일에 몇 가지 경고를 추가하는 과정을 
 
    ![전체 매장 타일](media/service-set-data-alerts/powerbi-card.png)
 
-1. 종 모양 아이콘 ![경고 아이콘](media/service-set-data-alerts/power-bi-bell-icon.png)을 선택하여 **전체 매장**에 대한 경고를 하나 이상 추가합니다.
+1. 종 모양 아이콘 ![경고 아이콘](media/service-set-data-alerts/power-bi-bell-icon.png)을 선택하여 **전체 매장** 에 대한 경고를 하나 이상 추가합니다.
 
-1. 먼저 **+경고 규칙 추가**를 선택하고 **활성** 슬라이더가 **켜기**로 설정되어 있는지 확인한 다음, 경고 제목을 입력합니다. 제목은 경고를 쉽게 인식하는 데 도움이 됩니다.
+1. 먼저 **+경고 규칙 추가** 를 선택하고 **활성** 슬라이더가 **켜기** 로 설정되어 있는지 확인한 다음, 경고 제목을 입력합니다. 제목은 경고를 쉽게 인식하는 데 도움이 됩니다.
 
    ![스크린샷은 경고 규칙 추가, 전체 매장에 대한 경고 및 경고 제목이 호출된 경고 관리 창을 보여 줍니다.](media/service-set-data-alerts/powerbi-alert-title.png)
 
@@ -52,25 +52,25 @@ Amanda가 대시보드의 타일에 몇 가지 경고를 추가하는 과정을 
 
    ![경고 관리 창, 임계값 설정](media/service-set-data-alerts/power-bi-set-alert-details.png)
 
-    경고는 **알림 센터**에 표시됩니다. 이 확인란을 선택하면, Power BI에서 경고에 대한 메일도 보냅니다.
+    경고는 **알림 센터** 에 표시됩니다. 이 확인란을 선택하면, Power BI에서 경고에 대한 메일도 보냅니다.
 
-1. **저장 후 닫기**를 선택합니다.
+1. **저장 후 닫기** 를 선택합니다.
 
 ## <a name="receiving-alerts"></a>경고 수신
 
 추적된 데이터가 설정해 놓은 임계값 중 하나에 도달하면 몇 가지 현상이 발생합니다. 먼저, 선택한 옵션에 따라 Power BI에서 마지막 경고 이후 1시간 이상 경과했는지 또는 24시간 이상 경과했는지를 확인합니다. 데이터가 임계값을 초과한 경우 경고를 받게 됩니다.
 
-다음으로, Power BI에서 **알림 센터**에 경고를 보내고, 필요에 따라 메일도 보냅니다. 각 경고에는 데이터에 대한 직접 링크가 포함됩니다. 탐색하고, 공유하고, 자세한 정보를 알아볼 수 있는 관련 타일을 보려면 링크를 선택합니다.  
+다음으로, Power BI에서 **알림 센터** 에 경고를 보내고, 필요에 따라 메일도 보냅니다. 각 경고에는 데이터에 대한 직접 링크가 포함됩니다. 탐색하고, 공유하고, 자세한 정보를 알아볼 수 있는 관련 타일을 보려면 링크를 선택합니다.  
 
 * 전자 메일을 보내도록 경고를 설정해 놓으면, 다음과 같은 내용을 받은 편지함에서 찾을 수 있습니다.
 
    ![경고 이메일](media/service-set-data-alerts/powerbi-alerts-email.png)
 
-* Power BI에서 **알림 센터**에 메시지가 추가되고 해당되는 타일에 새로운 경고 아이콘이 추가됩니다.
+* Power BI에서 **알림 센터** 에 메시지가 추가되고 해당되는 타일에 새로운 경고 아이콘이 추가됩니다.
 
    ![Power BI 서비스의 알림 아이콘](media/service-set-data-alerts/powerbi-alert-notifications.png)
 
-* **알림 센터**에 경고 정보가 표시됩니다.
+* **알림 센터** 에 경고 정보가 표시됩니다.
 
     ![경고 참고](media/service-set-data-alerts/powerbi-alert-notification.png)
 
@@ -105,11 +105,11 @@ Amanda가 대시보드의 타일에 몇 가지 경고를 추가하는 과정을 
 
 ### <a name="from-the-power-bi-settings-menu"></a>Power BI 설정 메뉴에서
 
-1. Power BI 메뉴 모음에서 톱니바퀴 모양의 아이콘을 선택한 다음, **설정**을 선택합니다.
+1. Power BI 메뉴 모음에서 톱니바퀴 모양의 아이콘을 선택한 다음, **설정** 을 선택합니다.
 
     ![기어 아이콘](media/service-set-data-alerts/powerbi-gear-icon.png).
 
-1. **설정**에서 **경고**를 선택합니다.
+1. **설정** 에서 **경고** 를 선택합니다.
 
     ![설정 창의 경고 탭](media/service-set-data-alerts/powerbi-alert-settings.png)
 

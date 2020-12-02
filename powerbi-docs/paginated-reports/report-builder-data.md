@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.custom: seodec18
 ms.date: 08/04/2020
 ms.openlocfilehash: 97b93f23c8070af1b514032cea122b257097d664
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297935"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "96120661"
 ---
 # <a name="report-data-in-power-bi-report-builder"></a>Power BI 보고서 작성기의 보고서 데이터
 

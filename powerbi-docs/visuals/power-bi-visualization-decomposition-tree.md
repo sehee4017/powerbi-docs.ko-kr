@@ -1,20 +1,20 @@
 ---
 title: 분해 트리
 description: '자습서:  Power BI에서 분해 트리 시각화 만들기'
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: juluczni
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 01/10/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0a8bc86217dac8f0c2b70e300f08b1667ee63568
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: fd4f984be74c0408eae5c476fa30994de55961a0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93413088"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96386369"
 ---
 # <a name="create-and-view-decomposition-tree-visuals-in-power-bi"></a>Power BI에서 분해 트리 시각적 개체 만들기 및 보기
 

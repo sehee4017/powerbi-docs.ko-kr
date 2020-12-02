@@ -2,19 +2,19 @@
 title: Power BI 보고서에서 범례 서식 지정 및 구현
 description: Power BI Desktop 또는 Power BI 서비스에서 Power BI 보고서 시각적 개체의 범례를 서식 지정하고 구현하기 위한 6가지 팁입니다.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 featuredvideoid: r9XnHmuWkZQ
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 02/15/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 85cecc300ac3586c3702e8a7fa5e5c4a4dc6a65c
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a63c85787f9304954fff76785796dd9cc3e7aa93
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278954"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96385997"
 ---
 # <a name="tips-to-format-and-implement-legends-in-power-bi-reports"></a>Power BI 보고서의 범례 서식 지정 및 구현 팁
 

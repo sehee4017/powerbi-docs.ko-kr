@@ -9,11 +9,11 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: ae548abd0d579414a69b0d970213ff9d69ff2f08
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92256325"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "96120213"
 ---
 # <a name="objects-and-properties-of-power-bi-visuals"></a>Power BI 시각적 개체의 개체 및 속성
 
@@ -83,7 +83,7 @@ export interface ValueTypeDescriptor {
 #### <a name="structural-type-descriptor"></a>구조적 형식 설명자
 
 `StructuralTypeDescriptor` 형식은 데이터 바인딩된 개체에 주로 사용됩니다.
-가장 일반적인 `StructuralTypeDescriptor` 형식은 *fill*입니다.
+가장 일반적인 `StructuralTypeDescriptor` 형식은 *fill* 입니다.
 
 ```typescript
 export interface StructuralTypeDescriptor {
