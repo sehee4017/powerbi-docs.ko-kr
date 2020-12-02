@@ -2,20 +2,20 @@
 title: Power BI 시각적 개체에서 데이터 내보내기
 description: 보고서 시각적 개체 및 대시보드 시각적 개체에서 데이터를 내보내고 Excel에서 봅니다.
 author: mihart
+ms.author: mihart
 ms.reviewer: cmfinlan
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 08/28/2020
-ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 671bef8f00b79db87b11a059438d873a0641ef91
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: 13d8eda142896b406269f940823e702b2ca7cb3e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462490"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96391027"
 ---
 # <a name="export-data-from-a-visual"></a>시각적 개체에서 데이터 내보내기
 
@@ -30,12 +30,12 @@ ms.locfileid: "92462490"
 
 ## <a name="from-a-visual-on-a-power-bi-dashboard"></a>Power BI 대시보드의 시각화 개체에서
 
-1. Power BI 대시보드에서 시작합니다. 여기서는 * **마케팅 및 판매 샘플** _ 앱의 대시보드를 사용하고 있습니다. [이 앱은 AppSource.com에서 다운로드](https://appsource.microsoft.com/en-us/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample
+1. Power BI 대시보드에서 시작합니다. 여기서는 ***마케팅 및 판매 샘플** _ 앱의 대시보드를 사용하고 있습니다. [이 앱은 AppSource.com에서 다운로드](https://appsource.microsoft.com/en-us/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample
 )할 수 있습니다.
 
     ![앱 대시보드](media/end-user-export/power-bi-dashboards.png)
 
-2. 시각적 개체를 마우스로 가리켜 _ *추가 옵션* *(...)을 표시하고 작업 메뉴를 클릭하여 표시합니다.
+2. 시각적 개체를 마우스로 가리켜 _ *추가 옵션**(...)을 표시하고 작업 메뉴를 클릭하여 표시합니다.
 
     ![줄임표를 선택할 때 나타나는 메뉴](media/end-user-export/power-bi-option-menu.png)
 
@@ -73,10 +73,10 @@ ms.locfileid: "92462490"
 
 4. 요약된 데이터 또는 기본 데이터를 내보내는 옵션이 표시됩니다. *영업 및 마케팅 샘플* 앱을 사용하는 경우 **기본 데이터** 가 사용하지 않도록 설정됩니다. 그러나 두 옵션을 모두 사용하도록 설정한 보고서가 있을 수 있습니다. 차이점에 대한 설명은 다음과 같습니다.
 
-    **요약된 데이터** : 현재 시각적 개체에 표시되는 내용에 대한 데이터를 내보내려면 이 옵션을 선택합니다.  이 내보내기 유형은 시각적 개체의 현재 상태를 만드는 데 사용된 데이터만 표시합니다. 시각적 개체에 필터가 적용된 경우 내보낸 데이터도 필터링됩니다. 예를 들어 이 시각적 개체의 경우 내보내기에는 2014년 및 중부 지역에 대한 데이터만 포함되고, 4개의 제조업체인 VanArsdel, Natura, Aliqui 및 Pirum에 대한 데이터만 포함됩니다. 시각적 개체에 집계(합계, 평균 등)가 있는 경우 내보내기도 집계됩니다. 
+    **요약된 데이터**: 현재 시각적 개체에 표시되는 내용에 대한 데이터를 내보내려면 이 옵션을 선택합니다.  이 내보내기 유형은 시각적 개체의 현재 상태를 만드는 데 사용된 데이터만 표시합니다. 시각적 개체에 필터가 적용된 경우 내보낸 데이터도 필터링됩니다. 예를 들어 이 시각적 개체의 경우 내보내기에는 2014년 및 중부 지역에 대한 데이터만 포함되고, 4개의 제조업체인 VanArsdel, Natura, Aliqui 및 Pirum에 대한 데이터만 포함됩니다. 시각적 개체에 집계(합계, 평균 등)가 있는 경우 내보내기도 집계됩니다. 
   
 
-    **기본 데이터** : 시각적 개체에 표시되는 데이터 **외에** 기본 데이터 세트의 추가 데이터를 내보내려면 이 옵션을 선택합니다.  여기에는 데이터 세트에 포함되어 있지만 시각적 개체에는 사용되지 않는 데이터가 포함될 수 있습니다. 시각적 개체에 필터가 적용된 경우 내보낸 데이터도 필터링됩니다.  시각적 개체에 집계(합계, 평균 등)가 있는 경우 내보내기는 집계를 제거하여 본질적으로 데이터를 평면화합니다. 
+    **기본 데이터**: 시각적 개체에 표시되는 데이터 **외에** 기본 데이터 세트의 추가 데이터를 내보내려면 이 옵션을 선택합니다.  여기에는 데이터 세트에 포함되어 있지만 시각적 개체에는 사용되지 않는 데이터가 포함될 수 있습니다. 시각적 개체에 필터가 적용된 경우 내보낸 데이터도 필터링됩니다.  시각적 개체에 집계(합계, 평균 등)가 있는 경우 내보내기는 집계를 제거하여 본질적으로 데이터를 평면화합니다. 
 
     ![기본 또는 요약을 선택하는 경우의 메뉴](media/end-user-export/power-bi-export-underlying.png)
 

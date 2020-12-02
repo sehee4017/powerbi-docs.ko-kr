@@ -2,19 +2,19 @@
 title: Power BI 서비스 보고서의 책갈피 개요
 description: Power BI 서비스의 책갈피에 대한 설명서 개요 항목입니다.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 08/26/2020
-ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: f865815c76df179c87c1487e1243c37108375167
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: ec56f15386aeddafa74d952ce772aa3dcce4f901
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937717"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96391487"
 ---
 # <a name="what-are-bookmarks"></a>책갈피란?
 
@@ -22,7 +22,7 @@ ms.locfileid: "88937717"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-책갈피는 보고서 페이지에 대해 현재 구성된 보기를 캡처합니다. 여기에는 필터, 슬라이서, 시각적 개체의 상태가 포함됩니다. 책갈피를 선택하면 해당 보기로 이동하게 됩니다. 책갈피에는 두 가지 유형이 있습니다. 하나는 사용자가 직접 만든 것이고, 다른 하나는 보고서 *디자이너*가 만든 것입니다. 모든 Power BI 사용자는 개인 책갈피를 만들 수 있습니다. 그러나 다른 사용자가 만든 책갈피를 사용할 수 있으려면 Power BI Pro 또는 Premium 라이선스가 필요합니다. [사용 중인 라이선스 확인](end-user-license.md)
+책갈피는 보고서 페이지에 대해 현재 구성된 보기를 캡처합니다. 여기에는 필터, 슬라이서, 시각적 개체의 상태가 포함됩니다. 책갈피를 선택하면 해당 보기로 이동하게 됩니다. 책갈피에는 두 가지 유형이 있습니다. 하나는 사용자가 직접 만든 것이고, 다른 하나는 보고서 *디자이너* 가 만든 것입니다. 모든 Power BI 사용자는 개인 책갈피를 만들 수 있습니다. 그러나 다른 사용자가 만든 책갈피를 사용할 수 있으려면 Power BI Pro 또는 Premium 라이선스가 필요합니다. [사용 중인 라이선스 확인](end-user-license.md)
 
 ## <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>책갈피를 사용하여 Power BI에서 정보 공유 및 스토리 빌드 
 책갈피에는 다양한 용도가 있습니다. 흥미로운 인사이트를 발견하여 보관하고 싶을 경우, 나중에 돌아갈 수 있도록 책갈피를 만들 수 있습니다. 지금 당장 어디를 가야 하는데 이제까지 한 작업을 그대로 유지하고 싶은 경우에도 책갈피를 만들 수 있습니다. 보고서의 기본 보기를 책갈피로 만들어 두면 매번 돌아갈 때마다 보고서 페이지의 해당 보기가 가장 먼저 열립니다. 
@@ -32,7 +32,7 @@ ms.locfileid: "88937717"
 ![리본에서 책갈피 창을 선택하여 표시합니다.](media/end-user-bookmarks/power-bi-bookmark-icon.png)
 
 ## <a name="open-bookmarks"></a>책갈피 열기
-책갈피 창을 열려면 메뉴 모음에서 **책갈피** > **더 많은 책갈피 표시**를 선택합니다. 
+책갈피 창을 열려면 메뉴 모음에서 **책갈피** > **더 많은 책갈피 표시** 를 선택합니다. 
 
 ![책갈피 창이 열려 있는 보고서 캔버스의 스크린샷](media/end-user-bookmarks/power-bi-show-bookmarks.png)
 
@@ -41,7 +41,7 @@ ms.locfileid: "88937717"
 ![되돌리기 아이콘이 선택된 스크린샷](media/end-user-bookmarks/power-bi-revert.png)
 
 ### <a name="report-bookmarks"></a>보고서 책갈피
-보고서 *디자이너*가 보고서 책갈피를 포함해 둔 경우, **보고서 책갈피** 제목 아래에서 찾을 수 있습니다. 이 보고서 페이지에는 4개의 책갈피 B1, B2, VanArsdel YTD, All YTD가 있습니다. 현재는 **All YTD**가 선택되어 있습니다.
+보고서 *디자이너* 가 보고서 책갈피를 포함해 둔 경우, **보고서 책갈피** 제목 아래에서 찾을 수 있습니다. 이 보고서 페이지에는 4개의 책갈피 B1, B2, VanArsdel YTD, All YTD가 있습니다. 현재는 **All YTD** 가 선택되어 있습니다.
 
 > [!NOTE]
 > 공유 보고서를 보려면 Power BI Pro 또는 Premium이 필요합니다. 
@@ -71,11 +71,11 @@ ms.locfileid: "88937717"
 1. **필터** 창에서 기존 지역 필터를 변경
 1.  도넛형 차트 시각적 개채를 선택하여 보고서 캔버스를 교차 필터링 및 교차 강조 표시 
 
-보고서 페이지 및 시각적 개체가 원하는 대로 정렬되면 **책갈피** 창에서 **추가**를 선택하여 책갈피를 추가합니다. 
+보고서 페이지 및 시각적 개체가 원하는 대로 정렬되면 **책갈피** 창에서 **추가** 를 선택하여 책갈피를 추가합니다. 
 
 ![개인 책갈피를 추가합니다.](media/end-user-bookmarks/power-bi-personal.png)
 
-**Power BI**는 개인 책갈피를 만들고 일반 이름 또는 사용자가 입력한 이름으로 설정합니다. 책갈피 이름 옆에 있는 줄임표를 선택하고 표시되는 메뉴에서 작업을 선택하여 책갈피의 *이름을 바꾸*거나 책갈피를 *삭제* 또는 *업데이트*할 수 있습니다.
+**Power BI** 는 개인 책갈피를 만들고 일반 이름 또는 사용자가 입력한 이름으로 설정합니다. 책갈피 이름 옆에 있는 줄임표를 선택하고 표시되는 메뉴에서 작업을 선택하여 책갈피의 *이름을 바꾸* 거나 책갈피를 *삭제* 또는 *업데이트* 할 수 있습니다.
 
 책갈피를 만들고 나면 **책갈피** 창에서 책갈피를 선택하여 표시합니다. 
 
@@ -95,13 +95,13 @@ The order of your bookmarks can become important when you use the **View** featu
 -->
 
 ## <a name="bookmarks-as-a-slide-show"></a>슬라이드 쇼로 책갈피
-책갈피를 보거나 프레젠테이션에서 사용하려면 **책갈피** 창에서 **보기**를 선택하여 슬라이드 쇼를 시작합니다.
+책갈피를 보거나 프레젠테이션에서 사용하려면 **책갈피** 창에서 **보기** 를 선택하여 슬라이드 쇼를 시작합니다.
 
 **보기** 모드인 경우 알아야 할 몇 가지 기능은 다음과 같습니다.
 
 - 책갈피의 이름은 캔버스 맨 아래에 표시되는 책갈피 제목 표시줄에 나타납니다.
 - 책갈피 제목 표시줄에는 다음 또는 이전 책갈피로 이동할 수 있도록 화살표가 있습니다.
-- **책갈피** 창에서 **종료**를 선택하거나 책갈피 제목 표시줄에서 **X**를 선택하여 **보기** 모드를 종료할 수 있습니다.
+- **책갈피** 창에서 **종료** 를 선택하거나 책갈피 제목 표시줄에서 **X** 를 선택하여 **보기** 모드를 종료할 수 있습니다.
 
 ![책갈피 슬라이드 쇼](media/end-user-bookmarks/power-bi-view-bookmarks.png)
 
@@ -168,11 +168,11 @@ Note that selecting **Ungroup** for any bookmark from a group takes all bookmark
 
 
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
-**책갈피**의 이 릴리스에서는 몇 가지 제한 사항 및 고려 사항을 기억해야 합니다.
+**책갈피** 의 이 릴리스에서는 몇 가지 제한 사항 및 고려 사항을 기억해야 합니다.
 
 * 대부분의 Power BI 시각적 개체는 책갈피에서 잘 작동합니다. 책갈피 및 Power BI 시각적 개체 관련 문제가 발생하면 해당 Power BI 시각적 개체의 작성자에게 문의하여 시각적 개체에 책갈피 지원을 추가하도록 요청합니다.
 * 책갈피를 만든 후 보고서 페이지에서 시각적 개체를 추가하는 경우 시각적 개체는 기본 상태로 표시됩니다. 즉, 이전에 책갈피를 만든 페이지에 슬라이서를 도입하는 경우 슬라이서가 해당 기본 상태로 작동합니다.
-* 일반적으로, 보고서 *디자이너*가 보고서를 업데이트하거나 다시 게시하더라도 책갈피는 영향을 받지 않습니다. 단, 디자이너가 책갈피에서 사용되는 필드를 제거하는 등 보고서에 중요한 변경 사항을 적용한 경우, 다음번에 이 책갈피를 열려고 시도하면 오류 메시지가 표시됩니다. 
+* 일반적으로, 보고서 *디자이너* 가 보고서를 업데이트하거나 다시 게시하더라도 책갈피는 영향을 받지 않습니다. 단, 디자이너가 책갈피에서 사용되는 필드를 제거하는 등 보고서에 중요한 변경 사항을 적용한 경우, 다음번에 이 책갈피를 열려고 시도하면 오류 메시지가 표시됩니다. 
 
 <!--
 ## Next steps

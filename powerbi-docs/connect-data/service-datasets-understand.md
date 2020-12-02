@@ -1,19 +1,19 @@
 ---
 title: Power BI 서비스의 데이터 세트
 description: 보고 및 시각화를 위해 준비된 데이터 원본을 나타내는 Power BI 서비스 데이터 세트를 이해합니다.
-author: peter-myers
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 11/09/2019
-ms.author: v-pemyer
-ms.openlocfilehash: ecd683cf55b6198aed1bbc76f87646846bbf222f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: bff238fa0845c28f508a9abdda21b24f73dfb99f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83284776"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392430"
 ---
 # <a name="datasets-in-the-power-bi-service"></a>Power BI 서비스의 데이터 세트
 
@@ -32,7 +32,7 @@ Power BI 데이터 세트는 보고 및 시각화를 위해 준비된 데이터 
 스트리밍 데이터 세트를 제외하고, 데이터 세트는 [Analysis Services](/analysis-services/analysis-services-overview)의 완성된 모델링 기술을 활용하는 데이터 모델을 나타냅니다.
 
 > [!NOTE]
-> 이 설명서에서는 _데이터 세트_라는 용어와 _모델_이라는 혼용되는 경우가 있습니다. 일반적으로 Power BI 서비스 관점에서는 **데이터 세트**라고 하고, 개발 관점에서는 **모델**이라고 합니다. 이 설명서의 맥락에서는 거의 동일한 것을 의미합니다.
+> 이 설명서에서는 _데이터 세트_ 라는 용어와 _모델_ 이라는 혼용되는 경우가 있습니다. 일반적으로 Power BI 서비스 관점에서는 **데이터 세트** 라고 하고, 개발 관점에서는 **모델** 이라고 합니다. 이 설명서의 맥락에서는 거의 동일한 것을 의미합니다.
 
 ### <a name="external-hosted-models"></a>외부 호스트형 모델
 
@@ -40,15 +40,15 @@ Power BI 데이터 세트는 보고 및 시각화를 위해 준비된 데이터 
 
 SQL Server Analysis Services 모델에 연결하려면 온-프레미스 또는 VM에서 호스트되는 IaaS(Infrastructure-as-a-Service) 모두 [온-프레미스 데이터 게이트웨이](service-gateway-onprem.md)를 설치해야 합니다. Azure Analysis Services는 게이트웨이가 필요하지 않습니다.
 
-일반적으로 EDW(엔터프라이즈 데이터 웨어하우스)의 일부를 형성하는 기존 모델 투자가 있는 경우 Analysis Services에 연결하는 것이 좋습니다. Power BI는 Analysis Services에 대한 _라이브 연결_을 만들어 Power BI 보고서 사용자의 ID를 사용하여 데이터 사용 권한을 적용할 수 있습니다. SQL Server Analysis Services의 경우 다차원 모델(큐브) 및 테이블 형식 모델이 모두 지원됩니다. 다음 그림에 표시된 것처럼 라이브 연결 데이터 세트는 외부 호스트형 모델로 쿼리를 전달합니다.
+일반적으로 EDW(엔터프라이즈 데이터 웨어하우스)의 일부를 형성하는 기존 모델 투자가 있는 경우 Analysis Services에 연결하는 것이 좋습니다. Power BI는 Analysis Services에 대한 _라이브 연결_ 을 만들어 Power BI 보고서 사용자의 ID를 사용하여 데이터 사용 권한을 적용할 수 있습니다. SQL Server Analysis Services의 경우 다차원 모델(큐브) 및 테이블 형식 모델이 모두 지원됩니다. 다음 그림에 표시된 것처럼 라이브 연결 데이터 세트는 외부 호스트형 모델로 쿼리를 전달합니다.
 
 ![라이브 연결 데이터 세트는 외부 호스트형 모델로 쿼리를 전달](media/service-datasets-understand/live-connection-dataset.png)
 
 ### <a name="power-bi-desktop-developed-models"></a>Power BI Desktop 개발 모델
 
-Power BI Desktop(Power BI 개발을 위한 클라이언트 애플리케이션)은 모델을 개발하는 데 사용할 수 있습니다. 모델은 사실상 Analysis Services 테이블 형식 모델입니다. 모델은 데이터 흐름에서 데이터를 가져와 개발할 수 있으며, 그런 다음 외부 데이터 원본에 통합할 수 있습니다. 모델링을 구현하는 방법에 대한 자세한 내용은 이 문서에서 다루지 않지만 Power BI Desktop을 사용하여 개발할 수 있는 모델의 3가지 유형 또는 _모드_를 이해하는 것이 중요합니다. 이러한 모드는 데이터를 모델로 가져올지 아니면 데이터 원본에 유지할지를 결정합니다. 세 가지 모드는 다음과 같습니다. 가져오기, DirectQuery 및 복합. 각 모드에 대한 자세한 내용은 [Power BI 서비스의 데이터 세트 모드](service-dataset-modes-understand.md)를 참조하세요.
+Power BI Desktop(Power BI 개발을 위한 클라이언트 애플리케이션)은 모델을 개발하는 데 사용할 수 있습니다. 모델은 사실상 Analysis Services 테이블 형식 모델입니다. 모델은 데이터 흐름에서 데이터를 가져와 개발할 수 있으며, 그런 다음 외부 데이터 원본에 통합할 수 있습니다. 모델링을 구현하는 방법에 대한 자세한 내용은 이 문서에서 다루지 않지만 Power BI Desktop을 사용하여 개발할 수 있는 모델의 3가지 유형 또는 _모드_ 를 이해하는 것이 중요합니다. 이러한 모드는 데이터를 모델로 가져올지 아니면 데이터 원본에 유지할지를 결정합니다. 세 가지 모드는 다음과 같습니다. 가져오기, DirectQuery 및 복합. 각 모드에 대한 자세한 내용은 [Power BI 서비스의 데이터 세트 모드](service-dataset-modes-understand.md)를 참조하세요.
 
-외부 호스트형 모델과 Power BI 데스크톱 모델은 RLS(행 수준 보안)를 적용하여 특정 사용자에 대해 검색되는 데이터를 제한할 수 있습니다. 예를 들어 **영업 사원** 보안 그룹에 할당된 사용자는 자신이 할당된 판매 지역에 대한 보고서 데이터만 볼 수 있습니다. RLS 역할은 _동적_ 또는 _정적_입니다. 동적 역할은 보고서 사용자를 기준으로 필터링되는 반면, 정적 역할은 역할에 할당된 모든 사용자에 대해 동일한 필터를 적용합니다. 자세한 내용은 [Power BI에서 RLS(행 수준 보안)](../admin/service-admin-rls.md)를 참조하세요.
+외부 호스트형 모델과 Power BI 데스크톱 모델은 RLS(행 수준 보안)를 적용하여 특정 사용자에 대해 검색되는 데이터를 제한할 수 있습니다. 예를 들어 **영업 사원** 보안 그룹에 할당된 사용자는 자신이 할당된 판매 지역에 대한 보고서 데이터만 볼 수 있습니다. RLS 역할은 _동적_ 또는 _정적_ 입니다. 동적 역할은 보고서 사용자를 기준으로 필터링되는 반면, 정적 역할은 역할에 할당된 모든 사용자에 대해 동일한 필터를 적용합니다. 자세한 내용은 [Power BI에서 RLS(행 수준 보안)](../admin/service-admin-rls.md)를 참조하세요.
 
 ### <a name="excel-workbook-models"></a>Excel 통합 문서 모델
 

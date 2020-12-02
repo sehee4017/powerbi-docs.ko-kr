@@ -2,26 +2,26 @@
 title: Power BI 서비스의 즐겨찾기(대시보드, 보고서, 앱)
 description: Power BI 서비스에서 대시보드, 보고서, 앱을 즐겨찾기에 추가하는 방법에 대한 설명서
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/02/2020
-ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 17dcf31a1e0f4dadc5c4718dfbf73d98950b297a
-ms.sourcegitcommit: b943ce58c2c079cb18fc5cf23cc609ead1dc9906
+ms.openlocfilehash: fe91d4f2a1490c6d879b18cfc6f09f6c0b2a6b40
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "89443414"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96390820"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-the-power-bi-service"></a>Power BI 서비스에서 즐겨 찾는 대시보드, 보고서 및 앱
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
-콘텐츠를 *즐겨찾기*로 만들면 **즐겨찾기** 콘텐츠 목록과 Power BI **홈** > **즐겨찾기 및 자주 사용하는 항목**에서 빠르게 액세스할 수 있습니다. 즐겨찾기는 사용자가 일반적으로 가장 자주 방문하는 콘텐츠이며 채워진 별로 식별됩니다.
+콘텐츠를 *즐겨찾기* 로 만들면 **즐겨찾기** 콘텐츠 목록과 Power BI **홈** > **즐겨찾기 및 자주 사용하는 항목** 에서 빠르게 액세스할 수 있습니다. 즐겨찾기는 사용자가 일반적으로 가장 자주 방문하는 콘텐츠이며 채워진 별로 식별됩니다.
 
    ![즐겨찾기 아이콘](./media/end-user-favorite/power-bi-nav-favorite.png)
 
@@ -41,7 +41,7 @@ ms.locfileid: "89443414"
 
 ## <a name="add-an-app-as-a-favorite"></a>앱을 즐겨찾기에 추가
 
-1. 탐색 창에서 **앱**을 선택합니다.
+1. 탐색 창에서 **앱** 을 선택합니다.
 
    ![대시보드](./media/end-user-favorite/power-bi-apps.png)
 
@@ -50,7 +50,7 @@ ms.locfileid: "89443414"
    ![마우스로 앱 가리키기](./media/end-user-favorite/power-bi-hover-app.png)
 
 ## <a name="work-with-favorites"></a>즐겨찾기로 작업
-1. 즐겨찾기에 액세스하려면 **즐겨찾기** 오른쪽에 있는 플라이아웃 화살표를 선택합니다. 여기에서 즐겨찾기를 선택하여 열 수 있습니다. 즐겨찾기는 최대 5개까지 나열됩니다(알파벳순). 5개 이상이면 **모두 보기**를 선택하여 즐겨찾기 콘텐츠 목록을 엽니다. 
+1. 즐겨찾기에 액세스하려면 **즐겨찾기** 오른쪽에 있는 플라이아웃 화살표를 선택합니다. 여기에서 즐겨찾기를 선택하여 열 수 있습니다. 즐겨찾기는 최대 5개까지 나열됩니다(알파벳순). 5개 이상이면 **모두 보기** 를 선택하여 즐겨찾기 콘텐츠 목록을 엽니다. 
    
    ![즐겨찾기 플라이아웃](./media/end-user-favorite/power-bi-favorite-expand.png)
 2. 즐겨찾기에 추가한 모든 콘텐츠를 보려면 탐색 창에서 **즐겨찾기** 또는 즐겨찾기 ![현재의 모든 즐겨찾기를 보여주는 스크린샷](./media/end-user-favorite/power-bi-favorites-icon.png)을 선택합니다. 아이콘을 선택하여 탐색 창을 축소합니다. 
@@ -62,7 +62,7 @@ ms.locfileid: "89443414"
 ## <a name="unfavorite-content"></a>즐겨찾기에서 제거된 콘텐츠
 예전만큼 자주 보고서를 사용하지 않는다면 즐겨찾기에서 제거할 수 있습니다. 즐겨찾기에서 제거하면 콘텐츠는 즐겨찾기 목록에서 제거되지만 Power BI에서는 제거되지 않습니다.
 
-1. 탐색 창에서 **즐겨찾기**를 선택하여 **즐겨찾기** 화면을 엽니다.
+1. 탐색 창에서 **즐겨찾기** 를 선택하여 **즐겨찾기** 화면을 엽니다.
    
    ![즐겨찾기 화면](./media/end-user-favorite/power-bi-unfavorite.png)
 2. 즐겨찾기에서 제거할 콘텐츠 옆의 검은색 별을 선택합니다.

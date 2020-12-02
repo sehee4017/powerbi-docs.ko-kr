@@ -2,19 +2,19 @@
 title: 온-프레미스 데이터 게이트웨이 심층 분석
 description: 이 문서에서는 온-프레미스 게이트웨이에 대해 자세히 살펴봅니다. Analysis Services로 작업 시 서비스가 Azure Active Directory 및 로컬 Active Directory에서 작동하는 방식을 살펴봅니다.
 author: arthiriyer
+ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
 ms.date: 07/15/2019
-ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 34cf796db212112baa8083f5b4cbf1796b465cba
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0964ad3e391c8e066c31ea7bb53f67e97f254422
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237564"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392361"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>온-프레미스 데이터 게이트웨이 심층 분석
 

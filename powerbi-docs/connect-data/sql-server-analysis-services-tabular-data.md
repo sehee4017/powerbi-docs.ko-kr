@@ -1,21 +1,21 @@
 ---
 title: Power BI의 SQL Server Analysis Services 라이브 데이터
 description: Power BI의 SQL Server Analysis Services 라이브 데이터입니다. 엔터프라이즈 게이트웨이용으로 구성된 데이터 원본을 통해 수행됩니다.
-ms.service: powerbi
-ms.subservice: powerbi-service
-ms.topic: how-to
-author: davidiseminger
+author: Minewiskan
 ms.author: davidi
+ms.service: powerbi
+ms.subservice: pbi-data-sources
+ms.topic: how-to
 ms.reviewer: ''
 ms.custom: ''
 ms.date: 08/10/2017
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 2c32ceb1db154cd7647402593051e4230c75c07f
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 81d2f350c524335d3aa8c7fbb9c82a6cb045e9e5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916754"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96391901"
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Power BI의 SQL Server Analysis Services 라이브 데이터
 

@@ -2,20 +2,20 @@
 title: Power BI 앱이란?
 description: Power BI에서 앱을 사용하면 관련된 대시보드 및 보고서를 모두 한 곳에 모을 수 있습니다.
 author: mihart
+ms.author: mihart
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/09/2020
-ms.author: mihart
 ms.custom: licensing support, css_fy20Q4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 15345c8ca7249c3a6bf4018a322a8ce3d78b9de3
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 3cf504d1df824840f8f3af134ac3e6e3cd8a3fca
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91982109"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96391556"
 ---
 # <a name="apps-in-power-bi"></a>Power BI의 앱
 
@@ -28,7 +28,7 @@ ms.locfileid: "91982109"
 
 
 ## <a name="app-designers-and-app-users"></a>앱 *디자이너* 및 앱 *사용자*
-사용자 역할에 따라 자신의 용도에 따라 또는 동료와 공유하기 위해 앱( *디자이너* )을 만들려는 사람이 있을 수 있습니다. 또는 다른 사람이 만든 앱을 받고 다운로드하는 사람(‘비즈니스 사용자’)일 수 있습니다. 이 문서는 *비즈니스 사용자* 를 위한 것입니다.
+사용자 역할에 따라 자신의 용도에 따라 또는 동료와 공유하기 위해 앱(*디자이너*)을 만들려는 사람이 있을 수 있습니다. 또는 다른 사람이 만든 앱을 받고 다운로드하는 사람(‘비즈니스 사용자’)일 수 있습니다. 이 문서는 *비즈니스 사용자* 를 위한 것입니다.
 
 앱을 보고 열려면 특정 권한이 필요합니다. 받는 사람이 Power BI Pro 라이선스를 가지고 있거나, 앱을 **프리미엄 용량** 이라는 특수한 유형의 클라우드 스토리지에서 받는 사람과 공유해야 합니다. 라이선스 및 프리미엄 용량에 대한 자세한 내용은 [Power BI 서비스에 대한 라이선스](end-user-license.md)를 참조하세요.
 

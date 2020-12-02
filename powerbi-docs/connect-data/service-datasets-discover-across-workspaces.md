@@ -1,27 +1,27 @@
 ---
 title: 다른 작업 영역의 데이터 세트를 기반으로 보고서 생성 - Power BI
 description: 조직 전체의 사용자와 데이터 세트를 공유하는 방법을 알아봅니다. 그런 다음, 자신의 작업 영역에서 데이터 세트를 기반으로 보고서를 빌드할 수 있습니다.
-author: maggiesMSFT
+author: paulinbar
+ms.author: painbar
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 04/30/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 59fc2d4be1336d9476c86e4204eeb23564ebe64e
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 3f1f689aa272ac98f4a3dd4aef7c2b2728fce41e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92681105"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392499"
 ---
 # <a name="create-reports-based-on-datasets-from-different-workspaces"></a>다른 작업 영역의 데이터 세트를 기반으로 보고서 생성
 
 다른 작업 영역의 데이터 세트를 기반으로 사용자 고유의 작업 영역에서 보고서를 만드는 방법을 알아봅니다. 기존 데이터 세트 위에 보고서를 빌드하기 위해 Power BI Desktop 또는 Power BI 서비스, 내 작업 영역 또는 [새 작업 영역 환경](../collaborate-share/service-create-the-new-workspaces.md)에서 시작할 수 있습니다.
 
-- Power BI 서비스에서 다음을 수행합니다. **데이터 가져오기** > **게시된 데이터 세트** .
-- Power BI Desktop에서 다음을 수행합니다. **데이터 가져오기** > **Power BI 데이터 세트** .
+- Power BI 서비스에서 다음을 수행합니다. **데이터 가져오기** > **게시된 데이터 세트**.
+- Power BI Desktop에서 다음을 수행합니다. **데이터 가져오기** > **Power BI 데이터 세트**.
 
     ![기존 데이터 세트에 연결](media/service-datasets-across-workspaces/power-bi-connect-dataset-pk.png)
    
@@ -52,8 +52,8 @@ ms.locfileid: "92681105"
 
 두 가지 보증된 데이터 세트가 있습니다. 데이터 세트 소유자는 사용자에게 권장하는 데이터 세트를 *승격* 할 수 있습니다. 또한 Power BI 관리자는 모든 사용자가 사용할 수 있도록 데이터 세트를 ‘인증’할 수 있는 조직의 전문가를 지정할 수 있습니다. 승격되고 인증된 데이터 세트는 모두 데이터 세트를 찾을 때 작업 영역의 데이터 세트 목록에서 볼 수 있는 *배지* 를 표시합니다. 데이터 세트 검색 중에 데이터 세트를 인증한 사용자의 이름이 도구 설명에 표시됩니다. **인증됨** 레이블 위에 마우스를 갖다 대면 이름을 확인할 수 있습니다.
 
-- Power BI 서비스에서 다음을 수행합니다. **데이터 가져오기** > **게시된 데이터 세트** .
-- Power BI Desktop에서 다음을 수행합니다. **데이터 가져오기** > **Power BI 데이터 세트** .
+- Power BI 서비스에서 다음을 수행합니다. **데이터 가져오기** > **게시된 데이터 세트**.
+- Power BI Desktop에서 다음을 수행합니다. **데이터 가져오기** > **Power BI 데이터 세트**.
 
     **데이터 세트 선택** 대화 상자에서 보증된 데이터 세트가 기본적으로 목록 상단에 있습니다. 
 
