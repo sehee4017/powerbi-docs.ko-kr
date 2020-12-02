@@ -1,19 +1,19 @@
 ---
 title: Power BI Desktop의 DirectQuery 모델 문제 해결
 description: DirectQuery 모델 문제를 해결합니다.
-author: peter-myers
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: troubleshooting
 ms.date: 10/24/2019
-ms.author: v-pemyer
-ms.openlocfilehash: 54091175b49a0465a56a689190965429715a4754
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 943c8283d48b4281d2ddb5d7eeed0e69db4ee6fc
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485556"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96405310"
 ---
 # <a name="troubleshoot-developing-directquery-models-in-power-bi-desktop"></a>Power BI Desktop의 DirectQuery 모델 개발 문제 해결
 
@@ -31,7 +31,7 @@ ms.locfileid: "85485556"
 
 ## <a name="review-trace-files"></a>추적 파일 검토
 
-기본적으로 Power BI Desktop은 지정된 세션 동안 **FlightRecorderCurrent.trc**라는 추적 파일에 이벤트를 기록합니다.
+기본적으로 Power BI Desktop은 지정된 세션 동안 **FlightRecorderCurrent.trc** 라는 추적 파일에 이벤트를 기록합니다.
 
 일부 DirectQuery 원본의 경우 기본 데이터 원본에 보내는 모든 쿼리가 이 로그에 포함됩니다(향후에 나머지 DirectQuery 원본도 지원될 수 있음). 로그에 쿼리를 쓰는 원본은 다음과 같습니다.
 
@@ -44,13 +44,13 @@ ms.locfileid: "85485556"
 
 추적 파일은 현재 사용자의 **AppData** 폴더에 있습니다. _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces_
 
-이 폴더에 쉽게 액세스하려면 Power BI Desktop에서 _파일 > 옵션 및 설정 > 옵션_을 선택한 다음, **진단** 페이지를 선택합니다. 그러면 다음과 같은 대화 상자 창이 표시됩니다.
+이 폴더에 쉽게 액세스하려면 Power BI Desktop에서 _파일 > 옵션 및 설정 > 옵션_ 을 선택한 다음, **진단** 페이지를 선택합니다. 그러면 다음과 같은 대화 상자 창이 표시됩니다.
 
 ![Power BI Desktop 창이 열리고, 전역 진단 페이지를 선택합니다. 진단 옵션 섹션에는 추적 사용 및 지오코딩 캐시 무시라는 두 가지 속성이 있습니다. 추적 사용 옵션을 사용하도록 설정합니다. 크래시 덤프 수집 섹션에는 지금 사용 단추와 크래시 덤프/추적 폴더 열기 링크가 있습니다.](media/desktop-directquery-troubleshoot/desktop-directquery-troubleshoot-desktop-file-options-diagnostics.png)
 
 크래시 덤프 수집 아래에서 **크래시 덤프/추적 폴더 열기** 링크를 선택하면 다음 폴더가 열립니다. _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\Traces_
 
-해당 폴더의 부모 폴더로 이동하면 _AnalysisServicesWorkspaces_가 포함된 폴더가 표시됩니다. 이 폴더에는 열려 있는 Power BI Desktop 인스턴스마다 하나의 작업 영역 하위 폴더가 포함되어 있습니다. 이러한 하위 폴더의 이름은 _AnalysisServicesWorkspace2058279583_와 같이 정수 접미사로 지정됩니다.
+해당 폴더의 부모 폴더로 이동하면 _AnalysisServicesWorkspaces_ 가 포함된 폴더가 표시됩니다. 이 폴더에는 열려 있는 Power BI Desktop 인스턴스마다 하나의 작업 영역 하위 폴더가 포함되어 있습니다. 이러한 하위 폴더의 이름은 _AnalysisServicesWorkspace2058279583_ 와 같이 정수 접미사로 지정됩니다.
 
 해당 폴더 내에는 현재 Power BI 세션의 FlightRecorderCurrent.trc 추적 파일이 포함된 _\Data_ 하위 폴더가 있습니다. 연결된 Power BI Desktop 세션이 끝나면 해당 작업 영역 폴더가 삭제됩니다.
 
@@ -64,7 +64,7 @@ SQL Server Management Studio를 다운로드하여 설치한 후에 SQL Server P
 
 1. SQL Server Profiler에서 _‘파일 > 열기 > 추적’_ 파일을 선택합니다.
 2. 현재 열려 있는 Power BI 세션에 대한 추적 파일의 경로를 입력합니다(예: _\\\<User>\AppData\Local\Microsoft\Power BI Desktop\AnalysisServicesWorkspaces\AnalysisServicesWorkspace2058279583\Data_).
-3. _FlightRecorderCurrent.trc_를 엽니다.
+3. _FlightRecorderCurrent.trc_ 를 엽니다.
 
 현재 세션의 모든 이벤트가 표시됩니다. 주석이 추가된 다음 예제는 이벤트 그룹을 강조 표시하고 있습니다. 각 그룹에 있는 항목은 다음과 같습니다.
 

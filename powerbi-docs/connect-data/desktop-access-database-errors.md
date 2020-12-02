@@ -2,20 +2,20 @@
 title: Power BI Desktop에서 Access 및 .XLS 가져오기 문제 해결
 description: Power BI Desktop 및 파워 쿼리에서 Access 데이터베이스 및 .XLS 스프레드시트 가져오기 문제 해결
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 10/21/2019
-ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 6d3279a8fa8421dbe466d7d165e1cb3d96ab926f
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: f8d24c672fa3e9d5cda007e061eac8c4ea9c6d4c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634760"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96406046"
 ---
 # <a name="troubleshoot-importing-access-and-excel-xls-files-in-power-bi-desktop"></a>Power BI Desktop에서 Access 및 Excel .xls 파일 가져오기 문제 해결
 
@@ -38,7 +38,7 @@ Microsoft Office 설치의 비트 버전과 일치하도록 Power BI Desktop의 
 
 1. Power BI Desktop의 비트 버전을 변경하려면 Power BI Desktop을 제거한 다음 Office 설치와 일치하는 Power BI Desktop의 버전을 설치합니다. 
 
-1. Power BI Desktop 버전을 선택하려면 Power BI Desktop 다운로드 페이지에서 **고급 다운로드 옵션**을 선택합니다.
+1. Power BI Desktop 버전을 선택하려면 Power BI Desktop 다운로드 페이지에서 **고급 다운로드 옵션** 을 선택합니다.
    
    ![Power BI Desktop 다운로드 페이지의 고급 다운로드 옵션](media/desktop-access-database-errors/desktop-access-errors-1.png)
    

@@ -2,19 +2,19 @@
 title: Power BI Desktop에서 SAP Business Warehouse(BW) 커넥터 사용
 description: Power BI Desktop에서 SAP BW Connector 사용
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/13/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1b3250124fa813f3da96e63455d483cf05f01cb6
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 1808638ad0ccaa2adc57d56bf1677dea0ca24440
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91598840"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404666"
 ---
 # <a name="use-the-sap-business-warehouse-connector-in-power-bi-desktop"></a>Power BI Desktop에서 SAP Business Warehouse 커넥터 사용
 
@@ -61,7 +61,7 @@ Power BI Desktop의 버전 1 SAP BW 커넥터를 사용하면 *SAP Business Ware
 
 SAP BW 커넥터 및 DirectQuery를 함께 사용하는 방법에 대해 자세히 알아보려면 [DirectQuery 및 SAP BW(Business Warehouse)](desktop-directquery-sap-bw.md)를 참조하세요.
 
-연결할 때 **서버** , **시스템 번호** , **클라이언트 ID** 를 지정하여 연결을 설정합니다.
+연결할 때 **서버**, **시스템 번호**, **클라이언트 ID** 를 지정하여 연결을 설정합니다.
 
 ![SAP 서버 연결 설정](media/desktop-sap-bw-connector/sap_bw_3a.png)
 
@@ -77,9 +77,9 @@ MDX 문을 지정하지 않으면 서버에서 사용할 수 있는 큐브 목�
 
 **탐색기** 대화 상자는 표시 옵션도 제공합니다.
 
-* **선택한 항목만 표시** . 기본적으로 **탐색기** 는 모든 항목을 표시합니다.  이 옵션은 선택한 항목의 최종 세트를 확인하는 데 유용합니다. 선택한 항목을 보는 다른 방법은 미리 보기 영역에서 열 이름을 선택하는 것입니다.
-* **데이터 미리 보기 사용** . 이 값이 기본값입니다. 데이터 미리 보기를 표시합니다. 데이터 미리 보기를 사용하지 않도록 설정하면 미리 보기를 위한 데이터를 더 이상 요청하지 않으므로 서버 호출 수가 줄어듭니다.
-* **기술 이름** . SAP BW는 큐브 내의 개체에 대한 *기술 이름* 의 개념을 지원합니다. 기술 이름을 사용하면 큐브 소유자가 큐브에 있는 해당 개체의 *물리적 이름* 만 노출하는 것과 달리 큐브 개체의 *식별 이름* 을 노출할 수 있습니다.
+* **선택한 항목만 표시**. 기본적으로 **탐색기** 는 모든 항목을 표시합니다.  이 옵션은 선택한 항목의 최종 세트를 확인하는 데 유용합니다. 선택한 항목을 보는 다른 방법은 미리 보기 영역에서 열 이름을 선택하는 것입니다.
+* **데이터 미리 보기 사용**. 이 값이 기본값입니다. 데이터 미리 보기를 표시합니다. 데이터 미리 보기를 사용하지 않도록 설정하면 미리 보기를 위한 데이터를 더 이상 요청하지 않으므로 서버 호출 수가 줄어듭니다.
+* **기술 이름**. SAP BW는 큐브 내의 개체에 대한 *기술 이름* 의 개념을 지원합니다. 기술 이름을 사용하면 큐브 소유자가 큐브에 있는 해당 개체의 *물리적 이름* 만 노출하는 것과 달리 큐브 개체의 *식별 이름* 을 노출할 수 있습니다.
 
 ![탐색기 창](media/desktop-sap-bw-connector/sap_bw_6.png)
 
@@ -96,7 +96,7 @@ SAP BW 커넥터의 구현 2.0을 사용하려면 새 연결을 만드세요. �
 
 1. **데이터 가져오기** 를 선택합니다. **SAP Business Warehouse 애플리케이션 서버** 또는 **SAP Business Warehouse 메시지 서버** 를 선택한 다음 연결합니다.
 
-2. 새 연결 대화 상자에서 구현을 선택합니다. 다음 그림에 나온 것처럼 **구현** 에서 **2.0** 을 선택하면 **실행 모드** , **일괄 처리 크기** , **특성 구조 사용** 을 사용할 수 있습니다.
+2. 새 연결 대화 상자에서 구현을 선택합니다. 다음 그림에 나온 것처럼 **구현** 에서 **2.0** 을 선택하면 **실행 모드**, **일괄 처리 크기**, **특성 구조 사용** 을 사용할 수 있습니다.
 
     ![SAP 연결 대화 상자](media/desktop-sap-bw-connector/sap_bw_7.png)
 

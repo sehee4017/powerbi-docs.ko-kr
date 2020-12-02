@@ -2,26 +2,26 @@
 title: Power BI에서 SAP HANA 사용
 description: Power BI에서 SAP HANA 사용
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/15/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 69019abf60f2633bcb764b11c0ac3310911fab62
-ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
+ms.openlocfilehash: 708a4439262111954012c944a464dd8e59db8068
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89401936"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404459"
 ---
 # <a name="connect-to-sap-hana-databases-in-power-bi"></a>Power BI에서 SAP HANA 데이터베이스에 연결
 
-Power BI Desktop을 통해 이제 *SAP HANA* 데이터베이스에 액세스할 수 있습니다. SAP HANA를 사용하려면 Power BI Desktop의 SAP HANA 데이터 연결이 제대로 작동해야 하므로 로컬 클라이언트 컴퓨터에 SAP HANA ODBC 드라이버가 설치되어 있어야 합니다. 필요한 ODBC 드라이버가 들어 있는 [SAP Development Tools](https://tools.hana.ondemand.com/#hanatools)에서 SAP HANA 클라이언트 도구를 다운로드할 수 있습니다. 또는 [SAP 소프트웨어 다운로드 센터](https://support.sap.com/en/my-support/software-downloads.html)에서 다운로드할 수 있습니다. 소프트웨어 포털에서 Windows 컴퓨터용 *SAP HANA CLIENT*를 검색해 보세요. SAP 소프트웨어 다운로드 센터는 구조가 자주 변경되기 때문에 더 구체적인 사이트 탐색 지침은 제공할 수 없습니다.
+Power BI Desktop을 통해 이제 *SAP HANA* 데이터베이스에 액세스할 수 있습니다. SAP HANA를 사용하려면 Power BI Desktop의 SAP HANA 데이터 연결이 제대로 작동해야 하므로 로컬 클라이언트 컴퓨터에 SAP HANA ODBC 드라이버가 설치되어 있어야 합니다. 필요한 ODBC 드라이버가 들어 있는 [SAP Development Tools](https://tools.hana.ondemand.com/#hanatools)에서 SAP HANA 클라이언트 도구를 다운로드할 수 있습니다. 또는 [SAP 소프트웨어 다운로드 센터](https://support.sap.com/en/my-support/software-downloads.html)에서 다운로드할 수 있습니다. 소프트웨어 포털에서 Windows 컴퓨터용 *SAP HANA CLIENT* 를 검색해 보세요. SAP 소프트웨어 다운로드 센터는 구조가 자주 변경되기 때문에 더 구체적인 사이트 탐색 지침은 제공할 수 없습니다.
 
-SAP HANA 데이터베이스에 연결하려면 **데이터 가져오기**를 선택하고 **데이터베이스** > **SAP HANA 데이터베이스**를 선택한 후 **연결**을 선택합니다.
+SAP HANA 데이터베이스에 연결하려면 **데이터 가져오기** 를 선택하고 **데이터베이스** > **SAP HANA 데이터베이스** 를 선택한 후 **연결** 을 선택합니다.
 
 ![SAP HANA 데이터베이스, 데이터 대화 상자 가져오기, Power BI Desktop](media/desktop-sap-hana/sap-hana-1.png)
 

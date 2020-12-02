@@ -2,23 +2,23 @@
 title: Power BI Desktop에서 Python을 사용하여 Power BI 시각적 개체 만들기
 description: Python을 사용하여 Power BI 시각적 개체 만들기
 author: otarb
+ms.author: otarb
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 04/03/2020
-ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9609c18ddb75d0149907e15bb770474c7882837b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 721db43250f94301b09535d9844404668af338ba
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223182"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404804"
 ---
 # <a name="create-power-bi-visuals-by-using-python"></a>Python을 사용하여 Power BI 시각적 개체 만들기
 
-*Power BI Desktop*에서 Python을 사용하여 데이터를 시각화할 수 있습니다.
+*Power BI Desktop* 에서 Python을 사용하여 데이터를 시각화할 수 있습니다.
 
 ## <a name="prerequisites"></a>필수 조건
 
@@ -46,17 +46,17 @@ print (df)
 
    ![시각화의 Python 옵션](media/desktop-python-visuals/python-visuals-2.png)
 
-1. 표시되는 **스크립트 시각적 개체 사용** 대화 상자에서 **사용**을 선택합니다.
+1. 표시되는 **스크립트 시각적 개체 사용** 대화 상자에서 **사용** 을 선택합니다.
 
     보고서에 Python 시각적 개체를 추가하면 Power BI Desktop이 다음 작업을 수행합니다.
 
     - 자리 표시자 Python 시각적 개체 이미지가 보고서 캔버스에 나타납니다.
 
-    - 가운데 창의 아래쪽을 따라 **Python 스크립트 편집기**가 나타납니다.
+    - 가운데 창의 아래쪽을 따라 **Python 스크립트 편집기** 가 나타납니다.
 
     ![Python 스크립트 편집기에서 스크립트 실행](media/desktop-python-visuals/python-visuals-3.png)
 
-1. 다음으로, **Age**, **Children**, **Fname**, **Gender**, **Pets**, **State**, **Weight** 필드를 **여기에 데이터 필드 추가**라고 표시된 **값** 섹션으로 끕니다.
+1. 다음으로, **Age**, **Children**, **Fname**, **Gender**, **Pets**, **State**, **Weight** 필드를 **여기에 데이터 필드 추가** 라고 표시된 **값** 섹션으로 끕니다.
 
     ![여기에 데이터 필드 추가로 끌기](media/desktop-python-visuals/python-visuals-15.png)
 
@@ -84,16 +84,16 @@ print (df)
 
    각 이름을 사용하여 데이터 세트의 열에 액세스할 수 있습니다. 예를 들어 Python 스크립트에서 `dataset["Age"]`를 코딩하면 Age 필드에 액세스할 수 있습니다.
 
-1. 선택한 필드에 의해 데이터 프레임이 자동으로 생성되면 Python 기본 디바이스에 그림으로 표시될 Python 스크립트 작성 준비가 완료된 것입니다. 스크립트가 완료되면, **Python 스크립트 편집기** 제목 표시줄에서 **실행**을 선택합니다.
+1. 선택한 필드에 의해 데이터 프레임이 자동으로 생성되면 Python 기본 디바이스에 그림으로 표시될 Python 스크립트 작성 준비가 완료된 것입니다. 스크립트가 완료되면, **Python 스크립트 편집기** 제목 표시줄에서 **실행** 을 선택합니다.
 
    다음과 같은 이벤트가 발생하면 Power BI Desktop에서 시각적 개체를 다시 그립니다.
 
-   - **Python 스크립트 편집기** 제목 표시줄에서 **스크립트 실행**을 선택할 때
+   - **Python 스크립트 편집기** 제목 표시줄에서 **스크립트 실행** 을 선택할 때
    - 데이터 새로 고침, 필터링 또는 강조 표시로 인해 데이터가 변경될 때마다
 
-   오류가 발생하는 Python 스크립트를 실행하면 Python 시각적 개체가 그려지지 않고 캔버스 오류 메시지가 나타납니다. 오류 정보를 보려면 메시지에서 **세부 정보 보기**를 선택합니다.
+   오류가 발생하는 Python 스크립트를 실행하면 Python 시각적 개체가 그려지지 않고 캔버스 오류 메시지가 나타납니다. 오류 정보를 보려면 메시지에서 **세부 정보 보기** 를 선택합니다.
 
-   시각화 요소를 더 크게 보려면 **Python 스크립트 편집기**를 최소화하면 됩니다.
+   시각화 요소를 더 크게 보려면 **Python 스크립트 편집기** 를 최소화하면 됩니다.
 
 몇 개의 시각적 개체를 만들어 봅시다.
 

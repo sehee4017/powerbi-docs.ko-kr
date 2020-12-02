@@ -6,16 +6,16 @@ ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 07/16/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 5d5647216caee4eae648d0be0ebf3f453cd17d71
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 7015eb1298649534a6e93cb9d6671250c6c77b94
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633004"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96406368"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>URL에 쿼리 문자열 매개 변수를 사용하여 보고서 필터링
 
@@ -39,15 +39,15 @@ Power BI Desktop에서 작업 중이라고 가정합니다. 다른 Power BI 보�
 
 ![필터가 있는 URL의 스크린샷.](media/service-url-filters/power-bi-filter-urls7b.png)
 
-* **테이블** 및 **필드** 이름은 대소문자를 구분하고, **값**은 구분하지 않습니다.
+* **테이블** 및 **필드** 이름은 대소문자를 구분하고, **값** 은 구분하지 않습니다.
 * 보고서 보기에서 숨겨진 필드는 계속 필터링할 수 있습니다.
 
 ### <a name="field-types"></a>필드 형식
 
 필드 형식은 숫자, 날짜/시간 또는 문자열일 수 있고 사용된 형식은 데이터 세트에서 설정된 형식과 일치해야 합니다.  예를 들어 날짜로 설정된 데이터 세트 열에서 날짜/시간 또는 숫자 값을 찾으려는 경우(예: Table/StringColumn eq 1) “string” 형식의 테이블 열을 지정하는 작업은 작동하지 않습니다.
 
-* **문자열**은 ‘manager name’과 같이 작은따옴표로 묶여야 합니다.
-* **숫자**에는 특별한 서식 지정이 필요하지 않습니다. 자세한 내용은 이 문서의 [숫자 데이터 형식](#numeric-data-types)을 참조하세요.
+* **문자열** 은 ‘manager name’과 같이 작은따옴표로 묶여야 합니다.
+* **숫자** 에는 특별한 서식 지정이 필요하지 않습니다. 자세한 내용은 이 문서의 [숫자 데이터 형식](#numeric-data-types)을 참조하세요.
 * **날짜 및 시간** 이 문서의 [Date 데이터 형식](#date-data-types)을 참조하세요. 
 
 여전히 혼동되는 경우 계속 읽어 보고 자세히 분석합니다.  
@@ -58,7 +58,7 @@ Power BI Desktop에서 작업 중이라고 가정합니다. 다른 Power BI 보�
 
 ![시작 URL의 스크린샷](media/service-url-filters/power-bi-filter-urls6.png)
 
-North Carolina에 매장이 있다는 것을 위의 맵 시각화에서 확인할 수 있습니다. *NC*는 **Store** 테이블의 **Territory** 필드에서 North Carolina를 나타내는 값입니다. 따라서 "NC"의 매장에 대한 데이터만 표시하도록 보고서를 필터링하려면 다음 문자열을 URL에 추가합니다.
+North Carolina에 매장이 있다는 것을 위의 맵 시각화에서 확인할 수 있습니다. *NC* 는 **Store** 테이블의 **Territory** 필드에서 North Carolina를 나타내는 값입니다. 따라서 "NC"의 매장에 대한 데이터만 표시하도록 보고서를 필터링하려면 다음 문자열을 URL에 추가합니다.
 
 ```
 ?filter=Store/Territory eq 'NC'
@@ -114,7 +114,7 @@ Power BI는 **and** 외에도 많은 연산자를 지원합니다. 아래 표에
 |**in\*\***     |  포함       | 예 | 예 |  예 | Student/Age in (27, 29)
 
 
-\*\***in**을 사용하는 경우 **in**의 오른쪽 값은 괄호로 묶이고 쉼표로 구분된 목록 또는 컬렉션을 반환하는 단일 식일 수 있습니다.
+\*\***in** 을 사용하는 경우 **in** 의 오른쪽 값은 괄호로 묶이고 쉼표로 구분된 목록 또는 컬렉션을 반환하는 단일 식일 수 있습니다.
 
 ### <a name="numeric-data-types"></a>숫자 데이터 형식
 
@@ -146,7 +146,7 @@ V3와 V4 사이에는 다른 점이 있습니다. OData V3는 날짜를 지원�
 
 ### <a name="special-characters-in-table-and-column-names"></a>테이블 및 열 이름의 특수 문자
 
-테이블 및 열 이름의 특수 문자와 공백에는 몇 가지 추가 서식 지정이 필요합니다. 쿼리에 공백, 대시 또는 기타 ASCII 문자가 아닌 문자가 포함되는 경우 밑줄과 X로 시작하는 ‘이스케이프 코드’( **_x**) 및 4자리 **유니코드**와 그 뒤에 다른 밑줄을 붙여 해당 특수 문자의 접두사를 지정합니다. 유니코드가 4자 미만인 경우 0으로 채워야 합니다. 몇 가지 예제는 다음과 같습니다.
+테이블 및 열 이름의 특수 문자와 공백에는 몇 가지 추가 서식 지정이 필요합니다. 쿼리에 공백, 대시 또는 기타 ASCII 문자가 아닌 문자가 포함되는 경우 밑줄과 X로 시작하는 ‘이스케이프 코드’( **_x**) 및 4자리 **유니코드** 와 그 뒤에 다른 밑줄을 붙여 해당 특수 문자의 접두사를 지정합니다. 유니코드가 4자 미만인 경우 0으로 채워야 합니다. 몇 가지 예제는 다음과 같습니다.
 
 |식별자  |유니코드  | Power BI용 코딩  |
 |---------|---------|---------|
@@ -172,11 +172,11 @@ URL 필터는 작은따옴표(')를 제외하고 필드 값의 모든 특수 문
 
 - `?filter=Table/Name eq 'Lee''s Summit'`은 다음과 같습니다.
 
-    :::image type="content" source="media/service-url-filters/power-bi-url-filter-lees.png" alt-text="Name is O'Brien":::
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-lees.png" alt-text="Lee 's Summit":::
 
 - `in` 연산자는 이 이스케이프도 지원합니다. `?filter=Table/Name in ('Lee''s Summit', 'O''Brien')`은 다음과 같습니다.
 
-    :::image type="content" source="media/service-url-filters/power-bi-url-filter-in.png" alt-text="Name is O'Brien":::
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-in.png" alt-text="Lee's Summit 또는 O'Brien":::
 
 ## <a name="use-dax-to-filter-on-multiple-values"></a>DAX를 사용하여 여러 값을 필터링
 
@@ -202,7 +202,7 @@ https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/R
 
 쿼리 문자열 매개 변수를 사용할 때 알아야 할 몇 가지 사항이 있습니다.
 
-* *in* 연산자를 사용하는 경우 *in*의 오른쪽에 있는 값은 괄호로 묶이고 쉼표로 구분된 목록이어야 합니다.    
+* *in* 연산자를 사용하는 경우 *in* 의 오른쪽에 있는 값은 괄호로 묶이고 쉼표로 구분된 목록이어야 합니다.    
 * 또한 Power BI Report Server는 “필터” URL 매개 변수를 사용하여 추가 필터를 지정하는 기능을 제공합니다. Power BI Report Server에서 URL은 다음과 같이 표시됩니다. `https://reportserver/reports/powerbi/Store Sales?rs:Embed=true&filter= Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'`
 * 보고서 URL 필터에는 10개 식 제한(AND로 연결된 10개의 필터)이 있습니다.
 * JavaScript 제한 때문에 Long 데이터 형식은 (2^53-1)입니다.

@@ -2,38 +2,38 @@
 title: Power BI Desktop에서 DirectQuery 사용
 description: Power BI Desktop에서 DirectQuery(라이브 연결이라고도 함) 사용
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 08/28/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b31ddb3e3881f9002affcae9106b9e14bf85a964
-ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
+ms.openlocfilehash: 4619219705a80b53883a9b0578791a60a853125e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "89092317"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404229"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Power BI Desktop에서 DirectQuery 사용
-*Power BI Desktop*을 사용하면 데이터 원본에 연결할 때 항상 데이터의 복사본을 Power BI Desktop으로 가져올 수 있습니다. 일부 데이터 원본의 경우 DirectQuery를 사용하여 데이터 원본에 직접 연결하는 것과 같은 다른 방법을 사용할 수 있습니다.
+*Power BI Desktop* 을 사용하면 데이터 원본에 연결할 때 항상 데이터의 복사본을 Power BI Desktop으로 가져올 수 있습니다. 일부 데이터 원본의 경우 DirectQuery를 사용하여 데이터 원본에 직접 연결하는 것과 같은 다른 방법을 사용할 수 있습니다.
 
 ## <a name="supported-data-sources"></a>지원되는 데이터 원본
 DirectQuery를 지원하는 데이터 원본의 전체 목록을 보려면 [DirectQuery에서 지원하는 데이터 원본](power-bi-data-sources.md)을 참조하세요.
 
 ## <a name="how-to-connect-using-directquery"></a>DirectQuery를 사용하여 연결하는 방법
-**데이터 가져오기**를 사용하여 DirectQuery에서 지원하는 데이터 원본에 연결하는 경우 연결 대화 상자에서 연결할 방법을 선택할 수 있습니다. 예를 들어 Power BI Desktop의 **홈** 리본에서 **데이터 가져오기** > **SQL Server**를 선택합니다. **SQL Server 데이터베이스** 대화 상자의 **데이터 연결 모드**는 **가져오기** 및 **DirectQuery** 옵션을 보여 줍니다.
+**데이터 가져오기** 를 사용하여 DirectQuery에서 지원하는 데이터 원본에 연결하는 경우 연결 대화 상자에서 연결할 방법을 선택할 수 있습니다. 예를 들어 Power BI Desktop의 **홈** 리본에서 **데이터 가져오기** > **SQL Server** 를 선택합니다. **SQL Server 데이터베이스** 대화 상자의 **데이터 연결 모드** 는 **가져오기** 및 **DirectQuery** 옵션을 보여 줍니다.
 
 ![가져오기 및 DirectQuery 옵션, SQL Server 데이터베이스 대화 상자, Power BI Desktop](media/desktop-use-directquery/directquery_sqlserverdb.png)
 
-**가져오기**와 **DirectQuery** 선택 간의 차이점은 다음과 같습니다.
+**가져오기** 와 **DirectQuery** 선택 간의 차이점은 다음과 같습니다.
 
 - **가져오기**: 선택한 테이블 및 열을 Power BI Desktop에 가져옵니다. 시각화를 만들거나 상호 작용할 때 Power BI Desktop은 가져온 데이터를 사용합니다. 초기 가져오기 또는 최신 새로 고침 이후의 기본 데이터 변경 내용을 확인하려면 데이터를 새로 고쳐 전체 데이터 세트를 다시 가져와야 합니다.
 
 - **DirectQuery**: Power BI Desktop에 데이터를 가져오거나 복사하지 않습니다. 관계형 원본의 경우 선택한 테이블 및 열이 **필드** 목록에 표시됩니다. SAP Business Warehouse와 같은 다차원 원본의 경우 선택한 큐브의 차원 및 측정값이 **필드** 목록에 나타납니다. 시각화를 만들거나 조작하는 경우 Power BI Desktop은 기본 데이터 원본을 쿼리하므로 항상 현재 데이터를 볼 수 있습니다.
 
-여러 데이터 모델링 및 데이터 변환은 몇 가지 제한 사항이 있기는 하지만 DirectQuery를 사용하는 경우 사용 가능합니다. 시각화를 만들거나 조작하는 경우 기본 원본을 쿼리해야 합니다. 시각화를 새로 고치는 데 필요한 시간은 기본 데이터 원본의 성능에 따라 달라집니다. 요청에 서비스를 제공하는 데 필요한 데이터가 최근에 요청된 경우 Power BI Desktop은 최신 데이터를 사용하여 시각화를 표시하는 데 필요한 시간을 줄입니다. **홈** 리본에서 **새로 고침**을 선택하면 모든 시각화가 최신 데이터로 새로 고쳐집니다.
+여러 데이터 모델링 및 데이터 변환은 몇 가지 제한 사항이 있기는 하지만 DirectQuery를 사용하는 경우 사용 가능합니다. 시각화를 만들거나 조작하는 경우 기본 원본을 쿼리해야 합니다. 시각화를 새로 고치는 데 필요한 시간은 기본 데이터 원본의 성능에 따라 달라집니다. 요청에 서비스를 제공하는 데 필요한 데이터가 최근에 요청된 경우 Power BI Desktop은 최신 데이터를 사용하여 시각화를 표시하는 데 필요한 시간을 줄입니다. **홈** 리본에서 **새로 고침** 을 선택하면 모든 시각화가 최신 데이터로 새로 고쳐집니다.
 
 [Power BI 및 DirectQuery](desktop-directquery-about.md) 문서에는 DirectQuery가 자세히 설명되어 있습니다. DirectQuery를 사용하는 경우의 이점과 제한 사항, 중요 고려 사항에 대한 자세한 내용은 다음 섹션을 참조하세요.
 
@@ -47,7 +47,7 @@ DirectQuery를 사용하는 경우 다음과 같은 몇 가지 이점이 있습�
 ## <a name="limitations-of-directquery"></a>DirectQuery의 제한 사항
 현재 DirectQuery 사용에는 다음과 같은 몇 가지 제한 사항이 있습니다.
 
-- **쿼리 편집기** 쿼리가 너무 복잡하면 오류가 발생합니다. 오류를 수정하려면 **쿼리 편집기**에서 문제가 되는 단계를 삭제하거나 DirectQuery를 사용하지 않고 데이터를 ‘가져옵니다’. SAP Business Warehouse와 같은 다차원 원본의 경우 **쿼리 편집기**가 없습니다.
+- **쿼리 편집기** 쿼리가 너무 복잡하면 오류가 발생합니다. 오류를 수정하려면 **쿼리 편집기** 에서 문제가 되는 단계를 삭제하거나 DirectQuery를 사용하지 않고 데이터를 ‘가져옵니다’. SAP Business Warehouse와 같은 다차원 원본의 경우 **쿼리 편집기** 가 없습니다.
 
 - 시간 인텔리전스 기능은 DirectQuery에서 사용할 수 없습니다. 예를 들어 DirectQuery 모드에서는 날짜 열(예: 년, 분기, 월 또는 일)에 대한 특별 작업이 지원되지 않습니다.
 
@@ -73,7 +73,7 @@ DirectQuery를 사용하는 경우 다음 세 가지 사항을 고려해야 합�
     The resultset of a query to external data source has exceeded
     ```
   
-    이 상황은 집계 옵션이 **요약하지 않음**으로 설정된 매우 높은 카디널리티 열을 포함하는 간단한 차트로 발생할 수 있습니다. 시각적 개체에는 카디널리티가 백만 개 미만인 열만 있어야 하거나 적절한 필터가 적용되어야 합니다.
+    이 상황은 집계 옵션이 **요약하지 않음** 으로 설정된 매우 높은 카디널리티 열을 포함하는 간단한 차트로 발생할 수 있습니다. 시각적 개체에는 카디널리티가 백만 개 미만인 열만 있어야 하거나 적절한 필터가 적용되어야 합니다.
 
 - **보안**: 기본적으로 게시된 보고서를 사용하는 모든 사용자는 Power BI 서비스에 게시 후 입력한 자격 증명을 사용하여 백 엔드 데이터 원본에 연결합니다. 이 프로세스는 가져온 데이터의 경우에도 동일합니다. 모든 사용자는 백 엔드 원본에 정의된 보안 규칙에 관계없이 동일한 데이터를 봅니다.
 
@@ -94,11 +94,11 @@ DirectQuery를 사용하여 만든 보고서는 Power BI 서비스에 게시할 
 
     ![설정, Power BI 서비스](media/desktop-use-directquery/directquery_pbiservicesettings.png)
 
-3. Power BI 서비스의 **설정** 페이지에서 **데이터 세트** 탭을 선택하고 DirectQuery를 사용하는 데이터 세트를 선택한 후 **자격 증명 편집**을 선택합니다.
+3. Power BI 서비스의 **설정** 페이지에서 **데이터 세트** 탭을 선택하고 DirectQuery를 사용하는 데이터 세트를 선택한 후 **자격 증명 편집** 을 선택합니다.
 
 4. 자격 증명을 추가합니다. 그렇지 않으면 게시된 보고서를 열거나 DirectQuery 연결을 사용하여 만든 데이터 세트를 탐색할 때 오류가 발생합니다.
 
-DirectQuery를 사용하는 **Azure SQL Database**, **Azure SQL Data Warehouse** 및 **Redshift** 또는 **Snowflake Data Warehouse** 이외의 데이터 원본에 대해 데이터 연결을 설정하려면 **온-프레미스 데이터 게이트웨이**를 설치하고 데이터 원본을 등록합니다. 자세한 내용은 [온-프레미스 데이터 게이트웨이란?](service-gateway-onprem.md)을 참조하세요.
+DirectQuery를 사용하는 **Azure SQL Database**, **Azure SQL Data Warehouse** 및 **Redshift** 또는 **Snowflake Data Warehouse** 이외의 데이터 원본에 대해 데이터 연결을 설정하려면 **온-프레미스 데이터 게이트웨이** 를 설치하고 데이터 원본을 등록합니다. 자세한 내용은 [온-프레미스 데이터 게이트웨이란?](service-gateway-onprem.md)을 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 DirectQuery에 대한 자세한 내용은 다음 리소스를 참조하세요.

@@ -2,19 +2,19 @@
 title: 조직 콘텐츠 팩에서 연결 끊기 - Power BI
 description: Power BI에서 해당 데이터 세트를 삭제하여 연결을 조직 콘텐츠 팩으로 제거에 대해 알아보세요.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 08/02/2018
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 031feb65d3a99dd18a7d47b44af1f346859d32d1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5cd1ebd1502241cf07e7de8cff5f0eb769a1b59f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225776"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96406414"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>Power BI 조직 콘텐츠 팩에 대한 연결 제거
 
@@ -26,7 +26,7 @@ ms.locfileid: "85225776"
 
 콘텐츠 팩을 제거하려면 해당 데이터 세트를 제거합니다.  
 
-* 탐색 창에서 데이터 세트 오른쪽에 있는 줄임표를 선택하고 **제거 \> 예**를 선택합니다.  
+* 탐색 창에서 데이터 세트 오른쪽에 있는 줄임표를 선택하고 **제거 \> 예** 를 선택합니다.  
   
   ![콘텐츠 팩 제거](media/service-organizational-content-pack-disconnect/power-bi-remove-organizational-content-pack-dataset.png)
 

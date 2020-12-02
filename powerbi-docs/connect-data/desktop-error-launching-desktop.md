@@ -2,23 +2,23 @@
 title: Power BI Desktop을 시작할 때 발생하는 문제 해결
 description: Power BI Desktop을 시작할 때 발생하는 문제 해결
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: troubleshooting
 ms.date: 01/14/2020
-ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: ba59a08ee1b50e44af71312a25d77fb67c8fca2d
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 8d33973f1a11050d104399c98866fdae0ffb1f8a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485441"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404896"
 ---
 # <a name="troubleshoot-opening-power-bi-desktop"></a>Power BI Desktop 열기 문제 해결
 
-Power BI Desktop에서 이전 버전의 *Power BI 온-프레미스 데이터 게이트웨이*를 설치하고 실행하는 사용자는 Power BI 온-프레미스 게이트웨이가 로컬 컴퓨터의 명명된 파이프에 설정하는 관리 정책 제한 때문에 Power BI Desktop을 열지 못할 수 있습니다.
+Power BI Desktop에서 이전 버전의 *Power BI 온-프레미스 데이터 게이트웨이* 를 설치하고 실행하는 사용자는 Power BI 온-프레미스 게이트웨이가 로컬 컴퓨터의 명명된 파이프에 설정하는 관리 정책 제한 때문에 Power BI Desktop을 열지 못할 수 있습니다.
 
 ## <a name="resolve-issues-with-the-on-premises-data-gateway-and-power-bi-desktop"></a>온-프레미스 데이터 게이트웨이 및 Power BI Desktop 문제 해결
 
@@ -56,4 +56,4 @@ Power BI Desktop에서 발생하는 문제를 최대한 처리하려고 노력�
 
 Power BI Desktop 열기 관련 문제가 온-프레미스 데이터 게이트웨이와 관련이 없거나 앞의 해결 방법이 효과가 없는 경우 *Power BI 지원팀*(<https://support.powerbi.com>)에 인시던트를 제출하여 문제를 식별하고 해결할 수 있습니다.
 
-향후 Power BI Desktop와 관련된 다른 문제가 발생할 경우에 대비하여 추적을 설정하고 로그 파일을 수집하는 것이 좋습니다. 로그 파일은 문제를 격리하고 식별하는 데 도움이 됩니다. 추적을 설정하려면 **파일** > **옵션 및 설정** > **옵션**을 선택하고 **진단**을 선택한 다음 **추적 사용**을 선택합니다. 이 옵션을 설정하려면 Power BI Desktop이 실행 중이어야 하지만 Power BI Desktop 열기와 관련된 이후 문제에 유용합니다.
+향후 Power BI Desktop와 관련된 다른 문제가 발생할 경우에 대비하여 추적을 설정하고 로그 파일을 수집하는 것이 좋습니다. 로그 파일은 문제를 격리하고 식별하는 데 도움이 됩니다. 추적을 설정하려면 **파일** > **옵션 및 설정** > **옵션** 을 선택하고 **진단** 을 선택한 다음 **추적 사용** 을 선택합니다. 이 옵션을 설정하려면 Power BI Desktop이 실행 중이어야 하지만 Power BI Desktop 열기와 관련된 이후 문제에 유용합니다.

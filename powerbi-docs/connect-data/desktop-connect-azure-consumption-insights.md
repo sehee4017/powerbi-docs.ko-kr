@@ -2,20 +2,20 @@
 title: Power BI Desktop에서 Azure Consumption Insights 데이터에 연결
 description: Power BI Desktop을 사용하여 쉽게 Azure에 연결 및 소비 및 사용량에 대한 정보 얻기
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 10/14/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7d036af591ae9c5fc44370085480c9266e328745
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: d400684358e5992d9c29e2c5838ca777e3695cf5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91632598"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96406092"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Power BI Desktop에서 Azure Consumption Insights 데이터에 연결
 
@@ -32,19 +32,19 @@ Azure Consumption Insights를 사용하면 Azure Enterprise Agreement 청구 계
 
 **Azure Consumption Insights** 커넥터를 사용하려면 Azure Portal의 엔터프라이즈 기능에 액세스해야 합니다.
 
-**Power BI Desktop**에서 **Azure Consumption Insights** 커넥터를 사용하려면 다음을 수행합니다. 
+**Power BI Desktop** 에서 **Azure Consumption Insights** 커넥터를 사용하려면 다음을 수행합니다. 
 
-1. **홈** 리본에서 **데이터 가져오기**를 선택합니다.
+1. **홈** 리본에서 **데이터 가져오기** 를 선택합니다.
 
-1. 왼쪽 범주에서 **온라인 서비스**를 선택합니다.  
+1. 왼쪽 범주에서 **온라인 서비스** 를 선택합니다.  
 
 1. **Microsoft Azure Consumption Insights(베타)** 를 선택합니다. 
 
-1. **연결**을 선택합니다.
+1. **연결** 을 선택합니다.
 
    ![Microsoft Azure Consumption Insights 대화 상자의 스크린샷 연결을 선택합니다.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_01b.png)
 
-   표시되는 대화 상자에서 **Azure 등록 번호**를 입력합니다.
+   표시되는 대화 상자에서 **Azure 등록 번호** 를 입력합니다.
 
    ![Azure 등록 번호를 입력하는 대화 상자의 스크린샷](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_02.png)
 
@@ -54,7 +54,7 @@ Azure Consumption Insights를 사용하면 Azure Enterprise Agreement 청구 계
 
    이 커넥터 버전은 https://ea.azure.com 에서 엔터프라이즈 등록을 지원합니다. 중국 등록은 현재 지원되지 않습니다.
 
-   다음으로 연결할 *선택키*를 제공합니다.
+   다음으로 연결할 *선택키* 를 제공합니다.
 
    ![Microsoft Azure Consumption Insights에 연결하기 위해 액세스 키를 입력하는 대화 상자의 스크린샷](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_03.png)
 
@@ -62,7 +62,7 @@ Azure Consumption Insights를 사용하면 Azure Enterprise Agreement 청구 계
 
   ![등록 액세스 키를 보여 주는 Azure Enterprise Portal의 스크린샷](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
-‘액세스 키’를 제공하고 **연결**을 선택하면 **탐색기** 창이 나타나고, 사용 가능한 9개 테이블이 표시됩니다.
+‘액세스 키’를 제공하고 **연결** 을 선택하면 **탐색기** 창이 나타나고, 사용 가능한 9개 테이블이 표시됩니다.
 
 | 테이블        | 설명 |
 |------------- | -------------------------------------------------------------|
@@ -76,16 +76,16 @@ Azure Consumption Insights를 사용하면 Azure Enterprise Agreement 청구 계
 | **Summaries** | 잔액, 새 구매, Azure Marketplace 서비스 요금, 조정, 초과분 요금의 월별 요약입니다. |
 | **UsageDetails** | 소비된 수량 분석 및 예상 등록 요금입니다. |
 
-테이블 옆에 있는 확인란을 선택하여 미리 보기를 확인할 수 있습니다. 해당 이름 옆에 있는 확인란을 선택하여 하나 이상의 테이블을 선택한 다음 **로드**를 선택할 수 있습니다.
+테이블 옆에 있는 확인란을 선택하여 미리 보기를 확인할 수 있습니다. 해당 이름 옆에 있는 확인란을 선택하여 하나 이상의 테이블을 선택한 다음 **로드** 를 선택할 수 있습니다.
 
 ![사용 가능한 모든 테이블을 보여 주는 탐색기 대화 상자의 스크린샷](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04b.png)
 
 > [!NOTE]
-> *요약* 및 *가격표* 테이블은 등록 수준 API 키에 사용할 수 있습니다. 또한 이러한 테이블의 데이터에는 기본적으로 *사용량* 및 *PriceSheet*의 현재 달의 데이터가 있습니다. *요약* 및 *MarketPlace* 테이블은 현재 월에 제한되지 않습니다.
+> *요약* 및 *가격표* 테이블은 등록 수준 API 키에 사용할 수 있습니다. 또한 이러한 테이블의 데이터에는 기본적으로 *사용량* 및 *PriceSheet* 의 현재 달의 데이터가 있습니다. *요약* 및 *MarketPlace* 테이블은 현재 월에 제한되지 않습니다.
 >
 >
 
-**로드**를 선택하면, 데이터가 **Power BI Desktop**에 로드됩니다.
+**로드** 를 선택하면, 데이터가 **Power BI Desktop** 에 로드됩니다.
 
 ![데이터가 로드되면 표시되는 대화 상자의 스크린샷](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
 
@@ -96,21 +96,21 @@ Azure Consumption Insights를 사용하면 Azure Enterprise Agreement 청구 계
 ## <a name="using-azure-consumption-insights"></a>Azure Consumption Insights 사용
 **Azure Consumption Insights** 커넥터를 사용하려면 Azure Portal의 엔터프라이즈 기능에 액세스합니다.
 
-**Azure Consumption Insights** 커넥터를 사용하여 데이터를 성공적으로 로드하면 **쿼리 편집기**를 사용하여 고유한 사용자 지정 측정값 및 열을 만들 수 있습니다. **Power BI 서비스**에서 공유할 시각적 개체, 보고서 및 대시보드를 만들 수도 있습니다.
+**Azure Consumption Insights** 커넥터를 사용하여 데이터를 성공적으로 로드하면 **쿼리 편집기** 를 사용하여 고유한 사용자 지정 측정값 및 열을 만들 수 있습니다. **Power BI 서비스** 에서 공유할 시각적 개체, 보고서 및 대시보드를 만들 수도 있습니다.
 
 빈 쿼리를 사용하여 샘플 Azure 사용자 지정 쿼리 컬렉션을 검색할 수 있습니다. 이 검색을 수행하는 방법에는 다음 두 가지가 있습니다. 
 
-**Power BI Desktop**에서 다음을 수행합니다. 
+**Power BI Desktop** 에서 다음을 수행합니다. 
 
 1. **홈** 리본을 선택합니다. 
-2. **데이터 가져오기** > **빈 쿼리**를 선택합니다. 
+2. **데이터 가져오기** > **빈 쿼리** 를 선택합니다. 
 
-또는 **쿼리 편집기**에서 다음을 수행합니다. 
+또는 **쿼리 편집기** 에서 다음을 수행합니다. 
 
 1. 왼쪽 **쿼리** 창에서 마우스 오른쪽 단추를 클릭합니다. 
-2. 표시되는 메뉴에서 **새 쿼리 > 빈 쿼리**를 선택합니다.
+2. 표시되는 메뉴에서 **새 쿼리 > 빈 쿼리** 를 선택합니다.
 
-**수식 입력줄**에서 *= MicrosoftAzureConsumptionInsights.Contents*를 입력합니다.
+**수식 입력줄** 에서 *= MicrosoftAzureConsumptionInsights.Contents* 를 입력합니다.
 
 다음 그림은 표시되는 샘플 컬렉션을 보여 줍니다.
 
@@ -118,26 +118,26 @@ Azure Consumption Insights를 사용하면 Azure Enterprise Agreement 청구 계
 
 보고서를 사용하고 쿼리를 만들 때, 다음을 수행할 수 있습니다.
 
-* 현재 날짜부터 시작하여 개월 수를 정의하려면 *numberOfMonth*를 사용합니다.
+* 현재 날짜부터 시작하여 개월 수를 정의하려면 *numberOfMonth* 를 사용합니다.
   * 1에서 36 사이의 값을 사용합니다. 현재 날짜에서 가져오려는 개월 수를 나타냅니다. 12개월 이하의 데이터를 가져오는 것이 좋습니다. 이 한도는 Power BI 쿼리 가져오기 제약 조건 및 데이터 볼륨 임계값을 방지합니다.
-* 기록 시간 창에서 일정 기간을 정의하려면 *startBillingDataWindow* 및 *endBillingDataWindow*를 사용합니다.
+* 기록 시간 창에서 일정 기간을 정의하려면 *startBillingDataWindow* 및 *endBillingDataWindow* 를 사용합니다.
 * ‘startBillingDataWindow’ 또는 ‘endBillingDataWindow’와 함께 ‘numberOfMonth’를 사용하지 않습니다.  
 
 ## <a name="migrate-from-the-azure-enterprise-connector"></a>Azure 엔터프라이즈 커넥터에서 마이그레이션
 
 일부 고객이 ‘Azure 엔터프라이즈 커넥터(베타)’를 사용하여 시각적 개체를 만들었습니다. 결국, **Azure Consumption Insights** 커넥터로 바뀔 예정입니다. 새 커넥터에는 다음과 같은 기능과 개선 사항이 있습니다.
 
-* *균형 요약* 및 *Marketplace 구매*에 사용할 수 있는 추가 데이터 원본
-* *startBillingDataWindow* 및 *endBillingDataWindow*와 같은 새 고급 매개 변수
+* *균형 요약* 및 *Marketplace 구매* 에 사용할 수 있는 추가 데이터 원본
+* *startBillingDataWindow* 및 *endBillingDataWindow* 와 같은 새 고급 매개 변수
 * 성능 및 응답성 향상
 
 다음 단계에서는 **Azure Consumption Insights** 커넥터로 전환하는 방법을 보여 줍니다. 이러한 단계는 사용자 지정 대시보드 또는 보고서를 만들 때 이미 수행한 작업을 유지합니다.
 
 ### <a name="step-1-connect-to-azure-using-the-new-connector"></a>1단계: 새 커넥터를 사용하여 Azure에 연결
-첫 번째 단계는 이 문서의 앞부분에서 자세히 설명한 **Azure Consumption Insights** 커넥터를 사용하는 것입니다. 이 단계에서 **Power BI Desktop**의 **홈** 리본에서 **데이터 가져오기 > 빈 쿼리**를 선택합니다.
+첫 번째 단계는 이 문서의 앞부분에서 자세히 설명한 **Azure Consumption Insights** 커넥터를 사용하는 것입니다. 이 단계에서 **Power BI Desktop** 의 **홈** 리본에서 **데이터 가져오기 > 빈 쿼리** 를 선택합니다.
 
 ### <a name="step-2-create-a-query-in-advanced-editor"></a>2단계: 고급 편집기에서 쿼리 만들기
-**쿼리 편집기**에서 **홈** 리본의 **쿼리** 섹션에 있는 **고급 편집기**를 선택합니다. **고급 편집기** 창이 나타나면 다음 쿼리를 입력합니다.
+**쿼리 편집기** 에서 **홈** 리본의 **쿼리** 섹션에 있는 **고급 편집기** 를 선택합니다. **고급 편집기** 창이 나타나면 다음 쿼리를 입력합니다.
 
 ```console
 let    
@@ -152,7 +152,7 @@ in
 
 *enrollmentNumber* 값을 해당 등록 번호로 바꾸어야 합니다. [Azure Enterprise Portal](https://ea.azure.com)에서 번호를 확인할 수 있습니다. *numberOfMonth* 매개 변수는 현재 데이터에서 돌아가려는 데이터 개월 수입니다. 이번 달에 0을 사용합니다.
 
-**고급 편집기** 창에서 **완료**를 선택하면, 미리 보기가 새로 고쳐지고 지정된 월 범위의 데이터가 테이블에 표시됩니다. **닫기 및 적용**을 선택하고 반환합니다.
+**고급 편집기** 창에서 **완료** 를 선택하면, 미리 보기가 새로 고쳐지고 지정된 월 범위의 데이터가 테이블에 표시됩니다. **닫기 및 적용** 을 선택하고 반환합니다.
 
 ### <a name="step-3-move-measures-and-custom-columns-to-the-new-report"></a>3단계: 새 보고서에 측정값 및 사용자 지정 열 이동
 다음으로, 직접 만든 사용자 지정 열이나 측정값을 새로운 세부 정보 테이블로 이동해야 합니다. 단계는 다음과 같습니다.
@@ -161,13 +161,13 @@ in
 2. 이동하려는 측정값을 선택하고 *수식* 필드에서 텍스트를 복사하고 메모장에 붙여넣습니다.
 
    ![열 및 측정값의 수식 필드를 보여 주는 스크린샷](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_11.png)
-3. *Query1*을 원래 세부 정보 테이블 이름으로 바꿉니다.
-4. 새 테이블 측정값과 사용자 지정 열을 만들려면 테이블을 마우스 오른쪽 단추로 클릭하고 **새 측정값**을 선택합니다. 그런 다음, 모두 완료될 때까지 저장된 측정값과 열을 잘라내어 붙여넣습니다.
+3. *Query1* 을 원래 세부 정보 테이블 이름으로 바꿉니다.
+4. 새 테이블 측정값과 사용자 지정 열을 만들려면 테이블을 마우스 오른쪽 단추로 클릭하고 **새 측정값** 을 선택합니다. 그런 다음, 모두 완료될 때까지 저장된 측정값과 열을 잘라내어 붙여넣습니다.
 
 ### <a name="step-4-relink-tables-that-had-relationships"></a>4단계: 관계가 있는 테이블 다시 연결
 여러 대시보드에는 날짜 테이블 또는 사용자 지정 프로젝트에 사용되는 테이블과 같이 조회나 필터링에 사용되는 추가 테이블이 있습니다. 이러한 관계를 다시 설정하면 대부분의 나머지 문제가 해결됩니다. 방법은 다음과 같습니다.
 
-- **Power BI Desktop**의 **모델링** 탭에서 **관계 관리**를 선택하면 모델 내에서 관계를 관리할 수 있는 창이 표시됩니다. 필요에 따라 테이블을 다시 연결합니다.
+- **Power BI Desktop** 의 **모델링** 탭에서 **관계 관리** 를 선택하면 모델 내에서 관계를 관리할 수 있는 창이 표시됩니다. 필요에 따라 테이블을 다시 연결합니다.
 
     ![관계 만들기 대화 상자의 스크린샷 관계 관리를 선택합니다.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_12.png)
 

@@ -2,19 +2,19 @@
 title: Power BI 데이터 원본 필수 조건
 description: Power BI 데이터 원본 필수 조건
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 01/29/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 373249061f39c40ec3a78ba9541575721bd60022
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 55e219ff5da73774adaec768b48a0aedd90c1748
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859638"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96405379"
 ---
 # <a name="power-bi-data-source-prerequisites"></a>Power BI 데이터 원본 필수 조건
 각 데이터 공급자의 경우 Power BI는 개체에 특정 공급자 버전을 지원합니다. Power BI에 사용 가능한 데이터 원본에 대한 자세한 내용은 [데이터 원본](desktop-data-sources.md)을 참조하세요. 다음 표는 이러한 요구 사항을 설명합니다.

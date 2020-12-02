@@ -2,20 +2,20 @@
 title: 동료 및 다른 사용자와 Power BI 대시보드 및 보고서 공유
 description: 조직 내외부의 동료와 Power BI 대시보드 및 보고서를 공유하는 방법 및 공유에 대한 필수 고려 사항
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.custom: contperfq4
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 06/26/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 68d6a399a5ecccf07aaa71f74b18fd4ddd6082f5
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 221211b06e3e9a72dd3c5ee812083b8013002405
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768513"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96406575"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>동료 및 다른 사용자와 Power BI 대시보드 및 보고서 공유
 공유는 Power BI 서비스에서 대시보드 및 보고서에 대한 액세스 권한을 사용자에게 부여하는 가장 쉬운 방법입니다. 조직 내부 사용자나 외부 사용자와 공유할 수 있습니다.
@@ -30,7 +30,7 @@ Power BI 서비스는 대시보드 및 보고서를 공동 작업하고 배포�
 
 콘텐츠를 조직 내부와 공유하든 또는 외부와 공유하든, 공유하려면 [Power BI Pro 라이선스](../fundamentals/service-features-license-type.md)가 필요합니다. 콘텐츠가 [프리미엄 용량](../admin/service-premium-what-is.md)에 있는 경우가 아니면 수신자도 Power BI Pro 라이선스가 필요합니다. 
 
-Power BI Desktop에서 직접 *공유*할 수 없습니다. Power BI 서비스에 [Power BI Desktop의 보고서를 게시](../create-reports/desktop-upload-desktop-files.md)합니다. 하지만 [Power BI 모바일 앱에서 대시보드를 공유](../consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md)할 수 있습니다.  
+Power BI Desktop에서 직접 *공유* 할 수 없습니다. Power BI 서비스에 [Power BI Desktop의 보고서를 게시](../create-reports/desktop-upload-desktop-files.md)합니다. 하지만 [Power BI 모바일 앱에서 대시보드를 공유](../consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md)할 수 있습니다.  
 
 ## <a name="share-a-dashboard-or-report"></a>대시보드 또는 보고서 공유
 
@@ -46,13 +46,13 @@ Power BI Desktop에서 직접 *공유*할 수 없습니다. Power BI 서비스�
    >입력 상자는 최대 100명의 개별 사용자 또는 그룹을 지원합니다. 더 많은 사람과 공유하는 방법에 대한 자세한 내용은 이 문서의 [100명 이상의 사용자와 공유](#share-with-more-than-100-separate-users)를 참조하세요.
 
 3. 원하는 경우 메시지를 추가합니다. 선택 사항입니다.
-4. 동료가 자신의 콘텐츠를 다른 사용자와 공유할 수 있게 하려면 **수신자가 대시보드(또는 보고서)를 공유하도록 허용**을 선택합니다.
+4. 동료가 자신의 콘텐츠를 다른 사용자와 공유할 수 있게 하려면 **수신자가 대시보드(또는 보고서)를 공유하도록 허용** 을 선택합니다.
    
-   다른 사용자가 공유할 수 있도록 허용하는 작업을 *다시 공유*라고 합니다. 허용하는 경우 해당 사용자는 Power BI 서비스와 모바일 앱에서 다시 공유하거나 조직에서 다른 사용자에게 전자 메일 초대를 전달할 수 있습니다. 이 초대는 한 달 후에 만료됩니다. 조직 외부 사용자는 다시 공유할 수 없습니다. 콘텐츠 소유자는 다시 공유를 끄거나 개인별로 다시 공유를 해지할 수 있습니다. 이 문서에서 [공유 중지 또는 변경](#stop-or-change-sharing)을 참조하세요.
+   다른 사용자가 공유할 수 있도록 허용하는 작업을 *다시 공유* 라고 합니다. 허용하는 경우 해당 사용자는 Power BI 서비스와 모바일 앱에서 다시 공유하거나 조직에서 다른 사용자에게 전자 메일 초대를 전달할 수 있습니다. 이 초대는 한 달 후에 만료됩니다. 조직 외부 사용자는 다시 공유할 수 없습니다. 콘텐츠 소유자는 다시 공유를 끄거나 개인별로 다시 공유를 해지할 수 있습니다. 이 문서에서 [공유 중지 또는 변경](#stop-or-change-sharing)을 참조하세요.
 
-5. **기본 데이터 세트를 사용하여 사용자의 새 콘텐츠 빌드를 허용**을 선택하는 경우 이 대시보드의 데이터 세트를 기반으로 다른 작업 영역에서 사용자가 자체 보고서를 만들 수 있습니다. [다른 작업 영역의 데이터 세트를 기반으로 보고서 만들기](../connect-data/service-datasets-discover-across-workspaces.md)에 대해 자세히 알아보세요.
+5. **기본 데이터 세트를 사용하여 사용자의 새 콘텐츠 빌드를 허용** 을 선택하는 경우 이 대시보드의 데이터 세트를 기반으로 다른 작업 영역에서 사용자가 자체 보고서를 만들 수 있습니다. [다른 작업 영역의 데이터 세트를 기반으로 보고서 만들기](../connect-data/service-datasets-discover-across-workspaces.md)에 대해 자세히 알아보세요.
 
-1. **공유**를 선택합니다.
+1. **공유** 를 선택합니다.
    
    ![공유 단추 선택](media/service-share-dashboards/power-bi-share-dialog-share.png)  
    
@@ -68,11 +68,11 @@ Power BI Desktop에서 직접 *공유*할 수 없습니다. Power BI 서비스�
 경우에 따라 공유한 사용자를 확인하고 해당 사용자가 공유한 사람을 확인해야 합니다.
 
 1. 대시보드 및 보고서 목록 또는 대시보드나 보고서 자체에서 **공유** :::image type="icon" source="../media/power-bi-share-icon.png" border="false":::를 선택합니다. 
-2. **대시보드 공유** 또는 **보고서 공유** 대화 상자에서 **액세스**를 선택합니다.
+2. **대시보드 공유** 또는 **보고서 공유** 대화 상자에서 **액세스** 를 선택합니다.
    
     ![대시보드 공유 대화 상자, 액세스 탭](media/service-share-dashboards/power-bi-share-dialog-access.png)
 
-    조직 외부 사용자는 **게스트**로 표시됩니다.
+    조직 외부 사용자는 **게스트** 로 표시됩니다.
 
     이 보기에서는, 이 문서의 [공유 권한을 중지하거나 변경](#stop-or-change-sharing)할 수 있습니다. 
 
@@ -111,15 +111,15 @@ Power BI 관리자는 외부 게스트 사용자가 조직의 콘텐츠를 편�
 
 ### <a name="if-youve-already-shared-the-dashboard-or-report"></a>대시보드 또는 보고서를 이미 공유한 경우
 1. 대시보드 및 보고서 목록 또는 대시보드나 보고서 자체에서 **공유** :::image type="icon" source="../media/power-bi-share-icon.png" border="false":::를 선택합니다. 
-2. **대시보드 공유** 또는 **보고서 공유** 대화 상자에서 **액세스**를 선택합니다.
+2. **대시보드 공유** 또는 **보고서 공유** 대화 상자에서 **액세스** 를 선택합니다.
    
     ![대시보드 공유 대화 상자, 액세스 탭](media/service-share-dashboards/power-bi-share-dialog-access.png)
 3. **읽기 및 다시 공유** 옆에 있는 줄임표( **...** )를 선택하고 다음을 선택합니다.
    
    ![읽기 및 다시 공유 줄임표](media/service-share-dashboards/power-bi-change-access.png)
    
-   * **읽기**는 해당 개인이 다른 사람과 공유하지 않도록 합니다.
-   * **액세스 권한 제거**는 해당 사용자가 공유된 콘텐츠를 전혀 보지 못하도록 합니다.
+   * **읽기** 는 해당 개인이 다른 사람과 공유하지 않도록 합니다.
+   * **액세스 권한 제거** 는 해당 사용자가 공유된 콘텐츠를 전혀 보지 못하도록 합니다.
 
 4. **액세스 권한 제거** 대화 상자에서 보고서 및 데이터 세트와 같은 관련 콘텐츠에 대한 액세스도 제거할지 여부를 결정합니다. 경고 아이콘 ![Power BI 경고 아이콘](media/service-share-dashboards/power-bi-warning-icon.png)이 있는 항목을 제거할 경우 관련 콘텐츠도 함께 제거하는 것이 좋습니다. 그렇지 않으면 올바르게 표시되지 않습니다.
 
@@ -129,7 +129,7 @@ Power BI 관리자는 외부 게스트 사용자가 조직의 콘텐츠를 편�
 다음은 대시보드 및 보고서 공유에 관해 주의해야 할 점입니다.
 
 * 동료와 대시보드를 공유하는 경우에도 기본 데이터 세트를 공유하게 됩니다. [RLS(행 수준 보안)](../admin/service-admin-rls.md)으로 액세스를 제한하지 않는 한 동료는 전체 데이터 세트에 액세스할 수 있습니다. 보고서 작성자는 보고서를 보거나 상호 작용할 때 사용자 환경을 사용자 지정하는 기능(예: 열을 숨기기 및 시각적 개쳬 작업 제한)을 사용할 수 있습니다. 이러한 사용자 지정 사용자 환경에서는 데이터 세트에서 사용자가 액세스할 수 있는 데이터를 제한하지 않습니다. 각 사용자의 자격 증명에 따라 액세스할 수 있는 데이터를 결정하도록 데이터 세트에서 [RLS(행 수준 보안)](../admin/service-admin-rls.md)를 사용합니다.
-* 대시보드를 공유받은 모든 사용자는 대시보드를 보고 [읽기용 보기](../consumer/end-user-reading-view.md#reading-view)에서 관련 보고서를 조작할 수 있습니다. 일반적으로, 보고서를 만들거나 기존 보고서에 변경 내용을 저장할 수는 없습니다. 그러나 **기본 데이터 세트를 사용하여 사용자의 새 콘텐츠 빌드를 허용**을 선택하는 경우 이 대시보드 또는 보고서의 데이터 세트를 기반으로 다른 작업 영역에서 사용자가 자체 보고서를 만들 수 있습니다.
+* 대시보드를 공유받은 모든 사용자는 대시보드를 보고 [읽기용 보기](../consumer/end-user-reading-view.md#reading-view)에서 관련 보고서를 조작할 수 있습니다. 일반적으로, 보고서를 만들거나 기존 보고서에 변경 내용을 저장할 수는 없습니다. 그러나 **기본 데이터 세트를 사용하여 사용자의 새 콘텐츠 빌드를 허용** 을 선택하는 경우 이 대시보드 또는 보고서의 데이터 세트를 기반으로 다른 작업 영역에서 사용자가 자체 보고서를 만들 수 있습니다.
 * 누구도 데이터 세트를 다운로드하거나 볼 수는 없지만, Excel에서 분석 기능을 사용하여 데이터 세트에 직접 액세스할 수 있습니다. 관리자는 그룹의 모든 사용자에 대해 Excel에서 분석을 사용하는 기능을 제한할 수 있습니다. 이때 제한은 해당 그룹의 모든 사용자와 해당 그룹이 속한 모든 작업 영역에 적용됩니다.
 * 모든 사용자는 수동으로 [데이터를 새로 고칠](../connect-data/refresh-data.md) 수 있습니다.
 * Microsoft 365를 메일에 사용하는 경우 메일 그룹과 연결된 메일 주소를 입력하여 메일 그룹의 멤버와 공유할 수 있습니다.

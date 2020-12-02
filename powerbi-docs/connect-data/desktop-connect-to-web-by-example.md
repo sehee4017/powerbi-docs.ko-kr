@@ -2,23 +2,23 @@
 title: Power BI Desktop의 예제를 통해 웹 페이지에서 데이터 추출
 description: 끌어올 항목의 예제를 제공하여 웹 페이지에서 데이터 추출
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/21/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 716439417a0e9cc57188c544f984f4936a424a47
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 95d3de9adbe8ea1111af5094f2c1993ee189fcdd
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91632460"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96405609"
 ---
 # <a name="get-webpage-data-by-providing-examples"></a>예제를 제공하여 웹 페이지 데이터 가져오기
 
-웹 페이지에서 데이터를 가져오면 사용자가 간편하게 웹 페이지에서 데이터를 추출하고 해당 데이터를 *Power BI Desktop*으로 가져올 수 있습니다. 그러나 종종 웹 페이지의 데이터는 추출하기 쉬운 깔끔한 테이블에 있지 않습니다. 이러한 페이지에서 데이터를 가져오는 것은 데이터가 구조화되고 일관되더라도 어려운 일일 수 있습니다.
+웹 페이지에서 데이터를 가져오면 사용자가 간편하게 웹 페이지에서 데이터를 추출하고 해당 데이터를 *Power BI Desktop* 으로 가져올 수 있습니다. 그러나 종종 웹 페이지의 데이터는 추출하기 쉬운 깔끔한 테이블에 있지 않습니다. 이러한 페이지에서 데이터를 가져오는 것은 데이터가 구조화되고 일관되더라도 어려운 일일 수 있습니다.
 
 이에 대한 솔루션이 있습니다. *예제를 통해 웹에서 데이터 가져오기* 기능을 사용하면 커넥터 대화 상자에 하나 이상의 예제를 제공하여 추출하려는 데이터를 Power BI Desktop에 표시할 수 있습니다. Power BI Desktop은 페이지에서 예제와 일치하는 다른 데이터를 수집합니다. 이 솔루션을 사용하면 테이블에 있는 데이터 ‘및’ 기타 테이블 이외의 데이터를 포함하여 웹 페이지에서 모든 종류의 데이터를 추출할 수 있습니다. 
 
@@ -28,7 +28,7 @@ ms.locfileid: "91632460"
 
 ## <a name="using-get-data-from-web-by-example"></a>예제를 통해 웹에서 데이터 가져오기 사용
 
-**홈** 리본 메뉴에서 **데이터 가져오기**를 선택합니다. 표시되는 대화 상자의 왼쪽 창의 범주에서 **기타**를 선택한 다음, **웹**을 선택합니다. **연결**을 선택하여 계속합니다.
+**홈** 리본 메뉴에서 **데이터 가져오기** 를 선택합니다. 표시되는 대화 상자의 왼쪽 창의 범주에서 **기타** 를 선택한 다음, **웹** 을 선택합니다. **연결** 을 선택하여 계속합니다.
 
 ![데이터 가져오기에서 웹 선택](media/desktop-connect-to-web-by-example/web-by-example_03.png)
 
@@ -42,20 +42,20 @@ https://www.microsoft.com/store/top-paid/games/xbox?category=classics
 
 ![웹 대화 상자](media/desktop-connect-to-web-by-example/web-by-example_04.png)
 
-**확인**을 선택하면 웹 페이지에서 자동 검색된 테이블이 표시되는 **탐색기** 대화 상자로 이동됩니다. 아래 이미지에 표시된 경우를 보면 테이블이 없습니다. **예제를 사용하여 테이블 추가**를 선택하여 예제를 제공합니다.
+**확인** 을 선택하면 웹 페이지에서 자동 검색된 테이블이 표시되는 **탐색기** 대화 상자로 이동됩니다. 아래 이미지에 표시된 경우를 보면 테이블이 없습니다. **예제를 사용하여 테이블 추가** 를 선택하여 예제를 제공합니다.
 
 ![탐색기 창](media/desktop-connect-to-web-by-example/web-by-example_05.png)
 
-**예제를 사용하여 테이블 추가**는 웹 페이지의 콘텐츠를 미리 볼 수 있는 대화형 창을 제공합니다. 추출하려는 데이터의 샘플 값을 입력합니다.
+**예제를 사용하여 테이블 추가** 는 웹 페이지의 콘텐츠를 미리 볼 수 있는 대화형 창을 제공합니다. 추출하려는 데이터의 샘플 값을 입력합니다.
 
-이 예제에서는 페이지의 각 게임에 대한 ‘이름’ 및 ‘가격’을 추출합니다.   각 열에 대한 페이지에서 몇 가지 예제를 지정하여 작업을 수행할 수 있습니다. 예제를 입력할 때 *파워 쿼리*는 스마트 데이터 추출 알고리즘을 사용하여 예제 항목의 패턴에 맞는 데이터를 추출합니다.
+이 예제에서는 페이지의 각 게임에 대한 ‘이름’ 및 ‘가격’을 추출합니다.   각 열에 대한 페이지에서 몇 가지 예제를 지정하여 작업을 수행할 수 있습니다. 예제를 입력할 때 *파워 쿼리* 는 스마트 데이터 추출 알고리즘을 사용하여 예제 항목의 패턴에 맞는 데이터를 추출합니다.
 
 ![인터넷의 데이터를 보여 주는 스크린샷.](media/desktop-connect-to-web-by-example/web-by-example_06.png)
 
 > [!NOTE]
 > 값 제안에는 길이가 128자보다 작거나 같은 값만 포함됩니다.
 
-웹 페이지에서 추출된 데이터에 만족하는 경우 **확인**을 선택하여 Power Query 편집기로 이동합니다. 이 데이터를 다른 데이터 원본과 결합하는 등 더 많은 변형을 적용하거나 데이터의 모양을 지정할 수 있습니다.
+웹 페이지에서 추출된 데이터에 만족하는 경우 **확인** 을 선택하여 Power Query 편집기로 이동합니다. 이 데이터를 다른 데이터 원본과 결합하는 등 더 많은 변형을 적용하거나 데이터의 모양을 지정할 수 있습니다.
 
 ![Power Query 편집기의 인터넷에서 추출된 데이터를 보여 주는 스크린샷.](media/desktop-connect-to-web-by-example/web-by-example_07.png)
 

@@ -2,19 +2,19 @@
 title: Power BI Desktop에서 R 스크립트 실행
 description: Power BI Desktop에서 R 스크립트 실행
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/14/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 69b56323e3c7864cf4adae09bb32493cf1acc852
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 604e90cf2f2c1010559c70df67a6cd54ac08fa36
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222973"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404551"
 ---
 # <a name="run-r-scripts-in-power-bi-desktop"></a>Power BI Desktop에서 R 스크립트 실행
 
@@ -41,23 +41,23 @@ Power BI Desktop에서 R 스크립트를 준비하고 실행하는 경우 몇 �
 * `N/A`인 값은 Power BI Desktop에서 `NULL` 값으로 변환됩니다.
 * 30분 이상 실행되는 R 스크립트는 시간 초과됩니다.
 * 사용자 입력 대기와 같은 R 스크립트의 대화형 호출은 스크립트의 실행을 중지합니다.
-* R 스크립트 내에서 작업 디렉터리를 설정할 때 작업 디렉터리의 상대 경로가 아닌 전체 경로를 정의*해야* 합니다.
+* R 스크립트 내에서 작업 디렉터리를 설정할 때 작업 디렉터리의 상대 경로가 아닌 전체 경로를 정의 *해야* 합니다.
 
 ### <a name="run-your-r-script-and-import-data"></a>R 스크립트 실행 및 데이터 가져오기
 
 이제 R 스크립트를 실행하여 데이터를 Power BI Desktop으로 가져올 수 있습니다.
 
-1. Power BI Desktop에서 **데이터 가져오기**를 선택하고, **기타** > **R 스크립트**를 선택한 다음 **연결**을 선택합니다.
+1. Power BI Desktop에서 **데이터 가져오기** 를 선택하고, **기타** > **R 스크립트** 를 선택한 다음 **연결** 을 선택합니다.
 
     ![R 스크립트에 연결, 기타 범주, 데이터 가져오기 대화 상자, Power BI Desktop](media/desktop-r-scripts/r-scripts-1.png)
 
-2. 로컬 컴퓨터에 R이 설치되어 있다면 스크립트를 스크립트 창에 복사하고 **확인**을 선택하면 됩니다. 설치된 최신 버전이 R 엔진으로 표시됩니다.
+2. 로컬 컴퓨터에 R이 설치되어 있다면 스크립트를 스크립트 창에 복사하고 **확인** 을 선택하면 됩니다. 설치된 최신 버전이 R 엔진으로 표시됩니다.
 
     ![R 스크립트 대화 상자, Power BI Desktop](media/desktop-r-scripts/r-scripts-2.png)
 
 3. **확인** 을 선택하여 R 스크립트를 실행합니다. 이 스크립트를 성공적으로 실행하는 경우 결과 데이터 프레임을 선택하여 Power BI 모델에 추가할 수 있습니다.
 
-스크립트를 실행하는 데 사용할 R 설치를 제어할 수 있습니다. R 설치 설정을 지정하려면 **파일** > **옵션 및 설정** > **옵션**을 선택한 다음 **R 스크립팅**을 선택합니다. **R 스크립트 옵션**에서 **검색된 R 홈 디렉터리** 드롭다운 목록은 현재 R 설치 옵션을 보여 줍니다. 원하는 R 설치가 없으면 **기타**를 선택한 다음 원하는 R 설치 폴더로 이동하거나 **R 홈 디렉터리 설정**에 원하는 R 설치 폴더를 입력합니다.
+스크립트를 실행하는 데 사용할 R 설치를 제어할 수 있습니다. R 설치 설정을 지정하려면 **파일** > **옵션 및 설정** > **옵션** 을 선택한 다음 **R 스크립팅** 을 선택합니다. **R 스크립트 옵션** 에서 **검색된 R 홈 디렉터리** 드롭다운 목록은 현재 R 설치 옵션을 보여 줍니다. 원하는 R 설치가 없으면 **기타** 를 선택한 다음 원하는 R 설치 폴더로 이동하거나 **R 홈 디렉터리 설정** 에 원하는 R 설치 폴더를 입력합니다.
 
 ![R 스크립트 옵션, 옵션 대화 상자, Power BI Desktop](media/desktop-r-scripts/r-scripts-4.png)
 

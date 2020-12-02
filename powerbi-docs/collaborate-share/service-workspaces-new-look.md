@@ -2,25 +2,25 @@
 title: 작업 영역 '새 디자인'(미리 보기) 옵트인
 description: 작업 영역에는 새로운 Power BI 서비스의 새 디자인과 일치하는 새 모양이 있습니다.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: nikhilga
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 04/15/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 44644c23cbfd61aeb07f7688352ac905bde75a0f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bdc1de71a7d3b880cbdf198591e2270bcaf75587
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225195"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96406230"
 ---
 # <a name="opt-in-to-the-workspace-new-look-preview"></a>작업 영역 '새 디자인'(미리 보기) 옵트인
 
-작업 영역에는 새로운 Power BI 서비스의 [새 디자인](../consumer/service-new-look.md)과 일치하는 새 모양이 있습니다. Power BI 서비스(app.powerbi.com)를 사용하는 모든 사용자는 옵트인(opt in)할 수 있습니다. 검정 머리글 표시줄에서 **새 디자인**을 켜면 보고서 및 작업 영역에 대한 새 모양에 옵트인(opt in)하게 됩니다. 클래식 및 신규의 모든 작업 영역은 새 디자인의 이점을 누릴 수 있습니다.
+작업 영역에는 새로운 Power BI 서비스의 [새 디자인](../consumer/service-new-look.md)과 일치하는 새 모양이 있습니다. Power BI 서비스(app.powerbi.com)를 사용하는 모든 사용자는 옵트인(opt in)할 수 있습니다. 검정 머리글 표시줄에서 **새 디자인** 을 켜면 보고서 및 작업 영역에 대한 새 모양에 옵트인(opt in)하게 됩니다. 클래식 및 신규의 모든 작업 영역은 새 디자인의 이점을 누릴 수 있습니다.
 
-**Power BI Desktop**의 새 디자인에 대한 정보를 찾고 있나요? [Power BI Desktop에서 업데이트된 리본 사용](../create-reports/desktop-ribbon.md)을 참조하세요.
+**Power BI Desktop** 의 새 디자인에 대한 정보를 찾고 있나요? [Power BI Desktop에서 업데이트된 리본 사용](../create-reports/desktop-ribbon.md)을 참조하세요.
 
 ## <a name="features-of-the-new-look"></a>새 디자인의 기능
 
@@ -40,11 +40,11 @@ ms.locfileid: "85225195"
 
 ## <a name="opt-in-to-the-new-look"></a>새 디자인 옵트인(opt in)
 
-Power BI 서비스 사용자는 새 디자인을 옵트인(opt in)할 수 있습니다. **새 디자인 해제**를 **새 디자인 설정**으로 밀기만 하면 됩니다.
+Power BI 서비스 사용자는 새 디자인을 옵트인(opt in)할 수 있습니다. **새 디자인 해제** 를 **새 디자인 설정** 으로 밀기만 하면 됩니다.
 
 ![새 디자인 옵트인(opt in)](media/service-workspaces-new-look/power-bi-new-look-off.png)
 
-이전 디자인으로 돌아가야 하는 경우 다시 밀어서 ![새 디자인 사용](media/service-workspaces-new-look/power-bi-new-look-toggle-on.png)을 **해제**하면 됩니다. 표시되지 않는 경우 오른쪽 위 모서리에 있는 줄임표 메뉴를 선택합니다.
+이전 디자인으로 돌아가야 하는 경우 다시 밀어서 ![새 디자인 사용](media/service-workspaces-new-look/power-bi-new-look-toggle-on.png)을 **해제** 하면 됩니다. 표시되지 않는 경우 오른쪽 위 모서리에 있는 줄임표 메뉴를 선택합니다.
 
 ![새 디자인 옵트아웃(opt out)](media/service-workspaces-new-look/power-bi-new-look-on.png)
 

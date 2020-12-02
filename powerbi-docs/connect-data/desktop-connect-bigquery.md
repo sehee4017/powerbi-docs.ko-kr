@@ -2,19 +2,19 @@
 title: Power BI Desktop에서 Google BigQuery 데이터베이스에 연결
 description: Power BI Desktop에서 쉽게 Google BigQuery에 연결 및 사용
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 68698d51b074102a8d8e556101fcfaf6a39c2c62
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: 7cffba9178d4eec0bfd468040b7551768aab7f1d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349417"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96405885"
 ---
 # <a name="connect-to-a-google-bigquery-database-in-power-bi-desktop"></a>Power BI Desktop에서 Google BigQuery 데이터베이스에 연결
 Power BI Desktop에서 Google **BigQuery** 데이터베이스에 연결하고 Power BI Desktop의 다른 데이터 원본처럼 기본 데이터를 사용할 수 있습니다.
