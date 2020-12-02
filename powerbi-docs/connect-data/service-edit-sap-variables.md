@@ -1,24 +1,24 @@
 ---
 title: Power BI 서비스에서 SAP 변수 편집
 description: Azure 및 Power BI
-author: Sujata994
-ms.author: sunaraya
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 11/12/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: d1e3037bdc26af35d4b8392e151575049f85fa70
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 179e8740bed71d3d295cfc2fe5f103744e9dbd07
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83284477"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96402734"
 ---
 # <a name="edit-sap-variables-in-the-power-bi-service"></a>Power BI 서비스에서 SAP 변수 편집
 
-DirectQuery와 함께 SAP Business Warehouse 또는 SAP HANA를 사용하는 경우, 이제 보고서 작성자는 최종 사용자가 프리미엄 및 공유 작업 영역에 대한 **Power BI 서비스**에서 SAP 변수를 편집하도록 허용할 수 있습니다. 이 기능은 내 작업 영역과 V1 작업 영역에서 만든 앱의 [공유한 항목] 탭에 있는 보고서에 대해 작동하지 않습니다. 
+DirectQuery와 함께 SAP Business Warehouse 또는 SAP HANA를 사용하는 경우, 이제 보고서 작성자는 최종 사용자가 프리미엄 및 공유 작업 영역에 대한 **Power BI 서비스** 에서 SAP 변수를 편집하도록 허용할 수 있습니다. 이 기능은 내 작업 영역과 V1 작업 영역에서 만든 앱의 [공유한 항목] 탭에 있는 보고서에 대해 작동하지 않습니다. 
 
 ![변수 편집 대화 상자](media/service-edit-sap-variables/sap-edit-variables-dialog.png)
 
@@ -29,9 +29,9 @@ DirectQuery와 함께 SAP Business Warehouse 또는 SAP HANA를 사용하는 경
 SAP 변수 편집 기능을 사용하기 위한 몇 가지 요구 사항이 있습니다. 다음 목록에서는 이러한 요구 사항을 설명합니다.
 
 **새 필터 환경 필요** – 보고서에 대해 [새 필터 환경](../create-reports/power-bi-report-filter.md)이 사용하도록 설정되어 있어야 합니다. Power BI Desktop에서 보고서에 대해 이 기능을 사용하도록 설정하는 방법은 다음과 같습니다.
-- Power BI Desktop에서 **파일** > **옵션 및 설정** > **옵션**을 선택합니다.
-- 탐색 창의 **현재 파일**에서 **보고서 설정**을 선택합니다.
-- **필터링 환경**에서 **업데이트된 필터 창 사용**을 선택합니다.
+- Power BI Desktop에서 **파일** > **옵션 및 설정** > **옵션** 을 선택합니다.
+- 탐색 창의 **현재 파일** 에서 **보고서 설정** 을 선택합니다.
+- **필터링 환경** 에서 **업데이트된 필터 창 사용** 을 선택합니다.
 
 **DirectQuery 연결 필요** - DirectQuery를 사용하여 SAP 데이터 원본에 연결해야 합니다. 가져오기 연결은 지원되지 않습니다.
 
@@ -45,7 +45,7 @@ SAP 변수 편집 기능을 사용하기 위한 몇 가지 요구 사항이 있�
 
 ## <a name="how-to-enable-the-feature"></a>기능을 사용하도록 설정하는 방법
 
-**SAP 변수 편집** 기능을 사용하도록 설정하려면 Power BI Desktop에서 SAP HANA 또는 SAP BW 데이터 원본에 연결합니다. **파일 > 옵션 및 설정 > 옵션**으로 이동한 다음, 왼쪽 창의 현재 파일 섹션에서 **DirectQuery**를 선택합니다. 이 항목을 선택하면 오른쪽 창에 DirectQuery 옵션이 표시되고, 다음 그림과 같이 **최종 사용자가 보고서에서 SAP 변수를 변경하도록 허용** 확인란이 표시됩니다.
+**SAP 변수 편집** 기능을 사용하도록 설정하려면 Power BI Desktop에서 SAP HANA 또는 SAP BW 데이터 원본에 연결합니다. **파일 > 옵션 및 설정 > 옵션** 으로 이동한 다음, 왼쪽 창의 현재 파일 섹션에서 **DirectQuery** 를 선택합니다. 이 항목을 선택하면 오른쪽 창에 DirectQuery 옵션이 표시되고, 다음 그림과 같이 **최종 사용자가 보고서에서 SAP 변수를 변경하도록 허용** 확인란이 표시됩니다.
 
 ![DirectQuery 옵션](media/service-edit-sap-variables/sap-preview-setting-in-desktop.png)
 
@@ -70,11 +70,11 @@ Power BI Desktop에서 SAP 변수 편집을 사용하는 경우, 리본의 **쿼
 
     ![변수 편집 대화 상자](media/service-edit-sap-variables/sap-edit-variables-dialog.png)
 
-4. **변수 편집** 대화 상자의 변경 내용은 이 사용자에 대해서만 유지됩니다(Power BI의 다른 지속성 동작과 비슷함). 다음 그림에 표시된 **기본값으로 다시 설정**을 선택하면, 변수를 포함하여 보고서 작성자의 원래 상태로 보고서가 다시 설정됩니다.
+4. **변수 편집** 대화 상자의 변경 내용은 이 사용자에 대해서만 유지됩니다(Power BI의 다른 지속성 동작과 비슷함). 다음 그림에 표시된 **기본값으로 다시 설정** 을 선택하면, 변수를 포함하여 보고서 작성자의 원래 상태로 보고서가 다시 설정됩니다.
 
     ![기본값으로 다시 설정](media/service-edit-sap-variables/reset-to-default.png)
 
-**변수 편집** 기능이 사용하도록 설정된 SAP HANA 또는 SAP BW를 사용하는 Power BI 서비스에서 게시된 보고서를 작업하는 경우, 보고서 소유자는 해당 기본값을 변경할 수 있습니다. 보고서 소유자는 편집 모드에서 변수를 변경하고 보고서를 저장하여 해당 설정을 보고서의 *새 기본 설정*으로 사용할 수 있습니다. 보고서 소유자가 이러한 변경을 수행한 후에 보고서에 액세스하는 다른 모든 사용자에게는 새 설정이 기본값으로 표시됩니다.
+**변수 편집** 기능이 사용하도록 설정된 SAP HANA 또는 SAP BW를 사용하는 Power BI 서비스에서 게시된 보고서를 작업하는 경우, 보고서 소유자는 해당 기본값을 변경할 수 있습니다. 보고서 소유자는 편집 모드에서 변수를 변경하고 보고서를 저장하여 해당 설정을 보고서의 *새 기본 설정* 으로 사용할 수 있습니다. 보고서 소유자가 이러한 변경을 수행한 후에 보고서에 액세스하는 다른 모든 사용자에게는 새 설정이 기본값으로 표시됩니다.
 
 ## <a name="next-steps"></a>다음 단계
 

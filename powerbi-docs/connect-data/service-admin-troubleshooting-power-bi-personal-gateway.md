@@ -2,19 +2,19 @@
 title: Power BI Gateway 문제 해결(개인 모드)
 description: Power BI Gateway 문제 해결(개인 모드)
 author: arthiriyer
+ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-gateways
 ms.topic: troubleshooting
 ms.date: 5/06/2019
-ms.author: arthii
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 9c5e241cee86b9f7ea21607128f5c32099dd0415
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: caac528c707066a8d49072eee647737f43953a15
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861501"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403815"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>Power BI Gateway 문제 해결(개인 모드)
 
@@ -49,13 +49,13 @@ ms.locfileid: "90861501"
 
 새로 고침을 예약한 후 게이트웨이(개인 모드)를 제거하고 다시 설치한 경우 \<dataset\>에 대한 설정에 이 오류가 나타날 수 있습니다. 게이트웨이(개인 모드)를 제거하는 경우 새로 고침에 대해 데이터 세트의 데이터 원본 자격 증명이 Power BI 서비스에서 제거됩니다.
 
-**해결 방법:** Power BI에서 데이터 세트의 새로 고침 설정으로 이동합니다. **데이터 원본 관리**에서 오류가 있는 모든 데이터 원본에 대해 **자격 증명 편집**을 선택합니다. 그런 다음 데이터 원본에 다시 로그인합니다.
+**해결 방법:** Power BI에서 데이터 세트의 새로 고침 설정으로 이동합니다. **데이터 원본 관리** 에서 오류가 있는 모든 데이터 원본에 대해 **자격 증명 편집** 을 선택합니다. 그런 다음 데이터 원본에 다시 로그인합니다.
 
 **오류: 데이터 세트에 대해 제공된 자격 증명이 유효하지 않습니다. 계속하려면 새로 고침을 통해 또는 데이터 소스 설정 대화 상자에서 자격 증명을 업데이트하세요.**
 
 **해결 방법:** 자격 증명 메시지를 받는 경우 다음을 의미할 수 있습니다.
 
-* 데이터 원본에 로그인하는 데 사용된 사용자 이름과 암호가 최신이 아닌지 확인합니다. Power BI에서 데이터 세트에 대한 새로 고침 설정으로 이동합니다. **데이터 원본 관리**에서 **자격 증명 편집**을 선택하여 데이터 원본의 자격 증명을 업데이트합니다.
+* 데이터 원본에 로그인하는 데 사용된 사용자 이름과 암호가 최신이 아닌지 확인합니다. Power BI에서 데이터 세트에 대한 새로 고침 설정으로 이동합니다. **데이터 원본 관리** 에서 **자격 증명 편집** 을 선택하여 데이터 원본의 자격 증명을 업데이트합니다.
 * 원본 중 하나가 인증에 OAuth를 사용하는 경우 단일 쿼리에서 클라우드 원본과 온-프레미스 원본 간의 매시업이 게이트웨이(개인 모드)에서 새로 고침을 수행하지 못합니다. CRM 온라인과 로컬 SQL Server 인스턴스 간의 매시업이 이 문제에 대한 예입니다. 이 매시업은 CRM 온라인에서 OAuth가 필요하기 때문에 실패합니다.
   
   이 오류는 알려진 문제이며 검토 중입니다. 문제를 해결하려면 클라우드 원본 및 온-프레미스 원본에 대해 별도의 쿼리를 포함합니다. 그런 다음, 병합 또는 추가 쿼리를 사용하여 결합합니다.
@@ -101,28 +101,28 @@ ms.locfileid: "90861501"
 
 Power BI는 현재 ACE OLEDB 공급자를 사용하여 데이터 원본에 대한 Windows 인증을 지원하지 않습니다.
 
-**해결 방법:** 이 오류를 해결하려면 **익명 인증**을 선택합니다. 레거시 ACE OLEDB 공급자에 대한 익명 자격 증명은 Windows 자격 증명과 동일합니다.
+**해결 방법:** 이 오류를 해결하려면 **익명 인증** 을 선택합니다. 레거시 ACE OLEDB 공급자에 대한 익명 자격 증명은 Windows 자격 증명과 동일합니다.
 
 ## <a name="tile-refresh"></a>타일 새로 고침
 대시보드 타일을 새로 고칠 때 오류가 표시되는 경우 [타일 오류 문제 해결](refresh-troubleshooting-tile-errors.md)을 참조하세요.
 
 ## <a name="tools-for-troubleshooting"></a>문제 해결을 위한 도구
 ### <a name="refresh-history"></a>새로 고침 기록
-**새로 고침 기록**을 사용하면 어떤 오류가 발생했는지 확인하고 지원 요청을 만들어야 할 경우 유용한 데이터를 찾을 수 있습니다. 예약된 새로 고침 및 요청 시 새로 고침을 둘 다 볼 수 있습니다. **새로 고침 기록**을 가져오는 방법은 다음과 같습니다.
+**새로 고침 기록** 을 사용하면 어떤 오류가 발생했는지 확인하고 지원 요청을 만들어야 할 경우 유용한 데이터를 찾을 수 있습니다. 예약된 새로 고침 및 요청 시 새로 고침을 둘 다 볼 수 있습니다. **새로 고침 기록** 을 가져오는 방법은 다음과 같습니다.
 
-1. Power BI 탐색 창의 **데이터 세트**에서 데이터 세트를 선택합니다. 메뉴를 열고 **새로 고침 예약**을 선택합니다.
+1. Power BI 탐색 창의 **데이터 세트** 에서 데이터 세트를 선택합니다. 메뉴를 열고 **새로 고침 예약** 을 선택합니다.
 
    ![새로 고침 예약 선택](media/service-admin-troubleshooting-power-bi-personal-gateway/scheduled-refresh.png)
-1. **다음 설정...** 에서 **새로 고침 기록**을 선택합니다. 
+1. **다음 설정...** 에서 **새로 고침 기록** 을 선택합니다. 
 
    ![새로 고침 기록 선택](media/service-admin-troubleshooting-power-bi-personal-gateway/scheduled-refresh-2.png)
    
    ![새로 고침 기록 정보](media/service-admin-troubleshooting-power-bi-personal-gateway/refresh-history.png)
 
 ### <a name="event-logs"></a>이벤트 로그
-여러 이벤트 로그가 정보를 제공할 수 있습니다. 처음 두 가지인 **데이터 관리 게이트웨이** 및 **PowerBIGateway**는 머신 관리자인 경우에 제공됩니다. 관리자가 아니고 데이터 게이트웨이(개인 모드)를 사용하는 경우는 **애플리케이션** 로그에서 로그 항목을 볼 수 있습니다.
+여러 이벤트 로그가 정보를 제공할 수 있습니다. 처음 두 가지인 **데이터 관리 게이트웨이** 및 **PowerBIGateway** 는 머신 관리자인 경우에 제공됩니다. 관리자가 아니고 데이터 게이트웨이(개인 모드)를 사용하는 경우는 **애플리케이션** 로그에서 로그 항목을 볼 수 있습니다.
 
-**데이터 관리 게이트웨이** 및 **PowerBIGateway** 로그는 **애플리케이션 및 서비스 로그**아래에 표시됩니다.
+**데이터 관리 게이트웨이** 및 **PowerBIGateway** 로그는 **애플리케이션 및 서비스 로그** 아래에 표시됩니다.
 
 ![데이터 관리 게이트웨이 및 PowerBIGateway 로그](media/service-admin-troubleshooting-power-bi-personal-gateway/event-logs.png)
 

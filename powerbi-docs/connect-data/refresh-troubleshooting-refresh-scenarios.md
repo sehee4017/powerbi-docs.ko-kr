@@ -2,19 +2,19 @@
 title: 새로 고침 시나리오 문제 해결
 description: 새로 고침 시나리오 문제 해결
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
-ms.topic: how-to
+ms.subservice: pbi-data-sources
+ms.topic: troubleshooting
 ms.date: 05/28/2020
-ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: a92314891b4738fc5da735adc361e5c215e83351
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7f8193971176a738b46f628e11736ac6016ec83e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222220"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403769"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>새로 고침 시나리오 문제 해결
 
@@ -70,11 +70,11 @@ AAD OAuth를 사용하는 데이터 원본에는 **Microsoft Dynamics CRM Online
 
 Microsoft는 데이터 로드 프로세스에서 토큰을 새로 고치고 계속할 수 있게 하는 솔루션을 연구 중입니다. 그러나 Dynamics CRM Online 또는 SharePoint Online 인스턴스(또는 다른 AAD OAuth 데이터 원본)가 너무 커 2시간 데이터 로드 임계값에 걸릴 경우, Power BI 서비스에서 데이터 로드 제한 시간 만료도 함께 발생할 수 있습니다.
 
-또한 제대로 작동하려면 AAD OAuth를 사용하여 **SharePoint Online** 데이터 원본에 연결할 때 **Power BI 서비스**에 로그인하는 데 사용하는 동일한 계정을 사용해야 합니다.
+또한 제대로 작동하려면 AAD OAuth를 사용하여 **SharePoint Online** 데이터 원본에 연결할 때 **Power BI 서비스** 에 로그인하는 데 사용하는 동일한 계정을 사용해야 합니다.
 
 ## <a name="uncompressed-data-limits-for-refresh"></a>새로 고침에 대한 압축되지 않은 데이터 한도
 
-**Power BI 서비스**로 가져올 데이터 세트에 대한 최대 크기는 1GB입니다. 이러한 데이터 세트는 높은 성능을 보장하기 위해 압축률이 높습니다. 또한 공유 용량에서 서비스는 새로 고치는 동안 처리되는 비압축 데이터의 양을 10GB로 한정합니다. 이 한도는 압축의 부분을 차지하므로 1GB보다 훨씬 더 높습니다. Power BI 프리미엄의 데이터 세트는 이 한도에 해당하지 않습니다. 이 이유로 인해 Power BI 서비스에서 새로 고침이 실패한 경우 Power BI로 가져오는 데이터의 양을 줄이고 다시 시도하십시오.
+**Power BI 서비스** 로 가져올 데이터 세트에 대한 최대 크기는 1GB입니다. 이러한 데이터 세트는 높은 성능을 보장하기 위해 압축률이 높습니다. 또한 공유 용량에서 서비스는 새로 고치는 동안 처리되는 비압축 데이터의 양을 10GB로 한정합니다. 이 한도는 압축의 부분을 차지하므로 1GB보다 훨씬 더 높습니다. Power BI 프리미엄의 데이터 세트는 이 한도에 해당하지 않습니다. 이 이유로 인해 Power BI 서비스에서 새로 고침이 실패한 경우 Power BI로 가져오는 데이터의 양을 줄이고 다시 시도하십시오.
 
 ## <a name="scheduled-refresh-timeout"></a>예약된 새로 고침 제한 시간
 

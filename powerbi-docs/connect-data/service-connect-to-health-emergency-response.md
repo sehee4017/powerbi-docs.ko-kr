@@ -2,18 +2,18 @@
 title: 병원 응급 대응 의사 결정 지원 대시보드에 연결
 description: 의료 응급 템플릿 앱의 코로나바이러스감염증-19 의사 결정 지원 대시보드를 가져와서 설치하고 데이터에 연결하는 방법
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/13/2020
-ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4455a8da0af7ff928b81baf83245e66cdee578ea
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 823c8429c95a0b4d858540b2cf1183ca1c7caac7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854233"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403148"
 ---
 # <a name="connect-to-the-hospital-emergency-response-decision-support-dashboard"></a>병원 응급 대응 의사 결정 지원 대시보드에 연결
 병원 응급 대응 의사 결정 지원 대시보드 템플릿 앱은 [의료 응급 대응을 위한 Microsoft Power Platform 솔루션](https://powerapps.microsoft.com/blog/emergency-response-solution-a-microsoft-power-platform-solution-for-healthcare-emergency-response/)의 보고 구성 요소입니다. 이 대시보드는 응급 관리자들이 적시에 올바른 의사 결정을 내릴 수 있도록 의료 시스템 전반의 집계 데이터를 보여 줍니다.
@@ -38,11 +38,11 @@ ms.locfileid: "90854233"
 
     [![AppSource의 병원 응급 대응 의사 결정 지원 대시보드 앱](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-appsource-get-it-now.png)](https://aka.ms/AppSource_Hospital_offer)
 
-1. **한 가지 더**의 정보를 읽고 **계속**을 선택합니다.
+1. **한 가지 더** 의 정보를 읽고 **계속** 을 선택합니다.
 
     ![병원 응급 대응 의사 결정 지원 대시보드 앱, 한 가지 더](media/service-connect-to-health-emergency-response/service-health-emergency-response-1-more-thing.png)
 
-1. **설치**를 선택합니다. 
+1. **설치** 를 선택합니다. 
 
     ![병원 응급 대응 의사 결정 지원 대시보드 앱 설치](media/service-connect-to-health-emergency-response/service-health-emergency-response-select-install.png)
 
@@ -54,7 +54,7 @@ ms.locfileid: "90854233"
 
 1. 앱 페이지에서 아이콘을 선택하여 앱을 엽니다.
 
-1. 시작 화면에서 **탐색**을 선택합니다.
+1. 시작 화면에서 **탐색** 을 선택합니다.
 
    ![템플릿 앱 시작 화면](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-splash-screen.png)
 
@@ -66,13 +66,13 @@ ms.locfileid: "90854233"
 
 1. 대화 상자에서
    1. 조직 이름 필드에 조직의 이름을 입력합니다(예: “Contoso Health Systems”). 이 필드는 선택 사항입니다. 이 이름은 대시보드의 왼쪽 위에 표시됩니다.
-   1. CDS_base_solution 필드에 [Common Data Service 환경 인스턴스의 URL](/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard)을 입력합니다. 예: https://[myenv].crm.dynamics.com. 완료하면 **다음**을 클릭합니다.
+   1. CDS_base_solution 필드에 [Common Data Service 환경 인스턴스의 URL](/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard)을 입력합니다. 예: https://[myenv].crm.dynamics.com. 완료하면 **다음** 을 클릭합니다.
 
    ![병원 응급 대응 의사 결정 지원 대시보드 앱의 URL 대화 상자](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-url-dialog.png)
 
-1. 표시되는 다음 대화 상자에서 인증 방법을 **OAuth2**로 설정합니다. 개인 정보 수준 설정은 변경하지 않아도 됩니다.
+1. 표시되는 다음 대화 상자에서 인증 방법을 **OAuth2** 로 설정합니다. 개인 정보 수준 설정은 변경하지 않아도 됩니다.
 
-   **로그인**을 선택합니다.
+   **로그인** 을 선택합니다.
 
    ![병원 응급 대응 의사 결정 지원 대시보드 앱의 인증 대화 상자](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-authentication-dialog.png)
 
@@ -88,7 +88,7 @@ ms.locfileid: "90854233"
 
 데이터 새로 고침이 완료되면 [새로 고침 일정을 설정](../connect-data/refresh-scheduled-refresh.md)하여 보고서 데이터를 최신 상태로 유지합니다.
 
-1. 위쪽 헤더 표시줄에서 **Power BI**를 선택합니다.
+1. 위쪽 헤더 표시줄에서 **Power BI** 를 선택합니다.
 
    ![Power BI 이동 경로](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-powerbi-breadcrumb.png)
 

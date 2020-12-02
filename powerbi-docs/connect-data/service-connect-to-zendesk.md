@@ -2,19 +2,19 @@
 title: Power BI로 Zendesk에 연결
 description: Power BI용 Zendesk
 author: paulinbar
+ms.author: painbar
 ms.reviewer: sarinas
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
-ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e32824a58faa3a6a98e4d38f7362c62ab13b069e
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: d5400830df44055a0f17de72385778a0c06fb06b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034454"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403033"
 ---
 # <a name="connect-to-zendesk-with-power-bi"></a>Power BI로 Zendesk에 연결
 
@@ -36,13 +36,13 @@ ms.locfileid: "86034454"
 
 [!INCLUDE [powerbi-service-apps-get-more-apps](../includes/powerbi-service-apps-get-more-apps.md)]
 
-3. **Zendesk** \> **지금 받기**를 선택합니다.
-4. **이 Power BI 앱을 설치하겠습니까?** 에서 **설치**를 선택합니다.
+3. **Zendesk** \> **지금 받기** 를 선택합니다.
+4. **이 Power BI 앱을 설치하겠습니까?** 에서 **설치** 를 선택합니다.
 4. **앱** 창에서 **Zendesk** 타일을 선택합니다.
 
     ![Power BI Zendesk 앱 타일](media/service-connect-to-zendesk/power-bi-zendesk-tile.png)
 
-6. **새 앱 시작**에서 **데이터**를 선택합니다.
+6. **새 앱 시작** 에서 **데이터** 를 선택합니다.
 
     ![새 앱 시작](media/service-connect-to-zendesk/power-bi-new-app-connect-get-started.png)
 
@@ -50,7 +50,7 @@ ms.locfileid: "86034454"
    
    ![Zendesk에 연결](media/service-connect-to-zendesk/pbi_zendeskconnect.png)
 
-5. 메시지가 표시되면 Zendesk 자격 증명을 입력합니다.  **oAuth 2** 를 인증 메커니즘으로 선택하고 **로그인**을 클릭합니다. Zendesk 인증 흐름을 따릅니다. (브라우저에서 Zendesk에 이미 로그인한 경우 자격 증명을 묻는 메시지가 표시되지 않을 수도 있습니다.)
+5. 메시지가 표시되면 Zendesk 자격 증명을 입력합니다.  **oAuth 2** 를 인증 메커니즘으로 선택하고 **로그인** 을 클릭합니다. Zendesk 인증 흐름을 따릅니다. (브라우저에서 Zendesk에 이미 로그인한 경우 자격 증명을 묻는 메시지가 표시되지 않을 수도 있습니다.)
    
    > [!NOTE]
    > 이 템플릿 앱을 사용하려면 Zendesk 관리자 계정으로 연결해야 합니다. 
@@ -70,15 +70,15 @@ ms.locfileid: "86034454"
 
 Zendesk 템플릿 앱을 설치했습니다. 즉, Zendesk 작업 영역도 만들었습니다. 작업 영역에서 보고서와 대시보드를 변경한 다음, 조직의 동료에게 ‘앱’으로 배포할 수 있습니다. 
 
-1. 새 Zendesk 작업 영역의 모든 콘텐츠를 보려면 탐색 창에서 **작업 영역** > **Zendesk**를 선택합니다. 
+1. 새 Zendesk 작업 영역의 모든 콘텐츠를 보려면 탐색 창에서 **작업 영역** > **Zendesk** 를 선택합니다. 
 
     ![탐색 창의 Zendesk 작업 영역](media/service-connect-to-zendesk/power-bi-zendesk-workspace-left-nav.png)
 
-    이 보기는 작업 영역의 콘텐츠 목록입니다. 오른쪽 위에 **앱 업데이트**가 표시됩니다. 동료에게 앱을 배포할 준비가 되었으면 여기서 시작합니다. 
+    이 보기는 작업 영역의 콘텐츠 목록입니다. 오른쪽 위에 **앱 업데이트** 가 표시됩니다. 동료에게 앱을 배포할 준비가 되었으면 여기서 시작합니다. 
 
     ![Zendesk 콘텐츠 목록](media/service-connect-to-zendesk/power-bi-zendesk-content-list.png)
 
-2. **보고서** 및 **데이터 세트**를 선택하여 작업 영역의 다른 요소를 확인합니다.
+2. **보고서** 및 **데이터 세트** 를 선택하여 작업 영역의 다른 요소를 확인합니다.
 
     동료에게 [앱을 배포](../collaborate-share/service-create-distribute-apps.md)하는 방법을 참조하세요.
 

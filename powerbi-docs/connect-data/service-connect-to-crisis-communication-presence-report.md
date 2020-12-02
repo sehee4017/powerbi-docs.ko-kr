@@ -2,18 +2,18 @@
 title: 재난 안내 상태 보고서에 연결
 description: 코로나바이러스감염증-19 재난 안내 상태 보고서 템플릿 앱을 가져와서 설치하고 데이터에 연결하는 방법
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 04/06/2020
-ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 97501fe6e5a3e12e1b6773ce1b3fd67b503bf0f1
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 7cce4f9e78fce27fedf795a4a0016593580f061a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860305"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403171"
 ---
 # <a name="connect-to-the-crisis-communication-presence-report"></a>재난 안내 상태 보고서에 연결
 
@@ -41,11 +41,11 @@ ms.locfileid: "90860305"
 
     [![AppSource의 재난 안내 상태 보고서 앱](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-appsource-get-it-now.png)](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.crisiscomms)
 
-1. **한 가지 더**의 정보를 읽고 **계속**을 선택합니다.
+1. **한 가지 더** 의 정보를 읽고 **계속** 을 선택합니다.
 
     ![재난 안내 상태 보고서 앱, 한 가지 더](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-1-more-thing.png)
 
-1. **설치**를 선택합니다. 
+1. **설치** 를 선택합니다. 
 
     ![재난 안내 상태 보고서 앱 설치](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-select-install.png)
 
@@ -57,7 +57,7 @@ ms.locfileid: "90860305"
 
 1. 앱 페이지에서 아이콘을 선택하여 앱을 엽니다.
 
-1. 시작 화면에서 **탐색**을 선택합니다.
+1. 시작 화면에서 **탐색** 을 선택합니다.
 
    ![템플릿 앱 시작 화면](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-splash-screen.png)
 
@@ -69,13 +69,13 @@ ms.locfileid: "90860305"
 
 1. 대화 상자에서
    1. SharePoint_Folder 필드에 [“CI_Employee Status” SharePoint 목록 경로](/powerapps/maker/canvas-apps/sample-crisis-communication-app#monitor-office-absences-with-power-bi)를 입력합니다.
-   1. List_ID 필드에 목록 설정에서 가져온 목록 ID를 입력합니다. 완료하면 **다음**을 클릭합니다.
+   1. List_ID 필드에 목록 설정에서 가져온 목록 ID를 입력합니다. 완료하면 **다음** 을 클릭합니다.
 
    ![재난 안내 상태 보고서 앱의 URL 대화 상자](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-url-dialog.png)
 
-1. 표시되는 다음 대화 상자에서 인증 방법을 **OAuth2**로 설정합니다. 개인 정보 수준 설정은 변경하지 않아도 됩니다.
+1. 표시되는 다음 대화 상자에서 인증 방법을 **OAuth2** 로 설정합니다. 개인 정보 수준 설정은 변경하지 않아도 됩니다.
 
-   **로그인**을 선택합니다.
+   **로그인** 을 선택합니다.
 
    ![재난 안내 상태 보고서 앱의 인증 대화 상자](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-authentication-dialog.png)
 
@@ -91,7 +91,7 @@ ms.locfileid: "90860305"
 
 데이터 새로 고침이 완료되면 [새로 고침 일정을 설정](../connect-data/refresh-scheduled-refresh.md)하여 보고서 데이터를 최신 상태로 유지합니다.
 
-1. 위쪽 헤더 표시줄에서 **Power BI**를 선택합니다.
+1. 위쪽 헤더 표시줄에서 **Power BI** 를 선택합니다.
 
    ![Power BI 이동 경로](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-powerbi-breadcrumb.png)
 

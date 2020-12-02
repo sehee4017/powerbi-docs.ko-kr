@@ -2,20 +2,20 @@
 title: 게이트웨이 데이터 원본 추가 또는 제거
 description: Power BI에서 온-프레미스 게이트웨이에 데이터 원본을 추가하는 방법을 알아봅니다.
 author: arthiriyer
+ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
 ms.date: 11/03/2020
-ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 58fb6fbe48ef1552052f93fd56b35512b7bf84d7
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 55cdbfbe0572986de455ddb05c342af9e019de42
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412492"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96402849"
 ---
 # <a name="add-or-remove-a-gateway-data-source"></a>게이트웨이 데이터 원본 추가 또는 제거
 

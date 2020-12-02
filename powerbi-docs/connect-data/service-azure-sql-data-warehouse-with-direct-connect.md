@@ -1,21 +1,21 @@
 ---
 title: DirectQuery를 사용한 Azure SQL Data Warehouse
 description: DirectQuery를 사용한 Azure SQL Data Warehouse
-ms.service: powerbi
-ms.subservice: powerbi-service
-ms.topic: how-to
 author: davidiseminger
 ms.author: davidi
+ms.service: powerbi
+ms.subservice: pbi-data-sources
+ms.topic: how-to
 ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/03/2020
 LocalizationGroup: Data from databases
-ms.openlocfilehash: f5c8a47ece5d4bc072c5518a12a553b7967059de
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d4edc60e844f45c91de11771655e9399cd0e073e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859937"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403700"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>DirectQuery를 사용한 Azure SQL Data Warehouse
 
@@ -54,7 +54,7 @@ Power BI Desktop의 **데이터 가져오기** 단추를 사용하여 SQL Data W
 
     ![데이터 단추 가져오기](media/service-azure-sql-data-warehouse-with-direct-connect/create-reports-02.png)
 
-2. **추가...** 를 선택하여 사용 가능한 모든 데이터 원본을 표시합니다. 표시되는 창의 왼쪽 부분에서 **Azure**를 선택하고 오른쪽 부분의 사용 가능한 커넥터 목록에서 **Azure SQL Data Warehouse**를 선택합니다.
+2. **추가...** 를 선택하여 사용 가능한 모든 데이터 원본을 표시합니다. 표시되는 창의 왼쪽 부분에서 **Azure** 를 선택하고 오른쪽 부분의 사용 가능한 커넥터 목록에서 **Azure SQL Data Warehouse** 를 선택합니다.
 
     ![Azure 데이터 원본](media/service-azure-sql-data-warehouse-with-direct-connect/create-reports-03.png)
 

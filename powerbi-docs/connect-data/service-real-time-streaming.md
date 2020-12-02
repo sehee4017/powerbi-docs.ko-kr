@@ -2,19 +2,19 @@
 title: Power BI에서 실시간 스트리밍
 description: Power BI에서 실시간 데이터 스트리밍 및 시각적 개체 가져오기
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 07/16/2020
-ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 6543f1246a3462f02aaae7d22b11ba35d3725c01
-ms.sourcegitcommit: 8afdd3601209636c9ab92d75f967d4ee0a2cab26
+ms.openlocfilehash: 322ad95c561be6ca4c6a89df08404137545c1756
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "95012059"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96401975"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI에서 실시간 스트리밍
 Power BI 실시간 스트리밍을 사용하여 실시간으로 데이터를 스트리밍하고 대시보드를 업데이트할 수 있습니다. Power BI에서 만든 시각적 개체 또는 대시보드에서 실시간 데이터 및 시각적 개체를 표시하고 업데이트할 수 있습니다. 스트리밍 데이터의 디바이스 및 원본은 공장 센서, 소셜 미디어 원본, 서비스 사용 메트릭 또는 기타 많은 시간이 중요한 데이터 수집기 또는 송신기일 수 있습니다.

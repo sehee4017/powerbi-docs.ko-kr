@@ -5,16 +5,16 @@ author: arthiriyer
 ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
-ms.openlocfilehash: 1d91792d544854d5a98b1966b2561196249ff7c8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2d0b5ff4bbf14012eb0a60759007fa0d021befea
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83302854"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96402159"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이란?
 
@@ -32,7 +32,7 @@ ms.locfileid: "83302854"
 
 시나리오마다 각각 두 가지 유형의 게이트웨이가 있습니다.
 
-* **온-프레미스 데이터 게이트웨이**를 사용하면 여러 사용자가 여러 온-프레미스 데이터 원본에 연결할 수 있습니다. 단일 게이트웨이 설치를 사용하면 모든 지원되는 서비스에서 온-프레미스 데이터 게이트웨이를 사용할 수 있습니다. 이 게이트웨이는 여러 사용자가 여러 데이터 원본에 액세스하는 복잡한 시나리오에 적합합니다.
+* **온-프레미스 데이터 게이트웨이** 를 사용하면 여러 사용자가 여러 온-프레미스 데이터 원본에 연결할 수 있습니다. 단일 게이트웨이 설치를 사용하면 모든 지원되는 서비스에서 온-프레미스 데이터 게이트웨이를 사용할 수 있습니다. 이 게이트웨이는 여러 사용자가 여러 데이터 원본에 액세스하는 복잡한 시나리오에 적합합니다.
 
 * **온-프레미스 데이터 게이트웨이(개인 모드)** 를 사용하면 사용자 한 명이 원본에 연결할 수 있으며 다른 사용자와 게이트웨이를 공유할 수 없습니다. 온-프레미스 데이터 게이트웨이(개인 모드)는 Power BI에서만 사용할 수 있습니다. 이 게이트웨이는 보고서를 만드는 사용자가 한 명이며 다른 사용자와 데이터 원본을 공유할 필요가 없는 시나리오에 적합합니다.
 

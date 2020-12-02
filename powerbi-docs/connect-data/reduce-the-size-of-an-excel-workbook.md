@@ -2,22 +2,22 @@
 title: Power BI에서 보기 위해 Excel 통합 문서 크기 줄이기
 description: Power BI에서 보기 위해 Excel 통합 문서 크기 줄이기
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/10/2019
-ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 7755834f5d76392f7212073f958d3c4070dcaca7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9996b8e3f571a04dc41d138947532f3ab402057a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234776"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404091"
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>Power BI에서 보기 위해 Excel 통합 문서 크기 줄이기
-1GB 미만의 Excel 통합 문서를 Power BI에 업로드할 수 있습니다. Excel 통합 문서에는 두 부분이 있습니다. 데이터 모델과, 보고서의 나머지 부분(핵심 워크시트 컨텐츠)입니다. 보고서가 다음 크기 제한에 적합한 경우, **비즈니스용 OneDrive**에 저장하고 Power BI에 연결하여 Excel Online에서 볼 수 있습니다.
+1GB 미만의 Excel 통합 문서를 Power BI에 업로드할 수 있습니다. Excel 통합 문서에는 두 부분이 있습니다. 데이터 모델과, 보고서의 나머지 부분(핵심 워크시트 컨텐츠)입니다. 보고서가 다음 크기 제한에 적합한 경우, **비즈니스용 OneDrive** 에 저장하고 Power BI에 연결하여 Excel Online에서 볼 수 있습니다.
 
 * 전체 통합 문서가 최대 1GB.
 * 핵심 워크시트 콘텐츠가 최대 30MB.
@@ -50,7 +50,7 @@ Excel로 데이터를 가져올 때는 다음 팁을 따르십시오.
 * **파워 쿼리에서**: **워크시트에 로드** 상자의 선택을 취소합니다.
   
   데이터를 데이터 모델에만 가져오고 엑셀 워크시트에는 가져오지 않습니다.
-* **Excel 데이터 탭에서**([가져오기] 마법사에서 **테이블**이 선택되어 있는 경우): **기존 연결**로 이동하고 \> 연결 \> **연결만 만들기**를 클릭합니다. 원본 테이블이나 초기 가져오기 중에 만들어진 테이블을 삭제합니다.
+* **Excel 데이터 탭에서**([가져오기] 마법사에서 **테이블** 이 선택되어 있는 경우): **기존 연결** 로 이동하고 \> 연결 \> **연결만 만들기** 를 클릭합니다. 원본 테이블이나 초기 가져오기 중에 만들어진 테이블을 삭제합니다.
 * **Excel 데이터 탭에서**: **데이터 가져오기** 상자의 **테이블** 선택 상자에 표시하지 마세요.
 
 ## <a name="workbook-size-optimizer"></a>통합 문서 크기 최적화 프로그램

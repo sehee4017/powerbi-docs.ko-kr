@@ -2,19 +2,19 @@
 title: Power BI Desktop 파일로부터 만들어진 데이터 세트 새로 고침 - 로컬
 description: 로컬 드라이브에 있는 Power BI Desktop 파일로부터 만들어진 데이터 세트 새로 고침
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 06/04/2019
-ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e3c0a702ccd1035a5f6019b6f439624fcd7c7267
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d836c8d85915332c58032cf535194ca5ce803567
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232931"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404022"
 ---
 # <a name="refresh-a-dataset-created-from-a-power-bi-desktop-file-on-a-local-drive"></a>로컬 드라이브에 있는 Power BI Desktop 파일로부터 만들어진 데이터 세트 새로 고침
 
@@ -35,11 +35,11 @@ Power BI에서 지금 새로 고침 및 새로 고침 예약은 다음 데이터
 >
 >
 
-홈 리본에서 **새로 고침**을 선택하여 Power BI Desktop에서 일회성인 수동 새로 고침을 수행할 수 있습니다. 여기에서 **새로 고침**을 선택하면 *파일*의 모델에 있는 데이터는 원래 데이터 원본에서 업데이트된 데이터로 새로 고쳐집니다. 완전히 Power BI Desktop 애플리케이션 자체에서 가져온 이러한 종류의 새로 고침은 Power BI에서 수동 또는 예약된 새로 고침과 다르기 때문에 차이를 이해하는 것이 중요합니다.
+홈 리본에서 **새로 고침** 을 선택하여 Power BI Desktop에서 일회성인 수동 새로 고침을 수행할 수 있습니다. 여기에서 **새로 고침** 을 선택하면 *파일* 의 모델에 있는 데이터는 원래 데이터 원본에서 업데이트된 데이터로 새로 고쳐집니다. 완전히 Power BI Desktop 애플리케이션 자체에서 가져온 이러한 종류의 새로 고침은 Power BI에서 수동 또는 예약된 새로 고침과 다르기 때문에 차이를 이해하는 것이 중요합니다.
 
 ![새로 고침](media/refresh-desktop-file-local-drive/pbix-refresh.png)
 
-로컬 드라이브에서 Power BI Desktop 파일을 가져올 때 모델에 대한 다른 정보와 함께 데이터가 Power BI 서비스에서 데이터 세트에 로드됩니다. Power BI 서비스에서 보고서의 기반이 되기 때문에 (Power BI Desktop이 아닌) Power BI 서비스에서 데이터 세트에 있는 데이터를 새로 고치려고 합니다. 데이터 원본이 외부이기 때문에 **지금 새로 고침**을 사용하여 데이터 세트를 수동으로 새로 고치거나 **새로 고침 예약**을 사용하여 새로 고침 일정을 설정할 수 있습니다.
+로컬 드라이브에서 Power BI Desktop 파일을 가져올 때 모델에 대한 다른 정보와 함께 데이터가 Power BI 서비스에서 데이터 세트에 로드됩니다. Power BI 서비스에서 보고서의 기반이 되기 때문에 (Power BI Desktop이 아닌) Power BI 서비스에서 데이터 세트에 있는 데이터를 새로 고치려고 합니다. 데이터 원본이 외부이기 때문에 **지금 새로 고침** 을 사용하여 데이터 세트를 수동으로 새로 고치거나 **새로 고침 예약** 을 사용하여 새로 고침 일정을 설정할 수 있습니다.
 
 데이터 세트를 새로 고칠 때 Power BI는 업데이트된 데이터에 대해 쿼리하기 위해 로컬 드라이브의 파일에 연결하지 않습니다. 데이터 세트의 정보를 사용하여 업데이트된 데이터에 대해 쿼리하기 위해 데이터 원본에 직접 연결한 다음, 데이터 세트에 로드합니다.
 

@@ -2,19 +2,19 @@
 title: Excel 통합 문서로부터 만들어진 데이터 세트 새로 고침 - 로컬
 description: 로컬 드라이브에 있는 Excel 통합 문서로부터 만들어진 데이터 세트 새로 고침
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 11/28/2018
-ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: ef9c39f6c00738718d88dd485430b150ad95ec50
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: d2dd08d087b8c4f878d9f74946c77e84dd8ba9e0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216350"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403953"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>로컬 드라이브에 있는 Excel 통합 문서로부터 만들어진 데이터 세트 새로 고침
 ## <a name="whats-supported"></a>무엇이 지원되나요?
@@ -46,13 +46,13 @@ Power BI에서 지금 새로 고침 및 새로 고침 예약은 다음 데이터
 > 
 > 
 
-**탐색기**에서 **다음으로 로드...** 를 클릭합니다.  
+**탐색기** 에서 **다음으로 로드...** 를 클릭합니다.  
     ![다음으로 로드 선택 항목을 보여 주는 탐색기에 있는 다음으로 로드의 스크린샷.](media/refresh-excel-file-local-drive/refresh_loadtodm_1.png)
 
-또는 탐색 창에서 **편집**을 클릭하는 경우 쿼리 편집기를 엽니다. 여기서 **닫기 및 다음으로 로드...** 를 클릭할 수 있습니다.  
+또는 탐색 창에서 **편집** 을 클릭하는 경우 쿼리 편집기를 엽니다. 여기서 **닫기 및 다음으로 로드...** 를 클릭할 수 있습니다.  
     ![닫기 및 다음으로 로드 선택 항목을 보여 주는 탐색기에 있는 홈 탭의 스크린샷.](media/refresh-excel-file-local-drive/refresh_loadtodm_2.png)
 
-그런 다음 **다음으로 로드**에서 **데이터 모델에 이 데이터 추가**를 선택해야 합니다.  
+그런 다음 **다음으로 로드** 에서 **데이터 모델에 이 데이터 추가** 를 선택해야 합니다.  
     ![데이터 모델에 이 데이터 추가 확인란이 선택되었음을 보여 주는 다음으로 로드 대화 상자의 스크린샷](media/refresh-excel-file-local-drive/refresh_loadtodm_3.png)
 
 ### <a name="what-if-i-use-get-external-data-in-power-pivot"></a>파워 피벗에서 외부 데이터 가져오기를 사용할 경우 어떻게 되나요?
@@ -66,7 +66,7 @@ Power BI에서 지금 새로 고침 및 새로 고침 예약은 다음 데이터
 ## <a name="when-things-go-wrong"></a>오류가 발생할 때
 무언가 잘못된 경우, 이는 일반적으로 Power BI가 데이터 원본에 로그인할 수 없기 때문이거나 데이터 세트가 온-프레미스 데이터 원본에 연결된 경우 게이트웨이가 오프라인 상태이기 때문입니다. Power BI가 데이터 원본에 로그인할 수 있는지 확인합니다. 데이터 소스에 로그인할 때 사용하는 암호를 변경하거나 Power BI가 데이터 원본에서 로그아웃된 경우, 데이터 원본 자격 증명에서 다시 데이터 원본에 로그인을 시도해야 합니다.
 
-**새로 고침 실패 알림 전자 메일을 내게 보내기를 체크된 상태**로 남겨두어야 합니다. 예약된 새로 고침이 실패하는 경우 바로 알아야 합니다.
+**새로 고침 실패 알림 전자 메일을 내게 보내기를 체크된 상태** 로 남겨두어야 합니다. 예약된 새로 고침이 실패하는 경우 바로 알아야 합니다.
 
 >[!IMPORTANT]
 >새로 고침은 파워 피벗에 연결하고 쿼리된 OData 피드에 지원되지 않습니다. OData 피드를 데이터 원본으로 사용하는 경우 파워 쿼리를 사용합니다.

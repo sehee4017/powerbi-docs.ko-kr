@@ -2,18 +2,18 @@
 title: 조직에 템플릿 앱 설치 및 배포 - Power BI
 description: Power BI에서 조직의 템플릿 앱을 설치, 사용자 지정 및 배포에 대해 알아봅니다.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 09/17/2020
-ms.author: painbar
-ms.openlocfilehash: e152743c243e1af02650d919168dee0969e3a89e
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: b60728978a3429249d7376fdfe1477bf67ef293a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90763774"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96401998"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>조직에 템플릿 앱 설치 및 배포
 
@@ -34,19 +34,19 @@ Power BI 분석가인가요? 그렇다면 이 문서에서는 Salesforce, Micros
 
 ## <a name="install-a-template-app"></a>템플릿 앱 설치
 
-1. Power BI 서비스의 탐색 창에서 **앱** > **앱 가져오기**를 선택합니다.
+1. Power BI 서비스의 탐색 창에서 **앱** > **앱 가져오기** 를 선택합니다.
 
     ![앱 가져오기](media/service-template-apps-install-distribute/power-bi-get-apps-arrow.png)
 
-1. 표시되는 Power BI 앱 마켓플레이스에서 **템플릿 앱**을 선택합니다. AppSource에서 사용할 수 있는 모든 템플릿 앱이 표시됩니다. 원하는 템플릿 앱을 찾아보거나 검색 상자를 사용하여 필터링된 선택 항목을 가져옵니다. 템플릿 앱 이름 또는 재무, 분석, 마케팅 등과 같은 범주의 이름 일부를 입력하면 원하는 항목을 보다 쉽게 찾을 수 있습니다.
+1. 표시되는 Power BI 앱 마켓플레이스에서 **템플릿 앱** 을 선택합니다. AppSource에서 사용할 수 있는 모든 템플릿 앱이 표시됩니다. 원하는 템플릿 앱을 찾아보거나 검색 상자를 사용하여 필터링된 선택 항목을 가져옵니다. 템플릿 앱 이름 또는 재무, 분석, 마케팅 등과 같은 범주의 이름 일부를 입력하면 원하는 항목을 보다 쉽게 찾을 수 있습니다.
 
     ![AppSource에서 검색](media/service-template-apps-install-distribute/power-bi-appsource.png)
 
-1. 찾고 있는 템플릿 앱을 찾았으면 클릭합니다. 템플릿 앱 제품이 표시됩니다. **지금 가져오기**를 클릭합니다.
+1. 찾고 있는 템플릿 앱을 찾았으면 클릭합니다. 템플릿 앱 제품이 표시됩니다. **지금 가져오기** 를 클릭합니다.
 
    ![템플릿 앱 제품](media/service-template-apps-install-distribute/power-bi-template-app-offer.png)
 
-1. 표시되는 대화 상자에서 **설치**를 선택합니다.
+1. 표시되는 대화 상자에서 **설치** 를 선택합니다.
 
     ![앱 설치](media/service-template-apps-install-distribute/power-install-dialog.png)
     
@@ -63,9 +63,9 @@ Power BI 분석가인가요? 그렇다면 이 문서에서는 Salesforce, Micros
 
 ## <a name="connect-to-data"></a>데이터에 연결
 
-1. **앱으로 이동**을 선택합니다.
+1. **앱으로 이동** 을 선택합니다.
 
-1. **새 앱 시작** 창에서 **탐색**을 선택합니다.
+1. **새 앱 시작** 창에서 **탐색** 을 선택합니다.
 
    ![템플릿 앱 시작 화면](media/service-template-apps-install-distribute/power-bi-template-app-get-started.png)
 
@@ -115,7 +115,7 @@ Power BI 분석가인가요? 그렇다면 이 문서에서는 Salesforce, Micros
 >[!NOTE]
 >처음에 AppSource가 아닌 직접 링크를 통해 앱을 다운로드한 경우 새 버전을 사용할 수 있는 시기를 알 수 있는 유일한 방법은 템플릿 앱 작성자에게 문의하는 것입니다.
 
-  업데이트를 설치하려면 알림 배너 또는 알림 센터에서 **지금 얻기**를 클릭하거나, AppSource에서 앱을 다시 찾고 **지금 가져오기**를 선택합니다. 템플릿 앱 작성자가 제공하는 업데이트의 직접 링크를 얻은 경우 링크를 클릭하면 됩니다.
+  업데이트를 설치하려면 알림 배너 또는 알림 센터에서 **지금 얻기** 를 클릭하거나, AppSource에서 앱을 다시 찾고 **지금 가져오기** 를 선택합니다. 템플릿 앱 작성자가 제공하는 업데이트의 직접 링크를 얻은 경우 링크를 클릭하면 됩니다.
   
   현재 버전을 덮어쓸지, 아니면 새 작업 영역에 새 버전을 설치할지 묻는 메시지가 표시됩니다. 기본적으로 “덮어쓰기”가 선택되어 있습니다.
 

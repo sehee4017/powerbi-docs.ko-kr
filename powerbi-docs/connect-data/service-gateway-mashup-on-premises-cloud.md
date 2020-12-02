@@ -2,19 +2,19 @@
 title: 온-프레미스 및 클라우드 데이터 원본 병합 또는 추가
 description: 온-프레미스 데이터 게이트웨이를 사용하여 동일한 쿼리에서 온-프레미스 및 클라우드 데이터 원본을 병합하거나 추가합니다.
 author: arthiriyer
+ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
 ms.date: 07/15/2019
-ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 0e02b75bf7924e84f31265c22420e20ec0b17df3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4da44d0915b981c22b0c334fb5586b97c3b01ea2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237607"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96402389"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>온-프레미스 및 클라우드 데이터 원본 병합 또는 추가
 
@@ -33,13 +33,13 @@ ms.locfileid: "85237607"
 >[!NOTE]
 >클라우드 데이터 원본에 액세스하려면 게이트웨이에서 해당 데이터 원본에 액세스할 수 있는지 확인해야 합니다.
 
-1. Power BI 서비스의 오른쪽 위 모서리에서 기어 아이콘 ![설정 기어 아이콘](media/service-gateway-mashup-on-premises-cloud/icon-gear.png) > **게이트웨이 관리**를 선택합니다.
+1. Power BI 서비스의 오른쪽 위 모서리에서 기어 아이콘 ![설정 기어 아이콘](media/service-gateway-mashup-on-premises-cloud/icon-gear.png) > **게이트웨이 관리** 를 선택합니다.
 
     ![게이트웨이 관리](media/service-gateway-mashup-on-premises-cloud/manage-gateways.png)
 
 2. 구성할 게이트웨이를 선택합니다.
 
-3. **게이트웨이 클러스터 설정**에서 **사용자의 클라우드 데이터 원본이 이 게이트웨이 클러스터를 통해 새로 고치도록 허용** > **적용**을 선택합니다.
+3. **게이트웨이 클러스터 설정** 에서 **사용자의 클라우드 데이터 원본이 이 게이트웨이 클러스터를 통해 새로 고치도록 허용** > **적용** 을 선택합니다.
 
     ![이 게이트웨이 클러스터를 통해 새로 고침](media/service-gateway-mashup-on-premises-cloud/refresh-gateway-cluster.png)
 
@@ -50,7 +50,7 @@ ms.locfileid: "85237607"
 6. 새 데이터 세트의 **데이터 세트 설정** 페이지에서 다음을 수행합니다.
 
    - 온-프레미스 원본의 경우 이 데이터 원본과 연결된 게이트웨이를 선택합니다.
-   - **데이터 원본 자격 증명**에서 필요에 따라 클라우드 데이터 원본 자격 증명을 편집합니다.
+   - **데이터 원본 자격 증명** 에서 필요에 따라 클라우드 데이터 원본 자격 증명을 편집합니다.
 
     클라우드 및 온-프레미스 데이터 원본의 프라이버시 수준이 둘 다 조인을 안전하게 처리하도록 제대로 설정되었는지 확인합니다.
 

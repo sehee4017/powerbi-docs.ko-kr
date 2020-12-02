@@ -5,20 +5,20 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/08/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: dd119abd50450d6090d952d0727f672dc7072abf
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 024f3f3b37555a45b1c0d216b0de4f29d65da2bc
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749440"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403608"
 ---
 # <a name="azure-and-power-bi"></a>Azure 및 Power BI
 
-**Azure** 서비스 및 **Power BI**를 사용하면 비즈니스를 실시간으로 파악하는 분석 및 보고서로 데이터 처리 활동을 전환할 수 있습니다. 데이터 처리가 클라우드 기반인지 아니면 온-프레미스인지 여부, 간단한지 복잡한지 여부, 단일 원본에서 얻었는지 아니면 대규모로 확장되었는지 여부, 웨어하우스인지 아니면 실시간인지에 따라 Azure 및 Power BI는 기본 제공 연결 및 통합 비즈니스 인텔리전스 활동에 활기를 불어넣습니다.
+**Azure** 서비스 및 **Power BI** 를 사용하면 비즈니스를 실시간으로 파악하는 분석 및 보고서로 데이터 처리 활동을 전환할 수 있습니다. 데이터 처리가 클라우드 기반인지 아니면 온-프레미스인지 여부, 간단한지 복잡한지 여부, 단일 원본에서 얻었는지 아니면 대규모로 확장되었는지 여부, 웨어하우스인지 아니면 실시간인지에 따라 Azure 및 Power BI는 기본 제공 연결 및 통합 비즈니스 인텔리전스 활동에 활기를 불어넣습니다.
 
 ![Azure](media/service-azure-and-power-bi/azure_1.png)
 
@@ -34,7 +34,7 @@ Azure SQL Database에 연결을 시작하고 비즈니스의 진행률을 모니
 
 ## <a name="transform-shape-and-merge-your-cloud-data"></a>클라우드 데이터 변환, 구체화 및 병합
 
-복잡한 데이터 및 모든 종류의 원본이 있으세요? 문제가 되지 않습니다. **Power BI Desktop**과 Azure 서비스를 사용하면 **데이터 가져오기** 대화 상자를 한 번 탭하여 연결할 수 있습니다. 동일한 쿼리 내에서 **Azure SQL Database**, **Azure HDInsight** 데이터 소스 및 **Azure Blob Storage**(또는 **Azure Table Storage**)에 연결한 다음, 필요한 각각의 내부 하위 집합만 선택하고 여기서 구체화할 수 있습니다.
+복잡한 데이터 및 모든 종류의 원본이 있으세요? 문제가 되지 않습니다. **Power BI Desktop** 과 Azure 서비스를 사용하면 **데이터 가져오기** 대화 상자를 한 번 탭하여 연결할 수 있습니다. 동일한 쿼리 내에서 **Azure SQL Database**, **Azure HDInsight** 데이터 소스 및 **Azure Blob Storage**(또는 **Azure Table Storage**)에 연결한 다음, 필요한 각각의 내부 하위 집합만 선택하고 여기서 구체화할 수 있습니다.
 
 동일한 데이터 연결 및 동일한 쿼리를 사용하여 대상마다 다른 보고서를 만들 수 있습니다. 새 보고서 페이지를 작성하고, 각 대상에 대한 시각화를 구체화 하고, 비즈니스를 잘 알고 유지하면 됩니다.
 
@@ -66,4 +66,4 @@ Azure와 Power BI를 사용하여 필요한 만큼 확장할 수 있습니다. �
 
 ## <a name="what-could-you-do-with-azure-and-power-bi"></a>Azure 및 Power BI로 수행할 수 있는 작업은 무엇인가요?
 
-**Azure** 및 **Power BI**를 결합할 수 있는 모든 종류의 시나리오가 있습니다. 여기서 가능성 및 기회는 비즈니스만큼 고유합니다. **Azure 서비스**에 대한 자세한 내용은 **Azure를 사용한 데이터 분석 시나리오**를 설명하는 이 [개요 페이지](/azure/machine-learning/team-data-science-process/plan-your-environment)에서 확인하고, 데이터 소스를 인텔리전스로 변환하는 방법을 알아봅니다.
+**Azure** 및 **Power BI** 를 결합할 수 있는 모든 종류의 시나리오가 있습니다. 여기서 가능성 및 기회는 비즈니스만큼 고유합니다. **Azure 서비스** 에 대한 자세한 내용은 **Azure를 사용한 데이터 분석 시나리오** 를 설명하는 이 [개요 페이지](/azure/machine-learning/team-data-science-process/plan-your-environment)에서 확인하고, 데이터 소스를 인텔리전스로 변환하는 방법을 알아봅니다.
