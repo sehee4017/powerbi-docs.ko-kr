@@ -2,19 +2,19 @@
 title: 멋진 Power BI 대시보드를 디자인하기 위한 팁
 description: 멋진 Power BI 대시보드를 디자인하기 위한 팁
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 08/14/2019
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 30c0600e835ad7088d6d867e9d1f4de24550c8cc
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d1e2a3b304d7d92ee6443e288d77599cb734ff1a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237194"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388704"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>멋진 Power BI 대시보드를 디자인하기 위한 팁
 이제 대시보드를 만들고 일부 타일을 추가했으므로 모양과 기능을 개선하는 방법을 살펴보겠습니다. 일반적으로, 가장 중요한 정보를 강조하며 깔끔하고 간결하게 다듬는 작업이 포함됩니다.
@@ -22,7 +22,7 @@ ms.locfileid: "85237194"
 ![마케팅 및 판매 샘플 대시보드](media/service-dashboards-design-tips/power-bi-marketing-sample-dashboard.png)
 
 > [!TIP]
-> 이 대시보드가 마음에 드시나요? AppSource에서 대시보드와 관련 보고서를 다운로드할 수 있습니다. **데이터 가져오기** > **서비스**로 이동합니다. **Microsoft 샘플 - 마케팅 및 판매** > **지금 가져오기**를 선택합니다.
+> 이 대시보드가 마음에 드시나요? AppSource에서 대시보드와 관련 보고서를 다운로드할 수 있습니다. **데이터 가져오기** > **서비스** 로 이동합니다. **Microsoft 샘플 - 마케팅 및 판매** > **지금 가져오기** 를 선택합니다.
 
 다음은 대시보드에 대한 몇 가지 팁입니다.
 

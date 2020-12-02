@@ -2,17 +2,17 @@
 title: Power BI 서비스의 내 작업 영역에 샘플 다운로드
 description: 모바일 앱 자습서에서 사용하기 위해 Power BI 서비스 계정의 내 작업 영역에 샘플 데이터를 다운로드합니다.
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/26/2019
-ms.author: painbar
-ms.openlocfilehash: 82a299dad5d58ca03d2b05ae02c49e0da0478303
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 40105943dc1896b979264bc8b9cbc71c527f5ba1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75256796"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96389164"
 ---
 # <a name="downloading-samples-to-my-workspace-in-the-power-bi-service"></a>Power BI 서비스의 내 작업 영역에 샘플 다운로드
 
@@ -26,7 +26,7 @@ Power BI 서비스 계정이 있어야 데이터를 다운로드할 수 있습�
 
 1. 브라우저에서 [Power BI 서비스](https://app.powerbi.com)를 열고 로그인합니다.
 
-2. 탐색 창의 왼쪽 아래에서 **데이터 가져오기**를 선택합니다. 탐색 창이 숨겨져 있고 데이터 가져오기 링크를 볼 수 없는 경우, 표시/숨기기 탐색 창 아이콘 ![전역 탐색 단추](./media/mobile-apps-download-samples/power-bi-iphone-global-nav-button.png)을 클릭하여 창을 표시합니다.  
+2. 탐색 창의 왼쪽 아래에서 **데이터 가져오기** 를 선택합니다. 탐색 창이 숨겨져 있고 데이터 가져오기 링크를 볼 수 없는 경우, 표시/숨기기 탐색 창 아이콘 ![전역 탐색 단추](./media/mobile-apps-download-samples/power-bi-iphone-global-nav-button.png)을 클릭하여 창을 표시합니다.  
    
     ![데이터 가져오기](./media/mobile-apps-download-samples/power-bi-get-data.png)
 
@@ -34,7 +34,7 @@ Power BI 서비스 계정이 있어야 데이터를 다운로드할 수 있습�
    
    ![샘플 아이콘](./media/mobile-apps-download-samples/power-bi-samples-icon.png)
 
-4. 다운로드할 샘플을 선택합니다. 사용 중인 자습서, 빠른 시작 또는 문서에 필요한 샘플을 선택해야 합니다. 샘플을 선택한 후 **연결**을 클릭합니다.
+4. 다운로드할 샘플을 선택합니다. 사용 중인 자습서, 빠른 시작 또는 문서에 필요한 샘플을 선택해야 합니다. 샘플을 선택한 후 **연결** 을 클릭합니다.
   
    ![연결 선택](./media/mobile-apps-download-samples/opportunity-connect.png)
    

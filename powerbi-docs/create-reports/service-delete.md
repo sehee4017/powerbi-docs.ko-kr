@@ -2,19 +2,19 @@
 title: 대시보드, 보고서, 통합 문서, 데이터 세트 또는 작업 영역 삭제
 description: Power BI 서비스에서 거의 모든 항목을 삭제하는 방법을 알아봅니다.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/29/2020
-ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 1e1cc55f21f43b7029a68670d9a7af9215f5b62c
-ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
+ms.openlocfilehash: 9d6310daf5c9e3d658edec6a7949661ad171b102
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "93132524"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388773"
 ---
 # <a name="delete-almost-anything-in-the-power-bi-service"></a>Power BI 서비스에서 거의 모든 항목 삭제
 이 문서에서는 Power BI 서비스에서 대시보드, 보고서, 통합 문서, 데이터 세트, 앱, 시각화 또는 작업 영역을 삭제하는 방법을 보여 줍니다. 몇 가지 예외가 있지만 Power BI 서비스에서 거의 모든 항목을 삭제할 수 있습니다. 
@@ -63,7 +63,7 @@ Power BI에는 원본 또는 ‘클래식’ 작업 영역과 새 작업 영역�
 
 1. 탐색 창에서 **작업 영역** 을 선택합니다.
 
-2. 삭제할 작업 영역의 오른쪽에 있는 **추가 옵션** (...)을 선택하고 **작업 영역 설정** 을 선택합니다.
+2. 삭제할 작업 영역의 오른쪽에 있는 **추가 옵션**(...)을 선택하고 **작업 영역 설정** 을 선택합니다.
 
     ![추가 옵션, 작업 영역 설정 선택 스크린샷](media/service-delete/power-bi-delete-workspace.png)
 

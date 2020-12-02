@@ -2,20 +2,20 @@
 title: 대시보드, 보고서, 데이터 세트에서 관련 콘텐츠 보기
 description: 더욱 간편해진 탐색, 대시보드, 보고서, 데이터 세트에서 관련 콘텐츠 보기
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/25/2020
-ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: f27cea554cd9d4e1a68fa300c5d39d70e1eefb48
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 5487697196b5ab6c7132db44ba707a0c7cc708d4
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91527269"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96389923"
 ---
 # <a name="see-related-content-in-the-power-bi-service"></a>Power BI 서비스에서 관련 콘텐츠 보기
 
@@ -42,7 +42,7 @@ Will이 대시보드에 대한 관련 콘텐츠를 보여주는 비디오를 시
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M#t=3m05s" frameborder="0" allowfullscreen></iframe>
 
-대시보드 또는 보고서를 열고 메뉴 모음에서 **추가 옵션**(...)을 선택한 다음, 드롭다운에서 **관련 항목 보기**를 선택합니다.
+대시보드 또는 보고서를 열고 메뉴 모음에서 **추가 옵션**(...)을 선택한 다음, 드롭다운에서 **관련 항목 보기** 를 선택합니다.
 
 ![줄임표 드롭다운](./media/end-user-related/power-bi-see-related.png)
 

@@ -1,31 +1,31 @@
 ---
 title: Power BI 서비스의 Power BI 소비자 기능
-description: 이 빠른 시작에서 **소비자**는 Power BI, 앱, 보고서 및 대시보드에 대해 알게 됩니다.
+description: 이 빠른 시작에서 **소비자** 는 Power BI, 앱, 보고서 및 대시보드에 대해 알게 됩니다.
+author: mihart
+ms.author: mihart
 services: powerbi
 documentationcenter: ''
-author: mihart
 ms.reviewer: mihart
 editor: ''
 tags: ''
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/30/2020
-ms.author: mihart
-ms.openlocfilehash: fbff6f202d6bdd3a4bffc031f23399869f08bc5c
-ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
+ms.openlocfilehash: ff5ffe959372952841cc41d92624b27f2d958f62
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "91780540"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96390176"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-business-users"></a>빠른 시작: 비즈니스 사용자를 위한 Power BI 기능 알아보기
 
 [!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
-이 빠른 시작에서는 Power BI를 조작하여 데이터 기반 비즈니스 인사이트를 검색하는 방법을 알아봅니다. 이 문서에서는 자세한 내용을 제공하는 대신 Power BI **비즈니스 사용자**가 사용할 수 있는 다양한 작업을 빠르게 둘러볼 수 있습니다.
+이 빠른 시작에서는 Power BI를 조작하여 데이터 기반 비즈니스 인사이트를 검색하는 방법을 알아봅니다. 이 문서에서는 자세한 내용을 제공하는 대신 Power BI **비즈니스 사용자** 가 사용할 수 있는 다양한 작업을 빠르게 둘러볼 수 있습니다.
 
 아직 Power BI에 등록하지 않은 경우 시작하기 전에 [평가판에 등록합니다](https://app.powerbi.com/signupredirect?pbi_source=web).
 
@@ -54,9 +54,9 @@ Power BI에서 “콘텐츠”라는 용어를 사용하는 경우 보고서, �
 
 ###  <a name="apps"></a>앱
 
-*앱*은 관련 대시보드 및 보고서를 모두 한 곳에서 결합하는 Power BI 콘텐츠 형식입니다. 앱은 하나 이상의 대시보드와 하나 이상의 보고서를 함께 번들할 수 있습니다. 앱은 앱을 배포하고 비즈니스 사용자와 공유하는 Power BI 디자이너가 만듭니다. 
+*앱* 은 관련 대시보드 및 보고서를 모두 한 곳에서 결합하는 Power BI 콘텐츠 형식입니다. 앱은 하나 이상의 대시보드와 하나 이상의 보고서를 함께 번들할 수 있습니다. 앱은 앱을 배포하고 비즈니스 사용자와 공유하는 Power BI 디자이너가 만듭니다. 
 
-앱을 보는 한 가지 방법은 탐색 창에서 **앱**을 선택하고 열려는 앱을 선택하는 것입니다.
+앱을 보는 한 가지 방법은 탐색 창에서 **앱** 을 선택하고 열려는 앱을 선택하는 것입니다.
 
 ![여덟 가지 앱을 보여 주는 앱 화면의 스크린샷.](./media/end-user-reading-view/power-bi-app.png)
 
@@ -128,7 +128,7 @@ Power BI 서비스에서 자동으로 작업을 수행하는 두 가지 방법�
    
 ![빨간색으로 윤곽이 표시된 별 아이콘이 있는 대시보드의 오른쪽 위 모서리를 보여 주는 스크린샷.](./media/end-user-reading-view/power-bi-favorite-icon.png)
 
-즐겨찾기를 보려면 탐색 창에서 **즐겨찾기**를 선택합니다.
+즐겨찾기를 보려면 탐색 창에서 **즐겨찾기** 를 선택합니다.
 
 ![즐겨찾기가 선택되고 빨간색으로 윤곽이 표시된 홈의 스크린샷.](./media/end-user-reading-view/power-bi-list-favorite.png)
 
@@ -169,7 +169,7 @@ Easily navigate between the visualizations on the report page.
 
 ![전체 캔버스를 채우는 포커스 모드를 보여 주는 스크린샷.](media/end-user-reading-view/power-bi-fullscreen-after.png)
 
-메뉴 모음, 필터 창, 기타 크롬 없이 동일한 시각화를 표시하려면 보기 드롭다운에서 **전체 화면**을 선택합니다.   
+메뉴 모음, 필터 창, 기타 크롬 없이 동일한 시각화를 표시하려면 보기 드롭다운에서 **전체 화면** 을 선택합니다.   
 
 ![보기 드롭다운 메뉴를 보여 주는 스크린샷.](media/end-user-reading-view/power-bi-focus.png)
 
@@ -187,9 +187,9 @@ Easily navigate between the visualizations on the report page.
 [시각적 개체 정렬](end-user-search-sort.md)에 대한 자세한 정보
 
 ### <a name="show-the-data-used-to-create-a-visualization"></a>시각화를 만드는 데 사용된 데이터 표시
-Power BI 시각화는 기본 데이터 세트의 데이터를 사용하여 구성됩니다. 숨은 기능에 관심이 있는 경우 Power BI를 사용하면 시각적 개체를 만드는 데 사용되는 데이터를 *표시*할 수 있습니다. **테이블로 표시**를 선택하면 Power BI에서 데이터를 시각화 아래(또는 옆)에 표시합니다.
+Power BI 시각화는 기본 데이터 세트의 데이터를 사용하여 구성됩니다. 숨은 기능에 관심이 있는 경우 Power BI를 사용하면 시각적 개체를 만드는 데 사용되는 데이터를 *표시* 할 수 있습니다. **테이블로 표시** 를 선택하면 Power BI에서 데이터를 시각화 아래(또는 옆)에 표시합니다.
 
-시각적 개체를 활성화하고 **추가 옵션**(...)을 선택한 다음 **테이블로 표시**를 선택합니다.
+시각적 개체를 활성화하고 **추가 옵션**(...)을 선택한 다음 **테이블로 표시** 를 선택합니다.
    
    ![위쪽의 영역 차트와 아래의 데이터가 있는 테이블을 보여 주는 스크린샷.](./media/end-user-show-data/power-bi-show-data-table.png)
 
@@ -206,9 +206,9 @@ Power BI 시각화는 기본 데이터 세트의 데이터를 사용하여 구�
 비즈니스 사용자가 Power BI 서비스에서 수행할 수 있는 몇 가지 작업을 간략하게 살펴보았습니다.  
 
 ## <a name="clean-up-resources"></a>리소스 정리
-- 앱에 연결한 경우 탐색 창에서 **앱**을 선택하여 앱 콘텐츠 목록을 엽니다. 삭제할 앱을 마우스로 가리키고 휴지통 아이콘을 선택합니다.
+- 앱에 연결한 경우 탐색 창에서 **앱** 을 선택하여 앱 콘텐츠 목록을 엽니다. 삭제할 앱을 마우스로 가리키고 휴지통 아이콘을 선택합니다.
 
-- Power BI 샘플 보고서에 가져오거나 연결한 경우 탐색 창에서 **내 작업 영역**을 엽니다. 맨 위에 있는 탭을 사용하여 대시보드, 보고서 및 데이터 세트를 찾고 각각의 휴지통 아이콘을 선택합니다.
+- Power BI 샘플 보고서에 가져오거나 연결한 경우 탐색 창에서 **내 작업 영역** 을 엽니다. 맨 위에 있는 탭을 사용하여 대시보드, 보고서 및 데이터 세트를 찾고 각각의 휴지통 아이콘을 선택합니다.
 
 ## <a name="next-steps"></a>다음 단계
 [비즈니스 사용자를 위한 Power BI](end-user-consumer.md)

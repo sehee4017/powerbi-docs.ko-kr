@@ -2,19 +2,19 @@
 title: Power BI의 질문 및 답변에서 Excel 데이터가 잘 작동하도록 설정
 description: Power BI의 질문 및 답변에서 데이터가 잘 작동하게 만드는 방법
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/13/2019
-ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: f7760021966673b93313809a806473b94c7750d3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 41672fa809544198a053ae41f935e890d83cfa72
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85218703"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388106"
 ---
 # <a name="make-excel-data-work-well-with-qa-in-power-bi"></a>Power BI의 질문 및 답변에서 Excel 데이터가 잘 작동하도록 설정
 데이터 모델을 만들거나 Power BI에 사용할 Excel 통합 문서를 작성하는 사람이라면 다음을 확인하세요.

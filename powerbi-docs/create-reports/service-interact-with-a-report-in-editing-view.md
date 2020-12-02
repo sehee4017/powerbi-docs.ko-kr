@@ -2,19 +2,19 @@
 title: 편집용 보기에서 보고서와 상호 작용
 description: Power BI 서비스의 보고서 편집용 보기에서 보고서와 상호 작용
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/14/2020
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 3cf9d404defa3cd1ea37035ea3913262903498dd
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: f1e162e0002051853081898f548864e751c5b429
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462513"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388382"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-the-power-bi-service"></a>Power BI 서비스의 편집용 보기에서 보고서와 상호 작용
 

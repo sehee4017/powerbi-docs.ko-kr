@@ -2,19 +2,19 @@
 title: 비즈니스 사용자용 Power BI 서비스의 대시보드 타일
 description: 비즈니스 사용자용 Power BI의 대시보드 타일에 대한 모든 정보. SSRS(SQL Server Reporting Services)에서 만들어진 타일을 포함합니다.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/06/2020
-ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ab8cfefab74d3120451b56c3ea30518e538ad543
-ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
+ms.openlocfilehash: 67291ca77b161fab289ee0520287d832cce838f8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "91830492"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96389532"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI의 대시보드 타일
 

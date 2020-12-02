@@ -2,19 +2,19 @@
 title: 'Power BI 서비스의 Excel 파일에서 보고서 만들기 '
 description: Power BI 서비스의 Excel 파일에서 Power BI 보고서를 만듭니다.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/14/2020
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: d6a52fd72ab96541eee621d6be6cb50005f293e2
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: 806198b783785a06562411b53f7bd6f644b16918
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462739"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388198"
 ---
 # <a name="create-a-report-from-an-excel-file-in-the-power-bi-service"></a>Power BI 서비스의 Excel 파일에서 보고서 만들기
 지금까지 [Power BI의 보고서](../consumer/end-user-reports.md)에 대해 살펴보았으며 이제 직접 만들려고 합니다. 다양한 방법으로 보고서를 만들 수 있습니다. 이 문서에서는 먼저 Power BI 서비스에서 Excel 파일로 기본 보고서를 만듭니다. 보고서를 만들기 위한 기본 사항을 파악했으면, 끝에 있는 [다음 단계](#next-steps)에서 더 높은 수준의 보고서 항목을 확인합니다.  
@@ -44,7 +44,7 @@ ms.locfileid: "92462739"
 
 1. 데이터 세트 옆에 있는 **추가 옵션(...)** 을 선택한 다음 **보고서 만들기** 를 선택합니다.
    
-   :::image type="content" source="media/service-report-create-new/power-bi-dataset-create-report.png" alt-text="내 작업 영역을 선택하는 스크린샷":::
+   :::image type="content" source="media/service-report-create-new/power-bi-dataset-create-report.png" alt-text="보고서 만들기를 선택하는 스크린샷":::
 6. 보고서 편집기가 열립니다. 
    
    ![보고서 편집기의 스크린샷](media/service-report-create-new/power-bi-blank-report.png)
@@ -52,7 +52,7 @@ ms.locfileid: "92462739"
 > [!TIP]
 > 메뉴 아이콘을 선택하여 탐색 창을 숨기고 더 많은 공간을 제공합니다.
 > 
-> :::image type="content" source="../media/power-bi-hide-navigation-pane.png" alt-text="내 작업 영역을 선택하는 스크린샷":::
+> :::image type="content" source="../media/power-bi-hide-navigation-pane.png" alt-text="메뉴 아이콘을 선택하여 탐색 창을 숨기는 스크린샷":::
 
 
 ## <a name="add-a-radial-gauge-to-the-report"></a>보고서에 방사형 계기 추가

@@ -2,19 +2,19 @@
 title: Power BI에서 라이브 연결로 질문 및 답변 사용
 description: Analysis Services 데이터 및 온-프레미스 데이터 게이트웨이에 대한 라이브 연결로 Power BI 질문 및 답변 자연어 쿼리 사용에 대한 설명서입니다.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/29/2020
-ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 8137fa6bb10e20992547746bc6e91e001767c679
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4e64121fdac63abe22d77818a0f91a860cac316f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85218864"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388152"
 ---
 # <a name="enable-qa-for-live-connections-in-power-bi"></a>Power BI에서 라이브 연결에 대한 질문 및 답변 사용
 
@@ -40,13 +40,13 @@ Power BI 질문 및 답변은 데이터 원본에서 텍스트 및 스키마 값
 ## <a name="enable-qa"></a>질문 및 답변 사용
 데이터 게이트웨이를 등록한 후에 Power BI에서 데이터에 연결합니다.  온-프레미스 데이터를 사용하여 대시보드를 만들거나 온-프레미스 데이터를 사용하는 .pbix 파일을 업로드합니다.  또한 사용자와 공유된 대시보드, 보고서 및 데이터 세트에 온-프레미스 데이터가 이미 있을 수 있습니다.
 
-1. Power BI의 오른쪽 위에서 톱니바퀴 아이콘 ![기어 아이콘](media/service-q-and-a-direct-query/power-bi-cog.png)을 선택하고 **설정**을 선택합니다.
+1. Power BI의 오른쪽 위에서 톱니바퀴 아이콘 ![기어 아이콘](media/service-q-and-a-direct-query/power-bi-cog.png)을 선택하고 **설정** 을 선택합니다.
    
    ![설정 메뉴](media/service-q-and-a-direct-query/powerbi-settings.png)
-2. **데이터 세트**를 선택하고 질문 및 답변에 사용할 데이터 세트를 선택합니다.
+2. **데이터 세트** 를 선택하고 질문 및 답변에 사용할 데이터 세트를 선택합니다.
    
    ![설정 메뉴의 데이터 세트 화면](media/service-q-and-a-direct-query/power-bi-q-and-a-settings.png)
-3. **질문 및 답변**을 확장하고 **이 데이터 세트에 대한 질문 및 답변 켜기** 확인란을 선택한 다음, **적용**을 선택합니다.
+3. **질문 및 답변** 을 확장하고 **이 데이터 세트에 대한 질문 및 답변 켜기** 확인란을 선택한 다음, **적용** 을 선택합니다.
    
     ![확장된 질문 및 답변 영역](media/service-q-and-a-direct-query/power-bi-qna-dataset-direct-query.png)
 

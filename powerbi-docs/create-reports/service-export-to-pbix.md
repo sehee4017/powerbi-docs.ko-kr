@@ -2,19 +2,19 @@
 title: Power BI 서비스에서 Power BI Desktop으로 보고서 다운로드(미리 보기)
 description: Power BI 서비스에서 Power BI Desktop 파일로 보고서 다운로드
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 07/14/2020
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: cd9295e26de50714a15afb672814893317fb8e3b
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c83b7d1e52a0d443c52348bec91f935e288830d4
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861409"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388681"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Power BI 서비스에서 Power BI Desktop으로 보고서 다운로드(미리 보기)
       
@@ -32,7 +32,7 @@ Power BI Desktop에서 로컬 컴퓨터의 보고서( *.pbix* 파일)를 Power B
 
 1. Power BI 서비스에서 다운로드하려는 보고서를 [편집용 보기](./service-interact-with-a-report-in-editing-view.md)로 엽니다.
 
-2. 위쪽 탐색 창에서 **파일 > 보고서 다운로드**를 선택합니다.
+2. 위쪽 탐색 창에서 **파일 > 보고서 다운로드** 를 선택합니다.
    
 3. 보고서를 다운로드하는 동안 상태 배너가 진행 상태를 표시합니다. 파일이 준비되면 .pbix 파일을 저장할 위치를 묻는 메시지가 표시됩니다. 파일의 기본 이름은 보고서의 제목과 일치합니다.
    
@@ -63,7 +63,7 @@ Power BI 서비스에서 .pbix 파일을 다운로드하는 경우와 관련된 
 
 ## <a name="next-steps"></a>다음 단계
 
-이 기능에 대한 1분 비디오 **큐브에서 Guy**를 참조하세요.
+이 기능에 대한 1분 비디오 **큐브에서 Guy** 를 참조하세요.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ymWqU5jiUl0" frameborder="0" allowfullscreen></iframe>
 

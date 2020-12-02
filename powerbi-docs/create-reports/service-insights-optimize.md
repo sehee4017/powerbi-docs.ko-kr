@@ -2,19 +2,19 @@
 title: Power BI 빠른 인사이트를 위한 데이터 최적화
 description: Power BI 신속한 정보 활용을 위해 데이터를 최적화합니다. Power BI가 데이터를 파악하지 못하는 경우 다음과 같은 작업을 수행할 수 있습니다.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 03/02/2017
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 277e160767f21fb221896015553e8d7dcfcf9567
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 41250b3d6de7708912b82376a2a5f07d2e686105
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238245"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388451"
 ---
 # <a name="optimize-your-data-for-power-bi-quick-insights"></a>Power BI 빠른 인사이트를 위해 데이터 최적화
 빠른 인사이트 결과를 개선하려는 경우  데이터 세트 소유자이면, 다음을 시도해 보세요.

@@ -2,18 +2,18 @@
 title: iOS용 Power BI 모바일 앱 시작
 description: 온-프레미스 및 클라우드에서 비즈니스 정보에 대한 모바일 액세스 권한을 사용하여 iOS 앱용 Microsoft Power BI 모바일 앱이 Power BI를 휴대하는 방법에 대해 알아봅니다.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 02/10/2020
-ms.author: painbar
-ms.openlocfilehash: 989e77eeaa559ac74579c1d981f77f2bca374f01
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: da06c02620272deb0648e0706f73d92540385e3b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264778"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388819"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>iOS 디바이스에서 Power BI 모바일 앱 시작
 iPhone 및 iPad의 iOS용 Microsoft Power BI 앱은 Power BI, Power BI Report Server 및 Reporting Services의 모바일 BI 환경을 제공합니다. 실시간 터치 가능한 모바일 액세스를 사용하여 어디에서나 온-프레미스 및 클라우드에 있는 회사 대시보드를 쉽게 보고 상호작용할 수 있습니다. 대시보드의 데이터를 살펴보고 메일 또는 문자 메시지로 동료와 공유합니다. 그리고 [Apple Watch](mobile-apple-watch.md)에서 가장 시기 적절한 데이터를 최신 상태로 유지합니다.  
@@ -35,7 +35,7 @@ Apple App Store에서 iPhone 또는 iPad로 [iOS 앱을 다운로드](https://go
 iOS 11 이상을 실행하는 모든 디바이스에서 iOS용 Power BI 모바일 앱을 실행할 수 있습니다. 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Power BI 서비스에 등록
-등록하지 않은 경우 [powerbi.com](https://powerbi.microsoft.com/get-started/)으로 이동하여 **Power BI - 클라우드 협업 및 공유**에서 **무료 체험**을 선택합니다.
+등록하지 않은 경우 [powerbi.com](https://powerbi.microsoft.com/get-started/)으로 이동하여 **Power BI - 클라우드 협업 및 공유** 에서 **무료 체험** 을 선택합니다.
 
 
 ## <a name="get-started-with-the-power-bi-app"></a>Power BI 앱 시작
@@ -50,7 +50,7 @@ iOS 11 이상을 실행하는 모든 디바이스에서 iOS용 Power BI 모바�
 ## <a name="try-the-power-bi-and-reporting-services-samples"></a>Power BI 및 Reporting Services 샘플 시도
 등록하지 않고도 Power BI 및 Reporting Services 샘플을 보고 조작할 수 있습니다.
 
-샘플에 액세스하려면 탐색 모음에서 **추가 옵션**(...)을 탭하고 **샘플**을 선택합니다.
+샘플에 액세스하려면 탐색 모음에서 **추가 옵션**(...)을 탭하고 **샘플** 을 선택합니다.
 
 다양한 Power BI 샘플 뒤에 몇 가지 보고서 서버 샘플이 제공됩니다.
 

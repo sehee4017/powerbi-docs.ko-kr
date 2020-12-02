@@ -2,21 +2,21 @@
 title: 데이터 세트에 대한 데이터 인사이트를 자동으로 생성
 description: 데이터 세트 및 대시보드 타일에 대한 정보를 얻는 방법에 대해 알아봅니다.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 09/28/2020
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 79148389a697feb2a3d2e2cba0b919eb59632ff7
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 8db804ec3afe4b752ab6f5f8546782cac7135055
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91524469"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388474"
 ---
 # <a name="generate-data-insights-on-your-dataset-automatically-with-power-bi"></a>Power BI를 통해 데이터 세트에 대한 데이터 인사이트를 자동으로 생성
 새 데이터 세트가 있고 어디서 시작해야 할지가 확실하지 않은 경우  빠르게 대시보드를 만들어야 하는 경우  놓쳤을 수 있는 정보를 찾으려는 경우
@@ -37,7 +37,7 @@ Amanda가 데이터 세트에 대한 신속한 인사이트를 실행하고 Focu
 
 이제 여러분 차례입니다. [공급업체 품질 분석 샘플](sample-supplier-quality.md)을 사용하여 인사이트를 살펴보세요.
 
-1. **데이터 세트** 탭에서 **추가 옵션** (...)을 선택한 다음, **빠른 인사이트 탐색** 을 선택합니다.
+1. **데이터 세트** 탭에서 **추가 옵션**(...)을 선택한 다음, **빠른 인사이트 탐색** 을 선택합니다.
    
     ![데이터 세트 탭](media/service-insights/power-bi-ellipses.png)
    
@@ -61,7 +61,7 @@ Amanda가 데이터 세트에 대한 신속한 인사이트를 실행하고 Focu
 
 1. 시각화를 대시보드에 추가하려면 카드를 마우스로 가리키고 고정 아이콘을 선택합니다.
 
-2. 카드를 마우스로 가리키고 **추가 옵션** (...)을 선택한 다음, **인사이트 보기** 를 선택합니다. 
+2. 카드를 마우스로 가리키고 **추가 옵션**(...)을 선택한 다음, **인사이트 보기** 를 선택합니다. 
 
     인사이트 화면이 포커스 모드로 열립니다.
    
@@ -72,7 +72,7 @@ Amanda가 데이터 세트에 대한 신속한 인사이트를 실행하고 Focu
 
        ![펼쳐진 인사이트 필터 메뉴](media/service-insights/power-bi-insights-filter-new.png)
    * **시각적 개체 고정** 을 선택하여 인사이트 카드를 대시보드에 고정합니다.
-   * 카드 자체에서 인사이트를 실행합니다. 이 작업을 ‘지정된 범위의 인사이트’라고도 합니다.  오른쪽 위에서 전구 모양 아이콘 ![인사이트 얻기 아이콘](media/service-insights/power-bi-bulb-icon.png) 또는 **인사이트 얻기** 를 선택합니다.
+   * 카드 자체에서 인사이트를 실행합니다. 이 작업을 ‘지정된 범위의 인사이트’라고도 합니다. 오른쪽 위에서 전구 모양 아이콘 ![인사이트 얻기 아이콘](media/service-insights/power-bi-bulb-icon.png) 또는 **인사이트 얻기** 를 선택합니다.
      
        ![인사이트 얻기 아이콘](media/service-insights/pbi-autoinsights-tile.png)
      

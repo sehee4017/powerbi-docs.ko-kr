@@ -1,20 +1,20 @@
 ---
 title: Power BI 서비스의 페이지를 매긴 보고서
 description: 페이지를 매긴 보고서에 대해 설명하고 Power BI 서비스에서 페이지를 매긴 보고서를 보는 방법을 안내하는 설명서
-author: mihart
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: christopher.finlan
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/11/2020
-ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 15482b575d7fc923059964ea47a173fda6c7f600
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 2be1c325d876c944c31d62a67771308d80dca69d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983181"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96390521"
 ---
 # <a name="paginated-reports-in-the-power-bi-service"></a>Power BI 서비스의 페이지를 매긴 보고서
 
@@ -47,7 +47,7 @@ ms.locfileid: "91983181"
 
 이처럼 매개 변수를 설정하는 것이 페이지를 매긴 보고서에서 요구되는 상호 작용의 범위입니다. 청구 분석가는 페이지를 매긴 보고서를 사용하여 청구서를 만들거나 인쇄할 수 있습니다. 판매 관리자는 페이지를 매긴 보고서를 사용하여 매장이나 판매원을 기준으로 주문을 확인할 수 있습니다. 
 
-아래의 간단한 페이지를 매긴 보고서는 사용자가 **Year** (연도) 매개 변수를 선택하면 해당 연도의 이익을 표시합니다. 
+아래의 간단한 페이지를 매긴 보고서는 사용자가 **Year**(연도) 매개 변수를 선택하면 해당 연도의 이익을 표시합니다. 
 
 ![1개의 매개 변수가 있는 간단한 보고서](./media/end-user-paginated-report/power-bi-one-parameter.png)
 
@@ -74,7 +74,7 @@ ms.locfileid: "91983181"
 
 ![3개의 매개 변수가 있는 보고서](./media/end-user-paginated-report/power-bi-parameter-bar.png)
 
-표시되는 정보를 변경하려면 3개의 매개 변수에 다른 값을 입력하고 **보고서 보기** 를 선택합니다. 여기서는 **Specialty bike shop** (전문 자전거 상점), **Alpine Ski House** (알파인 스키하우스), 주문 번호 **SO46085** 를 선택했습니다. **보고서 보기** 를 선택하면 보고서 캔버스가 새로운 판매 주문으로 새로 고침됩니다.
+표시되는 정보를 변경하려면 3개의 매개 변수에 다른 값을 입력하고 **보고서 보기** 를 선택합니다. 여기서는 **Specialty bike shop**(전문 자전거 상점), **Alpine Ski House**(알파인 스키하우스), 주문 번호 **SO46085** 를 선택했습니다. **보고서 보기** 를 선택하면 보고서 캔버스가 새로운 판매 주문으로 새로 고침됩니다.
 
 ![매개 변수 변경](./media/end-user-paginated-report/power-bi-orders.png)
 

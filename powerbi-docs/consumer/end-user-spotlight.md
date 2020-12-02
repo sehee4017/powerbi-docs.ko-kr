@@ -2,19 +2,19 @@
 title: 스포트라이트를 사용하여 강조 표시
 description: Power BI 서비스의 스포트라이트는 중요한 데이터 및 인사이트를 강조 표시합니다.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/06/2020
-ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 51f98bd5bc22609aba01a775678c5dccf6cf0d0c
-ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
+ms.openlocfilehash: 87e5c69905bc034ff8a77357992404a19b5ceff9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "91830211"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96389486"
 ---
 # <a name="add-spotlights-to-power-bi-reports"></a>Power BI 보고서에 스포트라이트 추가
 
@@ -30,7 +30,7 @@ ms.locfileid: "91830211"
 
     ![스포트라이트와 포커스 모드 비교](media/end-user-spotlight/power-bi-spotlight.png)
 
-3. **스포트라이트**에 대한 옵션을 선택합니다. 선택한 시각적 개체가 강조 표시되어 페이지의 다른 모든 시각적 개체가 거의 투명하게 페이드됩니다. 
+3. **스포트라이트** 에 대한 옵션을 선택합니다. 선택한 시각적 개체가 강조 표시되어 페이지의 다른 모든 시각적 개체가 거의 투명하게 페이드됩니다. 
 
     ![스포트라이트 모드](media/end-user-spotlight/power-bi-spotlighted-treemap.png)
 

@@ -2,19 +2,19 @@
 title: Power BI 질문 및 답변에 대한 추천 질문 만들기
 description: Power BI 질문 및 답변에 대한 추천 질문을 만드는 방법에 대한 설명서입니다.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/26/2020
-ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 65ed1806491f281bcc4d8adc365e5d286b6204ec
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3587c019f6b460774efca3db2229f315adcbded3
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85218841"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388175"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Power BI 질문 및 답변에 대한 추천 질문 만들기
 데이터 세트를 소유하는 경우 해당 데이터 세트에 고유한 추천 질문을 추가할 수 있습니다. Power BI Q&A는 해당 데이터 세트를 기반으로 보고서를 사용하는 동료에게 이러한 질문을 보여줍니다.  추천 질문은 동료에게 데이터 세트에 대해 문의할 수 있는 형식의 질문에 대한 아이디어를 제공합니다. 추가한 추천 질문은 인기있는 질문, 흥미로운 결과를 표시하는 질문 또는 표현하기 어려울 수 있는 질문을 추가하는 등 다양하게 만들 수 있습니다.
@@ -31,15 +31,15 @@ ms.locfileid: "85218841"
 1. 대시보드에서 질문 및 답변의 질문 상자를 선택합니다.   질문과 대답은 데이터 세트에 나타나는 용어 목록을 표시하여 도움을 주고 있습니다.
 2. 이 목록에 추가하려면 Power BI의 오른쪽 위 모서리에서 톱니 바퀴형 아이콘을 선택합니다.  
    ![기어 아이콘](media/service-q-and-a-create-featured-questions/pbi_gearicon2.jpg)
-3. **설정** &gt; **데이터 세트** &gt; **소매점 분석 샘플** &gt; **추천 질문 및 답변**을 선택합니다.  
-4. **질문 추가**를 선택합니다.
+3. **설정** &gt; **데이터 세트** &gt; **소매점 분석 샘플** &gt; **추천 질문 및 답변** 을 선택합니다.  
+4. **질문 추가** 를 선택합니다.
    
    ![설정 메뉴](media/service-q-and-a-create-featured-questions/power-bi-settings.png)
-5. 텍스트 상자에 질문을 입력하고 **적용**을 선택합니다.   필요에 따라 **질문 추가**를 선택하여 다른 질문을 추가합니다.  
+5. 텍스트 상자에 질문을 입력하고 **적용** 을 선택합니다.   필요에 따라 **질문 추가** 를 선택하여 다른 질문을 추가합니다.  
    ![추천 질문 및 답변 질문 창](media/service-q-and-a-create-featured-questions/power-bi-type-featured-question.png)
 6. 소매점 분석 샘플을 위해 Power BI 대시보드로 이동하고 질문 및 답변의 질문 상자에 커서를 놓습니다.   
    ![주요 질문이 있는 Q&A 질문 상자](media/service-q-and-a-create-featured-questions/power-bi-qna-featured-question-to-start.png)
-7. 새 추천 질문인 **Sales by territory as a map**가 목록에서 첫 번째에 있습니다. 선택합니다.  
+7. 새 추천 질문인 **Sales by territory as a map** 가 목록에서 첫 번째에 있습니다. 선택합니다.  
 8. Power BI가 답변을 만들고 등치 지역도 시각화로 표시합니다.  
    ![Q&A의 주요 질문 답변: 맵 시각화](media/service-q-and-a-create-featured-questions/power-bi-qna-featured-question.png)
 

@@ -2,19 +2,19 @@
 title: 보고서에서 시각적 개체 개인 설정
 description: 보고서를 편집하지 않고 고유한 보고서 보기를 만듭니다.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/13/2020
-ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 718363da3bd1f66de199db8d854d8d23d6de3eb5
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: aa94908c8601052c9cb8ac7cd4a6c0e895afeff6
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92256760"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96390153"
 ---
 # <a name="personalize-visuals-in-a-report"></a>보고서에서 시각적 개체 개인 설정
 
@@ -59,67 +59,67 @@ ms.locfileid: "92256760"
 
 데이터를 누적 세로 막대형 차트로 표시하는 것이 더 적절하다고 생각되나요? **시각화 유형** 을 변경하세요.
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-visual-type.png" alt-text="시각적 개체 개인 설정":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-visual-type.png" alt-text="시각화 유형 변경":::
  
 ### <a name="swap-out-a-measure-or-dimension"></a>측정값 또는 차원 교환
 바꾸려는 필드를 선택한 다음 다른 필드를 선택하여 X축에 사용되는 필드를 바꿉니다.
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-axis.png" alt-text="시각적 개체 개인 설정":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-axis.png" alt-text="축 변경":::
  
 ### <a name="add-or-remove-a-legend"></a>범례 추가 또는 제거
 범례를 추가하여 범주를 기반으로 시각적 개체의 색을 구분할 수 있습니다. 이 예제에서는 회사 이름을 기준으로 색 구분을 적용합니다. 
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-legend.png" alt-text="시각적 개체 개인 설정":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-legend.png" alt-text="범례 추가 또는 제거":::
 
 ### <a name="change-the-placement-of-fields"></a>필드 배치 변경
 
 끌어서 놓기를 사용하여 동일한 시각적 개체 속성 내에서 또는 다른 시각적 개체 속성 간에 필드 배치를 변경할 수 있습니다. 예를 들어 범례의 필드를 시각적 개체의 축으로 신속하게 이동할 수 있습니다.
 
-:::image type="content" source="media/end-user-personalize-visuals/personalize-drag-and-drop.png" alt-text="시각적 개체 개인 설정":::
+:::image type="content" source="media/end-user-personalize-visuals/personalize-drag-and-drop.png" alt-text="시각적 개체에서 필드 끌기의 스크린샷.":::
 
 테이블 또는 행렬의 열을 신속하게 다시 정렬할 수도 있습니다.
 
-:::image type="content" source="media/end-user-personalize-visuals/personalize-reorder-columns.png" alt-text="시각적 개체 개인 설정":::
+:::image type="content" source="media/end-user-personalize-visuals/personalize-reorder-columns.png" alt-text="테이블에서 열을 다시 정렬하는 스크린샷.":::
 
 ### <a name="compare-two-or-more-different-measures"></a>두 개 이상의 다른 측정값 비교
 \+ 아이콘으로 시각적 개체에 대한 여러 측정값을 추가하여 여러 측정값에 대한 및 대비 값을 비교합니다. 측정값을 제거하려면 **추가 옵션(...)** 을 선택하고 **필드 제거** 를 선택합니다.
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-compare-measures.png" alt-text="시각적 개체 개인 설정":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-compare-measures.png" alt-text="측정값 비교":::
 
 ### <a name="change-aggregations"></a>집계 변경
 **개인 설정** 창에서 집계를 변경하여 측정값이 계산되는 방식을 변경합니다. **추가 옵션(...)** 을 선택하고 사용할 집계를 선택합니다.
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-aggregation.png" alt-text="시각적 개체 개인 설정":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-aggregation.png" alt-text="집계 변경":::
 
 ### <a name="capture-changes"></a>변경 내용 캡처 
 개인 책갈피를 사용하여 개인 설정된 보기로 돌아갈 수 있도록 변경 내용을 캡처합니다. **책갈피** > **개인 책갈피** 를 선택하고 책갈피에 이름을 지정합니다. 
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-bookmark.png" alt-text="시각적 개체 개인 설정":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-bookmark.png" alt-text="책갈피 만들기":::
  
 책갈피를 기본 보기로 만들 수도 있습니다.
 
 ### <a name="share-changes"></a>변경 내용 공유 
 읽기 및 다시 공유 권한이 있는 경우 보고서를 공유하면 변경 내용을 포함하도록 선택할 수 있습니다.
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-share-changes.png" alt-text="시각적 개체 개인 설정":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-share-changes.png" alt-text="변경 내용 공유":::
  
 ### <a name="reset-all-your-changes-to-a-report"></a>보고서에 대한 모든 변경 내용 재설정
 
 보고서 캔버스의 오른쪽 위 모서리에서 **기본값으로 다시 설정** 을 선택합니다. 그러면 보고서의 모든 변경 내용이 제거되고 작성자가 해당 보고서를 마지막으로 저장한 보기로 다시 설정됩니다.
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-reset-all.png" alt-text="시각적 개체 개인 설정":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-reset-all.png" alt-text="모든 변경 내용 재설정":::
  
 ### <a name="reset-all-your-changes-to-a-visual"></a>시각적 개체에 대한 모든 변경 내용 재설정
 
 시각적 개체의 메뉴 모음에서 **이 시각적 개체 재설정** 을 선택하여 특정 시각적 개체에 대한 변경 내용을 모두 제거하고 작성자가 해당 시각적 개체를 마지막으로 저장한 보기로 재설정합니다.
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-reset-visual.png" alt-text="시각적 개체 개인 설정":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-reset-visual.png" alt-text="모든 시각적 변경 내용 재설정":::
  
 ### <a name="clear-recent-changes"></a>최근 변경 내용 지우기
 
 **개인 설정** 창을 연 이후 변경한 최근 내용을 모두 지우려면 지우개 아이콘을 선택합니다.  
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-revert-changes.png" alt-text="시각적 개체 개인 설정":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-revert-changes.png" alt-text="최근 변경 내용 되돌리기":::
 
 ## <a name="limitations"></a>제한 사항
 

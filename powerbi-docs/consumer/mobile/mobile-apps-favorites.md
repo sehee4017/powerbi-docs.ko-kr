@@ -2,18 +2,18 @@
 title: Power BI 모바일 앱의 즐겨찾기
 description: 모바일 앱에서 즐겨 찾는 Power BI 대시보드, 보고서, 앱, Power BI Report Server, Reporting Services 보고서 및 KPI를 만들고 보는 방법에 대해 알아보세요.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/02/2019
-ms.author: painbar
-ms.openlocfilehash: 3a89f6e050684e193ea915b2d6bd26acb7fd85ab
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: e86a4cd8298feaa045ed363ecf8b4da47f051d8b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635910"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96389233"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 즐겨찾기 만들기 및 보기
 적용 대상:
@@ -23,7 +23,7 @@ ms.locfileid: "91635910"
 | iPhone |iPad |Android 휴대폰 |Android 태블릿 |Windows 10 디바이스 |
 
 >[!NOTE]
->**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
+>**Windows 10 Mobile을 사용하는 휴대폰** 용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 모바일 앱에서 즐겨 찾는 온-프레미스 Power BI Report Server, Reporting Services KPI 및 보고서와 함께 즐겨 찾는 Power BI 대시보드, 보고서, 앱을 만들고 보는 방법에 대해 알아보세요.
 
@@ -66,7 +66,7 @@ Power BI Report Server 또한 Reporting Services 웹 포털에서 KPI와 보고�
   
     ![Android 즐겨찾기 메뉴](./media/mobile-apps-favorites/power-bi-android-make-favorite.png)
 
-* 대시보드 또는 보고서에 있는 경우 **기타 옵션(...)** 을 탭한 다음 **즐겨찾기**를 선택합니다.
+* 대시보드 또는 보고서에 있는 경우 **기타 옵션(...)** 을 탭한 다음 **즐겨찾기** 를 선택합니다.
   
     ![Android 즐겨찾기 별](./media/mobile-apps-favorites/power-bi-android-favorite-in-dashboard.png)
 
