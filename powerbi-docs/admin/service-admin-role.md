@@ -2,19 +2,19 @@
 title: Power BI 서비스 관리자 역할 이해
 description: 이 문서에서는 관리자 권한을 제공하는 특정 역할과 Power BI 서비스 관리자에 대해 설명합니다.
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/02/2020
-ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: a5a956f65943f557d21a942bde4be1de40a84692
-ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+ms.openlocfilehash: 8ba05d9a7dd39df91cd7313038129f69e9b8d70b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "83438203"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96408047"
 ---
 # <a name="understanding-power-bi-service-administrator-roles"></a>Power BI 서비스 관리자 역할 이해
 
@@ -39,21 +39,21 @@ Power BI 서비스 관리자 및 Power Platform 관리자 역할은 다음과 �
 
 Microsoft 365 관리 센터에서 관리자 역할에 사용자를 할당하려면 다음 단계를 수행합니다.
 
-1. [Microsoft 365 관리 센터](https://portal.office.com/adminportal/home#/homepage)에서 **사용자** > **활성 사용자**를 선택합니다.
+1. [Microsoft 365 관리 센터](https://portal.office.com/adminportal/home#/homepage)에서 **사용자** > **활성 사용자** 를 선택합니다.
 
     ![Microsoft 365 관리 센터](media/service-admin-role/powerbi-admin-users.png)
 
 1. 역할을 할당하려는 사용자를 선택합니다.
 
-1. **역할**에서 **역할 관리**를 선택합니다.
+1. **역할** 에서 **역할 관리** 를 선택합니다.
 
     ![역할 관리](media/service-admin-role/powerbi-admin-edit-roles.png)
 
-1. **범주별로 모두 표시**를 확장하고 **Power BI 관리자** 또는 **Power Platform 관리자**를 선택합니다.
+1. **범주별로 모두 표시** 를 확장하고 **Power BI 관리자** 또는 **Power Platform 관리자** 를 선택합니다.
 
     ![관리자 역할 선택](media/service-admin-role/powerbi-admin-role.png)
 
-1. **변경 내용 저장**을 선택합니다.
+1. **변경 내용 저장** 을 선택합니다.
 
 ## <a name="assign-users-to-the-admin-role-with-powershell"></a>PowerShell을 사용하여 관리자 역할에 사용자 할당
 
@@ -64,7 +64,7 @@ PowerShell을 사용하여 역할에 사용자를 할당할 수도 있습니다.
    PS C:\Windows\system32> Connect-AzureAD
    ```
 
-1. 다음으로 **Power BI 서비스 관리자** 역할의 **ObjectId**를 가져옵니다. [Get AzureADDirectoryRole](/powershell/module/azuread/get-azureaddirectoryrole)을 실행하여 **ObjectId**를 가져올 수 있습니다.
+1. 다음으로 **Power BI 서비스 관리자** 역할의 **ObjectId** 를 가져옵니다. [Get AzureADDirectoryRole](/powershell/module/azuread/get-azureaddirectoryrole)을 실행하여 **ObjectId** 를 가져올 수 있습니다.
 
     ```
     PS C:\Windows\system32> Get-AzureADDirectoryRole
@@ -81,9 +81,9 @@ PowerShell을 사용하여 역할에 사용자를 할당할 수도 있습니다.
     f727e2f3-0829-41a7-8c5c-5af83c37f57b Email Verified User Creator        Allows creation of new email verified users.
     ```
 
-    이 경우 역할의 **ObjectId**는 00f79122-c45d-436d-8d4a-2c0c6ca246bf입니다.
+    이 경우 역할의 **ObjectId** 는 00f79122-c45d-436d-8d4a-2c0c6ca246bf입니다.
 
-1. 그런 다음, 사용자의 **ObjectId**를 가져옵니다. [Get AzureADUser](/powershell/module/azuread/get-azureaduser)를 실행하여 찾을 수 있습니다.
+1. 그런 다음, 사용자의 **ObjectId** 를 가져옵니다. [Get AzureADUser](/powershell/module/azuread/get-azureaduser)를 실행하여 찾을 수 있습니다.
 
     ```
     PS C:\Windows\system32> Get-AzureADUser -ObjectId 'tim@contoso.com'

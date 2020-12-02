@@ -2,19 +2,19 @@
 title: Power BI 및 Microsoft 365에서 작업 영역 관리
 description: Power BI의 작업 영역은 Microsoft 365 그룹을 기반으로 하는 협업 환경을 제공합니다. Power BI 및 Microsoft 365에서 작업 영역을 관리합니다.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukasz
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 03/02/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c05cb79d0996ad1819f0145193760ab16a031ffb
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: bd1a5b0aaf694f41fdbfe4764e77c1138a57b082
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526723"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407035"
 ---
 # <a name="manage-your-workspace-in-power-bi-and-microsoft-365"></a>Power BI 및 Microsoft 365에서 작업 영역 관리
 
@@ -40,7 +40,7 @@ Microsoft 365 또는 [Power BI의 작업 영역](service-create-distribute-apps.
 
 ## <a name="edit-your-workspace-in-power-bi"></a>Power BI에서 작업 영역 편집
 
-1. Power BI 서비스에서 **작업 영역** 옆에 있는 화살표를 선택하고 > 작업 영역 이름 옆에 있는 **추가 옵션** (…)을 선택한 다음 > **이 작업 영역 편집** 을 선택합니다.
+1. Power BI 서비스에서 **작업 영역** 옆에 있는 화살표를 선택하고 > 작업 영역 이름 옆에 있는 **추가 옵션**(…)을 선택한 다음 > **이 작업 영역 편집** 을 선택합니다.
 
    ![스크린샷은 작업 영역이 선택된 Power BI 홈 및 추가 옵션 메뉴에서 선택된 이 작업 영역 편집을 보여줍니다.](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
 
@@ -59,7 +59,7 @@ Microsoft 365용 Outlook에서 직접 작업 영역의 기능을 편집할 수�
 
 ### <a name="edit-the-members-of-the-workspace-group"></a>작업 영역 그룹의 구성원 편집
 
-1. Power BI 서비스에서 **작업 영역** 옆에 있는 화살표를 선택하고 > 작업 영역 이름 옆에 있는 **추가 옵션** (…)을 선택한 다음 > **구성원** 을 선택합니다.
+1. Power BI 서비스에서 **작업 영역** 옆에 있는 화살표를 선택하고 > 작업 영역 이름 옆에 있는 **추가 옵션**(…)을 선택한 다음 > **구성원** 을 선택합니다.
 
    ![스크린샷은 작업 영역이 선택되고 추가 옵션 메뉴에서 멤버가 선택된 Power BI 홈을 보여줍니다.](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis-members.png)
 

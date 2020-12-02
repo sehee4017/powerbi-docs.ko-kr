@@ -2,20 +2,20 @@
 title: 대시보드 및 보고서 공유 문제 해결
 description: Power BI 대시보드 및 보고서를 조직 내부 및 외부 동료와 공유하는 문제의 해결 방법입니다.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: troubleshooting
 ms.date: 06/23/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ef78847829ef292a16856a1597a53c95e7d20708
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 89d0ddbbcdd5caf47256fc85864590e55a1caa86
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85486751"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96406668"
 ---
 # <a name="troubleshoot-sharing-dashboards-and-reports"></a>대시보드 및 보고서 공유 문제 해결
 
@@ -31,11 +31,11 @@ ms.locfileid: "85486751"
 
 1. 콘텐츠 목록에 있는 **데이터 세트** 탭으로 이동합니다.
 
-1. 데이터 세트 옆에 있는 줄임표( **...** )와 **사용 권한 관리**를 차례로 선택합니다.
+1. 데이터 세트 옆에 있는 줄임표( **...** )와 **사용 권한 관리** 를 차례로 선택합니다.
 
     ![권한 관리](media/service-share-dashboards/power-bi-sharing-manage-permissions.png)
 
-1. **사용자 추가**를 선택합니다.
+1. **사용자 추가** 를 선택합니다.
 
     ![사용자 추가 선택](media/service-share-dashboards/power-bi-share-dataset-add-user.png)
 
@@ -43,7 +43,7 @@ ms.locfileid: "85486751"
 
     ![전자 메일 주소 추가](media/service-share-dashboards/power-bi-add-user-dataset.png)
 
-1. **추가**를 선택합니다.
+1. **추가** 를 선택합니다.
 
 ## <a name="i-cant-share-a-dashboard-or-report"></a>대시보드 또는 보고서를 공유할 수 없음
 

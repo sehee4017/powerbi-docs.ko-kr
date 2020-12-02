@@ -6,16 +6,16 @@ ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
 ms.date: 08/31/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c4f9d83d612d8f8d442fc5267be66a2a5cf288a2
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.openlocfilehash: c5690492d3a54ae244e0104d0134414f1b6d9c96
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116618"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407334"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience-preview"></a>새 작업 영역 환경에서 사용 현황 메트릭 모니터링(미리 보기)
 

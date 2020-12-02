@@ -2,19 +2,19 @@
 title: Power BI 구독을 새 로컬 독일어 지역으로 마이그레이션
 description: 기존 Microsoft Cloud Germany(Microsoft Cloud Deutschland) 고객이 Power BI 사용자를 새 로컬 독일어 지역으로 마이그레이션하는 방법에 대한 정보를 제공합니다.
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/02/2020
-ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 978483407176b9902989b8feb0f41f577d4ed14f
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 7ce58c58934503e51531d204c02c976e244e57e5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668232"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96408483"
 ---
 # <a name="migrate-your-subscription-to-the-new-local-german-regions"></a>새 로컬 독일어 지역으로 구독 마이그레이션
 

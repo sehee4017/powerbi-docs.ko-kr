@@ -2,19 +2,19 @@
 title: Excel에서 Power BI 주요 테이블에 액세스(미리 보기)
 description: Excel의 데이터 형식 갤러리에서 Power BI 데이터 세트의 주요 테이블에서 데이터를 찾을 수 있습니다.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 08/04/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 42d7cae62084cf2cfbf6f10e49489d35e4557c85
-ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
+ms.openlocfilehash: 95ccc80a37ad9703c60c82ce928d35b5e301947b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94947050"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407311"
 ---
 # <a name="access-power-bi-featured-tables-in-excel-preview"></a>Excel에서 Power BI 주요 테이블에 액세스(미리 보기)
 

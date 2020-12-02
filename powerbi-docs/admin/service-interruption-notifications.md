@@ -2,18 +2,18 @@
 title: 서비스 중단 알림
 description: Power BI 서비스 중단이 발생하는 경우 이메일 알림을 받는 방법을 알아봅니다.
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/25/2020
-ms.author: kfollis
-ms.openlocfilehash: 8b9c10c8b3faa87cfc19c3c1d8f87a36de0307dd
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: e5d8f43a8edb6dc05b58cb62836e98cf209c8b5c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916133"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407817"
 ---
 # <a name="service-interruption-notifications"></a>서비스 중단 알림
 

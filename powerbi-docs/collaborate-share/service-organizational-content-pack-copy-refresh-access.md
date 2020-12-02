@@ -2,19 +2,19 @@
 title: '조직 콘텐츠 팩: 액세스 및 복사'
 description: Power BI의 조직 콘텐츠 팩 복사본을 만들고 액세스 문제를 해결하는 방법에 대해 알아보기
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp, kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 08/02/2018
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f89459b9d1e930fe429467b566d0813030fb43ab
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: eccc60c4f26502ea2249c378efbdb910bd7c8a30
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034523"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96406736"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>조직 콘텐츠 팩: 복사, 새로 고침 및 액세스
 
@@ -32,7 +32,7 @@ ms.locfileid: "86034523"
 1. 콘텐츠 팩 대시보드 옆에 있는 **추가 옵션**(...)을 선택한 다음 > 복사본 만들기를 선택합니다.
 
     ![추가 옵션 대화 상자의 스크린샷](media/service-organizational-content-pack-copy-refresh-access/power-bi-create-copy-organizational-content-pack.png)
-2. **저장**을 선택합니다.  
+2. **저장** 을 선택합니다.  
 
 이제 변경할 수 있는 복사본이 있습니다. 아무도 변경 내용을 볼 수 없습니다.
 

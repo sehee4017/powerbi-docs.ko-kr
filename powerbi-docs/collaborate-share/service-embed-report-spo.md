@@ -6,16 +6,16 @@ ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 LocalizationGroup: Share your work
 ms.date: 06/28/2020
-ms.openlocfilehash: 44e82a3f51af606d4e5cd6f70b13b9a8db4641fe
-ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
+ms.openlocfilehash: 6a1f8a69db20d44fc814c7e63e4ad13ed5fc955c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "91135893"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407380"
 ---
 # <a name="embed-a-report-web-part-in-sharepoint-online"></a>SharePoint Online에 보고서 웹 파트 포함
 
@@ -41,7 +41,7 @@ SharePoint Online용 Power BI의 새로운 보고서 웹 파트를 사용하면 
 
 1. Power BI 내에서 보고서를 봅니다.
 
-2. **기타 옵션(...)** 드롭다운 메뉴에서 **포함** > **SharePoint Online**을 차례로 선택합니다.
+2. **기타 옵션(...)** 드롭다운 메뉴에서 **포함** > **SharePoint Online** 을 차례로 선택합니다.
 
     ![기타 옵션 메뉴, SharePoint Online](media/service-embed-report-spo/power-bi-more-options-sharepoint-online.png)
 
@@ -51,11 +51,11 @@ SharePoint Online용 Power BI의 새로운 보고서 웹 파트를 사용하면 
 
 ### <a name="add-the-power-bi-report-to-a-sharepoint-online-page"></a>SharePoint Online 페이지에 Power BI 보고서 추가
 
-1. SharePoint Online에서 대상 페이지를 열고 **편집**을 선택합니다.
+1. SharePoint Online에서 대상 페이지를 열고 **편집** 을 선택합니다.
 
     ![SP 편집 페이지](media/service-embed-report-spo/powerbi-sharepoint-edit-page.png)
 
-    또는 Sharepoint Online에서 **+ 새로 만들기**를 선택하여 새 최신 사이트 페이지를 만듭니다.
+    또는 Sharepoint Online에서 **+ 새로 만들기** 를 선택하여 새 최신 사이트 페이지를 만듭니다.
 
     ![SP 새 페이지](media/service-embed-report-spo/powerbi-sharepoint-new-page.png)
 
@@ -63,7 +63,7 @@ SharePoint Online용 Power BI의 새로운 보고서 웹 파트를 사용하면 
 
     ![SP 새 웹 파트](media/service-embed-report-spo/powerbi-sharepoint-new-web-part.png)
 
-3. **보고서 추가**를 선택합니다.
+3. **보고서 추가** 를 선택합니다.
 
     ![SP 새 보고서](media/service-embed-report-spo/powerbi-sharepoint-new-report.png)  
 
@@ -71,7 +71,7 @@ SharePoint Online용 Power BI의 새로운 보고서 웹 파트를 사용하면 
 
     ![SP 새 웹 파트 속성](media/service-embed-report-spo/powerbi-sharepoint-new-web-part-properties.png)
 
-5. **게시**를 선택하여 변경 사항을 SharePoint Online 사용자가 볼 수 있도록 합니다.
+5. **게시** 를 선택하여 변경 사항을 SharePoint Online 사용자가 볼 수 있도록 합니다.
 
     ![SP 보고서 로드됨](media/service-embed-report-spo/powerbi-sharepoint-report-loaded.png)
 
@@ -82,7 +82,7 @@ SharePoint Online에 보고서를 포함해도 사용자에게 보고서를 볼 
 > [!IMPORTANT]
 > Power BI 서비스 내에서 보고서를 볼 수 있는 사람이 누구인지 확인하고 목록에 없는 사람에게 액세스 권한을 부여합니다.
 
-Power BI에서 보고서 액세스를 제공하는 두 가지 방법이 있습니다. 첫 번째 방법은 Microsoft 365 그룹을 사용하여 SharePoint Online 팀 사이트를 구축하는 경우 사용자를 **Power BI 서비스 내 작업 영역** 및 **SharePoint 페이지**의 멤버로 나열하는 것입니다. 자세한 내용은 [작업 영역 관리](service-manage-app-workspace-in-power-bi-and-office-365.md) 방법을 참조하세요.
+Power BI에서 보고서 액세스를 제공하는 두 가지 방법이 있습니다. 첫 번째 방법은 Microsoft 365 그룹을 사용하여 SharePoint Online 팀 사이트를 구축하는 경우 사용자를 **Power BI 서비스 내 작업 영역** 및 **SharePoint 페이지** 의 멤버로 나열하는 것입니다. 자세한 내용은 [작업 영역 관리](service-manage-app-workspace-in-power-bi-and-office-365.md) 방법을 참조하세요.
 
 두 번째 방법은 앱 내에 보고서를 포함하여 사용자와 직접 공유하는 것입니다.  
 
@@ -144,7 +144,7 @@ Power BI 환경에서 다단계 인증을 사용하여 로그인해야 하는 �
 
 ## <a name="licensing"></a>라이선싱
 
-SharePoint에서 보고서를 보는 사용자에게 **Power BI Pro 라이선스**가 필요하거나, **[Power BI Premium 용량(EM 또는 P SKU)](../admin/service-admin-premium-purchase.md)** 에 있는 작업 영역에 있어야 합니다.
+SharePoint에서 보고서를 보는 사용자에게 **Power BI Pro 라이선스** 가 필요하거나, **[Power BI Premium 용량(EM 또는 P SKU)](../admin/service-admin-premium-purchase.md)** 에 있는 작업 영역에 있어야 합니다.
 
 ## <a name="known-issues-and-limitations"></a>알려진 문제 및 제한 사항
 

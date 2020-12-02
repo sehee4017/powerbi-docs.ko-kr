@@ -2,20 +2,20 @@
 title: 새 작업 영역 만들기 - Power BI
 description: 새 작업 영역과 조직에 대한 주요 메트릭을 제공하도록 빌드된 대시보드, 보고서 및 페이지를 매긴 보고서 컬렉션을 만드는 방법을 알아봅니다.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 09/04/2020
-ms.author: maggies
 ms.custom: contperfq1, contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: c75d4d911bb53ef0f9804996bbc1d78db3f787f5
-ms.sourcegitcommit: 2cf8159535c114045e236c076a711638cfd7d2c8
+ms.openlocfilehash: 41f58d6561b76aa747f521b98477af3bc8492a8f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/07/2020
-ms.locfileid: "89511970"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407518"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Power BI에서 새 작업 영역 만들기
 
@@ -28,15 +28,15 @@ ms.locfileid: "89511970"
 
 ## <a name="create-one-of-the-new-workspaces"></a>새로운 작업 영역 중 하나 만들기
 
-1. 먼저 작업 영역을 만듭니다. **작업 영역** > **작업 영역 만들기**를 선택합니다.
+1. 먼저 작업 영역을 만듭니다. **작업 영역** > **작업 영역 만들기** 를 선택합니다.
    
      ![작업 영역 만들기의 스크린샷.](media/service-create-the-new-workspaces/power-bi-workspace-create.png)
 
-2. **클래식으로 되돌리기**를 선택하지 않으면 업그레이드된 작업 영역이 자동으로 생성됩니다.
+2. **클래식으로 되돌리기** 를 선택하지 않으면 업그레이드된 작업 영역이 자동으로 생성됩니다.
    
      ![새 작업 영역 환경의 스크린샷.](media/service-create-the-new-workspaces/power-bi-new-workspace.png)
      
-     **클래식으로 되돌리기**를 선택하는 경우 Microsoft 365 그룹을 기준으로 [클래식 작업 영역이 만들어집니다](service-create-workspaces.md).
+     **클래식으로 되돌리기** 를 선택하는 경우 Microsoft 365 그룹을 기준으로 [클래식 작업 영역이 만들어집니다](service-create-workspaces.md).
 
 2. 작업 영역에 고유한 이름을 지정합니다. 이름을 사용할 수 없는 경우 편집하여 고유한 이름을 입력합니다.
    
@@ -44,15 +44,15 @@ ms.locfileid: "89511970"
    
 1. 작업 영역에 대해 설정할 수 있는 몇 가지 선택적 항목은 다음과 같습니다.
 
-    - **작업 영역 이미지**를 업로드합니다. 파일은 .png 또는 .jpg 형식일 수 있습니다. 파일 크기는 45KB보다 작아야 합니다. 
+    - **작업 영역 이미지** 를 업로드합니다. 파일은 .png 또는 .jpg 형식일 수 있습니다. 파일 크기는 45KB보다 작아야 합니다. 
     - Microsoft 365 그룹 파일 스토리지 위치를 사용할 [작업 영역 OneDrive를 지정](#set-a-workspace-onedrive)합니다.    
     - [연락처 목록을 추가합니다](#create-a-contact-list). 기본적으로 작업 영역 관리자는 연락처입니다. 
     - [참가자가 작업 영역의 앱을 업데이트](#allow-contributors-to-update-the-app)하도록 허용
-    - 작업 영역을 **전용 용량**에 할당하려면 **프리미엄** 탭에서 **전용 용량**을 선택합니다.
+    - 작업 영역을 **전용 용량** 에 할당하려면 **프리미엄** 탭에서 **전용 용량** 을 선택합니다.
 
         ![전용 용량의 스크린샷.](media/service-create-the-new-workspaces/power-bi-workspace-premium.png)
 
-1. **저장**을 선택합니다.
+1. **저장** 을 선택합니다.
 
     Power BI는 작업 영역을 만들고 엽니다. 구성원으로 속해 있는 작업 영역 목록에서 볼 수 있습니다. 
 
@@ -60,7 +60,7 @@ ms.locfileid: "89511970"
 
 특정 작업 영역에서 관리자 역할이 있는 사용자는 다른 사용자에게 다른 역할을 추가하여 해당 작업 영역에 대한 액세스 권한을 부여할 수 있습니다. 작업 영역 작성자는 자동으로 관리자가 됩니다. 역할에 대한 설명은 [새 작업 영역의 역할](service-new-workspaces.md#roles-in-the-new-workspaces)을 참조하세요.
 
-1. 관리자이므로 작업 영역 콘텐츠 목록 페이지에 **액세스 권한**이 표시됩니다.
+1. 관리자이므로 작업 영역 콘텐츠 목록 페이지에 **액세스 권한** 이 표시됩니다.
 
     ![작업 영역 콘텐츠 목록의 스크린샷.](media/service-create-the-new-workspaces/power-bi-workspace-access-icon.png)
 
@@ -68,7 +68,7 @@ ms.locfileid: "89511970"
 
     ![작업 영역 추가 멤버, 관리자, 기여자의 스크린샷.](media/service-create-the-new-workspaces/power-bi-workspace-add-members.png)
 
-9. **추가** > **닫기**를 선택합니다.
+9. **추가** > **닫기** 를 선택합니다.
 
 ## <a name="set-a-workspace-onedrive"></a>작업 영역 OneDrive 설정
 
@@ -80,21 +80,21 @@ Power BI는 작업 영역 액세스 권한을 가지도록 구성된 사용자 �
 
     처음 만드는 경우 **작업 영역 만들기** 창에서
 
-    탐색 창에서 **작업 영역** 옆에 있는 화살표를 선택하고 작업 영역 이름 옆에 있는 **추가 옵션**(…) > **작업 영역 설정**을 선택합니다. **설정** 창이 열립니다.
+    탐색 창에서 **작업 영역** 옆에 있는 화살표를 선택하고 작업 영역 이름 옆에 있는 **추가 옵션**(…) > **작업 영역 설정** 을 선택합니다. **설정** 창이 열립니다.
 
     ![작업 영역 설정의 스크린샷.](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
-2. **고급** > **작업 영역 OneDrive**에서 이전에 만든 Microsoft 365 그룹의 이름을 입력합니다. URL이 아닌 이름만 입력합니다. Power BI는 그룹의 OneDrive를 자동으로 선택합니다.
+2. **고급** > **작업 영역 OneDrive** 에서 이전에 만든 Microsoft 365 그룹의 이름을 입력합니다. URL이 아닌 이름만 입력합니다. Power BI는 그룹의 OneDrive를 자동으로 선택합니다.
 
     ![OneDrive 위치 지정의 스크린샷.](media/service-create-the-new-workspaces/power-bi-new-workspace-onedrive.png)
 
-3. **저장**을 선택합니다.
+3. **저장** 을 선택합니다.
 
 ### <a name="access-the-workspace-onedrive-location"></a>작업 영역 OneDrive 위치에 액세스
 
 OneDrive 위치를 구성한 후에는 Power BI 서비스에서 다른 데이터 원본으로 이동하는 것과 동일한 방법으로 가져올 수 있습니다.
 
-1. 탐색 창에서 **데이터 가져오기**를 선택한 다음, **파일** 상자에서 **가져오기**를 선택합니다.
+1. 탐색 창에서 **데이터 가져오기** 를 선택한 다음, **파일** 상자에서 **가져오기** 를 선택합니다.
 
     ![데이터 가져오기, 파일 가져오기의 스크린샷.](media/service-create-the-new-workspaces/power-bi-get-data-files.png)
 
@@ -110,25 +110,25 @@ OneDrive 위치를 구성한 후에는 Power BI 서비스에서 다른 데이터
 
     처음 만드는 경우 **작업 영역 만들기** 창에서
 
-    탐색 창에서 **작업 영역** 옆에 있는 화살표를 선택하고 작업 영역 이름 옆에 있는 **추가 옵션**(…) > **작업 영역 설정**을 선택합니다. **설정** 창이 열립니다.
+    탐색 창에서 **작업 영역** 옆에 있는 화살표를 선택하고 작업 영역 이름 옆에 있는 **추가 옵션**(…) > **작업 영역 설정** 을 선택합니다. **설정** 창이 열립니다.
 
     ![작업 영역 설정의 스크린샷.](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
-2. **고급**, **연락처 목록**에서 기본값인 **작업 영역 관리자**를 그대로 적용하거나 고유한 **특정 사용자 또는 그룹** 목록을 추가합니다. 
+2. **고급**, **연락처 목록** 에서 기본값인 **작업 영역 관리자** 를 그대로 적용하거나 고유한 **특정 사용자 또는 그룹** 목록을 추가합니다. 
 
     ![작업 영역 연락처의 스크린샷.](media/service-create-the-new-workspaces/power-bi-workspace-contacts.png)
 
-3. **저장**을 선택합니다.
+3. **저장** 을 선택합니다.
 
 ## <a name="allow-contributors-to-update-the-app"></a>참가자가 앱을 업데이트하도록 허용
 
 **참가자가 이 작업 영역에 대한 앱을 업데이트하도록 허용** 설정을 통해 작업 영역 관리자는 작업 영역에 대한 앱을 업데이트하는 기능을 참가자 역할의 사용자에게 위임할 수 있습니다. 기본적으로 작업 영역 관리자 및 구성원만 작업 영역에 대한 앱을 게시하고 업데이트할 수 있습니다. 
 
-1. 이 설정에 액세스하려면 탐색 창에서 **작업 영역** 옆에 있는 화살표를 선택하고 작업 영역 이름 옆에 있는 **추가 옵션**(...) > **작업 영역 설정**을 선택합니다. **설정** 창이 열립니다.
+1. 이 설정에 액세스하려면 탐색 창에서 **작업 영역** 옆에 있는 화살표를 선택하고 작업 영역 이름 옆에 있는 **추가 옵션**(...) > **작업 영역 설정** 을 선택합니다. **설정** 창이 열립니다.
 
     ![작업 영역 설정의 스크린샷.](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
-2. **고급**에서 **보안 설정**을 펼칩니다. **참가자가 이 작업 영역에 대한 앱을 업데이트하도록 허용**을 선택합니다. 
+2. **고급** 에서 **보안 설정** 을 펼칩니다. **참가자가 이 작업 영역에 대한 앱을 업데이트하도록 허용** 을 선택합니다. 
 
 사용하도록 설정하면 참가자는 다음을 수행할 수 있습니다.
 * 이름, 아이콘, 설명, 지원 사이트, 색과 같은 앱 메타데이터를 업데이트

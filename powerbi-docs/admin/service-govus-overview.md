@@ -2,20 +2,20 @@
 title: 미국 정부 기관 고객용 Power BI - 개요
 description: 미국 정부 고객은 Microsoft 365 정부 플랜에 Power BI Pro 구독을 추가할 수 있습니다. 이 서비스 설명에서 기능 가용성을 등록, 연결, 검토하는 방법을 알아봅니다.
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/17/2020
-ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 8fa83bfc0dc19e4c60094b0ee3c26eb8f7bab12d
-ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
+ms.openlocfilehash: e8cf03d90165463fd1e59bf4c4394c1da94e995e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94718894"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407863"
 ---
 # <a name="power-bi-for-us-government-customers"></a>미국 정부 기관 고객용 Power BI
 
