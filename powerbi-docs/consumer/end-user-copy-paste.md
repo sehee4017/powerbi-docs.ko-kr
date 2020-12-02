@@ -2,19 +2,19 @@
 title: Power BI 서비스에서 시각화 복사하여 붙여넣기
 description: Power BI 서비스에서 시각화 복사하여 붙여넣기
 author: mihart
+ms.author: mihart
 ms.reviewer: maggie.tsang
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 08/25/2020
-ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6e1850e281c58bd89597af2bbd9ade0a769071ae
-ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
+ms.openlocfilehash: a0ac7760b766681a70aae3662059256ecffbf07f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89040250"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96400641"
 ---
 # <a name="copy-a-visual-as-an-image-to-your-clipboard"></a>시각적 개체를 이미지로 클립보드에 복사
 
@@ -33,15 +33,15 @@ Power BI 보고서 또는 대시보드에서 이미지를 공유하려고 했습
 
 1. 복사하려는 대시보드로 이동합니다.
 
-2. 시각적 개체의 오른쪽 위 모서리에서 **기타 작업(...)** 을 선택하고 **시각적 개체를 이미지로 복사**를 선택합니다. 
+2. 시각적 개체의 오른쪽 위 모서리에서 **기타 작업(...)** 을 선택하고 **시각적 개체를 이미지로 복사** 를 선택합니다. 
 
     ![드롭다운 메뉴에 표시되는 시각적 개체를 이미지로 복사하는 옵션](media/end-user-copy-paste/power-bi-copy-dashboard.png)
 
-3. **시각적 개체를 복사할 준비가 되고** 대화 상자가 표시되면 **클립보드로 복사**를 선택합니다.
+3. **시각적 개체를 복사할 준비가 되고** 대화 상자가 표시되면 **클립보드로 복사** 를 선택합니다.
 
     ![클립보드로 복사 옵션을 사용하는 대화 상자](media//end-user-copy-paste/power-bi-copied.png)
 
-4. 시각적 개체를 복사한 후 **Ctrl + V** 또는 **오른쪽 단추 클릭** > **붙여넣기**를 사용하여 다른 애플리케이션에 붙여넣습니다. 아래 스크린샷에서는 시각적 개체를 Microsoft Word에 붙여넣었습니다. 
+4. 시각적 개체를 복사한 후 **Ctrl + V** 또는 **오른쪽 단추 클릭** > **붙여넣기** 를 사용하여 다른 애플리케이션에 붙여넣습니다. 아래 스크린샷에서는 시각적 개체를 Microsoft Word에 붙여넣었습니다. 
 
     ![Microsoft Word에 붙여넣은 시각적 개체](media//end-user-copy-paste/power-bi-paste-word.png)
 
@@ -53,12 +53,12 @@ Power BI 보고서 또는 대시보드에서 이미지를 공유하려고 했습
 
     ![시각적 개체를 표시되는 이미지 아이콘으로 복사](media/end-user-copy-paste/power-bi-copy-icon.png)
 
-3. **시각적 개체를 복사할 준비가 되고** 대화 상자가 표시되면 **클립보드로 복사**를 선택합니다.
+3. **시각적 개체를 복사할 준비가 되고** 대화 상자가 표시되면 **클립보드로 복사** 를 선택합니다.
 
     ![클립보드로 복사 옵션을 사용하는 대화 상자](media//end-user-copy-paste/power-bi-copied.png)
 
 
-4. 시각적 개체를 복사한 후 **Ctrl + V** 또는 **오른쪽 단추 클릭** > **붙여넣기**를 사용하여 다른 애플리케이션에 붙여넣습니다. 아래 스크린샷에서는 시각적 개체를 전자 메일에 붙여넣었습니다.
+4. 시각적 개체를 복사한 후 **Ctrl + V** 또는 **오른쪽 단추 클릭** > **붙여넣기** 를 사용하여 다른 애플리케이션에 붙여넣습니다. 아래 스크린샷에서는 시각적 개체를 전자 메일에 붙여넣었습니다.
 
     ![Outlook에 붙여넣은 시각적 개체](media//end-user-copy-paste/power-bi-copy-email.png)
 

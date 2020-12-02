@@ -2,20 +2,20 @@
 title: Power BI에서 대시보드 및 보고서로 앱 설치 및 사용
 description: Power BI 서비스에서 앱을 찾아 설치하고 사용합니다.
 author: mihart
+ms.author: mihart
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/09/2020
-ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Share your work
-ms.openlocfilehash: e0089d2492ad7a68aa2043cce4ca8677a0d276bb
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 7ee51cee6c79b55f746a4275fea5bb00a134e9c7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91982287"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96401331"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Power BI에서 대시보드 및 보고서로 앱 설치 및 사용
 
@@ -119,7 +119,7 @@ Power BI 앱 마켓플레이스에서 앱을 찾아 설치할 수 있습니다. 
 1. 앱 탐색 창.  앱 이름 아래에는 콘텐츠 목록이 있습니다. 이 앱에는 여섯 페이지가 있는 보고서가 하나 있습니다. 보고서 페이지 이름을 선택하여 보고서 페이지를 엽니다. 현재 ‘반품 비율’ 페이지가 열려 있습니다. 
 1. 화살표를 선택하여 **필터** 창을 확장합니다.
 
-액세스 권한이 부여된 경우 연결된 작업 영역을 탐색할 수도 있습니다.  템플릿 앱을 설치하거나 다운로드하면 Power BI 서비스에서 작업 영역을 만듭니다. 조직 앱을 설치할 때 작업 영역에 대한 액세스가 포함되지 않을 수 있습니다. [작업 영역에 대해 알아봅니다](end-user-workspaces.md). **Power BI** (2번)를 선택하여 **홈** 으로 돌아가서 **작업 영역** 을 선택합니다. 
+액세스 권한이 부여된 경우 연결된 작업 영역을 탐색할 수도 있습니다.  템플릿 앱을 설치하거나 다운로드하면 Power BI 서비스에서 작업 영역을 만듭니다. 조직 앱을 설치할 때 작업 영역에 대한 액세스가 포함되지 않을 수 있습니다. [작업 영역에 대해 알아봅니다](end-user-workspaces.md). **Power BI**(2번)를 선택하여 **홈** 으로 돌아가서 **작업 영역** 을 선택합니다. 
 
 ![보고서 하나 및 데이터 세트 하나를 보여 주는 판매 및 마케팅 작업 영역의 스크린샷. ](./media/end-user-app-view/power-bi-new-workspace.png)
 

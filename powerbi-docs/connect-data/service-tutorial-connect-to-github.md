@@ -1,21 +1,21 @@
 ---
 title: '자습서:  Power BI를 사용하여 GitHub 리포지토리에 연결'
 description: 이 자습서에서는 Power BI를 사용하여 GitHub 서비스의 실제 데이터에 연결하고, Power BI는 대시보드와 보고서를 자동으로 만듭니다.
-author: maggiesMSFT
+author: paulinbar
+ms.author: painbar
 ms.reviewer: SarinaJoan
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.custom: connect-to-services
 ms.topic: tutorial
 ms.date: 10/30/2020
-ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 805b7805d932468e973805d9496a5b25d4391fdd
-ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
+ms.openlocfilehash: d8b6277c64f2f6c55f1ab622d129556fdfc4c600
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "93132623"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96401630"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>자습서:  Power BI를 사용하여 GitHub 리포지토리에 연결
 이 자습서에서는 GitHub 서비스의 Power BI 콘텐츠 퍼블릭 리포지토리와 같은 실제 데이터에 연결합니다. Power BI는 이 데이터를 사용하여 대시보드와 보고서를 자동으로 만듭니다. 다음과 같은 질문에 대한 대답을 확인할 수 있습니다. 얼마나 많은 사람들이 Power BI 퍼블릭 리포지토리에 기여하나요? 가장 많이 기여한 사람은 누구인가요? 어떤 요일이 가장 많이 기여하는가요? 그리고 기타 질문들이 있습니다. 
@@ -46,7 +46,7 @@ ms.locfileid: "93132623"
 
 ## <a name="how-to-connect"></a>연결 방법
 1. Power BI 서비스(`https://app.powerbi.com`)에 로그인합니다. 
-2. 탐색 창에서 **앱** , **앱 가져오기** 를 선택합니다.
+2. 탐색 창에서 **앱**, **앱 가져오기** 를 선택합니다.
    
    ![Power BI 앱 가져오기](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial.png) 
 
@@ -77,7 +77,7 @@ ms.locfileid: "93132623"
 
     ![탐색 창의 앱](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav-expanded.png)
 
-10. 대시보드 이름 옆에 있는 **추가 옵션** (...)을 선택한 다음 > **이름 바꾸기** 를 선택하고 > **GitHub 대시보드** 를 입력합니다.
+10. 대시보드 이름 옆에 있는 **추가 옵션**(...)을 선택한 다음 > **이름 바꾸기** 를 선택하고 > **GitHub 대시보드** 를 입력합니다.
  
     ![Power BI - GitHub 타일](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-left-nav.png) 
 

@@ -1,21 +1,21 @@
 ---
 title: Power BI Service에서 텍스트로 반환된 중첩 값 문제 해결
 description: 잘못된 데이터 원본 개인 정보 설정을 사용할 때 문자열로 변환되는 중첩 값을 수정하는 방법에 대해 알아보기
-author: cpopell
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: troubleshooting
 ms.date: 6/4/2019
-ms.author: gepopell
 LocalizationGroup: Reports
-ms.openlocfilehash: ab40ca9c415dacf52f4d82eb2c157d57aef92f93
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b34f6ae838122b0b2036a953296d5032bdfe76b8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83332777"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96401377"
 ---
 # <a name="troubleshooting-nested-values-returned-as-text-in-power-bi-service"></a>Power BI Service에서 텍스트로 반환된 중첩 값 문제 해결
 

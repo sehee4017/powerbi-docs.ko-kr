@@ -2,20 +2,20 @@
 title: 무료 라이선스를 사용하는 사용자의 기능 사용 가능 여부
 description: 소비자와 무료 사용자가 사용할 수 있는 기능을 보여 주는 설명 및 차트
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: reference
-ms.date: 09/16/2020
-ms.author: mihart
+ms.date: 11/16/2020
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: 8bfdcd9ba87dd6a4fa12a3750b517a09844d3d6e
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 8e3a32402b3eff202a8e35a2e34fa52271650a64
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668491"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96390728"
 ---
 # <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>*소비자* 및 다른 무료 라이선스 사용자를 위한 Power BI 기능 목록
 
@@ -67,7 +67,7 @@ ms.locfileid: "94668491"
 
 - 무료 사용자 라이선스가 있습니다.
 - 프리미엄 용량 구독이 있는 조직에 속해 있습니다.
-- 전용 프리미엄 용량의 앱 작업 영역을 사용하여 콘텐츠를 공유하는 Pro 사용자의 콘텐츠(앱, 대시보드, 보고서)를 가져옵니다.
+- 프리미엄 용량의 앱 작업 영역을 사용하여 콘텐츠를 공유하는 Pro 사용자의 콘텐츠(앱, 대시보드, 보고서)를 가져옵니다.
 - 앱 작업 영역의 **보기 권한자** 역할이 할당되었습니다. 
 
 ### <a name="legend"></a>범례

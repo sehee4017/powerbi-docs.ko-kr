@@ -2,19 +2,19 @@
 title: Power BI 서비스에서 단추가 작동하는 방식을 알아봅니다.
 description: 보고서 내 탐색, 드릴스루, 교차 보고서 드릴스루를 비롯한 다양한 작업을 시작하는 단추를 사용할 수 있습니다.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/10/2020
-ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: f0ddbbbce93a14c3468eacca130163758ca85c45
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 450c14d05f9a7855d51d7aa2f073e48a0b016013
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91982164"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96400963"
 ---
 # <a name="buttons-in-the-power-bi-service"></a>Power BI 서비스의 단추
 동료에게 받은 보고서에 단추가 표시된 것을 보고 사용하는 방법이 궁금했을 수도 있습니다. 일부에는 단어가 있고, 일부에는 화살표가 있으며, 또 다른 일부에는 드롭다운 메뉴도 있습니다. 이 문서에서는 단추를 인식하는 방법과 단추로 수행하는 작업을 파악하는 방법을 설명합니다.
@@ -61,7 +61,7 @@ Power BI 서비스에서 드릴스루하는 두 가지 방법이 있습니다. �
 
 ![가리키기 도구 설명이 있는 드릴스루 단추의 스크린샷.](media/end-user-buttons/power-bi-drill-two-selections.png)
 
-이제 하나의 제품( **Word** )과 하나의 매장( **Leo** )을 선택했으므로 단추의 색상이 변경되어 단추가 활성화되었음을 알립니다.
+이제 하나의 제품(**Word**)과 하나의 매장(**Leo**)을 선택했으므로 단추의 색상이 변경되어 단추가 활성화되었음을 알립니다.
 
 ![매장 세부 정보로 드릴스루 단추의 스크린샷.](media/end-user-buttons/power-bi-select-both.png)
 

@@ -2,20 +2,20 @@
 title: Power BI에서 최종 사용자에게 자주 묻는 질문
 description: Power BI 서비스 및 Power BI 모바일 앱에 대해 자주 묻는 질문과 대답 목록을 찾습니다.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 09/02/2020
-ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: c604bec5213b14f91e514c9a1552acb99ac5d0aa
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: b872c42a9e8551b0750899632deb763a6446656f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916800"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96400388"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Power BI에 대한 질문과 대답
 

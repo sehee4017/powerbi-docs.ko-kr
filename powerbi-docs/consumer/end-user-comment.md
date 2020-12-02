@@ -2,20 +2,20 @@
 title: 대시보드 및 보고서에 댓글 추가
 description: 이 문서에서는 대시보드, 보고서 또는 시각적 개체에 댓글을 추가하는 방법과 댓글을 사용하여 공동 작업자와 대화하는 방법을 보여 줍니다.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/25/2020
-ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 6f7e640669b53d67a635083d3ae48e23720c9e61
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: ee053fe000ad85b768ce3d451984f987e3c79e6f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91375102"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96400756"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>대시보드 또는 보고서에 댓글 추가
 
@@ -52,7 +52,7 @@ ms.locfileid: "91375102"
 
     ![주석 섹션이 선택된 대시보드의 스크린샷](media/end-user-comment/power-bi-first-comments.png)
 
-2. 응답하려면 **회신**을 선택하고 응답을 입력한 다음, **게시**를 선택합니다.  
+2. 응답하려면 **회신** 을 선택하고 응답을 입력한 다음, **게시** 를 선택합니다.  
 
     ![회신 선택 화면](media/end-user-comment/power-bi-comments-reply.png)
 
@@ -72,7 +72,7 @@ ms.locfileid: "91375102"
 전체 대시보드 또는 전체 보고서 페이지에 댓글을 추가하는 것 외에도, 개별 대시보드 타일과 개별 보고서 시각적 개체에 댓글을 추가할 수 있습니다. 프로세스는 비슷하며, 이 예제에서는 보고서를 사용합니다.
 
 1. 시각적 개체를 마우스로 가리키고 **추가 작업**(...)을 선택합니다.    
-2. 드롭다운에서 **댓글 추가**를 선택합니다.
+2. 드롭다운에서 **댓글 추가** 를 선택합니다.
 
     ![댓글 추가가 첫 번째 옵션입니다.](media/end-user-comment/power-bi-comment-reports.png)  
 
@@ -80,7 +80,7 @@ ms.locfileid: "91375102"
 
     ![선택된 시각적 개체와 열린 주석 대화 상자의 스크린샷](media/end-user-comment/power-bi-comments-column.png)  
 
-4. 댓글을 입력하고 **게시**를 선택합니다.
+4. 댓글을 입력하고 **게시** 를 선택합니다.
 
     ![새 메시지가 포함된 주석 대화 상자](media/end-user-comment/power-bi-comment-spikes.png)  
 
@@ -91,7 +91,7 @@ ms.locfileid: "91375102"
 
     ![관련 시각적 개체 강조 표시](media/end-user-comment/power-bi-highlights.png)
 
-5. **닫기**를 선택하여 대시보드 또는 보고서로 돌아갑니다.
+5. **닫기** 를 선택하여 대시보드 또는 보고서로 돌아갑니다.
 
 ### <a name="get-your-colleagues-attention-by-using-the--sign"></a>@ 기호를 사용하여 동료의 주의 유도
 대시보드, 보고서, 타일 또는 시각적 개체 댓글을 만드는지와 관계없이 “\@” 기호를 사용하여 동료의 주의를 끕니다.  “\@” 기호를 입력하면 Power BI는 조직에서 개인을 검색하고 선택할 수 있는 드롭다운을 엽니다. "\@" 기호로 나타나는 확인된 이름은 파란색 글꼴로 표시됩니다. @mentioned 개인은 즉시 받은 편지함에 메일을 받으며, Power BI 모바일 앱을 사용하는 경우 디바이스에서 푸시 알림을 받습니다. 알림에서 직접 댓글을 열고, 데이터를 확인하고, 그에 따라 회신할 수 있습니다.
