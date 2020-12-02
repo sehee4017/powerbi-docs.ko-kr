@@ -1,21 +1,21 @@
 ---
 title: Power BI를 사용하는 행 수준 보안(RLS)
 description: Power BI 서비스 내에서 가져온 데이터 세트 및 DirectQuery에 대한 행 수준 보안을 구성하는 방법입니다.
-author: kfollis
+author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.author: kfollis
 ms.date: 09/17/2020
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 590909ac01240a84a4401c74a63dcf66c99dacfd
-ms.sourcegitcommit: fa0a1561aba2a392fb56e7030e1a0537806a9260
+ms.openlocfilehash: f1358cbafa08c0dbb3790322c414d7a746386f0f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "90811732"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96408576"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Power BI를 사용하는 행 수준 보안(RLS)
 
@@ -44,7 +44,7 @@ Power BI Desktop으로 Power BI로 가져온 데이터 모델에 대한 RLS를 �
 
     ![탐색 메뉴의 추가 옵션 메뉴](media/service-admin-rls/dataset-canvas-more-options.png)
 
-1. **보안**을 선택합니다.
+1. **보안** 을 선택합니다.
 
    ![추가 옵션 메뉴에서 보안 선택](media/service-admin-rls/dataset-more-options-menu.png)
 
@@ -75,7 +75,7 @@ Power BI Desktop 내에서 역할을 만들거나 수정할 수만 있습니다.
 역할을 테스트하여 사용자가 정의한 역할이 제대로 작동하는지 확인할 수 있습니다.
 
 1. 역할 옆에 있는 **추가 옵션**(...)을 선택합니다.
-2. **역할로 테스트**를 선택합니다.
+2. **역할로 테스트** 를 선택합니다.
 
 ![역할로 테스트](media/service-admin-rls/rls-test-role.png)
 
@@ -89,7 +89,7 @@ Power BI Desktop 내에서 역할을 만들거나 수정할 수만 있습니다.
 
 특정 사용자로 데이터를 보거나 사용 가능한 역할의 조합을 선택하여 역할이 작동하는지 확인할 수 있습니다.
 
-일반 보기로 돌아가려면 **행 수준 보안으로 돌아가기**를 선택합니다.
+일반 보기로 돌아가려면 **행 수준 보안으로 돌아가기** 를 선택합니다.
 
 [!INCLUDE [include-short-name](../includes/rls-usernames.md)]
 

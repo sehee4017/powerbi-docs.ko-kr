@@ -5,25 +5,25 @@ author: kfollis
 ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/25/2020
 ms.custom: seodec18
-ms.openlocfilehash: e4aec179b298c5a8ca52cf73ac5fdceed7e8602a
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 433b3d53ccb653e1a945a83176ab9ebc19ccac5d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857683"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96409243"
 ---
 # <a name="add-power-bi-urls-to-your-allow-list"></a>허용 목록에 Power BI URL 추가
 [//]: # "suparnap, miwehnia, natham은 이 목록을 유지 관리하기 위한 연락처입니다."
 
 Power BI 서비스는 인터넷에 연결해야 합니다. 이 문서의 표에 나열된 엔드포인트는 Power BI 서비스를 사용하는 고객에게 연결할 수 있어야 합니다.
 
-Power BI 서비스를 사용하려면 아래 테이블에 **필수**라고 표시된 엔드포인트 및 연결된 사이트에서 **필수**라고 표시된 엔드포인트에 연결할 수 있어야 합니다. 외부 사이트에 대한 링크가 특정 섹션을 가리키는 경우 해당 섹션에서 엔드포인트를 검토해야 합니다.
+Power BI 서비스를 사용하려면 아래 테이블에 **필수** 라고 표시된 엔드포인트 및 연결된 사이트에서 **필수** 라고 표시된 엔드포인트에 연결할 수 있어야 합니다. 외부 사이트에 대한 링크가 특정 섹션을 가리키는 경우 해당 섹션에서 엔드포인트를 검토해야 합니다.
 
-**선택적**으로 표시된 엔드포인트는 특정 기능을 사용할 수 있도록 허용 목록에 추가될 수도 있습니다.
+**선택적** 으로 표시된 엔드포인트는 특정 기능을 사용할 수 있도록 허용 목록에 추가될 수도 있습니다.
 
 Power BI 서비스에서는 TCP 포트 443이 나열된 엔드포인트에 대해 열려야 합니다.
 

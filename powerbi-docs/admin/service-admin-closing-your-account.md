@@ -2,19 +2,19 @@
 title: Power BI 계정 닫기
 description: Power BI를 더 이상 사용하지 않으려면 Power BI 계정을 닫을 수 있습니다.
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 09/25/2020
-ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 076a1a65e275d58b54e340e30083d1c2a19ebbbf
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: f35ba99cfab26f346c9565ef9e92afa4cc004d68
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374436"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96409128"
 ---
 # <a name="close-your-power-bi-account"></a>Power BI 계정 닫기
 
@@ -24,15 +24,15 @@ Power BI를 더 이상 사용하지 않으려면 Power BI 계정을 닫을 수 �
 
 개별적으로 Power BI에 가입하는 경우 **설정** 화면에서 계정을 닫을 수 있습니다.
 
-1. Power BI에서 오른쪽 위의 기어를 선택한 후 **설정**을 선택합니다.
+1. Power BI에서 오른쪽 위의 기어를 선택한 후 **설정** 을 선택합니다.
 
     ![기어 아이콘 및 설정 옵션이 호출된 오른쪽 위 UI의 스크린샷.](media/service-admin-closing-your-account/close-account-settings.png)
 
-1. **일반** 탭에서 **계정 닫기**를 선택합니다.
+1. **일반** 탭에서 **계정 닫기** 를 선택합니다.
 
     ![왼쪽 위 모서리에 계정 닫기 옵션이 표시된 설정 페이지의 스크린샷.](media/service-admin-closing-your-account/close-account-settings-2.png)
 
-1. 계정을 닫을 이유를 선택합니다(1). 추가 정보를 제공할 수도 있습니다(2). 그런 다음 **계정 닫기**를 선택합니다.
+1. 계정을 닫을 이유를 선택합니다(1). 추가 정보를 제공할 수도 있습니다(2). 그런 다음 **계정 닫기** 를 선택합니다.
 
     ![계정을 닫기 위한 추가 정보를 제공하는 필드를 보여 주는 계정 닫기 대화 상자의 스크린샷.](media/service-admin-closing-your-account/close-account-settings-3.png)
 

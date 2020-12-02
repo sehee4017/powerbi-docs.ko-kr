@@ -2,20 +2,20 @@
 title: 작업 영역에서 데이터 스토리지 관리
 description: 보고서 및 데이터 세트를 계속 게시할 수 있도록 개인 또는 작업 영역의 데이터 스토리지를 관리하는 방법을 알아보세요.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 07/27/2020
-ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: eb59359497dec351c960ce0c6a3ce11b4f6eab0d
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: ccf9cc65cc5dc18d72ced490b18683a6a1af32ff
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252110"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96408714"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Power BI 작업 영역에서 데이터 스토리지 관리
 
@@ -52,11 +52,11 @@ ms.locfileid: "87252110"
 
 Power BI 계정에서 사용 중인 데이터 스토리지의 규모를 확인하고 계정을 관리합니다.
 
-1. 자체 스토리지를 관리하려면 탐색 창의 **내 작업 영역**으로 이동합니다.
+1. 자체 스토리지를 관리하려면 탐색 창의 **내 작업 영역** 으로 이동합니다.
    
     ![내 작업 영역이 호출된 탐색 창의 스크린샷.](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
 
-2. 오른쪽 위에 있는 기어 아이콘 ![기어 아이콘](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)을 선택하고 **개인 스토리지 관리**를 선택합니다.
+2. 오른쪽 위에 있는 기어 아이콘 ![기어 아이콘](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)을 선택하고 **개인 스토리지 관리** 를 선택합니다.
    
     위쪽 막대는 사용한 스토리지 한도의 크기를 보여줍니다.
    
@@ -75,7 +75,7 @@ Power BI 계정에서 사용 중인 데이터 스토리지의 규모를 확인�
 1. **작업 영역** 옆에 있는 화살표를 선택하고 작업 영역 이름을 선택합니다.
    
     ![판매 그룹 작업 영역을 보여 주는 작업 영역 선택 항목의 스크린샷.](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
-2. 오른쪽 위에 있는 기어 아이콘 ![기어 아이콘](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)을 선택하고 **그룹 스토리지 관리**를 선택합니다.
+2. 오른쪽 위에 있는 기어 아이콘 ![기어 아이콘](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png)을 선택하고 **그룹 스토리지 관리** 를 선택합니다.
    
     위쪽 막대는 사용한 그룹 스토리지 한도의 크기를 보여줍니다.
    

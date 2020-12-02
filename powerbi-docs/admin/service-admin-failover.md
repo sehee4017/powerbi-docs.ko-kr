@@ -2,19 +2,19 @@
 title: Power BI 고가용성, 장애 조치(failover) 및 재해 복구 FAQ
 description: Power BI 서비스가 고가용성을 제공하고 비즈니스 연속성 및 재해 복구를 사용자에게 제공하는 방법을 이해합니다.
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2020
-ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: c83565582a47c75e4f55e516afe3be0d9fbe7847
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: ff41f702edc605ee346aa10a759e633377597504
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374226"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96408967"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI 고가용성, 장애 조치(failover) 및 재해 복구 FAQ
 
@@ -28,7 +28,7 @@ Power BI는 SaaS(Software as a Service)로 완전 관리형 소프트웨어입�
 
 Power BI는 비즈니스 연속성을 보장하기 위해 Azure 데이터 센터(지역이라고도 함)의 각 구성 요소의 여러 인스턴스를 유지 관리합니다. 가동 중단 또는 Power BI가 한 지역에서 액세스할 수 없거나 제대로 작동할 수 없는 문제가 있는 경우, Power BI는 해당 지역의 모든 구성 요소를 백업 인스턴스로 가져오지 못합니다. 장애 조치(failover)는 새 지역에서 Power BI 서비스 인스턴스에 대한 가용성과 작동성을 복원합니다(일반적으로 [Microsoft 보안 센터](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)에 명시된 것과 동일한 지리적 위치 내에 있음).
 
-장애 조치(failover) Power BI 서비스 인스턴스는 _읽기 작업_만 지원합니다. 즉, 장애 조치(failover) 중에는 새로 고침, 보고서 게시 작업, 대시보드 또는 보고서 수정 및 Power BI 메타데이터 변경(예: 보고서에 주석 삽입)이 필요한 기타 작업이 지원되지 않습니다.  대시보드 표시 및 보고서 표시와 같은 작업(온-프레미스 데이터 원본에 대한 DirectQuery 또는 Live Connect를 기반으로 하지 않음)은 계속 정상적으로 작동합니다.
+장애 조치(failover) Power BI 서비스 인스턴스는 _읽기 작업_ 만 지원합니다. 즉, 장애 조치(failover) 중에는 새로 고침, 보고서 게시 작업, 대시보드 또는 보고서 수정 및 Power BI 메타데이터 변경(예: 보고서에 주석 삽입)이 필요한 기타 작업이 지원되지 않습니다.  대시보드 표시 및 보고서 표시와 같은 작업(온-프레미스 데이터 원본에 대한 DirectQuery 또는 Live Connect를 기반으로 하지 않음)은 계속 정상적으로 작동합니다.
 
 ## <a name="how-are-backup-instances-kept-in-sync-with-my-data"></a>백업 인스턴스를 데이터와 동기화하는 방법은?
 

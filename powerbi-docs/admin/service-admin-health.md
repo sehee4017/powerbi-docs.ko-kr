@@ -2,19 +2,19 @@
 title: Microsoft 365에서 Power BI 서비스 상태 추적
 description: Microsoft 365 관리 센터에서 현재 및 기록 서비스 상태를 보는 방법을 알아봅니다.
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 09/09/2019
-ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 3b3faab2a01a00e09560d39e850f40d0672a5863
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 1aa873993cbc3384482f11086e775f41ddbe8917
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161172"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96408806"
 ---
 # <a name="track-power-bi-service-health-in-microsoft-365"></a>Microsoft 365에서 Power BI 서비스 상태 추적
 
@@ -28,20 +28,20 @@ Microsoft 365 관리 센터는 Power BI 관리자에게 중요한 도구를 제�
 
 1. [Microsoft 365 관리 센터](https://portal.office.com/adminportal)에 로그인합니다.
 
-1. 탐색 창에서 **모두 표시** > **상태** > **서비스 상태**를 선택합니다. 서비스 상태 페이지가 나타납니다.
+1. 탐색 창에서 **모두 표시** > **상태** > **서비스 상태** 를 선택합니다. 서비스 상태 페이지가 나타납니다.
 
     ![상태 및 서비스 상태 옵션이 표시된 Microsoft 365 관리 센터의 스크린샷](media/service-admin-health/service-health-tile.png)
 
-1. **모든 서비스** 목록에서 **공지** 또는 **문제**를 선택하고 결과를 검토합니다. 아래 스크린샷에는 세 개의 활성 권고 중 하나가 표시됩니다.
+1. **모든 서비스** 목록에서 **공지** 또는 **문제** 를 선택하고 결과를 검토합니다. 아래 스크린샷에는 세 개의 활성 권고 중 하나가 표시됩니다.
 
     ![Power BI에 대한 세 가지 권고와 세부 정보 표시 옵션이 표시된 서비스 상태 페이지의 스크린샷](media/service-admin-health/active-advisories.png)
 
-1. 자세한 정보를 보려면 항목에 대한 **세부 정보 표시**를 선택합니다. 아래 스크린샷에는 최근 상태 업데이트를 포함한 추가 세부 정보가 표시되어 있습니다.
+1. 자세한 정보를 보려면 항목에 대한 **세부 정보 표시** 를 선택합니다. 아래 스크린샷에는 최근 상태 업데이트를 포함한 추가 세부 정보가 표시되어 있습니다.
 
     ![추가 정보를 보여 주는 공지 세부 정보의 스크린샷.](media/service-admin-health/advisory-details.png)
 
     아래로 스크롤하여 추가 정보를 확인한 다음, 완료되면 창을 닫습니다.
 
-1. 모든 서비스에 대한 기록 정보를 보려면 **서비스 상태** 페이지의 오른쪽 위에서 **기록 보기**를 선택합니다. 그런 다음, **지난 7일** 또는 **지난 30일**을 선택합니다. 
+1. 모든 서비스에 대한 기록 정보를 보려면 **서비스 상태** 페이지의 오른쪽 위에서 **기록 보기** 를 선택합니다. 그런 다음, **지난 7일** 또는 **지난 30일** 을 선택합니다. 
 
-1. 현재 서비스 상태로 돌아가려면 **현재 상태 보기**를 선택합니다.
+1. 현재 서비스 상태로 돌아가려면 **현재 상태 보기** 를 선택합니다.

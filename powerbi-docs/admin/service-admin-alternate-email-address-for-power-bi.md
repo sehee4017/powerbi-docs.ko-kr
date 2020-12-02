@@ -1,20 +1,20 @@
 ---
 title: 대체 이메일 주소 사용
 description: 대체 이메일 주소 사용
-author: kfollis
+author: mihart
+ms.author: mihart
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 04/23/2019
-ms.author: kfollis
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 0cc691e8987bf45f6c3028a5006955db1da72b0b
-ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
+ms.openlocfilehash: b03ecff1bcb74789adfea640c0279b568a09ffc7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88638799"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96409082"
 ---
 # <a name="use-an-alternate-email-address"></a>대체 이메일 주소 사용
 
@@ -31,9 +31,9 @@ Microsoft 365에서 대체 주소를 지정하려면 다음 단계를 수행합�
 
 1. 계정의 [개인 정보](https://portal.office.com/account/#personalinfo) 페이지를 엽니다. 앱에 메시지가 표시되면 Power BI 등록에 사용한 이메일 주소와 암호를 입력하여 로그인합니다.
 
-1. 왼쪽 메뉴에서 **개인 정보**를 선택합니다.
+1. 왼쪽 메뉴에서 **개인 정보** 를 선택합니다.
 
-1. **연락처 세부 정보** 섹션에서 **편집**을 선택합니다.
+1. **연락처 세부 정보** 섹션에서 **편집** 을 선택합니다.
 
     세부 정보를 편집할 수 없는 경우 이는 관리자가 사용자의 메일 주소를 관리하는 것을 의미합니다. 이메일 주소를 업데이트하려면 관리자에게 문의하세요.
 
