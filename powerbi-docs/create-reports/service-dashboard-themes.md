@@ -2,22 +2,22 @@
 title: Power BI 서비스에서 대시보드 테마 사용
 description: 사용자 지정 색상표를 사용하고 Power BI 서비스에서 전체 대시보드에 적용하는 방법 알아보기
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 08/22/2018
-ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 57331a49d5020308ebc39fbcb42a1728e6167593
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9167a5931976cdcec710ee79b347fcd0f33ba378
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236991"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96395305"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Power BI 서비스에서 대시보드 테마 사용
-**대시보드 테마**를 사용하여 전체 대시보드에 회사 색, 계절 색 지정 또는 적용하려는 기타 색 테마 등의 색 테마를 적용할 수 있습니다. **대시보드 테마**를 적용하는 경우 대시보드의 모든 시각적 개체에서는 선택한 테마를 사용합니다(몇 가지 예외 적용, 이 아티클의 뒷부분에서 설명).
+**대시보드 테마** 를 사용하여 전체 대시보드에 회사 색, 계절 색 지정 또는 적용하려는 기타 색 테마 등의 색 테마를 적용할 수 있습니다. **대시보드 테마** 를 적용하는 경우 대시보드의 모든 시각적 개체에서는 선택한 테마를 사용합니다(몇 가지 예외 적용, 이 아티클의 뒷부분에서 설명).
 
 ![테마와 예제 대시보드](media/service-dashboard-themes/power-bi-full-dashboard-theme.png)
 
@@ -29,11 +29,11 @@ ms.locfileid: "85236991"
 
 
 ## <a name="how-dashboard-themes-work"></a>대시보드 테마 작동 방식
-시작하려면 직접 만들었고(또는 편집 권한이 있고) 사용자 지정하려는 대시보드를 엽니다. **추가 옵션**(...)을 선택한 다음, **대시보드 테마**를 선택합니다. 
+시작하려면 직접 만들었고(또는 편집 권한이 있고) 사용자 지정하려는 대시보드를 엽니다. **추가 옵션**(...)을 선택한 다음, **대시보드 테마** 를 선택합니다. 
 
 ![대시보드 테마 옵션](media/service-dashboard-themes/power-bi-dashboard-theme.png)
 
-표시되는 대시보드 창에서 미리 작성된 테마 중 하나를 선택합니다.  아래 예제에서 **어둡게**를 선택했습니다.
+표시되는 대시보드 창에서 미리 작성된 테마 중 하나를 선택합니다.  아래 예제에서 **어둡게** 를 선택했습니다.
 
 ![밝게 옵션 선택](media/service-dashboard-themes/power-bi-theme-menu.png)
 
@@ -41,7 +41,7 @@ ms.locfileid: "85236991"
 
 ## <a name="create-a-custom-theme"></a>사용자 지정 테마 만들기
 
-Power BI 대시보드의 기본 테마는 **밝게**입니다. 색을 사용자 지정하거나 고유한 테마를 만들려면 드롭다운 목록에서 **사용자 지정**을 선택합니다. 
+Power BI 대시보드의 기본 테마는 **밝게** 입니다. 색을 사용자 지정하거나 고유한 테마를 만들려면 드롭다운 목록에서 **사용자 지정** 을 선택합니다. 
 
 ![드롭다운에서 사용자 지정 선택](media/service-dashboard-themes/power-bi-theme-custom.png)
 
@@ -58,7 +58,7 @@ JSON 파일로 사용자 지정 테마를 저장한 다음, 다른 대시보드 
 
 기본 제공 및 사용자 지정 옵션과 마찬가지로 테마가 업로드되면 대시보드의 모든 타일에 색이 자동으로 적용됩니다. 
 
-1. 테마 위로 마우스를 가져가고 **보고서 보기**를 선택합니다.
+1. 테마 위로 마우스를 가져가고 **보고서 보기** 를 선택합니다.
 
     ![보고서 보기](media/service-dashboard-themes/power-bi-choose-theme.png)
 
@@ -66,25 +66,25 @@ JSON 파일로 사용자 지정 테마를 저장한 다음, 다른 대시보드 
 
     ![Spring Day JSON](media/service-dashboard-themes/power-bi-theme-json.png)
 
-3. Power BI 서비스로 다시 돌아가서 사용자 지정 대시보드 테마 창에서 **JSON 테마 업로드**를 선택합니다.
+3. Power BI 서비스로 다시 돌아가서 사용자 지정 대시보드 테마 창에서 **JSON 테마 업로드** 를 선택합니다.
 
     ![JSON 업로드](media/service-dashboard-themes/power-bi-upload-theme.png)
 
-4. JSON 테마 파일을 저장한 위치로 이동하고 **열기**를 선택합니다.
+4. JSON 테마 파일을 저장한 위치로 이동하고 **열기** 를 선택합니다.
 
-5. 대시보드 테마 페이지에서 **저장**을 선택합니다. 새 테마가 대시보드에 적용됩니다.
+5. 대시보드 테마 페이지에서 **저장** 을 선택합니다. 새 테마가 대시보드에 적용됩니다.
 
     ![새 테마 적용](media/service-dashboard-themes/power-bi-json.png)
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 
-* 보고서가 대시보드 테마의 다양한 테마를 사용하는 경우 시각적 개체가 현재 테마를 유지할지 또는 다양한 원본의 시각적 개체 간에 일관성을 위해 대시보드 테마를 사용할지 여부를 제어할 수 있습니다. 타일을 대시보드에 고정하는 경우 보고서 테마를 유지하려면 **현재 테마 유지**를 선택합니다. 대시보드의 시각적 개체는 투명도 설정을 포함하여 보고서 테마를 유지합니다. 
+* 보고서가 대시보드 테마의 다양한 테마를 사용하는 경우 시각적 개체가 현재 테마를 유지할지 또는 다양한 원본의 시각적 개체 간에 일관성을 위해 대시보드 테마를 사용할지 여부를 제어할 수 있습니다. 타일을 대시보드에 고정하는 경우 보고서 테마를 유지하려면 **현재 테마 유지** 를 선택합니다. 대시보드의 시각적 개체는 투명도 설정을 포함하여 보고서 테마를 유지합니다. 
 
     Power BI Desktop에서 보고서를 만들고, [보고서 테마를 추가](desktop-report-themes.md)한 다음, Power BI 서비스에 보고서를 게시한 경우에만 **타일 테마 지정** 옵션이 표시됩니다. 
 
     ![현재 테마 계속 선택](media/service-dashboard-themes/power-bi-keep-current.png)
 
-    타일을 다시 고정하고 **대시보드 테마 사용**을 선택하려고 합니다.
+    타일을 다시 고정하고 **대시보드 테마 사용** 을 선택하려고 합니다.
 
     ![대상 테마 사용](media/service-dashboard-themes/power-bi-use-destination.png)
 

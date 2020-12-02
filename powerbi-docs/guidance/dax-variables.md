@@ -2,18 +2,18 @@
 title: 'DAX: 변수를 사용하여 수식 향상'
 description: DAX 식에서 변수를 사용하기 위한 가이드입니다.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 11/23/2019
-ms.author: v-pemyer
-ms.openlocfilehash: cd2f71a2d96a0057e3da5ee7e02bbb05498c6065
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: 2448ac8b94465872e4224738162c6a252cafe56c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965185"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96393603"
 ---
 # <a name="dax-use-variables-to-improve-your-formulas"></a>DAX: 변수를 사용하여 수식 향상
 
@@ -44,7 +44,7 @@ DIVIDE(
 
 수식에서 “전년도 동기”를 계산하는 식이 반복되는 것을 볼 수 있습니다. 이 수식은 Power BI가 동일한 식을 두 번 계산하도록 만들기 때문에 비효율적입니다. 변수를 사용하면 측정값 정의를 더 효율적으로 만들 수 있습니다.
 
-다음은 개선된 측정값 정의입니다. **SalesPriorYear**라는 변수에 “전년도 동기”라는 결과를 할당하는 식을 사용합니다. 이 변수는 RETURN 식에서 두 번 사용됩니다.
+다음은 개선된 측정값 정의입니다. **SalesPriorYear** 라는 변수에 “전년도 동기”라는 결과를 할당하는 식을 사용합니다. 이 변수는 RETURN 식에서 두 번 사용됩니다.
 
 ```dax
 Sales YoY Growth % =
@@ -93,9 +93,9 @@ COUNTROWS(
 ) + 1
 ```
 
-_현재 행 컨텍스트_에서 **Subcategory Sales** 열 값을 참조하기 위해 EARLIER 함수가 사용되었습니다.
+_현재 행 컨텍스트_ 에서 **Subcategory Sales** 열 값을 참조하기 위해 EARLIER 함수가 사용되었습니다.
 
-EARLIER 함수 대신 변수를 사용하면 계산 열 정의를 개선할 수 있습니다. **CurrentSubcategorySales** 변수는 _현재 행 컨텍스트_에서 **Subcategory Sales** 열 값을 저장하고, RETURN 식은 수정된 필터 컨텍스트 내에서 이 값을 사용합니다.
+EARLIER 함수 대신 변수를 사용하면 계산 열 정의를 개선할 수 있습니다. **CurrentSubcategorySales** 변수는 _현재 행 컨텍스트_ 에서 **Subcategory Sales** 열 값을 저장하고, RETURN 식은 수정된 필터 컨텍스트 내에서 이 값을 사용합니다.
 
 ```dax
 Subcategory Sales Rank =

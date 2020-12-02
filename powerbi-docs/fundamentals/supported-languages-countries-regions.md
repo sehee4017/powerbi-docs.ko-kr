@@ -1,20 +1,20 @@
 ---
 title: Power BI에 지원되는 언어 및 국가/지역
 description: Power BI 서비스, Power BI Desktop 및 Power BI 설명서에서 지원하는 언어 및 국가/지역 목록을 참조하세요.
-author: maggiesMSFT
+author: mihart
+ms.author: mihart
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 04/23/2020
-ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: da1ec0ec3a10adbd9771e13a97bcb17dcdf73273
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 9bd968676e2e9413c0d366cc22980e0a6355e4f9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216902"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96395029"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI에 지원되는 언어 및 국가/지역
 
@@ -83,8 +83,8 @@ Power BI는 메뉴, 단추, 메시지 및 기타 환경 요소를 해당 언어�
 
 ### <a name="choose-your-language-in-the-power-bi-service"></a>Power BI 서비스에서 해당 언어를 선택합니다.
 1. Power BI 서비스에서 **설정** 아이콘 ![설정 아이콘을 보여 주는 Power BI 서비스의 스크린샷.](media/supported-languages-countries-regions/pbi_settings_icon.png)을 선택합니다. > **설정**.
-2. **일반** 탭 > **언어**에서.
-3. 언어 > **적용**을 선택합니다.
+2. **일반** 탭 > **언어** 에서.
+3. 언어 > **적용** 을 선택합니다.
 
 ### <a name="choose-your-language-in-the-browser"></a>브라우저에서 해당 언어를 선택합니다.
 Power BI는 컴퓨터의 언어 기본 설정에 따라 언어를 검색합니다. 이러한 기본 설정을 액세스하고 변경하는 방법은 운영 체제 및 브라우저에 따라 달라질 수 있습니다. Internet Explorer 및 Google Chrome에서 이러한 기본 설정에 액세스하는 방법은 다음과 같습니다.
@@ -93,22 +93,22 @@ Power BI는 컴퓨터의 언어 기본 설정에 따라 언어를 검색합니�
 1. 브라우저 창의 오른쪽 위 모서리에 있는 **도구** 단추를 클릭합니다.
    
    ![도구 단추를 보여 주는 Internet Explorer의 스크린샷.](media/supported-languages-countries-regions/languages1.png)
-2. **인터넷 옵션**을 클릭합니다.
+2. **인터넷 옵션** 을 클릭합니다.
 3. 모양 아래의 일반 탭에 있는 인터넷 옵션 대화 상자에서 **언어** 단추를 클릭합니다.
 
 #### <a name="google-chrome-version-42"></a>Google Chrome(버전 42)
 1. 브라우저 창의 오른쪽 위 모서리에 있는 메뉴 단추를 클릭합니다.
    
    ![메뉴 단추를 보여 주는 Google Chrome의 스크린샷.](media/supported-languages-countries-regions/languages2.png)
-2. **설정**을 클릭합니다.
-3. **고급 설정 표시**를 클릭합니다.
+2. **설정** 을 클릭합니다.
+3. **고급 설정 표시** 를 클릭합니다.
 4. 언어에서 **언어 및 입력 설정** 단추를 클릭합니다.
-5. **추가**를 클릭하고 언어를 선택한 다음, **확인**을 클릭합니다.
+5. **추가** 를 클릭하고 언어를 선택한 다음, **확인** 을 클릭합니다.
    
    ![언어 목록을 보여 주는 Google Chrome의 스크린샷.](media/supported-languages-countries-regions/pbi_langs_enus.png)
    
    새로운 언어는 목록 끝에 있습니다. 
-6. 목록의 맨 위에 새 언어를 끌어놓고 **이 언어로 Google Chrome 표시**를 클릭합니다.
+6. 목록의 맨 위에 새 언어를 끌어놓고 **이 언어로 Google Chrome 표시** 를 클릭합니다.
    
    ![표시 언어를 보여 주는 Google Chrome의 스크린샷.](media/supported-languages-countries-regions/pbi_langs_eses.png)
    
@@ -126,20 +126,20 @@ Power BI Desktop을 얻는 방법은 두 가지입니다. 독립 실행형 설�
 
 ### <a name="choose-a-language-for-power-bi-desktop"></a>Power BI Desktop 언어 선택 
 1. Power BI Desktop을 [Windows 스토어에서](https://aka.ms/pbidesktopstore) 설치하거나 [독립 실행형 설치 프로그램](https://aka.ms/pbiSingleInstaller)으로 설치합니다.
-2. 언어를 변경하려면 Windows 메뉴에서 **설정**을 선택합니다.
+2. 언어를 변경하려면 Windows 메뉴에서 **설정** 을 선택합니다.
 
-3. **Windows 설정**에서 **시간 및 언어**를 선택합니다.
+3. **Windows 설정** 에서 **시간 및 언어** 를 선택합니다.
    
      ![Windows 설정 대화 상자를 보여 주는 Power BI Desktop의 스크린샷.](media/supported-languages-countries-regions/power-bi-service-windows-settings.png)
-4. **언어**를 선택하고 언어를 선택합니다. 필요한 경우 **Microsoft Store에서 Windows 표시 언어 추가**를 선택합니다.
+4. **언어** 를 선택하고 언어를 선택합니다. 필요한 경우 **Microsoft Store에서 Windows 표시 언어 추가** 를 선택합니다.
    
      ![Windows 언어 설정 대화 상자를 보여 주는 Power BI Desktop의 스크린샷.](media/supported-languages-countries-regions/power-bi-service-language-settings.png)
    
      다음에 Power BI Desktop을 시작하면 기본값으로 설정한 언어가 사용됩니다. 
 
 기본값을 재정의하고 Windows 언어 이외의 언어로 Power BI Desktop을 사용하려면 다음을 수행합니다.
-1. Power BI Desktop에서 **파일** > **옵션 및 설정** > **옵션**으로 이동합니다.
-2. **전역 설정** 아래에서 **국가별 설정**을 선택합니다.
+1. Power BI Desktop에서 **파일** > **옵션 및 설정** > **옵션** 으로 이동합니다.
+2. **전역 설정** 아래에서 **국가별 설정** 을 선택합니다.
 3. **애플리케이션 언어** 상자에서 다른 로캘을 선택합니다. 
 
 Power BI Desktop의 언어 지원은 애플리케이션 언어 드롭다운에서 표시되는 언어로 제한됩니다.
@@ -148,33 +148,33 @@ Power BI Desktop의 언어 지원은 애플리케이션 언어 드롭다운에�
 
 Power BI Desktop은 Windows 지역 설정에서 기본 번호 및 날짜 서식 지정을 가져옵니다. 필요한 경우 해당 설정을 확인하거나 변경할 수 있습니다.
 
-1. Windows 메뉴에서 **설정**을 선택합니다.
+1. Windows 메뉴에서 **설정** 을 선택합니다.
 
-2. **Windows 설정**에서 **시간 및 언어**를 선택합니다.
+2. **Windows 설정** 에서 **시간 및 언어** 를 선택합니다.
    
      ![Windows 설정 대화 상자를 보여 주는 Power BI Desktop의 스크린샷.](media/supported-languages-countries-regions/power-bi-service-windows-settings.png)
 
-3. **지역** > **추가 날짜, 시간 및 지역 설정**을 선택합니다.
+3. **지역** > **추가 날짜, 시간 및 지역 설정** 을 선택합니다.
 
     :::image type="content" source="media/supported-languages-countries-regions/power-bi-service-region-settings.png" alt-text="추가 날짜, 시간 및 지역 설정":::
 
-4. **시계 및 지역**에서 **날짜, 시간 또는 숫자 서식 변경**을 선택합니다.
+4. **시계 및 지역** 에서 **날짜, 시간 또는 숫자 서식 변경** 을 선택합니다.
 
     :::image type="content" source="media/supported-languages-countries-regions/power-bi-service-check-region-settings.png" alt-text="시계 및 지역 설정":::
 
-5. **Windows 표시 언어 일치**가 선택되어 있는지 확인하거나 필요한 경우 변경합니다.
+5. **Windows 표시 언어 일치** 가 선택되어 있는지 확인하거나 필요한 경우 변경합니다.
 
     :::image type="content" source="media/supported-languages-countries-regions/power-bi-service-match-windows.png" alt-text="Windows 표시 언어 일치":::
 
 ### <a name="choose-the-locale-for-importing-data-into-power-bi-desktop"></a>Power BI Desktop으로 데이터를 가져올 때 사용할 로캘 선택
 Power BI Desktop을 다운로드하든 Windows 스토어에서 설치하든 특정 보고서에 대한 로캘을 Power BI Desktop 버전의 로캘이 아닌 다른 로캘로 선택할 수 있습니다. 로캘은 데이터 원본에서 데이터를 가져올 때 Power BI가 데이터를 해석하는 방식을 변경합니다. 예를 들어 "3/4/2017"은 4월 3일 또는 3월 4일 중 무엇으로 해석되나요?
 
-1. Power BI Desktop에서 **파일** > **옵션 및 설정** > **옵션**으로 이동합니다.
-2. **현재 파일**에서 **국가별 설정**을 선택합니다.
+1. Power BI Desktop에서 **파일** > **옵션 및 설정** > **옵션** 으로 이동합니다.
+2. **현재 파일** 에서 **국가별 설정** 을 선택합니다.
 3. **가져오기용 로캘** 상자에서 다른 로캘을 선택합니다. 
    
    ![옵션 대화 상자를 보여 주는 Power BI Desktop의 스크린샷.](media/supported-languages-countries-regions/power-bi_supptdlangs-locale.png)
-4. **확인**을 선택합니다.
+4. **확인** 을 선택합니다.
 
 ### <a name="choose-the-language-for-the-model-in-power-bi-desktop"></a>Power BI Desktop에서 모델 언어 선택
 
@@ -190,8 +190,8 @@ Power BI Desktop 애플리케이션의 언어를 설정할 수 있을 뿐만 아
 
 모델 언어를 설정하는 방법은 다음과 같습니다.
 
-1. Power BI Desktop에서 **파일** > **옵션 및 설정** > **옵션**으로 이동합니다.
-2. **글로벌** 아래에서 **국가별 설정**을 선택합니다.
+1. Power BI Desktop에서 **파일** > **옵션 및 설정** > **옵션** 으로 이동합니다.
+2. **글로벌** 아래에서 **국가별 설정** 을 선택합니다.
 3. **모델 언어** 상자에서 다른 언어를 선택합니다. 
 
     ![모델 언어를 설정하는 방법을 보여 주는 Power BI Desktop의 스크린샷.](media/supported-languages-countries-regions/power-bi-supported-model-languages.png)

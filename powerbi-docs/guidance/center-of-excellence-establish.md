@@ -2,18 +2,18 @@
 title: 최고 전문가 조직 설정
 description: 최고 전문가 조직을 통해 Microsoft가 표준화된 분석 및 데이터 플랫폼을 만들어 올바른 운영 모델, 관련자 참여, 공유 및 전용 투자를 통해 인사이트를 활용하는 방법을 알아보세요.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/19/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 477b6a1e29fc05da3004a2dcf8466ef969df4531
-ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
+ms.openlocfilehash: 90de33f85c0ede28b14e651414c311e4986a2172
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88638615"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96394569"
 ---
 # <a name="establish-a-center-of-excellence"></a>최고 전문가 조직 설정
 

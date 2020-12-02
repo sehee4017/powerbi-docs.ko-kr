@@ -2,18 +2,18 @@
 title: Power BI 질문 및 답변에서 질문과 용어를 이해하도록 질문 및 답변 학습
 description: Power BI 질문 및 답변을 사용하여 데이터를 탐색하는 방법
 author: maggiesMSFT
+ms.author: maggies
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 04/21/2020
-ms.author: maggies
 LocalizationGroup: Ask questions of your datadefintion
-ms.openlocfilehash: b2eff10484a7e05a9e51dfc09d44598de034ee88
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 5f7237102415f5917dab66f9689764c516d2672f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635243"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96393626"
 ---
 # <a name="teach-qa-to-understand-questions-and-terms-in-power-bi-qa"></a>Power BI 질문 및 답변에서 질문과 용어를 이해하도록 질문 및 답변 학습
 
@@ -24,11 +24,11 @@ ms.locfileid: "91635243"
 
 ## <a name="start-to-teach-qa"></a>Q&A 교육 시작
 
-1. Power BI Desktop의 **모델링** 리본에서 **질문 및 답변 설정** > **Q&A 교육**을 선택합니다.
+1. Power BI Desktop의 **모델링** 리본에서 **질문 및 답변 설정** > **Q&A 교육** 을 선택합니다.
 
     ![Q&A 교육 동의어 빨강](media/q-and-a-tooling-teach-q-and-a/qna-tooling-teach-synonym-red.png)
 
-2. 질문 및 답변에서 인식할 수 없는 용어가 포함된 문장을 입력하고 **저장**을 선택합니다.
+2. 질문 및 답변에서 인식할 수 없는 용어가 포함된 문장을 입력하고 **저장** 을 선택합니다.
 
 3. 빨간색 밑줄이 표시된 단어를 선택합니다. 
 
@@ -38,9 +38,9 @@ ms.locfileid: "91635243"
 
     ![Q&A 교육 동의어 미리 보기](media/q-and-a-tooling-teach-q-and-a/qna-tooling-teach-fixpreview.png)
 
-4. **저장**을 선택하여 업데이트된 시각적 개체를 미리 봅니다.
+4. **저장** 을 선택하여 업데이트된 시각적 개체를 미리 봅니다.
 
-5. 다음 질문을 입력하거나 **X**를 선택하여 닫습니다.
+5. 다음 질문을 입력하거나 **X** 를 선택하여 닫습니다.
 
 보고서를 서비스에 다시 게시해야 변경 내용이 보고서 사용자에게 표시됩니다.
 
@@ -98,7 +98,7 @@ ms.locfileid: "91635243"
 
 정의를 입력한 후에 돌아가서 수정 사항을 모두 확인하고 편집하거나 삭제할 수 있습니다. 
 
-1. **질문 및 답변 설정**에서 **용어 관리** 섹션으로 이동합니다.
+1. **질문 및 답변 설정** 에서 **용어 관리** 섹션으로 이동합니다.
 
 2. 더 이상 필요하지 않은 용어를 삭제합니다. 현재, 용어를 편집할 수는 없습니다. 용어를 다시 정의하려면 용어를 삭제하고 새로 정의합니다.
 

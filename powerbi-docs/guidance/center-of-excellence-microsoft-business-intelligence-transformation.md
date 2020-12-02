@@ -2,18 +2,18 @@
 title: Microsoft의 BI 변환
 description: Microsoft가 비즈니스 의사 결정을 위한 데이터 문화를 촉진하는 방법을 알아보세요. BI 관련 전략과 비전을 설명합니다.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/19/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 1b4f86a0e3316cc774b0f1562112f0d6e5b19a4f
-ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
+ms.openlocfilehash: fa3f8c553fd55e77e92b4a933df332bdd8c4dc6d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88638707"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96394454"
 ---
 # <a name="microsofts-bi-transformation"></a>Microsoft의 BI 변환
 
@@ -51,9 +51,9 @@ ms.locfileid: "88638707"
 
 ### <a name="our-solution"></a>Microsoft의 솔루션
 
-**Starlight**는 재무, 판매, 마케팅 및 엔지니어링을 지원하는 Microsoft 내부의 데이터 통합 및 분석 플랫폼의 이름입니다. 임무는 강력하고 확장성 있는 공유 데이터 플랫폼을 제공하는 것입니다. 이 플랫폼은 전적으로 재무 팀에 의해 구축되었으며 최신 Microsoft 제품을 사용하여 현재 계속 운영 중입니다.
+**Starlight** 는 재무, 판매, 마케팅 및 엔지니어링을 지원하는 Microsoft 내부의 데이터 통합 및 분석 플랫폼의 이름입니다. 임무는 강력하고 확장성 있는 공유 데이터 플랫폼을 제공하는 것입니다. 이 플랫폼은 전적으로 재무 팀에 의해 구축되었으며 최신 Microsoft 제품을 사용하여 현재 계속 운영 중입니다.
 
-**KPI Lake**는 Azure Data Lake가 아닙니다. Starlight 기반의 테이블 형식 BI 의미 체계 모델로, Microsoft SQL Server Analysis Services를 사용하여 Azure IaaS에서 호스트됩니다. 이 BI 의미 체계 모델은 100개 이상의 내부 원본에서 데이터를 제공하고 다양한 계층 구조와 KPI를 정의합니다. 임무는 재무, 마케팅 및 판매 전체에서 비즈니스 성과 보고 및 분석 팀을 지원하는 것입니다. 관련 원본에서 통합된 BI 의미 체계 모델을 통해 적시에 정확하고 성과 높은 인사이트를 얻기 위한 것입니다.
+**KPI Lake** 는 Azure Data Lake가 아닙니다. Starlight 기반의 테이블 형식 BI 의미 체계 모델로, Microsoft SQL Server Analysis Services를 사용하여 Azure IaaS에서 호스트됩니다. 이 BI 의미 체계 모델은 100개 이상의 내부 원본에서 데이터를 제공하고 다양한 계층 구조와 KPI를 정의합니다. 임무는 재무, 마케팅 및 판매 전체에서 비즈니스 성과 보고 및 분석 팀을 지원하는 것입니다. 관련 원본에서 통합된 BI 의미 체계 모델을 통해 적시에 정확하고 성과 높은 인사이트를 얻기 위한 것입니다.
 
 처음 배포했을 때 테이블 형식 BI 의미 체계 모델이 즉각적이고 측정 가능한 이점을 제공했기 때문에 흥미로웠습니다. 첫 번째 버전은 C+E 재무 및 마케팅 BI 플랫폼을 중앙 집중화했습니다. 그런 다음, 지난 6년 동안 추가 비즈니스 인사이트 솔루션을 통합하도록 플랫폼이 확장되었습니다. 지금도 계속 변화하여 글로벌 및 상업적 비즈니스 검토뿐만 아니라 표준 보고 및 SSBI를 구동합니다. 릴리스 이후 플랫폼 채택이 5배 늘었으며, 이 수치는 초기 기대를 크게 넘어섭니다.
 
@@ -64,7 +64,7 @@ ms.locfileid: "88638707"
 - 인센티브 보상, 마케팅 및 운영 분석, 판매 성과 메트릭, 고위 경영진 검토, 연간 계획 프로세스를 위한 보고 및 분석을 돕습니다.
 - ‘단일 데이터 소스’에서 동적 보고 및 분석을 자동으로 제공합니다.
 
-**KPI Lake**는 훌륭한 성공 사례입니다. 최신 기술을 효과적으로 사용하는 방법의 예로 Microsoft 고객에게 자주 제시됩니다. 많은 고객에게 크게 공감을 얻고 있습니다.
+**KPI Lake** 는 훌륭한 성공 사례입니다. 최신 기술을 효과적으로 사용하는 방법의 예로 Microsoft 고객에게 자주 제시됩니다. 많은 고객에게 크게 공감을 얻고 있습니다.
 
 #### <a name="how-it-works"></a>작동 방법
 

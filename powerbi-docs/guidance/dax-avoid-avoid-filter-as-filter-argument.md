@@ -2,18 +2,18 @@
 title: 'DAX: FILTER를 필터 인수로 사용하지 마세요.'
 description: FILTER 함수를 필터 인수로 사용하는 방법에 대한 지침입니다.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 12/30/2019
-ms.author: v-pemyer
-ms.openlocfilehash: abff4eafc741ea776180752147019cae3c744e2c
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: 651b4f1323738809e19c0ee42f1dbe71f7bc3998
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90964977"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96394339"
 ---
 # <a name="dax-avoid-using-filter-as-a-filter-argument"></a>DAX: FILTER를 필터 인수로 사용하지 마세요.
 
@@ -70,7 +70,7 @@ CALCULATE(
 )
 ```
 
-_이익이 높은 제품_의 정의는 정가가 해당 표준 비용의 2배가 넘는 제품입니다. 이 예제에서는 FILTER 함수를 사용해야 합니다. 부울 식에는 필터 식이 너무 복잡하기 때문입니다.
+_이익이 높은 제품_ 의 정의는 정가가 해당 표준 비용의 2배가 넘는 제품입니다. 이 예제에서는 FILTER 함수를 사용해야 합니다. 부울 식에는 필터 식이 너무 복잡하기 때문입니다.
 
 아래에는 또 다른 예제가 있습니다. 이번 요구 사항은 수익을 달성한 월에 대해서만 판매를 계산하는 것입니다.
 

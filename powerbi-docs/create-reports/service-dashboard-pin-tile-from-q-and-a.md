@@ -2,19 +2,19 @@
 title: 질문 및 답변에서 대시보드에 타일을 고정하는 방법
 description: 질문 및 답변 상자에서 Power BI 대시보드에 타일을 고정하는 방법에 대한 설명서입니다.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 03/02/2018
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 76c76cf5ae41c369e3810f3a52ee43816184d8e1
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: ec0b384efb4b43afad76e18feb1b5a53d5f3738c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86263049"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96395213"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>질문 및 답변에서 대시보드에 타일 고정
 ## <a name="how-to-pin-a-tile-from-qa"></a>질문 및 답변에서 타일을 고정하는 방법
@@ -41,12 +41,12 @@ ms.locfileid: "86263049"
    * 기존 대시보드: 드롭다운에서 대시보드의 이름을 선택합니다. 현재 작업 영역에 있는 대시보드만 선택할 수 있습니다.
    * 새 대시보드: 새 대시보드의 이름을 입력합니다. 그러면 현재 작업 영역에 추가됩니다.
 
-6. **고정**을 선택합니다.
+6. **고정** 을 선택합니다.
 
    오른쪽 위에 나타나는 성공 메시지를 통해 시각화가 타일로 대시보드에 추가되었음을 알 수 있습니다.  
 
    ![대시보드에 고정됨](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin.png)
-7. **대시보드로 이동**을 선택하여 새 타일을 볼 수 있습니다. 여기에서 대시보드의 [타일 이름을 바꾸고, 크기를 조정하고, 하이퍼링크를 추가하고, 타일의 위치를 변경하는 등](service-dashboard-edit-tile.md)의 작업을 할 수 있습니다.
+7. **대시보드로 이동** 을 선택하여 새 타일을 볼 수 있습니다. 여기에서 대시보드의 [타일 이름을 바꾸고, 크기를 조정하고, 하이퍼링크를 추가하고, 타일의 위치를 변경하는 등](service-dashboard-edit-tile.md)의 작업을 할 수 있습니다.
 
    ![타일이 있는 대시보드](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pinned.png)
 

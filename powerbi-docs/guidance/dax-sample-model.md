@@ -2,18 +2,18 @@
 title: DAX 샘플 모델
 description: 참조 문서를 지원하는 DAX 샘플 모델입니다.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 06/25/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 0efa26a6ef3e47272d1434fab453a17ad9823c8c
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: b2930003da1593ef5d5888c611af6700e00d3d07
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965455"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96394063"
 ---
 # <a name="dax-sample-model"></a>DAX 샘플 모델
 
@@ -36,7 +36,7 @@ Adventure Works 회사는 자전거와 액세서리를 글로벌 시장에 판�
 |**Product**|완성된 제품만 저장합니다.|
 |**Reseller**|재판매인과 재판매인의 지리적 위치를 설명합니다. 재판매인은 고객에게 제품을 판매합니다.|
 |**Sales**|판매 주문 라인 그레인에 행을 저장합니다. 재정적 값은 모두 미국 달러(USD) 기준입니다. 가장 이른 주문 날짜는 2017년 7월 1일이고, 가장 최근 주문 날짜는 2020년 6월 15일입니다.|
-|**Sales Order**|판매 주문 및 주문 라인 번호와 **재판매인** 또는 **인터넷**인 판매 채널을 설명합니다. 이 테이블은 **Sales** 테이블과 일대일 관계를 갖습니다.|
+|**Sales Order**|판매 주문 및 주문 라인 번호와 **재판매인** 또는 **인터넷** 인 판매 채널을 설명합니다. 이 테이블은 **Sales** 테이블과 일대일 관계를 갖습니다.|
 |**Sales Territory**|영업권역은 그룹(북아메리카, 유럽, 태평양), 국가, 지역으로 구성됩니다. 미국만 지역 수준에서 제품을 판매합니다.|
 
 모델에는 DAX 계산이 포함되어 있지 않습니다.

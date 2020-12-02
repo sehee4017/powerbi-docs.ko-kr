@@ -1,20 +1,20 @@
 ---
 title: Power BI 모바일 앱에서 사용할 보고서의 QR 코드 만들기
 description: Power BI의 QR 코드는 실제 세계의 모든 항목을 Power BI 모바일 앱에서 관련된 BI 정보에 연결할 수 있습니다. 검색할 필요가 없습니다.
-author: maggiesMSFT
+author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 03/13/2018
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: b13ad1c50e62351c693adee1026a0d78aafd2daa
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 7d163519162c6e7ab2cd1a13b10320d5c66796a8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264697"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96395282"
 ---
 # <a name="create-a-qr-code-for-a-report-in-power-bi-to-use-in-the-mobile-apps"></a>Power BI에서 모바일 앱에 사용할 보고서의 QR 코드 만들기
 Power BI의 QR 코드는 실제 세계의 모든 항목을 관련된 BI 정보에 연결할 수 있습니다. 탐색하거나 검색할 필요가 없습니다.
@@ -25,7 +25,7 @@ Power BI의 QR 코드는 실제 세계의 모든 항목을 관련된 BI 정보�
 
 ## <a name="create-a-qr-code-for-a-report"></a>보고서에 대한 QR 코드 만들기
 1. Power BI 서비스에서 보고서를 엽니다.
-2. 오른쪽 위에 있는 **추가 옵션**(...)을 선택한 다음, **QR 코드 생성**을 선택합니다. 
+2. 오른쪽 위에 있는 **추가 옵션**(...)을 선택한 다음, **QR 코드 생성** 을 선택합니다. 
    
     ![QR 코드를 생성하는 줄임표의 포인터를 보여 주는 보고서의 스크린샷.](media/service-create-qr-code-for-report/power-bi-create-qr-code-report.png)
 3. QR 코드와 함께 대화 상자가 나타납니다. 
@@ -39,7 +39,7 @@ Power BI의 QR 코드는 실제 세계의 모든 항목을 관련된 BI 정보�
 ## <a name="print-the-qr-code"></a>QR 코드 인쇄
 Power BI는 QR 코드를 인쇄할 수 있는 JPG 파일로 생성합니다. 
 
-1. **다운로드**를 선택하고 프린터에 연결된 컴퓨터에서 PNG 파일을 엽니다.  
+1. **다운로드** 를 선택하고 프린터에 연결된 컴퓨터에서 PNG 파일을 엽니다.  
    
    JPG 파일의 이름은 타일과 동일합니다. 예를 들어 "Sales and Marketing Sample.jpg"입니다.
    

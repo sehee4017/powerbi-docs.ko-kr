@@ -1,21 +1,21 @@
 ---
 title: X축 및 Y축 속성 사용자 지정
 description: X축 및 Y축 속성 사용자 지정
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 05/06/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b327ca5f4c19638f4afe72abce763601e68fc943
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 24c10880d76fbe2bbdbf5e20d24f6f52e1262eb5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93413157"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96393926"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>X축 및 Y축 속성 사용자 지정
 
@@ -67,7 +67,7 @@ X축에 대해 사용자 지정할 수 있는 다양한 기능이 있습니다. 
 ### <a name="customize-the-x-axis-labels"></a>X축 레이블 사용자 지정
 X축 레이블은 차트의 세로 막대 아래에 표시됩니다. 현재는 밝은 회색이고, 작고, 읽기가 어렵습니다. 이제 변경해 보겠습니다.
 
-1. **시각화** 창에서 **서식** (페인트 롤러 아이콘 ![페인트 롤러 아이콘의 스크린샷](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-paintroller-icon.png))을 선택합니다. 사용자 지정 옵션을 표시합니다.
+1. **시각화** 창에서 **서식**(페인트 롤러 아이콘 ![페인트 롤러 아이콘의 스크린샷](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-paintroller-icon.png))을 선택합니다. 사용자 지정 옵션을 표시합니다.
 
 2. X축 옵션을 펼칩니다.
 
@@ -81,13 +81,13 @@ X축 레이블은 차트의 세로 막대 아래에 표시됩니다. 현재는 �
 
 4. 텍스트 색, 크기 및 글꼴의 서식을 지정합니다.
 
-    - **색** : 검정 선택
+    - **색**: 검정 선택
 
-    - **텍스트 크기** : *14* 입력
+    - **텍스트 크기**: *14* 입력
 
-    - **글꼴 제품군** : **Arial Black** 선택
+    - **글꼴 제품군**: **Arial Black** 선택
 
-    - **안쪽 여백** : *40%* 입력
+    - **안쪽 여백**: *40%* 입력
 
         ![비스듬한 레이블이 있는 스크린샷](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-formatting-x.png)
     
@@ -113,11 +113,11 @@ X축 제목이 **켜기** 이면 X축 제목이 X축 레이블 아래에 표시�
 
 1. 제목 텍스트 색, 크기 및 글꼴의 서식을 지정합니다.
 
-    - **제목 색** : 주황색 선택
+    - **제목 색**: 주황색 선택
 
-    - **축 제목** : *회계 월* (공백 포함) 입력
+    - **축 제목**: *회계 월*(공백 포함) 입력
 
-    - **제목 텍스트 크기** : *18* 입력
+    - **제목 텍스트 크기**: *18* 입력
 
     사용자 지정이 완료되면 누적 세로 막대형 차트가 다음과 같습니다.
 
@@ -145,11 +145,11 @@ Y축 레이블은 기본적으로 왼쪽에 표시됩니다. 현재는 밝은 �
 
 1. 텍스트 색, 크기 및 글꼴의 서식을 지정합니다.
 
-    - **색** : 검정 선택
+    - **색**: 검정 선택
 
-    - **텍스트 크기** : *10* 입력
+    - **텍스트 크기**: *10* 입력
 
-    - **표시 단위** : **백만** 을 선택합니다.
+    - **표시 단위**: **백만** 을 선택합니다.
 
     ![Y축 서식 지정 후의 차트](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-formatting-y.png)
 
@@ -159,9 +159,9 @@ Y축 제목이 **켜기** 이면 Y축 제목이 Y축 레이블 옆에 표시됩�
 ### <a name="customize-the-gridlines"></a>눈금선 사용자 지정
 색을 변경하고 스트로크를 증가시켜 눈금선을 강조하겠습니다.
 
-- **색** : 주황색 선택
+- **색**: 주황색 선택
 
-- **스트로크** : *2* 입력
+- **스트로크**: *2* 입력
 
 이러한 사용자 지정 후 세로 막대형 차트는 이렇게 보여야 합니다.
 

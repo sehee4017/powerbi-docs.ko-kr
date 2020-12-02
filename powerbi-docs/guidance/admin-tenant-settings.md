@@ -1,19 +1,19 @@
 ---
 title: 테넌트 설정 지침
 description: Power BI 테넌트 설정에 대한 지침입니다.
-author: peter-myers
+author: paulinbar
+ms.author: painbar
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/10/2020
-ms.author: v-pemyer
-ms.openlocfilehash: fdde090d4fe6e154482e1223b16215fdeca9f56f
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 66d721670f90efb17f6167aba3c074bdf6ea0ae1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91528347"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96394868"
 ---
 # <a name="tenant-settings-guidance"></a>테넌트 설정 지침
 
@@ -29,7 +29,7 @@ ms.locfileid: "91528347"
 
 내부의 Power BI 관련 사이트는 [Microsoft Teams](/microsoftteams) 또는 다른 협업 플랫폼을 사용해 설정하는 것이 좋습니다. 이러한 사이트는 교육 문서를 저장하고, 토론을 호스팅하고, 라이선스를 요청하거나 지원에 응답하는 데 사용할 수 있습니다.
 
-이렇게 하는 경우 **"도움말 보기" 정보 게시** 설정을 _전체 조직_에 대해 사용하는 것이 좋습니다. 이 설정은 **도움말 및 지원 설정** 그룹에서 찾을 수 있습니다. 다음에 대한 URL 설정이 가능합니다.
+이렇게 하는 경우 **"도움말 보기" 정보 게시** 설정을 _전체 조직_ 에 대해 사용하는 것이 좋습니다. 이 설정은 **도움말 및 지원 설정** 그룹에서 찾을 수 있습니다. 다음에 대한 URL 설정이 가능합니다.
 
 - 교육 문서
 - 토론 포럼
@@ -39,7 +39,7 @@ ms.locfileid: "91528347"
 이 URL은 Power BI 도움말 메뉴의 링크로 사용할 수 있습니다.
 
 > [!NOTE]
-> **라이선싱 요청** URL을 제공하면 개별 사용자가 Power BI Pro 라이선스를 구입할 수 없습니다. 대신 해당 사용자는 내부 사이트로 이동해 라이선스 취득 방법을 안내받게 됩니다. **사용자가 Power BI Pro를 사용해 볼 수 있도록 허용**은 기본적으로 사용하도록 설정되어 있으며 구매 및 체험 환경을 구분합니다. 이러한 설정이 함께 작동하는 방법에 대한 자세한 내용은 [사용자가 Power BI Pro를 사용해 볼 수 있도록 허용](../admin/service-admin-portal.md#allow-users-to-try-power-bi-pro)을 참조하세요.
+> **라이선싱 요청** URL을 제공하면 개별 사용자가 Power BI Pro 라이선스를 구입할 수 없습니다. 대신 해당 사용자는 내부 사이트로 이동해 라이선스 취득 방법을 안내받게 됩니다. **사용자가 Power BI Pro를 사용해 볼 수 있도록 허용** 은 기본적으로 사용하도록 설정되어 있으며 구매 및 체험 환경을 구분합니다. 이러한 설정이 함께 작동하는 방법에 대한 자세한 내용은 [사용자가 Power BI Pro를 사용해 볼 수 있도록 허용](../admin/service-admin-portal.md#allow-users-to-try-power-bi-pro)을 참조하세요.
 >
 >
 
@@ -74,7 +74,7 @@ ms.locfileid: "91528347"
 
 **작업 영역 만들기** 설정은 기본적으로 전체 조직에서 사용하도록 설정되어 있습니다. 이 설정은 **작업 영역 설정** 그룹에서 찾을 수 있습니다.
 
-보안 그룹은 하나 이상 할당하는 것이 좋습니다. 이 그룹에는 작업 영역 생성 권한을 부여하거나 _거부_할 수 있습니다.
+보안 그룹은 하나 이상 할당하는 것이 좋습니다. 이 그룹에는 작업 영역 생성 권한을 부여하거나 _거부_ 할 수 있습니다.
 
 문서에는 작업 영역 생성 권한이 없는 사용자가 새 영역을 요청하는 방법에 대한 지침을 포함해야 합니다.
 
@@ -86,7 +86,7 @@ ms.locfileid: "91528347"
 
 **외부 사용자와 콘텐츠 공유** 설정은 기본적으로 전체 조직에서 사용하도록 설정되어 있습니다. 이 설정은 **내보내기 및 공유 설정** 그룹에서 찾을 수 있습니다.
 
-보안 그룹은 하나 이상 할당하는 것이 좋습니다. 이 그룹에게는 외부 사용자와의 콘텐츠 공유 권한이 부여되거나 _거부_될 수 있습니다.
+보안 그룹은 하나 이상 할당하는 것이 좋습니다. 이 그룹에게는 외부 사용자와의 콘텐츠 공유 권한이 부여되거나 _거부_ 될 수 있습니다.
 
 ![“외부 사용자와 콘텐츠 공유” 설정을 보여 주는 Power BI Desktop의 스크린샷.](media/admin-tenant-settings/share-content-with-external-users.png)
 
@@ -96,9 +96,9 @@ ms.locfileid: "91528347"
 
 **웹에 게시** 설정은 기본적으로 전체 조직에서 사용하도록 설정되어 있지만 관리자가 아닌 사용자는 embed 태그 생성 기능이 제한됩니다. 이 설정은 **내보내기 및 공유 설정** 그룹에서 찾을 수 있습니다.
 
-사용하도록 설정하는 경우 보안 그룹을 하나 이상 할당하는 것이 좋습니다. 이 그룹에는 보고서 게시 권한을 부여하거나 _거부_할 수 있습니다.
+사용하도록 설정하는 경우 보안 그룹을 하나 이상 할당하는 것이 좋습니다. 이 그룹에는 보고서 게시 권한을 부여하거나 _거부_ 할 수 있습니다.
 
-또한 embed 코드 작동 방식을 선택할 수도 있습니다. 기본적으로 **기존 코드만 허용**으로 설정되어 있습니다. 사용자가 embed 태그를 생성할 경우 Power BI 관리자에게 문의하라는 메시지가 표시됩니다.
+또한 embed 코드 작동 방식을 선택할 수도 있습니다. 기본적으로 **기존 코드만 허용** 으로 설정되어 있습니다. 사용자가 embed 태그를 생성할 경우 Power BI 관리자에게 문의하라는 메시지가 표시됩니다.
 
 ![“웹에 게시” 설정을 보여 주는 Power BI Desktop의 스크린샷.](media/admin-tenant-settings/publish-to-web.png)
 
@@ -110,7 +110,7 @@ ms.locfileid: "91528347"
 
 **데이터 내보내기** 설정은 기본적으로 전체 조직에서 사용하도록 설정되어 있습니다. 이 설정은 **내보내기 및 공유 설정** 그룹에서 찾을 수 있습니다.
 
-보안 그룹은 하나 이상 할당하는 것이 좋습니다. 이 그룹에는 보고서 게시 권한을 부여하거나 _거부_할 수 있습니다.
+보안 그룹은 하나 이상 할당하는 것이 좋습니다. 이 그룹에는 보고서 게시 권한을 부여하거나 _거부_ 할 수 있습니다.
 
 > [!IMPORTANT]
 > 이 설정을 사용하지 않으면 [Excel에서 분석](../collaborate-share/service-analyze-in-excel.md) 및 Power BI 서비스 [라이브 연결](../connect-data/desktop-report-lifecycle-datasets.md#using-a-power-bi-service-live-connection-for-report-lifecycle-management) 기능의 사용도 제한됩니다.
@@ -126,7 +126,7 @@ ms.locfileid: "91528347"
 
 **외부 게스트 사용자가 조직의 콘텐츠를 편집 및 관리하도록 허용** 설정은 기본적으로 전체 조직에서 사용하지 않도록 설정되어 있습니다. 이 설정은 **내보내기 및 공유 설정** 그룹에서 찾을 수 있습니다.
 
-외부 사용자에게 콘텐츠 편집 및 관리 권한을 부여해야 할 경우 보안 그룹을 하나 이상 할당하는 것이 좋습니다. 이 그룹에는 보고서 게시 권한을 부여하거나 _거부_할 수 있습니다.
+외부 사용자에게 콘텐츠 편집 및 관리 권한을 부여해야 할 경우 보안 그룹을 하나 이상 할당하는 것이 좋습니다. 이 그룹에는 보고서 게시 권한을 부여하거나 _거부_ 할 수 있습니다.
 
 ![“외부 게스트 사용자가 조직의 콘텐츠를 편집 및 관리하도록 허용” 설정을 보여 주는 Power BI Desktop의 스크린샷.](media/admin-tenant-settings/allow-external-guest-users.png)
 

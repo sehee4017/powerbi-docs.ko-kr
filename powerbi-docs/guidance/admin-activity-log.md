@@ -2,18 +2,18 @@
 title: Power BI 활동 로그에 액세스
 description: Power BI 활동 로그를 사용하기 위한 지침 및 샘플 PowerShell 스크립트 코드입니다.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: sample
 ms.date: 09/03/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 12d3bcdaa3e81318d5b5db4655c2e93ee0f11674
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 18ce155419f712cce2c4973949cd02ffbd870724
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525090"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96394661"
 ---
 # <a name="access-the-power-bi-activity-log"></a>Power BI 활동 로그에 액세스
 
