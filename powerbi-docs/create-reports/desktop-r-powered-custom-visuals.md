@@ -5,30 +5,30 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.subservice: powerbi-custom-visuals
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: e4e65c26c9d1b5598ecf6b523649dc70722b7d79
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 35c118171ef5202e24e5997e321b698e3b137387
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634990"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396478"
 ---
 # <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>Power BI에서 R 지원 Power BI 시각적 개체 사용
 
-**Power BI Desktop** 및 **Power BI 서비스**에서는 R에 대한 지식이 없고 R 스크립팅을 사용하지 않아도 R 지원 Power BI 시각적 개체를 사용할 수 있습니다. 그러면 직접 R을 학습하거나 프로그래밍하지 않고도 R 시각적 개체 및 R 스크립트의 분석 및 시각적 기능을 활용할 수 있습니다.
+**Power BI Desktop** 및 **Power BI 서비스** 에서는 R에 대한 지식이 없고 R 스크립팅을 사용하지 않아도 R 지원 Power BI 시각적 개체를 사용할 수 있습니다. 그러면 직접 R을 학습하거나 프로그래밍하지 않고도 R 시각적 개체 및 R 스크립트의 분석 및 시각적 기능을 활용할 수 있습니다.
 
 R 지원 Power BI 시각적 개체를 사용하려면 먼저 Power BI의 **Power BI 시각적 개체**[**AppSource**](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1) 갤러리에서 사용하려는 R 사용자 지정 시각적 개체를 선택하고 다운로드합니다.
 
 ![R 시각적 개체 1a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_1a.png)
 
-다음 섹션은 **Power BI Desktop**에서 R 지원 시각적 개체를 선택, 로드 및 사용하는 방법에 대해 설명합니다.
+다음 섹션은 **Power BI Desktop** 에서 R 지원 시각적 개체를 선택, 로드 및 사용하는 방법에 대해 설명합니다.
 
 ## <a name="use-r-power-bi-visuals"></a>R Power BI 시각적 개체 사용
 
-R 지원 Power BI 시각적 개체를 사용하려면 **Power BI 시각적 개체** 라이브러리에서 각 시각적 개체를 다운로드한 다음, **Power BI Desktop**에 있는 다른 유형의 시각적 개체처럼 이 시각적 개체를 사용합니다. Power BI 시각적 개체를 가져오는 방법에는 두 가지가 있습니다. 하나는 온라인 **AppSource** 사이트에서 다운로드하는 것이고, 다른 하나는 **Power BI Desktop** 내에서 찾아서 가져오는 것입니다. 
+R 지원 Power BI 시각적 개체를 사용하려면 **Power BI 시각적 개체** 라이브러리에서 각 시각적 개체를 다운로드한 다음, **Power BI Desktop** 에 있는 다른 유형의 시각적 개체처럼 이 시각적 개체를 사용합니다. Power BI 시각적 개체를 가져오는 방법에는 두 가지가 있습니다. 하나는 온라인 **AppSource** 사이트에서 다운로드하는 것이고, 다른 하나는 **Power BI Desktop** 내에서 찾아서 가져오는 것입니다. 
 
 ### <a name="get-power-bi-visuals-from-appsource"></a>AppSource에서 Power BI 시각적 개체 가져오기
 
@@ -38,23 +38,23 @@ R 지원 Power BI 시각적 개체를 사용하려면 **Power BI 시각적 개�
 
    ![R 시각적 개체 2a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_2a.png)
 
-2. [Power BI 시각적 개체](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1) 라이브러리 페이지의 왼쪽 창에 있는 추가 기능 목록에서 **Power BI 시각적 개체**를 선택합니다.
+2. [Power BI 시각적 개체](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1) 라이브러리 페이지의 왼쪽 창에 있는 추가 기능 목록에서 **Power BI 시각적 개체** 를 선택합니다.
 
    ![R 시각적 개체 2b](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_2b.png)
 
-3. 갤러리에서 사용하고자 하는 **시각적 개체**를 선택하면 시각적 개체를 설명하는 페이지로 이동합니다. **지금 받기** 단추를 선택하여 다운로드합니다.
+3. 갤러리에서 사용하고자 하는 **시각적 개체** 를 선택하면 시각적 개체를 설명하는 페이지로 이동합니다. **지금 받기** 단추를 선택하여 다운로드합니다.
 
    > [!NOTE]
-    > **Power BI Desktop**에서 작성하려면 로컬 컴퓨터에 R을 설치해야 합니다. 하지만 사용자가 **Power BI 서비스**에서 R 지원 시각적 개체를 확인하려는 경우 로컬로 R을 설치하지 않아도 됩니다.
+    > **Power BI Desktop** 에서 작성하려면 로컬 컴퓨터에 R을 설치해야 합니다. 하지만 사용자가 **Power BI 서비스** 에서 R 지원 시각적 개체를 확인하려는 경우 로컬로 R을 설치하지 않아도 됩니다.
 
    ![R 시각적 개체 3a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_3a.png)
 
-   **Power BI 서비스**에서 R 지원 Power BI 시각적 개체를 사용하기 위해 R을 설치할 필요가 없습니다. 단, **Power BI Desktop**에서 R 지원 Power BI 시각적 개체를 사용하려면 로컬 머신에 R을 *반드시* 설치해야 합니다. R은 다음 위치에서 다운로드할 수 있습니다.
+   **Power BI 서비스** 에서 R 지원 Power BI 시각적 개체를 사용하기 위해 R을 설치할 필요가 없습니다. 단, **Power BI Desktop** 에서 R 지원 Power BI 시각적 개체를 사용하려면 로컬 머신에 R을 *반드시* 설치해야 합니다. R은 다음 위치에서 다운로드할 수 있습니다.
 
    * [CRAN](https://cran.r-project.org/)
    * [MRO](https://mran.microsoft.com/)
 
-4. 브라우저에서 파일을 다운로드하는 등 시각적 개체를 다운로드한 후에는 **Power BI Desktop**으로 이동하여 **시각화** 창에서 **추가 옵션**(...)을 클릭하고 **파일에서 가져오기**를 선택합니다.
+4. 브라우저에서 파일을 다운로드하는 등 시각적 개체를 다운로드한 후에는 **Power BI Desktop** 으로 이동하여 **시각화** 창에서 **추가 옵션**(...)을 클릭하고 **파일에서 가져오기** 를 선택합니다.
 
    ![R 시각적 개체 4a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_4a.png)
 5. 다음 그림처럼 사용자 지정 시각적 개체 가져오기에 대한 경고가 표시됩니다.
@@ -66,31 +66,31 @@ R 지원 Power BI 시각적 개체를 사용하려면 **Power BI 시각적 개�
 7. Power BI Desktop으로 돌아가면 **시각화** 창에서 새로운 시각적 개체 유형을 볼 수 있습니다.
 
    ![R 시각적 개체 7](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_7.png)
-8. 새 시각적 개체를 가져오는 경우(또는 R 지원 사용자 지정 시각적 개체를 포함하는 보고서를 여는 경우) **Power BI Desktop**이 필요한 R 패키지를 설치합니다.
+8. 새 시각적 개체를 가져오는 경우(또는 R 지원 사용자 지정 시각적 개체를 포함하는 보고서를 여는 경우) **Power BI Desktop** 이 필요한 R 패키지를 설치합니다.
 
    ![R 시각적 개체 8](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_8.png)
 
-9. 여기에서부터 다른 **Power BI Desktop** 시각적 개체처럼 시각적 개체에 데이터를 추가할 수 있습니다. 작업이 완료되면 캔버스에서 완성된 시각적 개체를 볼 수 있습니다. 다음 시각적 개체에서 R 지원 시각적 개체 **예측**은 UN(United Nations) 출생 속도 프로젝션(왼쪽에 있는 시각적 개체)과 함께 사용되었습니다.
+9. 여기에서부터 다른 **Power BI Desktop** 시각적 개체처럼 시각적 개체에 데이터를 추가할 수 있습니다. 작업이 완료되면 캔버스에서 완성된 시각적 개체를 볼 수 있습니다. 다음 시각적 개체에서 R 지원 시각적 개체 **예측** 은 UN(United Nations) 출생 속도 프로젝션(왼쪽에 있는 시각적 개체)과 함께 사용되었습니다.
 
     ![R 시각적 개체 10](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_10.png)
 
-    다른 **Power BI Desktop** 시각적 개체처럼 R 지원 시각적 개체와 함께 이 보고서를 **Power BI 서비스**에 게시하고 다른 사용자와 공유할 수 있습니다.
+    다른 **Power BI Desktop** 시각적 개체처럼 R 지원 시각적 개체와 함께 이 보고서를 **Power BI 서비스** 에 게시하고 다른 사용자와 공유할 수 있습니다.
 
     새 시각적 개체가 항상 추가되고 있기 때문에 라이브러리를 자주 확인합니다.
 
 ### <a name="get-power-bi-visuals-from-within-power-bi-desktop"></a>**Power BI Desktop** 내에서 Power BI 시각적 개체 가져오기
 
-1. **Power BI Desktop** 내에서 Power BI 시각적 개체를 가져올 수도 있습니다. **Power BI Desktop**에서 **시각화** 창의 줄임표(...)를 클릭하고 **마켓플레이스에서 가져오기**를 선택합니다.
+1. **Power BI Desktop** 내에서 Power BI 시각적 개체를 가져올 수도 있습니다. **Power BI Desktop** 에서 **시각화** 창의 줄임표(...)를 클릭하고 **마켓플레이스에서 가져오기** 를 선택합니다.
 
    ![R 시각적 개체 4a](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_4a.png)
 
-2. 이렇게 하면 **Power BI 시각적 개체** 대화 상자가 나타나며, 여기에서 사용 가능한 Power BI 시각적 개체를 스크롤하여 원하는 항목을 선택할 수 있습니다. 이름으로 검색하거나 범주를 선택하거나 사용 가능한 시각적 개체를 살펴볼 수 있습니다. 준비가 되면 **추가**를 선택하여 사용자 지정 시각적 개체를 **Power BI Desktop**에 추가합니다.
+2. 이렇게 하면 **Power BI 시각적 개체** 대화 상자가 나타나며, 여기에서 사용 가능한 Power BI 시각적 개체를 스크롤하여 원하는 항목을 선택할 수 있습니다. 이름으로 검색하거나 범주를 선택하거나 사용 가능한 시각적 개체를 살펴볼 수 있습니다. 준비가 되면 **추가** 를 선택하여 사용자 지정 시각적 개체를 **Power BI Desktop** 에 추가합니다.
 
    ![R 시각적 개체 12](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_12.png)
 
 ## <a name="contribute-r-powered-power-bi-visuals"></a>R 지원 Power BI 시각적 개체 제공
 
-보고서에 사용하기 위해 사용자 고유의 R 시각적 개체를 만든 경우, **Power BI 시각적 개체 갤러리**로 사용자 지정 시각적 개체를 제공하여 전 세계 사용자와 공유할 수 있습니다. 이 작업은 GitHub을 통해 제공하고 다음 위치에서 프로세스를 간략하게 설명합니다.
+보고서에 사용하기 위해 사용자 고유의 R 시각적 개체를 만든 경우, **Power BI 시각적 개체 갤러리** 로 사용자 지정 시각적 개체를 제공하여 전 세계 사용자와 공유할 수 있습니다. 이 작업은 GitHub을 통해 제공하고 다음 위치에서 프로세스를 간략하게 설명합니다.
 
 * [R 지원 Power BI 시각적 개체 갤러리에 제공](https://github.com/Microsoft/PowerBI-visuals#building-r-powered-custom-visual-corrplot)
 
@@ -121,7 +121,7 @@ Power BI 팀은 사용자에게 도달하기 전에 이러한 문제를 완화�
 
      ![R 시각적 개체 11](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_11.png)
     > [!NOTE]
-    > 원래 R 설치는 그대로 두고 설치하는 현재 버전으로 Power BI Desktop을 연결하기만 하면 됩니다. **파일 > 옵션 및 설정 > 옵션 > R 스크립팅**으로 이동합니다.
+    > 원래 R 설치는 그대로 두고 설치하는 현재 버전으로 Power BI Desktop을 연결하기만 하면 됩니다. **파일 > 옵션 및 설정 > 옵션 > R 스크립팅** 으로 이동합니다.
 
 3. 모든 R 콘솔을 사용하여 R 패키지를 직접 설치합니다. 이 방법의 단계는 다음과 같습니다.
 
@@ -146,9 +146,9 @@ Power BI 팀은 사용자에게 도달하기 전에 이러한 문제를 완화�
 
 4. 이전 단계가 작동하지 않으면 다음과 같이 하세요.
 
-   a. **R 스튜디오**를 사용하고 위의 3.b항에 설명된 단계를 따릅니다 (R 콘솔에서 스크립트 줄 실행).
+   a. **R 스튜디오** 를 사용하고 위의 3.b항에 설명된 단계를 따릅니다 (R 콘솔에서 스크립트 줄 실행).
 
-   b. 이전 단계가 작동하지 않는 경우 **R 스튜디오**에서 **도구 > 전역 옵션 > 패키지**를 변경하고 **HTTP용 Internet Explorer 라이브러리/프록시 사용**에 대한 확인란을 활성화한 다음 위의 단계에서 3.b항을 반복합니다.
+   b. 이전 단계가 작동하지 않는 경우 **R 스튜디오** 에서 **도구 > 전역 옵션 > 패키지** 를 변경하고 **HTTP용 Internet Explorer 라이브러리/프록시 사용** 에 대한 확인란을 활성화한 다음 위의 단계에서 3.b항을 반복합니다.
 
 ## <a name="next-steps"></a>다음 단계
 

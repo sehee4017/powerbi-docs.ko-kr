@@ -2,19 +2,19 @@
 title: '인적 자원 샘플: 둘러보기'
 description: Power BI용 인적 자원 샘플 둘러보기
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: amac
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 07/05/2019
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 0b663e9a43235b98907d496c2a6ad881ccc54edf
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 94cb0d7f5ac83220f3b37f878add4f5bfa2caaf6
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349727"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96395880"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Power BI용 인적 자원 샘플 둘러보기
 
@@ -42,12 +42,12 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 
    Power BI Pro 라이선스가 없다면 샘플을 내 작업 영역에 저장하면 됩니다.
 
-2. 왼쪽 아래 모서리에서 **데이터 가져오기**를 선택합니다.
+2. 왼쪽 아래 모서리에서 **데이터 가져오기** 를 선택합니다.
    
    ![데이터 가져오기 선택](media/sample-datasets/power-bi-get-data.png)
-3. **데이터 가져오기** 페이지가 표시되면 **샘플**을 선택합니다.
+3. **데이터 가져오기** 페이지가 표시되면 **샘플** 을 선택합니다.
    
-4. **인적 자원 샘플**을 선택한 다음, **연결**을 선택합니다.  
+4. **인적 자원 샘플** 을 선택한 다음, **연결** 을 선택합니다.  
    
    ![샘플에 연결](media/sample-human-resources/pbi_hr_sample_connect.png)
 
@@ -61,7 +61,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>이 샘플의 Excel 통합 문서 다운로드
 
-이 샘플의 데이터 원본을 보려면 [Excel 통합 문서](https://go.microsoft.com/fwlink/?LinkId=529780)로도 제공됩니다. 통합 문서에는 보고 수정할 수 있는 파워 뷰 시트가 포함됩니다. 원시 데이터를 보려면 데이터 분석 추가 기능을 사용하도록 설정한 다음, **파워 피벗 > 관리**를 선택합니다. 파워 뷰 및 파워 피벗 추가 기능을 사용하도록 설정하려면 자세한 내용은 [Excel에서 Excel 샘플 탐색](sample-datasets.md#explore-excel-samples-inside-excel)을 참조하세요.
+이 샘플의 데이터 원본을 보려면 [Excel 통합 문서](https://go.microsoft.com/fwlink/?LinkId=529780)로도 제공됩니다. 통합 문서에는 보고 수정할 수 있는 파워 뷰 시트가 포함됩니다. 원시 데이터를 보려면 데이터 분석 추가 기능을 사용하도록 설정한 다음, **파워 피벗 > 관리** 를 선택합니다. 파워 뷰 및 파워 피벗 추가 기능을 사용하도록 설정하려면 자세한 내용은 [Excel에서 Excel 샘플 탐색](sample-datasets.md#explore-excel-samples-inside-excel)을 참조하세요.
 
 ## <a name="new-hires"></a>신입
 먼저 신규 채용자를 살펴보겠습니다.
@@ -86,7 +86,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 
 4. 연령, 성별, 지역 및 인종 그룹 간 관계를 살펴보려면 차트에서 다른 연령대 그룹과 성별을 선택하세요.
 
-5. 맨 위 탐색 창에서 **인적 자원 샘플**을 선택하여 대시보드로 돌아갑니다.
+5. 맨 위 탐색 창에서 **인적 자원 샘플** 을 선택하여 대시보드로 돌아갑니다.
 
    ![대시보드로 돌아가기](media/sample-human-resources/power-bi-breadcrumbs.png)
 
@@ -110,13 +110,13 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 ## <a name="reasons-for-separation"></a>퇴사 사유
 편집용 보기에서 보고서를 살펴보겠습니다. 근무 중인 직원 데이터 대신 퇴사한 직원 데이터를 표시하도록 원형 차트를 변경할 수 있습니다.
 
-1. 왼쪽 위에서 **보고서 편집**을 선택합니다.
+1. 왼쪽 위에서 **보고서 편집** 을 선택합니다.
 
 2. **연령대별 근무 중인 직원 수** 원형 차트를 선택합니다.
 
-3. **필드**에서 **직원**을 선택하여 **직원** 테이블을 확장합니다. **근무 중인 직원 수**를 선택 취소하여 해당 필드를 제거합니다.
+3. **필드** 에서 **직원** 을 선택하여 **직원** 테이블을 확장합니다. **근무 중인 직원 수** 를 선택 취소하여 해당 필드를 제거합니다.
 
-4. **직원** 테이블에서 **퇴사 수**를 선택하여 **필드** 영역의 **값** 상자에 추가합니다.
+4. **직원** 테이블에서 **퇴사 수** 를 선택하여 **필드** 영역의 **값** 상자에 추가합니다.
 
 5. 보고서 캔버스에서 **퇴사 이유** 막대형 차트에서 **자발적** 막대를 선택합니다. 
 
@@ -132,7 +132,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 
 8. **성별 근무 중인 직원 수** 원형 차트에 대해서도 동일한 단계를 따라 근무 중인 직원 대신 퇴사로 변경할 수 있습니다. 다른 상세 정보를 파악하기 위해 성별별 자발적 퇴사 데이터를 살펴봅니다.
 
-9. 맨 위 탐색 창에서 **인적 자원 샘플**을 선택하여 대시보드로 돌아갑니다. 보고서에 대한 변경 사항을 저장할 수 있습니다.
+9. 맨 위 탐색 창에서 **인적 자원 샘플** 을 선택하여 대시보드로 돌아갑니다. 보고서에 대한 변경 사항을 저장할 수 있습니다.
 
 ## <a name="bad-hires"></a>잘못된 채용
 마지막으로 살펴볼 영역은 잘못된 채용입니다. 잘못된 채용은 60일 이상 근무하지 않은 직원으로 정의합니다. 신속하게 채용하고 있지만, 적절한 후보를 채용하고 있을까요?
@@ -140,7 +140,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 1. **Bad Hires as % of Actives by Age Group** (연령대별 근무 중인 직원 중 잘못된 채용 %) 대시보드 타일을 선택합니다. 이 보고서는 세 번째 탭인 **잘못된 고용** 탭으로 열립니다.
 
    ![연령대별 근무 중인 직원 중 잘못된 채용 % 타일](media/sample-human-resources/hr7.png)  
-2. 왼쪽에 있는 **지역** 슬라이서에서 **북서부**를 선택하고 **성별에 따른 잘못된 채용** 도넛형 차트에서 **남성** 조각을 선택합니다. **잘못된 채용** 페이지에서 다른 차트를 살펴봅니다. 잘못된 채용은 여성보다 남성에서 많으며 그룹 A의 잘못된 채용이 많습니다.
+2. 왼쪽에 있는 **지역** 슬라이서에서 **북서부** 를 선택하고 **성별에 따른 잘못된 채용** 도넛형 차트에서 **남성** 조각을 선택합니다. **잘못된 채용** 페이지에서 다른 차트를 살펴봅니다. 잘못된 채용은 여성보다 남성에서 많으며 그룹 A의 잘못된 채용이 많습니다.
 
    ![북서부 잘못된 채용](media/sample-human-resources/pbi_hr_sample_badhirespage.png)  
 
@@ -162,6 +162,6 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
    잘못된 여성 채용의 대부분이 30세 미만임을 알 수 있습니다.
 
 ## <a name="next-steps-connect-to-your-data"></a>다음 단계: 데이터에 연결
-이 환경은 변경 내용을 저장하지 않도록 선택할 수 있으므로 안전하게 이용할 수 있습니다. 그러나 변경 내용을 저장하면 언제든지 이 샘플의 새 복사본에 대해 **데이터 가져오기**를 선택할 수 있습니다.
+이 환경은 변경 내용을 저장하지 않도록 선택할 수 있으므로 안전하게 이용할 수 있습니다. 그러나 변경 내용을 저장하면 언제든지 이 샘플의 새 복사본에 대해 **데이터 가져오기** 를 선택할 수 있습니다.
 
 이 둘러보기가 Power BI 대시보드, 질문 및 답변, 보고서를 통해 샘플 데이터를 파악하는 방법을 확인하는 데 도움이 되었기를 바랍니다. 이제 사용자 데이터에 연결할 차례입니다. Power BI를 사용하여 다양한 데이터 원본에 연결할 수 있습니다. 더 자세히 알아보려면 [Power BI 서비스 시작하기](../fundamentals/service-get-started.md)를 참조하세요.

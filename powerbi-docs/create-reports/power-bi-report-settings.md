@@ -2,19 +2,19 @@
 title: Power BI 보고서의 설정 변경
 description: Power BI 서비스에서 보고서 설정 변경
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/14/2020
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: dd87501a6865b9ea450e3154ee2ac56e0710a067
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: dbb173c65ecfc5d1ca464387ed43ae615cdcbca1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92463084"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396179"
 ---
 # <a name="change-settings-for-power-bi-reports"></a>Power BI 보고서의 설정 변경
 
@@ -43,7 +43,7 @@ Power BI Desktop 및 Power BI 서비스의 보고서 설정을 사용하여 보�
 1. **파일** > **옵션 및 설정** > **옵션** 을 선택합니다.
 1. **현재 파일** 에서 **보고서 설정** 을 선택합니다.
 
-    :::image type="content" source="media/power-bi-report-settings/desktop-report-settings-pane.png" alt-text="Power BI 서비스의 보고서 설정 창 스크린샷":::
+    :::image type="content" source="media/power-bi-report-settings/desktop-report-settings-pane.png" alt-text="Power BI Desktop의 보고서 설정 창 스크린샷":::
 
     이 문서의 나머지 부분에서는 특정 보고서 설정 중 일부를 살펴봅니다.
 
@@ -51,7 +51,7 @@ Power BI Desktop 및 Power BI 서비스의 보고서 설정을 사용하여 보�
 
 1. 보고서 읽기용 보기에서 **파일** > **설정** 을 선택합니다.
 
-    :::image type="content" source="media/power-bi-report-settings/service-report-file-settings.png" alt-text="Power BI 서비스의 보고서 설정 창 스크린샷":::
+    :::image type="content" source="media/power-bi-report-settings/service-report-file-settings.png" alt-text="파일 메뉴의 설정 스크린샷":::
 
 1. **설정** 창에는 이 보고서에 대해서만 설정할 수 있는 여러 가지 토글이 표시됩니다. 이 문서의 나머지 부분에서는 그중 일부를 살펴봅니다.
 
@@ -63,7 +63,7 @@ Power BI Desktop 및 Power BI 서비스의 보고서 설정을 사용하여 보�
 
 현재 Power BI 서비스에서만 페이지 창 설정을 변경할 수 있습니다. **페이지 창** 을 설정하면 읽기용 보기 보고서의 측면이 아닌 아래쪽으로 보고서 페이지 탭이 보고서 읽기 권한자에게 표시됩니다. 편집 보기에서 보고서 페이지 탭은 이미 보고서의 아래쪽에 있습니다.
 
-:::image type="content" source="media/power-bi-report-settings/report-settings-pages-pane.png" alt-text="Power BI 서비스의 보고서 설정 창 스크린샷":::
+:::image type="content" source="media/power-bi-report-settings/report-settings-pages-pane.png" alt-text="페이지 창 설정의 스크린샷":::
 
 ## <a name="control-filters"></a>제어 필터
 

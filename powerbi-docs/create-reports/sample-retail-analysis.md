@@ -2,19 +2,19 @@
 title: 'Power BI의 소매점 분석 샘플: 둘러보기'
 description: 'Power BI의 소매점 분석 샘플: 둘러보기'
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: amac
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 07/02/2019
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 373e5bfe3d52bf319ad68d766f268518a167012f
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1a3a4bc467299f7baeb12ca68af1d2730d5839f0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349083"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96395995"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Power BI의 소매점 분석 샘플: 둘러보기
 
@@ -38,12 +38,12 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 
     Power BI Pro 라이선스가 없다면 샘플을 내 작업 영역에 저장하면 됩니다.
 
-2. 왼쪽 아래 모서리에서 **데이터 가져오기**를 선택합니다.
+2. 왼쪽 아래 모서리에서 **데이터 가져오기** 를 선택합니다.
 
     ![데이터 가져오기 선택](media/sample-datasets/power-bi-get-data.png)
-3. **데이터 가져오기** 페이지가 표시되면 **샘플**을 선택합니다.
+3. **데이터 가져오기** 페이지가 표시되면 **샘플** 을 선택합니다.
    
-4. **소매점 분석 샘플**을 선택한 다음 **연결**을 선택합니다.  
+4. **소매점 분석 샘플** 을 선택한 다음 **연결** 을 선택합니다.  
   
    ![샘플에 연결](media/sample-retail-analysis/retail16.png)
    
@@ -57,7 +57,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>이 샘플의 Excel 통합 문서 다운로드
 
-이 샘플의 데이터 원본을 보려면 [Excel 통합 문서](https://go.microsoft.com/fwlink/?LinkId=529778)로도 제공됩니다. 통합 문서에는 보고 수정할 수 있는 파워 뷰 시트가 포함됩니다. 원시 데이터를 보려면 데이터 분석 추가 기능을 사용하도록 설정한 다음, **파워 피벗 > 관리**를 선택합니다. 파워 뷰 및 파워 피벗 추가 기능을 사용하도록 설정하려면 자세한 내용은 [Excel에서 Excel 샘플 탐색](sample-datasets.md#explore-excel-samples-inside-excel)을 참조하세요.
+이 샘플의 데이터 원본을 보려면 [Excel 통합 문서](https://go.microsoft.com/fwlink/?LinkId=529778)로도 제공됩니다. 통합 문서에는 보고 수정할 수 있는 파워 뷰 시트가 포함됩니다. 원시 데이터를 보려면 데이터 분석 추가 기능을 사용하도록 설정한 다음, **파워 피벗 > 관리** 를 선택합니다. 파워 뷰 및 파워 피벗 추가 기능을 사용하도록 설정하려면 자세한 내용은 [Excel에서 Excel 샘플 탐색](sample-datasets.md#explore-excel-samples-inside-excel)을 참조하세요.
 
 ## <a name="start-on-the-dashboard-and-open-the-report"></a>대시보드 시작 및 보고서 열기
 
@@ -67,7 +67,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
    ![전체 매장 타일](media/sample-retail-analysis/retail-analysis-7.png)  
 
    이 보고서 페이지에서 총 104개의 매장이 있으며 그중 10개가 신규 매장인 것을 볼 수 있습니다. Fashions Direct 및 Lindseys라는 두 개의 체인이 있습니다. Fashions Direct 매장은 평균적으로 더 큽니다.
-3. **This Year Sales by Chain**(체인별 올해 판매액) 원형 차트에서 **Fashions Direct**를 선택합니다.
+3. **This Year Sales by Chain**(체인별 올해 판매액) 원형 차트에서 **Fashions Direct** 를 선택합니다.
 
    ![체인별 올해 판매액 차트](media/sample-retail-analysis/retail3.png)  
 
@@ -75,12 +75,12 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 
    ![총 판매액 차이 % 차트](media/sample-retail-analysis/pbi_sample_retanlbubbles.png)  
 
-   **FD-01** 구역은 평균 **제곱 피트당 판매량**이 가장 높고, FD-02는 작년 대비 **총 판매액 차이**가 가장 낮고, FD-03과 FD-04는 전반적으로 실적이 가장 부진합니다.
+   **FD-01** 구역은 평균 **제곱 피트당 판매량** 이 가장 높고, FD-02는 작년 대비 **총 판매액 차이** 가 가장 낮고, FD-03과 FD-04는 전반적으로 실적이 가장 부진합니다.
 4. 개별 거품형 차트 또는 다른 차트를 선택하여 선택 항목의 영향을 보여 주는 교차 강조 표시를 확인합니다.
-5. 대시보드로 돌아가려면 맨 위 탐색 창에서 **소매점 분석 샘플**을 선택합니다.
+5. 대시보드로 돌아가려면 맨 위 탐색 창에서 **소매점 분석 샘플** 을 선택합니다.
 
    ![탐색 모음](media/sample-retail-analysis/power-bi-breadcrumbs.png)
-6. 대시보드에서 **This Year's Sales New & Existing Stores**(총 신규 매장 및 기존 매장) 타일을 선택합니다. 이 동작은 질문 및 답변 상자에 *This year sales*를 입력하는 것과 같습니다.
+6. 대시보드에서 **This Year's Sales New & Existing Stores**(총 신규 매장 및 기존 매장) 타일을 선택합니다. 이 동작은 질문 및 답변 상자에 *This year sales* 를 입력하는 것과 같습니다.
 
    ![올해 판매액 타일](media/sample-retail-analysis/pbi_sample_retanlthisyrsales.png)
 
@@ -127,12 +127,12 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 ## <a name="try-out-the-slicer"></a>슬라이서 사용해 보기
 특정 구역에서는 어떻게 수행되는지 살펴보겠습니다.
 
-1. 왼쪽 위에 있는 **District Manager**(구역 관리자) 슬라이서에서 **Allan Guinot**을 선택합니다.
+1. 왼쪽 위에 있는 **District Manager**(구역 관리자) 슬라이서에서 **Allan Guinot** 을 선택합니다.
 
    ![Allan Guinot 선택](media/sample-retail-analysis/retail13.png)
 
    Allan의 구역은 작년보다 3월 및 6월의 실적이 우수합니다.
-2. **Allan Guinot**이 선택된 상태에서, 거품형 차트에서 **Womens-10**(여성복-10) 버블을 선택합니다.
+2. **Allan Guinot** 이 선택된 상태에서, 거품형 차트에서 **Womens-10**(여성복-10) 버블을 선택합니다.
 
    ![Allan Guinot 및 Womens-10(여성복-10)이 선택됨](media/sample-retail-analysis/power-bi-allan.png)
 
@@ -156,11 +156,11 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 3. 오른쪽 위에 있는 **Open Store Count by Open Month and Chain**(개업 월별 및 체인별 개업 매장 수) 차트에서 **Fashions Direct** 범례 항목을 선택합니다. 동일한 체인의 경우에도 최고 매장(Winchester Fashions Direct)과 최하위 매장(Cincinnati 2 Fashions Direct)의 실적이 각각 $21.22 대 $12.86로 최고 매장이 현저하게 우수함을 확인할 수 있습니다.
 
    ![Fashions Direct가 선택됨](media/sample-retail-analysis/power-bi-lindseys.png)
-4. **이름** 슬라이서에서 **Winchester Fashions Direct**를 선택하고 꺾은선형 차트를 살펴봅니다. 첫 번째 판매 수치가 2월에 보고되었습니다.
-5. 슬라이서에서 **Cincinnati 2 Fashions Direct**를 클릭합니다. 꺾은선형 차트에서 이 매장은 6월에 개업했으며 실적이 최악인 매장으로 보인다는 사실을 알 수 있습니다.
+4. **이름** 슬라이서에서 **Winchester Fashions Direct** 를 선택하고 꺾은선형 차트를 살펴봅니다. 첫 번째 판매 수치가 2월에 보고되었습니다.
+5. 슬라이서에서 **Cincinnati 2 Fashions Direct** 를 클릭합니다. 꺾은선형 차트에서 이 매장은 6월에 개업했으며 실적이 최악인 매장으로 보인다는 사실을 알 수 있습니다.
 6. 전체 차트에서 막대형, 꺾은선형 및 거품형 차트를 살펴보며 어떤 인사이트를 발견할 수 있는지 확인합니다.
 
 ## <a name="next-steps-connect-to-your-data"></a>다음 단계: 데이터에 연결
-이 환경은 변경 내용을 저장하지 않도록 선택할 수 있으므로 안전하게 이용할 수 있습니다. 그러나 변경 내용을 저장하면 언제든지 이 샘플의 새 복사본에 대해 **데이터 가져오기**를 선택할 수 있습니다.
+이 환경은 변경 내용을 저장하지 않도록 선택할 수 있으므로 안전하게 이용할 수 있습니다. 그러나 변경 내용을 저장하면 언제든지 이 샘플의 새 복사본에 대해 **데이터 가져오기** 를 선택할 수 있습니다.
 
 이 둘러보기가 Power BI 대시보드, 질문 및 답변, 보고서를 통해 샘플 데이터를 파악하는 방법을 확인하는 데 도움이 되었기를 바랍니다. 이제 사용자 데이터에 연결할 차례입니다. Power BI를 사용하여 다양한 데이터 원본에 연결할 수 있습니다. 더 자세히 알아보려면 [Power BI 서비스 시작하기](../fundamentals/service-get-started.md)를 참조하세요.

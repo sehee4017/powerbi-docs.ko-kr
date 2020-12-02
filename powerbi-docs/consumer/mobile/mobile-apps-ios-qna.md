@@ -2,18 +2,18 @@
 title: iOS 앱의 질문 및 답변 가상 분석가 - Power BI
 description: iOS 디바이스에 설치된 Power BI 모바일 앱에서 질문 및 답변 가상 분석가를 사용하여 사용자의 고유한 언어로 이 샘플 데이터에 대해 질문합니다.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: 323ea88f3a8843dd663985abac5552be1de71584
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 2422e747fc47f9e9b51f723f5e7beeeceaf91baa
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634415"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96397329"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>iOS 앱의 질문 및 답변 가상 분석가 - Power BI
 
@@ -46,14 +46,14 @@ iOS용 Power BI 앱을 지원하는 버전은 다음과 같습니다.
 
 2. 페이지 아래쪽(iPad의 경우 페이지 위쪽)에 있는 작업 메뉴에서 질문 및 답변 가상 분석가 아이콘 ![질문 및 답변 가상 분석가 아이콘](././media/mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png)을 누릅니다.
      질문 및 답변 가상 분석가에서 시작하기 위한 몇 가지 제안을 제공합니다.
-3. **show**를 입력하고 제안 목록에서 **sales** > **보내기** ![보내기 아이콘](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)을 탭합니다.
+3. **show** 를 입력하고 제안 목록에서 **sales** > **보내기** ![보내기 아이콘](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)을 탭합니다.
 
     ![판매량 표시](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-show-sales.png)
-4. 키워드에서 **by**를 탭한 다음, 제안 목록에서 **item** > **보내기** ![보내기 아이콘](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) 탭합니다.
+4. 키워드에서 **by** 를 탭한 다음, 제안 목록에서 **item** > **보내기** ![보내기 아이콘](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) 탭합니다.
 
     ![항목별 판매](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-sale-by-item.png)
-5. 키워드에서 **as**를 탭하고, 세로 막대형 차트 아이콘 :::image type="icon" source="./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png" border="false":::을 탭한 다음 **보내기** ![보내기 아이콘](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)를 탭합니다.
-6. 결과 차트를 길게 누른 다음 **확장**을 누릅니다.
+5. 키워드에서 **as** 를 탭하고, 세로 막대형 차트 아이콘 :::image type="icon" source="./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png" border="false":::을 탭한 다음 **보내기** ![보내기 아이콘](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)를 탭합니다.
+6. 결과 차트를 길게 누른 다음 **확장** 을 누릅니다.
 
     ![확장의 포인터를 보여 주는 세로 막대형 차트의 스크린샷.](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-expand-feedback.png)
 
@@ -62,13 +62,13 @@ iOS용 Power BI 앱을 지원하는 버전은 다음과 같습니다.
     ![차트의 포커스 모드를 보여 주는 세로 막대형 차트의 스크린샷.](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-expanded-chart.png)
 7. 왼쪽 위 모서리에 있는 화살표를 눌러 질문 및 답변 가상 분석가 채팅 창으로 돌아갑니다.
 8. 텍스트를 삭제하고 다시 시작하려면 텍스트 상자의 오른쪽에 있는 X를 누릅니다.
-9. 새 질문을 해 보세요. 키워드에서 **top**을 탭한 다음, **sale by avg $/unit ly** > **보내기** ![보내기 아이콘](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)를 탭합니다.
+9. 새 질문을 해 보세요. 키워드에서 **top** 을 탭한 다음, **sale by avg $/unit ly** > **보내기** ![보내기 아이콘](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)를 탭합니다.
 
     ![단위당 평균 금액 기준 상위 판매를 보여 주는 질문의 스크린샷.](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-2.png)
-10. 키워드에서 **by**를 선택하고 맨 위에 있는 제안 목록에서 **time** > **보내기** ![보내기 아이콘](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)를 탭합니다.
+10. 키워드에서 **by** 를 선택하고 맨 위에 있는 제안 목록에서 **time** > **보내기** ![보내기 아이콘](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)를 탭합니다.
 
      ![시간별 단위당 평균 금액 기준 상위 판매를 보여 주는 차트의 스크린샷.](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-by-time.png)
-11. **as**를 입력하고 제안 목록에서 꺾은선형 차트 아이콘 :::image type="icon" source="./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png" border="false"::: > **보내기** ![보내기 아이콘](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)를 선택합니다.
+11. **as** 를 입력하고 제안 목록에서 꺾은선형 차트 아이콘 :::image type="icon" source="./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png" border="false"::: > **보내기** ![보내기 아이콘](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)를 선택합니다.
 
     ![세로 막대형 차트에서 꺾은선형 차트로 연결된 포인터를 보여 주는 세로 막대형 및 꺾은선형 차트의 스크린샷.](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-as-line.png)
 

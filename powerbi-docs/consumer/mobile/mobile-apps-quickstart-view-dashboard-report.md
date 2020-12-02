@@ -2,18 +2,18 @@
 title: '빠른 시작: 모바일 앱에서 대시보드 및 보고서 살펴보기'
 description: 이 빠른 시작에서는 Power BI 모바일 앱의 샘플 대시보드 및 보고서를 살펴봅니다.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 11/25/2019
-ms.author: painbar
-ms.openlocfilehash: 52728d6cb2daa1bb2753454e8b19a7e06800d080
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 35a942826c76ed1c202bcc5a3450c65374402c46
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668508"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96397559"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>빠른 시작: Power BI 모바일 앱에서 대시보드 및 보고서 살펴보기
 이 빠른 시작에서는 Power BI Mobile 앱을 둘러보고 샘플 대시보드와 보고서를 살펴봅니다. iOS용 Power BI 앱이 표시되지만, 다른 디바이스에서도 쉽게 작업을 수행할 수 있습니다.
@@ -25,7 +25,7 @@ ms.locfileid: "91668508"
 | iPhone | iPad | Android | Windows 10 |
 
 >[!NOTE]
->**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
+>**Windows 10 Mobile을 사용하는 휴대폰** 용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 대시보드는 회사의 수명 주기 및 프로세스 포털로, 비즈니스의 현재 상태를 한곳에서 모니터링할 수 있는 개요입니다. 보고서는 해당 데이터의 다양한 결과 및 인사이트를 나타내는 시각적 개체가 포함된 대화형 데이터 뷰입니다. 
 
@@ -42,7 +42,7 @@ ms.locfileid: "91668508"
 ## <a name="view-a-dashboard-on-your-mobile-device"></a>모바일 디바이스에서 대시보드 보기
 1. 디바이스에서 Power BI 앱을 열고, 브라우저에서 Power BI 서비스에 사용한 것과 동일한 Power BI 계정 자격 증명으로 로그인합니다.
  
-1. 이제 **작업 영역** 아이콘 ![작업 영역 아이콘](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-iphone-workspaces-button.png)을 탭하고 **내 작업 영역**을 선택한 다음, 소매점 분석 샘플을 탭하여 엽니다.
+1. 이제 **작업 영역** 아이콘 ![작업 영역 아이콘](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-iphone-workspaces-button.png)을 탭하고 **내 작업 영역** 을 선택한 다음, 소매점 분석 샘플을 탭하여 엽니다.
 
     ![내 작업 영역의 대시보드](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-dashboard.png)
    
@@ -54,7 +54,7 @@ ms.locfileid: "91668508"
 
     타일이 포커스 모드로 열립니다.
 
-7. 포커스 모드에서 차트의 **4월**을 탭합니다. 4월 값이 차트의 맨 위에 표시됩니다.
+7. 포커스 모드에서 차트의 **4월** 을 탭합니다. 4월 값이 차트의 맨 위에 표시됩니다.
 
     ![포커스 모드의 타일](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-tile-focus.png)
 
@@ -71,7 +71,7 @@ ms.locfileid: "91668508"
     ![오른쪽 아래 모서리의 추가 옵션 위치를 보여 주는 스크린샷.](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-tap-pencil.png)
 
 
-11. 목록 아래로 스크롤하고 **주석 달기**를 선택합니다.
+11. 목록 아래로 스크롤하고 **주석 달기** 를 선택합니다.
 
     ![연필 탭하기](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-tap-pencil2.png)
 
@@ -79,7 +79,7 @@ ms.locfileid: "91668508"
  
     ![페이지에 주석 달기](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-annotate.png)
 
-13. 이제 오른쪽 위에 있는 **공유**를 탭합니다.
+13. 이제 오른쪽 위에 있는 **공유** 를 탭합니다.
 
 14. 보고서를 공유하는 방법을 선택합니다.  
 
@@ -93,7 +93,7 @@ ms.locfileid: "91668508"
 
 1. Power BI 서비스([Power BI 서비스](https://app.powerbi.com))를 열고 로그인합니다.
 
-2. 탐색 창에서 **내 작업 영역**을 선택합니다.
+2. 탐색 창에서 **내 작업 영역** 을 선택합니다.
 
 3. 대시보드 탭을 선택하고 휴지통을 클릭합니다.
 
@@ -101,7 +101,7 @@ ms.locfileid: "91668508"
 
     이제 보고서 탭을 클릭하고 동일한 작업을 수행합니다.
 
-4. 이제 데이터 세트 탭을 선택하고 **기타 옵션**(...)을 클릭한 다음, **삭제**를 선택합니다. 
+4. 이제 데이터 세트 탭을 선택하고 **기타 옵션**(...)을 클릭한 다음, **삭제** 를 선택합니다. 
 
 
     ![데이터 세트 삭제 선택](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-delete-retail-datasets.png)

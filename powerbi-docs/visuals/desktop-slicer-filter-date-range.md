@@ -2,19 +2,19 @@
 title: Power BI에서 상대 날짜 슬라이서 또는 필터 사용
 description: Power BI에서 슬라이서 또는 필터를 사용하여 상대 날짜 범위를 제한하는 방법을 알아봅니다.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: rien
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 09/09/2020
-ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5599c26524ba296b7cd201467c48f124b9843b4d
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 8d83a2b655c7a4dd788e34ce5744daaac0f73f63
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412835"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96397444"
 ---
 # <a name="creating-a-relative-date-slicer-and-filter-in-power-bi"></a>Power BI에서 상대 날짜 슬라이서 및 필터 만들기
 

@@ -1,20 +1,20 @@
 ---
 title: Power BI Desktop에서 도형 맵 사용(미리 보기)
 description: Power BI Desktop에서 도형 맵을 사용하여 지역에 대한 상대 비교 만들기
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: sujata
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 03/18/2020
-ms.author: rien
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 6ecf39926c759d202c034e5cb196067b9ca378d0
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 9e77e539a098633badef6e4a88b99d07f2781974
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93411317"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96397651"
 ---
 # <a name="create-shape-map-visualizations-in-power-bi-desktop-preview"></a>Power BI Desktop에서 도형 맵 시각화 만들기(미리 보기)
 
@@ -62,7 +62,7 @@ Power BI Desktop에 비어 있는 **도형 맵** 시각적 개체 디자인 캔�
    > 이 문서의 끝에 있는 **지역 키** 섹션은 **도형 맵** 시각적 개체를 테스트하는 데 사용할 수 있는 맵 지역 키가 포함된 테이블의 컬렉션입니다.
    > 
    > 
-3. 그런 다음, **기본 색** , **확대/축소** 등과 같은 서식 지정 옵션을 사용하여 맵을 수정할 수 있습니다. 또한 **범례** 버킷에 범주 데이터 열을 추가하고 범주에 따라 맵 지역을 분류할 수도 있습니다.
+3. 그런 다음, **기본 색**, **확대/축소** 등과 같은 서식 지정 옵션을 사용하여 맵을 수정할 수 있습니다. 또한 **범례** 버킷에 범주 데이터 열을 추가하고 범주에 따라 맵 지역을 분류할 수도 있습니다.
 
 ## <a name="use-custom-maps"></a>사용자 지정 맵 사용
 **TopoJSON** 형식인 **도형 맵** 과 함께 사용자 지정 맵을 사용할 수 있습니다. 맵이 다른 형식인 경우 [**맵 쉐이퍼**](https://mapshaper.org/)와 같은 온라인 도구를 사용하여 *셰이프 파일* 또는 *GeoJSON* 맵을 **TopoJSON** 서식으로 변환할 수 있습니다.

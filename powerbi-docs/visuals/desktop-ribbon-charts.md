@@ -1,20 +1,20 @@
 ---
 title: Power BI에서 리본 차트 사용
 description: Power BI Desktop에서 리본 차트 만들기 및 사용
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 05/05/2019
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e89712dea5d9f932669141d8fe4129727166a342
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 9fea98f30403d9325ed2c6826418220cdd29ade8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93413134"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96397629"
 ---
 # <a name="create-ribbon-charts-in-power-bi"></a>Power BI에서 리본 차트 만들기
 
@@ -49,7 +49,7 @@ ms.locfileid: "93413134"
 
     리본 차트는 리본을 사용하여 시각화된 시간 연속체에 데이터의 범주를 연결하므로 차트의 x-축(일반적으로 타임라인)의 범위에서 지정된 범주 순위가 지정되는 방법을 표시할 수 있습니다.
 
-2. **축** , **범례** 및 **값** 에 대한 필드를 선택합니다.  이 예에서는 다음을 선택했습니다. **Store** > **OpenDate** , **Item** > **Category** 및 **Sales** > **This year sales** > **값**.  
+2. **축**, **범례** 및 **값** 에 대한 필드를 선택합니다.  이 예에서는 다음을 선택했습니다. **Store** > **OpenDate**, **Item** > **Category** 및 **Sales** > **This year sales** > **값**.  
 
     ![선택한 필드](media/desktop-ribbon-charts/power-bi-ribbon-values.png)
 

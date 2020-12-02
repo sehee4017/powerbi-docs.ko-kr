@@ -2,18 +2,18 @@
 title: Power BI 모바일 앱에서 오프라인 데이터 보기
 description: 모바일 브라우저가 아닌 모바일 앱에서 Power BI 보기를 사용하는 이점에 대해 알아봅니다. 네트워크에 연결되지 않을 때에도 데이터를 볼 수 있습니다.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/09/2019
-ms.author: painbar
-ms.openlocfilehash: 3b7f578040a49438ccca89fd9112a3ca5079a20a
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: addf608d6a3d7d51203dc22534eb8e9b9777ce49
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90856027"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96397145"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 오프라인 데이터 보기
 적용 대상:
@@ -23,7 +23,7 @@ ms.locfileid: "90856027"
 | iPhone |iPad |Android 휴대폰 |Android 태블릿 |Windows 10 디바이스 |
 
 >[!NOTE]
->**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
+>**Windows 10 Mobile을 사용하는 휴대폰** 용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 모바일 브라우저가 아닌 모바일 앱에서 Power BI 보기를 사용하는 이점은 네트워크에 연결되지 않을 때에도 데이터를 볼 수 있다는 점입니다. 
 

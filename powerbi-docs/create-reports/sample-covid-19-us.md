@@ -1,21 +1,21 @@
 ---
 title: 미국 주 및 지방 정부를 위한 COVID-19 추적 샘플
 description: COVID-19 전염병에 대한 미국 주 및 지방 데이터를 사용하는 샘플 보고서를 다운로드하고 수정합니다.
-author: LukaszPawlowski-MS
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: maggies
 ms.custom: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 04/28/2020
-ms.author: lukaszp
 LocalizationGroup: Samples
-ms.openlocfilehash: aca7fc70bc70de553eee070ce5e1522b96c94880
-ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
+ms.openlocfilehash: e6f8e02efa7dc2e56a945aaffcf22d8497052404
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "83277896"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396018"
 ---
 # <a name="covid-19-tracking-sample-for-us-state-and-local-governments"></a>미국 주 및 지방 정부를 위한 COVID-19 추적 샘플
 
@@ -74,7 +74,7 @@ USAFacts 데이터는 저작자 표시가 필요한 Creative Commons 라이선�
 
     :::image type="content" source="media/sample-covid-19-us/power-bi-covid-19-filter-selection.png" alt-text="주 선택":::
 
-5. 파일을 저장하려면 **파일** > **저장**을 선택합니다. 
+5. 파일을 저장하려면 **파일** > **저장** 을 선택합니다. 
 
 ### <a name="refresh-your-report"></a>보고서 새로 고침 
 
@@ -82,12 +82,12 @@ USAFacts 데이터는 저작자 표시가 필요한 Creative Commons 라이선�
 
     :::image type="content" source="media/sample-covid-19-us/power-bi-desktop-refresh-button.png" alt-text="새로 고침 단추":::
 
-2. **익명** > **연결**을 선택합니다. 
+2. **익명** > **연결** 을 선택합니다. 
 
     :::image type="content" source="media/sample-covid-19-us/power-bi-covid-19-azure-blob.png" alt-text="익명 선택":::
 
  
-3. 표시되는 경우 **개인 정보 수준 무시** > **저장**을 선택합니다. 
+3. 표시되는 경우 **개인 정보 수준 무시** > **저장** 을 선택합니다. 
 
     :::image type="content" source="media/sample-covid-19-us/power-bi-covid-19-privacy-levels.png" alt-text="개인 정보 수준 선택":::
 
@@ -122,7 +122,7 @@ Power BI Desktop에서 보고서를 변경한 경우 Power BI 서비스에서 �
 
 이 보고서의 데이터를 다른 원본의 데이터와 매시업할 수도 있습니다. 다음 예제는 [Johns Hopkins 대학교](https://github.com/CSSEGISandData/COVID-19)의 데이터를 기반으로 합니다. 이 데이터를 게시하기 전에 이 문서의 [고지 사항](#disclaimers)을 검토하는 것이 좋습니다.
 
-1. **데이터 가져오기** > **웹**을 선택합니다.
+1. **데이터 가져오기** > **웹** 을 선택합니다.
 
     :::image type="content" source="media/sample-covid-19-us/power-bi-desktop-get-data.png" alt-text="데이터 단추 가져오기":::
 
@@ -134,12 +134,12 @@ Power BI Desktop에서 보고서를 변경한 경우 Power BI 서비스에서 �
 
     :::image type="content" source="media/sample-covid-19-us/power-bi-covid-19-from-web.png" alt-text="웹에서 데이터 선택":::
 
-3. **확인**을 선택합니다. 
+3. **확인** 을 선택합니다. 
 
     > [!NOTE]
     > Johns Hopkins 대학교에서 게시한 링크는 변경될 수 있습니다. 최신 정보는 [Johns Hopkins GitHub 페이지](https://github.com/CSSEGISandData/COVID-19)를 확인하세요.
 
-4. **로드**를 선택하여 전 세계적 총 확진자 수에 대한 데이터 세트를 로드합니다.  
+4. **로드** 를 선택하여 전 세계적 총 확진자 수에 대한 데이터 세트를 로드합니다.  
 
     :::image type="content" source="media/sample-covid-19-us/power-bi-covid-19-load-data.png" alt-text="웹에서 데이터 로드":::
 
