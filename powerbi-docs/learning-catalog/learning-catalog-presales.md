@@ -2,20 +2,20 @@
 title: 파트너 사전 판매 학습 카탈로그
 description: 사전 판매 전문가를 위한 기초부터 고급까지 Power Apps의 모든 학습 옵션을 찾아보세요.
 author: margoc
+ms.author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: margoc
-ms.openlocfilehash: bdc42b263e274983e5bcf85dde4d733c94d5d82d
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 8364e0a795aff5821d67b314b569bb0292c80ea3
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747692"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96398272"
 ---
 # <a name="partner-pre-sales-learning-catalog"></a>파트너 사전 판매 학습 카탈로그
 
-고객에게 주요 기능을 시연해야 합니까? 
+고객에게 주요 기능을 시연해야 합니까? 
 
 다음 카탈로그에는 핵심 정보에서 특정 도메인까지, 가장 기본적인 것에서 가장 고급 기능까지 다양한 내용이 정리되어 있습니다. 콘텐츠가 여러 형식으로 제공되는 경우 알려 드리며, 가장 적합한 교육 형식을 선택하면 됩니다.
 

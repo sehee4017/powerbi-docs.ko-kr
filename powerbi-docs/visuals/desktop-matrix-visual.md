@@ -1,20 +1,20 @@
 ---
 title: Power BI에서 행렬 시각적 개체 만들기
 description: 행렬 시각적 개체를 사용하여 Power BI에서 단계 레이아웃 및 세부적인 강조 표시를 사용하는 방법을 알아봅니다.
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: conceptual
 ms.date: 06/18/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bf3210982380a0a3aa498dea8038366733182d7e
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 33e0ee83815c739d8201fad995d84c7ee397bc6c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412306"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96398134"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Power BI에서 행렬 시각화 만들기
 
@@ -216,7 +216,7 @@ ms.locfileid: "93412306"
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>행렬 시각적 개체에서 음영 및 글꼴 색
 행렬 시각적 개체를 사용하여 행렬 내에서 셀의 배경에 조건부 서식(색 및 음영과 데이터 막대)을 적용할 수 있고 텍스트와 값 자체에 조건부 서식을 적용할 수 있습니다.
 
-조건부 서식을 적용하려면 행렬 시각적 개체를 선택하고 **서식** 창을 엽니다. **조건부 서식** 카드를 확장하고 **배경색** , **글꼴 색** , 또는 **데이터 막대** 에서 슬라이더를 **켜기** 로 밉니다. 이 옵션 중 하나를 켜면 ‘고급 컨트롤’에 대한 링크가 표시되며, 여기서 색 서식 지정의 색과 값을 사용자 지정할 수 있습니다.
+조건부 서식을 적용하려면 행렬 시각적 개체를 선택하고 **서식** 창을 엽니다. **조건부 서식** 카드를 확장하고 **배경색**, **글꼴 색**, 또는 **데이터 막대** 에서 슬라이더를 **켜기** 로 밉니다. 이 옵션 중 하나를 켜면 ‘고급 컨트롤’에 대한 링크가 표시되며, 여기서 색 서식 지정의 색과 값을 사용자 지정할 수 있습니다.
   
   ![데이터 막대 컨트롤을 보여 주는 서식 창](media/desktop-matrix-visual/power-bi-matrix-data-bars.png)
 

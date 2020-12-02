@@ -2,20 +2,20 @@
 title: Power BI 서비스에서 인쇄
 description: Power BI 서비스에서 대시보드, 타일 또는 보고서 페이지를 인쇄합니다.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/19/2020
-ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 600b8d1447d50a1647097d94df9077299f00cccf
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d861bbc32584ccbc95d7bcc13701938f671f0c73
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860415"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96399560"
 ---
 # <a name="printing-from-the-power-bi-service"></a>Power BI 서비스에서 인쇄
 
@@ -49,11 +49,11 @@ Power BI에서 인쇄하는 경우 브라우저에서 인쇄 창이 열립니다
 
 ## <a name="print-a-dashboard"></a>대시보드 인쇄
 1. 인쇄하려는 대시보드를 엽니다.
-2. 왼쪽 위 모서리에서 **파일**을 선택하고 **이 페이지 인쇄**를 선택합니다.
+2. 왼쪽 위 모서리에서 **파일** 을 선택하고 **이 페이지 인쇄** 를 선택합니다.
    
     ![대시보드 인쇄 옵션](./media/end-user-print/power-bi-dashboard-print-options.png)
 
-3. 브라우저의 인쇄 창이 열립니다. 설정을 선택합니다. 예를 들어 대시보드가 가로로 긴 경우에는 레이아웃을 **가로**로 변경하는 것이 좋습니다. **인쇄**를 선택합니다.
+3. 브라우저의 인쇄 창이 열립니다. 설정을 선택합니다. 예를 들어 대시보드가 가로로 긴 경우에는 레이아웃을 **가로** 로 변경하는 것이 좋습니다. **인쇄** 를 선택합니다.
    
     ![인쇄 대화 상자](./media/end-user-print/power-bi-print-dash.png)
 
@@ -72,25 +72,25 @@ Power BI에서 인쇄하는 경우 브라우저에서 인쇄 창이 열립니다
 
 4. 인쇄 아이콘 ![인쇄 아이콘](./media/end-user-print/print-icon.png).     
 
-5. 브라우저의 인쇄 창이 열립니다. 설정을 선택합니다. 예를 들어 타일이 페이지에 맞지 않는 경우 배율을 75%로 변경할 수 있습니다. **인쇄**를 선택합니다.
+5. 브라우저의 인쇄 창이 열립니다. 설정을 선택합니다. 예를 들어 타일이 페이지에 맞지 않는 경우 배율을 75%로 변경할 수 있습니다. **인쇄** 를 선택합니다.
 
     ![인쇄 창](./media/end-user-print/power-bi-scale.png) 
 
 > [!TIP]
 > 이러한 단계를 모두 수행했는데도 타일이 원하는 방식으로 표시되지 않는 경우 다음을 시도해 보세요.
 > 1. 인쇄 창을 열고 최상의 인쇄물을 생성할 것 같은 인쇄 설정으로 변경합니다. 예를 들어 레이아웃, 여백, 배율을 변경합니다. 
-> 2. 그러나 인쇄하는 대신 **취소**를 선택합니다. 
+> 2. 그러나 인쇄하는 대신 **취소** 를 선택합니다. 
 > 3. 1~5단계를 다시 수행합니다. 타일이 새 인쇄 창 설정으로 조정되고 인쇄 준비가 됩니다.
 
 ## <a name="print-a-report-page"></a>보고서 페이지 인쇄
 한 번에 한 페이지의 보고서를 인쇄할 수 있습니다.
 
-1. 보고서를 열고 **파일** > **이 페이지 인쇄**를 선택하여 현재 보고서 페이지를 인쇄합니다.
+1. 보고서를 열고 **파일** > **이 페이지 인쇄** 를 선택하여 현재 보고서 페이지를 인쇄합니다.
    
     ![Power BI 파일 메뉴](./media/end-user-print/power-bi-print-report.png)
 2. 브라우저의 인쇄 창이 열립니다.
 
-3. 위 **대시보드 인쇄**의 인쇄 단계를 수행합니다.
+3. 위 **대시보드 인쇄** 의 인쇄 단계를 수행합니다.
    
 
 
@@ -100,12 +100,12 @@ Power BI에서 인쇄하는 경우 브라우저에서 인쇄 창이 열립니다
 
     ![포커스 모드에서 시각적 개체 열기](./media/end-user-print/power-bi-visual-focus.png)
 
-2. 왼쪽 위 모서리에서 **파일** > **이 페이지 인쇄**를 선택하여 시각적 개체를 인쇄합니다.
+2. 왼쪽 위 모서리에서 **파일** > **이 페이지 인쇄** 를 선택하여 시각적 개체를 인쇄합니다.
 
     ![Power BI 파일 메뉴의 스크린샷](./media/end-user-print/power-bi-visual-print.png)
 
 
-3. 위 **대시보드 인쇄**의 인쇄 단계를 수행합니다.
+3. 위 **대시보드 인쇄** 의 인쇄 단계를 수행합니다.
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
 
@@ -113,7 +113,7 @@ Power BI에서 인쇄하는 경우 브라우저에서 인쇄 창이 열립니다
 * A: 그렇습니다. 보고서 페이지는 한 번에 한 페이지만 인쇄할 수 있습니다.
 * Q: PDF로 인쇄할 수 없습니다.    
 * A: 브라우저에서 PDF 드라이버를 이미 구성한 경우에만 옵션이 나타납니다.    
-* Q: **인쇄**를 선택한 경우 표시 내용이 여기에 표시된 내용과 일치하지 않습니다.    
+* Q: **인쇄** 를 선택한 경우 표시 내용이 여기에 표시된 내용과 일치하지 않습니다.    
 * A: 인쇄 화면은 브라우저 및 소프트웨어 버전에 따라 다릅니다.
 * Q: 내 인쇄물이 제대로 조정되지 않습니다.  내 대시보드가 페이지에 맞지 않습니다. 기타 크기 조정 및 방향 질문입니다.    
 * A: 인쇄된 복사본이 Power BI 서비스에 표시되는 것과 정확히 동일하게 표시된다고 보장할 수는 없습니다. 크기 조정, 여백, 시각적 개체 세부 정보, 방향 및 크기와 같은 항목은 Power BI에서 제어되지 않습니다. 브라우저의 인쇄 설정을 조정해 보세요. 위에서 제안된 몇 가지 사항은 용지 방향(세로 또는 가로), 여백 크기, 배율입니다. 이 제안이 도움이 되지 않는 경우 해당 브라우저의 설명서를 참조하세요.      

@@ -2,20 +2,20 @@
 title: 전체 검색을 사용하여 콘텐츠 검색 및 찾기
 description: Power BI 서비스에서 콘텐츠 검색, 찾기 및 탐색을 위한 설명서
 author: mihart
+ms.author: mihart
 ms.reviewer: willt
 ms.custom: ''
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/01/2020
-ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 1fbfa8a85ada8512aff54526407799a00fbfa891
-ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
+ms.openlocfilehash: b2fac346b9c75df8b3a6b8faa1f158745ff307a7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "91780346"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96399123"
 ---
 # <a name="navigation-for-power-bi-business-users-global-search"></a>Power BI 비즈니스 사용자를 위한 탐색: 전역 검색
 
@@ -56,7 +56,7 @@ Power BI 서비스를 처음 사용하는 경우 몇 개의 콘텐츠(대시보�
 모든 열을 정렬할 수 있는 것은 아닙니다. 열 제목을 마우스로 가리켜 정렬 가능한 열을 확인합니다.
 
 ## <a name="filtering-content-lists"></a>콘텐츠 목록 필터링
-콘텐츠를 빠르게 찾을 수 있는 또 다른 방법은 **필터**를 사용하는 것입니다. 오른쪽 위 모서리에서 **필터**를 선택하여 필터를 표시합니다. 사용 가능한 필터는 Power BI 서비스에서의 위치에 따라 달라집니다.  아래 예제는 **최근** 콘텐츠 목록에서 가져온 것입니다.  콘텐츠 유형을 기준으로 목록을 필터링할 수 있습니다.  **공유한 항목** 콘텐츠 목록에서 사용 가능한 **필터**에는 콘텐츠 유형뿐 아니라 소유자도 포함됩니다.
+콘텐츠를 빠르게 찾을 수 있는 또 다른 방법은 **필터** 를 사용하는 것입니다. 오른쪽 위 모서리에서 **필터** 를 선택하여 필터를 표시합니다. 사용 가능한 필터는 Power BI 서비스에서의 위치에 따라 달라집니다.  아래 예제는 **최근** 콘텐츠 목록에서 가져온 것입니다.  콘텐츠 유형을 기준으로 목록을 필터링할 수 있습니다.  **공유한 항목** 콘텐츠 목록에서 사용 가능한 **필터** 에는 콘텐츠 유형뿐 아니라 소유자도 포함됩니다.
 
 ![콘텐츠 목록의 필터 스크린샷.](./media/end-user-search-sort/power-bi-sort-filters.png)
 

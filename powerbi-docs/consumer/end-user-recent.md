@@ -2,26 +2,26 @@
 title: Power BI 서비스에서 최근에 방문한 콘텐츠 표시
 description: Power BI의 최근 항목에 대한 문서
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/24/2020
-ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 39904a0fc577ca11ae73c5bb9840232b4345e47b
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: e11b1823c45e681d6a555bd5a4a9a751704419b2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91527356"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96399238"
 ---
 # <a name="recent-content-in-the-power-bi-service"></a>Power BI 서비스의 **최근** 콘텐츠
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
-**최근** 콘텐츠에는 Power BI 서비스에서 마지막으로 방문한 항목이 포함되어 있습니다. 여기에는 대시보드, 보고서, 앱 및 통합 문서가 포함됩니다. 탐색 모음에서 **최근**을 선택하면 Power BI가 이 콘텐츠를 날짜별 내림차순으로 표시합니다.  정렬 순서를 변경하려면 머리글 중 하나를 선택하고 오름차순 또는 내림차순을 선택합니다.
+**최근** 콘텐츠에는 Power BI 서비스에서 마지막으로 방문한 항목이 포함되어 있습니다. 여기에는 대시보드, 보고서, 앱 및 통합 문서가 포함됩니다. 탐색 모음에서 **최근** 을 선택하면 Power BI가 이 콘텐츠를 날짜별 내림차순으로 표시합니다.  정렬 순서를 변경하려면 머리글 중 하나를 선택하고 오름차순 또는 내림차순을 선택합니다.
 
 
 ![최근 콘텐츠 창](./media/end-user-recent/power-bi-recents.png)
@@ -36,14 +36,14 @@ ms.locfileid: "91527356"
 
 ## <a name="see-all-of-your-recent-content"></a>최근 콘텐츠 모두 보기
 
-최근에 방문한 항목이 5개를 초과하는 경우 **모두 보기**를 선택하여 **최근** 화면을 엽니다. 이 문서의 시작 부분에서 설명한 것처럼, 플라이아웃을 건너뛰고 **최근** 단어 또는 해당 아이콘 ![최근 아이콘](./media/end-user-recent/power-bi-icon.png)을 선택하여 **최근** 화면을 열 수 있습니다.
+최근에 방문한 항목이 5개를 초과하는 경우 **모두 보기** 를 선택하여 **최근** 화면을 엽니다. 이 문서의 시작 부분에서 설명한 것처럼, 플라이아웃을 건너뛰고 **최근** 단어 또는 해당 아이콘 ![최근 아이콘](./media/end-user-recent/power-bi-icon.png)을 선택하여 **최근** 화면을 열 수 있습니다.
 
 ![모든 최근 콘텐츠 표시](./media/end-user-recent/power-bi-admin-recent.png)
 
 
 ## <a name="search-and-sort-your-list-of-recent-content"></a>최근 콘텐츠 목록 검색 및 정렬
 
-목록이 길어지면 [검색 필드와 정렬을 사용하여 필요한 항목을 찾습니다](end-user-search-sort.md). 열을 정렬할 수 있는지 확인하려면 마우스로 가리켜서 화살표가 나타나는지 봅니다. 이 예제에서는 **형식**을 마우스로 가리키면 화살표가 표시됩니다. 최근 콘텐츠는 콘텐츠 유형별로 알파벳순으로 정렬할 수 있습니다. 
+목록이 길어지면 [검색 필드와 정렬을 사용하여 필요한 항목을 찾습니다](end-user-search-sort.md). 열을 정렬할 수 있는지 확인하려면 마우스로 가리켜서 화살표가 나타나는지 봅니다. 이 예제에서는 **형식** 을 마우스로 가리키면 화살표가 표시됩니다. 최근 콘텐츠는 콘텐츠 유형별로 알파벳순으로 정렬할 수 있습니다. 
 
 ![검색 필드와 정렬 화살표를 모두 보여주는 스크린샷](./media/end-user-recent/power-bi-recent-sort-search.png)
 

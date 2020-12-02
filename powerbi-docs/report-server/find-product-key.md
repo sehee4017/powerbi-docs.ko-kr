@@ -2,18 +2,18 @@
 title: 보고서 서버 제품 키를 확인하는 방법
 description: 프로덕션 환경에서 서버를 설치하기 위해 Power BI Report Server 제품 키를 찾는 방법에 대해 알아봅니다.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 10/24/2018
-ms.author: maggies
-ms.openlocfilehash: 86d3bf34a8b222e72d76a5471fe6bfca93390afc
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 412d09d3c25dc8f04e2d83c7a1f95bf36946d581
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861133"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96397973"
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>보고서 서버 제품 키를 확인하는 방법
 프로덕션 환경에서 서버를 설치하기 위해 Power BI Report Server 제품 키를 찾는 방법에 대해 알아봅니다.
@@ -29,7 +29,7 @@ Power BI Premium을 구입한 경우 Power BI 관리자 포털의 **용량 설�
 
 ![프리미엄 설정 내의 Power BI Report Server 키](media/find-product-key/pbirs-product-key.png)
 
-**Power BI Report Server 키**를 선택하면 제품 키를 포함하는 대화 상자가 표시됩니다. 복사하고 설치와 함께 사용할 수 있습니다.
+**Power BI Report Server 키** 를 선택하면 제품 키를 포함하는 대화 상자가 표시됩니다. 복사하고 설치와 함께 사용할 수 있습니다.
 
 ![Power BI Report Server 제품 키](media/find-product-key/pbirs-product-key-dialog.png)
 

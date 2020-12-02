@@ -2,20 +2,20 @@
 title: 비즈니스 사용자를 위한 Power BI의 시각적 개체 유형
 description: Power BI 서비스의 시각적 개체 유형
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/07/2020
-ms.author: mihart
 ms.custom: contperfq4
 LocalizationGroup: Consumer
-ms.openlocfilehash: 6d2ded8060ebe663989fd4f91fc22e4163f60c93
-ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
+ms.openlocfilehash: e944cabc72e60825f286fd86e96257a780b121b6
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "91830646"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96399215"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI의 시각적 개체 유형
 
@@ -266,7 +266,7 @@ X축을 따라 숫자 또는 범주 데이터를 그릴 수 있다는 점을 제
 Power BI 질문 및 답변을 사용하여 자연어 쿼리를 입력할 때 쿼리에 시각적 개체 유형을 지정할 수 있습니다.  예:
 
 
-"  주별 매출을 트리맵으로"
+"주별 매출을 트리맵으로"
 
 ![질문 및 답변 세션](media/end-user-visual-type/qa-treemap.png)
 

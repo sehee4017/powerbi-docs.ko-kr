@@ -2,20 +2,20 @@
 title: 작업 영역에서 콘텐츠를 구성하는 방법
 description: 작업 영역 및 작업 영역 역할에 대해 알아봅니다.
 author: mihart
+ms.author: mihart
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/09/2020
-ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Consumers
-ms.openlocfilehash: 7e16b01508b74b8a91cc956be8a2942b2c0e89bc
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 2341306672da4c1923dc5bc97f0d1537604a1a7c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983746"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96398709"
 ---
 # <a name="collaborate-in-workspaces"></a>작업 영역에서 공동 작업
 
@@ -38,7 +38,7 @@ ms.locfileid: "91983746"
 
 ## <a name="permissions-in-the-workspaces"></a>작업 영역의 권한
 
-액세스 권한은 팀이 공동 작업할 수 있도록 작업 영역에서 수행할 수 있는 작업을 결정합니다.  새 작업 영역에 대한 액세스 권한을 부여할 때 *디자이너* 는 작업 영역 역할 **보기 관리자** , **멤버** , **참가자** 또는 **관리자** 중 하나에 개인 또는 그룹을 추가합니다. 
+액세스 권한은 팀이 공동 작업할 수 있도록 작업 영역에서 수행할 수 있는 작업을 결정합니다.  새 작업 영역에 대한 액세스 권한을 부여할 때 *디자이너* 는 작업 영역 역할 **보기 관리자**, **멤버**, **참가자** 또는 **관리자** 중 하나에 개인 또는 그룹을 추가합니다. 
 
 
 Power BI *비즈니스 사용자* 는 일반적으로 **뷰어** 역할을 사용하여 작업 영역에서 상호 작용합니다. 그러나 *디자이너* 에서 **구성원** 또는 **기여자** 역할에 할당할 수도 있습니다. 보기 권한자 역할을 통해 다른 사용자가 만들고 공유한 콘텐츠(대시보드, 보고서, 앱)를 보고 상호 작용할 수 있습니다. 또한 보기 권한자 역할은 기본 데이터 세트에 액세스할 수 없으므로 콘텐츠와 상호 작용하는 안전한 방법이며 기본 데이터가 "손상"되지 않습니다.
