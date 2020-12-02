@@ -1,19 +1,20 @@
 ---
 title: Power BI로 사용하는 서비스에 연결
 description: '비즈니스 운영에 사용하는 다양한 서비스(예: Salesforce, Microsoft Dynamics CRM, Google 애널리틱스)에 연결합니다.'
-author: maggiesMSFT
+author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 08/29/2019
-ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 037a4c28f7b70cdd6bc546014a0b9218e89a7e3d
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: a2151f80a9c8da7230338355fb10b9a0820286a1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860719"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410508"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Power BI로 사용하는 서비스에 연결
 Power BI를 통해 비즈니스 운영에 사용하는 다양한 서비스(예: Salesforce, Microsoft Dynamics, Google 애널리틱스)에 연결할 수 있습니다. Power BI는 자격 증명을 사용하여 서비스에 연결하면 시작됩니다. 자동으로 데이터를 표시하고 비즈니스에 대한 시각적 인사이트를 제공하는 대시보드를 포함한 Power BI *작업 영역* 및 Power BI 보고서 집합을 만듭니다.
@@ -25,7 +26,7 @@ Power BI를 통해 비즈니스 운영에 사용하는 다양한 서비스(예: 
 
 ![AppSource 앱](media/service-connect-to-services/overview.png)
 
-앱을 설치한 후 앱 및 Power BI 서비스([https://app.powerbi.com](https://app.powerbi.com))의 작업 영역에서 대시보드 및 보고서를 볼 수 있습니다. Power BI 모바일 앱에서 볼 수도 있습니다. 작업 영역에서 대시보드 및 보고서를 수정하여 조직의 요구 사항을 충족한 다음, 동료에게 *앱*으로 배포할 수 있습니다. 
+앱을 설치한 후 앱 및 Power BI 서비스([https://app.powerbi.com](https://app.powerbi.com))의 작업 영역에서 대시보드 및 보고서를 볼 수 있습니다. Power BI 모바일 앱에서 볼 수도 있습니다. 작업 영역에서 대시보드 및 보고서를 수정하여 조직의 요구 사항을 충족한 다음, 동료에게 *앱* 으로 배포할 수 있습니다. 
 
 ![Power BI 모바일 앱의 Google 웹로그 분석 앱](media/service-connect-to-services/power-bi-service-mobile-app-240.png)
 
@@ -35,7 +36,7 @@ Power BI를 통해 비즈니스 운영에 사용하는 다양한 서비스(예: 
 ## <a name="edit-the-dashboard-and-reports"></a>대시보드 및 보고서 편집
 가져오기가 완료되면 새 앱이 앱 페이지에 표시됩니다.
 
-1. 탐색 창에서 **앱**을 선택하고 앱을 선택합니다.
+1. 탐색 창에서 **앱** 을 선택하고 앱을 선택합니다.
    
      ![앱 페이지](media/service-connect-to-services/power-bi-service-apps-open-app.png)
 2. 질문 및 답변 상자에서 입력하여 질문하고 타일을 클릭하여 기본 보고서를 열 수 있습니다. 
@@ -55,7 +56,7 @@ Power BI를 통해 비즈니스 운영에 사용하는 다양한 서비스(예: 
 **빈 타일**  
 Power BI가 서비스에 먼저 연결되어 있는 동안 대시보드에 빈 타일 집합이 표시될 수 있습니다. 2시간 후에 빈 대시보드가 계속 나타나면 연결하지 못한 것입니다. 문제를 해결하는 방법에 대한 정보가 포함된 오류 메시지가 표시되지 않는 경우 지원 티켓을 제출하세요.
 
-* 오른쪽 위 모퉁이에서 물음표 아이콘( **?** ) > **도움말 보기**를 선택합니다.
+* 오른쪽 위 모퉁이에서 물음표 아이콘( **?** ) > **도움말 보기** 를 선택합니다.
   
     ![도움말 보기 아이콘](media/service-connect-to-services/power-bi-service-get-help.png)
 

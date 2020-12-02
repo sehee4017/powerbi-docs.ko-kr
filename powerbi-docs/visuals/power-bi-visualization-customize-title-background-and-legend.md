@@ -1,21 +1,21 @@
 ---
 title: Power BI 시각화 서식 지정 시작
 description: 시각화 제목, 배경 및 범례 사용자 지정
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 03/06/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0d19d7366dce571e2d89ba5cbc6ffbe936ec50e2
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: c974161e4cc7d52bf412ea14800bf720a297cd25
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93410995"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96409818"
 ---
 # <a name="customize-visualization-titles-backgrounds-and-legends"></a>시각화 제목, 배경 및 범례 사용자 지정
 
@@ -61,7 +61,7 @@ ms.locfileid: "93410995"
 
 1. **글꼴 색** 을 흰색으로 변경하고 **배경색** 을 파란색으로 변경합니다.    
 
-    a. 드롭다운을 선택하고 **테마 색** , **최근에 사용한 색** 또는 **사용자 지정 색** 에서 색을 선택합니다.
+    a. 드롭다운을 선택하고 **테마 색**, **최근에 사용한 색** 또는 **사용자 지정 색** 에서 색을 선택합니다.
     
     ![글꼴 색 및 배경색 옵션의 스크린샷](media/power-bi-visualization-customize-title-background-and-legend/power-bi-color.png)
 

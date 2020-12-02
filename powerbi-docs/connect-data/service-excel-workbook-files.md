@@ -2,19 +2,19 @@
 title: Excel 통합 문서 파일에서 데이터 가져오기
 description: Excel 통합 문서 파일에서 Power BI로 데이터를 가져오는 방법 알아보기
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 09/06/2019
-ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 870e3dbdc4b18422b0565834764b996d3f096ebf
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 0411cceb056d3471b3084a38916b83c815a0ae3b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264440"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410370"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Excel 통합 문서 파일에서 데이터 가져오기
 ![Excel 아이콘](media/service-excel-workbook-files/excel_icon.png)
@@ -50,7 +50,7 @@ Power BI에 사용할 통합 문서를 준비하는 방법에 대해 자세히 �
 <iframe width="500" height="281" src="https://www.youtube.com/embed/l2wy4XgQIu0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="where-your-workbook-file-is-saved-makes-a-difference"></a>통합 문서 파일의 저장 위치는 중요합니다.
-**로컬** - 통합 문서 파일을 사용자 컴퓨터의 로컬 드라이브 또는 조직의 다른 위치에 저장하는 경우 Power BI에서 파일을 Power BI로 로드할 수 있습니다. 파일은 사실 로컬 드라이브에 그대로 남아 있으므로, 전체 파일을 실제로 Power BI로 가져온 것은 아닙니다. 실제로는, 새 데이터 세트가 Power BI에서 만들어지고 통합 문서의 데이터와 데이터 모델(있는 경우) 파일의 데이터가 데이터 세트로 로드되는 것입니다. 통합 문서에 파워 뷰 시트가 있는 경우 해당 시트는 Power BI 사이트의 보고서에 나타납니다. 또한, Excel 2016에는 **게시** 기능(**파일** 메뉴 아래)도 있습니다. **게시**를 사용하면 Power BI에서 **데이터 가져오기 &gt; 파일 &gt; 로컬 파일**을 사용하는 것과 사실상 같지만, 통합 문서를 정기적으로 변경하는 경우에는 Power BI에서 데이터 세트를 업데이트하는 것이 훨씬 더 쉽습니다.
+**로컬** - 통합 문서 파일을 사용자 컴퓨터의 로컬 드라이브 또는 조직의 다른 위치에 저장하는 경우 Power BI에서 파일을 Power BI로 로드할 수 있습니다. 파일은 사실 로컬 드라이브에 그대로 남아 있으므로, 전체 파일을 실제로 Power BI로 가져온 것은 아닙니다. 실제로는, 새 데이터 세트가 Power BI에서 만들어지고 통합 문서의 데이터와 데이터 모델(있는 경우) 파일의 데이터가 데이터 세트로 로드되는 것입니다. 통합 문서에 파워 뷰 시트가 있는 경우 해당 시트는 Power BI 사이트의 보고서에 나타납니다. 또한, Excel 2016에는 **게시** 기능(**파일** 메뉴 아래)도 있습니다. **게시** 를 사용하면 Power BI에서 **데이터 가져오기 &gt; 파일 &gt; 로컬 파일** 을 사용하는 것과 사실상 같지만, 통합 문서를 정기적으로 변경하는 경우에는 Power BI에서 데이터 세트를 업데이트하는 것이 훨씬 더 쉽습니다.
 
 **OneDrive - 비즈니스** – 비즈니스용 OneDrive가 있고 Power BI에 로그인하는 같은 계정으로 로그인할 경우 Excel의 작업과 Power BI의 데이터 세트, 보고서 그리고 대시보드의 동기화를 유지하는 가장 효율적인 방법입니다. Power BI와 OneDrive가 클라우드에 있으므로 Power BI는 매시간 OneDrive의 통합 문서 파일에 연결합니다. 변경 내용이 발견되면 데이터 세트, 보고서 및 대시보드가 Power BI에서 자동으로 업데이트됩니다. 통합 문서를 로컬 드라이브에 저장한 것과 같이 게시를 사용하여 Power BI에서도 데이터 세트와 보고서를 즉시 업데이트할 수 있습니다. 그렇지 않으면, Power BI는 일반적으로 한 시간 이내에 자동으로 동기화합니다.
 
@@ -59,12 +59,12 @@ Power BI에 사용할 통합 문서를 준비하는 방법에 대해 자세히 �
 **SharePoint 팀 사이트** – Power BI Desktop 파일을 SharePoint 팀 사이트에 저장하는 것은 비즈니스용 OneDrive에 저장하는 것과 상당히 같습니다. 가장 큰 차이점은 Power BI에서 파일에 연결하는 방법입니다. URL을 지정하거나 루트 폴더에 연결할 수 있습니다.
 
 ## <a name="one-excel-workbook--two-ways-to-use-it"></a>하나의 Excel 통합 문서 - 두 가지 사용 방법
-통합 문서 파일을 **OneDrive**에 저장하는 경우 Power BI에서 데이터를 탐색할 수 있는 여러 방법이 있습니다.
+통합 문서 파일을 **OneDrive** 에 저장하는 경우 Power BI에서 데이터를 탐색할 수 있는 여러 방법이 있습니다.
 
 ![Excel 데이터를 가져오거나 Excel 데이터에 연결하는 옵션을 보여 주는 비즈니스용 OneDrive의 스크린샷.](media/service-excel-workbook-files/excel_import_connect.png)
 
 ### <a name="import-excel-data-into-power-bi"></a>Power BI로 Excel 데이터 가져오기
-**가져오기**를 선택할 경우 테이블에서 지원되는 데이터 및/또는 데이터 모델을 Power BI에서 새로운 데이터 세트로 가져옵니다. 파워 뷰 시트가 있는 경우 Power BI에서 보고서로 다시 생성됩니다.
+**가져오기** 를 선택할 경우 테이블에서 지원되는 데이터 및/또는 데이터 모델을 Power BI에서 새로운 데이터 세트로 가져옵니다. 파워 뷰 시트가 있는 경우 Power BI에서 보고서로 다시 생성됩니다.
 
 통합 문서 편집을 계속할 수 있습니다. 변경 내용이 저장되면 일반적으로 한 시간 이내에 Power BI에서 해당 데이터 세트와 동기화됩니다. 더 즉각적인 결과가 필요할 경우 게시를 다시 클릭하면 변경 내용이 즉시 내보내집니다. 보고서에 있는 모든 시각화 및 대시보드도 업데이트됩니다.
 
@@ -73,7 +73,7 @@ Power BI에 사용할 통합 문서를 준비하는 방법에 대해 자세히 �
 Excel 2016에는 게시 > 내보내기를 사용할 수도 있습니다. 유사한 사항이 꽤 많습니다. 자세한 내용은 [Excel 2016에서 게시](service-publish-from-excel.md)를 참조하세요.
 
 ### <a name="connect-manage-and-view-excel-in-power-bi"></a>Power BI에서 Excel 연결, 관리 및 보기
-**연결**을 선택하면 통합 문서가 Excel Online에서와 같이 Power BI에 나타납니다. 하지만, Excel Online과는 달리 통합 문서의 요소를 대시보드에 고정하는 데 도움이 되는 몇 가지 훌륭한 기능이 제공됩니다.
+**연결** 을 선택하면 통합 문서가 Excel Online에서와 같이 Power BI에 나타납니다. 하지만, Excel Online과는 달리 통합 문서의 요소를 대시보드에 고정하는 데 도움이 되는 몇 가지 훌륭한 기능이 제공됩니다.
 
 Power BI에서는 통합 문서를 편집할 수 없습니다. 하지만 일부 내용을 변경해야 할 경우 편집을 클릭한 다음 Excel Online에서 통합 문서를 편집하거나 컴퓨터의 Excel에서 열어볼 수 있습니다. 적용한 모든 변경 내용이 OneDrive의 통합 문서에 저장됩니다.
 
@@ -82,19 +82,19 @@ Power BI에서는 통합 문서를 편집할 수 없습니다. 하지만 일부 
 Excel 2016에서는 게시 > 업로드를 사용할 수도 있습니다. 유사한 사항이 꽤 많습니다. 자세한 내용은 [Excel 2016에서 게시](service-publish-from-excel.md)를 참조하세요.
 
 ## <a name="import-or-connect-to-an-excel-workbook-from-power-bi"></a>Power BI에서 Excel 통합 문서로 가져오기 또는 연결
-1. Power BI의 탐색 창에서 **데이터 가져오기**를 클릭합니다.
+1. Power BI의 탐색 창에서 **데이터 가져오기** 를 클릭합니다.
    
    ![탐색 창의 단추를 보여 주는 데이터 가져오기의 스크린샷.](media/service-excel-workbook-files/excel_get_data_button.png)
-2. 파일에서 **가져오기**를 클릭합니다.
+2. 파일에서 **가져오기** 를 클릭합니다.
    
    ![가져오기 단추를 보여 주는 파일 대화 상자의 스크린샷.](media/service-excel-workbook-files/excel_files_get.png)
 3. 파일을 찾습니다.
    
    ![로컬 파일, 비즈니스용 OneDrive, 개인용 OneDrive 및 SharePoint 타일을 보여 주는 파일을 찾기 위한 타일 네 개의 스크린샷.](media/service-excel-workbook-files/excel_find_your_file.png)
-4. 통합 문서가 OneDrive 또는 SharePoint - 팀 사이트에 있는 경우 **가져오기** 또는 **연결**을 선택합니다.
+4. 통합 문서가 OneDrive 또는 SharePoint - 팀 사이트에 있는 경우 **가져오기** 또는 **연결** 을 선택합니다.
 
 ## <a name="local-excel-workbooks"></a>로컬 Excel 통합 문서
-로컬 Excel 파일을 사용하고 Power BI로 업로드할 수도 있습니다. 단순히 이전 메뉴에서 **로컬 파일**을 선택한 다음 저장된 Excel 통합 문서가 있는 위치로 이동합니다.
+로컬 Excel 파일을 사용하고 Power BI로 업로드할 수도 있습니다. 단순히 이전 메뉴에서 **로컬 파일** 을 선택한 다음 저장된 Excel 통합 문서가 있는 위치로 이동합니다.
 
 ![Excel 통합 문서를 선택하기 위해 이동하는 방법을 보여 주는 로컬 파일 타일의 스크린샷.](media/service-excel-workbook-files/excel_import_6.png)
 
@@ -111,7 +111,7 @@ Excel 2016에서는 게시 > 업로드를 사용할 수도 있습니다. 유사�
 ![Excel 데이터를 사용한 선택된 보고서를 보여 주는 보고서 섹션의 스크린샷.](media/service-excel-workbook-files/excel_import_9.png)
 
 ## <a name="publish-from-excel-2016-to-your-power-bi-site"></a>Excel 2016에서 Power BI 사이트에 게시
-Excel 2016에서 **Power BI에 게시** 기능을 사용하면 파일을 가져오거나 연결하기 위해 Power BI에서 **데이터 가져오기**를 사용하는 것과 사실상 같습니다. 여기서 자세히 다루지는 않겠지만 자세한 내용은 [Excel 2016에서 Power BI에 게시](service-publish-from-excel.md)를 참조하세요.
+Excel 2016에서 **Power BI에 게시** 기능을 사용하면 파일을 가져오거나 연결하기 위해 Power BI에서 **데이터 가져오기** 를 사용하는 것과 사실상 같습니다. 여기서 자세히 다루지는 않겠지만 자세한 내용은 [Excel 2016에서 Power BI에 게시](service-publish-from-excel.md)를 참조하세요.
 
 ## <a name="troubleshooting"></a>문제 해결
 통합 문서 파일이 너무 큰가요? [Power BI에서 보기 위해 Excel 통합 문서 크기 줄이기](reduce-the-size-of-an-excel-workbook.md)를 확인하세요.

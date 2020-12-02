@@ -2,18 +2,18 @@
 title: Power BI로 Xero에 연결
 description: Power BI용 Xero
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 03/06/2020
-ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8ac9081e1cf7d6ec4ca53863c8111e56ae3ad68e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c942e399eb32fd7118d515f0d072972e3a820578
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231723"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410485"
 ---
 # <a name="connect-to-xero-with-power-bi"></a>Power BI로 Xero에 연결
 Xero는 중소기업을 위해 특별히 설계된 사용이 용이한 온라인 계정 소프트웨어입니다. 이 Power BI 템플릿 앱으로 Xero financials를 기반으로 한 매력적인 시각화를 만들어 보세요. 기본 대시보드에는 현금 보유 현황, 수익과 지출 비교, 손익 추세, 대금 결제 기간, 투자 수익률 등 다양한 중소기업 메트릭이 포함됩니다.
@@ -24,8 +24,8 @@ Power BI용 [Xero 템플릿 앱](https://app.powerbi.com/getdata/services/xero)�
 
 [!INCLUDE [powerbi-service-apps-get-more-apps](../includes/powerbi-service-apps-get-more-apps.md)]
 
-3. **Xero** \> **지금 받기**를 선택합니다.
-4. **이 Power BI 앱을 설치하겠습니까?** 에서 **설치**를 선택합니다.
+3. **Xero** \> **지금 받기** 를 선택합니다.
+4. **이 Power BI 앱을 설치하겠습니까?** 에서 **설치** 를 선택합니다.
 
     ![Xero 설치](media/service-connect-to-xero/power-bi-install-xero.png)
 
@@ -33,7 +33,7 @@ Power BI용 [Xero 템플릿 앱](https://app.powerbi.com/getdata/services/xero)�
 
    ![Xero 타일을 선택](media/service-connect-to-xero/power-bi-start-xero.png)
 
-6. **새 앱 시작**에서 **데이터**를 선택합니다.
+6. **새 앱 시작** 에서 **데이터** 를 선택합니다.
 
     ![새 앱 시작](media/service-connect-to-zendesk/power-bi-new-app-connect-get-started.png)
 
@@ -41,7 +41,7 @@ Power BI용 [Xero 템플릿 앱](https://app.powerbi.com/getdata/services/xero)�
 
     ![조직 별명](media/service-connect-to-xero/params.png)
 
-5. **인증 방법**에 대해 **OAuth**를 선택합니다. Xero 계정에 로그인하라는 메시지가 표시되면 연결할 조직을 선택합니다. 로그인이 완료되면 **로그인**을 선택하여 로딩 프로세스를 시작합니다.
+5. **인증 방법** 에 대해 **OAuth** 를 선택합니다. Xero 계정에 로그인하라는 메시지가 표시되면 연결할 조직을 선택합니다. 로그인이 완료되면 **로그인** 을 선택하여 로딩 프로세스를 시작합니다.
    
     ![인증 방법](media/service-connect-to-xero/creds.png)
    
@@ -55,7 +55,7 @@ Power BI용 [Xero 템플릿 앱](https://app.powerbi.com/getdata/services/xero)�
 * 대시보드 맨 위에 있는 [질문 및 답변 상자에 질문](../consumer/end-user-q-and-a.md)합니다.
 * 대시보드에서 [타일을 변경](../create-reports/service-dashboard-edit-tile.md)합니다.
 * [타일을 선택](../consumer/end-user-tiles.md)하여 원본 보고서를 엽니다.
-* 데이터 세트을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침**을 사용하여 필요할 때 새로 고칠 수 있습니다.
+* 데이터 세트을 매일 새로 고치도록 예약하는 경우 새로 고침 일정을 변경하거나 **지금 새로 고침** 을 사용하여 필요할 때 새로 고칠 수 있습니다.
 
 ## <a name="whats-included"></a>포함된 내용
 템플릿 앱 대시보드에는 다양한 영역을, 이에 대한 자세한 내용이 있는 해당 보고서와 함께 포괄하는 타일 및 메트릭이 포함됩니다.  

@@ -2,18 +2,18 @@
 title: Power BI 템플릿 앱이란?
 description: 이 문서는 Power BI 템플릿 앱 프로그램의 개요입니다. 코딩이 거의 없거나 전혀 없는 Power BI 앱을 빌드하고 Power BI 고객에게 배포하는 방법을 알아봅니다.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
-ms.author: painbar
-ms.openlocfilehash: 773f812ebaeabf02e9a21f09ac5a143d431fbeb0
-ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
+ms.openlocfilehash: 5c897909d9fe31e4b22743a77058caba4767a579
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94718917"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410140"
 ---
 # <a name="what-are-power-bi-template-apps"></a>Power BI 템플릿 앱이란?
 

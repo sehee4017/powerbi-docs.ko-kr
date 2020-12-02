@@ -2,19 +2,19 @@
 title: 데이터 원본 관리 - Analysis Services
 description: 해당 게이트웨이에 속한 온-프레미스 데이터 게이트웨이 및 데이터 원본을 관리하는 방법입니다. 다차원 및 테이블 형식 모드의 Analysis Services에 대한 것입니다.
 author: arthiriyer
+ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
 ms.date: 07/15/2019
-ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 521c1cbc60c6d616c06bde6b6826bb270d3ddba0
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 8cc8149d7b143dc0f100a8d7718343b9f668a294
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91375307"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410347"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>데이터 원본 관리 - Analysis Services
 
@@ -29,18 +29,18 @@ Analysis Services에 대한 라이브 연결을 설정하는 방법에 대한 �
 
 ## <a name="add-a-data-source"></a>데이터 원본 추가
 
-데이터 원본을 추가하는 방법에 대한 자세한 내용은 [데이터 원본 추가](service-gateway-data-sources.md#add-a-data-source)를 참조하세요. 다차원 또는 테이블 형식 서버에 연결하는 경우 **데이터 원본 유형**으로 **Analysis Services**를 선택합니다.
+데이터 원본을 추가하는 방법에 대한 자세한 내용은 [데이터 원본 추가](service-gateway-data-sources.md#add-a-data-source)를 참조하세요. 다차원 또는 테이블 형식 서버에 연결하는 경우 **데이터 원본 유형** 으로 **Analysis Services** 를 선택합니다.
 
 ![Analysis Services 데이터 원본 추가](media/service-gateway-enterprise-manage-ssas/datasourcesettings2-ssas.png)
 
-**서버** 및 **데이터베이스**를 포함하는 데이터 원본에 대한 정보를 입력합니다. **사용자 이름** 및 **암호**에 대해 입력한 정보는 게이트웨이가 Analysis Services 인스턴스에 연결하는 데 사용합니다.
+**서버** 및 **데이터베이스** 를 포함하는 데이터 원본에 대한 정보를 입력합니다. **사용자 이름** 및 **암호** 에 대해 입력한 정보는 게이트웨이가 Analysis Services 인스턴스에 연결하는 데 사용합니다.
 
 > [!NOTE]
 > 입력하는 Windows 계정은 연결 중인 Analysis Services 인스턴스에서 서버 관리자 역할의 멤버여야 합니다. 이 계정의 암호가 만료되도록 설정되면 데이터 원본에 대한 암호를 업데이트하지 않은 경우 사용자에게 연결 오류가 발생할 수 있습니다. 자격 증명을 저장하는 방법에 대한 자세한 내용은 [클라우드에 암호화된 자격 증명 저장](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud)을 참조하세요.
 
 ![데이터 원본 설정 입력](media/service-gateway-enterprise-manage-ssas/datasourcesettings3-ssas.png)
 
-모든 항목을 입력한 후 **추가**를 선택합니다. 이제 온-프레미스에 있는 Analysis Services 인스턴스에 대한 예약된 새로 고침 또는 라이브 연결에 이 데이터 원본을 사용할 수 있습니다. 성공한 경우 *연결 성공*이 표시됩니다.
+모든 항목을 입력한 후 **추가** 를 선택합니다. 이제 온-프레미스에 있는 Analysis Services 인스턴스에 대한 예약된 새로 고침 또는 라이브 연결에 이 데이터 원본을 사용할 수 있습니다. 성공한 경우 *연결 성공* 이 표시됩니다.
 
 ![연결 상태 표시](media/service-gateway-enterprise-manage-ssas/datasourcesettings4.png)
 
@@ -81,10 +81,10 @@ Analysis Services 데이터 원본의 경우 사용자 지정 UPN 규칙을 구�
 
 UPN 매핑 화면을 가져오려면 다음을 수행합니다.
 
-1. 기어 아이콘으로 이동하고 **게이트웨이 관리**를 선택합니다.
+1. 기어 아이콘으로 이동하고 **게이트웨이 관리** 를 선택합니다.
 2. Analysis Services 데이터 원본을 포함하는 게이트웨이를 확장합니다. 또는 Analysis Services 데이터 원본을 만들지 않은 경우 지금 만들 수 있습니다.
 3. 데이터 원본을 선택한 다음 **사용자** 탭을 선택합니다.
-4. **사용자 이름 매핑**을 선택합니다.
+4. **사용자 이름 매핑** 을 선택합니다.
 
     ![UPN 매핑 화면](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_02.png)
 
@@ -102,7 +102,7 @@ Power BI 서비스에서 다음이 수행됩니다.
 * 온-프레미스 SSAS 서버에 대한 Power BI Azure AD 사용자의 각 쿼리에 대해 UPN 문자열(예: firstName.lastName@contoso.com)이 전달됩니다.
 
 > [!NOTE]
-> 사용자 이름 문자열을 온-프레미스 데이터 게이트웨이로 보내기 *전*에도 Power BI 데이터 원본 구성에 정의된 수동 UPN 사용자 매핑이 계속 적용됩니다.
+> 사용자 이름 문자열을 온-프레미스 데이터 게이트웨이로 보내기 *전* 에도 Power BI 데이터 원본 구성에 정의된 수동 UPN 사용자 매핑이 계속 적용됩니다.
 
 구성 가능한 사용자 지정 사용자 매핑을 사용하는 온-프레미스 데이터 게이트웨이에서 다음을 수행합니다.
 
@@ -116,7 +116,7 @@ Active Directory 조회를 수행하도록 게이트웨이를 구성하려면 �
 
 1. [최신 게이트웨이를 다운로드하여 설치합니다](/data-integration/gateway/service-gateway-install).
 
-2. 게이트웨이에서 로컬 서비스 계정 대신 도메인 계정으로 실행되도록 온-프레미스 데이터 게이트웨이 서비스를 변경합니다. 그렇지 않으면 런타임 시 Active Directory 조회가 제대로 작동하지 않습니다. 컴퓨터에서 [온-프레미스 데이터 게이트웨이 앱](/data-integration/gateway/service-gateway-app)으로 이동한 다음 **서비스 설정** > **서비스 계정 변경**으로 이동합니다. 새 게이트웨이를 대신 만들려는 경우가 아니라면 동일한 시스템에서 복구 키를 복원해야 하므로 이 게이트웨이에 대한 복구 키가 있는지 확인합니다. 변경 내용을 적용하려면 게이트웨이 서비스를 다시 시작합니다.
+2. 게이트웨이에서 로컬 서비스 계정 대신 도메인 계정으로 실행되도록 온-프레미스 데이터 게이트웨이 서비스를 변경합니다. 그렇지 않으면 런타임 시 Active Directory 조회가 제대로 작동하지 않습니다. 컴퓨터에서 [온-프레미스 데이터 게이트웨이 앱](/data-integration/gateway/service-gateway-app)으로 이동한 다음 **서비스 설정** > **서비스 계정 변경** 으로 이동합니다. 새 게이트웨이를 대신 만들려는 경우가 아니라면 동일한 시스템에서 복구 키를 복원해야 하므로 이 게이트웨이에 대한 복구 키가 있는지 확인합니다. 변경 내용을 적용하려면 게이트웨이 서비스를 다시 시작합니다.
 
 3. 쓰기 권한이 있는지 확인하려면 관리자로서 게이트웨이의 설치 폴더인 *C:\Program Files\On-premises* data gateway로 이동합니다. *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* 파일을 엽니다.
 
@@ -152,7 +152,7 @@ Active Directory 조회를 수행하도록 게이트웨이를 구성하려면 �
 
 ### <a name="work-with-mapping-rules"></a>매핑 규칙 작업
 
-매핑 규칙을 만들려면 **원래 이름** 및 **새 이름**에 대한 값을 입력한 다음 **추가**를 선택합니다.
+매핑 규칙을 만들려면 **원래 이름** 및 **새 이름** 에 대한 값을 입력한 다음 **추가** 를 선택합니다.
 
 | 필드 | 설명 |
 | --- | --- |
@@ -171,7 +171,7 @@ Active Directory 조회를 수행하도록 게이트웨이를 구성하려면 �
 
 ### <a name="test-a-mapping-rule"></a>매핑 규칙 테스트
 
-대체될 원래 이름을 검증하려면 **원래 이름**의 값을 입력합니다. **테스트 규칙**을 선택합니다.
+대체될 원래 이름을 검증하려면 **원래 이름** 의 값을 입력합니다. **테스트 규칙** 을 선택합니다.
 
 ![매핑 규칙 테스트](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-test-mapping-rule.png)
 
@@ -251,7 +251,7 @@ Analysis Services 라이브 연결을 사용하려는 경우 로컬 Active Direc
 > [!NOTE]
 > 서버 및 데이터베이스 이름은 온-프레미스 데이터 게이트웨이 내에서 Power BI Desktop 및 데이터 원본 간에 일치해야 합니다.
 
-게이트웨이 내에서 데이터 세트 및 데이터 원본 간의 링크는 서버 이름 및 데이터베이스 이름을 기반으로 합니다. 해당 이름은 서로 일치해야 합니다. 예를 들어 Power BI Desktop 내에서 서버 이름에 대한 IP 주소를 제공하는 경우 게이트웨이 구성 내에서 데이터 원본에 대한 IP 주소를 사용해야 합니다. Power BI Desktop에서 *SERVER\INSTANCE*를 사용하는 경우 게이트웨이에 대해 구성된 데이터 원본에서 이를 사용해야 합니다.
+게이트웨이 내에서 데이터 세트 및 데이터 원본 간의 링크는 서버 이름 및 데이터베이스 이름을 기반으로 합니다. 해당 이름은 서로 일치해야 합니다. 예를 들어 Power BI Desktop 내에서 서버 이름에 대한 IP 주소를 제공하는 경우 게이트웨이 구성 내에서 데이터 원본에 대한 IP 주소를 사용해야 합니다. Power BI Desktop에서 *SERVER\INSTANCE* 를 사용하는 경우 게이트웨이에 대해 구성된 데이터 원본에서 이를 사용해야 합니다.
 
 이 요구 사항은 라이브 연결과 예약된 새로 고침의 경우 모두 필요합니다.
 
@@ -259,7 +259,7 @@ Analysis Services 라이브 연결을 사용하려는 경우 로컬 Active Direc
 
 서버 및 데이터베이스 이름이 Power BI Desktop 및 게이트웨이에 대해 구성된 데이터 원본 간과 일치하는지 확인합니다. 라이브 연결 데이터 세트를 게시하기 위해 사용자가 데이터 원본의 **사용자** 탭에 나열되는지 확인해야 합니다. 라이브 연결의 경우 처음으로 데이터를 가져올 때 Power BI Desktop 내에서 선택이 발생합니다.
 
-게시한 후 Power BI Desktop 또는 **데이터 가져오기**에서 보고서 작업을 시작해야 합니다. 연결을 사용할 수 있으려면 게이트웨이 내에서 데이터 원본을 만든 후 몇 분 정도가 걸릴 수 있습니다.
+게시한 후 Power BI Desktop 또는 **데이터 가져오기** 에서 보고서 작업을 시작해야 합니다. 연결을 사용할 수 있으려면 게이트웨이 내에서 데이터 원본을 만든 후 몇 분 정도가 걸릴 수 있습니다.
 
 ### <a name="use-the-data-source-with-scheduled-refresh"></a>예약된 새로 고침으로 데이터 원본 사용
 

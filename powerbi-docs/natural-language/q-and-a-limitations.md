@@ -2,17 +2,17 @@
 title: Power BI 질문 및 답변의 제한 사항
 description: Power BI 질문 및 답변의 현재 제한 사항
 author: maggiesMSFT
+ms.author: maggies
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 09/09/2020
-ms.author: maggies
-ms.openlocfilehash: c989dad575f10a6ed4f6b25ed80368315087c1c2
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 6ad81bc88ee559fa08400b5ed8a74dd1a9b6051f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91528301"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410025"
 ---
 # <a name="limitations-of-power-bi-qa"></a>Power BI 질문 및 답변의 제한 사항
 
@@ -55,7 +55,7 @@ Power BI 질문 및 답변은 현재 다음과 같은 구성을 지원하지 않
 
 Power BI 관리자는 테넌트 설정을 사용하여 질문 저장 기능을 관리할 수 있습니다. 사용 권한은 보안 그룹을 기반으로 합니다. 
 
-사용자는 **설정** > **일반**을 선택하고 **질문 및 답변에서 발화를 기록하도록 허용**의 선택을 취소하여 질문이 기록되지 않도록 할 수도 있습니다. 
+사용자는 **설정** > **일반** 을 선택하고 **질문 및 답변에서 발화를 기록하도록 허용** 의 선택을 취소하여 질문이 기록되지 않도록 할 수도 있습니다. 
 
 ## <a name="teach-qa-limitations"></a>Q&A 교육 제한 사항
 

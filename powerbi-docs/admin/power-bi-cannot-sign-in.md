@@ -5,22 +5,22 @@ author: kfollis
 ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 09/25/2020
-ms.openlocfilehash: 00e1586b0b02167ee953ccd91237c71b0bb7c40d
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 2f6ed46060d9346342aa8469cf22072986f59aab
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374686"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96409358"
 ---
 # <a name="troubleshooting-sign-in-issues-for-power-bi"></a>Power BI의 로그인 문제 해결
 
 이 문서에서는 관리자가 Power BI 로그인 문제에 대한 지원을 문의할 수 있는 방법을 설명합니다. 로그인 문제가 있는 Power BI 사용자인 경우 먼저 조직의 내부 지원 팀에 문의하세요.
 
-하지만 조직의 **관리자**이며 Power BI에 계속 로그인할 수 없는 경우, 아래 정보에 따라 계속 진행합니다.
+하지만 조직의 **관리자** 이며 Power BI에 계속 로그인할 수 없는 경우, 아래 정보에 따라 계속 진행합니다.
 
 ## <a name="contact-microsoft-support"></a>Microsoft 지원에 문의
 

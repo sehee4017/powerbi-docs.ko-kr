@@ -2,19 +2,19 @@
 title: Power BI에 대한 데이터 게이트웨이 배포 지침
 description: Power BI에 대한 게이트웨이를 배포하기 위한 모범 사례 및 고려 사항에 대해 알아봅니다.
 author: arthiriyer
+ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
-ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3cb11f3faf9b9da5872cf2dba67222760c720f23
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a3921590787895d20ff03781de2efa93c08f71d0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83329971"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410324"
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Power BI에 대한 데이터 게이트웨이 배포 지침
 
@@ -38,7 +38,7 @@ Power BI 클라우드 서비스의 온-프레미스 데이터 게이트웨이를
 
 모든 사용자가 매일 같은 시간에 지정된 보고서에 액세스하는 경우 모든 요청을 처리할 수 있는 컴퓨터에 게이트웨이를 설치해야 합니다. 컴퓨터가 적절한지 아닌지를 확인하는 데 도움이 될 수 있는 성능 카운터 및 최소 요구 사항은 다음 섹션을 참조하세요.
 
-Power BI의 제약 조건 때문에 *보고서*당 하나의 *게이트웨이*만 사용할 수 있습니다. 보고서가 여러 데이터 원본을 기반으로 할 때에도 이러한 모든 데이터 원본은 단일 게이트웨이를 통과해야 합니다. 대시보드가 *여러* 보고서를 기반으로 하는 경우 기여하는 각 보고서에 대한 전용 게이트웨이를 사용할 수 있습니다. 이러한 방식으로 단일 대시보드에 기여하는 여러 보고서 간에 게이트웨이 부하를 분산시킵니다.
+Power BI의 제약 조건 때문에 *보고서* 당 하나의 *게이트웨이* 만 사용할 수 있습니다. 보고서가 여러 데이터 원본을 기반으로 할 때에도 이러한 모든 데이터 원본은 단일 게이트웨이를 통과해야 합니다. 대시보드가 *여러* 보고서를 기반으로 하는 경우 기여하는 각 보고서에 대한 전용 게이트웨이를 사용할 수 있습니다. 이러한 방식으로 단일 대시보드에 기여하는 여러 보고서 간에 게이트웨이 부하를 분산시킵니다.
 
 ### <a name="connection-type"></a>연결 유형
 
@@ -56,7 +56,7 @@ Power BI는 다음 두 가지 유형의 연결을 제공합니다. DirectQuery �
 
 ### <a name="location"></a>위치
 
-게이트웨이 설치의 위치는 쿼리 성능에 상당한 영향을 줄 수 있습니다. 네트워크 대기 시간을 최소화하기 위해 게이트웨이, 데이터 원본 위치 및 Power BI 테넌트가 서로 최대한 가까이 있는지 확인하세요. Power BI 서비스 선택에서 Power BI 테넌트 위치를 결정하려면 오른쪽 위 모퉁이에서 **?** 오른쪽 상단 모퉁이의 아이콘. 그런 다음 **Power BI 정보**를 선택합니다.
+게이트웨이 설치의 위치는 쿼리 성능에 상당한 영향을 줄 수 있습니다. 네트워크 대기 시간을 최소화하기 위해 게이트웨이, 데이터 원본 위치 및 Power BI 테넌트가 서로 최대한 가까이 있는지 확인하세요. Power BI 서비스 선택에서 Power BI 테넌트 위치를 결정하려면 오른쪽 위 모퉁이에서 **?** 오른쪽 상단 모퉁이의 아이콘. 그런 다음 **Power BI 정보** 를 선택합니다.
 
 ![Power BI 테넌트 위치 결정](media/service-gateway-deployment-guidance/powerbi-gateway-deployment-guidance_02.png)
 

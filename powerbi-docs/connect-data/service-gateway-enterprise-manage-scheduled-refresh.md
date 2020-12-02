@@ -2,19 +2,19 @@
 title: 데이터 원본 관리 - 가져오기/예약된 새로 고침
 description: 해당 게이트웨이에 속한 온-프레미스 데이터 게이트웨이 및 데이터 원본을 관리하는 방법입니다. 이 문서는 가져오기/예약된 새로 고침에서 사용할 수 있는 데이터 원본과 관련된 내용을 제공합니다.
 author: arthiriyer
+ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
 ms.date: 11/17/2020
-ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: bb61f752891205a0e8997592d522efb2022a562b
-ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
+ms.openlocfilehash: b6f7e3719678d0617f40b9a33f2de20a6b5010c0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94719032"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410301"
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>데이터 원본 관리 - 가져오기/예약된 새로 고침
 

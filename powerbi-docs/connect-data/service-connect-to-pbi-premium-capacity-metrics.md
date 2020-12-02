@@ -2,18 +2,18 @@
 title: Power BI Premium Capacity Metrics에 연결
 description: Power BI Premium Capacity Metrics 템플릿 앱을 다운로드하고 설치하는 방법 및 데이터에 연결하는 방법
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/18/2020
-ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 42526dbae857c6488fe129cc7781672691782de1
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: f7bb6cdd3279ac15b2952d5e20b9c36a66a0c518
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91375238"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410600"
 ---
 # <a name="connect-to-power-bi-premium-capacity-metrics"></a>Power BI Premium Capacity Metrics에 연결
 
@@ -36,7 +36,7 @@ ms.locfileid: "91375238"
 
     [![AppSource의 Power BI Premium Capacity Metrics 앱](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-appsource-get-it-now.png)](https://app.powerbi.com/groups/me/getapps/services/pbi_pcmm.capacity-metrics-dxt)
 
-1. **설치**를 선택합니다. 
+1. **설치** 를 선택합니다. 
 
     ![Power BI Premium Capacity Metrics 앱 설치](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metric-select-install.png)
 
@@ -51,7 +51,7 @@ ms.locfileid: "91375238"
 
 1. 앱 페이지에서 아이콘을 선택하여 앱을 엽니다.
 
-1. 시작 화면에서 **탐색**을 선택합니다.
+1. 시작 화면에서 **탐색** 을 선택합니다.
 
    ![템플릿 앱 시작 화면](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-splash-screen.png)
 
@@ -61,12 +61,12 @@ ms.locfileid: "91375238"
 
    ![Power BI Premium Capacity Metrics 앱 데이터 연결 링크](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-connect-data.png)
 
-1. 나타나는 대화 상자에서 UTC 오프셋, 즉 협정 세계시와 위치의 시간 사이의 차이(시간)를 설정합니다. 그런 다음 **다음**을 클릭합니다.
+1. 나타나는 대화 상자에서 UTC 오프셋, 즉 협정 세계시와 위치의 시간 사이의 차이(시간)를 설정합니다. 그런 다음 **다음** 을 클릭합니다.
   
    ![Power BI Premium Capacity Metrics 앱 UTC 설정 대화 상자](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-setutc-dialog.png)
    **참고: 30분 단위는 소수 형식(예: 5.5, 2.5 등)으로 작성해야 합니다.**
 
-1. 나타나는 다음 대화 상자에서 필요한 작업은 없고, **로그인**만 선택하면 됩니다.
+1. 나타나는 다음 대화 상자에서 필요한 작업은 없고, **로그인** 만 선택하면 됩니다.
 
    ![Power BI Premium Capacity Metrics 앱 인증 대화 상자](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-authentication-dialog.png)
 

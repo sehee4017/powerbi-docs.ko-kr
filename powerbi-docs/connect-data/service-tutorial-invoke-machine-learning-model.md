@@ -2,20 +2,20 @@
 title: '자습서:  Power BI에서 Machine Learning Studio(클래식) 모델 호출(미리 보기)'
 description: 이 자습서에서는 Power BI에서 Machine Learning Studio(클래식) 모델을 호출합니다.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: SarinaJoan
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.custom: connect-to-services
 ms.topic: tutorial
 ms.date: 03/12/2019
-ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4124799f15bbccd7c82428d1290ae2ae6420311f
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: c59e0fff95f611fbe84586af64db7a532285d72b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397119"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410209"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-classic-model-in-power-bi-preview"></a>자습서:  Power BI에서 Machine Learning Studio(클래식) 모델 호출(미리 보기)
 
@@ -47,7 +47,7 @@ Power BI에서 Azure ML 모델에 액세스하려면 Azure 구독 및 리소스 
 
 ![구독이 선택된 Azure Portal을 보여 주는 스크린샷.](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
 
-모델을 게시하는 데 사용한 Azure 구독을 선택하고 **액세스 제어(IAM)** 를 선택합니다. 다음으로, **역할 할당 추가** , **독자** 역할, Power BI 사용자를 차례로 선택합니다. 완료되면 **저장** 을 선택합니다. 아래 이미지에서는 해당 선택 내용을 보여 줍니다.
+모델을 게시하는 데 사용한 Azure 구독을 선택하고 **액세스 제어(IAM)** 를 선택합니다. 다음으로, **역할 할당 추가**, **독자** 역할, Power BI 사용자를 차례로 선택합니다. 완료되면 **저장** 을 선택합니다. 아래 이미지에서는 해당 선택 내용을 보여 줍니다.
 
 ![Azure Portal 액세스 제어](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_02.png)
 
@@ -97,14 +97,14 @@ Power BI에서 Azure ML 모델에 액세스하려면 Azure 구독 및 리소스 
 
 ![데이터의 미리 보기를 보여 주는 Power Query 편집기의 스크린샷.](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_09.png)
 
-원본 데이터 세트에 ‘?’로 설정된 알 수 없는 값이 있습니다.  이러한 값을 정리하도록 ‘?’를 ‘0’으로 바꿔 나중에 오류가 발생하는 것을 간단하게 방지할 수 있습니다.  이 작업을 수행하려면 열 머리글에서 해당 이름을 클릭하여 *normalized-losses* , *bore* , *stroke* , *compression-ratio* , *horsepower* , *peak-rpm* 및 *price* 열을 선택하고, '열 변환'을 클릭하고, '값 바꾸기'를 선택합니다.  ‘?’를 ‘0’으로 바꿉니다.
+원본 데이터 세트에 ‘?’로 설정된 알 수 없는 값이 있습니다.  이러한 값을 정리하도록 ‘?’를 ‘0’으로 바꿔 나중에 오류가 발생하는 것을 간단하게 방지할 수 있습니다.  이 작업을 수행하려면 열 머리글에서 해당 이름을 클릭하여 *normalized-losses*, *bore*, *stroke*, *compression-ratio*, *horsepower*, *peak-rpm* 및 *price* 열을 선택하고, '열 변환'을 클릭하고, '값 바꾸기'를 선택합니다.  ‘?’를 ‘0’으로 바꿉니다.
 
 ![값 바꾸기](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_10.png)
 
 텍스트/CSV 원본의 테이블에 있는 모든 열은 텍스트 열로 처리됩니다.  그런 다음, 숫자 열을 올바른 데이터 형식으로 변경해야 합니다.  이 작업은 파워 쿼리에서 열 머리글의 데이터 형식 기호를 클릭하여 수행할 수 있습니다.  해당 열을 다음 형식으로 변경합니다.
 
-- **정수** : symboling, normalized-losses, curb-weight, engine-size, horsepower, peak-rpm, city-mpg, highway-mpg, price
-- **10진수** : wheel-base, length, width, height, bore, stroke, compression-ratio
+- **정수**: symboling, normalized-losses, curb-weight, engine-size, horsepower, peak-rpm, city-mpg, highway-mpg, price
+- **10진수**: wheel-base, length, width, height, bore, stroke, compression-ratio
 
 ![열 변경](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_11.png)
 

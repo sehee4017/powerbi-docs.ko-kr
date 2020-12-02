@@ -2,19 +2,19 @@
 title: Power BI의 새로 고침 요약
 description: Power BI에서 새로 고침 요약을 사용하는 방법을 알아봅니다.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 08/27/2020
-ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 469e2de86d18b9adeb4a7c8aeabeaae1db2a28de
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 285bc76ddb0a0afa571fba06096358c22781a121
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600454"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410784"
 ---
 # <a name="refresh-summaries-for-power-bi"></a>Power BI의 새로 고침 요약
 
@@ -32,7 +32,7 @@ Power BI 관리 포털에 있는 Power BI **새로 고침 요약** 페이지에�
 
 ## <a name="refresh-history"></a>새로 고침 기록
 
-새로 고침 요약 페이지에서 **기록**을 클릭하여 **기록** 보기를 선택할 수 있습니다.
+새로 고침 요약 페이지에서 **기록** 을 클릭하여 **기록** 보기를 선택할 수 있습니다.
 
 ![새로 고침 요약의 기록 보기](media/refresh-summaries/refresh-summaries-01a.jpg)
 
@@ -51,7 +51,7 @@ Power BI 관리 포털에 있는 Power BI **새로 고침 요약** 페이지에�
 
 ## <a name="refresh-schedule"></a>새로 고침 일정
 
-새로 고침 요약에서 **일정**을 클릭하여 **일정** 보기를 선택할 수 있습니다. 일정 보기에서는 주의 일정 정보를 30분 시간 슬롯으로 분할해서 표시합니다. 
+새로 고침 요약에서 **일정** 을 클릭하여 **일정** 보기를 선택할 수 있습니다. 일정 보기에서는 주의 일정 정보를 30분 시간 슬롯으로 분할해서 표시합니다. 
 
 ![스크린샷은 새로 고침 일정 페이지의 일정 탭을 자세히 보여 줍니다.](media/refresh-summaries/refresh-summaries-02a.jpg)
 
@@ -65,7 +65,7 @@ Power BI 관리 포털에 있는 Power BI **새로 고침 요약** 페이지에�
 
 시간 슬롯을 선택하고 관련 **세부 정보** 단추를 선택하여 예약된 새로 고침 시간에 영향을 주는 예약된 새로 고침 이벤트, 소유자 및 완료에 걸리는 시간을 확인할 수 있습니다.
 
-작동 방식을 알아보기 위해 예를 살펴보겠습니다. 일요일 오후 8시 30분 시간 슬롯을 선택하고 **세부 정보**를 클릭하면 다음과 같은 대화 상자가 표시됩니다.
+작동 방식을 알아보기 위해 예를 살펴보겠습니다. 일요일 오후 8시 30분 시간 슬롯을 선택하고 **세부 정보** 를 클릭하면 다음과 같은 대화 상자가 표시됩니다.
 
 ![스크린샷은 선택한 시간에 대한 새로 고침 세부 정보를 보여 줍니다.](media/refresh-summaries/refresh-summaries-04.jpg)
 

@@ -2,19 +2,19 @@
 title: Power BI에서 개인 게이트웨이 사용
 description: 개인이 온-프레미스 데이터 연결에 사용할 수 있는 Power BI용 온-프레미스 데이터 게이트웨이(개인 모드)에 대해 설명합니다.
 author: arthiriyer
+ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
 ms.date: 11/09/2020
-ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: ae41c393d6c2a7db869627eedea3dafe3b618a78
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.openlocfilehash: 8f69f81d988393e9be2682164933037b2904a396
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483653"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410255"
 ---
 # <a name="use-personal-gateways-in-power-bi"></a>Power BI에서 개인 게이트웨이 사용
 

@@ -1,20 +1,20 @@
 ---
 title: 작업 영역의 데이터 세트 소개
 description: 작업 영역에 대한 데이터 세트 공유 및 검색에 대해 알아봅니다. 조직 전체의 사용자는 자신의 작업 영역에서 데이터 세트를 기반으로 보고서를 빌드할 수 있습니다.
-author: maggiesMSFT
+author: paulinbar
+ms.author: painbar
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 04/30/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 23d520815c47c9ff9f1ec045ec67921141e8eb7a
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 0569bf40728f0c1300ded9c9656cca639105e981
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92681149"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410439"
 ---
 # <a name="intro-to-datasets-across-workspaces"></a>작업 영역의 데이터 세트 소개
 

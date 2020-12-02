@@ -2,20 +2,20 @@
 title: Azure SQL Database에 대해 예약된 새로 고침의 문제 해결
 description: 'Power BI에서 Azure SQL Database에 대해 예약된 새로 고침의 문제 해결 '
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: troubleshooting
 ms.date: 09/04/2019
-ms.author: davidi
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 6efc7b031b9eb5708fe55c5b4167af0428ff7c19
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: a9f69c8177766352d768d86903f15977ae0d8d1c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485717"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410738"
 ---
 # <a name="troubleshooting-scheduled-refresh-for-azure-sql-databases-in-power-bi"></a>Power BI에서 Azure SQL Database에 대해 예약된 새로 고침의 문제 해결 
 
@@ -27,9 +27,9 @@ Azure SQL 데이터베이스에 예약된 새로 고침을 설정하는 과정�
 
 1. 새로 고침을 구성 중인 Azure SQL 데이터베이스로 이동합니다.
 
-1. **개요** 블레이드의 맨 위에서 **서버 방화벽 설정**을 선택합니다.
+1. **개요** 블레이드의 맨 위에서 **서버 방화벽 설정** 을 선택합니다.
 
-1. **방화벽 설정** 블레이드에서 **Azure 서비스에 대한 액세스 허용**이 **켜기**로 설정되어 있는지 확인합니다.
+1. **방화벽 설정** 블레이드에서 **Azure 서비스에 대한 액세스 허용** 이 **켜기** 로 설정되어 있는지 확인합니다.
 
     ![Azure에서 허용된 서비스](media/service-admin-troubleshooting-scheduled-refresh-azure-sql-databases/azurerefresh.png)  
 

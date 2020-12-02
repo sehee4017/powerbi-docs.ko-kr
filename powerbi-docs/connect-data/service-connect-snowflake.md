@@ -1,20 +1,20 @@
 ---
 title: Power BI를 통해 Snowflake에 연결
 description: SSO 인증을 사용하여 Power BI용 Snowflake에 연결하는 방법을 알아봅니다.
-author: cpopell
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 06/26/2020
-ms.author: gepopell
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 950868252bb1002a31cb0868308d2337e03d03e9
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 75d4a4db1d21297fcdfd675ca4eaaf82e5e611f5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91375215"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410577"
 ---
 # <a name="connect-to-snowflake-in-power-bi-service"></a>Power BI 서비스에서 Snowflake에 연결
 
@@ -35,12 +35,12 @@ AAD 통합을 구성하고 필요에 따라 SSO를 사용하도록 설정하려�
 SSO를 사용하도록 설정하려면 전역 관리자가 Power BI 관리 포털에서 이 설정을 켜야 합니다. 이 설정은 전체 조직에 대해 인증을 위해 Snowflake로 AAD 자격 증명을 보내는 것을 승인합니다. SSO를 사용하도록 설정하려면 다음 단계를 따르세요.
 
 1. 전역 관리자 자격 증명을 사용하여 [Power BI에 로그인](https://app.powerbi.com)합니다.
-1. 페이지 머리글 메뉴에서 **설정**을 선택한 다음 **관리 포털**을 선택합니다.
-1. **테넌트 설정**을 선택한 다음 스크롤하여 **통합 설정**를 찾습니다.
+1. 페이지 머리글 메뉴에서 **설정** 을 선택한 다음 **관리 포털** 을 선택합니다.
+1. **테넌트 설정** 을 선택한 다음 스크롤하여 **통합 설정** 를 찾습니다.
 
    ![Snowflake SSO에 대한 테넌트 설정](media/service-connect-snowflake/snowflake-sso-tenant.png)
 
-4. **Snowflake SSO**를 확장하고 설정을 **사용**으로 전환한 다음 **적용**을 선택합니다.
+4. **Snowflake SSO** 를 확장하고 설정을 **사용** 으로 전환한 다음 **적용** 을 선택합니다.
 
 이 단계는 AAD 토큰을 Snowflake 서버에 전송하는 데 동의하는 데 필요합니다. 이 설정을 사용하도록 설정하면 적용되는 데 최대 1시간이 걸릴 수 있습니다.
 
@@ -66,9 +66,9 @@ Power BI의 작동 방식 때문에 SSO는 온-프레미스 데이터 게이트�
 데이터 세트에 대해 SSO를 설정하려면 다음 단계를 수행합니다.
 
 1. 데이터 세트 작성자 자격 증명을 사용하여 [Power BI에 로그인](https://app.powerbi.com)합니다.
-1. 해당 작업 영역을 선택하고 데이터 세트 이름 옆에 있는 추가 옵션 메뉴에서 **설정**를 선택합니다.
+1. 해당 작업 영역을 선택하고 데이터 세트 이름 옆에 있는 추가 옵션 메뉴에서 **설정** 를 선택합니다.
   ![마우스로 가리키면 표시되는 기타 옵션 메뉴](media/service-connect-snowflake/dataset-settings-2.png)
-1. **데이터 원본 자격 증명**을 선택하고 로그인합니다. 데이터 세트는 기본 또는 OAuth2(AAD) 자격 증명을 사용하여 Snowflake에 로그인 할 수 있습니다. AAD를 사용하는 경우 다음 단계에서 SSO를 사용하도록 설정할 수 있습니다.
+1. **데이터 원본 자격 증명** 을 선택하고 로그인합니다. 데이터 세트는 기본 또는 OAuth2(AAD) 자격 증명을 사용하여 Snowflake에 로그인 할 수 있습니다. AAD를 사용하는 경우 다음 단계에서 SSO를 사용하도록 설정할 수 있습니다.
 1. **최종 사용자가 DirectQuery를 통해 이 데이터 원본에 액세스할 때 자신의 OAuth2 자격 증명을 사용합니다.** 옵션을 선택합니다. 이 설정은 AAD SSO를 사용하도록 설정합니다. 최초 사용자가 기본 인증 또는 OAuth2(AAD)를 사용하여 로그인하는지 여부와 관계없이 AAD 자격 증명이 SSO를 위해 전송됩니다.
 
     ![Snowflake SSO의 데이터 세트 설정](media/service-connect-snowflake/snowflake-sso-cred-ui.png)

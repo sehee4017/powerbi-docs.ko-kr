@@ -2,18 +2,18 @@
 title: 코로나바이러스감염증-19 미국 추적 보고서에 연결
 description: 코로나바이러스감염증-19 미국 케이스 템플릿 앱을 가져와서 설치하고 데이터에 연결하는 방법
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 04/05/2020
-ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 01dab6cad6142b455a0d61a0011e43cea6da23e1
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: 19dc9f5c5adfa5853d98cd6b0ef427c8bccebada
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349527"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410623"
 ---
 # <a name="connect-to-the-covid-19-us-tracking-report"></a>코로나바이러스감염증-19 미국 추적 보고서에 연결
 이 문서에서는 코로나바이러스감염증-19 추적 보고서의 템플릿 앱을 설치하고 데이터 원본에 연결하는 방법을 설명합니다.

@@ -2,19 +2,19 @@
 title: Power BI 및 Azure 송신
 description: Azure 송신 요금과 테넌트 위치 기반 Power BI 및 Power BI Premium 이해
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Data from databases
-ms.openlocfilehash: c93299a2066dd2f15843048742e857495db7242a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8fec8f4fa7a78a69693d4a200baa14e905cee943
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230603"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410692"
 ---
 # <a name="power-bi-and-azure-egress"></a>Power BI 및 Azure 송신
 

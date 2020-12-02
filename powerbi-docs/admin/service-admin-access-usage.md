@@ -2,19 +2,19 @@
 title: 로그인한 Power BI 사용자 찾기
 description: 관리자로서 Power BI에 로그인했던 사람이 누구인지 알고자 하는 경우 Azure Active Directory 액세스 및 사용 보고서를 사용할 수 있습니다.
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 09/25/2020
-ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: e278918fdcf19a8de5cd5af1995bbc050dd765ec
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 84d4b0ab295f003c34937084bd93dd6f27992c31
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374748"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96409289"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>로그인한 Power BI 사용자 찾기
 
@@ -31,15 +31,15 @@ ms.locfileid: "91374748"
 
 로그인 활동을 보려면 다음 단계를 수행합니다.
 
-1. [Azure Active Directory 관리 센터](https://aad.portal.azure.com)에 로그인한 다음, 포털 메뉴에서 **Azure Active Directory**를 선택합니다.
+1. [Azure Active Directory 관리 센터](https://aad.portal.azure.com)에 로그인한 다음, 포털 메뉴에서 **Azure Active Directory** 를 선택합니다.
 
-1. 리소스 메뉴에서 **모니터링** > **로그인**을 선택합니다.
+1. 리소스 메뉴에서 **모니터링** > **로그인** 을 선택합니다.
    
     ![로그인 옵션이 강조 표시된 Azure Active Directory 관리 센터의 스크린샷.](media/service-admin-access-usage/azure-portal-sign-ins.png)
 
-1. 기본적으로 모든 사용자 및 모든 애플리케이션에 대해 지난 24시간 동안의 모든 로그인이 표시됩니다. 다른 기간을 선택하려면 작업 창에서 **날짜**를 선택하고 사용 가능한 시간 간격 중에서 선택합니다. 지난 7일 동안의 정보만 사용할 수 있습니다. Power BI에 대한 로그인만 보려면 필터를 추가합니다. 필터링 기준으로 사용할 필드로 **필터 추가** > **애플리케이션**을 선택하고 **적용**을 선택합니다. 작업 창 상단에서 **애플리케이션 시작**을 선택하고 앱 이름을 입력합니다. **적용**을 선택합니다.
+1. 기본적으로 모든 사용자 및 모든 애플리케이션에 대해 지난 24시간 동안의 모든 로그인이 표시됩니다. 다른 기간을 선택하려면 작업 창에서 **날짜** 를 선택하고 사용 가능한 시간 간격 중에서 선택합니다. 지난 7일 동안의 정보만 사용할 수 있습니다. Power BI에 대한 로그인만 보려면 필터를 추가합니다. 필터링 기준으로 사용할 필드로 **필터 추가** > **애플리케이션** 을 선택하고 **적용** 을 선택합니다. 작업 창 상단에서 **애플리케이션 시작** 을 선택하고 앱 이름을 입력합니다. **적용** 을 선택합니다.
 
-    **Microsoft Power BI**는 서비스와 관련된 로그인 활동을 필터링합니다. **Power BI 게이트웨이**는 온-프레미스 데이터 게이트웨이에 특정한 로그인 활동을 필터링합니다.
+    **Microsoft Power BI** 는 서비스와 관련된 로그인 활동을 필터링합니다. **Power BI 게이트웨이** 는 온-프레미스 데이터 게이트웨이에 특정한 로그인 활동을 필터링합니다.
    
     ![애플리케이션 필드가 강조 표시된 로그인 필터의 스크린샷.](media/service-admin-access-usage/sign-in-filter.png)
 
@@ -47,13 +47,13 @@ ms.locfileid: "91374748"
 
 CSV 파일 또는 JSON 파일의 두 가지 형식 중 하나로 [로그인 보고서를 다운로드](/azure/active-directory/reports-monitoring/quickstart-download-sign-in-report)할 수 있습니다.
 
-1. **로그인** 보고서의 명령 모음에서 **다운로드**를 선택한 후, 다음 옵션 중 하나를 선택합니다.
+1. **로그인** 보고서의 명령 모음에서 **다운로드** 를 선택한 후, 다음 옵션 중 하나를 선택합니다.
 
    * **CSV** - 현재 필터링된 데이터의 CSV 파일을 다운로드합니다.
 
    * **JSON** - 현재 필터링된 데이터의 JSON 파일을 다운로드합니다.
 
-2. 파일 이름을 입력한 다음, **다운로드**를 선택합니다.
+2. 파일 이름을 입력한 다음, **다운로드** 를 선택합니다.
 
 ![다운로드 옵션이 강조 표시된 데이터 내보내기의 스크린샷.](media/service-admin-access-usage/download-sign-in-data-csv.png)
 

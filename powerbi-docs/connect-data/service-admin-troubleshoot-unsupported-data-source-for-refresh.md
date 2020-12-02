@@ -2,20 +2,20 @@
 title: 새로 고침을 지원하지 않는 데이터 소스 문제 해결
 description: 새로 고침을 지원하지 않는 데이터 소스 문제 해결
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: troubleshooting
 ms.date: 05/08/2020
-ms.author: davidi
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 49af2febbecb5061c4acb9ee20c3b707e3b81dff
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 4ab84a4f40acff894416fe2e5b33788c413ad4f5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634898"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410761"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>새로 고침을 지원하지 않는 데이터 소스 문제 해결
 예약된 새로 고침에 대해 데이터 세트를 구성할 때 오류가 발생할 수 있습니다.
@@ -31,9 +31,9 @@ You cannot schedule refresh for this dataset because it gets data from sources t
 
 1. Power BI Desktop에서 **보고서** 창에 있는지 확인합니다.  
    ![데스크톱 보고서 창](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-report-pane.png)
-2. 리본 메뉴에서 **쿼리 편집**을 선택합니다.  
+2. 리본 메뉴에서 **쿼리 편집** 을 선택합니다.  
    ![쿼리 편집](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-edit-queries.png)
-3. **고급 편집기**를 선택합니다.  
+3. **고급 편집기** 를 선택합니다.  
    ![고급 편집기](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-advanced-editor.png)
 4. 원본에 대해 나열된 공급자를 메모해 둡니다.  이 예제에서는 공급자가 ActiveDirectory입니다.  
    ![데이터 원본 공급자](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-provider.png)

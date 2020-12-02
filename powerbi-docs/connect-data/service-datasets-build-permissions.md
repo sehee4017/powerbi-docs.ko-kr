@@ -1,20 +1,20 @@
 ---
 title: 공유 데이터 세트에 대한 권한 빌드
 description: 빌드 권한을 사용하여 데이터에 대한 액세스를 제어하는 방법에 대해 알아봅니다.
-author: maggiesMSFT
+author: paulinbar
+ms.author: painbar
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 10/21/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 343351fd762a074de010bc307c0138773e265226
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: 914477d8b4bed0b6f90f700afcbfdfbfc263bb1d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462421"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410462"
 ---
 # <a name="build-permission-for-shared-datasets"></a>공유 데이터 세트에 대한 권한 빌드
 
@@ -34,7 +34,7 @@ Power BI Desktop에서 보고서를 만드는 경우 해당 보고서의 데이�
 
 - 참가자 역할 이상이 지정된 작업 영역의 구성원은 해당 작업 영역에서 데이터 세트 빌드 권한과 보고서 복사 권한이 자동으로 부여됩니다. [새 작업 영역의 역할](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces)에 대해 자세히 알아보세요.
  
-- 데이터 세트가 있는 작업 영역의 멤버는 권한 센터의 특정 사용자 또는 보안 그룹에 권한을 할당할 수 있습니다. 작업 영역의 구성원인 경우 데이터 세트 옆에 있는 **추가 옵션** (...)을 선택한 다음 > **사용 권한 관리** 를 선택합니다.
+- 데이터 세트가 있는 작업 영역의 멤버는 권한 센터의 특정 사용자 또는 보안 그룹에 권한을 할당할 수 있습니다. 작업 영역의 구성원인 경우 데이터 세트 옆에 있는 **추가 옵션**(...)을 선택한 다음 > **사용 권한 관리** 를 선택합니다.
 
     ![줄임표 선택](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
@@ -55,11 +55,11 @@ Power BI Desktop에서 보고서를 만드는 경우 해당 보고서의 데이�
 특정 시점에 공유 데이터 세트의 일부 사용자에 대한 빌드 권한을 제거해야 할 수 있습니다. 
 
 1. 작업 영역에서 **데이터 세트** 목록 페이지로 이동합니다. 
-1. 데이터 세트 옆에 있는 **추가 옵션** (...)을 선택한 다음 > **권한 관리** 를 선택합니다.
+1. 데이터 세트 옆에 있는 **추가 옵션**(...)을 선택한 다음 > **권한 관리** 를 선택합니다.
 
     ![권한 관리](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
-1. 이름 옆에 있는 **추가 옵션** (...)을 선택한 다음 > **빌드 제거** 를 선택합니다.
+1. 이름 옆에 있는 **추가 옵션**(...)을 선택한 다음 > **빌드 제거** 를 선택합니다.
 
     ![빌드 권한 제거](media/service-datasets-build-permissions/power-bi-dataset-remove-build-permissions.png)
 
@@ -85,11 +85,11 @@ Power BI Desktop에서 보고서를 만드는 경우 해당 보고서의 데이�
 1. **업데이트** 를 선택합니다.
 
 1. 작업 영역에서 **데이터 세트** 목록 페이지로 이동합니다. 
-1. 데이터 세트 옆에 있는 **추가 옵션** (...)을 선택한 다음 > **권한 관리** 를 선택합니다.
+1. 데이터 세트 옆에 있는 **추가 옵션**(...)을 선택한 다음 > **권한 관리** 를 선택합니다.
 
     ![권한 관리](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
-1. 이름 옆에 있는 **추가 옵션** (...)을 선택한 다음 > **빌드 제거** 를 선택합니다.
+1. 이름 옆에 있는 **추가 옵션**(...)을 선택한 다음 > **빌드 제거** 를 선택합니다.
 
     ![빌드 권한 제거](media/service-datasets-build-permissions/power-bi-dataset-remove-build-permissions.png)
 
