@@ -1,19 +1,19 @@
 ---
 title: Power BI에 대한 지침
 description: 지침 설명서에서는 Power BI를 사용할 때 권장되는 방법을 제공합니다.
-author: guyinacube
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 09/27/2019
-ms.author: asaxton
-ms.openlocfilehash: a501e1b379958836e339628e904b36125c9b9ce3
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 20144222b1c2f05b48d018e352985b80ba1fa06e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94395624"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419340"
 ---
 # <a name="guidance-for-power-bi"></a>Power BI에 대한 지침
 

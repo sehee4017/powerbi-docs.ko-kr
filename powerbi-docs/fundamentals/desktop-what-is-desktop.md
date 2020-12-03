@@ -2,23 +2,23 @@
 title: Power BI Desktop이란?
 description: Power BI Desktop 및 사용을 시작하는 방법에 대해 알아봅니다.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-fundamentals
 ms.topic: overview
 ms.date: 07/23/2020
-ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 09e51c46a11c41008f77d3a7597807b35b57d297
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 5a71999cc5358c1849a534ff2b3eb9d689791ceb
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860788"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419547"
 ---
 # <a name="what-is-power-bi-desktop"></a>Power BI Desktop이란?
 
-*Power BI Desktop*은 데이터를 연결, 변환 및 시각화할 수 있도록 로컬 컴퓨터에 설치하는 무료 애플리케이션입니다. Power BI Desktop을 사용하면 여러 다양한 데이터 원본에 연결하고 데이터 모델로 결합(‘모델링’이라고도 함)할 수 있습니다. 이러한 데이터 모델을 통해 시각적 개체 및 시각적 개체 컬렉션을 작성하여 조직 내 다른 사용자와 보고서로 공유할 수 있습니다. 비즈니스 인텔리전스 프로젝트에서 작업하는 대부분의 사용자는 Power BI Desktop을 사용하여 보고서를 만든 후 ‘Power BI 서비스’를 사용하여 다른 사용자와 해당 보고서를 공유합니다.
+*Power BI Desktop* 은 데이터를 연결, 변환 및 시각화할 수 있도록 로컬 컴퓨터에 설치하는 무료 애플리케이션입니다. Power BI Desktop을 사용하면 여러 다양한 데이터 원본에 연결하고 데이터 모델로 결합(‘모델링’이라고도 함)할 수 있습니다. 이러한 데이터 모델을 통해 시각적 개체 및 시각적 개체 컬렉션을 작성하여 조직 내 다른 사용자와 보고서로 공유할 수 있습니다. 비즈니스 인텔리전스 프로젝트에서 작업하는 대부분의 사용자는 Power BI Desktop을 사용하여 보고서를 만든 후 ‘Power BI 서비스’를 사용하여 다른 사용자와 해당 보고서를 공유합니다.
 
 ![샘플 데이터를 보여 주는 Power BI Desktop의 스크린샷.](media/desktop-what-is-desktop/what-is-desktop_01.png)
 
@@ -52,7 +52,7 @@ Power BI Desktop을 시작하는 첫 번째 단계는 데이터에 연결하는 
 
 데이터에 연결하려면 다음을 수행합니다.
 
-1. **홈** 리본에서 **데이터 가져오기** > **더 보기**를 선택합니다. 
+1. **홈** 리본에서 **데이터 가져오기** > **더 보기** 를 선택합니다. 
 
    **데이터 가져오기** 창이 표시되고, Power BI Desktop이 연결할 수 있는 여러 범주를 보여 줍니다.
 
@@ -70,7 +70,7 @@ Power BI Desktop에서는 기본 제공 [Power Query 편집기](../transform-mod
 
 Power Query 편집기를 시작하려면 다음을 수행합니다.
 
-- **홈** 리본에서 **쿼리 편집** > **쿼리 편집**을 선택합니다.
+- **홈** 리본에서 **쿼리 편집** > **쿼리 편집** 을 선택합니다.
 
    **Power Query 편집기** 창이 표시됩니다.
 
@@ -107,7 +107,7 @@ Power BI Desktop에서 모델을 만드는 데 사용한 데이터의 다양한 
 
 Power BI Desktop을 통해 여러 원본의 데이터를 사용하여 조직의 다른 사용자와 공유할 수 있는 통합 보고서인 복잡하고 시각적으로 풍부한 보고서를 만들 수 있습니다.
 
-다음 이미지에는, 이미지 아래쪽 탭에 표시된 대로, **개요**라는 Power BI Desktop 보고서의 첫 번째 페이지가 표시되어 있습니다. 
+다음 이미지에는, 이미지 아래쪽 탭에 표시된 대로, **개요** 라는 Power BI Desktop 보고서의 첫 번째 페이지가 표시되어 있습니다. 
 
 ![개요 탭을 보여 주는 Power BI Desktop의 스크린샷.](media/desktop-what-is-desktop/what-is-desktop_01.png)
 
@@ -117,7 +117,7 @@ Power BI Desktop을 통해 여러 원본의 데이터를 사용하여 조직의 
 
 Power BI Desktop 보고서를 게시하려면 다음을 수행합니다. 
 
-1. **홈** 리본에서 **게시**를 선택합니다.
+1. **홈** 리본에서 **게시** 를 선택합니다.
 
    ![게시 단추를 보여 주는 Power BI Desktop의 스크린샷.](media/desktop-what-is-desktop/what-is-desktop_06.png)
 

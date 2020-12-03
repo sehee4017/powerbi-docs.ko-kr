@@ -2,19 +2,19 @@
 title: Power BI Desktop에 대한 이전 월별 업데이트
 description: Power BI Desktop의 이전 릴리스에서 기능 업데이트
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 11/11/2020
-ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 216fd30142f76758cbcb9ed2b329f3bbefb7156f
-ms.sourcegitcommit: 029aacd09061a8aa45b57f05d0dc95c93dd16a74
+ms.openlocfilehash: c6bdb2c2de06e82c844e454fa1981619ad65bd33
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "94560083"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419524"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop으로 이전 월별 업데이트
 

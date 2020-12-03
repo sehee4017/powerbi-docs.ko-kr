@@ -2,23 +2,23 @@
 title: Power BI Desktop 웃는 얼굴 보내기 개인정보취급방침
 description: Power BI Desktop 웃는 얼굴 보내기 개인정보취급방침
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 39fa082133b519feab004f475110a3a701ff085c
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 1de4dfc17ea2d9b5e84adf8a77fd1faf7d372dd7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83361546"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419478"
 ---
 # <a name="power-bi-desktop-send-a-smile-privacy-statement"></a>Power BI Desktop 웃는 얼굴 보내기 개인정보취급방침
 
-**Power BI Desktop**의 2018년 3월 버전부터 오류 보고는 *웃는 얼굴 보내기* 또는 *찡그린 얼굴 보내기* 기능 대신 Windows 오류 보고 플랫폼을 사용합니다. [Windows 개인 블로그](https://blogs.windows.com/windowsexperience/2018/01/24/microsoft-introduces-new-privacy-tools-ahead-of-data-privacy-day/)에서 Windows 오류 보고 플랫폼에 대한 자세한 정보를 얻을 수 있습니다. 
+**Power BI Desktop** 의 2018년 3월 버전부터 오류 보고는 *웃는 얼굴 보내기* 또는 *찡그린 얼굴 보내기* 기능 대신 Windows 오류 보고 플랫폼을 사용합니다. [Windows 개인 블로그](https://blogs.windows.com/windowsexperience/2018/01/24/microsoft-introduces-new-privacy-tools-ahead-of-data-privacy-day/)에서 Windows 오류 보고 플랫폼에 대한 자세한 정보를 얻을 수 있습니다. 
 
 ## <a name="for-versions-of-power-bi-desktop-prior-to-march-2018"></a>2018년 3월 이전의 Power BI Desktop 버전
 

@@ -2,18 +2,18 @@
 title: Power BI 마이그레이션 개요
 description: 또 다른 타사 BI 도구에서 Power BI로 마이그레이션을 계획하고 수행하는 방법을 알아봅니다.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.author: v-pemyer
-ms.openlocfilehash: aa17e6293a4bd946b1d6b7acad45623fa2393c57
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 8f8e58f61d2baa66cd0baf351857656588cfbe9f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803521"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419248"
 ---
 # <a name="power-bi-migration-overview"></a>Power BI 마이그레이션 개요
 
@@ -44,7 +44,7 @@ Power BI 마이그레이션 시리즈의 문서는 다음과 같습니다.
 |![4단계.](media/common/icon-04-red-30x30.png)|**Power BI를 채택, 관리, 모니터링합니다.** 마지막 단계는 데이터 문화 조성, 통신, 교육과 같은 지속적인 활동으로 구성됩니다. 해당 활동은 효과적인 Power BI 구현에 크게 영향을 줍니다. 조직에 적합한 거버넌스 및 보안 정책과 프로세스뿐만 아니라 스케일링, 확장 및 지속적인 개선을 위한 감사 및 모니터링이 있어야 합니다.|
 
 > [!IMPORTANT]
-> 공식적인 Power BI로 마이그레이션은 거의 항상 새로운 Power BI 솔루션 개발과 병렬로 수행됩니다. _Power BI 솔루션_은 데이터 및 보고서 사용을 둘 다 포함하는 일반적인 용어입니다. 단일 Power BI Desktop(.pbix) 파일에는 데이터 모델 또는 보고서가 포함되거나 둘 다 포함될 수 있습니다. 데이터를 다시 사용할 수 있도록 [보고서에서 데이터 모델을 분리](../guidance/report-separate-from-model.md)하는 것이 좋지만 필수는 아닙니다.
+> 공식적인 Power BI로 마이그레이션은 거의 항상 새로운 Power BI 솔루션 개발과 병렬로 수행됩니다. _Power BI 솔루션_ 은 데이터 및 보고서 사용을 둘 다 포함하는 일반적인 용어입니다. 단일 Power BI Desktop(.pbix) 파일에는 데이터 모델 또는 보고서가 포함되거나 둘 다 포함될 수 있습니다. 데이터를 다시 사용할 수 있도록 [보고서에서 데이터 모델을 분리](../guidance/report-separate-from-model.md)하는 것이 좋지만 필수는 아닙니다.
 >
 > 공식적인 마이그레이션을 계획하고 수행하는 동안 새 요구 사항을 작성하는 데 Power BI를 사용하면 승인을 받는 데 도움이 됩니다. 동시 단계는 콘텐츠 작성자에게 Power BI를 통한 실용적인 실제 환경을 제공합니다.
 
@@ -94,9 +94,9 @@ Power BI 마이그레이션 시리즈의 문서는 다음과 같습니다.
 
 생산성이 높고 정상적인 데이터 문화를 사용하는 것은 대부분 조직의 주요 목표입니다. Power BI는 해당 목표를 용이하게 하는 뛰어난 도구입니다. Power BI로 마이그레이션을 고려할 수 있는 세 가지 일반적인 이유는 다음과 같이 정리할 수 있습니다.
 
-- 셀프 서비스 BI 사용자 커뮤니티의 역량을 강화하는 새로운 기능을 도입하여 **관리형 셀프 서비스 BI를 사용**할 수 있습니다. Power BI를 사용하면 더 광범위하게 사용 가능한 정보 및 의사 결정에 액세스할 수 있는 반면, 찾기가 어려울 수 있는 전문가 기술에 덜 의존할 수 있습니다.
-- 기존 BI 도구로 처리되지 않는 요구 사항을 충족하도록 **엔터프라이즈 BI 제공을 합리화**하는 반면, 복잡성 수준이 감소하고, 소유 비용이 감소하며, 현재 사용 중인 여러 BI 도구에서 표준화됩니다.
-- 더 적은 리소스, 시간 및 인력을 사용하여 생산성을 높이기 위해 **경제적 압력을 해결**합니다.
+- 셀프 서비스 BI 사용자 커뮤니티의 역량을 강화하는 새로운 기능을 도입하여 **관리형 셀프 서비스 BI를 사용** 할 수 있습니다. Power BI를 사용하면 더 광범위하게 사용 가능한 정보 및 의사 결정에 액세스할 수 있는 반면, 찾기가 어려울 수 있는 전문가 기술에 덜 의존할 수 있습니다.
+- 기존 BI 도구로 처리되지 않는 요구 사항을 충족하도록 **엔터프라이즈 BI 제공을 합리화** 하는 반면, 복잡성 수준이 감소하고, 소유 비용이 감소하며, 현재 사용 중인 여러 BI 도구에서 표준화됩니다.
+- 더 적은 리소스, 시간 및 인력을 사용하여 생산성을 높이기 위해 **경제적 압력을 해결** 합니다.
 
 ## <a name="achieve-power-bi-migration-success"></a>Power BI 마이그레이션 달성
 

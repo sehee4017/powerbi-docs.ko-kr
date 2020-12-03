@@ -2,18 +2,18 @@
 title: 파워 쿼리의 쿼리 참조
 description: 파워 쿼리의 쿼리를 참조하는 방법에 대한 지침입니다.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 11/30/2019
-ms.author: v-pemyer
-ms.openlocfilehash: 9e3ae90363ade08d7600a4ebbd032ef5778257e2
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: f7756c53799838182be9288f297c0d01a7c6cca3
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397004"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419294"
 ---
 # <a name="referencing-power-query-queries"></a>파워 쿼리의 쿼리 참조
 
@@ -21,11 +21,11 @@ ms.locfileid: "94397004"
 
 이것이 무슨 의미인지 자세히 알아보겠습니다. _쿼리가 두 번째 쿼리를 참조하는 경우 두 번째 쿼리의 단계가 첫 번째 쿼리의 단계와 결합되고 이보다 먼저 실행되는 것과 같습니다._
 
-몇 가지 쿼리를 살펴보겠습니다. **Query1** 은 웹 서비스의 데이터를 원본으로 사용하고 로드는 사용하지 않습니다. **Query2** , **Query3** , **Query4** 는 모두 **Query1** 을 참조하고 해당 출력은 데이터 모델에 로드됩니다.
+몇 가지 쿼리를 살펴보겠습니다. **Query1** 은 웹 서비스의 데이터를 원본으로 사용하고 로드는 사용하지 않습니다. **Query2**, **Query3**, **Query4** 는 모두 **Query1** 을 참조하고 해당 출력은 데이터 모델에 로드됩니다.
 
 ![이전 단락에서 설명한 쿼리를 표시하는 쿼리 종속성 보기를 보여 주는 다이어그램.](media/power-query-referenced-queries/query-dependencies-web-service.png)
 
-데이터 모델을 새로 고칠 때 파워 쿼리가 **Query1** 결과를 검색하고 참조된 쿼리에서 다시 사용하는 것으로 가정하는 경우가 많습니다. 이는 잘못된 생각입니다. 실제로 파워 쿼리는 **Query2** , **Query3** , **Query4** 를 별도로 실행합니다.
+데이터 모델을 새로 고칠 때 파워 쿼리가 **Query1** 결과를 검색하고 참조된 쿼리에서 다시 사용하는 것으로 가정하는 경우가 많습니다. 이는 잘못된 생각입니다. 실제로 파워 쿼리는 **Query2**, **Query3**, **Query4** 를 별도로 실행합니다.
 
 **Query2** 에 **Query1** 단계가 포함되어 있다고 생각할 수 있습니다. **Query3** 과 **Query4** 도 마찬가지입니다. 다음 다이어그램에서는 쿼리가 실행되는 방식을 보다 명확하게 보여 줍니다.
 
@@ -46,7 +46,7 @@ ms.locfileid: "94397004"
 
 원본 데이터와 변환을 캡슐화하도록 데이터 흐름을 디자인할 수 있습니다. 데이터 흐름은 Power BI 서비스의 지속형 데이터 저장소이므로 데이터 검색 속도가 빠릅니다. 따라서 참조 쿼리가 데이터 흐름에 여러 번 요청하는 경우에도 데이터 새로 고침 시간이 향상될 수 있습니다.
 
-예제에서 **Query1** 을 데이터 흐름 엔터티로 새로 디자인하는 경우 **Query2** , **Query3** , **Query4** 가 이를 데이터 원본으로 사용할 수 있습니다. 이 디자인에서는 **Query1** 에서 검색된 엔터티가 한 번만 평가됩니다.
+예제에서 **Query1** 을 데이터 흐름 엔터티로 새로 디자인하는 경우 **Query2**, **Query3**, **Query4** 가 이를 데이터 원본으로 사용할 수 있습니다. 이 디자인에서는 **Query1** 에서 검색된 엔터티가 한 번만 평가됩니다.
 
 ## <a name="next-steps"></a>다음 단계
 

@@ -2,18 +2,18 @@
 title: 양방향 관계 지침
 description: 양방향 필터링 모델 관계를 개발하기 위한 지침입니다.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.author: v-pemyer
-ms.openlocfilehash: e9c25089c5141f16cc3f993039dc69bece9231f1
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: b9d1f71b474070c4ad035945b458b5f010f1f6e6
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668623"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419202"
 ---
 # <a name="bi-directional-relationship-guidance"></a>양방향 관계 지침
 
@@ -42,7 +42,7 @@ ms.locfileid: "91668623"
 
 ![테이블 세 개가 포함된 모델을 보여 주는 다이어그램. 디자인은 다음 단락에서 설명합니다.](media/relationships-bidirectional-filtering/sales-model-diagram.png)
 
-첫 번째 테이블의 이름은 **Customer**이고 **Country-Region**, **Customer**, **CustomerCode**라는 3개의 열이 있습니다. 두 번째 테이블의 이름은 **Product**이고 **Color**, **Product**, **SKU**라는 3개의 열이 있습니다. 세 번째 테이블의 이름은 **Sales**이고 **CustomerCode**, **OrderDate**, **Quantity**, **SKU**라는 4개의 열이 있습니다. **Customer** 및 **Product** 테이블은 차원 유형 테이블이며 각 테이블에는 **Sales** 테이블과 일 대 다 관계가 있습니다. 각 관계는 단일 방향으로 필터링됩니다.
+첫 번째 테이블의 이름은 **Customer** 이고 **Country-Region**, **Customer**, **CustomerCode** 라는 3개의 열이 있습니다. 두 번째 테이블의 이름은 **Product** 이고 **Color**, **Product**, **SKU** 라는 3개의 열이 있습니다. 세 번째 테이블의 이름은 **Sales** 이고 **CustomerCode**, **OrderDate**, **Quantity**, **SKU** 라는 4개의 열이 있습니다. **Customer** 및 **Product** 테이블은 차원 유형 테이블이며 각 테이블에는 **Sales** 테이블과 일 대 다 관계가 있습니다. 각 관계는 단일 방향으로 필터링됩니다.
 
 양방향 필터링이 작동하는 방식을 설명하기 위해 모델 다이어그램이 테이블 행을 표시하도록 수정되었습니다. 이 문서의 모든 예제는 이 데이터를 기반으로 합니다.
 
@@ -69,9 +69,9 @@ ms.locfileid: "91668623"
 
 ![시각적 개체 세 개가 포함된 보고서 페이지를 보여 주는 다이어그램. 세부 정보는 다음 단락에서 설명합니다.](media/relationships-bidirectional-filtering/sales-report-no-bi-directional-filter.png)
 
-페이지는 두 개의 슬라이서와 하나의 카드 시각적 개체로 구성되어 있습니다. 첫 번째 슬라이서는 **Country-Region**용이며 다음 2개의 항목이 있습니다. Australia 및 United States. 현재 오스트레일리아를 기준으로 조각화되어 있습니다. 두 번째 슬라이서는 **Product**용이며 다음 3개의 항목이 있습니다. Hat, Jeans 및 T-shirt. 항목은 선택되지 않았습니다(필터링된 _제품이 없음_을 의미). 카드 시각적 개체는 수량 30을 표시합니다.
+페이지는 두 개의 슬라이서와 하나의 카드 시각적 개체로 구성되어 있습니다. 첫 번째 슬라이서는 **Country-Region** 용이며 다음 2개의 항목이 있습니다. Australia 및 United States. 현재 오스트레일리아를 기준으로 조각화되어 있습니다. 두 번째 슬라이서는 **Product** 용이며 다음 3개의 항목이 있습니다. Hat, Jeans 및 T-shirt. 항목은 선택되지 않았습니다(필터링된 _제품이 없음_ 을 의미). 카드 시각적 개체는 수량 30을 표시합니다.
 
-보고서 사용자가 오스트레일리아를 기준으로 조각화되는 경우 **Product** 슬라이서를 데이터가 오스트레일리아 판매량에 _연결_되는 항목을 표시하도록 제한해야 할 수 있습니다. 이는 "데이터 포함" 슬라이서 항목을 표시할 때와 같은 의미입니다. **Product** 테이블과 **Sales** 테이블 간의 관계를 구성하여 양방향으로 필터링하는 방법으로 이 동작을 수행할 수 있습니다.
+보고서 사용자가 오스트레일리아를 기준으로 조각화되는 경우 **Product** 슬라이서를 데이터가 오스트레일리아 판매량에 _연결_ 되는 항목을 표시하도록 제한해야 할 수 있습니다. 이는 "데이터 포함" 슬라이서 항목을 표시할 때와 같은 의미입니다. **Product** 테이블과 **Sales** 테이블 간의 관계를 구성하여 양방향으로 필터링하는 방법으로 이 동작을 수행할 수 있습니다.
 
 ![Product 테이블과 Sales 테이블 간 관계가 양방향인 모델을 보여 주는 다이어그램.](media/relationships-bidirectional-filtering/sales-model-diagram-rows-bi-directional-filter.png)
 
@@ -110,7 +110,7 @@ Total Quantity = SUM(Sales[Quantity])
 
 그러나 이 문서에 설명된 대로 이 디자인은 성능에 부정적인 영향을 미칠 수 있으며, 사용자가 ["데이터 포함" 슬라이서 항목](#slicer-items-with-data)과 관련된 결과를 경험할 수 있습니다. 따라서 [CROSSFILTER](/dax/crossfilter-function) DAX 함수를 대신 사용하여 _측정값 정의에서_ 양방향 필터링을 활성화하는 것이 좋습니다. CROSSFILTER 함수는 식을 계산하는 동안 필터 방향을 수정하거나 심지어 관계를 사용하지 않도록 설정하는 데 사용할 수 있습니다.
 
-**Sales** 테이블에 추가된 다음 측정값 정의를 살펴보세요. 이 예제에서는 **Customer** 테이블과 **Sales** 테이블 간의 모델 관계가 _단일 방향_으로 필터링하도록 구성되었습니다.
+**Sales** 테이블에 추가된 다음 측정값 정의를 살펴보세요. 이 예제에서는 **Customer** 테이블과 **Sales** 테이블 간의 모델 관계가 _단일 방향_ 으로 필터링하도록 구성되었습니다.
 
 ```dax
 Different Countries Sold =

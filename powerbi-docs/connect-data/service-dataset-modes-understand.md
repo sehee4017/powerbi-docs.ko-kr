@@ -1,20 +1,20 @@
 ---
 title: Power BI 서비스의 데이터 세트 모드
 description: 'Power BI 데이터 세트 모드 이해: 가져오기, DirectQuery 및 복합입니다.'
-author: peter-myers
+author: davidiseminger
+ms.author: davidi
 manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: conceptual
-ms.date: 11/09/2019
-ms.author: v-pemyer
-ms.openlocfilehash: 4ec73f3dd09d1c83b07d1419256cd627a71ae2d4
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.date: 12/01/2020
+ms.openlocfilehash: 5b4c32296c7121fa3d161461af7e86caba617ee1
+ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83332846"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96501952"
 ---
 # <a name="dataset-modes-in-the-power-bi-service"></a>Power BI 서비스의 데이터 세트 모드
 
@@ -102,8 +102,6 @@ _복합_ 모드에서는 가져오기 모드와 DirectQuery 모드를 혼합하�
 복합 모델을 개발하는 데이터 모델러는 가져오기 또는 이중 스토리지 모드에서 차원 유형 테이블을 구성하고 DirectQuery 모드에서 팩트 유형 테이블을 구성할 수 있습니다. 모델 테이블 역할에 대한 자세한 내용은 [Power BI의 별모양 스키마 및 중요도 이해](../guidance/star-schema.md)를 참조하세요.
 
 예를 들어 이중 모드의 **제품** 차원 유형 테이블 및 DirectQuery 모드의 **판매** 팩트 유형 테이블을 포함하는 모델이 있다고 가정해 보겠습니다. **제품** 테이블을 메모리 내에서 효율적이고 신속하게 쿼리하여 보고서 슬라이서를 렌더링할 수 있습니다. **판매** 테이블은 관련 **제품** 테이블을 사용하여 DirectQuery 모드에서 쿼리할 수도 있습니다. 후자의 쿼리를 사용하면 **제품** 테이블과 **판매** 테이블을 조인하는 효율적인 단일 기본 SQL 쿼리를 생성하고 슬라이서 값을 기준으로 필터링할 수 있습니다.
-
-일반적으로 복합 모델의 경우 각 테이블이 구성된 방식에 따라 가져오기 및 DirectQuery와 관련된 장점과 단점이 있습니다.
 
 자세한 내용은 [Power BI Desktop에서 복합 모델 사용](../transform-model/desktop-composite-models.md)을 참조하세요.
 

@@ -74,6 +74,8 @@
               href: mobile-apps-scan-barcode-iphone.md
             - name: 상호 작용 설정 구성
               href: mobile-app-interaction-settings.md
+            - name: 어둡게 모드
+              href: mobile-apps-dark-mode.md
             - name: 모바일 디바이스 관리를 사용하여 구성
               href: mobile-app-configuration.md
         - name: iOS
@@ -86,8 +88,6 @@
               href: mobile-apps-iOS-siri-Shortcuts.md
             - name: iOS 디바이스 검색 통합
               href: mobile-apps-iOS-search-integration.md
-            - name: 어둡게 모드
-              href: mobile-apps-dark-mode.md
             - name: Power BI Apple Watch 앱
               href: mobile-apple-watch.md
         - name: Android 디바이스
