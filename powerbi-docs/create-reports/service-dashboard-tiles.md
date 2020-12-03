@@ -2,20 +2,20 @@
 title: Power BI 디자이너용 대시보드 타일 소개
 description: 이 문서에서는 SSRS(SQL Server Reporting Services) 보고서에서 만든 타일을 포함하여 Power BI의 대시보드 타일을 설명합니다.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 04/17/2020
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 84b3fafa3ae5e12a96b4e1117ee74baf94dba597
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 56f00568b22d236b498446065cf97ff565993e7a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861432"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418240"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Power BI 디자이너용 대시보드 타일 소개
 
@@ -79,7 +79,7 @@ Power BI의 구성 요소를 이해하는 데 도움이 필요한 경우 [Power 
 타일을 선택하는 경우 다음 작업은 타일을 만드는 방법에 따라 달라집니다. 그렇지 않은 경우 보고서, Excel Online 통합 문서, 온-프레미스 Reporting Services 보고서 또는 타일을 만드는 데 사용된 Q&A 질문으로 이동됩니다. 또는 [사용자 지정 링크](service-dashboard-edit-tile.md)가 있는 경우 타일을 선택하면 해당 링크로 이동합니다.
 
 > [!NOTE]
-> 단, **타일 추가**를 사용하여 대시보드에서 직접 만든 동영상 타일은 예외입니다. 이런 방식으로 만든 동영상 타일을 선택하면 동영상이 대시보드에서 바로 재생됩니다.   
+> 단, **타일 추가** 를 사용하여 대시보드에서 직접 만든 동영상 타일은 예외입니다. 이런 방식으로 만든 동영상 타일을 선택하면 동영상이 대시보드에서 바로 재생됩니다.   
 > 
 > 
 
@@ -87,7 +87,7 @@ Power BI의 구성 요소를 이해하는 데 도움이 필요한 경우 [Power 
 
 * 시각화를 만드는 데 사용된 보고서를 저장하지 않은 경우에는 타일을 선택해도 아무 작업도 수행되지 않습니다.
 * 타일이 Excel Online의 통합 문서에서 생성된 경우 최소한 해당 통합 문서에 대한 읽기 권한이 필요합니다. 그렇지 않은 경우 타일을 선택해도 Excel Online의 통합 문서가 열리지 않습니다.
-* **타일 추가**를 사용하여 대시보드에서 직접 타일을 만들고 사용자 지정 하이퍼링크를 설정한다고 가정해 보겠습니다. 이 경우 제목, 부제목 또는 타일을 선택하면 해당 URL이 열립니다. 그렇지 않고 이미지, 웹 코드 또는 텍스트 상자에 대해 대시보드에서 직접 만든 타일을 선택하면 기본적으로 아무 작업도 수행되지 않습니다.
+* **타일 추가** 를 사용하여 대시보드에서 직접 타일을 만들고 사용자 지정 하이퍼링크를 설정한다고 가정해 보겠습니다. 이 경우 제목, 부제목 또는 타일을 선택하면 해당 URL이 열립니다. 그렇지 않고 이미지, 웹 코드 또는 텍스트 상자에 대해 대시보드에서 직접 만든 타일을 선택하면 기본적으로 아무 작업도 수행되지 않습니다.
 * Power BI Report Server 또는 SQL Server Reporting Services의 온-프레미스 페이지를 매긴 보고서에서 타일을 만들 수 있습니다. 온-프레미스 보고서에 액세스할 수 있는 권한이 없는 경우 타일을 선택하면 액세스 권한이 없음을 나타내는 페이지로 이동합니다(rsAccessDenied).
 * Power BI Report Server 또는 SQL Server Reporting Services의 온-프레미스 페이지를 매긴 보고서에서 만든 타일을 선택한다고 가정합니다. 보고서 서버가 있는 네트워크에 액세스할 수 없는 경우, 해당 페이지를 매긴 보고서에서 만든 타일을 선택하면 서버를 찾을 수 없음을 나타내는 페이지로 이동합니다(HTTP 404). 보고서를 보려면 디바이스가 보고서 서버에 대한 네트워크 액세스 권한이 있어야 합니다.
 * 타일을 만드는 데 사용한 원래 시각화가 변경되어도 타일은 변경되지 않습니다. 예를 들어 보고서에서 꺾은선형 차트를 고정한 다음, 꺾은선형 차트를 막대형 차트로 변경하면 대시보드 타일에 꺾은선형 차트가 계속 표시됩니다. 데이터는 새로 고쳐지지만, 시각화 유형은 새로 고쳐지지 않습니다.

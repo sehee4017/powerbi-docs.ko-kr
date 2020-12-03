@@ -2,19 +2,19 @@
 title: Power BI Desktop 다운로드
 description: Power BI Desktop 다운로드 및 설치
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-fundamentals
 ms.topic: how-to
 ms.date: 10/12/2020
-ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: d53e7a3205d8e1915f8dd0969fe35d5c32d25cf5
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 9c46188318ca5659f109ba8483c552d9ab43f932
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92256392"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418673"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop 다운로드
 Power BI Desktop을 통해 데이터를 시각화하는 고급 쿼리, 모델 및 보고서를 빌드할 수 있습니다. Power BI Desktop에서 Power BI 서비스에 게시하여 데이터 모델을 빌드하고, 보고서를 만들고, 작업을 공유할 수 있습니다. Power BI Desktop은 무료로 다운로드할 수 있습니다.
@@ -38,13 +38,13 @@ Microsoft Store에서 최신 버전의 Power BI Desktop에 액세스하는 방�
 
    - 브라우저를 열고 Microsoft Store의 [Power BI Desktop 페이지](https://aka.ms/pbidesktopstore)로 직접 이동합니다.
 
-    - [Power BI 서비스](./service-get-started.md)에서 오른쪽 위에 있는 **다운로드** 아이콘을 선택한 다음, **Power BI Desktop**을 선택합니다.
+    - [Power BI 서비스](./service-get-started.md)에서 오른쪽 위에 있는 **다운로드** 아이콘을 선택한 다음, **Power BI Desktop** 을 선택합니다.
 
       ![Power BI Desktop 다운로드 옵션을 보여 주는 Microsoft Store의 스크린샷.](media/desktop-get-the-desktop/getpbid_downloads.png)
 
-   - [Power BI Desktop 제품 페이지](https://powerbi.microsoft.com/desktop/)로 이동한 다음, **무료 다운로드**를 선택합니다.
+   - [Power BI Desktop 제품 페이지](https://powerbi.microsoft.com/desktop/)로 이동한 다음, **무료 다운로드** 를 선택합니다.
   
-2. Microsoft Store의 **Power BI Desktop** 페이지에서 **설치**를 선택합니다.
+2. Microsoft Store의 **Power BI Desktop** 페이지에서 **설치** 를 선택합니다.
 
      ![Power BI Desktop 설치 옵션을 보여 주는 Microsoft Store의 스크린샷.](media/desktop-get-the-desktop/getpbid_04.png)
 
@@ -69,7 +69,7 @@ Microsoft Store에서 Power BI Desktop을 설치할 때 적용되는 고려 사�
 
 ## <a name="download-power-bi-desktop-directly"></a>Power BI Desktop 직접 다운로드
   
-  다운로드 센터에서 Power BI Desktop 실행 파일을 다운로드하려면 [다운로드 센터 페이지](https://www.microsoft.com/download/details.aspx?id=58494)에서 **다운로드**를 선택합니다. 그런 다음, 32비트 또는 64비트 설치 파일 중에서 다운로드할 파일을 지정합니다.
+  다운로드 센터에서 Power BI Desktop 실행 파일을 다운로드하려면 [다운로드 센터 페이지](https://www.microsoft.com/download/details.aspx?id=58494)에서 **다운로드** 를 선택합니다. 그런 다음, 32비트 또는 64비트 설치 파일 중에서 다운로드할 파일을 지정합니다.
 
   ![64비트 Power BI Desktop 다운로드 확인란을 보여 주는 다운로드 센터의 스크린샷.](media/desktop-get-the-desktop/download-desktop-exe.png)
 
@@ -106,7 +106,7 @@ Power BI Desktop을 처음 사용하는 경우(즉, 설치가 업그레이드되
 * Internet Explorer 10 이상
 * 메모리(RAM): 최소 1GB, 1.5GB 이상 권장.
 * 디스플레이: 1440x900 또는 1600x900(16:9) 이상이 필요합니다. 1024x768 또는 1280x800처럼 낮은 해상도는 지원되지 않습니다. 시작 화면 닫기와 같은 특정 컨트롤이 해상도 밖에 표시되기 때문입니다.
-* Windows 디스플레이 설정: 디스플레이 설정을 통해 텍스트, 앱, 기타 항목의 크기를 100% 이상으로 변경하면 Power BI Desktop을 계속 사용하기 위해 조작해야 하는 특정 대화 상자가 표시되지 않을 수 있습니다. 이 문제가 발생할 경우 Windows에서 **설정** > **시스템** > **디스플레이**로 이동하여 디스플레이 설정을 확인한 다음, 슬라이더를 사용하여 디스플레이 설정을 100%로 되돌립니다.
+* Windows 디스플레이 설정: 디스플레이 설정을 통해 텍스트, 앱, 기타 항목의 크기를 100% 이상으로 변경하면 Power BI Desktop을 계속 사용하기 위해 조작해야 하는 특정 대화 상자가 표시되지 않을 수 있습니다. 이 문제가 발생할 경우 Windows에서 **설정** > **시스템** > **디스플레이** 로 이동하여 디스플레이 설정을 확인한 다음, 슬라이더를 사용하여 디스플레이 설정을 100%로 되돌립니다.
 * CPU: 1GHz(기가헤르츠) 64비트(x64) 프로세서 권장.
 
 > [!NOTE]
@@ -183,8 +183,8 @@ Power BI Desktop의 현재 버전으로 업데이트하면 대개 이 문제가 
 기능, 성능, 안정성 및 기타 개선 사항의 발전을 활용하려면 최신 버전의 Power BI Desktop으로 업데이트하는 것이 좋습니다. 일부 조직에서는 사용자가 개별적으로 새 버전으로 업데이트하기를 원하지 않을 수 있습니다. 다음 단계를 통해 레지스트리를 수정하여 알림을 사용하지 않도록 설정할 수 있습니다.
 
 1. 레지스트리 편집기에서 **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Power BI Desktop** 키로 이동합니다.
-2. 키에 새 **REG_DWORD** 항목을 만들고 이름을 **DisableUpdateNotification**으로 지정합니다.
-3. 새 항목의 값을 **1**로 설정합니다.
+2. 키에 새 **REG_DWORD** 항목을 만들고 이름을 **DisableUpdateNotification** 으로 지정합니다.
+3. 새 항목의 값을 **1** 로 설정합니다.
 4. 컴퓨터를 다시 시작하여 변경 내용을 적용합니다.
 
 ### <a name="power-bi-desktop-loads-with-a-partial-screen"></a>Power BI Desktop은 부분 화면으로 로드됩니다.

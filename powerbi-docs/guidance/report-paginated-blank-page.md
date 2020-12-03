@@ -1,19 +1,19 @@
-﻿---
+---
 title: 페이지를 매긴 보고서를 인쇄할 때 빈 페이지 방지
 description: 인쇄할 때 빈 페이지를 방지하도록 페이지를 매긴 보고서를 디자인하기 위한 지침
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: report-builder
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 01/14/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 349459b95a815a52665e50687554f81f90a9c81b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0fa886973105bdb4bc8a35f145168c1775ca12cb
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78920817"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418466"
 ---
 # <a name="avoid-blank-pages-when-printing-paginated-reports"></a>페이지를 매긴 보고서를 인쇄할 때 빈 페이지 방지
 
@@ -26,7 +26,7 @@ ms.locfileid: "78920817"
 - 보고서 **속성 페이지** 사용: 보고서 캔버스 밖의 진한 회색 영역을 마우스 오른쪽 단추로 클릭한 다음 _보고서 속성을_ 선택합니다.
 - [**속성** 창](../paginated-reports/paginated-reports-report-design-view.md#4-properties-pane) 사용: 보고서 캔버스 밖의 진한 회색 영역을 클릭하여 보고서 개체를 선택합니다. **속성** 창이 열려 있어야 합니다.
 
-보고서 **속성 페이지**의 **페이지 설정** 페이지는 페이지 설정 속성을 보고 업데이트할 수 있는 친숙한 인터페이스를 제공합니다.
+보고서 **속성 페이지** 의 **페이지 설정** 페이지는 페이지 설정 속성을 보고 업데이트할 수 있는 친숙한 인터페이스를 제공합니다.
 
 ![그림은 페이지 설정 페이지가 강조 표시된 보고서 속성 창을 보여 줍니다.](media/report-paginated-blank-page/report-page-setup-properties.png)
 
@@ -46,7 +46,7 @@ ms.locfileid: "78920817"
 
 빈 페이지가 출력되는 일반적인 이유는 보고서 본문 너비가 _사용 가능한 페이지 공간을 초과하기_ 때문입니다.
 
-**속성**창을 사용해야만 보고서 본문 너비를 확인하고 설정할 수 있습니다. 먼저 보고서 본문의 빈 영역 아무 곳이나 클릭합니다.
+**속성** 창을 사용해야만 보고서 본문 너비를 확인하고 설정할 수 있습니다. 먼저 보고서 본문의 빈 영역 아무 곳이나 클릭합니다.
 
 ![그림은 보고서 본문 너비 속성이 강조 표시된 속성 창을 보여 줍니다.](media/report-paginated-blank-page/report-body-properties-width.png)
 

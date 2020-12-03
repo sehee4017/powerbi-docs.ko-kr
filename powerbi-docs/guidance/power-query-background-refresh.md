@@ -2,19 +2,19 @@
 title: 파워 쿼리 백그라운드 새로 고침 사용 안 함
 description: 파워 쿼리 백그라운드 새로 고침을 사용하지 않도록 설정하는 경우에 대한 지침입니다.
 author: peter-myers
+ms.author: v-pemyer
 manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 09/26/2019
-ms.author: v-pemyer
-ms.openlocfilehash: 39eef27e746e636ddb331d28a930c1cd0dca0a5d
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 54e8524d2997e086b218e7d5b569e58ace21c48e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214922"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418650"
 ---
 # <a name="disable-power-query-background-refresh"></a>파워 쿼리 백그라운드 새로 고침 사용 안 함
 

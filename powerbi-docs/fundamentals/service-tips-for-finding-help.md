@@ -1,20 +1,20 @@
 ---
 title: Power BI 질문에 대한 도움을 받을 수 있는 10가지 팁
 description: Power BI의 작동 방식에 대한 질문이 있는 경우 도움을 받을 수 있는 10가지 방법이 있습니다.
-author: maggiesMSFT
+author: mihart
+ms.author: mihart
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 06/28/2018
-ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: f5cb17187770c8c0b37c48a495c6844c462e83ec
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 0ef9371b54fed4188b80bbb761cf61f3805a8eab
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525624"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416580"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>Power BI 질문에 대한 도움을 받을 수 있는 10가지 팁
 Power BI를 사용하면서 "즉각적인" 도움이 필요한 경우 Power BI 질문에 대한 답변을 받지 못해 실망하거나 어려움을 겪은 적이 있나요? 
@@ -49,8 +49,8 @@ Power BI 팀은 일반 [Power BI 블로그 게시물](https://powerbi.microsoft.
 
 다음과 같은 추가 온라인 옵션을 찾아볼 수 있습니다.
 
-* **edX.org**는 무료 과정인 [Power BI로 데이터 분석 및 시각화](https://www.edx.org/course/data-analysis-in-power-bi)를 제공합니다.
-* **Lynda.com**은 [Power BI Pro 필수 교육](https://www.lynda.com/Power-BI-tutorials/Power-BI-Pro-Essential-Training/485820-2.html)과 같은 과정을 제공합니다.
+* **edX.org** 는 무료 과정인 [Power BI로 데이터 분석 및 시각화](https://www.edx.org/course/data-analysis-in-power-bi)를 제공합니다.
+* **Lynda.com** 은 [Power BI Pro 필수 교육](https://www.lynda.com/Power-BI-tutorials/Power-BI-Pro-Essential-Training/485820-2.html)과 같은 과정을 제공합니다.
 * "**Dashboard in a Day**"교육 세션에 직접 참여해보세요.
 
 ## <a name="7-ask-or-search-in-the-power-bi-community"></a>7 Power BI 커뮤니티에서 질문 또는 검색

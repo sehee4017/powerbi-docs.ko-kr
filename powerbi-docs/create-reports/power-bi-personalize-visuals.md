@@ -2,19 +2,19 @@
 title: 사용자가 보고서에서 시각적 개체를 개인 설정할 수 있습니다.
 description: 보고서를 읽는 사람이 편집하지 않고 보고서를 직접 만들 수 있습니다.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 11/13/2020
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 624da63259dcb09d0ebbb35079ef0d8e1340b04c
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 453fdcf91829d0877adf10e48d0a1ac9236340b3
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668514"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418029"
 ---
 # <a name="let-users-personalize-visuals-in-a-report"></a>사용자가 보고서에서 시각적 개체를 개인 설정할 수 있습니다.
 

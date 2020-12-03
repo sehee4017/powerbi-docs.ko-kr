@@ -1,20 +1,21 @@
 ---
 title: Power BI Embedded 용량 크기 조정 | Microsoft Docs
 description: 이 아티클은 Microsoft Azure에서 Power BI Embedded 용량 조정 방법을 안내합니다.
-services: power-bi-embedded
 author: KesemSharabi
 ms.author: kesharab
+services: power-bi-embedded
 editor: ''
 tags: ''
-ms.service: power-bi-embedded
-ms.topic: conceptual
+ms.service: powerbi
+ms.subservice: powerbi-developer
+ms.topic: how-to
 ms.date: 01/31/2019
-ms.openlocfilehash: 365f24ec80d58297a852fa3d040c04c8c763eeda
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0b44c9326b11491e5b9f42b4110da482f52b58dc
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114707"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417270"
 ---
 # <a name="scale-your-power-bi-embedded-capacity-in-the-azure-portal"></a>Azure Portal에서 Power BI Embedded 용량 크기 조정을 참조하세요.
 
@@ -29,7 +30,7 @@ ms.locfileid: "80114707"
 
 1. [Azure Portal](https://portal.azure.com/)에 로그인합니다.
 
-2. **모든 서비스** > **Power BI Embedded**를 선택하여 용량을 확인합니다.
+2. **모든 서비스** > **Power BI Embedded** 를 선택하여 용량을 확인합니다.
 
     ![Azure Portal 내 모든 서비스](media/azure-pbie-scale-capacity/azure-portal-more-services.png)
 
@@ -37,7 +38,7 @@ ms.locfileid: "80114707"
 
     ![Azure Portal 내 Power BI Embedded 용량](media/azure-pbie-scale-capacity/azure-portal-capacity-list.png)
 
-4. 용량 내 **크기**에서 **가격 책정 계층**을 선택합니다.
+4. 용량 내 **크기** 에서 **가격 책정 계층** 을 선택합니다.
 
     ![크기의 가격 책정 계층](media/azure-pbie-scale-capacity/azure-portal-scale-pricing-tier.png)
 
@@ -45,7 +46,7 @@ ms.locfileid: "80114707"
 
     ![파란색으로 윤곽이 표시된 현재 가격 책정 계층](media/azure-pbie-scale-capacity/azure-portal-current-tier.png)
 
-5. 크기를 확장 또는 축소하려면 이동할 새 계층을 선택합니다. 새 계층을 선택하면 선택 영역 주위에 파란색 점선 윤곽이 표시됩니다. 새 계층으로 크기를 조정하려면 **선택**을 선택합니다.
+5. 크기를 확장 또는 축소하려면 이동할 새 계층을 선택합니다. 새 계층을 선택하면 선택 영역 주위에 파란색 점선 윤곽이 표시됩니다. 새 계층으로 크기를 조정하려면 **선택** 을 선택합니다.
 
     ![새 계층 선택](media/azure-pbie-scale-capacity/azure-portal-select-new-tier.png)
 

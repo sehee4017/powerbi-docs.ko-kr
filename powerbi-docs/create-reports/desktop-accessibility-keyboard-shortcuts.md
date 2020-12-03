@@ -2,19 +2,19 @@
 title: Power BI Desktop의 바로 가기 키
 description: 바로 가기 키를 사용하여 Power BI Desktop에 액세스하는 방법
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/28/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: bf3f25adb916e158ee879cb96ab43655c72903d3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9cfd5f80ac18c05b520fc417c6336dda360b8737
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229120"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417592"
 ---
 # <a name="keyboard-shortcuts-in-power-bi-desktop"></a>Power BI Desktop의 바로 가기 키
 
@@ -24,7 +24,7 @@ Power BI Desktop을 사용하는 경우 **Shift+?** 를 누르면 다음 이미�
 
 ![Power BI Desktop에서 Shift +?를 눌러 접근성 바로 가기 표시](media/desktop-accessibility/accessibility-03.png)
 
-**Power BI Desktop**에서 이 바로 가기 키를 사용할 뿐 아니라 이 바로 가기는 다음 환경에서도 작동합니다.
+**Power BI Desktop** 에서 이 바로 가기 키를 사용할 뿐 아니라 이 바로 가기는 다음 환경에서도 작동합니다.
 
 * **Q&A 탐색기** 대화 상자
 * **시작** 대화 상자
@@ -111,8 +111,8 @@ Power BI Desktop을 사용하는 경우 **Shift+?** 를 누르면 다음 이미�
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 접근성 기능에 대한 몇 가지 알려진 문제와 제한 사항이 있습니다. 해당 문제와 제한 사항에 대한 설명은 다음 목록에 나와 있습니다.
 
-* **Power BI Desktop**에서 화면 판독기를 사용하는 경우 **Power BI Desktop**에서 파일을 열기 전에 화면 판독기를 여는 것이 가장 좋습니다.
-* 내레이터를 사용하는 경우 **데이터 표시**를 HTML 테이블로 탐색하는 방법에는 몇 가지 제한이 있습니다.
+* **Power BI Desktop** 에서 화면 판독기를 사용하는 경우 **Power BI Desktop** 에서 파일을 열기 전에 화면 판독기를 여는 것이 가장 좋습니다.
+* 내레이터를 사용하는 경우 **데이터 표시** 를 HTML 테이블로 탐색하는 방법에는 몇 가지 제한이 있습니다.
 
 
 ## <a name="next-steps"></a>다음 단계

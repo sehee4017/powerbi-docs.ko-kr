@@ -2,18 +2,18 @@
 title: Power BI Desktop의 자동 날짜/시간
 description: Power BI Desktop의 자동 날짜/시간 기능을 살펴봅니다.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 10/23/2019
-ms.author: v-pemyer
-ms.openlocfilehash: 0c62e423bdf357a5eee4ef5b03daa7ec145310e7
-ms.sourcegitcommit: 20cfd157af587b3910a2b6deec9518dca4105d71
+ms.openlocfilehash: 24972026d7121809ac71c6c8352a147af38ad5be
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85943061"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416028"
 ---
 # <a name="apply-auto-datetime-in-power-bi-desktop"></a>Power BI Desktop의 자동 날짜/시간 적용
 
@@ -29,7 +29,7 @@ ms.locfileid: "85943061"
 
 ## <a name="how-it-works"></a>작동 방법
 
-각 자동 날짜/시간 테이블은 실제로 DAX [CALENDAR](/dax/calendar-function-dax) 함수를 사용하여 데이터 행을 생성하는 [계산 테이블](desktop-calculated-tables.md)입니다. 또한 각 테이블에는 **Day**, **MonthNo**, **Month**, **QuarterNo**, **Quarter** 및 **Year**의 6개 계산 열이 포함되어 있습니다.
+각 자동 날짜/시간 테이블은 실제로 DAX [CALENDAR](/dax/calendar-function-dax) 함수를 사용하여 데이터 행을 생성하는 [계산 테이블](desktop-calculated-tables.md)입니다. 또한 각 테이블에는 **Day**, **MonthNo**, **Month**, **QuarterNo**, **Quarter** 및 **Year** 의 6개 계산 열이 포함되어 있습니다.
 
 > [!NOTE]
 > Power BI는 [모델 언어](../fundamentals/supported-languages-countries-regions.md#choose-the-language-for-the-model-in-power-bi-desktop)에 따라 열 이름과 값을 변환하고 서식을 지정합니다. 예를 들어 영어를 사용하여 모델을 만든 경우 한국어 클라이언트에서 표시되는 경우에도 월 이름이 영어로 표시됩니다.
@@ -55,7 +55,7 @@ Power BI Desktop에서 자동 날짜/시간 테이블의 **Date** 열과 모델 
 
 ## <a name="work-with-auto-datetime"></a>자동 날짜/시간 작업
 
-날짜 열에 대한 자동 날짜/시간 테이블이 있고 해당 열이 표시되는 경우 보고서 작성자는 **필드** 창에서 해당 열을 필드로 찾지 않습니다. 대신 날짜 열의 이름을 사용하는 확장 가능한 개체를 찾습니다. 달력 아이콘으로 표시되어 있으므로 쉽게 식별할 수 있습니다. 보고서 작성자가 달력 개체를 확장하면 **날짜 계층**이라는 계층이 검색됩니다. 이 계층을 확장하면 **Year**, **Quarter**, **Month** 및 **Day**의 네 가지 수준을 확인할 수 있습니다.
+날짜 열에 대한 자동 날짜/시간 테이블이 있고 해당 열이 표시되는 경우 보고서 작성자는 **필드** 창에서 해당 열을 필드로 찾지 않습니다. 대신 날짜 열의 이름을 사용하는 확장 가능한 개체를 찾습니다. 달력 아이콘으로 표시되어 있으므로 쉽게 식별할 수 있습니다. 보고서 작성자가 달력 개체를 확장하면 **날짜 계층** 이라는 계층이 검색됩니다. 이 계층을 확장하면 **Year**, **Quarter**, **Month** 및 **Day** 의 네 가지 수준을 확인할 수 있습니다.
 
 ![확장된 Sales 테이블이 열려 있는 필드 창의 예입니다. 달력 아이콘으로 표시된 OrderDate 필드가 있습니다. 이 필드는 확장된 상태로 열려 있으며, [날짜 계층]이라는 계층이 있습니다. 이 계층도 확장되며, Year, Quarter, Month 및 Day의 네 가지 수준이 있습니다.](media/desktop-auto-date-time/auto-date-time-fields-pane-example.png)
 

@@ -2,19 +2,19 @@
 title: 데이터 흐름 구성 및 사용
 description: Power BI에서 데이터 흐름을 설정 및 사용하는 방법의 개요
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-dataflows
 ms.topic: how-to
 ms.date: 10/01/2020
-ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 82d5981d885f97d48dec180e692a4a44c0bbe781
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 5f33f43565187c0276cf6d9c3479bbbb57480ae5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668261"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416189"
 ---
 # <a name="configure-and-consume-a-dataflow"></a>데이터 흐름 구성 및 사용
 

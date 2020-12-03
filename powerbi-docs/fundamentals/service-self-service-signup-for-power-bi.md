@@ -2,20 +2,20 @@
 title: 개별적으로 Power BI 서비스에 가입
 description: Power BI 서비스에 가입하고 데이터 분석 및 시각화 요구 사항에 맞게 사용하는 방법을 알아봅니다.
 author: mihart
+ms.author: mihart
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 06/24/2020
-ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: db77d7f94665df7711f7b49dd2cc6d10a7c694df
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 4aa768aa6c041f4653a0bd7bf1ef873b3bc4a63b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216628"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416649"
 ---
 # <a name="sign-up-for-the-power-bi-service-as-an-individual"></a>개별적으로 Power BI 서비스에 가입
 
@@ -29,7 +29,7 @@ Power BI는 직관적인 사용자 환경과 인텔리전트 데이터 시각화
 Desktop, 서비스 및 모바일 앱의 세 가지 요소는 사용자가 자신 또는 자신의 역할을 가장 효과적으로 수행하는 방식으로 비즈니스 인사이트를 만들고, 공유하고, 사용하도록 설계되었습니다.
 
 ## <a name="signing-up-for-the-power-bi-service"></a>Power BI 서비스에 가입
-이 문서에서는 **Power BI 서비스**에 개별적으로 가입하는 단계에 대해 설명합니다. Power BI Desktop을 다운로드하거나 모바일 앱을 설치하는 데 도움이 필요하면 다음 문서를 참조하세요.
+이 문서에서는 **Power BI 서비스** 에 개별적으로 가입하는 단계에 대해 설명합니다. Power BI Desktop을 다운로드하거나 모바일 앱을 설치하는 데 도움이 필요하면 다음 문서를 참조하세요.
 - [Power BI Desktop(평가판 다운로드 가능)](desktop-get-the-desktop.md)    
 - [Power BI 모바일 앱(평가판 다운로드 가능)](../consumer/mobile/mobile-apps-for-mobile-devices.md)
 
@@ -46,14 +46,14 @@ Desktop, 서비스 및 모바일 앱의 세 가지 요소는 사용자가 자신
 Power BI 계정에 등록하려면 다음 단계를 수행합니다. 이 프로세스를 완료하면 내 작업 영역을 사용하여 Power BI 서비스를 직접 체험하거나, Power BI 프리미엄 용량에 할당된 Power BI 작업 영역에서 콘텐츠를 사용하거나, 개별 Power BI Pro 평가판을 시작하는 데 사용할 수 있는 Power BI(평가판) 라이선스가 제공됩니다. 자세한 내용은 [라이선스 유형별 Power BI 기능](service-features-license-type.md)을 참조하세요. 
 
 정확한 가입 단계는 조직 및 프로세스를 시작하기 위해 클릭하는 항목에 따라 달라질 수 있습니다. 이러한 이유로 아래에 표시된 모든 화면이 표시되지 않을 수 있습니다. Power BI 서비스에 개별적으로 가입하는 다양한 방법이 있으며, 이 문서의 단계는 가장 일반적인 두 가지 방법에 적용됩니다.
-- **평가판 사용** 또는 **평가판 시작** 단추를 선택합니다<sup>1</sup>.     
+- **평가판 사용** 또는 **평가판 시작** 단추를 선택합니다 <sup>1</sup>.     
 - Power BI 대시보드, 보고서 또는 앱에 대한 링크가 포함된 이메일을 받습니다. 이전에 Power BI 계정에 로그인하지 않았습니다.
 
     <sup>1</sup> powerbi.microsoft.com, 관련 Microsoft 제품, 설명서 및 마케팅 문서에서 **평가판 사용** 형식의 단추를 확인할 수 있습니다.
 
 ### <a name="step-1"></a>1단계
 
-- [powerbi.microsoft.com](https://powerbi.com)에서 **평가판 시작** 또는 **평가판 사용**을 선택합니다. 단추를 두 번 선택해야 할 수도 있습니다.
+- [powerbi.microsoft.com](https://powerbi.com)에서 **평가판 시작** 또는 **평가판 사용** 을 선택합니다. 단추를 두 번 선택해야 할 수도 있습니다.
 
     ![웹 브라우저에서 powerbi.com을 보여 주는 Power BI 서비스의 스크린샷.](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-try.png)    
 
@@ -61,7 +61,7 @@ Power BI 계정에 등록하려면 다음 단계를 수행합니다. 이 프로�
 
     ![powerbi.com에서 전송되는 메일을 보여 주는 Power BI 서비스의 스크린샷.](media/service-self-service-signup-for-power-bi/power-bi-email.png)
 
-1. Microsoft 365에서 사용자를 인식하며 Microsoft 서비스가 이미 설치되어 있다고 파악하고 있습니다. **로그인**을 선택합니다.
+1. Microsoft 365에서 사용자를 인식하며 Microsoft 서비스가 이미 설치되어 있다고 파악하고 있습니다. **로그인** 을 선택합니다.
 
     ![Microsoft에서 메일을 인식하고 있음을 보여 주는 Power BI 서비스의 스크린샷.](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-sign-up.png)
 
@@ -74,7 +74,7 @@ Power BI 계정에 등록하려면 다음 단계를 수행합니다. 이 프로�
 
        ![메일 주소 확인을 요구하는 프롬프트를 보여 주는 Power BI 서비스의 스크린샷.](media/service-self-service-signup-for-power-bi/power-bi-did-you.png)
 
-    - 다음과 같은 메시지가 표시되면 사용 약관을 검토합니다. 동의하면 **시작**을 선택합니다. 
+    - 다음과 같은 메시지가 표시되면 사용 약관을 검토합니다. 동의하면 **시작** 을 선택합니다. 
 
         ![시작 로그인 프롬프트를 보여 주는 Power BI 서비스의 스크린샷.](media/service-self-service-signup-for-power-bi/power-bi-almost.png)
 
@@ -87,7 +87,7 @@ Power BI 계정에 등록하려면 다음 단계를 수행합니다. 이 프로�
     ![Power BI 홈 화면을 보여 주는 Power BI 서비스의 스크린샷.](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-power-bi.png)    
 
 ## <a name="sign-up-for-an-individual-trial-of-power-bi-pro"></a>개별 Power BI Pro 평가판에 가입
-Power BI 계정에 처음 로그인하는 것을 축하합니다! 이제 평가판 라이선스가 있습니다<sup>2</sup>. Power BI 서비스 검색을 시작하면 개별 Power BI Pro 평가판으로 업그레이드할 것인지 묻는 팝업이 표시됩니다. [Power BI 서비스의 일부 기능에는 Pro 라이선스가 필요합니다](../consumer/end-user-license.md). 개별 Power BI Pro 60일 평가판을 시작하려면 **평가판 시작**을 선택합니다.  
+Power BI 계정에 처음 로그인하는 것을 축하합니다! 이제 평가판 라이선스가 있습니다<sup>2</sup>. Power BI 서비스 검색을 시작하면 개별 Power BI Pro 평가판으로 업그레이드할 것인지 묻는 팝업이 표시됩니다. [Power BI 서비스의 일부 기능에는 Pro 라이선스가 필요합니다](../consumer/end-user-license.md). 개별 Power BI Pro 60일 평가판을 시작하려면 **평가판 시작** 을 선택합니다.  
 
 ![Power BI 평가판 대화 상자를 보여 주는 Power BI 서비스의 스크린샷.](media/service-self-service-signup-for-power-bi/power-bi-start-trial.png)
 
@@ -97,7 +97,7 @@ Power BI 계정에 처음 로그인하는 것을 축하합니다! 이제 평가�
 
 개별 Power BI Pro 평가판이 만료되면 라이선스가 Power BI(평가판) 라이선스로 다시 변경됩니다. 평가판은 확장할 수 없습니다. Power BI Pro 라이선스가 필요한 기능에 더 이상 액세스할 수 없습니다. 자세한 내용은 [라이선스 유형별 기능](service-features-license-type.md)을 참조하세요.
 
-Power BI(무료) 라이선스가 충분한 경우에는 다른 작업을 수행할 필요가 없습니다. Power BI Pro 기능을 활용하려면 **지금 구입**을 선택하거나 [Power BI 가격](https://powerbi.microsoft.com/pricing)을 방문하여 Pro 라이선스를 구입합니다.
+Power BI(무료) 라이선스가 충분한 경우에는 다른 작업을 수행할 필요가 없습니다. Power BI Pro 기능을 활용하려면 **지금 구입** 을 선택하거나 [Power BI 가격](https://powerbi.microsoft.com/pricing)을 방문하여 Pro 라이선스를 구입합니다.
 
 ![Power BI 평가판 대화 상자를 보여 주는 Power BI 서비스의 스크린샷.](media/service-self-service-signup-for-power-bi/power-bi-start-trial.png)
 

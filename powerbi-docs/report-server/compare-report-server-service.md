@@ -1,20 +1,20 @@
 ---
 title: Power BI Report Server 및 Power BI 서비스 비교
 description: 이 문서에서는 Power BI Report Server와 Power BI 서비스의 기능을 비교합니다.
-keywords: ''
 author: maggiesMSFT
 ms.author: maggies
+keywords: ''
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 ms.date: 07/28/2020
-ms.openlocfilehash: 02d5b30f4e3f769e3c20cc7faa8b051e8114e5c5
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 6d63e8825965a18d2ea5b6d56112c3a063c3456e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599964"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418075"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Report Server 및 Power BI 서비스 비교
 

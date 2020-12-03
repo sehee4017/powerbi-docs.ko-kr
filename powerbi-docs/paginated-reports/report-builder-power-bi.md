@@ -1,20 +1,20 @@
 ---
 title: Power BI 보고서 작성기
 description: Power BI 보고서 작성기는 페이지를 매긴 보고서를 작성하기 위한 도구입니다.
+author: maggiesMSFT
+ms.author: maggies
 ms.date: 07/08/2020
 ms.service: powerbi
 ms.subservice: report-builder
 featuredvideoid: 78TZeiEhveY
 ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
-author: maggiesMSFT
-ms.author: maggies
-ms.openlocfilehash: 6a0a72015a66abc9425dc467703a5044ea0c8116
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 32d42ee139ceb03326b99d88e6033475ed2a4cc7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297861"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416255"
 ---
 # <a name="power-bi-report-builder"></a>Power BI 보고서 작성기
 

@@ -2,18 +2,18 @@
 title: 페이지를 매긴 보고서에서 연계 매개 변수 사용
 description: 연계 매개 변수를 사용하여 페이지를 매긴 보고서를 디자인하기 위한 지침
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: report-builder
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 01/14/2020
-ms.author: v-pemyer
-ms.openlocfilehash: f239622d8b6012913298212790f7f9aa8c3115a5
-ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
+ms.openlocfilehash: fca5d6556c296094e4536ecf965388e2a4224ed9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92197659"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417914"
 ---
 # <a name="use-cascading-parameters-in-paginated-reports"></a>페이지를 매긴 보고서에서 연계 매개 변수 사용
 
@@ -33,7 +33,7 @@ ms.locfileid: "92197659"
 
 이 문서에 나와 있는 예는 Azure SQL Database을 기반으로 합니다. 이 데이터베이스는 영업 작업을 기록하며, 재판매인, 제품, 판매 주문을 저장하는 다양한 테이블을 포함합니다.
 
-**Reseller**라는 테이블은 재판매인마다 하나의 레코드를 저장하며, 수천 개의 레코드를 포함할 수 있습니다. **Reseller** 테이블에는 다음과 같은 열이 있습니다.
+**Reseller** 라는 테이블은 재판매인마다 하나의 레코드를 저장하며, 수천 개의 레코드를 포함할 수 있습니다. **Reseller** 테이블에는 다음과 같은 열이 있습니다.
 
 - ResellerCode(정수)
 - ResellerName
@@ -42,7 +42,7 @@ ms.locfileid: "92197659"
 - 도시
 - 우편 번호
 
-**Sales**라는 테이블도 있습니다. 이 테이블은 판매 주문 레코드를 저장하며, **ResellerCode** 열에서 **Reseller** 테이블에 대한 외래 키 관계를 가집니다.
+**Sales** 라는 테이블도 있습니다. 이 테이블은 판매 주문 레코드를 저장하며, **ResellerCode** 열에서 **Reseller** 테이블에 대한 외래 키 관계를 가집니다.
 
 ### <a name="example-requirement"></a>예시 요구 사항
 
@@ -173,7 +173,7 @@ ALTER TABLE [Reseller]
 ADD [ReportGroup] AS LEFT([ResellerName], 1) PERSISTED
 ```
 
-이 방법은 훨씬 더 큰 잠재력을 제공할 수 있습니다. 새 그룹화 열을 추가하여 _미리 정의된 문자 구간_을 기준으로 재판매인을 필터링하는 다음 스크립트를 생각해 보세요. 이 스크립트는 보고서 매개 변수에 필요한 데이터를 효율적으로 검색하는 인덱스도 만듭니다.
+이 방법은 훨씬 더 큰 잠재력을 제공할 수 있습니다. 새 그룹화 열을 추가하여 _미리 정의된 문자 구간_ 을 기준으로 재판매인을 필터링하는 다음 스크립트를 생각해 보세요. 이 스크립트는 보고서 매개 변수에 필요한 데이터를 효율적으로 검색하는 인덱스도 만듭니다.
 
 ```sql
 ALTER TABLE [Reseller]
@@ -218,7 +218,7 @@ GO
 3. **Reseller** 데이터 세트의 쿼리 매개 변수를 해당 보고서 매개 변수에 매핑합니다.
 
 > [!TIP]
-> 보고서 사용자가 더 많은 것을 제어할 수 있도록 이 디자인을 개선할 수 있습니다. 이를 통해 보고서 사용자는 자체 패턴 일치 값을 정의할 수 있습니다. 예를 들어 검색 값 "red%"는 이름이 문자 “red”로 _시작_하는 재판매인으로 필터링합니다.
+> 보고서 사용자가 더 많은 것을 제어할 수 있도록 이 디자인을 개선할 수 있습니다. 이를 통해 보고서 사용자는 자체 패턴 일치 값을 정의할 수 있습니다. 예를 들어 검색 값 "red%"는 이름이 문자 “red”로 _시작_ 하는 재판매인으로 필터링합니다.
 >
 > 자세한 내용은 [LIKE(Transact-SQL)](/sql/t-sql/language-elements/like-transact-sql#using-the--wildcard-character)를 참조하세요.
 

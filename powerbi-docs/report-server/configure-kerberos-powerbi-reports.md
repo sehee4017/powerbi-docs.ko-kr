@@ -2,18 +2,18 @@
 title: Power BI 보고서를 사용하도록 Kerberos 구성
 description: 분산된 환경의 경우 Power BI 보고서 내에서 사용된 데이터 소스에 Kerberos 인증을 위해 Report Server를 구성하는 방법을 알아봅니다.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 11/01/2017
-ms.author: maggies
-ms.openlocfilehash: d4890cf864334951982a8b6d7acc8fc8338016d6
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: e85a104e7527dd93a696d65d799acd1c83c1500a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634967"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418144"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Power BI 보고서를 사용하도록 Kerberos 구성
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -204,24 +204,24 @@ Active Directory 사용자 및 컴퓨터 내에서 Report Server 서비스 계�
 
 프로토콜 전송을 사용하여 제한된 위임을 구성하려고 합니다. 제한된 위임을 사용하여 위임하려고 하는 서비스를 노출해야 합니다. Analysis Services 서비스 SPN 및 SQL Browser SPN을 Power BI Report Server가 위임할 수 있는 목록에 추가합니다.
 
-1. Report Server 서비스 계정을 마우스 오른쪽 단추로 클릭하고 **속성**을 선택합니다.
+1. Report Server 서비스 계정을 마우스 오른쪽 단추로 클릭하고 **속성** 을 선택합니다.
 2. **위임** 탭을 선택합니다.
-3. **지정한 서비스에 대한 위임의 경우 이 컴퓨터 신뢰**를 선택합니다.
-4. **모든 인증 프로토콜 사용**을 선택합니다.
-5. **이 계정이 위임된 자격 증명을 표시할 수 있는 서비스**에서 **추가**를 선택합니다.
-6. 새 대화 상자에서 **사용자 또는 컴퓨터**를 선택합니다.
-7. Analysis Services 서비스의 서비스 계정을 입력하고 **확인**을 선택합니다.
+3. **지정한 서비스에 대한 위임의 경우 이 컴퓨터 신뢰** 를 선택합니다.
+4. **모든 인증 프로토콜 사용** 을 선택합니다.
+5. **이 계정이 위임된 자격 증명을 표시할 수 있는 서비스** 에서 **추가** 를 선택합니다.
+6. 새 대화 상자에서 **사용자 또는 컴퓨터** 를 선택합니다.
+7. Analysis Services 서비스의 서비스 계정을 입력하고 **확인** 을 선택합니다.
 8. 만든 SPN을 선택합니다. `MSOLAPSvc.3`로 시작합니다. FQDN 및 NetBIOS SPN 모두를 추가한 경우 둘 다 선택합니다. 하나만 표시될 수 있습니다.
-9. **확인**을 선택합니다.  이제 목록에서 SPN이 표시됩니다.
-10. 경우에 따라 **확장됨**을 선택하여 목록에서 FQDN과 NetBIOS SPN을 모두 표시할 수 있습니다.
-11. **추가**를 다시 선택합니다. 이제 SQL Browser SPN을 추가합니다.
-12. 새 대화 상자에서 **사용자 또는 컴퓨터**를 선택합니다.
-13. SQL Browser 서비스를 사용하는 컴퓨터의 컴퓨터 이름을 입력하고 **확인**을 선택합니다.
+9. **확인** 을 선택합니다.  이제 목록에서 SPN이 표시됩니다.
+10. 경우에 따라 **확장됨** 을 선택하여 목록에서 FQDN과 NetBIOS SPN을 모두 표시할 수 있습니다.
+11. **추가** 를 다시 선택합니다. 이제 SQL Browser SPN을 추가합니다.
+12. 새 대화 상자에서 **사용자 또는 컴퓨터** 를 선택합니다.
+13. SQL Browser 서비스를 사용하는 컴퓨터의 컴퓨터 이름을 입력하고 **확인** 을 선택합니다.
 14. 만든 SPN을 선택합니다. `MSOLAPDisco.3`로 시작합니다. FQDN 및 NetBIOS SPN 모두를 추가한 경우 둘 다 선택합니다. 하나만 표시될 수 있습니다.
-15. **확인**을 선택합니다. **확장됨**을 선택한 경우 대화 상자는 다음과 유사하게 표시됩니다.
+15. **확인** 을 선택합니다. **확장됨** 을 선택한 경우 대화 상자는 다음과 유사하게 표시됩니다.
     
     ![속성 창의 위임 탭을 보여 주는 Power BI 보고서의 스크린샷.](media/configure-kerberos-powerbi-reports/powerbi-report-config-delegation.png)
-16. **확인**을 선택합니다.
+16. **확인** 을 선택합니다.
 17. Power BI Report Server를 다시 부팅합니다.
 
 ## <a name="running-a-power-bi-report"></a>Power BI 보고서 실행

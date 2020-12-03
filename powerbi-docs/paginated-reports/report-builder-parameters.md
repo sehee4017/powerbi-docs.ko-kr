@@ -1,20 +1,20 @@
 ---
 title: Power BI 보고서 작성기의 보고서 매개 변수
 description: 이 토픽에서는 Power BI 보고서 작성기 보고서 매개 변수의 일반적인 용도와 설정할 수 있는 속성 등에 대해 설명합니다.
+author: maggiesMSFT
+ms.author: maggies
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-author: maggiesMSFT
-ms.author: maggies
 ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/06/2019
-ms.openlocfilehash: 6c0a891257ae4e768c3952398eb8303906bf2ce4
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 77388e138451242ae54f4d1f0630599bbd9de829
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297797"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416281"
 ---
 # <a name="report-parameters-in-power-bi-report-builder"></a>Power BI 보고서 작성기의 보고서 매개 변수
 
@@ -145,7 +145,7 @@ ms.locfileid: "93297797"
 ##  <a name="parameters-for-a-subscription"></a><a name="bkmk_Parameters_Subscription"></a> 구독의 매개 변수  
  요청 시 또는 스냅샷에 대한 구독을 정의하고 구독을 처리하는 중에 사용할 매개 변수 값을 지정할 수 있습니다.  
   
--   **요청 시 실행 보고서.**  요청 시 실행 보고서의 경우 보고서에 대해 나열된 각 매개 변수의 게시된 값과는 다른 매개 변수 값을 지정할 수 있습니다. 예를 들어 *Time Period* 매개 변수를 사용하여 현재 날짜, 주 또는 월에 해당하는 고객 서비스 요청을 반환하는 서비스 호출 보고서가 있다고 가정합니다. 보고서의 기본 매개 변수 값이 **today** 로 설정된 경우 구독에서는 다른 매개 변수 값(예: **week** 또는 **month** )을 사용하여 주 또는 월을 나타내는 숫자가 포함된 보고서를 생성할 수 있습니다.  
+-   **요청 시 실행 보고서.**  요청 시 실행 보고서의 경우 보고서에 대해 나열된 각 매개 변수의 게시된 값과는 다른 매개 변수 값을 지정할 수 있습니다. 예를 들어 *Time Period* 매개 변수를 사용하여 현재 날짜, 주 또는 월에 해당하는 고객 서비스 요청을 반환하는 서비스 호출 보고서가 있다고 가정합니다. 보고서의 기본 매개 변수 값이 **today** 로 설정된 경우 구독에서는 다른 매개 변수 값(예: **week** 또는 **month**)을 사용하여 주 또는 월을 나타내는 숫자가 포함된 보고서를 생성할 수 있습니다.  
   
 ## <a name="next-steps"></a>다음 단계
 

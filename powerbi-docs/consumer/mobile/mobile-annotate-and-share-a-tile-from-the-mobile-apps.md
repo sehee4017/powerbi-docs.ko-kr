@@ -2,18 +2,18 @@
 title: Power BI 모바일 앱에 주석 달기 및 공유
 description: 'iOS 및 Android용 Microsoft Power BI 모바일 앱의 타일, 보고서 및 시각화 개체에 주석을 달고 공유하는 방법에 대해 알아보세요. '
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: 58a282116a672f33c0e05e7a3e6532ede316b3d3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: af8cb247d2a931ac9fb7aa54fc37f9f4dcde74ae
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239333"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416626"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 타일, 보고서 또는 시각적 개체에 주석 달기 및 공유
 적용 대상:
@@ -61,15 +61,15 @@ iOS 및 Android 디바이스용 Power BI 모바일 앱에서 타일, 보고서 �
    *Android 디바이스에서 주석 표시줄*
    
    * 다양한 색과 두께의 줄을 그리려면 구불구불한 선 모양 아이콘을 탭하고 색과 너비를 선택한 다음 그립니다.  
-   * 설명을 입력하려면 **AA**를 탭하고 텍스트 크기와 색을 선택한 다음 입력합니다.  
+   * 설명을 입력하려면 **AA** 를 탭하고 텍스트 크기와 색을 선택한 다음 입력합니다.  
    * 타일에 스탬프(예: 이모티콘)를 붙여넣으려면 웃는 얼굴을 탭하고 색을 선택한 다음 원하는 위치를 탭합니다.   
-2. 주석을 추가한 후 오른쪽 위 모서리에 있는 **공유**를 탭합니다.
+2. 주석을 추가한 후 오른쪽 위 모서리에 있는 **공유** 를 탭합니다.
 3. 메일 앱을 열고 수신자의 이름을 입력하고 원하는 경우 메시지를 수정합니다.  
    
    ![전자 메일에서 주석이 달린 보고서](./media/mobile-annotate-and-share-a-tile-from-the-mobile-apps/power-bi-iphone-annotate-send.png)
    
    메일에는 특정 타일, 보고서 또는 시각적 개체에 대한 이미지 및 링크가 있습니다. 
-4. **송신**을 누릅니다.
+4. **송신** 을 누릅니다.
 
 ## <a name="next-steps"></a>다음 단계
 * [Power BI 모바일 앱에서 대시보드 공유](mobile-share-dashboard-from-the-mobile-apps.md)

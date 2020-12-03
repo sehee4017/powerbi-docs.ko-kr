@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 9e639c4a22cc4e01c04374289026a7006f33143b
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 698f12f4bf5266373be8393d2add45d70979ab41
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861869"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418443"
 ---
 # <a name="embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>SharePoint Server에서 iFrame을 사용하여 Power BI Report Server 보고서 포함
 
@@ -29,7 +29,7 @@ ms.locfileid: "90861869"
 
 ## <a name="create-the-power-bi-report-url"></a>Power BI 보고서 URL 만들기
 
-1. GitHub에서 샘플을 다운로드합니다. [블로그 데모](https://github.com/Microsoft/powerbi-desktop-samples) **복제 또는 다운로드**를 선택한 다음, **ZIP 다운로드**를 선택합니다.
+1. GitHub에서 샘플을 다운로드합니다. [블로그 데모](https://github.com/Microsoft/powerbi-desktop-samples) **복제 또는 다운로드** 를 선택한 다음, **ZIP 다운로드** 를 선택합니다.
 
     ![샘플 PBIX 파일 다운로드](media/quickstart-embed/quickstart_embed_14.png)
 
@@ -37,7 +37,7 @@ ms.locfileid: "90861869"
 
     ![PBI RS 데스크톱 도구](media/quickstart-embed/quickstart_embed_02.png)
 
-3. 보고서를 **Power BI Report Server**에 저장합니다. 
+3. 보고서를 **Power BI Report Server** 에 저장합니다. 
 
     ![PBI RS 저장](media/quickstart-embed/quickstart_embed_03.png)
 
@@ -63,23 +63,23 @@ URL이 있으면 SharePoint 페이지 내에서 보고서를 호스트할 iFrame
 
     ![사이트 콘텐츠 페이지 앱](media/quickstart-embed/quickstart_embed_06.png)
 
-3. 오른쪽 위에 있는 기어 아이콘을 선택한 다음, **페이지 편집**을 선택합니다.
+3. 오른쪽 위에 있는 기어 아이콘을 선택한 다음, **페이지 편집** 을 선택합니다.
 
     ![페이지 편집 옵션](media/quickstart-embed/quickstart_embed_07.png)
 
-4. **웹 파트 추가**를 선택합니다.
+4. **웹 파트 추가** 를 선택합니다.
 
-5. **범주**에서 **미디어 및 콘텐츠**를 선택합니다. **파트**에서 **콘텐츠 편집기**를 선택한 다음, **추가**를 선택합니다.
+5. **범주** 에서 **미디어 및 콘텐츠** 를 선택합니다. **파트** 에서 **콘텐츠 편집기** 를 선택한 다음, **추가** 를 선택합니다.
 
     ![콘텐츠 편집기 웹 파트 선택](media/quickstart-embed/quickstart_embed_09.png)
 
-6. **새 콘텐츠를 추가하려면 여기를 클릭**을 선택합니다.
+6. **새 콘텐츠를 추가하려면 여기를 클릭** 을 선택합니다.
 
-7. 위쪽 메뉴에서 **텍스트 서식**을 선택한 다음, **원본 편집**을 선택합니다.
+7. 위쪽 메뉴에서 **텍스트 서식** 을 선택한 다음, **원본 편집** 을 선택합니다.
 
      ![원본 편집](media/quickstart-embed/quickstart_embed_11.png)
 
-8. **원본 편집** 창에서 iFrame 코드를 **HTML 소스**에 붙여넣고 **확인**을 선택합니다.
+8. **원본 편집** 창에서 iFrame 코드를 **HTML 소스** 에 붙여넣고 **확인** 을 선택합니다.
 
     ![iFrame 코드](media/quickstart-embed/quickstart_embed_12.png)
 
@@ -88,7 +88,7 @@ URL이 있으면 SharePoint 페이지 내에서 보고서를 호스트할 iFrame
      <iframe width="800" height="600" src="https://myserver/reports/powerbi/Sales?rs:embed=true" frameborder="0" allowFullScreen="true"></iframe>
      ```
 
-9. 위쪽 메뉴에서 **페이지**를 선택한 다음, **편집 중지**를 선택합니다.
+9. 위쪽 메뉴에서 **페이지** 를 선택한 다음, **편집 중지** 를 선택합니다.
 
     ![편집 중지](media/quickstart-embed/quickstart_embed_13.png)
 

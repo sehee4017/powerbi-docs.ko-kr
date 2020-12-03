@@ -1,20 +1,20 @@
 ---
 title: '자습서:  Power BI 서비스에서 만들기 시작'
 description: Power BI 온라인 서비스 시작(app.powerbi.com)
-author: maggiesMSFT
+author: mihart
+ms.author: mihart
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 ms.topic: tutorial
 ms.date: 07/08/2020
-ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: eeda30e5a075166af3718084c2c9f7737f876cbe
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 4e74bec243faad281c457caaa15a6edacf2b10cb
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861110"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417132"
 ---
 # <a name="tutorial-get-started-creating-in-the-power-bi-service"></a>자습서:  Power BI 서비스에서 만들기 시작
 이 자습서는 *Power BI 서비스* 기능 중 일부를 소개합니다. 자습서를 통해 데이터에 연결하고, 보고서 및 대시보드를 만들고, 데이터에 대해 질문할 수 있습니다. Power BI 서비스에서 훨씬 더 많은 작업을 수행할 수 있습니다. 이 자습서는 의욕을 높여줍니다. Power BI 서비스를 다른 Power BI 제품에 적용하는 방법을 이해하려면 [Power BI란?](power-bi-overview.md)을 읽어 보시기 바랍니다.
@@ -48,22 +48,22 @@ Power BI 보고서를 만들고자 하는 경우 Power BI Desktop에서 시작�
 
     계정이 없는 경우 [Power BI Pro 무료 평가판에 등록](https://app.powerbi.com/signupredirect?pbi_source=web)할 수 있습니다.
 
-1. 탐색 창에서 **내 작업 영역**을 선택합니다.
+1. 탐색 창에서 **내 작업 영역** 을 선택합니다.
 
-1. **내 작업 영역**에서 **새로 만들기** > **파일 업로드**를 선택합니다.
+1. **내 작업 영역** 에서 **새로 만들기** > **파일 업로드** 를 선택합니다.
 
     **데이터 가져오기** 페이지가 열립니다.   
 
-3. **새 콘텐츠 만들기** 섹션에서 **파일**이 선택되어 있는지 확인한 후 Excel 파일을 저장한 위치를 선택합니다.
+3. **새 콘텐츠 만들기** 섹션에서 **파일** 이 선택되어 있는지 확인한 후 Excel 파일을 저장한 위치를 선택합니다.
    
     :::image type="content" source="media/service-get-started/power-bi-service-get-data-local-file.png" alt-text="새 콘텐츠 만들기 > 파일의 스크린샷":::
 
-5. 컴퓨터에서 파일을 찾은 다음 **열기**를 선택합니다.
+5. 컴퓨터에서 파일을 찾은 다음 **열기** 를 선택합니다.
 
-5. 이 자습서에 대해 **가져오기**를 선택하여 Excel 파일을 데이터 세트로 추가합니다. 그런 다음, 보고서와 대시보드를 만드는 데 사용할 수 있습니다. **업로드**를 선택하면 전체 Excel 통합 문서가 Power BI에 업로드되고, Excel Online에서 열어 편집할 수 있습니다.
+5. 이 자습서에 대해 **가져오기** 를 선택하여 Excel 파일을 데이터 세트로 추가합니다. 그런 다음, 보고서와 대시보드를 만드는 데 사용할 수 있습니다. **업로드** 를 선택하면 전체 Excel 통합 문서가 Power BI에 업로드되고, Excel Online에서 열어 편집할 수 있습니다.
    
    :::image type="content" source="media/service-get-started/power-bi-import.png" alt-text="가져오기 선택의 스크린샷":::
-6. 데이터 세트가 준비되면 재무 샘플 데이터 세트 옆에 있는 **추가 옵션(...)** 을 선택한 다음 **보고서 만들기**를 선택합니다.
+6. 데이터 세트가 준비되면 재무 샘플 데이터 세트 옆에 있는 **추가 옵션(...)** 을 선택한 다음 **보고서 만들기** 를 선택합니다.
 1. 보고서 편집기를 엽니다. 
 
     :::image type="content" source="media/service-get-started/power-bi-service-datasets.png" alt-text="모든 콘텐츠 > 보고서 만들기의 스크린샷":::
@@ -82,7 +82,7 @@ Power BI 보고서를 만들고자 하는 경우 Power BI Desktop에서 시작�
 
     :::image type="content" source="media/service-get-started/power-bi-service-reading-view.png" alt-text="읽기용 보기 옵션의 스크린샷":::
 
-    편집용 보기에서는 자신이 보고서의 ‘소유자’ 및 ‘작성자’이므로 보고서를 수정할 수 있습니다.  동료와 보고서를 공유하는 경우, 동료는 종종 읽기용 보기에서 보고서를 조작할 수만 있으며 **내 작업 영역**에서 보고서 ‘소비자’입니다. 
+    편집용 보기에서는 자신이 보고서의 ‘소유자’ 및 ‘작성자’이므로 보고서를 수정할 수 있습니다.  동료와 보고서를 공유하는 경우, 동료는 종종 읽기용 보기에서 보고서를 조작할 수만 있으며 **내 작업 영역** 에서 보고서 ‘소비자’입니다. 
 
 ## <a name="step-2-create-a-chart-in-a-report"></a>2단계: 보고서에서 차트 만들기
 데이터에 연결되었으므로 탐색을 시작합니다. 흥미로운 항목을 발견하면 보고서 캔버스에 저장할 수 있습니다. 그런 다음 대시보드에 고정하여 모니터링하고 시간이 지남에 따라 어떻게 변경되는지 확인할 수 있습니다. 하지만 먼저 해야 할 일이 있습니다.
@@ -104,17 +104,17 @@ Power BI 보고서를 만들고자 하는 경우 Power BI Desktop에서 시작�
    
    :::image type="content" source="media/service-get-started/power-bi-service-select-line-chart.png" alt-text="꺾은선형 차트가 선택된 보고서 편집기의 스크린샷":::
 
-3. 이 차트가 흥미로워 보이므로 대시보드에 *고정*해 보겠습니다. 시각화를 마우스로 가리키고 고정 아이콘을 선택합니다.
+3. 이 차트가 흥미로워 보이므로 대시보드에 *고정* 해 보겠습니다. 시각화를 마우스로 가리키고 고정 아이콘을 선택합니다.
    
    :::image type="content" source="media/service-get-started/power-bi-service-pin-visual.png" alt-text="고정 아이콘의 스크린샷":::
 
-4. 이 보고서는 새로운 항목이므로, 먼저 저장해야 시각화를 대시보드에 고정할 수 있다는 메시지가 표시됩니다. 보고서에 이름을 ‘재무 샘플 보고서’ 등으로 지정하고 **저장**을 선택합니다. 
+4. 이 보고서는 새로운 항목이므로, 먼저 저장해야 시각화를 대시보드에 고정할 수 있다는 메시지가 표시됩니다. 보고서에 이름을 ‘재무 샘플 보고서’ 등으로 지정하고 **저장** 을 선택합니다. 
 
     이제 보고서가 읽기용 보기에서 표시됩니다. 
 
 6. **고정** 아이콘을 다시 선택합니다.
  
-5. **새 대시보드**를 선택하고 ‘재무 샘플 대시보드’로 이름을 지정합니다. 
+5. **새 대시보드** 를 선택하고 ‘재무 샘플 대시보드’로 이름을 지정합니다. 
    
    :::image type="content" source="media/service-get-started/power-bi-pin.png" alt-text="대시보드 이름 지정의 스크린샷":::
   
@@ -124,13 +124,13 @@ Power BI 보고서를 만들고자 하는 경우 Power BI Desktop에서 시작�
 
     이 시각적 개체를 고정했으므로 이제 이 시각적 개체는 대시보드에 저장되었습니다. 데이터가 최신 상태로 유지되므로, 최신 값을 한눈에 추적할 수 있습니다. 그러나 보고서의 시각화 형식을 변경하는 경우 대시보드의 시각화는 변경되지 않습니다.
 
-7. **대시보드로 이동**을 선택하여 새 대시보드에 타일로 고정한 꺾은선형 차트를 확인합니다. 
+7. **대시보드로 이동** 을 선택하여 새 대시보드에 타일로 고정한 꺾은선형 차트를 확인합니다. 
    
    :::image type="content" source="media/service-get-started/power-bi-service-dashboard-tile.png" alt-text="시각적 개체가 고정된 대시보드의 스크린샷":::
    
 8. 대시보드에서 새 타일을 선택합니다. Power BI가 읽기용 보기에서 보고서로 돌아갑니다.
 
-1. 편집용 보기로 다시 전환하려면 메뉴 모음에서 **추가 옵션**(...) > **편집**을 선택합니다.
+1. 편집용 보기로 다시 전환하려면 메뉴 모음에서 **추가 옵션**(...) > **편집** 을 선택합니다.
 
     :::image type="content" source="media/service-get-started/power-bi-service-edit-report.png" alt-text="편집을 선택하여 보고서 편집의 스크린샷":::
 
@@ -144,42 +144,42 @@ Power BI 보고서를 만들고자 하는 경우 Power BI Desktop에서 시작�
 
     :::image type="content" source="media/service-get-started/power-bi-service-go-my-workspace.png" alt-text="내 작업 영역으로 돌아가기의 스크린샷":::
 
-1. **내 작업 영역**에서 대시보드를 선택합니다.
+1. **내 작업 영역** 에서 대시보드를 선택합니다.
 
     :::image type="content" source="media/service-get-started/power-bi-service-dashboard-tab.png" alt-text="대시보드 선택의 스크린샷":::
 
-1. **데이터에 대해 질문하기**를 선택합니다. 질문 및 답변에서 자동으로 몇 가지 제안을 제공합니다. 
+1. **데이터에 대해 질문하기** 를 선택합니다. 질문 및 답변에서 자동으로 몇 가지 제안을 제공합니다. 
 
     :::image type="content" source="media/service-get-started/power-bi-service-new-qanda.png" alt-text="질문 및 답변 캔버스의 스크린샷":::
 
     > [!NOTE]
-    > 제안이 표시되지 않는 경우 **새 질문 및 답변 환경**을 켭니다.
+    > 제안이 표시되지 않는 경우 **새 질문 및 답변 환경** 을 켭니다.
 
     :::image type="content" source="media/service-get-started/power-bi-new-qna-experience.png" alt-text="새 질문 및 답변 환경 설정의 스크린샷":::
 
-1. 일부 제안은 단일 값을 반환합니다. 예를 들어 **what is the average cog**를 선택합니다.
+1. 일부 제안은 단일 값을 반환합니다. 예를 들어 **what is the average cog** 를 선택합니다.
 
     질문 및 답변에서 답변을 검색하고 *카드* 시각화 형태로 제공합니다.
 
-3. **시각적 개체 고정**을 선택하여 이 시각화를 재무 샘플 대시보드에 고정합니다.
+3. **시각적 개체 고정** 을 선택하여 이 시각화를 재무 샘플 대시보드에 고정합니다.
 
     :::image type="content" source="media/service-get-started/power-bi-qna-pin-tile.png" alt-text="시각적 개체 고정의 스크린샷":::
 
-1. 질문 및 답변으로 돌아가 **모든 제안 표시**를 선택합니다.
-1. **total profit by country**를 선택합니다. 
+1. 질문 및 답변으로 돌아가 **모든 제안 표시** 를 선택합니다.
+1. **total profit by country** 를 선택합니다. 
 
     :::image type="content" source="media/service-get-started/power-bi-qna-total-profit-country.png" alt-text="국가별 총 수익의 스크린샷":::
 
 1. 지도도 재무 샘플 대시보드에 고정합니다.
 
 1. 대시보드에서 방금 고정한 지도를 선택합니다. 질문 및 답변을 다시 여는 방법을 확인하실 수 있죠? 
-1. 질문 및 답변 상자의 *by country* 뒤에 커서를 놓고 *as bar*를 입력합니다. Power BI에서 결과가 포함된 막대형 차트가 만들어집니다.
+1. 질문 및 답변 상자의 *by country* 뒤에 커서를 놓고 *as bar* 를 입력합니다. Power BI에서 결과가 포함된 막대형 차트가 만들어집니다.
 
     :::image type="content" source="media/service-get-started/power-bi-qna-profit-country-bar.png" alt-text="막대형 차트 시각화의 스크린샷":::
 
 1. 막대형 차트도 재무 샘플 대시보드에 고정합니다.
 
-4. **질문 및 답변 끝내기**를 선택하여 대시보드로 돌아가면 만들어진 새 타일이 표시됩니다. 
+4. **질문 및 답변 끝내기** 를 선택하여 대시보드로 돌아가면 만들어진 새 타일이 표시됩니다. 
 
    :::image type="content" source="media/service-get-started/power-bi-service-dashboard-qna.png" alt-text="질문과 답변 시각적 개체가 고정된 대시보드의 스크린샷":::
 
@@ -195,11 +195,11 @@ Power BI 보고서를 만들고자 하는 경우 Power BI Desktop에서 시작�
 
     이제 두 타일의 높이가 같습니다.
 
-1. Average of COGS 타일에 대해 **추가 옵션(...)** 을 선택한 후 **세부 정보 편집**을 선택합니다. 
+1. Average of COGS 타일에 대해 **추가 옵션(...)** 을 선택한 후 **세부 정보 편집** 을 선택합니다. 
 
     :::image type="content" source="media/service-get-started/power-bi-tile-edit-details.png" alt-text="타일에 대한 추가 옵션 메뉴의 스크린샷":::
 
-1. **제목** 상자에 ‘평균 판매 제품 원가’ 입력 > **적용**을 선택합니다.
+1. **제목** 상자에 ‘평균 판매 제품 원가’ 입력 > **적용** 을 선택합니다.
 
     :::image type="content" source="media/service-get-started/power-bi-tile-details-dialog.png" alt-text="세부 정보 편집 대화 상자의 스크린샷":::
 
@@ -213,14 +213,14 @@ Power BI 보고서를 만들고자 하는 경우 Power BI Desktop에서 시작�
 ## <a name="clean-up-resources"></a>리소스 정리
 자습서를 완료했으므로 데이터 세트, 보고서 및 대시보드를 삭제할 수 있습니다. 
 
-1. 검은색 **Power BI** 머리글 표시줄에서 **내 작업 영역**을 선택합니다.
-2. 재무 샘플 데이터 세트 옆에서 **추가 옵션(...)** 을 선택한 후 **삭제**를 선택합니다.
+1. 검은색 **Power BI** 머리글 표시줄에서 **내 작업 영역** 을 선택합니다.
+2. 재무 샘플 데이터 세트 옆에서 **추가 옵션(...)** 을 선택한 후 **삭제** 를 선택합니다.
 
     :::image type="content" source="media/service-get-started/power-bi-service-delete-dataset.png" alt-text="데이터 세트 삭제의 스크린샷":::
 
-    **이 데이터 세트의 데이터를 포함하는 모든 보고서 및 대시보드 타일이 삭제됩니다**라는 경고가 표시됩니다.
+    **이 데이터 세트의 데이터를 포함하는 모든 보고서 및 대시보드 타일이 삭제됩니다** 라는 경고가 표시됩니다.
 
-4. **삭제**를 선택합니다.
+4. **삭제** 를 선택합니다.
 
 ## <a name="next-steps"></a>다음 단계
 

@@ -2,18 +2,18 @@
 title: 원격으로 보고서 서버에 대한 모바일 앱 액세스 권한 구성
 description: 원격으로 보고서 서버에 모바일 앱을 구성하는 방법을 알아봅니다.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 11/07/2019
-ms.author: painbar
-ms.openlocfilehash: d5f55c005f34bc1e3aa9ab5351b816616f4f7664
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: c83ce0735e31e65a813723ce411281821680628d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668347"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418098"
 ---
 # <a name="configure-power-bi-mobile-app-access-to-report-server-remotely"></a>원격으로 보고서 서버에 대한 Power BI 모바일 앱 액세스 권한 구성
 
@@ -53,15 +53,15 @@ Intune을 사용하여 구성 정책 설정하는 예제는 다음과 같습니�
 
  배포 목록에 대한 앱 구성 정책을 게시한다고 가정해 보겠습니다. 해당 배포 목록의 사용자와 디바이스가 모바일 앱을 시작하면 다음과 같은 환경을 갖게 됩니다. 
 
-1. 보고서 서버를 사용하여 해당 모바일 앱을 구성한다는 메시지가 표시되면 **로그인**을 누릅니다.
+1. 보고서 서버를 사용하여 해당 모바일 앱을 구성한다는 메시지가 표시되면 **로그인** 을 누릅니다.
 
     ![보고서 서버에 로그인](media/configure-powerbi-mobile-apps-remote/power-bi-config-server-sign-in.png)
 
-2.  **서버에 연결** 페이지에서 보고서 서버 세부 정보가 이미 입력되었습니다. **연결**을 누릅니다.
+2.  **서버에 연결** 페이지에서 보고서 서버 세부 정보가 이미 입력되었습니다. **연결** 을 누릅니다.
 
     ![보고서 서버 세부 정보 입력](media/configure-powerbi-mobile-apps-remote/power-bi-ios-remote-configure-connect-server.png)
 
-3. 인증하기 위해 암호를 입력한 다음, **로그인**을 누릅니다. 
+3. 인증하기 위해 암호를 입력한 다음, **로그인** 을 누릅니다. 
 
     ![암호 입력과 로그인 단추를 보여 주는 스크린샷.](media/configure-powerbi-mobile-apps-remote/power-bi-config-server-address.png)
 

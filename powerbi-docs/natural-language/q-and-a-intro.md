@@ -2,17 +2,17 @@
 title: 자연어를 사용하여 Power BI 질문 및 답변을 통해 데이터 탐색
 description: 쿼리에 자연어를 사용하여 Power BI 질문 및 답변을 통해 데이터를 탐색하고 시각화를 만드는 방법입니다.
 author: mohaali
+ms.author: mohaali
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 07/01/2020
-ms.author: mohaali
-ms.openlocfilehash: d9339c0005f7f2af9fedd5cc5bfcce40469afb8c
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 71a78fe6b1af909079ca0a187ddb14d643c4e576
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749164"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416419"
 ---
 # <a name="intro-to-power-bi-qa"></a>Power BI 질문 및 답변 소개
 
@@ -49,7 +49,7 @@ Power BI 질문 및 답변은 무료이며 모든 사용자가 사용할 수 있
 
 ![질문 및 답변 파란색 밑줄](media/qna-blue-underline.png)
 
- 주황색 밑줄은 하나 이상의 단어가 *낮은 신뢰도*로 분류됨을 나타냅니다. 모호한 단어를 입력하면 필드에 주황색 밑줄이 표시됩니다. ‘Sales’ 단어를 예로 들 수 있습니다. 여러 필드에 ‘Sales’ 단어가 포함될 수 있으므로, 시스템에서 주황색 밑줄을 사용하여 해당 필드를 선택하라는 메시지를 표시합니다. 낮은 신뢰도의 또 다른 예로 ‘area’ 단어를 입력했는데 일치하는 열이 ‘region’인 경우가 있습니다. Power BI 질문 및 답변은 Bing과 Office의 통합 덕분에 동일한 것을 의미하는 단어를 인식하며, 보고서 내에서의 이름 변경을 잠재적 제안으로 해석합니다. 질문 및 답변은 단어에 주황색 밑줄을 표시하여 직접 일치하지 않음을 알립니다.
+ 주황색 밑줄은 하나 이상의 단어가 *낮은 신뢰도* 로 분류됨을 나타냅니다. 모호한 단어를 입력하면 필드에 주황색 밑줄이 표시됩니다. ‘Sales’ 단어를 예로 들 수 있습니다. 여러 필드에 ‘Sales’ 단어가 포함될 수 있으므로, 시스템에서 주황색 밑줄을 사용하여 해당 필드를 선택하라는 메시지를 표시합니다. 낮은 신뢰도의 또 다른 예로 ‘area’ 단어를 입력했는데 일치하는 열이 ‘region’인 경우가 있습니다. Power BI 질문 및 답변은 Bing과 Office의 통합 덕분에 동일한 것을 의미하는 단어를 인식하며, 보고서 내에서의 이름 변경을 잠재적 제안으로 해석합니다. 질문 및 답변은 단어에 주황색 밑줄을 표시하여 직접 일치하지 않음을 알립니다.
 
 빨간색 밑줄은 질문 및 답변이 단어를 전혀 인식하지 못했음을 의미합니다. 데이터에서 언급되지 않은 도메인 특정 용어를 사용하거나 데이터 필드의 이름이 잘못 지정된 경우에 이 문제가 발생할 수 있습니다. 데이터에 없는 ‘Costs’라는 단어를 사용하는 경우를 예로 들 수 있습니다. 단어가 영어 사전에는 있지만, 질문 및 답변은 이 용어를 빨간색 밑줄로 표시하여 데이터와 관련하여 이 용어를 찾지 못했음을 나타냅니다.
 
@@ -84,7 +84,7 @@ Power BI Desktop 또는 Power BI 서비스에서 다음 두 가지 방법으로 
 
 ![질문 및 답변 시각적 개체 아이콘](media/qna-visual-icon.png)
 
-단추를 추가하려면 **홈** 리본에서 **단추** > **질문 및 답변**을 선택합니다. 질문 및 답변 단추 이미지를 완전히 사용자 지정할 수 있습니다.
+단추를 추가하려면 **홈** 리본에서 **단추** > **질문 및 답변** 을 선택합니다. 질문 및 답변 단추 이미지를 완전히 사용자 지정할 수 있습니다.
 
 > [!NOTE]
 > 단추에서 질문 및 답변을 시작하면 여전히 이전 질문 및 답변이 사용됩니다. 후속 Power BI 릴리스에서 변경될 예정입니다.

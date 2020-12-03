@@ -1,19 +1,19 @@
 ---
 title: Power BI 보고서 작성기에서 보고서 미리 보기
 description: 페이지를 매긴 보고서 작성기 보고서를 만드는 동안 보고서가 원하는 것을 표시하는지 확인하기 위해 보고서를 종종 미리 보는 것은 유용합니다.
+author: maggiesMSFT
+ms.author: maggies
 ms.date: 06/06/2019
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.assetid: ba6b5bdd-d8c6-4aa8-ba32-3a10b11969d4
-author: maggiesMSFT
-ms.author: maggies
-ms.openlocfilehash: b12937ec758202345166e520397a52e52b67165d
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: d982174d814b3f1042e02dc9beda762848c48086
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93298145"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416212"
 ---
 # <a name="previewing-reports-in-power-bi-report-builder"></a>Power BI 보고서 작성기에서 보고서 미리 보기
 

@@ -5,15 +5,15 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
+ms.topic: conceptual
 ms.date: 01/12/2020
-ms.openlocfilehash: 74fec4e7fae2fc8630592c435adb42b34c93ef43
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: df7a2909e3ccd745fdaa990ba5281a723ef6360d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049364"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416718"
 ---
 # <a name="power-bi-visual-project-structure"></a>Power BI 시각적 개체 프로젝트 구조
 
@@ -82,7 +82,7 @@ Power BI 시각적 개체 도구는 이 폴더에서 다음 파일을 만듭니�
 
 ### <a name="package-lockjson"></a>package-lock.json
 
-이 파일은 *npm*이 `node_modules` 트리 또는 `package.json` 파일을 수정하는 모든 작업에 대해 자동으로 생성됩니다.
+이 파일은 *npm* 이 `node_modules` 트리 또는 `package.json` 파일을 수정하는 모든 작업에 대해 자동으로 생성됩니다.
 
 이 파일에 대한 자세한 내용은 공식 [npm-package-lock.json](https://docs.npmjs.com/files/package-lock.json) 설명서를 참조하세요.
 

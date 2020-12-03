@@ -2,19 +2,19 @@
 title: Power BI 보고서에서 차트 눈금선 제어
 description: Power BI Desktop 또는 Power BI 서비스에서 Power BI 보고서 시각적 개체의 차트 눈금선을 제어하기 위한 3가지 팁입니다.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 featuredvideoid: Y-igshes2LI
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 02/15/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 1a8dba63b0832886ce550cb2ed02249317e7240e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 1d2e082aa28fe0a3dfb0f1be4f2d910baa064e94
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83272767"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417799"
 ---
 # <a name="tips-to-control-chart-gridlines-in-power-bi-reports"></a>Power BI 보고서에서 차트 눈금선을 제어하기 위한 팁
 

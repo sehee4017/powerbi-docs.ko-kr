@@ -2,18 +2,18 @@
 title: Power BI Desktop에서 날짜 테이블 만들기
 description: Power BI Desktop에서 날짜 테이블을 만드는 방법 및 지침을 제공합니다.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 06/24/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 350d4889643556d4e1c6389580415ccba46b55d4
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 9040fb54e51dfeecad853e5ba980f423ab48e908
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396641"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417845"
 ---
 # <a name="create-date-tables-in-power-bi-desktop"></a>Power BI Desktop에서 날짜 테이블 만들기
 
@@ -22,7 +22,7 @@ ms.locfileid: "94396641"
 DAX(Data Analysis Expressions) [시간 인텔리전스 함수](/dax/time-intelligence-functions-dax)를 사용하려면 모델 사전 요구 사항이 있습니다. 모델에 _날짜 테이블_ 이 하나 이상 있어야 합니다. 날짜 테이블은 다음 요구 사항을 충족하는 테이블입니다.
 
 > [!div class="checklist"]
-> - 이 테이블에 데이터 형식 **date** (또는 **date/time** )의 열이 있어야 합니다. 이 열은 _날짜 열_ 이라고 합니다.
+> - 이 테이블에 데이터 형식 **date**(또는 **date/time**)의 열이 있어야 합니다. 이 열은 _날짜 열_ 이라고 합니다.
 > - 날짜 열에는 고유한 값이 있어야 합니다.
 > - 날짜 열에는 공백이 포함되면 안됩니다.
 > - 날짜 열에는 누락된 날짜가 없어야 합니다.

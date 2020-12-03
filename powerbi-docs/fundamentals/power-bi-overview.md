@@ -1,27 +1,27 @@
 ---
 title: Power BI란?
 description: Power BI 개요 및 다양한 부분의 연동 방식 - Power BI Desktop, Power BI 서비스, Power BI Mobile, Report Server 및 Power BI Embedded.
-author: maggiesMSFT
+author: mihart
+ms.author: mihart
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 ms.topic: overview
 ms.date: 09/23/2020
-ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 2c793cf0b7af6f6a7fdbc6196052ac357b6ddd12
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: acbd0761b481ec4884ab94d50de219a2d753b574
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91375343"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416534"
 ---
 # <a name="what-is-power-bi"></a>Power BI란?
-**Power BI**는 관련 없는 데이터 소스를 시각적으로 몰입도가 뛰어나고 일관된 대화형 정보로 변환하는 소프트웨어 서비스, 앱 및 커넥터의 컬렉션입니다. 데이터는 Excel 스프레드시트이거나 클라우드 기반 및 온-프레미스 하이브리드 데이터 웨어하우스의 컬렉션일 수 있습니다. Power BI를 사용하면 쉽게 데이터 원본에 연결하고, 중요한 항목을 시각화 및 검색하고, 원하는 모든 사람과 공유할 수 있습니다.
+**Power BI** 는 관련 없는 데이터 소스를 시각적으로 몰입도가 뛰어나고 일관된 대화형 정보로 변환하는 소프트웨어 서비스, 앱 및 커넥터의 컬렉션입니다. 데이터는 Excel 스프레드시트이거나 클라우드 기반 및 온-프레미스 하이브리드 데이터 웨어하우스의 컬렉션일 수 있습니다. Power BI를 사용하면 쉽게 데이터 원본에 연결하고, 중요한 항목을 시각화 및 검색하고, 원하는 모든 사람과 공유할 수 있습니다.
 
 ## <a name="the-parts-of-power-bi"></a>Power BI의 요소
 Power BI는 다음 세 가지 기본 사항부터 시작하여 모두 함께 작동하는 여러 요소로 구성됩니다. 
-- **Power BI Desktop**이라는 Windows 데스크톱 애플리케이션.
-- **Power BI 서비스**라는 온라인 SaaS(*Software as a Service*) 서비스. 
+- **Power BI Desktop** 이라는 Windows 데스크톱 애플리케이션.
+- **Power BI 서비스** 라는 온라인 SaaS(*Software as a Service*) 서비스. 
 - Windows, iOS 및 Android 디바이스용 Power BI **모바일 앱**.
 
 ![Power BI Desktop, 서비스 및 Mobile의 통합을 보여주는 다이어그램 스크린샷.](media/power-bi-overview/power-bi-overview-blocks.png)
@@ -36,7 +36,7 @@ Power BI는 다음 세 가지 기본 사항부터 시작하여 모두 함께 작
 ## <a name="how-power-bi-matches-your-role"></a>Power BI와 사용자 역할을 일치시키는 방법
 Power BI 사용 방법은 프로젝트 또는 팀에서 사용자의 역할에 따라 달라질 수 있습니다. 다른 역할을 맡은 사람은 Power BI를 다른 방식으로 사용할 수도 있습니다.
 
-예를 들어 여러분은 주로 **Power BI 서비스**를 사용하여 보고서 및 대시보드를 볼 수 있습니다. 숫자를 다루는 비즈니스 보고서를 작성하는 동료는 **Power BI Desktop** 또는 **Power BI 보고서 작성기**를 광범위하게 사용하여 보고서를 만든 다음, 여러분이 보는 Power BI 서비스에 해당 보고서를 게시할 수 있습니다. 영업을 담당하는 또 다른 동료는 주로 **Power BI 전화 앱**을 사용하여 영업 할당량 관련 진행 상황을 모니터링하고 새로운 잠재 고객의 세부 정보를 확인할 수 있습니다.
+예를 들어 여러분은 주로 **Power BI 서비스** 를 사용하여 보고서 및 대시보드를 볼 수 있습니다. 숫자를 다루는 비즈니스 보고서를 작성하는 동료는 **Power BI Desktop** 또는 **Power BI 보고서 작성기** 를 광범위하게 사용하여 보고서를 만든 다음, 여러분이 보는 Power BI 서비스에 해당 보고서를 게시할 수 있습니다. 영업을 담당하는 또 다른 동료는 주로 **Power BI 전화 앱** 을 사용하여 영업 할당량 관련 진행 상황을 모니터링하고 새로운 잠재 고객의 세부 정보를 확인할 수 있습니다.
 
 개발자인 경우 Power BI API를 사용하여 데이터를 데이터 세트로 푸시하거나 대시보드와 보고서를 사용자 지정 애플리케이션에 포함할 수 있습니다. 새로운 시각적 개체에 대한 아이디어가 있나요? 직접 빌드하고 다른 사람과 공유합니다.  
 
@@ -48,8 +48,8 @@ Power BI 사용 방법은 상황에 가장 적합한 Power BI 도구나 서비�
 - [*비즈니스 사용자*](../consumer/end-user-consumer.md)를 위한 Power BI
 - [*보고서 작성자*](desktop-what-is-desktop.md)를 위한 Power BI Desktop
 - [*엔터프라이즈 보고서 작성자*](../paginated-reports/paginated-reports-report-builder-power-bi.md)를 위한 Power BI 보고서 작성기
-- [ *‘관리자용’* ](../admin/service-admin-administering-power-bi-in-your-organization.md) Power BI
-- *개발자*용 Power BI
+- [ *‘관리자용’*](../admin/service-admin-administering-power-bi-in-your-organization.md) Power BI
+- *개발자* 용 Power BI
     * [Power BI를 사용한 임베디드 분석](../developer/embedded/embedding.md)
     * [Azure의 Power BI Embedded란?](../developer/embedded/azure-pbie-what-is-power-bi-embedded.md)
     * [Power BI의 시각적 개체](../developer/visuals/power-bi-custom-visuals.md)

@@ -2,18 +2,18 @@
 title: 활성 및 비활성 관계 지침
 description: 활성 또는 비활성 모델 관계 사용에 대한 지침입니다.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.author: v-pemyer
-ms.openlocfilehash: df9405dcf65eb39095f711edbcaf2a35e4a1f6aa
-ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
+ms.openlocfilehash: 9fcded0f898f450b5de43686effa115f6163ae21
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "91136238"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417891"
 ---
 # <a name="active-vs-inactive-relationship-guidance"></a>활성 및 비활성 관계 지침
 
@@ -31,7 +31,7 @@ ms.locfileid: "91136238"
 
 ![테이블 두 개가 포함된 모델을 보여 주는 다이어그램: Flight와 Airport라는 2개의 테이블이 포함되어 있습니다. 관계 디자인은 다음 단락에서 설명합니다.](media/relationships-active-inactive/flight-model-1.png)
 
-**Flight** 테이블과 **Airport** 테이블 사이에는 두 가지 모델 관계가 있습니다. **Flight** 테이블에서 **DepartureAirport** 및 **ArrivalAirport** 열은 **Airport** 테이블의 **Airport** 열과 연결되어 있습니다. 별모양 스키마 디자인에서 **Airport** 테이블은 [롤플레잉 차원](star-schema.md#role-playing-dimensions)으로 설명됩니다. 이 모델에서 두 역할은 _출발 공항_ 및 _도착 공항_입니다.
+**Flight** 테이블과 **Airport** 테이블 사이에는 두 가지 모델 관계가 있습니다. **Flight** 테이블에서 **DepartureAirport** 및 **ArrivalAirport** 열은 **Airport** 테이블의 **Airport** 열과 연결되어 있습니다. 별모양 스키마 디자인에서 **Airport** 테이블은 [롤플레잉 차원](star-schema.md#role-playing-dimensions)으로 설명됩니다. 이 모델에서 두 역할은 _출발 공항_ 및 _도착 공항_ 입니다.
 
 이 디자인은 관계형 별모양 스키마 디자인에 적합하지만 Power BI 모델에는 적합하지 않습니다. 모델 관계는 필터 전파를 위한 경로이고 이러한 경로는 결정적이어야 하기 때문입니다. 그래서 한 모델이 두 테이블 간에 여러 활성 관계를 가질 수 없는 것입니다. 따라서 이 예제에서 설명한 것처럼 한 관계는 활성 상태이고 다른 관계는 비활성 상태(파선으로 표시)입니다. 구체적으로 **ArrivalAirport** 열과의 관계가 활성 상태입니다. 즉 **Airport** 테이블에 적용된 필터가 **Flight** 테이블의 **ArrivalAirport** 열에 자동으로 전파됩니다.
 
@@ -41,7 +41,7 @@ ms.locfileid: "91136238"
 
 ![테이블 네 개가 포함된 모델을 보여 주는 다이어그램: Date, Flight, Departure Airport 및 Arrival Airport가 포함되어 있습니다.](media/relationships-active-inactive/flight-model-2.png)
 
-이제 모델에는 두 개의 공항 테이블 **Departure Airport** 및 **Arrival Airport**가 있습니다. 이러한 테이블과 **Flight** 테이블 간의 모델 관계가 활성화됩니다. 또한 **Departure Airport** 및 **Arrival Airport** 테이블의 열 이름 앞에는 _Departure_ 또는 _Arrival_이라는 접두사가 붙습니다.
+이제 모델에는 두 개의 공항 테이블 **Departure Airport** 및 **Arrival Airport** 가 있습니다. 이러한 테이블과 **Flight** 테이블 간의 모델 관계가 활성화됩니다. 또한 **Departure Airport** 및 **Arrival Airport** 테이블의 열 이름 앞에는 _Departure_ 또는 _Arrival_ 이라는 접두사가 붙습니다.
 
 이 향상된 모델 디자인에서 다음과 같은 보고서 디자인을 만들 수 있습니다.
 
@@ -56,10 +56,10 @@ ms.locfileid: "91136238"
 
 ### <a name="refactoring-methodology"></a>리팩터링 방법
 
-다음은 단일 롤플레잉 차원 유형 테이블에서 _역할당 하나의 테이블을 사용_하는 디자인으로 모델을 리팩터링하는 방법입니다.
+다음은 단일 롤플레잉 차원 유형 테이블에서 _역할당 하나의 테이블을 사용_ 하는 디자인으로 모델을 리팩터링하는 방법입니다.
 
 1. 비활성 관계를 모두 제거합니다.
-2. 롤플레잉 차원 유형 테이블의 이름을 해당 역할을 보다 잘 설명하도록 변경하는 것이 좋습니다. 이 예제에서 **Airport** 테이블이 **Flight** 테이블의 **ArrivalAirport** 열과 연결되어 있으므로 이름이 **Arrival Airport**로 바뀝니다.
+2. 롤플레잉 차원 유형 테이블의 이름을 해당 역할을 보다 잘 설명하도록 변경하는 것이 좋습니다. 이 예제에서 **Airport** 테이블이 **Flight** 테이블의 **ArrivalAirport** 열과 연결되어 있으므로 이름이 **Arrival Airport** 로 바뀝니다.
 3. 롤플레잉 테이블의 복사본을 만들고 해당 역할을 반영하는 이름을 지정합니다. 가져오기 테이블인 경우 계산된 테이블을 정의하는 것이 좋습니다. DirectQuery 테이블인 경우 파워 쿼리 쿼리를 복제할 수 있습니다.
 
     이 예제에서는 다음 계산된 테이블 정의를 사용하여 **Departure Airport** 테이블을 만들었습니다.
@@ -69,7 +69,7 @@ ms.locfileid: "91136238"
     ```
 
 4. 새 테이블과 연결되는 활성 관계를 만듭니다.
-5. 테이블이 해당 역할을 정확하게 반영하도록 테이블의 열 이름을 변경하는 것이 좋습니다. 이 예제에서 모든 열에는 _Departure_ 또는 _Arrival_이라는 접두사가 붙습니다. 이러한 이름을 통해 보고서 시각적 개체에 기본적으로 자체 설명적이고 모호하지 않은 레이블이 포함됩니다. 또한 질문 및 답변 환경을 개선하여 사용자가 질문을 쉽게 작성할 수 있습니다.
+5. 테이블이 해당 역할을 정확하게 반영하도록 테이블의 열 이름을 변경하는 것이 좋습니다. 이 예제에서 모든 열에는 _Departure_ 또는 _Arrival_ 이라는 접두사가 붙습니다. 이러한 이름을 통해 보고서 시각적 개체에 기본적으로 자체 설명적이고 모호하지 않은 레이블이 포함됩니다. 또한 질문 및 답변 환경을 개선하여 사용자가 질문을 쉽게 작성할 수 있습니다.
 6. 롤플레잉 테이블에 설명을 추가하는 것이 좋습니다. (**필드** 창에서 보고서 작성자가 테이블 위에 커서를 올려 놓으면 도구 설명에 설명이 표시됩니다.) 이러한 방식으로 모든 추가 필터 전파 세부 정보를 보고서 작성자에게 전달할 수 있습니다.
 
 ## <a name="inactive-relationships"></a>비활성 관계
@@ -78,7 +78,7 @@ ms.locfileid: "91136238"
 
 이제 다른 모델 및 보고 요구 사항을 살펴보겠습니다.
 
-- 한 판매 모델에 **Sales** 테이블이 포함되어 있으며, 이 테이블에는 두 개의 날짜 열 **OrderDate** 및 **ShipDate**가 있습니다.
+- 한 판매 모델에 **Sales** 테이블이 포함되어 있으며, 이 테이블에는 두 개의 날짜 열 **OrderDate** 및 **ShipDate** 가 있습니다.
 - **Sales** 테이블의 각 행은 단일 주문을 기록합니다.
 - 날짜 필터는 항상 유효한 날짜를 저장하는 **OrderDate** 열에 적용됩니다.
 - 하나의 측정값에만 **ShipDate** 열에 대한 날짜 필터 전파가 필요합니다. 이 열에는 (주문이 배송될 때까지) BLANK를 포함할 수 있습니다.
@@ -88,7 +88,7 @@ ms.locfileid: "91136238"
 
 ![테이블 두 개가 포함된 모델을 보여 주는 다이어그램: Sales와 Date라는 2개의 테이블이 포함되어 있습니다. Sales 테이블에는 6개의 측정값이 있습니다.](media/relationships-active-inactive/sales-model.png)
 
-**Sales** 테이블과 **Date** 테이블 사이에는 두 가지 모델 관계가 있습니다. **Sales** 테이블에서 **OrderDate** 및 **ShipDate** 열은 **Date** 테이블의 **Date** 열과 관련이 있습니다. 이 모델에서 **Date** 테이블에 대한 두 역할은 _주문 날짜_ 및 _배송 날짜_입니다. **OrderDate** 열과의 관계가 활성 상태입니다.
+**Sales** 테이블과 **Date** 테이블 사이에는 두 가지 모델 관계가 있습니다. **Sales** 테이블에서 **OrderDate** 및 **ShipDate** 열은 **Date** 테이블의 **Date** 열과 관련이 있습니다. 이 모델에서 **Date** 테이블에 대한 두 역할은 _주문 날짜_ 및 _배송 날짜_ 입니다. **OrderDate** 열과의 관계가 활성 상태입니다.
 
 여섯 개 측정값은 하나를 제외하고 모두 **OrderDate** 열을 기준으로 필터링해야 합니다. 그러나 **Orders Shipped** 측정값은 **ShipDate** 열을 기준으로 필터링해야 합니다.
 

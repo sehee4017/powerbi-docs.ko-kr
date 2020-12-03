@@ -2,19 +2,19 @@
 title: 페이지를 매긴 Power BI 보고서 하루에 끝내기 과정
 description: 이 비디오 기반 과정의 목표는 페이지를 매긴 Power BI 보고서를 만들고 게시하고 배포하는 데 필요한 기술 지식으로 보고서 작성자의 역량을 강화하는 것입니다.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: maggies
 featuredvideoid: DN1t5p9aui0
 ms.service: powerbi
-ms.subservice: report-builder
+ms.subservice: powerbi
 ms.topic: tutorial
 ms.date: 11/11/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 44ca1f021001161a978875377a1315dc14e5245d
-ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
+ms.openlocfilehash: e05078bf51cd33fb565dc783386258fe9ea305d1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94512979"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416373"
 ---
 # <a name="power-bi-paginated-reports-in-a-day-course"></a>페이지를 매긴 Power BI 보고서 하루에 끝내기 과정
 

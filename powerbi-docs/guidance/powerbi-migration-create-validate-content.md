@@ -2,22 +2,22 @@
 title: Power BI로 마이그레이션할 콘텐츠 만들기
 description: Power BI로 마이그레이션하는 경우 콘텐츠를 만들고 유효성을 검사하는 방법에 관한 지침입니다.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.author: v-pemyer
-ms.openlocfilehash: a12a320b061967e9201e3513e504277a9df586b4
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 03a55f2f414ca8af7ca86f51dcafb0258efc88b7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803504"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418604"
 ---
-# <a name="createcontenttomigratetopowerbi"></a>Power BI로 마이그레이션할 콘텐츠 만들기
+# <a name="create-content-to-migrate-to-power-bi"></a>Power BI로 마이그레이션할 콘텐츠 만들기
 
-이 문서에서는 Power BI로 마이그레이션할 때 콘텐츠를 만들고 유효성을 검사하는 작업과 관련된 **4단계**를 설명합니다.
+이 문서에서는 Power BI로 마이그레이션할 때 콘텐츠를 만들고 유효성을 검사하는 작업과 관련된 **4단계** 를 설명합니다.
 
 :::image type="content" source="media/powerbi-migration-create-validate-content/migrate-to-powerbi-stage-4.png" alt-text="Power BI 마이그레이션의 단계를 보여 주는 이미지. 이 문서에서는 4단계가 강조됩니다.":::
 

@@ -2,25 +2,25 @@
 title: 대시보드 타일 편집
 description: 이 자습서에서는 타일을 만들고 대시보드에 고정하는 방법부터 대시보드 타일을 편집하고, 크기를 조정하고, 이동하고, 이름을 바꾸고, 고정하고, 삭제하고, 하이퍼링크를 추가하는 방법을 살펴보겠습니다.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 03/02/2018
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: fd6117e3f5de4e8e82535c2594eec53d71117301
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4e217b0e75e8d2fadd2eff927ba3ef3c04e40e27
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219370"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417431"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>대시보드 타일 편집 또는 제거
 
-## <a name="dashboard-owners-versus-dashboard-consumers"></a>대시보드 *소유자*와 대시보드 *소비자*의 차이점
-대시보드를 만들거나 소유할 때 해당 대시보드에서 타일의 모양과 기본 동작을 변경하는 여러 옵션이 있습니다. 아래의 설정과 전략을 사용하여 동료들을 위한 대시보드 *소비* 경험을 디자인하세요.  타일을 선택하면 기본 보고서, 사용자 지정 URL 또는 다른 대시보드가 열립니까? [비디오 또는 스트리밍 데이터를 표시하는 타일을 추가](service-dashboard-add-widget.md)할 것입니까? [대화형 슬라이서가 있는 타일을 만들려는 경우](service-dashboard-pin-live-tile-from-report.md)도 있을 것입니다. *작성자*에게는 여러 가지 옵션이 있습니다. 
+## <a name="dashboard-owners-versus-dashboard-consumers"></a>대시보드 *소유자* 와 대시보드 *소비자* 의 차이점
+대시보드를 만들거나 소유할 때 해당 대시보드에서 타일의 모양과 기본 동작을 변경하는 여러 옵션이 있습니다. 아래의 설정과 전략을 사용하여 동료들을 위한 대시보드 *소비* 경험을 디자인하세요.  타일을 선택하면 기본 보고서, 사용자 지정 URL 또는 다른 대시보드가 열립니까? [비디오 또는 스트리밍 데이터를 표시하는 타일을 추가](service-dashboard-add-widget.md)할 것입니까? [대화형 슬라이서가 있는 타일을 만들려는 경우](service-dashboard-pin-live-tile-from-report.md)도 있을 것입니다. *작성자* 에게는 여러 가지 옵션이 있습니다. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lJKgWnvl6bQ" frameborder="0" allowfullscreen></iframe>
 
@@ -39,7 +39,7 @@ ms.locfileid: "85219370"
 
   
 ## <a name="prerequisites"></a>사전준비
-이 자습서를 따라 하려면 Power BI 서비스(Power BI Desktop 아님)를 열고 [IT 지출 분석 샘플을 다운로드](sample-it-spend.md)합니다. "성공" 메시지가 나타나면 **대시보드로 이동**을 선택합니다.
+이 자습서를 따라 하려면 Power BI 서비스(Power BI Desktop 아님)를 열고 [IT 지출 분석 샘플을 다운로드](sample-it-spend.md)합니다. "성공" 메시지가 나타나면 **대시보드로 이동** 을 선택합니다.
 
 - - -
 <a name="create"></a>
@@ -49,13 +49,13 @@ ms.locfileid: "85219370"
 
     ![금액 타일](media/service-dashboard-edit-tile/power-bi-amount-tile.png)
 
-2. 상단의 메뉴 모음에서 **보고서 편집**을 선택하여 편집용 보기에서 보고서를 엽니다.
+2. 상단의 메뉴 모음에서 **보고서 편집** 을 선택하여 편집용 보기에서 보고서를 엽니다.
 
 3. 보고서 하단에서 더하기 기호(+)를 선택하여 새 보고서 페이지를 추가합니다.
 
     ![더하기 아이콘](media/service-dashboard-edit-tile/power-bi-add-page.png)
 
-4. 필드 창에서 **팩트 > 양**을 선택한 다음 **비즈니스 영역 > 비즈니스 영역**을 선택합니다.
+4. 필드 창에서 **팩트 > 양** 을 선택한 다음 **비즈니스 영역 > 비즈니스 영역** 을 선택합니다.
  
 5. 시각화 창에서 도넛형 차트 아이콘을 선택하여 시각화를 도넛형 차트로 변환합니다.
 
@@ -65,7 +65,7 @@ ms.locfileid: "85219370"
 
    ![타일 마우스로 가리키기](media/service-dashboard-edit-tile/power-bi-pin.png)
 
-6. "성공" 메시지가 나타나면 **대시보드로 이동**을 선택합니다. 변경 내용을 저장하라는 메시지가 표시됩니다. **저장**을 선택합니다.
+6. "성공" 메시지가 나타나면 **대시보드로 이동** 을 선택합니다. 변경 내용을 저장하라는 메시지가 표시됩니다. **저장** 을 선택합니다.
 
 - - -
 <a name="move"></a>
@@ -92,16 +92,16 @@ ms.locfileid: "85219370"
 
    ![줄임표 옵션 메뉴](media/service-dashboard-edit-tile/power-bi-tile-menu-new.png)
 
-3. **세부 정보 편집**을 선택하여 "타일 세부 정보" 창을 엽니다. 
+3. **세부 정보 편집** 을 선택하여 "타일 세부 정보" 창을 엽니다. 
 
-    타일의 제목 및 기본 동작을 변경합니다.  예를 들어 *소비자*가 타일을 선택하면 해당 타일을 만드는 데 사용된 보고서를 여는 대신 새 대시보드를 표시하도록 결정할 수 있습니다.  
+    타일의 제목 및 기본 동작을 변경합니다.  예를 들어 *소비자* 가 타일을 선택하면 해당 타일을 만드는 데 사용된 보고서를 여는 대신 새 대시보드를 표시하도록 결정할 수 있습니다.  
    
 
 
 <a name="rename"></a>
 
 ### <a name="rename-the-tile"></a>타일 이름 바꾸기
-"타일 세부 정보" 창 맨 위에서 **제목**을 **사용한 양**으로 변경합니다.
+"타일 세부 정보" 창 맨 위에서 **제목** 을 **사용한 양** 으로 변경합니다.
 
 ![타일 세부 정보 창](media/service-dashboard-edit-tile/power-bi-tile-title.png)
 
@@ -111,13 +111,13 @@ ms.locfileid: "85219370"
 ### <a name="change-the-default-hyperlink"></a>기본 하이퍼링크 변경
 기본적으로 타일을 선택하면 일반적으로 타일이 만들어진 보고서나 질문 및 답변(타일이 질문 및 답변에서 만들어진 경우)으로 이동합니다. 웹 페이지, 다른 대시보드 또는 보고서(동일한 작업 영역에서), SSRS 보고서 또는 기타 온라인 콘텐츠에 연결하려면 사용자 지정 링크를 추가합니다.
 
-1. 기능 제목 아래에서 **사용자 지정 링크 설정**을 선택합니다.
+1. 기능 제목 아래에서 **사용자 지정 링크 설정** 을 선택합니다.
 
-2. **현재 작업 영역의 대시보드 또는 보고서에 연결**을 선택한 다음 드롭다운 메뉴에서 선택합니다.  이 예에서는 인적 자원 샘플 대시보드를 선택했습니다. 아직 작업 영역에 이 샘플이 없으면 이 샘플을 추가한 후 이 단계로 돌아와도 되고, 아니면 다른 대시보드를 선택해도 됩니다. 
+2. **현재 작업 영역의 대시보드 또는 보고서에 연결** 을 선택한 다음 드롭다운 메뉴에서 선택합니다.  이 예에서는 인적 자원 샘플 대시보드를 선택했습니다. 아직 작업 영역에 이 샘플이 없으면 이 샘플을 추가한 후 이 단계로 돌아와도 되고, 아니면 다른 대시보드를 선택해도 됩니다. 
 
     ![기능 대화 상자](media/service-dashboard-edit-tile/power-bi-custom-link.png)
 
-3. **적용**을 선택합니다.
+3. **적용** 을 선택합니다.
 
 4. 타일에 새 제목이 표시됩니다.  타일을 선택하면 Power BI에서 인적 자원 대시보드가 열립니다. 
 
@@ -130,7 +130,7 @@ ms.locfileid: "85219370"
 2. 이 타일의 사본을 기존 대시보드 또는 새 대시보드에 고정할지 결정합니다. 
    
    ![대시보드에 고정 대화 상자](media/service-dashboard-edit-tile/pbi_pintoanotherdash.png)
-3. **고정**을 선택합니다.
+3. **고정** 을 선택합니다.
 
 <a name="delete"></a>
 

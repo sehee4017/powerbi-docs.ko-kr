@@ -2,18 +2,18 @@
 title: Android 디바이스에서 Power BI 모바일 앱 시작
 description: 온-프레미스 및 클라우드에서 비즈니스 정보에 대한 모바일 액세스 권한을 사용하여 Microsoft Power BI용 Android 모바일 앱이 Power BI를 휴대하는 방법에 대해 알아봅니다.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 06/06/2020
-ms.author: painbar
-ms.openlocfilehash: 941bd2adc63a06089ddf4fb79752557b8c688f71
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d731651e85f8468038089f5d88e3e418f1a3c868
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90856809"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417776"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Android 디바이스에서 Power BI 모바일 앱 시작
 Microsoft Power BI용 Android 앱은 Power BI, Power BI Report Server 및 Reporting Services에 대한 모바일 BI 환경을 제공합니다. 실시간 터치 가능한 모바일 액세스를 사용하여 어디에서나 온-프레미스 및 클라우드에 있는 회사 대시보드를 쉽게 보고 상호작용할 수 있습니다. 대시보드의 데이터를 살펴보고 메일 또는 문자 메시지로 동료와 공유합니다. 
@@ -35,10 +35,10 @@ Power BI Desktop에서 Power BI 보고서를 만들고 게시합니다.
 
 Google Play에서 [Android용 Power BI 앱](https://go.microsoft.com/fwlink/?LinkID=544867)을 다운로드합니다.
   
-Power BI는 Android 5.0 이상 운영 체제를 실행하는 다양한 Android 디바이스에서 실행할 수 있습니다. 디바이스를 확인하려면 **설정** > **디바이스 정보** > **Android 버전**으로 이동합니다. 
+Power BI는 Android 5.0 이상 운영 체제를 실행하는 다양한 Android 디바이스에서 실행할 수 있습니다. 디바이스를 확인하려면 **설정** > **디바이스 정보** > **Android 버전** 으로 이동합니다. 
 
 **앱을 열 때 시작**    
-등록하거나 로그인하지 않고도 앱을 연 후 로그인 페이지를 훑어보고 Android 디바이스에서 Power BI 앱으로 할 수 있는 작업에 대한 개요를 빠르게 파악할 수 있습니다. **건너뛰기**를 탭하여 샘플을 보거나 탐색하고 앱을 실습하세요. 대시보드 홈페이지에서 언제든지 [샘플로 돌아갈](mobile-android-app-get-started.md#try-the-power-bi-and-reporting-services-samples) 수 있습니다.
+등록하거나 로그인하지 않고도 앱을 연 후 로그인 페이지를 훑어보고 Android 디바이스에서 Power BI 앱으로 할 수 있는 작업에 대한 개요를 빠르게 파악할 수 있습니다. **건너뛰기** 를 탭하여 샘플을 보거나 탐색하고 앱을 실습하세요. 대시보드 홈페이지에서 언제든지 [샘플로 돌아갈](mobile-android-app-get-started.md#try-the-power-bi-and-reporting-services-samples) 수 있습니다.
 
 [Power BI Mobile 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)을 알아보세요.
 
@@ -63,7 +63,7 @@ Power BI는 Android 5.0 이상 운영 체제를 실행하는 다양한 Android �
 ## <a name="try-the-power-bi-and-reporting-services-samples"></a>Power BI 및 Reporting Services 샘플 시도
 등록하지 않고도 Power BI 및 Reporting Services 샘플을 보고 조작할 수 있습니다.
 
-샘플에 액세스하려면 탐색 모음에서 **추가 옵션**(...)을 탭하고 **샘플**을 선택합니다.
+샘플에 액세스하려면 탐색 모음에서 **추가 옵션**(...)을 탭하고 **샘플** 을 선택합니다.
 
 다양한 Power BI 샘플 뒤에 몇 가지 보고서 서버 샘플이 제공됩니다.
    

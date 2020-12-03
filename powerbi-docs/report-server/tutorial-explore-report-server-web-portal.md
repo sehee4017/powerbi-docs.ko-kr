@@ -2,18 +2,18 @@
 title: '자습서:  VM에서 Power BI Report Server 탐색'
 description: 이 자습서에서는 Power BI Report Server가 이미 설치된 가상 머신을 만들고 웹 포털을 탐색합니다.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/06/2019
-ms.author: maggies
-ms.openlocfilehash: 312b86f9e0c0dda0c9c943520c74286e0458acef
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 85fcd6249a833c35cb98fca6abf2881ab1a4bf7e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79207025"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418420"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>자습서:  VM에서 Power BI Report Server 웹 포털 탐색
 이 자습서에서는 샘플 Power BI 및 페이지를 매긴 보고서와 KPI를 표시, 편집 및 관리해 볼 수 있도록 Power BI Report Server가 이미 설치된 Azure 가상 머신을 만듭니다.
@@ -38,58 +38,58 @@ ms.locfileid: "79207025"
 
 1. Azure Marketplace에서 Power BI Report Server를 선택합니다. 다음 링크를 통해 바로 열립니다. [Power BI Report Server](https://azuremarketplace.microsoft.com/marketplace/apps/reportingservices.technical-preview?tab=Overview).  
 
-2. **지금 받기**를 선택합니다.
-3. 공급자의 사용 약관 및 개인 정보 취급 방침에 동의하려면 **계속**을 선택합니다.
+2. **지금 받기** 를 선택합니다.
+3. 공급자의 사용 약관 및 개인 정보 취급 방침에 동의하려면 **계속** 을 선택합니다.
 
-4. **만들기**를 선택합니다.
+4. **만들기** 를 선택합니다.
 
     ![Power BI Report Server VM 만들기](media/tutorial-explore-report-server-web-portal/power-bi-report-server-create.png)
 
-5. **1단계 기본 내용**에서 **VM 이름**으로 **reportservervm**을 지정합니다.
+5. **1단계 기본 내용** 에서 **VM 이름** 으로 **reportservervm** 을 지정합니다.
 
     Power BI Report Server VM 이름에는 대시를 포함할 수 없습니다.
 
 5. 사용자 이름 및 암호를 만듭니다.
 
-6. **리소스 그룹**에서 **새로 만들기**를 선택하고 이름으로 **reportserverresourcegroup** > **확인**을 선택합니다.
+6. **리소스 그룹** 에서 **새로 만들기** 를 선택하고 이름으로 **reportserverresourcegroup** > **확인** 을 선택합니다.
 
     이 자습서를 두 번 이상 진행하는 경우 두 번째에는 리소스 그룹에 다른 이름을 지정해야 합니다. 하나의 구독에 동일한 리소스 그룹 이름을 두 번 사용할 수 없습니다. 
 
     ![VM 및 리소스 그룹 이름 지정](media/tutorial-explore-report-server-web-portal/power-bi-report-server-create-resource-group.png)
 
-7. 다른 기본값을 유지한 다음, **확인**을 선택합니다.
+7. 다른 기본값을 유지한 다음, **확인** 을 선택합니다.
 
-8. **2단계 설정**에서 기본값을 유지한 다음 **확인**을 선택합니다.
+8. **2단계 설정** 에서 기본값을 유지한 다음 **확인** 을 선택합니다.
  
     **SQL 스토리지 계정** 및 **진단 스토리지 계정** 값도 고유해야 합니다. 자습서를 두 번 이상 실행하는 경우 다른 이름을 지정해야 합니다.
 
-9. **3단계 요약**에서 선택 항목을 검토한 다음 **확인**을 선택합니다.
+9. **3단계 요약** 에서 선택 항목을 검토한 다음 **확인** 을 선택합니다.
 
-10. **4단계 구매**에서 사용자 약관 및 개인 정보 취급 방침을 검토한 다음 **만들기**를 선택합니다.
+10. **4단계 구매** 에서 사용자 약관 및 개인 정보 취급 방침을 검토한 다음 **만들기** 를 선택합니다.
 
     **Power BI Report Server에 대한 배포 제출** 프로세스에 몇 분이 걸릴 수 있습니다.
 
 ## <a name="connect-to-your-virtual-machine"></a>가상 머신에 연결
 
-1. Azure 탐색 창에서 **가상 머신**을 선택합니다. 
+1. Azure 탐색 창에서 **가상 머신** 을 선택합니다. 
 
 2. **이름으로 필터링** 상자에 “report”를 입력합니다. 
 
-3. 이름이 **REPORTSERVERVM**인 VM을 선택합니다.
+3. 이름이 **REPORTSERVERVM** 인 VM을 선택합니다.
 
     ![가상 머신 보기](media/tutorial-explore-report-server-web-portal/power-bi-report-server-view-virtual-machine.png)
 
-4. REPORTSERVERVM 가상 머신 아래에서 **연결**을 선택합니다.
+4. REPORTSERVERVM 가상 머신 아래에서 **연결** 을 선택합니다.
 
     ![가상 머신에 연결](media/tutorial-explore-report-server-web-portal/power-bi-report-server-connect-to-virtual-machine.png)
 
-5. **가상 머신에 연결** 창에서 기본값을 유지하고 **RDP 파일 다운로드**를 선택합니다.
+5. **가상 머신에 연결** 창에서 기본값을 유지하고 **RDP 파일 다운로드** 를 선택합니다.
 
-1. **원격 데스크톱 연결** 대화 상자에서 **연결**을 선택합니다.
+1. **원격 데스크톱 연결** 대화 상자에서 **연결** 을 선택합니다.
 
-6. VM에 대해 만든 이름 및 암호를 입력한 다음, **확인**을 선택합니다.
+6. VM에 대해 만든 이름 및 암호를 입력한 다음, **확인** 을 선택합니다.
 
-7. 다음 대화 상자에 **원격 컴퓨터의 ID를 식별할 수 없음**으로 표시됩니다. **예**를 선택합니다.
+7. 다음 대화 상자에 **원격 컴퓨터의 ID를 식별할 수 없음** 으로 표시됩니다. **예** 를 선택합니다.
 
    새 VM이 열립니다.
 
@@ -124,25 +124,25 @@ VM이 열리면 다음 항목이 데스크톱에 표시됩니다.
 ## <a name="tag-your-favorites"></a>즐겨찾기 태그 지정
 즐겨찾기에 추가하려는 보고서 및 KPI를 태그로 지정할 수 있습니다. 웹 포털 및 Power BI 모바일 앱 모두에서 단일 즐겨찾기 폴더에 수집되기 때문에 쉽게 찾을 수 있습니다. 
 
-1. **이익율** KPI의 오른쪽 위 모서리에서 줄임표( **…** ) > **즐겨찾기에 추가**를 선택합니다.
+1. **이익율** KPI의 오른쪽 위 모서리에서 줄임표( **…** ) > **즐겨찾기에 추가** 를 선택합니다.
    
     ![즐겨찾기에 추가](media/tutorial-explore-report-server-web-portal/power-bi-report-server-add-to-favorites.png)
-2. 웹 포털의 즐겨찾기 페이지에서 다른 즐겨찾기와 함께 보려면 웹 포털 리본에서 **즐겨찾기**를 선택합니다.
+2. 웹 포털의 즐겨찾기 페이지에서 다른 즐겨찾기와 함께 보려면 웹 포털 리본에서 **즐겨찾기** 를 선택합니다.
    
     ![즐겨찾기 보기](media/tutorial-explore-report-server-web-portal/power-bi-report-server-favorites.png)
 
-3. **찾아보기**를 선택하여 웹 포털로 돌아갑니다.
+3. **찾아보기** 를 선택하여 웹 포털로 돌아갑니다.
    
 ## <a name="view-items-in-list-view"></a>목록 보기에서 항목 보기
 기본적으로 웹 포털은 타일 보기에 해당 콘텐츠를 표시합니다.
 
 한 번에 여러 항목을 쉽게 이동하거나 삭제하는 목록 보기로 전환할 수 있습니다. 
 
-1. **타일** > **목록**을 선택합니다.
+1. **타일** > **목록** 을 선택합니다.
    
     ![보기 전환](media/tutorial-explore-report-server-web-portal/report-server-web-portal-list-view.png)
 
-2. 타일 보기로 돌아갑니다. **목록** > **타일**을 선택합니다.
+2. 타일 보기로 돌아갑니다. **목록** > **타일** 을 선택합니다.
 
 ## <a name="power-bi-reports"></a>Power BI 보고서
 
@@ -150,7 +150,7 @@ VM이 열리면 다음 항목이 데스크톱에 표시됩니다.
 
 ### <a name="view-power-bi-reports"></a>새 Power BI 보고서
 
-1. **Power BI 보고서** 아래 웹 포털에서 **샘플 고객 개요 보고서**를 선택합니다. 보고서가 브라우저에서 열립니다.
+1. **Power BI 보고서** 아래 웹 포털에서 **샘플 고객 개요 보고서** 를 선택합니다. 보고서가 브라우저에서 열립니다.
 
 1. 트리 맵에서 미국 블록을 선택하여 다른 시각적 개체의 관련 값을 강조 표시하는 방법을 확인합니다.
 
@@ -158,9 +158,9 @@ VM이 열리면 다음 항목이 데스크톱에 표시됩니다.
 
 ### <a name="edit-in-power-bi-desktop"></a>Power BI Desktop에서 편집
 
-1. **Power BI Desktop에서 편집**을 선택합니다.
+1. **Power BI Desktop에서 편집** 을 선택합니다.
 
-1. **허용**을 선택하여 이 웹 사이트가 컴퓨터에서 프로그램을 열도록 허용합니다. 
+1. **허용** 을 선택하여 이 웹 사이트가 컴퓨터에서 프로그램을 열도록 허용합니다. 
 
      보고서가 Power BI Desktop에서 열립니다. 위쪽 막대에서 이름 “Power BI Desktop(2019년 1월)”을 확인합니다. Power BI Report Server에 최적화된 버전입니다.
 
@@ -176,11 +176,11 @@ VM이 열리면 다음 항목이 데스크톱에 표시됩니다.
 
     ![브라우저 새로 고침 아이콘](media/tutorial-explore-report-server-web-portal/power-bi-report-server-browser-refresh.png)
 
-8. 오른쪽의 **필터** 창을 확장하여 추가한 **Occupation** 필터를 확인합니다. **Professional**를 선택합니다.
+8. 오른쪽의 **필터** 창을 확장하여 추가한 **Occupation** 필터를 확인합니다. **Professional** 를 선택합니다.
 
     ![필터링된 Power BI 보고서](media/tutorial-explore-report-server-web-portal/power-bi-report-server-power-bi-filtered.png)
 
-3. **찾아보기**를 선택하여 웹 포털로 돌아갑니다.
+3. **찾아보기** 를 선택하여 웹 포털로 돌아갑니다.
 
 ## <a name="paginated-rdl-reports"></a>페이지를 매긴(.RDL) 보고서
 
@@ -188,45 +188,45 @@ VM이 열리면 다음 항목이 데스크톱에 표시됩니다.
 
 ### <a name="manage-a-paginated-report"></a>페이지를 매긴 보고서 관리
 
-1. 웹 포털의 **페이지를 매긴 보고서**에서 **Sales Order** 옆에 있는 **추가 옵션**(...)을 선택한 다음 > **관리**를 선택합니다.
+1. 웹 포털의 **페이지를 매긴 보고서** 에서 **Sales Order** 옆에 있는 **추가 옵션**(...)을 선택한 다음 > **관리** 를 선택합니다.
 
-1. **매개 변수**를 선택하고 **SalesOrderNumber**의 기본값을 **SO50689**로 변경하고  > **적용**을 선택합니다.
+1. **매개 변수** 를 선택하고 **SalesOrderNumber** 의 기본값을 **SO50689** 로 변경하고  > **적용** 을 선택합니다.
 
    ![보고서 매개 변수 설정](media/tutorial-explore-report-server-web-portal/power-bi-report-server-set-parameters.png)
 
-3. **찾아보기**를 선택하여 웹 포털로 돌아갑니다.
+3. **찾아보기** 를 선택하여 웹 포털로 돌아갑니다.
 
 ### <a name="view-a-paginated-report"></a>페이지를 매긴 보고서 보기
 
-1. 웹 포털에서 **판매 주문**을 선택합니다.
+1. 웹 포털에서 **판매 주문** 을 선택합니다.
  
-3.  보고서가 설정한 **Order** 매개 변수, **SO50689**로 열립니다. 
+3.  보고서가 설정한 **Order** 매개 변수, **SO50689** 로 열립니다. 
 
     ![페이지를 매긴 보고서 매개 변수](media/tutorial-explore-report-server-web-portal/power-bi-report-server-paginated.png)
 
     기본값을 변경하지 않고 여기서 다른 매개 변수와 함께 해당 매개 변수를 변경할 수 있습니다.
 
-1. **주문** **SO48339** > **보고서 보기**를 선택합니다.
+1. **주문** **SO48339** > **보고서 보기** 를 선택합니다.
 
 4. 이는 2페이지 중 1페이지입니다. 오른쪽 화살표를 선택하여 두 번째 페이지를 표시합니다. 테이블이 해당 페이지에서 계속됩니다.
 
     ![페이지를 매긴 보고서 2/2 페이지](media/tutorial-explore-report-server-web-portal/power-bi-report-server-paginated-2-of-2.png)
 
-5. **찾아보기**를 선택하여 웹 포털로 돌아갑니다.
+5. **찾아보기** 를 선택하여 웹 포털로 돌아갑니다.
 
 ### <a name="edit-a-paginated-report"></a>페이지를 매긴 보고서 편집
 
 보고서 작성기에서 페이지를 매긴 보고서를 편집할 수 있고 브라우저에서 바로 보고서 작성기를 시작할 수 있습니다.
 
-1. 웹 포털에서 **Sales Order** 옆에 있는 **추가 옵션**(...)을 선택한 다음 > **보고서 작성기에서 편집**을 선택합니다.
+1. 웹 포털에서 **Sales Order** 옆에 있는 **추가 옵션**(...)을 선택한 다음 > **보고서 작성기에서 편집** 을 선택합니다.
 
-1. **허용**을 선택하여 이 웹 사이트가 컴퓨터에서 프로그램을 열도록 허용합니다.
+1. **허용** 을 선택하여 이 웹 사이트가 컴퓨터에서 프로그램을 열도록 허용합니다.
 
 1. 판매 주문 보고서가 보고서 작성기의 디자인 보기에서 열립니다.
 
     ![디자인 보기, 페이지를 매긴 보고서](media/tutorial-explore-report-server-web-portal/power-bi-report-server-paginated-design-view.png)
 
-1. **실행**을 선택하여 보고서를 미리 봅니다.
+1. **실행** 을 선택하여 보고서를 미리 봅니다.
 
     ![페이지를 매긴 보고서 미리 보기](media/tutorial-explore-report-server-web-portal/power-bi-report-server-paginated-preview.png)
 
@@ -236,19 +236,19 @@ VM이 열리면 다음 항목이 데스크톱에 표시됩니다.
 
 Power BI Report Server의 Excel Online에서 Excel 통합 문서를 보고 조작할 수 있습니다. 
 
-1. Excel 통합 문서 **Office Liquidation Sale.xlsx**를 선택합니다. 자격 증명을 요청하는 메시지가 표시될 수 있습니다. **취소**를 선택합니다. 
+1. Excel 통합 문서 **Office Liquidation Sale.xlsx** 를 선택합니다. 자격 증명을 요청하는 메시지가 표시될 수 있습니다. **취소** 를 선택합니다. 
     웹 포털에서 열립니다.
-1. 슬라이서에서 **Appliance**를 선택합니다.
+1. 슬라이서에서 **Appliance** 를 선택합니다.
 
     ![웹 포털의 Excel Online](media/tutorial-explore-report-server-web-portal/power-bi-report-server-excel-online.png)
 
-1. **찾아보기**를 선택하여 웹 포털로 돌아갑니다.
+1. **찾아보기** 를 선택하여 웹 포털로 돌아갑니다.
 
 ## <a name="clean-up-resources"></a>리소스 정리
 
 이제 이 자습서를 완료했으므로 리소스 그룹, 가상 머신 및 모든 관련 리소스를 삭제합니다. 
 
-- 이를 수행하려면 VM에 대한 리소스 그룹을 선택하고 **삭제**를 선택합니다.
+- 이를 수행하려면 VM에 대한 리소스 그룹을 선택하고 **삭제** 를 선택합니다.
 
 ## <a name="next-steps"></a>다음 단계
 

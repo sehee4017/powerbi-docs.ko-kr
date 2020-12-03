@@ -2,18 +2,18 @@
 title: 페이지를 매긴 보고서의 이미지 사용 지침
 description: Power BI 페이지를 매긴 보고서에서 이미지를 사용하기 위한 지침입니다.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: report-builder
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 02/16/2020
-ms.author: v-pemyer
-ms.openlocfilehash: d2f3f36911c72df1b95ceb5bd90043870559cc62
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ccb61899337e5585d03d9297fbe8f8a5decc612e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78920721"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418397"
 ---
 # <a name="image-use-guidance-for-paginated-reports"></a>페이지를 매긴 보고서의 이미지 사용 지침
 
@@ -47,7 +47,7 @@ ms.locfileid: "78920721"
 - **데이터베이스 스토리지 사용**: 관계형 데이터베이스가 이미지 데이터를 저장하는 경우 데이터베이스 테이블에서 직접 이미지 데이터를 가져오는 것이 좋습니다(특히 이미지가 너무 크지 않은 경우).
 - **적절한 배경 이미지**: 배경 이미지를 사용하기로 결정한 경우 보고서 데이터에서 보고서 사용자의 주의가 분산되지 않도록 주의하세요. 
 
-    또한 _워터마크 스타일이 지정된 이미지_를 사용해야 합니다. 일반적으로 워터마크 스타일이 지정된 이미지는 투명한 배경을 포함하거나 보고서에 사용되는 것과 동일한 배경색을 포함합니다. 또한 흐린 색을 사용합니다. 워터마크 스타일이 지정된 이미지의 일반적인 예에는 회사 로고 또는 "초안", "기밀" 등의 민감도 레이블이 포함됩니다.
+    또한 _워터마크 스타일이 지정된 이미지_ 를 사용해야 합니다. 일반적으로 워터마크 스타일이 지정된 이미지는 투명한 배경을 포함하거나 보고서에 사용되는 것과 동일한 배경색을 포함합니다. 또한 흐린 색을 사용합니다. 워터마크 스타일이 지정된 이미지의 일반적인 예에는 회사 로고 또는 "초안", "기밀" 등의 민감도 레이블이 포함됩니다.
 
 ## <a name="next-steps"></a>다음 단계
 

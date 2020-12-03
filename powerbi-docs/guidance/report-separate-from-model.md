@@ -2,18 +2,18 @@
 title: Power BI Desktop의 모델에서 보고서 분리
 description: Power BI Desktop의 모델에서 보고서를 분리하는 방법에 대한 지침입니다.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 04/11/2020
-ms.author: v-pemyer
-ms.openlocfilehash: f2b9ee2093889fc9a60d621ad09b3b52d2e90474
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: a45299015883615b4773fe5db1c9864e01a47c4b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525941"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418364"
 ---
 # <a name="separate-reports-from-models-in-power-bi-desktop"></a>Power BI Desktop의 모델에서 보고서 분리
 
@@ -26,7 +26,7 @@ ms.locfileid: "91525941"
 
 ## <a name="single-file-solution"></a>단일 파일 솔루션
 
-_단일 파일 솔루션_은 모델을 기반으로 하는 단일 보고서만 있는 경우 제대로 작동합니다. 이 경우 모델과 보고서가 모두 동일한 사람의 것일 가능성이 높습니다. 보고서를 다른 사용자와 공유할 수는 있지만 _개인 BI_ 솔루션으로 정의합니다. 이러한 솔루션은 일반적으로 _임시_ 보고서로 설명되는 비즈니스 챌린지의 역할 범위 보고서 또는 일회성 평가를 나타낼 수 있습니다.
+_단일 파일 솔루션_ 은 모델을 기반으로 하는 단일 보고서만 있는 경우 제대로 작동합니다. 이 경우 모델과 보고서가 모두 동일한 사람의 것일 가능성이 높습니다. 보고서를 다른 사용자와 공유할 수는 있지만 _개인 BI_ 솔루션으로 정의합니다. 이러한 솔루션은 일반적으로 _임시_ 보고서로 설명되는 비즈니스 챌린지의 역할 범위 보고서 또는 일회성 평가를 나타낼 수 있습니다.
 
 :::image type="content" source="media/report-separate-from-model/single-file-solution.png" alt-text="단일 파일에는 동일한 사람이 개발한 모델 및 보고서가 포함되어 있습니다." border="true":::
 
@@ -37,7 +37,7 @@ _단일 파일 솔루션_은 모델을 기반으로 하는 단일 보고서만 �
 - 데이터 모델러와 보고서 작성자가 서로 다른 사람인 경우.
 - 모델은 현재 또는 나중에 여러 보고서에 대한 원본이 되는 것으로 이해되는 경우.
 
-:::image type="content" source="media/report-separate-from-model/separate-report-files.png" alt-text="단일 파일에는 동일한 사람이 개발한 모델 및 보고서가 포함되어 있습니다." border="true":::
+:::image type="content" source="media/report-separate-from-model/separate-report-files.png" alt-text="다음과 같은 세 가지 PBIX 파일이 있습니다. 첫 번째 파일에는 모델만 포함됩니다. 다른 두 파일은 보고서만 포함하고 Power BI 서비스에 호스트된 모델에 라이브 연결합니다. 보고서는 다른 사람이 개발합니다." border="true":::
 
 데이터 모델러는 여전히 Power BI Desktop 보고서 제작 환경을 사용하여 모델 디자인을 테스트하고 유효성을 검사할 수 있습니다. 그러나 Power BI 서비스에 파일을 게시한 직후에는 작업 영역에서 보고서를 제거해야 합니다. 그리고 데이터 세트를 다시 게시하여 덮어쓸 때마다 보고서를 제거해야 한다는 점에 주의해야 합니다.
 

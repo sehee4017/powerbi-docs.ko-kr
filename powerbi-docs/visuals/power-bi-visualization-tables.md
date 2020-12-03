@@ -1,21 +1,21 @@
 ---
 title: Power BI 보고서 및 대시보드의 테이블 시각화
 description: Power BI 보고서와 대시보드에서 열 너비 크기를 조정하는 방법을 비롯하여 테이블 시각화를 사용하여 작업하는 방법에 대한 자습서입니다.
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: willt
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 02/10/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 127e8b7033e60c70a4d541cfc4725e7340a514e6
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: aa99cd4efed9239d6685d53f2515d16549a0ae72
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412881"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418811"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI 보고서 및 대시보드의 테이블
 
@@ -68,7 +68,7 @@ ms.locfileid: "93412881"
 
 1. **판매량 > 평균 단가** 및 **판매량 > 작년 판매액** 을 선택합니다.
 
-1. 그런 다음, **판매량 > 올해 판매액** 을 선택하고 세 가지 옵션 **값** , **목표** 및 **상태** 를 모두 선택합니다.
+1. 그런 다음, **판매량 > 올해 판매액** 을 선택하고 세 가지 옵션 **값**, **목표** 및 **상태** 를 모두 선택합니다.
 
 1. **시각화** 창에서 **값** 을 잘 찾고 차트 열의 순서가 이 페이지의 첫 번째 이미지와 일치할 때까지 끌어서 값을 선택합니다. 필요한 경우에는 웰에 있는 값을 끌어서 놓습니다. **값** 웰은 다음과 같습니다.
 
@@ -130,7 +130,7 @@ ms.locfileid: "93412881"
 
     ![데이터 막대가 있는 조건부 서식 지정 카드가 켜기로 설정됨](media/power-bi-visualization-tables/power-bi-data-bar-matrix.png)
 
-1. 데이터 막대를 사용자 지정하려면 **고급 컨트롤** 을 선택합니다. 표시되는 대화 상자에서 **양수 막대** , **음수 막대** 의 색상을 설정하고 **막대만 표시** 옵션을 선택하고 원하는 다른 부분을 변경합니다.
+1. 데이터 막대를 사용자 지정하려면 **고급 컨트롤** 을 선택합니다. 표시되는 대화 상자에서 **양수 막대**, **음수 막대** 의 색상을 설정하고 **막대만 표시** 옵션을 선택하고 원하는 다른 부분을 변경합니다.
 
     ![막대만 표시하기 확인 표시](media/power-bi-visualization-tables/power-bi-data-bar.png)
 
@@ -180,7 +180,7 @@ ms.locfileid: "93412881"
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
 
-* 열 서식 지정을 적용할 때 다음 중에 하나의 열당 맞춤 옵션을 선택할 수 있습니다. **자동** , **왼쪽** , **가운데** , **오른쪽**. 일반적으로 열은 모두 텍스트 또는 숫자만을 포함하고 섞지 않습니다. 열에 숫자와 텍스트가 모두 포함되어 있는 경우 **자동** 은 텍스트의 경우 왼쪽에 정렬하고, 번호의 경우 오른쪽에 정렬합니다. 이 동작은 왼쪽에서 오른쪽으로 읽는 언어를 지원합니다.
+* 열 서식 지정을 적용할 때 다음 중에 하나의 열당 맞춤 옵션을 선택할 수 있습니다. **자동**, **왼쪽**, **가운데**, **오른쪽**. 일반적으로 열은 모두 텍스트 또는 숫자만을 포함하고 섞지 않습니다. 열에 숫자와 텍스트가 모두 포함되어 있는 경우 **자동** 은 텍스트의 경우 왼쪽에 정렬하고, 번호의 경우 오른쪽에 정렬합니다. 이 동작은 왼쪽에서 오른쪽으로 읽는 언어를 지원합니다.
 
 * 테이블의 셀 또는 헤더에 있는 텍스트 데이터에 줄 바꿈 문자가 포함된 경우, 요소의 연결된 서식 창 카드에서 '자동 줄 바꿈' 옵션을 설정/해제하지 않는 한 이러한 문자는 무시됩니다. 
 

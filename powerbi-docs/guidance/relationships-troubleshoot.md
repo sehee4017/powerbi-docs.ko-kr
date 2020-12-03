@@ -2,18 +2,18 @@
 title: 관계 문제 해결 지침
 description: 모델 관계 문제 해결에 대한 지침입니다.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 9588b608e3d3ab33f87de13cd415e14cd1f5e920
-ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
+ms.openlocfilehash: e8f76bf1e1947815176a1b24be2b758489093071
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "91136123"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418535"
 ---
 # <a name="relationship-troubleshooting-guidance"></a>관계 문제 해결 지침
 
@@ -44,12 +44,12 @@ ms.locfileid: "91136123"
 
 |문제|가능한 이유|
 |---------|---------|
-|시각적 개체에 결과가 표시되지 않음|- 모델에 아직 데이터가 로드되지 않았습니다.<br />- 필터 컨텍스트에 데이터가 없습니다.<br />- 행 수준 보안이 적용됩니다.<br />- 관계가 테이블 간에 전파되지 않습니다. 위의 _검사 목록_을 참조하세요.<br />- 행 수준 보안이 적용되지만 양방향 관계가 전파되지 않습니다. [Power BI Desktop을 사용하는 행 수준 보안(RLS)](../create-reports/desktop-rls.md)을 참조하세요.|
-|시각적 개체가 각 그룹화에 대해 동일한 값을 표시 |- 관계가 존재하지 않습니다.<br />- 관계가 테이블 간에 전파되지 않습니다. 위의 _검사 목록_을 참조하세요.|
+|시각적 개체에 결과가 표시되지 않음|- 모델에 아직 데이터가 로드되지 않았습니다.<br />- 필터 컨텍스트에 데이터가 없습니다.<br />- 행 수준 보안이 적용됩니다.<br />- 관계가 테이블 간에 전파되지 않습니다. 위의 _검사 목록_ 을 참조하세요.<br />- 행 수준 보안이 적용되지만 양방향 관계가 전파되지 않습니다. [Power BI Desktop을 사용하는 행 수준 보안(RLS)](../create-reports/desktop-rls.md)을 참조하세요.|
+|시각적 개체가 각 그룹화에 대해 동일한 값을 표시 |- 관계가 존재하지 않습니다.<br />- 관계가 테이블 간에 전파되지 않습니다. 위의 _검사 목록_ 을 참조하세요.|
 |시각적 개체에 결과가 표시되지만 올바르지 않음|- 시각적 개체가 잘못 구성되었습니다.<br />- 측정 논리가 잘못되었습니다.<br />- 모델 데이터를 새로 고쳐야 합니다.<br />- 원본 데이터가 올바르지 않습니다.<br />- 관계 열이 잘못 연결되어 있습니다(예: **ProductID** 열이 **CustomerID** 열에 매핑됨).<br />- 두 DirectQuery 테이블 간의 관계이며 관계의 "일" 쪽 열에 중복 값이 포함되어 있습니다.|
 |BLANK 그룹화 또는 슬라이서/필터 항목이 나타나고 원본 열에 BLANK가 포함되지 않음|- 일반 관계이며 "다" 쪽 열에 "일" 쪽 열에 저장되지 않은 값이 포함되어 있습니다. [Power BI Desktop의 모델 관계(일반 관계)](../transform-model/desktop-relationships-understand.md#regular-relationships)를 참조하세요.<br />- 일반 일 대 일 관계이며 연결된 열에 BLANK가 포함되어 있습니다. [Power BI Desktop의 모델 관계(일반 관계)](../transform-model/desktop-relationships-understand.md#regular-relationships)를 참조하세요.<br />- 비활성 관계 "다" 쪽 열에 BLANK가 저장되었거나 "일" 쪽에 저장된 값이 없습니다.|
 |시각적 개체에 누락된 데이터가 있음|- 잘못된/예기치 않은 필터가 적용되었습니다.<br />- 행 수준 보안이 적용됩니다.<br />- 제한된 관계이며 연결된 열에 BLANK가 있거나 데이터 무결성 문제가 있습니다. [Power BI Desktop의 모델 관계(제한된 관계)](../transform-model/desktop-relationships-understand.md#limited-relationships)를 참조하세요.<br />- 두 DirectQuery 테이블 간의 관계이며 관계가 [참조 무결성을 가정](../transform-model/desktop-relationships-understand.md#assume-referential-integrity)하도록 구성되었지만 데이터 무결성 문제(연결된 열에 일치하지 않는 값)가 있습니다.|
-|행 수준 보안이 올바르게 적용되지 않음|- 관계가 테이블 간에 전파되지 않습니다. 위의 _검사 목록_을 참조하세요.<br />- 행 수준 보안이 적용되지만 양방향 관계가 전파되지 않습니다. [Power BI Desktop을 사용하는 행 수준 보안(RLS)](../create-reports/desktop-rls.md)을 참조하세요.|
+|행 수준 보안이 올바르게 적용되지 않음|- 관계가 테이블 간에 전파되지 않습니다. 위의 _검사 목록_ 을 참조하세요.<br />- 행 수준 보안이 적용되지만 양방향 관계가 전파되지 않습니다. [Power BI Desktop을 사용하는 행 수준 보안(RLS)](../create-reports/desktop-rls.md)을 참조하세요.|
 |||
 
 ## <a name="next-steps"></a>다음 단계

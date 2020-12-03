@@ -2,19 +2,19 @@
 title: 데이터 흐름 및 셀프 서비스 데이터 준비 소개
 description: Power BI 데이터 흐름의 개념과 사용하는 경우의 개요
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-dataflows
 ms.topic: how-to
 ms.date: 10/01/2020
-ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d8315652883f644d5440c25e3203fdf004bac51c
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 5dde70b9834d990987e42c6aa945940a7f110949
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94669112"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416074"
 ---
 # <a name="introduction-to-dataflows-and-self-service-data-prep"></a>데이터 흐름 및 셀프 서비스 데이터 준비 소개
 

@@ -2,18 +2,18 @@
 title: ISO 14289-1을 준수하는 PDF 렌더링 확장 프로그램 - Power BI Report Server 및 SSRS
 description: 이 문서에서는 Power BI Report Server 및 SQL Server Reporting Services PDF 렌더링 확장 프로그램의 ISO 14289-1(PDF/UA) 사양 준수에 대해 설명합니다.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.author: maggies
-ms.openlocfilehash: bfefcef18b8cd92a5c3b15c2dcbd4653a6c7c9cd
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: eb2e3e599afad20401bfba0563041f8a7e442041
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76819517"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418305"
 ---
 # <a name="pdf-rendering-extension-conformance-to-iso-14289-1---power-bi-report-server--ssrs"></a>ISO 14289-1을 준수하는 PDF 렌더링 확장 프로그램 - Power BI Report Server 및 SSRS
 
@@ -22,7 +22,7 @@ ms.locfileid: "76819517"
 이 문서에서는 Power BI Report Server 및 SQL Server Reporting Services PDF 렌더링 확장 프로그램의 [ISO 14289-1(PDF/UA)](https://www.pdfa.org/publication/pdfua-in-a-nutshell/) 사양 준수에 대해 설명합니다.
 
 > [!NOTE]
-> 이 백서는 브라우저에서 **인쇄**를 선택한 다음, **PDF로 저장**을 선택하여 저장하거나 인쇄할 수 있습니다.
+> 이 백서는 브라우저에서 **인쇄** 를 선택한 다음, **PDF로 저장** 을 선택하여 저장하거나 인쇄할 수 있습니다.
 
 ## <a name="1--scope"></a>1.  범위
 

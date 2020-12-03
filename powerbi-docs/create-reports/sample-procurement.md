@@ -2,19 +2,19 @@
 title: '조달 분석 샘플: 둘러보기'
 description: 'Power BI의 조달 분석 샘플: 둘러보기'
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: amac
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 07/02/2019
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 0193d5a46204b6dcb7477911efcaef22e358045e
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 73384f2f2021d949fcaca26c5b9e55cd7f0407af
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348945"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417546"
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Power BI의 조달 분석 샘플: 둘러보기
 
@@ -42,12 +42,12 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 
     Power BI Pro 라이선스가 없다면 샘플을 내 작업 영역에 저장하면 됩니다.
 
-2. 왼쪽 아래 모서리에서 **데이터 가져오기**를 선택합니다.
+2. 왼쪽 아래 모서리에서 **데이터 가져오기** 를 선택합니다.
 
     ![데이터 가져오기 선택](media/sample-datasets/power-bi-get-data.png)
-3. **데이터 가져오기** 페이지가 표시되면 **샘플**을 선택합니다.
+3. **데이터 가져오기** 페이지가 표시되면 **샘플** 을 선택합니다.
 
-4. **조달 분석 샘플**을 선택한 다음 **연결**을 선택합니다.  
+4. **조달 분석 샘플** 을 선택한 다음 **연결** 을 선택합니다.  
   
    ![샘플에 연결](media/sample-procurement/procurement1a.png)
    
@@ -61,7 +61,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>이 샘플의 Excel 통합 문서 다운로드
 
-이 샘플의 데이터 원본을 보려면 [Excel 통합 문서](https://go.microsoft.com/fwlink/?LinkId=529784)로도 제공됩니다. 통합 문서에는 보고 수정할 수 있는 파워 뷰 시트가 포함됩니다. 원시 데이터를 보려면 데이터 분석 추가 기능을 사용하도록 설정한 다음, **파워 피벗 > 관리**를 선택합니다. 파워 뷰 및 파워 피벗 추가 기능을 사용하도록 설정하려면 자세한 내용은 [Excel에서 Excel 샘플 탐색](sample-datasets.md#explore-excel-samples-inside-excel)을 참조하세요.
+이 샘플의 데이터 원본을 보려면 [Excel 통합 문서](https://go.microsoft.com/fwlink/?LinkId=529784)로도 제공됩니다. 통합 문서에는 보고 수정할 수 있는 파워 뷰 시트가 포함됩니다. 원시 데이터를 보려면 데이터 분석 추가 기능을 사용하도록 설정한 다음, **파워 피벗 > 관리** 를 선택합니다. 파워 뷰 및 파워 피벗 추가 기능을 사용하도록 설정하려면 자세한 내용은 [Excel에서 Excel 샘플 탐색](sample-datasets.md#explore-excel-samples-inside-excel)을 참조하세요.
 
 
 ## <a name="spending-trends"></a>지출 추세
@@ -74,9 +74,9 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 
 다음 세부 정보를 참고하세요.
 
-* **Total Invoice by Month and Category**(월별 및 범주별 전체 송장) 꺾은선형 차트에서 **직접** 범주의 지출은 일관되며 **물류**는 12월 지출이 가장 높고 **기타**는 2월이 가장 높습니다.
+* **Total Invoice by Month and Category**(월별 및 범주별 전체 송장) 꺾은선형 차트에서 **직접** 범주의 지출은 일관되며 **물류** 는 12월 지출이 가장 높고 **기타** 는 2월이 가장 높습니다.
 * **Total Invoice by Country/Region**(국가/지역별 전체 송장) 지도에서 지출 대부분이 미국에 속합니다.
-* **Total Invoice by Sub Category**(하위 범주별 전체 송장) 세로 막대형 차트에서 **하드웨어** 및 **간접 상품 및 서비스**가 가장 큰 지출 범주입니다.
+* **Total Invoice by Sub Category**(하위 범주별 전체 송장) 세로 막대형 차트에서 **하드웨어** 및 **간접 상품 및 서비스** 가 가장 큰 지출 범주입니다.
 * **Total Invoice by Tier**(계층별 전체 송장) 막대형 차트에서 대부분 비즈니스는 계층 1(상위 10) 공급업체와 이루어집니다. 이것은 공급업체 관계 관리에 도움이 됩니다.
 
 ## <a name="spending-in-mexico"></a>멕시코에서의 지출
@@ -98,7 +98,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
       ![멕시코 간접 상품 및 서비스 드릴다운](media/sample-procurement/pbi_procsample_drill_mexico.png)
 3. 차트의 왼쪽 위에서 위쪽 화살표를 선택하여 다시 드릴업합니다.
 4. 드릴다운 화살표를 다시 선택하면 드릴다운이 해제됩니다.  
-5. 맨 위 탐색 창에서 **조달 분석 샘플**을 선택하여 대시보드로 돌아갑니다.
+5. 맨 위 탐색 창에서 **조달 분석 샘플** 을 선택하여 대시보드로 돌아갑니다.
 
 ## <a name="evaluate-different-cities"></a>다른 도시 평가
 강조 표시를 사용하여 다른 도시를 평가할 수 있습니다.
@@ -131,7 +131,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 ![멕시코시티 할인 그래프](media/sample-procurement/procurement6.png)
 
 ### <a name="edit-the-report"></a>보고서 편집
-왼쪽 위에서 **보고서 편집**을 선택하고 편집용 보기에서 검색합니다.
+왼쪽 위에서 **보고서 편집** 을 선택하고 편집용 보기에서 검색합니다.
 
 * 페이지가 구성되는 방법을 살펴봅니다.
 * 동일한 데이터를 기반으로 페이지 및 차트를 추가합니다.
@@ -139,6 +139,6 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 * 차트를 대시보드에 고정합니다.
 
 ## <a name="next-steps-connect-to-your-data"></a>다음 단계: 데이터에 연결
-이 환경은 변경 내용을 저장하지 않도록 선택할 수 있으므로 안전하게 이용할 수 있습니다. 그러나 변경 내용을 저장하면 언제든지 이 샘플의 새 복사본에 대해 **데이터 가져오기**를 선택할 수 있습니다.
+이 환경은 변경 내용을 저장하지 않도록 선택할 수 있으므로 안전하게 이용할 수 있습니다. 그러나 변경 내용을 저장하면 언제든지 이 샘플의 새 복사본에 대해 **데이터 가져오기** 를 선택할 수 있습니다.
 
 이 둘러보기가 Power BI 대시보드, 질문 및 답변, 보고서를 통해 샘플 데이터를 파악하는 방법을 확인하는 데 도움이 되었기를 바랍니다. 이제 사용자 데이터에 연결할 차례입니다. Power BI를 사용하여 다양한 데이터 원본에 연결할 수 있습니다. 더 자세히 알아보려면 [Power BI 서비스 시작하기](../fundamentals/service-get-started.md)를 참조하세요.

@@ -2,18 +2,18 @@
 title: Power BI의 보고서 성능 문제 해결
 description: Power BI에서 보고서 성능 저하를 진단하기 위한 문제 해결 가이드입니다.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: troubleshooting
 ms.date: 04/15/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 2c7ba0ce8e41281e89e2bb31f9bc6db751b95dad
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 97af45ea90db1f0ccd2fdab7eba67ec91e580983
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485970"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417868"
 ---
 # <a name="troubleshoot-report-performance-in-power-bi"></a>Power BI의 보고서 성능 문제 해결
 
@@ -44,7 +44,7 @@ ms.locfileid: "85485970"
 
 ### <a name="premium-capacity"></a>프리미엄 용량
 
-보고서가 프리미엄 용량에서 호스트되는 경우 **Power BI Premium 메트릭 앱**을 사용하여 보고서 호스팅 용량이 용량 리소스를 수시로 초과하는지 여부를 확인합니다. CPU가 80%를 수시로 초과하는 경우에 발생합니다. 메모리의 경우 [활성 메모리 메트릭](../admin/service-premium-metrics-app.md#the-active-memory-metric)이 50을 초과하는 때입니다. 리소스에 대한 압박이 있을 때 [용량을 관리하거나 크기를 조정](../admin/service-admin-premium-manage.md)해야 할 수 있습니다(순서도 종결자 1). 적절한 리소스가 있는 경우 일반적인 보고서 사용 중에 용량 작업을 조사합니다(순서도 종결자 2).
+보고서가 프리미엄 용량에서 호스트되는 경우 **Power BI Premium 메트릭 앱** 을 사용하여 보고서 호스팅 용량이 용량 리소스를 수시로 초과하는지 여부를 확인합니다. CPU가 80%를 수시로 초과하는 경우에 발생합니다. 메모리의 경우 [활성 메모리 메트릭](../admin/service-premium-metrics-app.md#the-active-memory-metric)이 50을 초과하는 때입니다. 리소스에 대한 압박이 있을 때 [용량을 관리하거나 크기를 조정](../admin/service-admin-premium-manage.md)해야 할 수 있습니다(순서도 종결자 1). 적절한 리소스가 있는 경우 일반적인 보고서 사용 중에 용량 작업을 조사합니다(순서도 종결자 2).
 
 ### <a name="shared-capacity"></a>공유 용량
 

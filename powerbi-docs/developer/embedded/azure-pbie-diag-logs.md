@@ -4,15 +4,16 @@ description: Azure에서 Power BI Embedded 서비스에 대한 진단 로깅을 
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
-ms.service: power-bi-embedded
+ms.service: powerbi
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: cc64338ed40fcdc6433fdcf231004b4946335c72
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 4ab6a0d6135fcd2428df03e84596eebf6bba6704
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748796"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417362"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Azure의 Power BI Embedded에 대한 진단 로깅
 
@@ -28,11 +29,11 @@ ms.locfileid: "91748796"
 
 ### <a name="azure-portal"></a>Azure Portal
 
-1. [Azure Portal](https://portal.azure.com) > Power BI Embedded 리소스의 탐색 창에서 **진단 로그**를 선택한 다음, **진단 켜기**를 선택합니다.
+1. [Azure Portal](https://portal.azure.com) > Power BI Embedded 리소스의 탐색 창에서 **진단 로그** 를 선택한 다음, **진단 켜기** 를 선택합니다.
 
     ![Azure Portal에서 Power BI Embedded에 대한 진단 로깅 켜기](media/azure-pbie-diag-logs/azure-pbie-diag-logs-01.png)
 
-2. **진단 설정**에서 다음 옵션을 지정합니다.
+2. **진단 설정** 에서 다음 옵션을 지정합니다.
 
     * **이름** - 만들 진단 설정의 이름을 입력합니다.
 
@@ -43,7 +44,7 @@ ms.locfileid: "91748796"
     * **Engine** - 아래에 [나열된 엔진 이벤트](#whats-logged) 집합을 기록하려면 이 옵션을 선택합니다.
     * **AllMetrics** - [메트릭](/azure/analysis-services/analysis-services-monitor#server-metrics)에 자세한 정보 데이터를 저장하려면 이 옵션을 선택합니다. 스토리지 계정으로 보관하려는 경우 진단 로그의 보존 기간을 선택할 수 있습니다. 보존 기간이 만료되면 로그가 자동으로 삭제됩니다.
 
-3. **저장**을 선택합니다.
+3. **저장** 을 선택합니다.
 
     진단 로그 저장 방법을 변경하려면 이 페이지로 돌아가서 설정을 수정할 수 있습니다.
 
@@ -164,11 +165,11 @@ Log Analytics에서 진단 데이터를 보려면 아래와 같이 관리 영역
 
 ![Log Analytics 페이지](media/azure-pbie-diag-logs/azure-pbie-diag-logs-analytics.png)
 
-이제 데이터 수집을 사용하도록 설정했으므로 **로그**에서 **수집된 모든 데이터**를 선택합니다.
+이제 데이터 수집을 사용하도록 설정했으므로 **로그** 에서 **수집된 모든 데이터** 를 선택합니다.
 
 ![수집된 모든 데이터](media/azure-pbie-diag-logs/azure-pbie-diag-logs-analytics-all-collected-data.png)
 
-**형식**에서 **AzureDiagnostics**를 선택하고 **적용**을 선택합니다. AzureDiagnostics에는 Engine 이벤트가 포함됩니다. Log Analytics 쿼리는 즉석에서 생성됩니다.
+**형식** 에서 **AzureDiagnostics** 를 선택하고 **적용** 을 선택합니다. AzureDiagnostics에는 Engine 이벤트가 포함됩니다. Log Analytics 쿼리는 즉석에서 생성됩니다.
 
 ![Azure Diagnostics](media/azure-pbie-diag-logs/azure-pbie-diag-logs-analytics-azure-diagnostics.png)
 

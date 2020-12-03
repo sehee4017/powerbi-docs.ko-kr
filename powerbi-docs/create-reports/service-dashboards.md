@@ -2,23 +2,23 @@
 title: Power BI 디자이너용 대시보드 소개
 description: 대시보드는 Power BI 서비스의 핵심 기능입니다. 대시보드는 시각화를 통해 스토리를 알려주는 흔히 캔버스라고 불리는 단일 페이지입니다.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 09/19/2019
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a9aa24145fc07841bc14980cb2ba02a4b45400a2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 092ce10b527c6160cb27de5e3de0ed5852219f6a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238338"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417293"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Power BI 디자이너용 대시보드 소개
 
-Power BI *대시보드*는 시각화를 통해 스토리를 알려주는 흔히 캔버스라고 불리는 단일 페이지입니다. 한 페이지로 제한되기 때문에 잘 디자인된 대시보드는 해당 스토리의 하이라이트만 포함합니다. Readers(읽기 권한자)는 세부 정보에 대한 관련 보고서를 볼 수 있습니다.
+Power BI *대시보드* 는 시각화를 통해 스토리를 알려주는 흔히 캔버스라고 불리는 단일 페이지입니다. 한 페이지로 제한되기 때문에 잘 디자인된 대시보드는 해당 스토리의 하이라이트만 포함합니다. Readers(읽기 권한자)는 세부 정보에 대한 관련 보고서를 볼 수 있습니다.
 
 ![대시보드](media/service-dashboards/power-bi-dashboard2.png)
 
@@ -26,7 +26,7 @@ Power BI *대시보드*는 시각화를 통해 스토리를 알려주는 흔히 
 
 ## <a name="dashboard-basics"></a>대시보드 기본 사항 
 
-대시보드에 표시되는 시각화를 *타일*이라고 합니다. 보고서에서 대시보드로 타일을 *고정*합니다. Power BI를 처음 사용하는 경우 [Power BI 서비스 디자이너를 위한 기본 개념](../fundamentals/service-basic-concepts.md)을 읽으면 적절한 기초 정보를 얻을 수 있습니다.
+대시보드에 표시되는 시각화를 *타일* 이라고 합니다. 보고서에서 대시보드로 타일을 *고정* 합니다. Power BI를 처음 사용하는 경우 [Power BI 서비스 디자이너를 위한 기본 개념](../fundamentals/service-basic-concepts.md)을 읽으면 적절한 기초 정보를 얻을 수 있습니다.
 
 대시보드의 시각적 개체는 보고서에 원본이 있으며 각 보고서는 데이터 세트를 기반으로 합니다. 대시보드를 생각하는 한 가지 방법은 기본 보고서와 데이터 세트로 들어가는 입구로 여기는 것입니다. 시각화를 선택하면 해당 시각화를 기반으로 하는 보고서(및 데이터 세트)로 이동합니다.
 
@@ -38,7 +38,7 @@ Power BI *대시보드*는 시각화를 통해 스토리를 알려주는 흔히 
 대시보드는 단지 깔끔한 사진이 아닙니다. 고도의 대화형이며 기본 데이터가 변경되면 타일이 업데이트됩니다.
 
 ## <a name="who-can-create-a-dashboard"></a>대시보드는 누가 만들 수 있나요?
-대시보드를 만드는 기능은 *작성자* 기능으로 간주되며 보고서에 대한 편집 권한이 필요합니다. 편집 권한은 보고서 작성자와 작성자가 액세스 권한을 부여하는 동료들에게 제공됩니다. 예를 들어 David가 ABC 작업 영역에서 보고서를 만들고 해당 작업 영역의 구성원으로 사용자를 추가하는 경우, David와 사용자는 둘 다 편집 권한이 있습니다. 반면, 보고서가 사용자와 직접 공유되거나 [Power BI 앱](../collaborate-share/service-create-distribute-apps.md)의 일부로서 공유되는 경우 사용자가 보고서를 *소비*하는 것입니다. 타일을 대시보드에 고정하지 못할 수 있습니다. 
+대시보드를 만드는 기능은 *작성자* 기능으로 간주되며 보고서에 대한 편집 권한이 필요합니다. 편집 권한은 보고서 작성자와 작성자가 액세스 권한을 부여하는 동료들에게 제공됩니다. 예를 들어 David가 ABC 작업 영역에서 보고서를 만들고 해당 작업 영역의 구성원으로 사용자를 추가하는 경우, David와 사용자는 둘 다 편집 권한이 있습니다. 반면, 보고서가 사용자와 직접 공유되거나 [Power BI 앱](../collaborate-share/service-create-distribute-apps.md)의 일부로서 공유되는 경우 사용자가 보고서를 *소비* 하는 것입니다. 타일을 대시보드에 고정하지 못할 수 있습니다. 
 
 > [!IMPORTANT]
 > 작업 영역에서 대시보드를 만들려면 [Power BI Pro](../fundamentals/service-features-license-type.md) 라이선스가 필요합니다. 자신의 내 작업 영역에서는 Power BI Pro 라이선스 없이 대시보드를 만들 수 있습니다.
@@ -55,7 +55,7 @@ Power BI *대시보드*는 시각화를 통해 스토리를 알려주는 흔히 
 | 구독 |예. 대시보드 구독 가능 |예. 보고서 페이지 구독 가능 |
 | 필터링 |아니요. 필터링 또는 조각화 불가능 |예. 필터링, 강조 표시 및 조각화를 위한 다양한 방법 |
 | 주요 |예. 하나의 대시보드를 *주요* 대시보드로 설정 가능 |아니요 |
-| 즐겨찾기 | 예. 여러 대시보드를 *즐겨찾기*로 설정 가능 | 예. 여러 보고서를 *즐겨찾기*로 설정 가능
+| 즐겨찾기 | 예. 여러 대시보드를 *즐겨찾기* 로 설정 가능 | 예. 여러 보고서를 *즐겨찾기* 로 설정 가능
 | 경고 설정 |예. 특정 상황에서 대시보드 타일에서 사용 가능 |아니요 |
 | 자연어 쿼리(질문 및 답변) |예 | 예. 보고서 및 기본 데이터 세트를 편집할 수 있는 권한이 제공됨 |
 | 기본 데이터 세트 테이블 및 필드를 볼 수 있음 |아니요. 데이터를 내보낼 수 있지만 대시보드 자체에서 테이블 및 필드를 볼 수 없음 |예 |

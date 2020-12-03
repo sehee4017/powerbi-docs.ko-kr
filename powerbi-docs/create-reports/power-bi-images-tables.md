@@ -2,20 +2,20 @@
 title: 보고서의 테이블 또는 행렬에 이미지 표시
 description: Power BI Desktop에서 이미지에 대한 하이퍼링크가 있는 열을 만듭니다. 그런 다음, Power BI Desktop 또는 Power BI 서비스에서 이미지를 표시할 보고서 테이블, 행렬, 슬라이서 또는 여러 행 카드에 해당 하이퍼링크를 추가합니다.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 09/11/2019
-ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 098bb6cc8df59dea38bb63f38c724e362c7219e5
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4ba0042804d366ddfd80935c48246cadeadf3614
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228979"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417960"
 ---
 # <a name="display-images-in-a-table-matrix-or-slicer-in-a-report"></a>보고서에서 테이블, 행렬 또는 슬라이서에 이미지 표시
 
@@ -27,7 +27,7 @@ ms.locfileid: "85228979"
 
 1. 이미지의 URL을 사용하여 열을 만듭니다. 요구 사항에 대해서는 이 문서의 뒷부분에 나오는 [고려 사항](#considerations)을 참조하세요.
 
-1. 해당 열을 선택합니다. **모델링** 리본에서 **데이터 범주**에 대해 **이미지 URL**을 선택합니다.
+1. 해당 열을 선택합니다. **모델링** 리본에서 **데이터 범주** 에 대해 **이미지 URL** 을 선택합니다.
 
     ![데이터 범주를 이미지 URL로 설정](media/power-bi-images-tables/power-bi-set-url-image.png)
 

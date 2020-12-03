@@ -2,19 +2,19 @@
 title: Power BI의 접근성 개요
 description: WCAG(웹 콘텐츠 접근성 지침)를 포함한 액세스할 수 있는 Power BI Desktop 보고서를 만들기 위한 기능 및 제안
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 02/21/2020
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a8bf446174cc16d95842022416352f538dca69ec
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3c07f27e1ed4a0a1d509aa93a67b2584ad20a6cc
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83310237"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417523"
 ---
 # <a name="overview-of-accessibility-in-power-bi"></a>Power BI의 접근성 개요
 

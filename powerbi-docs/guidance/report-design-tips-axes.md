@@ -2,19 +2,19 @@
 title: Power BI 보고서에서 축을 관리하기 위한 팁
 description: Power BI Desktop 또는 Power BI 서비스에서 Power BI 보고서 시각적 개체의 축을 효과적으로 관리하기 위한 8가지 팁입니다.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 featuredvideoid: 3t9W7Xvpzo0
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 01/29/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 110aadce6bafd61b3c8b60a7370cedecf0d27ae0
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: f895ef50647f0755221b81205ba93547a2fdc4b2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278103"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419018"
 ---
 # <a name="tips-to-manage-axes-in-power-bi-reports"></a>Power BI 보고서에서 축을 관리하기 위한 팁
 

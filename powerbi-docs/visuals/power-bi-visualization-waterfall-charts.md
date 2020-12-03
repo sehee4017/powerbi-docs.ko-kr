@@ -1,21 +1,21 @@
 ---
 title: Power BI의 폭포 차트
 description: Power BI의 폭포 차트
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 12/5/2019
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ce3c52774326bd9fc66fecde7496fefb1cf6888c
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 1a651afd0aee0777f8f4c945f208eec8c46db047
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412122"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416672"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI의 폭포 차트
 
@@ -76,7 +76,7 @@ ms.locfileid: "93412122"
 
 ### <a name="sort-the-waterfall-chart"></a>폭포 차트 정렬
 
-1. Power BI에서 폭포 차트가 시간(월)순으로 정렬되도록 합니다. 차트의 오른쪽 위에서 **추가 옵션** (...)을 선택합니다.
+1. Power BI에서 폭포 차트가 시간(월)순으로 정렬되도록 합니다. 차트의 오른쪽 위에서 **추가 옵션**(...)을 선택합니다.
 
     이 예에서는 **정렬 기준** 을 선택하고 **FiscalMonth** 를 선택합니다. 선택 항목 옆에 있는 노란색 표시기는 선택 옵션이 적용 중인 경우에 나타납니다.
 

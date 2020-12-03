@@ -2,18 +2,18 @@
 title: “Android System Webview를 업데이트해야 합니다.” 수정 - Power BI
 description: Android 모바일 앱에 로그인할 때 Android System Webview를 업데이트해야 한다는 메시지가 표시될 수 있습니다.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: 56a6340880b03303524b80f3a9c780994b309333
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 08c147c85895db35699bfb3df900d105ef0ee535
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239214"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417684"
 ---
 # <a name="fixing-need-to-update-android-system-webview"></a>“Android System Webview를 업데이트해야 합니다.” 수정
 Microsoft Power BI용 Android 모바일 앱에 로그인할 때 Android System Webview를 업데이트해야 한다는 메시지가 표시될 수 있습니다. 

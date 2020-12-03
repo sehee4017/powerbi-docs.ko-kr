@@ -5,15 +5,15 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
+ms.topic: tutorial
 ms.date: 11/21/2018
-ms.openlocfilehash: 2a557f1e84e8102df6b22121c7f0b79d761ce49e
-ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
+ms.openlocfilehash: ec3ba601eb6cd5db4fbc19298d76ce0cd7346f53
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "84739325"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418742"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>자습서:  Power BI 시각적 개체에 서식 옵션 추가
 
@@ -27,15 +27,15 @@ ms.locfileid: "84739325"
 
 ## <a name="adding-formatting-options"></a>서식 옵션 추가
 
-1. **Power BI**에서 **페이지 서식**을 선택합니다.
+1. **Power BI** 에서 **페이지 서식** 을 선택합니다.
 
     ‘이 시각적 개체에 대해 서식 옵션을 사용할 수 없습니다.’라는 메시지가 표시됩니다. 
 
     ![서식 페인트 브러시](media/custom-visual-develop-tutorial-format-options/format-paintbrush.png)
 
-2. **Visual Studio Code**에서 *capabilities.json* 파일을 엽니다.
+2. **Visual Studio Code** 에서 *capabilities.json* 파일을 엽니다.
 
-3. **dataViewMappings** 배열 앞에 **objects**를 추가합니다(줄 8 뒤).
+3. **dataViewMappings** 배열 앞에 **objects** 를 추가합니다(줄 8 뒤).
 
     ```json
     "objects": {},
@@ -45,10 +45,10 @@ ms.locfileid: "84739325"
 
 4. **capabilities.json** 파일을 저장합니다.
 
-5. **Power BI**에서 서식 옵션을 다시 검토합니다.
+5. **Power BI** 에서 서식 옵션을 다시 검토합니다.
 
     > [!Note]
-    > 서식 옵션이 변경되지 않으면 **사용자 지정 시각적 개체 다시 로드**를 선택합니다.
+    > 서식 옵션이 변경되지 않으면 **사용자 지정 시각적 개체 다시 로드** 를 선택합니다.
 
     ![서식 옵션 보기](media/custom-visual-develop-tutorial-format-options/view-formatting-options.png)
 
@@ -64,7 +64,7 @@ ms.locfileid: "84739325"
 
 1. PowerShell에서 사용자 지정 시각적 개체를 중지합니다.
 
-2. Visual Studio Code의 **capabilities.json** 파일에서 다음 JSON 조각을 **objects**로 레이블된 개체에 삽입합니다.
+2. Visual Studio Code의 **capabilities.json** 파일에서 다음 JSON 조각을 **objects** 로 레이블된 개체에 삽입합니다.
 
     ```json
         {
@@ -100,7 +100,7 @@ ms.locfileid: "84739325"
 
 3. **capabilities.json** 파일을 저장합니다.
 
-4. **탐색기 창**의 **src** 폴더 내부에서 **settings.ts**를 선택합니다. 이 파일은 시작 시각적 개체의 설정을 나타냅니다. 
+4. **탐색기 창** 의 **src** 폴더 내부에서 **settings.ts** 를 선택합니다. 이 파일은 시작 시각적 개체의 설정을 나타냅니다. 
 
 5. **settings.ts** 파일에서 두 개의 클래스를 다음 코드로 바꿉니다.
 
@@ -116,7 +116,7 @@ ms.locfileid: "84739325"
 
     ![모듈 클래스](media/custom-visual-develop-tutorial-format-options/module-classes.png)
 
-    이 모듈은 두 개의 클래스를 정의합니다. **CircleSettings** 클래스는 **capabilities.json** 파일에 정의된 개체와 일치하는 이름을 사용하여 두 개의 속성(**circleColor** 및 **circleThickness**)을 정의하고 기본값을 설정합니다. **VisualSettings** 클래스는 **DataViewObjectParser** 클래스를 상속하고 *capabilities.json* 파일에 정의된 개체와 일치하는 **circle**이라는 속성을 추가하고 **CircleSettings**의 인스턴스를 반환합니다.
+    이 모듈은 두 개의 클래스를 정의합니다. **CircleSettings** 클래스는 **capabilities.json** 파일에 정의된 개체와 일치하는 이름을 사용하여 두 개의 속성(**circleColor** 및 **circleThickness**)을 정의하고 기본값을 설정합니다. **VisualSettings** 클래스는 **DataViewObjectParser** 클래스를 상속하고 *capabilities.json* 파일에 정의된 개체와 일치하는 **circle** 이라는 속성을 추가하고 **CircleSettings** 의 인스턴스를 반환합니다.
 
 6. **settings.ts** 파일을 저장합니다.
 
@@ -168,7 +168,7 @@ ms.locfileid: "84739325"
 
     ![Radius 변수](media/custom-visual-develop-tutorial-format-options/radius.png)
 
-11. **circle 요소**의 경우 **채우기 스타일**에 전달된 값을 다음 식으로 수정합니다.
+11. **circle 요소** 의 경우 **채우기 스타일** 에 전달된 값을 다음 식으로 수정합니다.
 
     ```typescript
     this.visualSettings.circle.circleColor
@@ -176,7 +176,7 @@ ms.locfileid: "84739325"
 
     ![circle 요소 채우기](media/custom-visual-develop-tutorial-format-options/circle-element-fill.png)
 
-12. **circle 요소**의 경우 **스트로크 너비 스타일**에 전달된 값을 다음 식으로 수정합니다.
+12. **circle 요소** 의 경우 **스트로크 너비 스타일** 에 전달된 값을 다음 식으로 수정합니다.
 
     ```typescript
     this.visualSettings.circle.circleThickness
@@ -192,9 +192,9 @@ ms.locfileid: "84739325"
     pbiviz start
     ```
 
-15. **Power BI**의 시각적 개체 위에서 움직이는 도구 모음에서 **자동 다시 로드 토글**을 선택합니다.
+15. **Power BI** 의 시각적 개체 위에서 움직이는 도구 모음에서 **자동 다시 로드 토글** 을 선택합니다.
 
-16. **시각적 개체 서식** 옵션에서 **원**을 확장합니다.
+16. **시각적 개체 서식** 옵션에서 **원** 을 확장합니다.
 
     ![원 서식](media/custom-visual-develop-tutorial-format-options/circle-format.png)
 
@@ -206,11 +206,11 @@ ms.locfileid: "84739325"
 
 사용자 지정 시각적 개체 프로젝트의 속성 값을 입력하고, 아이콘 파일을 업데이트한 다음, 사용자 지정 시각적 개체를 패키지합니다.
 
-1. **PowerShell**에서 사용자 지정 시각적 개체를 중지합니다.
+1. **PowerShell** 에서 사용자 지정 시각적 개체를 중지합니다.
 
-2. **Visual Studio Code**에서 **pbiviz.json** 파일을 엽니다.
+2. **Visual Studio Code** 에서 **pbiviz.json** 파일을 엽니다.
 
-3. **visual** 개체에서 **displayName** 속성을 *Circle Card*로 수정합니다.
+3. **visual** 개체에서 **displayName** 속성을 *Circle Card* 로 수정합니다.
 
     **시각화** 창에서 아이콘 위에 마우스를 놓으면 표시 이름이 표시됩니다.
 
@@ -220,7 +220,7 @@ ms.locfileid: "84739325"
 
     ‘원 내부에 서식이 지정된 측정값 표시’ 
 
-5. 시각적 개체의 **supportUrl** 및 **gitHubUrl**을 채웁니다.
+5. 시각적 개체의 **supportUrl** 및 **gitHubUrl** 을 채웁니다.
 
     예제:
 
@@ -235,7 +235,7 @@ ms.locfileid: "84739325"
 
 7. **pbiviz.json** 파일을 저장합니다.
 
-8. **assets** 개체에서 문서는 아이콘의 경로를 정의합니다. 아이콘은 **‘시각화’** 창에 표시되는 이미지입니다.  *20px x 20px*의 **PNG** 파일이어야 합니다.
+8. **assets** 개체에서 문서는 아이콘의 경로를 정의합니다. 아이콘은 **‘시각화’** 창에 표시되는 이미지입니다.  *20px x 20px* 의 **PNG** 파일이어야 합니다.
 
 9. Windows 탐색기에서 icon.png 파일을 복사한 후 붙여넣어 assets 폴더에 있는 기본 파일을 바꿉니다.
 
@@ -261,19 +261,19 @@ ms.locfileid: "84739325"
 
 이제 Power BI Desktop 보고서를 열고 Circle Card 사용자 지정 시각적 개체를 가져올 수 있습니다.
 
-1. **Power BI Desktop**을 열고  *샘플 데이터 세트*을 사용하여 새 보고서를 생성합니다.
+1. **Power BI Desktop** 을 열고  *샘플 데이터 세트* 을 사용하여 새 보고서를 생성합니다.
 
-2. **‘시각화’** 창에서 **줄임표**를 선택한 다음, 파일에서 **가져오기**를 선택합니다. 
+2. **‘시각화’** 창에서 **줄임표** 를 선택한 다음, 파일에서 **가져오기** 를 선택합니다. 
 
     ![데스크톱에 사용자 지정 시각적 개체 추가](media/custom-visual-develop-tutorial-format-options/add-custom-viz-to-desktop.png)
 
-3. **가져오기 창**에서 **가져오기**를 선택합니다.
+3. **가져오기 창** 에서 **가져오기** 를 선택합니다.
 
 4. [열기] 창에서 프로젝트 디렉터리의 **dist** 폴더로 이동합니다.
 
-5. **circleCard.pbiviz** 파일을 선택한 다음, **열기**를 선택합니다.
+5. **circleCard.pbiviz** 파일을 선택한 다음, **열기** 를 선택합니다.
 
-6. 시각적 개체를 성공적으로 가져온 경우 **확인**을 선택합니다.
+6. 시각적 개체를 성공적으로 가져온 경우 **확인** 을 선택합니다.
 
 7. 시각적 개체가 **‘시각화’** 창에 추가되었는지 확인합니다. 
 
@@ -287,4 +287,4 @@ ms.locfileid: "84739325"
 
 ## <a name="next-steps"></a>다음 단계
 
-**AppSource**에 제출하여 다른 사용자가 사용할 새로 개발된 시각적 개체를 나열할 수 있습니다. 이 프로세스에 대한 자세한 내용은 [Power BI 시각적 개체를 AppSource에 게시](office-store.md)를 참조하세요.
+**AppSource** 에 제출하여 다른 사용자가 사용할 새로 개발된 시각적 개체를 나열할 수 있습니다. 이 프로세스에 대한 자세한 내용은 [Power BI 시각적 개체를 AppSource에 게시](office-store.md)를 참조하세요.

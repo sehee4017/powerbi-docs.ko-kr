@@ -1,19 +1,19 @@
 ---
 title: Power BI 질문 및 답변 시각적 개체 사용
 description: Power BI 질문 및 답변 시각적 개체를 설정하는 방법
-author: msftrien
+author: rien
+ms.author: rien
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 11/19/2019
-ms.author: mohaali
-ms.openlocfilehash: 96773bc256ba8563147c7dc7c19e2558125b48fc
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 43da67114808538d64aa2ceb7f59af590ee23857
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412352"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418949"
 ---
 # <a name="introduction-to-power-bi-qa-visualizations"></a>Power BI 질문 및 답변 시각화 소개
 

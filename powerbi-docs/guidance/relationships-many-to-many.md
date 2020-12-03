@@ -2,18 +2,18 @@
 title: 다 대 다 관계 지침
 description: 다 대 다 모델 관계를 개발하기 위한 지침입니다.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 3c94c25f5f1ba717f68a0c2a5ec661be10f70135
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 95383581a258374f2757581e82fa0f2044dcae84
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668531"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418627"
 ---
 # <a name="many-to-many-relationship-guidance"></a>다 대 다 관계 지침
 
@@ -37,9 +37,9 @@ ms.locfileid: "91668531"
 
 ![테이블 세 개가 포함된 모델을 보여 주는 다이어그램. 디자인은 다음 단락에서 설명합니다.](media/relationships-many-to-many/bank-account-customer-model-example.png)
 
-첫 번째 테이블의 이름은 **Account**이고 **AccountID**와 **Account**라는 2개의 열이 있습니다. 두 번째 테이블의 이름은 **AccountCustomer**이고 **AccountID**와 **CustomerID**라는 2개의 열이 있습니다. 세 번째 테이블의 이름은 **Customer**이고 **CustomerID**와 **Customer**라는 2개의 열이 있습니다. 테이블 간에는 관계가 없습니다.
+첫 번째 테이블의 이름은 **Account** 이고 **AccountID** 와 **Account** 라는 2개의 열이 있습니다. 두 번째 테이블의 이름은 **AccountCustomer** 이고 **AccountID** 와 **CustomerID** 라는 2개의 열이 있습니다. 세 번째 테이블의 이름은 **Customer** 이고 **CustomerID** 와 **Customer** 라는 2개의 열이 있습니다. 테이블 간에는 관계가 없습니다.
 
-테이블을 연결하기 위해 일 대 다 관계 2개를 추가합니다. 다음은 업데이트된 관련 테이블 모델 다이어그램입니다. **Transaction**이라는 팩트 유형 테이블이 추가되었습니다. 이 테이블에는 계정 트랜잭션이 기록됩니다. 브리징 테이블과 모든 ID 열은 숨겨져 있습니다.
+테이블을 연결하기 위해 일 대 다 관계 2개를 추가합니다. 다음은 업데이트된 관련 테이블 모델 다이어그램입니다. **Transaction** 이라는 팩트 유형 테이블이 추가되었습니다. 이 테이블에는 계정 트랜잭션이 기록됩니다. 브리징 테이블과 모든 ID 열은 숨겨져 있습니다.
 
 ![이제 모델에 네 개의 테이블이 포함됨을 보여 주는 다이어그램. 모든 테이블을 연결하기 위해 일 대 다 관계를 추가했습니다.](media/relationships-many-to-many/bank-account-customer-model-related-tables-1.png)
 
@@ -73,13 +73,13 @@ ms.locfileid: "91668531"
 
 ![나란히 배치된 두 개의 보고서 시각적 개체를 보여 주는 다이어그램. 시각적 개체는 다음 단락에서 설명합니다.](media/relationships-many-to-many/bank-account-customer-model-queried-1.png)
 
-첫 번째 시각적 개체의 제목은 **Account Balance**이고 **Account**와 **Amount**라는 2개의 열이 있습니다. 다음 결과를 표시합니다.
+첫 번째 시각적 개체의 제목은 **Account Balance** 이고 **Account** 와 **Amount** 라는 2개의 열이 있습니다. 다음 결과를 표시합니다.
 
 - Account-01 잔액 금액은 75입니다.
 - Account-02 잔액 금액은 200입니다.
 - 합계는 275입니다.
 
-두 번째 시각적 개체의 제목은 **Customer Balance**이고 **Customer**와 **Amount**라는 2개의 열이 있습니다. 다음 결과를 표시합니다.
+두 번째 시각적 개체의 제목은 **Customer Balance** 이고 **Customer** 와 **Amount** 라는 2개의 열이 있습니다. 다음 결과를 표시합니다.
 
 - Customer-91 잔액 금액은 275입니다.
 - Customer-92 잔액 금액은 275입니다.
@@ -89,7 +89,7 @@ ms.locfileid: "91668531"
 
 그러나 **Customer Balance** 시각적 개체에는 결과가 올바르게 표시되지 않습니다. **Customer Balance** 시각적 개체에서 각 고객의 잔액이 총 잔액과 같습니다. 이 결과는 각 고객이 모든 계정의 공동 계정 소유자인 경우에만 올바른 결과일 수 있습니다. 이 예제는 해당 경우가 아닙니다. 문제는 필터 전달과 관련이 있습니다. 필터가 **Transaction** 테이블까지 전달되지 않습니다.
 
-**Customer** 테이블에서 **Transaction** 테이블로 관계 필터 방향을 따릅니다. **Account** 및 **AccountCustomer** 테이블 간의 관계가 잘못된 방향으로 전달되고 있는 것이 분명합니다. 이 관계의 필터 방향을 **모두**로 설정해야 합니다.
+**Customer** 테이블에서 **Transaction** 테이블로 관계 필터 방향을 따릅니다. **Account** 및 **AccountCustomer** 테이블 간의 관계가 잘못된 방향으로 전달되고 있는 것이 분명합니다. 이 관계의 필터 방향을 **모두** 로 설정해야 합니다.
 
 ![모델이 업데이트되었음을 보여 주는 다이어그램. 이제 양방향으로 모두 필터링됩니다.](media/relationships-many-to-many/bank-account-customer-model-related-tables-3.png)
 
@@ -105,7 +105,7 @@ ms.locfileid: "91668531"
 
 이제 **Customer Balance** 시각적 개체가 올바른 결과를 표시합니다. 직접 필터 방향을 따라가면서 고객 잔액이 계산된 방식을 확인합니다. 또한 보이는 값 합계가 ‘모든 고객’을 의미한다는 것을 이해합니다.
 
-모델 관계를 잘 모르는 사용자는 결과가 잘못된 것으로 결론을 내리고 다음과 같이 질문할 수 있습니다. ‘**Customer-91**과 **Customer-92**의 총 잔액이 350 (75 + 275)과 왜 다른가요?’
+모델 관계를 잘 모르는 사용자는 결과가 잘못된 것으로 결론을 내리고 다음과 같이 질문할 수 있습니다. ‘**Customer-91** 과 **Customer-92** 의 총 잔액이 350 (75 + 275)과 왜 다른가요?’
 
 이 질문의 답변은 다 대 다 관계의 이해에 있습니다. 각 고객 잔액은 여러 계정 잔액의 더하기를 나타낼 수 있으므로 고객 잔액은 ‘비가산적’입니다.
 
@@ -116,7 +116,7 @@ ms.locfileid: "91668531"
 - 각 다 대 다 관련 엔터티를 모델 테이블로 추가하여 고유 식별자(ID) 열이 있도록 합니다.
 - 연결된 엔터티를 저장할 브리징 테이블을 추가합니다.
 - 세 테이블 간에 일 대 다 관계를 만듭니다.
-- 양방향 관계 **1개**를 구성하여 필터 전달이 팩트 유형 테이블까지 계속 진행되도록 합니다.
+- 양방향 관계 **1개** 를 구성하여 필터 전달이 팩트 유형 테이블까지 계속 진행되도록 합니다.
 - ID 값이 누락되는 것이 적절하지 않은 경우 ID 열의 **Null 허용 여부** 속성을 FALSE로 설정합니다. 누락된 값이 제공되면 데이터 새로 고침이 실패합니다.
 - 브리징 테이블을 숨깁니다(보고에 필요한 추가 열 또는 측정값이 포함된 경우 제외).
 - 보고에 적합하지 않은 ID 열을 숨깁니다(예: ID가 서로게이트 키인 경우).
@@ -129,7 +129,7 @@ ms.locfileid: "91668531"
 
 두 번째 다 대 다 시나리오 유형에서는 2개의 팩트 유형 테이블을 연결해야 합니다. 2개의 팩트 유형 테이블을 직접 연결할 수 있습니다. 이 디자인 방법은 빠르고 간단한 데이터 탐색에 유용할 수 있습니다. 그러나 분명히 이 디자인 방법은 일반적으로 권장되지 않습니다. 이유는 이 섹션의 뒷부분에서 설명합니다.
 
-2개의 팩트 유형 테이블 **Order**와 **Fulfillment**가 포함된 예제를 살펴봅시다. **Order** 테이블에는 주문 라인당 하나의 행이 있고, **Fulfillment** 테이블에는 주문 라인당 0개 이상의 행이 포함될 수 있습니다. **Order** 테이블의 행은 판매 주문을 나타냅니다. **Fulfillment** 테이블의 행은 배송된 주문 항목을 나타냅니다. 다 대 다 관계는 2개의 **OrderID** 열을 연결하고 **Order** 테이블에서만 필터를 전달합니다(**Order**가 **Fulfillment**를 필터링함).
+2개의 팩트 유형 테이블 **Order** 와 **Fulfillment** 가 포함된 예제를 살펴봅시다. **Order** 테이블에는 주문 라인당 하나의 행이 있고, **Fulfillment** 테이블에는 주문 라인당 0개 이상의 행이 포함될 수 있습니다. **Order** 테이블의 행은 판매 주문을 나타냅니다. **Fulfillment** 테이블의 행은 배송된 주문 항목을 나타냅니다. 다 대 다 관계는 2개의 **OrderID** 열을 연결하고 **Order** 테이블에서만 필터를 전달합니다(**Order** 가 **Fulfillment** 를 필터링함).
 
 ![테이블 두 개가 포함된 모델을 보여 주는 다이어그램: Order와 Fulfillment라는 2개의 테이블이 포함되어 있습니다.](media/relationships-many-to-many/order-fulfillment-model-example.png)
 
@@ -171,7 +171,7 @@ ms.locfileid: "91668531"
 
 디자인이 다음과 같이 변경된 것을 확인합니다.
 
-- 이제 모델에 **OrderLine**, **OrderDate**, **Product**, **FulfillmentDate**라는 4개의 추가 테이블이 있습니다.
+- 이제 모델에 **OrderLine**, **OrderDate**, **Product**, **FulfillmentDate** 라는 4개의 추가 테이블이 있습니다.
 - 4개의 추가 테이블은 모두 차원 유형 테이블이며, 일 대 다 관계를 통해 테이블이 팩트 유형 테이블에 연결되어 있습니다.
 - **OrderLine** 테이블에는 **OrderLineID** 열이 있습니다. 이 열은 **OrderID** 값에 100을 곱하고 **OrderLine** 값을 더한 값인 각 주문 라인의 고유 식별자를 나타냅니다.
 - 이제 **Order** 및 **Fulfillment** 테이블에 **OrderLineID** 열이 있으며, 더 이상 **OrderID** 및 **OrderLine** 열이 포함되지 않습니다.
@@ -190,11 +190,11 @@ ms.locfileid: "91668531"
 
 이 다 대 다 시나리오는 이 문서에서 이미 설명한 다른 두 시나리오와 전혀 다릅니다.
 
-다음 4개의 테이블이 포함된 예제를 살펴봅시다. **Date**, **Sales**, **Product**, **Target**. **Date** 및 **Product**는 차원 유형 테이블이며, 일 대 다 관계를 통해 각각 **Sales** 팩트 유형 테이블에 연결되어 있습니다. 지금까지는 양호한 별모양 스키마 디자인입니다. 그러나 **Target** 테이블은 다른 테이블에 아직 연결되어 있지 않습니다.
+다음 4개의 테이블이 포함된 예제를 살펴봅시다. **Date**, **Sales**, **Product**, **Target**. **Date** 및 **Product** 는 차원 유형 테이블이며, 일 대 다 관계를 통해 각각 **Sales** 팩트 유형 테이블에 연결되어 있습니다. 지금까지는 양호한 별모양 스키마 디자인입니다. 그러나 **Target** 테이블은 다른 테이블에 아직 연결되어 있지 않습니다.
 
 ![테이블 네 개가 포함된 모델을 보여 주는 다이어그램: Date, Sales, Product, Target이라는 4개의 테이블이 포함되어 있습니다.](media/relationships-many-to-many/sales-targets-model-example.png)
 
-**Target** 테이블에는 **Category**, **TargetQuantity**, **TargetYear**라는 3개의 열이 있습니다. 테이블 행에는 연도 및 제품 범주 세분성이 표시됩니다. 즉, 판매 성과를 측정하는 데 사용되는 목표는 각 제품 범주에 대해 매년 설정됩니다.
+**Target** 테이블에는 **Category**, **TargetQuantity**, **TargetYear** 라는 3개의 열이 있습니다. 테이블 행에는 연도 및 제품 범주 세분성이 표시됩니다. 즉, 판매 성과를 측정하는 데 사용되는 목표는 각 제품 범주에 대해 매년 설정됩니다.
 
 ![대상 테이블에 세 개의 열이 있음을 보여 주는 다이어그램: TargetYear, Category, TargetQuantity라는 3개의 열이 있습니다.](media/relationships-many-to-many/sales-targets-model-target-rows.png)
 

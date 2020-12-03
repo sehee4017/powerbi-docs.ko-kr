@@ -2,20 +2,20 @@
 title: Power BI 보고서에 새 Power App 포함
 description: 동일한 데이터 원본을 사용하고 다른 보고서 항목처럼 필터링할 수 있는 앱을 포함합니다
 author: mihart
+ms.author: mihart
 manager: kvivek
 ms.reviewer: tapan maniar
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 06/01/2020
-ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c46410caff373eb8474a4b687e834b822f2da8ac
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 1c4086d6ab71bd96ba7ac6c6985161d28a4dcb8b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397533"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418880"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>자습서:  Power BI 보고서에 Power Apps 시각적 개체 포함
 
@@ -51,7 +51,7 @@ Power Apps 구독이 없는 경우 시작하기 전에 [무료 계정을 만듭�
 
     ![Power Apps 아이콘이 선택된 시각화 창](media/power-bi-visualization-powerapp/power-bi-powerapps-icon.jpg)
 
-3. **필드** 창에서 **이름** , **제품 코드** 및 **영업 스테이지** 를 선택합니다. 
+3. **필드** 창에서 **이름**, **제품 코드** 및 **영업 스테이지** 를 선택합니다. 
 
     ![필드 선택](media/power-bi-visualization-powerapp/power-bi-fields.png)
 

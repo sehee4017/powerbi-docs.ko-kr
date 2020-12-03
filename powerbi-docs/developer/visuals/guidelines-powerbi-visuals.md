@@ -5,15 +5,15 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
+ms.topic: conceptual
 ms.date: 08/12/2020
-ms.openlocfilehash: 6e9da6e16d32f0093bc0e4be35415f1a23f7fa41
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 427fba66b34fefb0b7ca9d70a29b08ebe7d743cb
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748567"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416143"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI 시각적 개체에 대한 지침
 다른 사용자가 검색하고 사용하도록 Microsoft AppSource에 Power BI 시각적 개체를 [게시](office-store.md)하기 전에 지침에 따라 사용자에게 적합한 환경을 만들어야 합니다.
@@ -26,7 +26,7 @@ Marketplace(Microsoft AppSource)에 무료로 제공되는 Power BI 시각적 �
 
 ### <a name="what-is-a-power-bi-visual-with-iap-features"></a>IAP 기능이 포함된 Power BI 시각적 개체란?
 
-IAP Power BI 시각적 개체는 *무료 기능*을 제공하는 *무료* 시각적 개체입니다. 추가 요금이 부과될 수 있는 일부 고급 기능도 포함되어 있습니다. Power BI 시각적 개체의 설명에서 개발자는 작동을 위해 추가 구매가 필요한 기능이 있으면 사용자에게 알려야 합니다. 현재 Microsoft는 앱 및 추가 기능 구매를 지원하는 네이티브 API를 제공하지 않습니다.
+IAP Power BI 시각적 개체는 *무료 기능* 을 제공하는 *무료* 시각적 개체입니다. 추가 요금이 부과될 수 있는 일부 고급 기능도 포함되어 있습니다. Power BI 시각적 개체의 설명에서 개발자는 작동을 위해 추가 구매가 필요한 기능이 있으면 사용자에게 알려야 합니다. 현재 Microsoft는 앱 및 추가 기능 구매를 지원하는 네이티브 API를 제공하지 않습니다.
 
 개발자는 이러한 구매를 위해 타사 결제 시스템을 사용할 수 있습니다. 자세한 내용은 [our store policy](/legal/marketplace/certification-policies#11002-displaying-ads)(스토어 정책)를 참조하세요.
 

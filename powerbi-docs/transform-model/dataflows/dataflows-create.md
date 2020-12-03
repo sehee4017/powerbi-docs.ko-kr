@@ -2,19 +2,19 @@
 title: 데이터 흐름 만들기
 description: 데이터 흐름을 만들기 위한 다양한 옵션 개요
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-dataflows
 ms.topic: how-to
 ms.date: 10/01/2020
-ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5a75965bb236a1515274343e58668809f91cef7b
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: c98044303e46af46d36b98f0a1bdc8c7df29d94f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94669204"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416166"
 ---
 # <a name="creating-a-dataflow"></a>데이터 흐름 만들기
 **데이터 흐름** 은 Power BI 서비스의 작업 영역에서 만들고 관리하는 ‘엔터티’(엔터티는 테이블과 유사함) 컬렉션입니다. **엔터티/테이블** 은 데이터를 저장하는 데 사용되는 필드 세트로, 데이터베이스 내의 테이블과 매우 유사합니다. 데이터 흐름이 만들어진 작업 영역에서 직접 데이터 흐름의 엔터티/테이블을 추가 및 편집할 수 있고 데이터 새로 고침 일정도 관리할 수 있습니다.
