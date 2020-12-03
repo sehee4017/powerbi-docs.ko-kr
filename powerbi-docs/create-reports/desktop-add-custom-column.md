@@ -2,25 +2,25 @@
 title: Power BI Desktop에서 사용자 지정 열 추가
 description: Power BI Desktop에서 신속하게 새로운 사용자 지정 열 만들기
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/18/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2074094f910efa36d449d8f54ada097d253bb2dd
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: fa1c620bc722fa6382974734129dc7930e94d728
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91598913"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414441"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Power BI Desktop에서 사용자 지정 열 추가
 
 Power BI Desktop에서 쿼리 편집기를 사용하여 새 사용자 지정 데이터 열을 모델에 쉽게 추가할 수 있습니다. 쿼리 편집기를 사용하면 사용자 지정 열을 만들고 이름을 바꾸어 사용자 지정 열을 정의하는 [PowerQuery M 수식 쿼리](/powerquery-m/quick-tour-of-the-power-query-m-formula-language)를 만들 수 있습니다. PowerQuery M 수식 쿼리에는 [포괄적인 함수 참조 콘텐츠 집합](/powerquery-m/power-query-m-function-reference)이 있습니다. 
 
-쿼리 편집기에서 사용자 지정 열을 만들면, Power BI Desktop에서 쿼리의 **쿼리 설정**에 **적용된 단계**로 추가합니다. 사용자 지정 열은 언제든지 변경, 이동 또는 수정할 수 있습니다.
+쿼리 편집기에서 사용자 지정 열을 만들면, Power BI Desktop에서 쿼리의 **쿼리 설정** 에 **적용된 단계** 로 추가합니다. 사용자 지정 열은 언제든지 변경, 이동 또는 수정할 수 있습니다.
 
 ![사용자 지정 열 추가 대화 상자를 보여 주는 스크린샷.](media/desktop-add-custom-column/add-custom-column_01.png)
 
@@ -30,13 +30,13 @@ Power BI Desktop에서 쿼리 편집기를 사용하여 새 사용자 지정 데
 
 1. Power BI Desktop을 시작하고 일부 데이터를 로드합니다.
 
-2. 리본의 **홈** 탭에서 **쿼리 편집**을 선택한 다음, 메뉴에서 **쿼리 편집**을 선택합니다.
+2. 리본의 **홈** 탭에서 **쿼리 편집** 을 선택한 다음, 메뉴에서 **쿼리 편집** 을 선택합니다.
 
    ![쿼리 편집 선택](media/desktop-add-custom-column/add-column-from-example_02.png)
 
    **쿼리 편집기** 창이 표시됩니다. 
 
-2. 리본의 **열 추가** 탭에서 **사용자 지정 열**을 선택합니다.
+2. 리본의 **열 추가** 탭에서 **사용자 지정 열** 을 선택합니다.
 
    ![사용자 지정 열 선택](media/desktop-add-custom-column/add-custom-column_02.png)
 
@@ -55,7 +55,7 @@ Power BI Desktop에서 쿼리 편집기를 사용하여 새 사용자 지정 데
 
 ## <a name="create-formulas-for-your-custom-column"></a>사용자 지정 열의 수식 만들기
 
-1. 오른쪽 **사용 가능한 열** 목록에서 열을 선택한 다음, 목록 아래에 있는 **삽입**을 선택하여 사용자 지정 열 수식에 추가합니다. 목록에서 열을 두 번 클릭하여 추가할 수도 있습니다.
+1. 오른쪽 **사용 가능한 열** 목록에서 열을 선택한 다음, 목록 아래에 있는 **삽입** 을 선택하여 사용자 지정 열 수식에 추가합니다. 목록에서 열을 두 번 클릭하여 추가할 수도 있습니다.
 
 2. 수식을 입력하고 열을 작성하면서 **사용자 지정 열 추가** 창의 맨 아래에 있는 표시기를 확인합니다. 
 
@@ -67,9 +67,9 @@ Power BI Desktop에서 쿼리 편집기를 사용하여 새 사용자 지정 데
 
    ![사용자 지정 열 추가 페이지의 오류](media/desktop-add-custom-column/add-custom-column_05.png)
 
-3. **확인**을 선택합니다. 
+3. **확인** 을 선택합니다. 
 
-   Power BI Desktop에서 사용자 지정 열을 모델에 추가하고 **쿼리 설정**의 쿼리 **적용된 단계** 목록에 **추가된 사용자 지정** 단계를 추가합니다.
+   Power BI Desktop에서 사용자 지정 열을 모델에 추가하고 **쿼리 설정** 의 쿼리 **적용된 단계** 목록에 **추가된 사용자 지정** 단계를 추가합니다.
 
    ![쿼리 설정에 사용자 지정 열 추가됨](media/desktop-add-custom-column/add-custom-column_06.png)
 
@@ -79,11 +79,11 @@ Power BI Desktop에서 쿼리 편집기를 사용하여 새 사용자 지정 데
 
 ## <a name="use-the-advanced-editor-for-custom-columns"></a>고급 편집기를 사용하여 사용자 지정 열 만들기
 
-쿼리를 만든 후에 **고급 편집기**를 사용하여 쿼리 단계를 수정할 수도 있습니다. 이렇게 하려면 다음 단계를 수행하세요.
+쿼리를 만든 후에 **고급 편집기** 를 사용하여 쿼리 단계를 수정할 수도 있습니다. 이렇게 하려면 다음 단계를 수행하세요.
 
 1. **쿼리 편집기** 창에서 리본의 **보기** 탭을 선택합니다. 
 
-2. **고급 편집기**를 선택합니다.
+2. **고급 편집기** 를 선택합니다.
 
    쿼리에 대한 모든 권한을 제공하는 **고급 편집기** 페이지가 나타납니다. 
 

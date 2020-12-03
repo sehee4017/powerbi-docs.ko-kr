@@ -2,19 +2,19 @@
 title: Power BI 개발자 하루에 끝내기 과정
 description: 이 비디오 기반 과정을 통해 Power BI 콘텐츠를 포함하는 데 필요한 기술 지식으로 앱 개발자의 역량을 강화할 수 있습니다.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: yana.berkovich
 featuredvideoid: dv-ep90wse8
 ms.service: powerbi
-ms.subservice: powerbi-developer
+ms.subservice: powerbi
 ms.topic: tutorial
 ms.date: 06/01/2020
-ms.author: v-pemyer
-ms.openlocfilehash: bb5e2d0accd2db339666e23c449164103bb26ac8
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 67633bf4362984d0a1e3b6a6aa8b74de3747191f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91527887"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414901"
 ---
 # <a name="power-bi-developer-in-a-day-course"></a>Power BI 개발자 하루에 끝내기 과정
 
@@ -91,7 +91,7 @@ Power BI에 대한 지식은 도움이 되지만 반드시 필요한 것은 아�
 
 1. [이 링크](https://aka.ms/deviad-student)를 사용하여 자율 학습 키트(.zip)를 사용자 PC에 로컬로 다운로드합니다.
 1. 파일 속성을 열고 "차단 해제"를 선택합니다(Windows에서 잠재적으로 신뢰할 수 없는 것으로 파일에 플래그를 지정할 수 있음).
-1. 파일 시스템의 폴더에 파일 내용을 추출합니다. 쉽게 찾을 수 있는 폴더를 만들고 **Training**으로 이름을 지정하는 것이 좋습니다. 랩 문서에서는 해당 위치가 **&lt;CourseFolder&gt;** 입니다.
+1. 파일 시스템의 폴더에 파일 내용을 추출합니다. 쉽게 찾을 수 있는 폴더를 만들고 **Training** 으로 이름을 지정하는 것이 좋습니다. 랩 문서에서는 해당 위치가 **&lt;CourseFolder&gt;** 입니다.
 
 압축을 풀면 **PowerBIDevIAD** 폴더가 표시되며, 여기서 다음 폴더를 찾을 수 있습니다.
 

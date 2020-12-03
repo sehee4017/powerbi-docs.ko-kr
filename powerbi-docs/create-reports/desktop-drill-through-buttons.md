@@ -2,19 +2,19 @@
 title: Power BI에서 드릴스루 단추 만들기
 description: 보고서를 앱처럼 동작하도록 만들고 사용자가 추가로 상호 작용할 수 있는 드릴스루 단추를 Power BI 보고서에 추가할 수 있습니다.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/26/2020
-ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: a6de32e93b79b45d700ad5de1607f580dff836cf
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0ba9b6f86c2c66b01d5002df30bb23c0de1bc889
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239274"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414372"
 ---
 # <a name="create-a-drill-through-button-in-power-bi"></a>Power BI에서 드릴스루 단추 만들기
 
@@ -32,7 +32,7 @@ Power BI에서 특정 컨텍스트로 필터링된 세부 정보를 사용하여
 
 ## <a name="set-up-a-drill-through-button"></a>드릴스루 단추 설정
 
-드릴스루 단추를 설정하려면 먼저 보고서 내에서 [유효한 드릴스루 페이지를 설정](desktop-drillthrough.md)해야 합니다. 그런 다음, **드릴스루**를 작업 유형으로 사용하는 단추를 만들고 드릴스루 페이지를 **대상**으로 선택해야 합니다.
+드릴스루 단추를 설정하려면 먼저 보고서 내에서 [유효한 드릴스루 페이지를 설정](desktop-drillthrough.md)해야 합니다. 그런 다음, **드릴스루** 를 작업 유형으로 사용하는 단추를 만들고 드릴스루 페이지를 **대상** 으로 선택해야 합니다.
 
 드릴스루 단추에는 활성 및 비활성의 두 개의 상태가 있으므로 두 개의 도구 설명 옵션이 표시됩니다.
 
@@ -151,13 +151,13 @@ String_for_button = If(SELECTEDVALUE('Product'[Product], 0) == 0, "See product d
 
     :::image type="content" source="media/desktop-drill-through-buttons/drill-through-select-product-store.png" alt-text="제품 및 매장 선택":::
  
-- 사용자 선택에 따라 단추가 **여러 드릴스루 대상을 지원**하게 하려고 합니다.
+- 사용자 선택에 따라 단추가 **여러 드릴스루 대상을 지원** 하게 하려고 합니다.
 
     예를 들어 사용자가 드릴스루할 수 있는 여러 대상(시장 세부 정보 및 매장 세부 정보)이 있다고 가정합니다. 드릴스루할 특정 대상을 선택해야 해당 드릴스루 대상에 대해 단추가 활성화되도록 할 수 있습니다.
 
     :::image type="content" source="media/desktop-drill-through-buttons/drill-through-select-product-destination.png" alt-text="제품 및 대상 선택":::
  
-- 또한 여러 드릴스루 대상과 단추를 비활성화하는 특정 조건을 모두 지원하는 흥미로운 **하이브리드 시나리오**도 있을 수 있습니다. 계속 읽으면서 이 세 가지 옵션에 대한 자세한 내용을 알아보세요.
+- 또한 여러 드릴스루 대상과 단추를 비활성화하는 특정 조건을 모두 지원하는 흥미로운 **하이브리드 시나리오** 도 있을 수 있습니다. 계속 읽으면서 이 세 가지 옵션에 대한 자세한 내용을 알아보세요.
 
 ### <a name="disable-the-button-until-multiple-conditions-are-met"></a>여러 조건이 충족될 때까지 단추를 비활성화
 

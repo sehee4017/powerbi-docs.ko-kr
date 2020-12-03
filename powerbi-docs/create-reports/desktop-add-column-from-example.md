@@ -2,19 +2,19 @@
 title: Power BI Desktop에서 예제의 열 추가
 description: 예제로 기존 열을 사용하여 Power BI Desktop에서 신속하게 새 열을 만듭니다.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 01/16/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 68f2dc14b713345796ba0472fc3d55f6baedf819
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: f33a9f5656875825b70c7e51202431ba268fe86a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86263199"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414510"
 ---
 # <a name="add-a-column-from-examples-in-power-bi-desktop"></a>Power BI Desktop의 예제에서 열 추가
 Power Query 편집기에서 ‘예제에서 열 추가’를 사용하면 새 열에 하나 이상의 예제 값을 제공하여 데이터 모델에 새 열을 추가할 수 있습니다. 선택 영역에서 새 열 예제를 만들거나 테이블의 모든 기존 열을 기반으로 입력을 제공할 수 있습니다.
@@ -31,47 +31,47 @@ Power Query 편집기에서 ‘예제에서 열 추가’를 사용하면 새 �
 
 ## <a name="add-a-new-column-from-examples"></a>예제에서 새 열 추가
 
-위키백과에서 샘플 데이터를 가져오려면 Power BI Desktop 리본의 **홈** 탭에서 **데이터 가져오기** > **웹**을 선택합니다. 
+위키백과에서 샘플 데이터를 가져오려면 Power BI Desktop 리본의 **홈** 탭에서 **데이터 가져오기** > **웹** 을 선택합니다. 
 
 ![웹에서 데이터 가져오기](media/desktop-add-column-from-example/add-column-from-example_02.png)
 
-표시되는 대화 상자에 다음 URL을 붙여넣고 **확인**을 선택합니다. 
+표시되는 대화 상자에 다음 URL을 붙여넣고 **확인** 을 선택합니다. 
 
 *https:\///wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States*
 
-**탐색기** 대화 상자에서 **미국의 주** 테이블을 선택한 다음 **데이터 변환**을 선택합니다. Power Query 편집기에서 테이블이 열립니다.
+**탐색기** 대화 상자에서 **미국의 주** 테이블을 선택한 다음 **데이터 변환** 을 선택합니다. Power Query 편집기에서 테이블이 열립니다.
 
-또는 Power BI Desktop에서 이미 로드된 데이터를 열려면 리본의 **홈** 탭에서 **쿼리 편집**을 선택합니다. Power Query 편집기에서 데이터가 열립니다. 
+또는 Power BI Desktop에서 이미 로드된 데이터를 열려면 리본의 **홈** 탭에서 **쿼리 편집** 을 선택합니다. Power Query 편집기에서 데이터가 열립니다. 
 
 ![Power BI Desktop에서 쿼리 편집을 선택합니다.](media/desktop-add-column-from-example/add-column-from-example_05.png)
 
-샘플 데이터가 Power Query 편집기에서 열리면 리본에서 **열 추가** 탭을 선택한 다음 **예제에서 열**을 선택합니다. **예제의 열** 아이콘 자체를 선택하여 모든 기존 열에서 열을 만들거나 드롭다운 화살표를 선택하여 **모든 열에서** 또는 **선택 항목에서** 하나를 선택합니다. 이 연습에서는 **모든 열에서**를 사용합니다.
+샘플 데이터가 Power Query 편집기에서 열리면 리본에서 **열 추가** 탭을 선택한 다음 **예제에서 열** 을 선택합니다. **예제의 열** 아이콘 자체를 선택하여 모든 기존 열에서 열을 만들거나 드롭다운 화살표를 선택하여 **모든 열에서** 또는 **선택 항목에서** 하나를 선택합니다. 이 연습에서는 **모든 열에서** 를 사용합니다.
 
 ![예제에서 열 추가 선택](media/desktop-add-column-from-example/add-column-from-example_03.png)
 
 ## <a name="add-column-from-examples-pane"></a>예제 창에서 열 추가
-**예제에서** **열 추가** > 를 선택하면 테이블 맨 위에 **예제에서 열 추가** 창이 열립니다. 새 **열 1**이 기존 열의 오른쪽에 표시됩니다(모두 보려면 스크롤해야 할 수 있습니다). **열 1**의 빈 셀에 예제 값을 입력하면 Power BI에서 예제와 일치하는 규칙과 변환을 만들어 나머지 열을 채우는 데 사용할 수 있습니다.
+**예제에서** **열 추가** > 를 선택하면 테이블 맨 위에 **예제에서 열 추가** 창이 열립니다. 새 **열 1** 이 기존 열의 오른쪽에 표시됩니다(모두 보려면 스크롤해야 할 수 있습니다). **열 1** 의 빈 셀에 예제 값을 입력하면 Power BI에서 예제와 일치하는 규칙과 변환을 만들어 나머지 열을 채우는 데 사용할 수 있습니다.
 
-**예제의 열**은 **쿼리 설정** 창의 **적용된 단계**로도 나타납니다. 언제나처럼, Power Query 편집기는 변환 단계를 기록하고 순서대로 쿼리에 적용합니다.
+**예제의 열** 은 **쿼리 설정** 창의 **적용된 단계** 로도 나타납니다. 언제나처럼, Power Query 편집기는 변환 단계를 기록하고 순서대로 쿼리에 적용합니다.
 
 ![예제 창에서 열 추가](media/desktop-add-column-from-example/add-column-from-example_04.png)
 
-새 열에 예제를 입력하면 Power BI에서 만든 변환을 기반으로 나머지 열이 어떤 모양으로 표시되는지 미리 볼 수 있습니다. 예를 들어 첫 번째 행에 *Alabama*를 입력하면 테이블의 첫 번째 열에 있는 **Alabama** 값에 해당합니다. Enter 키를 누르면 Power BI는 첫 번째 열 값을 기준으로 새 열의 나머지 부분을 채우고 열 이름을 **이름 & 우편 약자[12] - 복사**로 지정합니다.
+새 열에 예제를 입력하면 Power BI에서 만든 변환을 기반으로 나머지 열이 어떤 모양으로 표시되는지 미리 볼 수 있습니다. 예를 들어 첫 번째 행에 *Alabama* 를 입력하면 테이블의 첫 번째 열에 있는 **Alabama** 값에 해당합니다. Enter 키를 누르면 Power BI는 첫 번째 열 값을 기준으로 새 열의 나머지 부분을 채우고 열 이름을 **이름 & 우편 약자[12] - 복사** 로 지정합니다.
 
-이제 새 열의 **Massachusetts[E]** 행으로 이동하여 문자열의 **[E]** 부분을 삭제합니다. Power BI에서 이 변경을 검색하고 예제를 사용하여 변환을 만듭니다. Power BI는 **예제에서 열 추가** 창에서 변환을 설명하고 열 이름을 **구분 기호 전 텍스트**로 바꿉니다. 
+이제 새 열의 **Massachusetts[E]** 행으로 이동하여 문자열의 **[E]** 부분을 삭제합니다. Power BI에서 이 변경을 검색하고 예제를 사용하여 변환을 만듭니다. Power BI는 **예제에서 열 추가** 창에서 변환을 설명하고 열 이름을 **구분 기호 전 텍스트** 로 바꿉니다. 
 
 ![예제의 변환된 열](media/desktop-add-column-from-example/add-column-from-example_06.png)
 
-예제를 계속 제공함에 따라 Power Query 편집기가 변환을 추가합니다. 결과가 만족스러우면 **확인**을 선택하여 변경 내용을 커밋합니다. 
+예제를 계속 제공함에 따라 Power Query 편집기가 변환을 추가합니다. 결과가 만족스러우면 **확인** 을 선택하여 변경 내용을 커밋합니다. 
 
-열 제목을 두 번 클릭하거나 마우스 오른쪽 단추를 클릭하고 **이름 바꾸기**를 선택하여 새 열 이름을 원하는 대로 바꿀 수 있습니다. 
+열 제목을 두 번 클릭하거나 마우스 오른쪽 단추를 클릭하고 **이름 바꾸기** 를 선택하여 새 열 이름을 원하는 대로 바꿀 수 있습니다. 
 
-샘플 데이터 원본을 사용하여 작업에서 **예제에서 열 추가**를 보려면 이 비디오를 시청하세요. 
+샘플 데이터 원본을 사용하여 작업에서 **예제에서 열 추가** 를 보려면 이 비디오를 시청하세요. 
 
 [Power BI Desktop: 예제에서 열 추가](https://www.youtube.com/watch?v=-ykbVW9wQfw) 
 
 ## <a name="list-of-supported-transformations"></a>지원되는 변환 목록
-**예제에서 열 추가**를 사용할 때 대부분의 변환을 사용할 수 있습니다. 다음 목록에서는 지원되는 변환을 보여줍니다.
+**예제에서 열 추가** 를 사용할 때 대부분의 변환을 사용할 수 있습니다. 다음 목록에서는 지원되는 변환을 보여줍니다.
 
 **일반**
 
@@ -134,7 +134,7 @@ Power Query 편집기에서 ‘예제에서 열 추가’를 사용하면 새 �
 - 현지 시간으로
 
 > [!NOTE]
-> 모든 *Date* 및 *Time* 변환에서는 열 값을 *Date*, *Time* 또는 *DateTime*으로 변환해야 하는 잠재성을 고려합니다.
+> 모든 *Date* 및 *Time* 변환에서는 열 값을 *Date*, *Time* 또는 *DateTime* 으로 변환해야 하는 잠재성을 고려합니다.
 
 **숫자 변환** 
 

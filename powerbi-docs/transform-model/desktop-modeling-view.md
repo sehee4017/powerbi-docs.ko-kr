@@ -2,28 +2,28 @@
 title: Power BI Desktop의 모델링 보기 사용
 description: 모델링 보기를 사용하여 Power BI Desktop에서 복잡한 데이터 세트를 시각적 형식으로 보기
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 27d601da2a3ef922c75aee6f52011ac22ca26336
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: a47bcba58a39f76a6e9e64778d2d06a75dc14132
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83280337"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413958"
 ---
 # <a name="work-with-modeling-view-in-power-bi-desktop"></a>Power BI Desktop의 모델링 뷰 사용
 
-**Power BI Desktop**의 **모델링 뷰**를 사용하면 테이블이 많이 포함된 복잡한 데이터 세트를 보고 작업할 수 있습니다.
+**Power BI Desktop** 의 **모델링 뷰** 를 사용하면 테이블이 많이 포함된 복잡한 데이터 세트를 보고 작업할 수 있습니다.
 
 
 ## <a name="using-modeling-view"></a>모델링 보기 사용
 
-모델링 보기에 액세스하려면 다음 이미지에 표시된 대로 **Power BI Desktop**의 왼쪽에 있는 모델링 보기 아이콘을 선택합니다.
+모델링 보기에 액세스하려면 다음 이미지에 표시된 대로 **Power BI Desktop** 의 왼쪽에 있는 모델링 보기 아이콘을 선택합니다.
 
 ![Power BI Desktop의 모델링 보기 아이콘](media/desktop-modeling-view/modeling-view_02.png)
 
@@ -33,7 +33,7 @@ ms.locfileid: "83280337"
 
 ![탭 섹션에서 + 기호를 클릭하여 새 다이어그램 만들기](media/desktop-modeling-view/modeling-view_03.png)
 
-그런 다음, **필드** 목록에서 다이어그램 곡면으로 테이블을 끌어올 수 있습니다. 테이블을 마우스 오른쪽 단추로 클릭하고 나타나는 메뉴에서 **관련 테이블 추가**를 선택합니다.
+그런 다음, **필드** 목록에서 다이어그램 곡면으로 테이블을 끌어올 수 있습니다. 테이블을 마우스 오른쪽 단추로 클릭하고 나타나는 메뉴에서 **관련 테이블 추가** 를 선택합니다.
 
 ![테이블을 마우스 오른쪽 단추로 클릭하고 [관련 테이블 추가] 선택](media/desktop-modeling-view/modeling-view_04.png)
 

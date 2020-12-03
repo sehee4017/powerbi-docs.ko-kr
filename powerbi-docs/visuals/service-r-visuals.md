@@ -1,20 +1,20 @@
 ---
 title: R 스크립트를 사용하여 고급 분석 및 시각화 만들기
 description: Power BI Desktop에서 R 스크립트를 사용하여 고급 분석 및 고급 시각화 만들기
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 11/14/2019
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3b43d644a0bb7ecd2800b99d3ffb5d7c7d26bf96
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 60a4edac34e98170d0499f3480f01b366a512ddc
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412099"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415660"
 ---
 # <a name="create-and-use-r-visuals-in-power-bi"></a>Power BI에서 R 시각적 개체 만들기 및 사용
 
@@ -78,8 +78,8 @@ Power BI의 무료 사용자만 프리미엄 작업 영역에서 다른 사용�
 
 |  |Power BI Desktop에서 R 시각적 개체 작성  | R 시각적 개체로 PBI 서비스 보고서 만들기 |보고서의 R 시각적 개체 보기  | 대시보드의 R 타일 보기 |
 |---------|---------|---------|---------|--------|
-|**게스트** (Power BI embedded)     |  지원됨|  지원되지 않음      | 프리미엄/Azure 용량에서만 지원됨  | 프리미엄/Azure 용량에서만 지원됨 |
-|**관리되지 않는 테넌트** (도메인 확인되지 않음) | 지원됨 | 지원되지 않음 |  지원되지 않음 |지원됨(B2B 시나리오) |
+|**게스트**(Power BI embedded)     |  지원됨|  지원되지 않음      | 프리미엄/Azure 용량에서만 지원됨  | 프리미엄/Azure 용량에서만 지원됨 |
+|**관리되지 않는 테넌트**(도메인 확인되지 않음) | 지원됨 | 지원되지 않음 |  지원되지 않음 |지원됨(B2B 시나리오) |
 |무료 라이선스로 **관리되는 테넌트**    |  지원됨       |  지원되지 않음       |    프리미엄 용량에서만 지원됨    | 지원됨 |
 Pro 라이선스로 **관리되는 테넌트**     |   지원됨      | 지원됨      | 지원됨    |지원됨|
 

@@ -2,33 +2,33 @@
 title: Power BI Desktop에서 파일(이진) 병합
 description: Power BI Desktop에서 손쉽게 파일(이진) 데이터 원본 병합
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 01/13/2020
-ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: cb287d63444b60318a717a1a1587f7755cd7f666
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bf75a5656de956be5ddd38330d659cba06e30455
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237865"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415844"
 ---
 # <a name="combine-files-binaries-in-power-bi-desktop"></a>Power BI Desktop에서 파일(이진) 병합
 
-다음은 **Power BI Desktop**으로 데이터를 가져오는 강력한 방법입니다. 스키마가 동일한 파일이 여러 개 있는 경우, 단일한 논리적 테이블로 결합합니다. 인기 있는 이 방법은 더욱 편리해지고 사용 범위가 확장되었습니다.
+다음은 **Power BI Desktop** 으로 데이터를 가져오는 강력한 방법입니다. 스키마가 동일한 파일이 여러 개 있는 경우, 단일한 논리적 테이블로 결합합니다. 인기 있는 이 방법은 더욱 편리해지고 사용 범위가 확장되었습니다.
 
-동일한 폴더에서 파일을 결합하는 프로세스를 시작하려면 **데이터 가져오기**를 선택하고 **파일** > **폴더**를 선택한 다음 **연결**을 선택합니다.
+동일한 폴더에서 파일을 결합하는 프로세스를 시작하려면 **데이터 가져오기** 를 선택하고 **파일** > **폴더** 를 선택한 다음 **연결** 을 선택합니다.
 
 ![폴더 파일에 연결, 데이터 가져오기 대화 상자, Power BI Desktop](media/desktop-combine-binaries/combine-binaries_1.png)
 
-폴더 경로를 입력하고 **확인**을 선택한 다음 **데이터 변환**을 선택하여 Power Query 편집기에서 폴더의 파일을 확인합니다.
+폴더 경로를 입력하고 **확인** 을 선택한 다음 **데이터 변환** 을 선택하여 Power Query 편집기에서 폴더의 파일을 확인합니다.
 
 ## <a name="combine-files-behavior"></a>파일 병합 동작
 
-Power Query 편집기에서 이진 파일을 결합하려면 **콘텐츠**(첫 번째 열 레이블)를 선택하고 **홈** > **파일 결합**을 선택합니다. 또는 **콘텐츠** 옆에 있는 **파일 결합** 아이콘을 선택해도 됩니다.
+Power Query 편집기에서 이진 파일을 결합하려면 **콘텐츠**(첫 번째 열 레이블)를 선택하고 **홈** > **파일 결합** 을 선택합니다. 또는 **콘텐츠** 옆에 있는 **파일 결합** 아이콘을 선택해도 됩니다.
 
 ![파일 결합 명령, Power Query 편집기, Power BI Desktop](media/desktop-combine-binaries/combine-binaries_2a.png)
 
@@ -42,7 +42,7 @@ Power Query 편집기에서 이진 파일을 결합하려면 **콘텐츠**(첫 �
   
   * 단일 파일에 모든 필수 추출 단계를 수행하는 예제 쿼리를 만듭니다.
   * exemplar 쿼리에 파일/이진 파일 입력을 매개 변수화하는 함수 쿼리를 만듭니다.   Exemplar 쿼리 및 함수 쿼리는 연결되어 exemplar 쿼리 변경 내용이 함수 쿼리에 반영됩니다.
-  * *폴더* 쿼리와 같은 입력 이진 파일을 사용하여 원래 쿼리에 *함수 쿼리*를 적용합니다. 각 행에서 이진 입력 파일의 함수 쿼리를 적용한 다음 결과 데이터 추출을 최상위 열로 확장합니다.
+  * *폴더* 쿼리와 같은 입력 이진 파일을 사용하여 원래 쿼리에 *함수 쿼리* 를 적용합니다. 각 행에서 이진 입력 파일의 함수 쿼리를 적용한 다음 결과 데이터 추출을 최상위 열로 확장합니다.
 
     ![파일 결합 변환 결과, Power Query 편집기, Power BI Desktop](media/desktop-combine-binaries/combine-binaries_4.png)
 

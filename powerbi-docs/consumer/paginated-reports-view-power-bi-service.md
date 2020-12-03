@@ -5,15 +5,15 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: maggies
 ms.service: powerbi
-ms.subservice: report-builder
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 12/03/2019
-ms.openlocfilehash: 66ca8313af6fb88c23c4aa69e77405b281ea07e3
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: b6323c423c3d631b1fe2e24f92cd4df797b3056e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87538105"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415223"
 ---
 # <a name="view-a-paginated-report-in-the-power-bi-service"></a>Power BI 서비스에서 페이지를 매긴 보고서 보기
 
@@ -37,7 +37,7 @@ ms.locfileid: "87538105"
 
     ![Power BI 서비스의 페이지를 매긴 보고서](media/paginated-reports-view-power-bi-service/power-bi-paginated-report-in-service.png)
 
-2. 이 예에서처럼 보고서에 매개 변수가 있는 경우 처음 열 때 보고서가 표시되지 않을 수 있습니다. 매개 변수를 선택한 후 **보고서 보기**를 선택하세요. 
+2. 이 예에서처럼 보고서에 매개 변수가 있는 경우 처음 열 때 보고서가 표시되지 않을 수 있습니다. 매개 변수를 선택한 후 **보고서 보기** 를 선택하세요. 
 
      ![매개 변수를 선택하여 보고서 보기](media/paginated-reports-view-power-bi-service/power-bi-paginated-select-parameters.png)
 
@@ -47,7 +47,7 @@ ms.locfileid: "87538105"
     
    ![보고서 페이징](media/paginated-reports-view-power-bi-service/power-bi-paginated-page-thru-report.png)
 
-4. 페이지를 매긴 보고서의 내보낼 형식을 찾으려면 **내보내기**를 선택합니다.
+4. 페이지를 매긴 보고서의 내보낼 형식을 찾으려면 **내보내기** 를 선택합니다.
 
     ![내보내기 형식 선택](media/paginated-reports-view-power-bi-service/power-bi-paginated-export.png)
 

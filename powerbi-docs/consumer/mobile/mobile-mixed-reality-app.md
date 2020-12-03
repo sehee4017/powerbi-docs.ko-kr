@@ -2,18 +2,18 @@
 title: HoloLens(1세대)용 Power BI
 description: 가상 환경 또는 사용자 환경 컨텍스트에서 사용하는 동안 혼합 현실용 Power BI 앱(미리 보기)에서 대시보드 및 보고서를 봅니다.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/22/2020
-ms.author: painbar
-ms.openlocfilehash: b0288bf3980ac54b960160f011531f3667d8edff
-ms.sourcegitcommit: b3d32b8a4ce26fba7fdb5f1c5954d2b2e426503c
+ms.openlocfilehash: c832217363f726e3eff469238fe9b3f29025837c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91005517"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415361"
 ---
 # <a name="power-bi-for-hololens-1st-gen"></a>HoloLens(1세대)용 Power BI
 가상 환경을 사용하는 동안 HoloLens용 Power BI 앱에서 대시보드 및 보고서를 확인하거나 사용자 환경 컨텍스트의 특정 위치에 배치합니다. 

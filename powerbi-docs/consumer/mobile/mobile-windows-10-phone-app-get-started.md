@@ -2,18 +2,18 @@
 title: Windows 10용 Power BI 모바일 앱 시작
 description: Windows 10용 Power BI 모바일 앱은 태블릿이나 휴대폰에서 비즈니스 정보에 대한 터치 기반의 최신 모바일 액세스를 제공합니다.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: 5ef68bac75daf25e48cbd4d24279627d4b494764
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 7c03ea1a8b05f4f9d07cf32cc5bb1d40bf7c0e40
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634369"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415315"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Windows 10용 Power BI 모바일 앱 시작
 Windows 10용 Power BI Mobile 앱은 태블릿이나 휴대폰으로 Power BI를 가져옵니다. 터치 사용이 가능한 최신 모바일 방식으로 비즈니스 정보에 액세스할 수 있습니다. 어디서든 [Windows 시작 화면](mobile-pin-dashboard-start-screen-windows-10-phone-app.md)에서 회사 대시보드를 보고 조작할 수 있습니다.
@@ -30,7 +30,7 @@ Windows 10용 Power BI Mobile 앱은 태블릿이나 휴대폰으로 Power BI를
   디바이스에서 Windows 10을 실행해야 합니다. RAM 3GB, 내부 스토리지 8GB 이상인 디바이스에서 앱을 실행할 수 있습니다.
 
   >[!NOTE]
-  >**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
+  >**Windows 10 Mobile을 사용하는 휴대폰** 용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
    
 * [Power BI 모바일 앱의 새로운 기능](mobile-whats-new-in-the-mobile-apps.md)을 알아보세요.
 
@@ -44,12 +44,12 @@ Windows 10용 Power BI Mobile 앱은 태블릿이나 휴대폰으로 Power BI를
 1. Windows 10 디바이스의 시작 화면에서 Power BI 앱을 엽니다.
    
    ![Power BI 앱 아이콘](./media/mobile-windows-10-phone-app-get-started/pbi_win10ph_appiconsm.png)
-2. Power BI 대시보드 및 보고서를 보려면 **Power BI**를 누릅니다. 웹의 Power BI 계정과 동일한 자격 증명으로 로그인합니다. 
+2. Power BI 대시보드 및 보고서를 보려면 **Power BI** 를 누릅니다. 웹의 Power BI 계정과 동일한 자격 증명으로 로그인합니다. 
    
-   Reporting Services 모바일 보고서 및 KPI를 보려면 **SQL Server 2016 Reporting Services**를 누릅니다. SQL Server Reporting Services 자격 증명을 사용하여 로그인하세요.
+   Reporting Services 모바일 보고서 및 KPI를 보려면 **SQL Server 2016 Reporting Services** 를 누릅니다. SQL Server Reporting Services 자격 증명을 사용하여 로그인하세요.
    
    ![연결 대화 상자](./media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-connect.png)
-3. **탐색 시작**을 탭하여 자신의 대시보드를 표시합니다.
+3. **탐색 시작** 을 탭하여 자신의 대시보드를 표시합니다.
 
 ## <a name="try-the-power-bi-and-reporting-services-samples"></a>Power BI 및 Reporting Services 샘플 시도
 등록하지 않고도 Power BI 및 Reporting Services 샘플을 사용할 수 있습니다. 앱을 다운로드하면 샘플을 보거나 시작할 수 있습니다. 대시보드 홈페이지에서 원할 때마다 샘플로 돌아갑니다.
@@ -58,7 +58,7 @@ Windows 10용 Power BI Mobile 앱은 태블릿이나 휴대폰으로 Power BI를
 Power BI 대시보드 샘플을 검토하고 조작할 수 있지만, 샘플로 처리할 수 없는 몇 가지 작업이 있습니다. 즉 대시보드 뒤에 있는 보고서를 열 수 없거나, 다른 사용자와 샘플을 공유할 수 없거나, 이 샘플의 즐겨찾기를 만들 수 없습니다.
 
 1. 왼쪽 위 모퉁이에서 전역 탐색 단추 ![전역 탐색 단추](././media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png) 를 탭합니다.
-2. **설정** 아이콘 ![설정 아이콘](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png)을 탭하고 이름을 탭한 후 **샘플 보기**를 탭합니다.
+2. **설정** 아이콘 ![설정 아이콘](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png)을 탭하고 이름을 탭한 후 **샘플 보기** 를 탭합니다.
    
    ![샘플 보기](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-view-samples.png)
 3. 역할을 선택하고 해당 역할에 대한 샘플 대시보드를 탐색합니다.  
@@ -67,7 +67,7 @@ Power BI 대시보드 샘플을 검토하고 조작할 수 있지만, 샘플로 
 
 ### <a name="reporting-services-mobile-report-samples"></a>Reporting Services 모바일 보고서 샘플
 1. 왼쪽 위 모퉁이에서 전역 탐색 단추 ![전역 탐색 단추](././media/mobile-windows-10-phone-app-get-started/power-bi-windows-10-navigation-icon.png) 를 탭합니다.
-2. **설정** 아이콘 ![설정 아이콘](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png)을 탭하고 **서버에 연결**을 마우스 오른쪽 단추로 클릭하거나 탭한 채로 유지한 다음 **샘플 보기**를 탭합니다.
+2. **설정** 아이콘 ![설정 아이콘](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-settings-icon.png)을 탭하고 **서버에 연결** 을 마우스 오른쪽 단추로 클릭하거나 탭한 채로 유지한 다음 **샘플 보기** 를 탭합니다.
    
    ![서버에 연결하기 위한 설정 아이콘의 포인터를 보여 주는 설정 화면의 스크린샷.](media/mobile-windows-10-phone-app-get-started/power-bi-win10-connect-ssrs-samples.png)
 3. 소매 보고서 또는 판매 보고서 폴더를 열어 KPI 및 모바일 보고서를 탐색합니다.
@@ -96,7 +96,7 @@ Power BI 대시보드 샘플을 검토하고 조작할 수 있지만, 샘플로 
 ## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>즐겨찾는 대시보드, KPI 및 보고서 보기
 모바일 앱의 즐겨찾기 페이지에서 Reporting Services KPI 및 모바일 보고서와 함께 즐겨 찾는 Power BI 대시보드를 볼 수 있습니다. Power BI 모바일 앱에서 대시보드를 즐겨찾기로 만들면 브라우저의 Power BI 서비스를 포함한 모든 디바이스에서 액세스할 수 있습니다. 
 
-* **즐겨찾기**를 누릅니다.
+* **즐겨찾기** 를 누릅니다.
   
    ![즐겨찾기](./media/mobile-windows-10-phone-app-get-started/power-bi-win10-favorite-menu.png)
   

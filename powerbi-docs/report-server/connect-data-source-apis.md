@@ -2,18 +2,18 @@
 title: PowerShell을 사용하여 데이터 원본 연결 문자열 변경
 description: PowerShell의 API를 사용하여 데이터 원본 연결 문자열 변경 - Power BI Report Server
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 10/26/2020
-ms.author: maggies
-ms.openlocfilehash: 165d38c718377ff7e47442cdf0fe67173b610bd8
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
+ms.openlocfilehash: 4e1947abe0fa0f17e1db92619f0aa7fba5df5575
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93044903"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415476"
 ---
 # <a name="change-data-source-connection-strings-in-power-bi-reports-with-powershell---power-bi-report-server"></a>PowerShell을 사용하여 Power BI 보고서에서 데이터 원본 연결 문자열 변경 - Power BI Report Server
 

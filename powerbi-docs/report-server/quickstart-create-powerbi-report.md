@@ -2,18 +2,18 @@
 title: Power BI Report Server용 Power BI 보고서 만들기
 description: 몇 가지 간단한 단계를 거쳐 Power BI Report Server용 Power BI 보고서를 만드는 방법을 알아봅니다.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 07/24/2020
-ms.author: maggies
-ms.openlocfilehash: b41ca7c8a85a544afea84e7f19a06f91dc85f376
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
+ms.openlocfilehash: 965c3837b2d0153716442ea37b52b468be9742fb
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93045032"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414119"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Power BI Report Server용 Power BI 보고서 만들기
 Power BI 서비스 (https://powerbi.com) 에서 클라우드에 Power BI 보고서를 저장할 수 있는 것과 마찬가지로 Power BI Report Server 웹 포털에서 Power BI 보고서 온-프레미스를 저장하고 관리할 수 있습니다. Power BI Desktop에서 보고서를 만들고 편집하고 웹 포털에 게시합니다. 그런 다음 조직의 보고서 사용자는 모바일 디바이스의 브라우저 또는 Power BI 모바일 앱에서 해당 보고서를 볼 수 있습니다.
@@ -36,9 +36,9 @@ Power BI Desktop에서 Power BI 보고서를 이미 만든 경우 Power BI Repor
 
 3. 컴퓨터에 따라 다음 중에서 선택합니다.
 
-    - **PBIDesktopRS.msi** (32비트 버전) 또는
+    - **PBIDesktopRS.msi**(32비트 버전) 또는
 
-    - **PBIDesktopRS_x64.msi** (64비트 버전).
+    - **PBIDesktopRS_x64.msi**(64비트 버전).
 
 4. 설치 관리자를 다운로드한 후 Power BI Desktop 설치 마법사를 실행합니다.
 

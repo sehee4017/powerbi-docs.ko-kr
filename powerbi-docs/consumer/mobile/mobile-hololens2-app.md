@@ -2,18 +2,18 @@
 title: HoloLens 2용 Power BI(미리 보기)
 description: HoloLens 2용 Power BI 앱에서 대시보드와 보고서를 봅니다.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/22/2020
-ms.author: painbar
-ms.openlocfilehash: 8e9205ca12efebbfa5c0338e2f501e59aed779e8
-ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
+ms.openlocfilehash: dffe3344fc10b0daceca629b5d5354f1b8419e81
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94718618"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414533"
 ---
 # <a name="power-bi-for-hololens-2-preview"></a>HoloLens 2용 Power BI(미리 보기)
 HoloLens 2용 Power BI 앱은 Power BI 보고서 및 대시보드를 실제 환경과 혼합하여 실제 세계를 이동하고 필요한 경우 관련 데이터를 얻을 수 있는 몰입형 3D 핸즈프리 환경을 만듭니다.

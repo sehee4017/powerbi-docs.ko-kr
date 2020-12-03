@@ -1,20 +1,20 @@
 ---
 title: Power BI의 고밀도 분산형 차트
 description: Power BI의 고밀도 분산형 차트
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 09/11/2018
-ms.author: rien
 LocalizationGroup: Create reports
-ms.openlocfilehash: 850c59e682d0368b592b71c4cf5d11bdd8806848
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 48856dcee2745eb948bfb7beb6b5bc8d94d0df4b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412927"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415683"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Power BI 분산형 차트의 고밀도 샘플링
 

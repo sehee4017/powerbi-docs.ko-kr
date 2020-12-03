@@ -2,20 +2,20 @@
 title: Power BI 모바일 앱 보고서 최적화
 description: 휴대폰 및 태블릿을 위해 세로 버전의 보고서를 만들어서 Power BI 휴대폰 앱을 위해 보고서 페이지를 최적화하는 방법을 알아보세요.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.custom: contperfq4
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 06/15/2020
-ms.author: painbar
 LocalizationGroup: Create reports
-ms.openlocfilehash: 23873d53aa0d472247f2e8d850dc3b1e9b3bf065
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 0780b11cb1e95578be144f65f8adb1bf641d1c1c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90853796"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414326"
 ---
 # <a name="optimize-power-bi-reports-for-the-mobile-app"></a>모바일 앱에 맞게 Power BI 보고서 최적화
 모바일 사용자는 Power BI 보고서 페이지를 가로 방향으로 볼 수 있습니다. 하지만 보고서 작성자는 모바일 디바이스에 최적화되고 세로 방향으로 표시되는 추가 보기를 만들 수 있습니다. Power BI Desktop과 Power BI 서비스에서 모두 사용할 수 있는 이 디자인 옵션을 통해 작성자는 이동 중인 모바일 사용자에게 적합한 시각적 개체를 선택하고 다시 정렬할 수 있습니다.
@@ -33,8 +33,8 @@ Power BI는 모바일에 최적화된 보고서 버전을 만드는 데 도움�
 첫 번째 단계는 일반 웹 보기에서 보고서를 디자인하고 만드는 것입니다. 보고서를 만들었으면 휴대폰 및 태블릿에 맞게 최적화할 수 있습니다.
 
 모바일에 최적화된 보기를 만들려면 모바일 레이아웃 보기를 엽니다.
-   * Power BI Desktop에서 **보기** 리본을 선택하고 **모바일 레이아웃**을 선택합니다.
-   * Power BI 서비스에서 **추가 옵션(...) > 보고서 편집 > 모바일 레이아웃**을 선택합니다.
+   * Power BI Desktop에서 **보기** 리본을 선택하고 **모바일 레이아웃** 을 선택합니다.
+   * Power BI 서비스에서 **추가 옵션(...) > 보고서 편집 > 모바일 레이아웃** 을 선택합니다.
 
    휴대폰처럼 스크롤할 수 있는 캔버스와 원본 보고서 페이지에 있는 모든 시각적 개체를 나열 하는 **시각화** 창이 표시됩니다.
 
@@ -62,7 +62,7 @@ Power BI는 모바일에 최적화된 보고서 버전을 만드는 데 도움�
 휴대폰용 보고서 그리드는 다양한 크기의 휴대폰에 맞게 크기가 조정되므로 보고서가 크고 작은 휴대폰 화면에서 모두 보기 좋게 표시됩니다.
 
 ## <a name="remove-visuals-from-the-mobile-layout-canvas"></a>모바일 레이아웃 캔버스에서 시각적 개체 제거
-모바일 레이아웃에서 시각적 개체를 제거하려면 휴대폰 캔버스에서 시각적 개체의 오른쪽 위 모서리에 있는 **X**를 클릭하거나 시각적 개체를 선택하고 **Delete**를 누릅니다.
+모바일 레이아웃에서 시각적 개체를 제거하려면 휴대폰 캔버스에서 시각적 개체의 오른쪽 위 모서리에 있는 **X** 를 클릭하거나 시각적 개체를 선택하고 **Delete** 를 누릅니다.
 
 **시각화** 창에서 지우개를 클릭하면 캔버스에서 모든 시각화를 제거할 수 있습니다.
 

@@ -1,19 +1,19 @@
 ---
 title: Power BI 보고서 작성기의 테이블, 행렬 및 목록
 description: Power BI 보고서 작성기에서 테이블, 행렬 및 목록은 행과 열로 구성된 셀에 페이지를 매긴 보고서 데이터를 표시하는 데이터 영역입니다.
+author: maggiesMSFT
+ms.author: maggies
 ms.date: 06/06/2019
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.assetid: 9dcf3fc8-bf9c-4a14-a03d-e78254aa4098
-author: maggiesMSFT
-ms.author: maggies
-ms.openlocfilehash: 3d22696168d8ae550238fab243110db357b39c22
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 4b678bf3a11ab243aea8c2cc00fbf58c4ca8ffae
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297689"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415614"
 ---
 # <a name="tables-matrixes-and-lists-in-power-bi-report-builder"></a>Power BI 보고서 작성기의 테이블, 행렬 및 목록
 

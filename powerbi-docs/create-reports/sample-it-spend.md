@@ -2,19 +2,19 @@
 title: 'Power BI의 IT 지출 분석 샘플: 둘러보기'
 description: 'Power BI의 IT 지출 분석 샘플: 둘러보기'
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: amac
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 07/05/2019
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: f132a68d537d8fa1a518e91823e1dc36a2969622
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: cdde0e702333feed54637c72fa3193052fde139f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349037"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414970"
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Power BI의 IT 지출 분석 샘플: 둘러보기
 
@@ -38,12 +38,12 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 
    Power BI Pro 라이선스가 없다면 샘플을 내 작업 영역에 저장하면 됩니다.
 
-2. 왼쪽 아래 모서리에서 **데이터 가져오기**를 선택합니다.
+2. 왼쪽 아래 모서리에서 **데이터 가져오기** 를 선택합니다.
    
    ![데이터 가져오기 선택](media/sample-datasets/power-bi-get-data.png)
-3. **데이터 가져오기** 페이지가 표시되면 **샘플**을 선택합니다.
+3. **데이터 가져오기** 페이지가 표시되면 **샘플** 을 선택합니다.
    
-4. **IT 지출 분석 샘플**을 선택한 다음, **연결**을 선택합니다.  
+4. **IT 지출 분석 샘플** 을 선택한 다음, **연결** 을 선택합니다.  
   
    ![샘플에 연결](media/sample-it-spend/it-connect.png)
    
@@ -57,7 +57,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>이 샘플의 Excel 통합 문서 다운로드
 
-이 샘플의 데이터 원본을 보려면 [Excel 통합 문서](https://go.microsoft.com/fwlink/?LinkId=529783)로도 제공됩니다. 통합 문서에는 보고 수정할 수 있는 파워 뷰 시트가 포함됩니다. 원시 데이터를 보려면 데이터 분석 추가 기능을 사용하도록 설정한 다음, **파워 피벗 > 관리**를 선택합니다. 파워 뷰 및 파워 피벗 추가 기능을 사용하도록 설정하려면 자세한 내용은 [Excel에서 Excel 샘플 탐색](sample-datasets.md#explore-excel-samples-inside-excel)을 참조하세요.
+이 샘플의 데이터 원본을 보려면 [Excel 통합 문서](https://go.microsoft.com/fwlink/?LinkId=529783)로도 제공됩니다. 통합 문서에는 보고 수정할 수 있는 파워 뷰 시트가 포함됩니다. 원시 데이터를 보려면 데이터 분석 추가 기능을 사용하도록 설정한 다음, **파워 피벗 > 관리** 를 선택합니다. 파워 뷰 및 파워 피벗 추가 기능을 사용하도록 설정하려면 자세한 내용은 [Excel에서 Excel 샘플 탐색](sample-datasets.md#explore-excel-samples-inside-excel)을 참조하세요.
 
 ## <a name="it-spend-analysis-sample-dashboard"></a>IT 지출 분석 샘플 대시보드
 **Var Plan %** 및 **Variance Latest Estimate % Quarter 3** 대시보드의 왼쪽에 있는 두 개의 숫자 타일은 계획 및 최신 분기별 예상(LE3 = Latest Estimate Quarter 3)에 대해 얼마나 잘 수행하고 있는지를 간략하게 보여 줍니다. 전체적으로 약 6% 계획에서 벗어났습니다. 시기, 위치 및 범주 등 이 차이의 원인을 살펴보겠습니다.
@@ -69,25 +69,25 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 
 그러나 이 차트만 보고 결론을 도출하면 잘못될 수 있습니다. 상황을 올바르게 분석하려면 실제 달러 금액을 확인해야 합니다.
 
-1. **Var Plan % by Sales Region** 차트에서 **Aus and NZ**를 선택한 다음, **Var Plan by IT Area** 차트를 관찰합니다.
+1. **Var Plan % by Sales Region** 차트에서 **Aus and NZ** 를 선택한 다음, **Var Plan by IT Area** 차트를 관찰합니다.
 
    ![YTD IT 지출 추세 분석 페이지](media/sample-it-spend/it3.png)
-2. 이제 **USA**를 선택합니다. 오스트레일리아와 뉴질랜드는 미국과 비교해 전체 지출 중 매우 작은 부분을 차지함을 알 수 있습니다.
+2. 이제 **USA** 를 선택합니다. 오스트레일리아와 뉴질랜드는 미국과 비교해 전체 지출 중 매우 작은 부분을 차지함을 알 수 있습니다.
 
     다음으로, 미국에서 차이를 발생시키는 범주를 살펴보겠습니다.
 
 ## <a name="ask-questions-of-the-data"></a>데이터에 대해 질문하기
-1. 맨 위 탐색 창에서 **IT 지출 분석 샘플**을 선택하여 샘플 대시보드로 돌아갑니다.
-2. **데이터에 대해 질문하기**를 선택합니다.
+1. 맨 위 탐색 창에서 **IT 지출 분석 샘플** 을 선택하여 샘플 대시보드로 돌아갑니다.
+2. **데이터에 대해 질문하기** 를 선택합니다.
 3. 왼쪽의 **시작하기 위한 질문** 목록에서 **what is the plan by IT area?** 를 선택합니다.
 
    ![Plan by IT Area 차트](media/sample-it-spend/it-area-chart.png)
 
-4. 질문 및 답변 상자에서 이전 입력을 지우고 *show IT areas, var plan % and var le3 % bar chart*를 입력합니다.
+4. 질문 및 답변 상자에서 이전 입력을 지우고 *show IT areas, var plan % and var le3 % bar chart* 를 입력합니다.
 
    ![Var Plan % and Var LE3 % by IT Area 차트](media/sample-it-spend/it4.png)
 
-   첫 번째 IT 영역 **Infrastructure**에서 백분율이 초기 차이 계획과 차이 계획 최신 예상 사이에서 현저하게 변경되었음을 알 수 있습니다.
+   첫 번째 IT 영역 **Infrastructure** 에서 백분율이 초기 차이 계획과 차이 계획 최신 예상 사이에서 현저하게 변경되었음을 알 수 있습니다.
 
 ## <a name="ytd-spend-by-cost-elements-page"></a>YTD Spend by Cost Elements 페이지
 
@@ -102,9 +102,9 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 
     ![YTD Spend by Cost Elements 페이지](media/sample-it-spend/it6.png)
 3. **Cost Element Group** 슬라이서에서 각 이름을 선택하여 차이가 가장 큰 비용 요소를 찾습니다.
-4. **Other**를 선택하고, **IT Area** 슬라이서에서 **Infrastructure**를 선택하고, **IT Sub Area** 슬라이서에서 하위 영역을 선택하여 차이가 가장 큰 하위 영역을 찾습니다.  
+4. **Other** 를 선택하고, **IT Area** 슬라이서에서 **Infrastructure** 를 선택하고, **IT Sub Area** 슬라이서에서 하위 영역을 선택하여 차이가 가장 큰 하위 영역을 찾습니다.  
 
-   **네트워킹**에 대한 큰 차이를 확인할 수 있습니다. 이 이동이 계획되지 않았더라도 분명히 회사는 직원에게 전화 서비스를 혜택으로 제공하기로 했습니다.
+   **네트워킹** 에 대한 큰 차이를 확인할 수 있습니다. 이 이동이 계획되지 않았더라도 분명히 회사는 직원에게 전화 서비스를 혜택으로 제공하기로 했습니다.
 
 ## <a name="plan-variance-analysis-page"></a>Plan Variance Analysis 페이지
 
@@ -119,7 +119,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 3. 오른쪽에 있는 **IT Area** 및 **IT Sub Area** 슬라이서를 사용하여 나머지 페이지의 값을 필터링하고 데이터를 살펴봅니다. 
 
 ## <a name="edit-the-report"></a>보고서 편집
-왼쪽 위 모서리에서 **보고서 편집**을 선택하여 편집용 보기에서 탐색합니다.
+왼쪽 위 모서리에서 **보고서 편집** 을 선택하여 편집용 보기에서 탐색합니다.
 
 * 페이지가 어떻게 만들어지는지, 각 차트의 필드 및 페이지의 필터를 확인합니다.
 * 동일한 데이터를 기반으로 페이지 및 차트를 추가합니다.
@@ -127,6 +127,6 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 * 대시보드에 관심 있는 차트를 고정합니다.
 
 ## <a name="next-steps-connect-to-your-data"></a>다음 단계: 데이터에 연결
-이 환경은 변경 내용을 저장하지 않도록 선택할 수 있으므로 안전하게 이용할 수 있습니다. 그러나 변경 내용을 저장하면 언제든지 이 샘플의 새 복사본에 대해 **데이터 가져오기**를 선택할 수 있습니다.
+이 환경은 변경 내용을 저장하지 않도록 선택할 수 있으므로 안전하게 이용할 수 있습니다. 그러나 변경 내용을 저장하면 언제든지 이 샘플의 새 복사본에 대해 **데이터 가져오기** 를 선택할 수 있습니다.
 
 이 둘러보기가 Power BI 대시보드, 질문 및 답변, 보고서를 통해 샘플 데이터를 파악하는 방법을 확인하는 데 도움이 되었기를 바랍니다. 이제 사용자 데이터에 연결할 차례입니다. Power BI를 사용하여 다양한 데이터 원본에 연결할 수 있습니다. 더 자세히 알아보려면 [Power BI 서비스 시작하기](../fundamentals/service-get-started.md)를 참조하세요.

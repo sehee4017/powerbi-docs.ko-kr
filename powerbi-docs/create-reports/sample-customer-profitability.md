@@ -2,19 +2,19 @@
 title: Power BI용 고객 수익성 샘플 둘러보기
 description: Power BI용 고객 수익성 샘플 둘러보기
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: amac
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 07/05/2019
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: e1dcc202b8da269be3ee7c5ec2fea1d55381931e
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: adc642d5366949e547e0115badd5e800ffa04bb0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83344644"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415108"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Power BI용 고객 수익성 샘플 둘러보기
 
@@ -38,12 +38,12 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 
    Power BI Pro 라이선스가 없다면 샘플을 내 작업 영역에 저장하면 됩니다.
 
-2. 왼쪽 아래 모서리에서 **데이터 가져오기**를 선택합니다.
+2. 왼쪽 아래 모서리에서 **데이터 가져오기** 를 선택합니다.
 
    ![데이터 가져오기 선택](media/sample-datasets/power-bi-get-data.png)
-3. **데이터 가져오기** 페이지가 표시되면 **샘플**을 선택합니다.
+3. **데이터 가져오기** 페이지가 표시되면 **샘플** 을 선택합니다.
 
-4. **고객 수익성 샘플**을 선택한 다음, **연결**을 선택합니다.  
+4. **고객 수익성 샘플** 을 선택한 다음, **연결** 을 선택합니다.  
 
     ![샘플에 연결](media/sample-customer-profitability/get-supplier-sample.png)
 5. Power BI에서 콘텐츠 팩을 가져온 다음, 새 대시보드, 보고서 및 데이터 세트를 현재 작업 영역에 추가합니다.
@@ -56,7 +56,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>이 샘플의 Excel 통합 문서 다운로드
 
-이 샘플의 데이터 원본을 보려면 [Excel 통합 문서](https://go.microsoft.com/fwlink/?LinkId=529781)로도 제공됩니다. 통합 문서에는 보고 수정할 수 있는 파워 뷰 시트가 포함됩니다. 원시 데이터를 보려면 데이터 분석 추가 기능을 사용하도록 설정한 다음, **파워 피벗 > 관리**를 선택합니다. 파워 뷰 및 파워 피벗 추가 기능을 사용하도록 설정하려면 자세한 내용은 [Excel에서 Excel 샘플 탐색](sample-datasets.md#explore-excel-samples-inside-excel)을 참조하세요.
+이 샘플의 데이터 원본을 보려면 [Excel 통합 문서](https://go.microsoft.com/fwlink/?LinkId=529781)로도 제공됩니다. 통합 문서에는 보고 수정할 수 있는 파워 뷰 시트가 포함됩니다. 원시 데이터를 보려면 데이터 분석 추가 기능을 사용하도록 설정한 다음, **파워 피벗 > 관리** 를 선택합니다. 파워 뷰 및 파워 피벗 추가 기능을 사용하도록 설정하려면 자세한 내용은 [Excel에서 Excel 샘플 탐색](sample-datasets.md#explore-excel-samples-inside-excel)을 참조하세요.
 
 ## <a name="what-is-our-dashboard-telling-us"></a>대시보드가 시사하는 점은 무엇입니까?
 
@@ -95,15 +95,15 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 이 대시보드에는 보고서와 Excel 통합 문서에 연결된 타일이 있습니다.
 
 ### <a name="open-the-excel-online-data-source"></a>Excel Online 데이터 원본 열기
-이 대시보드의 두 타일, **목표 및 실제**와 **전년 대비 수익 성장**이 Excel 통합 문서에서 고정되었습니다. 그러므로 이 타일 중 하나를 선택하면 Power BI에서 데이터 원본(이 경우 Excel Online)을 엽니다.
+이 대시보드의 두 타일, **목표 및 실제** 와 **전년 대비 수익 성장** 이 Excel 통합 문서에서 고정되었습니다. 그러므로 이 타일 중 하나를 선택하면 Power BI에서 데이터 원본(이 경우 Excel Online)을 엽니다.
 
 ![Excel Online](media/sample-customer-profitability/power-bi-excel-online.png)
 
 1. Excel에서 고정된 타일 중 하나를 선택합니다. Excel Online이 Power BI 서비스 내에서 열립니다.
-2. 통합 문서에 데이터 가치가 있는 탭이 3개 있습니다. **수익**을 엽니다.
+2. 통합 문서에 데이터 가치가 있는 탭이 3개 있습니다. **수익** 을 엽니다.
 3. Carlos가 아직 목표를 달성하지 못한 이유를 살펴보겠습니다.  
 
-    a. **경영진** 슬라이더에서 **Carlos Grilo**를 선택합니다.   
+    a. **경영진** 슬라이더에서 **Carlos Grilo** 를 선택합니다.   
 
     b. 첫 번째 피벗 테이블을 보면, 상위 제품인 Primus에 대한 Carlos의 매출 증가가 작년보다 152% 감소했습니다. **전년 대비 매출 차이** 차트에 따르면 Carlos는 대부분의 달에 예산을 밑돌았습니다.  
 
@@ -120,15 +120,15 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 
 1. 이러한 타일 중 하나를 선택하여 읽기용 보기에서 보고서를 엽니다.
 
-   타일이 Q&A에서 생성된 경우 타일을 선택하면 Q&A 창이 열립니다. 대시보드로 돌아가서 다른 타일을 시도해보려면 **Q&A 종료**를 선택합니다.
+   타일이 Q&A에서 생성된 경우 타일을 선택하면 Q&A 창이 열립니다. 대시보드로 돌아가서 다른 타일을 시도해보려면 **Q&A 종료** 를 선택합니다.
 
 2. 보고서에는 3개의 페이지가 있습니다. 보고서 아래쪽에 있는 각 탭은 서로 다른 페이지를 나타냅니다.
 
     ![아래쪽에 있는 3개의 탭](media/sample-customer-profitability/power-bi-report-tabs.png)
 
-    * **팀 성과 기록표**는 관리자 5명의 성과와 이들의 “비즈니스 기록”에 중점을 둡니다.
-    * **업계 수익 분석**은 업계 전체에서 돌아가는 상황과 비교하여 수익성을 분석하는 방법을 제공합니다.
-    * **경영진 성과 기록표**는 각 관리자에 대한 보기를 사용자 지정 페이지 크기 형식으로 제공합니다.
+    * **팀 성과 기록표** 는 관리자 5명의 성과와 이들의 “비즈니스 기록”에 중점을 둡니다.
+    * **업계 수익 분석** 은 업계 전체에서 돌아가는 상황과 비교하여 수익성을 분석하는 방법을 제공합니다.
+    * **경영진 성과 기록표** 는 각 관리자에 대한 보기를 사용자 지정 페이지 크기 형식으로 제공합니다.
 
 ### <a name="team-scorecard-page"></a>팀 성과 기록표
 ![팀 성과 기록표 보고서 페이지](media/sample-customer-profitability/customer2.png)
@@ -139,7 +139,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 
    * 간략히 KPI를 보려면 Andrew의 **수익 상태(연간 총액)** 를 확인합니다. 녹색이므로 성과가 좋다는 의미입니다.
    * **Revenue % Variance to Budget by Month and Executive**(월 및 경영진별 예산 대비 수익 % 분산) 차트는 2월의 부진을 제외하고는 Andrew가 잘하고 있다는 것을 보여줍니다. Andrew의 주요 지역은 동부 지역이며, 고객 49곳과 7가지 제품 중 5가지를 취급합니다. Andrew의 GM%는 가장 높지도, 가장 낮지도 않습니다.
-   * **월별 RevenueTY 및 예산 대비 수익 % 분산** 차트는 꾸준하고 지속적인 수익을 보여줍니다. 하지만 지역 트리맵에서 **중부**에 대한 사각형을 선택하여 필터링하면 Andrew는 3월에 인디애나에서만 수익이 있는 것을 알 수 있습니다. 이 추세가 의도적인 상황인가요? 아니면 살펴봐야 하는 상황인가요?
+   * **월별 RevenueTY 및 예산 대비 수익 % 분산** 차트는 꾸준하고 지속적인 수익을 보여줍니다. 하지만 지역 트리맵에서 **중부** 에 대한 사각형을 선택하여 필터링하면 Andrew는 3월에 인디애나에서만 수익이 있는 것을 알 수 있습니다. 이 추세가 의도적인 상황인가요? 아니면 살펴봐야 하는 상황인가요?
 
 2. 이제 Valery를 봅시다. **Executive** 슬라이서에서 Valery 이름을 선택하여 Valery의 데이터만 표시되도록 보고서 페이지를 필터링합니다. 
 
@@ -151,7 +151,7 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
    * 트리 맵의 **북부** 사각형을 선택하면 Valery의 북부 지역 총수익이 전체 수익과 일치하는 것으로 표시됩니다.
    * 다른 **지역별 총 매출** 사각형을 선택하면 GM%의 범위가 23%~79%라는 흥미로운 사실을 확인할 수 있습니다. Valery의 매출은 북부 지역을 제외한 모든 지역에서 계절성이 상당히 높습니다.
 
-3. Valery의 영역에서 실적이 저조한 이유를 계속 살펴봅시다. 지역, 다른 사업부 및 보고서의 다음 페이지: **업계 수익 분석**을 살펴봅니다.
+3. Valery의 영역에서 실적이 저조한 이유를 계속 살펴봅시다. 지역, 다른 사업부 및 보고서의 다음 페이지: **업계 수익 분석** 을 살펴봅니다.
 
 ### <a name="industry-margin-analysis"></a>업계 이익 분석
 이 보고서 페이지는 데이터의 다른 조각을 제공합니다. 전체 업계의 총수익을 세그먼트 단위로 나누어 보여줍니다. CFO는 이 페이지를 통해 회사 및 비즈니스 단위 메트릭을 업계 메트릭과 비교하여 추세와 수익성을 설명할 수 있도록 지원합니다. **월별 및 임원별 총이익 %** 차트가 이 페이지에 있는 이유가 궁금할 수 있습니다. 이 페이지는 팀 전용 페이지이기 때문입니다. 여기에 있으면 비즈니스 단위 관리자로 페이지를 필터링할 수 있습니다.  
@@ -175,13 +175,13 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 ## <a name="dig-into-the-data-by-asking-questions-with-qa"></a>질문 및 답변에 질문하여 데이터를 더 보기
 분석을 통해 어떤 업계가 Valery에게 가장 많은 수익을 거둘 수 있게 하는지 확인할 수도 있습니다. 질문 및 답변을 사용해 봅시다.
 
-1. **보고서 편집**을 선택하여 편집용 보기에서 보고서를 엽니다. 편집용 보기는 자신이 보고서를 소유한 경우에만 사용할 수 있습니다. 이러한 보기는 *작성자* 모드라고도 합니다. 대신 이 보고서가 나에게만 공유된 경우에는 편집용 보기에서 열 수 없습니다.
+1. **보고서 편집** 을 선택하여 편집용 보기에서 보고서를 엽니다. 편집용 보기는 자신이 보고서를 소유한 경우에만 사용할 수 있습니다. 이러한 보기는 *작성자* 모드라고도 합니다. 대신 이 보고서가 나에게만 공유된 경우에는 편집용 보기에서 열 수 없습니다.
 
-2.  대시보드 맨 위에서 **질문하기**를 선택하여 Q&A 질문 상자를 엽니다.
+2.  대시보드 맨 위에서 **질문하기** 를 선택하여 Q&A 질문 상자를 엽니다.
 
     ![데이터에 대해 질문하기](media/sample-customer-profitability/power-bi-ask-question.png)
 
-3. 질문 상자에 *total revenue by industry for Valery*를 입력합니다. 질문을 입력하면 시각화가 어떻게 업데이트되는지 확인합니다.
+3. 질문 상자에 *total revenue by industry for Valery* 를 입력합니다. 질문을 입력하면 시각화가 어떻게 업데이트되는지 확인합니다.
 
     ![질문 상자에 질문 입력](media/sample-customer-profitability/power-bi-qna.png)
 
@@ -191,21 +191,21 @@ Power BI 라이선스가 없어도 Power BI Desktop의 샘플을 살펴볼 수 �
 배포 업계를 살펴보겠습니다.  
 
 1. **업계 수익 분석** 보고서 페이지를 엽니다.
-2. 보고서 페이지에서 시각화를 선택하지 않고 오른쪽 필터 창을 확장합니다(이미 확장되어 있지 않은 경우). **필터** 창은 **페이지 수준 필터**만 표시합니다.  
+2. 보고서 페이지에서 시각화를 선택하지 않고 오른쪽 필터 창을 확장합니다(이미 확장되어 있지 않은 경우). **필터** 창은 **페이지 수준 필터** 만 표시합니다.  
 
    ![페이지 수준 필터](media/sample-customer-profitability/power-bi-filters.png)
-3. **업계**에 대한 필터를 찾아 화살표를 선택하여 목록을 확대합니다. 유통 업계에 대한 페이지 필터를 추가해 보겠습니다. 먼저 **모두 선택** 확인란을 지워 모든 선택을 취소합니다. 그런 다음, **배포**만 선택합니다.  
+3. **업계** 에 대한 필터를 찾아 화살표를 선택하여 목록을 확대합니다. 유통 업계에 대한 페이지 필터를 추가해 보겠습니다. 먼저 **모두 선택** 확인란을 지워 모든 선택을 취소합니다. 그런 다음, **배포** 만 선택합니다.  
 
    ![배포를 위한 필터](media/sample-customer-profitability/customer7.png)
 4. **월별 및 임원별 총이익%** 차트는 Valery와 Tina만 이 업계의 고객을 보유하고 있으며, Valery는 6월에서 11월까지만 이 업계에서 일했음을 보여줍니다.   
-5. **월별 및 임원별 총수익** 차트 범례에서 **Tina**를 선택한 후 **Valery**를 선택합니다. **제품별 총 수익** 차트에서 Tina가 차지하는 부분은 Valery에 비해 작다는 것을 알 수 있습니다.
-6. 실제 수익을 보려면 대시보드에서 질문 및 답변 상자를 선택하고 *total revenue by executive for distribution by scenario*를 입력합니다.  
+5. **월별 및 임원별 총수익** 차트 범례에서 **Tina** 를 선택한 후 **Valery** 를 선택합니다. **제품별 총 수익** 차트에서 Tina가 차지하는 부분은 Valery에 비해 작다는 것을 알 수 있습니다.
+6. 실제 수익을 보려면 대시보드에서 질문 및 답변 상자를 선택하고 *total revenue by executive for distribution by scenario* 를 입력합니다.  
 
      ![질문 및 답변 상자에 질문 입력](media/sample-customer-profitability/power-bi-qna2.png)
 
     다른 업계에 대해서도 비슷하게 탐색할 수 있으며, 시각적 개체에 고객을 추가하여 Valery의 활동의 원인을 이해할 수도 있습니다.
 
 ## <a name="next-steps-connect-to-your-data"></a>다음 단계: 데이터에 연결
-이 환경은 변경 내용을 저장하지 않도록 선택할 수 있으므로 안전하게 이용할 수 있습니다. 그러나 변경 내용을 저장하면 언제든지 이 샘플의 새 복사본에 대해 **데이터 가져오기**를 선택할 수 있습니다.
+이 환경은 변경 내용을 저장하지 않도록 선택할 수 있으므로 안전하게 이용할 수 있습니다. 그러나 변경 내용을 저장하면 언제든지 이 샘플의 새 복사본에 대해 **데이터 가져오기** 를 선택할 수 있습니다.
 
 이 둘러보기가 Power BI 대시보드, 질문 및 답변, 보고서를 통해 샘플 데이터를 파악하는 방법을 확인하는 데 도움이 되었기를 바랍니다. 이제 사용자 데이터에 연결할 차례입니다. Power BI를 사용하여 다양한 데이터 원본에 연결할 수 있습니다. 더 자세히 알아보려면 [Power BI 서비스 시작하기](../fundamentals/service-get-started.md)를 참조하세요.

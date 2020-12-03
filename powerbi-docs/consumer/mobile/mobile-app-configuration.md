@@ -2,17 +2,17 @@
 title: Power BI 앱 구성 설정
 description: MDM 도구를 사용하여 Power BI의 동작을 사용자 지정하는 방법
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 07/14/2020
-ms.author: painbar
-ms.openlocfilehash: f9b6efd07aad3d2058e49f81ae21095b618123ee
-ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
+ms.openlocfilehash: a867c0480e9c0762d1594016fb807cab8261c14c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "86385932"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414602"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>MDM(모바일 디바이스 관리) 도구를 사용하여 Power BI 앱을 원격으로 구성
 

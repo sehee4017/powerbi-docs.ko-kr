@@ -2,19 +2,19 @@
 title: Power BI 질문 및 답변으로 시각적 개체 만들기
 description: Power BI 서비스에서 소매점 분석 샘플을 사용하여 질문 및 답변으로 시각적 개체를 만드는 방법을 알아봅니다.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/13/2019
-ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 6bd68f5db12367e6c98b6fe61461b89047d8eb56
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7eae93eb2b4594a180836f43a758c6bef7b3e90e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237237"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415039"
 ---
 # <a name="create-a-visual-with-power-bi-qa"></a>Power BI 질문 및 답변으로 시각적 개체 만들기
 
@@ -28,9 +28,9 @@ ms.locfileid: "85237237"
 
 질문 및 답변을 사용하여 이 꺾은선형 차트를 만들려면 어떻게 해야 하나요?
 
-1. Power BI 작업 영역에서 **데이터 가져오기** \> **샘플** \> **소매점 분석 샘플** > **연결**을 선택합니다.
+1. Power BI 작업 영역에서 **데이터 가져오기** \> **샘플** \> **소매점 분석 샘플** > **연결** 을 선택합니다.
 
-1. 소매점 분석 샘플 대시보드를 열고 질문 및 답변 상자에 커서를 놓은 다음, **데이터에 대해 질문**합니다.
+1. 소매점 분석 샘플 대시보드를 열고 질문 및 답변 상자에 커서를 놓은 다음, **데이터에 대해 질문** 합니다.
 
     ![질문 및 답변 상자에 커서를 놓습니다.](media/power-bi-visualization-introduction-to-q-and-a/power-bi-qna-cursor-in-qna-box.png)
 
@@ -58,10 +58,10 @@ ms.locfileid: "85237237"
 
     ![소매점 분석 샘플 대시보드](media/power-bi-visualization-introduction-to-q-and-a/power-bi-dashboard.png)
 
-1. **보고서 편집**을 선택하여 편집용 보기에서 보고서를 엽니다.  보고서의 소유자가 아닌 경우 편집용 보기에서 보고서를 여는 옵션이 없습니다.
+1. **보고서 편집** 을 선택하여 편집용 보기에서 보고서를 엽니다.  보고서의 소유자가 아닌 경우 편집용 보기에서 보고서를 여는 옵션이 없습니다.
    
     ![보고서 편집 단추](media/power-bi-visualization-introduction-to-q-and-a/power-bi-edit-report.png)
-4. 영역형 차트를 선택하고 **필드** 창의 설정을 검토합니다.  보고서 작성자는 세 가지 값(**Sales** 테이블의 **Last Year Sales**와 **This Year Sales > Value** 및 **Time** 테이블의 **FiscalMonth**)을 선택하고 **축** 및 **값**에서 구성하여 이 차트를 작성했습니다.
+4. 영역형 차트를 선택하고 **필드** 창의 설정을 검토합니다.  보고서 작성자는 세 가지 값(**Sales** 테이블의 **Last Year Sales** 와 **This Year Sales > Value** 및 **Time** 테이블의 **FiscalMonth**)을 선택하고 **축** 및 **값** 에서 구성하여 이 차트를 작성했습니다.
    
     ![시각화 창](media/power-bi-visualization-introduction-to-q-and-a/gnatutorial_3-new.png)
 

@@ -2,19 +2,19 @@
 title: Power BI Desktop의 다 대 다 관계
 description: Power BI Desktop에서 다 대 다 카디널리티와의 관계 사용
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 12/19/2019
-ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 17006405a495798618bf7562e6b94864b795a224
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 5f64a9a896fbb5ea3e080e1d07f6cc7d980430b8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91528048"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415706"
 ---
 # <a name="apply-many-many-relationships-in-power-bi-desktop"></a>Power BI Desktop에서 다 대 다 관계 적용
 
@@ -62,7 +62,7 @@ Power BI에서 두 테이블 간 관계를 정의할 때 관계의 카디널리�
 
 * 외래 키 열이 Null인 **ProductSales** 테이블의 모든 행.
 
-이러한 이유로 인해 두 경우에 모두 빈 행은 **ProductName** 및 **Price**를 알 수 없는 판매에 해당합니다.
+이러한 이유로 인해 두 경우에 모두 빈 행은 **ProductName** 및 **Price** 를 알 수 없는 판매에 해당합니다.
 
 테이블이 두 개의 열에 의해 조인되지만 두 열이 다 고유하지 않은 경우가 있습니다. 예를 들어 다음 두 테이블을 살펴보겠습니다.
 
@@ -91,18 +91,18 @@ Power BI Desktop의 2018년 7월 릴리스 전에는 이러한 테이블 간에 
 
 ![숨겨진 State 테이블, 관계 뷰, Power BI Desktop](media/desktop-many-to-many-relationships/many-to-many-relationships_08.png)
 
-**State**(**CityData** 테이블에 포함됨)를 총 ‘인구’ 및 총 ‘판매액’과 함께 표시하는 시각적 개체는 다음과 같이 표시됩니다. **** ****
+**State**(**CityData** 테이블에 포함됨)를 총 ‘인구’ 및 총 ‘판매액’과 함께 표시하는 시각적 개체는 다음과 같이 표시됩니다.  
 
 ![스크린샷은 주, 인구 및 판매 데이터가 있는 테이블을 보여줍니다.](media/desktop-many-to-many-relationships/many-to-many-relationships_09.png)
 
 > [!NOTE]
-> 이 해결 방법에서는 **CityData** 테이블의 주가 사용되기 때문에 해당 테이블의 주만 나열되므로 TX는 제외됩니다. 또한, ‘다 대 일’ 관계와 달리, 합계 행에는 모든 **판매**(TX의 판매 포함)가 포함되지만 세부 정보에는 이러한 불일치 행을 다루는 빈 행이 포함되지 않습니다.  마찬가지로, **State**에 Null 값이 있는 **판매**를 다루는 빈 행도 없습니다.
+> 이 해결 방법에서는 **CityData** 테이블의 주가 사용되기 때문에 해당 테이블의 주만 나열되므로 TX는 제외됩니다. 또한, ‘다 대 일’ 관계와 달리, 합계 행에는 모든 **판매**(TX의 판매 포함)가 포함되지만 세부 정보에는 이러한 불일치 행을 다루는 빈 행이 포함되지 않습니다.  마찬가지로, **State** 에 Null 값이 있는 **판매** 를 다루는 빈 행도 없습니다.
 
-해당 시각적 개체에 도시도 추가한다고 가정해 보겠습니다. 도시별 인구를 알려 주기는 하지만 도시에 대해 표시된 **판매**에서는 단순히 해당 **주**의 **판매**가 반복됩니다. 일반적으로 이러한 시나리오는 다음과 같이 열 그룹화가 일부 집계 측정값과 관련이 없는 경우에 발생합니다.
+해당 시각적 개체에 도시도 추가한다고 가정해 보겠습니다. 도시별 인구를 알려 주기는 하지만 도시에 대해 표시된 **판매** 에서는 단순히 해당 **주** 의 **판매** 가 반복됩니다. 일반적으로 이러한 시나리오는 다음과 같이 열 그룹화가 일부 집계 측정값과 관련이 없는 경우에 발생합니다.
 
 ![주 및 도시 인구와 판매, Power BI Desktop](media/desktop-many-to-many-relationships/many-to-many-relationships_10.png)
 
-새 Sales 테이블을 여기에 있는 모든 주의 조합으로 정의하고 **필드** 목록에 표시되도록 한다고 가정해 보겠습니다. 동일한 시각적 개체에서 다음과 같이 **주**(새 테이블), 총 **인구** 및 총 **판매**를 표시합니다.
+새 Sales 테이블을 여기에 있는 모든 주의 조합으로 정의하고 **필드** 목록에 표시되도록 한다고 가정해 보겠습니다. 동일한 시각적 개체에서 다음과 같이 **주**(새 테이블), 총 **인구** 및 총 **판매** 를 표시합니다.
 
 ![주, 인구 및 판매 시각적 개체, Power BI Desktop](media/desktop-many-to-many-relationships/many-to-many-relationships_11.png)
 
@@ -122,7 +122,7 @@ Power BI Desktop에서는 어느 테이블에도 관계 열의 고유한 값이 
 
 ![State, Population 및 Sales 테이블, Power BI Desktop](media/desktop-many-to-many-relationships/many-to-many-relationships_12.png)
 
-*다 대 다 카디널리티와의 관계*와 더 일반적인 *다 대 일* 관계의 주요 차이점은 다음과 같습니다.
+*다 대 다 카디널리티와의 관계* 와 더 일반적인 *다 대 일* 관계의 주요 차이점은 다음과 같습니다.
 
 * 표시된 값은 다른 테이블의 일치하지 않는 행에 해당하는 빈 행을 포함하지 않습니다. 다른 테이블의 관계에 사용된 열이 Null인 행도 값에 포함되지 않습니다.
 * 두 개 이상의 행이 관련될 수 있으므로 `RELATED()` 함수는 사용할 수 없습니다.
@@ -150,7 +150,7 @@ Power BI Desktop에서는 어느 테이블에도 관계 열의 고유한 값이 
 
 DirectQuery를 사용하여 이러한 다차원 원본에 연결하는 경우 다른 DirectQuery 원본에 연결하거나 가져온 데이터와 결합할 수 없습니다.
 
-*다 대 다 카디널리티와의 관계*를 사용할 경우에도 DirectQuery 사용에 대한 기존 제한 사항이 계속 적용됩니다. 제한 사항 중 다수는 테이블의 스토리지 모드에 따라 테이블별로 적용됩니다. 예를 들어 가져온 테이블에서 계산된 열은 다른 테이블을 참조할 수 있지만, DirectQuery 테이블에서 계산된 열은 여전히 동일한 테이블의 열만 참조할 수 있습니다. 다른 제한 사항은 모델 내의 테이블이 DirectQuery인 경우 전체 모델에 적용됩니다. 예를 들어 QuickInsights 및 Q&A 기능은 모델 내의 테이블에 DirectQuery의 스토리지 모드가 있는 경우 해당 모델에서는 사용할 수 없습니다.
+*다 대 다 카디널리티와의 관계* 를 사용할 경우에도 DirectQuery 사용에 대한 기존 제한 사항이 계속 적용됩니다. 제한 사항 중 다수는 테이블의 스토리지 모드에 따라 테이블별로 적용됩니다. 예를 들어 가져온 테이블에서 계산된 열은 다른 테이블을 참조할 수 있지만, DirectQuery 테이블에서 계산된 열은 여전히 동일한 테이블의 열만 참조할 수 있습니다. 다른 제한 사항은 모델 내의 테이블이 DirectQuery인 경우 전체 모델에 적용됩니다. 예를 들어 QuickInsights 및 Q&A 기능은 모델 내의 테이블에 DirectQuery의 스토리지 모드가 있는 경우 해당 모델에서는 사용할 수 없습니다.
 
 ## <a name="next-steps"></a>다음 단계
 

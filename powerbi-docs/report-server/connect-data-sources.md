@@ -2,18 +2,18 @@
 title: Power BI Report Server의 페이지를 매긴 보고서 데이터 원본
 description: Power BI Report Server에서 페이지를 매긴 보고서(.rdl)가 연결할 수 있는 데이터 원본에 대해 알아봅니다.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 06/26/2020
-ms.author: maggies
-ms.openlocfilehash: fcf0a286487922fcfc217b4d293aa731ad1564a6
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 4559995baa7d3e0b5796ca6076687c26c4a0854d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861225"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415384"
 ---
 # <a name="paginated-report-data-sources--in-power-bi-report-server"></a>Power BI Report Server의 페이지를 매긴 보고서 데이터 원본
 Power BI Report Server의 Reporting Services 페이지를 매긴 보고서는 SQL Server Reporting Services에서 지원되는 동일한 데이터 원본을 지원합니다. [Reporting Services에서 지원하는 데이터 원본](/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs) 목록을 참조하세요.

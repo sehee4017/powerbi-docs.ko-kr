@@ -1,20 +1,20 @@
 ---
 title: 페이지를 매긴 보고서의 URL 매개 변수 - Power BI 보고서 작성기
 description: 이메일이나 웹 페이지에 포함할 수 있는 URL에 매개 변수를 추가하여 Power BI에서 페이지를 매긴 보고서에 명령을 보내는 방법에 대해 알아봅니다.
+author: maggiesMSFT
+ms.author: maggies
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-author: maggiesMSFT
-ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 09/09/2020
-ms.openlocfilehash: 0816ba6f3ff606a73c835ac71af66655fd49acfd
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 4284ba559bff0ba0a3bde7dd34c6f26034ecf12e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93298069"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415568"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Power BI에서 페이지를 매긴 보고서의 URL 매개 변수
 

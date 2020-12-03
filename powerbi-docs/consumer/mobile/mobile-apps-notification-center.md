@@ -2,18 +2,18 @@
 title: Power BI 모바일 앱에서 알림 가져오기
 description: 알림 센터에서는 모바일 디바이스에서 바로 사용자에게 Power BI 환경과 관련된 정보를 제공합니다.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: b3b447b315befef11f342f537d4ab3ad8c837f03
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 19cda3734ba56a5879dc10041d2ba9e9bdc4146e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668485"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414740"
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 알림 가져오기
 적용 대상:
@@ -23,12 +23,12 @@ ms.locfileid: "91668485"
 | iPhone |iPad |Android 휴대폰 |Android 태블릿 |Windows 10 디바이스 |
 
 >[!NOTE]
->**Windows 10 Mobile을 사용하는 휴대폰**용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
+>**Windows 10 Mobile을 사용하는 휴대폰** 용 Power BI 모바일 앱 지원은 2021년 3월 16일 중단될 예정입니다. [자세히 알아보기](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 알림은 Power BI 서비스 또는 모바일 디바이스에서 사용자에게 바로 Power BI 환경에 관련된 정보를 제공합니다. 알림을 열면, 사용자가 [설정해 놓은 경고](mobile-set-data-alerts-in-the-mobile-apps.md)에 대한 연속적인 메시지 피드, 사용자와 공유된 새 대시보드, 그룹 작업 영역에 대한 변경 내용, Power BI 이벤트 및 회의에 대한 정보 등을 볼 수 있습니다.
 
 > [!NOTE]
-> iOS 디바이스에서 [Power BI 앱의 업데이트된 버전](https://powerbi.microsoft.com/mobile/)에 처음으로 로그인하면 Power BI에서 알림을 보낼 것인지 묻는 메시지가 표시됩니다. 디바이스에 대한 **설정**에서 Power BI가 알리는 방법을 구성할 수도 있습니다. 
+> iOS 디바이스에서 [Power BI 앱의 업데이트된 버전](https://powerbi.microsoft.com/mobile/)에 처음으로 로그인하면 Power BI에서 알림을 보낼 것인지 묻는 메시지가 표시됩니다. 디바이스에 대한 **설정** 에서 Power BI가 알리는 방법을 구성할 수도 있습니다. 
 > 
 > 
 
@@ -46,17 +46,17 @@ ms.locfileid: "91668485"
     알림은 가장 최근 메시지부터 읽지 않은 메시지를 강조하여 표시됩니다. 알림은 삭제하거나 최대 제한인 100개에 도달하지 않는 한 90일 동안 유지됩니다.
    
    ![iOS 알림 목록](./media/mobile-apps-notification-center/power-bi-iphone-notifications-list.png)
-4. iOS 및 Android 디바이스에서 알림을 해제하려면 탭하고 길게 누른 다음, 살짝 밉니다. Windows 10 디바이스에서 마우스 오른쪽 단추를 클릭하고 **해제**를 선택합니다.
+4. iOS 및 Android 디바이스에서 알림을 해제하려면 탭하고 길게 누른 다음, 살짝 밉니다. Windows 10 디바이스에서 마우스 오른쪽 단추를 클릭하고 **해제** 를 선택합니다.
 
 ## <a name="change-or-turn-off-notifications-on-your-mobile-device"></a>모바일 디바이스에 대한 알림 변경 또는 해제
 Power BI가 알리는 방법을 변경할 수 있습니다.
 
-1. iOS 디바이스에서 **설정** > **알림**으로 이동합니다. 
+1. iOS 디바이스에서 **설정** > **알림** 으로 이동합니다. 
    
-    Android 휴대폰에서 **설정** > **알림**으로 이동합니다.
+    Android 휴대폰에서 **설정** > **알림** 으로 이동합니다.
    
-    Windows 디바이스의 **설정**에서 **시스템** > **알림 및 작업**으로 이동합니다.
-2. 앱 목록에서 **Power BI**를 선택합니다. 
+    Windows 디바이스의 **설정** 에서 **시스템** > **알림 및 작업** 으로 이동합니다.
+2. 앱 목록에서 **Power BI** 를 선택합니다. 
 3. 여기서 알림을 완전히 해제하거나 원하는 알림을 선택할 수 있습니다.
    
     **iPhone에서**

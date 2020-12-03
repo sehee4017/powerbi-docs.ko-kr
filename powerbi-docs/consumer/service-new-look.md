@@ -1,20 +1,20 @@
 ---
 title: Power BI 서비스의 ‘새 디자인’
 description: Power BI 서비스(app.powerbi.com)의 모양이 새롭게 변경되었습니다. 이 문서에서는 새 디자인을 사용하여 보고서를 탐색하는 방법을 설명합니다.
-author: maggiesMSFT
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 10/22/2020
-ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: f398b0b3331d5677419c824646108f8d04815338
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: ec7b24a4d8f2a94680444b4b9adf4612f1f1f474
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462358"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415154"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Power BI 서비스의 ‘새 디자인’
 

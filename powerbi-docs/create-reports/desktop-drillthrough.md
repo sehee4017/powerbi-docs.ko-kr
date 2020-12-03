@@ -2,19 +2,19 @@
 title: Power BI 보고서에서 드릴스루 설정
 description: Power BI 보고서의 새 보고서 페이지에서 드릴스루를 사용하여 데이터로 드릴다운하는 방법 알아보기
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 03/12/2020
-ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7ba75bf5bce05f7a2614dc27d5ff8245ec1a31ef
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: cec22acab7cc44b96f3137df04777671964707a8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239166"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414234"
 ---
 # <a name="set-up-drill-through-in-power-bi-reports"></a>Power BI 보고서에서 드릴스루 설정
 Power BI 보고서에서 ‘드릴스루’를 사용하면 보고서에서 공급업체, 고객 또는 제조업체와 같은 특정 엔터티에 초점을 맞춘 페이지를 만들 수 있습니다.  보고서 읽기 권한자가 드릴스루를 사용하는 경우에는 다른 보고서 페이지에서 데이터 요소를 마우스 오른쪽 단추로 클릭하고 포커스가 있는 페이지로 드릴스루하여 해당 컨텍스트로 필터링되는 세부 정보를 가져옵니다. 클릭할 때 세부 정보로 [드릴스루하는 단추를 만들](desktop-drill-through-buttons.md) 수도 있습니다.
@@ -32,7 +32,7 @@ Power BI Desktop 또는 Power BI 서비스의 보고서에서 드릴스루를 �
 
     ![드릴스루 웰](media/desktop-drillthrough/drillthrough_02.png)
 
-    필드를 **드릴스루 필터**에 추가하면 Power BI에서 ‘뒤로’ 단추 시각적 개체를 자동으로 만듭니다.  이 시각적 개체는 게시된 보고서의 단추가 됩니다. Power BI 서비스에서 보고서를 사용하는 사용자는 이 단추를 사용하여 출처인 보고서 페이지로 돌아갈 수 있습니다.
+    필드를 **드릴스루 필터** 에 추가하면 Power BI에서 ‘뒤로’ 단추 시각적 개체를 자동으로 만듭니다.  이 시각적 개체는 게시된 보고서의 단추가 됩니다. Power BI 서비스에서 보고서를 사용하는 사용자는 이 단추를 사용하여 출처인 보고서 페이지로 돌아갈 수 있습니다.
 
     ![드릴스루 이미지](media/desktop-drillthrough/drillthrough_03.png)
 
@@ -46,9 +46,9 @@ Power BI Desktop 또는 Power BI 서비스의 보고서에서 드릴스루를 �
 
 뒤로 단추에 고유한 이미지를 사용하려면 다음 단계를 수행합니다.
 
-1. **홈** 탭에서 **이미지**를 선택합니다. 그런 다음, 이미지를 찾아 드릴스루 페이지에 배치합니다.
+1. **홈** 탭에서 **이미지** 를 선택합니다. 그런 다음, 이미지를 찾아 드릴스루 페이지에 배치합니다.
 
-2. 드릴스루 페이지에서 새 이미지를 선택합니다. **이미지 서식** 창에서 **작업** 슬라이더를 **켜기**로 설정한 다음, **형식**을 **뒤로**로 설정합니다. 이제 이미지가 뒤로 단추로 작동합니다.
+2. 드릴스루 페이지에서 새 이미지를 선택합니다. **이미지 서식** 창에서 **작업** 슬라이더를 **켜기** 로 설정한 다음, **형식** 을 **뒤로** 로 설정합니다. 이제 이미지가 뒤로 단추로 작동합니다.
 
     ![이미지를 로드하고 형식을 뒤로로 설정](media/desktop-drillthrough/drillthrough_05.png)
 
@@ -63,7 +63,7 @@ Power BI Desktop 또는 Power BI 서비스의 보고서에서 드릴스루를 �
 
 적용된 모든 필터를 드릴스루 창에 전달할 수 있습니다. 예를 들어 특정 범주의 제품 및 해당 범주로 필터링된 시각적 개체만 선택한 다음, 드릴스루를 선택할 수 있습니다. 해당하는 모든 필터가 적용된 드릴스루의 모양에 관심을 가질 수 있습니다.
 
-적용된 모든 필터를 유지하려면 **시각화** 창의 **드릴스루** 섹션에서 **모든 필터 유지**를 **켜기**로 설정합니다. 
+적용된 모든 필터를 유지하려면 **시각화** 창의 **드릴스루** 섹션에서 **모든 필터 유지** 를 **켜기** 로 설정합니다. 
 
 ![모든 필터 유지](media/desktop-drillthrough/drillthrough_06.png)
 

@@ -2,34 +2,34 @@
 title: Power BI Desktop에서 사용자 지정 서식 문자열 사용
 description: Power BI Desktop에서 형식 문자열을 사용자 지정하는 방법 알아보기
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 09/11/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d4036bb6a2fdc8db7c251a39f5527c54ae1c578b
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: b4c4577dda72e0f8badf2422cd6365187b8ab285
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600578"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414257"
 ---
 # <a name="use-custom-format-strings-in-power-bi-desktop"></a>Power BI Desktop에서 사용자 지정 서식 문자열 사용
 
-**Power BI Desktop**에서 사용자 지정 서식 문자열을 사용하여 시각적 개체에서 필드가 표시되는 방식을 사용자 지정하고 보고서가 원하는 모양으로 표시되도록 할 수 있습니다.
+**Power BI Desktop** 에서 사용자 지정 서식 문자열을 사용하여 시각적 개체에서 필드가 표시되는 방식을 사용자 지정하고 보고서가 원하는 모양으로 표시되도록 할 수 있습니다.
 
 ![사용자 지정 형식이 선택된 Power BI Desktop을 보여 주는 스크린샷. ](media/desktop-custom-format-strings/custom-format-strings-01.png)
 
 
 ## <a name="how-to-use-custom-format-strings"></a>사용자 지정 서식 문자열을 사용하는 방법
 
-사용자 지정 서식 문자열을 만들려면 **모델링** 보기에서 필드를 선택한 다음, **속성** 창에서 **서식**을 선택합니다.
+사용자 지정 서식 문자열을 만들려면 **모델링** 보기에서 필드를 선택한 다음, **속성** 창에서 **서식** 을 선택합니다.
 
 ![형식 드롭다운에서 사용자 지정](media/desktop-custom-format-strings/custom-format-strings-02.png)
 
-**서식** 드롭다운에서 **사용자 지정**을 선택하면 일반적으로 사용되는 서식 문자열 목록 중에서 선택할 수 있습니다. 
+**서식** 드롭다운에서 **사용자 지정** 을 선택하면 일반적으로 사용되는 서식 문자열 목록 중에서 선택할 수 있습니다. 
 
 ![사용자 지정 형식의 세부 정보를 보여 주는 스크린샷.](media/desktop-custom-format-strings/custom-format-strings-03.png)
 
@@ -41,7 +41,7 @@ ms.locfileid: "91600578"
 다음 표에서는 Power BI에서 지원되는 구문을 정의합니다.
 
 
-다음 표에서는 지원되는 **날짜 기호**를 보여 줍니다.
+다음 표에서는 지원되는 **날짜 기호** 를 보여 줍니다.
 
 | **기호** | **범위** |
 | --- | --- |
@@ -54,7 +54,7 @@ ms.locfileid: "91600578"
 | _yy_ | 00-99(연도의 마지막 두 자리) |
 | _yyyy_ | 100-9999(3자리 또는 4자리 연도) |
 
-다음 표에서는 지원되는 **시간 기호**를 보여 줍니다.
+다음 표에서는 지원되는 **시간 기호** 를 보여 줍니다.
 
 | **기호** | **범위** |
 | --- | --- |
@@ -81,7 +81,7 @@ ms.locfileid: "91600578"
 | **0** | &quot;Zero&quot; | &quot;&quot; | &quot;&quot; | 0.00 |
 | **1.234** | 1.23 | 1.23 | 1.23 | 1.23 |
 
-다음 표에서는 미리 정의된 **명명된 날짜 및 시간 서식**을 보여 줍니다.
+다음 표에서는 미리 정의된 **명명된 날짜 및 시간 서식** 을 보여 줍니다.
 
 | **서식 이름** | **설명** |
 | --- | --- |
@@ -93,7 +93,7 @@ ms.locfileid: "91600578"
 
 명명된 숫자 서식
 
-다음 표에서는 미리 정의된 **명명된 숫자 서식**을 보여 줍니다.
+다음 표에서는 미리 정의된 **명명된 숫자 서식** 을 보여 줍니다.
 
 | **서식 이름** | **설명** |
 | --- | --- |
@@ -106,7 +106,7 @@ ms.locfileid: "91600578"
 
 
 
-다음 표에서는 **사용자 정의 날짜/시간 서식**을 만드는 데 사용할 수 있는 문자를 보여 줍니다.
+다음 표에서는 **사용자 정의 날짜/시간 서식** 을 만드는 데 사용할 수 있는 문자를 보여 줍니다.
 
 | **문자** | **설명** |
 | --- | --- |
@@ -130,7 +130,7 @@ ms.locfileid: "91600578"
 | ss | 초를 선행 0 있는 숫자로 표시합니다(00-59). |
 | AM/PM | 12시간 시계를 사용하고 정오 이전의 모든 시간에 대문자 AM을 표시하고, 정오와 오후 11시 59분 사이의 모든 시간에 대문자 PM을 표시합니다. |
 
-다음 표에서는 **사용자 정의 숫자 서식**을 만드는 데 사용할 수 있는 문자를 나타냅니다.
+다음 표에서는 **사용자 정의 숫자 서식** 을 만드는 데 사용할 수 있는 문자를 나타냅니다.
 
 | **문자** | **설명** |
 | --- | --- |

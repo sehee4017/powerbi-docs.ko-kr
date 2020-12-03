@@ -1,20 +1,20 @@
 ---
 title: Power BI Desktop의 DAX 기본 사항
 description: Power BI Desktop의 DAX 기본 사항
-author: davidiseminger
+author: Minewiskan
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 10/21/2019
-ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 96c80fbbf943ad1d03e9a2172a0711f6fd2e60ad
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 522dccb6f4e6e3cf3422bc85ba9727c9160d9d80
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239894"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413843"
 ---
 # <a name="apply-dax-basics-in-power-bi-desktop"></a>Power BI Desktop의 DAX 기본 사항 적용
 이 문서는 Power BI Desktop을 처음 사용하는 사용자를 위한 것입니다. DAX(Data Analysis Expressions)를 사용하여 여러 가지 기본 계산 및 데이터 분석 문제를 해결하는 방법을 쉽고 빠르게 소개합니다. 또한 일부 개념 정보, 수행할 수 있는 일련의 작업, 배운 내용을 테스트하는 지식 점검을 살펴보겠습니다. 이 문서를 완료하면 DAX의 가장 중요한 기본 개념을 제대로 이해하고 있어야 합니다.
@@ -83,15 +83,15 @@ DAX 수식을 이해하려는 경우, 매일 생각하고 말하는 언어로 �
 
 1. Contoso Sales Sample Power BI Desktop 파일을 [다운로드](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20for%20Power%20BI%20Designer.zip)하고 엽니다. 
     
-2. 보고서 보기의 필드 목록에서 **Sales** 테이블을 마우스 오른쪽 단추로 클릭하고 **새 측정값**을 선택합니다.
+2. 보고서 보기의 필드 목록에서 **Sales** 테이블을 마우스 오른쪽 단추로 클릭하고 **새 측정값** 을 선택합니다.
     
-3. 수식 입력줄에 새 측정값 이름 *Previous Quarter Sales*를 입력하여 **측정값**을 바꿉니다.
+3. 수식 입력줄에 새 측정값 이름 *Previous Quarter Sales* 를 입력하여 **측정값** 을 바꿉니다.
     
-4. 등호 다음에 처음 몇 개의 문자 *CAL*을 입력한 다음, 사용할 함수를 두 번 클릭합니다. 이 수식에서는 **CALCULATE** 함수를 사용하려고 합니다.
+4. 등호 다음에 처음 몇 개의 문자 *CAL* 을 입력한 다음, 사용할 함수를 두 번 클릭합니다. 이 수식에서는 **CALCULATE** 함수를 사용하려고 합니다.
 
    CALCULATE 함수를 사용하여 CALCULATE 함수에 전달되는 인수로 합계를 계산할 금액을 필터링합니다. 이런 함수를 중첩 함수라고 합니다. CALCULATE 함수에는 둘 이상의 인수가 있습니다. 첫 번째는 계산할 식이고 두 번째는 필터입니다.
    
-5. **CALCULATE** 함수의 여는 괄호 *(* 다음에 *SUM*과 다른 여는 괄호 *(* 를 차례로 입력합니다. 
+5. **CALCULATE** 함수의 여는 괄호 *(* 다음에 *SUM* 과 다른 여는 괄호 *(* 를 차례로 입력합니다. 
 
    이제 SUM 함수에 인수를 전달하겠습니다.
 
@@ -99,7 +99,7 @@ DAX 수식을 이해하려는 경우, 매일 생각하고 말하는 언어로 �
 
    CALCULATE 함수에 대한 첫 번째 식 인수입니다.
     
-7. 쉼표( *,* ), 공백을 차례로 입력하여 첫 번째 필터를 지정하고 *PREVIOUSQUARTER*를 입력합니다. 
+7. 쉼표( *,* ), 공백을 차례로 입력하여 첫 번째 필터를 지정하고 *PREVIOUSQUARTER* 를 입력합니다. 
     
    PREVIOUSQUARTER 시간 인텔리전스 함수를 사용하여 이전 분기별로 SUM 결과를 필터링합니다.
     

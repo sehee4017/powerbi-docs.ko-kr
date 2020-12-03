@@ -2,19 +2,19 @@
 title: Power BI용 재무 샘플 Excel 통합 문서 다운로드
 description: Power BI용 재무 샘플 통합 문서 다운로드
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: amac
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: sample
 ms.date: 10/13/2020
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 46f6179edc63b0a865043674b22ffe88e813a3b4
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: fdad1975c35591267c9fa22b1d5c84dc9892be74
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92255965"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414947"
 ---
 # <a name="download-the-financial-sample-excel-workbook-for-power-bi"></a>Power BI용 재무 샘플 Excel 통합 문서 다운로드
 Power BI 서비스를 사용해 볼 데이터가 필요하나요? 샘플 재무 데이터의 간단한 Excel 통합 문서가 있습니다. 이 통합 문서에는 시장 부문과 국가별로 정렬된 판매 및 수익 데이터가 있습니다. 

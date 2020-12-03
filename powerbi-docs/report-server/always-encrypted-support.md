@@ -2,18 +2,18 @@
 title: Power BI Report Server에서 항상 암호화
 description: 이 문서에서는 Microsoft SQL Server 및 Microsoft Azure SQL Database와 같은 데이터 원본 유형을 사용할 때 Power BI Report Server에서 제공하는 Always Encrypted 지원에 대해 설명합니다.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: cfinlan
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2020
-ms.author: maggies
-ms.openlocfilehash: f921d9dbeb16d1b960e22f228f7833c8fbf184b4
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 4851a20ecd406ffe2a460ba52833cca420b517da
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861248"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415545"
 ---
 # <a name="always-encrypted-in-power-bi-report-server"></a>Power BI Report Server에서 항상 암호화
 
@@ -42,7 +42,7 @@ ms.locfileid: "90861248"
 
 ### <a name="column-encryption-strategy"></a>열 암호화 전략
 
-Power BI Report Server에서 열 암호화 전략은 *결정적*이거나 *임의*일 수 있습니다. 다음 테이블에서는 사용하는 전략에 따른 차이점을 비교합니다.
+Power BI Report Server에서 열 암호화 전략은 *결정적* 이거나 *임의* 일 수 있습니다. 다음 테이블에서는 사용하는 전략에 따른 차이점을 비교합니다.
 
 |사용  |결정적  |임의  |
 |---------|---------|---------|
@@ -57,11 +57,11 @@ Power BI Report Server에서 열 암호화 전략은 *결정적*이거나 *임�
 
 매개 변수 사용은 결정적 암호화에만 적용됩니다.
 
-**단일 값 매개 변수**입니다.  Always Encrypted 열에 대해 단일 값 매개 변수를 사용할 수 있습니다.
+**단일 값 매개 변수** 입니다.  Always Encrypted 열에 대해 단일 값 매개 변수를 사용할 수 있습니다.
 
-**다중 값 매개 변수**입니다. Always Encrypted 열에 대해 둘 이상의 값이 있는 다중 값 매개 변수를 사용할 수 없습니다.
+**다중 값 매개 변수** 입니다. Always Encrypted 열에 대해 둘 이상의 값이 있는 다중 값 매개 변수를 사용할 수 없습니다.
 
-**연계 매개 변수** 다음 *모두*가 참이라면 Always Encrypted와 함께 연계 매개 변수를 사용할 수 있습니다.
+**연계 매개 변수** 다음 *모두* 가 참이라면 Always Encrypted와 함께 연계 매개 변수를 사용할 수 있습니다.
 
 - 모든 Always Encrypted 열은 결정적 전략을 사용하여 항상 암호화되어야 합니다.
 - Always Encrypted 열에 사용되는 모든 매개 변수는 단일 값 매개 변수입니다.

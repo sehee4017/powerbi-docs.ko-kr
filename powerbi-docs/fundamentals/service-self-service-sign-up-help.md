@@ -1,18 +1,19 @@
 ---
 title: 셀프 서비스 등록 도움말
 description: 셀프 서비스 등록을 사용할 수 없는 경우 수행할 작업입니다. Power BI 서비스에 등록할 수 없습니다.
-services: powerbi
 author: mihart
 ms.author: mihart
+services: powerbi
 ms.topic: conceptual
 ms.service: powerbi
+ms.subservice: pbi-fundamentals
 ms.date: 07/01/2020
-ms.openlocfilehash: beb7b905836f72f2f01713e0fb50df818586c242
-ms.sourcegitcommit: 7d7bb755d5a5af30d2b0eab89fb56e4498514890
+ms.openlocfilehash: f70a0dae066056d9aa7bcc3f1d43200e1d8729ff
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85836973"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414142"
 ---
 # <a name="what-to-do-if-sign-up-is-disabled"></a>등록을 사용할 수 없는 경우 수행할 작업
 

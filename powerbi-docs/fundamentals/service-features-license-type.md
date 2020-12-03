@@ -2,20 +2,20 @@
 title: 라이선스 유형별 Power BI 서비스 기능
 description: Power BI 서비스에서 사용자가 보유한 사용자 단위 라이선스 유형(무료 또는 Pro) 및 조작하는 콘텐츠가 Power BI Premium 용량에 할당된 작업 영역에 있는지 여부에 따라 기능을 정의했습니다.
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 11/11/2020
-ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 48e382db2866187f4394cf8a60789604f3d900b7
-ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
+ms.openlocfilehash: 4c1b5256a411594521dcfe030af3490cd2e4780c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94512795"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414165"
 ---
 # <a name="power-bi-service-features-by-license-type"></a>라이선스 유형별 Power BI 서비스 기능
 

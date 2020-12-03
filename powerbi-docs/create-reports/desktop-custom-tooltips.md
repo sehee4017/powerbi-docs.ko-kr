@@ -2,19 +2,19 @@
 title: Power BI Desktop에서 도구 설명 사용자 지정
 description: 끌어서 놓기를 사용하여 시각적 개체에 대한 사용자 지정 도구 설명 만들기
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 01/15/2020
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a21bccb78df5ba84d3e9a7dc07d9d392c74c0153
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 18658937d1e53340f4bdd5075479bd2926f295bd
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231941"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414211"
 ---
 # <a name="customize-tooltips-in-power-bi-desktop"></a>Power BI Desktop에서 도구 설명 사용자 지정
 
@@ -30,13 +30,13 @@ ms.locfileid: "85231941"
 
 ![도구 설명 필드 추가](media/desktop-custom-tooltips/custom-tooltips-2.png)
 
-도구 설명이 **도구 설명**에 추가된 후 시각화의 데이터 요소를 마우스로 가리키면 해당 필드의 값이 표시됩니다.
+도구 설명이 **도구 설명** 에 추가된 후 시각화의 데이터 요소를 마우스로 가리키면 해당 필드의 값이 표시됩니다.
 
 ![사용자 지정 도구 설명](media/desktop-custom-tooltips/custom-tooltips-3.png)
 
 ## <a name="customizing-tooltips-with-aggregation-or-quick-measures"></a>집계 또는 빠른 측정으로 도구 설명 사용자 지정
 
-집계 함수 또는 *빠른 측정*을 선택하여 도구 설명을 추가로 사용자 지정할 수 있습니다. **도구 설명** 버킷의 필드 옆에 있는 화살표를 선택합니다. 그런 다음 사용할 수 있는 옵션 중에서 선택합니다.
+집계 함수 또는 *빠른 측정* 을 선택하여 도구 설명을 추가로 사용자 지정할 수 있습니다. **도구 설명** 버킷의 필드 옆에 있는 화살표를 선택합니다. 그런 다음 사용할 수 있는 옵션 중에서 선택합니다.
 
 ![빠른 측정을 포함한 도구 설명](media/desktop-custom-tooltips/custom-tooltips-4.png)
 

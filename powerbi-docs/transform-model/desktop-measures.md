@@ -2,34 +2,34 @@
 title: Power BI Desktop의 측정값
 description: Power BI Desktop에서 빠른 측정값과 DAX 구문을 포함하여 측정값 만들기 및 사용
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 01/29/2020
-ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 752e43fa3471419a76338f9db81f08a6180b6aba
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 78c883c28323d34ef4583b6b3bd04736f9654cbc
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238230"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414027"
 ---
 # <a name="create-measures-for-data-analysis-in-power-bi-desktop"></a>Power BI Desktop에서 데이터 분석을 위한 측정값 만들기
 
 Power BI Desktop에서는 몇 번의 클릭만으로 데이터에 대한 정보를 만들 수 있습니다. 그러나 가장 중요한 질문에 답변하는 데 필요한 모든 정보가 해당 데이터에 포함되지 않은 경우도 있습니다. 이러한 경우 측정값을 사용하면 도움이 될 수 있습니다.
 
-측정값은 가장 일반적인 데이터 분석에서 사용됩니다. 합계, 평균, 최솟값, 최댓값, 개수 등의 간단한 요약을 **필드**를 통해 설정할 수 있습니다. 측정값의 계산된 결과는 보고서 조작에 대한 응답으로 항상 변경되어 빠른 동적 임시 데이터 탐색이 가능합니다. 측정값에 대해 좀 더 자세히 살펴보겠습니다. 자세한 내용은 [측정값 만들기](/learn/modules/model-data-power-bi/4b-create-calculated-measures)를 참조하세요.
+측정값은 가장 일반적인 데이터 분석에서 사용됩니다. 합계, 평균, 최솟값, 최댓값, 개수 등의 간단한 요약을 **필드** 를 통해 설정할 수 있습니다. 측정값의 계산된 결과는 보고서 조작에 대한 응답으로 항상 변경되어 빠른 동적 임시 데이터 탐색이 가능합니다. 측정값에 대해 좀 더 자세히 살펴보겠습니다. 자세한 내용은 [측정값 만들기](/learn/modules/model-data-power-bi/4b-create-calculated-measures)를 참조하세요.
 
 ## <a name="understanding-measures"></a>측정값 이해
 
-Power BI Desktop에서 측정값은 *보고서 보기* 또는 *데이터 보기*에서 만들고 표시합니다. 사용자가 직접 만든 측정값은 계산기 아이콘과 함께 **필드** 목록에 나타납니다. 측정값에 원하는 대로 이름을 지정하고 다른 모든 필드처럼 새 시각화나 기존 시각화에 추가할 수 있습니다.
+Power BI Desktop에서 측정값은 *보고서 보기* 또는 *데이터 보기* 에서 만들고 표시합니다. 사용자가 직접 만든 측정값은 계산기 아이콘과 함께 **필드** 목록에 나타납니다. 측정값에 원하는 대로 이름을 지정하고 다른 모든 필드처럼 새 시각화나 기존 시각화에 추가할 수 있습니다.
 
 ![필드의 측정값 필드](media/desktop-measures/measuresinpbid_measinfieldlist.png)
 
 > [!NOTE]
-> 대화 상자에서 선택할 수 있는 이미 작성된 측정인 *빠른 측정*에도 관심이 있을 수 있습니다. 빠른 측정은 자동으로 생성된 DAX 수식을 검토할 수 있으므로 측정을 신속하게 작성하고 DAX(Data Analysis Expressions) 구문을 익힐 좋은 방법입니다. 자세한 내용은 [빠른 측정](desktop-quick-measures.md)을 참조하세요.
+> 대화 상자에서 선택할 수 있는 이미 작성된 측정인 *빠른 측정* 에도 관심이 있을 수 있습니다. 빠른 측정은 자동으로 생성된 DAX 수식을 검토할 수 있으므로 측정을 신속하게 작성하고 DAX(Data Analysis Expressions) 구문을 익힐 좋은 방법입니다. 자세한 내용은 [빠른 측정](desktop-quick-measures.md)을 참조하세요.
 > 
 > 
 
@@ -43,9 +43,9 @@ DAX 수식은 Excel 수식과 매우 유사합니다. DAX에는 `DATE`, `SUM`, `
 
 Jan은 Contoso의 판매 관리자입니다. Jan은 다음 회계 연도의 재판매인 판매 예상액을 제공해달라는 요청을 받았습니다. 따라서 작년의 판매액을 기준으로 예측하기로 결정하고 다음 6개월 동안 예정된 다양한 프로모션의 결과로 판매액이 연간 6% 증가할 것으로 판단합니다.
 
-Jan은 예상액을 보고하기 위해 작년의 판매 데이터를 Power BI Desktop으로 가져옵니다. Jan은 **Reseller Sales** 테이블에서 **SalesAmount** 필드를 찾습니다. 가져온 데이터에 작년의 판매액만 포함되어 있으므로 Jan은 **SalesAmount** 필드의 이름을 *Last Years Sales*로 바꿉니다. 그런 다음, **Last Years Sales**를 보고서 캔버스로 끌어옵니다. 해당 필드가 차트 시각화에서 작년의 모든 대리점 판매액의 합계인 단일 값으로 나타납니다.
+Jan은 예상액을 보고하기 위해 작년의 판매 데이터를 Power BI Desktop으로 가져옵니다. Jan은 **Reseller Sales** 테이블에서 **SalesAmount** 필드를 찾습니다. 가져온 데이터에 작년의 판매액만 포함되어 있으므로 Jan은 **SalesAmount** 필드의 이름을 *Last Years Sales* 로 바꿉니다. 그런 다음, **Last Years Sales** 를 보고서 캔버스로 끌어옵니다. 해당 필드가 차트 시각화에서 작년의 모든 대리점 판매액의 합계인 단일 값으로 나타납니다.
 
-Jan은 계산을 지정하지 않았지만 계산이 자동으로 제공되었음을 확인합니다. Power BI Desktop에서 **Last Years Sales**의 값을 모두 합하여 측정값을 직접 만들었습니다.
+Jan은 계산을 지정하지 않았지만 계산이 자동으로 제공되었음을 확인합니다. Power BI Desktop에서 **Last Years Sales** 의 값을 모두 합하여 측정값을 직접 만들었습니다.
 
 하지만 Jan은 다음 해의 판매 예상액을 계산하는 측정값이 필요하며, 이 값은 6% 예상 증가를 고려하여 작년의 판매액에 1.06을 곱한 값을 기준으로 합니다. 이 계산을 위해 Jan은 측정값을 만듭니다. *새 측정값* 기능을 사용하여 새 측정값을 만들고 다음과 같은 DAX 수식을 입력합니다.
 
@@ -73,15 +73,15 @@ Jan은 계산을 지정하지 않았지만 계산이 자동으로 제공되었�
 
 ![측정값에 대한 테이블 선택](media/desktop-measures/measures-03.png)
 
-테이블의 필드를 *표시 폴더*로 구성할 수도 있습니다. Power BI Desktop 왼쪽 가장자리에서 **모델**을 선택합니다. **속성** 창의 사용 가능한 필드 목록에서 이동하려는 필드를 선택합니다. **표시 폴더**에서 새 폴더의 이름을 입력하여 폴더를 만듭니다. 폴더를 만들면 선택한 필드가 해당 폴더로 이동됩니다.
+테이블의 필드를 *표시 폴더* 로 구성할 수도 있습니다. Power BI Desktop 왼쪽 가장자리에서 **모델** 을 선택합니다. **속성** 창의 사용 가능한 필드 목록에서 이동하려는 필드를 선택합니다. **표시 폴더** 에서 새 폴더의 이름을 입력하여 폴더를 만듭니다. 폴더를 만들면 선택한 필드가 해당 폴더로 이동됩니다.
 
 ![측정값에 사용할 필드 만들기](media/desktop-measures/measures-04.gif)
 
-백슬래시 문자를 사용하여 하위 폴더를 만들 수 있습니다. 예를 들어, *Finance\Currencies*는 *Finance* 폴더를 만들고 그 안에 *Currencies* 폴더를 만듭니다.
+백슬래시 문자를 사용하여 하위 폴더를 만들 수 있습니다. 예를 들어, *Finance\Currencies* 는 *Finance* 폴더를 만들고 그 안에 *Currencies* 폴더를 만듭니다.
 
-세미콜론으로 폴더 이름을 구분하여 여러 폴더에 필드를 표시할 수 있습니다. 예를 들어 *Products\Names;Departments*는 *Departments* 폴더와 *Products* 폴더 내 *Names* 폴더에 필드를 표시합니다.
+세미콜론으로 폴더 이름을 구분하여 여러 폴더에 필드를 표시할 수 있습니다. 예를 들어 *Products\Names;Departments* 는 *Departments* 폴더와 *Products* 폴더 내 *Names* 폴더에 필드를 표시합니다.
 
-측정값만 포함하는 특수 테이블을 만들 수 있습니다. 이 테이블은 항상 **필드** 맨 위에 나타납니다. 이렇게 하려면 열이 하나만 있는 테이블을 만듭니다. **데이터 입력**을 사용하여 해당 테이블을 만들 수 있습니다. 그런 다음 측정값을 해당 테이블로 이동합니다. 마지막으로, 앞에서 만든 열은 숨기되 테이블은 숨기지 않습니다. **필드** 맨 위에 있는 화살표를 선택하여 필드 목록을 닫고 다시 열어서 변경 사항을 확인합니다.
+측정값만 포함하는 특수 테이블을 만들 수 있습니다. 이 테이블은 항상 **필드** 맨 위에 나타납니다. 이렇게 하려면 열이 하나만 있는 테이블을 만듭니다. **데이터 입력** 을 사용하여 해당 테이블을 만들 수 있습니다. 그런 다음 측정값을 해당 테이블로 이동합니다. 마지막으로, 앞에서 만든 열은 숨기되 테이블은 숨기지 않습니다. **필드** 맨 위에 있는 화살표를 선택하여 필드 목록을 닫고 다시 열어서 변경 사항을 확인합니다.
 
 ![측정값을 구성하고 필드 목록의 맨 위에 유지](media/desktop-measures/measures-05.png)
 

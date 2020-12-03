@@ -2,16 +2,16 @@
 title: 소비자 학습 카탈로그
 description: 보고서와 대시보드를 사용하는 소비자를 위한 기초부터 고급까지 Power BI의 모든 학습 옵션을 찾아보세요.
 author: margoc
+ms.author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: margoc
-ms.openlocfilehash: 4a4190dd8a1f17c1a49eca09e6c673a102ae0924
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 8a40d11c9bf2a8ee09e879912d2bd2de0da327ee
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749417"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414809"
 ---
 # <a name="consumers-learning-catalog"></a>소비자 학습 카탈로그
 

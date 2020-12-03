@@ -2,22 +2,22 @@
 title: Power BI Desktop의 데이터 분류
 description: Power BI Desktop의 데이터 분류
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 01/15/2020
-ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 414f58338a53ce9ff24f193acd3cee0da2c30658
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: d99eb0355d414a9e1627da0b5629eaf45cbaf18d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215325"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415798"
 ---
 # <a name="specify-data-categories-in-power-bi-desktop"></a>Power BI Desktop에서 데이터 범주 지정
-Power BI Desktop에서는 열의 *데이터 범주*를 지정하여 시각화에서 해당 값을 처리하는 방식을 Power BI Desktop에 알려줄 수 있습니다.
+Power BI Desktop에서는 열의 *데이터 범주* 를 지정하여 시각화에서 해당 값을 처리하는 방식을 Power BI Desktop에 알려줄 수 있습니다.
 
 Power BI Desktop에서 데이터를 가져올 때는 데이터 자체가 아닌 테이블과 열 이름과 같은 다른 정보와 데이터가 기본 키인지 여부와 같은 정보를 가져옵니다. 이 정보로 Power BI Desktop이 시각화를 만들 때 어떻게 좋은 기본 환경을 만들 수 있는지를 짐작할 수 있습니다.
 예를 들어 열에 숫자 값이 있는 경우 사용자가 어떤 방식으로든 열을 집계하려고 한다고 가정하고 Power BI Desktop이 열을 **시각화** 창의 **값** 영역에 배치합니다. 또는 꺾은선형 차트에 날짜 시간 값이 있는 경우 Power BI Desktop에서는 시간 계층 구조 축으로 사용한다고 가정합니다.

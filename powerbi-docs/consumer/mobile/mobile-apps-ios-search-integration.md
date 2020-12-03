@@ -2,18 +2,18 @@
 title: Power BI와 iOS 디바이스 검색 연결
 description: 디바이스 검색(스포트라이트)을 사용하여 필요한 콘텐츠 찾기 및 액세스
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: f3832e3fa452c68e30852c476a5149ff7bc5e470
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c289395e5d5529c7951b9102722999dfe22d699e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232885"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414579"
 ---
 # <a name="ios-device-search-spotlight-integration-with-power-bi-mobile-ios-app-preview"></a>Power BI Mobile iOS 앱과 iOS 디바이스 검색(스포트라이트) 연결(미리 보기)
 iOS 디바이스 검색을 사용하여 필요한 콘텐츠를 찾고 액세스합니다.
@@ -44,7 +44,7 @@ Siri가 제공하는 디바이스 검색에는 Power BI 앱에서 자주 수행�
 
 >[!NOTE]
 >
->디바이스 검색 및 Siri 제안을 비활성화하려면 **디바이스 설정** > **Power BI 설정** > **Siri 및 검색**으로 이동하여 **Siri & 제안** 설정을 비활성화합니다.
+>디바이스 검색 및 Siri 제안을 비활성화하려면 **디바이스 설정** > **Power BI 설정** > **Siri 및 검색** 으로 이동하여 **Siri & 제안** 설정을 비활성화합니다.
 >
 
 ## <a name="next-steps"></a>다음 단계

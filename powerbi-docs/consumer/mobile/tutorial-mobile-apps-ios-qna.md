@@ -2,18 +2,18 @@
 title: '자습서:  iOS 앱의 질문 및 답변 가상 분석가에게 질문하기'
 description: 이 자습서에서는 iOS 디바이스의 Power BI 모바일 앱에서 질문 및 답변 가상 분석가를 사용하여 사용자 고유의 단어로 샘플 데이터에 대해 질문합니다.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: tutorial
 ms.date: 11/26/2019
-ms.author: painbar
-ms.openlocfilehash: 3b84cf4969df05d4e9570b12a80436bca3e280be
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 6d69f4527b838136b54ccfbad43d27fa247804d9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668324"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415292"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>자습서:  Power BI iOS 앱의 질문 및 답변 가상 분석가를 통해 데이터에 대해 질문하기
 
@@ -43,7 +43,7 @@ ms.locfileid: "91668324"
   * iOS 11 이상이 설치된 iPad
   * iOS 11 이상이 설치된 iPhone 5 이상 
   * iOS 11 이상이 설치된 iPod Touch
-* **샘플 데이터 다운로드**: 첫 번째 단계는 Power BI 서비스에 **기회 분석 샘플**을 다운로드하는 것입니다. 이 작업을 수행하는 방법에 대한 지침은 [Power BI 서비스에서 내 작업 영역으로 샘플 다운로드](./mobile-apps-download-samples.md)를 참조하세요.
+* **샘플 데이터 다운로드**: 첫 번째 단계는 Power BI 서비스에 **기회 분석 샘플** 을 다운로드하는 것입니다. 이 작업을 수행하는 방법에 대한 지침은 [Power BI 서비스에서 내 작업 영역으로 샘플 다운로드](./mobile-apps-download-samples.md)를 참조하세요.
 
 
 필수 조건을 완료하고 샘플 데이터를 다운로드했으면 iOS 디바이스에서 샘플을 볼 수 있습니다.
@@ -66,9 +66,9 @@ ms.locfileid: "91668324"
 
     ![질문 및 답변 가상 분석가 제안](./media/tutorial-mobile-apps-ios-qna/power-bi-qna-suggestions.png)
 
-3. **featured insights**를 탭합니다.
+3. **featured insights** 를 탭합니다.
 
-4. 질문 및 답변 가상 분석가에서 몇 가지 정보를 제안합니다. 오른쪽으로 스크롤하고 **insight 2**를 탭합니다.
+4. 질문 및 답변 가상 분석가에서 몇 가지 정보를 제안합니다. 오른쪽으로 스크롤하고 **insight 2** 를 탭합니다.
 
     ![추천 인사이트](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-suggest-insight-2.png)
 
@@ -88,7 +88,7 @@ ms.locfileid: "91668324"
 
 1. Power BI 서비스([Power BI 서비스](https://app.powerbi.com))를 열고 로그인합니다.
 
-2. 탐색 창에서 **내 작업 영역**을 선택합니다.
+2. 탐색 창에서 **내 작업 영역** 을 선택합니다.
 
 3. 대시보드 탭을 클릭한 다음, 기회 분석 샘플 줄에서 휴지통을 클릭합니다.
 
@@ -96,7 +96,7 @@ ms.locfileid: "91668324"
 
     이제 보고서 탭을 선택하고 동일한 작업을 수행합니다.
 
-4. 이제 데이터 세트 탭을 선택하고 **기타 옵션**(...)을 클릭한 다음, **삭제**를 선택합니다.
+4. 이제 데이터 세트 탭을 선택하고 **기타 옵션**(...)을 클릭한 다음, **삭제** 를 선택합니다.
 
     ![데이터 세트가 선택되고 추가 옵션 메뉴에서 삭제가 선택된 Power BI 작업 영역을 보여 주는 스크린샷.](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample-datasets.png)
 

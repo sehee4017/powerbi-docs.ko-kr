@@ -2,18 +2,18 @@
 title: Azure 애플리케이션 프록시를 사용하여 Power BI Report Server 구성
 description: Azure Active Directory 애플리케이션 프록시를 사용하여 Power BI Report Server를 구성하는 방법을 알아봅니다.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 07/28/2020
-ms.author: maggies
-ms.openlocfilehash: 60287bfde79c918250037ccc03781e7cb47d6320
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 795b2e7e1b9ef0c705f7240e9a20a5c2da2f81a3
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634231"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414924"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>Azure 애플리케이션 프록시를 사용하여 Power BI Report Server 구성
 
@@ -33,7 +33,7 @@ Azure VM에서 Power BI Report Server를 설치한 후 다음 단계를 사용�
 
 1. 포트 80(https URL을 구성한 경우 포트 443)에 대한 VM 방화벽에서 인바운드 및 아웃바운드 규칙을 만듭니다. 또한 TCP 프로토콜에 대해 Azure Portal에서 Azure VM에 대한 인바운드 및 아웃바운드 규칙을 만듭니다(포트 80).
 2. 작업 환경에서 VM에 대해 구성된 DNS 이름은 `pbirsazureapp.eastus.cloudapp.azure.com`입니다.
-3. **고급** 탭 > **추가** 단추 > **호스트 헤더 이름 선택**을 선택하고 표시된 대로 호스트 이름(DNS 이름)을 추가하여 Power BI Report Server 외부 웹 서비스 및 웹 포털 URL을 구성합니다.
+3. **고급** 탭 > **추가** 단추 > **호스트 헤더 이름 선택** 을 선택하고 표시된 대로 호스트 이름(DNS 이름)을 추가하여 Power BI Report Server 외부 웹 서비스 및 웹 포털 URL을 구성합니다.
 
     ![보고서 서버 구성 관리자](media/azure-application-proxy/report-server-configuration-manager.png)
 
@@ -85,7 +85,7 @@ RSWindowsNegotiate가 표시되어 있고 인증 형식 목록에서 첫 번째�
 
 관리자 권한으로 명령 프롬프트를 열고 다음 단계를 수행합니다.
 
-다음 명령을 사용하여 계정 **Power BI Report Server 서비스 계정**에 다음 SPN을 등록합니다.
+다음 명령을 사용하여 계정 **Power BI Report Server 서비스 계정** 에 다음 SPN을 등록합니다.
 
 ```
 setspn -s http/ Netbios name\_of\_Power BI Report Server\_server<space> Power BI Report Server\_ServiceAccount
@@ -108,18 +108,18 @@ Report Server 서비스 계정에 대한 위임 설정을 구성해야 합니다
 1. Active Directory 사용자 및 컴퓨터를 엽니다.
 2. Active Directory 사용자 및 컴퓨터 내에서 Report Server 서비스 계정의 속성을 엽니다.
 3. 프로토콜 전송을 사용하여 제한된 위임을 구성하려고 합니다. 제한된 위임을 사용하여 위임하려고 하는 서비스를 노출해야 합니다.
-4. **Report Server 서비스 계정**을 마우스 오른쪽 단추로 클릭하고 **속성**을 선택합니다.
+4. **Report Server 서비스 계정** 을 마우스 오른쪽 단추로 클릭하고 **속성** 을 선택합니다.
 5. **위임** 탭을 선택합니다.
-6. **지정한 서비스에 대한 위임용으로만 이 사용자 트러스트**를 선택합니다.
-7. **모든 인증 프로토콜 사용**을 선택합니다.
-8. **이 계정이 위임된 자격 증명을 표시할 수 있는 서비스**에서 **추가**를 선택합니다.
-9. 새 대화 상자에서 **사용자 또는 컴퓨터**를 선택합니다.
-10. **SQL Server 서비스의 서비스 계정**을 입력하고 **확인**을 선택합니다.
+6. **지정한 서비스에 대한 위임용으로만 이 사용자 트러스트** 를 선택합니다.
+7. **모든 인증 프로토콜 사용** 을 선택합니다.
+8. **이 계정이 위임된 자격 증명을 표시할 수 있는 서비스** 에서 **추가** 를 선택합니다.
+9. 새 대화 상자에서 **사용자 또는 컴퓨터** 를 선택합니다.
+10. **SQL Server 서비스의 서비스 계정** 을 입력하고 **확인** 을 선택합니다.
 
     MSSQLSVC로 시작됩니다.
 
 1. SPN을 추가합니다.
-2. **확인**을 선택합니다. 이제 목록에서 SPN이 표시됩니다.
+2. **확인** 을 선택합니다. 이제 목록에서 SPN이 표시됩니다.
 
 이러한 단계는 Kerberos 인증 메커니즘을 사용하도록 Power BI Report Server를 구성하고 로컬 머신에서 작동하는 데이터 원본에 대한 테스트 연결을 설정하는 데 유용합니다.
 
@@ -137,14 +137,14 @@ Power BI Report Server에 애플리케이션 프록시 커넥터를 설치했지
 
 KCD를 구성하려면 각 커넥터 컴퓨터에 대해 다음 단계를 반복합니다.
 
-1. 도메인 관리자로 도메인 컨트롤러에 로그인하고 **Active Directory 사용자 및 컴퓨터**를 엽니다.
+1. 도메인 관리자로 도메인 컨트롤러에 로그인하고 **Active Directory 사용자 및 컴퓨터** 를 엽니다.
 2. 커넥터가 실행 중인 컴퓨터를 찾습니다.
 3. 컴퓨터를 두 번 클릭한 후 **위임** 탭을 선택합니다.
-4. 위임 설정이 **지정된 서비스에 대한 위임용으로만 이 컴퓨터 트러스트**로 설정되어 있는지 확인합니다. 그런 다음, **모든 인증 프로토콜 사용**을 선택합니다.
-5. **추가**를 선택하고 **사용자 또는 컴퓨터**를 선택합니다.
+4. 위임 설정이 **지정된 서비스에 대한 위임용으로만 이 컴퓨터 트러스트** 로 설정되어 있는지 확인합니다. 그런 다음, **모든 인증 프로토콜 사용** 을 선택합니다.
+5. **추가** 를 선택하고 **사용자 또는 컴퓨터** 를 선택합니다.
 6. Power BI Report Server에 사용할 서비스 계정을 입력합니다. 이 계정은 보고서 서버 구성 내에서 SPN을 추가한 계정입니다.
-7. **확인**을 클릭합니다. 
-8. 변경 내용을 저장하려면 **확인**을 다시 클릭합니다.
+7. **확인** 을 클릭합니다. 
+8. 변경 내용을 저장하려면 **확인** 을 다시 클릭합니다.
 
 ## <a name="publish-through-azure-ad-application-proxy"></a>Azure AD 애플리케이션 프록시를 통해 게시
 
@@ -169,7 +169,7 @@ KCD를 구성하려면 각 커넥터 컴퓨터에 대해 다음 단계를 반복
 **추가 설정** 섹션에서 어떤 변경도 수행하지 않았습니다. 기본 옵션을 사용하도록 구성되어 있습니다.
 
 > [!IMPORTANT]
-> 애플리케이션 프록시를 구성하는 경우 **백 엔드 애플리케이션 시간 제한** 속성이 **기본값**(85초)으로 설정되어 있는지 확인합니다. 실행하는 데 85초 이상 걸리는 보고서가 있는 경우 이 속성을 가능한 최대 시간 제한 값인 **장기**(180초)로 설정합니다. **장기**로 구성하면 모든 보고서는 180초 내에 완료되어야 합니다. 그렇지 않으면 시간 제한으로 인해 오류가 발생합니다.
+> 애플리케이션 프록시를 구성하는 경우 **백 엔드 애플리케이션 시간 제한** 속성이 **기본값**(85초)으로 설정되어 있는지 확인합니다. 실행하는 데 85초 이상 걸리는 보고서가 있는 경우 이 속성을 가능한 최대 시간 제한 값인 **장기**(180초)로 설정합니다. **장기** 로 구성하면 모든 보고서는 180초 내에 완료되어야 합니다. 그렇지 않으면 시간 제한으로 인해 오류가 발생합니다.
 
 ![추가 설정](media/azure-application-proxy/report-server-application-proxy-1.png)
 
@@ -177,37 +177,37 @@ KCD를 구성하려면 각 커넥터 컴퓨터에 대해 다음 단계를 반복
 
 앱이 게시된 후에는 다음 단계에 따라 Single Sign-On 설정을 구성합니다.
 
-1. 포털의 애플리케이션 페이지에서 **Single Sign-On**을 선택합니다.
-2. **Single Sign-On 모드**로 **Windows 통합 인증**을 선택합니다.
-3. **내부 애플리케이션 SPN**을 이전에 설정한 값으로 설정합니다. 다음 단계를 사용하여 이 값을 식별할 수 있습니다.
+1. 포털의 애플리케이션 페이지에서 **Single Sign-On** 을 선택합니다.
+2. **Single Sign-On 모드** 로 **Windows 통합 인증** 을 선택합니다.
+3. **내부 애플리케이션 SPN** 을 이전에 설정한 값으로 설정합니다. 다음 단계를 사용하여 이 값을 식별할 수 있습니다.
 
     - Kerberos 티켓이 만들어지도록 보고서를 실행 하거나 데이터 원본에 대한 테스트 연결을 수행합니다.
     - 보고서/테스트 연결을 성공적으로 실행한 후 명령 프롬프트를 열고 `klist` 명령을 실행합니다. 결과 섹션에 `http/` SPN이 포함된 티켓이 표시됩니다. 이 SPN이 Power BI Report Server로 구성한 SPN과 동일한 경우 이 섹션에서 해당 SPN을 사용합니다.
 
-1. 커넥터에 대한 **위임된 로그인 ID**를 선택하여 사용자를 대신하여 사용합니다. 자세한 내용은 [다른 온-프레미스 및 클라우드 ID로 작업](/azure/active-directory/manage-apps/application-proxy-configure-single-sign-on-with-kcd#working-with-different-on-premises-and-cloud-identities)을 참조하세요.
+1. 커넥터에 대한 **위임된 로그인 ID** 를 선택하여 사용자를 대신하여 사용합니다. 자세한 내용은 [다른 온-프레미스 및 클라우드 ID로 작업](/azure/active-directory/manage-apps/application-proxy-configure-single-sign-on-with-kcd#working-with-different-on-premises-and-cloud-identities)을 참조하세요.
 
     사용자 계정 이름을 사용하는 것이 좋습니다. 이 샘플에서는 **사용자 계정 이름** 옵션을 사용하도록 구성했습니다.
 
     ![Windows 통합 인증 구성](media/azure-application-proxy/report-server-configure-iwa.png)
 
-1. **저장**을 클릭하여 변경 내용을 저장합니다.
+1. **저장** 을 클릭하여 변경 내용을 저장합니다.
 
 ### <a name="finish-setting-up-your-application"></a>애플리케이션 설정 완료
 
 애플리케이션 설정을 완료하려면 **사용자 및 그룹** 섹션으로 이동하고 이 애플리케이션에 액세스할 사용자를 할당합니다.
 
-1. **리디렉션 URL** 및 **고급 설정**에 대해 다음과 같이 Power BI Report Server 애플리케이션에 대한 앱 등록의 **인증** 섹션을 구성합니다.
+1. **리디렉션 URL** 및 **고급 설정** 에 대해 다음과 같이 Power BI Report Server 애플리케이션에 대한 앱 등록의 **인증** 섹션을 구성합니다.
 
     - 새 리디렉션 URL을 만들고 **형식** = **웹** 및 **리디렉션 URI** = `https://pbirsazureapp-umacontoso2410.msappproxy.net/`을 지정하여 구성합니다.
-    - **고급 설정** 섹션에서 **로그아웃 URL**을 `https://pbirsazureapp-umacontoso2410.msappproxy.net/?Appproxy=logout`로 구성합니다.
+    - **고급 설정** 섹션에서 **로그아웃 URL** 을 `https://pbirsazureapp-umacontoso2410.msappproxy.net/?Appproxy=logout`로 구성합니다.
 
     ![리디렉션 URI와 고급 설정이 있는 PBIRS 인증 창을 보여 주는 스크린샷.](media/azure-application-proxy/azure-report-server-authentication-1.png)
 
-1. **암시적 권한 부여**, **기본 클라이언트 유형** 및 **지원되는 계정 유형**에 대해 다음을 지정하여 Power BI Report Server 애플리케이션에 대한 앱 등록 **인증** 섹션을 계속 구성합니다.
+1. **암시적 권한 부여**, **기본 클라이언트 유형** 및 **지원되는 계정 유형** 에 대해 다음을 지정하여 Power BI Report Server 애플리케이션에 대한 앱 등록 **인증** 섹션을 계속 구성합니다.
 
-    - **암시적 권한 부여**를 **ID 토큰**으로 설정합니다.
-    - **기본 클라이언트 유형**을 **아니요**로 설정합니다.
-    - **지원되는 계정 유형**을 **이 조직 디렉터리의 계정만(UmaContoso만 – 단일 테넌트)** 으로 설정합니다.
+    - **암시적 권한 부여** 를 **ID 토큰** 으로 설정합니다.
+    - **기본 클라이언트 유형** 을 **아니요** 로 설정합니다.
+    - **지원되는 계정 유형** 을 **이 조직 디렉터리의 계정만(UmaContoso만 – 단일 테넌트)** 으로 설정합니다.
 
     ![설명된 대로 설정이 포함된 PBIRS 인증 창을 보여 주는 스크린샷.](media/azure-application-proxy/azure-report-server-authentication-2.png)
 
@@ -218,7 +218,7 @@ KCD를 구성하려면 각 커넥터 컴퓨터에 대해 다음 단계를 반복
 
     [자습서: Azure App Service에 기존 사용자 지정 DNS 이름 매핑](/Azure/app-service/app-service-web-tutorial-custom-domain)을 참조하세요.
 
-1. 사용자 지정 도메인에 대한 DNS 항목을 성공적으로 확인한 후에는 포털에서 도메인에 해당하는 상태가 **확인됨**으로 표시되는 것을 볼 수 있습니다.
+1. 사용자 지정 도메인에 대한 DNS 항목을 성공적으로 확인한 후에는 포털에서 도메인에 해당하는 상태가 **확인됨** 으로 표시되는 것을 볼 수 있습니다.
 
     ![도메인 이름](media/azure-application-proxy/azure-ad-custom-domain-names.png)
 
@@ -238,7 +238,7 @@ KCD를 구성하려면 각 커넥터 컴퓨터에 대해 다음 단계를 반복
 
     ![Active Directory 속성](media/azure-application-proxy/active-directory-user-properties.png)
 
-1. AD 동기화가 성공적으로 완료되면 Azure Portal에서 애플리케이션의 **사용자 및 그룹** 섹션 아래에 온-프레미스 AD 계정이 표시됩니다. 계정에 대한 원본은 **Windows Server AD**입니다.
+1. AD 동기화가 성공적으로 완료되면 Azure Portal에서 애플리케이션의 **사용자 및 그룹** 섹션 아래에 온-프레미스 AD 계정이 표시됩니다. 계정에 대한 원본은 **Windows Server AD** 입니다.
 2. `umasm@umacontoso.com`을 사용하여 로그인하는 것은 Windows 자격 증명 `Umacontoso\umasm`을 사용하는 것과 같습니다.
 
     온-프레미스 AD를 구성하고 Azure AD와 동기화하려는 경우 이러한 이전 단계가 적용됩니다.
@@ -261,19 +261,19 @@ KCD를 구성하려면 각 커넥터 컴퓨터에 대해 다음 단계를 반복
 
 Power BI 모바일 앱이 Power BI Report Server에 연결되고 액세스할 수 있으려면 이 문서의 앞부분에 나오는 [Azure AD 애플리케이션 프록시를 통해 게시](#publish-through-azure-ad-application-proxy)에서 자동으로 만들어진 애플리케이션 등록을 구성해야 합니다.
 
-1. Azure Active Directory **개요** 페이지에서 **앱 등록**을 선택합니다.
+1. Azure Active Directory **개요** 페이지에서 **앱 등록** 을 선택합니다.
 2. **모든 애플리케이션** 탭에서 Power BI Report Server용을 만든 애플리케이션을 검색합니다.
-3. 해당 애플리케이션을 선택한 다음, **인증**을 선택합니다.
+3. 해당 애플리케이션을 선택한 다음, **인증** 을 선택합니다.
 4. 사용 중인 플랫폼에 따라 다음 리디렉션 URI를 추가합니다.
 
-    Power BI Mobile **iOS**용 앱을 구성하는 경우 퍼블릭 클라이언트(모바일 및 데스크톱) 형식의 다음 리디렉션 URI를 추가합니다.
+    Power BI Mobile **iOS** 용 앱을 구성하는 경우 퍼블릭 클라이언트(모바일 및 데스크톱) 형식의 다음 리디렉션 URI를 추가합니다.
 
     - `msauth://code/mspbi-adal%3a%2f%2fcom.microsoft.powerbimobile`
     - `msauth://code/mspbi-adalms%3a%2f%2fcom.microsoft.powerbimobilems`
     - `mspbi-adal://com.microsoft.powerbimobile`
     - `mspbi-adalms://com.microsoft.powerbimobilems`
 
-    Power BI Mobile **Android**용 앱을 구성하는 경우 퍼블릭 클라이언트 유형(모바일 및 데스크톱)의 다음 리디렉션 URI를 추가합니다.
+    Power BI Mobile **Android** 용 앱을 구성하는 경우 퍼블릭 클라이언트 유형(모바일 및 데스크톱)의 다음 리디렉션 URI를 추가합니다.
 
     - `urn:ietf:wg:oauth:2.0:oob`
     - `mspbi-adal://com.microsoft.powerbimobile`
@@ -289,9 +289,9 @@ Power BI 모바일 앱이 Power BI Report Server에 연결되고 액세스할 �
 
 ### <a name="connect-from-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 연결
 
-1. Power BI 모바일 앱에서 보고서 서버 인스턴스에 연결합니다. 연결하려면 애플리케이션 프록시를 통해 게시한 애플리케이션의 **외부 URL**을 입력합니다.
-2. **연결**을 선택합니다. Azure Active Directory 로그인 페이지로 이동됩니다.
-3. 사용자에 대한 올바른 자격 증명을 입력하고 **로그인**을 선택합니다. 보고서 서버의 요소가 표시됩니다.
+1. Power BI 모바일 앱에서 보고서 서버 인스턴스에 연결합니다. 연결하려면 애플리케이션 프록시를 통해 게시한 애플리케이션의 **외부 URL** 을 입력합니다.
+2. **연결** 을 선택합니다. Azure Active Directory 로그인 페이지로 이동됩니다.
+3. 사용자에 대한 올바른 자격 증명을 입력하고 **로그인** 을 선택합니다. 보고서 서버의 요소가 표시됩니다.
 
 ## <a name="next-steps"></a>다음 단계
 

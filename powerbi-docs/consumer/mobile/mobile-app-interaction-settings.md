@@ -2,18 +2,18 @@
 title: 보고서 상호 작용 설정 구성
 description: 보고서의 기본 상호 작용 설정을 재정의하는 방법에 대해 알아봅니다.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/08/2020
-ms.author: painbar
-ms.openlocfilehash: 67f34bfe04599ffa7d9f9f2c2c3d13545b4306ac
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: fdafc1cd5804bf62a715dc4161ce853c2690ce3a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635266"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414648"
 ---
 # <a name="configure-report-interaction-settings"></a>보고서 상호 작용 설정 구성
 
@@ -28,7 +28,7 @@ Power BI 모바일 앱에는 사용자가 데이터를 조작하는 방법을 �
 | [고정 및 동적 보고서 바닥글](#docked-report-footer) |✔|✔|||
 | [단추로 시작되는 보고서 새로 고침과 당겨서 새로 고침](#report-refresh) |✔||||
 
-상호 작용 설정에 대한 자세한 내용을 보려면 프로필 사진을 탭하여 [사이드 패널](./mobile-apps-home-page.md#header)을 열고 **설정**을 선택한 다음 **상호 작용** 섹션을 찾습니다.
+상호 작용 설정에 대한 자세한 내용을 보려면 프로필 사진을 탭하여 [사이드 패널](./mobile-apps-home-page.md#header)을 열고 **설정** 을 선택한 다음 **상호 작용** 섹션을 찾습니다.
 
 ![상호 작용 설정](./media/mobile-app-interaction-settings/powerbi-mobile-app-interactions-section.png)
 
@@ -56,7 +56,7 @@ Power BI 모바일 앱을 다운로드하면 단일 탭 상호 작용이 설정�
 
 고정된 보고서의 바닥글 설정은 보고서의 아래쪽에 보고서 바닥글을 고정(예: 고정 및 항상 표시)할지 아니면 스크롤 등 보고서에서 수행하는 작업에 따라 숨기거나 다시 표시할지 방법을 결정합니다.
 
-Android 휴대폰에서 고정된 보고서 바닥글 설정은 기본적으로 **켜짐**으로 설정됩니다. 즉, 보고서 바닥글은 보고서의 아래쪽에 고정되고 항상 표시됩니다. 보고서의 작업에 따라 동적 보고서 바닥글을 표시하고 사라지게 하려는 경우 설정을 **해제**로 전환하세요.
+Android 휴대폰에서 고정된 보고서 바닥글 설정은 기본적으로 **켜짐** 으로 설정됩니다. 즉, 보고서 바닥글은 보고서의 아래쪽에 고정되고 항상 표시됩니다. 보고서의 작업에 따라 동적 보고서 바닥글을 표시하고 사라지게 하려는 경우 설정을 **해제** 로 전환하세요.
 
 ### <a name="report-refresh"></a>보고서 새로 고침
 
