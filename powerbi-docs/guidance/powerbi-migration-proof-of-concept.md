@@ -2,22 +2,22 @@
 title: Power BI로 마이그레이션하기 위해 개념 증명 수행
 description: Power BI로 마이그레이션할 때 개념 증명을 수행하는 방법에 관한 지침입니다.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.author: v-pemyer
-ms.openlocfilehash: a7b7a848aafc3a581c1a19cf34366d61ba891f86
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 77174da7fd47470974a292ba98f6b50c268b04fd
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803358"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419133"
 ---
-# <a name="conductproofofconcepttomigratetopowerbi"></a>Power BI로 마이그레이션하기 위해 개념 증명 수행
+# <a name="conduct-proof-of-concept-to-migrate-to-power-bi"></a>Power BI로 마이그레이션하기 위해 개념 증명 수행
 
-이 문서에서는 Power BI로 마이그레이션할 때 최대한 빨리 위험을 완화하고 미지의 상태를 해결하기 위한 POC(개념 증명) 수행과 관련된 **3단계**를 설명합니다.
+이 문서에서는 Power BI로 마이그레이션할 때 최대한 빨리 위험을 완화하고 미지의 상태를 해결하기 위한 POC(개념 증명) 수행과 관련된 **3단계** 를 설명합니다.
 
 :::image type="content" source="media/powerbi-migration-proof-of-concept/migrate-to-powerbi-stage-3.png" alt-text="Power BI 마이그레이션의 단계를 보여 주는 이미지. 이 문서에서는 3단계가 강조됩니다.":::
 

@@ -2,18 +2,18 @@
 title: 일 대 일 관계 지침
 description: 일 대 일 모델 관계를 개발하기 위한 지침입니다.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.author: v-pemyer
-ms.openlocfilehash: cbcf7fc1890ae1455f1f6ec7c8604e275f60b2d5
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 19fe2aa003c3d39169bc449dab83c09702f49b1d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668416"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419156"
 ---
 # <a name="one-to-one-relationship-guidance"></a>일 대 일 관계 지침
 
@@ -43,7 +43,7 @@ ms.locfileid: "91668416"
 
 **OrderNumber** 열에는 주문 번호가 저장되고 **OrderLineNumber** 열에는 주문 내 줄의 시퀀스가 저장됩니다.
 
-다음 모델 다이어그램에서 주문 번호 및 주문 라인 번호 열이 **Sales** 테이블에 로드되지 않은 것을 확인할 수 있습니다. 대신 해당 값을 사용하여 **SalesOrderLineID**라는 [서로게이트 키](star-schema.md#surrogate-keys) 열을 만듭니다. (키 값은 주문 번호에 1,000을 곱한 다음 주문 라인 번호를 추가하여 계산됩니다.)
+다음 모델 다이어그램에서 주문 번호 및 주문 라인 번호 열이 **Sales** 테이블에 로드되지 않은 것을 확인할 수 있습니다. 대신 해당 값을 사용하여 **SalesOrderLineID** 라는 [서로게이트 키](star-schema.md#surrogate-keys) 열을 만듭니다. (키 값은 주문 번호에 1,000을 곱한 다음 주문 라인 번호를 추가하여 계산됩니다.)
 
 ![모델 다이어그램에는 Sales와 Sales Order라는 2개의 테이블이 있습니다. 일 대 일 관계는 SalesOrderLineID 열을 연결합니다.](media/relationships-one-to-one/sales-order-degenerate.png)
 
@@ -59,7 +59,7 @@ ms.locfileid: "91668416"
 
 ![모델 다이어그램에는 2개의 테이블이 포함되어 있습니다. 디자인은 다음 단락에서 설명합니다.](media/relationships-one-to-one/product-to-product-category.png)
 
-첫 번째 테이블의 이름은 **Product**이고 **Color**, **Product**, **SKU**라는 3개의 열이 있습니다. 두 번째 테이블의 이름은 **Product Category**이고 **Category**와 **SKU**라는 2개의 열이 있습니다. 일 대 일 관계가 두 **SKU** 열을 연결합니다. 이 관계는 일 대 일 관계가 항상 그렇듯이 양방향으로 필터링됩니다.
+첫 번째 테이블의 이름은 **Product** 이고 **Color**, **Product**, **SKU** 라는 3개의 열이 있습니다. 두 번째 테이블의 이름은 **Product Category** 이고 **Category** 와 **SKU** 라는 2개의 열이 있습니다. 일 대 일 관계가 두 **SKU** 열을 연결합니다. 이 관계는 일 대 일 관계가 항상 그렇듯이 양방향으로 필터링됩니다.
 
 관계 필터 전달의 작동 방식을 설명하는 데 도움이 되도록 모델 다이어그램이 테이블 행을 표시하도록 수정되었습니다. 이 문서의 모든 예제는 이 데이터를 기반으로 합니다.
 
@@ -96,10 +96,10 @@ ms.locfileid: "91668416"
 
 - 필요한 것보다 많은 테이블을 나열하여 **필드** 창이 혼잡해질 수 있습니다.
 - 관련 필드가 여러 테이블로 분산되기 때문에 보고서 작성자가 이들을 찾기 어려울 수 있습니다.
-- 계층 구조를 만드는 기능이 제한됩니다. 해당 수준이 _동일한 테이블_의 열을 기반으로 해야 하기 때문입니다.
+- 계층 구조를 만드는 기능이 제한됩니다. 해당 수준이 _동일한 테이블_ 의 열을 기반으로 해야 하기 때문입니다.
 - 테이블 사이에 전체 행과 일치하는 항목이 없는 경우 예기치 않은 결과가 생성됩니다.
 
-구체적인 권장 사항은 일 대 일 관계가 _내부 아일랜드_ 또는 _교차 아일랜드_인지에 따라 달라집니다. 관계 평가에 대한 자세한 내용은 [Power BI Desktop의 모델 관계(관계 평가)](../transform-model/desktop-relationships-understand.md#relationship-evaluation)를 참조하세요.
+구체적인 권장 사항은 일 대 일 관계가 _내부 아일랜드_ 또는 _교차 아일랜드_ 인지에 따라 달라집니다. 관계 평가에 대한 자세한 내용은 [Power BI Desktop의 모델 관계(관계 평가)](../transform-model/desktop-relationships-understand.md#relationship-evaluation)를 참조하세요.
 
 ### <a name="intra-island-one-to-one-relationship"></a>내부 아일랜드 일 대 일 관계
 
@@ -107,10 +107,10 @@ ms.locfileid: "91668416"
 
 다음 단계는 일 대 일 관계 데이터를 통합하고 모델링하는 방법을 제공합니다.
 
-1. **쿼리 병합**: [두 쿼리를 결합](../connect-data/desktop-shape-and-combine-data.md#combine-queries)할 경우 각 쿼리에서 데이터의 완전성을 고려해야 합니다. 하나의 쿼리에 전체 행 집합(예: 마스터 목록)이 포함된 경우 다른 쿼리와 병합합니다. 기본 조인 유형인 _왼쪽 우선 외부 조인_을 사용하도록 병합 변환을 구성합니다. 이 조인 유형을 사용하면 첫 번째 쿼리의 모든 행을 유지하고 두 번째 쿼리의 일치하는 행으로 보충합니다. 두 번째 쿼리의 모든 필수 열을 첫 번째 쿼리로 확장합니다.
+1. **쿼리 병합**: [두 쿼리를 결합](../connect-data/desktop-shape-and-combine-data.md#combine-queries)할 경우 각 쿼리에서 데이터의 완전성을 고려해야 합니다. 하나의 쿼리에 전체 행 집합(예: 마스터 목록)이 포함된 경우 다른 쿼리와 병합합니다. 기본 조인 유형인 _왼쪽 우선 외부 조인_ 을 사용하도록 병합 변환을 구성합니다. 이 조인 유형을 사용하면 첫 번째 쿼리의 모든 행을 유지하고 두 번째 쿼리의 일치하는 행으로 보충합니다. 두 번째 쿼리의 모든 필수 열을 첫 번째 쿼리로 확장합니다.
 2. **쿼리 로드 비활성화**: 두 번째 쿼리의 [로드를 비활성화](import-modeling-data-reduction.md#disable-power-query-query-load)해야 합니다. 그러면 결과를 모델 테이블로 로드하지 않습니다. 이 구성은 데이터 모델 저장소 크기를 줄이고 **필드** 창을 깔끔하게 정리하는 데 도움이 됩니다.
 
-    이 예제에서 보고서 작성자는 이제 **필드** 창에 **Product**라는 단일 테이블을 찾을 수 있습니다. 이 테이블이 모든 제품 관련 필드를 포함합니다.
+    이 예제에서 보고서 작성자는 이제 **필드** 창에 **Product** 라는 단일 테이블을 찾을 수 있습니다. 이 테이블이 모든 제품 관련 필드를 포함합니다.
 
     ![필드 창에는 확장된 두 테이블이 모두 표시되며, 열은 Product가 호출된 필드로 나열됩니다.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated.png)
 3. **누락 값 바꾸기**: 두 번째 쿼리에 일치하지 않는 행이 있는 경우 해당 행에서 파생된 열에 NULL이 표시됩니다. 해당하는 경우 NULL을 토큰 값으로 대체하는 것이 좋습니다. 보고서 작성자가 열 값을 기준으로 필터링하거나 그룹화하는 경우 보고서 시각적 개체에 BLANK가 표시될 수 있기 때문에 누락 값을 바꾸는 것이 특히 중요합니다.
@@ -119,13 +119,13 @@ ms.locfileid: "91668416"
 
     ![테이블 시각적 개체에는 다음 4개의 열이 포함됩니다. SKU, Product, Color 및 Category. 제품 SKU CL-02의 범주 값은 이제 "Undefined"로 레이블이 지정됩니다.](media/relationships-one-to-one/product-to-product-category-table-visual-null-replaced.png)
 
-4. **계층 구조 만들기**: 현재 통합된 테이블의 _열 간_에 관계가 존재하는 경우 계층 구조를 만드는 것이 좋습니다. 그러면 보고서 작성자가 시각적 개체 드릴링 기회를 빠르게 식별할 수 있습니다.
+4. **계층 구조 만들기**: 현재 통합된 테이블의 _열 간_ 에 관계가 존재하는 경우 계층 구조를 만드는 것이 좋습니다. 그러면 보고서 작성자가 시각적 개체 드릴링 기회를 빠르게 식별할 수 있습니다.
 
     이 예제에서 보고서 작성자는 이제 다음 두 가지 수준이 있는 계층 구조를 사용할 수 있습니다. **Category** 및 **Product**.
 
     ![필드 창에는 확장된 두 테이블이 모두 표시되며, 열은 Products가 호출된 필드로 나열됩니다.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-with-hierarchy.png)
 
-개별 테이블이 필드를 구성하는 데 도움이 되는 경우에도 단일 테이블로 통합하는 것이 좋습니다. 필드를 계속 구성할 수는 있지만, 대신 _표시 폴더_를 사용합니다.
+개별 테이블이 필드를 구성하는 데 도움이 되는 경우에도 단일 테이블로 통합하는 것이 좋습니다. 필드를 계속 구성할 수는 있지만, 대신 _표시 폴더_ 를 사용합니다.
 
 이 예제에서는 보고서 작성자가 **Marketing** 표시 폴더에서 **Category** 필드를 찾을 수 있습니다.
 

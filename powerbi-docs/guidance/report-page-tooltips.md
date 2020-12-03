@@ -2,18 +2,18 @@
 title: 보고서 페이지 도구 설명을 사용하여 시각적 개체 확장
 description: 보고서 페이지 도구 설명 사용 가이드
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 11/24/2019
-ms.author: v-pemyer
-ms.openlocfilehash: e3af0828afcc7c085b896fe9e1b99f3b10bfdd5f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 919fc9cfa2bbdb55317fed0879347c929a723ce8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277850"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419064"
 ---
 # <a name="extend-visuals-with-report-page-tooltips"></a>보고서 페이지 도구 설명을 사용하여 시각적 개체 확장
 
@@ -76,7 +76,7 @@ ms.locfileid: "83277850"
 보고서를 디자인할 때는 다음과 같은 방식을 따르는 것이 권장됩니다.
 
 - **페이지 크기:** 페이지 도구 설명은 작은 크기로 구성하세요. 기본 제공되는 **도구 설명** 옵션(너비 320픽셀, 높이 240픽셀)을 사용하거나 사용자 지정 크기를 설정할 수 있습니다. 페이지 크기를 너무 크게 설정하면 원본 페이지에서 시각적 개체를 가릴 수 있습니다.
-- **페이지 보기:** 보고서 디자이너에서 페이지 보기를 **실제 크기**로 설정하세요(페이지 보기의 기본값은 **페이지에 맞추기**입니다). 이렇게 하면 페이지 도구 설명을 디자인할 때 실제 크기로 볼 수 있습니다.
+- **페이지 보기:** 보고서 디자이너에서 페이지 보기를 **실제 크기** 로 설정하세요(페이지 보기의 기본값은 **페이지에 맞추기** 입니다). 이렇게 하면 페이지 도구 설명을 디자인할 때 실제 크기로 볼 수 있습니다.
 - **스타일:** 페이지 도구 설명에 보고서와 동일한 테마와 스타일을 사용하는 것이 좋습니다. 이렇게 하면 사용자가 페이지 도구 설명을 보고 보고서와의 일관성을 느낄 수 있습니다. 또는 도구 설명에 보고서와 보완되는 스타일을 사용하고, 이 스타일을 모든 페이지 도구 설명에 적용하는 것도 좋습니다.
 - **도구 설명 필터:** 페이지 도구 설명을 디자인할 때 실제와 동일한 결과를 미리 보기로 볼 수 있도록 페이지 도구 설명에 필터를 할당하세요. 보고서를 게시하기 전에 필터를 제거하는 것도 잊지 마세요.
 - **페이지 표시 유형:** 도구 설명 페이지는 항상 숨기세요. 사용자가 곧바로 도구 설명 페이지로 이동할 수 없어야 합니다.
