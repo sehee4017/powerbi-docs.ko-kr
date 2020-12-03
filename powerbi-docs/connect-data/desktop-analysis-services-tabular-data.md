@@ -2,19 +2,19 @@
 title: Power BI Desktop의 Analysis Services 표 형식 데이터에 연결
 description: Power BI Desktop에서는 라이브 연결을 사용하거나, 항목을 선택하여 Power BI Desktop으로 가져오는 방식으로 SQL Server Analysis Services 테이블 형식 모델에 연결하고 데이터를 가져올 수 있습니다.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/28/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bb55342974bcd64e7d5871b7b84977105b7467fa
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 6c31079bc0ad517a1b2bb37f8da0c0ed5240595f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858695"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411520"
 ---
 # <a name="connect-to-analysis-services-tabular-data-in-power-bi-desktop"></a>Power BI Desktop의 Analysis Services 표 형식 데이터에 연결
 Power BI Desktop에서 SQL Server Analysis Services 테이블 형식 모델의 데이터에 연결하여 데이터를 가져올 수 있는 방법은 다음 두 가지입니다. 라이브 연결을 사용하여 탐색하거나, 항목을 선택하고 Power BI Desktop으로 가져옵니다.
@@ -32,12 +32,12 @@ Power BI Desktop에 동적 보고서를 만들 경우 Power BI 사이트에 게�
 **항목을 선택하고 Power BI Desktop으로 가져오기**: 이 옵션을 사용하여 연결하면 테이블 형식 모델이나 큐브 뷰의 테이블, 열 및 측정값 같은 항목을 선택하여 Power BI Desktop 모델에 로드할 수 있습니다. Power BI Desktop의 Power Query 편집기를 통해 원하는 항목 및 관련 모델링 기능을 추가로 셰이핑하여 데이터를 추가로 모델링합니다. Power BI Desktop과 테이블 형식 모델 간 라이브 연결은 유지되지 않기 때문에 Power BI Desktop 모델을 오프라인으로 탐색하거나 Power BI 사이트에 게시할 수 있습니다.
 
 ## <a name="to-connect-to-a-tabular-model"></a>테이블 형식 모델에 연결하려면
-1. Power BI Desktop의 **홈** 탭에서 **데이터 가져오기** > **자세히** > **데이터베이스**를 선택합니다.
+1. Power BI Desktop의 **홈** 탭에서 **데이터 가져오기** > **자세히** > **데이터베이스** 를 선택합니다.
    
-1. **SQL Server Analysis Services 데이터베이스**를 선택한 다음, **연결**을 선택합니다.
+1. **SQL Server Analysis Services 데이터베이스** 를 선택한 다음, **연결** 을 선택합니다.
    
    ![SQL Server Analysis Services 데이터베이스 선택](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as.png)
-3. **SQL Server Analysis Services 데이터베이스** 창에서 **서버** 이름을 입력하고, 연결 모드를 선택한 다음, **확인**을 선택합니다.
+3. **SQL Server Analysis Services 데이터베이스** 창에서 **서버** 이름을 입력하고, 연결 모드를 선택한 다음, **확인** 을 선택합니다.
    
    ![SQL Server Analysis Services 데이터베이스 창](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_server.png)
 4. **탐색기** 창의 이 단계는 선택한 연결 모드에 따라 달라집니다.
@@ -45,7 +45,7 @@ Power BI Desktop에 동적 보고서를 만들 경우 Power BI 사이트에 게�
    - 라이브로 연결하는 경우 테이블 형식 모델 또는 큐브 뷰를 선택합니다.
   
       ![탐색기 테이블 형식 모델 또는 큐브 뷰 선택](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_live.png)
-   - 항목을 선택하고 데이터를 가져오도록 선택한 경우 테이블 형식 모델 또는 큐브 뷰를 선택한 다음, 로드할 특정 테이블 또는 열을 선택합니다. 로드하기 전에 데이터를 셰이핑하려면 **쿼리 편집**을 선택하여 Power Query 편집기를 엽니다. 준비가 되면 **로드**를 선택하여 Power BI Desktop에 데이터를 가져옵니다.
+   - 항목을 선택하고 데이터를 가져오도록 선택한 경우 테이블 형식 모델 또는 큐브 뷰를 선택한 다음, 로드할 특정 테이블 또는 열을 선택합니다. 로드하기 전에 데이터를 셰이핑하려면 **쿼리 편집** 을 선택하여 Power Query 편집기를 엽니다. 준비가 되면 **로드** 를 선택하여 Power BI Desktop에 데이터를 가져옵니다.
 
       ![로드할 탐색기 테이블 또는 열 선택](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_select.png)
 
@@ -88,9 +88,9 @@ Power BI Desktop에 동적 보고서를 만들 경우 Power BI 사이트에 게�
 
 서버 이름을 변경하려면 다음을 수행합니다.
 
-1. **홈** 탭에서 **쿼리 편집**을 선택합니다.
+1. **홈** 탭에서 **쿼리 편집** 을 선택합니다.
 
-2. **SQL Server Analysis Services 데이터베이스** 창에서 **서버** 이름을 입력한 다음, **확인**을 선택합니다.
+2. **SQL Server Analysis Services 데이터베이스** 창에서 **서버** 이름을 입력한 다음, **확인** 을 선택합니다.
 
    
 ## <a name="troubleshooting"></a>문제 해결 

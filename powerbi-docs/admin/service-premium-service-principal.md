@@ -1,20 +1,20 @@
 ---
 title: 서비스 주체를 사용하여 Power BI Premium 작업 영역 및 데이터 세트 작업 자동화 | Microsoft Docs
 description: 서비스 주체를 사용하여 Power BI Premium 작업 영역 및 데이터 세트 관리 작업을 자동화하는 방법을 알아봅니다.
-author: minewiskan
-ms.author: owend
+author: Minewiskan
+ms.author: davidi
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 10/20/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 406b526f9e2dd146ee99629ed913c60b95989cb0
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.openlocfilehash: 7ffd2d2673a4efb827110c04e5e466e143c36022
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483722"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413429"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>서비스 주체를 사용하여 Premium 작업 영역 및 데이터 세트 작업 자동화
 

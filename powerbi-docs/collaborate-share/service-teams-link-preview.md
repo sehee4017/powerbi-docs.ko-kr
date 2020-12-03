@@ -6,16 +6,16 @@ ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 07/22/2020
-ms.openlocfilehash: fb79358bb9149498a39cca32db618cb6971121de
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: 866ef0776a9332cbe88c5e9775fb872bae04892b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90964776"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411543"
 ---
 # <a name="get-a-power-bi-link-preview-in-microsoft-teams"></a>Microsoft Teams에서 Power BI 링크 미리 보기 가져오기
 
@@ -25,7 +25,7 @@ ms.locfileid: "90964776"
 - 대시보드
 - 앱
 
-링크 미리 보기 서비스를 사용하려면 사용자가 로그인해야 합니다. 로그아웃하려면 메시지 상자 아래쪽에서 **Power BI** 아이콘을 선택합니다. 그런 다음 **로그아웃**을 선택합니다.
+링크 미리 보기 서비스를 사용하려면 사용자가 로그인해야 합니다. 로그아웃하려면 메시지 상자 아래쪽에서 **Power BI** 아이콘을 선택합니다. 그런 다음 **로그아웃** 을 선택합니다.
 
 충족해야 하는 요구 사항을 포함하여 Power BI와 Microsoft Teams를 함께 사용하는 방법에 대한 배경 지식은 [Power BI를 사용하여 Microsoft Teams에서 협업](service-collaborate-microsoft-teams.md)을 참조하세요.
 

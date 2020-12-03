@@ -1,20 +1,20 @@
 ---
 title: 2부, Power BI 보고서에 시각화 추가
 description: 2부, Power BI 보고서에 시각화 추가
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 05/06/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 79c613b33ccadacc7ce24d9eb744e66014218b52
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 6ddee012d01c64e0f35ac491d2b20ba362f2da90
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93411708"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412463"
 ---
 # <a name="add-visuals-to-a-power-bi-report-part-2"></a>Power BI 보고서에 시각적 개체 추가(2부)
 
@@ -56,7 +56,7 @@ ms.locfileid: "93411708"
 
 3. 영역 차트로 [시각화를 변경](power-bi-report-change-visualization-type.md)합니다.  선택할 수 있는 다양한 시각화 유형이 있습니다. 사용할 유형을 결정하는 데 도움이 필요하면 [각 유형에 대한 설명, 모범 사례 팁 및 자습서](power-bi-visualization-types-for-reports-and-q-and-a.md)를 참조하세요. 시각화 창에서 영역 차트 아이콘 ![시각화 창의 영역 차트 아이콘](media/power-bi-report-add-visualizations-ii/power-bi-area-chart.png)을 선택합니다.
 
-4. **추가 작업** (...)을 선택한 다음, **정렬 기준** >  **FiscalMonth** 를 선택하여 시각화를 정렬합니다.
+4. **추가 작업**(...)을 선택한 다음, **정렬 기준** >  **FiscalMonth** 를 선택하여 시각화를 정렬합니다.
 
 5. 시각화를 선택하고 윤곽 원 중 하나를 클릭한 다음 끌어서 [시각화의 크기를 조정](power-bi-visualization-move-and-resize.md)합니다. 스크롤 막대가 보이지 않도록 넓게 만들고 다른 시각화를 추가할 만큼의 공간을 남겨둡니다.
    

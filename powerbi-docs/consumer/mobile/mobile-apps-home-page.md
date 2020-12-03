@@ -2,18 +2,18 @@
 title: 모바일 앱 홈페이지 살펴보기
 description: 이 문서에서는 모바일 앱 홈페이지의 주요 기능을 소개합니다.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 12/16/2019
-ms.author: painbar
-ms.openlocfilehash: d06478acf53ead63b48afcf58cb2316ff4c5a3bc
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: ee4b4d3537fc0bdb77a451a0b32159ae3d703833
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635312"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413222"
 ---
 # <a name="a-quick-tour-of-the-mobile-app-home-page"></a>모바일 앱 홈페이지 둘러보기
 이 둘러보기에서는 Power BI 모바일 앱의 홈페이지와 필요한 항목에 빠르게 액세스할 수 있도록 제공되는 탐색 도우미를 살펴봅니다.
@@ -30,7 +30,7 @@ Power BI Mobile 앱을 열면 자주 또는 최근에 방문한 보고서, 대�
  
 ## <a name="quick-access-tab"></a>빠른 액세스 탭
 
-빠른 액세스 탭에는 자주 및 최근 본 보고서, 대시보드, 앱이 두 개의 접기 가능한 섹션으로 그룹화되어 표시됩니다. 최근 본 항목의 긴 목록을 보려면 최근 항목의 오른쪽에 있는 **모두 표시**를 탭합니다. 
+빠른 액세스 탭에는 자주 및 최근 본 보고서, 대시보드, 앱이 두 개의 접기 가능한 섹션으로 그룹화되어 표시됩니다. 최근 본 항목의 긴 목록을 보려면 최근 항목의 오른쪽에 있는 **모두 표시** 를 탭합니다. 
 
 ## <a name="activity-feed"></a>작업 피드
 

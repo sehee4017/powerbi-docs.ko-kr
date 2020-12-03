@@ -1,21 +1,21 @@
 ---
 title: Power BI에서 XMLA 엔드포인트를 사용하여 데이터 세트 연결 및 관리
 description: 클라이언트 애플리케이션 및 도구에서 Power BI Premium의 데이터 세트에 연결하는 방법에 대해 설명합니다.
-author: minewiskan
-ms.author: owend
+author: Minewiskan
+ms.author: davidi
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 11/05/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 4645434e5d556695868d028a5694b6cd0b8bd68c
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.openlocfilehash: 4e71580857827a370676c4d05274c4c57b1d56c5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483768"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413498"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint"></a>XMLA 엔드포인트로 데이터 세트 연결
 

@@ -2,19 +2,19 @@
 title: Power BI 및 Azure에서 동일한 계정 사용
 description: Power BI 및 Azure에서 동일한 계정 로그인을 사용하는 방법
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
-ms.author: kfollis
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: fe93fa3f41cf1c340b31ce3c6f817f842f3039ff
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 2706fd8eb4cb2fddda99710e7c1dc32c2300aa26
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161655"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413613"
 ---
 # <a name="using-the-same-account-for-power-bi-and-azure"></a>Power BI 및 Azure에서 동일한 계정 사용
 
@@ -28,13 +28,13 @@ Azure 및 Power BI 모두에 동일한 로그인을 사용하려면 조직 계�
 
 다음 단계를 수행하여 조직 계정을 Azure에서 공동 관리자로 추가할 수 있습니다.
 
-1. [Azure Portal](https://portal.azure.com/)에 로그인합니다. 여러 Azure 디렉터리가 있는 사용자의 경우 **구독**을 선택하고, 필터링하여 편집할 구독과 디렉터리만 표시합니다.
+1. [Azure Portal](https://portal.azure.com/)에 로그인합니다. 여러 Azure 디렉터리가 있는 사용자의 경우 **구독** 을 선택하고, 필터링하여 편집할 구독과 디렉터리만 표시합니다.
 
-1. 탐색 창에서 **액세스 제어(IAM)** 를 선택한 다음, **추가** \> **공동 관리자 추가**를 선택합니다.
+1. 탐색 창에서 **액세스 제어(IAM)** 를 선택한 다음, **추가** \> **공동 관리자 추가** 를 선택합니다.
 
     ![공동 관리자 추가가 호출된 액세스 제어의 스크린샷.](media/service-admin-how-to-use-the-same-account-as-azure/add-co-administrator.png)
 
-1. 조직 계정에 연결된 메일 주소를 입력하고 **추가**를 선택합니다.
+1. 조직 계정에 연결된 메일 주소를 입력하고 **추가** 를 선택합니다.
 
 1. 다음에 Azure Portal에 로그인할 때는 조직 메일 주소를 사용합니다.
 

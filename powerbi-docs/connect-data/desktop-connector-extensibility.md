@@ -1,20 +1,20 @@
 ---
 title: Power BI에서 커넥터 확장성
 description: 커넥터 확장성 기능, 특징, 보안 설정 및 인증된 커넥터
-author: cpopell
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 01/02/2020
-ms.author: gepopell
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b604ade56335e65b25501eb9fe3d3c2fd185a6f0
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 6b78309ad17446aabacd39006968b6d397a51037
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83293516"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411244"
 ---
 # <a name="connector-extensibility-in-power-bi"></a>Power BI에서 커넥터 확장성
 
@@ -32,13 +32,13 @@ Power BI는 ODBC, OData, OLE DB, Web, CSV, XML, JSON 등의 기존 커넥터와 
 
 데이터 확장 프로그램 보안 설정을 다음과 같이 조정합니다.
 
-Power BI Desktop에서 **파일** > **옵션 및 설정** > **옵션** > **보안**을 선택합니다.
+Power BI Desktop에서 **파일** > **옵션 및 설정** > **옵션** > **보안** 을 선택합니다.
 
-**데이터 확장 프로그램**에서 **(권장하지 않음) 유효성 검사 또는 경고 없이 모든 확장 프로그램을 로드하도록 허용**을 선택합니다. **확인**을 선택하고 Power BI Desktop을 다시 시작합니다. 
+**데이터 확장 프로그램** 에서 **(권장하지 않음) 유효성 검사 또는 경고 없이 모든 확장 프로그램을 로드하도록 허용** 을 선택합니다. **확인** 을 선택하고 Power BI Desktop을 다시 시작합니다. 
 
 ![데이터 확장 프로그램의 인증되지 않은 사용자 지정 커넥터 허용 보안 옵션](media/desktop-connector-extensibility/data-extension-security-1.png)
 
-기본 Power BI Desktop 데이터 확장 프로그램 보안 설정은 **(권장) Microsoft 인증 확장 프로그램 및 기타 신뢰할 수 있는 타사 확장 프로그램만 로드하도록 허용**입니다. 이 설정을 사용하면 시스템에 인증되지 않은 사용자 지정 커넥터가 있는 경우 Power BI Desktop을 시작할 때 안전하게 로드할 수 없는 커넥터가 나열된 **인증되지 않은 커넥터** 대화 상자가 표시됩니다.
+기본 Power BI Desktop 데이터 확장 프로그램 보안 설정은 **(권장) Microsoft 인증 확장 프로그램 및 기타 신뢰할 수 있는 타사 확장 프로그램만 로드하도록 허용** 입니다. 이 설정을 사용하면 시스템에 인증되지 않은 사용자 지정 커넥터가 있는 경우 Power BI Desktop을 시작할 때 안전하게 로드할 수 없는 커넥터가 나열된 **인증되지 않은 커넥터** 대화 상자가 표시됩니다.
 
 ![인증되지 않은 커넥터 대화 상자](media/desktop-connector-extensibility/data-extension-security-2.png)
 

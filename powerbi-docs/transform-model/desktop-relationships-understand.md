@@ -2,18 +2,18 @@
 title: Power BI Desktop의 모델 관계
 description: Power BI Desktop의 모델 관계에 대한 이론을 소개합니다.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 10/15/2019
-ms.author: v-pemyer
-ms.openlocfilehash: d162f4c4bb481eadc01fc1fac09c8b25e084fdbf
-ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
+ms.openlocfilehash: 32e6cccf738d85ed58922c199c3a6093a54019db
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94946961"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413797"
 ---
 # <a name="model-relationships-in-power-bi-desktop"></a>Power BI Desktop의 모델 관계
 

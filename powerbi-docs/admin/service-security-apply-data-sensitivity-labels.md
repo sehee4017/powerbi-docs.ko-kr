@@ -2,18 +2,18 @@
 title: Power BI에서 민감도 레이블을 적용하는 방법
 description: Power BI에서 민감도 레이블을 적용하는 방법을 알아봅니다.
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 08/16/2020
-ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9c623e180c41d60a35052ffef29e958dde79235d
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: 07b9ae9522437500da1386974548f420dc0cc1c5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90763692"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413383"
 ---
 # <a name="how-to-apply-sensitivity-labels-in-power-bi"></a>Power BI에서 민감도 레이블을 적용하는 방법
 
@@ -34,7 +34,7 @@ Power BI의 민감도 레이블에 대한 자세한 내용은 [Power BI의 민�
 
 **보고서 또는 대시보드에 민감도 레이블을 적용하거나 변경하려면**
 1. **기타 옵션(...)** 을 클릭합니다.
-1. **설정**을 선택합니다.
+1. **설정** 을 선택합니다.
 1. 설정 사이드 창에서 적절한 민감도 레이블을 선택합니다.
 1. 설정을 저장합니다.
 
@@ -45,17 +45,17 @@ Power BI의 민감도 레이블에 대한 자세한 내용은 [Power BI의 민�
 **데이터 세트 또는 데이터 흐름에서 민감도 레이블을 적용하거나 변경하려면**
 
 1. **기타 옵션(...)** 을 클릭합니다.
-1. **설정**을 선택합니다.
+1. **설정** 을 선택합니다.
 1. 설정 사이드 창에서 적절한 민감도 레이블을 선택합니다.
 1. 설정을 적용합니다.
 
 다음 두 이미지는 데이터 세트의 이러한 단계를 보여 줍니다.
 
-**기타 옵션(...)** 을 선택한 다음 **설정**을 선택합니다.
+**기타 옵션(...)** 을 선택한 다음 **설정** 을 선택합니다.
 
 ![데이터 세트 설정 열기](media/service-security-apply-data-sensitivity-labels/apply-data-sensitivity-labels-05.png)
 
-설정 페이지에서 민감도 레이블 섹션을 열고 원하는 민감도 레이블을 선택한 다음 **적용**을 클릭합니다.
+설정 페이지에서 민감도 레이블 섹션을 열고 원하는 민감도 레이블을 선택한 다음 **적용** 을 클릭합니다.
 
 ![민감도 레이블 선택](media/service-security-apply-data-sensitivity-labels/apply-data-sensitivity-labels-06.png)
 

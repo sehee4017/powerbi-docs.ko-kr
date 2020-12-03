@@ -2,18 +2,18 @@
 title: Power BI에서 민감도 레이블 사용
 description: Power BI에서 민감도 레이블을 사용하도록 설정하는 방법을 알아봅니다.
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 08/10/2020
-ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 96e51d41c39ccc11d4e3816883193132531bb730
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: eb2afe2e7fa21bc0583185cfc8a160b20f56236c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374318"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412118"
 ---
 # <a name="enable-sensitivity-labels-in-power-bi"></a>Power BI에서 민감도 레이블 사용
 
@@ -41,12 +41,12 @@ ms.locfileid: "91374318"
 
 ## <a name="enable-sensitivity-labels"></a>민감도 레이블 사용
 
-Power BI **관리 포털**로 이동하여 **테넌트 설정** 창을 열고 **정보 보호** 섹션을 찾습니다.
+Power BI **관리 포털** 로 이동하여 **테넌트 설정** 창을 열고 **정보 보호** 섹션을 찾습니다.
 
 ![Information Protection 섹션 찾기](media/service-security-enable-data-sensitivity-labels/enable-data-sensitivity-labels-01.png)
 
 **Information Protection** 섹션에서 다음 단계를 수행합니다.
-1. **사용자가 Power BI 콘텐츠의 민감도 레이블을 적용할 수 있도록 허용**을 엽니다.
+1. **사용자가 Power BI 콘텐츠의 민감도 레이블을 적용할 수 있도록 허용** 을 엽니다.
 1. 설정/해제합니다.
 1. Power BI 자산에서 민감도 레이블을 적용하고 변경할 수 있는 사람을 정의합니다. 기본적으로 조직의 모든 사용자가 민감도 레이블을 적용할 수 있습니다. 그러나 특정 사용자나 보안 그룹만 민감도 레이블을 설정할 수 있도록 선택할 수 있습니다. 전체 조직이나 특정 보안 그룹을 선택한 상태에서 사용자 또는 보안 그룹의 특정 하위 집합을 제외할 수 있습니다.
    
@@ -54,7 +54,7 @@ Power BI **관리 포털**로 이동하여 **테넌트 설정** 창을 열고 **
    * 특정 사용자나 보안 그룹에 대해서만 민감도 레이블을 사용하도록 설정한 경우 예외는 일반적으로 특정 사용자입니다.  
     이 방법을 사용하면 특정 사용자가 해당 권한이 있는 그룹에 속해 있더라도 Power BI에서 민감도 레이블을 적용하지 못하도록 방지할 수 있습니다.
 
-1. **적용**을 누릅니다.
+1. **적용** 을 누릅니다.
 
 ![민감도 레이블 사용](media/service-security-enable-data-sensitivity-labels/enable-data-sensitivity-labels-02.png)
 

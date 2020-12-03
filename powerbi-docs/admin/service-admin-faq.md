@@ -2,19 +2,19 @@
 title: Power BI 관리 - 질문과 대답(FAQ)
 description: Power BI 등록, 테넌트 관리 및 기타 관리 작업에 대해 자주 묻는 질문에 대한 답변을 알아봅니다.
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
-ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 3aa42394bb12078fb2abcf6574d04b8109a9c40c
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 5a30ff855616eef04db4827b4a25cb0facb9db1b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91981599"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413705"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI 관리 - 질문과 대답(FAQ)
 
@@ -119,7 +119,7 @@ Get-MsolCompanyInformation | fl allow*
 
 ### <a name="how-can-i-prevent-my-existing-users-from-starting-to-use-power-bi"></a>기존 사용자가 Power BI 사용을 시작하지 못하게 하려면 어떻게 합니까?
 
-이를 제어하는 Azure AD 설정은 **AllowAdHocSubscriptions** 입니다. 대부분의 테넌트의 경우 사용을 의미하는 *true*로 설정되어 있습니다. 파트너를 통해 Power BI를 획득했다면 설정이 *false*로 지정되어 있을 수 있으며, 이 경우에는 기능을 제어할 수 없습니다.
+이를 제어하는 Azure AD 설정은 **AllowAdHocSubscriptions** 입니다. 대부분의 테넌트의 경우 사용을 의미하는 *true* 로 설정되어 있습니다. 파트너를 통해 Power BI를 획득했다면 설정이 *false* 로 지정되어 있을 수 있으며, 이 경우에는 기능을 제어할 수 없습니다.
 
 다음 PowerShell 스크립트를 사용하여 임시 구독을 사용하지 않도록 설정합니다([PowerShell에 대한 자세한 정보][1]).
 
@@ -138,14 +138,14 @@ Get-MsolCompanyInformation | fl allow*
      Get-MsolCompanyInformation | fl AllowAdHocSubscriptions
     ```
 
-1. 다음 명령을 실행하여 **AllowAdHocSubscriptions**를 사용하거나(`$true`)사용하지 않도록(`$false`) 설정합니다.
+1. 다음 명령을 실행하여 **AllowAdHocSubscriptions** 를 사용하거나(`$true`)사용하지 않도록(`$false`) 설정합니다.
 
     ```powershell
      Set-MsolCompanySettings -AllowAdHocSubscriptions $false
     ```
 
 > [!NOTE]
-> **AllowAdHocSubscriptions** 플래그를 사용하여 사용자가 Azure Rights Management 서비스에 가입하는 기능을 포함하여 조직의 여러 사용자 기능을 제어할 수 있습니다. 이 플래그를 변경하면 이러한 모든 기능에 영향을 줍니다. *false*로 설정해도 개인 Power BI Pro 평가판의 경우 사용자가 계속 등록할 수 있습니다.
+> **AllowAdHocSubscriptions** 플래그를 사용하여 사용자가 Azure Rights Management 서비스에 가입하는 기능을 포함하여 조직의 여러 사용자 기능을 제어할 수 있습니다. 이 플래그를 변경하면 이러한 모든 기능에 영향을 줍니다. *false* 로 설정해도 개인 Power BI Pro 평가판의 경우 사용자가 계속 등록할 수 있습니다.
 
 ### <a name="how-can-i-allow-my-existing-users-to-sign-up-for-power-bi"></a>기존 사용자가 Power BI에 등록하도록 허용하려면 어떻게 합니까?
 
@@ -169,7 +169,7 @@ Get-MsolCompanyInformation | fl allow*
 
 ### <a name="how-do-we-manage-power-bi"></a>Power BI를 어떻게 관리합니까?
 
-Power BI는 Microsoft 365 전역 관리자 역할의 사용자와 Power BI 서비스 관리자 역할의 사용자에게 Power BI 관리 포털을 제공합니다. Power BI 관리 포털을 사용하려면 Microsoft 365 또는 Azure Active Directory 내에서 계정을 **전역 관리자**로 표시하거나 사용자 계정에 Power BI 서비스 관리자 역할이 할당되어야 합니다. 자세한 내용은 [Power BI 관리자 역할 이해](service-admin-role.md)와 [Power BI 관리 포털](service-admin-portal.md)을 참조합니다. 포털에서는 테넌트 전체 설정을 제어하고 Power BI 사용 통계와 사용자 및 그룹을 관리하기 위한 Microsoft 365 관리 센터 링크를 볼 수 있습니다.
+Power BI는 Microsoft 365 전역 관리자 역할의 사용자와 Power BI 서비스 관리자 역할의 사용자에게 Power BI 관리 포털을 제공합니다. Power BI 관리 포털을 사용하려면 Microsoft 365 또는 Azure Active Directory 내에서 계정을 **전역 관리자** 로 표시하거나 사용자 계정에 Power BI 서비스 관리자 역할이 할당되어야 합니다. 자세한 내용은 [Power BI 관리자 역할 이해](service-admin-role.md)와 [Power BI 관리 포털](service-admin-portal.md)을 참조합니다. 포털에서는 테넌트 전체 설정을 제어하고 Power BI 사용 통계와 사용자 및 그룹을 관리하기 위한 Microsoft 365 관리 센터 링크를 볼 수 있습니다.
 
 ### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>Microsoft에서 사용자를 위해 만든 테넌트를 관리하는 프로세스는 무엇입니까?
 
@@ -192,17 +192,17 @@ Power BI는 Microsoft 365 전역 관리자 역할의 사용자와 Power BI 서�
 
 1. [Microsoft 365 관리 센터](https://admin.microsoft.com/AdminPortal/Home#/homepage)로 이동합니다.
 
-1. 탐색 창에서 **사용자** > **활성 사용자**를 선택합니다.
+1. 탐색 창에서 **사용자** > **활성 사용자** 를 선택합니다.
 
 1. 라이선스를 제거할 사용자를 찾은 후 사용자 이름을 선택합니다.
 
-    사용자에 대해 대량 라이선스 관리를 수행할 수도 있습니다. 이렇게 하려면 여러 사용자를 선택하고 **제품 라이선스 편집**을 선택합니다.
+    사용자에 대해 대량 라이선스 관리를 수행할 수도 있습니다. 이렇게 하려면 여러 사용자를 선택하고 **제품 라이선스 편집** 을 선택합니다.
 
-1. 사용자 세부 정보 페이지의 **제품 라이선스** 옆에 있는 **편집**을 선택합니다.
+1. 사용자 세부 정보 페이지의 **제품 라이선스** 옆에 있는 **편집** 을 선택합니다.
 
-1. 해당 계정에 어떤 라이선스를 적용했는지에 따라 **Power BI(무료)** 또는 **Power BI Pro** 설정을 **해제**합니다.
+1. 해당 계정에 어떤 라이선스를 적용했는지에 따라 **Power BI(무료)** 또는 **Power BI Pro** 설정을 **해제** 합니다.
 
-1. **저장**을 선택합니다.
+1. **저장** 을 선택합니다.
 
 ### <a name="how-do-i-know-when-new-users-have-joined-my-tenant"></a>새 사용자가 내 테넌트에 가입한 경우 어떻게 알 수 있습니까?
 
@@ -210,15 +210,15 @@ Power BI는 Microsoft 365 전역 관리자 역할의 사용자와 Power BI 서�
 
 1. [Microsoft 365 관리 센터](https://admin.microsoft.com/AdminPortal/Home#/homepage)로 이동합니다.
 
-1. 탐색 창에서 **사용자** > **활성 사용자**를 선택합니다.
+1. 탐색 창에서 **사용자** > **활성 사용자** 를 선택합니다.
 
-1. **보기** 메뉴에서 **사용자 지정 보기 추가**를 선택합니다.
+1. **보기** 메뉴에서 **사용자 지정 보기 추가** 를 선택합니다.
 
-1. 새 보기 이름을 지정하고 **할당된 제품 라이선스** 아래에서 **Power BI(무료)** 또는 **Power BI Pro**를 선택합니다.
+1. 새 보기 이름을 지정하고 **할당된 제품 라이선스** 아래에서 **Power BI(무료)** 또는 **Power BI Pro** 를 선택합니다.
 
     보기당 라이선스 한 개만 선택할 수 있습니다. 조직에서 **Power BI(무료)** 및 **Power BI Pro** 라이선스를 모두 가지고 있는 경우 두 보기를 만들 수 있습니다.
 
-1. 원하는 다른 조건을 입력한 후 **추가**를 선택합니다.
+1. 원하는 다른 조건을 입력한 후 **추가** 를 선택합니다.
 
 1. 새 보기를 만든 후에는 **보기** 메뉴에서 사용할 수 있습니다.
 

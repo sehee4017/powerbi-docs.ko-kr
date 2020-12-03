@@ -2,29 +2,29 @@
 title: Power BI Desktop에서 그룹화 사용
 description: Power BI Desktop에서 시각적 개체를 그룹화하는 방법을 알아봅니다.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/26/2020
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 067a9cfc63b36f97716d61580f2e191756dbf0e6
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b74e06c076cd25132a6e3bfb8a12775d50b7263f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85233869"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412900"
 ---
 # <a name="group-visuals-in-power-bi-desktop-reports"></a>Power BI Desktop 보고서에서 시각적 개체 그룹화
-**Power BI Desktop**에서 **그룹화**를 사용하면, PowerPoint에서 항목을 그룹화하는 것처럼 단추, 텍스트 상자, 도형 이미지 및 만든 시각적 개체와 같은 보고서의 시각적 개체를 그룹화할 수 있습니다. 보고서의 시각적 개체를 그룹화함으로써 그룹을 단일 개체처럼 처리하여 보다 쉽고 빠르며 직관적인 방식으로 보고서의 계층을 이동, 크기 조정 및 사용할 수 있습니다.
+**Power BI Desktop** 에서 **그룹화** 를 사용하면, PowerPoint에서 항목을 그룹화하는 것처럼 단추, 텍스트 상자, 도형 이미지 및 만든 시각적 개체와 같은 보고서의 시각적 개체를 그룹화할 수 있습니다. 보고서의 시각적 개체를 그룹화함으로써 그룹을 단일 개체처럼 처리하여 보다 쉽고 빠르며 직관적인 방식으로 보고서의 계층을 이동, 크기 조정 및 사용할 수 있습니다.
 
 ![그룹화 사용](media/desktop-grouping-visuals/grouping-visuals-01.png)
 
 
 ## <a name="creating-groups"></a>그룹 만들기
 
-Power BI Desktop에서 시각적 개체 그룹을 만들려면 캔버스에서 첫 번째 시각적 개체를 선택하고 Ctrl 단추를 누른 채 그룹에서 원하는 시각적 개체를 하나 이상 클릭한 다음, 시각적 개체 컬렉션을 마우스 오른쪽 단추로 클릭하고 표시되는 메뉴에서 **그룹**을 선택합니다.
+Power BI Desktop에서 시각적 개체 그룹을 만들려면 캔버스에서 첫 번째 시각적 개체를 선택하고 Ctrl 단추를 누른 채 그룹에서 원하는 시각적 개체를 하나 이상 클릭한 다음, 시각적 개체 컬렉션을 마우스 오른쪽 단추로 클릭하고 표시되는 메뉴에서 **그룹** 을 선택합니다.
 
 ![그룹화할 항목을 두 개 이상 선택](media/desktop-grouping-visuals/grouping-visuals-02.png)
 
@@ -38,7 +38,7 @@ Power BI Desktop에서 시각적 개체 그룹을 만들려면 캔버스에서 �
 
 ![그룹 끌어서 놓기](media/desktop-grouping-visuals/grouping-visuals-04.png)
 
-그룹을 해제하려면 그룹을 선택하고 마우스 오른쪽 단추를 클릭한 다음, 표시되는 메뉴에서 **그룹 해제**를 선택합니다.
+그룹을 해제하려면 그룹을 선택하고 마우스 오른쪽 단추를 클릭한 다음, 표시되는 메뉴에서 **그룹 해제** 를 선택합니다.
 
 ## <a name="hide-and-show-visuals-or-groups"></a>시각적 개체 또는 그룹 숨기기 및 표시
 
@@ -55,7 +55,7 @@ Power BI Desktop에서 시각적 개체 그룹을 만들려면 캔버스에서 �
 
 * 그룹 내의 빈 공간(예: 시각적 개체 사이의 공백)을 클릭하는 경우 아무것도 선택되지 않습니다.
 * 그룹 내의 시각적 개체를 클릭하면 전체 그룹이 선택되고 두 번째로 클릭하면 개별 시각적 개체가 선택됩니다.
-* 그룹을 선택하고 보고서 캔버스에서 다른 개체를 선택한 다음, 오른쪽 클릭 메뉴에서 **그룹**을 선택하면 중첩된 그룹이 생성됩니다.
+* 그룹을 선택하고 보고서 캔버스에서 다른 개체를 선택한 다음, 오른쪽 클릭 메뉴에서 **그룹** 을 선택하면 중첩된 그룹이 생성됩니다.
 * 두 그룹을 선택하고 마우스 오른쪽 단추를 클릭하면 선택한 그룹을 중첩하는 옵션이 아닌 병합하는 옵션이 표시됩니다.
 
 ## <a name="apply-background-color"></a>배경색 적용

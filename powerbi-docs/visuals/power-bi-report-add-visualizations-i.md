@@ -1,21 +1,21 @@
 ---
 title: 1부, Power BI 보고서에 시각화 추가
 description: 1부, Power BI 보고서에 시각화 추가
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 05/06/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3a2002c9f17428c84704d68f621cf18443252557
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 4d4b04b10e45d67fdd4d7cb183e300587d4f2cc6
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93411892"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412486"
 ---
 # <a name="add-visuals-to-a-power-bi-report-part-1"></a>Power BI 보고서에 시각적 개체 추가(1부)
 
@@ -68,7 +68,7 @@ ms.locfileid: "93411892"
 
    ![누적 세로 막대형 차트 아이콘이 호출된 시각화 창의 스크린샷](media/power-bi-report-add-visualizations-i/power-bi-convert.png)
 
-1. 시각적 개체의 정렬 방법을 변경하려면 **추가 작업** (...)을 선택합니다.  정렬 옵션을 사용하여 정렬 방향(오름차순 또는 내림차순)을 변경하고 정렬에 사용되는 열( **정렬 기준** )을 변경합니다.
+1. 시각적 개체의 정렬 방법을 변경하려면 **추가 작업**(...)을 선택합니다.  정렬 옵션을 사용하여 정렬 방향(오름차순 또는 내림차순)을 변경하고 정렬에 사용되는 열(**정렬 기준**)을 변경합니다.
 
    ![추가 작업 드롭다운 스크린샷](media/power-bi-report-add-visualizations-i/power-bi-sort.png)
   

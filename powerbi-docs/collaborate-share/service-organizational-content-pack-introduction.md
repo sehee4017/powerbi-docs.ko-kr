@@ -2,26 +2,26 @@
 title: Power BI의 조직 콘텐츠 팩 소개
 description: 대시보드, 보고서, Excel 통합 문서 및 데이터 세트를 조직 콘텐츠 팩에 패키징하고 동료와 공유하는 방법에 대해 알아보세요.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 10/23/2019
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 84ecbb51663629b663373b884af86329f49e974f
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: bd7fdea827d0fbaf4c56f373ea028a8fffdc3123
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034477"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411704"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Power BI의 조직 콘텐츠 팩 소개
 > [!NOTE]
 > 조직 콘텐츠 팩을 만들 수 없거나 새 작업 영역 환경에 설치할 수 없습니다. 아직 시작하지 않은 경우 이제 콘텐츠 팩을 앱으로 업그레이드하세요. [새 작업 영역 환경에 대해 자세히](service-create-the-new-workspaces.md) 알아봅니다.
 > 
 
-팀으로 보내는 메일로 보고서를 정기적으로 배포하나요? 대신 이 방법을 사용해 보세요. 대시보드, 보고서, Excel 통합 문서 및 데이터 세트를 패키지하여 *조직 콘텐츠 팩*으로 팀에 게시합니다. 만든 콘텐츠 팩은 팀이 쉽게 찾을 수 있습니다. 즉, 모두 AppSource에 있습니다. 콘텐츠 팩은 Power BI의 일부이기 때문에 대화형 데이터 탐색, 새로운 시각적 개체, 질문 및 답변, 다른 데이터 원본과의 통합, 데이터 새로 고침 등 Power BI의 기능을 모두 활용할 수 있습니다.
+팀으로 보내는 메일로 보고서를 정기적으로 배포하나요? 대신 이 방법을 사용해 보세요. 대시보드, 보고서, Excel 통합 문서 및 데이터 세트를 패키지하여 *조직 콘텐츠 팩* 으로 팀에 게시합니다. 만든 콘텐츠 팩은 팀이 쉽게 찾을 수 있습니다. 즉, 모두 AppSource에 있습니다. 콘텐츠 팩은 Power BI의 일부이기 때문에 대화형 데이터 탐색, 새로운 시각적 개체, 질문 및 답변, 다른 데이터 원본과의 통합, 데이터 새로 고침 등 Power BI의 기능을 모두 활용할 수 있습니다.
 
 ![조직 콘텐츠 팩을 보여 주는 대시보드의 스크린샷](media/service-organizational-content-pack-introduction/power-bi-org-content-packs.png)
 
@@ -36,10 +36,10 @@ AppSource에서 전체 조직, 배포 또는 보안 그룹 및 [사용자가 속
 > 
 > 
 
-## <a name="what-is-appsource"></a>*AppSource*란?
+## <a name="what-is-appsource"></a>*AppSource* 란?
 조직 콘텐츠 팩을 게시하면 AppSource에 추가됩니다.  이 중앙 리포지토리를 사용하면 멤버가 게시된 대시보드, 보고서 및 데이터 세트를 쉽게 찾아 검색할 수 있습니다.  
 
-* AppSource를 보려면 **데이터 가져오기** > **내 조직** > **가져오기**를 선택합니다.
+* AppSource를 보려면 **데이터 가져오기** > **내 조직** > **가져오기** 를 선택합니다.
 
 ## <a name="the-life-cycle-of-an-organizational-content-pack"></a>조직 콘텐츠 팩의 수명 주기
 모든 Power BI Pro 사용자는 조직 콘텐츠 팩을 만들고 게시하고 액세스할 수 있습니다. 콘텐츠 팩 작성자만 통합 문서와 데이터 세트를 수정하고, 새로 고침을 예약하고, 삭제할 수 있습니다.

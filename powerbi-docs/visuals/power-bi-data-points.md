@@ -1,20 +1,20 @@
 ---
 title: 큰 데이터 세트, 데이터 요소 제한 및 데이터 전략
 description: 시각적 개체 및 데이터 감소 전략에 대한 데이터 제한
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: justyna
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 01/10/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 89bfba0dc679ddb7a9142c83e863cddaf1400063
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 0feef179fddba93f192559c7ac7bed10c6fa5328
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412053"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412532"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>시각적 개체 유형별 데이터 요소 제한 및 전략 적용
 
@@ -30,10 +30,10 @@ Power BI에서 시각적 개체를 렌더링할 경우 시각화가 빠르고 �
 ## <a name="strategies"></a>전략
 각 전략에는 시각화되는 데이터의 셰이프 및 형식을 기반으로 하는 기본값이 있습니다. 그러나 Power BI 서식 지정 창에서 기본값을 재정의하여 적합한 사용자 환경을 제공할 수 있습니다. 
 
-* **데이터 창** (구분): 사용자가 전체 데이터 세트의 조각을 점진적으로 로드하여 시각적 개체에서 데이터를 스크롤할 수 있도록 합니다.
-* **TopN** : 처음 N개 항목만 표시합니다.
-* **간단한 샘플** : 사이에 있는 처음, 마지막 및 N개 균등 분산 항목을 표시합니다.
-* **BottomN** : 마지막 N개 항목만 표시합니다.  자주 업데이트되는 데이터를 모니터링하는 데 유용합니다.
+* **데이터 창**(구분): 사용자가 전체 데이터 세트의 조각을 점진적으로 로드하여 시각적 개체에서 데이터를 스크롤할 수 있도록 합니다.
+* **TopN**: 처음 N개 항목만 표시합니다.
+* **간단한 샘플**: 사이에 있는 처음, 마지막 및 N개 균등 분산 항목을 표시합니다.
+* **BottomN**: 마지막 N개 항목만 표시합니다.  자주 업데이트되는 데이터를 모니터링하는 데 유용합니다.
 * **고밀도 샘플링** - 이상값 및/또는 곡선 셰이프를 더욱 잘 준수하는 향상된 샘플링 알고리즘입니다.
     * **범주화된 선 샘플링** - 축에서 Bin의 이상값을 기반으로 하는 샘플 데이터 요소입니다.
     * **겹치는 요소 샘플링** - 이상값을 보존하기 위해 겹치는 값을 기반으로 하는 샘플 데이터 요소입니다.

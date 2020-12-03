@@ -2,20 +2,20 @@
 title: 파워 쿼리 편집기에서 R 사용
 description: 고급 분석을 위해 Power BI Desktop Power Query 편집기에서 R을 사용합니다.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/28/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e45f8b84fd0c6b0d2c38b8849a12743d4d8e109e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c70422cc9f02566612cf67a9a5ee1b1b4b033063
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223136"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411106"
 ---
 # <a name="use-r-in-power-query-editor"></a>파워 쿼리 편집기에서 R 사용
 
@@ -51,23 +51,23 @@ Power Query 편집기에서 R을 사용하는 방법을 보여 주기 위해 .cs
 
 1. [EuStockMarkets_NA.csv 파일을 다운로드합니다](https://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/EuStockMarkets_NA.csv). 파일을 어디에 저장했는지 기억해야 합니다.
 
-1. Power BI Desktop에 파일을 로드합니다. **홈** 탭에서 **데이터 가져오기** > **텍스트/CSV**를 선택합니다.
+1. Power BI Desktop에 파일을 로드합니다. **홈** 탭에서 **데이터 가져오기** > **텍스트/CSV** 를 선택합니다.
 
    ![텍스트/CSV 선택](media/desktop-r-in-query-editor/r-in-query-editor_1.png)
 
-1. EuStockMarkets_NA.csv 파일을 선택한 다음, **열기**를 선택합니다. CSV 데이터가 **텍스트/CSV 파일** 대화 상자에 표시됩니다.
+1. EuStockMarkets_NA.csv 파일을 선택한 다음, **열기** 를 선택합니다. CSV 데이터가 **텍스트/CSV 파일** 대화 상자에 표시됩니다.
 
    ![CSV 파일 선택](media/desktop-r-in-query-editor/r-in-query-editor_2.png)
 
-1. **로드**를 선택하여 파일에서 데이터를 로드합니다. Power BI가 데이터를 로드한 후 **필드** 창에 새 테이블이 표시됩니다.
+1. **로드** 를 선택하여 파일에서 데이터를 로드합니다. Power BI가 데이터를 로드한 후 **필드** 창에 새 테이블이 표시됩니다.
 
    ![필드 창의 데이터](media/desktop-r-in-query-editor/r-in-query-editor_3.png)
 
-1. Power Query 편집기를 열려면 **홈** 리본에서 **쿼리 편집**을 선택합니다.
+1. Power Query 편집기를 열려면 **홈** 리본에서 **쿼리 편집** 을 선택합니다.
 
    ![쿼리 편집 선택](media/desktop-r-in-query-editor/r-in-query-editor_4.png)
 
-1. **변환** 탭에서 **R 스크립트 실행**을 선택합니다. **R 스크립트 실행** 편집기가 나타납니다. 이미지에 표시되지 않는 다른 행과 마찬가지로, 15행과 20행에는 누락된 데이터가 있습니다. 다음 단계에서는 R을 통해 해당 행이 완성되는 방법을 보여 줍니다.
+1. **변환** 탭에서 **R 스크립트 실행** 을 선택합니다. **R 스크립트 실행** 편집기가 나타납니다. 이미지에 표시되지 않는 다른 행과 마찬가지로, 15행과 20행에는 누락된 데이터가 있습니다. 다음 단계에서는 R을 통해 해당 행이 완성되는 방법을 보여 줍니다.
 
    ![R 스크립트 실행 선택](media/desktop-r-in-query-editor/r-in-query-editor_5d.png)
 
@@ -83,20 +83,20 @@ Power Query 편집기에서 R을 사용하는 방법을 보여 주기 위해 .cs
     ```
 
     > [!NOTE]
-    > 필터를 적용하여 새 데이터 세트를 제대로 만들려면 *output*이라는 변수를 덮어써야 할 수도 있습니다.
+    > 필터를 적용하여 새 데이터 세트를 제대로 만들려면 *output* 이라는 변수를 덮어써야 할 수도 있습니다.
 
-7. **확인**을 선택합니다. Power Query 편집기에서 데이터 개인 정보에 대한 경고를 표시합니다.
+7. **확인** 을 선택합니다. Power Query 편집기에서 데이터 개인 정보에 대한 경고를 표시합니다.
 
    ![데이터 개인 정보 경고](media/desktop-r-in-query-editor/r-in-query-editor_6.png)
-8. 경고 메시지 내에서 **계속**을 선택합니다. R 스크립트가 Power BI 서비스에서 제대로 작동하려면 표시되는 **개인 정보 수준** 대화 상자에서 모든 데이터 원본을 **공용**으로 설정합니다. 
+8. 경고 메시지 내에서 **계속** 을 선택합니다. R 스크립트가 Power BI 서비스에서 제대로 작동하려면 표시되는 **개인 정보 수준** 대화 상자에서 모든 데이터 원본을 **공용** 으로 설정합니다. 
 
    ![개인 정보 수준 대화 상자](media/desktop-r-in-query-editor/r-in-query-editor_7.png)
 
    개인 정보 설정 및 해당 구현에 대한 자세한 내용은 [Power BI Desktop 개인 정보 수준](../admin/desktop-privacy-levels.md)을 참조하세요.
 
- 9. **저장**을 선택하여 스크립트를 실행합니다. 
+ 9. **저장** 을 선택하여 스크립트를 실행합니다. 
 
-   **필드** 창에서 **completedValues**라는 새 열을 확인할 수 있습니다. 이 열에는 행 15, 18에서와 같은 몇 가지 누락된 데이터 요소가 있습니다. 다음 섹션에서는 R이 이를 처리하는 방법을 살펴봅니다.
+   **필드** 창에서 **completedValues** 라는 새 열을 확인할 수 있습니다. 이 열에는 행 15, 18에서와 같은 몇 가지 누락된 데이터 요소가 있습니다. 다음 섹션에서는 R이 이를 처리하는 방법을 살펴봅니다.
 
    Power Query 편집기는 R 스크립트 다섯 줄을 사용하여 예측 모델을 포함한 누락된 값을 입력했습니다.
 
@@ -121,13 +121,13 @@ Power Query 편집기에서 R을 사용하는 방법을 보여 주기 위해 .cs
 
 Power Query 편집기에서 만든 R 스크립트를 포함하는 쿼리에 몇 가지 제한 사항이 있습니다.
 
-* 모든 R 데이터 원본 설정을 **공용**으로 설정해야 합니다. Power Query 편집기 쿼리의 다른 모든 단계도 공용이어야 합니다. 
+* 모든 R 데이터 원본 설정을 **공용** 으로 설정해야 합니다. Power Query 편집기 쿼리의 다른 모든 단계도 공용이어야 합니다. 
 
-   데이터 원본 설정으로 이동하려면 Power BI Desktop에서 **파일** > **옵션 및 설정** > **데이터 원본 설정**을 선택합니다.
+   데이터 원본 설정으로 이동하려면 Power BI Desktop에서 **파일** > **옵션 및 설정** > **데이터 원본 설정** 을 선택합니다.
 
    ![데이터 원본 설정 선택](media/desktop-r-in-query-editor/r-in-query-editor_9.png)
 
-   **데이터 원본 설정** 대화 상자에서 데이터 원본을 하나 이상 선택한 다음, **권한 편집**을 선택합니다. **개인 정보 수준**을 **공용**으로 설정합니다.
+   **데이터 원본 설정** 대화 상자에서 데이터 원본을 하나 이상 선택한 다음, **권한 편집** 을 선택합니다. **개인 정보 수준** 을 **공용** 으로 설정합니다.
 
    ![데이터 원본 설정 대화 상자](media/desktop-r-in-query-editor/r-in-query-editor_10.png)  
   

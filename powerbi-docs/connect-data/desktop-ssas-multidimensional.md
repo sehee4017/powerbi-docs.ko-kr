@@ -2,29 +2,29 @@
 title: Power BI Desktop의 Analysis Services 다차원 데이터
 description: Power BI Desktop의 SSAS(SQL Server Analysis Services) 다차원 데이터
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/15/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7b96e9707e9c91c6403047091bed00afbff3789d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9567c0511a771b9b92de74171dec5fed3110e2d8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222527"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410899"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Power BI Desktop의 SSAS 다차원 모델에 연결
 
-Power BI Desktop을 통해 일반적으로 *SSAS MD*라고 하는 *SSAS 다차원 모델*에 액세스할 수 있습니다.
+Power BI Desktop을 통해 일반적으로 *SSAS MD* 라고 하는 *SSAS 다차원 모델* 에 액세스할 수 있습니다.
 
-SSAS MD 데이터베이스에 연결하려면 **데이터 가져오기**를 선택하고 **데이터베이스** > **SQL Server Analysis Services**를 선택한 다음 **연결**을 선택합니다.
+SSAS MD 데이터베이스에 연결하려면 **데이터 가져오기** 를 선택하고 **데이터베이스** > **SQL Server Analysis Services** 를 선택한 다음 **연결** 을 선택합니다.
 
 ![SSAS(SQL Server Analysis Services) 데이터베이스, 데이터 가져오기 대화 상자, Power BI Desktop](media/desktop-ssas-multidimensional/ssas-multidimensional-2.png)
 
-Power BI 서비스 및 Power BI Desktop은 모두 라이브 연결 모드에서 SSAS 다차원 모델을 지원합니다. 라이브 모드에서 **SSAS 다차원 모델**을 사용하는 보고서를 Power BI 서비스에 게시 및 업로드할 수 있습니다.
+Power BI 서비스 및 Power BI Desktop은 모두 라이브 연결 모드에서 SSAS 다차원 모델을 지원합니다. 라이브 모드에서 **SSAS 다차원 모델** 을 사용하는 보고서를 Power BI 서비스에 게시 및 업로드할 수 있습니다.
 
 ## <a name="capabilities-and-features-of-ssas-md"></a>SSAS MD의 기능 및 특징
 
@@ -49,9 +49,9 @@ Power BI 서비스 및 Power BI Desktop은 모두 라이브 연결 모드에서 
 
 ### <a name="measures-measure-groups-and-kpis"></a>측정값, 측정값 그룹 및 KPI
 
-다차원 큐브의 측정값 그룹은 **필드** 창에서 옆에 시그마(∑)가 포함된 테이블로 표시됩니다. 연결된 측정값 그룹이 없는 계산 측정값은 테이블 형식 메타데이터의 *측정값*이라고 하는 특수 테이블 아래에 그룹화됩니다.
+다차원 큐브의 측정값 그룹은 **필드** 창에서 옆에 시그마(∑)가 포함된 테이블로 표시됩니다. 연결된 측정값 그룹이 없는 계산 측정값은 테이블 형식 메타데이터의 *측정값* 이라고 하는 특수 테이블 아래에 그룹화됩니다.
 
-다차원 모델에서 복잡한 모델을 간소화하기 위해 ‘표시 폴더’ 내에 위치할 큐브에서 측정값 집합 또는 KPI 집합을 정의할 수 있습니다.  Power BI는 테이블 형식 메타데이터의 표시 폴더를 인식하고 표시 폴더 내 측정값 및 KPI를 보여줍니다. 다차원 데이터베이스의 KPI는 *값*, *목표*, *상태 그래픽* 및 *추세 그래픽*을 지원합니다.
+다차원 모델에서 복잡한 모델을 간소화하기 위해 ‘표시 폴더’ 내에 위치할 큐브에서 측정값 집합 또는 KPI 집합을 정의할 수 있습니다.  Power BI는 테이블 형식 메타데이터의 표시 폴더를 인식하고 표시 폴더 내 측정값 및 KPI를 보여줍니다. 다차원 데이터베이스의 KPI는 *값*, *목표*, *상태 그래픽* 및 *추세 그래픽* 을 지원합니다.
 
 ### <a name="dimension-attribute-type"></a>차원 특성 형식
 
@@ -61,18 +61,18 @@ Power BI 서비스 및 Power BI Desktop은 모두 라이브 연결 모드에서 
 
 ### <a name="parent-child-hierarchies"></a>부모-자식 계층 구조
 
-다차원 모델은 테이블 형식 메타데이터의 *계층*으로 제공되는 부모-자식 계층 구조를 지원합니다. 부모-자식 계층 구조의 각 수준은 테이블 형식 메타데이터에 숨겨진 열로 노출됩니다. 부모-자식 차원의 키 특성은 테이블 형식 메타데이터에 노출되지 않습니다.
+다차원 모델은 테이블 형식 메타데이터의 *계층* 으로 제공되는 부모-자식 계층 구조를 지원합니다. 부모-자식 계층 구조의 각 수준은 테이블 형식 메타데이터에 숨겨진 열로 노출됩니다. 부모-자식 차원의 키 특성은 테이블 형식 메타데이터에 노출되지 않습니다.
 
 ### <a name="dimension-calculated-members"></a>차원 계산 멤버
 
 다차원 모델은 다양한 형식의 계산 멤버생성을 지원합니다.  가장 일반적인 두 가지 형식의 계산 멤버는 다음과 같습니다.
 
-* *모두*의 형제가 아닌 특성 계층의 계산 멤버
+* *모두* 의 형제가 아닌 특성 계층의 계산 멤버
 * 사용자 계층 구조의 계산 멤버
 
-다차원 모델은 *특성 계층의 계산 멤버*를 열의 값으로 노출합니다. 이러한 형식의 계산 멤버를 노출하려면 몇 가지 추가 옵션 및 제약 조건이 있습니다.
+다차원 모델은 *특성 계층의 계산 멤버* 를 열의 값으로 노출합니다. 이러한 형식의 계산 멤버를 노출하려면 몇 가지 추가 옵션 및 제약 조건이 있습니다.
 
-* 선택 사양인 *UnknownMember*를 가질 수 있는 차원 특성
+* 선택 사양인 *UnknownMember* 를 가질 수 있는 차원 특성
 
 * 계산 멤버를 포함하는 특성이 차원의 유일한 특성이 아닐 경우 해당 특성은 차원의 키 특성이 될 수 없습니다.
 
@@ -82,7 +82,7 @@ Power BI 서비스 및 Power BI Desktop은 모두 라이브 연결 모드에서 
 
 ### <a name="security"></a>보안
 
-다차원 모델은 *역할*을 통해 차원 및 셀 수준 보안을 지원합니다. Power BI를 사용하여 큐브에 연결하는 경우 적절한 사용 권한에 대해 인증되고 평가됩니다. 사용자가 ‘차원 보안’을 적용하면, 해당 차원 멤버는 Power BI에서 사용자가 볼 수 없습니다.  그러나 사용자가 ‘셀 보안’ 사용 권한을 정의하여 특정 셀을 제한하는 경우, 해당 사용자는 Power BI를 사용하여 큐브에 연결할 수 없습니다. 
+다차원 모델은 *역할* 을 통해 차원 및 셀 수준 보안을 지원합니다. Power BI를 사용하여 큐브에 연결하는 경우 적절한 사용 권한에 대해 인증되고 평가됩니다. 사용자가 ‘차원 보안’을 적용하면, 해당 차원 멤버는 Power BI에서 사용자가 볼 수 없습니다.  그러나 사용자가 ‘셀 보안’ 사용 권한을 정의하여 특정 셀을 제한하는 경우, 해당 사용자는 Power BI를 사용하여 큐브에 연결할 수 없습니다. 
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 
@@ -90,7 +90,7 @@ SSAS MD를 사용하는 데에는 특정 제한 사항이 있습니다.
 
 * Enterprise 및 BI 버전의 SQL Server 2014만 라이브 연결을 지원합니다. Standard 버전의 SQL Server에서는 라이브 연결을 위해 SQL Server 2016 이상이 필요합니다.
 
-* *작업* 및 *명명된 집합*은 Power BI에 노출되지 않습니다. 시각적 개체 및 보고서를 만들기 위해 작업 또는 명명된 세트를 포함하는 큐브에 계속 연결할 수 있습니다.
+* *작업* 및 *명명된 집합* 은 Power BI에 노출되지 않습니다. 시각적 개체 및 보고서를 만들기 위해 작업 또는 명명된 세트를 포함하는 큐브에 계속 연결할 수 있습니다.
 
 * Power BI가 SSAS 모델에 대한 메타데이터를 표시하는 경우 때때로 모델에서 데이터를 검색할 수 없습니다. 이 시나리오는 32비트 버전의 MSOLAP 공급자를 설치했지만 64비트 버전을 설치하지 않은 경우에 발생할 수 있습니다. 64비트 버전을 설치하면 문제가 해결될 수 있습니다.
 

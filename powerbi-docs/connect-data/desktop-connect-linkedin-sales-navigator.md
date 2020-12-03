@@ -2,36 +2,36 @@
 title: Power BI Desktop에서 LinkedIn Sales Navigator에 연결
 description: Power BI Desktop에서 LinkedIn의 데이터에 쉽게 연결하고 사용합니다.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 11/11/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dd8e453a0cec6c404cad077a85f68044fa57ba1f
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 9baa0d6f05f62efcc453983d53f50335db2bc4b9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600256"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411451"
 ---
 # <a name="connect-to-linkedin-sales-navigator-in-power-bi-desktop"></a>Power BI Desktop에서 LinkedIn Sales Navigator에 연결
 
-**Power BI Desktop**에서 **LinkedIn Sales Navigator**에 연결하여 Power BI Desktop의 다른 데이터 원본과 마찬가지로 관계를 찾아 빌드하고 진행 상황에 대한 미리 만들어진 보고서를 만들 수 있습니다.
+**Power BI Desktop** 에서 **LinkedIn Sales Navigator** 에 연결하여 Power BI Desktop의 다른 데이터 원본과 마찬가지로 관계를 찾아 빌드하고 진행 상황에 대한 미리 만들어진 보고서를 만들 수 있습니다.
 
 ![LinkedIn Sales Navigator 사용량 탭](media/desktop-connect-linkedin-sales-navigator/linkedin-sales-navigator-01.png)
 
 
-**LinkedIn Sales Navigator**를 사용하여 LinkedIn 데이터에 연결하려면 LinkedIn Sales Navigator Enterprise 요금제가 있어야 하며 Sales Navigator 계약에 대한 관리자 또는 보고 사용자여야 합니다.
+**LinkedIn Sales Navigator** 를 사용하여 LinkedIn 데이터에 연결하려면 LinkedIn Sales Navigator Enterprise 요금제가 있어야 하며 Sales Navigator 계약에 대한 관리자 또는 보고 사용자여야 합니다.
 
-다음 비디오에서는 **이 문서의 뒷부분**에서 자세히 설명하는 [LinkedIn Sales Navigator](#using-the-linkedin-sales-navigator-template-app) 템플릿 앱을 사용하기 위한 간략한 둘러보기 및 자습서를 제공합니다. 
+다음 비디오에서는 **이 문서의 뒷부분** 에서 자세히 설명하는 [LinkedIn Sales Navigator](#using-the-linkedin-sales-navigator-template-app) 템플릿 앱을 사용하기 위한 간략한 둘러보기 및 자습서를 제공합니다. 
 
 > [!VIDEO https://www.youtube.com/embed/ZqhmaiORLw0]
 
 ## <a name="connect-to-linkedin-sales-navigator"></a>LinkedIn Sales Navigator에 연결
 
-**LinkedIn Sales Navigator** 데이터에 연결하려면 Power BI Desktop의 **홈** 리본 메뉴에서 **데이터 가져오기**를 선택합니다. 왼쪽에 있는 범주에서 **온라인 서비스**를 선택한 다음 **LinkedIn Sales Navigator(베타)** 가 표시될 때까지 스크롤합니다.
+**LinkedIn Sales Navigator** 데이터에 연결하려면 Power BI Desktop의 **홈** 리본 메뉴에서 **데이터 가져오기** 를 선택합니다. 왼쪽에 있는 범주에서 **온라인 서비스** 를 선택한 다음 **LinkedIn Sales Navigator(베타)** 가 표시될 때까지 스크롤합니다.
 
 ![Power BI Desktop에서 데이터 가져오기](media/desktop-connect-linkedin-sales-navigator/linkedin-sales-navigator-02.png)
 
@@ -39,12 +39,12 @@ ms.locfileid: "91600256"
 
 ![타사 경고](media/desktop-connect-linkedin-sales-navigator/linkedin-sales-navigator-03.png)
 
-**계속**을 선택하면 원하는 데이터를 지정하라는 메시지가 표시됩니다.
+**계속** 을 선택하면 원하는 데이터를 지정하라는 메시지가 표시됩니다.
 
 ![제공할 정보를 묻는 메시지](media/desktop-connect-linkedin-sales-navigator/linkedin-sales-navigator-04.png)
 
 
-표시되는 **LinkedIn Sales Navigator** 창의 첫 번째 드롭다운 선택기에서 반환하려는 데이터, 즉 *모든 연락처* 또는 *선택한 연락처*를 선택합니다. 그런 다음 시작 및 종료 날짜를 지정하여 수신하는 데이터를 특정 기간으로 제한할 수 있습니다.
+표시되는 **LinkedIn Sales Navigator** 창의 첫 번째 드롭다운 선택기에서 반환하려는 데이터, 즉 *모든 연락처* 또는 *선택한 연락처* 를 선택합니다. 그런 다음 시작 및 종료 날짜를 지정하여 수신하는 데이터를 특정 기간으로 제한할 수 있습니다.
 
 정보를 제공하면 Power BI Desktop는 LinkedIn Sales Navigator 계약과 연결된 데이터에 연결됩니다. 웹 사이트를 통해 LinkedIn Sales Navigator에 로그인하는 데 사용하는 것과 동일한 이메일 주소를 사용합니다. 
 
@@ -64,7 +64,7 @@ LinkedIn Sales Navigator 데이터를 사용하여 원하는 모든 보고서를
 
 ## <a name="using-the-linkedin-sales-navigator-template-app"></a>LinkedIn Sales Navigator 템플릿 앱 사용
 
-**LinkedIn Sales Navigator**를 최대한 쉽게 사용하려면 LinkedIn Sales Navigator 데이터에서 미리 만들어진 보고서를 자동으로 만드는 [템플릿 앱](service-template-apps-overview.md)을 사용할 수 있습니다.
+**LinkedIn Sales Navigator** 를 최대한 쉽게 사용하려면 LinkedIn Sales Navigator 데이터에서 미리 만들어진 보고서를 자동으로 만드는 [템플릿 앱](service-template-apps-overview.md)을 사용할 수 있습니다.
 
 ![LinkedIn Sales Navigator용 템플릿 앱](media/desktop-connect-linkedin-sales-navigator/linkedin-sales-navigator-10.png)
 
@@ -92,7 +92,7 @@ LinkedIn Sales Navigator 데이터를 사용하여 원하는 모든 보고서를
 
 ![LinkedIn Sales Navigator 검색 탭](media/desktop-connect-linkedin-sales-navigator/linkedin-sales-navigator-13.png)
 
-**InMail**은 보낸 InMail 수, 수락률 및 기타 유용한 정보를 포함하여 InMail 사용량에 대한 정보를 제공합니다.
+**InMail** 은 보낸 InMail 수, 수락률 및 기타 유용한 정보를 포함하여 InMail 사용량에 대한 정보를 제공합니다.
 
 ![LinkedIn Sales Navigator InMail 탭](media/desktop-connect-linkedin-sales-navigator/linkedin-sales-navigator-14.png)
 
@@ -100,7 +100,7 @@ LinkedIn Sales Navigator 데이터를 사용하여 원하는 모든 보고서를
 
 ![LinkedIn Sales Navigator SSI 탭](media/desktop-connect-linkedin-sales-navigator/linkedin-sales-navigator-15.png)
 
-샘플 데이터에서 자체 데이터로 이동하려면 오른쪽 위 모서리에서 **앱 편집**(연필 아이콘)을 선택한 다음, 표시되는 화면에서 **데이터 연결**을 선택합니다.
+샘플 데이터에서 자체 데이터로 이동하려면 오른쪽 위 모서리에서 **앱 편집**(연필 아이콘)을 선택한 다음, 표시되는 화면에서 **데이터 연결** 을 선택합니다.
 
 ![사용자 자체 데이터 연결](media/desktop-connect-linkedin-sales-navigator/linkedin-sales-navigator-16.png)
 

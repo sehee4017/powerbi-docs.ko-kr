@@ -6,16 +6,16 @@ ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 09/21/2020
-ms.openlocfilehash: 0abaf886806ea783bb478f47d020daeea7829da5
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: 36973d52f94b806db860b739a84f0c94b2a8945d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965126"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411865"
 ---
 # <a name="embed-power-bi-content-in-microsoft-teams"></a>Microsoft Teams에 Power BI 콘텐츠 포함
 
@@ -50,7 +50,7 @@ Microsoft Teams에서 **Power BI** 탭을 사용하려면 다음 요소를 확�
 
 1. 탭 이름은 보고서 이름과 일치하도록 자동으로 업데이트되지만 변경할 수 있습니다.
 
-1. **저장**을 선택합니다.
+1. **저장** 을 선택합니다.
 
 ### <a name="reports-you-can-embed-on-the-power-bi-tab"></a>Power BI 탭에 포함할 수 있는 보고서
 
@@ -64,7 +64,7 @@ Microsoft Teams에서 **Power BI** 탭을 사용하려면 다음 요소를 확�
 
 Power BI 보고서 탭을 Microsoft Teams에 추가하면 Microsoft Teams에서 보고서에 대한 탭 대화를 자동으로 만듭니다.
 
-- 오른쪽 위 모서리에서 **탭 대화 표시**를 선택합니다.
+- 오른쪽 위 모서리에서 **탭 대화 표시** 를 선택합니다.
 
     ![탭 대화 표시 아이콘의 스크린샷.](media/service-embed-report-microsoft-teams/power-bi-teams-conversation-icon.png)
 
@@ -74,7 +74,7 @@ Power BI 보고서 탭을 Microsoft Teams에 추가하면 Microsoft Teams에서 
 
 ## <a name="known-issues-and-limitations"></a>알려진 문제 및 제한 사항
 
-- Microsoft Teams에서는 Power BI 보고서의 시각적 개체에서 내보낸 데이터가 자동으로 다운로드 폴더에 저장됩니다. 이 파일은 "data(*n*).xlsx"라는 Excel 파일입니다. 여기서 *n*은 데이터를 동일한 폴더로 내보낸 횟수입니다.
+- Microsoft Teams에서는 Power BI 보고서의 시각적 개체에서 내보낸 데이터가 자동으로 다운로드 폴더에 저장됩니다. 이 파일은 "data(*n*).xlsx"라는 Excel 파일입니다. 여기서 *n* 은 데이터를 동일한 폴더로 내보낸 횟수입니다.
 - Power BI 대시보드는 Microsoft Teams의 **Power BI** 탭에 포함할 수 없습니다.
 - [URL 필터](service-url-filters.md)는 Microsoft Teams의 **Power BI** 탭에서 지원되지 않습니다.
 - 국가 클라우드에서는 새 **Power BI** 탭을 사용할 수 없습니다. 새 작업 영역 환경 또는 보고서를 지원하지 않는 이전 버전을 Power BI 앱에서 사용할 수 있습니다.

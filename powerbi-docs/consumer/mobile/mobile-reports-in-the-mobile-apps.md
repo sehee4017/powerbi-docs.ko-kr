@@ -2,18 +2,18 @@
 title: Power BI 모바일 앱에서 보고서 탐색
 description: 휴대폰 또는 태블릿의 Power BI 모바일 앱에서 보고서를 보고 상호 작용하는 방법에 대해 알아봅니다. Power BI 서비스 또는 Power BI Desktop에서 보고서를 만든 다음 모바일 앱에서 보고서를 조작합니다.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
-ms.author: painbar
-ms.openlocfilehash: 47f1db75eb3923c1c4195a319323c3a37d17484e
-ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
+ms.openlocfilehash: 5d361a749f947f8d45b052a8a2b6455007745d20
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92026087"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413084"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 보고서 탐색
 적용 대상:
@@ -47,7 +47,7 @@ Power BI 모바일 앱의 보고서를 위한 두 가지 아이콘이 있습니�
 > [!NOTE]
 > 휴대폰을 가로 방향으로 들면 보고서 페이지가 모바일 레이아웃으로 표시되더라도 항상 가로 레이아웃으로 볼 수 있습니다.
 
-대시보드에서 보고서로 이동하려면 타일의 오른쪽 위에 있는 **추가 옵션** (...)을 탭한 다음, **보고서 열기** 를 탭합니다.
+대시보드에서 보고서로 이동하려면 타일의 오른쪽 위에 있는 **추가 옵션**(...)을 탭한 다음, **보고서 열기** 를 탭합니다.
   
   ![보고서 열기](./media/mobile-reports-in-the-mobile-apps/power-bi-android-open-report-tile.png)
   
@@ -79,7 +79,7 @@ Power BI 모바일 앱을 다운로드하면 단일 탭 상호 작용이 설정�
 슬라이서 값을 탭하면 값이 선택되고 나머지 보고서는 해당 값으로 슬라이스 됩니다.
 링크, 단추 또는 책갈피를 탭하면 보고서 작성자에 의해 정의된 작업이 수행됩니다.
 
-시각적 개체를 탭하면 테두리가 표시되는 것을 알 수 있습니다. 테두리의 오른쪽 위에 **추가 옵션** (...)이 표시됩니다. 줄임표를 탭하면 해당 시각적 개체에 대해 수행할 수 있는 작업 메뉴가 표시됩니다.
+시각적 개체를 탭하면 테두리가 표시되는 것을 알 수 있습니다. 테두리의 오른쪽 위에 **추가 옵션**(...)이 표시됩니다. 줄임표를 탭하면 해당 시각적 개체에 대해 수행할 수 있는 작업 메뉴가 표시됩니다.
 
 ![시각적 개체 및 메뉴](./media/mobile-reports-in-the-mobile-apps/report-visual-menu.png)
 
@@ -111,7 +111,7 @@ Power BI 모바일 앱을 다운로드하면 단일 탭 상호 작용이 설정�
    
    
 ### <a name="using-the-actions-in-the-report-footer"></a>보고서 바닥글에서 작업 사용
-보고서 바닥글에서 현재 보고서 페이지나 전체 보고서에서 수행할 수 있는 몇 가지 작업을 수행할 수 있습니다. 바닥글은 가장 일반적으로 사용되는 작업에 빠르게 액세스할 수 있도록 합니다. **추가 옵션** (...) 단추를 탭하여 다른 작업에 액세스할 수 있습니다.
+보고서 바닥글에서 현재 보고서 페이지나 전체 보고서에서 수행할 수 있는 몇 가지 작업을 수행할 수 있습니다. 바닥글은 가장 일반적으로 사용되는 작업에 빠르게 액세스할 수 있도록 합니다. **추가 옵션**(...) 단추를 탭하여 다른 작업에 액세스할 수 있습니다.
 
 ![보고서 바닥글](./media/mobile-reports-in-the-mobile-apps/report-footer.png)
 
@@ -124,7 +124,7 @@ Power BI 모바일 앱을 다운로드하면 단일 탭 상호 작용이 설정�
 * 모든 보고서 작업을 봅니다.
 
 #### <a name="all-report-actions"></a>모든 보고서 작업
-보고서 바닥글에 있는 **추가 옵션** (...) 단추를 탭하면 보고서에서 수행할 수 있는 모든 작업이 표시됩니다.
+보고서 바닥글에 있는 **추가 옵션**(...) 단추를 탭하면 보고서에서 수행할 수 있는 모든 작업이 표시됩니다.
 
 
 ![모든 보고서 작업](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-all-actions.png)
@@ -144,7 +144,7 @@ Power BI 모바일 앱의 공유를 금지하는 [Intune 보호 정책](/intune/
 
 ### <a name="bookmarks"></a>책갈피
 
-Power BI 모바일 앱은 보고서 작성자가 정의한 보고서 책갈피와 Power BI 서비스에서 정의할 수 있는 개인 책갈피를 모두 지원합니다. [보고서 작업 도구 모음](mobile-reports-in-the-mobile-apps.md#all-report-actions)의 **기타 옵션** (...)에서 책갈피 메뉴를 찾을 수 있습니다.
+Power BI 모바일 앱은 보고서 작성자가 정의한 보고서 책갈피와 Power BI 서비스에서 정의할 수 있는 개인 책갈피를 모두 지원합니다. [보고서 작업 도구 모음](mobile-reports-in-the-mobile-apps.md#all-report-actions)의 **기타 옵션**(...)에서 책갈피 메뉴를 찾을 수 있습니다.
 
 기본 책갈피는 특수 아이콘으로 표시됩니다. 개인 책갈피의 경우 변경할 책갈피 옆에 있는 **추가 옵션(...)** 을 탭하고 **기본값으로** 또는 **기본값 지우기** 를 선택하여 기본 설정을 지정하거나, 설정하거나, 해제할 수 있습니다.
 
@@ -177,9 +177,9 @@ Power BI 모바일 앱은 보고서 작성자가 정의한 보고서 책갈피�
  
 ## <a name="configure-your-experience-with-reports"></a>보고서를 사용하여 환경 구성
 Power BI 모바일 앱에는 보고서 환경을 제어할 수 있는 다양한 설정이 있습니다. 현재 다음을 구성할 수 있습니다.
-* **보고서 시각적 개체와의 상호 작용** : 단일 탭 또는 두 번 탭하기 상호 작용 중 하나를 사용하도록 선택할 수 있습니다.
-* **데이터 새로 고침 방법** : 보고서 데이터를 새로 고치기 위해 새로 고침 단추나 풀 다운 조치를 선택할 수 있습니다.
-* **보고서 바닥글 표시 유형** : 항상 표시되는 고정 바닥글을 선택하거나 동작에 따라(예: 스크롤) 숨거나 다시 나타나는 동적 바닥글을 선택할 수 있습니다.
+* **보고서 시각적 개체와의 상호 작용**: 단일 탭 또는 두 번 탭하기 상호 작용 중 하나를 사용하도록 선택할 수 있습니다.
+* **데이터 새로 고침 방법**: 보고서 데이터를 새로 고치기 위해 새로 고침 단추나 풀 다운 조치를 선택할 수 있습니다.
+* **보고서 바닥글 표시 유형**: 항상 표시되는 고정 바닥글을 선택하거나 동작에 따라(예: 스크롤) 숨거나 다시 나타나는 동적 바닥글을 선택할 수 있습니다.
 
 이러한 설정을 변경하는 방법에 대한 자세한 내용은 [앱 상호 작용 설정](./mobile-app-interaction-settings.md)을 참조하세요.
 

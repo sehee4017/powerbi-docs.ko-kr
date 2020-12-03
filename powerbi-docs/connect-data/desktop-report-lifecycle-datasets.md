@@ -2,19 +2,19 @@
 title: Power BI Desktop에서 Power BI 서비스의 데이터 세트에 연결
 description: 여러 작업 영역에서 여러 Power BI Desktop 보고서에 대해 일반적인 데이터 세트 사용 및 보고 주기 관리
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/13/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5701e94991f64d1f05a867da189c814dd1484370
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: e177eb9e124a26e62d392b7dd97562c11c8f9d5a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92680456"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411037"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Power BI Desktop에서 Power BI 서비스의 데이터 세트에 연결
 
@@ -91,7 +91,7 @@ Anna가 Power BI 서비스 계정에 로그인하지 않았다면 로그인하�
 
 Power BI에 로그인하지 않은 경우 로그인하라는 메시지가 표시됩니다. 로그인하면 사용자가 속한 작업 영역이 Power BI에 표시됩니다. Power BI 서비스 라이브 연결을 설정하려는 데이터 세트가 포함될 작업 영역을 선택할 수 있습니다.
 
-목록의 데이터 세트는 모든 작업 영역에서 빌드 사용 권한이 있는 모든 공유 데이터 세트입니다. 특정 데이터 세트를 검색하고 해당 이름, 소유자, 해당 데이터 세트가 있는 작업 영역 및 마지막으로 새로 고쳐진 시기를 볼 수 있습니다. 목록의 맨 위에 데이터 세트에 대한 **보증** (인증 또는 승격)도 표시됩니다.
+목록의 데이터 세트는 모든 작업 영역에서 빌드 사용 권한이 있는 모든 공유 데이터 세트입니다. 특정 데이터 세트를 검색하고 해당 이름, 소유자, 해당 데이터 세트가 있는 작업 영역 및 마지막으로 새로 고쳐진 시기를 볼 수 있습니다. 목록의 맨 위에 데이터 세트에 대한 **보증**(인증 또는 승격)도 표시됩니다.
 
 ![사용 가능한 데이터 세트의 목록](media/desktop-report-lifecycle-datasets/desktop-select-shared-dataset.png)
 

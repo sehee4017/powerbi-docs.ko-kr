@@ -2,18 +2,18 @@
 title: 외부 게스트 사용자(Azure AD B2B)로 Power BI 콘텐츠 보기
 description: Power BI 모바일 앱을 사용하여 외부 조직의 사용자와 공유하는 콘텐츠를 볼 수 있습니다.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/09/2019
-ms.author: painbar
-ms.openlocfilehash: f6ae0e5ff59e654354370c24ad648231f2eb78cc
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: effa9622896f44cff0cf37d7612c35f27e726ef7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85233085"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413245"
 ---
 # <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>외부 조직의 사용자와 공유하는 Power BI 콘텐츠 보기
 
@@ -39,7 +39,7 @@ Power BI는 조직 외부의 게스트 사용자에게 Power BI 콘텐츠를 안
 
 ![Power BI 게스트 사용자 헤더](./media/mobile-apps-b2b/mobile-b2b-exit-home-new.png)
 
-외부 조직에 연결하려면 Power BI 아티팩트 링크가 필요하지만, 앱이 전환되면 공유되는 모든 항목(전자 메일에서 열린 항목 뿐만 아니라)에 액세스할 수 있습니다. 외부 조직에서 액세스할 수 있는 모든 항목을 보려면, 앱 메뉴로 이동하고 **공유한 항목**을 선택합니다. **앱** 아래에서 사용할 수 있는 앱도 찾을 수 있습니다.
+외부 조직에 연결하려면 Power BI 아티팩트 링크가 필요하지만, 앱이 전환되면 공유되는 모든 항목(전자 메일에서 열린 항목 뿐만 아니라)에 액세스할 수 있습니다. 외부 조직에서 액세스할 수 있는 모든 항목을 보려면, 앱 메뉴로 이동하고 **공유한 항목** 을 선택합니다. **앱** 아래에서 사용할 수 있는 앱도 찾을 수 있습니다.
 
 ![Power BI 게스트 외부 사용자로 액세스한 앱 메뉴](./media/mobile-apps-b2b/mobile-b2b-menu-new.png)
 

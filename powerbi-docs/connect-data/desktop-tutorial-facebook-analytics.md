@@ -2,19 +2,19 @@
 title: '자습서:  Power BI Desktop을 사용하여 Facebook 데이터 분석'
 description: Facebook에서 데이터를 가져오고 Power BI Desktop에서 사용하는 방법을 알아봅니다.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: tutorial
 ms.date: 05/06/2020
-ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: e8c6ed4476a1bd5236d838610da624f5dde4fb4c
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: c138b5d3b03b360ee1f83c57a98906b5fec25d6e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600476"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410968"
 ---
 # <a name="tutorial-analyze-facebook-data-by-using-power-bi-desktop"></a>자습서:  Power BI Desktop을 사용하여 Facebook 데이터 분석
 
@@ -28,9 +28,9 @@ ms.locfileid: "91600476"
 
 이 자습서에서는 [Microsoft Power BI Facebook 페이지](https://www.facebook.com/microsoftbi)의 데이터를 사용합니다. 개인 Facebook 계정을 제외하고 이 페이지에 연결하여 데이터를 가져오는 데는 특별한 자격 증명이 필요하지 않습니다.
 
-1. Power BI Desktop을 열고 **시작** 대화 상자에서 **데이터 가져오기**를 선택하거나, **홈** 리본 탭의 **데이터 가져오기**를 선택한 다음, **자세히**를 선택합니다.
+1. Power BI Desktop을 열고 **시작** 대화 상자에서 **데이터 가져오기** 를 선택하거나, **홈** 리본 탭의 **데이터 가져오기** 를 선택한 다음, **자세히** 를 선택합니다.
    
-2. **데이터 가져오기** 대화 상자의 **온라인 서비스** 그룹에서 **Facebook**을 선택한 다음, **연결**을 선택합니다.
+2. **데이터 가져오기** 대화 상자의 **온라인 서비스** 그룹에서 **Facebook** 을 선택한 다음, **연결** 을 선택합니다.
    
    ![데이터 가져오기](media/desktop-tutorial-facebook-analytics/t_fb_getdataother.png)
    
@@ -38,9 +38,9 @@ ms.locfileid: "91600476"
    
    ![타사 경고](media/desktop-tutorial-facebook-analytics/t_fb_connectingtotps.png)
    
-3. **계속**을 선택합니다. 
+3. **계속** 을 선택합니다. 
    
-4. **Facebook** 대화 상자에서 페이지 이름 **microsoftbi**를 **사용자 이름**으로 입력하고, **연결** 드롭다운에서 **게시물**을 선택한 다음, **확인**을 선택합니다.
+4. **Facebook** 대화 상자에서 페이지 이름 **microsoftbi** 를 **사용자 이름** 으로 입력하고, **연결** 드롭다운에서 **게시물** 을 선택한 다음, **확인** 을 선택합니다.
    
    ![연결](media/desktop-tutorial-facebook-analytics/2.png)
    
@@ -60,7 +60,7 @@ ms.locfileid: "91600476"
 
 먼저 **created_time** 열의 날짜 및 시간 값을 보다 읽기 쉽게 구분합니다. 
 
-1. Facebook 데이터 미리 보기에서 **편집**을 선택합니다. 
+1. Facebook 데이터 미리 보기에서 **편집** 을 선택합니다. 
    
    ![데이터 미리 보기 편집](media/desktop-tutorial-facebook-analytics/t_fb_1-editpreview.png)
    
@@ -68,17 +68,17 @@ ms.locfileid: "91600476"
    
    ![파워 쿼리 편집기](media/desktop-tutorial-facebook-analytics/t_fb_1-intoqueryeditor.png)
    
-2. **created_time** 열을 선택합니다. 열 머리글에 **ABC** 아이콘이 표시된 것으로 **텍스트** 데이터 형식임을 알 수 있습니다. 머리글을 마우스 오른쪽 단추로 클릭하고 드롭다운 목록에서 **열 분할** > **구분 기호 기준**을 선택합니다. 또는 리본의 **홈** 탭에 있는 **변환** 그룹에서 **열 분할** > **구분 기호 기준**을 선택합니다.  
+2. **created_time** 열을 선택합니다. 열 머리글에 **ABC** 아이콘이 표시된 것으로 **텍스트** 데이터 형식임을 알 수 있습니다. 머리글을 마우스 오른쪽 단추로 클릭하고 드롭다운 목록에서 **열 분할** > **구분 기호 기준** 을 선택합니다. 또는 리본의 **홈** 탭에 있는 **변환** 그룹에서 **열 분할** > **구분 기호 기준** 을 선택합니다.  
    
    ![구분 기호로 열 분할](media/desktop-tutorial-facebook-analytics/delimiter1.png)
    
-3. **구분 기호로 열 분할** 대화 상자의 드롭다운에서 **사용자 지정**을 선택하고, 입력 필드에 **T**(**created_time** 값의 시간 부분을 시작하는 문자)를 입력한 다음, **확인**을 선택합니다. 
+3. **구분 기호로 열 분할** 대화 상자의 드롭다운에서 **사용자 지정** 을 선택하고, 입력 필드에 **T**(**created_time** 값의 시간 부분을 시작하는 문자)를 입력한 다음, **확인** 을 선택합니다. 
    
    ![구분 기호로 열 분할 대화 상자](media/desktop-tutorial-facebook-analytics/delimiter2.png)
    
-   해당 열은 *T* 구분 기호의 앞뒤에 문자열을 포함하는 두 개의 열로 분할됩니다. 새 열의 이름은 각각 **created_time.1** 및 **created_time.2**로 지정됩니다. Power BI에서는 데이터 형식을 자동으로 검색하여 첫 번째 열에 대해 **날짜**로, 두 번째 열에 대해 **시간**으로 변경하고 날짜 및 시간 값의 서식을 보다 읽기 쉽게 지정했습니다.
+   해당 열은 *T* 구분 기호의 앞뒤에 문자열을 포함하는 두 개의 열로 분할됩니다. 새 열의 이름은 각각 **created_time.1** 및 **created_time.2** 로 지정됩니다. Power BI에서는 데이터 형식을 자동으로 검색하여 첫 번째 열에 대해 **날짜** 로, 두 번째 열에 대해 **시간** 으로 변경하고 날짜 및 시간 값의 서식을 보다 읽기 쉽게 지정했습니다.
    
-4. 두 열의 이름을 바꿉니다. **created_time.1** 열을 선택한 다음, 리본에 있는 **변환** 탭의 **임의 열** 그룹에서 **이름 바꾸기**를 선택합니다. 또는 열 머리글을 두 번 클릭하고 새 열 이름 **created_date**를 입력합니다. **created_time.2** 열에 대해 반복하고 이름을 **created_time**으로 바꿉니다.
+4. 두 열의 이름을 바꿉니다. **created_time.1** 열을 선택한 다음, 리본에 있는 **변환** 탭의 **임의 열** 그룹에서 **이름 바꾸기** 를 선택합니다. 또는 열 머리글을 두 번 클릭하고 새 열 이름 **created_date** 를 입력합니다. **created_time.2** 열에 대해 반복하고 이름을 **created_time** 으로 바꿉니다.
    
    ![새 날짜 및 시간 열](media/desktop-tutorial-facebook-analytics/delimiter3.png)
    
@@ -86,39 +86,39 @@ ms.locfileid: "91600476"
 
 날짜 및 시간 데이터를 원하는 대로 표시했으므로 중첩 열을 확장하여 댓글 데이터를 표시합니다. 
 
-1. **object_link** 열의 맨 위에 있는 ![확장 아이콘](media/desktop-tutorial-facebook-analytics/14.png) 아이콘을 선택하여 **확장/집계** 대화 상자를 엽니다. **connections**를 선택한 후 **확인**을 선택합니다. 
+1. **object_link** 열의 맨 위에 있는 ![확장 아이콘](media/desktop-tutorial-facebook-analytics/14.png) 아이콘을 선택하여 **확장/집계** 대화 상자를 엽니다. **connections** 를 선택한 후 **확인** 을 선택합니다. 
    
    ![object_link 확장](media/desktop-tutorial-facebook-analytics/expand1.png)
    
-   열 제목이 **object_link.connections**로 변경됩니다.
-2. **object_link.connections** 열의 맨 위에 있는 ![확장 아이콘](media/desktop-tutorial-facebook-analytics/14.png) 아이콘을 선택하고, **comments**를 선택한 후, **확인**을 선택합니다. 열 제목이 **object_link.connections.comments**로 변경됩니다.
+   열 제목이 **object_link.connections** 로 변경됩니다.
+2. **object_link.connections** 열의 맨 위에 있는 ![확장 아이콘](media/desktop-tutorial-facebook-analytics/14.png) 아이콘을 선택하고, **comments** 를 선택한 후, **확인** 을 선택합니다. 열 제목이 **object_link.connections.comments** 로 변경됩니다.
    
-3. **object_link.connections.comments** 열의 맨 위에 있는 ![확장 아이콘](media/desktop-tutorial-facebook-analytics/14.png) 아이콘을 선택하고, 이때 대화 상자에서 **확장** 대신 **집계**를 선택합니다. **# Count of id**를 선택한 후 **확인**을 선택합니다. 
+3. **object_link.connections.comments** 열의 맨 위에 있는 ![확장 아이콘](media/desktop-tutorial-facebook-analytics/14.png) 아이콘을 선택하고, 이때 대화 상자에서 **확장** 대신 **집계** 를 선택합니다. **# Count of id** 를 선택한 후 **확인** 을 선택합니다. 
    
    ![댓글 집계](media/desktop-tutorial-facebook-analytics/expand2.png)
    
    이제 열에 각 메시지에 대한 댓글 수가 표시됩니다. 
    
-4. **Count of object_link.connections.comments.id** 열의 이름을 **Number of comments**로 바꿉니다.
+4. **Count of object_link.connections.comments.id** 열의 이름을 **Number of comments** 로 바꿉니다.
    
-5. **Number of comments** 열 머리글 옆의 아래쪽 화살표를 선택하고 **내림차순 정렬**을 선택하면 게시물이 가장 많은 댓글부터 가장 적은 댓글 순으로 정렬됩니다. 
+5. **Number of comments** 열 머리글 옆의 아래쪽 화살표를 선택하고 **내림차순 정렬** 을 선택하면 게시물이 가장 많은 댓글부터 가장 적은 댓글 순으로 정렬됩니다. 
    
    ![메시지당 댓글 수](media/desktop-tutorial-facebook-analytics/data-fixed.png)
    
 ### <a name="review-query-steps"></a>쿼리 단계 검토
 
-Power Query 편집기에서 데이터를 셰이핑하고 변환할 때 각 단계가 **Power Query 편집기** 창 오른쪽에 있는 **쿼리 설정** 창의 **적용된 단계** 영역에 기록되었습니다. **적용된 단계**를 통해 이전 단계로 돌아가서 정확히 무엇을 변경했는지 확인하고, 필요한 경우 변경 내용을 편집, 삭제 또는 다시 정렬할 수 있습니다. 이전 단계를 변경하면 이후 단계가 중단될 수 있으므로 해당 단계를 수정할 경우 주의하세요. 
+Power Query 편집기에서 데이터를 셰이핑하고 변환할 때 각 단계가 **Power Query 편집기** 창 오른쪽에 있는 **쿼리 설정** 창의 **적용된 단계** 영역에 기록되었습니다. **적용된 단계** 를 통해 이전 단계로 돌아가서 정확히 무엇을 변경했는지 확인하고, 필요한 경우 변경 내용을 편집, 삭제 또는 다시 정렬할 수 있습니다. 이전 단계를 변경하면 이후 단계가 중단될 수 있으므로 해당 단계를 수정할 경우 주의하세요. 
 
-지금까지 데이터 변환을 적용한 후 **적용된 단계**는 다음과 같이 표시됩니다.
+지금까지 데이터 변환을 적용한 후 **적용된 단계** 는 다음과 같이 표시됩니다.
    
    ![적용된 단계](media/desktop-tutorial-facebook-analytics/applied-steps.png)
    
    >[!TIP]
-   >**적용된 단계**의 기초는 [파워 쿼리 M 수식 언어](/powerquery-m/quick-tour-of-the-power-query-m-formula-language)로 작성된 수식입니다. 수식을 보고 편집하려면 리본 메뉴의 **홈** 탭에 있는 **쿼리** 그룹에서 **고급 편집기**를 선택합니다. 
+   >**적용된 단계** 의 기초는 [파워 쿼리 M 수식 언어](/powerquery-m/quick-tour-of-the-power-query-m-formula-language)로 작성된 수식입니다. 수식을 보고 편집하려면 리본 메뉴의 **홈** 탭에 있는 **쿼리** 그룹에서 **고급 편집기** 를 선택합니다. 
 
 ### <a name="import-the-transformed-data"></a>변환된 데이터 가져오기
 
-데이터에 만족하면 리본의 **홈** 탭에서 **닫기 및 적용** > **닫기 및 적용**을 선택하여 Power BI Desktop으로 가져옵니다. 
+데이터에 만족하면 리본의 **홈** 탭에서 **닫기 및 적용** > **닫기 및 적용** 을 선택하여 Power BI Desktop으로 가져옵니다. 
    
    ![닫기 및 적용](media/desktop-tutorial-facebook-analytics/t_fb_1-loadandclose.png)
    
@@ -136,23 +136,23 @@ Power Query 편집기에서 데이터를 셰이핑하고 변환할 때 각 단�
 
 ### <a name="create-a-bar-chart"></a>가로 막대형 차트 만들기
 
-1. Power BI Desktop **보고서** 뷰의 **필드** 창에서 **message**를 선택하거나 보고서 캔버스로 끌어서 놓습니다. 모든 게시 메시지를 보여주는 테이블이 캔버스에 나타납니다. 
+1. Power BI Desktop **보고서** 뷰의 **필드** 창에서 **message** 를 선택하거나 보고서 캔버스로 끌어서 놓습니다. 모든 게시 메시지를 보여주는 테이블이 캔버스에 나타납니다. 
    
    ![메시지 목록이 포함된 보고서 뷰를 보여 주는 스크린샷.](media/desktop-tutorial-facebook-analytics/table-viz.png)
    
-2. 해당 테이블을 선택한 채 **필드** 창에서 **Number of comments**를 선택하거나 테이블로 끌어서 놓습니다. 
+2. 해당 테이블을 선택한 채 **필드** 창에서 **Number of comments** 를 선택하거나 테이블로 끌어서 놓습니다. 
    
 3. **시각화** 창에서 **누적 가로 막대형 차트** 아이콘을 선택합니다. 테이블은 게시물당 댓글 수를 보여주는 가로 막대형 차트로 변경됩니다. 
    
    ![가로 막대형 차트](media/desktop-tutorial-facebook-analytics/barchart1.png)
    
-4. 시각화 옆에 있는 **추가 옵션**(...)을 선택한 다음, **정렬 기준** > **Number of comments**를 선택하여 댓글 수의 내림차순으로 테이블을 정렬합니다. 
+4. 시각화 옆에 있는 **추가 옵션**(...)을 선택한 다음, **정렬 기준** > **Number of comments** 를 선택하여 댓글 수의 내림차순으로 테이블을 정렬합니다. 
 
    가장 많은 댓글이 **(공백)** 메시지와 연결되어 있었습니다(해당 게시물은 스토리, 링크, 비디오 또는 기타 텍스트가 아닌 콘텐츠였을 수 있음). 
    
-5. 공백 행을 필터링하려면 **필터** 창에서 **메시지(모두)** 를 선택하고, **모두 선택**을 선택한 다음, **(공백)** 을 선택하여 선택 취소합니다. 
+5. 공백 행을 필터링하려면 **필터** 창에서 **메시지(모두)** 를 선택하고, **모두 선택** 을 선택한 다음, **(공백)** 을 선택하여 선택 취소합니다. 
 
-   **필터** 창 항목이 **메시지가 (공백)이 아님**으로 변경되고 **(공백)** 행이 차트 시각화에 표시되지 않습니다.
+   **필터** 창 항목이 **메시지가 (공백)이 아님** 으로 변경되고 **(공백)** 행이 차트 시각화에 표시되지 않습니다.
    
    ![공백 행 필터링](media/desktop-tutorial-facebook-analytics/barchart3.png)
    
@@ -165,7 +165,7 @@ Power Query 편집기에서 데이터를 셰이핑하고 변환할 때 각 단�
 2. 차트를 선택한 채 **시각화** 창에서 **서식** 아이콘(페인트 롤러)을 선택합니다.
    
 3. **Y축** 옆의 아래쪽 화살표를 선택하고 **최대 크기** 슬라이더를 완전히 오른쪽(**50%** )으로 끕니다. 
-4. 또한 더 많은 텍스트가 표시되도록 **텍스트 크기**를 **10pt**로 줄입니다.
+4. 또한 더 많은 텍스트가 표시되도록 **텍스트 크기** 를 **10pt** 로 줄입니다.
    
    ![변경 내용 서식 지정](media/desktop-tutorial-facebook-analytics/barchart4.png)
    
@@ -175,9 +175,9 @@ Power Query 편집기에서 데이터를 셰이핑하고 변환할 때 각 단�
    
 차트의 X축(댓글 수)이 정확한 값을 표시하지 않고 차트의 맨 아래에 사라진 것으로 보입니다. 대신 데이터 레이블을 사용해 보겠습니다. 
 
-1. **서식** 아이콘을 선택하고 **X축** 슬라이더를 **끄기**로 설정합니다. 
+1. **서식** 아이콘을 선택하고 **X축** 슬라이더를 **끄기** 로 설정합니다. 
    
-2. **데이터 레이블** 슬라이더를 **켜기**로 선택합니다. 
+2. **데이터 레이블** 슬라이더를 **켜기** 로 선택합니다. 
 
    이제 차트에 각 게시물에 대한 정확한 댓글 수가 표시됩니다.
    
@@ -185,22 +185,22 @@ Power Query 편집기에서 데이터를 셰이핑하고 변환할 때 각 단�
    
 ### <a name="edit-the-data-type"></a>데이터 형식 편집
 
-더 나아지기는 했지만 데이터 레이블에는 모두 **.0** 소수 자릿수가 포함되는데, **Number of posts**는 정수여야 하기 때문에 이 소수 자릿수가 혼란을 주고 잘못 이해할 수 있습니다. 수정하려면 **Number of posts** 열의 데이터 형식을 **정수**로 변경해야 합니다.
+더 나아지기는 했지만 데이터 레이블에는 모두 **.0** 소수 자릿수가 포함되는데, **Number of posts** 는 정수여야 하기 때문에 이 소수 자릿수가 혼란을 주고 잘못 이해할 수 있습니다. 수정하려면 **Number of posts** 열의 데이터 형식을 **정수** 로 변경해야 합니다.
 
-1. **필드** 창에서 **Query1**을 마우스 오른쪽 단추로 클릭하거나, 해당 항목을 가리키고 **추가 옵션**(...)을 선택합니다. 
+1. **필드** 창에서 **Query1** 을 마우스 오른쪽 단추로 클릭하거나, 해당 항목을 가리키고 **추가 옵션**(...)을 선택합니다. 
 
-2. 상황에 맞는 메뉴에서 **쿼리 편집**을 선택합니다. 또는 리본에 있는 **홈** 탭의 **외부 데이터** 그룹에서 **쿼리 편집** > **쿼리 편집**을 선택합니다. 
+2. 상황에 맞는 메뉴에서 **쿼리 편집** 을 선택합니다. 또는 리본에 있는 **홈** 탭의 **외부 데이터** 그룹에서 **쿼리 편집** > **쿼리 편집** 을 선택합니다. 
    
 3. **Power Query 편집기** 창에서 **Number of comments** 열을 선택하고 다음 단계 중 하나를 수행하여 데이터 형식을 변경합니다. 
-   - **Number of comments** 열 머리글 옆에 있는 **1.2** 아이콘을 선택한 다음, 드롭다운 목록에서 **정수**를 선택합니다.
-   - 열 머리글을 마우스 오른쪽 단추로 클릭한 다음, **형식 변경** > **정수**를 선택합니다.
-   - **데이터 형식: 10진수**를 **홈** 탭의 **변환** 그룹에서 선택하거나 **변환** 탭의 **임의 열** 그룹에서 선택한 다음, **정수**를 선택합니다.
+   - **Number of comments** 열 머리글 옆에 있는 **1.2** 아이콘을 선택한 다음, 드롭다운 목록에서 **정수** 를 선택합니다.
+   - 열 머리글을 마우스 오른쪽 단추로 클릭한 다음, **형식 변경** > **정수** 를 선택합니다.
+   - **데이터 형식: 10진수** 를 **홈** 탭의 **변환** 그룹에서 선택하거나 **변환** 탭의 **임의 열** 그룹에서 선택한 다음, **정수** 를 선택합니다.
    
-   열 머리글의 아이콘이 **정수** 데이터 형식을 나타내는 **123**으로 변경됩니다.
+   열 머리글의 아이콘이 **정수** 데이터 형식을 나타내는 **123** 으로 변경됩니다.
    
    ![데이터 형식 변경](media/desktop-tutorial-facebook-analytics/change-datatype.png)
    
-3. 변경 내용을 적용하려면 **파일** > **닫기 및 적용**을 선택하거나, **파일** > **적용**을 선택하여 **Power Query 편집기** 창을 열어 둡니다. 
+3. 변경 내용을 적용하려면 **파일** > **닫기 및 적용** 을 선택하거나, **파일** > **적용** 을 선택하여 **Power Query 편집기** 창을 열어 둡니다. 
 
    변경 내용이 로드되면 차트의 데이터 레이블이 정수가 됩니다.
    
@@ -232,11 +232,11 @@ Power Query 편집기에서 데이터를 셰이핑하고 변환할 때 각 단�
 
 1. 차트를 선택한 채 **시각화** 창에서 **서식** 아이콘을 선택한 다음, **제목** 옆에 있는 드롭다운 화살표를 선택하여 확장합니다.
 
-2. **제목 텍스트**를 **Comments per post**로 변경합니다. 
+2. **제목 텍스트** 를 **Comments per post** 로 변경합니다. 
 
 3. **글꼴색** 옆의 드롭다운 화살표를 선택하고 녹색을 선택하여 시각화의 녹색 막대와 일치시킵니다.
 
-4. **텍스트 크기**를 **10pt**로 늘리고 **글꼴 패밀리**를 **Segoe (Bold)** 로 변경합니다.
+4. **텍스트 크기** 를 **10pt** 로 늘리고 **글꼴 패밀리** 를 **Segoe (Bold)** 로 변경합니다.
 
 5. 다른 서식 옵션 및 설정을 사용하여 시각화 모양을 변경해 봅니다. 
 

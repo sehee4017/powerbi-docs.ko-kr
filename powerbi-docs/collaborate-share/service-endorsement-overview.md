@@ -2,18 +2,18 @@
 title: 보증 - Power BI 콘텐츠 승격 및 인증
 description: 승격이나 인증을 통해 고품질 콘텐츠를 더 쉽게 찾을 수 있도록 하는 방법 알아보기
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: conceptual
 ms.date: 10/26/2020
-ms.author: painbar
 LocalizationGroup: Share your work
-ms.openlocfilehash: af222d1ebedf8e9afa2529d3d433da5d003a8059
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 65a83bf0e91d4f3004445ffcd8cd6f78d5a77fc3
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92681921"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411842"
 ---
 # <a name="endorsement---promoting-and-certifying-power-bi-content"></a>보증 - Power BI 콘텐츠 승격 및 인증
 
@@ -23,15 +23,15 @@ ms.locfileid: "92681921"
 
 보증에는 **승격** 과 **인증** 두 종류가 있습니다.
 
-* **승격** : 승격을 통해 사용자는 중요하고 다른 사용자가 사용할 가치가 있다고 생각하는 콘텐츠를 강조 표시할 수 있습니다. 이 방법은 조직 내에서 콘텐츠의 공동 사용 및 분산을 권장합니다.
+* **승격**: 승격을 통해 사용자는 중요하고 다른 사용자가 사용할 가치가 있다고 생각하는 콘텐츠를 강조 표시할 수 있습니다. 이 방법은 조직 내에서 콘텐츠의 공동 사용 및 분산을 권장합니다.
 
     모든 콘텐츠 소유자 또는 콘텐츠가 있는 작업 영역에 대한 쓰기 권한이 있는 모든 멤버는 공유할 가치가 있다고 생각할 경우 콘텐츠를 승격할 수 있습니다.
 
-* **인증** : 인증이란 콘텐츠가 조직의 품질 표준을 충족하고 신뢰할 수 있고 권한이 있어 조직 전체에서 사용할 수 있는 것으로 간주됨을 의미합니다.
+* **인증**: 인증이란 콘텐츠가 조직의 품질 표준을 충족하고 신뢰할 수 있고 권한이 있어 조직 전체에서 사용할 수 있는 것으로 간주됨을 의미합니다.
 
     Power BI 관리자가 정의한 선택된 검토자 그룹에만 콘텐츠를 인증할 권한이 부여됩니다. 인증된 콘텐츠를 확인하려고 하는데 콘텐츠를 인증할 수 있는 권한이 없는 콘텐츠 소유자는 콘텐츠 인증에 대한 조직의 지침을 따라야 합니다.
 
-    **인증은 Power BI 관리자가 조직에 대해 사용하도록 설정하고 구성한 경우에만 사용할 수 있습니다** .
+    **인증은 Power BI 관리자가 조직에 대해 사용하도록 설정하고 구성한 경우에만 사용할 수 있습니다**.
 
 아래 이미지에서는 보고서를 작성할 데이터 세트를 검색할 때 보증된 콘텐츠(승격 및 인증)를 명확하게 식별하는 방법을 보여 줍니다.
 

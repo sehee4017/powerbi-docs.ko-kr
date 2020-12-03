@@ -2,19 +2,19 @@
 title: Power BI의 데이터 보호
 description: Power BI의 데이터 보호에 대해 알아봅니다.
 author: paulinbar
+ms.author: painbar
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: conceptual
 ms.date: 09/17/2020
-ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 27f4aa5f186b2af49a4c4d8f0427b4e59e2dc97e
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 4405b83dae3d517b16099725ab10990cc8e503f4
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854440"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413360"
 ---
 # <a name="data-protection-in-power-bi"></a>Power BI의 데이터 보호
 
@@ -32,7 +32,7 @@ Power BI의 데이터 보호 기능은 Microsoft의 강력한 보안에 기반�
 Power BI의 데이터 보호 기능을 사용하면 다음을 수행할 수 있습니다.
 
 * Office 및 기타 Microsoft 제품에서 사용되는 Microsoft Information Protection 민감도 레이블을 사용하여 **중요한 Power BI 데이터를 분류하고 레이블 지정**.  
-* Power BI 콘텐츠를 Excel, PowerPoint, PDF 및 기타 지원되는 내보내기 형식으로 내보낼 때도 **거버넌스 정책을 적용**하여 Power BI에서 나가는 데이터 보호.
+* Power BI 콘텐츠를 Excel, PowerPoint, PDF 및 기타 지원되는 내보내기 형식으로 내보낼 때도 **거버넌스 정책을 적용** 하여 Power BI에서 나가는 데이터 보호.
 * Cloud App Security를 사용하여 경고, 세션 모니터링, 위험 수정을 통해 **중요한 데이터에 대한 사용자 활동을 실시간으로 모니터링하고 보호**.
 * Microsoft Cloud App Security를 통해 데이터 보호 보고서 및 보안 조사 기능을 사용하는 **보안 관리자의 조직 감독 역량 강화**.
 

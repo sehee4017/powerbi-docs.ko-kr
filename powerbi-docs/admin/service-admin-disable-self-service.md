@@ -1,21 +1,21 @@
 ---
 title: 셀프 서비스 등록 및 구매 사용 또는 사용 안 함
 description: 관리자가 Power BI 서비스에 등록하고 라이선스를 업그레이드할 수 있는 기능을 해제하는 방법에 대한 정보입니다.
-author: kfollis
+author: mihart
+ms.author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 04/08/2020
-ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 966699f20e83a7ea34140486f97f4491c4ba35e2
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: ff695d49caeab7bed88b932cec6aaec11ec4df29
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857453"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413682"
 ---
 # <a name="enable-or-disable-self-service-sign-up-and-purchasing"></a>셀프 서비스 등록 및 구매 사용 또는 사용 안 함
 
@@ -28,13 +28,13 @@ ms.locfileid: "90857453"
 
 PowerShell 명령을 사용하여 셀프 서비스 등록 및 구매를 제어하는 설정을 변경합니다. 조직의 사용자가 셀프 서비스 등록을 수행하거나 셀프 서비스를 구매할 수 있는지 여부를 제어하는 두 가지 설정이 있습니다.
 
-- 모든 셀프 서비스 등록을 사용하지 않도록 설정하려면 Azure AD PowerShell 명령을 사용하여 **AllowAdHocSubscriptions**라는 Azure Active Directory의 설정을 변경합니다. 이 문서의 단계를 수행하여 [셀프 서비스 등록을 사용하거나 사용하지 않도록 합니다](#enable-or-disable-self-service-signup). 이 옵션은 *모든* Microsoft 클라우드 기반 앱 및 서비스에 대한 셀프 서비스 등록 기능을 해제합니다.
+- 모든 셀프 서비스 등록을 사용하지 않도록 설정하려면 Azure AD PowerShell 명령을 사용하여 **AllowAdHocSubscriptions** 라는 Azure Active Directory의 설정을 변경합니다. 이 문서의 단계를 수행하여 [셀프 서비스 등록을 사용하거나 사용하지 않도록 합니다](#enable-or-disable-self-service-signup). 이 옵션은 *모든* Microsoft 클라우드 기반 앱 및 서비스에 대한 셀프 서비스 등록 기능을 해제합니다.
 
 - 사용자가 자신의 Pro 라이선스를 구매하지 못하게 하려면 MSCommerce PowerShell 명령을 사용하여 **AllowSelfServicePurchase** 설정을 변경합니다. 이 설정을 사용하면 특정 제품에 대한 셀프 서비스 구매를 해제할 수 있습니다. 이 문서의 단계에 따라 [Power BI Pro 라이선스의 셀프 서비스 구매를 사용 하거나 사용하지 않도록 설정합니다](#enable-or-disable-self-service-purchase).
 
 ## <a name="enable-or-disable-self-service-signup"></a>셀프 서비스 등록 사용 또는 사용 안 함
 
-셀프 서비스 등록을 사용하도록 설정하면 **AllowAdHocSubscriptions**의 값이  *true*가 됩니다. 이 설정을 *false*로 변경하면 어떻게 되는지 살펴보겠습니다.
+셀프 서비스 등록을 사용하도록 설정하면 **AllowAdHocSubscriptions** 의 값이  *true* 가 됩니다. 이 설정을 *false* 로 변경하면 어떻게 되는지 살펴보겠습니다.
 
 - 설정을 true에서 false로 변경하면 조직의 새 사용자 개별 등록이 차단됩니다. 설정 변경 이전에 Power BI를 등록한 사용자의 경우 등록한 라이선스가 유지됩니다.
 
@@ -80,7 +80,7 @@ Set-MsolCompanySettings -AllowAdHocSubscriptions $false
 
 ## <a name="enable-or-disable-self-service-purchase"></a>셀프 서비스 구매 사용 또는 사용 안 함
 
-셀프 서비스 구매를 사용하는 경우 **AllowSelfServicePurchase**의 값이 *true*가 됩니다. 이 설정을 *false*로 변경하면 어떻게 되는지 살펴보겠습니다.
+셀프 서비스 구매를 사용하는 경우 **AllowSelfServicePurchase** 의 값이 *true* 가 됩니다. 이 설정을 *false* 로 변경하면 어떻게 되는지 살펴보겠습니다.
 
 - 설정을 true에서 false로 변경하는 경우 조직의 사용자는 자신의 Power BI Pro 라이선스를 구입하지 못하도록 차단됩니다. 설정 변경 이전에 라이선스를 구매한 사용자의 경우 구매한 라이선스가 유지됩니다.
 
@@ -116,7 +116,7 @@ Connect-MSCommerce
 Get-MSCommercePolicy -PolicyId AllowSelfServicePurchase | fl
 ```
 
-**ProductId**를 제공하여 개별 제품에 대한 셀프 서비스 구매를 허용하는 설정을 사용하지 않도록 설정할 수 있습니다. Power BI 서비스에 대한 현재 설정을 변경하려면 다음 명령을 실행합니다.
+**ProductId** 를 제공하여 개별 제품에 대한 셀프 서비스 구매를 허용하는 설정을 사용하지 않도록 설정할 수 있습니다. Power BI 서비스에 대한 현재 설정을 변경하려면 다음 명령을 실행합니다.
 
 ```powershell
 Update-MSCommerceProductPolicy -PolicyId AllowSelfServicePurchase -ProductId CFQ7TTC0L3PB -Enabled $False

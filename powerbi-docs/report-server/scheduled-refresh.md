@@ -2,18 +2,18 @@
 title: Power BI Report Server에서 Power BI 보고서 예약된 새로 고침
 description: Power BI 보고서 예약된 새로 고침을 사용하면 모델이 포함된 보고서 데이터를 최신 상태로 유지할 수 있습니다.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/09/2020
-ms.author: maggies
-ms.openlocfilehash: 710df5f4159f49884d9eee1044b2c077c7edcb88
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 4dd8914abe1f098b66d23daa299200b90b9bda6a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749095"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412578"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Power BI Report Server에서 Power BI 보고서 예약된 새로 고침
 Power BI 보고서에 대해 예약된 새로 고침을 통해 보고서에 대한 데이터를 최신 상태로 유지할 수 있습니다.
@@ -36,7 +36,7 @@ Power BI 보고서에 대해 예약된 새로 고침을 사용하는 경우 몇 
 * 스케일 아웃 구성에서 데이터 모델을 노드 간에 복제할 수 있습니다.
 * Analysis Services는 데이터를 처리하고 필요한 계산을 실행합니다.
 
-Power BI Report Server는 모든 예약된 작업에 대한 이벤트 큐를 유지 관리합니다. 또한 새 이벤트를 확인하기 위해 정기적으로 큐를 폴링합니다. 기본적으로 큐는 10초 간격으로 검색됩니다. RSReportServer.config 파일에서 **PollingInterval**, **IsNotificationService**및 **IsEventService** 구성 설정을 수정하여 간격을 변경할 수 있습니다. **IsDataModelRefreshService**는 보고서 서버가 예약된 이벤트를 처리하는지 여부를 설정하는 데 사용될 수도 있습니다.
+Power BI Report Server는 모든 예약된 작업에 대한 이벤트 큐를 유지 관리합니다. 또한 새 이벤트를 확인하기 위해 정기적으로 큐를 폴링합니다. 기본적으로 큐는 10초 간격으로 검색됩니다. RSReportServer.config 파일에서 **PollingInterval**, **IsNotificationService** 및 **IsEventService** 구성 설정을 수정하여 간격을 변경할 수 있습니다. **IsDataModelRefreshService** 는 보고서 서버가 예약된 이벤트를 처리하는지 여부를 설정하는 데 사용될 수도 있습니다.
 
 ### <a name="analysis-services"></a>Analysis Services
 Power BI 보고서 렌더링뿐만 아니라 예약된 새로 고침을 수행하는 데에는 Analysis Services에서 Power BI 보고서의 데이터 모델 로딩이 필요합니다. Analysis Services 프로세스는 Power BI Report Server와 함께 실행됩니다.
@@ -47,11 +47,11 @@ Power BI 보고서 렌더링뿐만 아니라 예약된 새로 고침을 수행�
 
 * 보고서는 라이브 연결을 사용하는 하나 이상의 Analysis Services 데이터 원본을 포함합니다.
 * 보고서에는 DirectQuery를 사용하는 하나 이상의 데이터 원본이 포함되어 있습니다.
-* 보고서는 데이터 원본을 포함하지 않습니다. 예를 들어, 데이터가 *데이터 입력*을 통해 수동으로 입력되거나 보고서가 이미지, 텍스트 등과 같은 정적 콘텐츠만 포함하는 경우입니다.
+* 보고서는 데이터 원본을 포함하지 않습니다. 예를 들어, 데이터가 *데이터 입력* 을 통해 수동으로 입력되거나 보고서가 이미지, 텍스트 등과 같은 정적 콘텐츠만 포함하는 경우입니다.
 
 위의 목록 외에도 새로 고침 계획을 만들 수 없는 *가져오기* 모드에서 데이터 원본이 있는 특정 시나리오가 있습니다.
 
-* *파일* 또는 *폴더* 데이터 원본이 사용되고 파일 경로가 로컬 경로(예: C:\Users\user\Documents)인 경우 새로 고침 계획을 만들 수 없습니다. 경로는 보고서 서버가 네트워크 공유와 같은 작업에 연결할 수 있는 경로여야 합니다. 예를 들어, *\\myshare\Documents*입니다.
+* *파일* 또는 *폴더* 데이터 원본이 사용되고 파일 경로가 로컬 경로(예: C:\Users\user\Documents)인 경우 새로 고침 계획을 만들 수 없습니다. 경로는 보고서 서버가 네트워크 공유와 같은 작업에 연결할 수 있는 경로여야 합니다. 예를 들어, *\\myshare\Documents* 입니다.
 * OAuth(예: Facebook, Google Analytics, Salesforce 등)만을 사용하여 데이터 원본을 연결할 수 있는 경우 캐시 새로 고침 계획을 만들 수 없습니다. 현재 RS는 페이지를 매긴, 모바일 또는 Power BI 보고서에 대한 것인지에 관계없이 모든 데이터 원본에 대한 OAuth 인증을 지원하지 않습니다.
 
 ### <a name="memory-limits"></a>메모리 제한

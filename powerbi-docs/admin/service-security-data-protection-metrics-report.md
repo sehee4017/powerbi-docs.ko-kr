@@ -2,19 +2,19 @@
 title: 데이터 보호 메트릭 보고서
 description: 데이터 보호 메트릭 보고서에 대한 자세한 정보
 author: paulinbar
+ms.author: painbar
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 08/16/2020
-ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: ea4aa1772712fbfff67ab749a379638ba698f554
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: a5aa410e6624c5cb50be055533c698afe938f0ef
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854509"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412187"
 ---
 # <a name="data-protection-metrics-report"></a>데이터 보호 메트릭 보고서
 
@@ -33,7 +33,7 @@ ms.locfileid: "90854509"
 ## <a name="viewing-the-data-protection-metrics-report"></a>데이터 보호 메트릭 보고서 보기
 
 보고서를 열고 보려면 [Power BI 관리자 역할](./service-admin-role.md)이 있어야 합니다.
-보고서를 보려면 **설정 > 관리 포털**로 이동한 다음 **보호 메트릭**을 선택합니다.
+보고서를 보려면 **설정 > 관리 포털** 로 이동한 다음 **보호 메트릭** 을 선택합니다.
 
 ![보호 메트릭 관리 포털](./media/service-security-data-protection-metrics-report/protection-metrics-admin-portal.png)
  

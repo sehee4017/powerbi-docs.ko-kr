@@ -2,20 +2,20 @@
 title: Analysis Services 테이블 형식 모델을 사용하여 동적 행 수준 보안
 description: 온-프레미스 Analysis Services 테이블 형식 모델을 사용하여 동적 행 수준 보안
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: davidi
 editor: davidi
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: tutorial
 ms.date: 01/17/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 047c4e7d71cbbae95f4b1f8067548d807421385d
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: b1e95bc7494e1de9a8eae82578e73382081037dc
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349601"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410922"
 ---
 # <a name="implement-row-level-security-in-an-on-premises-analysis-services-tabular-model"></a>온-프레미스 Analysis Services 테이블 형식 모델에서 행 수준 보안 구현
 

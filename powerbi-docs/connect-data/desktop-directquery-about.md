@@ -2,19 +2,19 @@
 title: Power BI의 DirectQuery 사용
 description: Power BI에서 DirectQuery를 사용하는 방법을 설명하고 DirectQuery 또는 기타 옵션을 언제 어떻게 사용해야 하는지에 대한 모범 사례를 안내합니다.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 11/17/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0f6f4cdb221773218c945e7f800d569c73a9a130
-ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
+ms.openlocfilehash: 39b6a95a9a5140e1013d3eaa400c968c40b3063c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94718986"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411313"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>Power BI에서 DirectQuery를 사용하는 방법
 

@@ -2,19 +2,19 @@
 title: Azure Data Lake Gen 2를 사용하도록 데이터 흐름 스토리지 구성
 description: Azure Data Lake Gen 2 스토리지를 사용하여 작업 영역 또는 테넌트를 구성하는 방법의 개요
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-dataflows
 ms.topic: how-to
 ms.date: 11/13/2020
-ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: f38908645cdf7846d43f97485c7a2d3e9e2e9b7b
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 106a70b567be7fc095dbc29917036b92b0f577e5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668100"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412555"
 ---
 # <a name="configuring-dataflow-storage-to-use-azure-data-lake-gen-2"></a>Azure Data Lake Gen 2를 사용하도록 데이터 흐름 스토리지 구성 
 

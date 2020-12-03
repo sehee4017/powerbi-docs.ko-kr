@@ -2,19 +2,19 @@
 title: Power Automate를 사용하여 페이지가 매겨진 보고서 내보내기
 description: Power BI 페이지를 매긴 보고서를 내보내는 Power Automate 흐름을 만드는 방법을 알아봅니다.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 11/17/2020
-ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 7cc3969b735c64de39ac41fdc6acf2152c4cda35
-ms.sourcegitcommit: 8afdd3601209636c9ab92d75f967d4ee0a2cab26
+ms.openlocfilehash: 2689597e35801d6829b29790309ea53ad410ff47
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "95011938"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412026"
 ---
 # <a name="export-power-bi-paginated-reports-with-power-automate"></a>Power Automate를 사용하여 Power BI 페이지를 매긴 보고서 내보내기
 

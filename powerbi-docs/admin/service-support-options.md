@@ -2,18 +2,18 @@
 title: Power BI Pro 및 Power BI Premium 지원 옵션
 description: 이 문서는 Power BI Pro 및 Power BI Premium의 고객에게 사용 가능한 지원 옵션을 설명합니다.
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/17/2019
-ms.author: kfollis
-ms.openlocfilehash: 3ec6e3f060b495efd6b961a7a16d8e1cf68f44c9
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 3071d9034883c61837370348b2047c1874d0c977
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84120637"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412049"
 ---
 # <a name="power-bi-pro-and-power-bi-premium-support-options"></a>Power BI Pro 및 Power BI Premium 지원 옵션
 
@@ -28,7 +28,7 @@ ms.locfileid: "84120637"
 | **Microsoft 프리미어 지원**: 계정 관리를 사용하여 현장 검색과 같은 옵션 및 학습 및 데이터 모델 성능 최적화와 같은 사전 대응 서비스를 지원하는 엔터프라이즈 수준의 접근 방식입니다. | X | X | X | 제품 및 사례의 심각도에 따라 다양합니다.\* | 기술 계정 관리자 <br>OR<br> [Microsoft 365 관리 센터](https://portal.office.com/adminportal) |
 | | | | | | |
 
-\* 1시간 SLA는 _심각도 A 사례_를 통해서만 지원됩니다. 여기에는 기존 프로덕션 보고에서 작업 중단으로부터 직접적이며 즉각적인 비즈니스 영향을 줄 수 있는 근거가 필요합니다.
+\* 1시간 SLA는 _심각도 A 사례_ 를 통해서만 지원됩니다. 여기에는 기존 프로덕션 보고에서 작업 중단으로부터 직접적이며 즉각적인 비즈니스 영향을 줄 수 있는 근거가 필요합니다.
 
 ## <a name="power-bi-benefits-for-microsoft-premier-support"></a>Microsoft 프리미어 지원에 대한 Power BI의 장점
 
@@ -42,7 +42,7 @@ Microsoft 프리미어 지원에는 다음과 같은 추가 장점이 있습니�
 
 Power BI 고객인 경우 사전 대응 지원 시간 동안 다음 제품을 활용할 수도 있습니다.
 
- - **Power BI 평가**는 Power BI 환경에서 잠재적인 문제 및 성능을 진단하기 위해 공인된 Microsoft 엔지니어에 의해 제공되는 사전 대응 서비스입니다. 엔지니어는 Power BI 환경의 상태 및 성능을 개선하기 위해 권장되는 사례에 중요한 지침을 제공합니다. 이렇게 참여하면 평가 결과, 자세한 모범 사례 지침 데크 및 사용자 환경에 대해 조정된 요약 보고서를 포함하는 포괄적인 Power BI 보고서를 받게 됩니다.
+ - **Power BI 평가** 는 Power BI 환경에서 잠재적인 문제 및 성능을 진단하기 위해 공인된 Microsoft 엔지니어에 의해 제공되는 사전 대응 서비스입니다. 엔지니어는 Power BI 환경의 상태 및 성능을 개선하기 위해 권장되는 사례에 중요한 지침을 제공합니다. 이렇게 참여하면 평가 결과, 자세한 모범 사례 지침 데크 및 사용자 환경에 대해 조정된 요약 보고서를 포함하는 포괄적인 Power BI 보고서를 받게 됩니다.
 
  - **Power BI를 사용하여 비즈니스 분석 활성화** 3일 동안 Microsoft PFE(프리미어 필드 엔지니어)를 사용하여 함께 작업하여 다음 옵션 중 하나를 개선할 목적으로 Power BI에서 개념 증명을 개발합니다.
     - 유지 관리하고 배포하기 위해 상당한 노력을 필요로 하는 자세한 보고서를 자동화합니다.

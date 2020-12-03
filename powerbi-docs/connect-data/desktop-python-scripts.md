@@ -2,19 +2,19 @@
 title: Power BI Desktop에서 Python 스크립트 실행
 description: Power BI Desktop에서 Python 스크립트 실행
 author: otarb
+ms.author: otarb
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 06/02/2020
-ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f97bde6b6754283ca13ff9dd3db3682183f74e26
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: eae2a6710d38547aeb13e9a77db8123def74e836
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223200"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410991"
 ---
 # <a name="run-python-scripts-in-power-bi-desktop"></a>Power BI Desktop에서 Python 스크립트 실행
 
@@ -42,15 +42,15 @@ pip install matplotlib
 
 Python 스크립팅을 사용하도록 설정하려면 다음을 수행합니다.
 
-1. Power BI Desktop에서 **파일** > **옵션 및 설정** > **옵션** > **Python 스크립팅**을 선택합니다. **Python 스크립트 옵션** 페이지가 나타납니다.
+1. Power BI Desktop에서 **파일** > **옵션 및 설정** > **옵션** > **Python 스크립팅** 을 선택합니다. **Python 스크립트 옵션** 페이지가 나타납니다.
 
    ![Power BI Desktop의 Python 스크립트 옵션](media/desktop-python-scripts/python-scripts-7.png)
 
-1. 필요한 경우, **검색된 Python 홈 디렉터리**에 로컬 Python 설치 경로를 지정합니다.
+1. 필요한 경우, **검색된 Python 홈 디렉터리** 에 로컬 Python 설치 경로를 지정합니다.
 
-   위의 그림에서 Python의 설치 로컬 경로는 *C:\Python*입니다. 경로가 Power BI Desktop에서 사용할 로컬 Python 설치 경로인지 확인합니다.
+   위의 그림에서 Python의 설치 로컬 경로는 *C:\Python* 입니다. 경로가 Power BI Desktop에서 사용할 로컬 Python 설치 경로인지 확인합니다.
 
-1. **확인**을 선택합니다.
+1. **확인** 을 선택합니다.
 
 Python 설치를 지정하면, Power BI Desktop에서 Python 스크립트 실행을 시작할 준비가 된 것입니다.
 
@@ -90,17 +90,17 @@ Power BI Desktop에서 Python 스크립트를 준비하고 실행하는 경우 �
 
 Power BI Desktop에서 Python 스크립트를 실행하려면 다음을 수행합니다.
 
-1. 홈 리본에서 **데이터 가져오기** > **기타**를 선택합니다.
+1. 홈 리본에서 **데이터 가져오기** > **기타** 를 선택합니다.
 
-1. 다음 그림과 같이 **기타** > **Python 스크립트**를 선택합니다.
+1. 다음 그림과 같이 **기타** > **Python 스크립트** 를 선택합니다.
 
    ![데이터 가져오기 Python 스크립트 선택](media/desktop-python-scripts/python-scripts-1.png)
 
-1. **연결**을 선택합니다. 로컬에 설치된 최신 Python 버전이 Python 엔진으로 선택됩니다. 표시되는 **Python 스크립트** 대화 상자에 스크립트를 복사합니다. 여기서는 앞에 표시된 간단한 Python 스크립트를 입력합니다.
+1. **연결** 을 선택합니다. 로컬에 설치된 최신 Python 버전이 Python 엔진으로 선택됩니다. 표시되는 **Python 스크립트** 대화 상자에 스크립트를 복사합니다. 여기서는 앞에 표시된 간단한 Python 스크립트를 입력합니다.
 
    ![샘플 Python 스크립트](media/desktop-python-scripts/python-scripts-6.png)
 
-1. **확인**을 선택합니다. 스크립트가 성공적으로 실행되면 **탐색기**가 표시되고, 데이터를 로드하여 사용할 수 있습니다. 예에서는 그림과 같이 **df**를 선택한 다음 **로드**를 선택합니다.
+1. **확인** 을 선택합니다. 스크립트가 성공적으로 실행되면 **탐색기** 가 표시되고, 데이터를 로드하여 사용할 수 있습니다. 예에서는 그림과 같이 **df** 를 선택한 다음 **로드** 를 선택합니다.
 
    ![로드하여 사용할 데이터를 보여 주는 탐색기](media/desktop-python-scripts/python-scripts-5.png) 
 
@@ -120,7 +120,7 @@ Power BI는 설정 페이지를 통해 제공되는 사용자 제공 디렉터�
 
 ### <a name="refresh"></a>새로 고침
 
-Power BI Desktop에서 Python 스크립트를 새로 고칠 수 있습니다. 새로 고치려면 **홈** 리본으로 이동한 다음, **새로 고침**을 선택합니다. Python 스크립트를 새로 고치면 Power BI Desktop에서 Python 스크립트를 다시 실행합니다.
+Power BI Desktop에서 Python 스크립트를 새로 고칠 수 있습니다. 새로 고치려면 **홈** 리본으로 이동한 다음, **새로 고침** 을 선택합니다. Python 스크립트를 새로 고치면 Power BI Desktop에서 Python 스크립트를 다시 실행합니다.
 
 ## <a name="known-limitations"></a>알려진 제한 사항
 

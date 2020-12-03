@@ -2,20 +2,20 @@
 title: Power BI Desktop에서 Azure Cost Management 데이터에 연결
 description: Power BI Desktop을 사용하여 쉽게 Azure에 연결하고 Azure 비용 및 사용 현황에 대한 인사이트를 얻을 수 있습니다.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 09/30/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: eae8afc9db44b703ade1a9a4fcc28c24c3d72641
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: fa06b1d561c770c3b9e0535e94789931a74bd9df
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599886"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411474"
 ---
 # <a name="create-visuals-and-reports-with-the-azure-cost-management-connector-in-power-bi-desktop"></a>Power BI Desktop에서 Azure Cost Management 커넥터를 사용하여 시각적 개체 및 보고서 만들기
 
@@ -32,27 +32,27 @@ Azure Cost Management 커넥터는 Azure 인증에 OAuth 2.0을 사용하며, �
 
 ## <a name="connect-using-azure-cost-management"></a>Azure Cost Management를 사용하여 연결
 
-Power BI Desktop에서 **Azure Cost Management 커넥터**를 사용하려면 다음 단계를 수행합니다.
+Power BI Desktop에서 **Azure Cost Management 커넥터** 를 사용하려면 다음 단계를 수행합니다.
 
-1.  **홈** 리본에서 **데이터 가져오기**를 선택합니다.
-2.  데이터 범주 목록에서 **Azure**를 선택합니다.
-3.  **Azure Cost Management**를 선택합니다.
+1.  **홈** 리본에서 **데이터 가져오기** 를 선택합니다.
+2.  데이터 범주 목록에서 **Azure** 를 선택합니다.
+3.  **Azure Cost Management** 를 선택합니다.
 
     ![데이터 가져오기](media/desktop-connect-azure-cost-management/azure-cost-management-00b.png)
 
-4. 표시되는 대화 상자에서 **Microsoft 고객 계약**용 **청구 프로필 ID** 또는 **기업계약(EA)** 용 **등록 번호**를 입력합니다. 
+4. 표시되는 대화 상자에서 **Microsoft 고객 계약** 용 **청구 프로필 ID** 또는 **기업계약(EA)** 용 **등록 번호** 를 입력합니다. 
 
 
 ## <a name="connect-to-a-microsoft-customer-agreement-account"></a>Microsoft 고객 계약 계정에 연결 
 
-**Microsoft 고객 계약** 계정에 연결하려면 Azure 포털에서 **청구 프로필 ID**를 가져올 수 있습니다.
+**Microsoft 고객 계약** 계정에 연결하려면 Azure 포털에서 **청구 프로필 ID** 를 가져올 수 있습니다.
 
-1.  [Azure Portal](https://portal.azure.com/)에서 **Cost Management + 청구**로 이동합니다.
+1.  [Azure Portal](https://portal.azure.com/)에서 **Cost Management + 청구** 로 이동합니다.
 2.  청구 프로필을 선택합니다. 
-3.  메뉴의 **설정** 아래에 사이드바에서 **속성**을 선택합니다.
-4.  **청구 프로필**에서 **ID**를 복사합니다. 
-5.  **범위 선택**에 대해 **청구 프로필 ID**를 선택하고 이전 단계의 청구 프로필 ID를 붙여넣습니다. 
-6.  개월 수를 입력하고 **확인**을 선택합니다.
+3.  메뉴의 **설정** 아래에 사이드바에서 **속성** 을 선택합니다.
+4.  **청구 프로필** 에서 **ID** 를 복사합니다. 
+5.  **범위 선택** 에 대해 **청구 프로필 ID** 를 선택하고 이전 단계의 청구 프로필 ID를 붙여넣습니다. 
+6.  개월 수를 입력하고 **확인** 을 선택합니다.
 
     ![청구 프로필 ID 범위가 있는 Azure Cost Management 속성을 보여 주는 스크린샷.](media/desktop-connect-azure-cost-management/azure-cost-management-01a.png)
 
@@ -63,11 +63,11 @@ Power BI Desktop에서 **Azure Cost Management 커넥터**를 사용하려면 �
 
 기업계약(EA) 계정에 연결하기 위해 Azure 포털에서 등록 ID를 가져올 수 있습니다.
 
-1.  [Azure Portal](https://portal.azure.com/)에서 **Cost Management + 청구**로 이동합니다.
+1.  [Azure Portal](https://portal.azure.com/)에서 **Cost Management + 청구** 로 이동합니다.
 2.  청구 계정을 선택합니다.
-3.  **개요** 메뉴에서 **청구 계정 ID**를 복사합니다.
-4.  **범위 선택**에 대해 **등록 번호**를 선택하고 이전 단계의 청구 계정 ID를 붙여넣습니다. 
-5.  개월 수를 입력한 다음 **확인**을 선택합니다.
+3.  **개요** 메뉴에서 **청구 계정 ID** 를 복사합니다.
+4.  **범위 선택** 에 대해 **등록 번호** 를 선택하고 이전 단계의 청구 계정 ID를 붙여넣습니다. 
+5.  개월 수를 입력한 다음 **확인** 을 선택합니다.
 
     ![등록 번호 범위가 있는 Azure Cost Management 속성을 보여 주는 스크린샷.](media/desktop-connect-azure-cost-management/azure-cost-management-01b.png)
 
@@ -95,11 +95,11 @@ Power BI Desktop에서 **Azure Cost Management 커넥터**를 사용하려면 �
 | **사용량 세부 정보** | EA 등록에서 지정된 청구 프로필에 대해 사용한 수량 및 예상 요금 내역입니다. |
 | **분할 상환 사용량 세부 정보** | EA 등록에서 지정된 청구 프로필에 대해 사용한 수량 및 분할 상환된 요금 내역입니다. |
 
-테이블을 선택하여 미리 보기 대화 상자를 볼 수 있습니다. 해당 이름 옆에 있는 확인란을 선택하여 하나 이상의 테이블을 선택한 다음 **로드**를 선택할 수 있습니다.
+테이블을 선택하여 미리 보기 대화 상자를 볼 수 있습니다. 해당 이름 옆에 있는 확인란을 선택하여 하나 이상의 테이블을 선택한 다음 **로드** 를 선택할 수 있습니다.
 
 ![탐색기 대화 상자를 보여 주는 스크린샷.](media/desktop-connect-azure-cost-management/azure-cost-management-01c.png)
 
-**로드**를 선택하면, 데이터가 Power BI Desktop에 로드됩니다. 
+**로드** 를 선택하면, 데이터가 Power BI Desktop에 로드됩니다. 
 
 선택한 데이터가 로드되면, 데이터 테이블 및 필드가 **필드** 창에 표시됩니다.
 

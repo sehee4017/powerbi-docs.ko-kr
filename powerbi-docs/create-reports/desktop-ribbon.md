@@ -2,19 +2,19 @@
 title: Power BI Desktop에서 업데이트된 리본 사용
 description: Power BI Desktop에서 새 리본을 사용하여 간편하게 메뉴 및 명령을 탐색
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 05/21/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3cc9277b567a58b60dc86c41b7ae56ad5c678d6b
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 517e1dcb84a9c716cdfc1f53febb743f4f59f5d2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600600"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412831"
 ---
 # <a name="use-the-updated-ribbon-in-power-bi-desktop"></a>Power BI Desktop에서 업데이트된 리본 사용
 
@@ -48,7 +48,7 @@ Power BI Desktop은 모양과 경험을 다른 Microsoft 제품(예: Microsoft O
 
     ![축소된 리본](media/desktop-ribbon/desktop-ribbon-06.png)
 
-* **단추 탐색 및 선택을 위한 키 설명** - 리본 메뉴를 탐색하는 데 도움되도록 **Alt+Windows 키**를 눌러 키 설명을 활성화할 수 있습니다. 활성화되면 키보드에서 표시된 키를 눌러 탐색할 수 있습니다.
+* **단추 탐색 및 선택을 위한 키 설명** - 리본 메뉴를 탐색하는 데 도움되도록 **Alt+Windows 키** 를 눌러 키 설명을 활성화할 수 있습니다. 활성화되면 키보드에서 표시된 키를 눌러 탐색할 수 있습니다.
 
     ![키 설명](media/desktop-ribbon/desktop-ribbon-07.png)
 

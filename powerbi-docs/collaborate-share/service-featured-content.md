@@ -2,19 +2,19 @@
 title: 동료 Power BI 홈페이지의 추천 콘텐츠
 description: 조직의 동료 Power BI 홈페이지에서 Power BI 대시보드 및 보고서를 추천하는 방법입니다.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: nikhilga
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 10/14/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: eef0ba24347bd46cc86325cac494937e3f95086a
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: c45eb2afdf028f9e3a4b213333a0028924858a09
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462458"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411819"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>동료 Power BI 홈페이지의 추천 콘텐츠
 
@@ -40,13 +40,13 @@ ms.locfileid: "92462458"
 
 1. 작업 영역의 **대시보드** 또는 **보고서** 목록에서 **설정** 아이콘을 선택합니다.
 
-    :::image type="content" source="media/service-featured-content/power-bi-settings-icon.png" alt-text="홈의 Power BI 추천 콘텐츠":::
+    :::image type="content" source="media/service-featured-content/power-bi-settings-icon.png" alt-text="보고서 설정 아이콘":::
 
 2. **설정** 창에서 이름을 확인하거나 변경합니다. **설명** 을 추가하고 원하는 경우 **스냅샷** 을 업로드합니다. 이 유용한 항목은 사용자가 콘텐츠를 찾는 데 도움이 됩니다.
 
 3. **추천** 을 선택합니다.
 
-    :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="홈의 Power BI 추천 콘텐츠":::
+    :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="추천 콘텐츠 설정":::
 
 4. **저장** 을 선택합니다.
 

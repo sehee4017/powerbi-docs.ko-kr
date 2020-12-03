@@ -1,21 +1,21 @@
 ---
 title: 미국 정부 기관 고객용 Power BI 등록
 description: 미국 정부 기관 고객의 경우 정부 커뮤니티 클라우드인 Power BI에 등록하는 방법에 대해 알아봅니다.
-author: davidiseminger
+author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 04/07/2020
-ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 776120f9781f05376e767175a795943ab58243d3
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 47fb45063a0ced5a655c073cc148e670a74a3ee8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855035"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412371"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Power BI 서비스에 미국 정부 기관 등록
 
@@ -43,7 +43,7 @@ Power BI 미국 정부 기관에 등록한 후에는 계정 팀과 협력하여 
 >
 
 1. [Microsoft 365 정부 플랜](https://products.office.com/government/office-365-web-services-for-government)으로 이동합니다.
-2. **무료 평가판 시작**을 선택합니다.
+2. **무료 평가판 시작** 을 선택합니다.
 3. 양식을 작성하여 조직에 대해 알려줍니다. 드롭다운을 사용하여 조직 유형을 선택합니다.
 
    ![평가판 등록에서 조직 유형 선택](media/service-govus-signup/gcc-trial-signup.png)
@@ -62,8 +62,8 @@ Power BI 미국 정부 기관에 등록한 후에는 계정 팀과 협력하여 
 > 
 
 1. 전역 관리자 또는 청구 관리자 자격 증명을 사용하여 Microsoft 365 관리 센터에 로그인합니다.
-2. **청구** > **서비스 구매**를 선택합니다.
-4. 검색 또는 스크롤하여 Power BI Pro 정부 제품을 찾고 **시도** 또는 **지금 구입**을 선택합니다.
+2. **청구** > **서비스 구매** 를 선택합니다.
+4. 검색 또는 스크롤하여 Power BI Pro 정부 제품을 찾고 **시도** 또는 **지금 구입** 을 선택합니다.
 5. 주문을 완료합니다.
 6. 사용자 계정에 라이선스를 할당합니다.
 

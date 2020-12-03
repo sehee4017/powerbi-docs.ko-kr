@@ -2,19 +2,19 @@
 title: Power BI Desktop에서 추천 테이블 설정(미리 보기)
 description: Excel의 데이터 형식 갤러리에 표시되도록 Power BI Desktop에서 추천 테이블을 만듭니다.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 09/17/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 20a81ed4675f6392f28a20f7b741d0c0ad1076eb
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: d2d87f16b8100424b47277360354d79ee834d467
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92680764"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411934"
 ---
 # <a name="set-featured-tables-in-power-bi-desktop-preview"></a>Power BI Desktop에서 추천 테이블 설정(미리 보기)
 
@@ -40,21 +40,21 @@ Excel의 데이터 형식 갤러리에서 사용자는 Power BI 데이터 세트
 
 1. Power BI Desktop에서 모델 뷰로 이동합니다.
 
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-model-view.png" alt-text="미리 보기 주요 테이블 옵션":::
+    :::image type="content" source="media/service-excel-featured-tables/power-bi-model-view.png" alt-text="모델 뷰":::
  
 2. 테이블을 선택하고 **주요 테이블** 을 **예** 로 설정합니다.
 
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-featured-table-yes.png" alt-text="미리 보기 주요 테이블 옵션":::
+    :::image type="content" source="media/service-excel-featured-tables/power-bi-featured-table-yes.png" alt-text="주요 테이블을 예로 설정":::
 
 4. **이 주요 테이블 설정** 에서 필수 필드를 제공합니다.
 
-    - **설명** . 
+    - **설명**. 
         > [!TIP]
         > Power BI 보고서 작성자가 식별하는 데 도움이 되도록 “추천 테이블”로 설명을 시작합니다.
     - **행 레이블** 필드 값은 사용자가 행을 쉽게 식별할 수 있도록 Excel에서 사용됩니다. 이 값은 **데이터 선택기** 창 및 **정보** 카드에 연결된 셀의 셀 값으로 표시됩니다. 
     - **키 열** 필드 값은 행의 고유 ID를 제공합니다. Excel이 이 값을 사용하여 셀을 테이블의 특정 행에 연결할 수 있습니다.
 
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-set-up-featured-table.png" alt-text="미리 보기 주요 테이블 옵션":::
+    :::image type="content" source="media/service-excel-featured-tables/power-bi-set-up-featured-table.png" alt-text="주요 테이블 설정":::
 
 1. 데이터 세트를 Power BI 서비스에 게시하거나 가져오면 Excel 데이터 형식 갤러리에 추천 테이블이 표시됩니다. 사용자 및 기타 보고서 작성자는 해당 데이터 세트를 기반으로 작성되는 보고서를 만들 수도 있습니다.
 

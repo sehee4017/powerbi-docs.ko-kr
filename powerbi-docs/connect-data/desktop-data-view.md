@@ -2,23 +2,23 @@
 title: Power BI Desktop의 데이터 보기
 description: Power BI Desktop의 데이터 보기
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/05/2020
-ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 6585c0e20fb0e63d366dfc8da17949ac03d42512
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 500346e9fbdc4302810cce1fe5e49e7fe915a3bb
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223749"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411221"
 ---
 # <a name="work-with-data-view-in-power-bi-desktop"></a>Power BI Desktop의 데이터 뷰 사용
 
-*데이터 보기*는 *Power BI Desktop* 모델의 데이터를 검사하고, 검색하고, 이해하는 데 도움이 됩니다. ‘Power Query 편집기’에서 테이블, 열 및 데이터를 보는 것과는 차이가 있습니다.  데이터 보기에서는 모델에 데이터를 로드한 *후*의 데이터를 보게 됩니다.
+*데이터 보기* 는 *Power BI Desktop* 모델의 데이터를 검사하고, 검색하고, 이해하는 데 도움이 됩니다. ‘Power Query 편집기’에서 테이블, 열 및 데이터를 보는 것과는 차이가 있습니다.  데이터 보기에서는 모델에 데이터를 로드한 *후* 의 데이터를 보게 됩니다.
 
 > [!NOTE]
 > 데이터 보기에서는 모델에 데이터를 로드한 후 표시하므로 모든 데이터 원본이 DirectQuery를 기반으로 하는 경우 데이터 보기 아이콘이 표시되지 않습니다. 
@@ -33,11 +33,11 @@ ms.locfileid: "85223749"
 
 2. **데이터 표**. 이 영역에는 선택한 테이블과 그 안의 모든 열 및 행이 표시됩니다. *보고서* 보기에서 숨겨진 열은 옅은 회색으로 표시됩니다. 열을 마우스 오른쪽 단추로 클릭하면 옵션이 표시됩니다.
 
-3. **모델링 리본**입니다. 여기에서 관계를 관리하고, 계산을 만들며, 열의 데이터 형식, 형식, 데이터 범주를 변경할 수 있습니다.
+3. **모델링 리본** 입니다. 여기에서 관계를 관리하고, 계산을 만들며, 열의 데이터 형식, 형식, 데이터 범주를 변경할 수 있습니다.
 
 4. **수식 입력줄**. 측정값과 계산된 열에 대한 DAX(Data Analysis Expression) 수식을 입력합니다.
 
-5. **검색**합니다. 모델에서 테이블 또는 열을 검색합니다.
+5. **검색** 합니다. 모델에서 테이블 또는 열을 검색합니다.
 
 6. **필드 목록**. 데이터 표 형식으로 보려는 테이블이나 열을 선택합니다.
 

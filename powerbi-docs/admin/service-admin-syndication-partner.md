@@ -2,20 +2,20 @@
 title: Microsoft 365 파트너를 통해 Power BI 구매
 description: 파트너를 통해 구매한 Microsoft 365 구독에 Power BI를 추가하는 방법에 대해 알아봅니다. 신디케이티드 모델은 Microsoft 365에서 사용하는 구매 모델입니다.
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 05/27/2020
-ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 14ca898e634f7c555ae649b0de8290e9c76507a7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a7a2f06b019361f164f47469d5bd16218d4ebff2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227586"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413475"
 ---
 # <a name="add-power-bi-to-a-microsoft-365-partner-subscription"></a>Microsoft 365 파트너 구독에 Power BI 추가
 
@@ -37,15 +37,15 @@ Power BI Pro 또는 Power BI Premium에 대한 구독을 구매하려면 파트�
 
 1. [Microsoft 365 관리 센터](https://admin.microsoft.com/AdminPortal/Home#/homepage)로 이동합니다.
 
-1. 왼쪽 메뉴에서 **청구**를 열고 **제품**을 선택합니다.
+1. 왼쪽 메뉴에서 **청구** 를 열고 **제품** 을 선택합니다.
 
    ![Microsoft 365 관리 센터의 청구 메뉴](media/service-admin-syndication-partner/365-my-products.png)
 
- 1. 아래 이미지에 나와 있는 것 처럼**구독**을 찾습니다. **구독**이 표시되면 Microsoft에서 직접 서비스를 구매하거나 Power BI를 제공하는 다른 파트너에게 문의할 수 있습니다.
+ 1. 아래 이미지에 나와 있는 것 처럼 **구독** 을 찾습니다. **구독** 이 표시되면 Microsoft에서 직접 서비스를 구매하거나 Power BI를 제공하는 다른 파트너에게 문의할 수 있습니다.
 
     ![구독을 포함하는 제품](media\service-admin-syndication-partner\365-subscriptions.png)
 
-    **구독**이 표시되지 않으면 Microsoft에서 직접 또는 다른 파트너로부터 구매할 수 없습니다.
+    **구독** 이 표시되지 않으면 Microsoft에서 직접 또는 다른 파트너로부터 구매할 수 없습니다.
 
 파트너가 Power BI를 제공하지 않고 Microsoft 또는 다른 파트너로부터 직접 구매할 수 없는 경우에는 평가판에 가입하는 것이 좋습니다.
 

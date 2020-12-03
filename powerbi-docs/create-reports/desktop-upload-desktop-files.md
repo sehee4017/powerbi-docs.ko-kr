@@ -2,30 +2,30 @@
 title: Power BI Desktop에서 게시
 description: Power BI Desktop에서 게시
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 09/22/2020
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4405ab8d3e0db949ec825f3eea436183512f862d
-ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
+ms.openlocfilehash: dc1914b8fce55de9bd6141c9cc8d44082779c9df
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91019914"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412647"
 ---
 # <a name="publish-datasets-and-reports-from-power-bi-desktop"></a>Power BI Desktop에서 데이터 세트 및 보고서 게시
 Power BI Desktop 파일을 Power BI 서비스에 게시하면 모델의 데이터가 Power BI 작업 영역에 게시됩니다. **보고서** 보기에서 만든 모든 보고서의 경우에도 마찬가지입니다. 작업 영역 탐색기에서 동일한 이름의 새 데이터 세트와 모든 보고서를 볼 수 있습니다.
 
-Power BI Desktop에서 게시하는 것은 Power BI의 **데이터 가져오기**를 사용하여 연결하고 Power BI Desktop 파일을 업로드하는 것과 동일한 효과를 가집니다.
+Power BI Desktop에서 게시하는 것은 Power BI의 **데이터 가져오기** 를 사용하여 연결하고 Power BI Desktop 파일을 업로드하는 것과 동일한 효과를 가집니다.
 
 > [!NOTE]
 > Power BI 보고서에서 변경한 내용은 원래 Power BI Desktop 파일에 다시 저장되지 않습니다. 여기에는 보고서에서 시각화를 추가, 삭제 또는 변경하는 경우도 포함됩니다.
 
 ## <a name="to-publish-a-power-bi-desktop-dataset-and-reports"></a>Power BI Desktop 데이터 세트 및 보고서를 게시하려면
-1. Power BI Desktop에서 **파일** \> **게시** \> **Power BI에 게시**를 선택하거나 리본에서 **게시**를 선택합니다.  
+1. Power BI Desktop에서 **파일** \> **게시** \> **Power BI에 게시** 를 선택하거나 리본에서 **게시** 를 선택합니다.  
 
    ![게시 단추](media/desktop-upload-desktop-files/pbid_publish_publishbutton.png)
 

@@ -2,26 +2,26 @@
 title: Power BI Desktop에 데이터 직접 연결
 description: Power BI Desktop에 간편하게 데이터 직접 추가
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/15/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4c489155b278e8dd102a32e9973edc843cb3c45d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 292404719c476e1397930e2a9b94101ba957119f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223657"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411152"
 ---
 # <a name="enter-data-directly-into-power-bi-desktop"></a>Power BI Desktop에 데이터 직접 연결
 
 Power BI Desktop에서는 데이터를 직접 입력하고 보고서 및 시각화에 해당 데이터를 사용할 수 있습니다. 예를 들어 통합 문서 또는 웹 페이지의 일부를 복사한 후 Power BI Desktop에 붙여넣을 수 있습니다.
 
-새 테이블 형식으로 Power BI Desktop에 직접 데이터를 입력하려면 **홈** 리본에서 **데이터 입력**을 선택합니다.
+새 테이블 형식으로 Power BI Desktop에 직접 데이터를 입력하려면 **홈** 리본에서 **데이터 입력** 을 선택합니다.
 
 ![홈에서 데이터 입력 선택](media/desktop-enter-data-directly-into-desktop/enter-data-directly_1.png)
 
@@ -29,9 +29,9 @@ Power BI Desktop에서는 적절한 경우 어떤 원본에서 데이터를 로�
 
 ![첫 행이 열 제목인 데이터](media/desktop-enter-data-directly-into-desktop/enter-data-directly_2.png)
 
-입력하거나 붙여넣은 데이터를 셰이핑하려면 **편집**을 선택하여 **쿼리 편집기**를 엽니다. 데이터를 Power BI Desktop으로 가져오기 전에 셰이핑하고 변환할 수 있습니다. 표시된 대로 데이터를 가져오려면 **로드**를 선택합니다.
+입력하거나 붙여넣은 데이터를 셰이핑하려면 **편집** 을 선택하여 **쿼리 편집기** 를 엽니다. 데이터를 Power BI Desktop으로 가져오기 전에 셰이핑하고 변환할 수 있습니다. 표시된 대로 데이터를 가져오려면 **로드** 를 선택합니다.
 
-**로드**를 선택하면 Power BI Desktop에서 데이터로부터 새 테이블을 만들고 **필드** 창에서 사용할 수 있습니다. 다음 그림에서 Power BI Desktop은 *Table1*이라는 새 테이블과 해당 테이블 내에 만들어진 두 필드를 보여 줍니다.
+**로드** 를 선택하면 Power BI Desktop에서 데이터로부터 새 테이블을 만들고 **필드** 창에서 사용할 수 있습니다. 다음 그림에서 Power BI Desktop은 *Table1* 이라는 새 테이블과 해당 테이블 내에 만들어진 두 필드를 보여 줍니다.
 
 ![Power BI Desktop에 로드된 필드](media/desktop-enter-data-directly-into-desktop/enter-data-directly_3.png)
 

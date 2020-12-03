@@ -2,20 +2,20 @@
 title: 보고서 및 대시보드에 사용자 자신과 다른 사용자 구독
 description: Power BI 보고서 페이지, 대시보드 또는 페이지를 매긴 보고서의 스냅샷에 자신과 다른 사용자가 구독하는 방법에 대해 알아보세요.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 11/17/2020
-ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 183885336f6f76304ba051599efa48d81111264a
-ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
+ms.openlocfilehash: 384ce5efc28355ea238d5782dd1553901097e0f2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94718963"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411681"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Power BI 서비스의 보고서 및 대시보드에 자신과 다른 사용자 구독
 

@@ -2,18 +2,18 @@
 title: Power BI 모바일 앱에서 온-프레미스 보고서 및 KPI 보기
 description: SQL Server Reporting Services 및 Power BI Report Server에서 Power BI 모바일 앱은 온-프레미스 비즈니스 정보에 대한 터치 기반 라이브 모바일 액세스를 제공합니다.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/05/2019
-ms.author: painbar
-ms.openlocfilehash: e9f3b41e9c8435008f732d215ae022d6a023574d
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 18ad1be61202ddf189da064a833fddf6d793a2ba
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668577"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413406"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Power BI 모바일 앱에서 온-프레미스 보고서 서버 보고서 및 KPI 보기
 
@@ -40,9 +40,9 @@ Power BI Report Server 및 SQL Server 2016 Reporting Services(SSRS)에서 Power 
 ## <a name="explore-samples-in-the-mobile-apps-without-a-server-connection"></a>서버 연결 없이 모바일 앱에서 샘플 탐색
 Reporting Services 웹 포털에 대한 액세스가 없더라도, Reporting Services 모바일 보고서 및 KPI의 기능을 탐색할 수 있습니다. 
 
-1. 왼쪽 위에 있는 프로필 사진을 탭한 다음, 밀려 나오는 계정 창에서 **설정**을 탭합니다.
+1. 왼쪽 위에 있는 프로필 사진을 탭한 다음, 밀려 나오는 계정 창에서 **설정** 을 탭합니다.
 
-2. 열리는 설정 페이지에서 **Reporting Services 샘플**을 탭한 다음, 샘플 KPI 및 모바일 보고서를 찾아서 조작합니다.
+2. 열리는 설정 페이지에서 **Reporting Services 샘플** 을 탭한 다음, 샘플 KPI 및 모바일 보고서를 찾아서 조작합니다.
    
    ![Reporting Services 샘플](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-ssrs-samples.png)
 
@@ -50,12 +50,12 @@ Reporting Services 웹 포털에 대한 액세스가 없더라도, Reporting Ser
 Power BI 모바일 앱에서 온-프레미스 Power BI 보고서, Reporting Services 모바일 보고서 및 KPI를 볼 수 있습니다. 
 
 1. 모바일 디바이스에서 Power BI 앱을 엽니다.
-2. Power BI에 아직 로그인하지 않은 경우 **Reporting Server**를 누릅니다.
+2. Power BI에 아직 로그인하지 않은 경우 **Reporting Server** 를 누릅니다.
    
    ![보고서 서버에 로그인](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-connect-to-rs-login.png)
    
-   Power BI 앱에 이미 로그인한 경우 왼쪽 위에 있는 프로필 사진을 탭한 다음, 밀려 나오는 계정 창에서 **설정**을 탭합니다.
-3. 열리는 설정 페이지에서 **서버에 연결**을 탭합니다.
+   Power BI 앱에 이미 로그인한 경우 왼쪽 위에 있는 프로필 사진을 탭한 다음, 밀려 나오는 계정 창에서 **설정** 을 탭합니다.
+3. 열리는 설정 페이지에서 **서버에 연결** 을 탭합니다.
    
     ![서버에 연결](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-android-server-sign-in.png)
 
@@ -72,10 +72,10 @@ Power BI 모바일 앱에서 온-프레미스 Power BI 보고서, Reporting Serv
    
      `https://<servername>/reports`
    
-   연결 문자열 앞에 **http** 또는 **https**를 포함합니다.
+   연결 문자열 앞에 **http** 또는 **https** 를 포함합니다.
    
     ![서버에 연결 대화 상자](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-connect-to-server-dialog.png)
-5. 서버 주소와 선택적 식별 이름을 입력한 후 **연결**을 탭하고, 메시지가 표시되면 사용자 이름과 암호를 입력합니다.
+5. 서버 주소와 선택적 식별 이름을 입력한 후 **연결** 을 탭하고, 메시지가 표시되면 사용자 이름과 암호를 입력합니다.
 6. 이제 계정 창에 서버가 표시됩니다. 이 예제에서는 “작업 서버”라고 합니다.
    
    ![탐색 창의 보고서 서버](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-iphone-left-nav-report-server.png)
@@ -84,15 +84,15 @@ Power BI 모바일 앱에서 온-프레미스 Power BI 보고서, Reporting Serv
 
 iOS 또는 Android 모바일 앱에서 Power BI를 보는 경우, IT 관리자가 앱 구성 정책을 정의했을 수 있습니다. 그렇다면 보고서 서버에 연결된 환경이 간소화되고 보고서 서버에 연결할 때만큼 많은 정보를 제공할 필요가 없습니다. 
 
-1. 보고서 서버를 사용하여 해당 모바일 앱을 구성한다는 메시지가 표시됩니다. **로그인**을 누릅니다.
+1. 보고서 서버를 사용하여 해당 모바일 앱을 구성한다는 메시지가 표시됩니다. **로그인** 을 누릅니다.
 
     ![보고서 서버에 로그인](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-config-server-sign-in.png)
 
-2.  **서버에 연결** 페이지에서 보고서 서버 세부 정보가 이미 입력되었습니다. **연결**을 누릅니다.
+2.  **서버에 연결** 페이지에서 보고서 서버 세부 정보가 이미 입력되었습니다. **연결** 을 누릅니다.
 
     ![보고서 서버 세부 정보 입력](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-remote-configure-connect-server.png)
 
-3. 인증하기 위해 암호를 입력한 다음, **로그인**을 누릅니다. 
+3. 인증하기 위해 암호를 입력한 다음, **로그인** 을 누릅니다. 
 
     ![암호 입력과 로그인 단추를 보여 주는 스크린샷.](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-config-server-address.png)
 
@@ -117,7 +117,7 @@ Power BI 보고서, Reporting Services 모바일 보고서 및 KPI는 Reporting 
 ## <a name="view-your-favorite-kpis-and-reports"></a>즐겨찾는 KPI 및 보고서 보기
 웹 포털에서 KPI와 보고서를 즐겨찾기로 표시한 다음 모바일 디바이스에서 Power BI 즐겨찾기 대시보드와 함께 하나의 폴더에서 편리하게 볼 수 있습니다.
 
-* 탐색 모음에서 **즐겨찾기**를 탭합니다.
+* 탐색 모음에서 **즐겨찾기** 를 탭합니다.
   
    ![탐색 창의 즐겨찾기](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-faves-pbi-report-server-update.png)
   
@@ -126,9 +126,9 @@ Power BI 보고서, Reporting Services 모바일 보고서 및 KPI는 Reporting 
    ![즐겨찾기 페이지에서 Power BI 보고서 및 대시보드](./media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-favorites.png)
 
 ## <a name="remove-a-connection-to-a-report-server"></a>보고서 서버에 대한 연결을 제거합니다.
-1. 계정 창을 열고 **설정**을 탭합니다.
+1. 계정 창을 열고 **설정** 을 탭합니다.
 2. 연결하지 않으려는 서버의 이름을 탭합니다.
-3. **서버 제거**를 탭합니다.
+3. **서버 제거** 를 탭합니다.
 
 ## <a name="next-steps"></a>다음 단계
 * [Power BI란?](../../fundamentals/power-bi-overview.md)  

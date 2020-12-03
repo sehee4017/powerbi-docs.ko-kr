@@ -2,27 +2,27 @@
 title: Power BI Desktop에서 Adobe Analytics에 연결
 description: Adobe Analytics Power BI Desktop에서 쉽게 연결하여 사용
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/07/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bc6b40754e12531c57dfcab2923fdf999aee5481
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 89376902f1c37526ddf9376461871bcf27c2566d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224810"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411497"
 ---
 # <a name="connect-to-adobe-analytics-in-power-bi-desktop"></a>Power BI Desktop에서 Adobe Analytics에 연결 
-**Power BI Desktop**에서 **Adobe Analytics**에 연결하고 Power BI Desktop의 다른 데이터 원본처럼 기본 데이터를 사용할 수 있습니다. 
+**Power BI Desktop** 에서 **Adobe Analytics** 에 연결하고 Power BI Desktop의 다른 데이터 원본처럼 기본 데이터를 사용할 수 있습니다. 
 
 ![Adobe Analytics에서 데이터 가져오기](media/desktop-connect-adobe-analytics/connect-adobe-analytics_01.png)
 
 ## <a name="connect-to-adobe-analytics-data"></a>Adobe Analytics 데이터에 연결
-**Adobe Analytics** 데이터에 연결하려면 Power BI Desktop의 **홈** 리본 메뉴에서 **데이터 가져오기**를 선택합니다. 왼쪽에 있는 범주에서 **온라인 서비스**를 선택하면 **Adobe Analytics 커넥터**가 표시됩니다.
+**Adobe Analytics** 데이터에 연결하려면 Power BI Desktop의 **홈** 리본 메뉴에서 **데이터 가져오기** 를 선택합니다. 왼쪽에 있는 범주에서 **온라인 서비스** 를 선택하면 **Adobe Analytics 커넥터** 가 표시됩니다.
 
 ![Adobe Analytics에서 데이터 가져오기](media/desktop-connect-adobe-analytics/connect-adobe-analytics_01.png)
 
@@ -34,7 +34,7 @@ ms.locfileid: "85224810"
 
 ![탐색기를 사용하여 데이터 선택 ](media/desktop-connect-adobe-analytics/connect-adobe-analytics_04.png)
 
-선택된 테이블을 **로드**하여 전체 테이블을 **Power BI Desktop**에 가져오거나 쿼리를 **편집**하여 **쿼리 편집기**를 열고 사용하려는 데이터의 집합을 필터링하고 재정의한 후 조정된 데이터 집합을 **Power BI Desktop**에 로드할 수 있습니다.
+선택된 테이블을 **로드** 하여 전체 테이블을 **Power BI Desktop** 에 가져오거나 쿼리를 **편집** 하여 **쿼리 편집기** 를 열고 사용하려는 데이터의 집합을 필터링하고 재정의한 후 조정된 데이터 집합을 **Power BI Desktop** 에 로드할 수 있습니다.
 
 ![탐색기에서 데이터 로드 또는 편집](media/desktop-connect-adobe-analytics/connect-adobe-analytics_05.png)
 

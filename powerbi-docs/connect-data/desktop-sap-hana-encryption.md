@@ -2,20 +2,20 @@
 title: SAP HANA에 대한 암호화 사용
 description: SAML SSO를 사용하여 Power BI에서 HANA 서버에 연결할 때 연결을 암호화하는 방법을 알아봅니다.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 10/22/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9aaa89db53e22fcefe55a53ec7a5414a8835255b
-ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
+ms.openlocfilehash: b6d3362f75a0267dc680e3e54d2f92e44a98598a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92501906"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410945"
 ---
 # <a name="enable-encryption-for-sap-hana"></a>SAP HANA에 대한 암호화 사용
 

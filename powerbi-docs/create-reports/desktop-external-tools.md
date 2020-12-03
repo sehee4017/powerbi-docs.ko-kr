@@ -2,19 +2,19 @@
 title: Power BI에서 외부 도구 사용(미리 보기)
 description: 외부 도구를 사용하여 Power BI Desktop 사용 확장
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 07/29/2020
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 47b5df4c07f21282b14bae8bdfd63e5c271d53a6
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 8742a65f662433eb4330a9dedbca54f4445e992b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635151"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412969"
 ---
 # <a name="using-external-tools-in-power-bi-desktop-preview"></a>Power BI Desktop에서 외부 도구 사용(미리 보기)
 
@@ -126,11 +126,11 @@ Power BI Desktop을 사용하여 다른 외부 도구를 등록하려면 다음 
 
 * **Program Files (x86)\Common Files\Microsoft Shared\Power BI Desktop\External Tools**
 
-지정된 위치에서 확장명이 **.pbitool.json**인 파일은 시작할 때 Power BI Desktop에서 로드됩니다.
+지정된 위치에서 확장명이 **.pbitool.json** 인 파일은 시작할 때 Power BI Desktop에서 로드됩니다.
 
 ## <a name="disabling-external-tools-using-the-registry"></a>레지스트리를 사용하여 외부 도구를 사용하지 않도록 설정
 
-**그룹 정책**을 사용하거나 레지스트리를 편집하여 외부 도구를 사용하지 않도록 설정할 수 있습니다. 해당 작업은 **사용자 지정 시각적 개체**를 사용하지 않도록 설정하는 프로세스와 비슷합니다.
+**그룹 정책** 을 사용하거나 레지스트리를 편집하여 외부 도구를 사용하지 않도록 설정할 수 있습니다. 해당 작업은 **사용자 지정 시각적 개체** 를 사용하지 않도록 설정하는 프로세스와 비슷합니다.
 
 * 레지스트리 키: *Software\Policies\Microsoft\Power BI Desktop\\*
 

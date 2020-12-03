@@ -6,16 +6,16 @@ ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 09/15/2020
-ms.openlocfilehash: 4b3e628c2a8cd3c90d44ae2a6c8f3f9967b22d9a
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: b85be8e4b231e714b4b9aba8cdf88b404c8bda74
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965640"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411773"
 ---
 # <a name="add-the-power-bi-app-to-microsoft-teams"></a>Microsoft Teams에 Power BI 앱 추가
 
@@ -40,9 +40,9 @@ Microsoft Teams에서 Power BI 앱을 사용하면 Microsoft Teams에서 바로 
 
 ## <a name="install-the-power-bi-app"></a>Power BI 앱 설치
 
-왼쪽 탐색 모음에서 **더 많은 추가 앱(...)** 을 선택한 다음 **Power BI**를 선택합니다. 표시되지 않는 경우 **앱 찾기** 상자에 **Power BI**를 입력합니다.
+왼쪽 탐색 모음에서 **더 많은 추가 앱(...)** 을 선택한 다음 **Power BI** 를 선택합니다. 표시되지 않는 경우 **앱 찾기** 상자에 **Power BI** 를 입력합니다.
 
-:::image type="content" source="media/service-microsoft-teams-app/power-bi-teams-app.png" alt-text="Microsoft Teams의 Power BI 앱 스크린샷":::
+:::image type="content" source="media/service-microsoft-teams-app/power-bi-teams-app.png" alt-text="Microsoft Teams에 Power BI 앱 설치 스크린샷":::
 
 이것으로 끝입니다. Power BI 앱이 Microsoft Teams에 설치되었습니다.
 
@@ -52,11 +52,11 @@ Microsoft Teams에서 콘텐츠와 상호 작용하는 것은 Power BI 서비스
 
 Microsoft Teams의 Power BI 앱에서 Microsoft Teams의 동료에게 보고서를 공유할 수도 있습니다.
 
-:::image type="content" source="media/service-microsoft-teams-app/power-bi-app-share-teams.png" alt-text="Microsoft Teams의 Power BI 앱 스크린샷":::
+:::image type="content" source="media/service-microsoft-teams-app/power-bi-app-share-teams.png" alt-text="Microsoft Teams 앱의 Microsoft Teams에서 공유 스크린샷":::
 
-Microsoft Teams의 Power BI 앱은 교육용 허브도 제공합니다. **학습 센터**를 보려면 **Learn**을 선택합니다.
+Microsoft Teams의 Power BI 앱은 교육용 허브도 제공합니다. **학습 센터** 를 보려면 **Learn** 을 선택합니다.
 
-:::image type="content" source="media/service-microsoft-teams-app/power-bi-teams-learn-tab.png" alt-text="Microsoft Teams의 Power BI 앱 스크린샷":::
+:::image type="content" source="media/service-microsoft-teams-app/power-bi-teams-learn-tab.png" alt-text="Microsoft Teams의 Power BI 앱 학습 센터 스크린샷":::
 
 ### <a name="differences-in-interactions"></a>상호 작용의 차이점
 
@@ -64,11 +64,11 @@ Teams 앱의 몇 가지 상호 작용은 브라우저에서와 다릅니다.
 
 - 대시보드 또는 보고서를 볼 때 Power BI 탐색 창이 표시되지 않습니다. **닫기** 단추를 선택하여 홈페이지로 이동하거나 작업 영역으로 돌아갑니다.
 
-    :::image type="content" source="media/service-microsoft-teams-app/power-bi-teams-close-report.png" alt-text="Microsoft Teams의 Power BI 앱 스크린샷":::
+    :::image type="content" source="media/service-microsoft-teams-app/power-bi-teams-close-report.png" alt-text="Microsoft Teams의 Power BI 앱 닫기 단추 스크린샷":::
 
-- Microsoft Teams에서 보고서를 보는 대신 Power BI 서비스에서 보고서를 열 수 있습니다. **웹에서 열기**를 선택합니다.
+- Microsoft Teams에서 보고서를 보는 대신 Power BI 서비스에서 보고서를 열 수 있습니다. **웹에서 열기** 를 선택합니다.
 
-    :::image type="content" source="media/service-microsoft-teams-app/power-bi-teams-open-web.png" alt-text="Microsoft Teams의 Power BI 앱 스크린샷":::
+    :::image type="content" source="media/service-microsoft-teams-app/power-bi-teams-open-web.png" alt-text="Microsoft Teams의 Power BI 앱의 웹에서 열기 단추 스크린샷":::
 
 ## <a name="known-issues-and-limitations"></a>알려진 문제 및 제한 사항
 

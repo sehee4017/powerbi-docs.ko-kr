@@ -1,21 +1,21 @@
 ---
 title: 새 Microsoft 365 평가판으로 Power BI에 가입
 description: 새 Microsoft 365 평가판으로 Power BI에 가입
-author: kfollis
+author: mihart
+ms.author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 05/17/2020
-ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 29dad4db6843f0895ea9de791992b3f70ce57e66
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 2ac2ed0a50c231aba4d4c849ef0544e126170d44
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91524745"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412417"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>새 Microsoft 365 평가판으로 Power BI에 가입
 
@@ -25,15 +25,15 @@ ms.locfileid: "91524745"
 
 ## <a name="sign-up-for-a-microsoft-365-trial-of-office"></a>Office의 Microsoft 365 평가판 등록
 
-[Microsoft 365 웹 사이트](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans)에서 Microsoft 365 평가판에 가입합니다. 계정이 아직 없는 경우 계정을 만드는 단계를 안내해 드립니다. Hotmail 및 Gmail 같은 상업용 메일 계정은 Microsoft 365에서 사용할 수 없으므로 새 계정을 만듭니다.  해당 메일 계정은 *zalan\@onmicrosoft.com*과 같이 표시됩니다.
+[Microsoft 365 웹 사이트](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans)에서 Microsoft 365 평가판에 가입합니다. 계정이 아직 없는 경우 계정을 만드는 단계를 안내해 드립니다. Hotmail 및 Gmail 같은 상업용 메일 계정은 Microsoft 365에서 사용할 수 없으므로 새 계정을 만듭니다.  해당 메일 계정은 *zalan\@onmicrosoft.com* 과 같이 표시됩니다.
 
 ![체험하기 선택](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-try-free.png)
 
-**Office 365 E5**를 선택하면 평가판에 Power BI Pro가 포함됩니다. Power BI Pro 평가판의 만료 시점은 Office 365 E5 평가판과 동일하게 현재 30일입니다. 대신 **Office 365 E3**를 선택하는 경우 Power BI에 등록하고 60일 평가판으로 **Pro**로 업그레이드하여 체험할 수 있습니다. 
+**Office 365 E5** 를 선택하면 평가판에 Power BI Pro가 포함됩니다. Power BI Pro 평가판의 만료 시점은 Office 365 E5 평가판과 동일하게 현재 30일입니다. 대신 **Office 365 E3** 를 선택하는 경우 Power BI에 등록하고 60일 평가판으로 **Pro** 로 업그레이드하여 체험할 수 있습니다. 
 
 1. 전자 메일 주소를 입력합니다. 메일 주소가 Microsoft 365에서 작동하는지, 아니면 새 메일 주소를 만들어야 하는지 알려 드립니다.  ![시작 페이지](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-setup.png)
 
-    새 메일 주소가 필요한 경우 단계별로 안내해 드립니다. 첫 번째 단계로 새 계정을 만듭니다. **계정 설정**을 선택합니다.
+    새 메일 주소가 필요한 경우 단계별로 안내해 드립니다. 첫 번째 단계로 새 계정을 만듭니다. **계정 설정** 을 선택합니다.
 
     ![새 계정에 등록하도록 선택합니다.](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-email.png)
 

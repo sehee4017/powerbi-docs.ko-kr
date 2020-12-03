@@ -2,21 +2,21 @@
 title: Power BI 계획된 유지 관리
 description: Power BI에 대한 계획된 유지 관리가 조직에 어떤 영향을 미치는지, 조직이 수행해야 할 수 있는 다음 단계가 무엇인지 관리자에게 보여 주는 정보입니다.
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/30/2020
-ms.author: kfollis
 ms.custom: MC
 ROBOTS: NOINDEX
 LocalizationGroup: Admin
-ms.openlocfilehash: 68cd001995603fec3a64e4b2c79ee2216bfe9ac0
-ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
+ms.openlocfilehash: d62b06e23f7e97141f6d10451e9d75f8fb9e417e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "93132301"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412325"
 ---
 # <a name="power-bi-planned-maintenance"></a>Power BI 계획된 유지 관리
 

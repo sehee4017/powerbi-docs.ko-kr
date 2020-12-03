@@ -2,19 +2,19 @@
 title: 데이터 원본 영향 분석
 description: 데이터 원본이 사용되는 위치를 파악합니다.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 07/20/2020
-ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: 71c214e265c84eb7436d384a98f793eefe2f6a23
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 8c8a2a701415d9e937c5b592c915e51a4921840b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526230"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411888"
 ---
 # <a name="data-source-impact-analysis"></a>데이터 원본 영향 분석
 
@@ -47,12 +47,12 @@ ms.locfileid: "91526230"
 
 데이터 원본을 변경했거나 변경을 고려 중인 경우 관련 사용자에게 알리는 것이 좋습니다. 연락처에 알릴 때 영향을 받는 모든 작업 영역의 [연락처 목록](service-create-the-new-workspaces.md#create-a-contact-list)에 이메일이 전송됩니다(클래식 작업 영역의 경우 이메일이 작업 영역 관리자에게 전송됨). 사용자 이름이 메일에 표시되므로 연락처는 새 메일 스레드에서 사용자를 찾아 회신할 수 있습니다. 
 
-1. 영향 분석 사이드 창에서 **연락처에 알림**을 클릭합니다. 연락처에 알림 대화 상자가 표시됩니다.
+1. 영향 분석 사이드 창에서 **연락처에 알림** 을 클릭합니다. 연락처에 알림 대화 상자가 표시됩니다.
 
    ![데이터 원본 알림 연락처 대화 상자의 스크린샷.](media/service-data-source-impact-analysis/notify-contacts-dialog.png)
 
 1. 텍스트 상자에 변경 내용에 대한 몇 가지 세부 정보를 입력합니다.
-1. 메시지가 준비되면 **보내기**를 클릭합니다.
+1. 메시지가 준비되면 **보내기** 를 클릭합니다.
 
 ## <a name="privacy"></a>개인 정보
 

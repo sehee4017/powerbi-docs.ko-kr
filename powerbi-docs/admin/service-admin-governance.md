@@ -2,19 +2,19 @@
 title: 거버넌스 및 배포 방법
 description: Power PI 환경 내에서 거버넌스의 개념, 옵션 및 제안에 대해 알아보는 백서입니다.
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/13/2019
-ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: f6dd4171d786d9272ef2ef6b876148eaf2f31cf3
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 537fb25d1b8514efdcaf17fe9f922eb11de46c3f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83139698"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413659"
 ---
 # <a name="governance-and-deployment-approaches"></a>거버넌스 및 배포 방법
 

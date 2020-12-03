@@ -2,19 +2,19 @@
 title: Power BI Desktop의 보고서 보기
 description: Power BI Desktop의 보고서 보기
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 10/12/2020
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 859fb6156af38fc5333e9c94281255369d9ee413
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 3b168eb0e6a475651f4f8fb6337c518812d8ffcf
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92256977"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412877"
 ---
 # <a name="work-with-report-view-in-power-bi-desktop"></a>Power BI Desktop의 보고서 뷰 사용
 
@@ -30,7 +30,7 @@ Power BI Desktop에서 데이터를 처음 로드하면 보고서에 데이터�
 
 ![Power BI Desktop](media/desktop-report-view/report-view-blank-canvas.png)
 
-왼쪽 탐색 모음의 아이콘을 선택하여 **보고서** , **데이터** , **관계** 보기를 전환할 수 있습니다.
+왼쪽 탐색 모음의 아이콘을 선택하여 **보고서**, **데이터**, **관계** 보기를 전환할 수 있습니다.
 
 ![보고서 보기 아이콘](media/desktop-report-view/pbi_reportviewinpbidesigner_changeview.png)
 
@@ -82,7 +82,7 @@ Power BI Desktop 보고서에서 시각적 개체를 가져와서 손쉽게 다�
 
     ![숨겨진 페이지가 회색으로 표시됨](media/desktop-report-view/report-view_06.png)
 
-* Power BI 서비스에서 보고서를 볼 때 숨겨진 보고서 페이지를 볼 수 *없습니다* .
+* Power BI 서비스에서 보고서를 볼 때 숨겨진 보고서 페이지를 볼 수 *없습니다*.
 
 * 보고서 페이지 숨기기는 보안 조치가 ‘아닙니다’.  사용자는 페이지에 계속 액세스할 수 있으며, 드릴스루나 기타 방법으로 해당 콘텐츠에 여전히 액세스할 수 있습니다.
 

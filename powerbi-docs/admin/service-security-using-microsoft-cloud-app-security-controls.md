@@ -2,19 +2,19 @@
 title: Power BI에서 Microsoft Cloud App Security 제어 사용
 description: Microsoft Cloud App Security를 Power BI와 함께 사용하는 방법 알아보기
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 06/15/2020
-ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: ab3b250734e2c2c2b4d97d952357669761da9095
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: f7bd3a59395e9f5f1ea167b7e7988aeb9882a72f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854166"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413337"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi"></a>Power BI에서 Microsoft Cloud App Security 제어 사용
 
@@ -89,7 +89,7 @@ Power BI에서 Cloud App Security를 사용하면 사용자 세션 및 해당 �
 
 다음 예제는 Power BI에서 Cloud App Security를 사용하여 새 세션 정책을 만드는 방법을 보여 줍니다.
 
-먼저 새 세션 정책을 만듭니다. **Cloud App Security** 포털의 왼쪽 메뉴에서 **정책**을 선택합니다.
+먼저 새 세션 정책을 만듭니다. **Cloud App Security** 포털의 왼쪽 메뉴에서 **정책** 을 선택합니다.
 
 ![새 세션 정책 만들기](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-02.png)
 
@@ -97,7 +97,7 @@ Power BI에서 Cloud App Security를 사용하면 사용자 세션 및 해당 �
 
 ![정책 만들기 선택](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-03.png)
 
-드롭다운의 옵션 목록에서 **세션 정책**을 선택합니다.
+드롭다운의 옵션 목록에서 **세션 정책** 을 선택합니다.
 
 ![세션 정책 선택](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-04.png)
 
@@ -105,7 +105,7 @@ Power BI에서 Cloud App Security를 사용하면 사용자 세션 및 해당 �
 
   1. **정책 템플릿** 드롭다운에서 ‘템플릿 없음’을 선택합니다.
   2. **정책 이름** 상자에 세션 정책에 적합한 이름을 입력합니다.
-  3. **세션 제어 유형**에서 ‘제어 파일 다운로드됨(DLP 포함)’을 선택합니다.
+  3. **세션 제어 유형** 에서 ‘제어 파일 다운로드됨(DLP 포함)’을 선택합니다.
 
       **활동 원본** 섹션에서 적절한 차단 정책을 선택합니다. 비관리형 디바이스와 비규격 디바이스를 차단하는 것이 좋습니다. 세션이 Power BI에 있을 때 다운로드를 차단하려면 선택합니다.
 
@@ -114,7 +114,7 @@ Power BI에서 Cloud App Security를 사용하면 사용자 세션 및 해당 �
         아래로 스크롤하면 더 많은 옵션이 표시됩니다. 다음 이미지는 이러한 옵션과 추가 예제를 보여 줍니다. 
 
   4. ‘기밀성 레이블’을 ‘매우 기밀’ 또는 조직에 가장 적합한 레이블로 선택합니다. 
-  5. **검사 방법**을 ‘없음’으로 변경합니다.
+  5. **검사 방법** 을 ‘없음’으로 변경합니다.
   6. 요구 사항에 맞는 **차단** 옵션을 선택합니다.
   7. 이러한 작업에 대한 경고를 만들어야 합니다.
 

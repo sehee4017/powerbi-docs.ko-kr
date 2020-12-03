@@ -2,18 +2,18 @@
 title: Apple Watch에서 모바일 앱의 Power BI 데이터 탐색
 description: Power BI Apple Watch 앱
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: d67ab7a28a0975ccac436f57e98c527fae392baf
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 1a2dfd19f2366003555aa5fa673bbf1c81c0a050
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633266"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413268"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>Apple Watch에서 Power BI 모바일 앱의 데이터 탐색
 Power BI Apple Watch 앱을 사용하여 시계에 있는 Power BI 대시보드에서 KPI 및 타일 카드을 볼 수 있습니다. KPI 및 카드 타일은 작은 화면에서 하트비트 측정값을 제공하는 데 가장 적합합니다. iPhone이나 Watch 자체에서 대시보드를 새로 고칠 수 있습니다.
@@ -28,7 +28,7 @@ Power BI Apple Watch 앱은 iOS용 Power BI 앱과 번들로 제공되므로 App
 
 Power BI Apple Watch 앱은 두 부분으로 구성됩니다.
 
-* **인덱스 화면**을 사용하면 대시보드에서 모든 KPI 및 카드 타일의 빠른 개요를 허용합니다.
+* **인덱스 화면** 을 사용하면 대시보드에서 모든 KPI 및 카드 타일의 빠른 개요를 허용합니다.
   
   ![인덱스 화면이 있는 Apple Watch를 보여 주는 사진.](./media/mobile-apple-watch/pbi_aplwatch_indexscreen240.png)
 * **포커스 타일**: 특정 타일의 세부적인 보기에 대한 인덱스 화면에서 타일을 클릭합니다.
@@ -38,7 +38,7 @@ Power BI Apple Watch 앱은 두 부분으로 구성됩니다.
 ## <a name="refresh-a-dashboard-from-your-apple-watch"></a>Apple Watch에서 대시보드 새로 고침
 Watch에서 직접 동기화된 대시보드를 새로 고칠 수 있습니다.
 
-* Watch 앱의 대시보드 보기에서 화면을 오랫동안 누르고 **새로 고침**을 선택합니다.
+* Watch 앱의 대시보드 보기에서 화면을 오랫동안 누르고 **새로 고침** 을 선택합니다.
 
 이제 Watch 앱은 Power BI 서비스의 데이터와 대시보드를 동기화합니다.
 
@@ -51,7 +51,7 @@ Watch에서 직접 동기화된 대시보드를 새로 고칠 수 있습니다.
 iPhone의 Apple Watch에서 대시보드를 새로 고칠 수도 있습니다.
 
 1. iPhone의 Power BI에서 Apple Watch와 동기화하려는 대시보드를 엽니다. 
-2. **추가 옵션**(...) > **Watch와 동기화**를 선택합니다.
+2. **추가 옵션**(...) > **Watch와 동기화** 를 선택합니다.
 
 Power BI는 대시보드가 시계와 동기화되었다는 지표를 보여줍니다.
 

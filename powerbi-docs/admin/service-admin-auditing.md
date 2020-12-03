@@ -2,20 +2,20 @@
 title: Power BI에서 사용자 활동 추적
 description: Power BI와 함께 활동 로그 및 감사 기능을 사용하여 수행된 작업을 모니터링하고 조사하는 방법을 알아봅니다.
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 08/20/2020
-ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 178b79ba4ae76288794f7bb67afba11c0595de7f
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 3c1e2b4513b3ac920d447ef0b8195c76c1ec2a04
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95513852"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413751"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Power BI에서 사용자 활동 추적
 

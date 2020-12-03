@@ -2,19 +2,19 @@
 title: Power BI의 Microsoft Information Protection 민감도 레이블
 description: Power BI에서 Microsoft Information Protection 민감도 레이블이 작동하는 방식을 알아봅니다.
 author: paulinbar
+ms.author: painbar
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 08/16/2020
-ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 04be21e368c74029e1e720a02b92d00448282138
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 27d650fbe9415c2e771931801f5b573770eda5b2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374394"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412141"
 ---
 # <a name="sensitivity-labels-in-power-bi"></a>Power BI의 민감도 레이블
 
@@ -127,7 +127,7 @@ Power BI 모바일 앱에서 보고서 및 대시보드에 대한 민감도 레�
 
 민감도 레이블은 [Microsoft 365 보안 센터](https://security.microsoft.com/) 또는 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)에서 만들고 관리합니다.
 
-두 센터 중 하나에서 민감도 레이블에 액세스하려면 **분류 > 민감도 레이블**로 이동합니다. 이러한 민감도 레이블은 Azure Information Protection, Office 앱, Office 365 서비스 등의 여러 Microsoft 서비스에서 사용할 수 있습니다.
+두 센터 중 하나에서 민감도 레이블에 액세스하려면 **분류 > 민감도 레이블** 로 이동합니다. 이러한 민감도 레이블은 Azure Information Protection, Office 앱, Office 365 서비스 등의 여러 Microsoft 서비스에서 사용할 수 있습니다.
 
 >[!Important]
 > 조직에서 Azure Information Protection 민감도 레이블을 사용하는 경우 Power BI에서 레이블을 사용하려면 이전에 나열된 서비스 중 하나로 [마이그레이션](/azure/information-protection/configure-policy-migrate-labels)해야 합니다.

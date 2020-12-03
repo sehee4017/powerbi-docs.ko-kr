@@ -5,20 +5,20 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 52593cbcbdc0a67709735a06eca493fefb18e1a0
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: a7f8c6d52acff8cbaaa00004448a3fae300afb9b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633702"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411911"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>보안 포털 또는 웹 사이트에 보고서 포함
 
-Power BI 보고서의 새 **포함** 옵션을 사용하여 내부 웹 포털에 보고서를 쉽고 안전하게 포함할 수 있습니다. 이러한 포털은 **클라우드 기반**이거나 **온-프레미스에 호스트**될 수 있습니다(예: SharePoint 2019). 포함된 보고서는 [RLS(행 수준 보안)](../admin/service-admin-rls.md)를 통해 모든 항목 사용 권한 및 데이터 보안을 준수합니다. 이 기능은 URL 또는 iFrame을 허용하는 모든 포털에 대한 코드 없는 포함을 지원합니다. 
+Power BI 보고서의 새 **포함** 옵션을 사용하여 내부 웹 포털에 보고서를 쉽고 안전하게 포함할 수 있습니다. 이러한 포털은 **클라우드 기반** 이거나 **온-프레미스에 호스트** 될 수 있습니다(예: SharePoint 2019). 포함된 보고서는 [RLS(행 수준 보안)](../admin/service-admin-rls.md)를 통해 모든 항목 사용 권한 및 데이터 보안을 준수합니다. 이 기능은 URL 또는 iFrame을 허용하는 모든 포털에 대한 코드 없는 포함을 지원합니다. 
 
 **포함** 옵션은 [URL 필터](service-url-filters.md) 및 URL 설정을 지원합니다. 또한 기본 HTML 및 JavaScript 지식만 있으면 로우 코드 접근 방식을 사용하는 포털과 통합할 수 있습니다.
 
@@ -26,7 +26,7 @@ Power BI 보고서의 새 **포함** 옵션을 사용하여 내부 웹 포털에
 
 1. Power BI 서비스에서 보고서를 엽니다.
 
-2. **기타 옵션(...)** 메뉴에서 **포함** >  **웹 사이트 또는 포털**을 차례로 선택합니다.
+2. **기타 옵션(...)** 메뉴에서 **포함** >  **웹 사이트 또는 포털** 을 차례로 선택합니다.
 
     ![웹 사이트 또는 포털 옵션](media/service-embed-secure/power-bi-more-options-website.png)
 
@@ -34,7 +34,7 @@ Power BI 보고서의 새 **포함** 옵션을 사용하여 내부 웹 포털에
 
     ![포함 옵션 대화 상자](media/service-embed-secure/secure-embed-code-dialog.png)
 
-3. 보고서 URL을 직접 열거나 웹 포털에 포함된 보고서를 열거나 상관없이 보고서에 액세스하려면 인증을 받아야 합니다. 사용자가 브라우저 세션에서 Power BI에 로그인하지 않은 경우 다음 화면이 표시됩니다. 사용자가 **로그인**을 선택하면 새 브라우저 창 또는 탭이 열릴 수 있습니다. 로그인 메시지가 표시되지 않는 경우 팝업 차단을 확인하라고 하세요.
+3. 보고서 URL을 직접 열거나 웹 포털에 포함된 보고서를 열거나 상관없이 보고서에 액세스하려면 인증을 받아야 합니다. 사용자가 브라우저 세션에서 Power BI에 로그인하지 않은 경우 다음 화면이 표시됩니다. 사용자가 **로그인** 을 선택하면 새 브라우저 창 또는 탭이 열릴 수 있습니다. 로그인 메시지가 표시되지 않는 경우 팝업 차단을 확인하라고 하세요.
 
     ![로그인하여 보고서 보기](media/service-embed-secure/secure-embed-sign-in.png)
 
@@ -42,7 +42,7 @@ Power BI 보고서의 새 **포함** 옵션을 사용하여 내부 웹 포털에
 
     ![보고서 포함](media/service-embed-secure/secure-embed-report.png)
 
-5. iFrame을 사용하는 경우 **높이**와 **너비**를 포털의 웹 페이지에 맞게 편집해야 할 수 있습니다.
+5. iFrame을 사용하는 경우 **높이** 와 **너비** 를 포털의 웹 페이지에 맞게 편집해야 할 수 있습니다.
 
     ![높이 및 너비 설정](media/service-embed-secure/secure-embed-size.png)
 
