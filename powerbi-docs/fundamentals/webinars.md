@@ -2,18 +2,18 @@
 title: Power BI 웹 세미나
 description: Power BI 웹 세미나
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 ms.topic: conceptual
-ms.date: 09/22/2020
-ms.author: kfollis
-ms.openlocfilehash: 76f0963da1a7cecec6f97fc7e0ab534f7d4bcb8a
-ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
+ms.date: 12/01/2020
+ms.openlocfilehash: 1c0c572072fd085feab1533eb346d745b56f66b0
+ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91020024"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96502021"
 ---
 # <a name="power-bi-webinars"></a>Power BI 웹 세미나
 [//]: # "Tatevik Tatero(tatevik.teroyan@simple-concepts.com)는 Chauncy Freels와 협력하고 이 웨비나 목록을 유지하는 데 도움을 주는 공급업체입니다."
@@ -22,19 +22,30 @@ ms.locfileid: "91020024"
 
 ## <a name="upcoming-webinars"></a>예정된 웹 세미나
 
-**Power BI로 빠른 준비 및 실행**  
-작성자: Miguel Martinez, Microsoft  
-[2020년 11월 5일 오전 10:00~오전 11:00 PDT(태평양 일광 절약 시간)에 시청 등록](https://info.microsoft.com/ww-landing-get-up-and-running-quickly-with-power-bi.html?lcid=en-us)
-
 [Power BI 커뮤니티의 예정된 웹 세미나](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>주요 웹 세미나
 
-인기 있는 주문형 웹 세미나 시작
+인기 있는 주문형 웹 세미나 시작:
+
+**Power BI로 빠른 준비 및 실행**  
+작성자: Miguel Martinez, Microsoft  
+[2020년 11월 5일 오전 10:00~오전 11:00 PDT(태평양 일광 절약 시간)에 시청 등록](https://info.microsoft.com/ww-landing-get-up-and-running-quickly-with-power-bi.html?lcid=en-us)
+
+**Power BI와 Microsoft Teams로 원격 데이터 문화 촉진**  
+진행자: Lukasz Pawlowski  
+[지금 보기](https://info.microsoft.com/ww-Landing-RemoteDataCulturePowerBIandMicrosoftTeams.html?LCID=EN-US)
+
+**함께 사용하면 더욱 강력한 성능: Excel 사용자가 Power BI로부터 얻을 수 있는 5가지 장점**  
+진행자: Miguel Martinez 및 Carlos Otero  
+[지금 보기](https://info.microsoft.com/ww-Landing-FiveBenefitsExcelUsersWillGetFromUsingPowerBI-Webinar.html?LCID=EN-US)
 
 **Microsoft Power BI로 데이터를 실시간으로 모니터링**  
 작성자: Miguel Martinez 및 Peter Myers  
 [지금 보기](https://info.microsoft.com/ww-landing-Monitor-Your-Data-in-Real-time-with-Microsoft-Power-BI.html?lcid=en-us)
+
+**Dremio로 Azure Data Lake Storage에서 Power BI 가속화**  
+진행자: Chris Webb 및 Tomer Shiran [지금 보기]( https://info.microsoft.com/ww-landing-Accelerate-Power-BI-on-Azure-Data-Lake-Storage-with-Dremio.html?lcid=en-us)
 
 **Power BI와 Snowflake를 사용하여 확장 가능한 BI 솔루션 빌드**  
 작성자: Chris Webb, Craig Collier,Chris Holliday  

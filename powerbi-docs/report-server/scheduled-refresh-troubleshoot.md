@@ -2,18 +2,18 @@
 title: Power BI Report Server에서 예약된 새로 고침 문제 해결
 description: 이 문서에서는 Power BI Report Server에서 예약된 새로 고침의 문제 해결에 사용할 수 있는 리소스를 설명합니다.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: troubleshooting
 ms.date: 11/01/2017
-ms.author: maggies
-ms.openlocfilehash: 3ad1488869980c56bfe8dd4973fe60806781510a
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 8cb8bf4e6d67f01f7bbdc4370d8a60691dba5a63
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861800"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418282"
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>Power BI Report Server에서 예약된 새로 고침 문제 해결
 이 문서에서는 Power BI Report Server에서 예약된 새로 고침의 문제 해결에 사용할 수 있는 리소스를 설명합니다.
@@ -86,7 +86,7 @@ C:\Program Files\Microsoft Power BI Report Server\PBIRS\LogFiles\RSPowerBI_*.log
    at Microsoft.PowerBI.ReportServer.WebHost.EventHandler.DataRefreshScope.<ExecuteFuncWithLogging>d__1`1.MoveNext()
 ```
 
-***새로 고침 성공***
+새로 고침 성공*_
 
 ```
 2017-10-25 15:23:41.9370|INFO|6|Handling event with data: TimeEntered: 10/25/2017 8:23:41 PM, Type: Event, SessionId: 46d398db-0b1f-49d8-b7bd-c5461c07ec7a, EventType: DataModelRefresh
@@ -100,7 +100,7 @@ C:\Program Files\Microsoft Power BI Report Server\PBIRS\LogFiles\RSPowerBI_*.log
 2017-10-25 15:23:51.6508|INFO|6|Processing Data Model Refresh: SessionId: 46d398db-0b1f-49d8-b7bd-c5461c07ec7a, Status: Starting Saving model to the catalog.
 ```
 
-**잘못된 자격 증명**
+_ *잘못된 자격 증명**
 
 ```
 2017-10-20 08:22:01.5595|INFO|302|Processing Data Model Refresh: SessionId: 22cd9ec3-b21a-4eb1-81ae-15fac8d379ea, Status: Starting Refreshing the model.
@@ -124,8 +124,8 @@ C:\Program Files\Microsoft Power BI Report Server\PBIRS\LogFiles\RSPowerBI_*.log
 Power BI Report Server에서 자세한 정보 로깅을 사용하는 것은 SQL Server Reporting Services의 경우와 동일합니다.
 
 1. `<install directory>\PBIRS\ReportServer\bin\ReportingServicesService.exe.config` 엽니다.
-2. `<system.diagnostics>` 아래에서 **DefaultTraceSwitch**를 **4**로 변경합니다.
-3. `<RStrace>` 아래에서 **Components**를 **all:4**로 변경합니다. 
+2. `<system.diagnostics>` 아래에서 **DefaultTraceSwitch** 를 **4** 로 변경합니다.
+3. `<RStrace>` 아래에서 **Components** 를 **all:4** 로 변경합니다. 
 
 ### <a name="executionlog"></a>ExecutionLog
 Power BI 보고서가 렌더링되거나 새로 고침 예약 계획이 실행될 때마다 새 항목이 데이터베이스의 실행 로그에 추가됩니다. 이 항목은 보고서 서버 카탈로그 데이터베이스 내의 **ExecutionLog3** 보기에서 사용할 수 있습니다.
@@ -182,12 +182,12 @@ SQL 프로파일러 추적을 진단 용도로 로컬 Analysis Services 프로�
 
 SQL Server Profiler 추적은 [SSMS(SQL Server Management Studio) 다운로드](/sql/ssms/download-sql-server-management-studio-ssms)와 함께 포함됩니다.
 
-1. 관리자 권한으로 **SQL Server Profiler**를 시작합니다.
+1. 관리자 권한으로 **SQL Server Profiler** 를 시작합니다.
 2. **새 추적** 단추를 선택합니다.
-3. **서버에 연결** 대화 상자에서 **Analysis Services**를 선택하고 서버 이름에 대해 **localhost:5132**를 입력합니다.
-4. **추적 속성** 대화 상자에서 캡처하려는 이벤트를 선택하고 **실행**을 선택합니다.
+3. **서버에 연결** 대화 상자에서 **Analysis Services** 를 선택하고 서버 이름에 대해 **localhost:5132** 를 입력합니다.
+4. **추적 속성** 대화 상자에서 캡처하려는 이벤트를 선택하고 **실행** 을 선택합니다.
 
 ## <a name="lock-pages-in-memory-windows-privilege"></a>메모리의 페이지 잠금 Windows 권한
-Power BI 보고서를 렌더링할 수 없다는 것을 알게 된 경우 **메모리의 페이지 잠금** 권한을 Power BI Report Server를 실행 중인 서비스 계정에 할당하는 것은 도움이 될 수 있습니다. **메모리의 페이지 잠금**을 구성하는 방법에 대한 자세한 내용은 [Analysis Services 서비스 계정에 할당된 Windows 권한](/sql/analysis-services/instances/configure-service-accounts-analysis-services#bkmk_winpriv)을 참조하세요.
+Power BI 보고서를 렌더링할 수 없다는 것을 알게 된 경우 **메모리의 페이지 잠금** 권한을 Power BI Report Server를 실행 중인 서비스 계정에 할당하는 것은 도움이 될 수 있습니다. **메모리의 페이지 잠금** 을 구성하는 방법에 대한 자세한 내용은 [Analysis Services 서비스 계정에 할당된 Windows 권한](/sql/analysis-services/instances/configure-service-accounts-analysis-services#bkmk_winpriv)을 참조하세요.
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

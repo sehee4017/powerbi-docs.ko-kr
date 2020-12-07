@@ -2,18 +2,18 @@
 title: Power BI용 모바일 앱의 새로운 기능
 description: Power BI용 모바일 앱의 새로운 기능
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 11/01/2020
-ms.author: painbar
-ms.openlocfilehash: 83a280b94a6db937133e0d7ab1e6d7ad64af06f4
-ms.sourcegitcommit: 29cafa1602efb56cfa8dbd0010dd04ad3fcdd02c
+ms.date: 12/01/2020
+ms.openlocfilehash: 81a387d2f87e857cb56dcbc1fb22c8da72bbd27e
+ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "93355937"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96502090"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI용 모바일 앱의 새로운 기능
 관련된 "새로운 기능"은 다음을 참조하세요.
@@ -25,9 +25,19 @@ ms.locfileid: "93355937"
 >[!NOTE]
 >**Windows 10 Mobile을 사용하는 휴대폰** 용 Power BI 모바일 앱 지원은 2021년 3월 16일에 중단될 예정입니다. [자세히 알아보기](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
+## <a name="december-2020"></a>2020년 12월
+### <a name="weve-added-dark-mode-to-power-bi-mobile-android"></a>Power BI Mobile에 어둠 모드가 추가됨(Android)
+
+Android 디바이스용 Power BI 모바일 앱에서 새로운 어둠 모드를 사용해 보세요. 어둡게 모드에서는 어두운 배경에 밝은 텍스트가 표시되어 화면의 밝기가 줄어들고 콘텐츠를 더 쉽게 볼 수 있습니다. 앱 모양 설정에서 테마를 전환할 수 있습니다. [자세히 알아보기](mobile-apps-dark-mode.md)
+
+![Android용 Power BI 모바일 앱의 어둠 모드 스크린샷.](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-dark-mode-android.png)
+
+### <a name="maximize-the-view-with-full-screen-mode-ipads"></a>전체 화면 모드를 사용하여 뷰 최대화(iPad)
+iPad용 모바일 앱에 앱 머리글 및 바닥글을 제거하여 콘텐츠를 볼 수 있는 최대 공간을 제공하는 새 단추를 추가했습니다. 전체 화면 설정/해제 단추를 탭하면 됩니다. ![전체 화면 모드 아이콘의 스크린샷.](media/mobile-whats-new-in-the-mobile-apps/power-bi-full-screen-icon.png) 모드 간 전환 화면 우측 상단.
+
 ## <a name="november-2020"></a>2020년 11월
 ### <a name="maximize-the-view-with-full-screen-mode-android-tablets"></a>전체 화면 모드를 사용하여 뷰 최대화(Android 태블릿)
-Android 태블릿용 모바일 앱에 앱 머리글 및 바닥글을 제거하여 콘텐츠를 볼 수 있는 최대 공간을 제공하는 새 단추를 추가했습니다. 화면 오른쪽 위 모서리에서 전체 화면 토글 단추를 탭하여 모드 간에 전환합니다.
+Android 태블릿용 모바일 앱에 앱 머리글 및 바닥글을 제거하여 콘텐츠를 볼 수 있는 최대 공간을 제공하는 새 단추를 추가했습니다. 전체 화면 설정/해제 단추를 탭하면 됩니다. ![전체 화면 모드 아이콘의 스크린샷.](media/mobile-whats-new-in-the-mobile-apps/power-bi-full-screen-icon.png) 모드 간 전환 화면 우측 상단.
 
 ## <a name="october-2020"></a>2020년 10월
 ### <a name="automatic-page-refresh-is-now-supported-windows"></a>이제 자동 페이지 새로 고침이 지원됩니다(Windows).

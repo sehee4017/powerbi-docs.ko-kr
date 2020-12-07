@@ -9,10 +9,10 @@ ms.date: 08/19/2020
 ms.author: mihart
 ms.custom: include file
 ms.openlocfilehash: 40d3f5a45196a59add1fd7765f5dbae500cf079e
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91527946"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "96120485"
 ---
-<Token>**적용 대상:** ![](media/yes.png)***비즈니스 사용자를 위한 Power BI 서비스에 적용됩니다.*** ![](media/no.png)디자이너 및 개발자를 위한 Power BI 서비스에는 적용되지 않습니다.![](media/no.png)Power BI Desktop에는 적용되지 않습니다.![](media/no.png)필수 Pro 또는 프리미엄 라이선스에는 적용되지 않습니다.</Token>
+<Token>**적용 대상:** ![적용됨.](media/yes.png)**비즈니스 사용자용** Power BI 서비스 ![적용 안 함.](media/no.png)디자이너와 개발자를 위한 Power BI 서비스 ![적용 안 함.](media/no.png)Power BI Desktop ![적용 안 함.](media/no.png)Pro 또는 Premium 라이선스 필요   </Token>

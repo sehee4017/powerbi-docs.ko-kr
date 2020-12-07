@@ -2,20 +2,20 @@
 title: 포커스 모드와 전체 화면 모드 - 확대하여 더 자세히 보는 방법
 description: 포커스 모드 또는 전체 화면 모드에서 Power BI 대시보드, 대시보드 타일, 보고서 또는 보고서 시각적 개체를 표시하는 방법에 대한 설명서
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: dtdLul6otYE
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/09/2020
-ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 7ab2500a393751c3013c1f3427173b57b3b5cf07
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: 6385d263c47bde156a7dae941fefb101b9b30d18
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642722"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96400457"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>콘텐츠를 더 자세히 표시: 포커스 모드 및 전체 화면 모드
 
@@ -56,11 +56,11 @@ Power BI Mobile을 사용하는 경우 [Windows 10 모바일 앱에서 전체 �
 
 ## <a name="when-to-use-focus-mode"></a>포커스 모드를 사용하는 경우
 
-***포커스*** 모드를 사용하면 시각적 개체 또는 타일을 확장(팝아웃)하여 더 자세한 정보를 볼 수 있습니다.  약간 복잡한 대시보드 또는 보고서가 있고 하나의 시각적 개체만 확대하려고 할 수 있습니다.  이 경우 포커스 모드가 적합합니다.  
+***포커스** 모드를 사용하면 시각적 개체 또는 타일을 확장(팝아웃)하여 더 자세한 정보를 볼 수 있습니다.  약간 복잡한 대시보드 또는 보고서가 있고 하나의 시각적 개체만 확대하려고 할 수 있습니다.  이 경우 포커스 모드가 적합합니다.  
 
 ![대시보드 타일 포커스 모드 전후](media/end-user-focus/power-bi-compare-dash.png)
 
-포커스 모드에 있는 동안 Power BI *비즈니스 사용자*는 이 시각적 개체가 만들어질 때 적용된 모든 필터를 조작할 수 있습니다.  Power BI 서비스에서는 대시보드 타일 또는 보고서 시각적 개체에서 포커스 모드를 사용할 수 있습니다.
+포커스 모드에 있는 동안 Power BI 비즈니스 사용자는 이 시각적 개체가 만들어질 때 적용된 모든 필터를 조작할 수 있습니다.  Power BI 서비스에서는 대시보드 타일 또는 보고서 시각적 개체에서 포커스 모드를 사용할 수 있습니다.
 
 ## <a name="working-in-full-screen-mode"></a>전체 화면 모드에서 작업
 
@@ -68,12 +68,12 @@ Power BI Mobile을 사용하는 경우 [Windows 10 모바일 앱에서 전체 �
 
 - 전체 화면 모드에서 대시보드를 열려면 전체 화면 아이콘을 선택합니다. ![전체 화면 아이콘](media/end-user-focus/power-bi-full-screen-icon.png) 맨 위 메뉴 모음에서 
 
-- 전체 화면 모드에서 보고서 페이지를 열려면 **보기** > **전체 화면**을 선택합니다.
+- 전체 화면 모드에서 보고서 페이지를 열려면 **보기** > **전체 화면** 을 선택합니다.
 
     ![보기 메뉴에서 전체 화면 선택하기](media/end-user-focus/power-bi-view.png)
 
 
-- 전체 화면 모드에서 시각적 개체를 보려면 먼저 포커스 모드에서 연 다음 **보기** > **전체 화면**을 선택합니다.  
+- 전체 화면 모드에서 시각적 개체를 보려면 먼저 포커스 모드에서 연 다음 **보기** > **전체 화면** 을 선택합니다.  
 
 
 선택한 콘텐츠가 전체 화면을 채웁니다. 전체 화면 모드에서는 위쪽 및 아래쪽의 메뉴 모음(보고서)을 사용하거나 커서를 이동할 때 나타나는 메뉴(대시보드 및 시각적 개체)를 사용하여 탐색합니다. 다양한 콘텐츠에 전체 화면을 사용할 수 있기 때문에 탐색 옵션은 다양합니다.   
@@ -102,7 +102,7 @@ Power BI Mobile을 사용하는 경우 [Windows 10 모바일 앱에서 전체 �
 
 대시보드 타일 및 보고서 시각적 개체에 포커스 모드를 사용할 수 있습니다. 
 
-- 포커스 모드에서 대시보드 타일을 열려면 대시보드 타일 또는 보고서 시각적 개체를 마우스로 가리키고, **기타 옵션**(...)을 선택한 다음 **포커스 모드에서 열기**를 선택합니다.
+- 포커스 모드에서 대시보드 타일을 열려면 대시보드 타일 또는 보고서 시각적 개체를 마우스로 가리키고, **기타 옵션**(...)을 선택한 다음 **포커스 모드에서 열기** 를 선택합니다.
 
     ![타일의 줄임표 메뉴](media/end-user-focus/power-bi-focus-dashboard.png).. 
 
@@ -119,11 +119,11 @@ Power BI Mobile을 사용하는 경우 [Windows 10 모바일 앱에서 전체 �
 
    ![타일이 보고서 캔버스를 채우고 두 메뉴는 축소됩니다.](media/end-user-focus/power-bi-filter-collapse.png)  
 
-[필터를 수정](end-user-report-filter.md)하고 데이터에서 원하는 정보를 찾아 추가로 살펴봅니다. *비즈니스 사용자*는 새 필터를 추가하거나, 시각적 개체에 사용 중인 필드를 변경하거나, 새 시각적 개체를 만들 수 없습니다.  그러나 기존 필터와 상호 작용할 수 있습니다. 
+[필터를 수정](end-user-report-filter.md)하고 데이터에서 원하는 정보를 찾아 추가로 살펴봅니다. *비즈니스 사용자* 는 새 필터를 추가하거나, 시각적 개체에 사용 중인 필드를 변경하거나, 새 시각적 개체를 만들 수 없습니다.  그러나 기존 필터와 상호 작용할 수 있습니다. 
 
-대시보드 타일의 경우 변경 내용을 저장할 수 없습니다. 보고서 시각적 개체의 경우 Power BI를 종료할 때 기존 필터에 적용하는 모든 변경 내용이 저장됩니다. Power BI가 수정 내용을 기억하지 않도록 하려면 **기본값으로 다시 설정**을 선택합니다. ![기본값으로 다시 설정 단추](media/end-user-focus/power-bi-resets.png)  
+대시보드 타일의 경우 변경 내용을 저장할 수 없습니다. 보고서 시각적 개체의 경우 Power BI를 종료할 때 기존 필터에 적용하는 모든 변경 내용이 저장됩니다. Power BI가 수정 내용을 기억하지 않도록 하려면 **기본값으로 다시 설정** 을 선택합니다. ![기본값으로 다시 설정 단추](media/end-user-focus/power-bi-resets.png)  
 
-포커스 모드에서 나와 시각적 개체의 왼쪽 위 모서리에서 **포커스 모드 종료** 또는 **보고서로 돌아가기**를 선택하여 대시보드 또는 보고서로 돌아갑니다.
+포커스 모드에서 나와 시각적 개체의 왼쪽 위 모서리에서 **포커스 모드 종료** 또는 **보고서로 돌아가기** 를 선택하여 대시보드 또는 보고서로 돌아갑니다.
 
 ![포커스 모드 종료 단추](media/end-user-focus/power-bi-exit.png)    
 

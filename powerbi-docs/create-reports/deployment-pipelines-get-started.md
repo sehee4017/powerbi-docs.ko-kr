@@ -5,15 +5,15 @@ author: KesemSharabi
 ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-deployment
 ms.custom: contperfq1
 ms.date: 11/11/2020
-ms.openlocfilehash: ca588c50052ed4950b2f283ee8294098dd36a8ef
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: d40d46ca2de6fee5a928955fed6e69cb03decf24
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94669135"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415085"
 ---
 # <a name="get-started-with-deployment-pipelines"></a>배포 파이프라인 시작
 
@@ -181,6 +181,7 @@ ms.locfileid: "94669135"
 
 * 데이터 원본 규칙은 다음 데이터 원본에 대해서만 정의할 수 있습니다.
     * Azure Analysis Services
+    * Azure Synapse
     * SSAS(SQL Server Analysis Services)
     * Azure SQL Server
     * 데이터베이스 가져오기

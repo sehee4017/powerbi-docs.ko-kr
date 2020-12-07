@@ -2,19 +2,19 @@
 title: 대시보드는 무엇이고, 여는 방법은 무엇인가요?
 description: 대시보드는 Power BI 서비스의 핵심 기능입니다.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 08/30/2020
-ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 2e2c4656c5436691df96b86f145e255153ff9f96
-ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
+ms.openlocfilehash: 518310c6b4b0d45f02049c91a493b6394a4a50d2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89286698"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96400549"
 ---
 # <a name="dashboards-for-business-users-of-the-power-bi-service"></a>Power BI 서비스의 비즈니스 사용자 대시보드
 
@@ -22,11 +22,11 @@ ms.locfileid: "89286698"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Power BI ***대시보드***는 보통 캔버스라고도 하며 스토리를 전달하기 위해 시각화를 사용하는 단일 페이지입니다. 한 페이지로 제한되기 때문에 해당 스토리의 가장 중요한 요소만 포함할 경우 잘 디자인된 대시보드라 할 수 있습니다.
+Power BI **대시보드** 는 시각화를 사용하여 스토리를 전달하는 단일 페이지로, 캔버스라고도 합니다. 한 페이지로 제한되기 때문에 해당 스토리의 가장 중요한 요소만 포함할 경우 잘 디자인된 대시보드라 할 수 있습니다.
 
 ![대시보드의 스크린샷](media/end-user-dashboards/power-bi-dashboard.png)
 
-대시보드에 표시되는 시각화를 *타일*이라고 합니다. 타일은 보고서 *디자이너*가 대시보드에 *고정*합니다. 대부분의 경우, 타일을 선택하면 시각화가 생성된 보고서 페이지로 이동합니다. Power BI를 처음 접하는 경우 [Power BI 기본 개념](end-user-basic-concepts.md)을 읽으면 적절한 기초 정보를 얻을 수 있습니다.
+대시보드에 표시되는 시각화를 타일이라고 하며 보고서 디자이너가 대시보드에 고정합니다. 대부분의 경우, 타일을 선택하면 시각화가 생성된 보고서 페이지로 이동합니다. Power BI를 처음 접하는 경우 [Power BI 기본 개념](end-user-basic-concepts.md)을 읽으면 적절한 기초 정보를 얻을 수 있습니다.
 
 > [!NOTE]
 > 대시보드를 [모바일 디바이스에서 보고 공유](mobile/mobile-apps-view-dashboard.md)할 수 있습니다.
@@ -42,8 +42,8 @@ Power BI ***대시보드***는 보통 캔버스라고도 하며 스토리를 전
 
 대시보드는 단순히 예쁜 그림이 아닙니다. 대시보드는 대화형이며 기본 데이터가 변경되면 타일이 업데이트됩니다.
 
-## <a name="dashboards-versus-reports-for-power-bi-business-users"></a>대시보드와 Power BI ***비즈니스 사용자*** 보고서 비교
-대개 보고서는 시각화로 채워진 캔버스이므로 대시보드와 혼동됩니다. 하지만 Power BI *비즈니스 사용자* 관점과의 몇 가지 주요한 차이점이 있습니다.
+## <a name="dashboards-versus-reports-for-power-bi-business-users_"></a>대시보드와 Power BI **비즈니스 사용자** 보고서 비교
+대개 보고서는 시각화로 채워진 캔버스이므로 대시보드와 혼동됩니다. 하지만 Power BI 비즈니스 사용자 관점과의 몇 가지 주요한 차이점이 있습니다.
 
 | **기능** | **대시보드** | **보고서** |
 | --- | --- | --- |
@@ -57,7 +57,7 @@ Power BI ***대시보드***는 보통 캔버스라고도 하며 스토리를 전
 
 
 ## <a name="dashboard-designers-and-dashboard-business-users"></a>대시보드 디자이너 및 대시보드 비즈니스 사용자
-Power BI ***비즈니스 사용자***는 *디자이너*로부터 대시보드를 받습니다. 이 항목에서 계속 대시보드에 대해 알아봅니다.
+Power BI *_비즈니스 사용자_* 는 디자이너로부터 대시보드를 받습니다. 이 항목에서 계속 대시보드에 대해 알아봅니다.
 
 * [대시보드 보기](end-user-dashboard-open.md)
 * [대시보드 타일](end-user-tiles.md)과 선택할 경우 어떻게 되는지 알아보세요.

@@ -9,11 +9,11 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
 ms.openlocfilehash: 09489c3dbb33e1c5fb289cc1cc132eae0083a95f
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91981738"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "96120793"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded를 사용하는 행 수준 보안
 
@@ -47,7 +47,7 @@ RLS는 Power BI Desktop에서 작성됩니다. 데이터 세트 및 보고서를
 이 스키마에서 기억해야 할 몇 가지 사항은 다음과 같습입니다.
 
 * **Total Sales** 과 같은 모든 측정값 **Sales** 팩트 테이블에 저장됩니다.
-* 관련 추가 차원 테이블에는 **Item** , **Time** , **Store** 및 **District** 이라는 네 가지 항목이 있습니다.
+* 관련 추가 차원 테이블에는 **Item**, **Time**, **Store** 및 **District** 이라는 네 가지 항목이 있습니다.
 * 관계선의 화살표는 필터가 테이블 간에 이동할 수 있는 방식을 나타냅니다. 예를 들어, 필터가 **Time[Date]** 에 배치되면 현재 스키마에서는 **Sales** 테이블에 있는 값만을 필터링합니다. 관계선에 있는 모든 화살표가 다른 방향이 아닌 판매 테이블을 가리키기 때문에 다른 테이블은 이 필터의 영향을 받지 않습니다.
 * **District** 테이블은 각 지역에 있는 관리자를 나타냅니다.
   
@@ -72,7 +72,7 @@ RLS는 Power BI Desktop에서 작성됩니다. 데이터 세트 및 보고서를
 
     마치 **Andrew Ma** 로 로그인한 것처럼 보고서에 데이터가 표시됩니다.
 
-필터링을 적용하면 여기에서 수행한 방식으로 **District** , **Store** 및 **Sales** 테이블에서 모든 레코드를 필터링합니다. 그러나 **Sales** 와 **Time** 간 관계의 필터 방향으로 인해 **Sales** 와 **Item** 및 **Item** 과 **Time** 테이블이 필터링되지 않습니다. 양방향 교차 필터링에 대한 자세한 내용은 [SQL Server Analysis Services 2016 및 Power BI Desktop에서 양방향 교차 필터링](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) 백서를 다운로드합니다.
+필터링을 적용하면 여기에서 수행한 방식으로 **District**, **Store** 및 **Sales** 테이블에서 모든 레코드를 필터링합니다. 그러나 **Sales** 와 **Time** 간 관계의 필터 방향으로 인해 **Sales** 와 **Item** 및 **Item** 과 **Time** 테이블이 필터링되지 않습니다. 양방향 교차 필터링에 대한 자세한 내용은 [SQL Server Analysis Services 2016 및 Power BI Desktop에서 양방향 교차 필터링](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) 백서를 다운로드합니다.
 
 ## <a name="applying-user-and-role-to-an-embed-token"></a>포함된 토큰에 사용자 및 역할 적용
 
@@ -88,9 +88,9 @@ API는 관련 데이터 세트가 표시된 ID 목록을 수락합니다. RLS를
 
 **PowerBIClient.Reports** 에서 **GenerateTokenInGroup** 메서드를 사용하여 포함된 토큰을 만들 수 있습니다.
 
-예를 들어 *[PowerBI-Developer-Samples](https://github.com/Microsoft/PowerBI-Developer-Samples) > .NET Framework > 고객에 대한 콘텐츠 포함 > **PowerBIEmbedded_AppOwnsData*** 샘플을 변경할 수 있습니다.
+예를 들어 [PowerBI-Developer-Samples](https://github.com/Microsoft/PowerBI-Developer-Samples) > .NET Framework > 고객에 대한 콘텐츠 포함 > **PowerBIEmbedded_AppOwnsData** 샘플을 변경할 수 있습니다.
 
-**변경 전**
+_ *변경 전**
 
 ```csharp
 // Generate Embed Token with effective identities.

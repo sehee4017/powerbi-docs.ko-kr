@@ -2,19 +2,19 @@
 title: Power BI "비즈니스 사용자"란 무엇인가요?
 description: 비즈니스 사용자용 Power BI 개요(최종 사용자 또는 비즈니스 사용자라고도 함).
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: overview
 ms.date: 10/11/2020
-ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 7616d84ca93c336e606b3a96e7a362a1b57e6a96
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 133ffefd32008a138c736094dadcfe154211e98c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91982064"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96391234"
 ---
 # <a name="the-power-bi-service-for-business-users"></a>비즈니스 사용자용 Power BI 서비스
 
@@ -28,7 +28,7 @@ ms.locfileid: "91982064"
 
 ## <a name="the-power-bi-service-for-business-users"></a>*비즈니스 사용자* 용 Power BI 서비스
 
-Power BI를 사용하면 작업을 더 쉬우면서 효율적으로 수행할 수 있습니다. 이러한 모든 데이터는 데이터를 시각화하는 차트 및 그래프가 됩니다. 데이터 인사이트가 긴 목록이나 숫자와 단어의 테이블 대신, 데이터의 인사이트를 알려주는 다채롭고 멋진 시각적 요소를 사용해서 ***보기 좋게*** 표시됩니다. 
+Power BI를 사용하면 작업을 더 쉬우면서 효율적으로 수행할 수 있습니다. 이러한 모든 데이터는 데이터를 시각화하는 차트 및 그래프가 됩니다. 데이터 인사이트가 긴 목록이나 숫자와 단어의 테이블 대신, 데이터의 인사이트를 알려주는 다채롭고 멋진 시각적 요소를 사용해서 **보기 좋게** 표시됩니다. 
 
 ![다양한 종류의 차트가 있는 Power BI 보고서를 보여 주는 스크린샷.](media/end-user-consumer/power-bi-consumer-examples.png)
  
@@ -38,7 +38,7 @@ Power BI를 사용하면 작업을 더 쉬우면서 효율적으로 수행할 �
 
 콘텐츠가 고정되어 있지 않으므로 추세, 인사이트 및 기타 비즈니스 인텔리전스를 찾아볼 수 있습니다. 콘텐츠를 조각화 및 분석하고 원하는 표현을 사용해서 질문을 할 수도 있습니다. 또는 데이터가 자동으로 흥미로운 인사이트를 제공할 때까지 기다립니다. 데이터가 변경되면 경고가 표시되고, 설정한 일정에 따라 메일로 보고서가 전송됩니다. 어떤 디바이스에서도, 클라우드나 온-프레미스 모두에서, 언제든지 모든 데이터를 사용할 수 있습니다. 이것은 Power BI로 수행할 수 있는 작업의 일부에 불과합니다. 
 
-## <a name="am-i-a-power-bi-business-user"></a>제가 Power BI 비즈니스 사용자인가요?
+## <a name="am-i-a-power-bi-_business-user"></a>제가 Power BI 비즈니스 사용자인가요?
 
 Power BI를 조작하는 방식은 작업 역할에 따라 다릅니다. 소비자 또는 *비즈니스 사용자* 는 동료로부터 콘텐츠(대시보드, 보고서 및 앱)를 받는 사람입니다. Power BI 서비스라고 하는 Power BI의 온라인 또는 모바일 버전에서 이 콘텐츠를 검토하고 상호 작용하면서 비즈니스 의사 결정을 내립니다. 
    

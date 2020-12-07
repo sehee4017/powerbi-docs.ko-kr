@@ -2,25 +2,25 @@
 title: 비즈니스 사용자로서 시각화(시각적 개체) 작업
 description: Power BI 개념 및 용어 - 시각화 요소, 시각적 개체입니다. Power BI 시각화, 시각적 개체란 무엇인가요?
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/7/2020
-ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f463e9a065ddfa550cdab6929393cfb71ce30158
-ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
+ms.openlocfilehash: dfa030b487e1e4d9f6f4d1bfd39cfab8baa72c71
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "91830275"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96389187"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>보고서, 대시보드 및 앱에서 시각적 개체 조작
 
 [!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
-가장 기본적으로 ***시각화*** (또는 ‘시각적 개체’)는 보고서 및 데이터 세트의 데이터를 사용하여 Power BI ‘디자이너’에 의해 빌드된 차트 유형입니다.   
+가장 기본적으로 **시각화**(또는 시각적 개체)는 보고서 및 데이터 세트의 데이터를 사용하여 Power BI 디자이너에 의해 빌드된 차트 유형입니다. 
 
 시각적 개체는 대시보드와 보고서에 있으며 Power BI 질문과 답변을 사용하여 즉시 만들 수 있습니다. 디자이너는 보고서에서 시각적 개체를 만들 때 시각적 개체를 대시보드에 *고정* 할 수 있습니다. 대시보드의 [시각적 개체를 *타일*](end-user-tiles.md)이라고 합니다. 이 대시보드에는 8개의 타일이 있습니다. 
 
@@ -50,10 +50,10 @@ ms.locfileid: "91830275"
 |[시각적 개체에 설명을 직접 추가하거나 시각적 개체에 대해 동료와 대화를 시작합니다](end-user-comment.md).     |  예       |   예      |  아니요  |
 |[시각적 개체를 작성한 보고서를 열고 탐색합니다](end-user-tiles.md).     |    예     |   na      |  아니요 |
 |[시각적 개체에 영향을 주는 필터 및 슬라이서 목록을 표시합니다](end-user-report-filter.md).     |    포커스 모드에서 여는 경우     |   예      |  아니요 |
-|[질문 및 답변에서 시각적 개체를 열고 검색합니다( *디자이너* 가 질문 및 답변을 사용하여 시각적 개체를 만든 경우)](end-user-q-and-a.md).     |   예      |   na      |  na  |
+|[질문 및 답변에서 시각적 개체를 열고 검색합니다(*디자이너* 가 질문 및 답변을 사용하여 시각적 개체를 만든 경우)](end-user-q-and-a.md).     |   예      |   na      |  na  |
 |[질문 및 답변에서 시각적 개체를 만듭니다(검색을 위해 저장할 수 없음)](end-user-q-and-a.md).     |   예      |   디자이너가 보고서에 질문 및 답변을 추가한 경우      |  예  |
 |[Power BI에 시각적 개체의 데이터에서 관심 있는 팩트나 추세를 찾도록 요청합니다](end-user-insights.md).  자동으로 생성되는 시각적 개체를 *인사이트* 라고 합니다.     |    예(타일의 경우)    |  아니요       | 아니요   |
-|<bpt id="p1">[</bpt>View just one visual at a time using <bpt id="p2">*</bpt>focus<ept id="p2">*</ept> mode<ept id="p1">](end-user-focus.md)</ept>.     | 예(타일의 경우)        |   예(시각적 개체의 경우)      | na  |
+|[‘포커스’ 모드를 사용하여 한 번에 하나의 시각적 개체만 표시합니다](end-user-focus.md).     | 예(타일의 경우)        |   예(시각적 개체의 경우)      | na  |
 |[마지막으로 시각적 개체를 새로 고친 시간을 검색합니다](end-user-fresh.md).     |  예       |    예     | na  |
 |[*전체 화면* 모드를 사용하여 테두리 또는 탐색 창 없이 한 번에 하나의 시각적 개체만 표시합니다](end-user-focus.md).     |   예      |  예       | 기본적으로  |
 |[인쇄](end-user-print.md).     |  예       |   예      | 아니요  |

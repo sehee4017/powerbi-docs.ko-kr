@@ -2,20 +2,20 @@
 title: 로그인 및 로그아웃
 description: 웹에서 Power BI 서비스에 로그인하는 방법 및 로그아웃하는 방법을 알아봅니다.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 Ms.custom: css_fy20Q4
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 10/06/2020
-ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: bea5b36c98ab8a62b444bfc731b5d54df6550f0f
-ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
+ms.openlocfilehash: 18fe7dc1c2d1b064d28e32782dc58fcbcf92341d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "91780413"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96389624"
 ---
 # <a name="sign-in-to-power-bi-service"></a>Power BI 서비스에 로그인
 
@@ -29,11 +29,11 @@ Power BI에 로그인하기 전에 계정이 필요합니다. Power BI 계정을
 ### <a name="step-1-open-the-power-bi-service"></a>1단계: Power BI 서비스 열기
 Power BI 서비스는 브라우저에서 실행됩니다. 
 
-- 동료로부터 대시보드 또는 보고서에 대한 링크가 포함된 이메일을 받은 경우 해당 링크를 선택하여 **이 보고서 열기** 또는 **이 대시보드 열기**를 수행합니다.
+- 동료로부터 대시보드 또는 보고서에 대한 링크가 포함된 이메일을 받은 경우 해당 링크를 선택하여 **이 보고서 열기** 또는 **이 대시보드 열기** 를 수행합니다.
 
     ![보고서에 대한 링크가 포함된 이메일을 보여 주는 스크린샷.](media/end-user-sign-in/power-bi-share.png)    
 
-- 또는 즐겨찾는 브라우저를 열고 **app.powerbi.com**을 입력합니다.
+- 또는 즐겨찾는 브라우저를 열고 **app.powerbi.com** 을 입력합니다.
 
     ![app.powerbi.com 주소가 있는 브라우저를 보여 주는 스크린샷.](media/end-user-sign-in/power-bi-signin.png)    
 
@@ -50,7 +50,7 @@ Power BI 서비스는 브라우저에서 실행됩니다.
 경우에 따라 전역 관리자가 라이선스를 할당하고 이 정보가 포함된 이메일을 보냅니다. 받은 편지함에서 환영 이메일을 확인하고 지침에 따라 처음으로 로그인합니다. 로그인 시 같은 이메일 계정을 사용합니다. 
  
 ### <a name="step-3-review-the-terms-and-conditions"></a>3단계: 사용 약관 검토
-사용 약관을 검토하여 동의하면 확인란을 선택하고 **시작**을 선택합니다.
+사용 약관을 검토하여 동의하면 확인란을 선택하고 **시작** 을 선택합니다.
 
 ![사용 약관 화면](media/end-user-sign-in/power-bi-term.png)
 
@@ -68,7 +68,7 @@ Power BI 서비스는 브라우저에서 실행됩니다.
 Power BI가 홈 페이지를 열지 않도록 하려면 [**주요** 대시보드 혹은 보고서](end-user-featured.md)가 대신 열리도록 설정할 수 있습니다. 
 
 ## <a name="safely-interact-with-content"></a>콘텐츠와 안전하게 상호 작용
-***비즈니스 사용자***는 다른 사용자와 콘텐츠를 공유하고 해당 콘텐츠와 상호 작용하여 데이터를 탐색하고 비즈니스 결정을 내립니다.  필터링, 슬라이스, 구독, 내보내기 및 크기 조정 시 작업이 기본 데이터 세트 또는 원래 공유 콘텐츠(대시보드 및 보고서)에 영향을 주지 않으므로 걱정하지 마세요. Power BI는 탐색하고 실험할 수 있는 안전한 공간입니다. 그렇다고 해서 변경 내용을 저장할 수 없다는 의미는 아닙니다. 하지만 이러한 변경 내용은 콘텐츠의 **사용자** 보기에만 영향을 줍니다. 그리고 단추를 클릭하기만 하면 기본 보기로 되돌릴수 있습니다.
+***비즈니스 사용자는 다른 사용자와 콘텐츠를 공유하고 해당 콘텐츠와 상호 작용하여 데이터를 탐색하고 비즈니스 결정을 내립니다.  필터링, 슬라이스, 구독, 내보내기 및 크기 조정 시 작업이 기본 데이터 세트 또는 원래 공유 콘텐츠(대시보드 및 보고서)에 영향을 주지 않으므로 걱정하지 마세요. Power BI는 탐색하고 실험할 수 있는 안전한 공간입니다. 그렇다고 해서 변경 내용을 저장할 수 없다는 의미는 아닙니다. 하지만 이러한 변경 내용은 _* 사용자** 가 보는 콘텐츠 모습에만 영향을 줍니다. 그리고 단추를 클릭하기만 하면 기본 보기로 되돌릴수 있습니다.
 
 ![기본값 재설정 버튼](media/end-user-sign-in/power-bi-reset.png)
 
@@ -79,7 +79,7 @@ Power BI를 닫으려면 작업 중인 브라우저 탭을 닫습니다.
 
 ![탭을 닫으려면 x를 선택합니다.](media/end-user-sign-in/power-bi-close-tab.png) 
 
-컴퓨터를 공유하는 경우 Power BI를 닫을 때마다 로그아웃하는 것이 좋습니다.  로그아웃하려면 오른쪽 위 모서리에서 프로필 사진을 선택하고 **로그아웃**을 선택합니다.  
+컴퓨터를 공유하는 경우 Power BI를 닫을 때마다 로그아웃하는 것이 좋습니다.  로그아웃하려면 오른쪽 위 모서리에서 프로필 사진을 선택하고 **로그아웃** 을 선택합니다.  
 
 ![프로필 선택](media/end-user-sign-in/power-bi-signout.png) 
 

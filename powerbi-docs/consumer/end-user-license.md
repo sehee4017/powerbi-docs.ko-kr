@@ -2,21 +2,21 @@
 title: Power BI 비즈니스 사용자의 라이선스 유형
 description: 다양한 라이선스 유형 및 보유한 라이선스를 확인하는 방법을 알아봅니다.
 author: mihart
+ms.author: mihart
 ms.reviewer: lukasz
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 Ms.custom: css_fy20Q4
 ms.topic: how-to
-ms.date: 10/07/2020
-ms.author: mihart
+ms.date: 11/16/2020
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: c2a81e771e611380ef89ef15e097005d1a86e2da
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 852ac027903dc974e84691dc714a7e7e220dd36d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916984"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96390452"
 ---
 # <a name="licenses-and-subscriptions-for-business-users"></a>비즈니스 사용자용 라이선스 및 구독
 
@@ -46,7 +46,7 @@ Power BI 서비스에서 수행할 수 있는 작업은 다음 세 가지 사항
 
 프리미엄을 통해 콘텐츠를 보는 수신자에게 Pro 라이선스를 요구하지 않고도 Pro 사용자별 콘텐츠를 광범위하게 배포할 수 있습니다. 콘텐츠 디자이너에게는 Pro 라이선스가 필요합니다. 디자이너는 데이터 원본, 모델 데이터에 연결하여 작업 영역 앱으로 패키징된 보고서와 대시보드를 만듭니다. Pro 라이선스가 없는 사용자도 [해당 작업 영역에서 역할](end-user-workspaces.md)이 할당되어 있는 한 Power BI Premium 용량에 있는 작업 영역에 계속 액세스할 수 있습니다.
 
-해당 작업 영역 내에서 디자이너는 **시청자** , **참가자** , **구성원** , **관리자** 와 같은 역할을 할당합니다. 역할에 따라 동료가 콘텐츠와 상호 작용할 수 있는 범위가 결정됩니다. 자세한 내용은 [작업 영역 권한 및 역할](end-user-workspaces.md)을 참조하세요. 
+해당 작업 영역 내에서 디자이너는 **시청자**, **참가자**, **구성원**, **관리자** 와 같은 역할을 할당합니다. 역할에 따라 동료가 콘텐츠와 상호 작용할 수 있는 범위가 결정됩니다. 자세한 내용은 [작업 영역 권한 및 역할](end-user-workspaces.md)을 참조하세요. 
 
 프리미엄 용량에 대한 자세한 내용은 [Microsoft Power BI Premium이란?](../admin/service-premium-what-is.md)을 참조하세요.
 
@@ -101,9 +101,9 @@ Pro 사용자는 이미 Zalan을 사용하여 작업 영역을 공유하고 있�
 
 조직에서 프리미엄 구독을 구매하는 경우 일반적으로 관리자는 프리미엄 용량에서 작업하여 콘텐츠를 만들고 공유하는 직원에게 Pro 라이선스를 할당합니다. Pro 사용자는 [작업 영역](end-user-workspaces.md)을 만들고 콘텐츠(대시보드, 보고서, 앱)를 해당 작업 영역에 추가합니다. 무료 사용자가 해당 작업 영역에서 공동 작업할 수 있도록 하기 위해 관리자 또는 Pro 사용자는 작업 영역을 ‘용량’에 할당합니다.  
 
-|라이선스 유형  |공유 용량 |전용 프리미엄 용량  |
+|라이선스 유형  |공유 용량 | 프리미엄 용량  |
 |---------|---------|---------|
-|**Free**     |  사용자 자신을 위한 콘텐츠를 만들고 해당 콘텐츠와 상호 작용하는 개인 샌드박스로 사용합니다. 체험용 라이선스는 Power BI 서비스를 시험적으로 사용해 볼 수 있는 좋은 방법입니다. 다른 사람의 콘텐츠를 사용하거나 본인의 콘텐츠를 다른 사용자와 공유할 수 없습니다. <sup>1</sup>     |   전용 프리미엄 용량에 할당되어 사용자와 공유되는 콘텐츠와 상호 작용합니다. 무료 사용자에게 Pro 계정이 없어도 Free 및 Pro 사용자가 협업을 수행할 수 있습니다.      |
+|**Free**     |  사용자 자신을 위한 콘텐츠를 만들고 해당 콘텐츠와 상호 작용하는 개인 샌드박스로 사용합니다. 체험용 라이선스는 Power BI 서비스를 시험적으로 사용해 볼 수 있는 좋은 방법입니다. 다른 사람의 콘텐츠를 사용하거나 본인의 콘텐츠를 다른 사용자와 공유할 수 없습니다. <sup>1</sup>     |   프리미엄 용량에 할당되어 사용자와 공유되는 콘텐츠와 상호 작용합니다. 무료 사용자에게 Pro 계정이 없어도 Free 및 Pro 사용자가 협업을 수행할 수 있습니다.      |
 |**Pro**     |  콘텐츠를 만들고 공유하여 다른 Pro 사용자와 협업합니다.        |  콘텐츠를 만들고 공유하여 Free 및 Pro 사용자와 협업합니다.       |
 
 
