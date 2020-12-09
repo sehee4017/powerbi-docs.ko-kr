@@ -48,6 +48,8 @@
           href: embed-service-principal.md
         - name: 서비스 주체와 인증서를 사용하여 포함
           href: embed-service-principal-certificate.md
+        - name: 임베디드 앱을 프로덕션으로 이동
+          href: move-to-production.md
         - name: 앱에서 포함
           href: embed-from-apps.md
         - name: 파일로 보고서 내보내기
