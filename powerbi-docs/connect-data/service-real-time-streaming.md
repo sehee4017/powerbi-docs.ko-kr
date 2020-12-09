@@ -9,12 +9,12 @@ ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 07/16/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 322ad95c561be6ca4c6a89df08404137545c1756
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a4c652a0728dcecde960e8faba2070fc5a2b14e4
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96401975"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96577397"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI에서 실시간 스트리밍
 Power BI 실시간 스트리밍을 사용하여 실시간으로 데이터를 스트리밍하고 대시보드를 업데이트할 수 있습니다. Power BI에서 만든 시각적 개체 또는 대시보드에서 실시간 데이터 및 시각적 개체를 표시하고 업데이트할 수 있습니다. 스트리밍 데이터의 디바이스 및 원본은 공장 센서, 소셜 미디어 원본, 서비스 사용 메트릭 또는 기타 많은 시간이 중요한 데이터 수집기 또는 송신기일 수 있습니다.
@@ -52,7 +52,7 @@ Power BI 실시간 스트리밍을 사용하여 실시간으로 데이터를 스
 실제로 스트리밍 데이터 세트와 동반하는 스트리밍 시각적 개체는 데이터가 푸시될 때와 시각화될 때 사이의 대기 시간을 최소화하는 것이 중요한 상황에 최적화되어 있습니다. 또한 어떠한 추가 집계 없이 있는 그대로 시각화할 수 있는 형식으로 푸시된 데이터를 갖는 것이 최상의 방법입니다. 있는 그대로 준비되는 데이터의 예에는 온도 및 미리 계산된 평균이 있습니다.
 
 ### <a name="pubnub-streaming-dataset"></a>PubNub 스트리밍 데이터 세트
-**PubNub** 스트리밍 데이터 세트를 사용하면 Power BI 웹 클라이언트는 PubNub SDK를 사용하여 기존 PubNub 데이터 스트림을 읽습니다. Power BI 서비스에서 저장하는 데이터는 없습니다. 이 호출은 웹 클라이언트에서 직접 수행되므로 네트워크에서 승인된 아웃바운드 트래픽만 허용한 경우 PubNub에 대한 트래픽 허용 목록을 작성해야 합니다. [PubNub용 아웃바운드 트래픽 승인](https://support.pubnub.com/support/solutions/articles/14000043522-can-i-whitelist-ips-for-pubnub-traffic-)에 관한 지원 문서의 지침을 참조하세요.
+**PubNub** 스트리밍 데이터 세트를 사용하면 Power BI 웹 클라이언트는 PubNub SDK를 사용하여 기존 PubNub 데이터 스트림을 읽습니다. Power BI 서비스에서 저장하는 데이터는 없습니다. 이 호출은 웹 클라이언트에서 직접 수행되므로 네트워크에서 승인된 아웃바운드 트래픽만 허용한 경우 PubNub에 대한 트래픽 허용 목록을 작성해야 합니다. [PubNub용 아웃바운드 트래픽 승인](https://support.pubnub.com/hc/en-us/articles/360051496672-Can-I-whitelist-IPs-for-PubNub-traffic-)에 관한 지원 문서의 지침을 참조하세요.
 
 **스트리밍 데이터 세트** 와 마찬가지로, **PubNub 스트리밍 데이터 세트** 를 사용하면 Power BI에 기본 데이터베이스가 없으므로 스트림에서 유입되는 데이터를 사용하여 보고서 시각적 개체를 만들 수 없으며 필터링, Power BI 시각적 개체 등과 같은 보고서 기능의 장점을 활용할 수 없습니다. 이와 같이 **PubNub 스트리밍 데이터 세트** 는 또한 대시보드에 타일을 추가하고 PubNub 데이터 스트림을 원본으로 구성하는 방법으로만 시각화할 수 있습니다.
 

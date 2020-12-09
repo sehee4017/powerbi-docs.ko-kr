@@ -8,20 +8,19 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 09/17/2020
+ms.date: 12/03/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: de9265112d587418345c2eadb8d33acdddf900d4
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 2c88cca174f5deeededcaef3f242d6ea00a83379
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96399698"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613696"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>보고서를 Power BI에서 PDF로 내보내기
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Power BI를 사용하면 보고서를 PDF 형식으로 게시하고 Power BI 보고서를 기반으로 문서를 쉽게 만들 수 있습니다. PDF로 내보낼 때 Power BI 보고서의 각 페이지는 PDF 문서에서 개별 페이지가 됩니다.
 

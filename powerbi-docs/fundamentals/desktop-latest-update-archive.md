@@ -9,12 +9,12 @@ ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 11/11/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: c6bdb2c2de06e82c844e454fa1981619ad65bd33
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 9bf482f14b197acda93b6411525a98e865706721
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96419524"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578521"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop으로 이전 월별 업데이트
 
@@ -549,8 +549,8 @@ Power BI Desktop 업데이트 목록에서 각 기능 옆에 있는 링크는 �
 
 이전 버전을 다운로드하려면 아래 링크를 선택하세요. 
 
-* [Power BI Desktop 2020년 5월 버전 - 32비트](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-05.exe)
-* [Power BI Desktop 2020년 5월 버전 - 64비트](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-05_x64.exe)
+* [Power BI Desktop 2020년 5월 버전 - 32비트](https://download.microsoft.com/download/9/0/3/903DCAE8-44D9-4A7E-856C-40C0754723ED/PBIDesktopRS.msi)
+* [Power BI Desktop 2020년 5월 버전 - 64비트](https://download.microsoft.com/download/9/0/3/903DCAE8-44D9-4A7E-856C-40C0754723ED/PBIDesktopRS_x64.msi)
 
 
 

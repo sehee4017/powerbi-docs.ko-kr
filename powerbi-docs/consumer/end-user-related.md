@@ -10,18 +10,18 @@ ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/25/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 5487697196b5ab6c7132db44ba707a0c7cc708d4
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.custom: video-B2vd4MQrz4M#t
+ms.openlocfilehash: c3672433675bd2c44de8e9005a3c46d592d51452
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96389923"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781799"
 ---
 # <a name="see-related-content-in-the-power-bi-service"></a>Power BI 서비스에서 관련 콘텐츠 보기
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 **관련 콘텐츠** 창은 Power BI 서비스 콘텐츠(대시보드, 보고서 및 데이터 세트)가 서로 어떻게 연결되어 있는지를 보여 줍니다. **관련 콘텐츠** 창은 작업을 수행하기 위한 실행 공간이기도 합니다. 여기에서 대시보드 열기, 보고서 열기, 유용한 정보 생성, Excel에서 데이터 분석 등의 작업을 수행할 수 있습니다.  
 

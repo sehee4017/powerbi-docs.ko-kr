@@ -8,20 +8,20 @@ featuredvideoid: bZMSv5KAlcE
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 09/17/2020
+ms.date: 12/03/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 598cbca7756ab6f929180da0c3a95b68643abf00
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.custom: video-bZMSv5KAlcE
+ms.openlocfilehash: d476fdfe18b12307be18e84f1dac42cc5f7fc632
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96399782"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613673"
 ---
 # <a name="view-power-bi-notifications"></a>Power BI 알림 보기
 
 [!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 알림 센터는 Power BI 환경에 관련된 정보의 순차적 피드입니다. 알림 센터를 열어서 나와 공유된 새 대시보드, Power BI 이벤트 및 모임에 대한 정보, 내가 설정한 경고 등에 대한 메시지를 볼 수 있습니다. [Power BI 서비스에서 경고를 설정](end-user-alerts.md)할 수 있으며 Power BI 모바일 앱에서도 설정할 수 있습니다.
 

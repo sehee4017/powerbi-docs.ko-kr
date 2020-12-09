@@ -7,20 +7,20 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 10/6/2020
+ms.date: 12/06/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3ab587e3467f929ac7b318c2225b4f734a70e1a2
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a4b9f7d25b9199e924d1b91a3b870730fc068fa3
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96399100"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781753"
 ---
 # <a name="show-data-with-power-bi-reports"></a>Power BI 보고서와 함께 데이터 표시
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 
 Power BI 시각적 개체는 기본 데이터 세트의 데이터를 사용하여 구성됩니다. 숨은 기능에 관심이 있는 경우 Power BI 서비스를 사용하면 보고서의 시각적 개체를 만드는 데 사용된 데이터를 *표시* 할 수 있습니다. **테이블로 표시** 를 선택하면 Power BI에서 데이터를 시각적 개체 아래(또는 옆)에 표시합니다.
 

@@ -8,20 +8,19 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 10/06/2020
+ms.date: 12/06/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 3ecd7e5c231be74e69cb2c6074f08794beec547f
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 138107761a03866e1a04f5efc1f7e40da84b9627
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96398893"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781868"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Power BI 서비스에서 보고서 또는 대시보드 구독 
 
 [!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 가장 중요한 대시보드와 보고서를 최신 상태로 유지하는 것이 결코 쉬운 일은 아닙니다. 가장 중요한 보고서 페이지와 대시보드를 구독하면 Power BI에서 스냅샷을 전자 메일로 받은 편지함에 보냅니다. 매일, 매주 또는 데이터 새로 고침될 때 Power BI에게 이메일 수신 빈도를 알려줍니다. Power BI가 이메일을 보내거나 지금 실행되도록 특정 시간을 설정할 수도 있습니다.  모두 합쳐, 보고서 또는 대시보드당 최대 24개의 구독을 설정할 수 있습니다.
 

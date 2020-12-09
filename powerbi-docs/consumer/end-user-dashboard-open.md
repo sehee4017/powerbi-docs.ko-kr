@@ -7,20 +7,20 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 08/27/2020
+ms.date: 12/03/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7e431b6a94b7cd881adba27597aa9cbfa6a54425
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.custom: video
+ms.openlocfilehash: 9a78ac3aa63ee65ea0e60a384a41ac4a6544c610
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96391211"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578202"
 ---
 # <a name="view-a-dashboard"></a>대시보드 보기
 
 [!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Power BI *비즈니스 사용자* 는 대시보드를 보는 데 많은 시간을 사용합니다. 대시보드는 기본 보고서 및 데이터 세트에서 특정 정보를 강조 표시하도록 설계되었습니다. 또한 Power BI 비즈니스 사용자는 데이터 기반의 비즈니스 의사 결정을 내리기 위해 추적, 모니터링, 질문에 대한 답변 제공, 테스트 등에 해당 정보를 사용합니다.
 

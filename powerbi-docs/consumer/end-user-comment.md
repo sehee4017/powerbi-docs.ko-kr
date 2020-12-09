@@ -8,20 +8,18 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 09/25/2020
+ms.date: 12/03/2020
 LocalizationGroup: Consumer
-ms.openlocfilehash: ee053fe000ad85b768ce3d451984f987e3c79e6f
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f1265a8eb3fb4a7a1ec18a74c6b3a7d28b3b09ba
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96400756"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578248"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>대시보드 또는 보고서에 댓글 추가
 
 [!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
-
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 개별 댓글을 추가하거나 동료와 대시보드 또는 보고서에 관한 대화를 시작합니다. **주석** 기능은 비즈니스 사용자가 다른 사용자와 협업할 수 있는 방법 중 하나입니다. 
 

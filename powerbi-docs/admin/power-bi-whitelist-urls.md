@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/25/2020
 ms.custom: seodec18
-ms.openlocfilehash: 433b3d53ccb653e1a945a83176ab9ebc19ccac5d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1495400a59d8250f407a5f7415a550871501e4e3
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96409243"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96577512"
 ---
 # <a name="add-power-bi-urls-to-your-allow-list"></a>허용 목록에 Power BI URL 추가
 [//]: # "suparnap, miwehnia, natham은 이 목록을 유지 관리하기 위한 연락처입니다."
@@ -76,7 +76,7 @@ OneDrive와 같은 특정 데이터 원본에서 데이터를 가져오려면 �
 | 2 | **선택 사항:** 로그인하고 콘텐츠 팩의 데이터 가져오기 | 사용되는 콘텐츠 팩에 따라 다름 | 사용되는 콘텐츠 팩에 따라 다름 |
 | 3 | **선택 사항:** 개인 OneDrive에서 파일 가져오기 | [OneDrive 사이트에 대한 필수 URL 및 포트](/onedrive/required-urls-and-ports)를 참조하세요. | 해당 없음 |
 | 4 | **선택 사항:** Power BI(60초 후) 자습서 비디오 | *.doubleclick.net <br> *.ggpht.com <br> *.google.com <br> *.googlevideo.com <br> *.youtube.com <br> *.ytimg.com <br> fonts.gstatic.com | TCP 443 |
-| 5 | **선택 사항:** PubNub 스트리밍 데이터 원본 | [PubNub 설명서](https://support.pubnub.com/support/solutions/articles/14000043522)를 참조하세요. | 해당 없음 |
+| 5 | **선택 사항:** PubNub 스트리밍 데이터 원본 | [PubNub 설명서](https://support.pubnub.com/hc/en-us/categories/360004336832-PubNub-101)를 참조하세요. | 해당 없음 |
 | | | |
 
 ## <a name="dashboard-and-report-integration"></a>대시보드 및 보고서 통합

@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: how-to
 ms.date: 10/22/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1879dbd53f08b3dff7dac2f4050be078ed44ead8
-ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
+ms.openlocfilehash: 0f971013d5f57174a26d92281cafe673f1487329
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92502089"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96577558"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-sso-from-power-bi-to-on-premises-data-sources"></a>Power BI에서 온-프레미스 데이터 원본으로 SSO에 SAML(Security Assertion Markup Language)을 사용합니다.
 
@@ -22,7 +22,7 @@ SSO를 사용하도록 설정하면 Power BI 보고서 및 대시보드가 온-�
 
 ## <a name="supported-data-sources"></a>지원되는 데이터 원본
 
-현재 SAML을 사용하는 SAP HANA가 지원됩니다. SAML을 사용하여 SAP HANA에 대해 Single Sign-On을 설정하고 구성하는 방법에 대한 자세한 내용은 [BI 플랫폼-HANA 연결에 대한 SAML SSO](https://wiki.scn.sap.com/wiki/display/SAPHANA/SAML+SSO+for+BI+Platform+to+HANA)를 참조하세요.
+현재 SAML을 사용하는 SAP HANA가 지원됩니다. SAML을 사용하여 SAP HANA에 대해 Single Sign-On을 설정하고 구성하는 방법에 대한 자세한 내용은 [BI 플랫폼-HANA 연결에 대한 SAML SSO](https://blogs.sap.com/2020/03/22/sap-bi-platform-saml-sso-to-hana-database/)를 참조하세요.
 
 [Kerberos](service-gateway-sso-kerberos.md)(SAP HANA 포함)를 사용하여 추가 데이터 원본이 지원됩니다.
 
@@ -167,7 +167,7 @@ SAML을 사용하려면 SSO와 게이트웨이를 사용하도록 설정할 HANA
 
     3. **모든 인증서를 다음 저장소에 저장** 을 선택한 다음, **찾아보기** > **개인** > **확인** 을 선택합니다.
 
-    4. **다음** , **마침** 을 차례로 선택합니다.
+    4. **다음**, **마침** 을 차례로 선택합니다.
 
        ![인증서 가져오기](media/service-gateway-sso-saml/service-gateway-sso-saml-06.png)
 

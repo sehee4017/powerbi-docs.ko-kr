@@ -9,12 +9,12 @@ ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 10/12/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 2487c8215d4c1f2c3bc905457d6b5d08c5955c0c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a5a3029a3afe3d48981338934090ad6b9719d6bb
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96400135"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613434"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Power BI에서 지원되는 정보의 유형
 
@@ -24,7 +24,7 @@ Power BI에 데이터를 살펴보고 흥미로운 추세 및 패턴을 찾도�
 
 인사이트를 사용하는 방법에 대한 자세한 내용은 [Power BI 인사이트](end-user-insights.md)를 참조하세요.
 
-![인사이트 집합](media/end-user-insight-types/power-bi-insight.png)
+![인사이트 집합](media/end-user-insight-types/power-bi-insight-line.png)
 
 ## <a name="how-does-insights-work"></a>정보는 어떻게 작동하나요?
 Power BI는 데이터 세트의 다른 하위 집합을 빠르게 검색합니다. 검색 시 Power BI는 정교한 알고리즘을 적용하여 관심을 가질 가능성이 높은 인사이트를 검색합니다. Power BI *비즈니스 사용자* 는 대시보드 타일에서 인사이트를 실행할 수 있습니다.

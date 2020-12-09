@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/23/2020
-ms.openlocfilehash: ca5db6ed7a07d5a6fb10133285378e8318527464
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 671fcbabf10666c03f39bc4582e00fa0adbdbd5e
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96386095"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578363"
 ---
 # <a name="automated-configuration-of-a-template-app-installation"></a>템플릿 앱 설치의 자동화된 구성
 
@@ -55,7 +55,7 @@ ms.locfileid: "96386095"
 
 * 위의 테넌트에 등록된 **서비스 주체(앱 전용 토큰)** 자세한 정보는 [서비스 주체 및 애플리케이션 암호를 사용하여 Power BI 콘텐츠 포함](https://docs.microsoft.com/power-bi/developer/embedded/embed-service-principal)을 참조하세요. 애플리케이션을 **서버 쪽 웹 애플리케이션** 앱으로 등록해야 합니다. 서버 사이드 웹 애플리케이션을 등록하여 응용 프로그램 암호를 만듭니다. 이 프로세스에서 이후 단계를 위해 ‘애플리케이션 ID’(클라이언트 ID) 및 ‘애플리케이션 암호’(클라이언트 암호)를 저장해야 합니다. 
 
-* 설치할 수 있는 **매개 변수가 있는 템플릿 앱** Azure AD(Azure Active Directory)에서 애플리케이션을 등록한 것과 동일한 테넌트에서 템플릿 앱을 만들어야 합니다. 자세한 내용은 [템플릿 앱 팁](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips.md) 또는 [Power BI에서 템플릿 앱 만들기](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create)를 참조하세요. 다음 단계를 위해 템플릿 앱에서 다음 정보를 확인해야 합니다.
+* 설치할 수 있는 **매개 변수가 있는 템플릿 앱** Azure AD(Azure Active Directory)에서 애플리케이션을 등록한 것과 동일한 테넌트에서 템플릿 앱을 만들어야 합니다. 자세한 내용은 [템플릿 앱 팁](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips) 또는 [Power BI에서 템플릿 앱 만들기](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create)를 참조하세요. 다음 단계를 위해 템플릿 앱에서 다음 정보를 확인해야 합니다.
      * 앱을 만들 때 [템플릿 앱의 속성 정의](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app) 프로세스 끝에 설치 URL에 표시된 ‘앱 ID’, ‘패키지 키’, ‘소유자 ID’.   템플릿 앱의 [Release Management](../../connect-data/service-template-apps-create.md#manage-the-template-app-release)에서 **링크 가져오기** 를 클릭하여 동일한 링크를 가져올 수도 있습니다.
 
     * 템플릿 앱의 데이터 세트에 정의된 ‘매개 변수 이름’ 매개 변수 이름은 대/소문자를 구분하며 [템플릿 앱의 속성 정의](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app)하는 동안 **매개 변수 설정** 탭에서 또는 Power BI의 데이터 세트 설정에서 검색할 수도 있습니다.

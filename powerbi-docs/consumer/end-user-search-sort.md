@@ -8,20 +8,19 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 10/01/2020
+ms.date: 12/06/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: b2fac346b9c75df8b3a6b8faa1f158745ff307a7
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 2d92e49c09b5b542376cd00c410420b30b835644
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96399123"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781845"
 ---
 # <a name="navigation-for-power-bi-business-users-global-search"></a>Power BI 비즈니스 사용자를 위한 탐색: 전역 검색
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 
 Power BI 서비스를 처음 사용하는 경우 몇 개의 콘텐츠(대시보드, 보고서, 앱)만 있습니다. 그러나 동료가 콘텐츠 공유를 시작하고 앱 다운로드를 시작하면 긴 콘텐츠 목록이 표시될 수 있습니다. 그러면 검색 및 정렬이 매우 유용해집니다.

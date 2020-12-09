@@ -7,14 +7,14 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: conceptual
-ms.date: 11/13/2020
+ms.date: 12/03/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 6c2be9c2c266c489dbb93f5e3f93c3c120cae5c3
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 9df90a41143ddb6d0657aa0d61dc83f25ecbae1a
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96390613"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578067"
 ---
 # <a name="find-your-dashboards-reports-and-apps"></a>대시보드, 보고서 및 앱 찾기
 
@@ -42,13 +42,13 @@ Power BI 홈에서는 세 가지 방법을 사용하여 콘텐츠를 찾아서 �
 ## <a name="home-canvas"></a>홈 캔버스
 홈 캔버스에서는 사용 권한이 있는 모든 콘텐츠를 볼 수 있습니다. 홈 캔버스에 표시되는 권장 콘텐츠 및 학습 리소스도 업데이트됩니다. 처음에는 홈 캔버스에 그다지 많은 콘텐츠가 표시되지 않을 수 있으나, 동료들과 Power BI를 사용하다 보면 점점 더 많아집니다.
 
-![Power BI 서비스의 새 사용자를 위한 시작 화면의 스크린샷](media/end-user-home/power-bi-home-new-user.png)
+![Power BI 서비스의 새 사용자를 위한 시작 화면의 스크린샷](media/end-user-home/power-bi-home-new-users.png)
 
 
  
 Power BI 서비스에서 작업을 할 때 동료들로부터 대시보드, 보고서 및 앱을 받다 보면 결국에는 Power BI 홈이 가득 채워지게 됩니다. 시간이 흐르면 홈이 아래 그림처럼 보일 수 있습니다.
 
-![Power BI 서비스 시작 화면의 스크린샷](media/end-user-home/power-bi-experienced-user.png)
+![Power BI 서비스 시작 화면의 스크린샷](media/end-user-home/power-bi-experienced-users.png)
 
  
 다음 몇몇 항목에서는 숙련된 사용자를 위한 홈을 위에서 아래의 순서로 자세히 살펴보겠습니다.

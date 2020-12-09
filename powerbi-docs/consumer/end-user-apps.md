@@ -7,21 +7,20 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 10/09/2020
+ms.date: 12/03/2020
 ms.custom: licensing support, css_fy20Q4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3cf504d1df824840f8f3af134ac3e6e3cd8a3fca
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: ed9e7f826c8b5e75e1192c16dc72315cf32c1b9a
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96391556"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578317"
 ---
 # <a name="apps-in-power-bi"></a>Power BI의 앱
 
 [!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 ## <a name="what-is-a-power-bi-app"></a>Power BI 앱이란?
 *앱* 은 관련 대시보드 및 보고서를 모두 한 곳에서 결합하는 Power BI 콘텐츠 형식입니다. 앱은 하나 이상의 대시보드와 하나 이상의 보고서를 함께 번들할 수 있습니다. 앱은 앱을 배포하고 동료와 공유하는 Power BI ‘디자이너’에 의해 생성됩니다. *디자이너* 가 앱을 공유할 수 있는 여러 가지 방법이 있습니다. 자세한 내용은 아래의 **새 앱 가져오기** 섹션을 참조하세요. 

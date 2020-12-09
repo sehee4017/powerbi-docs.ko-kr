@@ -8,20 +8,19 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 08/28/2020
+ms.date: 12/03/2020
 LocalizationGroup: Consumers
-ms.openlocfilehash: 13d8eda142896b406269f940823e702b2ca7cb3e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: d8b9f11abe639d2892bc199a9f65400e5488dedc
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96391027"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578123"
 ---
 # <a name="export-data-from-a-visual"></a>시각적 개체에서 데이터 내보내기
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 시각적 개체를 만드는 데 사용되는 데이터를 보려면 [Power BI에서 해당 데이터를 표시](end-user-show-data.md)하거나 해당 데이터를 Excel에 내보낼 수 있습니다. 데이터를 내보내는 옵션에는 특정 형식이나 라이선스가 필요하며 콘텐츠에 대한 편집 권한이 필요합니다. 내보낼 수 없는 경우 Power BI 관리자 또는 IT 지원 센터에 문의하세요. 
 
@@ -33,7 +32,7 @@ ms.locfileid: "96391027"
 1. Power BI 대시보드에서 시작합니다. 여기서는 ***마케팅 및 판매 샘플** _ 앱의 대시보드를 사용하고 있습니다. [이 앱은 AppSource.com에서 다운로드](https://appsource.microsoft.com/en-us/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample
 )할 수 있습니다.
 
-    ![앱 대시보드](media/end-user-export/power-bi-dashboards.png)
+    ![앱 대시보드](media/end-user-export/power-bi-dashboard.png)
 
 2. 시각적 개체를 마우스로 가리켜 _ *추가 옵션**(...)을 표시하고 작업 메뉴를 클릭하여 표시합니다.
 

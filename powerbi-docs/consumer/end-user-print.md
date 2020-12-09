@@ -10,18 +10,18 @@ ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/19/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: d861bbc32584ccbc95d7bcc13701938f671f0c73
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: eaa7cc9911b003a8872f983cd7c9768501833047
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96399560"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613765"
 ---
 # <a name="printing-from-the-power-bi-service"></a>Power BI 서비스에서 인쇄
 
 [!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 ## <a name="what-can-be-printed"></a>인쇄할 수 있는 내용
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 
 Power BI 서비스에서 전체 대시보드, 대시보드 타일, 보고서 페이지 또는 보고서 시각적 개체를 인쇄합니다. 보고서가 여러 페이지로 이루어진 경우 각 페이지를 개별적으로 인쇄해야 합니다. 
 

@@ -8,20 +8,21 @@ featuredvideoid: dtdLul6otYE
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 09/09/2020
+ms.date: 12/03/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 6385d263c47bde156a7dae941fefb101b9b30d18
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.custom: video-dtdLul6otYE
+ms.openlocfilehash: 611fe62486fbe376bdf1c44aa7ab4d18a7ae5c65
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96400457"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613630"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>콘텐츠를 더 자세히 표시: 포커스 모드 및 전체 화면 모드
 
 [!INCLUDE [consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]    
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtdLul6otYE" frameborder="0" allowfullscreen></iframe>
 
@@ -41,7 +42,7 @@ ms.locfileid: "96400457"
 
 ## <a name="when-to-use-full-screen-mode"></a>전체 화면 모드를 사용하는 경우
 
-![대시보드 전체 화면 모드 전과 후](media/end-user-focus/power-bi-dashboards-focus.png)
+![대시보드 전체 화면 모드 전과 후](media/end-user-focus/power-bi-dashboard-focus.png)
 
 메뉴 및 탐색 창 없이 Power BI 서비스 콘텐츠(대시보드, 보고서 페이지 및 시각적 개체)를 표시합니다.  항상 한 눈에 콘텐츠 전체를 볼 수 있습니다. 이를 TV 모드라고도 합니다.   
 
@@ -58,7 +59,7 @@ Power BI Mobile을 사용하는 경우 [Windows 10 모바일 앱에서 전체 �
 
 ***포커스** 모드를 사용하면 시각적 개체 또는 타일을 확장(팝아웃)하여 더 자세한 정보를 볼 수 있습니다.  약간 복잡한 대시보드 또는 보고서가 있고 하나의 시각적 개체만 확대하려고 할 수 있습니다.  이 경우 포커스 모드가 적합합니다.  
 
-![대시보드 타일 포커스 모드 전후](media/end-user-focus/power-bi-compare-dash.png)
+![대시보드 타일 포커스 모드 전후](media/end-user-focus/power-bi-compare.png)
 
 포커스 모드에 있는 동안 Power BI 비즈니스 사용자는 이 시각적 개체가 만들어질 때 적용된 모든 필터를 조작할 수 있습니다.  Power BI 서비스에서는 대시보드 타일 또는 보고서 시각적 개체에서 포커스 모드를 사용할 수 있습니다.
 

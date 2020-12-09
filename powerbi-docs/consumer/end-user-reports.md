@@ -9,18 +9,17 @@ ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/09/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 152d3ee87afe93fdfbe19060a42f013ec83f2d2a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 0cf2389b9dafc19519010142079fbb15f6f21711
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96389739"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781661"
 ---
 # <a name="reports-in-power-bi"></a>Power BI의 보고서
 
 [!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yyn.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Power BI 보고서는 해당 데이터 세트에서 얻은 다양한 결과 및 인사이트를 나타내는 시각적 개체가 포함된 데이터 세트에 대한 다각적인 데이터 뷰입니다.  보고서에는 단일 시각적 개체 또는 여러 페이지의 시각적 개체가 있을 수 있습니다. 작업 역할에 따라 보고서를 *디자인* 하는 사람이 될 수 있습니다. 보고서를 *소비* 또는 사용하는 *비즈니스 사용자* 일 수도 있습니다. 이 문서는 *비즈니스 사용자* 를 위한 것입니다.
 

@@ -7,14 +7,14 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 08/25/2020
+ms.date: 12/03/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 44bdb454bbe22082a20182002e817fead561d8da
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e211aded069675c02e59004631ea2264be1e0dcc
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96391418"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578284"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Power BI 보고서에서 차트 정렬 방식 변경
 
@@ -80,7 +80,7 @@ Power BI 보고서는 [읽기용 보기](end-user-reading-view.md)에서 작업�
 
 보고서를 설계한 사람만 이 변경 작업을 수행할 수 있습니다. *디자이너* 의 연락처 정보는 머리글 표시줄에서 보고서 이름을 선택하여 확인할 수 있습니다.
 
-![연락처 정보를 표시하는 드롭다운](media/end-user-change-sort/power-bi-header.png)
+![연락처 정보를 표시하는 드롭다운](media/end-user-change-sort/power-bi-heading.png)
 
 콘텐츠에 대한 편집 권한이 있는 *디자이너* 인 경우 [Power BI Desktop의 열 기준 정렬](../create-reports/desktop-sort-by-column.md)을 참조하여 데이터 세트를 업데이트하고 이러한 종류의 정렬을 설정하는 방법을 알아보세요.
 

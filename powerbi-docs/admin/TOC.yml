@@ -118,7 +118,7 @@
               href: service-premium-metrics-app.md
             - name: 관리 포털에서 용량 모니터링
               href: service-admin-premium-monitor-portal.md
-            - name: 큰 모델 구성 (미리 보기)
+            - name: 대량 데이터 세트 구성
               href: service-premium-large-models.md
             - name: 다중 지역 구성
               href: service-admin-premium-multi-geo.md

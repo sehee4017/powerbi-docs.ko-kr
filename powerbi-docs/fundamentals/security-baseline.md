@@ -8,12 +8,12 @@ ms.subservice: pbi-security
 ms.topic: conceptual
 ms.date: 11/20/2020
 ms.custom: subject-security-benchmark
-ms.openlocfilehash: 9e7aefba7a2e47fbf5249feaab3ac56057ac867c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: ef74b3bcddd981c9f63172fa2e641335a081836d
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96386266"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96577719"
 ---
 # <a name="azure-security-baseline-for-power-bi"></a>Power BI용 Azure 보안 기준
 
@@ -344,7 +344,7 @@ Azure를 사용하여 쿼리를 만드는 방법
 
 ## <a name="logging-and-threat-detection"></a>로깅 및 위협 탐지
 
-자세한 내용은 [Azure Security Benchmark: 로깅 및 위협 탐지](/azure/security/benchmarks/security-controls-v2-logging-threat-protection)를 참조하세요.
+자세한 내용은 [Azure Security Benchmark: 로깅 및 위협 탐지](/azure/security/benchmarks/security-controls-v2-logging-threat-detection)를 참조하세요.
 
 ### <a name="lt-2-enable-threat-detection-for-azure-identity-and-access-management"></a>LT-2: Azure ID 및 액세스 관리를 위한 위협 탐지 사용
 
@@ -553,7 +553,7 @@ Microsoft Threat Protection의 워크플로 자동화 기능을 사용하여 들
 
 ## <a name="posture-and-vulnerability-management"></a>태세 및 취약성 관리
 
-자세한 내용은 [Azure Security Benchmark: 태세 및 취약성 관리](/azure/security/benchmarks/security-controls-v2-vulnerability-management)를 참조하세요.
+자세한 내용은 [Azure Security Benchmark: 태세 및 취약성 관리](/azure/security/benchmarks/security-controls-v2-posture-vulnerability-management)를 참조하세요.
 
 ### <a name="pv-1-establish-secure-configurations-for-azure-services"></a>PV-1: Azure 서비스에 대한 보안 구성 설정 
 
@@ -656,9 +656,9 @@ Microsoft Cloud 침투 테스트 시행 규칙에 따라 침투 테스트가 Mic
 
 - [클라우드 채택 프레임워크 - Azure 데이터 보안 및 암호화 모범 사례](https://docs.microsoft.com/azure/security/fundamentals/data-encryption-best-practices?toc=/azure/cloud-adoption-framework/toc.json&amp;bc=/azure/cloud-adoption-framework/_bread/toc.json)
 
-- [Azure Security Benchmark - 자산 관리](https://docs.microsoft.com/azure/security/benchmarks/security-benchmark-v2-asset-management)
+- [Azure Security Benchmark - 자산 관리](https://docs.microsoft.com/azure/security/benchmarks/security-controls-v2-asset-management)
 
-- [Azure Security Benchmark - 데이터 보호](https://docs.microsoft.com/azure/security/benchmarks/security-benchmark-v2-data-protection)
+- [Azure Security Benchmark - 데이터 보호](/azure/security/benchmarks/security-controls-v2-data-protection)
 
 **Azure Security Center 모니터링**: 해당 없음
 
@@ -686,7 +686,7 @@ Microsoft Cloud 침투 테스트 시행 규칙에 따라 침투 테스트가 Mic
 
 **지침**: 개별 자산과 해당 자산이 호스트되는 환경에 대한 위험을 지속적으로 측정하고 완화합니다. 게시된 애플리케이션, 네트워크 수신 및 송신 지점, 사용자 및 관리자 엔드포인트 등과 같은 고가치 자산과 노출이 많은 공격 노출 영역에 우선 순위를 지정합니다.
 
-- [Azure Security Benchmark - 태세 및 취약성 관리](https://docs.microsoft.com/azure/security/benchmarks/security-benchmark-v2-posture-vulnerability-management)
+- [Azure Security Benchmark - 태세 및 취약성 관리](https://docs.microsoft.com/azure/security/benchmarks/security-controls-v2-posture-vulnerability-management)
 
 **Azure Security Center 모니터링**: 해당 없음
 
@@ -727,7 +727,7 @@ Microsoft Cloud 침투 테스트 시행 규칙에 따라 침투 테스트가 Mic
 자세한 내용은 다음 참조 문서를 참조하세요.
 - [Azure 보안 모범 사례 11 – 아키텍처 단일 통합 보안 전략](https://docs.microsoft.com/azure/cloud-adoption-framework/security/security-top-10#11-architecture-establish-a-single-unified-security-strategy)
 
-- [Azure Security Benchmark - 네트워크 보안](https://docs.microsoft.com/azure/security/benchmarks/security-benchmark-v2-network-security)
+- [Azure Security Benchmark - 네트워크 보안](/azure/security/benchmarks/security-controls-v2-network-security)
 
 - [Azure 네트워크 보안 개요](https://docs.microsoft.com/azure/security/fundamentals/network-overview)
 
@@ -755,9 +755,9 @@ Microsoft Cloud 침투 테스트 시행 규칙에 따라 침투 테스트가 Mic
 
 자세한 내용은 다음 참조 문서를 참조하세요.
 
-- [Azure Security Benchmark - ID 관리](https://docs.microsoft.com/azure/security/benchmarks/security-benchmark-v2-identity-management)
+- [Azure Security Benchmark - ID 관리](https://docs.microsoft.com/azure/security/benchmarks/security-controls-v2-identity-management)
 
-- [Azure Security Benchmark - 권한 있는 액세스](https://docs.microsoft.com/azure/security/benchmarks/security-benchmark-v2-privileged-access)
+- [Azure Security Benchmark - 권한 있는 액세스](/azure/security/benchmarks/security-controls-v2-privileged-access)
 
 - [Azure 보안 모범 사례 11 – 아키텍처 단일 통합 보안 전략](https://docs.microsoft.com/azure/cloud-adoption-framework/security/security-top-10#11-architecture-establish-a-single-unified-security-strategy)
 
@@ -789,9 +789,9 @@ Microsoft Cloud 침투 테스트 시행 규칙에 따라 침투 테스트가 Mic
 
 자세한 내용은 다음 참조 문서를 참조하세요.
 
-- [Azure Security Benchmark - 로깅 및 위협 탐지](https://docs.microsoft.com/azure/security/benchmarks/security-benchmark-v2-logging-threat-detection)
+- [Azure Security Benchmark - 로깅 및 위협 탐지](/azure/security/benchmarks/security-controls-v2-logging-threat-detection)
 
-- [Azure Security Benchmark - 인시던트 응답](https://docs.microsoft.com/azure/security/benchmarks/security-benchmark-v2-incident-response)
+- [Azure Security Benchmark - 인시던트 응답](/azure/security/benchmarks/security-controls-v2-incident-response)
 
 - [Azure 보안 모범 사례 4 - 프로세스 클라우드에 대한 인시던트 응답 프로세스 업데이트](https://docs.microsoft.com/azure/cloud-adoption-framework/security/security-top-10#4-process-update-incident-response-ir-processes-for-cloud)
 

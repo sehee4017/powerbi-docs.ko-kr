@@ -9,18 +9,17 @@ ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/27/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 82a26fe2d1679aeb725876a6e0da286ebf6162af
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: ea537e19eb7c3ab2a155f417af92e45841031f89
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96399261"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781638"
 ---
 # <a name="change-the-display-of-a-report-page"></a>보고서 페이지의 표시 변경
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 사용자는 다양한 디바이스에서 여러 화면 크기 및 가로 세로 비율로 볼 수 있습니다. 필요에 맞게 보고서 페이지가 표시되는 방식을 변경합니다.
 

@@ -7,12 +7,12 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/23/2020
-ms.openlocfilehash: 0bb2e0c249df668378d62f62184dc044d174ce81
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 0ddcf3c54a5bb3cf9259f6c0d18d0001b838df60
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95550552"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96577857"
 ---
 # <a name="tutorial-automate-configuration-of-template-app-installation-using-an-azure-function"></a>자습서:  Azure 함수를 사용한 템플릿 앱 설치 구성 자동화
 
@@ -57,7 +57,7 @@ ms.locfileid: "95550552"
 
 * 위의 테넌트에 등록된 [서비스 주체(앱 전용 토큰)](https://docs.microsoft.com/power-bi/developer/embedded/embed-service-principal)
 
-* 설치할 수 있는 매개 변수가 있는 [템플릿 앱](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-overview) Azure AD(Azure Active Directory)에서 애플리케이션을 등록한 것과 동일한 테넌트에서 템플릿 앱을 만들어야 합니다. 자세한 내용은 [템플릿 앱 팁](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips.md) 또는 [Power BI에서 템플릿 앱 만들기](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create)를 참조하세요.
+* 설치할 수 있는 매개 변수가 있는 [템플릿 앱](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-overview) Azure AD(Azure Active Directory)에서 애플리케이션을 등록한 것과 동일한 테넌트에서 템플릿 앱을 만들어야 합니다. 자세한 내용은 [템플릿 앱 팁](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips) 또는 [Power BI에서 템플릿 앱 만들기](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create)를 참조하세요.
 
 * **Power BI Pro 라이선스** Power BI Pro에 등록하지 않은 경우 시작하기 전에 [평가판에 등록](https://powerbi.microsoft.com/pricing/)합니다.
 

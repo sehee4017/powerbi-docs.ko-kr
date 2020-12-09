@@ -7,20 +7,20 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 10/09/2020
+ms.date: 12/07/2020
+ms.custom: video-G26dr2PsEpk
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 44f9d26e5f6ebe8723d5f5269bc66a38590a9b36
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 3461fc3cc310e8f714cee48e7c528bda99f3e6f6
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96389601"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781615"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>나와 공유한 대시보드 및 보고서 표시
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 동료가 공유한 대시보드 또는 보고서는 **공유한 항목** 컨테이너에 표시됩니다. 동료가 앱을 공유하는 경우 앱이 **앱** 컨테이너에 표시되고 앱의 보고서 및 대시보드가 **공유한 항목** 컨테이너에 표시됩니다.   
 

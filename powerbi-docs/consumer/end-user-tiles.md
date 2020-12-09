@@ -7,24 +7,23 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 10/06/2020
+ms.date: 12/06/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 67291ca77b161fab289ee0520287d832cce838f8
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 36b1ad58b1ee93f0876de8bf7f7ed7331671abfd
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96389532"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781904"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI의 대시보드 타일
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-ynny.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 타일은 *디자이너* 가 대시보드에 고정한 데이터의 스냅샷입니다. *디자이너* 는 보고서, 데이터 세트, 대시보드, 질문 및 답변의 질문하기 상자, Excel, SSRS(SQL Server Reporting Services) 등에서 타일을 만들 수 있습니다.  이 스크린샷은 대시보드에 고정된 여러 타일을 보여 줍니다.
 
-![Power BI 대시보드](./media/end-user-tiles/power-bi-dash.png)
+![Power BI 대시보드](./media/end-user-tiles/power-bi-dashboard.png)
 
 
 *설계자* 는 **타일 추가** 를 사용하여 보고서에 고정된 타일 외에 다른 독립 실행형 타일을 대시보드에 직접 추가할 수 있습니다. 독립 실행형 타일에는 텍스트 상자, 이미지, 동영상, 스트리밍 데이터 및 웹 콘텐츠가 포함됩니다.
