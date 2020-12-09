@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: ed8f44e7dd1a7e713a9b2bd75dc33f259cb52f2a
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 377f509248dbd2368b74bb9645f001ff7c6a97c0
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916340"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907282"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Power BI 임베디드 분석을 사용하여 다중 테넌트 관리
 
@@ -104,7 +104,7 @@ Power BI Embedded는 다중 지역 배포(미리 보기 기능)를 지원합니�
 
 ### <a name="cost"></a>비용
 
-[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)에는 리소스 기반 구매 모델이 있습니다(예: **Power BI Premium** ). 컴퓨팅 성능 및 메모리가 고정된 용량을 하나 이상 구매합니다. 이 용량은 **Power BI Embedded** 를 사용할 때 발생하는 주요 비용 항목입니다. 용량을 사용하는 사용자 수에는 제한이 없습니다. 유일한 제한은 용량의 성능입니다. [Power BI Pro 라이선스](../../admin/service-admin-licensing-organization.md)는 각 ‘마스터’ 사용자에게 필요하거나 Power BI 포털에 액세스해야 하는 특정 사용자에게 필요합니다. 
+[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)에는 리소스 기반 구매 모델이 있습니다(예: **Power BI Premium**). 컴퓨팅 성능 및 메모리가 고정된 용량을 하나 이상 구매합니다. 이 용량은 **Power BI Embedded** 를 사용할 때 발생하는 주요 비용 항목입니다. 용량을 사용하는 사용자 수에는 제한이 없습니다. 유일한 제한은 용량의 성능입니다. [Power BI Pro 라이선스](../../admin/service-admin-licensing-organization.md)는 각 ‘마스터’ 사용자에게 필요하거나 Power BI 포털에 액세스해야 하는 특정 사용자에게 필요합니다. 
 
 라이브 환경 및 사용량을 시뮬레이트하고 용량에 대한 부하 테스트를 실행하여 용량의 예상 부하를 테스트하고 측정하는 것이 좋습니다. Azure 용량 또는 [프리미엄 용량 메트릭 앱](../../admin/service-admin-premium-monitor-capacity.md)에서 제공하는 다양한 메트릭을 사용하여 부하와 성능을 측정할 수 있습니다.
 
@@ -163,7 +163,7 @@ Power BI 작업 영역 기반 격리를 사용하여 애플리케이션 개발�
 
 ### <a name="cost"></a>비용
 
-Power BI Embedded를 사용하는 애플리케이션 개발자는 [프로덕션 환경으로 이동하려면 Power BI Embedded 용량을 구매](embed-sample-for-customers.md#move-to-production)해야 합니다.  작업 영역 기반 격리 모델의 영향과 용량에 미치는 영향을 이해해야 합니다.
+Power BI Embedded를 사용하는 애플리케이션 개발자는 [프로덕션 환경으로 이동하려면 Power BI Embedded 용량을 구매](move-to-production.md)해야 합니다.  작업 영역 기반 격리 모델의 영향과 용량에 미치는 영향을 이해해야 합니다.
 
 작업 영역 기반 격리 모델이 용량에 적합한 이유는 다음과 같습니다.
 

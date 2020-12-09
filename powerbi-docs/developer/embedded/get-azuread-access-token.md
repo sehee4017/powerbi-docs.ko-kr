@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/04/2019
-ms.openlocfilehash: 0743a7ac0d12cba8bbde54464a275a78f7c88eff
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: cb7c874fc68da361971c34879f2ea44006402bf4
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396705"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96906937"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>Power BI 애플리케이션의 Azure AD 액세스 토큰 얻기
 
@@ -206,6 +206,6 @@ m_tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bea
 
 ## <a name="next-steps"></a>다음 단계
 
-이제 액세스 토큰을 가졌으므로, 콘텐츠를 포함하기 위해 Power BI REST API를 호출할 수 있습니다. 자세한 내용은 [Power BI 콘텐츠를 포함하는 방법](embed-sample-for-customers.md#embed-content-within-your-application)을 참조하세요.
+이제 액세스 토큰을 가졌으므로, 콘텐츠를 포함하기 위해 Power BI REST API를 호출할 수 있습니다.
 
 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

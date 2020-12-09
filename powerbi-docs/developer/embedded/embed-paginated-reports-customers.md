@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: 58d1112dfccda798a32b2a3cb95d72c37b7a16ec
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 02d73a2eb36636091ff6059fd6543bb950082c2a
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668399"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907305"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>자습서:  고객을 위해 애플리케이션에 페이지를 매긴 Power BI 보고서 포함
 
@@ -40,7 +40,7 @@ Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.
 
 > [!IMPORTANT]
 > * **서비스 주체** 를 사용해야 합니다. 마스터 사용자는 지원되지 않습니다.
->* [PPU(사용자 단위 Premium)](../../admin/service-premium-per-user-faq.md)가 지원되지 않습니다. PPU를 사용하여 솔루션을 실험할 수는 있지만 [프로덕션으로 이동](embed-sample-for-customers.md#move-to-production)할 수는 없습니다.
+>* [PPU(사용자 단위 Premium)](../../admin/service-premium-per-user-faq.md)가 지원되지 않습니다. PPU를 사용하여 솔루션을 실험할 수는 있지만 [프로덕션으로 이동](move-to-production.md)할 수는 없습니다.
 > * SSO(Single Sign-On)가 필요한 데이터 원본은 지원되지 않습니다. 지원되는 데이터 세트 및 해당 인증 방법의 목록은 [Power BI 페이지를 매긴 보고서의 지원되는 데이터 원본](../../paginated-reports/paginated-reports-data-sources.md)을 참조하세요. 
 > * Power BI 데이터 세트는 [데이터 원본](../../connect-data/service-get-data.md)으로 지원되지 않습니다.
 
