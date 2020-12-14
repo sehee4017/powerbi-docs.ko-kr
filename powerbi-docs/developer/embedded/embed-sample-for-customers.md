@@ -1,6 +1,6 @@
 ---
 title: 고객의 애플리케이션에 콘텐츠 포함
-description: 고객의 임베디드 분석에 Power BI API를 사용하여 애플리케이션에 보고서, 대시보드 또는 타일을 통합하거나 포함하는 방법을 알아봅니다. 임베디드 분석 소프트웨어, 임베디드 분석 도구 또는 임베디드 비즈니스 인텔리전스 도구를 사용하여 애플리케이션에 Power BI를 통합하는 방법을 알아봅니다.
+description: Power BI 임베디드 분석 샘플에 보고서, 대시보드 또는 타일을 포함하는 방법을 알아봅니다.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -8,463 +8,593 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 06/02/2020
-ms.openlocfilehash: dab16218406a4b97c9e2aa01974380ba09dde003
-ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
+ms.date: 12/02/2020
+ms.openlocfilehash: 7bc825992f5c7382e1c0a24783f732957913c588
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94719009"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907201"
 ---
-# <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>자습서:  고객의 애플리케이션에 Power BI 콘텐츠 포함
+# <a name="tutorial-embed-power-bi-content-using-a-sample-embed-for-your-customers-application"></a>자습서:  샘플 ‘고객에 대한 콘텐츠 포함’ 애플리케이션을 사용하여 Power BI 콘텐츠 포함
 
-**Azure의 Power BI Embedded** 또는 **Office의 Power BI 포함** 을 통해 앱 소유 데이터를 사용하여 애플리케이션에 보고서, 대시보드 또는 타일을 포함할 수 있습니다. **앱 소유 데이터** 는 해당 임베디드 분석 플랫폼으로 Power BI를 사용하는 애플리케이션을 갖는 것입니다. **ISV** 또는 **개발자** 는 사용자에게 Power BI 라이선스를 요구하지 않고도 완벽하게 통합된 대화형 애플리케이션에서 보고서, 대시보드 또는 타일을 표시하는 Power BI 콘텐츠를 만들 수 있습니다. 이 자습서에서는 Power BI JavaScript API와 함께 Power BI .NET SDK를 사용하여 보고서를 애플리케이션에 통합하는 방법을 보여 줍니다.
+**임베디드 분석** 및 **Power BI Embedded**(Azure 제품)를 사용하여 보고서, 대시보드, 타일과 같은 Power BI 콘텐츠를 애플리케이션에 포함할 수 있습니다.
 
-![Power BI 포함 보고서](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
+이 자습서에서는 다음과 같은 작업을 수행하는 방법을 알아봅니다.
+>[!div class="checklist"]
+>* 포함된 환경을 설정합니다.
+>* ‘고객에 대한 콘텐츠 포함’(‘앱 소유 데이터’라고도 함) 애플리케이션 예제를 구성합니다. 
 
-이 자습서에서는 다음 작업을 수행하는 방법을 알아봅니다.
+애플리케이션을 사용하기 위해 사용자는 Power BI에 로그인하거나 Power BI 라이선스를 가질 필요가 없습니다.
+
+타사용 애플리케이션을 만들려는 ISV(독립 소프트웨어 공급업체) 또는 개발자인 경우에는 ‘고객에 대한 콘텐츠 포함’ 방법을 사용하여 Power BI 콘텐츠를 포함하는 것이 좋습니다.
+
+## <a name="code-sample-specifications"></a>코드 샘플 사양
+
+이 자습서에는 다음 언어 중 하나로 ‘고객에 대한 콘텐츠 포함’ 애플리케이션 예제를 구성하기 위한 지침이 포함되어 있습니다.
+
+* .NET Framework
+* .NET Core
+* Java
+* Node JS
+* Python
+
+코드 샘플은 다음 브라우저를 지원합니다.
+
+* Google Chrome
+
+* Microsoft Edge
+
+* Mozilla Firefox
+
+## <a name="prerequisites"></a>필수 구성 요소
+
+이 자습서를 시작하기 전에 아래에 나온 Power BI 및 코드 종속성이 모두 있는지 확인합니다.
+
+* **Power BI 종속성**
+
+    * 고유한 [Azure Active Directory 테넌트](create-an-azure-active-directory-tenant.md)
+
+    * Power BI에 대해 앱을 인증하려면 다음 중 하나가 필요합니다.
+
+        * [서비스 주체](embed-service-principal.md) - Azure AD가 앱을 인증할 수 있게 하는 Azure AD(Azure Active Directory) [서비스 주체 개체](/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object)
+
+        * [Power BI Pro](../../admin/service-admin-purchasing-power-bi-pro.md) 라이선스 - **마스터 사용자** 이며 앱이 이 라이선스를 사용하여 Power BI에 대해 인증합니다.
+
+        * Power BI [PPU(사용자 단위 Premium)](../../admin/service-premium-per-user-faq.md) 라이선스 - **마스터 사용자** 이며 앱이 이 라이선스를 사용하여 Power BI에 대해 인증합니다.
+
+    >[!NOTE]
+    >[프로덕션으로 이동](move-to-production.md)하려면 [용량](embedded-capacity.md)이 필요합니다.
+
+* **코드 종속성**
+
+    # <a name="net-framework"></a>[.NET Framework](#tab/net-framework)
+    
+    * [.NET Framework 4.8](https://dotnet.microsoft.com/download/dotnet-framework/)
+    
+    * [Visual Studio](https://visualstudio.microsoft.com/)
+    
+    
+    # <a name="net-core"></a>[.NET Core](#tab/net-core)
+    
+    * [.NET Core 3.1 SDK](https://dotnet.microsoft.com/download/dotnet-core)(이상)
+    
+    * IDE(통합 개발 환경). 다음 중 하나를 사용하는 것이 좋습니다.
+    
+        * [Visual Studio](https://visualstudio.microsoft.com/)
+    
+        * [Visual Studio Code](https://code.visualstudio.com/)
+
+    # <a name="java"></a>[Java](#tab/java)
+    
+    * [JDK(또는 JRE)](https://www.oracle.com/java/technologies/)
+    
+    * [Eclipse IDE](https://www.eclipse.org/downloads/packages/) - *Java EE용 Eclipse 개발자*(Enterprise Edition)가 있는지 확인합니다.
+    
+    * [Apache Tomcat 이진 배포](https://tomcat.apache.org/)
+    
+    # <a name="node-js"></a>[Node JS](#tab/node-js)
+    
+    * [.NET Framework 4.8](https://dotnet.microsoft.com/download/dotnet-framework/)
+    
+    * IDE(통합 개발 환경). 다음 중 하나를 사용하는 것이 좋습니다.
+    
+        * [Visual Studio](https://visualstudio.microsoft.com/)
+    
+        * [Visual Studio Code](https://code.visualstudio.com/)
+    
+    # <a name="python"></a>[Python](#tab/python)
+    
+    * [Python 3](https://www.python.org/downloads/)(이상)
+    
+        >[!NOTE]
+        >* *Python* 을 처음 설치하는 경우 **PATH에 Python 추가** 옵션을 선택하여 설치를 `PATH` 변수에 추가합니다.
+        >* *Python* 이 이미 설치된 경우 해당 설치 경로가 `PATH` 변수에 포함되어 있는지 확인합니다. 자세한 내용은 [Excursus: 환경 변수 설정](https://docs.python.org/3/using/windows.html#excursus-setting-environment-variables) Python 설명서를 참조하세요(이 링크는 Python 3 참조).
+    
+    * IDE(통합 개발 환경). 다음 중 하나를 사용하는 것이 좋습니다.
+    
+        * [Visual Studio](https://visualstudio.microsoft.com/)
+    
+        * [Visual Studio Code](https://code.visualstudio.com/)
+    
+    ---
+
+## <a name="method"></a>메서드
+
+‘고객에 대한 콘텐츠 포함’ 샘플 앱을 만들려면 다음 단계를 수행합니다.
+
+1. [인증 방법을 선택](#step-1---select-your-authentication-method)합니다.
+
+2. [Azure AD 애플리케이션을 등록](#step-2---register-an-azure-ad-application)합니다.
+
+3. [Power BI 작업 영역을 만듭니다](#step-3---create-a-power-bi-workspace).
+
+4. [Power BI 보고서를 만들고 게시](#step-4---create-and-publish-a-power-bi-report)합니다.
+
+5. [포함하는 매개 변수 값을 가져옵니다](#step-5---get-the-embedding-parameter-values).
+
+6. [서비스 주체 API 액세스](#step-6---service-principal-api-access)
+ 
+7. [작업 영역 액세스를 사용하도록 설정](#step-7---enable-workspace-access)합니다.
+
+8. [콘텐츠를 포함](#step-8---embed-your-content)합니다.
+
+## <a name="step-1---select-your-authentication-method"></a>1단계 - 인증 방법 선택
+
+포함된 솔루션은 선택한 인증 방법에 따라 달라집니다. 따라서 인증 방법 간의 차이점을 이해하고 솔루션에 가장 적합한 방법을 결정하는 것이 중요합니다.
+
+다음 표에서는 [서비스 주체](embed-service-principal.md) 인증 방법과 **마스터 사용자** 인증 방법 간의 몇 가지 주요 차이점을 설명합니다.
+
+|고려 사항  |서비스 사용자  |마스터 사용자  |
+|---------|---------|---------|
+|메커니즘     |Azure AD 앱의 [서비스 주체 개체](/azure/active-directory/develop/app-objects-and-service-principals.md#service-principal-object)를 통해 Azure AD가 Power BI에 대해 포함된 솔루션 앱을 인증할 수 있습니다.        |Azure AD 앱은 Power BI 사용자의 자격 증명(사용자 이름 및 암호)을 사용하여 Power BI에 대해 인증합니다.         |
+|보안     |‘서비스 주체’는 Azure AD 권장 권한 부여 방법입니다. 서비스 주체*를 사용하는 경우 ‘애플리케이션 암호’ 또는 ‘인증서’를 사용하여 인증할 수 있습니다. </br></br>이 자습서에서는 ‘애플리케이션 암호’로 ‘서비스 주체’를 사용하는 방법을 설명합니다.  ‘서비스 주체’ 및 ‘인증서’를 사용하여 포함하려면 [서비스 주체 및 인증서](embed-service-principal-certificate.md) 문서를 참조하세요.          |이 인증 방법은 ‘서비스 주체’를 사용하는 것만큼 안전하지 않습니다. 왜냐하면 ‘마스터 사용자’ 자격 증명(사용자 이름 및 암호)을 사용할 때는 주의해야 하기 때문입니다. 예를 들어 포함하는 애플리케이션에 자격 증명을 노출해서는 안 되며 암호를 자주 변경해야 합니다.         |
+|Azure AD 위임된 권한 |필수 아님. |‘마스터 사용자’ 또는 관리자는 앱이 Power BI REST API [권한](/azure/active-directory/develop/v2-permissions-and-consent)(범위라고도 함)에 액세스할 수 있게 동의해야 합니다. 예를 들어 *Report.ReadWrite.All* 입니다. |
+|Power BI 서비스 액세스 |‘서비스 주체’를 사용하여 Power BI 서비스에 액세스할 수 없습니다.|‘마스터 사용자’ 자격 증명을 사용하여 Power BI 서비스에 액세스할 수 있습니다.|
+|라이선스     |Pro 라이선스가 필요하지 않습니다. 멤버 또는 관리자로 속해 있는 모든 작업 영역의 콘텐츠를 사용할 수 있습니다.         |[Power BI Pro](../../admin/service-admin-purchasing-power-bi-pro.md) 라이선스가 필요합니다.         |
+
+## <a name="step-2---register-an-azure-ad-application"></a>2단계 - Azure AD 애플리케이션 등록
+
+Azure AD를 사용하여 애플리케이션을 등록하면 다음을 수행할 수 있습니다.
 > [!div class="checklist"]
-> * Azure에서 애플리케이션을 등록합니다.
-> * 조직의 애플리케이션에 Power BI 보고서를 포함합니다.
+>* 앱에 대한 ID 설정
+>* 앱이 [Power BI REST API](/rest/api/power-bi/)에 액세스하도록 허용
+>* ‘마스터 사용자’를 사용하는 경우 - 앱의 [Power BI REST 권한](/azure/active-directory/develop/v2-permissions-and-consent) 지정
 
-## <a name="prerequisites"></a>필수 조건
-
-시작하려면 다음이 필요합니다.
-
-* [Power BI Pro 계정](../../fundamentals/service-self-service-signup-for-power-bi.md)(Power BI Pro 계정에 로그인하기 위한 사용자 이름 및 암호인 마스터 계정) 또는 [서비스 주체(앱 전용 토큰)](embed-service-principal.md).
-* 고유한 [Azure Active Directory 테넌트 ](create-an-azure-active-directory-tenant.md) 설정이 필요합니다.
-
-아직 **Power BI Pro** 에 등록하지 않은 경우 시작하기 전에 [평가판에 등록](https://powerbi.microsoft.com/pricing/)합니다.
+애플리케이션을 Azure AD에 등록하려면 [애플리케이션 등록](register-app.md)의 지침을 따르세요.
 
 >[!NOTE]
->[PPU(사용자 단위 Premium)](../../admin/service-premium-per-user-faq.md)가 지원되지 않습니다. PPU를 사용하여 *고객에 대한 콘텐츠 포함* 솔루션을 실험할 수는 있지만 [프로덕션으로 이동](embed-sample-for-customers.md#move-to-production)할 수는 없습니다.
+>애플리케이션을 등록하기 전에 사용할 인증 방법, ‘서비스 주체’ 또는 ‘마스터 사용자’를 결정해야 합니다. 
 
-## <a name="set-up-your-embedded-analytics-development-environment"></a>임베디드 분석 개발 환경 설정
+## <a name="step-3---create-a-power-bi-workspace"></a>3단계 - Power BI 작업 영역 만들기
 
-애플리케이션에 보고서, 대시보드 또는 타일 포함을 시작하기 전에 사용자 환경이 Power BI에 포함을 허용하도록 설정해야 합니다.
+Power BI는 보고서, 대시보드, 타일을 작업 영역에 보관합니다. 이러한 항목을 포함하려면 항목을 만들고 작업 영역에 업로드해야 합니다.
 
-[포함 설정 도구](https://app.powerbi.com/embedsetup)를 통해 환경을 만들고 보고서를 포함하는 방법을 설명할 수 있는 샘플 애플리케이션을 신속하게 시작하고 다운로드할 수 있습니다.
+>[!TIP]
+>작업 영역이 이미 있는 경우 이 단계를 건너뛸 수 있습니다.
 
-그러나 환경을 수동으로 설정하도록 선택하면 아래를 계속할 수 있습니다.
+작업 영역을 만들려면 다음을 수행합니다.
 
-### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Azure AD(Azure Active Directory)에서 애플리케이션 등록
+1. Power BI에 로그인합니다.
 
-Azure Active Directory로 [애플리케이션을 등록](register-app.md)하여 애플리케이션에서 [Power BI REST API](/rest/api/power-bi/)에 액세스할 수 있도록 합니다. 애플리케이션을 등록하면 애플리케이션의 ID를 설정하고 [Power BI REST 리소스에 대한 권한](/azure/active-directory/develop/v2-permissions-and-consent)을 지정할 수 있습니다. 마스터 계정 또는 [서비스 주체](embed-service-principal.md)를 사용할지에 따라 애플리케이션 등록을 시작하는 방법을 결정합니다.
+2. **작업 영역** 을 선택합니다.
 
-취하는 메서드에 따라 Azure에 등록하는 애플리케이션 유형에 영향을 줍니다.
+3. **작업 영역 만들기** 를 선택합니다.
 
-마스터 계정을 사용하여 진행하는 경우 **네이티브** 앱 등록으로 진행합니다. 비대화형 로그인으로 작업 중이므로 기본 앱을 사용합니다.
+4. 작업 영역 이름을 지정하고 **저장** 을 선택합니다.
 
-그러나 서비스 주체를 사용하여 진행하는 경우에는 **서버 사이드 웹 애플리케이션** 앱 등록으로 진행해야 합니다. 서버 사이드 웹 애플리케이션을 등록하여 응용 프로그램 암호를 만듭니다.
+## <a name="step-4---create-and-publish-a-power-bi-report"></a>4단계 - Power BI 보고서 만들기 및 게시
 
-## <a name="set-up-your-power-bi-environment"></a>Power BI 환경 설정
+다음 단계는 보고서를 만들어 작업 영역에 업로드하는 것입니다. Power BI Desktop을 사용하여 [고유한 보고서를 만든](/powerbi-docs/fundamentals/desktop-getting-started#build-reports) 후 작업 영역에 [게시](/powerbi-docs/fundamentals/desktop-getting-started#share-your-work)할 수 있습니다. 또는 작업 영역에 샘플 보고서를 업로드할 수 있습니다.
 
-### <a name="create-a-workspace"></a>작업 영역 만들기
+>[!Tip]
+>보고서가 포함된 작업 영역이 이미 있는 경우 이 단계를 건너뛸 수 있습니다.
 
-고객을 위해 보고서, 대시보드 또는 타일을 포함하는 경우 콘텐츠를 작업 영역 내에 배치해야 합니다. 설정할 수 있는 작업 영역에는 [기존 작업 영역](../../collaborate-share/service-create-workspaces.md) 또는 [새 작업 영역](../../collaborate-share/service-create-the-new-workspaces.md)이 있습니다. *마스터* 계정을 사용하는 경우에는 사용하는 작업 영역의 형식은 중요하지 않습니다. 그러나 *[서비스 주체](embed-service-principal.md)* 를 사용하여 애플리케이션에 로그인하는 경우에는 새 작업 영역을 사용해야 합니다. 두 시나리오에서 ‘마스터’ 계정이나 ‘서비스 주체’는 모두 애플리케이션과 관련된 작업 영역의 관리자여야 합니다. 
+샘플 보고서를 다운로드하고 작업 영역에 게시하려면 다음 단계를 수행합니다.
 
-### <a name="create-and-publish-your-reports"></a>보고서 만들기 및 게시
+1. GitHub [Power BI Desktop 샘플](https://github.com/microsoft/PowerBI-Developer-Samples) 폴더를 엽니다.
 
-Power BI Desktop을 사용하여 보고서 및 데이터 세트를 만든 다음, 이러한 보고서를 작업 영역에 게시할 수 있습니다. 이 작업을 수행하는 방법에는 두 가지가 있습니다. 최종 사용자는 마스터 계정(Power BI Pro 라이선스)을 사용하여 기존 작업 영역에 보고서를 게시할 수 있습니다. 서비스 주체를 사용하는 경우 [Power BI REST API](/rest/api/power-bi/imports/postimportingroup)를 사용하여 새 작업 영역에 보고서를 게시할 수 있습니다.
+2. **Code**(코드)를 선택하고 **Download zip**(ZIP 다운로드)을 선택합니다.
 
-다음 단계는 PBIX 보고서를 Power BI 작업 영역에 게시하는 방법을 안내합니다.
+    :::image type="content" source="media/embed-sample-for-customers/download-sample-report.png" alt-text="Power BI Desktop 샘플 GitHub의 ZIP 다운로드 옵션을 보여 주는 스크린샷":::
 
-1. GitHub에서 샘플 [블로그 데모](https://github.com/Microsoft/powerbi-desktop-samples)를 다운로드합니다.
+3. 다운로드한 ZIP의 압축을 풀고 **Samples Reports** 폴더로 이동합니다.
 
-    ![보고서 샘플](media/embed-sample-for-customers/embed-sample-for-customers-026-1.png)
+4. 포함할 보고서를 선택하고 작업 영역에 [게시](/powerbi-docs/fundamentals/desktop-getting-started#share-your-work)합니다.
 
-2. **Power BI Desktop** 에서 샘플 PBIX 보고서를 엽니다.
+## <a name="step-5---get-the-embedding-parameter-values"></a>5단계 - 포함하는 매개 변수 값 가져오기
 
-   ![PBI 데스크톱 보고서](media/embed-sample-for-customers/embed-sample-for-customers-027.png)
+콘텐츠를 포함하려면 특정 매개 변수 값을 가져와야 합니다. 다음 표에서는 필요한 값을 보여 주고 ‘서비스 주체’ 인증 방법, ‘마스터 사용자’ 인증 방법 또는 두 가지 모두에 적용할 수 있는지를 나타냅니다. 
 
-3. **작업 영역** 에 게시합니다. 이 프로세스는 마스터 계정(Power Pro 라이선스) 또는 서비스 주체를 사용하는지에 따라 다릅니다. 마스터 계정을 사용하는 경우 Power BI Desktop을 통해 보고서를 게시할 수 있습니다.  이제 서비스 주체를 사용하는 경우 Power BI REST API를 사용해야 합니다.
+콘텐츠를 포함하기 전에 아래에 나열된 모든 값이 있는지 확인합니다. 일부 값은 사용하는 인증 방법에 따라 다릅니다.
 
-## <a name="embed-content-using-the-sample-application"></a>샘플 애플리케이션을 사용하여 콘텐츠 포함
+|매개 변수   |서비스 사용자   |마스터 사용자  |
+|-------------------|---|---|
+|[클라이언트 ID](#client-id) |![적용 대상](../../media/yes.png) |![적용 대상](../../media/yes.png) |
+|[작업 영역 ID](#workspace-id)     |![적용 대상](../../media/yes.png) |![적용 대상](../../media/yes.png) |
+|[보고서 ID](#report-id)           |![적용 대상](../../media/yes.png) |![적용 대상](../../media/yes.png) |
+|[클라이언트 암호](#client-secret) |![적용 대상](../../media/yes.png) |![미적용 대상](../../media/no.png) |
+|[테넌트 ID](#tenant-id)                 |![적용 대상](../../media/yes.png) |![미적용 대상](../../media/no.png) |
+|[Power BI 사용자 이름](#power-bi-username-and-password)   |![미적용 대상](../../media/no.png) |![적용 대상](../../media/yes.png) |
+|[Power BI 암호](#power-bi-username-and-password)   |![미적용 대상](../../media/no.png) |![적용 대상](../../media/yes.png) |
 
-이 샘플은 간단한 데모용으로 의도적으로 유지됩니다. 애플리케이션 비밀 또는 마스터 계정 자격 증명을 보호하는 것은 사용자 또는 개발자의 책임입니다.
+### <a name="client-id"></a>클라이언트 ID
 
-샘플 애플리케이션을 사용하여 콘텐츠 포함을 시작하려면 다음 단계를 수행합니다.
+>[!TIP]
+>**적용 대상:** ![적용 대상: ](../../media/yes.png)서비스 주체 ![적용 대상:](../../media/yes.png)마스터 사용자
 
-1. [Visual Studio](https://www.visualstudio.com/)(버전 2013 이상)를 다운로드합니다. 최신 [NuGet 패키지](https://www.nuget.org/profiles/powerbi)를 다운로드해야 합니다.
+클라이언트 ID GUID(‘애플리케이션 ID’라고도 함)를 가져오려면 다음 단계를 수행합니다.
 
-2. GitHub에서 [앱 소유 데이터 샘플](https://github.com/Microsoft/PowerBI-Developer-Samples)을 다운로드하여 시작하세요.
+1. [Microsoft Azure](https://ms.portal.azure.com/#allservices)에 로그인합니다.
 
-    ![앱 소유 데이터 애플리케이션 예제](media/embed-sample-for-customers/embed-sample-for-customers-026.png)
+2. **앱 등록** 을 검색하고 **앱 등록** 링크를 선택합니다.
 
-3. 샘플 애플리케이션에서 **Web.config** 파일을 엽니다. 애플리케이션을 실행하려면 필드를 입력해야 합니다. **AuthenticationType** 에 대해 **MasterUser** 또는 **ServicePrincipal** 을 선택할 수 있습니다. 선택한 인증 방법의 유형에 따라 완료해야 할 다양한 필드가 있습니다.
+3. Power BI 콘텐츠를 포함하는 데 사용하는 Azure AD 앱을 선택합니다.
 
-    > [!Note]
-    > 이 샘플의 기본 **AuthenticationType** 은 MasterUser입니다.
-
-    <center>
-
-    | **MasterUser** <br> (Power BI Pro 라이선스) | **ServicePrincipal** <br> (앱 전용 토큰)|
-    |---------------|-------------------|
-    | [applicationId](#application-id) | [applicationId](#application-id) |
-    | [workspaceId](#workspace-id) | [workspaceId](#workspace-id) |
-    | [reportId](#report-id) | [reportId](#report-id) |
-    | [pbiUsername](#power-bi-username-and-password) |  |
-    | [pbiPassword](#power-bi-username-and-password) |  |
-    |  | [applicationsecret](#application-secret) |
-    |  | [테넌트](#tenant) |
-
-   </center>
-
-    ![웹 구성 파일](media/embed-sample-for-customers/embed-sample-for-customers-030.png)
-
-### <a name="application-id"></a>애플리케이션 ID
-
-이 특성은 AuthenticationTypes(마스터 계정 및 [서비스 주체](embed-service-principal.md)) 모두에 필요합니다.
-
-**Azure** 의 **응용 프로그램 ID** 를 사용하여 **applicationId** 정보를 입력합니다. **applicationId** 는 응용 프로그램에서 권한을 요청 중인 사용자에게 응용 프로그램을 인식시키는 데 사용됩니다.
-
-**applicationId** 를 가져오려면 다음 단계를 수행합니다.
-
-1. [Azure Portal](https://portal.azure.com)에 로그인합니다.
-
-2. 왼쪽 탐색 창에서 **모든 서비스** 를 선택하고 **앱 등록** 을 선택합니다.
-
-    ![앱 등록 검색](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
-
-3. **applicationId** 가 필요한 응용 프로그램을 선택합니다.
-
-    ![앱 선택](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
-
-4. GUID로 나열된 **애플리케이션 ID** 가 있습니다. 이 **응용 프로그램 ID** 를 애플리케이션의 **applicationId** 로 사용합니다.
-
-    ![applicationId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
+4. **개요** 섹션에서 **애플리케이션(클라이언트) ID** GUID를 복사합니다.
 
 ### <a name="workspace-id"></a>작업 영역 ID
 
-이 특성은 AuthenticationTypes(마스터 계정 및 [서비스 주체](embed-service-principal.md)) 모두에 필요합니다.
+>[!TIP]
+>**적용 대상:** ![적용 대상: ](../../media/yes.png)서비스 주체 ![적용 대상: ](../../media/yes.png)마스터 사용자
 
-Power BI의 작업 영역(그룹) GUID를 사용하여 **workspaceId** 정보를 입력합니다. Power BI 서비스에 로그인하거나 PowerShell을 사용할 때 URL에서 이 정보를 가져올 수 있습니다.
+작업 영역 ID GUID를 가져오려면 다음 단계를 수행합니다.
 
-URL <br>
+1. Power BI 서비스에 로그인합니다.
 
-![workspaceId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
+2. 포함하려는 보고서를 엽니다.
 
-PowerShell <br>
+3. URL에서 GUID를 복사합니다. GUID는 **/groups/** 와 **/reports/** 사이의 숫자입니다.
 
-```powershell
-Get-PowerBIworkspace -name "App Owns Embed Test"
-```
-
-   ![PowerShell의 workspaceId](media/embed-sample-for-customers/embed-sample-for-customers-031-ps.png)
+    :::image type="content" source="media/embed-sample-for-customers/workspace-id.png" alt-text="Power BI 서비스 URL의 작업 영역 ID GUID를 보여 주는 스크린샷":::
 
 ### <a name="report-id"></a>보고서 ID
 
-이 특성은 AuthenticationTypes(마스터 계정 및 [서비스 주체](embed-service-principal.md)) 모두에 필요합니다.
+>[!TIP]
+>**적용 대상:** ![적용 대상: ](../../media/yes.png)서비스 주체 ![적용 대상: ](../../media/yes.png)마스터 사용자
 
-Power BI의 보고서 GUID를 사용하여 **reportId** 정보를 입력합니다. Power BI 서비스에 로그인하거나 PowerShell을 사용할 때 URL에서 이 정보를 가져올 수 있습니다.
+1. Power BI 서비스에 로그인합니다.
 
-URL<br>
+2. 포함하려는 보고서를 엽니다.
 
-![reportId](media/embed-sample-for-customers/embed-sample-for-customers-032.png)
+3. URL에서 GUID를 복사합니다. GUID는 **/reports/** 와 **/ReportSection** 사이의 숫자입니다.
 
-PowerShell <br>
+    :::image type="content" source="media/embed-sample-for-customers/report-id.png" alt-text="Power BI 서비스 URL의 보고서 ID GUID를 보여 주는 스크린샷":::
 
-```powershell
-Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
-```
+### <a name="client-secret"></a>클라이언트 암호
 
-![PowerShell의 reportId](media/embed-sample-for-customers/embed-sample-for-customers-032-ps.png)
+>[!TIP]
+>**적용 대상:** ![적용 대상: ](../../media/yes.png)서비스 주체 ![미적용 대상: ](../../media/no.png)마스터 사용자
+
+클라이언트 암호를 가져오려면 다음 단계를 수행합니다.
+
+1. [Microsoft Azure](https://ms.portal.azure.com/#allservices)에 로그인합니다.
+
+2. **앱 등록** 을 검색하고 **앱 등록** 링크를 선택합니다.
+
+3. Power BI 콘텐츠를 포함하는 데 사용하는 Azure AD 앱을 선택합니다.
+
+4. **관리** 에서 **인증서 및 암호** 를 선택합니다.
+
+5. **클라이언트 암호** 아래에서 **새 클라이언트 암호** 를 선택합니다.
+
+6. **클라이언트 암호 추가** 팝업 창에서 애플리케이션 암호에 대한 설명을 제공하고 애플리케이션 암호가 만료되는 경우를 선택하고 **추가** 를 선택합니다.
+
+7. **클라이언트 암호** 섹션에서 새로 만든 애플리케이션 암호의 **값** 열에 문자열을 복사합니다. 클라이언트 암호 값은 ‘클라이언트 ID’입니다.
+
+### <a name="tenant-id"></a>테넌트 ID
+
+>[!TIP]
+>**적용 대상:** ![적용 대상: ](../../media/yes.png)서비스 주체 ![미적용 대상: ](../../media/no.png)마스터 사용자
+
+테넌트 ID GUID를 가져오려면 다음 단계를 수행합니다.
+
+1. [Microsoft Azure](https://ms.portal.azure.com/#allservices)에 로그인합니다.
+
+2. **앱 등록** 을 검색하고 **앱 등록** 링크를 선택합니다.
+
+3. Power BI 콘텐츠를 포함하는 데 사용하는 Azure AD 앱을 선택합니다.
+
+4. **개요** 섹션에서 **디렉터리(테넌트) ID** GUID를 복사합니다.
 
 ### <a name="power-bi-username-and-password"></a>Power BI 사용자 이름 및 암호
 
-이러한 특성은 마스터 계정 AuthenticationType에 대해서만 필요합니다.
+>[!TIP]
+>**적용 대상:** ![미적용 대상: ](../../media/no.png)서비스 주체 ![적용 대상: ](../../media/yes.png)마스터 사용자
 
-[서비스 주체](embed-service-principal.md)를 사용하여 인증하는 경우 사용자 이름 또는 암호 특성을 입력할 필요가 없습니다.
+**마스터 사용자** 로 사용 중인 Power BI 사용자의 ‘사용자 이름’ 및 ‘암호’를 가져옵니다.  Power BI 서비스에서 작업 영역을 만들고 해당 작업 영역에 보고서를 업로드하는 데 사용한 것과 동일한 사용자입니다.
 
-* Power BI 마스터 계정으로 **pbiUsername** 을 입력합니다.
-* Power BI 마스터 사용자 계정의 암호로 **pbiPassword** 를 입력합니다.
+## <a name="step-6---service-principal-api-access"></a>6단계 - 서비스 주체 API 액세스
 
-### <a name="application-secret"></a>애플리케이션 암호
+>[!TIP]
+>**적용 대상:** ![적용 대상: ](../../media/yes.png)서비스 주체 ![미적용 대상: ](../../media/no.png)마스터 사용자
+>
+>이 단계는 ‘서비스 주체’ 인증 방법을 사용하는 경우에만 해당됩니다. ‘마스터 사용자’를 사용하는 경우에는 이 단계를 건너뛰고 [7단계 - 작업 영역 액세스 사용](#step-7---enable-workspace-access)으로 진행하세요.
 
-이 특성은 [서비스 주체](embed-service-principal.md) AuthenticationType에 대해서만 필요합니다.
+Azure AD 앱이 Power BI 콘텐츠 및 API에 액세스할 수 있도록 Power BI 관리자는 Power BI 관리 포털에서 서비스 사용자 액세스를 사용하도록 설정해야 합니다. 테넌트 관리자가 아닌 경우 테넌트 관리자에게 ‘테넌트 설정’을 사용하도록 설정해 달라고 요청하세요.
+        
+1. ‘Power BI 서비스’에서 **설정** > **설정** > **관리 포털** 을 선택합니다.
+        
+    :::image type="content" source="media/embed-sample-for-customers/admin-settings.png" alt-text="Power BI 서비스 설정 메뉴의 관리 설정 메뉴 옵션을 보여 주는 스크린샷":::
+        
+2. **테넌트 설정** 을 선택한 다음 **개발자 설정** 섹션으로 스크롤합니다.
+        
+3. **서비스 주체가 Power BI API를 사용하도록 허용** 을 확장하고 이 옵션을 사용하도록 설정합니다.
+        
+    :::image type="content" source="media/embed-sample-for-customers/developer-settings.png" alt-text="Power BI 서비스에서 테넌트 설정 메뉴 옵션의 개발자 설정 옵션을 사용하도록 설정하는 방법을 보여 주는 스크린샷":::
+        
+>[!NOTE]
+>‘서비스 주체’를 사용하는 경우 ‘보안 그룹’을 사용하여 테넌트 설정에 대한 액세스를 제한하는 것이 좋습니다.  이 기능에 대한 자세한 내용은 [서비스 주체](embed-service-principal.md) 문서에서 다음 섹션을 참조하세요.
+> * [Azure AD 보안 그룹 만들기](embed-service-principal.md#step-2---create-an-azure-ad-security-group)
+>* [Power BI 서비스 관리자 설정 사용](embed-service-principal.md#step-3---enable-the-power-bi-service-admin-settings)
 
-**Azure** 의 **앱 등록** 섹션에 있는 **키** 섹션에서 **ApplicationSecret** 정보를 입력합니다.  이 특성은 [서비스 주체](embed-service-principal.md)를 사용할 때 작동합니다.
+## <a name="step-7---enable-workspace-access"></a>7단계 - 작업 영역 액세스 사용
 
-**ApplicationSecret** 을 가져오려면 다음 단계를 수행합니다.
+Azure AD 앱이 Power BI 서비스의 보고서, 대시보드, 데이터 세트와 같은 아티팩트에 액세스할 수 있도록 하려면 ‘서비스 주체’ 또는 ‘마스터 사용자’를 작업 영역에 ‘멤버’ 또는 ‘관리자’로 추가합니다.   
 
-1. [Azure Portal](https://portal.azure.com)에 로그인합니다.
+1. Power BI 서비스에 로그인합니다.
 
-2. 왼쪽 탐색 창에서 **모든 서비스** 를 선택하고 **앱 등록** 을 선택합니다.
+2. 액세스를 사용하도록 설정할 작업 영역으로 스크롤한 다음 **자세히** 메뉴에서 **작업 영역 액세스** 를 선택합니다.
 
-    ![앱 등록 검색](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
+    :::image type="content" source="media/embed-service-principal/workspace-access.png" alt-text="Power BI 작업 영역의 추가 메뉴에 있는 작업 영역 액세스 단추를 보여주는 스크린샷.":::
 
-3. **ApplicationSecret** 을 사용해야 하는 응용 프로그램을 선택합니다.
+3. **액세스** 창에서 사용하는 인증 방법에 따라 ‘서비스 주체’ 또는 ‘마스터 사용자’를 **메일 주소 입력** 텍스트 상자에 복사합니다. 
 
-    ![앱 선택](media/embed-sample-for-customers/embed-sample-for-customers-0038.png)
+    >[!NOTE]
+    >‘서비스 주체’를 사용하는 경우 해당 이름은 Azure AD 앱에 제공한 이름입니다.
 
-4. **관리** 아래의 **인증서 및 비밀** 을 선택합니다.
+5. **추가** 를 선택합니다.
 
-5. **새 클라이언트 비밀** 을 선택합니다.
+## <a name="step-8---embed-your-content"></a>8단계 - 콘텐츠 포함
 
-6. **설명** 상자에 이름을 입력하고 지속 기간을 선택합니다. 그런 다음, **저장** 을 선택하여 애플리케이션의 **값** 을 가져옵니다. 키 값을 저장한 후 **키** 창을 닫으면 값 필드가 숨김으로만 표시됩니다. 이때는 키 값을 검색할 수 없습니다. 키 값을 분실한 경우 Azure Portal에서 새 키 값을 만듭니다.
+Power BI Embedded 애플리케이션 예제를 사용하여 ‘고객에 대한 콘텐츠 포함’ Power BI 앱을 만들 수 있습니다.
 
-    ![키 값](media/embed-sample-for-customers/embed-sample-for-customers-042.png)
+Power BI 보고서를 포함하도록 ‘고객에 대한 콘텐츠 포함’ 애플리케이션 예제를 수정하려면 다음 단계를 따르세요.  
 
-### <a name="tenant"></a>테넌트
+1. [Power BI 개발자 샘플](https://github.com/microsoft/PowerBI-Developer-Samples) 폴더를 엽니다.
 
-이 특성은 [서비스 주체](embed-service-principal.md) AuthenticationType에 대해서만 필요합니다.
+2. **Code**(코드)를 선택하고 **Download zip**(ZIP 다운로드)을 선택합니다.
 
-**테넌트** 정보를 Azure 테넌트 ID로 입력합니다. Power BI 서비스에 로그인하거나 PowerShell을 사용할 때 [Azure AD 관리 센터](/onedrive/find-your-office-365-tenant-id)에서 이 정보를 가져올 수 있습니다.
+    :::image type="content" source="media/embed-sample-for-customers/developer-samples.png" alt-text="Power BI 개발자 샘플 GitHub의 ZIP 다운로드 옵션을 보여 주는 스크린샷":::
 
-### <a name="run-the-application"></a>애플리케이션 실행
+3. 다운로드한 ZIP의 압축을 풀고 **PowerBI-Developer-Samples-master** 폴더로 이동합니다.
 
-1. **Visual Studio** 에서 **실행** 을 선택합니다.
+4. 애플리케이션에서 사용할 언어에 따라 다음 폴더 중 하나를 엽니다.
 
-    ![애플리케이션 실행](media/embed-sample-for-customers/embed-sample-for-customers-033.png)
+* .NET Core
+* .NET Framework
+* Java
+* Node JS
+* Python
+    >[!NOTE]
+    >‘고객에 대한 콘텐츠 포함’ 애플리케이션 예제는 위에 나열된 언어만 지원합니다. *React TS* 애플리케이션 예제는 ‘[조직에 대한 콘텐츠 포함](embed-sample-for-your-organization.md)’ 솔루션만 지원합니다.
 
-2. 그런 다음, **보고서 포함** 을 선택합니다. 테스트하기 위해 선택한 콘텐츠(보고서, 대시보드 또는 타일)에 따라 애플리케이션에서 해당 옵션을 선택합니다.
+5. **고객에 대한 콘텐츠 포함** 폴더를 엽니다.
 
-    ![콘텐츠 선택](media/embed-sample-for-customers/embed-sample-for-customers-034.png)
+# <a name="net-core"></a>[.NET Core](#tab/net-core)
 
-3. 이제 애플리케이션 예제에서 보고서를 볼 수 있습니다.
+6. 다음 방법 중 하나를 사용하여 ‘고객에 대한 콘텐츠 포함 샘플 앱’을 엽니다.
 
-    ![애플리케이션 보기](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
+    * [Visual Studio](https://visualstudio.microsoft.com/)를 사용하는 경우 **AppOwnsData.sln** 파일을 엽니다.
 
-## <a name="embed-content-within-your-application"></a>애플리케이션 내에서 콘텐츠 포함
+    * [Visual Studio Code](https://code.visualstudio.com/)를 사용하는 경우 **App Owns Data** 폴더를 엽니다.
 
-콘텐츠를 포함하는 단계는 [Power BI REST API](/rest/api/power-bi/)를 사용하여 수행되지만 이 문서에 설명된 예제 코드는 **.NET SDK** 를 사용하여 만듭니다.
+7. **appsettings.json** 을 엽니다.
 
-애플리케이션 내에서 고객을 포함시키려면 **Azure AD** 에서 마스터 계정에 대한 **액세스 토큰** 또는 [서비스 주체](embed-service-principal.md)를 가져와야 합니다. [Power BI REST API](/rest/api/power-bi/)를 호출하기 전에 Power BI 애플리케이션에 대한 [Azure AD 액세스 토큰](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)을 가져와야 합니다.
+8. 인증 방법에 따라 다음 매개 변수 값을 입력합니다.
 
-**액세스 토큰** 을 사용하여 Power BI 클라이언트를 만들려면 [Power BI REST API](/rest/api/power-bi/)와 상호 작용할 수 있는 Power BI 클라이언트 개체를 만들 수 있습니다. **_Microsoft.Rest.TokenCredentials_* _ 개체로 **AccessToken** 을 래핑하여 Power BI 클라이언트 개체를 만듭니다.
+    |매개 변수            |서비스 사용자  |마스터 사용자  |
+    |---------------------|---------|---------|
+    |`AuthenticationMode` |ServicePrincipal         |MasterUser         |
+    |`ClientId`           |Azure AD 앱 [클라이언트 ID](#client-id)         |Azure AD 앱 [클라이언트 ID](#client-id)         |
+    |`TenantId`           |Azure AD [테넌트 ID](#tenant-id)         |해당 없음         |
+    |`PbiUsername`        |해당 없음         |‘마스터 사용자’ 이름([Power BI 사용자 이름 및 암호 참조)](#power-bi-username-and-password)         |
+    |`PbiPassword`        |해당 없음         |‘마스터 사용자’ 암호([Power BI 사용자 이름 및 암호 참조)](#power-bi-username-and-password)         |
+    |`ClientSecret`       |Azure AD [클라이언트 암호](#client-secret)         |해당 없음         |
+    |`WorkspaceId`        |포함된 보고서가 있는 작업 영역의 ID([작업 영역 ID](#workspace-id) 참조)          |포함된 보고서가 있는 작업 영역의 ID([작업 영역 ID](#workspace-id) 참조)         |
+    |`ReportId`           |포함하는 보고서의 ID([보고서 ID](#report-id) 참조)            |포함하는 보고서의 ID([보고서 ID](#report-id) 참조)         |
 
-```csharp
-using Microsoft.IdentityModel.Clients.ActiveDirectory;
-using Microsoft.Rest;
-using Microsoft.PowerBI.Api.V2;
+9. 적절한 옵션을 선택하여 프로젝트를 실행합니다.
 
-var tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bearer");
+    * **Visual Studio** 를 사용하는 경우 **IIS Express**(재생)를 선택합니다.
 
-// Create a Power BI Client object. it's used to call Power BI APIs.
-using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
-{
-    // Your code to embed items.
-}
-```
+    * **Visual Studio Code** 를 사용하는 경우 **실행 > 디버깅 시작** 을 선택합니다.
 
-### <a name="get-the-content-item-you-want-to-embed"></a>포함하려는 콘텐츠 항목 가져오기
+# <a name="net-framework"></a>[.NET Framework](#tab/net-framework)
 
-Power BI 클라이언트 개체를 사용하여 포함하려는 항목에 대한 참조를 검색할 수 있습니다.
+6. [Visual Studio](https://visualstudio.microsoft.com/)를 사용하여 **AppOwnsData.sln** 파일을 엽니다.
 
-지정된 작업 영역에서 첫 번째 보고서를 검색하는 방법을 보여주는 코드 샘플은 다음과 같습니다.
+7. **Web.config** 를 엽니다.
 
-포함하려는 보고서, 대시보드 또는 타일에 관계없이 콘텐츠 항목을 가져오는 샘플은 [애플리케이션 예제](https://github.com/Microsoft/PowerBI-Developer-Samples)의 Services\EmbedService.cs 파일 내에서 사용할 수 있습니다.
+8. 인증 방법에 따라 다음 매개 변수 값을 입력합니다.
 
-```csharp
-using Microsoft.PowerBI.Api.V2;
-using Microsoft.PowerBI.Api.V2.Models;
+    |매개 변수            |서비스 사용자  |마스터 사용자  |
+    |---------------------|---------|---------|
+    |`authenticationType` |ServicePrincipal         |MasterUser         |
+    |`applicationId`           |Azure AD 앱 [클라이언트 ID](#client-id)         |Azure AD 앱 [클라이언트 ID](#client-id)         |
+    |`workspaceId`        |포함된 보고서가 있는 작업 영역의 ID([작업 영역 ID](#workspace-id) 참조)          |포함된 보고서가 있는 작업 영역의 ID([작업 영역 ID](#workspace-id) 참조)         |
+    |`reportId`           |포함하는 보고서의 ID([보고서 ID](#report-id) 참조)            |포함하는 보고서의 ID([보고서 ID](#report-id) 참조)         |
+    |`pbiUsername`        |해당 없음         |‘마스터 사용자’ 이름([Power BI 사용자 이름 및 암호 참조)](#power-bi-username-and-password)         |
+    |`pbiPassword`        |해당 없음         |‘마스터 사용자’ 암호([Power BI 사용자 이름 및 암호 참조)](#power-bi-username-and-password)         |
+    |`applicationSecret`       |Azure AD [클라이언트 암호](#client-secret)         |해당 없음         |
+    |`tenant`           |Azure AD [테넌트 ID](#tenant-id)         |해당 없음         |
 
-// You need to provide the workspaceId where the dashboard resides.
-ODataResponseListReport reports = await client.Reports.GetReportsInGroupAsync(workspaceId);
+9. **IIS Express**(재생)를 선택하여 프로젝트를 실행합니다.
 
-// Get the first report in the group.
-Report report = reports.Value.FirstOrDefault();
-```
+>[!NOTE]
+>샘플 앱을 실행할 때 포함된 보고서가 표시되지 않으면 다음 단계를 수행하여 Power BI 패키지를 새로 고칩니다.
+>1. 프로젝트 이름(AppOwnesData)을 마우스 오른쪽 단추로 클릭하고 **NuGet 패키지 관리** 를 선택합니다.
+>2. **Power BI JavaScript** 를 검색한 후 패키지를 다시 설치합니다.
+>
+>자세한 내용은 [How to reinstall and update packages](/nuget/consume-packages/reinstalling-and-updating-packages)(패키지 다시 설치 및 업데이트 방법)를 참조하세요.
 
-### <a name="create-the-embed-token"></a>포함 토큰을 만듭니다.
-JavaScript API에서 사용할 수 있는 포함 토큰을 생성합니다. API에는 두 가지 유형이 있습니다. 첫 번째 그룹에는 각각 특정 항목의 포함 토큰을 생성하는 5개 API가 포함됩니다. 하나의 API만 포함된 두 번째 그룹은 여러 항목을 포함하는 데 사용할 수 있는 토큰을 생성합니다.
+# <a name="java"></a>[Java](#tab/java)
 
-**특정 항목의 포함 토큰을 생성하기 위한 API**
+6. **Eclipse** 를 열고 아래에 설명된 지침을 따릅니다.
 
-이 API를 통해 만든 포함 토큰은 포함하는 항목에 연결됩니다. 이 API를 사용하여 Power BI 항목(예: 보고서, 대시보드 또는 타일)을 포함할 때마다 해당 항목의 포함 토큰을 새로 만들어야 합니다.
-* [대시보드 GenerateTokenInGroup](/rest/api/power-bi/embedtoken/dashboards_generatetokeningroup)
-* [데이터 세트 GenerateTokenInGroup](/rest/api/power-bi/embedtoken/datasets_generatetokeningroup)
-* [보고서 GenerateTokenForCreateInGroup](/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup)
-* [보고서 GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup)
-* [타일 GenerateTokenInGroup](/rest/api/power-bi/embedtoken/tiles_generatetokeningroup)
-
-보고서, 대시보드 또는 타일의 포함 토큰을 만드는 샘플은 [샘플 애플리케이션](https://github.com/Microsoft/PowerBI-Developer-Samples)의 다음 파일에서 확인할 수 있습니다.
-* Services\EmbedService.cs
-* Models\EmbedConfig.cs
-* Models\TileEmbedConfig.cs
-
-다음은 보고서 GenerateTokenInGroup 포함 토큰 API를 사용하기 위한 코드 예제입니다.
-```csharp
-using Microsoft.PowerBI.Api.V2;
-using Microsoft.PowerBI.Api.V2.Models;
-
-// Generate Embed Token.
-var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
-EmbedToken tokenResponse = client.Reports.GenerateTokenInGroup(workspaceId, report.Id, generateTokenRequestParameters);
-
-// Generate Embed Configuration.
-var embedConfig = new EmbedConfig()
-{
-    EmbedToken = tokenResponse,
-    EmbedUrl = report.EmbedUrl,
-    Id = report.Id
-};
-```
-
-**여러 항목의 포함 토큰을 생성하기 위한 API**<a id="multiEmbedToken"></a>
-
-[토큰 생성](/rest/api/power-bi/embedtoken/generatetoken) 포함 API는 여러 항목을 포함하는 데 사용할 수 있는 토큰을 생성합니다.
-
-보고서를 포함하는 동안 데이터 세트를 동적으로 선택하는 데에도 사용할 수 있습니다. 이 API 사용에 대한 자세한 내용은 [동적 바인딩](embed-dynamic-binding.md)을 참조하세요.
-
-
-다음은 이 API를 사용하는 예제입니다.
- 
-```csharp
-using Microsoft.PowerBI.Api.V2;
-using Microsoft.PowerBI.Api.V2.Models;
-
-var reports = new List<GenerateTokenRequestV2Report>()
-{ 
-    new GenerateTokenRequestV2Report()
-    {
-        AllowEdit = false,
-        Id = report1.Id
-    },
-    new GenerateTokenRequestV2Report()
-    {
-        AllowEdit = true,
-        Id = report2.Id
-    }
-};
-
-var datasets= new List<GenerateTokenRequestV2Dataset>()
-{
-    new GenerateTokenRequestV2Dataset(dataset1.Id),
-    new GenerateTokenRequestV2Dataset(dataset2.Id),
-    new GenerateTokenRequestV2Dataset(dataset3.Id),
-};
-
-var targetWorkspaces = new List<GenerateTokenRequestV2TargetWorkspace>()
-{
-    new GenerateTokenRequestV2TargetWorkspace(workspace1.Id),
-    new GenerateTokenRequestV2TargetWorkspace(workspace2.Id),
-};
-
-var request = new GenerateTokenRequestV2()
-{
-    Datasets = datasets,
-    Reports = reports,
-    TargetWorkspaces = targetWorkspaces,
-};
-
-var token = client.GetClient().EmbedToken.GenerateToken(request);
-```
+    >[!NOTE]
+    >‘고객에 대한 콘텐츠 포함 샘플 앱’에 대한 지침은 [Java EE용 Eclipse 개발자](https://www.eclipse.org/downloads/packages/)(Enterprise Edition)를 참조하세요. 다른 애플리케이션을 사용하는 경우에는 직접 설정해야 합니다.
 
-### <a name="load-an-item-using-javascript"></a>JavaScript를 사용하여 항목 로드
+7. Eclipse에 Tomcat 서버를 추가합니다.
 
-JavaScript를 사용하여 웹 페이지의 div 요소로 보고서를 로드합니다.
+    a. **창** > **보기 표시** > **서버** 를 선택합니다.
 
-JavaScript API 사용에 대한 전체 샘플의 경우 [Playground 도구](https://microsoft.github.io/PowerBI-JavaScript/demo)를 사용할 수 있습니다. 플레이그라운드 도구로 다양한 유형의 Power BI Embedded 샘플을 빠르게 재생할 수 있습니다. [PowerBI-JavaScript Wiki](https://github.com/Microsoft/powerbi-javascript/wiki) 페이지를 방문하여 JavaScript API에 대한 추가 정보를 얻을 수도 있습니다.
+    b. 서버 탭에서 **No servers are available. Click this link to create new server**(사용할 수 있는 서버가 없습니다. 새 서버를 만들려면 이 링크를 클릭합니다.)를 선택합니다.
 
-보고서에 대한 보기와 함께 **EmbedConfig** 모델 및 **TileEmbedConfig** 모델을 사용하는 샘플은 다음과 같습니다.
+    다. **Define a New Server**(새 서버 정의) 창에서 **Apache** 를 확장하고 머신에서 실행 중인 Tomcat 서버를 선택합니다. 예를 들어 *Tomcat v9.0 Server* 입니다.
 
-보고서, 대시보드 또는 타일에 대한 보기를 추가하는 샘플은 [애플리케이션 예제](#embed-content-using-the-sample-application)의 *Views\Home\EmbedReport.cshtml, Views\Home\EmbedDashboard.cshtml 또는 Views\Home\Embedtile.cshtml* 파일 내에서 사용 가능합니다.
+    d. **다음** 을 선택합니다.
 
-```javascript
-<script src="~/scripts/powerbi.js"></script>
-<div id="reportContainer"></div>
-<script>
-    // Read embed application token from Model
-    var accessToken = "@Model.EmbedToken.Token";
+    e. **Tomcat 서버** 창에서 **찾아보기** 를 선택하고 Tomcat 서버가 포함된 폴더로 이동합니다.
 
-    // Read embed URL from Model
-    var embedUrl = "@Html.Raw(Model.EmbedUrl)";
+    f. **Tomcat 서버** 창에서 **설치된 JRE** 를 선택합니다.
 
-    // Read report Id from Model
-    var embedReportId = "@Model.Id";
+    g. **설치된 JRE** 창에서 사용 가능한 *jre* 를 선택하고 **적용 및 닫기** 를 선택합니다.
 
-    // Get models. models contains enums that can be used.
-    var models = window['powerbi-client'].models;
+    h. **Tomcat 서버** 창에서 **마침** 을 선택합니다. *서버* 탭에서 Tomcat 서버를 볼 수 있습니다.
 
-    // Embed configuration used to describe what and how to embed.
-    // This object is used when calling powerbi.embed.
-    // This also includes settings and options such as filters.
-    // You can find more information at https://github.com/Microsoft/PowerBI-JavaScript/wiki/Embed-Configuration-Details.
-    var config = {
-        type: 'report',
-        tokenType: models.TokenType.Embed,
-        accessToken: accessToken,
-        embedUrl: embedUrl,
-        id: embedReportId,
-        permissions: models.Permissions.All,
-        settings: {
-            filterPaneEnabled: true,
-            navContentPaneEnabled: true
-        }
-    };
+8. Eclipse에서 프로젝트를 엽니다.
 
-    // Get a reference to the embedded report HTML element
-    var reportContainer = $('#reportContainer')[0];
+    >[!IMPORTANT]
+    >경로 이름이 너무 길면 Eclipse에서 문제가 발생할 수도 있습니다. 이 문제를 방지하려면 샘플 앱의 폴더가 컴퓨터의 폴더 구조에 너무 깊이 중첩되지 않았는지 확인합니다.
 
-    // Embed the report and display it within the div container.
-    var report = powerbi.embed(reportContainer, config);
-</script>
-```
+    a. **파일** 을 선택한 다음 **Open Projects from File System**(파일 시스템에서 프로젝트 열기)을 선택합니다.
 
-## <a name="move-to-production"></a>프로덕션으로 이동
+    b. **Import Projects from File System or Archive**(파일 시스템 또는 보관에서 프로젝트 가져오기) 창에서 **디렉터리** 를 선택하고 **AppOwnsData** 폴더를 엽니다.
 
-이제 애플리케이션 개발을 완료했으므로 용량으로 작업 영역을 백업해야 합니다.
+    다. **마침** 을 선택합니다.
 
-> [!Important]
-> 프로덕션으로 이동하려면 용량이 필요합니다. 모든 작업 영역(보고서 또는 대시보드가 포함된 작업 영역과 데이터 세트가 포함된 작업 영역)을 용량에 할당해야 합니다.
+9. Tomcat 서버를 프로젝트에 추가합니다.
 
-### <a name="create-a-capacity"></a>용량 만들기
+    a. **패키지 탐색기** 창에서 **AppOwnsData** 를 마우스 오른쪽 단추로 클릭하고 **속성** 을 선택합니다.
 
-용량을 만들면 고객을 위한 리소스의 혜택을 활용할 수 있습니다. 선택할 수 있는 두 가지 유형의 용량은 다음과 같습니다.
-* **Power BI Premium** - *EM* 및 *P* 의 두 SKU 제품군에서 사용할 수 있는 테넌트 수준 Office 356 구독입니다. Power BI 콘텐츠를 포함하는 경우 이 솔루션을 *‘Power BI 포함’* 이라고 합니다. 이 구독과 관련된 자세한 내용은 [Power BI Premium이란?](../../admin/service-premium-what-is.md)을 참조하세요.
-* **Azure Power BI Embedded** - [Microsoft Azure Portal](https://portal.azure.com)에서 용량을 구입할 수 있습니다. 이 구독은 *A* SKU를 사용합니다. Power BI Embedded 용량을 만드는 방법에 대한 자세한 내용은 [Azure Portal에서 Power BI Embedded 용량 만들기](azure-pbie-create-capacity.md)를 참조하세요.
-> [!NOTE]
-> A SKU에서는 무료 Power BI 라이선스를 사용하여 Power BI 콘텐츠에 액세스할 수 없습니다.
+    b. **AppOwnesData의 속성** 창에서 **대상 런타임** 을 선택한 다음 **Apache Tomcat** 을 선택합니다. 이 선택 항목에는 사용하는 *Apache Tomcat* 버전(예: *Apache Tomact v9.0*)이 포함됩니다.
 
-아래 표에서는 각 SKU의 리소스 및 한도를 설명합니다. 요구 사항에 가장 적합한 용량을 확인하려면 [내 시나리오를 위해 구입해야 하는 SKU](./embedded-faq.md#which-solution-should-i-choose) 표를 참조하세요.
+    다. **적용 및 닫기** 를 선택합니다.
 
-| 용량 노드 | 총 V 코어 | 백 엔드 V 코어 | RAM(GB) | 프런트 엔드 V 코어 | DirectQuery/Live Connection(초당) | 모델 새로 고침 병렬 처리 |
-| --- | --- | --- | --- | --- | --- | --- |
-| EM1/A1 | 1 | 0.5 | 2.5 | 0.5 | 3.75 | 1 |
-| EM2/A2 | 2 | 1 | 5 | 1 | 7.5 | 2 |
-| EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
-| P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
-| P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
-| P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
-| | | | | | | |
+10. 필수 매개 변수를 입력합니다.
 
-### <a name="development-testing"></a>개발 테스트
+    a. **패키지 탐색기** 에서 **AppOwnsData** 프로젝트를 확장합니다.
 
-개발 테스트를 위해 Pro 라이선스에 평가판 포함 토큰을 사용할 수 있습니다. 프로덕션 환경에 포함하려면 용량을 사용합니다.
+    b. **Java 리소스** 를 확장합니다.
 
-Power BI 서비스 주체 계정 또는 마스터 계정이 생성할 수 있는 평가판 포함 토큰의 수는 제한됩니다. [사용 가능한 기능](/rest/api/power-bi/availablefeatures/getavailablefeatures) API를 사용하여 현재 포함된 사용의 비율을 확인합니다. 사용량은 서비스 주체 계정 또는 마스터 계정별로 표시됩니다.
+    다. **src** 를 확장합니다.
 
-테스트하는 중에 포함 토큰이 부족해지는 경우 Power BI Embedded 또는 Premium [용량](embedded-capacity.md)을 구매해야 합니다. 용량으로 생성할 수 있는 포함 토큰 수에는 제한이 없습니다.
+    d. **com.embedsample.appoensdata.config** 를 확장합니다.
 
+    e. **Config.java** 를 엽니다.
 
-### <a name="assign-a-workspace-to-a-capacity"></a>용량에 작업 영역 할당
+    f. 인증 방법에 따라 다음 매개 변수 값을 입력합니다.
 
-용량을 만들면 해당 용량에 작업 영역을 할당할 수 있습니다.
+    |매개 변수            |서비스 사용자  |마스터 사용자  |
+    |---------------------|---------|---------|
+    |`authenticationType` |ServicePrincipal         |MasterUser         |
+    |`workspaceId`        |포함된 보고서가 있는 작업 영역의 ID([작업 영역 ID](#workspace-id) 참조)          |포함된 보고서가 있는 작업 영역의 ID([작업 영역 ID](#workspace-id) 참조)         |
+    |`reportId`           |포함하는 보고서의 ID([보고서 ID](#report-id) 참조)            |포함하는 보고서의 ID([보고서 ID](#report-id) 참조)         | 
+    |`clientId`           |Azure AD 앱 [클라이언트 ID](#client-id)         |Azure AD 앱 [클라이언트 ID](#client-id)         |
+    |`pbiUsername`        |해당 없음         |‘마스터 사용자’ 이름([Power BI 사용자 이름 및 암호 참조)](#power-bi-username-and-password)         |
+    |`pbiPassword`        |해당 없음         |‘마스터 사용자’ 암호([Power BI 사용자 이름 및 암호 참조)](#power-bi-username-and-password)         |
+    |`tenantId`           |Azure AD [테넌트 ID](#tenant-id)         |해당 없음         |
+    |`appSecret`       |Azure AD [클라이언트 암호](#client-secret)         |해당 없음         |
 
-포함된 콘텐츠(데이터 세트, 보고서, 대시보드 포함)와 관련된 Power BI 리소스를 포함하는 모든 작업 영역을 용량에 할당해야 합니다. 예를 들어 포함된 보고서 및 보고서에 바인딩된 데이터 세트가 서로 다른 작업 영역에 있을 경우 두 작업 영역을 모두 용량에 할당해야 합니다.
+11. 프로젝트 실행
 
-[서비스 주체](embed-service-principal.md)를 사용하여 작업 영역에 용량을 할당하려면 [Power BI REST API](/rest/api/power-bi/capacities/groups_assigntocapacity)를 사용합니다. Power BI REST API를 사용할 때는 [서비스 주체 개체 ID](embed-service-principal.md)를 사용해야 합니다.
+    a. **패키지 탐색기** 에서 **AppOwnesData** 를 마우스 오른쪽 단추로 클릭합니다.
 
-아래 단계에 따라 **마스터 계정** 을 사용하여 작업 영역에 용량을 할당합니다.
+    b. **다음 계정으로 실행**  > **서버에서 실행** 을 선택합니다.
 
-1. **Power BI 서비스** 내에서 작업 영역을 확장하고 콘텐츠를 포함하는 데 사용하는 작업 영역에 대한 줄임표를 선택합니다. 그런 다음, **작업 영역 편집** 을 선택합니다.
+    다. **서버에서 실행** 창에서 **기존 서버 선택** 및 *Tomcat* 서버를 선택합니다.
 
-    ![작업 영역 편집](media/embed-sample-for-customers/embed-sample-for-customers-036.png)
+    d. **마침** 을 선택합니다.
 
-2. **고급** 을 확장하고 **용량** 을 사용하도록 설정한 다음, 사용자가 만든 용량을 선택합니다. 그런 다음, **저장** 을 선택합니다.
+# <a name="node-js"></a>[Node JS](#tab/node-js)
 
-    ![용량 할당](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
+6. 선호하는 IDE를 사용하여 **App Owns Data** 폴더를 엽니다. 다음 중 하나를 사용하는 것이 좋습니다.
 
-3. **저장** 을 선택하면 작업 영역 이름 옆에 **다이아몬드** 가 표시됩니다.
+    * [Visual Studio](https://visualstudio.microsoft.com/)
 
-    ![용량에 연결된 작업 영역](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
+    * [Visual Studio Code](https://code.visualstudio.com/)
+
+7. 터미널을 열고 `npm install`을 실행하여 필요한 종속성을 설치합니다.
+
+8. **Config** 폴더를 확장하고 **config.json** 을 엽니다.
+
+9. 인증 방법에 따라 다음 매개 변수 값을 입력합니다.
+
+    |매개 변수            |서비스 사용자  |마스터 사용자  |
+    |---------------------|---------|---------|
+    |`authenticationMode` |ServicePrincipal         |MasterUser         |
+    |`clientId`           |Azure AD 앱 [클라이언트 ID](#client-id)         |Azure AD 앱 [클라이언트 ID](#client-id)         |
+    |`workspaceId`        |포함된 보고서가 있는 작업 영역의 ID([작업 영역 ID](#workspace-id) 참조)          |포함된 보고서가 있는 작업 영역의 ID([작업 영역 ID](#workspace-id) 참조)         |
+    |`reportId`           |포함하는 보고서의 ID([보고서 ID](#report-id) 참조)            |포함하는 보고서의 ID([보고서 ID](#report-id) 참조)         |
+    |`pbiUsername`        |해당 없음         |‘마스터 사용자’ 이름([Power BI 사용자 이름 및 암호 참조)](#power-bi-username-and-password)         |
+    |`pbiPassword`        |해당 없음         |‘마스터 사용자’ 암호([Power BI 사용자 이름 및 암호 참조)](#power-bi-username-and-password)         |
+    |`clientSecret`       |Azure AD [클라이언트 암호](#client-secret)         |해당 없음         |
+    |`tenantId`           |Azure AD [테넌트 ID](#tenant-id)         |해당 없음         |
+
+10. 다음을 수행하여 프로젝트를 실행합니다.
+
+    a. IDE 터미널에서 `npm start`를 실행합니다.
+
+    b. 브라우저에서 새 탭을 열고 [http://localhost:5300](http://localhost:5300)으로 이동합니다.
+
+# <a name="python"></a>[Python](#tab/python)
+
+6. **PowerShell** 또는 **명령 프롬프트** 를 엽니다.
+
+7. **Python** > **고객에 대한 콘텐츠 포함** 폴더인지 그리고 폴더에 **requirements.txt** 파일이 있는지 확인하고 `pip3 install -r requirements.txt`를 실행합니다.
+
+8. 선호하는 IDE를 사용하여 **App Owns Data** 폴더를 엽니다. 다음 중 하나를 사용하는 것이 좋습니다.
+
+    * [Visual Studio](https://visualstudio.microsoft.com/)
+
+    * [Visual Studio Code](https://code.visualstudio.com/)
+
+9. **config.py** 를 엽니다.
+
+10. 인증 방법에 따라 다음 매개 변수 값을 입력합니다.
+
+    |매개 변수            |서비스 사용자  |마스터 사용자  |
+    |---------------------|---------|---------|
+    |`AUTHENTICATION_MODE` |ServicePrincipal         |MasterUser         |
+    |`WORKSPACE_ID`        |포함된 보고서가 있는 작업 영역의 ID([작업 영역 ID](#workspace-id) 참조)          |포함된 보고서가 있는 작업 영역의 ID([작업 영역 ID](#workspace-id) 참조)         |
+    |`REPORT_ID`           |포함하는 보고서의 ID([보고서 ID](#report-id) 참조)            |포함하는 보고서의 ID([보고서 ID](#report-id) 참조)         |
+    |`TENANT_ID`           |Azure AD [테넌트 ID](#tenant-id)         |해당 없음         |
+    |`CLIENT_ID`           |Azure AD 앱 [클라이언트 ID](#client-id)         |Azure AD 앱 [클라이언트 ID](#client-id)         |
+    |`CLIENT_SECRET`       |Azure AD [클라이언트 암호](#client-secret)         |해당 없음         |
+    |`POWER_BI_USER`        |해당 없음         |‘마스터 사용자’ 이름([Power BI 사용자 이름 및 암호 참조)](#power-bi-username-and-password)         |
+    |`POWER_BI_PASS`        |해당 없음         |‘마스터 사용자’ 암호([Power BI 사용자 이름 및 암호 참조)](#power-bi-username-and-password)         |
+
+11. 파일을 저장합니다.
+
+12. 다음을 수행하여 프로젝트를 실행합니다.
+
+    a. **PowerShell** 또는 **명령 프롬프트** 에서 **Python** > **고객에 대한 콘텐츠 포함** > **AppOwnesData** 폴더로 이동하고 `flask run`을 실행합니다.
+
+    b. 브라우저에서 새 탭을 열고 [http://localhost:5300](http://localhost:5300)으로 이동합니다.
+
+---
+
+## <a name="developing-your-application"></a>애플리케이션 배포
+
+‘고객에 대한 콘텐츠 포함’ 애플리케이션 예제 구성하고 실행한 후에 애플리케이션 개발을 시작할 수 있습니다.
+
+준비가 되면 [프로덕션으로 이동](move-to-production.md) 요구 사항을 검토하세요. [용량](embedded-capacity.md)도 필요하며, [용량 계획](embedded-capacity-planning.md) 문서를 검토하여 요구 사항에 가장 잘 맞는 SKU를 설정해야 합니다.
+
 
 ## <a name="next-steps"></a>다음 단계
 
-이 자습서에서는 고객의 애플리케이션에 Power BI 콘텐츠를 포함하는 방법을 알아보았습니다. 조직에 Power BI 콘텐츠를 포함할 수도 있습니다.
-
 > [!div class="nextstepaction"]
+>[프로덕션으로 이동](move-to-production.md)
+
+>[!div class="nextstepaction"]
 >[조직에 포함](embed-sample-for-your-organization.md)
 
-궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+> [!div class="nextstepaction"]
+>[고객을 위해 페이지를 매긴 보고서 포함](embed-paginated-reports-customers.md)
+
+> [!div class="nextstepaction"]
+>[조직에 대해 페이지가 매겨진 보고서 포함](embed-paginated-reports-organization.md)
+
+>[!div class="nextstepaction"]
+>[Power BI 커뮤니티에 문의](https://community.powerbi.com/)

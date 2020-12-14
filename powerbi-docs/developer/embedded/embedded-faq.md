@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 1166f51c21e765e5710d33ad45a47057ea773bd8
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 348032345a56d538e1e5ffbb6036d411e42b2954
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397441"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907075"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded에 대한 질문과 대답
 
@@ -115,11 +115,11 @@ Power BI에서는 조직 계정에 등록해야 합니다. Microsoft 계정을 �
 예, PBIE 리소스를 만들고 관리하는 데 사용할 수 있는 PowerShell cmdlet 및 Azure Resource Manager REST API가 있습니다.
 
 * [Rest API](/rest/api/power-bi-embedded/) 
-* [Powershell cmdlet](/powershell/module/azurerm.powerbiembedded/)
+* [PowerShell cmdlet](/powershell/module/azurerm.powerbiembedded/)
 
 ### <a name="what-is-the-pbi-embedded-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded 솔루션에 포함된 PBI Embedded 용량 역할이란?
 
-[솔루션 수준을 프로덕션으로 올리려면](embed-sample-for-customers.md#move-to-production) 애플리케이션에서 사용되는 Power BI 콘텐츠(작업 영역)를 Power BI Embedded(SKU) 용량에 할당해야 합니다.
+[솔루션 수준을 프로덕션으로 올리려면](move-to-production.md) 애플리케이션에서 사용되는 Power BI 콘텐츠(작업 영역)를 Power BI Embedded(SKU) 용량에 할당해야 합니다.
 
 ### <a name="in-what-azure-regions-is-pbi-embedded-available"></a>PBI Embedded는 어떤 Azure 지역에서 사용할 수 있나요?
 
@@ -184,7 +184,7 @@ RLS와 JavaScript 필터를 사용할 때 혼란이 있는 경우가 종종 있�
 
 RLS의 경우 ISV 개발자는 모델 및 포함 토큰 생성의 일부로 데이터 필터링을 제어합니다. 최종 사용자는 ISV가 사용자에게 보도록 허용한 내용만 볼 수 있습니다. 이 경우 사용자는 필터링되는 것보다 적은 내용을 볼 수 있지만, RLS 구성을 무시하고 허용되는 것보다 더 많은 내용을 볼 수는 없습니다.
 
-클라이언트 쪽 필터링(JavaScript)의 경우 최종 사용자에게 초기 보기에 표시되는 내용을 ISV가 결정할 수 있지만, 최종 사용자가 보기 자체에 적용할 수 있는 변경 사항은 제어할 수 없습니다. 사용자 Javascript 클라이언트 코드가 백 엔드에서 데이터 필터링을 트리거할 수 있기 때문에 안전하다고 간주할 수 없습니다.
+클라이언트 쪽 필터링(JavaScript)의 경우 최종 사용자에게 초기 보기에 표시되는 내용을 ISV가 결정할 수 있지만, 최종 사용자가 보기 자체에 적용할 수 있는 변경 사항은 제어할 수 없습니다. 사용자 JavaScript 클라이언트 코드가 백 엔드에서 데이터 필터링을 트리거할 수 있기 때문에 안전하다고 간주할 수 없습니다.
 
 자세한 내용은 [RLS 대 JavaScript 필터](embedded-row-level-security.md#using-rls-vs-javascript-filters)를 참조하세요.
 
@@ -198,7 +198,7 @@ RLS의 경우 ISV 개발자는 모델 및 포함 토큰 생성의 일부로 데�
 
 ### <a name="when-to-use-an-application-id-vs-a-service-principal-object-id"></a>애플리케이션 ID 및 서비스 주체 개체 ID를 사용하는 시기는?
 
-**[애플리케이션 ID](embed-sample-for-customers.md#application-id)** 는 인증을 위해 애플리케이션 ID를 전달할 때 액세스 토큰을 만드는 데 사용됩니다.
+**[애플리케이션 ID](embed-sample-for-customers.md#client-id)** (‘클라이언트 ID’라고도 함)는 인증을 위해 애플리케이션 ID를 전달할 때 액세스 토큰을 만드는 데 사용됩니다.
 
 작업을 위해 서비스 주체를 참조하거나 변경하려면 **[서비스 주체 개체 ID](embed-service-principal.md)** 를 사용합니다(예: 서비스 주체를 작업 영역에 관리자로 적용).
 

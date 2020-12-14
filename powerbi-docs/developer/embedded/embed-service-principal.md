@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
 ms.date: 11/23/2020
-ms.openlocfilehash: 17c0a4d0809aa87f50225e0c59ca3962776bd2b1
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 41b8cfe8515efbf3cc42794afcb2562f7d0c171a
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95514485"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907098"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>서비스 주체 및 애플리케이션 암호를 사용하여 Power BI 콘텐츠 포함
 
@@ -170,7 +170,7 @@ Azure AD에서 만든 보안 그룹을 **개발자 설정** 의 특정 보안 �
 >특정 테넌트 설정에 대한 서비스 주체 액세스를 제한하려면 특정 보안 그룹에만 액세스를 허용합니다. 또는 서비스 주체에 대한 전용 보안 그룹을 만들고 원하는 테넌트 설정에서 제외할 수 있습니다.
 
 >[!div class="mx-imgBorder"]
->:::image type="content" source="media/embed-service-principal/admin-portal.png" alt-text="Power BI 포털의 관리 옵션에서 개발자 설정을 보여주는 스크린샷.":::
+>:::image type="content" source="media/embed-service-principal/admin-portal.png" alt-text="Power BI 서비스의 관리 옵션에서 개발자 설정을 보여 주는 스크린샷":::
 
 ## <a name="step-4---add-the-service-principal-to-your-workspace"></a>4단계 - 작업 영역에 서비스 주체 추가
 
@@ -195,12 +195,9 @@ Azure AD 앱이 Power BI 서비스의 보고서, 대시보드, 데이터 세트�
 
 ## <a name="step-5---embed-your-content"></a>5단계: 콘텐츠 포함
 
-샘플 애플리케이션 또는 자체 애플리케이션 내에 콘텐츠를 포함할 수 있습니다.
+자체 애플리케이션 또는 [애플리케이션 예제 내에 콘텐츠를 포함](embed-sample-for-customers.md)할 수 있습니다.
 
-* [샘플 애플리케이션을 사용하여 콘텐츠 포함](embed-sample-for-customers.md#embed-content-using-the-sample-application)
-* [애플리케이션 내에서 콘텐츠 포함](embed-sample-for-customers.md#embed-content-within-your-application)
-
-콘텐츠가 포함되면 [프로덕션으로 이동](embed-sample-for-customers.md#move-to-production)할 준비가 된 것입니다.
+콘텐츠가 포함되면 [프로덕션으로 이동](move-to-production.md)할 준비가 된 것입니다.
 
 >[!NOTE]
 >인증서를 사용하여 콘텐츠를 보호하려면 [서비스 주체 및 인증서를 사용하여 Power BI 콘텐츠 포함](embed-service-principal-certificate.md)에 설명된 단계를 따르세요.

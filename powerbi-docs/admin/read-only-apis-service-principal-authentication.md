@@ -10,14 +10,14 @@ ms.date: 12/01/2020
 ms.author: painbar
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: fb2d25b4cc000f0a7b9c659f25264ffd1ab936d7
-ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
+ms.openlocfilehash: ec3cd60916630fe355b9ea4f54d5a025788800bf
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "96506725"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96906822"
 ---
-# <a name="enable-service-principle-authentication-for-read-only-admin-apis-preview"></a>읽기 전용 관리 API에 대한 서비스 주체 인증 사용(미리 보기)
+# <a name="enable-service-principal-authentication-for-read-only-admin-apis-preview"></a>읽기 전용 관리 API에 대한 서비스 주체 인증 사용(미리 보기)
 
 서비스 주체는 Azure Active Directory(Azure AD) 애플리케이션이 콘텐츠 및 API Power BI 서비스에 액세스하도록 하는 데 사용할 수 있는 인증 방법입니다.
 Azure AD 앱을 만들 때 [서비스 주체 개체](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object)가 만들어집니다. 서비스 주체 개체(서비스 주체라고도 함)는 Azure AD가 앱을 인증하도록 합니다. 인증된 앱은 Azure AD 테넌트 리소스에 액세스할 수 있습니다.
@@ -63,7 +63,7 @@ Power BI 읽기 전용 API에 대한 서비스 주체 인증을 사용하도록 
     * [GetDataflowUpstreamDataflowsAsAdmin](https://docs.microsoft.com/rest/api/power-bi/admin/dataflows_getupstreamdataflowsingroupasadmin) 
     * [GetCapacitiesAsAdmin](https://docs.microsoft.com/rest/api/power-bi/admin/getcapacitiesasadmin)
     * [GetActivityLog](https://docs.microsoft.com/rest/api/power-bi/admin/getactivityevents)
-    * GetModifiedWorkspaces
-    * WorkspaceGetInfo
-    * WorkspaceScanStatus
-    * WorkspaceScanResult
+    * [GetModifiedWorkspaces](https://docs.microsoft.com/rest/api/power-bi/admin/workspaceinfo_getmodifiedworkspaces)
+    * [WorkspaceGetInfo](https://docs.microsoft.com/rest/api/power-bi/admin/workspaceinfo_postworkspaceinfo)
+    * [WorkspaceScanStatus](https://docs.microsoft.com/rest/api/power-bi/admin/workspaceinfo_getscanstatus)
+    * [WorkspaceScanResult](https://docs.microsoft.com/rest/api/power-bi/admin/workspaceinfo_getscanresult)

@@ -30,10 +30,10 @@
           href: service-tutorial-connect-to-github.md
         - name: Cognitive Services 사용
           href: service-tutorial-use-cognitive-services.md
-        - name: Machine Learning 통합
-          href: service-tutorial-invoke-machine-learning-model.md
-        - name: Machine Learning 모델 빌드
+        - name: 기계 학습 모델 작성
           href: service-tutorial-build-machine-learning-model.md
+        - name: 보고서에서 기계 학습 모델 사용
+          href: service-aml-integrate.md
         - name: SQL Server에서 데이터 새로 고침
           href: service-gateway-sql-tutorial.md
     - name: 개념

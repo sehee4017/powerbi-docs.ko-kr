@@ -10,14 +10,14 @@ ms.topic: reference
 ms.date: 11/16/2020
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: 8e3a32402b3eff202a8e35a2e34fa52271650a64
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e2bd6a752d94bd2a549d0149512707fbd7832319
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96390728"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613788"
 ---
-# <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>*소비자* 및 다른 무료 라이선스 사용자를 위한 Power BI 기능 목록
+# <a name="power-bi-feature-list-for-business-users-and-others-with-free-licenses"></a>‘비즈니스 사용자’ 및 다른 체험용 라이선스 사용자를 위한 Power BI 기능 목록
 
 [!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
@@ -58,7 +58,7 @@ ms.locfileid: "96390728"
 
    
 
-## <a name="power-bi-feature-list-for-consumers-and-free-users"></a>‘소비자’ 및 무료 사용자를 위한 Power BI 기능 목록 
+## <a name="power-bi-feature-list-for-business-users-and-free-users"></a>‘비즈니스 사용자’ 및 체험용 사용자를 위한 Power BI 기능 목록
 다음 차트는 프리미엄 용량의 콘텐츠와 상호 작용하는 비즈니스 사용자가 수행할 수 있는 작업을 보여 줍니다.    
 
 첫 번째 열은 **내 작업 영역** 의 콘텐츠를 사용하는 무료 사용자를 나타냅니다. 이 사용자는 Power BI 서비스에서 동료와 협업할 수 없습니다. 동료는 사용자와 콘텐츠를 직접 공유할 수 없으며, 사용자도 **내 작업 영역** 에서 공유할 수 없습니다. 

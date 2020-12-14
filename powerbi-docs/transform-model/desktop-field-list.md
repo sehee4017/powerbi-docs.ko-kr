@@ -9,12 +9,12 @@ ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 11/11/2020
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 834df274d4cc75af1087ab4fa7d24c2fd7dd4fec
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: ced861f0d229153866c1d52616494f8b444220ae
+ms.sourcegitcommit: 8993400b32a44f4e7ce9a2db998ddebda18c7698
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416005"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96536487"
 ---
 # <a name="using-the-field-list-in-power-bi-desktop-preview"></a>Power BI Desktop(미리 보기)의 필드 목록 사용
 
@@ -55,6 +55,8 @@ Power BI Desktop 사용 편의성 향상을 위한 것입니다. 변경 내용�
 |![테이블에 대한 원래 상황에 맞는 메뉴](media/desktop-field-list/field-list-03a.png)     |![테이블에 대한 새 상황에 맞는 메뉴](media/desktop-field-list/field-list-03b.png)    |
 |**도구 설명**       ||
 |![원래 도구 설명](media/desktop-field-list/field-list-04a.png)     |![새 도구 설명](media/desktop-field-list/field-list-04b.png)    |
+
+## <a name="field-list-icons"></a>필드 목록 아이콘
 
 새 필드 목록 아이콘도 있습니다. 다음 표에서는 원래 아이콘과 그에 상응하는 새 아이콘을 보여 주고 각 아이콘에 대해 간략하게 설명합니다. 
 

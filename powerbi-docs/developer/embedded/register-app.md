@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 04/02/2019
-ms.openlocfilehash: c8d756a80cf6d748f3ff33298b3a243f82197734
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 845499bc236489932bf1347c43f7a5ba71c21a6b
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668652"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907328"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Power BI와 함께 사용할 Azure AD 애플리케이션 등록
 
@@ -32,7 +32,7 @@ Power BI Embedded 분석을 사용하려면 Azure에서 Azure AD(Azure Active Di
 
 * **마스터 사용자** 계정(Power BI에 로그인하는 데 사용되는 Power BI Pro 라이선스)
 
-*  [서비스 주체](embed-service-principal.md)
+* [서비스 주체](embed-service-principal.md)
 
 고객에 대한 콘텐츠 포함 솔루션은 일반적으로 타사를 위한 애플리케이션을 만드는 ISV(독립 소프트웨어 공급업체) 및 개발자에 의해 사용됩니다.
 
@@ -115,7 +115,16 @@ Azure AD 앱을 등록하는 가장 쉬운 방법은 [Power BI 포함 설정 도
 
 # <a name="manual-registration"></a>[수동 등록](#tab/manual)
 
-*조직에 대한 콘텐츠 포함* 솔루션을 만드는 경우에만 Azure AD 수동 앱 등록을 사용합니다. Azure Active Directory에 애플리케이션을 등록하는 방법에 대한 자세한 내용은 [Azure Active Directory에 앱 등록](/azure/active-directory/develop/quickstart-v2-register-an-app)을 참조하세요.
+다음 솔루션 중 하나를 만드는 경우에만 Azure AD 수동 앱 등록을 사용합니다.
+
+* ‘조직에 대한 콘텐츠 포함’ 애플리케이션.
+
+* ‘서비스 주체’가 있는 ‘고객에 대한 콘텐츠 포함’ 애플리케이션. 
+
+    >[!NOTE]
+    >이 옵션을 선택하는 경우 Azure AD 앱을 등록한 후에 앱에 [Power BI 권한을 추가](#change-your-azure-ad-apps-permissions)해야 합니다.
+
+Azure Active Directory에 애플리케이션을 등록하는 방법에 대한 자세한 내용은 [Azure Active Directory에 앱 등록](/azure/active-directory/develop/quickstart-v2-register-an-app)을 참조하세요.
 
 1. [Azure Portal](https://portal.azure.com)에 로그인합니다.
 
@@ -140,6 +149,9 @@ Azure AD 앱을 등록하는 가장 쉬운 방법은 [Power BI 포함 설정 도
 ## <a name="change-your-azure-ad-apps-permissions"></a>Azure AD 앱의 사용 권한 변경
 
 애플리케이션을 등록한 후에는 해당 사용 권한을 변경할 수 있습니다. 프로그래밍 방식으로 또는 Azure Portal에서 사용 권한을 변경할 수 있습니다.
+
+>[!NOTE]
+>Azure AD 앱 권한은 ‘마스터 사용자’ 인증 방법을 사용하여 ‘고객에 대한 콘텐츠 포함’ 솔루션에만 적용할 수 있습니다. 
 
 # <a name="azure"></a>[Azure](#tab/Azure)
 

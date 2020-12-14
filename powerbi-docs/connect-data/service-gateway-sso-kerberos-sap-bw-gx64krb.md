@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 10/21/2020
+ms.date: 12/04/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6fc8dba8e4cdcb8d8ff38c00f3e477902fe8234e
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: c48abec54e62625a7e32bb33f773995cdb8a3c47
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349463"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613903"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-to-sap-bw-using-gx64krb5"></a>gx64krb5를 사용하는 SAP BW로의 SSO(Single Sign-On)에 Kerberos 사용
 
 이 문서에서는 gx64krb5를 사용하여 Power BI 서비스에서 SSO를 사용하도록 SAP BW 데이터 원본을 구성하는 방법을 설명합니다.
 
 > [!IMPORTANT]
-> SAP는 더 이상 gx64krb5을 지원하지 않으므로 Microsoft도 지원을 중단했습니다. 기존 연결과 새 연결은 2020년 말까지 계속 제대로 작동하지만 2021년 1월 1일부터는 작동하지 않습니다. 대신 CommonCryptoLib를 사용합니다. 
+> SAP는 Power BI에서 온-프레미스 데이터 게이트웨이에 대한 gx64krb5를 더 이상 지원하지 않습니다. 따라서 Microsoft도 이 시나리오에서 gx64krb5 사용 지원을 중단했습니다. 기존 연결은 계속 작동하지만, 2021년 2월부터는 이 시나리오에 대해 새로운 연결을 만들 수 없습니다. 대신 CommonCryptoLib를 사용합니다. 
 
 > [!NOTE]
 > Power BI 서비스에서 SAP BW 애플리케이션 서버 기반 보고서에 대한 SSO 기반 새로 고침을 사용하도록 설정하려면 [Kerberos SSO 구성](service-gateway-sso-kerberos.md)의 단계 이외에 이 문서의 단계를 완료할 수 있습니다. 그러나 Microsoft는 gx64krb5가 아닌 SNC 라이브러리로 CommonCryptoLib을 사용할 것을 권장합니다. SAP는 더 이상 gx64krb5를 지원하지 않으며, 게이트웨이에 구성하는 데 필요한 단계는 CommonCryptoLib에 비해 훨씬 더 복잡합니다. CommonCryptoLib를 사용하여 SSO를 구성하는 방법에 대한 자세한 내용은 [CommonCryptoLib를 사용하여 SSO에 대해 SAP BW 구성](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md)을 참조하세요. CommonCryptoLib ‘또는’ gx64krb5 중 하나만 SNC 라이브러리로 사용합니다. 두 라이브러리에 대한 구성 단계를 모두 완료하지 마세요.
@@ -155,7 +155,7 @@ Power BI Desktop에서 연결하려는 머신 및 게이트웨이가 설치된 �
 
 ## <a name="add-a-new-sap-bw-application-server-data-source-to-the-power-bi-service-or-edit-an-existing-one"></a>Power BI 서비스에 새 SAP BW 애플리케이션 서버 데이터 원본 추가 또는 기존 데이터 원본 편집
 
-1. Power BI Desktop에서 SAP BW 서버에 로그인할 때와 마찬가지로, SAP BW 애플리케이션 서버의 **호스트 이름** , **시스템 번호** 및 **클라이언트 ID** 를 데이터 원본 구성 창에 입력합니다.
+1. Power BI Desktop에서 SAP BW 서버에 로그인할 때와 마찬가지로, SAP BW 애플리케이션 서버의 **호스트 이름**, **시스템 번호** 및 **클라이언트 ID** 를 데이터 원본 구성 창에 입력합니다.
 
 1. **SNC 파트너 이름** 필드에 *p:&lt;SAP BW 서비스 사용자에 매핑한 SPN&gt;* 을 입력합니다. 예를 들어 SPN이 SAP/BWServiceUser\@MYDOMAIN.COM인 경우 **SNC 파트너 이름** 필드에 *p:SAP/BWServiceUser\@MYDOMAIN.COM* 을 입력합니다.
 
@@ -185,7 +185,7 @@ Power BI Desktop에서 연결하려는 머신 및 게이트웨이가 설치된 �
 
 ### <a name="troubleshoot-gateway-connectivity-issues"></a>게이트웨이 연결 문제 해결
 
-1. 게이트웨이 로그를 확인합니다. 게이트웨이 구성 애플리케이션을 열고 **진단** , **로그 내보내기** 를 차례로 선택합니다. 가장 최근 오류는 검사하는 로그 파일의 끝에 있습니다.
+1. 게이트웨이 로그를 확인합니다. 게이트웨이 구성 애플리케이션을 열고 **진단**, **로그 내보내기** 를 차례로 선택합니다. 가장 최근 오류는 검사하는 로그 파일의 끝에 있습니다.
 
     ![진단이 강조 표시된 온-프레미스 데이터 게이트웨이 애플리케이션](media/service-gateway-sso-kerberos/gateway-diagnostics.png)
 

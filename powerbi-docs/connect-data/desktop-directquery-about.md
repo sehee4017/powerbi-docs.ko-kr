@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: conceptual
-ms.date: 11/17/2020
+ms.date: 12/03/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 39b6a95a9a5140e1013d3eaa400c968c40b3063c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 01ba6c2e01b3e17a3ef9c878890877e0a0b976ea
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411313"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613742"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>Power BI에서 DirectQuery를 사용하는 방법
 
@@ -100,7 +100,7 @@ Power BI 서비스에 게시할 때 SQL Server Analysis Services를 통한 보�
 | --- | --- |
 | 데이터가 자주 변경되고 실시간에 가까운 보고가 필요합니다. |가져온 데이터가 있는 모델은 시간당 한 번만 새로 고칠 수 있습니다(Power BI Pro 또는 Power BI Premium 구독이 있으면 더 자주 새로 고칠 수 있음). 데이터가 지속해서 변경되고 보고서에서 최신 데이터를 표시해야 하는 경우 예약된 새로 고침으로 가져오기를 사용하면 이러한 요구 사항을 충족하지 못할 수 있습니다. 이 경우 지원되는 데이터 볼륨에는 제한이 있지만 Power BI로 데이터를 직접 스트리밍할 수도 있습니다. <br/> <br/> 이와 대조적으로 DirectQuery를 사용하면 보고서 또는 대시보드를 열거나 새로 고침으로써 항상 원본의 최신 데이터가 표시됩니다. 또한 대시보드 타일은 더 자주(빠르게는 15분에 한 번씩) 업데이트될 수 있습니다. |
 | 데이터가 매우 큽니다. |데이터가 매우 큰 경우 모든 데이터를 가져올 수는 없습니다. 이와 대조적으로 DirectQuery는 적절히 쿼리되므로 대량의 데이터 전송이 필요하지 않습니다. <br/> <br/> 그러나 [DirectQuery 사용의 의미](#implications-of-using-directquery)에서 설명하는 대로 큰 데이터로 인해 해당 기본 원본에 대한 쿼리 성능이 너무 느릴 수도 있습니다. 항상 세부 정보 데이터 전체를 가져올 필요는 없습니다. 대신 가져오기 중에 데이터를 미리 집계할 수 있으며, *쿼리 편집기* 를 사용하면 이 작업을 쉽게 수행할 수 있습니다. 극단적으로 각 시각적 개체에 필요한 집계 데이터를 정확하게 가져올 수 있습니다. DirectQuery가 큰 데이터에 대한 가장 간단한 접근 방법이지만, 기본 원본이 너무 느린 경우 집계 데이터를 가져오는 것이 해결책이 될 수 있습니다. |
-| 보안 규칙은 기본 원본에서 정의됩니다. |데이터를 가져오면 Power BI는 Power BI Desktop의 현재 사용자 자격 증명을 사용하여 데이터 원본에 연결하거나 Power BI 서비스에서 예약된 새로 고침 구성의 일부로 정의된 자격 증명을 사용하여 데이터 원본에 연결합니다. 이러한 보고서를 게시하고 공유할 때는 동일한 데이터를 볼 수 있는 사용자와만 공유하거나 데이터 세트의 일부로 행 수준 보안을 정의하는 데 주의를 기울여야 합니다. <br/> <br/> 이상적으로 DirectQuery는 항상 기본 원본을 쿼리하기 때문에 이렇게 하면 기본 원본의 모든 보안을 적용할 수 있습니다. 그러나 현재 Power BI는 가져오기에 사용되는 자격 증명과 동일한 자격 증명을 사용하여 기본 원본에 연결합니다. <br/> <br/> Power BI에서 보고서 소비자의 ID를 기본 원본으로 전달할 때까지 DirectQuery는 데이터 원본 보안과 관련하여 어떠한 이점도 제공하지 않습니다. |
+| 보안 규칙은 기본 원본에서 정의됩니다. |데이터를 가져오면 Power BI는 Power BI Desktop의 현재 사용자 자격 증명을 사용하여 데이터 원본에 연결하거나 Power BI 서비스에서 예약된 새로 고침 구성의 일부로 정의된 자격 증명을 사용하여 데이터 원본에 연결합니다. ‘가져오기’ 모드의 데이터가 있는 보고서를 게시하고 공유할 때는 동일한 데이터를 볼 수 있는 사용자와만 공유하거나 데이터 세트의 일부로 행 수준 보안을 정의하는 데 주의를 기울여야 합니다. <br/> <br/> DirectQuery를 사용하면 보고서 뷰어의 자격 증명을 기본 소스 및 보안 규칙에 전달하여 적용할 수 있습니다. Single Sign-On은 온-프레미스 SQL 서버 대한 데이터 게이트웨이를 통해 SQL Azure 데이터 원본에 지원됩니다. [Power BI의 게이트웨이 SSO(Single Sign-On) 개요](service-gateway-sso-overview.md)에서 자세하게 다룹니다. |
 | 데이터 주권 제한 사항이 적용됩니다. |일부 조직에는 데이터 주권에 관한 정책이 있습니다. 즉 데이터가 조직 구내를 벗어날 수 없습니다. 가져오기에 기반한 솔루션에서 문제를 명확히 제시할 것입니다. 이와 반대로 DirectQuery를 사용하는 경우 해당 데이터는 기본 원본에서 유지됩니다. <br/> <br/> 그러나 DirectQuery를 사용하는 경우에도 시각적 수준의 일부 데이터 캐시는 예약된 타일 새로 고침으로 인해 Power BI 서비스에서 유지됩니다. |
 | 기본 데이터 원본은 측정값을 포함하는 OLAP 원본입니다. |기본 데이터 원본에 *측정값*(예: SAP HANA 또는 SAP Business Warehouse)이 포함된 경우 데이터를 가져오면 다른 문제가 발생합니다. 즉 가져온 데이터가 쿼리에서 정의한 대로 특정 집계 수준에 있다는 것입니다. 예를 들어 **클래스**, **연도** 및 **도시** 를 기준으로 하여 **TotalSales** 를 측정합니다. 그런 다음, 더 높은 집계 수준의 데이터(예: **연도** 별 **TotalSales**)를 요청하는 시각적 개체를 작성하면 집계 값을 추가로 집계합니다. 이 경우 가산 측정값(예: **Sum**, **Min**)에서는 문제가 없지만, 비가산 측정값(예: **Average**, **DistinctCount**)에서는 문제가 됩니다. <br/> <br/> 특정 시각적 개체에 필요한 경우와 같이 원본에서 직접 정확한 집계 데이터를 가져오려면 DirectQuery에서와 같이 시각적 개체별로 쿼리를 보내야 합니다. <br/> <br/> SAP BW(Business Warehouse)에 연결할 때 DirectQuery를 선택하는 경우 이러한 측정값 처리를 사용하는 것이 좋습니다. SAP BW에 대한 자세한 내용은 [DirectQuery 및 SAP BW](desktop-directquery-sap-bw.md)를 참조하세요. <br/> <br/> 그러나 현재 SAP HANA를 통한 DirectQuery는 관계형 원본과 동일하게 처리하므로 가져오기와 비슷한 동작을 제공합니다. 이 접근 방법은 [DirectQuery 및 SAP HANA](desktop-directquery-sap-hana.md)에서 자세히 설명합니다. |
 
@@ -172,6 +172,8 @@ DirectQuery 모델에서는 거의 모든 보고 기능이 지원됩니다. 따�
 이 문서의 앞부분에서 설명한 대로 DirectQuery의 보고서는 Power BI 서비스에 게시한 후에 항상 동일한 고정 자격 증명을 사용하여 기본 데이터 원본에 연결합니다. 이 동작은 DirectQuery에 적용되며, SQL Server Analysis Services에 대한 라이브 연결에는 적용되지 않습니다. DirectQuery 보고서를 게시한 직후에는 사용할 사용자의 자격 증명을 구성해야 합니다. 자격 증명을 구성하기 전까지는 Power BI 서비스에서 보고서를 열면 오류가 발생합니다.
 
 사용자 자격 증명이 제공되면 *어떤 사용자가 보고서를 열든 관계없이* 해당 자격 증명이 사용됩니다. 이 측면에서는 가져온 데이터와 똑같이 기능합니다. 보고서의 일부로 행 수준 보안이 정의되지 않은 한 모든 사용자가 동일한 데이터를 보게 됩니다. 기본 원본에 정의된 보안 규칙이 있는 경우 보고서 공유에 동일한 주의를 기울여야 합니다.
+
+또한 Power BI Desktop에서 SQL Server에 대해 DirectQuery 연결을 만들 때 ‘대체 자격 증명’이 지원되지 않습니다. 현재 Windows 자격 증명 또는 데이터베이스 자격 증명을 사용할 수 있습니다.
 
 ### <a name="behavior-in-the-power-bi-service"></a>Power BI 서비스의 동작
 

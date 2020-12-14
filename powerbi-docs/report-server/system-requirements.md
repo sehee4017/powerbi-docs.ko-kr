@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/29/2020
-ms.openlocfilehash: 30e8f1cb1ef8f12d9573d77a70771eef915a2704
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
+ms.date: 12/07/2020
+ms.openlocfilehash: 10fb104d1c03ae5d08836b8e865178c347d848ce
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93044799"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781776"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Power BI Report Server를 설치하기 위한 하드웨어 및 소프트웨어 요구 사항
 
@@ -23,7 +23,7 @@ ms.locfileid: "93044799"
 
 | 구성 요소 | 요구 사항 |
 | --- | --- |
-| .NET Framework |4.8<br><br>[Windows용 Microsoft .NET Framework 4.8(웹 설치 관리자)](https://support.microsoft.com/en-us/help/4503548/)에서 .NET Framework를 수동으로 설치할 수 있습니다.<br/><br/> .NET Framework 4.8에 대한 자세한 정보, 권장 사항 및 지침은 [개발자를 위한 .NET Framework 배포 가이드](/dotnet/framework/deployment/deployment-guide-for-developers)를 참조하세요.<br/><br/>Windows 8.1 및 Windows Server 2012 R2에서는 .NET Framework 4.8을 설치하기 전에 [KB2919355](https://support.microsoft.com/kb/2919355)가 필요합니다. |
+| .NET Framework |4.8<br><br>서버가 인터넷에 액세스할 수 없는 경우 [Windows용 Microsoft .NET Framework 4.8(오프라인 설치 관리자)](https://support.microsoft.com/en-us/help/4503548/)에서 .NET Framework를 수동으로 설치할 수 있습니다.<br/><br/> .NET Framework 4.8에 대한 자세한 정보, 권장 사항 및 지침은 [개발자를 위한 .NET Framework 배포 가이드](/dotnet/framework/deployment/deployment-guide-for-developers)를 참조하세요.<br/><br/>Windows 8.1 및 Windows Server 2012 R2에서는 .NET Framework 4.8을 설치하기 전에 [KB2919355](https://support.microsoft.com/kb/2919355)가 필요합니다. |
 | 하드 디스크 |Power BI Report Server에는 최소 1GB의 하드 디스크 여유 공간이 필요합니다.<br><br>Report Server 데이터베이스를 호스팅하는 데이터베이스 서버에 추가 공간이 필요합니다. |
 | 메모리 |**최소값:** 1GB<br/><br/> **권장:** 최소 4GB |
 | 프로세서 속도 |**최소:** x64 프로세서: 1.4GHz<br/><br/> **권장:** 2.0GHz 이상 |

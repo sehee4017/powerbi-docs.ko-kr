@@ -1,22 +1,22 @@
 ---
-title: Excel에서 Power BI 주요 테이블에 액세스(미리 보기)
-description: Excel의 데이터 형식 갤러리에서 Power BI 데이터 세트의 주요 테이블에서 데이터를 찾을 수 있습니다.
+title: Excel에서 Power BI 추천 테이블에 액세스
+description: Excel의 조직 데이터 형식 갤러리에서 Power BI 데이터 세트의 추천 테이블에서 데이터를 찾을 수 있습니다.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 08/04/2020
+ms.date: 12/07/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 95ccc80a37ad9703c60c82ce928d35b5e301947b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b5f84f67231393dfed78bd9f90142fbd1b4f6c91
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407311"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907060"
 ---
-# <a name="access-power-bi-featured-tables-in-excel-preview"></a>Excel에서 Power BI 주요 테이블에 액세스(미리 보기)
+# <a name="access-power-bi-featured-tables-in-excel-organization-data-types"></a>Excel 조직 데이터 형식에서 Power BI 추천 테이블 액세스
 
 ‘주요 테이블’은 Excel의 데이터를 Power BI의 데이터에 연결하는 한 가지 방법입니다. 주요 테이블을 사용하면 더욱 쉽게 엔터프라이즈 데이터를 Excel 시트에 추가할 수 있습니다. Excel의 데이터 형식 갤러리에 있는 Power BI 데이터 세트의 추천 테이블에서 데이터를 찾을 수 있습니다. 이 문서에서는 등록 방법을 설명합니다.
 
@@ -41,11 +41,11 @@ Power BI 추천 테이블에서 데이터를 검색하려면 추천 테이블의
 
 :::image type="content" source="media/service-excel-featured-tables/excel-data-types-more.png" alt-text="Excel 데이터 형식 갤러리의 자세히 아이콘 스크린샷.":::
 
-찾고 있는 테이블이 보이면 선택합니다. 보이지 않으면 **조직의 더 많은 항목** 을 선택합니다. Excel은 액세스 권한이 있는 모든 추천 테이블을 검색하여 일치 항목을 찾습니다.
+찾고 있는 테이블이 보이면 선택합니다. 보이지 않으면 **조직의 더 많은 항목** 을 선택합니다. Excel은 액세스할 수 있는 모든 추천 테이블을 창에 표시합니다.
 
 :::image type="content" source="media/service-excel-featured-tables/excel-more-your-organization.png" alt-text="조직에서 선택(미리 보기) 스크린샷.":::
  
-Excel에 가능한 모든 테이블이 표시됩니다. **데이터 선택기** 창에서 **필터** 상자에 입력하여 옵션 범위를 좁힙니다. 일치하는 테이블을 선택합니다.
+Excel은 액세스할 수 있는 모든 추천 테이블을 표시합니다. **데이터 선택기** 창에서 **필터** 상자에 입력하여 옵션 범위를 좁힙니다. 사용할 테이블을 선택합니다.
 
 :::image type="content" source="media/service-excel-featured-tables/excel-data-selector-store.png" alt-text="Excel 조직 데이터, 공급자 데이터 형식 테이블의 스크린샷.":::
  
@@ -120,15 +120,13 @@ Excel이 셀을 Power BI 주요 테이블의 행에 연결할 때 Excel 파일�
 
 ## <a name="licensing"></a>라이선싱
 
-Excel 데이터 형식 갤러리와 Power BI 주요 테이블에 대한 연결된 환경은 Excel E5 및 G5 고객만 사용할 수 있습니다. 
+Excel 데이터 형식 갤러리와 Power BI 추천 테이블에 대한 연결된 환경은 Power BI Pro 서비스 플랜을 이용하는 Excel 구독자만 사용할 수 있습니다. 
 
 ## <a name="security"></a>보안
 
 Power BI에서 사용 권한이 있는 데이터 세트의 주요 테이블만 볼 수 있습니다. 데이터를 새로 고칠 때 행을 검색하기 위해 Power BI의 데이터 세트에 액세스할 수 있는 권한이 있어야 합니다. Power BI에서 [데이터 세트에 대한 빌드 또는 쓰기 권한](../connect-data/service-datasets-build-permissions.md)이 필요합니다.
  
 Excel은 전체 행에 대해 반환되는 데이터를 캐시합니다. Excel 파일을 공유하는 모든 사용자는 모든 연결된 셀의 모든 필드에 대한 데이터를 볼 수 있습니다.
-
-Power BI 데이터 세트에 행 수준 보안 또는 Microsoft Information Protection 민감도 레이블이 적용된 경우 해당 데이터 세트의 주요 테이블이 Excel 데이터 형식 갤러리에 포함되지 않습니다. 이는 초기 미리 보기의 제한 사항입니다.
 
 ## <a name="administrative-control"></a>관리 제어
 
@@ -145,28 +143,25 @@ Power BI 관리자는 조직에서 Excel 데이터 형식 갤러리의 주요 �
 
 ## <a name="considerations-and-limitations"></a>고려 사항 및 제한 사항
 
-초기 미리 보기의 제한 사항은 다음과 같습니다.
+현재 제한 사항은 다음과 같습니다.
 
-- 통합은 Excel 참가자 빌드에서 사용할 수 있습니다.
-- Excel 데이터 형식 갤러리에는 Power BI Desktop 및 Power BI 서비스에 적절한 라이선스가 있는 사용자를 위한 주요 테이블이 포함되어 있습니다. Power BI 서비스에 대한 지원은 미리 보기를 릴리스할 때 사용하지 못할 수 있지만 추가될 예정입니다.
+- 통합은 현재 채널의 Excel에서 사용할 수 있습니다.
 - 다음 기능을 사용하는 Power BI 데이터 세트의 주요 테이블은 Excel에 표시되지 않습니다. 
 
-    - 행 수준 보안 데이터 세트
-    - Microsoft Information Protection 설정 데이터 세트
     - DirectQuery 데이터 세트
     - 라이브 연결을 사용하는 데이터 세트
 
-- Excel에서는 주요 테이블의 열 및 계산 열의 데이터만 표시합니다. 다음은 초기 미리 보기에서 제공하지 않습니다.
+- Excel에서는 추천 테이블의 열, 계산 열, 추천 테이블에 정의된 측정값의 데이터만 표시합니다. 다음은 제공되지 않습니다.
+   
+    - 관련 테이블에 정의된 측정값
+    - 관계에서 계산된 암시적 측정값
 
-    - 추천 테이블에 정의된 측정값
-    - 관련 테이블에 정의된 측정값 및 관계에서 계산된 암시적 측정값
-
-- Excel에서는 새 Power BI 작업 영역에 저장된 추천 테이블(‘데이터 형식’)만 표시합니다. 클래식 작업 영역 또는 내 작업 영역에 저장된 주요 테이블은 Excel에서 데이터 형식으로 표시되지 않습니다. Power BI에서 [클래식 작업 영역을 새 작업 영역으로 업그레이드](service-upgrade-workspaces.md)할 수 있습니다.
+- Excel에서는 새 Power BI 작업 영역에 저장된 추천 테이블(‘데이터 형식’)만 표시합니다. 클래식 작업 영역에 저장된 추천 테이블은 Excel에서 데이터 형식으로 표시되지 않습니다. Power BI에서 [클래식 작업 영역을 새 작업 영역으로 업그레이드](service-upgrade-workspaces.md)할 수 있습니다.
 
 Excel의 데이터 형식 환경은 조회 함수와 유사합니다. Excel 시트에서 제공하는 셀 값을 사용하여 Power BI 주요 테이블에서 일치하는 행을 검색합니다. 검색 환경에는 다음과 같은 동작이 있습니다.
 
-- **조직 데이터** 단추를 사용하여 검색할 때 Excel에서는 Power BI 데이터 세트의 주요 테이블만 검색합니다.
-- 행 일치는 주요 테이블의 텍스트 열을 기반으로 합니다. Power BI Q&A와 동일한 인덱싱을 사용하며 영어 검색에 최적화되어 있습니다. 다른 언어로 검색하면 정확하게 일치되지 않을 수 있습니다. 숫자 열은 일치에 고려하지 않습니다.
+- 행 일치는 주요 테이블의 텍스트 열을 기반으로 합니다. Power BI Q&A와 동일한 인덱싱을 사용하며 영어 검색에 최적화되어 있습니다. 다른 언어로 검색하면 정확하게 일치되지 않을 수 있습니다. 
+- 대부분의 숫자 열은 일치에 고려되지 않습니다. 행 레이블이나 키 열이 숫자인 경우 일치에 포함됩니다.
 - 일치는 개별 검색어에 대한 정확한 일치 및 접두사 일치를 기반으로 합니다. 셀의 값은 공백 또는 탭 등의 기타 공백 문자를 기준으로 분할됩니다. 그러면 각 단어가 검색어로 간주됩니다. 정확한 일치 및 접두사 일치를 위해 행의 텍스트 필드 값을 각 검색어와 비교합니다. 행의 텍스트 필드가 검색어로 시작하는 경우 접두사 일치가 반환됩니다. 예를 들어 셀에 "Orange County"가 포함된 경우 "Orange" 및 "County"는 별개의 검색어입니다. 
 
     - 값이 “Orange” 또는 “County”와 정확히 일치하는 텍스트 열이 있는 행이 반환됩니다. 
@@ -174,10 +169,11 @@ Excel의 데이터 형식 환경은 조회 함수와 유사합니다. Excel 시�
     - 중요한 점은 "Orange" 또는 "County"를 포함하지만 이러한 단어로 시작하지 않는 행은 반환되지 않는다는 것입니다.
 
 - Power BI는 각 셀에 대해 최대 100개의 행 제안을 반환합니다.
-- 주요 테이블 설정 또는 업데이트는 XMLA 엔드포인트에서 지원되지 않습니다.
+- 일부 기호는 지원되지 않습니다.
+- 추천 테이블 설정 또는 업데이트는 XMLA 엔드포인트에서 지원되지 않습니다.
 - 데이터 모델이 있는 Excel 파일을 사용하여 주요 테이블을 게시할 수 있습니다. Power BI Desktop에 데이터를 로드한 다음 주요 테이블을 게시합니다.
 - 테이블 이름, 행 레이블 또는 키 열을 변경하면 주요 테이블이 테이블의 행에 연결된 셀이 있는 Excel 사용자에게 영향을 줄 수 있습니다. 
-- Excel은 Power BI 데이터 세트에서 데이터를 검색한 시간을 표시합니다. 이번에는 데이터가 반드시 Power BI에서 데이터를 새로 고친 시간 또는 데이터 세트에서 가장 최근인 데이터 요소의 시간은 아닙니다. 예를 들어 Power BI의 데이터 세트가 일주일 전에 새로 고쳐졌지만 새로 고침이 발생했을 때 기본 원본 데이터는 일주일이 지난 상태일 수 있습니다. 실제 데이터는 2주가 지난 것이지만 Excel은 데이터를 Excel로 가져온 날짜/시간에 데이터가 검색된 것으로 표시합니다.
+- Excel은 Power BI 데이터 세트에서 데이터를 검색한 시간을 표시합니다. 이번에는 데이터가 반드시 Power BI에서 데이터를 새로 고친 시간 또는 데이터 세트에서 가장 최근인 데이터 요소의 시간은 아닙니다. 예를 들어 Power BI의 데이터 세트가 일주일 전에 새로 고쳐졌지만 새로 고침이 발생했을 때 기본 원본 데이터는 일주일이 지난 상태일 수 있습니다. 실제 데이터는 2주가 지난 것이지만 Excel은 데이터를 Excel로 가져온 날짜/시간에 데이터가 검색된 것으로 표시합니다. 
 
 ## <a name="next-steps"></a>다음 단계
 

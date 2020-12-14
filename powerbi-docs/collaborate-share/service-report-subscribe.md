@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 11/17/2020
+ms.date: 12/01/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 384ce5efc28355ea238d5782dd1553901097e0f2
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 9d9d628ea2d478eb6a09ae8ca53b98837349a224
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411681"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613824"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Power BI 서비스의 보고서 및 대시보드에 자신과 다른 사용자 구독
 
@@ -28,14 +28,14 @@ ms.locfileid: "96411681"
 - 페이지를 매긴 보고서를 구독하는 경우 전체 보고서의 첨부 파일을 포함합니다.
 - Power BI 콘텐츠가 프리미엄 용량에서 호스트된 경우 테넌트 외부 사용자에게 메일을 보냅니다.  관리자는 Power BI 관리 센터의 기존 외부 공유 제어 설정을 활용하여 외부 사용자에게 메일 구독을 보낼 수 있는 사람으로 액세스를 제어할 수 있습니다.
 
-![대시보드의 이메일 스냅샷](media/service-report-subscribe/power-bi-dashboard-email-new.jpg) 
+![대시보드의 이메일 스냅샷](media/service-report-subscribe/power-bi-dashboard-email-new.jpg)
 
 ## <a name="requirements"></a>요구 사항
 
 구독을 **만들려면** 다음을 수행합니다.
 
-- Power BI Pro 라이선스가 있는 사용자 
-- 프리미엄 작업 영역이나 앱에서 콘텐츠를 보는 사용자는 Power BI Pro 라이선스가 없어도 해당 위치에 있는 콘텐츠를 구독할 수 있습니다. 
+- Power BI Pro 라이선스가 있는 사용자
+- 프리미엄 작업 영역이나 앱에서 콘텐츠를 보는 사용자는 Power BI Pro 라이선스가 없어도 해당 위치에 있는 콘텐츠를 구독할 수 있습니다.
 
 직접 구독을 만들려면 콘텐츠(대시보드 또는 보고서)에 대한 편집 권한이 필요하지 않지만 다른 사용자를 위해 구독 권한을 만들려면 편집 권한이 있어야 합니다.
 
@@ -44,12 +44,12 @@ ms.locfileid: "96411681"
 대시보드를 구독하든, 보고서를 구독하든, 또는 게시된 보고서를 구독하든, 프로세스는 유사합니다. 동일한 단추를 사용하면 Power BI 서비스 대시보드 및 보고서를 구독할 수 있습니다.
 
 페이지를 매긴 보고서를 구독하는 것은 약간 다릅니다. 자세한 내용은 [Power BI 서비스의 페이지를 매긴 보고서에 자신과 다른 사용자 구독](../consumer/paginated-reports-subscriptions.md)을 참조하세요.
- 
+
 ![구독 아이콘 선택](media/service-report-subscribe/power-bi-subscribe-orientation.png).
 
 1. 대시보드 또는 보고서를 엽니다.
 2. 상단의 메뉴 모음에서 **구독** 을 선택하거나 봉투 아이콘 :::image type="icon" source="media/service-report-subscribe/power-bi-icon-envelope.png" border="false":::를 선택합니다.
-   
+
     ![구독 아이콘](media/service-report-subscribe/power-bi-subscribe-icon.png)
 
 1. 노란색 슬라이더를 사용하여 구독을 설정하거나 해제합니다. 슬라이더를 **끄기** 로 설정해도 구독이 삭제되지는 않습니다. 구독을 삭제하려면 휴지통 아이콘을 선택합니다.
@@ -65,8 +65,8 @@ ms.locfileid: "96411681"
 6. 기본적으로 구독 시작 날짜는 구독을 만든 날짜입니다. 종료 날짜를 선택할 수 있는 옵션이 있습니다. 종료 날짜를 설정하지 않으면 종료 날짜는 자동으로 시작 날짜로부터 1년 후가 됩니다. 구독이 종료되기 전에 언제든지 미래의 날짜(9999년까지)로 변경할 수 있습니다. 구독이 종료 날짜에 도달하면 다시 활성화될 때까지 중지됩니다. 예정된 종료일 전에 확장 여부를 묻는 알림을 받게 됩니다.
 
     아래 스크린샷에서 보고서를 구독할 때 실제 보고서 _페이지_ 를 구독하는 것을 의미합니다. 보고서의 여러 페이지를 구독하려면 **다른 구독 추가** 를 선택한 후 다른 페이지를 선택합니다.
-     
-    ![구독 창](media/service-report-subscribe/power-bi-subscribe-pane.png)  
+
+    ![구독 창](media/service-report-subscribe/power-bi-subscribe-pane.png)
 
 1. (선택 사항) 필드 콘텐츠 링크를 Power BI에 포함할지 여부와 사용자가 구독 중인 콘텐츠에 대한 액세스 권한을 부여할지 여부를 선택합니다.  링크를 포함하도록 선택한 경우 최적 환경을 위해 모든 사용자가 보고서에 액세스할 수 있는지 확인합니다.
 2. **저장 후 닫기** 를 선택합니다. 구독한 사용자는 선택한 빈도와 시간에 대한 대시보드 또는 보고서 페이지의 이메일과 스냅샷을 수신합니다. 전체적으로 보고서 또는 대시보드당 최대 24개의 구독을 만들 수 있으며, 각 구독마다 고유한 수신자, 시간 및 빈도를 제공할 수 있습니다. 대시보드 또는 보고서에 대해 **데이터 새로 고침 후** 로 설정된 모든 구독은 첫 번째 예약된 새로 고침 후에만 메일을 보냅니다.
@@ -102,7 +102,7 @@ Power BI 관리자는 Power BI 감사 로그를 사용하여 구독 정보를 �
 - 구독된 콘텐츠
 - 받는 사람
 - 빈도
-- 수정한 사람/
+- 수정한 사람
 - 수정한 날짜
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
@@ -118,7 +118,7 @@ Power BI 관리자는 Power BI 감사 로그를 사용하여 구독 정보를 �
     - Power BI Pro 라이선스는 있지만 Microsoft Exchange 라이선스가 없을 수 있습니다. 그렇지 않으면 Azure Active Directory 계정에 메일 또는 대체 메일 주소가 지정되지 않은 것일 수 있습니다. 이 경우 구독이 이동하는 것처럼 보이지만 복사본을 수신할 수 없습니다.  Power BI 관리자가 메일 주소를 할당하는 경우 Power BI는 다음에 로그인할 때 업데이트를 동기화하고 구독에 메일 주소를 사용합니다.
 
 - 대시보드 또는 보고서가 프리미엄 용량인 경우 동료를 한 번에 하나의 메일 주소로 구독하는 대신 구독에 그룹 메일 별칭을 사용할 수 있습니다. 별칭은 현재 활성 디렉터리를 기반으로 합니다.
-- 콘텐츠가 프리미엄 용량에 없는 경우 Power BI Pro 사용자만 메일 구독을 받을 수 있습니다. 
+- 콘텐츠가 프리미엄 용량에 없는 경우 Power BI Pro 사용자만 메일 구독을 받을 수 있습니다.
 - 구독에서는 현재 책갈피를 지원하지 않습니다.
 - 보고서/대시보드에 대한 액세스를 제공하는 옵션은 기존 구독을 편집할 때 항상 사용 설정된 것으로 표시됩니다.  이 옵션의 선택을 취소하고 구독을 저장하면 해당 상태가 저장됩니다. 그러나 보고서 편집을 위해 이동하면 기본적으로 선택됩니다.
 - 기본 메일 주소 없이 대체 메일 주소가 있는 경우 Power BI는 해당 주소를 사용하여 구독을 배달합니다.
@@ -141,9 +141,18 @@ Power BI 관리자는 Power BI 감사 로그를 사용하여 구독 정보를 �
 - 이메일 구독은 현재 R 지원 사용자 지정 시각적 개체를 지원하지 않습니다.
 - 전자 메일 구독은 보고서의 기본 필터 및 슬라이서 상태와 함께 보내집니다. 구독한 후에 수행된 기본값에 대한 변경 내용은 이메일에 표시되지 않습니다. 페이지를 매긴 보고서는 이 기능을 지원하므로, 구독별로 특정 매개 변수 값을 설정할 수 있습니다.
 - Analysis Services에 대한 라이브 연결을 사용하는 보고서가 있고 데이터를 새로 고친 후 실행되는 구독이 있다고 가정합니다. 이 구독은 Power BI 서비스가 Analysis Services 인스턴스를 폴링할 때 온-프레미스 모델의 변경 내용이 검색되면 처음으로 실행됩니다.  Power BI는 Analysis Services 데이터 모델의 변경 내용을 매시간 확인하여 구독을 보낼 시기를 결정합니다.
+- 다음 세 가지 조건을 충족하는 보고서에 대해 전체 보고서 첨부 파일 기능을 사용할 수 있습니다.
+
+    - [Power BI Premium 또는 사용자 단위 Premium](../admin/service-premium-what-is.md)으로 업그레이드된 작업 영역에 있습니다. 
+    - 첨부 파일 크기가 25MB 미만입니다.
+    - 보고서가 20페이지 미만입니다. 
+    
+    보고서가 이러한 세 가지 조건을 충족하지 않는 경우에는 전체 보고서를 첨부 파일로 하여 구독을 만들 수 없습니다. 전체 보고서를 첨부 파일로 하는 기존 구독이 사용되지 않으며, 오류를 설명하는 메일을 수신하게 됩니다.
+    
+    :::image type="content" source="media/service-report-subscribe/full-report-attachment-error-email.png" alt-text="전체 보고서 첨부 파일 오류 메일":::
 
 ## <a name="next-steps"></a>다음 단계
 
-- [Power BI 서비스의  페이지를 매긴 보고서에 자신과 다른 사용자 구독](../consumer/paginated-reports-subscriptions.md)
-- 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)    
-- [블로그 게시물 읽기](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)
+- [Power BI 서비스의 페이지를 매긴 보고서: 직접 및 다른 사용자 구독](../consumer/paginated-reports-subscriptions.md)
+- 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)
+- [대시보드에 대한 메일 구독 관련 Power BI 블로그 게시물](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/) 읽기

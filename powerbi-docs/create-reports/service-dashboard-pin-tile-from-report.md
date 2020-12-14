@@ -8,14 +8,14 @@ featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 07/23/2019
+ms.date: 12/03/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5aa34834df49d54be885d94a1a1c06e13891ead1
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: ad3a38fa8aef4f5404196213ebd3c7b26d3fc3b8
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417339"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578409"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>보고서에서 Power BI 대시보드에 타일 고정
 
@@ -58,10 +58,12 @@ Amanda가 Power BI 보고서에서 시각적 개체 및 이미지를 고정하�
 
 자세한 내용은 [전체 보고서 페이지 고정](service-dashboard-pin-live-tile-from-report.md)을 참조하세요.
 
-> [!NOTE]
-> 일부 서식 옵션은 대시보드에 고정된 경우 시각적 개체에 적용되지 않습니다. 고정된 타일에서 테두리, 그림자 및 배경 설정이 무시됩니다. 카드 시각적 개체의 경우 값에 사용되는 텍스트는 항상 'DIN' 글꼴 패밀리를 사용하여 대시보드에 표시됩니다. 
-> 
->
+## <a name="limitations"></a>제한 사항
+일부 보고서 서식 지정 옵션 또는 테마는 대시보드에 고정되는 경우 시각적 개체에 적용되지 않습니다.
+- 고정된 타일에서 테두리, 그림자 및 배경 설정이 무시됩니다.
+- 카드 시각적 개체의 경우 값에 사용되는 텍스트는 ‘DIN’ 글꼴 제품군 및 검정 텍스트를 사용하여 대시보드에 표시됩니다. [사용자 지정 대시보드 테마를 만들어](service-dashboard-themes.md) 대시보드에 있는 모든 타일의 텍스트 색을 변경할 수 있습니다.
+- 조건부 서식은 적용되지 않습니다.
+- 시각적 개체는 타일 크기에 맞게 크기를 조정합니다. 이렇게 하면 보고서에서 시각적 개체의 크기를 조정한 것처럼 레이아웃에서 차이가 발생할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 - [Power BI 서비스 소비자에 대한 대시보드](../consumer/end-user-dashboards.md)

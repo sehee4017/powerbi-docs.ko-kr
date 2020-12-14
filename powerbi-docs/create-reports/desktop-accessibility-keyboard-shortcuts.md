@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 10/28/2019
+ms.date: 12/04/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9cfd5f80ac18c05b520fc417c6336dda360b8737
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5b2439af22e32f1e0a8cbd3ce326252d6b28fab1
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417592"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613926"
 ---
 # <a name="keyboard-shortcuts-in-power-bi-desktop"></a>Power BI Desktop의 바로 가기 키
 
@@ -92,7 +92,7 @@ Power BI Desktop을 사용하는 경우 **Shift+?** 를 누르면 다음 이미�
 | :------------------- | :------------------- |
 | 위로/아래로 줄 이동 | **Alt+위쪽 화살표 키** / **아래쪽 화살표 키** |
 | 위로/아래로 줄 복사 | **Shift+Alt+위쪽 화살표 키** / **아래쪽 화살표 키** |
-| 아래에 행 삽입 | **Ctrl+Enter** |
+| 아래에 행 삽입 | **Shift+Enter** |
 | 위에 행 삽입 | **Ctrl+Shift+Enter** |
 | 일치하는 대괄호로 이동 | **Ctrl+Shift+**  \ |
 | 줄 들여쓰기/여백으로 줄 내어쓰기 | **Ctrl+]**  /  **[** |
@@ -100,9 +100,13 @@ Power BI Desktop을 사용하는 경우 **Shift+?** 를 누르면 다음 이미�
 | 현재 줄 선택 | **Ctrl+I** |
 | 현재 선택 사항에 일치하는 모든 항목 선택 | **Ctrl+Shift+L** |
 | 현재 단어와 일치하는 항목 모두 선택 | **Ctrl+F2** |
+| 줄 주석 처리 | **Ctrl + /** 또는 **Ctrl + K + C** |
+| 줄 주석 처리 제거 | **Ctrl + /** 또는 **Ctrl + K + U** |
+| 글꼴 크기 크게 | **Ctrl + +** 또는 **위로 스크롤** |
+| 글꼴 크기 작게 | **Ctrl + -** 또는 **아래로 스크롤** |
 
 ## <a name="enter-data"></a>데이터 입력
-| 수행할 작업           | 누르기                |
+| 수행할 작업           | 작업 방법                |
 | :------------------- | :------------------- |
 | 편집 가능한 그리드 종료 | **Ctrl+Tab** |
 

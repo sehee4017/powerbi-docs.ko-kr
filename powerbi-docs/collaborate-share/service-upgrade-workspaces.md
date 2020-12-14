@@ -9,12 +9,12 @@ ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 09/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: d8e53e997aeef24d531cb733adc0b276a8395e57
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f5a76783d91da610a447667a9ea648bbcebbdc8b
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411612"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96577627"
 ---
 # <a name="upgrade-classic-workspaces-to-the-new-workspaces-in-power-bi"></a>Power BI에서 클래식 작업 영역을 새 작업 영역으로 업그레이드
 
@@ -22,6 +22,10 @@ ms.locfileid: "96411612"
 
 >[!NOTE]
 >작업 영역 업그레이드는 공개 미리 보기로 제공됩니다. 
+
+>[!NOTE]
+>Power BI 관리자는 작업 영역 업그레이드를 시작할 수 있습니다. 작업 영역 관리자는 Power BI 관리자가 해당 작업 영역을 업그레이드했을 때 메일을 수신하게 됩니다. [자세히 알아보기](../admin/service-admin-portal.md#workspaces) 
+
 
 ![업그레이드 성공](media/service-upgrade-workspaces/power-bi-upgrade-success.png)
 
@@ -68,6 +72,7 @@ ms.locfileid: "96411612"
 - 클래식 작업 영역에 대한 Microsoft 365 그룹은 Power BI 작업 영역 업그레이드의 영향을 받지 않습니다. Microsoft 365에서 관리되는 모든 팀, SharePoint 사이트, 사서함 또는 기타 리소스는 변경되지 않습니다. Power BI 작업 영역을 업그레이드한 후 그대로 유지됩니다. Microsoft 365 그룹은 이전과 같이 존재합니다.
 - 업그레이드 후 작업 영역이 보호되는 방식이 변경됩니다. 자세한 내용은 [업그레이드 후 작업 영역 권한](#permissions-after-upgrade) 섹션을 참조하세요.
 - 필요할 경우 **클래식 작업 영역으로 다시 전환** 할 수 있는 옵션이 제공됩니다. 그러나 작업 영역을 업그레이드하기 전의 일부 측면은 완전히 복원되지 않습니다. 새 작업 영역 환경에서만 작동하는 기능을 사용하여 시작하는 경우에는 돌아갈 수 없습니다. 다시 전환 옵션은 업그레이드 후 30일 동안 사용할 수 있습니다.
+- Power BI 관리자는 작업 영역 업그레이드를 시작할 수 있습니다. 작업 영역 관리자는 Power BI 관리자가 해당 작업 영역을 업그레이드했을 때 메일을 수신하게 됩니다.
 
 ## <a name="permissions-after-upgrade"></a>업그레이드 후 사용 권한
 
@@ -193,12 +198,14 @@ Microsoft 365 그룹은 작업 영역에서 역할을 부여하므로 업그레�
 
 ## <a name="manage-migration-to-the-new-workspaces-for-your-tenant"></a>테넌트의 새 작업 영역으로 마이그레이션 관리 
 
-일부 조직에서는 여러 또는 모든 작업 영역을 새 작업 영역 환경으로 이동하고자 합니다. 작업 영역 업그레이드 도구는 작업 영역 관리자가 업그레이드하도록 하는 데 중점을 둔 것입니다. 이러한 프로세스를 관리하려는 조직의 경우에는 다음 단계를 수행할 수 있습니다.
+새 작업 영역 환경으로 적극적으로 마이그레이션하려는 조직은 Power BI 관리 포털을 통해 수행할 수 있습니다. Power BI 관리자는 업그레이드할 작업 영역을 하나 이상 선택할 수 있습니다. 관리자가 시작한 Power BI 작업 영역 업그레이드는 작업 영역 관리자가 시작한 작업 영역 업그레이드에 대해 동일한 고려 사항 및 제한 사항을 공유합니다. [자세히](../admin/service-admin-portal.md#workspaces) 
+
+이러한 프로세스를 관리하려는 조직은 다음 단계를 수행하여 영향을 받는 작업 영역 관리자와의 명확한 커뮤니케이션을 보장하는 것이 좋습니다.
 
 1. Power BI 관리 포털의 작업 영역 목록과 해당 API는 Power BI의 모든 작업 영역의 목록을 제공합니다. 클래식 작업 영역은 목록에 그룹 유형으로 표시됩니다.
-2. Microsoft 365의 개별 그룹 소유자 또는 관리자에게 요청하여 작업 영역을 업그레이드합니다. 작업 영역을 업그레이드하려면 그룹의 소유자가 되어야 합니다.
+2. Microsoft 365의 개별 그룹 소유자 또는 관리자에게 클래식 작업 영역을 업그레이드하려는 계획을 알립니다.
 
-작업 영역 업그레이드 기능은 대량 또는 프로그래밍 방식 업그레이드를 위한 도구를 제공하지 않습니다. 또한 조직에서 만든 새 Microsoft 365 그룹은 Power BI에 계속 표시됩니다.
+작업 영역 업그레이드 기능은 프로그래밍 방식의 업그레이드를 위한 도구를 제공하지 않습니다. 또한 조직에서 만든 새 Microsoft 365 그룹은 Power BI에 계속 표시됩니다.
    
    
 ## <a name="known-issues"></a>알려진 문제
@@ -213,4 +220,5 @@ Microsoft 365 그룹은 작업 영역에서 역할을 부여하므로 업그레�
 * [새 작업 영역 환경에서 작업 구성](service-new-workspaces.md)
 * [새 작업 영역 만들기](service-create-the-new-workspaces.md)
 * [클래식 작업 영역 만들기](service-create-workspaces.md)
+* [Power BI 관리자가 시작한 작업 영역 업그레이드 시작](../admin/service-admin-portal.md#workspaces)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티에 질문합니다.](https://community.powerbi.com/)

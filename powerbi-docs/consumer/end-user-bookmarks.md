@@ -7,20 +7,19 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 08/26/2020
+ms.date: 12/03/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: ec56f15386aeddafa74d952ce772aa3dcce4f901
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 7aa199547f6cad0b7d4dbfc6b75e9d9e25b2b153
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96391487"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578340"
 ---
 # <a name="what-are-bookmarks"></a>책갈피란?
 
 [!INCLUDE[consumer-appliesto-ynnm](../includes/consumer-appliesto-ynnm.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 책갈피는 보고서 페이지에 대해 현재 구성된 보기를 캡처합니다. 여기에는 필터, 슬라이서, 시각적 개체의 상태가 포함됩니다. 책갈피를 선택하면 해당 보기로 이동하게 됩니다. 책갈피에는 두 가지 유형이 있습니다. 하나는 사용자가 직접 만든 것이고, 다른 하나는 보고서 *디자이너* 가 만든 것입니다. 모든 Power BI 사용자는 개인 책갈피를 만들 수 있습니다. 그러나 다른 사용자가 만든 책갈피를 사용할 수 있으려면 Power BI Pro 또는 Premium 라이선스가 필요합니다. [사용 중인 라이선스 확인](end-user-license.md)
 
@@ -30,6 +29,16 @@ ms.locfileid: "96391487"
 책갈피의 컬렉션을 만들고, 원하는 순서로 정렬하고, 이후에 프레젠테이션에서 책갈피를 하나씩 보여주며 유기적인 스토리를 갖는 인사이트를 전달할 수도 있습니다.  
 
 ![리본에서 책갈피 창을 선택하여 표시합니다.](media/end-user-bookmarks/power-bi-bookmark-icon.png)
+
+책갈피로 지정된 보고서를 해당 보고서에 대한 읽기 액세스 권한이 있는 동료와 공유합니다. 보고서의 책갈피 지정된 보기는 디자이너의 원래 보고서를 재정의하지 않습니다.  아직 읽기 액세스 권한이 없는 동료와 공유하려면 다시 공유 권한이 있어야 합니다. 보고서의 보기를 공유할 수 없는 경우 보고서 소유자에게 문의하여 다시 공유 권한을 요청하세요.  
+
+
+### <a name="share-changes"></a>변경 내용 공유 
+읽기 및 다시 공유 권한이 있는 경우 보고서를 공유하면 변경 내용을 포함하도록 선택할 수 있습니다.
+
+:::image type="content" source="media/end-user-bookmarks/power-bi-personalize-share-changes.png" alt-text="변경 내용 공유":::
+ 
+
 
 ## <a name="open-bookmarks"></a>책갈피 열기
 책갈피 창을 열려면 메뉴 모음에서 **책갈피** > **더 많은 책갈피 표시** 를 선택합니다. 
@@ -164,17 +173,22 @@ Note that selecting **Ungroup** for any bookmark from a group takes all bookmark
 -->
 
 
+### <a name="reset-all-your-changes-to-a-report"></a>보고서에 대한 모든 변경 내용 재설정
+
+보고서 캔버스의 오른쪽 위 모서리에서 **기본값으로 다시 설정** 을 선택합니다. 그러면 보고서의 모든 변경 내용이 제거되고 작성자가 해당 보고서를 마지막으로 저장한 보기로 다시 설정됩니다.
+
+:::image type="content" source="media/end-user-bookmarks/power-bi-personalize-reset-all.png" alt-text="모든 변경 내용 재설정":::
 
 
 
 ## <a name="limitations-and-considerations"></a>제한 사항 및 고려 사항
 **책갈피** 의 이 릴리스에서는 몇 가지 제한 사항 및 고려 사항을 기억해야 합니다.
 
-* 대부분의 Power BI 시각적 개체는 책갈피에서 잘 작동합니다. 책갈피 및 Power BI 시각적 개체 관련 문제가 발생하면 해당 Power BI 시각적 개체의 작성자에게 문의하여 시각적 개체에 책갈피 지원을 추가하도록 요청합니다.
+* 대부분의 Power BI 사용자 지정 시각적 개체는 책갈피에서 잘 작동합니다. 책갈피 및 Power BI 사용자 지정 시각적 개체 관련 문제가 발생하면 해당 시각적 개체의 작성자에게 문의하여 책갈피 지원을 추가하도록 요청합니다.    
 * 책갈피를 만든 후 보고서 페이지에서 시각적 개체를 추가하는 경우 시각적 개체는 기본 상태로 표시됩니다. 즉, 이전에 책갈피를 만든 페이지에 슬라이서를 도입하는 경우 슬라이서가 해당 기본 상태로 작동합니다.
 * 일반적으로, 보고서 *디자이너* 가 보고서를 업데이트하거나 다시 게시하더라도 책갈피는 영향을 받지 않습니다. 단, 디자이너가 책갈피에서 사용되는 필드를 제거하는 등 보고서에 중요한 변경 사항을 적용한 경우, 다음번에 이 책갈피를 열려고 시도하면 오류 메시지가 표시됩니다. 
+* 이 기능은 iOS/Android 태블릿용 Power BI 모바일 앱 및 Power BI Windows 앱에서 지원됩니다. 휴대폰용 Power BI 모바일 앱에서는 지원되지 않습니다. 그러나 Power BI 서비스 중에 개인 책갈피에 저장한 시각적 개체 변경 내용은 전부 모든 Power BI 모바일 앱에서 적용됩니다.
 
-<!--
-## Next steps
-spotlight?
--->
+
+## <a name="next-steps"></a>다음 단계
+[보고서에서 시각적 개체 개인 설정](end-user-personalize-visuals.md)

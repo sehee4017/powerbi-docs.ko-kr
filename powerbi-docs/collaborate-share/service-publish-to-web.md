@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 11/02/2020
+ms.date: 12/03/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 004546a941426f602bfb5cacaf938bd55cec452d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 76f45ac7aee01cb907e727bc8cb12a69bd234d72
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96406782"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613880"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI에서 웹에 게시
 
@@ -198,6 +198,7 @@ Power BI에 등록한 소규모 조직이나 개인의 경우 아직 Power BI �
 - Single Sign-On 데이터 쿼리 모델.
 - 보안 기밀 또는 소유 정보.
 - **포함** 옵션에 제공되는 자동 인증 기능은 Power BI JavaScript API에서 작동하지 않습니다. Power BI JavaScript API의 경우 포함에 대해 [사용자 소유 데이터](../developer/embedded/embed-sample-for-your-organization.md) 접근 방식을 사용합니다.
+- 관리자는 [Power BI 액세스를 위한 프라이빗 링크](../admin/service-security-private-links.md)에 설명된 대로 공용 인터넷 액세스를 차단할 수 있습니다. 이 경우 Power BI 관리 포털에서 테넌트에 대해 **웹에 게시** 옵션이 회색으로 표시됩니다. 
 
 ## <a name="next-steps"></a>다음 단계
 

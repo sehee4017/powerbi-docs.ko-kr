@@ -2,26 +2,26 @@
 title: Power BI 서비스에서 최근에 방문한 콘텐츠 표시
 description: Power BI의 최근 항목에 대한 문서
 author: mihart
-ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
-ms.subservice: pbi-explore
+ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 09/24/2020
+ms.date: 11/24/2020
+ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: e11b1823c45e681d6a555bd5a4a9a751704419b2
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: ca3ae0974c0ece1f20a104dbeef1be0d89d1b523
+ms.sourcegitcommit: 8993400b32a44f4e7ce9a2db998ddebda18c7698
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96399238"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96536395"
 ---
 # <a name="recent-content-in-the-power-bi-service"></a>Power BI 서비스의 **최근** 콘텐츠
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
-**최근** 콘텐츠에는 Power BI 서비스에서 마지막으로 방문한 항목이 포함되어 있습니다. 여기에는 대시보드, 보고서, 앱 및 통합 문서가 포함됩니다. 탐색 모음에서 **최근** 을 선택하면 Power BI가 이 콘텐츠를 날짜별 내림차순으로 표시합니다.  정렬 순서를 변경하려면 머리글 중 하나를 선택하고 오름차순 또는 내림차순을 선택합니다.
+**최근** 콘텐츠에는 Power BI 서비스에서 마지막으로 방문한 항목이 포함되어 있습니다. 여기에는 대시보드, 보고서, 앱, 작업 영역, 통합 문서가 포함됩니다. 탐색 모음에서 **최근** 을 선택하면 Power BI가 이 콘텐츠를 날짜별 내림차순으로 표시합니다.  정렬 순서를 변경하려면 머리글 중 하나를 선택하고 오름차순 또는 내림차순을 선택합니다.
 
 
 ![최근 콘텐츠 창](./media/end-user-recent/power-bi-recents.png)
