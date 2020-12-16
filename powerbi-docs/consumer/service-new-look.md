@@ -7,14 +7,14 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: conceptual
-ms.date: 10/22/2020
+ms.date: 12/09/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: ec7b24a4d8f2a94680444b4b9adf4612f1f1f474
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5e357b275cd6648721b021f68a9b8496e266e003
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96415154"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96999097"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Power BI 서비스의 ‘새 디자인’
 
@@ -65,7 +65,7 @@ Power BI 서비스(app.powerbi.com)의 디자인이 보고서를 더욱 편리�
 
 대시보드도 간소화된 작업 모음을 포함합니다. 일관된 환경을 위해 보고서 및 앱과 유사하지만 기능적인 차이는 있습니다. 다음은 대시보드의 작업 연습입니다.
  
-![새 디자인의 대시보드 작업 모음 스크린샷](media/service-new-look/power-bi-dashboard-action-bar-new-look.png)
+![새 디자인의 대시보드 작업 모음 스크린샷](media/service-new-look/power-bi-dashboard-action-bar-new.png)
 
 ## <a name="next-steps"></a>다음 단계
 

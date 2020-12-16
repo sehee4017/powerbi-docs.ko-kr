@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: conceptual
-ms.date: 11/17/2020
-ms.openlocfilehash: 18b7e55d409dc6562fab7cf1f36b83e7edac994b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/14/2020
+ms.openlocfilehash: 67a0577c906e23fc51182120f1445814bdcd8028
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96392867"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491831"
 ---
 # <a name="power-bi-data-sources"></a>Power BI 데이터 원본
 
@@ -34,6 +34,7 @@ ms.locfileid: "96392867"
 | Azure Data Explorer(kusto) | 예 | 예 | 예 | 예 | 아니요 | 예 |
 | Azure Data Lake Storage Gen1 | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
 | Azure Data Lake Storage Gen2 | 예 | 예 | 아니요 | 예 | 아니요 | 예 |
+| Azure Databricks | 예 | 예 | 예 | 예 | 아니요 | 아니요 |
 | Azure DevOps | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
 | Azure DevOps Server | 예 | 예 | 아니요 | 예 | 예 | 아니요 |
 | Azure HDInsight(HDFS) | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
@@ -43,7 +44,7 @@ ms.locfileid: "96392867"
 | Azure Table Storage | 예 | 예 | 아니요 | 예 | 아니요 | 예 |
 | BI Connector | 예 | 예 | 예 | 예 | 예 | 아니요 |
 | BI360 - Budgeting &amp; Financial Reporting | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
-| Common Data Service | 예 | 예 | 아니요 | 아니요 | 아니요 | 예 |
+| Microsoft Dataverse | 예 | 예 | 아니요 | 아니요 | 아니요 | 예 |
 | Data.World - 데이터 세트 가져오기 | 예 | 예 | 아니요 | 아니요 | 아니요 | 아니요 |
 | Denodo | 예 | 예 | 예 | 예 | 예 | 아니요 |
 | Dremio | 예 | 예 | 예 | 예 | 예 | 아니요 |
@@ -67,7 +68,7 @@ ms.locfileid: "96392867"
 | Hive LLAP | 예 | 예 | 예 | 예 | 아니요 | 아니요 |
 | HDInsight 대화형 쿼리 | 예 | 예 | 예 | 아니요 | 아니요 | 아니요 |
 | IBM DB2 | 예 | 예 | 예 | 예 | 아니요 | 예 |
-| IBM Informix 데이터베이스 | 예 | 예 | 아니요 | 예 | 아니요 | 예 |
+| IBM Informix 데이터베이스 | 예 | 예 | 아니요 | 예 | 아니요 | 아니요 |
 | IBM Netezza | 예 | 예 | 예 | 예 | 예 | 예 |
 | Impala | 예 | 예 | 예 | 예 | 예 | 예 |
 | Indexima | 예 | 예 | 예 | 예 | 예 | 아니요 |
@@ -89,7 +90,7 @@ ms.locfileid: "96392867"
 | MySQL | 예 | 예 | 아니요 | 예 | 예 | 예 |
 | OData | 예 | 예 <sup>7</sup> | 아니요 | 예 | 아니요 | 예 |
 | ODBC | 예 | 예 | 아니요 | 예 | 예 | 예 |
-| OleDb | 예 | 예 | 아니요 | 예 | 예 | 예 |
+| OleDb | 예 | 예 | 아니요 | 예 | 예 | 아니요 |
 | Oracle | 예 | 예 | 예 | 예 | 예 | 예 |
 | Paxata <sup>8</sup> | 예 | 예 | 아니요 | 예 | 아니요 | 아니요 |
 | PDF | 예 | 예 | 아니요 | 예 | 아니요 <sup>4</sup> | 예 |

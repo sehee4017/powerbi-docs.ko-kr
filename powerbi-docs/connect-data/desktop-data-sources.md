@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 11/11/2020
+ms.date: 12/10/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e9c64a3da7d5026045a64f58c814004df6d327b6
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 038d0fc4b136f89db290010289d24ee41454c9ea
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411336"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353338"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop의 데이터 원본
 
@@ -117,7 +117,7 @@ Power BI Desktop을 사용하면 다양한 원본의 데이터에 연결할 수 
 
 * Power BI 데이터 세트
 * Power BI 데이터 흐름
-* Common Data Service
+* Microsoft Dataverse
 * Power Platform 데이터 흐름(베타)
 
 다음 그림은 **Power Platform** 에 대한 **데이터 가져오기** 창을 보여 줍니다.

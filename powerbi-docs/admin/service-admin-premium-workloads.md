@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: d4f9ba18a036c7416689a05476bd1cba6fec72e4
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 04340be9c7e3700630657306093e3d96e3e9e693
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408346"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491417"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>프리미엄 용량에서 워크로드 구성
 
@@ -25,7 +25,8 @@ ms.locfileid: "96408346"
 
 ## <a name="default-memory-settings"></a>기본 메모리 설정
 
-쿼리 워크로드는 프리미엄 용량 SKU에 의해 결정되는 리소스에 최적화되며 제한됩니다. 또한 프리미엄 용량은 용량 리소스를 사용할 수 있는 추가 워크로드를 지원합니다. 이러한 워크로드에 대한 기본 메모리 값은 SKU에 사용 가능한 용량 노드를 기반으로 합니다. 최대 메모리 설정은 누적되지 않습니다. 지정된 최댓값까지의 메모리는 AI 및 데이터 흐름에 대해 동적으로 할당되지만, 페이지를 매긴 보고서에 대해서는 정적으로 할당됩니다.
+쿼리 워크로드는 프리미엄 용량 SKU에 의해 결정되는 리소스에 최적화되며 제한됩니다. 또한 프리미엄 용량은 용량 리소스를 사용할 수 있는 추가 워크로드를 지원합니다. 이러한 워크로드에 대한 기본 메모리 값은 SKU에 사용 가능한 용량 노드를 기반으로 합니다. 최대 메모리 설정은 누적되지 않습니다. 
+
 
 |                       | EM1 / A1                  | EM2 / A2                  | EM3 / A3                  | P1 / A4                  | P2 / A5                  | P3 / A6                   |
 |-----------------------|---------------------------|---------------------------|---------------------------|--------------------------|--------------------------|---------------------------|
