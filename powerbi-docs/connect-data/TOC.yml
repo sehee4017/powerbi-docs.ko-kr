@@ -9,6 +9,8 @@
           href: service-get-data.md
         - name: 온-프레미스 데이터 게이트웨이란?
           href: service-gateway-onprem.md
+        - name: Power BI 서비스에서 데이터 세트 검색
+          href: service-datasets-hub.md
     - name: 빠른 시작
       expanded: true
       items:

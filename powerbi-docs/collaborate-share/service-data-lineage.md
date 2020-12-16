@@ -9,12 +9,12 @@ ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 06/15/2020
 LocalizationGroup: ''
-ms.openlocfilehash: d2cd60a62d321910e280ebd8b38411b393d96bca
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 8b119f5134fdaf4e251f9a8da560a2a3f7f3a4eb
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407403"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492107"
 ---
 # <a name="data-lineage"></a>데이터 계보
 최신 BI(비즈니스 인텔리전스) 프로젝트에서 데이터 원본에서 대상까지 이동하는 데이터 흐름을 이해하는 것이 중요합니다. 여러 데이터 원본, 아티팩트 및 종속성에 걸쳐 있는 고급 분석 프로젝트를 구성한 경우 중요성은 더 커집니다. "이 데이터를 변경하면 어떻게 되나요?" 또는 “이 보고서가 최신 상태가 아닌 이유는 무엇인가요?”와 같은 질문은 대답하기 어려울 수 있습니다. 이러한 질문들은 전문가 팀이나 이해를 위한 세부적인 조사가 필요할 수 있습니다. 질문에 대답하는 데 도움이 되는 데이터 계보 보기를 설계했습니다.
@@ -26,10 +26,6 @@ Power BI에는 대시보드, 보고서, 데이터 세트, 데이터 흐름 등 �
 계보 보기에는 작업 영역에 있는 모든 아티팩트와 모든 외부 종속 항목 간의 계보 관계가 표시됩니다. 데이터 흐름(업스트림 및 다운스트림 모두)에 대한 연결을 비롯하여 모든 작업 영역 아티팩트 간 연결을 보여 줍니다.    
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rUj06dqB98g" frameborder="0" allowfullscreen></iframe>
-
-
-
-> [!VIDEO https://youtu.be/rUj06dqB98g]
 
 ## <a name="explore-lineage-view"></a>계보 보기 살펴보기
 

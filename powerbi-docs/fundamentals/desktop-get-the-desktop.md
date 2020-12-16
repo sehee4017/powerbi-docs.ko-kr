@@ -9,12 +9,12 @@ ms.subservice: pbi-fundamentals
 ms.topic: how-to
 ms.date: 10/12/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 9c46188318ca5659f109ba8483c552d9ab43f932
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 3d233736c55ea736da1ecc561c2936a0a9f42a09
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418673"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492176"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop 다운로드
 Power BI Desktop을 통해 데이터를 시각화하는 고급 쿼리, 모델 및 보고서를 빌드할 수 있습니다. Power BI Desktop에서 Power BI 서비스에 게시하여 데이터 모델을 빌드하고, 보고서를 만들고, 작업을 공유할 수 있습니다. Power BI Desktop은 무료로 다운로드할 수 있습니다.
@@ -102,7 +102,7 @@ Power BI Desktop을 처음 사용하는 경우(즉, 설치가 업그레이드되
 > Power BI Desktop은 2021년 1월 31일 이후 Windows 7에서 더 이상 지원되지 않습니다. 이 날짜 이후 Power BI Desktop은 Windows 8 이상의 버전에서 Power BI Desktop의 최신 버전에 대해서만 지원됩니다. 
 
 * Windows 7/Windows Server 2008 R2 이상
-* .NET 4.5
+* .NET 4.6.2
 * Internet Explorer 10 이상
 * 메모리(RAM): 최소 1GB, 1.5GB 이상 권장.
 * 디스플레이: 1440x900 또는 1600x900(16:9) 이상이 필요합니다. 1024x768 또는 1280x800처럼 낮은 해상도는 지원되지 않습니다. 시작 화면 닫기와 같은 특정 컨트롤이 해상도 밖에 표시되기 때문입니다.
