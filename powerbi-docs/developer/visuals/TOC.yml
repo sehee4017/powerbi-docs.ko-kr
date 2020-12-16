@@ -82,6 +82,8 @@
           href: drill-down-support.md
         - name: 시각적 개체에 색 추가
           href: add-colors-power-bi-visual.md
+        - name: 조건부 서식 추가
+          href: conditional-format.md
         - name: 시각적 개체의 데이터 강조 표시
           href: highlight.md
         - name: 고대비 모드 지원 추가
