@@ -120,6 +120,7 @@
             - name: 모범 사례
               href: deployment-pipelines-best-practices.md
     - name: 방법 가이드
+      expanded: true
       items:
         - name: Power BI 보고서
           items:
@@ -277,7 +278,7 @@
               href: ../visuals/power-bi-visualization-decomposition-tree.md
             - name: 스마트 설명
               href: ../visuals/power-bi-visualization-smart-narrative.md
-            - name: 이상 감지
+            - name: 변칙 탐지
               href: ../visuals/power-bi-visualization-anomaly-detection.md
             - name: 도넛형 차트
               href: ../visuals/power-bi-visualization-doughnut-charts.md
