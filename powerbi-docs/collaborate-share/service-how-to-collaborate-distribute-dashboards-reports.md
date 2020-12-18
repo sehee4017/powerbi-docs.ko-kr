@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
-ms.date: 06/18/2020
+ms.date: 12/14/2020
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 424f3cc7412813cb9ea9f401d6edd22257e8d14a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5b26f8fe04c7aaf6847de50398c54db6a3870844
+ms.sourcegitcommit: b5365df7fc32b7c49f8a2bf2cf75b5edd6bda9b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411796"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97513784"
 ---
 # <a name="ways-to-collaborate-and-share-in-power-bi"></a>Power BI에서 협업 및 공유하는 방법
 
@@ -27,22 +27,22 @@ ms.locfileid: "96411796"
 
 **협업**
 
-- 작업 영역에서 동료와 협업하여 의미 있는 보고서와 대시보드를 만듭니다.
-- Microsoft Teams에서 협업합니다.
+- [*작업 영역* 에서 동료와 협업](#collaborate-in-a-workspace)하여 의미 있는 보고서와 대시보드를 만듭니다.
+- [*Microsoft Teams* 에서 협업](#collaborate-in-microsoft-teams)합니다.
 
 **대시보드 및 보고서 배포 또는 공유**
 
-- 내 작업 영역 또는 다른 작업 영역에서 대시보드 또는 보고서를 공유합니다.
-- Power BI 모바일 앱에서 주석을 달고 공유합니다.
-- 작업 영역의 대시보드 및 보고서를 앱으로 번들링하고 더 큰 규모의 그룹이나 전체 조직에 배포합니다.
-- 보안 포털 또는 공용 웹 사이트에 보고서를 포함합니다.
-- 보고서를 인쇄합니다.
-- Microsoft AppSource를 통해 외부 Power BI 사용자에게 배포할 수 있는 *템플릿 앱* 을 만듭니다.
+- 내 작업 영역 또는 다른 작업 영역에서 [*대시보드 또는 보고서를 공유*](#share-dashboards-and-reports)합니다.
+- 주석을 달고 [Power BI *모바일 앱* 에서 공유](#annotate-and-share-from-the-power-bi-mobile-apps)합니다.
+- 작업 영역의 대시보드 및 보고서를 *앱* 으로 번들링하고 더 큰 규모의 그룹이나 전체 조직에 [앱을 배포](#distribute-insights-in-an-app)합니다.
+- *보안 포털* 또는 *공용 웹 사이트* 에 [보고서를 포함](#embed-reports-in-secure-portals-or-public-web-sites)합니다.
+- [보고서를 인쇄](#print-or-save-as-pdf-or-other-static-file)합니다.
+- Microsoft AppSource를 통해 외부 Power BI 사용자에게 배포할 수 있는 [*템플릿 앱* 을 만듭니다](#create-and-deploy-template-apps).
  
 **데이터 공유**
 
-- 동료가 자신의 고유한 작업 영역에서 자신의 보고서에 대한 기준으로 사용할 수 있는 공유 데이터 세트를 만듭니다.
-- 공통 데이터 원본을 공유하는 방법으로 데이터 흐름을 만듭니다.
+- 동료가 자신의 고유한 작업 영역에서 자신의 보고서에 대한 기준으로 사용할 수 있는 [*공유 데이터 세트* 를 만듭니다](#share-a-dataset).
+- 공통 데이터 원본을 공유하는 방법으로 [*데이터 흐름* 을 만듭니다](#create-dataflows).
 
 선택하는 옵션에 상관 없이 콘텐츠를 공유하려면 [Power BI Pro 라이선스](../fundamentals/service-features-license-type.md)가 필요하거나 콘텐츠가 [프리미엄 용량](../admin/service-premium-what-is.md)에 있어야 합니다. 선택한 옵션에 따라 콘텐츠를 보는 동료에 대해 라이선스 요구 사항이 달라집니다. 다음 섹션에 자세한 내용이 나와 있습니다. 
 
@@ -67,7 +67,7 @@ ms.locfileid: "96411796"
 
 ## <a name="collaborate-in-microsoft-teams"></a>Microsoft Teams에서 협업
 
-Power BI 보고서 및 Power BI 페이지를 매긴 보고서를 Microsoft Teams에 포함하여 조직에서 데이터 기반 협업을 늘립니다. Power BI 서비스에는 보고서에 대한 **Teams에서 공유** 단추가 있습니다. 개별 보고서에 대한 별도의 Power BI 탭을 추가하고 각 탭에 보고서 이름 또는 다른 이름을 지정할 수 있습니다. 
+Power BI 보고서 및 Power BI 페이지를 매긴 보고서를 Microsoft Teams에 포함하여 조직에서 데이터 기반 협업을 늘립니다. Power BI 서비스에는 보고서에 대한 **Teams에 채팅** 단추가 있습니다. 개별 보고서에 대한 별도의 Power BI 탭을 추가하고 각 탭에 보고서 이름 또는 다른 이름을 지정할 수 있습니다. 
 
 Power BI 보고서 탭을 Microsoft Teams에 추가하면 Teams에서 보고서에 대한 탭 대화를 자동으로 만듭니다. 해당 Microsoft Teams 채널의 모든 사용자가 대화에서 보고서를 보고 토론할 수 있습니다. 
 
@@ -77,7 +77,7 @@ Power BI 보고서 탭을 Microsoft Teams에 추가하면 Teams에서 보고서�
 
 ## <a name="share-dashboards-and-reports"></a>대시보드 및 보고서 공유
 
-Power BI Desktop에서 보고서를 완성하여 다른 사용자가 액세스할 수 있도록 하려는 경우를 가정해 보겠습니다. 이렇게 하는 한 가지 방법은 Power BI 서비스에서 공유하는 것입니다. 내 작업 영역 또는 다른 작업 영역에 보고서를 게시합니다. 보고서와 함께 대시보드를 만들거나 이미 만들었을 수 있습니다.
+Power BI Desktop의 보고서가 준비되었으며 다른 사용자가 이 보고서에 액세스할 수 있도록 하려는 경우를 가정해 보겠습니다. 이렇게 하는 한 가지 방법은 Power BI 서비스에서 공유하는 것입니다. 내 작업 영역 또는 다른 작업 영역에 보고서를 게시합니다. 보고서와 함께 대시보드를 만들거나 이미 만들었을 수 있습니다.
 
 ![보고서 공유](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-report.png)
 

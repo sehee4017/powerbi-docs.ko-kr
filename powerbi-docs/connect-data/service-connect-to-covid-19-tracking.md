@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 04/05/2020
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 19dc9f5c5adfa5853d98cd6b0ef427c8bccebada
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: fc421f7635a3d6e3b2336d5bce081d7914c0fad5
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410623"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998867"
 ---
 # <a name="connect-to-the-covid-19-us-tracking-report"></a>코로나바이러스감염증-19 미국 추적 보고서에 연결
 이 문서에서는 코로나바이러스감염증-19 추적 보고서의 템플릿 앱을 설치하고 데이터 원본에 연결하는 방법을 설명합니다.
@@ -30,7 +30,7 @@ ms.locfileid: "96410623"
 
 1. 앱의 AppSource 페이지에서 [**지금 가져오기**](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms)를 클릭합니다.
 
-    [![Appsource의 코로나바이러스감염증-19 미국 추적 보고서](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-appsource-icon.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms)
+    [![AppSource의 코로나바이러스감염증-19 미국 추적 보고서](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-appsource-icon.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms)
 
 1. 메시지가 표시되면 **설치** 를 클릭합니다. 앱이 설치되면 앱 페이지에 설치된 앱이 표시됩니다.
 
@@ -38,11 +38,11 @@ ms.locfileid: "96410623"
 
 ## <a name="connect-to-data-sources"></a>데이터 원본 연결 
 
-1. 앱 페이지에서 아이콘을 클릭하여 앱을 엽니다.
+1. 앱 페이지에서 아이콘을 클릭하여 앱을 엽니다. 앱이 열리고 샘플 데이터가 표시됩니다.
 
-1. 표시되는 시작 화면에서 **연결** 을 선택합니다.
+1. 페이지 맨 위에 있는 배너에서 **데이터 연결** 링크를 선택합니다.
 
-   ![템플릿 앱 시작 화면](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-splash-screen.png)
+   ![GitHub 앱 데이터 연결 링크](media/service-connect-to-covid-19-tracking/power-bi-covid-19-connect-data.png)
 
 1. 매개 변수 대화 상자가 나타납니다. 필수 매개 변수는 없습니다. **다음** 을 클릭합니다.
 

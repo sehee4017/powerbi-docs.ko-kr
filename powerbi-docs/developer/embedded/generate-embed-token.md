@@ -1,5 +1,5 @@
 ---
-title: embed 토큰을 생성하기 위한 고려 사항
+title: Power BI 임베디드 분석에서 포함 토큰을 생성하기 위한 고려 사항
 description: embed 토큰을 생성하기 위한 고려 사항, 제한 사항 및 필요한 권한에 대해 알아봅니다.
 author: KesemSharabi
 ms.author: kesharab
@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 10/15/2020
-ms.openlocfilehash: cea97f16cf06e80b7b16ef7740fcf3103b2f1eb4
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 45a88d93e7ac5a63b269350451f39991ba153dd5
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95513783"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098033"
 ---
 # <a name="considerations-when-generating-an-embed-token"></a>embed 토큰 생성 시 고려 사항
 

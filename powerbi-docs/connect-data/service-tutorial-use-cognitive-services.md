@@ -10,12 +10,12 @@ ms.custom: connect-to-services
 ms.topic: tutorial
 ms.date: 02/20/2020
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f647bcafe035515a1d5d1438ed580cabea579134
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 22548c092e1407d1744a019c15cb0d29a94913eb
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96401492"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353361"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>자습서:  Power BI에서 Cognitive Services 사용
 
@@ -180,6 +180,6 @@ in
 
 다음 문서에도 관심이 있을 수 있습니다.
 
-* [자습서: Power BI에서 Machine Learning Studio(클래식) 모델 호출(미리 보기)](service-tutorial-invoke-machine-learning-model.md)
+* [자습서: Power BI에서 Azure Machine Learning 모델 사용](service-aml-integrate.md)
 * [Power BI에서 Azure Machine Learning 통합(미리 보기)](../transform-model/dataflows/dataflows-machine-learning-integration.md)
 * [Power BI에서 Cognitive Services 사용(미리 보기)](../transform-model/dataflows/dataflows-machine-learning-integration.md)

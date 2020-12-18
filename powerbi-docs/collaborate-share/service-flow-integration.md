@@ -1,5 +1,5 @@
 ---
-title: Power Automate와 데이터 경고 통합
+title: Power Automate와 Power BI 데이터 경고 통합
 description: Power BI 데이터 경고에 의해 트리거되는 Power Automate 흐름을 만드는 방법에 대해 알아봅니다.
 author: maggiesMSFT
 ms.author: maggies
@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 11/09/2020
+ms.date: 12/08/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 65c7c00a705ed95c26c32a4fc5bcb9e0c18c13bf
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 8f73bd959691ea8359a8584966e0b83f439d8652
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407173"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97097642"
 ---
-# <a name="integrate-data-alerts-with-power-automate"></a>Power Automate와 데이터 경고 통합
+# <a name="integrate-power-bi-data-alerts-with-power-automate"></a>Power Automate와 Power BI 데이터 경고 통합
 
 [Power Automate](/power-automate/getting-started)를 사용하여 Power BI를 즐겨 사용하는 앱 및 서비스와 통합할 수 있습니다. Power Automate를 사용하면 자동화된 워크플로를 만들어 알림 받기, 파일 동기화, 데이터 수집 등을 할 수 있습니다. 이 문서에서는 Power BI 데이터 경고에서 이메일 생성을 자동화합니다.
 
@@ -90,6 +90,5 @@ ms.locfileid: "96407173"
 
 ## <a name="next-steps"></a>다음 단계
 * [Power Automate 시작하기](/power-automate/getting-started/)
-* [Power BI 서비스에서 데이터 경고 설정](../create-reports/service-set-data-alerts.md)
-* [iPhone에서 데이터 경고 설정](../consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
+* [Power Automate를 사용하여 Power BI 보고서 내보내기 및 이메일로 보내기](service-automate-power-bi-report-export.md)
 * 궁금한 점이 더 있나요? [Power BI 커뮤니티를 이용하세요.](https://community.powerbi.com/)

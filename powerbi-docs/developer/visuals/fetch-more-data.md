@@ -7,17 +7,19 @@ ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
-ms.date: 06/18/2019
-ms.openlocfilehash: b8be5b68603f818e26e7f731e4f163bc626b5053
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.date: 12/13/2020
+ms.openlocfilehash: 3dc94a24e5e6a84992745775b1639b7a186ed19d
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483699"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492084"
 ---
 # <a name="fetch-more-data-from-power-bi"></a>Power BI에서 더 많은 데이터 가져오기
 
-이 문서에서는 `fetchMoreData` 메서드를 사용하여 30KB 데이터 요소의 하드 한도를 무시하기 위해 더 많은 데이터를 로드하는 방법을 설명합니다. 이 방법은 데이터를 청크로 제공합니다. 성능을 향상하기 위해 사용 사례에 맞게 청크 크기를 구성할 수 있습니다.
+`fetchMoreData` API를 사용하면 Power BI 시각적 개체가 30K 행 데이터 뷰의 하드 제한을 무시할 수 있습니다. 새 3.4 API 릴리스부터 `fetchMoreData` API의 기능이 확장되어 데이터 청크를 로드하는 새로운 접근 방식을 지원합니다. 요청된 모든 청크를 집계하는 기존 접근 방식 외에 API는 증분 데이터 청크 로드만 지원합니다.
+
+새 접근 방식을 통해 추가 데이터 청크를 시각적 개체에 로드하는 방식을 보다 유연하게 수행할 수 있습니다. 성능을 향상하기 위해 사용 사례에 맞게 청크 크기를 구성할 수 있습니다.
 
 ## <a name="limitations-of-fetchmoredata"></a>fetchMoreData의 제한 사항
 

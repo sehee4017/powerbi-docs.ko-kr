@@ -7,18 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-dataflows
 ms.topic: how-to
-ms.date: 11/13/2020
+ms.date: 12/10/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 53a8573138a87f8be65183e0571077a02ac0715d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 116458c094159cbeeadaf2e955744759e4648220
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418190"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97097964"
 ---
 # <a name="dataflows-best-practices"></a>데이터 흐름 모범 사례
 
 Power BI **데이터 흐름** 은 엔터프라이즈 중심의 데이터 준비 솔루션이며 사용, 재사용 및 통합을 위해 준비된 데이터 에코시스템을 사용하도록 설정합니다. 이 문서에서는 데이터 흐름을 최대한 이해하고 사용하는 데 도움이 되는 문서 및 기타 정보에 대한 링크와 함께 모범 사례 목록을 제공합니다.
+
+## <a name="dataflows-across-the-power-platform"></a>Power Platform 간 데이터 흐름
+
+데이터 흐름은 Power Query, Microsoft Dynamics 365 및 기타 Microsoft 제품과 같은 다양한 Power Platform 기술에서 사용할 수 있습니다. Power Platform에서 데이터 흐름이 작동하는 방식에 대한 자세한 내용은 [Microsoft 제품에서 데이터 흐름 사용](https://docs.microsoft.com/power-query/dataflows/overview-dataflows-across-power-platform-dynamics-365)을 참조하세요.
 
 
 ## <a name="dataflows-best-practices-table-and-links"></a>데이터 흐름 모범 사례 표 및 링크
@@ -29,7 +33,7 @@ Power BI **데이터 흐름** 은 엔터프라이즈 중심의 데이터 준비 
 |**항목**  |**지침 영역**  |**문서 또는 콘텐츠에 대한 링크**  |
 |---------|---------|---------|
 |파워 쿼리     | 데이터 랭글링 환경을 최대한 활용하기 위한 팁과 요령        |[파워 쿼리 모범 사례](https://docs.microsoft.com/power-query/best-practices)        |
-|계산 엔터티 활용     |데이터 흐름에서 계산된 엔터티를 사용하면 성능상의 이점이 있습니다.         |[컴퓨팅 엔터티 시나리오](https://docs.microsoft.com/power-query/dataflows/computed-entities-scenarios)         |
+|계산 엔터티 활용     |데이터 흐름에서 계산된 엔터티를 사용하면 성능상의 이점이 있습니다.         |[계산된 엔터티 시나리오](https://docs.microsoft.com/power-query/dataflows/computed-entities-scenarios)         |
 |복잡한 데이터 흐름 개발     |대규모의 고성능 데이터 흐름을 개발하기 위한 패턴         |[복합 데이터 흐름](https://docs.microsoft.com/power-query/dataflows/best-practices-developing-complex-dataflows)         |
 |데이터 흐름 다시 사용     |패턴, 지침 및 사용 사례         |[데이터 흐름 다시 사용](https://docs.microsoft.com/power-query/dataflows/best-practices-reusing-dataflows)         |
 |대규모 구현     |엔터프라이즈 아키텍처를 보완하기 위한 대규모 사용 및 지침         |[데이터 흐름을 사용하는 데이터 웨어하우징](https://docs.microsoft.com/power-query/dataflows/best-practices-for-data-warehouse-using-dataflows)         |
@@ -40,6 +44,8 @@ Power BI **데이터 흐름** 은 엔터프라이즈 중심의 데이터 준비 
 |데이터 프로파일링 사용     |열 품질, 배포 및 프로필 이해         |[데이터 프로파일링 도구](https://docs.microsoft.com/power-query/data-profiling-tools)         |
 |오류 처리 구현     |제안을 통해 탄력적으로 오류를 새로 고치는 강력한 데이터 흐름 개발         |[일반 오류의 패턴](https://docs.microsoft.com/power-query/dealing-with-errors)  </br> [복잡한 오류 처리](https://docs.microsoft.com/power-query/error-handling)      |
 |스키마 뷰 사용      |넓은 테이블로 작업하고 스키마 수준 작업을 수행할 때 제작 환경 개선         |[스키마 뷰](https://docs.microsoft.com/power-query/schema-view)         |
+|연결된 엔터티      |변환 재사용 및 참조         |[연결된 엔터티](https://docs.microsoft.com/power-query/dataflows/linked-entities)         |
+|증분 새로 고침      |최신 데이터 또는 변경된 데이터 로드 대 전체 다시 로드         |[증분 새로 고침](https://docs.microsoft.com/power-query/dataflows/incremental-refresh)         |
 |||
 
 

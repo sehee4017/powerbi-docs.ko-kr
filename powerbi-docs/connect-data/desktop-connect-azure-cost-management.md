@@ -8,14 +8,14 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 09/30/2020
+ms.date: 12/10/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fa06b1d561c770c3b9e0535e94789931a74bd9df
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 6d99e91657d0c5f0bbd1e9c665f00d16c34ba24f
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411474"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353246"
 ---
 # <a name="create-visuals-and-reports-with-the-azure-cost-management-connector-in-power-bi-desktop"></a>Power BI Desktop에서 Azure Cost Management 커넥터를 사용하여 시각적 개체 및 보고서 만들기
 
@@ -56,7 +56,7 @@ Power BI Desktop에서 **Azure Cost Management 커넥터** 를 사용하려면 �
 
     ![청구 프로필 ID 범위가 있는 Azure Cost Management 속성을 보여 주는 스크린샷.](media/desktop-connect-azure-cost-management/azure-cost-management-01a.png)
 
-7.  메시지가 표시되면 Azure 사용자 계정 및 암호를 사용하여 로그인합니다. 
+7.  메시지가 표시되면 Azure 사용자 계정 및 암호를 사용하여 로그인합니다. 성공적인 액세스를 위해 요금 청구 계정 소유자를 사용해야 합니다. 
 
 
 ## <a name="connect-to-an-enterprise-agreement-account"></a>기업계약 계정에 연결
@@ -71,13 +71,11 @@ Power BI Desktop에서 **Azure Cost Management 커넥터** 를 사용하려면 �
 
     ![등록 번호 범위가 있는 Azure Cost Management 속성을 보여 주는 스크린샷.](media/desktop-connect-azure-cost-management/azure-cost-management-01b.png)
 
-6.  메시지가 표시되면 Azure 사용자 계정 및 암호를 사용하여 로그인합니다. 
+6.  메시지가 표시되면 Azure 사용자 계정 및 암호를 사용하여 로그인합니다. 기업계약에는 엔터프라이즈 관리자 계정을 사용해야 합니다.
 
 ## <a name="data-available-through-the-connector"></a>커넥터를 통해 사용할 수 있는 데이터
 
 성공적으로 인증되면 다음과 같은 사용 가능한 데이터 테이블과 함께 **탐색기** 창이 나타납니다.
-
-
 
 | **테이블** | **설명** |
 | --- | --- |

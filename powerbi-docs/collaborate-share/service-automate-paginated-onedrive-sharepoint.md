@@ -9,16 +9,17 @@ ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 11/17/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 4a0a504db15d78bec112aaafd2a972f066e88193
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 6aaad48fb3e97aa6c1b4fc51834ee593a49a8192
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407679"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97097734"
 ---
 # <a name="save-a-paginated-report-to-onedrive-for-business-or-sharepoint-online"></a>비즈니스용 OneDrive 또는 SharePoint Online에 페이지를 매긴 보고서 저장
 
 [Power Automate](/power-automate/getting-started)를 사용하면 Power BI 페이지를 매긴 보고서를 지원되는 다양한 형식과 시나리오로 내보내고 배포하는 작업을 자동화할 수 있습니다. 이 문서에서는 Power Automate를 사용하여 Power BI 페이지를 매긴 보고서를 비즈니스용 OneDrive 또는 SharePoint Online 폴더에 자동으로 저장합니다.
+
 
 :::image type="content" source="media/service-automate-paginated-onedrive-sharepoint/paginated-onedrive-flow.png" alt-text="페이지를 매긴 보고서를 OneDrive 또는 SharePoint Online에 저장하기 위한 Power Automate 흐름의 스크린샷":::
 
@@ -28,7 +29,7 @@ Power BI 페이지를 매긴 보고서용으로 사용할 다른 Power Automate 
 
 수행하려면 다음이 필요합니다.
 
-- 예약된 용량으로 지원되는 Power BI 테넌트의 작업 영역 하나 이상 이 용량은 A4/P1 ~ A6/P3 SKU 중 하나일 수 있습니다. [Power BI Premium의 예약된 용량](../admin/service-premium-what-is.md)에 대해 자세히 알아보세요.
+- 예약된 용량으로 지원되는 Power BI 테넌트의 작업 영역 하나 이상 이 용량은 A4/P1 ~ A6/P3 SKU 중 하나일 수 있습니다. [Power BI Premium의 페이지를 매긴 보고서에 예약된 용량](../admin/service-premium-what-is.md#paginated-reports)에 대해 자세히 알아보세요.
 - Office 365 구독에서 제공되는 Power Automate의 표준 커넥터 액세스 권한
 
 ## <a name="save-a-paginated-report-to-onedrive-for-business-or-a-sharepoint-online-folder"></a>비즈니스용 OneDrive 또는 SharePoint Online 폴더에 페이지를 매긴 보고서 저장 
@@ -57,7 +58,7 @@ Power BI 페이지를 매긴 보고서용으로 사용할 다른 Power Automate 
 
     :::image type="content" source="media/service-automate-paginated-onedrive-sharepoint/onedrive-template-3-advanced-recurrence.png" alt-text="되풀이의 고급 옵션 표시":::
 
-1. **작업 영역** 상자에서 예약된 용량의 작업 영역을 선택합니다. **보고서** 상자에서 선택한 작업 영역에서 내보낼 페이지를 매긴 보고서를 선택합니다. **내보내기 형식** 상자에서 원하는 내보내기 형식을 선택합니다. 필요에 따라 페이지를 매긴 보고서에 대한 매개 변수를 지정할 수 있습니다. [Power BI Rest API용 커넥터 참조](/connectors/powerbi/#export-to-file-for-paginated-reports)에서 매개 변수에 대한 자세한 설명을 확인하세요.  
+1. **작업 영역** 상자에서 예약된 용량의 작업 영역을 선택합니다. **보고서** 상자에서 선택한 작업 영역에서 내보낼 페이지를 매긴 보고서를 선택합니다. **내보내기 형식** 상자에서 원하는 내보내기 형식을 선택합니다. 필요에 따라 페이지를 매긴 보고서에 대한 매개 변수를 지정할 수 있습니다. [Power BI REST API용 커넥터 참조](/connectors/powerbi/#export-to-file-for-paginated-reports)에서 매개 변수에 대한 자세한 설명을 확인하세요.  
 
     :::image type="content" source="media/service-automate-paginated-onedrive-sharepoint/onedrive-template-4-export-format.png" alt-text="페이지를 매긴 보고서, 작업 영역, 내보내기 형식 선택":::
 

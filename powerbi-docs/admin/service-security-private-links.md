@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-security
 ms.topic: how-to
-ms.date: 11/12/2020
+ms.date: 12/14/2020
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: 446c3620cf3b2a7435897108cfcd9c8972ad8bb4
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: da5ee837345b6f26dd6636bc93f6b38c1e0f5ea7
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412164"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491854"
 ---
 # <a name="private-links-for-accessing-power-bi"></a>Power BI 액세스를 위한 프라이빗 링크
 
@@ -118,9 +118,9 @@ ARM 템플릿 만들기
 | ```<resource-group-name>```   | myResourceGroup |
 | ```<virtual-network-name>```  | myVirtualNetwork |
 | ```<region-name>```   | 미국 중부  |
-| ```<IPv4-address-space>```    | 10.1.0.0/16 |
+| ```<IPv4-address-space>```    | 10.5.0.0/16 |
 | ```<subnet-name>```   | mySubnet |
-| ```<subnet-address-range>```  | 10.1.0.0/24 |
+| ```<subnet-address-range>```  | 10.5.0.0/24 |
 
 1. 화면의 왼쪽 위에서 **리소스 만들기 > 네트워킹 > 가상 네트워크** 를 차례로 선택하거나, 검색 상자에서 **가상 네트워크** 를 검색합니다.
 2. **가상 네트워크 만들기** 의 **기본** 탭에서 다음 정보를 입력하거나 선택합니다.
@@ -166,7 +166,6 @@ ARM 템플릿 만들기
 
 ## <a name="create-a-virtual-machine-vm"></a>VM(가상 머신) 만들기
 
-
 다음 단계는 가상 네트워크 및 VM(가상 머신)을 호스트하는 서브넷을 만드는 것입니다.
 
 1. Azure Portal 화면의 왼쪽 위에서 **리소스 만들기 > 컴퓨팅 > 가상 머신** 을 선택합니다.
@@ -200,8 +199,8 @@ ARM 템플릿 만들기
     |설정 | 값 |
     |-------------------|---------|
     |가상 네트워크|   기본값인 **MyVirtualNetwork** 를 그대로 둡니다.|
-    |주소 공간| 기본값인 **10.1.0.0/24** 를 그대로 둡니다.|
-    |서브넷 |기본값인 **mySubnet(10.1.0.0/24)** 을 그대로 둡니다.|
+    |주소 공간| 기본값인 **10.5.0.0/24** 를 그대로 둡니다.|
+    |서브넷 |기본값인 **mySubnet(10.5.0.0/24)** 을 그대로 둡니다.|
     |공용 IP| 기본값 **(신규) myVm-ip** 를 그대로 둡니다.|
     |공용 인바운드 포트|  **선택한 포트 허용**을 선택합니다.|
     |인바운드 포트 선택|  **RDP** 를 선택합니다.|
@@ -289,7 +288,7 @@ ARM 템플릿 만들기
     
     Non-authoritative answer:
     Name:    52d40f65ad6d48c3906f1ccf598612d4-api.privatelink.analysis.windows.net
-    Address:  10.1.0.4
+    Address:  10.5.0.4
     ```
 
 4. 브라우저를 열고 app.powerbi.com으로 이동하여 비공개로 Power BI에 액세스합니다.
@@ -306,12 +305,10 @@ app.powerbi.com에 관리자 권한으로 로그인하고 **관리 포털** 로 
 
 Power BI에서 프라이빗 링크를 사용하여 작업하는 동안 유의해야 할 몇 가지 고려 사항이 있습니다.
 
-* 프라이빗 링크 환경을 사용하는 동안에는 외부 이미지 또는 테마를 사용할 수 없으며, 사용 시 사용자 지정 시각적 개체에 영향이 미칠 수 있습니다.
-* 프라이빗 링크 환경을 사용하는 동안에는 PDF로 내보내기, 보고서에서 Excel로 내보내기 등의 내보내기 서비스 및 기타 내보내기 서비스가 작동하지 않습니다.
-* 일반적으로 RDL 파일(*.rdl 형식 파일)이라고 알려진 SQL Server Reporting Services 보고서는 프라이빗 링크 환경에서 렌더링되지 않습니다.
-* 인터넷 액세스를 사용하지 않고 데이터 세트 또는 데이터 흐름이 데이터 원본인 Power BI 데이터 세트 또는 데이터 흐름에 연결하는 경우 연결이 실패합니다.
-* Private Link가 사용되는 경우 사용 현황 메트릭이 작동하지 *않음*
-* Power BI에서 **Block Public Internet access(퍼블릭 인터넷 액세스 차단)** 를 사용하도록 설정하는 경우 웹에 게시가 지원되지 않습니다(회색으로 표시됨).
+* 프라이빗 링크 환경을 사용하는 경우에는 외부 이미지 또는 테마를 사용할 수 없으며, 사용자 지정 시각적 개체에 영향을 줄 수 있습니다.
+* 인터넷 액세스가 비활화성되고 데이터 세트 또는 데이터 흐름이 데이터 원본으로 Power BI 데이터 세트 또는 데이터 흐름에 연결되는 경우 연결이 실패합니다.
+* Private Link가 사용되는 경우 사용 현황 메트릭이 작동하지 *않습니다*.
+* Power BI에서 **퍼블릭 인터넷 액세스 차단** 을 사용하도록 설정하면 웹에 게시가 지원되지 않습니다(회색으로 표시됨).
 
 
 ## <a name="next-steps"></a>다음 단계

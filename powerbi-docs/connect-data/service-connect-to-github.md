@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/19/2020
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e92afdbad41f212ac93245583430ae44fe0abaf9
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f0d756b7909043a644ab8220cd71a9fca9b1c0e0
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410646"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998710"
 ---
 # <a name="connect-to-github-with-power-bi"></a>Power BI로 GitHub에 연결
 이 문서에서는 Power BI 템플릿 앱을 사용하여 GitHub 계정에서 데이터를 가져오는 과정을 안내합니다. 템플릿 앱은 대시보드, 보고서 세트 및 데이터 세트로 구성되고 GitHub 데이터를 탐색할 수 있게 해주는 작업 영역을 생성합니다. Power BI용 GitHub 앱은 기여, 이슈, 끌어오기 요청 및 활성 사용자와 관련된 데이터가 포함된 GitHub 리포지토리(리포라고도 함)의 인사이트를 표시합니다.
@@ -41,7 +41,7 @@ ms.locfileid: "96410646"
 
 1. **설치** 를 선택합니다. 
 
-    ![GitHub 템플릿 앱 설치](media/service-connect-to-github/service-regional-emergency-response-select-install.png)
+    ![GitHub 템플릿 앱 설치](media/service-connect-to-github/power-bi-github-install-dialog.png)
 
     앱이 설치되면 앱 페이지에 설치된 앱이 표시됩니다.
 
@@ -51,30 +51,23 @@ ms.locfileid: "96410646"
 
 1. 앱 페이지에서 아이콘을 선택하여 앱을 엽니다.
 
-1. 시작 화면에서 **앱 탐색** 을 선택합니다.
-
-   ![템플릿 앱 시작 화면](media/service-connect-to-github/service-github-app-splash-screen.png)
-
    앱이 열리고 샘플 데이터가 표시됩니다.
 
 1. 페이지 맨 위에 있는 배너에서 **데이터 연결** 링크를 선택합니다.
 
    ![GitHub 앱 데이터 연결 링크](media/service-connect-to-github/service-github-app-connect-data.png)
 
-1. 표시되는 대화 상자에서 리포지토리의 리포지토리 이름과 리포지토리 소유자를 입력합니다. 아래에서 [해당 매개 변수 찾기](#FindingParams)에 대한 세부 정보를 참조하세요. 완료하면 **다음** 을 클릭합니다.
+1. 이렇게 하면 데이터 원본을 샘플 데이터에서 자체 데이터 원본으로 변경하는 매개 변수 대화 상자([알려진 제한 사항 ](service-template-apps-overview.md#known-limitations) 참조)가 열린 다음 인증 방법 대화 상자가 열립니다. 이러한 대화 상자에서 값을 다시 정의해야 할 수도 있습니다.
 
-   ![Power BI - GitHub 리포지토리 이름](media/service-connect-to-github/power-bi-github-app-tutorial-connect.png)
+   ![데이터에 연결 대화 상자의 스크린샷](media/service-connect-to-github/power-bi-template-app-connect-to-data-dialogs.png)
 
-1. 표시되는 다음 대화 상자에서 인증 방법이 **OAuth2** 로 설정되어 있는지 확인합니다. 개인 정보 설정은 변경하지 않아도 됩니다. 준비가 되면 **로그인** 을 클릭합니다.
-
-   ![Power BI GitHub 인증 방법](media/service-connect-to-github/power-bi-github-authentication.png)
 
 1. GitHub 자격 증명을 입력하고 GitHub 인증 프로세스를 수행합니다(브라우저를 사용하여 이미 로그인한 경우 이 단계를 건너뛸 수 있음).
 
    ![Power BI GitHub 인증 프로세스](media/service-connect-to-github/power-bi-github-authenticate-process.png)
 
 
-로그인하면 보고서가 데이터 원본에 연결되고 최신 데이터로 채워집니다. 데이터가 채워지는 동안 활동 모니터가 회전합니다.
+연결 대화 상자 입력을 완료하고 GitHub에 로그인하면 연결 프로세스가 시작됩니다. 배너에서는 데이터가 새로 고쳐지고 있고 그동안 샘플 데이터가 표시된다고 알려줍니다.
 
 ![Power BI GitHub 앱 새로 고침 진행 중](media/service-connect-to-github/service-github-app-refresh-monitor.png)
 

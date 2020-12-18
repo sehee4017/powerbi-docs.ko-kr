@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
-ms.date: 05/04/2020
-ms.openlocfilehash: 5c897909d9fe31e4b22743a77058caba4767a579
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/14/2020
+ms.openlocfilehash: a11ac8edb9abab29f58c3e4eda15ae204d105b26
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410140"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491739"
 ---
 # <a name="what-are-power-bi-template-apps"></a>Power BI 템플릿 앱이란?
 
@@ -98,6 +98,7 @@ Power BI 템플릿 앱을 사용하면 Power BI Pro 또는 Power BI Premium 사�
 - 온라인 상점으로 AppSource를 사용하여 애플리케이션을 호스트합니다. 이러한 방식으로 Power BI를 사용하는 모든 사용자가 앱을 찾을 수 있습니다. 
 - 별도의 고유한 시나리오에 대해 둘 이상의 템플릿 앱을 제공하는 것을 고려하세요. 
 - 예를 들어 설치 관리자에 의한 사용자 지정 연결 및 매개 변수 구성을 지원하는 데이터 사용자 지정을 활성화합니다.
+- ISV이고 웹 서비스를 통해 앱을 배포하는 경우 설치 중에 매개 변수 구성을 자동화하여 고객의 작업을 용이하게 하여 성공적인 설치 가능성을 높이는 것이 좋습니다. 자세한 내용은 [템플릿 앱 설치의 자동화된 구성](../developer/template-apps/template-apps-auto-install.md)을 참조하세요.
 
 자세한 제안 사항은 [Power BI에서 템플릿 앱 작성 팁](service-template-apps-tips.md)을 참조하세요.
 

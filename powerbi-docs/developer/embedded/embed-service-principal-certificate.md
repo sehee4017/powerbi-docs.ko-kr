@@ -1,5 +1,5 @@
 ---
-title: 서비스 주체 및 인증서를 사용하여 Power BI 콘텐츠 포함
+title: 서비스 주체 및 인증서를 사용하여 임베디드 분석 애플리케이션에 Power BI 콘텐츠 포함
 description: Azure Active Directory 애플리케이션 서비스 주체 및 인증서를 사용하여 임베디드 분석을 인증하는 방법을 알아봅니다.
 author: KesemSharabi
 ms.author: kesharab
@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
 ms.date: 11/23/2020
-ms.openlocfilehash: 990e3787927cb483b37d7bc456a46201876fcbed
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: f36f77ec1b6648bcb9ab45622fd9888366803b11
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95514427"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098401"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-a-certificate"></a>서비스 주체 및 인증서를 사용하여 Power BI 콘텐츠 포함
 

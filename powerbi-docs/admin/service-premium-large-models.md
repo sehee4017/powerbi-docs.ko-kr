@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 12/04/2020
+ms.date: 12/10/2020
 ms.custom: references_regions
 LocalizationGroup: Premium
-ms.openlocfilehash: 1f9a34b68f465eda5b8921e48576c9bef5d17f36
-ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
+ms.openlocfilehash: 7256e17f561aa79d63b7fefd268df560903de6b2
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "96781721"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353108"
 ---
 # <a name="large-datasets-in-power-bi-premium"></a>Power BI Premium의 대규모 데이터 세트
 
-Power BI 데이터 세트는 압축률이 높은 메모리 내 캐시에 데이터를 저장하여 쿼리 성능을 최적화하므로 빠른 사용자 대화형 작업이 가능합니다. Premium 용량의 경우 **대용량 데이터 세트 스토리지 형식** 설정으로 기본 10GB 한도를 초과하는 대규모 데이터 세트를 사용하도록 설정할 수 있습니다. 사용하도록 설정하면 데이터 세트 크기가 Premium ’용량’ 크기에 의해 제한됩니다.
+Power BI 데이터 세트는 압축률이 높은 메모리 내 캐시에 데이터를 저장하여 쿼리 성능을 최적화하므로 빠른 사용자 대화형 작업이 가능합니다. Premium 용량의 경우 **대용량 데이터 세트 스토리지 형식** 설정으로 기본 10GB 한도를 초과하는 대규모 데이터 세트를 사용하도록 설정할 수 있습니다. 사용하도록 설정하면 데이터 세트 크기는 프리미엄 *용량* 크기 또는 관리자가 설정한 최대 크기로 제한됩니다.
 
 모든 Premium P SKU 및 Embedded A SKU에 대해 대규모 데이터 세트를 사용하도록 설정할 수 있습니다. Premium의 대규모 데이터 세트 크기 제한은 데이터 모델 크기 제한과 관련하여 Azure Analysis Services와 비교할 수 있습니다.
 
@@ -136,6 +136,8 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 - **Power BI Desktop으로 다운로드**: 데이터 세트가 Premium Files에 저장되는 경우 [.pbix 파일로 다운로드](../create-reports/service-export-to-pbix.md)가 실패합니다.
 - **지원되는 지역**: Premium Files Storage를 지원하는 모든 Azure 지역에서 대규모 데이터 세트가 지원됩니다. 자세히 알아보려면 [지역별로 사용할 수 있는 제품](https://azure.microsoft.com/global-infrastructure/services/?products=storage)과 다음 섹션의 테이블을 참조하세요.
 
+- **최대 데이터 세트 크기 설정**: 관리자는 최대 데이터 세트 크기를 설정할 수 있습니다. 최댓값은 0.1GB에서 SKU의 최대 용량까지 설정할 수 있습니다.
+
 ## <a name="region-availability"></a>지역 가용성
 
 Power BI의 대규모 데이터 세트는 [Azure Premium Files Storage](/azure/storage/files/storage-files-planning#storage-tiers)를 지원하는 일부 Azure 지역에서만 사용할 수 있습니다.
@@ -146,6 +148,9 @@ Power BI의 대규모 데이터 세트는 [Azure Premium Files Storage](/azure/s
 |---------|---------|
 |오스트레일리아 동부     | australiaeast        |
 |오스트레일리아 남동부     | australiasoutheast        |
+|캐나다 동부     | canadaeast        |
+|캐나다 중부     | canadacentral        |
+|인도 중부     | centralindia        |
 |미국 중부     | centralus        |
 |동아시아     | eastasia        |
 |미국 동부     | eastus        |
@@ -161,6 +166,7 @@ Power BI의 대규모 데이터 세트는 [Azure Premium Files Storage](/azure/s
 |영국 남부     | uksouth        |
 |영국 서부     | ukwest        |
 |서유럽     | westeurope        |
+|인도 서부     | westindia        |
 |미국 서부     | westus        |
 |미국 서부 2     | westus2        |
 

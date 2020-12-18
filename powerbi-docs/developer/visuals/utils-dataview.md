@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 80c53b183f37dc09ee83ff20bd97f944bdcbc9b4
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: fc0ebf3d315b10bc14190a5ae01e8d389e2be0cc
+ms.sourcegitcommit: b5365df7fc32b7c49f8a2bf2cf75b5edd6bda9b6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379332"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97513738"
 ---
 # <a name="dataviewutils"></a>DataViewUtils
 
@@ -25,6 +25,22 @@ ms.locfileid: "79379332"
 패키지를 설치하려면 현재 사용자 지정 시각적 개체가 있는 디렉터리에서 다음 명령을 실행해야 합니다.
 
 npm install powerbi-visuals-utils-dataviewutils --save 이 명령은 패키지를 설치하고 package.json에 패키지를 종속성으로 추가합니다.
+
+## <a name="dataviewwildcard"></a>DataViewWildcard
+
+`DataViewWildcard`는 속성의 [조건부 서식 지정](conditional-format.md#define-how-conditional-formatting-behaves)을 지원하는 `createDataViewWildcardSelector` 함수를 제공합니다.
+
+`createDataViewWildcardSelector`는 `dataviewWildcardMatchingOption (InstancesAndTotals (default), InstancesOnly, TotalsOnly)`에 따라 서식 창의 조건부 서식 지정 항목이 적용되는 방법을 정의하는 데 필요한 선택기를 반환합니다.
+
+예제:
+
+ ```typescript
+import { dataViewWildcard } from "powerbi-visuals-utils-dataviewutils";
+
+let selector = dataViewWildcard.createDataViewWildcardSelector(dataViewWildcard.DataViewWildcardMatchingOption.InstancesAndTotals);
+// returns {data: [{dataViewWildcard:{matchingOption: 0}}]};
+
+```
 
 ## <a name="datarolehelper"></a>DataRoleHelper
 

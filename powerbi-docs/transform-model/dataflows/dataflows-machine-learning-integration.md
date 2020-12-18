@@ -9,12 +9,12 @@ ms.subservice: pbi-dataflows
 ms.topic: how-to
 ms.date: 10/01/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 60214c16cbd287a30631e7ad9fbab274cb8f4cb0
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 22fa980230b01132c8cb4faa6e7e959409f19f1b
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414303"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353131"
 ---
 # <a name="ai-with-dataflows"></a>데이터 흐름에서 AI 사용
 
@@ -456,7 +456,7 @@ Azure ML 모델 출력 미리 보기를 엔터티 테이블에 새 열로 표시
 
 - [자습서: Power BI에서 Machine Learning 모델 빌드](../../connect-data/service-tutorial-build-machine-learning-model.md)
 - [자습서: Power BI에서 Cognitive Services 사용](../../connect-data/service-tutorial-use-cognitive-services.md)
-- [자습서: Power BI에서 Machine Learning Studio(클래식) 모델 호출(미리 보기)](../../connect-data/service-tutorial-invoke-machine-learning-model.md)
+- [자습서: Power BI에서 Azure Machine Learning 모델 사용](../../connect-data/service-aml-integrate.md)
 
 다음 문서에서는 데이터 흐름 및 Power BI에 관한 자세한 정보를 제공합니다.
 

@@ -9,12 +9,12 @@ ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 06/10/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a3654bc77ebdbd41ef608378157bf0d24bb94c88
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f4128939bd90f0b6514a792a60d583b830bea0d2
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416120"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353453"
 ---
 # <a name="use-ai-insights-in-power-bi-desktop"></a>Power BI Desktop에서 AI 인사이트 사용
 
@@ -223,7 +223,7 @@ Power BI Desktop에서 Azure Machine Learning에 적용되는 고려 사항 및 
 
 이 문서에서는 Power BI Desktop에 Machine Learning을 통합하는 방법을 간략하게 살펴봤습니다. 관심을 가질 만한 다른 유용한 문서는 다음과 같습니다.
 
-- [자습서: Power BI에서 Machine Learning Studio(클래식) 모델 호출](../connect-data/service-tutorial-invoke-machine-learning-model.md)
+- [자습서: Power BI에서 Azure Machine Learning 모델 사용](../connect-data/service-aml-integrate.md)
 - [자습서: Power BI에서 Cognitive Services 사용](../connect-data/service-tutorial-use-cognitive-services.md)
 - [Power BI의 Cognitive Services](./dataflows/dataflows-machine-learning-integration.md)
 - [Power BI에서 Azure Machine Learning 통합](./dataflows/dataflows-machine-learning-integration.md)

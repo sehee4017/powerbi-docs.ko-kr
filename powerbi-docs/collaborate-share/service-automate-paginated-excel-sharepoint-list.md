@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 11/17/2020
+ms.date: 12/08/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 74d61d40c4447f2649f5cce5fbcdcba68cd31afe
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 7a48a9a594364de4261aa66de48c1a4262392364
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408001"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97097849"
 ---
 # <a name="export-a-paginated-report-for-each-row-in-an-excel-online-table-or-sharepoint-list"></a>Excel Online 테이블 또는 SharePoint 목록의 각 행에 대해 페이지를 매긴 보고서 내보내기
 
@@ -30,7 +30,7 @@ Power BI 페이지를 매긴 보고서용으로 사용할 다른 Power Automate 
 
 수행하려면 다음이 필요합니다.
 
-- 예약된 용량으로 지원되는 Power BI 테넌트의 작업 영역 하나 이상 이 용량은 A4/P1 ~ A6/P3 SKU 중 하나일 수 있습니다. [Power BI Premium의 예약된 용량](../admin/service-premium-what-is.md)에 대해 자세히 알아보세요.
+- 예약된 용량으로 지원되는 Power BI 테넌트의 작업 영역 하나 이상 이 용량은 A4/P1 ~ A6/P3 SKU 중 하나일 수 있습니다. [Power BI Premium의 페이지를 매긴 보고서에 예약된 용량](../admin/service-premium-what-is.md#paginated-reports)에 대해 자세히 알아보세요.
 - Office 365 구독에서 제공되는 Power Automate의 표준 커넥터 액세스 권한
 - Excel Online 테이블을 사용하는 경우 Excel에서 테이블 형식으로 지정해야 합니다. 방법을 알아보려면 [테이블 만들기](https://support.microsoft.com/office/create-a-table-in-excel-bf0ce08b-d012-42ec-8ecf-a2259c9faf3f)를 참조하세요.
 
@@ -73,9 +73,9 @@ Power BI 페이지를 매긴 보고서용으로 사용할 다른 Power Automate 
 
 1. **각각에 적용** 에서 **이전 단계에서 출력 선택** 상자가 기본적으로 **값** 으로 설정되어 있습니다. 이 설정은 Excel Online 테이블 또는 SharePoint Online 목록의 각 행에 대한 **각각에 적용** 에 포함된 작업을 반복합니다.  
 
-1. **작업 영역** 상자에서 전용 용량의 작업 영역을 선택합니다. **보고서** 상자에서 선택한 작업 영역에서 내보낼 페이지를 매긴 보고서를 선택합니다. 드롭다운 목록에서 **사용자 지정 값 입력** 을 설정하는 경우 Excel Online 테이블 또는 SharePoint Online 목록의 열과 같도록 **작업 영역** 및 **보고서** 를 설정할 수 있습니다. 이러한 열은 각각 작업 영역 ID와 보고서 ID를 포함해야 합니다.  
+1. **작업 영역** 상자에서 예약된 용량의 작업 영역을 선택합니다. **보고서** 상자에서 선택한 작업 영역에서 내보낼 페이지를 매긴 보고서를 선택합니다. 드롭다운 목록에서 **사용자 지정 값 입력** 을 설정하는 경우 Excel Online 테이블 또는 SharePoint Online 목록의 열과 같도록 **작업 영역** 및 **보고서** 를 설정할 수 있습니다. 이러한 열은 각각 작업 영역 ID와 보고서 ID를 포함해야 합니다.  
 
-1. 드롭다운 목록에서 **내보내기 형식** 을 선택하거나 원하는 내보내기 형식이 포함된 Excel Online 테이블의 열과 같도록 설정합니다. 예를 들어 PDF, DOCX 또는 PPTX입니다. 필요에 따라 페이지를 매긴 보고서에 대한 매개 변수를 지정할 수 있습니다. [Power BI Rest API용 커넥터 참조](/connectors/powerbi/#export-to-file-for-paginated-reports)에서 매개 변수에 대한 자세한 설명을 확인하세요.
+1. 드롭다운 목록에서 **내보내기 형식** 을 선택하거나 원하는 내보내기 형식이 포함된 Excel Online 테이블의 열과 같도록 설정합니다. 예를 들어 PDF, DOCX 또는 PPTX입니다. 필요에 따라 페이지를 매긴 보고서에 대한 매개 변수를 지정할 수 있습니다. [Power BI REST API용 커넥터 참조](/connectors/powerbi/#export-to-file-for-paginated-reports)에서 매개 변수에 대한 자세한 설명을 확인하세요.
 
     :::image type="content" source="media/service-automate-paginated-excel-sharepoint-list/excel-template-export-format-9.png" alt-text="페이지를 매긴 보고서의 파일로 내보내기 작성":::
 

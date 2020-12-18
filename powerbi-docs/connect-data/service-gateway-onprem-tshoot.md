@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: troubleshooting
-ms.date: 09/25/2020
+ms.date: 12/10/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 045d7df36deefae5c323e88d0ddf3053ea56682e
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: de8d24af0dbaa0ed4b27efca140cf29acda9df76
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634645"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353420"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>게이트웨이 문제 해결 - Power BI
 
@@ -32,7 +32,7 @@ ms.locfileid: "91634645"
 
 ### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>오류: 연결할 수 없습니다. 세부 정보: “잘못된 연결 자격 증명입니다.”
 
-**세부 정보 표시**에 데이터 원본에서 받은 오류 메시지가 표시됩니다. SQL Server의 경우 다음과 같은 메시지가 표시됩니다.
+**세부 정보 표시** 에 데이터 원본에서 받은 오류 메시지가 표시됩니다. SQL Server의 경우 다음과 같은 메시지가 표시됩니다.
 
 ```output
 Login failed for user 'username'.
@@ -44,7 +44,7 @@ Login failed for user 'username'.
 
 서버에는 연결할 수 있지만 제공된 데이터베이스에는 연결할 수 없습니다. 데이터베이스의 이름을 확인하고 사용자 자격 증명에 해당 데이터베이스에 액세스할 수 있는 적절한 사용 권한이 있는지 확인합니다.
 
-**세부 정보 표시**에 데이터 원본에서 받은 오류 메시지가 표시됩니다. SQL Server의 경우 다음과 유사한 출력이 표시됩니다.
+**세부 정보 표시** 에 데이터 원본에서 받은 오류 메시지가 표시됩니다. SQL Server의 경우 다음과 유사한 출력이 표시됩니다.
 
 ```output
 Cannot open database "AdventureWorks" requested by the login. The login failed. Login failed for user 'username'.
@@ -54,15 +54,15 @@ Cannot open database "AdventureWorks" requested by the login. The login failed. 
 
 이 오류는 다양한 이유로 발생할 수 있습니다. 게이트웨이를 호스트하는 컴퓨터에서 데이터 원본에 연결할 수 있는지 확인해야 합니다. 이 상황은 서버에 액세스할 수 없기 때문에 발생할 수 있습니다.
 
-**세부 정보 표시**에 오류 코드 **DM_GWPipeline_UnknownError**가 표시될 수 있습니다.
+**세부 정보 표시** 에 오류 코드 **DM_GWPipeline_UnknownError** 가 표시될 수 있습니다.
 
-자세한 정보는 **이벤트 로그** > **애플리케이션 및 서비스 로그** > **온-프레미스 데이터 게이트웨이 서비스**도 확인할 수 있습니다.
+자세한 정보는 **이벤트 로그** > **애플리케이션 및 서비스 로그** > **온-프레미스 데이터 게이트웨이 서비스** 도 확인할 수 있습니다.
 
 ### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>오류: \<server\>에 연결하려는 동안 오류가 발생했습니다. 세부 정보: “데이터 게이트웨이에 연결했지만 해당 게이트웨이에서 온-프레미스 데이터 원본에 액세스할 수 없습니다.”
 
 지정된 데이터 원본에 연결할 수 없습니다. 해당 데이터 원본에 제공된 정보의 유효성을 검사해야 합니다.
 
-**세부 정보 표시**에 오류 코드 **DM_GWPipeline_Gateway_DataSourceAccessError**가 표시될 수 있습니다.
+**세부 정보 표시** 에 오류 코드 **DM_GWPipeline_Gateway_DataSourceAccessError** 가 표시될 수 있습니다.
 
 기본 오류 메시지가 다음과 유사한 경우 데이터 원본에 사용하는 계정이 해당 Analysis Services 인스턴스에 대한 서버 관리자가 아니라는 뜻입니다. 자세한 내용은 [Analysis Services 인스턴스에 서버 관리 권한 부여](/sql/analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance)를 참조하세요.
 
@@ -158,14 +158,14 @@ Windows 2000 이전 호환성 액세스 권한이 있는 도메인에는 TGGAU �
 필요에 따라 Power BI가 Azure Active Directory에서 가져오는 것을 확인할 수 있습니다.
 
 1. [https://developer.microsoft.com/graph/graph-explorer](https://developer.microsoft.com/graph/graph-explorer)으로 이동합니다.
-2. 오른쪽 위 모퉁이에서 **로그인**을 선택합니다.
+2. 오른쪽 위 모퉁이에서 **로그인** 을 선택합니다.
 3. 다음 쿼리를 실행합니다. 큰 JSON 응답이 표시됩니다.
 
    ```http
    https://graph.windows.net/me?api-version=1.5
    ```
 
-4. **userPrincipalName**을 찾습니다.
+4. **userPrincipalName** 을 찾습니다.
 
 Azure Active Directory UPN이 로컬 Active Directory UPN과 일치하지 않는 경우 [사용자 이름 매핑](service-gateway-enterprise-manage-ssas.md#map-user-names-for-analysis-services-data-sources) 기능을 사용하여 올바른 값으로 바꿀 수 있습니다. 또는 Power BI 관리자나 로컬 Active Directory 관리자와 작업하여 UPN을 변경할 수 있습니다.
 
@@ -239,15 +239,46 @@ FailedToImpersonateUserException은 다른 사용자를 대신해서 가장할 �
 
    ![위임 탭](media/service-gateway-onprem-tshoot/delegation-in-AD.png)
 
+## <a name="export-logs-for-a-support-ticket"></a>지원 티켓에 대한 로그 내보내기
+
+지원 티켓 문제를 해결하고 만들려면 게이트웨이 로그가 필요합니다. 다음 단계를 사용하여 이러한 로그를 추출합니다.
+
+1. 게이트웨이 클러스터를 식별합니다.
+
+    데이터 세트 소유자인 경우 먼저 데이터 세트와 연결된 게이트웨이 클러스터 이름을 확인합니다. 다음 이미지에서 *IgniteGateway* 는 게이트웨이 클러스터입니다.
+
+    ![게이트웨이 클러스터](media/service-gateway-onprem-tshoot/gateway-cluster.png)
+
+2. 게이트웨이 속성을 확인합니다.
+
+    그런 다음, 게이트웨이 관리자는 클러스터의 게이트웨이 구성원 수와 부하 분산을 사용할 수 있는지 확인해야 합니다.
+
+    부하 분산이 활성화된 경우 모든 게이트웨이 구성원에 대해 3단계를 반복해야 합니다. 활성화되지 않은 경우 기본 게이트웨이에서 로그를 내보내면 됩니다.
+
+3. 게이트웨이 로그를 검색하고 내보냅니다.
+
+    다음으로, 게이트웨이 시스템의 관리자이기도 한 게이트웨이 관리자는 다음 단계를 수행해야 합니다.
+
+    a. 게이트웨이 머신에 로그인한 다음, [온-프레미스 데이터 게이트웨이 앱](https://review.docs.microsoft.com/data-integration/gateway/service-gateway-app)을 시작하여 게이트웨이에 로그인합니다.
+    
+    b. [추가 로깅](https://review.docs.microsoft.com/data-integration/gateway/service-gateway-performance#slow-performing-queries)을 활성화합니다.
+    
+    c. 필요에 따라 [성능 모니터링 기능을 사용하도록 설정](https://review.docs.microsoft.com/data-integration/gateway/service-gateway-performance#enable-performance-logging)하고 성능 로그를 포함하여 문제 해결을 위한 추가 세부 정보를 제공할 수 있습니다.
+    
+    d. 게이트웨이 로그를 캡처하려는 시나리오를 실행합니다.
+    
+    e. [게이트웨이 로그를 내보냅니다](https://review.docs.microsoft.com/data-integration/gateway/service-gateway-tshoot#collect-logs-from-the-on-premises-data-gateway-app).
+
+
 ## <a name="refresh-history"></a>새로 고침 기록
 
-예약된 새로 고침에 게이트웨이를 사용하는 경우 **새로 고침 기록**에서 발생한 오류를 확인할 수 있습니다. 지원 요청을 만들어야 하는 경우 유용한 데이터도 제공할 수 있습니다. 예약된 새로 고침 및 요청 시 새로 고침을 볼 수 있습니다. 다음 단계는 새로 고침 기록에 액세스할 수 있는 방법을 보여 줍니다.
+예약된 새로 고침에 게이트웨이를 사용하는 경우 **새로 고침 기록** 에서 발생한 오류를 확인할 수 있습니다. 지원 요청을 만들어야 하는 경우 유용한 데이터도 제공할 수 있습니다. 예약된 새로 고침 및 요청 시 새로 고침을 볼 수 있습니다. 다음 단계는 새로 고침 기록에 액세스할 수 있는 방법을 보여 줍니다.
 
-1. Power BI 탐색 창의 **데이터 세트**에서 데이터 세트를 선택합니다. 메뉴를 열고 **새로 고침 예약**을 선택합니다.
+1. Power BI 탐색 창의 **데이터 세트** 에서 데이터 세트를 선택합니다. 메뉴를 열고 **새로 고침 예약** 을 선택합니다.
 
     ![새로 고침 예약을 선택하는 방법](media/service-gateway-onprem-tshoot/scheduled-refresh.png)
 
-2. **설정...** &gt; **새로 고침 예약**에서 **새로 고침 기록**을 선택합니다.
+2. **설정...** &gt; **새로 고침 예약** 에서 **새로 고침 기록** 을 선택합니다.
 
     ![새로 고침 기록 선택](media/service-gateway-onprem-tshoot/scheduled-refresh-2.png)
 

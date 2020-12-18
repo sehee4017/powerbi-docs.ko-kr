@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
-ms.openlocfilehash: bb48b92df81a49ee687376ee9f53428c10171b80
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b20bb007c55f7d7d618b70690475d34d9f53fc06
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410117"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491716"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Power BI에서 템플릿 앱 작성 팁
 
@@ -144,6 +144,10 @@ AppSource에 템플릿 앱을 게시한 후에는 웹 사이트에서 다음 중
 Power BI의 앱 다운로드 링크로 사용자를 리디렉션하려면 다음 코드 예제를 참조하세요. [GitHub 리포지토리](https://github.com/microsoft/Template-apps-examples)
 
 [![앱 다운로드 링크](media/service-template-apps-tips/service-template-apps-tips-download.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
+
+## <a name="automate-parameter-configuration-during-installation"></a>설치 중 매개 변수 구성 자동화
+
+ISV이고 웹 서비스를 통해 템플릿 앱을 배포하는 경우 고객이 Power BI 계정에 앱을 설치할 때 템플릿 앱 매개 변수를 자동으로 구성하는 자동화를 만들 수 있습니다. 이렇게 하면 고객이 알지 못할 수 있는 세부 정보를 제공할 필요가 없기 때문에 고객이 더 쉽게 작업을 수행하여 성공적으로 설치할 가능성이 높아집니다. 자세한 내용은 [템플릿 앱 설치의 자동화된 구성](../developer/template-apps/template-apps-auto-install.md)을 참조하세요.
 
 ## <a name="next-steps"></a>다음 단계
 

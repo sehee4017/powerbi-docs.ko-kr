@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 04/06/2020
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7cce4f9e78fce27fedf795a4a0016593580f061a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e9fd1179dc15776cef701476d38b18823f3a8deb
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96403171"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998802"
 ---
 # <a name="connect-to-the-crisis-communication-presence-report"></a>재난 안내 상태 보고서에 연결
 
@@ -57,9 +57,6 @@ ms.locfileid: "96403171"
 
 1. 앱 페이지에서 아이콘을 선택하여 앱을 엽니다.
 
-1. 시작 화면에서 **탐색** 을 선택합니다.
-
-   ![템플릿 앱 시작 화면](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-splash-screen.png)
 
    앱이 열리고 샘플 데이터가 표시됩니다.
 

@@ -1,5 +1,5 @@
 ---
-title: 포함된 분석 용량 계획
+title: Power BI 임베디드 분석 용량 계획
 description: Power BI Embedded 분석의 용량 및 SKU
 author: KesemSharabi
 ms.author: kesharab
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/03/2020
-ms.openlocfilehash: 23f58c047eeb47fce24ad38ae54d8f4d7a1c57e7
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: b172b48517ccc8c55821fa8e8217d5e2df398b2d
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983048"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098355"
 ---
 # <a name="capacity-planning-in-power-bi-embedded-analytics"></a>Power BI Embedded 분석의 용량 계획
 
@@ -27,7 +27,7 @@ Power BI Embedded 분석 배포에 필요한 용량의 유형을 계산하는 �
 * 데이터 새로 고침 속도
 * 예측하기 어려운 추가 사용 패턴입니다.
 
-이 문서는 Power BI Embedded 분석 용량( *A* , *EM* 또는 *P* SKU)에 대한 부하 테스트를 자동화하기 위해 만들어진 [Power BI 용량 부하 평가 도구](https://github.com/microsoft/PowerBI-Tools-For-Capacities/tree/master/LoadTestingPowerShellTool/)를 도입하여 Power BI Embedded 분석을 위한 용량 계획을 보다 쉽게 수행하도록 하기 위해 작성되었습니다.
+이 문서는 Power BI Embedded 분석 용량(*A*, *EM* 또는 *P* SKU)에 대한 부하 테스트를 자동화하기 위해 만들어진 [Power BI 용량 부하 평가 도구](https://github.com/microsoft/PowerBI-Tools-For-Capacities/tree/master/LoadTestingPowerShellTool/)를 도입하여 Power BI Embedded 분석을 위한 용량 계획을 보다 쉽게 수행하도록 하기 위해 작성되었습니다.
 
 ## <a name="planning-tool"></a>계획 도구
 

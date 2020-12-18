@@ -1,5 +1,5 @@
 ---
-title: 조직의 애플리케이션에 페이지를 매긴 Power BI 보고서 포함
+title: 조직용 Power BI 임베디드 분석 애플케이션에 Power BI 페이지를 매긴 보고서 포함
 description: 이 자습서에서는 Power BI API를 사용하여 애플리케이션에 페이지를 매긴 Power BI 보고서를 통합하거나 포함하는 방법을 알아봅니다.
 author: KesemSharabi
 ms.author: kesharab
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/25/2020
-ms.openlocfilehash: 447fad076d9d171a2bdcb8e9f5aafe9c63555d79
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: cb739ab6fee67f08184f8c160c13c58be15d649c
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668675"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098447"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-organization"></a>자습서:  조직의 애플리케이션에 페이지를 매긴 Power BI 보고서 포함
 

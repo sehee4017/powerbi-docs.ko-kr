@@ -1,5 +1,5 @@
 ---
-title: 고객의 애플리케이션에 콘텐츠 포함
+title: 고객용 Power BI 임베디드 분석 애플리케이션에 콘텐츠 포함
 description: Power BI 임베디드 분석 샘플에 보고서, 대시보드 또는 타일을 포함하는 방법을 알아봅니다.
 author: KesemSharabi
 ms.author: kesharab
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/02/2020
-ms.openlocfilehash: 7bc825992f5c7382e1c0a24783f732957913c588
-ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
+ms.openlocfilehash: e79a73880b50a0edb5e507726cb0c995ba13cd77
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96907201"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098424"
 ---
 # <a name="tutorial-embed-power-bi-content-using-a-sample-embed-for-your-customers-application"></a>자습서:  샘플 ‘고객에 대한 콘텐츠 포함’ 애플리케이션을 사용하여 Power BI 콘텐츠 포함
 

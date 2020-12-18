@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/23/2020
-ms.openlocfilehash: df5e82af012f4d85fd81399d6e31fde3b7539ce6
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 902fb0534eee307a84b24fe30496a32cccadb147
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95513829"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97097987"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Power BI에 대한 자격 증명을 프로그래밍 방식으로 구성
 
@@ -80,7 +80,7 @@ Power BI에 대한 자격 증명을 프로그래밍 방식으로 구성하려면
 
     # <a name="net-sdk-v3"></a>[.NET SDK v3](#tab/sdk3)
 
-    **3단계** 에서 검색된 공개 키를 사용하여 AssymetricKeyEncriptor 클래스를 사용합니다.
+    **3단계** 에서 검색된 공개 키를 통해 AssymetricKeyEncryptor 클래스를 사용합니다.
 
     ```csharp
     var credentialDetails = new CredentialDetails(

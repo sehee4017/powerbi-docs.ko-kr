@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 09/17/2020
-ms.openlocfilehash: b60728978a3429249d7376fdfe1477bf67ef293a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e6499d9e4547f1bd2b8cf4ac29fbc375af871f8a
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96401998"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998671"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>조직에 템플릿 앱 설치 및 배포
 
@@ -64,10 +64,6 @@ Power BI 분석가인가요? 그렇다면 이 문서에서는 Salesforce, Micros
 ## <a name="connect-to-data"></a>데이터에 연결
 
 1. **앱으로 이동** 을 선택합니다.
-
-1. **새 앱 시작** 창에서 **탐색** 을 선택합니다.
-
-   ![템플릿 앱 시작 화면](media/service-template-apps-install-distribute/power-bi-template-app-get-started.png)
 
    앱이 열리고 샘플 데이터가 표시됩니다.
 
@@ -138,6 +134,20 @@ Power BI 분석가인가요? 그렇다면 이 문서에서는 Salesforce, Micros
 
 >[!IMPORTANT]
 >덮어쓰기를 수행한 후에는 [앱을 업데이트](#customize-and-share-the-app)하여 조직 앱 사용자를 위해 보고서와 대시보드에 변경 사항을 적용해야 합니다.
+
+## <a name="delete-a-template-app"></a>템플릿 앱 삭제
+
+설치된 템플릿 앱은 앱과 관련 작업 영역으로 구성됩니다. 템플릿 앱을 제거하려는 경우 두 가지 옵션이 있습니다.
+* **앱 및 관련 작업 영역을 완전히 제거** 합니다. 템플릿 앱 및 관련 작업 영역을 완전히 제거하려면 앱 페이지의 앱 타일로 이동하여 휴지통 아이콘을 선택한 다음, 표시되는 대화 상자에서 **삭제** 를 클릭합니다.
+* **앱 게시 취소**: 이 옵션은 앱을 제거하지만 관련 작업 영역은 유지합니다. 이 옵션은 예를 들어 유지하려는 사용자 지정 항목이 있는 경우에 유용합니다.
+
+    앱 게시를 취소하려면 다음을 수행합니다.
+    1. 앱을 엽니다.
+    1. 앱 편집 연필 아이콘을 클릭하여 템플릿 앱의 작업 영역을 엽니다.
+    1. 템플릿 앱 작업 영역에서 **추가 옵션(...)** 을 선택한 다음, **앱 게시 취소** 를 선택합니다.
+
+        ![앱 게시 취소 옵션의 스크린샷.](media/service-template-apps-install-distribute/power-bi-template-app-unpublish.png)
+
 
 ## <a name="next-steps"></a>다음 단계
 

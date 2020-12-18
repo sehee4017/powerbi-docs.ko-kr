@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 11/17/2020
+ms.date: 12/14/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 2689597e35801d6829b29790309ea53ad410ff47
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5c69abe925751e8b065f262e151bfee65c487238
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412026"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492061"
 ---
 # <a name="export-power-bi-paginated-reports-with-power-automate"></a>Power Automate를 사용하여 Power BI 페이지를 매긴 보고서 내보내기
 
@@ -40,7 +40,7 @@ ms.locfileid: "96412026"
 
 - [비즈니스용 OneDrive 또는 SharePoint Online 폴더에 Power BI 페이지를 매긴 보고서를 저장](service-automate-paginated-onedrive-sharepoint.md)합니다.  
 - [SharePoint Online 목록의 항목 또는 Excel Online 테이블의 각 행에 대해 Power BI 페이지를 매긴 보고서를 내보냅니다](service-automate-paginated-excel-sharepoint-list.md).
-- Power BI 페이지를 매긴 보고서를 로컬 시스템 폴더에 저장합니다.
+- [Power BI 페이지를 매긴 보고서를 로컬 시스템 폴더에 저장](service-automate-paginated-local-file.md)합니다.
 
 ## <a name="next-steps"></a>다음 단계
 

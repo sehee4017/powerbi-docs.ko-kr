@@ -1,5 +1,5 @@
 ---
-title: 서비스 주체 및 애플리케이션 암호를 사용하여 Power BI 콘텐츠 포함
+title: 서비스 주체 및 애플리케이션 비밀을 사용하여 임베디드 분석 애플리케이션에 Power BI 콘텐츠 포함
 description: Azure Active Directory 애플리케이션 서비스 주체 및 애플리케이션 암호를 사용하여 임베디드 분석을 인증하는 방법을 알아봅니다.
 author: KesemSharabi
 ms.author: kesharab
@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
 ms.date: 11/23/2020
-ms.openlocfilehash: 41b8cfe8515efbf3cc42794afcb2562f7d0c171a
-ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
+ms.openlocfilehash: 203ea16481d8f4b7d460066d5309b119d25b8b94
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96907098"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098125"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>서비스 주체 및 애플리케이션 암호를 사용하여 Power BI 콘텐츠 포함
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-dataflows
 ms.topic: how-to
-ms.date: 11/13/2020
+ms.date: 12/10/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 106a70b567be7fc095dbc29917036b92b0f577e5
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 646f3d37bb0200cf423ccdffb42dc4ce866ade9f
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412555"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098263"
 ---
 # <a name="configuring-dataflow-storage-to-use-azure-data-lake-gen-2"></a>Azure Data Lake Gen 2를 사용하도록 데이터 흐름 스토리지 구성 
 
@@ -25,6 +25,8 @@ Power BI에 사용되는 데이터는 기본적으로 Power BI에서 제공하�
 ## <a name="pre-requisites"></a>필수 구성 요소
 
 자체 ADLS Gen 2 계정을 가져오려면 스토리지 계정, 리소스 그룹 또는 구독 계층에서 소유자 권한이 있어야 합니다. 관리자인 경우에도 자신에게 소유자 권한을 할당해야 합니다. 
+
+스토리지 계정은 [HNS(계층 구조 네임 스페이스)](https://docs.microsoft.com/azure/storage/blobs/create-data-lake-storage-account)를 사용하도록 설정된 상태에서 만들어야 합니다. 
 
 또한 ADLS Gen 2 계정은 Power BI 테넌트와 동일한 지역에 배포해야 합니다. 리소스의 위치가 동일한 지역에 없는 경우 오류가 발생합니다.
 

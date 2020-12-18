@@ -1,5 +1,5 @@
 ---
-title: 포함된 애플리케이션 문제 해결
+title: Power BI 임베디드 분석 애플리케이션 문제 해결
 description: 이 문서에서는 Power BI 콘텐츠를 포함할 때 발생할 수 있는 몇 가지 일반적인 문제에 대해 설명합니다.
 author: KesemSharabi
 ms.author: kesharab
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: 3016cce1e4dd8fb1be5b5ab95ebcc73bdcb56ac1
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: f46bdf5aec254763257fa4b121b4b8c135a0d58a
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749072"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098079"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>포함된 애플리케이션 문제 해결
 
@@ -63,7 +63,7 @@ Azure Portal 또는 Power BI 앱 등록 페이지 내에서 표시되는 오류 
 
 ### <a name="power-bi-service-doesnt-appear-in-the-azure-portal-when-registering-a-new-app"></a>새 앱을 등록할 때 Azure Portal에 Power BI 서비스가 표시되지 않음
 
-적어도 사용자 한 명 이상이 Power BI에 등록되어야 합니다. API 목록에 **Power BI 서비스**가 표시되지 않으면 Power BI에 등록된 사용자가 없는 것입니다.
+적어도 사용자 한 명 이상이 Power BI에 등록되어야 합니다. API 목록에 **Power BI 서비스** 가 표시되지 않으면 Power BI에 등록된 사용자가 없는 것입니다.
 
 ## <a name="rest-api"></a>REST API
 
@@ -101,7 +101,7 @@ HTTP/1.1 403 Forbidden
 
 ### <a name="authentication-failed-with-aadsts90002-tenant-authorize-not-found"></a>AADSTS90002로 인증 실패: 테넌트 '권한 부여'를 찾을 수 없음
 
- ***오류: invalid_request, error_description과 같은 메시지를 받은 경우: AADSTS90002: ADAL 4.x가 "https://login.microsoftonline.com/{Tenant}/oauth2/authorize/"를 기관 URL로 지원하지 않기 때문에 테넌트 '권한 부여'를 찾을 수 없습니다***.
+ ***오류: invalid_request, error_description과 같은 메시지를 받은 경우: AADSTS90002: ADAL 4.x가 "https://login.microsoftonline.com/{Tenant}/oauth2/authorize/"를 기관 URL로 지원하지 않기 때문에 테넌트 '권한 부여'를 찾을 수 없습니다** _.
  
 이 문제를 해결하려면 기관 URL의 끝에서 "oauth2/authorize/"를 잘라내야 합니다. 참조용 [Power BI 개발자 샘플](https://github.com/Microsoft/PowerBI-Developer-Samples)을 참조하세요.
 
@@ -109,15 +109,15 @@ HTTP/1.1 403 Forbidden
 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>AADSTS70002 또는 AADSTS50053으로 인증하지 못했습니다.
 
-**_(AADSTS70002: 자격 증명의 유효성 검사 오류입니다. AADSTS50053: 잘못된 사용자 ID 또는 암호를 사용하여 로그인을 너무 많이 시도했습니다.)_**
+_*_ (AADSTS70002: 자격 증명의 유효성 검사 오류입니다. AADSTS50053: 잘못된 사용자 ID 또는 암호를 사용하여 로그인을 너무 많이 시도했습니다.)_**
 
-Power BI Embedded를 사용하고 Azure AD 직접 인증을 활용하는 경우 다음과 같은 로그인 메시지를 받습니다. ***오류: unauthorized_client, error_description:AADSTS70002: 자격 증명의 유효성 검사 오류입니다. AADSTS50053: 잘못된 사용자 ID 또는 암호를 사용하여 로그인을 너무 많이 시도했습니다.*** 이는 2018년 6월 14일부터 직접 인증이 기본적으로 더 이상 사용되지 않기 때문입니다.
+Power BI Embedded를 사용하고 Azure AD 직접 인증을 활용하는 경우 다음과 같은 로그인 메시지를 받습니다. **_오류: unauthorized_client, error_description:AADSTS70002: 자격 증명의 유효성 검사 오류입니다. AADSTS50053: 잘못된 사용자 ID 또는 암호를 사용하여 로그인을 너무 많이 시도했습니다._* _ 이는 2018년 6월 14일부터 직접 인증이 기본적으로 더 이상 사용되지 않기 때문입니다.
 
 범위가 조직 또는 [서비스 주체](/azure/active-directory/develop/active-directory-application-objects#service-principal-object)로 지정된 [Azure AD 정책](/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications)을 사용하여 이 기능을 다시 설정하는 방법이 있습니다.
 
 이 정책은 앱별 기준으로만 사용하도록 설정하는 것이 좋습니다.
 
-이 정책을 만들려면 정책을 만들고 할당하는 디렉터리에서 **전역 관리자**여야 합니다. 정책을 만들고 이 애플리케이션에 SP를 할당하기 위한 샘플 스크립트는 다음과 같습니다.
+이 정책을 만들려면 정책을 만들고 할당하는 디렉터리에서 _ *전역 관리자**여야 합니다. 정책을 만들고 이 애플리케이션에 SP를 할당하기 위한 샘플 스크립트는 다음과 같습니다.
 
 1. [Azure AD 미리 보기 PowerShell 모듈](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)을 설치합니다.
 
@@ -183,7 +183,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
     ![승인 테스트 수정](media/embedded-troubleshoot/consent-test-02.png)
 
-관리자가 전체 테넌트 또는 특정 사용자에게 애플리케이션에 대한 *권한을 부여*합니다.
+관리자가 전체 테넌트 또는 특정 사용자에게 애플리케이션에 대한 *권한을 부여* 합니다.
 
 ### <a name="cs1061-error"></a>CS1061 오류
 
@@ -197,9 +197,9 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 ## <a name="troubleshoot-your-embedded-application-with-the-ierror-object"></a>IError 개체를 사용하여 포함된 애플리케이션 문제 해결
 
-[**JavaScript SDK**](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Troubleshooting-and-debugging-of-embedded-parts)에서 ‘오류’ 이벤트에 의해 반환된 **IError 개체**를 사용하여 애플리케이션을 디버그하고 오류의 원인을 더 잘 알아보세요. 
+[**JavaScript SDK**](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Troubleshooting-and-debugging-of-embedded-parts)에서 ‘오류’ 이벤트에 의해 반환된 **IError 개체** 를 사용하여 애플리케이션을 디버그하고 오류의 원인을 더 잘 알아보세요. 
 
-IError 개체를 확보한 후에는 사용 중인 포함 유형에 해당하는 적절한 일반 오류 테이블을 확인해야 합니다. **IError 속성**을 테이블의 속성과 비교하여 가능한 실패 원인을 찾아보세요.
+IError 개체를 확보한 후에는 사용 중인 포함 유형에 해당하는 적절한 일반 오류 테이블을 확인해야 합니다. **IError 속성** 을 테이블의 속성과 비교하여 가능한 실패 원인을 찾아보세요.
 
 ### <a name="typical-errors-when-embedding-for-power-bi-users"></a>Power BI 사용자에 대해 포함할 경우 발생하는 일반적인 오류
 
@@ -255,7 +255,7 @@ Power BI Desktop 또는 powerbi.com에서 파일을 열고, 성능이 애플리�
 
 포함 설정 도구를 사용하기 전에 적절한 필수 조건이 모두 있는지 확인합니다. **Power BI Pro** 계정과 **Microsoft Azure** 구독이 필요합니다.
 
-* 아직 **Power BI Pro**에 등록하지 않은 경우 시작하기 전에 [평가판에 등록](https://powerbi.microsoft.com/pricing/)합니다.
+* 아직 **Power BI Pro** 에 등록하지 않은 경우 시작하기 전에 [평가판에 등록](https://powerbi.microsoft.com/pricing/)합니다.
 * Azure 구독이 없는 경우 시작하기 전에 [체험 계정](https://azure.microsoft.com/free/?WT.mc_id=A261C142F)을 만듭니다.
 * 고유한 [Azure Active Directory 테넌트 ](create-an-azure-active-directory-tenant.md) 설정을 사용해야 합니다.
 * [Visual Studio](https://www.visualstudio.com/)를 설치해야 합니다(버전 2013 이상).
@@ -268,7 +268,7 @@ Power BI Desktop 또는 powerbi.com에서 파일을 열고, 성능이 애플리�
 
 **고객에 대한 콘텐츠 포함** 환경을 사용하는 경우 *PowerBI-Developer-Samples.zip* 파일을 저장하고 압축을 풉니다. 그런 다음, *PowerBI-Developer-Samples-master\App Owns Data* 폴더를 열고 *PowerBIEmbedded_AppOwnsData.sln* 파일을 실행합니다.
 
-**권한 부여**를 선택하는 경우(권한 부여 단계) 다음과 같은 오류가 발생합니다.
+**권한 부여** 를 선택하는 경우(권한 부여 단계) 다음과 같은 오류가 발생합니다.
 
 ```output
 AADSTS70001: Application with identifier <client ID> wasn't found in the directory <directory ID>

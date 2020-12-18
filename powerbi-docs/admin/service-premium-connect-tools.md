@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 12/01/2020
+ms.date: 12/09/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: b238daa82bc2ae039c137c259ca8f63044281e6f
-ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
+ms.openlocfilehash: 383c9bd20c86d89c5bf51c64c8027f86c1bfaab9
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96613719"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998970"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint"></a>XMLA 엔드포인트로 데이터 세트 연결
 
@@ -34,9 +34,9 @@ Power BI Premium은 클라이언트 애플리케이션과 Power BI 작업 영역
 
 다음 목록은 Azure Analysis Services 및 SQL Server Analysis Services에서 사용되는 가장 일반적인 도구이며 이제 Power BI Premium 데이터 세트에서 지원됩니다.
 
-**Analysis Services 프로젝트 포함 Visual Studio** - SQL Server Data Tools 또는 간단히 **SSDT** 라고도 하며, Analysis Services 테이블 형식 모델을 위한 엔터프라이즈급 모델 작성 도구입니다. Analysis Services 프로젝트 확장은 무료 Community 버전을 포함하여 모든 Visual Studio 2017 이상 버전에서 지원됩니다. Premium 작업 영역에 테이블 형식 모델을 배포하려면 확장 버전 2.9.6 이상이 필요합니다. Premium 작업 영역에 배포하는 경우 모델은 1500 이상 호환성 수준에 있어야 합니다. 데이터 세트 워크로드에 XMLA 읽기/쓰기가 필요합니다. 더 자세히 알아보려면 [Analysis Services용 도구](/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current&preserve-view=true)를 참조하세요.
+**Analysis Services 프로젝트 포함 Visual Studio** - SQL Server Data Tools 또는 간단히 **SSDT** 라고도 하며, Analysis Services 테이블 형식 모델을 위한 엔터프라이즈급 모델 작성 도구입니다. Analysis Services 프로젝트 확장은 무료 Community 버전을 포함하여 모든 Visual Studio 2017 이상 버전에서 지원됩니다. 프리미엄 작업 영역에 테이블 형식 모델을 배포하려면 확장 버전 2.9.14 이상이 필요합니다. Premium 작업 영역에 배포하는 경우 모델은 1500 이상 호환성 수준에 있어야 합니다. 데이터 세트 워크로드에 XMLA 읽기/쓰기가 필요합니다. 더 자세히 알아보려면 [Analysis Services용 도구](/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current&preserve-view=true)를 참조하세요.
 
-**SSMS(SQL Server Management Studio)**  - DAX, MDX 및 XMLA 쿼리를 지원합니다. TMSL([테이블 형식 모델 스크립팅 언어](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference))을 사용하여 세밀한 새로 고침 작업 및 데이터 세트 메타데이터 스크립팅을 수행합니다. 쿼리 작업에는 읽기 전용이 필요합니다. 메타데이터 스크립팅에는 읽기/쓰기가 필요합니다. SSMS 버전 18.4 이상이 필요합니다.  [여기](/sql/ssms/download-sql-server-management-studio-ssms)에서 다운로드하세요.
+**SSMS(SQL Server Management Studio)**  - DAX, MDX 및 XMLA 쿼리를 지원합니다. TMSL([테이블 형식 모델 스크립팅 언어](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference))을 사용하여 세밀한 새로 고침 작업 및 데이터 세트 메타데이터 스크립팅을 수행합니다. 쿼리 작업에는 읽기 전용이 필요합니다. 메타데이터 스크립팅에는 읽기/쓰기가 필요합니다. SSMS 버전 18.7.1 이상이 필요합니다.  [여기](/sql/ssms/download-sql-server-management-studio-ssms)에서 다운로드하세요.
 
 **SQL Server Profiler** – SSMS와 함께 설치되는 이 도구는 데이터 세트 이벤트를 추적 및 디버그하는 기능을 제공합니다. 공식적으로는 SQL Server에 사용되지 않지만 Profiler는 SSMS에 계속 포함되며 Analysis Services 및 Power BI Premium에서 계속 지원됩니다. XMLA 읽기 전용이 필요합니다. 자세한 내용은  [Analysis Services용 SQL Server Profiler](/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services?view=power-bi-premium-current&preserve-view=true)를 참조하세요.
 
