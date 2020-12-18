@@ -7,29 +7,29 @@ metadata:
   description: Power BI는 데이터의 가치와 정보를 배가합니다. Power BI 용도와 관계없이 여기에서 전문가의 정보와 답변을 찾아보세요.
   services: service
   ms.service: powerbi
-  ms.subservice: subservice
+  ms.subservice: powerbi-service
   ms.topic: hub-page
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 09/09/2020
-  ms.openlocfilehash: a21230b02654b6335dd8631fb0df1db6bb4e830a
-  ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+  ms.date: 12/16/2020
+  ms.openlocfilehash: be6ec499d78d3ba5f3899fcb8556296568a40319
+  ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 09/22/2020
-  ms.locfileid: "90857936"
+  ms.lasthandoff: 12/17/2020
+  ms.locfileid: "97621858"
 highlightedContent:
   items:
   - title: Power BI Desktop 시작
     itemType: get-started
     url: fundamentals/desktop-getting-started.md
-  - title: Microsoft Teams에서 Power BI를 사용하여 협업
+  - title: Power BI 데이터 세트 및 Azure Analysis용 DirectQuery
     itemType: concept
-    url: collaborate-share/service-collaborate-microsoft-teams.md
-  - title: 애플리케이션에 Power BI 콘텐츠 포함
+    url: connect-data/desktop-directquery-datasets-azure-analysis-services.md
+  - title: Power BI에서 Azure Machine Learning 모델 사용
     itemType: tutorial
-    url: developer/embedded/embed-sample-for-customers.md
+    url: connect-data/service-aml-integrate.md
   - title: Microsoft Learn의 Power BI
     itemType: learn
     url: /learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link
@@ -99,9 +99,9 @@ conceptualContent:
     - url: connect-data/service-gateway-onprem.md
       itemType: concept
       text: 온-프레미스 데이터 게이트웨이
-    - url: connect-data/refresh-data.md
+    - url: connect-data/service-datasets-hub.md
       itemType: concept
-      text: 데이터 새로 고침
+      text: 데이터 세트 허브에서 데이터 검색
     footerLink:
       url: connect-data/index.yml
       text: 자세히 보기
@@ -155,9 +155,9 @@ conceptualContent:
     - url: collaborate-share/service-create-the-new-workspaces.md
       itemType: how-to-guide
       text: 새 작업 영역 만들기
-    - url: connect-data/service-datasets-across-workspaces.md
+    - url: collaborate-share/service-collaborate-microsoft-teams.md
       itemType: concept
-      text: 공유 데이터 세트 소개
+      text: Microsoft Teams에서 협업
     footerLink:
       url: collaborate-share/index.yml
       text: 자세히 보기
@@ -169,9 +169,9 @@ conceptualContent:
     - url: collaborate-share/service-analyze-in-excel.md
       itemType: concept
       text: Excel에서 분석
-    - url: collaborate-share/service-embed-report-spo.md
+    - url: collaborate-share/service-automate-power-bi-report-export.md
       itemType: concept
-      text: SharePoint Online에 포함
+      text: Power Automate를 사용하여 내보내기 및 메일 보내기
     footerLink:
       url: collaborate-share/index.yml
       text: 자세히 보기

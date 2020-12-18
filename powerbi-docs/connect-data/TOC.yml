@@ -17,6 +17,7 @@
         - name: Power BI Desktop에서 데이터에 연결
           href: desktop-quickstart-connect-to-data.md
     - name: 자습서
+      expanded: true
       items:
         - name: 여러 데이터 원본 셰이프 및 결합
           href: desktop-shape-and-combine-data.md
@@ -39,6 +40,7 @@
         - name: SQL Server에서 데이터 새로 고침
           href: service-gateway-sql-tutorial.md
     - name: 개념
+      expanded: true
       items:
         - name: Power BI 데이터 원본
           href: power-bi-data-sources.md
@@ -50,6 +52,8 @@
           href: desktop-default-member-multidimensional-models.md
         - name: Power BI에서 DirectQuery를 사용하는 방법
           href: desktop-directquery-about.md
+        - name: Power BI 데이터 세트 및 Azure Analysis Services에 대해 DirectQuery 사용(미리 보기)
+          href: desktop-directquery-datasets-azure-analysis-services.md
         - name: 게이트웨이
           items:
             - name: 데이터 게이트웨이 배포 지침
@@ -57,6 +61,7 @@
             - name: 온-프레미스 데이터 게이트웨이 FAQ
               href: service-gateway-power-bi-faq.md
     - name: 방법 가이드
+      expanded: true
       items:
         - name: 데이터 원본 연결
           href: desktop-connect-to-data.md

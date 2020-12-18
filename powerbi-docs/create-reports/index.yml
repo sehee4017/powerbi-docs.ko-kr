@@ -11,13 +11,13 @@ metadata:
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 03/30/2020
-  ms.openlocfilehash: 2c70b084c2b4f5af8a71dd6004b742402800f77c
-  ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+  ms.date: 12/16/2020
+  ms.openlocfilehash: 2bc4ade5dc563445c945f0a5b14f28272938c0d5
+  ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 05/19/2020
-  ms.locfileid: "83563998"
+  ms.lasthandoff: 12/17/2020
+  ms.locfileid: "97622019"
 landingContent:
 - title: 시작
   linkLists:
@@ -31,6 +31,8 @@ landingContent:
       url: sample-datasets.md
   - linkListType: tutorial
     links:
+    - text: Excel에서 Power BI Desktop으로 보고
+      url: desktop-excel-stunning-report.md
     - text: 샘플 팩 가져오기 및 열기
       url: sample-tutorial-connect-to-the-samples.md
   - linkListType: sample
@@ -51,6 +53,10 @@ landingContent:
       url: ../visuals/power-bi-map-tips-and-tricks.md
     - text: 시각적 개체에서 데이터 내보내기
       url: ../visuals/power-bi-visualization-export-data.md
+    - text: 분해 트리 시각적 개체
+      url: ../visuals/power-bi-visualization-decomposition-tree.md
+    - text: 스마트 설명
+      url: ../visuals/power-bi-visualization-smart-narrative.md
     - text: 슬라이서
       url: ../visuals/power-bi-visualization-slicers.md
 - title: 보고서 디자인

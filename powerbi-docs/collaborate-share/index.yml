@@ -6,18 +6,18 @@ metadata:
   description: Power BI 설명서를 통해 Power BI 용도와 관계없이 필요에 부합한 전문가의 정보 및 답변을 얻을 수 있습니다.
   services: powerbi
   ms.service: powerbi
-  ms.subservice: powerbi
+  ms.subservice: pbi-collaborate-share
   ms.topic: landing-page
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 03/03/2020
-  ms.openlocfilehash: 9b2f5fd70ed00dccb122fb4195284a1f3e0f75c2
-  ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+  ms.date: 12/15/2020
+  ms.openlocfilehash: 641912026673d45c494d9350bdcc7d47e306138c
+  ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
   ms.translationtype: HT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 05/13/2020
-  ms.locfileid: "83275182"
+  ms.lasthandoff: 12/17/2020
+  ms.locfileid: "97621743"
 landingContent:
 - title: 협업 및 공유 시작하기
   linkLists:
@@ -25,18 +25,22 @@ landingContent:
     links:
     - text: 작업 공유 방법
       url: service-how-to-collaborate-distribute-dashboards-reports.md
-- title: 동료와 협업
-  linkLists:
-  - linkListType: concept
-    links:
-    - text: 작업 영역의 데이터 세트 소개
-      url: ../connect-data/service-datasets-across-workspaces.md
-    - text: 공유 데이터 세트에 대한 사용 권한 빌드
-      url: ../connect-data/service-datasets-build-permissions.md
   - linkListType: how-to-guide
     links:
     - text: 새 작업 영역에서 작업 구성
       url: service-new-workspaces.md
+- title: Microsoft Teams에서 협업
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Microsoft Teams에서 협업
+      url: service-collaborate-microsoft-teams.md
+  - linkListType: how-to-guide
+    links:
+    - text: Microsoft Teams에 Power BI 앱 추가
+      url: service-microsoft-teams-app.md
+    - text: Microsoft Teams에서 직접 채팅
+      url: service-share-report-teams.md
 - title: 작업 공유
   linkLists:
   - linkListType: concept
@@ -65,3 +69,15 @@ landingContent:
     links:
     - text: SharePoint Online에 포함
       url: service-embed-report-spo.md
+- title: Power Automate와 통합
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Power Automate를 사용하여 페이지가 매겨진 보고서 내보내기
+      url: service-automate-paginated-integration.md
+  - linkListType: how-to-guide
+    links:
+    - text: Power Automate와 데이터 경고 통합
+      url: service-flow-integration.md
+    - text: Power Automate를 사용하여 Power BI 보고서를 메일로 보내기
+      url: service-automate-power-bi-report-export.md
